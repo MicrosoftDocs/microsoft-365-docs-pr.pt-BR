@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Siga estas práticas recomendadas para a EOP (Proteção do Exchange Online) a fim de evitar erros comuns de configuração e obter êxito.
-ms.openlocfilehash: fd0baf81b516c30e2cee3b702e2ca0be560e9f4d
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 9bddb736d41b4fd56790b8bbe9dbb00d07e75553
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033429"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528612"
 ---
 # <a name="best-practices-for-configuring-eop-and-office-365-atp"></a>Práticas recomendadas para configurar o EOP e o Office 365 ATP
 
@@ -53,7 +53,7 @@ Estas configurações abrangem uma variedade de recursos fora das políticas de 
 |Envio autenticado SMTP para a caixa de correio|Desabilitado|Desabilitado||
 |Conectividade do EWS à caixa de correio|Desabilitado|Desabilitado||
 |[Conectividade do PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)|Desabilitado|Desabilitado|Disponível para usuários de caixa de correio ou usuários de email (objetos de usuário retornados pelo cmdlet [Get-User](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-user) ).|
-|Usar a inteligência de falsificação para os remetentes da lista branca sempre que possível|Sim|Sim||
+|Usar a [inteligência de falsificação](learn-about-spoof-intelligence.md) para os remetentes da lista branca sempre que possível|Sim|Sim||
 |Bloqueio de borda baseado em diretório (DBEB)|Habilitado|Habilitado|Tipo de domínio = autoritativo|
 |[Configurar a autenticação multifator para todas as contas de administrador](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)|Habilitado|Habilitado||
 

@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 61f066b2fff2798e78e6379bbca46e48e93ff017
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 1a5c5ae702f16bbf47be83837cf244cdd64278cd
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895436"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43541102"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>O que está acontecendo na pontuação segura da Microsoft?
 
@@ -36,15 +36,15 @@ Para saber mais sobre as alterações recentes, confira [o que há de novo na po
 
 Para garantir que a pontuação segura da Microsoft seja significativa e que cada ação de melhoria seja mensurável e confiável, estamos removendo as seguintes ações de aprimoramento.
 
-- Excluir/bloquear contas não usadas nos últimos 30 dias
-- Designar menos de 5 administradores globais
 - Aplicar proteções de IRM a documentos
 - Aplicar políticas de prevenção contra perda de dados
 
-### <a name="adding-additional-control-support-in-the-preview-version"></a>Adição de suporte de controle adicional na versão de visualização
+### <a name="adding-azure-ad-improvement-action-in-the-preview-version"></a>Adicionando a ação de melhoria do Azure AD na versão prévia
+
 - Não permitir que os usuários conceda consentimento a aplicativos não gerenciados (atualmente disponível na versão lançada)
 
-#### <a name="support-for-additional-microsoft-cloud-app-security-improvement-actions"></a>Suporte para ações adicionais de melhoria de segurança do aplicativo do Microsoft Cloud
+### <a name="adding-azure-atp-improvement-actions-in-the-preview-version"></a>Adicionando ações de melhoria da ATP do Azure na versão prévia
+
 - Desabilitar o serviço spooler de impressão em controladores de domínio
 - Modificar as delegações Kerberos não seguras para impedir a representação
 - Proteger e gerenciar senhas de administrador local com o Microsoft LAPS
@@ -56,5 +56,6 @@ Para garantir que a pontuação segura da Microsoft seja significativa e que cad
 - Parar comunicação de protocolos herdados
 - Interromper o uso de codificação fraca
 
-#### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations"></a>Suporte para recomendações de segurança do TVM (gerenciamento de vulnerabilidades) do Microsoft defender & ATP
+### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations-in-the-preview-version"></a>Suporte para recomendações de segurança do TVM (gerenciamento de vulnerabilidades) de & ameaças ATP da Microsoft defender na versão prévia
+
 - Todas as recomendações de segurança lançadas pelo TVM também estarão disponíveis na pontuação segura da Microsoft

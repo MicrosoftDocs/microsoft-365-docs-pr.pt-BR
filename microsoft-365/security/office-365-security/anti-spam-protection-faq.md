@@ -1,11 +1,10 @@
 ---
-title: Proteção antispam no Office 365 perguntas frequentes
+title: Perguntas frequentes sobre a proteção antispam
 f1.keywords:
 - NOCSH
-ms.author: krowley
-author: kccross
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 12/9/2016
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,15 +14,15 @@ search.appverid:
 ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
-description: Este tópico fornece as perguntas frequentes e respectivas respostas sobre a proteção contra spam. As respostas são aplicáveis aos clientes do Microsoft Exchange Online e do Proteção do Exchange Online (EOP).
-ms.openlocfilehash: 47970cd2f67873b3c8b1fbfa70b7e1754fc8359c
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+description: Perguntas frequentes e respostas para administradores sobre a proteção antispam no Exchange Online e no Exchange Online Protection (EOP) autônomo.
+ms.openlocfilehash: 30ab9ceb7d2e9e4a264311ff43343485a57d622c
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033489"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528306"
 ---
-# <a name="anti-spam-protection-in-office-365-faq"></a>Proteção antispam no Office 365 perguntas frequentes
+# <a name="anti-spam-protection-faq-in-office-365"></a>Perguntas frequentes sobre proteção antispam no Office 365
 
 Este tópico fornece perguntas frequentes e respostas sobre a proteção antispam para clientes do Office 365 com caixas de correio em Exchange Online ou clientes autônomos do Exchange Online Protection (EOP), sem caixas de correio do Exchange Online.
 
@@ -31,14 +30,16 @@ Para obter perguntas e respostas sobre a quarentena, veja [Perguntas Frequentes 
 
 Para perguntas e respostas sobre a proteção contra malware, consulte [Anti-Malware Protection FAQ](anti-malware-protection-faq-eop.md).
 
+Para perguntas e respostas sobre a proteção contra falsificação, confira [perguntas frequentes sobre proteção contra falsificação](anti-spoofing-protection-faq.md).
+
 ## <a name="q-by-default-what-happens-to-a-spam-detected-message"></a>T. Por padrão, o que acontece com uma mensagem de spam detectada?
 
-R. **Para mensagens de entrada:** A maior parte do spam é excluída por meio da filtragem de conexão, que se baseia no endereço IP do servidor de email de origem. Políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) inspecionar e classificar mensagens como spam, massa ou phishing. Por padrão, as mensagens classificadas como spam ou em massa são entregues na pasta lixo eletrônico do destinatário, enquanto as mensagens classificadas como phishing são colocadas em quarentena. Você pode modificar a política antispam padrão (aplica-se a todos os destinatários) ou pode criar políticas antispam personalizadas com configurações mais rígidas para grupos específicos de usuários (por exemplo, você pode colocar em quarentena spam enviado para executivos). Para saber mais, confira [Configurar políticas antispam no Office 365](configure-your-spam-filter-policies.md) e [configurações de política antispam recomendadas](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings).
+R. **Para mensagens de entrada**: a maior parte do spam é excluída por meio da filtragem de conexão, que se baseia no endereço IP do servidor de email de origem. Políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) inspecionar e classificar mensagens como spam, massa ou phishing. Por padrão, as mensagens classificadas como spam ou em massa são entregues na pasta lixo eletrônico do destinatário, enquanto as mensagens classificadas como phishing são colocadas em quarentena. Você pode modificar a política antispam padrão (aplica-se a todos os destinatários) ou pode criar políticas antispam personalizadas com configurações mais rígidas para grupos específicos de usuários (por exemplo, você pode colocar em quarentena spam enviado para executivos). Para saber mais, confira [Configurar políticas antispam no Office 365](configure-your-spam-filter-policies.md) e [configurações de política antispam recomendadas](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings).
 
 > [!IMPORTANT]
 > Em implantações híbridas onde o EOP protege caixas de correio locais, você precisa configurar duas regras de fluxo de mensagens do Exchange (também conhecidas como regras de transporte) em sua organização do Exchange local para detectar os cabeçalhos de filtragem de spam do EOP que são adicionados às mensagens. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
 
- **Para mensagens de saída:** A mensagem é roteada através do [pool de entrega de alto risco](high-risk-delivery-pool-for-outbound-messages.md) ou retornada ao remetente em uma notificação de falha na entrega (também conhecida como NDR ou mensagem de devolução). Para obter mais informações sobre a proteção contra spam de saída, consulte [controles de spam de saída no Office 365](outbound-spam-controls.md).
+ **Para mensagens de saída**: a mensagem é roteada através do [pool de entrega de alto risco](high-risk-delivery-pool-for-outbound-messages.md) ou retornada ao remetente em uma notificação de falha na entrega (também conhecida como NDR ou mensagem de devolução). Para obter mais informações sobre a proteção contra spam de saída, consulte [controles de spam de saída no Office 365](outbound-spam-controls.md).
 
 ## <a name="q-whats-a-zero-day-spam-variant-and-how-is-it-handled-by-the-service"></a>T. O que é uma variante de spam de dia zero e como ela é manipulada pelo serviço?
 

@@ -1,156 +1,198 @@
 ---
-title: Configurar as políticas anti-phishing do Office 365 ATP
+title: Políticas anti-phishing
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.date: 08/29/2019
+ms.date: ''
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
 - M365-security-compliance
-description: Proteção contra phishing, com proteção abrangente como parte do Office 365 proteção avançada contra ameaças e proteção básica no Office 365 proteção do Exchange Online, pode ajudar a proteger sua organização contra ataques de phishing baseados em representação mal-intencionada. e outros ataques de phishing.
-ms.openlocfilehash: cc9c8ec0aa819696f3c53cff690be40ae82009fb
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+description: Saiba mais sobre a política anti-phishing básica na proteção do Exchange Online (EOP) e as políticas anti-phishing avançadas do ATP no Office 365 proteção avançada contra ameaças.
+ms.openlocfilehash: f96b490d2c031fb509c39b2efdbc725cec2709a5
+ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604068"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43537468"
 ---
-# <a name="set-up-office-365-atp-anti-phishing-and-anti-phishing-policies"></a> Configurar políticas antiphishing e antiphishing da ATP do Office 365
+# <a name="anti-phishing-policies-in-office-365"></a>Políticas anti-phishing no Office 365
 
-A [proteção antiphishing da ATP](atp-anti-phishing.md), parte da [proteção avançada contra ameaças do Office 365](office-365-atp.md), pode ajudar a proteger sua organização contra ataques de phishing baseados em representação mal-intencionada e outros ataques de phishing. Se você for um administrador de segurança ou global do Office 365 Enterprise, poderá configurar as políticas de anti-phishing do ATP.
+As políticas para definir as configurações de proteção anti-phishing estão disponíveis nas organizações do Office 365 com caixas de correio do Exchange Online, organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online e organizações de proteção avançada contra ameaças (ATP) do Office 365.
 
-Os ataques de phishing vêm em uma variedade de formulários de ataques baseados em mercadoria ao spear phishing ou Whaling. Com a complexidade crescente, é difícil até mesmo um olho treinado para identificar alguns desses ataques sofisticados. Felizmente, a proteção avançada contra ameaças do Office 365 pode ajudar. Você pode configurar uma política anti-phishing do ATP para ajudar a garantir que sua organização esteja protegida contra esses ataques.
+As políticas de anti-phishing do ATP só estão disponíveis em organizações que têm o Office 365 ATP. Por exemplo:
+
+- Office 365 Enterprise e5, Office 365 Education a5, etc.
+- [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
+- [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business)
+- [Office 365 ATP como um complemento](https://products.office.com/exchange/advance-threat-protection)
+
+As políticas anti-phishing da ATP incluem uma política antiphishing padrão interna, e você pode criar políticas antiphishing adicionais personalizadas da ATP.
+
+Outras organizações do Office 365 com caixas de correio do Exchange Online ou de proteção autônoma do Exchange Online (EOP) sem caixas de correio do Exchange Online têm uma política anti-phishing padrão interna, mas não é possível criar políticas adicionais. Somente as organizações com caixas de correio do Exchange Online podem modificar sua política anti-phishing padrão.
+
+As diferenças de alto nível entre as políticas anti-phishing e as políticas anti-phishing do ATP são descritas na tabela a seguir:
+
+||||
+|---|:---:|:---:|
+|**Recurso**|**Políticas anti-phishing**|**Políticas de anti-phishing da ATP**|
+|Política padrão criada automaticamente|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Criar políticas personalizadas||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Configurações de política<sup>\*</sup>||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Configurações de representação||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Configurações de spoof|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Limites avançados de phishing||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|
+
+<sup>\*</sup>Na política padrão, o nome e a descrição da política são somente leitura (a descrição está em branco) e não é possível especificar a quem a política se aplica (a política padrão se aplica a todos os destinatários).
+
+Para configurar as políticas anti-phishing, consulte os seguintes tópicos:
+
+- [Configurar políticas anti-phishing no EOP](configure-anti-phishing-policies-eop.md)
+
+- [Configurar as políticas de anti-phishing do ATP no Office 365](configure-atp-anti-phishing-policies.md)
+
+O restante deste tópico descreve as configurações disponíveis nas políticas anti-phishing do EOP e do ATP.
+
+## <a name="spoof-settings"></a>Configurações de spoof
+
+Falsificação é quando o endereço de em uma mensagem de email (o endereço do remetente que é exibido em clientes de email) não corresponde ao domínio da fonte de email. Para obter mais informações sobre falsificação, consulte [proteção contra falsificação no Office 365](anti-spoofing-protection.md).
+
+As seguintes configurações de spoof estão disponíveis em políticas anti-phishing e políticas antiphishing da ATP:
+
+- **Proteção contra falsificação**: habilita ou desabilita a proteção contra falsificação. Recomendamos que você deixe-o habilitado. Você usa a **política de inteligência de spoof** para permitir ou bloquear remetentes internos e externos falsificados específicos. Para obter mais informações, consulte [Configure spoof Intelligence in Office 365](learn-about-spoof-intelligence.md).
+
+  > [!NOTE]
+  > As configurações de spoof são habilitadas por padrão na política anti-phishing padrão no EOP, na política anti-phishing padrão ATP e em novas políticas personalizadas de anti-phishing da ATP que você cria. <br/><br/> Você não precisa desabilitar a proteção contra falsificação se o registro MX não apontar para o Office 365; em vez disso, habilite a filtragem avançada de conectores. Para obter instruções, consulte [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
+
+  Para mensagens de remetentes falsificados bloqueados, você também pode especificar a ação a ser tomada nas mensagens:
+
+  - **Mover mensagem para a pasta de lixo eletrônico**: Este é o valor padrão. A mensagem é entregue à caixa de correio e movida para a pasta lixo eletrônico. No Exchange Online, a mensagem é movida para a pasta lixo eletrônico se a regra de lixo eletrônico estiver habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
+
+  - **Colocar a mensagem em quarentena**: envia a mensagem para quarentena em vez dos destinatários pretendidos. Para obter informações sobre quarentena, confira os seguintes tópicos:
+
+    - [Quarentena no Office 365](quarantine-email-messages.md)
+    - [Gerenciar arquivos e mensagens em quarentena como administrador no Office 365](manage-quarantined-messages-and-files.md)
+    - [Localizar e liberar mensagens em quarentena como usuário no Office 365](find-and-release-quarantined-messages-as-a-user.md)
+
+- **Remetente não autenticado**: habilita ou desabilita a identificação de remetente não identificado no Outlook. Especificamente:
+
+  - Um ponto de interrogação (?) será adicionado à foto do remetente se a mensagem não passar verificações SPF ou DKIM **e** a mensagem não passar DMARC ou [autenticação composta](email-validation-and-authentication.md#composite-authentication).
+
+  - A marca via (chris@contoso.com <u>via</u> Michelle@fabrikam.com) será adicionada se o domínio no endereço de (o remetente da mensagem exibido em clientes de email) for diferente do domínio na assinatura do DKIM ou do endereço **de email do** remetente. Para obter mais informações sobre esses endereços, consulte [uma visão geral dos padrões de mensagens de email](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
+
+  Para impedir que esses identificadores sejam adicionados às mensagens de remetentes específicos, você tem as seguintes opções:
+
+  - Permitir que o remetente falsifique na política de inteligência de falsificação. Para obter instruções, consulte [Configure spoof Intelligence in Office 365](learn-about-spoof-intelligence.md).
+
+  - [Configurar a autenticação de email](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) para o domínio do remetente.
+  
+    - Para o ponto de interrogação na foto, SPF ou DKIM do remetente são os mais importantes.
+    - Para a marca via, confirme se o domínio na assinatura DKIM ou o endereço **de email from** corresponde (ou é um subdomínio de) no endereço de.
+
+  Para obter mais informações, consulte [identificar mensagens suspeitas no Outlook.com e no Outlook na Web](https://support.office.com/article/3d44102b-6ce3-4f7c-a359-b623bec82206)
+
+## <a name="exclusive-settings-in-atp-anti-phishing-policies"></a>Configurações exclusivas nas políticas anti-phishing da ATP
+
+Esta seção descreve as configurações de política que estão disponíveis somente em políticas anti-phishing da ATP.
 
 > [!NOTE]
-> A ATP anti-phishing só está disponível na proteção avançada contra ameaças (ATP). A ATP é incluída em assinaturas, como [microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise e5, Office 365 Education a5, etc. Se sua organização tiver uma assinatura do Office 365 que não inclua o Office 365 ATP, você poderá comprar ATP como um complemento. Confira mais informações em [planos e preços avançados de proteção contra ameaças do office 365](https://products.office.com/exchange/advance-threat-protection) e a [Descrição do serviço de proteção avançada contra ameaças do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). Certifique-se de que sua organização esteja usando a versão mais recente do Office 365 ProPlus no Windows para aproveitar totalmente a proteção antiphishing da ATP.
+> Por padrão, as configurações exclusivas de ATP não são configuradas ou ativadas, mesmo na política padrão. Para aproveitar esses recursos, é necessário habilitá-los e configurá-los na política de anti-phishing padrão ATP, ou criar e configurar políticas anti-phishing personalizadas da ATP.
 
-Uma política anti-phishing também está disponível para o Office 365 proteção do Exchange Online, com um conjunto limitado de proteção contra falsificação destinado a proteger contra ataques baseados em autenticação e de base.
+### <a name="policy-settings-in-atp-anti-phishing-policies"></a>Configurações de política nas políticas anti-phishing da ATP
 
-O que fazer:
+As configurações de política a seguir estão disponíveis apenas em políticas anti-phishing da ATP:
 
-1. Examine os pré-requisitos.
+- **Name**: não é possível renomear a política anti-phishing padrão, mas você pode nomear e renomear políticas personalizadas que você criou.
 
-2. Saiba mais sobre as opções de política anti-phishing e de anti-phishing da ATP.
+- **Descrição** Não é possível adicionar uma descrição à política anti-phishing padrão, mas você pode adicionar e alterar a descrição das políticas personalizadas criadas.
 
-3. Configurar uma política de anti-phishing ou uma política anti-phishing do ATP.
+- **Aplicado a**: identifica destinatários internos aos quais a política anti-phishing do ATP se aplica. Esse valor é necessário em políticas personalizadas e não está disponível na política padrão (a política padrão se aplica a todos os destinatários).
 
-> [!IMPORTANT]
-> Para saber como várias tecnologias são aplicadas, consulte [que política se aplica quando vários métodos de proteção e verificações de detecção são executados em seu email](how-policies-and-protections-are-combined.md).
+    Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores com a mesma condição ou exceção usam a lógica OU (por exemplo, _\<destinatário1\>_ ou _\<destinatário2\>_). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<destinatário1\>_ e _\<membro do grupo 1\>_).
 
-## <a name="review-the-prerequisites"></a>Revisar os pré-requisitos
+  - O **destinatário é**: uma ou mais caixas de correio, usuários de email ou contatos de email em sua organização.
+  - **O destinatário é um membro de**: um ou mais grupos em sua organização.
+  - **O domínio do destinatário é**: um ou mais dos domínios aceitos configurados no Office 365.
 
-- Para definir (ou editar) políticas ATP, você deve ter uma função apropriada atribuída. Alguns exemplos são descritos na tabela a seguir:
+  - **Exceto quando**: exceções da regra. As configurações e o comportamento são exatamente semelhantes às condições:
 
-  |Função|Onde/como a atribuição|
-  |---------|---------|
-  |Administrador Global do Office 365|Por padrão, a pessoa que se inscreve para comprar o Office 365 é um administrador global. (Confira [sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para saber mais.)|
-  |Administrador de Segurança|Centro de administração do Azure Active[https://aad.portal.azure.com](https://aad.portal.azure.com)Directory ()|
-  |Gerenciamento de Organização do Exchange Online|Centro de administração do[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)Exchange () <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell))|
+    - **O destinatário é**
+    - **O destinatário é um membro de**
+    - **O domínio do destinatário é**
 
-  Para saber mais sobre funções e permissões, confira [permissões no centro de conformidade &amp; de segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
+### <a name="impersonation-settings-in-atp-anti-phishing-policies"></a>Configurações de representação nas políticas anti-phishing da ATP
 
-- Provavelmente, você configurará várias políticas anti-phishing para sua organização. O Office 365 impõe essas políticas na ordem em que estão listadas na **página** anti-phishing e nas páginas **anti-phishing do ATP** no centro de conformidade de segurança &amp; . Após revisar suas [Opções de política](#learn-about-atp-anti-phishing-policy-options), Reserve algum tempo para determinar quantas políticas você precisará e a prioridade de cada uma.
+A representação é onde o remetente ou o domínio de email do remetente em uma mensagem é muito semelhante a um remetente real ou domínio:
 
-- Planeje gastar cerca de 5-15 minutos para configurar sua primeira política anti-phishing.
+- Um exemplo de representação do domínio contoso.com é ćóntoso.com.
 
-- Aguarde até 30 minutos para que a política nova ou atualizada se espalhe para todos os datacenters do Office 365.
+- Um exemplo de representação do usuário michelle@contoso.com é michele@contoso.com.
 
-## <a name="set-up-an-anti-phishing-or-atp-anti-phishing-policy"></a>Configurar uma política anti-phishing de anti-phishing ou de anti-phishing
+Um domínio representado pode ser considerado legítimo (domínio registrado, registros de autenticação de email configurados, etc.), exceto pelo intuito de enganar destinatários.
 
-Cada organização no Office 365 tem uma política anti-phishing padrão que se aplica a todos os usuários. Você pode criar várias políticas anti-phishing personalizadas que podem ser delimitadas a usuários, grupos ou domínios específicos em sua organização. As políticas personalizadas criadas prevalecem sobre a política padrão. Você adiciona, edita e exclui políticas anti-phishing no centro de conformidade de segurança &amp; do Office 365.
+As configurações de representação a seguir estão disponíveis apenas em políticas anti-phishing da ATP:
 
-1. Acesse [https://protection.office.com](https://protection.office.com) e entre com sua conta corporativa ou de estudante.
+- **Usuários a serem protegidos**: impede que os usuários internos ou externos especificados sejam representados. Por exemplo, executivos (internos) e membros da diretoria (externos). Você pode adicionar até 60 endereços internos e externos. Essa lista de usuários protegidos é diferente da lista de destinatários aos quais a política se aplica na configuração **aplica** -se a.
 
-2. No centro de conformidade com &amp; segurança do Office 365, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, escolha **política**.
+  Por exemplo, você especifica Felipe Apodaca (felipea@contoso.com) como um usuário protegido em uma política que se aplica ao grupo chamado executivos. Mensagens de entrada enviadas para membros do grupo executivos onde o Felipe Apodaca é representado será acionado pela política (a ação que você configurou para usuários representados).
 
-3. Na página **política** , escolha anti- **phishing** ou **antivírus ATP**.
+- **Domínios para proteger**: impedir que os domínios especificados sejam representados. Por exemplo, todos os domínios que você possui ([domínios aceitos](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)) ou domínios específicos (domínios que você possui ou domínios de parceiros). Essa lista de domínios protegidos é diferente da lista de domínios aos quais a política se aplica na configuração **aplica** -se a.
 
-4. Na página **anti-phishing ou anti** **-phishing da ATP** , siga um destes procedimentos:
+  Por exemplo, você especifica tailspintoys.com como um domínio protegido em uma política que se aplica aos membros do grupo chamado executivos. Mensagens de entrada enviadas para os membros do grupo executivos onde o tailspintoys.com de onde é representado será acionado pela política (a ação que você configurou para domínios representados).
 
-   - Para adicionar uma nova política, selecione **+ criar**.
+- **Ações para usuários ou domínios protegidos**: escolha a ação a ser realizada em mensagens de entrada que contenham tentativas de representação em relação aos usuários protegidos e domínios protegidos na política. Você pode especificar ações diferentes para representação de usuários protegidos vs. representação de domínios protegidos:
 
-   - Para editar uma política existente, selecione o nome da política na lista exibida na página **anti-phishing** . (Como alternativa, você pode ou escolher **política padrão** acima da lista.) Na página exibida, escolha **Editar política**.
+  - **Não aplicar nenhuma ação**
 
-5. Especifique o nome, a descrição e as configurações da política. Consulte [saiba mais sobre as opções de política de anti-phishing do ATP](#learn-about-atp-anti-phishing-policy-options) para obter mais detalhes.
+  - **Redirecionar mensagem para outros endereços de email**: envia a mensagem para os destinatários especificados, e não para os destinatários pretendidos.
 
-6. Depois de revisar as configurações, escolha **criar esta política** (ou **salvar**).
+  - **Mover mensagem para a pasta lixo eletrônico**: a mensagem é entregue à caixa de correio e movida para a pasta lixo eletrônico. No Exchange Online, a mensagem é movida para a pasta lixo eletrônico se a regra de lixo eletrônico estiver habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
-## <a name="learn-about-atp-anti-phishing-policy-options"></a>Saiba mais sobre as opções de política anti-phishing do ATP
+    - **Colocar a mensagem em quarentena**: envia a mensagem para quarentena em vez dos destinatários pretendidos. Para obter informações sobre quarentena, confira os seguintes tópicos:
 
-À medida que você configura ou edita as políticas de anti-phishing da ATP, é possível escolher entre várias opções que oferecem a proteção mais sofisticada e abrangente, conforme descrito na tabela a seguir:
+    - [Quarentena no Office 365](quarantine-email-messages.md)
+    - [Gerenciar arquivos e mensagens em quarentena como administrador no Office 365](manage-quarantined-messages-and-files.md)
+    - [Localizar e liberar mensagens em quarentena como usuário no Office 365](find-and-release-quarantined-messages-as-a-user.md)
 
-|**Essa configuração**|**Faça isto**|**Use quando quiser:**|
-|:-----|:-----|:-----|
-|**Adicionar usuários para proteger**|Define quais endereços de email serão protegidos pela política. Você pode adicionar até 60 endereços internos e externos que você deseja proteger da representação.|Quando você quiser garantir que o email de fora da organização não seja uma representação de um dos usuários na lista de usuários que você está protegendo. Exemplos de usuários que você pode querer proteger são executivos de alto nível, proprietários de negócios, membros da placa externa e assim por diante.  <br/> Essa lista de usuários protegidos é diferente da lista de pessoas à qual a política se aplica ou, em vez disso, para a qual a política é imposta. Você define a lista aplica-se a na seção **aplicado a** das opções de política.  <br/> Por exemplo, se você adicionar `Mary Smith <marys@contoso.com>` como um usuário para proteger e, em seguida, aplicar a política ao grupo "todos os usuários". Isso garantiria que um email que parecia representar "Mary Smith" seja enviado para um usuário no grupo "todos os usuários" seria acionado pela política.|
-|**Adicionar domínios para proteger**|Permite que você escolha quais domínios você deseja proteger da representação. Você pode especificar que a política inclui todos os seus domínios personalizados, uma lista de domínios separada por vírgulas ou uma combinação dos dois. Se você escolher **incluir automaticamente domínios que possuo**e, posteriormente, adicionar um domínio à sua organização do Office 365, esta política anti-phishing estará no local para o novo domínio.|Sempre que você quiser garantir que o email de fora da organização não seja uma representação de um dos domínios definidos em sua lista de domínios verificados ou de um domínio de parceiro.|
-|**Escolher ações**|Escolha a ação a ser tomada quando o Office 365 detectar uma tentativa de representação em relação aos usuários e domínios adicionados à política. Você pode escolher diferentes ações para usuários e domínios na mesma política anti-phishing. Essas ações aplicam-se a qualquer email de entrada que tenha sido identificado pelo Office 365 como a representação de uma conta de usuário ou domínio que esteja sob a proteção dessa política anti-phishing.  <br/> **Mensagem de quarentena** O email será enviado para a quarentena do Office 365. Quando você escolhe essa opção, o email não é enviado ao destinatário original.  <br/> **Redirecionar mensagem para outro endereço de email** O email será enviado para o endereço de email que você especificar. Você pode especificar vários endereços de email. Quando você escolhe essa opção, o email não é enviado ao destinatário original.  <br/> **Mover mensagem para a pasta de lixo eletrônico dos destinatários** O email será enviado para a pasta lixo eletrônico dos destinatários. Quando você escolhe essa opção, o email ainda é enviado ao destinatário original, mas não é colocado na caixa de entrada do destinatário.  <br/> **Entregar a mensagem e adicionar outros endereços à linha Cco** O email será entregue ao destinatário original. Além disso, os usuários que você identificar serão adicionados à linha Cco da mensagem antes de serem entregues. Quando você escolhe essa opção, o email ainda é enviado para a caixa de entrada do destinatário original.  <br/> **Não aplicar nenhuma ação** O email será entregue na caixa de entrada do destinatário original. Nenhuma outra ação será executada na mensagem de email.  <br/> **Ativar dicas de proteção contra phishing** Habilita dicas de segurança anti-phishing no email.|Quando você quiser realizar uma ação em mensagens que o Office 365 determinou ser uma representação de um usuário ou domínio, conforme definido na política.|
-|**Habilitar inteligência de caixa de correio**|Habilita ou desabilita a inteligência de caixa de correio para esta política. Você só pode habilitar a inteligência de caixa de correio para contas baseadas em nuvem, ou seja, contas cuja caixa de correio está hospedada inteiramente no Office 365.| Este recurso usa o Machine Learning para determinar os padrões de email de um usuário com seus contatos. Com essas informações, o AI pode diferenciar melhor os emails autênticos e de phishing.|
-|**Habilitar proteção de representação baseada em inteligência de caixa de correio**|Habilita ou desabilita a inteligência de caixa de correio para proteção de representação para essa política. O aspecto importante aqui é o controle da representação de uma determinada caixa de correio.|Quando você quiser aprimorar os resultados de representação de usuários com base no mapa de remetentes individuais de cada usuário. Essa inteligência permite que o Office 365 Personalize a detecção de representação do usuário e trate melhor os falsos positivos. Quando a representação do usuário é detectada, com base na inteligência de caixa de correio, você pode definir a ação a ser tomada na mensagem.|
-|**Adicionar domínios e remetentes confiáveis**|Define endereços de email e domínios que não serão considerados representação por essa política. As mensagens dos endereços e domínios de email do remetente que você adiciona como remetentes confiáveis e domínios nunca serão classificadas como um ataque baseado em representação. Como resultado, as ações e configurações nesta política não serão aplicadas a mensagens desses remetentes e domínios.  <br/><br/>O limite máximo para essas listas é de aproximadamente 1000 entradas.|Quando os usuários interagem com domínios ou usuários que disparam a representação, mas são considerados seguros. Por exemplo, se um parceiro tiver o mesmo nome de exibição ou nome de domínio semelhante ao definido como um usuário na lista.|
-|**Aplicado a**|Define os destinatários cujas mensagens de email de entrada serão sujeitas às regras da política. Você pode criar condições e exceções para os destinatários associados à política.  <br/> Por exemplo, você pode criar uma política global para sua organização aplicando a regra a todos os destinatários em seu domínio.  <br/> Você também pode criar regras de exceção, como uma regra que não verifica mensagens de email para um grupo específico de destinatários.|Cada política deve ser associada a um conjunto de usuários, por exemplo, usuários em um grupo ou domínio específico.|
-|**Limites avançados de phishing**|Define o nível de configurações para como as mensagens de phishing são tratadas.  <br/> **Standard**: o email suspeito de ser phishing é tratado da forma padrão.  <br/> **Agressivo**: o sistema cuida da suspeita de emails para ser de phishing com um alto grau de confiança, da mesma forma que aqueles suspeitos com um grau de confiança muito alto.  <br/> **Mais agressivo**: o sistema lida com suspeitas de emails para ser Phish com um nível médio ou alto de confiança, da mesma forma que aqueles suspeitos com um grau muito alto de confiança.  <br/> **Mais agressivo**: o sistema cuida da suspeita de emails para ser o phishing com um nível de confiança baixo, médio ou alto, da mesma forma que aqueles suspeitos com um grau muito alto de confiança.|Quando você deseja ser mais agressivo no tratamento de mensagens potencialmente de phishing no Office 365. Por exemplo, as mensagens com uma grande probabilidade de ser phishing terão as ações mais agressivas tomadas neles enquanto as mensagens com baixa probabilidade têm ações menos agressivas tomadas. Essa configuração também afeta outras partes do sistema de filtragem que combinam sinais. Isso não significa necessariamente que ações diferentes são implementadas.  Essencialmente, você define a probabilidade de o email ser Phish, para determinar a (mesma) ação designada. A possibilidade de mover mensagens boas aumenta conforme o nível das configurações aumenta.|
+  - **Entregar a mensagem e adicionar outros endereços à linha Cco**: entregar a mensagem aos destinatários pretendidos e entregar silenciosamente a mensagem aos destinatários especificados.
 
-## <a name="learn-about-anti-phishing-policy-options"></a>Saiba mais sobre as opções de política anti-phishing
+  - **Excluir a mensagem antes de ser entregue**: exclui silenciosamente a mensagem inteira, incluindo todos os anexos.
 
-Ao configurar ou editar seu anti-phishing, você pode escolher entre várias opções, conforme descrito na tabela a seguir:
+- **Dicas de segurança**: habilita ou desabilita as seguintes dicas de segurança de representação que irão aparecer mensagens que falham em verificações de representação:
 
-|**Essa configuração**|**Faça isto**|**Use quando quiser:**|
-|:-----|:-----|:-----|
-|**Aplicado a**|Define os destinatários cujas mensagens de email de entrada serão sujeitas às regras da política. Você pode criar condições e exceções para os destinatários associados à política.  <br/> Por exemplo, você pode criar uma política global para sua organização aplicando a regra a todos os destinatários em seu domínio.  <br/> Você também pode criar regras de exceção, como uma regra que não verifica mensagens de email para um grupo específico de destinatários.|Cada política deve ser associada a um conjunto de usuários, por exemplo, usuários em um grupo ou domínio específico.|
-|**Escolher ações**|Escolha a ação a ser tomada quando o Office 365 detectar uma tentativa de falsificação de organização externa ou interna contra seus usuários. Essas ações se aplicam a qualquer email de entrada que tenha sido identificado pelo Office 365 como uma tentativa de falsificação para usuários que estão sob a proteção desta política anti-phishing.  <br/> **Mensagem de quarentena** O email será enviado para a quarentena do Office 365. Quando você escolhe essa opção, o email não é enviado ao destinatário original.  <br/> **Mover mensagem para a pasta de lixo eletrônico dos destinatários** O email será enviado para a pasta lixo eletrônico dos destinatários. Quando você escolhe essa opção, o email ainda é enviado ao destinatário original, mas não é colocado na caixa de entrada do destinatário.  <br/> **Não aplicar nenhuma ação** O email será entregue na caixa de entrada do destinatário original. Nenhuma outra ação será executada na mensagem de email.|Quando você quiser realizar uma ação em mensagens que o Office 365 determinou ser uma tentativa de falsificação de domínios internos ou externos, conforme definido na política.|
+  - **Usuários representados**: o endereço de contém um usuário protegido.
+  - **Domínios representados**: o endereço de contém um domínio protegido.
+  - **Caracteres incomuns**: o endereço de contém conjuntos de caracteres usuais (por exemplo, símbolos matemáticos e texto ou uma mistura de letras maiúsculas e minúsculas) em um remetente ou domínio protegido.
 
-Depois que a sua organização configurou políticas anti-phishing ou políticas de anti-phishing da ATP, você pode ver como o serviço está funcionando [exibindo relatórios para proteção avançada contra ameaças](view-reports-for-atp.md).
+- **Inteligência de caixa de correio**: habilita ou desabilita a inteligência artificial (ai) que determina os padrões de email do usuário com seus contatos frequentes. Essa configuração ajuda o AI a distinguir entre emails legítimos e falsificados desses contatos. O Mailbox Intelligence só está disponível para caixas de correio do Exchange Online.
 
-## <a name="example-anti-phishing-policy-to-protect-a-user-and-a-domain"></a>Exemplo: política anti-phishing para proteger um usuário e um domínio
+- **Proteção de representação baseada em inteligência de caixa de correio**: habilita ou desabilita os resultados de representação avançada com base no mapa de remetentes individuais de cada usuário. Essa inteligência permite que o Office 365 Personalize a detecção de representação do usuário e trate melhor os falsos positivos. Quando a representação do usuário é detectada, você pode definir uma ação específica a ser executada na mensagem:
 
-Este exemplo configura uma política chamada "Domain and CEO" que fornece proteção de usuário e de domínio da representação e aplica a política a todos os emails recebidos por usuários no domínio `contoso.com`. O administrador de segurança determinou que a política deve atender a esses requisitos de negócios:
+  - **Não aplicar nenhuma ação**
+  - **Redirecionar mensagem para outros endereços de email**
+  - **Mover mensagem para a pasta Lixo Eletrônico**
+  - **Colocar a mensagem em quarentena**
+  - **Entregar a mensagem e adicionar outros endereços à linha Cco**
+  - **Excluir a mensagem antes de ser entregue**
 
-- A política precisa fornecer proteção para a conta de email do CEO e o domínio inteiro.
+- **Remetentes e domínios confiáveis**: exceções às configurações de proteção de representação. As mensagens dos domínios remetentes e remetentes especificados nunca são classificadas como ataques baseados na representação pela política. Em outras palavras, a ação para remetentes protegidos, domínios protegidos ou proteção de inteligência de caixa de correio não é aplicada a esses remetentes confiáveis ou domínios de remetente. O limite máximo para essas listas é de aproximadamente 1000 entradas.
 
-- As mensagens que são consideradas como tentativas de representação em relação à conta de usuário do CEO precisam ser redirecionadas para o endereço de email do administrador de segurança.
+### <a name="advanced-phishing-thresholds-in-atp-anti-phishing-policies"></a>Limites avançados de phishing nas políticas anti-phishing da ATP
 
-- As mensagens determinadas em tentativas de representação no domínio são menos urgentes e devem ser colocadas em quarentena para análise posterior.
+Os seguintes limites avançados de phishing estão disponíveis apenas em políticas anti-phishing da ATP para especificar como tratar mensagens de phishing detectadas:
 
-O administrador de segurança na Contoso pode usar valores como o seguinte para criar uma política anti-phishing que atenda a essas necessidades.
+- **1-padrão**: Este é o valor padrão. A gravidade da ação tomada na mensagem depende do grau de confiança de que a mensagem é phishing (baixa, média, alta ou muito alta confiança). Por exemplo, as mensagens identificadas como phishing com um nível muito elevado de confiança têm as ações mais severas aplicadas, enquanto as mensagens identificadas como phishing com um baixo grau de confiança têm menos ações aplicadas.
 
-|||
-|:-----|:-----|
-|**Configuração ou opção**|**Exemplo**|
-|Nome|Domínio e CEO|
-|Descrição|Certifique-se de que o CEO e nosso domínio não estão sendo representados.|
-|Adicionar usuários para proteger|O endereço de email do CEO no mínimo.|
-|Adicionar domínios para proteger|O domínio organizacional que inclui o escritório do CEO.|
-|Escolher ações|Se o email for enviado por um usuário representado: escolha **redirecionar mensagem para outro endereço de email** e, em seguida, digite o endereço de email do `securityadmin@contoso.com`administrador de segurança, por exemplo,.  <br/> Se o email for enviado por um domínio representado: escolher **mensagem de quarentena**.|
-|Inteligência de caixa de correio|Por padrão, a inteligência de caixa de correio é selecionada quando você cria uma nova política anti-phishing. Deixe esta configuração **em** para obter os melhores resultados.|
-|Adicionar domínios e remetentes confiáveis|Para este exemplo, não defina substituições.|
-|Aplicado a|Selecione **o domínio do destinatário**. Em **qualquer um dos seguintes**, selecione **escolher**. Selecione **+ Adicionar**. Marque a caixa de seleção ao lado do nome do domínio, por exemplo `contoso.com`, na lista e selecione **Adicionar**. Selecione **Concluído**.|
+- **2-agressivo**: as mensagens identificadas como phishing com um alto grau de confiança são tratadas como se tivessem sido identificadas com um nível muito alto de confiança.
 
-## <a name="delete-an-anti-phishing-or-atp-anti-phishing-policy"></a>Excluir uma política anti-phishing de anti-phishing ou ATP
+- **3-mais agressivo**: as mensagens que são identificadas como phishing com um grau de confiança médio ou alto são tratadas como se tivessem sido identificadas com um grau muito alto de confiança.
 
-Você pode excluir políticas personalizadas criadas usando o centro de conformidade de &amp; segurança. Não é possível excluir a política padrão para sua organização. Recomendamos usar o centro &amp; de conformidade de segurança para rever ou editar qualquer uma das suas políticas de ATP.
+- **4-mais agressivo**: as mensagens identificadas como phishing com um nível de confiança baixo, médio ou alto são tratadas como se tivessem sido identificadas com um grau muito alto de confiança.
 
-1. Acesse [https://protection.office.com](https://protection.office.com) e entre com sua conta corporativa ou de estudante.
-
-2. Na navegação à esquerda, em **Gerenciamento de ameaças**, escolha **política**.
-
-3. Na página **política** , escolha anti- **phishing** ou **antivírus ATP**.
-
-4. Na página **anti-phishing ou anti** **-phishing da ATP** , selecione o nome da política na lista.
-
-5. Na página exibida, escolha **excluir política**. Aguarde até 30 minutos para que as alterações se espalhem para todos os datacenters do Office 365.
-
-## <a name="next-steps"></a>Próximas etapas
-
-Quando suas políticas anti-phishing estiverem em vigor, você poderá ver como os recursos de proteção contra ameaças estão funcionando para sua organização, exibindo relatórios. Confira os seguintes recursos para saber mais:
-
-- [Exibir relatórios do Office 365 ATP](view-reports-for-atp.md) ou [exibir relatórios de segurança de email](view-email-security-reports.md)
-
-- [Usar o explorador de ameaças (ou detecções em tempo real)](threat-explorer.md)
-
-Fique à frente dos novos recursos que chegam à ATP. Visite o [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) e saiba mais sobre os [novos recursos que estão sendo adicionados à ATP](office-365-atp.md#new-features-in-office-365-atp).
+A chance de falsos positivos (boas mensagens marcadas como ruins) aumenta à medida que você aumenta essa configuração. Para obter informações sobre as configurações recomendadas, consulte [configurações de política de anti-phishing do Office ATP](recommended-settings-for-eop-and-office365-atp.md#office-atp-anti-phishing-policy-settings).

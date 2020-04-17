@@ -11,13 +11,13 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-description: Os administradores podem aprender a identificar os motivos por que e como as mensagens de phishing foram recebidas e o que fazer para evitar mais mensagens de phishing no futuro.
-ms.openlocfilehash: 37d1e8bbf91bc6f0a1c8e9b5aa97fe460e8b5c82
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+description: Os administradores podem aprender a identificar os motivos por que e como uma mensagem de phishing recebeu e o que fazer para evitar mais mensagens de phishing no futuro.
+ms.openlocfilehash: 93fdc17379627a2d595a3861ae3f8f1f9dcefeeb
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081203"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528984"
 ---
 # <a name="tune-anti-phishing-protection-in-office-365"></a>Ajustar a proteção contra phishing no Office 365
 
@@ -33,7 +33,7 @@ Se sua assinatura incluir a proteção avançada contra ameaças (ATP), você po
 
 - [Anexos Seguros da ATP](set-up-atp-safe-attachments-policies.md)
 
-- [Políticas anti-phishing do ATP](set-up-anti-phishing-policies.md). Observe que você pode aumentar temporariamente os **limites de phishing avançados** na política de **padrão** para **agressivo**, **mais agressivo**ou **mais agressivo**.
+- [Políticas anti-phishing do ATP no Office 365](configure-atp-anti-phishing-policies.md). Observe que você pode aumentar temporariamente os **limites de phishing avançados** na política de **padrão** para **agressivo**, **mais agressivo**ou **mais agressivo**.
 
 Verifique se esses recursos ATP estão ativados.
 
@@ -45,17 +45,17 @@ Relatar mensagens de phishing é útil para ajustar os filtros usados para prote
 
 Você pode examinar os cabeçalhos da mensagem de phishing para ver se há algo que você pode fazer sozinho para evitar que mais mensagens de phishing sejam recebidas. Em outras palavras, examinar os cabeçalhos das mensagens pode ajudá-lo a identificar quaisquer configurações na sua organização que foram responsáveis por permitir as mensagens de phishing no.
 
-Especificamente, você deve verificar o campo de cabeçalho **X-Forefront-antispam-Report** nos cabeçalhos da mensagem para obter indicações de spam ignorado ou filtragem de phishing no valor de filtragem de spam veredicto (SFV). As mensagens que ignoram a filtragem terão uma `SCL:-1`entrada do, o que significa que uma de suas configurações permitia essa mensagem substituindo o spam ou phishing verdicts que foram determinados pelo serviço. Para obter mais detalhes sobre como obter cabeçalhos de mensagem e a lista completa de todos os cabeçalhos de mensagens antispam e antispam disponíveis, consulte [anti-spam Confira cabeçalhos de mensagens no Office 365](anti-spam-message-headers.md).
+Especificamente, você deve verificar o campo de cabeçalho **X-Forefront-antispam-Report** nos cabeçalhos da mensagem para obter indicações de spam ignorado ou filtragem de phishing no valor de filtragem de spam veredicto (SFV). As mensagens que ignoram a filtragem terão uma `SCL:-1`entrada do, o que significa que uma de suas configurações permitia essa mensagem substituindo o spam ou phishing verdicts que foram determinados pelo serviço. Para obter mais informações sobre como obter cabeçalhos de mensagens e a lista completa de todos os cabeçalhos disponíveis de mensagens antispam e anti-phishing, consulte [cabeçalhos de mensagens antispam no Office 365](anti-spam-message-headers.md).
 
 ## <a name="best-practices-to-stay-protected"></a>Práticas recomendadas para permanecer protegidas
 
 - Mensalmente, execute a [Pontuação segura](../mtp/microsoft-secure-score.md) para avaliar as configurações de segurança da sua organização do Office 365.
 
-- Revise periodicamente o [relatório de inteligência de falsificação](learn-about-spoof-intelligence.md) e [habilite a proteção contra falsificação na política](learn-about-spoof-intelligence.md#configuring-the-anti-spoofing-policy) anti-phishing para **colocar em quarentena** mensagens suspeitas, em vez de entregá-las na pasta lixo eletrônico do usuário.
+- Revise periodicamente o [relatório de inteligência de falsificação](learn-about-spoof-intelligence.md) e [Configure spoof Intelligence](set-up-anti-phishing-policies.md#spoof-settings) para **colocar em quarentena** mensagens suspeitas em vez de entregá-las à pasta lixo eletrônico do usuário.
 
 - Revise periodicamente o [relatório de status de proteção contra ameaças](view-reports-for-atp.md#threat-protection-status-report).
 
-- Alguns clientes acidentalmente permitem mensagens de phishing por meio da colocação de seus próprios domínios na lista permitir remetente ou permitir domínio em políticas antispam. Se você optar por fazer isso, você deve usar muito cuidado. Embora essa configuração permita algumas mensagens legítimas, ela também permitirá mensagens mal-intencionadas que normalmente serão bloqueadas pelos filtros de spam e/ou phishing do Office 365.
+- Alguns clientes acidentalmente permitem mensagens de phishing por meio da colocação de seus próprios domínios no remetente permitido ou nas listas de domínio permitidas em políticas antispam. Se você optar por fazer isso, você deve usar muito cuidado. Embora essa configuração permita algumas mensagens legítimas, ela também permitirá mensagens mal-intencionadas que normalmente serão bloqueadas pelos filtros de spam e/ou phishing do Office 365.
 
   A melhor maneira de lidar com mensagens legítimas bloqueadas pelo Office 365 (falsos positivos) que envolvem remetentes em seu domínio é configurar completamente e completamente os registros SPF, DKIM e DMARC no DNS para _todos os_ seus domínios de email no Office 365:
 
@@ -73,6 +73,6 @@ Especificamente, você deve verificar o campo de cabeçalho **X-Forefront-antisp
 
 - Sempre que possível, recomendamos que você envie emails para seu domínio diretamente para o Office 365. Em outras palavras, aponte o registro MX do seu domínio do Office 365 para o Office 365. O proteção do Exchange Online (EOP) é capaz de fornecer a melhor proteção para seus usuários de nuvem quando seus emails são entregues diretamente no Office 365. Se você precisar usar um sistema de higiene de email de terceiros na frente do EOP, use a filtragem avançada para conectores. Para obter instruções, consulte [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
-- A MFA (autenticação multifator) é uma ótima maneira de evitar contas comprometidas. Você deve considerar fortemente habilitar a MFA para todos os seus usuários. Para obter uma abordagem em fases, comece habilitando a MFA para seus usuários mais confidenciais (administradores, executivos, etc.) antes de habilitar a MFA para todos. Para obter instruções, consulte [Configurar a autenticação multifator](../../admin/security-and-compliance/set-up-multi-factor-authentication.md).
+- A MFA (autenticação multifator) é uma boa maneira de evitar contas comprometidas. Você deve considerar fortemente habilitar a MFA para todos os seus usuários. Para obter uma abordagem em fases, comece habilitando a MFA para seus usuários mais confidenciais (administradores, executivos, etc.) antes de habilitar a MFA para todos. Para obter instruções, consulte [Configurar a autenticação multifator](../../admin/security-and-compliance/set-up-multi-factor-authentication.md).
 
 - As regras de encaminhamento para destinatários externos costumam ser usadas por invasores para extrair dados. Use as informações **revisar regras de encaminhamento de caixa de correio** na [Pontuação segura da Microsoft](../mtp/microsoft-secure-score.md) para localizar e até mesmo impedir o encaminhamento de regras para destinatários externos. Para obter mais informações, consulte [mitigating Client external Forwarding Rules with Secure Score](https://blogs.technet.microsoft.com/office365security/mitigating-client-external-forwarding-rules-with-secure-score/).

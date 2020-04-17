@@ -16,12 +16,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre as detecções do Explorer e do tempo real no &amp; centro de conformidade de segurança.
-ms.openlocfilehash: c854021eaf6c5d252f36961fde427c5532ba1ef6
-ms.sourcegitcommit: 4c6af6530b4997055b8e60bf532e75cbc72fb6c5
+ms.openlocfilehash: 1f5047b923ec40d4beb47d9b4b3d8aec9b9e6807
+ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43284243"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43537504"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
@@ -186,7 +186,7 @@ Suponha que você queira ver as mensagens de email que os usuários em sua organ
 
    ![Phishing relatado pelo usuário](../../media/EmailUserReportedReportType.png)
 
-O relatório é atualizado para mostrar dados sobre mensagens de email que as pessoas em sua organização relataram como uma tentativa de phishing. Você pode usar essas informações para realizar mais análises e, se necessário, ajustar as [políticas de anti-phishing da ATP](set-up-anti-phishing-policies.md).
+O relatório é atualizado para mostrar dados sobre mensagens de email que as pessoas em sua organização relataram como uma tentativa de phishing. Você pode usar essas informações para realizar mais análises e, se necessário, ajustar as [políticas de anti-phishing da ATP](configure-atp-anti-phishing-policies.md).
 
 ## <a name="start-automated-investigation-and-response"></a>Iniciar investigação e resposta automatizadas
 

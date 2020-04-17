@@ -16,16 +16,16 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: Use o novo painel de segurança para analisar o status de proteção contra ameaças do Office 365 e exibir e agir em alertas de segurança.
-ms.openlocfilehash: 1ef61f2a5e59db5c45a37bd9f8995b8c70675f30
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: bade9f1a0060fcd08458bd28eb276a0543f5d815
+ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032835"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43537396"
 ---
 # <a name="security-dashboard"></a>Painel de segurança
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O [centro de conformidade & segurança](../../compliance/go-to-the-securitycompliance-center.md) permite que sua organização gerencie a proteção e a conformidade dos dados. Supondo que você tenha as permissões necessárias, o painel de segurança permite que você revise o status da proteção contra ameaças, bem como o modo de exibição e agir nos alertas de segurança.
 
@@ -33,7 +33,7 @@ Assista ao vídeo para obter uma visão geral e leia este artigo para saber mais
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1VV3o]
 
-Dependendo da sua assinatura do Office 365 da sua organização, o painel de segurança inclui vários widgets, como Resumo de gerenciamento de ameaças, status da proteção contra ameaças, detecções semanais globais de ameaças, malware e muito mais, conforme descrito no seções a seguir.
+Dependendo da sua assinatura do Office 365 da sua organização, o painel de segurança inclui vários widgets, como Resumo de gerenciamento de ameaças, status de proteção contra ameaças, detecções de ameaças semanais globais, malware e muito mais, conforme descrito nas seções a seguir.
 
 Para exibir o painel de segurança, no [centro de conformidade & segurança do Office 365](../../compliance/go-to-the-securitycompliance-center.md), vá para o **painel** **Gerenciamento** \> de ameaças.
 
@@ -49,7 +49,7 @@ O widget Resumo de gerenciamento de ameaças informa rapidamente como sua organi
 As informações que você verá no Resumo de gerenciamento de ameaças depende do que a assinatura inclui. A tabela a seguir descreve quais informações estão incluídas para o Office 365 E3 e o Office 365 e5.
 |||
 |---|---|
-|**Office 365 E3**|**Office 365 e5**|
+|**Office 365 E3**|**Office 365 E5**|
 |Mensagens de malware bloqueadas<br/>Mensagens de phishing bloqueadas<br>Mensagens relatadas por usuários<br><br><br><br>|Mensagens de malware bloqueadas<br>Mensagens de phishing bloqueadas<br>Mensagens relatadas por usuários<br>Malware de dia zero bloqueado<br>Mensagens de phishing avançadas detectadas<br>URLs mal-intencionadas bloqueadas|
 |
 
@@ -67,7 +67,7 @@ Os detalhes dependem de sua assinatura do Office 365 incluir o [Exchange Online 
 |---|---|
 |**Se sua assinatura incluir...**|**Você verá estes detalhes**|
 |EOP mas não Office 365 ATP|Email mal-intencionado detectado e bloqueado pelo EOP.<br><br> Consulte [relatório de status de proteção contra ameaças (EOP)](view-email-security-reports.md#threat-protection-status-report).|
-|Office 365 ATP|Conteúdo mal-intencionado e email mal-intencionado detectados e bloqueados pelo EOP e pelo Office 365 ATP<br><br>Contagem agregada de mensagens de email exclusivas com conteúdo mal-intencionado bloqueado pelo Mecanismo Antimalware, [limpeza automática de zero horas](zero-hour-auto-purge.md)e recursos ATP (incluindo [links seguros](atp-safe-links.md), [anexos seguros](atp-safe-attachments.md)e [anti-phishing](atp-anti-phishing.md)).<br><br>Consulte [relatório de status de proteção contra ameaças (ATP)](view-reports-for-atp.md#threat-protection-status-report).|
+|Office 365 ATP|Conteúdo mal-intencionado e email mal-intencionado detectados e bloqueados pelo EOP e pelo Office 365 ATP<br><br>Contagem agregada de mensagens de email exclusivas com conteúdo mal-intencionado bloqueado pelo Mecanismo Antimalware, [limpeza automática de zero horas](zero-hour-auto-purge.md)e recursos ATP (incluindo [links seguros](atp-safe-links.md), [anexos seguros](atp-safe-attachments.md)e [anti-phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)).<br><br>Consulte [relatório de status de proteção contra ameaças (ATP)](view-reports-for-atp.md#threat-protection-status-report).|
 |
 
 Para exibir ou acessar o widget status de proteção contra ameaças, você deve ter permissões para exibir relatórios de proteção avançada contra ameaças. Para saber mais, veja [quais permissões são necessárias para exibir os relatórios ATP?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports).

@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: Orienta você na configuração recomendada para definições de todos os locatários que afetam a segurança de seu ambiente do Office 365. Suas necessidades de segurança podem exigir mais ou menos segurança. Use estas recomendações como ponto de partida.
-ms.openlocfilehash: 737a58c21811bf4d798c18f000c0e477b5667cef
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: 56b2dad90b15c1d084edaa4477301e8ac4d4442d
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081251"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43529008"
 ---
 # <a name="configure-your-office-365-tenant-for-increased-security"></a>Configure o locatário do Office 365 para aumentar a segurança
 
@@ -39,7 +39,7 @@ O centro de segurança do Microsoft 365 inclui recursos que protegem o seu ambie
 ||||
 |---|---|---|
 |**Área**|**Inclui uma política padrão**|**Recomendação**|
-|**Anti-phishing**|Sim| Se você tiver um domínio personalizado, crie uma política anti-phishing para proteger as contas de email de seus usuários mais valiosos, como seu CEO, e para proteger seu domínio. Revisar [Configure uma política anti-phishing](set-up-anti-phishing-policies.md) e crie uma política usando o exemplo como guia: "exemplo: política anti-phishing para proteger um usuário e um domínio."|
+|**Anti-phishing**|Sim|Se você tiver um domínio personalizado, configure a política anti-phishing padrão para proteger as contas de email de seus usuários mais valiosos, como seu CEO, e para proteger seu domínio. Revisar [políticas anti-phishing no Office 365](set-up-anti-phishing-policies.md) e consulte [Configurar a política anti-phishing padrão no EOP](configure-anti-phishing-policies-eop.md) ou [configurar as políticas de anti-phishing do ATP no Office 365](configure-atp-anti-phishing-policies.md).|
 |**Mecanismo Antimalware**|Sim| Edite a política padrão: <br/> &ensp;&ensp;* Filtro tipos de anexo comuns — selecione ativado <br/><br/> Você também pode criar políticas de filtro de malware personalizadas e aplicá-las a usuários, grupos ou domínios especificados em sua organização. <br/><br/> Mais informações: <br/> &ensp;&ensp;* [Proteção Antimalware](anti-malware-protection.md) <br/> &ensp;&ensp;* [Configurar políticas Antimalware](configure-anti-malware-policies.md)|
 |**Anexos Seguros da ATP**|Não| Na página principal de anexos seguros, proteja arquivos no SharePoint, no OneDrive e no Microsoft Teams marcando esta caixa: <br/> &ensp;&ensp;* Ativar a ATP para SharePoint, OneDrive e Microsoft Teams <br/><br/> Adicione uma nova política de anexo seguro com estas configurações: <br/> &ensp;&ensp;* Bloquear — bloquear emails e anexos atuais e futuros com malware detectado (escolha esta opção) <br/> &ensp;&ensp;* Habilitar redirecionamento — (Marque esta caixa e insira um endereço de email, como uma conta de administrador ou de quarentena) <br/> &ensp;&ensp;* Aplicar a seleção acima se a verificação de malware por anexos expirar ou ocorrer erro (marcar esta caixa) <br/> &ensp;&ensp;* Aplicado a — o domínio do destinatário é (selecione seu domínio) <br/><br/>Mais informações: [Configurar políticas de anexos seguros do Office 365 ATP](set-up-atp-safe-attachments-policies.md)|
 |**Links seguros da ATP**|Sim| Adicione essa configuração à política padrão para toda a organização: <br/> &ensp;&ensp;* Use links seguros no: Office 365 ProPlus, Office para iOS e Android (Selecione essa opção). <br/><br/>Política recomendada para destinatários específicos: <br/> &ensp;&ensp;* As URLs serão reescritas e verificadas em relação a uma lista de links mal-intencionados conhecidos quando o usuário clicar no link (Selecione essa opção). <br/> &ensp;&ensp;* Use anexos seguros para examinar Conteúdo baixável (Marque esta caixa). <br/> &ensp;&ensp;* Aplicado a – o domínio do destinatário é (selecione o seu domínio). <br/><br/> Mais informações: [Office 365 ATP Safe links](atp-safe-links.md).|

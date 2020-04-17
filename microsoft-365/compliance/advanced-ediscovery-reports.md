@@ -14,14 +14,14 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
+ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: c3bd87f6a6b06cf6fc75705073df5a95a1025a31
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 387709ebdd84968d2b93992f6b92ef1548117569
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079940"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528354"
 ---
 # <a name="advanced-ediscovery-reports-preview"></a>Relatórios de descoberta eletrônica avançada (visualização)
 
@@ -97,7 +97,7 @@ Você pode usar um caso de descoberta eletrônica avançada para criar isençõe
 |Coluna        |Descrição|
 | -------------|-------------|
 |ID do caso |O identificador exclusivo de cada caso. |
-|Carga de trabalho |Indica o tipo de local de conteúdo colocado em espera (por exemplo, Exchange ou SharePoint).
+|Workload |Indica o tipo de local de conteúdo colocado em espera (por exemplo, Exchange ou SharePoint).
 |Nome do local |Indica o endereço SMTP (para caixas de correio do Exchange) ou a URL (para sites do SharePoint) do local do conteúdo. | 
 |ID do responsáveis |Se a fonte de dados pertencer a um responsável, esta coluna mostrará o identificador exclusivo para os responsáveis em um determinado caso. Esta coluna será nula para locais não custodial.|
 |Nome do responsáveis |O nome dos responsáveis no Active Directory.| 

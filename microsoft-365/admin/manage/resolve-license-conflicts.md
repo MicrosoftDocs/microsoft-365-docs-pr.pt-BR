@@ -20,12 +20,12 @@ search.appverid:
 - BEA160
 ms.assetid: 796f7eda-b1f8-479a-adee-bd9226ca47ec
 description: Saiba como resolver conflitos de licença com sua assinatura do Office 365 for Business.
-ms.openlocfilehash: 9dbd483b01566039cb227cd3d2f086c3f6e34be5
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: de0a6c988b9ca2ae033a24c012b7f36bc1db58a3
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212288"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540910"
 ---
 # <a name="resolve-license-conflicts-in-office-365-for-business"></a>Resolver conflitos de licença no Office 365 para empresas
 
@@ -33,11 +33,24 @@ Recomendamos que você compre as licenças necessárias para a sua assinatura an
   
 ## <a name="how-do-i-view-license-conflicts"></a>Como faço para exibir conflitos de licença?
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de **cobrança** \> .
+::: moniker range="o365-worldwide"
 
-    Se você estiver usando o Office 365 Alemanha, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">licenças</a> .
+1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de **cobrança** > .
 
-    Se você estiver usando o Office 365 operado pela 21Vianet, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">licenças</a> .
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">licenças</a> de **cobrança** > .
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">licenças</a> de **cobrança** > .
+
+::: moniker-end
+
 
 2. Verifique a coluna de **Status** para obter informações sobre o conflito. Se houver um conflito, você verá uma mensagem de aviso, dizendo que um ou mais usuários precisam de uma licença válida.
 

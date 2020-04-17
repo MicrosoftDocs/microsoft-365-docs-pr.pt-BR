@@ -17,12 +17,12 @@ ms.assetid: 703c41df-b3e2-4e7e-9eeb-1a0b8d60fb56
 ms.collection:
 - M365-security-compliance
 description: Saiba como você pode ir de um painel para uma visão com as ações recomendadas no &amp; centro de conformidade de segurança.
-ms.openlocfilehash: 8f6a75e02f00cbc62e4907ea3a0ff54c72110a21
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 52fc933133cee4b060a08516b64a46c1c24a13cb
+ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083135"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43537492"
 ---
 # <a name="walkthrough---from-a-dashboard-to-an-insight"></a>Passo a passo – de um painel para um insight
 
@@ -42,7 +42,7 @@ Vamos passar pelo fluxo de um painel para um relatório para uma compreensão e 
     
 4. Selecionar um item na lista abre um painel de detalhes onde podemos ver informações adicionais, incluindo mensagens de email semelhantes que foram detectadas. (Clique em um item na lista e revise as informações e recomendações.)<br>![Selecionar um item abre um painel de detalhes](../../media/7ad1faa5-6ca2-474e-a609-eb275e0a8e59.png)<br>
   
-5. Observe que, na parte superior do painel, temos a opção de adicionar o remetente à lista de remetentes permitidos da nossa organização. (Não selecione **Adicionar à lista de permissões de remetente ' AllowedtoSpoof '** até ter certeza de que deseja fazer isso. [Saiba mais sobre a inteligência de falsificação](learn-about-spoof-intelligence.md).)<br>![Você pode autorizar um remetente](../../media/caf0c20a-6047-486d-8060-5a229a3de49f.png)
+5. Observe que, na parte superior do painel, temos a opção de adicionar o remetente à lista de remetentes permitidos da nossa organização. (Não selecione **Adicionar à lista de permissões de remetente ' AllowedtoSpoof '** até ter certeza de que deseja fazer isso. [Configure o spoof Intelligence no Office 365](learn-about-spoof-intelligence.md).<br>![Você pode autorizar um remetente](../../media/caf0c20a-6047-486d-8060-5a229a3de49f.png)
   
 Dessa forma, podemos mudar de um painel para o insights e as ações recomendadas.
   

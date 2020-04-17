@@ -14,12 +14,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: Os administradores podem saber mais sobre as opções disponíveis no Office 365 e EOP que permitem que mensagens de entrada ignorem a filtragem de spam.
-ms.openlocfilehash: f9178dae93f8eb33996d05034d27fceed66edd39
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 4b50a4b63377c0f3e7b12592c512449f1a3adc12
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033405"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528624"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Criar listas de remetentes seguros no Office 365
 
@@ -38,7 +38,7 @@ As listas de remetentes seguros disponíveis são descritas na lista a seguir na
 As regras de fluxo de emails permitem maior flexibilidade para garantir que apenas as mensagens corretas sejam permitidas. As listas de domínios permitidos e remetentes permitidos em políticas antispam não são tão seguras quanto a lista de permissões de IP, porque o domínio de email do remetente é facilmente falsificado. No entanto, a lista de IPs permitidos também apresenta um risco, pois o email de _qualquer_ domínio enviado desse endereço IP ignorará a filtragem de spam.
 
 > [!IMPORTANT]
-> <ul><li>Tenha cuidado e monitore *quaisquer* exceções que você deseja filtrar por spam usando listas de remetentes seguros.</li><li>Embora você possa usar listas de remetentes confiáveis para ajudar com falsos positivos (bons emails marcados como spam), considere o uso de listas de remetentes seguros como uma solução temporária que deve ser evitada, se possível. Não recomendamos o gerenciamento de falsos positivos usando as listas de remetentes seguros, pois as exceções à filtragem de spam podem abrir sua organização para falsificar e outros ataques. Se você insistir em usar listas de remetentes confiáveis para gerenciar falsos positivos, precisará estar atento e manter o tópico [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md) em mãos.</li><li>Para permitir que um domínio envie emails não autenticados (ignora a proteção contra falsificação), mas não ignore verificações antispam e antimalware, você pode adicioná-lo à [lista de remetentes confiáveis do AllowedToSpoof](walkthrough-spoof-intelligence-insight.md)</li><li>EOP e Outlook inspecionam Propriedades de mensagem diferentes para determinar o remetente da mensagem. Para obter mais informações, consulte a seção [Considerações sobre email em massa](#considerations-for-bulk-email) , posteriormente neste tópico.</li></ul>
+> <ul><li>Tenha cuidado para monitorar atentamente *todas as* exceções que você deseja filtrar usando as listas de remetentes seguros.</li><li>Embora você possa usar listas de remetentes confiáveis para ajudar com falsos positivos (bons emails marcados como spam), considere o uso de listas de remetentes seguros como uma solução temporária que deve ser evitada, se possível. Não recomendamos o gerenciamento de falsos positivos usando as listas de remetentes seguros, pois as exceções à filtragem de spam podem abrir sua organização para falsificar e outros ataques. Se você insistir em usar listas de remetentes confiáveis para gerenciar falsos positivos, precisará estar atento e manter o tópico [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md) em mãos.</li><li>Para permitir que um domínio envie emails não autenticados (ignora a proteção contra falsificação), mas não ignore verificações antispam e antimalware, você pode adicioná-lo à [lista de remetentes confiáveis do AllowedToSpoof](walkthrough-spoof-intelligence-insight.md)</li><li>EOP e Outlook inspecionam Propriedades de mensagem diferentes para determinar o remetente da mensagem. Para obter mais informações, consulte a seção [Considerações sobre email em massa](#considerations-for-bulk-email) , posteriormente neste tópico.</li></ul>
 
 Por outro lado, você também tem várias opções para bloquear emails de fontes específicas usando _listas de remetentes bloqueados_. Para obter mais informações, confira [Criar listas de bloqueios de remetentes no Office 365](create-block-sender-lists-in-office-365.md)
 
@@ -115,7 +115,7 @@ O limite máximo para essas listas é de aproximadamente 1000 entradas; no entan
 
 Uma mensagem de email SMTP padrão consiste em um *envelope de mensagem* e um conteúdo de mensagem. O envelope da mensagem contém informações necessárias para transmitir e entregar a mensagem entre os servidores SMTP. O conteúdo da mensagem contém os campos de cabeçalho da mensagem (coletivamente chamados de *cabeçalho da mensagem*) e o corpo da mensagem. O envelope da mensagem é descrito em RFC 5321, e o cabeçalho da mensagem é descrito em RFC 5322. Os destinatários nunca veem o envelope de mensagem real porque é gerado pelo processo de transmissão de mensagens e, na verdade, não faz parte da mensagem.
 
-- O `5321.MailFrom` endereço (também conhecido como o endereço **de email de** remetente, o remetente P1 ou o remetente do envelope) é o endereço de email que é usado na transmissão SMTP da mensagem. Esse endereço de email geralmente é registrado no campo de cabeçalho de **retorno de caminho** no cabeçalho da mensagem (embora seja possível que o remetente designe um endereço de email de **devolução** diferente). Esse endereço de email é usado para verificações de autenticação do remetente (SPF, DKIM, DMARC) e, se a mensagem não puder ser entregue, é o destinatário da notificação de falha na entrega (também conhecida como uma mensagem de erro de notificação de falha na entrega). 
+- O `5321.MailFrom` endereço (também conhecido como o endereço **de email de** remetente, o remetente P1 ou o remetente do envelope) é o endereço de email que é usado na transmissão SMTP da mensagem. Esse endereço de email geralmente é registrado no campo de cabeçalho de **retorno de caminho** no cabeçalho da mensagem (embora seja possível que o remetente designe um endereço de email de **devolução** diferente). Se a mensagem não puder ser entregue, ela é o destinatário da notificação de falha na entrega (também conhecida como notificação de falha na entrega ou mensagem de devolução).
 
 - O `5322.From` (também conhecido como o endereço **de** ou o remetente P2) é o endereço de email no campo **de cabeçalho de** e é o endereço de email do remetente que é exibido em clientes de email.
 

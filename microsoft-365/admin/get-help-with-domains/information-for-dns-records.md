@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: 'Saiba como localizar os valores/informações de que você precisa para criar registros DNS para o Office 365. '
 ms.custom: okr_smb
-ms.openlocfilehash: 2490532894ef00bab5de3f406b0c104529423382
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 2cb45b6a5c07bd50e15e7f2a941be344b5f69038
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210375"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540874"
 ---
 # <a name="gather-the-information-you-need-to-create-office-365-dns-records"></a>Coletar as informações de que você precisa para criar registros de DNS do Office 365
 
@@ -35,17 +35,21 @@ ms.locfileid: "43210375"
   
 ### <a name="step-1-find-the-txt-record-value-and-verify"></a>Etapa 1: localizar o valor do registro TXT e verificar
 
+::: moniker range="o365-worldwide"
+
 1. No centro de administração do Microsoft 365, vá para a página **Configurar** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a> .
+
+::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">domínios</a> .
+1. No centro de administração, vá para a página **Configurar** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">domínios</a> .
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">domínios</a> .
+1. No centro de administração, vá para a página **Configurar** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">domínios</a> .
 
 ::: moniker-end
     
@@ -63,17 +67,21 @@ ms.locfileid: "43210375"
     
 ### <a name="step-2-find-the-mx-record-value-for-email-and-more"></a>Etapa 2: localizar o valor de registro MX para email e muito mais
 
+::: moniker range="o365-worldwide"
+
 1. No centro de administração do Microsoft 365, vá para a página **Configurar** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a> .
+
+::: moniker-end
     
 ::: moniker range="o365-germany"
 
-1. No centro de administração, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">domínios</a> .
+1. No centro de administração, vá para a página **Configurar** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">domínios</a> .
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">domínios</a> .
+1. No centro de administração, vá para a página **Configurar** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">domínios</a> .
 
 ::: moniker-end
     

@@ -1,5 +1,5 @@
 ---
-title: Recomendações da Microsoft para EOP e Office 365 configurações de segurança de ATP, recomendações, estrutura de política de remetente, relatórios e conformidade de mensagens baseadas em domínio, DomainKeys identificadas por email, etapas, como funciona, as linhas de base de segurança, linhas de base para o EOP linhas de base para ATP, configuração ATP, configuração EOP, configurar ATP, configurar EOP, configuração de segurança
+title: Recomendações da Microsoft para EOP e Office 365 configuração de segurança ATP, recomendações, estrutura de política de remetente, relatórios e conformidade de mensagens baseadas em domínio, DomainKeys identificadas por email, etapas, como funciona, as linhas de base de segurança, as linhas de base para o EOP, as linhas de base para ATP, configurar ATP, configuração EOP, configurar ATP, definir EOP, configuração de segurança
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Quais são as práticas recomendadas para as configurações de segurança do Exchange Online Protection (EOP) e da proteção avançada contra ameaças (ATP)? Quais são as recomendações atuais para a proteção padrão? O que deve ser usado se você deseja ser mais estrito? E quais são os extras obtidos se você também usa a proteção avançada contra ameaças (ATP)?
-ms.openlocfilehash: 9ddf704f767dfa5ff5c93888e51b91b2079a6c43
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 1f20c8c09f3e690cc65e494ec6a372c95ac7171b
+ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032847"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43537432"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Configurações recomendadas para o EOP e a segurança ATP do Office 365
 
@@ -57,7 +57,7 @@ Para criar e configurar políticas antispam, consulte [Configure anti-spam Polic
 |Período de retenção de quarentena <br/><br/> _QuarantineRetentionPeriod_|30 dias|30 dias||
 |**Dicas de segurança** <br/><br/> _InlineSafetyTipsEnabled_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`||
 |Remetentes permitidos <br/><br/> _AllowedSenders_|Nenhum|Nenhum||
-|Domínios de remetente permitidos <br/><br/> _AllowedSenderDomains_|Nenhum|Nenhum|A adição de domínios que você possui (também conhecido como _domínios aceitos_) à lista de remetentes permitidos não é necessária. Na verdade, ele é considerado de alto risco, pois cria oportunidades de atores incorretos para enviar emails que seriam filtrados de outra forma. Use a [inteligência de spoof](learn-about-spoof-intelligence.md) no centro de conformidade & segurança da página **configurações antispam** para examinar todos os remetentes que estão falsificando os domínios que fazem parte da sua organização ou falsificando domínios externos.|
+|Domínios de remetente permitidos <br/><br/> _AllowedSenderDomains_|Nenhum|Nenhum|A adição de domínios que você possui (também conhecido como _domínios aceitos_) à lista de remetentes permitidos não é necessária. Na verdade, ele é considerado de alto risco, pois cria oportunidades de atores incorretos para enviar emails que seriam filtrados de outra forma. Use a [inteligência de falsificação](learn-about-spoof-intelligence.md) no centro de conformidade & segurança da página **configurações antispam** para examinar todos os remetentes que estão falsificando endereços de email de remetente nos domínios de email da sua organização ou endereços de email de remetentes falsificados em domínios externos.|
 |Remetentes bloqueados <br/><br/> _BlockedSenders_|Nenhum|Nenhum||
 |Domínios de remetentes bloqueados <br/><br/> _BlockedSenderDomains_|Nenhum|Nenhum||
 |**Habilitar notificações de spam para o usuário final** <br/><br/> _EnableEndUserSpamNotifications_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`||
@@ -118,13 +118,17 @@ Para criar e configurar políticas Antimalware, consulte [Configure anti-malware
 |**Notificar remetentes externos** da mensagem não entregue <br/><br/> _EnableExternalSenderNotifications_|Desabilitado <br/><br/> `$false`|Desabilitado <br/><br/> `$false`||
 |
 
-### <a name="eop-anti-phishing-policy-settings"></a>Configurações de política de anti-phishing do EOP
+### <a name="eop-default-anti-phishing-policy-settings"></a>Configurações de política anti-phishing padrão do EOP
 
-|Nome do recurso de segurança|Standard|Impede|Comentário|
-|---------|---------|---------|---------|
-|Habilitar a proteção contra falsificação|Habilitado|Habilitado||
-|Habilitar remetente não autenticado (marcação)|Habilitado|Habilitado||
-|Se o email for enviado por alguém que não tenha permissão para falsificar seu domínio|Mover mensagem para pastas de lixo eletrônico dos destinatários|Colocar a mensagem em quarentena||
+Você só pode definir essas configurações nas organizações do Office 365 com caixas de correio do Exchange Online. Para definir essas configurações, consulte [Configure the default anti-phishing Policy in EOP](configure-anti-phishing-policies-eop.md).
+
+|||||
+|---|---|---|---|
+|**Nome do recurso de segurança**|**Standard**|**Impede**|**Comentário**|
+|**Habilitar a proteção contra falsificação** <br/><br/> _EnableAntispoofEnforcement_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`||
+|**Habilitar remetente não autenticado** <br/><br/> _EnableUnauthenticatedSender_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`|Adiciona um ponto de interrogação (?) à foto do remetente no Outlook para remetentes falsificados não identificados. Para obter mais informações, consulte [configurações de spoof em políticas anti-phishing](set-up-anti-phishing-policies.md#spoof-settings).|
+|**Se o email for enviado por alguém que não tenha permissão para falsificar seu domínio** <br/><br/> _AuthenticationFailAction_|**Mover mensagem para pastas de lixo eletrônico dos destinatários** <br/><br/> `MoveToJmf`|**Colocar a mensagem em quarentena** <br/><br/> `Quarantine`|Isso se aplica a remetentes bloqueados na [inteligência de falsificação](learn-about-spoof-intelligence.md).|
+|
 
 ## <a name="office-365-advanced-threat-protection-security"></a>Segurança avançada de proteção contra ameaças do Office 365
 
@@ -139,35 +143,47 @@ Se você tiver adicionado uma assinatura ATP do Office 365 ao seu EOP, defina as
 
 ### <a name="office-atp-anti-phishing-policy-settings"></a>Configurações de política anti-phishing do Office ATP
 
-Os clientes do EOP obtêm anti-phishing básico como descrito anteriormente, mas o Office 365 ATP inclui mais recursos e controle para ajudar a prevenir, detectar e corrigir contra ataques.
+Os clientes do EOP obtêm anti-phishing básico como descrito anteriormente, mas o Office 365 ATP inclui mais recursos e controle para ajudar a prevenir, detectar e corrigir contra ataques. Para criar e configurar essas políticas, consulte [Configure ATP anti-phishing Policies in Office 365](configure-atp-anti-phishing-policies.md).
 
-|Nome do recurso de segurança de representação|Standard|Impede|Comentário|
-|---------|---------|---------|---------|
-|(Editar política de representação) Adicionar usuários para proteger|Habilitado|Habilitado|Depende da sua organização, mas recomendamos adicionar usuários em funções principais. Internamente, esses podem ser o CEO, CFO e outros líderes seniores. Externamente, elas podem incluir membros do Conselho ou seu Conselho de diretores.|
-|(Editar política de representação) Incluir automaticamente os domínios que sou proprietário|Habilitado|Habilitado||
-|(Editar política de representação) Incluir domínios personalizados|Habilitado|Habilitado|Depende da sua organização, mas recomendamos adicionar domínios que você interagem com a maioria que você não possui.|
-|Se o email for enviado por um usuário representado que você especificou|Colocar a mensagem em quarentena|Colocar a mensagem em quarentena||
-|Se o email for enviado por um domínio representado que você especificou|Colocar a mensagem em quarentena|Colocar a mensagem em quarentena||
-|Mostrar dica para usuários representados|Habilitado|Habilitado||
-|Mostrar dica para domínios representados|Habilitado|Habilitado||
-|Mostrar dica para caracteres incomuns|Habilitado|Habilitado||
-|Habilitar inteligência de caixa de correio|Habilitado|Habilitado||
-|Habilitar proteção de representação baseada em inteligência de caixa de correio|Habilitado|Habilitado||
-|Se o email for enviado por um usuário representado protegido por Mailbox Intelligence|Mover mensagem para pastas de lixo eletrônico dos destinatários|Colocar a mensagem em quarentena||
-|(Editar política de representação) Adicionar domínios e remetentes confiáveis|Nenhum|Nenhum|Depende da sua organização, mas é recomendável adicionar usuários ou domínios que são marcados incorretamente como phishing devido à representação apenas e não a outros filtros.|
+#### <a name="impersonation-settings-in-atp-anti-phishing-policies"></a>Configurações de representação nas políticas anti-phishing da ATP
 
-|Nome do recurso de segurança de spoof|Standard|Impede|Comentário|
-|---------|---------|---------|---------|
-|Habilitar a proteção contra falsificação|Habilitado|Habilitado||
-|Habilitar remetente não autenticado (marcação)|Habilitado|Habilitado||
-|Se o email for enviado por alguém que não tenha permissão para falsificar seu domínio|Mover mensagem para pastas de lixo eletrônico dos destinatários|Colocar a mensagem em quarentena||
-|EnableSuspiciousSafetyTip|Falso|Verdadeiro|Essa configuração só está disponível no PowerShell|
-|TreatSoftPassAsAuthenticated|True|Falso|Essa configuração só está disponível no PowerShell|
+|||||
+|---|---|---|---|
+|**Nome do recurso de segurança**|**Standard**|**Impede**|**Comentário**|
+|Usuários protegidos: **Adicionar usuários para proteger** <br/><br/> _EnableTargetedUserProtection_ <br/><br/> _TargetedUsersToProtect_|Habilitado <br/><br/> `$true` <br/><br/> \<lista de usuários\>|Habilitado <br/><br/> `$true` <br/><br/> \<lista de usuários\>|Depende da sua organização, mas recomendamos adicionar usuários em funções principais. Internamente, esses podem ser o CEO, CFO e outros líderes seniores. Externamente, elas podem incluir membros do Conselho ou seu Conselho de diretores.|
+|Domínios protegidos: **incluir automaticamente os domínios que eu sou proprietário** <br/><br/> _EnableOrganizationDomainsProtection_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`||
+|Domínios protegidos: **incluir domínios personalizados** <br/><br/> _EnableTargetedDomainsProtection_ <br/><br/> _TargetedDomainsToProtect_|Habilitado <br/><br/> `$true` <br/><br/> \<lista de domínios\>|Habilitado <br/><br/> `$true` <br/><br/> \<lista de domínios\>|Depende da sua organização, mas recomendamos a adição de domínios com os quais você não é proprietário.|
+|Usuários protegidos: **se o email for enviado por um usuário representado** <br/><br/> _TargetedUserProtectionAction_|**Colocar a mensagem em quarentena** <br/><br/> `Quarantine`|**Colocar a mensagem em quarentena** <br/><br/> `Quarantine`||
+|Domínios protegidos: **se o email for enviado por um domínio representado** <br/><br/> _TargetedUserProtectionAction_|**Colocar a mensagem em quarentena** <br/><br/> `Quarantine`|**Colocar a mensagem em quarentena** <br/><br/> `Quarantine`||
+|**Mostrar dica para usuários representados** <br/><br/> _EnableSimilarUsersSafetyTips_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`||
+|**Mostrar dica para domínios representados** <br/><br/> _EnableSimilarDomainsSafetyTips_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`||
+|**Mostrar dica para caracteres incomuns** <br/><br/> _EnableUnusualCharactersSafetyTips_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`||
+|**Habilitar o Mailbox Intelligence?** <br/><br/> _EnableMailboxIntelligence_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`||
+|**Habilitar a proteção de representação baseada em inteligência de caixa de correio?** <br/><br/> _EnableMailboxIntelligenceProtection_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`||
+|**Se o email for enviado por um usuário representado protegido por Mailbox Intelligence** <br/><br/> _MailboxIntelligenceProtectionAction_|**Mover mensagem para pastas de lixo eletrônico dos destinatários** <br/><br/> `MoveToJmf`|**Colocar a mensagem em quarentena** <br/><br/> `Quarantine`||
+|**Remetentes confiáveis** <br/><br/> _ExcludedSenders_|Nenhum|Nenhum|Depende da sua organização, mas é recomendável adicionar usuários que são marcados incorretamente como phishing devido à representação apenas e não a outros filtros.|
+|**Domínios confiáveis** <br/><br/> _ExcludedDomains_|Nenhum|Nenhum|Depende da sua organização, mas é recomendável adicionar domínios que são marcados incorretamente como phishing devido à representação apenas e não a outros filtros.|
+|
 
+#### <a name="spoof-settings-in-atp-anti-phishing-policies"></a>Configurações de spoof nas políticas anti-phishing da ATP
 
-|Nome do recurso de segurança de configurações avançadas|Standard|Impede|Comentário|
-|---------|---------|---------|---------|
-|Limites avançados de phishing|2-agressivo|3-mais agressivo||
+Observe que essas são as mesmas configurações disponíveis nas configurações de [política antispam no EOP](#eop-anti-spam-policy-settings).
+
+|||||
+|---|---|---|---|
+|**Nome do recurso de segurança**|**Standard**|**Impede**|**Comentário**|
+|**Habilitar a proteção contra falsificação** <br/><br/> _EnableAntispoofEnforcement_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`||
+|**Habilitar remetente não autenticado** <br/><br/> _EnableUnauthenticatedSender_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`|Adiciona um ponto de interrogação (?) à foto do remetente no Outlook para remetentes falsificados não identificados. Para obter mais informações, consulte [configurações de spoof em políticas anti-phishing](set-up-anti-phishing-policies.md#spoof-settings).|
+|**Se o email for enviado por alguém que não tenha permissão para falsificar seu domínio** <br/><br/> _AuthenticationFailAction_|**Mover mensagem para pastas de lixo eletrônico dos destinatários** <br/><br/> `MoveToJmf`|**Colocar a mensagem em quarentena** <br/><br/> `Quarantine`|Isso se aplica a remetentes bloqueados na [inteligência de falsificação](learn-about-spoof-intelligence.md).|
+|
+
+#### <a name="advanced-settings-in-atp-anti-phishing-policies"></a>Configurações avançadas nas políticas anti-phishing da ATP
+
+|||||
+|---|---|---|---|
+|**Nome do recurso de segurança**|**Standard**|**Impede**|**Comentário**|
+|**Limites avançados de phishing** <br/><br/> _PhishThresholdLevel_|**2-agressivo** <br/><br/> `2`|**3-mais agressivo** <br/><br/> `3`||
+|
 
 ### <a name="safe-links-settings"></a>Configurações de links seguros
 

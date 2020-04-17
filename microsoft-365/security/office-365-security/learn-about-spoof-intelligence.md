@@ -1,11 +1,11 @@
 ---
-title: Saiba mais sobre a inteligência de falsificação
+title: Configurar a inteligência de spoof
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 10/22/2018
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,135 +16,216 @@ search.appverid:
 ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
 ms.collection:
 - M365-security-compliance
-description: Use a inteligência de spoof no &amp; centro de conformidade de segurança na página configurações antispam para examinar todos os remetentes que estão falsificando os domínios que fazem parte da sua organização ou falsificando domínios externos. A inteligência de falsificação está disponível como parte do Office 365 Enterprise E5 ou separadamente como parte da proteção avançada contra ameaças e proteção do Exchange Online.
-ms.openlocfilehash: a58f98852f321791615c5f0064b69e8510aadbe5
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+description: Os administradores podem saber como configurar remetentes falsificados para permitir ou não permissões e outras configurações de inteligência de falsificação no Exchange Online e no Exchange Online Protection (EOP).
+ms.openlocfilehash: 96a1442c893444108aaf6814484bc4e4d55aa731
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081455"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528732"
 ---
-# <a name="learn-more-about-spoof-intelligence"></a>Saiba mais sobre a inteligência de falsificação
+# <a name="configure-spoof-intelligence-in-office-365"></a>Configurar o spoof Intelligence no Office 365
 
-Use a inteligência de spoof no &amp; centro de conformidade de segurança na **página configurações antispam** para examinar todos os remetentes que estão falsificando os domínios que fazem parte da sua organização ou falsificando domínios externos. A inteligência de falsificação está disponível como parte do Office 365 Enterprise E5 ou separadamente como parte da proteção avançada contra ameaças (ATP) e a partir de outubro, 2018 proteção do Exchange Online (EOP).
+Se você for um cliente do Office 365 com caixas de correio no Exchange Online ou um cliente do Exchange Online Protection (EOP) autônomo sem caixas de correio do Exchange Online, as mensagens de email de entrada serão automaticamente protegidas contra falsificação por EOP a partir de outubro de 2018. O EOP usa a inteligência de falsificação como parte da defesa geral da sua organização contra phishing. Para obter mais informações, consulte [proteção contra falsificação no Office 365](anti-spoofing-protection.md).
 
-## <a name="what-types-of-email-spoofing-can-i-review-and-which-should-i-protect-against-with-spoof-intelligence"></a>Quais tipos de falsificação de email posso revisar e qual devo proteger contra a inteligência de falsificação?
+Quando um remetente falsifica um endereço de email, ele parece ser um usuário em um dos domínios da sua organização ou um usuário em um domínio externo que envia emails para sua organização. Invasores que falsificam remetentes para enviar spam ou phishing email precisam ser bloqueados. Mas há situações em que remetentes legítimos estão falsificando. Por exemplo:
 
-Para domínios de sua propriedade, você pode revisar os remetentes que estão falsificando seu domínio e, em seguida, optar por permitir que o remetente continue ou bloqueie o remetente. Para domínios externos, você pode permitir o domínio do remetente combinado com a infraestrutura de envio, embora não um endereço de email de envio individual.
+- Cenários legítimos para falsificação de domínios internos:
 
-Quando um remetente falsifica um endereço de email, ele parece estar enviando emails em nome de uma ou mais contas de usuário dentro de um dos domínios da sua organização ou um domínio externo enviando para sua organização. Surpreendentemente, há alguns motivos de negócios legítimos para falsificação. Por exemplo, nesses casos, você não bloquearia o remetente de falsificar seu domínio:
+  - Remetentes de terceiros usam seu domínio para enviar emails em massa aos seus próprios funcionários para pesquisas da empresa.
 
-- Você tem remetentes de terceiros que usam seu domínio para enviar emails em massa para seus próprios funcionários para pesquisas da empresa.
+  - Uma empresa externa gera e envia anúncios ou atualizações de produtos em seu nome.
 
-- Você contratou uma empresa externa para gerar e enviar comunicados ou atualizações de produtos em seu nome.
+  - Um assistente precisa regularmente enviar emails para outra pessoa em sua organização.
 
-- Um assistente que regularmente precisa enviar emails para outra pessoa em sua organização.
+  - Um aplicativo interno envia notificações por email.
 
-- Um aplicativo que é configurado para falsificar sua própria organização a fim de enviar notificações internas por email.
+- Cenários legítimos para falsificação de domínios externos:
 
-Domínios externos freqüentemente enviam emails falsificados, e muitos desses motivos são legítimos. Por exemplo, aqui estão alguns casos legítimos quando remetentes externos enviam emails falsificados:
+  - O remetente está em uma lista de endereçamento (também conhecida como lista de discussão) e a lista de endereçamento envia emails do remetente original para todos os participantes na lista de endereçamento.
 
-- O remetente está em uma lista de endereçamento de discussão e a lista de endereçamento está retransmitindo o email do remetente original para todos os participantes na lista de endereçamento.
+  - Uma empresa externa envia emails em nome de outra empresa (por exemplo, um relatório automatizado ou uma empresa de software como serviço).
 
-- Uma empresa externa está enviando emails em nome de outra empresa (por exemplo, um relatório automatizado ou uma empresa de software como serviço).
+A inteligência de falsificação e, especificamente, a política de inteligência de falsificação padrão (e apenas) ajuda a garantir que o email falsificado enviado por remetentes legítimos não seja detectado em filtros de spam nos sistemas de email externos ou no Office 365, ao mesmo tempo que protege seus usuários contra ataques de spam ou phishing.
 
-Você precisa de uma maneira de garantir que os emails enviados por fraudadores legítimos não sejam configurados em filtros de spam no Office 365 ou sistemas de email externos. Normalmente, o Office 365 trata essas mensagens de email como spam. Como um administrador do Office 365, você pode evitar isso Configurando os filtros de spoof no centro de &amp; conformidade de segurança. Se você é o proprietário do domínio, é possível configurar o SPF, o DKIM e o DMARC para permitir esses remetentes.
+Você pode gerenciar a inteligência de spoofing no centro de conformidade & segurança do Office 365 ou no PowerShell (PowerShell do Exchange Online para clientes do Office 365; PowerShell de proteção do Exchange Online para clientes autônomos do EOP).
 
-Por outro lado, falsificadores mal-intencionados, aqueles remetentes que estão falsificando seu domínio ou domínios externos, para enviar spam ou email de phishing, precisam ser bloqueados. A falsificação também é uma maneira comum de que os phishers obtenham credenciais de usuário. O Office 365 tem proteção de falsificação interna para ajudar a proteger sua organização contra remetentes desses emails mal-intencionados. A proteção contra falsificação dos domínios de sua organização está sempre ativada para todos os clientes do Office 365, e a proteção contra falsificação de domínio externo está ativada por padrão para clientes de proteção avançada contra ameaças e a partir de outubro de 2018 EOP. Para reforçar ainda mais essa proteção, diga-nos quais remetentes estão autorizados a falsificar os domínios da sua organização e enviar emails em seu nome e se qualquer domínio externo tem permissão para falsificar. Todos os emails enviados de um remetente que você não autorizar serão tratados como spam ou spoofing pelo Office 365. Mantenha um olho nos remetentes que falsificam seu domínio e ajude-nos a melhorar a inteligência de falsificação usando o centro de conformidade de segurança &amp; .
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-## <a name="managing-spoof-intelligence-in-the-security-amp-compliance-center"></a>Gerenciando a inteligência de spoofing no centro de conformidade de segurança &amp;
-<a name="Managespooflist"> </a>
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>. Para ir diretamente para a página **anti-phishing** , use <https://protection.office.com/antiphishing>.
 
-A política de inteligência de spoof que você configurou é sempre imposta pelo Office 365. Você não pode desabilitá-lo, mas pode escolher o quanto deseja gerenciá-lo ativamente.
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell da Proteção do Exchange Online autônoma, confira [Conectar ao PowerShell da Proteção do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
-Você pode revisar os remetentes que estão falsificando seu domínio ou domínios externos e, em seguida, decidir se cada remetente deve ter permissão para fazê-lo &amp; usando o centro de conformidade de segurança. Para cada conta de usuário falsificada que um remetente falsifica do seu domínio ou de um domínio externo, você pode exibir as informações na tabela a seguir.
+- Você precisa receber permissões para executar esses procedimentos. Para modificar a política de inteligência de spoof ou habilitar ou desabilitar a inteligência de falsificação, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** . Para acesso somente leitura à política de inteligência de falsificação, você precisa ser membro do grupo de função **leitor de segurança** . Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de conformidade e Segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
 
-|**Parâmetro**|**Descrição**|
-|:-----|:-----|
-|Remetente  <br/> |Também chamado de verdadeiro remetente. Em geral, esse é o domínio do qual o email de falsificação é originado. O Office 365 determina o domínio do registro DNS de ponteiro (PTR) do endereço IP de envio que está falsificando sua organização. Se nenhum domínio for encontrado, o relatório exibirá o endereço IP do remetente.  <br/> |
-|Usuário falsificado  <br/> |A conta de usuário que está sendo falsificada pelo remetente.  <br/> Somente a guia **interna** . Este campo contém um único endereço de email ou, se o remetente estiver falsificando várias contas de usuário, ele conterá **mais de um**.  <br/> Somente a guia **externa** . Os domínios externos só contêm um domínio de envio e não contêm um endereço de email completo.  <br/> **Tip! Para administradores avançados.** O usuário falsificado é o endereço de (5322. from) que também é o endereço exibido como o endereço de email. Isso às vezes é chamado de cabeçalho. do endereço. A validade desse endereço não é verificada por SPF.           |
-|Número de mensagens  <br/> |O número de mensagens de email enviadas pelo remetente para sua organização em nome do remetente falsificado identificado ou remetentes nos últimos 30 dias.  <br/> |
-|Número de reclamações de usuários  <br/> |Reclamações arquivadas pelos usuários em relação a esse remetente pelos seus usuários nos últimos 30 dias. As reclamações geralmente estão na forma de envios de lixo eletrônico para a Microsoft.  <br/> |
-|Resultado da autenticação  <br/> |Esse valor é **passado** se o remetente passou por verificações de autenticação de remetentes do Exchange Online Protection (EOP), como SPF ou DKIM, **falhou** se o remetente falhou EOP verificações de autenticação de remetente ou **desconhecido** se o resultado dessas verificações não for conhecido.  <br/> |
-|Decisão definida por  <br/> |Mostra se o administrador do Office 365 ou a política de inteligência de spoof determina se o remetente tem permissão para falsificar o usuário.  <br/> |
-|Visto pela última vez  <br/> |A última data em que uma mensagem foi recebida por este remetente em nome desse usuário falso.  <br/> |
-|Permitido para falsificar?  <br/> | Exibe se este remetente tem ou não permissão para enviar emails em nome do usuário falsificado. Os valores possíveis incluem:  <br/> **Sim** Todos os endereços falsificados desse remetente de falsificação serão permitidos para falsificar sua organização.  <br/> **Nenhum** Os endereços falsificados desse remetente de falsificação não terão permissão para falsificar sua organização. Em vez disso, as mensagens desse remetente serão marcadas como spam pelo Office 365.  <br/> **Alguns usuários** Se um remetente estiver falsificando vários usuários, alguns endereços falsificados desse remetente serão permitidos para falsificar sua organização, o restante será marcado como spam. Use a guia **detalhada** para ver os endereços específicos.  <br/> |
-|Tipo de spoof  <br/> |Esse valor é **interno** se o domínio for um dos domínios provisionados de sua organização, caso contrário, o valor será **externo**.  <br/> |
+- Para nossas configurações recomendadas para inteligência de falsificação, [configurações de política antiphishing padrão do EOP](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings).
 
- **Para gerenciar remetentes que estão falsificando seu domínio usando o centro de &amp; conformidade de segurança**
+## <a name="use-the-security--compliance-center-to-manage-spoofed-senders"></a>Usar o centro de conformidade de & de segurança para gerenciar remetentes falsificados
 
-1. Vá para o [Centro &amp; de conformidade de segurança](https://protection.office.com).
+> [!NOTE]
+> Se você tiver uma assinatura do Office 365 Enterprise E5 ou tiver um complemento de ATP (proteção avançada contra ameaças), você também poderá gerenciar os remetentes que estão falsificando seu domínio por meio da [compreensão de inteligência de falsificação](walkthrough-spoof-intelligence-insight.md).
 
-2. Entre no Office 365 com uma conta corporativa ou de estudante. Sua conta deve ter credenciais de administrador em sua organização do Office 365.
+1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
 
-3. No centro de &amp; conformidade de segurança, expanda **anti-spam**de **política** \> de **Gerenciamento** \> de ameaças.
+2. Na página **configurações antispam** , clique em ![expandir ícone](../../media/scc-expand-icon.png) para expandir política de **inteligência de fraude**.
 
-    ![Captura de tela mostrando o acesso à página antispam](../../media/0a098e68-5ecf-40d7-984f-d15fcc1f958d.jpg)
+   ![Selecione a política de inteligência de spoof](../../media/anti-spam-settings-spoof-intelligence-policy.png)
 
-4. Na página **configurações antispam** no painel direito, role para baixo e expanda política de **inteligência de fraude**.
+3. Faça uma das seguintes seleções:
 
-    ![simulação](https://user-images.githubusercontent.com/41186174/71801032-6228f100-3062-11ea-8461-682b910418c2.png)
+   - **Revisar novos remetentes**
+   - **Mostrar os remetentes que eu já revisei**
 
-5. Para exibir a lista de remetentes que falsificam seu domínio, escolha **revisar novos remetentes** e selecione a guia **domínios** .
+4. Em **decidir se esses remetentes têm permissão para falsificar o** submenu de usuários exibido, selecione uma das seguintes guias:
 
-    Se você já examinou os remetentes e deseja alterar algumas de suas escolhas anteriores, você pode escolher **mostrar a mim que eu já analisei** em vez disso. Em ambos os casos, o painel a seguir é exibido.
+   - **Seus domínios**: remetentes que falsificam usuários em seus domínios internos.
+   - **Domínios externos**: remetentes que falsificam usuários em domínios externos.
 
-    ![Captura de tela mostrando o acesso à guia remetentes falsificados](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
+5. Clique ![em expandir](../../media/scc-expand-icon.png) ícone na coluna **permitido para falsificação?** . Escolha **Sim** para permitir o remetente falsificado ou escolha **não** para marcar a mensagem como falsificada. A ação é controlada por uma política anti-phishing padrão ou políticas anti-phishing personalizadas da ATP (o valor padrão é **mover mensagem para a pasta lixo eletrônico**). Para obter mais informações, consulte [configurações de spoof em políticas anti-phishing](set-up-anti-phishing-policies.md#spoof-settings).
 
-    Cada usuário falsificado é exibido em uma linha separada para que você possa optar por permitir ou impedir que o remetente falsifique individualmente cada usuário.
+   ![Captura de tela mostrando o submenu de remetentes falsificados e se o remetente tem permissão para falsificar](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
 
-    Para adicionar um remetente à lista de permissões para um usuário, selecione **Sim** na coluna **permitido para falsificação** . Para adicionar um remetente à lista de bloqueios de um usuário, escolha **não**.
+   As colunas e os valores que você vê são explicados na lista a seguir:
 
-    Para definir a política para domínios que você não possui, selecione a guia **domínios externos** . Altere qualquer remetente para **Sim** na coluna **permitido para falsificar** para permitir que o remetente envie emails não autenticados para sua organização. Como alternativa, se você acha que o Office 365 cometeu um erro ao permitir que o remetente envie emails falsificados, altere a coluna **permitido para falsificar** para **não**.
+   - **Usuário falsificado**: a conta de usuário que está sendo falsificada. Este é o remetente da mensagem no endereço de (também conhecido como o `5322.From` endereço) que é mostrado nos clientes de email. A validade desse endereço não é verificada por SPF.
 
-    ![Captura de tela mostrando se um remetente tem permissão para falsificar](../../media/5dbef9cf-103f-49cd-9638-4b0083d6baa7.jpg)
+     - Na guia **domínios** , o valor contém um único endereço de email ou, se o servidor de email de origem estiver falsificando várias contas de usuário, ele conterá **mais de um**.
 
-6. Escolha **salvar** para salvar as alterações.
+     - Na guia **domínios externos** , o valor contém o domínio do usuário falsificado, e não o endereço de email completo.
 
-Se você tiver uma assinatura do Office 365 Enterprise E5 ou se tiver uma proteção avançada contra ameaças adquiridas separadamente como um complemento, também poderá gerenciar os remetentes que estão falsificando seu domínio por meio da [compreensão de inteligência de falsificação](walkthrough-spoof-intelligence-insight.md).
+   - **Infraestrutura de envio**: o domínio encontrado em uma pesquisa de DNS inversa (registro PTR) do endereço IP do servidor de email de origem ou o endereço IP, se a fonte não tiver um registro PTR.
 
-## <a name="configuring-the-anti-spoofing-policy"></a>Configurando a política antifalsificação
-<a name="Managespooflist"> </a>
+     Para obter mais informações sobre fontes de mensagens e remetentes de mensagens, consulte [uma visão geral dos padrões de mensagens de email](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards).
 
-Além de permitir ou impedir que um remetente específico envie emails falsificados para sua organização, você também pode configurar o rigor que deseja que o filtro seja, e a ação a ser executada quando uma mensagem de falsificação é encontrada.
+   - **n º de mensagens**: o número de mensagens da infraestrutura de envio para sua organização que contêm o remetente falsificado especificado ou remetentes nos últimos 30 dias.
 
-A proteção contra falsificação é aplicada a emails de remetentes de domínios externos à sua organização do Office 365. Você pode aplicar a política aos destinatários cujas caixas de correio são licenciadas para o Office 365 Enterprise e5, proteção avançada contra ameaças e a partir de outubro, 2018 EOP clientes também. Você gerencia a política antifalsificação junto com outras configurações de anti-phishing. Para obter mais informações sobre configurações anti-phishing, confira [configurar as políticas de anti-phishing e anti-phishing do Office 365 ATP](set-up-anti-phishing-policies.md).
+   - **n º de reclamações de usuários**: reclamações arquivadas pelos usuários em relação a esse remetente nos últimos 30 dias. As reclamações geralmente estão na forma de envios de lixo eletrônico para a Microsoft.
 
-O Office 365 inclui proteção contra falsificação padrão que está sempre em execução. Essa proteção padrão não está visível no centro de &amp; conformidade de segurança ou recuperável por meio dos cmdlets do Windows PowerShell. Não é possível modificar a proteção contra falsificação padrão. Em vez disso, você pode configurar o quão rigorosamente o Office 365 aplica a proteção contra falsificação em cada política anti-phishing que você criar.
+   - **Resultado da autenticação**: um dos seguintes valores:
 
-Embora a política antifalsificação apareça na política anti-phishing no centro de conformidade de segurança &amp; , ela não herda o comportamento padrão da configuração de phishing existente na configuração anti-spam. Se você tiver **configurações em** \> **phishing** antispam que deseja replicar para anti-falsificação, será necessário criar uma política anti-phishing e, em seguida, editar a parte de spoof da política anti-phishing para refletir suas configurações de spoof, conforme descrito na seção a seguir, em vez de aceitar as configurações padrão que são executadas em segundo plano.
+      - **Aprovado**: o remetente passou por verificações de autenticação de email do remetente (SPF ou DKIM).
+      - **Falha**: o remetente falhou EOP verificações de autenticação do remetente.
+      - **Desconhecido**: o resultado dessas verificações não é conhecido.
 
- **Para configurar a proteção contra falsificação em uma política anti-phishing usando o centro de conformidade de &amp; segurança**
+   - **Decisão definida por**: mostra quem determinou se a infraestrutura de envio tem permissão para falsificar o usuário:
 
-1. Vá para o [Centro &amp; de conformidade de segurança](https://protection.office.com).
+       - **Política de inteligência de spoof** (automática)
+       - **Administrador** (manual)
 
-2. Entre no Office 365 com uma conta corporativa ou de estudante. Sua conta deve ter credenciais de administrador em sua organização do Office 365.
+   - **Última vista**: a última data em que uma mensagem foi recebida da infraestrutura de envio que contém o usuário falsificado.
 
-3. No centro de &amp; conformidade de segurança, expanda **anti-phishing de** **política** \> de **Gerenciamento** \> de ameaças.
+   - **Permitido para falsificar?**: os valores que você vê aqui são:
 
-4. Na página **anti-phishing** no painel direito, selecione a política anti-phishing que você deseja configurar.
+     - **Sim**: as mensagens da combinação de usuário falsificado e infraestrutura de envio são permitidas e não são tratadas como email falsificado.
 
-5. Na página que aparece, na linha **spoof** , escolha **Editar**.
+     - **No**: as mensagens da combinação de usuário falsificado e infraestrutura de envio são marcadas como falsificadas. A ação é controlada por uma política anti-phishing padrão ou políticas anti-phishing personalizadas da ATP (o valor padrão é **mover mensagem para a pasta lixo eletrônico**). Consulte a próxima seção para obter mais informações.
 
-6. Em seguida, configure as ações a serem executadas quando uma mensagem for detectada como uma falsificação entre domínios. O comportamento padrão é mover a mensagem para a pasta lixo eletrônico do destinatário. A outra opção é enviar a mensagem para a quarentena. Para obter mais informações sobre o gerenciamento de mensagens enviadas para quarentena, consulte [Quarantine Email messages in Office 365](quarantine-email-messages.md).
+     - **Alguns usuários** (apenas**a guia Domínios** ): uma infraestrutura de envio está falsificando vários usuários, onde alguns usuários falsificados são permitidos e outros não. Use a guia **detalhada** para ver os endereços específicos.
 
-    ![Captura de tela mostrando opções de edição de política contra falsificação](../../media/7a868dff-2c4b-46b9-88ca-f2d523ca2307.jpg)
+6. Na parte inferior da página, clique em **Salvar**.
 
-7. Faça sua escolha e, em seguida, escolha **salvar**.
+## <a name="use-powershell-to-manage-spoofed-senders"></a>Usar o PowerShell para gerenciar remetentes falsificados
 
-## <a name="other-ways-to-manage-spoofing-and-phishing-with-office-365"></a>Outras maneiras de gerenciar falsificação e phishing com o Office 365
-<a name="Managespooflist"> </a>
+Para exibir os remetentes permitidos e bloqueados no spoof Intelligence, use a seguinte sintaxe:
+
+```powershell
+Get-PhishFilterPolicy [-AllowedToSpoof <Yes | No | Partial>] [-ConfidenceLevel <Low | High>] [-DecisionBy <Admin | SpoofProtection>] [-Detailed] [-SpoofType <Internal | External>]
+```
+
+Este exemplo retorna informações detalhadas sobre todos os remetentes que têm permissão para falsificar usuários em seus domínios.
+
+```powershell
+Get-PhishFilter -AllowedToSpoof Yes -Detailed -SpoofType Internal
+```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-phishfilterpolicy).
+
+Para configurar remetentes permitidos e bloqueados no spoof Intelligence, siga estas etapas:
+
+1. Capture a lista atual de remetentes falsificados detectados escrevendo a saída do cmdlet **Get-PhishFilterPolicy** para um arquivo CSV:
+
+   ```powershell
+   Get-PhishFilterPolicy -Detailed | Export-CSV "C:\My Documents\Spoofed Senders.csv"
+   ```
+
+2. Edite o arquivo CSV para adicionar ou modificar os valores de **SpoofedUser** (endereço de email) e **AllowedToSpoof** (Sim ou não). Salve o arquivo, leia o arquivo e armazene o conteúdo como uma variável chamada `$UpdateSpoofedSenders`:
+
+   ```powershell
+   $UpdateSpoofedSenders = Get-Content -Raw "C:\My Documents\Spoofed Senders.csv"
+   ```
+
+3. Use a `$UpdateSpoofedSenders` variável para configurar a política de inteligência de falsificação:
+
+   ```powershell
+   Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSenders
+   ```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [set-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy).
+
+## <a name="use-the-security--compliance-center-to-configure-spoof-intelligence"></a>Usar o centro de conformidade de & de segurança para configurar o spoof Intelligence
+
+As opções de configuração para a inteligência de falsificação são descritas em [configurações de spoof em políticas anti-phishing](set-up-anti-phishing-policies.md#spoof-settings).
+
+Suas opções disponíveis dependem de sua assinatura:
+
+- As organizações autônomas do EOP sem caixas de correio do Exchange Online não podem definir configurações de inteligência de spoof.
+
+- As organizações do Office 365 com caixas de correio do Exchange Online podem definir configurações de inteligência de falsificação na política anti-phishing padrão (e apenas). Para obter instruções, consulte [Configurar a política anti-phishing padrão no EOP](configure-anti-phishing-policies-eop.md).
+
+- As organizações do Office 365 com a ATP podem definir as configurações de inteligência de spoofing na política anti-phishing padrão da ATP e também em políticas anti-phishing personalizadas da ATP. Para obter instruções, consulte [Configure ATP anti-phishing Policies in Office 365](configure-atp-anti-phishing-policies.md).
+
+## <a name="how-do-you-know-these-procedures-worked"></a>Como saber se esses procedimentos funcionaram?
+
+Para verificar se você configurou a inteligência de spoof com remetentes que são permitidos e não têm permissão para falsificar e se você configurou as configurações de inteligência de spoof, use qualquer uma das seguintes etapas:
+
+- No centro de conformidade e segurança &, vá para **política** \> de **Gerenciamento** \> de ameaças **anti-spam** \> expanda **política** \> de inteligência de falsificação selecionar **Mostrar remetentes que eu já revisei** \> selecione a guia **domínios** ou **domínios externos** e verifique o valor **permitido para falsificação?** para o remetente.
+
+- No PowerShell, execute os seguintes comandos para exibir os remetentes que são permitidos e não podem ser falsificados:
+
+  ```powershell
+  Get-PhishFilter -AllowedToSpoof Yes -SpoofType Internal
+  Get-PhishFilter -AllowedToSpoof No -SpoofType Internal
+  Get-PhishFilter -AllowedToSpoof Yes -SpoofType External
+  Get-PhishFilter -AllowedToSpoof No -SpoofType External
+  ```
+
+- No PowerShell, execute o seguinte comando para exportar a lista de todos os remetentes falsificados para um arquivo CSV:
+
+   ```powershell
+   Get-PhishFilterPolicy -Detailed | Export-CSV "C:\My Documents\Spoofed Senders.csv"
+   ```
+
+- Nas organizações do Office 365 com caixas de correio do Exchange Online, execute uma das seguintes etapas:
+
+  - No centro de conformidade & segurança, vá para **Threat management** \> **política** \> de gerenciamento de ameaças **anti-phishing** \> clique em **política padrão** e exiba os detalhes no submenu.
+
+  - No PowerShell do Exchange Online, execute o seguinte comando e verifique as configurações:
+
+    ```PowerShell
+    Get-AntiPhishPolicy -Identity "Office365 AntiPhish Default"
+    ```
+
+- Nas organizações do Office 365 ATP, execute uma das seguintes etapas:
+
+  - No centro de conformidade & segurança, vá para **Threat management** \> **política** \> de gerenciamento de ameaças e **anti-phishing da ATP** e execute uma das seguintes etapas:
+
+    - Selecione uma política na lista. No submenu exibido, verifique os valores na seção **spoof** .
+    - Clique em **política padrão**. No submenu exibido, verifique os valores na seção **spoof** .
+
+  - No PowerShell do Exchange Online, \<substitua\> o nome pelo Office365 antiphish padrão ou o nome de uma política antivírus ATP personalizada e execute o seguinte comando e verifique as configurações:
+
+    ```PowerShell
+    Get-AntiPhishPolicy -Identity "<Name>"
+    ```
+
+## <a name="other-ways-to-manage-spoofing-and-phishing"></a>Outras maneiras de gerenciar falsificação e phishing
 
 Fique à medida sobre falsificação e proteção contra phishing. Aqui estão as maneiras relacionadas à verificação de remetentes que falsificam seu domínio e ajudam a evitar que eles danifiquem sua organização:
 
-- Verifique o relatório de email de falsificação da proteção do Exchange Online como parte da sua rotina. Você pode usar esse relatório com frequência para exibir e ajudar a gerenciar remetentes falsificados. Para saber mais, confira **relatório de email falsificado** em [usar relatórios de proteção de email no Office 365 para exibir dados sobre detecções de malware, spam e de regra](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports).
-
-Para administradores do Office 365 mais avançados, você também pode concluir essas verificações:
+- Verifique o **relatório de falsificação de emails**. Você pode usar esse relatório com frequência para exibir e ajudar a gerenciar remetentes falsificados. Para saber mais, confira [relatório de detecções de spoof](view-email-security-reports.md#spoof-detections-report).
 
 - Revise a configuração da estrutura de política de remetente (SPF). Para obter uma introdução rápida à SPF e para configurá-la rapidamente, veja [Configurar a SPF no Office 365 para ajudar a evitar falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md). Para compreender melhor como o Office 365 usa SPF, para solucionar problemas, ou para saber mais sobre implantações incomuns, como implantações híbridas, comece com [How Office 365 uses Sender Policy Framework (SPF) to prevent spoofing](how-office-365-uses-spf-to-prevent-spoofing.md).
 
-- Revise sua configuração de email identificado do DomainKeys (DKIM). Você deve usar o DKIM, além do SPF e do DMARC, para ajudar a evitar que spoofers enviem mensagens que pareçam que são provenientes de seu domínio. O DKIM possibilita adicionar uma assinatura digital a mensagens de email no cabeçalho da mensagem. Para saber mais, confira [usar DKIM para validar emails de saída enviados do seu domínio personalizado no Office 365](use-dkim-to-validate-outbound-email.md).
+- Revise sua configuração de email identificado do DomainKeys (DKIM). Você deve usar o DKIM além de SPF e DMARC para ajudar a impedir que os invasores enviem mensagens parecidas com o seu domínio. O DKIM possibilita adicionar uma assinatura digital a mensagens de email no cabeçalho da mensagem. Para saber mais, confira [usar DKIM para validar emails de saída enviados do seu domínio personalizado no Office 365](use-dkim-to-validate-outbound-email.md).
 
 - Revise a configuração de autenticação, geração de relatórios e conformidade da mensagem baseada em domínio (DMARC). Implementar o DMARC com SPF e DKIM proporciona proporção adicional contra o spoofing e o phishing no email. O DMARC ajuda os sistemas de recepção de email a determinarem o que fazer com as mensagens enviadas a partir do seu domínio que falharem em verificações de SPF ou de DKIM. Para saber mais, confira [usar DMARC para validar emails no Office 365](use-dmarc-to-validate-email.md).
-
-- Use o cmdlet [Get-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-phishfilterpolicy) no PowerShell do Exchange Online ou do Exchange Online Protection para coletar dados detalhados sobre remetentes falsificados, gerar listas de permissões e bloqueios e ajudá-lo a determinar como gerar registros DNS mais abrangentes de SPF, DKIM e DMARC sem que seus emails legítimos sejam capturados em filtros de spam externos. Para obter mais informações, consulte [como a proteção contra falsificação funciona no Office 365](https://blogs.msdn.microsoft.com/tzink/2016/02/23/how-antispoofing-protection-works-in-office-365/).

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 62901a08b8e040266a94967170674336eb1035c8
-ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
+ms.openlocfilehash: 0e51e52db4e569716954aada1c5cea35ddc6dd0a
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288589"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528364"
 ---
 # <a name="microsoft-threat-protection"></a>Proteção contra Ameaças da Microsoft
 
@@ -31,7 +31,7 @@ ms.locfileid: "42288589"
 
 
 
-A proteção contra ameaças da Microsoft é um pacote unificado de defesa do Enterprise Defense que se integra nativamente ao ponto de extremidade, identidade, email e aplicativos para detectar, prevenir, investigar e responder automaticamente a ataques sofisticados.  
+A proteção contra ameaças da Microsoft é um pacote de defesa de negócios unificado de pré e pós-violação que coordena nativamente a detecção, prevenção, investigação e resposta entre pontos de extremidade, identidades, email e aplicativos para oferecer proteção integrada contra ataques sofisticados.
 
 Com a solução integrada de proteção contra ameaças da Microsoft, os profissionais de segurança podem unir os sinais de ameaça de que cada um desses produtos recebe e determinam o escopo completo e o impacto da ameaça; como ele entrou no ambiente, o que ele é afetado e como ele está afetando a organização no momento. A proteção contra ameaças da Microsoft realiza ações automáticas para impedir ou interromper o ataque e a AutoCorreção de caixas de correio, pontos de extremidade e identidades de usuários afetados.  
 

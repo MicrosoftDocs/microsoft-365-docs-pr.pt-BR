@@ -9,7 +9,7 @@ audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.date: 05/09/2019
+ms.date: ''
 search.appverid:
 - MOE150
 - MET150
@@ -17,12 +17,12 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: Use este artigo como guia para configurar seus recursos de proteção contra ameaças agora.
-ms.openlocfilehash: da920083b521e905633473efbabc5930ad7a6770
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 34a89f9db0ca7424d90909f09f7a2bfb4fcf3b6a
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895306"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528552"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Proteção contra ameaças no Office 365
 
@@ -35,10 +35,11 @@ O Office 365 inclui vários recursos de proteção contra ameaças. Este é um g
 
 ### <a name="subscriptions"></a>Assinaturas
 
-Os recursos de proteção contra ameaças estão incluídos em todas as assinaturas do Office 365; no entanto, algumas assinaturas incluem recursos mais avançados. A tabela a seguir lista os recursos de proteção incluídos neste artigo junto com os requisitos mínimos de assinatura.<br/>
+Os recursos de proteção contra ameaças estão incluídos em todas as assinaturas do Office 365; no entanto, algumas assinaturas incluem recursos mais avançados. A tabela a seguir lista os recursos de proteção incluídos neste artigo junto com os requisitos mínimos de assinatura.
 
-|Tipo de proteção|Requisito de assinatura|
-|---------|---------|
+|||
+|---|---|
+|**Tipo de proteção**|**Requisito de assinatura**|
 |Proteção antimalware|[Proteção do Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description) (EOP)|
 |Proteção contra URLs e arquivos mal-intencionados em emails e documentos do Office|[Proteção avançada contra ameaças do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) (ATP)|
 |Proteção antiphishing|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)|
@@ -46,16 +47,19 @@ Os recursos de proteção contra ameaças estão incluídos em todas as assinatu
 |Proteção antispam|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)|
 |Limpeza automática de zero horas (para email)|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)|
 |Log de auditoria (usado para fins de relatório)|[Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description)|
+|
 
 ### <a name="roles-and-permissions"></a>Funções e permissões
 
 Você deve receber uma função apropriada para configurar as políticas no [centro de conformidade & segurança](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center). A tabela abaixo fornece alguns exemplos:
 
-|Função ou grupo de funções|Onde saber mais|
-|---------|---------|
+|||
+|---|---|
+|**Função ou grupo de funções**|**Onde saber mais**|
 |Administrador Global do Office 365|[Sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
 |Administrador de Segurança|[Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Gerenciamento de Organização do Exchange Online|[Permissões no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>e<br> [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
+|
 
 Para saber mais, confira [permissões no centro de conformidade &amp; de segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
 
@@ -141,7 +145,11 @@ Para saber mais, confira [Configurar políticas de Links Seguros ATP do Office 3
 
 ## <a name="part-3---anti-phishing-protection"></a>Parte 3-proteção contra phishing
 
-A [proteção contra phishing](anti-phishing-protection.md) está disponível em assinaturas que incluem [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description). A proteção contra phishing avançada está disponível na [ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). O procedimento a seguir descreve como configurar uma política anti-phishing do ATP. As etapas são semelhantes à configuração de uma política anti-phishing (sem ATP).
+[Anti-phishing]
+
+A [proteção contra phishing](anti-phishing-protection.md) está disponível em assinaturas que incluem [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description). A proteção contra phishing avançada está disponível na [ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+
+O procedimento a seguir descreve como configurar uma política anti-phishing do ATP. As etapas são semelhantes à configuração de uma política anti-phishing (sem ATP).
 
 1. No [centro de conformidade & segurança](https://protection.office.com), escolha**política** > de **Gerenciamento** > de ameaças**ATP anti-phishing**.
 
@@ -171,7 +179,7 @@ A [proteção contra phishing](anti-phishing-protection.md) está disponível em
 
 5. Feche a página de configurações de política padrão.
 
-Para saber mais sobre suas opções de política anti-phishing, consulte [set up anti-phishing Policies](set-up-anti-phishing-policies.md).
+Para saber mais sobre suas opções de política anti-phishing, consulte [Configure ATP anti-phishing Policies in Office 365](configure-atp-anti-phishing-policies.md).
 
 ## <a name="part-4---anti-spam-protection"></a>Parte 4-proteção antispam
 
@@ -213,8 +221,10 @@ O log de auditoria está disponível em assinaturas que incluem o [Exchange Onli
 
 Depois de configurar seus recursos de proteção contra ameaças, não deixe de monitorar como esses recursos estão funcionando, revise e revise suas políticas conforme necessário e observe os novos recursos e atualizações de serviço.
 
-|O que fazer|Recursos para saber mais|
-|---------|---------|
+|||
+|---|---|
+|**O que fazer**|**Recursos para saber mais**|
 |Veja como os recursos de proteção contra ameaças estão trabalhando para sua organização exibindo relatórios|[Painel de segurança](security-dashboard.md)<br/>[Relatórios de segurança de email](view-email-security-reports.md)<br/>[Relatórios para o Office 365 ATP](view-reports-for-atp.md)<br/>[Explorador de ameaças](threat-explorer.md)|
 |Revisar e revisar periodicamente suas políticas de proteção contra ameaças, conforme necessário|[Classificação de segurança](../mtp/microsoft-secure-score.md)<br/>[Relatórios inteligentes e insights](reports-and-insights-in-security-and-compliance.md)<br/>[Investigação de ameaças e recursos de resposta do Office 365](keep-users-safe-with-office-365-ti.md)|
 |Assista a novos recursos e atualizações de serviço|[Opções de lançamento direcionado e padrão](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide)<br/>[Centro de Mensagens](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide)<br/>[Roteiro do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Descrições de serviço](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
+|
