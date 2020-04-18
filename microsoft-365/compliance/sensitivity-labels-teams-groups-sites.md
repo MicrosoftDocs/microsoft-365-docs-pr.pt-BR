@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint e Microsoft Teams e nos grupos do Office 365.
-ms.openlocfilehash: 0ac1d9f605c32664115086057b7c17355d495c00
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 4daf35af28e0339c66271c69487d3da9c1e4c91e
+ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106129"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43547593"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Usar códigos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
 
@@ -54,7 +54,9 @@ Depois de habilitar e configurar essa visualização, os usuários também podem
 
 1. Como esse recurso usa a funcionalidade do Azure AD, siga as instruções na documentação do Azure AD para habilitar a visualização: [Atribuir rótulos de confidencialidade aos grupos do Office 365 no Azure Active Directory (visualização)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
 
-2. Abra uma sessão do PowerShell com a opção **Executar  como Administrator** e conecte-se ao Centro de Conformidade e Segurança usando uma conta corporativa ou de estudante com privilégios de administrador global. Por exemplo:
+2. Agora, [conecte-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell). 
+    
+    Por exemplo, em uma sessão do PowerShell que você executa como administrador, entre com uma conta de administrador global:
     
     ```powershell
     Set-ExecutionPolicy RemoteSigned
@@ -62,8 +64,6 @@ Depois de habilitar e configurar essa visualização, os usuários também podem
     $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
     Import-PSSession $Session -DisableNameChecking
     ```
-    
-    Para mais instruções, confira [Conectar-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
 3. Execute o seguinte comando para sincronizar seus rótulos de confidencialidade com o Azure AD, para que eles possam ser usados com grupos do Office 365:
     
@@ -185,28 +185,42 @@ Para exibir e editar os rótulos de confidencialidade, use a página de **Sites 
 
 Sempre que você alterar as configurações de site e grupo de um rótulo, deverá executar os seguintes comandos do PowerShell para que suas equipes, sites e grupos possam usar as novas configurações. Como prática recomendada, não altere as configurações de site e grupo de um rótulo após aplicá-lo a várias equipes, grupos ou sites.
 
-1. Em uma sessão do PowerShell aberta com a opção **Executar como Administrador**, execute os seguintes comandos para conectar-se ao Centro de Conformidade e Segurança do Office 365 e obter a lista de rótulos de confidencialidade e seus GUIDs.
+1. Primeiro, [conecte-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell). 
+    
+    Por exemplo, em uma sessão do PowerShell que você executa como administrador, entre com uma conta de administrador global:
     
     ```powershell
     Set-ExecutionPolicy RemoteSigned
     $UserCredential = Get-Credential
-    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Authentication Basic -AllowRedirection -Credential $UserCredential
-    Import-PSSession $Session
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+    Import-PSSession $Session -DisableNameChecking
+    ```
+
+2. Obtenha a lista de rótulos de confidencialidade e suas GUIDs usando o cmdlet [Get-Label](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-label?view=exchange-ps):
+    
+    ```powershell
     Get-Label |ft Name, Guid
     ```
 
-2. Anote o GUID do rótulo ou os rótulos que você alterou.
+3. Anote a GUID do rótulo ou os rótulos que você alterou.
 
-3. Conecte-se agora ao PowerShell do Exchange Online e execute o cmdlet Get-UnifiedGroup, especificando o GUID do rótulo no lugar do GUID de exemplo de "e48058ea-98e8-4940-8db0-ba1310fd955e": 
+4. Agora, [conecte-se ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+    
+    Por exemplo:
     
     ```powershell
     $UserCredential = Get-Credential
     $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
     Import-PSSession $Session
+    ```
+    
+5. Execute o cmdlet [Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps), especificando a GUID do rótulo no lugar da GUID de exemplo de "e48058ea-98e8-4940-8db0-ba1310fd955e": 
+    
+    ```powershell
     $Groups= Get-UnifiedGroup | Where {$_.SensitivityLabel  -eq "e48058ea-98e8-4940-8db0-ba1310fd955e"}
     ```
 
-4. Para cada grupo, aplique novamente o rótulo de confidencialidade, especificando o GUID do rótulo no lugar do GUID de exemplo de "e48058ea-98e8-4940-8db0-ba1310fd955e":
+6. Para cada grupo, aplique novamente o rótulo de confidencialidade, especificando o GUID do rótulo no lugar do GUID de exemplo de "e48058ea-98e8-4940-8db0-ba1310fd955e":
     
     ```powershell
     foreach ($g in $groups)
@@ -240,7 +254,7 @@ Outros aplicativos e serviços onde você não pode usar atualmente os rótulos 
 - Centro de administração do Exchange
 
 
-## <a name="classic-azure-ad-site-classification"></a>Classificação de site clássica do Azure AD
+## <a name="classic-azure-ad-group-classification"></a>Classificação clássica de grupo do Azure AD
 
 O Office 365 já não será mais compatível com as classificações antigas para novos grupos e sites do SharePoint quando você habilitar essa visualização. No entanto, grupos e sites existentes ainda exibem as classificações antigas, a menos que você as converta para usar rótulos de confidencialidade. As classificações antigas incluem a classificação de sites "modernos" que você configurou, possivelmente por meio do Azure AD PowerShell ou da biblioteca PnP Core, que definiu valores para a configuração do `ClassificationList`.
 
@@ -250,7 +264,7 @@ Por exemplo, no PowerShell:
    ($setting["ClassificationList"])
 ```
 
-Para obter mais informações sobre o método antigo de classificação, confira [Classificação de sites "modernos" do SharePoint](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification).
+Como um exemplo de como você pode ter usado a classificação de grupo antiga do SharePoint, confira [Classificação de sites “moderna”](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification).
 
 Para converter suas classificações antigas em rótulos de confidencialidade, siga um destes procedimentos:
 
@@ -268,35 +282,42 @@ Embora você não possa impedir que os usuários criem novos grupos em aplicativ
 
 #### <a name="use-powershell-to-convert-classifications-for-office-365-groups-to-sensitivity-labels"></a>Usar o PowerShell para converter classificações de grupos do Office 365 em rótulos de confidencialidade
 
-1. Verifique se você está executando o Shell de Gerenciamento do SharePoint Online, versão 16.0.19418.12000 ou superior. Se você já tiver a versão mais recente, vá para a etapa 4.
-
-2. Se você tiver instalado uma versão anterior do Shell de Gerenciamento do SharePoint Online na galeria do PowerShell, poderá atualizar o módulo executando o cmdlet a seguir.
+1. Primeiro, [conecte-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell). 
     
-    ```PowerShell
-    Update-Module -Name Microsoft.Online.SharePoint.PowerShell
-    ```
-
-3. Se você tiver instalado uma versão anterior do Shell de Gerenciamento do SharePoint Online no Centro de Download da Microsoft, vá para **Adicionar ou remover programas** e desinstale o Shell de Gerenciamento do SharePoint Online. Em seguida, instale o Shell de Gerenciamento do SharePoint Online mais recente no [Centro de Download](https://go.microsoft.com/fwlink/p/?LinkId=255251).
-
-4. Usando uma conta corporativa ou de estudante com privilégios de administrador global ou de administrador do SharePoint no Office 365, conecte-se ao Shell de gerenciamento do SharePoint Online. Veja como em [Introdução ao Shell de Gerenciamento do SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
-
-5. Execute o seguinte comando para obter a lista de rótulos de confidencialidade e seus GUIDs.
-
-    ```PowerShell
+    Por exemplo, em uma sessão do PowerShell que você executa como administrador, entre com uma conta de administrador global:
+    
+    ```powershell
     Set-ExecutionPolicy RemoteSigned
     $UserCredential = Get-Credential
-    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Authentication Basic -AllowRedirection -Credential $UserCredential
-    Import-PSSession $Session
-    Get-Label |ft Name, Guid  
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+    Import-PSSession $Session -DisableNameChecking
     ```
 
-6. Anote os GUIDs dos rótulos de confidencialidade que você deseja aplicar aos grupos do Office 365.
+2. Obtenha a lista de rótulos de confidencialidade e suas GUIDs usando o cmdlet [Get-Label](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-label?view=exchange-ps):
+    
+    ```powershell
+    Get-Label |ft Name, Guid
+    ```
 
-7. Use o seguinte comando como exemplo para obter a lista de grupos que atualmente têm a classificação "Geral":
+3. Anote as GUIDs dos rótulos de confidencialidade que você deseja aplicar aos grupos do Office 365.
 
-   ```PowerShell
-   $Groups= Get-UnifiedGroup | Where {$_.classification -eq "General"}
-   ```
+4. Agora, [conecte-se ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+    
+    Por exemplo:
+    
+    ```powershell
+    $UserCredential = Get-Credential
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+    Import-PSSession $Session
+    ```
+
+5. Execute o cmdlet [Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps) para obter a lista de grupos do Office 365 que possuem uma das classificações que você especificou.
+    
+    Por exemplo, para obter uma lista de grupos do Office 365 que possuem a classificação “Geral”: 
+    
+    ```powershell
+    $Groups= Get-UnifiedGroup | Where {$_.classification -eq "General"}
+    ```
 
 6. Para cada grupo, adicione o novo GUID de rótulo de confidencialidade. Por exemplo:
 
@@ -304,6 +325,8 @@ Embora você não possa impedir que os usuários criem novos grupos em aplicativ
     foreach ($g in $groups)
     {Set-UnifiedGroup -Identity $g.Identity -SensitivityLabelId "457fa763-7c59-461c-b402-ad1ac6b703cc"}
     ```
+
+7. Repita as etapas 5 e 6 para as classificações de grupo restantes.
 
 ## <a name="auditing-sensitivity-label-activities"></a>Atividades de rótulo de confidencialidade de auditoria
 
