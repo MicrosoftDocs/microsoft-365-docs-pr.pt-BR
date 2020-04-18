@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: A ferramenta de gerenciamento de responsáveis em descoberta eletrônica avançada permite que você gerencie o fluxo de trabalho em torno da identificação, preservação e coleta de dados associados às pessoas de interesse em um caso jurídico.
-ms.openlocfilehash: 7d8ac1c67b4ddc3395bccb5ab699ce7df63f331d
-ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
+ms.openlocfilehash: fbd348c842cb3c4bb7284c14ae2504b83fd0b117
+ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42400908"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43551232"
 ---
 # <a name="work-with-custodians-in-advanced-ediscovery"></a>Trabalhar com os responsáveis na descoberta eletrônica avançada
 
@@ -38,7 +38,3 @@ Para obter mais informações sobre como trabalhar com os responsáveis, confira
 - [Gerenciar os responsáveis em um caso](manage-new-custodians.md)
 
 - [Exibir a atividade custodiante](view-custodian-activity.md)
-
-## <a name="advanced-ediscovery-permissions"></a>Permissões de descoberta eletrônica avançada
-
-Na descoberta eletrônica avançada, você pode usar o grupo de função Gerenciador de descoberta eletrônica interno para atribuir as permissões necessárias aos investigadores legais para que eles possam gerenciar o fluxo de trabalho de ponta a ponta na descoberta eletrônica avançada. Como alternativa, você pode criar grupos de função personalizados com um subconjunto das funções necessárias para executar determinadas ações em um caso de descoberta eletrônica avançada. Para obter mais informações sobre funções relacionadas à descoberta eletrônica, consulte [atribuir permissões de descoberta eletrônica no centro de conformidade de & de segurança](assign-ediscovery-permissions.md).

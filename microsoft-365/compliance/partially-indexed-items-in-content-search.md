@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: 'Saiba mais sobre itens não indexados no Exchange e no SharePoint que você pode incluir em uma pesquisa de conteúdo executada por meio do centro de conformidade de & de segurança. '
-ms.openlocfilehash: fc15a4af41495641882c25b23c1a38459b896696
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3984a181d16d4cd66fbddacb24cfd7c5e489f4ac
+ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597778"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43551222"
 ---
 # <a name="partially-indexed-items-in-content-search-in-office-365"></a>Itens parcialmente indexados na Pesquisa de Conteúdo do Office 365
 
@@ -57,11 +57,11 @@ Determinados tipos de arquivos, como arquivos Bitmap ou MP3, não têm conteúdo
   
 Para obter uma lista de formatos de arquivo com suporte ou desabilitados, confira os tópicos a seguir:
   
-- **** - [Formatos de arquivo do Exchange indexados pela pesquisa do Exchange](https://go.microsoft.com/fwlink/p/?LinkID=386618)
+- **Exchange** - [Formatos de arquivo do Exchange indexados pela pesquisa do Exchange](https://go.microsoft.com/fwlink/p/?LinkID=386618)
     
-- **** - [Get-SearchDocumentFormat](https://go.microsoft.com/fwlink/p/?LinkID=724037) do Exchange
+- **Exchange** - [Get-SearchDocumentFormat](https://go.microsoft.com/fwlink/p/?LinkID=724037) do Exchange
     
-- **** - [Extensões de nome de arquivo rastreado padrão do SharePoint e tipos de arquivo analisados no SharePoint](https://go.microsoft.com/fwlink/p/?LinkID=404033)
+- **SharePoint** - [Extensões de nome de arquivo rastreado padrão do SharePoint e tipos de arquivo analisados no SharePoint](https://go.microsoft.com/fwlink/p/?LinkID=404033)
     
 
   
@@ -106,7 +106,7 @@ Se um item for parcialmente indexado, mas não atender aos critérios de consult
   
 Da mesma forma, se você optar por incluir itens parcialmente indexados ao exportar os resultados de uma pesquisa, os itens parcialmente indexados excluídos dos resultados da pesquisa não serão exportados.
   
-Uma exceção a essa regra é quando você cria uma retenção baseada em consulta que está associada a um caso de descoberta eletrônica. Se você criar uma retenção baseada em consulta, todos os itens parcialmente indexados serão colocados em espera. Isso inclui itens parcialmente indexados que não coincidem com os critérios de consulta de pesquisa e itens parcialmente indexados que podem ficar fora de uma condição de intervalo de datas. Para obter mais informações sobre como criar retenções baseadas em consulta, consulte a etapa 4 em [casos de descoberta eletrônica](ediscovery-cases.md#step-4-place-content-locations-on-hold).
+Uma exceção a essa regra é quando você cria uma retenção baseada em consulta que está associada a um caso de descoberta eletrônica. Se você criar um controle de descoberta eletrônica baseado em consulta, todos os itens parcialmente indexados serão colocados em espera. Isso inclui itens parcialmente indexados que não coincidem com os critérios de consulta de pesquisa e itens parcialmente indexados que podem ficar fora de uma condição de intervalo de datas. Para obter mais informações sobre a criação de bloqueios de descoberta eletrônica baseados em consulta, consulte [Create an eDiscovery Hold](create-ediscovery-holds.md).
   
 ## <a name="indexing-limits-for-messages-in-content-search"></a>Indexando limites para mensagens na pesquisa de conteúdo
 
@@ -126,24 +126,22 @@ Para obter uma lista de limites de indexação para documentos do SharePoint, co
 |Tokens de anotação máximo  <br/> |2 milhões  <br/> |Quando uma mensagem de email é indexada, cada palavra é anotada com instruções de processamento diferentes que especificam como essa palavra deve ser indexada. Cada conjunto de instruções de processamento é chamado de token de anotação. Para manter a qualidade do serviço no Office 365, há um limite de 2 milhões tokens de anotação para uma mensagem de email.  <br/> |
 |Tamanho máximo do corpo no índice  <br/> |67 milhões caracteres  <br/> |O número total de caracteres no corpo de uma mensagem de email e todos os seus anexos. Quando uma mensagem de email é indexada, todo o texto no corpo da mensagem e em todos os anexos é concatenado em uma única cadeia de caracteres. O tamanho máximo dessa cadeia de caracteres indexada é de 67 milhões caracteres.  <br/> |
 |Máximo de tokens exclusivos no corpo  <br/> |1 milhão  <br/> |Como explicado anteriormente, os tokens são o resultado da extração de texto do conteúdo, da remoção de Pontuação e de espaços e da divisão em palavras (chamados Tokens) que são armazenadas no índice. Por exemplo, a frase `"cat, mouse, bird, dog, dog"` contém 5 tokens. Mas apenas 4 desses tokens são exclusivos. Há um limite de 1 milhão tokens exclusivos por mensagem de email, o que ajuda a evitar que o índice fique muito grande com tokens aleatórios.  <br/> |
-   
 
-  
 ## <a name="more-information-about-partially-indexed-items"></a>Mais informações sobre itens parcialmente indexados
 
 - Conforme mencionado anteriormente, como as propriedades message e Document e seus metadados são indexados, uma pesquisa de palavra-chave poderá retornar resultados se essa palavra-chave aparecer nos metadados indexados. No entanto, essa mesma pesquisa de palavra-chave poderá não retornar o mesmo item se a palavra-chave só aparece no conteúdo de um item com um tipo de arquivo sem suporte. Nesse caso, o item seria retornado como um item parcialmente indexado.
-    
+
 - Se um item parcialmente indexado estiver incluído nos resultados da pesquisa porque ele atende aos critérios de consulta de pesquisa (e não foi excluído), ele não será incluído como um item parcialmente indexado nas estatísticas de pesquisa estimadas. Além disso, ele não será incluído em itens parcialmente indexados quando você exportar os resultados da pesquisa.
-    
+
 - Embora um tipo de arquivo tenha suporte para indexação e esteja indexado, pode haver erros de indexação ou de pesquisa que farão com que um arquivo seja retornado como um item parcialmente indexado. Por exemplo, pesquisar um arquivo do Excel muito grande pode ser parcialmente bem-sucedido (porque os primeiros 4 MB são indexados), mas falha porque o limite de tamanho do arquivo foi excedido. Nesse caso, é possível que o mesmo arquivo seja retornado com os resultados da pesquisa e como um item parcialmente indexado.
-    
+
 - Arquivos anexados criptografados com tecnologias da Microsoft são indexados e podem ser pesquisados. Arquivos criptografados com tecnologias que não são da Microsoft são parcialmente indexados.
-    
+
 - As mensagens de email criptografadas com S/MIME são parcialmente indexadas. Isto inclui mensagens criptografadas com ou sem anexos de arquivo.
-    
+
 - As mensagens protegidas usando o Gerenciamento de Direitos de Informação (IRM) são indexadas e são incluídas nos resultados da pesquisa se corresponderem aos parâmetros de pesquisa.
 
 ## <a name="see-also"></a>Confira também
 
-[Investigar itens parcialmente indexados na Descoberta Eletrônica do Office 365](investigating-partially-indexed-items-in-ediscovery.md)
+[Investigar itens parcialmente indexados na descoberta eletrônica](investigating-partially-indexed-items-in-ediscovery.md)
 

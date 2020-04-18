@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre os grupos do Office 365.
-ms.openlocfilehash: f5a0b72737a360a4bfe4cdd8fee4a08b7a7ff236
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: c45c78a26d421c5c16e6ca0769e8adc7ba6e79a8
+ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212528"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43547539"
 ---
 # <a name="overview-of-office-365-groups-for-administrators"></a>Visão geral dos grupos do Office 365 para administradores
 
@@ -33,6 +33,7 @@ O Office 365 groups é o serviço de associação de base que orienta todo o tra
 - Um calendário compartilhado
 - Uma biblioteca de documentos do SharePoint
 - Um planejador
+- Um bloco de anotações do OneNote
 - Power BI
 - Yammer (se o grupo foi criado do Yammer)
 - Uma equipe (se o grupo foi criado no Teams)

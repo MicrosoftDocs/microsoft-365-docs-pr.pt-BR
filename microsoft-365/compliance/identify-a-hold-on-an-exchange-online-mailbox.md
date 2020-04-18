@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Saiba como identificar os diferentes tipos de retenção que podem ser colocados em uma caixa de correio do Office 365. Esses tipos de isenções incluem retenção de litígio, bloqueios de descoberta eletrônica e políticas de retenção do Office 365. Você também pode determinar se um usuário foi excluído de uma política de retenção em toda a organização
-ms.openlocfilehash: 29d212f0ba16c7ae414c3a47707cfcd0f95420c7
-ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
+ms.openlocfilehash: 4063128e368b19b156fbf42173fb2d4725c3e7ab
+ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978221"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43551132"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Como identificar o tipo de retenção de uma caixa de correio do Exchange Online
 
@@ -30,7 +30,7 @@ O Office 365 oferece várias maneiras em que sua organização pode impedir que 
 
 - ** [Retenção de litígio](create-a-litigation-hold.md):** As isenções são aplicadas às caixas de correio do usuário no Exchange Online.
 
-- ** [bloqueio de descoberta eletrônica](ediscovery-cases.md#step-4-place-content-locations-on-hold):** Suspensões associadas a uma ocorrência de descoberta eletrônica no centro de conformidade e segurança. as suspensões de descoberta eletrônica podem ser aplicadas às caixas de correio do usuário e à caixa de correio correspondente dos grupos do Office 365 e do Microsoft Teams.
+- ** [bloqueio de descoberta eletrônica](create-ediscovery-holds.md):** Suspensões associadas a uma ocorrência de descoberta eletrônica no centro de conformidade e segurança. as suspensões de descoberta eletrônica podem ser aplicadas às caixas de correio do usuário e à caixa de correio correspondente dos grupos do Office 365 e do Microsoft Teams.
 
 - ** [Bloqueio in-loco](https://docs.microsoft.com/Exchange/security-and-compliance/create-or-remove-in-place-holds):** As isenções são aplicadas às caixas de correio do usuário usando a ferramenta de bloqueio de & de descoberta eletrônica in-loco no centro de administração do Exchange no Exchange Online.
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: A descoberta eletrônica avançada facilita o gerenciamento do fluxo de trabalho de notificação de retenção legal para notificar os responsáveis pelas investigações legais.
-ms.openlocfilehash: 3e9fb2bc67fc5eac181afab8ba5c78c4236fb980
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+ms.openlocfilehash: 28b719a83cbc1608ad5468e401a8b7946cb8da5f
+ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280119"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43551233"
 ---
 # <a name="work-with-communications-in-advanced-ediscovery"></a>Trabalhar com comunicações na descoberta eletrônica avançada
 
@@ -49,22 +49,12 @@ Com a descoberta eletrônica avançada, as equipes jurídicas podem criar e pers
 
    - **Escalonamentos:** Em alguns casos, se um dos responsáveis não responder mesmo após um conjunto de lembretes por um período de tempo, a equipe jurídica pode configurar um fluxo de trabalho de escalonamento para notificar os responsáveis sem resposta e seu gerente.
 
-## <a name="role-groups-and-permissions"></a>Grupos de funções e permissões
+Para obter mais informações sobre como gerenciar o processo de comunicação de responsáveis, consulte o seguinte: 
 
-As equipes jurídicas podem controlar e segregar a atividade de casos usando grupos de função e permissões de descoberta eletrônica no centro de conformidade de & de segurança. 
+- [Criar um aviso de retenção legal](create-hold-notification.md)
 
-Para criar e gerenciar notificações de retenção legal, um usuário deve ser membro do grupo de função Gerenciador de descoberta eletrônica. Os membros desse grupo de função podem criar e gerenciar casos de descoberta eletrônica avançados. Eles podem adicionar e remover membros, colocar os responsáveis e os locais de conteúdo em espera, gerenciar notificações de retenção legal, criar e editar pesquisas associadas em um caso, adicionar resultados de pesquisa a um conjunto de revisão, analisar dados em um conjunto de revisão e exportar e baixar de um avançado ocorrência de descoberta eletrônica. 
+- [Usar o editor de comunicações](using-communications-editor.md)
 
-Há dois subgrupos no grupo de função Gerenciador de descoberta eletrônica. A diferença entre esses subgrupos está no escopo.
+- [Gerenciar as notificações de retenção](manage-hold-notification.md)
 
-- **Gerenciador de descoberta eletrônica:** Pode exibir e gerenciar as ocorrências de descoberta eletrônica avançada que criam ou são membros de. Se outro gerenciador de descoberta eletrônica criar uma ocorrência, mas não adicionar um segundo Gerenciador de descoberta eletrônica como membro desse caso, o segundo Gerenciador de descoberta eletrônica não poderá exibir ou abrir o caso na página descoberta eletrônica avançada no centro de conformidade e segurança &.
-
-- **administrador de descoberta eletrônica:** Pode executar todas as tarefas de gerenciamento de caso que um gerente de descoberta eletrônica possa fazer. Além disso, um Administrador de Descoberta Eletrônica pode:
-
-  - Exibir todas as ocorrências listadas na página descoberta eletrônica avançada.
-  
-  - Gerencie qualquer caso na organização depois que eles se adicionarem como um membro do caso.
-
-  - Acessar e exportar dados de caso na descoberta eletrônica avançada para qualquer caso na organização.
-
-Para obter mais informações, consulte [atribuir permissões de descoberta eletrônica no centro de conformidade de & de segurança](assign-ediscovery-permissions.md).
+- [Confirmar uma notificação de retenção](acknowledge-hold-notification.md)

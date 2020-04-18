@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve como começar a usar a descoberta eletrônica avançada no Microsoft 365. Após concluir algumas etapas rápidas, a ferramenta de descoberta eletrônica avançada estará pronta para uso. A primeira etapa é criar uma ocorrência e começar a usar recursos e funcionalidades avançados de descoberta eletrônica.
-ms.openlocfilehash: a43bfd94fcf0a2563a184a3a87d96c64bd8eb619
-ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
+ms.openlocfilehash: 4aae93e250365fc7225fe2f21fe25cd01e5f8cc0
+ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43204041"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43551122"
 ---
-# <a name="get-started-with-advanced-ediscovery"></a>Introdução à descoberta eletrônica avançada
+# <a name="get-started-with-advanced-ediscovery"></a>Introdução à Descoberta Eletrônica Avançada
 
 A descoberta eletrônica avançada no Microsoft 365 fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar dados que respondem às investigações internas e externas da sua organização. Nada é necessário para implantar a descoberta eletrônica avançada, mas há algumas tarefas de pré-requisito que um administrador de ti e um gerente de descoberta eletrônica precisam concluir para que sua organização possa começar a criar e usar casos de descoberta eletrônica avançados para gerenciar suas investigações.
 
@@ -56,7 +56,7 @@ O licenciamento para descoberta eletrônica avançada requer a assinatura apropr
 
 ## <a name="step-2-assign-ediscovery-permissions"></a>Etapa 2: atribuir permissões de descoberta eletrônica
 
-Para acessar a descoberta eletrônica avançada ou adicionada como um membro de um caso de descoberta eletrônica avançada, um usuário deve ter as permissões apropriadas atribuídas. Especificamente, um usuário deve ser adicionado como um membro do grupo de função Gerenciador de descoberta eletrônica no centro de conformidade & segurança do Office 365. Os membros desse grupo de função podem criar e gerenciar casos de descoberta eletrônica avançados. Eles podem adicionar e remover membros, colocar os responsáveis e os locais de conteúdo em espera, gerenciar notificações de retenção legal, criar e editar pesquisas associadas em um caso, adicionar resultados de pesquisa a um conjunto de revisão, analisar dados em um conjunto de revisão e exportar e baixar de uma ocorrência de descoberta eletrônica avançada.
+Para acessar a descoberta eletrônica avançada ou ser adicionada como membro de um caso de descoberta eletrônica avançada, um usuário deve ter as permissões apropriadas atribuídas. Especificamente, um usuário deve ser adicionado como um membro do grupo de função Gerenciador de descoberta eletrônica no centro de conformidade & segurança do Office 365. Os membros desse grupo de função podem criar e gerenciar casos de descoberta eletrônica avançados. Eles podem adicionar e remover membros, colocar os responsáveis e os locais de conteúdo em espera, gerenciar notificações de retenção legal, criar e editar pesquisas associadas em um caso, adicionar resultados de pesquisa a um conjunto de revisão, analisar dados em um conjunto de revisão e exportar e baixar de uma ocorrência de descoberta eletrônica avançada.
 
 Conclua as seguintes etapas para adicionar usuários ao grupo de funções Gerenciador de descoberta eletrônica:
 
@@ -90,7 +90,7 @@ Há dois subgrupos no grupo de função Gerenciador de descoberta eletrônica. A
 
   Por causa do amplo escopo de acesso, uma organização deve ter apenas alguns administradores que são membros do subgrupo administradores de descoberta eletrônica.
 
-Para obter mais informações sobre permissões de descoberta eletrônica e uma descrição de cada função atribuída ao grupo de funções Gerenciador de descoberta eletrônica, consulte [atribuir permissões de descoberta eletrônica no centro de conformidade de & de segurança](assign-ediscovery-permissions.md).
+Para obter mais informações sobre permissões de descoberta eletrônica e uma descrição de cada função atribuída ao grupo de funções Gerenciador de descoberta eletrônica, consulte [atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
 
 ## <a name="step-3-configure-global-settings-for-advanced-ediscovery"></a>Etapa 3: definir as configurações globais para descoberta eletrônica avançada
 
@@ -107,7 +107,7 @@ A próxima etapa é criar um caso e começar a usar a descoberta eletrônica ava
 
 1. Acesse [https://compliance.microsoft.com](https://compliance.microsoft.com) e entre usando as credenciais da conta de usuário que receberam as permissões de descoberta eletrônica apropriadas. Os membros do grupo de função gerenciamento da organização também podem criar casos de descoberta eletrônica avançados.
 
-2. No painel esquerdo do centro de conformidade da Microsoft 365, clique em **Mostrar tudo**e, em seguida, clique em **descoberta eletrônica > avançado**.
+2. No painel de navegação esquerdo do centro de conformidade da Microsoft 365, clique em **Mostrar tudo**e, em seguida, clique em **descoberta eletrônica > avançado**.
 
 3. Na página **descoberta eletrônica avançada** , clique na guia **ocorrências** e, em seguida, clique em **criar uma ocorrência**.
 

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Saiba como restaurar um grupo do Office 365 excluído.
-ms.openlocfilehash: 31d6481f87d7da219e042eefa8f004425caee133
-ms.sourcegitcommit: 1883a103449d7b03d482228bd9ef39a7caf306cf
+ms.openlocfilehash: 2efd8c35286d224c6a3ed185043c82ab4b8e954e
+ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583158"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43547527"
 ---
 # <a name="restore-a-deleted-office-365-group"></a>Restaurar um Grupo do Office 365 excluído
 
@@ -61,7 +61,7 @@ Se o grupo excluído não aparecer aqui, entre em contato com um administrador.
 
 Se você for um administrador global ou um administrador de grupos, poderá restaurar um grupo excluído no centro de administração do Microsoft 365:
 
-1. Vá para o centro de administração do[https://admin.microsoft.com](Go to the admin center at https://admin.microsoft.com).
+1. Vá para o [centro de administração](https://admin.microsoft.com).
 2. Expanda **grupos**e, em seguida, clique em **grupos excluídos**.
 3. Selecione o grupo que você deseja restaurar e clique em **restaurar grupo**.
   
