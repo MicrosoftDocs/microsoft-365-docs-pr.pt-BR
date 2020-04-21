@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f70d2f601dfb697d8affa8bb47148f6e454c5d8e
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.openlocfilehash: e7274ff196d5b822d146378752d66c9707fc9f19
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43541090"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583376"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -135,13 +135,11 @@ Você pode exibir um gráfico da pontuação da sua organização ao longo do te
 
 A pontuação segura da Microsoft é um resumo numérico de sua postura de segurança com base nas configurações do sistema, no comportamento do usuário e em outras medidas relacionadas à segurança; Não é uma medida absoluta da probabilidade de que seu sistema ou dados seja violado. Em vez disso, ele representa a extensão à qual você adotou os controles de segurança no seu ambiente Microsoft, o que pode ajudar a reduzir o risco de ser violado. Nenhum serviço online é totalmente imune às brechas de segurança e a pontuação segura não deve ser interpretada como uma garantia contra violação de segurança de qualquer forma.
 
-## <a name="whats-new"></a>O que há de novo?
+## <a name="whats-new"></a>Quais são as novidades?
 
-Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança, fizemos algumas alterações.
+Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, confira [o que está acontecendo na pontuação segura da Microsoft?](microsoft-secure-score-whats-coming.md)
 
-Para saber mais sobre as alterações planejadas, confira [o que está acontecendo na pontuação segura da Microsoft?](microsoft-secure-score-whats-coming.md)
-
-### <a name="march-2020"></a>Março de 2020
+### <a name="january---march-2020"></a>Janeiro-Março de 2020
 
 #### <a name="supporting-security-defaults-for-azure-ad-improvement-actions"></a>Padrões de segurança de suporte para ações de melhoria do Azure AD
 

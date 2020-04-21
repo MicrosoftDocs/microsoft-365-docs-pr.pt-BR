@@ -17,16 +17,16 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 1a5c5ae702f16bbf47be83837cf244cdd64278cd
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.openlocfilehash: 234ae17ab31d56d1bbd65f1aa8ed29475e9cd155
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43541102"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583710"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>O que está acontecendo na pontuação segura da Microsoft?
 
-Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança e melhorar a usabilidade, estamos fazendo algumas alterações em um futuro próximo. Sua pontuação e a pontuação máxima possível mudarão. No entanto, isso não implica uma alteração na postura de segurança.
+Para tornar a [Pontuação segura da Microsoft](microsoft-secure-score.md) um melhor representante da postura de segurança e melhorar a usabilidade, estamos fazendo algumas alterações em um futuro próximo. Sua pontuação e a pontuação máxima possível mudarão. No entanto, isso não implica uma alteração na postura de segurança.
 
 Para saber mais sobre as alterações recentes, confira [o que há de novo na pontuação segura da Microsoft?](microsoft-secure-score.md#whats-new)
 
@@ -39,11 +39,15 @@ Para garantir que a pontuação segura da Microsoft seja significativa e que cad
 - Aplicar proteções de IRM a documentos
 - Aplicar políticas de prevenção contra perda de dados
 
-### <a name="adding-azure-ad-improvement-action-in-the-preview-version"></a>Adicionando a ação de melhoria do Azure AD na versão prévia
+### <a name="adding-azure-ad-improvement-action-to-preview"></a>Adicionando a ação de melhoria do Azure AD para visualização
+
+Adição da seguinte ação de melhoria do Azure Active Directory para a [versão prévia da Pontuação segura da Microsoft](microsoft-secure-score-preview.md):
 
 - Não permitir que os usuários conceda consentimento a aplicativos não gerenciados (atualmente disponível na versão lançada)
 
-### <a name="adding-azure-atp-improvement-actions-in-the-preview-version"></a>Adicionando ações de melhoria da ATP do Azure na versão prévia
+### <a name="adding-azure-atp-improvement-actions-to-preview"></a>Adicionando ações de melhoria da ATP do Azure para visualização
+
+Adicionar as seguintes ações de melhoria avançada de proteção contra ameaças do Azure à [versão prévia da Pontuação segura da Microsoft](microsoft-secure-score-preview.md):
 
 - Desabilitar o serviço spooler de impressão em controladores de domínio
 - Modificar as delegações Kerberos não seguras para impedir a representação
@@ -56,6 +60,6 @@ Para garantir que a pontuação segura da Microsoft seja significativa e que cad
 - Parar comunicação de protocolos herdados
 - Interromper o uso de codificação fraca
 
-### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations-in-the-preview-version"></a>Suporte para recomendações de segurança do TVM (gerenciamento de vulnerabilidades) de & ameaças ATP da Microsoft defender na versão prévia
+### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations-in-preview"></a>Suporte para recomendações de segurança do TVM (gerenciamento de vulnerabilidades) do Microsoft defender & ATP em versão prévia
 
-- Todas as recomendações de segurança lançadas pelo TVM também estarão disponíveis na pontuação segura da Microsoft
+Todas as recomendações de segurança lançadas pelo TVM agora também estarão disponíveis na [versão prévia da Pontuação segura da Microsoft](microsoft-secure-score-preview.md).

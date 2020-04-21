@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 141bd55a0619fb2f007b5f9173310a1e2fe5bab1
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 48da8a0e6629ff64b42c413d4959fb440b77aae3
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633149"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583328"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Configuração de rede para a área de trabalho gerenciada da Microsoft
 
@@ -41,7 +41,7 @@ Observe que a URL de área de trabalho gerenciada da Microsoft abaixo é usada p
 
 Serviço da Microsoft  | URLs necessárias na lista de permissões 
 --- | --- | ---
-Área de trabalho gerenciada da Microsoft | prod-mwaas-services-customerapi.azurewebsites.net
+Área de Trabalho Gerenciada da Microsoft | prod-mwaas-services-customerapi.azurewebsites.net
 Obter ajuda | \*. support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net
 Assistência rápida | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*. lync.com
 Assistente de Recuperação e Suporte da Microsoft para o Office 365 | \*. apibasic.diagnostics.office.com  <br>\*. api.diagnostics.office.com
@@ -57,7 +57,7 @@ Windows 10 Enterprise incluindo Windows Update para empresas | [Gerenciar pontos
 Otimização de entrega | [Configurar a otimização de entrega para as atualizações do Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
 Office 365 | [Intervalo de endereços IP e URL do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
 Azure Active Directory | Requisitos [de porta e protocolos de identidade híbrida](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) e [serviços de domínio do](https://aka.ms/AA26ygm) Active Directory e Active Directory 
-Microsoft Intune | [Requisitos de configuração de rede do Intune](https://docs.microsoft.com/intune/network-bandwidth-use)
+Microsoft Intune | [Requisitos de configuração de rede do Intune](https://docs.microsoft.com/intune/network-bandwidth-use)<br>[Pontos de extremidade de rede para o Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/intune-endpoints)
 Proteção avançada contra ameaças do Microsoft defender (ATP) | [Pontos de extremidade do Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
 
 <!---
