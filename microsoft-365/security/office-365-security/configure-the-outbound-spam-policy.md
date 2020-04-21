@@ -16,12 +16,12 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: A filtragem de spam de saída está sempre habilitada se você utilizar o serviço de envio de email de saída, protegendo assim as organizações que utilizam o serviço e seus destinatários desejados.
-ms.openlocfilehash: 3ac85776db5d990d46b858294acf8ef66c7f26bc
-ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
+ms.openlocfilehash: 699de94a300ac8625e92d2c467edd461d72c7d2f
+ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43230999"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43608169"
 ---
 # <a name="configure-outbound-spam-filtering-in-office-365"></a>Configurar a filtragem de spam de saída no Office 365
 
@@ -71,7 +71,7 @@ Todas as organizações têm uma política interna de spam de saída chamada Def
 
 Para aumentar a eficácia da filtragem de spam de saída, você pode criar políticas personalizadas de spam de saída com configurações mais rígidas que são aplicadas a usuários ou grupos de usuários específicos.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>.
 
@@ -140,7 +140,11 @@ Criar uma política de spam de saída personalizada no centro de conformidade de
 
      Para desabilitar essa configuração, desmarque a caixa de seleção.
 
-5. Opcion Expanda a seção **limites de destinatário** para configurar os limites e as ações de mensagens de email de saída suspeitas:]
+5. Opcion Expanda a seção **limites de destinatário** para configurar os limites e as ações para mensagens de email de saída suspeitas:
+
+   > [!NOTE]
+   > Essas configurações só são aplicáveis às caixas de correio baseadas em nuvem.
+     
    - **Número máximo de destinatários por usuário**
 
      Um valor válido é de 0 a 10000. O valor padrão é 0, o que significa que os padrões de serviço são usados. Para obter mais informações, consulte [enviando limites nas opções do Office 365](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options).

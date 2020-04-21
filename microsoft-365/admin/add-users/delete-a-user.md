@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Saiba como excluir uma conta de usuário. Decida o que fazer com o email do usuário, o conteúdo do OneDrive e se deseja manter a licença do produto ou parar de pagar por ela.
-ms.openlocfilehash: 2c87f04675ec92e964acb6fc9aef7171b6d7d510
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 59d06a075b5badeda410b4b25d60fa135b9ce5f7
+ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353132"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43608111"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Excluir um usuário da sua organização
   
@@ -99,7 +99,8 @@ Como a experiência orientada percorre as etapas para excluir um usuário, veja 
 ## <a name="user-management-admin-delete-one-or-more-users-from-office-365"></a>Administração de gerenciamento de usuários: excluir um ou mais usuários do Office 365
 
 
- **IMPORTANTE**: Não exclua a conta de um usuário se você tiver [convertido a conta em uma caixa de correio compartilhada](../email/convert-user-mailbox-to-shared-mailbox.md) ou se tiver configurado um encaminhamento de email na conta. Essas funções precisam da conta. Se as tiver convertido em uma caixa de correio compartilhada, você poderá [Parar de pagar pela licença](#stop-paying-for-the-license) e deixar de pagar por ela. Se você configurar o encaminhamento de email, não poderá remover a licença. Isso interromperá o encaminhamento de email e desativará a caixa de correio. 
+> [!IMPORTANT]
+> Não exclua a conta de um usuário se [a tiver convertido em uma caixa de correio compartilhada](../email/convert-user-mailbox-to-shared-mailbox.md) ou se você tiver configurado o encaminhamento de emails na conta. Essas funções ainda precisam da conta. Uma caixa de correio compartilhada não requer uma licença. Se você converteu a conta em uma caixa de correio compartilhada, pode [parar de pagar pela licença](#stop-paying-for-the-license). Se você configurou o encaminhamento de emails na conta, não é possível remover a licença. Isso interromperá o encaminhamento de emails e a desativação da caixa de correio.
   
 ::: moniker range="o365-worldwide"
 

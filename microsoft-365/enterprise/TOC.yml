@@ -188,6 +188,8 @@
           href: contoso-sharepoint-online-site-for-highly-confidential-assets.md
     - name: Alterações no conteúdo de implantação do Microsoft 365 para empresas
       href: microsoft-365-deploment-guide-changes.md
+    - name: Status de integridade do serviço Microsoft 365
+      href: microsoft-365-service-health.md
 - name: Centro de Implantação de Desktop
   href: desktop-deployment-center-home.md
   items:

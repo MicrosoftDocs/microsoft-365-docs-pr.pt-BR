@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/13/2020
+ms.date: 04/20/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda e configure os navegadores da web e os dispositivos de borda para executar bypass de tráfego dos locais confiáveis do Office 365.
-ms.openlocfilehash: b04e16b249dccf8f2461189b8b47abdd252a75d8
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: 68e8f7868e0b0f7b3da80bd5f19b18f261b1b05c
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43504074"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583388"
 ---
 # <a name="step-4-configure-traffic-bypass"></a>Etapa 4: Configurar o bypass de tráfego
 
@@ -61,6 +61,8 @@ As conexões VPN (rede virtual privada) são comumente usadas por funcionários 
 O tunelamento dividido é a capacidade de uma conexão VPN para direcionar o tráfego especificado pela Internet, em vez de enviá-lo pela VPN para a sua intranet. Para obter o melhor desempenho para funcionários remotos a serviços essenciais do Microsoft 365, como Teams, SharePoint Online e Exchange Online, configure suas conexões VPN de túnel dividido para enviar o tráfego para otimizar os pontos de extremidade do Office 365 diretamente pela Internet. 
 
 Para informações mais detalhadas, confira [Otimizar a conectividade do Office 365 para usuários remotos usando a criação de túnel dividido de VPN](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel).
+
+Para testar o quão perto você está de um ponto de entrada da rede global da Microsoft e o quão perto você está do ponto em que a rede da sua organização se conecta ao seu ISP, use a [ferramenta de Integração de Rede do Office 365](https://connectivity.office.com/).
 
 Como um ponto de verificação provisório, é possível ver os [critérios de saída](networking-exit-criteria.md#crit-networking-step4) para esta etapa.
 
