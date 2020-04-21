@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint e Microsoft Teams e nos grupos do Office 365.
-ms.openlocfilehash: 4daf35af28e0339c66271c69487d3da9c1e4c91e
-ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
+ms.openlocfilehash: 69ab8dcecf95f02965254928110802bfd0308b8b
+ms.sourcegitcommit: b8aa905b7c9c59def56490670b928b0b7daa7d0c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43547593"
+ms.lasthandoff: 04/19/2020
+ms.locfileid: "43558760"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Usar códigos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
 
@@ -256,15 +256,15 @@ Outros aplicativos e serviços onde você não pode usar atualmente os rótulos 
 
 ## <a name="classic-azure-ad-group-classification"></a>Classificação clássica de grupo do Azure AD
 
-O Office 365 já não será mais compatível com as classificações antigas para novos grupos e sites do SharePoint quando você habilitar essa visualização. No entanto, grupos e sites existentes ainda exibem as classificações antigas, a menos que você as converta para usar rótulos de confidencialidade. As classificações antigas incluem a classificação de sites "modernos" que você configurou, possivelmente por meio do Azure AD PowerShell ou da biblioteca PnP Core, que definiu valores para a configuração do `ClassificationList`.
+O Office 365 não oferece mais suporte às classificações antigas para novos grupos do Office 365 e sites do SharePoint quando você habilita essa visualização. No entanto, os grupos e sites existentes ainda exibem os valores de classificação antigos, a menos que você os converta para usar rótulos de confidencialidade.
 
-Por exemplo, no PowerShell:
+Como um exemplo de como você pode ter usado a classificação de grupo antiga do SharePoint, confira [Classificação de sites “moderna”](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification).
+
+Essas classificações foram configuradas usando o Azure AD PowerShell ou a biblioteca Principal do PnP e definindo valores para a configuração do `ClassificationList`. Se seu locatário tiver valores de classificação definidos, eles serão mostrados quando você executar o seguinte comando no [módulo AzureADPreview PowerShell](https://www.powershellgallery.com/packages/AzureADPreview):
 
 ```powershell
    ($setting["ClassificationList"])
 ```
-
-Como um exemplo de como você pode ter usado a classificação de grupo antiga do SharePoint, confira [Classificação de sites “moderna”](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification).
 
 Para converter suas classificações antigas em rótulos de confidencialidade, siga um destes procedimentos:
 

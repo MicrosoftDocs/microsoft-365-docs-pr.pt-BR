@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Saiba o que acontece com seus dados quando a sua assinatura do Office 365 for Business expira, está desabilitada ou se você cancelar.
-ms.openlocfilehash: 2529d5027305a9ceaf71033b4de52a867b9fa9fb
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: f3be5a84cc29b2f7fd4d2bbe3e6ba611c6459ea6
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955668"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43584004"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-office-365-for-business-subscription-ends"></a>O que acontece com meus dados e acesso quando minha assinatura do Office 365 for Business termina?
 
@@ -44,7 +44,7 @@ A tabela a seguir explica o que você pode esperar quando uma assinatura paga do
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | *Dados acessíveis a todos*                                               | *Dados acessíveis a todos*                                                     | *Dados acessíveis somente para administradores*                                             | **Dados excluídos<br/>o Azure Active Directory foi removido, se não estiver sendo usado por outros serviços** |
 | Os usuários têm acesso normal aos aplicativos do Office 365, aos dados e ao Office  | Os usuários têm acesso normal ao Office 365, arquivos e aplicativos              | Os usuários não podem acessar o Office 365, arquivos ou aplicativos                        | Os usuários não podem acessar o Office 365, arquivos ou aplicativos                                     |
-| Os administradores têm acesso normal aos aplicativos do Office 365, aos dados e ao Office | Os administradores podem acessar o centro de administração, mas não podem atribuir licenças aos usuários   | Os administradores podem acessar o centro de administração, mas não podem atribuir licenças aos usuários       | Os administradores podem acessar o centro de administração para comprar e gerenciar outras assinaturas             |
+| Os administradores têm acesso normal aos aplicativos do Office 365, aos dados e ao Office | Os administradores podem acessar o centro de administração   | Os administradores podem acessar o centro de administração, mas não podem atribuir licenças aos usuários       | Os administradores podem acessar o centro de administração para comprar e gerenciar outras assinaturas             |
 |                                                                        | Administradores globais ou de cobrança podem reativar a assinatura no centro de administração | Administradores globais ou de cobrança podem reativar a assinatura no centro de administração |                                                                                           |
 
 * Na maioria das ofertas, na maioria dos países e regiões.
@@ -143,7 +143,7 @@ Veja aqui o que você pode esperar quando sua assinatura estiver em cada Estado.
 
 Nesse estado, os usuários têm acesso normal ao portal do Office 365, aplicativos do Office e serviços como email e SharePoint Online.
   
-Como administrador, você ainda tem acesso ao centro de administração, mas não pode atribuir licenças aos usuários. Administradores globais ou de cobrança podem [reativar a assinatura](reactivate-your-subscription.md) e continuar usando o Office 365. Se você não reativar, certifique-se de [fazer backup dos dados](back-up-data-before-switching-plans.md).
+Como administrador, você ainda tem acesso ao centro de administração. Administradores globais ou de cobrança podem [reativar a assinatura](reactivate-your-subscription.md) e continuar usando o Office 365. Se você não reativar, certifique-se de [fazer backup dos dados](back-up-data-before-switching-plans.md).
   
 ### <a name="state-disabled"></a>Estado: desabilitado
   
