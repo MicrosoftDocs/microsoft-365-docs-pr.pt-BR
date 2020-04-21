@@ -1,5 +1,5 @@
 ---
-title: Permitir que os usuários redefinam as próprias senhas no Office 365
+title: Permitir que os usuários redefinam as próprias senhas
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Saiba como você pode redefinir suas senhas usando a ferramenta de redefinição de senha autoatendimento.
-ms.openlocfilehash: 666d3843f7917cf9bd5718c0ce29f87f93d6effe
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: beffbcac997806f0c13347dfba42a1ab0ec65c1d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211890"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43617141"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Permitir que os usuários redefinam as próprias senhas
 
@@ -36,7 +36,7 @@ Obter Crushed com pessoas solicitando que você redefina suas senhas? Como o Mic
   
 Aqui estão algumas coisas que você precisa saber:
   
-- Você obtém a redefinição de senhas de autoatendimento para usuários de nuvem **gratuitamente** com qualquer plano pago do Office 365 para empresas, educação ou instituições sem fins lucrativos. Ela não funciona com a avaliação do Office 365. 
+- Você obtém redefinição de senha de autoatendimento para usuários em nuvem **gratuitamente** com qualquer plano pago de negócios, educação ou sem fins lucrativos da Microsoft 365. Ele não funciona com a avaliação da Microsoft 365. 
     
 - Ela usa o Azure. Você obterá automaticamente esse recurso no Azure **gratuitamente** quando realizar essas etapas. Não haverá custos para habilitar a redefinição de senha de autoatendimento se você não usar outros recursos do Azure. 
     

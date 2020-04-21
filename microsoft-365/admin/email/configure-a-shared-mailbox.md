@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Depois de criar uma caixa de correio compartilhada, convém definir algumas configurações para seus usuários, como encaminhamento de email e respostas automáticas. Posteriormente, talvez você queira alterar outras configurações, como os membros ou o nome da caixa de correio.
-ms.openlocfilehash: fc2995dc448c7cb28c13c10d78b57e7141963539
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 63d3d0a5867875344ff4635071bbbad69e02eadc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212016"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629042"
 ---
 # <a name="configure-a-shared-mailbox"></a>Configurar uma caixa de correio compartilhada
 
@@ -122,7 +122,7 @@ Por padrão, as mensagens enviadas da caixa de correio compartilhada não são s
 Se quiser permitir que todos vejam os emails enviados, no centro de administração, edite as configurações da caixa de correio compartilhada e selecione \> **Editar** **itens enviados** .
 
 
-## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-office-365-email"></a>Escolha os aplicativos que uma caixa de correio compartilhada pode usar para acessar emails do Office 365
+## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-microsoft-email"></a>Escolha os aplicativos que uma caixa de correio compartilhada pode usar para acessar o email da Microsoft
 
 ::: moniker range="o365-worldwide"
 

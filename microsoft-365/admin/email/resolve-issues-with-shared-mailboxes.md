@@ -1,5 +1,5 @@
 ---
-title: Solucionar problemas com caixas de correio compartilhadas
+title: Resolver problemas com caixas de correio compartilhadas
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,14 +20,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Tente estas soluções se você tiver problemas com caixas de correio compartilhadas.
-ms.openlocfilehash: 138bcee155652e84ab6ee16cf6a9acab310edde9
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 52aac8ab6936dfeba2ae4b5b7a80c45029ec6105
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210511"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628742"
 ---
-# <a name="resolve-issues-with-shared-mailboxes"></a>Solucionar problemas com caixas de correio compartilhadas
+# <a name="resolve-issues-with-shared-mailboxes"></a>Resolver problemas com caixas de correio compartilhadas
 
 Se você vir mensagens de erro ao criar ou usar uma caixa de correio compartilhada, tente estas soluções possíveis. 
 
@@ -36,7 +36,7 @@ Se você vir mensagens de erro ao criar ou usar uma caixa de correio compartilha
 
 Se você vir a mensagem de erro, **o endereço de proxy "SMTP: <nome\>da caixa de correio compartilhada" já estiver sendo usado pelos endereços proxy\<ou legacyExchangeDN de "nome>". Escolha outro endereço de proxy**, significa que você está tentando dar um nome à caixa de correio compartilhada que já está em uso. Por exemplo, digamos que você deseja nomear as caixas de correio compartilhadas como info@dominio1 e info@dominio2. Há duas maneiras de fazer isso:
 
-  - Use o Windows PowerShell. Confira as instruções nesta postagem de blog: [Criar caixas de correio compartilhadas com o mesmo alias em diferentes domínios no Office 365](https://www.cogmotive.com/blog/office-365-tips/create-shared-mailboxes-with-same-alias-at-different-domains-in-office-365)
+  - Use o Windows PowerShell. Confira esta postagem de blog para obter instruções: [criar caixas de correio compartilhadas com o mesmo alias em domínios diferentes](https://www.cogmotive.com/blog/office-365-tips/create-shared-mailboxes-with-same-alias-at-different-domains-in-office-365)
     
   - Nomeie a segunda caixa de correio compartilhada algo diferente do início para contornar o erro. Em seguida, no centro de administração, renomeie a caixa de correio compartilhada para o que você deseja.
 
@@ -46,7 +46,7 @@ Se você criou uma caixa de correio compartilhada e, em seguida, tenta enviar um
 
 **Não foi possível enviar esta mensagem. Você não tem permissão para enviar a mensagem em nome do usuário especificado.**
 
-Esta mensagem é exibida quando o Office 365 está enfrentando um problema de latência de replicação. Ela deve desaparecer em uma hora ou assim, quando as informações sobre sua nova caixa de correio compartilhada (ou usuário adicionado) são replicadas em todos os nossos data centers. Aguarde uma hora e tente novamente enviar uma mensagem.
+Esta mensagem é exibida quando o Microsoft 365 está enfrentando um problema de latência de replicação. Ela deve desaparecer em uma hora ou assim, quando as informações sobre sua nova caixa de correio compartilhada (ou usuário adicionado) são replicadas em todos os nossos data centers. Aguarde uma hora e tente novamente enviar uma mensagem.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

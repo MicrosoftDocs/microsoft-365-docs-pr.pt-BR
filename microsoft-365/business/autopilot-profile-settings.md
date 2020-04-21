@@ -29,12 +29,12 @@ search.appverid:
 - MOE150
 ms.assetid: 99bfbf81-e719-4630-9b0f-c187edfa1f8a
 description: Os perfis do AutoPilot ajudam a controlar como o Windows é instalado nos dispositivos do usuário. Os perfis contêm configurações padrão e opcionais, como ignorar a instalação da Cortana.
-ms.openlocfilehash: 1cc8a3171bbc4a1e5cb531b9364c7791586fc339
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5c2ec3f4c3e0ebc4ea545d11f819c897f414ad52
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593324"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627405"
 ---
 # <a name="about-autopilot-profile-settings"></a>Sobre as configurações de perfil do AutoPilot
 
@@ -46,9 +46,9 @@ Você pode usar perfis do AutoPilot para controlar como o Windows é instalado n
   
 |**Configuração**|**Descrição**|
 |:-----|:-----|
-|Ignorar o registro de Cortana, OneDrive e OEM  <br/> |Ignora a instalação de aplicativos de consumidor como a Cortana e o OneDrive pessoal. O usuário do dispositivo poderá instalá-los mais tarde, contanto que o usuário seja um administrador local no dispositivo. O registro do fabricante original é ignorado porque o dispositivo será gerenciado pelo Microsoft 365 Business.  <br/> |
-|Experiência de entrada com a marca da sua empresa  <br/> |Se sua empresa tiver uma [marca adicionar sua empresa à página de entrada do Office 365](https://support.office.com/article/a1229cdb-ce19-4da5-90c7-2b9b146aef0a), o usuário do dispositivo receberá essa experiência ao entrar.  <br/> |
-|Registro automático do MDM com contas do AAD configuradas.  <br/> |A identidade do usuário será gerenciada pelo Azure Active Directory e os usuários entrarão no Windows e no Office 365 com suas credenciais de negócios do Microsoft 365.  <br/> |
+|Ignorar o registro de Cortana, OneDrive e OEM  <br/> |Ignora a instalação de aplicativos de consumidor como a Cortana e o OneDrive pessoal. O usuário do dispositivo poderá instalá-los mais tarde, contanto que o usuário seja um administrador local no dispositivo. O registro do fabricante original é ignorado porque o dispositivo será gerenciado pelo Microsoft 365 Business Premium.  <br/> |
+|Experiência de entrada com a marca da sua empresa  <br/> |Se sua empresa tiver uma [marca adicionar sua empresa à página de entrada do Microsoft 365](https://support.office.com/article/a1229cdb-ce19-4da5-90c7-2b9b146aef0a), o usuário do dispositivo receberá essa experiência ao entrar.  <br/> |
+|Registro automático do MDM com contas do AAD configuradas.  <br/> |A identidade do usuário será gerenciada pelo Azure Active Directory e os usuários entrarão no Windows e no Microsoft 365 com suas credenciais do Microsoft 365 Business Premium.  <br/> |
    
  **Configurações opcionais:**
   

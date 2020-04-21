@@ -1,5 +1,5 @@
 ---
-title: Sobre as funções de administrador
+title: Sobre funções de administrador
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador do serviço abre tíquetes de suporte da Microsoft.
-ms.openlocfilehash: 749e0532cf379d1fcff0580c9d5ede7910cfa38b
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 85952f1f64db0e1ae94d9c5f69e5c95f7f9c2dab
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353262"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43618867"
 ---
 # <a name="get-started-with-the-roles-page"></a>Introdução à página de funções
 
@@ -55,7 +55,7 @@ Esta não é uma lista completa de todas as permissões que essas funções têm
 
 ### <a name="exchange-admin"></a>Administrador do Exchange
 
-Atribua a função de administrador do Exchange aos usuários que precisam exibir e gerenciar as caixas de correio de email do usuário, os grupos do Office 365 e o Exchange Online. Eles também podem abrir e gerenciar solicitações de serviço para o suporte da Microsoft. [Saiba Mais](https://docs.microsoft.com/office365/admin/add-users/about-exchange-online-admin-role)
+Atribua a função de administrador do Exchange aos usuários que precisam exibir e gerenciar as caixas de correio de email do usuário, os grupos do Microsoft 365 e o Exchange Online. Eles também podem abrir e gerenciar solicitações de serviço para o suporte da Microsoft. [Saiba Mais](https://docs.microsoft.com/office365/admin/add-users/about-exchange-online-admin-role)
 
 ### <a name="global-admin"></a>Administrador global
 
@@ -75,15 +75,15 @@ Atribua a função de administrador de serviço aos usuários que precisam criar
 
 ### <a name="sharepoint-admin"></a>Administrador do SharePoint
 
-Quando você compra uma assinatura do Microsoft 365 ou do Office 365, um site de equipe é criado automaticamente e o administrador global é definido como o administrador do conjunto de sites principal. Atribua a função de administrador do SharePoint aos usuários que você deseja acessar ao centro de administração do SharePoint. Os usuários com a função de administrador do SharePoint podem criar e gerenciar conjuntos de sites, designar administradores de conjunto de sites e gerenciar perfis de usuário. Os usuários com a função de administrador do SharePoint também podem gerenciar grupos do Office 365 e abrir solicitações de serviço através de suporte da Microsoft. [Saiba Mais](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)
+Quando você compra uma assinatura do Microsoft 365, um site de equipe é criado automaticamente e o administrador global é definido como o administrador do conjunto de sites principal. Atribua a função de administrador do SharePoint aos usuários que você deseja acessar ao centro de administração do SharePoint. Os usuários com a função de administrador do SharePoint podem criar e gerenciar conjuntos de sites, designar administradores de conjunto de sites e gerenciar perfis de usuário. Os usuários com a função de administrador do SharePoint também podem gerenciar grupos do Microsoft 365 e abrir solicitações de serviço por meio de suporte da Microsoft. [Saiba Mais](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)
 
-### <a name="teams-service-admin"></a>Administrador do teams Service
+### <a name="teams-service-admin"></a>Administrador do serviço do Teams
 
-Atribua a função de administrador do teams aos usuários que você deseja acessar e gerenciar o Teams & o centro de administração do Skype. Os usuários com a função de administrador do teams também podem gerenciar grupos do Office 365 e abrir solicitações de serviço por meio de suporte da Microsoft. [Saiba Mais](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles)
+Atribua a função de administrador do teams aos usuários que você deseja acessar e gerenciar o Teams & o centro de administração do Skype. Os usuários com a função de administrador do teams também podem gerenciar grupos do Microsoft 365 e abrir solicitações de serviço por meio de suporte da Microsoft. [Saiba Mais](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles)
 
 ### <a name="user-admin"></a>Administrador de usuários
 
-Atribua a função de administrador do usuário aos usuários que você deseja acessar e gerenciar as redefinições de senha do usuário e gerenciar os usuários e grupos do Office 365. Eles também podem abrir e gerenciar solicitações de serviço para o suporte da Microsoft. [Saiba Mais](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
+Atribua a função de administrador do usuário aos usuários que você deseja acessar e gerenciar as redefinições de senha de usuário e gerenciar usuários e grupos. Eles também podem abrir e gerenciar solicitações de serviço para o suporte da Microsoft. [Saiba Mais](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles#roles-available-in-the-microsoft-365-admin-center)
 
 ::: moniker range="o365-worldwide"
 

@@ -16,21 +16,21 @@ ms.assetid: 0cbaccf8-4afc-47e3-a36d-a84598a55fb8
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber como configurar o seu ambiente do Exchange local para rotear o spam para pastas de lixo eletrônico de usuários locais, se estiverem usando o Exchange Online Protection (EOP) autônomo em ambientes híbridos.
-ms.openlocfilehash: 8a3887d1cc7390e75b7708d2167372e976923e01
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f2964324c6d9104719fc79ff31f14b4b94c627cc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893713"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621277"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Configurar o EOP autônomo para fornecer spam para a pasta lixo eletrônico em ambientes híbridos
 
 > [!IMPORTANT]
-> Este tópico é somente para clientes autônomos do EOP em ambientes híbridos. Este tópico não se aplica aos clientes do Office 365 com caixas de correio do Exchange Online.
+> Este tópico é somente para clientes autônomos do EOP em ambientes híbridos. Este tópico não se aplica a clientes da Microsoft 365 com caixas de correio do Exchange Online.
 
-Se você for um cliente autônomo do Exchange Online Protection (EOP) em um ambiente híbrido, precisará configurar sua organização do Exchange local para reconhecer e converter o verdicts de filtragem de spam do EOP, para que a regra de lixo eletrônico na caixa de correio local pode mover mensagens para a pasta lixo eletrônico.
+Se você for um cliente autônomo do Exchange Online Protection (EOP) em um ambiente híbrido, precisará configurar sua organização do Exchange local para reconhecer e traduzir o verdicts de filtragem de spam do EOP, para que a regra de lixo eletrônico na caixa de correio local possa mover mensagens para a pasta lixo eletrônico.
 
-Especificamente, você precisa criar regras de fluxo de emails (também conhecidas como regras de transporte) em sua organização local do Exchange com condições que encontrem mensagens com qualquer um dos seguintes valores e cabeçalhos antispam do EOP, e ações que definem o nível de confiança de spam ( SCL) dessas mensagens para 6:
+Especificamente, você precisa criar regras de fluxo de emails (também conhecidas como regras de transporte) em sua organização local do Exchange com condições que encontrem mensagens com qualquer um dos seguintes valores e cabeçalhos antispam do EOP, e ações que definem o nível de confiança de spam (SCL) dessas mensagens como 6:
 
 - `X-Forefront-Antispam-Report: SFV:SPM`(mensagem marcada como spam por filtragem de spam)
 
@@ -139,7 +139,7 @@ Para verificar se você configurou com êxito o EOP autônomo para entregar spam
   Get-TransportRule -Identity "<RuleName>" | Format-List
   ```
 
-- Em um sistema de email externo **que não examina mensagens de saída para spam**, envie um teste genérico para uma mensagem de email em massa não solicitado (GTUBE) para um destinatário afetado e confirme se ele é entregue na pasta lixo eletrônico. Uma mensagem do GTUBE é semelhante ao arquivo de texto do Instituto Europeu de pesquisa de antivírus de computador (EICAR) para testar as configurações de malware.
+- Em um sistema de email externo **que não examina mensagens de saída para spam**, envie um teste genérico para uma mensagem de email em massa não solicitado (GTUBE) para um destinatário afetado e confirme se ele é entregue na pasta lixo eletrônico. A mensagem do GTUBE é similar ao arquivo de texto do EICAR (Instituto Europeu para Pesquisa de Antivírus de Computador) em configurações de malware de teste.
 
   Para enviar uma mensagem do GTUBE, inclua o seguinte texto no corpo de uma mensagem de email em uma única linha, sem espaços ou quebras de linha:
 

@@ -1,9 +1,9 @@
 ---
-title: Obter acesso e realizar backup dos dados de um ex-usuário
+title: Obtenha acesso e faça backup dos dados de um usuário anterior
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekua
+ms.author: twerner
+author: twernermsft
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: Saiba como preservar os arquivos e emails de um funcionário quando a pessoa deixa sua organização.
-ms.openlocfilehash: 11c946e5c242b05fea3a15b9427f36029c61082f
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 9f665b68f50fd9b7f41ac0a6ef4b9e29ef289d7c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142558"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43617219"
 ---
-# <a name="get-access-to-and-back-up-a-former-users-data"></a>Obter acesso e realizar backup dos dados de um ex-usuário
+# <a name="get-access-to-and-back-up-a-former-users-data"></a>Obtenha acesso e faça backup dos dados de um usuário anterior
 
 
 Quando um funcionário deixa sua organização, você provavelmente deseja acessar seus dados (documentos e emails) e examiná-los, fazer o backup ou dar a ele um novo funcionário.

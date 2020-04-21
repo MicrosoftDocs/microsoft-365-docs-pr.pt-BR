@@ -11,16 +11,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Os administradores podem saber mais sobre o painel de fluxo de emails no centro de conformidade de & de segurança.
-ms.openlocfilehash: 792fb07c1faae54696354619347d1eb5367d45b2
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: 64bf1f2af967f841cd4c21be19fce914df136815
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081431"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630462"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Fluxo de emails no Centro de Conformidade e Segurança
 
-Os administradores podem usar o painel de fluxo de emails no centro de conformidade de & de segurança para descobrir tendências, insights e realizar ações para corrigir problemas relacionados ao fluxo de emails em sua organização do Office 365.
+Os administradores podem usar o painel de fluxo de emails no centro de conformidade de & de segurança para descobrir tendências, insights e realizar ações para corrigir problemas relacionados ao fluxo de emails em sua organização.
 
 As ideias, os relatórios e os widgets disponíveis no painel de fluxo de emails são:
 
@@ -50,9 +50,9 @@ As ideias, os relatórios e os widgets disponíveis no painel de fluxo de emails
 
 O painel de fluxo de emails está disponível para:
 
-- Membros da função de **administrador global do Office 365** .
+- Membros da função de **administrador global** .
 
-- Membros da função de **administrador do Exchange 365 do Office** .
+- Membros da função de **administrador do Exchange** .
 
 - Membros da **função de administrador de fluxo de emails** no centro de conformidade de & de segurança. Se essa função for explicitamente atribuída a um usuário que não é membro das funções de administrador global ou administrador do Exchange:
 
@@ -60,11 +60,11 @@ O painel de fluxo de emails está disponível para:
 
   - O usuário só terá permissão somente leitura para o painel de fluxo de emails.
 
-  - O usuário não terá acesso ao portal de administração do Office 365.
+  - O usuário não terá acesso ao centro de administração do Microsoft 365.
 
-Para obter mais informações sobre a função de administrador global do Office 365, consulte [about office 365 admin Roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
+Para obter mais informações sobre a função de administrador global, consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
 
-Para obter informações sobre como atribuir funções de segurança & centro de conformidade aos usuários, consulte [dar aos usuários acesso ao centro de conformidade & segurança do Office 365](grant-access-to-the-security-and-compliance-center.md).
+Para obter informações sobre como atribuir funções de segurança & centro de conformidade aos usuários, consulte [conceder aos usuários acesso ao centro de conformidade & segurança](grant-access-to-the-security-and-compliance-center.md).
 
 ## <a name="where-to-find-the-mail-flow-dashboard"></a>Onde encontrar o painel de fluxo de emails
 
@@ -72,4 +72,4 @@ Para obter informações sobre como atribuir funções de segurança & centro de
 
 2. Expanda **fluxo de email** e selecione **painel**.
 
-   ![O painel de fluxo de emails no centro de conformidade & segurança do Office 365](../../media/mail-flow-dashboard-v2.png)
+   ![O painel de fluxo de emails no centro de conformidade & segurança](../../media/mail-flow-dashboard-v2.png)

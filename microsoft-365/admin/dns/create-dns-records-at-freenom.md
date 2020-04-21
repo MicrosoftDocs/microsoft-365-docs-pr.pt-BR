@@ -1,5 +1,5 @@
 ---
-title: Criar registros DNS no Freenom para o Office 365
+title: Criar registros DNS no Freenom para Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -19,24 +19,24 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: d8ff45a2-19e3-413d-aa64-a9982bd6633c
-description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Freenom para o Office 365.
-ms.openlocfilehash: d8c33df611a0ef1be95d32026f5d6b99808258f6
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Freenom para a Microsoft.
+ms.openlocfilehash: 828a1728606338017383857e4b59d6a62d087fc7
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211746"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629558"
 ---
-# <a name="create-dns-records-at-freenom-for-office-365"></a>Criar registros DNS no Freenom para o Office 365
+# <a name="create-dns-records-at-freenom-for-microsoft"></a>Criar registros DNS no Freenom para Microsoft
 
 [Verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md) se não encontrar o que você está procurando. 
   
 > [!CAUTION]
-> O site do Freenom não dá suporte a registros SRV, o que significa que vários recursos do Skype for Business Online e do Outlook Web App não funcionarão. Independentemente do plano do Office 365 que você usa, há limitações de serviço significativas e você pode querer mudar para um provedor de Hospedagem de DNS diferente. 
+> O site do Freenom não dá suporte a registros SRV, o que significa que vários recursos do Skype for Business Online e do Outlook Web App não funcionarão. Independentemente do Microsoft Plan que você usa, há limitações de serviço significativas e você pode querer mudar para um provedor de Hospedagem de DNS diferente. 
   
-Se, apesar das limitações de serviço, você optar por gerenciar seus próprios registros DNS do Office 365 no Freenom, siga as etapas deste artigo para verificar seu domínio e configurar registros DNS para email e outros serviços.
+Se, apesar das limitações de serviço, você optar por gerenciar seus próprios registros DNS da Microsoft em Freenom, siga as etapas deste artigo para verificar seu domínio e configurar registros DNS para email e outros serviços.
   
-Para saber mais sobre hospedagem na Web e DNS para sites com o Office 365, confira [Usar um site público com o Office 365](https://support.office.com/article/a8178510-501d-4bd8-9921-b04f2e9517a5.aspx).
+Para saber mais sobre o webhosting e o DNS para sites com a Microsoft, confira [usar um site público com a Microsoft](https://support.office.com/article/a8178510-501d-4bd8-9921-b04f2e9517a5.aspx).
   
 > [!NOTE]
 > Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
@@ -44,7 +44,7 @@ Para saber mais sobre hospedagem na Web e DNS para sites com o Office 365, confi
 ## <a name="add-a-txt-record-for-verification"></a>Adicionar um registro TXT para verificação
 <a name="bkmk_txt"> </a>
 
-Antes de usar o seu domínio com o Office 365, precisamos verificar se você é o proprietário dele. A capacidade de entrar na conta do seu registrador de domínios e criar o registro DNS prova ao Office 365 que você é o proprietário do domínio.
+Antes de usar seu domínio com a Microsoft, precisamos garantir que você o tenha. Sua capacidade de fazer logon em sua conta no registrador de domínios e criar o registro DNS comprova para a Microsoft que você é o proprietário do domínio.
   
 > [!NOTE]
 > Esse registro é usado exclusivamente para confirmar se você é o proprietário do domínio; ele não afeta mais nada. É possível excluí-lo mais tarde, se desejar. 
@@ -73,7 +73,7 @@ Antes de usar o seu domínio com o Office 365, precisamos verificar se você é 
     
     |**Nome**|**Tipo**|**TTL**|**Destino**|
     |:-----|:-----|:-----|:-----|
-    |(deixar em branco)  <br/> |TXT  <br/> |3600 (segundos)  <br/> |MS = msXXXXXXXX  <br/> **Observação**: esse é um exemplo. Use seu valor específico de **Destinos ou Pontos de Endereçamento** aqui, da tabela no Office 365.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |(deixar em branco)  <br/> |TXT  <br/> |3600 (segundos)  <br/> |MS = msXXXXXXXX  <br/> **Observação**: esse é um exemplo. Use o seu **destino específico ou aponte para** o valor de endereço aqui, a partir da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Freenom valores TXT para verificação](../../media/650098df-b3aa-47e5-9763-7fde24e34c3f.png)
   
@@ -83,11 +83,11 @@ Antes de usar o seu domínio com o Office 365, precisamos verificar se você é 
   
 8. Aguarde alguns minutos antes de prosseguir para que o registro que você acabou de criar possa ser atualizado na Internet.
     
-Agora que você adicionou o registro no site do seu registrador de domínios, retorne ao Office 365 e solicite que o Office 365 procure o registro.
+Agora que você adicionou o registro no site do seu registrador de domínio, você voltará para a Microsoft e solicitará o registro.
   
-Quando o Office 365 encontrar o registro TXT correto, o domínio será verificado.
+Quando a Microsoft encontrar o registro TXT correto, seu domínio será verificado.
   
-1. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
+1. No centro de administração da Microsoft, vá para a página de <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a> de **configurações** \> .
 
     
 2. Na página **Domínios**, clique no domínio que você está verificando. 
@@ -105,7 +105,7 @@ Quando o Office 365 encontrar o registro TXT correto, o domínio será verificad
 > [!NOTE]
 >  Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Adicionar um registro MX para que o e-mail do domínio vá para o Office 365
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>Adicionar um registro MX para que o email do seu domínio seja fornecido para a Microsoft
 <a name="bkmk_mx"> </a>
 
 1. Para começar, vá até a sua página de domínios no Freenom usando [este link](https://my.freenom.com/). You'll be prompted to log in.
@@ -140,7 +140,7 @@ Quando o Office 365 encontrar o registro TXT correto, o domínio será verificad
     
     |**Nome**|**Tipo**|**TTL**|**Destino**|**Prioridade**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(deixar em branco)  <br/> |Servidor de mensagens (MX)  <br/> |3600 (segundos)  <br/> |\<Domain-Key\>. mail.Protection.Outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta do Office 365.   [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://support.office.com/article/17d415c1-067e-4974-84d5-aaeaf3a0c0a9) <br/> |
+    |(deixar em branco)  <br/> |Servidor de mensagens (MX)  <br/> |3600 (segundos)  <br/> |\<Domain-Key\>. mail.Protection.Outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta da Microsoft.   [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://support.office.com/article/17d415c1-067e-4974-84d5-aaeaf3a0c0a9) <br/> |
    
    ![Registro MX Freenom](../../media/8896c4a9-b3dd-45ed-9916-f7da2715ba8c.png)
   
@@ -150,7 +150,7 @@ Quando o Office 365 encontrar o registro TXT correto, o domínio será verificad
   
 10. Se houver outros registros MX, exclua todos. Para cada registro, selecione **excluir**. Quando a mensagem **você realmente deseja remover essa entrada?** é exibida, selecione **OK**.
     
-## <a name="add-the-cname-records-that-are-required-for-office-365"></a>Adicionar os registros CNAME necessários do Office 365
+## <a name="add-the-cname-records-that-are-required-for-microsoft"></a>Adicionar os registros CNAME necessários para o Microsoft
 <a name="bkmk_cname"> </a>
 
 1. Para começar, vá até a sua página de domínios no Freenom usando [este link](https://my.freenom.com/). You'll be prompted to log in.
@@ -197,7 +197,7 @@ Quando o Office 365 encontrar o registro TXT correto, o domínio será verificad
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. If you already have an SPF record for your domain, don't create a new one for Office 365. Em vez disso, adicione os valores necessários do Office 365 ao registro atual, de modo que você tenha um  *único*  registro SPF que inclua os dois conjuntos de valores. 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já tiver um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. 
 
 1. Para começar, vá até a sua página de domínios no Freenom usando [este link](https://my.freenom.com/). You'll be prompted to log in.
     

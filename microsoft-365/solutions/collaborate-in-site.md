@@ -10,16 +10,16 @@ ms.collection: SPO_Content
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba como colaborar com convidados em um site do SharePoint.
-ms.openlocfilehash: 3a7c14cc4cd31961b0d4c1054f88b5ed276b3b1a
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 5a8bc5da55f3582a7e298dab97ec4d6b3d147b60
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604356"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630732"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>Colaborar com convidados em um site
 
-Se você precisar colaborar com convidados entre documentos, dados e listas, poderá usar um site do SharePoint. Os sites modernos do SharePoint estão conectados a grupos do Office 365 que podem gerenciar a associação do site e fornecer ferramentas de colaboração adicionais, como uma caixa de correio e um calendário compartilhados.
+Se você precisar colaborar com convidados entre documentos, dados e listas, poderá usar um site do SharePoint. Os sites modernos do SharePoint estão conectados a grupos do Microsoft 365 e podem gerenciar a associação do site e fornecer ferramentas de colaboração adicionais, como uma caixa de correio e um calendário compartilhados.
 
 Neste artigo, veremos as etapas de configuração do Microsoft 365 necessárias para configurar um site do SharePoint para colaboração com convidados.
 
@@ -48,17 +48,17 @@ Para definir as configurações de relação organizacional
 
 Observe as configurações na seção **restrições de colaboração** . Certifique-se de que os domínios dos convidados com os quais você deseja colaborar não estão bloqueados.
 
-## <a name="office-365-groups-guest-settings"></a>Configurações de convidado de grupos do Office 365
+## <a name="microsoft-365-groups-guest-settings"></a>Configurações de convidado de grupos do Microsoft 365
 
-Os sites modernos do SharePoint usam grupos do Office 365 para controlar o acesso ao site. As configurações de convidado de grupos do Office 365 devem ser ativadas para que o acesso de convidados nos sites do SharePoint funcione.
+Os sites modernos do SharePoint usam os grupos do Microsoft 365 para controlar o acesso ao site. As configurações de convidado do Microsoft 365 groups devem ser ativadas para que o acesso de convidados nos sites do SharePoint funcione.
 
-![Captura de tela das configurações de convidado dos Grupos do Office 365 no centro de administração do Microsoft 365](../media/office-365-groups-guest-settings.png)
+![Captura de tela das configurações de convidado do Microsoft 365 groups no centro de administração do Microsoft 365](../media/office-365-groups-guest-settings.png)
 
-Para definir as configurações de convidado de grupos do Office 365
+Para definir as configurações de convidados de grupos do Microsoft 365
 
 1. No centro de administração do Microsoft 365, no painel de navegação à esquerda, expanda **configurações**.
 2. Clique em **serviços & suplementos**.
-3. Na lista, clique em **grupos do Office 365**.
+3. Na lista, clique em **Microsoft 365 grupos**.
 4. Certifique-se de que o **grupo permitir Membros fora do seu conteúdo de grupo de acesso à organização** e **que os proprietários do grupo adicionem pessoas fora da sua organização a grupos de** seleção.
 5. Se você tiver feito alterações, clique em **salvar alterações**.
 
@@ -113,7 +113,7 @@ Para definir configurações de compartilhamento no nível do site
 
 ## <a name="invite-users"></a>Convidar usuários
 
-As configurações de compartilhamento de convidados agora estão configuradas para que você possa começar a adicionar usuários internos e convidados ao seu site. O acesso ao site é controlado pelo grupo associado do Office 365, portanto, vamos adicionar usuários lá.
+As configurações de compartilhamento de convidados agora estão configuradas para que você possa começar a adicionar usuários internos e convidados ao seu site. O acesso ao site é controlado através do grupo associado da Microsoft 365, portanto, vamos adicionar usuários lá.
 
 Para convidar usuários internos para um grupo
 1. Navegue até o site em que você deseja adicionar usuários.
@@ -135,7 +135,7 @@ Para convidar convidados para um grupo
 
 [Limitar a exposição acidental dos arquivos ao compartilhar com convidados](share-limit-accidental-exposure.md)
 
-[Criar um ambiente seguro de compartilhamento para convidados](create-secure-guest-sharing-environment.md)
+[Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
 
 [Crie uma extranet B2B com convidados gerenciados](b2b-extranet.md)
 

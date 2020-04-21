@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 23242f5f2d7e1a0774c83359159588f9fef34f64
-ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
+ms.openlocfilehash: 8b8976f07f88afa184eb292b0cdc1d6e36a44d77
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43608157"
+ms.locfileid: "43615913"
 ---
 # <a name="microsoft-secure-score-preview"></a>Pontuação segura da Microsoft (visualização)
 
@@ -55,7 +55,7 @@ Cada ação de melhoria vale 10 pontos ou menos. A maioria é classificada de fo
 
 ### <a name="products-included-in-secure-score"></a>Produtos incluídos na pontuação segura
 
-No momento, há recomendações para o Office 365 (incluindo o SharePoint Online, o Exchange Online, o OneDrive for Business, o Microsoft Information Protection e outros), o Azure AD, o Microsoft defender ATP e o Cloud app Security. As recomendações para outros produtos de segurança serão disponibilizadas em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por terceiros.
+No momento, há recomendações para o Microsoft 365 (incluindo o SharePoint Online, o Exchange Online, o OneDrive for Business, o Microsoft Information Protection e outros), o Azure AD, o Microsoft defender ATP e o Cloud app Security. As recomendações para outros produtos de segurança serão disponibilizadas em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por terceiros.
 
 ## <a name="required-permissions"></a>Permissões obrigatórias
 

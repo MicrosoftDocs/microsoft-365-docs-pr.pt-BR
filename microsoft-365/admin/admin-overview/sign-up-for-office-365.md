@@ -1,5 +1,5 @@
 ---
-title: Como se inscrever no Office 365 - Ajuda do Administrador
+title: Como inscrever-se na ajuda do administrador
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -26,20 +26,20 @@ search.appverid:
 ms.assetid: 9b23c065-eef9-4bf7-acf5-127eb46d5e67
 ROBOTS: NOINDEX
 description: 'Entenda o que você precisa saber antes de passar pelo processo de inscrição do Office 365. '
-ms.openlocfilehash: bd827a4cc57386127083111b0df556786d01f2cc
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 45f7603df814e2088506929d309266ef19ffc7ab
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352952"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43623889"
 ---
-# <a name="how-to-sign-up-for-office-365---admin-help"></a>Como se inscrever no Office 365 - Ajuda do Administrador
+# <a name="how-to-sign-up---admin-help"></a>Como inscrever-se na ajuda do administrador
 
 ::: moniker range="o365-worldwide"
 
-Inscreva-se no Office 365 for Business para que sua equipe possa começar a usar as versões mais recentes do Word, Excel, PowerPoint e de outros programas do Office em sua empresa.
+Inscreva-se no Microsoft 365 for Business para que sua equipe possa começar a usar as versões mais recentes do Word, Excel, PowerPoint e de outros programas do Office em sua empresa.
   
-Assista a uma rápida visão geral dos três planos do Office 365 para empresas ou role para baixo para obter mais informações.
+Assista a uma rápida visão geral dos três planos do Microsoft 365 para empresas ou role para baixo para obter mais informações.
 <br><br>
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/cf211808-67c3-4d4b-880a-3f582d70b4d1?autoplay=false]
@@ -48,7 +48,7 @@ Assista a uma rápida visão geral dos três planos do Office 365 para empresas 
 
 ::: moniker range="o365-germany"
 
-Inscreva-se no Office 365 for Business para que sua equipe possa começar a usar as versões mais recentes do Word, Excel, PowerPoint e de outros programas do Office em sua empresa.
+Inscreva-se no Microsoft 365 for Business para que sua equipe possa começar a usar as versões mais recentes do Word, Excel, PowerPoint e de outros programas do Office em sua empresa.
   
 Assista a uma visão geral rápida dos três planos melhor para a sua empresa. ou role para baixo para obter mais informações.
 <br><br>
@@ -59,7 +59,7 @@ Assista a uma visão geral rápida dos três planos melhor para a sua empresa. o
 
 ::: moniker range="o365-21vianet"
 
-O Office 365 operado pela 21Vianet foi projetado para atender às necessidades de serviços em nuvem seguros, confiáveis e escalonáveis na China. Este serviço utiliza a tecnologia que a Microsoft licenciou para a 21Vianet. A Microsoft não opera o serviço em si. a 21Vianet Opera, fornece e gerencia a entrega do serviço. A 21Vianet é o maior provedor de serviços de datacenter de Internet de operadora neutra da China, fornecendo hospedagem, serviços de rede gerenciada e serviços de infraestrutura de computação em nuvem. Ao licenciar as tecnologias Microsoft, a 21Vianet opera os datacenters locais do Office 365 para fornecer a capacidade de usar os serviços do Office 365 ao mesmo tempo em que mantém os dados na China. a 21Vianet também fornece serviços de assinatura e cobrança, bem como suporte.
+O Office 365 operado pela 21Vianet foi projetado para atender às necessidades de serviços em nuvem seguros, confiáveis e escalonáveis na China. Este serviço utiliza a tecnologia que a Microsoft licenciou para a 21Vianet. A Microsoft não opera o serviço em si. a 21Vianet Opera, fornece e gerencia a entrega do serviço. A 21Vianet é o maior provedor de serviços de datacenter de Internet de operadora neutra da China, fornecendo hospedagem, serviços de rede gerenciada e serviços de infraestrutura de computação em nuvem. Ao licenciar as tecnologias Microsoft, a 21Vianet opera os datacenters locais da Microsoft para fornecer a capacidade de usar os serviços da Microsoft ao mesmo tempo em que mantém os dados na China. a 21Vianet também fornece serviços de assinatura e cobrança, bem como suporte.
   
 > [!NOTE]
 > Esses serviços estão sujeitos à legislação chinesa.
@@ -75,7 +75,7 @@ Pronto para se inscrever? [Selecione um plano](https://products.office.com/zh-cn
 
 Antes de comprar, pense no plano em que você se inscreveu. Isso evitará dores de cabeça no futuro.
 
-Assista a um pequeno vídeo sobre como escolher um plano de negócios do Office 365.<br><br>
+Assista a um pequeno vídeo sobre como escolher um plano Microsoft 365 para empresas.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
@@ -129,9 +129,9 @@ Não é necessário cancelar a avaliação. Se você não comprar a assinatura d
   - O **Email** e o **número de telefone** para que possamos entrar em contato, caso seja necessário tratar sobre sua assinatura. Por exemplo, se você esquecer sua senha, poderemos usar essas informações para lhe enviar uma senha temporária. Também poderemos enviar suas informações de cobrança para o endereço de email que você especificar.
 
     > [!NOTE]
-    > O endereço de email que você inserir aqui deve ser diferente do seu endereço de email do Office 365 (seu nome de logon, abaixo). Recomendamos que você use um endereço de email adequado para receber emails comerciais, pois é aqui que você receberá as informações de cobrança.
+    > O endereço de email inserido aqui é diferente do seu endereço de email do Microsoft 365 (seu nome de logon, abaixo). Recomendamos que você use um endereço de email adequado para receber emails comerciais, pois é aqui que você receberá as informações de cobrança.
   
-- **Um nome de logon (ID de usuário):** Este se torna seu endereço de email inicial do Office 365, apenas para começar rapidamente.
+- **Um nome de logon (ID de usuário):** Este se torna seu endereço de email inicial do Microsoft 365, apenas para começar rapidamente.
 
     Este é o endereço de email que você usa para entrar. Por exemplo, se o nome da sua empresa for Fourth Coffee, você pode escolher ricardo@fourthcoffee.onmicrosoft.com como sua ID de usuário.
 
@@ -146,4 +146,4 @@ Não é necessário cancelar a avaliação. Se você não comprar a assinatura d
 
 ## <a name="see-also"></a>Confira também
 
-[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

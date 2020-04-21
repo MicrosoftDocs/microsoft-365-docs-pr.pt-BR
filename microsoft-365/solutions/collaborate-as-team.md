@@ -10,12 +10,12 @@ ms.collection: SPO_Content
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba como colaborar com convidados no Microsoft Teams.
-ms.openlocfilehash: 54bf52eebc77e1cce8e1c05a708572d7d1e7fdae
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 4b395f0086198c6226d720c38fc4ea13b1a9d887
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604352"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630744"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Colaborar com convidados em uma equipe
 
@@ -68,17 +68,17 @@ Para definir as configurações de acesso de convidados do teams
 > [!NOTE]
 > Pode levar até vinte e quatro horas para que a configuração de convidado do Microsoft Teams fique ativa após você ativá-la.
 
-## <a name="office-365-groups-guest-settings"></a>Configurações de convidado de grupos do Office 365
+## <a name="microsoft-365-groups-guest-settings"></a>Configurações de convidado de grupos do Microsoft 365
 
-O Microsoft Teams usa grupos do Office 365 para associação da equipe. As configurações de convidado de grupos do Office 365 devem ser ativadas para que o acesso de convidados no Teams funcione.
+O Teams usa os grupos do Microsoft 365 para associação da equipe. As configurações de convidado do Microsoft 365 groups devem ser ativadas para que o acesso de convidados no Teams funcione.
 
-![Captura de tela das configurações de convidado dos Grupos do Office 365 no centro de administração do Microsoft 365](../media/office-365-groups-guest-settings.png)
+![Captura de tela das configurações de convidado do Microsoft 365 groups no centro de administração do Microsoft 365](../media/office-365-groups-guest-settings.png)
 
-Para definir as configurações de convidado de grupos do Office 365
+Para definir as configurações de convidados de grupos do Microsoft 365
 
 1. No centro de administração do Microsoft 365, no painel de navegação à esquerda, expanda **configurações**.
 2. Clique em **serviços & suplementos**.
-3. Na lista, clique em **grupos do Office 365**.
+3. Na lista, clique em **Microsoft 365 grupos**.
 4. Certifique-se de que o **grupo permitir Membros fora do seu conteúdo de grupo de acesso à organização** e **que os proprietários do grupo adicionem pessoas fora da sua organização a grupos de** seleção.
 5. Se você tiver feito alterações, clique em **salvar alterações**.
 
@@ -173,6 +173,6 @@ Para convidar convidados para uma equipe
 
 [Limitar a exposição acidental dos arquivos ao compartilhar com convidados](share-limit-accidental-exposure.md)
 
-[Criar um ambiente seguro de compartilhamento para convidados](create-secure-guest-sharing-environment.md)
+[Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
 
 [Crie uma extranet B2B com convidados gerenciados](b2b-extranet.md)

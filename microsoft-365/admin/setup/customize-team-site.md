@@ -22,16 +22,16 @@ search.appverid:
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
 description: Saiba como personalizar, organizar e gerenciar seu site de equipe.
-ms.openlocfilehash: b35064209f26ad8b312bdf486c1f9b9bcb1b3e58
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: e3f2773e72a1b86cc3bae53ee6bbdbcb33d465b8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212204"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627613"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>Personalizar seu site de equipe para armazenamento e compartilhamento de arquivos
 
-Se você tiver uma pequena empresa com alguns funcionários, uma das melhores maneiras de configurar e facilitar o compartilhamento de arquivos e a colaboração online é usar o OneDrive e um site de equipe do SharePoint juntos. Recomendamos a criação de um site de equipe que esteja conectado a um grupo do Office 365. Se quiser usar o chat, você pode criar esse site criando uma equipe no Microsoft Teams. Para obter mais informações sobre o Teams, consulte [vídeo: o que é o Microsoft Teams?](https://support.office.com/article/b98d533f-118e-4bae-bf44-3df2470c2b12.aspx). Se não quiser usar o Microsoft Teams, você pode criar um site de equipe na página de início do SharePoint. 
+Se você tiver uma pequena empresa com alguns funcionários, uma das melhores maneiras de configurar e facilitar o compartilhamento de arquivos e a colaboração online é usar o OneDrive e um site de equipe do SharePoint juntos. Recomendamos a criação de um site de equipe que esteja conectado a um grupo do Microsoft 365. Se quiser usar o chat, você pode criar esse site criando uma equipe no Microsoft Teams. Para obter mais informações sobre o Teams, consulte [vídeo: o que é o Microsoft Teams?](https://support.office.com/article/b98d533f-118e-4bae-bf44-3df2470c2b12.aspx). Se não quiser usar o Microsoft Teams, você pode criar um site de equipe na página de início do SharePoint. 
   
 [O que é um site de equipe do SharePoint?](https://support.office.com/article/75545757-36c3-46a7-beed-0aaa74f0401e.aspx)
   
@@ -76,7 +76,7 @@ Para obter informações sobre como expandir suas listas com mais colunas, consu
   
 Se você estiver armazenando muitos dados em uma lista, consulte [gerenciar grandes listas e bibliotecas no SharePoint](https://support.office.com/article/B8588DAE-9387-48C2-9248-C24122F07C59.aspx).
   
-Assista a um vídeo sobre como adicionar calendários ao seu site, confira [criar um calendário compartilhado no Office 365](https://support.office.com/article/61B96006-70E2-4535-A34F-EE4FC772F798.aspx).
+Assista a um vídeo sobre como adicionar calendários ao seu site, confira [criar um calendário compartilhado](https://support.office.com/article/61B96006-70E2-4535-A34F-EE4FC772F798.aspx).
 
 ## <a name="organize-sites-into-hubs"></a>Organizar sites em hubs
 
@@ -92,7 +92,7 @@ Para saber como adicionar sites a um site do Hub, confira [associar um site do S
 
 Enquanto o armazenamento e a organização são um início, o compartilhamento com sua equipe e clientes externos também é importante. Aqui estão alguns links para tópicos que irão ajudá-lo a gerenciar usuários e compartilhar seus dados. 
   
-Para compartilhamento de arquivos com sua equipe, confira [compartilhar arquivos ou pastas do SharePoint no Office 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c.aspx).
+Para compartilhamento de arquivos com sua equipe, consulte [compartilhar arquivos ou pastas do SharePoint no Microsoft 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c.aspx).
   
 Para entender o compartilhamento fora da sua equipe, confira [visão geral do compartilhamento externo](/sharepoint/external-sharing-overview).
   
@@ -102,7 +102,7 @@ Ao gerenciar seu site de equipe, talvez seja necessário adicionar ou remover us
   
 Assista a um vídeo sobre grupos com [entender e gerenciar grupos](https://support.office.com/article/9c1037b7-de0b-41cd-b8f0-79a95aac854d.aspx). 
   
-Para adicionar usuários a um grupo do Office 365, confira [Adicionar usuários individualmente ou em massa ao Office 365-ajuda do administrador](../add-users/add-users.md).
+Para adicionar usuários a um grupo do Microsoft 365, confira [Adicionar usuários individualmente ou em massa ao Microsoft 365-ajuda para administradores](../add-users/add-users.md).
   
 Saiba como lidar com solicitações de acesso com a [configuração e o gerenciamento de solicitações de acesso](https://support.office.com/article/94B26E0B-2822-49D4-929A-8455698654B3.aspx).
   
@@ -110,11 +110,11 @@ Saiba como lidar com solicitações de acesso com a [configuração e o gerencia
 
 - **Configurar aplicativos do Office em tablets e telefone**. É preciso que isso seja feito para que você possa editar arquivos armazenados no site de equipe pelo telefone ou tablet. Se não instalar os aplicativos do Office no telefone ou tablet, você poderá exibir os arquivos no site de equipe, mas não editá-los. 
     
-  - [Instalar e configurar o Office em um dispositivo Android com o Office 365](https://support.office.com/article/cafe9d6f-8b0c-4b03-b20a-12438a82a22d.aspx)
+  - [Instalar e configurar o Office em um Android com o Microsoft 365](https://support.office.com/article/cafe9d6f-8b0c-4b03-b20a-12438a82a22d.aspx)
     
-  - [Instalar e configurar o Office em um iPhone ou iPad com o Office 365](https://support.office.com/article/9df6d10c-7281-4671-8666-6ca8e339b628.aspx)
+  - [Instalar e configurar o Office em um iPhone ou iPad com o Microsoft 365](https://support.office.com/article/9df6d10c-7281-4671-8666-6ca8e339b628.aspx)
     
-  - [Configurar o Office no Windows Phone com o Office 365](https://support.office.com/article/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7.aspx)
+  - [Configurar o Office no Windows Phone com o Microsoft 365](https://support.office.com/article/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7.aspx)
     
 - [Saiba mais sobre como usar o OneDrive](https://go.microsoft.com/fwlink/?LinkID=511458).
     

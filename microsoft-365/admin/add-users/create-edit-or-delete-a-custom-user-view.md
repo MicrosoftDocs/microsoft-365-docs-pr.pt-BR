@@ -1,5 +1,5 @@
 ---
-title: Criar, editar ou excluir uma exibição de usuário personalizada no Office 365
+title: Criar, editar ou excluir uma exibição personalizada do usuário
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -18,13 +18,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4fe7f6ac-be8e-4b57-9e13-24ff889a4b28
-description: Saiba como usar filtros para criar, editar ou excluir o modo de exibição do usuário personalizado no Office 365.
-ms.openlocfilehash: ae12675afd47434ac6dd12dae683c79aae64be1f
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+description: Saiba como usar filtros para criar, editar ou excluir o modo de exibição do usuário personalizado no Microsoft 365.
+ms.openlocfilehash: 94a9ad7de8bc8e0692d97fda56200cf668b1e5f8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43047054"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43617255"
 ---
 # <a name="create-edit-or-delete-a-custom-user-view-in-office-365"></a>Criar, editar ou excluir uma exibição de usuário personalizada no Office 365
 
@@ -63,7 +63,7 @@ Quando você cria, edita ou exclui um modo de exibição de usuário personaliza
 Algumas coisas a serem observadas sobre os modos de exibição padrão: 
 
 - Alguns modos de exibição padrão exibem uma lista não classificada se houver mais de 2.000 usuários na lista. Para localizar usuários específicos nesta lista, use a caixa de pesquisa. 
-- Se você não comprou o Office 365 da Microsoft, os **Administradores de cobrança** não aparecerão na lista de modos de exibição padrão. Para saber mais, veja [Atribuindo funções de administrador](assign-admin-roles.md). 
+- Se você não comprou o Microsoft 365 da Microsoft, os **Administradores de cobrança** não aparecerão na lista de modos de exibição padrão. Para saber mais, veja [Atribuindo funções de administrador](assign-admin-roles.md). 
   
 ## <a name="choose-the-filters-for-your-custom-user-view"></a>Escolha os filtros para o modo de exibição de usuário personalizado
 
@@ -88,12 +88,12 @@ Você também pode filtrar por detalhes adicionais de perfil de usuário usados 
     
 - **Usuários não licenciados** Selecione esta caixa para localizar todos os usuários que não receberam uma licença. Os resultados desse modo de exibição também podem incluir usuários que tenham uma caixa de correio do Exchange, mas não tenham uma licença. Para controlar esses usuários especificamente, use o filtro **usuários não licenciados com caixas de correio do Exchange ou arquivos mortos**. Os resultados desse modo de exibição também podem incluir usuários que têm um arquivo morto do Exchange, mas não têm uma licença.
     
-- **Usuários não licenciados com caixas de correio ou arquivos mortos do Exchange** Selecione esta caixa para mostrar as contas de usuário que foram criadas no Exchange Online e ter uma caixa de correio do Exchange, mas não foi atribuída uma licença do Office 365. Os resultados desse filtro incluem usuários que tenham ou quem foram atribuídos a um arquivo morto do Exchange. 
+- **Usuários não licenciados com caixas de correio ou arquivos mortos do Exchange** Selecione esta caixa para mostrar as contas de usuário que foram criadas no Exchange Online e ter uma caixa de correio do Exchange, mas não foi atribuída uma licença do Microsoft 365. Os resultados desse filtro incluem usuários que tenham ou quem foram atribuídos a um arquivo morto do Exchange. 
 
 > [!NOTE]
 > O filtro **usuários não licenciados com caixas de correio do Exchange** funciona quando:
 1. A caixa de correio foi convertida recentemente de **compartilhada** para **usuário** e não tem licença.
-2. A caixa de correio foi migrada recentemente para o Office 365, mas não foi atribuída uma licença.
+2. A caixa de correio foi migrada recentemente para a Microsoft 365, mas não foi atribuída uma licença.
 3. A caixa de correio foi criada usando o PowerShell e não foi atribuída uma licença.
 4. Uma nova caixa de correio criada no local com um cmdlet New-RemoteMailbox é provisionada para o usuário.
     

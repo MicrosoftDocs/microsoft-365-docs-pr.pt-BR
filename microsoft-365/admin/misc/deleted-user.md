@@ -19,13 +19,13 @@ search.appverid:
 - MOE150
 ms.assetid: 481b460e-f799-4fac-9592-4d5c51bdcbd8
 ROBOTS: NOINDEX
-description: Saiba como excluir ou restaurar a conta do Office 365 de um usuário.
-ms.openlocfilehash: 35245a0f9cbe78f6758c7071adea30053f7b8737
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: Saiba como excluir ou restaurar a conta do Microsoft 365 de um usuário.
+ms.openlocfilehash: 7c6ab070db2821d914a26277b7f5c19043abe39b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251432"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627879"
 ---
 # <a name="quick-help-deleted-user"></a>Ajuda rápida: Usuário excluído
 
@@ -75,9 +75,9 @@ Você pode restaurar os usuários procurando **excluídos** na página inicial e
 
 Um [usuário](../add-users/add-users.md) excluído é uma conta corporativa ou de estudante que você está excluindo da sua organização. 
   
-## <a name="does-deleting-a-user-free-up-their-office-365-license"></a>Excluir um usuário libera sua licença do Office 365?
+## <a name="does-deleting-a-user-free-up-their-microsoft-365-license"></a>Excluir um usuário liberar a licença do Microsoft 365?
 
-Sim, excluir o usuário libera a licença do Office 365 atribuída ao usuário. Você pode atribuir essa licença a outro usuário. [Ler artigo completo](../../commerce/licenses/remove-licenses-from-subscription.md).
+Sim, a exclusão do usuário libera a licença do Microsoft 365 atribuída a esse usuário. Você pode atribuir essa licença a outro usuário. [Ler artigo completo](../../commerce/licenses/remove-licenses-from-subscription.md).
   
 ## <a name="i-had-a-deleted-user-listed-in-deleted-users-and-then-it-disappeared-what-happened"></a>Eu tinha um usuário excluído listado em Usuários excluídos, e depois ele desapareceu. O que está acontecendo?
 

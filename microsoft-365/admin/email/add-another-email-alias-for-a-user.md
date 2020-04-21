@@ -21,19 +21,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
-description: 'Saiba como você pode ter mais de um endereço de email, chamado alias de email, associado à sua conta do Office 365 para empresas. '
-ms.openlocfilehash: 10f219f380d30a5ee8e9822e7a35ee533d165c33
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: 'Saiba como você pode ter mais de um endereço de email, chamado alias de email, associado à sua conta do Microsoft 365 for Business. '
+ms.openlocfilehash: 66ff2441c95ed28b2072792fd0a63b16eea85c04
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250691"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629078"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Adicionar outro alias de email para um usuário
   
-Este artigo é para os administradores do Office 365 que têm assinaturas de negócios. Ele não se destina a usuários domésticos.
+Este artigo é para os administradores do Microsoft 365 que têm assinaturas de negócios. Ele não se destina a usuários domésticos.
   
-Um endereço de email principal no Office 365 geralmente é o endereço de email que um usuário recebeu quando a conta foi criada. Quando o usuário envia emails para outras pessoas, o endereço de email principal dele é o que normalmente aparece no campo  *De*  , nos aplicativos de email. Ele pode ter mais de um endereço de email associado à respectiva conta do Office 365 para empresas. Esses endereços adicionais são chamados também de alias. 
+Um endereço de email principal no Microsoft 365 geralmente é o endereço de email que um usuário recebeu quando a conta foi criada. Quando o usuário envia emails para outras pessoas, o endereço de email principal dele é o que normalmente aparece no campo  *De*  , nos aplicativos de email. Eles também podem ter mais de um endereço de email associado à sua conta do Microsoft 365 for Business. Esses endereços adicionais são chamados também de alias. 
   
 Por exemplo, digamos que Jenna tenha o endereço de email jenna@contosoco.com, mas ele também deseja receber emails em jen@contosoco.com porque algumas pessoas se referem a ele por esse nome. Você pode criar aliases para que os dois endereços de email vá para a caixa de entrada do Jenna.
 <br><br>  
@@ -94,7 +94,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     > [!Important] 
     > Se você receber a mensagem de erro "**não é possível localizar um parâmetro que corresponda ao nome de parâmetro" EmailAddresses**", significa que está demorando muito mais para concluir a configuração do seu locatário ou do seu domínio personalizado, se você tiver adicionado um pouco mais. O processo de configuração pode levar até quatro horas para ser concluído. Aguarde um pouco até ele terminar e tente novamente. Se o problema persistir, peça ao Suporte para fazer uma sincronização completa para você.
 
-4. Na caixa de texto em **alias**, digite a primeira parte do novo alias de email. Se você adicionou seu próprio domínio ao Office 365, será possível escolher o domínio para o novo alias de email usando a lista suspensa. Em seguida, selecione **Adicionar**.
+4. Na caixa de texto em **alias**, digite a primeira parte do novo alias de email. Se você adicionou seu próprio domínio ao Office 365, será possível escolher o domínio para o novo alias de email usando a lista suspensa. Em seguida, selecione **OK**.
 
     > [!IMPORTANT]
     > Se você comprou a assinatura da GoDaddy ou de outro parceiro, vá até o respectivo console de gerenciamento para definir o novo alias como principal. 
@@ -125,7 +125,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     > [!Important] 
     > Se você receber a mensagem de erro "**não é possível localizar um parâmetro que corresponda ao nome de parâmetro" EmailAddresses**", significa que está demorando muito mais para concluir a configuração do seu locatário ou do seu domínio personalizado, se você tiver adicionado um pouco mais. O processo de configuração pode levar até quatro horas para ser concluído. Aguarde um pouco até ele terminar e tente novamente. Se o problema persistir, peça ao Suporte para fazer uma sincronização completa para você.
 
-4. Na caixa de texto em **alias**, digite a primeira parte do novo alias de email. Se você adicionou seu próprio domínio ao Office 365, será possível escolher o domínio para o novo alias de email usando a lista suspensa. Em seguida, selecione **Adicionar**.
+4. Na caixa de texto em **alias**, digite a primeira parte do novo alias de email. Se você adicionou seu próprio domínio ao Office 365, será possível escolher o domínio para o novo alias de email usando a lista suspensa. Em seguida, selecione **OK**.
 
     > [!IMPORTANT]
     > Se você comprou a assinatura da GoDaddy ou de outro parceiro, vá até o respectivo console de gerenciamento para definir o novo alias como principal. 

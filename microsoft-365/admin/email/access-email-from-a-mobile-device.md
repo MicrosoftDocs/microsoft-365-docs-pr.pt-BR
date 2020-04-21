@@ -16,12 +16,12 @@ search.appverid: MET150
 ms.assetid: ba780859-0297-4114-a258-2b2809bab9e6
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como acessar o email do seu dispositivo móvel.
-ms.openlocfilehash: 880044ddd13226c819167fb200f9f61550559944
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 7c318c6d68a0314c750c6ca1e4c3b2d180d9507f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362386"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629090"
 ---
 # <a name="options-for-accessing-email-from-your-mobile-device"></a>Opções para acessar o email do seu dispositivo móvel
 
@@ -41,6 +41,6 @@ Confira [otimizar o aplicativo móvel do Outlook para seu telefone Ios ou Androi
   
  **Qualquer aplicativo de email**
   
-Sua organização recomenda que você use o Outlook para Android ou o aplicativo móvel iOS para acessar sua conta corporativa ou de estudante do Office 365 para email, calendário e contatos. Se você não realizar nenhuma ação nas próximas horas, seu email começará automaticamente a sincronização. Se você optar por usar o aplicativo móvel do Outlook para Android ou iOS, seus dados só serão sincronizados com o aplicativo móvel do Outlook para Android ou Outlook para iOS. Se você optar por continuar usando o aplicativo de terceiros, seus dados serão iniciados para sincronizar instantaneamente.
+Sua organização recomenda que você use o Outlook para Android ou o aplicativo móvel iOS para acessar sua conta corporativa ou de estudante para email, calendário e contatos. Se você não realizar nenhuma ação nas próximas horas, seu email começará automaticamente a sincronização. Se você optar por usar o aplicativo móvel do Outlook para Android ou iOS, seus dados só serão sincronizados com o aplicativo móvel do Outlook para Android ou Outlook para iOS. Se você optar por continuar usando o aplicativo de terceiros, seus dados serão iniciados para sincronizar instantaneamente.
   
 

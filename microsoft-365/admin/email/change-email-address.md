@@ -23,21 +23,21 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
-description: 'Altere seu endereço de email inicial para um endereço de email amigável, como o tom@fourthcoffee.com. Para fazer isso, você precisa comprar um nome de domínio e adicioná-lo ao Office 365. '
-ms.openlocfilehash: dc0ab64003b48eec50bf34e60d8a6df463b4fe89
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: 'Altere seu endereço de email inicial para um endereço de email amigável, como o tom@fourthcoffee.com. Para fazer isso, você precisa comprar um nome de domínio e adicioná-lo ao Microsoft 365. '
+ms.openlocfilehash: d419521210740cfa76a911cf0d66e7826ee8e626
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212028"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629054"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>Mudar seu endereço de email para usar seu domínio personalizado
 
- **Caso não encontre o conteúdo que está procurando, [verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
+ Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
   
 ::: moniker range="o365-worldwide"
 
-Seu endereço de email inicial no Office 365 inclui .onmicrosoft.com, como pedro@fourthcoffee.onmicrosoft.com. Você pode alterá-lo para um endereço mais fácil de memorizar, como pedro@fourthcoffee.com. Você primeiro precisará do seu próprio nome de domínio, como fourthcoffee.com. Se você já possui um, excelente! Caso contrário, você pode aprender como [comprar um de um registrador de domínios](../get-help-with-domains/buy-a-domain-name.md).
+Seu endereço de email inicial no Microsoft 365 inclui. onmicrosoft.com, como tom@fourthcoffee.onmicrosoft.com. Você pode alterá-lo para um endereço mais fácil de memorizar, como pedro@fourthcoffee.com. Você primeiro precisará do seu próprio nome de domínio, como fourthcoffee.com. Se você já possui um, excelente! Caso contrário, você pode aprender como [comprar um de um registrador de domínios](../get-help-with-domains/buy-a-domain-name.md).
 
 ::: moniker-end
 
@@ -53,7 +53,7 @@ Seu endereço de email inicial no Office 365 operado pela 21Vianet inclui o part
 
 ::: moniker-end
 
-Quando você altera o email do domínio para chegar ao Office 365, atualizando o registro MX do domínio durante a configuração, TODOS os emails enviados a esse domínio passarão a ser enviados ao Office 365. Verifique se você adicionou usuários e criou caixas de correio no Office 365 para todos que têm um email no seu domínio ANTES de alterar o registro MX. Não quer migrar o email de todas as pessoas no domínio para o Office 365? É possível realizar etapas para [administrar o Office 365 com somente alguns endereços de email](https://support.office.com/article/39cee536-6a03-40cf-b9c1-f301bb6001d7.aspx).
+Quando você altera o email do seu domínio para o Microsoft 365, atualizando o registro MX do seu domínio durante a instalação, todos os emails enviados para esse domínio serão iniciados no Microsoft 365. Verifique se você adicionou usuários e criou caixas de correio no Microsoft 365 para todos que têm emails em seu domínio antes de alterar o registro MX. Não deseja mover emails para todas as pessoas em seu domínio para a Microsoft 365? Você pode executar etapas para [o Microsoft 365 piloto com apenas alguns endereços de email](https://support.office.com/article/39cee536-6a03-40cf-b9c1-f301bb6001d7.aspx).
   
 ## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>Alterar seu endereço de email para usar seu domínio personalizado usando o centro de administração do Microsoft 365
 
@@ -83,12 +83,12 @@ Você deve ter uma conta de administrador global para executar estas etapas.
     
 4. Siga as etapas para confirmar que você é proprietário do domínio e alterar seu endereço de email.
     
-Você receberá instruções sobre como configurar tudo corretamente para o seu domínio no Office 365.
+Você será orientado a configurar tudo corretamente com seu domínio no Microsoft 365.
 
 > [!NOTE]
-> Se você não estiver usando uma licença do Exchange, não será possível usar o domínio para enviar ou receber emails do locatário do Office 365.
+> Se você não estiver usando uma licença do Exchange, não será possível usar o domínio para enviar ou receber emails do Microsoft 365 locatário.
   
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Comprar um domínio personalizado pelo Office 365](../get-help-with-domains/buy-a-domain-name.md)
+[Comprar um domínio personalizado usando o Microsoft 365](../get-help-with-domains/buy-a-domain-name.md)
  

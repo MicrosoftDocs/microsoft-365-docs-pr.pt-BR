@@ -1,5 +1,5 @@
 ---
-title: Adicionar informações do suporte técnico personalizado ao painel de ajuda do Office 365
+title: Adicionar informações do suporte técnico personalizado ao painel de ajuda
 f1.keywords:
 - CSH
 ms.author: twerner
@@ -20,27 +20,27 @@ search.appverid:
 - GEA150
 ms.assetid: 9dd9b104-68f7-4d49-9a30-82561c7d79a3
 description: Criar um cartão de suporte técnico personalizado no centro de administração e adicionar informações de contato de suporte personalizado ao painel de ajuda.
-ms.openlocfilehash: af1000be1f8b26e79097f8b686aafc37da6e9366
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2a803e339eef23025e6323ee408c4c442c90951e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237850"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627891"
 ---
-# <a name="add-customized-help-desk-info-to-the-office-365-help-pane"></a>Adicionar informações do suporte técnico personalizado ao painel de ajuda do Office 365
+# <a name="add-customized-help-desk-info-to-the-help-pane"></a>Adicionar informações do suporte técnico personalizado ao painel de ajuda
 
 Como administrador, você pode simplificar o suporte ao usuário adicionando informações de contato personalizado ao painel de ajuda. Os usuários que precisam de ajuda poderão acessar as informações de contato de suporte personalizado da sua organização com o ícone ajuda.
   
-Para criar um cartão de suporte técnico personalizado, você deverá ser um administrador global do Office 365 e ter uma licença para o Exchange Online. Saiba como [atribuir licenças no Office 365 para empresas](../manage/assign-licenses-to-users.md).
+Para criar um cartão de suporte técnico personalizado, você deve ser um administrador global para o Microsoft 365 e ter uma licença do Exchange Online. Saiba como [atribuir licenças no Microsoft 365 for Business](../manage/assign-licenses-to-users.md).
 
 > [!NOTE]
-> Se você for um administrador que procura suporte técnico ou de cobrança da Microsoft, consulte [entrar em contato com o suporte do Office 365 para empresas](../contact-support-for-business-products.md). 
+> Se você for um administrador que procura suporte técnico ou de cobrança da Microsoft, consulte [entrar em contato com o suporte do microsoft 365 para empresas](../contact-support-for-business-products.md). 
 
   
 ### <a name="create-the-custom-help-desk-card-in-the-admin-center"></a>Criar o cartão de suporte técnico personalizado no centro de administração
 <a name="BKMK_HelpDeskPreview"> </a>
 
-1. No centro de administração, vá**** para a **** > guia Configurações e escolha **informações do Help Desk** .
+1. No centro de administração, vá**Settings** para a **Settings** > guia Configurações e escolha **informações do Help Desk** .
     
 2. Na guia **perfil da organização** , escolha **blocos personalizados do inicializador de aplicativos**.
   
@@ -56,7 +56,7 @@ Para criar um cartão de suporte técnico personalizado, você deverá ser um ad
     
   - **URL**: se o seu departamento de suporte tiver um site interno ou público com ferramentas e recursos úteis, insira seu nome e a URL associada.
     
-5. Selecione **salvar alterações**.
+5. Selecione **Salvar alterações**.
     
     Para ver o novo cartão de suporte técnico personalizado, saia e entre novamente. É recomendável testar os links no cartão assim que você entrar novamente. Os usuários poderão ver o cartão na próxima vez que eles entrarem.
     

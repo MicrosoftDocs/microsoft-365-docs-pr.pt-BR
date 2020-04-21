@@ -19,25 +19,25 @@ search.appverid:
 - MOE150
 ms.assetid: 9f7c2ff2-af65-4557-8840-0b84ce96d9bc
 description: Saiba como definir o launguage preferido no centro de mensagens para traduzir automaticamente as postagens.
-ms.openlocfilehash: 795907354f0128bd82d6305dc72b1dc31233bbc4
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 27391ca133eda39f533863452e87649c36ac0a7d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250602"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628167"
 ---
 # <a name="language-translation-for-message-center-posts"></a>Tradução de idioma para postagens do Centro de Mensagens
 
-As postagens do Centro de mensagens são redigidas apenas em inglês devido à pontualidade das informações que postamos, no entanto, elas podem ser mostradas no idioma especificado pelas suas configurações pessoais de idioma do Office 365. Se o idioma de preferência que você definiu não for o inglês, haverá uma opção no Centro de mensagens para traduzir automaticamente as postagens. As mensagens são traduzidas automaticamente para seu idioma de preferência. Isso significa que o computador faz a tradução. Essa opção controla a visualização padrão, mas também é possível usar o menu suspenso para traduzir e exibir postagens em qualquer um dos idiomas com suporte a tradução. Se você selecionar inglês, reverteremos a mensagem para a versão original em inglês.
+As postagens do centro de mensagens são escritas em inglês-somente em inglês, devido ao cronograma das informações que estamos postando, mas podem ser exibidas automaticamente no idioma especificado pelas suas configurações de idioma pessoal para o Microsoft 365. Se você definir seu idioma preferido como qualquer coisa diferente de inglês, verá uma opção no centro de mensagens para traduzir automaticamente as postagens. As mensagens serão traduzidas de máquina para seu idioma preferencial, o que significa que um computador fazia a tradução. Essa opção controla o modo de exibição padrão, mas você também pode usar o menu suspenso para traduzir e exibir postagens em qualquer um dos idiomas aos quais damos suporte para tradução. Se você selecionar inglês, reverteremos a mensagem para a versão original em inglês.
   
 > [!IMPORTANT]
-> Antes de escolher as configurações de idioma do Centro de mensagens, você deve configurar seu idioma de preferência do Office 365. Nenhuma opção de tradução é mostrada quando seu idioma está definido como inglês. Não é possível especificar um idioma de preferência para outras pessoas, cada uma deve alterar essa configuração por conta própria. 
+> Antes de poder escolher suas configurações de idioma para o centro de mensagens, você precisa definir seu idioma preferido. Nenhuma opção de tradução é mostrada quando seu idioma está definido como inglês. Não é possível especificar um idioma de preferência para outras pessoas, cada uma deve alterar essa configuração por conta própria. 
   
 ## <a name="set-your-preferred-language"></a>Defina o idioma de preferência
 
 1. No centro de administração ou página inicial do Microsoft 365, selecione o ícone de configurações no canto superior direito da janela.
   
-2. Em **idioma e fuso horário**, selecione **Exibir tudo** para mostrar as opções disponíveis. Selecione o idioma desejado no menu suspenso e, em seguida, selecione **salvar**. O Office 365 tentará atualizar e exibir o novo idioma. Se isso não acontecer imediatamente ou se parecer que está demorando muito, você pode atualizar o navegador ou sair e entrar novamente.
+2. Em **idioma e fuso horário**, selecione **Exibir tudo** para mostrar as opções disponíveis. Selecione o idioma desejado no menu suspenso e, em seguida, selecione **salvar**. O Microsoft 365 tentará atualizar e exibir o novo idioma. Se isso não acontecer imediatamente ou se parecer que está demorando muito, você pode atualizar o navegador ou sair e entrar novamente.
   
 ## <a name="machine-translation-in-message-center"></a>Tradução automática no Centro de mensagens
 

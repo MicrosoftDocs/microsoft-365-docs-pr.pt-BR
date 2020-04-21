@@ -1,5 +1,5 @@
 ---
-title: Gerenciar a implantação de suplementos do Office 365 no centro de administração
+title: Gerenciar a implantação de suplementos no centro de administração
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como implantar suplementos para usuários e grupos em sua organização usando a implantação centralizada no centro de administração.
-ms.openlocfilehash: d0818a0f318ea260d8e39b6e3d76c1cd4efd7a88
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 440cb55f318ac2aa43af5a24fa8ca80753aa03ac
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212004"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628155"
 ---
-# <a name="manage-deployment-of-office-365-add-ins-in-the-microsoft-365-admin-center"></a>Gerenciar a implantação de suplementos do Office 365 no Centro de administração do Microsoft 365
+# <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Gerenciar a implantação de suplementos no centro de administração do Microsoft 365
 
 Os suplementos do Office ajudam você a personalizar seus documentos e simplificar a forma como você acessa as informações na Web (Confira [começar a usar o suplemento do Office](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx)). Como administrador, você pode implantar suplementos do Office para os usuários em sua organização. Você pode fazer isso usando o recurso de implantação centralizado no centro de administração do Microsoft 365.
   
-A implantação centralizada é a maneira recomendada e mais rica de recursos para a maioria dos administradores implantar suplementos para usuários e grupos em uma organização. Para obter mais informações sobre como determinar se sua organização pode dar suporte à implantação centralizada, consulte [determinar se a implantação centralizada de suplementos funciona para sua organização do Office 365](centralized-deployment-of-add-ins.md).
+A implantação centralizada é a maneira recomendada e mais rica de recursos para a maioria dos administradores implantar suplementos para usuários e grupos em uma organização. Para obter mais informações sobre como determinar se sua organização pode dar suporte à implantação centralizada, consulte [determinar se a implantação centralizada de suplementos funciona para sua organização](centralized-deployment-of-add-ins.md).
   
 A implantação centralizada oferece os seguintes benefícios:
   
@@ -41,7 +41,7 @@ A implantação centralizada oferece os seguintes benefícios:
 - Os suplementos não aparecerão mais para os usuários se o administrador desativar ou excluir o suplemento ou se o usuário for removido do Azure Active Directory ou de um grupo ao qual o suplemento está atribuído.
     
 > [!NOTE]
->  Para o Word, Excel e PowerPoint, use um [Catálogo de aplicativos do SharePoint](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) para implantar suplementos para usuários em um ambiente local sem conexão com o Office 365 e/ou suporte para suplementos do SharePoint necessários. > para o Outlook use o painel de controle do Exchange para implantar em um ambiente local sem uma conexão com o Office 365. > 
+>  Para o Word, Excel e PowerPoint, use um [Catálogo de aplicativos do SharePoint](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) para implantar suplementos para usuários em um ambiente local sem conexão com o Microsoft 365 e/ou suporte para suplementos do SharePoint necessários. > para o Outlook use o painel de controle do Exchange para implantar em um ambiente local sem uma conexão com o Microsoft 365. > 
   
 ## <a name="recommended-approach-for-deploying-office-add-ins"></a>Abordagem recomendada para implantar suplementos do Office
 
@@ -57,10 +57,10 @@ Dependendo do tamanho do público-alvo, talvez você queira adicionar ou remover
   
 ## <a name="deploy-an-office-add-in-using-the-admin-center"></a>Implantar um suplemento do Office usando o centro de administração
 
-Antes de começar, confira [determinar se a implantação centralizada de suplementos funciona para sua organização do Office 365](centralized-deployment-of-add-ins.md).
+Antes de começar, confira [determinar se a implantação centralizada de suplementos funciona para sua organização](centralized-deployment-of-add-ins.md).
 
   
-1. No centro de administração do Microsoft 365, vá para a página **configurações** > **de suplementos.**
+1. No centro de administração, vá para a página **configurações** \> **de suplementos.**
     
 2. Selecione **implantar suplemento** na parte superior da página. Na página Visão geral, selecione **Avançar**.
     
@@ -75,13 +75,13 @@ Antes de começar, confira [determinar se a implantação centralizada de suplem
 7. Um tique verde será exibido quando o suplemento tiver sido implantado. Você pode seguir as instruções na página para testar se o suplemento foi implantado com êxito.
 
 > [!NOTE]
-> Talvez os usuários precisem reiniciar o Office para ver o ícone do suplemento exibido na faixa de opções do aplicativo. Os suplementos do Outlook podem levar até 24 horas para serem exibidos nas faixas de opções dos usuários.
+> Talvez os usuários precisem reiniciar o Office para ver o ícone do suplemento exibido na faixa de opções do aplicativo. Os suplementos do Outlook podem levar até 12 horas para serem exibidos nas faixas de opções dos usuários.
     
 8. Quando terminar, selecione **Avançar**. Se você implantou para si mesmo, é possível selecionar **alterar quem tem acesso ao suplemento** para implantar para mais usuários.
 
 
 
-Se você implantou o suplemento para membros da sua organização que não é a si, siga as instruções exibidas para anunciar efetivamente a implantação do suplemento. <br/>Você verá o suplemento juntamente com outros aplicativos no Office 365.
+Se você implantou o suplemento para membros da sua organização que não é a si, siga as instruções exibidas para anunciar efetivamente a implantação do suplemento. <br/>Agora, você verá seu suplemento junto com outros aplicativos no Microsoft 365.
   
 É uma boa ideia informar os usuários e grupos que você implantou o suplemento para que eles saibam que ele está disponível. Considere enviar um email para eles, que descreve quando e como usar o suplemento e explica como o suplemento pode ajudá-lo a realizar seus trabalhos melhor. Incluir ou vincular a um conteúdo de ajuda relevante ou perguntas frequentes que podem ajudar se os usuários tiverem problemas com o suplemento.
   
@@ -101,19 +101,12 @@ A opção adequada para sua organização depende da sua configuração. No enta
   
 ### <a name="add-in-states"></a>Estados de suplementos
 
-Os administradores podem ativar ou desativar os suplementos implantados para todos os usuários do centro de administração do Microsoft 365.
-
-1.    No centro de administração, vá para a página **configurações** > **de suplementos.** 
-2.    Selecione o suplemento implantado. 
-3.    Clique **no botão** **de alternância para ativar ou** **desativar**o suplemento. 
-4.    Salve as alterações.  
-
-Um dos três Estados de suplementos também está disponível.
- 
+Um suplemento pode estar no estado **ativado** ou **desativado** .
+  
 |**State**|**Como o estado ocorre**|**Impacto**|
 |:-----|:-----|:-----|
 |**Active**  <br/> |O administrador carregou o suplemento e o atribuiu a usuários ou grupos.  <br/> |Os usuários e grupos atribuídos ao suplemento o vêem nos clientes relevantes.  <br/> |
-|**Desativado**  <br/> |O administrador desativou o suplemento.  <br/> |Os usuários e grupos atribuídos ao suplemento não têm mais acesso a ele.  <br/> Se o estado do suplemento for alterado para **ativo**, os usuários e grupos terão acesso a ele novamente.  <br/> |
+|**Desativado**  <br/> |O administrador desativou o suplemento.  <br/> |Os usuários e grupos atribuídos ao suplemento não têm mais acesso a ele.  <br/> Se o estado do suplemento for alterado para ativo, os usuários e grupos terão acesso a ele novamente.  <br/> |
 |**Excluído**  <br/> |O administrador excluiu o suplemento.  <br/> |Os usuários e grupos atribuídos ao suplemento não têm mais acesso a ele.  <br/> |
    
 Considere excluir um suplemento se ninguém o estiver usando. A desativação de um suplemento pode fazer sentido se um suplemento for usado somente durante horários específicos do ano.
@@ -182,9 +175,9 @@ Isso impedirá que todos os usuários adquiram os seguintes suplementos do repos
     
 - Aquisições começando no **AppSource**
     
-- Suplementos no Office 365
+- Suplementos no Microsoft 365
     
-Um usuário que tentar acessar o repositório verá a seguinte mensagem: **infelizmente, o Office 365 foi configurado para impedir a aquisição individual de suplementos da Office Store.**
+Um usuário que tentar acessar o repositório verá a seguinte mensagem: o **Microsoft 365 foi configurado para impedir a aquisição individual de suplementos da Office Store.**
   
 O suporte à desativação da Office Store está disponível nas seguintes versões:
   
@@ -241,7 +234,7 @@ Ser compatível com o RGPD para menores que você precisa para garantir que uma 
   
 O Word, o Excel e o PowerPoint 2013 para Windows oferecerão suporte às mesmas verificações secundárias se a ADAL (biblioteca de autenticação do Active Directory) estiver habilitada. Há duas opções de conformidade, conforme explicado a seguir.
   
-- **Habilitar Adal**. Este artigo explica como habilitar a ADAL para o Office 2013: [usando a autenticação moderna do office 365 com clientes do Office](https://support.office.com/article/776c0036-66fd-41cb-8928-5495c0f9168a).<br/>Você também precisa definir as chaves do registro para habilitar a ADAL, conforme explicado em [habilitar a autenticação moderna para o Office 2013 em dispositivos Windows](../security-and-compliance/enable-modern-authentication.md).<br/>Além disso, você precisa instalar as seguintes atualizações de abril para o Office 2013:
+- **Habilitar Adal**. Este artigo explica como habilitar a ADAL para o Office 2013: [usando a autenticação moderna da Microsoft 365 com clientes do Office](https://support.office.com/article/776c0036-66fd-41cb-8928-5495c0f9168a).<br/>Você também precisa definir as chaves do registro para habilitar a ADAL, conforme explicado em [habilitar a autenticação moderna para o Office 2013 em dispositivos Windows](../security-and-compliance/enable-modern-authentication.md).<br/>Além disso, você precisa instalar as seguintes atualizações de abril para o Office 2013:
     
   - [Descrição da atualização de segurança para o Office 2013:10 de abril de 2018](https://support.microsoft.com/help/4018330/description-of-the-security-update-for-office-2013-april-10-2018)
     

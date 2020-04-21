@@ -1,5 +1,5 @@
 ---
-title: Resolver conflitos de licença no Office 365 para empresas
+title: Resolver conflitos de licença
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -19,15 +19,15 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 796f7eda-b1f8-479a-adee-bd9226ca47ec
-description: Saiba como resolver conflitos de licença com sua assinatura do Office 365 for Business.
-ms.openlocfilehash: de0a6c988b9ca2ae033a24c012b7f36bc1db58a3
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+description: Saiba como resolver conflitos de licença com sua assinatura do Microsoft 365 for Business.
+ms.openlocfilehash: 51f87c055402d9e6e3bd732a99abf2c155887290
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43540910"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628083"
 ---
-# <a name="resolve-license-conflicts-in-office-365-for-business"></a>Resolver conflitos de licença no Office 365 para empresas
+# <a name="resolve-license-conflicts"></a>Resolver conflitos de licença
 
 Recomendamos que você compre as licenças necessárias para a sua assinatura antes de criar novos usuários. Dessa forma, uma licença pode ser atribuída a novos usuários conforme as contas de usuário vão sendo criadas. Se você já tiver atribuído todas as suas licenças aos usuários, mas algumas das licenças tiverem expirado, ou se tentar remover uma licença que já foi atribuída a um usuário, haverá conflitos de licença. Confira mais informações em [remover licenças da sua assinatura](../../commerce/licenses/remove-licenses-from-subscription.md).
   

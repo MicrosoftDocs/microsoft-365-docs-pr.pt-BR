@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 ms.assetid: b1ffe755-59e5-4369-826d-825f145a8400
 description: Envie um email para um grupo de pessoas sem ter que digitar o nome de um destinatário individual criando distribuição (lista).
-ms.openlocfilehash: 668c61637c42a1be4aabe60b36e4e26db9873b7b
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: a845055acbc5428e0e261997f946f75dc4701d57
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237802"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627637"
 ---
 # <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Criar grupos de distribuição no centro de administração do Microsoft 365
   
-Usado quando você deseja enviar emails para grupo de pessoas sem precisar digitar o nome de um destinatário individual, os grupos de distribuição são organizados por um assunto de discussão específico (como "marketing") ou por usuários que compartilham trabalho comum que exige que eles se comuniquem Frequent. Elas são organizadas por um assunto específico (como "Marketing") ou por usuários que compartilham um trabalho comum que requer uma comunicação frequente.Também oferecem uma maneira de encaminhar emails automaticamente para vários endereços de email.
+Usado quando você deseja enviar emails para grupo de pessoas sem precisar digitar o nome de um destinatário individual, os grupos de distribuição são organizados por um assunto de discussão específico (como "marketing") ou por usuários que compartilham trabalho comum que exige que eles se comuniquem com frequência. Elas são organizadas por um assunto específico (como "Marketing") ou por usuários que compartilham um trabalho comum que requer uma comunicação frequente.Também oferecem uma maneira de encaminhar emails automaticamente para vários endereços de email.
   
 Os grupos de distribuição são chamados de listas de distribuição.
   
@@ -56,7 +56,7 @@ Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/
 
 1. Selecione o ícone do inicializador de aplicativos  e escolha **Administrador**.
     
-    Não consegue encontrar o aplicativo que está procurando? No inicializador de aplicativos, selecione **Todos os aplicativos** para ver uma lista em ordem alfabética dos aplicativos disponíveis do Office 365. Nesse local, você pode pesquisar um aplicativo específico. 
+    Não consegue encontrar o aplicativo que está procurando? No inicializador de aplicativos, selecione **todos os aplicativos** para ver uma lista alfabética dos aplicativos disponíveis para você. Nesse local, você pode pesquisar um aplicativo específico. 
     
 2. Selecione **grupos** \> **grupos no painel de navegação** à esquerda e, em seguida, selecione **Adicionar um grupo**. 
       
@@ -66,7 +66,7 @@ Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/
     
 5. Pressione **Adicionar** para criar um grupo e, em seguida, revise o grupo e escolha **fechar**. 
     
-6. Para adicionar usuários ao grupo de distribuição, consulte [Adicionar um usuário ou contato a um grupo de distribuição do Office 365](../email/add-user-or-contact-to-distribution-list.md).
+6. Para adicionar usuários ao grupo de distribuição, consulte [Adicionar um usuário ou contato a um grupo de distribuição](../email/add-user-or-contact-to-distribution-list.md).
     
 Confira como usar o grupo no Outlook 2016 e no Outlook na Web no tópico [usar grupos de contatos (anteriormente listas de distribuição) no Outlook](https://support.office.com/article/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39.aspx) . 
   

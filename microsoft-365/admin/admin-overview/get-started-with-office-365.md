@@ -1,5 +1,5 @@
 ---
-title: Introdução ao Office 365 para empresas
+title: Introdução ao Microsoft 365 for Business
 f1.keywords:
 - NOCSH
 ms.author: twerner
@@ -21,17 +21,17 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
-description: Saiba como configurar e usar o Office 365 no seu computador, telefone e tablet.
-ms.openlocfilehash: 695bf6ef3acd6d9f9c4b1a5252172258b0af5a2c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: Saiba como configurar e usar o Microsoft 365 em seu computador, telefone e Tablet.
+ms.openlocfilehash: fd52b12ab008e2c8d7b7a4476ae2212e01e1bb10
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237106"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43623913"
 ---
 # <a name="get-started"></a>Introdução
 
-Sua organização recebeu recentemente o Office 365 e agora você precisa usá-lo para começar a ler emails, compartilhar documentos e muito mais. Saiba como configurar e usar o Office 365 no seu computador, telefone e tablet.
+Sua organização recentemente recebeu o Microsoft 365 e agora você precisa usá-lo para começar a ler emails, compartilhar documentos e muito mais. Saiba como configurar e usar o Microsoft 365 em seu computador, telefone e Tablet.
   
 ::: moniker range="o365-worldwide"
 
@@ -66,5 +66,5 @@ Aqui estão alguns recursos para ajudá-lo a começar.
     
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Configurar o Office 365 para empresas - Ajuda do Administrador](../setup/setup.md)
+[Configurar o Microsoft 365 para empresas-ajuda para administradores](../setup/setup.md)
 

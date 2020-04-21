@@ -6,7 +6,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 audience: Admin
-ms.topic: overview
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,13 +19,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
-description: Saiba como adicionar um parceiro de supervisor de assinatura como parceiro de registro no momento da compra do Office 365, alterar o parceiro ou excluir um parceiro de uma assinatura.
-ms.openlocfilehash: 2afe5adebe1c0a47cae896d19219b97b70e453a4
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Saiba como adicionar um parceiro de supervisor de assinatura como parceiro de registro no momento da compra da Microsoft 365, alterar o parceiro ou excluir um parceiro de uma assinatura.
+ms.openlocfilehash: 913be0cfa94784826f4bc8dcfcc1bbf314ab4c09
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361576"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627963"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Adicionar, mudar ou excluir um parceiro para assessoria de assinaturas
 
@@ -37,13 +37,13 @@ ms.locfileid: "42361576"
 
 ::: moniker range="o365-worldwide"
 
-Um parceiro autorizado da Microsoft que atua como parceiro para assessoria de assinaturas fornece a experiência técnica, de vendas e de suporte que você precisa para ajudar a configurar e manter sua assinatura. Você pode adicionar um parceiro para assessoria de assinaturas como parceiro de registro ao comprar o Office 365 ou em outra ocasião. Se você não estiver trabalhando com um parceiro no momento, você também pode encontrar um no site do [Microsoft Pinpoint](https://pinpoint.microsoft.com) . 
+Um parceiro autorizado da Microsoft que atua como parceiro para assessoria de assinaturas fornece a experiência técnica, de vendas e de suporte que você precisa para ajudar a configurar e manter sua assinatura. Você pode adicionar um parceiro de supervisor de assinatura como parceiro de registro ao comprar o Microsoft 365 ou outro momento. Se você não estiver trabalhando com um parceiro no momento, você também pode encontrar um no site do [Microsoft Pinpoint](https://pinpoint.microsoft.com) . 
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-O parceiro escolhido depende dos serviços do Office 365 em uso e do país ou região onde você irá usar esses serviços. Se estiver adicionando um parceiro ou mudando de parceiro para a sua assinatura, primeiro será necessário solicitar e obter a ID de Parceiro Microsoft desse parceiro.
+O parceiro que você escolher depende dos serviços da Microsoft que você usa e o país ou região onde você usará esses serviços. Se estiver adicionando um parceiro ou mudando de parceiro para a sua assinatura, primeiro será necessário solicitar e obter a ID de Parceiro Microsoft desse parceiro.
 
 ::: moniker-end
 
@@ -272,4 +272,4 @@ Se você estiver removendo um relacionamento de revendedor, a opção **excluir*
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Encontre seu parceiro ou revendedor do Office 365](../manage/find-your-partner-or-reseller.md)
+[Encontre seu Microsoft 365 Partner ou revendedor](../manage/find-your-partner-or-reseller.md)

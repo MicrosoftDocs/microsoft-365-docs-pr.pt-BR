@@ -1,5 +1,5 @@
 ---
-title: Relatórios do Office 365 no centro de administração-relatório de atividades de grupos do Yammer
+title: Relatórios do Microsoft 365 no centro de administração-relatório de atividades de grupos do Yammer
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 ms.assetid: 94dd92ec-ea73-43c6-b51f-2a11fd78aa31
 description: Obtenha o relatório de atividades de grupos do Yammer para saber mais sobre o número de grupos do Yammer que estão sendo criados e usados na sua organização, além de suas atividades.
-ms.openlocfilehash: 117217f8dd275432342afd0381b39e93de23b92f
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 0b7dbfe7b578987103c63a9975ea61eb442297e8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43047066"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43618927"
 ---
-# <a name="office-365-reports-in-the-admin-center---yammer-groups-activity-report"></a>Relatórios do Office 365 no centro de administração-relatório de atividades de grupos do Yammer
+# <a name="microsoft-365-reports-in-the-admin-center---yammer-groups-activity-report"></a>Relatórios do Microsoft 365 no centro de administração-relatório de atividades de grupos do Yammer
 
-O painel de **relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos de sua organização. Ele possibilita detalhar até relatórios de um produto específico para que você tenha informações mais precisas sobre as atividades em cada produto. Confira o tópico [Visão geral de relatórios](activity-reports.md). No relatório de atividades de grupos do Yammer, é possível obter informações sobre as atividades de grupos do Yammer em sua organização e ver quantos grupos do Yammer estão sendo criados e usados.
+O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividades em todos os produtos de sua organização. Ele possibilita detalhar até relatórios de um produto específico para que você tenha informações mais precisas sobre as atividades em cada produto. Confira o tópico [Visão geral de relatórios](activity-reports.md). No relatório de atividades de grupos do Yammer, é possível obter informações sobre as atividades de grupos do Yammer em sua organização e ver quantos grupos do Yammer estão sendo criados e usados.
   
 > [!NOTE]
 > Você deve ser um administrador global, um leitor global ou um leitor de relatórios no Microsoft 365 ou um administrador do Exchange, do SharePoint, do teams ou do Skype for Business para ver os relatórios.  
@@ -52,7 +52,7 @@ Você pode verificar as atividades de grupos do Yammer, examinando os gráficos 
 |4.  <br/> |O modo de exibição **Atividades** mostra o número de mensagens do Yammer que foram postadas, lidas e curtidas em grupos.  <br/> |
 |5.  <br/> | No gráfico **Grupos**, o eixo Y é a quantidade de grupos ativos ou totais.  <br/>  No gráfico **Atividades**, o eixo Y é a contagem de atividade especificadas para grupos do Yammer.  <br/>  O eixo X em todos os três gráficos é o intervalo de datas selecionado para esse relatório específico.  <br/> |
 |6.  <br/> |Você pode filtrar a série que vê no gráfico selecionando um item na legenda. Por exemplo, no gráfico **grupos** **, selecione total ou** ![total de ícones](../../media/8eebd496-5955-4419-8d53-5f3ba1ad1c88.png) **ativos e**ativos para ver apenas as informações relacionadas a cada um.   Ao alterar essa seleção, as informações da tabela não mudam.  <br/> |
-|7.  <br/> | A lista de grupos a ser mostrada é determinada pelo conjunto de todos os grupos que existiram (que não foram excluídos) no mais amplo período de relatório (180 dias). A contagem de atividades (mensagens recebidas) variará de acordo com a seleção de data.  <br/> Observação: Talvez você não veja todos os itens da lista abaixo nas colunas até que os adicione.<br/>**Nome do grupo** é o nome do grupo.  <br/> **Administrador de grupo** é o nome do administrador ou proprietário do grupo.  <br/> **Excluídos** é o número de grupos do Yammer que foram excluídos. Se o grupo for excluído, mas tiver atividades no período do relatório, elas serão exibidas na grade com esse sinalizador definido como true.  <br/> **Tipo** é o tipo de grupo: público ou privado.  <br/> **Conectado ao Office 365** indica se o grupo Yammer também é um grupo do Office 365.  <br/> A **data da última atividade** é a última data em que uma mensagem foi lida, postada ou curtida pelo grupo.  <br/> **Membros** é o número de membros do grupo.  <br/> **Postadas** é o número de mensagens postadas no grupo do Yammer durante o período do relatório.  <br/> **Lidas** é o número de mensagens lidas no grupo do Yammer durante o período do relatório.  <br/> **Curtidas** é o número de mensagens curtidas no grupo do Yammer durante o período do relatório.  <br/>  Se as políticas da organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar as configurações de privacidade para todos esses relatórios. Confira a seção **como ocultar detalhes de nível de usuário?** em [relatórios de atividades no centro de administração do Microsoft 365](activity-reports.md).  <br/> |
+|7.  <br/> | A lista de grupos a ser mostrada é determinada pelo conjunto de todos os grupos que existiram (que não foram excluídos) no mais amplo período de relatório (180 dias). A contagem de atividades (mensagens recebidas) variará de acordo com a seleção de data.  <br/> Observação: Talvez você não veja todos os itens da lista abaixo nas colunas até que os adicione.<br/>**Nome do grupo** é o nome do grupo.  <br/> **Administrador de grupo** é o nome do administrador ou proprietário do grupo.  <br/> **Excluídos** é o número de grupos do Yammer que foram excluídos. Se o grupo for excluído, mas tiver atividades no período do relatório, elas serão exibidas na grade com esse sinalizador definido como true.  <br/> **Tipo** é o tipo de grupo: público ou privado.  <br/> **Conectado ao Office 365** indica se o grupo Yammer também é um grupo do Microsoft 365.  <br/> A **data da última atividade** é a última data em que uma mensagem foi lida, postada ou curtida pelo grupo.  <br/> **Membros** é o número de membros do grupo.  <br/> **Postadas** é o número de mensagens postadas no grupo do Yammer durante o período do relatório.  <br/> **Lidas** é o número de mensagens lidas no grupo do Yammer durante o período do relatório.  <br/> **Curtidas** é o número de mensagens curtidas no grupo do Yammer durante o período do relatório.  <br/>  Se as políticas da organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar as configurações de privacidade para todos esses relatórios. Confira a seção **como ocultar detalhes de nível de usuário?** em [relatórios de atividades no centro de administração do Microsoft 365](activity-reports.md).  <br/> |
 |8.  <br/> |Selecione **colunas** para adicionar ou remover colunas do relatório.  <br/> ![Yammer groups activity - choose columns](../../media/31bd549b-363d-4888-a45d-7af6fedb3588.png)|
 |9.  <br/> |Você também pode exportar os dados do relatório para um arquivo. csv do Excel, selecionando o link de **exportação** . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados.  <br/> |
 |||

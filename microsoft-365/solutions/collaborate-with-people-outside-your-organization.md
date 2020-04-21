@@ -10,12 +10,12 @@ ms.collection: SPO_Content
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba como configurar o Microsoft 365 para colaboração com pessoas de fora da sua organização.
-ms.openlocfilehash: 80b5aacbf73a7845913acdcc6ada2321e49f77cd
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 1b2a15312dcaacc398bb521f3ecfb6e7453f66bb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894948"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630720"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Colaborar com pessoas de fora da sua organização
 
@@ -23,7 +23,7 @@ Os recursos de compartilhamento externo no Microsoft 365 oferecem uma oportunida
 
 Colaborar com pessoas de fora da sua organização consiste em dois componentes principais:
 
-- **Habilitar compartilhamento** : Configure os controles de compartilhamento no Azure Active Directory, nas equipes, nos grupos do Office 365 e no SharePoint para permitir o nível de compartilhamento que você deseja para sua organização.
+- **Habilitar compartilhamento** : Configure os controles de compartilhamento no Azure Active Directory, nas equipes, nos grupos do Microsoft 365 e no SharePoint para permitir o nível de compartilhamento que você deseja para sua organização.
 - **Habilitar segurança adicional** -embora os recursos de compartilhamento básicos possam ser configurados para exigir que pessoas de fora da sua organização autentiquem, a Microsoft 365 fornece vários recursos de segurança e conformidade adicionais para ajudá-lo a proteger seus dados e manter suas políticas de governança ao compartilhar externamente.
 
 ## <a name="enable-sharing"></a>Habilitar o compartilhamento
@@ -46,7 +46,7 @@ Depois de habilitar o cenário que você deseja usar para compartilhar com pesso
 
 ## <a name="collaborate-with-partner-companies"></a>Colaborar com empresas parceiras
 
-Quando você estiver trabalhando em um projeto grande que envolve muitos convidados de outra organização, ou se você tiver uma relação de fornecedor em andamento em que os convidados estão sempre mudando, você pode usar o gerenciamento de qualificação no Azure Active Directory para simplificar o gerenciamento de convidados e permita que a empresa parceira Compartilhe com essa responsabilidade. Consulte [criar uma extranet B2B com convidados gerenciados](b2b-extranet.md) para obter detalhes.
+Quando você estiver trabalhando em um projeto grande que envolve muitos convidados de outra organização, ou se você tiver uma relação de fornecedor contínua em que os convidados estão freqüentemente mudando, você pode usar o gerenciamento de qualificação no Azure Active Directory para simplificar o gerenciamento de convidados e permitir que a empresa parceira Compartilhe com essa responsabilidade. Consulte [criar uma extranet B2B com convidados gerenciados](b2b-extranet.md) para obter detalhes.
 
 ## <a name="limit-sharing"></a>Limitar o compartilhamento
 

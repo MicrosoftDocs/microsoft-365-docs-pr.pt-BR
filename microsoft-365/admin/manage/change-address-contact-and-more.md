@@ -20,18 +20,18 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Saiba como fazer alterações no perfil da sua organização, como nome da organização, endereço, telefone, contato técnico e email.
-ms.openlocfilehash: 7c3e28cc112358fa5ecc9aacaec7e30aaaeec6fe
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 59c429a8460d16f2c636beeaf571689d33b400d5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362016"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628215"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Alterar o endereço, o contato técnico e outras informações da organização
   
 Você pode fazer alterações no perfil da sua organização, como o nome, o endereço, o telefone e o contato técnico da sua organização. **É necessário ser administrador global para atualizar essas informações.**
   
-Para alterar o endereço associado à sua fatura ou assinatura, confira [alterar seus endereços de cobrança do Office 365 para empresas](../../commerce/billing-and-payments/change-your-billing-addresses.md).
+Para alterar o endereço associado à sua fatura ou assinatura, confira [alterar seus endereços de cobrança para o Microsoft 365 for Business](../../commerce/billing-and-payments/change-your-billing-addresses.md).
 
 ## <a name="edit-organization-information"></a>Editar informações da organização
 
@@ -53,10 +53,10 @@ Para alterar outras informações na página de perfil de sua empresa:
 |**Field**  |**Descrição**  |
 |---------|---------|
 |Nome  <br/>   | O nome inserido aqui é o que os usuários verão nas seguintes páginas:  <br/>  Página de entrada: se seus usuários configuraram outras contas da Microsoft com seus endereços de email comercial e escolar, poderão ver o nome da organização na página de entrada. Isso os ajuda a distinguir entre a conta conta corporativa ou de estudante e outras contas, e possibilita identificar qual delas usar ao entrar.  <br/>  Link e página de perfil da organização: o link para o perfil da sua organização exibe o nome da organização.  <br/>  Navegação do Yammer: no Yammer, a navegação à esquerda usa o nome da organização como o nome da rede doméstica do Yammer.  <br/> Cliente de sincronização do OneDrive: o nome da organização é mostrado no explorador de arquivos no Windows e no localizador no Mac, os caminhos de arquivo, a central de atividades do OneDrive, a dica de ferramenta do ícone de nuvem do OneDrive e a janela Configurações do OneDrive. No momento, atualizar o nome da organização não o atualiza para clientes configurados. <br/>        |
-|Endereço, Cidade, Estado/província, Código postal  <br/>     | O endereço inserido aqui é o que você verá na sua fatura, em vendido para: o endereço vendido para em sua conta é igual ao endereço da sua organização na sua página de perfil (Confira [entender sua fatura do Office 365 para empresas](../../commerce/billing-and-payments/understand-your-invoice2.md)).  <br/>        |
+|Endereço, Cidade, Estado/província, Código postal  <br/>     | O endereço inserido aqui é o que você verá na sua fatura, em vendido para: o endereço vendido para em sua conta é igual ao endereço da sua organização na sua página de perfil (Confira [entender sua fatura para o Microsoft 365 for Business](../../commerce/billing-and-payments/understand-your-invoice2.md)).  <br/>        |
 |País ou região,  <br/>    | Este é o país ou a região em que a empresa está localizada. O país ou a região selecionado determina quais serviços estão disponíveis para você, a moeda de impostos e cobrança do seu país ou região e o local do data center mais próximo (veja [Restrições de licença do Microsoft Office](https://office.microsoft.com/redir/FX103037529)).  <br/>Observação: depois de selecionado, o país ou região não pode ser alterado. Se você deseja alterar a seleção, precisa cancelar sua assinatura e inscrever-se novamente. Para obter ajuda com esse processo, [entre em contato com o suporte](../contact-support-for-business-products.md).        |
 |Telefone  <br/>     | Este é o número principal para a sua empresa. Geralmente é o número da sede de sua empresa.  <br/>        |
-|Contato técnico  <br/> |Esse é o endereço de email do principal contato técnico que administra sua assinatura do Office 365. É a pessoa que receberá comunicações sobre o status de serviço do Office 365.  <br/> |
+|Contato técnico  <br/> |Este é o endereço de email da pessoa técnica principal que administra sua assinatura do Microsoft 365. Esta é a pessoa que receberá comunicações sobre o status do serviço do Microsoft 365.  <br/> |
 |Idioma preferencial  <br/> |O idioma preferencial determina o idioma de todas as comunicações enviadas pela Microsoft para a sua organização. Na ocasião da inscrição, essa configuração determina o idioma usado pelo SharePoint Online, que seus usuários veem no site de equipe. Se você mudar a configuração de preferência de idioma após a inscrição, todas as comunicações futuras serão enviadas no idioma mais recente selecionado.    <br/> Observação: o idioma usado pelo SharePoint Online não pode ser alterado.           |
 
 ## <a name="change-your-alternate-email-address"></a>Alterar seu endereço de email alternativo

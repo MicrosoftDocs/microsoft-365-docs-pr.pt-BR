@@ -1,5 +1,5 @@
 ---
-title: Alterar os servidores de nomes para configurar o Office 365 com qualquer registrador de domínios
+title: Alterar os nameservers para configurar o Microsoft 365 com qualquer registrador de domínios
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -21,26 +21,26 @@ search.appverid:
 - GEU150
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
-description: Saiba como adicionar e configurar seu domínio no Office 365 para que seus serviços como o email e o Skype for Business online usem seu próprio nome de domínio.
+description: Saiba como adicionar e configurar seu domínio no Microsoft 365 para que seus serviços como o email e o Skype for Business online usem seu próprio nome de domínio.
 ms.custom: okr_smb
-ms.openlocfilehash: 838025002443ec35787ea91775c60d3829545af4
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: e987d1194d3ee86548a6628310ebdfd14cdbb9ea
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210487"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628501"
 ---
-# <a name="change-nameservers-to-set-up-office-365-with-any-domain-registrar"></a>Alterar os servidores de nomes para configurar o Office 365 com qualquer registrador de domínios
+# <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>Alterar os nameservers para configurar o Microsoft 365 com qualquer registrador de domínios
 
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
   
 Confira primeiro [configurar seu domínio (instruções específicas do host)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) para ver se temos instruções para o seu registrador. 
   
-Siga estas instruções para adicionar e configurar seu domínio no Office 365 para que seus serviços, como o email e o Skype for Business Online, usem seu nome de domínio. Para fazer isso, você precisa verificar o domínio e alterar os servidores de nomes do domínio no Office 365 para que os registros DNS corretos possam ser configurados para você. Siga estas etapas se as instruções a seguir descrevem sua situação:
+Siga estas instruções para adicionar e configurar seu domínio no Microsoft 365 para que seus serviços como o email e o Skype for Business online usem seu próprio nome de domínio. Para fazer isso, verifique seu domínio e altere os nameservers do seu domínio para o Microsoft 365 para que os registros DNS corretos possam ser configurados para você. Siga estas etapas se as instruções a seguir descrevem sua situação:
   
-- Se você tiver seu próprio domínio e quiser configurá-lo para funcionar com o Office 365.
+- Você tem seu próprio domínio e deseja configurá-lo para funcionar com o Microsoft 365.
     
-- Se você quiser que o Office 365 gerencie seus registros DNS. Se preferir, é possível[ gerenciar seus próprios registros DNS ](../setup/add-domain.md).
+- Você deseja que a Microsoft 365 gerencie seus registros DNS para você. Se preferir, é possível[ gerenciar seus próprios registros DNS ](../setup/add-domain.md).
     
 ## <a name="add-a-txt-or-mx-record-for-verification"></a>Adicionar um registro TXT ou MX para verificação
 <a name="BKMK_verify"> </a>
@@ -48,7 +48,7 @@ Siga estas instruções para adicionar e configurar seu domínio no Office 365 p
 > [!NOTE]
 > Você criará apenas um desses registros. O TXT é o tipo de registro preferencial, mas alguns provedores de host DNS não são compatíveis com ele. Nesse caso, você pode criar um registro MX como alternativa. 
   
-Antes de usar o seu domínio com o Office 365, precisamos verificar se você é o proprietário dele. A capacidade de entrar na conta do seu registrador de domínios e criar o registro DNS prova ao Office 365 que você é o proprietário do domínio.
+Antes de usar o seu domínio com o Microsoft 365, precisamos garantir que você o tenha. Sua capacidade de fazer logon em sua conta no registrador de domínios e criar o registro DNS comprova-se para a Microsoft 365 que você é o proprietário do domínio.
   
 > [!NOTE]
 > Esse registro é usado exclusivamente para confirmar se você é o proprietário do domínio; ele não afeta mais nada. É possível excluí-lo mais tarde, se desejar. 
@@ -71,20 +71,20 @@ Caso esteja criando um registro TXT ou um registro MX, siga um destes procedimen
 |:-----|:-----|:-----|:-----|
 |**Tipo de registro** <br/> |**Alias** ou **Nome do host** <br/> |**Valor** <br/> |**TTL** <br/> |
 |TXT  <br/> |Siga um destes procedimentos: Digite **@**, deixe o campo vazio ou digite o seu nome de domínio.  <br/> > [!NOTE]> Hosts DNS diferentes têm requisitos diferentes para este campo.           
-|MS = ms *XXXXXXXX*  <br/> > [!NOTE]> Esse é um exemplo. Use aqui o valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela em Office 365.          [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Defina esse valor como **1 hora** ou o equivalente em minutos ( **60** ), segundos ( **3600** ), etc.  <br/> |
+|MS = ms *XXXXXXXX*  <br/> > [!NOTE]> Esse é um exemplo. Use o seu **destino específico ou aponte para** o valor de endereço aqui, na tabela no Microsoft 365.           [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Defina esse valor como **1 hora** ou o equivalente em minutos ( **60** ), segundos ( **3600** ), etc.  <br/> |
    
 **Se você criar um registro MX, use estes valores:**
     
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Tipo de registro**|**Alias** ou **Nome do host**|**Valor**|**Prioridade**|**TTL**|
-|MX|Digite **@** ou seu nome de domínio. |MS = ms *XXXXXXXX* > [!NOTE]> Esse é um exemplo. Use aqui o valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela em Office 365.          [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Para **Priority**, para evitar conflitos com o registro MX usado para o fluxo de email, use uma prioridade menor do que a prioridade de qualquer registro MX existente. Para saber mais sobre prioridade, confira [O que é prioridade MX?](../setup/domains-faq.md#what-is-mx-priority) |Defina esse valor como **1 hora** ou o equivalente em minutos ( **60** ), segundos ( **3600** ), etc. |
+|MX|Digite **@** ou seu nome de domínio. |MS = ms *XXXXXXXX* > [!NOTE]> Esse é um exemplo. Use o seu **destino específico ou aponte para** o valor de endereço aqui, na tabela no Microsoft 365.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |Para **Priority**, para evitar conflitos com o registro MX usado para o fluxo de email, use uma prioridade menor do que a prioridade de qualquer registro MX existente. Para saber mais sobre prioridade, confira [O que é prioridade MX?](../setup/domains-faq.md#what-is-mx-priority) |Defina esse valor como **1 hora** ou o equivalente em minutos ( **60** ), segundos ( **3600** ), etc. |
    
 ### <a name="save-the-record"></a>Salvar o registro
 
-Agora que você adicionou o registro no site do seu registrador de domínios, retorne ao Office 365 e solicite que o Office 365 procure o registro.
+Agora que você adicionou o registro no site do seu registrador de domínio, você voltará para o Microsoft 365 e solicitará que a Microsoft 365 procure o registro.
   
-Quando o Office 365 encontrar o registro TXT correto, o domínio será verificado.
+Quando o Microsoft 365 encontrar o registro TXT correto, seu domínio será verificado.
   
 
 1. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
@@ -106,7 +106,7 @@ Quando o Office 365 encontrar o registro TXT correto, o domínio será verificad
 ## <a name="change-your-domains-nameserver-ns-records"></a>Alterar os registros de nameserver (NS) de seu domínio
 <a name="BKMK_nameservers"> </a>
 
-Quando você chegar à última etapa do assistente de configuração de domínios no Office 365, haverá uma tarefa restante. Para configurar seu domínio com os serviços do Office 365, como email, altere os registros do servidor de nome do seu domínio (ou NS) no seu registrador de domínios para apontar para os servidores de nome primário e secundário do Office 365. Depois, como o Office 365 hospeda seu DNS, os registros DNS necessários para seus serviços são configurados automaticamente para você. Você pode atualizar os registros de servidor de nome por conta própria seguindo as etapas que o seu registrador de domínio provavelmente descreve no conteúdo de ajuda do próprio site. Se você não estiver familiarizado com DNS, contate o suporte no registrador de domínios.
+Ao chegar na última etapa do assistente de configuração de domínios no Microsoft 365, você tem uma tarefa restante. Para configurar seu domínio com os serviços do Microsoft 365, como email, você altera os registros de nameserver (ou NS) do seu domínio no seu registrador de domínio para apontar para os nameservers primários e secundários da Microsoft 365. Então, como a Microsoft 365 hospeda seu DNS, os registros DNS necessários para seus serviços são configurados automaticamente para você. Você pode atualizar os registros de servidor de nomes por conta própria seguindo as etapas que seu registrador de domínio pode fornecer no conteúdo de Ajuda no site deles. Se você não estiver familiarizado com DNS, contate o suporte no registrador de domínios.
 
 ::: moniker range="o365-worldwide"
   
@@ -124,10 +124,10 @@ Para alterar os servidores de nomes do seu domínio por conta própria no site d
    > [!TIP]
    > Você deve usar pelo menos dois registros de nameserver. Se houver outros nameservers listados, você poderá excluí-los ou alterá-los para **NS3.bdm.microsoftonline.com** e **NS4.bdm.microsoftonline.com**. 
   
-3. Salve as alterações.
+3. Salve suas alterações.
     
 > [!CAUTION]
-> Quando você alterar os registros NS do seu domínio para apontar para os servidores de nome do Office 365, todos os serviços que estão atualmente associados a seu domínio serão afetados. Se você tiver ignorado alguma etapa do assistente, como adicionar o endereço de email, ou se estiver usando o seu domínio para blogs, carrinhos de compras ou outros serviços, haverá etapas adicionais necessárias. Caso contrário, esta mudança poderá resultar em tempo de inatividade para os serviços, como perder acesso ao email ou tornar o site atual inacessível. 
+> Quando você alterar os registros NS do seu domínio para apontar para os nameservers da Microsoft 365, todos os serviços associados atualmente ao seu domínio serão afetados. Se você tiver ignorado alguma etapa do assistente, como adicionar o endereço de email, ou se estiver usando o seu domínio para blogs, carrinhos de compras ou outros serviços, haverá etapas adicionais necessárias. Caso contrário, esta mudança poderá resultar em tempo de inatividade para os serviços, como perder acesso ao email ou tornar o site atual inacessível. 
 
 ::: moniker-end
 
@@ -154,9 +154,9 @@ Para alterar os servidores de nomes do seu domínio por conta própria no site d
   
 Por exemplo, aqui estão algumas etapas adicionais que podem ser necessárias para a hospedagem de email e de site:
   
-- Mova todos os endereços de email usados em seu domínio para o Office 365 antes de alterar seus registros NS.
+- Mova todos os endereços de email que usam seu domínio para a Microsoft 365 antes de alterar seus registros NS.
     
-- Você deseja adicionar um domínio atualmente usado com um site da Web, como www.fourthcoffee.com? Você pode seguir as etapas ao adicionar o domínio para manter seu site hospedado onde o site está hospedado agora para que as pessoas possam acessar o site depois de alterar os registros NS do domínio para apontar para o Office 365.
+- Você deseja adicionar um domínio atualmente usado com um site da Web, como www.fourthcoffee.com? Você pode seguir as etapas ao adicionar o domínio para manter seu site hospedado onde o site está hospedado agora para que as pessoas possam acessar o site depois de alterar os registros NS do domínio para apontar para o Microsoft 365.
 
 1. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
 
@@ -169,6 +169,6 @@ Por exemplo, aqui estão algumas etapas adicionais que podem ser necessárias pa
 6. Selecione **Salvar**.
     
 > [!NOTE]
-> As atualizações de registro do servidor de nomes poderão levar várias horas para entrarem em vigor no sistema DNS da Internet. Em seguida, os seus emails e outros serviços do Office 365 serão todos configurados para funcionar com seu domínio. 
+> Your nameserver record updates may take up to several hours to update across the Internet's DNS system. Em seguida, seu email da Microsoft e outros serviços serão configurados para funcionar com seu domínio. 
   
 

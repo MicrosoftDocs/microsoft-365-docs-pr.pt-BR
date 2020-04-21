@@ -15,28 +15,28 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 393b0050-7c7e-49e6-a03d-b1e09fe4de9e
-description: Este documento introdutório o ajudará a entender o Exchange Online Protection (EOP) e uma terminologia importante. Isso se aplica aos clientes do Office 365 que estão protegendo caixas de correio hospedadas em nuvem do Exchange Online e clientes autônomos do EOP que estão protegendo caixas de correio locais, como o Exchange Server 2016.
-ms.openlocfilehash: b1a8e9360005b31cf03c5e9921e3285ff7119926
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Este documento introdutório o ajudará a entender o Exchange Online Protection (EOP) e uma terminologia importante. Isso se aplica aos clientes que estão protegendo caixas de correio hospedadas na nuvem do Exchange Online e clientes autônomos do EOP que estão protegendo caixas de correio locais, como o Exchange Server 2016.
+ms.openlocfilehash: dc08507a80db8e15d2e08ff5b954dec1905cfada
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597988"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630912"
 ---
 # <a name="what-is-exchange-online-protection-eop"></a>O que é proteção do Exchange Online (EOP)
 
-O Exchange Online Protection (EOP) é um serviço de filtragem de email baseado em nuvem que ajuda a proteger sua organização contra spam e malware. Se você tiver caixas de correio no Office 365, elas serão automaticamente protegidas por EOP, uma vez que ela faz parte do serviço. Isso inclui as organizações que têm caixas de correio no Office 365 e no local, que costuma ser conhecido como um cenário híbrido. O EOP autônomo também está disponível para clientes que não têm caixas de correio na nuvem, mas querem proteger suas caixas de correio locais.
+O Exchange Online Protection (EOP) é um serviço de filtragem de email baseado em nuvem que ajuda a proteger sua organização contra spam e malware. Se você tiver caixas de correio no Microsoft 365, elas serão automaticamente protegidas por EOP, uma vez que ela faz parte do serviço. Isso inclui as organizações que têm caixas de correio no Microsoft 365 e no local, que normalmente é conhecido como um cenário híbrido. O EOP autônomo também está disponível para clientes que não têm caixas de correio na nuvem, mas querem proteger suas caixas de correio locais.
 
 O EOP tenta filtrar o lixo eletrônico, mantendo a caixa de entrada limpa do conteúdo que os usuários não desejam ver. Normalmente, o lixo eletrônico é enviado para a pasta lixo eletrônico. Alguns usuários gostam de verificar se a filtragem está fazendo o que eles desejam, para que a pasta lixo eletrônico seja uma maneira fácil de os usuários verificarem por conta própria.  
 
 > [!TIP]
-> É uma boa coisa quando o lixo eletrônico ou emails mal incorretos entram na pasta lixo eletrônico automaticamente. O serviço fará o que for necessário com base no que o padrão ou o estado de configurações personalizadas do administrador. Em outras palavras, os usuários não devem se preocupar em ver uma grande quantidade de mensagens de spam na pasta lixo eletrônico. Se os administradores preferem mover todo o lixo eletrônico para fora da visão, então a quarentena deve ser configurada. Para obter mais detalhes, consulte o artigo sobre [mensagens de email em quarentena no Office 365](quarantine-email-messages.md) .
+> É uma boa coisa quando o lixo eletrônico ou emails mal incorretos entram na pasta lixo eletrônico automaticamente. O serviço fará o que for necessário com base no que o padrão ou o estado de configurações personalizadas do administrador. Em outras palavras, os usuários não devem se preocupar em ver uma grande quantidade de mensagens de spam na pasta lixo eletrônico. Se os administradores preferem mover todo o lixo eletrônico para fora da visão, então a quarentena deve ser configurada. Para obter mais detalhes, consulte o artigo sobre [mensagens de email em quarentena](quarantine-email-messages.md) .
 
 ## <a name="important-terms"></a>Termos importantes
 
-**Entrada**: mensagens que estão chegando no Office 365.
+**Entrada**: mensagens que estão chegando no Microsoft 365.
 
-**Saída**: mensagens que estão saindo do Office 365.
+**Saída**: mensagens que estão saindo do Microsoft 365.
 
 **Interno**: mensagens de alguém dentro da organização para alguém dentro da organização. Isso inclui os clientes que estão em cenários híbridos e uma caixa de correio pode ser local e a outra caixa de correio está na nuvem.
 

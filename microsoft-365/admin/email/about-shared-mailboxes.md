@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Caixas de correio compartilhadas são usadas quando várias pessoas precisam acessar a mesma caixa de correio. Saiba o que você precisa saber antes de criar uma caixa de correio compartilhada.
-ms.openlocfilehash: 8e9e4b1ae0235886a9dbb5b39ad4c0f78c27b53f
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: fcdbb591e5b8f9b2c5490435b68e543c17a035a0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210535"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629102"
 ---
 # <a name="about-shared-mailboxes"></a>Sobre as caixas de correio compartilhadas
 
@@ -39,7 +39,7 @@ Antes [de criar uma caixa de correio compartilhada](create-a-shared-mailbox.md),
 
 - **Permissões de usuário:** Você precisa conceder permissões aos usuários (Associação) para usar a caixa de correio compartilhada. Somente as pessoas de dentro da organização podem usar uma caixa de correio compartilhada.
 
-- **Usuários externos:** Você não pode permitir que pessoas de fora da sua empresa (como pessoas com uma conta do Gmail) acessem sua caixa de correio compartilhada. Se quiser fazer isso, crie um grupo do Outlook. Para saber mais, confira o artigo [Criar um Grupo do Office 365 no Centro de administração](../create-groups/create-groups.md).
+- **Usuários externos:** Você não pode permitir que pessoas de fora da sua empresa (como pessoas com uma conta do Gmail) acessem sua caixa de correio compartilhada. Se quiser fazer isso, crie um grupo do Outlook. Para saber mais, confira [criar um grupo do Microsoft 365 no centro de administração](../create-groups/create-groups.md).
 
 -  **Use com o Outlook:** Além de usar o Outlook na Web do seu navegador para acessar caixas de correio compartilhadas, você também pode usar o aplicativo Outlook para iOS ou o aplicativo Outlook para Android. Para saber mais, confira <a href="https://support.office.com/article/f866242c-81b2-472e-8776-6c49c5473c9f" target="_blank">Adicionar uma caixa de correio compartilhada ao Outlook Mobile</a>. Outra opção é criar um grupo para sua caixa de correio compartilhada. Para saber mais, confira [comparar grupos](../create-groups/compare-groups.md).  
 
@@ -49,13 +49,13 @@ Antes [de criar uma caixa de correio compartilhada](create-a-shared-mailbox.md),
 
 - **Funções de administrador:** Usuários com funções de administrador global ou administrador do Exchange podem criar caixas de correio compartilhadas.
 
-- **Requisitos de assinatura:** Para criar uma caixa de correio compartilhada, você precisa se inscrever em um plano do Office 365 para empresas que inclui emails (o serviço do Exchange Online). A assinatura comercial do Office 365 não inclui emails; O Office 365 Business Premium faz.
+- **Requisitos de assinatura:** Para criar uma caixa de correio compartilhada, você precisa se inscrever em um plano do Microsoft 365 para empresas que inclui emails (o serviço do Exchange Online). A assinatura do Microsoft 365 Apps for Business não inclui email; O Microsoft 365 Business Standard faz isso.
 
 - **Entrar:** Uma caixa de correio compartilhada não se destina ao logon direto por sua conta de usuário associada. Você deve sempre bloquear o logon para a conta de caixa de correio compartilhada e mantê-lo bloqueado.
 
-- **Muitos usuários:** Quando há muitos usuários designados acessando simultaneamente uma caixa de correio compartilhada, eles podem falhar intermitentemente para se conectar a essa caixa de correio. Nesse caso, você pode considerar reduzir o número de usuários ou usar uma carga de trabalho diferente, como o grupo do Office 365 ou a pasta pública.
+- **Muitos usuários:** Quando há muitos usuários designados acessando simultaneamente uma caixa de correio compartilhada, eles podem falhar intermitentemente para se conectar a essa caixa de correio. Nesse caso, você pode considerar reduzir o número de usuários ou usar uma carga de trabalho diferente, como um grupo do Microsoft 365 ou uma pasta pública.
 
-- **Exclusão de mensagens:** Infelizmente, não é possível impedir que as pessoas excluam mensagens em uma caixa de correio compartilhada. A única maneira de solucionar isso é criar um Grupo do Office 365 em vez de usar uma caixa de correio compartilhada. Um grupo do Outlook é como uma caixa de correio compartilhada. Para comparar os dois recursos, confira [Comparar grupos](../create-groups/compare-groups.md). Para saber mais sobre grupos, consulte [saiba mais sobre grupos](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
+- **Exclusão de mensagens:** Infelizmente, não é possível impedir que as pessoas excluam mensagens em uma caixa de correio compartilhada. A única maneira de contornar isso é criar um grupo do Microsoft 365 em vez de uma caixa de correio compartilhada. Um grupo no Outlook é como uma caixa de correio compartilhada. Para uma comparação dos dois, consulte [Compare groups](../create-groups/compare-groups.md). Para saber mais sobre grupos, consulte [saiba mais sobre grupos](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
 
 ## <a name="related-articles"></a>Artigos relacionados
 

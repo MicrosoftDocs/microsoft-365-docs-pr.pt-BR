@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: e16f6421-2a1a-4142-bf9d-9846600a060a
 description: Obtenha o aplicativo de administração do Microsoft 365 e saiba como gerenciar sua organização online do seu telefone ou Tablet.
-ms.openlocfilehash: fc1be50c10ba5158c335d9c9b9dd1e69079ac2c1
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: aead9f30f2d75e3eab5099596ff80a575e571306
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353032"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43623983"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Sobre o aplicativo móvel do Microsoft 365 admin
 
@@ -40,9 +40,9 @@ O aplicativo de administração é um aplicativo rico em recursos que tem mais d
 - Obter notificações de integridade e alteração de serviço
 - Criar uma solicitação de serviço
 - Redefinir a senha de um usuário
-- Atribuir licenças
+- Atribua licenças
 - Adicionar ou remover associações de grupo
-- Adicione usuários 
+- Adicionar usuários 
 
 E, se você é alguém responsável por mais de uma organização online, você entra em vários organizações expandidas e alterna rapidamente entre eles. 
   
@@ -66,11 +66,11 @@ Veja as respostas para algumas perguntas frequentes sobre o aplicativo.
   
 ### <a name="what-do-i-need-to-do-to-be-able-to-use-the-app"></a>O que preciso fazer para poder usar o aplicativo?
 
-Você precisa ter uma assinatura válida do Office 365 for Business ou do Microsoft 365 Business com privilégios de administrador para entrar e usar o aplicativo. O aplicativo móvel do administrador não é um cliente de email. É um aplicativo administrativo avançado com mais de 80 recursos para ajudar você a dar suporte à sua organização enquanto estiver em trânsito.
+Você precisa ter uma assinatura válida do Microsoft 365 Apps for Business ou do Microsoft 365 Business Premium com privilégios de administrador para entrar e usar o aplicativo. O aplicativo móvel do administrador não é um cliente de email. É um aplicativo administrativo avançado com mais de 80 recursos para ajudar você a dar suporte à sua organização enquanto estiver em trânsito.
   
-### <a name="can-i-use-the-app-with-my-office-365-for-home-subscription"></a>Posso usar o aplicativo com minha assinatura do Office 365 para casa?
+### <a name="can-i-use-the-app-with-my-microsoft-365-family-subscription"></a>Posso usar o aplicativo com minha assinatura da família Microsoft 365?
 
-Não, o aplicativo só funciona com o Office 365 for Business and Microsoft 365 Business subscriptions. 
+Não, o aplicativo só funciona com o Microsoft 365 Apps for Business e as assinaturas do Microsoft 365 Business Premium. 
   
 ### <a name="will-the-app-work-if-my-organization-has-directory-synchronization-enabled"></a>O aplicativo funcionará se a organização tiver uma sincronização de diretório habilitada?
 
@@ -104,4 +104,4 @@ Email [feedback365@microsoft.com](mailto:feedback365@microsoft.com) para relatar
   
 ## <a name="see-also"></a>Confira também
 
-[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

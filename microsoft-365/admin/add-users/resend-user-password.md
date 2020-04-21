@@ -1,5 +1,5 @@
 ---
-title: Reenviar a senha de um usuário no Office 365-ajuda do administrador
+title: Reenviar a senha de um usuário-ajuda para administradores
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -18,15 +18,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9b838071-94aa-4b8e-8d84-d17ece1ee951
-description: 'Saiba como redefinir a senha e enviar um email de notificação para um novo usuário do Office 365. '
-ms.openlocfilehash: 64b3b4c805cfc81b10050e2e2e5c74290c68d760
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: 'Saiba como redefinir a senha e enviar um email de notificação para um novo usuário do Microsoft 365. '
+ms.openlocfilehash: fcf5fb53c2468930e68929a9bf38b634d7e67404
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237123"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43624107"
 ---
-# <a name="resend-a-users-password-in-office-365---admin-help"></a>Reenviar a senha de um usuário no Office 365-ajuda do administrador
+# <a name="resend-a-users-password---admin-help"></a>Reenviar a senha de um usuário-ajuda para administradores
 
 Este artigo explica como reenviar o email de notificação para um novo usuário no Office 365. Para fazer isso, redefina a senha do usuário.
   
@@ -57,4 +57,3 @@ Você deve ser um [administrador de administrador ou de senha global](about-admi
 4. Insira um endereço de email que o usuário possa acessar para que recebam a nova senha e acompanhe com eles para garantir que eles o tenham.
     
   
-

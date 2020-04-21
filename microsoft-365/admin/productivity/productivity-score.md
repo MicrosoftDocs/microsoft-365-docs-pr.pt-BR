@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Visão geral da pontuação da produtividade da Microsoft.
-ms.openlocfilehash: 06c1bb5d5e5edfd21fa9224846d584cbe6678d07
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: 3e85ef40513593b7fcd66269671128c1233d10f9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516860"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627747"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Pontuação de produtividade da Microsoft (versão prévia)
 
@@ -64,7 +64,7 @@ Sua pontuação é atualizada diariamente e reflete as ações do usuário concl
 
 ## <a name="access-and-required-permissions"></a>Acesso e permissões necessárias 
 
-Para a experiência do funcionário, você deve ter uma assinatura para um plano do Office 365 for Business ou um plano de negócios do Microsoft 365 com vários usuários. 
+Para a experiência do funcionário, você deve ter uma assinatura para um plano do Microsoft 365 para empresas com vários usuários. 
 
 Para ter permissão para acessar a pontuação da produtividade da Microsoft, você deve ter as seguintes funções: 
 
@@ -136,7 +136,7 @@ Os tipos de arquivo considerados como colaboração são Word/Excel/PowerPoint/O
 
 ![Página trabalhar em qualquer lugar.](../../media/psflexibility.png)
 
-A página trabalho em qualquer lugar quantifica os usuários (como um percentual e um valor absoluto) que usavam pelo menos um aplicativo de produtividade em duas ou mais plataformas, que são desktop, celular e Web. Os usuários recebem pontos mais altos para usar mais aplicativos e plataformas. Os aplicativos que estão sendo considerados como Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer, Skype. A base das idéias são usuários habilitados para o Office 365 ProPlus, Exchange, Yammer, Skype ou Teams.
+A página trabalho em qualquer lugar quantifica os usuários (como um percentual e um valor absoluto) que usavam pelo menos um aplicativo de produtividade em duas ou mais plataformas, que são desktop, celular e Web. Os usuários recebem pontos mais altos para usar mais aplicativos e plataformas. Os aplicativos que estão sendo considerados como Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer, Skype. A base da visão é que os usuários estão habilitados para o Microsoft 365 aplicativos para empresas, Exchange, Yammer, Skype ou Teams.
 
 1. **Por que isso importa** fornece um resumo do uso de links de pesquisa de várias plataformas para maior produtividade. **Ler a pesquisa da Forrester** vai para um artigo de pesquisa que fornece mais contexto sobre como o trabalho no é para aumentar a produtividade.
 1. O suporte a informações no **email em qualquer lugar** quantifica o número de usuários em sua organização usando o Outlook nas plataformas da base de usuários ativos no Outlook.

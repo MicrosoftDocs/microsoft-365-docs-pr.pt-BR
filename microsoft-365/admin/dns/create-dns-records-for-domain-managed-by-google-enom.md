@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 ms.assetid: 3c490fbf-7833-4e43-be34-ed0dc3cce5e3
 description: Saiba como acessar o eNom e criar o DNS por meio da página de domínios do Google.
-ms.openlocfilehash: 8fc13ea2ccc7dfee510ef7abb72f88030d048943
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 7d79350f163d1b120d3dd45bc7bbb3e57583bf05
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210653"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629126"
 ---
 # <a name="create-dns-records-when-your-domain-is-managed-by-google-enom"></a>Criar registros DNS quando o domínio for gerenciado pelo Google (eNom)
 
- **Caso não encontre o conteúdo que está procurando, [verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
+ Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
   
-Para migrar suas contas de email para o Office 365, você precisa criar um registro DNS em seu registrador de domínio.
+Para migrar suas contas de email para a Microsoft, você precisa criar um registro DNS no seu registrador de domínio.
   
 Se você comprou seu domínio pelo Google ao se inscrever para sua conta do **Google Apps for Work** , seus registros DNS são gerenciados pelo Google, mas registrados com o eNom. 
   
@@ -89,7 +89,7 @@ Você pode acessar o eNom e criar o DNS, através da página de **domínios** do
     |@  <br/> ||TXT  <br/> |
 
     > [!NOTE]
-    > This is an example. Use seu valor específico de **Destinos ou Pontos de Endereçamento** aqui, da tabela no Office 365. 
+    > This is an example. Use o seu **destino específico ou aponte para** o valor de endereço aqui, a partir da tabela. 
   
     [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)
   

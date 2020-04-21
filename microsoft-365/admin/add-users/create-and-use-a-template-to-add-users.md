@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Você pode criar e usar um modelo para economizar tempo e padronizar as configurações ao adicionar vários usuários.
-ms.openlocfilehash: 340d0ae3329b441c2b9773ba06e4f9e69be88526
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: a45107f520ee34437989bcd000096945514384ba
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353242"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43617267"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>Criar e usar um modelo para adicionar usuários
 
@@ -88,7 +88,7 @@ Você pode excluir facilmente modelos que não são mais necessários e adiciona
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Adicionar usuários individualmente ou em massa ao Office 365](add-users.md)
+[Adicionar usuários individualmente ou em massa ao Microsoft 365](add-users.md)
 
-[Remover um ex-funcionário do Office 365](remove-former-employee.md)
+[Remover um antigo funcionário da Microsoft 365](remove-former-employee.md)
   

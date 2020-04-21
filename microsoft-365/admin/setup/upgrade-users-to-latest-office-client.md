@@ -1,5 +1,5 @@
 ---
-title: Atualize seu Office 365 para usuários corporativos para o cliente Office mais recente
+title: Atualize seu Microsoft 365 for Business Users para o cliente Office mais recente
 f1.keywords:
 - NOCSH
 ms.author: kwekuako
@@ -19,14 +19,14 @@ ms.custom:
 - fwlink 824861; CampaignID O365_Comm_SR_UpgradeOffice
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Saiba como atualizar seus usuários para o cliente do Office mais recente.
-ms.openlocfilehash: 18200184ed8d7eb15ee4eef3903ac9d8e08b9854
-ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
+ms.openlocfilehash: 148069011784b822c5ce366190afd60bf278772f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521453"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627529"
 ---
-# <a name="upgrade-your-office-365-for-business-users-to-the-latest-office-client"></a>Atualize seu Office 365 para usuários corporativos para o cliente Office mais recente
+# <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Atualize seu Microsoft 365 for Business Users para o cliente Office mais recente
 
 ## <a name="office-2010-reaches-end-of-support"></a>O Office 2010 atinge o fim do suporte
 
@@ -42,9 +42,9 @@ Confira o [roteiro de fim do suporte do Office 2010](https://docs.microsoft.com/
 
  **Este é o tópico certo para você?**
   
- Se você é o administrador responsável pela assinatura do Office 365 for Business em sua organização, você está no lugar certo. Os administradores normalmente são responsáveis por tarefas como gerenciamento de usuários, redefinição de senhas, gerenciamento de instalações do Office e adição ou remoção de licenças.
+ Se você é o administrador responsável pela assinatura do Microsoft 365 for Business em sua organização, você está no lugar certo. Os administradores normalmente são responsáveis por tarefas como gerenciamento de usuários, redefinição de senhas, gerenciamento de instalações do Office e adição ou remoção de licenças.
 
- Se você não for um administrador e tiver um produto [do Office para casa](https://support.office.com/article/28cbc8cf-1332-4f04-9123-9b660abb629e.aspx#BKMK_OfficePlans) , confira [como atualizar o Office](https://support.office.com/article/ee68f6cf-422f-464a-82ec-385f65391350.aspx) para obter informações sobre como atualizar sua versão de uso inicial do Office.
+ Se você não for um administrador e tiver um produto [da família Microsoft 365](https://support.office.com/article/28cbc8cf-1332-4f04-9123-9b660abb629e.aspx#BKMK_OfficePlans) , consulte [como](https://support.office.com/article/ee68f6cf-422f-464a-82ec-385f65391350.aspx) faço para atualizar o Office para obter informações sobre como atualizar sua versão de uso inicial do Office.
 
 ## <a name="get-ready-to-upgrade"></a>Prepare-se para atualizar
 
@@ -71,9 +71,9 @@ Por exemplo, se você estiver usando suplementos de terceiros com sua instalaç�
   
 ## <a name="step-2---check-your-existing-subscription-plan"></a>Etapa 2: verificar o plano de assinatura existente
 
-Alguns planos do Office 365 não incluem as versões completas da área de trabalho do Office e as etapas para atualização são diferentes se o seu plano não inclui o Office.
+Alguns planos do Microsoft 365 não incluem as versões completas da área de trabalho do Office e as etapas para atualização são diferentes se o seu plano não inclui o Office.
   
-Não tem certeza sobre qual plano de assinatura você tem? Veja [qual assinatura do Office 365 for Business eu tenho?](../admin-overview/what-subscription-do-i-have.md)
+Não tem certeza sobre qual plano de assinatura você tem? Veja [o que é uma assinatura do Microsoft 365 for Business?](../admin-overview/what-subscription-do-i-have.md)
   
 Se seu plano existente inclui o Office, vá para a [etapa 3-desinstalar o Office](#step-3---uninstall-office).
   
@@ -83,7 +83,7 @@ Se o seu plano existente não incluir o Office, selecione as opções abaixo:
 
  **Opção 1: mudar de assinatura do Office**
 
-Alterne para uma assinatura que inclua o Office. Consulte [mudar para um plano diferente do Office 365 para empresas](../../commerce/subscriptions/switch-to-a-different-plan.md).
+Alterne para uma assinatura que inclua o Office. Consulte [mudar para um plano diferente da Microsoft 365 para empresas](../../commerce/subscriptions/switch-to-a-different-plan.md).
 
 **Opção 2: comprar compras individuais, uma única vez do Office ou comprar o Office por meio de uma licença de volume**
 
@@ -111,13 +111,13 @@ Recomendamos que você tenha suplementos de terceiros, entre em contato com o fa
 
  **Office pré-instalado no seu computador** Se você não tiver mais um disco ou chave de produto (se o Office vier com um), você não poderá reinstalá-lo.
 
- **Assinaturas do Office 365 sem suporte** Se sua cópia do Office foi obtida por meio de assinaturas descontinuadas, como o Office 365 Small Business Premium ou o Office 365 porte médio, você não poderá instalar uma versão mais antiga do Office, a menos que tenha a chave de produto que acompanha a sua assinatura.
+ **Assinaturas sem suporte** Se sua cópia do Office foi obtida por meio de assinaturas descontinuadas, como o Office 365 Small Business Premium ou o Office 365 porte médio, você não poderá instalar uma versão mais antiga do Office, a menos que tenha a chave de produto que acompanha a sua assinatura.
 
 Se preferir instalar sua versão anterior do Office lado a lado com a versão mais recente, você poderá ver uma lista de versões em que isso é suportado, [instalar e usar versões diferentes do Office no mesmo computador](https://support.office.com/article/6ebb44ce-18a3-43f9-a187-b78c513788bf.aspx). Uma instalação lado a lado pode ser a escolha certa para você, se, por exemplo, você tiver instalado suplementos de terceiros que esteja usando com a versão mais antiga do Office e ainda não tiver certeza de que eles são compatíveis com a versão mais recente.
 
 ## <a name="step-4---assign-office-licenses-to-users"></a>Etapa 4: atribuir licenças do Office aos usuários
 
-Se você ainda não tiver feito isso, atribua licenças a qualquer usuário em sua organização que precise instalar o Office, consulte [atribuir licenças aos usuários no Office 365 para empresas](../manage/assign-licenses-to-users.md).
+Se você ainda não tiver feito isso, atribua licenças a qualquer usuário em sua organização que precise instalar o Office, consulte [assign licenses to Users in Microsoft 365 for Business](../manage/assign-licenses-to-users.md).
   
 ## <a name="step-5---install-office"></a>Etapa 5: instalar o Office
 

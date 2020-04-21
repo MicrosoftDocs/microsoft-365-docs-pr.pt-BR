@@ -25,19 +25,19 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
-description: Ajudar os usuários a instalar os aplicativos do Office em dispositivos Windows 10 e a instalar facilmente o Office em computadores com Windows 10 a partir do centro de administração de negócios do 365 da Microsoft.
-ms.openlocfilehash: a33121f5c5b3532ea376a2bf7a6d7f51d4291a47
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Ajude os usuários a instalar os aplicativos do Office em dispositivos Windows 10 e a instalar facilmente o Office em computadores com Windows 10 a partir do centro de administração do Microsoft 365.
+ms.openlocfilehash: a7078ad6d7423900aefba47605cb2b2852856108
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561621"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627193"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>Ajudar os usuários a instalar o Office em dispositivos Windows 10
 
 [![Rótulo para informar que o centro de administração está mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-Você pode instalar o Office de modo rápido e fácil no Windows 10 PCs a partir do centro de administração do Microsoft 365 Business.
+Você pode instalar o Office de modo rápido e fácil no Windows 10 PCs a partir do centro de administração do Microsoft 365.
   
 Para entender como isso funciona com os aplicativos do Office instalados anteriormente, leia [Preparar-se para a instalação do cliente do Office](prepare-for-office-client-deployment.md) antes de começar.
 
@@ -62,6 +62,6 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
     
       :::image type="content" source="../media/sendemailtousers.png" alt-text="Selecione os usuários para enviar emails com o link de download do Office.":::
 
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Para saber mais sobre como configurar e usar o Microsoft 365 Business
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Para saber mais sobre como configurar e usar o Microsoft 365 Business Premium
 
-[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

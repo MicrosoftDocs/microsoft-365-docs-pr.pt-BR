@@ -21,13 +21,13 @@ search.appverid:
 - MOE150
 ms.assetid: 932e3676-2491-49f0-9177-d893d2f5276e
 ROBOTS: NOINDEX
-description: Saiba como criar um arquivo CSV para o AutoPilo Tin Microsoft 365 Business.
-ms.openlocfilehash: 56d8fb234a1b526192468309c93c638694b92c6e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Saiba como criar um arquivo CSV para o piloto automático no Microsoft 365 for Business.
+ms.openlocfilehash: b1154d639ba23180f637520750d94f00e997cfc4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361352"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627855"
 ---
 # <a name="device-list-csv-file"></a>Arquivo CSV de lista de dispositivos
 
@@ -49,9 +49,9 @@ Ao adicionar dispositivos, você também precisa adicioná-los a um perfil. Um p
   
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Documentação e recursos do Microsoft 365 Business](https://go.microsoft.com/fwlink/p/?linkid=853701)
+[Documentação e recursos do Microsoft 365 for Business](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
-[Introdução ao Microsoft 365 Business](https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364)
+[Introdução ao Microsoft 365 for Business](https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364)
   
-[Gerenciar o Microsoft 365 Business](https://support.office.com/article/27ff1678-865a-4707-8145-e1155aa815d6)
+[Gerenciar o Microsoft 365 para empresas](https://support.office.com/article/27ff1678-865a-4707-8145-e1155aa815d6)
   

@@ -1,5 +1,5 @@
 ---
-title: Visão geral de administração do Office 365
+title: Visão geral do centro de administração
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -19,17 +19,17 @@ search.appverid:
 - MOE150
 ms.assetid: c7228a3e-061f-4575-b1ef-adf1d1669870
 description: 'Saiba mais sobre o centro de administração do Microsoft 365: como entrar, quem é seu administrador e assista a uma introdução de vídeo sobre ele.'
-ms.openlocfilehash: 5f2727b582fcae2b4e001be1ec355747c96e9084
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 79c43c0f918c8d4793b02bea08aa092e3a5ef421
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633459"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43623959"
 ---
-# <a name="office-365-admin-overview"></a>Visão geral de administração do Office 365 
+# <a name="admin-center-overview"></a>Visão geral do centro de administração 
 
   
-Quando você compra um [plano de negócios do Office 365](https://go.microsoft.com/fwlink/?linkid=856886) ou um [plano do Microsoft 365 para empresas](https://www.microsoft.com/microsoft-365/business), fornecemos uma conta especial com permissões de administrador. Essa conta é chamada de conta de administrador.
+Quando você compra um plano [de aplicativos do microsoft 365 para empresas](https://go.microsoft.com/fwlink/?linkid=856886) ou um [plano do Microsoft 365 para empresas](https://www.microsoft.com/microsoft-365/business), fornecemos uma conta especial com permissões de administrador. Essa conta é chamada de conta de administrador.
   
 Com essa conta, você pode acessar o centro de administração do Microsoft 365 para gerenciar sua empresa: adicionar usuários, gerenciar sua assinatura, redefinir senhas e muito mais. Experimente!
   
@@ -66,6 +66,6 @@ Ao procurar seu administrador para redefinir sua senha, excluir uma conta ou exe
     
 - **Empresas pequenas**: entre em contato com o proprietário/coproprietário da empresa. Geralmente, eles concedem permissões de administrador ao consultor de TI que faz toda a manutenção dos computadores da empresa. 
     
-Por padrão, a pessoa que se inscreve e compra uma assinatura do Office 365 para empresas recebe permissões de administrador. Essa pessoa pode atribuir permissões de administrador a outras pessoas para ajudá-la a gerenciar o Office 365 na organização.
+Por padrão, a pessoa que se inscreve e compra uma assinatura do Microsoft 365 for Business recebe permissões de administrador. Essa pessoa pode atribuir permissões de administrador a outras pessoas para ajudá-los a gerenciar o Microsoft 365 para sua organização.
   
 Se você não tem idéia de quem entrar em contato em seu trabalho ou escola para obter ajuda, tente perguntar à pessoa que deu sua conta de usuário e senha.

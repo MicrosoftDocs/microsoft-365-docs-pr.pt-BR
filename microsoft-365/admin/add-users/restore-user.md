@@ -1,5 +1,5 @@
 ---
-title: Restaurar um usuário no Office 365
+title: Restaurar um usuário
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,27 +21,27 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
-description: Saiba como restaurar contas de usuário excluídas do Office 365 e todos os dados associados.
-ms.openlocfilehash: 385f7938f5e0ce1f3a580d40830124f77454f64d
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: Saiba como restaurar contas de usuário excluídas e todos os dados associados.
+ms.openlocfilehash: 78766f1f6708665271361d542372aa945b0a7e29
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237120"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43624053"
 ---
-# <a name="restore-a-user-in-office-365"></a>Restaurar um usuário no Office 365
+# <a name="restore-a-user"></a>Restaurar um usuário
    
 Quando você restaura uma conta de usuário dentro de 30 dias após sua exclusão, nosso sistema restaura a conta e todos os dados associados a ela. O usuário pode entrar com a mesma conta corporativa ou de estudante. A caixa de correio será totalmente restaurada. Para saber até quando uma determinada conta de usuário poderá ser restaurada, [entre em contato conosco](../contact-support-for-business-products.md).
   
 Aqui estão algumas dicas:
   
-- Verifique se há licenças do Office 365 disponíveis que você possa atribuir à conta.
+- Certifique-se de que as licenças estão disponíveis para atribuir à conta.
     
 - Se sua empresa usar o Active Directory, confira [Como solucionar problemas de contas de usuário excluídas no Office 365](https://support.microsoft.com/kb/2619308) para obter instruções sobre como restaurar uma conta de usuário. 
     
 ## <a name="restore-one-or-more-user-accounts"></a>Restaurar uma ou mais contas de usuário
 
-Você deve ser um administrador global ou administrador de gerenciamento de usuários no Office 365 para executar estas etapas. 
+Você deve ser um administrador global do Microsoft 365 ou administrador de gerenciamento de usuários para executar estas etapas. 
   
  
 ::: moniker range="o365-worldwide"
@@ -117,7 +117,7 @@ Para resolver isso, você pode substituir a conta de usuário ativa por uma que 
 
 Um conflito de endereço proxy ocorre quando você exclui uma conta de usuário que contém um endereço proxy, atribui esse mesmo endereço proxy a outra conta e tenta restaurar a conta excluída. Para corrigir esse problema, siga as etapas a seguir.
   
-Você deve ter [permissões de administrador](about-admin-roles.md) no Office 365 para fazer isso. 
+Você deve ter [permissões de administrador](about-admin-roles.md) no Microsoft 365 para fazer isso. 
   
 
 ::: moniker range="o365-worldwide"
@@ -148,4 +148,3 @@ Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid
 
 [Excluir um usuário](delete-a-user.md)
   
-

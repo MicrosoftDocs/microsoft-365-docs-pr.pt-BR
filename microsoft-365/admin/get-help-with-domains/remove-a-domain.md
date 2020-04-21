@@ -1,5 +1,5 @@
 ---
-title: Remover um domínio do Office 365
+title: Excluir um domínio
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
-description: Saiba como remover um domínio antigo do Office 365 e mover usuários e grupos para outro domínio.
-ms.openlocfilehash: 621b50384b39a21bc0bf5256841c703b3ee0f74a
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Saiba como remover um domínio antigo do Microsoft 365 e mover usuários e grupos para outro domínio.
+ms.openlocfilehash: 21b2b17e5cab022f67c71c0d3858f8a03b45899b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210363"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628429"
 ---
-# <a name="remove-a-domain-from-office-365"></a>Remover um domínio do Office 365
+# <a name="remove-a-domain"></a>Excluir um domínio
 
 Colaboradores: [![Peter Baumgartner](../../media/e70dc696-c5f8-4717-a48b-9087431503e7.png)](https://go.microsoft.com/fwlink/p/?linkid=847121)
   
- **[Caso não encontre o conteúdo que está procurando, verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
+ **Caso não encontre o conteúdo que está procurando, [verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
   
-Você está removendo seu domínio porque deseja adicioná-lo a um plano de assinatura diferente do Office 365 ou deseja apenas cancelar a assinatura? É possível [alterar o plano ou a assinatura](../../commerce/subscriptions/switch-to-a-different-plan.md) ou [cancelar a assinatura](../../commerce/subscriptions/cancel-your-subscription.md).
+Você está removendo seu domínio porque deseja adicioná-lo a um plano de assinatura diferente do Microsoft 365? Ou apenas deseja cancelar sua assinatura? Você pode [alterar seu plano ou assinatura](../../commerce/subscriptions/switch-to-a-different-plan.md) ou [cancelar sua assinatura](../../commerce/subscriptions/cancel-your-subscription.md).
   
 ### <a name="step-1-move-users-to-another-domain"></a>Etapa 1: mover usuários para outro domínio
 
@@ -210,7 +210,7 @@ Você também pode usar o PowerShell para mover os usuários para outro domínio
 
 ## <a name="how-long-does-it-take-for-a-domain-to-be-removed"></a>Quanto tempo leva para um domínio ser removido?
 
-Pode levar apenas 5 minutos para que o Office 365 remova um domínio se ele não for referenciado em muitos lugares, como grupos de segurança, listas de distribuição, usuários e grupos do Office 365. Se há muitas referências que usam o domínio, pode levar várias horas (um dia) para que ele seja removido.
+Pode levar até 5 minutos para que o Microsoft 365 remova um domínio, caso não seja mencionado em muitos lugares, como grupos de segurança, listas de distribuição, usuários e grupos do Microsoft 365. Se há muitas referências que usam o domínio, pode levar várias horas (um dia) para que ele seja removido.
   
 Se você tem centenas ou milhares de usuários, use o PowerShell para fazer uma consulta de todos os usuários e mova-os para outro domínio. Caso contrário, é possível que alguns usuários fiquem de fora da interface e, quando você tentar remover o domínio, não conseguirá e não saberá por quê. Saiba mais em [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0). Para definir o domínio padrão, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).
   
@@ -231,6 +231,6 @@ Ainda não funciona? É possível que seja necessário remover seu domínio manu
 
 [Obter ajuda com os domínios do Office 365](get-help-with-domains.md)
 
-[Migrar para outro plano do Office 365 para empresas](../../commerce/subscriptions/switch-to-a-different-plan.md)
+[Mudar para um plano diferente da Microsoft 365 para empresas](../../commerce/subscriptions/switch-to-a-different-plan.md)
 
 [Cancelar sua assinatura](../../commerce/subscriptions/cancel-your-subscription.md)

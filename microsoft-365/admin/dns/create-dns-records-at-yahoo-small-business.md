@@ -1,5 +1,5 @@
 ---
-title: Criar registros DNS no Yahoo! Small Business para o Office 365
+title: Criar registros DNS no Yahoo! Small Business para o Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -19,15 +19,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 034bd7bc-b098-4c4d-8a93-4d74ff24532a
-description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no Yahoo! Small Business para o Office 365.
-ms.openlocfilehash: 7b0d0b25a2895101e2f9a259a82fb18e9447441f
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no Yahoo! Small Business para a Microsoft.
+ms.openlocfilehash: 12efa8f7056f0d06cbf78b2486ea67dc85d2e705
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211033"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629150"
 ---
-# <a name="create-dns-records-at-yahoo-small-business-for-office-365"></a>Criar registros DNS no Yahoo! Small Business para o Office 365
+# <a name="create-dns-records-at-yahoo-small-business-for-microsoft"></a>Criar registros DNS no Yahoo! Small Business para o Microsoft
 
  **Caso não encontre o conteúdo que está procurando, [verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
   
@@ -89,5 +89,5 @@ Você deve criar sua conta do Aabaco antes de poder [criar registros DNS](../get
     
     ![The sign-in page for Aabaco Small Business](../../media/4ef3cfc3-26da-4e03-932b-9346ef217848.png)
   
-Agora que você tem uma conta da Aabaco, já pode [Criar registros DNS na Aabaco Small Business para Office 365](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
+Agora que você criou sua conta do Aabaco, pode [criar registros DNS no Aabaco Small Business para a Microsoft](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
   

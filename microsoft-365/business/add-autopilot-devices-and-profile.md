@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Saiba como usar o Windows AutoPilot para configurar novos dispositivos Windows 10 para sua empresa para que eles estejam prontos para uso do funcionário.
-ms.openlocfilehash: 3b1cf297914862aaa74fdf9a8bb7290d00f73b1d
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 98a2bfc721ce86c81ebd89e8f41603e619b31546
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561571"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627485"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Use o guia passo a passo para adicionar perfil e dispositivos do Autopilot
 
@@ -81,7 +81,7 @@ Se você ainda não criou grupos ou perfis de dispositivos, a melhor maneira de 
     
     - Crie uma experiência de entrada com a marca da sua empresa
     
-    - Conecte seus dispositivos às contas do Azure Active Directory e registre-os automaticamente para serem gerenciados pelo Microsoft 365 Business.
+    - Conecte seus dispositivos às contas do Azure Active Directory e registre-os automaticamente para serem gerenciados pelo Microsoft 365 Business Premium.
     
     Para obter mais informações, consulte [sobre as configurações de perfil do AutoPilot](autopilot-profile-settings.md). 
     

@@ -1,5 +1,5 @@
 ---
-title: Remover um ex-funcionário do Office 365
+title: Remover um ex-funcionário
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -23,15 +23,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
-description: 'Siga esta lista de verificação para remover um funcionário do Office 365 e dados seguros. '
-ms.openlocfilehash: f29f24e0f9cf583e768000cff2d6081eb9df6d87
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: 'Siga esta lista de verificação para remover um funcionário do Microsoft 365 e dados seguros. '
+ms.openlocfilehash: 593460c2e49b7136972c084a9927544e6194cb90
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353112"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43617117"
 ---
-# <a name="remove-a-former-employee-from-office-365"></a>Remover um ex-funcionário do Office 365
+# <a name="remove-a-former-employee"></a>Remover um ex-funcionário
   
 ## <a name="sign-out-now"></a>Sair agora!
 
@@ -83,7 +83,7 @@ Para remover um funcionário:
 ::: moniker-end
 
     
-Dentro de uma hora ou após elas saírem da página atual do Office 365, elas serão solicitadas a entrar novamente. (Um token de acesso é bom por uma hora, portanto, a linha do tempo depende de quanto tempo resta naquele token e se ele navegará de sua página da Web atual.)
+Dentro de uma hora ou após elas saírem da página atual do Microsoft 365, elas serão solicitadas a entrar novamente. (Um token de acesso é bom por uma hora, portanto, a linha do tempo depende de quanto tempo resta naquele token e se ele navegará de sua página da Web atual.)
   
  **AVISO DE LIMITAÇÃO**: se o usuário estiver no Outlook na Web, apenas clicando em itens da caixa de correio, é possível que ele não seja excluído imediatamente. Assim que eles selecionam um bloco diferente, como o OneDrive, ou atualizam o navegador, a saída é iniciada. 
   
@@ -94,7 +94,7 @@ Para saber mais sobre quanto tempo é preciso para excluir alguém do email, con
 ## <a name="overview-of-all-the-steps-to-remove-an-employee-and-secure-data"></a>Visão geral de todas as etapas para remover um funcionário e proteger dados
 <a name="bkmk_now"> </a>
 
-Uma pergunta que recebemos frequentemente é: o que posso fazer para proteger os dados quando um funcionário deixa a organização? Este artigo explica como bloquear o acesso ao Office 365 e as etapas que você deve seguir para proteger seus dados.
+Uma pergunta que recebemos frequentemente é: o que posso fazer para proteger os dados quando um funcionário deixa a organização? Este artigo explica como bloquear o acesso ao Microsoft 365 e as etapas que você deve seguir para proteger seus dados.
   
 > [!NOTE]
 > Se você for um administrador global, poderá excluir o funcionário, encaminhar seu email, escolher o que fazer com o conteúdo do OneDrive usando a nova experiência interativa. Para obter mais informações, consulte [Administração Global: excluir um usuário](remove-former-employee.md). No entanto, recomendamos concluir todas as etapas adicionais listadas aqui para garantir que o funcionário não tenha acesso aos dados da sua empresa. 
@@ -107,10 +107,10 @@ A seguir está uma breve visão geral. Cada etapa é explicada em detalhes neste
 |1. [Salvar o conteúdo da caixa de correio de um ex-funcionário](#save-the-contents-of-a-former-employees-mailbox) <br/> |Isso é útil para a pessoa que assumirá a função do funcionário ou em caso de litígio.  <br/> |
 |2. [Encaminhar o email do ex-funcionário a outro funcionário ou convertê-lo em uma caixa de correio compartilhada](#forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox) <br/> |Isso permite manter o endereço de email do ex-funcionário ativo. Se clientes ou parceiros ainda enviarem emails ao endereço de email do ex-funcionário, isso os encaminhará para a pessoa que assumir o trabalho.  <br/> |
 |3. [Apagar e bloquear o dispositivo móvel de um ex-funcionário](#wipe-and-block-a-former-employees-mobile-device) <br/> |Remove seus dados comerciais do telefone ou tablet.  <br/> |
-|4. [Bloquear o acesso de um ex-funcionário aos dados do Office 365](#block-a-former-employees-access-to-office-365-data)<br/> |Isso evita que a pessoa acesse sua antiga caixa de correio e dados do Office 365.  <br/><br/> **Dica**: ao bloquear o acesso de um usuário, você ainda está pagando por sua licença. É preciso excluir a licença da sua assinatura para deixar de pagar por ela (etapa 5).           |
+|4. [bloquear o acesso de um antigo funcionário aos dados do Microsoft 365](#block-a-former-employees-access-to-microsoft-365-data)<br/> |Ele impede que a pessoa acesse sua antiga caixa de correio e dados da Microsoft 365.  <br/><br/> **Dica**: ao bloquear o acesso de um usuário, você ainda está pagando por sua licença. É preciso excluir a licença da sua assinatura para deixar de pagar por ela (etapa 5).           |
 |5. [Mover o conteúdo do OneDrive do funcionário](get-access-to-and-back-up-a-former-user-s-data.md) <br/> |Quando você remove apenas a licença e não exclui a conta do usuário, o conteúdo do OneDrive permanece acessível para você mesmo após os 30 dias.  <br/><br/> Antes de excluir a conta, você deve migrar o conteúdo do OneDrive desse usuário para outro local de fácil acesso. Depois que você excluir a conta de um funcionário, o conteúdo no OneDrive será retido por **30** dias. No entanto, durante esses 30 dias você pode restaurar a conta do usuário e ter acesso ao conteúdo dele no OneDrive. Se você restaurar a conta do usuário, o conteúdo do OneDrive permanecerá acessível para você mesmo após os 30 dias.  <br/> |
 |5a. E se a pessoa usou o computador pessoal para acessar o OneDrive e o SharePoint?  <br/> |Se ela usou um computador pessoal em vez de um computador corporativo para baixar arquivos do OneDrive e do SharePoint, não há nenhuma maneira de apagar os arquivos armazenados por ela.  <br/><br/> Ela continuará a ter acesso a todos os arquivos que foram sincronizados no computador dela.  <br/> |
-|6. [Remover e excluir a licença do Office 365 de um ex-funcionário ](#remove-and-delete-the-office-365-license-from-a-former-employee)<br/> |Ao remover uma licença, você pode atribuí-la a outra pessoa. Ou pode excluir a licença para não pagar por ela até contratar outra pessoa.  <br/><br/> Quando você remove ou exclui uma licença, o antigo email, contatos e calendário do usuário são mantidos por **30 dias** e, em seguida, excluídos permanentemente. Se você remover ou excluir a licença, mas não excluir a conta do usuário, o conteúdo do OneDrive permanecerá acessível para você mesmo após os 30 dias.  <br/> |
+|6. [remover e excluir a licença do Microsoft 365 de um funcionário antigo](#remove-and-delete-the-microsoft-365-license-from-a-former-employee)<br/> |Ao remover uma licença, você pode atribuí-la a outra pessoa. Ou pode excluir a licença para não pagar por ela até contratar outra pessoa.  <br/><br/> Quando você remove ou exclui uma licença, o antigo email, contatos e calendário do usuário são mantidos por **30 dias** e, em seguida, excluídos permanentemente. Se você remover ou excluir a licença, mas não excluir a conta do usuário, o conteúdo do OneDrive permanecerá acessível para você mesmo após os 30 dias.  <br/> |
 |7. [Excluir a conta de usuário de um ex-funcionário](#delete-a-former-employees-user-account)<br/> |Isso remove a conta do seu centro de administração. Mantenha as coisas organizadas.  <br/> |
    
 ## <a name="save-the-contents-of-a-former-employees-mailbox"></a>Salvar o conteúdo da caixa de correio de um ex-funcionário
@@ -217,11 +217,11 @@ Se o ex-funcionário tinha um telefone da organização, você pode usar o Centr
     
     **Dica**: lembre-se de remover ou desabilitar o usuário do seu Blackberry Enterprise Service local. Você também deve desabilitar todos os dispositivos Blackberry desse usuário. Veja o Guia de Administração do Blackberry Business Cloud Services se precisar de etapas específicas para desabilitar o usuário. 
     
-## <a name="block-a-former-employees-access-to-office-365-data"></a>Bloquear o acesso de um ex-funcionário aos dados do Office 365
+## <a name="block-a-former-employees-access-to-microsoft-365-data"></a>Bloquear o acesso de um antigo funcionário aos dados do Microsoft 365
 <a name="bkmk_block"> </a>
 
  > [!IMPORTANT] 
- > Bloquear uma conta pode levar até 24 horas para entrar em vigor. Se precisar impedir imediatamente o acesso por logon de um usuário, você deve [redefinir a senha dele](reset-passwords.md) e iniciar um evento único que o desconecte das sessões do Office 365 em todos os dispositivos. Confira [Sair agora!](#sign-out-now)
+ > Bloquear uma conta pode levar até 24 horas para entrar em vigor. Se você precisar evitar imediatamente o acesso de entrada de um usuário, deverá redefinir a [senha](reset-passwords.md) e, em seguida, iniciar um evento de ocorrência única que o desconectará das sessões do Microsoft 365 em todos os dispositivos. Confira [Sair agora!](#sign-out-now)
  
 
 ::: moniker range="o365-worldwide"
@@ -260,7 +260,7 @@ Se o ex-funcionário tinha um telefone da organização, você pode usar o Centr
 ## <a name="block-a-former-employees-access-to-email-exchange-online"></a>Bloquear o acesso de um ex-funcionário ao email (Exchange Online)
 <a name="bkmk_block_email"> </a>
 
-Se você tiver um email do Office 365 como parte da sua assinatura do Office 365, você precisará fazer logon no Centro de administração do Exchange para seguir estas etapas para bloquear o acesso do ex-funcionário aos seus emails.
+Se você tiver email como parte da sua assinatura do Microsoft 365, você precisará fazer logon no centro de administração do Exchange para executar estas etapas para impedir que seu funcionário anterior acesse seus emails.
   
 
 1. Vá até o <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Centro de administração do Exchange</a>.
@@ -271,12 +271,12 @@ Se você tiver um email do Office 365 como parte da sua assinatura do Office 365
     
 4. Em **conectividade de email**, selecione **desabilitar** e responder **Sim** quando solicitado. 
     
-## <a name="remove-and-delete-the-office-365-license-from-a-former-employee"></a>Remover e excluir a licença do Office 365 de um ex-funcionário
+## <a name="remove-and-delete-the-microsoft-365-license-from-a-former-employee"></a>Remover e excluir a licença do Microsoft 365 de um funcionário antigo
 <a name="bkmk_remove"> </a>
 
-Para não continuar pagando uma licença depois que um funcionário sair da sua organização, remova a licença do Office 365 dele e a exclua da sua assinatura. Se preferir não excluir a licença da assinatura, é possível atribuí-la a outro usuário.
+Portanto, você não continua pagando por uma licença depois que alguém deixa sua organização, você precisa remover a licença do Microsoft 365 e excluí-la da sua assinatura. Se preferir não excluir a licença da assinatura, é possível atribuí-la a outro usuário.
   
-Quando você remove a licença, todos os dados do usuário são mantidos por 30 dias. Você pode [acessar](get-access-to-and-back-up-a-former-user-s-data.md) os dados ou [restaurar](restore-user.md) a conta se o usuário retornar. Após 30 dias, todos os dados do usuário (exceto os documentos armazenados no SharePoint Online) são excluídos permanentemente do Office 365 e não poderão ser recuperados. 
+Quando você remove a licença, todos os dados do usuário são mantidos por 30 dias. Você pode [acessar](get-access-to-and-back-up-a-former-user-s-data.md) os dados ou [restaurar](restore-user.md) a conta se o usuário retornar. Após 30 dias, todos os dados do usuário (exceto os documentos armazenados no SharePoint Online) são excluídos permanentemente do Microsoft 365 e não podem ser recuperados. 
 
 ::: moniker range="o365-worldwide"
 
@@ -339,7 +339,7 @@ Quando você remove a licença, todos os dados do usuário são mantidos por 30 
 
 Ao [Adicionar](add-users.md) outra pessoa à sua empresa, você será solicitado a comprar uma licença ao mesmo tempo, com apenas uma etapa!
     
-Saiba mais sobre como gerenciar licenças de usuário para o Office 365 para empresas em [Atribuir licenças a usuários no Office 365 para empresas](../manage/assign-licenses-to-users.md) e [Remover licenças de usuários no Office 365 para empresas](../manage/remove-licenses-from-users.md).
+Para obter mais informações sobre o gerenciamento de licenças de usuário para o Microsoft 365 for Business, consulte [assign licenses to Users in microsoft 365 for Business](../manage/assign-licenses-to-users.md)e [Remove licenses from Users in Microsoft 365 for Business](../manage/remove-licenses-from-users.md).
   
 ## <a name="how-the-deleted-employee-account-affects-skype-for-business"></a>Como a conta de funcionário excluída afeta o Skype for Business
 <a name="bkmk_remove"> </a>
@@ -392,7 +392,7 @@ Quando você exclui um usuário, a conta se torna inativa por aproximadamente 30
   
 ### <a name="does-your-organization-use-active-directory"></a>Sua organização usa o Active Directory?
 
-Se a sua organização sincroniza contas de usuário com o Office 365 de um ambiente local do Active Directory, você deve excluí-las e restaurá-las no serviço local do Active Directory. Não é possível excluí-las ou restaurá-las no Office 365.
+Se sua organização sincronizar as contas de usuário para a Microsoft 365 a partir de um ambiente local do Active Directory, você deverá excluir e restaurar essas contas de usuário no serviço local do Active Directory. Não é possível excluí-las ou restaurá-las no Office 365.
   
 Para obter instruções, consulte este artigo: [excluir uma conta de usuário](https://go.microsoft.com/fwlink/?linkid=841808).
   

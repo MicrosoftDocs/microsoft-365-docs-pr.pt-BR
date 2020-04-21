@@ -1,5 +1,5 @@
 ---
-title: Executar uma tomada de administração interna no Office 365
+title: Executar um administrador interno tomada
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -18,15 +18,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
-description: Saiba como verificar sua propriedade de email e domínio para assumir o controle de um locatário não gerenciado no Office 365
-ms.openlocfilehash: 3c732d55c533c72983aaa59e39e7bb8ff130f280
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Saiba como verificar sua propriedade de email e domínio para assumir o controle de um locatário não gerenciado no Microsoft 365
+ms.openlocfilehash: 1772ba9929433c87603d4b9d7027419063fd2fca
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212240"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627939"
 ---
-# <a name="perform-an-internal-admin-takeover-in-office-365"></a>Executar uma tomada de administração interna no Office 365
+# <a name="perform-an-internal-admin-takeover"></a>Executar um administrador interno tomada
 
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
 
@@ -67,11 +67,11 @@ Se você é um administrador e deseja assumir o controle de um locatário não g
   
 ## <a name="related-articles"></a>Artigos relacionados
 
-YouTube: [3 etapas para realizar uma Tomada de Controle do Administrador de TI para o Power BI e o Office 365](https://www.youtube.com/watch?v=xt5EsrQBZZk)
+YouTube: [3 etapas para fazer um tomada de administração de ti para o Power bi e o Microsoft 365](https://www.youtube.com/watch?v=xt5EsrQBZZk)
 
 [Tomada de administração no Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)
 
-[Obter ajuda com os domínios do Office 365](../get-help-with-domains/get-help-with-domains.md)
+[Obter ajuda com domínios](../get-help-with-domains/get-help-with-domains.md)
 
 [Usando a inscrição de autoatendimento em sua organização](self-service-sign-up.md)
   

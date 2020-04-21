@@ -23,22 +23,22 @@ search.appverid:
 - GEA150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Saiba como excluir uma conta de usuário. Decida o que fazer com o email do usuário, o conteúdo do OneDrive e se deseja manter a licença do produto ou parar de pagar por ela.
-ms.openlocfilehash: 59d06a075b5badeda410b4b25d60fa135b9ce5f7
-ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
+ms.openlocfilehash: 1d529627841c648684c8a9fe217a761b29749150
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43608111"
+ms.locfileid: "43617243"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Excluir um usuário da sua organização
   
 ||
 |:-----|
-|**Procurando como excluir sua *própria* conta de usuário do Office 365 que você usa no trabalho ou na escola? Entre em contato com o suporte técnico em seu trabalho ou universidade para executar estas etapas.**|
+|**Procurando como excluir sua *própria* conta de usuário do Microsoft 365 que você usa no trabalho ou na escola? Entre em contato com o suporte técnico em seu trabalho ou universidade para executar estas etapas.**|
    
 ## <a name="what-you-need-to-know-about-deleting-users"></a>O que você precisa saber sobre a exclusão de usuários
 
-- Apenas pessoas com permissões de [administração global do Office 365](about-admin-roles.md) ou de gerenciamento de usuários para empresas ou instituições de ensino podem excluir contas de usuário. 
+- Somente as pessoas com permissões de gerenciamento de usuário ou [administrador global do Microsoft 365](about-admin-roles.md) para a empresa ou escola podem excluir contas de usuário. 
     
 - Você tem até 30 dias para [restaurar](restore-user.md) a conta, antes que os dados do usuário sejam excluídos permanentemente. 
     
@@ -46,7 +46,7 @@ ms.locfileid: "43608111"
     
 - Se você deseja manter o email do usuário, **ANTES** de excluir a conta, mova o email para outro local. Se você excluiu a conta há menos de 30 dias, restaure-a, mova os dados de email e exclua-a. Confira [Obter acesso e realizar backup dos dados de um usuário anterior](get-access-to-and-back-up-a-former-user-s-data.md).
     
-- Se você tiver uma assinatura corporativa como o Office 365 Enterprise E3, poderá preservar os dados da caixa de correio de uma conta de usuário do Office 365 excluída, transformando-o em uma *caixa de correio inativa*. Saiba mais em [Gerenciar as caixas de correio inativas no Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/inactive-mailboxes-in-office-365).
+- Se você tiver uma assinatura corporativa como o Office 365 Enterprise E3, poderá preservar os dados da caixa de correio de uma conta de usuário excluída *transformando*-o em uma caixa de correio inativa. Saiba mais em [Gerenciar as caixas de correio inativas no Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/inactive-mailboxes-in-office-365).
 
 
 ## <a name="global-admin-delete-a-user-stop-paying-for-their-license-and-choose-what-to-do-with-their-email-and-onedrive-content"></a>Administração Global: excluir um usuário, parar de pagar por sua licença e escolher o que fazer com seus emails e conteúdo do OneDrive
@@ -176,13 +176,13 @@ Aqui estão os problemas mais comuns que as pessoas encontram ao excluir um usu�
   
 - **Você recebe uma mensagem de erro ao longo das linhas de "o usuário não pode ser excluído. Tente novamente mais tarde. "** Verifique se a conta do encaminhamento de emails foi configurada ou se foi convertida em uma caixa de correio compartilhada. Ambos causarão esse erro. Não exclua a conta se tiver encaminhamento de email ou se ele tiver sido convertido em uma caixa de correio compartilhada.
 
-- **Você não tem as permissões adequadas para excluir um usuário**. Somente as pessoas que são [administradores globais ou administradores de gerenciamento de usuários do Office 365](about-admin-roles.md) podem excluir usuários. Normalmente, esse é o suporte técnico disponível em sua escola ou empresa.
+- **Você não tem as permissões adequadas para excluir um usuário**. Somente as pessoas que são administradores [globais ou administradores de gerenciamento de usuários do Microsoft 365](about-admin-roles.md) podem excluir usuários. Normalmente, esse é o suporte técnico disponível em sua escola ou empresa.
 
 - **Você exclui o usuário, mas o nome dele continua aparecendo no catálogo de endereços global**. Isso acontece quando uma empresa está usando o Active Directory. Você precisa excluir a conta de usuário do Active Directory. Confira as instruções neste artigo do TechNet: [Excluir uma conta de usuário.](https://go.microsoft.com/fwlink/p/?linkid=841808)
 
 ||
 |:-----|
-|**Você deseja excluir o Office 365 do computador? Vá para a opção [Cancelar sua assinatura](../../commerce/subscriptions/cancel-your-subscription.md).**|
+|**Você deseja excluir o Microsoft 365 do seu computador? Vá para [cancelar sua assinatura](../../commerce/subscriptions/cancel-your-subscription.md).**|
    
 ## <a name="related-articles"></a>Artigos relacionados
 

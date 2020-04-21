@@ -1,5 +1,5 @@
 ---
-title: Redefinir senhas de negócios do Office 365
+title: Redefinir senha
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -25,15 +25,15 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
-description: 'Saiba como redefinir a senha de um usuário na assinatura comercial 365 do Office. '
-ms.openlocfilehash: a19999ceffa140343c079c6758cc831175c09ab1
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: 'Saiba como redefinir a senha de um usuário na assinatura do Microsoft 365 for Business. '
+ms.openlocfilehash: 0d8a68edb0b85094b271712f018eea79ca9f0aee
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237121"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626941"
 ---
-# <a name="reset-office-365-business-passwords"></a>Redefinir senhas de negócios do Office 365
+# <a name="reset-passwords"></a>Redefinir senha
 
 Assista a um pequeno vídeo sobre como redefinir senhas de usuário.<br><br>
 
@@ -45,9 +45,9 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 
 É altamente recomendado configurar o autoatendimento de redefinição de senha. Assim, você não precisa redefinir manualmente as senhas para os usuários. Para saber como, confira [Permitir que os usuários redefinam as próprias senhas no Office 365](let-users-reset-passwords.md).
   
-## <a name="reset-an-office-365-business-password-for-someone-else"></a>Redefinir uma senha do Office 365 Business para outra pessoa
+## <a name="reset-a-business-password-for-someone-else"></a>Redefinir uma senha de negócios para outra pessoa
 
-Esses procedimentos se destinam apenas às pessoas que usam um plano do Office 365 Business. Para fazer isso, você precisa entrar com sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../admin-overview/admin-overview.md)
+Estas etapas são apenas para pessoas que usam um plano Microsoft 365 para empresas. Para fazer isso, você precisa entrar com sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../admin-overview/admin-overview.md)
 
  
 ::: moniker range="o365-worldwide"
@@ -75,11 +75,11 @@ Esses procedimentos se destinam apenas às pessoas que usam um plano do Office 3
 4. Insira um endereço de email que o usuário possa acessar para que recebam a nova senha e acompanhe com eles para garantir que eles o tenham.
  
   
-## <a name="reset-my-office-365-tenant-admin-password"></a>Redefinir minha senha de administração de locatário do Office 365
+## <a name="reset-my-admin-password"></a>Redefinir minha senha de administrador
 
-Use estas etapas se você esqueceu sua senha, mas consegue entrar no Office 365 por exemplo, sua senha é salva no navegador: 
+Use estas etapas se você esqueceu sua senha, mas consegue entrar no Microsoft 365 porque, por exemplo, sua senha é salva no navegador: 
     
-1. No Office 365, selecione **configurações** \> **informações pessoais** **do Office 365** \> . 
+1. No Microsoft 365, selecione **configurações** \> **informações pessoais** **do Office 365** \> . 
           
 2. Verifique se os detalhes de **contato** e o **email alternativo** estão corretos. Caso contrário, altere-as agora. 
         
@@ -95,7 +95,7 @@ Se você esqueceu a senha e não consegue entrar:
     
 - Ou, [ligue para o suporte da Microsoft](https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&amp;rs=en-US&amp;ad=US#ID0EAADAAA=Phone_support_). 
     
-## <a name="reset-all-office-365-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>Redefinir todas as senhas do Office 365 Business para todos em sua organização ao mesmo tempo
+## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>Redefinir todas as senhas de negócios para todas as pessoas em sua organização ao mesmo tempo
 <a name="bkmk_forgot"> </a>
 
 Estas etapas funcionam para uma empresa com dezenas de usuários. Se você tiver centenas ou milhares de usuários, confira a próxima seção sobre redefinições de senha em massa.
@@ -112,14 +112,14 @@ Estas etapas funcionam para uma empresa com dezenas de usuários. Se você tiver
     
 
   
-## <a name="reset-office-365-business-passwords-in-bulk"></a>Redefinir senhas do Office 365 Business em massa
+## <a name="reset-business-passwords-in-bulk"></a>Redefinir senhas de negócios em massa
 <a name="bkmk_forgot"> </a>
 
 Use o PowerShell! Confira esta postagem por Eyal Doron: [Gerenciamento de senhas com o PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).
   
 Veja um artigo relacionado: [Definir senhas de várias contas de usuário](https://support.office.com/article/014fc912-bee1-461d-ad00-56b80428b907.aspx#bkmk_password).
   
-Confira informações de visão geral em [PowerShell para administradores do Office 365](https://support.office.com/article/40fdcbd4-c34f-42ab-8678-8b3751137ef1.aspx).
+Para obter informações gerais, consulte [PowerShell for Microsoft 365 Administrators](https://support.office.com/article/40fdcbd4-c34f-42ab-8678-8b3751137ef1.aspx).
   
 ## <a name="force-a-password-change-for-all-users-in-your-business"></a>Forçar uma alteração de senha para todos os usuários da sua empresa
 <a name="bkmk_forgot"> </a>
@@ -134,14 +134,14 @@ Experimente os procedimentos deste artigo: [Eu esqueci o nome de usuário ou a s
 ## <a name="related-articles"></a>Artigos relacionados
 <a name="bkmk_forgot"> </a>
   
-[Permitir que os usuários redefinam suas próprias senhas no Office 365](let-users-reset-passwords.md)
+[Permitir que os usuários redefinam suas próprias senhas](let-users-reset-passwords.md)
 
 [Definir a senha de um usuário individual para nunca expirar](set-password-to-never-expire.md)
 
 [Definir a política de expiração de senha para sua organização](../manage/set-password-expiration-policy.md)
 
-[Restaurar um usuário no Office 365](restore-user.md)
+[Restaurar um usuário](restore-user.md)
 
-[Remover um ex-funcionário do Office 365](remove-former-employee.md)
+[Remover um ex-funcionário](remove-former-employee.md)
 
-[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -16,16 +16,16 @@ ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
 ms.collection:
 - M365-security-compliance
 description: Este tópico explica a diferença entre o lixo eletrônico (spam) e o email em massa e os controles relacionados no Office 365.
-ms.openlocfilehash: 41dedd02febc40b73dc585961487f89bbc6db54a
-ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
+ms.openlocfilehash: 15ca00b007ef0b8470e1b30608a695a90bd638b2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43230949"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630828"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>Qual é a diferença entre lixo eletrônico e email em massa?
 
-Os clientes do Office 365 com caixas de correio no Exchange Online ou no Exchange Online Protection (EOP) clientes sem caixas de correio do Exchange Online às vezes perguntam: "Qual é a diferença entre lixo eletrônico e email em massa?" Este tópico explica a diferença e descreve os controles disponíveis no EOP.
+Os clientes do Microsoft 365 com caixas de correio no Exchange Online ou no Exchange Online Protection (EOP) clientes sem caixas de correio do Exchange Online às vezes perguntar: "Qual é a diferença entre lixo eletrônico e email em massa?" Este tópico explica a diferença e descreve os controles disponíveis no EOP.
 
 - O **lixo eletrônico** é spam, que são mensagens não solicitadas e indesejadas universalmente (quando identificadas corretamente). Por padrão, o EOP rejeita spam com base na reputação do servidor de email de origem. Se uma mensagem transmite a inspeção de IP de origem, ela é enviada para filtragem de spam. Se a mensagem for classificada como spam por filtragem de spam, a mensagem será (por padrão) entregue aos destinatários pretendidos e movida para a pasta lixo eletrônico.
 

@@ -19,22 +19,22 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 2c4cf347-b897-45c1-a71f-210bdc8f1061
-description: Saiba como rotear o tráfego para um site público existente hospedado fora do Office 365, se você tiver definido o Office 365 para gerenciar registros DNS para o seu domínio personalizado.
-ms.openlocfilehash: 3e71925f9b50e5520bd383aa5318db513202f6ec
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+description: Saiba como rotear o tráfego para um site público existente hospedado fora da Microsoft, se você tiver configurado o Microsoft para gerenciar registros DNS para o seu domínio personalizado.
+ms.openlocfilehash: 08a4e505f4e2a50b3e92cae00b62415e6d02551f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142534"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629114"
 ---
 # <a name="update-dns-records-to-keep-your-website-with-your-current-hosting-provider"></a>Atualizar registros DNS para manter seu site com seu provedor de hospedagem atual
 
- **Se você gerenciar seus registros de domínio do Office 365 em seu provedor de host DNS**, não precisa se preocupar com as etapas desse tópico. Seu site permanecerá no mesmo local e as pessoas ainda vão poder acessá-lo. 
+ **Se você gerencia os registros da Microsoft do seu domínio em seu provedor de Hospedagem de DNS**, não precisa se preocupar com as etapas deste tópico. Seu site permanecerá no mesmo local e as pessoas ainda vão poder acessá-lo. 
   
- **Se o Office 365 gerenciar os registros DNS** a fim de rotear o tráfego para um site público existente hospedado fora do Office 365, após adicionar o domínio ao Office 365, faça o seguinte: 
+ **Se a Microsoft gerencia seus registros DNS**, para rotear o tráfego para um site público existente hospedado fora da Microsoft, após adicionar seu domínio à Microsoft, faça o seguinte: 
   
 ## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a>Atualizar registros DNS no centro de administração do Microsoft 365
-1. No centro de administração, vá para a página **Configurar** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a> .
+1. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
 
 2. Na página **Domínios**, selecione o domínio que você usa para o site na lista de domínios e selecione **Configurações de DNS**, no Painel Gerenciamento. 
     
@@ -64,7 +64,7 @@ Além disso, você pode criar um registro CNAME para ajudar os clientes a encont
     
 Por último, faça o seguinte:
   
-[Atualize os registros NS do seu domínio](https://support.office.com/article/a46bec33-2c78-4f45-a96c-b64b2a5bae22.aspx) para apontá-los para o Office 365. 
+[Atualize os registros ns do seu domínio](https://support.office.com/article/a46bec33-2c78-4f45-a96c-b64b2a5bae22.aspx) para apontar para a Microsoft. 
   
-Quando os registros NS estiverem atualizados de forma a apontarem para o Office 365, seu domínio estará totalmente configurado. Os emails serão roteados para o Office 365 e o tráfego para o endereço do seu site vai continuar a ser direcionado para o seu provedor de hospedagem atual.
+Quando os registros NS foram atualizados para apontar para a Microsoft, seu domínio é configurado. Os emails serão roteados para a Microsoft, e o tráfego para o seu endereço de site continuará a ir para o host do site atual.
  

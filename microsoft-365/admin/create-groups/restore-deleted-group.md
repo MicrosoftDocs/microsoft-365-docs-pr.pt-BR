@@ -1,5 +1,5 @@
 ---
-title: Restaurar um grupo do Office 365 excluído
+title: Restaurar um grupo excluído
 ms.reviewer: arvaradh
 f1.keywords: CSH
 ms.author: mikeplum
@@ -18,21 +18,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
-description: Saiba como restaurar um grupo do Office 365 excluído.
-ms.openlocfilehash: 2efd8c35286d224c6a3ed185043c82ab4b8e954e
-ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
+description: Saiba como restaurar um grupo do Microsoft 365 excluído.
+ms.openlocfilehash: a0e7aef090528b3fa183fe08f9c4d06c86f94a10
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43547527"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630026"
 ---
-# <a name="restore-a-deleted-office-365-group"></a>Restaurar um Grupo do Office 365 excluído
+# <a name="restore-a-deleted-group"></a>Restaurar um grupo excluído
 
 Se você tiver excluído um grupo, ele será mantido por 30 dias por padrão. Este período de 30 dias é considerado uma "exclusão reversível" porque você ainda pode restaurar o grupo. Após 30 dias, o grupo e seu conteúdo associado são excluídos permanentemente e não podem ser restaurados.
 
 Quando um grupo de é restaurado, o seguinte conteúdo é restaurado:
   
-- Azure Active Directory (AD) grupos do Office 365, propriedades e membros.
+- Azure Active Directory (AD) Microsoft 365 groups Object, Properties e Members.
     
 - Endereços de email do grupo.
     
@@ -46,13 +46,14 @@ Quando um grupo de é restaurado, o seguinte conteúdo é restaurado:
     
 - Teams
 
-- Grupo e conteúdo de grupo do Yammer (se o grupo do Office 365 foi criado a partir do Yammer)
+- Grupo e conteúdo de grupo do Yammer (se o grupo Microsoft 365 foi criado a partir do Yammer)
 
 ## <a name="restore-a-group-that-you-own-by-using-outlook"></a>Restaurar um grupo que você possui usando o Outlook
 
-Se você for o proprietário de um grupo do Office 365, poderá restaurar o grupo em Outlook, seguindo estas etapas:
+Se você é o proprietário de um grupo do Microsoft 365, é possível restaurar o grupo em Outlook, seguindo estas etapas:
 
 1. Na [página grupos excluídos](https://outlook.office.com/people/group/deleted), selecione a opção **gerenciar grupos** no nó **grupos** e, em seguida, escolha **excluído**.
+
 2. Clique na guia **restaurar** ao lado do grupo que você deseja restaurar.
 
 Se o grupo excluído não aparecer aqui, entre em contato com um administrador.
@@ -65,7 +66,7 @@ Se você for um administrador global ou um administrador de grupos, poderá rest
 2. Expanda **grupos**e, em seguida, clique em **grupos excluídos**.
 3. Selecione o grupo que você deseja restaurar e clique em **restaurar grupo**.
   
-## <a name="permanently-delete-an-office-365-group"></a>Excluir permanentemente um grupo do Office 365
+## <a name="permanently-delete-a-microsoft-365-group"></a>Excluir permanentemente um grupo do Microsoft 365
 
 Às vezes, você pode querer limpar permanentemente um grupo sem esperar que o período de exclusão reversível de 30 dias expire. Para fazer isso, inicie o PowerShell e execute este comando para obter a ID de objeto do grupo:
   
@@ -86,13 +87,13 @@ Remove-AzureADMSDeletedDirectoryObject -Id <objectId>
 
 Para confirmar que o grupo foi limpo, execute o cmdlet  *Get-AzureADMSDeletedGroup*  novamente para confirmar que ele não aparece mais na lista de grupos temporariamente excluídos. Em alguns casos pode levar até 24 horas para que o grupo e todos os dados nele sejam excluídos permanentemente. 
   
-## <a name="got-questions-about-office-365-groups"></a>Você tem dúvidas sobre os Grupos do Office 365?
+## <a name="got-questions-about-microsoft-365-groups"></a>Você tem dúvidas sobre os grupos da Microsoft 365?
 
-Visite a [comunidade de tecnologia da Microsoft](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) para postar perguntas e participar de conversas sobre grupos do Office 365. 
+Visite a [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) para postar perguntas e participar de conversas sobre os grupos do Microsoft 365. 
   
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Gerenciar Grupos do Office 365 com o PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
+[Gerenciar os grupos do Microsoft 365 com o PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
   
 [Excluir grupos usando o cmdlet Remove-UnifiedGroup](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx)
   

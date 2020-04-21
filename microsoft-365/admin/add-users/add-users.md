@@ -1,5 +1,5 @@
 ---
-title: Adicionar usuários individualmente ou em massa ao Office 365
+title: Adicionar usuários individualmente ou em massa
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -23,17 +23,17 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 1970f7d6-03b5-442f-b385-5880b9c256ec
-description: Saiba como adicionar usuários ao Office 365, um de cada vez ou vários usuários ao mesmo tempo a partir de um arquivo CSV.
-ms.openlocfilehash: 708bce2cb5a2c1b6a621bffc3ce56a2744bb518d
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: Saiba como adicionar usuários ao Microsoft 365, um de cada vez ou vários usuários ao mesmo tempo a partir de um arquivo CSV.
+ms.openlocfilehash: 78e5cf2c3c0148a91d48355881c3aec331213fd5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237158"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43618855"
 ---
-# <a name="add-users-individually-or-in-bulk-to-office-365"></a>Adicionar usuários individualmente ou em massa ao Office 365
+# <a name="add-users-individually-or-in-bulk"></a>Adicionar usuários individualmente ou em massa
 
-Todas as pessoas da sua equipe devem ter uma conta de usuário para poder entrar e acessar o [Office 365 para empresas](https://go.microsoft.com/fwlink/?LinkID=519395). A maneira mais fácil de adicionar contas de usuário é adicionar uma de cada vez no centro de administração do Microsoft 365. Após executar esta etapa, os usuários terão licenças do Office 365, credenciais de entrada e caixas de correio do Office 365.
+As pessoas da sua equipe precisam de uma conta de usuário antes de entrarem e acessar [o Microsoft 365 for Business](https://go.microsoft.com/fwlink/?LinkID=519395). A maneira mais fácil de adicionar contas de usuário é adicionar uma de cada vez no centro de administração do Microsoft 365. Após executar esta etapa, seus usuários terão licenças do Microsoft 365, credenciais de entrada e caixas de correio do Microsoft 365.
 
 ::: moniker range="o365-worldwide"
 
@@ -42,13 +42,13 @@ Todas as pessoas da sua equipe devem ter uma conta de usuário para poder entrar
 
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
-2. Vá para **** > **usuários ativos**do usuários e selecione **Adicionar um usuário**.
+2. Vá para **Users** > **usuários ativos**do usuários e selecione **Adicionar um usuário**.
    
 3. No painel **Configurar o básico** , preencha as seguintes informações e selecione **Avançar**. 
   
 - **Nome** Preencha o primeiro, o último, o nome para exibição e o nome de usuário. 
     
-- **Domínio** Por exemplo, se o nome do usuário for Carlos e o domínio dele for contoso.com, ele entrará no Office 365 digitando carlos@contoso.com. 
+- **Domínio** Por exemplo, se o nome de usuário do usuário for Jakob, e seu domínio for contoso.com, ele entrará na digitação de jakob@contoso.com. 
     
 - **Configurações de senha** Escolha a senha gerada automaticamente ou crie sua própria senha forte para o usuário. 
     
@@ -69,14 +69,14 @@ Todas as pessoas da sua equipe devem ter uma conta de usuário para poder entrar
 
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.
 
-2. Vá para **** > **usuários ativos**do usuários e selecione **Adicionar um usuário**.
+2. Vá para **Users** > **usuários ativos**do usuários e selecione **Adicionar um usuário**.
    
   
    No painel **novo usuário** , preencha as informações a seguir. Selecione **Adicionar** quando terminar. 
   
 - **Nome** Preencha o nome, o sobrenome, o nome para exibição e o nome de usuário. 
     
-- **Domínio** Por exemplo, se o nome do usuário for Carlos e o domínio dele for contoso.com, ele entrará no Office 365 digitando carlos@contoso.com. 
+- **Domínio** Por exemplo, se o nome de usuário do usuário for Jakob, e seu domínio for contoso.com, ele entrará na digitação de jakob@contoso.com. 
     
 - **Informações de contato** Expanda para preencher um número de telefone celular, endereço e assim por diante. 
     
@@ -94,14 +94,14 @@ Todas as pessoas da sua equipe devem ter uma conta de usuário para poder entrar
 
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>.
 
-2. Vá para **** > **usuários ativos**do usuários e selecione **Adicionar um usuário**.
+2. Vá para **Users** > **usuários ativos**do usuários e selecione **Adicionar um usuário**.
    
   
    No painel **novo usuário** , preencha as informações a seguir. Selecione **Adicionar** quando terminar. 
   
 - **Nome** Preencha o nome, o sobrenome, o nome para exibição e o nome de usuário. 
     
-- **Domínio** Por exemplo, se o nome do usuário for Carlos e o domínio dele for contoso.com, ele entrará no Office 365 digitando carlos@contoso.com. 
+- **Domínio** Por exemplo, se o nome de usuário do usuário for Jakob, e seu domínio for contoso.com, ele entrará na digitação de jakob@contoso.com. 
     
 - **Informações de contato** Expanda para preencher um número de telefone celular, endereço e assim por diante. 
     
@@ -115,10 +115,10 @@ Todas as pessoas da sua equipe devem ter uma conta de usuário para poder entrar
 
 ::: moniker-end 
   
-Depois de adicionar usuários, você receberá uma notificação por email da equipe do Microsoft Online Services. O email incluirá a ID de usuário e a senha do Office 365 da pessoa para que ela possa entrar no Office 365. Informe os dados de logon do Office 365 aos novos usuários. Use seu processo normal para comunicar as novas senhas.
+Depois de adicionar usuários, você receberá uma notificação por email da equipe do Microsoft Online Services. O email conterá a ID de usuário e a senha da pessoa para que eles possam entrar no Microsoft 365. Você precisa informar ao novo usuário sobre suas informações de entrada do Microsoft 365. Use seu processo normal para comunicar as novas senhas.
 
 > [!NOTE]
->Se você criar usuários migrando caixas de correio, será necessário ativar as contas de usuário do Office 365 atribuindo licenças. Se você não atribuir uma licença a um usuário, a caixa de correio será desabilitada após um período de carência de 30 dias. Confira como [atribuir licenças aos usuários](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) usando o centro de administração do Microsoft 365.
+>Se você criar usuários migrando caixas de correio, será necessário ativar as contas de usuário atribuindo licenças. Se você não atribuir uma licença a um usuário, a caixa de correio será desabilitada após um período de carência de 30 dias. Confira como [atribuir licenças aos usuários](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) usando o centro de administração do Microsoft 365.
 
 ### <a name="video-add-and-manage-users-in-the-admin-center"></a>Vídeo: Adicionar e gerenciar usuários no centro de administração
 
@@ -130,7 +130,7 @@ Compartilhe o [Guia de início rápido do funcionário](https://support.office.c
   
 ## <a name="need-help"></a>Precisa de ajuda?
 
-[Entre em contato com o suporte do Office 365 para empresas](../contact-support-for-business-products.md).  
+[Entre em contato com o suporte da Microsoft 365 para empresas](../contact-support-for-business-products.md).  
 
 ## <a name="have-hundreds-or-thousands-of-users-to-add"></a>Você tem centenas ou milhares de usuários para adicionar?
 
@@ -143,16 +143,15 @@ Para adicionar vários usuários ao mesmo tempo, siga essas etapas:
     
 - **Usando o ActiveDirectory?** [Configurar a sincronização de diretório para o Office 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization). Use a ferramenta Azure AD Connect para replicar as contas de usuário do Active Directory (e outros objetos do Active Directory) no Office 365. A sincronização só adiciona as contas de usuário. Você precisará atribuir licenças aos usuários sincronizados antes que eles possam usar o email e outros aplicativos do Office.
     
-- **Migrar do Exchange?** [Maneiras de migrar várias contas de email para o Office 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration). Ao migrar várias caixas de correio para o Office 365 usando a substituição, a transferência ou um método híbrido do Exchange, você adicionará usuários automaticamente como parte da migração. A migração somente adiciona as contas de usuário. Você precisará atribuir licenças aos usuários para que eles possam usar emails e outros aplicativos do Office.
+- **Migrar do Exchange?** [Maneiras de migrar várias contas de email para o Office 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration). Ao migrar várias caixas de correio para o Microsoft 365 usando a substituição, a transferência ou um método híbrido do Exchange, você adicionará usuários automaticamente como parte da migração. A migração somente adiciona as contas de usuário. Você precisará atribuir licenças aos usuários para que eles possam usar emails e outros aplicativos do Office.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Adicionar um novo funcionário ao Office 365](add-new-employee.md)
+[Adicionar um novo funcionário ao Microsoft 365](add-new-employee.md)
 
 [Excluir um usuário da sua organização](delete-a-user.md)
 
-[Restaurar um usuário no Office 365](restore-user.md)
+[Restaurar um usuário no Microsoft 365](restore-user.md)
 
-[Adicionar vários usuários ao mesmo tempo para o Office 365](https://docs.microsoft.com/office365/enterprise/add-several-users-at-the-same-time)
-
+[Adicionar vários usuários ao mesmo tempo para o Microsoft 365](https://docs.microsoft.com/office365/enterprise/add-several-users-at-the-same-time)
 

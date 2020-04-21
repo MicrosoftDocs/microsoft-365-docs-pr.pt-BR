@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: e64ceac2-ae62-4d29-a9ee-6aab9870ae2b
 ROBOTS: NOINDEX
 description: Saiba como criar contatos no centro de administração e gerenciar sua lista de endereços global.
-ms.openlocfilehash: 44bd7319a369da84b8855c5d640b2797a173689e
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: fe402fd5d90147caa7c6ee2f3632749255c672b3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857386"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627915"
 ---
 # <a name="quick-help-contacts"></a>Ajuda rápida: Contatos
 
@@ -45,7 +45,7 @@ Meus contatos são contatos que você cria para si mesmo e seus usuários criam 
   
 ## <a name="how-does-everyone-get-to-the-contacts-i-created-in-the-admin-center"></a>Como todos podem acessar os contatos que eu criei no Centro de administração?
 
- Eles podem ir para **pessoas** no Office 365, expandir o **diretório** e selecionar **todos os contatos**. Ali, eles poderão ver todos os contatos e suas respectivas informações.
+ Eles podem ir para **pessoas** no Microsoft 365, expandir **diretório** e selecionar **todos os contatos**. Ali, eles poderão ver todos os contatos e suas respectivas informações.
   
 ## <a name="can-anyone-create-and-edit-these-organizational-contacts"></a>Qualquer pessoa pode criar e editar esses contatos organizacionais?
 
@@ -53,7 +53,7 @@ Não. Somente administradores **Globais** e do **Exchange** podem criar, editar 
   
 ## <a name="can-i-use-this-to-manage-my-business-clients"></a>Posso usar isso para gerenciar meus clientes de negócios?
 
-Você pode usar os contatos do Office 365 no seu gosto, mas há limitações. Aprenda outras maneiras de [gerenciar contatos](ways-to-manage-contacts.md).
+Você pode usar os contatos do Microsoft 365 no seu gosto, mas há limitações. Aprenda outras maneiras de [gerenciar contatos](ways-to-manage-contacts.md).
   
 ## <a name="how-do-i-bulk-import-organizational-contacts"></a>Como importar contatos organizacionais em massa?
 
@@ -61,4 +61,4 @@ Use o Windows PowerShell e um arquivo CSV (Valores Separados por Vírgulas) para
   
 ## <a name="what-if-my-question-still-hasnt-been-answered"></a>E se minha pergunta ainda não tiver sido respondida?
 
-Visite o restante da nossa [Ajuda para Administradores](../admin-home.yml) ou envie-nos seus comentários abaixo.
+Visite o restante da nossa [Ajuda para Administradores](../admin-home.md) ou envie-nos seus comentários abaixo.

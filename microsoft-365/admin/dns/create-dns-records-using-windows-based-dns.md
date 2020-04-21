@@ -1,5 +1,5 @@
 ---
-title: Criar registros DNS para o Office 365 usando DNS baseado no Windows
+title: Criar registros DNS para a Microsoft usando DNS baseado no Windows
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -19,21 +19,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
-description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em DNS baseado em Windows para o Office 365.
-ms.openlocfilehash: d33a2f79111f8951c3ec31ca5680877ad2e7d570
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em DNS baseado em Windows para Microsoft.
+ms.openlocfilehash: 3207a319880a23b71a17e80f3e9e77398fa79ef0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210559"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631364"
 ---
-# <a name="create-dns-records-for-office-365-using-windows-based-dns"></a>Criar registros DNS para o Office 365 usando DNS baseado no Windows
+# <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>Criar registros DNS para a Microsoft usando DNS baseado no Windows
 
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
    
 Se você hospedar seus próprios registros DNS usando um DNS baseado no Windows, siga as etapas neste artigo para configurar seus registros para email, Skype for Business Online e assim por diante.
   
-Para começar, você precisa [localizar seus registros DNS no DNS baseado no Windows](#find-your-dns-records-in-windows-based-dns) para que possa atualizá-los. Além disso, se você estiver planejando sincronizar seu Active Directory local com o Office 365, confira [endereço de email não roteável usado como um UPN no seu Active Directory local](#non-routable-email-address-used-as-a-upn-in-your-on-prem-active-directory).
+Para começar, você precisa [localizar seus registros DNS no DNS baseado no Windows](#find-your-dns-records-in-windows-based-dns) para que possa atualizá-los. Além disso, se você estiver planejando sincronizar o Active Directory local com a Microsoft, confira [endereço de email não roteável usado como UPN em seu Active Directory local](#non-routable-email-address-used-as-a-upn-in-your-on-prem-active-directory).
   
 Problemas com o fluxo de emails ou outros problemas após a adição de registros DNS, consulte [solucionar problemas após alterar seu nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
   
@@ -43,13 +43,13 @@ Problemas com o fluxo de emails ou outros problemas após a adição de registro
 ## <a name="add-mx-record"></a>Adicionar registro MX
 <a name="BKMK_add_MX"> </a>
 
-Adicione um registro MX para que o email de seu domínio se torne Office 365.
+Adicionar um registro MX para que o email do seu domínio seja fornecido para a Microsoft.
 - O registro MX adicionado inclui um valor (o valor **Aponta para o endereço**) que pode ter esta aparência: \<MX token\>.mail.protection.outlook.com, onde \<MX token\> é um valor, como MSxxxxxxx. 
-- Da linha MX na seção Exchange Online da página Adicionar registros DNS no Office 365, copie o valor listado em Pontos de endereçamento. Você usará esse valor no registro que está criando nesta tarefa. 
+- Na linha MX na seção Exchange Online da página Adicionar registros DNS no Microsoft, copie o valor listado em pontos para endereço. Você usará esse valor no registro que está criando nesta tarefa. 
 - Na página Gerenciador DNS para o domínio, vá para **ação** > **servidor de mensagens (MX)**. Para localizar esta página para o domínio, confira [localizar seus registros DNS no DNS baseado no Windows](#find-your-dns-records-in-windows-based-dns).  
 - Na caixa de diálogo **novo registro de recurso** , verifique se os campos estão definidos com precisão para os seguintes valores: 
     - Nome do host:  
-    - @Address: Cole os pontos no valor de endereço que você acabou de copiar do Office 365 aqui.  
+    - @Address: Cole o valor de pontos no endereço que você copiou da Microsoft aqui.  
     - Pref 
 - Selecione **salvar alterações**.
 - Remova qualquer registro MX obsoleto. Se você tiver registros MX antigos para este domínio que encaminhar emails para outro local, marque a caixa de seleção ao lado de cada registro antigo e selecione **excluir** > **OK**. 
@@ -57,10 +57,10 @@ Adicione um registro MX para que o email de seu domínio se torne Office 365.
 ## <a name="add-cname-records"></a>Adicionar registros CNAME
 <a name="BKMK_add_CNAME"> </a>
 
-Adicionar os registros CNAME necessários para o Office 365. Se houver registros CNAME adicionais listados no Office 365, adicione-os seguindo as mesmas etapas gerais mostradas aqui.
+Adicione os registros CNAME necessários para a Microsoft. Se houver registros CNAME adicionais listados no Microsoft, adicione-os seguindo as mesmas etapas gerais mostradas aqui.
   
 > [!IMPORTANT]
-> If you have Mobile Device Management (MDM) for Office365, then you must create two additional CNAME records. Siga o procedimento que você usou para os outros quatro registros CNAME, mas forneça os valores da tabela a seguir. Se você não tiver o MDM, ignore esta etapa. 
+> Se você tiver o gerenciamento de dispositivo móvel (MDM) para a Microsoft, deverá criar dois registros CNAME adicionais. Siga o procedimento que você usou para os outros quatro registros CNAME, mas forneça os valores da tabela a seguir. Se você não tiver o MDM, ignore esta etapa. 
 
 - Na página Gerenciador DNS para o domínio, vá para **ação** > **CNAME (CNAME)**.
 - Na caixa de diálogo **novo registro de recurso** , verifique se os campos estão definidos com precisão para os seguintes valores:  
@@ -84,10 +84,10 @@ Adicione o registro CNAME de Descoberta Automática do Skype for Business Online
     - Endereço: webdir.online.lync.com
 - Clique em **OK**.
    
-### <a name="add-two-cname-records-for-mobile-device-management-mdm-for-office-365"></a>Adicionar dois registros CNAME para o MDM (gerenciamento de dispositivo móvel) para o Office 365
+### <a name="add-two-cname-records-for-mobile-device-management-mdm-for-microsoft"></a>Adicionar dois registros CNAME para o gerenciamento de dispositivo móvel (MDM) para Microsoft
 
 > [!IMPORTANT]
-> If you have Mobile Device Management (MDM) for Office365, then you must create two additional CNAME records. Siga o procedimento que você usou para os outros quatro registros CNAME, mas forneça os valores da tabela a seguir. > (se você não tiver o MDM, poderá ignorar esta etapa.) 
+> Se você tiver o gerenciamento de dispositivo móvel (MDM) para a Microsoft, deverá criar dois registros CNAME adicionais. Siga o procedimento que você usou para os outros quatro registros CNAME, mas forneça os valores da tabela a seguir. > (se você não tiver o MDM, poderá ignorar esta etapa.) 
   
 
 Adicione o registro CNAME Enterpriseregistration do MDM.  
@@ -110,7 +110,7 @@ Adicione o registro CNAME Enterpriseenrollment do MDM.
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. If you already have an SPF record for your domain, don't create a new one for Office 365. Em vez disso, adicione os valores necessários do Office 365 ao registro atual, de modo que você tenha um  *único*  registro SPF que inclua os dois conjuntos de valores. 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já tiver um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. 
   
 Adicione o registro TXT SPF do seu domínio ajudar a evitar spam de email.
   
@@ -129,7 +129,7 @@ Adicione o registro TXT SPF do seu domínio ajudar a evitar spam de email.
 ## <a name="add-srv-records"></a>Adicionar registros SRV
 <a name="BKMK_add_SRV"> </a>
 
-Adicionar os dois registros SRV necessários para o Office 365.
+Adicione os dois registros SRV necessários para a Microsoft.
 
 Adicione o registro SRV SIP para a Webconferência do Skype for Business Online.  <br/> 
 -  Na página Gerenciador DNS do seu domínio, vá para **ação** \> **outros novos registros**. 
@@ -159,16 +159,16 @@ Adicione o registro SRV SIP para a federação do Skype for Business Online.
 ## <a name="add-a-record-to-verify-that-you-own-the-domain-if-you-havent-already"></a>Adicione um registro para verificar se você é o proprietário do domínio, se ainda não fez isso.
 <a name="BKMK_verify"> </a>
 
-Antes de adicionar os registros DNS para configurar seus serviços do Office 365, Office 365 terá que confirmar se você é o proprietário do domínio que está adicionando. Para tanto, você adicionará um registro, seguindo as etapas abaixo.
+Antes de adicionar os registros DNS para configurar seus serviços da Microsoft, a Microsoft precisa confirmar que você é o proprietário do domínio que você está adicionando. Para tanto, você adicionará um registro, seguindo as etapas abaixo.
   
 > [!NOTE]
 > Esse registro só é usado para confirmar que você é proprietário do domínio. Ele não afeta mais nada. 
   
 
-1. Coletar informações do Office 365.  <br/> 
+1. Coletar informações da Microsoft.  <br/> 
 2. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>. 
 3. Na página **domínios** , na coluna **ações** do domínio que você está verificando, selecione **Iniciar configuração**. 
-4. Na página **Adicionar um domínio ao Office 365** , selecione **Iniciar etapa 1**. 
+4. Na página **Adicionar um domínio à Microsoft** , selecione **Iniciar etapa 1**. 
 5. Na página **confirmar que você é o proprietário do domínio** , na lista suspensa **consulte as instruções para executar esta etapa com** , escolha **instruções gerais**. 
 6. Na tabela, copie o valor Destino ou Pontos para Endereço. Você precisará dele para a etapa seguinte. É recomendável copiar e colar este valor, para que todo o espaçamento permaneça correto.
 
@@ -182,14 +182,14 @@ Adicione um registro TXT.
 
 - Nome do host: @
 - Tipo: TXT
-- Endereço: Cole o valor de destino ou pontos para endereço que você acabou de copiar do Office 365 aqui.  
+- Endereço: Cole o valor de destino ou aponta para o endereço que você copiou da Microsoft aqui.  
 - Selecione **OK** > **concluído**.
 
-Verifique seu domínio no Office 365.  
+Verifique seu domínio no Microsoft.  
 > [!IMPORTANT]
 > Aguarde cerca de 15 minutos antes de fazer isso, para que o registro que você acabou de criar possa ser atualizado na Internet.       
 
-- Volte ao Office 365 e siga as etapas abaixo para solicitar uma seleção de verificação. A verificação procura o registro TXT adicionado na etapa anterior. Quando encontrar o registro TXT correto, o domínio será verificado.  
+- Volte para a Microsoft e siga as etapas abaixo para solicitar uma verificação de verificação. A verificação procura o registro TXT adicionado na etapa anterior. Quando encontrar o registro TXT correto, o domínio será verificado.  
 1. No centro de administração, vá para a página **Configurar** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a> .
 2. Na página **domínios** , na coluna **ação** para o domínio que você está verificando, selecione **Iniciar configuração**. 
 3. Na página **confirmar que você é o proprietário do domínio** , selecione **concluído, verificar agora**e, na caixa de diálogo de confirmação, selecione **concluir**. 
@@ -200,7 +200,7 @@ Verifique seu domínio no Office 365.
 ## <a name="non-routable-email-address-used-as-a-upn-in-your-on-prem-active-directory"></a>Endereço de email não roteável utilizado como um UPN no seu Active Directory local
 <a name="BKMK_ADNote"> </a>
 
-Se você pretende sincronizar seu Active Directory local ao Office 365, verifique se o sufixo do nome de usuário principal (UPN) do Active Directory é um sufixo de domínio válido e não um sufixo não suportado, como @contoso.local. Se você precisar alterar seu sufixo UPN, consulte [como preparar um domínio não roteável para a sincronização de diretórios](https://support.office.com/article/e7968303-c234-46c4-b8b0-b5c93c6d57a7).
+Se você estiver planejando sincronizar seu Active Directory local com a Microsoft, verifique se o sufixo UPN (nome principal de usuário) do Active Directory é um sufixo de domínio válido, e não um sufixo de domínio sem suporte, como @contoso. local. Se você precisar alterar seu sufixo UPN, consulte [como preparar um domínio não roteável para a sincronização de diretórios](https://support.office.com/article/e7968303-c234-46c4-b8b0-b5c93c6d57a7).
   
 > [!NOTE]
 >  Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 

@@ -15,19 +15,19 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 6f70de1b-a64d-4498-bfbd-be8c83a9c0fc
-description: Atualize as informações de contato da sua organização e escolha o tipo de comunicações relacionadas ao produto do Office 365 que você deseja receber.
-ms.openlocfilehash: 435848f1a5d594dc5cf2f1658ac4f6f89dc7af44
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Atualize as informações de contato da sua organização e escolha as comunicações relacionadas ao produto Microsoft 365 que você deseja receber.
+ms.openlocfilehash: 4a667757990ec30f4514b094fd1592831601e679
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362026"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628203"
 ---
 # <a name="change-your-contact-preferences-for-communications-from-microsoft"></a>Alterar suas preferências de contato para comunicações da Microsoft
 
-Use a página **Preferências de contato** para atualizar as informações de contato da sua organização e escolha o tipo de informações relacionadas ao produto do Office 365 que você deseja receber.
+Use a página **preferências de contato** para atualizar as informações de contato da sua organização e escolha as comunicações relacionadas ao produto Microsoft 365 que você deseja receber.
   
-Leia [Atualizar seu número de telefone e endereço de email de administrador no Office 365](update-phone-number-and-email-address.md) para informações sobre como alterar seu número de telefone celular e endereço de email de administrador.
+Leia [atualizar seu número de telefone e endereço de email do administrador no Microsoft 365](update-phone-number-and-email-address.md) para obter informações sobre como alterar seu número de telefone celular e endereço de email do administrador.
   
 Se você estiver procurando saber como alterar informações de perfil da empresa, como nome e endereço da organização, número de telefone principal da empresa e informações do contato técnico, confira [Alterar o endereço da sua organização, o email do contato técnico e outras informações](change-address-contact-and-more.md).
   
@@ -40,16 +40,14 @@ Se você estiver procurando saber como alterar informações de perfil da empres
 3. Escolha os tipos de informações relacionadas ao produto que você deseja receber.
 
 4. Digite o telefone comercial, o celular comercial ou o email comercial onde você deseja receber essas comunicações.
-    Você pode usar qualquer endereço de email, inclusive seu endereço de email do Office 365, para receber essas comunicações. Se você não adicionar um endereço de email para preferências de contato, seu endereço de email alternativo (na página **Informações pessoais**) será usado.
+    Você pode usar qualquer endereço de email, incluindo seu endereço de email da Microsoft, para receber essas comunicações. Se você não adicionar um endereço de email para preferências de contato, seu endereço de email alternativo (na página **Informações pessoais**) será usado.
 
 5. Selecione **Salvar**.
   
-Para o Office 365 Enterprise, o Office 365 Business Premium e o Office 365 Business Essentials, quando você se inscreveu pela primeira vez como administrador do Office 365, dependendo do país ou da região dos usuários em sua organização, os usuários podem ser inscritos automaticamente para receber comunicações relacionadas a produtos.
-  
-Para o Office 365 Small Business, dependendo do país ou da região, você poderá ter sido inscrito automaticamente para receber informações relacionadas ao produto.
+Para o Office 365 Enterprise, o Microsoft 365 Business Standard e o Microsoft 365 Business Basic, quando você se inscreveu pela primeira vez como administrador do Microsoft 365, dependendo do país ou da região dos usuários em sua organização, os usuários podem ser inscritos automaticamente para receber comunicações relacionadas ao produto.
   
 Para obter respostas para perguntas de cobrança, confira:
   
-- [Alterar os seus endereços de cobrança do Office 365 para empresas](../../commerce/billing-and-payments/change-your-billing-addresses.md)
+- [Alterar seus endereços de cobrança para o Microsoft 365 for Business](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
-- [Adicionar, atualizar ou remover um cartão de crédito no Office 365 para empresas](../../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
+- [Adicionar, atualizar ou remover um cartão de crédito ou uma conta bancária no Microsoft 365 for Business](../../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)

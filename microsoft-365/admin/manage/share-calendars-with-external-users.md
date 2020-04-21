@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: fb00dd4e-2d5f-4e8d-8ff4-94b2cf002bdd
 description: 'Saiba como permitir que seus usuários compartilhem seus calendários com usuários externos para reuniões e compromissos. '
-ms.openlocfilehash: 42bce53c3963c41684644d02dab18210f9ed828a
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: bd297fc2d684357d0500495e5a8263e5279efa39
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250567"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628035"
 ---
 # <a name="share-calendars-with-external-users"></a>Compartilhar calendários com usuários externos
 
-Muitas vezes, é necessário agendar reuniões com pessoas de fora de sua organização. Para simplificar o processo de encontrar horários de reunião que sejam adequados para todos, o Office 365 permite que você disponibilize calendários para "usuários externos", aqueles que precisam ver a disponibilidade de horário, mas não têm contas de usuário para seu ambiente do Office 365.
+Muitas vezes, é necessário agendar reuniões com pessoas de fora de sua organização. Para simplificar o processo de encontrar horários de reuniões mutuamente aceitos, a Microsoft 365 permite que você disponibilize calendários para "usuários externos", aqueles que precisam ver o horário de disponibilidade, mas não têm contas de usuário para seu ambiente do Microsoft 365.
   
 O compartilhamento de calendário é uma configuração global, o que significa que você, o administrador, pode habilitá-lo para todos os usuários no locatário. Depois que o compartilhamento é habilitado, os usuários podem usar o Outlook Web App para compartilhar seus calendários com qualquer pessoa dentro ou fora da organização. As pessoas dentro da organização podem exibir o calendário compartilhado lado a lado com seus próprios calendários. As pessoas de fora da organização receberão uma URL que poderá ser usada para exibir o calendário. Os usuários decidem quando e quanto compartilhar e quando manter seus calendários particulares.
   
@@ -44,7 +44,7 @@ O compartilhamento de calendário é uma configuração global, o que significa 
   
 2. Na página **suplementos &amp; de serviços** , selecione **calendário**.
   
-3. Na página **calendário** que é aberta, escolha se você deseja permitir que seus usuários compartilhem seus calendários com pessoas de fora de sua organização que tenham o Office 365 ou Exchange.
+3. Na página **calendário** que é aberta, escolha se você deseja permitir que seus usuários compartilhem seus calendários com pessoas de fora de sua organização que tenham o Microsoft 365 ou o Exchange.
     
 4. Escolha se você deseja permitir que usuários anônimos (usuários sem credenciais de logon) acessem calendários por meio de um convite por email.
 

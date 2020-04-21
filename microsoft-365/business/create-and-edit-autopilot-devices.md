@@ -24,15 +24,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
-description: Saiba como carregar dispositivos usando o piloto automático no Microsoft 365 Business. Você pode atribuir um perfil a um dispositivo ou a um grupo de dispositivos.
-ms.openlocfilehash: 640e4af7cccde83c87d90a875c1d44dead7255ca
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Saiba como carregar dispositivos usando o piloto automático no Microsoft 365 Business Premium. Você pode atribuir um perfil a um dispositivo ou a um grupo de dispositivos.
+ms.openlocfilehash: f2a7f801ae471352595a36b355a874b2de653326
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065964"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627385"
 ---
-# <a name="create-and-edit-autopilot-devices"></a>Criar e editar os dispositivos do AutoPilot
+# <a name="create-and-edit-autopilot-devices"></a>Crie e edite os dispositivos do AutoPilot
 
 ## <a name="upload-a-list-of-devices"></a>Carregar uma lista de dispositivos
 
@@ -44,7 +44,7 @@ Os dispositivos devem atender a estes requisitos:
     
 - Novos dispositivos que não foram transferidos pela experiência inicial pelo Windows
 
-1. No centro de administração do Microsoft 365 Business, escolha **dispositivos** \> **AutoPilot**.
+1. No centro de administração do Microsoft 365, escolha **dispositivos** \> **AutoPilot**.
   
 2. Na página **piloto automático** \> , escolha a guia **dispositivos** **Adicionar dispositivos**.
     

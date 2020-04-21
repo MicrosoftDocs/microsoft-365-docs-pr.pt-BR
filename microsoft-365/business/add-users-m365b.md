@@ -1,5 +1,5 @@
 ---
-title: Adicionar mais usuários ao Microsoft 365 Business
+title: Adicionar mais usuários
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -25,15 +25,15 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
-description: Conheça as etapas para adicionar facilmente novos usuários, proteger seus dispositivos e atribuir funções no Microsoft 365 Business.
-ms.openlocfilehash: 8181254aa56345e99e648c59474f4d7f8fa94990
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Conheça as etapas para adicionar facilmente novos usuários, proteger seus dispositivos e atribuir funções no Microsoft 365 Business Premium.
+ms.openlocfilehash: d57f7470d53a6c80e04872726c634f67f091fb0d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561551"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627465"
 ---
-# <a name="add-more-users-to-microsoft-365-business"></a>Adicionar mais usuários ao Microsoft 365 Business
+# <a name="add-more-users"></a>Adicionar mais usuários
 
 ## <a name="add-new-users"></a>Adicionar novos usuários
 
@@ -54,7 +54,7 @@ Para adicionar um usuário:
       
     ![Inserir informações do usuário no novo cartão de usuário](../media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
       
-    Na seção licenças de produto, **defina a configuração**de licença de produto do **Microsoft 365 Business** .
+    Na seção licenças de produto, defina a configuração de licença de produto do **Microsoft 365 Business Premium** como **ativado**.
       
     ![Definir a configuração da licença como na posição](../media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
   

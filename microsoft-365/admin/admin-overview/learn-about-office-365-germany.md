@@ -19,20 +19,20 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: Saiba mais sobre o Office 365 Alemanha.
-ms.openlocfilehash: 07b960548683c7a62e0ae3a28ade8c66dc4748a8
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: d992d437e40baaa105ca407d40bb81ff84d9e3f3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237102"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43623901"
 ---
 > [!NOTE]
 > O Office 365 Alemanha não está mais aceitando novos clientes ou implantando novos serviços. As novas regiões de nuvem na Alemanha, disponíveis no primeiro trimestre de 2020 para o Microsoft 365 e o Office 365, fornecerão a residência principal de dados do cliente na Alemanha, bem como a conectividade completa com a rede global de nuvem da Microsoft. 
 >
 
-# <a name="learn-about-office-365-germany"></a>Saiba mais sobre o Office 365 Germany.
+# <a name="learn-about-office-365-germany"></a>Saiba mais sobre o Office 365 Germany
 
-Office 365 Alemanha foi uma opção diferenciada para os serviços do Office 365 disponíveis na Europa. Ele ajudou a atender às necessidades dos clientes mais regulamentados na Alemanha, na União Europeia (UE) e na Associação Européia (EFTA) ao fornecer nossos serviços de produtividade líderes do setor para trabalho digital, de datacenters em alemão, com dados residência na Alemanha e acesso estrito aos dados e medidas de controle por meio de um modelo de confiança de dados exclusivo regido pela legislação alemã.
+Office 365 Alemanha foi uma opção diferenciada para os serviços do Office 365 disponíveis na Europa. Ele ajudou a atender às necessidades dos clientes mais regulamentados na Alemanha, na União Europeia (UE) e na Associação Européia (EFTA) ao fornecer nossos serviços de produtividade líderes do setor para trabalho digital, de data centers em alemão, com residências de dados na Alemanha e medidas de controle e acesso de dados estritos por meio de um modelo de confiança de dados exclusivo regido pela legislação alemã.
   
 O objeto de confiança de dados, T-Systems International, uma empresa alemã independente e subsidiária da Deutsche Telekom, controla o acesso lógico e físico aos dados dos clientes. Os dados dos clientes não podem ser acessados sem a aprovação ou a supervisão do objeto de confiança de dados, que é regido pelas leis alemãs.
   
@@ -44,7 +44,7 @@ As ofertas do plano do Office 365 Alemanha são alinhadas com as ofertas globais
   
 Os seguintes serviços e recursos estão disponíveis em alguns [planos de assinatura do Office 365 Germany](https://go.microsoft.com/fwlink/p/?linkid=839016). Além disso, confira o [Termos de Serviços Online](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=46).
   
-- Office 365 ProPlus, Office 2016 e Office 2013<sup>1</sup>. Observe que o Office 2013 requer o [uso da autenticação moderna do office 365 com clientes do Office](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016).
+- Microsoft 365 aplicativos para Enterprise, Office 2016 e Office 2013<sup>1</sup>. Observe que o Office 2013 requer o [uso da autenticação moderna do office 365 com clientes do Office](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016).
     
 - Exchange Online
     
@@ -58,7 +58,7 @@ Os seguintes serviços e recursos estão disponíveis em alguns [planos de assin
     
 - Aplicativos do Office para a Web
     
-- Vídeo do Office 365
+- Vídeo Microsoft 365
     
 - Project para a Web
     
@@ -66,7 +66,7 @@ Os seguintes serviços e recursos estão disponíveis em alguns [planos de assin
     
 - Grupos
     
-- Office 365 Security &amp; Compliance Center
+- Security &amp; Compliance Center
     
 - Sistema de Proteção de Dados do Cliente
     
@@ -84,7 +84,7 @@ Os seguintes serviços e recursos estão disponíveis em alguns [planos de assin
     
 - Delve
     
-<sup>1</sup>Os planos do Office 365 Germany incluem aplicativos de software cliente que são instalados e executados em um dispositivo do usuário final ("aplicativos de software cliente"), como o Office 365 ProPlus, o Office 2013 e o Office 2016. Aplicativos de software cliente não operam exclusivamente em datacenters da Alemanha e permitem que um usuário final acesse serviços online que não são [Serviços Online alemães](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). Para fins do seu contrato com a Microsoft, aplicativos de software cliente não são [Serviços Online alemães](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). Compromissos alemães de residência de dados e controle de acesso pela entidade de confiança de dados alemã somente se aplicam aos [Serviços Online alemães](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58).
+<sup>1</sup> Os planos do Office 365 Alemanha incluem aplicativos de software cliente que são instalados e executados no dispositivo do usuário final ("aplicativos de software cliente"), como os aplicativos do Microsoft 365 para empresas, Office 2013 e Office 2016. Aplicativos de software cliente não operam exclusivamente em datacenters da Alemanha e permitem que um usuário final acesse serviços online que não são [Serviços Online alemães](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). Para fins do seu contrato com a Microsoft, aplicativos de software cliente não são [Serviços Online alemães](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58). Compromissos alemães de residência de dados e controle de acesso pela entidade de confiança de dados alemã somente se aplicam aos [Serviços Online alemães](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=58).
   
 ## <a name="general-information"></a>Informações gerais
 
@@ -94,9 +94,9 @@ Os seguintes serviços e recursos estão disponíveis em alguns [planos de assin
 |Assinaturas, cobranças e suporte técnico  <br/> |Suporte baseado em Alemanha disponível em alemão e inglês para obter detalhes, consulte [contatar o suporte para produtos de negócios-ajuda para administradores](../contact-support-for-business-products.md).  <br/> |
 |Endereços IP e URLs  <br/> |Confira [Pontos de extremidade do Office 365 Alemanha](https://docs.microsoft.com/office365/enterprise/office-365-germany-endpoints).  <br/> |
 |Yammer  <br/> |Indisponível.  <br/> |
-|Versões do Office anteriores ao Office 2013 ou Office 365 ProPlus<sup>1</sup> <br/> |Sem suporte.  <br/> |
+|Versões do Office anteriores ao Office 2013 ou aplicativos da Microsoft 365 para Enterprise<sup>1</sup> <br/> |Sem suporte.  <br/> |
 |Office Lens  <br/> |Indisponível.  <br/> |
-|Capacidade de comprar um domínio dentro do Office 365  <br/> |Indisponível.  <br/> |
+|Capacidade de comprar um domínio de dentro do Microsoft 365  <br/> |Indisponível.  <br/> |
 |Repositório do SharePoint  <br/> |Cada aplicativo que está disponível em uma loja de aplicativos da Microsoft é fornecido pela Microsoft ou por um editor de aplicativos terceirizado e está sujeito a uma política de privacidade e termos e condições distintos. Os dados fornecidos através do uso de uma loja de aplicativos da Microsoft e de qualquer aplicativo podem ser acessados pela Microsoft ou pelo editor de aplicativos terceirizado, conforme aplicável, e transferidos, armazenados e processados nos Estados Unidos ou em qualquer outro país onde a Microsoft ou o editor do aplicativo e seus afiliados ou provedores de serviços disponham de instalações. Trabalhe com o editor do aplicativo para garantir que ele atenda aos requisitos para sua implantação do Office 365 Germany.  <br/> |
    
-Para uma visão mais detalhada dos serviços disponíveis para cada plano do Office 365, confira a [Descrição de serviços do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description).
+Para obter uma visão mais detalhada dos serviços disponíveis para cada plano do Microsoft 365, consulte a [Descrição de serviço do microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description).

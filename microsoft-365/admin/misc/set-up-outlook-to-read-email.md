@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 ms.assetid: 2e155154-bc66-48cc-8476-ab558c97115a
 description: Saiba como configurar uma conta de email no Outlook para Windows e Mac e sobre como instalar aplicativos do Office e acessar emails online.
-ms.openlocfilehash: f5be456c845381a07c380e4d480e03a39c42f0ed
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 6f256a9b528c5ee51490007f388b8d3bd5a92f02
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361232"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627783"
 ---
 # <a name="set-up-outlook-to-read-email"></a>Configurar o Outlook para ler emails
 
-Sua assinatura do Office 365 vem com um Outlook baseado na Web, mas se sua assinatura incluir aplicativos cliente do Office, você também receberá o Outlook para instalar no seu computador ou dispositivos pessoais.
+Sua assinatura do Microsoft 365 vem com um Outlook baseado na Web, mas se sua assinatura incluir aplicativos cliente do Office, você também receberá o Outlook para instalar no seu computador ou dispositivos pessoais.
   
 ## <a name="set-up-an-email-account-in-outlook"></a>Configurar uma conta de email no Outlook
 
@@ -62,15 +62,15 @@ Leia o [artigo completo](https://support.office.com/article/6e27792a-9267-4aa4-8
   
 ## <a name="how-do-i-access-my-mail-online"></a>Como faço para acessar meu email online?
 
-Depois de entrar no Office 365, selecione **Outlook**.
+Depois de entrar no Microsoft 365, selecione **Outlook**.
   
-![A página inicial do Office 365 com o aplicativo Outlook realçado](../../media/3ceee838-9d85-4af3-95a6-fbcee11036f4.png)
+![A página inicial do Microsoft 365 com o aplicativo do Outlook realçado](../../media/3ceee838-9d85-4af3-95a6-fbcee11036f4.png)
   
-Não consegue encontrar o aplicativo que está procurando? No inicializador de aplicativos, selecione **Todos os aplicativos** para ver uma lista em ordem alfabética dos aplicativos disponíveis do Office 365. Nesse local, você pode pesquisar um aplicativo específico. 
+Não consegue encontrar o aplicativo que está procurando? No inicializador de aplicativos, selecione **todos os aplicativos** para ver uma lista em ordem alfabética dos aplicativos do Microsoft 365 disponíveis para você. Nesse local, você pode pesquisar um aplicativo específico. 
   
 ## <a name="how-do-i-know-if-my-subscription-includes-office-apps"></a>Como saber se minha assinatura inclui aplicativos do Office?
 
-O Office 365 Business Premium e o Office 365 Business incluem aplicativos do Office. Para obter detalhes, consulte [office 365 Business Plans](https://go.microsoft.com/fwlink/p/?LinkId=723731)ou [Office 365 Enterprise Plans](https://go.microsoft.com/fwlink/p/?LinkId=800029).
+O Microsoft 365 Business Standard e o Microsoft 365 aplicativos para empresas incluem aplicativos do Office. Para obter detalhes, consulte [Microsoft 365 for Business Plans](https://go.microsoft.com/fwlink/p/?LinkId=723731)ou [Office 365 Enterprise Plans](https://go.microsoft.com/fwlink/p/?LinkId=800029).
   
 ## <a name="how-do-i-determine-what-subscription-i-have"></a>Como determinar qual assinatura eu tenho?
 

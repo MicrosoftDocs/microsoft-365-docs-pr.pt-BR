@@ -18,18 +18,18 @@ search.appverid:
 - GEA150
 ms.assetid: 87c24ae2-82e0-4d1e-be01-c3bcc3f18c60
 description: Saiba como obter um relatório de ativação do Office para saber quais usuários ativaram a assinatura do Office e identifique os usuários que podem precisar de mais ajuda.
-ms.openlocfilehash: 7a26928b654c222a2eef05371ff9b220cf59cfe4
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 632973c8d50dffd50725c46163e0af874c64b0c6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046970"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621217"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-office-activations"></a>Relatórios do Microsoft 365 no centro de administração-ativações do Microsoft Office
 
 O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividades em todos os produtos de sua organização. Ele possibilita detalhar até relatórios de um produto específico para que você tenha informações mais precisas sobre as atividades em cada produto. Confira o tópico [Visão geral de relatórios](activity-reports.md).
   
-O relatório Ativação do Office oferece uma visão de quais usuários têm a assinatura do Office ativada em ao menos um dispositivo. Ele oferece um detalhamento sobre ativações de assinatura do Office 365 ProPlus, do Project e do Visio Pro para Office 365, além de um detalhamento das ativações em computadores de mesa e dispositivos móveis. Esse relatório pode ser útil para ajudá-lo a identificar usuários que podem precisar de auxílio e suporte adicionais para ativar a assinatura do Office.
+O relatório Ativação do Office oferece uma visão de quais usuários têm a assinatura do Office ativada em ao menos um dispositivo. Ele fornece uma divisão dos aplicativos do Microsoft 365 para as ativações de assinatura Enterprise, Project e Visio pro para Office 365, bem como a divisão de ativações na área de trabalho e nos dispositivos. Esse relatório pode ser útil para ajudá-lo a identificar usuários que podem precisar de auxílio e suporte adicionais para ativar a assinatura do Office.
   
 > [!NOTE]
 > Você deve ser um administrador global, um leitor global ou um leitor de relatórios no Microsoft 365 ou um administrador do Exchange, do SharePoint, do teams ou do Skype for Business para ver os relatórios.  

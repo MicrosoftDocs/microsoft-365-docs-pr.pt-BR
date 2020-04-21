@@ -1,5 +1,5 @@
 ---
-title: Configurar o encaminhamento de email no Office 365
+title: Configurar encaminhamento de email
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,27 +21,27 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Configurar o encaminhamento de emails para uma ou mais contas de email usando o office365.
-ms.openlocfilehash: 963256aedb52ae0adf31790a74fbdb77ad2bb27e
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 5807649fa43d094fd8f05cf63e2905d7cdb6dd7d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142522"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628910"
 ---
-# <a name="configure-email-forwarding-in-office-365"></a>Configurar o encaminhamento de email no Office 365
+# <a name="configure-email-forwarding"></a>Configurar encaminhamento de email
   
-Como administrador de uma organização do Office 365, você pode ter requisitos da empresa para configurar o encaminhamento de emails para a caixa de correio de um usuário. O encaminhamento de email permite que você encaminhe mensagens de email enviadas para a caixa de correio de um usuário para a caixa de correio de outro usuário dentro ou fora da sua organização.
+Como administrador de uma organização, você pode ter requisitos da empresa para configurar o encaminhamento de emails para a caixa de correio de um usuário. O encaminhamento de email permite que você encaminhe mensagens de email enviadas para a caixa de correio de um usuário para a caixa de correio de outro usuário dentro ou fora da sua organização.
 
   
-## <a name="configure-email-forwarding"></a>Configurar o encaminhamento de emails
+## <a name="configure-email-forwarding"></a>Configurar encaminhamento de email
 
  Antes de configurar o encaminhamento de email, observe o seguinte: 
 
-- Após configurar o encaminhamento de email **, somente os** emails enviados para a caixa *de* correio serão encaminhados. 
+- Após configurar o encaminhamento de email **, somente os** emails enviados para a caixa *de* correio serão fowarded. 
     
 - O encaminhamento de email exige que a conta *de* tenha uma licença. Se você estiver configurando o encaminhamento de emails porque o usuário deixou sua organização, outra opção é [converter a caixa de correio em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md). Dessa forma, várias pessoas podem acessá-la. No entanto, uma caixa de correio compartilhada não pode exceder 50 GB. 
     
-Você deve ser um administrador do Exchange ou administrador global no Office 365 para executar estas etapas. Para obter mais informações, consulte o tópico [sobre funções de administrador](../add-users/about-admin-roles.md).
+Você deve ser um administrador do Exchange ou administrador global no Microsoft 365 para executar estas etapas. Para obter mais informações, consulte o tópico [sobre funções de administrador](../add-users/about-admin-roles.md).
 
 ::: moniker range="o365-worldwide"
 
@@ -56,7 +56,7 @@ Você deve ser um administrador do Exchange ou administrador global no Office 36
   
 4. Na página encaminhamento de email, selecione **encaminhar todos os emails enviados para esta caixa de correio**, insira o endereço de encaminhamento e escolha se deseja manter uma cópia dos emails encaminhados. Se você não vir essa opção, certifique-se de que uma licença é atribuída à conta de usuário. Selecione **Salvar alterações**.
     
-    *Para encaminhar para vários endereços de email*, você pode solicitar ao usuário que configure uma regra no Outlook para encaminhar para os endereços. Para saber mais, confira [usar regras para encaminhar mensagens automaticamente](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746). 
+    **Para encaminhar para vários endereços de email**, você pode solicitar ao usuário que configure uma regra no Outlook para encaminhar para os endereços. Para saber mais, confira [usar regras para encaminhar mensagens automaticamente](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746). 
     
      Ou, no centro de administração, [crie um grupo de distribuição](../setup/create-distribution-lists.md), [adicione os endereços a ele](add-user-or-contact-to-distribution-list.md)e configure o encaminhamento para apontar para a DL usando as instruções neste artigo.
     

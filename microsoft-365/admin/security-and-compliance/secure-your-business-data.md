@@ -1,5 +1,5 @@
 ---
-title: 10 principais formas de proteger planos corporativos do Office 365 e do Microsoft 365
+title: As 10 maneiras principais de proteger os planos do Microsoft 365 for Business
 f1.keywords:
 - CSH
 ms.author: sirkkuw
@@ -20,26 +20,26 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Proteja seus emails e dados de negócios contra ameaças da Cyber, incluindo ransomware, phishing e anexos mal-intencionados. '
-ms.openlocfilehash: d271e0351f784e1616e81e0f0124e65c3526ab91
-ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
+ms.openlocfilehash: 2f70bf8d7b3a98416eca288aaa68f12fde1ba211
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170959"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627687"
 ---
-# <a name="top-10-ways-to-secure-office-365-and-microsoft-365-business-plans"></a>10 principais formas de proteger planos corporativos do Office 365 e do Microsoft 365
+# <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>As 10 maneiras principais de proteger os planos do Microsoft 365 for Business
 
 Se você é uma organização pequena ou média, usando um dos planos de negócios da Microsoft e seu tipo de organização é direcionado a criminosos virtuais e hackers, use as orientações deste artigo para aumentar a segurança da sua organização. Esta orientação ajuda sua organização a atingir as metas descritas no manual de [campanha do cybersecurity da](https://go.microsoft.com/fwlink/?linkid=2015598&amp;clcid=0x409)faculdade do Harvard Kennedy.
   
 A Microsoft recomenda que você conclua as tarefas listadas na tabela a seguir que se aplicam ao seu plano de serviço. 
   
-||**Tarefa**|**Office 365 Business Premium**|**Microsoft 365 Business**|
+||**Task**|**Microsoft 365 Business Standard**|**Microsoft 365 Business Premium**|
 |:-----|:-----|:-----|:-----|
 |1  <br/> |[Configurar autenticação multifatorial](secure-your-business-data.md#setup) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |duas  <br/> |[Treinar os usuários](secure-your-business-data.md#train) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |3D  <br/> |[Usar contas de administrador dedicadas](secure-your-business-data.md#admin) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |4   <br/> |[Aumentar o nível de proteção contra malware no email](secure-your-business-data.md#malware) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|5   <br/> |[Proteger contra ransomware](secure-your-business-data.md#ransomware) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|5   <br/> |[Proteção contra ransomware](secure-your-business-data.md#ransomware) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |6   <br/> |[Parar o encaminhamento automático para email](secure-your-business-data.md#forwarding) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |7   <br/> |[Usar a criptografia de mensagem do Office](secure-your-business-data.md#encryption) <br/> ||![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |8   <br/> |[Proteger seu email contra ataques de phishing](secure-your-business-data.md#phishing) <br/> ||![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
@@ -55,7 +55,7 @@ Antes de começar, verifique sua pontuação de segurança do [microsoft 365](ht
 
 O uso da autenticação multifator é uma das maneiras mais fáceis e eficazes de aumentar a segurança da sua organização. É mais fácil do que parece, quando você faz logon, a autenticação multifator significa que você digitará um código de seu telefone para obter acesso ao Microsoft 365. Isso pode impedir que hackers assumam o controle se souberem sua senha. A autenticação multifator também é chamada de verificação em duas etapas. As pessoas podem adicionar a verificação em duas etapas à maioria das contas com facilidade, por exemplo, às contas do Google ou do Microsoft. Confira aqui como [Adicionar a verificação em duas etapas à sua conta pessoal da Microsoft](https://go.microsoft.com/fwlink/?linkid=2016403&amp;clcid=0x409).
   
-Para empresas que usam o Office 365 e o Microsoft 365, adicione uma configuração que exija que os usuários façam logon usando a autenticação multifator. Quando você fizer essa alteração, os usuários serão solicitados a configurar seu telefone para a autenticação de dois fatores na próxima vez em que fizerem logon.
+Para empresas que usam o Microsoft 365, adicione uma configuração que exija que os usuários façam logon usando a autenticação multifator. Quando você fizer essa alteração, os usuários serão solicitados a configurar seu telefone para a autenticação de dois fatores na próxima vez em que fizerem logon.
 Para ver um vídeo de treinamento sobre como configurar a MFA e como os usuários concluem a configuração, consulte [set up MFA](https://support.office.com/article/e12187b8-216a-4490-9e3b-df34a06fb787) and [User set up](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225).
   
 Para configurar a autenticação multifator:
@@ -71,9 +71,9 @@ Para configurar a autenticação multifator:
 5. Na janela pop-up, escolha **habilitar autenticação multifator**.
 
 
-Após configurar a autenticação multifator da sua organização, os usuários precisarão configurar a verificação em duas etapas em seus dispositivos. Para obter mais informações, confira [Configurar a verificação em duas etapas do Office 365](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14).
+Após configurar a autenticação multifator da sua organização, os usuários precisarão configurar a verificação em duas etapas em seus dispositivos. Para obter mais informações, consulte [Configurar a verificação em duas etapas para o Microsoft 365](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14).
   
-Para obter detalhes completos e recomendações completas, consulte [Configurar a autenticação multifator para usuários do Office 365](set-up-multi-factor-authentication.md).
+Para obter detalhes completos e recomendações completas, consulte [Configurar a autenticação multifator para usuários](set-up-multi-factor-authentication.md).
   
 ## <a name="2-train-your-users"></a>2: treinar os usuários
 <a name="train"> </a>
@@ -97,7 +97,7 @@ A Microsoft também recomenda que os usuários protejam suas contas de email pes
 ## <a name="3-use-dedicated-admin-accounts"></a>3: usar contas de administrador dedicadas
 <a name="admin"> </a>
 
-As contas administrativas que você usa para administrar seu ambiente do Office 365 ou do Microsoft 365 incluem privilégios elevados. Estes são alvos valiosos para hackers e criminosos virtuais. Use contas de administrador somente para administração. Os administradores devem ter uma conta de usuário separada para uso regular e não administrativo e só usarem a conta administrativa, quando necessário, para concluir uma tarefa associada à função de trabalho. Recomendações adicionais:
+As contas administrativas que você usa para administrar seu ambiente do Microsoft 365 incluem privilégios elevados. Estes são alvos valiosos para hackers e criminosos virtuais. Use contas de administrador somente para administração. Os administradores devem ter uma conta de usuário separada para uso regular e não administrativo e só usarem a conta administrativa, quando necessário, para concluir uma tarefa associada à função de trabalho. Recomendações adicionais:
   
 - Certifique-se de que as contas de administrador também estão definidas para a autenticação multifator. 
     
@@ -108,11 +108,11 @@ As contas administrativas que você usa para administrar seu ambiente do Office 
 ## <a name="4-raise-the-level-of-protection-against-malware-in-mail"></a>4: elevar o nível de proteção contra malware no email
 <a name="malware"> </a>
 
-O ambiente do Office 365 ou do Microsoft 365 inclui proteção contra malware, mas você pode aumentar essa proteção, bloqueando anexos com tipos de arquivo comumente usados para malware. Para resumir a proteção contra malware em email, veja um [pequeno vídeo de treinamento](https://support.office.com/article/02b5783a-eea0-42e8-8856-62440718c3f0)ou conclua as seguintes etapas:
+Seu ambiente do Microsoft 365 inclui proteção contra malware, mas você pode aumentar essa proteção, bloqueando anexos com tipos de arquivo comumente usados para malware. Para resumir a proteção contra malware em email, veja um [pequeno vídeo de treinamento](https://support.office.com/article/02b5783a-eea0-42e8-8856-62440718c3f0)ou conclua as seguintes etapas:
   
 1. Acesse [https://protection.office.com](https://protection.office.com) e entre com suas credenciais de conta de administrador. 
     
-2. No centro de conformidade com &amp; segurança do Office 365, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, escolha **política** \> **anti-malware**.
+2. No centro de &amp; conformidade de segurança, no painel de navegação esquerdo, **em gerenciamento de ameaças**, escolha **política** \> **anti-malware**.
     
 3. Clique duas vezes na política padrão para editar a política em toda a empresa.
     
@@ -155,8 +155,7 @@ Para criar uma regra de transporte de email, exiba um [vídeo de treinamento cur
 |Aplicar esta regra se. . .  <br/> |Qualquer anexo. . . correspondências de extensão de arquivo. . .  <br/> |Qualquer anexo. . . correspondências de extensão de arquivo. . .  <br/> |
 |Especificar palavras ou frases  <br/> |Adicione estes tipos de arquivos:  <br/> dotm, docm, xlsm, sltm, xla, xlam, XLL, pptm, potm, ppam, ppsm, sldm  <br/> |Adicione estes tipos de arquivos:  <br/> Ade, ADP, Ani, Bas, bat, CHM, cmd, com, CPL, CRT, HLP, HT, HTA, inf, ins, ISP, Job, js, jse, lnk, o mdb, o MDE, o registro, o MSC, o (a) msp, o. exe, o, o, o VB, vbe, vbs,  <br/> |
 |Faça o seguinte. . .  <br/> |Notificar o destinatário com uma mensagem  <br/> |Bloquear a mensagem. . . rejeitar a mensagem e incluir uma explicação  <br/> |
-|Fornecer texto da mensagem  <br/> |Não abra esses tipos de arquivos, a menos que você esteja esperando eles — porque os arquivos podem conter código mal-intencionado e saber que o remetente não é uma garantia de segurança.  <br/>|
-|
+|Fornecer texto da mensagem  <br/> |Não abra esses tipos de arquivos, a menos que você esteja esperando eles — porque os arquivos podem conter código mal-intencionado e saber que o remetente não é uma garantia de segurança.  <br/> ||
    
 > [!TIP]
 > Você também pode adicionar os arquivos que deseja bloquear à lista Antimalware na [etapa 4](#4-raise-the-level-of-protection-against-malware-in-mail).
@@ -190,7 +189,6 @@ Para criar uma regra de transporte de emails:
 |:-----|:-----|
 |Nome  <br/> |Impedir o encaminhamento automático de emails para domínios externos  <br/> |
 |Aplicar esta regra se...  <br/> |O remetente. . . é externo/interno. . . Dentro da organização  <br/> |
-|Adicionar condição  <br/> |O destinatário. . . é externo/interno. . . Fora da organização  <br/> |
 |Adicionar condição  <br/> |As propriedades da mensagem. . . inclua o tipo de mensagem. . . Avanço automático  <br/> |
 |Faça o seguinte...  <br/> |Bloquear a mensagem. . . rejeitar a mensagem e incluir uma explicação.  <br/> |
 |Fornecer texto da mensagem  <br/> |O encaminhamento automático de emails fora dessa organização é impedido por motivos de segurança.  <br/> |
@@ -220,7 +218,7 @@ No Outlook.com, selecione **proteger** no email. A proteção padrão **não é 
   
 ### <a name="to-receive-encrypted-email"></a>Para receber emails criptografados
 
-Se o destinatário tiver o Outlook 2013 ou o Outlook 2016 e uma conta de email do Office 365, verá um alerta sobre as permissões restritas do item no painel de leitura. Após abrir a mensagem, o destinatário pode exibir a mensagem como qualquer outra.
+Se o destinatário tiver o Outlook 2013 ou o Outlook 2016 e uma conta de email da Microsoft, verá um alerta sobre as permissões restritas do item no painel de leitura. Após abrir a mensagem, o destinatário pode exibir a mensagem como qualquer outra.
   
 Se o destinatário estiver usando outro cliente de email ou conta de email, como o Gmail ou o Yahoo, ele verá um link que permite que eles entrem em ler a mensagem de email ou solicitar uma senha de uso único para exibir a mensagem em um navegador da Web. Se os usuários não estiverem recebendo o email, peça que eles confiram a pasta spam ou lixo eletrônico. 
   
@@ -229,7 +227,7 @@ Para obter mais informações, consulte [enviar, exibir e responder a mensagens 
 ## <a name="8-protect-your-email-from-phishing-attacks"></a>8. proteger seu email contra ataques de phishing
 <a name="phishing"> </a>
 
-Se você configurou um ou mais domínios personalizados para o seu ambiente do Office 365 ou do Microsoft 365, é possível configurar a proteção antiphishing dirigida. A proteção antiphishing da ATP, parte da proteção avançada contra ameaças do Office 365, pode ajudar a proteger sua organização contra ataques de phishing baseados em representação mal-intencionada e outros ataques de phishing. Se você não configurou um domínio personalizado, não é necessário fazer isso.
+Se você configurou um ou mais domínios personalizados para seu ambiente do Microsoft 365, é possível configurar a proteção antiphishing dirigida. A proteção antiphishing da ATP, parte da proteção avançada contra ameaças do Office 365, pode ajudar a proteger sua organização contra ataques de phishing baseados em representação mal-intencionada e outros ataques de phishing. Se você não configurou um domínio personalizado, não é necessário fazer isso.
   
 Recomendamos que você comece a usar essa proteção criando uma política para proteger seus usuários mais importantes e seu domínio personalizado. 
   
@@ -239,7 +237,7 @@ Para criar uma política anti-phishing do ATP, exiba um [vídeo de treinamento c
   
 1. Acesse [https://protection.office.com](https://protection.office.com). 
     
-2. No centro de conformidade com &amp; segurança do Office 365, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, selecione **política**.
+2. No centro de &amp; conformidade de segurança, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, selecione **política**.
     
 3. Na página política, selecione a **ATP anti-phishing**.
     
@@ -249,16 +247,8 @@ Para criar uma política anti-phishing do ATP, exiba um [vídeo de treinamento c
     
 6. Depois de revisar suas configurações, selecione **criar esta política** ou **salvar**, conforme apropriado.
     
-|**Configuração ou opção**|**Configuração recomendada** <br/>|
-| :-------| :-----|
-|Nome  <br/> |O domínio e a equipe de campanha mais valiosa  <br/> |
-|Descrição  <br/> |Garantir que a equipe mais importante e nosso domínio não estão sendo representados.  <br/> |
-|Adicionar usuários para proteger  <br/> |Selecione **+ Adicionar uma condição, o destinatário é**. Digite nomes de usuário ou insira o endereço de email do candidato, o gerente de campanha e outros membros importantes da equipe. Você pode adicionar até 20 endereços internos e externos que você deseja proteger da representação.  <br/> |
-|Adicionar domínios para proteger  <br/> |Selecione **+ Adicionar uma condição, o domínio do destinatário é**. Insira o domínio personalizado associado à sua assinatura do Microsoft 365, se você tiver definido um. Você pode inserir mais de um domínio.  <br/> |
-|Escolher ações  <br/> |Se o email for enviado por um usuário representado: selecione **redirecionar mensagem para outro endereço de email**e digite o endereço de email do administrador de segurança; por exemplo, securityadmin@contoso.com.          Se o email for enviado por um domínio representado: selecione **mensagem de quarentena**.  <br/> |
-|Inteligência de caixa de correio  <br/> |Por padrão, a inteligência de caixa de correio é selecionada quando você cria uma nova política anti-phishing. Deixe esta configuração **em** para obter os melhores resultados.  <br/> |
-|Adicionar domínios e remetentes confiáveis  <br/> |Para este exemplo, não defina substituições.  <br/> |
-|Aplicado a  <br/> |Selecione **o domínio do destinatário**. Em **qualquer um dos seguintes**, selecione **escolher**. Selecione **+ Adicionar**. Marque a caixa de seleção ao lado do nome do domínio, por exemplo, contoso.com, na lista e selecione **Adicionar**. Selecione **Concluído**.  <br/> |
+| | | Configuração **ou opção**|**configuração recomendada** <br/>
+| Tdomínio  <br/> | O domínio e a equipe de campanha mais valiosa  <br/> | | Descrição  <br/> | Garantir que a equipe mais importante e nosso domínio não estão sendo representados.  <br/> | | Adicionar usuários para proteger  <br/> | Selecione **+ Adicionar uma condição, o destinatário é**. Digite nomes de usuário ou insira o endereço de email do candidato, o gerente de campanha e outros membros importantes da equipe. Você pode adicionar até 20 endereços internos e externos que você deseja proteger da representação.  <br/> | | Adicionar domínios para proteger  <br/> | Selecione **+ Adicionar uma condição, o domínio do destinatário é**. Insira o domínio personalizado associado à sua assinatura do Microsoft 365, se você tiver definido um. Você pode inserir mais de um domínio.  <br/> | | Escolher ações  <br/> | Se o email for enviado por um usuário representado: selecione **redirecionar mensagem para outro endereço de email**e digite o endereço de email do administrador de segurança; por exemplo, securityadmin@contoso.com.          Se o email for enviado por um domínio representado: selecione **mensagem de quarentena**.  <br/> | | Inteligência de caixa de correio  <br/> | Por padrão, a inteligência de caixa de correio é selecionada quando você cria uma nova política anti-phishing. Deixe essa configuração **Ativada** para obter melhores resultados.  <br/> | | Adicionar domínios e remetentes confiáveis  <br/> | Para este exemplo, não defina substituições.  <br/> | | Aplicado a  <br/> | Selecione **o domínio do destinatário**. Em **Qualquer um desses**, selecione **Escolher**. Selecione **+ Adicionar**. Marque a caixa de seleção ao lado do nome do domínio, por exemplo, contoso.com, na lista e selecione **Adicionar**. Selecione **Concluído**.  <br/> |
    
 Para obter mais informações, consulte [set up Office 365 ATP anti-phishing Policies](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409).
   
@@ -271,7 +261,7 @@ Para criar uma política de anexo seguro de ATP, veja um [breve vídeo de treina
   
 1. Acesse [https://protection.office.com](https://protection.office.com) e entre com sua conta de administrador. 
     
-2. No centro de conformidade com &amp; segurança do Office 365, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, selecione **política**.
+2. No centro de &amp; conformidade de segurança, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, selecione **política**.
     
 3. Na página política, selecione **anexos seguros de ATP**.
     
@@ -282,15 +272,8 @@ Para criar uma política de anexo seguro de ATP, veja um [breve vídeo de treina
 6. Aplicar as configurações na tabela a seguir. 
     
 7. Depois de revisar suas configurações, selecione **criar esta política** ou **salvar**, conforme apropriado.
-
-|**Configuração ou opção**|**Configuração recomendada** <br/>|
-| :-------| :-----|
-|Nome  <br/> |Bloquear emails atuais e futuros com malware detectado.  <br/> |
-|Descrição  <br/> |Bloquear emails e anexos atuais e futuros com malware detectado.  <br/> |
-|Salvar anexos resposta desconhecida de malware  <br/> |Selecione **Bloquear – bloquear emails e anexos atuais e futuros com malware detectado**.  <br/> |
-|Redirecionar o anexo na detecção  <br/> |Habilitar o redirecionamento (Selecione esta caixa) Insira a conta de administrador ou uma configuração de caixa de correio para quarentena.          Aplica a seleção acima se a verificação de malware por anexos expira ou quando ocorre um erro (Selecione esta caixa).  <br/> |
-|Aplicado a  <br/> |O domínio do destinatário é. . . Selecione seu domínio.  <br/> |
-|
+    
+| | | Configuração **ou opção**|**configuração recomendada** <br/>| | Tdomínio  <br/> | Bloquear emails atuais e futuros com malware detectado.  <br/> | | Descrição  <br/> | Bloquear emails e anexos atuais e futuros com malware detectado.  <br/> | | Salvar anexos resposta desconhecida de malware  <br/> | Selecione **Bloquear – bloquear emails e anexos atuais e futuros com malware detectado**.  <br/> | | Redirecionar o anexo na detecção  <br/> | Habilitar o redirecionamento (Selecione esta caixa) Insira a conta de administrador ou uma configuração de caixa de correio para quarentena.          Aplica a seleção acima se a verificação de malware por anexos expira ou quando ocorre um erro (Selecione esta caixa).  <br/> | | Aplicado a  <br/> | O domínio do destinatário é. . . Selecione seu domínio.  <br/> |
    
 Para obter mais informações, consulte [set up Office 365 ATP anti-phishing Policies](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409).
   
@@ -309,7 +292,7 @@ Para obter links seguros de ATP, exiba um [vídeo de treinamento curto](https://
   
 1. Acesse [https://protection.office.com](https://protection.office.com) e entre com sua conta de administrador. 
     
-2. No centro de conformidade com &amp; segurança do Office 365, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, selecione **política**.
+2. No centro de &amp; conformidade de segurança, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, selecione **política**.
     
 3. Na página política, selecione **links seguros de ATP**.
     
@@ -317,7 +300,7 @@ Para modificar a política padrão:
   
 1. Na página de links seguros, em **políticas que se aplicam a toda a organização**, selecione a política **padrão** . 
     
-2. Em **configurações que se aplicam ao conteúdo exceto email**, selecione **Office 365 ProPlus, Office para IOS e Android**.
+2. Em **configurações que se aplicam ao conteúdo exceto email**, selecione **Microsoft 365 aplicativos para empresas, Office para IOS e Android**.
     
 3. Selecione **Salvar**. 
     
@@ -329,12 +312,6 @@ Para criar uma nova política direcionada para todos os destinatários em seu do
     
 3. Selecione **Salvar**. 
     
-**Configuração ou opção**|**Configuração recomendada** <br/>|
-| :-------| :-----|
-|Nome  <br/> |Política de links seguros para todos os destinatários no domínio  <br/> |
-|Selecione a ação para URLs possivelmente mal-intencionadas desconhecidas em mensagens  <br/> |Selecione as **URLs que serão reconfiguradas e verificadas em relação a uma lista de links mal-intencionados conhecidos quando o usuário clicar no link**.  <br/> |
-|Usar anexos seguros para examinar Conteúdo baixável  <br/> |Selecione essa caixa.  <br/> |
-|Aplicado a  <br/> |O domínio do destinatário é. . . Selecione seu domínio.  <br/> |
-|
+| | | Configuração **ou opção**|**configuração recomendada** <br/>| | Tdomínio  <br/> | Política de links seguros para todos os destinatários no domínio  <br/> | | Selecione a ação para URLs possivelmente mal-intencionadas desconhecidas em mensagens  <br/> | Selecione as **URLs que serão reconfiguradas e verificadas em relação a uma lista de links mal-intencionados conhecidos quando o usuário clicar no link**.  <br/> | | Usar anexos seguros para examinar Conteúdo baixável  <br/> | Selecione essa caixa.  <br/> | | Aplicado a  <br/> | O domínio do destinatário é. . . Selecione seu domínio.  <br/> |
    
 Para obter mais informações, consulte [Office 365 ATP Safe links](https://go.microsoft.com/fwlink/?linkid=2016138&amp;clcid=0x409).

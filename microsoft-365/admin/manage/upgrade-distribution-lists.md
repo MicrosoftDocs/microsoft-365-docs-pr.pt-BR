@@ -1,5 +1,5 @@
 ---
-title: Atualizar listas de distribuição para grupos do Office 365 no Outlook
+title: Atualizar listas de distribuição para grupos do Microsoft 365 no Outlook
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -18,31 +18,31 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
-description: Saiba como atualizar uma ou várias listas de distribuição para grupos do Office 365 no Outlook e como usar o PowerShell para atualizar várias listas de distribuição simultaneamente.
-ms.openlocfilehash: c3acf1d47a37d79d666b1b951bea704c273ccf09
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Saiba como atualizar uma ou várias listas de distribuição para grupos do Microsoft 365 no Outlook e como usar o PowerShell para atualizar várias listas de distribuição simultaneamente.
+ms.openlocfilehash: 14eeedcc898c13c31362731699f575bc06f96878
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212276"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627987"
 ---
-# <a name="upgrade-distribution-lists-to-office-365-groups-in-outlook"></a>Atualizar listas de distribuição para grupos do Office 365 no Outlook
+# <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Atualizar listas de distribuição para grupos do Microsoft 365 no Outlook
 
-Você pode atualizar as listas de distribuição para grupos do Office 365 com o Outlook. Essa é uma ótima maneira de fornecer a distribuição da organização lista todos os recursos e a funcionalidade dos grupos do Office 365. [Por que você deve atualizar suas listas de distribuição para grupos no Outlook](https://support.office.com/article/7fb3d880-593b-4909-aafa-950dd50ce188.aspx)
+Você pode atualizar as listas de distribuição para os grupos do Microsoft 365 com o Outlook. Essa é uma ótima maneira de fornecer a distribuição da organização lista todos os recursos e a funcionalidade dos grupos do Microsoft 365. [Por que você deve atualizar suas listas de distribuição para grupos no Outlook](https://support.office.com/article/7fb3d880-593b-4909-aafa-950dd50ce188.aspx)
 
 Você pode atualizar uma ou várias DLs ao mesmo tempo.
 
-## <a name="upgrade-one-or-many-distribution-lists-to-office-365-groups-in-outlook"></a>Atualizar uma ou várias listas de distribuição para grupos do Office 365 no Outlook
+## <a name="upgrade-one-or-many-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Atualizar uma ou várias listas de distribuição para grupos do Microsoft 365 no Outlook
 
-Você deve ser um administrador global do Office 365 ou um administrador do Exchange para atualizar uma lista de distribuição. Para atualizar para os grupos do Office 365, um grupo de distribuição deve ter um proprietário com uma caixa de correio. 
+Você deve ser um administrador global ou administrador do Exchange para atualizar uma lista de distribuição. Para atualizar para os grupos do Microsoft 365, um grupo de distribuição deve ter um proprietário com uma caixa de correio. 
 
 1. Vá até o <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Centro de administração do Exchange</a>.
 
-2. No centro de administração do Exchange, vá para **grupos**de **destinatários** \> .<br/>Você verá um aviso indicando que você tem listas de distribuição (também chamadas de **grupos de distribuição** ) qualificadas para serem atualizadas para grupos do Office 365.<br/> ![Selecionar o botão introdução](../../media/8cf838b4-2644-401f-a366-08c1eea183eb.png)
+2. No centro de administração do Exchange, vá para **grupos**de **destinatários** \> .<br/>Você verá um aviso indicando que você tem listas de distribuição (também chamadas de **grupos de distribuição** ) qualificadas para serem atualizadas para os grupos do Microsoft 365.<br/> ![Selecionar o botão introdução](../../media/8cf838b4-2644-401f-a366-08c1eea183eb.png)
 
 3. Selecione uma ou mais listas de distribuição (também chamadas de **grupo de distribuição** ) na página **grupos** .<br/>![Selecionar um grupo de distribuição](../../media/2c303433-d60b-4100-a6ae-5809b03a8cdb.png)
 
-4. Selecione o ícone upgrade.<br/>![Atualizar para o ícone de grupos do Office 365](../../media/1e28cb3d-bff3-4be3-8329-1902d2d54720.png)
+4. Selecione o ícone upgrade.<br/>![Ícone de atualização para o Microsoft 365 groups](../../media/1e28cb3d-bff3-4be3-8329-1902d2d54720.png)
 
 5. Na caixa de diálogo informações, selecione **Sim** para confirmar a atualização. O processo começa imediatamente. Dependendo do tamanho e do número de DLs que você está atualizando, o processo pode levar minutos ou horas.<br/>Se a lista de distribuição não puder ser atualizada, uma caixa de diálogo aparecerá dizendo isso. Veja [quais listas de distribuição não podem ser atualizadas?](#which-distribution-lists-cannot-be-upgraded).
 
@@ -77,7 +77,7 @@ Por exemplo, se você quiser atualizar uma DLs com o endereço SMTP dl1@contoso.
 `Upgrade-DistributionGroup -DlIdentities dl1@contoso.com`
 
 > [!NOTE]
-> Você também pode atualizar uma única lista de distribuição para um grupo do Office 365 usando o cmdlet [New-unificado](https://go.microsoft.com/fwlink/?LinkID=786379) do PowerShell
+> Você também pode atualizar uma única lista de distribuição para um grupo do Microsoft 365 usando o cmdlet [New-unificado](https://go.microsoft.com/fwlink/?LinkID=786379) do PowerShell
 
 ### <a name="upgrade-multiple-dls-in-a-batch"></a>Atualizar várias DLs em um lote
 
@@ -116,7 +116,7 @@ Get-DistributionGroup| Foreach-Object{
 }
 ```
 
-## <a name="faq-about-upgrading-distribution-lists-to-office-365-groups-in-outlook"></a>Perguntas frequentes sobre como atualizar listas de distribuição para grupos do Office 365 no Outlook
+## <a name="faq-about-upgrading-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Perguntas frequentes sobre como atualizar listas de distribuição para grupos do Microsoft 365 no Outlook
 
 ### <a name="which-distribution-lists-cannot-be-upgraded"></a>Quais listas de distribuição não podem ser atualizadas?
 
@@ -149,11 +149,11 @@ Se você deseja verificar quais DLs estão qualificados para atualização, bast
 
 ### <a name="who-can-run-the-upgrade-scripts"></a>Quem pode executar os scripts de atualização?
 
-Pessoas com direitos de administrador global do Office 365 ou do Exchange.
+Pessoas com direitos de administrador global ou administrador do Exchange.
 
 ### <a name="why-is-the-contact-card-still-showing-a-distribution-list-what-should-i-do-to-prevent-a-upgraded-distribution-list-from-showing-up-in-my-auto-suggest-list"></a>Por que o cartão de visita ainda mostra uma lista de distribuição? O que devo fazer para impedir que uma lista de distribuição atualizada seja exibida na minha lista de sugestão automática?
 
-- Para o Outlook: quando alguém tenta enviar um email no Outlook digitando o nome do grupo do Office 365 após a migração, o destinatário será resolvido como a lista de distribuição em vez do grupo. O cartão de visita do destinatário será o cartão de visita de listas de distribuição. Isso ocorre porque o cache de destinatários ou o cache de nomes de Nick no Outlook. O email será enviado com êxito para o grupo, mas pode causar confusão ao remetente.<br/>Você pode executar as etapas neste tópico, [informações sobre a lista de preenchimento automático do Outlook](https://go.microsoft.com/fwlink/?LinkID=798736) para redefinir o cache, o que corrigirá esse problema.
+- Para o Outlook: quando alguém tenta enviar um email no Outlook digitando o nome do grupo 365 da Microsoft após a migração, o destinatário será resolvido como a lista de distribuição em vez do grupo. O cartão de visita do destinatário será o cartão de visita de listas de distribuição. Isso ocorre porque o cache de destinatários ou o cache de nomes de Nick no Outlook. O email será enviado com êxito para o grupo, mas pode causar confusão ao remetente.<br/>Você pode executar as etapas neste tópico, [informações sobre a lista de preenchimento automático do Outlook](https://go.microsoft.com/fwlink/?LinkID=798736) para redefinir o cache, o que corrigirá esse problema.
 
 - Para o Outlook na Web: no caso do Outlook na Web, o destinatário da lista de distribuição ainda permanecerá no cache. Você pode seguir as etapas em [remover nome sugerido ou endereço de email da lista de preenchimento automático](https://support.office.com/article/9E1419D9-E88F-445B-B07F-F558B8A37C58.aspx) para atualizar o cache para ver o cartão de visita do grupo.
 

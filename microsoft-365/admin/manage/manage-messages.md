@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 97af2932-0868-4ccf-8f6b-21a94946c58a
 description: Saiba como gerenciar mensagens do centro de mensagens para ajudar no gerenciamento de alterações.
-ms.openlocfilehash: 5b1772eb86acb937d532990830f9220f197c1c00
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 95a4544dd99ebce793242532ae144f00c3b16fcb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361926"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628143"
 ---
 # <a name="manage-messages-in-message-center"></a>Gerenciar mensagens no centro de mensagens
 
@@ -87,13 +87,13 @@ Vê uma mensagem de que outra pessoa precisa agir? Você pode compartilhar o con
   
 1. Selecione a mensagem para abri-la e selecione **compartilhar**.
   
-2. Para compartilhar a mensagem, insira até dois endereços de email separados por dois-pontos. Você pode enviar para endereços de email individuais e de grupo. Opcionalmente, você pode optar por receber uma cópia da mensagem por email (a mensagem será enviada para seu endereço de email principal no Office 365) ou adicionar uma mensagem pessoal para fornecer aos destinatários mais contexto.
+2. Para compartilhar a mensagem, insira até dois endereços de email separados por dois-pontos. Você pode enviar para endereços de email individuais e de grupo. Opcionalmente, você pode optar por receber uma cópia da mensagem por email (a mensagem será enviada para o endereço de email principal) ou adicionar uma mensagem pessoal para fornecer destinatários com mais contexto.
   
 3. Selecione **compartilhar** para enviar o email.
     
 ## <a name="get-a-link"></a>Obter um link
 
-É necessário acompanhar outro administrador para garantir que ele esteja ciente de uma alteração e ação? Você pode gerar um link para compartilhar no email ou no sistema de mensagens instantâneas, por exemplo, que irá conectar o usuário diretamente a essa mensagem. A pessoa com a qual você compartilha o link deve ser um administrador no Office 365 para sua organização ou eles não terão acesso à mensagem vinculada.
+É necessário acompanhar outro administrador para garantir que ele esteja ciente de uma alteração e ação? Você pode gerar um link para compartilhar no email ou no sistema de mensagens instantâneas, por exemplo, que irá conectar o usuário diretamente a essa mensagem. A pessoa com a qual você compartilha o link deve ser um administrador no Microsoft 365 para sua organização ou eles não terão acesso à mensagem vinculada.
 
 ::: moniker range="o365-worldwide"
 
@@ -213,5 +213,5 @@ Precisa obter uma mensagem descartada de volta? Não há problema.
 
 ::: moniker-end
 
-Para obter uma visão geral do centro de mensagens, consulte [centro de mensagens no Office 365](message-center.md). Ou, para saber como definir suas preferências de idioma para habilitar a tradução automática para postagens do centro de mensagens, confira [tradução de idioma para postagens do centro de mensagens](language-translation-for-message-center-posts.md). Se quiser programar uma maneira alternativa de obter informações de integridade do serviço em tempo real e comunicações do centro de mensagens, consulte [visão geral da API de comunicações de serviço do Office 365](https://go.microsoft.com/fwlink/p/?linkid=848507).
+Para obter uma visão geral do centro de mensagens, consulte [centro de mensagens no Microsoft 365](message-center.md). Ou, para saber como definir suas preferências de idioma para habilitar a tradução automática para postagens do centro de mensagens, confira [tradução de idioma para postagens do centro de mensagens](language-translation-for-message-center-posts.md). Se você quiser programar uma maneira alternativa de obter informações de integridade do serviço em tempo real e comunicações do centro de mensagens, consulte a [visão geral da API de comunicações de serviço do Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=848507).
   

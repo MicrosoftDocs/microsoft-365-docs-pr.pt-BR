@@ -1,5 +1,5 @@
 ---
-title: Adicionar um usuário ou contato a um grupo de distribuição do Office 365
+title: Adicionar um usuário ou contato a um grupo de distribuição
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -18,17 +18,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
-description: Saiba como adicionar um usuário ou contato do Office 365 a um grupo de distribuição. Por exemplo, você pode adicionar um funcionário, parceiro ou um fornecedor ao seu grupo de distribuição de email.
-ms.openlocfilehash: 2a6ee1336f738b57740469d6d74b461a69d7fc8c
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Saiba como adicionar um usuário ou contato do Microsoft 365 a um grupo de distribuição. Por exemplo, você pode adicionar um funcionário, parceiro ou um fornecedor ao seu grupo de distribuição de email.
+ms.openlocfilehash: 0b1feacbd3e35adcdf96ae8c42aa330921a4b390
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362366"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629066"
 ---
-# <a name="add-a-user-or-contact-to-an-office-365-distribution-group"></a>Adicionar um usuário ou contato a um grupo de distribuição do Office 365
+# <a name="add-a-user-or-contact-to-a-distribution-group"></a>Adicionar um usuário ou contato a um grupo de distribuição
 
-Como administrador de uma organização do Office 365, talvez seja necessário adicionar um de seus usuários ou contatos a um grupo de distribuição (consulte [Create Distribution groups in Office 365](../setup/create-distribution-lists.md).) Por exemplo, você pode adicionar funcionários ou parceiros ou fornecedores externos a um grupo de distribuição de email.
+Como administrador de uma organização, talvez seja necessário adicionar um de seus usuários ou contatos a um grupo de distribuição (consulte [Create Distribution groups in Microsoft 365](../setup/create-distribution-lists.md).) Por exemplo, você pode adicionar funcionários ou parceiros ou fornecedores externos a um grupo de distribuição de email.
   
 ## <a name="add-a-user-or-contact-to-a-distribution-group"></a>Adicionar um usuário ou contato a um grupo de distribuição
 
@@ -92,6 +92,6 @@ Se você ainda não criou o [contato](../misc/contacts.md), faça isso primeiro 
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ed4e6095-9a6a-4d3d-999d-698c39bb7ec8?autoplay=false]
   
-Saiba como [Enviar email como um grupo de distribuição no Office 365](../manage/send-email-as-distribution-list.md).
+Saiba como [Enviar email como um grupo de distribuição no Microsoft 365](../manage/send-email-as-distribution-list.md).
   
 

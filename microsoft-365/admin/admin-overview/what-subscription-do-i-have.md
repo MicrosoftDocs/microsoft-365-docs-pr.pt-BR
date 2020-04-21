@@ -1,5 +1,5 @@
 ---
-title: Qual é o meu tipo de assinatura do Office 365 para empresas?
+title: Qual assinatura eu tenho?
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -22,18 +22,18 @@ search.appverid:
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: Saiba como verificar quais assinaturas sua organização acessará a página assinaturas.
 ms.custom: okr_SMB
-ms.openlocfilehash: dad08784a775e590972d1f5dd554aeb2d147c28b
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: a8ebff405d57578142318a2111db1dcb53d54435
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409496"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621425"
 ---
 # <a name="what-subscription-do-i-have"></a>Qual assinatura eu tenho?
 
 Se você é um administrador, é possível verificar quais assinaturas sua organização acessará o centro de administração.
   
- **Não é um administrador?** Veja [qual é o produto ou licença do Office 365 Business que eu tenho?](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx)
+ **Não é um administrador?** Veja [o que é o produto ou a licença do Microsoft 365 for Business?](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx)
 
 ::: moniker range="o365-worldwide"
 
@@ -50,7 +50,7 @@ Se você é um administrador, é possível verificar quais assinaturas sua organ
 
 1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">assinaturas</a> de **cobrança** \>.  
 
-2. Se você tiver apenas uma assinatura, ela será exibida na página **Assinaturas**, junto com o nome da assinatura, as informações sobre a assinatura e seu status. Na captura de tela a seguir, você pode ver que eu tenho uma assinatura do Office 365 Business.
+2. Se você tiver apenas uma assinatura, ela será exibida na página **Assinaturas**, junto com o nome da assinatura, as informações sobre a assinatura e seu status. Na captura de tela a seguir, você pode ver que eu tenho uma assinatura do Microsoft 365 Apps for Business.
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
@@ -69,7 +69,7 @@ Se você é um administrador, é possível verificar quais assinaturas sua organ
 
 1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">assinaturas</a> de **cobrança** \>.  
 
-2. Se você tiver apenas uma assinatura, ela será exibida na página **Assinaturas**, junto com o nome da assinatura, as informações sobre a assinatura e seu status. Na captura de tela a seguir, você pode ver que eu tenho uma assinatura do Office 365 Business.
+2. Se você tiver apenas uma assinatura, ela será exibida na página **Assinaturas**, junto com o nome da assinatura, as informações sobre a assinatura e seu status. Na captura de tela a seguir, você pode ver que eu tenho uma assinatura do Microsoft 365 Apps for Business.
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   

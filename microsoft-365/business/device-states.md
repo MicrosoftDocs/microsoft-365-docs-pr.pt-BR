@@ -24,13 +24,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
-description: Saiba mais sobre os vários Estados de dispositivos na lista de ações de dispositivos no Home Page do administrador no Microsoft 365 Business.
-ms.openlocfilehash: bed1610814ca0d60adb4b4b3d0018e3e7e6d763f
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Saiba mais sobre os vários Estados de dispositivos na lista de ações de dispositivos no Home Page do administrador no Microsoft 365 for Business.
+ms.openlocfilehash: 1a66e76dd3a74428923292427b01551db2449e48
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560811"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627237"
 ---
 # <a name="device-states"></a>Estados do dispositivo
 
@@ -40,9 +40,9 @@ Os dispositivos na lista **Ações do dispositivo** (página inicial do administ
   
 |**Status**|**Descrição**|
 |:-----|:-----|
-|Gerenciado pelo Intune  <br/> |Gerenciado pelo Microsoft 365 Business.  <br/> |
-|Desativação pendente  <br/> |O Microsoft 365 Business está se preparando para remover dados da empresa do dispositivo.  <br/> |
-|Desativação em andamento  <br/> |O Microsoft 365 Business no momento está removendo dados da empresa do dispositivo.  <br/> |
+|Gerenciado pelo Intune  <br/> |Gerenciado pelo Microsoft 365 Business Premium.  <br/> |
+|Desativação pendente  <br/> |O Microsoft 365 Business Premium está preparando para remover dados da empresa do dispositivo.  <br/> |
+|Desativação em andamento  <br/> |O Microsoft 365 Business Premium está atualmente removendo dados da empresa do dispositivo.  <br/> |
 |Falha na desativação  <br/> | Falha ao remover ação de dados da empresa.  <br/> |
 |Desativação cancelada  <br/> |A ação de desativação foi cancelada.  <br/> |
 |Apagamento pendente  <br/> |Aguardando redefinição de fábrica para iniciar.  <br/> |
@@ -51,5 +51,5 @@ Os dispositivos na lista **Ações do dispositivo** (página inicial do administ
 |Apagamento cancelado  <br/> |Apagamento de fábrica cancelado.  <br/> |
 |Não íntegro  <br/> |Uma ação está pendente (ou em andamento), mas o dispositivo não foi verificado por mais de 30 dias.  <br/> |
 |Exclusão pendente  <br/> |Ação de Excluir está em andamento.  <br/> |
-|Descoberto  <br/> |O Microsoft 365 Business detectou o dispositivo.  <br/> |
+|Descoberto  <br/> |O Microsoft 365 Business Premium detectou o dispositivo.  <br/> |
    

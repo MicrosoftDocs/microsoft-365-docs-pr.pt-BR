@@ -20,14 +20,14 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
-description: Saiba mais sobre domínios no Office 365 encontrando respostas para suas perguntas em perguntas frequentes.
+description: Saiba mais sobre domínios encontrando respostas para suas perguntas em perguntas frequentes.
 ms.custom: okr_smb
-ms.openlocfilehash: 5d5b921494ba59b78dec53047a31215a8e755f4c
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.openlocfilehash: 4ece90306f37b6f07e34ce93423a76f084d50b6f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43540862"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627589"
 ---
 # <a name="domains-faq"></a>Perguntas frequentes sobre domínios
 
@@ -51,7 +51,7 @@ O email é entregue ao servidor de mensagens com o número de preferência mais 
     
 ## <a name="how-can-i-validate-spf-records-for-my-domain"></a>Como posso validar registros SPF para meu domínio?
 
-É importante que você tenha ou crie **apenas um registro txt para SPF**. Se você já tiver um registro SPF, deverá acrescentar os novos valores do Office 365 a ele, em vez de criar um novo. Após adicionar ou atualizar seu registro SPF para email do Office 365, você deve verificar se a sintaxe está correta com uma destas ferramentas: 
+É importante que você tenha ou crie **apenas um registro txt para SPF**. Se você já tiver um registro SPF, deverá acrescentar os novos valores do Office 365 a ele, em vez de criar um novo. Após adicionar ou atualizar seu registro SPF para o email da Microsoft, você deve verificar se a sintaxe está correta com uma destas ferramentas: 
   
 - [Ferramentas de teste de registro SPF](http://www.kitterman.com/spf/validate.html)
     
@@ -63,7 +63,7 @@ O email é entregue ao servidor de mensagens com o número de preferência mais 
 
 Há duas opções para o gerenciamento de DNS com o Office 365:
   
-1. Você alterar os registros de nameserver (NS) e o Office 365 cuida de todos os registros específicos de serviço, como configurar seu registro MX para email. **Recomenda**
+1. Você altera os registros de nameserver (NS) e a Microsoft cuida de todos os registros específicos de serviço, como configurar seu registro MX para email. **Recomenda**
     
 2. Você mesmo adiciona registros DNS para email e outros serviços do Office 365 no seu host DNS. **(Apenas especialistas)**
     
@@ -87,7 +87,7 @@ Há duas opções para o gerenciamento de DNS com o Office 365:
  
 #### <a name="disadvantages"></a>Desvantagens
 Você precisa configurar os registros DNS para os serviços do Office 365 por conta própria (a menos que tenha um domínio GoDaddy). 
--  Se o seu host DNS atual não oferecer suporte a todos os tipos de registros necessários para o Office 365, alguns recursos do Office 365 não estarão disponíveis e talvez seja necessário alternar para um host DNS diferente. 
+-  Se o seu host DNS atual não oferecer suporte a todos os tipos de registros necessários para o Microsoft 365, alguns recursos não estarão disponíveis e talvez seja necessário mudar para um host DNS diferente. 
 - Quando o Office 365 altera os requisitos para registros DNS ou adiciona novos serviços, você precisa fazer as atualizações em seu host DNS. 
    
 ## <a name="what-is-a-domain-name"></a>O que é um nome de domínio?
@@ -333,9 +333,9 @@ Ao adicionar vários domínios ao Office 365, você pode hospedar qualquer um do
 
 ## <a name="why-do-i-have-an-onmicrosoftcom-domain"></a>Por que eu tenho um domínio "onmicrosoft.com"?
 
-O Office 365 cria um domínio para você, como o _contoso.onmicrosoft.com_, quando você se inscreve com o serviço. A ID de usuário que você cria ao se inscrever inclui o domínio, _como\@Alan contoso.onmicrosoft.com_. 
+O Office 365 cria um domínio para você, como o *contoso.onmicrosoft.com*, quando você se inscreve com o serviço. A ID de usuário que você cria ao se inscrever inclui o domínio, como *Alan@contoso.onmicrosoft.com*. 
   
- __Se você deseja que seu email pareça _\@Alan contoso.com_:__ [compre o domínio](../get-help-with-domains/buy-a-domain-name.md) ou apenas siga as etapas em [adicionar seus usuários e domínio ao Office 365,](add-domain.md) se você já o possui. 
+ **Se você deseja que seu email pareça *\@Alan contoso.com*:** [compre o domínio](../get-help-with-domains/buy-a-domain-name.md) ou apenas siga as etapas em [adicionar seus usuários e domínio ao Office 365,](add-domain.md) se você já o possui. 
   
 - **Não é possível renomear o domínio onmicrosoft após a inscrição.** Por exemplo, se o domínio inicial escolhido foi fourthcoffee.onmicrosoft.com, não será possível alterá-lo para ser fabrikam.onmicrosoft.com. Para usar um domínio onmicrosoft.com diferente, você terá que iniciar uma nova assinatura com o Office 365. 
     
@@ -348,12 +348,11 @@ Você pode continuar usando o domínio onmicrosoft.com inicial, mesmo depois de 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-
 ## <a name="why-do-i-have-an-onmicrosoftde-domain"></a>Por que eu tenho um domínio "onmicrosoft.de"?
 
-O Office 365 cria um domínio para você, como o *contoso.onmicrosoft.de*, quando você se inscreve com o serviço. A ID de usuário que você cria ao se inscrever inclui o domínio, como "alan@contoso.onmicrosoft.de". 
+O Office 365 cria um domínio para você, como o *contoso.onmicrosoft.de*, quando você se inscreve com o serviço. A ID de usuário que você cria ao se inscrever inclui o domínio, como *Alan@contoso.onmicrosoft.de*. 
   
-Se você quiser que seu email se pareça com "alan@contoso.de": [compre o domínio](../get-help-with-domains/buy-a-domain-name.md) ou apenas siga as etapas em [adicionar seus usuários e domínio ao Office 365,](add-domain.md) se você for o proprietário dele já 
+ **Se você deseja que seu email pareça *Alan@contoso.de*:** [compre o domínio](../get-help-with-domains/buy-a-domain-name.md) ou apenas siga as etapas em [adicionar seus usuários e domínio ao Office 365](add-domain.md) , se você já o possui. 
   
 - **Não é possível renomear o domínio onmicrosoft após a inscrição.** Por exemplo, se o domínio inicial escolhido foi fourthcoffee.onmicrosoft.de, não será possível alterá-lo para ser fabrikam.onmicrosoft.de. Para usar um domínio onmicrosoft.de diferente, você terá que iniciar uma nova assinatura com o Office 365. 
     
@@ -489,11 +488,11 @@ Você pode, mas há limitações:
         
     2. Execute os seguintes testes:
         
-    3. Teste email local do Office 365. Por exemplo, envie um email para o usuário B. Esse email deve ser entregue imediatamente. Neste cenário, a mensagem não será encaminhada para a caixa de correio do usuário B no seu servidor original porque o Office 365 vê a caixa de correio como local.
+    3. Teste o email local da Microsoft. Por exemplo, envie um email para o usuário B. Esse email deve ser entregue imediatamente. Neste cenário, a mensagem não será encaminhada para a caixa de correio do usuário B no seu servidor original porque o Office 365 vê a caixa de correio como local.
         
     4. Teste o email para alguém que está no outro sistema de email. Por exemplo, envie um email para o usuário C. Este email deve ser entregue na caixa de correio do usuário C no seu servidor de email original.
         
-    5. A partir de uma conta externa ou da conta de email de um funcionário no outro sistema de email, verifique se o encaminhamento foi configurado corretamente no outro sistema de email. Por exemplo, da conta de servidor original do usuário C ou de uma conta do hotmail, envie um email para o usuário e verifique se ele chega à caixa de correio do Office 365 do usuário A.
+    5. A partir de uma conta externa ou da conta de email de um funcionário no outro sistema de email, verifique se o encaminhamento foi configurado corretamente no outro sistema de email. Por exemplo, da conta de servidor origninal do usuário C ou de uma conta do hotmail, envie um email para o usuário e verifique se ele chega à caixa de correio do Office 365 do usuário A.
         
 9. Mover conteúdo da caixa de correio
     

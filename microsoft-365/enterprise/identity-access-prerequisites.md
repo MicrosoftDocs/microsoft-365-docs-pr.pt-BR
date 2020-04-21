@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: c1af88f489072490777cc6f2c7edfc66fd038bdf
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 99a124ff57816481cde92dd79c3058a2e7b72d31
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633599"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625201"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Trabalho de pré-requisito para implementar as políticas de acesso de dispositivo e identidade
 
@@ -82,22 +82,22 @@ Os clientes a seguir são recomendados quando uma política de documentos seguro
 
 |Plataforma|Word/Excel/PowerPoint|OneNote|Aplicativo OneDrive|Aplicativo do SharePoint|Cliente de sincronização do OneDrive|
 |:-------|:-----|:------------|:-------|:-------------|:-----|
-|Windows 7|Com suporte|Com suporte|Não disponível|Não disponível|Versão prévia<sup>*</sup>|
-|Windows 8.1|Com suporte|Com suporte|Não disponível|Não disponível|Versão prévia<sup>*</sup>|
+|Windows 7|Com suporte|Com suporte|N/D|N/D|Versão prévia<sup>*</sup>|
+|Windows 8.1|Com suporte|Com suporte|Não disponível|N/D|Versão prévia<sup>*</sup>|
 |Windows 10|Com suporte|Com suporte|Não disponível|Não disponível|Versão prévia<sup>*</sup>|
 |Windows Phone 10|Sem suporte|Sem suporte|Não Suportado|Não Suportado|Não Suportado|
 |Android|Com suporte|Com suporte|Com suporte|Com suporte|N/D|
 |iOS|Com suporte|Com suporte|Com suporte|Com suporte|N/D|
-|macOS|Visualização Pública|Visualização Pública|Não disponível|Não disponível|Sem suporte|
+|macOS|Visualização Pública|Visualização Pública|N/D|N/D|Sem suporte|
 |Linux|Sem suporte|Sem suporte|Sem suporte|Sem suporte|Sem suporte|
 
 <sup>*</sup>Saiba mais sobre como usar o acesso condicional com o [cliente de sincronização do onedrive](https://support.office.com/article/Azure-Active-Directory-conditional-access-with-the-OneDrive-sync-client-on-Windows-028d73d7-4b86-4ee0-8fb7-9a209434b04e).
 
-### <a name="office-365-client-support"></a>Suporte ao cliente do Office 365
-Para obter mais informações sobre o suporte ao cliente do Office 365, consulte os seguintes artigos:
-- [Suporte ao aplicativo cliente do Office 365-acesso condicional](https://docs.microsoft.com/office365/enterprise/office-365-client-support-conditional-access)
-- [Suporte ao aplicativo cliente do Office 365-gerenciamento de aplicativo móvel](https://docs.microsoft.com/office365/enterprise/office-365-client-support-mobile-application-management)
-- [Suporte ao aplicativo cliente do Office 365-autenticação moderna](https://docs.microsoft.com/office365/enterprise/office-365-client-support-modern-authentication)
+### <a name="microsoft-365-client-support"></a>Suporte ao cliente Microsoft 365
+Para obter mais informações sobre o suporte ao cliente, consulte os seguintes artigos:
+- [Suporte ao aplicativo cliente Microsoft 365-acesso condicional](https://docs.microsoft.com/office365/enterprise/office-365-client-support-conditional-access)
+- [Suporte ao aplicativo cliente Microsoft 365-gerenciamento de aplicativo móvel](https://docs.microsoft.com/office365/enterprise/office-365-client-support-mobile-application-management)
+- [Suporte ao aplicativo cliente Microsoft 365-autenticação moderna](https://docs.microsoft.com/office365/enterprise/office-365-client-support-modern-authentication)
 
 ## <a name="protecting-administrator-accounts"></a>Protegendo contas de administrador
 O Azure AD oferece uma maneira simples de começar a proteger o acesso de administrador com uma política de acesso condicional pré-configurada. No Azure AD, acesse **acesso condicional** e procure esta política – **política de linha de base: exigir MFA para administradores (visualização)**. Selecione esta política e selecione **usar política imediatamente**. 
@@ -114,7 +114,7 @@ Para obter mais informações, consulte [Baseline Security Policy for Azure ad a
 As recomendações adicionais incluem o seguinte:
 - Use o Azure AD Privileged Identity Management para reduzir o número de contas administrativas persistentes. Confira [começar a usar o PIM](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-getting-started). 
 - [Use o gerenciamento de acesso privilegiado no Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview) para proteger sua organização contra violações que podem usar contas de administrador privilegiadas existentes com acesso à posição para dados confidenciais ou acesso a definições de configuração crítica. 
-- Use as contas de administrador somente para administração. Os administradores devem ter uma conta de usuário separada para uso não administrativo regular e só usar a conta administrativa, quando necessário, para concluir uma tarefa associada à função de trabalho. As funções de [administrador do office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) têm muito mais privilégios do que os serviços do Office 365.
+- Use as contas de administrador somente para administração. Os administradores devem ter uma conta de usuário separada para uso não administrativo regular e só usar a conta administrativa, quando necessário, para concluir uma tarefa associada à função de trabalho. As funções de [administrador do microsoft 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) têm muito mais privilégios do que os serviços do Microsoft 365.
 - Siga as práticas recomendadas para proteger contas privilegiadas no Azure AD, conforme descrito neste [artigo](https://docs.microsoft.com/azure/active-directory/admin-roles-best-practices).
 
 ## <a name="next-steps"></a>Próximas etapas

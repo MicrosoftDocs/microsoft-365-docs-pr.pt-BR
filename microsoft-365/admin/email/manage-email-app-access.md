@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: d00b6b83-1f14-4e9c-a2c5-dbd9a92816f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como escolher quais aplicativos móveis as pessoas podem usar para acessar email, calendário e contatos.
-ms.openlocfilehash: dcfd356ecdbc7448036507abe8d8f09546b05255
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8627a31f7ec5e3c14b853618bb0383ecc58597cc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250663"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628802"
 ---
 # <a name="manage-email-app-access-in-the-microsoft-365-admin-center"></a>Gerenciar o acesso de aplicativos de email no centro de administração do Microsoft 365
 
@@ -43,7 +43,7 @@ Use as configurações de acesso de email móvel para escolher quais aplicativos
 
 2. Na página **Opções de acesso a email móvel** , marque a caixa de seleção e, em seguida, escolha como os usuários em sua organização usam aplicativos de email em seus dispositivos:
   
-Escolha a opção para definir como os usuários em sua organização acessam sua conta corporativa ou de estudante do Office 365 de seus dispositivos móveis
+Escolha a opção para definir como os usuários em sua organização acessam sua conta corporativa ou de estudante de seus dispositivos móveis
   
 - **Somente Outlook** -os usuários de sua organização serão solicitados a usar o aplicativo Outlook para Android ou Outlook para Ios em seu dispositivo móvel. 
     

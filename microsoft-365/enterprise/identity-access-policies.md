@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 8b5cb7d8d8b16fea1c1bef44e477dfd43a79a3d8
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: a91488b9bfa126b1419af7697c0ae8510ddbc149
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081312"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625261"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 Este artigo descreve as políticas comuns recomendadas para proteger o acesso a serviços de nuvem, incluindo aplicativos locais publicados com o proxy de aplicativo do Azure AD. 
@@ -67,9 +67,9 @@ O diagrama a seguir fornece um exemplo de atribuição e exclusões do usuário.
 
 Na ilustração, a "equipe de" projeto de segredo principal X "é atribuída uma política de acesso condicional que requer MFA *sempre*. Seja criterioso ao aplicar níveis mais altos de proteção aos usuários. Os membros desta equipe de projeto serão solicitados a fornecer duas formas de autenticação sempre que fizerem logon, mesmo que não estejam exibindo conteúdo altamente regulamentado.  
 
-Todos os grupos do Azure AD criados como parte dessas recomendações devem ser criados como grupos do Office 365. Isso é importante principalmente para a implantação da AIP (Proteção de Informações do Azure) ao proteger documentos no SharePoint Online.
+Todos os grupos do Azure AD criados como parte dessas recomendações devem ser criados como grupos do Microsoft 365. Isso é importante principalmente para a implantação da AIP (Proteção de Informações do Azure) ao proteger documentos no SharePoint Online.
 
-![Captura de tela para criar grupos do Office 365](../media/identity-device-AAD-groups.png)
+![Captura de tela para a criação de grupos do Microsoft 365](../media/identity-device-AAD-groups.png)
 
 
 ## <a name="require-mfa-based-on-sign-in-risk"></a>Exigir a MFA com base no risco de entrada
@@ -95,7 +95,7 @@ Para criar uma nova política de acesso condicional:
 |:---|:---------|:-----|:----|
 |Usuários e grupos|Incluir|Selecionar usuários e grupos – selecione grupos de segurança específicos que contém os usuários de destino|Inicie com o grupo de segurança, incluindo usuários piloto|
 ||Excluir|Grupo de segurança de exceção, contas de serviço (identidades de aplicativo)|Associação modificada de acordo com a necessidade de uma base temporária|
-|Aplicativos em nuvem|Incluir|Selecione os aplicativos para os quais você deseja aplicar essa regra. Por exemplo, selecione Office 365 Exchange Online||
+|Aplicativos em nuvem|Incluir|Selecione os aplicativos para os quais você deseja aplicar essa regra. Por exemplo, selecione Exchange Online||
 |Condições|Configurado|Sim|Configure específicos para suas necessidades e ambiente|
 |Risco de entrada|Nível de risco||Veja as orientações na tabela a seguir|
 
@@ -113,7 +113,7 @@ Aplique as configurações com base no nível de proteção que você está dire
 
 |Tipo|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
-|Conceder|Conceder acesso|True|Selecionado|
+|Conceder|Conceder acesso|Verdadeiro|Selecionado|
 ||Exigir MFA|verdadeiro|Verificar|
 ||Exigir que o dispositivo seja marcado como em conformidade|Falso||
 ||Exigir dispositivo híbrido associado ao AD do Azure|Falso||
@@ -142,7 +142,7 @@ As tabelas a seguir descrevem as configurações de política de acesso condicio
 |:---|:---------|:-----|:----|
 |Usuários e grupos|Incluir|Selecionar usuários e grupos – selecione grupos de segurança específicos que contém os usuários de destino|Inicie com o grupo de segurança, incluindo usuários piloto|
 ||Excluir|Grupo de segurança de exceção, contas de serviço (identidades de aplicativo)|Associação modificada de forma temporária, conforme o necessário|
-|Aplicativos em nuvem|Incluir|Selecione os aplicativos para os quais você deseja aplicar essa regra. Por exemplo, selecione Office 365 Exchange Online||
+|Aplicativos em nuvem|Incluir|Selecione os aplicativos para os quais você deseja aplicar essa regra. Por exemplo, selecione Exchange Online||
 |Condições|Configurado|Sim|Configurar aplicativos cliente|
 |Aplicativos cliente|Configurado|Sim|Aplicativos móveis e clientes de desktop, outros clientes (selecione ambos)|
 
@@ -150,7 +150,7 @@ As tabelas a seguir descrevem as configurações de política de acesso condicio
 
 |Tipo|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
-|Conceder|Bloquear acesso|True|Selecionado|
+|Conceder|Bloquear acesso|Verdadeiro|Selecionado|
 ||Exigir MFA|Falso||
 ||Exigir que o dispositivo seja marcado como em conformidade|Falso||
 ||Exigir dispositivo híbrido associado ao AD do Azure|Falso||
@@ -179,7 +179,7 @@ Faça logon no [Portal do Microsoft Azure (https://portal.azure.com)](https://po
 
 | Tipo | Propriedades | Valores                  | Anotações |
 |:-----|:-----------|:------------------------|:------|
-|      | Access     | Permitir acesso            | True  |
+|      | Access     | Permitir acesso            | Verdadeiro  |
 |      | Acessar     | Requer a alteração de senha | verdadeiro  |
 
 **Revisão:** não aplicável
@@ -215,7 +215,7 @@ Para impor as políticas de proteção de aplicativo aplicadas no Intune, você 
 
 A aplicação de políticas de proteção de aplicativos requer um conjunto de políticas descritas em na [requer política de proteção de aplicativo para o acesso de aplicativo em nuvem com acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access). Essas políticas são incluídas neste conjunto recomendado de políticas de configuração de identidade e acesso.
 
-Para criar a regra de acesso condicional que exija aplicativos aprovados e proteção de aplicativos, siga "etapa 1: configurar uma política de acesso condicional do Azure AD para o Office 365" no [cenário 1: os aplicativos do Office 365 exigem aplicativos aprovados com políticas de proteção de aplicativos](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), o que permite o Outlook para IOS e Android, mas bloqueia clientes compatíveis com OAuth do Exchange
+Para criar a regra de acesso condicional que exija aplicativos aprovados e proteção de aplicativos, siga "etapa 1: configurar uma política de acesso condicional do Azure AD para a Microsoft 365" no [cenário 1: os aplicativos da Microsoft 365 exigem aplicativos aprovados com políticas de proteção de aplicativos](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), o que permite o Outlook para IOS e Android, mas bloqueia clientes compatíveis com OAuth do Exchange
 
    > [!NOTE]
    > Essa política garante que os usuários móveis possam acessar todos os pontos de extremidade do Office usando os aplicativos aplicáveis.
@@ -229,7 +229,7 @@ Por fim, o bloqueio de autenticação herdada para outros aplicativos cliente em
 <!---
 With Conditional Access, organizations can restrict access to approved (modern authentication capable) iOS and Android client apps with Intune app protection policies applied to them. Several conditional access policies are required, with each policy targeting all potential users. Details on creating these policies can be found in [Require app protection policy for cloud app access with Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access).
 
-1. Follow "Step 1: Configure an Azure AD Conditional Access policy for Office 365" in [Scenario 1: Office 365 apps require approved apps with app protection policies](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), which allows Outlook for iOS and Android, but blocks OAuth capable Exchange ActiveSync clients from connecting to Exchange Online.
+1. Follow "Step 1: Configure an Azure AD Conditional Access policy for Microsoft 365" in [Scenario 1: Microsoft 365 apps require approved apps with app protection policies](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), which allows Outlook for iOS and Android, but blocks OAuth capable Exchange ActiveSync clients from connecting to Exchange Online.
 
    > [!NOTE]
    > This policy ensures mobile users can access all Office endpoints using the applicable apps.
@@ -281,7 +281,7 @@ As configurações a seguir são recomendadas para o Windows 10.
 
 |Tipo|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
-|Password|Exigir uma senha para desbloquear dispositivos móveis|Precisa||
+|Senha|Exigir uma senha para desbloquear dispositivos móveis|Precisa||
 ||Senhas simples|Bloquear||
 ||Tipo de senha|Padrão do dispositivo||
 ||Tamanho mínimo da senha|6 ||
@@ -322,7 +322,7 @@ Para exigir computadores compatíveis:
 
 6. Escolha **Aplicativos na nuvem**.
 
-7. Escolha **selecionar aplicativos**, selecione os aplicativos desejados na lista **aplicativos de nuvem** . Por exemplo, selecione Office 365 Exchange Online. Escolha **selecionar** e **concluir**.
+7. Escolha **selecionar aplicativos**, selecione os aplicativos desejados na lista **aplicativos de nuvem** . Por exemplo, selecione Exchange Online. Escolha **selecionar** e **concluir**.
 
 8. Para exigir que os computadores em conformidade, mas não compatíveis com telefones e tablets, escolha **condições** e **plataformas de dispositivos**. Escolha **Selecionar plataformas de dispositivo** e selecione **Windows** e **MacOS**.
 
@@ -350,7 +350,7 @@ Para exigir a conformidade de todos os dispositivos:
 
 6. Escolha **Aplicativos na nuvem**.
 
-7. Escolha **selecionar aplicativos**, selecione os aplicativos desejados na lista **aplicativos de nuvem** . Por exemplo, selecione Office 365 Exchange Online. Escolha **selecionar** e **concluir**.
+7. Escolha **selecionar aplicativos**, selecione os aplicativos desejados na lista **aplicativos de nuvem** . Por exemplo, selecione Exchange Online. Escolha **selecionar** e **concluir**.
 
 8. Escolha **Conceder** na seção **Controles de acesso**.
 

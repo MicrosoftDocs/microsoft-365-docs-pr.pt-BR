@@ -16,17 +16,17 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: 'Você e seus usuários podem enviar mensagens de spam falsas negativas e falsos positivos para a Microsoft para análise. '
-ms.openlocfilehash: 77807f710743d98dc2e1564f804b6a67add67def
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: f6dbd808fac54ae273c21773bf8caeabce09b7fb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43529044"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631236"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Enviar mensagens manualmente para a Microsoft para análise
 
 > [!NOTE]
-> Se você for um administrador em uma organização do Office 365 com caixas de correio do Exchange Online, recomendamos que você use o portal de envios no centro de conformidade & segurança do Office 365. Para obter mais informações, consulte [usar o envio do administrador para enviar spam, phishing, URLs e arquivos suspeitos à Microsoft](admin-submission.md).
+> Se você for um administrador em uma organização do Microsoft 365 com caixas de correio do Exchange Online, recomendamos que você use o portal de envios no centro de conformidade de & de segurança. Para obter mais informações, consulte [usar o envio do administrador para enviar spam, phishing, URLs e arquivos suspeitos à Microsoft](admin-submission.md).
 
 Pode ser frustrante quando os usuários da sua organização recebem mensagens de lixo eletrônico (spam) ou mensagens de phishing em sua caixa de entrada ou se não recebem uma mensagem de email legítima porque estão marcados como lixo eletrônico. Estamos constantemente ajustando os nossos filtros de spam para serem mais precisos.
 
@@ -81,7 +81,7 @@ Se uma mensagem foi identificada incorretamente como spam, você pode enviar a m
 
 Você pode criar uma regra de fluxo de emails (também conhecida como regra de transporte) que procura mensagens de email relatadas à Microsoft usando os métodos descritos neste tópico, e você pode configurar destinatários Cco para receber cópias dessas mensagens relatadas.
 
-Você pode criar a regra de fluxo de emails no centro de administração do Exchange (Eat) e no PowerShell (Exchange Online PowerShell para clientes do Office 365; PowerShell de proteção do Exchange Online para clientes autônomos do EOP).
+Você pode criar a regra de fluxo de emails no centro de administração do Exchange (Eat) e no PowerShell (Exchange Online PowerShell para clientes do Microsoft 365; PowerShell de proteção do Exchange Online para clientes autônomos do EOP).
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 

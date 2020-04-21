@@ -1,5 +1,5 @@
 ---
-title: Aumentar a proteção contra ameaças para o Microsoft 365 Business
+title: Aumentar a proteção contra ameaças para o Microsoft 365 for Business
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,18 +21,18 @@ search.appverid:
 - BCS160
 - MET150
 description: Configurar a proteção avançada contra ameaças do Office 365 e proteger dados confidenciais contra phishing, malware e outras ameaças.
-ms.openlocfilehash: 17425de3f6e0022945899a559cf88575b6315a56
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 2dd75b20bf203b9b8f0cdefb2459c45d1d0ccec1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561601"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627117"
 ---
 # <a name="increase-threat-protection"></a>Aumente a proteção contra ameaças
 
 Este artigo ajuda você a aumentar a proteção em sua assinatura do Microsoft 365 para proteção contra phishing, malware e outras ameaças. Essas recomendações são apropriadas para organizações com uma necessidade maior de segurança, como escritórios de advocacia e clínicas de assistência médica.
 
-Antes de começar, verifique sua pontuação segura do Office 365. A pontuação segura do Office 365 analisa a segurança da sua organização do Office 365 com base em suas atividades regulares e configurações de segurança e atribui uma pontuação. Comece anotando sua pontuação atual. Para aumentar sua pontuação, conclua as ações recomendadas neste artigo. O objetivo não é atingir a pontuação máxima, mas para estar ciente das oportunidades de proteger seu ambiente que não afete negativamente a produtividade dos seus usuários. 
+Antes de começar, verifique sua pontuação segura do Office 365. A pontuação segura do Office 365 analisa a segurança da sua organização com base em suas atividades regulares e configurações de segurança e atribui uma pontuação. Comece anotando sua pontuação atual. Para aumentar sua pontuação, conclua as ações recomendadas neste artigo. O objetivo não é atingir a pontuação máxima, mas para estar ciente das oportunidades de proteger seu ambiente que não afete negativamente a produtividade dos seus usuários. 
 
 Para obter mais informações, consulte [Microsoft Secure Score](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score).
 
@@ -42,7 +42,7 @@ O ambiente do Office 365 ou do Microsoft 365 inclui proteção contra malware. V
   
 1. Acesse [https://protection.office.com](https://protection.office.com) e entre com suas credenciais de conta de administrador. 
     
-2. No centro de conformidade com &amp; segurança do Office 365, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, escolha **política** \> **anti-malware**.
+2. No centro de &amp; conformidade de segurança, no painel de navegação esquerdo, **em gerenciamento de ameaças**, escolha **política** \> **anti-malware**.
     
 3. Clique duas vezes na política padrão para editar a política em toda a empresa.
     
@@ -57,7 +57,7 @@ O ambiente do Office 365 ou do Microsoft 365 inclui proteção contra malware. V
     
 Para obter mais informações, consulte [proteção Antimalware](https://go.microsoft.com/fwlink/?linkid=2015692&amp;clcid=0x409).
   
-## <a name="protect-against-ransomware"></a>Proteger contra ransomware
+## <a name="protect-against-ransomware"></a>Proteção contra ransomware
 
 O ransomware restringe o acesso aos dados criptografando arquivos ou bloqueando telas de computador. Em seguida, tenta extort dinheiro de vítimas solicitando "resgate", geralmente na forma de cryptocurrencies como Bitcoin, no Exchange para acessar os dados. 
   
@@ -130,7 +130,7 @@ Para criar uma política anti-phishing do ATP, Assista a [este vídeo de treinam
   
 1. Acesse [https://protection.office.com](https://protection.office.com). 
     
-2. No centro de conformidade com &amp; segurança do Office 365, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, escolha **política**.
+2. No centro de &amp; conformidade de segurança, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, escolha **política**.
     
 3. Na página **política** , escolha o **anti-phishing ATP**.
     
@@ -145,12 +145,12 @@ Para criar uma política anti-phishing do ATP, Assista a [este vídeo de treinam
 |:-----|:-----|
 |Nome  <br/> |O domínio e a equipe de campanha mais valiosa  <br/> |
 |Descrição  <br/> |Garantir que a equipe mais importante e nosso domínio não estão sendo representados.  <br/> |
-|Adicionar usuários para proteger  <br/> |Selecione **+ Adicionar uma condição, o destinatário é**. Digite nomes de usuário ou insira o endereço de email do candidato, o gerente de campanha e outros membros importantes da equipe. Você pode adicionar até 20 endereços internos e externos que você deseja proteger da representação.  <br/> |
+|Adicionar usuários a proteger  <br/> |Selecione **+ Adicionar uma condição, o destinatário é**. Digite nomes de usuário ou insira o endereço de email do candidato, o gerente de campanha e outros membros importantes da equipe. Você pode adicionar até 20 endereços internos e externos que você deseja proteger da representação.  <br/> |
 |Adicionar domínios para proteger  <br/> |Selecione **+ Adicionar uma condição, o domínio do destinatário é**. Insira o domínio personalizado associado à sua assinatura do Microsoft 365, se você tiver definido um. Você pode inserir mais de um domínio.  <br/> |
-|Escolher ações  <br/> |Se o email for enviado por um usuário representado: escolha **redirecionar mensagem para outro endereço de email**e digite o endereço de email do administrador de segurança; por exemplo, *Ana<span><span>Maria @contoso. com*. Se o email for enviado por um domínio representado: escolher **mensagem de quarentena**.  <br/> |
-|Inteligência de caixa de correio  <br/> |Por padrão, a inteligência de caixa de correio é selecionada quando você cria uma nova política anti-phishing. Deixe esta configuração **em** para obter os melhores resultados.  <br/> |
-|Adicionar domínios e remetentes confiáveis  <br/> |Aqui você pode adicionar seu próprio domínio ou qualquer outro domínio confiável.  <br/> |
-|Aplicado a  <br/> |Selecione **o domínio do destinatário**. Em **qualquer um dos seguintes**, selecione **escolher**. Selecione **+ Adicionar**. Marque a caixa de seleção ao lado do nome do domínio, por exemplo, *contoso.<span> com <span>*, na lista e selecione **Adicionar**. Selecione **Concluído**.  <br/> |
+|Escolher ações  <br/> |Se o email for enviado por um usuário representado: escolha **redirecionar mensagem para outro endereço de email**e digite o endereço de email do administrador de segurança; por exemplo, *Ana<span><span>Maria @contoso. com*. Se o email for enviado por um domínio representado: escolha **Colocar mensagem em quarentena**.  <br/> |
+|Inteligência da caixa de correio  <br/> |Por padrão, a caixa de correio é selecionada quando você cria uma nova política anti-phishing. Deixe essa configuração **Ativada** para obter melhores resultados.  <br/> |
+|Adicionar remetentes e domínios confiáveis  <br/> |Aqui você pode adicionar seu próprio domínio ou qualquer outro domínio confiável.  <br/> |
+|Aplicado a  <br/> |Selecione **O domínio do destinatário é**. Em **Qualquer um desses**, selecione **Escolher**. Selecione **+ Adicionar**. Marque a caixa de seleção ao lado do nome do domínio, por exemplo, *contoso.<span> com <span>*, na lista e selecione **Adicionar**. Selecione **Concluído**.  <br/> |
   
 ## <a name="protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>Proteger contra anexos e arquivos mal-intencionados com anexos seguros de ATP
 
@@ -160,7 +160,7 @@ Para criar uma política de anexo seguro ATP, Assista a [este breve vídeo](http
   
 1. Vá até [https://protection.office.com](https://protection.office.com)e entre com sua conta de administrador. 
     
-2. No centro de conformidade com &amp; segurança do Office 365, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, escolha **política**.
+2. No centro de &amp; conformidade de segurança, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, escolha **política**.
     
 3. Na página política, escolha **anexos seguros de ATP**.
     
@@ -183,8 +183,6 @@ Para criar uma política de anexo seguro ATP, Assista a [este breve vídeo](http
    
 Para obter mais informações, consulte [set up Office 365 ATP anti-phishing Policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
   
-
-
 ## <a name="protect-against-phishing-attacks-with-atp-safe-links"></a>Proteger contra ataques de phishing com links seguros de ATP
 
 Os hackers às vezes ocultam sites mal-intencionados em links em email ou outros arquivos. Os links seguros de ATP do Office 365 (links seguros de ATP), parte da proteção avançada contra ameaças do Office 365, podem ajudar a proteger sua organização fornecendo a verificação de tempo de clique de endereços Web (URLs) em mensagens de email e documentos do Office. A proteção é definida por meio das políticas de links seguros de ATP.
@@ -199,7 +197,7 @@ Para configurar links de ATP seguros, Assista a [este vídeo de treinamento curt
   
 1. Vá até [https://protection.office.com](https://protection.office.com)e entre com sua conta de administrador. 
     
-2. No centro de conformidade com &amp; segurança do Office 365, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, escolha **política**.
+2. No centro de &amp; conformidade de segurança, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, escolha **política**.
     
 3. Na página política, escolha **links seguros de ATP**.
     
@@ -207,7 +205,7 @@ Para modificar a política padrão:
   
 1. Na página de links seguros, em **políticas que se aplicam a toda a organização**, selecione a política **padrão** . 
     
-2. Em **configurações que se aplicam ao conteúdo exceto email**, selecione **Office 365 ProPlus, Office para IOS e Android**.
+2. Em **configurações que se aplicam ao conteúdo exceto email**, selecione **Microsoft 365 aplicativos para empresas, Office para IOS e Android**.
     
 3. Selecione **Salvar**. 
     

@@ -17,12 +17,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Encontre e use relatórios para a proteção avançada contra ameaças do Office 365 &amp; no centro de conformidade de segurança.
-ms.openlocfilehash: b91fb8d000b610439618be687e36dabc787ebb58
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: cca2729918239eee7d27973cd28be16a534e461b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528972"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631056"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Exibir relatórios para a proteção avançada contra ameaças do Office 365
 
@@ -107,9 +107,9 @@ O relatório de **tipos de arquivo ATP** mostra o tipo de arquivos detectados co
 Para exibir esse relatório, no [centro de &amp; conformidade de segurança](https://protection.office.com), vá para **tipos de arquivos ATP**de **painel** \> de **relatórios** \> .
 
 ![Relatório de Tipos de Arquivo ATP](../../media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
-
-Ao passar o mouse sobre um determinado dia, você pode ver a divisão de tipos de arquivos mal-intencionados que foram detectados por [anexos seguros de ATP](atp-safe-attachments.md) e [proteção &amp; Antimalware anti-spam no Office 365](anti-spam-and-anti-malware-protection.md).
-
+  
+Ao passar o mouse sobre um determinado dia, você pode ver a divisão de tipos de arquivos mal-intencionados que foram detectados por [anexos seguros de ATP](atp-safe-attachments.md) e [proteção &amp; Antimalware anti-spam](anti-spam-and-anti-malware-protection.md).
+  
 ![Dados de relatório de tipos de arquivo ATP por um dia](../../media/10d18428-699a-41d2-a73e-be3a8214ada1.png)
 
 ## <a name="atp-message-disposition-report"></a>Relatório de Disposição de Mensagem ATP
@@ -158,7 +158,7 @@ Para exibir e usar os relatórios descritos neste artigo, **você deve ter uma f
 
 Para saber mais, confira os seguintes recursos:
 
-- [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
+- [Permissões no centro de &amp; conformidade de segurança](permissions-in-the-security-and-compliance-center.md)
 
 - [Permissões de recursos no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
 
@@ -168,8 +168,8 @@ Se você não estiver vendo dados em seus relatórios ATP, verifique se as polí
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Relatórios e insights no centro de conformidade de &amp; segurança do Office 365](reports-and-insights-in-security-and-compliance.md)
-
+[Relatórios e insights no centro de &amp; conformidade de segurança](reports-and-insights-in-security-and-compliance.md)
+  
 [Criar um cronograma para um relatório no centro de &amp; conformidade de segurança](create-a-schedule-for-a-report.md)
 
 [Configurar e baixar um relatório personalizado no centro de conformidade &amp; de segurança](set-up-and-download-a-custom-report.md)

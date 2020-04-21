@@ -18,35 +18,35 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
-description: Saiba mais sobre os aplicativos integrados e como ativá-los para permitir que aplicativos de terceiros acessem as informações dos usuários do Office 365.
-ms.openlocfilehash: 3c7c92e16b375fc374563e87ea2f6166c7384a29
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Saiba mais sobre os aplicativos integrados e como ativá-los para permitir que aplicativos de terceiros acessem as informações do Microsoft 365 dos usuários.
+ms.openlocfilehash: 7e758facda49bb63e09c9ec667522c2b20fa75bd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361382"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627843"
 ---
 # <a name="turning-integrated-apps-on-or-off"></a>Ativar ou desativar o recurso Aplicativos Integrados
 
-Quando o recurso Aplicativos Integrados está ativado, os usuários em sua organização podem permitir que aplicativos de terceiros acessem suas informações do Office 365. Por exemplo, quando alguém usa um aplicativo de terceiros, esse aplicativo pode solicitar permissão para acessar o calendário e editar arquivos que estão em uma pasta do OneDrive.
+Quando o aplicativos integrados está ativado, os usuários em sua organização podem permitir que aplicativos de terceiros acessem suas informações do Microsoft 365. Por exemplo, quando alguém usa um aplicativo de terceiros, esse aplicativo pode solicitar permissão para acessar o calendário e editar arquivos que estão em uma pasta do OneDrive.
 
 ## <a name="turning-integrated-apps-on-or-off"></a>Ativar ou desativar o recurso Aplicativos Integrados
 <a name="__toc379982114"> </a>
 
 Veja aqui como ativar ou desativar o recurso Aplicativos Integrados.
 
-1. No centro de administração, vá para a página [suplementos &amp; de serviços](https://go.microsoft.com/fwlink/p/?linkid=2053743) de **configurações** \> e selecione **aplicativos integrados**.
+1. No centro de administração do Microsoft 365, vá para a página [suplementos de serviços &amp; ](https://go.microsoft.com/fwlink/p/?linkid=2053743) de **configurações** \> e selecione **aplicativos integrados**.
 
 2. Na página **aplicativos integrados** , selecione a opção para ativar ou desativar aplicativos integrados.
 
 ## <a name="more-info-on-integrated-apps"></a>Obter mais informações sobre Aplicativos Integrados
 <a name="__toc379982114"> </a>
 
-Um aplicativo integrado pode ser criado em sua organização ou pode vir de outra organização do Office 365 ou de terceiros.
+Um aplicativo integrado pode ser criado de dentro de sua própria organização ou pode vir de outra organização ou de terceiros.
 
-Quando o recurso Aplicativos Integrados está ativado e um aplicativo é usado, o aplicativo solicita permissão para definir o nível de acesso necessário ao acessar as informações do usuário. Um usuário pode fornecer acesso somente aos aplicativos que ele possua e que acessam suas informações do Office 365. Não é possível permitir que um aplicativo acesse quaisquer outras informações do usuário.
+Quando o recurso Aplicativos Integrados está ativado e um aplicativo é usado, o aplicativo solicita permissão para definir o nível de acesso necessário ao acessar as informações do usuário. Um usuário pode fornecer acesso somente aos aplicativos proprietários que acessam suas informações da Microsoft 365. Não é possível permitir que um aplicativo acesse quaisquer outras informações do usuário.
 
-Existem dois tipos de permissões que são usados durante o uso do recurso Aplicativos Integrados no Office 365: permissões de usuário e permissões de administrador. Por exemplo, quando sua organização está habilitada para Aplicativos Integrados e um usuário usa um aplicativo de terceiros, o aplicativo pode solicitar a permissão do usuário para ler os detalhes do perfil do usuário, editar ou excluir seus arquivos, ler itens contidos em conjuntos de sites e enviar emails em nome desse usuário.
+Há dois tipos de permissões que são usadas ao usar aplicativos integrados no Microsoft 365: permissões de usuário e permissões de administrador. Por exemplo, quando sua organização está habilitada para Aplicativos Integrados e um usuário usa um aplicativo de terceiros, o aplicativo pode solicitar a permissão do usuário para ler os detalhes do perfil do usuário, editar ou excluir seus arquivos, ler itens contidos em conjuntos de sites e enviar emails em nome desse usuário.
 
 ![Permissões de usuário de aplicativos integrados](../../media/bb9a6cf8-da39-4ac0-9e40-cde03a81c121.gif)
 
