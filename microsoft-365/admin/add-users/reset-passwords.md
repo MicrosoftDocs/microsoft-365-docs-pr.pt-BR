@@ -1,5 +1,5 @@
 ---
-title: Redefinir senhas de negócios do Office 365
+title: Redefinir senha
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -25,123 +25,123 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
-description: 'Saiba como redefinir a senha de um usuário na assinatura comercial 365 do Office. '
-ms.openlocfilehash: a19999ceffa140343c079c6758cc831175c09ab1
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: 'Saiba como redefinir a senha de um usuário na assinatura do Microsoft 365 for Business. '
+ms.openlocfilehash: 0d8a68edb0b85094b271712f018eea79ca9f0aee
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237121"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626941"
 ---
-# <a name="reset-office-365-business-passwords"></a><span data-ttu-id="6be24-103">Redefinir senhas de negócios do Office 365</span><span class="sxs-lookup"><span data-stu-id="6be24-103">Reset Office 365 business passwords</span></span>
+# <a name="reset-passwords"></a><span data-ttu-id="16242-103">Redefinir senha</span><span class="sxs-lookup"><span data-stu-id="16242-103">Reset passwords</span></span>
 
-<span data-ttu-id="6be24-104">Assista a um pequeno vídeo sobre como redefinir senhas de usuário.</span><span class="sxs-lookup"><span data-stu-id="6be24-104">Watch a short video about resetting user passwords.</span></span><br><br>
+<span data-ttu-id="16242-104">Assista a um pequeno vídeo sobre como redefinir senhas de usuário.</span><span class="sxs-lookup"><span data-stu-id="16242-104">Watch a short video about resetting user passwords.</span></span><br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FVVP] 
 
-<span data-ttu-id="6be24-105">Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="6be24-105">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
+<span data-ttu-id="16242-105">Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="16242-105">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
   
-## <a name="let-users-reset-their-own-passwords"></a><span data-ttu-id="6be24-106">Permitir que os usuários redefinam as próprias senhas</span><span class="sxs-lookup"><span data-stu-id="6be24-106">Let users reset their own passwords</span></span>
+## <a name="let-users-reset-their-own-passwords"></a><span data-ttu-id="16242-106">Permitir que os usuários redefinam as próprias senhas</span><span class="sxs-lookup"><span data-stu-id="16242-106">Let users reset their own passwords</span></span>
 
-<span data-ttu-id="6be24-p101">É altamente recomendado configurar o autoatendimento de redefinição de senha. Assim, você não precisa redefinir manualmente as senhas para os usuários. Para saber como, confira [Permitir que os usuários redefinam as próprias senhas no Office 365](let-users-reset-passwords.md).</span><span class="sxs-lookup"><span data-stu-id="6be24-p101">We strongly recommend that you set up self-service password reset. This way you don't have to manually reset passwords for your users. To learn how, see [Let users reset their own passwords in Office 365](let-users-reset-passwords.md).</span></span>
+<span data-ttu-id="16242-p101">É altamente recomendado configurar o autoatendimento de redefinição de senha. Assim, você não precisa redefinir manualmente as senhas para os usuários. Para saber como, confira [Permitir que os usuários redefinam as próprias senhas no Office 365](let-users-reset-passwords.md).</span><span class="sxs-lookup"><span data-stu-id="16242-p101">We strongly recommend that you set up self-service password reset. This way you don't have to manually reset passwords for your users. To learn how, see [Let users reset their own passwords in Office 365](let-users-reset-passwords.md).</span></span>
   
-## <a name="reset-an-office-365-business-password-for-someone-else"></a><span data-ttu-id="6be24-110">Redefinir uma senha do Office 365 Business para outra pessoa</span><span class="sxs-lookup"><span data-stu-id="6be24-110">Reset an Office 365 business password for someone else</span></span>
+## <a name="reset-a-business-password-for-someone-else"></a><span data-ttu-id="16242-110">Redefinir uma senha de negócios para outra pessoa</span><span class="sxs-lookup"><span data-stu-id="16242-110">Reset a business password for someone else</span></span>
 
-<span data-ttu-id="6be24-111">Esses procedimentos se destinam apenas às pessoas que usam um plano do Office 365 Business.</span><span class="sxs-lookup"><span data-stu-id="6be24-111">These steps are only for people using an Office 365 business plan.</span></span> <span data-ttu-id="6be24-112">Para fazer isso, você precisa entrar com sua conta de administrador do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="6be24-112">To do them, you need to sign in with your Microsoft 365 admin account.</span></span> [<span data-ttu-id="6be24-113">O que é uma conta de administrador?</span><span class="sxs-lookup"><span data-stu-id="6be24-113">What's an admin account?</span></span>](../admin-overview/admin-overview.md)
+<span data-ttu-id="16242-111">Estas etapas são apenas para pessoas que usam um plano Microsoft 365 para empresas.</span><span class="sxs-lookup"><span data-stu-id="16242-111">These steps are only for people using a Microsoft 365 for business plan.</span></span> <span data-ttu-id="16242-112">Para fazer isso, você precisa entrar com sua conta de administrador do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="16242-112">To do them, you need to sign in with your Microsoft 365 admin account.</span></span> [<span data-ttu-id="16242-113">O que é uma conta de administrador?</span><span class="sxs-lookup"><span data-stu-id="16242-113">What's an admin account?</span></span>](../admin-overview/admin-overview.md)
 
  
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="6be24-114">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="6be24-114">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
+1. <span data-ttu-id="16242-114">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="16242-114">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="6be24-115">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="6be24-115">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>
+1. <span data-ttu-id="16242-115">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="16242-115">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="6be24-116">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="6be24-116">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span>
+1. <span data-ttu-id="16242-116">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="16242-116">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span>
 
 ::: moniker-end
 
-2. <span data-ttu-id="6be24-117">Na página **usuários ativos** , selecione o usuário e, em seguida, selecione **Redefinir senha**.</span><span class="sxs-lookup"><span data-stu-id="6be24-117">On the **Active users** page, select the user and then select **Reset password**.</span></span>
+2. <span data-ttu-id="16242-117">Na página **usuários ativos** , selecione o usuário e, em seguida, selecione **Redefinir senha**.</span><span class="sxs-lookup"><span data-stu-id="16242-117">On the **Active users** page, select the user and then select **Reset password**.</span></span>
     
-3. <span data-ttu-id="6be24-118">Siga as instruções na página **Redefinir senha** para gerar automaticamente uma nova senha para o usuário ou criar uma para elas e, em seguida, selecione **Redefinir**.</span><span class="sxs-lookup"><span data-stu-id="6be24-118">Follow the instructions on the **Reset password** page to auto-generate a new password for the user or create one for them, and then select **Reset**.</span></span>  
+3. <span data-ttu-id="16242-118">Siga as instruções na página **Redefinir senha** para gerar automaticamente uma nova senha para o usuário ou criar uma para elas e, em seguida, selecione **Redefinir**.</span><span class="sxs-lookup"><span data-stu-id="16242-118">Follow the instructions on the **Reset password** page to auto-generate a new password for the user or create one for them, and then select **Reset**.</span></span>  
     
-4. <span data-ttu-id="6be24-119">Insira um endereço de email que o usuário possa acessar para que recebam a nova senha e acompanhe com eles para garantir que eles o tenham.</span><span class="sxs-lookup"><span data-stu-id="6be24-119">Enter an email address the user can get to so they receive the new password, and follow up with them to make sure they got it.</span></span>
+4. <span data-ttu-id="16242-119">Insira um endereço de email que o usuário possa acessar para que recebam a nova senha e acompanhe com eles para garantir que eles o tenham.</span><span class="sxs-lookup"><span data-stu-id="16242-119">Enter an email address the user can get to so they receive the new password, and follow up with them to make sure they got it.</span></span>
  
   
-## <a name="reset-my-office-365-tenant-admin-password"></a><span data-ttu-id="6be24-120">Redefinir minha senha de administração de locatário do Office 365</span><span class="sxs-lookup"><span data-stu-id="6be24-120">Reset my Office 365 tenant admin password</span></span>
+## <a name="reset-my-admin-password"></a><span data-ttu-id="16242-120">Redefinir minha senha de administrador</span><span class="sxs-lookup"><span data-stu-id="16242-120">Reset my admin password</span></span>
 
-<span data-ttu-id="6be24-121">Use estas etapas se você esqueceu sua senha, mas consegue entrar no Office 365 por exemplo, sua senha é salva no navegador:</span><span class="sxs-lookup"><span data-stu-id="6be24-121">Use these steps if you forgot your password but you're able to sign in to Office 365 because, for example, your password is saved in your browser:</span></span> 
+<span data-ttu-id="16242-121">Use estas etapas se você esqueceu sua senha, mas consegue entrar no Microsoft 365 porque, por exemplo, sua senha é salva no navegador:</span><span class="sxs-lookup"><span data-stu-id="16242-121">Use these steps if you forgot your password but you're able to sign in to Microsoft 365 because, for example, your password is saved in your browser:</span></span> 
     
-1. <span data-ttu-id="6be24-122">No Office 365, selecione **configurações** \> **informações pessoais** **do Office 365** \> .</span><span class="sxs-lookup"><span data-stu-id="6be24-122">In Office 365, select **Settings** \> **Office 365** \> **Personal info**.</span></span> 
+1. <span data-ttu-id="16242-122">No Microsoft 365, selecione **configurações** \> **informações pessoais** **do Office 365** \> .</span><span class="sxs-lookup"><span data-stu-id="16242-122">In Microsoft 365, select **Settings** \> **Office 365** \> **Personal info**.</span></span> 
           
-2. <span data-ttu-id="6be24-123">Verifique se os detalhes de **contato** e o **email alternativo** estão corretos.</span><span class="sxs-lookup"><span data-stu-id="6be24-123">Double-check that your **Contact details** and **Alternate email** are accurate.</span></span> <span data-ttu-id="6be24-124">Caso contrário, altere-as agora.</span><span class="sxs-lookup"><span data-stu-id="6be24-124">If not, change them now.</span></span> 
+2. <span data-ttu-id="16242-123">Verifique se os detalhes de **contato** e o **email alternativo** estão corretos.</span><span class="sxs-lookup"><span data-stu-id="16242-123">Double-check that your **Contact details** and **Alternate email** are accurate.</span></span> <span data-ttu-id="16242-124">Caso contrário, altere-as agora.</span><span class="sxs-lookup"><span data-stu-id="16242-124">If not, change them now.</span></span> 
         
-3. <span data-ttu-id="6be24-125">Sair do Office 365: Selecione seu nome no canto superior direito (na imagem acima, mostrado como **Diane**) \> **sair**.</span><span class="sxs-lookup"><span data-stu-id="6be24-125">Sign out of Office 365: select your name in the upper right corner (in the above image, shown as **Diane**) \> **Sign out**.</span></span> 
+3. <span data-ttu-id="16242-125">Sair do Office 365: Selecione seu nome no canto superior direito (na imagem acima, mostrado como **Diane**) \> **sair**.</span><span class="sxs-lookup"><span data-stu-id="16242-125">Sign out of Office 365: select your name in the upper right corner (in the above image, shown as **Diane**) \> **Sign out**.</span></span> 
         
-4. <span data-ttu-id="6be24-126">Agora entre novamente: digite \> **seu nome de** \> usuário e, em seguida, selecione **esqueceu a senha**.</span><span class="sxs-lookup"><span data-stu-id="6be24-126">Now sign in again: type your user name \> **Next** \> and then select **Forgot password**.</span></span> 
+4. <span data-ttu-id="16242-126">Agora entre novamente: digite \> **seu nome de** \> usuário e, em seguida, selecione **esqueceu a senha**.</span><span class="sxs-lookup"><span data-stu-id="16242-126">Now sign in again: type your user name \> **Next** \> and then select **Forgot password**.</span></span> 
     
-5. <span data-ttu-id="6be24-127">Siga as etapas no Assistente para redefinir sua senha.</span><span class="sxs-lookup"><span data-stu-id="6be24-127">Follow the steps in the wizard to reset your password.</span></span> <span data-ttu-id="6be24-128">Ele usa suas informações de contato alternativas para confirmar que você é a pessoa certa para redefinir sua senha.</span><span class="sxs-lookup"><span data-stu-id="6be24-128">It uses your alternate contact info to verify you're the right person to reset your password.</span></span> 
+5. <span data-ttu-id="16242-127">Siga as etapas no Assistente para redefinir sua senha.</span><span class="sxs-lookup"><span data-stu-id="16242-127">Follow the steps in the wizard to reset your password.</span></span> <span data-ttu-id="16242-128">Ele usa suas informações de contato alternativas para confirmar que você é a pessoa certa para redefinir sua senha.</span><span class="sxs-lookup"><span data-stu-id="16242-128">It uses your alternate contact info to verify you're the right person to reset your password.</span></span> 
     
-<span data-ttu-id="6be24-129">Se você esqueceu a senha e não consegue entrar:</span><span class="sxs-lookup"><span data-stu-id="6be24-129">If you forgot your password and can't sign in:</span></span> 
+<span data-ttu-id="16242-129">Se você esqueceu a senha e não consegue entrar:</span><span class="sxs-lookup"><span data-stu-id="16242-129">If you forgot your password and can't sign in:</span></span> 
     
-- <span data-ttu-id="6be24-130">Peça a outro administrador global em sua empresa para redefinir sua senha.</span><span class="sxs-lookup"><span data-stu-id="6be24-130">Ask another global admin in your business to reset your password for you.</span></span>
+- <span data-ttu-id="16242-130">Peça a outro administrador global em sua empresa para redefinir sua senha.</span><span class="sxs-lookup"><span data-stu-id="16242-130">Ask another global admin in your business to reset your password for you.</span></span>
     
-- <span data-ttu-id="6be24-131">Ou, [ligue para o suporte da Microsoft](https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&amp;rs=en-US&amp;ad=US#ID0EAADAAA=Phone_support_).</span><span class="sxs-lookup"><span data-stu-id="6be24-131">Or, [call Microsoft Support](https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&amp;rs=en-US&amp;ad=US#ID0EAADAAA=Phone_support_).</span></span> 
+- <span data-ttu-id="16242-131">Ou, [ligue para o suporte da Microsoft](https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&amp;rs=en-US&amp;ad=US#ID0EAADAAA=Phone_support_).</span><span class="sxs-lookup"><span data-stu-id="16242-131">Or, [call Microsoft Support](https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&amp;rs=en-US&amp;ad=US#ID0EAADAAA=Phone_support_).</span></span> 
     
-## <a name="reset-all-office-365-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a><span data-ttu-id="6be24-132">Redefinir todas as senhas do Office 365 Business para todos em sua organização ao mesmo tempo</span><span class="sxs-lookup"><span data-stu-id="6be24-132">Reset all Office 365 business passwords for everyone in your organization at the same time</span></span>
-<span data-ttu-id="6be24-133"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="6be24-133"><a name="bkmk_forgot"> </a></span></span>
+## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a><span data-ttu-id="16242-132">Redefinir todas as senhas de negócios para todas as pessoas em sua organização ao mesmo tempo</span><span class="sxs-lookup"><span data-stu-id="16242-132">Reset all business passwords for everyone in your organization at the same time</span></span>
+<span data-ttu-id="16242-133"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="16242-133"><a name="bkmk_forgot"> </a></span></span>
 
-<span data-ttu-id="6be24-p105">Estas etapas funcionam para uma empresa com dezenas de usuários. Se você tiver centenas ou milhares de usuários, confira a próxima seção sobre redefinições de senha em massa.</span><span class="sxs-lookup"><span data-stu-id="6be24-p105">These steps work for a business with tens of users. If you have hundreds or thousands of users, see the next section on resetting passwords in bulk.</span></span>
+<span data-ttu-id="16242-p105">Estas etapas funcionam para uma empresa com dezenas de usuários. Se você tiver centenas ou milhares de usuários, confira a próxima seção sobre redefinições de senha em massa.</span><span class="sxs-lookup"><span data-stu-id="16242-p105">These steps work for a business with tens of users. If you have hundreds or thousands of users, see the next section on resetting passwords in bulk.</span></span>
   
-1. <span data-ttu-id="6be24-136">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="6be24-136">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
+1. <span data-ttu-id="16242-136">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="16242-136">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
     
-2. <span data-ttu-id="6be24-137">Selecione a opção ao lado de **exibir nome** para selecionar todos em sua empresa.</span><span class="sxs-lookup"><span data-stu-id="6be24-137">Select the option next to **Display name** to select everyone in your business.</span></span> <span data-ttu-id="6be24-138">Desmarque a si mesmo.</span><span class="sxs-lookup"><span data-stu-id="6be24-138">Then unselect yourself.</span></span> <span data-ttu-id="6be24-139">Você não pode redefinir sua senha ao mesmo tempo em que redefine a senha de outras pessoas.</span><span class="sxs-lookup"><span data-stu-id="6be24-139">You can't reset your own password at the same time you reset everyone else's password.</span></span>
+2. <span data-ttu-id="16242-137">Selecione a opção ao lado de **exibir nome** para selecionar todos em sua empresa.</span><span class="sxs-lookup"><span data-stu-id="16242-137">Select the option next to **Display name** to select everyone in your business.</span></span> <span data-ttu-id="16242-138">Desmarque a si mesmo.</span><span class="sxs-lookup"><span data-stu-id="16242-138">Then unselect yourself.</span></span> <span data-ttu-id="16242-139">Você não pode redefinir sua senha ao mesmo tempo em que redefine a senha de outras pessoas.</span><span class="sxs-lookup"><span data-stu-id="16242-139">You can't reset your own password at the same time you reset everyone else's password.</span></span>
     
-3. <span data-ttu-id="6be24-140">Selecione **Redefinir senha**.</span><span class="sxs-lookup"><span data-stu-id="6be24-140">Select **Reset password**.</span></span> 
+3. <span data-ttu-id="16242-140">Selecione **Redefinir senha**.</span><span class="sxs-lookup"><span data-stu-id="16242-140">Select **Reset password**.</span></span> 
 
-4. <span data-ttu-id="6be24-141">Siga as instruções na página **Redefinir senha** e selecione **Redefinir**.</span><span class="sxs-lookup"><span data-stu-id="6be24-141">Follow the instructions on the **Reset password** page, and select **Reset**.</span></span>  <span data-ttu-id="6be24-142">Se você optou por gerar automaticamente as senhas, as novas senhas temporárias serão exibidas.</span><span class="sxs-lookup"><span data-stu-id="6be24-142">If you opted for auto-generating the passwords, the new temporary passwords will be displayed.</span></span>   
+4. <span data-ttu-id="16242-141">Siga as instruções na página **Redefinir senha** e selecione **Redefinir**.</span><span class="sxs-lookup"><span data-stu-id="16242-141">Follow the instructions on the **Reset password** page, and select **Reset**.</span></span>  <span data-ttu-id="16242-142">Se você optou por gerar automaticamente as senhas, as novas senhas temporárias serão exibidas.</span><span class="sxs-lookup"><span data-stu-id="16242-142">If you opted for auto-generating the passwords, the new temporary passwords will be displayed.</span></span>   
     
-5. <span data-ttu-id="6be24-143">Insira um endereço de email onde você pode receber as senhas temporárias.</span><span class="sxs-lookup"><span data-stu-id="6be24-143">Enter an email address where you can receive the temporary passwords.</span></span> <span data-ttu-id="6be24-144">Você precisará notificar seus usuários quais são suas senhas temporárias.</span><span class="sxs-lookup"><span data-stu-id="6be24-144">You'll need to notify your users what their temporary passwords are.</span></span>
+5. <span data-ttu-id="16242-143">Insira um endereço de email onde você pode receber as senhas temporárias.</span><span class="sxs-lookup"><span data-stu-id="16242-143">Enter an email address where you can receive the temporary passwords.</span></span> <span data-ttu-id="16242-144">Você precisará notificar seus usuários quais são suas senhas temporárias.</span><span class="sxs-lookup"><span data-stu-id="16242-144">You'll need to notify your users what their temporary passwords are.</span></span>
     
 
   
-## <a name="reset-office-365-business-passwords-in-bulk"></a><span data-ttu-id="6be24-145">Redefinir senhas do Office 365 Business em massa</span><span class="sxs-lookup"><span data-stu-id="6be24-145">Reset Office 365 business passwords in bulk</span></span>
-<span data-ttu-id="6be24-146"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="6be24-146"><a name="bkmk_forgot"> </a></span></span>
+## <a name="reset-business-passwords-in-bulk"></a><span data-ttu-id="16242-145">Redefinir senhas de negócios em massa</span><span class="sxs-lookup"><span data-stu-id="16242-145">Reset business passwords in bulk</span></span>
+<span data-ttu-id="16242-146"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="16242-146"><a name="bkmk_forgot"> </a></span></span>
 
-<span data-ttu-id="6be24-p109">Use o PowerShell! Confira esta postagem por Eyal Doron: [Gerenciamento de senhas com o PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).</span><span class="sxs-lookup"><span data-stu-id="6be24-p109">Use PowerShell! Check out this post by Eyal Doron: [Managing passwords with PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).</span></span>
+<span data-ttu-id="16242-p109">Use o PowerShell! Confira esta postagem por Eyal Doron: [Gerenciamento de senhas com o PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).</span><span class="sxs-lookup"><span data-stu-id="16242-p109">Use PowerShell! Check out this post by Eyal Doron: [Managing passwords with PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).</span></span>
   
-<span data-ttu-id="6be24-149">Veja um artigo relacionado: [Definir senhas de várias contas de usuário](https://support.office.com/article/014fc912-bee1-461d-ad00-56b80428b907.aspx#bkmk_password).</span><span class="sxs-lookup"><span data-stu-id="6be24-149">Here's a related article: [Set the passwords for multiple user accounts](https://support.office.com/article/014fc912-bee1-461d-ad00-56b80428b907.aspx#bkmk_password).</span></span>
+<span data-ttu-id="16242-149">Veja um artigo relacionado: [Definir senhas de várias contas de usuário](https://support.office.com/article/014fc912-bee1-461d-ad00-56b80428b907.aspx#bkmk_password).</span><span class="sxs-lookup"><span data-stu-id="16242-149">Here's a related article: [Set the passwords for multiple user accounts](https://support.office.com/article/014fc912-bee1-461d-ad00-56b80428b907.aspx#bkmk_password).</span></span>
   
-<span data-ttu-id="6be24-150">Confira informações de visão geral em [PowerShell para administradores do Office 365](https://support.office.com/article/40fdcbd4-c34f-42ab-8678-8b3751137ef1.aspx).</span><span class="sxs-lookup"><span data-stu-id="6be24-150">For overview information, see [PowerShell for Office 365 administrators](https://support.office.com/article/40fdcbd4-c34f-42ab-8678-8b3751137ef1.aspx).</span></span>
+<span data-ttu-id="16242-150">Para obter informações gerais, consulte [PowerShell for Microsoft 365 Administrators](https://support.office.com/article/40fdcbd4-c34f-42ab-8678-8b3751137ef1.aspx).</span><span class="sxs-lookup"><span data-stu-id="16242-150">For overview information, see [PowerShell for Microsoft 365 administrators](https://support.office.com/article/40fdcbd4-c34f-42ab-8678-8b3751137ef1.aspx).</span></span>
   
-## <a name="force-a-password-change-for-all-users-in-your-business"></a><span data-ttu-id="6be24-151">Forçar uma alteração de senha para todos os usuários da sua empresa</span><span class="sxs-lookup"><span data-stu-id="6be24-151">Force a password change for all users in your business</span></span>
-<span data-ttu-id="6be24-152"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="6be24-152"><a name="bkmk_forgot"> </a></span></span>
+## <a name="force-a-password-change-for-all-users-in-your-business"></a><span data-ttu-id="16242-151">Forçar uma alteração de senha para todos os usuários da sua empresa</span><span class="sxs-lookup"><span data-stu-id="16242-151">Force a password change for all users in your business</span></span>
+<span data-ttu-id="16242-152"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="16242-152"><a name="bkmk_forgot"> </a></span></span>
 
-<span data-ttu-id="6be24-153">Confira esta excelente postagem no blog por Vasil Michev, MVP da Microsoft: [Force a alteração de senha para todos os usuários no Office 365](https://go.microsoft.com/fwlink/?linkid=853693).</span><span class="sxs-lookup"><span data-stu-id="6be24-153">Check out this great blog post by Vasil Michev, Microsoft MVP: [Force password change for all users in Office 365](https://go.microsoft.com/fwlink/?linkid=853693).</span></span>
+<span data-ttu-id="16242-153">Confira esta excelente postagem no blog por Vasil Michev, MVP da Microsoft: [Force a alteração de senha para todos os usuários no Office 365](https://go.microsoft.com/fwlink/?linkid=853693).</span><span class="sxs-lookup"><span data-stu-id="16242-153">Check out this great blog post by Vasil Michev, Microsoft MVP: [Force password change for all users in Office 365](https://go.microsoft.com/fwlink/?linkid=853693).</span></span>
   
-## <a name="im-lost"></a><span data-ttu-id="6be24-154">Estou perdido!</span><span class="sxs-lookup"><span data-stu-id="6be24-154">I'm lost!</span></span>
-<span data-ttu-id="6be24-155"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="6be24-155"><a name="bkmk_forgot"> </a></span></span>
+## <a name="im-lost"></a><span data-ttu-id="16242-154">Estou perdido!</span><span class="sxs-lookup"><span data-stu-id="16242-154">I'm lost!</span></span>
+<span data-ttu-id="16242-155"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="16242-155"><a name="bkmk_forgot"> </a></span></span>
 
-<span data-ttu-id="6be24-156">Experimente os procedimentos deste artigo: [Eu esqueci o nome de usuário ou a senha da conta que uso com o Office.](https://support.office.com/article/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp)</span><span class="sxs-lookup"><span data-stu-id="6be24-156">Try this article: [I forgot the username or password for the account I use with Office.](https://support.office.com/article/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp)</span></span>
+<span data-ttu-id="16242-156">Experimente os procedimentos deste artigo: [Eu esqueci o nome de usuário ou a senha da conta que uso com o Office.](https://support.office.com/article/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp)</span><span class="sxs-lookup"><span data-stu-id="16242-156">Try this article: [I forgot the username or password for the account I use with Office.](https://support.office.com/article/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp)</span></span>
   
-## <a name="related-articles"></a><span data-ttu-id="6be24-157">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="6be24-157">Related articles</span></span>
-<span data-ttu-id="6be24-158"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="6be24-158"><a name="bkmk_forgot"> </a></span></span>
+## <a name="related-articles"></a><span data-ttu-id="16242-157">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="16242-157">Related articles</span></span>
+<span data-ttu-id="16242-158"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="16242-158"><a name="bkmk_forgot"> </a></span></span>
   
-[<span data-ttu-id="6be24-159">Permitir que os usuários redefinam suas próprias senhas no Office 365</span><span class="sxs-lookup"><span data-stu-id="6be24-159">Let users reset their own passwords in Office 365</span></span>](let-users-reset-passwords.md)
+[<span data-ttu-id="16242-159">Permitir que os usuários redefinam suas próprias senhas</span><span class="sxs-lookup"><span data-stu-id="16242-159">Let users reset their own passwords</span></span>](let-users-reset-passwords.md)
 
-[<span data-ttu-id="6be24-160">Definir a senha de um usuário individual para nunca expirar</span><span class="sxs-lookup"><span data-stu-id="6be24-160">Set an individual user's password to never expire</span></span>](set-password-to-never-expire.md)
+[<span data-ttu-id="16242-160">Definir a senha de um usuário individual para nunca expirar</span><span class="sxs-lookup"><span data-stu-id="16242-160">Set an individual user's password to never expire</span></span>](set-password-to-never-expire.md)
 
-[<span data-ttu-id="6be24-161">Definir a política de expiração de senha para sua organização</span><span class="sxs-lookup"><span data-stu-id="6be24-161">Set the password expiration policy for your organization</span></span>](../manage/set-password-expiration-policy.md)
+[<span data-ttu-id="16242-161">Definir a política de expiração de senha para sua organização</span><span class="sxs-lookup"><span data-stu-id="16242-161">Set the password expiration policy for your organization</span></span>](../manage/set-password-expiration-policy.md)
 
-[<span data-ttu-id="6be24-162">Restaurar um usuário no Office 365</span><span class="sxs-lookup"><span data-stu-id="6be24-162">Restore a user in Office 365</span></span>](restore-user.md)
+[<span data-ttu-id="16242-162">Restaurar um usuário</span><span class="sxs-lookup"><span data-stu-id="16242-162">Restore a user</span></span>](restore-user.md)
 
-[<span data-ttu-id="6be24-163">Remover um ex-funcionário do Office 365</span><span class="sxs-lookup"><span data-stu-id="6be24-163">Remove a former employee from Office 365</span></span>](remove-former-employee.md)
+[<span data-ttu-id="16242-163">Remover um ex-funcionário</span><span class="sxs-lookup"><span data-stu-id="16242-163">Remove a former employee</span></span>](remove-former-employee.md)
 
-[<span data-ttu-id="6be24-164">Vídeos de treinamento do Microsoft 365 Business </span><span class="sxs-lookup"><span data-stu-id="6be24-164">Microsoft 365 Business training videos</span></span>](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[<span data-ttu-id="16242-164">Vídeos de treinamento do Microsoft 365 for Business</span><span class="sxs-lookup"><span data-stu-id="16242-164">Microsoft 365 for business training videos</span></span>](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
