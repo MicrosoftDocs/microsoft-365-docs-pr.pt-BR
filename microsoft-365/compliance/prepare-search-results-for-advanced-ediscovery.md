@@ -1,5 +1,5 @@
 ---
-title: Preparar resultados de pesquisa para Descoberta Eletrônica Avançada do Office 365
+title: Preparar resultados de pesquisa para Descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,20 +16,20 @@ ms.collection:
 - M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
-description: Saiba como preparar os resultados de uma pesquisa de conteúdo no centro de conformidade & segurança no Office 365 para análise adicional com a ferramenta de descoberta eletrônica avançada.
-ms.openlocfilehash: 01a09da78198c31ff88b0e539ae9b149b2fbdd02
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: Saiba como preparar os resultados de uma pesquisa de conteúdo no centro de conformidade de & de segurança para análise adicional com a ferramenta de descoberta eletrônica avançada.
+ms.openlocfilehash: e4cf580a045f9911e6c92fb2031a5d7bed79754e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557851"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626635"
 ---
-# <a name="prepare-search-results-for-advanced-ediscovery-classic"></a>Preparar resultados de pesquisa para descoberta eletrônica avançada (clássico)
+# <a name="prepare-search-results-for-advanced-ediscovery-classic"></a>Preparar resultados de pesquisa para a Descoberta Eletrônica Avançada (clássico)
 
 > [!IMPORTANT]
-> Como continuamos a investir em versões mais recentes da descoberta eletrônica avançada, anunciamos a desativação da descoberta eletrônica avançada do Office 365, também conhecida como *descoberta eletrônica avançada (clássica)* ou *descoberta eletrônica avançada v 1.0*. Se você ainda estiver usando a Descoberta Eletrônica Avançada v1.0, faça a transição para o [Descoberta Eletrônica Avançada v2.0](overview-ediscovery-20.md) (também conhecida como * solução de Descoberta Eletrônica Avançada no Microsoft 365*) o mais rápido possível. O Descoberta Eletrônica Avançada 2.0 contém funcionalidade semelhante encontrada na Descoberta Eletrônica Avançada v1.0, mas também oferece muitos recursos novos, como gerenciamento de custódia, gerenciamento de comunicações e conjuntos de revisão. Para saber mais sobre a desativação da Descoberta Eletrônica Avançada v1.0, confira [Desativação de ferramentas legadas de Descoberta Eletrônica](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
+> Como continuamos a investir em versões mais recentes da descoberta eletrônica avançada, anunciamos o afastamento da descoberta eletrônica avançada, também conhecida como *descoberta eletrônica avançada (clássica)* ou *descoberta eletrônica avançada v 1.0*. Se você ainda estiver usando a Descoberta Eletrônica Avançada v1.0, faça a transição para o [Descoberta Eletrônica Avançada v2.0](overview-ediscovery-20.md) (também conhecida como * solução de Descoberta Eletrônica Avançada no Microsoft 365*) o mais rápido possível. O Descoberta Eletrônica Avançada 2.0 contém funcionalidade semelhante encontrada na Descoberta Eletrônica Avançada v1.0, mas também oferece muitos recursos novos, como gerenciamento de custódia, gerenciamento de comunicações e conjuntos de revisão. Para saber mais sobre a desativação da Descoberta Eletrônica Avançada v1.0, confira [Desativação de ferramentas legadas de Descoberta Eletrônica](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
 
-Depois que uma pesquisa associada a uma ocorrência de descoberta eletrônica no centro de conformidade do & de segurança for executada com êxito, você poderá preparar os resultados da pesquisa para análise adicional com a descoberta eletrônica avançada do Office 365, que permite analisar conjuntos de dados grandes e não estruturados e reduzir a quantidade de dados relevantes para um caso jurídico. Os recursos avançados de descoberta eletrônica incluem:
+Depois que uma pesquisa associada a uma ocorrência de descoberta eletrônica no centro de conformidade do & de segurança for executada com êxito, você poderá preparar os resultados da pesquisa para análise adicional com a descoberta eletrônica avançada, que permite analisar conjuntos de dados grandes e não estruturados e reduzir a quantidade de dados relevantes para um caso jurídico. Os recursos avançados de descoberta eletrônica incluem:
   
 - **Reconhecimento óptico de caracteres** : ao preparar os resultados de pesquisa para descoberta eletrônica avançada, a funcionalidade de reconhecimento óptico de caracteres (OCR) extrai automaticamente o texto de imagens e o inclui com os resultados de pesquisa que são carregados na descoberta eletrônica avançada para análise. O OCR tem suporte para arquivos soltos, anexos de email e imagens incorporadas. Isso permite que você aplique os recursos analíticos de texto de descoberta eletrônica avançada (quase duplicatas, threads de email, temas e codificação de previsão) ao conteúdo de texto em arquivos de imagem. O OCR de descoberta eletrônica avançada oferece suporte aos seguintes formatos de arquivos de imagem:
 
@@ -47,7 +47,7 @@ Depois que uma pesquisa associada a uma ocorrência de descoberta eletrônica no
     
 - **Codificação preditiva** : permite que você treine o sistema do que você está procurando, permitindo tomar decisões (sobre se algo é relevante ou não) em um pequeno conjunto de documentos. A descoberta eletrônica avançada, em seguida, aplica o aprendizado (com base nas suas diretrizes) durante a análise de todos os documentos no conjunto de dados. Com base nesse aprendizado, a descoberta eletrônica avançada fornece uma classificação de relevância para que você possa decidir quais documentos serão revisados com base em qual documento é o mais provável de ser relevante para o caso. 
     
-- **Exportando dados para aplicativos de revisão** -você pode exportar dados de descoberta eletrônica avançada e do Office 365 depois de concluir a análise e reduzir o conjunto de dados. O pacote de exportação inclui um arquivo CSV que contém as propriedades do conteúdo exportado e dos metadados da análise. Esse pacote de exportação pode ser importado para um aplicativo de análise de descoberta eletrônica. 
+- **Exportando dados para aplicativos de revisão** -você pode exportar dados de descoberta eletrônica avançada e do Microsoft 365 depois de concluir a análise e reduzir o conjunto de dados. O pacote de exportação inclui um arquivo CSV que contém as propriedades do conteúdo exportado e dos metadados da análise. Esse pacote de exportação pode ser importado para um aplicativo de análise de descoberta eletrônica. 
     
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -120,4 +120,4 @@ Todas as mensagens de email criptografadas por RMS incluídas nos resultados da 
     
 - Se uma mensagem de email criptografada por RMS tiver um anexo (como um documento ou outra mensagem de email) também criptografada, somente a mensagem de email de nível superior será descriptografada.
     
-- Se você precisar impedir que alguém descriptografe mensagens criptografadas por RMS ao preparar resultados de pesquisa para análise na descoberta eletrônica avançada, será necessário criar um grupo de função personalizado (copiando o grupo de função de Gerenciador de descoberta eletrônica interno) e remover o RMS Descriptografar função de gerenciamento do grupo de função personalizado. Em seguida, adicione a pessoa que você não deseja descriptografar mensagens como um membro do grupo de função personalizado.
+- Se você precisar impedir que alguém descriptografe mensagens criptografadas por RMS ao preparar resultados de pesquisa para análise na descoberta eletrônica avançada, será necessário criar um grupo de função personalizado (copiando o grupo de função de Gerenciador de descoberta eletrônica interno) e remover a função de gerenciamento de descriptografia do RMS do grupo de função personalizado. Em seguida, adicione a pessoa que você não deseja descriptografar mensagens como um membro do grupo de função personalizado.

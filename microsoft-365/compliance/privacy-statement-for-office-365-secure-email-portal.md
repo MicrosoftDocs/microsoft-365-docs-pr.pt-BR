@@ -1,5 +1,5 @@
 ---
-title: Declaração de privacidade do portal de email seguro do Office 365
+title: Declaração de privacidade do portal de email seguro
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,14 +16,14 @@ ms.assetid: 278917cd-a930-46cc-9580-6b9d2361a5f9
 ms.collection:
 - M365-security-compliance
 description: 'Última atualização: maio de 2017'
-ms.openlocfilehash: 23707d22e52935b372a90a42ec323d8f64262894
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 069b47305557ef8a6a4e0a732288977842b52a5e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597709"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626625"
 ---
-# <a name="privacy-statement-for-office-365-secure-email-portal"></a>Declaração de privacidade do portal de email seguro do Office 365
+# <a name="privacy-statement-for-secure-email-portal"></a>Declaração de privacidade do portal de email seguro
 
 Última atualização: maio de 2017
   
@@ -37,9 +37,9 @@ Suas informações de credenciais para a conta da Microsoft, a conta corporativa
   
 Durante o processo de descriptografia, o email criptografado que você recebe não será armazenado pelo novo portal de recursos do OME; Ele não será transmitido fora do novo portal de recursos do OME a qualquer momento.
   
-O novo portal de recursos do OME pode, em alguns casos, coletar pontos de dados sobre o uso e o desempenho dos novos recursos do OME (por exemplo, a frequência com que as mensagens criptografadas são exibidas, o navegador ou o aplicativo usado e todos os erros encontrados), que podem ser analisados em agregação para fins de melhorar a qualidade, a segurança e a integridade desse e de outros aplicativos, produtos ou serviços da Microsoft. Essas informações não são usadas para identificar, contatar ou direcionar anúncios para você.
+O novo portal de recursos do OME pode, em alguns casos, coletar pontos de dados sobre o uso e o desempenho dos novos recursos do OME (por exemplo, a frequência com que as mensagens criptografadas são exibidas, o navegador ou o aplicativo usado e todos os erros encontrados), que podem ser analisados em agregação para fins de melhorar a qualidade, a segurança ou serviços. Essas informações não são usadas para identificar, contatar ou direcionar anúncios para você.
   
-## <a name="for-more-information"></a>Para obter mais informações
+## <a name="for-more-information"></a>Para Obter Mais Informações
 
 Envie consultas diretas relacionadas à Microsoft por meio do [omepriv@microsoft.com](mailto:omepriv@microsoft.com)ou por email no seguinte endereço:
   
@@ -49,7 +49,7 @@ Microsoft Corporation
   
 One Microsoft Way
   
-Redmond, Washington 98052 EUA
+Redmond, Washington 98052 USA
   
 ## <a name="changes"></a>Altera
 

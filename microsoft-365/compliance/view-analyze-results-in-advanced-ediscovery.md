@@ -1,5 +1,5 @@
 ---
-title: Exibir resultados de análise na descoberta eletrônica avançada do Office 365
+title: Exibir resultados de análise na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
-description: 'Entenda onde exibir os resultados do processo de análise na descoberta eletrônica avançada do Office 365, incluindo as definições das opções de tarefa exibidas.  '
-ms.openlocfilehash: adee00d2b7826827cc14f4ca945952f4892511a1
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Entenda onde exibir os resultados do processo de análise na descoberta eletrônica avançada, incluindo as definições das opções de tarefa exibidas.  '
+ms.openlocfilehash: 09bb682e753730a4c01581e71f05b5b8ef3d4779
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557619"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626357"
 ---
 # <a name="view-analyze-results-in-advanced-ediscovery-classic"></a>Exibir resultados de análise na descoberta eletrônica avançada (clássico)
 
@@ -75,9 +75,9 @@ Os resultados de **anexos** exibem o número de anexos, de acordo com esse tipo 
   
 ![Quase duplicatas e threads de email](../media/54491303-0ee3-4739-b42e-d1ee486842fd.png)
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre a similaridade de documentos](understand-document-similarity-in-advanced-ediscovery.md)
   

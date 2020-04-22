@@ -1,5 +1,5 @@
 ---
-title: Definir problemas e atribuir usuários na descoberta eletrônica avançada do Office 365
+title: Definir problemas e atribuir usuários na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,13 +14,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 48d37ee7-05bd-4cb8-9723-a8959ad23fbe
-description: Saiba como adicionar ou editar um problema, incluindo a atribuição de usuários a ele ou a exclusão de um problema para um caso de descoberta eletrônica na descoberta eletrônica avançada do Office 365.
-ms.openlocfilehash: 5c7c15b765a0c129e8a58533951b6569b8766b45
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: Saiba como adicionar ou editar um problema, incluindo a atribuição de usuários a ele ou a exclusão de um problema para um caso de descoberta eletrônica na descoberta eletrônica avançada.
+ms.openlocfilehash: 3e1366962393b6e1bb3605472b4f635fbcf6e4bd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42556969"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630654"
 ---
 # <a name="define-issues-and-assign-users-in-advanced-ediscovery-classic"></a>Definir problemas e atribuir usuários na descoberta eletrônica avançada (clássico)
 
@@ -74,9 +74,9 @@ Os problemas podem ser excluídos (ou seja, removidos do banco de dados) imediat
     
 4. Clique em **OK**.
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Como configurar carregamentos para adicionar os arquivos importados](set-up-loads-to-add-imported-files.md)
   

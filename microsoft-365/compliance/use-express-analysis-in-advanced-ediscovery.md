@@ -1,5 +1,5 @@
 ---
-title: Usar a análise expressa na descoberta eletrônica avançada do Office 365
+title: Usar a análise expressa na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 50580099-3dc0-44a1-a9b6-5ca6d396316b
-description: Saiba como executar o modo de análise expressa da descoberta eletrônica avançada do Office 365
-ms.openlocfilehash: d4b8e1fa5e8251f5ede2d9a3003c756decac3b45
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: Saiba como executar o modo de análise expressa da descoberta eletrônica avançada
+ms.openlocfilehash: 32e1087d33b9e9a6c0e4935bd3488a6b464d06a2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557639"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626407"
 ---
 # <a name="use-express-analysis-in-advanced-ediscovery-classic"></a>Usar a análise expressa na descoberta eletrônica avançada (clássica) 
 
@@ -115,7 +115,7 @@ Opcionalmente, você pode definir **Configurações avançadas** para alterar os
     
   - Para excluir um lote de exportação, escolha **excluir** ![excluir um ícone](../media/92a9f8e0-d469-48da-addb-69365e7ffb6f.jpg)de lote de exportação.
     
-  - Para exibir o histórico de um lote, escolha **** ![o ícone](../media/a80cc320-d96c-4d91-8884-75fe2cb147e2.jpg)histórico de exibição do histórico de lotes.
+  - Para exibir o histórico de um lote, escolha **Batch history** ![o ícone](../media/a80cc320-d96c-4d91-8884-75fe2cb147e2.jpg)histórico de exibição do histórico de lotes.
     
 2. Em definir p **opulation:** selecione **incluir somente os arquivos acima da classificação de recorte de relevância** e/ou **refinar lote de exportação** se quiser ajustar as configurações para o lote de exportação. Se você selecionar **incluir apenas arquivos acima da Pontuação de recorte de relevância**, o **problema** será habilitado, e se a pontuação de relevância do arquivo for maior do que a pontuação de recorte do problema selecionado, o arquivo será exportado. O arquivo será exportado, a menos que seja excluído pelo filtro " **para revisão** . Se você selecionar **refinar lote de exportação**, os botões **de opção de eliminação de duplicação** e **filtro por "para revisão"** estão habilitados. Se **você escolher a eliminação da duplicação**, os arquivos duplicados serão filtrados de acordo com a política definida: [nível de caso (padrão): de cada conjunto de arquivos duplicados em todo o caso, todos exceto um arquivo serão eliminados. Nível do responsáveis: de cada conjunto de arquivos duplicados do mesmo mesmo, todos os arquivos, exceto um, serão eliminados de duplicação. Um registro de todos os arquivos duplicados está disponível na saída para exportação. Se você escolher **Filtrar por "para revisão"** , selecione **Modificar em metadados** para inserir as configurações de campo **"para revisão"**. Selecione **incluir arquivos de entrada**para incluir arquivos de origem no conteúdo do pacote. Você pode desmarcar essa opção para acelerar o processo de exportação. Observe que os arquivos nativos serão exportados em qualquer caso.
     
@@ -132,5 +132,5 @@ Escolha **OK**para salvar as configurações avançadas, **Restaurar padrões** 
 ## <a name="see-also"></a>Confira também
 <a name="BK_AdvancedSettings"> </a>
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
 

@@ -14,17 +14,17 @@ search.appverid:
 - MOE150
 - MET150
 description: O gerente de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho. Use-o para controlar, atribuir e verificar atividades de conformidade regulatória relacionadas a produtos da Microsoft.
-ms.openlocfilehash: aaae5f1123872367ad98466833f9e06210bfb652
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 2a2c0b9311062da1269f7b56c926ced9e038627f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142656"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626227"
 ---
 # <a name="working-with-microsoft-compliance-manager-preview"></a>Trabalhando com o Microsoft Compliance Manager (versão prévia)
 
 > [!IMPORTANT]
-> O gerente de conformidade da Microsoft é um painel e uma ferramenta de gerenciamento que fornece um resumo de seus Stature de proteção e conformidade de dados e recomendações para melhorar a proteção e conformidade dos dados. As ações do cliente fornecidas no gerente de conformidade são recomendações. A sua organização pode avaliar a eficácia dessas recomendações em seu respectivo ambiente normativo antes da implementação. As recomendações encontradas no Gerenciador de conformidade não devem ser interpretadas como garantia de conformidade.
+> O gerente de conformidade da Microsoft é um painel e uma ferramenta de gerenciamento que fornece um resumo de seus Stature de proteção e conformidade de dados e recomendações para melhorar a proteção e conformidade dos dados. As ações do cliente fornecidas no gerente de conformidade são recomendações. A sua organização pode avaliar a eficácia dessas recomendações em seu respectivo ambiente normativo antes da implementação. As recomendações encontradas no Gerenciador de conformidade não devem ser interpretadas como uma garantia de conformidade.
 
 ## <a name="access-compliance-manager"></a>Gerenciador de conformidade do Access
 
@@ -583,7 +583,7 @@ Você pode exportar uma avaliação para um arquivo do Excel para stakeholders d
 
 ![Relatório do Excel de avaliação do Gerenciador de conformidade](../media/compliance-manager-assessment-report.png "Relatório do Excel de avaliação do Gerenciador de conformidade")
 
-## <a name="permissions"></a>Permissions
+## <a name="permissions"></a>Permissões
 
 A tabela a seguir descreve cada permissão do Gerenciador de conformidade e o que ele permite fazer. A tabela também indica a função que cada permissão é atribuída.
 

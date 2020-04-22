@@ -16,22 +16,22 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 description: Você tem a opção de cancelar a duplicação de resultados de pesquisa de descoberta eletrônica que são exportados para que apenas uma cópia de uma mensagem de email seja exportada, embora várias instâncias da mesma mensagem possam ter sido encontradas em caixas de correio diferentes.
-ms.openlocfilehash: f3a0291c2c611814e35528e87f5a3897c4e8ba59
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d61edf03ed64402f6540b4c822060f283825cd6e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42076259"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630578"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>Deduplicação nos resultados de pesquisa de Descoberta Eletrônica
 
 Este artigo descreve como a duplicação de resultados de pesquisa de descoberta eletrônica funciona e explica as limitações do algoritmo de eliminação de duplicação.
   
-Ao usar as ferramentas de descoberta eletrônica do Office 365 para exportar os resultados de uma pesquisa de descoberta eletrônica, você tem a opção de eliminar a duplicação dos resultados exportados. Cenário Quando você habilita a eliminação de duplicação (por padrão, a eliminação de duplicação não está habilitada), apenas uma cópia de uma mensagem de email é exportada, mesmo que várias instâncias da mesma mensagem possam ter sido encontradas nas caixas de correio que foram pesquisadas. A eliminação de duplicação ajuda você a economizar tempo reduzindo o número de itens que você precisa analisar e analisar após os resultados da pesquisa serem exportados. Mas é importante entender como a eliminação de duplicação funciona e estar ciente de que há limitações no algoritmo que podem fazer com que um item exclusivo seja marcado como duplicado durante o processo de exportação.
+Ao usar ferramentas de descoberta eletrônica para exportar os resultados de uma pesquisa de descoberta eletrônica, você tem a opção de eliminar a duplicação dos resultados exportados. Cenário Quando você habilita a eliminação de duplicação (por padrão, a eliminação de duplicação não está habilitada), apenas uma cópia de uma mensagem de email é exportada, mesmo que várias instâncias da mesma mensagem possam ter sido encontradas nas caixas de correio que foram pesquisadas. A eliminação de duplicação ajuda você a economizar tempo reduzindo o número de itens que você precisa analisar e analisar após os resultados da pesquisa serem exportados. Mas é importante entender como a eliminação de duplicação funciona e estar ciente de que há limitações no algoritmo que podem fazer com que um item exclusivo seja marcado como duplicado durante o processo de exportação.
   
 ## <a name="how-duplicate-messages-are-identified"></a>Como as mensagens duplicadas são identificadas
 
-As ferramentas de descoberta eletrônica do Office 365 usam uma combinação das seguintes propriedades de email para determinar se uma mensagem é uma duplicata:
+as ferramentas de descoberta eletrônica usam uma combinação das seguintes propriedades de email para determinar se uma mensagem é uma duplicata:
   
 - **InternetMessageId** -esta propriedade especifica o identificador de mensagem da Internet de uma mensagem de email, que é um identificador global exclusivo que se refere a uma versão específica de uma mensagem específica. Essa ID é gerada pelo programa cliente de email do remetente ou pelo sistema de email host que envia a mensagem. Se uma pessoa enviar uma mensagem para mais de um destinatário, a ID de mensagem da Internet será a mesma para cada instância da mensagem. Revisões subsequentes à mensagem original receberão um identificador de mensagem diferente. 
 

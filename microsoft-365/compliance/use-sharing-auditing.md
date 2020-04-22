@@ -1,5 +1,5 @@
 ---
-title: Compartilhamento de auditoria para localizar recursos compartilhados com usuários externos
+title: Usar a auditoria de compartilhamento no log de auditoria
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -19,17 +19,17 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
-description: 'O compartilhamento é uma atividade importante no SharePoint Online e no OneDrive for Business. Agora, os administradores podem usar a auditoria de compartilhamento no log de auditoria do Office 365 para identificar recursos compartilhados com usuários fora da sua organização. '
-ms.openlocfilehash: 5aecf1e6126ebd118474054ea6536ed0725e980e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 'O compartilhamento é uma atividade importante no SharePoint Online e no OneDrive for Business. Agora, os administradores podem usar a auditoria de compartilhamento no log de auditoria para identificar recursos compartilhados com usuários fora da sua organização. '
+ms.openlocfilehash: 63b56831dc5409cc92a0c4a2f4bf002cd268a878
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069229"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626377"
 ---
-# <a name="use-sharing-auditing-in-the-office-365-audit-log"></a>Compartilhamento de auditoria para localizar recursos compartilhados com usuários externos
+# <a name="use-sharing-auditing-in-the-audit-log"></a>Usar a auditoria de compartilhamento no log de auditoria
 
-O compartilhamento é uma atividade importante no SharePoint Online e no OneDrive for Business e é amplamente usado nas organizações do Office 365. Os administradores podem usar a auditoria de compartilhamento no log de auditoria do Office 365 para determinar como o compartilhamento é usado em sua organização. 
+O compartilhamento é uma atividade importante no SharePoint Online e no OneDrive for Business e é amplamente usado em organizações. Os administradores podem usar a auditoria de compartilhamento no log de auditoria para determinar como o compartilhamento é usado em sua organização. 
   
 ## <a name="the-sharepoint-sharing-schema"></a>O esquema de compartilhamento do SharePoint
 
@@ -41,13 +41,13 @@ O esquema de compartilhamento fornece dois campos adicionais em um registro de a
 
 - **TargetUserOrGroupName:** Armazena o UPN ou o nome do usuário ou grupo de destino com o qual um recurso foi compartilhado (usuário B no exemplo anterior). 
 
-Esses dois campos, além de outras propriedades do esquema de log de auditoria do Office 365, como User, Operation e Date, podem informar a história completa sobre *qual* usuário compartilhou *o* recurso com *quem* e *quando*. 
+Esses dois campos, além de outras propriedades do esquema de log de auditoria, como User, Operation e Date, podem informar a história completa sobre *qual* usuário compartilhou *o* recurso com *quem* e *quando*. 
   
 Há outra propriedade de esquema que é importante para o texto de compartilhamento. Quando você exporta os resultados da pesquisa de log de auditoria, a coluna **AuditData** no arquivo CSV exportado armazena informações sobre o compartilhamento de eventos. Por exemplo, quando um usuário compartilha um site com outro usuário, isso é feito adicionando-se o usuário de destino a um grupo do SharePoint. A coluna **AuditData** captura essas informações para fornecer contexto para administradores. Consulte a [etapa 2](#step-2-use-the-powerquery-editor-to-format-the-exported-audit-log) para obter instruções sobre como analisar as informações na coluna **AuditData** .
 
 ## <a name="sharepoint-sharing-events"></a>Eventos de compartilhamento do SharePoint
 
-O compartilhamento é definido pelo quando um usuário (o usuário *agindo* ) deseja compartilhar um recurso com outro usuário (o usuário de *destino* ). Os registros de auditoria relacionados ao compartilhamento de um recurso com um usuário externo (um usuário que está fora da sua organização e não têm uma conta de convidado no Azure Active Directory da sua organização) são identificados pelos seguintes eventos, que são registrados no Office 365 log de auditoria:
+O compartilhamento é definido pelo quando um usuário (o usuário *agindo* ) deseja compartilhar um recurso com outro usuário (o usuário de *destino* ). Os registros de auditoria relacionados ao compartilhamento de um recurso com um usuário externo (um usuário que está fora da sua organização e não têm uma conta de convidado no Azure Active Directory da sua organização) são identificados pelos seguintes eventos, que são registrados no log de auditoria:
 
 - **SharingInvitationCreated:** Um usuário da sua organização tentou compartilhar um recurso (provavelmente um site) com um usuário externo. Isso resulta em um convite de compartilhamento externo enviado para o usuário de destino. Nenhum acesso ao recurso é concedido neste ponto.
 
@@ -93,11 +93,11 @@ Um requisito comum para administradores é criar uma lista de todos os recursos 
   
 ### <a name="step-1-search-for-sharing-events-and-export-the-results-to-a-csv-file"></a>Etapa 1: Pesquisar eventos de compartilhamento e exportar os resultados para um arquivo CSV
 
-A primeira etapa é Pesquisar o log de auditoria do Office 365 para eventos de compartilhamento. Para obter mais informações (incluindo as permissões necessárias) sobre pesquisa no log de auditoria, consulte [Pesquisar o log de auditoria no centro de conformidade de & de segurança](search-the-audit-log-in-security-and-compliance.md).
+A primeira etapa é Pesquisar o log de auditoria para eventos de compartilhamento. Para obter mais informações (incluindo as permissões necessárias) sobre pesquisa no log de auditoria, consulte [Pesquisar o log de auditoria no centro de conformidade de & de segurança](search-the-audit-log-in-security-and-compliance.md).
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Entre no Office 365 usando a sua conta corporativa ou de estudante.
+2. Entre usando sua conta corporativa ou de estudante.
     
 3. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Pesquisar**  > **Pesquisa de log de auditoria**.
     

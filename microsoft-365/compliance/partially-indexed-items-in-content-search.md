@@ -1,5 +1,5 @@
 ---
-title: Itens parcialmente indexados na Pesquisa de Conteúdo do Office 365
+title: Itens parcialmente indexados na Pesquisa de Conteúdo
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: 'Saiba mais sobre itens não indexados no Exchange e no SharePoint que você pode incluir em uma pesquisa de conteúdo executada por meio do centro de conformidade de & de segurança. '
-ms.openlocfilehash: 3984a181d16d4cd66fbddacb24cfd7c5e489f4ac
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.openlocfilehash: c44138c11c2703cda4accba9976c254a0b135d65
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551222"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626675"
 ---
-# <a name="partially-indexed-items-in-content-search-in-office-365"></a>Itens parcialmente indexados na Pesquisa de Conteúdo do Office 365
+# <a name="partially-indexed-items-in-content-search"></a>Itens parcialmente indexados na Pesquisa de Conteúdo
 
-Uma pesquisa de conteúdo que você executa a partir do centro de conformidade & segurança no Office 365 inclui automaticamente itens parcialmente indexados nos resultados estimados da pesquisa quando você executa uma pesquisa. Itens parcialmente indexados são itens de caixa de correio do Exchange e documentos em sites do SharePoint e do OneDrive for Business que por algum motivo não foram completamente indexados para pesquisa. No Exchange, um item parcialmente indexado normalmente contém um arquivo — de um tipo de arquivo que não pode ser indexado, que é anexado a uma mensagem de email. Veja algumas outras razões pelas quais os itens não podem ser indexados para pesquisa e são retornados como itens parcialmente indexados quando você executa uma pesquisa: 
+Uma pesquisa de conteúdo que você executa a partir do centro de conformidade & segurança inclui automaticamente itens parcialmente indexados nos resultados estimados da pesquisa quando você executa uma pesquisa. Itens parcialmente indexados são itens de caixa de correio do Exchange e documentos em sites do SharePoint e do OneDrive for Business que por algum motivo não foram completamente indexados para pesquisa. No Exchange, um item parcialmente indexado normalmente contém um arquivo — de um tipo de arquivo que não pode ser indexado, que é anexado a uma mensagem de email. Veja algumas outras razões pelas quais os itens não podem ser indexados para pesquisa e são retornados como itens parcialmente indexados quando você executa uma pesquisa: 
   
 - O tipo de arquivo não é reconhecido ou não tem suporte para indexação. 
     
@@ -47,9 +47,9 @@ Uma pesquisa de conteúdo que você executa a partir do centro de conformidade &
 - Um arquivo está protegido por senha.
     
 > [!NOTE]
-> A maioria das organizações do Office 365 tem menos de 1% de conteúdo por volume e menos de 12% por tamanho parcialmente indexado. O motivo para a diferença entre o volume e o tamanho é que os arquivos maiores têm uma maior probabilidade de conteúdo que não pode ser completamente indexado. 
+> A maioria das organizações tem menos de 1% de conteúdo por volume e menos de 12% por tamanho parcialmente indexado. O motivo para a diferença entre o volume e o tamanho é que os arquivos maiores têm uma maior probabilidade de conteúdo que não pode ser completamente indexado. 
   
-Para investigações legais, sua organização pode ser necessária para revisar itens parcialmente indexados. Você também pode especificar se deseja incluir itens parcialmente indexados ao exportar os resultados da pesquisa para um computador local ou ao preparar os resultados para análise com a descoberta eletrônica avançada do Office 365. Para obter mais informações, consulte [investigando itens parcialmente indexados na descoberta eletrônica do Office 365](investigating-partially-indexed-items-in-ediscovery.md).
+Para investigações legais, sua organização pode ser necessária para revisar itens parcialmente indexados. Você também pode especificar se deseja incluir itens parcialmente indexados ao exportar os resultados da pesquisa para um computador local ou ao preparar os resultados para análise com descoberta eletrônica avançada. Para obter mais informações, consulte [investigando itens parcialmente indexados na descoberta eletrônica](investigating-partially-indexed-items-in-ediscovery.md).
   
 ## <a name="file-types-not-indexed-for-search"></a>Tipos de arquivo não indexados para pesquisa
 

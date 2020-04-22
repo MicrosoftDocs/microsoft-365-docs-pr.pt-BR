@@ -17,17 +17,17 @@ localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
-description: A prevenção de perda de dados (DLP) no centro &amp; de conformidade de segurança do Office 365 inclui modelos de política prontos para uso que atendem aos requisitos de conformidade comuns, como ajudá-lo a proteger informações confidenciais sujeitas à HIPAA (assistência médica dos EUA), lei Gramm-Leach-BLILEY (GLBA) ou u.s. Patriot. Este tópico lista todos os modelos de política, quais tipos de informações confidenciais elas procuram e quais são as condições e ações padrão.
-ms.openlocfilehash: 6b87f8c0746611e8ae8cee917e27545ffe5e4373
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: A prevenção de perda de dados (DLP) &amp; no centro de conformidade de segurança inclui modelos de política prontos para uso que atendem aos requisitos de conformidade comuns, como ajudá-lo a proteger informações confidenciais sujeitas à HIPAA (assistência médica dos EUA), lei Gramm-Leach-BLILEY (GLBA) ou Patriot dos EUA. Este tópico lista todos os modelos de política, quais tipos de informações confidenciais elas procuram e quais são as condições e ações padrão.
+ms.openlocfilehash: 622a613fd0f43a7ad23c25ab52460181a8931e7f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597168"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626267"
 ---
 # <a name="what-the-dlp-policy-templates-include"></a>O que os modelos de política de DLP incluem
 
-A prevenção de perda de dados (DLP) no centro &amp; de conformidade de segurança do Office 365 inclui modelos de política prontos para uso que atendem aos requisitos de conformidade comuns, como ajudá-lo a proteger informações confidenciais sujeitas à HIPAA (assistência médica dos EUA), lei Gramm-Leach-BLILEY (GLBA) ou u.s. Patriot. Este tópico lista todos os modelos de política, quais tipos de informações confidenciais elas procuram e quais são as condições e ações padrão. Este tópico não inclui todos os detalhes de como cada modelo de política é configurado; em vez disso, o tópico apresenta informações suficientes para ajudá-lo a decidir qual modelo é o melhor ponto de partida para o seu cenário. Lembre-se de que você pode personalizar esses modelos de política para atender aos seus requisitos específicos.
+A prevenção de perda de dados (DLP) &amp; no centro de conformidade de segurança inclui modelos de política prontos para uso que atendem aos requisitos de conformidade comuns, como ajudá-lo a proteger informações confidenciais sujeitas à HIPAA (assistência médica dos EUA), lei Gramm-Leach-BLILEY (GLBA) ou Patriot dos EUA. Este tópico lista todos os modelos de política, quais tipos de informações confidenciais elas procuram e quais são as condições e ações padrão. Este tópico não inclui todos os detalhes de como cada modelo de política é configurado; em vez disso, o tópico apresenta informações suficientes para ajudá-lo a decidir qual modelo é o melhor ponto de partida para o seu cenário. Lembre-se de que você pode personalizar esses modelos de política para atender aos seus requisitos específicos.
   
 ## <a name="australia-financial-data"></a>Dados Financeiros da Austrália
 
@@ -127,7 +127,7 @@ A prevenção de perda de dados (DLP) no centro &amp; de conformidade de seguran
 |PII da França: Examinar o conteúdo compartilhado fora - contagem baixa  <br/> | Conteúdo tem informações confidenciais:  <br/>  Número de Inscrição na Previdência Social na França (INSEE) — Contagem Mín. 1, Contagem Máx. 9  <br/>  Número de carteira de motorista da França – Contagem Mín. 1, Contagem Máx. 9  <br/>  Número de Passaporte da França — Contagem Mín. 1, Contagem Máx. 9  <br/>  Cartão de ID Nacional (CNI) da França — Contagem Mín. 1, Contagem Máx. 9  <br/>  O conteúdo é compartilhado com:  <br/>  Pessoas de fora da minha organização  <br/> |Enviar uma notificação  <br/> |
 |PII da França: Examinar o conteúdo compartilhado fora - contagem alta  <br/> | Conteúdo tem informações confidenciais:  <br/>  Número de Inscrição na Previdência Social na França (INSEE) — Contagem Mín. 10, Contagem Máx. qualquer  <br/>  Número de carteira de motorista da França – Contagem Mín. 10, Contagem Máx. qualquer  <br/>  Número de Passaporte da França — Contagem Mín. 10, Contagem Máx. qualquer  <br/>  Cartão de ID Nacional (CNI) da França — Contagem Mín. 10, Contagem Máx. qualquer  <br/>  O conteúdo é compartilhado com:  <br/>  Pessoas de fora da minha organização  <br/> | Bloquear o acesso ao conteúdo  <br/>  Enviar uma notificação  <br/>  Permitir substituição  <br/>  Exigir justificativa comercial  <br/>  Enviar relatório de incidente  <br/> |
    
-## <a name="general-data-protection-regulation-gdpr"></a>Regulamento Geral de Proteção de Dados (GDPR)
+## <a name="general-data-protection-regulation-gdpr"></a>Regulamento Geral de Proteção de Dados (RGPD)
 
 |**Nome da regra**|**Condições <br/> (incluindo tipos de informações confidenciais)**|**Ações**|
 |:-----|:-----|:-----|

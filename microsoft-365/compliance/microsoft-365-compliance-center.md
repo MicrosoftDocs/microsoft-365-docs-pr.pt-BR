@@ -11,12 +11,12 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: Saiba mais sobre o centro de conformidade da Microsoft 365, incluindo o que ele contém, como obtê-lo e suas próximas etapas.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: f3718de12666cb317cfab4d85683f9e0de6d0b1b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f87fcbe2cd40b01a42d20da8e36ee4b1d7d3bbb4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071484"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637953"
 ---
 # <a name="microsoft-365-compliance-center"></a>Centro de conformidade do Microsoft 365
 
@@ -72,9 +72,9 @@ Além de links em cartões na Home Page, você verá um painel de navegação no
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
-**Por que estou direcionado para o centro de conformidade de & de segurança do Office 365 para concluir algumas tarefas, como definir determinadas políticas?**
+**Por que estou direcionado para o centro de conformidade de & de segurança para concluir algumas tarefas, como definir determinadas políticas?**
 
-Ainda estamos desenvolvendo o centro de conformidade da Microsoft 365 e adicionamos mais funcionalidades e soluções nos próximos meses. Enquanto isso, há algumas tarefas que devem ser concluídas no centro de conformidade & segurança do Office 365 ([https://protection.office.com](https://protection.office.com)). Nesses casos, você será direcionado automaticamente para o local onde você pode concluir a tarefa em mãos, como criar ou editar uma política de supervisão.
+Ainda estamos desenvolvendo o centro de conformidade da Microsoft 365 e adicionamos mais funcionalidades e soluções nos próximos meses. Enquanto isso, há algumas tarefas que devem ser concluídas no centro[https://protection.office.com](https://protection.office.com)de conformidade e segurança do &. Nesses casos, você será direcionado automaticamente para o local onde você pode concluir a tarefa em mãos, como criar ou editar uma política de supervisão.
 
 **Por que não vejo o novo centro de conformidade da Microsoft 365 ainda?**
 
@@ -82,7 +82,7 @@ Primeiro, verifique se você tem as licenças e permissões apropriadas. Em segu
 
 **Alguns dos meus recursos de conformidade não estão disponíveis no centro de conformidade da Microsoft 365. O que devo fazer?**
 
-Ainda estamos adicionando funcionalidade ao centro de conformidade da Microsoft 365. Se não for possível localizar algo, como pesquisa de log de auditoria, use o centro de conformidade & segurança[https://protection.office.com](https://protection.office.com)do Office 365 (). Suas configurações são salvas no centro de conformidade & segurança do Office 365 existente e no novo centro de conformidade da Microsoft 365 automaticamente.
+Ainda estamos adicionando funcionalidade ao centro de conformidade da Microsoft 365. Se não for possível localizar algo, como pesquisa de log de auditoria, use o centro de conformidade[https://protection.office.com](https://protection.office.com)do & de segurança (). Suas configurações são salvas no centro de conformidade & de segurança existente e no novo centro de conformidade da Microsoft 365 automaticamente.
 
 Para ir para lá, no centro de conformidade da Microsoft 365, no painel de navegação no lado esquerdo da tela, escolha **mais recursos**e, em centro de **conformidade & segurança do Office 365**, escolha **abrir**.
 

@@ -15,12 +15,12 @@ search.appverid:
 - MED150
 ms.assetid: 7b40eeaa-544c-4534-b89b-9f79998e374c
 description: Use o script do Windows PowerShell neste artigo para clonar rapidamente uma pesquisa de conteúdo existente no centro de conformidade no Office 365 ou no Microsoft 365. Quando você clona uma pesquisa, uma nova pesquisa (com um novo nome) é criada e contém as mesmas propriedades da pesquisa original. Em seguida, você pode editar a nova pesquisa alterando a palavra-chave de consulta ou o intervalo de datas e, em seguida, execute-a.
-ms.openlocfilehash: 59fdaab7cf12bc0f5c4b08cbac1834803e5a8d98
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 13a459cabd7febe3daf5c907e89025185821e835
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595878"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637489"
 ---
 # <a name="clone-a-content-search"></a>Clonar uma Pesquisa de Conteúdo
 
@@ -50,7 +50,7 @@ Por que clonar pesquisas de conteúdo?
 
 O script nesta etapa criará uma nova pesquisa de conteúdo clonando uma existente. Ao executar esse script, você será solicitado a fornecer as seguintes informações:
   
-- **Suas credenciais de usuário** -o script usará suas credenciais para se conectar ao centro de conformidade de & de segurança para sua organização do Office 365 com o Windows PowerShell. Conforme mencionado anteriormente, você precisa ser membro do grupo de função Gerenciador de descoberta eletrônica no centro de segurança & compCompliance para executar o script. 
+- **Suas credenciais de usuário** -o script usará suas credenciais para se conectar ao centro de conformidade do & de segurança da sua organização com o Windows PowerShell. Conforme mencionado anteriormente, você precisa ser membro do grupo de função Gerenciador de descoberta eletrônica no centro de segurança & compCompliance para executar o script. 
     
 - **O nome da pesquisa existente** -esta é a pesquisa de conteúdo que você deseja clonar. 
     
@@ -61,7 +61,7 @@ Para clonar uma pesquisa:
 1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo. ps1; por exemplo, `CloneSearch.ps1`.
     
   ```powershell
-  # This PowerShell script clones an existing Content Search in the Office 365 security and compliance center.
+  # This PowerShell script clones an existing content search in the Security &amp; Compliance Center.
   # Get login credentials from the user
   if(!$UserCredential)
   {

@@ -1,5 +1,5 @@
 ---
-title: Definir a opção Ignorar texto para análise na descoberta eletrônica avançada do Office 365
+title: Definir a opção Ignorar texto para analisar na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 44055727-56e8-42d7-9dc3-fb942f3901cc
-description: 'Saiba como definir a regra para ignorar texto específico ao usar os módulos de análise e de processo na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: 0253ce619901e5fec34da234e005f2c3b6ece090
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Saiba como definir a regra para ignorar texto específico ao usar módulos de análise e processo na descoberta eletrônica avançada.  '
+ms.openlocfilehash: cd425c71c06074b5d12851dd126692c914b95489
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557771"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631248"
 ---
 # <a name="set-ignore-text-option-for-analyze-in-advanced-ediscovery-classic"></a>Definir a opção Ignorar texto para analisar na descoberta eletrônica avançada (clássico)
 
@@ -124,9 +124,9 @@ As expressões regulares têm suporte para uso ao definir o texto de ignorar. A 
     
     ![Definir nome de texto ignorado](../media/3a788ac3-4a1c-46c9-89bd-7ff32d68ce23.png)
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre a similaridade de documentos](understand-document-similarity-in-advanced-ediscovery.md)
   

@@ -22,19 +22,19 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Saiba como usar os padrões de segurança para configurar a autenticação multifator para os usuários.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 4a829aa597596564b9c2f468e72f3a766b198372
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1000689794b8b5471efa898e731fd75a0e5a8cce
+ms.sourcegitcommit: 7c0470fd7a98911d142bac060c228947c46a6be7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627675"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43665627"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Configurar a autenticação multifator
   
 > [!IMPORTANT]
-> Se você comprou sua assinatura ou avaliação após 21 de outubro de 2019, e se você for solicitado inesperadamente pela MFA, [os padrões de segurança](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) foram automaticamente habilitados para sua assinatura.
+> Se você comprou sua assinatura ou avaliação após 21 de outubro de 2019 e estiver inesperadamente solicitado pela autenticação multifator (MFA), [os padrões de segurança](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) foram automaticamente habilitados para sua assinatura.
 
-Todas as novas assinaturas do Microsoft 365 terão automaticamente os padrões de segurança ativados. Isso significa que todos os usuários terão que configurar a MFA (autenticação multifator) e instalar o aplicativo autenticador em seus dispositivos móveis. Para obter mais informações, consulte [Configurar a verificação em duas etapas para o Microsoft 365](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14).  
+Todas as novas assinaturas do Microsoft 365 terão automaticamente [os padrões de segurança](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) ativados. Isso significa que cada usuário terá que configurar a MFA (autenticação multifator) e instalar o aplicativo Microsoft Authenticator em seu dispositivo móvel. Para obter mais informações, consulte [set up MFA for a Microsoft 365 Account](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14).
 
 As nove funções de administrador a seguir serão necessárias para executar uma autenticação adicional sempre que entrarem:
 
@@ -48,35 +48,30 @@ As nove funções de administrador a seguir serão necessárias para executar um
 - Administrador de usuários
 - Administrador de Autenticação
 
-Todos os outros usuários serão solicitados a executar uma autenticação adicional quando necessário. Para obter mais informações, confira [O que são padrões de segurança?](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
+Todos os outros usuários serão solicitados a executar uma autenticação adicional quando necessário.
 
 > [!NOTE]
-> Você deve ser um administrador global para configurar ou modificar a autenticação multifator. <br><br>
+> Você deve ser um administrador global para configurar ou modificar a MFA <br><br>
 > Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
-Se você já configurou a MFA com políticas de linha de base, [será necessário desativá-las e habilitar o de padrões de segurança](#move-from-baseline-policies-to-security-defaults). No entanto, se você tiver o Microsoft 365 Business ou sua assinatura incluir o [do Azure Active Directory Premium 1 ou do Azure Active Directory Premium 2](https://azure.microsoft.com/pricing/details/active-directory/), também será possível configurar [as políticas de](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) acesso condicional. Para usar as políticas de acesso condicional, você precisa certificar-se de que a [autenticação moderna](#enable-modern-authentication-for-your-organization) está habilitada.
+Se você já configurou a MFA com políticas de linha de base, [você deve desativá-las para ativar os padrões de segurança](#move-from-baseline-policies-to-security-defaults). No entanto, se você tiver o Microsoft 365 Business ou sua assinatura incluir o [Azure Active Directory Premium P1 ou o Azure Active Directory Premium P2](https://azure.microsoft.com/pricing/details/active-directory/), você também pode configurar as políticas de [acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) . Para usar as políticas de acesso condicional, você precisa certificar-se de que os padrões de segurança estão desabilitados e que a [autenticação moderna](#enable-modern-authentication-for-your-organization) está habilitada.
 
 > [!TIP]
-> Para explicar aos usuários como configurar o aplicativo autenticador, visite [Usar o Microsoft Authenticator com o Office 365](https://support.office.com/article/use-microsoft-authenticator-with-office-365-1412611f-ad8d-43ab-807c-7965e5155411?ui=en-US&rs=en-US&ad=US#ID0EAADAAA=_Step_1).
+> Para explicar aos usuários como configurar o aplicativo Microsoft Authenticator, confira usar o [Microsoft Authenticator com o Office 365](https://support.office.com/article/use-microsoft-authenticator-with-office-365-1412611f-ad8d-43ab-807c-7965e5155411).
 
 ## <a name="manage-security-defaults"></a>Gerenciar padrões de segurança.
 
-1. Entre no [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=834822) com as suas credenciais de administrador global.
-2. Vá para [Propriedades do Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
+1. Acesse o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=834822) com credenciais de administrador global.
+2. Vá para a [página Azure Active Directory-Properties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
 3. Na parte inferior da página, clique em **Gerenciar padrões de segurança**.
-4. Clique em **Sim** para habilitar os padrões de segurança e em **Não** para desabilitar o padrão de segurança.
+4. Escolha **Sim** para habilitar os padrões de segurança e **não** para desabilitar os padrões de segurança e, em seguida, escolha **salvar**.
 
 ## <a name="move-from-baseline-policies-to-security-defaults"></a>Mover das políticas de linha de base para padrões de segurança
 
-1. No [Centro de administração](https://go.microsoft.com/fwlink/p/?linkid=834822), selecione **Configuração**.
-
-2. Ao lado de **Entrada e segurança**, em **Tornar a entrada mais segura**, selecione **Exibir**.
-
-3. Em **Tornar a entrada mais segura**, selecione **Gerenciar**. 
-
-4. Na página **acesso condicional-diretivas** , escolha cada diretiva de linha de base que está **ativada**e defina-as como **desativado**.
-5. Vá para a página [Azure Active Directory Properties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
-6. Na parte inferior da página, escolha **gerenciar padrões de segurança**e, no painel **habilitar padrões de segurança** , defina **habilitar padrões de segurança** alterne para **Sim**e, em seguida, escolha **salvar**. 
+1. Vá para a [página de políticas de acesso condicional](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies).
+2. Escolha cada política de linha de base que está **ativada** e defina **habilitar política** como **desativado**.
+3. Vá para a [página Azure Active Directory-Properties](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
+4. Na parte inferior da página, escolha **gerenciar padrões de segurança**e, no painel **habilitar padrões de segurança** , defina **habilitar padrões de segurança** alterne para **Sim**e, em seguida, escolha **salvar**. 
 
 ## <a name="enable-modern-authentication-for-your-organization"></a>Habilitar a autenticação moderna para sua organização
 

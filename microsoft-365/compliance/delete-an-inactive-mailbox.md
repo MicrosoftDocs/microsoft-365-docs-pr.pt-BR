@@ -1,5 +1,5 @@
 ---
-title: Excluir uma caixa de correio inativa no Office 365
+title: Excluir uma caixa de correio inativa
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,20 +15,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: f5caf497-5e8d-4b7a-bfff-d02942f38150
-description: Quando não for mais necessário preservar o conteúdo de uma caixa de correio inativa do Office 365, você poderá excluir permanentemente a caixa de correio inativa, removendo a isenção. Após a remoção da isenção, a caixa de correio inativa é marcada para exclusão e é excluída permanentemente após ser processada.
-ms.openlocfilehash: 69628a0e3c39a0a842b2efa58c34b75c7663c728
-ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
+description: Quando não for mais necessário preservar o conteúdo de uma caixa de correio inativa do Microsoft 365, você poderá excluir permanentemente a caixa de correio inativa, removendo a isenção. Após a remoção da isenção, a caixa de correio inativa é marcada para exclusão e é excluída permanentemente após ser processada.
+ms.openlocfilehash: fafedd1ccf78c3e763c9e02dc37c594d8f2c9785
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978251"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630528"
 ---
-# <a name="delete-an-inactive-mailbox-in-office-365"></a>Excluir uma caixa de correio inativa no Office 365
+# <a name="delete-an-inactive-mailbox"></a>Excluir uma caixa de correio inativa
 
-Uma caixa de correio inativa é usada para preservar emails de um ex-funcionário depois que ele deixa sua organização. Quando não for mais necessário preservar o conteúdo de uma caixa de correio inativa, você poderá excluir permanentemente a caixa de correio inativa, removendo a isenção. Além disso, é possível que várias isenções possam ser colocadas em uma caixa de correio inativa. Por exemplo, uma caixa de correio inativa pode ser colocada em retenção de litígio e em uma ou mais suspensões in-loco. Além disso, uma política de retenção do Office 365 (criada no centro de segurança e conformidade no Office 365 ou no Microsoft 365) pode ser aplicada à caixa de correio inativa. Você deve remover todas as retenções e as políticas de retenção do Office 365 de uma caixa de correio inativa para excluí-la. Após remover as políticas de retenção e retenção, a caixa de correio inativa é marcada para exclusão e excluída permanentemente após ser processada.
+Uma caixa de correio inativa é usada para preservar emails de um ex-funcionário depois que ele deixa sua organização. Quando não for mais necessário preservar o conteúdo de uma caixa de correio inativa, você poderá excluir permanentemente a caixa de correio inativa, removendo a isenção. Além disso, é possível que várias isenções possam ser colocadas em uma caixa de correio inativa. Por exemplo, uma caixa de correio inativa pode ser colocada em retenção de litígio e em uma ou mais suspensões in-loco. Além disso, uma política de retenção (criada no centro de segurança e conformidade no Office 365 ou no Microsoft 365) pode ser aplicada à caixa de correio inativa. Você deve remover todas as políticas de retenção e retenção de uma caixa de correio inativa para excluí-la. Após remover as políticas de retenção e retenção, a caixa de correio inativa é marcada para exclusão e excluída permanentemente após ser processada.
   
 > [!IMPORTANT]
-> Como continuamos a investir em diferentes maneiras de preservar o conteúdo da caixa de correio, anunciamos a aposentadoria de bloqueios in-loco no centro de administração do Exchange. Isso significa que você deve usar as políticas de retenção de litígio e do Office 365 para criar uma caixa de correio inativa. A partir de 1º de julho de 2020, você não poderá criar novos bloqueios in-loco no Exchange Online. Mas você ainda poderá alterar a duração da retenção de um bloqueio in-loco colocado em uma caixa de correio inativa. No entanto, a partir de 1º de outubro de 2020, você não poderá alterar a duração da retenção. Você só poderá excluir uma caixa de correio inativa removendo o bloqueio in-loco. As caixas de correio inativas existentes que estão no bloqueio in-loco ainda serão preservadas até que a retenção seja removida. Para obter mais informações sobre a aposentadoria de bloqueios in-loco, consulte [aposentadoria of Legacy eDiscovery Tools](legacy-ediscovery-retirement.md).
+> Como continuamos a investir em diferentes maneiras de preservar o conteúdo da caixa de correio, anunciamos a aposentadoria de bloqueios in-loco no centro de administração do Exchange. Isso significa que você deve usar as políticas de retenção e retenção de litígio para criar uma caixa de correio inativa. A partir de 1º de julho de 2020, você não poderá criar novos bloqueios in-loco no Exchange Online. Mas você ainda poderá alterar a duração da retenção de um bloqueio in-loco colocado em uma caixa de correio inativa. No entanto, a partir de 1º de outubro de 2020, você não poderá alterar a duração da retenção. Você só poderá excluir uma caixa de correio inativa removendo o bloqueio in-loco. As caixas de correio inativas existentes que estão no bloqueio in-loco ainda serão preservadas até que a retenção seja removida. Para obter mais informações sobre a aposentadoria de bloqueios in-loco, consulte [aposentadoria of Legacy eDiscovery Tools](legacy-ediscovery-retirement.md).
   
 Consulte a seção [mais informações](#more-information) para obter uma descrição do que acontece depois que as retenções são removidas de uma caixa de correio inativa.
   
@@ -38,13 +38,13 @@ Consulte a seção [mais informações](#more-information) para obter uma descri
     
 - Você pode copiar o conteúdo de uma caixa de correio inativa para outra caixa de correio antes de remover a retenção e excluir uma caixa de correio inativa. Para obter detalhes, consulte [restaurar uma caixa de correio inativa no Office 365](restore-an-inactive-mailbox.md).
     
-- Se você remover a política de retenção de bloqueio ou do Office 365 de uma caixa de correio inativa e o período de retenção de caixa de correio de exclusão reversível da caixa de correio tiver expirado, a caixa de correio será excluída permanentemente. Depois que ele é excluído, ele não pode ser recuperado. Antes de remover a retenção, certifique-se de que você não precisa mais do conteúdo na caixa de correio. Se você quiser reativar uma caixa de correio inativa, é possível recuperá-la. Para obter detalhes, consulte [recuperar uma caixa de correio inativa no Office 365](recover-an-inactive-mailbox.md).
+- Se você remover a política de retenção ou isenção de uma caixa de correio inativa e o período de retenção de caixa de correio de exclusão reversível da caixa de correio tiver expirado, a caixa de correio será excluída permanentemente. Depois que ele é excluído, ele não pode ser recuperado. Antes de remover a retenção, certifique-se de que você não precisa mais do conteúdo na caixa de correio. Se você quiser reativar uma caixa de correio inativa, é possível recuperá-la. Para obter detalhes, consulte [recuperar uma caixa de correio inativa no Office 365](recover-an-inactive-mailbox.md).
     
 - Para obter mais informações sobre caixas de correio inativas, consulte [inativa caixas de correio no Office 365](inactive-mailboxes-in-office-365.md).
     
 ## <a name="step-1-identify-the-holds-on-an-inactive-mailbox"></a>Etapa 1: identificar as isenções em uma caixa de correio inativa
 
-Conforme mencionado anteriormente, uma retenção de litígio, um bloqueio in-loco ou uma política de retenção do Office 365 pode ser colocada em uma caixa de correio inativa. A primeira etapa é identificar as isenções em uma caixa de correio inativa.
+Conforme mencionado anteriormente, uma retenção de litígio, um bloqueio in-loco ou uma política de retenção pode ser colocada em uma caixa de correio inativa. A primeira etapa é identificar as isenções em uma caixa de correio inativa.
   
 Execute o seguinte comando para exibir as informações de retenção de todas as caixas de correio inativas em sua organização.
   
@@ -207,7 +207,7 @@ Se o bloqueio in-loco contiver um grande número de caixas de correio de origem,
 
 - **Uma caixa de correio inativa é um tipo de caixa de correio excluída por software.** No Exchange Online, uma caixa de correio excluída por software é uma caixa de correio excluída, mas pode ser recuperada dentro de um período de retenção específico. O período de retenção de caixa de correio excluída de forma reversível no Exchange Online é de 30 dias. Isso significa que a caixa de correio pode ser recuperada em até 30 dias após a exclusão reversível. Após 30 dias, uma caixa de correio excluída por software é marcada para exclusão permanente e não pode ser recuperada. 
     
-- **O que acontece depois que você remove o bloqueio em uma caixa de correio inativa?** A caixa de correio é tratada como outras caixas de correio excluídas por software e é marcada para exclusão permanente após o período de retenção de caixa de correio de exclusão reversível de 30 dias expirar. Esse período de retenção é iniciado na data em que a caixa de correio foi feita pela primeira vez. Essa data é conhecida como a data de exclusão reversível, que é a data em que a conta de usuário do Office 365 correspondente foi excluída ou quando a caixa de correio do Exchange Online foi excluída com o cmdlet **Remove-Mailbox** . A data de exclusão reversível não é a data na qual você remove a retenção. 
+- **O que acontece depois que você remove o bloqueio em uma caixa de correio inativa?** A caixa de correio é tratada como outras caixas de correio excluídas por software e é marcada para exclusão permanente após o período de retenção de caixa de correio de exclusão reversível de 30 dias expirar. Esse período de retenção é iniciado na data em que a caixa de correio foi feita pela primeira vez. Essa data é conhecida como a data de exclusão reversível, que é a data em que a conta de usuário correspondente foi excluída ou quando a caixa de correio do Exchange Online foi excluída com o cmdlet **Remove-Mailbox** . A data de exclusão reversível não é a data na qual você remove a retenção. 
     
 - **A caixa de correio inativa é permanentemente excluída imediatamente após a removida?** Se a data de exclusão reversível de uma caixa de correio inativa for mais antiga que 30 dias, a caixa de correio não será excluída permanentemente assim que você remover a retenção. A caixa de correio será marcada para exclusão permanente e será excluída na próxima vez em que for processada. 
     

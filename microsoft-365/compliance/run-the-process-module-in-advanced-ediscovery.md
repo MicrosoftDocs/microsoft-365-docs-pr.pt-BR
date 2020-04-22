@@ -1,5 +1,5 @@
 ---
-title: Executar o módulo de processo na descoberta eletrônica avançada do Office 365
+title: Executar o módulo de processo na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: dbc1e251-0596-443b-ac9b-f398ba955b73
-description: 'Saiba mais sobre as diretrizes para preparar arquivos de caso dos dados do Office 365 para análise com a descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: eb608eeac33e0d5d06dce9d0c35cd86f4e0bc280
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Saiba mais sobre as diretrizes para preparar arquivos de caso de dados para análise com descoberta eletrônica avançada.  '
+ms.openlocfilehash: c0c0b8c3477f8c3fdbe0437659a88f14fbcad1cd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557811"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626457"
 ---
 # <a name="run-the-process-module-in-advanced-ediscovery-classic"></a>Executar o módulo de processo na descoberta eletrônica avançada (clássico)
 
@@ -72,9 +72,9 @@ Os arquivos de caso são carregados na descoberta eletrônica avançada durante 
 
 Um rótulo definido pelo usuário pode ser associado a um conjunto de arquivos para excluí-los do processo ou de outras tarefas. Cada sessão de processo é associada a uma ID de lote. Embora a ID de lote não fique visível para o especialista em relevância, isso pode ser feito com o uso de um utilitário de pesquisa, adicionando um filtro para o lote atual e marcando todos os arquivos apropriados com um rótulo definido pelo usuário. 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Executando o módulo de processo e carregando dados](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
   

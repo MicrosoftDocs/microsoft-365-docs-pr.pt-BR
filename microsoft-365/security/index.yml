@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Documentação de segurança do Microsoft 365
-summary: Saiba mais sobre os serviços e soluções de segurança robustos no Microsoft 365 Security para que você possa proteger melhor sua empresa em superfícies de ataque.
+title: Documentação do Centro de segurança do Microsoft 365
+summary: Saiba mais sobre as soluções e os serviços robustos de segurança do Microsoft 365 Security, para que você possa proteger melhor sua organização em superfícies de ataque.
 metadata:
-  title: Documentação de segurança do Microsoft 365
-  description: Saiba mais sobre os serviços e soluções de segurança robustos no Microsoft 365 Security para que você possa proteger melhor sua empresa em superfícies de ataque
+  title: Documentação do Centro de segurança do Microsoft 365
+  description: Saiba mais sobre as soluções e os serviços robustos de segurança do Microsoft 365 Security, para que você possa proteger melhor sua organização em superfícies de ataque
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: de1824abe2b35cb80552c6c261f1389db9b48ca0
-  ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
+  ms.openlocfilehash: 202a01b439755211cbf3d8b06ea1ef874a58c3c1
+  ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/09/2020
-  ms.locfileid: "43198344"
+  ms.lasthandoff: 04/22/2020
+  ms.locfileid: "43708662"
 landingContent:
 - title: Proteção contra Ameaças da Microsoft
   linkLists:
@@ -32,15 +32,21 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: O que é o Microsoft defender ATP?
+    - text: O que é o Microsoft Defender ATP?
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
     - text: Visão geral dos recursos
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
+- title: Proteger sua força de obra remota
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Proteger sua força de obra remota
+      url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
 - title: Office 365 ATP
   linkLists:
   - linkListType: overview
     links:
-    - text: O que é o Office 365 ATP?
+    - text: O que é o Office 365?
       url: office-365-security/office-365-atp.md
     - text: Descrição do serviço ATP do Office 365
       url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
@@ -56,7 +62,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: O que é a central de segurança do Azure?
+    - text: O que é a Central de Segurança do Azure?
       url: https://docs.microsoft.com/azure/security-center/security-center-intro
     - text: Recursos com suporte
       url: https://docs.microsoft.com/azure/security-center/security-center-services
@@ -64,11 +70,11 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: O que é o Microsoft Cloud app Security?
+    - text: O que é o Microsoft Cloud App Security?
       url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
-    - text: Introdução ao Microsoft Cloud app Security
+    - text: Introdução ao Microsoft Cloud App Security
       url: https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security
-- title: Sentinela do Azure
+- title: Azure Sentinel
   linkLists:
   - linkListType: overview
     links:
@@ -78,5 +84,5 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Pontuação segura
+    - text: Classificação de segurança
       url: mtp/microsoft-secure-score.md

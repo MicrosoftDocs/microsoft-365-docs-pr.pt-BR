@@ -1,5 +1,5 @@
 ---
-title: Definir configurações de caso e de locatário na descoberta eletrônica avançada do Office 365
+title: Definir configurações de caso e de locatário na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,13 +14,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 383809de-7f5e-4a1d-9098-c525f67b7a9a
-description: 'Saiba mais sobre as configurações de rótulos, módulos cruzados e locatários que você pode definir no nível do caso na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: 3f206feaa48f13db48552fb7d1be1445609edeae
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Saiba mais sobre as configurações de rótulos, módulos cruzados e locatários que você pode definir no nível do caso na descoberta eletrônica avançada.  '
+ms.openlocfilehash: b4092c7fd60b9ae82e4f97edcfa7f4aaf60ac622
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42556939"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630558"
 ---
 # <a name="define-case-and-tenant-settings-in-advanced-ediscovery-classic"></a>Definir configurações de caso e de locatário em descoberta eletrônica avançada (clássico)
 
@@ -88,9 +88,9 @@ As informações de sistema de versão de descoberta eletrônica avançada e tar
     
 A exibição pode ser atualizada clicando no ícone **Atualizar** abaixo das informações do locatário. 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Usando utilitários](use-advanced-ediscovery-utilities.md)
 

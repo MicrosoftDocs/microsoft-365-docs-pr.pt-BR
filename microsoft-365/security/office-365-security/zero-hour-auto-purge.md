@@ -19,12 +19,12 @@ ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
 description: A limpeza automática de zero horas (ZAP) é um recurso de proteção de email no Microsoft 365 que detecta spam, malware ou mensagens de phishing que já foram entregues ao Exchange Online. Como o ZAP faz isso depende do tipo de conteúdo mal-intencionado detectado.
-ms.openlocfilehash: a819269d8596f12e76cbd17b5d1302cd56837f14
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f1b36f1152882f446c8f611ceafb44a085cc0a5d
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630804"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708446"
 ---
 # <a name="zero-hour-auto-purge-zap---protection-against-spam-and-malware-in-microsoft-365"></a>Limpeza automática de zero horas (ZAP)-proteção contra spam e malware no Microsoft 365
 
@@ -36,7 +36,7 @@ O ZAP está disponível com a proteção do Exchange Online (EOP) padrão que es
 
 ## <a name="how-zap-works"></a>Como o ZAP funciona
 
-A Microsoft 365 atualiza as assinaturas de spam e malware em tempo real diariamente. No entanto, os usuários ainda podem receber mensagens mal-intencionadas por vários motivos, incluindo se o conteúdo é enarmado depois de ser entregue aos usuários. O ZAP aborda esse problema, monitorando continuamente as atualizações para as assinaturas de malware e spam do Microsfot 365. ZAP pode localizar e remover mensagens que já estão na caixa de correio de um usuário.
+A Microsoft 365 atualiza as assinaturas de spam e malware em tempo real diariamente. No entanto, os usuários ainda podem receber mensagens mal-intencionadas por vários motivos, incluindo se o conteúdo é enarmado depois de ser entregue aos usuários. O ZAP aborda esse problema, monitorando continuamente as atualizações para as assinaturas de malware e spam do Microsoft 365. ZAP pode localizar e remover mensagens que já estão na caixa de correio de um usuário.
 
 A ação ZAP é direta para o usuário; Eles não são notificados quando uma mensagem é detectada e movida.
 

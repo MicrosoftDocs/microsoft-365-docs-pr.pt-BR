@@ -1,5 +1,5 @@
 ---
-title: Executar o módulo de processo e carregar dados na descoberta eletrônica avançada do Office 365
+title: Executar o módulo de processo e carregar dados na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c87bb0e5-301c-4d1d-958e-aabeb7990f44
-description: 'Saiba como usar o centro de conformidade de &amp; segurança do Office 365 para acessar a descoberta eletrônica avançada do Office 365 e executar o módulo de processo para um caso.  '
-ms.openlocfilehash: 60da3fd66ce33443e991ece2dc756c7d1ab0d14a
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Saiba como usar o centro de &amp; conformidade de segurança para acessar a descoberta eletrônica avançada e executar o módulo de processo para um caso.  '
+ms.openlocfilehash: efab765a7ed17b1118efe7296fbabe08d51dd1ba
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557821"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626467"
 ---
 # <a name="run-the-process-module-and-load-data-in-advanced-ediscovery-classic"></a>Executar o módulo de processo e carregar dados na descoberta eletrônica avançada (clássico)
 
@@ -41,7 +41,7 @@ A descoberta eletrônica avançada fornece valores de metadados do sistema, como
   
 Execute as etapas a seguir para executar o processo.
   
-1. [Abra o centro de conformidade &amp; de segurança do Office 365](go-to-the-securitycompliance-center.md) . 
+1. [Abra o centro &amp; de conformidade de segurança](go-to-the-securitycompliance-center.md) . 
     
 2. Vá para \> **descoberta eletrônica** de ** &amp; investigação** e clique em **ir para descoberta eletrônica avançada**.
     
@@ -81,9 +81,9 @@ Execute as etapas a seguir para executar o processo.
     
 Se você adicionar à ocorrência, então poderá processar novamente.
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Exibir resultados do módulo de processo](view-process-module-results-in-advanced-ediscovery.md)
 

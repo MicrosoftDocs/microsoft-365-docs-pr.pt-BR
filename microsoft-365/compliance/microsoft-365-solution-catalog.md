@@ -11,12 +11,12 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: Saiba mais sobre o catálogo de soluções do Microsoft 365, incluindo o que ele contém, como obtê-lo e suas próximas etapas.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 3c44d5ffd401645fbac1f1f122024e41597b0207
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: c2fad2726b7e923f871c0307f17f28ea3f99b1bd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179142"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637943"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Catálogo de soluções do Microsoft 365
 
@@ -89,7 +89,7 @@ Primeiro, verifique se você tem as licenças e permissões apropriadas. Em segu
 
 Estamos sempre trabalhando para adicionar novas funcionalidades ao centro de conformidade do Microsoft 365 e ao catálogo de soluções. Se você não conseguir encontrar uma solução específica na área de navegação, ela estará acessível quando a solução estiver disponível em sua assinatura.
 
-Se você estiver procurando por uma solução de conformidade existente e ela ainda não estiver disponível no centro de conformidade da Microsoft 365, você sempre poderá acessar soluções no centro de segurança e conformidade do Office 365 existente [https://protection.office.com](https://protection.office.com), acessando. Como alternativa, você pode clicar na guia **mais recursos** , na navegação à esquerda do centro de conformidade da Microsoft 365, e selecionar o cartão central de segurança e conformidade do Office 365.  
+Se você estiver procurando por uma solução de conformidade existente e ela ainda não estiver disponível no centro de conformidade da Microsoft 365, você sempre poderá acessar soluções no centro &amp; de conformidade de segurança existente [https://protection.office.com](https://protection.office.com), acessando. Como alternativa, você pode clicar na guia **mais recursos** , na navegação à esquerda do centro de conformidade da Microsoft 365, e selecionar o cartão central de segurança e conformidade do Office 365.  
 
 ## <a name="next-steps"></a>Próximas etapas
 

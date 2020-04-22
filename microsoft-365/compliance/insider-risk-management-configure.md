@@ -1,5 +1,5 @@
 ---
-title: Introdução ao gerenciamento de riscos do insider
+title: Introdução ao gerenciamento de riscos internos
 description: Configure o gerenciamento de risco do insider em sua organização.
 keywords: Microsoft 365, gerenciamento de risco do Insider, gerenciamento de riscos, conformidade
 localization_priority: Normal
@@ -12,14 +12,14 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: e4f0f90ff7089ba72f7e8b452842d670d45a49f8
-ms.sourcegitcommit: 825037f166eea3ba70f8980cedc5492f90c1cc56
+ms.openlocfilehash: 86aa29d0c271869eb1939b8a6a8dfb004e35d2cf
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43097184"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637479"
 ---
-# <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos do insider
+# <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
 Use políticas de gerenciamento de riscos internos para identificar atividades de risco e ferramentas de gerenciamento para executar ações em alertas de risco em sua organização. Conclua as etapas a seguir para configurar os pré-requisitos e configurar uma política de gerenciamento de risco do insider.
 
@@ -39,7 +39,7 @@ Antes de começar a usar o gerenciamento de risco do Insider, você deve confirm
 
 Os usuários incluídos nas políticas de gerenciamento de risco do insider devem receber uma das licenças acima.
 
-Se você não tiver um plano existente do Microsoft 365 Enterprise E5 e quiser experimentar o gerenciamento de risco do Insider, você pode [Adicionar o microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) à sua assinatura existente do Office 365 ou [inscrever-se para uma avaliação](https://www.microsoft.com/microsoft-365/enterprise) do Microsoft 365 Enterprise e5.
+Se você não tiver um plano existente do Microsoft 365 Enterprise E5 e quiser experimentar o gerenciamento de risco do Insider, você pode [Adicionar o microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) à sua assinatura existente ou [inscrever-se em uma avaliação](https://www.microsoft.com/microsoft-365/enterprise) do Microsoft 365 Enterprise e5.
 
 ## <a name="step-1-required-enable-permissions-for-insider-risk-management"></a>Etapa 1 (obrigatório): Habilitar permissões para o gerenciamento de risco do insider
 
@@ -49,7 +49,7 @@ Dependendo da estrutura da sua equipe de gerenciamento de conformidade, você te
 
 | **Default management role assignments for this role** | **Permissões de função** |
 | :---- | :---------------- |
-| **Gerenciamento de risco do insider** | Use esse grupo de funções para gerenciar o gerenciamento de riscos do insider para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores, analistas e investigadores designados, você pode configurar permissões de gerenciamento de risco do insider em um único grupo. Esse grupo de função contém todas as funções de permissão de gerenciamento de risco do insider. Essa é a maneira mais fácil de começar rapidamente com o gerenciamento de risco do insider e é uma boa opção para organizações que não precisam de permissões separadas definidas para grupos de usuários separados.|
+| **Gerenciamento de riscos internos** | Use esse grupo de funções para gerenciar o gerenciamento de riscos do insider para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores, analistas e investigadores designados, você pode configurar permissões de gerenciamento de risco do insider em um único grupo. Esse grupo de função contém todas as funções de permissão de gerenciamento de risco do insider. Essa é a maneira mais fácil de começar rapidamente com o gerenciamento de risco do insider e é uma boa opção para organizações que não precisam de permissões separadas definidas para grupos de usuários separados.|
 | **Administrador de gerenciamento de risco do insider** | Use esse grupo de funções para configurar inicialmente o gerenciamento de riscos de insider e depois para separar os administradores de risco internos em um grupo definido.  Os usuários desse grupo de funções podem criar, ler, atualizar e excluir políticas de gerenciamento de risco do Insider, configurações globais e atribuições de grupos de função. |
 | **Analistas de gerenciamento de risco do insider** | Use esse grupo para atribuir permissões a usuários que atuarão como analistas de caso de risco do insider. Os usuários desse grupo de funções podem acessar todos os modelos de alerta, casos e avisos de gerenciamento de risco do insider. Eles não podem acessar o Gerenciador de conteúdo de risco do insider. |
 | **Investigadores de gerenciamento de risco do insider** | Use esse grupo para atribuir permissões a usuários que atuarão como investigadores de dados de risco do insider. Os usuários desse grupo de funções podem acessar todos os alertas de gerenciamento de risco do Insider, casos, modelos de avisos e o Gerenciador de conteúdo para todos os casos. |
@@ -60,7 +60,7 @@ Conclua as seguintes etapas para adicionar usuários a um grupo de funções de 
 
 1. Entre [https://protection.office.com/permissions](https://protection.office.com/permissions) usando as credenciais de uma conta de administrador na sua organização do Microsoft 365. "" "" "" "
 
-2. No centro de segurança e conformidade do Microsoft Office 365, acesse **permissões**. Selecione o link para exibir e gerenciar funções no Office 365.
+2. No centro de &amp; conformidade de segurança, acesse **permissões**. Selecione o link para exibir e gerenciar funções no Office 365.
 
 3. Selecione o grupo de funções de gerenciamento de risco do insider ao qual você deseja adicionar usuários e, em seguida, selecione **Editar grupo de função**.
 
@@ -72,11 +72,11 @@ Conclua as seguintes etapas para adicionar usuários a um grupo de funções de 
 
 7. Selecione **salvar** para adicionar os usuários ao grupo de funções. Selecione **fechar** para concluir as etapas.
 
-## <a name="step-2-required-enable-the-office-365-audit-log"></a>Etapa 2 (obrigatório): habilitar o log de auditoria do Office 365
+## <a name="step-2-required-enable-the-audit-log"></a>Etapa 2 (obrigatório): habilitar o log de auditoria
 
 O gerenciamento de risco do insider usa logs de auditoria para insights e atividades de usuários configurados em políticas. Os logs de auditoria são um resumo de todas as atividades associadas a uma política de gerenciamento de risco do insider ou a qualquer momento em que uma política é alterada.
 
-Para obter instruções passo a passo para ativar a auditoria, consulte [Ativar ou desativar a pesquisa de log de auditoria do Office 365](turn-audit-log-search-on-or-off.md). Depois que você ativar a auditoria, será exibida uma mensagem dizendo que o log de auditoria está sendo preparado e que você pode executar uma pesquisa em algumas horas após a conclusão da preparação. Você só precisa executar esta ação uma vez. Para obter mais informações sobre o uso do log de auditoria, consulte [Search the Audit Log](search-the-audit-log-in-security-and-compliance.md).
+Para obter instruções passo a passo para ativar a auditoria, consulte [Ativar ou desativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md). Depois que você ativar a auditoria, será exibida uma mensagem dizendo que o log de auditoria está sendo preparado e que você pode executar uma pesquisa em algumas horas após a conclusão da preparação. Você só precisa executar esta ação uma vez. Para obter mais informações sobre o uso do log de auditoria, consulte [Search the Audit Log](search-the-audit-log-in-security-and-compliance.md).
 
 ## <a name="step-3-optional-configure-prerequisites-for-templates"></a>Etapa 3 (opcional): configurar pré-requisitos para modelos
 

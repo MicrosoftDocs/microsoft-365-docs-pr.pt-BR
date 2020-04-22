@@ -1,5 +1,5 @@
 ---
-title: Exibir resultados do módulo de processo na descoberta eletrônica avançada do Office 365
+title: Exibir resultados do módulo de processo na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c6f016cb-409f-4ae9-911c-1395cf0c86ea
-description: 'Saiba mais sobre como localizar os resultados de um módulo de processo executado na descoberta eletrônica avançada do Office 365, incluindo o status da tarefa e o resumo do processo.  '
-ms.openlocfilehash: 76619d5899171e8ec105c359cefdb4b8689a8d8a
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Saiba mais sobre como localizar os resultados de um módulo de processo executado na descoberta eletrônica avançada, incluindo o status da tarefa e o resumo do processo.  '
+ms.openlocfilehash: b7b88ed291236330c87c96d24fa6f1c22fb3d773
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557599"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626307"
 ---
 # <a name="view-process-module-results-in-advanced-ediscovery-classic"></a>Exibir resultados do módulo de processo na descoberta eletrônica avançada (clássico)
 
@@ -108,9 +108,9 @@ Em preparar \> resultados \> \> do processo últimos erros de processo, os detal
   
 ![Erros do módulo de processamento](../media/4771d0f4-4217-445a-9ba4-8b6541c5ad09.png)
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Executando o módulo de processo e carregando dados](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
 

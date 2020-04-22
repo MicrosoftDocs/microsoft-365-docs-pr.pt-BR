@@ -1,5 +1,5 @@
 ---
-title: Executar relatórios na descoberta eletrônica avançada do Office 365
+title: Executar relatórios na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: b270243e-99a0-4c34-9b21-acb1512d56c6
-description: 'Saiba como executar um relatório e, em seguida, baixe o arquivo. csv na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: 1ca01fc0ab77ec0a727029c3f8ef680a56f9c5c6
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Saiba como executar um relatório e, em seguida, baixe o arquivo. csv na descoberta eletrônica avançada.  '
+ms.openlocfilehash: 9da35e21de23e4773130f5aa87b16fe18d044140
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557831"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626477"
 ---
 # <a name="run-reports-in-advanced-ediscovery-classic"></a>Executar relatórios na descoberta eletrônica avançada (clássico)
 
@@ -42,6 +42,6 @@ Você pode baixar um arquivo. csv com um relatório para o processo selecionado.
     
 3. Clique em **baixar CSV**. O relatório solicitado é gerado e baixado.
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)

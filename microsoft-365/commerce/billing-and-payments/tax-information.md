@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 description: 'Descubra quanto de impostos você será cobrado para sua assinatura do Microsoft 365 for Business em diferentes regiões. '
 ms.custom: okr_SMB
-ms.openlocfilehash: e65dc15237cb14959a68a7413227cec2a3163d60
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 491c8241d8517d342e04a214d426e937895aab5a
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634999"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708126"
 ---
 # <a name="tax-information"></a>Informação de imposto
 
@@ -94,7 +94,7 @@ Descubra qual é o imposto cobrado nas regiões a seguir. Você também pode [ca
   
 ### <a name="europe-the-middle-east-and-africa-emea"></a>Europa, Oriente Médio e África (EMEA)
 
-Quando você compra serviços do Office 365 na União Europeia, esta compra está sujeita ao IVA (Imposto sobre valor agregado).
+Quando você compra serviços da Microsoft 365 na União Européia, esta compra está sujeita ao IVA (imposto sobre valor agregado).
   
 - Se você estiver em um estado-membro da União Europeia e não fornecer a sua ID do IVA, a Microsoft Ireland Operations Ltd. aplicará a taxa atual do IVA local com base no país de cobrança definido na sua conta.
 
@@ -154,7 +154,7 @@ Se você for cobrado de outro local, o imposto local atual será aplicado. Você
 
 Nos Estados Unidos e Canadá, várias taxas fiscais podem ser aplicadas dependendo do local. Em Porto Rico, são aplicadas as cobranças de imposto sobre valor agregado (IVA) local.
   
-Se sua cobrança for feita pela Microsoft Corporation ([confira sua nota fiscal](view-your-bill-or-invoice.md)) e você se inscreveu no Office 365 fora dos Estados Unidos, Canadá e Porto Rico, os impostos geralmente não serão cobrados.
+Se sua cobrança for realizada pela Microsoft Corporation ([Confira sua fatura](view-your-bill-or-invoice.md)) e se você se inscreveu na Microsoft 365 fora dos Estados Unidos, Canadá e Porto Rico, então o imposto geralmente não é cobrado.
 
 ## <a name="how-taxes-are-calculated"></a>Como os impostos são calculados
 

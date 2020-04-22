@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: Altere as assinaturas manualmente, comprando uma nova assinatura e garantindo que ambas as assinaturas estejam listadas e ativas.
-ms.openlocfilehash: 89786b30403a60bd0551351602d6fccc07f3d1a1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: bcd9a129ef1597469ef9bbf93841b5db4f919f1e
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636578"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707626"
 ---
 # <a name="change-plans-manually"></a>Alterar planos manualmente
 
@@ -43,7 +43,7 @@ A melhor maneira de alterar todos os usuários de um plano para outro é [usar a
 Para continuar com uma alteração manual, leia [a etapa 2: comprar uma nova assinatura](#step-2-buy-a-new-subscription) neste tópico.
 
 > [!IMPORTANT]
-> Se você estiver mudando para um plano com menos serviços relacionados a dados do que o plano atual (downgrade), será necessário fazer backup manual de todos os dados que você deseja manter. Para saber mais, confira fazer backup dos [dados antes de mudar o O365 para planos de negócios](back-up-data-before-switching-plans.md).
+> Se você estiver mudando para um plano com menos serviços relacionados a dados do que o plano atual (downgrade), será necessário fazer backup manual de todos os dados que você deseja manter. Para obter mais informações, consulte [backup de dados antes de mudar de planos](back-up-data-before-switching-plans.md).
 
 ## <a name="step-2-buy-a-new-subscription"></a>Etapa 2: comprar uma nova assinatura
 
@@ -62,7 +62,7 @@ Inclua uma licença para cada usuário que você deseja mover.
 
 2. **Verificar se as duas assinaturas estão listadas e ativas** A assinatura da qual você está migrando usuários e a assinatura à qual você está movendo usuários devem estar listadas em conjunto. Se a nova assinatura não estiver quando você verificar pela primeira vez, tente novamente mais tarde. Verifique se ambas as assinaturas estão ativas. [A nova assinatura não está listada ou não está ativa](#the-new-subscription-isnt-listed-or-isnt-active).
 
-3. **Verifique se você tem licenças suficientes para cada usuário** Cada usuário precisa de uma licença que corresponda à sua assinatura. Portanto, se você quiser mover dez usuários para o Office 365 Enterprise e5, precisará certificar-se de que dez licenças estejam disponíveis.
+3. **Verifique se você tem licenças suficientes para cada usuário** Cada usuário precisa de uma licença que corresponda à sua assinatura. Portanto, se você quiser mover dez usuários para o Microsoft 365 Business Premium, será necessário garantir que dez licenças estejam disponíveis.
 
 4. **Precisa de mais licenças para a nova assinatura?**
    Vá até a página **produtos & serviços** e [compre mais licenças](../licenses/buy-licenses.md).

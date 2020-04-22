@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: Saiba como alterar a forma de pagamento para sua assinatura de negócios.
-ms.openlocfilehash: 582286dec47b0835c90ff56a0d10d3c34d285e33
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8b2528b694dcca181d0508e54894ca50364eac20
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632726"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708150"
 ---
 # <a name="change-your-payment-method"></a>Alterar sua forma de pagamento
 
@@ -80,13 +80,13 @@ Se você estiver migrando de *cartão de crédito ou conta bancária para fatura
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
+
 ## <a name="change-from-invoice-to-credit-card-or-bank-account"></a>Trocar de fatura para cartão de crédito ou conta bancária
 
 > [!TIP]
 > As etapas a seguir se aplicam apenas às assinaturas individuais. Caso tenha várias assinaturas na organização, faça os seguintes procedimentos para cada assinatura que desejar alterar.
   
 Quando você muda de pagamento por fatura para pagar com um cartão de crédito ou uma conta bancária, criamos automaticamente uma nova assinatura para você, move seus usuários para a nova assinatura e, em seguida, desabilita sua assinatura antiga. Não se preocupe, seus usuários não verão uma interrupção no serviço e todas as informações estarão disponíveis por meio da nova assinatura.
-
 
 1. No centro de administração, vá para a página de serviços de **cobrança** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
 
@@ -102,10 +102,10 @@ Quando você muda de pagamento por fatura para pagar com um cartão de crédito 
   
 7. Verifique se o método de pagamento selecionado está correto e, em seguida, selecione **salvar**.
 
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
+
 ## <a name="change-from-invoice-to-credit-card-or-bank-account"></a>Trocar de fatura para cartão de crédito ou conta bancária
 
 > [!TIP]
@@ -136,21 +136,21 @@ Ao retornar para a página **Assinaturas**, você verá a assinatura antiga marc
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
+
 ## <a name="change-from-credit-card-or-bank-account-to-invoice"></a>Trocar de cartão de crédito ou conta bancária para fatura
 
 Você pode alterar para pagar por fatura somente se o seu pedido estiver acima de uma determinada quantidade. Se você não atender aos requisitos, verá a mensagem "a quantidade de pedidos não é grande o suficiente para se qualificar para fatura com o fio de cheque".
 
 Se a quantidade de pedidos for muito alta, uma verificação de crédito poderá ser necessária. Em caso afirmativo, você verá a mensagem "não qualificado para mudar para fatura. Seu pedido requer uma verificação de crédito. " Nesse caso, você muda para pagar por fatura manualmente. Use as etapas a seguir para concluir a alteração manual.
 
-
 1. Vá para <a href="https://Office365.com" target="_blank">office365.com</a> e compre a mesma assinatura do que você tem no momento. Ao fazer check-out, escolha a opção de pagamento por fatura.
 
-> [!IMPORTANT]
-> Você não pode usar a página **produtos & Services** no centro de administração para comprar a assinatura. Você deve usar o <a href="https://Office365.com" target="_blank">office365.com</a>.
+    > [!IMPORTANT]
+    > Você não pode usar a página **produtos & Services** no centro de administração para comprar a assinatura. Você deve usar o <a href="https://Office365.com" target="_blank">office365.com</a>.
 
 2. Após a conclusão da compra, cancele a assinatura original. Seus usuários são automaticamente movidos para a nova assinatura.
 
-Se nenhuma verificação de crédito for necessária, use as etapas a seguir para alterar o pagamento por fatura. 
+Se nenhuma verificação de crédito for necessária, use as etapas a seguir para alterar o pagamento por fatura.
 
 1. No centro de administração, vá para a página de serviços de **cobrança** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
 
@@ -168,14 +168,14 @@ Se nenhuma verificação de crédito for necessária, use as etapas a seguir par
 
 8. Verifique se o método de pagamento selecionado está correto e, em seguida, selecione **salvar**.
 
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
+
 ## <a name="change-from-credit-card-or-bank-account-to-invoice"></a>Trocar de cartão de crédito ou conta bancária para fatura
 
 > [!NOTE]
-> A opção de pagamento por fatura só estará disponível se a sua assinatura estiver em um determinado valor (que varia de acordo com o local do serviço). Podemos solicitar uma verificação de crédito, em caso de pagamentos de valor superior por meio de fatura. Para saber mais, confira o artigo [Pagar sua assinatura do Office 365 para empresas](pay-for-your-subscription.md).
+> A opção de pagamento por fatura só estará disponível se a sua assinatura estiver em um determinado valor (que varia de acordo com o local do serviço). Podemos solicitar uma verificação de crédito, em caso de pagamentos de valor superior por meio de fatura. Para saber mais, confira [o pagamento da sua assinatura](pay-for-your-subscription.md).
 
 1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">assinaturas</a> de **cobrança** \> .
 
@@ -193,10 +193,10 @@ Se nenhuma verificação de crédito for necessária, use as etapas a seguir par
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
+
 ## <a name="verify-which-payment-method-is-configured"></a>Verificar qual forma de pagamento está configurada
 
 Você pode usar as etapas a seguir a qualquer momento para verificar a forma de pagamento configurada para uma assinatura específica.
-
 
 1. No centro de administração, vá para a página de serviços de **cobrança** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
 
@@ -211,6 +211,7 @@ Você pode usar as etapas a seguir a qualquer momento para verificar a forma de 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
+
 ## <a name="verify-which-payment-method-is-configured"></a>Verificar qual forma de pagamento está configurada
 
 Você pode usar as etapas a seguir a qualquer momento para verificar a forma de pagamento configurada para uma assinatura específica.

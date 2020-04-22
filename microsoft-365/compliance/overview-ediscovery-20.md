@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve a nova versão da descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: a9c7811d9ad0660105f7063e674a54c01707ea58
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 3296fbbd04f2baa635fdf0330fc65b927a21448a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634279"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626757"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Visão geral da solução de descoberta eletrônica avançada no Microsoft 365
 
@@ -44,7 +44,7 @@ Em um nível alto, veja como a descoberta eletrônica avançada é compatível c
 
 - **Preservação.** Para preservar e proteger dados relevantes para uma investigação, a descoberta eletrônica avançada permite que você coloque um controle legal nas fontes de dados associadas aos responsáveis em um caso. Você também pode colocar dados não custodial em espera. A descoberta eletrônica avançada também tem um fluxo de trabalho de comunicações interno para que você possa enviar notificações de retenção legal para os responsáveis e controlar suas confirmações.
 
-- **Coletânea.** Depois de identificar (e preservar) as fontes de dados relevantes para a investigação, você pode usar a ferramenta de pesquisa interna na pesquisa de descoberta eletrônica avançada e coletar dados ao vivo das fontes de dados do custodial (e fontes de dados não-custodial, se aplicável) que pode ser relevante para o caso.
+- **Coletânea.** Após identificar (e preservar) as fontes de dados relevantes para a investigação, você pode usar a ferramenta de pesquisa interna na pesquisa de descoberta eletrônica avançada e coletar dados ao vivo das fontes de dados do custodial (e fontes de dados não-custodial, se aplicável) que podem ser relevantes para o caso.
 
 - **Processe.** Após coletar todos os dados relevantes para o caso, a próxima etapa será processá-lo para revisão e análise mais detalhada. Na descoberta eletrônica avançada, os dados no local que você identificou na fase de coleta são copiados para um local de armazenamento do Azure (chamado de *conjunto de revisão*), que fornece uma exibição estática dos dados de caso. 
  
@@ -80,7 +80,7 @@ Quando você adiciona um Objecte as fontes de dados do custodial correspondentes
 
 ## <a name="collecting-case-data"></a>Coletar dados de ocorrência
 
-Use a guia **pesquisas** para criar pesquisas para pesquisar as fontes de dados custodial e não-custodial no local no Office 365 para o conteúdo relevante para o caso. Você pode criar e executar pesquisas baseadas em consulta (usando palavras-chave e condições) para identificar um conjunto de mensagens e documentos de email que são relevantes para o caso e que você deseja revisar e analisar em etapas subsequentes no fluxo de trabalho de descoberta eletrônica. Você pode criar uma ou mais pesquisas associadas à ocorrência. Você também pode usar a ferramenta de pesquisa para visualizar documentos de amostra e exibir estatísticas de pesquisa para ajudá-lo a refinar e aprimorar os resultados da pesquisa. Depois que você estiver satisfeito com os resultados da pesquisa contiver todos os dados relevantes para o caso, adicione os resultados da pesquisa a um conjunto de revisão para análise, análise e remoção posterior. Para obter mais informações, consulte [coletar dados por um caso na descoberta eletrônica avançada](collecting-data-for-ediscovery.md).
+Use a guia **pesquisas** para criar pesquisas a fim de Pesquisar as fontes de dados custodial e não custodial no local para o conteúdo relevante para o caso. Você pode criar e executar pesquisas baseadas em consulta (usando palavras-chave e condições) para identificar um conjunto de mensagens e documentos de email que são relevantes para o caso e que você deseja revisar e analisar em etapas subsequentes no fluxo de trabalho de descoberta eletrônica. Você pode criar uma ou mais pesquisas associadas à ocorrência. Você também pode usar a ferramenta de pesquisa para visualizar documentos de amostra e exibir estatísticas de pesquisa para ajudá-lo a refinar e aprimorar os resultados da pesquisa. Depois que você estiver satisfeito com os resultados da pesquisa contiver todos os dados relevantes para o caso, adicione os resultados da pesquisa a um conjunto de revisão para análise, análise e remoção posterior. Para obter mais informações, consulte [coletar dados por um caso na descoberta eletrônica avançada](collecting-data-for-ediscovery.md).
 
 ## <a name="reviewing-and-analyzing-case-data"></a>Revisando e analisando dados de caso
 

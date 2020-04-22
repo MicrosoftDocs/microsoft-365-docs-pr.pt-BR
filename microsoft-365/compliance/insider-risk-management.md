@@ -1,5 +1,5 @@
 ---
-title: Gerenciamento de risco do insider
+title: Gerenciamento de risco interno
 description: Saiba como ajudar a minimizar o risco em sua organização com o gerenciamento de risco do insider no Microsoft 365.
 keywords: Microsoft 365, risco de insider, gerenciamento de riscos, conformidade
 localization_priority: Normal
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: cc0c698b5c27b41548b646d03d9f94a2f8671eea
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: 509b8643ffd2b9ee8b364615e2ed3f56afe84733
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179182"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637469"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>Gerenciamento de risco do insider no Microsoft 365
 
@@ -41,7 +41,7 @@ O gerenciamento e minimização de riscos na sua organização é iniciado com a
 
 Os funcionários no local de trabalho moderno têm acesso para criar, gerenciar e compartilhar dados em um amplo espectro de plataformas e serviços. Na maioria dos casos, as organizações têm recursos e ferramentas limitados para identificar e reduzir os riscos da organização e, ao mesmo tempo, atendem aos padrões de privacidade dos funcionários.
 
-O gerenciamento de riscos do insider no Microsoft 365 usa a amplitude completa de serviços e indicadores de terceiros para ajudá-lo a identificar rapidamente, fazer a triagem e realizar ações na atividade de riscos. Usando logs do Office 365 e do Microsoft Graph, o gerenciamento de riscos do insider permite que você defina políticas específicas para identificar os indicadores de risco. Essas políticas permitem identificar atividades arriscadas e tomar medidas para reduzir esses riscos.
+O gerenciamento de riscos do insider no Microsoft 365 usa a amplitude completa de serviços e indicadores de terceiros para ajudá-lo a identificar rapidamente, fazer a triagem e realizar ações na atividade de riscos. Usando logs do Microsoft 365 e Microsoft Graph, o gerenciamento de riscos do insider permite que você defina políticas específicas para identificar os indicadores de risco. Essas políticas permitem identificar atividades arriscadas e tomar medidas para reduzir esses riscos.
 
 O gerenciamento de riscos do insider está centralizado em torno dos seguintes princípios:
 

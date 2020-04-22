@@ -1,5 +1,5 @@
 ---
-title: Comparação de versões do Office 365 Message Encryption (OME)
+title: Comparação de versões de criptografia de mensagens (OME)
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -15,17 +15,17 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: Ajuda a explicar as diferenças entre as versões da criptografia de mensagem do Office 365.
-ms.openlocfilehash: 0f9db94763fa6434c354cacac2e0edd05596cafc
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Ajuda a explicar as diferenças entre as versões de criptografia de mensagens.
+ms.openlocfilehash: 89d145f19591ba59df6983bb8863a8e0cc28fcf3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597798"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626787"
 ---
 # <a name="compare-versions-of-ome"></a>Comparar versões de OME
 
-Este artigo compara a criptografia de mensagens do Office 365 (OME) herdada para os novos recursos do OME e a criptografia de mensagem avançada do Office 365. Os novos recursos são uma fusão e uma versão mais recente do OME e do gerenciamento de direitos de informação (IRM). As características exclusivas de implantação no GCC alto também são descritas. Os dois podem coexistir na sua organização do Office 365. Para obter informações sobre como os novos recursos funcionam, consulte [Office 365 Message Encryption (ome)](ome.md).
+Este artigo compara a criptografia de mensagens do Office 365 (OME) herdada para os novos recursos do OME e a criptografia de mensagem avançada do Office 365. Os novos recursos são uma fusão e uma versão mais recente do OME e do gerenciamento de direitos de informação (IRM). As características exclusivas de implantação no GCC alto também são descritas. Os dois podem coexistir em sua organização. Para obter informações sobre como os novos recursos funcionam, consulte [Office 365 Message Encryption (ome)](ome.md).
 
 ||
 |:-----|
@@ -37,11 +37,11 @@ Este artigo compara a criptografia de mensagens do Office 365 (OME) herdada para
 |                                   |Recursos antigos       |                   |Novos recursos              |
 |-----------------------------------|-------------------|-------------------|--------------------------|
 |**Funcionalidade**                     | **OME Herdado**    | **IRM**           | **Novos recursos do OME** |
-|*Enviar um email criptografado*        |Por meio de regras de fluxo de email do Exchange|O usuário final iniciou a partir do Outlook na Web ou do Outlook na Web; ou por meio de regras de fluxo de email do Exchange|Usuário final iniciado a partir da área de trabalho do Outlook, Outlook para Mac ou Outlook na Web; por meio de regras de fluxo de email do Exchange (também conhecidas como regras de transporte) e prevenção de perda de dados do Office 365 (DLP)|
+|*Enviar um email criptografado*        |Por meio de regras de fluxo de email do Exchange|O usuário final iniciou a partir do Outlook na Web ou do Outlook na Web; ou por meio de regras de fluxo de email do Exchange|Usuário final iniciado a partir da área de trabalho do Outlook, Outlook para Mac ou Outlook na Web; por meio de regras de fluxo de email do Exchange (também conhecidas como regras de transporte) e prevenção de perda de dados (DLP)|
 |*Modelo de gerenciamento de direitos*       |   Não disponível      |Opção não encaminhar e modelos personalizados|Opção não encaminhar, opção somente criptografia e modelos personalizados|
 |*Tipo de destinatário*                   |Destinatários internos e externos|Somente destinatários internos         |Destinatários internos e externos|
 |*Experiência para o destinatário interno*|Os destinatários recebem uma mensagem HTML, que eles baixam e abrem em um navegador da Web ou aplicativo móvel|Experiência interna nativa em clientes do Outlook|Experiência nativa em linha para destinatários na mesma organização usando clientes do Outlook.  Os destinatários podem ler a mensagem do portal OME usando clientes que não o Outlook (sem download ou aplicativo necessário).|
-|*Experiência para destinatário externo*|Os destinatários recebem uma mensagem HTML, que eles baixam e abrem em um navegador da Web ou aplicativo móvel|Não disponível|Experiência interna nativa para destinatários do Office 365. Todos os outros destinatários podem ler a mensagem do portal do OME (sem download ou aplicativo necessário).|
+|*Experiência para destinatário externo*|Os destinatários recebem uma mensagem HTML, que eles baixam e abrem em um navegador da Web ou aplicativo móvel|N/D|Experiência interna nativa para destinatários do Microsoft 365. Todos os outros destinatários podem ler a mensagem do portal do OME (sem download ou aplicativo necessário).|
 |*Permissões de anexo*           |Sem restrições em anexos|Os anexos estão protegidos|Os anexos são protegidos para a opção não encaminhar e modelos personalizados. Os administradores podem escolher se os anexos da opção somente criptografia estão protegidos ou não.|
 |*Dê suporte a sua própria chave (BYOK)*|Nenhum                |Nenhum               |BYOK com suporte          |
 ||
@@ -52,8 +52,8 @@ Os novos recursos oferecem as seguintes vantagens:
 
 - Capacidade de usar somente criptografia (o que permite colaboração segura), não encaminhar e restrições personalizadas.
 - Os remetentes podem enviar emails criptografados com os novos recursos manualmente da área de trabalho do Outlook, do Outlook para Mac e do Outlook nos clientes Web.
-- Os destinatários do Office 365 utilizam uma experiência embutida em clientes do Outlook com suporte. Como alternativa, os administradores podem optar por mostrar aos destinatários do Office 365 uma experiência com identidade visual.
-- As contas fora do Office 365, como Gmail, Yahoo e contas da Microsoft, são federadas com o portal do OME, que oferece uma experiência de usuário melhor para esses destinatários. Todas as outras identidades usam um código de passagem única para acessar mensagens criptografadas.
+- Os destinatários 365 da Microsoft utilizam uma experiência embutida em clientes do Outlook com suporte. Como alternativa, os administradores podem optar por mostrar a Microsoft 365 Recipients uma experiência com marca.
+- As contas fora do Microsoft 365, como Gmail, Yahoo e contas da Microsoft, são federadas com o portal do OME, que oferece uma experiência de usuário melhor para esses destinatários. Todas as outras identidades usam um código de passagem única para acessar mensagens criptografadas.
 - Os administradores podem personalizar a identidade visual e criar vários modelos de identidade visual.
 - Os administradores podem revogar emails criptografados com os novos recursos.
 - Os novos recursos fornecem relatórios de uso detalhados por &amp; meio do centro de conformidade de segurança.
@@ -82,13 +82,13 @@ Além disso, se você planeja usar a criptografia de mensagem do Office 365 em u
 
 Os remetentes podem criptografar manualmente emails no Outlook para PC e Mac e Outlook na Web, ou as organizações podem configurar uma política para criptografar emails usando regras de fluxo de email do Exchange.
 
-Os destinatários dentro do GCC têm alta recepção da mesma experiência de leitura embutida no Outlook para PC e Mac e Outlook na Web como todos os outros usuários do Office 365.
+Os destinatários dentro do GCC têm alta recepção da mesma experiência de leitura embutida no Outlook para PC e Mac e Outlook na Web como todos os outros usuários.
 
 ### <a name="encrypted-email-from-gcc-high-to-non-gcc-high-recipients"></a>Email criptografado de GCC elevado para destinatários não-GCC altos
 
 Os remetentes com GCC alta podem enviar emails criptografados fora do maior limite do GCC.
 
-Todos os destinatários fora do GCC, incluindo os usuários do Office 365, usuários do Outlook.com e outros usuários de outros provedores de email, como Gmail e Yahoo, recebem um email de conteúdo adicional. Este email de invólucro redireciona o destinatário para o portal do OME, onde o destinatário pode ler e responder à mensagem.
+Todos os destinatários fora do GCC, incluindo os usuários do Microsoft 365 comercial, os usuários do Outlook.com e outros usuários de outros provedores de email, como o Gmail e o Yahoo, recebem um email de conteúdo adicional. Este email de invólucro redireciona o destinatário para o portal do OME, onde o destinatário pode ler e responder à mensagem.
 
 ## <a name="coexistence-of-legacy-ome-and-the-new-capabilities-in-the-same-tenant"></a>A coexistência de OME herdados e os novos recursos no mesmo locatário
 
@@ -106,8 +106,8 @@ Embora ambas as versões do OME possam coexistir, é altamente recomendável que
 
 ## <a name="get-started-with-ome"></a>Introdução ao OME
 
-Normalmente, os novos recursos do OME são automaticamente habilitados para sua organização do Office 365. Para obter mais informações sobre os novos recursos do OME em sua organização, consulte [configurar novos recursos de criptografia de mensagens do Office 365](set-up-new-message-encryption-capabilities.md).
+Normalmente, os novos recursos do OME são automaticamente habilitados para sua organização. Para obter mais informações sobre os novos recursos do OME em sua organização, consulte [configurar novos recursos de criptografia de mensagens do Office 365](set-up-new-message-encryption-capabilities.md).
 
-A versão herdada do OME é automaticamente habilitada para sua organização do Office 365 se você tiver habilitado a proteção de informações do Azure. No passado, o OME herdado funcionou, mesmo se a proteção de informações do Azure não estivesse habilitada. Isso não acontece mais.
+A versão herdada do OME é automaticamente habilitada para sua organização se você tiver habilitado a proteção de informações do Azure. No passado, o OME herdado funcionou, mesmo se a proteção de informações do Azure não estivesse habilitada. Isso não acontece mais.
 
-Para começar a usar o OME herdado, se você tiver habilitado a proteção de informações do Azure, configure as regras de fluxo de email que usam a ação de regra **aplique a versão anterior do ome**. Para obter instruções, consulte [definir regras de fluxo de emails para criptografar mensagens de email no Office 365](define-mail-flow-rules-to-encrypt-email.md).
+Para começar a usar o OME herdado, se você tiver habilitado a proteção de informações do Azure, configure as regras de fluxo de email que usam a ação de regra **aplique a versão anterior do ome**. Para obter instruções, consulte [definir regras de fluxo de emails para criptografar mensagens de email](define-mail-flow-rules-to-encrypt-email.md).

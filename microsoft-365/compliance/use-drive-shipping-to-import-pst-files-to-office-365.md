@@ -17,21 +17,21 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
-description: 'Para administradores: saiba como importar em massa os arquivos PST da sua organização para as caixas de correio do Office 365 copiando arquivos PST para um disco rígido e, em seguida, enviá-los para a Microsoft. '
-ms.openlocfilehash: 4edd06fbedc6ee40053921b20bdb27ae00aace63
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 'Para administradores: saiba como importar em massa os arquivos PST da sua organização para as caixas de correio do Microsoft 365 copiando arquivos PST para um disco rígido e, em seguida, enviá-los para a Microsoft. '
+ms.openlocfilehash: c57814792f8fd8ddb9766135878dfeff5e7d09a7
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080829"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626427"
 ---
-# <a name="use-drive-shipping-to-import-your-organizations-pst-files-to-office-365"></a>Usar o envio de unidade para importar arquivos PST da sua organização para o Office 365
+# <a name="use-drive-shipping-to-import-your-organizations-pst-files"></a>Usar o envio de unidade para importar arquivos PST da sua organização
 
 **Este artigo é para administradores. Você está tentando importar arquivos PST para sua própria caixa de correio? Confira [importar email, contatos e calendário de um arquivo. pst do Outlook](https://go.microsoft.com/fwlink/p/?LinkID=785075)**
    
 Use o serviço de importação do Office 365 e a unidade de envio para arquivos PST de importação em massa para caixas de correio do usuário. O Envio de Unidade significa que você copia os arquivos PST em uma unidade de disco rígido e, em seguida, envia essa unidade fisicamente para a Microsoft. Quando a Microsoft recebe seu disco rígido, a equipe do Data Center copia os dados do disco rígido para uma área de armazenamento na nuvem da Microsoft. Em seguida, você tem a oportunidade de aparar os dados de PST importados para as caixas de correio de destino, definindo filtros que controlam quais dados são importados. Depois de iniciar o trabalho de importação, o serviço de importação importa os dados de PST da área de armazenamento para as caixas de correio do usuário. Usar o envio de unidade para importar arquivos PST para caixas de correio do usuário é uma maneira de migrar o email da sua organização para o Office 365.
   
-Estas são as etapas necessárias para usar o envio de unidade para importar arquivos PST para caixas de correio do Office 365:
+Estas são as etapas necessárias para usar o envio de unidade para importar arquivos PST para caixas de correio do Microsoft 365:
   
 [Etapa 1: baixar a chave de armazenamento seguro e a ferramenta de importação de PST](#step-1-download-the-secure-storage-key-and-pst-import-tool)
 
@@ -52,7 +52,7 @@ Para perguntas frequentes sobre como usar o envio de unidade para importar arqui
   
 ## <a name="before-you-begin"></a>Antes de começar
 
-- A função Exportação Importação da Caixa de Correio no Exchange deve estar Online para importar arquivos PST para as caixas de correio do Office 365. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função Importação e Exportação de Caixa de Correio no grupo de função Gerenciamento da Organização. Ou você pode criar um grupo de função, atribuir a função de exportação de importação de caixa de correio e adicionar a si mesmo como membro. Para mais informações, confira as seções "Adicionar uma função a um grupo de funções" ou as seções "Criar um grupo de funções" em [Gerenciar grupos de funções](https://go.microsoft.com/fwlink/p/?LinkId=730688).
+- Você deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online para importar arquivos PST para caixas de correio do Microsoft 365. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função Importação e Exportação de Caixa de Correio no grupo de função Gerenciamento da Organização. Ou você pode criar um grupo de função, atribuir a função de exportação de importação de caixa de correio e adicionar a si mesmo como membro. Para mais informações, confira as seções "Adicionar uma função a um grupo de funções" ou as seções "Criar um grupo de funções" em [Gerenciar grupos de funções](https://go.microsoft.com/fwlink/p/?LinkId=730688).
     
     Além disso, para criar trabalhos de importação no Centro de Conformidade e Segurança, uma das alternativas a seguir deve ser verdadeira:
     
@@ -60,7 +60,7 @@ Para perguntas frequentes sobre como usar o envio de unidade para importar arqui
     
     Ou
     
-  - Você precisa ser um administrador global na sua organização do Office 365.
+  - Você deve ser um administrador global em sua organização.
     
     > [!TIP]
     > Considere a criação de um novo grupo de função no Exchange Online destinado especificamente a importar os arquivos PST para o Office 365. Para o nível mínimo de privilégios necessários para importar os arquivos PST, atribua as funções de Exportação Importação de Caixa de Correio e Destinatários de email ao novo grupo de função e, em seguida, adicione membros. 
@@ -78,7 +78,7 @@ Para perguntas frequentes sobre como usar o envio de unidade para importar arqui
     
 - O envio de unidades está disponível por meio de um Microsoft Enterprise Agreement (EA). O envio de unidade não está disponível por meio de um Contrato de Produtos e Serviços da Microsoft (MPSA).
     
-- O custo para importar arquivos PST para o Office 365 caixas de correio usando o envio de unidade é de $2 dólares por GB de dados. Por exemplo, se você enviar um disco rígido contendo 1.000 GB (1 TB) de arquivos PST, o custo será de US$ 2.000. Você pode trabalhar com um parceiro para pagar a taxa de importação. Para obter mais informações sobre como encontrar um parceiro, confira [Encontrar seu parceiro ou revendedor do Office 365](https://go.microsoft.com/fwlink/p/?LinkId=785197).
+- O custo para importar arquivos PST para as caixas de correio do Microsoft 365 usando o envio de unidade é de $2 dólares por GB de dados. Por exemplo, se você enviar um disco rígido contendo 1.000 GB (1 TB) de arquivos PST, o custo será de US$ 2.000. Você pode trabalhar com um parceiro para pagar a taxa de importação. Para obter informações sobre como encontrar um parceiro, consulte [encontre seu parceiro Microsoft ou revendedor](https://go.microsoft.com/fwlink/p/?LinkId=785197).
     
 - Você ou a organização devem ter uma conta da FedEx ou da DHL. 
     
@@ -92,9 +92,9 @@ Para perguntas frequentes sobre como usar o envio de unidade para importar arqui
     
 - Esse procedimento implica copiar e salvar uma chave do armazenamento seguro e uma chave de criptografia BitLocker. Não deixe de tomar medidas para proteger estas chaves, do mesmo modo que o faria com senhas ou outras informações relacionadas à segurança. Por exemplo, você pode salvá-las em um documento do Microsoft Word protegido por senha ou em uma unidade USB criptografada. Consulte a seção [mais informações](#more-information) para obter um exemplo dessas chaves. 
     
-- Após a importação dos arquivos PST para uma caixa de correio do Office 365, a configuração de bloqueio de retenção para a caixa de correio é ativada com uma duração indefinida. Isso significa que a política de retenção atribuída à caixa de correio não será processada até que o bloqueio de retenção seja desativado ou que uma data para a desativação seja definida. Por que fazemos isso? Se as mensagens importadas para uma caixa de correio forem antigas, poderão ser excluídas permanentemente (eliminadas) porque o período de retenção expirou com base nas configurações de retenção definidas para a caixa de correio. Colocar a caixa de correio no bloqueio de retenção dará ao proprietário tempo de gerenciar essas mensagens importadas recentemente ou tempo para alterar as configurações de retenção da caixa de correio. Consulte a seção [mais informações](#more-information) para obter sugestões sobre como gerenciar a retenção. 
+- Depois que os arquivos PST são importados para uma caixa de correio do Microsoft 365, a configuração de retenção da caixa de correio é ativada por uma duração indefinida. Isso significa que a política de retenção atribuída à caixa de correio não será processada até que o bloqueio de retenção seja desativado ou que uma data para a desativação seja definida. Por que fazemos isso? Se as mensagens importadas para uma caixa de correio forem antigas, poderão ser excluídas permanentemente (eliminadas) porque o período de retenção expirou com base nas configurações de retenção definidas para a caixa de correio. Colocar a caixa de correio no bloqueio de retenção dará ao proprietário tempo de gerenciar essas mensagens importadas recentemente ou tempo para alterar as configurações de retenção da caixa de correio. Consulte a seção [mais informações](#more-information) para obter sugestões sobre como gerenciar a retenção. 
     
-- Por padrão, o tamanho máximo da mensagem que pode ser recebida por uma caixa de correio do Office 365 é 35 MB. Isso ocorre porque o valor padrão da *Propriedade MaxReceiveSize* de uma caixa de correio está definida como 35 MB. No entanto, o limite para o tamanho máximo de recebimento de mensagens no Office 365 é 150 MB. Portanto, se você importar um arquivo PST que contenha um item com mais de 35 MB, o serviço de importação do Office 365 altera automaticamente o valor da propriedade *MaxReceiveSize* na caixa de correio de destino para 150 MB. Isso permite que mensagens de até 150 MB sejam importadas para as caixas de correio dos usuários. 
+- Por padrão, o tamanho máximo de mensagens que podem ser recebidas por uma caixa de correio do Microsoft 365 é de 35 MB. Isso ocorre porque o valor padrão da *Propriedade MaxReceiveSize* de uma caixa de correio está definida como 35 MB. No entanto, o limite do tamanho máximo de recebimento de mensagens no Microsoft 365 é de 150 MB. Portanto, se você importar um arquivo PST que contenha um item com mais de 35 MB, o serviço de importação do Office 365 altera automaticamente o valor da propriedade *MaxReceiveSize* na caixa de correio de destino para 150 MB. Isso permite que mensagens de até 150 MB sejam importadas para as caixas de correio dos usuários. 
     
     > [!TIP]
     > Para identificar o tamanho de recebimento da mensagem de uma caixa de correio, execute esse comando no Exchange Online PowerShell:  `Get-Mailbox <user mailbox> | FL MaxReceiveSize`. 
@@ -116,7 +116,7 @@ A primeira etapa é baixar a chave de armazenamento seguro e a ferramenta e que 
 > [!IMPORTANT]
 > Você precisa usar a ferramenta de importação/exportação do Azure versão 1 (WAimportExportV1) para importar arquivos PST com êxito usando o método de envio de unidade. A versão 2 da ferramenta de importação/exportação do Azure não é suportada e usá-la fará com que a unidade de disco rígido seja preparada incorretamente para o trabalho de importação. Certifique-se de baixar a ferramenta de importação/exportação do Azure no centro de conformidade de & de segurança, seguindo os procedimentos nesta etapa. 
   
-1. Vá para [https://protection.office.com/](https://protection.office.com/) e entre usando as credenciais de uma conta de administrador do Office 365 da organização. 
+1. Acesse [https://protection.office.com/](https://protection.office.com/) e entre usando as credenciais de uma conta de administrador em sua organização. 
     
 2. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Governança de informações** \> **Importar** \> **Importar arquivos PST**.
     
@@ -205,7 +205,7 @@ A etapa a seguir consiste em usar a ferramenta WAImportExport.exe para copiar ar
 
 ## <a name="step-3-create-the-pst-import-mapping-file"></a>Etapa 3: criar o arquivo de mapeamento de importação de PST
 
-Após a equipe do Microsoft Data Center carregar os arquivos PST do disco rígido para a área de armazenamento do Azure, o serviço de importação usará as informações no arquivo de mapeamento de importação de PST, que é um arquivo de valor separado por vírgula (CSV), que especifica quais caixas de correio do usuário o Os arquivos PST são importados para o. Você enviará esse arquivo CSV na etapa seguinte, quando criar um trabalho de Importação de PST.
+Depois que a equipe do Data Center da Microsoft carregar os arquivos PST do disco rígido para a área de armazenamento do Azure, o serviço de importação usará as informações no arquivo de mapeamento de importação de PST, que é um arquivo de valor separado por vírgula (CSV), que especifica quais caixas de correio de usuário são importadas para os arquivos PST. Você enviará esse arquivo CSV na etapa seguinte, quando criar um trabalho de Importação de PST.
   
 1. [Baixar uma cópia do arquivo de mapeamento para importação de PST](https://go.microsoft.com/fwlink/p/?LinkId=544717).
     
@@ -234,7 +234,7 @@ Após a equipe do Microsoft Data Center carregar os arquivos PST do disco rígid
     
     |**Parâmetro**|**Descrição**|**Exemplo**|
     |:-----|:-----|:-----|
-    | `Workload` <br/> |Especifica o serviço do Office 365 para o qual os dados serão importados. Para importar arquivos PST nas caixas de correio de usuário, use o  `Exchange`.  <br/> | `Exchange` <br/> |
+    | `Workload` <br/> |Especifica o serviço para o qual os dados serão importados. Para importar arquivos PST nas caixas de correio de usuário, use o  `Exchange`.  <br/> | `Exchange` <br/> |
     | `FilePath` <br/> | Especifica o local da pasta na área de armazenamento do Azure para a qual os arquivos PST serão copiados quando o disco rígido for enviado para a Microsoft.  <br/>  O que você adiciona nessa coluna no arquivo CSV depende do que você especificou para o `/dstdir:` parâmetro na etapa anterior. Se você tiver subpastas no local de origem, o valor no `FilePath` parâmetro deve conter o caminho relativo para a subpasta; por exemplo,/folder1/user1/.  <br/>  Se você usou `/dstdir:"ingestiondata/"`, deixe esse parâmetro em branco no arquivo CSV.  <br/>  Se você tiver incluído um nome de caminho opcional para o `/dstdir:` valor do parâmetro (por `/dstdir:"ingestiondata/FILESERVER01/PSTs"`exemplo,, use esse nome de caminho (não incluindo "ingestiondata") para esse parâmetro no arquivo CSV. O valor desse parâmetro diferencia maiúsculas de minúsculas.  <br/>  De qualquer forma, *não* inclua "ingestiondata" no valor do `FilePath` parâmetro. Deixe esse parâmetro em branco ou especifique apenas o nome de caminho opcional.  <br/> > [!IMPORTANT]> o caso do nome do caminho do arquivo deve ser o mesmo caso que você especificou `/dstdir:` no parâmetro da etapa anterior. Por exemplo, se você usou `"ingestiondata/FILESERVER01/PSTs"` para o nome da subpasta na etapa anterior, mas usado `fileserver01/psts` no `FilePath` parâmetro no arquivo CSV, a importação do arquivo PST falhará. Certifique-se de usar a mesma capitalização nas duas instâncias.           |(deixar em branco)  <br/> Ou  <br/>  `FILESERVER01/PSTs` <br/> |
     | `Name` <br/> |Especifique o nome do arquivo PST que será importado para a caixa de correio do usuário. O valor desse parâmetro diferencia maiúsculas de minúsculas.  <br/> > [!IMPORTANT]> o caso do nome de arquivo PST no arquivo CSV deve ser igual ao arquivo PST que foi carregado no local de armazenamento do Azure na etapa 2. Por exemplo, se você usar `annb.pst` o `Name` no parâmetro no arquivo CSV, mas o nome do arquivo PST atual  para `AnnB.pst`, a importação desse arquivo PST falhará. Certifique-se de que o nome do PST no arquivo CSV usa a mesma capitalização do arquivo PST atual.           | `annb.pst` <br/> |
     | `Mailbox` <br/> |Especifica o endereço de email da caixa de correio para a qual o arquivo PST será importado. Observe que não é possível especificar uma pasta pública porque o Serviço de Importação de PST não é compatível com a importação de arquivos PST para pastas públicas.  <br/> Para importar um arquivo PST para uma caixa de correio inativa, é preciso especificar o GUID da caixa de correio para esse parâmetro. Para obter esse GUID, execute o seguinte comando do PowerShell no Exchange Online:  `Get-Mailbox <identity of inactive mailbox> -InactiveMailboxOnly | FL Guid` <br/> > [!NOTE]> às vezes, você pode ter várias caixas de correio com o mesmo endereço de email, em que uma caixa de correio está ativa e a outra caixa de correio está em um estado excluído por software (ou inativo). Nesses casos, você precisa especificar o GUID da caixa de correio para identificar exclusivamente a caixa de correio para a qual o arquivo PST será importado. Para obter esse GUID para caixas de correio ativas, execute o seguinte comando do PowerShell:  `Get-Mailbox <identity of active mailbox> | FL Guid`. Para obter o GUID para caixas de correio excluídas (ou inativas), execute este comando `Get-Mailbox <identity of soft-deleted or inactive mailbox> -SoftDeletedMailbox | FL Guid`:.           | `annb@contoso.onmicrosoft.com` <br/> Ou  <br/>  `2d7a87fe-d6a2-40cc-8aff-1ebea80d4ae7` <br/> |
@@ -249,7 +249,7 @@ Após a equipe do Microsoft Data Center carregar os arquivos PST do disco rígid
 
 A etapa a seguir consiste em criar o trabalho de Importação de PST no serviço Importação do Office 365. Como explicado anteriormente, você envia o arquivo de mapeamento de importação de PST criado na etapa 3. Depois de criar o trabalho, o serviço de importação usará as informações do arquivo de mapeamento para importar os arquivos PST para a caixa de correio de usuário especificada depois que os arquivos PST forem copiados do disco rígido para a área de armazenamento do Azure e você criar e iniciar o trabalho de importação.
   
-1. Vá para [https://protection.office.com](https://protection.office.com) e entre usando as credenciais de uma conta de administrador do Office 365 da organização. 
+1. Acesse [https://protection.office.com](https://protection.office.com) e entre usando as credenciais de uma conta de administrador em sua organização. 
     
 2. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Governança de informações** \> **Importar** \> **Importar arquivos PST**.
     
@@ -302,7 +302,7 @@ A etapa a seguir consiste em criar o trabalho de Importação de PST no serviço
     
 14. Na página **fornecer informações de contato** , digite suas informações de contato nas caixas aplicáveis. 
     
-    O endereço do local da Microsoft para o qual você envia seus discos rígidos é exibido. Esse endereço é gerado automaticamente com base no seu local de data center do Office 365. Copie esse endereço em um arquivo ou faça uma captura de tela.
+    O endereço do local da Microsoft para o qual você envia seus discos rígidos é exibido. Esse endereço é gerado automaticamente com base no seu local de datacenter da Microsoft. Copie esse endereço em um arquivo ou faça uma captura de tela.
     
 15. Leia o documento termos e condições, clique na caixa de seleção e, em seguida, clique em **salvar** para enviar o trabalho de importação. 
     
@@ -335,7 +335,7 @@ Quando enviar discos rígidos para a Microsoft, lembre-se do seguinte:
 
 Depois de enviar o disco rígido para a Microsoft, faça o procedimento a seguir na página do serviço Importar.
   
-1. Vá para [https://protection.office.com](https://protection.office.com) e entre usando as credenciais de uma conta de administrador do Office 365 da organização. 
+1. Acesse [https://protection.office.com](https://protection.office.com) e entre usando as credenciais de uma conta de administrador em sua organização. 
     
 2. No painel esquerdo, clique em **governança de informações > importar > importar arquivos PST**.
     
@@ -359,15 +359,15 @@ Depois de enviar o disco rígido para a Microsoft, faça o procedimento a seguir
 
 Depois que a unidade de disco rígido for recebida pela Microsoft, o status do trabalho de importação na página **importar arquivos PST** será alterado para **unidades recebidas**. O pessoal do Data Center usa as informações do arquivo do diário para carregar seus arquivos PST para a área de armazenamento do Azure para sua organização. Neste ponto, o status muda para **importar em andamento**. Conforme mencionado anteriormente, levará entre 7 e 10 dias úteis após receber seu disco rígido para carregar os arquivos PST.
   
-Depois que os arquivos PST são carregados no Azure, o status é alterado para **análise em andamento**. Isso indica que o Office 365 está analisando os dados nos arquivos PST (de uma maneira segura e segura) para identificar a idade dos itens e os diferentes tipos de mensagens incluídos nos arquivos PST. Quando a análise é concluída e os dados estão prontos para importação, o status do trabalho de importação é alterado para **análise concluída**. Neste ponto, você tem a opção de importar todos os dados contidos nos arquivos PST ou pode aparar os dados importados Configurando filtros que controlam quais dados são importados.
+Depois que os arquivos PST são carregados no Azure, o status é alterado para **análise em andamento**. Isso indica que o Microsoft 365 está analisando os dados nos arquivos PST (de uma maneira segura e segura) para identificar a idade dos itens e os diferentes tipos de mensagens incluídos nos arquivos PST. Quando a análise é concluída e os dados estão prontos para importação, o status do trabalho de importação é alterado para **análise concluída**. Neste ponto, você tem a opção de importar todos os dados contidos nos arquivos PST ou pode aparar os dados importados Configurando filtros que controlam quais dados são importados.
   
-1. Vá para [https://protection.office.com](https://protection.office.com) e entre usando as credenciais de uma conta de administrador do Office 365 da organização. 
+1. Acesse [https://protection.office.com](https://protection.office.com) e entre usando as credenciais de uma conta de administrador em sua organização. 
     
-2. No painel esquerdo, clique em **** \> **importar** \> **arquivos PST de importação**de governança de informações.
+2. No painel esquerdo, clique em **Information governance** \> **importar** \> **arquivos PST de importação**de governança de informações.
     
 3. Na página **importar arquivos PST** , clique em **pronto para importar para o Office 365** para o trabalho de importação que você criou na etapa 4. 
     
-    ![Clique em Pronto para importar para o Office 365 ao lado do trabalho de importação criado](../media/5760aac3-300b-4e31-b894-253c42a4b82b.png)
+    ![Clique em pronto para importar para o Microsoft 365 ao lado do trabalho de importação criado](../media/5760aac3-300b-4e31-b894-253c42a4b82b.png)
   
     Uma página com submenu é exibida com informações sobre os arquivos PST e outras informações sobre o trabalho de importação.
     
@@ -391,19 +391,19 @@ Depois que os arquivos PST são carregados no Azure, o status é alterado para *
     
     O status do trabalho de importação é exibido na página **importar arquivos PST** . Clique no ![Ícone Atualizar](../media/O365-MDM-Policy-RefreshIcon.gif) **Atualizar** para atualizar as informações de status exibidas na coluna**Status**.  Clique no trabalho de importação para exibir a página de status do submenu, que exibe informações de status sobre cada arquivo PST sendo importado.. Quando concluir a importação dos arquivos PST nas caixas de correio de usuário, o status passará a ser **Concluído**.
 
-## <a name="view-a-list-of-the-pst-files-uploaded-to-office-365"></a>Exibir uma lista dos arquivos PST carregados para o Office 365
+## <a name="view-a-list-of-the-pst-files-uploaded-to-microsoft-365"></a>Exibir uma lista dos arquivos PST carregados para o Microsoft 365
 
 Você pode instalar e usar o Microsoft Azure Storage Explorer (que é uma ferramenta de código-fonte gratuito) para exibir a lista dos arquivos PST que são carregados (pela equipe de data center da Microsoft) para a área de armazenamento do Azure para sua organização. Você pode fazer isso para verificar se os arquivos PST dos discos rígidos enviados para a Microsoft foram carregados com êxito para a área de armazenamento do Azure.
   
 O Gerenciador de Armazenamento do Microsoft Azure está em Prévia.
   
- **Importante:** Você não pode usar o Gerenciador de armazenamento do Azure para carregar ou modificar arquivos PST. O único método com suporte para a importação de arquivos PST para o Office 365 é o AzCopy. Além disso, não é possível excluir os arquivos PST que você carregou no blob do Azure. Se você tentar excluir um arquivo PST, receberá um erro sobre não ter as permissões necessárias. Todos os arquivos PST são excluídos automaticamente da área de armazenamento do Azure. Se não houver trabalhos de importação em andamento, todos os arquivos PST no contêiner * * ingestiondata * * serão excluídos 30 dias após a criação do trabalho de importação mais recente. 
+ **Importante:** Você não pode usar o Gerenciador de armazenamento do Azure para carregar ou modificar arquivos PST. O único método com suporte para importar arquivos PST para o Microsoft 365 é usar o AzCopy. Além disso, não é possível excluir os arquivos PST que você carregou no blob do Azure. Se você tentar excluir um arquivo PST, receberá um erro sobre não ter as permissões necessárias. Todos os arquivos PST são excluídos automaticamente da área de armazenamento do Azure. Se não houver trabalhos de importação em andamento, todos os arquivos PST no contêiner * * ingestiondata * * serão excluídos 30 dias após a criação do trabalho de importação mais recente. 
   
 Para instalar o Gerenciador de Armazenamento do Azure e se conectar à sua área de armazenamento do Azure:
   
 1. Execute as etapas a seguir para obter a URL de assinatura de acesso compartilhado (SAS) da sua organização. Esta URL é uma combinação da URL de rede para o local de armazenamento do Azure na nuvem da Microsoft para sua organização e uma chave SAS. Esta chave fornece as permissões necessárias para acessar o local de armazenamento do Azure da sua organização.
     
-1. Vá para [https://protection.office.com/](https://protection.office.com/) e entre usando as credenciais de uma conta de administrador do Office 365 da organização. 
+1. Acesse [https://protection.office.com/](https://protection.office.com/) e entre usando as credenciais de uma conta de administrador em sua organização. 
     
 2. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Governança de informações> Importar > Importar arquivos PST**.
     
@@ -444,14 +444,14 @@ Para instalar o Gerenciador de Armazenamento do Azure e se conectar à sua área
 
 ## <a name="troubleshooting-tips"></a>Dicas de solução de problemas
 
-- **O que acontece se o trabalho de importação falhar devido a erros no arquivo de mapeamento CSV de importação de PST?** Se um trabalho de importação falhar devido a erros no arquivo de mapeamento, não será necessário reenviar o disco rígido para a Microsoft para criar um trabalho de importação. Isso ocorre porque os arquivos PST do disco rígido que você enviou para o trabalho de importação do envio da unidade já foram carregados para a área de armazenamento do Azure para sua organização. Nesse caso, você só precisa corrigir os erros no arquivo de mapeamento CSV de importação de PST e, em seguida, criar um novo trabalho de importação de "carregamento de rede" e enviar o arquivo de mapeamento CSV revisado. Para criar e iniciar um novo trabalho de importação de carregamento de rede, consulte [etapa 5: criar um trabalho de importação de PST no Office 365](use-network-upload-to-import-pst-files.md#step-5-create-a-pst-import-job-in-office-365) e [etapa 6: filtrar dados e iniciar o trabalho de importação de PST](use-network-upload-to-import-pst-files.md#step-6-filter-data-and-start-the-pst-import-job) no tópico "usar o carregamento de rede para importar arquivos PST para o Office 365". 
+- **O que acontece se o trabalho de importação falhar devido a erros no arquivo de mapeamento CSV de importação de PST?** Se um trabalho de importação falhar devido a erros no arquivo de mapeamento, não será necessário reenviar o disco rígido para a Microsoft para criar um trabalho de importação. Isso ocorre porque os arquivos PST do disco rígido que você enviou para o trabalho de importação do envio da unidade já foram carregados para a área de armazenamento do Azure para sua organização. Nesse caso, você só precisa corrigir os erros no arquivo de mapeamento CSV de importação de PST e, em seguida, criar um novo trabalho de importação de "carregamento de rede" e enviar o arquivo de mapeamento CSV revisado. Para criar e iniciar um novo trabalho de importação de carregamento de rede, consulte [etapa 5: criar um trabalho de importação de PST no Microsoft 365](use-network-upload-to-import-pst-files.md#step-5-create-a-pst-import-job) e [etapa 6: filtrar dados e iniciar o trabalho de importação de PST](use-network-upload-to-import-pst-files.md#step-6-filter-data-and-start-the-pst-import-job) no tópico "usar o carregamento de rede para importar arquivos PST para o Office 365". 
     
     > [!NOTE]
-    > Para ajudá-lo a solucionar problemas do arquivo de mapeamento CSV de importação de PST, use a ferramenta [Azure Storage Explorer](#view-a-list-of-the-pst-files-uploaded-to-office-365) para exibir a estrutura de pastas no contêiner **ingestiondata** para os arquivos pst do disco rígido que foram carregados para a área de armazenamento do Azure. Os erros de arquivo de mapeamento são normalmente causados por um valor incorreto no parâmetro FilePath. Esse parâmetro especifica o local de um arquivo PST na área de armazenamento do Azure. Consulte a descrição do parâmetro FilePath na tabela na [etapa 3](#step-3-create-the-pst-import-mapping-file). Conforme explicado anteriormente, o local dos arquivos PST na área de armazenamento do Azure foi especificado `/dstdir:` pelo parâmetro quando você executou a ferramenta ferramenta waimportexport. exe na [etapa 2](#step-2-copy-the-pst-files-to-the-hard-drive). 
+    > Para ajudá-lo a solucionar problemas do arquivo de mapeamento CSV de importação de PST, use a ferramenta [Azure Storage Explorer](#view-a-list-of-the-pst-files-uploaded-to-microsoft-365) para exibir a estrutura de pastas no contêiner **ingestiondata** para os arquivos pst do disco rígido que foram carregados para a área de armazenamento do Azure. Os erros de arquivo de mapeamento são normalmente causados por um valor incorreto no parâmetro FilePath. Esse parâmetro especifica o local de um arquivo PST na área de armazenamento do Azure. Consulte a descrição do parâmetro FilePath na tabela na [etapa 3](#step-3-create-the-pst-import-mapping-file). Conforme explicado anteriormente, o local dos arquivos PST na área de armazenamento do Azure foi especificado `/dstdir:` pelo parâmetro quando você executou a ferramenta ferramenta waimportexport. exe na [etapa 2](#step-2-copy-the-pst-files-to-the-hard-drive). 
   
 ## <a name="more-information"></a>Mais informações
 
-- O envio de unidades é uma maneira eficaz de importar grandes quantidades de dados de mensagens de arquivamento para o Office 365 para aproveitar os recursos de conformidade disponíveis para sua organização. Depois que os dados de arquivamento são importados para caixas de correio de usuário, você pode:
+- O envio de unidades é uma maneira eficaz de importar grandes quantidades de dados de mensagens de arquivamento para a Microsoft 365 para aproveitar os recursos de conformidade disponíveis para sua organização. Depois que os dados de arquivamento são importados para caixas de correio de usuário, você pode:
     
   - Habilitar [caixas de correio de arquivo morto](enable-archive-mailboxes.md) e [arquivamento de expansão automática](enable-unlimited-archiving.md) para dar aos usuários mais espaço de armazenamento de caixa de correio para os dados. 
     
@@ -459,9 +459,9 @@ Para instalar o Gerenciador de Armazenamento do Azure e se conectar à sua área
     
   - Usar as [ferramentas de descoberta eletrônica](search-for-content.md) da Microsoft para pesquisar os dados. 
     
-  - Aplique [as políticas de retenção do Office 365](retention-policies.md) para controlar o tempo de retenção dos dados e a ação a ser tomada depois que o período de retenção expira. 
+  - Aplicar [as políticas de retenção da Microsoft 365](retention-policies.md) para controlar o tempo de retenção dos dados e a ação a ser tomada depois que o período de retenção expira. 
     
-  - Pesquise o [log de auditoria do Office 365](search-the-audit-log-in-security-and-compliance.md) em busca de eventos relacionados a esses dados. 
+  - Pesquise o [log de auditoria](search-the-audit-log-in-security-and-compliance.md) em busca de eventos relacionados a esses dados. 
     
   - Importe dados para [caixas de correio inativas](create-and-manage-inactive-mailboxes.md) para arquivar dados para fins de conformidade. 
     
@@ -506,7 +506,7 @@ Para instalar o Gerenciador de Armazenamento do Azure e se conectar à sua área
     
   - Você pode configurar a retenção para que ela seja desativada em alguma data no futuro. Para fazer isso, execute o `Set-Mailbox -EndDateForRetentionHold <date>` comando. Por exemplo, supondo que a data de hoje seja 1º de junho de 2016 e você queira que a retenção tenha sido desativada em 30 dias, execute `Set-Mailbox -EndDateForRetentionHold 7/1/2016`o seguinte comando:. Neste cenário, você deixaria a propriedade *RentionHoldEnabled* definida como *true*. Para obter mais informações, consulte [Set-Mailbox](https://go.microsoft.com/fwlink/p/?LinkId=150317).
     
-  - Você pode alterar as configurações da política de retenção atribuída à caixa de correio para que os itens mais antigos que foram importados não sejam excluídos ou movidos imediatamente para a caixa de correio de arquivo morto do usuário. Por exemplo, você pode aumentar o período de retenção para uma política de exclusão ou arquivamento atribuída à caixa de correio. Nesse cenário, você desabilitaria a retenção na caixa de correio depois de alterar as configurações da política de retenção. Para obter mais informações, consulte [Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização do Office 365](set-up-an-archive-and-deletion-policy-for-mailboxes.md).
+  - Você pode alterar as configurações da política de retenção atribuída à caixa de correio para que os itens mais antigos que foram importados não sejam excluídos ou movidos imediatamente para a caixa de correio de arquivo morto do usuário. Por exemplo, você pode aumentar o período de retenção para uma política de exclusão ou arquivamento atribuída à caixa de correio. Nesse cenário, você desabilitaria a retenção na caixa de correio depois de alterar as configurações da política de retenção. Para obter mais informações, consulte [Configurar uma política de arquivo morto e exclusão para caixas de correio em sua organização](set-up-an-archive-and-deletion-policy-for-mailboxes.md).
     
 
   

@@ -17,12 +17,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Encontre e use relatórios para a proteção avançada contra ameaças do Office 365 &amp; no centro de conformidade de segurança.
-ms.openlocfilehash: cca2729918239eee7d27973cd28be16a534e461b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 09e2f4be133d395b738219b3a280f08b915030e0
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631056"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708494"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Exibir relatórios para a proteção avançada contra ameaças do Office 365
 
@@ -60,9 +60,11 @@ Filtros e divisões das informações permitem categorizações mais granulares 
 
 ![Proteção contra ameaças relatório de status menu suspenso mostrando ' dividir por '.](../../media/tp-threatProtectStatRpt-BreakDownBy.png)
 
-Esses modos de exibição oferecem a opção de exportação, por meio de um clique de botão (em email > Phish, email > malware e > modos de exibição de malware). Os dados agregados exportados para o seu computador podem ser abertos no Excel.
+Esses modos de exibição oferecem a opção de exportação, por meio de um clique de botão (em **phishing**de **email** \> , **malware**de **email** \> e modos de exibição de **malware** de **conteúdo** \> ). Os dados agregados exportados para o seu computador podem ser abertos no Excel.
 
 ![Este gráfico mostra a exportação como uma opção no menu para o modo de exibição de malware, diretamente entre criar agendamento e relatório de solicitação.](../../media/tp-threatProtectStatRpt-BreakDownByExport.png)
+
+**Observação**: o número máximo de entradas que podem ser exportadas para **phishing** e **Malware** está apenas abaixo de 10000. Se você exportar um modo de exibição, somente as entradas 10000 mais recentes serão exportadas.
 
 Os modos de exibição de visão geral e email exibirão informações em horas de processamento, e não em 24 horas (demanda re. velocidades maiores aqui foram um sinal claro)!
 

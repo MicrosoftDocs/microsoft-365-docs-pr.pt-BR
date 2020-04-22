@@ -1,5 +1,5 @@
 ---
-title: Usar o módulo de relevância na descoberta eletrônica avançada do Office 365
+title: Usar o módulo de relevância na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5d671821-d188-42da-a9ce-9cfe92beedfd
-description: 'Saiba mais sobre o módulo de relevância na descoberta eletrônica avançada do Office 365, incluindo um fluxo de trabalho e diretrizes e etapas para treinamento e análise de arquivo.  '
-ms.openlocfilehash: 5cb20d140e9369d6eccccb6936740030e6b5ca41
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Saiba mais sobre o módulo de relevância na descoberta eletrônica avançada, incluindo um fluxo de trabalho e diretrizes e etapas para treinamento e análise de arquivo.  '
+ms.openlocfilehash: 9fa588a139c992c8f67c99c8e02ff4a8540694b1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557629"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626387"
 ---
 # <a name="use-the-relevance-module-in-advanced-ediscovery-classic"></a>Usar o módulo de relevância na descoberta eletrônica avançada (clássico)
 
@@ -46,7 +46,7 @@ Na descoberta eletrônica avançada, o módulo de relevância inclui o treinamen
     
 - **Cálculo em lote**: a descoberta eletrônica avançada Obtém os critérios de relevância acumulados e aprendidos, aplica-os a todo o conjunto de arquivos e gera pontuações de relevância para cada arquivo.
     
-- ****@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @
+- **Decide**@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @
     
 - **Test**: os resultados de descoberta eletrônica avançada podem ser testados para verificar a validade e a eficácia do processamento avançado de descoberta eletrônica.
     
@@ -124,16 +124,16 @@ Na guia **controle \> de relevância** , a descoberta eletrônica avançada forn
     
   - Implicação: nenhum treinamento de relevância é necessário neste ponto.
     
-Embora a descoberta eletrônica avançada orienta você durante o processo, com as próximas etapas recomendadas em estágios diferentes, ela também permite que você navegue entre guias e páginas e faça escolhas para lidar com situações que possam ser pertinentes a seu caso, problema ou processo de revisão de documento. 
+Embora a descoberta eletrônica avançada orienta você durante o processo, com as próximas etapas recomendadas em estágios diferentes, ela também permite que você navegue entre guias e páginas e faça escolhas para lidar com situações que possam ser pertinentes a seu processo de análise de caso, de problema ou de documento individual. 
   
 É possível aceitar ou substituir as opções de processamento de próxima etapa de descoberta eletrônica avançada. Se você deseja executar uma etapa diferente da próxima etapa recomendada, clique na **próxima etapa** listada na exibição de problema expandida na caixa de diálogo, clique no botão **Modificar** ao lado da próxima etapa e selecione outra opção de próxima etapa. 
   
 > [!NOTE]
 > Algumas opções podem permanecer desabilitadas após a desbloqueio, pois elas não são suportadas para uso nesse ponto no processo. 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre avaliação em relevância](assessment-in-relevance-in-advanced-ediscovery.md)
   

@@ -1,5 +1,5 @@
 ---
-title: Programa de gerenciamento de riscos e autorização federal (FedRAMP)
+title: FedRAMP (Programa Federal de Gerenciamento de Autorização e Risco)
 description: A Microsoft recebeu o programa de gerenciamento de risco e autorização federal da US, P-ATOs e ATOs.
 keywords: Microsoft 365, conformidade, ofertas
 localization_priority: None
@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: fb667cdf13ed8ed6777f454b8fa3e21342f90272
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: d5a6ee0b5ca5c9ba1fbf83f1076940a10134a9f6
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222083"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583588"
 ---
-# <a name="federal-risk-and-authorization-management-program-fedramp"></a>Programa de gerenciamento de riscos e autorização federal (FedRAMP)
+# <a name="federal-risk-and-authorization-management-program-fedramp"></a>FedRAMP (Programa Federal de Gerenciamento de Autorização e Risco)
 
 ## <a name="fedramp-overview"></a>Visão geral do FedRAMP
 
-O programa de gerenciamento de riscos e autorização (FedRAMP) dos EUA foi estabelecido para fornecer uma abordagem padronizada para avaliar, monitorar e autorizar produtos e serviços de computação em nuvem no Decreto Federal de gerenciamento de segurança de informações ( FISMA) e para acelerar a adoção de soluções de nuvem seguras por agências federais.
+O programa de gerenciamento de riscos e autorização (FedRAMP) norte-americano foi estabelecido para fornecer uma abordagem padronizada para avaliar, monitorar e autorizar produtos e serviços de computação em nuvem sob o Federal Information Security Management Act (FISMA) e para acelerar a adoção de soluções de nuvem seguras por agências federais.
 
 O Office de gerenciamento e orçamento agora requer que todas as agências do governo federal usem o FedRAMP para validar a segurança dos serviços de nuvem. (Outras agências também o adotaram, portanto, é útil em outras áreas do setor público também.) O National Institute of Standards and Technology (NIST) 800-53 define o padrão e FedRAMP é o programa que certifica que um provedor de serviços de nuvem (CSP) atende a esse padrão.
 
@@ -35,9 +35,9 @@ As autorizações do FedRAMP são concedidas a três níveis de impacto com base
 
 ## <a name="microsoft-and-fedramp"></a>Microsoft e FedRAMP
 
-Os serviços de nuvem do governo da Microsoft, incluindo o governo do Azure, o governo dos EUA do Office 365 e o Dynamics 365 governamentais atendem aos requisitos exigentes do programa de gerenciamento de riscos e autorização (FedRAMP) dos EUA, permitindo agências federais dos EUA para se beneficiar da economia de custos e da segurança rigorosa da nuvem da Microsoft.
+Os serviços de nuvem do governo da Microsoft, incluindo o governo do Azure, o Office 365 e o Dynamics 365 governamental atendem aos requisitos exigentes do programa de gerenciamento de riscos e autorização do governo dos EUA (FedRAMP), permitindo que as agências federais dos EUA beneficiem-se da economia de custos e da segurança rigorosa da nuvem da Microsoft.
 
-Os serviços de nuvem do Microsoft governo oferecem aos clientes do setor público uma ampla variedade de serviços compatíveis com o FedRAMP e ferramentas robustas de orientação e implementação, incluindo o plano de segurança e conformidade do Azure para o FedRAMP, que ajuda a automatizar a implantação e a configuração dos recursos do Azure em um ambiente do FedRAMP.
+Os serviços de nuvem do Microsoft governo oferecem aos clientes do setor público uma ampla variedade de serviços compatíveis com o FedRAMP e ferramentas de implementação e orientação robusta, incluindo o plano de segurança e conformidade do Azure para o FedRAMP, que ajuda a automatizar a implantação e a configuração de recursos do Azure em um ambiente do FedRAMP.
 
 Saiba mais sobre os benefícios do FEDRAMP na nuvem da Microsoft: [baixar o plano de fundo de conformidade do FEDRAMP](https://aka.ms/fedramp-backgrounder)
 
@@ -116,11 +116,7 @@ A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso 
 ## <a name="resources"></a>Recursos
 
 - [Programa de gerenciamento de riscos e autorização federal](https://www.fedramp.gov/)
-- [Estrutura de Conformidade do Hub de Controles Comuns da Microsoft](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Estrutura de avaliação de segurança do FedRAMP](https://go.microsoft.com/fwlink/p/?linkid=2099507)
-- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/6/B/7/6B7B25B8-D44F-439A-80A9-1ED04C88B922/FedRAMP_backgrounder-2018.pdf).
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

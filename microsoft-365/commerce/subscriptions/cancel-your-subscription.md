@@ -20,35 +20,34 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
-description: Saiba como cancelar sua assinatura do Microsoft 365 for Business ou Microsoft 365 Trial ou pago.
-ms.openlocfilehash: 23a43b3a152844090cbbdf5baef29a7b8f992778
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba como cancelar sua assinatura de avaliação do Microsoft 365 for Business ou pago.
+ms.openlocfilehash: 56ffeae38b3cba94efacbb52bf2d9beb9af90ebb
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636590"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708078"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
-*Elegibilidade:* Se você tiver menos de 25 licenças atribuídas aos usuários, poderá cancelar sua assinatura de avaliação do Microsoft 365 for Business ou pago online no centro de administração a qualquer momento. Se você tiver mais de 25 licenças atribuídas aos usuários, [ligue para o suporte para cancelar sua assinatura](../../admin/contact-support-for-business-products.md).
+*Elegibilidade:* Se você tiver menos de 25 licenças atribuídas aos usuários, poderá cancelar sua assinatura de avaliação do Microsoft 365 for Business ou pago online no centro de administração do Microsoft 365 a qualquer momento. Se você tiver mais de 25 licenças atribuídas aos usuários, [ligue para o suporte para cancelar sua assinatura](../../admin/contact-support-for-business-products.md).
 
 *Reembolso:* Qualquer crédito rateado será retornado para você no próximo ciclo de cobrança.
 
 > [!NOTE]
-> Se você tiver várias assinaturas para o mesmo produto, como o Office 365 Enterprise E3, o cancelamento de uma delas não afetará as licenças ou serviços comprados nas outras assinaturas.
+> Se você tiver várias assinaturas para o mesmo produto, como o Microsoft 365 Business Premium, cancelar uma delas não afetará as licenças ou serviços comprados nas outras assinaturas.
 
 ## <a name="steps-to-cancel-your-subscription"></a>Etapas para cancelar sua assinatura
 
-Se você adicionou seu próprio nome de domínio para usar com sua assinatura, você deve remover o domínio antes de cancelar sua assinatura. Para obter mais informações, confira [Remover um domínio do Office 365](../../admin/get-help-with-domains/remove-a-domain.md).
+Se você adicionou seu próprio nome de domínio para usar com sua assinatura, você deve remover o domínio antes de cancelar sua assinatura. Para obter mais informações, consulte [Remove a Domain](../../admin/get-help-with-domains/remove-a-domain.md).
 
 ::: moniker range="o365-worldwide"
-
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
 
 2. Encontre a assinatura que você deseja cancelar e, em **configurações & ações**, selecione **cancelar assinatura**.
 
-3. Revise as datas importantes, forneça comentários sobre o motivo pelo qual você está cancelando e selecione **cancelar assinatura**.
+3. Revise as datas importantes, forneça comentários sobre o motivo do cancelamento e selecione **cancelar assinatura**.
 
     Agora, sua assinatura aparecerá em um estado **desabilitado** e reduzirá a funcionalidade até que ela seja excluída. Para obter mais informações sobre o que você pode esperar quando uma assinatura paga do Microsoft 365 for Business é cancelada, veja [o que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 para empresas termina?](what-if-my-subscription-expires.md)
 
@@ -64,7 +63,7 @@ Se você adicionou seu próprio nome de domínio para usar com sua assinatura, v
 
     ![Feche o menu mais ações.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
 
-4. Revise as datas importantes, forneça comentários sobre o motivo pelo qual você está cancelando e selecione **cancelar assinatura**.
+4. Revise as datas importantes, forneça comentários sobre o motivo do cancelamento e selecione **cancelar assinatura**.
 
     Agora, sua assinatura aparecerá em um estado **desabilitado** e reduzirá a funcionalidade até que ela seja excluída. Para obter mais informações sobre o que você pode esperar quando uma assinatura paga do Microsoft 365 for Business é cancelada, veja [o que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 para empresas termina?](what-if-my-subscription-expires.md)
 
@@ -80,7 +79,7 @@ Se você adicionou seu próprio nome de domínio para usar com sua assinatura, v
 
     ![Feche o menu mais ações.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
 
-4. Revise as datas importantes, forneça comentários sobre o motivo pelo qual você está cancelando e selecione **cancelar assinatura**.
+4. Revise as datas importantes, forneça comentários sobre o motivo do cancelamento e selecione **cancelar assinatura**.
 
     Agora, sua assinatura aparecerá em um estado **desabilitado** e reduzirá a funcionalidade até que ela seja excluída. Para obter mais informações sobre o que você pode esperar quando uma assinatura paga do Microsoft 365 for Business é cancelada, veja [o que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 para empresas termina?](what-if-my-subscription-expires.md)
 
@@ -109,11 +108,11 @@ Se você usar um domínio personalizado com sua assinatura, haverá algumas etap
 
 #### <a name="change-your-domain-nameserver-records-if-needed"></a>Alterar os registros de nameserver de domínio (se necessário)
 
-Se você configurar um domínio personalizado, você adicionou registros de DNS para que o domínio funcione com os serviços do Office 365. Antes de remover o domínio, certifique-se de atualizar os registros DNS, como o registro MX do domínio, no seu host DNS.
+Se você configurar um domínio personalizado, você adicionou registros de DNS para que o domínio funcione com os serviços 365 da Microsoft. Antes de remover o domínio, certifique-se de atualizar os registros DNS, como o registro MX do domínio, no seu host DNS.
 
 Por exemplo, altere o registro MX no seu host DNS. Os emails enviados para seu domínio vão para o seu endereço da Microsoft e vão para o seu novo provedor de email. Um registro MX determina o local para onde os emails do domínio são enviados.
 
-- Se os registros de nameserver (NS) [estiverem apontando para os nameservers do Office 365](../../admin/setup/add-domain.md), as alterações no seu registro MX não entrarão em vigor até que você altere seus registros NS para apontar para seu novo host DNS (consulte a etapa 2).
+- Se os registros de nameserver (NS) [estiverem apontando para os nameservers do Microsoft 365](../../admin/setup/add-domain.md), as alterações no seu registro MX não entrarão em vigor até que você altere seus registros NS para apontar para seu novo host DNS (consulte a etapa 2).
 
 - Antes de atualizar o registro MX, informe aos usuários a data em que você planeja trocar o email e o novo provedor de email que pretende usar. Além disso, se seus usuários quiserem mover seus emails da Microsoft existentes para o novo provedor, eles devem realizar etapas adicionais.
 
@@ -121,11 +120,11 @@ Por exemplo, altere o registro MX no seu host DNS. Os emails enviados para seu d
 
 #### <a name="update-your-domain-mx-and-other-dns-records-if-youre-using-a-custom-domain"></a>Atualizar seu domínio MX e outros registros DNS (se você estiver usando um domínio personalizado)
 
-Se você alterou seus registros de nameserver (NS) para o Office 365 ao configurar seu domínio, você deve configurar ou atualizar seu registro MX e outros registros DNS no host DNS que você planeja usar e, em seguida, altere o registro NS para o host DNS.
+Se você alterou seus registros de nameserver (NS) para a Microsoft 365 quando configurou seu domínio, deve configurar ou atualizar seu registro MX e outros registros DNS no host DNS que você planeja usar e, em seguida, alterar o registro NS para esse host DNS.
 
 Se você não alterou os registros NS quando configurou seu domínio, quando você alterar o registro MX, seus emails começarão a ir para o novo endereço imediatamente.
 
-Para obter mais informações, consulte [como o Office 365 gerencia meus registros de DNS?](../../admin/setup/domains-faq.md#how-does-office-365-manage-my-dns-records). Para alterar seus registros NS, confira [remover um domínio do Office 365](../../admin/get-help-with-domains/remove-a-domain.md).
+Para obter mais informações, consulte [como a Microsoft 365 gerencia meus registros DNS?](../../admin/setup/domains-faq.md#how-does-office-365-manage-my-dns-records). Para alterar seus registros NS, confira [remover um domínio](../../admin/get-help-with-domains/remove-a-domain.md).
 
 ### <a name="save-your-data"></a>Salvar seus dados
 
@@ -137,7 +136,7 @@ Quando o cancelamento se tornar efetivo, seus usuários perderão o acesso aos s
 
 ### <a name="uninstall-office-optional"></a>Desinstalar o Office (opcional)
 
-Se você cancelou sua assinatura e não moveu os usuários para uma assinatura diferente que inclui o Office, o Office 365 é executado no modo de funcionalidade reduzida. Quando isso acontece, os usuários só podem ler e imprimir documentos, e os aplicativos do Office 365 exibem [notificações de produtos não licenciados](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx). Para evitar confusão, peça aos seus usuários para [desinstalar o Office](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) de seus computadores.
+Se você cancelou sua assinatura e não moveu os usuários para uma assinatura diferente que inclui o Microsoft 365, o Microsoft 365 é executado no modo de funcionalidade reduzida. Quando isso acontece, os usuários só podem ler e imprimir documentos, e os aplicativos do Microsoft 365 exibem [notificações de produtos não licenciados](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx). Para evitar confusão, peça aos seus usuários para [desinstalar o Office](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) de seus computadores.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

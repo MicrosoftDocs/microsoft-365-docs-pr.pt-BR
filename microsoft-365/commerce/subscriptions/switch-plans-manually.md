@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
 description: Alterne manualmente as assinaturas do Microsoft 365 para empresas comprando uma nova assinatura e garantindo que ambas as assinaturas estejam listadas e ativas.
-ms.openlocfilehash: e5245e333984c9d8e67b174f10cf48b2339348de
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f06e6a5f441286cbe048187eea39889772bb4e75
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636529"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707506"
 ---
 # <a name="switch-microsoft-365-for-business-plans-manually"></a>Trocar manualmente os planos de negócios da Microsoft 365
 
@@ -84,13 +84,9 @@ Certifique-se de comprar uma assinatura para a mesma organização em que os usu
 
     A assinatura da qual você está migrando usuários e a assinatura à qual você está movendo usuários devem estar listadas em conjunto. Se a nova assinatura não estiver quando você verificar pela primeira vez, tente novamente mais tarde. Verifique se ambas as assinaturas estão listadas em **ativo**. [A nova assinatura não está listada ou não está ativa](#the-new-subscription-isnt-listed-or-isnt-active).
 
-   **A nova assinatura do Microsoft 365 for Business com licenças disponíveis**
-
-    ![A página de assinatura mostrando o número de licenças para a nova assinatura.](../../media/65a73e96-7c95-4daa-b6ec-71a4bf74dda5.png)
-  
 3. **Verifique se você tem licenças suficientes para cada usuário**
 
-    Cada usuário precisa de uma licença que corresponda à sua assinatura. Portanto, se você quiser mover dez usuários para o Office 365 Enterprise e5, precisará certificar-se de que dez licenças estejam disponíveis. Na imagem aqui, dez licenças foram adquiridas para o Office 365 Enterprise E5 e todas as dez licenças estão disponíveis para atribuição.
+    Cada usuário precisa de uma licença que corresponda à sua assinatura. Portanto, se você quiser mover dez usuários para o Microsoft 365 Business Premium, será necessário garantir que dez licenças estejam disponíveis. 
 
 4. **Precisa de mais licenças para a nova assinatura?** Vá para a página **assinaturas** e [compre licenças para sua assinatura do Microsoft 365 for Business](../licenses/buy-licenses.md).
   
@@ -139,8 +135,6 @@ As licenças para a assinatura atual serão removidas mais tarde; Você só paga
     > [!TIP]
     > Para limitar quais serviços estão disponíveis para o usuário, alterne as opções para a posição **desativado** dos serviços que você deseja remover para esse usuário. Por exemplo, se você deseja que o usuário tenha acesso a todos os serviços disponíveis, exceto o Skype for Business Online, você pode alterar o recurso de alternância para o serviço Skype for Business online para a posição **desativado** .
   
-    ![Definição de atribuições de licença para um usuário.](../../media/5e53a979-6b08-4981-bb0b-fa657146334b.png)
-  
 5. Alterne a opção para a posição **desativado** para as licenças que este usuário não precisa mais.
 
 6. Na parte inferior do painel **licenças de produto** , selecione **atribuir** \> **Close** \> fechar **fechar**.
@@ -149,19 +143,19 @@ As licenças para a assinatura atual serão removidas mais tarde; Você só paga
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">usuários ativos</a> ou selecione usuários **Users** \> **ativos**do usuário.
+1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">usuários ativos</a> do **usuário** \> .
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">usuários ativos</a> do **usuário** > .
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Usuários** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
 
@@ -176,8 +170,6 @@ As licenças para a assinatura atual serão removidas mais tarde; Você só paga
     > [!TIP]
     > - Para limitar quais serviços estão disponíveis para o usuário, mude para alternar para a posição **desativado** dos serviços que você deseja remover para esse usuário. Por exemplo, se você deseja que o usuário tenha acesso a todos os serviços disponíveis, exceto o Skype for Business Online, você pode alterar o recurso de alternância para o serviço Skype for Business online para a posição **desativado** .
     > - Atribuições de licença para os usuários selecionados que tenham sido feitas anteriormente serão removidas.
-  
-    ![Definição de atribuições de licença para um usuário.](../../media/5e53a979-6b08-4981-bb0b-fa657146334b.png)
   
 6. Na parte inferior do painel **Substituir produtos existentes**, selecione **Substituir** \> **Fechar**.
 

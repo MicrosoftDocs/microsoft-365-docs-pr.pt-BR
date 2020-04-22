@@ -1,5 +1,5 @@
 ---
-title: Investigar itens parcialmente indexados na Descoberta Eletrônica do Office 365
+title: Investigar itens parcialmente indexados na descoberta eletrônica
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
-description: Itens parcialmente indexados (também chamadas de itens não indexados) são itens de caixa de correio do Exchange e documentos em sites do SharePoint e do OneDrive que, por algum motivo, não foram completamente indexados para pesquisa de conteúdo. Neste artigo, você pode aprender por que os itens não podem ser indexados para pesquisa e são retornados como itens parcialmente indexados, identificar erros de pesquisa para itens parcialmente indexados e usar um script do PowerShell para determinar a exposição da sua organização a emails parcialmente indexados itens.
-ms.openlocfilehash: b67b7d5cfedd37315a9f8bc9027e03b820598846
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Itens parcialmente indexados (também chamadas de itens não indexados) são itens de caixa de correio do Exchange e documentos em sites do SharePoint e do OneDrive que, por algum motivo, não foram completamente indexados para pesquisa de conteúdo. Neste artigo, você pode aprender por que os itens não podem ser indexados para pesquisa e são retornados como itens parcialmente indexados, identificar erros de pesquisa para itens parcialmente indexados e usar um script do PowerShell para determinar a exposição da sua organização a itens de email parcialmente indexados.
+ms.openlocfilehash: 64b052e5c04019d5937c3763094529ae5c4c9e42
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072331"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637459"
 ---
-# <a name="investigating-partially-indexed-items-in-office-365-ediscovery"></a>Investigar itens parcialmente indexados na Descoberta Eletrônica do Office 365
+# <a name="investigating-partially-indexed-items-in-ediscovery"></a>Investigar itens parcialmente indexados na descoberta eletrônica
 
 Uma pesquisa de conteúdo que você executa a partir do centro de conformidade & segurança inclui automaticamente itens parcialmente indexados nos resultados estimados da pesquisa quando você executa uma pesquisa. Itens parcialmente indexados são itens de caixa de correio do Exchange e documentos em sites do SharePoint e do OneDrive for Business que por algum motivo não foram completamente indexados para pesquisa. A maioria das mensagens de email e documentos de site são indexados com êxito porque estão dentro dos [limites de indexação para mensagens de email](limits-for-content-search.md#indexing-limits-for-email-messages). No entanto, alguns itens podem exceder esses limites de indexação e serão parcialmente indexados. Aqui estão outras razões pelas quais os itens não podem ser indexados para pesquisa e são retornados como itens parcialmente indexados quando você executa uma pesquisa de conteúdo:
   
@@ -35,7 +35,7 @@ Uma pesquisa de conteúdo que você executa a partir do centro de conformidade &
     
 - O tipo de arquivo tem suporte para indexação, mas ocorreu um erro de indexação para um arquivo específico
     
-Embora varie, a maioria dos clientes do Office 365 têm menos de 1% de conteúdo por volume e menos de 12% do conteúdo por tamanho parcialmente indexado. O motivo para a diferença entre o volume versus o tamanho é que os arquivos maiores têm uma maior probabilidade de conteúdo que não pode ser completamente indexado.
+Embora varie, a maioria dos clientes da organização tem menos de 1% do conteúdo por volume e menos de 12% do conteúdo por tamanho parcialmente indexado. O motivo para a diferença entre o volume versus o tamanho é que os arquivos maiores têm uma maior probabilidade de conteúdo que não pode ser completamente indexado.
   
 ## <a name="why-does-the-partially-indexed-item-count-change-for-a-search"></a>Por que a contagem de itens parcialmente indexados é alterada para uma pesquisa?
 
@@ -70,7 +70,7 @@ Usando os resultados da pesquisa do exemplo anterior,. 84% de todos os itens de 
 
 `(316 MB/4830 MB) x 100 = 6.54%`
 
-Portanto, no exemplo anterior, 6,54% do tamanho total dos itens de caixa de correio são de itens parcialmente indexados. Conforme mencionado anteriormente, a maioria dos clientes do Office 365 tem menos de 1% de conteúdo por volume e menos de 12% do conteúdo por tamanho parcialmente indexado.
+Portanto, no exemplo anterior, 6,54% do tamanho total dos itens de caixa de correio são de itens parcialmente indexados. Conforme mencionado anteriormente, a maioria das organizações tem menos de 1% de conteúdo por volume e menos de 12% de conteúdo por tamanho parcialmente indexado.
 
 ## <a name="working-with-partially-indexed-items"></a>Trabalhar com itens parcialmente indexados
 
@@ -103,12 +103,12 @@ Veja a seguir uma lista de erros de indexação e uma descrição da possível c
 | `attachmentsize` <br/> |Um arquivo anexado a uma mensagem de email era muito grande e não pôde ser processado.  <br/> |
 | `indexingtruncated` <br/> |Ao gravar a mensagem de email processada no índice, uma das propriedades indexáveis era muito grande e estava truncada. As propriedades truncadas estão listadas no campo Propriedades do erro.  <br/> |
 | `invalidunicode` <br/> |Uma mensagem de email continha texto que não pôde ser processado como Unicode válido. A indexação deste item pode estar incompleta.  <br/> |
-| `parserencrypted` <br/> |O conteúdo do anexo ou da mensagem de email é criptografado, e o Office 365 não pôde decodificar o conteúdo.  <br/> |
+| `parserencrypted` <br/> |O conteúdo do anexo ou da mensagem de email é criptografado, e o Microsoft 365 não pôde decodificar o conteúdo.  <br/> |
 | `parsererror` <br/> |Ocorreu um erro desconhecido durante a análise. Isso normalmente resulta de um bug de software ou uma falha de serviço.  <br/> |
 | `parserinputsize` <br/> |Um anexo era muito grande para o analisador manipular, e a análise desse anexo não aconteceu ou não foi concluída.  <br/> |
 | `parsermalformed` <br/> |Um anexo foi malformado e não pôde ser manipulado pelo analisador. Esse resultado pode ser de formatos de arquivo antigos, arquivos criados por software incompatível ou vírus que fingim ser algo diferente de alegado.  <br/> |
 | `parseroutputsize` <br/> |A saída da análise de um anexo era muito grande e teve de ser truncada.  <br/> |
-| `parserunknowntype` <br/> |Um anexo tinha um tipo de arquivo que o Office 365 não pôde detectar.  <br/> |
+| `parserunknowntype` <br/> |Um anexo tinha um tipo de arquivo que o Microsoft 365 não pôde detectar.  <br/> |
 | `parserunsupportedtype` <br/> |Um anexo tinha um tipo de arquivo que o Office 365could detectou, mas não há suporte para a análise desse tipo de arquivo.  <br/> |
 | `propertytoobig` <br/> |O valor de uma propriedade de email no repositório do Exchange era muito grande para ser recuperado e a mensagem não pôde ser processada. Isso geralmente ocorre apenas na Propriedade Body de uma mensagem de email.  <br/> |
 | `retrieverrms` <br/> |O recuperador de conteúdo falhou ao decodificar uma mensagem protegida por RMS.  <br/> |
@@ -118,7 +118,7 @@ Os campos de erro descrevem quais campos são afetados pelo erro de processament
   
 ## <a name="using-a-powershell-script-to-determine-your-organizations-exposure-to-partially-indexed-email-items"></a>Usando um script do PowerShell para determinar a exposição da sua organização a itens de email parcialmente indexados
 
-As etapas a seguir mostram como executar um script do PowerShell que pesquisa todos os itens em todas as caixas de correio do Exchange e, em seguida, gera um relatório sobre a taxa da organização de itens de email parcialmente indexados (por contagem e por tamanho) e exibe o número de itens (e tipo de arquivo) para cada erro de indexação que ocorre. Use as descrições de marcas de erro na seção anterior para identificar o erro de indexação.
+As etapas a seguir mostram como executar um script do PowerShell que pesquisa todos os itens em todas as caixas de correio do Exchange e, em seguida, gera um relatório sobre a taxa da organização de itens de email parcialmente indexados (por contagem e por tamanho) e exibe o número de itens (e o tipo de arquivo) para cada erro de indexação que ocorre. Use as descrições de marcas de erro na seção anterior para identificar o erro de indexação.
   
 1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo. ps1; por exemplo, `PartiallyIndexedItems.ps1`.
 

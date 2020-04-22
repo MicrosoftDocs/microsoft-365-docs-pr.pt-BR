@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 97f769b763b5698dd664dee4ae8659999a62b078
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4ef19b106d5b00bb8b436b56b6da8bb653873f3a
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602608"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583318"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>Política de segurança de serviços de informações de justiça criminal (CJIS)
 
 ## <a name="cjis-overview"></a>Visão geral do CJIS
 
-A divisão do CJIS (serviços de informações de Justiça) do Departamento Federal de investigação (FBI) fornece às leis estaduais, locais e federais e agências de Justiça criminais acesso a informações criminais (CJI) — por exemplo, impressão digital registros e históricos criminais. A aplicação de leis e outras agências governamentais nos Estados Unidos devem garantir que o uso dos serviços de nuvem para a transmissão, o armazenamento ou o processamento do CJI esteja em conformidade com a [política de segurança do CJIS](https://aka.ms/cjis-security-policy), que estabelece os requisitos e controles de segurança mínimos para proteger o CJI.
+A divisão do CJIS (serviços de informação de Justiça) do Departamento Federal de investigação (FBI) fornece às leis de cumprimento, local e federal-Law e agências de Justiça criminais acesso a informações criminais (CJI) — por exemplo, registros de impressão digital e históricos criminais. A aplicação de leis e outras agências governamentais nos Estados Unidos devem garantir que o uso dos serviços de nuvem para a transmissão, o armazenamento ou o processamento do CJI esteja em conformidade com a [política de segurança do CJIS](https://aka.ms/cjis-security-policy), que estabelece os requisitos e controles de segurança mínimos para proteger o CJI.
 
 A política de segurança do CJIS integra as diretivas presidencial e FBI, as leis federais e as decisões da Diretoria de consultoria da comunidade de Justiça criminais, juntamente com a orientação do Instituto Nacional de normas e tecnologia (NIST). A política é atualizada periodicamente para refletir os requisitos de segurança em evolução.
 
@@ -35,9 +35,9 @@ Além disso, todos os contratadores privados que processam o CJI devem assinar o
 
 ## <a name="microsoft-and-cjis-security-policy"></a>Política de segurança da Microsoft e do CJIS
 
-A Microsoft assina o adendo de segurança do CJIS em Estados com os contratos de informações do CJIS. Eles dizem autoridades de cumprimento de leis de estado responsáveis por conformidade com a política de segurança do CJIS como os controles de segurança na nuvem da Microsoft ajudam a proteger o ciclo de vida completo dos dados e garantem a triagem de fundo apropriada do pessoal operacional com acesso ao CJI. A Microsoft continua a trabalhar com governos estaduais para entrar em contratos de informações do CJIS.
+A Microsoft assina o adendo de segurança do CJIS em Estados com os contratos de informações do CJIS. Eles dizem autoridades de cumprimento de leis de estado responsáveis por conformidade com a política de segurança do CJIS como os controles de segurança em nuvem da Microsoft ajudam a proteger o ciclo de vida completo dos dados e garantem a triagem de plano de fundo apropriada para o acesso ao CJI. A Microsoft continua a trabalhar com governos estaduais para entrar em contratos de informações do CJIS.
 
-A Microsoft avaliou as políticas e os procedimentos operacionais do governo do Microsoft Azure, o Microsoft Office 365 U.S. U.S. governamentais e o Microsoft Dynamics 365 governo dos EUA e causará o atestado da capacidade dos contratos de serviços aplicáveis para atender ao FBI requisitos para o uso de serviços no escopo.
+A Microsoft avaliou as políticas e os procedimentos operacionais do governo do Microsoft Azure, o Microsoft Office 365 U.S. U.S. governamentais e o Microsoft Dynamics 365 governo dos EUA e causará o atestado da capacidade dos contratos de serviços aplicáveis para atender aos requisitos de FBI para o uso de serviços no escopo.
 
 Saiba mais sobre os benefícios da política de segurança do CJIS na nuvem da Microsoft: [Leia como o Genetec limpa as investigações criminais](https://customers.microsoft.com/story/genetec)
 
@@ -60,7 +60,7 @@ O FBI não oferece certificação de conformidade da Microsoft com os requisitos
 
 37 Estados e o distrito de Columbia com acordos de gerenciamento, realçado no mapa em verde incluem:
 
-Alabama, Alasca, Arkansas, Arizona, Califórnia, Colorado, Flórida, Georgia, Havaí, Illinois, Indiana, Iowa, Kansas, Kentucky, Maine, Massachusetts, Michigan, Minnesota, Missouri, Montana, New Jersey, Nova York, Nevada, Carolina do Norte, Oklahoma, Oregon, Pensilvânia, Rhode Island, Carolina do Sul, Tennessee, Texas, Utah, Vermont, Virgínia, Washington, Washington D.C., West Virgínia, Wisconsin.
+Alabama, Alasca, Arkansas, Arizona, Califórnia, Colorado, Flórida, Geórgia, Havaí, Illinois, Indiana, Iowa, Kansas, Kentucky, Maine, Massachusetts, Michigan, Minnesota, Missouri, Montana, Nova Jersey, Nova York, Nevada, Carolina do Norte, Oklahoma, Oregon, Pensilvânia, Rhode, Virgínia,, Texas, Utah, Vermont, Virgínia,
 
 O compromisso da Microsoft com a reunião dos controles normativos CJIS permite que as organizações de Justiça criminais implementem soluções baseadas em nuvem e estejam em conformidade com a política de segurança do CJIS V 5,8.
 
@@ -86,8 +86,4 @@ A Microsoft assina um contrato de informação com um CSA (CJIS Systems Agency) 
 - [Diretrizes de implementação do CJIS para o governo do Azure](https://aka.ms/cjisimplementationguidelines)
 - [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/?linkid=2087246)
-- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/4/D/0/4D008840-B8C4-480B-ACD1-D55CB34AD6BC/CJIS_Compliance_Backgrounder.pdf).
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

@@ -1,5 +1,5 @@
 ---
-title: Exibir histórico de lote e exportar resultados passados na descoberta eletrônica avançada do Office 365
+title: Exibir histórico de lote e exportar resultados passados na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 35d52b41-75ab-4144-9edf-31e11453bd5d
-description: 'Saiba como exibir informações detalhadas para as sessões de lote de exportação selecionadas e como desfazer a última sessão de exportação na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: de7366e1eb43c276899ecf35339c0443fad4879d
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Saiba como exibir informações detalhadas para as sessões de lote de exportação selecionadas e como desfazer a última sessão de exportação na descoberta eletrônica avançada.  '
+ms.openlocfilehash: 356b0b61288b466da38bc640f9aad636ee654da2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557609"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626347"
 ---
 # <a name="view-batch-history-and-export-past-results-in-advanced-ediscovery-classic"></a>Exibir histórico de lote e exportar resultados passados em descoberta eletrônica avançada (clássico)
 
@@ -46,9 +46,9 @@ A caixa de diálogo Exportar histórico fornece informações detalhadas sobre a
   
 3. Se for necessário reverter uma sessão anterior, clique em **desfazer última sessão**. A reversão pode ser executada várias vezes, o que cancela a última sessão.
     
-4. Se você deseja baixar dados a qualquer momento de uma sessão de lote de exportação previamente executada, clique **** no ícone ![download de download do histórico](../media/de69b920-a6ac-4ddb-b93e-e1cc5888e6c4.gif) de lotes para exportação ao lado do lote de exportação desejado a ser exportado. 
+4. Se você deseja baixar dados a qualquer momento de uma sessão de lote de exportação previamente executada, clique **Download** no ícone ![download de download do histórico](../media/de69b920-a6ac-4ddb-b93e-e1cc5888e6c4.gif) de lotes para exportação ao lado do lote de exportação desejado a ser exportado. 
     
-5. Quando a caixa de diálogo **assinatura de acesso compartilhado** for exibida, clique em **copiar para área de transferência** para copiar os dados da sessão de exportação para a máquina local e clique em **Fechar**. É exibida a caixa &amp; de diálogo **ferramenta de exportação de descoberta eletrônica** do centro de conformidade de segurança do Office 365 
+5. Quando a caixa de diálogo **assinatura de acesso compartilhado** for exibida, clique em **copiar para área de transferência** para copiar os dados da sessão de exportação para a máquina local e clique em **Fechar**. A caixa &amp; de diálogo **ferramenta de exportação de descoberta eletrônica** do centro de conformidade de segurança é exibida. 
     
     ![Diálogo Exportar Descoberta Eletrônica](../media/01f79d2d-6da0-45e6-9c6f-ab12347572cb.gif)
   
@@ -60,9 +60,9 @@ A caixa de diálogo Exportar histórico fornece informações detalhadas sobre a
     
 3. Clique em **Iniciar**. Os arquivos de exportação são baixados para a máquina local. 
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Exportação de resultados](export-results-in-advanced-ediscovery.md)
 

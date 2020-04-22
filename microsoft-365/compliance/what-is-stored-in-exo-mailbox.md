@@ -16,27 +16,27 @@ search.appverid:
 - MET150
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
-description: Os dados produzidos por aplicativos baseados em nuvem no Office 365 são armazenados ou associados à caixa de correio do Exchange Online de um usuário.
-ms.openlocfilehash: 88cd2bf459ed7a50c06194b22f2ae6a999380d51
-ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
+description: Os dados produzidos por aplicativos baseados em nuvem no Microsoft 365 são armazenados ou associados à caixa de correio do Exchange Online de um usuário.
+ms.openlocfilehash: 946ad069a57e411c20d9b0a723d28dc03a4b094f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42400978"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626277"
 ---
 # <a name="content-stored-in-exchange-online-mailboxes"></a>Conteúdo armazenado em caixas de correio do Exchange Online
 
-Uma caixa de correio no Exchange Online é usada principalmente para armazenar itens relacionados a email, como mensagens, itens de calendário, tarefas e anotações. Mas isso está mudando como mais aplicativos do Office 365 baseados em nuvem também armazenam seus dados na caixa de correio de um usuário. Uma vantagem de armazenar dados em uma caixa de correio é que você pode usar as ferramentas de pesquisa em pesquisa de conteúdo, eDiscovery principal, descoberta eletrônica avançada e investigações de dados para localizar, exibir e exportar os dados desses aplicativos baseados em nuvem. Os dados de alguns desses aplicativos são armazenados em pastas ocultas localizadas em uma subárvore de mensagens não interpessoais (não-IPM) na caixa de correio. Dados de outros aplicativos baseados em nuvem podem não ser armazenados _na_ caixa de correio, mas são _associados_ à caixa de correio e retornados em pesquisas (se esses dados corresponderem à consulta de pesquisa). Independentemente de os dados baseados em nuvem estarem armazenados ou associados a uma caixa de correio de usuário, os dados normalmente não são visíveis em um cliente de email quando um usuário abre a caixa de correio.
+Uma caixa de correio no Exchange Online é usada principalmente para armazenar itens relacionados a email, como mensagens, itens de calendário, tarefas e anotações. Mas isso está mudando à medida que mais aplicativos baseados em nuvem também armazenam seus dados na caixa de correio de um usuário. Uma vantagem de armazenar dados em uma caixa de correio é que você pode usar as ferramentas de pesquisa em pesquisa de conteúdo, eDiscovery principal, descoberta eletrônica avançada e investigações de dados para localizar, exibir e exportar os dados desses aplicativos baseados em nuvem. Os dados de alguns desses aplicativos são armazenados em pastas ocultas localizadas em uma subárvore de mensagens não interpessoais (não-IPM) na caixa de correio. Dados de outros aplicativos baseados em nuvem podem não ser armazenados _na_ caixa de correio, mas são _associados_ à caixa de correio e retornados em pesquisas (se esses dados corresponderem à consulta de pesquisa). Independentemente de os dados baseados em nuvem estarem armazenados ou associados a uma caixa de correio de usuário, os dados normalmente não são visíveis em um cliente de email quando um usuário abre a caixa de correio.
 
-A tabela a seguir lista os aplicativos do Office 365 que armazenam ou associam dados com uma caixa de correio baseada em nuvem. A tabela também descreve o tipo de conteúdo que cada aplicativo produz.
+A tabela a seguir lista os aplicativos que armazenam ou associam dados com uma caixa de correio baseada em nuvem. A tabela também descreve o tipo de conteúdo que cada aplicativo produz.
 
-|Aplicativo do Office 365|Descrição|
+|Aplicativo Microsoft 365|Descrição|
 |:---------|:---------|
 |Forms|Formulários (armazenados como um arquivo PDF) e respostas a um formulário (armazenado em um arquivo CSV) são anexados a mensagens de email e armazenadas em uma pasta oculta na caixa de correio do usuário que criou o formulário. Quando você exporta conteúdo de formulários em um arquivo PST, esses dados estão localizados na pasta **ApplicationDataRoot** em uma subpasta chamada com o seguinte identificado globalmente exclusivo (GUID): **c9a559d2-7aab-4f13-a6ed-e7e9c52aec87**.|
-|Grupos do Office 365|Mensagens de email, itens de calendário, contatos (pessoas), anotações e tarefas são armazenados na caixa de correio associada a um grupo do Office 365.|
+|Grupos do Microsoft 365|Mensagens de email, itens de calendário, contatos (pessoas), anotações e tarefas são armazenados na caixa de correio associada a um grupo do Microsoft 365.|
 |Outlook/Exchange Online|Mensagens de email, itens de calendário, contatos (pessoas), anotações e tarefas são armazenados na caixa de correio de um usuário.|
 |Pessoas|Contatos no aplicativo pessoas (que são os mesmos contatos que aqueles acessíveis no Outlook) são armazenados na caixa de correio de um usuário.|
-|Agenda de aula|Os planos criados no cronograma de classe são armazenados na caixa de correio do grupo do Office 365 correspondente que é provisionado quando um novo plano é criado. O alias da caixa de correio de grupo é o nome do plano.|
+|Agenda de aula|Os planos criados no cronograma de classe são armazenados na caixa de correio do grupo correspondente do Microsoft 365 que é provisionado quando um novo plano é criado. O alias da caixa de correio de grupo é o nome do plano.|
 |Skype for Business|As conversas no Skype for Business são armazenadas na pasta de histórico de conversas da caixa de correio de um usuário. Se a caixa de correio de um participante de uma reunião do Skype for colocada em retenção de litígio ou atribuída a uma política de retenção, os arquivos anexados a uma reunião serão mantidos na caixa de correio dos participantes.|
 |Sway|Os sways são armazenados como um arquivo HTML anexado a uma mensagem de email e armazenados em uma pasta oculta na caixa de correio do usuário que criou o Sway. Quando você exporta conteúdo do Sway em um arquivo PST, esses dados ficam localizados na pasta **ApplicationDataRoot** em uma subpasta chamada com o GUID a seguir) **905fcf26-4EB7-48a0-9ff0-8dcc7194b5ba**.|
 |Tarefas|Tarefas no aplicativo tarefas (que são as mesmas tarefas que aquelas acessíveis no Outlook) são armazenadas na caixa de correio de um usuário.|

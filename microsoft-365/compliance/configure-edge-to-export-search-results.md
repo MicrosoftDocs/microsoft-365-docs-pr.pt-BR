@@ -1,5 +1,5 @@
 ---
-title: Usar a ferramenta de exportação de descoberta eletrônica do Office 365 no Microsoft Edge
+title: Usar a ferramenta de exportação de descoberta eletrônica no Microsoft Edge
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -12,16 +12,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Você precisa habilitar o suporte do ClickOnce para usar a versão mais recente do Microsoft Edge para baixar os resultados da pesquisa da pesquisa de conteúdo e da descoberta eletrônica no centro de segurança e conformidade.
-ms.openlocfilehash: 80924b124521b24ffabf1e0273802265cd715500
-ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
+ms.openlocfilehash: c48e3fb04747306693364a2cdbc6f18047a0fd9e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42710340"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632376"
 ---
-# <a name="use-the-office-365-ediscovery-export-tool-in-microsoft-edge"></a>Usar a ferramenta de exportação de descoberta eletrônica do Office 365 no Microsoft Edge
+# <a name="use-the-ediscovery-export-tool-in-microsoft-edge"></a>Usar a ferramenta de exportação de descoberta eletrônica no Microsoft Edge
 
-Como resultado de alterações recentes na versão mais recente do Microsoft Edge, o suporte do ClickOnce não está mais habilitado por padrão. Para continuar a usar a ferramenta de exportação de descoberta eletrônica do Microsoft Office 365 para baixar os resultados de pesquisa de descoberta eletrônica ou pesquisa de conteúdo, você precisa usar o [Microsoft Internet Explorer](https://support.microsoft.com/help/17621/internet-explorer-downloads) ou habilitar o suporte do ClickOnce na versão mais recente do Microsoft Edge.
+Como resultado de alterações recentes na versão mais recente do Microsoft Edge, o suporte do ClickOnce não está mais habilitado por padrão. Para continuar usando a ferramenta de exportação de descoberta eletrônica para baixar os resultados de pesquisa de descoberta eletrônica ou pesquisa de conteúdo, você precisa usar o [Microsoft Internet Explorer](https://support.microsoft.com/help/17621/internet-explorer-downloads) ou habilitar o suporte do ClickOnce na versão mais recente do Microsoft Edge.
 
 ## <a name="enable-clickonce-support-in-microsoft-edge"></a>Habilitar o suporte do ClickOnce no Microsoft Edge
 
@@ -49,7 +49,7 @@ Como resultado de alterações recentes na versão mais recente do Microsoft Edg
 
    ![Clique em abrir para iniciar a ferramenta de exportação de descoberta eletrônica](../media/ClickOnceimage4.png)
 
-   Se a ferramenta de exportação de descoberta eletrônica do Microsoft Office 365 não estiver instalada, você receberá um aviso de segurança 
+   Se a ferramenta de exportação de descoberta eletrônica não estiver instalada, você receberá um aviso de segurança 
 
    ![Clique em instalar para instalar a ferramenta de exportação de descoberta eletrônica](../media/ClickOnceimage5.png)
 

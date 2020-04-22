@@ -1,5 +1,5 @@
 ---
-title: Preparar um arquivo CSV para uma pesquisa de conteúdo de lista de ID no Office 365
+title: Preparar um arquivo CSV para uma lista de IDs de Pesquisa de Conteúdo
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,14 +14,14 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 82c97bb4-2b64-4edc-804d-cedbda525d22
 description: Use o arquivo Results. csv ou itens não indexados. csv de uma pesquisa de conteúdo existente para criar uma pesquisa de lista de ID que retorna mensagens de email específicas. Pesquisas de lista de ID normalmente são usadas para retornar itens de caixa de correio parcialmente indexados.
-ms.openlocfilehash: 97c69cd096e1ec2fa69082edef70cd41dfd229b0
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f37715858e6785e75343f5b11f73332de08b5d3b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42077001"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630698"
 ---
-# <a name="prepare-a-csv-file-for-an-id-list-content-search-in-office-365"></a>Preparar um arquivo CSV para uma pesquisa de conteúdo de lista de ID no Office 365
+# <a name="prepare-a-csv-file-for-an-id-list-content-search"></a>Preparar um arquivo CSV para uma lista de IDs de Pesquisa de Conteúdo
 
 Você pode pesquisar mensagens de email de caixa de correio específicas e outros itens de caixa de correio usando uma lista de IDs do Exchange. Para criar uma pesquisa de lista de ID (formalmente chamada de pesquisa direcionada), você envia um arquivo CSV (valor separado por vírgula) que identifica os itens de caixa de correio específicos para pesquisa. Para este arquivo CSV, você usa o arquivo **Results. csv** ou o arquivo **Items. CSV não indexado** que são incluídos quando você exporta os resultados da pesquisa de conteúdo ou exporta um relatório de pesquisa de conteúdo de e a pesquisa de conteúdo existente. Em seguida, edite um desses arquivos para indicar os itens específicos que serão pesquisados e, em seguida, crie uma nova lista de ID pesquisa e envie o arquivo CSV.
 
@@ -76,7 +76,7 @@ A próxima etapa é criar uma nova pesquisa de conteúdo de lista de ID e enviar
 > [!IMPORTANT]
 > Você deve criar uma pesquisa de lista de ID que não tenha mais de dois dias após a exportação dos resultados ou do relatório de uma pesquisa de conteúdo. Se os resultados da pesquisa ou o relatório onde exportados há mais de 2 dias, você deve exportar novamente os resultados da pesquisa ou o relatório para gerar arquivos CSV atualizados. Em seguida, você pode preparar um dos arquivos CSV atualizados e usá-lo para criar uma pesquisa de lista de ID.
 
-1. No centro de conformidade & segurança, vá para **** \> **pesquisa de conteúdo**de pesquisa.
+1. No centro de conformidade & segurança, vá para **Search** \> **pesquisa de conteúdo**de pesquisa.
 
 2. Na página de **pesquisa** , clique na seta ao lado ![de adicionar](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) ícone **nova pesquisa**e, em seguida, clique em **Pesquisar por lista de ID**.
 
@@ -84,7 +84,7 @@ A próxima etapa é criar uma nova pesquisa de conteúdo de lista de ID e enviar
 
 3. No submenu de **lista Pesquisar por ID** , nomeie a pesquisa (e, opcionalmente, descreva-a) e clique em **procurar** e selecione o arquivo CSV que você preparou na etapa anterior.
 
-    O Office 365 tenta validar o arquivo CSV. Se a validação não for bem sucedida, será exibida uma mensagem de erro que poderá ajudá-lo a solucionar os erros de validação. O arquivo CSV deve ser validado com êxito para criar uma pesquisa de lista de ID.
+    O Microsoft 365 tenta validar o arquivo CSV. Se a validação não for bem sucedida, será exibida uma mensagem de erro que poderá ajudá-lo a solucionar os erros de validação. O arquivo CSV deve ser validado com êxito para criar uma pesquisa de lista de ID.
 
 4. Depois que o arquivo CSV for validado com êxito, clique em **Pesquisar** para criar a pesquisa de lista de ID.
 
@@ -97,4 +97,4 @@ A próxima etapa é criar uma nova pesquisa de conteúdo de lista de ID e enviar
 5. Visualize ou exporte os itens retornados pela pesquisa da lista de ID.
 
 > [!NOTE]
-> Se você mover uma caixa de correio depois de criar uma pesquisa de lista de ID, a consulta para a pesquisa não retornará os itens especificados. Isso ocorre porque a propriedade **DocumentID** para itens da caixa de correio é alterada quando uma caixa de correio é movida. Na rara instância, quando uma caixa de correio é movida depois de criar uma pesquisa de lista de ID, você deve criar uma nova pesquisa de conteúdo (ou atualizar os resultados da pesquisa para a pesquisa de conteúdo existente) e exportar os resultados da pesquisa ou o relatório para gerar arquivos CSV atualizados que podem ser usados  para criar uma nova pesquisa de lista de ID.
+> Se você mover uma caixa de correio depois de criar uma pesquisa de lista de ID, a consulta para a pesquisa não retornará os itens especificados. Isso ocorre porque a propriedade **DocumentID** para itens da caixa de correio é alterada quando uma caixa de correio é movida. Na rara instância, quando uma caixa de correio é movida depois de criar uma pesquisa de lista de ID, você deve criar uma nova pesquisa de conteúdo (ou atualizar os resultados da pesquisa para a pesquisa de conteúdo existente) e exportar os resultados da pesquisa ou o relatório para gerar arquivos CSV atualizados que podem ser usados para criar uma nova pesquisa de lista de ID.

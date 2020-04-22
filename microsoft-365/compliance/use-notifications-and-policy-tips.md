@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Uma dica de política é uma notificação ou um aviso que aparece quando alguém está trabalhando com conteúdo que está em conflito com uma política de DLP. Você pode usar notificações por email e dicas de política para aumentar a conscientização e ajudar a ensinar as pessoas sobre as políticas da sua organização. Você também pode conceder às pessoas a opção de substituir a política, para que elas não sejam bloqueadas se tiverem uma necessidade comercial válida ou se a política estiver detectando um falso positivo. '
-ms.openlocfilehash: 7d54c035d9bb7c9ecc5a543fb8f37749bf9437e7
-ms.sourcegitcommit: 4c6af6530b4997055b8e60bf532e75cbc72fb6c5
+ms.openlocfilehash: fd6c7a33f8c75615019cca32797008a8fa4753ed
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43284266"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626397"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>Enviar notificações por email e mostrar dicas para políticas de DLP
 
@@ -36,7 +36,7 @@ Uma dica de política é uma notificação ou um aviso que aparece quando algué
   
 Você pode usar notificações por email e dicas de política para aumentar a conscientização e ajudar a ensinar as pessoas sobre as políticas da sua organização. Você também pode conceder às pessoas a opção de substituir a política, para que elas não sejam bloqueadas se tiverem uma necessidade comercial válida ou se a política estiver detectando um falso positivo.
   
-No centro de conformidade de &amp; segurança do Office 365, ao criar uma política de DLP, você pode configurar as notificações de usuário para:
+No centro de &amp; conformidade de segurança, ao criar uma política de DLP, você pode configurar as notificações de usuário para:
   
 - Envie uma notificação por email para as pessoas que você escolher que descrevem o problema.
     
@@ -54,7 +54,7 @@ Ao criar uma política de DLP, você pode habilitar as **notificações do usuá
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Entre no Office 365 usando a sua conta corporativa ou de estudante. Agora você está no centro de conformidade com &amp; segurança do Office 365.
+2. Entre usando sua conta corporativa ou de estudante. Agora você está no centro de &amp; conformidade de segurança.
     
 3. Na navegação \> à &amp; esquerda centro \> de conformidade de segurança \> **política** \> de **prevenção contra perda de dados** **+ criar uma política**.
     
@@ -219,13 +219,13 @@ Atualmente, o Outlook 2013 e versões posteriores dão suporte à exibição de 
 
 Observe que todas essas condições funcionam no Outlook, onde elas corresponderão ao conteúdo e imporão ações de proteção ao conteúdo. Mas Mostrar dicas de política para usuários ainda não tem suporte.
   
-### <a name="policy-tips-in-the-exchange-admin-center-vs-the-office-365-security-amp-compliance-center"></a>Dicas de política no centro de administração do Exchange versus centro de conformidade &amp; de segurança do Office 365
+### <a name="policy-tips-in-the-exchange-admin-center-vs-the-security-amp-compliance-center"></a>Dicas de política no centro de administração do Exchange versus centro &amp; de conformidade de segurança
 
-As dicas de política podem funcionar com políticas de DLP e regras de fluxo de email criadas no centro de administração do Exchange ou com políticas de DLP criadas &amp; no centro de conformidade de segurança do Office 365, mas não em ambos. Isso ocorre porque essas políticas são armazenadas em locais diferentes, mas as dicas de política podem desenhar apenas de um único local.
+As dicas de política podem funcionar com políticas de DLP e regras de fluxo de email criadas no centro de administração do Exchange ou com políticas de &amp; DLP criadas no centro de conformidade de segurança, mas não em ambos. Isso ocorre porque essas políticas são armazenadas em locais diferentes, mas as dicas de política podem desenhar apenas de um único local.
   
-Se você configurou as dicas de política no centro de administração do Exchange, as dicas de política configuradas no &amp; centro de conformidade de segurança do Office 365 não aparecerão aos usuários no Outlook na Web e no Outlook 2013 e posteriores até que você desative as dicas no centro de administração do Exchange. Isso garante que as regras de fluxo de emails atuais do Exchange (também conhecidas como regras de transporte) continuem a funcionar até que você opte por alternar &amp; para o centro de conformidade de segurança do Office 365.
+Se você configurou as dicas de política no centro de administração do Exchange, qualquer dica de política configurada no centro de conformidade de segurança &amp; não aparecerá para os usuários no Outlook na Web e no Outlook 2013 e posterior até que você desative as dicas no centro de administração do Exchange. Isso garante que as regras de fluxo de emails atuais do Exchange (também conhecidas como regras de transporte) continuem a funcionar até que você opte &amp; por alternar para o centro de conformidade de segurança.
   
-Observe que, embora as dicas de política possam desenhar apenas de um único local, as notificações por email são sempre enviadas, mesmo se você estiver usando políticas de DLP &amp; no centro de conformidade de segurança do Office 365 e no centro de administração do Exchange.
+Observe que, embora as dicas de política possam desenhar apenas de um único local, as notificações por email são sempre enviadas, mesmo que você esteja usando políticas &amp; de DLP no centro de conformidade de segurança e no centro de administração do Exchange.
   
 ### <a name="default-text-for-policy-tips-in-email"></a>Texto padrão para dicas de política no email
 

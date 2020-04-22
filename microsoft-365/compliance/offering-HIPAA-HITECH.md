@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 52752c31ae52fa75a3a50dbd6a4aa27605f6d921
-ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
+ms.openlocfilehash: 182e3489824c7842f5e9cf6a410d49d574b7462c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42228507"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637995"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>O Health Insurance Portability and Accountability (HIPAA) & funciona
 
@@ -43,7 +43,7 @@ A regra de notificação de brechas de alta segurança, que requer um aviso para
 
 ## <a name="microsoft-and-hipaa-and-the-hitech-act"></a>A Microsoft e a HIPAA e a lei de alta tecnologia
 
-As normas da HIPAA exigem que as entidades cobertas e seus parceiros comerciais, nesse caso, a Microsoft quando ele fornece serviços, incluindo serviços de nuvem, para entidades cobertas — entram em contratos para garantir que essas empresas associativas de forma adequada proteger PHI. Esses contratos, ou BAAs, esclarecem e limitam como a associação de negócios pode lidar com o PHI e definir a adesão de cada parte às disposições de segurança e privacidade definidas na HIPAA e no ato de alta tecnologia. Depois que um acordo estiver em vigor, os clientes da Microsoft, entidades cobertas, poderão usar seus serviços para processar e armazenar PHI.
+As leis da HIPAA exigem que as entidades abordadas e seus parceiros comerciais, nesse caso, a Microsoft quando ele fornece serviços, incluindo serviços de nuvem, para entidades cobertas — entram em contratos para garantir que essas empresas Associates protegerão adequadamente o PHI. Esses contratos, ou BAAs, esclarecem e limitam como a associação de negócios pode lidar com o PHI e definir a adesão de cada parte às disposições de segurança e privacidade definidas na HIPAA e no ato de alta tecnologia. Depois que um acordo estiver em vigor, os clientes da Microsoft, entidades cobertas, poderão usar seus serviços para processar e armazenar PHI.
 
 No momento, não há certificação oficial para conformidade com HIPAA ou de alta tecnologia. No entanto, esses serviços da Microsoft cobertos pelo acordo têm auditorias realizadas por auditores independentes incapacitados para a certificação Microsoft ISO/IEC 27001.
 
@@ -54,10 +54,10 @@ Para saber como a nuvem da Microsoft ajuda os clientes a oferecer suporte à HIP
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
-- Segurança no Aplicativo na Nuvem
+- Cloud App Security
 - Serviço Microsoft Health bot
 - Microsoft Stream
-- Serviços Profissionais da Microsoft: Premier e no Local para Azure, Dynamics 365, Intune e para clientes de médias empresas e corporativos do Office 365.
+- Serviços profissionais da Microsoft: Premier e on-premises para Azure, Dynamics 365, Intune e para clientes de média empresa e Enterprise do Microsoft 365 para empresas
 - [Dynamics 365 e Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
 - Serviço de nuvem do Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - Intune
@@ -104,17 +104,17 @@ Para ajudar os clientes nessa tarefa, a Microsoft publicou estes guias:
 
 ## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
 
-A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), selecione o modelo do [Office 365](https://go.microsoft.com/fwlink/?linkid=2118005) ou o [modelo HIPAA](https://go.microsoft.com/fwlink/?linkid=2118006) pré-configurado no menu suspenso **modelo** para ajudar a sua organização a atender aos requisitos dessa regulamentação.
+A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudar você a compreender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [Configurar a pontuação de conformidade](compliance-score-setup.md), selecione o modelo do [Office 365](https://go.microsoft.com/fwlink/?linkid=2118005) ou o [modelo HIPAA](https://go.microsoft.com/fwlink/?linkid=2118006) pré-configurado no menu suspenso **modelo** para ajudar a sua organização a atender aos requisitos dessa regulamentação.
 
 ## <a name="resources"></a>Recursos
 
 - [Regra HIPAA Omnibus](https://aka.ms/HIPAA-omnibus) (as regulamentações finais – modificando regras do HIPAA)
-- [Estrutura de Conformidade do Hub de Controles Comuns da Microsoft](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Termos de Serviços Online da Microsoft](https://aka.ms/Online-Services-Terms)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Noções básicas sobre a conformidade HIPAA com o Azure](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(19 de maio de 2016)
 - [Diretrizes de implementação do Azure HIPAA](https://aka.ms/azure-hipaa-guide)
-- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

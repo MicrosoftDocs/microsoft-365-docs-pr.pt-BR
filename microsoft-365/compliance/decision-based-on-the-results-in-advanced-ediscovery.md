@@ -1,5 +1,5 @@
 ---
-title: Decisão com base nos resultados da descoberta eletrônica avançada do Office 365
+title: Decisão com base nos resultados da descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,13 +14,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: aed65bcd-0a4f-43e9-b5e5-b98cc376bdf8
-description: 'Saiba como a guia decidir na descoberta eletrônica avançada do Office 365 fornece dados que podem ajudá-lo a determinar o tamanho correto do conjunto de arquivos de caso. '
-ms.openlocfilehash: 6d515305b01b0273bb2acffaad19c497fc5c82d2
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Saiba como a guia decidir em descoberta eletrônica avançada fornece dados que podem ajudá-lo a determinar o tamanho correto do conjunto de arquivos de caso. '
+ms.openlocfilehash: 279b689e830089c683b8cd575a231635ca32de76
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557539"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630568"
 ---
 # <a name="decision-based-on-the-results-in-advanced-ediscovery-classic"></a>Decisão com base nos resultados da descoberta eletrônica avançada (clássica)
 
@@ -53,9 +53,9 @@ Essa guia inclui o seguinte:
     
 O painel de detalhes expandido exibe detalhes adicionais. Os arquivos nas figuras de coleção não incluem arquivos vazios ou nebulous. Os números de arquivos da família representam arquivos que não são carregados em relevância, ainda que sejam contados como parte da família.
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre avaliação em relevância](assessment-in-relevance-in-advanced-ediscovery.md)
   
