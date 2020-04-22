@@ -87,7 +87,7 @@
       items:
         - name: Email no Office 365
           href: email/email.md
-        - name: Configurações de email de usuário do Office 365
+        - name: Configurações de e-mail do usuário
           href: email/office-365-user-email-settings.md
         - name: Adicionar outro alias de email para um usuário
           href: email/add-another-email-alias-for-a-user.md
@@ -189,6 +189,8 @@
           href: manage/remove-licenses-from-users.md
         - name: Resolver conflitos de licença
           href: manage/resolve-license-conflicts.md
+        - name: Gerenciar mensagens no Centro de mensagens
+          href: manage/manage-messages.md
         - name: Mostrar ou ocultar novos recursos usando o Gerenciamento de Novidades
           href: manage/show-hide-new-features.md
     - name: Assinaturas e cobrança
@@ -235,11 +237,11 @@
           href: create-groups/office-365-groups.md
         - name: Comparar grupos
           href: create-groups/compare-groups.md
-        - name: Criar um Grupo do Office 365
+        - name: Criar um grupo do Microsoft 365
           href: create-groups/create-groups.md
-        - name: Gerenciar um grupo do Office 365
+        - name: Gerenciar um grupo do Microsoft 365
           href: create-groups/manage-groups.md
-        - name: Plano de governança nos Grupos do Office 365
+        - name: Plano de governança nos grupos do Microsoft 365
           href: create-groups/plan-for-groups-governance.md
         - name: Gerenciar a criação de grupos
           href: create-groups/manage-creation-of-groups.md
@@ -251,7 +253,7 @@
           href: create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md
         - name: Adicionar ou remover membros dos grupos
           href: create-groups/add-or-remove-members-from-groups.md
-        - name: Política de Expiração de Grupo do Office 365
+        - name: Política de expiração de grupo do Microsoft 365
           href: create-groups/office-365-groups-expiration-policy.md
         - name: Restaurar Grupo excluído
           href: create-groups/restore-deleted-group.md
