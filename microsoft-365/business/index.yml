@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Recursos do Microsoft 365 Business Premium
-summary: O Microsoft 365 Business Premium é um serviço de assinatura que inclui as ferramentas de produtividade do Office 365 e recursos avançados para ajudar a proteger sua empresa contra o ciberataques, proteger seus dados e gerenciar os dispositivos.
+summary: O Microsoft 365 Business Premium (antigo Microsoft 365 Business) é um serviço de assinatura abrangente para empresas com menos de 300 funcionários. Ele integra seus aplicativos de produtividade e serviços e ferramentas de colaboração favoritos, como o Microsoft Teams com recursos avançados de segurança e gerenciamento de dispositivos.
 brand: m365
 metadata:
   title: Recursos do Microsoft 365 Business Premium
@@ -11,12 +11,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 29504ca22db443c504a5f3265ca2e8fcba0f737e
-  ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+  ms.openlocfilehash: 4dff1d10b8a4574ea8350aa194d7f6a2c8eb2605
+  ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/21/2020
-  ms.locfileid: "43627105"
+  ms.lasthandoff: 04/22/2020
+  ms.locfileid: "43781466"
 productDirectory:
   title: Trabalho remoto seguro com o Microsoft 365 Business Premium
   items:
@@ -30,7 +30,7 @@ productDirectory:
     url: https://www.microsoft.com/microsoft-365/partners/videos/secure-your-smb-customers-as-they-cope-with-covid-19
   - title: Ler
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
-    summary: Melhores maneiras de habilitar o trabalho remoto seguro com o Microsoft 365 for Business.
+    summary: Melhores maneiras de habilitar o trabalho remoto seguro com o Microsoft 365 Business Premium.
     url: https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623
 conceptualContent:
   items:
@@ -188,7 +188,7 @@ conceptualContent:
       text: Inscreva-se no Microsoft 365 Business Premium
     - url: migrate-to-microsoft-365-business.md
       itemType: how-to-guide
-      text: Migrar do Microsoft 365 Business Standard
+      text: Migre para o Microsoft 365 Business Standard
     - url: migrate-from-e3.md
       itemType: how-to-guide
       text: Migre do Office 365 E3
