@@ -1,5 +1,5 @@
 ---
-title: Usar a pesquisa de conteúdo no Office 365 para coleções direcionadas
+title: Usar a Pesquisa de Conteúdo para determinadas coleções
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,16 +16,16 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: Use a pesquisa de conteúdo no centro de conformidade de & de segurança para realizar coleções direcionadas. Uma coleção direcionada significa que você tem certeza de que os itens que respondem a um caso ou itens privilegiados estão localizados em uma caixa de correio ou pasta de site específica. Use o script neste artigo para obter a ID da pasta ou o caminho das pastas de caixa de correio ou de site específicas que você deseja pesquisar.
-ms.openlocfilehash: b8afe9e65aa65c697d9c5cefbeaf89638c1782d4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e6de817e7ec324e6aa80ef596340906c2f86d126
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080789"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633376"
 ---
-# <a name="use-content-search-in-office-365-for-targeted-collections"></a>Usar a pesquisa de conteúdo no Office 365 para coleções direcionadas
+# <a name="use-content-search-for-targeted-collections"></a>Usar a Pesquisa de Conteúdo para determinadas coleções
 
-O recurso de pesquisa de conteúdo no centro de &amp; conformidade de segurança do Office 365 não oferece uma maneira direta na interface de usuário pesquisar pastas específicas em caixas de correio do Exchange ou sites do SharePoint e do onedrive for Business. No entanto, é possível pesquisar pastas específicas (chamadas de *coleção direcionadas*) especificando a propriedade ID da pasta para a propriedade email ou caminho (DocumentLink) para sites na sintaxe de consulta de pesquisa real. O uso da pesquisa de conteúdo para executar uma coleção direcionada é útil quando você tem certeza de que os itens que respondem a um caso ou itens privilegiados estão localizados em uma caixa de correio ou pasta de site específica. Você pode usar o script neste artigo para obter a ID de pasta para pastas de caixa de correio ou o caminho (DocumentLink) para pastas em um site do SharePoint e do OneDrive for Business. Em seguida, você pode usar a ID de pasta ou o caminho em uma consulta de pesquisa para retornar itens localizados na pasta.
+O recurso de pesquisa de conteúdo no &amp; centro de conformidade de segurança não fornece uma maneira direta na interface de usuário pesquisar pastas específicas em caixas de correio do Exchange ou sites do SharePoint e do onedrive for Business. No entanto, é possível pesquisar pastas específicas (chamadas de *coleção direcionadas*) especificando a propriedade ID da pasta para a propriedade email ou caminho (DocumentLink) para sites na sintaxe de consulta de pesquisa real. O uso da pesquisa de conteúdo para executar uma coleção direcionada é útil quando você tem certeza de que os itens que respondem a um caso ou itens privilegiados estão localizados em uma caixa de correio ou pasta de site específica. Você pode usar o script neste artigo para obter a ID de pasta para pastas de caixa de correio ou o caminho (DocumentLink) para pastas em um site do SharePoint e do OneDrive for Business. Em seguida, você pode usar a ID de pasta ou o caminho em uma consulta de pesquisa para retornar itens localizados na pasta.
 
 > [!NOTE]
 > Para retornar conteúdo localizado em uma pasta em um site do SharePoint ou do OneDrive for Business, o script neste tópico usa a propriedade gerenciada DocumentLink em vez da propriedade Path. A propriedade DocumentLink é mais robusta que a propriedade Path porque ela retornará todo o conteúdo de uma pasta, enquanto a propriedade Path não retornará alguns arquivos de mídia.
@@ -68,22 +68,22 @@ Para exibir uma lista de pastas de caixa de correio ou nomes de site documentlin
     
   ```powershell
   #########################################################################################################
-  # This PowerShell script will prompt you for:                             #
+  # This PowerShell script will prompt you for:                                #
   #    * Admin credentials for a user who can run the Get-MailboxFolderStatistics cmdlet in Exchange    #
-  #      Online and who is an eDiscovery Manager in the Security & Compliance Center.           #
-  # The script will then:                                           #
-  #    * If an email address is supplied: list the folders for the target mailbox.          #
+  #      Online and who is an eDiscovery Manager in the Security & Compliance Center.            #
+  # The script will then:                                            #
+  #    * If an email address is supplied: list the folders for the target mailbox.            #
   #    * If a SharePoint or OneDrive for Business site is supplied: list the documentlinks (folder paths) #
-  #    * for the site.                                                                                  #
-  #    * In both cases, the script supplies the correct search properties (folderid: or documentlink:)  #
-  #      appended to the folder ID or documentlink to use in a Content Search.              #
-  # Notes:                                              #
-  #    * For SharePoint and OneDrive for Business, the paths are searched recursively; this means the   #
-  #      the current folder and all sub-folders are searched.                       #
-  #    * For Exchange, only the specified folder will be searched; this means sub-folders in the folder #
+  #    * for the site.                                                                                    #
+  #    * In both cases, the script supplies the correct search properties (folderid: or documentlink:)    #
+  #      appended to the folder ID or documentlink to use in a Content Search.                #
+  # Notes:                                                #
+  #    * For SharePoint and OneDrive for Business, the paths are searched recursively; this means the     #
+  #      the current folder and all sub-folders are searched.                        #
+  #    * For Exchange, only the specified folder will be searched; this means sub-folders in the folder    #
   #      will not be searched.  To search sub-folders, you need to use the specify the folder ID for    #
-  #      each sub-folder that you want to search.                               #
-  #    * For Exchange, only folders in the user's primary mailbox will be returned by the script.       #
+  #      each sub-folder that you want to search.                                #
+  #    * For Exchange, only folders in the user's primary mailbox will be returned by the script.        #
   #########################################################################################################
   # Collect the target email address or SharePoint Url
   $addressOrSite = Read-Host "Enter an email address or a URL for a SharePoint or OneDrive for Business site"
@@ -219,9 +219,9 @@ Após executar o script para coletar uma lista de IDs de pasta ou documentlinks 
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Entre no Office 365 usando a conta e as credenciais que você usou para executar o script na etapa 1.
+2. Entre usando a conta e as credenciais que você usou para executar o script na etapa 1.
     
-3. No painel esquerdo do centro de conformidade & segurança, clique em **** \> **pesquisa de conteúdo**de pesquisa e clique em **novo** ![ícone](../media/O365-MDM-CreatePolicy-AddIcon.gif)de adição.
+3. No painel esquerdo do centro de conformidade & segurança, clique em **Search** \> **pesquisa de conteúdo**de pesquisa e clique em **novo** ![ícone](../media/O365-MDM-CreatePolicy-AddIcon.gif)de adição.
     
 4. Na página **Nova pesquisa**, digite um nome para a Pesquisa de Conteúdo. O nome deve ser exclusivo em sua organização. 
     

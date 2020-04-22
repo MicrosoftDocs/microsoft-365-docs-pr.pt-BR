@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve o uso da nova ferramenta de investigações de dados (visualização) no centro de conformidade & segurança para gerenciar um incidente de derramamento de dados.
-ms.openlocfilehash: f02d5c42d42f6031202e874497f92fdfbe5d0bcf
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: a544eb1e021faa82d00ac46a7d64a3eb368cc323
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634289"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635931"
 ---
 # <a name="manage-a-data-spillage-incident-in-microsoft-365"></a>Gerenciar um incidente de derramamento de dados no Microsoft 365
 
@@ -29,14 +29,14 @@ Data derramamento é quando um documento que contém informações confidenciais
 
 ## <a name="scope-of-this-article"></a>Escopo deste artigo
 
-Este artigo fornece uma lista de instruções sobre como excluir permanentemente os itens das caixas de correio do Office 365 para que eles não sejam mais acessíveis ou recuperáveis por usuários ou administradores. 
+Este artigo fornece uma lista de instruções sobre como excluir permanentemente os itens das caixas de correio do Microsoft 365 para que eles não sejam mais acessíveis ou recuperáveis por usuários ou administradores. 
 
 > [!NOTE]
 > Quando você exclui itens localizados em um site do SharePoint ou do OneDrive for Business, eles são mantidos por 93 dias a partir do momento em que são excluídos do local original.
 
 ## <a name="scenario"></a>Cenário
 
-Você é informado de um incidente de derramamento de dados em que um funcionário compartilhou inadvertidamente um documento altamente confidencial com várias pessoas por email. Você deseja avaliar rapidamente quem recebeu este documento, tanto dentro e fora da sua organização. Após investigar o incidente, você planeja compartilhar suas descobertas com outros investigadores para revisão e, em seguida, remover permanentemente os dados derramados de sua organização do Office 365. Após a conclusão da investigação, você deseja remover todas as evidências. 
+Você é informado de um incidente de derramamento de dados em que um funcionário compartilhou inadvertidamente um documento altamente confidencial com várias pessoas por email. Você deseja avaliar rapidamente quem recebeu este documento, tanto dentro e fora da sua organização. Após investigar o incidente, você planeja compartilhar suas descobertas com outros investigadores a serem revisados e, em seguida, remover permanentemente os dados derramados de sua organização. Após a conclusão da investigação, você deseja remover todas as evidências. 
 
 > [!IMPORTANT]
 > Embora você possa remover permanentemente os dados derramados dentro de sua própria organização, nenhum dado derramado fora da sua organização não pode ser removido com esses recursos.
@@ -68,7 +68,7 @@ Para criar uma investigação na ferramenta de investigações de dados (visuali
 
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Entre no Office 365 usando uma conta que seja membro do grupo de função do investigador de dados.
+2. Entre usando uma conta que seja membro do grupo de função do investigador de dados.
     
 3. No centro de segurança e conformidade, clique em **investigações de dados**.
  

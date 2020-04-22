@@ -1,5 +1,5 @@
 ---
-title: Criptografia do Office 365 no Microsoft Dynamics 365
+title: Criptografia no Microsoft Dynamics 365
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -13,14 +13,14 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: 'Resumo: entender a criptografia no Microsoft Dynamics 365.'
-ms.openlocfilehash: 288f739182f8419cf7fbbfb6dfd7ad0a2c7838a5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7d5116d957f8d9e51309a9605bb82c4ffd76386e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597848"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637235"
 ---
-# <a name="office-365-encryption-in-microsoft-dynamics-365"></a>Criptografia do Office 365 no Microsoft Dynamics 365
+# <a name="encryption-in-microsoft-dynamics-365"></a>Criptografia no Microsoft Dynamics 365
 
 A Microsoft usa a tecnologia de criptografia para proteger os dados do cliente no Dynamics 365 enquanto estiver em repouso em um banco de dados da Microsoft e enquanto estiver em trânsito entre os dispositivos do usuário e nossos data centers. As conexões estabelecidas entre os clientes e os datacenters da Microsoft são criptografadas, e todos os pontos de extremidade públicos são protegidos usando TLS padrão da indústria. O TLS efetivamente estabelece uma conexão de navegador para servidor de segurança avançada para ajudar a garantir a confidencialidade e a integridade dos dados entre desktops e datacenters. Depois que a criptografia de dados é ativada, ela não pode ser desativada. Para obter mais informações, consulte [Field-level Data Encryption](https://msdn.microsoft.com/library/dn481562.aspx).
 

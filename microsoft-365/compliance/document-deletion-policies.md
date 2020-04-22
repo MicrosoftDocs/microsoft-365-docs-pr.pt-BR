@@ -14,17 +14,17 @@ search.appverid:
 - SPO160
 ms.assetid: 55e8d858-f278-482b-a198-2e62d6a2e6e5
 description: Sua organização pode ser necessária para reter documentos por um período de tempo por causa de conformidade, legal ou outras necessidades de negócios. No entanto, se sua organização mantém documentos mais do que o necessário, você cria um risco legal desnecessário. Com uma política de exclusão de documentos, você pode reduzir o risco de forma proativa, excluindo documentos em um site após um período específico de tempo — por exemplo, você pode excluir documentos nos sites dos usuários do OneDrive for Business cinco anos depois que os documentos foram criados.
-ms.openlocfilehash: 60bf7808daad3eaead99ef64ea24be0bcfd9be0e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 55d4616b4185ebdbbf0f132803d1b7414eaabac8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42075183"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633040"
 ---
 # <a name="overview-of-document-deletion-policies"></a>Visão geral das políticas de exclusão de documentos
 
 > [!IMPORTANT]
-> Em frente, recomendamos usar uma política de retenção ou rótulos criados no centro de conformidade da Microsoft 365, no centro de segurança da Microsoft 365 ou no &amp; centro de conformidade de segurança do Office 365, em vez de uma política de exclusão de documentos. As políticas de exclusão de documentos continuarão a funcionar lado a lado com políticas de retenção, mas se você precisar reter ou excluir conteúdo em qualquer lugar no Office 365, recomendamos que você use uma política de retenção. Para obter mais informações, consulte [usar uma política de retenção em vez desses recursos](retention-policies.md#use-a-retention-policy-instead-of-these-features).
+> Em frente, recomendamos que você use uma política de retenção ou rótulos criados no centro de conformidade da Microsoft 365, no centro de segurança da &amp; Microsoft 365 ou no centro de conformidade de segurança em vez de uma política de exclusão de documentos. As políticas de exclusão de documentos continuarão a funcionar lado a lado com políticas de retenção, mas se você precisar reter ou excluir conteúdo em qualquer lugar no Office 365, recomendamos que você use uma política de retenção. Para obter mais informações, consulte [usar uma política de retenção em vez desses recursos](retention-policies.md#use-a-retention-policy-instead-of-these-features).
   
 Sua organização pode ser necessária para reter documentos por um período de tempo por causa de conformidade, legal ou outras necessidades de negócios. No entanto, se sua organização mantém documentos mais do que o necessário, você cria um risco legal desnecessário. Com uma política de exclusão de documentos, você pode reduzir o risco de forma proativa, excluindo documentos em um site após um período específico de tempo — por exemplo, você pode excluir documentos nos sites dos usuários do OneDrive for Business cinco anos depois que os documentos foram criados.
   
@@ -44,7 +44,7 @@ Você cria e gerencia políticas de exclusão de documentos usando o centro de p
   
 ## <a name="when-to-use-document-deletion-policies"></a>Quando usar as políticas de exclusão de documentos
 
-Além das políticas de exclusão de documentos, o Office 365 fornece estas políticas de retenção para conteúdos de sites:
+Além das políticas de exclusão de documentos, a Microsoft fornece essas políticas de retenção para o conteúdo do site:
   
 - [Records management](https://go.microsoft.com/fwlink/p/?LinkID=404250)
     
@@ -114,7 +114,7 @@ Como as permissões, a navegação e muitos outros recursos de sites, as políti
   
 ## <a name="assigning-document-deletion-policies-for-the-first-time"></a>Atribuir políticas de exclusão de documentos pela primeira vez
 
-É importante entender que o período de tempo especificado para uma política de exclusão de documentos significa o tempo desde que o documento foi criado ou modificado, não o tempo desde que a política foi atribuída. Por exemplo, você pode criar uma política de exclusão de documentos que exclua permanentemente os documentos dois anos após terem sido criados e, em seguida, atribuir essa política a um modelo de conjunto de sites a partir do qual vários conjuntos de sites foram criadas há quatro ou cinco anos. Nesse caso, é provável que os conjuntos de sites existentes contenham muitos documentos que já tenham sido mais antigos do que os dois anos especificados pela política de exclusão, isso significa que muitos conteúdos serão excluídos logo após a atribuição da política de exclusão de documentos para o primeiro temporais.
+É importante entender que o período de tempo especificado para uma política de exclusão de documentos significa o tempo desde que o documento foi criado ou modificado, não o tempo desde que a política foi atribuída. Por exemplo, você pode criar uma política de exclusão de documentos que exclua permanentemente os documentos dois anos após terem sido criados e, em seguida, atribuir essa política a um modelo de conjunto de sites a partir do qual vários conjuntos de sites foram criadas há quatro ou cinco anos. Nesse caso, é provável que os conjuntos de sites existentes contenham muitos documentos que já tenham sido mais antigos do que os dois anos especificados pela política de exclusão, isso significa que muito conteúdo será excluído logo depois que a atribuição da política de exclusão de documentos for determinada pela primeira vez.
   
 Quando você atribui uma política pela primeira vez, todos os documentos no site são avaliados, e são excluídos se atenderem aos critérios. Isto se aplica a todos os documentos existentes, e não somente aos novos documentos criados desde que a política foi atribuída. E lembre-se de que o período de tempo é relativo à idade de cada documento, e não ao tempo passado desde que a política foi atribuída pela primeira vez.
   

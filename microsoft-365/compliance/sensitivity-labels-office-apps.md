@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para a área de trabalho, aplicativos do Office para dispositivos móveis e aplicativos do Office para a Web. Descubra quais aplicativos dão suporte a rótulos de confidencialidade.
-ms.openlocfilehash: 4cb08f79bd45199b443332fc80b1d595ee3f17cb
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: 87e4425658044d29c9306cdf57c13941c2d62785
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151402"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635789"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -85,7 +85,7 @@ O cliente de rotulagem de rótulo do Office faz o download de rótulos de confid
 
 - Centro de conformidade do Microsoft 365
 - Centro de segurança do Microsoft 365
-- Centro de Conformidade e Segurança do Office 365
+- Centro de Segurança e Conformidade do Office 365
 
 Para usar o cliente de rotulagem interno do Office, você deve ter uma ou mais [políticas de rótulo publicadas](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) para os usuários de um dos centros de administração listados e uma [versão com suporte do Office](#support-for-sensitivity-label-capabilities-in-apps).
 

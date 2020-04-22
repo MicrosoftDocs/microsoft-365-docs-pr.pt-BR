@@ -15,18 +15,18 @@ search.appverid:
 - MET150
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 description: Use casos de descoberta eletrônica no centro de conformidade da Microsoft 365 para gerenciar a investigação legal da sua organização. Se você tiver uma assinatura e5, poderá analisar mais dados de caso usando a análise de texto, aprendizado de máquinas e recursos de codificação de descoberta eletrônica avançada.
-ms.openlocfilehash: 0db2187259c0c828c492f56698963bf9f61c9c18
-ms.sourcegitcommit: 825037f166eea3ba70f8980cedc5492f90c1cc56
+ms.openlocfilehash: 41eaa4ca4428c21b905d63365a9b3af7da1df9aa
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43097185"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635901"
 ---
 # <a name="manage-legal-investigations-in-microsoft-365"></a>Gerenciar investigações legais no Microsoft 365
 
 As organizações têm vários motivos para responder a um caso jurídico que envolve determinados executivos ou outros funcionários em sua organização. Isso pode envolver rapidamente a localização e a retenção de informações específicas de investigação em emails, documentos, conversas de mensagens instantâneas e outros locais de conteúdo usados por pessoas em suas tarefas de trabalho diárias. Você pode executar essas e muitas outras atividades semelhantes usando as ferramentas de casos de descoberta eletrônica no centro de segurança e conformidade.
   
-**Deseja saber como a Microsoft gerencia suas investigações de eDiscovery?** Este é um [White paper técnico](https://go.microsoft.com/fwlink/?linkid=852161) que você pode baixar, que explica como usamos as mesmas ferramentas de pesquisa e investigação do Office 365 para gerenciar nosso fluxo de trabalho de descoberta eletrônica interna.
+**Deseja saber como a Microsoft gerencia suas investigações de eDiscovery?** Este é um [White paper técnico](https://go.microsoft.com/fwlink/?linkid=852161) que você pode baixar, que explica como usamos as mesmas ferramentas de pesquisa e investigação para gerenciar nosso fluxo de trabalho de eDiscovery interno.
    
 ## <a name="manage-legal-investigations-with-ediscovery-cases"></a>Gerenciar investigações legais com ocorrências de descoberta eletrônica
 

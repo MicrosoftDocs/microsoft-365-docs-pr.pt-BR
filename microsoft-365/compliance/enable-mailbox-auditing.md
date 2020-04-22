@@ -16,17 +16,17 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
-description: O registro em log de auditoria de caixa de correio é ativado por padrão no Office 365 (também chamado de auditoria de caixa de correio padrão ou de caixa de correio ativada por padrão). Isso significa que determinadas ações executadas por proprietários, representantes e administradores de caixa de correio são automaticamente registradas em um log de auditoria de caixa de correio, onde você pode pesquisar atividades realizadas na caixa de correio.
-ms.openlocfilehash: 2b69d63e63e049566c9827f08d2ead592b918684
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: O registro em log de auditoria de caixa de correio é ativado por padrão (também chamado de auditoria de caixa de correio padrão ou auditoria de caixa de correio ativada por padrão). Isso significa que determinadas ações executadas por proprietários, representantes e administradores de caixa de correio são automaticamente registradas em um log de auditoria de caixa de correio, onde você pode pesquisar atividades realizadas na caixa de correio.
+ms.openlocfilehash: 458e5c9797874f35e99c09edbc3ef45753132cba
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894916"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631726"
 ---
 # <a name="manage-mailbox-auditing"></a>Gerenciar a auditoria de caixa de correio
 
-A partir de janeiro de 2019, a Microsoft está ativando o log de auditoria de caixa de correio por padrão para todas as organizações do Office 365. Isso significa que determinadas ações executadas por proprietários, representantes e administradores de caixa de correio são automaticamente registradas, e os registros de auditoria de caixa de correio correspondentes estarão disponíveis quando você procurá-los no log de auditoria de caixa de correio. Antes de a auditoria da caixa de correio ser ativada por padrão, você precisava habilitá-la manualmente para cada caixa de correio de usuário em sua organização.
+A partir de janeiro de 2019, a Microsoft está ativando o log de auditoria de caixa de correio por padrão para todas as organizações. Isso significa que determinadas ações executadas por proprietários, representantes e administradores de caixa de correio são automaticamente registradas, e os registros de auditoria de caixa de correio correspondentes estarão disponíveis quando você procurá-los no log de auditoria de caixa de correio. Antes de a auditoria da caixa de correio ser ativada por padrão, você precisava habilitá-la manualmente para cada caixa de correio de usuário em sua organização.
 
 Estes são alguns benefícios da auditoria de caixa de correio ativada por padrão:
 
@@ -64,7 +64,7 @@ A tabela a seguir mostra os tipos de caixa de correio com suporte no momento pel
 |:---------|:---------:|:---------:|
 |Caixas de correio de usuário|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |Caixas de correio compartilhadas|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-|Caixas de correio de grupo do Office 365|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|Caixas de correio de grupo do Microsoft 365|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |Caixas de correio de recurso||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |Caixas de correio de pastas públicas||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 
@@ -131,13 +131,13 @@ A tabela a seguir descreve as ações de caixa de correio disponíveis no log de
 > [!IMPORTANT]
 > Se você personalizou as ações da caixa de correio para auditar qualquer tipo de logon *antes* de a auditoria da caixa de correio ativada por padrão na organização, as configurações personalizadas são preservadas na caixa de correio e não são sobrescritas pelas ações de caixa de correio padrão, conforme descrito nesta seção. Para reverter as ações de caixa de correio de auditoria para seus valores padrão (que você pode fazer a qualquer momento), consulte a seção [restaurar as ações de caixa de correio padrão](#restore-the-default-mailbox-actions) mais adiante neste tópico.
 
-### <a name="mailbox-actions-for-office-365-group-mailboxes"></a>Ações de caixa de correio para caixas de correio de grupo do Office 365
+### <a name="mailbox-actions-for-microsoft-365-group-mailboxes"></a>Ações de caixa de correio para caixas de correio de grupo do Microsoft 365
 
-A auditoria de caixa de correio ativada por padrão traz o log de auditoria de caixa de correio para as caixas de correio de grupo do Office 365, mas não é possível personalizar o que está sendo registrado (não é possível adicionar ou remover ações de caixa de correio registradas para qualquer tipo de logon
+A auditoria de caixa de correio ativada por padrão traz o log de auditoria de caixa de correio para as caixas de correio de grupo do Microsoft 365, mas você não pode personalizar o que está sendo registrado (não é possível adicionar ou remover ações de caixa de correio registradas para qualquer tipo de logon
 
-A tabela a seguir descreve as ações de caixa de correio registradas por padrão em caixas de correio de grupo do Office 365 para cada tipo de logon.
+A tabela a seguir descreve as ações de caixa de correio registradas por padrão em caixas de correio de grupo do Microsoft 365 para cada tipo de logon.
 
-Lembre-se de que um administrador com permissão de acesso completo para uma caixa de correio de grupo do Office 365 é considerado um representante.
+Lembre-se de que um administrador com permissão de acesso completo para uma caixa de correio de grupo do Microsoft 365 é considerado um representante.
 
 |**Ação de caixa de correio**|**Descrição**|**Admin**|**Delegar**|**Owner**|
 |:---------|:---------|:---------:|:---------:|:---------:|
@@ -159,7 +159,7 @@ Para exibir o valor em caixas de correio de usuário ou caixas de correio \<comp
 Get-Mailbox -Identity <MailboxIdentity> | Format-List DefaultAuditSet
 ```
 
-Para exibir o valor nas caixas de correio de grupo do Office \<365\> , substitua mailboxidentity pela pelo nome, alias ou endereço de email da caixa de correio compartilhada e execute o seguinte comando no PowerShell do Exchange Online:
+Para exibir o valor nas caixas de correio de grupo do Microsoft \<365\> , substitua mailboxidentity pela pelo nome, alias ou endereço de email da caixa de correio compartilhada e execute o seguinte comando no PowerShell do Exchange Online:
 
 ```PowerShell
 Get-Mailbox -Identity <MailboxIdentity> -GroupMailbox | Format-List DefaultAuditSet
@@ -167,7 +167,7 @@ Get-Mailbox -Identity <MailboxIdentity> -GroupMailbox | Format-List DefaultAudit
 
 O valor `Admin, Delegate, Owner` indica:
 
-- As ações de caixa de correio padrão para todos os três tipos de logon estão sendo auditadas. Este é o único valor que você verá nas caixas de correio de grupo do Office 365.
+- As ações de caixa de correio padrão para todos os três tipos de logon estão sendo auditadas. Este é o único valor que você verá no Microsoft 365 Group Mailboxes.
 
 - Um administrador *não* alterou as ações de caixa de correio auditadas para qualquer tipo de logon na caixa de correio de um usuário ou em uma caixa de correio compartilhada. Observação Este é o estado padrão após a auditoria da caixa de correio ativada por padrão na sua organização.
 
@@ -188,7 +188,7 @@ Para obter mais informações, consulte a seção [alterar ou restaurar ações 
 Para ver as ações de caixa de correio que estão sendo registradas no momento em caixas de correio de \<usuários\> ou caixas de correio compartilhadas, substitua mailboxidentity pela pelo nome, alias, endereço de email ou nome UPN da caixa de correio e execute um ou mais dos seguintes comandos no PowerShell do Exchange Online.
 
 > [!NOTE]
-> Embora seja possível adicionar a `-GroupMailbox` opção aos seguintes comandos **Get-Mailbox** para caixas de correio de grupo do Office 365, não acredite nos valores retornados. As ações de caixa de correio padrão e estática que são auditadas para caixas de correio de grupo do Office 365 são descritas na seção [ações de caixa de correio para caixas de correio de grupo do office 365](#mailbox-actions-for-office-365-group-mailboxes) anteriormente neste tópico.
+> Embora seja possível adicionar a `-GroupMailbox` opção para os seguintes comandos **Get-Mailbox** para caixas de correio de grupo do Microsoft 365, não acredite nos valores retornados. As ações de caixa de correio padrão e estáticas que são auditadas para caixas de correio de grupo do Microsoft 365 são descritas na seção [ações de caixa de correio para caixas de correio de grupo do microsoft 365](#mailbox-actions-for-microsoft-365-group-mailboxes) anteriormente neste tópico.
 
 #### <a name="owner-actions"></a>Ações do proprietário
 
@@ -219,7 +219,7 @@ No entanto, sua organização pode ser necessária para auditar um conjunto dife
 
 ### <a name="change-the-mailbox-actions-to-audit"></a>Alterar as ações da caixa de correio para auditoria
 
-Você pode usar os parâmetros *AuditAdmin*, *AuditDelegate*ou *AuditOwner* no cmdlet **Set-Mailbox** para alterar as ações de caixa de correio que são auditadas para caixas de correio de usuário e caixas de correio compartilhadas (ações auditadas para caixas de correio de grupo do Office 365 não podem ser personalizadas).
+Você pode usar os parâmetros *AuditAdmin*, *AuditDelegate*ou *AuditOwner* no cmdlet **Set-Mailbox** para alterar as ações de caixa de correio que são auditadas para caixas de correio de usuário e caixas de correio compartilhadas (ações auditadas para caixas de correio de grupo do Microsoft 365 não podem ser personalizadas).
 
 Você pode usar dois métodos diferentes para especificar as ações da caixa de correio:
 
@@ -261,7 +261,7 @@ Set-Mailbox -Identity <MailboxIdentity> -DefaultAuditSet <Admin | Delegate | Own
 
 Você pode especificar vários valores *Defaultauditset* separados por vírgulas
 
-**Observação**: os seguintes procedimentos não se aplicam às caixas de correio de grupo do Office 365 (eles estão limitados às ações padrão, conforme descrito [aqui](#mailbox-actions-for-office-365-group-mailboxes)).
+**Observação**: os seguintes procedimentos não se aplicam às caixas de correio de grupo do Microsoft 365 (eles estão limitados às ações padrão, conforme descrito [aqui](#mailbox-actions-for-microsoft-365-group-mailboxes)).
 
 Este exemplo restaura as ações de caixa de correio auditadas padrão para todos os tipos de logon na caixa de correio mark@contoso.onmicrosoft.com.
 
@@ -360,13 +360,13 @@ O valor **true** indica que o log de auditoria de caixa de correio é ignorado p
 
     - [Executar um relatório de acesso não proprietário da caixa de correio](https://docs.microsoft.com/Exchange/security-and-compliance/exchange-auditing-reports/non-owner-mailbox-access-report)
 
-- Por padrão, os registros de log de auditoria de caixa de correio são mantidos por 90 dias antes de serem excluídos. Você pode alterar o limite de idade para registros de log de auditoria usando o parâmetro *AuditLogAgeLimit* no cmdlet **Set-Mailbox** no PowerShell do Exchange Online. No entanto, aumentar esse valor não permite que você pesquise eventos com mais de 90 dias no log de auditoria do Office 365.
+- Por padrão, os registros de log de auditoria de caixa de correio são mantidos por 90 dias antes de serem excluídos. Você pode alterar o limite de idade para registros de log de auditoria usando o parâmetro *AuditLogAgeLimit* no cmdlet **Set-Mailbox** no PowerShell do Exchange Online. No entanto, aumentar esse valor não permite que você pesquise eventos com mais de 90 dias no log de auditoria.
 
   Se você aumentar o limite de idade, será necessário usar o cmdlet [Search-MailboxAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog) no PowerShell do Exchange Online para pesquisar o log de auditoria de caixa de correio do usuário em registros com mais de 90 dias.
 
 - Se você tiver alterado a propriedade *AuditLogAgeLimit* para uma caixa de correio antes de a auditoria da caixa de correio ativada por padrão para a organização, o limite de idade do log de auditoria existente da caixa de correio não será alterado. Em outras palavras, a auditoria de caixa de correio ativada por padrão não afeta o limite de idade atual para registros de auditoria de caixa de correio.
 
-- Para alterar o valor *AuditLogAgeLimit* em uma caixa de correio de grupo do Office 365, você `-GroupMailbox` precisa incluir a opção no comando **Set-Mailbox** .
+- Para alterar o valor *AuditLogAgeLimit* em uma caixa de correio de grupo do Microsoft 365, você `-GroupMailbox` precisa incluir a opção no comando **Set-Mailbox** .
 
 - Os registros de log de auditoria de caixa de correio são armazenados em uma subpasta ( *auditorias*nomeadas) na pasta itens recuperáveis na caixa de correio de cada usuário. Considere os seguintes aspectos em relação aos registros de auditoria de caixa de correio e à pasta itens recuperáveis:
 
@@ -387,8 +387,8 @@ O valor **true** indica que o log de auditoria de caixa de correio é ignorado p
       Get-MailboxFolderStatistics -Identity <MailboxIdentity> -FolderScope RecoverableItems | Where-Object {$_.Name -eq 'Audits'} | Format-List FolderPath,FolderSize,ItemsInFolder
       ```
 
-    - Você não pode acessar diretamente um registro de log de auditoria na pasta itens recuperáveis; em vez disso, você usa o cmdlet **Search-MailboxAuditLog** ou pesquisa o log de auditoria do Office 365 para localizar e exibir registros de auditoria de caixa de correio.
+    - Você não pode acessar diretamente um registro de log de auditoria na pasta itens recuperáveis; em vez disso, você usa o cmdlet **Search-MailboxAuditLog** ou pesquisa o log de auditoria para localizar e exibir registros de auditoria de caixa de correio.
 
 - Se uma caixa de correio for colocada em espera ou atribuída a uma política de retenção no centro de conformidade, os registros de log de auditoria ainda serão mantidos pela duração definida pela propriedade *AuditLogAgeLimit* da caixa de correio (90 dias por padrão). Para manter os registros de log de auditoria mais longos para caixas de correio em espera, você precisa aumentar o valor de *AuditLogAgeLimit* da caixa de correio.
 
-- Em um ambiente multigeográfico, não há suporte para a auditoria de caixa de correio de várias regiões. Por exemplo, se um usuário recebe permissões para acessar uma caixa de correio compartilhada em um local geográfico diferente, as ações de caixa de correio executadas por esse usuário não são registradas no log de auditoria de caixa de correio da caixa de correio compartilhada.
+- Em um ambiente de várias regiões, não há suporte para a auditoria de caixas de correio de várias regiões. Por exemplo, se um usuário receber permissões para acessar uma caixa de correio compartilhada em um local geográfico diferente, as ações de caixa de correio executadas por esse usuário não serão registradas no log de auditoria da caixa de correio da caixa de correio compartilhada.

@@ -17,16 +17,16 @@ search.appverid:
 - MET150
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 'A maneira mais fácil e mais comum para começar a usar políticas de DLP é usar um dos modelos incluídos no Office 365. '
-ms.openlocfilehash: 85aa5dad9c65cd222d012bf24ea0234ca7534838
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 819320b8170c652a6cdb32e191ebca5174eb0329
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604178"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635961"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>Criar, testar e ajustar uma política DLP
 
-A prevenção de perda de dados é um recurso de conformidade do Office 365 projetado para ajudar sua organização a impedir a exposição intencional ou acidental de informações confidenciais a partes indesejadas. O DLP tem suas raízes no Exchange Server e no Exchange Online e também se aplica ao SharePoint Online e ao OneDrive for Business.
+A DLP (prevenção contra perda de dados) é um recurso de conformidade projetado para ajudar sua organização a impedir a exposição intencional ou acidental de informações confidenciais a partes indesejadas. O DLP tem suas raízes no Exchange Server e no Exchange Online e também se aplica ao SharePoint Online e ao OneDrive for Business.
 
 A DLP usa um mecanismo de análise de conteúdo para examinar o conteúdo de mensagens e arquivos de email, procurando informações confidenciais, como números de cartões de crédito e PII (informações de identificação pessoal). As informações confidenciais normalmente não devem ser enviadas por email ou incluídas em documentos, sem realizar etapas adicionais, como criptografar a mensagem de email ou os arquivos. Usando DLP, você pode detectar informações confidenciais e tomar ações como:
 
@@ -57,7 +57,7 @@ Quando os riscos de perda de dados não são totalmente óbvios, é difícil des
 
 As políticas de DLP do Exchange Online podem ser gerenciadas por meio do centro de administração do Exchange. Mas você pode configurar políticas de DLP para todas as cargas de trabalho por meio do centro de conformidade & segurança, portanto, é o que usarei para demonstrações neste artigo. No centro de conformidade & segurança, você encontrará as políticas de DLP em**política**de **prevenção** > de perda de dados. Clique em **criar uma política** para iniciar.
 
-O Office 365 fornece uma variedade de [modelos de política de DLP](what-the-dlp-policy-templates-include.md) que você pode usar para criar políticas de DLP. Digamos que você seja um negócio australiano. Você pode filtrar os modelos de política para exibir apenas aqueles que são relevantes para a Austrália, que se enquadram nas categorias gerais de finanças, médicos e saúde e privacidade.
+A Microsoft 365 fornece uma variedade de [modelos de política de DLP](what-the-dlp-policy-templates-include.md) que você pode usar para criar políticas de DLP. Digamos que você seja um negócio australiano. Você pode filtrar os modelos de política para exibir apenas aqueles que são relevantes para a Austrália, que se enquadram nas categorias gerais de finanças, médicos e saúde e privacidade.
 
 ![Opção para escolher o país ou a região](../media/DLP-create-test-tune-choose-country.png)
 
@@ -214,4 +214,4 @@ As políticas que restringem o conteúdo apresentarão o aviso ao usuário como 
 
 ## <a name="summary"></a>Resumo
 
-As políticas de prevenção de perda de dados são úteis para organizações de todos os tipos. Testar algumas políticas de DLP é um exercício de baixo risco devido ao controle que você tem sobre as coisas como dicas de política, substituições de usuário final e relatórios de incidentes. Você pode testar silenciosamente algumas políticas de DLP para ver que tipo de violação já está ocorrendo em sua organização e, em seguida, criar políticas com baixas taxas de falsos positivos, instruir os usuários sobre o que é permitido e não permitido e, em seguida, distribuir suas políticas de DLP para o departamento.
+As políticas de prevenção de perda de dados são úteis para organizações de todos os tipos. Testar algumas políticas de DLP é um exercício de baixo risco devido ao controle que você tem sobre as coisas como dicas de política, substituições de usuário final e relatórios de incidentes. Você pode testar silenciosamente algumas políticas de DLP para ver que tipo de violação já está ocorrendo em sua organização e, em seguida, criar políticas com baixas taxas de falsos positivos, instruir os usuários sobre o que é permitido e não permitido e, em seguida, distribuir suas políticas de DLP para a organização.

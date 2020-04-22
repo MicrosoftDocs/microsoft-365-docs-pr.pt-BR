@@ -1,5 +1,5 @@
 ---
-title: Criptografia de serviço com a chave do cliente no Office 365
+title: Criptografia de serviço com a chave do cliente
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -12,29 +12,29 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Com a chave do cliente, você controla as chaves de criptografia da sua organização e, em seguida, configura o Office 365 para usá-las para criptografar seus dados em repouso nos data centers da Microsoft.
-ms.openlocfilehash: df47f0df0f30de3529982099cb59efe2a741cd34
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+description: Com a chave do cliente, você controla as chaves de criptografia da sua organização e, em seguida, configura o Microsoft 365 para usá-las para criptografar seus dados em repouso nos data centers da Microsoft.
+ms.openlocfilehash: 701dc306a81e12db7dd1062d2a840621b710abd3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43029867"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635587"
 ---
-# <a name="service-encryption-with-customer-key-in-office-365"></a>Criptografia de serviço com a chave do cliente no Office 365
+# <a name="service-encryption-with-customer-key"></a>Criptografia de serviço com a chave do cliente
 
-O Office 365 fornece a linha de base e a criptografia no nível do volume habilitadas por meio do BitLocker e do DKM (Distributed Key Manager). O Office 365 oferece uma camada adicional de criptografia no nível do aplicativo para seu conteúdo. Este conteúdo inclui dados do Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e arquivos do teams. Essa camada adicional de criptografia é chamada de criptografia de serviço.
+O Microsoft 365 fornece a linha de base e a criptografia no nível do volume habilitadas por meio do BitLocker e do DKM (Distributed Key Manager). O Microsoft 365 oferece uma camada adicional de criptografia no nível do aplicativo para seu conteúdo. Este conteúdo inclui dados do Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e arquivos do teams. Essa camada adicional de criptografia é chamada de criptografia de serviço.
 
 ## <a name="how-service-encryption-bitlocker-and-customer-key-work-together"></a>Como a criptografia de serviço, BitLocker e chave do cliente trabalham em conjunto
 
-A criptografia de serviço garante que o conteúdo em repouso seja criptografado na camada do aplicativo. **Seus dados são sempre criptografados em repouso no serviço do Office 365 com o BitLocker e o DKM**. Para obter mais informações, consulte as informações sobre segurança, privacidade e conformidade do Office 365 ", e [como o Exchange Online protege seus segredos de email](exchange-online-secures-email-secrets.md). A chave do cliente oferece proteção adicional contra a exibição de dados por sistemas não autorizados ou pessoal e complementa a criptografia de disco BitLocker nos datacenters da Microsoft. A criptografia de serviço não é destinada a impedir que os funcionários da Microsoft acessem dados do cliente. O principal objetivo é ajudar os clientes a cumprir as obrigações normativas ou de conformidade para controlar chaves raiz. Os clientes autorizam explicitamente os serviços do O365 a usar suas chaves de criptografia para fornecer serviços de nuvem de valor adicionado, como eDiscovery, Antimalware, antispam, indexação de pesquisa, etc.
+A criptografia de serviço garante que o conteúdo em repouso seja criptografado na camada do aplicativo. **Seus dados são sempre criptografados em repouso no serviço do Microsoft 365 com o BitLocker e o DKM**. Para obter mais informações, consulte as informações sobre segurança, privacidade e conformidade e como o [Exchange Online protege seus segredos de email](exchange-online-secures-email-secrets.md). A chave do cliente oferece proteção adicional contra a exibição de dados por sistemas não autorizados ou pessoal e complementa a criptografia de disco BitLocker nos datacenters da Microsoft. A criptografia de serviço não é destinada a impedir que os funcionários da Microsoft acessem dados do cliente. O principal objetivo é ajudar os clientes a cumprir as obrigações normativas ou de conformidade para controlar chaves raiz. Os clientes autorizam explicitamente os serviços do O365 a usar suas chaves de criptografia para fornecer serviços de nuvem de valor adicionado, como eDiscovery, Antimalware, antispam, indexação de pesquisa, etc.
 
-A chave do cliente é criada na criptografia de serviço e permite que você forneça e controle as chaves de criptografia. O Office 365 usa essas chaves para criptografar seus dados em repouso, conforme descrito nos [termos dos serviços online (OST)](https://www.microsoft.com/licensing/product-licensing/products.aspx). A chave do cliente ajuda você a cumprir as obrigações de conformidade, pois você controla as chaves de criptografia que o Office 365 usa para criptografar e descriptografar dados.
+A chave do cliente é criada na criptografia de serviço e permite que você forneça e controle as chaves de criptografia. A Microsoft 365 usa essas chaves para criptografar seus dados em repouso, conforme descrito nos [termos dos serviços online (OST)](https://www.microsoft.com/licensing/product-licensing/products.aspx). A chave do cliente ajuda você a cumprir as obrigações de conformidade, pois você controla as chaves de criptografia que o Microsoft 365 usa para criptografar e descriptografar dados.
   
-A chave do cliente aprimora a capacidade de sua organização atender às exigências de requisitos de conformidade que especificam a principal organização com o provedor de serviços de nuvem. Com a chave do cliente, você fornece e controla as chaves de criptografia raiz dos seus dados do Office 365 em repouso no nível do aplicativo. Como resultado, você exercerá controle sobre as chaves da sua organização. Se você decidir sair do serviço, revogar o acesso às chaves raiz da sua organização. Para todos os serviços do Office 365, revogar o acesso às chaves é a primeira etapa no caminho em relação à exclusão de dados. Ao revogar o acesso às chaves, os dados são ilegíveis ao serviço.
+A chave do cliente aprimora a capacidade de sua organização atender às exigências de requisitos de conformidade que especificam a principal organização com o provedor de serviços de nuvem. Com a chave do cliente, você fornece e controla as chaves de criptografia raiz dos seus dados do Microsoft 365 em repouso no nível do aplicativo. Como resultado, você exercerá controle sobre as chaves da sua organização. Se você decidir sair do serviço, revogar o acesso às chaves raiz da sua organização. Para todos os serviços do Microsoft 365, revogar o acesso às chaves é a primeira etapa no caminho para a exclusão de dados. Ao revogar o acesso às chaves, os dados são ilegíveis ao serviço.
 
 ## <a name="customer-key-encrypts-data-at-rest-in-office-365"></a>A chave do cliente criptografa dados em repouso no Office 365
 
-Usando as chaves fornecidas, a chave do cliente para o Office 365 criptografa:
+Usando chaves fornecidas, a chave do cliente criptografa:
 
 - Os arquivos do SharePoint Online, do OneDrive for Business e do teams.
 - Arquivos carregados no OneDrive for Business.
@@ -53,17 +53,17 @@ Uma política de criptografia de dados define a hierarquia de criptografia para 
 
 **Exchange Online e Skype for Business** Você pode criar até 50 DEPs por locatário. Você associa DEPs às suas chaves de cliente no Azure Key Vault e, em seguida, atribui DEPs às caixas de correio individuais. Ao atribuir uma DEP a uma caixa de correio:
 
-- a caixa de correio está marcada para uma movimentação de caixa de correio. Com base em prioridades no Office 365, conforme descrito aqui, [mova as solicitações no serviço do Office 365](https://docs.microsoft.com/exchange/mailbox-migration/office-365-migration-best-practices#move-requests-in-the-office-365-service).
+- a caixa de correio está marcada para uma movimentação de caixa de correio. Com base em prioridades no Microsoft 365 conforme descrito aqui, [mova as solicitações no serviço Microsoft 365](https://docs.microsoft.com/exchange/mailbox-migration/office-365-migration-best-practices#move-requests-in-the-office-365-service).
 
 - A criptografia ocorre enquanto a caixa de correio é movida. Permitir que 72 horas para a caixa de correio sejam criptografadas com a nova DEP. Se as caixas de correio não são criptografadas após esperar 72 horas a partir do momento em que você atribuiu a DEP, entre em contato com a Microsoft.
 
 Posteriormente, você pode atualizar a DEP ou atribuir uma DEP diferente à caixa de correio, conforme descrito em [Manage Customer key for Office 365](customer-key-manage.md). Cada caixa de correio deve ter licenças apropriadas para atribuir uma DEP. Para obter mais informações sobre licenciamento, consulte [antes de configurar a chave do cliente](customer-key-set-up.md#before-you-set-up-customer-key).
 
-**Arquivos do SharePoint Online, do onedrive for Business e do teams** Se você estiver usando o recurso multigeográfico, poderá criar até uma DEP por geografia para sua organização. Você pode usar diferentes chaves de cliente para cada geografia. Se você não estiver usando o recurso multigeográfico, só poderá criar uma DEP por locatário. Quando você atribui a DEP, a criptografia começa automaticamente, mas pode levar algum tempo para ser concluída. Consulte os detalhes em [set up Customer key for Office 365](customer-key-set-up.md).
+**Arquivos do SharePoint Online, do onedrive for Business e do teams** Se você estiver usando o recurso multigeográfico, poderá criar até uma DEP por geografia para sua organização. Você pode usar diferentes chaves de cliente para cada geografia. Se você não estiver usando o recurso multigeográfico, só poderá criar uma DEP por locatário. Quando você atribui a DEP, a criptografia começa automaticamente, mas pode levar algum tempo para ser concluída. Confira os detalhes na [chave configurar cliente](customer-key-set-up.md).
 
 ## <a name="leaving-the-service"></a>Sair do serviço
 
-A chave do cliente ajuda você a cumprir as obrigações de conformidade, permitindo revogar as chaves quando você sair do serviço do Office 365. Quando você revoga as chaves como parte da saída do serviço, a chave de disponibilidade é excluída, resultando na exclusão criptográfica dos dados. A exclusão criptográfica reduz o risco de remanence de dados que é importante para atender às obrigações de segurança e conformidade. Para obter informações sobre o processo de limpeza de dados e revogação de chaves, confira [revogar suas chaves e iniciar o processo de caminho de limpeza de dados](customer-key-manage.md#revoke-your-keys-and-start-the-data-purge-path-process).
+A chave do cliente ajuda você a cumprir as obrigações de conformidade, permitindo revogar as chaves quando você sair do serviço do Microsoft 365. Quando você revoga as chaves como parte da saída do serviço, a chave de disponibilidade é excluída, resultando na exclusão criptográfica dos dados. A exclusão criptográfica reduz o risco de remanence de dados que é importante para atender às obrigações de segurança e conformidade. Para obter informações sobre o processo de limpeza de dados e revogação de chaves, confira [revogar suas chaves e iniciar o processo de caminho de limpeza de dados](customer-key-manage.md#revoke-your-keys-and-start-the-data-purge-path-process).
 
 ### <a name="encryption-ciphers-used-by-customer-key"></a>Codificações de criptografia usadas pela chave do cliente
 
@@ -79,14 +79,14 @@ A chave do cliente usa uma variedade de codificações de criptografia para crip
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Configurar a chave do cliente para o Office 365](customer-key-set-up.md)
+- [Configurar a chave do cliente](customer-key-set-up.md)
 
-- [Gerenciar a chave do cliente para o Office 365](customer-key-manage.md)
+- [Gerenciar chave do cliente](customer-key-manage.md)
 
-- [Rolar ou girar uma chave do cliente ou uma chave de disponibilidade](customer-key-availability-key-roll.md)
+- [Rolar ou girar uma Chave de Cliente ou uma chave de disponibilidade](customer-key-availability-key-roll.md)
 
 - [Saiba mais sobre a chave de disponibilidade](customer-key-availability-key-understand.md)
 
-- [Lockbox de cliente no Office 365](customer-lockbox-requests.md)
+- [Sistema de Proteção de Dados do Cliente](customer-lockbox-requests.md)
 
-- [Criptografia de serviço do Office 365](office-365-service-encryption.md)
+- [Criptografia de serviço](office-365-service-encryption.md)

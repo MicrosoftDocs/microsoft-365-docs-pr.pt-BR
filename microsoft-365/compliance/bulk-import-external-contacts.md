@@ -15,12 +15,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: Saiba como os administradores podem usar o PowerShell do Exchange Online e um arquivo CSV para importar contatos externos para a lista de endereços global em massa.
-ms.openlocfilehash: c74e8932f7ed2feeca472848c88bdddbc740fe28
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4d0b1a826583a032fd27c216367e99a6b7f8b371
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078948"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636339"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>Importação em massa de contatos externos para o Exchange Online
 
@@ -71,7 +71,7 @@ A primeira etapa é criar um arquivo CSV que contenha informações sobre cada c
 
 A próxima etapa é usar o arquivo CSV que você criou na etapa 1 e o PowerShell para importar em massa os contatos externos listados no arquivo CSV para o Exchange Online. 
   
-1.  Conecte o PowerShell à sua organização do Exchange Online. Para obter instruções detalhadas, consulte [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554). Certifique-se de usar o nome de usuário e a senha da sua conta de administrador global do Office 365 quando você se conectar ao PowerShell do Exchange Online. 
+1.  Conecte o PowerShell à sua organização do Exchange Online. Para obter instruções detalhadas, consulte [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554). Certifique-se de usar o nome de usuário e a senha da conta de administrador global ao se conectar ao PowerShell do Exchange Online. 
     
 2. Depois de conectar o PowerShell ao Exchange Online, vá para a pasta da área de trabalho onde você salvou o arquivo CSV na etapa 1; por exemplo `C:\Users\Administrator\desktop`.
     
@@ -93,7 +93,7 @@ A próxima etapa é usar o arquivo CSV que você criou na etapa 1 e o PowerShell
     Os contatos importados aparecerão no catálogo de endereços compartilhado no Outlook e no Outlook na Web.
     
     > [!NOTE]
-    > Você também pode exibir os contatos no centro de administração do Microsoft 365 indo para **os contatos dos usuários** \> ****. 
+    > Você também pode exibir os contatos no centro de administração do Microsoft 365 indo para **os contatos dos usuários** \> **Contacts**. 
 
 ## <a name="step-3-add-information-to-the-properties-of-the-external-contacts"></a>Etapa 3: adicionar informações às propriedades dos contatos externos
 
@@ -123,7 +123,7 @@ Após executar o comando na etapa 2, os contatos externos são criados, mas não
     
 1. No EAC, acesse **Destinatários** \> **Contatos**.
     
-2. Clique em um contato e, **** ![em seguida,](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) clique em Editar ícone de edição para exibir as propriedades do contato. 
+2. Clique em um contato e, **Edit** ![em seguida,](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) clique em Editar ícone de edição para exibir as propriedades do contato. 
     
 Isso é tudo. Os usuários podem ver os contatos e as informações adicionais no catálogo de endereços Outlook e Outlook na Web.
   

@@ -15,12 +15,12 @@ search.appverid:
 - BCS160
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: Baixe as auditorias de terceiros, descubra como a Microsoft mantém a segurança dos dados dos clientes e saiba como você pode estar em conformidade com ISO, HIPAA, FINRA e FedRAMP ao usar o Office 365.
-ms.openlocfilehash: 823722fe49349a11e828ca56978240e662c8435c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e5d33f063d9e375c12346d245067be2b2b41de77
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081278"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631278"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>Garantia de serviço no centro de conformidade & segurança
 
@@ -38,18 +38,18 @@ Você também pode descobrir como o Office 365 pode ajudar os clientes a cumprir
     
 - Health Insurance Portability and Accountability Act de 1996 (HIPAA)
     
-- Programa de gerenciamento de riscos e autorização federal (FedRAMP)
+- FedRAMP (Programa Federal de Gerenciamento de Autorização e Risco)
     
 ## <a name="who-can-access-office-365-service-assurance-and-how"></a>Quem pode acessar o Office 365 Service Assurance e como?
 
  **Novos clientes e clientes que estão avaliando o Microsoft Online Services** podem acessar a garantia de serviço incluída nos planos do Office 365 Enterprise E3 e E5 (as assinaturas de avaliação e pagas). Se você não tem um desses planos e deseja tentar a garantia de serviço, você pode [se inscrever para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
- **Os clientes existentes do Office 365 for Business** podem acessar a garantia de serviço. Se você for o administrador global do Office 365 (às vezes chamado de administrador da empresa) para sua organização, você já terá acesso à garantia de serviço e poderá embarcar outras pessoas. Se você não for o administrador global do Office 365 para sua organização e precisar de acesso à garantia de serviço, peça ao administrador para adicioná-lo ao grupo de funções de usuário de garantia de serviço. 
+ **Os clientes existentes do Microsoft 365 for Business** podem acessar a garantia de serviço. Se você for o administrador global (às vezes chamado de administrador da empresa) para sua organização, você já terá acesso à garantia de serviço e poderá integrar outras pessoas. Se você não for o administrador global da sua organização e precisar de acesso à garantia de serviço, peça ao administrador para adicioná-lo ao grupo de funções de usuário de garantia de serviço. 
   
  **Os membros de assinatura do O365** podem acessar a seção de garantia de serviço no centro de proteção do Office365 por padrão se o acesso baseado em funções de garantia de serviço não tiver sido implementado em sua assinatura. O serviço Assurance fornece relatórios e documentos que descrevem as práticas de segurança da Microsoft para dados do cliente armazenados no Office 365. Ele também fornece relatórios de auditoria de terceiros independentes no Office 365. 
   
 > [!NOTE]
-> Observação: se sua empresa tiver implementado o acesso baseado em funções de garantia de serviço em sua assinatura do Office 365 (que pode ser que sua organização tenha recebido acesso a relatórios personalizados), e você precisar acessar a garantia de serviço, mas não estiver incluído no painel esquerdo do centro de conformidade & conformidade, peça ao administrador do Office 365 para adicioná-lo ao grupo de funções de **usuário do serviço** Para obter mais informações, consulte integração de outros usuários ou grupos do serviço Assurance. 
+> Se sua empresa tiver implementado o acesso baseado em funções de garantia de serviço em sua assinatura do Microsoft 365 (que poderia ser se sua organização tiver fornecido o acesso a relatórios personalizados), e você precisar acessar a garantia de serviço, mas não estiver incluído no painel esquerdo do centro de conformidade de & de segurança, peça ao administrador do Office 365 para adicioná-lo ao grupo de **funções de usuário** do serviço Para obter mais informações, consulte integração de outros usuários ou grupos do serviço Assurance. 
   
  **Usuários provisionados pelo acesso baseado em funções de garantia de serviço** Se sua empresa tiver implementado acesso baseado em funções de garantia de serviço, você poderá fornecer acesso de garantia de serviço a todos os funcionários de segurança e conformidade, incluindo segurança de informações, gerenciamento de riscos, conformidade e equipes de auditoria e pessoal em sua organização. Para obter detalhes, consulte [onboard outros usuários ou grupos de garantia de serviço](service-assurance.md#addother).
   
@@ -57,7 +57,7 @@ A garantia de serviço pode ser acessada usando o centro de conformidade de & de
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Entre no Office 365 usando a sua conta corporativa ou de estudante. 
+2. Entre usando sua conta corporativa ou de estudante. 
     
 3. No painel esquerdo, selecione **garantia de serviço**. Em seguida, [escolha as configurações da indústria e regionais](service-assurance.md#Chooseyourindustryregional) e [outros usuários ou grupos da garantia de serviço](service-assurance.md#addother).
     

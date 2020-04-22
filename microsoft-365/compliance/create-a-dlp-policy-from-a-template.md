@@ -17,18 +17,18 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'A maneira mais fácil e mais comum para começar a usar políticas de DLP é usar um dos modelos incluídos no Office 365. '
-ms.openlocfilehash: c8c979e5d091204f8071c51a0662808652f59355
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 956359695978953445237afaa21af028ae8b4c6c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42077746"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631330"
 ---
 # <a name="create-a-dlp-policy-from-a-template"></a>Criar uma política DLP com base em um modelo
 
 A maneira mais fácil e mais comum para começar a usar políticas de DLP é usar um dos modelos incluídos no Office 365. Você pode usar um desses modelos como está ou personalizar as regras para atender aos requisitos de conformidade específicos da sua organização.
   
-O Office 365 inclui mais de 40 modelos prontos para uso que podem ajudar você a atender a uma grande variedade de necessidades comuns de regulamentação e de política de negócios. Por exemplo, existem modelos de política de DLP para:
+O Microsoft 365 inclui mais de 40 modelos prontos para uso que podem ajudá-lo a atender a uma ampla variedade de necessidades comuns de políticas de negócios e regulamentares. Por exemplo, existem modelos de política de DLP para:
   
 - Ato Gramm-Leach-Bliley (GLBA)
     
@@ -58,7 +58,7 @@ Neste exemplo, você criará uma política de DLP que identifica os dados PII do
 
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Entre no Office 365 usando a sua conta corporativa ou de estudante. Agora você está no centro de conformidade com &amp; segurança do Office 365.
+2. Entre usando sua conta corporativa ou de estudante. Agora você está no centro de &amp; conformidade de segurança.
     
 3. Na navegação \> à &amp; esquerda centro \> de conformidade de segurança \> **política** \> de **prevenção contra perda de dados** **+ criar uma política**.
     
@@ -102,7 +102,7 @@ Neste exemplo, você criará uma política de DLP que identifica os dados PII do
     
     Para atender aos requisitos específicos da sua organização, talvez você queira tornar as regras mais fáceis de disparar, para que uma única ocorrência de informações confidenciais seja suficiente para bloquear o acesso de usuários externos. Depois de examinar essas regras, você entende que não precisa de regras de contagem baixa e alta — você precisa apenas de uma única regra que bloqueia o acesso se qualquer ocorrência de informações confidenciais for encontrada.
     
-    Portanto, você expande a regra chamada **baixo volume de conteúdo detectado pela regra de exclusão de PII** \> **** dos EUA.
+    Portanto, você expande a regra chamada **baixo volume de conteúdo detectado pela regra de exclusão de PII** \> **Delete rule**dos EUA.
     
     ![Botão excluir regra](../media/bc36f7d2-0fae-4af1-92e8-95ba51077b12.png)
   
@@ -110,7 +110,7 @@ Neste exemplo, você criará uma política de DLP que identifica os dados PII do
     
     ![Botão Editar regra](../media/eaf54067-4945-4c98-8dd6-fb2c5d6de075.png)
   
-10. Para adicionar um tipo de informação confidencial, na **** seção \> condições, **adicione ou altere tipos**. Em seguida, **em Adicionar ou alterar tipos** \> , escolha **Adicionar** \> selecionar **número de conta bancária dos EUA** e número \> de carteira **de motorista dos EUA** **Adicionar** \> **concluído**.
+10. Para adicionar um tipo de informação confidencial, na **Conditions** seção \> condições, **adicione ou altere tipos**. Em seguida, **em Adicionar ou alterar tipos** \> , escolha **Adicionar** \> selecionar **número de conta bancária dos EUA** e número \> de carteira **de motorista dos EUA** **Adicionar** \> **concluído**.
     
     ![Opção para adicionar ou alterar tipos](../media/c6c3ae86-f7db-40a8-a6e4-db11692024be.png)
   
@@ -176,7 +176,7 @@ Eis aqui os diferentes status e o que eles significam.
 
 Você pode editar ou desativar uma política de DLP a qualquer momento. Desativar uma política desabilita todas as regras da política.
   
-Para editar ou desativar uma política de DLP, na página **** \> política, selecione a política \> de **edição**de política.
+Para editar ou desativar uma política de DLP, na página **Policy** \> política, selecione a política \> de **edição**de política.
   
 ![Botão Editar política](../media/ce319e92-0519-44fe-9507-45a409eaefe4.png)
   

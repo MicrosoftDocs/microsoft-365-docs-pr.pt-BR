@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1372da29-f3ab-49d7-8c02-eb9305bb5fd8
 description: Saiba como baixar um ou mais relatórios existentes no centro de conformidade &amp; de segurança.
-ms.openlocfilehash: d5f381a5e59f7cb6348bdc96572dfa37c4919500
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 33ea3b52a99f1ec2f5f3717c51754d82204e22a3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595166"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631776"
 ---
 # <a name="download-existing-reports-in-the-security-amp-compliance-center"></a>Baixar relatórios existentes no centro de &amp; conformidade de segurança
 
@@ -29,7 +29,7 @@ No [centro de &amp; conformidade de segurança](https://protection.office.com), 
 ## <a name="download-existing-reports"></a>Baixar relatórios existentes
 
 > [!IMPORTANT]
-> Verifique se você tem as permissões necessárias [atribuídas no centro de conformidade de &amp; segurança do Office 365](../security/office-365-security/protect-against-threats.md). Em geral, os administradores globais do Office 365, administradores de segurança e leitores de segurança podem acessar relatórios &amp; no centro de conformidade de segurança. 
+> Verifique se você tem as permissões necessárias [atribuídas no centro de &amp; conformidade de segurança](../security/office-365-security/protect-against-threats.md). Em geral, administradores globais, administradores de segurança e leitores de segurança podem acessar relatórios no centro &amp; de conformidade de segurança. 
   
 1. No [centro de &amp; conformidade de segurança](https://protection.office.com), vá para relatórios de **relatórios** \> **para download**.
     
@@ -39,7 +39,7 @@ No [centro de &amp; conformidade de segurança](https://protection.office.com), 
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Relatórios e insights no centro de conformidade de &amp; segurança do Office 365](../security/office-365-security/reports-and-insights-in-security-and-compliance.md)
+[Relatórios e insights no centro de &amp; conformidade de segurança](../security/office-365-security/reports-and-insights-in-security-and-compliance.md)
   
 [Criar um cronograma para um relatório no centro de &amp; conformidade de segurança](../security/office-365-security/create-a-schedule-for-a-report.md)
   

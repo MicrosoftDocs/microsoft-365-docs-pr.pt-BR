@@ -1,5 +1,5 @@
 ---
-title: Reprovando o aplicativo visualizador de criptografia de mensagens do Office 365
+title: Substituição do aplicativo visualizador de criptografia de mensagens
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -16,14 +16,14 @@ ms.assetid: 6336cabb-b06e-402f-9e85-8bb9eb4ce68f
 ms.collection:
 - M365-security-compliance
 description: No dia 15 de agosto de 2018, iremos remover o aplicativo móvel do Visualizador de criptografia de mensagens do Office 365 (OME) do Android e dos repositórios da Apple. O aplicativo móvel Office 365 Message Encryption Viewer era necessário para ler mensagens de email e anexos que foram criptografados com a versão anterior do OME em telefones Apple e Android. Além de remover o aplicativo OME Viewer, não estamos fazendo outras alterações na versão anterior do OME.
-ms.openlocfilehash: 791a882650cfa3ffd5caaafbb835c8f272f8665e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 37a10942e49ca0e6249b2b6a0737411a0d6de1c5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595266"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636109"
 ---
-# <a name="deprecating-office-365-message-encryption-viewer-app"></a>Reprovando o aplicativo visualizador de criptografia de mensagens do Office 365
+# <a name="deprecating-message-encryption-viewer-app"></a>Substituição do aplicativo visualizador de criptografia de mensagens
 
 No dia 15 de agosto de 2018, removemos o aplicativo móvel do Visualizador de criptografia de mensagens do Office 365 (OME) do Android e dos repositórios da Apple. O aplicativo móvel Office 365 Message Encryption Viewer era necessário para ler mensagens de email e anexos que foram criptografados com a versão anterior do OME em telefones Apple e Android. Além de remover o aplicativo OME Viewer, não estamos fazendo outras alterações na versão anterior do OME.
   
@@ -39,13 +39,13 @@ Com essa alteração, os usuários não poderão mais baixar o aplicativo móvel
   
 ## <a name="why-this-change-was-made"></a>Por que essa alteração foi feita
 
-A nova versão do OME não requer mais um aplicativo móvel para ler mensagens de email e anexos protegidos. Os clientes do Office 365 que usam os novos recursos do OME podem exibir a mensagem protegida no Outlook Mobile e os clientes não-Office 365 podem exibir mensagens protegidas em um navegador.
+A nova versão do OME não requer mais um aplicativo móvel para ler mensagens de email e anexos protegidos. Os clientes que usam os novos recursos do OME podem exibir a mensagem protegida no Outlook Mobile e não clientes podem exibir mensagens protegidas em um navegador.
   
 Exigir que os usuários baixem um aplicativo móvel é outro obstáculo para os clientes exibirem mensagens protegidas. Os novos recursos de criptografia de mensagem do Office 365 oferecem uma experiência móvel melhor.
   
 ## <a name="can-i-still-use-the-previous-version-of-office-365-message-encryption"></a>Ainda posso usar a versão anterior da criptografia de mensagem do Office 365
 
-A versão anterior da criptografia de mensagem do Office 365 não será preterida no momento, no entanto, fizemos melhorias significativas na nova versão da criptografia de mensagem do Office 365, o que facilita a criptografia e os direitos de proteção de dados confidenciais para qualquer pessoa e, em qualquer dispositivo, incluindo a capacidade de os usuários do Office 365 lerem mensagens protegidas diretamente no Outlook (desktop, Mobile e Web). 
+A versão anterior da criptografia de mensagem do Office 365 não será preterida no momento, no entanto, fizemos melhorias significativas na nova versão da criptografia de mensagem do Office 365, o que facilita a criptografia e os direitos de proteção de dados confidenciais para qualquer pessoa e em qualquer dispositivo, incluindo a capacidade de os usuários lerem mensagens protegidas diretamente no Outlook (desktop, Mobile e Web). 
   
 ## <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>O que eu preciso fazer para se preparar para essa alteração
 

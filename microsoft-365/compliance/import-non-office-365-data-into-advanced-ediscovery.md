@@ -1,5 +1,5 @@
 ---
-title: Importar conteúdo não-Office 365 para análise de descoberta eletrônica avançada
+title: Importar conteúdo não-Microsoft 365 para análise de descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,23 +14,23 @@ search.appverid:
 - OEC150
 - MET150
 ms.assetid: 0ee60763-a30b-495b-8543-971c3384a801
-description: Como as etapas para importar o conteúdo que não é armazenado no O365 em um blob do Azure para que ele possa ser analisado com o AeD
-ms.openlocfilehash: 529eb21117ed2cdfbb7f02caf058dbc6863d2d9b
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: Como as etapas para importar o conteúdo que não está armazenado no Microsoft 365 em um blob do Azure para que ele possa ser analisado com o AeD
+ms.openlocfilehash: daafcf003ded35868413d99c11ec1bf3941dca9f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557891"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634153"
 ---
-# <a name="import-non-office-365-content-for-advanced-ediscovery-classic-analysis"></a>Importar conteúdo não-Office 365 para análise de descoberta eletrônica avançada (clássico)
+# <a name="import-non-microsoft-365-content-for-advanced-ediscovery-classic-analysis"></a>Importar conteúdo não-Microsoft 365 para análise de descoberta eletrônica avançada (clássico)
 
-Nem todos os documentos que você pode precisar analisar com a descoberta eletrônica avançada do Office 365 residirão no Office 365. Com o recurso de importação de conteúdo não-Office 365 na descoberta eletrônica avançada, é possível carregar documentos que não estão no Office 365 (exceto arquivos PST) em um caso vinculado, BLOB de armazenamento do Azure e analisá-los com a descoberta eletrônica avançada. Este procedimento mostra como trazer documentos não-Office 365 para a descoberta eletrônica avançada para análise.
+Nem todos os documentos que você pode precisar analisar com a descoberta eletrônica avançada residirão no Microsoft 365. Com o recurso de importação de conteúdo não-Microsoft 365 na descoberta eletrônica avançada, é possível carregar documentos que não estão no Microsoft 365 (exceto arquivos PST) em um caso vinculado, BLOB de armazenamento do Azure e analisá-los com a descoberta eletrônica avançada. Este procedimento mostra como trazer documentos que não são da Microsoft 365 para a descoberta eletrônica avançada para análise.
   
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 > [!NOTE]
-> Você pode adquirir uma assinatura de complemento de armazenamento de dados de descoberta eletrônica avançada do Office 365 para seu conteúdo que não seja do Office 365. Isso está disponível exclusivamente para conteúdo que deve ser analisado com a descoberta eletrônica avançada. Siga as etapas em [comprar ou editar e adicionar para o Office 365 for Business](https://support.office.com/article/Buy-or-edit-an-add-on-for-Office-365-for-business-4e7b57d6-b93b-457d-aecd-0ea58bff07a6) e adquirir o complemento de armazenamento de descoberta eletrônica avançada do Office 365. 
+> Você pode adquirir uma assinatura de complemento de armazenamento de dados de descoberta eletrônica avançada para seu conteúdo que não seja da Microsoft 365. Isso está disponível exclusivamente para conteúdo que deve ser analisado com a descoberta eletrônica avançada. Siga as etapas em [comprar ou editar um complemento para o Microsoft 365 for Business](https://support.office.com/article/Buy-or-edit-an-add-on-for-Office-365-for-business-4e7b57d6-b93b-457d-aecd-0ea58bff07a6) e adquirir o complemento avançado de armazenamento de descoberta eletrônica. 
   
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -51,7 +51,7 @@ O uso do recurso de upload que não é do Office 365 conforme descrito neste pro
 ## <a name="upload-non-office-365-content-into-advanced-ediscovery"></a>Carregar conteúdo que não seja do Office 365 na descoberta eletrônica avançada
 
 
-1. Como um Gerenciador de descoberta eletrônica ou administrador de descoberta eletrônica, abra o **eDiscovery**e abra o caso em que os dados não-Office 365 serão carregados. Se você precisar criar uma ocorrência, consulte [gerenciar casos de descoberta eletrônica no centro de conformidade &amp; de segurança do Office 365](ediscovery-cases.md)
+1. Como um Gerenciador de descoberta eletrônica ou administrador de descoberta eletrônica, abra o **eDiscovery**e abra o caso em que os dados não-Office 365 serão carregados. Se você precisar criar uma ocorrência, consulte [gerenciar casos de descoberta eletrônica no centro &amp; de conformidade de segurança](ediscovery-cases.md)
     
 2. Clique em **alternar para descoberta eletrônica avançada**
     
@@ -82,7 +82,7 @@ O uso do recurso de upload que não é do Office 365 conforme descrito neste pro
     > [!IMPORTANT]
     > Deve haver uma pasta raiz por usuário e o nome da pasta deve estar no formato *alias@domainname* . 
   
-8. Depois que as pastas terminarem o carregamento, volte para a descoberta eletrônica avançada. O conteúdo das pastas carregadas agora está pronto para ser processado na descoberta eletrônica avançada. Selecione o contêiner e clique no botão processo. Para obter mais detalhes sobre o processamento de descoberta eletrônica avançado, confira [executar o módulo de processo e carregar dados na descoberta eletrônica avançada do Office 365](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
+8. Depois que as pastas terminarem o carregamento, volte para a descoberta eletrônica avançada. O conteúdo das pastas carregadas agora está pronto para ser processado na descoberta eletrônica avançada. Selecione o contêiner e clique no botão processo. Para obter mais detalhes sobre o processamento de descoberta eletrônica avançado, confira [executar o módulo de processo e carregar dados na descoberta eletrônica avançada](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
     
     > [!IMPORTANT]
     > Depois que o contêiner for processado com êxito na descoberta eletrônica avançada, você não poderá mais adicionar novo conteúdo ao armazenamento SAS no Azure. Se você coletar conteúdo adicional e quiser adicioná-lo ao caso da análise de descoberta eletrônica avançada, você deve criar um novo contêiner de **dados que não seja do Office 365** e repetir este procedimento. 

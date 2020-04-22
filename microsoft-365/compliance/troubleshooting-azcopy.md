@@ -16,24 +16,24 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 3153fc92cfae6e2feba122cc895e787c9b573ef7
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f8b72112feea4af0a33ef3a0cc12005c8deea195
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080889"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637511"
 ---
 # <a name="troubleshoot-azcopy-in-advanced-ediscovery"></a>Solucionar problemas de AzCopy na descoberta eletrônica avançada
 
-Ao carregar dados não-Office 365 ou documentos para correção de erros na descoberta eletrônica avançada, a interface do usuário fornece um comando do AzCopy do Azure que contém parâmetros com o local onde os arquivos que você deseja carregar estão armazenados e o armazenamento do Azure local para o qual os arquivos serão carregados. Para carregar seus documentos, copie esse comando e execute-o em um prompt de comando no computador local.  A captura de tela a seguir mostra um exemplo de um comando do AzCopy:
+Ao carregar dados ou documentos que não são da Microsoft 365 para correção de erros na descoberta eletrônica avançada, a interface do usuário fornece um comando do AzCopy do Microsoft Azure que contém parâmetros com o local onde os arquivos que você deseja carregar estão armazenados e o local de armazenamento do Azure para o qual os arquivos serão carregados. Para carregar seus documentos, copie esse comando e execute-o em um prompt de comando no computador local.  A captura de tela a seguir mostra um exemplo de um comando do AzCopy:
 
-![Carregar arquivos que não são do Office 365](../media/46ba68f6-af11-4e70-bb91-5fc7973516e3.png)
+![Carregar arquivos que não são da Microsoft 365](../media/46ba68f6-af11-4e70-bb91-5fc7973516e3.png)
 
 Normalmente, o comando fornecido funciona quando você o executa. No entanto, pode haver casos em que o comando exibido não seja executado com êxito. Veja alguns motivos possíveis.
 
 ## <a name="the-supported-version-of-azcopy-isnt-installed-on-the-local-computer"></a>A versão suportada do AzCopy não está instalada no computador local
 
-Neste momento, você deve usar o AzCopy v 8.1 para carregar dados que não sejam do Office 365 na descoberta eletrônica avançada. O comando AzCopy exibido na página **carregar arquivos** mostrados na captura de tela anterior retornará um erro se você não estiver usando o AzCopy v 8.1. Para instalar essa versão, consulte [transferir dados com o AzCopy v 8.1 no Windows](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy).
+Neste momento, você deve usar o AzCopy v 8.1 para carregar dados que não sejam da Microsoft 365 na descoberta eletrônica avançada. O comando AzCopy exibido na página **carregar arquivos** mostrados na captura de tela anterior retornará um erro se você não estiver usando o AzCopy v 8.1. Para instalar essa versão, consulte [transferir dados com o AzCopy v 8.1 no Windows](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy).
 
 ## <a name="azcopy-isnt-installed-on-the-local-computer-or-its-not-installed-in-the-default-location"></a>O AzCopy não está instalado no computador local ou não está instalado no local padrão
 

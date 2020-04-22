@@ -1,5 +1,5 @@
 ---
-title: Pesquisar conteúdo no Office 365
+title: Procurar conteúdo
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -13,16 +13,16 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: Use a ferramenta descoberta eletrônica de pesquisa de conteúdo no centro de conformidade de & de segurança para localizar rapidamente emails em caixas de correio do Exchange, documentos em sites do SharePoint e locais do OneDrive e conversas de mensagens instantâneas no Skype for Business.
-ms.openlocfilehash: d5acdf5bba50d002876491ee0488c1f28a2c51ad
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2b874181fdfc5bce69227acc279e12bffe70c069
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601538"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632916"
 ---
-# <a name="search-for-content-in-office-365"></a>Pesquisar conteúdo no Office 365
+# <a name="search-for-content"></a>Procurar conteúdo
 
-Use a ferramenta de pesquisa de conteúdo no centro de conformidade de & de segurança para localizar rapidamente emails em caixas de correio do Exchange, documentos em sites do SharePoint e do OneDrive e conversas de mensagens instantâneas no Skype for Business. Você pode usar a ferramenta de pesquisa de conteúdo para pesquisar emails, documentos e conversas de mensagens instantâneas em ferramentas de colaboração do Office 365, como Microsoft Teams e grupos do Office 365.
+Use a ferramenta de pesquisa de conteúdo no centro de conformidade de & de segurança para localizar rapidamente emails em caixas de correio do Exchange, documentos em sites do SharePoint e do OneDrive e conversas de mensagens instantâneas no Skype for Business. Você pode usar a ferramenta de pesquisa de conteúdo para pesquisar emails, documentos e conversas de mensagens instantâneas em ferramentas de colaboração, como Microsoft Teams e Microsoft 365 groups.
   
 ## <a name="search-for-content"></a>Procurar conteúdo
 
@@ -36,11 +36,11 @@ A primeira etapa é começar a usar a ferramenta de pesquisa de conteúdo para e
     
 - [Executar uma pesquisa de lista de ID](csv-file-for-an-id-list-content-search.md) para pesquisar mensagens de email específicas 
     
-- [Pesquisar caixas de correio baseadas em nuvem](search-cloud-based-mailboxes-for-on-premises-users.md) para usuários locais no Office 365
+- [Pesquisar caixas de correio baseadas em nuvem](search-cloud-based-mailboxes-for-on-premises-users.md) para usuários locais no Microsoft 365
 
 - [Exibir estatísticas de palavras-chave](view-keyword-statistics-for-content-search.md) para os resultados de uma pesquisa e depois refinar a consulta, se necessário 
     
-- [Pesquisar dados de terceiros](use-content-search-to-search-third-party-data-that-was-imported.md) que sua organização tenha importado para o Office 365 
+- [Pesquisar dados de terceiros](use-content-search-to-search-third-party-data-that-was-imported.md) que sua organização tenha importado para o Microsoft 365 
     
 - [Editar em massa](bulk-edit-content-searches.md) os locais de consulta e conteúdo para várias pesquisas 
     

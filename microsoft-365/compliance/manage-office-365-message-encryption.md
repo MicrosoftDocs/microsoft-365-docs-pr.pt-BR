@@ -17,12 +17,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Após concluir a configuração do Office 365 Message Encryption (OME), você pode personalizar a configuração de sua implantação de várias maneiras. Por exemplo, você pode configurar se deseja habilitar códigos de passagem única, exibir o botão proteger no Outlook na Web e muito mais. As tarefas deste artigo descrevem como.
-ms.openlocfilehash: c235205535b4871deb1963a9113a82429917b75e
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: dd69266cccb1d04bc9ed3938b16bac45ca68b4a9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634339"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635881"
 ---
 # <a name="manage-office-365-message-encryption"></a>Gerenciar a Criptografia de Mensagens do Office 365
 
@@ -30,7 +30,7 @@ Após concluir a configuração do Office 365 Message Encryption (OME), você po
 
 ## <a name="manage-whether-google-yahoo-and-microsoft-account-recipients-can-use-these-accounts-to-sign-in-to-the-office-365-message-encryption-portal"></a>Gerenciar se o Google, Yahoo e destinatários de contas da Microsoft podem usar essas contas para entrar no portal de criptografia de mensagens do Office 365
 
-Ao configurar os novos recursos de criptografia de mensagens do Office 365, os usuários em sua organização podem enviar mensagens para destinatários fora da sua organização do Office 365. Se o destinatário usar uma *ID social* , como uma conta do Google, uma conta do Yahoo ou uma conta da Microsoft, o destinatário poderá entrar no portal do ome com uma ID social. Se quiser, você pode optar por não permitir que os destinatários usem IDs sociais para entrar no portal do OME.
+Ao configurar os novos recursos de criptografia de mensagens do Office 365, os usuários em sua organização podem enviar mensagens para destinatários fora da sua organização. Se o destinatário usar uma *ID social* , como uma conta do Google, uma conta do Yahoo ou uma conta da Microsoft, o destinatário poderá entrar no portal do ome com uma ID social. Se quiser, você pode optar por não permitir que os destinatários usem IDs sociais para entrar no portal do OME.
   
 ### <a name="to-manage-whether-recipients-can-use-social-ids-to-sign-in-to-the-ome-portal"></a>Para gerenciar se os destinatários podem usar IDs sociais para entrar no portal do OME
   
@@ -60,7 +60,7 @@ Se o destinatário de uma mensagem criptografada pelo OME não usar o Outlook, i
   
 ### <a name="to-manage-whether-ome-generates-one-time-pass-codes"></a>Para gerenciar se o OME gera códigos de passagem única
   
-1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
+1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Execute o cmdlet Set-OMEConfiguration com o parâmetro OTPEnabled:
 
@@ -86,7 +86,7 @@ Como administrador, você pode gerenciar se deseja exibir este botão para os us
   
 ### <a name="to-manage-whether-the-encrypt-button-appears-in-outlook-on-the-web"></a>Para gerenciar se o botão criptografar aparece no Outlook na Web
   
-1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
+1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Execute o cmdlet Set-IRMConfiguration com o parâmetro-SimplifiedClientAccessEnabled:
 
@@ -108,7 +108,7 @@ Como administrador, você pode gerenciar se deseja exibir este botão para os us
 
 ## <a name="enable-service-side-decryption-of-email-messages-for-ios-mail-app-users"></a>Habilitar a descriptografia do lado do serviço de mensagens de email para usuários do aplicativo iOS mail
 
-O aplicativo de email iOS não pode descriptografar mensagens protegidas com a criptografia de mensagem do Office 365. Como administrador do Office 365, você pode aplicar a descriptografia do lado do serviço para mensagens entregues ao aplicativo de email iOS. Quando você opta por usar a descriptografia do lado do serviço, o serviço envia uma cópia descriptografada da mensagem para o dispositivo iOS. O dispositivo cliente armazena uma cópia descriptografada da mensagem. A mensagem também mantém informações sobre direitos de uso, mesmo que o aplicativo de email iOS não aplique direitos de uso do lado do cliente ao usuário. O usuário pode copiar ou imprimir a mensagem, mesmo que não tenha originalmente os direitos para fazer isso. No entanto, se o usuário tentar concluir uma ação que requer o servidor de email do Office 365, como encaminhar a mensagem, o servidor não permitirá a ação se o usuário não tiver originalmente o uso do direito de fazer isso. No entanto, os usuários finais podem contornar a restrição de uso "não encaminhar" encaminhando a mensagem de uma conta diferente no aplicativo de email do iOS. Independentemente de você configurar a descriptografia do lado do serviço de email, os anexos a mensagens criptografadas e protegidas por direitos não podem ser exibidos no aplicativo de email do iOS.
+O aplicativo de email iOS não pode descriptografar mensagens protegidas com a criptografia de mensagem do Office 365. Como administrador do Microsoft 365, você pode aplicar a descriptografia do lado do serviço para mensagens entregues ao aplicativo de email iOS. Quando você opta por usar a descriptografia do lado do serviço, o serviço envia uma cópia descriptografada da mensagem para o dispositivo iOS. O dispositivo cliente armazena uma cópia descriptografada da mensagem. A mensagem também mantém informações sobre direitos de uso, mesmo que o aplicativo de email iOS não aplique direitos de uso do lado do cliente ao usuário. O usuário pode copiar ou imprimir a mensagem, mesmo que não tenha originalmente os direitos para fazer isso. No entanto, se o usuário tentar concluir uma ação que requer o servidor de email do Microsoft 365, como encaminhar a mensagem, o servidor não permitirá a ação se o usuário não tiver originalmente o uso do direito de fazer isso. No entanto, os usuários finais podem contornar a restrição de uso "não encaminhar" encaminhando a mensagem de uma conta diferente no aplicativo de email do iOS. Independentemente de você configurar a descriptografia do lado do serviço de email, os anexos a mensagens criptografadas e protegidas por direitos não podem ser exibidos no aplicativo de email do iOS.
   
 Se você optar por não permitir que as mensagens descriptografadas sejam enviadas aos usuários do aplicativo de email iOS, os usuários receberão uma mensagem afirmando que eles não têm direitos para exibir a mensagem. Por padrão, a descriptografia do lado do serviço de mensagens de email não está habilitada.
   
@@ -116,7 +116,7 @@ Para obter mais informações e para uma visão da experiência do cliente, cons
   
 ### <a name="to-manage-whether-ios-mail-app-users-can-view-messages-protected-by-office-365-message-encryption"></a>Para gerenciar se os usuários do aplicativo iOS podem exibir mensagens protegidas pela criptografia de mensagens do Office 365
   
-1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
+1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Execute o cmdlet Set-ActiveSyncOrganizations com o parâmetro AllowRMSSupportForUnenlightenedApps:
 
@@ -141,19 +141,19 @@ Para obter mais informações e para uma visão da experiência do cliente, cons
 
 ## <a name="enable-service-side-decryption-of-email-attachments-for-web-browser-mail-clients"></a>Habilitar a descriptografia do lado do serviço de anexos de email para clientes de email de navegador da Web
 
-Normalmente, quando você usa a criptografia de mensagem do Office 365, os anexos são criptografados automaticamente. Como administrador do Office 365, você pode aplicar a descriptografia do lado do serviço para os anexos de email que os usuários baixem de um navegador da Web.
+Normalmente, quando você usa a criptografia de mensagem do Office 365, os anexos são criptografados automaticamente. Como administrador, você pode aplicar a descriptografia do lado do serviço para anexos de email que os usuários baixem de um navegador da Web.
   
-Quando você usa a descriptografia do lado do serviço, o serviço envia uma cópia descriptografada do arquivo ao dispositivo. A mensagem ainda está criptografada. O anexo de email também mantém informações sobre direitos de uso, embora o navegador não aplique direitos de uso do lado do cliente ao usuário. O usuário pode copiar ou imprimir o anexo de email, mesmo que não tenha originalmente os direitos para fazer isso. No entanto, se o usuário tentar concluir uma ação que requer o servidor de email do Office 365, como encaminhar o anexo, o servidor não permitirá a ação se o usuário não tiver originalmente o uso do direito de fazer isso.
+Quando você usa a descriptografia do lado do serviço, o serviço envia uma cópia descriptografada do arquivo ao dispositivo. A mensagem ainda está criptografada. O anexo de email também mantém informações sobre direitos de uso, embora o navegador não aplique direitos de uso do lado do cliente ao usuário. O usuário pode copiar ou imprimir o anexo de email, mesmo que não tenha originalmente os direitos para fazer isso. No entanto, se o usuário tentar concluir uma ação que requer o servidor de email do Microsoft 365, como encaminhar o anexo, o servidor não permitirá a ação se o usuário não tiver originalmente o uso do direito de fazer isso.
   
 Independentemente de você configurar a descriptografia do lado do serviço de anexos, os usuários não podem exibir nenhum anexo a emails protegidos e criptografados no aplicativo de email do iOS.
   
 Se você optar por não permitir anexos de email descriptografados, que é o padrão, os usuários receberão uma mensagem afirmando que eles não têm direitos para exibir o anexo.
   
-Para obter mais informações sobre como o Office 365 implementa a criptografia de emails e anexos de email com a opção somente criptografia, consulte [opção somente criptografia para emails.](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
+Para obter mais informações sobre como a Microsoft 365 implementa a criptografia de emails e anexos de email com a opção somente criptografia, consulte [opção somente criptografia para emails.](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
   
 ### <a name="to-manage-whether-email-attachments-are-decrypted-on-download-from-a-web-browser"></a>Para gerenciar se os anexos de email são descriptografados no download a partir de um navegador da Web
   
-1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
+1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Execute o cmdlet Set-IRMConfiguration com o parâmetro DecryptAttachmentForEncryptOnly:
 
@@ -179,7 +179,7 @@ Você pode usar modelos de identidade visual personalizados para forçar os dest
 
 ### <a name="use-a-custom-template-to-force-all-external-recipients-to-use-the-ome-portal-and-for-encrypted-email"></a>Usar um modelo personalizado para forçar todos os destinatários externos a usar o portal do OME e emails criptografados
 
-1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
+1. Use uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização e inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Execute o cmdlet New-TransportRule:
 
@@ -217,7 +217,7 @@ Esperamos que ele não venha, mas se você precisar, desabilitar os novos recurs
   
 ### <a name="to-disable-the-new-capabilities-for-ome"></a>Para desabilitar os novos recursos do OME
   
-1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
+1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Se você habilitou o botão **criptografar** no Outlook na Web, desabilite-o executando o cmdlet Set-IRMConfiguration com o parâmetro SimplifiedClientAccessEnabled. Caso contrário, pule esta etapa.
 

@@ -1,5 +1,5 @@
 ---
-title: Definir configurações avançadas de análise na descoberta eletrônica avançada do Office 365
+title: Definir as configurações avançadas de análise na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,15 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a797682f-ad85-4c08-a354-3850ba2237ee
-description: 'Saiba como definir configurações avançadas, incluindo duplicatas, threads de email e temas, para o processo de análise na descoberta eletrônica avançada do Office 365. '
-ms.openlocfilehash: effb573165abea0d4f9939fbf7c367cbdf333f57
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Saiba como definir as configurações avançadas, incluindo as duplicatas, threads de email e temas, para o processo de análise na descoberta eletrônica avançada. '
+ms.openlocfilehash: 91faf9e39fe7b8a7fada7b05ccd88351d813b148
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557791"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631268"
 ---
-# <a name="set-analyze-advanced-settings-in-office-365-advanced-ediscovery"></a>Definir configurações avançadas de análise na descoberta eletrônica avançada do Office 365
+# <a name="set-analyze-advanced-settings-in-advanced-ediscovery"></a>Definir as configurações avançadas de análise na descoberta eletrônica avançada
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -48,7 +48,7 @@ A descoberta eletrônica avançada fornece parâmetros avançados padrão para a
     
 ## <a name="see-also"></a>Confira também
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre a similaridade de documentos](understand-document-similarity-in-advanced-ediscovery.md)
   

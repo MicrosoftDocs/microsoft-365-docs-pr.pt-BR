@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: de69d4c7e5938d8bfd3fed74b9ae44288e48019c
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 3e710f83bebd94719ef66cde7844f1301611adf4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141536"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637531"
 ---
 # <a name="microsoft-compliance-manager-preview-release-notes"></a>Notas de versão do Gerenciador de conformidade da Microsoft (prévia)
 
@@ -77,7 +77,7 @@ A seção a seguir aborda problemas conhecidos na versão atual do Gerenciador d
 - Quando novas avaliações são criadas, as pontuações incluem automaticamente pontuações de controle gerenciado pela Microsoft e integração de Pontuação segura.
 - Qualquer ação que não é suportada pela integração de Pontuação segura pode ser implementada manualmente. Uma implementação manual será fatorar a pontuação para o grupo dessa ação.
 
-### <a name="export"></a>Exportação
+### <a name="export"></a>Exportar
 
 - O modelo exportar para JSON falha quando o status do modelo é definido como **importado** ou com **aprovação pendente**.
 

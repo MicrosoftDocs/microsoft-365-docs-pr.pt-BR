@@ -1,5 +1,5 @@
 ---
-title: Cadeias de criptografia do Office 365
+title: Cadeias de criptografia
 f1.keywords:
 - NOCSH
 ms.author: kvice
@@ -17,14 +17,14 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Exibir uma lista completa de certificados raiz e CAs (autoridades de certificação) no Office 365.
-ms.openlocfilehash: fd92c8833eab3d816b3f01eccf0502f77663e4a5
-ms.sourcegitcommit: 256184cf731c1851b04a07dd7d59ecf020d02635
+ms.openlocfilehash: 4fa98f417968229a0ba5382b7b1e8b4067db2e36
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131504"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631696"
 ---
-# <a name="office-365-encryption-chains"></a>Cadeias de criptografia do Office 365
+# <a name="encryption-chains"></a>Cadeias de criptografia
 
 O Office 365 aproveita vários provedores de certificado diferentes. A seguir, a descrição da lista completa de certificados raiz conhecidos do Office 365 que os clientes podem encontrar ao acessar o Office 365. Para obter informações sobre os certificados que você pode precisar instalar em sua própria infraestrutura, consulte [Plan for de certificados SSL de terceiros para o Office 365](https://docs.microsoft.com/office365/enterprise/plan-for-third-party-ssl-certificates). As informações de certificado a seguir aplicam-se a todas as instâncias de nuvem do Office 365 em todo o mundo.
 
@@ -33,7 +33,7 @@ O Office 365 aproveita vários provedores de certificado diferentes. A seguir, a
 
 | **Tipo de certificado** | **Download de P7b** | **Pontos de extremidade da CRL** | **Pontos de extremidade OCSP** | **Pontos de extremidade AIA** |
 | --- | --- | --- | --- | --- |
-| Certificados raiz confiáveis publicamente | [Pacote de certificados raiz do Office 365 (P7B)](https://download.microsoft.com/download/A/5/A/A5AE01F3-D19B-4A11-9407-801263CEF72C/O365_Root_Certs_20170321.p7b) | crl.globalsign.net<br>www.d-trust.net | Não disponível | Não disponível |
+| Certificados raiz confiáveis publicamente | [Pacote de certificados raiz do Office 365 (P7B)](https://download.microsoft.com/download/A/5/A/A5AE01F3-D19B-4A11-9407-801263CEF72C/O365_Root_Certs_20170321.p7b) | crl.globalsign.net<br>www.d-trust.net | Não disponível | N/D |
 | Certificados intermediários confiáveis publicamente | [Pacote de certificados intermediário (P7B) do Office 365](https://download.microsoft.com/download/4/D/5/4D5339A4-0A4A-46AB-AE52-B179DEDA4BEC/O365_Intermediate_Certs_20170321.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
 
 Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais sobre os provedores de certificado.

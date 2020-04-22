@@ -1,5 +1,5 @@
 ---
-title: Entender a similaridade de documentos na descoberta eletrônica avançada do Office 365
+title: Entender a similaridade de documentos na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 4d4cb381-4c9a-4165-a455-609d525c7a88
-description: 'Revise como o valor de similaridade do documento, o nível mínimo de aparência de dois arquivos a serem considerados próximos duplicados, funciona na descoberta eletrônica avançada do Office 365. '
-ms.openlocfilehash: e15eb119a569c7cd296f9d3546969848808652da
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Revisar como o valor de similaridade do documento, o nível mínimo de aparência de dois arquivos a serem considerados quase duplicados, funciona na descoberta eletrônica avançada. '
+ms.openlocfilehash: bfce2e3018c690fc0a25bcda8e2c03690a334dc4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557661"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633406"
 ---
 # <a name="understand-document-similarity-in-advanced-ediscovery-classic"></a>Entender a similaridade de documentos na descoberta eletrônica avançada (clássica)
 
@@ -55,9 +55,9 @@ Suponha que outro documento, x1, agora seja inserido. A semelhança entre X1 e E
   
 Após a mesclagem dos conjuntos, o documento dinâmico pode ser alterado quando novos documentos são adicionados a um conjunto. 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Configuração das opções de análise](set-analyze-options-in-advanced-ediscovery.md)
   

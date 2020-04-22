@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online e no Exchange Online Protection (EOP) autônomo.
-ms.openlocfilehash: 3f71a9c9a62e409d4a54c01523270fb10a723a96
-ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
+ms.openlocfilehash: e3d49fecf456fe7f615cc2877c7522632b8db7d7
+ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43231011"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43608181"
 ---
 # <a name="configure-anti-spam-policies-in-office-365"></a>Configurar políticas antispam no Office 365
 
@@ -341,6 +341,11 @@ Quando um veredito de filtragem de spam coloca uma mensagem em quarentena, é po
    - **Habilitar as notificações de spam para usuário final**: selecione a caixa de seleção para habilitar as notificações. Desmarque a caixa de seleção para desabilitar as notificações.
 
    - **Enviar notificações de spam para usuário final a cada (dias)**: selecione a frequência de envio das notificações. O valor padrão é de 3 dias. Você pode inserir de 1 a 15 dias.
+   
+     Há três ciclos de notificação de spam para o usuário final dentro de um período de 24 horas que se iniciam nos seguintes horários: 01:00 UTC, 08:00 UTC e 16:00 UTC. 
+    
+     > [!NOTE]
+     > Se perdermos uma notificação durante um ciclo anterior, um ciclo subsequente gerará a notificação. Isso pode dar a impressão da ocorrência de várias notificações dentro do mesmo dia.
 
    - **Idioma da notificação**: clique no menu suspenso selecionar um idioma disponível na lista. O valor padrão é **Padrão**, o que significa que as notificações de quarentena para usuário final usam o idioma padrão da organização do EOP.
 

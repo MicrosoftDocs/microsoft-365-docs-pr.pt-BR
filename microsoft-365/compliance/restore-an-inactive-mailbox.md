@@ -1,5 +1,5 @@
 ---
-title: Restaurar uma caixa de correio inativa no Office 365
+title: Restaurar uma caixa de correio inativa
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
 description: Se um novo funcionário ou outro usuário precisar acessar o conteúdo de uma caixa de correio inativa no Office 365, você poderá restaurar (ou mesclar) o conteúdo da caixa de correio inativa para uma caixa de correio existente.
-ms.openlocfilehash: 1fdf86c17d557ef27373001cb63f710168269a19
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3352dfa582fb09a5f0a6c7ecbd807ed80593351f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081589"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621313"
 ---
-# <a name="restore-an-inactive-mailbox-in-office-365"></a>Restaurar uma caixa de correio inativa no Office 365
+# <a name="restore-an-inactive-mailbox"></a>Restaurar uma caixa de correio inativa
 
 Uma caixa de correio inativa (que é um tipo de caixa de correio excluída por software) é usada para manter o email de um funcionário anterior, depois que ele deixa sua organização. Se outro funcionário tomar as responsabilidades do trabalho do funcionário em parte ou se esse funcionário retornar à sua organização, haverá duas maneiras de tornar o conteúdo da caixa de correio inativa disponível para um usuário:
   
@@ -103,7 +103,7 @@ Se uma caixa de correio inativa tiver uma caixa de correio de arquivo morto, voc
   Get-Mailbox -InactiveMailboxOnly | FL Name,PrimarySMTPAddress,DistinguishedName,ExchangeGUID,LegacyExchangeDN,ArchiveStatus
   ```
 
-- **Use uma retenção de litígio ou uma política de retenção do Office 365 para reter o conteúdo de caixa de correio inativa.** Se você deseja manter o estado de uma caixa de correio inativa após a restauração, é possível colocar a caixa de correio de destino em [retenção de litígio](https://go.microsoft.com/fwlink/?linkid=856286) ou aplicar uma política de [retenção do Office 365](retention-policies.md) antes de restaurar a caixa de correio inativa. Isso impedirá a exclusão permanente de todos os itens da caixa de correio inativa depois que eles forem restaurados para a caixa de correio de destino.
+- **Use uma retenção de litígio ou uma política de retenção do Microsoft 365 para reter o conteúdo de caixa de correio inativa.** Se você deseja manter o estado de uma caixa de correio inativa após a restauração, é possível colocar a caixa de correio de destino em [retenção de litígio](https://go.microsoft.com/fwlink/?linkid=856286) ou aplicar uma política de [retenção da Microsoft 365](retention-policies.md) antes de restaurar a caixa de correio inativa. Isso impedirá a exclusão permanente de todos os itens da caixa de correio inativa depois que eles forem restaurados para a caixa de correio de destino.
 
 - **Habilite retenção na caixa de correio de destino antes de restaurar uma caixa de correio inativa.** Como os itens de caixa de correio de uma caixa de correio inativa podem ser antigos, você pode considerar habilitar a retenção na caixa de correio de destino antes de restaurar uma caixa de correio inativa. Quando você coloca uma caixa de correio em retenção, a política de retenção atribuída a ela não será processada até que a retenção tenha sido removida ou até que o período de retenção expire. Isso dá ao proprietário do tempo de caixa de correio de destino para gerenciar mensagens antigas da caixa de correio inativa. Caso contrário, a política de retenção poderá excluir itens antigos (ou mover itens para a caixa de correio de arquivo morto, se estiver habilitada) que expiraram com base nas configurações de retenção configuradas para a caixa de correio de destino. Para obter mais informações, consulte [colocar uma caixa de correio em retenção no Exchange Online](https://go.microsoft.com/fwlink/?linkid=856300).
 

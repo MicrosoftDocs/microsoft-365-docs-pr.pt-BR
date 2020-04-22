@@ -1,5 +1,5 @@
 ---
-title: Rastrear a análise de relevância na descoberta eletrônica avançada do Office 365
+title: Rastrear a análise de relevância na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 3ab1e2c3-28cf-4bf5-b0a8-c0222f32bdf5
-description: 'Saiba como exibir e interpretar os resultados e o status de treinamento de relevância para problemas de caso na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: 9c15bd285848d1906243137bfba451b19900b28e
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Saiba como exibir e interpretar o status de treinamento de relevância e os resultados para problemas de caso em descoberta eletrônica avançada.  '
+ms.openlocfilehash: 7cf75607743ce752f8b23e286afc4681a1798a1f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557671"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636614"
 ---
 # <a name="track-relevance-analysis-in-advanced-ediscovery-classic"></a>Rastrear a análise de relevância na descoberta eletrônica avançada (clássica)
 
@@ -53,7 +53,7 @@ Na descoberta eletrônica avançada, a guia controle de relevância exibe a vali
   
     Quando a avaliação não é concluída com o primeiro conjunto de exemplos de arquivos, a avaliação pode ser a próxima etapa para marcar mais arquivos. 
     
-    No **** \> **controle**de relevância, o indicador de progresso de treinamento e a dica de ferramenta indicam o número estimado de amostras adicionais necessárias para alcançar a estabilidade. Esta estimativa fornece uma diretriz para o treinamento adicional necessário.
+    No **Relevance** \> **controle**de relevância, o indicador de progresso de treinamento e a dica de ferramenta indicam o número estimado de amostras adicionais necessárias para alcançar a estabilidade. Esta estimativa fornece uma diretriz para o treinamento adicional necessário.
     
     ![Treinamento do controle de relevância](../media/98dbc3f5-5238-4d73-9f88-1aa4d77ea729.png)
   
@@ -170,9 +170,9 @@ Este modo de exibição mostra o seguinte:
     
 - **Distribuição por Pontuação de relevância**: os arquivos na exibição cinza escuro à esquerda estão abaixo da Pontuação de corte. Uma dica de ferramenta exibe a pontuação de relevância e a porcentagem relacionada de arquivos no conjunto de arquivos de revisão em relação ao total de arquivos.
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre avaliação em relevância](assessment-in-relevance-in-advanced-ediscovery.md)
   

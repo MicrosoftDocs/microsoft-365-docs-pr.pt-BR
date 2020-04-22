@@ -1,5 +1,5 @@
 ---
-title: Pesquisar o log de auditoria para a atividade de usuário e administrador no Office 365
+title: Pesquisar o log de auditoria para a atividade do usuário e do administrador
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -13,17 +13,17 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MOE150
 ms.assetid: 57ca5138-0ae0-4d34-bd40-240441ef2fb6
-description: 'O log de auditoria do Office 365 é um log de auditoria unificado. Por que usar um log de auditoria unificada? Como os eventos da maioria dos serviços do Office 365 que você é assinante são registrados em um único log de auditoria que você pode pesquisar. Isso significa que você pode pesquisar o usuário e a atividade de administrador nesses serviços:'
-ms.openlocfilehash: 82ed3c1afd4f59136b04120982ddb1433f4dd0eb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 'O log de auditoria é um log de auditoria unificado. Por que usar um log de auditoria unificada? Porque os eventos da maioria dos serviços que sua organização assina são registrados em um único log de auditoria que você pode pesquisar. Isso significa que você pode pesquisar o usuário e a atividade de administrador nesses serviços:'
+ms.openlocfilehash: 95f5025e4831223c93251c7c22d1f43d44086d48
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597528"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625091"
 ---
-# <a name="search-the-audit-log-for-user-and-admin-activity-in-office-365"></a>Pesquisar o log de auditoria para a atividade de usuário e administrador no Office 365
+# <a name="search-the-audit-log-for-user-and-admin-activity"></a>Pesquisar o log de auditoria para a atividade do usuário e do administrador
 
-O log de auditoria do Office 365 é um log de auditoria unificado. Por que usar um log de auditoria unificada? Como os eventos da maioria dos serviços do Office 365 que você é assinante são registrados em um único log de auditoria que você pode pesquisar. Isso significa que você pode pesquisar o usuário e a atividade de administrador nesses serviços: 
+O log de auditoria é um log de auditoria unificado. Por que usar um log de auditoria unificada? Como os eventos da maioria dos serviços que você está assinando são registrados em um único log de auditoria que você pode pesquisar. Isso significa que você pode pesquisar o usuário e a atividade de administrador nesses serviços: 
   
 - SharePoint
 - OneDrive
@@ -38,7 +38,7 @@ O log de auditoria do Office 365 é um log de auditoria unificado. Por que usar 
    
  ## <a name="set-up-auditing"></a>Configurar a auditoria
   
-Há algumas coisas que você precisa fazer antes de Pesquisar o log de auditoria do Office 365.
+Há algumas coisas que você precisa fazer antes de Pesquisar o log de auditoria.
   
 - [Ativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md) para iniciar a gravação de eventos que podem ser pesquisados 
     
@@ -46,7 +46,7 @@ Há algumas coisas que você precisa fazer antes de Pesquisar o log de auditoria
     
  ## <a name="search-the-audit-log"></a>Pesquisar o log de auditoria
   
-Depois de ativar a auditoria, você pesquisa centenas de tipos individuais de eventos de vários serviços do Office 365.
+Depois de ativar a auditoria, você pesquisa centenas de tipos individuais de eventos de vários serviços do Microsoft 365.
   
 - [Pesquisar o log de auditoria](search-the-audit-log-in-security-and-compliance.md) para atividades de usuário e de administrador 
     

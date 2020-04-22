@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Ao criar um rótulo de retenção que mantém o conteúdo no Microsoft 365, você pode optar por acionar uma análise de disposição no final do período de retenção.
-ms.openlocfilehash: 333e1a2f14c553cbd1d116e23795ba80175df125
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 8559c5abc2faf032b1e197cd337779b3171d0c7e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105658"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633060"
 ---
 # <a name="overview-of-disposition-reviews"></a>Visão geral das revisões de disposição
 
->*[Diretrizes de licenciamento da Microsoft 365 para segurança & conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
 Quando o conteúdo atinge o final do período de retenção, há vários motivos para que você possa querer revisar o conteúdo para decidir se ele pode ser excluído com segurança ("descartado"). Por exemplo, você pode precisar:
   
@@ -37,7 +37,7 @@ Quando o conteúdo atinge o final do período de retenção, há vários motivos
     
 - Retornar o conteúdo aos clientes ou transferi-lo para outra organização.
     
-Ao criar um rótulo de retenção no centro de conformidade da Microsoft 365, no centro de segurança da Microsoft 365 ou no centro de conformidade & segurança do Office 365, você pode optar por acionar uma análise de disposição no final do período de retenção. Em uma revisão de disposição:
+Ao criar um rótulo de retenção no centro de conformidade da Microsoft 365, no centro de segurança da Microsoft 365 ou no centro de conformidade & segurança, você pode optar por acionar uma análise de disposição no final do período de retenção. Em uma revisão de disposição:
   
 - As pessoas escolhidas recebem uma notificação por email de que o conteúdo deve ser revisado. Observe que as notificações são enviadas semanalmente.
     
@@ -53,7 +53,7 @@ Ao criar um rótulo de retenção no centro de conformidade da Microsoft 365, no
     
 - Os revisores podem exibir as desposições pendentes ou concluídas e exportar essa lista como um arquivo. csv.
 
-Uma análise de disposição pode incluir conteúdo em caixas de correio do Exchange, sites do SharePoint, contas do OneDrive e grupos do Office 365. O conteúdo que está aguardando uma revisão de disposição nesses locais é excluído somente depois que um revisor escolhe excluir permanentemente o conteúdo.
+Uma análise de disposição pode incluir conteúdo em caixas de correio do Exchange, sites do SharePoint, contas do OneDrive e Microsoft 365 grupos. O conteúdo que está aguardando uma revisão de disposição nesses locais é excluído somente depois que um revisor escolhe excluir permanentemente o conteúdo.
   
 ![Página de desposições no centro de conformidade e segurança](../media/Retention-Dispositions-v2-page.png)
 
@@ -71,7 +71,7 @@ Para obter mais informações sobre rótulos de retenção, consulte [Overview o
 ![Configurações de retenção para um rótulo](../media/a16dd202-8862-40ac-80ff-6fee974de5da.png)
  
 > [!NOTE]
-> Quando você especificar a opção **notifique essas pessoas quando houver itens prontos para revisão**, especifique um usuário. Os grupos do Office 365 não têm suporte para essa opção.
+> Quando você especificar a opção **notifique essas pessoas quando houver itens prontos para revisão**, especifique um usuário. Os grupos do Microsoft 365 não têm suporte para essa opção.
 
 ## <a name="disposing-content"></a>Descartando conteúdo
 
@@ -95,7 +95,7 @@ Um revisor também pode usar o link para exibir o documento em seu local origina
   
 Observe que as notificações por email são enviadas automaticamente aos revisores de forma semanal. Portanto, quando o conteúdo atinge o final do período de retenção, pode levar até sete dias para que os revisores recebam a notificação por email de que o conteúdo está aguardando disposição.
   
-Observe também que todas as ações de disposição são auditadas. Para garantir isso, você deve ativar a auditoria pelo menos um dia antes da primeira ação de disposição: para saber mais, confira [Pesquisar o log de auditoria no centro de conformidade &amp; de segurança do Office 365](search-the-audit-log-in-security-and-compliance.md). 
+Observe também que todas as ações de disposição são auditadas. Para garantir isso, você deve ativar a auditoria pelo menos um dia antes da primeira ação de disposição: para saber mais, confira [Pesquisar o log de auditoria no centro &amp; de conformidade de segurança](search-the-audit-log-in-security-and-compliance.md). 
   
 ## <a name="permissions-for-disposition"></a>Permissões para descarte
 
@@ -105,7 +105,7 @@ Específico para a função de **logs de auditoria somente para exibição** :
 
 - Como o cmdlet subjacente usado para pesquisar o log de auditoria é um cmdlet do Exchange Online, você deve atribuir essa função aos usuários usando o [centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center), em vez de usar a página de **permissões** no centro de conformidade de segurança &. Para obter instruções, consulte [Manage role groups in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups).
 
-- Os grupos do Office 365 não têm suporte para essa função. Em vez disso, atribua caixas de correio do usuário ou usuários de email.
+- Os grupos do Microsoft 365 não têm suporte para essa função. Em vez disso, atribua caixas de correio do usuário ou usuários de email.
   
 ## <a name="how-long-until-disposed-content-is-permanently-deleted"></a>Quanto tempo até o conteúdo Descartado é excluído permanentemente
 

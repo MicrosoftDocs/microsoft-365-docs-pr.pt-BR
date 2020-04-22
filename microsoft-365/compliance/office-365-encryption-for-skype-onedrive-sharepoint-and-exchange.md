@@ -1,5 +1,5 @@
 ---
-title: Criptografia do Office 365 para Skype, OneDrive, SharePoint e Exchange
+title: Criptografia para Skype, OneDrive, SharePoint e Exchange
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -17,16 +17,16 @@ ms.collection:
 - Strat_O365_Enterprise
 - SPO_Content
 description: 'Resumo: uma descrição da criptografia para o Skype, o OneDrive, o SharePoint e o Exchange Online.'
-ms.openlocfilehash: 4a8dbc2fbe204b09b30eee4ed7ce2136d0ec69f9
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 13c46df74861120b6f5c2fbe7132f912ef29dde3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604158"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637281"
 ---
-# <a name="office-365-encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>Criptografia do Office 365 para o Skype for Business, OneDrive for Business, SharePoint Online e Exchange Online
+# <a name="encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>Criptografia para Skype for Business, OneDrive for Business, SharePoint Online e Exchange Online
 
-O Office 365 é um ambiente altamente seguro, que fornece proteção ampla em várias camadas: segurança física de data center, segurança de rede, segurança de acesso, segurança de aplicativo e segurança de dados.
+O Microsoft 365 é um ambiente altamente seguro que oferece proteção abrangente em várias camadas: segurança física do Data Center, segurança da rede, segurança do acesso, segurança do aplicativo e segurança dos dados.
 
 ## <a name="skype-for-business"></a>Skype for Business
 
@@ -36,7 +36,7 @@ Os dados do cliente do Skype for Business podem ser armazenados em repouso no fo
 
 Todos os arquivos do cliente no SharePoint Online são protegidos por chaves exclusivas por arquivo que são sempre exclusivas para um único locatário. As chaves são criadas e gerenciadas pelo serviço do SharePoint Online, ou quando a chave do cliente é usada, criada e gerenciada por clientes. Quando um arquivo é carregado, a criptografia é executada pelo SharePoint Online dentro do contexto da solicitação de upload, antes de ser enviada para o armazenamento do Azure. Quando um arquivo é baixado, o SharePoint Online recupera os dados do cliente criptografados do armazenamento do Azure com base no identificador de documento exclusivo e descriptografa os dados do cliente antes de enviá-los ao usuário. O armazenamento do Azure não tem capacidade de descriptografar ou mesmo identificar ou compreender os dados do cliente. A criptografia e a descriptografia acontecem nos mesmos sistemas que impõem o isolamento do locatário, que são o Active Directory do Azure e o SharePoint Online.
 
-Várias cargas de trabalho no Office 365 armazenar dados no SharePoint Online, incluindo o Microsoft Teams, que armazena todos os arquivos no SharePoint Online e o OneDrive for Business, que usa o SharePoint Online para seu armazenamento. Todos os dados do cliente armazenados no SharePoint Online são criptografados (com uma ou mais chaves AES de 256 bits) e distribuídos no datacenter da seguinte maneira. (Cada etapa deste processo de criptografia é o FIPS 140-2 nível 2 validado. Para obter informações adicionais sobre conformidade com o FIPS 140-2, confira [conformidade com fips 140-2](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/bb326611(v=sql.105)).
+Várias cargas de trabalho no Microsoft 365 Store Data in SharePoint Online, incluindo o Microsoft Teams, que armazena todos os arquivos no SharePoint Online e o OneDrive for Business, que usa o SharePoint Online para seu armazenamento. Todos os dados do cliente armazenados no SharePoint Online são criptografados (com uma ou mais chaves AES de 256 bits) e distribuídos no datacenter da seguinte maneira. (Cada etapa deste processo de criptografia é o FIPS 140-2 nível 2 validado. Para obter informações adicionais sobre conformidade com o FIPS 140-2, confira [conformidade com fips 140-2](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/bb326611(v=sql.105)).
 
 - Cada arquivo é dividido em uma ou mais partes, dependendo do tamanho do arquivo. Cada parte é criptografada usando sua própria chave exclusiva de 256 bits do AES.
 - Quando um arquivo é atualizado, a atualização é manipulada da mesma forma que a alteração é dividida em uma ou mais partes, e cada parte é criptografada com uma chave exclusiva separada.
@@ -83,6 +83,6 @@ No OneDrive for Business e no SharePoint Online, há dois cenários em que os da
 
 O Exchange Online usa o BitLocker para todos os dados de caixa de correio, e a configuração do BitLocker é descrita no [BitLocker para criptografia](office-365-bitlocker-and-distributed-key-manager-for-encryption.md). A criptografia de nível de serviço criptografa todos os dados de caixa de correio no nível da caixa de correio. 
 
-Além da criptografia de serviço, o Office 365 oferece suporte à chave do cliente, que é criada na parte superior da criptografia de serviço. A chave do cliente é uma opção de chave gerenciada pela Microsoft para a criptografia de serviço do Exchange Online que também está no mapa da Microsoft. Esse método de criptografia fornece maior proteção não é proporcionada pelo BitLocker, pois fornece separação de administradores de servidor e chaves criptográficas necessárias para a descriptografia de dados, e como a criptografia é aplicada diretamente aos dados (em contraste com o BitLocker, que aplica criptografia no volume do disco lógico, todos os dados do cliente copiados de um servidor do Exchange permanecem criptografados.
+Além do serviço de criptografia, a Microsoft 365 oferece suporte à chave do cliente, que é criada na parte superior da criptografia de serviço. A chave do cliente é uma opção de chave gerenciada pela Microsoft para a criptografia de serviço do Exchange Online que também está no mapa da Microsoft. Esse método de criptografia oferece maior proteção não contratada pelo BitLocker, pois fornece separação de administradores de servidor e chaves criptográficas necessárias para a descriptografia de dados, e como a criptografia é aplicada diretamente aos dados (em comparação com o BitLocker, que aplica criptografia no volume do disco lógico), os dados do cliente copiados de um servidor do Exchange permanecem criptografados.
 
 O escopo para a criptografia de serviço do Exchange Online é dados do cliente armazenados em repouso no Exchange Online. (O Skype for Business armazena quase todo o conteúdo gerado pelo usuário dentro da caixa de correio do Exchange Online do usuário e, portanto, herda o recurso de criptografia de serviço do Exchange Online.)

@@ -1,5 +1,5 @@
 ---
-title: Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização do Office 365
+title: Configurar uma política de arquivo morto e exclusão para caixas de correio em sua organização
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -18,17 +18,17 @@ search.appverid:
 - MBS150
 - BCS160
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
-description: Criar uma política de arquivamento e exclusão no Office 365 que move automaticamente itens para a caixa de correio de arquivo morto de um usuário.
-ms.openlocfilehash: 53da9c027895421edaa99ebc18d17eafc0dbc679
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Criar uma política de arquivamento e exclusão que move automaticamente os itens para a caixa de correio de arquivo morto de um usuário.
+ms.openlocfilehash: d5c55227d601476b7c06d530a13a5768a4a108c4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081174"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635555"
 ---
-# <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-office-365-organization"></a>Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização do Office 365
+# <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>Configurar uma política de arquivo morto e exclusão para caixas de correio em sua organização
 
- No Office 365, os administradores podem criar uma política de arquivamento e exclusão que move automaticamente os itens para a caixa de correio de arquivo morto de um usuário e exclui automaticamente os itens da caixa de correio. O administrador faz isso criando uma política de retenção que é atribuída às caixas de correio e move itens para a caixa de correio de arquivo morto de um usuário depois de um determinado período de tempo e que também exclui itens da caixa de correio depois que eles atingem um determinado limite de idade. As regras reais que determinam quais itens são movidos ou excluídos e quando isso acontece é chamado de marcas de retenção. As marcas de retenção são vinculadas a uma política de retenção, que, por sua vez, é atribuída à caixa de correio de um usuário. Uma marca de retenção aplica configurações de retenção a mensagens e pastas individuais na caixa de correio de um usuário. Define por quanto tempo uma mensagem permanece na caixa de correio e qual ação é executada quando a mensagem atinge a idade de retenção especificada. Quando uma mensagem atinge sua idade de retenção, ela é movida para a caixa de correio de arquivo morto do usuário ou ela é excluída. 
+ No Microsoft 365, os administradores podem criar uma política de arquivamento e exclusão que move automaticamente os itens para a caixa de correio de arquivo morto de um usuário e exclui automaticamente os itens da caixa de correio. O administrador faz isso criando uma política de retenção que é atribuída às caixas de correio e move itens para a caixa de correio de arquivo morto de um usuário depois de um determinado período de tempo e que também exclui itens da caixa de correio depois que eles atingem um determinado limite de idade. As regras reais que determinam quais itens são movidos ou excluídos e quando isso acontece é chamado de marcas de retenção. As marcas de retenção são vinculadas a uma política de retenção, que, por sua vez, é atribuída à caixa de correio de um usuário. Uma marca de retenção aplica configurações de retenção a mensagens e pastas individuais na caixa de correio de um usuário. Define por quanto tempo uma mensagem permanece na caixa de correio e qual ação é executada quando a mensagem atinge a idade de retenção especificada. Quando uma mensagem atinge sua idade de retenção, ela é movida para a caixa de correio de arquivo morto do usuário ou ela é excluída. 
   
 As etapas deste artigo definirão uma política de arquivamento e de retenção para uma organização fictícia chamada Alpine House. A configuração dessa política inclui as seguintes tarefas:
   
@@ -48,9 +48,9 @@ Você pode seguir algumas ou todas as etapas deste artigo para configurar uma po
   
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Você deve ser um administrador global em sua organização do Office 365 para executar as etapas neste tópico. 
+- Você deve ser um administrador global em sua organização para executar as etapas neste tópico. 
     
--  Quando você cria uma nova conta de usuário no Office 365 e atribui ao usuário uma licença do Exchange Online, uma caixa de correio é automaticamente criada para o usuário. Quando a caixa de correio é criada, ela recebe automaticamente uma política de retenção padrão, denominada política de MRM padrão. Neste artigo, você criará uma nova política de retenção e a atribuirá às caixas de correio do usuário, substituindo a política padrão do MRM. Uma caixa de correio pode ter apenas uma política de retenção atribuída a ela a qualquer momento.
+-  Quando você cria uma nova conta de usuário e atribui ao usuário uma licença do Exchange Online, uma caixa de correio é automaticamente criada para o usuário. Quando a caixa de correio é criada, ela recebe automaticamente uma política de retenção padrão, denominada política de MRM padrão. Neste artigo, você criará uma nova política de retenção e a atribuirá às caixas de correio do usuário, substituindo a política padrão do MRM. Uma caixa de correio pode ter apenas uma política de retenção atribuída a ela a qualquer momento.
     
 - Para saber mais sobre marcas de retenção e políticas de retenção no Exchange Online, confira [marcas de retenção e políticas de retenção](https://go.microsoft.com/fwlink/p/?LinkId=404424).
     
@@ -63,7 +63,7 @@ A primeira etapa é habilitar a caixa de correio de arquivo morto para cada usu�
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Sign in to Office 365 using your global administrator account.
+2. Entre usando sua conta de administrador global.
     
     
 3. No centro de conformidade & segurança, vá para o **arquivo**de **governança** \> de informações.
@@ -81,7 +81,7 @@ A primeira etapa é habilitar a caixa de correio de arquivo morto para cada usu�
     
 6. Clique em **Sim** para fechar a mensagem de aviso e iniciar o processo para habilitar a caixa de correio de arquivo morto para cada caixa de correio selecionada. 
     
-7. Quando o processo estiver concluído, clique **** ![em atualizar](../media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) atualização para atualizar a lista na página **arquivo morto** . 
+7. Quando o processo estiver concluído, clique **Refresh** ![em atualizar](../media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) atualização para atualizar a lista na página **arquivo morto** . 
     
     A caixa de correio de arquivo morto está habilitada para todos os usuários em sua organização.
     
@@ -189,7 +189,7 @@ Após criar as marcas de retenção personalizadas, a próxima etapa é criar um
     
 3. Na caixa **nome** , digite um nome para a nova política de retenção; por exemplo, **política de arquivo morto e exclusão da Alpine Ski**. 
     
-4. Em **marcas de retenção**, **** ![clique em Adicionar](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)novo ícone.
+4. Em **marcas de retenção**, **Add** ![clique em Adicionar](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)novo ícone.
     
     É exibida uma lista das marcas de retenção em sua organização. Observação as marcas personalizadas que você criou na etapa 2 são exibidas.
     
@@ -248,7 +248,7 @@ Aqui estão as etapas para se conectar ao PowerShell do Exchange Online e, em se
     $UserCredential = Get-Credential
     ```
 
-    Na caixa de diálogo **solicitação de credencial do Windows PowerShell** , digite o nome de usuário e a senha da sua conta de administrador global do Office 365 e clique em **OK**.
+    Na caixa de diálogo **solicitação de credencial do Windows PowerShell** , digite o nome de usuário e a senha da sua conta de administrador global e clique em **OK**.
     
 2. Execute o seguinte comando.
     

@@ -18,12 +18,12 @@ ms.collection:
 - SPO_Content
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
 description: O RGPD fornece aos seus dados pessoais direitos específicos da UE (chamados de dados). esses direitos incluem a obtenção de cópias dele, a solicitação de alterações, a restrição do processamento dele, a exclusão ou o recebimento de um formato eletrônico. Uma solicitação formal por um assunto de dados para realizar uma ação em seus dados pessoais é chamada de solicitação de entidade de dados ou DSR. Você pode usar casos de DSR no centro de conformidade no Office 365 e no Microsoft 365 para gerenciar as investigações de DSR da sua organização.
-ms.openlocfilehash: 35ea4230680f567a702f8f2368f80986c473039f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 7fc786f1e330b03884ef279e210c8f8ef22e9793
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072046"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635921"
 ---
 # <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-security--compliance-center"></a>Gerenciar solicitações de entidades de dados do RGPD com a ferramenta de casos DSR no centro de conformidade & segurança
 
@@ -33,11 +33,11 @@ Para gerenciar investigações em resposta a um DSR enviado por uma pessoa em su
   
 - Qualquer caixa de correio de usuário em sua organização. Isso inclui conversas do Skype for Business e chats um-para-um no Microsoft Teams
     
-- Todas as caixas de correio associadas a um grupo do Office 365 e a todas as caixas de correio de equipe no Microsoft Teams
+- Todas as caixas de correio associadas a um grupo do Microsoft 365 e a todas as caixas de correio de equipe no Microsoft Teams
     
 - Todos os sites do SharePoint Online e contas do OneDrive for Business em sua organização
     
-- Todos os sites de equipe e sites de grupo do Office 365 em sua organização
+- Todos os sites de equipe e sites de grupo do Microsoft 365 em sua organização
     
 - Todas as pastas públicas no Exchange Online
     
@@ -76,18 +76,18 @@ Este é o processo de alto nível para usar a ferramenta de caso DSR para gerenc
   
 ## <a name="step-1-assign-ediscovery-permissions-to-potential-case-members"></a>Etapa 1: atribuir permissões de Descoberta Eletrônica para possíveis membros da ocorrência
 
-Por padrão, um administrador global do Office 365 pode acessar a ferramenta de caso DSR no centro de conformidade & segurança. Por design, outros usuários, como um diretor de privacidade de dados, um gerente de recursos humanos ou outras pessoas envolvidas nas investigações DSR não têm acesso à ferramenta de caso DSR e precisam receber as permissões apropriadas para acessar a ferramenta. A maneira mais fácil de fazer isso é ir para a página **permissões** no centro de conformidade & segurança e adicionar usuários ao grupo de funções Gerenciador de descoberta eletrônica. Você também precisa atribuir essas permissões para que possa adicioná-las como membros da ocorrência de DSR criada na etapa 2. 
+Por padrão, um administrador global pode acessar a ferramenta de caso DSR no centro de conformidade do & de segurança. Por design, outros usuários, como um diretor de privacidade de dados, um gerente de recursos humanos ou outras pessoas envolvidas nas investigações DSR não têm acesso à ferramenta de caso DSR e precisam receber as permissões apropriadas para acessar a ferramenta. A maneira mais fácil de fazer isso é ir para a página **permissões** no centro de conformidade & segurança e adicionar usuários ao grupo de funções Gerenciador de descoberta eletrônica. Você também precisa atribuir essas permissões para que possa adicioná-las como membros da ocorrência de DSR criada na etapa 2. 
   
 Para obter instruções detalhadas, consulte [atribuir permissões de descoberta eletrônica no centro de conformidade & segurança do Office 365](assign-ediscovery-permissions.md).
   
 > [!NOTE]
-> Por padrão, um administrador global do Office 365 (ou outros membros do grupo de função gerenciamento da organização no centro de conformidade & segurança não têm as permissões necessárias para exportar resultados de pesquisa de conteúdo (consulte a etapa 4 neste artigo). Para resolver isso, um administrador pode adicionar a si mesmo como um membro do grupo de função Gerenciador de descoberta eletrônica. 
+> Por padrão, um administrador global (ou outros membros do grupo de função gerenciamento da organização no centro de conformidade & segurança não tem as permissões necessárias para exportar resultados de pesquisa de conteúdo (consulte a etapa 4 neste artigo). Para resolver isso, um administrador pode adicionar a si mesmo como um membro do grupo de função Gerenciador de descoberta eletrônica. 
   
 ## <a name="step-2-create-a-dsr-case-and-add-members"></a>Etapa 2: criar uma ocorrência de DSR e adicionar membros
 
 A próxima etapa é criar um caso DSR. Ao criar um caso, você pode optar por iniciar a pesquisa interna ou pode criar a ocorrência sem iniciar a pesquisa. O procedimento a seguir instrui você a criar o caso sem iniciar a pesquisa e, em seguida, mostrar como adicionar membros ao caso.
   
-1. Acesse [https://protection.office.com](https://protection.office.com) e entre no Office 365 usando sua conta corporativa ou de estudante. 
+1. Acesse [https://protection.office.com](https://protection.office.com) e entre usando sua conta corporativa ou de estudante. 
     
 2. No centro de conformidade & segurança, clique em **solicitações de assunto de dados**de privacidade ![](../media/ITPro-EAC-AddIcon.gif) \> de **dados** e clique em Adicionar ícone **novo caso de DSR**.
     
@@ -170,7 +170,7 @@ Depois de executar a pesquisa interna, você pode exportar os resultados da pesq
 Quando você exporta os resultados da pesquisa, os itens da caixa de correio podem ser baixados em arquivos PST ou como mensagens individuais. Quando você exporta conteúdo de contas do SharePoint e do OneDrive, cópias de documentos nativos do Office e outros documentos são exportadas. Um arquivo de resultados que contém informações sobre cada item exportado é incluído nos resultados da pesquisa. Para obter informações mais detalhadas sobre como exportar, consulte [Exportar resultados de pesquisa de conteúdo](export-search-results.md).
   
 > [!NOTE]
-> Por padrão, um administrador global do Office 365 (ou outros membros do grupo de função gerenciamento da organização no centro de conformidade & segurança) não tem as permissões necessárias para exportar os resultados da pesquisa de conteúdo. Para resolver isso, um administrador pode adicionar a si mesmo como um membro do grupo de função Gerenciador de descoberta eletrônica. 
+> Por padrão, um administrador global (ou outros membros do grupo de função gerenciamento da organização no centro de conformidade & segurança) não tem as permissões necessárias para exportar os resultados da pesquisa de conteúdo. Para resolver isso, um administrador pode adicionar a si mesmo como um membro do grupo de função Gerenciador de descoberta eletrônica. 
   
 O computador que você usa para exportar dados precisa atender aos seguintes requisitos de sistema:
   
@@ -203,7 +203,7 @@ O computador que você usa para exportar dados precisa atender aos seguintes req
   
     a. Em **Opções de saída**, selecione a primeira opção (**todos os itens, excluindo aqueles que têm um formato não reconhecido, estão criptografados ou não foram indexados por outros motivos**) para exportar somente itens indexados. O motivo pelo qual você não deseja exportar itens parcialmente indexados da pesquisa interna é porque itens parcialmente indexados de outros usuários também serão exportados. Para exportar apenas os itens parcialmente indexados para o assunto dos dados, recomendamos que você crie uma pesquisa separada. Para obter mais informações, consulte [Exportando itens parcialmente indexados](#exporting-partially-indexed-items) na seção "mais informações sobre como usar a ferramenta de caso DSR".
     
-    b. Em **exportar conteúdo do Exchange como**, selecione a terceira opção, **um arquivo PST contendo todas as mensagens em uma única pasta**. Como alguns dos resultados podem ser para itens originados na caixa de correio de outro usuário, essa opção apenas lista o item em uma única pasta sem indicar a caixa de correio real e é a melhor opção para usar quando você elimina a duplicação dos resultados, conforme recomendado no próximo item . Essa opção também permite que o assunto dos dados revise itens em ordem cronológica (os itens são classificados por data de envio) sem precisar navegar na estrutura de pastas da caixa de correio original de cada item.
+    b. Em **exportar conteúdo do Exchange como**, selecione a terceira opção, **um arquivo PST contendo todas as mensagens em uma única pasta**. Como alguns dos resultados podem ser para itens originados na caixa de correio de outro usuário, essa opção apenas lista o item em uma única pasta sem indicar a caixa de correio real e é a melhor opção para usar quando você elimina a duplicação dos resultados, conforme recomendado no próximo item. Essa opção também permite que o assunto dos dados revise itens em ordem cronológica (os itens são classificados por data de envio) sem precisar navegar na estrutura de pastas da caixa de correio original de cada item.
     
     c. Selecione **habilitar opção de eliminação de duplicação** para excluir mensagens de email duplicadas. Recomendamos esta opção porque a pesquisa interna pesquisa todas as caixas de correio em sua organização. Portanto, se várias cópias da mesma mensagem forem encontradas nas caixas de correio que foram pesquisadas, essa opção significará que apenas uma cópia de uma mensagem será exportada. Essa opção, juntas, a exportação de mensagens em um arquivo PST em uma única pasta, resulta na melhor experiência do usuário para solicitações de exportação de DSR. O relatório de exportação Results. csv lista todos os locais onde as mensagens duplicadas foram encontradas.
     
@@ -221,7 +221,7 @@ O computador que você usa para exportar dados precisa atender aos seguintes req
     
 9. Clique ![em exportar resultados de](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) pesquisa ícone **baixar resultados** na parte superior da página de submenu exportar. 
     
-10. Na janela pop-up na parte inferior da página, clique em **abrir** para abrir a **ferramenta de exportação de descoberta eletrônica do Microsoft Office 365**. A **ferramenta de exportação de descoberta eletrônica** será instalada na primeira vez que você baixar os resultados da pesquisa. 
+10. Na janela pop-up na parte inferior da página, clique em **abrir** para abrir a **ferramenta de exportação de descoberta eletrônica**. A **ferramenta de exportação de descoberta eletrônica** será instalada na primeira vez que você baixar os resultados da pesquisa. 
     
 11. Na **ferramenta de exportação de descoberta eletrônica**, Cole a chave de exportação que você copiou na etapa 8 na caixa apropriada.
     
@@ -285,7 +285,7 @@ As seções a seguir contêm mais informações sobre como usar a ferramenta de 
 
 [Exportando itens parcialmente indexados](#exporting-partially-indexed-items)
 
-[Pesquisando e exportando dados de grupos do Microsoft Teams e do Office 365](#searching-and-exporting-data-from-microsoft-teams-and-office-365-groups)
+[Pesquisando e exportando dados do Microsoft Teams e dos grupos do Microsoft 365](#searching-and-exporting-data-from-microsoft-teams-and-microsoft-365-groups)
 
 [Pesquisando pastas públicas do Exchange](#searching-exchange-public-folders)
   
@@ -352,7 +352,7 @@ Quando você exporta dados do serviço de roaming do Office, os dados são salvo
     
 8. Clique ![em exportar resultados de](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) pesquisa ícone **baixar resultados** na parte superior da página de submenu exportar. 
     
-9. Na janela pop-up na parte inferior da página, clique em **abrir** para abrir a **ferramenta de exportação de descoberta eletrônica do Microsoft Office 365**. A **ferramenta de exportação de descoberta eletrônica** será instalada na primeira vez que você baixar os resultados da pesquisa. 
+9. Na janela pop-up na parte inferior da página, clique em **abrir** para abrir a **ferramenta de exportação de descoberta eletrônica**. A **ferramenta de exportação de descoberta eletrônica** será instalada na primeira vez que você baixar os resultados da pesquisa. 
     
 10. Na **Ferramenta de Exportação de Descoberta Eletrônica**, cole na caixa apropriada a chave de exportação que você copiou na etapa 7.
     
@@ -395,15 +395,15 @@ Para obter mais informações sobre itens parcialmente indexados, consulte:
 
 - [Exportando itens parcialmente indexados](export-search-results.md#exporting-partially-indexed-items)
     
-### <a name="searching-and-exporting-data-from-microsoft-teams-and-office-365-groups"></a>Pesquisando e exportando dados de grupos do Microsoft Teams e do Office 365
+### <a name="searching-and-exporting-data-from-microsoft-teams-and-microsoft-365-groups"></a>Pesquisando e exportando dados do Microsoft Teams e dos grupos do Microsoft 365
 
 As conversas que fazem parte da lista de chat no Microsoft Teams (chamadas de bate-papos de equipe ou chats de um para um) são armazenadas na caixa de correio do Exchange Online dos usuários que participam dos chat. Além disso, os arquivos que uma pessoa compartilha em um chat de um-para-um são armazenados na conta do OneDrive da pessoa que compartilha o arquivo. Como a pesquisa interna pesquisa todas as caixas de correio e contas do OneDrive na organização, os bate-papos da equipe e os documentos compartilhados em uma sessão de chat (que o assunto dos dados criados ou carregados) são retornados pela pesquisa interna em um caso DSR.
   
 Como alternativa, as conversas que fazem parte de um canal de equipe (também chamadas de mensagens de canal) são armazenadas na caixa de correio associada a uma equipe. Esses tipos de conversas que os dados do assunto participam também são retornados pela pesquisa interna, pois todas as caixas de correio associadas ao Teams são pesquisadas. Além disso, os arquivos que um assunto de dados compartilha em um canal do teams são armazenados no site do SharePoint da equipe. Os arquivos criados ou carregados pelo requerente dos dados são retornados pela pesquisa interna em um caso DSR porque os sites associados ao Microsoft Teams estão incluídos na pesquisa.
   
-Da mesma forma, as caixas de correio e os sites do SharePoint que correspondem a um grupo do Office 365 também são incluídos na pesquisa interna. Isso significa que as mensagens de email enviadas ou recebidas pelo assunto e os arquivos de dados criados ou carregados pelo assunto dos dados são retornados. 
+Da mesma forma, as caixas de correio e os sites do SharePoint que correspondem a um grupo do Microsoft 365 também são incluídos na pesquisa interna. Isso significa que as mensagens de email enviadas ou recebidas pelo assunto e os arquivos de dados criados ou carregados pelo assunto dos dados são retornados. 
   
-Para obter mais informações sobre como usar a pesquisa de conteúdo para pesquisar itens no Microsoft Teams e grupos do Office 365 ou para ver como obter uma lista de membros, consulte a seção "pesquisando o Microsoft Teams e o Office 365 Groups" em [pesquisa de conteúdo no Office 365](content-search.md#searching-microsoft-teams-and-office-365-groups). 
+Para obter mais informações sobre como usar a pesquisa de conteúdo para pesquisar itens no Microsoft Teams e grupos do Microsoft 365 ou para ver como obter uma lista de membros, consulte a seção "pesquisando Microsoft Teams e Microsoft 365 Groups" em [pesquisa de conteúdo no Microsoft 365](content-search.md#searching-microsoft-teams-and-microsoft-365-groups). 
   
 ### <a name="searching-exchange-public-folders"></a>Pesquisando pastas públicas do Exchange
 

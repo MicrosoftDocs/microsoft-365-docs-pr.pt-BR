@@ -1,5 +1,5 @@
 ---
-title: Configurar limites de conformidade para investigações de Descoberta eletrônica no Office 365
+title: Configurar limites de conformidade para investigações de descoberta eletrônica
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -17,25 +17,25 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
-description: Use limites de conformidade para criar limites lógicos em uma organização do Office 365 que controla os locais de conteúdo do usuário que um gerente de descoberta eletrônica pode pesquisar. Os limites de conformidade usam filtragem de permissões de pesquisa (também chamados de filtros de segurança de conformidade) para controlar quais caixas de correio, sites do SharePoint e contas do OneDrive podem ser pesquisadas por usuários específicos.
-ms.openlocfilehash: 247c2649029d3029bb14ca9873a553f2ef8c356c
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Use limites de conformidade para criar limites lógicos dentro de uma organização que controla os locais de conteúdo do usuário que um gerente de descoberta eletrônica pode pesquisar. Os limites de conformidade usam filtragem de permissões de pesquisa (também chamados de filtros de segurança de conformidade) para controlar quais caixas de correio, sites do SharePoint e contas do OneDrive podem ser pesquisadas por usuários específicos.
+ms.openlocfilehash: 80b64a32ea7bbd45aec726a1e8f41ad48ef77714
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634139"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636159"
 ---
-# <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Configurar limites de conformidade para investigações de Descoberta eletrônica no Office 365
+# <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Configurar limites de conformidade para investigações de descoberta eletrônica
 
 As orientações deste artigo podem ser aplicadas ao usar a descoberta eletrônica principal ou a descoberta eletrônica avançada para gerenciar investigações.
 
-Os limites de conformidade criam limites lógicos em uma organização do Office 365 que controlam os locais de conteúdo do usuário (como caixas de correio, sites do SharePoint e contas do OneDrive) que os gerentes de descoberta eletrônica podem pesquisar. Além disso, os limites de conformidade controlam quem pode acessar os casos de descoberta eletrônica usados para gerenciar os recursos jurídicos, humanos ou outras investigações em sua organização. A necessidade de limites de conformidade é geralmente necessária para as empresas multinacionais que precisam respeitar as normas e as regulamentações geográficas e para governos, que geralmente são divididas em diferentes agências. No Office 365, os limites de conformidade o ajudam a atender a esses requisitos ao executar pesquisas de conteúdo e gerenciar investigações com ocorrências de descoberta eletrônica.
+Os limites de conformidade criam limites lógicos dentro de uma organização que controlam os locais de conteúdo do usuário (como caixas de correio, sites do SharePoint e contas do OneDrive) que os gerentes de descoberta eletrônica podem pesquisar. Além disso, os limites de conformidade controlam quem pode acessar os casos de descoberta eletrônica usados para gerenciar os recursos jurídicos, humanos ou outras investigações em sua organização. A necessidade de limites de conformidade é geralmente necessária para as empresas multinacionais que precisam respeitar as normas e as regulamentações geográficas e para governos, que geralmente são divididas em diferentes agências. No Office 365, os limites de conformidade o ajudam a atender a esses requisitos ao executar pesquisas de conteúdo e gerenciar investigações com ocorrências de descoberta eletrônica.
   
 Usamos o exemplo na ilustração a seguir para explicar como os limites de conformidade funcionam.
   
 ![Limites de conformidade consistem em filtros de permissão de pesquisa que controlam o acesso a agências e grupos de funções de administrador que controlam o acesso a casos de descoberta eletrônica](../media/5c206cc8-a6eb-4d6b-a3a5-21e158791f9a.png)
   
-Neste exemplo, a contoso LTD é uma organização do Office 365 que consiste em duas subsidiárias, Fourth Coffee e Coho Winery. A empresa exige que os gerentes e investigadores de eDiscovery só possam Pesquisar nas caixas de correio do Exchange, contas do OneDrive e sites do SharePoint em sua agência. Além disso, os gerentes e investigadores de descoberta eletrônica só podem ver ocorrências de descoberta eletrônica em suas agências, e eles só podem acessar os casos dos quais eles são membros. Veja aqui como os limites de conformidade atendem a esses requisitos.
+Neste exemplo, a contoso LTD é uma organização que consiste em duas subsidiárias, Fourth Coffee e Coho Winery. A empresa exige que os gerentes e investigadores de eDiscovery só possam Pesquisar nas caixas de correio do Exchange, contas do OneDrive e sites do SharePoint em sua agência. Além disso, os gerentes e investigadores de descoberta eletrônica só podem ver ocorrências de descoberta eletrônica em suas agências, e eles só podem acessar os casos dos quais eles são membros. Veja aqui como os limites de conformidade atendem a esses requisitos.
   
 - A funcionalidade de filtragem de permissões de pesquisa na pesquisa de conteúdo controla os locais de conteúdo que os gerentes de descoberta eletrônica e os investigadores podem pesquisar. Isso significa que os gerentes de descoberta eletrônica e os investigadores no quarto café podem pesquisar apenas os locais de conteúdo na quarta subsidiária. A mesma restrição se aplica à subsidiária Coho Winery.
     
@@ -79,11 +79,11 @@ A próxima etapa é arquivar uma solicitação com o suporte da Microsoft para s
   
 Inclua as seguintes informações ao enviar a solicitação para o suporte da Microsoft:
   
-- O nome de domínio padrão da sua organização do Office 365
+- O nome de domínio padrão da sua organização
     
 - O nome do atributo do Azure Active Directory (da etapa 1)
     
-- O seguinte título ou descrição da finalidade da solicitação de suporte: "habilitar a sincronização do OneDrive for Business com o Azure Active Directory para filtros de segurança de conformidade". Isso ajuda a rotear a solicitação para a equipe de engenharia de descoberta eletrônica do Office 365 que implementa a solicitação.
+- O seguinte título ou descrição da finalidade da solicitação de suporte: "habilitar a sincronização do OneDrive for Business com o Azure Active Directory para filtros de segurança de conformidade". Isso ajuda a rotear a solicitação para a equipe de engenharia de descoberta eletrônica que implementa a solicitação.
     
 Após a alteração da engenharia ser feita e o atributo ser sincronizado com o OneDrive, o suporte da Microsoft lhe enviará o número de compilação que a alteração foi feita e uma data de implantação estimada. O processo de implantação geralmente leva de 4 a 6 semanas após o envio da solicitação de suporte.
   
@@ -237,11 +237,11 @@ Tenha em mente as seguintes coisas ao pesquisar e exportar conteúdo em ambiente
   
 - O parâmetro **Região** não controla as pesquisas de caixas de correio do Exchange. Todos os data centers serão pesquisados quando você Pesquisar caixas de correio. Para limitar o escopo do qual as caixas de correio do Exchange são pesquisadas, use o parâmetro **Filters** ao criar ou alterar um filtro de permissões de pesquisa. 
     
-- Se for necessário que um gerente de descoberta eletrônica pesquise em várias regiões do SharePoint, você precisará criar uma conta de usuário diferente para o Gerenciador de descoberta eletrônica usar no filtro permissões de pesquisa para especificar a região em que os sites do SharePoint ou o OneDrive as contas estão localizadas. Para obter mais informações sobre como configurar isso, consulte a seção "pesquisando conteúdo em um ambiente multigeográfico do SharePoint" na [pesquisa de conteúdo no Office 365](content-search.md#searching-for-content-in-a-sharepoint-multi-geo-environment).
+- Se for necessário que um gerente de descoberta eletrônica pesquise em várias regiões do SharePoint, você precisará criar uma conta de usuário diferente para o Gerenciador de descoberta eletrônica usar no filtro permissões de pesquisa para especificar a região em que os sites do SharePoint ou as contas do OneDrive estão localizados. Para obter mais informações sobre como configurar isso, consulte a seção "pesquisando conteúdo em um ambiente multigeográfico do SharePoint" na [pesquisa de conteúdo no Office 365](content-search.md#searching-for-content-in-a-sharepoint-multi-geo-environment).
     
 - Ao pesquisar conteúdo no SharePoint e no OneDrive, o parâmetro **Region** direciona as pesquisas para o local principal ou de satélite onde o gerente de descoberta eletrônica conduzirá investigações de descoberta eletrônica. Se um gerente de descoberta eletrônica pesquisa sites do SharePoint e do OneDrive fora da região especificada no filtro permissões de pesquisa, nenhum resultado de pesquisa é retornado. 
     
-- Ao exportar os resultados da pesquisa, o conteúdo de todos os locais de conteúdo (incluindo o Exchange, o Skype for Business, o SharePoint, o OneDrive e outros serviços do Office 365 que você pode pesquisar usando a ferramenta de pesquisa de conteúdo) são carregados no local de armazenamento do Azure no datacenter especificado pelo parâmetro **Region** . Isso ajuda as organizações a ficar dentro da conformidade, não permitindo que o conteúdo seja exportado por bordas controladas. Se nenhuma região for especificada no filtro permissões de pesquisa, o conteúdo será carregado para a região padrão da organização. 
+- Ao exportar os resultados da pesquisa, o conteúdo de todos os locais de conteúdo (incluindo o Exchange, o Skype for Business, o SharePoint, o OneDrive e outros serviços que você pode pesquisar usando a ferramenta de pesquisa de conteúdo) é carregado para o local de armazenamento do Azure no datacenter que é especificado pelo parâmetro **Region** . Isso ajuda as organizações a ficar dentro da conformidade, não permitindo que o conteúdo seja exportado por bordas controladas. Se nenhuma região for especificada no filtro permissões de pesquisa, o conteúdo será carregado para a região padrão da organização. 
     
 - Você pode editar um filtro de permissões de pesquisa existente para adicionar ou alterar a região executando o seguinte comando:
 
@@ -267,7 +267,7 @@ O Gerenciador de descoberta eletrônica pode adicionar parâmetros à consulta d
   
 Sim. Isso pode ser feito adicionando o usuário aos grupos de função que têm visibilidade para ambas as agências.
   
- **Os filtros de permissões de pesquisa funcionam para isenções de caso de descoberta eletrônica, políticas de retenção do Office 365 ou DLP?**
+ **Os filtros de permissões de pesquisa funcionam para isenções de caso de descoberta eletrônica, políticas de retenção do Microsoft 365 ou DLP?**
   
 Não no momento.
   

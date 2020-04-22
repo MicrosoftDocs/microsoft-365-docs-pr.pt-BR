@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Você pode acompanhar o status de processos de execução longa que resultam na execução de tarefas na ferramenta de investigações de dados no centro de conformidade do & de segurança.
-ms.openlocfilehash: 6c7b247eb4a8ef9797a8a5993195bb21d7bf30bf
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: ef2fe364a20bd0edc48761162f519135b750d9ab
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "41582920"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635911"
 ---
 # <a name="manage-jobs-in-data-investigations-preview"></a>Gerenciar trabalhos em investigações de dados (versão prévia)
 
@@ -31,7 +31,7 @@ Veja a seguir uma lista dos trabalhos (que geralmente são processos de longa du
 | :----------------- | :----------     |
 |Adicionando dados a um conjunto de evidência | Um usuário adiciona os resultados de uma pesquisa a um conjunto de evidências.  Para saber mais, confira [Pesquisar dados em uma investigação](search-for-data.md). |
 |Adicionar dados a outro conjunto de evidência | Um usuário adiciona documentos de um conjunto de evidências a um conjunto diferente de evidências no mesmo caso.|
-|Adição de dados que não sejam do Office 365 a um conjunto de evidências | Um usuário carrega dados que não são do Office 365 em um conjunto de evidências. Os dados também são indexados durante esse processo. Por exemplo, os arquivos de um servidor de arquivos local ou de um computador cliente são carregados em um conjunto de evidências. Para obter mais informações, consulte [carregar dados não-Office 365 em evidência](load-non-office365-data.md).| 
+|Adição de dados que não sejam da Microsoft 365 a um conjunto de evidências | Um usuário carrega dados que não são da Microsoft 365 para um conjunto de evidências. Os dados também são indexados durante esse processo. Por exemplo, os arquivos de um servidor de arquivos local ou de um computador cliente são carregados em um conjunto de evidências. Para obter mais informações, consulte [carregar dados não-Microsoft 365 em evidências](load-non-office365-data.md).| 
 |Adicionando dados corrigidos a um conjunto de evidências | Dados com erros de processamento são corrigidos e carregados novamente em um conjunto de evidências. Confira mais informações em [correção de erros ao processar dados para uma investigação](error-remediation.md). | 
 |Comparando conjuntos de carregamento | Um usuário examina as diferenças entre diferentes conjuntos de carga em um conjunto de evidências. Um conjunto de carga é uma instância de adição de dados a um conjunto de evidências. Por exemplo, se você adicionar os resultados de duas pesquisas diferentes ao mesmo conjunto de evidência, cada uma delas representaria um conjunto de carga. Para obter mais informações, consulte [Manage Load sets](manage-load-sets.md). |
 |Convertendo documentos redigidos em PDF|Após um usuário anotar um documento em um conjunto de evidência e redigir uma parte dele, ele poderá optar por converter o documento redigido em um arquivo PDF. Isso garante que a parte redigida não será visível quando o documento for exportado para apresentação. Para obter mais informações, consulte [revisar dados em evidência](review-data-in-evidence.md). |

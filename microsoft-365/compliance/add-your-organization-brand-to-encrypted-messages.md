@@ -17,17 +17,17 @@ ms.assetid: 7a29260d-2959-42aa-8916-feceff6ee51d
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-description: Como administrador global do Office 365, você pode aplicar a identidade visual da sua organização às mensagens de email criptografadas da sua organização e ao conteúdo do portal de criptografia.
-ms.openlocfilehash: 5a3f5426fecd6ce5df6ace5b0080de33fb50e21f
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+description: Como administrador global, você pode aplicar a identidade visual da sua organização às mensagens de email criptografadas da sua organização e ao conteúdo do portal de criptografia.
+ms.openlocfilehash: 231d0bd1e49d0529b4dc15ec758ba63fe5f60092
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106013"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632286"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>Adicionar a marca da sua organização a suas mensagens criptografadas
 
-Como administrador do Exchange Online ou do Exchange Online Protection, você pode aplicar a identidade visual da sua empresa para personalizar a aparência das mensagens de email de criptografia de mensagem do Office 365 da sua organização e o conteúdo do portal de criptografia. Usando os cmdlets Get-OMEConfiguration e Set-OMEConfiguration do Windows PowerShell, você pode personalizar os seguintes aspectos da experiência de visualização para destinatários de mensagens de email criptografadas:
+Como administrador do Exchange Online ou do Exchange Online Protection, você pode aplicar a identidade visual da sua empresa para personalizar a aparência das mensagens de email de criptografia de mensagem do Microsoft 365 for Business Message de sua organização e o conteúdo do portal de criptografia. Usando os cmdlets Get-OMEConfiguration e Set-OMEConfiguration do Windows PowerShell, você pode personalizar os seguintes aspectos da experiência de visualização para destinatários de mensagens de email criptografadas:
   
 - Texto introdutório do email que contém a mensagem criptografada
 
@@ -59,7 +59,7 @@ Depois de criar os modelos, você pode aplicá-los a emails criptografados usand
 
 ## <a name="work-with-ome-branding-templates"></a>Trabalhar com modelos de identidade visual do OME
 
-Você pode modificar vários recursos dentro de um modelo de identidade visual. Você pode modificar, mas não remover, o modelo padrão. Se você tiver criptografia de mensagem avançada, também poderá criar, modificar e remover modelos personalizados. Use o Windows PowerShell para trabalhar com um modelo de identidade visual por vez. Você precisará de uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365 para usar esses cmdlets.
+Você pode modificar vários recursos dentro de um modelo de identidade visual. Você pode modificar, mas não remover, o modelo padrão. Se você tiver criptografia de mensagem avançada, também poderá criar, modificar e remover modelos personalizados. Use o Windows PowerShell para trabalhar com um modelo de identidade visual por vez. Você precisará de uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização para usar esses cmdlets.
 
 - [Set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/set-omeconfiguration) -modifica o modelo de identidade visual padrão ou um modelo de identidade visual personalizado que você criou.
 - [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/new-omeconfiguration) -criar um novo modelo de identidade visual, somente criptografia de mensagem avançada.
@@ -69,7 +69,7 @@ Você pode modificar vários recursos dentro de um modelo de identidade visual. 
 
 Use o Windows PowerShell para modificar um modelo de identidade visual por vez. Se você tiver criptografia de mensagem avançada, também poderá criar, modificar e remover modelos personalizados.
 
-1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
+1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Modifique o modelo usando o cmdlet Set-OMEConfiguration conforme descrito em [set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/Set-OMEConfiguration) ou use o gráfico e tabela a seguir para orientação.
 
@@ -94,7 +94,7 @@ Se você tiver a criptografia de mensagem avançada do Office 365, poderá criar
 
 Para criar um novo modelo de identidade visual personalizado:
 
-1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
+1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Use o cmdlet [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/new-omeconfiguration) para criar um novo modelo.
 
@@ -112,7 +112,7 @@ Para criar um novo modelo de identidade visual personalizado:
 
 Para remover todas as modificações do modelo padrão, incluindo as personalizações de marca e assim por diante, conclua estas etapas:
   
-1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
+1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Use o cmdlet **set-OMEConfiguration** conforme descrito em [set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/Set-OMEConfiguration). Para remover as personalizações da marca da sua organização dos valores DisclaimerText, EmailText e PortalText, defina o valor como uma cadeia de caracteres vazia `""`,. Para todos os valores de imagem, como logotipo, defina o valor `"$null"`como.
 
@@ -133,7 +133,7 @@ Você só pode remover ou excluir modelos de identidade visual que você fez. N�
 
 Para remover um modelo de identidade visual personalizado:
   
-1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
+1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Use o cmdlet **Remove-OMEConfiguration** da seguinte maneira:
 
@@ -155,7 +155,7 @@ Depois de modificar o modelo padrão ou criar novos modelos de identidade visual
 
 - Se o email foi criptografado manualmente pelo usuário final do Outlook ou do Outlook na Web (anteriormente conhecido como Outlook Web App) clientes
 
-- Se o email foi criptografado automaticamente por uma regra de fluxo de email do Exchange ou pela política de prevenção de perda de dados do Office 365
+- Se o email foi criptografado automaticamente por uma regra de fluxo de email do Exchange ou pela política de prevenção contra perda de dados
 
 Para obter informações sobre como criar uma regra de fluxo de email do Exchange que aplica criptografia, consulte [definir regras de fluxo de emails para criptografar mensagens de email no Office 365](define-mail-flow-rules-to-encrypt-email.md).
 

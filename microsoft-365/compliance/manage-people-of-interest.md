@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 44ee6715c8bbe1254cead6b11930ca41be8864a2
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: f5028e82e8c54972dd188215eac0518775ec275c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634709"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635835"
 ---
 # <a name="manage-people-of-interest-in-data-investigations-preview"></a>Gerenciar pessoas de interesse em investigações de dados (prévia)
 
@@ -50,18 +50,18 @@ Para adicionar pessoas de interesse a uma investigação:
 
 8. Opcion No submenu:
    
-    -  **Caixas de correio do Exchange** -clique em **escolher usuários, grupos ou equipes** e, em seguida, clique em **escolher usuários, grupos ou equipes** novamente. Para adicionar mais caixas de correio, use a caixa de pesquisa para localizar caixas de correio de usuários e grupos de distribuição. Você também pode adicionar caixas de correio usadas para armazenar um grupo do Office 365 ou uma informação da equipe da Microsoft. Marque a caixa de seleção usuário, grupo, equipe, clique em **escolher**e em **concluído**.
+    -  **Caixas de correio do Exchange** -clique em **escolher usuários, grupos ou equipes** e, em seguida, clique em **escolher usuários, grupos ou equipes** novamente. Para adicionar mais caixas de correio, use a caixa de pesquisa para localizar caixas de correio de usuários e grupos de distribuição. Você também pode adicionar caixas de correio usadas para armazenar um grupo do Microsoft 365 ou uma informação da equipe da Microsoft. Marque a caixa de seleção usuário, grupo, equipe, clique em **escolher**e em **concluído**.
 
         > [!NOTE]
         > Ao clicar em escolher usuários, grupos ou equipes para especificar caixas de correio, o seletor de caixa de correio exibido estará vazio. Isso foi desenvolvido para melhorar o desempenho. Para adicionar pessoas a esta lista, digite um nome (no mínimo 3 caracteres) na caixa de pesquisa.
      
-     - **Sites do SharePoint** -clique em **escolher sites** e, em seguida, clique em **escolher sites** novamente para especificar sites adicionais do SharePoint e do onedrive for Business que o WWAN para adicionar a uma pessoa. Você também pode adicionar a URL do site do SharePoint para um grupo do Office 365 ou uma equipe da Microsoft. Digite a URL de cada site que você deseja atribuir. Clique em **escolher**e em **concluído**.
+     - **Sites do SharePoint** -clique em **escolher sites** e, em seguida, clique em **escolher sites** novamente para especificar sites adicionais do SharePoint e do onedrive for Business que o WWAN para adicionar a uma pessoa. Você também pode adicionar a URL do site do SharePoint para um grupo do Microsoft 365 ou uma equipe da Microsoft. Digite a URL de cada site que você deseja atribuir. Clique em **escolher**e em **concluído**.
      - **Microsoft Teams** – clique em **escolher equipes** e, em seguida, clique em **escolher equipes** novamente para exibir uma lista de grupos do Microsoft Team dos quais a pessoa é membro de hoje. Selecione as equipes que você deseja adicionar à pessoa. Depois de selecionado, o sistema identificará automaticamente & selecionar o site do SharePoint associado e a caixa de correio de grupo associados a essa equipe da Microsoft. Clique em **escolher**e em **concluído**.
         
       > [!NOTE]
       > Para adicionar outras Teams da Microsoft, você precisará adicionar separadamente a caixa de correio e o site do SharePoint, conforme mostrado acima.
 
-Depois de concluir o mapeamento de fontes de dados para pessoas de interesse, você poderá ver o resumo do total de caixas de correio, sites e equipes que você acabou de adicionar. Se você mapear outras fontes de dados para pessoas de interesse e escopo sua pesquisa por pessoas de interesse, o mapeamento de documento para pessoas de interesse permanecerá em toda a investigação, facilitando a organização de evidências ou a geração de relatórios por pessoas de interesse . 
+Depois de concluir o mapeamento de fontes de dados para pessoas de interesse, você poderá ver o resumo do total de caixas de correio, sites e equipes que você acabou de adicionar. Se você mapear outras fontes de dados para pessoas de interesse e escopo sua pesquisa por pessoas de interesse, o mapeamento de documentos para pessoas de interesse persistirá durante a investigação, facilitando a organização de evidências ou geração de relatórios por pessoas de interesse. 
 
 ## <a name="view-additional-people-of-interest-information"></a>Exibir outras pessoas de informações de interesse
 

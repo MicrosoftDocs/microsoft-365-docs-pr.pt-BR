@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Use este artigo como um guia para solucionar problemas de barreiras de informações.
-ms.openlocfilehash: 4c601ddedf3acc816181f287c74f8f4df207a6b5
-ms.sourcegitcommit: 9b79701eba081cd4b3263db7a15c088d92054b4b
+ms.openlocfilehash: c57f9a14e3089f52ad0eab0a0634d7d58f74e6cf
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42692658"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621345"
 ---
 # <a name="troubleshooting-information-barriers"></a>Solução de problemas de barreiras de informações
 
@@ -27,7 +27,7 @@ ms.locfileid: "42692658"
 No caso de as pessoas funcionarem em problemas inesperados depois que as barreiras de informações estiverem vigentes, há algumas etapas que você pode executar para resolver esses problemas. Use este artigo como uma guia.
 
 > [!IMPORTANT]
-> Para executar as tarefas descritas neste artigo, você deve receber uma função apropriada, como uma das seguintes:<br/>– Administrador global do Microsoft 365 Enterprise<br/>– Administrador global do Office 365<br/>-Administrador de conformidade<br/>– Gerenciamento de conformidade do IB (esta é uma nova função!)<p>Para saber mais sobre os pré-requisitos para barreiras de informações, consulte [pré-requisitos (para políticas de barreira de informações)](information-barriers-policies.md#prerequisites).<p>Certifique-se de [se conectar ao PowerShell do centro de conformidade & segurança do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+> Para executar as tarefas descritas neste artigo, você deve receber uma função apropriada, como uma das seguintes:<br/>– Administrador global do Microsoft 365 Enterprise<br/>-administrador global<br/>-Administrador de conformidade<br/>– Gerenciamento de conformidade do IB (esta é uma nova função!)<p>Para saber mais sobre os pré-requisitos para barreiras de informações, consulte [pré-requisitos (para políticas de barreira de informações)](information-barriers-policies.md#prerequisites).<p>Certifique-se de [se conectar ao PowerShell do centro de conformidade & segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 
 ## <a name="issue-users-are-unexpectedly-blocked-from-communicating-with-others-in-microsoft-teams"></a>Problema: os usuários são impedidos de se comunicar inesperadamente com outras pessoas no Microsoft Teams 
 

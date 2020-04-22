@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve a nova ferramenta de investigações de dados (visualização) no Microsoft 365.
-ms.openlocfilehash: 57605566a8847a3630e1c4656f98f71ebb414f86
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 813877151f538bc07a0460fdd702ab37ebcc5a1a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595408"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637731"
 ---
 # <a name="release-notes-for-data-investigations-preview-in-microsoft-365"></a>Notas de versão para investigações de dados (visualização) no Microsoft 365
 
@@ -31,7 +31,7 @@ Você pode usar a ferramenta novas investigações de dados (visualização) no 
 
 - **Investigações** – você pode agrupar pesquisas e incidentes criando uma investigação. Gerenciar quem pode acessar a investigação adicionando ou removendo membros.  Você também pode selecionar e marcar suas investigações favoritas. Controlar e monitorar a atividade dentro e nas investigações usando novos painéis. Depois de concluir sua investigação, você pode fechá-la ou excluí-la.
 
-- **Pessoas de interesse** – ao adicionar usuários a investigações como pessoas de interesse, você pode ver a caixa de correio, a conta do onedrive for Business e os sites do Microsoft Teams. Você pode usá-los para fazer o escopo das pesquisas de conteúdo investigativas. Para investigar ainda mais uma pessoa de interesse, você também pode exibir registros de auditoria relacionados às suas atividades no Office 365 e outros serviços da Microsoft.
+- **Pessoas de interesse** – ao adicionar usuários a investigações como pessoas de interesse, você pode ver a caixa de correio, a conta do onedrive for Business e os sites do Microsoft Teams. Você pode usá-los para fazer o escopo das pesquisas de conteúdo investigativas. Para investigar ainda mais uma pessoa de interesse, você também pode exibir registros de auditoria relacionados às suas atividades no Microsoft 365 e em outros serviços da Microsoft.
 
 - **Pesquisas** – crie uma pesquisa em toda a organização usando várias condições de pesquisa. Se você souber os usuários ou sites que deseja pesquisar, poderá fazê-lo adicionando-os como pessoas de interesse ou especificando locais de site no assistente de criação de pesquisa. 
 

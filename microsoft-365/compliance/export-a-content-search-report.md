@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: Em vez de exportar os resultados reais de uma pesquisa de conteúdo no centro de conformidade & segurança no Office 365, você pode exportar um relatório de resultados de pesquisa. O relatório contém um resumo dos resultados da pesquisa e um documento com informações detalhadas sobre cada item que seria exportado.
-ms.openlocfilehash: 6730a1c406e02de26cbef964e445cfad31c948ec
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 63acc8701973519f959ced9822333e893e6fd863
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074388"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43615925"
 ---
 # <a name="export-a-content-search-report"></a>Exportar um relatório de Pesquisa de Conteúdo
 
@@ -56,7 +56,7 @@ Quando você exporta um relatório, ele é baixado para uma pasta que tem o mesm
 
   > [!NOTE]
   > <sup>1</sup> a Microsoft não fabrica extensões ou complementos de terceiros para aplicativos ClickOnce. Não há suporte para a exportação de resultados de pesquisa usando um navegador sem suporte com extensões ou complementos de terceiros.<br/>
-  > <sup>2</sup> como resultado de alterações recentes no Microsoft Edge, o suporte do ClickOnce não está mais habilitado por padrão. Para obter instruções sobre como habilitar o suporte do ClickOnce no Edge, consulte [usar a ferramenta de exportação de descoberta eletrônica do Office 365 no Microsoft Edge](configure-edge-to-export-search-results.md).
+  > <sup>2</sup> como resultado de alterações recentes no Microsoft Edge, o suporte do ClickOnce não está mais habilitado por padrão. Para obter instruções sobre como habilitar o suporte do ClickOnce no Edge, consulte [usar a ferramenta de exportação de descoberta eletrônica no Microsoft Edge](configure-edge-to-export-search-results.md).
 
 - Se o tamanho total estimado dos resultados retornados por uma pesquisa de conteúdo exceder 2 TB, a exportação do relatório falhará. Para exportar o relatório com êxito, tente restringir o escopo e executar novamente a pesquisa para que o tamanho estimado dos resultados seja menor que 2 TB.
 
@@ -72,9 +72,9 @@ A primeira etapa é preparar o relatório para download para a exportação do s
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Entre no Office 365 usando a sua conta corporativa ou de estudante.
+2. Entre usando sua conta corporativa ou de estudante.
     
-3. No painel esquerdo do centro de conformidade & segurança, clique em **** \> **pesquisa de conteúdo**de pesquisa.
+3. No painel esquerdo do centro de conformidade & segurança, clique em **Search** \> **pesquisa de conteúdo**de pesquisa.
     
 4. Na página **pesquisa de conteúdo** , selecione uma pesquisa. 
     
@@ -127,7 +127,7 @@ A próxima etapa é baixar o relatório da área de armazenamento do Azure para 
   
 3. Clique em **baixar relatório**.
     
-4. Se você for solicitado a instalar a **ferramenta de exportação de descoberta eletrônica do MicrosoftOffice 365**, clique em **instalar**.
+4. Se você for solicitado a instalar a **ferramenta de exportação de descoberta eletrônica**, clique em **instalar**.
     
 5. Na **Ferramenta de Exportação de Descoberta Eletrônica**, cole a chave de exportação que você copiou na etapa 2 na caixa apropriada.
     
@@ -144,10 +144,10 @@ A próxima etapa é baixar o relatório da área de armazenamento do Azure para 
 
 Quando você gera e exporta um relatório sobre os resultados de uma pesquisa de conteúdo, os seguintes documentos são baixados:
   
-- **Resumo de exportação:** Um documento do Excel que contém um resumo da exportação. Isso inclui informações como o número de fontes de conteúdo pesquisadas, o número de resultados de pesquisa de cada local de conteúdo, o número estimado de itens, o número real de itens que serão exportados e o tamanho estimado e real dos itens Isso seria exportado. 
+- **Resumo de exportação:** Um documento do Excel que contém um resumo da exportação. Isso inclui informações como o número de fontes de conteúdo pesquisadas, o número de resultados de pesquisa de cada local de conteúdo, o número estimado de itens, o número real de itens que serão exportados e o tamanho estimado e real dos itens que seriam exportados. 
     
     > [!NOTE]
-    > Se você incluir itens não indexados ao exportar o relatório, o número de itens não indexados será incluído no número total de resultados de pesquisa estimados e no número total de resultados de pesquisa baixados (se você tiver que exportar os resultados da pesquisa) listados na Relatório de Resumo de exportação. Em outras palavras, o número total de itens que seriam baixados é igual ao número total de resultados estimados e ao número total de itens não indexados. 
+    > Se você incluir itens não indexados ao exportar o relatório, o número de itens não indexados será incluído no número total de resultados de pesquisa estimados e no número total de resultados de pesquisa baixados (se você tiver que exportar os resultados da pesquisa) listados no relatório de Resumo de exportação. Em outras palavras, o número total de itens que seriam baixados é igual ao número total de resultados estimados e ao número total de itens não indexados. 
   
 - **Manifesto:** Um arquivo de manifesto (em formato XML) que contém informações sobre cada item incluído nos resultados da pesquisa. 
     

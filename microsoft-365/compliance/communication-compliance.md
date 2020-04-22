@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 13b19079e52a390e8be3372939619541aa3b7294
-ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
+ms.openlocfilehash: 24d11f94d2b9139a6e54f29cff39f05076676f78
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43193467"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634173"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Conformidade com comunicações no Microsoft 365
 
@@ -121,10 +121,10 @@ Nesta etapa de fluxo de trabalho, você identifica seus requisitos de conformida
 
 Você pode escolher entre os seguintes modelos de política no centro de conformidade da Microsoft 365:
 
-- **Linguagem ofensiva e antiassédio**: Use este modelo para criar rapidamente uma política que usa os classificadores incorporados contra ameaças, profanação e assédio para detectar automaticamente o conteúdo que pode ser considerado abusivo ou ofensivo.
+- **Linguagem ofensiva e antiassédio**: Use este modelo para criar rapidamente uma política que usa o classificador interno para detectar automaticamente o conteúdo que pode ser considerado abusivo ou ofensivo.
 - **Informações confidenciais**: Use este modelo para criar uma política de verificação de comunicações contendo tipos de informações confidenciais definidos ou palavras-chave para ajudar a garantir que dados importantes não sejam compartilhados com pessoas que não deveriam ter acesso.
 - **Conformidade normativa**: Use este modelo para criar uma política para verificar as comunicações de referências a termos financeiros padrão associados a padrões normativos.
-- **Política personalizada**: Use este modelo para configurar canais de comunicação específicos, classificadores, condições individuais de detecção e a quantidade de conteúdo a ser revisada para supervisão em sua organização.
+- **Política personalizada**: Use este modelo para configurar canais de comunicação específicos, condições de detecção individuais e a quantidade de conteúdo a ser revisada para supervisão em sua organização.
 
 ### <a name="investigate"></a>Investigar
 
@@ -151,7 +151,7 @@ A próxima etapa é corrigir problemas de conformidade de comunicação que voc�
 
 Manter o controle e o gerenciamento de problemas de conformidade identificados por políticas de conformidade de comunicação abrange todo o processo de fluxo de trabalho. À medida que os alertas são gerados e as ações de investigação e correção são implementadas, as políticas existentes podem precisar de análise e atualizações, e novas políticas podem precisar ser criadas.
 
-- **Monitorar e relatar**: usar painéis de conformidade de comunicação, relatórios, exportar logs e eventos registrados nos logs unificados de auditoria do Office 365 para avaliar continuamente e aprimorar a postura de conformidade.
+- **Monitorar e relatar**: Use os painéis de conformidade de comunicação, relatórios, exportar logs e eventos registrados nos logs de auditoria unificada para avaliar continuamente e aprimorar a postura de conformidade.
 
 ## <a name="ready-to-get-started"></a>Pronto para começar?
 

@@ -13,22 +13,22 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: c9b0ff0c-282b-4a44-b43f-cfc5b96557f9
 description: Edite o registro do Windows no computador local para desabilitar relatórios ao exportar os resultados de uma pesquisa de conteúdo do centro de conformidade de & de segurança no Office 365. A desabilitação desses relatórios pode acelerar o tempo de download e poupar espaço em disco.
-ms.openlocfilehash: 99f8079bdbb0a3a43d0306dcf6b6ca8ab2c4fbef
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3bd5fadda750c709c463fbc4d84668b43e0d3a10
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595236"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633446"
 ---
 # <a name="disable-reports-when-you-export-content-search-results"></a>Desabilitar relatórios ao exportar os resultados da Pesquisa de Conteúdo
 
-Ao usar a ferramenta de exportação de descoberta eletrônica do Office 365 para exportar os resultados de uma pesquisa de conteúdo no centro de conformidade de & de segurança, a ferramenta cria e exporta automaticamente dois relatórios que contêm informações adicionais sobre o conteúdo exportado. Esses relatórios são o arquivo Results. csv e o arquivo manifest. XML (consulte a seção [perguntas frequentes sobre a desabilitação de relatórios de exportação](#frequently-asked-questions-about-disabling-export-reports) neste tópico para obter descrições detalhadas desses relatórios). Como esses arquivos podem ser muito grandes, você pode acelerar o tempo de download e poupar espaço em disco, impedindo que esses arquivos sejam exportados. Você pode fazer isso alterando o registro do Windows no computador que você usa para exportar os resultados da pesquisa. Se você quiser incluir os relatórios mais tarde, poderá editar a configuração do registro. 
+Ao usar a ferramenta de exportação de descoberta eletrônica para exportar os resultados de uma pesquisa de conteúdo no centro de conformidade de & de segurança, a ferramenta cria e exporta automaticamente dois relatórios que contêm informações adicionais sobre o conteúdo exportado. Esses relatórios são o arquivo Results. csv e o arquivo manifest. XML (consulte a seção [perguntas frequentes sobre a desabilitação de relatórios de exportação](#frequently-asked-questions-about-disabling-export-reports) neste tópico para obter descrições detalhadas desses relatórios). Como esses arquivos podem ser muito grandes, você pode acelerar o tempo de download e poupar espaço em disco, impedindo que esses arquivos sejam exportados. Você pode fazer isso alterando o registro do Windows no computador que você usa para exportar os resultados da pesquisa. Se você quiser incluir os relatórios mais tarde, poderá editar a configuração do registro. 
   
 ## <a name="create-registry-settings-to-disable-the-export-reports"></a>Criar configurações do registro para desabilitar os relatórios de exportação
 
 Execute o procedimento a seguir no computador que você usará para exportar os resultados de uma pesquisa de conteúdo.
   
-1. Feche a ferramenta de exportação de descoberta eletrônica do Office 365 se ela estiver aberta.
+1. Feche a ferramenta de exportação de descoberta eletrônica, se ela estiver aberta.
     
 2. Execute uma ou ambas as etapas a seguir, dependendo do relatório de exportação que você deseja desabilitar.
     
@@ -62,7 +62,7 @@ Execute o procedimento a seguir no computador que você usará para exportar os 
 
 Se você desabilitou os relatórios Results. csv e manifest. XML criando os arquivos. reg no procedimento anterior, poderá editar esses arquivos para reabilitar um relatório para que ele seja exportado com os resultados da pesquisa. Novamente, execute o procedimento a seguir no computador que você usará para exportar os resultados de uma pesquisa de conteúdo.
   
-1. Feche a ferramenta de exportação de descoberta eletrônica do Office 365 se ela estiver aberta.
+1. Feche a ferramenta de exportação de descoberta eletrônica, se ela estiver aberta.
     
 2. Edite um ou ambos os arquivos. reg Edit que você criou no procedimento anterior.
     
@@ -128,11 +128,11 @@ Depende de suas necessidades específicas. Muitas organizações não exigem inf
   
  **Em qual computador tenho que fazer isso?**
   
- Você precisa alterar a configuração do registro em qualquer computador local em que executa a ferramenta de exportação de descoberta eletrônica do Office 365. 
+ É necessário alterar a configuração do registro em qualquer computador local em que você executa a ferramenta de exportação de descoberta eletrônica. 
   
  **Após alterar essa configuração, preciso reiniciar o computador?**
   
-Não, não é necessário reiniciar o computador. Mas, se a ferramenta de exportação de descoberta eletrônica do Office 365 estiver em execução, você terá que fechá-la e reiniciá-la depois de alterar a configuração do registro.
+Não, não é necessário reiniciar o computador. Mas, se a ferramenta de exportação de descoberta eletrônica estiver em execução, você terá de fechá-la e reiniciá-la depois de alterar a configuração do registro.
   
  **Uma chave de registro existente é editada ou faz uma nova chave ser criada?**
   

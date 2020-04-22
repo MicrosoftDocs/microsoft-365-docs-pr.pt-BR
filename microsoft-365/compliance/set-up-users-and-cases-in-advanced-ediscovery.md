@@ -1,5 +1,5 @@
 ---
-title: Configurar usuários e casos na descoberta eletrônica avançada do Office 365
+title: Configurar usuários e casos na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,20 +14,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 60ffd80b-4376-419d-b6e4-a72029b9907c
-description: 'Saiba como configurar funções de usuário, criar ocorrências e atribuir usuários a casos na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: 76d5e6ab503cc053e31811cc06ac12545a9eeb7e
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Saiba como configurar funções de usuário, criar ocorrências e atribuir usuários a casos na descoberta eletrônica avançada.  '
+ms.openlocfilehash: 5c82ad8b630974d3afeb1928f8dd229ffb0dc36a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557733"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636065"
 ---
 # <a name="set-up-users-and-cases-in-advanced-ediscovery-classic"></a>Configurar usuários e casos na descoberta eletrônica avançada (clássico)
 
 Este tópico descreve como configurar usuários e casos para descoberta eletrônica avançada (clássica).
   
 > [!IMPORTANT]
-> Como continuamos a investir em versões mais recentes da descoberta eletrônica avançada, anunciamos a desativação da descoberta eletrônica avançada do Office 365, também conhecida como *descoberta eletrônica avançada (clássica)* ou *descoberta eletrônica avançada v 1.0*. Se você ainda estiver usando a Descoberta Eletrônica Avançada v1.0, faça a transição para o [Descoberta Eletrônica Avançada v2.0](overview-ediscovery-20.md) (também conhecida como * solução de Descoberta Eletrônica Avançada no Microsoft 365*) o mais rápido possível. O Descoberta Eletrônica Avançada 2.0 contém funcionalidade semelhante encontrada na Descoberta Eletrônica Avançada v1.0, mas também oferece muitos recursos novos, como gerenciamento de custódia, gerenciamento de comunicações e conjuntos de revisão. Para saber mais sobre a desativação da Descoberta Eletrônica Avançada v1.0, confira [Desativação de ferramentas legadas de Descoberta Eletrônica](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
+> Como continuamos a investir em versões mais recentes da descoberta eletrônica avançada, anunciamos o afastamento da descoberta eletrônica avançada, também conhecida como *descoberta eletrônica avançada (clássica)* ou *descoberta eletrônica avançada v 1.0*. Se você ainda estiver usando a Descoberta Eletrônica Avançada v1.0, faça a transição para o [Descoberta Eletrônica Avançada v2.0](overview-ediscovery-20.md) (também conhecida como * solução de Descoberta Eletrônica Avançada no Microsoft 365*) o mais rápido possível. O Descoberta Eletrônica Avançada 2.0 contém funcionalidade semelhante encontrada na Descoberta Eletrônica Avançada v1.0, mas também oferece muitos recursos novos, como gerenciamento de custódia, gerenciamento de comunicações e conjuntos de revisão. Para saber mais sobre a desativação da Descoberta Eletrônica Avançada v1.0, confira [Desativação de ferramentas legadas de Descoberta Eletrônica](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
   
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -35,7 +35,7 @@ Antes de configurar casos e usuários na descoberta eletrônica avançada, é ne
   
 - Para analisar os dados de um usuário usando a descoberta eletrônica avançada, o usuário (o responsáveis dos dados) deve receber uma licença do Office 365 e5. Como alternativa, os usuários com uma licença do Office 365 E1 ou E3 podem receber uma licença autônoma de descoberta eletrônica avançada. Administradores e gerentes de conformidade atribuídos aos casos e usar a descoberta eletrônica avançada para analisar os dados não precisam de uma licença e5. 
     
-- Você precisa ser membro do grupo de função Gerenciador de descoberta eletrônica no centro de conformidade de &amp; segurança do Office 365 para criar um caso de descoberta eletrônica e adicionar membros a ele. Para se adicionar ao grupo de funções Gerenciador de descoberta eletrônica &amp; no centro de conformidade de segurança, você precisa ser um administrador global em sua organização do Office 365. Se você não for um administrador global, será necessário pedir a um administrador global para adicioná-lo ao grupo de funções Gerenciador de descoberta eletrônica. Para saber mais, confira:
+- Você precisa ser membro do grupo de função Gerenciador de descoberta eletrônica no centro de &amp; conformidade de segurança para criar um caso de descoberta eletrônica e adicionar membros a ela. Para se adicionar ao grupo de funções Gerenciador de descoberta eletrônica &amp; no centro de conformidade de segurança, você precisa ser um administrador global em sua organização. Se você não for um administrador global, será necessário pedir a um administrador global para adicioná-lo ao grupo de funções Gerenciador de descoberta eletrônica. Para saber mais, confira:
     
   - [Permissões no centro de conformidade de &amp; segurança do Microsoft 365](~/security/office-365-security/protect-against-threats.md)
     
@@ -59,9 +59,9 @@ A próxima etapa é criar uma nova ocorrência de descoberta eletrônica no cent
 
 Após criar um caso de descoberta eletrônica e adicionar membros, você (ou qualquer membro do caso) pode acessar o caso correspondente na descoberta eletrônica avançada. Para acessar um caso na descoberta eletrônica avançada, confira a etapa 8 em [casos de descoberta eletrônica &amp; no centro de conformidade de segurança do Microsoft 365](ediscovery-cases.md#step-8-go-to-the-case-in-advanced-ediscovery).
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Preparação de dados](prepare-data-for-advanced-ediscovery.md)
  

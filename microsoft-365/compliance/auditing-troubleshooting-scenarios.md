@@ -1,5 +1,5 @@
 ---
-title: Pesquisar o log de auditoria do Office 365 para solucionar problemas de cenários comuns
+title: Pesquisar o log de auditoria para solucionar problemas de cenários comuns
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,17 +15,17 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-description: Você pode usar a ferramenta de pesquisa de log de auditoria do Office 365 para ajudá-lo a solucionar problemas comuns, como investigar uma conta comprometida, descobrir quem configurou o encaminhamento de email para uma caixa de correio ou determinar por que um usuário externo fez logon com êxito na sua organização.
-ms.openlocfilehash: b18db4c24548c929043d79adb73e11b46be6ddb8
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Você pode usar a ferramenta de pesquisa de log de auditoria para ajudá-lo a solucionar problemas comuns, como investigar uma conta comprometida, descobrir quem configurou o encaminhamento de email para uma caixa de correio ou determinar por que um usuário externo fez logon com êxito na sua organização.
+ms.openlocfilehash: 8eaff1fa3eea6a0fa60edcfd43f4f2aedb5a5ffc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634479"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636379"
 ---
-# <a name="search-the-office-365-audit-log-to-investigate-common-support-issues"></a>Pesquisar o log de auditoria do Office 365 para investigar problemas comuns de suporte
+# <a name="search-the-audit-log-to-investigate-common-support-issues"></a>Pesquisar o log de auditoria para investigar problemas comuns de suporte
 
-Este artigo descreve como usar a ferramenta de pesquisa de log de auditoria do Office 365 para ajudá-lo a investigar problemas comuns de suporte. Isso inclui o uso do log de auditoria para:
+Este artigo descreve como usar a ferramenta de pesquisa de log de auditoria para ajudá-lo a investigar problemas comuns de suporte. Isso inclui o uso do log de auditoria para:
 
 - Localizar o endereço IP do computador usado para acessar uma conta comprometida
 - Determinar quem configurou o encaminhamento de email para uma caixa de correio
@@ -33,13 +33,13 @@ Este artigo descreve como usar a ferramenta de pesquisa de log de auditoria do O
 - Determinar se um usuário criou uma regra de caixa de entrada
 - Investigue por que houve um login bem-sucedido de um usuário fora da sua organização
 
-## <a name="using-the-office-365-audit-log-search-tool"></a>Usando a ferramenta de pesquisa de log de auditoria do Office 365
+## <a name="using-the-audit-log-search-tool"></a>Usando a ferramenta de pesquisa de log de auditoria
 
-Cada um dos cenários de solução de problemas descritos neste artigo se baseia em usar a ferramenta de pesquisa de log de auditoria no centro de segurança e conformidade do Office 365. Esta seção lista as permissões necessárias para pesquisar o log de auditoria e descreve as etapas para acessar e executar pesquisas de log de auditoria. Cada seção de cenário explica como configurar uma consulta de pesquisa de log de auditoria e o que procurar nas informações detalhadas nos registros de auditoria que correspondem aos critérios de pesquisa.
+Cada um dos cenários de solução de problemas descritos neste artigo se baseia em usar a ferramenta de pesquisa de log de auditoria no centro de conformidade do & de segurança. Esta seção lista as permissões necessárias para pesquisar o log de auditoria e descreve as etapas para acessar e executar pesquisas de log de auditoria. Cada seção de cenário explica como configurar uma consulta de pesquisa de log de auditoria e o que procurar nas informações detalhadas nos registros de auditoria que correspondem aos critérios de pesquisa.
 
 ### <a name="permissions-required-to-use-the-audit-log-search-tool"></a>Permissões necessárias para usar a ferramenta de pesquisa de log de auditoria
 
-Você deve receber a função de logs de auditoria somente para exibição ou logs de auditoria no Exchange Online para pesquisar o log de auditoria do Office 365. Por padrão, essas funções são atribuídas aos grupos de funções Gerenciamento de Conformidade e Gerenciamento de Organização na página **Permissões** do centro de administração do Exchange. Os administradores globais no Office 365 e Microsoft 365 são automaticamente adicionados como membros do grupo de função gerenciamento da organização no Exchange Online. Para saber mais, confira [Gerenciar Grupos de Funções do Exchange Online](https://go.microsoft.com/fwlink/p/?LinkID=730688).
+Você deve receber a função de logs de auditoria somente para exibição ou logs de auditoria no Exchange Online para pesquisar o log de auditoria. Por padrão, essas funções são atribuídas aos grupos de funções Gerenciamento de Conformidade e Gerenciamento de Organização na página **Permissões** do centro de administração do Exchange. Os administradores globais no Office 365 e Microsoft 365 são automaticamente adicionados como membros do grupo de função gerenciamento da organização no Exchange Online. Para saber mais, confira [Gerenciar Grupos de Funções do Exchange Online](https://go.microsoft.com/fwlink/p/?LinkID=730688).
 
 ### <a name="running-audit-log-searches"></a>Executando pesquisas de log de auditoria
 
@@ -80,7 +80,7 @@ Confira aqui como configurar uma consulta de pesquisa de log de auditoria para e
 **Atividades:** Se for relevante para o seu caso, selecione uma atividade específica a ser pesquisada. Para solucionar problemas de contas comprometidas, considere selecionar o **usuário conectado à** atividade de caixa de correio em **atividades de caixa de correio do Exchange**. Isso retorna registros de auditoria mostrando o endereço IP que foi usado ao entrar na caixa de correio. Caso contrário, deixe este campo em branco para retornar os registros de auditoria de todas as atividades. 
 
 > [!TIP]
-> Deixar este campo em branco retornará as atividades **userlogged** , que é uma atividade do Azure Active Directory que indica que alguém entrou em uma conta de usuário do Office 365. Use filtragem nos resultados da pesquisa para exibir os registros de auditoria **Userlogind** .
+> Deixar este campo em branco retornará as atividades **userlogged** , que é uma atividade do Azure Active Directory que indica que alguém entrou em uma conta de usuário. Use filtragem nos resultados da pesquisa para exibir os registros de auditoria **Userlogind** .
 
 **Data de início** e **data de término:** selecione um intervalo de datas que seja aplicável à sua investigação.
 
@@ -198,9 +198,9 @@ d. O campo **userid** indica o usuário que criou a regra de caixa de entrada es
 
 ## <a name="investigate-why-there-was-a-successful-login-by-a-user-outside-your-organization"></a>Investigue por que houve um login bem-sucedido de um usuário fora da sua organização
 
-Ao revisar registros de auditoria no log de auditoria do Office 365, você pode ver registros que indicam que um usuário externo foi autenticado pelo Azure Active Directory e fez logon com êxito na sua organização. Por exemplo, um administrador no contoso.onmicrosoft.com pode ver um registro de auditoria mostrando que um usuário de uma organização do Office 365 diferente (por exemplo, fabrikam.onmicrosoft.com) se conectou com êxito no contoso.onmicrosoft.com. Da mesma forma, você pode ver registros de auditoria que indicam aos usuários uma conta da Microsoft (MSA), como um Outlook.com ou Live.com, conectado com êxito à sua organização. Nessas situações, a atividade auditada é o **usuário conectado**. 
+Ao revisar registros de auditoria no log de auditoria, você pode ver registros que indicam que um usuário externo foi autenticado pelo Azure Active Directory e fez logon com êxito na sua organização. Por exemplo, um administrador no contoso.onmicrosoft.com pode ver um registro de auditoria mostrando que um usuário de uma organização diferente (por exemplo, fabrikam.onmicrosoft.com) se conectou com êxito no contoso.onmicrosoft.com. Da mesma forma, você pode ver registros de auditoria que indicam aos usuários uma conta da Microsoft (MSA), como um Outlook.com ou Live.com, conectado com êxito à sua organização. Nessas situações, a atividade auditada é o **usuário conectado**. 
 
-Esse comportamento é devido ao design. O Azure Active Directory (Azure AD), o serviço de diretório no Office 365, permite algo chamado de *autenticação de passagem* quando um usuário externo tenta acessar um site do SharePoint ou um local do onedrive em sua organização. Quando o usuário externo tenta fazer isso, é solicitado a inserir suas credenciais do Office 365. O Azure AD usa as credenciais para autenticar o usuário, o que significa que somente o Azure AD verifica se o usuário é quem diz ser. A indicação do logon bem-sucedido no registro de auditoria é o resultado do Azure AD autenticar o usuário. O logon bem-sucedido não significa que o usuário conseguiu acessar qualquer recurso ou executar qualquer outra ação em sua organização. Somente indica que o usuário foi autenticado pelo Azure AD. Para que um usuário de passagem acesse os recursos do SharePoint ou do OneDrive, um usuário da sua organização teria que compartilhar explicitamente um recurso com o usuário externo enviando-lhes um convite de compartilhamento ou um link de compartilhamento anônimo. 
+Esse comportamento é devido ao design. Azure Active Directory (Azure AD), o serviço de diretório permite algo chamado *autenticação de passagem* quando um usuário externo tenta acessar um site do SharePoint ou um local do onedrive em sua organização. Quando o usuário externo tenta fazer isso, é solicitado a inserir suas credenciais. O Azure AD usa as credenciais para autenticar o usuário, o que significa que somente o Azure AD verifica se o usuário é quem diz ser. A indicação do logon bem-sucedido no registro de auditoria é o resultado do Azure AD autenticar o usuário. O logon bem-sucedido não significa que o usuário conseguiu acessar qualquer recurso ou executar qualquer outra ação em sua organização. Somente indica que o usuário foi autenticado pelo Azure AD. Para que um usuário de passagem acesse os recursos do SharePoint ou do OneDrive, um usuário da sua organização teria que compartilhar explicitamente um recurso com o usuário externo enviando-lhes um convite de compartilhamento ou um link de compartilhamento anônimo. 
 
 > [!NOTE]
 > O Azure AD permite a autenticação de passagem somente para *aplicativos de terceiros*, como o SharePoint Online e o onedrive for Business. Não é permitido para outros aplicativos de terceiros.
@@ -225,7 +225,7 @@ Estes são dois cenários de exemplo que resultaria em um **usuário bem-sucedid
 
   - Um usuário com uma conta da Microsoft (como SaraD@outlook.com) tentou acessar um documento em uma conta do OneDrive for Business no fourthcoffee.onmicrosoft.com e não há uma conta de usuário convidado correspondente para o SaraD@outlook.com no fourthcoffee.onmicrosoft.com.
 
-  - Um usuário com uma conta corporativa ou de estudante em uma organização do Office 365 (como pilarp@fabrikam.onmicrosoft.com) tentou acessar um site do SharePoint no contoso.onmicrosoft.com e não há uma conta de usuário convidado correspondente para o pilarp@fabrikam.com no contoso.onmicrosoft.com.
+  - Um usuário com uma conta corporativa ou de estudante em uma organização (como pilarp@fabrikam.onmicrosoft.com) tentou acessar um site do SharePoint no contoso.onmicrosoft.com e não há uma conta de usuário convidado correspondente para o pilarp@fabrikam.com no contoso.onmicrosoft.com.
 
 
 ### <a name="tips-for-investigating-successful-logins-resulting-from-pass-through-authentication"></a>Dicas para a investigação de logons bem-sucedidos resultantes da autenticação de passagem
@@ -236,6 +236,6 @@ Estes são dois cenários de exemplo que resultaria em um **usuário bem-sucedid
 
     Além das atividades de **logon do usuário** , outros registros de auditoria podem ser retornados, por exemplo, que indicam um usuário na sua organização recursos compartilhados com o usuário externo e se o usuário externo acesso, modificou ou baixou um documento que foi compartilhado com eles.
 
-- Procure atividades de compartilhamento do SharePoint que informariam que um arquivo foi compartilhado com o usuário externo identificado por um registro **de auditoria conectado** por um usuário. Para saber mais, veja [Usar a auditoria de compartilhamento no log de auditoria do Office 365](use-sharing-auditing.md).
+- Procure atividades de compartilhamento do SharePoint que informariam que um arquivo foi compartilhado com o usuário externo identificado por um registro **de auditoria conectado** por um usuário. Para obter mais informações, consulte [usar a auditoria de compartilhamento no log de auditoria](use-sharing-auditing.md).
 
 - Exporte os resultados de pesquisa de log de auditoria que contêm registros relevantes à sua investigação, para que você possa usar o Excel para pesquisar outras atividades relacionadas ao usuário externo. Para obter mais informações, consulte [exportar, configurar e exibir registros de log de auditoria](export-view-audit-log-records.md).

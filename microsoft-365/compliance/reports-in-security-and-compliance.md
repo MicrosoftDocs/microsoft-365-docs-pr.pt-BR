@@ -13,19 +13,19 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 7acd33ce-1ec8-49fb-b625-43bac7b58c5a
 description: 'Use o centro de conformidade de & de segurança para obter vários relatórios para sua organização do SharePoint Online e do Exchange Online, além de relatórios do Azure Active Directory.  '
-ms.openlocfilehash: 4d67818cbe0523d8823b265df53e7da5051163e6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2199c84673e20e338cd2a475de5aae9bb344f032
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597618"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621323"
 ---
 # <a name="reports-in-the-security--compliance-center"></a>Relatórios no Centro de Conformidade e Segurança
 
-Você pode usar a página **exibir relatórios** no centro de conformidade de & de segurança para acessar rapidamente relatórios de auditoria para suas organizações do SharePoint Online e do Exchange Online. Você também pode acessar os relatórios de entrada do usuário do Azure Active Directory (AD), relatórios de atividades do usuário e o log de auditoria do Azure AD na página **exibir relatórios** . Isso ocorre porque sua assinatura paga do Office 365 inclui uma assinatura gratuita para o Microsoft Azure. Na primeira vez que tentar acessar esses relatórios do Azure, você precisará concluir um processo de registro de uma vez. 
+Você pode usar a página **exibir relatórios** no centro de conformidade de & de segurança para acessar rapidamente relatórios de auditoria para suas organizações do SharePoint Online e do Exchange Online. Você também pode acessar os relatórios de entrada do usuário do Azure Active Directory (AD), relatórios de atividades do usuário e o log de auditoria do Azure AD na página **exibir relatórios** . Isso ocorre porque sua assinatura paga do Microsoft 365 inclui uma assinatura gratuita para o Microsoft Azure. Na primeira vez que tentar acessar esses relatórios do Azure, você precisará concluir um processo de registro de uma vez. 
   
 > [!TIP]
-> Para exibir relatórios adicionais sobre a atividade em sua organização do Office 365, confira [relatórios de atividade no centro de administração do Microsoft 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
+> Para exibir relatórios adicionais sobre a atividade em sua organização, consulte [relatórios de atividades no centro de administração do Microsoft 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
   
  **Antes de começar**
   
@@ -41,7 +41,7 @@ Você precisa das permissões a seguir para exibir relatórios no centro de conf
   
 1. Acesse [https://protection.office.com/#/viewreports](https://protection.office.com/#/viewreports).
     
-2. Entre no Office 365 usando as credenciais de uma conta de usuário na sua organização do Office 365.
+2. Entre usando as credenciais de uma conta de usuário em sua organização.
     
 Na página **exibir relatórios** , você pode exibir os seguintes tipos de relatórios: 
   
@@ -55,9 +55,9 @@ A tabela a seguir descreve os relatórios na seção **auditoria** da página **
   
 |**Relatório**|**Descrição**|
 |:-----|:-----|
-|**Relatório de log de auditoria do Office 365** <br/> |Você pode pesquisar o log de auditoria do Office 365 para atividades de usuário e administrador na sua organização do Office 365. O relatório contém entradas do usuário e da atividade de administração no Exchange Online, SharePoint Online, OneDrive for Business e Azure Active Directory, que é o serviço de diretório para o Office 365. Para obter mais informações, consulte [Search the Audit Log In The Office 365](search-the-audit-log-in-security-and-compliance.md).  <br/> |
-|**Relatórios do Azure AD** <br/> |Para procurar atividades de entrada incomuns ou suspeitas na sua organização do Office 365, você pode usar os relatórios de entrada e de atividades no Microsoft Azure. Você também pode exibir eventos no log de auditoria do Azure AD. Para exibir relatórios no Azure, basta clicar em **exibir relatórios do Azure ad**. Para saber mais, confira: <br/><br/>[Use sua assinatura gratuita do Azure Active Directory no Office 365](use-your-free-azure-ad-subscription-in-office-365.md). <br/> [Exibir seus relatórios de uso e acesso](https://go.microsoft.com/fwlink/p/?LinkId=506902).  <br/> |
-|**Relatórios de auditoria do Exchange** <br/> | Você pode usar a funcionalidade de auditoria no Office 365 para controlar as alterações feitas na configuração do Exchange Online pelos administradores da sua organização. As alterações feitas na sua organização do Exchange Online por um administrador de data center da Microsoft ou por um administrador delegado também são registradas. Para o Exchange Online, o log de auditoria de administrador é habilitado por padrão, portanto, você não precisa fazer nada para ativá-lo. O Exchange Online também fornece log de auditoria de caixa de correio para permitir que você controle o acesso a caixas de correio por alguém que não seja o proprietário da caixa de correio Você precisa habilitar o log de auditoria de caixas de correio em cada caixa de correio para a qual desejar controlar o acesso de não proprietário.  <br/>  Para obter o log de auditoria de administrador e caixa de correio, você pode executar relatórios de auditoria para exibir as entradas do log de auditoria. Você também pode exportar logs de auditoria de caixa de correio e de administrador, que são enviados para você dentro de 24 horas em um arquivo XML que é anexado à mensagem de email. <br/><br/>Para mais informações sobre os logs de auditoria de exportação, confira:  <br/><br/> [Exportar logs de auditoria de caixas de correio](https://go.microsoft.com/fwlink/p/?LinkID=404104) <br/> [Exibir e exportar o log de auditoria do administrador de datacenter](https://go.microsoft.com/fwlink/p/?LinkId=404109) <br/> [Pesquisar as alterações do grupo de funções ou logs de auditoria de administrador](https://go.microsoft.com/fwlink/p/?LinkId=404105) <br/>   [Relatórios de auditoria do Exchange](https://go.microsoft.com/fwlink/p/?LinkID=395232).  <br/> |
+|**relatório de log de auditoria** <br/> |Você pode pesquisar o log de auditoria para atividades de usuário e de administrador em sua organização. O relatório contém entradas do usuário e da atividade de administração no Exchange Online, SharePoint Online, OneDrive for Business e Azure Active Directory, que é o serviço de diretório para o Office 365. Para obter mais informações, consulte [Search the Audit Log In The Office 365](search-the-audit-log-in-security-and-compliance.md).  <br/> |
+|**Relatórios do Azure AD** <br/> |Para procurar atividades de entrada incomuns ou suspeitas em sua organização, você pode usar os relatórios de entrada e de atividades no Microsoft Azure. Você também pode exibir eventos no log de auditoria do Azure AD. Para exibir relatórios no Azure, basta clicar em **exibir relatórios do Azure ad**. Para saber mais, confira: <br/><br/>[Use sua assinatura gratuita do Azure Active Directory no Office 365](use-your-free-azure-ad-subscription-in-office-365.md). <br/> [Exibir seus relatórios de uso e acesso](https://go.microsoft.com/fwlink/p/?LinkId=506902).  <br/> |
+|**Relatórios de auditoria do Exchange** <br/> | Você pode usar a funcionalidade de auditoria no Microsoft 365 para controlar as alterações feitas na configuração do Exchange Online pelos administradores da sua organização. As alterações feitas na sua organização do Exchange Online por um administrador de data center da Microsoft ou por um administrador delegado também são registradas. Para o Exchange Online, o log de auditoria de administrador é habilitado por padrão, portanto, você não precisa fazer nada para ativá-lo. O Exchange Online também fornece log de auditoria de caixa de correio para permitir que você controle o acesso a caixas de correio por alguém que não seja o proprietário da caixa de correio Você precisa habilitar o log de auditoria de caixas de correio em cada caixa de correio para a qual desejar controlar o acesso de não proprietário.  <br/>  Para obter o log de auditoria de administrador e caixa de correio, você pode executar relatórios de auditoria para exibir as entradas do log de auditoria. Você também pode exportar logs de auditoria de caixa de correio e de administrador, que são enviados para você dentro de 24 horas em um arquivo XML que é anexado à mensagem de email. <br/><br/>Para mais informações sobre os logs de auditoria de exportação, confira:  <br/><br/> [Exportar logs de auditoria de caixas de correio](https://go.microsoft.com/fwlink/p/?LinkID=404104) <br/> [Exibir e exportar o log de auditoria do administrador de datacenter](https://go.microsoft.com/fwlink/p/?LinkId=404109) <br/> [Pesquisar as alterações do grupo de funções ou logs de auditoria de administrador](https://go.microsoft.com/fwlink/p/?LinkId=404105) <br/>   [Relatórios de auditoria do Exchange](https://go.microsoft.com/fwlink/p/?LinkID=395232).  <br/> |
    
 ## <a name="supervisory-review-report"></a>Relatório de análise de supervisão
 
@@ -65,4 +65,4 @@ Com o relatório de análise de supervisão, você pode ver o status de todas as
   
 ## <a name="data-loss-prevention-reports"></a>Relatórios de prevenção contra perda de dados
 
-Os relatórios de prevenção de perda de dados (DLP) contêm informações sobre as políticas e regras de DLP que foram aplicadas ao conteúdo contêm dados confidenciais em sua organização do Office 365. Você também pode configurar o relatório para exibir informações sobre as ações de DLP que eram baseados na sua política e nas regras de DLP. Para obter mais informações, consulte [View the Report for Data Loss Prevention](view-the-dlp-reports.md).
+Os relatórios de prevenção de perda de dados (DLP) contêm informações sobre as políticas e regras de DLP que foram aplicadas ao conteúdo contêm dados confidenciais em sua organização. Você também pode configurar o relatório para exibir informações sobre as ações de DLP que eram baseados na sua política e nas regras de DLP. Para obter mais informações, consulte [View the Report for Data Loss Prevention](view-the-dlp-reports.md).

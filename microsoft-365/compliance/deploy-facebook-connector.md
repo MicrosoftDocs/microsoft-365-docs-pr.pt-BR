@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem configurar um conector nativo para importar e arquivar páginas de negócios do Facebook para o Microsoft 365. Depois que esses dados são importados para a Microsoft 365, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a governança dos dados de Facebook da sua organização.
-ms.openlocfilehash: 48747dade98701303c4ca6a8c00192ec7faff34a
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 10444d8a2c83fd89eaba927b422c8c89466d05cc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42635019"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636139"
 ---
 # <a name="deploy-a-connector-to-archive-facebook-business-pages-data"></a>Implantar um conector para arquivar dados de páginas de negócios do Facebook
 
-Este artigo contém o processo passo a passo para implantar um conector que usa o serviço de importação 365 da Microsoft para importar dados de páginas de negócios do Facebook para o Microsoft 365. Para obter uma visão geral de alto nível desse processo e uma lista de pré-requisitos necessários para implantar um conector do Facebook, consulte [configurar um conector para arquivar dados do Facebook](archive-facebook-data-with-sample-connector.md). 
+Este artigo contém o processo passo a passo para implantar um conector que usa o serviço de importação do Office 365 para importar dados de páginas de negócios do Facebook para o Microsoft 365. Para obter uma visão geral de alto nível desse processo e uma lista de pré-requisitos necessários para implantar um conector do Facebook, consulte [configurar um conector para arquivar dados do Facebook](archive-facebook-data-with-sample-connector.md). 
 
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>Etapa 1: criar um aplicativo no Azure Active Directory
 
-1. Vá para <https://portal.azure.com> e entre usando as credenciais de uma conta de administrador global do Office 365.
+1. Vá para <https://portal.azure.com> e entre usando as credenciais de uma conta de administrador global.
 
     ![Criar aplicativo no AAD](../media/FBCimage1.png)
 

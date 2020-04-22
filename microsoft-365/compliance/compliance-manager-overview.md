@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: 7fd8e4e99edd976085cf9fd6fb3b9a0d88debf89
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 31a56f7cba8bb8957d758ca2905853f26d1f8edf
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141608"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632986"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Gerente de conformidade da Microsoft (versão prévia)
 
@@ -43,7 +43,7 @@ Com o gerente de conformidade, sua organização pode:
 - Produzir relatórios detalhados do Microsoft Excel, que documentam as atividades de conformidade realizadas pela Microsoft e sua organização para auditores, reguladores e outros revisores de conformidade.
 
 > [!NOTE]
-> As ações do cliente fornecidas no gerente de conformidade são recomendações; a sua organização pode avaliar a eficácia dessas recomendações em seu respectivo ambiente normativo antes da implementação. As recomendações encontradas no Gerenciador de conformidade não devem ser interpretadas como garantia de conformidade.
+> As ações do cliente fornecidas no gerente de conformidade são recomendações; a sua organização pode avaliar a eficácia dessas recomendações em seu respectivo ambiente normativo antes da implementação. As recomendações encontradas no Gerenciador de conformidade não devem ser interpretadas como uma garantia de conformidade.
 
 ## <a name="relationship-to-compliance-score"></a>Relação com a pontuação de conformidade
 
@@ -52,7 +52,7 @@ A [Pontuação de conformidade da Microsoft (versão prévia)](compliance-score.
 O Gerenciador de conformidade compartilha o mesmo backend com pontuação de conformidade. Durante a fase de visualização pública para ambas as ferramentas, o Gerenciador de conformidade é onde você gerenciará as avaliações e as implementações de controle personalizado. Saiba mais sobre a [relação entre a pontuação de conformidade e o gerente de conformidade](compliance-score-release-notes.md#compliance-score-relationship-to-compliance-manager).
   
 > [!IMPORTANT]
-> A pontuação de conformidade não expressa uma medida absoluta da conformidade organizacional com qualquer padrão ou regulamentação específico. Ele expressa a extensão para a qual você adotou controles que podem reduzir os riscos para dados pessoais e privacidade individual. Nenhum serviço pode garantir que você está em conformidade com um padrão ou regulamento, e a pontuação de conformidade não deve ser interpretada como uma garantia de qualquer forma.
+> O Índice de conformidade não expressa uma medida absoluta da conformidade organizacional com qualquer padrão ou regulamento específico. Ela expressa até que ponto você adotou controles que podem reduzir os riscos para dados pessoais e privacidade individual. Nenhum serviço pode garantir que você está em conformidade com um padrão ou regulamento, e a pontuação de conformidade não deve ser interpretada como uma garantia de qualquer forma.
 
 ## <a name="compliance-manager-components"></a>Componentes do Gerenciador de conformidade
 
@@ -128,7 +128,7 @@ Os controles de certificação normalmente são implementados por uma pessoa e t
 
 Observe que as **ações de melhoria** na pontuação de conformidade são o equivalente dos itens de **ação** no Gerenciador de conformidade.
 
-## <a name="permissions"></a>Permissions
+## <a name="permissions"></a>Permissões
 
 O Gerenciador de Conformidade usa um modelo de permissão de controle de acesso baseado em função. Somente usuários aos quais é atribuída uma função de usuário podem acessar o Gerenciador de Conformidade, e as ações permitidas por cada usuário são restritas por tipo de função. [Exibir uma tabela](working-with-compliance-manager.md#permissions) mostrando as ações permitidas para cada permissão.
 

@@ -13,21 +13,21 @@ ms.collection: ''
 search.appverid: MOE150
 ms.assetid: 7a150c84-049c-4a9c-8c91-22355b35f2a7
 description: Use a ferramenta de coleção PST da Microsoft para pesquisar a rede da sua organização para obter um inventário de arquivos PST espalhados por toda a organização. Após localizar arquivos PST, você pode usar a ferramenta de coleção PST para copiá-los em um local central para que possa importá-los para o Office 365.
-ms.openlocfilehash: 736e317318f860936450b7412bc465fc7c9d59e1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ee9a657cc0ac44e57e85edc68e80e0a76aa063d4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073910"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633326"
 ---
 # <a name="use-the-pst-collection-tool-to-find-copy-and-delete-pst-files-in-your-organization"></a>Usar a ferramenta de coleção PST para localizar, copiar e excluir arquivos PST em sua organização
 
 > [!IMPORTANT]
-> A ferramenta de coleção PST descrita neste artigo não é suportada em nenhum programa ou serviço de suporte padrão da Microsoft. A ferramenta é fornecida como está sem garantia de qualquer tipo. A Microsoft também se isenta de todas as garantias implícitas, incluindo sem limitações quaisquer garantias aplicáveis de padrões de comercialização ou de adequação a uma finalidade específica. Todo o risco resultante do uso ou do desempenho da ferramenta e da documentação permanece com você. Em hipótese alguma a Microsoft, seus autores ou qualquer outra pessoa envolvida na criação, produção ou entrega da ferramenta serão responsáveis por qualquer dano (incluindo, sem limitação, danos à perda de lucros de negócios, interrupção de negócios, perda de informações comerciais ou outras perdas de pecuniary) resultantes do uso ou da incapacidade de usar a ferramenta ou a documentação, mesmo que a Microsoft tenha sido avisada da possibilidade de tais danos.
+> A ferramenta de coleção PST descrita neste artigo não é suportada em nenhum programa ou serviço de suporte padrão da Microsoft. A ferramenta é fornecida como está sem garantia de qualquer tipo. A Microsoft também se isenta de todas as garantias implícitas, incluindo sem limitações quaisquer garantias aplicáveis de padrões de comercialização ou de adequação a uma finalidade específica. Todo o risco resultante do uso ou do desempenho da ferramenta e da documentação permanece com você. Em qualquer circunstância a Microsoft, seus autores, ou qualquer outra pessoa envolvida na criação, produção ou entrega da ferramenta será responsabilizada por qualquer dano (incluindo, sem limitação, danos à perda de lucros comerciais, interrupção de negócios, perda de informações comerciais ou outras perdas de pecuniary) resultante do uso ou da incapacidade de usar a ferramenta ou a documentação, mesmo que a Microsoft tenha sido avisada da possibilidade de tais danos.
 
-Você pode usar a ferramenta de coleção PST da Microsoft para pesquisar arquivos PST na rede da sua organização. A ferramenta ajuda você a obter um inventário de arquivos PST espalhados por toda a sua organização. Após localizar arquivos PST, você pode usar a ferramenta de coleção PST para copiá-los em um local central. Ter PSTs em um local e, em seguida, permite que você importe-os para caixas de correio do Exchange Online (ou uma única caixa de correio do Exchange Online), onde você pode aplicar o avançado conjunto de recursos de conformidade no Office 365. Isso inclui a importação de PSTs para caixas de correio de arquivo morto de usuários, pesquisando mensagens específicas nos arquivos PST que você importou usando ferramentas de pesquisa de descoberta eletrônica, retendo mensagens usando as políticas de retenção de descoberta eletrônica e do Office 365 e gerenciando a vida ciclo dessas mensagens usando os recursos de gerenciamento de registros de mensagens no Exchange Online. Após ter certeza de que os arquivos PST que você coletou foram importados com êxito para o Office 365, você pode usar a ferramenta para excluí-los do local original na sua rede. 
+Você pode usar a ferramenta de coleção PST da Microsoft para pesquisar arquivos PST na rede da sua organização. A ferramenta ajuda você a obter um inventário de arquivos PST espalhados por toda a sua organização. Após localizar arquivos PST, você pode usar a ferramenta de coleção PST para copiá-los em um local central. Ter PSTs em um local e, em seguida, permite que você importe-os para caixas de correio do Exchange Online (ou uma única caixa de correio do Exchange Online), onde você pode aplicar o avançado conjunto de recursos de conformidade no Office 365. Isso inclui a importação de PSTs para caixas de correio de arquivo morto de usuários, pesquisando mensagens específicas nos arquivos PST que você importou usando ferramentas de pesquisa de descoberta eletrônica, retendo mensagens usando as políticas de retenção e bloqueios de descoberta eletrônica e gerenciando o ciclo de vida dessas mensagens usando os recursos de gerenciamento de registros de mensagens no Exchange Online. Após ter certeza de que os arquivos PST que você coletou foram importados com êxito para o Office 365, você pode usar a ferramenta para excluí-los do local original na sua rede. 
   
-Outra coisa que você pode fazer com a ferramenta de coleção PST é impedir que os usuários criem novos arquivos PST e alterando os arquivos PST existentes encontrados na rede. Esses recursos de "bloqueio" permitem localizar, coletar e importar um conjunto conhecido de arquivos PST para o Office 365 e impedir a proliferação futura de arquivos PST em sua organização. 
+Outra coisa que você pode fazer com a ferramenta de coleção PST é impedir que os usuários criem novos arquivos PST e alterando os arquivos PST existentes encontrados na rede. Esses recursos de "bloqueio" permitem localizar, coletar e importar um conjunto conhecido de arquivos PST para a Microsoft 365 e evitar a proliferação futura de arquivos PST em sua organização. 
   
 ## <a name="how-the-pst-collection-tool-works"></a>Como funciona a ferramenta de coleção PST
 
@@ -109,14 +109,14 @@ Confira a descrição do `Locations` parâmetro na tabela no procedimento a segu
 
 Depois de executar com êxito a ferramenta de coleção PST no modo localizar, os arquivos a seguir são criados e armazenados nas pastas especificadas pelos `LogLocation` parâmetros `ConfigurationLocation` e. 
   
-- **\>__ JobName localizar\<DateTimeStamp\>. log-o arquivo de log contém as mensagens de status \<** que foram exibidas. Esse arquivo é criado na pasta especificada pelo `LogLocation` parâmetro. 
+- **\>_Find_JobName localizar\<DateTimeStamp\>. log-o arquivo de log contém as mensagens de status \<** que foram exibidas. Esse arquivo é criado na pasta especificada pelo `LogLocation` parâmetro. 
     
-- **\>__ JobName localizar\<DateTimeStamp\>. csv-o arquivo CSV contém uma linha para cada \<** arquivo PST encontrado. As informações de cada PST incluem o computador onde o arquivo PST foi encontrado, o local do caminho completo do arquivo PST, o proprietário do arquivo PST e o tamanho (em kilobytes, KBs) do arquivo PST. Esse arquivo é criado na pasta especificada pelo `LogLocation` parâmetro. 
+- **\>_Find_JobName localizar\<DateTimeStamp\>. csv-o arquivo CSV contém uma linha para cada \<** arquivo PST encontrado. As informações de cada PST incluem o computador onde o arquivo PST foi encontrado, o local do caminho completo do arquivo PST, o proprietário do arquivo PST e o tamanho (em kilobytes, KBs) do arquivo PST. Esse arquivo é criado na pasta especificada pelo `LogLocation` parâmetro. 
     
     > [!TIP]
     > Use a ferramenta AutoSoma no Excel para calcular o tamanho total (em KB) de todos os arquivos PST listados no arquivo CSV. Em seguida, você pode usar uma calculadora de conversão para converter o tamanho total em megabytes (MB) ou gigabytes (GB). 
   
-- **\>__ JobName localizar\<DateTimeStamp\>. xml-o arquivo XML contém informações sobre os valores de parâmetro que são usados quando você executou a ferramenta \<** no modo localizar. Esse arquivo também contém informações sobre cada arquivo PST encontrado. Os dados nesse arquivo são usados quando você executa a ferramenta novamente para que o mesmo trabalho bloqueie, colete ou exclua os arquivos PST que foram encontrados. Esse arquivo é criado na pasta especificada pelo `ConfigurationLocation` parâmetro. 
+- **\>_Find_JobName localizar\<DateTimeStamp\>. xml-o arquivo XML contém informações sobre os valores de parâmetro que são usados quando você executou a ferramenta \<** no modo localizar. Esse arquivo também contém informações sobre cada arquivo PST encontrado. Os dados nesse arquivo são usados quando você executa a ferramenta novamente para que o mesmo trabalho bloqueie, colete ou exclua os arquivos PST que foram encontrados. Esse arquivo é criado na pasta especificada pelo `ConfigurationLocation` parâmetro. 
     
     > [!IMPORTANT]
     > Não renomeie, altere ou mova este arquivo. Ela é usada pela ferramenta coleção PST quando você executa novamente a ferramenta no modo bloquear, copiar ou excluir para o mesmo trabalho. 
@@ -169,7 +169,7 @@ Para bloquear o acesso a arquivos PST:
 A próxima etapa é copiar os arquivos PST que foram encontrados quando você executou a ferramenta de coleção PST no modo localizar. Isso permite coletar os arquivos PST em um local para que você possa importá-los posteriormente para o Office 365. Antes de copiar os arquivos PST para o local da coleta, considere determinar a quantidade total de espaço de armazenamento necessário. Você pode fazer isso usando o arquivo CSV que foi criado na etapa 1 para calcular o tamanho total de todos os arquivos PST.
   
 > [!NOTE]
-> Após importar os arquivos PST para o Office 365 e excluí-los do local original, convém excluí-los do local da coleção que você copiou para esta etapa. 
+> Após importar os arquivos PST para o Microsoft 365 e excluí-los do local original, convém excluí-los do local da coleção que você copiou para esta etapa. 
   
 1. Abra um prompt de comando (executar como administrador) no computador local.
     
@@ -206,9 +206,9 @@ A próxima etapa é copiar os arquivos PST que foram encontrados quando você ex
 
 Após executar com êxito o DataCollector. exe no modo de coleta, os arquivos a seguir são criados e armazenados nas pastas especificadas pelos parâmetros `LogLocation` e. `ConfigurationLocation` 
   
-- **\>__ JobName coletar\<DateTimeStamp\>. log-o arquivo de log contém as mensagens de status \<** que foram exibidas. Esse arquivo é criado na pasta especificada pelo `LogLocation` parâmetro. 
+- **\>_Collect_JobName coletar\<DateTimeStamp\>. log-o arquivo de log contém as mensagens de status \<** que foram exibidas. Esse arquivo é criado na pasta especificada pelo `LogLocation` parâmetro. 
     
-- **\>__ JobName coletar\<DateTimeStamp\>. xml-o arquivo XML contém apenas informações sobre os valores de parâmetro que, em que foram usados pela ferramenta, foram executados no \<** modo de coleta. Os dados nesse arquivo são usados quando você executa a ferramenta de DataCollector. exe novamente para excluir arquivos PST; consulte a [etapa 5](#step-5-delete-the-pst-files-found-on-your-network).
+- **\>_Collect_JobName coletar\<DateTimeStamp\>. xml-o arquivo XML contém apenas informações sobre os valores de parâmetro que, em que foram usados pela ferramenta, foram executados no \<** modo de coleta. Os dados nesse arquivo são usados quando você executa a ferramenta de DataCollector. exe novamente para excluir arquivos PST; consulte a [etapa 5](#step-5-delete-the-pst-files-found-on-your-network).
     
 
 ## <a name="step-4-import-the-pst-files-to-office-365"></a>Etapa 4: importar os arquivos PST para o Office 365
@@ -259,6 +259,6 @@ Depois que os arquivos PST encontrados e coletados tiverem sido importados para 
 
 Após executar com êxito o DataCollector. exe no modo de exclusão, os arquivos a seguir são criados e armazenados na pasta especificada pelos parâmetros `LogLocation` e. `ConfigurationLocation` 
   
-- **\>__ JobName Delete\<DateTimeStamp\>. log-o arquivo de log contém as mensagens de status \<** que foram exibidas. Esse arquivo é criado na pasta especificada pelo `LogLocation` parâmetro. 
+- **\>_Delete_JobName Delete\<DateTimeStamp\>. log-o arquivo de log contém as mensagens de status \<** que foram exibidas. Esse arquivo é criado na pasta especificada pelo `LogLocation` parâmetro. 
     
-- **\>__ JobName Delete\<DateTimeStamp\>. xml-o arquivo XML contém apenas informações sobre os valores de parâmetro que, em que foram usados pela ferramenta, foram executados no \<** modo de exclusão. Ele também lista o nome e o caminho do arquivo de cada arquivo PST que foi excluído. Esse arquivo é criado na pasta especificada pelo `ConfigurationLocation` parâmetro. 
+- **\>_Delete_JobName Delete\<DateTimeStamp\>. xml-o arquivo XML contém apenas informações sobre os valores de parâmetro que, em que foram usados pela ferramenta, foram executados no \<** modo de exclusão. Ele também lista o nome e o caminho do arquivo de cada arquivo PST que foi excluído. Esse arquivo é criado na pasta especificada pelo `ConfigurationLocation` parâmetro. 

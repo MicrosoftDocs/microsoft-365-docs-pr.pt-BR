@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Agora, você pode aplicar políticas de DLP a chats e canais do Microsoft Teams. Leia este artigo para saber mais sobre como ele funciona.
-ms.openlocfilehash: 2c530279dde03f357386f11b9e9af5d68be5ee7f
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.openlocfilehash: 290e1e7a7c3fd395c1f7e1739b08eba64c8d2d8d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170551"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633050"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Prevenção de perda de dados e Microsoft Teams
 
@@ -67,7 +67,7 @@ O link o **que é isto** abre um [artigo](data-loss-prevention-policies.md) sobr
 
 Para realizar essa tarefa, você deve receber uma função que tenha permissões para editar políticas de DLP. Para saber mais, confira [permissões](data-loss-prevention-policies.md#permissions).
 
-1. Vá para o centro de conformidade & segurança do Office[https://protection.office.com](https://protection.office.com)365 () e entre.
+1. Vá para o centro de conformidade e segurança[https://protection.office.com](https://protection.office.com)& () e entre.
 
 2. Escolha > **política**de **prevenção contra perda de dados**.
 
@@ -87,7 +87,7 @@ Aguarde aproximadamente uma hora para que suas alterações funcionem de forma e
 
 Para realizar essa tarefa, você deve receber uma função que tenha permissões para editar políticas de DLP. Para saber mais, confira [permissões](data-loss-prevention-policies.md#permissions).
 
-1. Vá para o centro de conformidade & segurança do Office[https://protection.office.com](https://protection.office.com)365 () e entre.
+1. Vá para o centro de conformidade e segurança[https://protection.office.com](https://protection.office.com)& () e entre.
 
 2. Escolha > **política**de **prevenção contra perda de dados**.
 
@@ -105,9 +105,9 @@ Aguarde aproximadamente uma hora para que suas alterações funcionem de forma e
 
 Para realizar essa tarefa, você deve receber uma função que tenha permissões para editar políticas de DLP. Para saber mais, confira [permissões](data-loss-prevention-policies.md#permissions).
 
-1. Vá para o centro de conformidade & segurança do Office[https://protection.office.com](https://protection.office.com)365 () e entre.
+1. Vá para o centro de conformidade e segurança[https://protection.office.com](https://protection.office.com)& () e entre.
 
-2. Escolha > **** política > de **prevenção contra perda de dados****+ criar uma política**.
+2. Escolha > **Policy**política > de **prevenção contra perda de dados****+ criar uma política**.
 
 3. Escolha um [modelo](data-loss-prevention-policies.md#dlp-policy-templates)e, em seguida, escolha **Avançar**.<br/>No nosso exemplo, escolhemos o modelo de dados de informações de identificação pessoal dos EUA.<br/>![Modelo de privacidade para política de DLP](../media/dlp-teams-createnewpolicy-template.png)<br/>
 

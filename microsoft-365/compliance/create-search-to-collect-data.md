@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 47d30cb2da91eff1260ffcf07838bd066917b4a1
-ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
+ms.openlocfilehash: 4b740b07b59b7500b8f57584767796b7f31ae87d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42610638"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635971"
 ---
 # <a name="create-a-search"></a>Criar uma pesquisa
 
@@ -39,7 +39,7 @@ Escolha os locais de conteúdo dos responsáveis pela pesquisa, especificando os
 
 ## <a name="choose-non-custodial-locations"></a>Escolher locais não custodial
 
-Em alguns casos, talvez você queira Pesquisar fontes de dados que não estão associadas a um determinado. Nesse caso, você pode especificar os locais que deseja pesquisar ou optar por pesquisar todos os locais de conteúdo de um serviço específico do Office 365 (como pesquisar todas as caixas de correio do Exchange ou todos os sites do SharePoint e contas do OneDrive).
+Em alguns casos, talvez você queira Pesquisar fontes de dados que não estão associadas a um determinado. Nesse caso, você pode especificar os locais que deseja pesquisar ou optar por pesquisar todos os locais de conteúdo de um serviço específico da Microsoft (como pesquisar todas as caixas de correio do Exchange ou todos os sites do SharePoint e contas do OneDrive).
 
 ## <a name="define-the-search-query-and-conditions"></a>Definir a consulta de pesquisa e condições
 

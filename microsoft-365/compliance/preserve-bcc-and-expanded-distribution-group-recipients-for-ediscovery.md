@@ -11,17 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: eb8ddf15-0080-457e-9d83-e73e193da334
-description: Bloqueio in-loco, retenção de litígio e políticas de retenção do Office 365 permitem preservar o conteúdo da caixa de correio para atender aos requisitos de conformidade normativa e eDiscovery.
-ms.openlocfilehash: 3d128016e89a5e1eadeae4e2c189588c4b2951a3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Bloqueio in-loco, retenção de litígio e políticas de retenção do Microsoft 365 permitem preservar o conteúdo da caixa de correio para atender aos requisitos de conformidade normativa e eDiscovery.
+ms.openlocfilehash: 07959edc89aa9d3335b9af501743eae4a11a6aa1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601748"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634859"
 ---
 # <a name="preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery"></a>Preservar destinatários Cco e de grupos de distribuição expandidos para Descoberta Eletrônica
   
-Bloqueio in-loco, retenção de litígio e [políticas de retenção do Office 365](https://go.microsoft.com/fwlink/?LinkID=827811) (criadas no centro de conformidade & segurança) permitem preservar o conteúdo da caixa de correio para atender aos requisitos de conformidade normativa e eDiscovery. As informações sobre os destinatários endereçados diretamente nos campos para e CC de uma mensagem são incluídas em todas as mensagens por padrão, mas sua organização pode exigir a capacidade de Pesquisar e reproduzir detalhes sobre todos os destinatários de uma mensagem. Isso inclui: 
+Bloqueio in-loco, retenção de litígio e [políticas de retenção do Microsoft 365](https://go.microsoft.com/fwlink/?LinkID=827811) (criadas no centro de conformidade & segurança) permitem preservar o conteúdo da caixa de correio para atender aos requisitos de conformidade normativa e eDiscovery. As informações sobre os destinatários endereçados diretamente nos campos para e CC de uma mensagem são incluídas em todas as mensagens por padrão, mas sua organização pode exigir a capacidade de Pesquisar e reproduzir detalhes sobre todos os destinatários de uma mensagem. Isso inclui: 
   
 - **Destinatários endereçados usando o campo Cco de uma mensagem:** Os destinatários Cco são armazenados na mensagem da caixa de correio do remetente, mas não estão incluídos nos cabeçalhos da mensagem entregue aos destinatários. 
     
@@ -33,13 +33,13 @@ Exchange Online e Exchange Server 2013 (atualização cumulativa 7 e versões po
 
 Conforme mencionado anteriormente, as informações sobre os destinatários do estava são armazenadas com a mensagem na caixa de correio do remetente. Essas informações são indexadas e disponibilizadas para pesquisas e isenções de descoberta eletrônica. 
   
-As informações sobre destinatários expandidos do grupo de distribuição são armazenadas com a mensagem após você colocar uma caixa de correio em bloqueio in-loco ou retenção de litígio. No Office 365, essas informações também são armazenadas quando uma política de retenção do Office 365 é aplicada a uma caixa de correio. A associação do grupo de distribuição é determinada no momento em que a mensagem é enviada. A lista de destinatários expandidos armazenada com a mensagem não é afetada por alterações na associação do grupo depois que a mensagem é enviada. 
+As informações sobre destinatários expandidos do grupo de distribuição são armazenadas com a mensagem após você colocar uma caixa de correio em bloqueio in-loco ou retenção de litígio. No Office 365, essas informações também são armazenadas quando uma política de retenção da Microsoft 365 é aplicada a uma caixa de correio. A associação do grupo de distribuição é determinada no momento em que a mensagem é enviada. A lista de destinatários expandidos armazenada com a mensagem não é afetada por alterações na associação do grupo depois que a mensagem é enviada. 
   
 |**Informações sobre...**|**É armazenado em...**|**É armazenado por padrão?**|**Está acessível para...**|
 |:-----|:-----|:-----|:-----|
 |Destinatários para e CC  <br/> |Propriedades da mensagem nas caixas de correio do remetente e dos destinatários.  <br/> |Sim  <br/> |Remetente, destinatários e gerentes de conformidade  <br/> |
 |Destinatários Cco  <br/> |Propriedade Message na caixa de correio do remetente.  <br/> |Sim  <br/> |Órgãos de remetente e conformidade  <br/> |
-|Destinatários de grupos de distribuição expandidos  <br/> |Propriedades da mensagem na caixa de correio do remetente.  <br/> |Não. As informações de destinatário do grupo de distribuição expandido são armazenadas depois que uma caixa de correio é colocada em bloqueio in-loco ou retenção de litígio, ou atribuída a uma política de retenção do Office 365.  <br/> |Oficiais de conformidade  <br/> |
+|Destinatários de grupos de distribuição expandidos  <br/> |Propriedades da mensagem na caixa de correio do remetente.  <br/> |Não. As informações de destinatário do grupo de distribuição expandido são armazenadas depois que uma caixa de correio é colocada em bloqueio in-loco ou retenção de litígio, ou atribuída a uma política de retenção do Microsoft 365.  <br/> |Oficiais de conformidade  <br/> |
    
 ## <a name="searching-for-messages-sent-to-bcc-and-expanded-distribution-group-recipients"></a>Pesquisando mensagens enviadas para destinatários Cco e de grupo de distribuição expandido
 
@@ -72,11 +72,11 @@ Cenário 2: Bob envia um email para John (para/CC) e Jack (Cco diretamente ou in
 
  **P. quando e onde as informações de destinatário Cco são armazenadas?**
   
-R. As informações de destinatário Cco são preservadas por padrão na mensagem original na caixa de correio do remetente. Se o destinatário Cco for um grupo de distribuição, a associação de grupo de distribuição só será expandida se a caixa de correio do remetente estiver em espera ou atribuída a uma política de retenção do Office 365.
+R. As informações de destinatário Cco são preservadas por padrão na mensagem original na caixa de correio do remetente. Se o destinatário Cco for um grupo de distribuição, a associação de grupo de distribuição só será expandida se a caixa de correio do remetente estiver em espera ou atribuída a uma política de retenção do Microsoft 365.
   
  **P. quando e onde a lista de destinatários de grupos de distribuição expandidos está armazenada?**
   
-R. A associação de grupo é expandida no momento em que a mensagem é enviada. A lista de membros do grupo de distribuição expandida é armazenada na mensagem original na caixa de correio do remetente. A caixa de correio do remetente deve estar em bloqueio in-loco, retenção de litígio ou atribuído a uma política de retenção do Office 365.
+R. A associação de grupo é expandida no momento em que a mensagem é enviada. A lista de membros do grupo de distribuição expandida é armazenada na mensagem original na caixa de correio do remetente. A caixa de correio do remetente deve estar em bloqueio in-loco, retenção de litígio ou atribuído a uma política de retenção do Microsoft 365.
   
  **P. os destinatários para/CC podem ver quais destinatários foram estava?**
   
@@ -84,7 +84,7 @@ R. Não. Essas informações não estão incluídas em cabeçalhos de mensagem e
   
  **P. como garantir que os destinatários de grupos de distribuição expandidos sejam sempre preservados?**
   
-R. Para garantir que os membros do grupo de distribuição expandido sejam sempre preservados com uma mensagem, [Coloque todas as caixas de correio em espera](https://technet.microsoft.com/library/4c141604-3210-44cc-b98e-f3e0f15613b8.aspx) ou crie uma política de retenção do Office 365 em toda a organização. 
+R. Para garantir que os membros do grupo de distribuição expandido sejam sempre preservados com uma mensagem, [Coloque todas as caixas de correio em espera](https://technet.microsoft.com/library/4c141604-3210-44cc-b98e-f3e0f15613b8.aspx) ou crie uma política de retenção do Microsoft 365 em toda a organização. 
   
  **P. para quais tipos de grupos há suporte?**
   

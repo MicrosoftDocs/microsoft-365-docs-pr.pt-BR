@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve como configurar as permissões necessárias para usar a ferramenta de investigações de dados no Microsoft 365.
-ms.openlocfilehash: 855d288c373bd2525afa3b8b7a3bbd894c4683a2
-ms.sourcegitcommit: 7930fb8327bbd3594fde52f2dbf91e0f5d92f684
+ms.openlocfilehash: 47a7923d38cfa0ea3bad6c4c266f580f8104c429
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42328133"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637753"
 ---
 # <a name="assign-permissions-for-data-investigations-preview"></a>Atribuir permissões para investigações de dados (versão prévia)
 
@@ -40,4 +40,4 @@ Para atribuir permissões de investigações de dados:
 5. Depois de adicionar todos os usuários, clique em **concluído** e, em seguida, clique em **salvar** para salvar as alterações no grupo de funções.
 
 > [!NOTE]
-> A função de gerenciamento de investigação de dados que é atribuída ao grupo de função do investigador de dados fornece as permissões necessárias para acessar a ferramenta de investigações de dados no centro de conformidade do Office 365 ou Microsoft 365. Por padrão, essa função não é atribuída ao grupo de função gerenciamento da organização, o que significa que os administradores globais em sua organização podem não conseguir acessar a ferramenta de investigações de dados por padrão. Para corrigir isso, você pode adicionar administradores globais ao grupo de função data Investigator ou adicionar a função de gerenciamento de investigação de dados ao grupo de funções Gerenciamento da organização. Uma terceira opção seria criar um grupo de função personalizado e atribuir a função de gerenciamento de investigação de dados (e outras funções) e adicionar membros apropriados. Para obter mais informações sobre grupos de funções e funções, consulte [permissões no centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center).
+> A função de gerenciamento de investigação de dados que é atribuída ao grupo de função do investigador de dados fornece as permissões necessárias para acessar a ferramenta de investigações de dados no centro de conformidade do Office 365 ou Microsoft 365. Por padrão, essa função não é atribuída ao grupo de função gerenciamento da organização, o que significa que os administradores globais em sua organização podem não conseguir acessar a ferramenta de investigações de dados por padrão. Para corrigir isso, você pode adicionar administradores globais ao grupo de função data Investigator ou adicionar a função de gerenciamento de investigação de dados ao grupo de funções Gerenciamento da organização. Uma terceira opção seria criar um grupo de função personalizado e atribuir a função de gerenciamento de investigação de dados (e outras funções) e adicionar membros apropriados. Para obter mais informações sobre grupos de funções e funções, consulte [permissões no centro de conformidade de & de segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center).

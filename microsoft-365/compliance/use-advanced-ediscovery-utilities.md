@@ -1,5 +1,5 @@
 ---
-title: Usar os utilitários de descoberta eletrônica avançada do Office 365
+title: Usar utilitários da Descoberta Eletrônica Avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,15 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 66ca9993-75f4-4724-aea2-5a0719b660c1
-description: 'Saiba mais sobre os utilitários na descoberta eletrônica avançada do Office 365, incluindo log de caso, dados claros, erros de processo, modificar relevância e análise de transparência.  '
-ms.openlocfilehash: ce8eb00382bd6ff0514dfef99d18a8e4b2679cec
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Saiba mais sobre os utilitários em descoberta eletrônica avançada, incluindo log de caso, dados claros, erros de processo, modificação de relevância e análise de transparência.  '
+ms.openlocfilehash: d4495920110916fdd5b07201d50080605ba177b1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557651"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633386"
 ---
-# <a name="use-advanced-ediscovery-classic-utilities"></a>Usar utilitários de descoberta eletrônica avançada (clássico)
+# <a name="use-advanced-ediscovery-classic-utilities"></a>Usar utilitários da Descoberta Eletrônica Avançada (clássica)
 
 > [!NOTE]
 > A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -107,9 +107,9 @@ Em um cenário de caso de vários problemas, um relatório de análise de transp
     
 5. Clique em **análise de transparência**. Após a conclusão, o relatório de análise de transparência do arquivo é exibido, mostrando como as cores de palavra-chave marcadas são correlacionadas à pontuação de relevância geral.
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Definindo configurações de caso e de locatário](define-case-and-tenant-settings-in-advanced-ediscovery.md)
 

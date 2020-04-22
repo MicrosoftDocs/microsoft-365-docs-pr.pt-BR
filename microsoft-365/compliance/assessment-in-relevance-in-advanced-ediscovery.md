@@ -1,5 +1,5 @@
 ---
-title: Entender a avaliação em relevância na descoberta eletrônica avançada do Office 365
+title: Entender a avaliação em relevância na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1d33d4fb-91ed-41c0-b72e-5a26eca3a2a7
-description: Obtenha uma visão geral do estágio de avaliação e sua função para determinar a riqueza de problemas durante o treinamento de relevância na descoberta eletrônica avançada do Office 365.
-ms.openlocfilehash: 46aef7300a6021e603edb8708ae01d8147b02722
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: Obtenha uma visão geral do estágio de avaliação e sua função para determinar a riqueza de problemas durante o treinamento de relevância na descoberta eletrônica avançada.
+ms.openlocfilehash: e1e090a9b3aceecad8451657d7a8e5d26e92ed6f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42556789"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636149"
 ---
 # <a name="understand-assessment-in-relevance-in-advanced-ediscovery-classic"></a>Entender a avaliação em relevância na descoberta eletrônica avançada (clássica)
 
@@ -53,9 +53,9 @@ Você pode aceitar as recomendações de relevância ou ajustar a margem de erro
 > [!NOTE]
 > O estágio de avaliação pode ser ignorado, na guia **controle \> de relevância** no modo de exibição expandido para um problema, desmarcando a caixa de seleção de **avaliação** por problema e, em seguida, para "todos os problemas". No entanto, como resultado, não haverá estatísticas para esse problema. > limpar a caixa de seleção de **avaliação** só pode ser feita antes da avaliação ser realizada. Onde houver vários problemas em um caso, a avaliação será ignorada somente se a caixa de seleção estiver desmarcada para cada problema 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Marcação e avaliação](tagging-and-assessment-in-advanced-ediscovery.md)
   
