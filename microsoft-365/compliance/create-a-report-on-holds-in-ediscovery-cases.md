@@ -1,5 +1,5 @@
 ---
-title: Criar um relatório sobre isenções em casos de descoberta eletrônica no Office 365
+title: Criar um relatório sobre retenções em ocorrências de Descoberta eletrônica
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,14 +16,14 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
 description: Use o script neste artigo para gerar um relatório que contenha informações sobre todas as isenções associadas a ocorrências de descoberta eletrônica no centro de conformidade no Office 365 ou Microsoft 365.
-ms.openlocfilehash: 8c426ff06bb0b2bafdfa91b9098b321994d558d7
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 263ac052f320a989b8843f2954a5df0933cdb2f4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42077699"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632246"
 ---
-# <a name="create-a-report-on-holds-in-ediscovery-cases-in-office-365"></a>Criar um relatório sobre isenções em casos de descoberta eletrônica no Office 365
+# <a name="create-a-report-on-holds-in-ediscovery-cases"></a>Criar um relatório sobre retenções em ocorrências de Descoberta eletrônica
   
 O script neste artigo permite que os administradores de descoberta eletrônica e os gerentes de descoberta eletrônica gerem um relatório que contém informações sobre todas as isenções associadas a casos de descoberta eletrônica no centro de conformidade no Office 365 ou Microsoft 365. O relatório contém informações como o nome do caso ao qual uma retenção está associada, os locais de conteúdo que são colocados em espera e se a retenção é baseada em consulta. Se houver casos em que não haja isenções, o script criará um relatório adicional com uma lista de casos sem isenções.
 

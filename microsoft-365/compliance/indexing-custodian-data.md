@@ -15,19 +15,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Quando um Objecté adicionado a um caso de descoberta eletrônica avançada, qualquer conteúdo no Office 365 que foi considerado parcialmente indexado é reprocessado para torná-lo totalmente pesquisável.
-ms.openlocfilehash: 3c1bead5f853a39410a6a018f170ee637dfcf84e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Quando um qualificador é adicionado a um caso de descoberta eletrônica avançada, qualquer conteúdo considerado parcialmente indexado é reprocessado para torná-lo totalmente pesquisável.
+ms.openlocfilehash: 0618af5bcc18622ee8091782f55648f455230b6b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072888"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637893"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>Indexação de dados custodiante avançados
 
-Quando um Objecté adicionado a um caso de descoberta eletrônica avançada, qualquer conteúdo no Office 365 que foi considerado parcialmente indexado é reprocessado para torná-lo totalmente pesquisável.  Esse processo é chamado de *indexação avançada*. O conteúdo pode ser parcialmente indexado por vários motivos, incluindo a existência de imagens, tipos de arquivos não suportados ou quando são encontrados limites de tamanho de arquivo de indexação.
+Quando um qualificador é adicionado a um caso de descoberta eletrônica avançada, qualquer conteúdo considerado parcialmente indexado é reprocessado para torná-lo totalmente pesquisável.  Esse processo é chamado de *indexação avançada*. O conteúdo pode ser parcialmente indexado por vários motivos, incluindo a existência de imagens, tipos de arquivos não suportados ou quando são encontrados limites de tamanho de arquivo de indexação.
 
-Para saber mais sobre o processamento de suporte no Office 365 e itens parcialmente indexados, consulte:
+Para saber mais sobre o processamento de suporte e itens parcialmente indexados, consulte:
 
 - [Tipos de arquivo com suporte na descoberta eletrônica avançada](supported-filetypes-ediscovery20.md)
 

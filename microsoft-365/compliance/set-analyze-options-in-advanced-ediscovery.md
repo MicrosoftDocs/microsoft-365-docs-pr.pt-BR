@@ -1,5 +1,5 @@
 ---
-title: Definir opções de análise na descoberta eletrônica avançada do Office 365
+title: Definir opções de análise na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: f6cd6588-f6b6-424a-a9ab-3782b842faee
-description: 'Revise as etapas para configurar opções para o processo de análise na descoberta eletrônica avançada do Office 365, incluindo duplicatas, threads de email e temas.  '
-ms.openlocfilehash: 8897099d7531b48f7c6618c106eeb6f051dac546
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Revise as etapas para configurar opções para o processo de análise na descoberta eletrônica avançada, incluindo duplicatas, threads de email e temas.  '
+ms.openlocfilehash: 5f50e2863398679d1381c66009ff1daec40623f9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557781"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631258"
 ---
 # <a name="set-analyze-options-in-advanced-ediscovery-classic"></a>Definir opções de análise na descoberta eletrônica avançada (clássica)
 
@@ -76,9 +76,9 @@ Você também pode [definir ignorar texto](set-ignore-text-in-advanced-ediscover
   
 Após definir essas opções, clique em **analisar** para executar. [Exibir resultados da análise](view-analyze-results-in-advanced-ediscovery.md) são exibidos. 
   
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre a similaridade de documentos](understand-document-similarity-in-advanced-ediscovery.md)
   

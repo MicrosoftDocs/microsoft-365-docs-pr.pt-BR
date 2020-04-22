@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 77a4b3e1826889e996b875c9427013c7b08dfaaf
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 278985aa93f8802f78bd632a5fc90dd6be846b21
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600638"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637903"
 ---
 # <a name="advanced-indexing-of-data-for-an-investigation"></a>Indexação avançada de dados para uma investigação
 
-O conteúdo no sistema ativo pode ser parcialmente indexado por vários motivos, incluindo a existência de imagens, tipos de arquivos não suportados ou quando são encontrados limites de tamanho de arquivo de indexação. Ao lidar com o despejo de dados de alto risco, você deseja garantir que sua pesquisa tenha capturado todos os dados que você deseja investigar. Quando uma pessoa de interesse é adicionada a uma investigação de dados, qualquer conteúdo no Office 365 que foi considerado parcialmente indexado é processado novamente para torná-lo totalmente pesquisável. Esse processo é chamado de *indexação avançada*. 
+O conteúdo no sistema ativo pode ser parcialmente indexado por vários motivos, incluindo a existência de imagens, tipos de arquivos não suportados ou quando são encontrados limites de tamanho de arquivo de indexação. Ao lidar com o despejo de dados de alto risco, você deseja garantir que sua pesquisa tenha capturado todos os dados que você deseja investigar. Quando uma pessoa de interesse é adicionada a uma investigação de dados, qualquer conteúdo considerado parcialmente indexado é processado novamente para torná-lo totalmente pesquisável. Esse processo é chamado de *indexação avançada*. 
 
-Para saber mais sobre o processamento de suporte no Office 365 e itens parcialmente indexados, consulte:
+Para saber mais sobre o processamento de suporte e itens parcialmente indexados, consulte:
 
 - [Tipos de arquivo com suporte em investigações de dados](supported-filetypes-datainvestigations.md)
 

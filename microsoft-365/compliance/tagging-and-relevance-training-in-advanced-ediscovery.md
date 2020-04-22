@@ -1,5 +1,5 @@
 ---
-title: Treinamento de marcação e relevância na descoberta eletrônica avançada do Office 365
+title: Treinamento de marcação e relevância na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
-description: 'Conheça as etapas para marcar e, em seguida, trabalhar com um exemplo de treinamento de 40 arquivos durante o estágio de treinamento de relevância do Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 6362aef6f4e0e17b39429dfeebca796d58d2d13e
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Conheça as etapas para marcar e, em seguida, trabalhar com um exemplo de treinamento de 40 arquivos durante o estágio de treinamento de relevância de descoberta eletrônica avançada.  '
+ms.openlocfilehash: 8d03061401cab2014d33e9e3238af42a4d01738a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557711"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636259"
 ---
 # <a name="tagging-and-relevance-training-in-advanced-ediscovery-classic"></a>Treinamento de marcação e relevância na descoberta eletrônica avançada (clássico)
 
@@ -76,7 +76,7 @@ Após a conclusão da avaliação na descoberta eletrônica avançada, e você i
     
 ## <a name="working-with-the-sample-files-list"></a>Trabalhar com a lista de arquivos de exemplo
 
-A lista arquivos de amostra permite exibir uma lista dos arquivos em um exemplo de treinamento e realizar várias ações em um ou mais arquivos. Na guia **** \> **marca** de relevância, o painel esquerdo **arquivos de exemplo** exibe uma lista de arquivos de amostra para processamento com processos de avaliação, treinamento, acompanhamento e inconsistências. 
+A lista arquivos de amostra permite exibir uma lista dos arquivos em um exemplo de treinamento e realizar várias ações em um ou mais arquivos. Na guia **Relevance** \> **marca** de relevância, o painel esquerdo **arquivos de exemplo** exibe uma lista de arquivos de amostra para processamento com processos de avaliação, treinamento, acompanhamento e inconsistências. 
   
 1. Na guia **marca \> de relevância** , selecione os arquivos de exemplo na lista suspensa painel esquerdo. Os arquivos de exemplo estão listados no painel esquerdo. 
     
@@ -98,9 +98,9 @@ A lista arquivos de amostra permite exibir uma lista dos arquivos em um exemplo 
     
     Para navegar até o último arquivo no exemplo: Shift + Ctrl +\>
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre avaliação em relevância](assessment-in-relevance-in-advanced-ediscovery.md)
   

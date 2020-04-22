@@ -1,5 +1,5 @@
 ---
-title: Alterar um nome de usuário e endereço de email no antigo Office 365
+title: Alterar o nome de exibição e o endereço de email de um usuário
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,17 +21,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
-description: 'Saiba como um administrador global pode alterar o endereço de e-mail e o nome de exibição do Office 365 de um usuário. '
-ms.openlocfilehash: 16dab0f0ac65bccea0e2273e396315a32dd33439
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: 'Saiba como um administrador global pode alterar o endereço de e-mail e o nome de exibição de um usuário. '
+ms.openlocfilehash: 726d1f01203bbaefc529039d3816fb09c892cd90
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237148"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43618735"
 ---
-# <a name="change-a-user-name-and-email-address-in-office-365"></a>Alterar um nome de usuário e endereço de e-mail no antigo Office 365
+# <a name="change-a-user-name-and-email-address"></a>Alterar o nome de exibição e o endereço de email de um usuário
 
-Talvez seja necessário alterar o endereço de email e o nome de exibição do Office 365 de uma pessoa se, por exemplo, ela se casar e mudar de sobrenome.
+Talvez seja necessário alterar o endereço de email e o nome de exibição de uma pessoa se, por exemplo, ela se casar e mudar de sobrenome.
 
 ::: moniker range="o365-worldwide"
 
@@ -48,7 +48,7 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 
 ## <a name="change-a-users-email-address"></a>Alterar o endereço de email de um usuário.
 
-Você deve ser um [administrador global do Office 365](about-admin-roles.md) para executar estas etapas. 
+Você terá de ser um [administrador global ](about-admin-roles.md) para executar estas etapas. 
 
 ::: moniker range="o365-worldwide"
  
@@ -101,7 +101,7 @@ Você deve ser um [administrador global do Office 365](about-admin-roles.md) par
     
     **IMPORTANTE**: se você tiver comprado o Office 365 na GoDaddy ou em outro serviço parceiro que fornece um console de gerenciamento, não verá essa opção para definir como principal. Em vez disso, acesse o console de gerenciamento da GoDaddy ou do parceiro para definir o alias principal. 
     
-    Além disso, você só verá essa opção se for um administrador global do Office 365. Se não vir a opção, você não tem permissões para alterar o nome e endereço de email principal do usuário.
+    Além disso, você só verá essa opção se for um administrador global. Se não vir a opção, você não possui as permissões necessárias para alterar o nome e endereço de email principal do usuário.
   
 4. Você verá um grande alerta amarelo informando que está prestes a alterar as informações de acesso.  Selecione **Salvar**, **Feche**.
     
@@ -129,7 +129,7 @@ Você deve ser um [administrador global do Office 365](about-admin-roles.md) par
     
     **IMPORTANTE**: se você tiver comprado o Office 365 na GoDaddy ou em outro serviço parceiro que fornece um console de gerenciamento, não verá essa opção para definir como principal. Em vez disso, acesse o console de gerenciamento da GoDaddy ou do parceiro para definir o alias principal. 
     
-    Além disso, você só verá essa opção se for um administrador global do Office 365. Se não vir a opção, você não tem permissões para alterar o nome e endereço de email principal do usuário.
+    Além disso, você só verá essa opção se for um administrador global. Se não vir a opção, você não possui as permissões necessárias para alterar o nome e endereço de email principal do usuário.
   
 4. Você verá um grande alerta amarelo informando que está prestes a alterar as informações de acesso.  Selecione **Salvar**, **Feche**.
     
@@ -157,7 +157,7 @@ Você deve ser um [administrador global do Office 365](about-admin-roles.md) par
     
     **IMPORTANTE**: se você tiver comprado o Office 365 na GoDaddy ou em outro serviço parceiro que fornece um console de gerenciamento, não verá essa opção para definir como principal. Em vez disso, acesse o console de gerenciamento da GoDaddy ou do parceiro para definir o alias principal. 
     
-    Além disso, você só verá essa opção se for um administrador global do Office 365. Se não vir a opção, você não tem permissões para alterar o nome e endereço de email principal do usuário.
+    Além disso, você só verá essa opção se for um administrador global. Se não vir a opção, você não possui as permissões necessárias para alterar o nome e endereço de email principal do usuário.
   
 4. Você verá um grande alerta amarelo informando que está prestes a alterar as informações de acesso.  Selecione **Salvar**, **Feche**.
     
@@ -223,22 +223,22 @@ Pode levar até 24 horas para que essa alteração entre em vigor em todos os se
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>"Não é possível localizar um parâmetro que coincida com o nome de parâmetro 'EmailAddresses'"
 
-A mensagem de erro " **Não é possível localizar um parâmetro que coincida com o nome de parâmetro 'EmailAddresses**" indica que está demorando um pouco mais para o Office 365 terminar de configurar seu locatário ou domínio personalizado, se você adicionou um recentemente. O processo de configuração pode levar até quatro horas para ser concluído. Aguarde um pouco até ele terminar e tente novamente. Se o problema persistir, peça ao Suporte para fazer uma sincronização completa para você.
+A mensagem de erro "**Não é possível localizar um parâmetro que coincida com o nome de parâmetro 'EmailAddresses'**" indica que está demorando um pouco mais para terminar de configurar seu locatário ou domínio personalizado, caso você tenha adicionado um recentemente. O processo de configuração pode levar até quatro horas para ser concluído. Aguarde um pouco até ele terminar e tente novamente. Se o problema persistir, ligue para o Suporte e eles farão uma sincronização completa para você.
   
 ### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>"Não foi possível editar o usuário. Examine as informações de usuário e tente novamente"
 
-Se você receber a mensagem "**Não foi possível editar o usuário. Examine as informações de usuário e tente novamente**." Isso significa que você não é um administrador global do Office 365 e não tem permissões para alterar o nome de usuário. Localize o administrador global em sua empresa e peça para ele fazer a alteração.
+Se você receber a mensagem "**Não foi possível editar o usuário. Examine as informações de usuário e tente novamente**." Isso significa que você não é um administrador global e não tem as permissões necessárias para alterar o nome de usuário. Localize o administrador global em sua empresa e peça para ele fazer a alteração.
 
 
 ## <a name="what-to-do-with-old-email-addresses"></a>O que fazer com endereços de e-mail antigos
 
 O antigo endereço de email principal de uma pessoa é mantido como um endereço de email adicional. **É altamente recomendável que você não remova o endereço de email antigo.**
   
-É provável que algumas pessoas continuem a enviar emails para o antigo endereço de email da pessoa, e excluí-lo pode resultar em uma notificação de falha na entrega. O Office 365 os encaminhará automaticamente para o novo endereço. Além disso, não reutilize antigos endereços de email SMTP e aplique-os a novas contas. Isso também pode causar notificações de falha na entrega ou a entrega em uma caixa de correio não intencional.
+É provável que algumas pessoas continuem a enviar emails para o antigo endereço de email da pessoa, e excluí-lo pode resultar em uma notificação de falha na entrega. A Microsoft os direcionará automaticamente para o novo endereço. Além disso, não reutilize antigos endereços de email SMTP e aplique-os a novas contas. Isso também pode causar notificações de falha na entrega ou a entrega em uma caixa de correio indesejada.
    
 ## <a name="what-if-the-persons-offline-address-book-wont-sync-with-the-global-address-list"></a>O que acontece se o catálogo de endereços offline de uma pessoa não estiver sincronizando com a Lista de Endereços Global?
 
-Se ela estiver usando o Exchange Online ou se a conta do Office 365 dela estiver vinculada ao ambiente Exchange local da sua organização, você poderá ver este erro quando tentar alterar um nome de usuário e endereço de email: "Este usuário está sincronizado com o seu Active Directory local. Alguns detalhes somente podem ser editados por meio do seu Active Directory local".
+Se a pessoa estiver usando o Exchange Online ou se a conta dela estiver vinculada ao ambiente Exchange local da sua organização, você poderá ver este erro quando tentar alterar um nome de usuário e endereço de email: "Este usuário está sincronizado com o seu Active Directory local. Alguns detalhes somente podem ser editados por meio do seu Active Directory local".
   
 Isso se deve ao MOERA (Endereço de roteamento de email do Microsoft Online). O MOERA é construído por meio do atributo  _userPrincipalName_ da pessoa no Active Directory e é atribuído automaticamente à conta na nuvem durante a sincronização inicial. Depois de criado, não pode ser modificado ou removido no Office 365. Posteriormente, é possível alterar o nome de usuário no Active Directory, mas isso não modificará o MOERA, e você poderá encontrar problemas com a exibição do novo nome na Lista de Endereços Global. 
   

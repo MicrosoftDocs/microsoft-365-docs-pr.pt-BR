@@ -19,7 +19,7 @@
               href: networking-avoid-network-hairpins.md
             - name: Etapa 4 - Configurar desvio de tráfego
               href: networking-configure-proxies-firewalls.md
-            - name: Etapa 5 - Otimizar o desempenho do serviço do cliente e do Office 365
+            - name: Etapa 5 - Otimizar o desempenho do serviço do cliente
               href: networking-optimize-tcp-performance.md
             - name: Critérios de saída de rede
               href: networking-exit-criteria.md
@@ -55,10 +55,10 @@
               href: windows10-enable-security-features.md
             - name: Critérios de saída do Windows 10 Enterprise
               href: windows10-exit-criteria.md
-        - name: Fase 4 - Office 365 ProPlus
+        - name: Etapa 4 - Microsoft 365 Apps para empresas
           href: office365proplus-infrastructure.md
           items:
-            - name: Critérios de saída do Office 365 ProPlus
+            - name: Critérios de saída do Microsoft 365 Apps para empresas
               href: office365proplus-exit-criteria.md
         - name: Fase 5 - Gerenciamento de dispositivo móvel
           href: mobility-infrastructure.md
@@ -76,7 +76,7 @@
               href: infoprotect-configure-increased-security-office-365.md
             - name: Etapa 4 - Configurar a Proteção de Informações do Windows
               href: infoprotect-deploy-windows-information-protection.md
-            - name: Etapa 5 - Configurar a Prevenção contra Perda de Dados do Office 365
+            - name: Etapa 5 - Configurar a prevenção da perda de dados
               href: infoprotect-data-loss-prevention.md
             - name: Etapa 6 - Configurar a criptografia de email
               href: infoprotect-email-encryption.md
@@ -174,7 +174,7 @@
           href: contoso-identity.md
         - name: Windows 10 Enterprise
           href: contoso-win10.md
-        - name: Office 365 ProPlus
+        - name: Microsoft 365 Apps para empresas
           href: contoso-o365pp.md
         - name: Gerenciamento de dispositivo móvel
           href: contoso-mdm.md

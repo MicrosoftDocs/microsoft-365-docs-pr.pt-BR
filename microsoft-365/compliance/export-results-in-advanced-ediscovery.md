@@ -1,5 +1,5 @@
 ---
-title: Exportar resultados na descoberta eletrônica avançada do Office 365
+title: Exportar resultados na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,13 +14,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a9951a07-10b3-48cb-b37a-0ffaa24931ad
-description: 'Saiba como definir opções para exportar os resultados da descoberta eletrônica avançada do Office 365, incluindo o procedimento para especificar parâmetros para um lote de exportação. '
-ms.openlocfilehash: e439753b427a4e4a90e219912f8d3c1fcf4cfff3
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Saiba como definir opções para exportar os resultados da descoberta eletrônica avançada, incluindo o procedimento para especificar parâmetros para um lote de exportação. '
+ms.openlocfilehash: 4d94b7d1f1d475916e7b0b44a98dd878a1bd5fde
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558192"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43615995"
 ---
 # <a name="export-results-in-advanced-ediscovery-classic"></a>Exportar resultados na descoberta eletrônica avançada (clássico)
 
@@ -79,7 +79,7 @@ A ferramenta de exportação de descoberta eletrônica é usada para exportar re
     
     - Para excluir um lote de exportação, escolha **excluir** ![excluir um ícone](../media/92a9f8e0-d469-48da-addb-69365e7ffb6f.jpg)de lote de exportação.
     
-    - Para exibir o histórico de um lote, escolha **** ![o ícone](../media/a80cc320-d96c-4d91-8884-75fe2cb147e2.jpg)histórico de exibição do histórico de lotes.
+    - Para exibir o histórico de um lote, escolha **Batch history** ![o ícone](../media/a80cc320-d96c-4d91-8884-75fe2cb147e2.jpg)histórico de exibição do histórico de lotes.
     
 2. Em **população**, selecione **incluir somente os arquivos acima da classificação de recorte de relevância** e/ou **refinar lote de exportação** se quiser ajustar as configurações para o lote de exportação. 
     
@@ -192,13 +192,13 @@ A tabela a seguir lista os arquivos de saída que são gerados quando você exec
 |Carregar arquivo  <br/> |Limit  <br/> |Metadados de arquivos exportados no formato CSV para carregar em um aplicativo diferente. Os campos nos arquivos são de acordo com o modelo de usuário selecionado para exportação.  <br/> |
 |Indicador de êxito  <br/> |txt  <br/> |Criado somente ao exportar para um blob do Azure de terceiros. Se a exportação tiver êxito completamente, o arquivo será criado. No caso de falha, ou o sucesso parcial, o arquivo não será criado. O arquivo será criado na pasta raiz, permitindo o rastreamento automático em diferentes status de lotes/sessões de exportação. Este é um arquivo vazio. O nome é: TenantId_CaseId_ExternalCaseId_CaseName_ExportBatchId_SessionId_DateTime. txt.  <br/> |
    
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Exibindo histórico de lotes e exportando resultados passados](view-batch-history-and-export-past-results.md)
   
-[Configuração rápida da Descoberta Eletrônica Avançada do Office 365](quick-setup-for-advanced-ediscovery.md)
+[Configuração rápida da descoberta eletrônica avançada](quick-setup-for-advanced-ediscovery.md)
 
 [Campos do relatório de exportação](export-report-fields-in-advanced-ediscovery.md)
   

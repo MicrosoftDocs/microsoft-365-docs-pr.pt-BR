@@ -16,17 +16,17 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
-description: Depois de exportar e baixar os resultados de uma pesquisa de log de auditoria do Office 365 para um arquivo CSV, você pode usar o recurso transformação JSON no editor do Power Query no Excel para dividir cada propriedade no objeto JSON da coluna AuditData em sua própria coluna. Isso pode ajudá-lo a localizar rapidamente os dados de auditoria específicos que você está procurando.
-ms.openlocfilehash: 00e89d0834461e73ee0bd8a238e3ff7480de118e
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Depois de exportar e baixar os resultados de uma pesquisa de log de auditoria para um arquivo CSV, você pode usar o recurso transformação JSON no editor do Power Query no Excel para dividir cada propriedade no objeto JSON na coluna AuditData em sua própria coluna. Isso pode ajudá-lo a localizar rapidamente os dados de auditoria específicos que você está procurando.
+ms.openlocfilehash: 64a16ad3e2584f61e6c30da26d6867614c9a9119
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634919"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43615955"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>Exportar, configurar e exibir registros de log de auditoria
 
-Depois de Pesquisar o log de auditoria do Office 365 e baixar os resultados da pesquisa em um arquivo CSV, o arquivo contém uma coluna chamada **AuditData**, que contém informações adicionais sobre cada evento. Os dados dessa coluna são formatados como um objeto JSON, que contém várias propriedades que são configuradas como *Propriedade:* pares de valores separados por vírgulas. Você pode usar o recurso de transformação JSON no editor do Power Query no Excel para dividir cada propriedade no objeto JSON na coluna **AuditData** em várias colunas, de modo que cada propriedade tenha sua própria coluna. Isso permite que você classifique e filtre em uma ou mais dessas propriedades, o que pode ajudá-lo a localizar rapidamente os dados de auditoria específicos que você está procurando.
+Depois de Pesquisar o log de auditoria e baixar os resultados da pesquisa em um arquivo CSV, o arquivo contém uma coluna chamada **AuditData**, que contém informações adicionais sobre cada evento. Os dados dessa coluna são formatados como um objeto JSON, que contém várias propriedades que são configuradas como *Propriedade:* pares de valores separados por vírgulas. Você pode usar o recurso de transformação JSON no editor do Power Query no Excel para dividir cada propriedade no objeto JSON na coluna **AuditData** em várias colunas, de modo que cada propriedade tenha sua própria coluna. Isso permite que você classifique e filtre em uma ou mais dessas propriedades, o que pode ajudá-lo a localizar rapidamente os dados de auditoria específicos que você está procurando.
 
 ## <a name="step-1-export-audit-log-search-results"></a>Etapa 1: exportar resultados de pesquisa de log de auditoria
 
@@ -102,11 +102,11 @@ O arquivo CSV é aberto no **Editor de consultas**. Há quatro colunas: **Creati
 
 Veja aqui algumas dicas e exemplos de como exportar e exibir o log de auditoria antes e depois de usar o recurso de transformação JSON para dividir a coluna **AuditData** em várias colunas.
 
-- Filtrar a coluna **RecordType** para exibir apenas os registros de um serviço específico do Office 365 ou uma área funcional. Por exemplo, para mostrar eventos relacionados ao compartilhamento do SharePoint, você deve selecionar **14** (o valor de enumeração para registros disparados pelas atividades de compartilhamento do SharePoint). Para obter uma lista dos serviços do Office 365 que correspondem aos valores de enumeração exibidos na coluna **RecordType** , consulte [propriedades detalhadas no log de auditoria do Office 365](detailed-properties-in-the-office-365-audit-log.md).
+- Filtrar a coluna **RecordType** para exibir apenas os registros de um serviço específico ou uma área funcional. Por exemplo, para mostrar eventos relacionados ao compartilhamento do SharePoint, você deve selecionar **14** (o valor de enumeração para registros disparados pelas atividades de compartilhamento do SharePoint). Para obter uma lista dos serviços que correspondem aos valores de enumeração exibidos na coluna **RecordType** , consulte [propriedades detalhadas no log de auditoria](detailed-properties-in-the-office-365-audit-log.md).
 
 - Filtrar a coluna **operações** para exibir os registros de atividades específicas. Para obter uma lista de a maioria das operações que correspondem a uma atividade pesquisável na ferramenta de pesquisa de log de auditoria no centro de conformidade de & de segurança, consulte a seção "atividades auditadas" em [Pesquisar o log de auditoria no centro de conformidade do & de segurança](search-the-audit-log-in-security-and-compliance.md#audited-activities).
 
-- Em vez de usar a ferramenta de pesquisa de log de auditoria no centro de conformidade e segurança &, você pode usar o cmdlet [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) no PowerShell do Exchange Online para exportar os resultados de uma pesquisa de log de auditoria do Office 365 para um arquivo CSV. Em seguida, você pode seguir o mesmo procedimento descrito na etapa 2 para formatar o log de auditoria usando o editor de consulta de alimentação. Uma vantagem de usar o cmdlet do PowerShell é que você pode pesquisar eventos de um serviço específico do Office 365 usando o parâmetro *RecordType* . Aqui estão alguns exemplos de como usar o PowerShell para exportar registros de auditoria para um arquivo CSV, para que você possa usar o editor de consulta de alimentação para transformar o objeto JSON na coluna **AuditData** , conforme descrito na etapa 2.
+- Em vez de usar a ferramenta de pesquisa de log de auditoria no centro de conformidade & segurança, você pode usar o cmdlet [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) no PowerShell do Exchange Online para exportar os resultados de uma pesquisa de log de auditoria para um arquivo CSV. Em seguida, você pode seguir o mesmo procedimento descrito na etapa 2 para formatar o log de auditoria usando o editor de consulta de alimentação. Uma vantagem de usar o cmdlet do PowerShell é que você pode pesquisar eventos de um serviço específico usando o parâmetro *RecordType* . Aqui estão alguns exemplos de como usar o PowerShell para exportar registros de auditoria para um arquivo CSV, para que você possa usar o editor de consulta de alimentação para transformar o objeto JSON na coluna **AuditData** , conforme descrito na etapa 2.
 
    Neste exemplo, execute os seguintes comandos para retornar todos os registros relacionados às operações de compartilhamento do SharePoint. 
    

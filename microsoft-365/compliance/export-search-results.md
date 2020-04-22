@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 'Exporte os resultados da pesquisa de uma pesquisa de conteúdo no centro de conformidade de & de segurança para um computador local. Os resultados de email são exportados como arquivos PST. O conteúdo de sites do SharePoint e do OneDrive for Business são exportados como documentos nativos do Office. '
-ms.openlocfilehash: 5789244314a945937791d360962ad398f87f9bd4
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 3b9997b11763d91357e53d12ef70ffb025a04d74
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634929"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43615985"
 ---
 # <a name="export-content-search-results"></a>Exportar os resultados da Pesquisa de Conteúdo
 
@@ -56,7 +56,7 @@ Exportar os resultados de uma pesquisa de conteúdo envolve preparar os resultad
     
   > [!NOTE]
   > <sup>1</sup> a Microsoft não fabrica extensões ou complementos de terceiros para aplicativos ClickOnce. Não há suporte para a exportação de resultados de pesquisa usando um navegador sem suporte com extensões ou complementos de terceiros.<br/>
-  > <sup>2</sup> como resultado de alterações recentes no Microsoft Edge, o suporte do ClickOnce não está mais habilitado por padrão. Para obter instruções sobre como habilitar o suporte do ClickOnce no Edge, consulte [usar a ferramenta de exportação de descoberta eletrônica do Office 365 no Microsoft Edge](configure-edge-to-export-search-results.md).
+  > <sup>2</sup> como resultado de alterações recentes no Microsoft Edge, o suporte do ClickOnce não está mais habilitado por padrão. Para obter instruções sobre como habilitar o suporte do ClickOnce no Edge, consulte [usar a ferramenta de exportação de descoberta eletrônica no Microsoft Edge](configure-edge-to-export-search-results.md).
     
 - Ao baixar os resultados da pesquisa (descritos na etapa 2), você pode aumentar a velocidade de download Configurando uma configuração do registro do Windows no computador que você usa para exportar os resultados da pesquisa. Para obter mais informações, consulte [aumentar a velocidade de download ao exportar resultados de pesquisa de descoberta eletrônica do Office 365](increase-download-speeds-when-exporting-ediscovery-results.md).
     
@@ -87,7 +87,7 @@ A primeira etapa é preparar os resultados da pesquisa para a exportação. Ao p
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Entre no Office 365 usando a sua conta corporativa ou de estudante.
+2. Entre usando sua conta corporativa ou de estudante.
     
 3. No painel esquerdo do centro de conformidade & segurança, clique em **Search** \> **pesquisa de conteúdo**de pesquisa.
     
@@ -160,7 +160,7 @@ Conforme explicado anteriormente, você pode aumentar a velocidade de download C
   
 3. Clique em **Baixar resultados**.
     
-4. Se você for solicitado a instalar a **ferramenta de exportação de descoberta eletrônica do MicrosoftOffice 365**, clique em **instalar**.
+4. Se você for solicitado a instalar a **ferramenta de exportação de descoberta eletrônica**, clique em **instalar**.
     
 5. Na **Ferramenta de Exportação de Descoberta Eletrônica**, cole a chave de exportação que você copiou na etapa 2 na caixa apropriada.
     
@@ -212,7 +212,7 @@ Veja mais informações sobre como exportar resultados de pesquisa.
     
 - O tamanho máximo de um arquivo PST que pode ser exportado é de 10 GB por padrão. Isso significa que, se os resultados da pesquisa da caixa de correio de um usuário forem maiores do que 10 GB, os resultados da pesquisa serão exportados em dois (ou mais) arquivos PST separados. Se você optar por exportar todos os resultados de pesquisa em um único arquivo PST, o arquivo PST será Spilt em arquivos PST adicionais se o tamanho total dos resultados da pesquisa for maior do que 10 GB. Se você quiser alterar esse tamanho padrão, poderá editar o registro do Windows no computador que você usa para exportar os resultados da pesquisa. Consulte [alterar o tamanho dos arquivos PST ao exportar resultados de pesquisa de descoberta eletrônica](change-the-size-of-pst-files-when-exporting-results.md).
     
-    Além disso, os resultados da pesquisa de uma caixa de correio específica não serão divididos entre vários arquivos PST, a menos que o conteúdo de uma única caixa de correio seja maior do que 10 GB. Se você optar por exportar os resultados da pesquisa em um arquivo PST para o que contém todas as mensagens em uma única pasta e os resultados da pesquisa forem maiores do que 10 GB, os itens ainda serão organizados em ordem cronológica, portanto, eles serão Spilt em arquivos PST adicionais com base no envio pós-datados.
+    Além disso, os resultados da pesquisa de uma caixa de correio específica não serão divididos entre vários arquivos PST, a menos que o conteúdo de uma única caixa de correio seja maior do que 10 GB. Se você optar por exportar os resultados da pesquisa em um arquivo PST para o que contém todas as mensagens em uma única pasta e os resultados da pesquisa forem maiores do que 10 GB, os itens ainda serão organizados em ordem cronológica, portanto, eles serão Spilt em arquivos PST adicionais com base na data de envio.
      
  ### <a name="export-reports"></a>Exportar relatórios
   

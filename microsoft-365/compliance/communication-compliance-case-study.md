@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 834fb37eba578ff87477fd376cd5d33c8612e1b0
-ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
+ms.openlocfilehash: e4cab1d34d17b5ecbe23aaba53698f61473bc6a8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43165930"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637173"
 ---
 # <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-and-exchange-communications"></a>Estudo de caso-Contoso configura rapidamente uma política de idioma ofensiva para o Microsoft Teams e comunicações do Exchange
 
@@ -81,7 +81,7 @@ Os administradores de ti da Contoso usam as seguintes etapas para verificar o su
 
 Por padrão, os administradores globais não têm acesso aos recursos de conformidade de comunicação. [As permissões devem ser configuradas](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure?view=o365-worldwide#step-1-required-enable-permissions-for-communication-compliance) para que os administradores de ti e especialistas de conformidade da Contoso tenham acesso à conformidade de comunicação.
 
-1. Os administradores de ti da Contoso entram na página permissões do **centro de conformidade e segurança do Office 365** [(https://protection.office.com/permissions) ](https://protection.office.com/permissions) usando credenciais para uma conta de administrador global e selecionam o link para exibir e gerenciar funções no Office 365.
+1. Os administradores de ti da Contoso entram na página permissões do **centro de conformidade e segurança do Office 365** [(https://protection.office.com/permissions) ](https://protection.office.com/permissions) usando credenciais para uma conta de administrador global e selecionam o link para exibir e gerenciar funções no Microsoft 365.
 2. Após selecionar **Create**, eles dão ao novo grupo de funções um nome amigável de "*conformidade de comunicação*" e selecione **Avançar**.
 3. Selecione **escolher funções** e, em seguida, selecione **Adicionar**. Eles adicionam as funções necessárias marcando a caixa de seleção para o *administrador de análise de supervisão*, o gerenciamento de *casos*, o *administrador de conformidade*e a *revisão*, selecionando **Adicionar**, **concluído** e **Avançar**.
 
@@ -141,7 +141,7 @@ Depois de selecionar **Mostrar tudo**, os administradores de ti da Contoso podem
 
 Para começar a usar uma política de conformidade de comunicação, há vários pré-requisitos que os administradores de ti da Contoso precisam configurar antes de configurar a nova política para monitorar a linguagem ofensiva. Após estes pré-requisitos terem sido concluídos, os administradores de ti e especialistas de ti da Contoso podem configurar a nova política e os especialistas de conformidade podem começar a investigar e corrigir qualquer alerta gerado.
 
-### <a name="enabling-auditing-in-office-365"></a>Habilitando a auditoria no Office 365
+### <a name="enabling-auditing-in-microsoft-365"></a>Habilitando a auditoria no Microsoft 365
 
 A conformidade com comunicações requer logs de auditoria para mostrar alertas e rastrear ações de correção realizadas por revisores. Os logs de auditoria são um resumo de todas as atividades associadas a uma política organizacional definida ou sempre que houver uma alteração em uma política de conformidade de comunicação.
 
@@ -154,7 +154,7 @@ Os especialistas de conformidade da Contoso desejam adicionar todos os funcioná
 Eles precisam criar um novo grupo para incluir todos os funcionários da Contoso, de modo que eles siga as seguintes etapas:
 
 1. Os administradores de ti da Contoso entram no **centro de administração do Microsoft 365** [https://admin.microsoft.com) (](https://admin.microsoft.com) e navegue até**grupos**de**grupos** >  >  **do centro de administração do Microsoft 365**.
-2. Selecione **Adicionar um grupo** e conclua o assistente para criar um novo grupo ou grupo de *distribuição* *do Office 365* .
+2. Selecione **Adicionar um grupo** e conclua o assistente para criar um novo grupo ou grupo de *distribuição* *do Microsoft 365* .
 
 ![Grupos](../media/communication-compliance-case-all-employees.png)
 

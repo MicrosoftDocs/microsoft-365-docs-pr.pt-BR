@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador do Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras positivas e negativas. Depois que o classificador for treinado, você confirmará que os resultados são precisos. Em seguida, use-o para pesquisar o conteúdo da sua organização e classificá-lo para aplicar os rótulos de retenção ou confidencialidade ou incluí-lo em políticas de retenção ou prevenção de perda de dados (DLP).
-ms.openlocfilehash: 4d11fcf4e1437641cb73510d341d299ce3695938
-ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
+ms.openlocfilehash: 6ff13a8d33168e5ce46ef1dab5b1d27461f17c48
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43193519"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636299"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>Introdução aos classificadores de treinamento (visualização)
 
@@ -73,7 +73,7 @@ A Microsoft 365 vem com cinco classificadores internos recomendados:
 
 |nome do idioma|||||
 |---------|---------|---------|---------|---------|
-|Código|C        |Unidade #       |C++     |Clojure  |
+|Código|C        |C#       |C++     |Clojure  |
 |CoffeeScript|CSS     |Ir       |Haskell |HTML     |
 |Java     |JavaScript|Lua      |MATLAB   |Objective-C|
 |Perl     |PHP      |Python   |R        |Ruby     |

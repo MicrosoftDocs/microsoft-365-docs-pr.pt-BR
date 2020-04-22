@@ -17,12 +17,12 @@ ms.assetid: e0ada764-6422-4b44-9472-513bed04837b
 ms.collection:
 - M365-security-compliance
 description: Antes de criar a primeira política de DLP (prevenção contra perda de dados), a DLP está ajudando a proteger suas informações confidenciais com uma política padrão. Essa política padrão e sua recomendação (mostrado abaixo) ajudam a manter seu conteúdo confidencial seguro, notificando-o quando emails ou documentos contendo um número de cartão de crédito foram compartilhados com alguém de fora da sua organização.
-ms.openlocfilehash: 687cfb50568310aa29f06da6bfbbc644d3edc853
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d24848e5956a6e8927307d3102f4ce31f1187bfd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073100"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637825"
 ---
 # <a name="get-started-with-the-default-dlp-policy"></a>Introdução à política DLP padrão
 
@@ -62,11 +62,11 @@ Se você quiser alterar essas opções mais tarde, poderá editar a política de
   
 ## <a name="edit-the-default-dlp-policy"></a>Editar a política de DLP padrão
 
-Essa política é chamada de **política padrão de DLP do Office 365** e aparece sob **prevenção de perda de dados** na página &amp; **política** do centro de conformidade de segurança. 
+Essa política é chamada de **política de DLP padrão** e aparece sob **prevenção de perda de dados** na página **política** do centro de conformidade de segurança &amp; . 
   
 Essa política é totalmente personalizável, o mesmo que qualquer política de DLP que você criar a partir do zero. Você também pode desativar ou excluir a política, para que os usuários não recebam mais dicas de política ou notificações por email.
   
-![Política de DLP chamada política padrão de DLP do Office 365](../media/260731e8-4d57-4c98-abec-07b052ec48d5.png)
+![Política de DLP chamada política de DLP padrão](../media/260731e8-4d57-4c98-abec-07b052ec48d5.png)
   
 ## <a name="when-the-widget-does-and-does-not-appear"></a>Quando o widget não aparece
 

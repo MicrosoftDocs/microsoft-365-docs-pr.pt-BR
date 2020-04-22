@@ -1,5 +1,5 @@
 ---
-title: Testar a análise de relevância na descoberta eletrônica avançada do Office 365
+title: Testar análise de relevância na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1b092f7c-ea55-44f5-b419-63f3458fd7e0
-description: 'Saiba como usar a guia teste após o cálculo em lote na descoberta eletrônica avançada do Office 365 para testar, comparar e validar a qualidade geral do processamento.  '
-ms.openlocfilehash: c65c10878bdc057a1c53c4370f6a6750e1fe8e9d
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Saiba como usar a guia teste após o cálculo de lote em descoberta eletrônica avançada para testar, comparar e validar a qualidade geral do processamento.  '
+ms.openlocfilehash: 67b480ea340dace4cab0b038d678b6d005bf545b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557681"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637195"
 ---
 # <a name="test-relevance-analysis-in-advanced-ediscovery-classic"></a>Testar análise de relevância na descoberta eletrônica avançada (clássica)
 
@@ -110,9 +110,9 @@ O teste "testar a fatia" executa testes semelhantes ao teste "testar o REST", ma
     
 11. Na guia teste, você pode clicar em **exibir resultados** para ver os resultados do teste. 
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Noções básicas sobre avaliação em relevância](assessment-in-relevance-in-advanced-ediscovery.md)
   

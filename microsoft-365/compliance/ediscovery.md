@@ -1,5 +1,5 @@
 ---
-title: Descoberta eletrônica no Office 365
+title: Descoberta eletrônica
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,17 +14,17 @@ search.appverid:
 - SPO160
 - MOE150
 ms.assetid: 143b3ab8-8cb0-4036-a5fc-6536d837bfce
-description: A Microsoft 365 oferece várias ferramentas de descoberta eletrônica diferentes que você pode usar para pesquisar e manter o conteúdo encontrado em locais diferentes, como caixas de correio do Exchange, sites do SharePoint e do OneDrive for Business, grupos do Office 365 e conversas do Skype for Business.
-ms.openlocfilehash: 19076941d2ff5b908071c779558b2cbe8b15bb54
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+description: A Microsoft 365 oferece várias ferramentas de descoberta eletrônica diferentes que você pode usar para pesquisar e manter o conteúdo encontrado em locais diferentes, como caixas de correio do Exchange, sites do SharePoint e do OneDrive for Business, Microsoft 365 grupos e conversas do Skype for Business.
+ms.openlocfilehash: 6735ce5df0978c75117324f702d1c2f758208bd1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551212"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631756"
 ---
 # <a name="ediscovery-in-microsoft-365"></a>Descoberta eletrônica no Microsoft 365
 
-A Descoberta Eletrônica, ou eDiscovery, é o processo de identificar e fornecer informações eletrônicas que podem ser usadas como provas. Você pode usar as ferramentas de descoberta eletrônica no Microsoft 365 para pesquisar conteúdo em caixas de correio do Exchange Online, grupos do Office 365, Microsoft Teams, SharePoint Online e OneDrive for Business sites e conversas do Skype for Business e o Yammer Teams. Você pode pesquisar caixas de correio e sites na mesma pesquisa de descoberta eletrônica usando a ferramenta de pesquisa de conteúdo. E você pode usar casos de descoberta eletrônica principais para identificar, reter e exportar conteúdo encontrado em caixas de correio e sites. Se sua organização tiver uma assinatura do Office 365 E5 ou do Microsoft 365 E5 (ou suas assinaturas de complemento E5 relacionadas), você poderá gerenciar outros responsáveis e analisar o conteúdo usando a solução de descoberta eletrônica avançada no Microsoft 365.
+A Descoberta Eletrônica, ou eDiscovery, é o processo de identificar e fornecer informações eletrônicas que podem ser usadas como provas. Você pode usar as ferramentas de descoberta eletrônica no Microsoft 365 para pesquisar conteúdo em caixas de correio do Exchange Online, grupos da Microsoft 365, Microsoft Teams, SharePoint Online e OneDrive for Business, e conversas do Skype for Business e do Yammer Teams. Você pode pesquisar caixas de correio e sites na mesma pesquisa de descoberta eletrônica usando a ferramenta de pesquisa de conteúdo. E você pode usar casos de descoberta eletrônica principais para identificar, reter e exportar conteúdo encontrado em caixas de correio e sites. Se sua organização tiver uma assinatura do Office 365 E5 ou do Microsoft 365 E5 (ou suas assinaturas de complemento E5 relacionadas), você poderá gerenciar outros responsáveis e analisar o conteúdo usando a solução de descoberta eletrônica avançada no Microsoft 365.
   
 A Microsoft 365 fornece as seguintes ferramentas de descoberta eletrônica:
   
@@ -43,8 +43,8 @@ A tabela a seguir contém links para tópicos que irão ajudá-lo a usar a ferra
   
 |**Tópico**|**Descrição**|
 |:-----|:-----|
-|[Executar uma Pesquisa de Conteúdo](content-search.md) <br/> |Saiba como usar a ferramenta de pesquisa de conteúdo para pesquisar caixas de correio, pastas públicas, grupos do Office 365, Microsoft Teams, sites do SharePoint Online, uma unidade para locais de negócios e conversas do Skype for Business em sua organização do Office 365 em uma única pesquisa.  <br/> |
-|[Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md) <br/> |Saiba mais sobre as propriedades de arquivo e de email e as condições de pesquisa que você pode usar para pesquisar conteúdo em caixas de correio e sites em sua organização do Office 365.  <br/> |
+|[Executar uma Pesquisa de Conteúdo](content-search.md) <br/> |Saiba como usar a ferramenta de pesquisa de conteúdo para pesquisar caixas de correio, pastas públicas, Microsoft 365 grupos, Microsoft Teams, sites do SharePoint Online, uma unidade para locais de negócios e conversas do Skype for Business em sua organização em uma única pesquisa.  <br/> |
+|[Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md) <br/> |Saiba mais sobre as propriedades de arquivo e de email e as condições de pesquisa que você pode usar para pesquisar conteúdo em caixas de correio e sites em sua organização.  <br/> |
 |[Exibir as estatísticas de palavra-chave para resultados de Pesquisa de Conteúdo](view-keyword-statistics-for-content-search.md) <br/> |Saiba como usar as estatísticas de pesquisa para exibir e comparar as estatísticas de uma ou mais pesquisas de conteúdo e configurar pesquisas novas e existentes para retornar estatísticas de cada palavra-chave na consulta de pesquisa.  <br/> |
 |[Exportar resultados de pesquisa](export-search-results.md) <br/> |Saiba como exportar os resultados de uma pesquisa de conteúdo.  <br/> |
 |[Configurar permissões filtrando a Pesquisa de Conteúdo](permissions-filtering-for-content-search.md) <br/> |Saiba como usar a filtragem de permissões para permitir que um gerente de descoberta eletrônica pesquise somente um subconjunto de caixas de correio e sites em sua organização.  <br/> |
@@ -62,7 +62,7 @@ A tabela a seguir contém links para tópicos que irão ajudá-lo a usar casos d
   
 |**Tópico**|**Descrição**|
 |:-----|:-----|
-|[Introdução à descoberta eletrônica principal](get-started-core-ediscovery.md) |Saiba como atribuir permissões de descoberta eletrônica e criar casos de descoberta eletrônica principais. Este tópico também fornece uma visão geral do fluxo de trabalho de descoberta eletrônica principal.<br/> |
+|[Introdução à Descoberta Eletrônica Central](get-started-core-ediscovery.md) |Saiba como atribuir permissões de descoberta eletrônica e criar casos de descoberta eletrônica principais. Este tópico também fornece uma visão geral do fluxo de trabalho de descoberta eletrônica principal.<br/> |
 |[Criar uma retenção de Descoberta Eletrônica](create-ediscovery-holds.md)|Saiba como criar suspensões de descoberta eletrônica associadas a uma caixa de descoberta eletrônica principal para preservar o conteúdo relevante para o caso que você está investigando.|
 |[Pesquisar conteúdo em um caso de descoberta eletrônica principal](search-for-content-in-core-ediscovery.md)|Saiba como pesquisar conteúdo relevante para um caso. Você pode criar rapidamente pesquisas que pesquisam os locais de conteúdo em espera.|
 |[Exportar conteúdo de um caso de descoberta eletrônica principal](export-content-in-core-ediscovery.md)|Saiba como exportar e baixar o conteúdo de uma ocorrência de descoberta eletrônica principal.|

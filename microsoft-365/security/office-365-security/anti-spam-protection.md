@@ -17,12 +17,12 @@ ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre as configurações e filtros antispam que ajudarão você a evitar spam no Exchange Online e no Microsoft 365. Obtendo muito spam no Microsoft 365? Você pode personalizar suas configurações de filtro de spam e antispam.
-ms.openlocfilehash: d7c7a0166fbcbf3334325aeef153f2d82f27aac3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3bb1c81af0061cc20b4c7bb2a963c0d06b7914e3
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636041"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708566"
 ---
 # <a name="anti-spam-protection-in-microsoft-365"></a>Proteção antispam no Microsoft 365
 
@@ -83,7 +83,7 @@ Veja a seguir algumas práticas recomendadas que se aplicam a qualquer um dos ce
 
 - **Verifique suas configurações de organização**: Tome as configurações que permitem que as mensagens ignorem a filtragem de spam (por exemplo, se você adicionar seu próprio domínio à lista de domínios permitidos em políticas antispam). Para nossas configurações recomendadas, consulte [configurações recomendadas para o EOP e o Microsoft 365 ATP Security](recommended-settings-for-eop-and-office365-atp.md) e [criar listas de remetentes seguros](create-safe-sender-lists-in-office-365.md).
 
-- **Verifique se a regra de lixo eletrônico está habilitada na caixa de correio do usuário**: ela é habilitada por padrão, mas se não houver mensagens marcadas como lixo eletrônico não podem ser movidas para a pasta lixo eletrônico. Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
+- **Verifique se a regra de lixo eletrônico está habilitada na caixa de correio do usuário**: ela está habilitada por padrão, mas se estiver desabilitada, as mensagens marcadas como lixo eletrônico não poderão ser movidas para a pasta lixo eletrônico. Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
 - **Use as listas de remetentes bloqueados disponíveis**: para saber mais, confira [criar listas de remetentes bloqueados](create-block-sender-lists-in-office-365.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Configurar carregamentos para adicionar arquivos importados na descoberta eletrônica avançada do Office 365
+title: Configurar carregamentos para adicionar arquivos importados na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0e0a9d04-294f-4f54-8bf1-b32d81345126
-description: 'Revise as etapas para adicionar arquivos importados à última carga definida ou ao lote de arquivos antes de realizar o treinamento de relevância na descoberta eletrônica avançada do Office 365.  '
-ms.openlocfilehash: 3dd302e107b10726dd0110dfcb19bf59a3703add
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Revise as etapas para adicionar arquivos importados à última carga definida ou ao lote de arquivos antes de realizar o treinamento de relevância na descoberta eletrônica avançada.  '
+ms.openlocfilehash: 7914013d21cfd7bba0e474a0e8d831bcfad0239d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557761"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636289"
 ---
 # <a name="set-up-loads-to-add-imported-files-in-advanced-ediscovery-classic"></a>Configurar carregamentos para adicionar arquivos importados na descoberta eletrônica avançada (clássico)
 
@@ -136,9 +136,9 @@ As cargas sem interrupção e a funcionalidade de atualização variam da seguin
     
 3. Clique em **continuar treinamento**.
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Como definir problemas e atribuir usuários](define-issues-and-assign-users.md)
   

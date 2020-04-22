@@ -1,6 +1,6 @@
 ---
 title: Políticas de supervisão
-description: Saiba mais sobre as políticas de supervisão no Office 365
+description: Aprenda sobre políticas de supervisão
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -18,17 +18,17 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-titleSuffix: Office 365 Compliance
-ms.openlocfilehash: 33cd1e9956410c66c21c6b4279416df5358f4adf
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+titleSuffix: Microsoft 365 Compliance
+ms.openlocfilehash: efdb1c7879f00c48e8588b5b9312dad106dc8992
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604078"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626965"
 ---
-# <a name="supervision-policies-in-office-365"></a>Políticas de supervisão no Office 365
+# <a name="supervision-policies"></a>Políticas de supervisão
 
-As políticas de supervisão no Office 365 permitem que você capture comunicações de funcionários para verificação por revisores designados. Você pode definir políticas específicas que capturam emails internos e externos, Microsoft Teams ou comunicações de terceiros em sua organização. Os revisores podem, então, examinar as mensagens para garantir que estejam em conformidade com os padrões de mensagem da sua organização e as resolvem com o tipo de classificação.
+As políticas de supervisão no Microsoft 365 permitem que você capture comunicações de funcionários para verificação por revisores designados. Você pode definir políticas específicas que capturam emails internos e externos, Microsoft Teams ou comunicações de terceiros em sua organização. Os revisores podem, então, examinar as mensagens para garantir que estejam em conformidade com os padrões de mensagem da sua organização e as resolvem com o tipo de classificação.
 
 Essas políticas também podem ajudá-lo a superar muitos desafios de conformidade modernos, incluindo:
 
@@ -36,7 +36,7 @@ Essas políticas também podem ajudá-lo a superar muitos desafios de conformida
 - O aumento do volume de dados da mensagem
 - A imposição normativa & o risco de multas
 
-Em algumas organizações, pode haver uma separação de tarefas entre o suporte de ti e o grupo de gerenciamento de conformidade. O Office 365 oferece suporte à separação entre a configuração de recurso de política de supervisão e a configuração de políticas para comunicações capturadas. Por exemplo, o grupo de ti de uma organização pode ser responsável por configurar permissões e grupos de função para dar suporte a políticas de supervisão configuradas e gerenciadas pela equipe de conformidade da organização.
+Em algumas organizações, pode haver uma separação de tarefas entre o suporte de ti e o grupo de gerenciamento de conformidade. O Microsoft 365 oferece suporte à separação entre a configuração do recurso de política de supervisão e a configuração de políticas para comunicações capturadas. Por exemplo, o grupo de ti de uma organização pode ser responsável por configurar permissões e grupos de função para dar suporte a políticas de supervisão configuradas e gerenciadas pela equipe de conformidade da organização.
 
 Para obter uma visão geral rápida das políticas de supervisão, consulte o [vídeo da política de supervisão](https://youtu.be/C3Y8WZ7o_dI) no canal do [Microsoft mecânica](https://www.youtube.com/user/OfficeGarageSeries).
 
@@ -44,13 +44,13 @@ Para saber mais sobre aprimoramentos e disponibilidade de recursos de supervisã
 
 Deseja experimentar a nova experiência de conformidade de comunicação no Microsoft 365? Confira os novos e aprimorados recursos disponíveis em [conformidade de comunicação no Microsoft 365](communication-compliance.md).
 
-## <a name="transitioning-from-supervision-in-office-365"></a>Transição de supervisão no Office 365
+## <a name="transitioning-from-supervision"></a>Transição de supervisão
 
-As organizações que usam políticas de supervisão no Office 365 e planejando a transição para [políticas de conformidade de comunicação no Microsoft 365](communication-compliance.md) precisam compreender estes pontos importantes:
+As organizações que usam políticas de supervisão e planejam fazer a transição para [políticas de conformidade de comunicação no Microsoft 365](communication-compliance.md) precisam entender estes pontos importantes:
 
-- A solução de supervisão no Office 365 será totalmente substituída pela solução de conformidade de comunicação no Microsoft 365. Para as organizações que estão migrando para a conformidade de comunicação de políticas de supervisão, recomendamos criar novas políticas de conformidade de comunicação com as mesmas *condições* que as políticas de supervisão existentes para habilitar novos aprimoramentos de investigação e correção. Ao fazer a transição para conformidade de comunicação no Microsoft 365, você deve planejar a exportação de dados de relatórios da supervisão no Office 365 se tiver requisitos de política de retenção de conformidade interna.
+- A solução de supervisão no Microsoft 365 será totalmente substituída pela solução de conformidade de comunicação no Microsoft 365. Para as organizações que estão migrando para a conformidade de comunicação de políticas de supervisão, recomendamos criar novas políticas de conformidade de comunicação com as mesmas *condições* que as políticas de supervisão existentes para habilitar novos aprimoramentos de investigação e correção. Ao fazer a transição para conformidade de comunicação no Microsoft 365, você deve planejar a exportação de dados de relatórios da supervisão, caso tenha requisitos de política de retenção de conformidade interna.
 - No ínterim, as organizações podem usar ambas as soluções lado a lado até que sejam migradas completamente, mas as políticas usadas em cada solução devem ter *nomes de política exclusivos*. Grupos e dicionários de palavras-chave personalizados podem ser compartilhados entre soluções durante o período de transição.
-- Mensagens salvas em supervisão no Office 365 as correspondências de política não podem ser movidas ou compartilhadas na conformidade de comunicação no Microsoft 365.
+- As mensagens salvas em supervisão no Microsoft 365 as correspondências de política não podem ser movidas ou compartilhadas na conformidade de comunicação no Microsoft 365.
 
 Para obter informações de aposentadoria para supervisão no Office 365, consulte o [mapa de 365 da Microsoft](https://www.microsoft.com/microsoft-365/roadmap) para obter detalhes.
 
@@ -78,7 +78,7 @@ Você cria políticas de supervisão no centro de conformidade. Essas políticas
 
 ### <a name="supervised-users"></a>Usuários supervisionados
 
-Antes de começar a usar a supervisão, você deve determinar quem precisa de suas comunicações revisadas. Na política, os endereços de email do usuário identificam pessoas ou grupos de pessoas para supervisionar. Alguns exemplos desses grupos são grupos do Office 365, listas de distribuição baseados no Exchange e canais do Microsoft Teams. Você também pode excluir usuários ou grupos específicos da supervisão com um grupo supervisionado ou uma lista de grupos.
+Antes de começar a usar a supervisão, você deve determinar quem precisa de suas comunicações revisadas. Na política, os endereços de email do usuário identificam pessoas ou grupos de pessoas para supervisionar. Alguns exemplos desses grupos são grupos da Microsoft 365, listas de distribuição baseados no Exchange e canais do Microsoft Teams. Você também pode excluir usuários ou grupos específicos da supervisão com um grupo supervisionado ou uma lista de grupos.
 
 >[!IMPORTANT]
 >Os usuários monitorados pelas políticas de supervisão devem ter uma licença de conformidade do Microsoft 365 e5, uma licença do Office 365 Enterprise E3 com o complemento de conformidade avançada ou ser incluída em uma assinatura do Office 365 Enterprise E5 ou ser incluída em uma assinatura do Microsoft 365 e5. Se você não tem um plano Enterprise E5 existente e deseja tentar a supervisão, você pode [se inscrever para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
@@ -91,24 +91,24 @@ Ao criar uma política de supervisão, você deve determinar quem executará as 
 
 Para simplificar a configuração, crie grupos para pessoas que precisam de suas comunicações revisadas e grupos para pessoas que revisam essas comunicações. Se você estiver usando grupos, talvez precise de vários. Por exemplo, se você quiser monitorar as comunicações entre dois grupos distintos de pessoas ou se quiser especificar um grupo que não é supervisionado.
 
-Quando você seleciona um grupo do Office 365 para usuários supervisionados, a política monitora o conteúdo da caixa de correio compartilhada do Office 365 e os canais do Microsoft Teams associados ao grupo. Quando você seleciona uma lista de distribuição, a política monitora caixas de correio de usuários individuais.
+Quando você seleciona um grupo do Microsoft 365 para usuários supervisionados, a política monitora o conteúdo da caixa de correio compartilhada e dos canais do Microsoft Teams associados ao grupo. Quando você seleciona uma lista de distribuição, a política monitora caixas de correio de usuários individuais.
 
 ### <a name="supported-communication-types"></a>Tipos de comunicação com suporte
 
 Com políticas de supervisão, você pode optar por monitorar mensagens em uma ou mais das seguintes plataformas de comunicação:
 
-- **Email do Exchange:** As caixas de correio hospedadas no Exchange Online como parte da sua assinatura do Office 365 estão qualificadas para supervisão de mensagens. Os emails e anexos que correspondem às condições de política de supervisão estão disponíveis instantaneamente para monitoramento e relatórios de supervisão. Os tipos de anexo com suporte para supervisão são os mesmos que os [tipos de arquivo com suporte para inspeções de conteúdo de regra de fluxo de email do Exchange](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection).
+- **Email do Exchange:** As caixas de correio hospedadas no Exchange Online como parte da sua assinatura do Microsoft 365 estão qualificadas para supervisão de mensagens. Os emails e anexos que correspondem às condições de política de supervisão estão disponíveis instantaneamente para monitoramento e relatórios de supervisão. Os tipos de anexo com suporte para supervisão são os mesmos que os [tipos de arquivo com suporte para inspeções de conteúdo de regra de fluxo de email do Exchange](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection).
 
 - **Microsoft Teams:** Comunicações de chat e anexos associados nos canais do Microsoft Teams públicos e privados e chats individuais podem ser supervisionados. O Team chats que correspondem às condições de política de supervisão são processados uma vez a cada 24 horas e, em seguida, estão disponíveis para monitoramento e relatórios de supervisão. Use as configurações de gerenciamento de grupo a seguir para supervisionar chats de usuários individuais e comunicações de canal no Teams:
 
     - **Para supervisão de chat do teams:** Atribuir usuários individuais ou atribuir um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de supervisão. Isso é para relações de usuário/chat de 1 para 1 ou de um para muitos.
-    - **Para comunicações de canal do teams:** Atribua cada grupo do Microsoft Team Channel ou Office 365 que você deseja monitorar que contenha um usuário específico à política de supervisão. Se você adicionar o mesmo usuário a outros canais do Microsoft Teams ou grupos do Office 365, certifique-se de adicionar esses novos canais e grupos à política de supervisão.
+    - **Para comunicações de canal do teams:** Atribua todos os Microsoft Teams Channel ou Microsoft 365 Group que você deseja monitorar que contenham um usuário específico à política de supervisão. Se você adicionar o mesmo usuário a outros canais do Microsoft Teams ou a grupos do Microsoft 365, certifique-se de adicionar esses novos canais e grupos à política de supervisão.
 
 - **Skype for Business Online:** Comunicações de chat e anexos associados no Skype for Business Online podem ser supervisionados. As condições de política de supervisão de correspondência do Skype for Business online são processadas uma vez a cada 24 horas e, em seguida, estão disponíveis para monitoramento e relatórios de supervisão. Conversas de chat supervisionadas são originadas de [conversas anteriores salvas no Skype for Business online](https://support.office.com/article/Find-a-previous-Skype-for-Business-conversation-18892eba-5f18-4281-8c87-fd48bd72e6a2).  Use a seguinte configuração de gerenciamento de grupos para supervisionar as comunicações de chat do usuário no Skype for Business Online:
 
     - **Para supervisão de chat do Skype for Business Online:** Atribuir usuários individuais ou atribuir um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de supervisão. Isso é para relações de usuário/chat de 1 para 1 ou de um para muitos.
 
-- **Fontes de terceiros:** Você pode supervisionar as comunicações de fontes de terceiros (como do Facebook ou do DropBox) para dados importados para as caixas de correio do Office 365 em sua organização. [Saiba como importar dados de terceiros para o Office 365](archiving-third-party-data.md).
+- **Fontes de terceiros:** Você pode supervisionar as comunicações de fontes de terceiros (como do Facebook ou do DropBox) para dados importados em caixas de correio em sua organização. [Saiba como importar dados de terceiros](archiving-third-party-data.md).
 
 As comunicações capturadas por essas plataformas são mantidas por sete anos para cada política por padrão, mesmo que os usuários deixem sua organização e a caixa de correio seja excluída.
 
@@ -124,7 +124,7 @@ Por padrão, a **direção é** a condição é exibida e não pode ser removida
 
 #### <a name="sensitive-information-types"></a>Tipos de informações confidenciais
 
-Você tem a opção de incluir tipos de informações confidenciais como parte da sua política de supervisão. Os tipos de informações confidenciais são tipos de dados predefinidos ou personalizados que podem ajudar a identificar e proteger números de cartão de crédito, números de contas bancárias, números de passaportes e muito mais. Como parte da [DLP (prevenção de perda de dados)](data-loss-prevention-policies.md)do Office 365, a configuração de informações confidenciais pode usar padrões, proximidade de caracteres, níveis de confiança e até mesmo tipos de dados personalizados para ajudar a identificar e sinalizar conteúdo que possa ser confidencial. Os tipos de informações confidenciais padrão são:
+Você tem a opção de incluir tipos de informações confidenciais como parte da sua política de supervisão. Os tipos de informações confidenciais são tipos de dados predefinidos ou personalizados que podem ajudar a identificar e proteger números de cartão de crédito, números de contas bancárias, números de passaportes e muito mais. Como parte da [DLP (prevenção contra perda de dados)](data-loss-prevention-policies.md), a configuração de informações confidenciais pode usar padrões, proximidade de caracteres, níveis de confiança e até mesmo tipos de dados personalizados para ajudar a identificar e sinalizar conteúdo que possa ser confidencial. Os tipos de informações confidenciais padrão são:
 
 - Financeiro
 - Assistência médica e saúde
@@ -183,7 +183,7 @@ Para verificar as mensagens de email e anexos das mesmas palavras-chave, crie um
   
 ##### <a name="enter-multiple-conditions"></a>Inserir várias condições
 
-Se você inserir várias condições, o Office 365 usará todas as condições juntas para determinar quando aplicar a política a itens de comunicação. Quando você configura várias condições, todas as condições devem ser atendidas para que a política seja aplicada, a menos que você insira uma exceção. Por exemplo, você precisará de uma política que se aplique se uma mensagem contiver a palavra "comércio" e maior que 2 MB. No entanto, se a mensagem também contiver as palavras "aprovadas pela contoso Financial", a política não deverá ser aplicada. Portanto, nesse caso, as três condições seriam as seguintes:
+Se você inserir várias condições, a Microsoft 365 usará todas as condições juntas para determinar quando aplicar a política a itens de comunicação. Quando você configura várias condições, todas as condições devem ser atendidas para que a política seja aplicada, a menos que você insira uma exceção. Por exemplo, você precisará de uma política que se aplique se uma mensagem contiver a palavra "comércio" e maior que 2 MB. No entanto, se a mensagem também contiver as palavras "aprovadas pela contoso Financial", a política não deverá ser aplicada. Portanto, nesse caso, as três condições seriam as seguintes:
   
 - A **mensagem contém qualquer uma destas palavras**, com as palavras-chave "trade"
 
@@ -263,7 +263,7 @@ Aqui está uma divisão dos valores exibidos na coluna **tipo de marca** .
   
 |**Tipo de marca**|**O que significa**|
 |:-----|:-----|
-| **Não revisado** | O número de emails ainda não revisados. Esses emails estão aguardando revisão no painel de supervisão do Office 365.
+| **Não revisado** | O número de emails ainda não revisados. Esses emails estão aguardando revisão no painel de supervisão do Microsoft 365.
 | **Compliant** | O número de emails revisados e marcados como em conformidade. Essas mensagens ainda precisam de resolução. |
 | **Questionáveis** | O número de emails revisados e marcados como questionáveis. O serve como um sinalizador para outros revisores para ajudar a verificar se um email precisa de investigação para fins de conformidade. Essas mensagens ainda precisam de resolução. |
 | **Não compatível (ativo)** | O número de emails não compatíveis que os revisores estão investigando no momento. |
@@ -279,7 +279,7 @@ Aqui está uma divisão dos valores exibidos na coluna **tipo de marca** .
 
 Em alguns casos, você deve fornecer informações para auditores regulamentares ou de conformidade para provar a supervisão de atividades e comunicações de funcionários. Isso pode ser um resumo de todas as atividades de supervisão associadas a uma política definida ou sempre que uma política de supervisão é alterada. As políticas de supervisão têm trilhas de auditoria internas para uma preparação completa para auditorias internas ou externas. Os históricos de auditoria detalhados de todas as ações monitoradas por suas políticas de supervisão oferecem prova de procedimentos de supervisão.
 
-As seguintes atividades de política de supervisão são auditadas e estão disponíveis nos logs de auditoria unificados do Office 365:
+As seguintes atividades de política de supervisão são auditadas e estão disponíveis nos logs de auditoria unificada:
 
 |**Atividades**|**Comandos associados**|
 |:-----|:-----|

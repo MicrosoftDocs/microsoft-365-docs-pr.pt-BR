@@ -21,18 +21,18 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Crie uma caixa de correio compartilhada para permitir que vários usuários da sua empresa compartilhem a responsabilidade de ler e responder a emails enviados para um endereço.
-ms.openlocfilehash: 4469197628feb96980ec2d8b560048acba704c54
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 35711e1a17a244a9f68ac88daf665f0328b293b4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212300"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628898"
 ---
 # <a name="create-a-shared-mailbox"></a>Criar uma caixa de correio compartilhada 
 
 > [!NOTE]
 > Se a sua organização usa um ambiente híbrido do Exchange, você deverá usar o centro de administração do Exchange (EAC) no local para criar e gerenciar caixas de correio compartilhadas. Ver [Criar caixas de correio compartilhadas no centro de administração do Exchange](https://docs.microsoft.com/Exchange/collaboration/shared-mailboxes/create-shared-mailboxes?view=exchserver-2019.)<br><br>
-> Se você não tiver certeza se deve criar uma caixa de correio compartilhada ou um Grupo do Office 365 para Outlook, confira [Comparar grupos](../create-groups/compare-groups.md) para saber mais. Observe que, no momento, não é possível migrar uma caixa de correio compartilhada para um grupo do Office 365. Se isso é algo que você deseja, informe-nos [votando aqui](https://go.microsoft.com/fwlink/?linkid=871518).
+> Se você não tiver certeza se deve criar uma caixa de correio compartilhada ou um grupo do Microsoft 365 para o Outlook, consulte [Comparar grupos](../create-groups/compare-groups.md) para orientação. Observe que, no momento, não é possível migrar uma caixa de correio compartilhada para um grupo do Microsoft 365. Se isso é algo que você deseja, informe-nos [votando aqui](https://go.microsoft.com/fwlink/?linkid=871518).
 
 É muito fácil criar caixas de correio compartilhadas para que um grupo de pessoas possa monitorar e enviar emails de endereços de email comuns, como info@contoso.com. Quando um membro do grupo responde a uma mensagem enviada para a caixa de correio compartilhada, o email é exibido como sendo da caixa de correio compartilhada, e não do usuário individual.
 
@@ -42,7 +42,7 @@ Antes de criar uma caixa de correio compartilhada, não deixe de ler [Sobre caix
 
 ## <a name="create-a-shared-mailbox-and-add-members"></a>Criar uma caixa de correio compartilhada e adicionar membros
   
-1. Entre com uma conta de administrador global do Office 365 ou conta de administrador do Exchange. Caso receba a mensagem "**Você não possui permissão para acessar esta página ou realizar esta ação**", então você não é um administrador. 
+1. Entre com uma conta de administrador global ou conta de administrador do Exchange. Caso receba a mensagem "**Você não possui permissão para acessar esta página ou realizar esta ação**", então você não é um administrador. 
 
 ::: moniker range="o365-worldwide"
 
@@ -158,7 +158,7 @@ Você pode acessar uma caixa de correio compartilhada em um dispositivo móvel d
     
     Para obter instruções, confira <a href="https://support.office.com/article/f866242c-81b2-472e-8776-6c49c5473c9f" target="_blank">Adicionar uma caixa de correio compartilhada ao Outlook Mobile</a>.
 
-- Abra o navegador, entre no Office 365 e vá para o Outlook na Web. Em Outlook na Web, você poderá acessar a caixa de correio compartilhada.
+- Abra seu navegador, entre e vá para o Outlook na Web. Em Outlook na Web, você poderá acessar a caixa de correio compartilhada.
 
     Para obter instruções, confira <a href="https://support.office.com/article/98b5a90d-4e38-415d-a030-f09a4cd28207.aspx" target="_blank">Adicionar uma caixa de correio compartilhada ao Outlook na Web</a>.
 

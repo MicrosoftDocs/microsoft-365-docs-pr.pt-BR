@@ -1,5 +1,5 @@
 ---
-title: Recuperar uma caixa de correio inativa no Office 365
+title: Recuperar uma caixa de correio inativa
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
 description: 'Se um antigo funcionário retornar à sua organização ou se um novo funcionário for contratado para assumir as responsabilidades de trabalho de um funcionário de parte, você poderá recuperar o conteúdo da caixa de correio inativa no Office 365. Ao recuperar uma caixa de correio inativa, ela é convertida em uma nova caixa de correio que contém o conteúdo da caixa de correio inativa. '
-ms.openlocfilehash: 5048df8c17f4f44c1bbed33753da51dac53c7789
-ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
+ms.openlocfilehash: d79bdf19e4e16d33f55caf10cd864b2627609db7
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978141"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636269"
 ---
-# <a name="recover-an-inactive-mailbox-in-office-365"></a>Recuperar uma caixa de correio inativa no Office 365
+# <a name="recover-an-inactive-mailbox"></a>Recuperar uma caixa de correio inativa
 
 Uma caixa de correio inativa (que é um tipo de caixa de correio excluída por software) é usada para preservar o email de um funcionário anterior, depois que ele deixa sua organização. Se esse funcionário retornar à sua organização ou se outro funcionário assumir as responsabilidades de trabalho do antigo funcionário, há duas maneiras de tornar o conteúdo da caixa de correio inativa disponível para um usuário: 
   
@@ -66,7 +66,7 @@ Use o cmdlet **New-Mailbox** com o parâmetro *InactiveMailbox* para recuperar u
 
     O endereço SMTP principal da caixa de correio inativa recuperada terá o mesmo valor que aquele especificado pelo parâmetro *MicrosoftOnlineServicesID* . 
     
-Após recuperar uma caixa de correio inativa, uma nova conta de usuário do Office 365 também é criada. You have to activate this user account by assigning a license. Para atribuir uma licença no centro de administração do Microsoft 365, confira [Atribuir ou cancelar atribuição de licenças para o Office 365 para empresas](https://go.microsoft.com/fwlink/p/?LinkId=276798).
+Após recuperar uma caixa de correio inativa, uma nova conta de usuário também é criada. You have to activate this user account by assigning a license. Para atribuir uma licença no centro de administração do Microsoft 365, consulte [atribuir ou cancelar a atribuição de licenças para o Microsoft 365 para empresas](https://go.microsoft.com/fwlink/p/?LinkId=276798).
   
 ## <a name="more-information"></a>Mais informações
 
@@ -78,17 +78,17 @@ Após recuperar uma caixa de correio inativa, uma nova conta de usuário do Offi
     
   - Bloqueios in-loco são removidos. Isso significa que a caixa de correio inativa é removida como uma caixa de correio de origem de qualquer bloqueio in-loco ou pesquisas de descoberta eletrônica in-loco. 
     
-  - A caixa de correio inativa é removida de todas as políticas de retenção do Office 365 que são aplicadas a ela.
+  - A caixa de correio inativa é removida de todas as políticas de retenção do Microsoft 365 que foram aplicadas a ela.
     
   - O período de recuperação de item único (que é definido pela propriedade de caixa de correio **RetainDeletedItemsFor** ) é definido como 30 dias. Normalmente, quando uma nova caixa de correio é criada no Exchange Online, esse período de retenção é definido como 14 dias. Definir isso com o valor máximo de 30 dias dá a você mais tempo para recuperar todos os dados que foram excluídos permanentemente (ou removidos) da caixa de correio inativa. Você também pode desabilitar a recuperação de item único ou definir o período de recuperação de item único de volta para o padrão de 14 dias. Para mais informações, confira [Ativar ou desativar recuperação de item único para uma caixa de correio](https://go.microsoft.com/fwlink/?linkid=856769).
     
-  - A retenção está habilitada e a duração da retenção é definida como 30 dias. Isso significa que a política de retenção padrão do Exchange e todas as políticas de retenção do Office 365 de toda a organização ou do Exchange que são atribuídas à nova caixa de correio não serão processadas por 30 dias. Isso fornece ao funcionário de retorno ou ao novo proprietário do tempo de caixa de correio inativo recuperado para gerenciar as mensagens antigas. Caso contrário, a política de retenção do Exchange ou do Office 365 pode excluir itens de caixa de correio antigos (ou mover itens para a caixa de correio de arquivo morto, se estiver habilitada) que expiraram com base nas configurações definidas para as políticas de retenção do Exchange ou do Office 365. Após 30 dias, a retenção expirará, a propriedade de caixa de correio **RetentionHoldEnabled** será definida como **false**e o assistente de pasta gerenciada começará a processar as políticas atribuídas à caixa de correio. Se você não precisar desse tempo adicional, só poderá remover a retenção. Como alternativa, você pode aumentar a duração da retenção, usando o comando **Set-Mailbox-EndDateForRetentionHold** . Para obter mais informações, consulte [colocar uma caixa de correio em retenção](https://go.microsoft.com/fwlink/?linkid=856300).
+  - A retenção está habilitada e a duração da retenção é definida como 30 dias. Isso significa que a política de retenção padrão do Exchange e quaisquer políticas de retenção do Exchange 365 em toda a organização ou em todo o Exchange que são atribuídas à nova caixa de correio não serão processadas por 30 dias. Isso fornece ao funcionário de retorno ou ao novo proprietário do tempo de caixa de correio inativo recuperado para gerenciar as mensagens antigas. Caso contrário, a política de retenção do Exchange ou do Microsoft 365 pode excluir itens de caixa de correio antigos (ou mover itens para a caixa de correio de arquivo morto, se estiver habilitada) que expiraram com base nas configurações definidas para as políticas de retenção do Exchange ou do Microsoft 365. Após 30 dias, a retenção expirará, a propriedade de caixa de correio **RetentionHoldEnabled** será definida como **false**e o assistente de pasta gerenciada começará a processar as políticas atribuídas à caixa de correio. Se você não precisar desse tempo adicional, só poderá remover a retenção. Como alternativa, você pode aumentar a duração da retenção, usando o comando **Set-Mailbox-EndDateForRetentionHold** . Para obter mais informações, consulte [colocar uma caixa de correio em retenção](https://go.microsoft.com/fwlink/?linkid=856300).
     
 - **Coloque uma retenção na caixa de correio recuperada se precisar preservar o estado original da caixa de correio inativa.** Para impedir que o novo proprietário da caixa de correio ou a política de retenção exclua permanentemente qualquer mensagem da caixa de correio inativa recuperada, você pode colocar a caixa de correio em retenção de litígio. Para obter mais informações, consulte [colocar uma caixa de correio em retenção de litígio](https://go.microsoft.com/fwlink/?linkid=856286).
     
 - **Qual ID de usuário você pode usar ao recuperar uma caixa de correio inativa?** Ao recuperar uma caixa de correio inativa, o valor especificado para o parâmetro *MicrosoftOnlineServicesID* pode ser diferente do original que estava associado à caixa de correio inativa. Você também pode usar a ID de usuário original. Mas conforme declarado anteriormente, certifique-se de que os valores usados para *Name* e *MicrosoftOnlineServicesID* sejam exclusivos em sua organização quando você recuperar a caixa de correio inativa. 
     
-- **E se o período de retenção de caixa de correio para a caixa de correio inativa não tiver expirado?** Se uma caixa de correio inativa foi excluída por menos de 30 dias, não é possível usar o comando **New-Mailbox-InactiveMailbox** para recuperá-la. Você precisa recuperá-lo restaurando a conta de usuário do Office 365 correspondente. Para obter mais informações, consulte [excluir ou restaurar usuários](https://go.microsoft.com/fwlink/p/?LinkId=279162).
+- **E se o período de retenção de caixa de correio para a caixa de correio inativa não tiver expirado?** Se uma caixa de correio inativa foi excluída por menos de 30 dias, não é possível usar o comando **New-Mailbox-InactiveMailbox** para recuperá-la. Você precisa recuperá-lo restaurando a conta de usuário correspondente. Para obter mais informações, consulte [excluir ou restaurar usuários](https://go.microsoft.com/fwlink/p/?LinkId=279162).
     
 - **Como saber se o período de retenção de caixa de correio de exclusão reversível de uma caixa de correio inativa expirou?** Execute o seguinte comando. 
     
@@ -96,7 +96,7 @@ Após recuperar uma caixa de correio inativa, uma nova conta de usuário do Offi
     Get-Mailbox -InactiveMailboxOnly <identity of inactive mailbox> | FL ExternalDirectoryObjectId
   ```
 
-    Se não houver um valor para a propriedade **ExternalDirectoryObjectId** , o período de retenção de caixa de correio expirou e você pode recuperar a caixa de correio inativa executando o comando **New-Mailbox-InactiveMailbox** . Se houver um valor para a propriedade **ExternalDirectoryObjectId** , o período de retenção de caixa de correio excluída de forma reversível não expirou e você precisa recuperar a caixa de correio restaurando a conta de usuário do Office 365. Consulte [excluir ou restaurar usuários](https://go.microsoft.com/fwlink/p/?LinkId=279162)
+    Se não houver um valor para a propriedade **ExternalDirectoryObjectId** , o período de retenção de caixa de correio expirou e você pode recuperar a caixa de correio inativa executando o comando **New-Mailbox-InactiveMailbox** . Se houver um valor para a propriedade **ExternalDirectoryObjectId** , o período de retenção de caixa de correio excluída de forma reversível ainda não tiver expirado e você precisará recuperar a caixa de correio restaurando a conta do usuário. Consulte [excluir ou restaurar usuários](https://go.microsoft.com/fwlink/p/?LinkId=279162)
     
 - **Considere habilitar a caixa de correio de arquivo morto após recuperar uma caixa de correio inativa.** Isso permite que o usuário ou novo funcionário de retorno mova mensagens antigas para a caixa de correio de arquivo morto. E, quando a retenção expirar, a política de arquivamento que faz parte da política de retenção padrão do Exchange atribuída às caixas de correio do Exchange Online moverá itens que têm dois anos ou mais para a caixa de correio de arquivo morto. Se você não habilitar a caixa de correio de arquivo morto, os itens com mais de dois anos permanecerão na caixa de correio principal do usuário. Para obter mais informações, consulte [habilitar caixas de correio de arquivo morto](enable-archive-mailboxes.md).
  

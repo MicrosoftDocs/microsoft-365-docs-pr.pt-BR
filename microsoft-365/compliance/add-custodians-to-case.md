@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: f77a2967c6b789d28a95516594b1bdd5d8b9f3c6
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 11115db9e9a29f9abe83b3c26322f7586806d4dc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634599"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632306"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>Adicionar responsáveis a uma ocorrência de descoberta eletrônica avançada
 
@@ -68,7 +68,7 @@ Para identificar as fontes de dados de responsáveis:
 
 ## <a name="step-3-associate-additional-data-sources-to-a-custodian"></a>Etapa 3: associar fontes de dados adicionais a um funcionário
 
-Dependendo do caso em que você está investigando, você também pode precisar pesquisar (e preservar o conteúdo) em caixas de correio que um determinado participante pode ter acessado, os grupos do Office 365 dos quais um Objecté membro no momento ou sites que um responsáveis também acessou. Assim, além das fontes de dados dos responsáveis principais que você especificou na etapa anterior, você também pode associar outras fontes de dados do Office 365 a um funcionário no caso. 
+Dependendo do caso em que você está investigando, talvez também seja necessário Pesquisar (e preservar o conteúdo) em caixas de correio que um determinado participante possa ter acessado, os grupos do Microsoft 365 aos quais um Objecté membro do no momento ou sites que um responsáveis também tenha acessado. Além das fontes de dados dos responsáveis principais que você especificou na etapa anterior, você também pode associar outras fontes de dados da Microsoft a um funcionário no caso. 
 
 Para mapear caixas de correio, sites ou equipes para um determinado local:
 
@@ -76,14 +76,14 @@ Para mapear caixas de correio, sites ou equipes para um determinado local:
   
    ![Mapear fontes de dados adicionais](../media/AddCustodianStep3.PNG)
 
-2. Na página do menu suspenso, você pode especificar uma fonte de dados de qualquer um dos seguintes serviços do Office 365:
+2. Na página do menu suspenso, você pode especificar uma fonte de dados de qualquer um dos seguintes serviços:
   
-   -  **Email do Exchange** -clique em **escolher usuários, grupos ou equipes** e, em seguida, clique em **escolher usuários, grupos ou equipes** novamente. Use a caixa Pesquisar para localizar caixas de correio para associar aos responsáveis. Para especificar as caixas de correio a serem atribuídas aos responsáveis selecionados, use a caixa de pesquisa para localizar caixas de correio de usuário e grupos de distribuição. Você também pode atribuir a caixa de correio associada a um grupo do Office 365 ou a uma equipe da Microsoft. Marque a caixa de seleção usuário, grupo, equipe, clique em **escolher**e em **concluído**.
+   -  **Email do Exchange** -clique em **escolher usuários, grupos ou equipes** e, em seguida, clique em **escolher usuários, grupos ou equipes** novamente. Use a caixa Pesquisar para localizar caixas de correio para associar aos responsáveis. Para especificar as caixas de correio a serem atribuídas aos responsáveis selecionados, use a caixa de pesquisa para localizar caixas de correio de usuário e grupos de distribuição. Você também pode atribuir a caixa de correio associada a um grupo do Microsoft 365 ou a uma equipe da Microsoft. Marque a caixa de seleção usuário, grupo, equipe, clique em **escolher**e em **concluído**.
 
         > [!NOTE]
         > Ao clicar em escolher usuários, grupos ou equipes para especificar caixas de correio, o seletor de caixa de correio exibido estará vazio. Isso foi desenvolvido para melhorar o desempenho. Para adicionar uma caixa de correio a essa lista, digite um nome ou alias (no mínimo 3 caracteres) na caixa de pesquisa.
      
-     - **Sites do SharePoint** -clique em **escolher sites** e clique em **escolher sites** novamente para exibir uma lista de sites do SharePoint em sua organização. Para associar um site ao funcionário, você pode selecionar um site na lista ou pode digitar a URL de um site diferente ou um site associado a um grupo do Office 365, Microsoft Team ou uma conta do OneDrive.
+     - **Sites do SharePoint** -clique em **escolher sites** e clique em **escolher sites** novamente para exibir uma lista de sites do SharePoint em sua organização. Para associar um site ao funcionário, você pode selecionar um site na lista ou pode digitar a URL de um site diferente ou um site associado a um grupo do Microsoft 365, Microsoft Team ou uma conta do OneDrive.
      
      - **Teams** – clique em **escolher equipes** e, em seguida, clique em **escolher o Teams** novamente para exibir uma lista de Microsoft Teams que os responsáveis atualmente são membros. Selecione as equipes que você gostaria de adicionar a seus responsáveis. Depois de selecionado, o sistema identificará automaticamente & selecionar o site do SharePoint associado e a caixa de correio de grupo associados a essa equipe da Microsoft. Clique em **escolher**e em **concluído**.
 

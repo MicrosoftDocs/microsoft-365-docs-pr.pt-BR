@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Saiba o que acontece com seus dados quando sua assinatura do Microsoft 365 for Business expira, está desabilitada ou se você cancelar.
-ms.openlocfilehash: 2a5a9e587b6b00017d3e489d948c9cee3db4777b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: cd90b0b5825b2888b1194998c25a2ce9c7c28718
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634869"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707602"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>O que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 for Business termina?
 
@@ -220,7 +220,7 @@ Veja o que esperar para você e seus usuários se cancelar uma assinatura.
 Para saber como cancelar, confira [cancelar sua assinatura](cancel-your-subscription.md).
   
 > [!IMPORTANT]
-> Se quiser que seus dados de assinatura sejam excluídos antes que o período normal desabilitado seja superior, você poderá solicitar um desprovisionamento expedido. Quando você solicita o desprovisionamento expresso, os dados da sua assinatura são excluídos em até três dias após o cancelamento. Para usar o desprovisionamento expresso, [ligue para o suporte](../../admin/contact-support-for-business-products.md).
+> Se quiser que seus dados de assinatura sejam excluídos antes que o período normal desabilitado seja superior, você pode [fechar sua conta](../close-your-account.md).
 
 > [!NOTE]
 > As informações nesta página estão sujeitas ao [aviso de isenção de responsabilidade e alteração da política da Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=613651). Retorne a este site periodicamente para revisar as alterações.

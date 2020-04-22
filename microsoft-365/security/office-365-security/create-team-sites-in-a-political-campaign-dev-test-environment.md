@@ -18,12 +18,12 @@ search.appverid:
 ms.custom: ''
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: 'Resumo: crie sites de equipe do SharePoint Online públicos, privados, confidenciais e altamente confidenciais em um ambiente de desenvolvimento/teste de campanha política.'
-ms.openlocfilehash: d36b2c74cc7accadf5bbbde1b52f94c5e998ea8a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 14ba5b00754a9e55c797edd0835658ac81b7e647
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599488"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637659"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>Criar sites de equipe em um ambiente de desenvolvimento/teste de campanha política
 
@@ -35,11 +35,11 @@ Use as instruções deste artigo para criar um ambiente de desenvolvimento/teste
 
 Primeiro, siga as instruções em [Configurar grupos e usuários para um ambiente de desenvolvimento/teste de campanha política](configure-groups-and-users-for-a-political-campaign-dev-test-environment.md) para criar assinaturas, usuários e grupos.
   
-## <a name="phase-2-create-office-365-labels"></a>Fase 2: Criar rótulos do Office 365
+## <a name="phase-2-create-labels"></a>Fase 2: criar rótulos
 
 Nesta fase, você deve criar os rótulos para os diferentes níveis de segurança para as pastas e documentos do site da equipe do SharePoint Online.
   
-1. Se necessário, entre no centro de administração com as credenciais da conta do administrador global da sua assinatura de avaliação. Para obter ajuda, confira [Como entrar no Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Se necessário, entre no centro de administração com as credenciais da conta do administrador global da sua assinatura de avaliação. Para obter ajuda, consulte [Como entrar no Microsoft 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. Na guia **Microsoft Office Home**, clique no bloco **Administração**.
     

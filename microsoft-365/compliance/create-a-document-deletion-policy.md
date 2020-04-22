@@ -14,17 +14,17 @@ search.appverid:
 - SPO160
 ms.assetid: 41b2ed73-eb8d-4429-945e-a8197894585a
 description: As organizações frequentemente são obrigadas a manter documentos por um determinado período devido a regulamentações de conformidade, legais ou outras. No entanto, reter os documentos por mais tempo do que o necessário poderá expor a organização a riscos legais.
-ms.openlocfilehash: 0144b12c05fcd4c8f973ee7e6b6df373f5b609a5
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5550f65e5b2ecb5dca775e1d851548913b8e8517
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42077856"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632256"
 ---
 # <a name="create-a-document-deletion-policy"></a>Criar uma política de exclusão de documentos
 
 > [!IMPORTANT]
-> Em frente, recomendamos que você use uma política de retenção ou rótulos de retenção criados no centro de conformidade da Microsoft 365, no centro de segurança da Microsoft &amp; 365 ou no centro de conformidade de segurança do Office 365, em vez de uma política de exclusão de documentos. As políticas de exclusão de documentos continuarão a funcionar lado a lado com políticas de retenção, mas se você precisar reter ou excluir conteúdo em qualquer lugar no Office 365, recomendamos que você use uma política de retenção. Para obter mais informações, consulte [usar uma política de retenção em vez desses recursos](retention-policies.md#use-a-retention-policy-instead-of-these-features). 
+> Em frente, recomendamos que você use uma política de retenção ou rótulos de retenção criados no centro de conformidade da Microsoft 365, no centro de segurança &amp; da Microsoft 365 ou no centro de conformidade de segurança em vez de uma política de exclusão de documentos. As políticas de exclusão de documentos continuarão a funcionar lado a lado com políticas de retenção, mas se você precisar reter ou excluir conteúdo em qualquer lugar no Office 365, recomendamos que você use uma política de retenção. Para obter mais informações, consulte [usar uma política de retenção em vez desses recursos](retention-policies.md#use-a-retention-policy-instead-of-these-features). 
   
 As organizações frequentemente são obrigadas a manter documentos por um determinado período devido a regulamentações de conformidade, legais ou outras. No entanto, reter os documentos por mais tempo do que o necessário poderá expor a organização a riscos legais.
   
@@ -244,7 +244,7 @@ Não é possível excluir uma política que está sendo usada. Antes de poder ex
   
 3. Selecione a política.
     
-4. Na guia \> **** \> itens da faixa de opções, **remova a política**.
+4. Na guia \> **Items** \> itens da faixa de opções, **remova a política**.
     
     ![Botão Remover Política na Faixa de Opções](../media/IP-Remove-Policy-button-on-Ribbon.png)
   

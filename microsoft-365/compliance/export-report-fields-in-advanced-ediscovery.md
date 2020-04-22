@@ -1,5 +1,5 @@
 ---
-title: Exportar campos de relatório na descoberta eletrônica avançada do Office 365
+title: Exportar campos de relatório na descoberta eletrônica avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 840a5aff-ecd0-4e56-ad22-fe99bc143687
 description: Descreve todos os campos incluídos nos relatórios de exportação para descoberta eletrônica avançada.
-ms.openlocfilehash: 8c932dac9218e2020bfcd57d21483728325e488f
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: a7ee8e3971ab2fc921085ca63f7a8451a1597be2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558202"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637803"
 ---
 # <a name="export-report-fields-in-advanced-ediscovery-classic"></a>Exportar campos de relatório na descoberta eletrônica avançada (clássico)
 
@@ -137,7 +137,7 @@ A tabela a seguir lista os campos de cada modelo de exportação.
    
 ## <a name="related-topics"></a>Tópicos Relacionados
 
-[Descoberta eletrônica avançada (clássica)](office-365-advanced-ediscovery.md)
+[Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   
 [Exportar dados de caso com a descoberta eletrônica avançada](export-case-data-in-advanced-ediscovery.md)
   

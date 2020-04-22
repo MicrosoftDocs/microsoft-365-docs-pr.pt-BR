@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector para importar dados de terceiros de fontes de dados, como páginas de negócios do Facebook, Twitter, páginas da empresa do LinkedIn e Bloomberg instantâneo. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a governança dos dados de terceiros da sua organização.
-ms.openlocfilehash: 8bd689f7a77497961948d8e94b160aca8bbb43ed
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5c8bb4c1330af0f9c10dd93f9cedd47b3d3b34b0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596308"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637121"
 ---
 # <a name="set-up-a-connector-to-archive-facebook-data"></a>Configurar um conector para arquivar dados do Facebook
 
@@ -38,9 +38,9 @@ Conclua os pré-requisitos a seguir antes de configurar e configurar um conector
     - [Inscreva-se para obter uma assinatura do Azure de pagamento conforme a ser acessado](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/)
 
     > [!NOTE]
-    > A [assinatura gratuita do Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md) incluída na assinatura do Office 365 não é compatível com os conectores no centro de conformidade do & de segurança.
+    > A [assinatura gratuita do Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md) incluída na assinatura do Microsoft 365 não é compatível com os conectores no centro de conformidade do & de segurança.
 
-- Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para concordar com essa solicitação, [acesse esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), entre com as credenciais de um administrador global do Office 365 e aceite a solicitação.
+- Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para concordar com essa solicitação, [acesse esta página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), entre com as credenciais de um administrador global e aceite a solicitação.
 
 - O usuário que configura o conector personalizado no centro de conformidade da Microsoft 365 (na etapa 5) deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
 
@@ -106,7 +106,7 @@ Durante a conclusão desta etapa (seguindo as instruções passo a passo), você
 
 ## <a name="step-5-set-up-a-facebook-business-pages-connector-in-the-microsoft-365-compliance-center"></a>Etapa 5: configurar um conector de páginas de negócios do Facebook no centro de conformidade da Microsoft 365
 
-A etapa final é configurar o conector no centro de conformidade da Microsoft 365 que importará dados de suas páginas de negócios do Facebook para uma caixa de correio especificada no Microsoft 365. Após concluir esta etapa, o serviço de importação 365 da Microsoft começará a importar dados de suas páginas de negócios do Facebook para a Microsoft 365.
+A etapa final é configurar o conector no centro de conformidade da Microsoft 365 que importará dados de suas páginas de negócios do Facebook para uma caixa de correio especificada no Microsoft 365. Após concluir esta etapa, o serviço de importação do Office 365 começará a importar dados de suas páginas de negócios do Facebook para a Microsoft 365.
 
 Para obter instruções passo a passo, consulte [etapa 5: configurar um conector do Facebook no centro de conformidade da Microsoft 365](deploy-facebook-connector.md#step-5-set-up-a-facebook-connector-in-the-microsoft-365-compliance-center). 
 

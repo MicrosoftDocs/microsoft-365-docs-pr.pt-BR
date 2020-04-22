@@ -1,5 +1,5 @@
 ---
-title: E-mail
+title: Email
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -14,17 +14,17 @@ layout: LandingPage
 ms.service: o365-administration
 localization_priority: Priority
 ms.assetid: f7449a18-1400-475a-b158-2668fef93bfe
-description: Saiba como gerenciar os e-mails das suas caixas de correio do Office 365.
-ms.openlocfilehash: ca1fba8c89f7c647a0bb6d4f846ebb12f82a7abd
-ms.sourcegitcommit: 5ba1efc0b498430e30231010024044049b8727c7
+description: Saiba como gerenciar e-mails para suas caixas de correio do Microsoft 365.
+ms.openlocfilehash: 25d34ed4f86a918daea5e04c89b9b79c91bebc08
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43126006"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628850"
 ---
-# <a name="email"></a>E-mail
+# <a name="email"></a>Email
 
-Saiba como gerenciar os e-mails das suas caixas de correio do Office 365.
+Saiba como gerenciar e-mails para suas caixas de correio do Microsoft 365.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -146,7 +146,7 @@ Saiba como gerenciar os e-mails das suas caixas de correio do Office 365.
                 <div class="card">
                     <div class="cardText">
                         <h3>Solucionar problemas de conexão e de entrega dos e-mails</a></h3>
-                        <p><a href="https://diagnostics.outlook.com/#/">Corrigir problemas de conexão do Outlook no Office 365 e Exchange Online</a></p>
+                        <p><a href="https://diagnostics.outlook.com/#/">Corrigir problemas de conexão do Outlook no Microsoft 365 e Exchange Online</a></p>
                         <p><a href="https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox">Recuperar itens excluídos na caixa de correio de um usuário </a></p>
                         <p><a href="https://docs.microsoft.com/exchange/troubleshoot/mail-delivery/email-delivery-issues">Localizar e corrigir problemas de entrega de e-mails</a></p>
                         <p><a href="../get-help-with-domains/find-and-fix-issues.md">Localizar e corrigir problemas (incluindo problemas com e-mails) após adicionar o seu domínio ou registros DNS</a></p>
@@ -162,8 +162,8 @@ Saiba como gerenciar os e-mails das suas caixas de correio do Office 365.
             <div class="card">
                 <div class="cardText">
                         <h3>Recursos para empresas</h3>
-                        <p><a href="https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices">Práticas recomendadas de fluxo de email para o Exchange Online e o Office 365</a></p>
-                        <p><a href="https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration">Maneiras de migrar várias contas de email para o Office 365</a></p>
+                        <p><a href="https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices">Práticas recomendadas de fluxo de e-mails do Exchange Online e Microsoft 365</a></p>
+                        <p><a href="https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration">Maneiras de migrar várias contas de e-mails para o Microsoft 365</a></p>
                         <p><a href="https://docs.microsoft.com/exchange/exchange-hybrid">Conteúdo da implantação híbrida do Exchange</a></p>
                         <p><a href="https://docs.microsoft.com/exchange/exchange-online">Exchange Online</a></p>
                         <p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview">Proteção do Exchange Online</a></p>

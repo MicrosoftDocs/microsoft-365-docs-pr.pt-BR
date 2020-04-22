@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usa recursos de proteção de informações no Microsoft 365 Enterprise para proteger seus ativos digitais na nuvem.
-ms.openlocfilehash: 2fed60d18c878bf6e509c6955b8c8df758cc4caf
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 41873f14ac52000635508aca4728572556692cc4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068400"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625297"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Proteção de Informações da Contoso Corporation
 
@@ -107,10 +107,10 @@ A tabela a seguir mapeia os níveis de dados da Contoso para os recursos de prot
 
 |||||
 |:-------|:-----|:-----|:-----|
-| | **Office 365** | **Windows 10 e Office 365 ProPlus** | **EMS** |
+| | **Office 365** | **Aplicativos do Windows 10 e do Microsoft 365 para empresas** | **EMS** |
 | Nível 1: linha de base  | Políticas de Acesso Condicional do SharePoint e do Exchange Online <BR> Permissões em sites do SharePoint  | Rótulos de confidencialidade <BR> BitLocker <BR> Proteção de Informações do Windows | Políticas de Acesso Condicional de Dispositivos e políticas de Gerenciamento de Aplicativos Móveis |
-| Nível 2: Confidencial | Nível 1 mais: <BR> <BR> Rótulos de confidencialidade <BR> Rótulos de retenção do Office 365 em sites do SharePoint <BR> Prevenção Contra Perda de Dados do Office 365 para o SharePoint Online e o Exchange Online <BR> Sites isolados do SharePoint   | Nível 1 mais: <BR> <BR> Rótulos de confidencialidade em ativos digitais  | Nível 1 |
-| Nível 3: altamente controlado | Nível 2 mais: <BR><BR> Criptografia BYOK (Traga sua própria chave) e proteção de informações de segredos comerciais <BR> Azure Key Vault para aplicativos de linha de negócios que interagem com os serviços do Office 365 | Nível 2 | Nível 1 |
+| Nível 2: Confidencial | Nível 1 mais: <BR> <BR> Rótulos de confidencialidade <BR> Rótulos de retenção do Microsoft 365 em sites do SharePoint <BR> Prevenção contra perda de dados do SharePoint Online e do Exchange Online <BR> Sites isolados do SharePoint   | Nível 1 mais: <BR> <BR> Rótulos de confidencialidade em ativos digitais  | Nível 1 |
+| Nível 3: altamente controlado | Nível 2 mais: <BR><BR> Criptografia BYOK (Traga sua própria chave) e proteção de informações de segredos comerciais <BR> Azure Key Vault para aplicativos de linha de negócios que interagem com os serviços do Microsoft 365 | Nível 2 | Nível 1 |
 |||||
 
 Estas são as configurações resultantes da proteção de informações da Contoso.

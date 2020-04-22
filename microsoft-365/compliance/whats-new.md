@@ -17,12 +17,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Estamos adicionando novos recursos para o centro de conformidade da Microsoft 365, corrigindo os problemas que aprendemos e fazendo alterações com base em seus comentários. Descubra o que temos para este mês.
-ms.openlocfilehash: 1f92267e9f0e7ed720983ebe58e524485a130506
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 2f172c8639215285a793f16f4913917be6a58614
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557580"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626257"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>O que há de novo no centro de conformidade da Microsoft 365
 
@@ -64,10 +64,10 @@ Os conectores de dados foram [lançados no mês passado](#just-launched) e estam
 
 ## <a name="january-2020"></a>Janeiro de 2020
 
-A espera terminará. Temos o prazer de anunciar que o centro de conformidade da Microsoft 365 está disponível para todos os clientes com os planos Microsoft 365, Office 365, Enterprise Mobility + Security (EMS) e Windows 10 Enterprise. Todos os dados ou políticas que você estava gerenciando no centro de conformidade & segurança do Office 365 estão disponíveis no centro de conformidade, portanto, não é necessário saltar para frente e para trás.
+A espera terminará. Temos o prazer de anunciar que o centro de conformidade da Microsoft 365 está disponível para todos os clientes com os planos Microsoft 365, Office 365, Enterprise Mobility + Security (EMS) e Windows 10 Enterprise. Todos os dados ou políticas que você estava gerenciando no centro de conformidade do & de segurança estão disponíveis no centro de conformidade, portanto, não é necessário saltar para frente e para trás.
 
 > [!TIP]
-> Leia novamente a atualização do mês passado para obter um atualizador sobre algumas das [novas soluções](#new-compliance-solutions) visualizadas recentemente, bem como um [mapa](#updated-compliance-solutions) mostrando onde os recursos de conformidade do centro de conformidade & segurança do Office 365 agora mora no Microsoft 365.
+> Leia novamente a atualização do mês passado para obter uma atualização em algumas das [novas soluções](#new-compliance-solutions) visualizadas recentemente, bem como um [mapa](#updated-compliance-solutions) mostrando onde os recursos de conformidade do centro de conformidade do & de segurança agora residem no Microsoft 365.
 
 Marque o indicador e vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) o momento de fazer um passeio para o gerenciamento de conformidade em sua organização... ou [Leia este artigo](microsoft-365-compliance-center.md) para se aprofundar em um pouco mais.
 
@@ -113,10 +113,10 @@ Antes de compartilhar o espaço com outros recursos de "importação" no centro 
 
 **Novos modelos de avaliação para Pontuação de conformidade (visualização)**
 
-Sempre trabalhando difícil para ajudá-lo a se familiarizar com o panorama de conformidade em constante evolução, nossa equipe de Pontuação de conformidade lançou um novo conjunto de modelos para ajudá-lo a avaliar a postura de conformidade da sua organização contra regulamentações recentes e obter orientação sobre como implementar controles mais eficientes. Você verá novos modelos para:
+Sempre trabalhando difícil para ajudá-lo a se familiarizar com o panorama de conformidade em constante evolução, nossa equipe de Pontuação de conformidade lançou um novo conjunto de modelos para ajudá-lo a avaliar a postura de conformidade da sua organização contra regulamentações recentes e obter orientação sobre como implementar controles mais eficazes. Você verá novos modelos para:
 
 - ISO/IEC 27701:2019
-- CCPA (Lei de privacidade e proteção de dados da Califórnia)
+- CCPA (Lei de Privacidade do Consumidor da Califórnia)
 - Lei geral de proteção de dados do Brasil (lei geral de proteção de dados-LGPD)
 - SOC 1 tipo 2 e SOC 2 tipo 2
 
@@ -142,7 +142,7 @@ Aqui está um resumo das novas soluções que você encontrará. Fique atento pa
 > Essas soluções estão localizadas somente no centro de conformidade da Microsoft 365. Eles não podem ser gerenciados no centro de conformidade & segurança do Office 365.
 <br/>
 
-|**Nova solução**|**Descrição**|**Saiba mais**|
+|**Nova solução**|**Descrição**|**Saiba Mais**|
 |:-----|:-----|:-----|
 |Pontuação de conformidade da Microsoft (visualização) <br/>|Criado a partir do [Gerenciador de conformidade](compliance-manager-overview.md), a pontuação de conformidade é um recurso autônomo com um design mais simples e mais fácil, que ajuda você a compreender e aprimorar a postura de conformidade da sua organização. Ele calcula uma pontuação baseada em risco medindo seu progresso em ações de conclusão que ajudam a reduzir os riscos relacionados à proteção de dados e aos padrões normativos. <br/>|[Visão geral da Pontuação de conformidade da Microsoft (versão prévia)](compliance-score.md)|
 |Catálogo de soluções (versão prévia) <br/>|O catálogo de soluções é seu ponto de partida para descoberta, aprendizado e rápida introdução às soluções de gerenciamento de conformidade e risco. O catálogo é organizado em três categorias de conformidade, cada uma contendo detalhes sobre as soluções que compõem essa categoria. As categorias incluem proteção de informações & governança, gerenciamento de risco do insider e resposta de & de descoberta <br/>|[Visão geral do catálogo de soluções (versão prévia)](microsoft-365-solution-catalog.md)|
@@ -158,7 +158,7 @@ Se você estiver usando o centro de conformidade de & de segurança do Office 36
 > Alguns recursos ainda estão disponíveis somente no centro de conformidade & segurança do Office 365 – eles estão indicados abaixo. Mas estamos trabalhando para visualizar isso no centro de conformidade da Microsoft 365, portanto, fique atento às atualizações. 
 <br/>
 
-|**Recurso**|**Centro de Conformidade e Segurança do Office 365**|**Centro de conformidade do Microsoft 365**|**Saiba mais**|
+|**Recurso**|**Centro de Segurança e Conformidade do Office 365**|**Centro de conformidade do Microsoft 365**|**Saiba Mais**|
 |:-----|:-----|:-----|:-----|
 |Descoberta Eletrônica Avançada|descoberta eletrônica avançada > de descoberta eletrônica <br/> https://protection.office.com/advancedediscoverycases |> de descoberta eletrônica avançada <br/> https://compliance.microsoft.com/advancedediscovery | [Visão geral da solução de descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md) |
 |Políticas de alerta|Alertas > políticas de alerta <br/> https://protection.office.com/alertpolicies |No momento, as políticas de alerta são gerenciadas apenas no centro de conformidade & segurança do Office 365. |[Políticas de alerta no centro de conformidade e segurança](alert-policies.md) |
@@ -175,7 +175,7 @@ Se você estiver usando o centro de conformidade de & de segurança do Office 36
 |Importar arquivos PST|Governança de informações > importar arquivos PST <br/> https://protection.office.com/importV2 |Guia importar > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[Visão geral da importação dos arquivos PST da sua organização](importing-pst-files-to-office-365.md)|
 |Explorador de atividade de rótulo|Gerenciador de atividade de > de governança de informações <br/> https://protection.office.com/labelexplorer |Classificação de dados > guia Explorador de atividade <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[Exibir atividade do seu conteúdo rotulado (visualização)](data-classification-activity-explorer.md)|
 |Rótulos de retenção e políticas de rótulo |Guias de > de classificação > rótulos e políticas de rótulo <br/> https://protection.office.com/retentionlabels |Guias de controle de > rótulos e políticas de rótulo <br/> https://compliance.microsoft.com/informationgovernance?viewid=labels <br/> https://compliance.microsoft.com/informationgovernance?viewid=labelpolicies | [Visão geral de rótulos de retenção](labels.md)|
-|Diretivas de retenção|Retenção de > de governança de informações <br/> https://protection.office.com/retention |Guia de retenção de > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[Visão geral de políticas de retenção](retention-policies.md)|
+|Políticas de retenção|Retenção de > de governança de informações <br/> https://protection.office.com/retention |Guia de retenção de > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[Visão geral de políticas de retenção](retention-policies.md)|
 |Tipos de informações confidenciais|Classificação > tipos de informações confidenciais <br/> https://protection.office.com/sensitivetypes |Guia tipos de informações confidenciais > classificação de dados <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[O que os tipos de informação confidencial procuram](what-the-sensitive-information-types-look-for.md)|
 |Rótulos de confidencialidade e políticas de rótulo|Rótulos de classificação > de sensibilidade > rótulos e políticas de rótulo <br/> https://protection.office.com/sensitivity |Guias de proteção de informações > rótulos e políticas de rótulo <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabelpolicies |[Saiba mais sobre rótulos de confidencialidade](sensitivity-labels.md) |
 |Garantia do serviço|Garantia do serviço <br/> https://protection.office.com/serviceassurance/dashboard |No momento, os recursos de garantia de serviço só podem ser acessados no centro de conformidade & segurança do Office 365. |[Garantia de serviço no centro de conformidade & segurança](service-assurance.md)|
@@ -191,13 +191,13 @@ Ao configurar a criptografia para um rótulo de confidencialidade, agora você t
 - Ao aplicar o rótulo ao **email do Outlook**, os usuários podem impor restrições equivalentes à opção não encaminhar. Os destinatários poderão ler a mensagem, mas não encaminhar, imprimir ou copiar o conteúdo.
 - Ao aplicar o rótulo a **arquivos do Word, PowerPoint e Excel**, os usuários serão solicitados a atribuir permissões de acesso a usuários e grupos específicos.
 
-[Saiba mais](encryption-sensitivity-labels.md#let-users-assign-permissions)
+[Saiba Mais](encryption-sensitivity-labels.md#let-users-assign-permissions)
 
 ## <a name="august-2019"></a>Agosto de 2019
 
 ### <a name="update-to-data-investigations"></a>Atualizar para investigações de dados
 
-Ao realizar uma investigação de dados, agora você pode excluir itens de seus locais originais. Isso significa que você pode excluir itens de caixas de correio do Exchange, sites do SharePoint e contas do OneDrive em sua organização. Como você coletou os itens como evidência, terá cópias deles retidas no conjunto de evidências para que possa investigar mais ou simplesmente manter como uma referência. [Saiba mais](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) 
+Ao realizar uma investigação de dados, agora você pode excluir itens de seus locais originais. Isso significa que você pode excluir itens de caixas de correio do Exchange, sites do SharePoint e contas do OneDrive em sua organização. Como você coletou os itens como evidência, terá cópias deles retidas no conjunto de evidências para que possa investigar mais ou simplesmente manter como uma referência. [Saiba Mais](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) 
 
 ## <a name="july-2019"></a>Julho de 2019
 

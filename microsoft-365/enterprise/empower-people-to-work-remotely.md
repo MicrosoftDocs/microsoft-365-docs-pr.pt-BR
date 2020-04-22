@@ -16,12 +16,12 @@ ms.collection:
 - remotework
 ms.custom: ''
 description: Configure a infraestrutura e os recursos de segurança que permitem que seus funcionários trabalhem remotamente em qualquer lugar e a qualquer momento.
-ms.openlocfilehash: 8bbbe4853805c506ee511ecdef684f407166aca0
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: 3c4d34e21993f3b0c9327b27dd0a5a14f430b1b8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43504118"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637499"
 ---
 # <a name="empower-remote-workers"></a>Capacitar funcionários remotos
 
@@ -58,14 +58,14 @@ Para atender a esses critérios para funcionários remotos, use os seguintes rec
 - Acesso protegido aos recursos
   - Grupos e permissões para o Teams, sites do SharePoint e o OneDrive, para que somente usuários autenticados e permitidos tenham acesso
 - Proteção contra divulgação não autorizada de arquivos
-  - Políticas DLP do Office 365
+  - Políticas DLP
   - Rótulos de sensibilidade para criptografia e permissões que viajam com arquivos
 - Gerenciamento e segurança de dispositivos com o Microsoft Intune
   - Registro de dispositivos gerenciados
   - Configurações de aplicativo para dispositivos pessoais
   - Políticas de dispositivos e aplicativos
 - Aplicativos de produtividade para dispositivos
-  - Aplicativos do Office 365 ProPlus para experiências colaborativas com o Teams, o SharePoint e o OneDrive 
+  - Microsoft 365 Apps para aplicativos corporativos para experiências colaborativas com equipes, SharePoint e OneDrive 
 - Windows 10 Enterprise
   - Recursos de segurança abrangentes para proteção contra ataques cibernéticos e prevenção de vazamento de dados
 - Acesso a aplicativos locais
@@ -108,11 +108,11 @@ Esta é a configuração resultante com dispositivos do Windows 10 Enterprise.
 
 ![Elementos do Windows 10 Enterprise para funcionários remotos](../media/empower-people-to-work-remotely/remote-workers-win10-phase.png)
  
-Para a [Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md), implante a infraestrutura para instalar o Office 365 ProPlus ou atualizar seu pacote do Office instalado no momento, como o Office 2010 ou o Office 2013, para o Office 365 ProPlus nos dispositivos da sua organização. Isso dará aos seus usuários a melhor segurança e experiências colaborativas.
+Para a [Fase 4: Microsoft 365 Apps para empresas](office365proplus-infrastructure.md), implemente a infraestrutura para instalar o Microsoft 365 Apps para empresas ou atualize seu pacote do Office instalado no momento, como o Office 2010 ou o Office 2013, ao Microsoft 365 Apps para empresas nos seus dispositivos da organização. Isso dará aos seus usuários a melhor segurança e experiências colaborativas.
 
-Esta é a configuração que resulta da instalação do Office 365 ProPlus nos dispositivos.
+Aqui está a configuração resultante com o Microsoft 365 Apps para empresas instalado nos dispositivos.
 
-![Elementos do Office 365 ProPlus para funcionários remotos](../media/empower-people-to-work-remotely/remote-workers-proplus-phase.png)
+![Microsoft 365 Apps para elementos corporativos para trabalhadores remotos](../media/empower-people-to-work-remotely/remote-workers-proplus-phase.png)
  
 Para a [Fase 5: gerenciamento de dispositivos móveis](mobility-infrastructure.md), implante o gerenciamento de dispositivos e aplicativos do Intune para:
 
@@ -126,8 +126,8 @@ Esta é a configuração resultante com as políticas e dispositivos registrados
  
 Para a [Fase 6: proteção de informações](infoprotect-infrastructure.md), crie e configure a proteção para seus ativos digitais com:
 
-- Políticas DLP do Office 365.
-- Rótulos de sensibilidade do Office 365 para criptografia e permissões que acompanham os arquivos.
+- Políticas DLP.
+- Rótulos de sensibilidade do Microsoft 365 para criptografia e permissões que acompanham os arquivos.
 
 Esta é a configuração resultante com políticas DLP e rótulos de confidencialidade realçados.
 
@@ -153,7 +153,7 @@ Esta é a configuração resultante com as cargas de trabalho realçadas.
  
 ### <a name="deployment-results"></a>Resultados da implantação
 
-Depois de implantar a infraestrutura de fundação e cargas de trabalho e distribuir o Windows 10 Enterprise e o Office 365 ProPlus, os funcionários remotos:
+Depois de implantar a infraestrutura de fundação e cargas de trabalho e distribuir o Windows 10 Enterprise e o Microsoft 365 Apps, os funcionários remotos:
 
 - Ficam sujeitos a autenticação forte e a proteção de identidade.
 - Recebem a versão mais recente e mais segura do Windows em seus dispositivos Windows.
@@ -205,7 +205,7 @@ Repita o treinamento dos usuários conforme necessário.
 
 ### <a name="user-adoption-results"></a>Resultados de adoção do usuário
 
-Seus funcionários remotos podem usar o Windows 10 Enterprise ou outros dispositivos e o Office 365 ProPlus para acessar e trabalhar em serviços compartilhados e recursos de nuvem do Microsoft 365 Enterprise em um ambiente seguro, para participar de reuniões, criar e colaborar em tempo real.
+Seus funcionários remotos podem usar o Windows 10 Enterprise ou outros dispositivos e o Microsoft 365 Apps para empresas para acessarem e trabalharem em serviços e recursos compartilhados em nuvem do Microsoft 365 Enterprise em um ambiente seguro, e estão reunidos, criando e colaborando em tempo real.
 
 ## <a name="additional-microsoft-features-to-support-remote-workers"></a>Recursos adicionais da Microsoft para oferecer suporte a funcionários remotos
 

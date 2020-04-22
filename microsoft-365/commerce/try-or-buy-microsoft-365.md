@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: Saiba como obter uma avaliação gratuita ou comprar uma assinatura para o Microsoft 365.
-ms.openlocfilehash: f5c1fca9bfb7b0f2236981e335517c1e03b2007c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 255cd1779f3fb29a619110160faefdd3d5369eca
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631900"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707530"
 ---
 # <a name="try-or-buy-a-microsoft-365-subscription"></a>Experimentar ou comprar uma assinatura do Microsoft 365
 
@@ -32,9 +32,9 @@ A Microsoft 365 é uma solução completa que combina o Office 365 e o Windows 1
   
 - Microsoft 365 Business Premium
 
-- Microsoft 365 Enterprise E3
+- Office 365 Enterprise E3
 
-- Microsoft 365 Enterprise E5
+- Office 365 Enterprise E5
 
 Quando você adiciona uma assinatura através do centro de administração, a nova assinatura é associada à mesma organização (namespace de domínio) como sua assinatura existente. Isso facilita a transferência de usuários na sua organização entre as assinaturas ou a atribuição de uma licença para a assinatura adicional de que precisam.
   

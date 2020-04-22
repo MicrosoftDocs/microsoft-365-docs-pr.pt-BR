@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: O processamento na descoberta eletrônica avançada inclui a reindexação de dados de responsáveis, a expansão de documentos e anexos incorporados e OCR. O processamento também inclui a correção de erros de indexação.
-ms.openlocfilehash: 62626c7866d7465d708b910d2e9f3776a9ce97f9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ab0b9d3a92590812531be04f193ef51afa70a1cf
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42070928"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632216"
 ---
 # <a name="work-with-processing-errors-in-advanced-ediscovery"></a>Trabalhar com erros de processamento na descoberta eletrônica avançada
 
 *Processing* é o processo de identificação de arquivos, expansão de documentos e anexos incorporados, extração de texto e OCR (reconhecimento óptico de caracteres) de arquivos de imagem e a indexação subsequente desse conteúdo.  
 
-Quando você adiciona um responsáveis a uma ocorrência na guia **responsáveis** , todos os itens parcialmente indexados do Office 365 são processados para torná-los totalmente pesquisáveis. Da mesma forma, quando o conteúdo é adicionado a um conjunto de análise de fontes de dados do Office 365 e não-Office 365, esse conteúdo também é processado.
+Quando você adiciona um responsáveis a uma ocorrência na guia **responsáveis** , todos os itens parcialmente indexados do Microsoft 365 são processados para torná-los totalmente pesquisáveis. Da mesma forma, quando o conteúdo é adicionado a um conjunto de análise de fontes de dados do Microsoft 365 e de não-Microsoft 365, esse conteúdo também é processado.
 
 A guia **processamento** em descoberta eletrônica avançada fornece informações sobre o status da indexação avançada para diferentes cenários de processamento.
 

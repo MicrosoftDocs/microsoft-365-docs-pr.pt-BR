@@ -1,5 +1,5 @@
 ---
-title: Descoberta Eletrônica Avançada do Office 365
+title: Descoberta Eletrônica Avançada
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,24 +14,24 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: fd53438a-a760-45f6-9df4-861b50161ae4
-description: Saiba como a descoberta eletrônica avançada do Office 365 pode ajudá-lo a analisar os dados no Office 365, simplificar as revisões de documentos e tomar decisões de descoberta eletrônica eficiente.
-ms.openlocfilehash: 2e84ada8c6ca004c0f3c50a79fa6908148770955
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: Saiba como a descoberta eletrônica avançada pode ajudá-lo a analisar dados, simplificar as revisões de documentos e tomar decisões para descoberta eletrônica eficiente.
+ms.openlocfilehash: 554b8cfc5209ce0764e712c3aff4338347bc2881
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557871"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631832"
 ---
-# <a name="advanced-ediscovery-classic"></a>Descoberta eletrônica avançada (clássica)
+# <a name="advanced-ediscovery-classic"></a>Descoberta Eletrônica Avançada (clássica)
 
 > [!IMPORTANT]
-> Como continuamos a investir em versões mais recentes da descoberta eletrônica avançada, anunciamos a desativação da descoberta eletrônica avançada do Office 365, também conhecida como *descoberta eletrônica avançada (clássica)* ou *descoberta eletrônica avançada v 1.0*. Se você ainda estiver usando a Descoberta Eletrônica Avançada v1.0, faça a transição para o [Descoberta Eletrônica Avançada v2.0](overview-ediscovery-20.md) (também conhecida como * solução de Descoberta Eletrônica Avançada no Microsoft 365*) o mais rápido possível. O Descoberta Eletrônica Avançada 2.0 contém funcionalidade semelhante encontrada na Descoberta Eletrônica Avançada v1.0, mas também oferece muitos recursos novos, como gerenciamento de custódia, gerenciamento de comunicações e conjuntos de revisão. Para saber mais sobre a desativação da Descoberta Eletrônica Avançada v1.0, confira [Desativação de ferramentas legadas de Descoberta Eletrônica](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
+> Como continuamos a investir em versões mais recentes da descoberta eletrônica avançada, anunciamos o afastamento da descoberta eletrônica avançada, também conhecida como *descoberta eletrônica avançada (clássica)* ou *descoberta eletrônica avançada v 1.0*. Se você ainda estiver usando a Descoberta Eletrônica Avançada v1.0, faça a transição para o [Descoberta Eletrônica Avançada v2.0](overview-ediscovery-20.md) (também conhecida como * solução de Descoberta Eletrônica Avançada no Microsoft 365*) o mais rápido possível. O Descoberta Eletrônica Avançada 2.0 contém funcionalidade semelhante encontrada na Descoberta Eletrônica Avançada v1.0, mas também oferece muitos recursos novos, como gerenciamento de custódia, gerenciamento de comunicações e conjuntos de revisão. Para saber mais sobre a desativação da Descoberta Eletrônica Avançada v1.0, confira [Desativação de ferramentas legadas de Descoberta Eletrônica](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
   
-Com a descoberta eletrônica avançada, você pode entender melhor seus dados do Office 365 e reduzir seus custos de descoberta eletrônica. A descoberta eletrônica avançada ajuda você a analisar dados não estruturados no Office 365, realizar uma revisão de documentos mais eficiente e tomar decisões para reduzir os dados da descoberta eletrônica. Você pode trabalhar com dados armazenados no Exchange Online, no SharePoint Online, no OneDrive for Business, no Skype for Business, nos grupos do Office 365 e no Microsoft Teams. Você pode realizar uma pesquisa de descoberta eletrônica no centro de segurança e conformidade para pesquisar conteúdo em grupos, caixas de correio e sites individuais e, em seguida, analisar os resultados da pesquisa com descoberta eletrônica avançada. Ao preparar resultados de pesquisa para análise na descoberta eletrônica avançada, o reconhecimento óptico de caracteres permite a extração de texto de imagens. Este recurso permite que os avançados recursos analíticos de descoberta eletrônica avançada sejam aplicados a arquivos de imagem.
+Com a descoberta eletrônica avançada, você pode entender melhor seus dados e reduzir seus custos de eDiscovery. A descoberta eletrônica avançada ajuda você a analisar dados não estruturados, realizar uma análise de documentos mais eficiente e tomar decisões para reduzir os dados da descoberta eletrônica. Você pode trabalhar com dados armazenados no Exchange Online, SharePoint Online, OneDrive for Business, Skype for Business, Microsoft 365 Groups e Microsoft Teams. Você pode realizar uma pesquisa de descoberta eletrônica no centro de segurança e conformidade para pesquisar conteúdo em grupos, caixas de correio e sites individuais e, em seguida, analisar os resultados da pesquisa com descoberta eletrônica avançada. Ao preparar resultados de pesquisa para análise na descoberta eletrônica avançada, o reconhecimento óptico de caracteres permite a extração de texto de imagens. Este recurso permite que os avançados recursos analíticos de descoberta eletrônica avançada sejam aplicados a arquivos de imagem.
   
 A descoberta eletrônica avançada simplifica e acelera o processo de revisão de documentos identificando informações redundantes com recursos como detecção de duplicatas e análise de threads de email. O recurso de relevância aplica a tecnologia de codificação de previsão para identificar documentos relevantes. A descoberta eletrônica avançada aprende com suas decisões de marcação em documentos de exemplo e aplica técnicas estatísticas e de aprendizado automático para calcular a relevância de cada documento no conjunto de dados. Isso permite que você se concentre em documentos importantes, tome decisões rápidas e fundamentadas sobre a estratégia de casos, a seleção de dados e a revisão de prioridades.
   
- **Por que a descoberta eletrônica avançada?** A descoberta eletrônica avançada do Office 365 cria o conjunto existente de recursos de descoberta eletrônica no Office 365. Por exemplo, você pode usar o recurso de pesquisa no centro de conformidade &amp; de segurança do Office 365 para executar uma pesquisa inicial de todas as fontes de conteúdo em sua organização para identificar e coletar os dados que podem ser relevantes para um caso jurídico específico. Em seguida, você pode executar a análise nesses dados aplicando a análise de texto, o Machine Learning e a relevância/previsão de codificação de descoberta eletrônica avançada. Isso pode ajudar sua organização a processar rapidamente milhares de mensagens de email, documentos e outros tipos de dados para localizar os itens que mais provavelmente são relevantes para um determinado 
+ **Por que a descoberta eletrônica avançada?** A descoberta eletrônica avançada cria um conjunto existente de recursos de descoberta eletrônica no Office 365. Por exemplo, você pode usar o recurso de pesquisa no centro &amp; de conformidade de segurança para executar uma pesquisa inicial de todas as fontes de conteúdo em sua organização para identificar e coletar os dados que podem ser relevantes para um caso jurídico específico. Em seguida, você pode executar a análise nesses dados aplicando a análise de texto, o Machine Learning e a relevância/previsão de codificação de descoberta eletrônica avançada. Isso pode ajudar sua organização a processar rapidamente milhares de mensagens de email, documentos e outros tipos de dados para localizar os itens que mais provavelmente são relevantes para um determinado 
  
 > [!NOTE]
 > A descoberta eletrônica avançada requer um Office 365 E3 com o complemento de conformidade avançada ou uma assinatura E5 para sua organização. Se você não tiver esse plano e quiser tentar a descoberta eletrônica avançada, poderá [se inscrever para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). situação. O conjunto de dados reduzido pode ser exportado fora do Office 365 para análise adicional. 

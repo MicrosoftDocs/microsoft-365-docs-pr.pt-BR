@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Saiba como editar ou remover políticas para barreiras de informação.
-ms.openlocfilehash: ef534f49c92abf1500b72b0d490ab9f22a48a680
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 5690a1d7a131c006bbff3b087b1ee2983198c068
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634839"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637883"
 ---
 # <a name="edit-or-remove-information-barrier-policies"></a>Editar (ou remover) políticas de barreira de informações
 
@@ -38,7 +38,7 @@ Depois de [definir as políticas de barreira de informações](information-barri
 |[Solução de problemas de barreiras de informações](information-barriers-troubleshooting.md)     |Consulte este artigo quando você tiver problemas inesperados com barreiras de informação.         |
 
 > [!IMPORTANT]
-> Para executar as tarefas descritas neste artigo, você deve receber uma função apropriada, como uma das seguintes:<br/>– Administrador global do Microsoft 365 Enterprise<br/>– Administrador global do Office 365<br/>-Administrador de conformidade<br/>– Gerenciamento de conformidade do IB (esta é uma nova função!)<p>Para saber mais sobre os pré-requisitos para barreiras de informações, consulte [pré-requisitos (para políticas de barreira de informações)](information-barriers-policies.md#prerequisites).<p>Certifique-se de [se conectar ao PowerShell do centro de conformidade & segurança do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+> Para executar as tarefas descritas neste artigo, você deve receber uma função apropriada, como uma das seguintes:<br/>– Administrador global do Microsoft 365 Enterprise<br/>-Administrador global<br/>-Administrador de conformidade<br/>– Gerenciamento de conformidade do IB (esta é uma nova função!)<p>Para saber mais sobre os pré-requisitos para barreiras de informações, consulte [pré-requisitos (para políticas de barreira de informações)](information-barriers-policies.md#prerequisites).<p>Certifique-se de [se conectar ao PowerShell do centro de conformidade do & de segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 
 ## <a name="edit-user-account-attributes"></a>Editar atributos da conta de usuário
 

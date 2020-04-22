@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Conheça algumas maneiras de implantar as fases da infraestrutura de base do Microsoft 365 para empresas.
-ms.openlocfilehash: 765bba743485c13c65cd6377abe01f80f2df4c23
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5eb4851a4c967baae268e04113b4e44023164db4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067778"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638147"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-deployment-strategies"></a>Estratégias de implantação da infraestrutura de base do Microsoft 365 para empresas
 
@@ -90,7 +90,7 @@ Esta é uma experiência teste de usuário simplificada como um exemplo:
 
 - Em dezembro, preciso usar meu smartphone para MFA. (Identidade)
 - Em março, instalo o Windows 10 Enterprise no meu computador com Windows 8.1. (Windows 10 Enterprise)
-- Em junho, instalo o Office 365 ProPlus em substituição ao Office 2013. (Office 365 ProPlus)
+- Em junho, instalei o Microsoft 365 Apps para empresas, substituindo o Office 2013. (Microsoft 365 Apps para empresas)
 - Em setembro, registro o dispositivo e aplico as políticas de dispositivo e de aplicativo. (Gerenciamento de dispositivo móvel)
 - Em dezembro, instalo o cliente de Proteção de Informações do Azure e aprendo como aplicar rótulos a documentos. (Proteção de Informações)
 
@@ -100,7 +100,7 @@ Esta é uma experiência teste de usuário final simplificada como um exemplo:
 
 - Em janeiro, preciso usar meu smartphone para MFA. (Identidade)
 - Em abril, instalo o Windows 10 Enterprise no meu computador com Windows 8.1. (Windows 10 Enterprise)
-- Em julho, instalo o Office 365 ProPlus em substituição ao Office 2013. (Office 365 ProPlus)
+- Em julho, instalei o Microsoft 365 Apps para empresas, substituindo o Office 2013. (Microsoft 365 Apps para empresas)
 - Em outubro, registro o dispositivo e aplico as políticas de dispositivo e de aplicativo. (Gerenciamento de dispositivo móvel)
 - Em janeiro do ano subsequente, instalo o cliente de Proteção de Informações do Azure e aprendo como aplicar rótulos a documentos. (Proteção de Informações)
 
@@ -120,7 +120,7 @@ Esta é uma experiência teste de usuário simplificada como um exemplo:
 
 - Em dezembro, preciso usar meu smartphone para MFA. (Identidade)
 - Em fevereiro, instalo o Windows 10 Enterprise no meu computador com Windows 8.1. (Windows 10 Enterprise)
-- Em abril, instalo o Office 365 ProPlus em substituição ao Office 2013. (Office 365 ProPlus)
+- Em abril, instalei o Microsoft 365 Apps para empresas, substituindo o Office 2013. (Microsoft 365 Apps para empresas)
 - Em junho, registro o dispositivo e aplico as políticas de dispositivo e de aplicativo. (Gerenciamento de dispositivo móvel)
 - Em agosto, instalo o cliente de Proteção de Informações do Azure e aprendo como aplicar rótulos a documentos. (Proteção de Informações)
 
@@ -130,7 +130,7 @@ Esta é uma experiência teste de usuário final simplificada como um exemplo:
 
 - Em janeiro, preciso usar meu smartphone para MFA. (Identidade)
 - Em março, instalo o Windows 10 Enterprise no meu computador com Windows 8.1. (Windows 10 Enterprise)
-- Em maio, instalo o Office 365 ProPlus em substituição ao Office 2013. (Office 365 ProPlus)
+- Em maio, instalei o Microsoft 365 Apps para empresas, substituindo o Office 2013. (Microsoft 365 Apps para empresas)
 - Em julho, registro o dispositivo e aplico as políticas de dispositivo e de aplicativo. (Gerenciamento de dispositivo móvel)
 - Em setembro, instalo o cliente de Proteção de Informações do Azure e aprendo como aplicar rótulos a documentos. (Proteção de Informações)
 
@@ -158,7 +158,7 @@ Esta é uma experiência teste de usuário simplificada como um exemplo:
 
 - Em dezembro, preciso usar meu smartphone para MFA. (Identidade)
 - Em janeiro, instalo o Windows 10 Enterprise no meu computador com Windows 8.1. (Windows 10 Enterprise)
-- Em fevereiro, instalo o Office 365 ProPlus em substituição ao Office 2013. (Office 365 ProPlus)
+- Em fevereiro, instalei o Microsoft 365 Apps para empresas, substituindo o Office 2013. (Microsoft 365 Apps para empresas)
 - Em março, registro o dispositivo e aplico as políticas de dispositivo e de aplicativo. (Gerenciamento de dispositivo móvel)
 - Em abril, instalo o cliente de Proteção de Informações do Azure e aprendo como aplicar rótulos a documentos. (Proteção de Informações)
 
@@ -168,7 +168,7 @@ Esta é uma experiência teste de usuário final simplificada como um exemplo:
 
 - Em janeiro, preciso usar meu smartphone para MFA. (Identidade)
 - Em fevereiro, instalo o Windows 10 Enterprise no meu computador com Windows 8.1. (Windows 10 Enterprise)
-- Em março, instalo o Office 365 ProPlus em substituição ao Office 2013. (Office 365 ProPlus)
+- Em março, instalei o Microsoft 365 Apps para empresas, substituindo o Office 2013. (Microsoft 365 Apps para empresas)
 - Em abril, registro o dispositivo e aplico as políticas de dispositivo e de aplicativo. (Gerenciamento de dispositivo móvel)
 - Em maio, instalo o cliente de Proteção de Informações do Azure e aprendo como aplicar rótulos a documentos. (Proteção de Informações)
 
@@ -186,7 +186,7 @@ O departamento de TI configura a infraestrutura das fases 2 a 6 e faz o lançame
 
 - A MFA e outros recursos de identidade (Identidade)
 - O Windows 10 Enterprise em dispositivos Windows (Windows 10 Enterprise)
-- O Office 365 ProPlus para o pacote do Office (Office 365 ProPlus)
+- Microsoft 365 Apps para empresas para o pacote do Office (Microsoft 365 Apps para empresas)
 - Políticas de dispositivo e aplicativos (Gerenciamento de dispositivos móveis)
 - Instalação do cliente de Proteção de Informações do Azure e treinamento sobre como aplicar rótulos a documentos. (Proteção de Informações)
 

@@ -13,25 +13,25 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 04e9de2d-765b-457b-a98a-d0f60bfb13f2
 description: Você pode alterar o tamanho padrão dos arquivos PST que são baixados para o seu computador quando exporta os resultados da pesquisa de descoberta eletrônica.
-ms.openlocfilehash: 9deb90e688617981499bee286b95a0442fa1a1b4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f5fde9bbb37f6e22c49049c892a1b69b07d15bef
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595928"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636319"
 ---
 # <a name="change-the-size-of-pst-files-when-exporting-ediscovery-search-results"></a>Alterar o tamanho dos arquivos PST ao exportar os resultados da pesquisa de descoberta eletrônica
 
-Ao usar a ferramenta de exportação de descoberta eletrônica do Office 365 para exportar os resultados de email de uma pesquisa de descoberta eletrônica das diferentes ferramentas de descoberta eletrônica da Microsoft, o tamanho padrão de um arquivo PST que pode ser exportado é de 10 GB. Se você quiser alterar esse tamanho padrão, poderá editar o registro do Windows no computador que você usa para exportar os resultados da pesquisa. Uma razão para fazer isso é que um arquivo PST pode se ajustar em mídia removível, como DVD, CD ou unidade USB. 
+Ao usar a ferramenta de exportação de descoberta eletrônica para exportar os resultados de email de uma pesquisa de descoberta eletrônica das diferentes ferramentas de descoberta eletrônica da Microsoft, o tamanho padrão de um arquivo PST que pode ser exportado é de 10 GB. Se você quiser alterar esse tamanho padrão, poderá editar o registro do Windows no computador que você usa para exportar os resultados da pesquisa. Uma razão para fazer isso é que um arquivo PST pode se ajustar em mídia removível, como DVD, CD ou unidade USB. 
   
 > [!NOTE]
-> A ferramenta de exportação de descoberta eletrônica do Office 365 é usada para exportar os resultados da pesquisa ao usar a ferramenta de pesquisa de conteúdo no centro de segurança e conformidade, descoberta eletrônica in-loco no Exchange Online e o centro de descoberta eletrônica no SharePoint Online.
+> A ferramenta de exportação de descoberta eletrônica é usada para exportar os resultados da pesquisa ao usar a ferramenta de pesquisa de conteúdo no centro de conformidade e segurança &, descoberta eletrônica in-loco no Exchange Online e o centro de descoberta eletrônica no SharePoint Online.
   
 ## <a name="create-a-registry-setting-to-change-the-size-of-pst-files-when-you-export-ediscovery-search-results"></a>Criar uma configuração de registro para alterar o tamanho dos arquivos PST ao exportar os resultados da pesquisa de descoberta eletrônica
 
 Execute o procedimento a seguir no computador que você usará para exportar os resultados de uma pesquisa de descoberta eletrônica.
   
-1. Feche a ferramenta de exportação de descoberta eletrônica do Office 365 se ela estiver aberta. 
+1. Feche a ferramenta de exportação de descoberta eletrônica, se ela estiver aberta. 
     
 2. Salve o seguinte texto em um arquivo de registro de janela usando um sufixo de nome de arquivo. reg; por exemplo, PstExportSize. reg. 
     
@@ -74,11 +74,11 @@ Os clientes tendem a reduzir o limite de tamanho para que os resultados da pesqu
   
  **Em qual computador tenho que fazer isso?**
   
-Você precisa alterar a configuração do registro em qualquer computador local em que executa a ferramenta de exportação de descoberta eletrônica do Office 365.
+Você precisa alterar a configuração do registro em qualquer computador local em que executa a ferramenta de exportação de descoberta eletrônica.
   
  **Após alterar essa configuração, preciso reinicializar o computador?**
   
-Não, não é necessário reinicializar o computador. Mas, se a ferramenta de exportação de descoberta eletrônica do Office 365 estiver em execução, você terá que fechá-la e reiniciá-la depois de alterar essa configuração.
+Não, não é necessário reinicializar o computador. No entanto, se a ferramenta de exportação de descoberta eletrônica estiver em execução, você terá que fechá-la e reiniciá-la depois de alterar essa configuração.
   
  **Uma chave de registro existente é editada ou faz uma nova chave ser criada?**
   

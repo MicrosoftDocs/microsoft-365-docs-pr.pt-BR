@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: Atribua as permissões necessárias para executar tarefas relacionadas à descoberta eletrônica usando o centro de conformidade do & de segurança.
-ms.openlocfilehash: 30d1a288236678c3daef0a9aaa134d49fea127af
-ms.sourcegitcommit: 825037f166eea3ba70f8980cedc5492f90c1cc56
+ms.openlocfilehash: dc7eb61a006b41e519c76e70c768b551ff5126b9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43097204"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631842"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Atribuir permissões de descoberta eletrônica no centro de conformidade & segurança
 
@@ -55,7 +55,7 @@ O grupo de função principal relacionado à descoberta eletrônica no centro de
 
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Entre no Office 365 usando a sua conta corporativa ou de estudante.
+2. Entre usando sua conta corporativa ou de estudante.
     
 3. No painel esquerdo do centro de segurança e conformidade, selecione **permissões**e marque a caixa de seleção ao lado de **Gerenciador de descoberta eletrônica**.
     
@@ -78,7 +78,7 @@ A tabela a seguir lista as funções RBAC relacionadas à descoberta eletrônica
 |:-----|:-----:|:-----:|:-----:|:-----:|
 |Gerenciamento de casos <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
 |Pesquisa de Conformidade <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
-|Exportação <br/> | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
+|Exportar <br/> | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
 |Retenção <br/>  |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
 |Visualização <br/>  | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
 |Revisão <br/>  | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |
@@ -94,7 +94,7 @@ Essa função permite que os usuários criem, editem, excluam e controlem o aces
 
 ### <a name="compliance-search"></a>Pesquisa de Conformidade
 
-Essa função permite que os usuários executem a ferramenta de pesquisa de conteúdo no centro de conformidade de & de segurança para pesquisar caixas de correio e pastas públicas, sites do SharePoint Online, sites do OneDrive for Business, conversas do Skype for Business, grupos do Office 365 e Microsoft Teams e grupos do Yammer. Essa função permite que um usuário obtenha uma estimativa dos resultados da pesquisa e crie relatórios de exportação, mas as funções adicionais são necessárias para iniciar as ações de pesquisa de conteúdo, como visualização, exportação ou exclusão de resultados de pesquisa.
+Essa função permite que os usuários executem a ferramenta de pesquisa de conteúdo no centro de conformidade & segurança para pesquisar caixas de correio e pastas públicas, sites do SharePoint Online, sites do OneDrive for Business, conversas do Skype for Business, Microsoft 365 Groups e Microsoft Teams e grupos do Yammer. Essa função permite que um usuário obtenha uma estimativa dos resultados da pesquisa e crie relatórios de exportação, mas as funções adicionais são necessárias para iniciar as ações de pesquisa de conteúdo, como visualização, exportação ou exclusão de resultados de pesquisa.
 
 Os usuários atribuídos à função de pesquisa de conformidade, mas não têm a função Preview, podem visualizar os resultados de uma pesquisa na qual a ação de visualização tenha sido iniciada por um usuário ao qual a função de visualização seja atribuída. O usuário sem a função Preview pode visualizar os resultados por até duas semanas após a criação da ação de visualização inicial.
 
@@ -102,7 +102,7 @@ Da mesma forma, os usuários atribuídos à função de pesquisa de conformidade
 
 Para obter mais informações, consulte [pesquisa de conteúdo no Office 365](content-search.md). 
 
-### <a name="export"></a>Exportação
+### <a name="export"></a>Exportar
 
 A função permite que os usuários exportem os resultados de uma pesquisa de conteúdo para um computador local. Ele também permite que eles preparam resultados de pesquisa para análise na descoberta eletrônica avançada. 
 
@@ -110,7 +110,7 @@ Para obter mais informações sobre como exportar resultados de pesquisa, consul
 
 ### <a name="hold"></a>Retenção
 
-Essa função permite que os usuários coloquem conteúdo em retenção em caixas de correio, pastas públicas, sites, conversas do Skype for Business e grupos do Office 365. Quando o conteúdo está em espera, os proprietários do conteúdo ainda podem modificar ou excluir o conteúdo original, mas o conteúdo será preservado até que a retenção seja removida ou até que a duração da retenção expire. 
+Essa função permite que os usuários coloquem conteúdo em retenção em caixas de correio, pastas públicas, sites, conversas do Skype for Business e grupos do Microsoft 365. Quando o conteúdo está em espera, os proprietários do conteúdo ainda podem modificar ou excluir o conteúdo original, mas o conteúdo será preservado até que a retenção seja removida ou até que a duração da retenção expire. 
 
 Para obter mais informações sobre isenções, consulte:
 
@@ -135,7 +135,7 @@ Essa função permite aos usuários descriptografar mensagens de email protegida
 
 ### <a name="search-and-purge"></a>Pesquisa e limpeza
 
-Essa função permite que os usuários realizem a remoção em massa de dados que correspondam aos critérios de uma pesquisa de conteúdo. Para saber mais, confira [Pesquisar e excluir mensagens de email em sua organização do Office 365](search-for-and-delete-messages-in-your-organization.md). 
+Essa função permite que os usuários realizem a remoção em massa de dados que correspondam aos critérios de uma pesquisa de conteúdo. Para saber mais, confira [Pesquisar e excluir mensagens de email em sua organização](search-for-and-delete-messages-in-your-organization.md). 
 
 ## <a name="more-information"></a>Mais informações
 
@@ -151,7 +151,7 @@ Essa função permite que os usuários realizem a remoção em massa de dados qu
   Add-RoleGroupMember "eDiscovery Manager" -Member <name of security group>
   ```
 
-    Não há suporte para grupos de distribuição do Exchange e grupos do Office 365. Você deve usar um grupo de segurança habilitado para email, que pode ser criado no PowerShell do Exchange Online usando `New-DistributionGroup -Type Security` o comando. Você também pode criar um grupo de segurança habilitado para email (e adicionar membros) no centro de administração do Exchange ou no centro de administração do Microsoft 365. Pode levar até 60 minutos depois de criá-lo para que uma nova segurança habilitada para email esteja disponível para ser adicionada ao grupo de função gerentes de descoberta eletrônica. 
+    Não há suporte para grupos de distribuição do Exchange e grupos do Microsoft 365. Você deve usar um grupo de segurança habilitado para email, que pode ser criado no PowerShell do Exchange Online usando `New-DistributionGroup -Type Security` o comando. Você também pode criar um grupo de segurança habilitado para email (e adicionar membros) no centro de administração do Exchange ou no centro de administração do Microsoft 365. Pode levar até 60 minutos depois de criá-lo para que uma nova segurança habilitada para email esteja disponível para ser adicionada ao grupo de função gerentes de descoberta eletrônica. 
     
     Além disso, como declarado anteriormente, você não pode tornar um grupo de segurança habilitado para email em um administrador de descoberta eletrônica usando o cmdlet **Add-eDiscoveryCaseAdmin** no PowerShell do centro de conformidade e segurança &. Você só pode adicionar usuários individuais como administradores de descoberta eletrônica. 
     

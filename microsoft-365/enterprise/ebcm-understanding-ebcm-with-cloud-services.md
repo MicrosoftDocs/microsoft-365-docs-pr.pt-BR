@@ -16,12 +16,12 @@ ms.collection:
 - remotework
 ms.custom: ''
 description: Entenda como planejar e implementar a continuidade de negócios parece diferente quando os serviços de nuvem fazem parte da sua oferta de TI.
-ms.openlocfilehash: bb9f3f1367b376c63b8779f3ff62f05b0312ef55
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: 6bdecdbacd69d925e5bd44cfc0521a626d64082f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43030101"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633028"
 ---
 # <a name="enterprise-business-continuity-management-ebcm-with-cloud-services"></a>Gerenciamento de continuidade de negócios empresariais (EBCM) com serviços de nuvem
 

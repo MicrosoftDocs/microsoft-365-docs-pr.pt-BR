@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 997596b5-4173-4627-b915-36abac6786dc
 description: Saiba como atribuir licenças a usuários ou migrar usuários para uma nova assinatura.
-ms.openlocfilehash: ab8a54db77ea022cbd3aec7b3c30e8a988ff7853
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 2019aeef0d802e92489b09bbddb564c4ecded8c0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362056"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628239"
 ---
 # <a name="assign-licenses-to-users"></a>Atribuir licenças aos usuários
 
@@ -49,7 +49,7 @@ Quando você usa a página **Licenças** para atribuir licenças, atribui licen�
 3. Selecione **Atribuir licenças**.
 4. No painel **Atribuir licenças a usuários**, comece a digitar um nome e, em seguida, selecione-o nos resultados para adicioná-lo à lista. É possível selecionar até 20 usuários de cada vez.
 5. Selecione **Ativar ou desativar os aplicativos e serviços** para atribuir ou remover o acesso a itens específicos.
-6. Quando tiver terminado, selecione**Atribuir**, e então selecione **Fechar**.
+6. Quando tiver terminado, clique em **Atribuir**e depois em **Fechar**.
 
 Se houver um conflito, uma mensagem é exibida, informa qual é o problema e como corrigi-lo. Por exemplo, se você selecionou licenças que contêm serviços conflitantes, a mensagem de erro indicará revisar os serviços incluídos em cada licença e tentar novamente.
 
@@ -224,7 +224,7 @@ Se você tem mais de uma assinatura e tem usuários que já têm uma licença pa
 
 ## <a name="what-you-need-to-know-about-assigning-licenses-to-users"></a>O que você precisa saber sobre a atribuição de licenças a usuários 
 
-- Você precisa ser um Administrador global , um Administrador de Cobrança ou um Administrador de gerenciamento de usuários. Saiba mais em [Sobre as funções de administrador do Office 365](../add-users/about-admin-roles.md).
+- Você precisa ser um Administrador global, um Administrador de cobrança ou um Administrador de gerenciamento de usuários. Para obter mais informações, consulte [Sobre as funções de administrador do Microsoft 365](../add-users/about-admin-roles.md).
 
 - Você pode [atribuir licenças a contas de usuário com o Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=850410).
 
@@ -236,7 +236,7 @@ Se você tem mais de uma assinatura e tem usuários que já têm uma licença pa
 
 [Entenda as assinaturas e licenças](../../commerce/licenses/subscriptions-and-licenses.md)
 
-[Resolver conflitos de licença no Office 365 para empresas](resolve-license-conflicts.md)
+[Resolver conflitos de licença no Microsoft 365 for business](resolve-license-conflicts.md)
 
 [Remover licenças de usuários](remove-licenses-from-users.md)
 

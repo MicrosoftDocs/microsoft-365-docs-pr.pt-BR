@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 description: Saiba como atualizar para uma nova assinatura.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 8f792cad90b7e153c025a869970a54d36cdd8cbe
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a5cede13a64ea1a6562a326c32dc902d14c3dfe5
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636505"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707518"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Atualizar para um plano diferente 
 
@@ -63,7 +63,7 @@ Ao concluir o check-out, pode levar alguns minutos para finalizar a atualizaçã
 
 ## <a name="the-upgrade-tab-is-empty"></a>A guia atualização está vazia
 
-Se a guia **atualização** estiver vazia, você verá uma explicação do motivo pelo qual não é possível atualizar no momento. Você pode tentar [alterar planos manualmente](change-plans-manually.md) ou [ligar para o suporte](../../admin/contact-support-for-business-products.md). Para obter mais informações, consulte [por que não é possível atualizar planos?](#why-cant-i-upgrade-plans)
+Se a guia **atualização** estiver vazia, você verá uma explicação do motivo pelo qual não é possível atualizar no momento. Você pode tentar [alterar planos manualmente](change-plans-manually.md) ou [ligar para o suporte](../../admin/contact-support-for-business-products.md). Para obter mais informações, consulte [por que não é possível atualizar planos?](#why-cant-i-upgrade-plans).
 
 ## <a name="i-dont-see-the-plan-i-want"></a>Não vejo o plano que desejo
 
@@ -153,7 +153,7 @@ Quando você atualiza planos automaticamente usando o botão **mudar de plano** 
 
 Os usuários com assinaturas antigas serão movidos automaticamente para as novas assinaturas.
   
-Se sua assinatura antiga incluir vários serviços e se você tiver alterado a quais desses serviços seus usuários estão atribuídos, convém tomar nota disso antes de atualizar os planos para que você possa recriar essas alterações posteriormente. Todos os usuários terão acesso a todos os serviços da nova assinatura. Por exemplo, se você comprou anteriormente o Office 365 Enterprise E3 para todos os 100 de seus usuários, mas não atribuiu o serviço do SharePoint Online de 50 deles, essa alteração não será mantida após a atualização dos planos.
+Se sua assinatura antiga incluir vários serviços e se você tiver alterado a quais desses serviços seus usuários estão atribuídos, convém tomar nota disso antes de atualizar os planos para que você possa recriar essas alterações posteriormente. Todos os usuários terão acesso a todos os serviços da nova assinatura. Por exemplo, se você comprou anteriormente o Microsoft 365 Business Premium para todos os 100 de seus usuários, mas não atribuiu o serviço do SharePoint Online de 50 deles, essa alteração não será mantida após a atualização dos planos.
   
 Se você tiver mais de uma assinatura antes de atualizar os planos e ter os usuários com licenças atribuídas a mais de uma assinatura, esse padrão de atribuição será mantido o máximo possível na nova assinatura.
   
@@ -164,9 +164,9 @@ Todos os dados do usuário serão mantidos durante a atualização, incluindo ca
 O dia em que a atualização do plano está concluída, a cobrança de sua assinatura antiga será desativada e a cobrança na nova assinatura será ativada. Você receberá um crédito rateado para qualquer serviço não usado na assinatura antiga. Você receberá uma nova fatura que inclui o crédito de sua assinatura antiga dentro de 30 dias após a atualização para a nova assinatura.
   
 > [!NOTE]
-> O período de tempo que levará para receber o crédito na conta de pagamento pode variar de acordo com a forma de pagamento usada na assinatura. 
+> O período de tempo que levará para receber o crédito na conta de pagamento pode variar de acordo com a forma de pagamento usada na assinatura.
   
- **Atualizando de uma assinatura pré-paga antes de expirar?** Se o custo total da nova assinatura for maior ou igual ao valor do restante da assinatura pré-paga, você não perderá o tempo pré-pago. Na página de finalização da compra, você verá um crédito referente ao tempo não usado. No entanto, se o custo total da nova assinatura for menor do que o valor restante da assinatura pré-paga atual, você perderá parte do tempo não usado. Você será notificado antes de fazer o check-out, e você pode aguardar para atualizar até mais de perto da data de expiração da sua assinatura pré-paga.
+**Atualizando de uma assinatura pré-paga antes de expirar?** Se o custo total da nova assinatura for maior ou igual ao valor do restante da assinatura pré-paga, você não perderá o tempo pré-pago. Na página de finalização da compra, você verá um crédito referente ao tempo não usado. No entanto, se o custo total da nova assinatura for menor do que o valor restante da assinatura pré-paga atual, você perderá parte do tempo não usado. Você será notificado antes de fazer o check-out, e você pode aguardar para atualizar até mais de perto da data de expiração da sua assinatura pré-paga.
 
 ## <a name="call-support-to-help-you-upgrade-plans"></a>Ligar para o suporte para ajudá-lo a atualizar os planos
 

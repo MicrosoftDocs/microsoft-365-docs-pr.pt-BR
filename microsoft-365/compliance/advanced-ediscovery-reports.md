@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: 387709ebdd84968d2b93992f6b92ef1548117569
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: 75e376288a85ca6def5cf3c3037f2faee57de63b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528354"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632266"
 ---
 # <a name="advanced-ediscovery-reports-preview"></a>Relatórios de descoberta eletrônica avançada (visualização)
 
@@ -45,7 +45,7 @@ Para acessar os relatórios de descoberta eletrônica avançados:
 
 1. Acesse https://protection.office.com
   
-2. Entre no Office 365 usando sua conta corporativa ou de estudante.
+2. Entre usando sua conta corporativa ou de estudante.
   
 3. No centro de conformidade & segurança, clique em **descoberta eletrônica avançada > descoberta eletrônica avançada**.
   
