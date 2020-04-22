@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Conheça três ferramentas disponíveis para monitorar o vazamento de dados pessoais.
-ms.openlocfilehash: 617f0fde0e4b15a014658ba0fc3cf2def4b88d81
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 9bc56d1de153f1357064d2b3ddada0d0533bc3cf
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088372"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635155"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Monitorar o vazamento de dados pessoais
 
@@ -33,13 +33,13 @@ Existem várias ferramentas disponíveis destinadas a monitorar o uso e o transp
 
 Na ilustração:
 
-- Comece a usar os relatórios de prevenção contra perda de dados do Office 365 para monitorar dados pessoais no SharePoint Online, no OneDrive for Business e nos emails em trânsito. Eles fornecem um monitoramento mais detalhado de dados pessoais. No entanto, esses relatórios não incluem todos os serviços do Office 365.
+- Comece com os relatórios de prevenção contra perda de dados do Microsoft 365 para monitorar dados pessoais no Microsoft Office SharePoint Online, OneDrive for Business e nos emails em trânsito. Eles oferecem o maior nível de detalhes para monitorar dados pessoais. No entanto, estes relatórios não incluem todos os serviços do Office 365.
 
-- Em seguida, use as políticas de alerta e os logs de auditoria para monitorar as atividades em todos os serviços do Office 365. Configure um monitoramento permanente ou pesquise os logs de auditoria para investigar incidentes. Os logs de auditoria do Office 365 atuam em todos os serviços desta plataforma: Sway, PowerBI, Descoberta Eletrônica, Dynamics 365, Microsoft Flow, Microsoft Teams, Atividade do administrador, OneDrive for Business, SharePoint Online, emails em trânsito e caixas de correio em repouso. As caixas de correio em repouso incluem as conversas do Skype.
+- Em seguida, use políticas de alerta e logs de auditoria para monitorar as atividades entre os serviços. Configure o monitoramento contínuo ou pesquise no log de auditoria para investigar um incidente. O log de auditoria funciona entre serviços: Sway, PowerBI, Descoberta Eletrônica, Dynamics 365, Microsoft Flow, Microsoft Teams, atividades de administração, OneDrive for Business, Microsoft Office SharePoint Online, email em trânsito e caixas de correio em repouso. As conversas do Skype estão incluídas nas caixas de correio em repouso.
 
-- Por fim, use o Microsoft Cloud App Security para monitorar os arquivos com dados confidenciais em outros provedores de SaaS. Em breve, adicionaremos a capacidade de usar tipos de informações confidenciais e rótulos unificados do Office 365 com o Cloud App Security, na Proteção de Informações do Azure e no Office. Você pode configurar políticas que se apliquem a todos os aplicativos SaaS ou a aplicativos específicos, como o Box. O Cloud App Security não descobre arquivos no Exchange Online, nem os arquivos anexados em emails.
+- Por fim, use o Microsoft Cloud App Security para monitorar arquivos com dados confidenciais em outros provedores de SaaS. Em breve, você poderá usar os tipos de informações confidenciais e os rótulos unificados na Proteção de Informações do Azure e no Office com aplicativo de segurança na nuvem. Você pode configurar políticas que se aplicam a todos os aplicativos SaaS ou aplicativos específicos (como o Box). O aplicativo de segurança na nuvem não descobre arquivos no Exchange Online, incluindo arquivos anexados a emails.
 
-## <a name="office-365-data-loss-prevention-reports"></a>Relatórios de prevenção contra perda de dados do Office 365
+## <a name="data-loss-prevention-reports"></a>Relatórios de prevenção contra perda de dados
 
 Após criar as políticas DLP (prevenção contra perda de dados), convém verificar se elas estão funcionando conforme esperado e se estão ajudando a manter a conformidade. Com os relatórios DLP do Office 365, você pode exibir rapidamente o número de falsos positivos, substituições ou correspondências de regra e política DLP; verificar se elas estão mais ou menos populares ao longo do tempo; filtrar o relatório de várias maneiras e exibir mais detalhes selecionando um ponto em uma linha no gráfico.
 
@@ -65,17 +65,17 @@ Para saber mais, confira o artigo [Exibir o relatório de prevenção contra per
 
 ![Relatório mostrando correspondências de política DLP](../../media/Monitor-for-leaks-of-personal-data-image2.png)
 
-## <a name="office-365-audit-log-and-alert-policies"></a>Log de auditoria e políticas de alerta do Office 365
+## <a name="audit-log-and-alert-policies"></a>políticas de log de auditoria e alerta
 
-O log de auditoria inclui eventos das plataformas Exchange Online, SharePoint Online, OneDrive for Business, Azure Active Directory, Microsoft Teams, Power BI, Sway e de outros serviços do Office 365.
+O log de auditoria contém os eventos do Exchange Online, do Microsoft Office SharePoint Online, do OneDrive for Business, do Azure Active Directory, do Microsoft Teams, do Power BI, do Sway e de outros serviços.
 
-O centro de conformidade e o centro de segurança oferecem duas maneiras de monitorar e gerar relatórios no log de auditoria do Office 365:
+O centro de conformidade e o centro de segurança oferecem duas maneiras de monitorar e gerar relatórios no log de auditoria:
 
 - Configurar políticas de alerta, exibir alertas e monitorar tendências – Use as ferramentas painel de alerta e política de alerta no centro de conformidade ou no centro segurança.
 
 - Pesquisar diretamente no log de auditoria – você pode pesquisar todos os eventos em um intervalo de datas especificado ou filtrar os resultados com base em determinados critérios; por exemplo, o usuário que executou a ação, a ação ou o objeto de destino.
 
-As equipes de conformidade e segurança de informações podem usar essas ferramentas de forma proativa para revisar as atividades executadas por usuários finais e administradores em todos os serviços do Office 365. É possível configurar alertas automáticos a fim de enviar notificações por email, quando ocorrem determinadas atividades em conjuntos de sites específicos; por exemplo, quando o conteúdo é compartilhado de sites conhecidos por incluir informações relacionadas ao GDPR. Dessa forma, as equipes podem acompanhar os usuários para garantir que as políticas de segurança corporativa sejam cumpridas ou para fornecer treinamento adicional.
+As equipes de segurança e conformidade das informações podem usar essas ferramentas para analisar proativamente as atividades realizadas pelos usuários finais e administradores entre os serviços. Os alertas automáticos podem ser configurados para enviar notificações por email quando determinadas atividades ocorrem em conjuntos de sites específicos, por exemplo, quando o conteúdo de sites conhecidos por conter informações relacionadas ao GDPR é compartilhado. Isso permite que essas equipes acompanhem os usuários para garantir que as políticas de segurança corporativa sejam seguidas ou para fornecer treinamento adicional.
 
 As equipes de segurança de informações podem também pesquisar o log de auditoria para investigar suspeitas de violação de dados, bem como determinar a causa raiz e a abrangência da violação. Esta funcionalidade interna facilita o cumprimento dos artigos 33 e 34 do GDPR, que exige o envio de notificações sobre violação de dados à autoridade supervisora do GDPR e aos detentores dos dados, em um período específico. As entradas do log de auditoria são mantidas apenas por 90 dias no serviço. Recomendamos e a maioria das organizações exige que esses logs sejam mantidos por mais tempo.
 
@@ -87,13 +87,13 @@ Clique nos links abaixo para saber mais sobre as políticas de alerta e como pes
 
 - [Pesquisar as atividades do administrador e dos usuários no log de auditoria do Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log) (introdução)
 
-- [Ativar e desativar a Pesquisa de log de auditoria do Office 365](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+- [Ativar ou desativar a pesquisa de log de auditoria](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 - [Pesquisas o log de auditoria](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 - [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) (cmdlet)
 
-- [Propriedades detalhadas no log de auditoria do Office 365](https://docs.microsoft.com/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log)
+- [Propriedades detalhadas no log de auditoria](https://docs.microsoft.com/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 
@@ -113,9 +113,9 @@ A segunda política bloqueia os downloads de arquivos em dispositivos não geren
 
 Em breve, os seguintes tipos de atributos estarão disponíveis para o Cloud App Security:
 
-- Tipos de informações confidenciais do Office 365
+- Tipos de informações confidenciais
 
-- Rótulos unificados no Office 365 e na Proteção de Informações do Azure
+- Rótulos unificados no Microsoft 365 e na Proteção de Informações do Azure
 
 ### <a name="cloud-app-security-dashboard"></a>Painel do Cloud App Security
 

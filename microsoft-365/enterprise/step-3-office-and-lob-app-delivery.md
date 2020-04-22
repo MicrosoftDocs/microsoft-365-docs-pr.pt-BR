@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba como entregar aplicativos do Office e LOB.
-ms.openlocfilehash: 1cead6563719c49ab591122e0c3864818746d4f0
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bf610f6d6684cf8fb6211301468747fbecf3d8f1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085304"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636791"
 ---
 # <a name="step-3-office-and-lob-app-delivery"></a>Etapa 3: Entrega de aplicativos do Office e LOB
 
@@ -30,7 +30,7 @@ ms.locfileid: "42085304"
 <thead>
 <td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-6.png" alt="Step 3" height="130" width="130" /></td>
 <td><p><strong>Etapa 3: Entrega de aplicativos do Office e LOB</strong></p>
-<p>Certifique-se de que os aplicativos estejam empacotados e prontos para instalação automatizada. Saiba como o empacotamento Clique para Executar com o Office 365 ProPlus oferece novas opções para configurar, oferecer e manter seus aplicativos do Office atualizados.</p></td>
+<p>Certifique-se de que os aplicativos estejam empacotados e prontos para instalação automatizada. Saiba como o empacotamento Clique para Executar com os Aplicativos do Microsoft 365 para empresas oferece novas opções para configurar, entregar e manter seus aplicativos do Office atualizados.</p></td>
 <td><a href="https://aka.ms/ddev3" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-16.png" alt="Step 3" height="120" width="213" /></a></td>
 </thead>
 </table>
@@ -39,7 +39,7 @@ ms.locfileid: "42085304"
 >A Entrega de Aplicativos do Office e LOB é a terceira etapa do processo de implantação recomendado, que aborda as opções de instalação e gerenciamento do Office e LOB. Para realizar uma implantação bem-sucedida, não ignore as primeiras duas etapas.  Para ver o processo completo de implantação do desktop, visite o [Centro de Implantação do Computador](https://aka.ms/HowToShift).
 >
 
-Agora você está pronto para implantar o Office e seus Aplicativos LOB (Linha de Negócios). Há algumas maneiras de fazer isso, inclusive algumas opções novas e incríveis. Enquanto alguns aplicativos só estão disponíveis como uma versão de 32 ou 64 bits compilada, outros como o Office 365 ProPlus, oferecem o código compilado nativo de 32 e 64 bits, e uma das principais decisões que você tomará será sobre a versão que deseja implantar. Para aproveitar a potência computacional adicional e a RAM em novos dispositivos, a Microsoft recomenda usar a versão de 64 bits quando não há nenhuma dependência de 32 bits. Para determinar possíveis dificuldades de compatibilidade do suplemento ou relacionadas a arquivos, é recomendável rever a Etapa 1, Preparação de dispositivos e aplicativos, antes de continuar.
+Agora você está pronto para implantar o Office e seus Aplicativos LOB (Linha de Negócios). Há algumas maneiras de fazer isso, inclusive algumas opções novas e incríveis. Enquanto alguns aplicativos só estão disponíveis como uma versão de 32 ou 64 bits compilada, outros aplicativos, como os Aplicativos do Microsoft 365 para empresas, oferecem o código compilado nativo, e uma das principais decisões que você tomará será sobre a versão que deseja implantar. Para aproveitar a potência computacional adicional e a RAM em novos dispositivos, a Microsoft recomenda usar a versão de 64 bits quando não há nenhuma dependência de 32 bits. Para determinar possíveis dificuldades de compatibilidade do suplemento ou relacionadas a arquivos, é recomendável rever a Etapa 1, Preparação de dispositivos e aplicativos, antes de continuar.
 
 Se nada estiver impedindo você, recomendamos a implantação de versões de 64 bits de todos os aplicativos, incluindo o Microsoft Office. Os aplicativos nativos compilados de 64 bits oferecem o melhor desempenho e são a opção mais adequada para o futuro.
 
@@ -57,19 +57,19 @@ Ferramentas de implantação de software como o Microsoft Endpoint Configuration
 
 ## <a name="pc-imaging"></a>Geração de imagens de computador
 
-Outro método popular de entrega de aplicativos é a geração de imagens do computador. Nesse caso, os aplicativos estão instalados por meio da sequência de tarefas ou manualmente em uma amostra de computador e, em seguida, uma imagem do sistema é capturada com os aplicativos necessários pré-instalados. A abordagem de geração de imagens para criar e capturar economiza tempo ao provisionar computadores novos, mas lembre-se de que os sistemas operacionais e os aplicativos dentro da imagem podem ficar obsoletos rapidamente. O modelo de Atualização Cumulativa do Windows 10 e do Office 365 ProPlus ajuda nesse problema, mas não o elimina completamente. Isso ocorre porque é recomendável uma abordagem de imagem fina, em que os aplicativos são instalados de fora da imagem no momento da implantação.
+Outro método popular de entrega de aplicativos é a geração de imagens do computador. Nesse caso, os aplicativos estão instalados por meio da sequência de tarefas ou manualmente em uma amostra de computador e, em seguida, uma imagem do sistema é capturada com os aplicativos necessários pré-instalados. A abordagem de geração de imagens para criar e capturar economiza tempo ao provisionar computadores novos, mas lembre-se de que os sistemas operacionais e os aplicativos dentro da imagem podem ficar obsoletos rapidamente. O modelo de atualização cumulativa do Windows 10 e dos Aplicativos do Microsoft 365 para empresas ajuda nesse problema, mas não o elimina completamente. Isso ocorre porque é recomendável uma abordagem de imagem fina, em que os aplicativos são instalados de fora da imagem no momento da implantação.
 
 ![](../media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-4.png)
 
-Se você quiser incluir o Office 365 ProPlus na sua imagem, lembre-se de que ele usa uma ativação baseada no usuário e não pode ser pré-ativado pelo administrador do sistema. Use a Ferramenta de Implantação do Office para pré-instalar o Office no dispositivo que você está gerando imagens e ignore a entrada do usuário. Depois que a imagem for implantada, os usuários finais poderão entrar usando as credenciais do Office 365 e ativar o Office 365 ProPlus.
+Se você quiser incluir os Aplicativos do Microsoft 365 para empresas na sua imagem, lembre-se de que ele usa uma ativação baseada no usuário e não pode ser pré-ativado pelo administrador do sistema. Use a Ferramenta de Implantação do Office para instalar previamente o Office no dispositivo que você está gerando imagens e ignore a entrada do usuário. Depois que a imagem for implantada, os usuários finais poderão entrar usando as credenciais e ativar os Aplicativos do Microsoft 365 para empresas.
 
 [Criar uma sequência de tarefas para instalar um sistema operacional](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
-[Implantar o Office 365 ProPlus como parte de uma imagem do sistema operacional](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
+[Implantar os Aplicativos do Microsoft 365 para empresas como parte de uma imagem do sistema operacional](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
 
 ## <a name="office-click-to-run"></a>Clique para Executar no Office 
 
-O Office 365 ProPlus é instalado usando a tecnologia Clique para Executar; ela substitui o pacote baseado em MSI em todas as versões de lançamento do futuro Office 2019 para Windows. Esse recurso apresenta diversas vantagens, incluindo instalações mais rápidas, atualizações mais eficientes e ágeis e desinstalações mais limpas. 
+O Aplicativos do Microsoft 365 para empresas é instalado usando Clique para Executar; ela substitui o empacotamento baseado em MSI em todas as versões de lançamento do futuro Office 2019 para Windows. Esse recurso apresenta diversas vantagens, incluindo instalações mais rápidas, atualizações mais eficientes e ágeis e desinstalações mais limpas. 
 
 Os programas instalados por meio da tecnologia Clique para Executar são executados em um ambiente virtual do aplicativo em seu computador e, então, coexistem com outros aplicativos sem conflito; eles também ocupam metade do espaço em disco que ocupariam como um pacote baseado em MSI. Os aplicativos do Office são entregues e gerenciados por meio da [Ferramenta de implantação do Office](https://www.microsoft.com/download/details.aspx?id=49117) que é o mecanismo de instalação necessário para baixar, configurar e personalizar os aplicativos do Office. A ferramenta de implantação do Office lê um arquivo XML de configuração que fornece instruções de metadados sobre como configurar e personalizar a instalação do Office.
 
@@ -77,15 +77,15 @@ A Microsoft recomenda utilizar a [Ferramenta de Personalização do Office](http
 
 ![](../media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-7.png)
 
-Se você usa o Configuration Manager, ainda será possível usá-lo para uma ampla implantação do Office 365 ProPlus. O branch atual do Configuration Manager tem suporte nativo para a Ferramenta de Personalização do Office atualizada, personalização de pacote para o Clique para Executar no momento da instalação e suporte nativo para pós-instalação de gerenciamento de atualização de software.
+Se você usa o Gerenciador de Configurações, ainda será possível usá-lo para ampla implantação do Aplicativos do Microsoft 365 para empresas. O Gerenciador de Configurações (branch atual) possui suporte nativo para a Ferramenta de Personalização do Office atualizada, personalização de pacote para Clique para Executar no momento da instalação e suporte nativo para pós-instalação de gerenciamento de atualização de software.
 
 ![](../media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-6.png)
 
-[Guia de implantação do Office 365 ProPlus](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
+[Guia de implantação do Aplicativos do Microsoft 365 para empresas](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
 
-[Remover as versões MSI existentes do Office durante a atualização para o Office 365 ProPlus](https://docs.microsoft.com/deployoffice/upgrade-from-msi-version)
+[Remover as versões MSI existentes do Office durante a atualização para o Aplicativos do Microsoft 365 para empresas](https://docs.microsoft.com/deployoffice/upgrade-from-msi-version)
 
-[Gerenciar o Office 365 ProPlus com o Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
+[Gerenciar o Aplicativos do Microsoft 365 para empresas com o Gerenciador de Configurações](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
 
 [Atribuir aplicativos do Office 365 a dispositivos do Windows 10 com o Microsoft Intune](https://docs.microsoft.com/intune/apps-add-office365)
 
@@ -115,8 +115,8 @@ Você pode encontrar mais informações sobre o MSIX através do [site da Comuni
 
 ## <a name="next-step"></a>Próxima etapa
 
-## <a name="step-4-user-files-and-settingshttpsakamsmdd4"></a>[Etapa 4: Arquivos e configurações de usuários](https://aka.ms/mdd4)
+## <a name="step-4-user-files-and-settings"></a>[Etapa 4: Arquivos e configurações de usuários](https://aka.ms/mdd4)
 
 ## <a name="previous-step"></a>Etapa anterior
 
-## <a name="step-2-directory-and-network-readinesshttpsakamsmdd2"></a>[Etapa 2: Diretório e preparação de rede](https://aka.ms/mdd2) 
+## <a name="step-2-directory-and-network-readiness"></a>[Etapa 2: Diretório e preparação de rede](https://aka.ms/mdd2) 

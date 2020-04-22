@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Você precisa de senhas fortes e gerenciáveis em toda a organização.
-ms.openlocfilehash: c0ad9e2ad86cb803484e3d350fe112580610f509
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b4eb1861eb8d1c483972cf6a7c22a339dc1b0b36
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633089"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637043"
 ---
 # <a name="step-2-secure-your-passwords"></a>Etapa 2: proteger suas senhas
 
@@ -78,11 +78,11 @@ Confira as [instruções para configurar o SSO Contínuo do Azure Active Directo
 |![Guias do Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Guia do Laboratório de Teste: Logon Único Contínuo do Azure Active Directory](single-sign-on-m365-ent-test-environment.md) |
 |||
 
-Como um ponto de verificação provisório, você pode ver os [critérios de saída](identity-exit-criteria.md#crit-identity-sso) para esta seção.
+Como um ponto de verificação provisório, você pode ver os [critérios de saída](identity-exit-criteria.md#crit-identity-sso) desta seção.
 
 
 <a name="identity-custom-sign-in"></a>
-## <a name="customize-the-office-365-sign-in-page"></a>Personalizar páginas de entrada do Office 365
+## <a name="customize-the-sign-in-page"></a>Personalizar a página de entrada
 
 *Isso é opcional e para as versões E3 e E5 do Microsoft 365 Enterprise*
 
@@ -90,7 +90,7 @@ Nesta seção, você ajudará usuários a reconhecer a página de entrada da sua
 
 Com o Microsoft 365 Enterprise, é possível personalizar a aparência das páginas de entrada e do Painel de acesso para incluírem o logotipo da empresa, os esquemas de cores e as informações do usuário personalizadas. 
 
-Saiba mais em [Adicionar a marca da empresa na página de entrada do Office 365](https://docs.microsoft.com/office365/admin/setup/customize-sign-in-page).
+Para mais informações, confira [Adicionar a identidade visual da sua empresa à página de entrada do Microsoft 365](https://docs.microsoft.com/office365/admin/setup/customize-sign-in-page).
 
 Confira as instruções de configuração em [Adicionar a marca da empresa na página de entrada e no Painel de acesso](https://aka.ms/aadpaddbranding).
 

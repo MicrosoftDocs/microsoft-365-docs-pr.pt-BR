@@ -16,12 +16,12 @@ ms.collection:
 - SPO_Content
 ms.custom: ''
 description: Crie um site de equipe do SharePoint seguro para armazenar seus arquivos mais valiosos e confidenciais.
-ms.openlocfilehash: bc1a84fa7437d9b2979e10b352f8a422c457e8a0
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 97a01275d1d45cb02e66e88f82c95311bcb6fe70
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951977"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636706"
 ---
 # <a name="sharepoint-sites-for-highly-regulated-data"></a>Sites do SharePoint para dados altamente regulamentados
 
@@ -40,10 +40,10 @@ Um cenário da Microsoft 365 Enterprise baseada na nuvem, que atende a essa nece
 
 - Armazene arquivos (documentos, apresentações de slides, planilhas, etc.) em um site de equipe do SharePoint.
 - Bloqueie o site para impedir:
-  - Acesso a usuários que não são membros do grupo do Office 365 para o site.
+  - Acesso a usuários que não são membros do grupo do Microsoft 365 para o site.
   - Que membros do site concedam acesso a outras pessoas.
   - Que aqueles que não sejam membros do site solicitem acesso a ele.
-- Configure um rótulo de retenção do Office 365 para seus sites do SharePoint como uma maneira padrão de impedir que os usuários enviem arquivos fora da organização.
+- Configure um rótulo de retenção para seus sites do SharePoint como uma maneira padrão de impedir que os usuários enviem arquivos para fora da organização.
 - Criptografe os arquivos mais confidenciais do site com criptografia que acompanha o arquivo.
 - Adicione permissões aos arquivos mais confidenciais para que, mesmo que sejam compartilhados fora do site, a abertura do arquivo ainda exija as credenciais válidas de uma conta de usuário que tenha a permissão.
 
@@ -53,11 +53,11 @@ A tabela a seguir mapeia os requisitos desse cenário para um recurso do Microso
 |:-------|:-----|
 | **Requisito** | **Recurso do Microsoft 365 Enterprise** |
 | Armazenar arquivos  | Sites de equipe do SharePoint |
-| Bloquear o site | Grupos do Office 365 e permissões de site de equipe do SharePoint |
-| Rotular os arquivos do site | Rótulos de retenção do Office 365 |
-| Bloquear usuários ao enviar arquivos para fora da organização. | Políticas de Prevenção Contra Perda de Dados (DLP) no Office 365 |
-| Criptografar todos os arquivos do site | Rótulos ou sub-rótulos de confidencialidade do Office 365 |
-| Adicionar permissões aos arquivos do site | Rótulos ou sub-rótulos de confidencialidade do Office 365 |
+| Bloquear o site | Grupos do Microsoft 365 e permissões de site de equipe do SharePoint |
+| Rotular os arquivos do site | Rótulos de retenção do Microsoft 365 |
+| Bloquear usuários ao enviar arquivos para fora da organização. | Políticas de Prevenção contra Perda de Dados (DLP) |
+| Criptografar todos os arquivos do site | Rótulos ou sub-rótulos de confidencialidade do Microsoft 365 |
+| Adicionar permissões aos arquivos do site | Rótulos ou sub-rótulos de confidencialidade do Microsoft 365 |
 |||
 
 Aqui está um exemplo de configuração para um site do SharePoint seguro.
@@ -88,26 +88,26 @@ Para criar um site do SharePoint para dados altamente regulamentados, você deve
 
 Essa finalidade gerará a determinação de itens essenciais de configuração como:
 
-- O rótulo de retenção do Office 365 para atribuir à parte Documentos do site e às políticas de DLP para o rótulo
-- As configurações de um sub-rótulo de confidencialidade do Office 365 que os usuários aplicam a arquivos altamente confidenciais armazenados no site
+- O rótulo de retenção para atribuir à parte Documentos do site e às políticas DLP para o rótulo
+- As configurações de um sub-rótulo de confidencialidade que os usuários aplicam a arquivos altamente confidenciais armazenados no site
 
 Quando determinado, você usa essas configurações para configurar o site na Fase 2. 
 
-### <a name="step-1-office-365-retention-labels-and-dlp-policies"></a>Etapa 1 rótulos de retenção do Office 365 e políticas DLP
+### <a name="step-1-microsoft-365-retention-labels-and-dlp-policies"></a>Etapa 1 rótulos de retenção do Microsoft 365 e políticas DLP
 
-Quando aplicada à parte de Documentos de um site de equipe do SharePoint, os rótulos de retenção do Office 365 fornecem um método padrão de classificação de todos os arquivos armazenados no site.
+Quando aplicada à parte Documentos de um site de equipe do SharePoint, os rótulos de retenção fornecem um método padrão de classificação de todos os arquivos armazenados no site.
  
-Nos sites do SharePoint para dados altamente controlados, você precisa determinar qual rótulo de retenção do Office 365 será usado.
+Nos sites do SharePoint para dados altamente controlados, você precisa determinar qual rótulo de retenção será usado.
 
-Para considerações de design dos rótulos do Office 365, consulte [Rótulos e classificação do Office 365](https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-and-files#office-365-retention-labels).
+Para considerações de design dos rótulos, confira [Rótulos e classificação do Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-and-files#office-365-retention-labels).
 
 Para proteger informações confidenciais e evitar a divulgação acidental ou intencional, use as políticas DLP. Para obter mais informações, consulte esta [visão geral](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies).
 
-Para sites do SharePoint, você deve configurar uma política DLP do rótulo de retenção do Office 365 atribuído ao site para bloquear usuários quando eles tentam compartilhar arquivos com usuários externos. 
+Para sites do SharePoint, você deve configurar uma política DLP do rótulo de retenção atribuído ao site para bloquear usuários quando eles tentarem compartilhar arquivos com usuários externos. 
 
-### <a name="step-2-your-office-365-sensitivity-sublabel"></a>Etapa 2: Sub-rótulo de confidencialidade do Office 365
+### <a name="step-2-your-microsoft-365-sensitivity-sublabel"></a>Etapa 2: seu sub-rótulo de confidencialidade do Microsoft 365
 
-Para fornecer criptografia e um conjunto de permissões aos seus arquivos mais confidenciais, os usuários devem aplicar um rótulo ou sub-rótulo de confidencialidade do Office 365. Existe uma sub-rótulo em um rótulo existente. 
+Para fornecer criptografia e um conjunto de permissões aos seus arquivos mais confidenciais, os usuários devem aplicar um rótulo ou sub-rótulo de confidencialidade. Existe uma sub-rótulo em um rótulo existente. 
 
 Use um rótulo de confidencialidade quando precisar de um pequeno número de rótulos para de uso global e equipes privadas individuais. Use um sub-rótulo de confidencialidade quando você tiver um grande número de rótulos ou quiser organizar rótulos para sites seguros em seu rótulo altamente regulamentado. 
 
@@ -117,14 +117,14 @@ As configurações do rótulo ou sub-rótulo aplicado acompanham o arquivo. Mesm
 
 Você determinou o seguinte:
 
-- O rótulo de retenção apropriado do Office 365 e a política DLP que está associada ao rótulo
-- As configurações do sub-rótulo de confidencialidade do Office 365 que inclui criptografia e permissões
+- O rótulo de retenção apropriado e a política DLP que está associada ao rótulo
+- As configurações do sub-rótulo de confidencialidade que incluem criptografia e permissões
 
 ## <a name="phase-2-configure"></a>Fase 2: Configurar
 
 Nesta fase, você usa as configurações determinadas na Fase 1 e as implementa para criar um site do SharePoint para dados altamente regulamentados.
 
-### <a name="step-1-create-a-private-sharepoint-team-site-with-owners-and-members-of-the-corresponding-office-365-group"></a>Etapa 1: Criar um site de equipe do SharePoint privado com proprietários e membros do grupo do Office 365 correspondente
+### <a name="step-1-create-a-private-sharepoint-team-site-with-owners-and-members-of-the-corresponding-microsoft-365-group"></a>Etapa 1: criar um site de equipe do SharePoint privado com proprietários e membros do grupo do Microsoft 365 correspondente
 
 Siga [essas instruções]( https://support.office.com/article/create-a-site-in-sharepoint-online-4d1e11bf-8ddc-499d-b889-2b48d10b1ce8) para criar um site de equipe do SharePoint privado.
 
@@ -139,15 +139,15 @@ No site do SharePoint, defina estas configurações de permissão.
 
 Com essas configurações, a capacidade de membros do grupo de sites compartilharem o site com outros membros ou de não membros solicitarem acesso ao site é desativada.
 
-### <a name="step-3-configure-the-site-for-an-office-365-retention-label"></a>Etapa 3: Configurar o site para um rótulo de retenção do Office 365
+### <a name="step-3-configure-the-site-for-a-retention-label"></a>Etapa 3: configurar o site para um rótulo de retenção
 
-Use as instruções em [Proteger arquivos do SharePoint com rótulos do Office 365 e DLP](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp) para:
+Use as instruções em [Proteger arquivos do SharePoint com rótulos e DLP](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp) para:
 
 1. Crie e publique um rótulo de retenção para dados altamente regulamentados (se necessário).
 2. Configure o site para o rótulo de retenção criado na etapa 1.
 3. Crie uma política DLP para dados altamente regulamentados que usam o rótulo de retenção criado na etapa 2 e impede que os usuários enviem arquivos fora da organização
 
-#### <a name="step-4-create-an-office-365-sensitivity-sublabel-for-the-site"></a>Etapa 4: Criar um sub-rótulo de confidencialidade do Office 365 para o site
+#### <a name="step-4-create-a-sensitivity-sublabel-for-the-site"></a>Etapa 4: criar um sub-rótulo de confidencialidade para o site
 
 Ao contrário de um rótulo de confidencialidade para dados altamente regulamentados que qualquer pessoa pode aplicar a qualquer arquivo, um site seguro precisa de seu próprio sub-rótulo, para que os arquivos com o sub-rótulo atribuído:
 
@@ -167,9 +167,9 @@ Use as instruções [aqui](https://docs.microsoft.com/microsoft-365/compliance/e
 Você configurou o seguinte:
 
 - Configurações de permissão mais restritivas no site do SharePoint
-- Um rótulo de retenção do Office 365 atribuído à parte de Documentos do site do SharePoint
-- Uma política DLP para o rótulo de retenção do Office 365
-- Um rótulo ou sub-rótulo de confidencialidade do Office 365 que os usuários podem aplicar aos arquivos mais confidenciais armazenados no site, que criptografam o arquivo e permitem apenas o acesso de coautor aos membros do grupo de sites de equipe 
+- Um rótulo de retenção atribuído à parte Documentos do site do SharePoint
+- Uma política DLP para o rótulo de retenção
+- Um rótulo ou sub-rótulo de confidencialidade que os usuários podem aplicar aos arquivos mais confidenciais armazenados no site, que criptografam o arquivo e permitem apenas o acesso de coautor aos membros do grupo do site de equipe 
 
 Aqui está a configuração resultante que usa um sub-rótulo do rótulo altamente regulamentado.
 

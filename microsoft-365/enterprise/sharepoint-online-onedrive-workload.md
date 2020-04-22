@@ -13,12 +13,12 @@ ms.collection:
 - SPO_Content
 ms.custom: ''
 description: Percorra o processo de planejamento, implantação e geração de valor do SharePoint para toda a sua organização.
-ms.openlocfilehash: cb0cf16df328d667d796008ac7cabfc98c21ad17
-ms.sourcegitcommit: 237589a0c8a24510e5c8f3b8b4747d944ad0afbf
+ms.openlocfilehash: ee2c5592015361a678785cb8e4aaad9074c5d804
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "39886318"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636911"
 ---
 # <a name="deploy-sharepoint-and-onedrive-for-microsoft-365-enterprise"></a>Implantar o SharePoint e o OneDrive no Microsoft 365 Enterprise
 
@@ -53,7 +53,7 @@ O SharePoint pode ser usado com finalidades diferentes. Você precisa descobrir 
 
 Veja a lista de cenários e recursos do [SharePoint](https://products.office.com/sharepoint/collaboration ).
 
-Os seguintes pontos centrais de negócios podem atender às necessidades da sua organização:
+Os seguintes pilares de negócios podem atender às necessidades da sua organização:
 
 |||
 |:-----|:-----|
@@ -73,7 +73,7 @@ Uma maneira de perceber os benefícios do SharePoint é examinar como as pessoas
 Os dados altamente controlados estão sujeitos a normas regionais ou são os dados mais importantes de sua organização, como segredos comerciais, financeiros ou informações de recursos humanos e estratégias da organização. Você pode configurar um site do SharePoint para acesso restrito, classificação de dados, prevenção de perda de dados e criptografia para esse tipo de dados. Para obter detalhes, confira [Sites do Microsoft Teams e do SharePoint para dados altamente controlados](teams-sharepoint-online-sites-highly-regulated-data.md).
 
 #### <a name="result"></a>Resultado
-Uma lista de cenários do SharePoint que atendem às necessidades da sua organização para armazenamento de documentos, gerenciamento de conteúdo, colaboração e segurança.
+Uma lista de cenários do Microsoft Office SharePoint Online que atendem às necessidades da sua organização para armazenamento de documentos, gerenciamento de conteúdo, colaboração e segurança.
 
 ## <a name="phase-2-onboard"></a>Fase 2: integrar
 
@@ -93,8 +93,8 @@ Use [Migrar para o SharePoint](https://docs.microsoft.com/sharepointmigration/mi
 
 Para entender melhor a segurança no SharePoint, leia:
 
--   [Como o SharePoint e o OneDrive protegem seus dados na nuvem](https://docs.microsoft.com/sharepoint/safeguarding-your-data)
--   [Criptografia de dados no OneDrive e no SharePoint](https://docs.microsoft.com/microsoft-365/compliance/data-encryption-in-odb-and-spo)
+-     [Como o SharePoint e o OneDrive protegem seus dados na nuvem](https://docs.microsoft.com/sharepoint/safeguarding-your-data)
+-     [Criptografia de dados no OneDrive e no SharePoint](https://docs.microsoft.com/microsoft-365/compliance/data-encryption-in-odb-and-spo)
 
 #### <a name="result"></a>Resultado
 
@@ -155,8 +155,8 @@ Após a distribuição para toda a sua organização, você deverá continuar a 
 
 Veja algumas sugestões de atividades:
 
-- Veja [Fatores de sucesso do Office 365](https://aka.ms/successfactors) para saber mais sobre as práticas recomendadas gerais para a adoção do serviço de nuvem. 
-- Veja [relatórios de atividades do Office 365](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports) para entender o uso do serviço do Office 365 em sua organização. Se você não for um administrador global do Office 365 para sua organização, peça a um administrador global para conceder à sua conta de usuário permissões para ler relatórios, de forma que você possa acessar os relatórios de atividades.
+- Confira [Fatores de sucesso para o Microsoft 365](https://aka.ms/successfactors) conhecer as práticas recomendadas gerais de adoção do serviço de nuvem. 
+- Confira [Relatórios do Microsoft 365 no centro de administração](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports) para compreender o uso do serviço em toda a organização. Se você não for um administrador global da sua organização, pergunte a alguém que é um administrador global para conceder permissões de leitor a relatórios para sua conta de usuário, para que você possa acessar os relatórios de atividades.
 - Monitore seu local de comentários (um canal público em uma equipe central do Teams ou do Yammer) para ver problemas e comentários da pessoas sobre suas experiências com o SharePoint. Solucione problemas e questões assim que possível para evitar pessoas frustradas e demonstrar suporte para a distribuição.
 - Identifique e incentive defensores da ferramenta em cada grupo de negócios e destaque suas realizações e práticas recomendadas ao usar o SharePoint. Comunique os sucessos dessas pessoas para a organização para demonstrar o sucesso e a adoção do projeto. O apoio de líderes técnicos em um grupo de negócios podem ter uma influência poderosa para líderes e colegas.
 

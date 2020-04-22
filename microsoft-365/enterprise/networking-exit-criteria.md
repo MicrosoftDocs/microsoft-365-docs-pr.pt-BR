@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Garanta que a sua configuração atenda aos critérios do Microsoft 365 Enterprise para a infraestrutura de rede.
-ms.openlocfilehash: 1ace68fd19c62e4dc389604c1b0c02ddc18b52dc
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 6d9133fa6f3c993efe88ea53b412b9a272c1b98b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633199"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631484"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>Fase 1: Critérios de saída para infraestrutura de rede
 
@@ -32,7 +32,7 @@ Verifique se sua infraestrutura de rede atende aos seguintes critérios necessá
 ## <a name="required-your-network-is-ready-for-microsoft-365-enterprise"></a>Obrigatório: rede preparada para o Microsoft 365 Enterprise
 
 - Seus escritórios têm largura de banda de Internet adequada para o tráfego do Microsoft 365, incluindo a instalação e atualizações do Office 365, do Microsoft Intune e do Windows 10 Enterprise.
-- Sua rede geral mapeia para uma [Arquitetura de referência do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
+- Sua rede geral mapeia para uma [arquitetura de referência do Microsoft 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
 - As alterações de rede foram testadas e atendem aos requisitos de latência de tráfego.
 
 Se necessário, a [Etapa 1](networking-provide-bandwidth-cloud-services.md) pode ajudá-lo com esse requisito.
@@ -73,7 +73,7 @@ Se necessário, a [Etapa 4](networking-configure-proxies-firewalls.md) pode ajud
 
 
 <a name="crit-networking-step5"></a>
-## <a name="optional-your-clients-and-office-365-applications-are-configured-for-optimal-performance"></a>Opcional: Seus clientes e aplicativos do Office 365 serem configurados para um desempenho ideal
+## <a name="optional-your-clients-and-microsoft-365-applications-are-configured-for-optimal-performance"></a>Opcional: Seus aplicativos de clientes e do Microsoft 365 serem configurados para um desempenho ideal
 
 Você deve otimizar as configurações de Protocolo de Controle de Transmissão (TCP) em seus dispositivos cliente e para os serviços do Exchange Online, do Skype for Business Online, do SharePoint Online e do Project Online.
 

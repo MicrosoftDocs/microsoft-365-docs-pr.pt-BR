@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: Crie e configure equipes com o Microsoft Teams para vários níveis de proteção de informações para arquivos.
-ms.openlocfilehash: 63a4b6763165f38e1de5331324e5a7b3573ea0f1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d8912900a02149d198222a4402e101b0dce53310
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083314"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637635"
 ---
 # <a name="deploy-teams-for-three-tiers-of-protection-for-files"></a>Implantar equipes para três camadas de proteção para arquivos
 
@@ -32,7 +32,7 @@ Use as etapas neste artigo para projetar e implantar equipes de linha de base, c
 
 ## <a name="baseline-teams"></a>Equipes de linha de base
 
-A proteção de linha de base inclui as equipes públicas e privadas. As equipes públicas podem ser descobertas e acessadas por qualquer pessoa na organização. Os sites privados podem ser descobertos e acessados somente por membros do grupo do Office 365 associado à equipe. Ambos os tipos de equipes permitem aos membros compartilhar o site com outras pessoas.
+A proteção de linha de base inclui as equipes públicas e privadas. As equipes públicas podem ser descobertas e acessadas por qualquer pessoa na organização. Os sites privados podem ser descobertos e acessados somente por membros do grupo do Microsoft 365 associado à equipe. Ambos os tipos de equipes permitem aos membros compartilhar o site com outras pessoas.
 
 ### <a name="public"></a>Público
 

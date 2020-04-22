@@ -17,12 +17,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Use este Guia de Laboratório de Teste para criar um ambiente de teste leve para testar o Microsoft 365 Enterprise.
-ms.openlocfilehash: 4e90cc01cb37664f3084daf7295e9d59052809af
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 04e63b1c3d9d35bd636041f8be7655ab17b1d165
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633339"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631604"
 ---
 # <a name="the-lightweight-base-configuration"></a>A configuração de base leve
 
@@ -63,7 +63,7 @@ Para começar a usar a sua assinatura de avaliação do Office 365 E5, primeiro 
 5. Para a etapa 4, armazene a URL da página de entrada aqui (selecione e copie):  ![Linha](../media/Common-Images/TableLine.png) 
 6. Armazene a ID de usuário aqui: ![Linha](../media/Common-Images/TableLine.png).onmicrosoft.com  
    Armazene a senha que você digitou em um local seguro.
-   Esse valor será chamado de **Nome de administrador global do Office 365**.
+   Esse valor será chamado de **nome do administrador global**.
 8. Clique em **Ir para Configuração**.
 9. Na configuração do Office 365 E5, clique em **Continuar usando *sua organização*.onmicrosoft.com para o email e para entrar** e clique em **Sair e continuar mais tarde**.
 
@@ -73,11 +73,11 @@ A criação de uma assinatura de avaliação do Office 365 é necessária para q
     
 ## <a name="phase-2-configure-your-office-365-trial-subscription"></a>Fase 2: configurar a sua assinatura de avaliação do Office 365
 
-Nesta fase, você configurará a sua assinatura do Office 365 com outros usuários, atribuindo a eles licenças do Office 365 E5.
+Nesta fase, você configurará a sua assinatura com outros usuários, atribuindo a eles licenças do Office 365 E5.
   
-Use as instruções em [Conectar-se ao PowerShell do Office 365](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) para se conectar à sua assinatura do Office 365 com o Azure Active Directory PowerShell para módulo do Graph do seu computador.
+Use as instruções em [Conectar ao Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) para conectar à sua assinatura com módulo o Azure Active Directory PowerShell for Graph do seu computador.
     
-Na caixa de diálogo **Solicitação de credenciais do Windows PowerShell**, digite o nome do administrador global do Office 365 (exemplo: jdoe@contosotoycompany.onmicrosoft.com) e a senha.
+Na caixa de diálogo **Solicitação de credenciais do Windows PowerShell**, digite o nome do administrador global (exemplo: jdoe@contosotoycompany.onmicrosoft.com) e senha.
   
 Preencha o nome de sua organização (exemplo: contosotoycompany), o código de país com dois caracteres para a sua localização e execute os seguintes comandos no prompt do PowerShell:
 
@@ -121,7 +121,7 @@ Talvez você queira imprimir este artigo para registrar as informações especí
 
 Registre esses valores:
   
-- Nome do administrador global do Office 365: ![Linha](../media/Common-Images/TableLine.png)onmicrosoft.com (na etapa 6 da Fase 1)
+- nome do administrador global: ![Linha](../media/Common-Images/TableLine.png)onmicrosoft.com (na etapa 6 da Fase 1)
     
     Também armazene a senha dessa conta em um local seguro.
     
@@ -291,7 +291,7 @@ Em seguida, adicione o computador com Windows 10 no locatário do Azure AD das s
     
 6. Feche a janela de configurações.
     
-Em seguida, instale o Office 365 ProPlus no computador WIN10.
+Em seguida, instale os Aplicativos do Microsoft 365 para empresas no computador do WIN10.
   
 1. Abra o navegador Microsoft Edge e entre no portal do Office com as credenciais da conta de administrador global. Para obter ajuda, consulte [Onde entrar no Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
@@ -309,7 +309,7 @@ Isso inclui o computador WIN10 que tem:
 
 - Ingressou no locatário do Azure AD das suas assinaturas do Microsoft 365 E5.
 - Registrou um dispositivo do Azure AD no Microsoft Intune (EMS).
-- Instalou o Office 365 ProPlus.
+- Tenha os Aplicativos do Microsoft 365 para empresas instalados.
   
 Agora você está pronto para experimentar os recursos adicionais do [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise).
   
