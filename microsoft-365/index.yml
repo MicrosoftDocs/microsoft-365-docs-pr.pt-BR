@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 4c66e2c398adfc67ec28661ed654ca891a846534
-  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+  ms.openlocfilehash: 0b5b128a0d4ea756a6cc6f926d1496de16520377
+  ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/19/2020
-  ms.locfileid: "42857316"
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "43636646"
 highlightedContent:
   items:
   - title: Treinamento para administradores e profissionais de TI
@@ -45,9 +45,9 @@ additionalContent:
     summary: Selecione um cartão para saber mais sobre o Microsoft 365.
     items:
     - title: Centro de administração do Microsoft 365
-      summary: Configure e gerencie o Office 365 e os serviços do Microsoft 365 para sua organização.
+      summary: Configure e gerencie o Microsoft 365 e os serviços da sua organização.
       url: ./admin/admin-home.md
-    - title: Microsoft 365 Business
+    - title: Microsoft 365 Business Premium
       summary: Projetado para empresas de pequeno e médio porte. Administre sua empresa com as versões mais recentes dos aplicativos do Windows e do Office como Excel e Outlook. Aproveite a proteção de dados e a segurança que se estende a todos os seus dispositivos de negócios.
       url: ./business/index.yml
     - title: Microsoft 365 Enterprise
@@ -63,8 +63,8 @@ additionalContent:
       summary: Saiba mais sobre as soluções e os serviços robustos de segurança do Microsoft 365 Security, para que você possa proteger melhor sua organização em superfícies de ataque.
       url: ./security/index.yml
     - title: Microsoft 365 para Campanhas
-      summary: Mantenha seus dados e comunicações de campanha ou comerciais em segurança com esta configuração recomendada para o Microsoft 365 Business.
+      summary: Mantenha seus dados e comunicações de campanha ou comerciais em segurança com esta configuração recomendada para o Microsoft 365 for business.
       url: ./campaigns/index.md
-    - title: Área de Trabalho Gerenciada da Microsoft
+    - title: Área de trabalho gerenciada da Microsoft
       summary: A Área de Trabalho Gerenciada da Microsoft reúne o Microsoft 365 Enterprise, o gerenciamento de dispositivos baseados em nuvem da Microsoft e o monitoramento de segurança, permitindo que você libere suas equipes de TI para se concentrarem nas principais necessidades comerciais.
       url: ./managed-desktop/index.yml
