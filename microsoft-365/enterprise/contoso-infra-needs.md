@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda a estrutura básica da infraestrutura de TI local da Contoso e de que forma suas necessidades comerciais foram atendidas pelo Microsoft 365 Enterprise.
-ms.openlocfilehash: 3cee0f3e6cd20b0d93038595cdab9270c8eb30aa
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 38d2b8df611cb06e19abba074f49e00d95496c30
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068378"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625285"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>Infraestrutura de TI e necessidades comerciais da Contoso
 
@@ -126,7 +126,7 @@ O departamento de TI da Contoso determinou o seguinte mapeamento das necessidade
 | Segurança |  |  |
 |  | Gerenciamento de identidades e acesso | Contas de administrador globais dedicadas com Autenticação Multifator do Azure e Azure AD Privileged Identity Management (PIM) <BR> Autenticação Multifator para todas as contas de usuário <BR> Acesso Condicional <BR> Windows Hello <BR> Windows Credential Guard |
 |  | Proteção contra Ameaças | Advanced Threat Analytics <BR> Windows Defender <BR> Proteção Avançada contra Ameaças <BR> Proteção Avançada contra Ameaças do Office 365 <BR> Investigação e resposta a ameaças do Office 365 <BR> |
-|  | Proteção de informações | Proteção de Informações do Azure <BR> Prevenção contra Perda de Dados do Office 365 <BR> Proteção de Informações do Windows (WIP) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
+|  | Proteção de informações | Proteção de Informações do Azure <BR> Prevenção de Perda de Dados (DLP) <BR> Proteção de Informações do Windows (WIP) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | Gerenciamento de segurança | Central de Segurança do Azure  <BR> Central de Segurança do Windows Defender |
 | Acesso remoto e móvel e parceiros de negócios |  |  |
 |  | Aumentar a segurança de trabalhadores remotos e móveis | Microsoft Intune |
@@ -135,7 +135,7 @@ O departamento de TI da Contoso determinou o seguinte mapeamento das necessidade
 | Conformidade |  |  |
 |  | Cumprir os requisitos regulamentares regionais | Recursos de RGPD no Office 365 |
 | Gerenciamento |  |  |
-|  | Reduzir a sobrecarga da TI para instalar as atualizações do cliente | Anéis de implantação <BR> Atualizações do Windows 10 Enterprise <BR> Atualizações do Office 365 ProPlus |
+|  | Reduzir a sobrecarga da TI para instalar as atualizações do cliente | Anéis de implantação <BR> Atualizações do Windows 10 Enterprise <BR> Atualizações de Aplicativos do Microsoft 365 Apps para empresas |
 ||||
 
 ## <a name="next-step"></a>Próxima etapa

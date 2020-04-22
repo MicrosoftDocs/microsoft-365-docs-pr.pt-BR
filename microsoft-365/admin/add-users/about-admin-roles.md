@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador do serviço abre tíquetes de suporte da Microsoft.
 ms.custom: okr_smb
-ms.openlocfilehash: ec601e5860460ab77760a5e18c834b987c6b3d07
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: 4e3cec5b2ff86b35d02f8963a584efdb272f2c5e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151390"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43618915"
 ---
 # <a name="about-admin-roles"></a>Sobre as funções de administrador
 
@@ -73,10 +73,10 @@ Provavelmente, você só precisará atribuir as funções a seguir em sua organi
 
 |Função do administrador     |Quem deve ser atribuído com esta função?  |
 |---------|---------|
-|Administrador do Exchange     |   Atribua a função de administrador do Exchange para os usuários que precisam exibir e gerenciar as caixas de correio de e-mail do usuário, os grupos do Office 365 e o Exchange Online. <br><br> Os administradores do Exchange também podem:<br> - Recuperar itens excluídos na caixa de correio de um usuário <br> - Configurar delegados "Enviar como" e "Enviar em nome" <br>  |
+|Administrador do Exchange     |   Atribua a função de administrador do Exchange a usuários que precisam exibir e gerenciar as caixas de correio de e-mail do usuário, grupos do Microsoft 365 e Exchange Online. <br><br> Os administradores do Exchange também podem:<br> - Recuperar itens excluídos na caixa de correio de um usuário <br> - Configurar delegados "Enviar como" e "Enviar em nome" <br>  |
 |Administrador global     |   Atribua a função de administrador global aos usuários que precisam de acesso global à maioria dos recursos e dados de gerenciamento nos serviços online da Microsoft. <br><br> Conceder a muitos usuários o acesso global é um risco à segurança e é recomendável que você tenha entre dois e quatro administradores globais. <br><br> Somente os administradores globais podem:<br> - Redefinir senhas para todos os usuários <br> - Adicionar e gerenciar domínios <br> <br> **Observação:** a pessoa que se inscreveu no Microsoft Online Services automaticamente se torna um administrador global. |
 |Leitor global    |   Atribua a função leitor global aos usuários que precisam exibir os recursos e as configurações do administrador no centro de administração que o administrador global pode exibir. O administrador leitor global não pode editar as configurações.   |
-|Administrador de grupos     |   Atribua a função de administrador grupos aos usuários que precisam gerenciar todas as configurações de grupos em todos os centros de administração, incluindo o centro de administração do Microsoft 365 e o portal do Azure Active Directory. <br><br> Os administradores de grupos podem:<br> - Criar, editar, excluir e restaurar grupos do Office 365 <br> - Criar e atualizar políticas de criação, expiração e nomeação de grupos <br> - Criar, editar, excluir e restaurar grupos de segurança do Azure Active Directory| 
+|Administrador de grupos     |   Atribua a função de administrador grupos aos usuários que precisam gerenciar todas as configurações de grupos em todos os centros de administração, incluindo o centro de administração do Microsoft 365 e o portal do Azure Active Directory. <br><br> Os administradores de grupos podem:<br> - Criar, editar, excluir e restaurar grupos do Microsoft 365 <br> - Criar e atualizar políticas de criação, expiração e nomeação de grupos <br> - Criar, editar, excluir e restaurar grupos de segurança do Azure Active Directory| 
 |Administrador de help desk     |   Atribua a função de administrador de help desk aos usuários que precisam fazer o seguinte:<br> - Redefinir senhas <br> - Forçar os usuários a sair <br> - Gerenciar solicitações de serviço <br> - Monitorar a integridade do serviço <br> <br> **Observação**: o administrador de help desk só pode ajudar usuários não administradores e usuários atribuídos a essas funções: leitor de diretório, emissor de convite, administrador de help desk, leitor de centro de mensagens e leitor de relatórios.      |
 |Administrador de aplicativos do Office    |   Atribua a função de administrador de aplicativos do Office aos usuários que precisam fazer o seguinte: <br> - Use o serviço de política de nuvem do Office para criar e gerenciar políticas baseadas em nuvem para o Office <br> - Criar e gerenciar solicitações de serviço <br> – Gerenciar o conteúdo Novidades que os usuários veem em seus aplicativos do Office   <br> - Monitorar a integridade do serviço  |
 |Administrador de serviço    |   Atribua a função de administrador de serviço como uma função adicional aos administradores ou usuários cuja função não incluem as tarefas abaixo, mas ainda precisam fazer o seguinte: <br> - Abrir e gerenciar solicitações de serviço <br> - Exibir e compartilhar postagens do centro de mensagens   |
@@ -127,9 +127,9 @@ Provavelmente, você só precisará atribuir as funções a seguir em sua organi
 |Operador de segurança     |    Investiga e responde a alertas de segurança, gerencia recursos no centro de proteção de identidade e monitora a integridade do serviço.     |
 |Leitor de segurança     |    Acesso somente leitura para recursos de segurança, relatórios de entrada e logs de auditoria.     |
 |Administrador de suporte do serviço     |    Cria solicitações de serviço para o Azure, o Microsoft 365 e os serviços do Office 365, e monitora a integridade do serviço.     |
-|Administrador do SharePoint     |    Acesso total ao SharePoint Online, gerencia grupos do Office 365, gerencia solicitações de serviço e monitora a integridade do serviço.     |
+|Administrador do SharePoint     |    Acesso total ao SharePoint Online, gerencia grupos do Microsoft 365, gerencia solicitações de serviço e monitora a integridade do serviço.     |
 |Administrador do Skype for Business     | Acesso total a todas as equipes e recursos do Skype, aos atributos de usuário do Skype, gerencia solicitações de serviço e monitora a integridade do serviço.      |
-|Administrador de equipes     |    Acesso total às equipes e ao centro de administração do Skype, gerencia solicitações de serviço e grupos do Office 365 e monitora a integridade do serviço.     |
+|Administrador de equipes     |    Acesso total ao centro de administração do Teams e do Skype, gerencia grupos e solicitações de serviço do Microsoft 365 e monitora a integridade do serviço.     |
 |Gerenciador de comunicações de equipes     |    Atribui números de telefone, cria e gerencia políticas de voz e reuniões e lê as estatísticas de chamadas.     |
 |Engenheiro de suporte de comunicações de equipes     |    Lê detalhes do registro de chamadas para todos os participantes da chamada para solucionar problemas de comunicação.     |
 |Especialista em suporte à comunicação de equipes     |    Lê os detalhes da chamada de usuário apenas para um usuário específico para solucionar problemas de comunicação.|
