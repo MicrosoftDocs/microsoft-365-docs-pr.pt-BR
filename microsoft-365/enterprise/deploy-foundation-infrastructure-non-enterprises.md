@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Percorra as fases simplificadas da infraestrutura de base do Microsoft 365 para empresas para organizações não empresariais.
-ms.openlocfilehash: 0d372578539ff05fcd2cadaa45c554921ee68f71
-ms.sourcegitcommit: 9afcc63b1a7e73f6946f67207337f10b71a5d7f3
+ms.openlocfilehash: cad142f2f26eb999431eb5bb531cb4520e4d6102
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42612641"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638255"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-for-non-enterprises"></a>Infraestrutura de base não empresarial do Microsoft 365 para empresas
 
@@ -29,16 +29,16 @@ Organizações não empresariais também podem implantar o Microsoft 365 para em
 - Uma pequena quantidade de infraestrutura de TI local, como servidores de email e de arquivos e um domínio dos Serviços de Domínio do Active Directory (AD DS), ou nada.
 - Uma pequena equipe de TI, composta em sua maioria por generalistas de TI, em vez de especialistas em uma tecnologia ou carga de trabalho específica, como rede ou email.
 
-Para organizações menores, não corporativas, a Microsoft oferece o [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business). No entanto, existem razões pelas quais você pode precisar do Microsoft 365 para empresas, como por exemplo:
+Para organizações menores, não corporativas, a Microsoft oferece o [Microsoft 365 for business](https://www.microsoft.com/microsoft-365/business). No entanto, existem razões pelas quais você pode precisar do Microsoft 365 para empresas, como por exemplo:
 
-- Sua organização precisa de mais ou precisará de mais de 300 licenças do Microsoft 365, que é o máximo para o Microsoft 365 Business.
-- Sua organização precisa dos recursos avançados de produtividade, voz, segurança e análise que não estão disponíveis no Microsoft 365 Business.
+- Sua organização precisa de mais ou precisará de mais de 300 licenças do Microsoft 365, que é o máximo para o Microsoft 365 for business.
+- Sua organização precisa dos recursos avançados de produtividade, voz, segurança e análise que não estão disponíveis no Microsoft 365 for business.
 
 Este artigo orienta você para a realização de uma implantação simplificada da infraestrutura de base do Microsoft 365 para empresas adequada para a sua organização não empresarial.
 
 ## <a name="first-set-up-your-subscription"></a>Primeiro, configure sua assinatura
 
-Você deve configurar os domínios do Sistema de Nomes de Domínio (DNS) para sua assinatura. Se você já tiver uma assinatura do Office 365, isso já deve ter sido feito. Caso contrário, siga as instruções em [Adicionar um domínio ao Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain?view=o365-worldwide).
+Você deve configurar os domínios do Sistema de Nomes de Domínio (DNS) para sua assinatura. Se você já possui uma assinatura do Microsoft 365, isso já deve ter sido feito. Caso contrário, siga as instruções em [Adicionar um domínio ao Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain?view=o365-worldwide).
 
 Em seguida, você precisará configurar segurança adicional para o Microsoft 365. Siga as instruções em [Configurar segurança aumentada](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
 
@@ -213,28 +213,28 @@ Os novos e destacados elementos do Windows 10 Enterprise incluem:
 | ![Centro de Serviços de Licenciamento por Volume](../media/deploy-foundation-infrastructure-non-enterprises/win10-cloud.png) | O Centro de Serviços de Licenciamento por Volume, que fornece imagens para novas instalações do Windows 10 Enterprise, e o serviço Windows Update for Business, que fornece as atualizações mais recentes. |
 |||
 
-## <a name="phase-4-office-365-proplus"></a>Fase 4: Office 365 ProPlus
+## <a name="phase-4-microsoft-365-apps-for-enterprise"></a>Fase 4 - Microsoft 365 Apps para empresas
 
-O Microsoft 365 para empresas inclui o Office 365 ProPlus, a versão de assinatura do Microsoft Office. Como o Office 2016 ou Office 2019, o Office 365 ProPlus é instalado diretamente em seus dispositivos clientes. No entanto, o Office 365 ProPlus recebe novos recursos regularmente. Confira [Sobre o Office 365 ProPlus na empresa](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise) para obter mais informações.
+O Microsoft 365 para empresas inclui o Microsoft 365 Apps, a versão de assinatura do Microsoft Office. Como o Office 2016 ou o Office 2019, o Microsoft 365 Apps é instalado diretamente nos seus dispositivos clientes. Entretanto, o Microsoft 365 Apps para empresas recebe atualizações que incluem novos recursos regularmente. Consulte [Sobre o Microsoft 365 Apps para empresas na empresa](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise) para obter mais informações.
 
-Para sua organização não corporativa, você instala manualmente o Office 365 ProPlus em dispositivos, que podem incluir dispositivos Windows, iOS e Android. Isso pode ser feito como parte da preparação de um novo dispositivo para uso ou pode ser feito pelo usuário como parte de seu processo de integração.
+Na sua organização não corporativa, instale manualmente o Microsoft 365 Apps para empresas nos dispositivos, o que pode incluir dispositivos Windows, iOS e Android. Isso pode ser feito como parte da preparação de um novo dispositivo para uso ou pode ser feito pelo usuário como parte de seu processo de integração.
 
 Em ambos os casos, o administrador ou o usuário entra no portal do Office 365 em https://portal.office.com. Na guia **Página inicial do Microsoft Office**, clique em **Instalar o Office** e percorra o processo de instalação.
 
-Atualizações de recursos para o Office 365 ProPlus são baixadas mensalmente por cada computador em que ele está instalado. Em uma organização não empresarial, normalmente não há necessidade de configurar uma infraestrutura para distribuir atualizações do Office 365 ProPlus. 
+As atualizações dos recursos do Microsoft 365 Apps para empresas são baixadas mensalmente por cada computador em que ele está instalado. Normalmente, não é necessário que uma organização não corporativa configure uma infraestrutura para distribuir o Microsoft 365 Apps para atualizações corporativas. 
 
 ### <a name="your-configuration-so-far"></a>Sua configuração até agora
 
-Aqui está um resumo visual da fase do Office 365 ProPlus com os novos elementos destacados.
+Aqui está um resumo visual da fase do Microsoft 365 Apps para empresas com os novos elementos destacados.
 
-![Sua organização após a fase do Office 365 ProPlus](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-config.png)
+![Sua organização depois da fase do Microsoft 365 Apps para empresas](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-config.png)
  
-Os novos e destacados elementos do Office 365 ProPlus incluem:
+Aqui está um resumo visual da fase do Microsoft 365 Apps para empresas, com os novos elementos destacados:
  
 |||
 |:------:|:-----|
-| ![Office 365 ProPlus instalado em dispositivos](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-device.png) | Office 365 ProPlus instalado em dispositivos, com um laptop local como exemplo. |
-| ![A Rede de Distribuição de Conteúdo (CDN) do Office para o Office 365 ProPlus](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-cdn.png) | A Rede de Distribuição de Conteúdo (CDN) do Office para o Office 365 ProPlus, a qual os dispositivos acessam para atualizações do Office 365 ProPlus. |
+| ![Microsoft 365 Apps para empresas instalado em dispositivos](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-device.png) | Microsoft 365 Apps para empresas instalado em dispositivos, com um notebook local como exemplo. |
+| ![A Rede de Entrega de Conteúdo do Office (CDN) para aplicativos do Microsoft 365 para empresas](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-cdn.png) | A Rede de Entrega de Conteúdo do Office (CDN) do Microsoft 365 Apps para empresas, cujos dispositivos acessam as atualizações do Microsoft 365 Apps para empresas. |
 |||
 
 ## <a name="phase-5-mobile-device-management"></a>Fase 5: Gerenciamento de dispositivos móveis
@@ -312,14 +312,14 @@ Com base nesses níveis de segurança de dados, o próximo passo é identificar 
 
 Confira os [tipos de classificação do Microsoft 365](infoprotect-configure-classification.md#microsoft-365-classification-types) para obter mais informações.
 
-Se você usar rótulos de confidencialidade com permissões, poderá ser necessário criar grupos de segurança adicionais do Office 365 para definir quem tem permissão para trabalhar com email e documentos com o rótulo de sensibilidade aplicado. 
+Se você usar rótulos de sensibilidade com permissões, talvez você precise criar grupos de segurança adicionais para definir quem tem permissão para fazer o quê com e-mails e documentos com o rótulo de sensibilidade aplicado. 
 
 Por exemplo, você precisa criar um rótulo de confidencialidade PESQUISA para proteger os emails e documentos da sua equipe de pesquisa. Você determina que:
 
 - Os pesquisadores devem ter a capacidade de alterar documentos marcados com o rótulo de sensibilidade da pesquisa.
 - Os funcionários que não são de pesquisa só precisam ter a capacidade de exibir documentos marcados com o rótulo de sensibilidade da PESQUISA. 
 
-Isso significa que você precisa criar e gerenciar dois grupos adicionais do Office 365:
+Isso significa que você precisa criar e gerenciar dois grupos adicionais do Microsoft 365:
 
 - PESQUISA-TODOS
 - PESQUISA-VISUALIZAR
@@ -388,7 +388,7 @@ Na primeira vez que os funcionários entram no Microsoft 365, instrua-os a:
 
 1. Fazerem logon em seus dispositivos com suas credenciais de conta de usuário.
 2. Usando um navegador, entre no portal do Office 365, em https://portal.office.com.
-3. Na guia **Página Inicial do Office 365**, clique em **Instalar o Office** para instalar o Office 365 ProPlus em seus dispositivos.
+3. Na guia **Página inicial do Office 365**, clique em **Instalar o Office** para instalar o Microsoft 365 Apps nos seus dispositivos.
 
 ## <a name="end-results"></a>Resultados finais
 
@@ -405,7 +405,7 @@ Após o desenvolvimento e a configuração da infraestrutura do Microsoft 365 pa
   - ACESSO-COND-EXCLUIR
   - Os grupos de segurança apropriados do AD DS ou do Azure AD que também são membros dos grupos LINHA DE BASE, CONFIDENCIAL e ALTAMENTE REGULADO do Azure AD 
   - Grupo de trabalho, departamental, e grupos regionais
-  - Grupos de rótulos de confidencialidade do Office 365 (conforme necessário)
+  - Rótulo de sensibilidade dos grupos do Microsoft 365 (conforme necessário)
 - Políticas de Acesso Condicional de logon do Azure AD que usam os grupos LINHA DE BASE, CONFIDENCIAL, ALTAMENTE REGULADO, COND-ACCESS-EXCLUDE do Azure AD.
 - Políticas de conformidade de aplicativos e dispositivos do Intune.
 - Tipos de informações confidenciais personalizadas (conforme necessário).
@@ -429,11 +429,11 @@ Após a integração, cada funcionário deve ter:
    - LICENCIADO
    - Os grupos de segurança apropriados do AD DS ou do Azure AD, que também são membros dos grupos LINHA DE BASE, CONFIDENCIAL e ALTAMENTE REGULADO do Azure AD para políticas de Acesso Condicional 
    - Grupo de trabalho e grupos departamentais e regionais apropriados
-   - Grupos de rótulos de confidencialidade do Office 365 (conforme necessário)
+   - Rótulo de sensibilidade dos grupos do Microsoft 365 (conforme necessário)
 - Um dispositivo do Windows 10 Enterprise que:
    - É associado ao locatário do Azure AD (somente nuvem) ou ao locatário do Azure AD e ao seu domínio do AD DS (híbrido).
    - Atualiza automaticamente com as melhorias e aprimoramentos de segurança mais recentes do produto Windows 10 Enterprise.
-   - Tem o Office 365 ProPlus instalado, o qual atualiza automaticamente com os aprimoramentos de segurança e aprimoramentos de produtos do Office mais recentes.
+   - O Microsoft 365 Apps para empresas está instalado, o qual se atualiza automaticamente com os aprimoramentos mais recentes do produto Office e aprimoramentos de segurança.
    - Está inscrito no Intune e sujeito às políticas de conformidade de dispositivos e políticas de proteção de aplicativos do Intune.
 
 ## <a name="next-step"></a>Próxima etapa

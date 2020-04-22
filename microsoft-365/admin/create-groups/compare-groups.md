@@ -1,5 +1,5 @@
 ---
-title: Comparar grupos no Office 365
+title: Comparar grupos
 ms.reviewer: arvaradh
 f1.keywords: CSH
 ms.author: mikeplum
@@ -18,33 +18,33 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
-description: Saiba mais sobre os tipos de grupos que podem ser usados no Office 365.
-ms.openlocfilehash: 7d0a18606918884381b0bf7863cfac6cafb29c29
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: Saiba mais sobre os tipos de grupos que você pode usar.
+ms.openlocfilehash: 6f44214441c67e14d2cbc7ac12c0e2f3036acb2b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894594"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630708"
 ---
 # <a name="compare-groups"></a>Comparar grupos
 
 Na seção **Grupos** do centro de administração do Office 365, você pode criar e gerenciar estes quatro tipos de grupos: 
 
-- Os **grupos do Office 365** são usados para colaboração entre usuários, dentro e fora da empresa.
+- Os**grupos do Microsoft 365** são usados para colaboração entre usuários, tanto dentro quanto fora da sua empresa.
 - Os **grupos de distribuição** são usados para enviar notificações a um grupo de pessoas.
 - Os **Grupos de segurança** são usados para conceder acesso aos recursos, como o SharePoint.
 - Os **Grupos de segurança habilitados** para e-mails são usados para conceder acesso a recursos como o SharePoint e enviar notificações por e-mail a esses usuários.
 - As **caixas de correio compartilhadas** são usadas quando várias pessoas precisam acessar a mesma caixa de correio, como uma informação da empresa ou um endereço de email de suporte.
 
-## <a name="office-365-groups"></a>Grupos do Office 365
+## <a name="microsoft-365-groups"></a>Grupos do Microsoft 365
 
-Os grupos do Office 365 são usados para colaboração entre usuários, dentro e fora da empresa. Com cada grupo do Office 365, os membros recebem um Planner, um email de grupo e um espaço de trabalho compartilhado para conversas, arquivos e eventos de calendário.
+Os grupos do Microsoft 365 são usados para colaboração entre usuários, dentro e fora da empresa. Em cada grupo do Microsoft 365, os seus membros recebem um endereço de email de grupo e um espaço de trabalho compartilhado para conversas, arquivos e eventos do calendário, além de um Planejador.
 
 Você pode adicionar pessoas de fora da sua organização a um grupo, desde que isso tenha sido [ativado pelo administrador](manage-guest-access-in-groups.md). Permita também que remetentes externos enviem email para o endereço de email do grupo.
 
-Os grupos do Office 365 podem ser [configurados para associação dinâmica no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type), permitindo que os membros do grupo sejam adicionados ou removidos automaticamente com base em atributos de usuário, como departamento, local, título, etc.
+Os grupos do Microsoft 365 podem ser [configurados para associação dinâmica no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type), permitindo que os membros do grupo sejam adicionados ou removidos automaticamente com base em atributos de usuário, como departamento, local, título, etc.
 
-Os grupos do Office 365 podem ser acessados através de aplicativos móveis, como o Outlook para iOS e o Outlook para Android.
+Os grupos do Microsoft 365 podem ser acessados através de aplicativos móveis, como o Outlook para iOS e o Outlook para Android.
 
 Os membros do grupo podem enviar como ou enviar em nome do endereço de email do grupo, caso tenha sido [habilitado pelo administrador](allow-members-to-send-as-or-send-on-behalf-of-group.md).
 
@@ -56,7 +56,7 @@ Os grupos de distribuição são ideais para situações em que você precisa tr
 
 ## <a name="security-groups"></a>Grupos de segurança
 
-Os [grupos de segurança](../email/create-edit-or-delete-a-security-group.md) são usados para conceder acesso aos recursos do Office 365, como o SharePoint. Você precisará administrar apenas o grupo em vez de adicionar usuários a cada recurso individualmente, facilitando a administração.
+Os [grupos de segurança](../email/create-edit-or-delete-a-security-group.md) são usados para conceder acesso aos recursos do Microsoft 365, como o SharePoint. Você precisará administrar apenas o grupo em vez de adicionar usuários a cada recurso individualmente, facilitando a administração.
 
 Os grupos de segurança podem conter usuários ou dispositivos. A criação de um grupo de segurança para dispositivos que pode ser usado com serviços de gerenciamento de dispositivos móveis, como o Intune.
 
@@ -76,8 +76,8 @@ As caixas de correio compartilhadas podem receber emails externos se o administr
 
 Os usuários com permissões para a caixa de correio do grupo podem enviar como ou enviar em nome do endereço de email da caixa de correio, se o administrador tiver dado permissões para isso. Isso é particularmente útil para caixas de correio de ajuda e suporte, pois os usuários podem enviar emails de "Suporte da Contoso" ou "Criar uma Mesa de Recepção".
 
-Atualmente, não é possível migrar uma caixa de correio compartilhada para um grupo do Office 365. Era disso que você estava precisando? Fale conosco. **[Vote aqui](https://go.microsoft.com/fwlink/?linkid=871518)**.
+Atualmente, não é possível migrar uma caixa de correio compartilhada para um grupo do Microsoft 365. Era disso que você estava precisando? Fale conosco. **[Vote aqui](https://go.microsoft.com/fwlink/?linkid=871518)**.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Saiba mais sobre grupos do Office 365](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[Saiba mais sobre os grupos do Microsoft 365](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2)

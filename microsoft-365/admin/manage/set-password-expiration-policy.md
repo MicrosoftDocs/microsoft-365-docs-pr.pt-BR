@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Saiba como definir uma política de expiração de senha para sua organização no centro de administração do Microsoft 365. '
-ms.openlocfilehash: 88953317bea2b96c04c291dd028a4e9131b9a83e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: bcea72dadb6f10ac4ef80677f3def57eca2724cd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361656"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628047"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
@@ -40,12 +40,12 @@ Como administrador, você pode fazer as senhas de usuário expirarem após um de
 
 Siga as etapas abaixo se desejar definir as senhas dos usuários para expirarem após um período de tempo específico.
 > [!IMPORTANT]
-> Apenas os [administradores globais do Office 365](../add-users/about-admin-roles.md) pode executar essas etapas.
+> Apenas os [administradores globais ](../add-users/about-admin-roles.md) podem executar essas etapas.
   
 1. No centro de administração do, vá para **Configurações** \> **Configurações**.
 
 2. Vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Segurança e privacidade</a>.
- Se você não for um administrador global do Office 365, não verá a opção de Segurança e privacidade.
+ Se você não for um administrador global, não verá a opção Segurança e privacidade.
   
 3. Selecione **Política de expiração de senha**.
   
@@ -61,7 +61,7 @@ Siga as etapas abaixo se desejar definir as senhas dos usuários para expirarem 
 
 Vejamos alguns pontos que você precisa saber sobre como esse recurso funcionará a partir de janeiro de 2018:
   
-- As pessoas que só usam o aplicativo do Outlook não terão de redefinir a senha do Office 365 até que ela expire no cache. Isso pode ser vários dias após a data de validade real. Não há soluções alternativas para isso ao nível de administrador.
+- As pessoas que só usam o aplicativo do Outlook não terão de redefinir a senha do Microsoft 365 até que ela expire no cache. Isso pode levar vários dias após a data de validade real. Não há soluções alternativas para isso ao nível de administrador.
     
 - Os usuários não receberão uma notificação por email informando que a senha expirará em um número X de dias. Quer esse recurso? **[Vote aqui!](https://office365.uservoice.com/forums/273493-office-365-admin/suggestions/15028344-office-365-password-email-notification)**
     
@@ -69,10 +69,10 @@ Vejamos alguns pontos que você precisa saber sobre como esse recurso funcionar�
 
 Se quiser impedir que os usuários promovam a reciclagem de senhas antigas, use o Azure AD. Consulte [Definir a política de expiração da senha da sua organização](https://docs.microsoft.com/office365/admin/manage/set-password-expiration-policy?view=o365-worldwide).
 
-Além disso, se um funcionário tiver usado um dispositivo móvel para acessar o Office 365, você poderá apagá-lo a fim de garantir que a senha não seja armazenada e reciclada desse local. Para saber mais, confira [Apagar e bloquear o dispositivo móvel de um funcionário antigo](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee?view=o365-worldwide#wipe-and-block-a-former-employees-mobile-device).
+Além disso, se um funcionário tiver usado um dispositivo móvel para acessar o Microsoft 365, você poderá apagá-lo a fim de garantir que a senha não seja armazenada e reciclada desse local. Para saber mais, confira [Apagar e bloquear o dispositivo móvel de um funcionário antigo](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee?view=o365-worldwide#wipe-and-block-a-former-employees-mobile-device).
 
 
-## <a name="synchronize-user-passwords-hashes-from-an-on-premises-active-directory-to-azure-ad-office-365"></a>Sincronizar hashes de senhas do usuário de um Active Directory local para o Azure AD (Office 365)
+## <a name="synchronize-user-passwords-hashes-from-an-on-premises-active-directory-to-azure-ad-microsoft-365"></a>Sincronizar os hashes de senhas do usuário de um Active Directory local para o Azure AD (Microsoft 365)
 
 Este artigo é para configurar a política de expiração para usuários somente na nuvem (Azure AD). Isso não se aplica a usuários de identidade híbrida que usam sincronização hash de senha, autenticação de passagem ou federação local como o ADFS.
   
