@@ -1,5 +1,5 @@
 ---
-title: Principais perguntas sobre cobrança para o Office 365 for Business
+title: Principais perguntas sobre cobrança para o Microsoft 365 for Business
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -24,15 +24,15 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 5480fc33-dd47-41e7-bcfb-b2533efdb92a
-description: Encontre respostas para suas principais perguntas de cobrança para sua assinatura de negócios.
-ms.openlocfilehash: 661339518f43531f656ee9960d7f005fd1398023
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+description: 'Encontre respostas para suas principais perguntas de cobrança para a assinatura do Microsoft 365 for Business. '
+ms.openlocfilehash: 3a75f9a754bf4f983ac0aca02b380e55d80be4b9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826296"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634987"
 ---
-# <a name="top-billing-questions-for-business-subscriptions"></a>Principais perguntas de cobrança para assinaturas de negócios
+# <a name="top-billing-questions-for-microsoft-365-for-business"></a>Principais perguntas sobre cobrança para o Microsoft 365 for Business
 
 Você tem dúvidas sobre o demonstrativo de facturação? Aqui estão as respostas para as principais perguntas de cobrança.
   

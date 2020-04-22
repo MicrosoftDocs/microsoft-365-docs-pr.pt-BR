@@ -1,5 +1,5 @@
 ---
-title: Detectar e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados no Office 365
+title: Detectar e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -16,14 +16,14 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados no Office 365
-ms.openlocfilehash: c15eeb057d14cbb252bda0767a15e7c4788ece9f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 71f796f589157a8eb801af3da78d67d16534447b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599438"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637587"
 ---
-# <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks-in-office-365"></a>Detectar e corrigir ataques de injeção a regras e formulários personalizados do Outlook no Office 365
+# <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Detectar e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados
 
 **Resumo** Saiba como reconhecer e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados no Office 365.
 
@@ -164,7 +164,7 @@ Se você encontrar evidências de qualquer um desses ataques, a correção será
 
 4. Instale as versões mais recentes do Outlook. Lembre-se de que a versão atual do Outlook bloqueia os dois tipos desse ataque por padrão.
 
-5. Após a remoção de todas as cópias offline da caixa de correio, redefina a senha do usuário (use uma de alta qualidade) e siga as etapas em [Configurar a autenticação multifator para usuários do Office 365](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) , se a MFA ainda não tiver sido habilitada. Isso garante que as credenciais do usuário não sejam expostas por outros meios (como phishing ou reutilização de senha).
+5. Após a remoção de todas as cópias offline da caixa de correio, redefina a senha do usuário (use uma de alta qualidade) e siga as etapas em [Configurar a autenticação multifator para os usuários](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) , se a MFA ainda não tiver sido habilitada. Isso garante que as credenciais do usuário não sejam expostas por outros meios (como phishing ou reutilização de senha).
 
 ### <a name="using-powershell"></a>Usando o PowerShell
 
@@ -192,7 +192,7 @@ Há dois cmdlets do PowerShell remoto que você pode usar para remover ou desabi
 
 As regras e os exploits de formulários são usados apenas por um invasor depois que eles roubam ou violaram uma das contas do usuário. Portanto, a primeira etapa para impedir o uso dessas explorações em relação à sua organização é proteger agressivamente suas contas de usuário. Algumas das maneiras mais comuns pelas quais as contas são violadas são por meio de ataques de fraude de [senha](https://www.dabcc.com/microsoft-defending-against-password-spray-attacks/) ou phishing.
 
-A melhor maneira de proteger suas contas de usuário e, especialmente suas contas de administrador, é [Configurar a autenticação multifator para usuários do Office 365](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication). Você também deve:
+A melhor maneira de proteger suas contas de usuário e, especialmente as contas de administrador, é [Configurar a autenticação multifator para os usuários](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication). Você também deve:
 
 - Monitorar como suas contas de usuário são [acessadas e usadas](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports). Não é possível impedir a violação inicial, mas você diminuirá a duração e o impacto da violação detectando-a antes. Você pode usar essas [políticas de segurança do aplicativo nuvem do Office 365](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) para monitorar suas contas e alertar sobre atividades incomuns:
 
@@ -234,9 +234,9 @@ Procure a chave EnableUnsafeClientMailRules. Se ele estiver lá e estiver defini
 
 Os clientes com instalações do Exchange no local devem considerar o bloqueio de versões mais antigas do Outlook que não possuem patches disponíveis. Os detalhes sobre esse processo podem ser encontrados no artigo [Configurar o bloqueio de cliente do Outlook](https://docs.microsoft.com/exchange/configure-outlook-client-blocking-exchange-2013-help).
 
-## <a name="secure-office-365-like-a-cybersecurity-pro"></a>Proteja o Office 365 como um profissional de cibersegurança
+## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Proteger o Microsoft 365 como um cybersecurity pro
 
-Sua assinatura do Office 365 vem com um poderoso conjunto de recursos de segurança que você pode usar para proteger seus dados e seus usuários. Use o [roteiro de segurança do Office 365: Principais prioridades para os primeiros 30 dias, 90 dias e além](security-roadmap.md), para implementar práticas recomendadas pela Microsoft para proteger o seu locatário do Office 365.
+Sua assinatura do Microsoft 365 vem com um conjunto poderoso de recursos de segurança que você pode usar para proteger seus dados e seus usuários. Use o [mapa de segurança da Microsoft 365-principais prioridades para os primeiros 30 dias, 90 dias e além](security-roadmap.md) de implementar as práticas recomendadas da Microsoft para proteger seu locatário do Microsoft 365.
 
 - Tarefas a realizar nos primeiros 30 dias. Estas têm efeito imediato e baixo impacto para seus usuários.
 

@@ -5,12 +5,12 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: b851f3f698abd34d4964c79a68be050ad9f0a4db
-ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
+ms.openlocfilehash: 354845e3bfebee5e6c67b53ba5ef6f55a9c419f8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43198356"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637871"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Dispositivos de área de trabalho gerenciada da Microsoft 
 
@@ -75,7 +75,6 @@ Esses recursos podem ajudar a responder perguntas que você possa ter sobre disp
 - Para saber mais sobre os dispositivos Dell, <a href="mailto:MMD_at_dell@dell.com">MMD_at_dell@dell.com</a>de contato.
 
 - Para saber mais sobre dispositivos HP e instruções de solicitação de dispositivo, contate: Américas (<a href="mailto:mmd-americas@hp.com">MMD-Americas@hp.com</a>); Europa/Oriente Médio/África (<a href="mailto:mmd-emea@hp.com">MMD-EMEA@hp.com</a>); Ásia (Pacífico)/Japão (<a href="mailto:mmd-apj@hp.com">MMD-APJ@hp.com</a>); Global (<a href="mailto:mmd@hp.com">MMD@hp.com</a>)
-
 
 
 

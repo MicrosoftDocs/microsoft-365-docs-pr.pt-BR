@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1cd620206f559e6870c6706fc0e40f4b7e45bc84
-ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
+ms.openlocfilehash: 6e543219bd6a7667febadcdc8f3cff6ab705b8d3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43225892"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632008"
 ---
 # <a name="microsoft-managed-desktop-operations-and-monitoring"></a>Monitoramento e operações de área de trabalho gerenciada da Microsoft
 

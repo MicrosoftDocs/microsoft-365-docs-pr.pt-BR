@@ -1,5 +1,5 @@
 ---
-title: Entrega dinâmica e visualização com anexos seguros de ATP do Office 365
+title: Entrega dinâmica e visualização com anexos seguros de ATP
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,16 +17,16 @@ ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 ms.collection:
 - M365-security-compliance
 description: Ao configurar as políticas de anexos seguros de ATP, você escolhe a entrega dinâmica para evitar atrasos de mensagens e permite que as pessoas visualizem os anexos que estão sendo examinados.
-ms.openlocfilehash: 755a5a317710946a3a03004482a6b48c8947c1a7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c8e0a60912244a636fbbe6ca62f7c1b9c260e0f6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599418"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637563"
 ---
-# <a name="dynamic-delivery-and-previewing-with-office-365-atp-safe-attachments"></a>Entrega dinâmica e visualização com anexos seguros de ATP do Office 365
+# <a name="dynamic-delivery-and-previewing-with-atp-safe-attachments"></a>Entrega dinâmica e visualização com anexos seguros de ATP
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 A entrega dinâmica é uma opção que pode ser selecionada para [anexos seguros de ATP](atp-safe-attachments.md). Leia este artigo para saber mais sobre a entrega dinâmica e recursos de visualização de anexos nos [anexos seguros de ATP no Office 365](atp-safe-attachments.md).
 
@@ -38,16 +38,16 @@ A entrega dinâmica elimina os atrasos de email enviando o corpo de uma mensagem
 
 - Como cada anexo é limpo, ele está disponível para ser aberto ou baixado.
 
-- Se um anexo for considerado mal-intencionado, ele será enviado para a quarentena, onde alguém da equipe de segurança da sua organização (como um administrador global do Office 365 ou administrador de segurança) pode [gerenciar mensagens em quarentena no Office 365](manage-quarantined-messages-and-files.md).
+- Se um anexo for considerado mal-intencionado, ele será enviado para a quarentena, onde alguém da equipe de segurança da sua organização (como um administrador global ou administrador de segurança) pode [gerenciar mensagens em quarentena no Office 365](manage-quarantined-messages-and-files.md).
 
 A maioria dos documentos PDFs e do Office pode ser visualizada no modo de segurança enquanto a verificação ATP está em andamento. Se um anexo não for compatível com o modo de exibição de entrega dinâmica, os destinatários de email verão um espaço reservado de anexo até que a verificação de anexos seguros de ATP esteja concluída.
 
 > [!TIP]
-> Se você estiver usando um dispositivo móvel e os PDFs não estiverem sendo renderizados no primeiro Visualizador de entrega dinâmica, tente entrar no Office 365 usando seu navegador móvel.
+> Se você estiver usando um dispositivo móvel e os PDFs não são renderizados no modo de exibição de entrega dinâmica primeiro, tente entrar usando seu navegador móvel.
 
 Com a entrega dinâmica, as pessoas podem ler e responder às mensagens de email imediatamente, enquanto seus anexos estão sendo analisados.
 
-A verificação de anexos seguros de ATP ocorre na mesma região onde seus dados do Office 365 residem. Para obter mais informações sobre a geografia do Data Center, confira [onde estão seus dados?](https://products.office.com/where-is-your-data-located?geo=All)
+A verificação de anexos seguros de ATP ocorre na mesma região onde seus dados do Microsoft 365 residem. Para obter mais informações sobre a geografia do Data Center, confira [onde estão seus dados?](https://products.office.com/where-is-your-data-located?geo=All)
 
 ## <a name="what-happens-when-someone-forwards-an-email-that-contains-an-attachment"></a>O que acontece quando alguém encaminha um email que contém um anexo?
 

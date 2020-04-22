@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Inscrição passo a passo para o Microsoft 365 para campanhas. Proteger sua campanha contra ameaças cybersecurity a email, dados e comunicação.
-ms.openlocfilehash: 604e0be01c3824ed63361bb7fc9e694787ae83ef
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 34d5b3103666b9cead1c2dfc09400a9eca5e3e40
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633729"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632774"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>Inscreva-se no Microsoft 365 para campanhas 
 
@@ -46,7 +46,7 @@ Confira aqui como concluir a inscrição para o Microsoft 365 para campanhas.
 
 1. Em seu convite para o Microsoft 365 para emails de campanhas, selecione **inscrever sua organização >**. Isso leva você para a assinatura do Microsoft 365.
     > [!NOTE]
-    > Se você já tem uma assinatura existente do Office 365 for Business e deseja adicionar o Microsoft 365 para a oferta de campanhas, vá para [Adicionar o microsoft 365 para campanhas a uma assinatura existente](#steps-to-add-microsoft-365-for-campaigns-to-an-existing-subscription).
+    > Se você já tem uma assinatura existente do Microsoft 365 for Business e deseja adicionar o Microsoft 365 para a oferta de campanhas, vá para [Adicionar o microsoft 365 para campanhas a uma assinatura existente](#steps-to-add-microsoft-365-for-campaigns-to-an-existing-subscription).
 1. **Na página de negócios do Microsoft 365**, insira seus detalhes comerciais. Em **endereço de email comercial**, use um endereço de email atual. Só precisamos desse endereço para manter contato com você durante o processo de instalação. Selecione **Avançar**.
 1. **Na página criar sua ID de usuário**:
     1. Em **nome de usuário**, digite o nome ou alias desejado para seu endereço de email. Por exemplo, você pode querer ser conhecido como apenas Alice ou roubar. Em uma campanha maior, o AliceC ou o AliceChavez podem fazer mais sentido.
@@ -72,9 +72,9 @@ Suas etapas de inscrição estão completas! Se você quiser continuar com as pr
 
 ## <a name="steps-to-add-microsoft-365-for-campaigns-to-an-existing-subscription"></a>Etapas para adicionar o Microsoft 365 para campanhas a uma assinatura existente
 
-Se você já tem uma assinatura existente do Office 365 for Business, por exemplo, Office 365 Business Premium, você pode usar o Microsoft 365 para campanhas de campanha para adicionar licenças a ela.
+Se você já tiver uma assinatura do Microsoft 365 for Business, por exemplo, o Microsoft 365 Business Standard, poderá usar o Microsoft 365 para a oferta de campanhas para adicionar licenças a ela.
 > [!IMPORTANT]
-> Você não pode adicionar o Microsoft 365 for Campaigns offer a um locatário do Microsoft 365 Business existente.
+> Não é possível adicionar o Microsoft 365 para a oferta de campanhas a uma conta de Microsoft 365 existente.
 
 1. Em seu convite para o Microsoft 365 para emails de campanhas, selecione **inscrever sua organização >**. Isso leva você para a assinatura do Microsoft 365.
 2. Na **tela de boas-vindas, vamos conhecer a** página, clique ou toque em **deseja adicioná-lo a uma assinatura existente? Entre**.

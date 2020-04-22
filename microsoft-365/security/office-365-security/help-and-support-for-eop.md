@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: A Microsoft fornece ajudar para a EOP através de uma variedade de lugares e métodos incluindo auto-suporte e suporte assistido.
-ms.openlocfilehash: 3aef0cfa6209809f7a65e4179809d58d6f55aeb2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6fde3c6cf62f865a17f081c1892d6a5197b037f9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599238"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638041"
 ---
 # <a name="help-and-support-for-eop"></a>Ajuda e suporte para EOP
 
@@ -25,13 +25,13 @@ Os recursos de suporte técnico listados aqui ajudarão você a encontrar respos
 
 ## <a name="self-support-options"></a>Opções de auto-suporte
 
-Depois que você entra, o portal do Office 365 fornece informações sobre o status dos serviços da sua organização. Além disso, a seção de integridade do serviço do Office 365 mostra o status atual dos serviços, detalhes sobre as falhas e interrupções e lista as manutenções planejadas. O portal do Office 365 também fornece informações sobre problemas conhecidos e soluções esperadas. Se você for afetado por um evento de todo o serviço, deverá ver um alerta de comunicação (normalmente acompanhado por um ícone de sino). Recomendamos que leia e realize as ações apropriadas em todos os itens. Para obter mais informações sobre a área de integridade do serviço do Office 365, consulte [integridade e continuidade de serviço](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity). Você também pode encontrar mais ajuda sozinho usando as ferramentas, fóruns e sites da comunidade listados aqui.
+Ao fazer logon, o centro de administração do Microsoft 365 fornece informações sobre o status dos serviços da sua organização. Além disso, a seção integridade do serviço mostra o status atual dos seus serviços, os detalhes sobre as interrupções e as interrupções e lista os tempos de manutenção planejados. O centro de administração do Microsoft 365 também fornece informações sobre problemas conhecidos e resoluções esperadas. Se você for afetado por um evento de todo o serviço, deverá ver um alerta de comunicação (normalmente acompanhado por um ícone de sino). Recomendamos que leia e realize as ações apropriadas em todos os itens. Para obter mais informações sobre a área de integridade do serviço, consulte [integridade e continuidade de serviço](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity). Você também pode encontrar mais ajuda sozinho usando as ferramentas, fóruns e sites da comunidade listados aqui.
 
 [Visão geral do produto para a Proteção do Exchange Online](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
 [Contatar o suporte para produtos empresariais – Ajuda para Administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)
 
-[Comunidade do Office 365](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
+[Comunidade Microsoft 365](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
 
 [Assistente de recuperação e suporte da Microsoft (SaRA)](https://support.office.com/article/e90bb691-c2a7-4697-a94f-88836856c72f)
 
@@ -63,11 +63,11 @@ Para obter mais informações sobre como o suporte Premier pode ajudar sua organ
 
    Para perguntas antes de comprar a sua EOP ou perguntas sobre cobrança e assinaturas, vá em **Suporte** \> **Solicitar Suporte ao Cliente** \> **Ligar para o suporte de cobrança e assinatura**.
 
-3. Use O Agente Virtual para o Microsoft Office 365 para pesquisar o número de telefone mais adequado.
+3. Use o agente virtual para pesquisar o número de telefone apropriado mais atual.
 
 ## <a name="support-telephone-numbers"></a>Números de telefone para suporte
 
-A Microsoft fornece números de telefone locais ou chamadas gratuitas para suporte de produtos em todo o mundo. Muitos destes centros de suporte ajudam no seu idioma local durante o horário comercial ou em inglês 24 horas por dia, todos os dias. Se você não achar a sua localidade listada abaixo, use o Agente Virtual do Microsoft Office 365 conforme descrito acima para encontrar o número de telefone para suporte local.
+A Microsoft fornece números de telefone locais ou chamadas gratuitas para suporte de produtos em todo o mundo. Muitos destes centros de suporte ajudam no seu idioma local durante o horário comercial ou em inglês 24 horas por dia, todos os dias. Se você não vir seu local listado abaixo, use o agente virtual, conforme descrito acima, para encontrar seu número de telefone de suporte local.
 
 |**País ou região**|**Perguntas sobre cobrança e pré-aquisição**|**Perguntas para Suporte Técnico**|
 |:-----|:-----|:-----|
@@ -75,7 +75,7 @@ A Microsoft fornece números de telefone locais ou chamadas gratuitas para supor
 |França|Chamada gratuita: 0805 540 594 <br/> Local: 01 57 32 42 97|Idem|
 |Alemanha|Chamada gratuita: 0800 589 2332 <br/>  Local: 069 380 789 508|Idem|
 |Japão|Chamada gratuita: 0120-628860 <br/> Local: 343326257|Chamada gratuita: 0120-996680 <br/> Local: 357679793|
-|República da Coreia|Chamada gratuita: 080-495-0880 <br/> Local: 234831937|Idem|
+|Coreia|Chamada gratuita: 080-495-0880 <br/> Local: 234831937|Idem|
 |Espanha|Chamada gratuita: 900 814 197 <br/> Local: 912 718 160|Idem|
 |Reino Unido|Chamada gratuita: 0800 032 6417 <br/> Local: 0203 450 6455|Idem|
 |Estados Unidos|Chamada gratuita: 1-877-913-2707|Chamada gratuita: 1-800-865-9408|

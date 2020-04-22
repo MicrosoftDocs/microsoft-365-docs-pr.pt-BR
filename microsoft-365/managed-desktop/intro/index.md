@@ -5,14 +5,14 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: e8729e8533fd2f01e893d805199027ae166586f1
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: 86bec329c5e0793be070df311d6058282e7be854
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516804"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636215"
 ---
-# <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de trabalho gerenciada da Microsoft?
+# <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de Trabalho Gerenciada da Microsoft?
 
 
 O Microsoft Managed desktop é um serviço baseado em nuvem que reúne [o microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview) (incluindo o [Windows 10](https://docs.microsoft.com/windows/windows-10/) enterprise e o [Office 365 Enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)) e adicionando estes recursos:
@@ -28,7 +28,7 @@ A área de trabalho gerenciada da Microsoft oferece uma solução para vários d
 - Muitos processos atuais de gerenciamento e segurança de ti estão desatualizados, com intensa duração e custo.
 - As empresas querem se concentrar em o que as torna com êxito, em vez de manter a infraestrutura digital.
 
-Seus usuários finais aproveitarão as versões mais recentes do Windows 10 e do Office 365 ProPlus aplicativos (e mais além disso) usando dispositivos e software que são organizados e rigorosamente testados para melhorar o desempenho e a confiabilidade. Além disso, você nunca precisará se preocupar em manter qualquer um dos softwares atualizados, pois isso acontece automaticamente, seguindo uma sequência de distribuição cuidadosa que é monitorada a cada etapa do caminho. E os dispositivos registrados são monitorados 24x7 em busca de problemas técnicos e de segurança, portanto, se algo der errado, a ajuda estará no caminho.
+Seus usuários finais desfrutarão das versões mais recentes do Windows 10 e dos aplicativos do Microsoft 365 para aplicativos corporativos (e mais, além de mais), usando dispositivos e software que são organizados e rigorosamente testados para melhorar o desempenho e a confiabilidade. Além disso, você nunca precisará se preocupar em manter qualquer um dos softwares atualizados, pois isso acontece automaticamente, seguindo uma sequência de distribuição cuidadosa que é monitorada a cada etapa do caminho. E os dispositivos registrados são monitorados 24x7 em busca de problemas técnicos e de segurança, portanto, se algo der errado, a ajuda estará no caminho.
 
 
 ## <a name="unique-to-microsoft-managed-desktop"></a>Exclusivo para a área de trabalho gerenciada da Microsoft
@@ -111,4 +111,3 @@ Se a área de trabalho gerenciada da Microsoft parecer correta para a sua organi
 
 <!--With Microsoft Managed Desktop, you get **software as a service** (Microsoft 365 E5), **Device as a service** (Microsoft Surface devices ready to use), and **IT support as a service** (Help desk and more).--> 
  
-

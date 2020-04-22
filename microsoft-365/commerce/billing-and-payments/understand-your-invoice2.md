@@ -1,5 +1,5 @@
 ---
-title: Entenda sua fatura do Office 365 para empresas
+title: Entenda sua fatura para o Microsoft 365 for Business
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,15 +23,15 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
-description: Saiba como interpretar as informações sobre encargos, cobrança e pagamento em sua fatura do Office 365 para empresas e como alterar o número da ordem de compra.
-ms.openlocfilehash: 152b5d888b8773e2e60cea8584417e47ee58c47f
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+description: Saiba como interpretar as informações sobre encargos, cobrança e pagamento na sua fatura do Microsoft 365 para empresas e como alterar o número da ordem de compra.
+ms.openlocfilehash: 392957ecf06c6200bca3daf205946f5b8fd1563a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142294"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634963"
 ---
-# <a name="understand-your-invoice-for-office-365-for-business"></a>Entenda sua fatura do Office 365 para empresas
+# <a name="understand-your-invoice-for-microsoft-365-for-business"></a>Entenda sua fatura para o Microsoft 365 for Business
 
 A cada mês, você receberá um email informando que o novo demonstrativo de cobrança está disponível no centro de administração. [Saiba como encontrar e exibir a sua fatura](view-your-bill-or-invoice.md).
   
@@ -138,6 +138,6 @@ Se paga por fatura, você pode adicionar ou alterar o número da OC (ordem de co
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Pagar sua assinatura do Office 365 para empresas](pay-for-your-subscription.md)
+[Pague sua assinatura do Microsoft 365 for Business](pay-for-your-subscription.md)
 
 [Opções de pagamento do Minecraft: Education Edition](https://go.microsoft.com/fwlink/p/?linkid=838761)

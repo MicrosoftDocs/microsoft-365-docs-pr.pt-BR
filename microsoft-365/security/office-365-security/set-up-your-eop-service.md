@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: Este tópico explica como configurar a Proteção do Exchange Online (EOP) da Microsoft. Se você foi direcionado do Assistente de domínios do Office 365, volte para o Assistente de domínios do Office 365 se você não quiser usar o Proteção do Exchange Online. Se você quiser mais informações sobre como configurar conectores, confira Configure mail flow using connectors in Office 365.
-ms.openlocfilehash: 6686e95f343a116a53991957e7746ef841e858ba
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: 9a2c876ac7696adfcabf87d4ad13e29374509f1b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081227"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638303"
 ---
 # <a name="set-up-your-eop-service"></a>Configurar seu serviço EOP
 
@@ -30,7 +30,7 @@ Este tópico explica como configurar a Proteção do Exchange Online (EOP) da Mi
 
 - Tempo estimado para a conclusão da tarefa: 1 hora
 
-- Para configurar conectores, você precisa ter uma conta de administrador global do Office 365 ou de administrador da empresa do Exchange (grupo de funções do Gerenciamento de Organização). Para obter informações, consulte [Feature Permissions in EOP](feature-permissions-in-eop.md).
+- Para configurar conectores, sua conta deve ser um administrador global ou um administrador da empresa do Exchange (o grupo de funções Gerenciamento da organização). Para obter informações, consulte [Feature Permissions in EOP](feature-permissions-in-eop.md).
 
 - Se você ainda não se inscreveu na EOP, visite [Proteção do Exchange Online](https://products.office.com/exchange/exchange-email-security-spam-protection) para comprar ou experimentar o serviço.
 
@@ -54,11 +54,11 @@ Antes de configurar seu email para entrar e sair do serviço da EOP, recomendamo
 
 ## <a name="step-3-use-the-eac-to-set-up-mail-flow"></a>Etapa 3: Usar o EAC para configurar o fluxo de emails
 
-Crie conectores no EAC (Centro de administração do Exchange) que permitem o fluxo de emails entre a EOP e os servidores de email locais. Para saber mais detalhes, confira [Set up connectors to route mail between Office 365 and your own email servers](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail).
+Crie conectores no EAC (Centro de administração do Exchange) que permitem o fluxo de emails entre a EOP e os servidores de email locais. Para obter instruções detalhadas, consulte [set up Connectors to Route mail between Microsft 365 e seus próprios servidores de email](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail).
 
 ### <a name="how-do-you-know-this-task-worked"></a>Como saber se essa tarefa funcionou?
 
-Verificar o fluxo de emails entre o serviço e seu ambiente. Para obter mais informações, consulte [testar o fluxo de emails Validando seus conectores do Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow).
+Verificar o fluxo de emails entre o serviço e seu ambiente. Para obter mais informações, consulte [testar o fluxo de emails, Validando seus conectores do Microsoft 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow).
 
 ## <a name="step-4-allow-inbound-port-25-smtp-access"></a>Etapa 4: Permitir acesso SMTP através da porta de entrada 25
 
@@ -75,13 +75,13 @@ Se não quiser mover mensagens para a pasta de Lixo Eletrônico de cada usuário
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Etapa 6: usar o centro de administração do Microsoft 365 para apontar o seu registro MX para o EOP
 
-Siga as etapas de configuração de domínio do Office 365 para atualizar o registro MX do seu domínio, para que haja fluxo da EOP no seu email de entrada. Certifique-se de apontar seu registro MX diretamente para a EOP em vez de ter um serviço de filtragem de terceiros relacionado ao email para a EOP. Para saber mais, você pode consultar novamente [Criar registros DNS para o Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
+Siga as etapas de configuração do domínio para atualizar seu registro MX para o seu domínio, de forma que seus emails de entrada fluam pelo EOP. Certifique-se de apontar seu registro MX diretamente para a EOP em vez de ter um serviço de filtragem de terceiros relacionado ao email para a EOP. Para saber mais, você pode consultar novamente [Criar registros DNS para o Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
 ### <a name="how-do-you-know-this-task-worked"></a>Como saber se essa tarefa funcionou?
 
 Neste ponto, você já verificou se o conector de saída local da entrega de serviço está corretamente configurado bem como se o seu registro MX está apontando para a EOP. Agora, você pode optar por executar os seguintes testes adicionais para verificar se um email será entregue com êxito pelo serviço para o seu ambiente local:
 
-- Verificar o fluxo de emails entre o serviço e seu ambiente. Para obter mais informações, consulte [testar o fluxo de emails Validando seus conectores do Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow).
+- Verificar o fluxo de emails entre o serviço e seu ambiente. Para obter mais informações, consulte [testar o fluxo de emails, Validando seus conectores do Microsoft 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow).
 
 - Envie uma mensagem de email de qualquer conta de email baseado na Web para um destinatário de email de sua organização cujo domínio corresponde ao domínio que você adicionou ao serviço. Confirme a entrega da mensagem para a caixa de correio no local usando o Microsoft Outlook ou outro cliente de email.
 

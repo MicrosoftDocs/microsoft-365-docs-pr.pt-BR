@@ -1,5 +1,5 @@
 ---
-title: Recursos de proteção na proteção de informações do Azure distribuir para os locatários existentes do Office 365
+title: Recursos de proteção na proteção de informações do Azure distribuindo-se para locatários existentes
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -16,24 +16,24 @@ ms.assetid: 7ad6f58e-65d7-4c82-8e65-0b773666634d
 ms.collection:
 - M365-security-compliance
 description: Para ajudar na etapa inicial de proteger suas informações, Iniciando em julho de 2018 todos os locatários qualificados de proteção de informações do Azure terão os recursos de proteção da proteção de informações do Azure ativados por padrão. Os recursos de proteção na proteção de informações do Azure eram conhecidos anteriormente no Office 365 como o gerenciamento de direitos ou o Azure RMS. Se sua organização tiver um plano de serviço do Office E3 ou um plano de serviço mais alto, você agora terá uma partida para proteger as informações por meio da proteção de informações do Azure quando esses recursos forem distribuídos.
-ms.openlocfilehash: de3b233d4baac380608d3a209c2ffea274c20d5b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3efdeefd2008a5ff9f730b879190d1edc015803a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083561"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638267"
 ---
-# <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-office-365-tenants"></a>Recursos de proteção na proteção de informações do Azure distribuir para os locatários existentes do Office 365
+# <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-tenants"></a>Recursos de proteção na proteção de informações do Azure distribuindo-se para locatários existentes
 
 Para ajudar na etapa inicial de proteger suas informações, Iniciando em julho de 2018 todos os locatários qualificados de proteção de informações do Azure terão os recursos de proteção da proteção de informações do Azure ativados por padrão. Os recursos de proteção na proteção de informações do Azure eram conhecidos anteriormente no Office 365 como o gerenciamento de direitos ou o Azure RMS. Se sua organização tiver um plano de serviço do Office E3 ou um plano de serviço mais alto, você agora terá uma partida para proteger as informações por meio da proteção de informações do Azure quando esses recursos forem distribuídos.
 
 ## <a name="changes-beginning-july-1-2018"></a>Alterações começando em 1º de julho de 2018
 
-A partir de 1º de julho de 2018, a Microsoft habilitará o recurso de proteção na proteção de informações do Azure para todos os locatários do Office 365 que têm um dos seguintes planos de assinatura:
+A partir de 1º de julho de 2018, a Microsoft habilitará o recurso de proteção na proteção de informações do Azure para todas as organizações com um dos seguintes planos de assinatura:
 
 - A criptografia de mensagem do Office 365 é oferecida como parte do Office 365 E3 e e5, Microsoft E3 e e5, Office 365 a1, a3 e a5 e Office 365 G3 e G5. Você não precisa de licenças adicionais para receber os novos recursos de proteção do para a proteção de informações do Azure.
 
-- Você também pode adicionar o plano de proteção de informações do Azure 1 aos seguintes planos para receber os novos recursos de criptografia de mensagens do Office 365: Exchange Online plano 1, Exchange Online Plan 2, Office 365 F1, Office 365 Business Essentials, Office 365 Business Premium ou Office 365 Enterprise E1.
+- Você também pode adicionar o plano de proteção de informações do Azure 1 aos seguintes planos para receber os novos recursos de criptografia de mensagens do Office 365: Exchange Online plano 1, Exchange Online Plan 2, Office 365 F1, Microsoft 365 Business Basic, Microsoft 365 Business Standard ou Office 365 Enterprise E1.
 
 - Todos os usuários que se beneficiam da criptografia de mensagens do Office 365 precisam ser licenciados para serem cobertos pelo recurso.
 
@@ -45,11 +45,11 @@ Os administradores de locatários podem verificar o status de proteção no port
 
 ## <a name="why-are-we-making-this-change"></a>Por que estamos fazendo essa alteração?
 
-A criptografia de mensagem do Office 365 aproveita os recursos de proteção na proteção de informações do Azure. No coração das recentes melhorias na criptografia de mensagens do Office 365 e em nossos investimentos mais amplos para a proteção de informações no Microsoft 365, estamos facilitando a ativação e o uso dos recursos de proteção, conforme o histórico de criptografia as tecnologias foram difíceis de configurar. Ao ativar os recursos de proteção na proteção de informações do Azure por padrão, você pode começar rapidamente a proteger seus dados confidenciais.
+A criptografia de mensagem do Office 365 aproveita os recursos de proteção na proteção de informações do Azure. No coração das recentes melhorias na criptografia de mensagens do Office 365 e em nossos investimentos mais amplos para proteção de informações no Microsoft 365, estamos facilitando a ativação e o uso de nossos recursos de proteção, conforme historicamente, as tecnologias de criptografia foram difíceis de configurar. Ao ativar os recursos de proteção na proteção de informações do Azure por padrão, você pode começar rapidamente a proteger seus dados confidenciais.
 
 ## <a name="does-this-impact-me"></a>Isso me afeta?
 
-Se sua organização do Office 365 comprou uma licença do Office 365 qualificada, o locatário será afetado por essa alteração.
+Se sua organização comprou uma licença do Office 365 qualificada, o locatário será afetado por essa alteração.
 
  **Important!** Se você estiver usando o Active Directory Rights Management Services (AD RMS) em seu ambiente local, você deverá recusar essa alteração imediatamente ou migrar para a proteção de informações do Azure antes de distribuir essa alteração nos próximos 30 dias. Para obter informações sobre como recusar, consulte "Eu uso AD RMS, como faço para sair?" mais adiante neste artigo. Se preferir migrar, confira [Migrate from AD RMS para proteção de informações do Azure.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
 
@@ -65,7 +65,7 @@ Use estas instruções [para preparar o ambiente para o Azure Rights Management 
 
 Use o ADSI Edit para ver se você tem um SCP publicado no Active Directory: CN = Configuration [Server Name], CN = Services, CN = RightsManagementServices, CN = SCP
 
-2. Se você não estiver usando um SCP, os computadores Windows que se conectam a um cluster do AD RMS devem ser configurados para descoberta de serviço do lado do cliente ou redirecionamento de licenciamento usando o registro do Windows: HKEY_LOCAL_MACHINE \SOFTWARE\Microsoft\MSIPC\ServiceLocation ou HKEY_ LOCAL_MACHINE \SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation
+2. Se você não estiver usando um SCP, os computadores Windows que se conectam a um cluster do AD RMS devem ser configurados para descoberta de serviço no lado do cliente ou redirecionamento de licenciamento usando o registro do Windows: HKEY_LOCAL_MACHINE \SOFTWARE\Microsoft\MSIPC\ServiceLocation ou HKEY_LOCAL_MACHINE \SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation
 
 Para obter mais informações sobre essas configurações do registro, consulte [habilitar a descoberta de serviço no lado do cliente usando o registro do Windows](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#enabling-client-side-service-discovery-by-using-the-windows-registry) e [redirecionando o tráfego do servidor de licenciamento](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#redirecting-licensing-server-traffic).
 
@@ -73,7 +73,7 @@ Para obter mais informações sobre essas configurações do registro, consulte 
 
 Para recusar a próxima alteração, conclua estas etapas:
 
-1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização do Office 365, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
 2. Execute o cmdlet Set-IRMConfiguration usando a seguinte sintaxe:
 

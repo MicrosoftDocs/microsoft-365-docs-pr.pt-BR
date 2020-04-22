@@ -1,5 +1,5 @@
 ---
-title: Entender sua fatura eletrônica para o Office 365 for Business (Taiwan)
+title: Entender sua fatura eletrônica para o Microsoft 365 for Business (Taiwan)
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -19,15 +19,15 @@ search.appverid:
 - MOE150
 ms.assetid: 66315e5b-883a-432b-8650-d896f95af228
 ROBOTS: NOINDEX
-description: Saiba mais sobre o Office 365 for Business e-fatura para Taiwan.
-ms.openlocfilehash: 5b06d8634fef81027cff14170da4e50072a1b48e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Saiba mais sobre o Microsoft 365 for Business e-fatura para Taiwan.
+ms.openlocfilehash: 4603d9f39a4421b6711d056d0646981732353c5c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354662"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632702"
 ---
-# <a name="understand-your-e-invoice-for-office-365-for-business-taiwan"></a>Entender sua fatura eletrônica para o Office 365 for Business (Taiwan)
+# <a name="understand-your-e-invoice-for-microsoft-365-for-business-taiwan"></a>Entender sua fatura eletrônica para o Microsoft 365 for Business (Taiwan)
 
 a fatura eletrônica é emitida por vendedor após compras de compradores de acordo com os requisitos de fatura e-notação de autoridade de impostos de Taiwan. As informações são transmitidas para a nuvem de faturas eletrônicas da autoridade de impostos de Taiwan para manutenção de registros. Para informações relacionadas à fatura e-notação de Taiwan, consulte aqui:<a href="https://www.einvoice.nat.gov.tw/" target="_blank">財政部電子發票整合服務平台</a>
   
@@ -39,7 +39,7 @@ Uma cópia de exemplo da fatura eletrônica está incluída aqui:
 
 Para compras comerciais, aplicamos impostos além do preço citado de nossas assinaturas, com uma taxa recomendada pela autoridade de impostos de Taiwan. Para qualquer dúvida ou planejamento relacionado a impostos, trabalhe com seu supervisor de impostos.
   
-## <a name="when-will-e-invoice-start-for-my-office-365-services"></a>Quando o e-fatura será iniciado para meus serviços do Office 365?
+## <a name="when-will-e-invoice-start-for-my-microsoft-365-services"></a>Quando o e-fatura será iniciado para meus serviços do Microsoft 365?
 
 A Microsoft substituirá a fatura atual com o e-fatura em **15 de setembro**. Para cobrança antes de 15 de setembro, as faturas de impostos de cópia de papel são enviadas diretamente para os clientes. Após 15 de setembro, a fatura eletrônica será oferecida no seu centro de administração do Microsoft 365 para exibição, download e impressão, e não será mais enviada diretamente para você. 
   

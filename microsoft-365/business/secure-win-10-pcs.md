@@ -1,5 +1,5 @@
 ---
-title: Proteger computadores Windows 10
+title: Proteger computadores com Windows 10
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,17 +21,17 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Saiba como proteger os computadores com Windows 10 após configurar o Microsoft 365 Business.
-ms.openlocfilehash: 068ac8c8b6011c879d859024b44192cb0a6d3d7d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Saiba como proteger os computadores com Windows 10 após configurar o Microsoft 365 para empresas.
+ms.openlocfilehash: 71fd9202b04c2559e992977f1c21a129dd5455b1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593457"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632996"
 ---
-# <a name="secure-windows-10-computers"></a>Proteger computadores Windows 10
+# <a name="secure-windows-10-computers"></a>Proteger computadores com Windows 10
 
-Depois de [Configurar](set-up.md) o Microsoft 365 Business, é hora de proteger os computadores com Windows 10 da sua organização contra roubo e ameaças mal-intencionadas, como vírus e malware.
+Depois de [Configurar](set-up.md) o Microsoft 365 for Business, é hora de proteger os computadores com Windows 10 da sua organização contra roubo e ameaças mal-intencionadas, como vírus e malware.
 Assista a este vídeo para obter uma visão geral de como configurar políticas para proteger seus computadores com Windows 10.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4kcAF] 

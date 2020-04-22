@@ -14,12 +14,12 @@ ms.collection:
 - commerce
 ms.custom: ''
 description: Saiba mais sobre o novo recurso de alocações.
-ms.openlocfilehash: 22f7c35b1a5baf97fb72f541d57da28adeeffbe4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d1f926165678b57ec46195d525f2fcdaa6976501
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594682"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632408"
 ---
 # <a name="allotment-basics"></a>Noções básicas sobre alocação
 
@@ -33,7 +33,7 @@ Você também pode delegar o gerenciamento de suas alocações. Os proprietário
 
 Você deve atender aos requisitos de licenciamento para [Licenciamento baseado em grupo](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements).
 
-Você pode usar alocações com qualquer produto do Office 365 disponível para os usuários:
+Você pode usar alocações com qualquer produto disponível para os usuários:
 
 - Pacotes do Office e produtos autônomos
 - Produtos corporativos e de mobilidade

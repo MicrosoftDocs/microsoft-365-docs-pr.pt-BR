@@ -22,21 +22,21 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as diferenças entre o gerenciamento de dispositivo móvel e o gerenciamento de aplicativo móvel, ou MDM e MAM.
-ms.openlocfilehash: 590dc9522be7adc9c24c61091928133fb13d9027
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ecb06ffc23823df72f9254d881f6b1dc1b781f59
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42057132"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635023"
 ---
 # <a name="difference-between-mdm-and-mam"></a>Diferença entre MDM e MAM
 
-O Microsoft 365 Business oferece várias maneiras de proteger seus dados corporativos. Confira [visão geral do Microsoft 365 Business](../microsoft-365-business-overview.md) para saber mais sobre as várias proteções definidas automaticamente e o que você pode configurar sozinho para proteger ainda mais sua empresa. Você também pode configurar políticas que protegem seus dispositivos Windows 10 e os dados em seus dispositivos móveis.
+O Microsoft 365 Business Premium oferece várias maneiras de proteger seus dados corporativos. Confira [visão geral do Microsoft 365 Business Premium](../microsoft-365-business-overview.md) para saber mais sobre as várias proteções definidas automaticamente e o que você pode configurar sozinho para proteger ainda mais sua empresa. Você também pode configurar políticas que protegem seus dispositivos Windows 10 e os dados em seus dispositivos móveis.
 [Definir configurações de proteção de aplicativo para dispositivos Windows 10](../protection-settings-for-windows-10-devices.md).
 
 ## <a name="mobile-device-management-or-mdm"></a>Gerenciamento de dispositivo móvel ou MDM
 
-O Microsoft 365 Business permite que você configure políticas que protegem dados em seus dispositivos Windows 10. Quando um dispositivo está sob gerenciamento de dispositivo móvel, você controla todo o dispositivo e pode limpar os dados dele e também o redefine para as configurações de fábrica. Para obter mais informações, consulte [definir configurações de proteção de dispositivos para computadores com Windows 10](../protection-settings-for-windows-10-pcs.md).
+O Microsoft 365 Business Premium permite que você configure políticas que protegem os dados em seus dispositivos Windows 10. Quando um dispositivo está sob gerenciamento de dispositivo móvel, você controla todo o dispositivo e pode limpar os dados dele e também o redefine para as configurações de fábrica. Para obter mais informações, consulte [definir configurações de proteção de dispositivos para computadores com Windows 10](../protection-settings-for-windows-10-pcs.md).
 
 ## <a name="mobile-application-management-or-mam"></a>Gerenciamento de aplicativo móvel ou MAM
 

@@ -14,12 +14,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: 'Resumo: implante um novo site de equipe do SharePoint Online isolado com as instruções passo a passo.'
-ms.openlocfilehash: 07867b4646926468f808f8f34086cf9267d7ab7b
-ms.sourcegitcommit: 9afcc63b1a7e73f6946f67207337f10b71a5d7f3
+ms.openlocfilehash: e35e380b61a94e08ff25e2e4c4bdfa28a635449e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42612611"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637623"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>Implantar um site de equipe do SharePoint Online isolado
 
@@ -38,19 +38,19 @@ Nesta fase, você cria os três grupos de acesso baseados no AD do Azure para os
 
 Determine o conjunto de contas de usuário correspondentes aos administradores do SharePoint Online para o site de equipe isolado.
   
-Se você estiver gerenciando contas de usuário e grupos através do Office 365 e quiser usar o Windows PowerShell, faça uma lista de seus nomes principais de usuário (UPNs) (exemplo de UPN: belindan@contoso.com).
+Se você estiver gerenciando contas de usuário e grupos pelo Microsoft 365 e quiser usar o Windows PowerShell, faça uma lista de seus nomes principais de usuário (UPNs) (exemplo de UPN: belindan@contoso.com).
   
 ### <a name="step-2-list-the-members-for-the-site"></a>Etapa 2: listar os membros do site
 
 Determine o conjunto de contas de usuário correspondentes aos membros do site de equipe isolado, aqueles que serão colaborativos nos recursos armazenados no site.
   
-Se você estiver gerenciando contas de usuário e grupos através do Office 365 e quiser usar o PowerShell, faça uma lista de seus UPNs. Se houver muitos membros do site, você poderá armazenar a lista de UPNs em um arquivo de texto e adicioná-los todos com um único comando do PowerShell.
+Se você estiver gerenciando contas de usuário e grupos pelo Microsoft 365 e quiser usar o PowerShell, faça uma lista de seus UPNs. Se houver muitos membros do site, você poderá armazenar a lista de UPNs em um arquivo de texto e adicioná-los todos com um único comando do PowerShell.
   
 ### <a name="step-3-list-the-viewers-for-the-site"></a>Etapa 3: listar os visualizadores para o site
 
 Determinar o conjunto de contas de usuário correspondentes aos visualizadores do site de equipe isolado, aqueles que podem exibir os recursos armazenados no site, mas não modificá-los ou colaborar diretamente em seu conteúdo.
   
-Se você estiver gerenciando contas de usuário e grupos através do Office 365 e quiser usar o PowerShell, faça uma lista de seus UPNs. Se houver muitos membros do site, você poderá armazenar a lista de UPNs em um arquivo de texto e adicioná-los todos com um único comando do PowerShell.
+Se você estiver gerenciando contas de usuário e grupos pelo Microsoft 365 e quiser usar o PowerShell, faça uma lista de seus UPNs. Se houver muitos membros do site, você poderá armazenar a lista de UPNs em um arquivo de texto e adicioná-los todos com um único comando do PowerShell.
   
 Os visualizadores do site podem incluir gerência executiva, assessoria jurídica ou participantes entre departamentos.
   
@@ -101,7 +101,7 @@ Nesta etapa, faça o seguinte:
     
 3. Adicionar a lista de usuários da etapa 3 ao grupo de acesso de visualizadores de sites
     
-Se você estiver gerenciando contas de usuário e grupos por meio de serviços de domínio do Active Directory (AD DS), adicione usuários aos grupos de acesso apropriados usando seus procedimentos normais de gerenciamento de usuários e grupos do AD DS e aguarde a sincronização com sua assinatura do Office 365.
+Se você estiver gerenciando contas de usuário e grupos por meio de serviços de domínio do Active Directory (AD DS), adicione usuários aos grupos de acesso apropriados usando seus procedimentos normais de gerenciamento de usuários e grupos do AD DS e aguarde a sincronização com sua assinatura do Microsoft 365.
   
 Se você estiver gerenciando contas de usuário e grupos através do Office 365, poderá usar o centro de administração do Microsoft 365 ou o PowerShell. Se você tiver nomes de grupo duplicados para qualquer um dos grupos de acesso, deverá usar o centro de administração do Microsoft 365.
   
@@ -155,7 +155,7 @@ Aqui está a configuração resultante com os três grupos de acesso de site pre
   
 ## <a name="phase-2-create-and-configure-the-isolated-team-site"></a>Fase 2: criar e configurar o site de equipe isolado
 
-Nesta fase, você cria o site do SharePoint Online isolado e configura as permissões para os níveis de permissão padrão do SharePoint Online para usar seus novos grupos de acesso baseados no Azure AD. Por padrão, os novos sites de equipe incluem um grupo do Office 365 e outros recursos relacionados, mas neste caso, criaremos um site de equipe sem um grupo do Office 365. Isso permite manter as permissões completamente no SharePoint.
+Nesta fase, você cria o site do SharePoint Online isolado e configura as permissões para os níveis de permissão padrão do SharePoint Online para usar seus novos grupos de acesso baseados no Azure AD. Por padrão, os novos sites de equipe incluem um grupo do Microsoft 365 e outros recursos relacionados, mas neste caso, criaremos um site de equipe sem um grupo do Microsoft 365. Isso permite manter as permissões completamente no SharePoint.
   
 Primeiro, crie o site de equipe do SharePoint Online com estas etapas.
   

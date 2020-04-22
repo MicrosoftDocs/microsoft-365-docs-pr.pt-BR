@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Usando a central de segurança do Microsoft 365 ou o centro de conformidade da Microsoft 365, você pode gerenciar as permissões centralmente para todas as tarefas relacionadas à segurança ou conformidade.
-ms.openlocfilehash: 78068a4c6f32dbc53b8fb649c0f27905e0e634ad
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: f703a333cf77ebb41f7b72f141cbdc813858ab11
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42230104"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634467"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Permissões novo centro de segurança do Microsoft 365 e no centro de conformidade do Microsoft 365
 
@@ -52,13 +52,13 @@ Os usuários com essa função têm acesso a todos os recursos administrativos d
 
 ### <a name="compliance-administrator"></a>Administrador de conformidade
 
-Os usuários com essa função têm permissões para gerenciar recursos relacionados à conformidade no centro de conformidade do Microsoft 365, no centro de administração do Microsoft 365, no Azure e no Centro de Conformidade e Segurança do Office 365. Os usuários também podem gerenciar todos os recursos no centro de administração do Exchange e no centro de administração do Teams e do Skype for Business e criar tíquetes de suporte para o Azure e o Microsoft 365.
+Os usuários com essa função possuem permissões para gerenciar recursos relacionados à conformidade no centro de conformidade do Microsoft 365, no centro de administração do Microsoft 365, no Azure e no Centro de conformidade e segurança. Os usuários também podem gerenciar todos os recursos no centro de administração do Exchange e no centro de administração do Teams e do Skype for Business e criar tíquetes de suporte para o Azure e o Microsoft 365.
 
 |**Neste serviço...**|**O administrador de conformidade pode...**|
 |:-----|:-----|
 |[**Centro de conformidade do Microsoft 365**](https://compliance.microsoft.com/)|Proteger e gerenciar dados da sua organização em todos os serviços do Microsoft 365. <br/><br/> Gerenciar alertas de conformidade.|
 |[**Pontuação de Conformidade**](https://docs.microsoft.com/office365/securitycompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|Acompanhar, atribuir e verificar as atividades de conformidade regulatória da sua organização.|
-|[**Centro de Conformidade e Segurança do Office 365**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Gerenciar governança de dados. <br/><br/> Executar investigação jurídica e de dados. <br/><br/> Gerenciar solicitação do titular dos dados.|
+|[**Centro de segurança e conformidade**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Gerenciar governança de dados. <br/><br/> Executar investigação jurídica e de dados. <br/><br/> Gerenciar solicitação do titular dos dados.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Exibir todos os dados de auditoria do Intune.|
 |[**Segurança no Aplicativo na Nuvem**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Tem permissões somente leitura e pode gerenciar alertas. <br/><br/> Pode criar e modificar políticas de arquivo e permitir ações de governança de arquivo. <br/><br/> Pode exibir todos os relatórios internos em Gerenciamento de Dados.|
 
@@ -70,20 +70,20 @@ Os usuários com esta função têm permissões para proteger e controlar dados 
 |:-----|:-----|
 |[**Centro de conformidade do Microsoft 365**](https://compliance.microsoft.com/)|Proteger e gerenciar dados da sua organização em todos os serviços do Microsoft 365. <br/><br/> Gerenciar alertas de conformidade. <br/><br/> Gerenciar rótulos de sensibilidade|
 |[**Pontuação de Conformidade**](https://docs.microsoft.com/office365/securitycompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|Acompanhar, atribuir e verificar as atividades de conformidade regulatória da sua organização.|
-|[**Centro de Conformidade e Segurança do Office 365**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Gerenciar governança de dados. <br/><br/> Executar investigação jurídica e de dados. <br/><br/> Gerenciar solicitação do titular dos dados. <br/><br/> Gerenciar rótulos de sensibilidade|
+|[**Centro de segurança e conformidade**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Gerenciar governança de dados. <br/><br/> Executar investigação jurídica e de dados. <br/><br/> Gerenciar solicitação do titular dos dados. <br/><br/> Gerenciar rótulos de sensibilidade|
 |[** Intune**](https://docs.microsoft.com/intune/role-based-access-control) (em breve)|Exibir todos os dados de auditoria do Intune.|
 |[**Segurança no Aplicativo na Nuvem**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Usar permissões somente leitura para exibir informações. <br/>Gerenciar Alertas. <br/><br/> Criar e modificar políticas de arquivo e permitir ações de governança de arquivo. <br/><br/> Exibir todos os relatórios internos em Gerenciamento de Dados.|
 
 ### <a name="security-administrator"></a>Administrador de segurança
 
-Os usuários com essa função têm permissões para gerenciar recursos relacionados à segurança na central de segurança do Microsoft 365, Azure Active Directory Identity Protection, Proteção de Informações do Azure e Centro de Conformidade e Segurança do Office 365.
+Os usuários com essa função possuem permissões para gerenciar recursos relacionados à segurança no centro de segurança do Microsoft 365, na Proteção de identidade do Azure Active Directory, no Proteção de identidade do Azure e no Centro de segurança e conformidade.
 
 |**Neste serviço...**|**O administrador de segurança pode...**|
 |:-----|:-----|
 |[**Centro de segurança do Microsoft 365**](https://security.microsoft.com/)|Monitorar políticas relacionadas a segurança em todos os serviços do Microsoft 365. <br/><br/>  Gerenciar alertas e ameaças de segurança. <br/><br/> Exibir relatórios. <br/><br/> Gerenciar rótulos de confidencialidade.|
 |**Identity Protection Center**|Fazer tudo que o Leitor de Segurança pode fazer, além de executar todas as operações da central de proteção de identidade, exceto redefinir senhas.|
 |[**Privileged Identity Management**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|Realizar tudo o que o Leitor de Segurança pode fazer. <br/><br/> **Não pode** gerenciar atribuições de função ou configurações do Azure AD.|
-|[**Centro de Conformidade e Segurança do Office 365**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Gerenciar políticas de segurança. <br/><br/> Exibir, investigar e responder a ameaças de segurança <br/><br/> Exibir relatórios. <br/><br/> Gerenciar rótulos de confidencialidade.|
+|[**Centro de segurança e conformidade**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Gerenciar políticas de segurança. <br/><br/> Exibir, investigar e responder a ameaças de segurança <br/><br/> Exibir relatórios. <br/><br/> Gerenciar rótulos de confidencialidade.|
 |**Proteção Avançada contra Ameaças do Azure**|Monitorar e responder a atividades suspeitas de segurança.|
 |**Windows Defender ATP e EDR**|Atribuir funções. <br/><br/> Gerenciar grupos de computadores. <br/><br/> Configurar a detecção de ameaças do ponto de extremidade e a correção automatizada. <br/><br/> Exibir, investigar e responder a alertas.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Exibe informações de usuário, dispositivo, registro, configuração e aplicativo. <br/><br/> **Não** pode fazer alterações no Intune.|
@@ -93,14 +93,14 @@ Os usuários com essa função têm permissões para gerenciar recursos relacion
 
 ### <a name="security-operator"></a>Operador de segurança
 
-Usuários com essa função podem gerenciar alertas e ter acesso global somente leitura em recurso relacionado à segurança, incluindo todas as informações no centro de segurança do Microsoft 365, no Azure Active Directory, no Identity Protection e no Privileged Identity Management, bem como a capacidade de ler logs de auditoria e relatórios de entrada do Azure Active Directory e no Centro de Conformidade e Segurança do Office 365.
+Os usuários com esta função podem gerenciar alertas e ter acesso global somente leitura nos recursos relacionados à segurança, incluindo todas as informações no centro de segurança do Microsoft 365, Azure Active Directory, Proteção de identidade, Gerenciamento de identidade privilegiada, bem como a capacidade de ler relatórios de login e logs de auditoria do Azure Active Directory, e no Centro de conformidade e segurança.
 
 |**Neste serviço...**|**O operador de segurança pode...**|
 |:-----|:-----|
 |[**Centro de segurança do Microsoft 365**](https://security.microsoft.com/)|Realizar tudo o que o Leitor de Segurança pode fazer. <br/><br/> Exibir, investigar e responder a alertas de segurança.|
 |**Identity Protection Center** (em breve)|Realizar tudo o que o Leitor de Segurança pode fazer.|
 |[**Privileged Identity Management**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|Realizar tudo o que o Leitor de Segurança pode fazer.|
-|[**Centro de Conformidade e Segurança do Office 365**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Realizar tudo o que o Leitor de Segurança pode fazer. <br/><br/> Exibir, investigar e responder a ameaças de segurança|
+|[**Centro de segurança e conformidade**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Realizar tudo o que o Leitor de Segurança pode fazer. <br/><br/> Exibir, investigar e responder a ameaças de segurança|
 |**Windows Defender ATP e EDR**|Realizar tudo o que o Leitor de Segurança pode fazer. <br/><br/> Exibir, investigar e responder a alertas.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Exibe informações de usuário, dispositivo, registro, configuração e aplicativo. <br/><br/> **Não** pode fazer alterações no Intune.|
 |[**Segurança no Aplicativo na Nuvem**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Realizar tudo o que o Leitor de Segurança pode fazer, além de exibir e descartar alertas.|
@@ -108,14 +108,14 @@ Usuários com essa função podem gerenciar alertas e ter acesso global somente 
 
 ### <a name="security-reader"></a>Leitor de segurança
 
-Usuários com essa função têm acesso somente leitura global em recurso relacionado à segurança, incluindo todas as informações no centro de segurança do Microsoft 365, no Azure Active Directory, no Identity Protection e no Privileged Identity Management, bem como a capacidade de ler logs de auditoria e relatórios de entrada do Azure Active Directory e no Centro de Conformidade e Segurança do Office 365.
+Os usuários com esta função têm acesso global somente leitura em recursos relacionados à segurança, incluindo todas as informações no centro de segurança do Microsoft 365, Azure Active Directory, Proteção de identidade, Gerenciamento de identidade privilegiada, bem como a capacidade de ler relatórios de login e logs de auditoria do Azure Active Directory, e no Centro de conformidade e segurança.
 
 |**Neste serviço...**|**O leitor de segurança pode...**|
 |:-----|:-----|
 |[**Centro de segurança do Microsoft 365**](https://security.microsoft.com/)|Exibir políticas relacionadas à segurança em todos os serviços do Microsoft 365. <br/><br/> Exibir alertas e ameaças de segurança. <br/><br/> Exibir relatórios.|
 |**Identity Protection Center**|Lê todas as informações sobre as configurações e os relatórios de segurança para recursos de segurança: antispam, criptografia, prevenção contra perda de dados (DLP), anti-malware, proteção avançada contra ameaças (ATP), anti-phishing e regras de fluxo de email (também conhecidas como regras de transporte).|
 |[**Privileged Identity Management**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|Use o acesso somente leitura para exibir todas as informações exibidas no Azure AD PIM: políticas e relatórios de atribuições de função do Azure AD, análises de segurança e, no futuro, dados de política e relatórios para cenários além da atribuição de função do Azure AD. <br/><br/> **Não pode** se inscrever no Azure AD PIM nem fazer alterações nele. No portal do PIM ou por meio do PowerShell, alguém nesta função poderá ativar funções adicionais (por exemplo, administrador global ou administrador com função com privilégios) se o usuário for elegível para a elas.|
-|[**Centro de Conformidade e Segurança do Office 365**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Exibir políticas de segurança. <br/><br/> Exibir e investigar ameaças de segurança. <br/><br/> Exibir relatórios.|
+|[**Centro de segurança e conformidade**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Exibir políticas de segurança. <br/><br/> Exibir e investigar ameaças de segurança. <br/><br/> Exibir relatórios.|
 |**Windows Defender ATP e EDR**|Exibir e investigar alertas.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Exibe informações de usuário, dispositivo, registro, configuração e aplicativo. <br/><br/> **Não** pode fazer alterações no Intune.|
 |[**Segurança no Aplicativo na Nuvem**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Usar permissões somente leitura para exibir informações. <br/><br/> Gerenciar Alertas.|
@@ -132,13 +132,13 @@ Para saber mais informações, consulte [Exibir e atribuir funções de administ
 
 ## <a name="managing-roles-in-a-service-instead-of-azure-active-directory"></a>Gerenciamento de funções em um serviço, em vez do Azure Active Directory
 
-As funções que aparecem no centro de conformidade do Microsoft 365 e no centro de segurança da Microsoft 365 também são exibidas nos serviços que têm permissões. Por exemplo, você pode ver essas funções no Centro de Conformidade e Segurança do Office 365.
+As funções que aparecem no centro de conformidade do Microsoft 365 e no centro de segurança da Microsoft 365 também são exibidas nos serviços que têm permissões. Por exemplo, você pode ver essas funções no Centro de segurança e conformidade.
 
-![Funções no Centro de Conformidade e Segurança do Office 365](../../media/m365-roles-in-o365-scc.png)
+![Funções no Centro de conformidade e segurança](../../media/m365-roles-in-o365-scc.png)
 
 ### <a name="breaking-inheritance"></a>Interrompendo herança
 
-É importante compreender que quando você gerencia essas funções no Azure Active Directory, está fazendo centralmente para **todos** os serviços da Microsoft 365. No entanto, ao gerenciar uma função em um serviço específico, como no Centro de Conformidade e Segurança do Office 365, você está gerenciando **apenas** a função para esse serviço específico. As atribuições e permissões para uma função em um serviço substituem as permissões concedidas à função do Azure Active Directory.
+É importante compreender que quando você gerencia essas funções no Azure Active Directory, está fazendo centralmente para **todos** os serviços da Microsoft 365. No entanto, quando você gerencia uma função em um serviço específico, como o Centro de conformidade e segurança, gerencia a função **apenas** para esse serviço específico. As atribuições e permissões para uma função em um serviço substituem as permissões concedidas à função do Azure Active Directory.
 
 Isso pode ser útil, por exemplo, quando uma pessoa recebe a função de administrador de segurança e ela não tem permissões para gerenciar incidentes. No entanto, você pode usar as permissões da proteção avançada contra ameaças do Windows Defender para conceder a eles a permissão específica de gerenciamento de incidentes naquele serviço.
 
@@ -148,7 +148,7 @@ Ao atribuir um usuário a uma das funções de administrador de conformidade ou 
 
 |**Serviço da Microsoft 365**|**Informações da função**|
 |:-----|:-----|
-|Funções de administrador em planos de negócios do Office 365 e do Microsoft 365|[Funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide)|
+|Funções de administrador no Office 365 e Microsoft 365 para planos de negócios|[Funções de administrador do Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide)|
 |Azure AD (Azure Active Directory) e Azure AD Identity Protection|[Funções de administrador do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Proteção Avançada contra Ameaças do Azure|[Grupos de funções do ATP do Azure](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
 |Proteção de Informações do Azure|[Funções de administrador do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
@@ -157,7 +157,7 @@ Ao atribuir um usuário a uma das funções de administrador de conformidade ou 
 |Intune|[Controle de acesso baseado em função do Intune](https://docs.microsoft.com/intune/role-based-access-control)|
 |Área de trabalho gerenciada|[Funções de administrador do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Microsoft Cloud App Security|[Controle de acesso baseado em função](https://docs.microsoft.com/cloud-app-security/manage-admins)|
-|Centro de Conformidade e Segurança do Office 365|[Funções de administrador do Office 365](https://docs.microsoft.com/office365/SecurityCompliance/permissions-in-the-security-and-compliance-center)|
+|Centro de conformidade e segurança|[Funções de administrador do Microsoft 365](https://docs.microsoft.com/office365/SecurityCompliance/permissions-in-the-security-and-compliance-center)|
 |Privileged Identity Management|[Funções de administrador do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Classificação de Segurança|[Funções de administrador do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |SharePoint Online|[Funções de administrador do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <br/><br/> [Sobre a função de administrador do SharePoint no Office 365](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)|

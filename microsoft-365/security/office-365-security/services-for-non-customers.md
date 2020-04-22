@@ -16,18 +16,18 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: Para ajudar a manter a confiança do usuário no uso de email, a Microsoft colocou várias políticas e tecnologias para ajudar a proteger os usuários.
-ms.openlocfilehash: 9e7985aed7c0b5b5c14c64d49e70ec6c731cb8b9
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 2d8de601fd24f30c342768b8b27e44248f05b5fe
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032787"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638387"
 ---
 # <a name="services-for-non-customers-sending-mail-to-office-365"></a>Serviços para não clientes enviando emails para o Office 365
 
-O abuso por email, lixo eletrônico e emails fraudulentos (phishing) continuam a sobrecarregar todo o ecossistema de email. Para ajudar a manter a confiança do usuário no uso de email, a Microsoft colocou várias políticas e tecnologias para ajudar a proteger os usuários. No entanto, a Microsoft reconhece que os emails legítimos não devem ser afetados negativamente. Portanto, estabelecemos um pacote de serviços para ajudar os remetentes a aprimorar a capacidade de enviar emails para os usuários do Office 365 ao gerenciar proativamente sua reputação de envio.
+O abuso por email, lixo eletrônico e emails fraudulentos (phishing) continuam a sobrecarregar todo o ecossistema de email. Para ajudar a manter a confiança do usuário no uso de email, a Microsoft colocou várias políticas e tecnologias para ajudar a proteger os usuários. No entanto, a Microsoft reconhece que os emails legítimos não devem ser afetados negativamente. Portanto, estabelecemos um pacote de serviços para ajudar os remetentes a aprimorar a capacidade de entregar emails aos usuários da Microsoft 365, gerenciando proativamente sua reputação de envio.
 
-Esta visão geral fornece informações sobre os benefícios que fornecemos à sua organização, mesmo que você não seja um cliente do Office 365.
+Esta visão geral fornece informações sobre os benefícios que fornecemos à sua organização, mesmo que você não seja um cliente.
 
 ## <a name="sender-solutions"></a>Soluções de remetente
 
@@ -35,29 +35,29 @@ Esta visão geral fornece informações sobre os benefícios que fornecemos à s
 |:-----|:-----|
 |Este conteúdo da ajuda online| Lhe  <br/>  Um ponto de partida para qualquer dúvida relacionada ao fornecimento de comunicações com usuários do EOP  <br/>  Inclui um guia online simples com nossas políticas e requisitos  <br/>  Uma visão geral dos filtros de lixo eletrônico e tecnologias de autenticação empregadas pela Microsoft|
 |[Suporte da Microsoft](#microsoft-support)|Fornece suporte a auto-ajuda e escalonamento para problemas de entrega.|
-|[Portal de deslista de IPS do Office 365 anti-spam](#office-365-anti-spam-ip-delist-portal)|Uma ferramenta para enviar a solicitação de deslistação de IP. Antes de enviar essa solicitação, é responsabilidade do remetente garantir que qualquer email proveniente do IP em questão não seja abusiva ou mal-intencionada.|
+|[Portal de deslista de IPS antispam](#anti-spam-ip-delist-portal)|Uma ferramenta para enviar a solicitação de deslistação de IP. Antes de enviar essa solicitação, é responsabilidade do remetente garantir que qualquer email proveniente do IP em questão não seja abusiva ou mal-intencionada.|
 |[Relatórios de abuso e spam para lixo eletrônico originado do Exchange Online](#abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online)|Mantém spam e outras mensagens indesejadas enviadas do Exchange Online e truncando a Internet e seu sistema de email.|
 
 ## <a name="microsoft-support"></a>Suporte da Microsoft
 
-A Microsoft oferece várias opções de suporte para pessoas com problemas de envio de email para caixas de entrada do Office 365. Recomendamos que você:
+A Microsoft oferece várias opções de suporte para pessoas com problemas de envio de email para caixas de entrada do Microsoft 365. Recomendamos que você:
 
 - Siga as instruções em qualquer notificação de falha na entrega que você receber.
 
 - Confira os problemas mais comuns que não os clientes encontram na [solução de problemas de email enviados para o Office 365](troubleshooting-mail-sent-to-office-365.md).
 
-- Use o [portal de deslistação do Office 365](https://sender.office.com) para enviar uma solicitação para que o seu IP seja removido da lista do remetente bloqueado.
+- Use o [portal de deslista da Microsoft 365](https://sender.office.com) para enviar uma solicitação para que o seu IP seja removido da lista do remetente bloqueado.
 
 - Leia os [fóruns da Comunidade da Microsoft](https://community.office365.com/f/).
 
-- Entre em contato com o cliente do Office 365 em que você está tentando enviar um email usando outro método e peça a ele para entrar em contato com o suporte da Microsoft e abrir um tíquete de suporte em seu nome. Em alguns casos, por motivos legais, o suporte da Microsoft deve se comunicar diretamente com o remetente que possui o espaço IP que está sendo bloqueado. No entanto, os usuários que não são normalmente não podem abrir tíquetes de suporte.
+- Entre em contato com o cliente em que você está tentando enviar um email usando outro método e peça a ele para entrar em contato com o suporte da Microsoft e abrir um tíquete de suporte em seu nome. Em alguns casos, por motivos legais, o suporte da Microsoft deve se comunicar diretamente com o remetente que possui o espaço IP que está sendo bloqueado. No entanto, os usuários que não são normalmente não podem abrir tíquetes de suporte.
 
   Para obter mais informações sobre o suporte técnico da Microsoft para o Office 365, consulte [support](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/support).
 
-## <a name="office-365-anti-spam-ip-delist-portal"></a>Portal de deslista de IPS do Office 365 anti-spam
+## <a name="anti-spam-ip-delist-portal"></a>Portal de deslista de IPS antispam
 
-Este é um portal de autoatendimento que você pode usar para se remover da lista de remetentes bloqueados do Office 365. Use este portal se você estiver recebendo uma mensagem de erro ao tentar enviar um email para um destinatário cujo endereço de email está no Office 365 e não achar que deve ser. Para obter mais informações, confira [Usar o portal para remoção da lista para remover seu nome na lista de remetentes bloqueados do Office 365](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md).
+Este é um portal de autoatendimento que você pode usar para ser removido da lista de remetentes bloqueados do Microsoft 365. Use este portal se você estiver recebendo uma mensagem de erro ao tentar enviar um email para um destinatário cujo endereço de email está no Microsoft 365 e você não achar que deve ser. Para saber mais, confira [usar o portal de remoção da lista para ser removido da lista de remetentes bloqueados](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md).
 
 ## <a name="abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online"></a>Relatórios de abuso e spam para lixo eletrônico originado do Exchange Online
 
-Às vezes, o Office 365 é usado por terceiros para enviar lixo eletrônico, violando nossos termos de uso e políticas. Se você receber uma mensagem de lixo eletrônico do Office 365, é possível relatar essas mensagens à Microsoft. Para obter instruções, consulte [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md).
+Às vezes, o Microsoft365 é usado por terceiros para enviar lixo eletrônico, violando nossos termos de uso e políticas. Se você receber uma mensagem de lixo eletrônico do Office 365, é possível relatar essas mensagens à Microsoft. Para obter instruções, consulte [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md).

@@ -1,5 +1,5 @@
 ---
-title: Como funcionam os links seguros de ATP do Office 365
+title: Como funcionam os Links Seguros da ATP
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -14,16 +14,16 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: O recurso de links seguros oferece verificação de horário de clique de hiperlinks em documentos do Office e em mensagens de email. Leia este artigo para saber como os links seguros de ATP funcionam.
-ms.openlocfilehash: c87eef2afbb3a694d9906de0c6c43bfeb576782b
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b77ab718afdc4f68d8120e11fa5d1a321b66f32e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633969"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638005"
 ---
-# <a name="how-office-365-atp-safe-links-works"></a>Como funcionam os links seguros de ATP do Office 365
+# <a name="how-atp-safe-links-works"></a>Como funcionam os Links Seguros da ATP
 > [!IMPORTANT] 
-> Para que os links seguros de ATP do Office 365 funcionem corretamente, todos os serviços do Office 365 precisam estar na mesma versão.
+> Para que os links seguros de ATP do Office 365 funcionem corretamente, todos os serviços precisam estar na mesma versão.
          
 ## <a name="how-atp-safe-links-works-with-urls-in-email"></a>Como os links seguros de ATP funcionam com URLs em email
 
@@ -51,9 +51,9 @@ Em um nível alto, veja como a proteção de [links de segurança ATP](atp-safe-
     
 ## <a name="how-atp-safe-links-works-with-urls-in-office-documents"></a>Como links seguros de ATP funciona com URLs em documentos do Office 
 
-Em um nível alto, veja como a proteção de [links de segurança ATP](atp-safe-links.md) funciona para URLs nos aplicativos do Office 365 ProPlus ou Business Premium (versões atuais do Word, Excel e PowerPoint no Windows, Mac ou em um navegador, aplicativos do Office em dispositivos IOS ou Android, Visio no Windows, OneNote em um navegador):
+Em um nível alto, veja como a proteção de [links seguros ATP](atp-safe-links.md) funciona para URLs nos aplicativos do Microsoft 365 para aplicativos Enterprise ou Business Premium (versões atuais do Word, Excel e PowerPoint no Windows, Mac ou em um navegador, aplicativos do Office em dispositivos IOS ou Android, Visio no Windows, OneNote em um navegador):
   
-1. As pessoas instalaram o Office 365 ProPlus ou Business Premium em seu computador, smartphone ou Tablet. (Ou, eles estão usando o Office em seu navegador.)
+1. As pessoas instalaram o Microsoft 365 aplicativos para empresas ou Business Premium em seus computadores, smartphones ou Tablet. (Ou, eles estão usando o Office em seu navegador.)
     
 2. Um usuário abre uma palavra, Excel, PowerPoint, OneNote (no navegador) ou Visio (no desktop) e entra no Office 365 Enterprise usando sua conta corporativa ou de estudante. O documento contém URLs.
     

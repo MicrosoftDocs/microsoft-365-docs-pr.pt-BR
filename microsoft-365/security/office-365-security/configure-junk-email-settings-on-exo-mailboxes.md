@@ -16,16 +16,16 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online. Muitas dessas configurações estão disponíveis para usuários no Outlook ou no Outlook na Web.
-ms.openlocfilehash: 2b138830cff7337d7949606cc110ea8f7ae1c0ff
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 689cec3f6a8b12764d03c98d23a9eb7ab6ca8e5e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42897004"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638435"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes-in-office-365"></a>Definir configurações de lixo eletrônico em caixas de correio do Exchange Online no Office 365
 
-As configurações antispam organizacionais do Exchange Online são controladas pela proteção do Exchange Online (EOP). Para obter mais informações, consulte [proteção antispam no Office 365](anti-spam-protection.md).
+As configurações antispam organizacionais do Exchange Online são controladas pela proteção do Exchange Online (EOP). Para obter mais informações, confira [Proteção antispam no Office 365](anti-spam-protection.md).
 
 No entanto, há também configurações antispam específicas que os administradores podem configurar em caixas de correio individuais no Exchange Online:
 
@@ -43,11 +43,11 @@ Os administradores podem usar o PowerShell do Exchange Online para desabilitar, 
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você só pode usar o PowerShell do Exchange Online para executar estes procedimentos. Para se conectar ao Exchange Online PowerShell, confira [Conectar ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+- Você só pode usar o PowerShell do Exchange Online para executar estes procedimentos. Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
 - Você precisa ter permissões para poder executar estes procedimentos. Especificamente, você precisará da função de **destinatários de email** (atribuída aos grupos de função **Gerenciamento da organização**, gerenciamento de **destinatários**e **destinatários de email personalizados** por padrão) ou à função **Opções do usuário** (atribuída aos grupos de funções Gerenciamento da **organização** e **suporte técnico** por padrão). Para adicionar usuários a grupos de funções no Exchange Online, confira [modificar grupos de função no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups). Observe que um usuário com permissões padrão pode executar esses mesmos procedimentos em suas próprias caixas de correio, desde que eles tenham [acesso ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
 
-- Em ambientes autônomos do EOP, onde o EOP protege as caixas de correio locais do Exchange, você precisa configurar regras de fluxo de emails (também conhecidas como regras de transporte) no Exchange local para traduzir o veredicto de filtragem de spam do EOP para que a regra de lixo eletrônico possa mover a mensagem para a pasta lixo eletrônico. Para obter detalhes, consulte [Configurar o EOP autônomo para fornecer spam à pasta lixo eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
+- Em ambientes da EOP autônoma, em que a EOP protege as caixas de correio locais do Exchange, é preciso configurar regras de fluxo de email (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP, de modo que a regra do lixo eletrônico possa mover as mensagens para a pasta de Lixo Eletrônico. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
 
 ## <a name="use-exchange-online-powershell-to-enable-or-disable-the-junk-email-rule-in-a-mailbox"></a>Usar o PowerShell do Exchange Online para habilitar ou desabilitar a regra de lixo eletrônico em uma caixa de correio
 
@@ -78,7 +78,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-Mailbo
 
 - Se o usuário nunca abriu a caixa de correio, você pode receber um erro ao executar o comando anterior. Para suprimir esse erro para operações em massa `-ErrorAction SlientlyContinue` , adicione ao comando **set-MailboxJunkEmailConfiguration** .
 
-- Mesmo que você desabilite a regra de lixo eletrônico, o filtro de lixo eletrônico do Outlook (dependendo de como ela é configurada) também pode determinar se uma mensagem é spam e se pode mover mensagens para a caixa de entrada ou pasta de lixo eletrônico com base no seu próprio spam veredicto e o conjunto de listas seguras em a caixa de correio. Para obter mais informações, consulte a seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) neste tópico.
+- Mesmo que você desabilite a regra de lixo eletrônico, o filtro de lixo eletrônico do Outlook (dependendo de como ela é configurada) também pode determinar se uma mensagem é spam e se pode mover mensagens para a caixa de entrada ou pasta de lixo eletrônico com base no seu próprio spam veredicto e a coleção SafeList na caixa de correio. Para obter mais informações, consulte a seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) neste tópico.
 
 ### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
 
@@ -169,7 +169,7 @@ Para verificar se você configurou com êxito a coleção de lista segura em uma
 
 ## <a name="about-junk-email-settings-in-outlook"></a>Sobre as configurações de lixo eletrônico no Outlook
 
-Para habilitar, desabilitar e configurar as definições de filtro de lixo eletrônico do lado do cliente disponíveis no Outlook, use a política de grupo. Para obter mais informações, consulte [arquivos de modelo administrativo (admx/adml) e ferramenta de personalização do Office para o office 365 ProPlus, office 2019 e office 2016](https://www.microsoft.com/download/details.aspx?id=49030).
+Para habilitar, desabilitar e configurar as definições de filtro de lixo eletrônico do lado do cliente disponíveis no Outlook, use a política de grupo. Para obter mais informações, consulte [arquivos de modelo administrativo (admx/adml) e ferramenta de personalização do Office para o Microsoft 365 aplicativos para Enterprise, office 2019 e office 2016](https://www.microsoft.com/download/details.aspx?id=49030).
 
 Quando o filtro de lixo eletrônico do Outlook está definido como o valor padrão **sem filtragem automática** nas **Opções**de **Opções** \> de **lixo** \> eletrônico **doméstica** \> , o Outlook não tenta classificar massages como spam, mas ainda usa a coleção de listas seguras (a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados) para mover mensagens para a pasta lixo eletrônico após a entrega. Para obter mais informações sobre essas configurações, consulte [visão geral do filtro de lixo eletrônico](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089).
 

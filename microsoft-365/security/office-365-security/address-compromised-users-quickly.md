@@ -1,5 +1,5 @@
 ---
-title: Endereçar contas de usuário comprometidas com investigação e resposta automatizadas no Office 365 proteção avançada contra ameaças
+title: Endereçar contas de usuário comprometidas com investigação e resposta automatizadas
 keywords: AIR, autoIR, ATP, automatizado, investigação, resposta, correção, ameaças, avançado, ameaça, proteção, comprometido
 ms.author: deniseb
 author: denisebmsft
@@ -14,12 +14,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.date: 02/25/2020
 description: Saiba como acelerar o processo de detecção e endereçamento de contas de usuário comprometidas com recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: e5444b0b628be9acba029829b6fbb275b9c2f554
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+ms.openlocfilehash: 60e9009ff77ebb58794ad7feaf522e1c6efc3039
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280209"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635767"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Endereçar contas de usuário comprometidas com investigação e resposta automatizadas
 
@@ -60,11 +60,11 @@ Quando uma conta de usuário é comprometida, os alertas são acionados. E, em a
 
 ### <a name="view-and-investigate-restricted-users"></a>Exibir e investigar usuários restritos
 
-Você tem algumas opções para navegar para uma lista de usuários restritos. Por exemplo, no centro de conformidade & segurança do Office 365, você pode ir **para gerenciamento** > de ameaças**examinar** > **usuários restritos**. O procedimento a seguir descreve a navegação usando o painel de **alertas** , que é uma boa maneira de ver vários tipos de alertas que podem ter sido acionados.
+Você tem algumas opções para navegar para uma lista de usuários restritos. Por exemplo, no centro de conformidade & segurança, você pode ir para **Gerenciamento** > de ameaças**examinar** > **usuários restritos**. O procedimento a seguir descreve a navegação usando o painel de **alertas** , que é uma boa maneira de ver vários tipos de alertas que podem ter sido acionados.
 
 1. Vá para [https://protection.office.com](https://protection.office.com) e entre.
 
-2. No painel de navegação, escolha **** > **painel**de alerta.
+2. No painel de navegação, escolha **Alerts** > **painel**de alerta.
 
 3. No widget **outros alertas** , escolha **usuários restritos**.<br/>
    ![Widget outros alertas](/microsoft-365/media/office365atp-otheralertswidget.jpg)<br/>
@@ -74,7 +74,7 @@ Você tem algumas opções para navegar para uma lista de usuários restritos. P
 
 ### <a name="view-details-about-automated-investigations"></a>Exibir detalhes sobre investigações automatizadas
 
-Quando uma investigação automatizada começou, você poderá ver seus detalhes e resultados no centro de conformidade & segurança do Office 365. Vá para **** > **investigações**de gerenciamento de ameaças e selecione uma investigação para exibir seus detalhes.
+Quando uma investigação automatizada começou, você poderá ver seus detalhes e resultados no centro de conformidade & segurança. Vá para **Threat management** > **investigações**de gerenciamento de ameaças e selecione uma investigação para exibir seus detalhes.
 
 Para saber mais, confira [Exibir detalhes de uma investigação](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results).
 

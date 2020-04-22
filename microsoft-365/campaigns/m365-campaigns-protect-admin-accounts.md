@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como configurar e proteger suas contas de administrador.
-ms.openlocfilehash: b74d9d2d69549bcaa476a346ba2a61fc24e0b3f3
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 2104697320308b329f9fde1b6984c15f9814f9ef
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633749"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633648"
 ---
 # <a name="protect-your-administrator-accounts"></a>Proteger suas contas de administrador
 
@@ -35,12 +35,12 @@ Como as contas de administrador vêm com privilégios elevados, elas são alvos 
 - Como configurar uma conta de administrador adicional para emergências.
 - Como proteger essas contas.
  
-Quando você se inscreve no Microsoft 365 Business e insere suas informações, você se torna automaticamente o administrador global. Um administrador global tem o controle final de contas de usuário e todas as outras configurações no centro de administração da Microsoft, mas há muitos tipos diferentes de contas de administrador com vários níveis de acesso. Consulte [sobre funções de administrador](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para obter informações sobre os diferentes níveis de acesso para cada tipo de função de administrador.
+Quando você se inscreve no Microsoft 365 e insere suas informações, você se torna automaticamente o administrador global. Um administrador global tem o controle final de contas de usuário e todas as outras configurações no centro de administração da Microsoft, mas há muitos tipos diferentes de contas de administrador com vários níveis de acesso. Consulte [sobre funções de administrador](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para obter informações sobre os diferentes níveis de acesso para cada tipo de função de administrador.
 
 
 ## <a name="create-additional-admin-accounts"></a>Criar contas de administração adicionais
 
-Use contas de administrador somente para administração. Os administradores devem ter uma conta de usuário separada para uso regular dos aplicativos do Office e usar apenas a conta administrativa, quando necessário, para gerenciar contas e dispositivos, e enquanto trabalham em outras funções de administrador. Também é uma boa ideia remover a licença do Microsoft 365 Business das contas de administrador para que você não precise pagar por elas.
+Use contas de administrador somente para administração. Os administradores devem ter uma conta de usuário separada para uso regular dos aplicativos do Office e usar apenas a conta administrativa, quando necessário, para gerenciar contas e dispositivos, e enquanto trabalham em outras funções de administrador. Também é uma boa ideia remover a licença do Microsoft 365 das contas de administrador para que você não precise pagar por elas.
 
 Convém configurar pelo menos uma conta de administrador global adicional para conceder acesso de administrador a outro funcionário confiável. Você também pode criar contas de administrador separadas para o gerenciamento de usuários (essa função é chamada de **administrador de gerenciamento de usuários**). Para obter mais informações, consulte [sobre funções de administrador](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
 

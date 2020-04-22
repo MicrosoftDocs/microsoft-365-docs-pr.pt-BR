@@ -17,12 +17,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: Saiba como usar os recursos de investigação e resposta contra ameaças para encontrar e investigar emails mal-intencionados.
-ms.openlocfilehash: 1b7cef7f079023dd88fe3f04eb1b7d159c4157ef
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: ec70bc585d4067357c9871cffc7475357fbfb5bb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955610"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634129"
 ---
 # <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Investigue e corrija emails mal-intencionados que foram entregues no Office 365
 
@@ -34,24 +34,24 @@ Verifique se os seguintes requisitos são atendidos:
   
 - Sua organização tem a [proteção avançada contra ameaças do Office 365](office-365-atp.md) e as [licenças são atribuídas aos usuários](../../admin/manage/assign-licenses-to-users.md).
     
-- O [log de auditoria do Office 365](../../compliance/turn-audit-log-search-on-or-off.md) está ativado para sua organização. 
+- o [log de auditoria](../../compliance/turn-audit-log-search-on-or-off.md) está ativado para sua organização. 
     
 - Sua organização tem políticas definidas para antispam, anti-malware, anti-phishing e assim por diante. Confira [proteção contra ameaças no Office 365](protect-against-threats.md).
     
-- Você é um administrador global do Office 365 ou tem o administrador de segurança ou a função de pesquisa e limpeza atribuída no centro de &amp; conformidade de segurança. Consulte [permissões no centro de conformidade de &amp; segurança do Office 365](permissions-in-the-security-and-compliance-center.md). Para algumas ações, você também deve ter uma nova função de visualização atribuída. 
+- Você é um administrador global ou tem o administrador de segurança ou a função de pesquisa e limpeza atribuída no centro de conformidade &amp; de segurança. Consulte [permissões no centro de &amp; conformidade de segurança](permissions-in-the-security-and-compliance-center.md). Para algumas ações, você também deve ter uma nova função de visualização atribuída. 
 
 #### <a name="preview-role-permissions"></a>Visualizar permissões de função
 
-Para executar determinadas ações, como exibir cabeçalhos de mensagens ou baixar conteúdo de mensagens de email, você deve ter uma nova função chamada *Preview* adicionada a outro grupo de função apropriado do Office 365. A tabela a seguir esclarece as funções e permissões necessárias.
+Para executar determinadas ações, como exibir cabeçalhos de mensagens ou baixar conteúdo de mensagens de email, você deve ter uma nova função chamada *Preview* adicionada a outro grupo de função apropriado. A tabela a seguir esclarece as funções e permissões necessárias.
 
 |Atividade  |Grupo de função |Função prévia necessária?  |
 |---------|---------|---------|
-|Usar o explorador de ameaças (e detecções em tempo real) para analisar ameaças     |Administrador Global do Office 365 <br> Administrador de Segurança <br> Leitor de segurança     | Não   |
-|Usar o explorador de ameaças (e detecções em tempo real) para exibir cabeçalhos para mensagens de email, bem como para visualizar e baixar mensagens de email em quarentena    |Administrador Global do Office 365 <br> Administrador de Segurança <br>Leitor de segurança   |       Não  |
-|Usar o explorador de ameaças para exibir cabeçalhos e baixar mensagens de email entregues a caixas de correio     |Administrador Global do Office 365 <br>Administrador de Segurança <br> Leitor de segurança <br> Visualização   |   Sim      |
+|Usar o explorador de ameaças (e detecções em tempo real) para analisar ameaças     |Administrador Global <br> Administrador de Segurança <br> Leitor de segurança     | Não   |
+|Usar o explorador de ameaças (e detecções em tempo real) para exibir cabeçalhos para mensagens de email, bem como para visualizar e baixar mensagens de email em quarentena    |Administrador Global <br> Administrador de Segurança <br>Leitor de segurança   |       Não  |
+|Usar o explorador de ameaças para exibir cabeçalhos e baixar mensagens de email entregues a caixas de correio     |Administrador Global <br>Administrador de Segurança <br> Leitor de segurança <br> Visualização   |   Sim      |
 
 > [!NOTE]
-> *Preview* é uma função e não um grupo de função; a função Preview deve ser adicionada a um grupo de função existente para o Office 365. A função de administrador global do Office 365 é atribuída ao centro de administração[https://admin.microsoft.com](https://admin.microsoft.com)do Microsoft 365 (), e as funções de administrador de segurança e leitor de segurança são atribuídas no[https://protection.office.com](https://protection.office.com)centro de conformidade & segurança do Office 365 (). Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade & segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
+> *Preview* é uma função e não um grupo de função; a função Preview deve ser adicionada a um grupo de função existente para o Office 365. A função de administrador global é atribuída ao centro de administração do[https://admin.microsoft.com](https://admin.microsoft.com)Microsoft 365 (), e as funções do administrador de segurança e do leitor de segurança são atribuídas no centro[https://protection.office.com](https://protection.office.com)de conformidade do & de segurança. Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="find-and-delete-suspicious-email-that-was-delivered"></a>Localizar e excluir emails suspeitos que foram entregues
 

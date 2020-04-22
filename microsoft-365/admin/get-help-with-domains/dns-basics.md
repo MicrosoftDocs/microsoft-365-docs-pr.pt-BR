@@ -1,5 +1,5 @@
 ---
-title: Noções básicas de DNS
+title: Noções básicas do DNS
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,13 +20,13 @@ search.appverid:
 - BSA160
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
-description: Saiba mais sobre domínios e seus registros DNS associados para ajudá-lo a gerenciar seus domínios do Office 365.
-ms.openlocfilehash: 4fd41102193a9e630ed04a9d1fb2e196dc94486b
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Aprenda sobre domínios e seus registros DNS associados para ajudá-lo a gerenciar seus domínios.
+ms.openlocfilehash: 0b1e969dbb8b172c799e98d5470860fec3625fc2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210463"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628477"
 ---
 # <a name="dns-basics"></a>Noções básicas do DNS
 
@@ -34,7 +34,7 @@ ms.locfileid: "43210463"
   
 ::: moniker range="o365-worldwide"
 
-Os nomes de domínio, como contoso.com, são gerenciados usando um sistema mundial de registradores de domínios e bancos de dados. O Sistema de Nomes de Domínio (DNS) fornece um mapeamento entre nomes de host de computador legíveis e os endereços IP usados pelo equipamento de rede. Noções básicas sobre o DNS e o registrador de domínios podem ajudá-lo a gerenciar domínios no Office 365.
+Os nomes de domínio, como contoso.com, são gerenciados usando um sistema mundial de registradores de domínios e bancos de dados. O Sistema de Nomes de Domínio (DNS) fornece um mapeamento entre nomes de host de computador legíveis e os endereços IP usados pelo equipamento de rede. Noções básicas sobre o DNS e o registrador de domínios podem ajudá-lo a gerenciar domínios.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c005f2a4-90ad-46fe-b1ab-90f41f2a9d53?autoplay=false]
   
@@ -144,7 +144,7 @@ Por que o arquivo de zona do seu domínio pode estar em outro lugar além do seu
 ::: moniker-end
 
 > [!NOTE]
-> Se você configurar seu domínio no Office 365 para que o [Office 365 configure e gerencie seus dados DNS](../setup/domains-faq.md#how-does-office-365-manage-my-dns-records), como parte da configuração, você [alterará o gerenciamento de DNS para o Office 365](../setup/domains-faq.md#change-dns-management-to-office-365). 
+> Se você configurar seu domínio no Office 365 para que o [Microsoft configure e gerencie seus dados DNS](../setup/domains-faq.md#how-does-office-365-manage-my-dns-records) para você, como parte da configuração, você [Alterará o gerenciamento do DNS para o Office 365](../setup/domains-faq.md#change-dns-management-to-office-365). 
  
 
 ::: moniker range="o365-worldwide"
@@ -154,13 +154,13 @@ Por que o arquivo de zona do seu domínio pode estar em outro lugar além do seu
 Adicionar um domínio personalizado, como fourthcoffee.com ao Office 365 permite que você use um endereço de email e uma identificação de usuário mais curtos e familiares com o serviço. Você [receberá um domínio para usar](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx) ao se inscrever em uma conta do Office 365, mas ele inclui o domínio “onmicrosoft.com”. Muitas pessoas preferem adicionar o domínio de suas organizações ou empresas quando planejam usar o Office 365 para emails. 
   
 > [!NOTE]
-> Você não precisa adicionar um domínio se deseja apenas baixar e usar os aplicativos do Office 365, como o Outlook ou o Word: [Instalar o Office no seu PC ou Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx). 
+> Se você quer apenas baixar e usar aplicativos da Microsoft, como Outlook ou Word, não precisa adicionar um domínio: [Instalar o Office no seu computador ou Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx). 
   
 É possível usar seu nome de domínio no Office 365 com seu email, site público e endereço do sistema de mensagens instantâneas.
   
 - **Email:** seu nome de domínio permite que você personalize seu email para que seja possível utilizar um endereço mais curto e mais fácil de lembrar que [o endereço de email inicial onmicrosoft.com](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx) que acompanha sua conta.  Portanto, em vez de paulo@contoso.onmicrosoft.com, o endereço de email (que também é a conta corporativa que você utiliza para entrar no Office 365) poderia ser paulo@contoso.com. 
     
-- **Site:** se você tiver uma assinatura do Office 365 que inclua um site público do SharePoint Online (não está mais disponível para compra), seu site público aparecerá com um endereço inicial como o seguinte: contoso-public.sharepoint.com. Se você configurar seu site para sua empresa, poderá usar um nome de domínio personalizado para renomear o endereço do site para algo como www.contoso.com. 
+- **Website:** Se você possui uma assinatura do Microsoft 365 que inclui um site público do SharePoint Online (não está mais disponível para compra), seu site público é fornecido com um endereço inicial como este: contoso-public.sharepoint.com. Se você configurar seu site para sua empresa, poderá usar um nome de domínio personalizado para renomear o endereço do site para algo como www.contoso.com. 
     
 - **Sistema de mensagens instantâneas:** seu endereço do Skype for Business Online também pode ser personalizado para utilizar seu nome de domínio, de modo que as pessoas em sua organização possam conectar-se umas com as outras no Skype for Business Online utilizando um endereço mais curto e mais fácil de lembrar (como paulo@contoso.com). 
     
@@ -179,7 +179,7 @@ Adicionar um domínio personalizado, como fourthcoffee.com ao Office 365 permite
   
 - **Email:** seu nome de domínio permite que você personalize seu email para que seja possível utilizar um endereço mais curto e mais fácil de lembrar que [o endereço de email inicial onmicrosoft.com](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx) que acompanha sua conta.  Portanto, em vez de paulo@contoso.onmicrosoft.com, o endereço de email (que também é a conta corporativa que você utiliza para entrar no Office 365) poderia ser paulo@contoso.com. 
     
-- **Site:** se você tiver uma assinatura do Office 365 que inclua um site público do SharePoint Online (não está mais disponível para compra), seu site público aparecerá com um endereço inicial como o seguinte: contoso-public.sharepoint.com. Se você configurar seu site para sua empresa, poderá usar um nome de domínio personalizado para renomear o endereço do site para algo como www.contoso.com. 
+- **Website:** Se você tiver uma assinatura que inclua um site público do SharePoint Online (não está mais disponível para compra), seu site público será exibido com um endereço inicial como o seguinte: contoso-public.sharepoint.com. Se você configurar seu site para sua empresa, poderá usar um nome de domínio personalizado para renomear o endereço do site para algo como www.contoso.com. 
     
 - **Sistema de mensagens instantâneas:** seu endereço do Skype for Business Online também pode ser personalizado para utilizar seu nome de domínio, de modo que as pessoas em sua organização possam conectar-se umas com as outras no Skype for Business Online utilizando um endereço mais curto e mais fácil de lembrar (como paulo@contoso.com). 
     
@@ -189,7 +189,7 @@ Adicionar um domínio personalizado, como fourthcoffee.com ao Office 365 permite
 
 Há diversos registros DNS necessários para que o Office 365 funcione com seu domínio. Além de configurar o registro MX de seu domínio para que os emails sejam enviados ao Office 365, existem registros para ajudá-lo com tarefas, como garantir que o Outlook possa se conectar automaticamente ao servidor do Exchange correto, configurar as mensagens instantâneas e ajudar a impedir mensagens de spam.
   
-Você pode [encontrar uma lista de valores](information-for-dns-records.md) para configurar seu domínio. Eles estão incluídos no portal do Office 365. 
+Você pode [encontrar uma lista de valores](information-for-dns-records.md) para configurar seu domínio. Eles estão incluídos diretamente no centro de administração do Microsoft 365. 
   
 Ou, se estiver planejando uma implantação, convém analisar uma lista de todos os registros DNS necessários para o Office 365, a função deles e os valores de exemplo. Confira os [registros de Sistema de Nomes de Domínio externos para o Office 365](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0). 
   

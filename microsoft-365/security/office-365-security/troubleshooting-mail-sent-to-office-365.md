@@ -1,5 +1,5 @@
 ---
-title: Solução de problemas de email enviados para o Office 365
+title: Solucionando problemas de email enviado para o Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 ms.collection:
 - M365-security-compliance
-description: Este artigo fornece informações de solução de problemas para remetentes que estão enfrentando problemas ao tentar enviar emails para caixas de entrada no Office 365 e práticas recomendadas para envio de email em massa para clientes do Office 365.
-ms.openlocfilehash: 7c5d355f1037df94d856ffff7080d4a12d22f709
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Este artigo fornece informações de solução de problemas para remetentes que estão enfrentando problemas ao tentar enviar emails para caixas de entrada no Microsoft 365 e práticas recomendadas para envio de emails em massa para clientes.
+ms.openlocfilehash: 89fd6d11cca0d7689203948922b27e46ae2c602a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211902"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631140"
 ---
 # <a name="troubleshooting-mail-sent-to-office-365"></a>Solução de problemas de email enviados para o Office 365
 
-Este artigo fornece informações de solução de problemas para remetentes que estão enfrentando problemas ao tentar enviar emails para caixas de entrada no Office 365 e práticas recomendadas para envio de email em massa para clientes do Office 365.
+Este artigo fornece informações de solução de problemas para remetentes que estão enfrentando problemas ao tentar enviar emails para caixas de entrada no Microsoft 365 e práticas recomendadas para envio de emails em massa para clientes.
 
 ## <a name="troubleshooting-common-problems-with-mail-delivery-to-office-365"></a>Solucionando problemas comuns com a entrega de emails para o Office 365
 
@@ -47,7 +47,7 @@ Escolha um desses problemas normalmente encontrados.
 
 ### <a name="are-you-managing-your-ip-and-domains-sending-reputation"></a>Você está gerenciando sua reputação de envio de IP e de domínio?
 
-As tecnologias de filtragem do EOP são projetadas para fornecer proteções antispam para o Microsoft Office 365, bem como outros produtos da Microsoft, como o Exchange Server, o Microsoft Office Outlook e o Windows Live mail. Também aproveitamos o SPF, DKIM e DMARC; tecnologias de autenticação de email que ajudam a resolver o problema de falsificação e phishing, verificando se o domínio que envia o email está autorizado a fazer isso. A filtragem EOP é influenciada por vários fatores relacionados ao IP de envio, domínio, autenticação, precisão da lista, taxas de reclamação, conteúdo e muito mais. Desses, um dos principais fatores para a condução da reputação de um remetente e sua capacidade de entregar emails é a taxa de reclamação de lixo eletrônico.
+As tecnologias de filtragem do EOP são projetadas para fornecer proteções antispam para o Microsoft 365, bem como outros produtos da Microsoft, como o Exchange Server, o Microsoft Office Outlook e o Windows Live mail. Também aproveitamos o SPF, DKIM e DMARC; tecnologias de autenticação de email que ajudam a resolver o problema de falsificação e phishing, verificando se o domínio que envia o email está autorizado a fazer isso. A filtragem EOP é influenciada por vários fatores relacionados ao IP de envio, domínio, autenticação, precisão da lista, taxas de reclamação, conteúdo e muito mais. Desses, um dos principais fatores para a condução da reputação de um remetente e sua capacidade de entregar emails é a taxa de reclamação de lixo eletrônico.
 
 ### <a name="are-you-sending-email-from-new-ip-addresses"></a>Você está enviando emails de novos endereços IP?
 
@@ -79,7 +79,7 @@ Para obter mais informações sobre o erro recebido, consulte a lista de código
 
  `550 5.7.606-649 Access denied, banned sending IP [x.x.x.x]; To request removal from this list please visit https://sender.office.com/ and follow the directions.`
 
-Para solicitar a remoção dessa lista, você pode [usar o portal de deslista para se remover da lista de remetentes bloqueados do Office 365](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md).
+Para solicitar a remoção dessa lista, você pode [usar o portal de remoção da lista para removê-lo da lista de remetentes bloqueados](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md).
 
 ### <a name="my-email-landed-in-the-recipients-junk-folder-in-eop"></a>Meu email Redirecionado na pasta lixo eletrônico do destinatário no EOP
 
@@ -112,9 +112,9 @@ Você recebeu a notificação de falha na entrega porque a atividade suspeita fo
 
  Para receber mensagens de nossos usuários, certifique-se de que a sua rede permite conexões dos endereços IP que o EOP usa em nossos data centers. Confira mais informações em [endereços IP do Exchange Online Protection](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
-## <a name="best-practices-for-bulk-emailing-to-office-365-users"></a>Práticas recomendadas para envio de email em massa para usuários do Office 365
+## <a name="best-practices-for-bulk-emailing-to-microsoft-365-users"></a>Práticas recomendadas para envio de email em massa para usuários do Microsoft 365
 
-Se você costuma conduzir campanhas de email em massa para os usuários do Office 365 e quiser garantir que seus emails cheguem de forma segura e oportuna, siga as dicas desta seção.
+Se você costuma conduzir campanhas de email em massa para os usuários do Microsoft 365 e quiser garantir que seus emails cheguem de forma segura e oportuna, siga as dicas desta seção.
 
 ### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>Verifique se o nome de: reflete quem está enviando a mensagem
 

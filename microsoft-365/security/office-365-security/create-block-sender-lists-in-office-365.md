@@ -1,5 +1,5 @@
 ---
-title: Criar listas de remetentes bloqueados no Office 365
+title: Criar listas de remetentes bloqueados
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,17 +12,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150s
-description: Os administradores podem aprender sobre as opções disponíveis no Office 365 e EOP para bloquear mensagens de entrada.
-ms.openlocfilehash: 9d53f49862bd69a846cb80ef584226a0940d2b22
-ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
+description: Os administradores podem aprender sobre as opções disponíveis no Microsoft 365 e EOP para bloquear mensagens de entrada.
+ms.openlocfilehash: 626eff3a1ea28cc16b12acaaa2ba52f7d094a347
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43608109"
+ms.locfileid: "43637683"
 ---
-# <a name="create-blocked-sender-lists-in-office-365"></a>Criar listas de remetentes bloqueados no Office 365
+# <a name="create-blocked-sender-lists"></a>Criar listas de remetentes bloqueados
 
-Se você for um cliente do Office 365 com caixas de correio no Exchange Online ou um cliente autônomo do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece várias maneiras de bloquear emails de remetentes indesejados. Essas opções incluem remetentes bloqueados do Outlook, listas de remetentes bloqueados ou listas de domínios bloqueados em políticas antispam, regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) e a lista de IPs bloqueados (filtragem de conexão). Coletivamente, você pode imaginar essas opções como _listas de remetentes bloqueados_.
+Se você for um cliente Microsoft 365 com caixas de correio no Exchange Online ou um cliente autônomo do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece várias maneiras de bloquear emails de remetentes indesejados. Essas opções incluem remetentes bloqueados do Outlook, listas de remetentes bloqueados ou listas de domínios bloqueados em políticas antispam, regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) e a lista de IPs bloqueados (filtragem de conexão). Coletivamente, você pode imaginar essas opções como _listas de remetentes bloqueados_.
 
 O melhor método para bloquear remetentes varia de acordo com o escopo do impacto. Para um único usuário, a solução certa pode ser remetentes bloqueados do Outlook. Para muitos usuários, uma das outras opções seria mais apropriada. As opções a seguir são classificadas pelo escopo de impacto e por amplitude. A lista vai de estreito a amplo, mas *Leia as especificações* de recomendações completas.
 
@@ -37,11 +37,11 @@ O melhor método para bloquear remetentes varia de acordo com o escopo do impact
 > [!NOTE]
 > Embora você possa usar as configurações de bloco em toda a organização para tratar de falsos negativos (spam perdido), você também deve enviar essas mensagens para a Microsoft para análise. O gerenciamento de falsos negativos usando listas de bloqueio aumenta significativamente a sobrecarga administrativa. Se você usar listas de bloqueio para desviar o spam perdido, precisará manter o tópico [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md) em mãos.
 
-Por outro lado, você também tem várias opções para sempre permitir emails de fontes específicas usando _listas de remetentes seguros_. Para obter mais informações, consulte [criar listas de remetentes seguros no Office 365](create-safe-sender-lists-in-office-365.md).
+Por outro lado, você também tem várias opções para sempre permitir emails de fontes específicas usando _listas de remetentes seguros_. Para obter mais informações, consulte [criar listas de remetentes seguros](create-safe-sender-lists-in-office-365.md).
 
 ## <a name="use-outlook-blocked-senders"></a>Usar remetentes bloqueados do Outlook
 
-Quando apenas um pequeno número de usuários recebe emails indesejados, os usuários ou administradores podem adicionar os endereços de email do remetente à lista de remetentes bloqueados na caixa de correio. Para obter instruções, consulte [definir configurações de lixo eletrônico em caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
+Quando apenas um pequeno número de usuários recebe emails indesejados, os usuários ou administradores podem adicionar os endereços de email do remetente à lista de remetentes bloqueados na caixa de correio. Para obter instruções, consulte [definir configurações de lixo eletrônico em caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md).
 
 Quando as mensagens são bloqueadas com êxito devido à lista de remetentes bloqueados de um usuário, o campo de cabeçalho **X-Forefront-antispam-Report** conterá o valor `SFV:BLK`.
 
@@ -50,7 +50,7 @@ Quando as mensagens são bloqueadas com êxito devido à lista de remetentes blo
 
 ## <a name="use-blocked-sender-lists-or-blocked-domain-lists"></a>Usar listas de remetentes bloqueados ou listas de domínios bloqueados
 
-Quando vários usuários são afetados, o escopo é mais largo, portanto, a melhor opção é bloquear listas de remetentes bloqueados ou listas de domínios bloqueados em políticas antispam. As mensagens de remetentes nas listas são marcadas como **spam**e a ação que você configurou para o filtro de **spam** veredicto é tomada na mensagem. Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
+Quando vários usuários são afetados, o escopo é mais largo, portanto, a melhor opção é bloquear listas de remetentes bloqueados ou listas de domínios bloqueados em políticas antispam. As mensagens de remetentes nas listas são marcadas como **spam**e a ação que você configurou para o filtro de **spam** veredicto é tomada na mensagem. Para obter mais informações, consulte [Configure anti-spam Policies](configure-your-spam-filter-policies.md).
 
 O limite máximo para essas listas é de aproximadamente 1000 entradas.
 

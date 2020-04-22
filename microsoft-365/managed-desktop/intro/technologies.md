@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: beab5df5b978cc3e2fd6dd345609a22209501298
-ms.sourcegitcommit: 237589a0c8a24510e5c8f3b8b4747d944ad0afbf
+ms.openlocfilehash: 8a86220e7fcfe4c2e788b28842c77d238d98fda4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "37113714"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636191"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Tecnologias de área de trabalho gerenciada da Microsoft
 
@@ -27,7 +27,7 @@ Este tópico resume os componentes incluídos nas licenças corporativas necess�
 ## <a name="office-365-e3-or-e5"></a>Office 365 E3 ou e5
  |
  --- | ---
-Office 365 ProPlus (64 bits) | Esses aplicativos do Office serão enviados com o dispositivo: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business, OneNote.<br><br>As versões completas de 64 bits do Microsoft Project e do Microsoft Visio não estão incluídas. No entanto, como a instalação desses aplicativos depende da instalação do Office 365 ProPlus, a área de trabalho gerenciada da Microsoft criou implantações e grupos de segurança padrão do Microsoft Intune que você pode usar para implantar esses aplicativos em licença usuários finais. Para obter mais informações, consulte [instalar o Microsoft Project ou o Microsoft Visio em dispositivos de área de trabalho gerenciada da Microsoft](../get-started/project-visio.md).
+Aplicativos da Microsoft 365 para empresas (64 bits) | Esses aplicativos do Office serão enviados com o dispositivo: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business, OneNote.<br><br>As versões completas de 64 bits do Microsoft Project e do Microsoft Visio não estão incluídas. No entanto, como a instalação desses aplicativos depende da instalação dos aplicativos do Microsoft 365 para Enterprise, a área de trabalho gerenciada da Microsoft criou implantações e grupos de segurança padrão do Microsoft Intune que você pode usar para implantar esses aplicativos em usuários finais licenciados. Para obter mais informações, consulte [instalar o Microsoft Project ou o Microsoft Visio em dispositivos de área de trabalho gerenciada da Microsoft](../get-started/project-visio.md).
 OneDrive for Business |O logon único do Azure Active Directory está habilitado para usuários finais na primeira vez que entrar no OneDrive for Business.<br><br>O redirecionamento de pasta conhecida para as pastas "área de trabalho", "documento" e "imagens" está incluído; habilitado e configurado pela área de trabalho gerenciada da Microsoft. 
 Armazenar aplicativos |    O Microsoft Sway e o Power BI não são fornecidos com o dispositivo. Esses aplicativos estão disponíveis para download na Microsoft Store.
 Aplicativos Win32 |    O Teams não é fornecido com o dispositivo, mas é empacotado e fornecido pela Microsoft para os dispositivos de área de trabalho gerenciada da Microsoft. O cliente de proteção de informações do Azure não é fornecido com o dispositivo, mas você pode ter esse pacote para implantação. 

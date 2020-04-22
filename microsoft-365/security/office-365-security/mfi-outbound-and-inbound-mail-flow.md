@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f2738dec-41b0-43c4-b814-84c0a4e45c6d
 description: Os administradores podem saber mais sobre o widget fluxo de email de entrada e de saída no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 5c86db8e33ff3ee1dc4d9d126239465b3c84bde5
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a1070783f60edf2de62d78c3094e9c20e3dd26f3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088422"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635191"
 ---
 # <a name="outbound-and-inbound-mail-flow"></a>Fluxo de entrada e saída de emails
 
@@ -33,19 +33,19 @@ As informações no widget estão relacionadas a conectores e proteção de mens
 
 ## <a name="message-protected-in-transit-by-tls"></a>Mensagem protegida em trânsito (por TLS)
 
-O widget **saída e fluxo de emails de entrada** exibe a criptografia TLS que é usada para a conexão quando as mensagens são entregues e de sua organização do Office 365. As conexões estabelecidas com outros serviços de email são criptografadas por TLS quando o TLS é oferecido por ambos os lados. O widget oferece um instantâneo da última semana de fluxo de emails. Quando você clica em **Exibir detalhes**, o submenu **mensagem protegido por transporte (TLS)** mostra a proteção TLS para mensagens que entram e saem da sua organização.
+O widget **saída e fluxo de emails de entrada** exibe a criptografia TLS que é usada para a conexão quando as mensagens são entregues para e da sua organização. As conexões estabelecidas com outros serviços de email são criptografadas por TLS quando o TLS é oferecido por ambos os lados. O widget oferece um instantâneo da última semana de fluxo de emails. Quando você clica em **Exibir detalhes**, o submenu **mensagem protegido por transporte (TLS)** mostra a proteção TLS para mensagens que entram e saem da sua organização.
 
 ![O submenu mensagens protegidas em trânsito (por TLS) no centro de conformidade & segurança](../../media/825aa74c-413d-4141-8e3c-dfe68ae78eed.png)
 
 Atualmente, o TLS 1,2 é a versão mais segura do TLS oferecido pelo Office 365. Muitas vezes, você precisará saber a criptografia TLS que está sendo usada para auditorias de conformidade. Provavelmente você não tem uma relação direta com a maioria dos servidores de email de origem e de destino (você não é proprietário deles, e nenhuma da Microsoft), portanto, você não tem muitas opções para melhorar a criptografia TLS usada por esses servidores.
 
-No entanto, você pode usar [conectores](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) para garantir a melhor proteção TLS disponível para mensagens enviadas entre seus servidores de email e o Office 365. O fluxo de email entre o Office 365 e seus próprios servidores de email ou servidores que pertencem a seus parceiros é freqüentemente mais importante e confidencial do que as mensagens normais, portanto, você deve aplicar segurança e vigilância extra a essas mensagens. Você pode atualizar ou corrigir seus próprios servidores de email para melhorar a criptografia TLS que está sendo usada ou acessar seus parceiros para fazer o mesmo. O **relatório do conector** exibe o volume de fluxo de emails e a criptografia TLS para mensagens que usam os conectores do Office 365.
+No entanto, você pode usar [conectores](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) para garantir a melhor proteção TLS disponível para mensagens enviadas entre seus servidores de email e o Office 365. O fluxo de email entre o Microsoft 365 e seus próprios servidores de email ou servidores que pertencem a seus parceiros é freqüentemente mais importante e confidencial do que as mensagens normais, portanto, você deve aplicar segurança e vigilância extra a essas mensagens. Você pode atualizar ou corrigir seus próprios servidores de email para melhorar a criptografia TLS que está sendo usada ou acessar seus parceiros para fazer o mesmo. O **relatório do conector** exibe o volume de fluxo de emails e a criptografia TLS para mensagens que usam seus conectores do Microsoft 365.
 
 ## <a name="connector-report"></a>Relatório do conector
 
-Quando você clica no link de **relatório do conector** a partir do submenu **mensagem protegido em trânsito (por TLS)** , o relatório exibe informações sobre as mensagens que são entregues na sua organização do Office 365 usando conectores. Você usa conectores entre seus próprios servidores de email e o Office 365 ou os servidores do seu parceiro e o Office 365. O volume da mensagem para cada conector e a criptografia TLS para a conexão está disponível. Além disso, você também pode exibir dados de mensagens que foram enviadas ou recebidas no Office 365 sem usar um conector.
+Quando você clica no link de **relatório do conector** a partir do submenu **mensagem protegido em trânsito (por TLS)** , o relatório exibe informações sobre as mensagens que são entregues na sua organização usando conectores. Você usa conectores entre seus próprios servidores de email e o Microsoft 365 ou os servidores do seu parceiro e o Office 365. O volume da mensagem para cada conector e a criptografia TLS para a conexão está disponível. Além disso, você também pode exibir dados de mensagens que foram enviadas ou recebidas no Microsoft 365 sem usar um conector.
 
-O modo de exibição de **fluxo de emails** mostra o volume de mensagens por meio do conector da última semana. Você pode alterar o intervalo de datas selecionando **filtro** onde você pode aumentar o intervalo para no máximo 30 dias. O modo de exibição **All Mail Flow** mostra todo o fluxo de emails de e para sua organização do Office 365 por meio de todos os conectores. Você pode selecionar um conector específico por nome no menu suspenso.
+O modo de exibição de **fluxo de emails** mostra o volume de mensagens por meio do conector da última semana. Você pode alterar o intervalo de datas selecionando **filtro** onde você pode aumentar o intervalo para no máximo 30 dias. O modo de exibição **All Mail Flow** mostra todo o fluxo de emails de e para sua organização por meio de todos os conectores. Você pode selecionar um conector específico por nome no menu suspenso.
 
 Você pode selecionar o modo de exibição de **uso de TLS** no menu suspenso para ver a divisão da proteção TLS para mensagens por meio do conector. Assim como o relatório de **relatório de visão geral de TLS** , este modo de exibição mostra a porcentagem das diferentes versões de TLS. Para conexões TLS 1,0, você realmente precisa obter o servidor de email ou o servidor de seu parceiro atualizado ou corrigido para evitar qualquer problema quando o suporte a TLS 1,0 for eventualmente preterido no Office 365. Para obter mais informações, consulte [Technical Reference Details about Encryption in Office 365](https://docs.microsoft.com/microsoft-365/compliance/technical-reference-details-about-encryption).
 

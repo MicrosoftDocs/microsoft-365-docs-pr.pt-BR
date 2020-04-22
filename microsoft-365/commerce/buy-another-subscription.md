@@ -1,5 +1,5 @@
 ---
-title: Comprar outra assinatura do Office 365 para empresas
+title: Comprar outra assinatura do Microsoft 365 for Business
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,26 +20,27 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: fab3b86c-3359-4042-8692-5d4dc7550b7c
-description: 'Saiba como comprar outra assinatura do Office 365 for Business para sua organização quando você já tiver uma assinatura. '
+description: 'Saiba como comprar outra assinatura do Microsoft 365 for Business para sua organização quando você já tem uma assinatura. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 785080003a8abfac823239bd708eb2e442aa768f
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: fe07ea5bcb977b867fe02cc69706595f3ff5064e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142258"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634927"
 ---
-# <a name="buy-another-office-365-for-business-subscription"></a>Comprar outra assinatura do Office 365 para empresas
+# <a name="buy-another-microsoft-365-for-business-subscription"></a>Comprar outra assinatura do Microsoft 365 for Business
 
-Se você já tiver uma assinatura do Office 365 for Business e quiser comprar outra assinatura para sua organização, a melhor maneira é fazer isso por meio do centro de administração. Se você ainda não comprou a primeira assinatura do Office 365 for Business para sua organização, vá [aqui](https://products.office.com/business/compare-office-365-for-business-plans) para escolher um plano.
+Se você já tem uma assinatura do Microsoft 365 for Business e deseja comprar outra assinatura para sua organização, a melhor maneira é fazer isso por meio do centro de administração. Se você ainda não comprou a primeira assinatura do Microsoft 365 for Business para sua organização, vá [aqui](https://products.office.com/business/compare-office-365-for-business-plans) para escolher um plano.
   
 Ao comprar outra assinatura através do centro de administração, você tem a garantia de que a nova assinatura será associada à mesma organização (espaço de nome de domínio) como sua assinatura existente. Isso facilita a transferência de usuários dentro da sua organização entre as assinaturas ou a atribuição de uma licença de usuário para a assinatura adicional de que precisam.
   
-Após adquirir uma nova assinatura, você precisará atribuir aos usuários que você deseja usar a assinatura de uma licença de usuário. Para saber como, confira [atribuir licenças aos usuários no Office 365 para empresas](../admin/manage/assign-licenses-to-users.md).
+Após adquirir uma nova assinatura, você precisará atribuir aos usuários que você deseja usar a assinatura de uma licença de usuário. Para saber como, confira [atribuir licenças aos usuários no Microsoft 365 para empresas](../admin/manage/assign-licenses-to-users.md).
   
 ## <a name="buy-another-subscription"></a>Comprar outra assinatura
 
 ::: moniker range="o365-worldwide"
+
 
 1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de **cobrança** \> .
 

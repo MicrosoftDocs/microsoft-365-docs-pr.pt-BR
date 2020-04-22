@@ -15,25 +15,25 @@ search.appverid:
 ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 ms.collection:
 - M365-security-compliance
-description: Saiba como o pool de entrega de alto risco é usado para proteger a reputação de servidores de email nos datacenters do Office 365.
-ms.openlocfilehash: 5d1bd2b14eb17ed74ee1cf1e44967f660f4595b8
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: Saiba como o pool de entrega de alto risco é usado para proteger a reputação de servidores de email nos datacenters do Microsoft 365.
+ms.openlocfilehash: 7fb4788361534335be1e07bae44ed7511bebe434
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895354"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638029"
 ---
-# <a name="high-risk-delivery-pool-for-outbound-messages-in-office-365"></a>Pool de entrega de alto risco para mensagens de saída no Office 365
+# <a name="high-risk-delivery-pool-for-outbound-messages"></a>Pool de entrega de alto risco para mensagens de saída
 
-Servidores de email nos datacenters do Office 365 podem ser temporariamente culpados no envio de spam. Por exemplo, um ataque de malware ou spam mal-intencionado em uma organização de email local que envia emails de saída através do Office 365 ou contas comprometidas do Office 365. Esses cenários podem resultar no endereço IP dos servidores de datacenters do Office 365 afetados que aparecem nas listas de bloqueios de terceiros. As organizações de email de destino que usam essas listas de bloqueio rejeitarão emails dessas fontes de mensagens.
+Os servidores de email nos datacenters do Microsoft 365 podem ser temporariamente culpados no envio de spam. Por exemplo, um ataque de malware ou spam mal-intencionado em uma organização de email local que envia emails de saída pelo Microsoft 365 ou contas do Microsoft 365 comprometidas. Esses cenários podem resultar no endereço IP dos servidores de datacenters do Microsoft 365 afetados que aparecem nas listas de bloqueios de terceiros. As organizações de email de destino que usam essas listas de bloqueio rejeitarão emails dessas fontes de mensagens.
 
-Para evitar isso, todas as mensagens de saída dos servidores de datacenter do Office 365 que são determinados como spam ou que excedem os limites de envio do [serviço](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) ou [as políticas de spam de saída](configure-the-outbound-spam-policy.md) são enviadas através do pool de entrega de _alto risco_.
+Para evitar isso, todas as mensagens de saída dos servidores de datacenter da Microsoft 365 que são determinados como spam ou que excedem os limites de envio do [serviço](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) ou [as políticas de spam de saída](configure-the-outbound-spam-policy.md) são enviadas através do pool de _entrega de alto risco_.
 
 O pool de entrega de alto risco é um pool de endereços IP secundário para email de saída que só é usado para enviar mensagens de "baixa qualidade" (por exemplo, spam e [dispersão](backscatter-messages-and-eop.md)). O uso do pool de entrega de alto risco ajuda a evitar que o pool de endereços IP normal para email de saída envie spam. O pool de endereços IP normal para email de saída mantém a reputação de enviar mensagens de "alta qualidade", o que reduz a probabilidade de que esse endereço IP apareça em listas de bloqueios de IP.
 
 A possibilidade real de que os endereços IP no pool de entrega de alto risco sejam colocados em listas de bloqueios de IP permaneça, mas isso ocorre por design. A entrega aos destinatários pretendidos não é garantida, pois muitas organizações de email não aceitarão mensagens do pool de entrega de alto risco.
 
-Para obter mais informações, consulte [controlar spam de saída no Office 365](outbound-spam-controls.md).
+Para obter mais informações, consulte [controlar spam de saída](outbound-spam-controls.md).
 
 > [!NOTE]
 > Mensagens em que o domínio de email de origem não tem um registro A e nenhum registro MX definido no DNS público sempre é roteado através do pool de entrega de alto risco, independentemente da disposição de spam ou de limite de envio.

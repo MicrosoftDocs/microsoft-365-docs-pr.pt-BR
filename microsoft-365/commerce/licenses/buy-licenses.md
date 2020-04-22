@@ -24,13 +24,13 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
-description: Saiba como adicionar e remover licenças para sua assinatura do Office 365 for Business.
-ms.openlocfilehash: abfa479d991bac72bd3e9e5c1c422368758b17a7
-ms.sourcegitcommit: 4ddbc1c3c29d79d3c4640b7b32f95576784efcca
+description: Saiba como adicionar e remover licenças da sua assinatura do Microsoft 365 for Business.
+ms.openlocfilehash: ce14021b3d6efaa14c9010a82ad4b522b0b08339
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240275"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632524"
 ---
 # <a name="manage-subscription-licenses"></a>Gerencie licenças de assinatura
 
@@ -84,7 +84,7 @@ Após adquirir novas licenças, certifique-se de [atribuir as licenças aos usu�
 
 ## <a name="what-if-i-dont-see-the-addremove-licenses-link"></a>Não está vendo o link para Adicionar/Remover licenças?
 
-Esta tabela descreve os motivos pelos quais o link **Adicionar/remover licenças** pode não estar disponível e o que você pode fazer sobre ele.
+Esta tabela descreve os motivos pelos quais o link **Adicionar/remover licenças** pode não estar disponível e o que você pode fazer sobre ele. 
 
 |Reason  |Descrição  |Solução  |
 |---------|---------|---------|
@@ -92,14 +92,14 @@ Esta tabela descreve os motivos pelos quais o link **Adicionar/remover licenças
 |Você ativou a assinatura usando uma chave do produto (Product Key).| Se a assinatura foi adquirida e ativada usando uma chave do produto (Product Key) de 25 caracteres, você verá o texto "Pré-paga".  |Confira [adicionar licenças a uma assinatura paga para usar uma chave do produto (Product Key](add-licenses-using-product-key.md)). |
 |Você comprou sua assinatura por meio de um parceiro. | Se a assinatura foi adquirida por meio de um parceiro, você verá o link do Centro de Serviços de Licenciamento por Volume (VLSC). | Confira [adicionar licenças a uma assinatura adquirida por meio do centro de serviços de licenciamento por volume](add-licenses-bought-through-vlsc.md). |
 |Você comprou sua assinatura por meio de um revendedor.|| Se a assinatura foi adquirida por meio de um parceiro CSP (Provedor de Soluções na Nuvem da Microsoft), você deve falar com ele para comprar mais licenças.        |
-|Você tem uma assinatura de avaliação. |Uma versão de avaliação do Office 365 exibe o texto "Avaliação". | Você deve primeiro comprar sua assinatura de avaliação e, em seguida, pode adicionar mais licenças. Veja [comprar uma assinatura do Office 365 for Business em sua avaliação gratuita](../buy-a-subscription-from-your-free-trial.md).|
+|Você tem uma assinatura de avaliação. |Uma versão de avaliação do Microsoft 365 exibirá o texto "avaliação". | Você deve primeiro comprar sua assinatura de avaliação e, em seguida, pode adicionar mais licenças. Veja [comprar uma assinatura para a Microsoft 365 for Business em sua avaliação gratuita](../buy-a-subscription-from-your-free-trial.md).|
 
 ## <a name="what-you-need-to-know-about-buying-licenses-for-your-business-subscription"></a>O que você precisa saber sobre comprar licenças para sua assinatura comercial
 
 ### <a name="buying-licenses"></a>Licenças de compra
 
 - Você precisa ser um administrador global ou um administrador de cobrança para comprar licenças. Para obter mais informações, consulte [sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
-- Para adquirir uma licença e adicionar um novo usuário à sua assinatura ao mesmo tempo, confira [Adicionar usuários individualmente ou em massa ao Office 365 - Ajuda para administradores](../../admin/add-users/add-users.md).
+- Para comprar uma licença e adicionar um novo usuário à sua assinatura ao mesmo tempo, confira [Adicionar usuários individualmente ou em massa Microsoft 365-ajuda para administradores](../../admin/add-users/add-users.md).
 
 ### <a name="license-availability"></a>Disponibilidade da licença
 

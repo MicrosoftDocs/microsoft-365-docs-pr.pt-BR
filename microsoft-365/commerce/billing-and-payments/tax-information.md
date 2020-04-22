@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 - MOE150
 - BEA160
-description: 'Descubra quanto de impostos você será cobrado para sua assinatura do Office 365 for Business em diferentes regiões. '
+description: 'Descubra quanto de impostos você será cobrado para sua assinatura do Microsoft 365 for Business em diferentes regiões. '
 ms.custom: okr_SMB
-ms.openlocfilehash: f437e2f58797f3cc092b50611f34ecb2ce9cf3b0
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: e65dc15237cb14959a68a7413227cec2a3163d60
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826308"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634999"
 ---
-# <a name="tax-information"></a>Informações sobre impostos
+# <a name="tax-information"></a>Informação de imposto
 
-Os impostos para compras do centro de administração do Microsoft 365 que você faz através da Microsoft são determinados pelo endereço comercial ou, se for diferente, pelo seu endereço de entrega. Se estiver nos Estados Unidos, você deve fornecer um número de identificação de empregador Federal (FEIN).
+Tributação sobre as compras do Centro de administração do Microsoft 365 feitas através da Microsoft são determinadas por seu endereço comercial ou, se for diferente, pelo endereço de entrega. Se estiver nos Estados Unidos, você deve fornecer um número de identificação de empregador Federal (FEIN).
 
 As empresas nesses países podem fornecer o número de IVA:
 

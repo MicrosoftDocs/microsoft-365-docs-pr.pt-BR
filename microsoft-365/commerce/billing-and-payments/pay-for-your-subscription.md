@@ -1,5 +1,5 @@
 ---
-title: Pagar por sua assinatura do Office 365 para empresas
+title: Pagar por sua assinatura
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 734f4aab-df2d-4e9b-8cb1-691910bde216
-description: Saiba quais são as opções de pagamento disponíveis para pagar pela sua assinatura do Office 365 for Business.
+description: Saiba quais opções de pagamento estão disponíveis para pagar sua assinatura do Microsoft 365 for Business.
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: dfecd2ec5ca72f8e00e664f3f54d7125fe8d21b6
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.openlocfilehash: ccf04de4fe11469241e734a202aad3e20778843c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43540898"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635011"
 ---
-# <a name="pay-for-your-office-365-for-business-subscription"></a>Pagar por sua assinatura do Office 365 para empresas
+# <a name="pay-for-your-subscription"></a>Pagar por sua assinatura
 
 Ao configurar sua assinatura, você pode optar por pagar com cartão de crédito ou pagamentos em conta bancária, ou pagar por fatura usando cheque ou transferência eletrônica de fundos (EFT). A forma de pagamento escolhida é a que continuaremos a usar nos períodos de cobrança seguintes, a menos que você [altere a forma de pagamento](change-payment-method.md).
 
@@ -93,7 +93,7 @@ Se a sua assinatura custar mais de uma certa quantia de dinheiro (esse valor var
 Se você paga sua assinatura por fatura, receberá um email informando que a fatura está pronta para exibição. Esse email não conterá uma cópia do demonstrativo de cobrança. Entretanto, também é possível optar por [Receber uma cópia do seu demonstrativo por email](#receive-a-copy-of-your-billing-statement-in-email). O demonstrativo de cobrança inclui detalhes sobre as opções de pagamento. Se você inserir um número de OC (ordem de compra) ao adquirir uma assinatura, esse número aparecerá no seu demonstrativo de cobrança. Para obter informações sobre como acessar demonstrativos de cobrança, confira [Visualizar sua cobrança ou fatura](view-your-bill-or-invoice.md).
 
 > [!NOTE]
-> Por padrão, as notificações de cobranças da empresa são enviadas para o endereço de email do Office 365 e para o endereço de email alternativo de todos os administradores globais e de faturamento da organização. Para alterar o endereço de email alternativo, confira o artigo [Alterar seu endereço de cobrança do Office 365 para empresas](change-your-billing-addresses.md).
+> Por padrão, as notificações de cobrança da sua organização são enviadas para o endereço de email da Microsoft e o endereço de email alternativo de cada administrador global e de cobrança em sua organização. Para alterar o endereço de email alternativo, confira o artigo [Alterar seu endereço de cobrança do Office 365 para empresas](change-your-billing-addresses.md).
 
 ### <a name="can-i-pay-my-bill-online"></a>Posso pagar minha fatura online?
 

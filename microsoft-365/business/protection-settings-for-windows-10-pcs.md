@@ -21,19 +21,19 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
-description: Saiba mais sobre o padrão e outras configurações disponíveis no Microsoft 365 Business para proteger dispositivos Windows 10.
-ms.openlocfilehash: 1b424fe6a85ad23b2914ea29f47d1dc16b333c94
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Saiba mais sobre o padrão e outras configurações disponíveis no Microsoft 365 for Business para proteger dispositivos Windows 10.
+ms.openlocfilehash: a3b7f0a8572a215491b32101a30c306b54571b6f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42064946"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633008"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Defina configurações de proteção de dispositivos para PCs com Windows 10
 
 ## <a name="secure-windows-10-devices"></a>Proteger dispositivos Windows 10
 
-Exibir um vídeo sobre como proteger dispositivos Windows 10 com o Microsoft 365 Business:
+Assista a um vídeo sobre como proteger dispositivos Windows 10 com o Microsoft 365 for Business:
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
@@ -59,7 +59,7 @@ Exibir um vídeo sobre como proteger dispositivos Windows 10 com o Microsoft 365
 
 Todas as configurações são **Ativadas** por padrão. As configurações a seguir estão disponíveis.
   
-Para saber mais, confira [Como os recursos de proteção no Microsoft 365 Business são mapeados para as configurações do Intune](map-protection-features-to-intune-settings.md). 
+Para obter mais informações, consulte [como os recursos de proteção no Microsoft 365 Premium MAP para o Intune Settings](map-protection-features-to-intune-settings.md). 
   
 |||
 |:-----|:-----|

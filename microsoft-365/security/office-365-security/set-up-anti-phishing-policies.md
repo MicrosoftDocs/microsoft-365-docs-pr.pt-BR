@@ -14,14 +14,14 @@ ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre a política anti-phishing básica na proteção do Exchange Online (EOP) e as políticas anti-phishing avançadas do ATP no Office 365 proteção avançada contra ameaças.
-ms.openlocfilehash: f96b490d2c031fb509c39b2efdbc725cec2709a5
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: 64a47d5514ab7a3a845e8d8b008f1cd8f672640b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537468"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638351"
 ---
-# <a name="anti-phishing-policies-in-office-365"></a>Políticas anti-phishing no Office 365
+# <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
 As políticas para definir as configurações de proteção anti-phishing estão disponíveis nas organizações do Office 365 com caixas de correio do Exchange Online, organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online e organizações de proteção avançada contra ameaças (ATP) do Office 365.
 
@@ -34,7 +34,7 @@ As políticas de anti-phishing do ATP só estão disponíveis em organizações 
 
 As políticas anti-phishing da ATP incluem uma política antiphishing padrão interna, e você pode criar políticas antiphishing adicionais personalizadas da ATP.
 
-Outras organizações do Office 365 com caixas de correio do Exchange Online ou de proteção autônoma do Exchange Online (EOP) sem caixas de correio do Exchange Online têm uma política anti-phishing padrão interna, mas não é possível criar políticas adicionais. Somente as organizações com caixas de correio do Exchange Online podem modificar sua política anti-phishing padrão.
+Outras organizações do Microsoft 365 com caixas de correio do Exchange Online ou de proteção autônoma do Exchange Online (EOP) sem caixas de correio do Exchange Online têm uma política anti-phishing padrão interna, mas não é possível criar políticas adicionais. Somente as organizações com caixas de correio do Exchange Online podem modificar sua política anti-phishing padrão.
 
 As diferenças de alto nível entre as políticas anti-phishing e as políticas anti-phishing do ATP são descritas na tabela a seguir:
 
@@ -55,30 +55,30 @@ Para configurar as políticas anti-phishing, consulte os seguintes tópicos:
 
 - [Configurar políticas anti-phishing no EOP](configure-anti-phishing-policies-eop.md)
 
-- [Configurar as políticas de anti-phishing do ATP no Office 365](configure-atp-anti-phishing-policies.md)
+- [Configurar as políticas de anti-phishing do ATP no Microsoft 365](configure-atp-anti-phishing-policies.md)
 
 O restante deste tópico descreve as configurações disponíveis nas políticas anti-phishing do EOP e do ATP.
 
 ## <a name="spoof-settings"></a>Configurações de spoof
 
-Falsificação é quando o endereço de em uma mensagem de email (o endereço do remetente que é exibido em clientes de email) não corresponde ao domínio da fonte de email. Para obter mais informações sobre falsificação, consulte [proteção contra falsificação no Office 365](anti-spoofing-protection.md).
+Falsificação é quando o endereço de em uma mensagem de email (o endereço do remetente que é exibido em clientes de email) não corresponde ao domínio da fonte de email. Para obter mais informações sobre falsificação, consulte [proteção contra falsificação no Microsoft 365](anti-spoofing-protection.md).
 
 As seguintes configurações de spoof estão disponíveis em políticas anti-phishing e políticas antiphishing da ATP:
 
-- **Proteção contra falsificação**: habilita ou desabilita a proteção contra falsificação. Recomendamos que você deixe-o habilitado. Você usa a **política de inteligência de spoof** para permitir ou bloquear remetentes internos e externos falsificados específicos. Para obter mais informações, consulte [Configure spoof Intelligence in Office 365](learn-about-spoof-intelligence.md).
+- **Proteção contra falsificação**: habilita ou desabilita a proteção contra falsificação. Recomendamos que você deixe-o habilitado. Você usa a **política de inteligência de spoof** para permitir ou bloquear remetentes internos e externos falsificados específicos. Para obter mais informações, consulte [Configure spoof Intelligence in Microsoft 365](learn-about-spoof-intelligence.md).
 
   > [!NOTE]
-  > As configurações de spoof são habilitadas por padrão na política anti-phishing padrão no EOP, na política anti-phishing padrão ATP e em novas políticas personalizadas de anti-phishing da ATP que você cria. <br/><br/> Você não precisa desabilitar a proteção contra falsificação se o registro MX não apontar para o Office 365; em vez disso, habilite a filtragem avançada de conectores. Para obter instruções, consulte [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
+  > As configurações de spoof são habilitadas por padrão na política anti-phishing padrão no EOP, na política anti-phishing padrão ATP e em novas políticas personalizadas de anti-phishing da ATP que você cria. <br/><br/> Você não precisa desabilitar a proteção contra falsificação se o registro MX não apontar para o Microsoft 365; em vez disso, habilite a filtragem avançada de conectores. Para obter instruções, consulte [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
   Para mensagens de remetentes falsificados bloqueados, você também pode especificar a ação a ser tomada nas mensagens:
 
-  - **Mover mensagem para a pasta de lixo eletrônico**: Este é o valor padrão. A mensagem é entregue à caixa de correio e movida para a pasta lixo eletrônico. No Exchange Online, a mensagem é movida para a pasta lixo eletrônico se a regra de lixo eletrônico estiver habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
+  - **Mover mensagem para a pasta de lixo eletrônico**: Este é o valor padrão. A mensagem é entregue à caixa de correio e movida para a pasta lixo eletrônico. No Exchange Online, a mensagem é movida para a pasta lixo eletrônico se a regra de lixo eletrônico estiver habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
   - **Colocar a mensagem em quarentena**: envia a mensagem para quarentena em vez dos destinatários pretendidos. Para obter informações sobre quarentena, confira os seguintes tópicos:
 
-    - [Quarentena no Office 365](quarantine-email-messages.md)
-    - [Gerenciar arquivos e mensagens em quarentena como administrador no Office 365](manage-quarantined-messages-and-files.md)
-    - [Localizar e liberar mensagens em quarentena como usuário no Office 365](find-and-release-quarantined-messages-as-a-user.md)
+    - [Quarentena no Microsoft 365](quarantine-email-messages.md)
+    - [Gerenciar arquivos e mensagens em quarentena como um administrador no Microsoft 365](manage-quarantined-messages-and-files.md)
+    - [Localizar e liberar mensagens em quarentena como um usuário no Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
 
 - **Remetente não autenticado**: habilita ou desabilita a identificação de remetente não identificado no Outlook. Especificamente:
 
@@ -88,7 +88,7 @@ As seguintes configurações de spoof estão disponíveis em políticas anti-phi
 
   Para impedir que esses identificadores sejam adicionados às mensagens de remetentes específicos, você tem as seguintes opções:
 
-  - Permitir que o remetente falsifique na política de inteligência de falsificação. Para obter instruções, consulte [Configure spoof Intelligence in Office 365](learn-about-spoof-intelligence.md).
+  - Permitir que o remetente falsifique na política de inteligência de falsificação. Para obter instruções, consulte [Configure spoof Intelligence in Microsoft 365](learn-about-spoof-intelligence.md).
 
   - [Configurar a autenticação de email](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) para o domínio do remetente.
   
@@ -118,7 +118,7 @@ As configurações de política a seguir estão disponíveis apenas em política
 
   - O **destinatário é**: uma ou mais caixas de correio, usuários de email ou contatos de email em sua organização.
   - **O destinatário é um membro de**: um ou mais grupos em sua organização.
-  - **O domínio do destinatário é**: um ou mais dos domínios aceitos configurados no Office 365.
+  - **O domínio do destinatário é**: um ou mais dos domínios aceitos configurados no Microsoft 365.
 
   - **Exceto quando**: exceções da regra. As configurações e o comportamento são exatamente semelhantes às condições:
 
@@ -152,13 +152,13 @@ As configurações de representação a seguir estão disponíveis apenas em pol
 
   - **Redirecionar mensagem para outros endereços de email**: envia a mensagem para os destinatários especificados, e não para os destinatários pretendidos.
 
-  - **Mover mensagem para a pasta lixo eletrônico**: a mensagem é entregue à caixa de correio e movida para a pasta lixo eletrônico. No Exchange Online, a mensagem é movida para a pasta lixo eletrônico se a regra de lixo eletrônico estiver habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
+  - **Mover mensagem para a pasta lixo eletrônico**: a mensagem é entregue à caixa de correio e movida para a pasta lixo eletrônico. No Exchange Online, a mensagem é movida para a pasta lixo eletrônico se a regra de lixo eletrônico estiver habilitada na caixa de correio (habilitada por padrão). Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
     - **Colocar a mensagem em quarentena**: envia a mensagem para quarentena em vez dos destinatários pretendidos. Para obter informações sobre quarentena, confira os seguintes tópicos:
 
-    - [Quarentena no Office 365](quarantine-email-messages.md)
-    - [Gerenciar arquivos e mensagens em quarentena como administrador no Office 365](manage-quarantined-messages-and-files.md)
-    - [Localizar e liberar mensagens em quarentena como usuário no Office 365](find-and-release-quarantined-messages-as-a-user.md)
+    - [Quarentena no Microsoft 365](quarantine-email-messages.md)
+    - [Gerenciar arquivos e mensagens em quarentena como um administrador no Microsoft 365](manage-quarantined-messages-and-files.md)
+    - [Localizar e liberar mensagens em quarentena como um usuário no Microsoft 365](find-and-release-quarantined-messages-as-a-user.md)
 
   - **Entregar a mensagem e adicionar outros endereços à linha Cco**: entregar a mensagem aos destinatários pretendidos e entregar silenciosamente a mensagem aos destinatários especificados.
 
@@ -172,7 +172,7 @@ As configurações de representação a seguir estão disponíveis apenas em pol
 
 - **Inteligência de caixa de correio**: habilita ou desabilita a inteligência artificial (ai) que determina os padrões de email do usuário com seus contatos frequentes. Essa configuração ajuda o AI a distinguir entre emails legítimos e falsificados desses contatos. O Mailbox Intelligence só está disponível para caixas de correio do Exchange Online.
 
-- **Proteção de representação baseada em inteligência de caixa de correio**: habilita ou desabilita os resultados de representação avançada com base no mapa de remetentes individuais de cada usuário. Essa inteligência permite que o Office 365 Personalize a detecção de representação do usuário e trate melhor os falsos positivos. Quando a representação do usuário é detectada, você pode definir uma ação específica a ser executada na mensagem:
+- **Proteção de representação baseada em inteligência de caixa de correio**: habilita ou desabilita os resultados de representação avançada com base no mapa de remetentes individuais de cada usuário. Esta inteligência permite que a Microsoft 365 Personalize a detecção de representação de usuário e manipule melhor os falsos positivos. Quando a representação do usuário é detectada, você pode definir uma ação específica a ser executada na mensagem:
 
   - **Não aplicar nenhuma ação**
   - **Redirecionar mensagem para outros endereços de email**

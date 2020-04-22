@@ -1,5 +1,5 @@
 ---
-title: Trocar os planos do Office 365 para negócios manualmente
+title: Trocar manualmente os planos de negócios da Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,21 +21,19 @@ search.appverid:
 - BEA160
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
-description: Troque assinaturas do Office 365 para empresas manualmente, comprando uma nova assinatura e garantindo que ambas as assinaturas estejam listadas e ativas.
-ms.openlocfilehash: a652053b204e84f8f2d3973eba76ead1cc7c1410
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+description: Alterne manualmente as assinaturas do Microsoft 365 para empresas comprando uma nova assinatura e garantindo que ambas as assinaturas estejam listadas e ativas.
+ms.openlocfilehash: e5245e333984c9d8e67b174f10cf48b2339348de
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43540838"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636529"
 ---
-# <a name="switch-office-365-for-business-plans-manually"></a>Trocar os planos do Office 365 para negócios manualmente
+# <a name="switch-microsoft-365-for-business-plans-manually"></a>Trocar manualmente os planos de negócios da Microsoft 365
 
 ::: moniker range="o365-worldwide"
-
 > [!NOTE]
-> Este artigo aplica-se ao centro de administração antigo. Para exibir o artigo sobre o novo centro de administração, confira [alterar planos manualmente](change-plans-manually.md). O novo centro de administração está disponível para todos os administradores do Microsoft 365. Para saber mais, confira [Sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md).
-
+> Este artigo aplica-se ao centro de administração antigo. Para exibir o artigo sobre o novo centro de administração, confira [alterar planos manualmente](change-plans-manually.md). O novo centro de administração está disponível para todos os administradores do Microsoft 365, e você pode optar por selecionar o botão **Experimente o novo centro de administração** , localizado na parte superior da Home Page. Para saber mais, confira [Sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md).
 ::: moniker-end
 
 ## <a name="step-1-decide-how-to-switch-plans"></a>Etapa 1: decidir como mudar de planos
@@ -56,11 +54,11 @@ Para continuar com uma opção manual, leia [a etapa 2: comprar uma nova assinat
   
 - Ou
   
- **Adquira uma nova assinatura e licenças:** Siga as etapas em [comprar outra assinatura do Office 365 for Business](../buy-another-subscription.md) para comprar uma nova assinatura.
+ **Adquira uma nova assinatura e licenças:** Siga as etapas em [comprar outra assinatura do Microsoft 365 for Business](../buy-another-subscription.md) para comprar uma nova assinatura.
   
 Certifique-se de comprar uma assinatura para a mesma organização em que os usuários estão agora. Por exemplo, verifique os endereços de email dos usuários que você deseja mover. Se seus endereços de email incluírem @contoso. com, você deverá adquirir uma nova assinatura para o contoso.com. Inclua uma licença para cada usuário que você deseja mover.
   
- **Se você precisar de ajuda para escolher um plano**, confira a página [comparação de produtos do Office 365 for Business](https://go.microsoft.com/fwlink/p/?linkid=842056) ou [ligue para o suporte](../../admin/contact-support-for-business-products.md).
+ **Se você precisar de ajuda para escolher um plano**, consulte a página [de comparação de produtos do Microsoft 365 for Business](https://go.microsoft.com/fwlink/p/?linkid=842056) ou [ligue para o suporte](../../admin/contact-support-for-business-products.md).
   
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>Etapa 3: verificar sua nova assinatura e licenças
 
@@ -86,7 +84,7 @@ Certifique-se de comprar uma assinatura para a mesma organização em que os usu
 
     A assinatura da qual você está migrando usuários e a assinatura à qual você está movendo usuários devem estar listadas em conjunto. Se a nova assinatura não estiver quando você verificar pela primeira vez, tente novamente mais tarde. Verifique se ambas as assinaturas estão listadas em **ativo**. [A nova assinatura não está listada ou não está ativa](#the-new-subscription-isnt-listed-or-isnt-active).
 
-   **A nova assinatura do Office 365 for Business com licenças disponíveis**
+   **A nova assinatura do Microsoft 365 for Business com licenças disponíveis**
 
     ![A página de assinatura mostrando o número de licenças para a nova assinatura.](../../media/65a73e96-7c95-4daa-b6ec-71a4bf74dda5.png)
   
@@ -94,7 +92,7 @@ Certifique-se de comprar uma assinatura para a mesma organização em que os usu
 
     Cada usuário precisa de uma licença que corresponda à sua assinatura. Portanto, se você quiser mover dez usuários para o Office 365 Enterprise e5, precisará certificar-se de que dez licenças estejam disponíveis. Na imagem aqui, dez licenças foram adquiridas para o Office 365 Enterprise E5 e todas as dez licenças estão disponíveis para atribuição.
 
-4. **Precisa de mais licenças para a nova assinatura?** Vá para a página **assinaturas** e [compre licenças para sua assinatura do Office 365 para empresas](../licenses/buy-licenses.md).
+4. **Precisa de mais licenças para a nova assinatura?** Vá para a página **assinaturas** e [compre licenças para sua assinatura do Microsoft 365 for Business](../licenses/buy-licenses.md).
   
     [E as licenças antigas?](#what-about-the-old-licenses)
 

@@ -1,5 +1,5 @@
 ---
-title: Ativar o Office 365 ATP para SharePoint, OneDrive e Microsoft Teams
+title: Ative a ATP para SharePoint, OneDrive e Microsoft Teams
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Saiba como ativar a ATP para SharePoint, OneDrive e Teams, incluindo como definir alertas para arquivos detectados.
-ms.openlocfilehash: 2596dade32d387669eb136856b7a24a66134a773
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 95886cb6a7f081e4565a6455951aedf68a3e741e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084402"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631116"
 ---
-# <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Ativar o Office 365 ATP para SharePoint, OneDrive e Microsoft Teams
+# <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Ative a ATP para SharePoint, OneDrive e Microsoft Teams
 
 > [!IMPORTANT]
 > Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](office-365-atp.md). Se você for um usuário doméstico que procura informações sobre links seguros no Outlook, consulte [Advanced Outlook.com Security](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2).
@@ -36,17 +36,17 @@ Para definir (ou editar) políticas ATP, você deve ter uma função apropriada 
 
 |Role|Onde/como a atribuição|
 |---------|---------|
-|Administrador Global do Office 365|Por padrão, a pessoa que se inscreve para comprar o Office 365 é um administrador global. (Confira [sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para saber mais.)|
+|administrador global|Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para saber mais.)|
 |Administrador de Segurança|Centro de administração do Azure Active[https://aad.portal.azure.com](https://aad.portal.azure.com)Directory ()|
 |Gerenciamento de Organização do Exchange Online|Centro de administração do[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)Exchange () <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell))|
 
 ## <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Ative a ATP para SharePoint, OneDrive e Microsoft Teams
 
-**Antes de iniciar esse procedimento, verifique se o log de auditoria já está ativado para o seu ambiente do Office 365**. Isso geralmente é feito por alguém que tenha a função de logs de auditoria atribuída no Exchange Online. Para obter mais informações, consulte [Ativar ou desativar a pesquisa de log de auditoria do Office 365](../../compliance/turn-audit-log-search-on-or-off.md).
+**Antes de iniciar esse procedimento, certifique-se de que o log de auditoria já esteja ativado para seu ambiente do Microsoft 365**. Isso geralmente é feito por alguém que tenha a função de logs de auditoria atribuída no Exchange Online. Para saber mais, confira [Ativar ou desativar a pesquisa de log de auditoria](../../compliance/turn-audit-log-search-on-or-off.md).
 
 1. Vá até [https://protection.office.com](https://protection.office.com)e entre com sua conta corporativa ou de estudante.
 
-2. No centro de conformidade & segurança do Office 365, no painel de navegação esquerdo, **em gerenciamento de ameaças**, escolha **anexos seguros**da **política** \> .
+2. No centro de conformidade & segurança, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, escolha **anexos seguros**da **política** \> .
 
    ![No centro de conformidade & segurança, escolha política de \> gerenciamento de ameaças](../../media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
 
@@ -64,11 +64,11 @@ Para definir (ou editar) políticas ATP, você deve ter uma função apropriada 
 
    - A definição do parâmetro como *false* bloqueia todas as ações, exceto excluir e baixar. As pessoas podem optar por aceitar o risco e baixar um arquivo detectado.
 
-7. Aguarde até 30 minutos para que as alterações se espalhem para todos os datacenters do Office 365.
+7. Aguarde até 30 minutos para que as alterações se espalhem para todos os datacenters da Microsoft 365.
 
 8. Recomenda Vá para configurar alertas para arquivos detectados.
 
-Para saber mais sobre como usar o PowerShell com o Office 365, confira [gerenciar o office 365 com o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).
+Para saber mais sobre como usar o PowerShell com o Microsoft 365, confira [gerenciar o microsoft 365 com o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).
 
 Para saber mais sobre a experiência do usuário quando um arquivo foi detectado como mal-intencionado, confira [o que fazer quando um arquivo mal-intencionado é encontrado no SharePoint Online, no onedrive ou no Microsoft Teams](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2).
 
@@ -76,7 +76,7 @@ Para saber mais sobre a experiência do usuário quando um arquivo foi detectado
 
 Para receber notificações quando um arquivo no SharePoint Online, no OneDrive for Business ou no Microsoft Teams foi identificado como mal-intencionado, você pode configurar um alerta.
 
-1. No [centro de conformidade & segurança do Office 365](https://protection.office.com), escolha **alertas** \> **Gerenciar alertas**.
+1. No [centro de conformidade & segurança](https://protection.office.com), escolha **alertas** \> **Gerenciar alertas**.
 
 2. Escolha **nova política de alerta**.
 
@@ -94,10 +94,10 @@ Para receber notificações quando um arquivo no SharePoint Online, no OneDrive 
 
 7. Clique em **Salvar**.
 
-Para saber mais sobre alertas, confira [criar alertas de atividade no centro de conformidade & segurança do Office 365](../../compliance/create-activity-alerts.md).
+Para saber mais sobre alertas, confira [criar alertas de atividade no centro de conformidade de & de segurança](../../compliance/create-activity-alerts.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 
 1. [Exibir informações sobre arquivos mal-intencionados detectados no SharePoint, no OneDrive ou no Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
 
-2. [Gerenciar arquivos e mensagens em quarentena como um administrador no Office 365](manage-quarantined-messages-and-files.md)
+2. [Gerenciar arquivos e mensagens em quarentena como um administrador no Microsoft 365](manage-quarantined-messages-and-files.md)

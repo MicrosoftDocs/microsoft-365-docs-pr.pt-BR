@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, transição de assinatura de CSP
 ms.date: 11/01/2017
-ms.openlocfilehash: 0a30d80ad5217868fec81866ab1dc41013917e99
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: da56ce5bc70dfed5a3e86c739ef3c940b4ac1511
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43504098"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635055"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Fazer a transição de uma assinatura de CSP do Microsoft 365 Business
 
@@ -91,7 +91,7 @@ A tabela a seguir resume o impacto das políticas de gerenciamento de aplicativo
 | **Redefinir o PIN quando o logon falhar** | Acesso restrito a apps | Não há restrição de acesso no nível do aplicativo |
 | **Exigir que os usuários entrem novamente depois que os aplicativos do Office ficarem ociosos** | É necessário entrar | Não é necessário entrar |
 | **Negar o acesso a arquivos de trabalho em dispositivos com jailbreak ou desbloqueados por rooting** | Arquivos de trabalho não podem ser acessados em dispositivos com jailbreak/com raiz | Os arquivos de trabalho podem ser acessados em dispositivos com jailbreak ou desbloqueados por rooting |
-| **Permitir que os usuários copiem conteúdo de aplicativos do Office para aplicativos pessoais** | Copiar/colar restrito aos apps disponíveis como parte da assinatura do Microsoft 365 Business | Copiar/colar disponível para todos os apps |
+| **Permitir que os usuários copiem conteúdo de aplicativos do Office para aplicativos pessoais** | Copiar/colar restrito aos aplicativos disponíveis como parte da assinatura do Microsoft 365 | Copiar/colar disponível para todos os apps |
 
 ## <a name="windows-10-pc-impacts-upon-subscription-expiration"></a>Impactos no computador com Windows 10 após a expiração da assinatura
 

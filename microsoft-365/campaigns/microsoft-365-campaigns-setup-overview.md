@@ -24,16 +24,16 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Visão geral da configuração do Microsoft 365 para campanhas
-ms.openlocfilehash: d2dac24488e5d29b0e888ba09f5359cba6b1f614
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0fa804c46ac3545a7f2d30ffe80b148262cc23cc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080470"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632750"
 ---
 # <a name="set-up-microsoft-365-for-campaigns"></a>Configurar o Microsoft 365 para campanhas
 
-Este artigo descreve o processo de configuração do Microsoft 365 para campanhas. Qualquer pessoa com o Microsoft 365 Business pode usar estas diretrizes para avançar a segurança. 
+Este artigo descreve o processo de configuração do Microsoft 365 para campanhas. Qualquer pessoa com o Microsoft 365 Business Premium pode usar estas orientações para avançar a segurança. 
 
 ## <a name="admins-set-up-microsoft-365-for-campaigns"></a>Administradores: configurar o Microsoft 365 para campanhas
 O diagrama a seguir descreve como os administradores configuram o Microsoft 365 para campanhas.
@@ -42,7 +42,7 @@ O diagrama a seguir descreve como os administradores configuram o Microsoft 365 
 
 Para campanhas qualificadas para preços especiais, comece [solicitando um convite da Microsoft](https://m365forcampaigns.microsoft.com/)e, em seguida, inscrevendo-se no [Microsoft 365 para campanhas](m365-campaigns-sign-up.md). Para concluir a instalação, [Execute o assistente de configuração](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) para definir as configurações principais.
 
-Para todas as outras organizações, depois de se [inscrever no Microsoft 365 Business](../business/sign-up.md), conclua a configuração [executando o assistente de configuração](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) para definir as configurações principais.
+Para todas as outras organizações, depois de se [inscrever no Microsoft 365 Business Premium](../business/sign-up.md), conclua a configuração [executando o assistente de configuração](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) para definir as configurações principais.
 
 Para todas as organizações, aumente a proteção de segurança: [proteger as contas de administrador](m365-campaigns-protect-admin-accounts.md), [proteger o acesso a emails e dados](m365-campaigns-conditional-access.md)e aumentar a [proteção contra ameaças](m365-campaigns-increase-protection.md).
 
@@ -62,6 +62,6 @@ Para configurar os dispositivos do usuário:
 
  **Se for necessário entrar em contato com o suporte:**
   
-Como um administrador de negócios do Microsoft 365, você tem acesso à nossa equipe de suporte ao cliente, ** [entrar em contato com o suporte para produtos de negócios-ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
+Como um administrador do Microsoft 365, você tem acesso à nossa equipe de suporte ao cliente, ** [entrar em contato com o suporte para produtos de negócios-ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
     
 

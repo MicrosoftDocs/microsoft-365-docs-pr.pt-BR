@@ -24,13 +24,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Saiba como verificar se as configurações do Microsoft 365 Business app Protection foram efetivadas nos dispositivos Windows 10 dos usuários.
-ms.openlocfilehash: 47977f8d79eb6dbb2f4d087af8f8ad7da4313c61
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Saiba como verificar se as configurações do Microsoft 365 for Business app Protection foram efetivadas nos dispositivos Windows 10 dos usuários.
+ms.openlocfilehash: b63681f040b0fe49127693e9cb7aac7ba6c41af6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560671"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635695"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Validar configurações de proteção do dispositivo em computadores com Windows 10
 
@@ -60,11 +60,11 @@ Depois de [configurar as políticas de dispositivos](protection-settings-for-win
   
 ## <a name="related-topics"></a>Tópicos Relacionados
 
-[Documentação e recursos do Microsoft 365 Business](https://go.microsoft.com/fwlink/p/?linkid=853701)
+[Documentação e recursos do Microsoft 365 for Business](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
-[Introdução ao Microsoft 365 Business](microsoft-365-business-overview.md)
+[Introdução ao Microsoft 365 for Business](microsoft-365-business-overview.md)
   
-[Gerenciar o Microsoft 365 Business](manage.md)
+[Gerenciar o Microsoft 365 para empresas](manage.md)
   
 [Definir configurações de dispositivo para computadores Windows 10](protection-settings-for-windows-10-pcs.md)
   

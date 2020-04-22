@@ -24,16 +24,19 @@ search.appverid:
 - GEA150
 description: Saiba como atualizar para uma nova assinatura.
 monikerRange: o365-worldwide
-ms.openlocfilehash: dbeba16a23490ab756c8ed30ce4856217819e80a
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 8f792cad90b7e153c025a869970a54d36cdd8cbe
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142074"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636505"
 ---
-# <a name="upgrade-to-a-different-plan"></a>Atualizar para um plano diferente
+# <a name="upgrade-to-a-different-plan"></a>Atualizar para um plano diferente 
 
 Quando sua empresa mudar ou precisar de mais recursos, você poderá atualizar os planos. A maneira mais fácil de fazer isso é usar a guia **atualização** no centro de administração. No entanto, não há suporte para o uso da guia **atualização** em todas as situações. Em alguns casos, talvez seja possível alterar os planos manualmente.
+
+> [!NOTE]
+> Este artigo aplica-se ao novo centro de administração. Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page. Para exibir o artigo sobre o centro de administração antigo, consulte [alternar para um plano diferente do Microsoft 365 para empresas](switch-to-a-different-plan.md).
 
 ## <a name="use-the-upgrade-tab"></a>Usar a guia atualização
 
@@ -78,7 +81,7 @@ Se você quiser mudar para um plano com menos serviços, pode alterar os [planos
 
 Se você não vir nenhum plano na guia **atualização** , significa que seu plano não pode ser atualizado automaticamente. Em alguns casos, talvez seja possível resolver o problema para que você possa exibir os planos disponíveis para atualização, ou talvez seja possível atualizar ou alterar os planos manualmente.
 
-### <a name="why-are-there-no-plans-listed-to-upgrade"></a>Por que não há planos listados para atualizar?
+ ### <a name="why-are-there-no-plans-listed-to-upgrade"></a>Por que não há planos listados para atualizar?
 
 #### <a name="you-cant-upgrade-subscriptions-now-because-you-have-more-users-than-licenses"></a>Não é possível atualizar assinaturas agora porque você tem mais usuários do que as licenças.
 
@@ -106,7 +109,7 @@ Você pode [alterar planos manualmente](change-plans-manually.md) ou [ligar para
 
 #### <a name="you-have-two-or-more-plans-for-the-same-product"></a>Você tem dois ou mais planos para o mesmo produto
 
-Você só poderá usar a guia **atualização** se todos os usuários se inscreverem no mesmo plano. Por exemplo, se você tiver dois planos do Office 365 Business Premium, não será possível atualizar automaticamente um deles para outro plano.
+Você só poderá usar a guia **atualização** se todos os usuários se inscreverem no mesmo plano. Por exemplo, se você tiver dois planos do Microsoft 365 Business Standard, não será possível atualizar automaticamente um deles para outro plano.
 
 #### <a name="you-have-a-prepaid-plan"></a>Você tem um plano pré-pago
 
@@ -138,13 +141,13 @@ Para resolver isso, encontre a assinatura na página <a href="https://go.microso
 
 ## <a name="what-does-upgrading-a-plan-do-to-my-service-and-billing"></a>O que a atualização de um plano faz com o meu serviço e cobrança?
 
-Quando você atualiza planos automaticamente usando a guia **atualização** no centro de administração, seus serviços e cobrança são afetados.
+Quando você atualiza planos automaticamente usando o botão **mudar de plano** (ou a guia **atualização** no novo centro de administração), seus serviços e cobrança são afetados.
 
 ### <a name="access-to-services"></a>Acesso aos serviços
 
-Os **Administradores** não poderão usar o centro de administração enquanto o plano estiver sendo atualizado. Isso pode levar até uma hora.
-
-Os **Usuários** não perceberão qualquer interrupção do serviço. Eles continuarão a ter o serviço existente até que a atualização seja totalmente concluída.
+ Os **Administradores** não poderão usar o centro de administração enquanto o plano estiver sendo atualizado. Isso pode levar até uma hora.
+  
+ Os **Usuários** não perceberão qualquer interrupção do serviço. Eles continuarão a ter o serviço existente até que a atualização seja totalmente concluída.
   
 ### <a name="users-and-licenses"></a>Usuários e licenças
 
@@ -161,9 +164,9 @@ Todos os dados do usuário serão mantidos durante a atualização, incluindo ca
 O dia em que a atualização do plano está concluída, a cobrança de sua assinatura antiga será desativada e a cobrança na nova assinatura será ativada. Você receberá um crédito rateado para qualquer serviço não usado na assinatura antiga. Você receberá uma nova fatura que inclui o crédito de sua assinatura antiga dentro de 30 dias após a atualização para a nova assinatura.
   
 > [!NOTE]
-> O período de tempo que levará para receber o crédito na conta de pagamento pode variar de acordo com a forma de pagamento usada na assinatura.
-
-**Atualizando de uma assinatura pré-paga antes de expirar?** Se o custo total da nova assinatura for maior ou igual ao valor do restante da assinatura pré-paga, você não perderá o tempo pré-pago. Na página de finalização da compra, você verá um crédito referente ao tempo não usado. No entanto, se o custo total da nova assinatura for menor do que o valor restante da assinatura pré-paga atual, você perderá parte do tempo não usado. Você será notificado antes de fazer o check-out, e você pode aguardar para atualizar até mais de perto da data de expiração da sua assinatura pré-paga.
+> O período de tempo que levará para receber o crédito na conta de pagamento pode variar de acordo com a forma de pagamento usada na assinatura. 
+  
+ **Atualizando de uma assinatura pré-paga antes de expirar?** Se o custo total da nova assinatura for maior ou igual ao valor do restante da assinatura pré-paga, você não perderá o tempo pré-pago. Na página de finalização da compra, você verá um crédito referente ao tempo não usado. No entanto, se o custo total da nova assinatura for menor do que o valor restante da assinatura pré-paga atual, você perderá parte do tempo não usado. Você será notificado antes de fazer o check-out, e você pode aguardar para atualizar até mais de perto da data de expiração da sua assinatura pré-paga.
 
 ## <a name="call-support-to-help-you-upgrade-plans"></a>Ligar para o suporte para ajudá-lo a atualizar os planos
 
@@ -173,4 +176,4 @@ O dia em que a atualização do plano está concluída, a cobrança de sua assin
 
 [Alterar planos manualmente](change-plans-manually.md)
 
-[Fazer backup dos dados antes de mudar o Office 365 para planos de negócios](back-up-data-before-switching-plans.md)
+[Fazer backup dos dados antes de mudar o Microsoft 365 para planos de negócios](back-up-data-before-switching-plans.md)

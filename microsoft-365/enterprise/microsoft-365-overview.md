@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/07/2020
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 para empresas.
-ms.openlocfilehash: 6b8d2aa7fd8455acde1d49a6ed7f7c93c5235652
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: 85f05e85989d7b298ba0575c7447a3ef157ea163
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43504086"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631556"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Visão geral do Microsoft 365 para empresas
 
@@ -32,7 +32,7 @@ O Microsoft 365 for Enterprise consiste em:
 
 |||
 |:-------|:-----|
-| Aplicativos baseados em nuvem e locais e serviços de produtividade | Inclui o Office 365 ProPlus, os aplicativos do Office mais recentes para seu PC e Mac (como Word, Excel, PowerPoint, Outlook e outros) e um pacote completo de serviços online para email, armazenamento de arquivos e colaboração, reuniões e muito mais. |
+| Aplicativos baseados em nuvem e locais e serviços de produtividade | Inclui o Microsoft 365 aplicativos para empresas, os aplicativos do Office mais recentes para seu computador e Mac (como Word, Excel, PowerPoint, Outlook e outros) e um pacote completo de serviços online para email, armazenamento de arquivos e colaboração, reuniões e muito mais. |
 | Windows 10 Enterprise | Atende às necessidades de organizações de grande e médio porte, fornecendo aos usuários a versão mais produtiva e segura do Windows e dos profissionais de ti com implantação abrangente, dispositivo e gerenciamento de aplicativos. |
 | Gerenciamento de dispositivos e serviços avançados de segurança | Inclui o Microsoft Intune, que é um serviço de gerenciamento de mobilidade corporativa (EMM) baseado em nuvem que ajuda a habilitar a sua força de produção, ao mesmo tempo em que os dados corporativos são protegidos. |
 |||
@@ -45,7 +45,7 @@ O Microsoft 365 para empresas está disponível em três planos.
 |:-------|:-----|
 | E3 | Acessar os principais produtos e recursos do Microsoft 365 para melhorar a produtividade do local de trabalho e promover a inovação, com segurança. |
 | E5 | Acessar os produtos e recursos mais recentes no Microsoft 365, incluindo proteção avançada contra ameaças, ferramentas de segurança e colaboração.. Inclui todos os recursos do E3's, além de ferramentas avançadas de segurança, voz e análise de dados. |
-| F3 | Conecte-se aos seus primeiros trabalhadores por meio de ferramentas e recursos desenvolvidos para fins de uso que permitam que eles façam o melhor trabalho. |
+| F1 | Conecte-se aos seus primeiros trabalhadores por meio de ferramentas e recursos desenvolvidos para fins de uso que permitam que eles façam o melhor trabalho. |
 |||
 
 Se você tiver o Microsoft 365 E3, também poderá obter estas [ofertas](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/):
@@ -55,7 +55,7 @@ Se você tiver o Microsoft 365 E3, também poderá obter estas [ofertas](https:/
 
 Essas ofertas contêm recursos adicionais que estão incluídos no Microsoft 365 e5.
 
-Para obter mais informações sobre o que está incluído em cada plano, consulte [Transform Your Enterprise with Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans).
+Para obter mais informações, consulte [recursos e funcionalidades de cada plano](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
 
 ## <a name="get-the-big-picture"></a>Obter a visão geral
 
@@ -125,7 +125,7 @@ Para obter mais informações sobre a implantação, consulte How:
 
 ## <a name="additional-microsoft-365-solutions"></a>Soluções adicionais do Microsoft 365
 
-- [Microsoft 365 Business](https://docs.microsoft.com/microsoft-365/business/)
+- [Microsoft 365 Business Premium](https://docs.microsoft.com/microsoft-365/business/)
  
   Reúne a melhor produtividade disponível e as funcionalidades de colaboração do Office 365 com o gerenciamento de dispositivo e as soluções de segurança para proteger os dados comerciais de pequenas e médias empresas (PME).
 

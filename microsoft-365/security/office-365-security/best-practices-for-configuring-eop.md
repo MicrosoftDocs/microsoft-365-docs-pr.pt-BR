@@ -1,5 +1,5 @@
 ---
-title: Práticas recomendadas para configurar o EOP e o Office 365 ATP
+title: Práticas recomendadas para configurar o EOP e a ATP
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Siga estas práticas recomendadas para a EOP (Proteção do Exchange Online) a fim de evitar erros comuns de configuração e obter êxito.
-ms.openlocfilehash: 9bddb736d41b4fd56790b8bbe9dbb00d07e75553
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: 69d069377a061c440c22b7a00dd43795597c50e9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528612"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638531"
 ---
-# <a name="best-practices-for-configuring-eop-and-office-365-atp"></a>Práticas recomendadas para configurar o EOP e o Office 365 ATP
+# <a name="best-practices-for-configuring-eop-and-atp"></a>Práticas recomendadas para configurar o EOP e a ATP
 
 Siga estas práticas recomendadas para a EOP (Proteção do Exchange Online) a fim de evitar erros comuns de configuração e obter êxito. Este tópico supõe que você já concluiu o processo de configuração. Se ainda não realizou a configuração da EOP, confira [Configurar seu serviço EOP](set-up-your-eop-service.md).
 
@@ -41,7 +41,7 @@ Estas configurações abrangem uma variedade de recursos fora das políticas de 
 
 |Nome do recurso de segurança|Standard|Impede|Comentário|
 |---------|---------|---------|---------|
-|[Configurar o SPF no Office 365 para ajudar a evitar falsificações](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Sim|Sim||
+|[Configurar o SPF para ajudar a evitar a falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Sim|Sim||
 |[Usar DKIM para validar emails enviados de seu domínio personalizado no Office 365](use-dkim-to-validate-outbound-email.md)|Sim|Sim||
 |[Usar DMARC para validar emails no Office 365](use-dmarc-to-validate-email.md)|Sim|Sim|Use Action = Quarantine para Standard e Action = Reject para Strict.|
 |Implantar o complemento de mensagens de relatório para aprimorar o relatório do usuário final de emails suspeitos|Sim|Sim||
@@ -63,7 +63,7 @@ Solucionar problemas gerais e tendências usando os relatórios no centro de adm
 
 ## <a name="report-false-positive-and-false-negatives-to-microsoft"></a>Relatar falsos positivos e falsos negativos à Microsoft
 
-Para ajudar a melhorar a filtragem de spam no serviço para todos, você deve relatar falsos positivos (emails satisfatórios marcados como defeituosos) e falsos negativos (emails inválidos permitidos) para a Microsoft para análise. Para obter mais informações, consulte [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md).
+Para ajudar a melhorar a filtragem de spam no serviço para todos, você deve relatar falsos positivos (emails satisfatórios marcados como defeituosos) e falsos negativos (emails inválidos permitidos) para a Microsoft para análise. Para mais informações, confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
 
 ## <a name="create-mail-flow-rules"></a>Criar regras de fluxo de emails
 

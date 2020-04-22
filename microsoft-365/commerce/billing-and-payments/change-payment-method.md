@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: Saiba como alterar a forma de pagamento para sua assinatura de negócios.
-ms.openlocfilehash: 8b9ae2a8396ff984b8468cf364c1112cb2ef6b13
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 582286dec47b0835c90ff56a0d10d3c34d285e33
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142592"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632726"
 ---
 # <a name="change-your-payment-method"></a>Alterar sua forma de pagamento
 
@@ -64,9 +64,9 @@ Ao comprar uma assinatura do Office 365 para empresas, você pode pagar por cart
 > [!NOTE]
 > Após alternar a forma de pagamento, os usuários continuam com as mesmas atribuições de licença anteriores.
   
- **Deseja alterar a frequência de pagamento?** Se você quiser alterar a frequência com que paga por sua assinatura, de anual para mensal ou mensal, será necessário ligar para o suporte do [Office 365](../../admin/contact-support-for-business-products.md) para obter ajuda.
+ **Deseja alterar a frequência de pagamento?** Se você quiser alterar a frequência com que você paga por sua assinatura, de anual para mensal ou mensal, precisará [chamar o suporte da Microsoft](../../admin/contact-support-for-business-products.md) para obter ajuda.
   
- **Deseja apenas alterar as informações do seu cartão de crédito ou conta bancária?** Confira [Adicionar, atualizar ou remover um cartão de crédito ou uma conta bancária no Office 365 para empresas](add-update-or-remove-credit-card-or-bank-account.md).
+ **Deseja apenas alterar as informações do seu cartão de crédito ou conta bancária?** Confira [Adicionar, atualizar ou remover um cartão de crédito ou uma conta bancária](add-update-or-remove-credit-card-or-bank-account.md).
   
  **E se eu tiver um saldo pendente?**
   
@@ -87,6 +87,7 @@ Se você estiver migrando de *cartão de crédito ou conta bancária para fatura
   
 Quando você muda de pagamento por fatura para pagar com um cartão de crédito ou uma conta bancária, criamos automaticamente uma nova assinatura para você, move seus usuários para a nova assinatura e, em seguida, desabilita sua assinatura antiga. Não se preocupe, seus usuários não verão uma interrupção no serviço e todas as informações estarão disponíveis por meio da nova assinatura.
 
+
 1. No centro de administração, vá para a página de serviços de **cobrança** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
 
 2. Se você estiver no modo de exibição de **tabela** , selecione **cartões**.
@@ -100,6 +101,7 @@ Quando você muda de pagamento por fatura para pagar com um cartão de crédito 
 6. Se você adicionar um método de pagamento, insira os detalhes do cartão ou da conta e selecione **salvar**.
   
 7. Verifique se o método de pagamento selecionado está correto e, em seguida, selecione **salvar**.
+
 
 ::: moniker-end
 
@@ -140,6 +142,7 @@ Você pode alterar para pagar por fatura somente se o seu pedido estiver acima d
 
 Se a quantidade de pedidos for muito alta, uma verificação de crédito poderá ser necessária. Em caso afirmativo, você verá a mensagem "não qualificado para mudar para fatura. Seu pedido requer uma verificação de crédito. " Nesse caso, você muda para pagar por fatura manualmente. Use as etapas a seguir para concluir a alteração manual.
 
+
 1. Vá para <a href="https://Office365.com" target="_blank">office365.com</a> e compre a mesma assinatura do que você tem no momento. Ao fazer check-out, escolha a opção de pagamento por fatura.
 
 > [!IMPORTANT]
@@ -147,7 +150,7 @@ Se a quantidade de pedidos for muito alta, uma verificação de crédito poderá
 
 2. Após a conclusão da compra, cancele a assinatura original. Seus usuários são automaticamente movidos para a nova assinatura.
 
-Se nenhuma verificação de crédito for necessária, use as etapas a seguir para alterar o pagamento por fatura.
+Se nenhuma verificação de crédito for necessária, use as etapas a seguir para alterar o pagamento por fatura. 
 
 1. No centro de administração, vá para a página de serviços de **cobrança** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
 
@@ -164,6 +167,7 @@ Se nenhuma verificação de crédito for necessária, use as etapas a seguir par
 7. Quando tiver terminado, selecione **salvar**.
 
 8. Verifique se o método de pagamento selecionado está correto e, em seguida, selecione **salvar**.
+
 
 ::: moniker-end
 
@@ -193,9 +197,16 @@ Se nenhuma verificação de crédito for necessária, use as etapas a seguir par
 
 Você pode usar as etapas a seguir a qualquer momento para verificar a forma de pagamento configurada para uma assinatura específica.
 
+
 1. No centro de administração, vá para a página de serviços de **cobrança** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
 
 2. Encontre a assinatura que você deseja verificar. A forma de pagamento configurada para a assinatura aparece na seção **cobrança** .
+
+### <a name="use-the-old-admin-center-to-verify-which-payment-method-is-configured"></a>Usar o centro de administração antigo para verificar qual método de pagamento está configurado
+
+1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">assinaturas</a> de **cobrança** \> .
+
+2. Encontre a assinatura que você deseja verificar. A forma de pagamento configurada para a assinatura aparece sob **método de pagamento**.
 
 ::: moniker-end
 

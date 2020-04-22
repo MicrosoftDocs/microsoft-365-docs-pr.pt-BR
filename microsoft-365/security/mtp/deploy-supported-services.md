@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 1441790bfa0c587c4abceb87eb1e4daae6e4d157
-ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
+ms.openlocfilehash: c29027bb641530ba2d3c7a22c578770c098f53ba
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521475"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633466"
 ---
 # <a name="deploy-supported-services"></a>Implantar serviços com suporte
 
@@ -62,7 +62,7 @@ A tabela a seguir lista como cada serviço suportado fornece dados adicionais, o
 | Serviço | Dados (sinais & informações correlacionadas) | Escopo de resposta de & de correção |
 | ------ | ------ | ------ |
 | Microsoft Defender ATP | – Estados de ponto de extremidade e eventos brutos<br />-Detecções e alertas de ponto de extremidade, incluindo antivírus, EDR, redução da superfície de ataque<br />– Informações sobre arquivos e outras entidades observadas nos pontos de extremidade | Pontos de extremidade |
-| Office 365 ATP | -Mensagens e Estados de caixa de correio e eventos brutos<br />– Detecções de email, anexos e links | -Caixas de correio<br />-Contas do Office 365 |
+| Office 365 ATP | -Mensagens e Estados de caixa de correio e eventos brutos<br />– Detecções de email, anexos e links | -Caixas de correio<br />-Contas da Microsoft 365 |
 | Azure ATP | -Sinais do Active Directory, incluindo eventos de autenticação<br />-Detecções de comportamento relacionadas à identidade | Identidades |
 | Microsoft Cloud App Security | – Detecção de serviços e aplicativos de nuvem não aprovados (Shadow IT)<br />– Exposição de dados para aplicativos em nuvem<br />-Atividade de ameaça associada aos aplicativos de nuvem | Aplicativos em nuvem |
 

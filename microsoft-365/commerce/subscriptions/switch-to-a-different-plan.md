@@ -1,5 +1,5 @@
 ---
-title: Migrar para um outro plano do Office 365 para empresas
+title: Mudar para um plano diferente da Microsoft 365 para empresas
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,42 +23,47 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 73318661-8f33-478b-bcc7-fb8d69dbb22a
-description: Saiba como mudar para uma nova assinatura do Office 365 for Business.
-ms.openlocfilehash: e851ebaa89719f7dae62ed99bf72e2e2a4f361a2
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+description: Saiba como mudar para uma nova assinatura do Microsoft 365 for Business.
+ms.openlocfilehash: a101ac47aede1413528fd2cb6be1d1df6ab4d961
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142086"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636517"
 ---
-# <a name="switch-to-a-different-office-365-for-business-plan"></a>Migrar para um outro plano do Office 365 para empresas
+# <a name="switch-to-a-different-microsoft-365-for-business-plan"></a>Mudar para um plano diferente da Microsoft 365 para empresas
 
 Quando sua empresa mudar ou precisar de mais recursos, você poderá mudar de plano.  
 
 A maneira mais fácil de mudar de plano é usar o botão **mudar de planos** no centro de administração. No entanto, o uso do botão **alternar planos** não é suportado em todas as situações. Em alguns casos, você poderá mudar de plano manualmente.
 
-::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Este artigo aplica-se ao centro de administração antigo. Para exibir o artigo sobre o novo centro de administração, confira [atualizar para um plano diferente](upgrade-to-different-plan.md). O novo centro de administração está disponível para todos os administradores do Microsoft 365. Para obter mais informações, consulte[sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md).
-
-::: moniker-end
 
 **Precisa de mais alguma coisa?**
-
 - [Cancelar sua assinatura](cancel-your-subscription.md)
-- [Atualização do Office 365 para casa para uma assinatura comercial](https://support.office.com/article/9322ffb8-a35d-4407-8ebe-ed6ea0859b9f.aspx)
+- [Atualizar a família Microsoft 365 para uma assinatura de negócios](https://support.office.com/article/9322ffb8-a35d-4407-8ebe-ed6ea0859b9f.aspx)
 - [Contate o Suporte da Microsoft](../../admin/contact-support-for-business-products.md)
 
 ## <a name="use-the-switch-plans-button"></a>Use o botão mudar de plano
 
 Ao usar o botão **alternar planos** , você é orientado pelo processo de compra de um novo plano para o qual você pode alterar seu plano atual, todos os usuários recebem automaticamente licenças do novo plano e seu plano antigo é cancelado para você.
-  
+
+::: moniker range="o365-worldwide"
+
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Assinaturas</a>.
 
-    Se você estiver usando o Office 365 Germany, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
+::: moniker-end
 
-    Se você estiver usando o Office 365 operado pela 21Vianet, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
+::: moniker range="o365-germany"
+
+1. No centro de administração, vá para a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No centro de administração, vá para a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
+
+::: moniker-end
 
 2. Selecione **alternar planos** para exibir a lista de novos planos que estão disponíveis.
 
@@ -70,7 +75,7 @@ Ao usar o botão **alternar planos** , você é orientado pelo processo de compr
 
 4. Selecione **Chat agora** na página de **saída** , se precisar de ajuda.
 
-    Ao concluir o check-out, o Office 365 demora alguns minutos para finalizar a opção. Você pode começar a usar sua nova assinatura imediatamente.
+    Ao concluir o check-out, o Microsoft 365 demora alguns minutos para finalizar a opção. Você pode começar a usar sua nova assinatura imediatamente.
 
 ## <a name="the-switch-plans-button-isnt-there"></a>O botão mudar de plano não está lá
 
@@ -78,7 +83,7 @@ Se o botão **mudar de plano** não estiver disponível, você poderá tentar mu
   
 Veja por que isso pode acontecer:
   
-- Você está usando mais de um plano do Office 365. Você só poderá usar o botão **mudar de planos** se todos os usuários se inscreverem no mesmo plano.
+- Você está usando mais de um plano do Microsoft 365. Você só poderá usar o botão **mudar de planos** se todos os usuários se inscreverem no mesmo plano.
 
 - Você já está usando o Office 365 Enterprise e5, então você já tem todas as funcionalidades disponíveis no Office 365.
 
@@ -86,7 +91,7 @@ Veja por que isso pode acontecer:
 
 Quando você usa o botão **mudar de plano** , os planos para os quais você pode mudar são exibidos com base nos serviços do seu plano atual. Você só pode usar o botão **mudar de plano** para mudar para um plano que tenha os mesmos serviços relacionados a dados ou para uma versão superior. Isso garante que os usuários não percam os dados relacionados a esses serviços durante a migração.
   
-Para comparar planos antes de alternar, confira a página [comparação de produtos do Office 365 para empresas](https://go.microsoft.com/fwlink/p/?linkid=842056) . Para especificações técnicas, consulte [descrições de serviço do Office 365](https://go.microsoft.com/fwlink/p/?linkid=842275).
+Para comparar planos antes de mudar, consulte a página de [comparação de produtos do Microsoft 365 for Business](https://go.microsoft.com/fwlink/p/?linkid=842056) . Para obter especificações técnicas, consulte [Microsoft 365 Service Descriptions](https://go.microsoft.com/fwlink/p/?linkid=842275).
   
 Se você quiser mudar para um plano com menos serviços, poderá mudar de [plano manualmente](switch-plans-manually.md)ou [chamar o suporte da Microsoft](../../admin/contact-support-for-business-products.md) para obter ajuda.
   
@@ -98,4 +103,4 @@ Se você quiser mudar para um plano com menos serviços, poderá mudar de [plano
   
 ## <a name="call-support-to-help-you-switch-plans"></a>Contate o suporte para ajudá-lo a trocar de plano
 
-[Ligar para o suporte](../../admin/contact-support-for-business-products.md)
+![](../../media/88eae4a1-b8d9-4a12-bc4a-44af244f084b.png) [Suporte para chamadas](../../admin/contact-support-for-business-products.md) telefônicas

@@ -1,5 +1,5 @@
 ---
-title: Como funcionam os anexos seguros de ATP do Office 365
+title: Como funcionam os Anexos Seguros da ATP
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: O recurso de anexos seguros oferece verificação de horário de clique de anexos de email. Use anexos seguros para proteger sua organização contra arquivos mal-intencionados enviados ou recebidos por email.
-ms.openlocfilehash: 951f9f0e50da6ef83135f1ca8f1ad109a8e66988
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e53d95a52c6990b5e0b4ff81f42414a34b1e606e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599218"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638017"
 ---
-# <a name="how-office-365-atp-safe-attachments-works"></a>Como funcionam os anexos seguros de ATP do Office 365
+# <a name="how-atp-safe-attachments-works"></a>Como funcionam os Anexos Seguros da ATP
 
 ## <a name="how-it-works"></a>Como funciona
 
@@ -35,5 +35,5 @@ Aqui estão dois exemplos de anexos seguros de ATP no trabalho.
 As políticas de anexos seguros de ATP podem ser aplicadas a pessoas ou grupos específicos em sua organização ou a todo o seu domínio. Além disso, as políticas de anexos seguros de ATP podem ser configuradas para usar anexos de espaço reservado enquanto anexos reais estão sendo verificados. Para saber mais, confira **[configurar as políticas de anexos seguros de ATP no Office 365](set-up-atp-safe-attachments-policies.md)**.
 
 > [!NOTE]
-> A verificação de anexos seguros de ATP ocorre na mesma região onde seus dados do Office 365 residem. Para obter mais informações sobre a geografia do Data Center, confira [onde estão seus dados?](https://products.office.com/where-is-your-data-located?geo=All) 
+> A verificação de anexos seguros de ATP ocorre na mesma região onde seus dados residem. Para obter mais informações sobre a geografia do Data Center, confira [onde estão seus dados?](https://products.office.com/where-is-your-data-located?geo=All) 
 

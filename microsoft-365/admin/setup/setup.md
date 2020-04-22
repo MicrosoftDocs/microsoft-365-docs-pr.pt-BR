@@ -1,5 +1,5 @@
 ---
-title: Configurar o Office 365 para empresas
+title: Configurar o Microsoft 365 para empresas
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -24,25 +24,25 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 6a3a29a0-e616-4713-99d1-15eda62d04fa
-description: Saiba como configurar o Office 365 Business Premium, o Office 365 Business Essentials, o Office 365 Business ou o Office 365 Education.
-ms.openlocfilehash: f862eb2042da329e70c7cc1658a5c1a037b56faa
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Aprenda a configurar o Microsoft 365 Business Standard, o Microsoft 365 Business Basic, os aplicativos do Microsoft 365 for Business ou o Office 365 Education.
+ms.openlocfilehash: 448dc7ae990a4c9803ea751e4ad855f375195734
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212168"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627541"
 ---
-# <a name="set-up-office-365-for-business"></a>Configurar o Office 365 para empresas
+# <a name="set-up-microsoft-365-for-business"></a>Configurar o Microsoft 365 para empresas
 
-Siga estas etapas para colocar sua empresa ou organização [sem fins lucrativos](https://go.microsoft.com/fwlink/p/?LinkId=627221) em funcionamento com o [Office 365 Business Premium](https://go.microsoft.com/fwlink/p/?LinkId=627220), o Office 365 Business Essentials, o Office 365 Business ou o Office 365 Education.
+Siga estas etapas para colocar sua empresa ou organização [sem fins lucrativos](https://go.microsoft.com/fwlink/p/?LinkId=627221) em funcionamento com o [Microsoft 365 Business Standard](https://go.microsoft.com/fwlink/p/?LinkId=627220), Microsoft 365 Business Basic, Microsoft 365 Apps for business, ou Office 365 Education.
   
-Não é uma empresa? Confira [Configurar o Office 365 Home ou o Office 365 Personal](https://support.office.com/article/65415a24-3cbf-4f30-901d-9bf9eba7fce2.aspx).
+Não é uma empresa? Confira [Configurar o Microsoft 365 Family ou o Microsoft 365 Personal](https://support.office.com/article/65415a24-3cbf-4f30-901d-9bf9eba7fce2.aspx).
   
 ## <a name="business-premium"></a>Business Premium
   
- *Estas etapas são para empresas e instituições [sem fins lucrativos](https://go.microsoft.com/fwlink/p/?LinkId=627221) que têm o **[ plano Office 365 Business Premium](https://go.microsoft.com/fwlink/p/?LinkId=627220)***.
+ *Estas etapas são para empresas e [entidades sem fins lucrativos](https://go.microsoft.com/fwlink/p/?LinkId=627221) que têm o **[Plano padrão de negócios da Microsoft 365 Business Standard.](https://go.microsoft.com/fwlink/p/?LinkId=627220)***
 
-Assista a um vídeo curto sobre como configurar o Office 365 Business Premium.<br><br>
+Assista a um vídeo curto sobre como configurar o Microsoft 365 Business Standard.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/913be1ad-bae1-40c0-9ded-15bb477b828b]
 
@@ -50,15 +50,15 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 
 ### <a name="1-sign-up-and-set-up"></a>1. Inscrever-se e configurar
 
-1. Para se inscrever em um plano corporativo do Office 365, acesse o site [Produtos do Office](https://www.aka.ms/office365signup) e selecione **Comprar agora**.
+1. Para se inscrever em um plano corporativo do Microsoft 365, acesse o site [Produtos do Office](https://www.aka.ms/office365signup) e selecione **Comprar agora**.
 
-2. Escolha o plano para o qual deseja se inscrever, como **Office 365 Business Premium**.
+2. Escolha o plano para o qual você deseja se inscrever, como **Microsoft 365 Business Standard**.
 
-3. Siga as etapas para inscrever-se em um plano empresarial do Office 365.
+3. Siga as etapas para inscrever-se em um plano do Microsoft 365 for Business.
 
     Quando o processo de inscrição for concluído, você será direcionado para o centro de administração, onde acompanhará um assistente para instalar os aplicativos do Office, adicionar seu domínio, adicionar usuários e atribuir licenças. Depois de concluir a configuração inicial, você poderá usar a página de **configuração** no centro de administração para continuar a instalar e configurar os serviços que vêm com as assinaturas.
 
-    Para obter mais informações sobre o assistente de configuração do Office 365 e a página de **instalação** do  centro de administração, confira [Diferença entre o assistente de configuração do Office 365 e a página de configuração](o365-setup-wizard-and-setup-page.md).
+    Para obter mais informações sobre o assistente de configuração e a página de **instalação** do centro de administração, confira [Diferença entre o assistente de configuração e a página de configuração](o365-setup-wizard-and-setup-page.md).
 
 ### <a name="2-set-up-outlook-for-email"></a>2. Configurar o Outlook para e-mail
 
@@ -70,7 +70,7 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 
 2. Escolha **Arquivo** \>**Informações **\>** Adicionar Conta**.
 
-3. Insira seu endereço de e-mail do Office 365 e selecione **Conectar**.
+3. Digite seu endereço de e-mail do Microsoft e selecione **conectar**.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/9fe86884-8a83-42cc-bca9-61a12e6dad31?autoplay=false]
   
@@ -78,7 +78,7 @@ Veja mais em [Configurar o Outlook para email](https://support.office.com/articl
   
 ### <a name="3-import-email"></a>3. Importar e-mail
 
-Se você estava usando o Outlook com outra conta de email, poderá importar seus emails, calendário e contatos antigos para sua nova conta do Office 365.
+Se você estava usando o Outlook com outra conta de email, poderá importar seus emails, calendário e contatos antigos para sua nova conta da Microsoft.
   
 1. **Exportar seus emails antigos**
 
@@ -98,7 +98,7 @@ Veja mais em [Importar emails com o Outlook](https://support.office.com/article/
   
 ### <a name="4-use-a-public-website"></a>4. Usar um site público
 
-O Office 365 não inclui um site público para a sua empresa. Se quiser configurar um, considere usar um parceiro da Microsoft, como o GoDaddy ou o WIX.
+O Microsoft 365 não inclui um site público para a sua empresa. Se quiser configurar um, considere usar um parceiro da Microsoft, como o GoDaddy ou o WIX.
   
 1. No Centro de Administração, vá para **Recursos** e selecione**Site público**.
 
@@ -110,11 +110,11 @@ Veja mais em [Usar um site público](https://support.office.com/article/3325d50e
   
 ## <a name="business-essentials"></a>Business Essentials
   
-*Use estas etapas para configurar **[sua assinatura do Office 365 Business Essentials](https://go.microsoft.com/fwlink/p/?LinkId=627218)**. Com esse plano, você se conecta ao Office 365 online. Você não instala os aplicativos do Office.*
+*Use estas etapas para configurar **[sua assinatura do Microsoft 365 Business Basic](https://go.microsoft.com/fwlink/p/?LinkId=627218)**. Com esse plano, você se conecta ao 365 online. Você não instala os aplicativos do Office.*
 
-### <a name="1-create-office-365-accounts-and-add-your-domain"></a>1. Criar contas do Office 365 e adicionar seu domínio
+### <a name="1-create-microsoft-365-accounts-and-add-your-domain"></a>1. Criar contas do Microsoft 365 e adicionar seu domínio
 
-Nesta etapa, você pode usar o Assistente de configuração para criar contas do Office 365 para os usuários e adicionar seu próprio domínio. O assistente permite personalizar a ID de usuário e o email de todos na empresa, como pedro@contoso.com.
+Nesta etapa, você pode usar o Assistente de configuração para criar contas do Microsoft 365 para os usuários e adicionar seu próprio domínio. O assistente permite personalizar a ID de usuário e o email de todos na empresa, como pedro@contoso.com.
   
 ::: moniker range="o365-worldwide"
 
@@ -140,17 +140,17 @@ Para iniciar o assistente, selecione **Ir para a configuração**.
   
 ### <a name="2-import-email"></a>2. Importar email
 
-Mova seus contatos e conta de email existentes de outros sistemas de email para sua caixa de correio do Office 365, para que você possa ver tudo em um só lugar.
+Mova seus contatos e conta de email existentes de outros sistemas de email para sua caixa de correio da Microsoft, para que você possa ver tudo em um só lugar.
   
 Para obter opções de migração, confira [Migrar emails e contatos](migrate-email-and-contacts-admin.md).
   
 ### <a name="3-connect-email-accounts"></a>3. Conectar contas de email
 
-Além de gerenciar seu email do Office 365 no Outlook, você também pode conectar outras contas de email ao Outlook, como suas contas do Gmail e do Yahoo. Isso permite gerenciar todos os seus emails em um só lugar. Você pode conectar até 5 contas de email ao Outlook.
+Além de gerenciar seu email da Microsoft no Outlook, você também pode conectar outras contas de email ao Outlook, como suas contas do Gmail e do Yahoo. Isso permite gerenciar todos os seus emails em um só lugar. Você pode conectar até 5 contas de email ao Outlook.
   
 ::: moniker range="o365-worldwide"
 
-Entre no Office 365 com a sua conta corporativa ou de estudante em [https://www.office.com/signin](https://www.office.com/signin).
+Entre no Microsoft 365 com a sua conta corporativa ou de estudante em [https://www.office.com/signin](https://www.office.com/signin).
 
 ::: moniker-end
 
@@ -211,11 +211,11 @@ Se você estiver usando o Office 365 operado pela 21Vianet, vá para [https://po
 
 ### <a name="5-store-files-online"></a>5. Armazenar arquivos online
 
-O Office 365 facilita o armazenamento de arquivos online. Para saber quais locais de armazenamento são ideais para sua empresa, confira [Onde você pode armazenar arquivos no Office 365](https://support.office.com/article/c7c20284-bc94-47f4-9728-d28e9daf0790.aspx).
+A Microsoft facilita o armazenamento de arquivos online. Para saber quais locais de armazenamento são ideais para sua empresa, confira [Onde você pode armazenar arquivos](https://support.office.com/article/c7c20284-bc94-47f4-9728-d28e9daf0790.aspx).
   
-Todas as pessoas recebem um local de armazenamento em nuvem do **OneDrive**, quando você cria contas do Office 365 para elas. Com o OneDrive, você pode acessar arquivos em computadores, telefones e tablets.
+Todas as pessoas recebem um local de armazenamento em nuvem do **OneDrive**, quando você cria contas da Microsoft para elas. Com o OneDrive, você pode acessar arquivos em computadores, telefones e tablets.
   
-1. No seu computador, use o Explorador de Arquivos para abrir o OneDrive. Ou, no [Office 365](https://www.office.com), abra o **OneDrive** no inicializador de aplicativos.
+1. No seu computador, use o Explorador de Arquivos para abrir o OneDrive. Ou, no [Microsoft 365](https://www.office.com), abra o **OneDrive** no inicializador de aplicativos.
 
 2. Visualize e carregue arquivos pessoais ou compartilhe documentos ou pastas selecionando **Compartilhar** e convidando outras pessoas a visualizar os documentos ou enviando um link para elas. Para saber mais, confira [Compartilhar arquivos e pastas do OneDrive](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07.aspx#OS_Type=OneDrive_-_Business).
 
@@ -223,11 +223,11 @@ Confira mais em [Carregar arquivos para uma biblioteca](https://support.office.c
   
 ### <a name="get-started-using-office"></a>Introdução ao Office
 
-Para fazer um tour pelo Office 365 e aprender a usar todos os aplicativos do Office móvel, confira [Introdução](../admin-overview/get-started-with-office-365.md).
+Para fazer um tour pelo Microsoft 365 e aprender a usar todos os aplicativos do Office móvel, confira [Introdução](../admin-overview/get-started-with-office-365.md).
   
 ## <a name="business"></a>Negócio
   
-*O **[ Plano do Office 365 Business](https://go.microsoft.com/fwlink/p/?LinkId=627219)** não inclui o email do Office 365 ou o Skype for Business. Nestas etapas de configuração, vamos mostrar como adicionar sua conta de email existente (como a do Gmail) ao Outlook. *
+*O **[ Plano Microsoft 365 para empresas](https://go.microsoft.com/fwlink/p/?LinkId=627219)** não inclui o email da Microsoft ou o Skype for Business. Nestas etapas de configuração, vamos mostrar como adicionar sua conta de email existente (como a do Gmail) ao Outlook. *
 
 ### <a name="1-add-users"></a>1. Adicionar usuários
 
@@ -283,15 +283,15 @@ Precisa de etapas mais detalhadas ou prefere instalar a versão de 64 bits do Of
   
 ### <a name="3-set-up-mobile"></a>3. Configurar dispositivos móveis
 
-Instale o Office em seu dispositivo móvel e configure o Outlook para trabalhar com a sua nova caixa de correio do Office 365. Todos na sua equipe precisam executar esta etapa. Cada pessoa pode instalar os aplicativos móveis do Office em até 5 telefones e 5 tablets.
+Instale o Office em seu dispositivo móvel e configure o Outlook para trabalhar com a sua nova caixa de correio da Microsoft. Todos na sua equipe precisam executar esta etapa. Cada pessoa pode instalar os aplicativos móveis do Office em até 5 telefones e 5 tablets. 
   
 Obtenha as etapas para o seu dispositivo: [Android](https://support.office.com/article/6ef2ebf2-fc2d-474a-be4a-5a801365c87f.aspx) | [iOS](https://support.office.com/article/0402b37e-49c4-4419-a030-f34c2013041f.aspx) | [Windows Phone](https://support.office.com/article/9bccc8b8-a321-4d0d-a45e-6e06a3438e43.aspx)
   
 ### <a name="4-store-files-online"></a>4. Armazenar arquivos online
 
-O Office 365 facilita o armazenamento de arquivos online. Para saber quais locais de armazenamento são ideais para sua empresa, confira [Onde você pode armazenar arquivos no Office 365](https://support.office.com/article/c7c20284-bc94-47f4-9728-d28e9daf0790.aspx).
+A Microsoft facilita o armazenamento de arquivos online. Para saber quais locais de armazenamento são ideais para sua empresa, confira [Onde você pode armazenar arquivos no Office 365](https://support.office.com/article/c7c20284-bc94-47f4-9728-d28e9daf0790.aspx).
   
-Todas as pessoas recebem um local de armazenamento em nuvem do **OneDrive**, quando você cria contas do Office 365 para elas. Com o OneDrive, você pode acessar arquivos em computadores, telefones e tablets.
+Todas as pessoas recebem um local de armazenamento em nuvem do **OneDrive**, quando você cria contas da Microsoft para elas. Com o OneDrive, você pode acessar arquivos em computadores, telefones e tablets.
   
 1. No seu computador, use o Explorador de Arquivos para abrir o OneDrive. Ou, no [Office 365](https://www.office.com), abra o **OneDrive** no inicializador de aplicativos.
 
@@ -301,7 +301,7 @@ Confira mais em [Carregar arquivos para uma biblioteca](https://support.office.c
   
 ### <a name="get-started-using-office"></a>Introdução ao Office
 
-Para fazer um tour pelo Office 365 e aprender a usar todos os aplicativos do Office móvel, confira [Introdução](../admin-overview/get-started-with-office-365.md).
+Para fazer um tour pelo Microsoft 365 e aprender a usar todos os aplicativos do Office móvel, confira [Introdução](../admin-overview/get-started-with-office-365.md).
   
 ## <a name="education"></a>Educação
   
@@ -309,7 +309,7 @@ Para fazer um tour pelo Office 365 e aprender a usar todos os aplicativos do Off
 
 ### <a name="get-ready-for-office-365"></a>Prepare-se para o Office 365
 
-- **Primeiro, verifique se você está qualificado para uma assinatura Education:** Siga as etapas para [Verify your Office 365 domain to prove ownership, nonprofit or education status, or to activate Yammer](https://support.office.com/article/87d1844e-aa47-4dc0-a61b-1b773fd4e590), para que o Office 365 autorize você a usar um plano Education. Em seguida, você pode configurar o Office 365 para a sua escola, seguindo as orientações neste artigo.
+- **Primeiro, verifique se você está qualificado para uma assinatura Education:** Siga as etapas para [Verify your Microsoft domain to prove ownership, nonprofit or education status, or to activate Yammer](https://support.office.com/article/87d1844e-aa47-4dc0-a61b-1b773fd4e590), para que a Microsoft autorize você a usar um plano Education. Em seguida, você pode configurar o Office 365 para a sua escola, seguindo as orientações neste artigo.
 
 - **Precisa de ajuda?** Se precisar de ajuda com uma implantação mais avançada, o **[FastTrack](https://www.microsoft.com/en-us/fasttrack/microsoft-365/office-365)** é um ótimo lugar para começar. Você também pode [encontrar um parceiro](https://go.microsoft.com/fwlink/p/?linkid=391089) para ajudá-lo.
 
@@ -317,7 +317,7 @@ Para fazer um tour pelo Office 365 e aprender a usar todos os aplicativos do Off
 
 ### <a name="1-add-your-school-domain-or-connect-your-directory"></a>1. Adicionar o domínio da sua escola ou conectar seu diretório
 
-Nesta etapa, você entra no portal do Office 365 e adiciona o domínio da sua escola à sua assinatura. Isso confirma para a Microsoft que você está qualificado para uma assinatura Education.
+Nesta etapa, você entra no portal do Centro de Administração do Microsoft 365 e adiciona o domínio da sua escola à sua assinatura. Isso confirma para a Microsoft que você está qualificado para uma assinatura Education.
   
 ::: moniker range="o365-worldwide"
 
@@ -339,7 +339,7 @@ Se você estiver usando o Office 365 operado pela 21Vianet, acesse [este Centro 
 
 Para iniciar o assistente, selecione **Ir para a configuração**.
 
-Para obter instruções sobre o que acontece quando você executa o assistente de configuração, confira [Usar o assistente de configuração do Office 365](https://support.office.com/article/3c62a3b7-1680-41ca-943c-0ff01566bace.aspx).
+Para obter instruções sobre o que acontece quando você executa o assistente de configuração, confira [Usar o assistente de configuração](https://support.office.com/article/3c62a3b7-1680-41ca-943c-0ff01566bace.aspx).
   
 Se desejar sincronizar os usuários de um diretório local ou usar um Logon Único, **não use o assistente de configuração para adicionar usuários**. Em vez disso, leia este guia para entender suas opções: [Conectar seu diretório ao Office 365](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9). Você também vai configurar o:
   

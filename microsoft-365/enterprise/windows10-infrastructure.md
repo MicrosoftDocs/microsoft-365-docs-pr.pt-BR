@@ -12,12 +12,12 @@ ms.date: 08/28/2019
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: 72a355a524ff3dd56300566ff228b5ff5007c6cb
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 53c38ba2e915cd439c8d7629bc7f9cd56ebc8647
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085530"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636670"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>Fase 3: Windows 10 Enterprise
 
@@ -32,7 +32,7 @@ O Microsoft 365 Enterprise inclui o Windows 10 Enterprise, que oferece as ferram
 Você precisará entender as diferentes maneiras de implantar o sistema operacional Windows 10 e escolher o correto para sua organização. Dependendo da sua assinatura do Microsoft 365 Enterprise, há também os serviços do Windows 10 e os recursos de segurança que você precisará configurar para aproveitar ao máximo o Windows 10.
 
 >[!Note]
->Para implantar o Windows 10 Enterprise e o Office 365 ProPlus em conjunto e mudar para um [computador moderno](https://www.microsoft.com/microsoft-365/modern-desktop), confira o [Centro de Implantação de Computador Moderno](https://aka.ms/howtoshift).
+>Para implantar os aplicativos do Windows 10 Enterprise e do Microsoft 365 para empresas juntos e mudar para uma [área de trabalho moderna](https://www.microsoft.com/microsoft-365/modern-desktop), consulte o [centro de implantação de área de trabalho moderna](https://aka.ms/howtoshift).
 >
 
 ## <a name="windows-10-deployment"></a>Implantação do Windows 10

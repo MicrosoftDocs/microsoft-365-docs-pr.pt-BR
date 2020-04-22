@@ -1,19 +1,19 @@
 ---
-title: Exceções para o plano de serviço
+title: Exceções ao plano de serviço
 description: ''
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: aca3bb6413aaab7620b1e1277c821a79dba4bb2f
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+ms.openlocfilehash: 9dca53ac9e99fd9bc68ee42f78de6a2bc009e42c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38302898"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636179"
 ---
-# <a name="exceptions-to-the-service-plan"></a>Exceções para o plano de serviço
+# <a name="exceptions-to-the-service-plan"></a>Exceções ao plano de serviço
 
 O Microsoft Managed Desktop fornece uma lista de dispositivos organizadas, [configurações de dispositivo padrão](device-policies.md), requisitos de aplicativos e determinadas [configurações configuráveis](../working-with-managed-desktop/config-setting-overview.md), todas projetadas para fornecer uma experiência segura, produtiva e agradável para os usuários finais. É melhor estar sempre com o serviço conforme fornecido. No entanto, reconhecemos que alguns detalhes do serviço podem não se ajustar exatamente às necessidades da sua organização. Se você achar que precisa alterar o serviço de alguma forma, é importante que siga os processos a seguir para solicitar essas alterações.
  
@@ -27,9 +27,9 @@ Uma exceção é qualquer adição ou alteração na configuração base de áre
 |Agentes de segurança & VPNs     |  Software usado para proteger, monitorar ou alterar o comportamento do dispositivo ou da rede       |
 |Monitoramento de experiência digital     |  Software usado para rastrear dados no dispositivo de um usuário para relatá-los       |
 |Drivers de hardware ou software     |   Drivers de dispositivo, restritos pelos [requisitos do aplicativo](mmd-app-requirements.md)      |
-|Políticas     | Configurações do Windows 10 ou do Office 365 ProPlus em um dispositivo gerenciado        |
+|Políticas     | Windows 10 ou Microsoft 365 aplicativos para configurações corporativas em um dispositivo gerenciado        |
 |Dispositivos     | Dispositivos que não estão na [lista de dispositivos](device-list.md) de área de trabalho gerenciada da Microsoft        |
-|Other     |  Qualquer coisa não coberta pelas outras áreas       |
+|Outros     |  Qualquer coisa não coberta pelas outras áreas       |
  
 ## <a name="request-an-exception"></a>Solicitar uma exceção
 

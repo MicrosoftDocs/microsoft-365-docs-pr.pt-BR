@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 28d0893d08e588e52cf202be8d03b00434f7cb10
-ms.sourcegitcommit: c079cc893cd1bd5d894b13814063a2f42238806e
+ms.openlocfilehash: f1a4a4ea69efc3c68bdc8ed66aa18833a28feb94
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43035094"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636718"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Recomendações de política para proteger chats, grupos e arquivos de equipes
 
@@ -33,9 +33,9 @@ Recomendações adicionais específicas para a implantação do teams estão inc
 
 ## <a name="getting-started-with-teams-before-other-dependent-services"></a>Introdução ao Teams antes de outros serviços dependentes
 
-Você não precisa habilitar os serviços dependentes para começar a usar o Microsoft Teams. Isso tudo funcionará apenas. No entanto, você precisa estar preparado para gerenciar o seguinte:
+Você não precisa habilitar os serviços dependentes para começar a usar o Microsoft Teams. Isso tudo funcionará. No entanto, você precisa estar preparado para gerenciar o seguinte:
 
-- Grupos do Office 365
+- Grupos do Microsoft 365
 - Sites de equipe do SharePoint
 - OneDrive for Business
 - Caixas de correio
@@ -84,7 +84,7 @@ No Azure AD, os usuários convidados e externos são os mesmos. O tipo de usuár
 
 ### <a name="guest-access-in-teams"></a>Acesso de convidados no Teams
 
-Além das políticas para usuários internos à sua empresa ou organização, os administradores podem habilitar o acesso de convidados para permitir, em uma base de usuário por usuário, pessoas que são externas à sua empresa ou organização para acessar recursos do Teams e interagir com pessoas internas para coisas como conversas de grupo, chat e reuniões. Você pode saber mais sobre o acesso de convidados no seguinte link: [acesso de convidados às equipes](https://docs.microsoft.com/microsoftteams/guest-access)
+Além das políticas para usuários internos à sua empresa ou organização, os administradores podem habilitar o acesso de convidados para permitir, em uma base de usuário por usuário, as pessoas que são externas à sua empresa ou organização para acessar os recursos do Teams e interagir com pessoas internas para tarefas como conversas de grupo, chat e reuniões. Você pode saber mais sobre o acesso de convidados no seguinte link: [acesso de convidados às equipes](https://docs.microsoft.com/microsoftteams/guest-access)
 
 ### <a name="external-access-in-teams"></a>Acesso externo no Teams
 

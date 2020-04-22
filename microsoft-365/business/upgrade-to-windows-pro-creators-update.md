@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: Descubra como você pode atualizar seus dispositivos Windows para o Windows 10 pro a fim de utilizar os recursos de rede de negócios e segurança mais avançados.
-ms.openlocfilehash: 3901754d9ef269ae74dbf1893cb62b1ba810919d
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: f0cedda49dbff2a8c2884bb52e240fabfbeb4537
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560651"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632042"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Atualizar dispositivos do Windows para o Windows 10 pro
 
@@ -53,12 +53,12 @@ Para atualizar para o Windows 10 pro, você tem várias opções. Você pode:
     - Leia as instruções sobre como usar a ferramenta e criar sua mídia de instalação. 
 
 > [!NOTE]
-> Se você tiver dispositivos Windows que executam o Windows 7 Pro, Windows 8 Pro ou Windows 8,1 Pro, sua assinatura do Microsoft 365 Business lhe dá direito a uma atualização do Windows Pro 10.
+> Se você tiver dispositivos Windows executando o Windows 7 Pro, Windows 8 Pro ou Windows 8,1 Pro, sua assinatura do Microsoft 365 para empresas lhe contitulará uma atualização do Windows Pro 10.
     
-Confira [configurar dispositivos Windows para usuários do Microsoft 365 Business](set-up-windows-devices.md) para concluir a configuração dos dispositivos Windows 10. 
+Confira [configurar dispositivos Windows para usuários do Microsoft 365 para empresas](set-up-windows-devices.md) para concluir a configuração dos dispositivos Windows 10. 
   
-Confira [configurar dispositivos móveis para usuários do Microsoft 365 Business](set-up-mobile-devices.md) para concluir a configuração dos dispositivos Android e Ios. 
+Confira [configurar dispositivos móveis para que os usuários do Microsoft 365 para empresas](set-up-mobile-devices.md) concluam a configuração dos dispositivos Android e Ios. 
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Para saber mais sobre como configurar e usar o Microsoft 365 Business
+## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Para saber mais sobre como configurar e usar o Microsoft 365 for Business
 
-[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

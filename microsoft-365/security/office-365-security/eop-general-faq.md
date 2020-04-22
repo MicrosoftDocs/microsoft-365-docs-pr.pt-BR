@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 description: 'Aqui, respondemos às dúvidas gerais mais comuns sobre o Proteção do Exchange Online (EOP), o serviço de filtragem de email hospedado na nuvem da Microsoft. Para ver mais tópicos de perguntas frequentes, vá para os seguintes links:'
-ms.openlocfilehash: 842f022edbba9d1a790a26987982c3bd508e9d5e
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 899109a768399f53674b97fc8df2f71aa822316d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893677"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636247"
 ---
 # <a name="eop-general-faq"></a>Perguntas frequentes gerais sobre o EOP
 
@@ -51,19 +51,19 @@ R. O EOP é licenciado por usuário. Para ver as informações mais recentes sob
 
 R. Quando você altera seu registro do MX, de acordo com as etapas descritas em [Configurar seu serviço EOP](set-up-your-eop-service.md), e seu email flui pelo EOP, a filtragem começa imediatamente. O registro MX pode demorar até 24 a 48 horas para ser propagado via DNS. Você pode ajustar suas configurações de proteção no centro de administração do Exchange (EAC) a qualquer momento durante esse processo.
 
-**P. Eu tenho que usar todos os recursos do Microsoft Office 365 para usar o EOP? E se eu quiser apenas a proteção do EOP e nada mais?**
+**P. tenho que usar todos os recursos do Microsoft 365 para usar o EOP? E se eu quiser apenas a proteção do EOP?**
 
-R. Você pode usar a EOP para proteger suas caixas de correio locais sem usar nenhum outro recurso do Office 365. Isso é conhecido como assinatura autônoma. Uma lista de recursos da EOP pode ser encontrada em [Serviço de Descrição da Proteção do Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
+R. Você pode usar o EOP para proteger suas caixas de correio locais sem usar outros recursos do Microsoft 365. Isso é conhecido como assinatura autônoma. Uma lista de recursos da EOP pode ser encontrada em [Serviço de Descrição da Proteção do Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
 
-**P. Por que preciso de um locatário do Office 365 ao me inscrever na filtragem de email por meio do EOP?**
+**P. por que preciso de um locatário do Microsoft 365 ao se inscrever para filtragem de email por meio do EOP?**
 
-R. O Office 365 é o nome dado a um conjunto de produtos e serviços que podem ser acessados por meio do locatário do Office 365. Pense no locatário do Office 365 como o ponto de partida em que você adiciona licenças para a filtragem de email.
+R. O Microsoft 365 é o nome dado a uma coleção de produtos e serviços que podem ser acessados por meio de um locatário do Microsoft 365. Considere o Microsoft 365 locatário como o ponto de partida para o qual você pode adicionar licenças para filtragem de email.
 
 **P. O EOP tem um portal de comunicação em que posso obter informações sobre problemas conhecidos e resoluções esperadas? E quanto a novos recursos?**
 
-R. O centro de administração do Microsoft 365 terá algumas dessas informações. Se você for afetado por um evento de nível de serviço, deverá ver um alerta de comunicação (normalmente acompanhado por um ícone de sino) após entrar no centro de administração do Microsoft 365. Recomendamos ler as informações e executar as ações necessárias para qualquer item, conforme apropriado.
+R. O centro de administração do Microsoft 365 terá algumas dessas informações. Se você for afetado por um evento de nível de serviço, deverá ver um alerta de comunicação (normalmente acompanhado por um ícone de sino) após entrar no centro de administração do Microsoft 365. Recomendamos que leia e realize as ações apropriadas em todos os itens.
 
-Em relação aos novos recursos do EOP, o [Mapa de recursos do Office 365 para empresas](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) é uma boa ferramenta para encontrar informações sobre novos recursos. Também vamos postar artigos do blog sobre novos recursos no site do [Microsoft 365 Blogs](https://www.microsoft.com/microsoft-365/blog/) .
+Sobre os novos recursos do EOP, o [Microsoft 365 for Business Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) é um bom recurso para descobrir informações sobre os novos recursos do futuro. Também vamos postar artigos do blog sobre novos recursos no site do [Microsoft 365 Blogs](https://www.microsoft.com/microsoft-365/blog/) .
 
 **P. O serviço funciona com versões herdadas do Exchange (como o Exchange Server 2010) e ambientes que não sejam Exchange?**
 
@@ -75,7 +75,7 @@ R. Qualquer tamanho. A rede do EOP tem capacidade suficiente para acomodar seu c
 
 **Quais são as permissões necessárias para configurar o EOP?**
 
-Para configurar o EOP, você precisa ser um administrador global do Office 365 ou um administrador da empresa do Exchange (o grupo de funções Gerenciamento de Organização).
+Para configurar o EOP, você deve ser um administrador global ou um administrador da empresa do Exchange (o grupo de funções Gerenciamento da organização).
 
 **P. Como eu sei se meus dados e informações particulares estão seguros?**
 

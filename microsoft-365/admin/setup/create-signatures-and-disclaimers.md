@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: Saiba como adicionar assinatura de email, isenção de responsabilidade legal ou declaração de divulgação a todas as mensagens de email que entram ou saem da sua organização.
-ms.openlocfilehash: a63f21dff90c70d39e3709d4c34b53d99a315a59
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: affd091f951b81541214b4f98c414b5cd4675cd3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360662"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631972"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Criar assinaturas e isenções para toda a organização
 
@@ -62,9 +62,9 @@ Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/
 
 ::: moniker-end
 
-1. Selecione o inicializador ![de aplicativos no ícone do inicializador](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png)de aplicativos no Office 365 e selecione **administrador**.
+1. Selecione o inicializador ![de aplicativos no ícone](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png)do inicializador de aplicativos e, em seguida, selecione **administrador**.
    
-    Não consegue encontrar o aplicativo que está procurando? No inicializador de aplicativos, selecione **Todos os aplicativos** para ver uma lista em ordem alfabética dos aplicativos disponíveis do Office 365. Nesse local, você pode pesquisar um aplicativo específico. 
+    Não consegue encontrar o aplicativo que está procurando? No inicializador de aplicativos, selecione **todos os aplicativos** para ver uma lista alfabética dos aplicativos disponíveis para você. Nesse local, você pode pesquisar um aplicativo específico. 
     
 2. Selecione **centros de administração**e, em seguida, escolha **Exchange**.
     
@@ -77,14 +77,14 @@ Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/
 6. Em **aplicar esta regra**, selecione **[aplicar a todas as mensagens]**.
     
     > [!TIP]
-    > [Saiba mais](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) sobre como aplicar condições se não quiser que a isenção de responsabilidade seja aplicada a todas as mensagens. (Esse artigo de escopo é para o Exchange Server, mas também se aplica ao Office 365.) 
+    > [Saiba mais](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) sobre como aplicar condições se não quiser que a isenção de responsabilidade seja aplicada a todas as mensagens. (Esse artigo de escopo é para o Exchange Server, mas também se aplica ao Microsoft 365.) 
   
 7. Em Faça o seguinte, deixe **Adicionar o aviso de isenção de responsabilidade** selecionado. 
     
 8.  Selecione **Inserir texto** e digite sua isenção de responsabilidade. 
     
     > [!TIP]
-    > [Saiba mais](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) sobre a formatação de avisos de isenção de responsabilidade. (Este artigo de formatação é para o Exchange Server, mas também se aplica ao Office 365.) 
+    > [Saiba mais](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) sobre a formatação de avisos de isenção de responsabilidade. (Este artigo de formatação é para o Exchange Server, mas também se aplica ao Microsoft 365.) 
 
 9. Selecione **selecionar um** e escolha **quebrar** como uma opção de fallback. Em seguida, clique em **OK**. Isso significa que, se não for possível adicionar a isenção de responsabilidade devido a criptografia ou outra configuração de email, ela será quebrada automaticamente em um envelope de mensagem.
     
@@ -96,9 +96,9 @@ Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/
     
 13. Escolha **Salvar** quando terminar. 
     
-## <a name="limitations-of-office-365-organization-wide-signatures"></a>Limitações das assinaturas de toda a organização do Office 365
+## <a name="limitations-of-organization-wide-signatures"></a>Limitações das assinaturas de toda a organização
 
-Não é possível fazer o seguinte com as assinaturas do Office 365:
+Você não pode fazer o seguinte com assinaturas do Microsoft 365:
   
 - Inserir a assinatura diretamente sob a última resposta de email ou encaminhar
     
@@ -112,6 +112,6 @@ Para obter esses e outros recursos, use uma ferramenta de terceiros. Faça uma p
   
 ## <a name="more-resources"></a>Mais recursos
 
-- Consulte [avisos de isenção de responsabilidade de mensagens em toda a organização, assinaturas, rodapés ou cabeçalhos no Office 365](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) para obter informações sobre como usar o PowerShell. 
+- Veja [avisos de isenção de responsabilidade de mensagens em toda a organização, assinaturas, rodapés ou cabeçalhos no Microsoft 365](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) para obter informações sobre como usar o PowerShell. 
     
 

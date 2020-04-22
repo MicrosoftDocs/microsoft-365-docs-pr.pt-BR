@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: Saiba como obter uma avaliação gratuita ou comprar uma assinatura para o Microsoft 365.
-ms.openlocfilehash: 0b19a27b44aa62c65bb8dc5542337e106da2ddc5
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: f5c1fca9bfb7b0f2236981e335517c1e03b2007c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141618"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631900"
 ---
 # <a name="try-or-buy-a-microsoft-365-subscription"></a>Experimentar ou comprar uma assinatura do Microsoft 365
 
 A Microsoft 365 é uma solução completa que combina o Office 365 e o Windows 10 com segurança avançada e gerenciamento de dispositivos. Se você já tem uma assinatura e deseja fazer uma avaliação ou comprar uma assinatura do Microsoft 365, a melhor maneira de fazê-lo é através do centro de administração. As seguintes assinaturas do Microsoft 365 estão disponíveis no centro de administração para experimentar ou comprar agora:
   
-- Microsoft 365 Business
+- Microsoft 365 Business Premium
 
 - Microsoft 365 Enterprise E3
 
@@ -41,6 +41,7 @@ Quando você adiciona uma assinatura através do centro de administração, a no
 ## <a name="try-or-buy-a-microsoft-365-subscription"></a>Experimentar ou comprar uma assinatura do Microsoft 365
 
 ::: moniker range="o365-worldwide"
+
 
 1. Entre no centro de administração [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339)em e vá para serviços de **compra**de **cobrança** \> .
 
@@ -67,13 +68,13 @@ Quando você adiciona uma assinatura através do centro de administração, a no
 
 11. Na página **recibo do pedido** , selecione **continuar**.
 
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-
 1. Entre no centro de administração [https://portal.office.de](https://go.microsoft.com/fwlink/?linkid=847686)em e vá para serviços de **compra**de **cobrança** \> .
 
-2. Na página **serviços de compra** , as assinaturas que estão disponíveis para sua organização estão listadas.
+2. Na página **serviços de compra** , as assinaturas que estão disponíveis para sua organização estão listadas. 
 
 3. Selecione as reticências no plano do Microsoft 365 que você deseja experimentar ou comprar e, em seguida, selecione **Iniciar avaliação gratuita**, que oferece 25 licenças de usuário por um termo de um mês ou você pode selecionar **comprar agora**.
 
@@ -99,7 +100,6 @@ Quando você adiciona uma assinatura através do centro de administração, a no
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
-
 1. Entre no centro de administração [https://portal.partner.microsoftonline.cn](https://go.microsoft.com/fwlink/?linkid=850628)em e vá para serviços de **compra**de **cobrança** \> .
 
 2. Na página **serviços de compra** , as assinaturas que estão disponíveis para sua organização estão listadas. 
@@ -127,14 +127,16 @@ Quando você adiciona uma assinatura através do centro de administração, a no
 
 ::: moniker-end
 
+
 ## <a name="next-steps"></a>Próximas etapas
 
-Depois de obter a nova assinatura, você precisa atribuir uma licença aos usuários que utilizarão essa assinatura. Para saber como, confira [atribuir licenças aos usuários](../admin/manage/assign-licenses-to-users.md).
+Depois de obter a nova assinatura, você precisa atribuir uma licença aos usuários que utilizarão essa assinatura. Para saber como, confira [atribuir licenças aos usuários](../admin/manage/assign-licenses-to-users.md) .
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Comprar outra assinatura do Office 365 para empresas](buy-another-subscription.md)
+[Comprar outra assinatura do Microsoft 365 for Business](buy-another-subscription.md)
 
-[Comprar ou editar um complemento do Office 365 para empresas](buy-or-edit-an-add-on.md)
+[Comprar ou editar um complemento para o Microsoft 365 for Business](buy-or-edit-an-add-on.md)
 
 [Adicionar espaço de armazenamento para sua assinatura](add-storage-space.md)
+

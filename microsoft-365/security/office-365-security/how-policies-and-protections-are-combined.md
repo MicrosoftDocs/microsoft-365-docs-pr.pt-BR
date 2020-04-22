@@ -1,5 +1,5 @@
 ---
-title: Ordem e precedência de proteção de email no Office 365
+title: Ordem e precedência de proteção de email
 keywords: segurança, malware, Microsoft 365, M365, central de segurança, ATP, Microsoft defender ATP, Office 365 ATP, Azure ATP
 f1.keywords:
 - NOCSH
@@ -14,16 +14,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Descreve a ordem de aplicativos das proteções do Office 365 e como o valor de prioridade nas políticas de proteção determina qual política é aplicada.
-ms.openlocfilehash: 6a95c59a5cd629b704753c6c05c9b8069d9240b1
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: ed4806bad6299dc5a5380bec2f6e1247f9d6b448
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537408"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633961"
 ---
-# <a name="order-and-precedence-of-email-protection-in-office-365"></a>Ordem e precedência de proteção de email no Office 365
+# <a name="order-and-precedence-of-email-protection"></a>Ordem e precedência de proteção de email
 
-No Office 365, os emails de entrada são avaliados por e, portanto, podem ser sinalizados por várias formas de proteção (malware, spam, phishing, etc.). Dada a todas essas atividades, pode ser difícil determinar qual política foi aplicada e em que ordem.
+Como um usuário do Microsoft 365, seus emails de entrada podem ser sinalizados por várias formas de proteção. Por exemplo, as políticas anti-phishing internas do EOP que estão disponíveis para todos os clientes da Microsoft 365 e as políticas de anti-phishing mais robustas da ATP que também estão disponíveis para os clientes do Office 365 Advanced Threat Protection. As mensagens também passam por várias verificações de detecção de malware, spam, phishing, etc. Dada a todas essas atividades, pode haver uma certa confusão sobre qual política é aplicada.
 
 Em geral, uma política aplicada a uma mensagem é identificada no cabeçalho **X-Forefront-antispam-Report** na propriedade **Cat (categoria)** . Para obter mais informações, consulte [Cabeçalhos de mensagem antispam](anti-spam-message-headers.md).
 

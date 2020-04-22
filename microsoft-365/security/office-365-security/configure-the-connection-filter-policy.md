@@ -16,16 +16,16 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: Para certificar-se de que os emails enviados de pessoas confiáveis não estão bloqueados, você pode usar a política de filtro de conexão para criar uma lista de permissões de endereços IP nos quais confia. Você também pode criar uma lista de remetentes de IP bloqueados.
-ms.openlocfilehash: bc0f99102daa422cefe5a7c9cb3e0e5476237f63
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 54e68c79f78bb1408684ac583edff137cb687b53
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893993"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637741"
 ---
-# <a name="configure-connection-filtering-in-office-365"></a>Configurar a filtragem de conexão no Office 365
+# <a name="configure-connection-filtering"></a>Configurar a filtragem da conexão
 
-Se você for um cliente do Office 365 com caixas de correio no Exchange Online ou um cliente do Exchange Online Protection (EOP) autônomo sem caixas de correio do Exchange Online, use a filtragem de conexão no EOP (especificamente a política de filtro de conexão padrão) para identificar servidores de email de origem bons ou defeituosos por seus endereços IP. Os principais componentes da política de filtro de conexão padrão são:
+Se você for um cliente Microsoft 365 com caixas de correio no Exchange Online ou um cliente autônomo do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, use a filtragem de conexão no EOP (especificamente a política de filtro de conexão padrão) para identificar servidores de email de origem bons ou defeituosos por seus endereços IP. Os principais componentes da política de filtro de conexão padrão são:
 
 - **Lista de permissões de IP**: ignorar a filtragem de spam para todas as mensagens de entrada dos servidores de email de origem que você especificar por endereço IP ou intervalo de endereços IP. Para cenários em que a filtragem de spam ainda pode ocorrer em mensagens dessas fontes, consulte os [cenários em que as mensagens de fontes na lista de IPs permitidos ainda serão filtradas](#scenarios-where-messages-from-sources-in-the-ip-allow-list-are-still-filtered) posteriormente neste tópico. Para obter mais informações sobre como a lista de IPs permitidos deve se encaixar em sua estratégia geral de remetentes confiáveis, consulte [criar listas de remetentes confiáveis no Office 365](create-safe-sender-lists-in-office-365.md).
 
@@ -33,18 +33,18 @@ Se você for um cliente do Office 365 com caixas de correio no Exchange Online o
 
 - **Lista segura**: a *lista segura* é uma lista de permissões dinâmicas no datacenter da Microsoft que não requer nenhuma configuração de cliente. A Microsoft identifica essas fontes de email confiáveis de assinaturas para várias listas de terceiros. Você habilita ou desabilita o uso da lista segura; Não é possível configurar os servidores de email de origem na lista de confiança. A filtragem de spam é ignorada nas mensagens de entrada dos servidores de email na lista de confiança.
 
-Este tópico descreve como configurar a política de filtro de conexão padrão no centro de conformidade & segurança do Office 365 ou no PowerShell (PowerShell do Exchange Online para clientes do Office 365; PowerShell de proteção do Exchange Online para clientes autônomos do EOP). Para obter mais informações sobre como o EOP usa a filtragem de conexão faz parte das configurações antispam gerais da sua organização, consulte See [anti-spam Protection in Office 365](anti-spam-protection.md).
+Este tópico descreve como configurar a política de filtro de conexão padrão no centro de conformidade & segurança ou no PowerShell (PowerShell do Exchange Online para clientes do Microsoft 365; PowerShell de proteção do Exchange Online para clientes autônomos do EOP). Para obter mais informações sobre como o EOP usa a filtragem de conexão faz parte das configurações antispam gerais da sua organização, consulte See [anti-spam Protection](anti-spam-protection.md).
 
 > [!NOTE]
-> A lista de IPs permitidos, a lista segura e a lista de IPs bloqueados são uma parte de sua estratégia geral para permitir ou bloquear emails em sua organização. Para obter mais informações, consulte [criar listas de remetentes seguros no office 365](create-safe-sender-lists-in-office-365.md) e [criar listas de remetentes bloqueados no Office 365](create-block-sender-lists-in-office-365.md).
+> A lista de IPs permitidos, a lista segura e a lista de IPs bloqueados são uma parte de sua estratégia geral para permitir ou bloquear emails em sua organização. Para obter mais informações, consulte [criar listas de remetentes confiáveis](create-safe-sender-lists-in-office-365.md) e [criar listas de remetentes bloqueados](create-block-sender-lists-in-office-365.md).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Abra o centro de conformidade & segurança em <https://protection.office.com/>. Para ir diretamente para a página **configurações antispam** , use <https://protection.office.com/antispam>.
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>.
 
-- Para se conectar ao Exchange Online PowerShell, confira [Conectar ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell autônomo do Exchange Online Protection, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell da Proteção do Exchange Online autônoma, confira [Conectar ao PowerShell da Proteção do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
-- Você precisa receber permissões para poder executar estes procedimentos. Para modificar a política de filtro de conexão padrão, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** . Para acesso somente leitura à política de filtro de conexão padrão, você precisa ser membro do grupo de função **leitor de segurança** . Para obter mais informações sobre grupos de função no centro de conformidade & segurança, consulte [permissões no centro de conformidade & segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
+- Você precisa receber permissões para executar esses procedimentos. Para modificar a política de filtro de conexão padrão, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** . Para acesso somente leitura à política de filtro de conexão padrão, você precisa ser membro do grupo de função **leitor de segurança** . Para obter mais informações sobre grupos de função no centro de conformidade de & de segurança, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
 
 - Para localizar os endereços IP de origem dos servidores de email (remetentes) que você deseja permitir ou bloquear, você pode verificar o campo de cabeçalho IP de conexão (**CIP**) no cabeçalho da mensagem. Para exibir um cabeçalho de mensagem em vários clientes de email, confira [exibir cabeçalhos de mensagens da Internet no Outlook](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c).
 
@@ -176,9 +176,9 @@ Por exemplo, o servidor de email de origem 192.168.1.25 envia emails dos domíni
 
 As mensagens de um servidor de email na lista de IPs permitidos ainda estão sujeitas à filtragem de spam nos seguintes cenários:
 
-- Um endereço IP na lista de IPs permitidos também é configurado em um conector de entrada baseado em IP ou local em *qualquer* locatário no Office 365 (Vamos chamar este locatário a **) e o locatário a** e o servidor do EOP que primeiro encontra a mensagem no Office 365 estão na *mesma* floresta do Active Directory nos datacenters da Microsoft. Neste cenário, **IPV: Cal** *é* adicionado aos cabeçalhos da mensagem [antispam](anti-spam-message-headers.md) da mensagem (indicando a mensagem de filtragem de spam ignorada), mas a mensagem ainda está sujeita à filtragem de spam.
+- Um endereço IP na sua lista de IPs permitidos também é configurado em um conector de entrada baseado em IP ou local em *qualquer* locatário no Microsoft 365 (Vamos chamar este locatário a **) e o locatário a** e o servidor do EOP que encontra primeiro a mensagem acontecerem na *mesma* floresta do Active Directory nos datacenters da Microsoft. Neste cenário, **IPV: Cal** *é* adicionado aos cabeçalhos da mensagem [antispam](anti-spam-message-headers.md) da mensagem (indicando a mensagem de filtragem de spam ignorada), mas a mensagem ainda está sujeita à filtragem de spam.
 
-- Seu locatário que contém a lista de IPs permitidos e o servidor EOP que primeiro encontra a mensagem no Office 365 estão em florestas do Active Directory *diferentes* nos datacenters da Microsoft. Neste cenário, **IPV: Cal** *não é* adicionado aos cabeçalhos da mensagem, portanto, a mensagem ainda está sujeita à filtragem de spam.
+- Seu locatário que contenha a lista de permissões de IP e o servidor EOP que primeiro encontra a mensagem acontecerá em florestas *diferentes* do Active Directory nos datacenters da Microsoft. Neste cenário, **IPV: Cal** *não é* adicionado aos cabeçalhos da mensagem, portanto, a mensagem ainda está sujeita à filtragem de spam.
 
 Se você encontrar um desses cenários, poderá criar uma regra de fluxo de email com as seguintes configurações (no mínimo) para garantir que as mensagens dos endereços IP problemáticos ignorem a filtragem de spam:
 
@@ -190,4 +190,4 @@ Se você encontrar um desses cenários, poderá criar uma regra de fluxo de emai
 
 ||
 |:-----|
-|![O ícone pequeno do LinkedIn Learning](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Começando a usar o Office 365?** Descubra cursos em vídeo gratuitos para **profissionais de TI e administradores do Office 365**, oferecidos pelo LinkedIn Learning.|
+|![O ícone curto do LinkedIn Learning](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **New to Microsoft 365?** Descubra cursos de vídeo gratuitos para **Administradores e profissionais de ti**, trazidos para você pelo LinkedIn Learning.|

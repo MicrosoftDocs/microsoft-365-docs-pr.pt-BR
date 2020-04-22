@@ -1,5 +1,5 @@
 ---
-title: Office 365 ATP para SharePoint, OneDrive e Microsoft Teams
+title: ATP para SharePoint, OneDrive e Microsoft Teams
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Estenda a proteção avançada contra ameaças do Office 365 para arquivos no SharePoint Online, OneDrive for Business e Microsoft Teams para permitir a colaboração mais segura para sua organização.
-ms.openlocfilehash: 3105a9443ddab483bc5ac4037e5260b354d64de9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4c64a4934a472fa5c6ac0f1f718d63300560f6c8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086613"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636017"
 ---
-# <a name="office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Office 365 ATP para SharePoint, OneDrive e Microsoft Teams
+# <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>ATP para SharePoint, OneDrive e Microsoft Teams
 
 ## <a name="overview-of-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Visão geral do Office 365 ATP para SharePoint, OneDrive e Microsoft Teams
 
@@ -41,7 +41,7 @@ Embora o arquivo bloqueado ainda esteja listado na biblioteca de documentos e ap
 
 ![Excluir um arquivo bloqueado do OneDrive for Business do aplicativo móvel do OneDrive](../../media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)
 
-Dependendo de como o Office 365 estiver configurado, as pessoas podem ou não ter a capacidade de baixar um arquivo bloqueado. Veja a seguir como baixar um arquivo bloqueado no dispositivo móvel de um usuário:
+Dependendo de como o Microsoft 365 é configurado, as pessoas podem ou não ter a capacidade de baixar um arquivo bloqueado. Veja a seguir como baixar um arquivo bloqueado no dispositivo móvel de um usuário:
 
 ![Baixar um arquivo bloqueado no OneDrive for Business](../../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)
 
@@ -61,11 +61,11 @@ Para saber mais, confira [Office 365 ATP para SharePoint, OneDrive e Microsoft T
 
 ## <a name="quarantine-in-atp-for-sharepoint-online-onedrive-for-business-and-microsoft-teams"></a>Quarentena no ATP para SharePoint Online, OneDrive for Business e Microsoft Teams
 
- A partir do final de maio [](quarantine-email-messages.md) de 2018, os recursos de &amp; quarentena no centro de conformidade de segurança estão sendo estendidos para ATP para SharePoint Online, onedrive for Business e Microsoft Teams.
+ A partir do final de maio [quarantine](quarantine-email-messages.md) de 2018, os recursos de &amp; quarentena no centro de conformidade de segurança estão sendo estendidos para ATP para SharePoint Online, onedrive for Business e Microsoft Teams.
 
 Quando um arquivo no SharePoint Online, no OneDrive for Business ou no Microsoft Teams é identificado como mal-intencionado, além de a ATP impedindo que o arquivo seja aberto ou compartilhado, esse arquivo é incluído em uma lista de itens em quarentena. (No centro de &amp; conformidade de segurança, vá para **Gerenciamento** \> de ameaças **revisar** \> **quarentena** e filtro para **conteúdo**.)
 
-Se você fizer parte da equipe de segurança do Office 365 da sua organização e tiver as [permissões necessárias atribuídas no centro &amp; de conformidade de segurança do Office 365](permissions-in-the-security-and-compliance-center.md), você poderá baixar, liberar, relatar e excluir arquivos detectados como mal-intencionados por ATP da quarentena.
+Se você fizer parte da equipe de segurança do Microsoft 365 for Business da sua organização e tiver as [permissões necessárias atribuídas &amp; no centro de conformidade de segurança](permissions-in-the-security-and-compliance-center.md), poderá baixar, liberar, relatar e excluir arquivos detectados como mal-intencionados por ATP da quarentena.
 
 - **Liberar e relatar** um arquivo Remove o bloco ATP no arquivo no respectivo site de equipe ou biblioteca de documentos do SharePoint, onedrive ou Microsoft Teams. Os usuários podem abrir, compartilhar e baixar o arquivo. E, quando a opção **Enviar relatório para a Microsoft** for selecionada, o arquivo será relatado como falso positivo para a Microsoft.
 

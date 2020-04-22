@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 98bfa8da792bfc5b75d1a2532492c2de6071f1b1
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: fe98df2c64bca36bc44c30bddb8b5e53d25aa6a5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558232"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634551"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Portais de segurança e centros de administração da Microsoft
 Embora o [centro de segurança do Microsoft 365](overview-security-center.md) seja a nova casa para monitorar e gerenciar a segurança em suas identidades, dados, dispositivos e aplicativos, você precisará acessar vários portais para determinadas tarefas especializadas.
@@ -36,7 +36,7 @@ Os operadores e administradores de segurança podem ir para os portais a seguir 
 |---|---|---| 
 | Centro de segurança do Microsoft 365 | Monitorar e responder à atividade de ameaças e reforçar a postura de segurança em suas identidades, email, dados, pontos de extremidade e aplicativos com a [proteção contra ameaças da Microsoft](microsoft-threat-protection.md) | [security.microsoft.com](https://security.microsoft.com/) |
 | Central de segurança do Microsoft defender | Monitorar e responder à atividade de ameaça nos seus pontos de extremidade usando recursos fornecidos com [o Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) | [securitycenter.windows.com](https://securitycenter.microsoft.com/) |
-| Centro de Conformidade e Segurança do Office 365 | Gerenciar o [Exchange Online Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide) e o [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) para proteger seus serviços de email e colaboração e garantir a conformidade com várias normas de manipulação de dados | [protection.office.com](https://protection.office.com) |
+| Centro de Conformidade e Segurança | Gerenciar o [Exchange Online Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide) e o [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) para proteger seus serviços de email e colaboração e garantir a conformidade com várias normas de manipulação de dados | [protection.office.com](https://protection.office.com) |
 | Portal da central de segurança do Azure | Use a [central de segurança do Azure](https://docs.microsoft.com/azure/security-center/security-center-intro) para reforçar a postura de segurança de seus data centers e suas cargas de trabalho híbridas na nuvem | [#blade/Microsoft_Azure_Security portal.azure.com/](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0) |
 | Portal ATP do Azure | Identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações mal-intencionadas do insider usando sinais do Active Directory com o [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) | [portal.atp.azure.com](https://portal.atp.azure.com/) |
 | Portal do Cloud app Security | Use [o Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) para obter uma visibilidade rica, controle sobre a viagem de dados e análises sofisticadas para identificar e combater o ciberataques em serviços em nuvem | [portal.cloudappsecurity.com](https://portal.cloudappsecurity.com/) |

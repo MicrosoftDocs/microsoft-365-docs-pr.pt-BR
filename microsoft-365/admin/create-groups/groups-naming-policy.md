@@ -1,5 +1,5 @@
 ---
-title: Política de nomenclatura de grupos do Office 365
+title: Política de nomeação de grupos
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -19,22 +19,22 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
-description: Saiba como criar uma política de nomenclatura para grupos do Office 365.
-ms.openlocfilehash: 4325a5e0a1de0c3a83be71220abd256c204ec07d
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: Saiba como criar uma política de nomenclatura para os grupos do Microsoft 365.
+ms.openlocfilehash: 2d8b016e0830f0d20ea6fb6227dd7789878bfc94
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894618"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630438"
 ---
-# <a name="office-365-groups-naming-policy"></a>Política de nomenclatura de grupos do Office 365
+# <a name="groups-naming-policy"></a>Política de nomeação de grupos
 
 Você usa uma política de nomeação de grupo para impor uma estratégia de nomenclatura consistente para grupos criados por usuários em sua organização. Uma política de nomenclatura pode ajudar você e seus usuários a identificar a função do grupo, da associação, da região geográfica ou quem criou o grupo. A política de nomenclatura também pode ajudar a categorizar grupos no catálogo de endereços. Você pode usar a política para bloquear a utilização de palavras específicas em nomes de grupo e aliases.
 
 A política de nomenclatura é aplicada a grupos criados em todas as cargas de trabalho de grupos (como Outlook, Microsoft Teams, SharePoint, Planner, Yammer, etc.). Ela é aplicada ao nome do grupo e ao alias do grupo. Ela é aplicada quando um usuário cria um grupo e quando o nome ou o alias do grupo é editado para um grupo existente.
 
 > [!TIP]
-> Uma política de nomenclatura de grupo do Office 365 só se aplica aos grupos do Office 365. Ele não se aplica a grupos de distribuição criados no Exchange Online. Para criar uma política de nomenclatura para grupos de distribuição, consulte [criar uma política de nomenclatura de grupo de distribuição](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy).
+> Uma política de nomenclatura de grupo do Microsoft 365 só se aplica aos grupos do Microsoft 365. Ele não se aplica a grupos de distribuição criados no Exchange Online. Para criar uma política de nomenclatura para grupos de distribuição, consulte [criar uma política de nomenclatura de grupo de distribuição](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy).
 
 A política de nomeação de grupo consiste nos seguintes recursos:
 
@@ -44,7 +44,7 @@ A política de nomeação de grupo consiste nos seguintes recursos:
 
 ## <a name="licensing-requirements"></a>Requisitos de licença
 
-O uso da política de nomenclatura do Azure AD para grupos do Office 365 requer que você tenha, mas não necessariamente, atribua uma licença do Azure Active Directory Premium P1 ou uma licença do Azure AD Basic EDU para cada usuário exclusivo (incluindo convidados) que seja membro de um ou mais grupos do Office 365.
+O uso da política de nomenclatura do Azure AD para grupos do Microsoft 365 requer que você tenha, mas não necessariamente, atribua uma licença do Azure Active Directory Premium P1 ou uma licença do Azure AD Basic EDU para cada usuário exclusivo (incluindo convidados) que seja membro de um ou mais grupos da Microsoft 365.
 
 Isso também é necessário para o administrador que cria a política de nomenclatura de grupos.
 
@@ -80,7 +80,7 @@ Os atributos do Azure Active Directory (Azure AD) com suporte são [departamento
 
 - Os prefixos e sufixos podem conter caracteres especiais compatíveis com o nome do grupo e o alias do grupo. Quando os prefixos e sufixos contêm caracteres especiais que não são permitidos no alias do grupo, eles são aplicados apenas ao nome do grupo. Portanto, nesse caso, os prefixos e sufixos aplicados ao nome do grupo seriam diferentes dos que foram aplicados ao alias do grupo.
 
-- Se você estiver usando os grupos conectados do Yammer Office 365, evite usar os seguintes caracteres em sua política de nomenclatura \#: \[@ \], \<,, \>, e. Se esses caracteres estiverem na política de nomenclatura, os usuários normais do Yammer não poderão criar grupos.
+- Se você estiver usando os grupos conectados do Yammer Microsoft 365, evite usar os seguintes caracteres em sua política de nomenclatura \#: \[@ \], \<,, \>, e. Se esses caracteres estiverem na política de nomenclatura, os usuários normais do Yammer não poderão criar grupos.
 
 ## <a name="custom-blocked-words"></a>Palavras bloqueadas personalizadas
 
@@ -126,10 +126,10 @@ Para configurar uma política de nomenclatura:
 ![Captura de tela das configurações de política de nomenclatura de grupos no Azure Active Directory](../../media/groups-naming-policy-azure.png)
 
 > [!NOTE]
-> As equipes do StaffHub não seguem a política de nomenclatura, mas o grupo subjacente do Office 365. O nome da equipe do StaffHub não aplica os prefixos e sufixos e não verifica as palavras bloqueadas personalizadas. Mas o StaffHub aplica os prefixos e sufixos e remove as palavras bloqueadas do grupo subjacente do Office 365.
+> As equipes do StaffHub não seguem a política de nomenclatura, mas o grupo base 365 da Microsoft. O nome da equipe do StaffHub não aplica os prefixos e sufixos e não verifica as palavras bloqueadas personalizadas. Mas o StaffHub aplica os prefixos e sufixos e remove as palavras bloqueadas do grupo subjacente do Microsoft 365.
 
 ## <a name="more-articles-on-naming-policy"></a>Mais artigos sobre política de nomenclatura
 
-[Aplicar uma política de nomenclatura para grupos do Office 365 no Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=868340)
+[Aplicar uma política de nomenclatura para grupos do Microsoft 365 no Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=868340)
 
 [Cmdlets do Azure Active Directory para definição de configurações de grupo](https://go.microsoft.com/fwlink/?linkid=868341)

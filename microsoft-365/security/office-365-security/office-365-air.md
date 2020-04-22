@@ -1,5 +1,5 @@
 ---
-title: Investigação e resposta automatizadas (AIR) no Office 365
+title: Investigação e resposta automatizadas (AIR)
 keywords: AIR, autoIR, ATP, automatizado, investigação, resposta, correção, ameaças, avançado, ameaça, proteção
 f1.keywords:
 - NOCSH
@@ -16,14 +16,14 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Comece a usar os recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air
-ms.openlocfilehash: 45a2bc0e581916493a0170a5f86c152d02403efe
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: 3b7ddd88161b695e8929b749dac61d7947392a0d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826344"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634539"
 ---
-# <a name="automated-investigation-and-response-air-in-office-365"></a>Investigação e resposta automatizadas (AIR) no Office 365
+# <a name="automated-investigation-and-response-air"></a>Investigação e resposta automatizadas (AIR)
 
 [Office 365 proteção avançada contra ameaças](office-365-atp.md) (Office 365 ATP) o plano 2 inclui recursos avançados de investigação e resposta (Air) automatizados que podem economizar tempo e esforço da equipe de operações de segurança. À medida que os alertas são disparados, a equipe de operações de segurança pode revisar, priorizar e responder a esses alertas. Acompanhar o volume de alertas de entrada pode ser impressionante. A automação de algumas delas pode ajudar. Com o AIR, sua equipe de operações de segurança pode se concentrar nas tarefas de maior prioridade sem perder a visão dos alertas disparados.
 
@@ -69,7 +69,7 @@ Durante e após um processo de investigação automatizado, a equipe de seguran�
 
 Os recursos de AIR do Office 365 estão incluídos no [office 365 Advanced Threat Protection Plan 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2). No entanto, suas [políticas ATP do Office 365 devem ser configuradas](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats) para que o Air funcione conforme o esperado. Além disso, certifique-se de revisar e configurar potencialmente as [políticas de alerta](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)da sua organização. 
 
-O Office 365 fornece várias políticas de alerta internas que ajudam a identificar abuso de permissões de administração do Exchange, atividade de malware, ameaças externas e internas potenciais e riscos de governança de informações. Várias das [políticas de alerta padrão](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies) podem disparar investigações automatizadas. Elas incluem o seguinte:
+A Microsoft 365 fornece várias políticas de alerta internas que ajudam a identificar abuso de permissões de administrador do Exchange, atividade de malware, ameaças externas e internas potenciais e riscos de governança de informações. Várias das [políticas de alerta padrão](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies) podem disparar investigações automatizadas. Elas incluem o seguinte:
 
 - Um clique em URL potencialmente mal-intencionado é detectado
 
@@ -91,8 +91,8 @@ As permissões são concedidas por determinadas funções, como aquelas descrita
 
 |Tarefa |Função (ões) necessária |
 |--|--|
-|Para configurar os recursos de ar |Uma das seguintes funções: <br/>-Administrador global<br/>-Administrador de segurança <br/>Essas funções podem ser atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
-|Para aprovar ou rejeitar ações recomendadas|Uma das seguintes funções, atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)):<br/>-Administrador global <br/>-Administrador de segurança<br/>– Leitor de segurança <br/>---e---<br/>– Pesquisa e limpeza (esta função é atribuída somente no [centro de conformidade & segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Talvez seja necessário criar um novo grupo de função e adicionar a função de pesquisa e limpeza a esse novo grupo de função.)
+|Para configurar os recursos de ar |Uma das seguintes funções: <br/>-Administrador global<br/>-Administrador de segurança <br/>Essas funções podem ser atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade do & de segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
+|Para aprovar ou rejeitar ações recomendadas|Uma das seguintes funções, atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade & segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)):<br/>-Administrador global <br/>-Administrador de segurança<br/>– Leitor de segurança <br/>---e---<br/>– Pesquisa e limpeza (esta função é atribuída somente no [centro de conformidade de & de segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Talvez seja necessário criar um novo grupo de função e adicionar a função de pesquisa e limpeza a esse novo grupo de função.)
 
 ## <a name="next-steps"></a>Próximas etapas
 

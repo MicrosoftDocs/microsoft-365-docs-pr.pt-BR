@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53
 ROBOTS: NOINDEX
 description: Saiba como adicionar licenças à sua assinatura.
-ms.openlocfilehash: aa924c3c485f33fa831d140413ebfd2d872f30ff
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 694b8ac57e28bbe6b03e5f8aeef87bda1bcc73ba
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142234"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632420"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>Adicionar licenças ou estender uma assinatura paga usando uma chave do produto (Product Key)
 
@@ -41,6 +41,7 @@ As licenças pré-paga são emitidas como um código alfanumérico de 25 caracte
 ## <a name="add-licenses-to-your-subscription"></a>Adicionar licenças à sua assinatura
 
 ::: moniker range="o365-worldwide"
+
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
 
@@ -98,6 +99,7 @@ As licenças pré-paga são emitidas como um código alfanumérico de 25 caracte
 ## <a name="extend-the-expiration-date-of-your-subscription"></a>Estender a data de expiração da sua assinatura
 
 ::: moniker range="o365-worldwide"
+
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
 

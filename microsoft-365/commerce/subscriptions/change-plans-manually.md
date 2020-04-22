@@ -1,5 +1,5 @@
 ---
-title: Alterar o Office 365 para planos de negócios manualmente
+title: Alterar manualmente os planos do Microsoft 365 for Business
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: Altere as assinaturas manualmente, comprando uma nova assinatura e garantindo que ambas as assinaturas estejam listadas e ativas.
-ms.openlocfilehash: 80e10c3b24fa69ee5b1a6c89790260c2ac810588
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 89786b30403a60bd0551351602d6fccc07f3d1a1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142146"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636578"
 ---
 # <a name="change-plans-manually"></a>Alterar planos manualmente
 
@@ -51,9 +51,9 @@ Para continuar com uma alteração manual, leia [a etapa 2: comprar uma nova ass
 
 OU
 
-**Adquira uma nova assinatura e licenças:** Siga as etapas em [comprar outra assinatura do Office 365 for Business](../buy-another-subscription.md) para comprar uma nova assinatura.
+**Adquira uma nova assinatura e licenças:** Siga as etapas em [comprar outra assinatura do Microsoft 365 for Business](../buy-another-subscription.md) para comprar uma nova assinatura.
 
-Certifique-se de comprar uma assinatura para a mesma organização em que os usuários estão agora. Por exemplo, verifique os endereços de email dos usuários do Office 365 que você deseja mover. Se seus endereços de email \@incluírem contoso.com, você deverá adquirir uma nova assinatura para o contoso.com.
+Certifique-se de comprar uma assinatura para a mesma organização em que os usuários estão agora. Por exemplo, verifique os endereços de email dos usuários que você deseja mover. Se seus endereços de email \@incluírem contoso.com, você deverá adquirir uma nova assinatura para o contoso.com.
 Inclua uma licença para cada usuário que você deseja mover.
 
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>Etapa 3: verificar sua nova assinatura e licenças
@@ -114,5 +114,4 @@ Se você moveu todos os usuários de uma assinatura para outra e não precisa ma
 Se você moveu apenas alguns usuários para uma assinatura diferente, [remova as licenças](../licenses/remove-licenses-from-subscription.md) que não são mais necessárias.
 
 ## <a name="call-support-to-help-you-change-plans"></a>Ligar para o suporte para ajudá-lo a alterar planos
-
 [Chamar o suporte da Microsoft](../../admin/contact-support-for-business-products.md)

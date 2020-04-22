@@ -11,18 +11,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem saber mais sobre o relatório de domínio não aceito no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 4b4573d6a43c811e919f3f5c6f281c8f31e61d6a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 64bf572db90b44512ca72aec5733a99373d8f53f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088453"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635275"
 ---
 # <a name="non-accepted-domain-report"></a>Relatório de domínio não aceito
 
-Semelhante à percepção do **domínio do remetente** , a percepção de **domínio não aceita** identifica as mensagens da sua organização de email local, mas o domínio do remetente não está configurado como um domínio aceito na sua organização do Office 365.
+Semelhante à percepção do **domínio do remetente** , a percepção de **domínio não aceita** identifica as mensagens da sua organização de email local, mas o domínio do remetente não está configurado como um domínio aceito na sua organização.
 
-O Office 365 pode reduzir essas mensagens se houver dados para provar que a intenção dessas mensagens é mal-intencionada. Portanto, é importante entender o que está acontecendo e corrigir o problema.
+O Microsoft 365 pode reduzir essas mensagens se houver dados que comprovam que a intenção dessas mensagens é mal-intencionada. Portanto, é importante entender o que está acontecendo e corrigir o problema.
 
 ![O relatório de domínio não aceito no painel de fluxo de emails no centro de conformidade de & de segurança](../../media/non-accepted-domain-report-selected.png)
 

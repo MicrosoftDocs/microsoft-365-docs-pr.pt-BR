@@ -22,19 +22,19 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
-description: Saiba como usar o Microsoft 365 Business para reinicialização de fábrica dispositivos do Windows 10 que você gerencia, revertendo-os às suas configurações originais na compra.
-ms.openlocfilehash: 3705448602cdc22e9fb5843c46d5bdc1c4dbdb2e
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Saiba como usar o Microsoft 365 for Business para reconfigurar a fábrica dispositivos Windows 10 que você gerencia, revertendo-os às suas configurações originais na compra.
+ms.openlocfilehash: 7cf5619cb1b6f5f847690d723381614d4b7afc3c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561291"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634783"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Restaurar dispositivos com o Windows 10 para as configurações de fábrica
 
 [![Rótulo para informar que o centro de administração está mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-Uma restauração de fábrica retorna um dispositivo às configurações originais que ele tinha quando o dispositivo foi comprado. Todos os aplicativos e dados do dispositivo que foram instalados após a compra serão removidos. Você pode usar o Microsoft 365 Business para executar a restauração de fábrica nos dispositivos Windows 10 que gerencia.
+Uma restauração de fábrica retorna um dispositivo às configurações originais que ele tinha quando o dispositivo foi comprado. Todos os aplicativos e dados do dispositivo que foram instalados após a compra serão removidos. Você pode usar o Microsoft 365 for Business para reconfigurar a fábrica dispositivos Windows 10 que você gerencia.
   
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     

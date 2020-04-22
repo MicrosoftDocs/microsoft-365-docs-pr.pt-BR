@@ -21,13 +21,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
-description: Exibir políticas e ações de dispositivos entrando no Microsoft 365 Business com credenciais de administrador global.
-ms.openlocfilehash: ac8ea8a5b484fe6401e72fd0eaab4d79515f3aac
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Exibir políticas e ações de dispositivos entrando no Microsoft 365 for Business com credenciais de administrador global.
+ms.openlocfilehash: e514b48c17de492bd1eaa75b48418ce0f2ff493e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42056542"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635675"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>Exibir e gerenciar políticas e dispositivos
 

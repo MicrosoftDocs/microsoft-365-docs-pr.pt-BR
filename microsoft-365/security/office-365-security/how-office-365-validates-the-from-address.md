@@ -1,5 +1,5 @@
 ---
-title: Como o Office 365 valida o endereço de para impedir o phishing
+title: Como a Microsoft 365 valida o endereço de origem para impedir o phishing
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,17 +16,17 @@ search.appverid:
 ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
-description: Saiba mais sobre os requisitos de endereços de email para mensagens de entrada no Office 365. A partir de novembro de 2017, o serviço agora exige conformidade com a RFC de endereços para ajudar a impedir a falsificação.
-ms.openlocfilehash: 4df073cfff3c36f60a013237d95548cb48fa7b5f
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+description: Saiba mais sobre os requisitos de endereços de email para mensagens de entrada no Microsoft 365. A partir de novembro de 2017, o serviço agora exige conformidade com a RFC de endereços para ajudar a impedir a falsificação.
+ms.openlocfilehash: 876ede087b37c381b9e9b557268057122e0987c0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528996"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633973"
 ---
-# <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a>Como o Office 365 valida o endereço de para impedir o phishing
+# <a name="how-microsoft-365-validates-the-from-address-to-prevent-phishing"></a>Como a Microsoft 365 valida o endereço de origem para impedir o phishing
 
-As contas de email do Office 365 recebem um número cada vez maior de ataques de phishing. Além de usar [endereços de email de remetente falsificados (forjados)](anti-spoofing-protection.md), os invasores freqüentemente usam valores no endereço de que violam os padrões da Internet. Para ajudar a evitar esse tipo de phishing, o Office 365 e o Outlook.com agora exigem mensagens de entrada para incluir um endereço de conformidade da RFC, conforme descrito neste tópico. Essa imposição foi habilitada em novembro de 2017.
+As contas de email do Microsoft 365 recebem um número cada vez maior de ataques de phishing. Além de usar [endereços de email de remetente falsificados (forjados)](anti-spoofing-protection.md), os invasores freqüentemente usam valores no endereço de que violam os padrões da Internet. Para ajudar a evitar esse tipo de phishing, o Microsoft 365 e o Outlook.com agora exigem mensagens de entrada para incluir um endereço de conformidade da RFC, conforme descrito neste tópico. Essa imposição foi habilitada em novembro de 2017.
 
 **Observações**:
 
@@ -75,31 +75,31 @@ Os seguintes endereços de email são válidos:
 
 - `From: "Sender, Example" <sender.example@contoso.com>`
 
-- `From: "Office 365" <sender@contoso.com>`
+- `From: "Microsoft 365" <sender@contoso.com>`
 
-- `From: Office 365 <sender@contoso.com>`(Não recomendado porque o nome de exibição não está entre aspas duplas.)
+- `From: Microsoft 365 <sender@contoso.com>`(Não recomendado porque o nome de exibição não está entre aspas duplas.)
 
 Os seguintes endereços de email são inválidos:
 
-- **Sem endereço de**: algumas mensagens automatizadas não incluem um endereço de remetente. No passado, quando o Office 365 ou Outlook.com recebeu uma mensagem sem um endereço de remetente, o serviço adicionou o seguinte padrão de: endereço para fazer com que a mensagem seja entregue:
+- **Sem endereço de**: algumas mensagens automatizadas não incluem um endereço de remetente. No passado, quando o Microsoft 365 ou Outlook.com recebeu uma mensagem sem um endereço de remetente, o serviço adicionou o seguinte padrão de: endereço para tornar a mensagem ser entregue:
 
   `From: <>`
 
   Agora, as mensagens com um endereço de em branco não são mais aceitas.
 
-- `From: Office 365 sender@contoso.com`(O nome de exibição está presente, mas o endereço de email não está entre colchetes angulares).
+- `From: Microsoft 365 sender@contoso.com`(O nome de exibição está presente, mas o endereço de email não está entre colchetes angulares).
 
-- `From: "Office 365" <sender@contoso.com> (Sent by a process)`(Texto após o endereço de email).
+- `From: "Microsoft 365" <sender@contoso.com> (Sent by a process)`(Texto após o endereço de email).
 
 - `From: Sender, Example <sender.example@contoso.com>`(O nome de exibição contém uma vírgula, mas não está entre aspas duplas.)
 
-- `From: "Office 365 <sender@contoso.com>"`(Todo o valor está incorretamente entre aspas duplas.)
+- `From: "Microsoft 365 <sender@contoso.com>"`(Todo o valor está incorretamente entre aspas duplas.)
 
-- `From: "Office 365 <sender@contoso.com>" sender@contoso.com`(O nome de exibição está presente, mas o endereço de email não está entre colchetes angulares).
+- `From: "Microsoft 365 <sender@contoso.com>" sender@contoso.com`(O nome de exibição está presente, mas o endereço de email não está entre colchetes angulares).
 
-- `From: Office 365<sender@contoso.com>`(Sem espaço entre o nome de exibição e o colchete angular esquerdo)
+- `From: Microsoft 365<sender@contoso.com>`(Sem espaço entre o nome de exibição e o colchete angular esquerdo)
 
-- `From: "Office 365"<sender@contoso.com>`(Sem espaço entre as aspas duplas de fechamento e o colchete angular esquerdo.)
+- `From: "Microsoft 365"<sender@contoso.com>`(Sem espaço entre as aspas duplas de fechamento e o colchete angular esquerdo.)
 
 ## <a name="suppress-auto-replies-to-your-custom-domain"></a>Suprimir respostas automáticas para seu domínio personalizado
 
@@ -115,16 +115,16 @@ Por exemplo:
 noreply.contoso.com IN MX .
 ```
 
-Para obter mais informações sobre como configurar registros MX, consulte [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Office 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
+Para obter mais informações sobre como configurar registros MX, consulte [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
 
 Para obter mais informações sobre como publicar um MX nulo, consulte [RFC 7505](https://tools.ietf.org/html/rfc7505).
 
 ## <a name="override-from-address-enforcement"></a>Substituir da imposição de endereço
 
-Para ignorar os requisitos de endereço de entrada para emails de entrada, você pode usar a lista de permissões de IP (filtragem de conexão) ou regras de fluxo de emails (também conhecidas como regras de transporte), conforme descrito em [criar listas de remetentes confiáveis no Office 365](create-safe-sender-lists-in-office-365.md).
+Para ignorar os requisitos de endereço de entrada para emails de entrada, você pode usar a lista de permissões de IP (filtragem de conexão) ou regras de fluxo de emails (também conhecidas como regras de transporte), conforme descrito em [criar listas de remetentes confiáveis no Microsoft 365](create-safe-sender-lists-in-office-365.md).
 
-Não é possível substituir os requisitos de endereço de para email de saída enviado do Office 365. Além disso, o Outlook.com não permitirá substituições de nenhum tipo, mesmo através de suporte.
+Você não pode substituir os requisitos de endereço do para email de saída enviado pelo Microsoft 365. Além disso, o Outlook.com não permitirá substituições de nenhum tipo, mesmo através de suporte.
 
-## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-office-365"></a>Outras maneiras de evitar e proteger contra o cybercrimes no Office 365
+## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-microsoft-365"></a>Outras maneiras de evitar e proteger contra o cybercrimes no Microsoft 365
 
-Para obter mais informações sobre como você pode reforçar sua organização contra phishing, spam, violações de dados e outras ameaças, Confira as [10 maneiras principais de proteger os planos de negócios do Office 365 e do Microsoft 365](../../admin/security-and-compliance/secure-your-business-data.md).
+Para saber mais sobre como você pode reforçar sua organização contra phishing, spam, violações de dados e outras ameaças, Confira as [10 maneiras principais de proteger os planos do Microsoft 365 para empresas](../../admin/security-and-compliance/secure-your-business-data.md).

@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 90651aa258adb9f7fe46f99bcadf1d4d552a5b76
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: 4030469b54d9a3a9c6f2eaceae384d39ea7f3e20
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955656"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637075"
 ---
 # <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Lidar com falsos positivos/negativos em recursos de investigação e resposta automatizados
 
@@ -45,14 +45,14 @@ Use este artigo como uma guia.
 
 |Item perdido ou detectado incorretamente |Serviço  |O que fazer  |
 |---------|---------|---------|
-|-Mensagem de email <br/>-Anexo de email <br/>-URL em uma mensagem de email<br/>-URL em um arquivo do Office      |[Proteção Avançada contra Ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)        |[Enviar spam, phishing, URLs e arquivos suspeitos à Microsoft para a verificação do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission)         |
+|-Mensagem de email <br/>-Anexo de email <br/>-URL em uma mensagem de email<br/>-URL em um arquivo do Office      |[Proteção Avançada contra Ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)        |[Enviar spam, phishing, URLs e arquivos suspeitos para a Microsoft para verificação](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission)         |
 |Arquivo ou aplicativo em um dispositivo    |[Proteção Avançada contra Ameaças do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection)         |[Enviar um arquivo para a Microsoft para análise de malware](https://www.microsoft.com/wdsi/filesubmission)         |
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>Ajustar um alerta para impedir que falsos positivos sejam recorrentes
 
 |Cenário |Serviço |O que fazer |
 |--------|--------|--------|
-|-Um alerta é disparado por uso legítimo <br/>-Um alerta é impreciso    |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)<br/> ou <br/>[Detecção avançada de ameaças do Azure](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)         |[Gerenciar alertas no portal do Cloud app Security](https://docs.microsoft.com/cloud-app-security/managing-alerts)         |
+|-Um alerta é disparado por uso legítimo <br/>-Um alerta é impreciso    |[Segurança no Aplicativo da Nuvem da Microsoft](https://docs.microsoft.com/cloud-app-security)<br/> ou <br/>[Detecção avançada de ameaças do Azure](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)         |[Gerenciar alertas no portal do Cloud app Security](https://docs.microsoft.com/cloud-app-security/managing-alerts)         |
 |Um arquivo, um endereço IP, uma URL ou um domínio é tratado como um malware em um dispositivo, mesmo que seja seguro|[Proteção Avançada contra Ameaças do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection) |[Criar um indicador personalizado com uma ação "permitir"](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
 
 

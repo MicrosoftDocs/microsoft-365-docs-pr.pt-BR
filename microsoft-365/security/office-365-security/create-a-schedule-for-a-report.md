@@ -17,12 +17,12 @@ ms.assetid: a74f637b-3710-4c41-b70f-b5a812929a81
 ms.collection:
 - M365-security-compliance
 description: Saiba como configurar um cronograma para um relatório no centro de conformidade de &amp; segurança.
-ms.openlocfilehash: 3e09dee36e14ca1e25f6ea20c8f2b5843dc7edaa
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: a5160c564373711521635d3a206d5501b0b2c8f0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43030159"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637695"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>Criar um cronograma para um relatório no centro de &amp; conformidade de segurança
 
@@ -31,7 +31,7 @@ No centro de &amp; conformidade de segurança, vários [relatórios e informaç�
 ## <a name="create-a-schedule-for-a-report"></a>Criar um cronograma de um relatório
 
 > [!IMPORTANT]
-> Verifique se você tem as permissões necessárias para executar essa tarefa. Em geral, os administradores globais do Office 365, administradores de segurança e leitores de segurança podem acessar relatórios &amp; no centro de conformidade de segurança. Para saber mais sobre permissões, confira [permissões no centro de conformidade &amp; de segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
+> Verifique se você tem as permissões necessárias para executar essa tarefa. Em geral, administradores globais, administradores de segurança e leitores de segurança podem acessar relatórios no centro &amp; de conformidade de segurança. Para saber mais sobre permissões, consulte [permissões no centro de &amp; conformidade de segurança](permissions-in-the-security-and-compliance-center.md).
   
 1. No [centro de &amp; conformidade de segurança](https://protection.office.com), vá para **painel**de **relatórios** \> .
     
@@ -72,7 +72,7 @@ Depois de criar um cronograma para um relatório, esse relatório será entregue
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Relatórios e insights no centro de conformidade de &amp; segurança do Office 365](reports-and-insights-in-security-and-compliance.md)
+[Relatórios e insights no centro de &amp; conformidade de segurança](reports-and-insights-in-security-and-compliance.md)
   
 [Gerenciar agendas para relatórios no centro &amp; de conformidade de segurança](manage-schedules-for-multiple-reports.md)
   

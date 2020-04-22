@@ -1,5 +1,5 @@
 ---
-title: Estender a avaliação do Office 365 para empresas
+title: Prorrogar a avaliação
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,19 +20,20 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 75533195-f1f6-4c2c-8ceb-0b5597790d7b
-description: Saiba como estender sua assinatura de avaliação por outro período de 30day.
-ms.openlocfilehash: f3e4241156d312d5dc236689344ad29ce1e8ee4d
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+description: Saiba como estender sua assinatura de avaliação por outro período de 30 dias.
+ms.openlocfilehash: 2656e23120e114f2bc83988aff614790663131d7
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142604"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634891"
 ---
-# <a name="extend-your-trial-for-office-365-for-business"></a>Estender a avaliação do Office 365 para empresas
+# <a name="extend-your-trial"></a>Prorrogar a avaliação
 
-Precisa de mais tempo para testar os recursos do Office 365 para empresas antes de comprar? Se sua assinatura de avaliação só tiver mais 15 dias até expirar e a avaliação não tiver sido estendida até então, você pode estender sua avaliação por mais 30 dias. Isso pode ser feito apenas uma vez.
+Você precisa de mais tempo para experimentar os recursos do Microsoft 365 for Business antes de comprar? Se sua assinatura de avaliação só tiver mais 15 dias até expirar e a avaliação não tiver sido estendida até então, você pode estender sua avaliação por mais 30 dias. Isso pode ser feito apenas uma vez.
 
 ::: moniker range="o365-worldwide"
+
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
 
@@ -44,7 +45,9 @@ Precisa de mais tempo para testar os recursos do Office 365 para empresas antes 
 
 ::: moniker range="o365-germany"
 
+
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
+
 
 2. Na página **assinaturas** , selecione a assinatura de avaliação que você deseja estender e, em seguida, na data de expiração, selecione **estender avaliação**.
 
@@ -62,4 +65,4 @@ Precisa de mais tempo para testar os recursos do Office 365 para empresas antes 
 
 ::: moniker-end
 
-Quando estiver pronto para comprar, confira [comprar sua versão de avaliação do Office 365 para empresas](buy-a-subscription-from-your-free-trial.md).
+Quando estiver pronto para comprar, confira [comprar sua versão de avaliação](buy-a-subscription-from-your-free-trial.md).

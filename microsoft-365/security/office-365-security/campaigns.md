@@ -1,5 +1,5 @@
 ---
-title: Modos de Exibição de Campanhas no Office 365 ATP
+title: Exibições de campanhas na ATP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,16 +17,16 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os Modos de Exibição de Campanhas na Proteção Avançada contra Ameaças do Office 365.
-ms.openlocfilehash: 40eab14dff8d0c51a35bfbc7a04365a5a025e207
-ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
+ms.openlocfilehash: 69b11319ffb033b628e59abac931b6a3f30d082c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637324"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637813"
 ---
-# <a name="campaign-views-in-office-365-atp"></a>Modos de Exibição de Campanha no Office 365 ATP
+# <a name="campaign-views-in-atp"></a>Exibições de campanha na ATP
 
-Os Modos de Exibição de Campanhas é um recurso no ATP (Proteção Avançada contra Ameaças) no Centro de Conformidade e Segurança do Office 365 que identifica e categoriza os ataques de phishing no serviço. Os Modos de Exibição de Campanhas podem ajudá-lo a:
+O modo de exibição de campanha é um recurso da proteção avançada contra ameaças (ATP) no centro de conformidade & segurança que identifica e categoriza os ataques de phishing no serviço. Os Modos de Exibição de Campanhas podem ajudá-lo a:
 
 - Investigar e responder de forma eficiente os ataques de phishing.
 
@@ -40,7 +40,7 @@ Os Modos de Exibição de Campanhas permitem que você veja o panorama de um ata
 
 Uma campanha é um ataque coordenado por email contra uma ou várias organizações. Os ataques de email que roubam credenciais e dados da empresa são um setor grande e lucrative. À medida que as tecnologias aumentam em um esforço para interromper ataques, os invasores modificam seus métodos em um esforço para garantir o sucesso contínuo.
 
-A Microsoft aproveita as vastas quantidades de dados anti-phishing, antispam e antimalware em todo o serviço do Office 365 para ajudar a identificar campanhas. Analisamos e classificamos as informações de ataque de acordo com vários fatores. Por exemplo:
+A Microsoft aproveita as vastas quantidades de dados anti-phishing, antispam e antimalware em todo o serviço para ajudar a identificar campanhas. Analisamos e classificamos as informações de ataque de acordo com vários fatores. Por exemplo:
 
 - **Fonte de ataque**: endereços IP de origem e domínios de email do remetente.
 
@@ -52,7 +52,7 @@ A Microsoft aproveita as vastas quantidades de dados anti-phishing, antispam e a
 
 Uma campanha pode ser de vida curta ou pode abranger vários dias, semanas ou meses com períodos ativos e inativos. Uma campanha pode ser iniciada em sua organização específica ou sua organização pode fazer parte de uma campanha maior em várias empresas.
 
-## <a name="campaign-views-the-office-365-security--compliance-center"></a>Modos de Exibição de Campanhas no Centro de Conformidade e Segurança do Office 365
+## <a name="campaign-views-the-security--compliance-center"></a>Exibições de campanha o centro de conformidade & segurança
 
 Os modos de exibição de campanha estão disponíveis no [centro de conformidade e segurança &](https://protection.office.com) nas **campanhas**de **Gerenciamento** \> de ameaças.
 
@@ -131,7 +131,7 @@ O diagrama contém as seguintes informações:
   |:-----|:-----|:-----|
   | **Permitido**|`SFV:SKN` <br/><br/> `SFV:SKI`|A mensagem foi marcada como não spam e/ou a filtragem ignorada antes de ser avaliada pela filtragem de spam (por exemplo, por uma regra de fluxo de emails, também conhecida como regra de transporte).<br/><br/>A mensagem ignorou a filtragem de spam por outros motivos (por exemplo, o remetente e o destinatário parecem estar na mesma organização).|
   |**Blocked**|`SFV:SKS`|A mensagem foi marcada como spam antes de ser avaliada pela filtragem de spam (por exemplo, por uma regra de fluxo de emails).|
-  |**Detectado**|`SFV:SPM`|A mensagem foi marcada como spam por filtragem de spam.|
+  |**Detectado**|`SFV:SPM`|A mensagem foi marcada como spam pela filtragem de spam.|
   |**Não detectado**|`SFV:NSPM`|A mensagem foi marcada como não spam por filtragem de spam.|
   |**Solta**|`SFV:SKQ`|A mensagem ignorou a filtragem de spam porque foi liberada da quarentena.|
   |**Permissão de locatário**<sup>\*</sup>|`SFV:SKA`|A mensagem ignorou a filtragem de spam devido às configurações de política antispam (por exemplo, o remetente estava na lista de remetentes permitidos ou na lista de domínios permitidos).|

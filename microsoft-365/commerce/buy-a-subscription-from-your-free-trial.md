@@ -1,5 +1,5 @@
 ---
-title: Comprar a versão de avaliação do Office 365 for Business
+title: Comprar uma assinatura para a Microsoft 365 para empresas a partir de sua avaliação gratuita
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -26,17 +26,17 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
-description: Compre uma assinatura do Office 365 para empresas. Você pode comprar o mesmo tipo de assinatura que você tentou ou um plano diferente.
-ms.openlocfilehash: 10e3212b739128a9cd2af23f22b644ad4b1df2d9
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+description: Adquira uma assinatura do Microsoft 365 for Business. Você pode comprar o mesmo tipo de assinatura que você tentou ou um plano diferente.
+ms.openlocfilehash: 3635a4ae729aa0759ef1f2de2905fa745a48951a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142282"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634939"
 ---
-# <a name="buy-a-subscription-to-office-365-for-business-from-your-free-trial"></a>Comprar a versão de avaliação do Office 365 for Business
+# <a name="buy-a-subscription-to-microsoft-365-for-business-from-your-free-trial"></a>Comprar uma assinatura para a Microsoft 365 para empresas a partir de sua avaliação gratuita
 
-Você experimentou o Office 365 e agora está pronto para comprá-lo. Você tem duas opções ao comprar o Office 365 em sua versão de avaliação:
+Você já experimentou o Microsoft 365 e agora está pronto para comprar. Você tem duas opções ao comprar o Microsoft 365 em sua versão de avaliação:
   
 - [Comprar o mesmo plano da avaliação](#buy-the-same-plan-as-your-trial)
 - [Comprar um plano diferente da avaliação](#buy-a-different-plan-than-your-trial)
@@ -98,6 +98,7 @@ Se você adquirir um tipo diferente de assinatura do que a sua avaliação, ter�
 
 ::: moniker range="o365-worldwide"
 
+
 1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de **cobrança** \> .
 
 2. Na página **comprar serviços** , selecione a assinatura que você deseja comprar e selecione **comprar**.
@@ -136,6 +137,7 @@ Se você adquirir um tipo diferente de assinatura do que a sua avaliação, ter�
 
 ::: moniker range="o365-21vianet"
 
+
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
 
 2. Na página **assinatura** , selecione **adicionar assinaturas**.
@@ -156,10 +158,11 @@ Se você adquirir um tipo diferente de assinatura do que a sua avaliação, ter�
 
 ::: moniker-end
 
+
 ## <a name="related-articles"></a>Artigos relacionados
 
 [Prorrogar a avaliação](extend-your-trial.md)
   
-[Inscrever-se no Office 365](../admin/admin-overview/sign-up-for-office-365.md)
+[Inscreva-se no Microsoft 365](../admin/admin-overview/sign-up-for-office-365.md)
   
-[Mudar para um plano ou assinatura diferente do Office 365](subscriptions/switch-to-a-different-plan.md)
+[Mudar para um plano ou assinatura diferente da Microsoft 365](subscriptions/switch-to-a-different-plan.md)

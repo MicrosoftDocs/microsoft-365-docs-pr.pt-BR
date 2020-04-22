@@ -1,5 +1,5 @@
 ---
-title: Diferença entre o assistente de instalação do Office 365 e a página de configuração
+title: Diferença entre o assistente de instalação e a página de configuração
 f1.keywords:
 - NOCSH
 ms.author: v-sharos
@@ -18,46 +18,46 @@ search.appverid:
 - MET150
 - MOE150
 - BEA160
-description: Saiba a diferença entre o assistente de instalação do Office 365 e a página de configuração.
-ms.openlocfilehash: fb4cf29b2cab493e0240cf9cfef4cbabeb45087c
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Saiba a diferença entre o assistente de instalação e a página de configuração.
+ms.openlocfilehash: 41a87690282cdf2ff3d1514f9303776c0d2d33bf
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209695"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631798"
 ---
-# <a name="difference-between-the-office-365-setup-wizard-and-the-setup-page"></a>Diferença entre o assistente de instalação do Office 365 e a página de configuração
+# <a name="difference-between-the-setup-wizard-and-the-setup-page"></a>Diferença entre o assistente de instalação e a página de configuração
 
-O Office 365 fornece duas experiências de instalação: 
+A Microsoft 365 fornece duas experiências de instalação: 
 
 - Configuração inicial usando o assistente de configuração
 - Instalação contínua e avançada usando a página de **configuração**
 
-O assistente de configuração fornece uma orientação passo a passo para configurar a configuração básica do Office 365. Depois de concluir a configuração inicial, você pode ir para a página de **configuração** para concluir a configuração e configuração dos serviços que vêm com suas assinaturas.
+O assistente de configuração fornece uma orientação passo a passo para configurar a configuração básica do Microsoft 365. Depois de concluir a configuração inicial, você pode ir para a página de **configuração** para concluir a configuração e configuração dos serviços que vêm com suas assinaturas.
 
 ## <a name="use-the-setup-wizard-to-complete-initial-setup-tasks"></a>Usar o assistente de configuração para concluir as tarefas de configuração inicial
 
 Para configurar sua conta, vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=2024339), selecione **configuração** no painel de navegação esquerdo e selecione **configuração interativa** na página **configuração** .
 
-![Iniciar o assistente de instalação comercial do Office 365](../../media/o365b-guided-setup.png)
+![Inicie o assistente de instalação do Microsoft 365 Apps for Business](../../media/o365b-guided-setup.png)
 
 O assistente de instalação orienta você durante as seguintes etapas:
 
-1. Instale os aplicativos do Office 365 em seu computador.
+1. Instale os aplicativos do Microsoft 365 em seu computador.
 
 2. Escolha e verifique seu domínio, como contoso.com.
 
-3. Adicione novos usuários e atribua licenças a eles para que eles possam baixar e instalar os aplicativos do Office 365.
+3. Adicione novos usuários e atribua licenças a eles para que eles possam baixar e instalar o Microsoft 365 aplicativos.
 
-4. Domínio Connect'your.
+4. Conecte seu domínio.
 
 ## <a name="use-the-setup-page-to-complete-and-manage-your-configuration"></a>Use a página de configuração para concluir e gerenciar sua configuração
 
-Para acessar a página de **configuração** no [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=2024339), selecione **Configurar** no painel de navegação. Com base em produtos que você comprou, os recursos que você configurou e sua função de administrador, tarefas e informações relacionadas de dentro do Office 365 são mostradas aqui.
+Para acessar a página de **configuração** no [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=2024339), selecione **Configurar** no painel de navegação. Com base em produtos que você comprou, os recursos que você configurou e sua função de administrador, tarefas e informações relacionadas de dentro da Microsoft 365 são mostradas aqui.
 
 Você verá a lista completa das tarefas de configuração organizadas em categorias lógicas, incluindo as que você concluiu no assistente de configuração.
 
-![Página de instalação do Office 365 for Business](../../media/o365b-setup-page.png)
+![Página de instalação do Microsoft 365 for Business](../../media/o365b-setup-page.png)
 
 Escolha **Exibir** para qualquer tarefa para obter informações instantâneas, como descrição de tarefas, impacto do usuário, pré-requisitos, esforço para implementar e estatísticas de segurança e adoção para ajudá-lo a entender as conseqüências e o impacto antes de prosseguir.
 

@@ -1,5 +1,5 @@
 ---
-title: Exibir os resultados de uma investigação automatizada no Office 365
+title: Exibir os resultados de uma investigação automatizada no Microsoft 365
 keywords: AIR, autoIR, ATP, automatizado, investigação, resposta, correção, ameaças, avançado, ameaça, proteção
 f1.keywords:
 - NOCSH
@@ -14,15 +14,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-description: Durante e após uma investigação automatizada no Office 365, você pode exibir os resultados e as principais descobertas.
-ms.openlocfilehash: e19669f48047f1800d2a904c6ef5565d8db94dd9
-ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
+description: Durante e após uma investigação automatizada no Microsoft 365, você pode exibir os resultados e as principais descobertas.
+ms.openlocfilehash: e0ecea63260fae474973b39e7069029a2ec93dcb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43225970"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634623"
 ---
-# <a name="details-and-results-of-an-automated-investigation-in-office-365"></a>Detalhes e resultados de uma investigação automatizada no Office 365
+# <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Detalhes e resultados de uma investigação automatizada no Microsoft 365
 
 Quando uma [investigação automatizada](office-365-air.md) ocorre na [proteção avançada contra ameaças do Office 365](office-365-atp.md), os detalhes sobre essa investigação estão disponíveis durante e após o processo de investigação automatizado. Se você tiver as permissões necessárias, poderá exibir esses detalhes na exibição de detalhes da investigação. A exibição de detalhes da investigação fornece o status atualizado e a capacidade de aprovar as ações pendentes. 
 
@@ -46,7 +46,7 @@ O status de investigação indica o progresso das análises e ações. À medida
 
 ## <a name="view-details-of-an-investigation"></a>Exibir detalhes de uma investigação
 
-1. Vá para o centro de conformidade & segurança do Office[https://protection.office.com](https://protection.office.com)365 () e entre.
+1. Vá para o centro de conformidade e segurança[https://protection.office.com](https://protection.office.com)& () e entre.
 
 2. Siga um destes procedimentos:
 
@@ -66,9 +66,9 @@ O status de investigação indica o progresso das análises e ações. À medida
 
 ## <a name="view-details-about-an-alert-related-to-an-investigation"></a>Exibir detalhes sobre um alerta relacionado a uma investigação
 
-Determinados tipos de alertas disparam investigação automatizada no Office 365. Para saber mais, confira [alertas](automated-investigation-response-office.md#alerts). Use o procedimento a seguir para exibir detalhes sobre um alerta que está associado a uma investigação automatizada.
+Determinados tipos de alertas disparam investigação automatizada no Microsoft 365. Para saber mais, confira [alertas](automated-investigation-response-office.md#alerts). Use o procedimento a seguir para exibir detalhes sobre um alerta que está associado a uma investigação automatizada.
 
-1. Vá para o centro de conformidade & segurança do Office[https://protection.office.com](https://protection.office.com)365 () e entre. 
+1. Vá para o centro de conformidade e segurança[https://protection.office.com](https://protection.office.com)& () e entre. 
 
 2. Vá para **Threat management** > **investigações**de gerenciamento de ameaças.
 
@@ -215,7 +215,7 @@ Você pode:
 
 |Analyz | Descrição |
 |-----|-----|
-|Investigação de violações de DLP |Investigue todas as violações detectadas pela [prevenção de perda de dados do Office 365](../../compliance/data-loss-prevention-policies.md) (DLP) |
+|Investigação de violações de DLP |Investigue todas as violações detectadas pela [prevenção de perda de dados](../../compliance/data-loss-prevention-policies.md) (DLP) |
 |Extração de indicadores de email |Extrair indicadores do cabeçalho, do corpo e do conteúdo de uma mensagem de email para investigação |
 |Reputação de hash de arquivo |Detectar anomalias com base nos hashes de arquivo para usuários e computadores em sua organização |
 |Identificação de cluster de email |Análise do cluster de emails com base no cabeçalho, corpo, conteúdo e URLs |

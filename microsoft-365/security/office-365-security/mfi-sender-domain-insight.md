@@ -1,5 +1,5 @@
 ---
-title: insight de correção de domínio do remetente
+title: Insight de correção de domínio do remetente
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -11,26 +11,26 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem saber mais sobre a correção do domínio do remetente no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 2db1b971ef39f8b207b349ca53237ff87cc9193e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a416b4d15ff52a611f00a88de8440c749ff08ad3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082550"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635167"
 ---
-# <a name="fix-sender-domain-insight"></a>insight de correção de domínio do remetente
+# <a name="fix-sender-domain-insight"></a>Insight de correção de domínio do remetente
 
-O Office 365 requer mensagens de envio de ambientes de email locais internos para o Office 365 para atender a determinados critérios de segurança:
+O Microsoft 365 requer mensagens de envio de ambientes de email locais internos para a Microsoft 365 para atender a determinados critérios de segurança:
 
-- Você criou um conector de entrada no Office 365 para autenticar conexões SMTP do seu servidor de email local usando o endereço IP de origem ou um certificado.
+- Você criou um conector de entrada no Microsoft 365 para autenticar conexões SMTP do seu servidor de email local usando o endereço IP de origem ou um certificado.
 
-- Você configurou seu servidor de email local para retransmitir emails por meio do Office 365 para o mundo externo.
+- Você configurou seu servidor de email local para retransmitir emails via Microsoft 365 para o mundo externo.
 
 - Na configuração, uma das seguintes instruções é verdadeira:
 
-  - O domínio de email do remetente está registrado na sua organização do Office 365. Para obter mais informações, consulte adicionar domínios no Office 365.
+  - O domínio de email do remetente está registrado em sua organização. Para obter mais informações, consulte adicionar domínios no Office 365.
 
-  - Seu servidor de email local está configurado para usar um certificado para enviar emails para o Office 365, o certificado contém ou corresponde exatamente a um nome de domínio que você registrou no Office 365 e criou um conector baseado em certificado no Office 365 com esse Domain. 
+  - Seu servidor de email local está configurado para usar um certificado de envio de email para o Microsoft 365, o certificado contém ou corresponde exatamente a um nome de domínio que você registrou no Microsoft 365 e criou um conector baseado em certificado no Microsoft 365 com esse domínio. 
 
 As mensagens que não atenderem aos critérios não serão atribuídas à organização e poderão ser rejeitadas.
 

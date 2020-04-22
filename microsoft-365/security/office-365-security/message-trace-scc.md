@@ -11,27 +11,27 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: Os administradores podem usar o rastreamento de mensagens no centro de conformidade & segurança para descobrir o que aconteceu com as mensagens.
-ms.openlocfilehash: 463e4ee5b99b1aaf34c91fc9b8976547a6c2edbd
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.openlocfilehash: 12600eeb5242f0de5fc187be81b9311d4f9cb645
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341270"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635311"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
-Rastreamento de mensagens no centro de conformidade & segurança do Office 365 segue as mensagens de email à medida que elas viajam pela sua organização do Exchange Online. Você pode determinar se uma mensagem foi recebida, rejeitada, adiada ou entregue pelo serviço. Também mostra as ações feitas na mensagem antes de ela chegar em seu status final.
+O rastreamento de mensagens no centro de conformidade & de segurança segue as mensagens de email à medida que elas viajam pela sua organização do Exchange Online. Você pode determinar se uma mensagem foi recebida, rejeitada, adiada ou entregue pelo serviço. Também mostra as ações feitas na mensagem antes de ela chegar em seu status final.
 
 O rastreamento de mensagens no centro de conformidade & segurança aprimora o rastreamento de mensagem original que estava disponível no centro de administração do Exchange (Eat). Você pode usar as informações do rastreamento de mensagens para responder com eficiência às perguntas do usuário sobre o que aconteceu com as mensagens, solucionar problemas de fluxo de emails e validar as alterações na política.
 
 > [!NOTE]
-> • Para executar um rastreamento de mensagem, você precisa ser membro dos grupos de função gerenciamento da organização, gerenciamento de conformidade ou suporte técnico. Para obter mais informações, consulte [permissões no centro de conformidade & segurança do Office 365](permissions-in-the-security-and-compliance-center.md). <br/><br/>• O número máximo de mensagens exibidas nos resultados depende do tipo de relatório selecionado (consulte a seção [escolher tipo de relatório](#choose-report-type) para obter detalhes). O cmdlet [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/reporting/get-historicalsearch) no Exchange Online PowerShell ou no Exchange Online Protection PowerShell retorna todas as mensagens nos resultados.
+> * Para executar um rastreamento de mensagem, você precisa ser membro dos grupos de função de gerenciamento de organização, de conformidade ou de suporte técnico. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md). <br/><br/>* O número máximo de mensagens exibidas nos resultados depende do tipo de relatório selecionado (consulte a seção [escolher tipo de relatório](#choose-report-type) para obter detalhes). O cmdlet [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/reporting/get-historicalsearch) no Exchange Online PowerShell ou no Exchange Online Protection PowerShell retorna todas as mensagens nos resultados.
 
 ## <a name="open-message-trace"></a>Abrir rastreamento de mensagens
 
-1. Abra o centro de conformidade & segurança do Office <https://protection.office.com>365 em.
+1. Abra o centro de conformidade & segurança <https://protection.office.com>em.
 
 2. Expanda **fluxo de email**e selecione **rastreamento de mensagens**.
 
@@ -106,7 +106,7 @@ Você pode deixar o valor padrão **todos** selecionado ou pode selecionar um do
 
 Esta é a ID de mensagem da Internet (também conhecida como ID do cliente) encontrada no campo de cabeçalho **Message-ID:** no cabeçalho da mensagem. Os usuários podem fornecer esse valor para investigar mensagens específicas.
 
-Esse valor é constante durante o tempo de vida da mensagem. Para mensagens criadas no Office 365 ou Exchange, o valor está no formato `<GUID@ServerFQDN>`, incluindo os colchetes angulares (\< \>). Por exemplo, `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`. Outros sistemas de mensagens podem usar sintaxes ou valores diferentes. Esse valor deve ser exclusivo, mas nem todos os sistemas de email seguem estritamente esse requisito. Se o campo **ID da mensagem:** cabeçalho não existir ou estiver em branco para mensagens de entrada de fontes externas, um valor arbitrário é atribuído.
+Esse valor é constante durante o tempo de vida da mensagem. Para mensagens criadas no Microsoft 365 ou Exchange, o valor está no formato `<GUID@ServerFQDN>`, incluindo os colchetes angulares (\< \>). Por exemplo, `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`. Outros sistemas de mensagens podem usar sintaxes ou valores diferentes. Esse valor deve ser exclusivo, mas nem todos os sistemas de email seguem estritamente esse requisito. Se o campo **ID da mensagem:** cabeçalho não existir ou estiver em branco para mensagens de entrada de fontes externas, um valor arbitrário é atribuído.
 
 Ao usar **ID de mensagem** para filtrar os resultados, certifique-se de incluir a cadeia de caracteres completa, incluindo colchetes angulares.
 
@@ -126,7 +126,7 @@ Os tipos de relatórios disponíveis são:
 
 - **Resumo**: disponível se o intervalo de tempo for inferior a 10 dias e não requer opções de filtragem adicionais. Os resultados estão disponíveis quase imediatamente após você clicar em **Pesquisar**. O relatório retorna até 20000 resultados.
 
-- **Resumo avançado** ou **estendido**: esses relatórios só estão disponíveis como arquivos CSV que podem ser baixados e exigem uma ou mais das seguintes opções de filtragem, independentemente do intervalo de tempo: **** **por essas pessoas**, ou **ID da mensagem**. Você pode usar caracteres curinga para os remetentes ou destinatários (por exemplo, \*@contoso. com). O relatório de resumo avançado retorna até 50000 resultados. O relatório estendido retorna até 1000 resultados.
+- **Resumo avançado** ou **estendido**: esses relatórios só estão disponíveis como arquivos CSV que podem ser baixados e exigem uma ou mais das seguintes opções de filtragem, independentemente do intervalo de tempo: **To these people** **por essas pessoas**, ou **ID da mensagem**. Você pode usar caracteres curinga para os remetentes ou destinatários (por exemplo, \*@contoso. com). O relatório de resumo avançado retorna até 50000 resultados. O relatório estendido retorna até 1000 resultados.
 
 **Observações**:
 
@@ -152,7 +152,7 @@ O relatório de Resumo contém as seguintes informações:
 
 - **Date**: a data e a hora em que a mensagem foi recebida pelo serviço, usando o fuso horário UTC configurado.
 
-- **Remetente**: o endereço de email do remetente (**@*domínio*de alias).
+- **Remetente**: o endereço de email do remetente (*alias*@*domínio*de alias).
 
 - **Destinatário**: o endereço de email do destinatário ou dos destinatários. Para uma mensagem enviada para vários destinatários, há uma linha por destinatário. Se o destinatário for um grupo de distribuição, um grupo dinâmico de distribuição ou um grupo de segurança habilitado para email, o grupo será o primeiro destinatário e, em seguida, cada membro do grupo estará em uma linha separada.
 
@@ -346,7 +346,7 @@ Um valor **custom_data** que começa com `S:SFA` é do agente Filtro de spam. Os
 |`DI=SO`|A mensagem foi roteada através do pool de entrega de risco mais alto. Para obter mais informações, consulte [pool de entrega de alto risco para mensagens de saída](high-risk-delivery-pool-for-outbound-messages.md).|
 |`SFS=[a]|SFS=[b]`|Isso indica que houve correspondência com regras de spam.|
 |`IPV=CAL`|A mensagem foi permitida pelos filtros de spam porque o endereço IP estava especificado em uma Lista de Permissões de IP do filtro de conexão.|
-|`H=<EHLOstring>`|A cadeia de caracteres HELO ou EHLO do servidor de email de conexão.|
+|`H=<EHLOstring>`|A sequência HELO ou EHLO do servidor de e-mails de conexão.|
 |`PTR=<ReverseDNS>`|O registro PTR do endereço IP de envio, também conhecido como o endereço de DNS reverso.|
 
 Um exemplo **custom_data** valor de uma mensagem filtrada para spam como este:
@@ -385,7 +385,7 @@ Um valor de **custom_data** que começa`S:TRA` com é do agente de regra de tran
 |`ETR|ruleId=<guid>`|A identificação da regra encontrou uma correspondência.|
 |`St=<datetime>`|A data e a hora no UTC quando a correspondência da regra ocorreu.|
 |`Action=<ActionDefinition>`|A ação que foi aplicada. Para obter uma lista de ações disponíveis, consulte [Mail Flow Rule Actions in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).|
-|`Mode=<Mode>`|O modo da regra. Os valores válidos são: <br/>• **Impor**: todas as ações da regra serão impostas. <br/>• **Teste com dicas de política:**: qualquer ação de dica de política será enviada, mas outras ações de imposição não serão aplicadas. <br/>• **Teste sem dicas de política**: as ações serão listadas em um arquivo de log, mas os remetentes não serão notificados de nenhuma maneira e as ações de imposição não serão aplicadas.|
+|`Mode=<Mode>`|O modo da regra. Os valores válidos são: <br/>* **Impor**: todas as ações da regra serão impostas. <br/>* **Testar com dicas de política:**: qualquer ação de dica de política será enviada, mas outras ações de imposição não serão aplicadas. <br/>* **Teste sem dicas de política**: as ações serão listadas em um arquivo de log, mas os remetentes não serão notificados de nenhuma maneira e as ações de imposição não serão aplicadas.|
 
 Um exemplo **custom_data** valor de uma mensagem que coincida com as condições de uma regra de fluxo de emails tem a seguinte aparência:
 

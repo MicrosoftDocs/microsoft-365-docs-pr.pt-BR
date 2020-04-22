@@ -1,5 +1,5 @@
 ---
-title: Política de Expiração de Grupo do Office 365
+title: Política de expiração de grupos
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -17,17 +17,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba mais sobre as políticas de expiração de grupos do Office 365.
-ms.openlocfilehash: 58eadf3f5899a69fda261c34a5911af22220bd85
-ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
+description: Saiba mais sobre as políticas de expiração de grupos do Microsoft 365.
+ms.openlocfilehash: be61c66b310ada07876c5b3b005e6a7eb660092d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43225914"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630050"
 ---
-# <a name="office-365-group-expiration-policy"></a>Política de expiração de grupo do Office 365
+# <a name="microsoft-365-group-expiration-policy"></a>Política de expiração de grupo do Microsoft 365
 
-Com o aumento no uso de grupos do Office 365, os administradores e usuários precisam de uma maneira de limpar os grupos não utilizados. As políticas de expiração podem ajudar a remover grupos inativos do sistema e tornar as coisas mais claras.
+Com o aumento no uso de grupos do Microsoft 365, os administradores e usuários precisam de uma maneira de limpar os grupos não utilizados. As políticas de expiração podem ajudar a remover grupos inativos do sistema e tornar as coisas mais claras.
 
 Quando um grupo expira, todos os seus serviços associados (a caixa de correio, o Planner, o site do SharePoint, a equipe, etc.) também são excluídos.
 
@@ -46,14 +46,14 @@ Os grupos que estão ativamente em uso são renovados automaticamente. Qualquer 
 É importante saber que a expiração está desativada por padrão. Os administradores terão que habilitá-lo para sua organização se desejarem usá-lo.
 
 > [!NOTE]
-> Configurar e usar a política de expiração para grupos do Office 365 requer que você tenha, mas não necessariamente, atribui licenças do Azure AD Premium para os membros de todos os grupos aos quais a política de expiração é aplicada. Para obter mais informações, consulte [Getting Started with Azure Active Directory Premium](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium).
+> Configurar e usar a política de expiração para grupos do Microsoft 365 requer que você tenha, mas não necessariamente, atribui licenças do Azure AD Premium para os membros de todos os grupos aos quais a política de expiração é aplicada. Para obter mais informações, consulte [Getting Started with Azure Active Directory Premium](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium).
 
-## <a name="who-can-configure-and-use-the-office-365-groups-expiration-policy"></a>Quem pode configurar e usar a política de expiração de grupos do Office 365?
+## <a name="who-can-configure-and-use-the-microsoft-365-groups-expiration-policy"></a>Quem pode configurar e usar a política de expiração de grupos do Microsoft 365?
 
 |Role|O que eles podem fazer|
 |---------|---------|
-|Administrador global do Office 365 (no Azure, o administrador da empresa), administrador do usuário|Criar, ler, atualizar ou excluir as configurações de política de expiração de grupos do Office 365.|
-|User|Renovar ou [restaurar](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted) um grupo do Office 365 de sua propriedade|
+|Administrador global (no Azure, administrador da empresa), administrador do usuário|Criar, ler, atualizar ou excluir as configurações da política de expiração do Microsoft 365 groups.|
+|Usuário|Renovar ou [restaurar](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted) um grupo do Microsoft 365 de sua propriedade|
 
 ## <a name="how-to-set-the-expiration-policy"></a>Como definir a política de expiração
 
@@ -77,7 +77,7 @@ Os proprietários do grupo serão notificados somente por email. Se o grupo foi 
 
 30 dias antes do vencimento do grupo, os proprietários do grupo (ou os endereços de email que você especificou para os grupos que não têm um proprietário) receberão um email, permitindo que eles renovem facilmente o grupo. Se ele não renová-lo, receberá outra renovação de email 15 dias antes da expiração. Se eles ainda não foram renovados, receberão uma notificação por email o dia antes da expiração.
 
-Se, por algum motivo, nenhum dos proprietários ou administradores renovar o grupo antes de expirar, o administrador ainda poderá restaurar o grupo por até 30 dias após a expiração. Para obter detalhes, consulte: [restaurar um grupo do Office 365 excluído](https://support.office.com/article/restore-a-deleted-office-365-group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54).
+Se, por algum motivo, nenhum dos proprietários ou administradores renovar o grupo antes de expirar, o administrador ainda poderá restaurar o grupo por até 30 dias após a expiração. Para obter detalhes, consulte: [restaurar um grupo do Microsoft 365 excluído](https://support.office.com/article/restore-a-deleted-office-365-group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54).
 
 ## <a name="related-articles"></a>Artigos relacionados
 
@@ -85,4 +85,4 @@ Se, por algum motivo, nenhum dos proprietários ou administradores renovar o gru
 
 [Atribuir um novo proprietário a um grupo órfão](https://support.office.com/article/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
-[Configurar a expiração de grupos do Office 365](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal) '
+[Configurar a validade de grupos do Microsoft 365](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal) '

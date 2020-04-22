@@ -17,12 +17,12 @@ ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
 description: Definir políticas de anexos seguros para proteger sua organização contra arquivos mal-intencionados no email.
-ms.openlocfilehash: 8151cf1ec25ae46ae7a1845f34f42df3e5483bb2
-ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
+ms.openlocfilehash: d9139ff1b3adef2f70b6aede630791d355127573
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43608097"
+ms.locfileid: "43638339"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Configurar políticas de anexos seguros de ATP do Office 365
 
@@ -43,29 +43,28 @@ Pessoas costumam enviar, receber e compartilhar anexos, como documentos, apresen
 
 - Certifique-se de que sua organização tenha a [proteção avançada contra ameaças do Office 365](office-365-atp.md).
 
-- Verifique se você tem as permissões necessárias. Para definir (ou editar) políticas ATP, você deve ter uma função de gerenciamento de organização do Exchange Online (o administrador global do Office 365 é atribuído a essa função por padrão) ou as funções de gerenciamento de higiene e administrador de segurança do Exchange Online. Para obter mais detalhes, consulte a seguinte tabela:
+- Verifique se você tem as permissões necessárias. Para definir (ou editar) políticas de ATP, você deve ter uma função de gerenciamento de organização do Exchange Online (o administrador global é atribuído a essa função por padrão) ou as funções de administrador de segurança e gerenciamento de higiene do Exchange Online. Para obter mais detalhes, consulte a seguinte tabela:
 
-  |||
-  |---|---|
-  |**Função**|**Onde/como a atribuição**|
-  |Administrador Global do Office 365 |Por padrão, a pessoa que se inscreve para comprar o Office 365 é um administrador global. (Confira [sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para saber mais.)|
+  |Role|Onde/como a atribuição|
+  |---------|---------|
+  |administrador global |Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para saber mais.)|
   |Administrador de Segurança |Centro de administração do Azure Active[https://aad.portal.azure.com](https://aad.portal.azure.com)Directory ()|
   |Gerenciamento de organização do Exchange Online, gerenciamento de higiene do Exchange Online |Centro de administração do[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)Exchange () <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell))|
   |
 
-  Para saber mais sobre funções e permissões, confira [permissões no centro de conformidade &amp; de segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
+  Para saber mais sobre funções e permissões, consulte [permissões no centro de &amp; conformidade de segurança](permissions-in-the-security-and-compliance-center.md).
 
 - [Saiba mais sobre as opções de política de anexos seguros de ATP](#step-3-learn-about-atp-safe-attachments-policy-options) (neste artigo). Algumas opções, como as opções monitorar ou substituir, podem resultar em um atraso menor de email enquanto os anexos são verificados. Para evitar atrasos de mensagens, considere o uso da [entrega dinâmica e da visualização](dynamic-delivery-and-previewing.md).
 
-- Aguarde até 30 minutos para que a política nova ou atualizada se espalhe para todos os datacenters do Office 365.
+- Aguarde até 30 minutos para que a política nova ou atualizada se espalhe para todos os datacenters da Microsoft 365.
 
 ## <a name="step-2-set-up-or-edit-an-atp-safe-attachments-policy"></a>Etapa 2: configurar (ou editar) uma política de anexos seguros de ATP
 
 1. Acesse [https://protection.office.com](https://protection.office.com) e entre com sua conta corporativa ou de estudante.
 
-2. No centro de conformidade com &amp; segurança do Office 365, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, escolha **anexos seguros**de **política** \> .
+2. No centro de &amp; conformidade de segurança, no painel de navegação esquerdo, **em gerenciamento de ameaças**, escolha **anexos seguros**da **política** \> .
 
-3. Se você vir **ativar a ATP para SharePoint, onedrive e Microsoft Teams**, recomendamos que você selecione essa opção. Isso habilitará a [proteção avançada contra ameaças do Office 365 para o SharePoint, o onedrive e o Microsoft Teams](atp-for-spo-odb-and-teams.md) para seu ambiente do Office 365.
+3. Se você vir **ativar a ATP para SharePoint, onedrive e Microsoft Teams**, recomendamos que você selecione essa opção. Isso habilitará a [proteção avançada contra ameaças do Office 365 para o SharePoint, o onedrive e o Microsoft Teams](atp-for-spo-odb-and-teams.md) para seu ambiente do Microsoft 365.
 
 4. Escolha **novo** (o botão novo é semelhante a um sinal de **+** adição ()) para começar a criar sua política.
 
@@ -77,7 +76,7 @@ Pessoas costumam enviar, receber e compartilhar anexos, como documentos, apresen
 
    - Na seção resposta, escolha a opção de **entrega dinâmica** . ([Saiba mais sobre entrega dinâmica e visualização com anexos seguros de ATP](dynamic-delivery-and-previewing.md).)
 
-   - Na seção **redirecionar anexo** , selecione a opção para habilitar o redirecionamento e digite o endereço de email do seu administrador global do Office 365, administrador de segurança ou analista de segurança que irá investigar anexos mal-intencionados.
+   - Na seção **redirecionar anexo** , selecione a opção para habilitar o redirecionamento e digite o endereço de email do administrador global, administrador de segurança ou analista de segurança que irá investigar anexos mal-intencionados.
 
    - Na seção **aplica-se** a, escolha **o domínio do destinatário**e selecione o seu domínio. Escolha **Adicionar**e, em seguida, escolha **OK**.
 

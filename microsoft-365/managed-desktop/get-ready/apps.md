@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: adb6423d5c014b5f02fc272f9653abebc14cf543
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: a24212cf69df50d00a32f17e8daf1939657dd602
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557569"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632846"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Aplicativos na área de trabalho gerenciada da Microsoft
 
@@ -28,25 +28,25 @@ Você também pode implantar aplicativos adicionais não-Microsoft nos seus usu�
 
 ## <a name="apps-provided-by-microsoft"></a>Aplicativos fornecidos pela Microsoft
 
-Incluído na sua licença de área de trabalho gerenciada da Microsoft são versões de 64 bits dos aplicativos no Office 365 ProPlus Standard Suite (Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business e OneNote). As versões de clique para executar do Microsoft Project e do Visio *não* estão incluídas por padrão, mas você pode solicitar que sejam adicionadas. Para obter mais informações sobre esses aplicativos, consulte [instalar o Microsoft Project ou o Microsoft Visio em dispositivos de área de trabalho gerenciada da Microsoft](../get-started/project-visio.md).
+Incluído na sua licença de área de trabalho gerenciada da Microsoft são versões de 64 bits dos aplicativos no Microsoft 365 aplicativos para Enterprise Standard Suite (Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business e OneNote). As versões de clique para executar do Microsoft Project e do Visio *não* estão incluídas por padrão, mas você pode solicitar que sejam adicionadas. Para obter mais informações sobre esses aplicativos, consulte [instalar o Microsoft Project ou o Microsoft Visio em dispositivos de área de trabalho gerenciada da Microsoft](../get-started/project-visio.md).
 
 ### <a name="what-microsoft-does-to-support-the-apps-we-provide"></a>O que a Microsoft faz para dar suporte aos aplicativos que fornecemos
 
-A Microsoft fornecerá serviço completo para a implantação, atualização e suporte para os aplicativos incluídos do Office 365 ProPlus. As versões de clique para executar do Microsoft Project e do Visio *não* são incluídas por padrão, mas a área de trabalho gerenciada da Microsoft fornecerá grupos de implantação que permitem ao administrador de ti gerenciar licenças e implantar esses aplicativos de forma adequada para sua organização. A Microsoft dará suporte aos usuários finais desses aplicativos por meio dos canais de suporte do Microsoft Managed desktop.
+A Microsoft fornecerá serviço completo para a implantação, atualização e suporte para os aplicativos do Microsoft 365, para aplicativos corporativos. As versões de clique para executar do Microsoft Project e do Visio *não* são incluídas por padrão, mas a área de trabalho gerenciada da Microsoft fornecerá grupos de implantação que permitem ao administrador de ti gerenciar licenças e implantar esses aplicativos de forma adequada para sua organização. A Microsoft dará suporte aos usuários finais desses aplicativos por meio dos canais de suporte do Microsoft Managed desktop.
 
 ### <a name="what-you-need-to-do-to-support-the-apps-we-provide"></a>O que você precisa fazer para dar suporte aos aplicativos que fornecemos
 
 Ainda há algumas coisas que você precisa fazer com estes aplicativos:
 
-- **Atribuir licenças** – você é responsável por obter e atribuir as licenças apropriadas aos usuários finais do Office 365 ProPlus.
+- **Atribuir licenças** – você é responsável por obter e atribuir as licenças apropriadas a usuários finais para o Microsoft 365 aplicativos para empresas.
 - **Adicionar usuários a grupos de segurança** -se você estiver usando o Microsoft Project ou o Visio, seu administrador de ti deverá adicionar esses usuários aos grupos de implantação apropriados. Os administradores de ti também são responsáveis por recuperar licenças desses usuários, caso eles saiam da empresa.
-- **Implantar os complementos do office 365** -se você precisar de qualquer complemento para qualquer um dos aplicativos do Office 365 ProPlus, implante-os centralmente como qualquer outro aplicativo do Windows 32. 
+- **Implantar Complementos do microsoft 365** -se você precisar de qualquer complemento para qualquer um dos aplicativos da Microsoft 365 para aplicativos corporativos, implante-os centralmente como qualquer outro aplicativo do Windows 32. 
 
 ## <a name="apps-you-provide"></a>Aplicativos que você fornece
 
 Obviamente, você provavelmente tem vários outros aplicativos necessários para suas operações de negócios. Eles só podem ser implantados em dispositivos de área de trabalho gerenciada da Microsoft usando o pipeline de implantação do Microsoft Intune. Se o aplicativo precisar dele, você pode fazer com que ele seja empacotado por um fornecedor (que pode ser um fornecedor que não seja da Microsoft ou o Microsoft Consulting Services (MCS)) ou, se você tiver os meios, você pode empacotá-los por conta própria. Você adiciona esses pacotes ao portal de área de trabalho gerenciada da Microsoft e os atribui aos grupos do Azure Active Directory para acionar a implantação. 
 
-Se, no momento, você implantar seus aplicativos usando o Microsoft Endpoint Configuration Manager, o Microsoft Managed desktop pode fornecer uma consulta para avaliar seus aplicativos e descobrir quais estão prontos para migrar para o Microsoft Intune e quais deles podem exigir alguns Just.
+Se você atualmente implanta seus aplicativos usando o Microsoft Endpoint Configuration Manager, o Microsoft Managed desktop pode fornecer uma consulta para avaliar seus aplicativos e descobrir quais estão prontos para migrar para o Microsoft Intune e quais podem exigir algum ajuste.
 
 
 ### <a name="preparing-your-own-apps-for-inclusion-in-microsoft-managed-desktop"></a>Preparando seus próprios aplicativos para inclusão na área de trabalho gerenciada da Microsoft

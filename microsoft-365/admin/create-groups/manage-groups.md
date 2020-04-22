@@ -1,5 +1,5 @@
 ---
-title: Gerenciar o grupo do Office 365 no centro de administração
+title: Gerenciar um grupo no centro de administração
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -18,17 +18,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
-description: Saiba como gerenciar grupos do Office 365, incluindo adição de membros do grupo remover, editar o endereço de email, o nome do grupo ou a descrição e personalizar como o grupo funciona.
-ms.openlocfilehash: 34682d3d06babca04a9b2541e3f33ec79d934f50
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Saiba como gerenciar os grupos do Microsoft 365, incluindo a adição de adicionar ou remover membros do grupo, editar o endereço de email, o nome do grupo ou a descrição e personalizar como o grupo funciona.
+ms.openlocfilehash: 230a449bad22d0b872983a8c911955f4d00153ea
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212064"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630388"
 ---
-# <a name="manage-an-office-365-group-in-the-microsoft-365-admin-center"></a>Gerenciar um grupo do Office 365 no centro de administração do Microsoft 365
+# <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Gerenciar um grupo no centro de administração do Microsoft 365
 
-Depois de [criar um grupo do Office 365](create-groups.md) e adicionar membros do grupo, você pode configurar seu grupo. Você pode editar o nome ou a descrição do grupo, gerenciar proprietários ou membros e especificar se os remetentes externos podem enviar emails para o grupo e se deseja enviar cópias de conversas de grupo para membros. 
+Depois de [criar um grupo do Microsoft 365](create-groups.md) e adicionar membros de grupo, você pode configurar seu grupo. Você pode editar o nome ou a descrição do grupo, gerenciar proprietários ou membros e especificar se os remetentes externos podem enviar emails para o grupo e se deseja enviar cópias de conversas de grupo para membros. 
 
 ## <a name="edit-the-group-name-or-description"></a>Editar o nome ou a descrição do grupo
 
@@ -192,14 +192,14 @@ Essa opção é ótima se você deseja ter um endereço de email da empresa, com
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Criar um grupo do Office 365](create-groups.md)
+[Criar um grupo do Microsoft 365](create-groups.md)
 
-[Gerenciar o acesso de convidados aos grupos do Office 365](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
+[Gerenciar o acesso de convidados aos grupos do Microsoft 365](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
 
-[Escolha o domínio a ser usado ao criar grupos do Office 365](choose-domain-to-create-groups.md)
+[Escolha o domínio a ser usado ao criar grupos do Microsoft 365](choose-domain-to-create-groups.md)
 
-[Permitir que os membros enviem como ou enviem em nome de um grupo do Office 365](allow-members-to-send-as-or-send-on-behalf-of-group.md)
+[Permitir que os membros enviem como ou enviem em nome de um grupo do Microsoft 365](allow-members-to-send-as-or-send-on-behalf-of-group.md)
 
-[Atualizar listas de distribuição para grupos do Office 365](../manage/upgrade-distribution-lists.md)
+[Atualizar listas de distribuição para grupos do Microsoft 365](../manage/upgrade-distribution-lists.md)
 
-[Gerenciar Grupos do Office 365 com o PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
+[Gerenciar os grupos do Microsoft 365 com o PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)

@@ -1,5 +1,5 @@
 ---
-title: Fazer backup dos dados antes de mudar o Office 365 para planos de negócios
+title: Fazer backup dos dados antes de mudar o Microsoft 365 para planos de negócios
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,17 +20,17 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
-description: Faça backup do conteúdo do Outlook, do OneDrive, do Yammer e do SharePoint antes de mudar de assinatura do Office 365 ou se um usuário sair da organização.
-ms.openlocfilehash: 3d8196bcbd0296e1b6e681b1077d165e168d2f2f
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+description: Faça backup do conteúdo do Outlook, do OneDrive, do Yammer e do SharePoint antes de trocar de assinatura do Microsoft 365 ou se um usuário sair da organização.
+ms.openlocfilehash: fbebe72ec47fb6745cee6a12d81117ad08c50846
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105742"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636075"
 ---
-# <a name="back-up-data-before-switching-office-365-for-business-plans"></a>Fazer backup dos dados antes de mudar o Office 365 para planos de negócios
+# <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Fazer backup dos dados antes de mudar o Microsoft 365 para planos de negócios
 
-Se um usuário for alternado para outra assinatura que tenha menos serviços relacionados a dados ou um usuário saia da organização, uma cópia de seus dados armazenados no Office 365 poderá ser baixada antes de ser comutada para a nova assinatura.
+Se um usuário for alternado para outra assinatura que tenha menos serviços relacionados a dados ou um usuário saia da organização, uma cópia de seus dados armazenados no Microsoft 365 poderá ser baixada antes de ser comutada para a nova assinatura.
   
 ## <a name="save-a-copy-of-outlook-information"></a>Salvar uma cópia das informações do Outlook
 
@@ -48,7 +48,7 @@ Os administradores podem exportar todas as mensagens, observações, arquivos, t
   
 ## <a name="how-to-save-sharepoint-information"></a>Como salvar informações do SharePoint
 
-Se um usuário tiver mudado de uma assinatura que tenha o SharePoint Online para um que não o tenha, o bloco do **SharePoint** não aparecerá mais no seu menu do Office 365.
+Se um usuário tiver mudado de uma assinatura que tenha o SharePoint Online para um que não o tenha, o bloco do **SharePoint** deixará de aparecer no menu do Microsoft 365.
   
 No entanto, desde que a nova assinatura esteja dentro da mesma organização que a de sua comutação, os usuários ainda poderão acessar o site de equipe do SharePoint. Eles podem exibir e atualizar blocos de anotações, documentos, tarefas e calendários usando a URL direta para o site de equipe.
   

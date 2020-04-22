@@ -14,16 +14,17 @@ ms.collection:
 search.appverid:
 - MET150
 description: Os usuários podem aprender a gerenciar suas compras de autoatendimento.
-ms.openlocfilehash: 15fc43d488cb2a8fd38cea8ab2ed85c002e23d92
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: f4be2176d970af426817e975b9942ce5e2b89a9e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142134"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636634"
 ---
 # <a name="manage-self-service-purchases-users"></a>Gerenciar compras de autoatendimento (Usuários)
 
 Como usuário, você pode comprar assinaturas para determinados produtos e atribuir licenças para essas assinaturas a pessoas da sua equipe. Você é responsável pelo pagamento de compras de autoatendimento feitas. Você pode gerenciar suas assinaturas no centro de administração do Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.Microsoft.com</a>.
+
 
 Seu administrador tem um modo de exibição somente leitura em qualquer assinatura que você comprar. Eles podem ver o produto, o nome do comprador, as assinaturas adquiridas, a data de vencimento, o preço de compra e os usuários atribuídos para cada assinatura que você comprar.
 
@@ -94,7 +95,7 @@ Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105.
 
 4. No painel direito, insira os detalhes do cartão e, em seguida, escolha **salvar**.
 
-### <a name="update-an-existing-payment-method"></a>Atualizar um método de pagamento existente
+### <a name="update-an-existing-payment-method"></a>Atualizar uma forma de pagamento existente
 
 1. No centro de administração, vá para a página **cobrança** > de<a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">contas & pagamentos</a> .
 

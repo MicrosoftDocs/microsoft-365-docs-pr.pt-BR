@@ -11,23 +11,23 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
-description: Você pode usar regras de fluxo de emails (regras de transporte) para identificar e executar ações em mensagens que fluem pela sua organização do Office 365.
-ms.openlocfilehash: 4332399ce7b3724a7bd23c761eec4328afe5e2a9
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+description: Você pode usar regras de fluxo de emails (regras de transporte) para identificar e executar ações em mensagens que fluem pela sua organização.
+ms.openlocfilehash: 0a182b9d4a63a824a3955e8296160779c826960d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081419"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635407"
 ---
 # <a name="mail-flow-rules-transport-rules-in-exchange-online-protection"></a>Regras de fluxo de emails (regras de transporte) no Exchange Online Protection
 
-Você pode usar regras de fluxo de emails (também conhecidas como regras de transporte) para identificar e agir com base nas mensagens que fluem pela organização do Office 365. As regras de fluxo de emails são semelhantes às regras de Caixas de Entrada disponíveis no Outlook e no Outlook na Web. A principal diferença das regras de fluxo de emails é que elas atuam em mensagens que estão em trânsito, não depois que a mensagem foi entregue à caixa de correio. As regras de fluxo de emails contêm conjuntos mais amplos de condições, exceções e ações com os quais é possível desfrutar da flexibilidade necessária para implementar muitos tipos de políticas de mensagem.
+Você pode usar regras de fluxo de emails (também conhecidas como regras de transporte) para identificar e executar ações em mensagens que fluem pela sua organização. As regras de fluxo de emails são semelhantes às regras de Caixas de Entrada disponíveis no Outlook e no Outlook na Web. A principal diferença das regras de fluxo de emails é que elas atuam em mensagens que estão em trânsito, não depois que a mensagem foi entregue à caixa de correio. As regras de fluxo de emails contêm conjuntos mais amplos de condições, exceções e ações com os quais é possível desfrutar da flexibilidade necessária para implementar muitos tipos de políticas de mensagem.
 
 Este artigo explica os componentes das regras de fluxo de emails e como eles funcionam.
 
 Para obter as etapas para criar, copiar e gerenciar regras de fluxo de emails, consulte [Manage Mail Flow Rules in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules). Você pode impor e testar cada regra ou testar e notificar o remetente. Para saber mais sobre as opções de teste, confira [testar regras de fluxo de email](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules) e [dicas de política no Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips).
 
-Para relatórios de resumo e detalhes sobre as mensagens que correspondem a regras de fluxo de emails, confira [Usar relatórios de proteção de email no Office 365 para exibir dados sobre detecções de malware, spam e de regra](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports).
+Para relatórios de resumo e detalhes sobre as mensagens que correspondem a regras de fluxo de emails, consulte [usar relatórios de proteção de email para exibir dados sobre detecções de malware, spam e de regra](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports).
 
 Para implementar políticas de mensagens específicas usando regras do fluxo de emails, confira estes tópicos:
 

@@ -1,5 +1,5 @@
 ---
-title: Usar o código promocional do seu Office 365 para obter um desconto
+title: Use seu código promocional para reduzir o preço
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: fce1510d-9ea5-4aff-8752-1676ec7fede3
-description: Saiba como aplicar um código promocional à sua assinatura do Office 365 para reduzir o preço e como solucionar problemas de código promocional em caso de erro.
+description: Saiba como aplicar um código promocional à sua assinatura do Microsoft 365 para reduzir o preço e como solucionar problemas de código promocional em caso de erro.
 ms.custom: okr_SMB
-ms.openlocfilehash: ebb2c06623dc295fdcbc3cac4f51894decc3a7b3
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 55ce4192a2b76fae841c7b5e2a5733c4d5c2769e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237540"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631852"
 ---
-# <a name="use-your-office-365-promo-code-to-reduce-price"></a>Usar o código promocional do seu Office 365 para obter um desconto
+# <a name="use-your-promo-code-to-reduce-price"></a>Use seu código promocional para reduzir o preço
 
 Ao comprar uma assinatura, você pode usar um código promocional para reduzir o preço. Leia este artigo para saber como aplicar um código promocional à sua assinatura, para saber mais sobre os [termos do código promocional](#promo-code-terms)e para [solucionar problemas de códigos promocionais](#troubleshooting-promo-codes).
   
@@ -47,7 +47,7 @@ A qualquer momento depois de concluir a compra, você poderá ver o desconto cri
   
 ## <a name="promo-code-terms"></a>Termos de código promocional
 
-As seguintes diretrizes se aplicam aos códigos promocionais de assinaturas do Office 365 para empresas.
+As diretrizes a seguir se aplicam aos códigos promocionais para assinaturas do Microsoft 365 para empresas.
   
 - **Número de códigos promocionais por assinatura** Você pode usar um código promocional para várias assinaturas no mesmo pedido, mas não pode usar vários códigos promocionais para a mesma assinatura. 
     

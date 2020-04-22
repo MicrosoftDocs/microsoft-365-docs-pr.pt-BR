@@ -1,5 +1,5 @@
 ---
-title: Aumentar a proteção contra ameaças para o Microsoft 365 Business
+title: Aumentar a proteção contra ameaças para o Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,16 +21,16 @@ search.appverid:
 - BCS160
 - MET150
 description: Configurar recursos de conformidade para evitar a perda de dados e ajudar a manter a segurança de informações confidenciais de seus clientes.
-ms.openlocfilehash: 6f4520b052c2e7acb8748d3c9d6e26777cb56d4b
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: e0d853223c7e6f455cba6e68ad173b137992d863
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561231"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635115"
 ---
 # <a name="set-up-compliance-features"></a>Configure os recursos de conformidade
 
-O Microsoft 365 Business vem com recursos para proteger seus dados e dispositivos e ajudar você a manter a segurança de informações confidenciais de seus clientes.
+O Microsoft 365 Business Premium vem com recursos para proteger seus dados e dispositivos e ajudar você a manter a segurança de informações confidenciais de seus clientes.
 
 ## <a name="set-up-dlp-features"></a>Configurar recursos de DLP
 

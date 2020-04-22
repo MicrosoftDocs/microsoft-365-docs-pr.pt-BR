@@ -1,5 +1,5 @@
 ---
-title: Recursos de conformidade e segurança de negócios da Microsoft 365
+title: Recursos de segurança e conformidade do Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,23 +22,23 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
-description: Saiba mais sobre os recursos de segurança que acompanham o Microsoft 365 Business para ajudar a proteger seus dados em PCs, telefones e tablets.
-ms.openlocfilehash: 3f638a3287c06ded7bf4c29c647e62cbf3fca969
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+description: Saiba mais sobre os recursos de segurança que acompanham o Microsoft 365 Business Premium para ajudar a proteger seus dados em PCs, telefones e tablets.
+ms.openlocfilehash: 35eb0ac1dce216ccc557fc629ddb5d2df50e7134
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153789"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635135"
 ---
-# <a name="microsoft-365-business-security-and-compliance-features"></a>Recursos de conformidade e segurança de negócios da Microsoft 365
+# <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Recursos de segurança e conformidade do Microsoft 365 Business Premium
 
-O Microsoft 365 Business oferece recursos simplificados de segurança para ajudar a proteger seus dados em PCs, telefones e tablets.
+O Microsoft 365 Business Premium oferece recursos simplificados de segurança para ajudar a proteger seus dados em PCs, telefones e tablets.
     
-## <a name="microsoft-365-business-admin-center-security-features"></a>Recursos de segurança do centro de administração de negócios da Microsoft 365
+## <a name="microsoft-365-admin-center-security-features"></a>Recursos de segurança do centro de administração do Microsoft 365
 
 [![Rótulo para informar que o centro de administração está mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-Você pode gerenciar muitos dos recursos de segurança de negócios do Microsoft 365 no centro de administração, que oferece uma maneira simplificada para ativar ou desativar esses recursos. No centro de administração, você pode fazer o seguinte:
+Você pode gerenciar muitos dos recursos de segurança do Microsoft 365 Business Premium no centro de administração, que oferece uma maneira simplificada de ativar ou desativar esses recursos. No centro de administração, você pode fazer o seguinte:
   
 - [Definir configurações de gerenciamento de aplicativo para dispositivos Android ou Ios](app-protection-settings-for-android-and-ios.md) . 
     
@@ -62,7 +62,7 @@ Você pode gerenciar muitos dos recursos de segurança de negócios do Microsoft
     
 ## <a name="additional-security-features"></a>Recursos de segurança adicionais 
 
-Recursos avançados no Microsoft 365 Business estão disponíveis para ajudá-lo a proteger sua empresa contra ameaças e proteger as informações confidenciais.
+Recursos avançados no Microsoft 365 Business Premium estão disponíveis para ajudá-lo a proteger sua empresa contra ameaças e proteger as informações confidenciais.
   
 - **[Proteção Avançada contra Ameaças do Office 365](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
     
@@ -74,7 +74,7 @@ Recursos avançados no Microsoft 365 Business estão disponíveis para ajudá-lo
 
 - **[Os recursos completos do Intune no portal do Azure](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
-    Acessar o centro de administração do Intune no portal do Azure permite que você configure recursos de segurança adicionais, como gerenciamento de dispositivos MacOS, iPhone e dispositivos Android, juntamente com o gerenciamento avançado de dispositivos do Windows, que não está disponível no centro de administração de negócios do Microsoft 365.
+    O acesso ao centro de administração do Intune no portal do Azure permite que você configure recursos de segurança adicionais, como gerenciamento de dispositivos MacOS, iPhone e dispositivos Android, juntamente com o gerenciamento avançado de dispositivos do Windows, que não está disponível através do centro de administração do Microsoft 365.
 - **Mesmo [acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) do Azure ad Premium P1 plano**
 
 
@@ -95,7 +95,7 @@ Recursos avançados no Microsoft 365 Business estão disponíveis para ajudá-lo
     
 ## <a name="compliance-features"></a>Recursos de conformidade
 
-Sua assinatura do Microsoft 365 Business inclui recursos que ajudam você a manter padrões de conformidade e regulamentações.
+Sua assinatura do Microsoft 365 Business Premium inclui recursos que ajudam você a manter padrões normativos e de conformidade.
 
 - **[Visão geral das políticas de prevenção contra perda de dados](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)** (DLP). 
     
@@ -107,20 +107,20 @@ Sua assinatura do Microsoft 365 Business inclui recursos que ajudam você a mant
     
 - **[Rótulos de confidencialidade](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
 
-   O Microsoft 365 Business inclui todos os recursos do [plano de proteção de informações do Azure 1](https://go.microsoft.com/fwlink/p/?linkid=871407). Com esse plano, você pode criar **Rótulos de confidencialidade** que permitem controlar o acesso a informações confidenciais em emails e documentos, com controles como "não encaminhar" e "não copiar". Você também pode classificar informações confidenciais como "confidencial" e especificar como as informações classificadas podem ser compartilhadas fora e dentro da empresa. A criptografia de nível empresarial é fácil de aplicar a emails e documentos para manter suas informações privadas. Você também pode instalar o suplemento cliente de proteção de informações do Azure para aplicativos do Office. Para obter mais informações, consulte [cliente de rotulação unificado de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). Para rótulos de confidencialidade, instale o **AzInfoProtection_UL. exe**.
+   O Microsoft 365 Business Premium inclui todos os recursos do [plano de proteção de informações do Azure 1](https://go.microsoft.com/fwlink/p/?linkid=871407). Com esse plano, você pode criar **Rótulos de confidencialidade** que permitem controlar o acesso a informações confidenciais em emails e documentos, com controles como "não encaminhar" e "não copiar". Você também pode classificar informações confidenciais como "confidencial" e especificar como as informações classificadas podem ser compartilhadas fora e dentro da empresa. A criptografia de nível empresarial é fácil de aplicar a emails e documentos para manter suas informações privadas. Você também pode instalar o suplemento cliente de proteção de informações do Azure para aplicativos do Office. Para obter mais informações, consulte [cliente de rotulação unificado de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). Para rótulos de confidencialidade, instale o **AzInfoProtection_UL. exe**.
 
-Você pode gerenciar esses recursos no centro de &amp; conformidade de segurança e no centro de administração do Intune. Com o tempo, os controles simplificados serão adicionados ao centro de administração de negócios do Microsoft 365.
+Você pode gerenciar esses recursos no centro de &amp; conformidade de segurança e no centro de administração do Intune. Com o tempo, os controles simplificados serão adicionados ao centro de administração do Microsoft 365.
   
     
 ## <a name="faq"></a>Perguntas frequentes
 
  ### <a name="are-these-security-features-available-in-all-markets"></a>Esses recursos de segurança estão disponíveis em todos os mercados?
   
-Sim, esses recursos estão disponíveis em todos os mercados onde o Microsoft 365 Business é vendido.
+Sim, esses recursos estão disponíveis em todos os mercados onde o Microsoft 365 Business Premium é vendido.
   
 ### <a name="how-do-i-find-the-security-amp-compliance-center"></a>Como localizar o centro de conformidade &amp; de segurança?
   
-1. [Entre no Microsoft 365 Business](https://portal.microsoft.com/) usando suas credenciais de administrador. 
+1. [Entre no Microsoft 365 Business Premium](https://portal.microsoft.com/) usando suas credenciais de administrador. 
     
 2. No painel de navegação à esquerda, localize **centros de administração** e expanda-o. 
     

@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: 'Resumo: como a contoso implementou um site do SharePoint para dados altamente regulamentados para facilitar a colaboração entre suas equipes de pesquisa.'
-ms.openlocfilehash: a1ffb336e85eb6eb850b53ed14adf947b56642cc
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0a4bc2f685cf015611da62ebbed000218f37f31e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068259"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634247"
 ---
 # <a name="sharepoint-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Site do SharePoint para ativos digitais altamente confidenciais da Contoso Corporation
 
@@ -48,22 +48,22 @@ Em seguida, eles definiram configurações de permissão adicionais para o site 
 
 ## <a name="step-2-configured-the-site-for-a-restrictive-dlp-policy"></a>Etapa 2: configurar o site para uma política de DLP restritiva
 
-Primeiro, os administradores da Contoso aplicaram o rótulo de retenção do Office 365 **altamente confidencial** existente à pasta documentos do site de **pesquisa** .
+Primeiro, os administradores da Contoso aplicaram o rótulo de retenção **altamente confidencial** existente à pasta documentos do site de **pesquisa** .
 
-Em seguida, criamos uma nova política de DLP do Office 365 chamada **pesquisa** que:
+Em seguida, criamos uma nova política de DLP chamada **pesquisa** que:
 
-- Usa o rótulo de retenção **altamente confidencial** do Office 365. 
+- Usa o rótulo de retenção **altamente confidencial** . 
 - Bloqueia os usuários quando eles tentam compartilhar um ativo digital no site de **pesquisa** fora da contoso.
 
 Para obter os detalhes de configuração, consulte [proteger arquivos do SharePoint com rótulos de retenção e DLP](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp).
 
-## <a name="step-3-created-an-office-365-sensitivity-sublabel-for-the-site"></a>Etapa 3: criar um subrótulo de sensibilidade do Office 365 para o site
+## <a name="step-3-created-a-sensitivity-sublabel-for-the-site"></a>Etapa 3: criar um subrótulo de confidencialidade para o site
 
-Os administradores da Contoso criaram um novo subrótulo de confidencialidade do Office 365 chamado **Teams de pesquisa** do rótulo **altamente confidencial** que:
+Os administradores da Contoso criaram um novo subrótulo de confidencialidade chamado **equipes de pesquisa** do rótulo **altamente confidencial** que:
 
 - Requer criptografia.
-- Permite permissões de coautoria para o grupo de **pesquisa** do Office 365
-- Aplica-se ao grupo de **pesquisa** do Office 365
+- Permite permissões de coautoria para o grupo de **pesquisa** da Microsoft 365
+- Aplica-se ao grupo de **pesquisa** da Microsoft 365
 
 Aqui está a configuração resultante do site de equipe de **pesquisa** para ativos altamente confidenciais.
 
@@ -71,7 +71,7 @@ Aqui está a configuração resultante do site de equipe de **pesquisa** para at
 
 Arquivos em pastas do site de **pesquisa** são protegidos por:
 
-- As permissões de site, que permitem acesso somente aos membros do grupo **Research** Office 365.
+- As permissões de site, que permitem apenas o acesso aos membros do grupo de **pesquisa** da Microsoft 365.
 - A política de DLP de **pesquisa** , que usa o rótulo de retenção **altamente confidencial** e as configurações que impedem o arquivo de ser compartilhado com usuários externos.
 - O subrótulo de confidencialidade das **equipes de pesquisa** , com criptografia e permissões que trafegam com o arquivo se ele for movido ou copiado do site de **pesquisa** .
 
@@ -86,7 +86,7 @@ Os administradores da Contoso moveram todos os arquivos de pesquisa local no sit
 
 ## <a name="step-5-trained-their-researchers"></a>Etapa 5: treinado seus pesquisadores
 
-A equipe de segurança da Contoso treinou os membros do grupo **Research** Office 365 em um curso obrigatório que os apresentou por meio de:
+A equipe de segurança da Contoso treinou os membros do grupo de **pesquisa** da Microsoft 365 em um curso obrigatório que os apresentou:
 
 - Como acessar o novo site de **pesquisa** e seus arquivos existentes.
 - Como criar novos arquivos no site e carregar novos arquivos armazenados localmente.
@@ -96,7 +96,7 @@ A equipe de segurança da Contoso treinou os membros do grupo **Research** Offic
 
 O resultado final é um ambiente seguro no qual os pesquisadores podem colaborar através da Contoso em um ambiente seguro em arquivos que contenham informações de pesquisa. 
 
-Se um documento de pesquisa com o subrótulo **Teams de pesquisa** deixa o site de **pesquisa** , ele é criptografado e acessível somente aos membros do grupo **Research** Office 365 com credenciais de conta de usuário válidas.
+Se um documento de pesquisa com o subrótulo **Teams de pesquisa** deixa o site de **pesquisa** , ele é criptografado e acessível somente para os membros do grupo de **pesquisa** da Microsoft 365 com credenciais de conta de usuário válidas.
 
 ## <a name="next-step"></a>Próxima etapa
 

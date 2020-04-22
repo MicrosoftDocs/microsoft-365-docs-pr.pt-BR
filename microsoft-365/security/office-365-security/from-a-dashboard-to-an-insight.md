@@ -17,16 +17,16 @@ ms.assetid: 703c41df-b3e2-4e7e-9eeb-1a0b8d60fb56
 ms.collection:
 - M365-security-compliance
 description: Saiba como você pode ir de um painel para uma visão com as ações recomendadas no &amp; centro de conformidade de segurança.
-ms.openlocfilehash: 52fc933133cee4b060a08516b64a46c1c24a13cb
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: 22ca34696bc46e0142818be715d68f0b469c6255
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537492"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638089"
 ---
 # <a name="walkthrough---from-a-dashboard-to-an-insight"></a>Passo a passo – de um painel para um insight
 
-Se você for novo para [relatórios e insights no centro de conformidade de &amp; segurança do Office 365](reports-and-insights-in-security-and-compliance.md), poderá ajudar a ver como você pode navegar facilmente de um painel para uma percepção e ações recomendadas. 
+Se você for novo para [relatórios e insights no centro de &amp; conformidade de segurança](reports-and-insights-in-security-and-compliance.md), poderá ajudar a ver como você pode navegar facilmente de um painel para uma compreensão e ações recomendadas. 
   
 Esta é uma das várias orientações passo a passo para &amp; o centro de conformidade de segurança. Para ver orientações adicionais, consulte a seção [Tópicos relacionados](#related-topics) . 
   

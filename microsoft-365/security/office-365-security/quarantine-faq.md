@@ -16,24 +16,24 @@ ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
 ms.collection:
 - M365-security-compliance
 description: Respostas para perguntas frequentes sobre a quarentena no Office 365.
-ms.openlocfilehash: 58800d5645241c2115356bc9899ce53302d1e37e
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 3947fbed2a17380a18320a8bffd08a8178ad2b3f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42856900"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634419"
 ---
-# <a name="quarantine-faq-in-office-365"></a>Perguntas frequentes sobre quarentena no Office 365
+# <a name="quarantine-faq"></a>Perguntas Frequentes sobre a Quarentena
 
-Este tópico fornece perguntas frequentes e respostas sobre a quarentena para clientes do Office 365 com caixas de correio em Exchange Online ou clientes autônomos do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online.
+Este tópico fornece perguntas frequentes e respostas sobre a quarentena para clientes do Microsoft 365 com caixas de correio em Exchange Online ou clientes autônomos do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online.
 
 ## <a name="q-how-do-i-manage-messages-that-were-quarantined-for-malware"></a>P: como gerenciar mensagens em quarentena para malware?
 
-Somente os administradores podem gerenciar mensagens em quarentena para malware. Para obter mais informações, consulte [gerenciar mensagens em quarentena e arquivos como um administrador no Office 365](manage-quarantined-messages-and-files.md).
+Somente os administradores podem gerenciar mensagens em quarentena para malware. Para obter mais informações, consulte [Gerenciar arquivos e mensagens em quarentena como administrador no Office 365](manage-quarantined-messages-and-files.md).
 
 ## <a name="q-how-do-i-quarantine-spam"></a>P: como colocar em quarentena spam?
 
-R. Por padrão, as mensagens classificadas como spam ou email em massa por filtragem de spam são entregues na caixa de correio do usuário e são movidas para a pasta lixo eletrônico. Mas você pode criar e configurar políticas antispam para colocar em quarentena mensagens de email em massa ou spam. Para obter mais informações, consulte [Configure anti-spam Policies in Office 365](configure-your-spam-filter-policies.md).
+R. Por padrão, as mensagens classificadas como spam ou email em massa por filtragem de spam são entregues na caixa de correio do usuário e são movidas para a pasta lixo eletrônico. Mas você pode criar e configurar políticas antispam para colocar em quarentena mensagens de email em massa ou spam. Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
 
 ## <a name="q-how-do-i-give-users-access-to-the-quarantine"></a>P: como permitir que os usuários acessem a quarentena?
 
@@ -70,7 +70,7 @@ $CQ = Get-QuarantineMessage -Type Spam | where {$_.SenderAddress -like "*@contos
 Em seguida, execute o seguinte comando para liberar essas mensagens a todos os destinatários originais:
 
 ```powershell
-$CQ | foreach {Release-QuarantineMessage -Identity $CQ.Identity -ReleaseToAll}
+$CQ | foreach {Release-QuarantineMessage -Identity $_.Identity -ReleaseToAll}
 ```
 
 Após liberar uma mensagem, você não poderá liberá-la novamente.

@@ -5,23 +5,23 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 0668564fea300ace1bdf8ad32a34d85c2ad5a641
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: b7054613ea9add542e2a4466c6feb6d911c99701
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "35830489"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637859"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Descrição do serviço da Área de trabalho gerenciada da Microsoft
 
-O Microsoft Managed desktop é um serviço que oferece aos usuários uma experiência moderna e sempre mantém os dispositivos atualizados com as versões mais recentes do Windows 10 Enterprise Edition, do Office 365 ProPlus e dos serviços de segurança da Microsoft, incluindo:
+O Microsoft Managed desktop é um serviço que oferece aos usuários uma experiência moderna e sempre mantém os dispositivos atualizados com as versões mais recentes do Windows 10 Enterprise Edition, dos aplicativos do Microsoft 365 para empresas e dos serviços de segurança da Microsoft, incluindo:
 
 - Registro simplificado de novos dispositivos
 - Configuração de dispositivos
 - Recursos para manter os usuários e dispositivos seguros, incluindo o Windows Hello, BitLocker, SecureBoot e a segurança baseada em virtualização de acordo com as práticas recomendadas da Microsoft
 - Serviços de monitoramento e correção de segurança de dispositivo
 - Compatibilidade de aplicativos, por meio do [aplicativo de área de trabalho garantir](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure)
-- Gerenciamento de atualizações do Windows 10 e do Office 365 ProPlus apps
+- Gerenciamento de atualizações do Windows 10 e aplicativos do Microsoft 365 para aplicativos corporativos
 - Dados analíticos sobre o uso de dispositivos e aplicativos
 - Suporte de ti para seus usuários finais
 - Suporte operacional para profissionais de ti

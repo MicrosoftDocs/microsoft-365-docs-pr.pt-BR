@@ -16,16 +16,16 @@ ms.assetid: 34681000-0022-4b92-b38a-e32b3ed96bf6
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender sobre como o nível de confiança de spam (SCL) determina a probabilidade ou improvável de uma mensagem ser spam, e as ações padrão que a filtragem de spam realiza em mensagens com base no SCL.
-ms.openlocfilehash: b8f194f9aecc31896fb816433e71d1b26de708f7
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 519bc48e7285283ad0570b8f3ac598615b132875
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893689"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638279"
 ---
 # <a name="spam-confidence-level-scl-in-office-365"></a>SCL (nível de confiança de spam) no Office 365
 
-Quando o Office 365 (Exchange Online ou proteção do Exchange Online autônoma (EOP) sem caixas de correio do Exchange Online) recebe uma mensagem de email de entrada, a mensagem passa por filtragem de spam e recebe uma pontuação de spam. Essa pontuação é mapeada para um nível de confiança de spam (SCL) individual que é adicionado à mensagem em um cabeçalho X. Um SCL maior indica que uma mensagem é mais provável de ser spam. O serviço executa a ação na mensagem com base no SCL.
+Quando o Microsoft 365 (Exchange Online ou proteção do Exchange Online autônoma (EOP) sem caixas de correio do Exchange Online) recebe uma mensagem de email de entrada, a mensagem passa por filtragem de spam e recebe uma pontuação de spam. Essa pontuação é mapeada para um nível de confiança de spam (SCL) individual que é adicionado à mensagem em um cabeçalho X. Um SCL maior indica que uma mensagem é mais provável de ser spam. O serviço executa a ação na mensagem com base no SCL.
 
 O que o SCL significa e as ações padrão executadas nas mensagens são descritas na tabela a seguir. Para obter mais informações sobre as ações que podem ser executadas em mensagens com base no veredicto de filtragem de spam, consulte [Configure anti-spam Policies in Office 365](configure-your-spam-filter-policies.md).
 
@@ -46,4 +46,4 @@ Semelhante ao SCL, o nível de reclamação em massa (BCL) identifica emails em 
 
 ||
 |:-----|
-|![O ícone pequeno do LinkedIn Learning](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Começando a usar o Office 365?**         Descubra cursos em vídeo gratuitos para **Office 365 admins and IT pros**, oferecidos pelo LinkedIn Learning.|
+|![O ícone pequeno do LinkedIn Learning](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Começando a usar o Office 365?**         Descubra cursos de vídeo gratuitos para **profissionais de ti e administradores do Microsoft 365**, trazidos para você pelo LinkedIn Learning.|

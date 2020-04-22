@@ -1,5 +1,5 @@
 ---
-title: Criar listas de remetentes seguros no Office 365
+title: Criar listas de remetentes confiáveis
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,17 +13,17 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
-description: Os administradores podem saber mais sobre as opções disponíveis no Office 365 e EOP que permitem que mensagens de entrada ignorem a filtragem de spam.
-ms.openlocfilehash: 4b50a4b63377c0f3e7b12592c512449f1a3adc12
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+description: Os administradores podem saber mais sobre as opções disponíveis no Microsoft 365 e EOP que permitem que as mensagens de entrada ignorem a filtragem de spam.
+ms.openlocfilehash: ff4f2715ddfe0029aced27ed466a5af8eb95e790
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528624"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637671"
 ---
-# <a name="create-safe-sender-lists-in-office-365"></a>Criar listas de remetentes seguros no Office 365
+# <a name="create-safe-sender-lists"></a>Criar listas de remetentes confiáveis
 
-Se você é um cliente do Office 365 com caixas de correio no Exchange Online ou um cliente autônomo do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece várias maneiras de garantir que os usuários recebam emails de remetentes confiáveis. Essas opções incluem regras de fluxo de emails do Exchange (também conhecidas como regras de transporte), remetentes confiáveis do Outlook, a lista de permissões de IP (filtragem de conexão) e listas de remetentes permitidos ou listas de domínio permitidas em políticas antispam. Coletivamente, você pode imaginar essas opções como _listas de remetentes seguros_.
+Se você é um cliente Microsoft 365 com caixas de correio no Exchange Online ou um cliente autônomo do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece várias maneiras de garantir que os usuários recebam emails de remetentes confiáveis. Essas opções incluem regras de fluxo de emails do Exchange (também conhecidas como regras de transporte), remetentes confiáveis do Outlook, a lista de permissões de IP (filtragem de conexão) e listas de remetentes permitidos ou listas de domínio permitidas em políticas antispam. Coletivamente, você pode imaginar essas opções como _listas de remetentes seguros_.
 
 As listas de remetentes seguros disponíveis são descritas na lista a seguir na ordem da mais recomendada para a menos recomendada:
 

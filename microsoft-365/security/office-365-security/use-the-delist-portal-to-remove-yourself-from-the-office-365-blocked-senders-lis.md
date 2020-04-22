@@ -1,5 +1,5 @@
 ---
-title: Usar o portal de remoção da lista para ser removido da lista de remetentes bloqueados do Office 365
+title: Usar o portal de remoção da lista para ser removido da lista de remetentes bloqueados
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -15,21 +15,21 @@ search.appverid:
 ms.assetid: 0bcecdd4-3343-4cc0-9e58-e19d4de515e8
 ms.collection:
 - M365-security-compliance
-description: Você está recebendo uma mensagem de erro ao tentar enviar um email para um destinatário cujo endereço de email está no Office 365? Se acha que não deve estar recebendo a mensagem de erro, use o portal de remoção da lista para ser removido da lista de remetentes bloqueados do Office 365.
-ms.openlocfilehash: cd85a06bfd4122dcacd798a48f5a1755e2969b4a
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: Você está recebendo uma mensagem de erro ao tentar enviar um email para um destinatário cujo endereço de email está no Microsoft 365? Se achar que você não deve receber a mensagem de erro, você pode usar o portal de remoção da lista para se remover da lista de remetentes bloqueados.
+ms.openlocfilehash: 39f2c9335f162f26e8bf07a213236e0e0eefef2a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895078"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636399"
 ---
-# <a name="use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-list"></a>Usar o portal de remoção da lista para ser removido da lista de remetentes bloqueados do Office 365
+# <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>Usar o portal de remoção da lista para ser removido da lista de remetentes bloqueados
 
-Você está recebendo uma mensagem de erro ao tentar enviar um email para um destinatário cujo endereço de email está no Office 365? Se acha que não deve estar recebendo a mensagem de erro, use o portal de remoção da lista para ser removido da lista de remetentes bloqueados do Office 365.
+Você está recebendo uma mensagem de erro ao tentar enviar um email para um destinatário cujo endereço de email está no Microsoft 365? Se achar que você não deve receber a mensagem de erro, você pode usar o portal de remoção da lista para se remover da lista de remetentes bloqueados.
 
-## <a name="what-is-the-office-365-blocked-senders-list"></a>O que é a lista de remetentes bloqueados do Office 365?
+## <a name="what-is-the-blocked-senders-list"></a>O que é a lista de remetentes bloqueados?
 
-A Microsoft usa a lista de remetentes bloqueados para proteger seus clientes contra spam, falsificação e ataques de phishing. O endereço IP do seu servidor de email, ou seja, o endereço que o seu servidor de email usa para se identificar na Internet, foi marcado como uma possível ameaça para o Office 365 por um de diversos motivos. Quando o Office 365 adiciona o endereço IP à lista, impede toda a comunicação entre o endereço IP e qualquer um dos nossos clientes por meio de nossos data centers.
+A Microsoft usa a lista de remetentes bloqueados para proteger seus clientes contra spam, falsificação e ataques de phishing. O endereço IP do seu servidor de email, ou seja, o endereço que seu servidor de email usa para identificar-se na Internet, foi marcado como uma ameaça potencial para a Microsoft 365 por um dos vários motivos. Quando o Microsoft 365 adiciona o endereço IP à lista, ele impede todas as outras comunicações entre o endereço IP e qualquer um de nossos clientes por meio de nossos data centers.
 
 Você saberá que foi adicionado à lista quando receber uma resposta a uma mensagem de email que inclui um erro parecido com o seguinte:
 
@@ -37,7 +37,7 @@ Você saberá que foi adicionado à lista quando receber uma resposta a uma mens
 
 em que  _IP address_ é o endereço IP do computador no qual o servidor de email é executado.
 
-### <a name="to-use-the-office-365-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>Para usar o portal de remoção da lista do Office 365 a fim de ser removido da lista de remetentes bloqueados
+### <a name="to-use-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>Para usar o portal de remoção da lista para ser removido da lista de remetentes bloqueados
 
 1. Em um navegador da Web, acesse [https://sender.office.com](https://sender.office.com).
 
@@ -53,7 +53,7 @@ em que  _IP address_ é o endereço IP do computador no qual o servidor de email
 
 5. No portal de remoção da lista, clique em **remover IP da lista**.
 
-    Depois que o endereço IP for removido da lista de remetentes bloqueados, as mensagens de email desse endereço IP serão entregues aos destinatários que usam o Office 365. Portanto, certifique-se de que os emails enviados a partir desse endereço IP não sejam ofensivos ou mal-intencionados; caso contrário, o endereço IP pode ser bloqueado novamente.
+    Depois que o endereço IP for removido da lista de remetentes bloqueados, as mensagens de email desse endereço IP serão entregues aos destinatários que usam o Microsoft 365. Portanto, certifique-se de que os emails enviados a partir desse endereço IP não sejam ofensivos ou mal-intencionados; caso contrário, o endereço IP pode ser bloqueado novamente.
 
     > [!NOTE]
     > Pode levar até 24 horas ou os resultados podem variar muito antes de as restrições serem removidas.

@@ -11,24 +11,24 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: Os administradores podem aprender sobre alertas de fila e filas no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: bc777e3c9764987dc72aa0407f19618bc26f7528
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 7bb103bad89ee39991a5c16d7101ab4658842479
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082709"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635179"
 ---
 # <a name="queue-alerts-and-queues"></a>Alertas de filas e filas
 
 ## <a name="queue-alerts"></a>Alertas de fila
 
-Quando as mensagens não podem ser enviadas da sua organização do Office 365 para seus servidores de email locais ou parceiros usando conectores, as mensagens são enfileiradas no Office 365. Exemplos comuns que causam essa condição são:
+Quando as mensagens não podem ser enviadas da sua organização para seus servidores de email locais ou parceiros usando conectores, as mensagens são enfileiradas no Office 365. Exemplos comuns que causam essa condição são:
 
 - O conector está configurado incorretamente.
 
 - Houve alterações de rede ou firewall no seu ambiente local.
 
-O Office 365 continuará a tentar a entrega por 24 horas. Após 24 horas, as mensagens expirarão e serão retornadas aos remetentes nas notificações de falha na entrega (também conhecidas como NDRs ou mensagens de devolução).
+A Microsoft 365 continuará a tentar a entrega por 24 horas. Após 24 horas, as mensagens expirarão e serão retornadas aos remetentes nas notificações de falha na entrega (também conhecidas como NDRs ou mensagens de devolução).
 
 Se o volume de email em fila exceder o limite predefinido (o valor padrão é 2000), os alertas estarão disponíveis no painel de fluxo de emails em **alertas recentes**, e os administradores receberão uma notificação por email (para seu endereço de email alternativo). Para configurar o limite de alerta, o limite de notificação diária e/ou os destinatários do alerta, consulte a seção **Personalizar alertas de fila** abaixo.
 

@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: A definição de usuários de email é uma parte importante do gerenciamento do serviço Exchange Online Protection (EOP).
-ms.openlocfilehash: bdbc3cd54901d53b4a7d01bcf513a9b9a0df1c01
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 56827e29872c6a6ffd14821af8e2d9ea005ff20c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633789"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635575"
 ---
 # <a name="manage-mail-users-in-eop"></a>Gerenciar usuários de email no EOP
 
@@ -63,7 +63,7 @@ Esta seção oferece informações sobre o gerenciamento de usuários de email u
 
   - **Bloqueio de borda baseado em diretório (DBEB)**: para obter mais informações sobre o DBEB, confira [usar o bloqueio de borda baseado em diretório para rejeitar mensagens enviadas a destinatários inválidos](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking).
 
-  - **Quarentena de spam do usuário final**: para acessar a quarentena de spam do usuário final, os usuários finais devem ter uma ID de usuário e uma senha válida do Office 365. Os clientes do EOP que estão protegendo caixas de correio locais devem ser usuários de email válidos.
+  - **Quarentena de spam do usuário final**: para acessar a quarentena de spam do usuário final, os usuários finais devem ter uma ID de usuário e uma senha válidas. Os clientes do EOP que estão protegendo caixas de correio locais devem ser usuários de email válidos.
 
   - **Regras de fluxo de emails**: quando você usa a sincronização de diretório, os usuários e grupos existentes do Active Directory são carregados automaticamente para a nuvem e você pode criar regras de fluxo de emails (também conhecidas como regras de transporte) que se destinam a usuários e/ou grupos específicos sem ter que adicioná-los manualmente por meio do PowerShell do Exchange Online Protection. Observe que os [grupos dinâmicos de distribuição](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) não podem ser sincronizados através da sincronização de diretório.
 
@@ -126,7 +126,7 @@ O exemplo usa o cmdlet [New-EOPMailUser](https://docs.microsoft.com/powershell/m
 
 - O endereço de email externo é diogom@tailspintoys.com.
 
-- O nome de usuário do Office 365 é diogom@contoso.onmicrosoft.com.
+- O nome de entrada do Microsoft 365 é jeffreyz@contoso.onmicrosoft.com.
 
 - A senha é Pa$$word1.
 

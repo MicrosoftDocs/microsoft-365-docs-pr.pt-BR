@@ -1,5 +1,5 @@
 ---
-title: Insira sua chave do produto para o Office 365 Business Premium
+title: Insira sua chave do produto para o Microsoft 365 Business Standard
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,22 +21,22 @@ search.appverid:
 - BEA160
 ms.assetid: 0199dd39-7c46-4875-af9b-588df3a9afea
 ROBOTS: NOINDEX
-description: Saiba como resgatar uma chave de produto do Office 365 Business Premium comprada em uma loja de varejo.
+description: Saiba como resgatar uma chave de produto do Microsoft 365 Business Standard comprada em uma loja de varejo.
 ms.custom: okr_SMB
-ms.openlocfilehash: 6ae3a490d4ee7bc311421bf69e7437c1c345c1d4
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 9cabc3d3f132ef2e3e56c1209b632f1e10a8637e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237355"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634903"
 ---
-# <a name="enter-your-product-key-for-office-365-business-premium"></a>Insira sua chave do produto para o Office 365 Business Premium
+# <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Insira sua chave do produto para o Microsoft 365 Business Standard
 
-Se você comprou o Office 365 Business Premium de uma loja de varejo, este artigo ajuda você a ativar sua assinatura. 
+Se você comprou o Microsoft 365 Business Standard de uma loja de varejo, este artigo ajuda você a ativar sua assinatura. 
   
  **Precisa de mais alguma coisa?**
- **Para obter ajuda com o office 365 Home ou Personal**, consulte [usando chaves de produto com o Office](https://support.office.com/article/12a5763a-d45c-4685-8c95-a44500213759.aspx).  
- **Cliente de licenciamento por volume?** Se você comprou o Office 365 for Business por meio de um [programa de licença aberta da Microsoft](https://go.microsoft.com/fwlink/p/?LinkID=613298), consulte o artigo, [digite a chave do produto comprada da Microsoft aberta](purchases-from-microsoft-open.md).
+ **Para obter ajuda com a família microsoft 365 ou o microsoft 365 Personal**, consulte [usando chaves de produto com o Office](https://support.office.com/article/12a5763a-d45c-4685-8c95-a44500213759.aspx).  
+ **Cliente de licenciamento por volume?** Se você comprou o Microsoft 365 for Business por meio de um [programa de licença aberta da Microsoft](https://go.microsoft.com/fwlink/p/?LinkID=613298), consulte o artigo, [digite a chave do produto comprada da Microsoft aberta](purchases-from-microsoft-open.md).
   
 ## <a name="activate-a-new-subscription"></a>Ativar uma nova assinatura
 
@@ -57,14 +57,14 @@ Se você comprou o Office 365 Business Premium de uma loja de varejo, este artig
 
 ## <a name="extend-the-expiration-date-or-add-a-license-to-an-existing-subscription"></a>Estender a data de expiração ou adicionar uma licença a uma assinatura existente
 
-Para usar uma chave de produto para estender a data de expiração ou adicionar uma licença à sua assinatura existente do Office 365 Business Premium, você precisa de uma chave nova e não usada para o mesmo plano do Office 365. Inserir sua chave do produto do Office 365 original não funcionará porque uma chave que já foi resgatada não pode ser usada novamente. Consulte [adicionar licenças ou estender uma assinatura paga para usar uma chave do produto (Product Key](licenses/add-licenses-using-product-key.md)).
+Para usar uma chave do produto (Product Key) para estender a data de expiração ou adicionar uma licença à sua assinatura atual do Microsoft 365 Business Standard, você precisa de uma chave nova e não usada para o mesmo plano do Microsoft 365. Inserir sua chave de produto do Microsoft 365 original não funcionará porque uma chave que já foi resgatada não pode ser usada novamente. Consulte [adicionar licenças ou estender uma assinatura paga para usar uma chave do produto (Product Key](licenses/add-licenses-using-product-key.md)).
 
 ## <a name="whats-next"></a>E agora?
 
-Se você é novo no Office 365 for Business, saiba como [Configurar o office 365](../admin/setup/setup.md).
+Se você é novo no Microsoft 365 for Business, saiba como [Configurar o microsoft 365](../admin/setup/setup.md).
   
 ## <a name="still-having-trouble-with-product-keys"></a>Ainda está tendo problemas com as chaves do produto?
 
-Confira esta lista de erros e soluções comuns: [Problemas com a sua chave do produto do Office 365 para empresas?](product-key-errors-and-solutions.md)
+Confira esta lista de erros e soluções comuns: [problemas com sua chave de produto do Microsoft 365 for Business?](product-key-errors-and-solutions.md)
   
 Ou, [ligue para o suporte da Microsoft](../admin/contact-support-for-business-products.md).

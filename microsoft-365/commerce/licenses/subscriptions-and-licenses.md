@@ -1,5 +1,5 @@
 ---
-title: Entender assinaturas e licenças no Office 365 para empresas
+title: Entender assinaturas e licenças no Microsoft 365 for Business
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,24 +20,24 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 7ac93507-0e38-4398-8bfe-9c1d123cb387
-description: 'Saiba mais sobre assinaturas e licenças no Office 365 for Business e saiba quem pode atribuir licenças e o que acontece quando você atribui uma licença a alguém. '
+description: 'Saiba mais sobre assinaturas e licenças no Microsoft 365 for Business e saiba quem pode atribuir licenças e o que acontece quando você atribui uma licença a alguém. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 1a90e4b80322ad075f2149801aebd02ac07a2aef
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1508daa6dae30c35a9517fceb81b0a4d2b4a7f58
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42237347"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635431"
 ---
-# <a name="understand-subscriptions-and-licenses-in-office-365-for-business"></a>Entender assinaturas e licenças no Office 365 para empresas
+# <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Entender assinaturas e licenças no Microsoft 365 for Business
 
 Este artigo explica a relação entre assinaturas e licenças e fornece informações adicionais sobre [quem pode atribuir licenças](#find-out-who-can-assign-licenses), [noções básicas sobre o que acontece quando você atribui uma licença a alguém](#understand-what-happens-when-you-assign-a-license-to-someone)e quantos [dispositivos as pessoas podem instalar o Office](#how-many-devices-can-people-install-office-on). Também inclui links para [noções básicas sobre licenças para caixas de correio que não são de usuário](#understand-licenses-for-non-user-mailboxes)e [artigos sobre como gerenciar licenças](#articles-about-managing-licenses).
   
-Ao comprar uma assinatura para o Office 365 for Business, você se inscreve em um conjunto de aplicativos e serviços que você paga por meio de uma base mensal ou anual. Os aplicativos e serviços que você recebe como parte da sua assinatura dependem do produto que você comprou, como o Office 365 Business ou o Office 365 Business Premium. Você pode revisar o que vem com cada produto na [página comprar o Office 365](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1). 
+Ao comprar uma assinatura para o Microsoft 365 for Business, você se inscreve em um conjunto de aplicativos e serviços que você paga por meio de uma base mensal ou anual. Os aplicativos e serviços que você recebe como parte da sua assinatura dependem do produto que você comprou, como o Microsoft 365 Apps for Business ou o Microsoft 365 Business Standard. Você pode revisar o que vem com cada produto na [página comprar o Microsoft 365](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1). 
 
 Ao comprar uma assinatura, você especifica o número de licenças que precisa, com base em quantas pessoas você tem em sua organização. Após a conclusão da compra, você cria contas para as pessoas e, em seguida, atribui uma licença para cada pessoa. Conforme suas necessidades organizacionais mudarem, você pode comprar mais licenças para acomodar novas pessoas ou reatribuir licenças a outros usuários quando alguém sair da sua organização. 
 
-Se você tiver mais de uma assinatura, poderá atribuir licenças a diferentes pessoas para cada assinatura. Por exemplo, todos os seus usuários podem ser atribuídos a todos os aplicativos e serviços do Office 365 como parte de uma assinatura do Office 365 Business Premium, enquanto um subconjunto de usuários também pode ser atribuído ao Visio online por meio de uma assinatura separada do Visio. 
+Se você tiver mais de uma assinatura, poderá atribuir licenças a diferentes pessoas para cada assinatura. Por exemplo, todos os seus usuários podem ser atribuídos a todos os aplicativos e serviços do Microsoft 365 como parte de uma assinatura do Microsoft 365 Business Standard, enquanto um subconjunto de usuários também pode ser atribuído ao Visio online por meio de uma assinatura separada do Visio. 
 
   
 ## <a name="find-out-who-can-assign-licenses"></a>Descobrir quem pode atribuir licenças
@@ -61,17 +61,17 @@ A tabela a seguir lista o que ocorrerá automaticamente quando você atribuir um
 |Exchange Online  <br/> |Uma caixa de correio será criada para tal pessoa.  <br/> |
 |SharePoint Online  <br/> |As permissões de edição para o site de equipe padrão do SharePoint Online serão atribuídas a essa pessoa.  <br/> |
 |Skype for Business Online  <br/> |A pessoa terá acesso aos recursos associados à licença.  <br/> |
-|Office 365 ProPlus  <br/> |A pessoa poderá baixar o Microsoft Office em até cinco Macs ou PCs, cinco tablets e cinco smartphones.  <br/> |
+|Aplicativos da Microsoft 365 para empresas  <br/> |A pessoa poderá baixar o Microsoft Office em até cinco Macs ou PCs, cinco tablets e cinco smartphones.  <br/> |
    
 ## <a name="how-many-devices-can-people-install-office-on"></a>Em quantos dispositivos as pessoas podem instalar o Office?
 
 Se a sua assinatura incluir algum dos seguintes produtos, cada pessoa poderá instalar o Office em até cinco PCs ou Macs, cinco tablets e cinco telefones.
   
-- Office 365 Business
+- Microsoft 365 aplicativos para empresas
     
-- Office 365 Business Premium
+- Microsoft 365 Business Standard
     
-- Office 365 ProPlus
+- Aplicativos da Microsoft 365 para empresas
     
 - Office 365 Enterprise E3
     
@@ -83,9 +83,9 @@ Você não precisa atribuir licenças para caixas de correio compartilhadas, a n
   
 - [Criar uma caixa de correio compartilhada](../../admin/email/create-a-shared-mailbox.md)
     
-- [Caixas de correio compartilhadas no Exchange Online ](https://go.microsoft.com/fwlink/p/?linkid=847433) para todos os outros planos do Office 365. 
+- [Caixas de correio compartilhadas no Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=847433) para todos os outros planos do Microsoft 365. 
     
-- [Criar e gerenciar caixas de correio de sala](https://go.microsoft.com/fwlink/p/?linkid=847434)
+- [Criar e Gerenciar Caixas de Correio](https://go.microsoft.com/fwlink/p/?linkid=847434)
     
 - [Gerenciar Caixas de Correio do Equipamento](https://go.microsoft.com/fwlink/p/?linkid=847435)
     

@@ -16,12 +16,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: Use o novo painel de segurança para analisar o status de proteção contra ameaças do Office 365 e exibir e agir em alertas de segurança.
-ms.openlocfilehash: bade9f1a0060fcd08458bd28eb276a0543f5d815
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: 3b6d754505d0e23f1080520e66061b8f6fef523e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537396"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632512"
 ---
 # <a name="security-dashboard"></a>Painel de segurança
 
@@ -33,12 +33,12 @@ Assista ao vídeo para obter uma visão geral e leia este artigo para saber mais
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1VV3o]
 
-Dependendo da sua assinatura do Office 365 da sua organização, o painel de segurança inclui vários widgets, como Resumo de gerenciamento de ameaças, status de proteção contra ameaças, detecções de ameaças semanais globais, malware e muito mais, conforme descrito nas seções a seguir.
+Dependendo da assinatura que a sua organização inclui, o painel de segurança inclui vários widgets, como Resumo de gerenciamento de ameaças, status de proteção contra ameaças, detecções semanais globais de ameaças, malware e muito mais, conforme descrito nas seções a seguir.
 
-Para exibir o painel de segurança, no [centro de conformidade & segurança do Office 365](../../compliance/go-to-the-securitycompliance-center.md), vá para o **painel** **Gerenciamento** \> de ameaças.
+Para exibir o painel de segurança, no [centro de conformidade & segurança](../../compliance/go-to-the-securitycompliance-center.md), vá para o **painel** **Gerenciamento** \> de ameaças.
 
 > [!NOTE]
-> Você deve ser um administrador global do Office 365, um administrador de segurança ou um leitor de segurança para exibir o painel de segurança. Alguns widgets exigem permissões adicionais para exibir. Para saber mais, confira [permissões no centro de conformidade & segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
+> Você deve ser um administrador global, um administrador de segurança ou um leitor de segurança para exibir o painel de segurança. Alguns widgets exigem permissões adicionais para exibir. Para saber mais, confira [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="threat-management-summary"></a>Resumo de gerenciamento de ameaças
 
@@ -61,7 +61,7 @@ O widget status de proteção contra ameaças mostra a eficácia da proteção c
 
 ![Widget status de proteção contra ameaças](../../media/tpswidget.png)
 
-Os detalhes dependem de sua assinatura do Office 365 incluir o [Exchange Online Protection](exchange-online-protection-eop.md) (EOP) com ou sem o [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP).
+Os detalhes dependem de sua assinatura do Microsoft 365 incluir o [Exchange Online Protection](exchange-online-protection-eop.md) (EOP) com ou sem o [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP).
 
 |||
 |---|---|
@@ -101,7 +101,7 @@ Insights não apenas os principais problemas de superfície que você deve exami
 
 ![Ideias inteligentes](../../media/smartinsights.png)
 
-Por exemplo, você pode ver que as mensagens de email de phishing estão sendo entregues, pois alguns usuários desabilitaram suas opções de lixo eletrônico. Para saber mais sobre como as ideias funcionam, confira [relatórios e insights no centro de conformidade & segurança do Office 365](reports-and-insights-in-security-and-compliance.md).
+Por exemplo, você pode ver que as mensagens de email de phishing estão sendo entregues, pois alguns usuários desabilitaram suas opções de lixo eletrônico. Para saber mais sobre como as ideias funcionam, confira [relatórios e insights no centro de conformidade do & de segurança](reports-and-insights-in-security-and-compliance.md).
 
 ## <a name="threat-investigation-and-response"></a>Investigação e resposta a ameaças
 
@@ -115,7 +115,7 @@ Próximo à parte inferior do painel de segurança está uma seção de **tendê
 
 ![A seção tendências resume as tendências de fluxo de emails da organização](../../media/trends.png)
 
-E, se a assinatura do Office 365 da sua organização incluir o [office 365 Advanced Threat Protection Plan 2](office-365-ti.md), você também terá um relatório **recente de alertas de gerenciamento de ameaças** nesta seção que permite que sua equipe de segurança exiba e execute ações sobre alertas de segurança de alta prioridade.
+E, se a assinatura de sua organização incluir o [plano 2 avançado de proteção contra ameaças do Office 365](office-365-ti.md), você também terá um relatório **recente de alertas de gerenciamento de ameaças** nesta seção que permite que sua equipe de segurança exiba e execute ações sobre alertas de segurança de alta prioridade.
 
 Para exibir ou acessar o widget email enviado e recebido, você deve ter permissões para exibir relatórios de proteção avançada contra ameaças. Para saber mais, veja [quais permissões são necessárias para exibir os relatórios ATP?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports).
 

@@ -1,5 +1,5 @@
 ---
-title: Renovar o Office 365 para empresas
+title: Renovar o Microsoft 365 para empresas
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,19 +23,19 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
-description: 'Saiba como renovar sua assinatura do Office 365 para empresas usando uma chave de produto e ative ou desative a cobrança recorrente. '
-ms.openlocfilehash: a382a2c4767f9dac4ee276c050d077d854b99084
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+description: 'Saiba como renovar sua assinatura do Microsoft 365 for Business usando uma chave do produto e ativar ou desativar a cobrança recorrente. '
+ms.openlocfilehash: 1c3fc5f9648c814d300cd65ac872f1e28e90ca0d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43175197"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636554"
 ---
-# <a name="renew-office-365-for-business"></a>Renovar o Office 365 para empresas
+# <a name="renew-microsoft-365-for-business"></a>Renovar o Microsoft 365 para empresas
 
-Este artigo aplica-se às assinaturas mais pagas do Office 365 para empresas.
+Este artigo aplica-se às assinaturas mais pagas do Microsoft 365 for Business.
   
-Para renovar usando uma chave do produto que você comprou de um parceiro do varejo ou do Office 365, confira [Localizar e insira sua chave do produto](../enter-your-product-key.md).
+Para renovar usando uma chave do produto que você comprou de uma loja de varejo ou parceiro da Microsoft, confira [Localizar e insira sua chave do produto](../enter-your-product-key.md).
 
 > [!NOTE]
 > O pagamento por conta bancária não está disponível em alguns países ou regiões.
@@ -48,9 +48,10 @@ Se você tiver pago sua assinatura com uma chave do produto, sua assinatura expi
 
 ::: moniker range="o365-worldwide"
 
+
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
 
-2. Escolha a assinatura para a qual você deseja gerenciar a cobrança recorrente.
+2. Escolha a assinatura da qual você quer gerenciar o faturamento recorrente.
  
 3. Em **cobrança**, ao lado de **renovar** ou **expirar em**, selecione **Editar**.
 
@@ -67,9 +68,13 @@ Se você tiver pago sua assinatura com uma chave do produto, sua assinatura expi
 
 ::: moniker range="o365-germany"
   
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Assinaturas</a>.
 
-2. Escolha a assinatura para a qual você deseja gerenciar a cobrança recorrente.
+    Se você estiver usando o Office 365 Germany, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
+
+    Se você estiver usando o Office 365 operado pela 21Vianet, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
+
+2. Escolha a assinatura da qual você quer gerenciar o faturamento recorrente.
  
 3. Para ativar a **cobrança recorrente**, alterne o botão para **Ativar**.
 
@@ -86,9 +91,13 @@ Se você tiver pago sua assinatura com uma chave do produto, sua assinatura expi
 
 ::: moniker range="o365-21vianet"
   
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Assinaturas</a>.
 
-2. Escolha a assinatura para a qual você deseja gerenciar a cobrança recorrente.
+    Se você estiver usando o Office 365 Germany, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
+
+    Se você estiver usando o Office 365 operado pela 21Vianet, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
+
+2. Escolha a assinatura da qual você quer gerenciar o faturamento recorrente.
  
 3. Para ativar a **cobrança recorrente**, alterne o botão para **Ativar**.
 
@@ -106,13 +115,13 @@ Se você tiver pago sua assinatura com uma chave do produto, sua assinatura expi
 ## <a name="related-articles"></a>Artigos relacionados
 
 [Reativar sua assinatura](reactivate-your-subscription.md)
-
+  
 [O que acontecerá com os meus dados e com o meu acesso quando a assinatura terminar?](what-if-my-subscription-expires.md)
 
-[Adicionar, atualizar ou remover seus métodos de pagamento](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
+[Adicionar, atualizar ou remover métodos de pagamento](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
 
 [Alterar sua forma de pagamento](../billing-and-payments/change-payment-method.md)
   
 [Insira sua chave do produto](../enter-your-product-key.md)
   
-[Comprar sua versão de avaliação do Office 365 para empresas](../buy-a-subscription-from-your-free-trial.md)
+[Comprar sua versão de avaliação do Microsoft 365 for Business](../buy-a-subscription-from-your-free-trial.md)

@@ -1,5 +1,5 @@
 ---
-title: 'Etapa 7: configurar o gerenciamento de acesso privilegiado do Office 365'
+title: 'Etapa 7: configurar o gerenciamento de acesso privilegiado'
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -14,32 +14,32 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 ms.custom: ''
-description: Entenda e configure o gerenciamento de acesso privilegiado do Office 365.
-ms.openlocfilehash: f29b1e0934a4b9a6d4e3347584f39423d446ed58
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Entenda e configure o gerenciamento de acesso privilegiado.
+ms.openlocfilehash: 4fed4daacc17a34563825bf0575880ce06ec6ebd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067228"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636983"
 ---
-# <a name="step-7-configure-privileged-access-management-for-office-365"></a>Etapa 7: configurar o gerenciamento de acesso privilegiado do Office 365
+# <a name="step-7-configure-privileged-access-management"></a>Etapa 7: configurar o gerenciamento de acesso privilegiado
 
 *Esta etapa é opcional e se aplica apenas às versões E5 e Advanced Compliance do Microsoft 365 Enterprise*
 
-![Fase 6: proteção de informações](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Fase 6: Proteção de Informações](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
-O gerenciamento do acesso privilegiado é habilitado pela configuração de políticas que especificam o acesso just-in-time a atividades baseadas em tarefas em seu locatário do Office 365. Ele pode ajudar a proteger sua organização contra violações que podem usar contas de administrador existentes com acesso permanente a dados confidenciais ou acesso a definições críticas de configuração. Por exemplo, você pode configurar uma política de gerenciamento de acesso privilegiado que requer a aprovação explícita para acessar e alterar configurações de caixas de correio da organização em seu locatário do Office 365.
+O gerenciamento de acesso privilegiado é habilitado pela configuração de políticas que especificam o acesso just-in-time para atividades com base em tarefas em seu locatário. Ele pode ajudar a proteger sua organização contra violações que podem usar contas de administrador privilegiadas existentes com acesso à dados confidenciais ou acesso a definições de configuração crítica. Por exemplo, você pode configurar uma política de gerenciamento de acesso privilegiado que requer aprovação explícita para acessar e alterar as configurações de caixa de correio de organização em seu locatário.
 
-Nesta etapa, você vai habilitar o gerenciamento do acesso privilegiado em seu locatário do Office 365 e configurar políticas de acesso privilegiado que proporcionam segurança adicionar para o acesso baseado em tarefas nos dados e definições de configuração do Office 365 em sua organização. Existem três etapas básicas para iniciar o acesso privilegiado em sua organização do Office 365:
+Nesta etapa, você habilitará o gerenciamento de acesso privilegiado no locatário e configurará políticas de acesso privilegiado que forneçam segurança adicional para acesso baseado em tarefa a dados e definições de configuração para sua organização. Há três etapas básicas para começar a usar o acesso privilegiado em sua organização:
 - Criar um grupo de aprovadores
 - Habilitar o acesso privilegiado
 - Criar políticas de aprovação
 
 Depois de configurado, o gerenciamento do acesso privilegiado possibilitará que sua organização opere com zero privilégios permanentes e proporcionará uma camada de defesa contra vulnerabilidades surgidas por causa deste acesso administrativo permanente. O acesso privilegiado requer aprovações para executar qualquer tarefa que tem uma política de aprovação associada definida. Os usuários que precisam executar tarefas incluídas em uma política de aprovação deve solicitar e receber aprovação de acesso para ter as permissões necessárias para executar as tarefas definidas na política.
 
-Para habilitar o gerenciamento do acesso privilegiado no Office 365, confira o tópico [Configurar o gerenciamento do acesso privilegiado no Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration).
+Para habilitar o gerenciamento de acesso privilegiado, consulte o tópico [Configurar gerenciamento de acesso privilegiado](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) .
 
-Para saber mais, confira o tópico [Gerenciamento do acesso privilegiado no Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview).
+Para obter mais informações, consulte o tópico [Gerenciamento de acesso privilegiado](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview) .
 
 
 |||

@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: Saiba como você pode mover seus arquivos de trabalho pessoal e arquivos confidenciais da empresa para o OneDrive for Business em apenas algumas etapas simples.
-ms.openlocfilehash: 7c36eb272983f86ee42361478ff63dfca252f0ce
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 4c41928ac51950a5a8c372ef0a170a76ff48ed2e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561671"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633130"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Mover arquivos para o OneDrive for Business
 
@@ -43,14 +43,14 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 
 Se um usuário tiver um computador com muitos arquivos pessoais, você deve primeiro mover esses arquivos para OneDrive for Business:
   
-1. Vá para portal.office.com e entre com as credenciais do Microsoft 365 Business do usuário.
-    
+1. Vá para portal.office.com e entre com as credenciais do Microsoft 365 for Business do usuário.
+
 2. Clique no inicializador de aplicativos ![The app launcher icon in Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) e vá para o OneDrive. 
     
 3. Escolha **Carregar**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png) na barra de menus e navegue até os arquivos que você deseja salvar. 
     
 Para transferir o perfil do usuário e arquivos importantes, você também pode usar uma ferramenta de terceiros, como o ForensiT. Você também deve carregar os arquivos resultantes na OneDrive for Business.
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Para saber mais sobre como configurar e usar o Microsoft 365 Business
+## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Para saber mais sobre como configurar e usar o Microsoft 365 for Business
 
-[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

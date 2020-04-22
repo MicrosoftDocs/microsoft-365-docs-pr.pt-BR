@@ -17,16 +17,16 @@ ms.assetid: d2104778-f0a1-4b69-baf3-c4b32e98a573
 ms.collection:
 - M365-security-compliance
 description: Saiba como você pode migrar de um relatório detalhado para uma visão com as ações recomendadas &amp; no centro de conformidade de segurança.
-ms.openlocfilehash: fc18af7d4ca813adb6fbfc01d44138b4a9266c6e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 8d56886a39e14eddd5ad6505a4fe68e20fc6a543
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086190"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638077"
 ---
 # <a name="walkthrough---from-a-detailed-report-to-an-insight"></a>Passo a passo – De um relatório detalhado para um insight
 
-Se você for novo para [relatórios e insights no centro de conformidade de &amp; segurança do Office 365](reports-and-insights-in-security-and-compliance.md), poderá ajudar a ver como você pode navegar facilmente de um relatório detalhado para uma percepção e ações recomendadas. 
+Se você for novo para [relatórios e insights no centro de &amp; conformidade de segurança](reports-and-insights-in-security-and-compliance.md), poderá ajudar a ver como você pode navegar facilmente de um relatório detalhado para uma compreensão e ações recomendadas. 
   
 Esta é uma das várias orientações passo a passo para &amp; o centro de conformidade de segurança. Para ver orientações adicionais, consulte a seção [Tópicos relacionados](#related-topics) . 
   

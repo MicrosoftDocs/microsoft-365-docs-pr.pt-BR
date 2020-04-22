@@ -12,18 +12,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 34674847-a6b7-4a7e-9eaa-b64f22bc150d
 description: As permissões necessárias para realizar tarefas para gerenciar o Microsoft Proteção do Exchange Online (EOP) variam dependendo do recurso que você está gerenciando.
-ms.openlocfilehash: 2129df7faaa977d59f8af8082291520d33bc9cc7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 146bf34f157eb30e680ad9e0c3e53501d6e7b425
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599308"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638113"
 ---
 # <a name="feature-permissions-in-eop"></a>Permissões de recurso no EOP
 
 As permissões necessárias para executar tarefas para gerenciar o Exchange Online Protection (EOP) variam dependendo do recurso que você está gerenciando.
 
-Para configurar o EOP, você precisa ser um Administrador Global do Office 365 ou um Administrador da Empresa do Exchange (o grupo de funções Gerenciamento de Organização).
+Para configurar o EOP, você deve ser um administrador global ou um administrador da empresa do Exchange (o grupo de funções Gerenciamento da organização).
 
 ## <a name="exchange-online-protection-permissions"></a>Permissões do Exchange Online Protection
 
@@ -36,7 +36,7 @@ Para descobrir quais permissões são necessárias para gerenciar os recursos do
 |Regras do fluxo de email|Gerenciamento de Organização <br/><br/> Gerenciamento de Registros|
 |Domínios|Gerenciamento de Organização <br/><br/> Gerenciamento de Organização Somente Exibição|
 |Proteção Avançada contra Ameaças (ATP)|Gerenciamento de Organização <br/><br/> Gerenciamento de Higienização|
-|Office 365 conectores|Gerenciamento de Organização|
+|Conectores do Microsoft 365|Gerenciamento de Organização|
 |Rastreamento de mensagens|Gerenciamento de Organização <br/><br/> Gerenciamento de Organização Somente Exibição|
 |Configuração da organização|Gerenciamento de Organização|
 |Quarentena|Gerenciamento de Organização <br/><br/> Gerenciamento de Organização Somente Exibição <br/><br/> Gerenciamento de Higienização|

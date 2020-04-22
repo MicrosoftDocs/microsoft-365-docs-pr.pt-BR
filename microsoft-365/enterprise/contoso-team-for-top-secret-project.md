@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: 'Resumo: como a contoso usou uma equipe para dados altamente regulamentados de um projeto de segredo superior para desenvolver um novo pacote de produtos e serviços.'
-ms.openlocfilehash: 58d381751db3e94f35a0c1b8f7a14c191918e754
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 310ef33d4add7d71616aee8808515ca90536d8c1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068018"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636493"
 ---
 # <a name="team-for-a-top-secret-project-of-the-contoso-corporation"></a>Equipe para um projeto confidencial da Contoso Corporation
 
@@ -50,21 +50,21 @@ Para obter detalhes sobre a configuração, consulte [configurações do SharePo
 
 ## <a name="step-2-configured-a-dlp-policy-and-the-underlying-site-for-a-retention-label"></a>Etapa 2: configurou uma política de DLP e o site subjacente para um rótulo de retenção 
 
-Primeiro, os administradores da Contoso aplicaram o rótulo de retenção do Office 365 **altamente confidencial** existente à seção **documentos** do site do SharePoint subjacente da equipe do projeto 2.
+Primeiro, os administradores da Contoso aplicaram o rótulo de retenção **altamente confidencial** existente à seção **documentos** do site do SharePoint subjacente da equipe do projeto 2.
 
-Em seguida, criamos uma nova política de DLP do Office 365 chamada **Project 2x** que:
+Em seguida, criamos uma nova política de DLP chamada **Project 2x** que:
 
-- Usa o rótulo de retenção altamente confidencial do Office 365.
+- Usa o rótulo de retenção altamente confidencial.
 - Bloqueia os usuários quando eles tentam compartilhar um arquivo na equipe do projeto 2X fora da contoso.
 
 Para obter os detalhes de configuração, consulte [proteger arquivos no Microsoft Teams com rótulos de retenção e DLP](https://docs.microsoft.com/microsoft-365/security/office-365-security/deploy-teams-retention-dlp).
 
-## <a name="step-3-created-an-office-365-sensitivity-label-for-the-project-2x-team"></a>Etapa 3: criou um rótulo de confidencialidade do Office 365 para o projeto 2X Team
+## <a name="step-3-created-a-sensitivity-label-for-the-project-2x-team"></a>Etapa 3: criou um rótulo de confidencialidade para o projeto 2X Team
 
-Os administradores da Contoso criaram um novo rótulo de sensibilidade do Office 365 chamado **projeto 2x** que:
+Os administradores da Contoso criaram um novo rótulo de sensibilidade chamado **projeto 2x** que:
 
 - Requer criptografia.
-- Permite permissões de coautoria para o grupo do projeto 2X Office 365.
+- Permite permissões de coautoria para o grupo 2 do projeto do Microsoft 365.
 
 Veja a seguir a configuração resultante da equipe do projeto 2X.
 
@@ -72,7 +72,7 @@ Veja a seguir a configuração resultante da equipe do projeto 2X.
  
 Arquivos na seção Documents do projeto subjacente o site do SharePoint é protegido por:
 
-- As permissões de site, que permitem apenas o acesso aos membros do grupo do projeto 2X do Office 365.
+- As permissões de site, que permitem o acesso somente aos membros do grupo 2 do projeto 2X Microsoft 365.
 - O rótulo de retenção altamente confidencial, que é atribuído automaticamente a novos arquivos.
 - Uma política de DLP que usa o rótulo e as configurações de retenção altamente confidenciais que impedirão o arquivo de ser compartilhado com usuários externos.
 - O rótulo de sensibilidade do projeto 2X, com criptografia e permissões que trafegam com o arquivo se ele for movido ou copiado do site.

@@ -21,36 +21,36 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
-description: Saiba o que acontece com seus dados quando a sua assinatura do Office 365 for Business expira, está desabilitada ou se você cancelar.
-ms.openlocfilehash: f3be5a84cc29b2f7fd4d2bbe3e6ba611c6459ea6
-ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
+description: Saiba o que acontece com seus dados quando sua assinatura do Microsoft 365 for Business expira, está desabilitada ou se você cancelar.
+ms.openlocfilehash: 2a5a9e587b6b00017d3e489d948c9cee3db4777b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43584004"
+ms.locfileid: "43634869"
 ---
-# <a name="what-happens-to-my-data-and-access-when-my-office-365-for-business-subscription-ends"></a>O que acontece com meus dados e acesso quando minha assinatura do Office 365 for Business termina?
+# <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>O que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 for Business termina?
 
-Se sua assinatura terminar, pois ela expira ou porque você decide cancelar — seu acesso aos serviços do Office 365, aplicativos e dados do cliente passam por vários Estados antes que a assinatura seja totalmente desativada ou *desprovisionada*. Se você estiver ciente desse progresso, você ficará mais preparado para retornar sua assinatura para um estado ativo antes que seja muito tarde ou, se você estiver saindo do Office 365, faça backup dos seus dados antes que ele seja excluído.
+Se sua assinatura terminar, pois ela expira ou porque você decide cancelar — seu acesso aos serviços do Microsoft 365, aplicativos e dados do cliente passam por vários Estados antes que a assinatura seja totalmente desativada ou *desprovisionada*. Se você estiver ciente desse progresso, você ficará mais preparado para retornar sua assinatura para um estado ativo antes que seja muito tarde ou, se você sair do Microsoft 365, faça backup dos seus dados antes que ele seja excluído.
   
-## <a name="office-365-for-business-subscription-lifecycle"></a>Office 365 for Business: ciclo de vida de assinatura
+## <a name="microsoft-365-for-business-subscription-lifecycle"></a>Microsoft 365 for Business: ciclo de vida de assinatura
 - Se sua assinatura expirar, ela passará pelos seguintes estágios: expirado/desabilitado/desprovisionado. O estágio expirado é iniciado imediatamente após a assinatura atingir sua data de término.
 - Se você desativar a cobrança recorrente em sua assinatura anual, ela passará pelos mesmos estágios de uma assinatura expirada. O primeiro estágio começa é o aniversário da assinatura anual, não começando na data em que você desativou a configuração de cobrança recorrente da assinatura.
-- Se você cancelar sua assinatura mensal, ela será desabilitada imediatamente (na data de cancelamento). Isso significa que seus usuários perderão o acesso aos ativos do Office 365 imediatamente e apenas os administradores terão acesso aos dados pelos próximos 90 dias.
+- Se você cancelar sua assinatura mensal, ela será desabilitada imediatamente (na data de cancelamento). Isso significa que seus usuários perderão o acesso aos ativos do Microsoft 365 imediatamente e apenas os administradores terão acesso aos dados pelos próximos 90 dias.
 
-A tabela a seguir explica o que você pode esperar quando uma assinatura paga do Office 365 for Business expira.
+A tabela a seguir explica o que você pode esperar quando uma assinatura paga do Microsoft 365 for Business expira.
 
 | **Active**                                                             | **Expirado <br/>(30\*dias)**                                                | **Desabilitado <br/>(90\*dias)**                                               | **Desprovisionada**                                                                         |
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | *Dados acessíveis a todos*                                               | *Dados acessíveis a todos*                                                     | *Dados acessíveis somente para administradores*                                             | **Dados excluídos<br/>o Azure Active Directory foi removido, se não estiver sendo usado por outros serviços** |
-| Os usuários têm acesso normal aos aplicativos do Office 365, aos dados e ao Office  | Os usuários têm acesso normal ao Office 365, arquivos e aplicativos              | Os usuários não podem acessar o Office 365, arquivos ou aplicativos                        | Os usuários não podem acessar o Office 365, arquivos ou aplicativos                                     |
-| Os administradores têm acesso normal aos aplicativos do Office 365, aos dados e ao Office | Os administradores podem acessar o centro de administração   | Os administradores podem acessar o centro de administração, mas não podem atribuir licenças aos usuários       | Os administradores podem acessar o centro de administração para comprar e gerenciar outras assinaturas             |
+| Os usuários têm acesso normal aos aplicativos do Microsoft 365, aos dados e ao Office  | Os usuários têm acesso normal ao Microsoft 365, arquivos e aplicativos              | Os usuários não podem acessar o Microsoft 365, arquivos ou aplicativos                        | Os usuários não podem acessar o Microsoft 365, arquivos ou aplicativos                                     |
+| Os administradores têm acesso normal ao Microsoft 365, aos dados e aos aplicativos do Office | Os administradores podem acessar o centro de administração                                           | Os administradores podem acessar o centro de administração, mas não podem atribuir licenças aos usuários       | Os administradores podem acessar o centro de administração para comprar e gerenciar outras assinaturas             |
 |                                                                        | Administradores globais ou de cobrança podem reativar a assinatura no centro de administração | Administradores globais ou de cobrança podem reativar a assinatura no centro de administração |                                                                                           |
 
 * Na maioria das ofertas, na maioria dos países e regiões.
   
 > [!NOTE]
-> **O que é "dados do cliente"?** Dados do cliente, conforme definido nos [termos do Microsoft Online Service](https://go.microsoft.com/fwlink/p/?LinkId=613649), refere-se a todos os dados, incluindo todos os arquivos de texto, som ou imagem fornecidos à Microsoft por, ou em nome de, o cliente através do uso do cliente do Office 365 Services. Para saber mais sobre a proteção de dados do cliente, confira o [introdução ao portal de confiança do serviço Microsoft](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662).
+> **O que é "dados do cliente"?** Os dados do cliente, conforme definido nos [termos do Microsoft Online Service](https://go.microsoft.com/fwlink/p/?LinkId=613649), referem-se a todos os dados, incluindo todos os arquivos de texto, som ou imagem fornecidos à Microsoft por, ou em nome de, o cliente através do uso do Microsoft 365 Services do cliente. Para saber mais sobre a proteção de dados do cliente, confira o [introdução ao portal de confiança do serviço Microsoft](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662).
   
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>Quais são as minhas opções se minha assinatura estiver prestes a expirar?
 
@@ -64,11 +64,11 @@ Antes que a assinatura realmente alcance sua data de expiração, você tem algu
 
   - Se a **cobrança recorrente** já estiver ativada, não será necessário realizar qualquer ação. Sua assinatura será cobrada automaticamente e você será cobrado por um ano ou mês adicional, dependendo da sua frequência de pagamento atual. Se, por qualquer motivo, você tiver desativado a **cobrança recorrente** , sempre será possível [ativar novamente a cobrança recorrente](renew-your-subscription.md).
 
-  - Se você comprou o Office 365 Business com um cartão pré-pago, é possível [ativar a cobrança recorrente](renew-your-subscription.md) para sua assinatura.
+  - Se você comprou o Microsoft 365 Apps for Business com um cartão pré-pago, é possível [ativar a cobrança recorrente](renew-your-subscription.md) para sua assinatura.
 
   - Se você for um cliente de licenciamento de volume aberto com uma assinatura pré-paga de um ano, entre em contato com seu parceiro para adquirir uma nova chave de produto. Você receberá instruções por email para ativar sua chave no [centro de serviços de licenciamento por volume](https://go.microsoft.com/fwlink/p/?LinkID=282016). Para saber como encontrar um novo parceiro ou o parceiro com o qual você trabalhou no passado, confira [localizar seu parceiro ou revendedor](../../admin/manage/find-your-partner-or-reseller.md).
 
-  - Se você tiver o Office 365 Business, confira [gerenciar a cobrança recorrente para sua assinatura](renew-your-subscription.md).
+  - Se você tiver o Microsoft 365 aplicativos para empresas, confira [gerenciar cobrança recorrente para sua assinatura](renew-your-subscription.md).
 
 - **Deixe a assinatura expirar.**
 
@@ -88,11 +88,11 @@ Antes que a assinatura realmente alcance sua data de expiração, você tem algu
 
   - Se a **cobrança recorrente** já estiver ativada, não será necessário realizar qualquer ação. Sua assinatura será cobrada automaticamente e você será cobrado por um ano ou mês adicional, dependendo da sua frequência de pagamento atual. Se, por qualquer motivo, você tiver desativado a **cobrança recorrente** , sempre será possível [ativar novamente a cobrança recorrente](renew-your-subscription.md).
 
-  - Se você comprou o Office 365 Business com um cartão pré-pago, é possível [ativar a cobrança recorrente](renew-your-subscription.md) para sua assinatura.
+  - Se você comprou o Microsoft 365 Apps for Business com um cartão pré-pago, é possível [ativar a cobrança recorrente](renew-your-subscription.md) para sua assinatura.
 
   - Se você for um cliente de licenciamento de volume aberto com uma assinatura pré-paga de um ano, entre em contato com seu parceiro para adquirir uma nova chave de produto. Você receberá instruções por email para ativar sua chave no [centro de serviços de licenciamento por volume](https://go.microsoft.com/fwlink/p/?LinkID=282016). Para saber como encontrar um novo parceiro ou o parceiro com o qual você trabalhou no passado, confira [localizar seu parceiro ou revendedor](../../admin/manage/find-your-partner-or-reseller.md).
 
-  - Se você tiver o Office 365 Business, confira [renovar sua assinatura](renew-your-subscription.md).
+  - Se você tiver o Microsoft 365 aplicativos para empresas, confira [renovar sua assinatura](renew-your-subscription.md).
 
 - **Deixe a assinatura expirar.**
 
@@ -141,9 +141,9 @@ Veja aqui o que você pode esperar quando sua assinatura estiver em cada Estado.
 
 ::: moniker-end
 
-Nesse estado, os usuários têm acesso normal ao portal do Office 365, aplicativos do Office e serviços como email e SharePoint Online.
+Nesse estado, os usuários têm acesso normal ao portal do Microsoft 365, aos aplicativos do Office e a serviços como o email e o SharePoint Online.
   
-Como administrador, você ainda tem acesso ao centro de administração. Administradores globais ou de cobrança podem [reativar a assinatura](reactivate-your-subscription.md) e continuar usando o Office 365. Se você não reativar, certifique-se de [fazer backup dos dados](back-up-data-before-switching-plans.md).
+Como administrador, você ainda tem acesso ao centro de administração. Não se preocupe: os administradores globais ou de cobrança podem [reativar a assinatura](reactivate-your-subscription.md) e continuar usando o Microsoft 365. Se você não reativar, certifique-se de [fazer backup dos dados](back-up-data-before-switching-plans.md).
   
 ### <a name="state-disabled"></a>Estado: desabilitado
   
@@ -171,7 +171,7 @@ Nesse estado, seu acesso diminui significativamente. Os usuários não podem ent
 
 ::: moniker-end
 
-Como administrador global ou de cobrança, você pode [reativar a assinatura](reactivate-your-subscription.md) e continuar usando o Office 365 com todos os dados do cliente intactos. Se você optar por não reativar, certifique-se de [fazer backup dos dados](back-up-data-before-switching-plans.md).
+Como administrador global ou de cobrança, você pode [reativar a assinatura](reactivate-your-subscription.md) e continuar usando o Microsoft 365 com todos os dados do cliente intactos. Se você optar por não reativar, certifique-se de [fazer backup dos dados](back-up-data-before-switching-plans.md).
 
 ### <a name="state-deprovisioned"></a>Estado: desprovisionado
   
@@ -186,15 +186,15 @@ Neste ponto, não é possível reativar a assinatura. No entanto, como administr
 
 ### <a name="what-happens-when-my-trial-ends"></a>O que acontece quando minha avaliação termina?
 
-Quando a avaliação terminar, você não poderá continuar usando o Office 365 gratuitamente. Você tem algumas opções:
+Quando a avaliação terminar, você não poderá continuar usando o Microsoft 365 gratuitamente. Você tem algumas opções:
 
 ::: moniker range="o365-worldwide"
-- **Comprar o Office 365.** Quando a avaliação expira, ela é movida para um período de cortesia, dando mais 30 dias (para a maioria dos testes, na maioria dos países e regiões) para comprar o Office 365. Para saber como converter a avaliação em uma assinatura paga, confira [comprar sua versão de avaliação do Office 365 for Business](../buy-a-subscription-from-your-free-trial.md).
+- **Compre o Microsoft 365.** Quando a avaliação expira, ela é movida para um período de cortesia, dando mais 30 dias (para a maioria dos testes, na maioria dos países e regiões) para comprar o Microsoft 365. Para saber como converter a avaliação em uma assinatura paga, confira [comprar sua versão de avaliação do Microsoft 365 for Business](../buy-a-subscription-from-your-free-trial.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-- **Comprar o Office 365.** Quando a avaliação expira, ela é movida para um período de cortesia, dando mais 30 dias (para a maioria dos testes, na maioria dos países e regiões) para comprar o Office 365. Para saber como converter a avaliação em uma assinatura paga, confira [comprar sua versão de avaliação do Office 365 for Business](../buy-a-subscription-from-your-free-trial.md).
+- **Compre o Microsoft 365.** Quando a avaliação expira, ela é movida para um período de cortesia, dando mais 30 dias (para a maioria dos testes, na maioria dos países e regiões) para comprar o Microsoft 365. Para saber como converter a avaliação em uma assinatura paga, confira [comprar sua versão de avaliação do Microsoft 365 for Business](../buy-a-subscription-from-your-free-trial.md).
 
 ::: moniker-end
 
@@ -203,9 +203,9 @@ Quando a avaliação terminar, você não poderá continuar usando o Office 365 
 
 ::: moniker-end
 
-- **Estenda a avaliação.** Precisa de mais tempo para avaliar o Office 365? Em alguns casos, você poderá [estender a avaliação](../extend-your-trial.md).
+- **Estenda a avaliação.** Precisa de mais tempo para avaliar o Microsoft 365? Em alguns casos, você poderá [estender a avaliação](../extend-your-trial.md).
 
-- **Cancele a avaliação ou deixe-a expirar.** Se você decidir não comprar o Office 365, poderá deixar que sua avaliação expire ou [cancelá-la](cancel-your-subscription.md). Certifique-se de fazer backup de todos os dados que você deseja manter. Logo após o período de cortesia de 30 dias, as informações e os dados da conta de avaliação são apagados permanentemente.
+- **Cancele a avaliação ou deixe-a expirar.** Se você decidir não comprar o Microsoft 365, poderá deixar que sua avaliação expire ou [cancelá-la](cancel-your-subscription.md). Certifique-se de fazer backup de todos os dados que você deseja manter. Logo após o período de cortesia de 30 dias, as informações e os dados da conta de avaliação são apagados permanentemente.
 
 ## <a name="what-happens-if-i-cancel-a-subscription"></a>O que acontece se eu cancelar uma assinatura?
 

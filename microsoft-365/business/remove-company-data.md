@@ -22,13 +22,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
-description: Descubra como usar o Microsoft 365 Business para remover dados da empresa que seus usuários têm em seus dispositivos ou PCs Windows.
-ms.openlocfilehash: 1cfcf836f71cb81015d28a848611678252731b9c
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Descubra como usar o Microsoft 365 for Business para remover dados da empresa que seus usuários têm em seus dispositivos ou PCs Windows.
+ms.openlocfilehash: 80997a48bb3924ab20f16a454120d24caf76e1e7
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561311"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634839"
 ---
 # <a name="remove-company-data-from-devices"></a>Remover dados da empresa de dispositivos
 
@@ -36,7 +36,7 @@ ms.locfileid: "42561311"
 
 ## <a name="remove-company-data"></a>Remova dados da empresa
 
-Você pode usar o Microsoft 365 Business para remover dados da empresa que seus usuários têm nos [dispositivos](app-protection-settings-for-android-and-ios.md) ou [PCs Windows](protection-settings-for-windows-10-devices.md) protegidos pelo Microsoft 365. **Se você remover os dados da empresa de um dispositivo, não é possível restaurá-los mais tarde**. 
+Você pode usar o Microsoft 365 for Business para remover dados da empresa que seus usuários têm em seus [dispositivos](app-protection-settings-for-android-and-ios.md) ou [PCs Windows](protection-settings-for-windows-10-devices.md) protegidos pelo Microsoft 365. **Se você remover os dados da empresa de um dispositivo, não é possível restaurá-los mais tarde**. 
   
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     

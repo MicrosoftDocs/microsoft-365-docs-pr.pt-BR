@@ -16,17 +16,17 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Saiba como habilitar o suplemento de mensagem de relatório para o Outlook e o Outlook na Web, para usuários individuais ou para toda a organização.
-ms.openlocfilehash: c160e928c9a46dd4dc360c5e61d70ca401430378
-ms.sourcegitcommit: a86787b62cec95a392ff2b933f5dc44334ceb7e9
+ms.openlocfilehash: 101a37f48e31f762171b2269055d0e69c889d0dc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43061717"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633294"
 ---
-# <a name="enable-the-report-message-add-in-in-office-365"></a>Habilitar o suplemento de mensagem de relatório no Office 365
+# <a name="enable-the-report-message-add-in"></a>Habilitar o suplemento de Mensagem de Relatório
 
 > [!NOTE]
-> Se você for um administrador em uma organização do Office 365 com caixas de correio do Exchange Online, recomendamos que você use o portal de envios no centro de conformidade & segurança do Office 365. Para obter mais informações, consulte [usar o envio do administrador para enviar spam, phishing, URLs e arquivos suspeitos à Microsoft](admin-submission.md).
+> Se você for um administrador em uma organização com caixas de correio do Exchange Online, recomendamos que você use o portal de envios no centro de conformidade do & de segurança. Para obter mais informações, consulte [usar o envio do administrador para enviar spam, phishing, URLs e arquivos suspeitos à Microsoft](admin-submission.md).
 
 O suplemento de mensagem de relatório para o Outlook e o Outlook na Web (anteriormente conhecido como Outlook Web App) permite que as pessoas relatem facilmente falsos positivos (emails satisfatórios marcados como defeituosos) ou falsos negativos (emails inválidos permitidos) para a Microsoft e seus afiliados para análise. A Microsoft usa esses envios para melhorar a eficácia das tecnologias de proteção de email.
 
@@ -38,16 +38,16 @@ Os administradores podem habilitar o suplemento de mensagem de relatório para a
 
 Se você for um usuário individual, é possível [habilitar o relatório de suplemento de mensagens para você](#get-the-report-message-add-in-for-yourself).
 
-Se você for um administrador global do Office 365 ou um administrador do Exchange Online e o Exchange estiver configurado para usar a autenticação OAuth, você poderá [habilitar o suplemento de mensagem de relatório para sua organização](#get-and-enable-the-report-message-add-in-for-your-organization). O suplemento de mensagem de relatório agora está disponível por meio da [implantação centralizada](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins).
+Se você for um administrador global ou um administrador do Exchange Online e o Exchange estiver configurado para usar a autenticação OAuth, você poderá [habilitar o suplemento de mensagem de relatório para sua organização](#get-and-enable-the-report-message-add-in-for-your-organization). O suplemento de mensagem de relatório agora está disponível por meio da [implantação centralizada](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- O suplemento de mensagem de relatório funciona com a maioria das assinaturas do Office 365 e os seguintes produtos:
+- O suplemento de mensagem de relatório funciona com a maioria das assinaturas do Microsoft 365 e os seguintes produtos:
 
   - Outlook na Web
   - Outlook 2013 SP1 ou posterior
   - Outlook 2016 para Mac
-  - Outlook incluído no Office 365 ProPlus
+  - Outlook incluído no Microsoft 365 Apps for Enterprise
 
 - O suplemento de mensagem de relatório atualmente não está disponível para:
 
@@ -58,7 +58,7 @@ Se você for um administrador global do Office 365 ou um administrador do Exchan
 
 - Para instalações organizacionais, a organização precisa ser configurada para usar a autenticação OAuth. Confira mais informações em [determinar se a implantação centralizada de suplementos funciona para sua organização](../../admin/manage/centralized-deployment-of-add-ins.md).
 
-- Os administradores precisam ser membros do grupo de funções administradores globais. Para obter mais informações, consulte [permissões no centro de conformidade & segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
+- Os administradores precisam ser membros do grupo de funções administradores globais. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="get-the-report-message-add-in-for-yourself"></a>Obter o suplemento de mensagem de relatório para você mesmo
 
@@ -70,7 +70,7 @@ Se você for um administrador global do Office 365 ou um administrador do Exchan
 
 3. Na caixa de diálogo exibida, revise os termos de uso e política de privacidade e clique em **continuar**.
 
-4. Entre no Office 365 usando sua conta corporativa ou de estudante (para uso comercial) ou sua conta da Microsoft (para uso pessoal).
+4. Entre usando sua conta corporativa ou de estudante (para uso comercial) ou sua conta da Microsoft (para uso pessoal).
 
 Depois que o suplemento estiver instalado e habilitado, você verá os seguintes ícones:
 
