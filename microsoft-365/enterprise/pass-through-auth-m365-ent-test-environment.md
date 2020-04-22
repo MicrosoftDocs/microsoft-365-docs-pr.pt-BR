@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configure a autenticação de passagem para seu ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: 4f9941b017f00b40a6ae7e893211131cae51c611
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 8a9a8847d79e1d114f0ddfb4843cbb7b9f9f0d4c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066414"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631412"
 ---
 # <a name="pass-through-authentication-for-your-microsoft-365-test-environment"></a>Autenticação de passagem para seu ambiente de teste do Microsoft 365
 
@@ -35,8 +35,8 @@ As organizações que desejem usar diretamente a própria infraestrutura do Acti
   
 Há duas fases para configurar esse ambiente de teste:
 
-1.  Criar o ambiente de teste de empresa simulada do Microsoft 365 com sincronização de hash de senha.
-2.  Configurar o Azure AD Connect no APP1 para autenticação de passagem.
+1.    Criar o ambiente de teste de empresa simulada do Microsoft 365 com sincronização de hash de senha.
+2.    Configurar o Azure AD Connect no APP1 para autenticação de passagem.
     
 ![Guias de laboratório de teste da Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
@@ -52,7 +52,7 @@ Siga as instruções em [sincronização de hash de senha para o Microsoft 365](
 Esta configuração consiste em: 
   
 - Assinaturas de avaliação ou pagas do Microsoft 365 E5 ou Office 365 E5.
-- Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. O Azure AD Connect é executado periodicamente no APP1 para sincronizar o domínio TESTLAB do AD DS com o locatário do Azure AD de sua assinatura do Microsoft 365 ou Office 365.
+- Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. O Azure AD Connect é executado no APP1 para sincronizar o domínio TESTLAB AD DS com o locatário do Azure AD das suas assinaturas do Microsoft 365 periodicamente.
 
 ## <a name="phase-2-configure-azure-ad-connect-on-app1-for-pass-through-authentication"></a>Fase 2: configurar o Azure AD Connect no APP1 para autenticação de passagem
 
@@ -60,25 +60,25 @@ Nesta fase, você configura o Azure AD Connect no APP1 para usar autenticação 
 
 ### <a name="configure-azure-ad-connect-on-app1"></a>Configurar o Azure AD Connect no APP1
 
-1.  No [Portal do Azure](https://portal.azure.com), entre com a conta de administrador global e conecte-se ao APP1 com a conta TESTLAB\Usuário1.
+1.    No [Portal do Azure](https://portal.azure.com), entre com a conta de administrador global e conecte-se ao APP1 com a conta TESTLAB\Usuário1.
 
-2.  Na área de trabalho do APP1, execute o Azure AD Connect.
+2.    Na área de trabalho do APP1, execute o Azure AD Connect.
 
-3.  Na **Página inicial**, clique em **Configurar**.
+3.    Na **Página inicial**, clique em **Configurar**.
 
-4.  Na página Tarefas adicionais, clique em **Alterar entrada do usuário** e em **Avançar**.
+4.    Na página Tarefas adicionais, clique em **Alterar entrada do usuário** e em **Avançar**.
 
-5.  Na página **Conectar ao Azure AD**, digite suas credenciais de conta de administrador global e clique em **Próxima**.
+5.    Na página **Conectar ao Azure AD**, digite suas credenciais de conta de administrador global e clique em **Próxima**.
 
-6.  Na página **Entrada de usuário**, clique em **Autenticação de passagem**e clique em **Avançar**.
+6.    Na página **Entrada de usuário**, clique em **Autenticação de passagem**e clique em **Avançar**.
 
-7.  Na página **Pronto para configurar**, clique em **Configurar**.
+7.    Na página **Pronto para configurar**, clique em **Configurar**.
 
-8.  Na página **Configuração concluída**, clique em **Sair**.
+8.    Na página **Configuração concluída**, clique em **Sair**.
 
-9.  No portal do Azure, no painel esquerdo, clique em **Azure Active Directory > Azure AD Connect Health**. Verifique se o recurso **Autenticação de passagem** aparece como **Habilitado**.
+9.    No portal do Azure, no painel esquerdo, clique em **Azure Active Directory > Azure AD Connect Health**. Verifique se o recurso **Autenticação de passagem** aparece como **Habilitado**.
 
-10. Clique em **Autenticação de passagem**. O painel **Autenticação de passagem** lista os servidores onde estão instalados os Agentes de Autenticação. Você verá APP1 na lista. Feche o painel **Autenticação de passagem**.
+10.    Clique em **Autenticação de passagem**. O painel **Autenticação de passagem** lista os servidores onde estão instalados os Agentes de Autenticação. Você verá APP1 na lista. Feche o painel **Autenticação de passagem**.
 
 Em seguida, teste a capacidade de entrar em sua assinatura com a conta <strong>usuario1@testlab.</strong>\<seu domínio público> nome de usuário da conta Usuário1.
 
@@ -94,8 +94,8 @@ Esta é a configuração resultante:
  
 Esta configuração consiste em:
 
-- Assinaturas pagas ou de avaliação do Microsoft 365 E5 ou do Office 365 E5 com o domínio DNS testlab.\<seu nome de domínio> registrado.
-- Uma intranet de organização simplificada conectada à Internet, composta pelas máquinas virtuais DC1, APP1 e CLIENT1, em uma sub-rede de uma Rede Virtual do Microsoft Azure. Um Agente de Autenticação é executado no APP1 para processar as solicitações de autenticação de passagem do locatário do Azure AD nas assinaturas do Microsoft 365 ou do Office 365. 
+- Assinaturas de avaliação ou pagas do Microsoft 365 E5 ou do Office 365 E5 com o domínio DNS testlab.\<seu nome de domínio> registrado.
+- Uma intranet simplificada da organização conectada à Internet, consistindo nas máquinas virtuais DC1, APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. Um Agente de autenticação é executado no APP1 para lidar com solicitações de autenticação de passagem do locatário do Azure AD da sua assinatura do Microsoft 365.
 
 ## <a name="next-step"></a>Próxima etapa
 

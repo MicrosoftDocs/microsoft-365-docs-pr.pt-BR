@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 06af70f3-e7dc-4ee2-a385-fb4d61a5e93b
 description: 'Resumo: Crie sites de equipe do SharePoint Online confidenciais e altamente confidenciais em um ambiente de desenvolvimento/teste.'
-ms.openlocfilehash: 6294daa943c3815b86a9e12154901ed0b58d5e8d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 016fd99423305e0d11272f3d25115dcffe29ecae
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088101"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631984"
 ---
 # <a name="secure-sharepoint-online-sites-in-a-devtest-environment"></a>Proteger sites do SharePoint Online em um ambiente de desenvolvimento/teste
 
@@ -66,7 +66,7 @@ Primeiro, crie um conjunto de grupos para uma organização comum com o portal d
 
 6. Repita as etapas 3-5 para um novo grupo chamado **equipe de marketing**.
 
-Em seguida, configure o licenciamento automático para que os membros de seus grupos recebam automaticamente a atribuição de licenças para suas assinaturas do Office 365 e do EMS.
+Em seguida, configure o licenciamento automático para que os membros dos seus grupos recebam automaticamente a atribuição de licenças das suas assinaturas do Microsoft 365 e do EMS.
 
 1. No Portal do Azure, clique em **Azure Active Directory > Licenças > Todos os produtos**.
 
@@ -125,7 +125,7 @@ Use essas etapas para verificar se o licenciamento baseado em grupo está funcio
 
 4. No painel que lista as propriedades da conta de usuário **CEO**, verifique se ele recebeu a atribuição das licenças **Microsoft 365 Enterprise E5** (em ** Licenças de produto**).
 
-## <a name="phase-3-create-office-365-retention-labels"></a>Fase 3: Criar etiquetas de retenção do Office 365
+## <a name="phase-3-create-retention-labels"></a>Fase 3: crie rótulos de retenção
 
 Nesta fase, você cria os rótulos de retenção de documentos em seus sites de equipe do SharePoint.
 

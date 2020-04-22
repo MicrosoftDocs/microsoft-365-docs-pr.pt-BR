@@ -15,23 +15,23 @@ search.appverid:
 ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
-description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online e no Exchange Online Protection (EOP) autônomo.
-ms.openlocfilehash: e3d49fecf456fe7f615cc2877c7522632b8db7d7
-ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
+description: As configurações básicas de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam.
+ms.openlocfilehash: 027cea45159131ebe4718dfb2209d8be15f8e355
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43608181"
+ms.locfileid: "43637707"
 ---
-# <a name="configure-anti-spam-policies-in-office-365"></a>Configurar políticas antispam no Office 365
+# <a name="configure-anti-spam-policies"></a>Configurar políticas antispam
 
-Se você for um cliente do Office 365 com caixas de correio no Exchange Online ou um cliente da EOP (Proteção do Exchange Online) autônoma sem as caixas de correio do Exchange Online, as mensagens de email de entrada serão automaticamente protegidas contra spam pela EOP. A EOP usa políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) como parte da defesa geral da sua organização contra spams. Para obter mais informações, confira [Proteção antispam no Office 365](anti-spam-protection.md).
+Se você for um cliente do Microsoft 365 com caixas de correio do Exchange Online ou um cliente independente do Exchange Online Protection (EOP), sem as caixas de correio do Exchange Online, as mensagens de email de entrada serão automaticamente protegidas contra spam por EOP. A EOP usa políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) como parte da defesa geral da sua organização contra spams. Para obter mais informações, consulte [Proteção antispam](anti-spam-protection.md).
 
 Os administradores podem visualizar, editar e configurar (mas não excluir) a política antispam padrão. Para maior granularidade, também é possível criar políticas antispam personalizadas aplicadas a determinados usuários, grupos ou domínios na sua organização. Políticas personalizadas sempre terão prioridade sobre a política padrão, mas você pode alterar a prioridade (ordem de execução) de suas políticas personalizadas.
 
-Você pode configurar políticas antispam no Centro de Conformidade e Segurança do Office 365 ou no PowerShell (PowerShell do Exchange Online para clientes do Office 365; PowerShell da Proteção do Exchange Online para clientes da EOP autônoma).
+Você pode configurar políticas antispam no Centro de Conformidade e Segurança ou no Windows PowerShell (Exchange Online PowerShell para clientes do Microsoft 365; Exchange Online Protection PowerShell para clientes EOP autônomos).
 
-## <a name="anti-spam-policies-in-the-office-365-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>Políticas antispam no Centro de Segurança e Conformidade do Office 365 vs. PowerShell do Exchange Online ou o PowerShell da Proteção do Exchange Online
+## <a name="anti-spam-policies-in-the-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>Políticas antispam no Centro de Conformidade e Segurança versus Exchange Online Windows PowerShell ou Exchange Online Protection WindowsPowerShell
 
 Os elementos básicos de uma política antispam na EOP são:
 
@@ -39,7 +39,7 @@ Os elementos básicos de uma política antispam na EOP são:
 
 - **A regra de filtro de spam**: especifica a prioridade e os filtros de destinatário (a quem a política se aplica) para uma política de filtro de spam.
 
-A diferença entre esses dois elementos não é óbvia quando você gerencia políticas antispam no Centro de Conformidade e Segurança:
+A diferença entre esses dois elementos não é óbvia quando você gerencia as políticas antispam no Centro de Segurança e Conformidade:
 
 - Quando você cria uma política antispam no Centro de Conformidade e Segurança, você está, na verdade, criando uma regra de filtro de spam e a política de filtro de spam associada ao mesmo tempo, usando o mesmo nome para ambas.
 
@@ -73,9 +73,9 @@ Para aumentar a eficácia da filtragem de spam, crie políticas antispam persona
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell da Proteção do Exchange Online autônoma, confira [Conectar ao PowerShell da Proteção do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
-- Você precisa receber permissões para executar esses procedimentos. Para adicionar, modificar e excluir políticas antispam, você precisa ser membro dos grupos de funções **Gerenciamento da Organização** ou **Administrador de Segurança**. Para obter acesso apenas de leitura às políticas de spam, você precisa ser membro do grupo de função **Leitor de Segurança**. Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de conformidade e Segurança do Office 365](permissions-in-the-security-and-compliance-center.md).
+- Você precisa receber permissões para executar esses procedimentos. Para adicionar, modificar e excluir políticas antispam, você precisa ser membro dos grupos de funções **Gerenciamento da Organização** ou **Administrador de Segurança**. Para obter acesso apenas de leitura às políticas de spam, você precisa ser membro do grupo de função **Leitor de Segurança**. Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
-- Para nossas configurações recomendadas para políticas antispam, confira [Configurações da política antispam EOP](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings).
+- Para ver as configurações recomendadas para políticas antimalware, confira [Configurações de política antispam da EOP](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings).
 
 ## <a name="use-the-security--compliance-center-to-create-anti-spam-policies"></a>Usar o Centro de Conformidade e Segurança para criar políticas antispam
 
@@ -280,7 +280,7 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 
 3. Clique em **Editar política**.
 
-As configurações no submenu que aparece são idênticas às configurações disponíveis na seção [Usar o Centro de Conformidade e Segurança para criar políticas antispam](#use-the-security--compliance-center-to-create-anti-spam-policies).
+Para políticas antispam, as configurações disponíveis no submenu exibido são idênticas às descritas na seção [Usar o Centro de Conformidade e Segurança para criar políticas antispam](#use-the-security--compliance-center-to-create-anti-spam-policies).
 
 Para a política antispam padrão chamada **Política de filtragem de spam padrão**, a seção **Aplicada a** não está disponível (a política se aplica a todos), e não é possível renomear a política.
 
@@ -302,7 +302,7 @@ Não é possível desabilitar a política antispam padrão.
 
 ### <a name="set-the-priority-of-custom-anti-spam-policies"></a>Definir a prioridade das políticas antispam personalizadas
 
-Por padrão, as políticas antispam recebem uma prioridade baseada na ordem em que elas foram criadas (as políticas mais recentes são de prioridade mais baixa do que as políticas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade.
+Por padrão, as políticas antispam recebem uma prioridade com base na ordem em que foram criadas (políticas mais novas têm prioridade menor do que as políticas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade.
 
 As políticas antispam personalizadas são exibidas na ordem em que são processadas (a primeira política tem o valor de **Prioridade** 0). A política antispam padrão chamada **Política de filtro de spam padrão** tem o valor de prioridade **Menor**, e isso não pode ser alterado.
 
@@ -465,7 +465,7 @@ Para obter mais informações detalhadas de sintaxe e parâmetro, confira [Get-H
 Para visualizar regras de filtro de spam existentes, use a seguinte sintaxe:
 
 ```PowerShell
-Get-HostedContentFilterRule [-Identity "<RuleIdentity>"] [-State <Enabled | Disabled]
+Get-HostedContentFilterRule [-Identity "<RuleIdentity>] [-State <Enabled | Disabled]
 ```
 
 Para retornar uma lista de resumo de todas as regras de filtro de spam, execute este comando:
@@ -500,7 +500,7 @@ Para obter mais informações detalhadas de sintaxe e parâmetro, confira [Get-H
 
 ### <a name="use-powershell-to-modify-spam-filter-policies"></a>Usar o PowerShell para modificar políticas de filtro de spam
 
-Além dos itens a seguir, as mesmas configurações estão disponíveis quando você modifica uma política de filtro de spam no Windows PowerShell, como ao criar a política conforme descrito anteriormente na seção [Etapa 1: usar o PowerShell para criar uma política de filtro de spam](#step-1-use-powershell-to-create-a-spam-filter-policy) deste tópico.
+Além dos itens a seguir, as mesmas configurações estão disponíveis quando você modifica uma política de filtro de malware no PowerShell, como ao criar a política conforme descrito anteriormente na seção [Etapa 1: usar o PowerShell para criar uma política de filtro de spam](#step-1-use-powershell-to-create-a-spam-filter-policy) deste tópico.
 
 - A opção _MakeDefault_ que transforma a política especificada em política padrão (aplicada a todos, sempre com a **Menor** prioridade, e que pode ser excluída) só está disponível quando você modifica uma política de filtro de spam no PowerShell.
 

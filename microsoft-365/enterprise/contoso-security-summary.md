@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Como a Contoso está usando os recursos de segurança no Microsoft 365 Enterprise.
-ms.openlocfilehash: 036c812e645399e00af270e62d057637867595fe
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f8a16b07c6d4cb9a62e0131a1f667b675d5eaf66
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597088"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636481"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Resumo de segurança do Microsoft 365 Enterprise para a Contoso Corporation
 
@@ -62,9 +62,9 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
   Os administradores de segurança da Contoso atribuíram funções de administrador com menos privilégios para contas que são apropriadas para a função de trabalho e a responsabilidade desse profissional de TI.
 
-  Para saber mais, veja [Sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
+  Para obter mais informações, consulte [Sobre as funções de administrador do Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
 
-- Autenticação multifator para todas as contas de usuário
+- Autenticação Multifator para todas as contas de usuário
 
   A MFA adiciona uma outra camada de proteção ao processo de login exigindo que os usuários confirmem uma chamada, mensagem de texto ou uma notificação de aplicativo no smartphone após inserir a senha corretamente. Com a MFA, as contas de usuário do Azure AD são protegidas contra entrada não autorizada, mesmo que a senha de uma conta esteja comprometida.
 
@@ -73,7 +73,7 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
 - Acesso mais seguro a dispositivos e aplicativos com Políticas de Acesso Condicional
 
-  A Contoso está usando [Políticas de Acesso Condicional](microsoft-365-policies-configurations.md) para identidade, dispositivos, Exchange Online e SharePoint Online. As políticas de Acesso Condicional de Identidade incluem exigir alterações de senha para usuários de alto risco e impedir clientes de usar aplicativos que não são compatíveis com a autenticação moderna. As políticas de dispositivos incluem a definição de aplicativos aprovados e a exigência de computadores e dispositivos móveis compatíveis. As políticas de Acesso Condicional do Exchange Online incluem impedir clientes do ActiveSync e configurar a criptografia de mensagem do Office 365. As políticas de Acesso Condicional do SharePoint Online incluem proteção adicional para sites confidenciais e altamente controlados.
+  A Contoso está usando [Políticas de Acesso Condicional](microsoft-365-policies-configurations.md) para identidade, dispositivos, Exchange Online e SharePoint Online. As políticas de acesso condicional à identidade incluem exigir alterações de senha dos usuários de alto risco e impedir que os clientes usem aplicativos que não suportam autenticação moderna. As políticas de dispositivos incluem a definição de aplicativos aprovados e a exigência de computadores e dispositivos móveis compatíveis. As políticas de Acesso Condicional do Exchange Online incluem impedir clientes do ActiveSync e configurar a criptografia de mensagem do Office 365. As políticas de Acesso Condicional do SharePoint Online incluem proteção adicional para sites confidenciais e altamente controlados.
 
 - Windows Hello para Empresas
 
@@ -97,7 +97,7 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
 - Monitoramento e prevenção contra ataques com investigação e resposta a ameaças do Office 365
 
-  A Contoso usa a [investigação e resposta a ameças do Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-ti) para proteger seus usuários do Office 365 facilitando a identificação e a resolução de ataques, e para evitar ataques futuros.
+  A Contoso usa [Investigação e resposta de ameaças do Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-ti) para proteger seus usuários, facilitando a identificação e a abordagem de ataques e para evitar futuros ataques.
 
 - Proteção contra ataques sofisticados com Advanced Threat Analytics
 
@@ -107,9 +107,9 @@ De acordo com as práticas recomendadas de segurança e os requisitos de implant
 
 - Proteja ativos digitais sensíveis e altamente regulamentados com rótulos de Proteção de Informações do Azure
 
-  A Contoso determinou três níveis de proteção de dados e implantou [rótulos de confidencialidade do Office 365](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels), que os usuários aplicam a ativos digitais. Para seus segredos comerciais e outros direitos de propriedade intelectual, a Contoso usa dados altamente regulamentados de sub-rótulos de confidencialidade para que criptografam conteúdos e restringem o acesso a grupos e contas de usuários específicos.
+  A Contoso determinou três níveis de proteção de dados e implantou [Rótulos de confidencialidade do Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) que os usuários aplicam a ativos digitais. Para seus segredos comerciais e outros direitos de propriedade intelectual, a Contoso usa dados altamente regulamentados de sub-rótulos de confidencialidade para que criptografam conteúdos e restringem o acesso a grupos e contas de usuários específicos.
 
-- Evite vazamentos de dados de intranet com a prevenção contra perda de dados do Office 365
+- Evite vazamentos de dados na intranet com a Prevenção contra perda de dados
 
   A Contoso configurou políticas de [Prevenção contra Perda de Dados](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) do Exchange Online, do SharePoint Online e do OneDrive for Business para impedir que os usuários compartilhem dados confidenciais de maneira intencional ou acidental.
 

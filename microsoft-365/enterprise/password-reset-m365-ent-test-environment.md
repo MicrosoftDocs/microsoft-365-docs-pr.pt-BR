@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configurar e testar a redefinição de senha do ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: c8d5ed0c7feac98afd3230a305f4ab1f850ca7f8
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 96a8b03ca978ac2b2174742c0208444d853ba7c9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633169"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632882"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Redefinição de senha do ambiente de teste do Microsoft 365
 
@@ -33,9 +33,9 @@ A redefinição de senha de autoatendimento (SSPR) do Azure Active Directory (Az
 
 Este artigo descreve como você pode configurar e testar redefinições de senha em seu ambiente de teste do Microsoft 365 em três fases:
 
-1.  Criar o ambiente de teste do Microsoft 365 Enterprise.
+1.    Criar o ambiente de teste do Microsoft 365 Enterprise.
 2.  Ativar write-back de senha.
-3.  Configure e teste a redefinição de senha da conta do Usuário 3.
+3.    Configure e teste a redefinição de senha da conta do Usuário 3.
     
 ![Guias do Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
@@ -52,7 +52,7 @@ Esta configuração consiste em:
   
 - Assinaturas de avaliação ou pagas do Microsoft 365 E5 ou Office 365 E5.
 - Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. 
-- O Azure AD Connect é executado no APP1 para sincronizar o domínio TESTLAB do Active Directory Domain Services (AD DS) com o locatário do Azure AD de assinatura do Microsoft 365 ou do Office 365.
+- O Azure AD Connect é executado no APP1 para sincronizar o domínio dos Serviços de domínio Active Directory (AD DS) do TESTLAB com o locatário do Azure AD da sua assinatura do Microsoft 365.
 
 ## <a name="phase-2-enable-password-writeback"></a>Fase 2: Ativar o write-back de senha
 
@@ -81,7 +81,7 @@ Em seguida, teste a redefinição de senha para a conta do Usuário 3.
 1. Abra outra instância privada do navegador e vá para [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup).
 2. Entre usando as credenciais da conta do Usuário 3.
 3. Em **Mais informações**, clique em **Avançar**. 
-5. Em **Não perca o acesso à sua conta**, defina o telefone de autenticação com um número de celular e o email de autenticação com uma conta de email pessoal ou de trabalho.
+5. Em **Não perca o acesso à sua conta**, defina o telefone de autenticação como seu número de celular e o e-mail de autenticação como sua conta de e-mail pessoal ou profissional.
 7. Depois de verificar ambos, clique em **Parece bom** e feche a instância privada do navegador.
 8. Abra uma nova instância privada do navegador e vá para [https://aka.ms/sspr](https://aka.ms/sspr).
 9. Digite o nome da conta do Usuário 3, digite os caracteres do CAPTCHA e clique em **Avançar**.

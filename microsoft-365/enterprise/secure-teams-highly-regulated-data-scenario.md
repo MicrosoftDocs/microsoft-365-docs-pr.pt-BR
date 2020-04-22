@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um site de equipe seguro para armazenar seus arquivos mais valiosos e confidenciais.
-ms.openlocfilehash: aeb3662d6c8a21cbd56d983515913750fd5259f1
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 95c0fc4177f2a16fc79dd0833809f4405e8cdda9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951965"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631388"
 ---
 # <a name="teams-for-highly-regulated-data"></a>Teams para dados altamente regulamentados
 
-Este artigo fornece recomendações e passo a passo para configurar uma equipe privada no Microsoft Teams que bloqueia o acesso aos recursos do Teams, como chats, reuniões e arquivos, somente para membros e proprietários do grupo do Office 365 da equipe. 
+Este artigo fornece recomendações e passo a passo para configurar uma equipe privada no Microsoft Teams que bloqueia o acesso aos recursos do Teams, como chats, reuniões e arquivos, somente para membros e proprietários do grupo do Microsoft 365 da equipe. 
 
-Além do acesso privado baseado no grupo do Office 365, este artigo descreve como configurar o site de equipe particular e subjacente do SharePoint, que você pode na seção de **Arquivos** de um canal de equipe e obter a segurança adicional necessária para armazenar dados altamente regulamentados. Neste site de equipe do SharePoint, você pode armazenar e colaborar em arquivos, páginas, um calendário compartilhado, tarefas, um bloco de anotações e listas.
+Além do acesso privado baseado no grupo do Microsoft 365, este artigo descreve como configurar o site de equipe particular e subjacente do SharePoint, que você pode na seção de **Arquivos** de um canal de equipe e obter a segurança adicional necessária para armazenar dados altamente regulamentados. Neste site de equipe do SharePoint, você pode armazenar e colaborar em arquivos, páginas, um calendário compartilhado, tarefas, um bloco de anotações e listas.
 
 >[!Note]
 > Confira um [cenário semelhante usando o SharePoint](teams-sharepoint-online-sites-highly-regulated-data.md).
@@ -34,13 +34,13 @@ Além do acesso privado baseado no grupo do Office 365, este artigo descreve com
 
 Os elementos de configuração de uma equipe para dados altamente regulamentados são:
 
-- Uma equipe privada com um grupo correspondente do Office 365 que tem contas de usuário de proprietário e membro.
+- Uma equipe privada com um grupo correspondente do Microsoft 365 que tem contas de usuário de proprietário e membro.
 - Segurança adicional no site subjacente do SharePoint para a equipe que:
   - Impede que membros do site concedam acesso a outras pessoas.
   - Impede que não membros do site solicitem acesso a ele.
-- Um rótulo de retenção do Office 365 para o site do SharePoint subjacente que é aplicado automaticamente a novos arquivos no site como uma maneira padrão de definir políticas de retenção.
+- Um rótulo de retenção para o site do SharePoint subjacente que é aplicado automaticamente a novos arquivos no site como uma maneira padrão de definir políticas de retenção.
 - Uma política de Prevenção contra Perda de Dados (DLP) que usa o rótulo de retenção e impede que os usuários compartilhem ou enviem arquivos para fora da organização.
-- Um rótulo de confidencialidade do Office 365 de ou sub-rótulo de um rótulo altamente regulamentado com criptografia habilitada e permissões de Coautor para o grupo da equipe do Office 365. Os usuários aplicam o rótulo ou sub-rótulo aos arquivos armazenados na seção **Arquivos** da equipe na opção da barra de menus **Sensibilidade** no Word, Excel e PowerPoint.
+- Um rótulo de confidencialidade ou sub-rótulo de um rótulo altamente regulamentado com criptografia habilitada e permissões de Coautor para o grupo da equipe do Microsoft 365. Os usuários aplicam o rótulo ou sub-rótulo aos arquivos armazenados na seção **Arquivos** da equipe na opção da barra de menus **Sensibilidade** no Word, Excel e PowerPoint.
 
 Esta é a configuração resultante com um rótulo de confidencialidade.
 
@@ -76,7 +76,7 @@ Use [essas instruções](https://support.office.com/article/create-a-team-from-s
 
 Ao criar uma equipe privada, estas são as permissões padrão:
 
-- O grupo do Office 365 para a equipe (o Grupo da Equipe) tem proprietários e membros do grupo
+- O grupo do Microsoft 365 para a equipe (o Grupo da Equipe) tem proprietários e membros do grupo
 - Do site do SharePoint subjacente para a equipe (o Site da Equipe):
   - Os Administradores de Conjunto de Sites estão configurados para os proprietários de Grupo de Equipe
   - Para o Site de Equipe: 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda os recursos que você pode usar para implantar o Microsoft 365 para empresas na sua organização.
-ms.openlocfilehash: 9ea96af7cef0e497e8f7560ef87239828789b117
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 3f6ddb1caf270f2ba261bd7b9c8f8cd938187705
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951929"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638231"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>Implantar o Microsoft 365 para empresas
 
@@ -124,7 +124,7 @@ Saiba como o Core Services Engineering and Operations (antigo Microsoft IT) [pla
 
 ### <a name="how-the-contoso-corporation-deployed-microsoft-365-for-enterprise"></a>Como a Contoso Corporation implantou o Microsoft 365 para empresas
 
-Contoso Corporation é uma corporação fictícia mas representante global do conglomerado de produção com sede em Paris, França. Veja como [Contoso implantou o Microsoft 365 para empresas](contoso-case-study.md) e abordou as principais decisões de design e detalhes de implementação para a rede, identidade, Windows 10 Enterprise, Office 365 ProPlus, gerenciamento de dispositivo móvel, proteção de informações e segurança. 
+Contoso Corporation é uma corporação fictícia mas representante global do conglomerado de produção com sede em Paris, França. Consulte como a [Contoso implantou o Microsoft 365 para empresas](contoso-case-study.md) e abordou as principais decisões de design e detalhes de implementação da rede, identidade, Windows 10 Enterprise, Microsoft 365 Apps para empresas, gerenciamento de dispositivos móveis, proteção de informações e segurança. 
 
 ## <a name="stay-current-with-deployment-content"></a>Mantenha-se atualizado com o conteúdo de implantação
 

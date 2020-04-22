@@ -17,12 +17,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Use estes Guias de Laboratório de Teste para configurar a demonstração, prova de conceito ou ambientes de desenvolvimento/teste para o Microsoft 365 para empresas.
-ms.openlocfilehash: 1ea41cd3553c70b2a8bb99e08da43fd45b1aa558
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 582068e84d82bfa681d1e1e64234698544ce3b9d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153911"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631592"
 ---
 # <a name="microsoft-365-for-enterprise-test-lab-guides"></a>Guias do Laboratório de Teste do Microsoft 365 para empresas
 
@@ -76,7 +76,7 @@ Para demonstrar recursos e capacidades relacionados à identidade, confira:
 
 - [Proteger contas de administradores globais](protect-global-administrator-accounts-microsoft-365-test-environment.md)
  
-   Bloqueie suas contas globais de administrador com políticas de Acesso Condicional.
+   Bloqueie suas contas globais de administrador com políticas de acesso condicional.
 
 - [Senha write-back](password-writeback-m365-ent-test-environment.md)
 
@@ -96,7 +96,7 @@ Para demonstrar recursos e capacidades relacionados à identidade, confira:
 
 - [Acesso a identidades e dispositivos](identity-device-access-m365-test-environment.md)
 
-   Crie um ambiente para testar configurações recomendadas de acesso a identidades e dispositivos e políticas de Acesso Condicional.
+   Crie um ambiente para testar configurações recomendadas de acesso a identidades e dispositivos e políticas de acesso condicional.
 
 
 ## <a name="mobile-device-management"></a>Gerenciamento de dispositivo móvel
@@ -116,16 +116,16 @@ Para demonstrar recursos relacionados ao gerenciamento de dispositivo móvel, co
 
 Para demonstrar recursos e capacidades relacionados à proteção da informação, confira:
 
-- [Segurança ampliada do Office 365](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md)
+- [Segurança do Microsoft 365 aumentada](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md)
     
-   Configure definições de segurança ampliada no Office 365 e investigue ferramentas internas de segurança.
+   Defina as configurações para aumentar a segurança do Microsoft 365 e investigar as ferramentas de segurança internas.
   
 - [Classificação de dados](data-classification-microsoft-365-enterprise-dev-test-environment.md)
     
-   Configure e aplique rótulos do Office 365 a um documento em um site de equipe do SharePoint Online.
+   Configure e aplique rótulos a um documento em um site de equipe do SharePoint Online.
     
 - [Gerenciamento de acesso privilegiado](privileged-access-microsoft-365-enterprise-dev-test-environment.md)
     
-   Configure o gerenciamento de acesso privilegiado com acesso just-in-time para tarefas elevadas e privilegiadas na sua organização do Office 365.
+   Configure o gerenciamento de acesso privilegiado para acesso na hora certa às tarefas elevadas e privilegiadas na sua organização.
 
 

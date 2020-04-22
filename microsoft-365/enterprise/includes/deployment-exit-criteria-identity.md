@@ -3,7 +3,7 @@ Confira também os [pré-requisitos](https://docs.microsoft.com/microsoft-365/en
 <a name="crit-identity-global-admin"></a>
 ### <a name="required-your-global-administrator-accounts-are-protected"></a>Obrigatório: as contas de administrador global estarem protegidas 
 
-Você [protegeu suas contas de administrador global do Office 365](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts) para impedir o comprometimento das credenciais por invasores, o que poderia levar a violações da sua assinatura do Microsoft 365.
+Você [ protegeu suas contas de administrador global](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts) para impedir o comprometimento da credencial por agressores que podem levar a violações de sua assinatura do Microsoft 365.
 
 Se você ignorar esse requisito, suas contas de administrador global podem ficar suscetíveis a ataques e a serem comprometidas, permitindo que um invasor obtenha acesso a todo o sistema e colete, destrua ou utilize seus dados como colateral para pedir um resgate.
 
@@ -17,7 +17,7 @@ Use estas etapas para verificar se você protegeu suas contas de administrador g
    ```powershell
    Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
    ```
-2. Entre no Office 365 usando cada uma das contas da Etapa 1. Cada entrada deve exigir a Autenticação Multifator do Azure e a forma mais segura de autenticação secundária disponível em sua organização.
+2. Entre usando cada uma das contas da Etapa 1. Cada entrada deve exigir a Autenticação Multifator do Azure e a forma mais segura de autenticação secundária disponível em sua organização.
 
 > [!Note]
 > Confira [Conectar-se ao PowerShell do Office 365](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell) para obter instruções sobre como instalar o Azure Active Directory PowerShell para o módulo do Graph e entrar no Office 365.
@@ -66,11 +66,11 @@ Se você ignorar essa opção, é possível que seus usuários sejam solicitados
 Se necessário, a [Etapa 2](../identity-secure-your-passwords.md#identity-sso) pode ajudá-lo com essa opção.
 
 <a name="crit-identity-custom-sign-in"></a>
-### <a name="optional-the-office-365-sign-in-screen-is-personalized-for-your-organization"></a>Opcional: A tela de entrada do Office 365 ser personalizada para sua organização
+### <a name="optional-the-sign-in-screen-is-personalized-for-your-organization"></a>Opcional: A tela de entrada é personalizada para a sua organização
 
-Você deve usar o artigo [Adicionar a identidade visual da sua empresa às suas páginas de entrada e do Painel de Acesso](https://aka.ms/aadpaddbranding) para adicionar a identidade visual da sua organização à página de entrada do Office 365.
+Você usou [Adicionar a identidade visual da empresa nas páginas de entrada e painel de acesso](https://aka.ms/aadpaddbranding) para adicionar a identidade visual da sua organização à página de entrada.
 
-Se você ignorar essa opção, os usuários verão uma tela genérica de entrada do Office 365 e poderão não ter a confiança de que estão entrando no site da sua organização.
+Se você ignorar essa opção, os usuários verão uma tela de entrada genérica e poderão não ter a confiança de que estão entrando no site da sua organização.
 
 Se necessário, a [Etapa 2](../identity-secure-your-passwords.md#identity-custom-sign-in) pode ajudá-lo com essa opção.
 
@@ -183,7 +183,7 @@ Entre no portal do Office 365 com o nome da sua conta de usuário e a Autentica�
 
 
 <a name="crit-identity-self-service-groups"></a>
-### <a name="optional-self-service-group-management-is-enabled-for-specific-azure-ad-security-and-office-365-groups"></a>Opcional: O gerenciamento de grupos por autoatendimento estar habilitado para grupos específicos de segurança do Azure AD e do Office 365
+### <a name="optional-self-service-group-management-is-enabled-for-specific-azure-ad-security-and-microsoft-365-groups"></a>Opcional: O gerenciamento de grupos de autoatendimento está habilitado para grupos específicos de segurança do Azure AD específica e Microsoft 365
 
 Você deve determinar quais grupos são adequados para o gerenciamento por autoatendimento, instruir seus proprietários sobre o fluxo de trabalho e as responsabilidades do gerenciamento de grupos e [configurar o gerenciamento por autoatendimento no Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-self-service-group-management) para esses grupos.
 

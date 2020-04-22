@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda as principais fases da implantação da infraestrutura de base para o Microsoft 365 para empresas em sua organização, também conhecida como implantação principal.
-ms.openlocfilehash: 6c2784d22e236880b87ece9e04e11fb0502667dd
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 287afd5e5f75bb6547e1898877f3d1c65ebfb9a0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153839"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638243"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure"></a>Infraestrutura de base do Microsoft 365 para empresas
 
@@ -33,9 +33,9 @@ Para um caminho definido de ponta a ponta para implantação, você pode usar es
 |![Fase 1: Rede](../media/deploy-foundation-infrastructure/networking_icon-small.png)|[Fase 1: Rede](networking-infrastructure.md)| A rede é otimizada para o acesso aos serviços baseados na nuvem do Microsoft 365. |
 |![Fase 2: Identidade](../media/deploy-foundation-infrastructure/identity_icon-small.png)|[Fase 2: identidade](identity-infrastructure.md)| As contas de administrador estão protegidas, seus usuários e grupos estão sincronizados e a autenticação de usuário é forte. |
 |![Fase 3: Windows 10 Enterprise](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)|[Fase 3: Windows 10 Enterprise](windows10-infrastructure.md)| Os computadores baseados no Windows podem ser atualizados para o Windows 10 Enterprise e novos dispositivos são instalados com o Windows 10 Enterprise. |
-|![Fase 4: Office 365 ProPlus](../media/deploy-foundation-infrastructure/O365proplus_icon-small.png)|[Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md)| Os usuários existentes do Microsoft Office podem ser atualizados para o Office 365 ProPlus. |
+|![Fase 4 - Microsoft 365 Apps para empresas](../media/deploy-foundation-infrastructure/O365proplus_icon-small.png)|[Fase 4 - Microsoft 365 Apps para empresas](office365proplus-infrastructure.md)| Os usuários existentes do Microsoft Office podem ser atualizados no Microsoft 365 Apps para empresas. |
 |![Fase 5: Gerenciamento de dispositivos móveis](../media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)|[Fase 5: Gerenciamento de dispositivo móvel](mobility-infrastructure.md)| Os dispositivos podem ser registrados e gerenciados. |
-|![Fase 6: Proteção de informações](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)|[Fase 6: Proteção de informações](infoprotect-infrastructure.md)| Os recursos de segurança do Office 365 estão habilitados e suas etiquetas e políticas estão prontas para proteger documentos e emails. |
+|![Fase 6: Proteção de informações](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)|[Fase 6: Proteção de informações](infoprotect-infrastructure.md)| Os recursos de segurança do Microsoft 365 estão habilitados e suas etiquetas e políticas estão prontas para proteger documentos e emails. |
 
 As fases começam com o mais fundamental (rede e identidade) e depois criam camadas de configurações e grupos de infraestrutura para:
 
@@ -88,23 +88,23 @@ Por exemplo, você cria as configurações para:
 
 | Fase | Resultados |
 |:-------|:-----|
-| Identidade | Sincronização de conta e grupos para políticas de Acesso Condicional baseadas na identidade. |
+| Identidade | Sincronização de conta e grupos para políticas de acesso condicional baseadas na identidade. |
 | Windows 10 Enterprise | Grupos para atualizar automaticamente os computadores executando o Windows 7 ou Windows 8.1 para o Windows 10 Enterprise em vigor. |
-| Office 365 ProPlus | Grupos para implantar automaticamente o Office 365 ProPlus para os usuários com o Office 2010, Office 2013 ou Office 2016. |
+| Microsoft 365 Apps para Grandes Empresas | Grupos para implantar automaticamente o Microsoft 365 Apps for enterprise para os usuários com o Office 2010, Office 2013 ou Office 2016. |
 | Gerenciamento de dispositivo móvel | Grupos para registro de dispositivo e políticas de Acesso Condicional baseadas em dispositivos. |
-| Proteção de informações | Grupos de rótulos de confidencialidade do Office 365. |
+| Proteção de informações | Grupos de rótulos de confidencialidade. |
 
 Quando você estiver pronto para implantar elementos dessa infraestrutura aos usuários, você:
 
 | Fase | Ação de implantação |
 |:-------|:-----|
-| Identidade | Adicionar contas de usuário aos grupos para políticas de Acesso Condicional baseadas na identidade. |
+| Identidade | Adicionar contas de usuário aos grupos para políticas de acesso condicional baseadas na identidade. |
 | Windows 10 Enterprise | Adicionar contas aos grupos para implantar automaticamente o Windows 10 Enterprise em vigor para os usuários com o Windows 7 ou o Windows 8.1. |
-| Office 365 ProPlus | Adicionar contas de usuário aos grupos para implantar automaticamente o Office 365 ProPlus para os usuários com o Office 2010, Office 2013 ou Office 2016. |
-| Gerenciamento de dispositivo móvel | Adicionar contas aos grupos para registro de dispositivo e políticas de Acesso Condicional baseadas em dispositivos. |
+| Microsoft 365 Apps para Grandes Empresas | Adicionar contas de usuário aos grupos para implantar automaticamente o Microsoft 365 Apps for enterprise para os usuários com o Office 2010, Office 2013 ou Office 2016. |
+| Gerenciamento de dispositivo móvel | Adicionar contas aos grupos para registro de dispositivo e políticas de acesso condicional baseadas em dispositivos. |
 | Proteção de informações | Adicione contas de usuário aos grupos para obter os rótulos de confidencialidade. |
 
-Uma vez que as fases ou elementos da infraestrutura de base sejam concluídos, testados e tiverem o piloto definido, você pode implantar o software instalado, como o Windows 10 Enterprise, o Office 365 ProPlus e os serviços e proteções baseados em nuvem. Por exemplo, o registro de dispositivos e políticas de Acesso Condicional para os seus usuários da maneira que melhor se adapte às suas metas de negócios e recursos de TI.
+Uma vez que as fases ou os elementos da infraestrutura de base sejam concluídos, testados e tiverem o piloto definido, você pode implantar o software instalado, como o Windows 10 Enterprise, o Microsoft 365 Apps for enterprise e os serviços e proteções baseados em nuvem. Por exemplo, o registro de dispositivos e políticas de Acesso Condicional para os seus usuários da maneira que melhor se adapte às suas metas de negócios e recursos de TI.
 
 ## <a name="deployment-and-project-management-strategies"></a>Implantação e estratégias de gerenciamento de projetos
 
@@ -112,7 +112,7 @@ Para lhe dar algumas ideias de como abordar o gerenciamento de projeto das difer
 
 ## <a name="deployment-for-non-enterprises"></a>Implantação não empresarial
 
-Se a sua organização for menor e o Microsoft 365 Business não for adequado para você, confira a [implantação não empresarial](deploy-foundation-infrastructure-non-enterprises.md) para obter um método de implantação simplificado.
+Se a sua organização for menor e o Microsoft 365 for business não for adequado para você, confira a [implantação não empresarial](deploy-foundation-infrastructure-non-enterprises.md) para obter um método de implantação simplificado.
 
 
 ## <a name="next-step"></a>Próxima etapa

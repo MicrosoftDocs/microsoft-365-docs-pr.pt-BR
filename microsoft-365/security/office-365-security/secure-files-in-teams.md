@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: 'Resumo: recomendações de configuração para proteger arquivos no Microsoft Teams.'
-ms.openlocfilehash: 82c55affc8384c04e0595f82d21c7e3532b5cb0e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e177f290dff22943e282080652326dfb65cd07cd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088120"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638471"
 ---
 # <a name="secure-files-in-microsoft-teams"></a>Proteger arquivos no Microsoft Teams
 
@@ -61,7 +61,7 @@ Conforme ilustrado:
 
 - As políticas DLP [(prevenção de perda de dados)](../../compliance/data-loss-prevention-policies.md) são configuradas para os rótulos de retenção Confidenciais e Altamente Confidenciais para avisar ou impedir os usuários quando tentam enviar esses tipos de arquivos para fora da organização.
 
-- Se for necessário para sua situação, você pode usar [rótulos de confidencialidade](../../compliance/sensitivity-labels.md)para proteger arquivos altamente confidenciais com criptografia e permissões. Clientes da Proteção de Informações do Azure pode, usar  Rótulos da Proteção de Informações do Azure no centro de conformidade do Microsoft 365 e os rótulos serão sincronizados com o portal do Azure, caso seja escolhido executar a configuração adicional ou avançada. Os Rótulos de Proteção de Informações do Azure e os rótulos de confidencialidade do Office 365 são totalmente compatíveis entre si. Isso significa que, por exemplo, se você tiver um conteúdo marcado pela Proteção de Informações do Azure, não precisará reclassificar ou rotular novamente seu conteúdo. Nem todos os clientes precisam desse nível de proteção.
+- Se for necessário para sua situação, você pode usar [rótulos de confidencialidade](../../compliance/sensitivity-labels.md)para proteger arquivos altamente confidenciais com criptografia e permissões. Clientes da Proteção de Informações do Azure pode, usar  Rótulos da Proteção de Informações do Azure no centro de conformidade do Microsoft 365 e os rótulos serão sincronizados com o portal do Azure, caso seja escolhido executar a configuração adicional ou avançada. Os rótulos Proteção de Informações do Azure e os rótulos de confidencialidade são totalmente compatíveis entre si. Isso significa que, por exemplo, se você tiver um conteúdo marcado pela Proteção de Informações do Azure, não precisará reclassificar ou rotular novamente seu conteúdo. Nem todos os clientes precisam desse nível de proteção.
 
 ## <a name="organization-wide-settings-for-sharepoint-and-onedrive"></a>Configurações de toda a organização para o SharePoint e o OneDrive
 
@@ -125,7 +125,7 @@ A tabela a seguir resume a configuração para cada uma das equipes e do site su
 
 Para as etapas de implantação dos quatro tipos diferentes de equipes nesta solução, confira [Implantar equipes para três camadas de proteção dos arquivos](deploy-teams-three-tiers.md).
 
-## <a name="office-365-retention-labels"></a>Rótulos de retenção do Office 365
+## <a name="retention-labels"></a>Rótulos de retenção
 
 O uso dos rótulos de retenção é recomendado para ambientes com os dados confidenciais. Depois de configurar e publicar rótulos de retenção:
 
@@ -135,7 +135,7 @@ O uso dos rótulos de retenção é recomendado para ambientes com os dados conf
 
 - Você pode aplicar políticas DLP que se baseiem nos rótulos de retenção.
 
-- As pessoas em sua organização podem aplicar um rótulo manualmente ao conteúdo no Outlook na Web, no Outlook 2010 e posterior, no OneDrive, no SharePoint e em grupos do Office 365. Os usuários geralmente sabem melhor o tipo de conteúdo com o qual estão trabalhando, portanto, eles podem classificá-lo e aplicar a política DLP apropriada.
+- As pessoas em sua organização podem aplicar um rótulo manualmente ao conteúdo no Outlook na Web, no Outlook 2010 e posterior, no OneDrive, SharePoint e grupos do Microsoft 365. Os usuários geralmente sabem melhor o tipo de conteúdo com o qual estão trabalhando, portanto, eles podem classificá-lo e aplicar a política DLP apropriada.
 
 Conforme ilustrado, essa solução inclui a criação dos seguintes rótulos de retenção:
 

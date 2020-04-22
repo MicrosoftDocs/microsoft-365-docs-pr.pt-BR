@@ -1,5 +1,5 @@
 ---
-title: Localizar um registrador de domínios para Office 365
+title: Localizar seu registrador de domínio
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -21,14 +21,14 @@ search.appverid:
 - GEA150
 ms.assetid: b5b633ba-1e56-4a98-8ff5-2acaac63a5c8
 description: Aprenda a localizar seu registrador de domínios e seu provedor de hospedagem de DNS usando a pesquisa do InterNIC.
-ms.openlocfilehash: 71af74a0f94f2cdc251dab78fd59e9bdd90da5ce
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 234578c5622a883296a001ce7f226627dd9d93b5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210387"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628453"
 ---
-# <a name="find-your-domain-registrar-for-office-365"></a>Localizar um registrador de domínios para Office 365
+# <a name="find-your-domain-registrar"></a>Localizar seu registrador de domínio
 
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
   

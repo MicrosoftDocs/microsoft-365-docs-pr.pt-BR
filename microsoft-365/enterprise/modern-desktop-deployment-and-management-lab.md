@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: 15bd30e54aaf5c7e7fcd881009f8c51c6d5c74e0
-ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
+ms.openlocfilehash: 9635e6d12b9f3ef606f8b62edac4dce6d75a1074
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43225926"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631508"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Office e do Windows
 
-Esses laboratórios foram projetados para ajudar você a planejar, testar e validar sua implantação e o gerenciamento das áreas de trabalho executando o Windows 10 Enterprise e o Office 365 ProPlus. Estes laboratórios abrangem as etapas e ferramentas descritas na roda da Implementação de Desktop, abrangendo o Microsoft Endpoint Configuration Manager, o Desktop Analytics, a Ferramenta de Personalização do Office, o OneDrive, o Windows Autopilot e muito mais.
+Esses laboratórios foram projetados para ajudá-lo a planejar, testar e validar sua implantação e gerenciamento de áreas de trabalho que estão executando o Windows 10 Enterprise e o Microsoft 365 Apps para empresas. Estes laboratórios abrangem as etapas e ferramentas descritas na roda da Implementação de Desktop, abrangendo o Microsoft Endpoint Configuration Manager, o Desktop Analytics, a Ferramenta de Personalização do Office, o OneDrive, o Windows Autopilot e muito mais.
 
-Este treinamento é altamente recomendado para organizações que estão se preparando para o fim da vida útil do Windows 7 e também se aplicam se você estiver usando o Windows 10 e o Office 365 Plus ou o Office 2019. Além disso, como um ambiente isolado, o laboratório é ideal para explorar as atualizações da ferramenta de implantação e testar a automação relacionada à implantação.
+Esse treinamento é altamente recomendado para organizações que se preparam para o fim da vida útil do Windows 7 e também se aplica se você estiver usando o Windows 10 e o Office 365 Plus ou o Office 2019. Além disso, como um ambiente isolado, o laboratório é ideal para explorar as atualizações da ferramenta de implantação e testar a automação relacionada à implantação.
 
 [Baixe o Kit de laboratório de implantação do Office e do Windows](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
@@ -69,7 +69,7 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
 ### <a name="office-and-lob-app-delivery"></a>Entrega de Aplicativos do Office e LOB
 
-  - Implantação do Office 365 ProPlus 
+  - Microsoft 365 Apps para empresas
   - Implantação gerenciada pela empresa usando o Configuration Manager e o Microsoft Intune
   - Implantação e gerenciamento de aplicativo usando o Microsoft Intune
   - Instalação de autoatendimento e implantação do aplicativo usando o Microsoft Store para Empresas
@@ -113,7 +113,7 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
 [Baixe o Kit de laboratório de implantação do Office e do Windows](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-*Use uma largura de banda ampla para baixar esse conteúdo para melhorar a experiência de download e aguarde de 30 a 45 minutos para o provisionamento automático. O ambiente de laboratório requer o mínimo de 150 GB de espaço livre em disco e 16 GB de memória disponível. Para obter um desempenho ideal, é recomendável ter 32 GB de memória disponíveis. O laboratório expira em 5 de julho de 2020. Uma nova versão será publicada antes da expiração.*
+*Use uma largura de banda ampla para baixar esse conteúdo para melhorar a experiência de download e aguarde de 30 a 45 minutos para o provisionamento automático. O ambiente de laboratório requer o mínimo de 150 GB de espaço livre em disco e 16 GB de memória disponível. Para obter um desempenho ideal, é recomendável ter 32 GB de memória disponíveis. O laboratório expira em 18 de abril de 2020. Uma nova versão será publicada antes da expiração.*
 
 ## <a name="additional-guidance"></a>Orientações adicionais
 
@@ -125,7 +125,7 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
   - [<span class="underline">Plano de implantação do Windows 10</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 
-  - [<span class="underline">Guia de implantação do Office 365 ProPlus</span>](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
+  - [<span class="underline">Guia de implantação do Microsoft 365 Apps para empresas</span>](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
 
   - [<span class="underline">Introdução ao Intune</span>](https://docs.microsoft.com/intune/get-started-evaluation)
 

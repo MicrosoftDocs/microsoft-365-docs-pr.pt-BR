@@ -1,5 +1,5 @@
 ---
-title: 'Etapa 5: Configurar a Prevenção de Perda de Dados do Office 365'
+title: 'Etapa 5: configurar a prevenção de perda de dados'
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,21 +14,21 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Compreender e implantar a Prevenção de Perda de Dados do Office 365 no Microsoft 365.
-ms.openlocfilehash: 896670e9ae83324a1220d64f49a8ea48aee85169
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Compreender e implantar a Prevenção de perda de dados do Microsoft 365.
+ms.openlocfilehash: e3d18bf54ecdfe11f8233163e7f200a70606d81d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067218"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636971"
 ---
-# <a name="step-5-configure-office-365-data-loss-prevention"></a>Etapa 5: Configurar a Prevenção de Perda de Dados do Office 365
+# <a name="step-5-configure-data-loss-prevention"></a>Etapa 5: configurar a prevenção de perda de dados
 
 *Esta etapa é opcional e se aplica às versões E3 e E5 do Microsoft 365 Enterprise*
 
 ![Fase 6: proteção de informações](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
-Com políticas de prevenção de perda de dados (DLP) na Central de Conformidade e Segurança do Office 365, você pode identificar, monitorar e proteger automaticamente informações confidenciais no Microsoft 365. Com políticas de DLP, você pode:
+Com as políticas de prevenção contra perda de dados (DLP) no centro de Segurança e conformidade, você pode identificar, monitorar e proteger automaticamente informações confidenciais no Microsoft 365. Com políticas de DLP, você pode:
 
 - Identificar informações confidenciais em vários locais, como no Exchange Online, SharePoint Online, OneDrive for Business e Microsoft Teams.
 - Evitar o compartilhamento acidental de informações confidenciais, bloqueando o acesso a um documento ou bloqueando o email que o contém.

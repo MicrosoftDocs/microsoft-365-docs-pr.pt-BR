@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 06af70f3-e7dc-4ee2-a385-fb4d61a5e93b
 description: 'Resumo: criar equipes confidenciais e altamente confidenciais no Microsoft Teams para arquivos em um ambiente de desenvolvimento/teste.'
-ms.openlocfilehash: 7af36e5a3af94297124c6f03cdead514ac941e5b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5b3f5c74ac484eb00852d5756b3269fb7c8c6a5b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082243"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637963"
 ---
 # <a name="secure-teams-for-files-in-a-devtest-environment"></a>Protege o Teams para arquivos em um ambiente de desenvolvimento/teste
 
@@ -64,9 +64,9 @@ Primeiro, crie um conjunto de grupos para uma organização comum com o portal d
       
 5. Clique em **Criar** e, em seguida, feche a folha **Grupo**.
     
-6.  Repita as etapas 3-5 para um novo grupo chamado **equipe de marketing**.
+6.    Repita as etapas 3-5 para um novo grupo chamado **equipe de marketing**.
     
-Em seguida, configure o licenciamento automático para que os membros de seus grupos recebam automaticamente a atribuição de licenças para suas assinaturas do Office 365 e do EMS.
+Em seguida, você configura o licenciamento automático para que os membros dos seus grupos recebam licenças automaticamente para suas assinaturas do Microsoft 365 e EMS.
   
 1. No Portal do Azure, clique em **Azure Active Directory > Licenças > Todos os produtos**.
     
@@ -125,7 +125,7 @@ Use essas etapas para verificar se o licenciamento baseado em grupo está funcio
     
 4. No painel que lista as propriedades da conta de usuário **CEO**, verifique se ele recebeu a atribuição das licenças **Microsoft 365 Enterprise E5** (em ** Licenças de produto**).
     
-## <a name="phase-3-create-office-365-retention-labels"></a>Fase 3: Criar etiquetas de retenção do Office 365
+## <a name="phase-3-create-retention-labels"></a>Fase 3: crie rótulos de retenção
 
 Nesta fase, você deve criar os rótulos para os diferentes níveis de segurança para as pastas de documentos do site de SharePoint subjacentes.
 
@@ -171,18 +171,18 @@ Para criar uma equipe de nível confidencial para os membros do grupo de marketi
 
 1. [Criar uma nova equipe privada](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) com o nome **campanhas de Marketing**.
 2. Abra a equipe de **Campanhas de marketing**.
-3.  Na barra de ferramentas da equipe, clique em **Arquivos**.
-4.  Clique nas reticências e em **Abrir no SharePoint**.
-5.  Na barra de ferramentas do site do SharePoint subjacente, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.
-6.  No painel **Permissões do site**, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.
-7.  Em **Permissões de compartilhamento**, selecione **Somente proprietários do site podem compartilhar arquivos, pastas e o site** e clique em **Salvar**.
+3.    Na barra de ferramentas da equipe, clique em **Arquivos**.
+4.    Clique nas reticências e em **Abrir no SharePoint**.
+5.    Na barra de ferramentas do site do SharePoint subjacente, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.
+6.    No painel **Permissões do site**, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.
+7.    Em **Permissões de compartilhamento**, selecione **Somente proprietários do site podem compartilhar arquivos, pastas e o site** e clique em **Salvar**.
 
 Em seguida, configure a pasta de documentos do site de equipe Campanhas de marketing para o rótulo Confidencial.
 
-1.  Na guia **Campanhas de marketing – Página Inicial** do navegador, clique em **Documentos**.
-2.  Clique no ícone de configurações e clique em **Configurações de biblioteca**.
-3.  Em **Permissões e Gerenciamento**, clique em **Aplicar o rótulo aos itens nessa biblioteca**.
-4.  Em **Configurações – Aplicar Rótulo**, escolha **Confidencial** e clique em **Salvar**. 
+1.    Na guia **Campanhas de marketing – Página Inicial** do navegador, clique em **Documentos**.
+2.    Clique no ícone de configurações e clique em **Configurações de biblioteca**.
+3.    Em **Permissões e Gerenciamento**, clique em **Aplicar o rótulo aos itens nessa biblioteca**.
+4.    Em **Configurações – Aplicar Rótulo**, escolha **Confidencial** e clique em **Salvar**. 
 
 Em seguida, configure uma política DLP (prevenção de perda de dados) que notifica os usuários quando eles compartilham um documento em um site de equipe do SharePoint com o rótulo Confidencial, que inclui o site de Campanhas de marketing, fora da organização.
 
@@ -236,19 +236,19 @@ Para criar uma equipe de nível altamente confidencial para que os membros da eq
 
 1. [Criar uma nova equipe privada](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) com o nome **Estratégia empresarial**.
 2. Abra a equipe de **Estratégia Empresarial**.
-3.  Na barra de ferramentas da equipe, clique em **Arquivos**.
-4.  Clique nas reticências e em **Abrir no SharePoint**.
-5.  Na barra de ferramentas do site do SharePoint subjacente, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.
-6.  No painel **Permissões do site**, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.
-7.  Em **Permissões de compartilhamento**, **Somente proprietários do site podem compartilhar arquivos, pastas e o site**.
-8.  Desative **Permitir solicitações de acesso** e clique em **Salvar**.
+3.    Na barra de ferramentas da equipe, clique em **Arquivos**.
+4.    Clique nas reticências e em **Abrir no SharePoint**.
+5.    Na barra de ferramentas do site do SharePoint subjacente, clique no ícone de configurações e, em seguida, clique em **Permissões do site**.
+6.    No painel **Permissões do site**, em **Configurações de Compartilhamento**, clique em **Alterar configurações de compartilhamento**.
+7.    Em **Permissões de compartilhamento**, **Somente proprietários do site podem compartilhar arquivos, pastas e o site**.
+8.    Desative **Permitir solicitações de acesso** e clique em **Salvar**.
 
 Em seguida, configure a pasta de documentos do site subjacente do SharePoint da estratégia empresarial para o rótulo Altamente Confidencial.
 
-1.  Na guia **Estratégia empresarial – Página Inicial** do navegador, clique em **Documentos**.
-2.  Clique no ícone de configurações e clique em **Configurações de biblioteca**.
-3.  Em **Permissões e Gerenciamento**, clique em **Aplicar o rótulo aos itens nessa biblioteca**.
-4.  Em **Configurações – Aplicar Rótulo**, escolha **Altamente Confidencial** e clique em **Salvar**. 
+1.    Na guia **Estratégia empresarial – Página Inicial** do navegador, clique em **Documentos**.
+2.    Clique no ícone de configurações e clique em **Configurações de biblioteca**.
+3.    Em **Permissões e Gerenciamento**, clique em **Aplicar o rótulo aos itens nessa biblioteca**.
+4.    Em **Configurações – Aplicar Rótulo**, escolha **Altamente Confidencial** e clique em **Salvar**. 
 
 Em seguida, configure uma política de DLP que bloqueie os usuários quando eles compartilham um documento em um site subjacente do SharePoint com o rótulo Altamente Confidencial, que inclui o site de Estratégia Empresarial, fora da organização.
   

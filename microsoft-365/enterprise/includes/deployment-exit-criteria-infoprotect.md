@@ -14,7 +14,7 @@ Se necessário, a [Etapa 1](../infoprotect-define-sec-infoprotect-levels.md) pod
 <a name="crit-infoprotect-step3"></a>
 ### <a name="required-increased-security-for-microsoft-365-is-configured"></a>Obrigatório: configuração de segurança aprimorada para Microsoft 365 
 
-As seguintes configurações foram habilitadas para a [segurança aprimorada do Office 365](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security):
+Você definiu as configurações a seguir para [segurança aprimorada do Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security):
 
 - Políticas de gerenciamento de ameaças na Central de segurança do Microsoft 365
 - Configurações adicionais para todos os locatários do Exchange Online
@@ -28,7 +28,7 @@ Se necessário, a [Etapa 3](../infoprotect-configure-increased-security-office-3
 <a name="crit-infoprotect-step2"></a>
 ### <a name="optional-classification-is-configured-across-your-environment"></a>Opcional: a classificação está configurada em seu ambiente
 
-Você trabalhou com o seu departamento jurídico e de conformidade para desenvolver uma classificação apropriada e um esquema de identificação de governança de dados e políticas de segurança para a sua organização. 
+Você trabalhou com suas equipes jurídicas e de conformidade para desenvolver um esquema de classificação e rotulagem apropriado para suas políticas de governança e segurança de dados da sua organização. 
 
 Essa políticas correspondem a configuração e implantação de:
 
@@ -52,28 +52,28 @@ Seus dispositivos Windows 10 Enterprise registrados têm uma política do Intune
 Se necessário, a [Etapa 4](../infoprotect-deploy-windows-information-protection.md) pode ajudá-lo a atender a esse requisito. 
 
 <a name="crit-infoprotect-step5"></a>
-### <a name="optional-office-365-data-loss-prevention-dlp-is-deployed"></a>Opcional: o DLP (Data Loss Prevention) do Office 365 está implantado
+### <a name="optional-data-loss-prevention-dlp-is-deployed"></a>Opcional: a Prevenção contra Perda de Dados (DLP) está implementada
 
 Você analisou, testou e depois lançou o conjunto de políticas de DLP - com locais e regras com condições e ações - que sua organização exige para proteger os clientes e outros tipos de dados privados e aderir aos regulamentos e requisitos do setor e regionais.
 
-Sua equipe de conformidade e segurança de dados está usando o Office 365 Security & amp; Painel de conformidade para monitorar incidentes de DLP.
+Sua equipe de conformidade e segurança de dados está usando o painel Segurança e Conformidade para monitorar incidentes da DLP.
 
 Se necessário, a [Etapa 5](../infoprotect-data-loss-prevention.md) pode ajudá-lo a atender a esse requisito. 
 
 <a name="crit-infoprotect-step6"></a>
 ### <a name="optional-email-encryption-is-configured"></a>Opcional: a criptografia de email está configurada
 
-Você configurou a seguinte criptografia de email conforme necessário para a sua organização:
+Você configurou a seguinte criptografia de email conforme necessário para sua organização:
 
 |||
 |:-------|:-----|
 | **Método de criptografia** | **Para email enviado** |
-| [Criptografia de Mensagens do Office 365 (OME)](https://docs.microsoft.com/Office365/SecurityCompliance/ome)  | Fora da organização com criptografia |
+| [Criptografia de Mensagens do Office 365 (OME)](https://docs.microsoft.com/Office365/SecurityCompliance/ome)  | Fora da sua organização com criptografia |
 | [Gerenciamento de Direitos de Informação (IRM)](https://docs.microsoft.com/office365/SecurityCompliance/information-rights-management-in-exchange-online) | Com criptografia e permissões |
-| [Secure/Multipurpose Internet Mail Extensions (S/MIME)](https://docs.microsoft.com/Exchange/policy-and-compliance/smime) | Com assinaturas digitais e de criptografia usando criptografia de chave pública |
+| [Extensões para Mensagens de Internet Multifunção/Seguras (S/ MIME)](https://docs.microsoft.com/Exchange/policy-and-compliance/smime) | Com criptografia e assinaturas digitais usando criptografia de chave pública |
 |||
 
-Se necessário, a [Etapa 6](../infoprotect-email-encryption.md) pode ajudá-lo a atender a esse requisito.
+Se necessária, a [Etapa 6](../infoprotect-email-encryption.md) pode ajudá-lo a atender a esse requisito.
 
 <a name="crit-infoprotect-step7"></a>
 ### <a name="optional-configure-privileged-access-management-in-office-365"></a>Opcional: configurar o gerenciamento de acesso privilegiado no Office 365

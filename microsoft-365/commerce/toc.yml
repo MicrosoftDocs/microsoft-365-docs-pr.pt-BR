@@ -4,9 +4,9 @@
   href: ../admin/admin-home.md
 - name: Experimentar ou comprar
   items:
-    - name: Inscreva-se para uma avaliação do Office 365
+    - name: Inscreva-se na avaliação do Microsoft 365
       href: sign-up-for-office-365-trial.md
-    - name: Experimente ou compre o Microsoft 365
+    - name: Experimentar ou comprar o Microsoft 365
       href: try-or-buy-microsoft-365.md
     - name: Prorrogar a avaliação
       href: extend-your-trial.md
@@ -64,8 +64,6 @@
       href: billing-and-payments/change-your-billing-addresses.md
     - name: Diretiva de serviços de pagamento 2 e Forte autenticação do cliente
       href: billing-and-payments/psd2.md
-    - name: Informação de imposto
-      href: billing-and-payments/tax-information.md
 - name: Contas de cobrança
   items:
     - name: Gerenciar contas de cobrança

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre as opções de implantação e atualizações de recursos do sistema operacional.
-ms.openlocfilehash: 24b6cf30398031cf2bf4032795013338fec39ffb
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d22a0993b256a1bea1a6a5ac61f14b144c6ac6c7
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085200"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636754"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>Etapa 6: Implantação de sistema operacional e atualizações de recursos
 
@@ -41,7 +41,7 @@ ms.locfileid: "42085200"
 
 Caso esteja assistindo ao processo de implantação até agora, você ao menos concluiu parcialmente as etapas de preparação do dispositivo e do aplicativo, preparou a infraestrutura, configurou e coletou pacotes de aplicativos, tem um plano estabelecido para migrar os arquivos de usuários e definiu configurações padrão, assim como tem planos para reter os controles de segurança existentes e talvez implantar novos.
 
-Agora chegamos ao estágio no qual você está juntando todas essas peças para automatizar o máximo possível para instalar o Windows 10 e o Office 365 ProPlus, juntamente com os drivers, aplicativos e qualquer outro item necessário.
+Agora chegamos à etapa em que você está reunindo todas essas peças para automatizar o máximo possível para instalar o Windows 10 e o Microsoft 365 Apps para empresas, juntamente com os drivers, aplicativos e tudo o mais que for necessário.
 
 Por fim, a melhor medida de sucesso com uma implantação de sistema operacional é corresponder às expectativas do usuário e evitar interrupções do trabalho. E, nesta etapa, você começará a testar e a implantar para usuários piloto como parte de uma implantação em fases. E, uma dica aqui, antes de ampliar a implantação, você precisará seguir para a etapa 8 do processo de implantação [Treinamento e Comunicações de Usuários](https://aka.ms/mdd8) para assegurar que os usuários estejam informados e preparados para as alterações a serem efetuadas. Você pode medir o ritmo da implantação com validação contínua usando a Implantação em Fases.
 
@@ -131,8 +131,8 @@ Para saber mais sobre o Windows Update para Empresas, examine a documentação a
 
 ## <a name="next-step"></a>Próxima etapa 
 
-## <a name="step-7-windows-and-office-servicinghttpsakamsmdd7"></a>[Etapa 7: Manutenção do Windows e do Office](https://aka.ms/mdd7)
+## <a name="step-7-windows-and-office-servicing"></a>[Etapa 7: Manutenção do Windows e do Office](https://aka.ms/mdd7)
 
 ## <a name="previous-step"></a>Etapa anterior
 
-## <a name="step-5-security-and-compliance-considerationshttpsakamsmdd5"></a>[Etapa 5: Considerações de segurança e conformidade](https://aka.ms/mdd5)
+## <a name="step-5-security-and-compliance-considerations"></a>[Etapa 5: Considerações de segurança e conformidade](https://aka.ms/mdd5)

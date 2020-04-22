@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Siga as etapas de aprendizagem e implantação do Microsoft Teams em toda a organização.
-ms.openlocfilehash: 8220d06fe90bc4bc793ab33d6121e93bb855f973
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: d34673a412539dfc73296f0139fa2eb555c17099
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801236"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636694"
 ---
 # <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a>Implantar o Microsoft Teams para o Microsoft 365 Enterprise
 
@@ -34,7 +34,7 @@ Antes de começar:
 
 - Verifique se você configurou as fases corretas da [infraestrutura básica](deploy-foundation-infrastructure.md) para que suas equipes tenham as contas de usuário e os recursos de segurança necessários. As fases de Proteção de Identidade e Informações são as mais importantes para o logon e proteger o email e arquivos com rótulos de retenção e confidencialidade.
 - Saiba mais sobre segurança e conformidade no Teams lendo [este artigo](https://docs.microsoft.com/microsoftteams/security-compliance-overview).
-- Saiba mais sobre o licenciamento do Office 365 para o Teams lendo [este artigo](https://docs.microsoft.com/microsoftteams/office-365-licensing).
+- Saiba mais sobre o licenciamento do Teams com [este artigo](https://docs.microsoft.com/microsoftteams/office-365-licensing).
 
 Para implantar o Teams em sua organização, leia [Como implantar o Teams](https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams).
 

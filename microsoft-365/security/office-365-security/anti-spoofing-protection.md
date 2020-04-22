@@ -1,5 +1,5 @@
 ---
-title: Proteção antifalsificação no Office 365
+title: Proteção antifalsificação
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,26 +18,26 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: ''
-ms.openlocfilehash: 53e671e72922eb337cd5af2cfaa11b3ce3f95399
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: 3a306cb8bda0f5f07660f8a2af60e29a3c4d0776
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537516"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636029"
 ---
-# <a name="anti-spoofing-protection-in-office-365"></a>Proteção antifalsificação no Office 365
+# <a name="anti-spoofing-protection"></a>Proteção antifalsificação
 
-Se você for um cliente do Office 365 com caixas de correio no Exchange Online ou um cliente autônomo da Proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, o EOP incluirá recursos para ajudar a proteger sua organização contra remetentes falsificados (forjados).
+Se você for um cliente do Microsoft 365 com caixas de correio no Exchange Online ou um cliente autônomo da Proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, o EOP incluirá recursos para ajudar a proteger sua organização contra remetentes falsificados (forjados).
 
 Quando se trata de proteger os usuários, a Microsoft leva a sério a ameaça de phishing. A falsificação é uma técnica comum usada por invasores. **As mensagens falsas parecem se originar de alguém ou algum lugar que não é a origem real.** Essa técnica é frequentemente usada em campanhas de phishing projetadas para obter credenciais de usuário. A tecnologia antifalsificação na EOP examina especificamente a falsificação do cabeçalho De no corpo da mensagem (usada para exibir o remetente da mensagem nos clientes de email). Quando a EOP tem alta confiança de que o cabeçalho De é forjado, a mensagem é identificada como falsificada.
 
 As seguintes tecnologias antifalsificação estão disponíveis na EOP:
 
-- **Inteligência contra falsificação**: Revise as mensagens falsas dos remetentes em domínios internos e externos e permita ou bloqueie esses remetentes. Para obter mais informações, contra [Configurar a inteligência contra falsificação no Office 365](learn-about-spoof-intelligence.md).
+- **Inteligência contra falsificação**: Revise as mensagens falsas dos remetentes em domínios internos e externos e permita ou bloqueie esses remetentes. Para obter mais informações, contra [Configurar a inteligência contra falsificação no Microsoft 365](learn-about-spoof-intelligence.md).
 
-- **Políticas antiphishing**: Na EOP, a política interna antiphishing permite ativar ou desativar a inteligência contra falsificação, ativar ou desativar a identificação de remetente não autenticado no Outlook e especificar a ação para remetentes falsificados bloqueados (mover para a pasta Lixo Eletrônico ou para a quarentena). As políticas antiphishing avançadas disponíveis na Proteção Avançada contra Ameaças do Office 365 (ATP) também contêm configurações contra usurpação de identidade (remetentes e domínios protegidos), configurações de inteligência da caixa de correio e limites ajustáveis de phishing avançados. Para obter mais informações, confira [Políticas antiphishing](set-up-anti-phishing-policies.md) no Office 365.
+- **Políticas antiphishing**: Na EOP, a política interna antiphishing permite ativar ou desativar a inteligência contra falsificação, ativar ou desativar a identificação de remetente não autenticado no Outlook e especificar a ação para remetentes falsificados bloqueados (mover para a pasta Lixo Eletrônico ou para a quarentena). As políticas antiphishing avançadas disponíveis na Proteção Avançada contra Ameaças do Office 365 (ATP) também contêm configurações contra usurpação de identidade (remetentes e domínios protegidos), configurações de inteligência da caixa de correio e limites ajustáveis de phishing avançados. Para obter mais informações, confira [Políticas antiphishing](set-up-anti-phishing-policies.md) no Microsoft 365.
 
-- **Autenticação de email**: Um componente integrante de qualquer esforço antifalsificação é o uso de autenticação de email (também conhecida como validação de email) pelos registros SPF, DKIM e DMARC no DNS. Você pode configurar esses registros para seus domínios, para que os sistemas de email de destino possam verificar a validade das mensagens que afirmam ser de remetentes em seus domínios. Para mensagens de entrada, o Office 365 requer autenticação de email para domínios do remetente. Para obter mais informações, confira [Autenticação de email no Office 365](email-validation-and-authentication.md).
+- **Autenticação de email**: Um componente integrante de qualquer esforço antifalsificação é o uso de autenticação de email (também conhecida como validação de email) pelos registros SPF, DKIM e DMARC no DNS. Você pode configurar esses registros para seus domínios, para que os sistemas de email de destino possam verificar a validade das mensagens que afirmam ser de remetentes em seus domínios. Para mensagens de entrada, o Microsoft 365 requer autenticação de email para domínios do remetente. Para obter mais informações, confira [Autenticação de email no Microsoft 365](email-validation-and-authentication.md).
 
 A tecnologia antifalsificação da Microsoft foi implantada originalmente apenas em organizações com a Proteção Avançada contra Ameaças (ATP) do Office 365. Em outubro de 2018, a proteção antifalsificação foi adicionada à EOP.
 
@@ -113,15 +113,15 @@ A Microsoft diferencia dois tipos diferentes de mensagens falsas:
 
   - SFTY é o nível de segurança da mensagem. 9 indica phishing, .22 indica falsificação entre domínios.
 
-Para obter mais informações sobre os valores Categoria e autenticação composta (compauth) relacionados à falsificação, confira [Cabeçalhos de mensagem antispam no Office 365](anti-spam-message-headers.md).
+Para obter mais informações sobre os valores Categoria e autenticação composta (compauth) relacionados à falsificação, confira [Cabeçalhos de mensagem antispam no Microsoft 365](anti-spam-message-headers.md).
 
-Para obter mais informações sobre o DMARC, confira [Usar o DMARC para validar emails no Office 365](use-dmarc-to-validate-email.md).
+Para obter mais informações sobre o DMARC, confira [Usar o DMARC para validar emails no Microsoft 365](use-dmarc-to-validate-email.md).
 
 ## <a name="reports-of-how-many-messages-were-marked-as-spoofed"></a>Relatórios de quantas mensagens foram marcadas como falsificadas
 
 Organizações da EOP podem usar as **Detecções de falsificação** no painel relatórios no Centro de Conformidade e Segurança. Para mais informações, confira [Relatório de Detecções de Falsificação](view-email-security-reports.md#spoof-detections-report).
 
-A organização da Proteção Avançada contra Ameaças do Office 365 (ATP) pode usar o Explorador de Ameaças no Centro de Conformidade e Segurança para exibir informações sobre tentativas de phishing. Para obter mais informações, confira [Investigação e resposta a ameaças do Office 365](office-365-ti.md).
+A organização da Proteção Avançada contra Ameaças do Office 365 (ATP) pode usar o Explorador de Ameaças no Centro de Conformidade e Segurança para exibir informações sobre tentativas de phishing. Para obter mais informações, confira [Investigação e resposta a ameaças do Microsoft 365](office-365-ti.md).
 
 ## <a name="problems-with-anti-spoofing-protection"></a>Problemas com a proteção antifalsificação
 
@@ -154,7 +154,7 @@ Para ajudar as mensagens da lista de endereçamento a passarem nas verificaçõe
 
   - Crie regras de caixa de entrada no seu cliente de email para mover as mensagens para a Caixa de Entrada. Você também pode solicitar que seus administradores configurem substituições, conforme discutido em [Usar inteligência contra falsificação para configurar remetentes permitidos de email não autenticado](email-validation-and-authentication.md#use-spoof-intelligence-to-configure-permitted-senders-of-unauthenticated-email).
 
-  - Crie um tíquete de suporte do Office 365 para criar uma substituição para a lista de endereçamento para que ela seja tratada como legítima. Para obter mais informações, confira [Contatar o suporte para produtos comerciais - Ajuda para administradores](../../admin/contact-support-for-business-products.md).
+  - Crie um tíquete de suporte do Microsoft 365 para criar uma substituição para a lista de endereçamento para que ela seja tratada como legítima. Para obter mais informações, confira [Contatar o suporte para produtos comerciais - Ajuda para administradores](../../admin/contact-support-for-business-products.md).
 
 Se tudo falhar, você poderá relatar a mensagem como um falso positivo para a Microsoft. Para mais informações, confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
 
@@ -162,4 +162,4 @@ Você também pode entrar em contato com seu administrador, que pode criar um t�
 
 ## <a name="considerations-for-anti-spoofing-protection"></a>Considerações sobre a proteção antifalsificação
 
-Se você é um administrador que atualmente envia mensagens para o Office 365, precisa garantir que seu email seja autenticado corretamente. Caso contrário, ele pode ser marcado como spam ou phishing. Para obter mais informações, confira [Soluções para remetentes legítimos enviando emails não autenticados](email-validation-and-authentication.md#solutions-for-legitimate-senders-who-are-sending-unauthenticated-email).
+Se você é um administrador que atualmente envia mensagens para o Microsoft 365, precisa garantir que seu email seja autenticado corretamente. Caso contrário, ele pode ser marcado como spam ou phishing. Para obter mais informações, confira [Soluções para remetentes legítimos enviando emails não autenticados](email-validation-and-authentication.md#solutions-for-legitimate-senders-who-are-sending-unauthenticated-email).

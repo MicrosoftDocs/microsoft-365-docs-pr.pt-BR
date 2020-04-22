@@ -2,7 +2,7 @@
 ### <a name="required-your-network-is-ready-for-microsoft-365-enterprise"></a>Obrigatório: rede preparada para o Microsoft 365 Enterprise
 
 - Seus escritórios têm largura de banda de Internet adequada para o tráfego do Microsoft 365, incluindo a instalação e atualizações do Office 365, do Microsoft Intune e do Windows 10 Enterprise.
-- Sua rede geral mapeia para uma [Arquitetura de referência do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
+- Sua rede geral mapeia para uma [Arquitetura de referência do Microsoft 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
 - As alterações de rede foram testadas e atendem aos requisitos de latência de tráfego.
 
 Se necessário, a [Etapa 1](../networking-provide-bandwidth-cloud-services.md) pode ajudá-lo com esse requisito.

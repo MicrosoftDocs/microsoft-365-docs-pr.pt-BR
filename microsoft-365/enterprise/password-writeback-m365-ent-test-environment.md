@@ -18,25 +18,25 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configure o write-back de senha do ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: 8ff6c8c7d2eae735a2572bae1c437502602cfd0b
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: cc71b581730001d8dc021b5074e300fed636e3d9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633079"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632870"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Write-back de senha do ambiente de teste do Microsoft 365
 
 *Este Guia de Laboratório de Testes pode ser usado apenas em ambientes de teste do Microsoft 365 Enterprise.*
 
-O write-back de senha permite aos usuários atualizar suas senhas pelo Azure Active Directory (Azure AD), o que é então replicado para o Active Directory Domain Services local (AD DS). Com o write-back de senha, os usuários não precisam atualizar suas senhas pelo AD DS local, onde as contas de usuários originais são armazenadas. Isso ajuda os usuários móveis ou remotos que não têm uma conexão de acesso remoto à rede local.
+A gravação de senha permite que os usuários atualizem suas senhas através do Azure Active Directory (Azure AD), que é replicado nos Serviços de domínio Active Directory (AD DS) local. Com a gravação de senha, os usuários não precisam atualizar suas senhas no AD DS local onde suas contas de usuário originais estão armazenadas. Isso ajuda os usuários móveis ou remotos que não possuem uma conexão de acesso remoto à rede local.
 
 Este artigo descreve como você pode configurar seu ambiente de teste do Microsoft 365 para o write-back de senha.
 
 Há duas etapas para fazer a configuração:
 
-1.  Criar o ambiente de teste de empresa simulada do Microsoft 365 com sincronização de hash de senha.
-2.  Habilitar o write-back de senha para o domínio TESTLAB AD DS.
+1.    Criar o ambiente de teste de empresa simulada do Microsoft 365 com sincronização de hash de senha.
+2.    Habilitar o write-back de senha para o domínio TESTLAB AD DS.
     
 ![Guias de laboratório de teste da Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
@@ -53,7 +53,7 @@ Esta configuração consiste em:
   
 - Assinaturas de avaliação ou pagas do Microsoft 365 E5 ou Office 365 E5.
 - Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. 
-- O Azure AD Connect é executado no APP1 para sincronizar o domínio TESTLAB do AD DS com o locatário do Azure AD de sua assinatura do Microsoft 365 ou Office 365.
+- O Azure AD Connect é executado no APP1 para sincronizar o domínio TESTLAB AD DS com o locatário do Azure AD da sua assinatura do Microsoft 365.
 
 ## <a name="phase-2-enable-password-writeback-for-the-testlab-ad-ds-domain"></a>Fase 2: Habilitar o write-back de senha para o domínio TESTLAB AD DS
 
@@ -130,7 +130,7 @@ Esta configuração consiste em:
 
 - Assinaturas pagas ou de avaliação do Microsoft 365 E5 ou do Office 365 E5 com o domínio DNS TESTLAB.\<seu nome de domínio>registrado.
 - Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. 
-- O Azure AD Connect é executado no APP1 para sincronizar a lista de contas e grupos de locatário do Azure AD de sua assinatura do Microsoft 365 ou do Office 365 para o domínio TESTLAB AD DS. 
+- O Azure AD Connect é executado no APP1 para sincronizar a lista de contas e grupos do locatário do Azure AD da sua assinatura do Microsoft 365 no domínio TESTLAB AD DS. 
 - O write-back de senha está habilitado para que os usuários possam alterar as próprias senhas pelo Azure AD sem precisar se conectar à intranet simplificada.
 
 Confira informações e links para configurar o write-back de senhas em produção na etapa [Simplificar a atualização de senhas](identity-add-user-accounts.md#identity-pw-writeback), na fase Identidade.

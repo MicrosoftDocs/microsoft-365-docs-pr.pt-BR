@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Você pode usar os grupos para automatizar o gerenciamento de algumas tarefas administrativas.
-ms.openlocfilehash: 215bb84cbb0cedc2f1320372ba8239cd51d07c98
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 047d733dbd586f094612c579f2b1685562c58ed1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633489"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637031"
 ---
 # <a name="step-5-use-groups-for-management"></a>Etapa 5: usar os grupos para gerenciamento
 
@@ -36,7 +36,7 @@ Nesta seção, você identificará grupos do Azure Active Directory (Azure AD) q
 Os usuários podem solicitar a associação a um grupo de segurança, e essa solicitação vai para o proprietário do grupo e não para o administrador da TI. Isso permite que o controle diário da associação ao grupo seja delegado a equipes, projetos ou aos proprietários da empresa, os quais entendem o uso comercial do grupo e podem gerenciar as suas associações.
 
 >[!Note]
->O gerenciamento de grupos de autoatendimento está disponível apenas para os grupos de segurança do Azure AD e do Office 365. Ele não está disponível para grupos habilitados para email, listas de distribuição ou qualquer grupo que tenha sido sincronizado de serviços locais de domínio do Active Directory (AD DS).
+>O gerenciamento de grupo de autoatendimento está disponível apenas aos grupos de segurança do Azure AD e Microsoft 365. Ele não está disponível para grupos habilitados para email, listas de distribuição ou qualquer grupo que tenha sido sincronizado de serviços locais de domínio do Active Directory (AD DS).
 >
 
 Para saber mais, consulte as [instruções para configurar um grupo do Azure AD para o gerenciamento de autoatendimento](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-self-service-group-management).
@@ -50,14 +50,14 @@ Como um ponto de verificação provisório, você pode ver os [critérios de sa�
 
 Nesta seção, você criará uma série de regras que vão adicionar ou remover automaticamente contas de usuários como membros do um grupo do Azure AD. Isso é conhecido como *associação de grupo dinâmico*. As regras se baseiam em atributos das contas de usuário, como Departamento ou País.
 
-Veja aqui como as regras são aplicadas:
+Veja como as regras são aplicadas:
 
 - Se uma nova conta de usuário atende a todas as regras do grupo, ela se tornará membro.
-- Se a conta de usuário não for um membro do grupo, mas seus atributos forem alterados de modo que ela passa a atender a todas as regras do grupo, ela se tornará membro desse grupo.
-- Se a conta de usuário não atender a toda as regras do grupo, ela não será incluída no grupo.
+- Se uma conta de usuário não for um membro do grupo, mas seus atributos forem alterados para corresponder a todas as regras do grupo, ela se tornará um membro desse grupo.
+- Se uma conta de usuário não corresponder a todas as regras do grupo, ela não será adicionada ao grupo.
 - Se a conta de usuário for membro do grupo, mas seus atributos forem alterados de modo que ela passe a não atender mais a todas as regras do grupo, ela será removida do grupo.
 
-Para usar a associação dinâmica, primeiro você precisa determinar os conjuntos de grupos que possuem um conjunto comum de atributos de conta de usuário. Por exemplo, todos os membros do departamento de vendas devem estar no grupo de vendas no Azure AD, com base em no atributo de conta de usuário por departamento definido como "Vendas".
+Para usar a associação dinâmica, você deve primeiro determinar os conjuntos de grupos que possuem um conjunto comum de atributos de conta do usuário. Por exemplo, todos os membros do Departamento de vendas devem estar no grupo Sales Azure AD, com base no atributo de conta de usuário Departamento definido como "Vendas".
 
 Consulte as [instruções para criar e configurar regras para um grupo dinâmico no Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal).
 
@@ -78,11 +78,11 @@ Como um ponto de verificação provisório, você pode ver os [critérios de sa�
 
 *Isso é opcional e se aplica às versões E3 e E5 do Microsoft 365 *
 
-Nesta seção, você vai configurar grupos de segurança no Azure AD para atribuir licenças automaticamente de um conjunto de assinaturas para todos os membros do grupo. Isso é conhecido como *licenciamento baseado em grupo*. Se uma conta de usuário for adicionada ou removida do grupo, as licenças das assinaturas do grupo serão atribuída ou terão a atribuição cancelada automaticamente da conta do usuário.
+Nesta seção, você vai configurar grupos de segurança no Azure AD para atribuir licenças automaticamente de um conjunto de assinaturas para todos os membros do grupo. Isso é conhecido como *licenciamento baseado em grupo*. Se uma conta de usuário for adicionada ou removida do grupo, as licenças das assinaturas do grupo serão automaticamente atribuídas ou não atribuídas à conta do usuário.
 
 No Microsoft 365 Enterprise, você configurará grupos de segurança do Azure AD para atribuir as licenças apropriadas do Microsoft 365 Enterprise.
 
-Verifique se você tem licenças suficientes para todos os membros do grupo. Caso as licenças acabem, os novos usuários não receberão licenças até que elas fiquem disponíveis.
+Verifique se você tem licenças suficientes para todos os membros do grupo. Se você ficar sem licenças, os novos usuários não receberão licenças até que as licenças estejam disponíveis.
 
 >[!Note]
 >Você não deve configurar o *licenciamento baseado em grupo* para grupos que contenham contas do Azure para empresas (B2B).

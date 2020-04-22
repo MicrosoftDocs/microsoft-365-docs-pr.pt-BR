@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configure e teste o Logon único Contínuo do Azure AD para o ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: d2b17acb2b57e379fe204e3ea4402b3f00ef7d6c
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: ba3f943a53f05c452a8e01e40bb6924dc42a866e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633159"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636863"
 ---
 # <a name="azure-ad-seamless-single-sign-on-for-your-microsoft-365-test-environment"></a>O Logon único Contínuo do Azure AD para o ambiente de teste do Microsoft 365
 
@@ -35,8 +35,8 @@ Este artigo descreve como você pode configurar seu ambiente de teste do Microso
 
 Há duas etapas para fazer a configuração:
 
-1.  Criar o ambiente de teste de empresa simulada do Microsoft 365 com sincronização de hash de senha.
-2.  Configurar o Azure Active Directory Connect no APP1 para o SSO Contínuo do Azure Active Directory.
+1.    Criar o ambiente de teste de empresa simulada do Microsoft 365 com sincronização de hash de senha.
+2.    Configurar o Azure Active Directory Connect no APP1 para o SSO Contínuo do Azure Active Directory.
     
 ![Guias de laboratório de teste da Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
@@ -53,7 +53,7 @@ Esta configuração consiste em:
   
 - Assinaturas de avaliação ou pagas do Microsoft 365 E5 ou Office 365 E5.
 - Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. 
-- O Azure AD Connect é executado no APP1 para sincronizar periodicamente o domínio TESTLAB do Active Directory Domain Services (AD DS) com o locatário do Azure AD de sua assinatura do Microsoft 365 ou do Office 365.
+- O Azure AD Connect é executado no APP1 para sincronizar o domínio dos Serviços de domínio Active Directory (AD DS) do TESTLAB com o locatário do Azure AD da sua assinatura do Microsoft 365 periodicamente.
 
 ## <a name="phase-2-configure-azure-ad-connect-on-app1-for-azure-ad-seamless-sso"></a>Fase 2: configure o Azure Active Directory Connect no APP1 para o SSO Contínuo do Azure Active Directory
 
@@ -110,7 +110,7 @@ Esta configuração consiste em:
 
 - Assinaturas de avaliação ou pagas do Microsoft 365 E5 ou do Office 365 E5 com o domínio DNS testlab.\<seu nome de domínio> registrado.
 - Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. 
-- O Azure AD Connect é executado no APP1 para sincronizar a lista de contas e grupos de locatário do Azure AD de sua assinatura do Microsoft 365 ou do Office 365 para o domínio TESTLAB AD DS. 
+- O Azure AD Connect é executado no APP1 para sincronizar a lista de contas e grupos do locatário do Azure AD da sua assinatura do Microsoft 365 para o domínio TESTLAB AD DS. 
 - O SSO Contínuo do Azure AD está habilitado para que os computadores na intranet simulada possam entrar para usar recursos de nuvem do Microsoft 365 sem especificar uma senha de conta de usuário.
 
 Confira a etapa [Simplificar entrada do usuário](identity-secure-your-passwords.md#identity-sso) na fase de identidade para informações e links para configurar o Logon único Contínuo do Azure AD em produção.

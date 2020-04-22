@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Compreenda a necessidade de largura de banda de Internet para os serviços de nuvem do Microsoft 365 Enterprise.
-ms.openlocfilehash: 2f20542609c757c4fbccd2f9b0e4af59d9bc7566
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a2b5be462747ff269b82304249d46f32837ae2e5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066507"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631448"
 ---
 # <a name="step-1-prepare-your-network-for-microsoft-365"></a>Etapa 1: preparar sua rede para o Microsoft 365
 
@@ -31,10 +31,10 @@ ms.locfileid: "42066507"
 Na etapa 1, faça o seguinte:
 
 - Avalie e ajuste a largura de banda de rede para links internos e conexões com a Internet para contabilizar o tráfego de serviços de nuvem do Microsoft 365 Enterprise.
-- Alinhe sua rede com uma [arquitetura de referência do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
+- Alinhe sua rede com uma [Arquitetura de referência do Microsoft 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
 - Planeje as alterações, crie pilotos e teste-os para verificar se as alterações atendem às suas necessidades de latência do tráfego e de largura de banda.
 
-Para informações e recomendações sobre como usar o ExpressRoute com o Office 365 e outros serviços de nuvem do Microsoft 365 Enterprise, confira [Azure ExpressRoute para Office 365](https://docs.microsoft.com/office365/enterprise/azure-expressroute).
+Para obter mais informações e recomendações sobre como usar o ExpressRoute com o Microsoft 365 e outros serviços de nuvem do Microsoft 365 Enterprise, consulte [Azure ExpressRoute do Microsoft 365](https://docs.microsoft.com/office365/enterprise/azure-expressroute).
 
 Como ponto de verificação provisório, é possível conferir os [Critérios de saída](networking-exit-criteria.md#crit-networking-step1) para esta etapa.
 

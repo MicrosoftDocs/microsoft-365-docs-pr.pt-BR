@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Examinar os critérios da infraestrutura e dos serviços com base na proteção de informações a fim de garantir que sua configuração atenda aos requisitos do Microsoft 365 Enterprise.
-ms.openlocfilehash: 28eff02ea870dcfca7e2e32580ed6a3a9e8a9484
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: c0b4ff6a0d289b8a8c63255d817ea455df00bf13
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633349"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631628"
 ---
 # <a name="information-protection-infrastructure-exit-criteria"></a>Critérios de saída da infraestrutura de proteção de informações
 
@@ -44,7 +44,7 @@ Se necessário, a [Etapa 1](infoprotect-define-sec-infoprotect-levels.md) pode a
 <a name="crit-infoprotect-step3"></a>
 ## <a name="required-increased-security-for-microsoft-365-is-configured"></a>Obrigatório: configuração de segurança aprimorada para Microsoft 365 
 
-As seguintes configurações foram habilitadas para a [segurança aprimorada do Office 365](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security):
+Você definiu as seguintes configurações da [Segurança aprimorada do Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security):
 
 - Políticas de gerenciamento de ameaças na Central de segurança do Microsoft 365
 - Configurações adicionais para todos os locatários do Exchange Online
@@ -58,7 +58,7 @@ Se necessário, a [Etapa 3](infoprotect-configure-increased-security-office-365.
 <a name="crit-infoprotect-step2"></a>
 ## <a name="optional-classification-is-configured-across-your-environment"></a>Opcional: a classificação está configurada em seu ambiente
 
-Você trabalhou com o seu departamento jurídico e de conformidade para desenvolver uma classificação apropriada e um esquema de identificação de governança de dados e políticas de segurança para a sua organização. 
+Você trabalhou com suas equipes jurídicas e de conformidade para desenvolver um esquema de classificação e rotulagem apropriado para suas políticas de governança e segurança de dados da sua organização. 
 
 Essa políticas correspondem a configuração e implantação de:
 
@@ -82,11 +82,11 @@ Seus dispositivos Windows 10 Enterprise registrados têm uma política do Intune
 Se necessário, a [Etapa 4](infoprotect-deploy-windows-information-protection.md) pode ajudá-lo a atender a esse requisito. 
 
 <a name="crit-infoprotect-step5"></a>
-## <a name="optional-office-365-data-loss-prevention-dlp-is-deployed"></a>Opcional: o DLP (Data Loss Prevention) do Office 365 está implantado
+## <a name="optional-data-loss-prevention-dlp-is-deployed"></a>Opcional: a Prevenção de perda de dados (DLP) está implementada
 
 Você analisou, testou e depois lançou o conjunto de políticas de DLP - com locais e regras com condições e ações - que sua organização exige para proteger os clientes e outros tipos de dados privados e aderir aos regulamentos e requisitos do setor e regionais.
 
-Sua equipe de conformidade e segurança de dados está usando o Office 365 Security & amp; Painel de conformidade para monitorar incidentes de DLP.
+Sua equipe de conformidade e segurança de dados está usando o painel Segurança e conformidade para monitorar incidentes da DLP.
 
 Se necessário, a [Etapa 5](infoprotect-data-loss-prevention.md) pode ajudá-lo a atender a esse requisito. 
 
