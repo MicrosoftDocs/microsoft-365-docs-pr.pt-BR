@@ -18,31 +18,31 @@ search.appverid:
 - MOE150
 ms.assetid: d0653266-31db-4f6a-a804-d34b667c16bf
 description: 'Saiba como configurar aplicativos do Office em seu Mac, computador ou dispositivos móveis. '
-ms.openlocfilehash: a1c6daf31e86fe345ba896362fe2703c2ca51509
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 73da808b7704f526d07f265ecfe99016e138ea52
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209647"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632098"
 ---
-# <a name="install-office-applications"></a><span data-ttu-id="46ba5-103">Instalar aplicativos do Office</span><span class="sxs-lookup"><span data-stu-id="46ba5-103">Install Office applications</span></span>
+# <a name="install-office-applications"></a><span data-ttu-id="e762c-103">Instalar aplicativos do Office</span><span class="sxs-lookup"><span data-stu-id="e762c-103">Install Office applications</span></span>
 
-<span data-ttu-id="46ba5-104">Agora que você configurou o Office 365, é possível configurar os aplicativos do Office em seu Mac, computador ou dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="46ba5-104">Now that you've set up Office 365, you can set up the Office applications on your Mac, PC, or mobile devices.</span></span>
+<span data-ttu-id="e762c-104">Agora que você configurou o Microsoft 365, é possível configurar os aplicativos do Office em seu Mac, computador ou dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="e762c-104">Now that you've set up Microsoft 365, you can set up the Office applications on your Mac, PC, or mobile devices.</span></span>
   
-<span data-ttu-id="46ba5-105">Siga estes links para obter informações sobre como:</span><span class="sxs-lookup"><span data-stu-id="46ba5-105">Follow these links for information on how to:</span></span>
+<span data-ttu-id="e762c-105">Siga estes links para obter informações sobre como:</span><span class="sxs-lookup"><span data-stu-id="e762c-105">Follow these links for information on how to:</span></span>
   
-- <span data-ttu-id="46ba5-106">Instalar aplicativos do Office: [instalar o Office em seu PC ou Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)</span><span class="sxs-lookup"><span data-stu-id="46ba5-106">Install Office applications:  [Install Office on your PC or Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)</span></span>
+- <span data-ttu-id="e762c-106">Instalar aplicativos do Office: [instalar o Office em seu PC ou Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)</span><span class="sxs-lookup"><span data-stu-id="e762c-106">Install Office applications:  [Install Office on your PC or Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)</span></span>
 
-- <span data-ttu-id="46ba5-107">Configurar dispositivos móveis: [Office 365 Mobile setup-Help](https://support.office.com/article/7dabb6cb-0046-40b6-81fe-767e0b1f014f.aspx)</span><span class="sxs-lookup"><span data-stu-id="46ba5-107">Set up mobile devices: [Office 365 mobile setup - Help](https://support.office.com/article/7dabb6cb-0046-40b6-81fe-767e0b1f014f.aspx)</span></span>
+- <span data-ttu-id="e762c-107">Configurar dispositivos móveis: [Microsoft 365 Mobile setup-Help](https://support.office.com/article/7dabb6cb-0046-40b6-81fe-767e0b1f014f.aspx)</span><span class="sxs-lookup"><span data-stu-id="e762c-107">Set up mobile devices: [Microsoft 365 mobile setup - Help](https://support.office.com/article/7dabb6cb-0046-40b6-81fe-767e0b1f014f.aspx)</span></span>
 
-- <span data-ttu-id="46ba5-108">Configurar email no Outlook: [Windows](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) ou [Mac](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx#PickTab=Outlook_for_Mac)</span><span class="sxs-lookup"><span data-stu-id="46ba5-108">Set up email in Outlook: [Windows](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) or [Mac](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx#PickTab=Outlook_for_Mac)</span></span>
+- <span data-ttu-id="e762c-108">Configurar email no Outlook: [Windows](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) ou [Mac](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx#PickTab=Outlook_for_Mac)</span><span class="sxs-lookup"><span data-stu-id="e762c-108">Set up email in Outlook: [Windows](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) or [Mac](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx#PickTab=Outlook_for_Mac)</span></span>
 
 ::: moniker range="o365-21vianet"
 
-<span data-ttu-id="46ba5-109">Se você comprou o Azure Active Directory Premium (AADP) plano 1 ou o plano 2, você está qualificado para o Microsoft Identity Manager (MIM).</span><span class="sxs-lookup"><span data-stu-id="46ba5-109">If you purchased Azure Active Directory Premium (AADP) Plan 1 or Plan 2, you're eligible for Microsoft Identity Manager (MIM).</span></span> <span data-ttu-id="46ba5-110">Para baixar o MIM, vá para o [centro de download](https://www.microsoft.com/zh-cn/download/details.aspx?id=58498).</span><span class="sxs-lookup"><span data-stu-id="46ba5-110">To download MIM, go to the [Download Center](https://www.microsoft.com/zh-cn/download/details.aspx?id=58498).</span></span>
+<span data-ttu-id="e762c-109">Se você comprou o Azure Active Directory Premium (AADP) plano 1 ou o plano 2, você está qualificado para o Microsoft Identity Manager (MIM).</span><span class="sxs-lookup"><span data-stu-id="e762c-109">If you purchased Azure Active Directory Premium (AADP) Plan 1 or Plan 2, you're eligible for Microsoft Identity Manager (MIM).</span></span> <span data-ttu-id="e762c-110">Para baixar o MIM, vá para o [centro de download](https://www.microsoft.com/zh-cn/download/details.aspx?id=58498).</span><span class="sxs-lookup"><span data-stu-id="e762c-110">To download MIM, go to the [Download Center](https://www.microsoft.com/zh-cn/download/details.aspx?id=58498).</span></span>
 
 ::: moniker-end
 
-<span data-ttu-id="46ba5-p102">Está com problemas? Estes recursos de solução de problemas podem ajudar a:</span><span class="sxs-lookup"><span data-stu-id="46ba5-p102">Having trouble? These troubleshooting resources can help:</span></span>
+<span data-ttu-id="e762c-111">Está com problemas?</span><span class="sxs-lookup"><span data-stu-id="e762c-111">Having trouble?</span></span> <span data-ttu-id="e762c-112">Estes recursos de solução de problemas podem ajudar a:</span><span class="sxs-lookup"><span data-stu-id="e762c-112">These troubleshooting resources can help:</span></span>
   
-- [<span data-ttu-id="46ba5-113">Solucionar problemas de instalação do Office e do Office 365</span><span class="sxs-lookup"><span data-stu-id="46ba5-113">Troubleshoot installing Office and Office 365</span></span>](https://support.office.com/article/35ff2def-e0b2-4dac-9784-4cf212c1f6c2.aspx)
+- [<span data-ttu-id="e762c-113">Solucionar problemas de instalação do Office e Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="e762c-113">Troubleshoot installing Office and Microsoft 365</span></span>](https://support.office.com/article/35ff2def-e0b2-4dac-9784-4cf212c1f6c2.aspx)

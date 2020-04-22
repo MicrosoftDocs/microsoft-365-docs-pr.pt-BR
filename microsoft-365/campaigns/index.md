@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 365 para campanhas
-ms.openlocfilehash: 32437ccc0c110c0539cb3d24f036438d6a313921
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 167b265676d3c3bc9025a0c0e998379f72bb9e52
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42056452"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632030"
 ---
 <a name="microsoft-365-for-campaigns"></a>Microsoft 365 para Campanhas
 ===========================
@@ -40,21 +40,21 @@ No nosso mundo atual, manter os dados e comunicações seguras é uma prioridade
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3clbH] 
 
 
-**O que é o Microsoft 365 para campanhas?** É uma configuração segura recomendada que inclui o Microsoft 365 Business para que você possa:
+**O que é o Microsoft 365 para campanhas?** É uma configuração segura recomendada que inclui o Microsoft 365 Business Premium para que você possa:
 - Confie em ferramentas de colaboração e produtividade corporativas confiáveis, como Outlook, Word, Excel e outros produtos do Office 
 - Proteger seus arquivos de trabalho em todos os dispositivos iOS, Android e Windows 10 com segurança de nível empresarial que seja simples de gerenciar 
 - Aplicar proteção extra para contas de usuário e identidade 
 
-![O Microsoft 365 Business protege suas ferramentas de produtividade, ferramentas de colaboração, armazenamento de arquivos, email, dispositivos e identidade](../media/M365-WhatIsIt-SecurityFocus.png)
+![O Microsoft 365 Business Premium protege suas ferramentas de produtividade, ferramentas de colaboração, armazenamento de arquivos, email, dispositivos e identidade](../media/M365-WhatIsIt-SecurityFocus.png)
 
-Enquanto campanhas de eleição federais nos Estados Unidos estão qualificadas para preços especiais para o Microsoft 365 Business, qualquer organização com esse plano pode aproveitar estas orientações para configurar maior segurança e aprender a colaborar com segurança.
+Enquanto campanhas de eleição federais nos Estados Unidos estão qualificadas para preços especiais para o Microsoft 365 Business Premium, qualquer organização com esse plano pode aproveitar estas diretrizes para configurar maior segurança e aprender a colaborar com segurança.
 
 Esta biblioteca inclui o seguinte:
 - Diretrizes de configuração prescritiva para aumentar a segurança.
 - Ajuda para que os usuários instalem dispositivos para acesso seguro.
 - Orientações sobre como colaborar e compartilhar com segurança.
 
-Para obter mais informações sobre o que está incluído, consulte [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business). 
+Para obter mais informações sobre o que está incluído, consulte [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business). 
 
 
 <a name="get-started"></a>Introdução
