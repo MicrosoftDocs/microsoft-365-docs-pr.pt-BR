@@ -1,5 +1,5 @@
 ---
-title: Pesquisar caixas de correio baseadas em nuvem dos usuários locais no Office 365
+title: 'Pesquisar caixas de correio baseadas em nuvem para usuários locais '
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -17,20 +17,20 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Use a ferramenta de Pesquisa de Conteúdo no Centro de Conformidade e segurança para pesquisar e exportar dados de chat do MicrosoftTeams (chamados de chat 1xN) para usuários locais em uma implantação híbrida do Exchange.
-ms.openlocfilehash: ba3504289306543916667066738a25cf168d13e5
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 9dc9219d6ef1a387e1514deb672386d7d3c18290
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604148"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626447"
 ---
-# <a name="searching-cloud-based-mailboxes-for-on-premises-users-in-office-365"></a>Pesquisar caixas de correio baseadas em nuvem dos usuários locais no Office 365
+# <a name="searching-cloud-based-mailboxes-for-on-premises-users"></a>Pesquisar caixas de correio baseadas em nuvem para usuários locais 
 
 Se a sua organização tiver uma implantação híbrida do Exchange (ou se a sua organização sincronizar uma organização do Exchange local com o Office 365) e tiver habilitado o Microsoft Teams, os usuários poderão usar o aplicativo de chat do Teams para mensagens instantâneas. Para um usuário baseado em nuvem, os dados de chat do Teams (também chamados de *chats 1xN*) são salvos em suas caixas de correio principais baseadas na nuvem. Quando um usuário local usa o aplicativo de chat do Teams, sua caixa de correio principal está localizada no local. Para contornar essa limitação, a Microsoft lançou um novo recurso em que uma área de armazenamento baseada na nuvem (chamada de caixa de correio baseada em nuvem para usuários locais) é criada para armazenar os dados de chat do Teams para usuários locais. Isso permite que você use a ferramenta de pesquisa de conteúdo no Centro de Conformidade e Segurança para pesquisar e exportar dados de chat do Teams para usuários locais. 
   
 Estes são os requisitos e limitações para a configuração de caixas de correio baseadas em nuvem para usuários locais:
   
-- As contas de usuário no serviço de diretório local (por exemplo, o Active Directory) devem ser sincronizadas com o Azure Active Directory, o serviço de diretório do Office 365. Isso significa que uma conta de usuário de e-mail é criada no Office 365 e está associada a um usuário cuja caixa de correio principal está localizada na organização local.
+- As contas de usuário no serviço de diretório local (por exemplo, o Active Directory) devem ser sincronizadas com o Azure Active Directory, o serviço de diretório do Microsoft 365. Isso significa que uma conta de usuário de email é criada no Microsoft 365 e está associada a um usuário cuja caixa de correio principal está localizada na organização local.
 
 - O usuário cuja caixa de correio principal está localizada na organização local deve receber uma licença do Microsoft Teams e, no mínimo, uma licença do Exchange Online Plan 1.
 
@@ -39,7 +39,7 @@ Estes são os requisitos e limitações para a configuração de caixas de corre
 - Você deve enviar uma solicitação para o suporte da Microsoft para permitir que sua organização pesquise dados de chat do Teams nas caixas de correio baseadas em nuvem para usuários locais. Confira [Arquivando uma solicitação com o suporte da Microsoft para habilitar esse recurso](#filing-a-request-with-microsoft-support-to-enable-this-feature) neste artigo. 
 
 > [!NOTE]
-> As conversas em canais do Teams sempre são armazenadas na caixa de correio baseada em nuvem associada à equipe. Isso significa que você pode usar a Pesquisa de Conteúdo para pesquisar conversas de canal sem ter que registrar uma solicitação de suporte. Para obter mais informações sobre como Pesquisar conversas de canal do Teams, confira [Pesquisar por Microsoft Teams e Grupos do Office 365 ](content-search.md#searching-microsoft-teams-and-office-365-groups).
+> As conversas em canais do Teams sempre são armazenadas na caixa de correio baseada em nuvem associada à equipe. Isso significa que você pode usar a Pesquisa de Conteúdo para pesquisar conversas de canal sem ter que registrar uma solicitação de suporte. Para obter mais informações sobre como Pesquisar conversas de canal do Teams, confira [Pesquisar no Microsoft Teams e Grupos do Microsoft 365 ](content-search.md#searching-microsoft-teams-and-microsoft-365-groups).
   
 ## <a name="how-it-works"></a>Como funciona
 
@@ -57,17 +57,17 @@ Você deve registrar uma solicitação com o suporte da Microsoft para permitir 
   
 Inclua as seguintes informações ao enviar a solicitação para o suporte da Microsoft:
   
-- O nome de domínio padrão da sua organização do Office 365.
+- O nome de domínio padrão da sua organização.
 
-- O nome do locatário e o ID do locatário da sua organização do Office 365. Você pode encontrá-los no portal do Azure Active Directory (em **Gerenciar** \> **Propriedades**). Confira [Localizar a ID de locatário do Office 365](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b).
+- O nome do locatário e o ID do locatário da sua organização. Você pode encontrá-los no portal do Azure Active Directory (em **Gerenciar** \> **Propriedades**). Confira [Localizar sua ID de locatário do Microsoft 365](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b).
 
-- O seguinte título ou a descrição de finalidade da solicitação de suporte: "Habilitar a pesquisa de conteúdo do aplicativo para usuários locais". Isso ajuda a rotear a solicitação para a equipe de engenharia de Descoberta eletrônica do Office 365, que implementará a solicitação.
+- O seguinte título ou a descrição de finalidade da solicitação de suporte: "Habilitar a pesquisa de conteúdo do aplicativo para usuários locais". Isso ajuda a rotear a solicitação para a equipe de engenharia de Descoberta eletrônica, o qual implementará a solicitação.
 
 Após a mudança de engenharia, o suporte da Microsoft enviará a você uma data estimada da implantação. O processo de implantação geralmente demora de duas a três semanas após o envio da solicitação de suporte.
   
 ### <a name="what-happens-after-this-feature-is-enabled"></a>O que acontece após esse recurso ser habilitado?
 
-Após a implantação desse recurso na sua organização do Office 365, as seguintes alterações são feitas em pesquisa de conteúdo e em pesquisas associadas a um caso de Descoberta eletrônica no Centro de Conformidade e Segurança:
+Após a implantação desse recurso na sua organização, as seguintes alterações são feitas na Pesquisa de Conteúdo e em pesquisas associadas a um caso de Descoberta eletrônica no Centro de Conformidade e Segurança:
   
 - A caixa de seleção**Adicionar o conteúdo do aplicativo do Office para usuários no local** é adicionada em **Locais** na Pesquisa de Conteúdo.
 
@@ -143,7 +143,7 @@ Para mais informações sobre esses cmdlets, confira:
 
  **Onde são as caixas de correio baseadas em nuvem para usuários locais?**
   
-As caixas de correio baseadas em nuvem são criadas e armazenadas no mesmo Data Center da sua organização do Office 365.
+As caixas de correio baseadas em nuvem são criadas e armazenadas no mesmo Data Center da sua organização.
   
  **Há outros requisitos além de enviar uma solicitação de suporte?**
   
@@ -153,7 +153,7 @@ As caixas de correio baseadas em nuvem são criadas e armazenadas no mesmo Data 
   
 Não. Quando você migrar a caixa de correio principal de um usuário local para a nuvem, os dados de chat do Teams serão migrados para a sua nova caixa de correio primária baseada na nuvem.
   
- **Posso aplicar um bloqueio de Descoberta eletrônica ou políticas de retenção do Office 365 para usuários locais?**
+ **Posso aplicar um bloqueio de Descoberta eletrônica ou políticas de retenção para usuários locais?**
   
 Sim. Você pode aplicar bloqueios de Descoberta eletrônica ou políticas de retenção para chats do Teams e mensagens de canal para caixas de correio baseadas em nuvem para usuários locais.
   

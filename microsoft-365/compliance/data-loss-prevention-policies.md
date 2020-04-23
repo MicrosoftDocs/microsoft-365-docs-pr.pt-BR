@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Com uma política de prevenção contra perda de dados (DLP) no Centro de Conformidade &amp; Segurança, você pode identificar, monitorar e proteger automaticamente as informações confidenciais no Office 365.
-ms.openlocfilehash: f61d6c13a66b7f1d93c7bdc1404265e8567e2fb7
-ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
+ms.openlocfilehash: 68e81a83242ef4a1a099760044b5ccaec5bd91b7
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43189075"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630598"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Visão geral da prevenção contra perda de dados
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -79,7 +79,7 @@ Por exemplo, você pode ter uma política DLP que ajuda a detectar a presença d
   
 ### <a name="locations"></a>Locais
 
-Uma política DLP pode encontrar e proteger informações confidenciais no Office 365, não importa se essas informações estão armazenadas no Exchange Online, SharePoint Online, OneDrive for Business, ou Microsoft Teams. Você pode optar por proteger o conteúdo de emails do Exchange, mensagens do chat e de canal do Microsoft Teams e todas as bibliotecas do SharePoint ou do OneDrive, ou selecionar locais específicos para uma política.
+Uma política DLP pode encontrar e proteger informações confidenciais no Microsoft 365, não importa se essas informações estão armazenadas no Exchange Online, SharePoint Online, OneDrive for Business, ou Microsoft Teams. Você pode optar por proteger o conteúdo de emails do Exchange, mensagens do chat e de canal do Microsoft Teams e todas as bibliotecas do SharePoint ou do OneDrive, ou selecionar locais específicos para uma política.
   
 ![Opções para locais onde uma política DLP pode ser aplicada](../media/ee50a61a-e867-4571-a150-3eec8d83650f.png)
 
@@ -121,7 +121,7 @@ As condições disponíveis agora podem determinar se:
     
 #### <a name="types-of-sensitive-information"></a>Tipos de informações confidenciais
 
-Uma política DLP ajuda a proteger informações confidenciais, que são definidas como um **tipo de informações confidenciais**. O Office 365 inclui 51 definições para vários tipos comuns de informações confidenciais em diferentes regiões que estão prontos para uso, como um número de cartão de crédito, números de contas bancárias, números de carteiras de identidade e números de passaporte. 
+Uma política DLP ajuda a proteger informações confidenciais, que são definidas como um **tipo de informações confidenciais**. O Microsoft 365 inclui definições para vários tipos comuns de informações confidenciais em diferentes regiões que estão prontos para uso, como um número de cartão de crédito, números de contas bancárias, números de carteiras de identidade e números de passaporte. 
   
 ![Lista de tipos de informações confidenciais disponíveis](../media/3eaa9911-bc94-44be-902f-363dbf3b07fe.png)
   
@@ -397,7 +397,7 @@ Para acessar rapidamente uma seção, clique em um item na navegação superior 
 
 A primeira etapa na criação de uma política DLP é escolher quais informações serão protegidas. A partir de um modelo DLP, você economiza o trabalho de criar um novo conjunto de regras do zero e descobrir quais tipos de informações devem ser incluídas por padrão. Em seguida, você pode adicionar ou modificar esses requisitos para ajustar a regra para atender aos requisitos específicos da sua organização.
   
-Um modelo de política DLP pré-configurado pode ajudar a detectar tipos específicos de informações confidenciais, como dados de HIPAA, dados de PCI-DSS, dados da Lei Gramm-Leach-Bliley ou até informações de identificação pessoal (PII) específicas de localidade. Para facilitar a localização e a proteção de tipos comuns de informações confidenciais, os modelos de política incluídos no Office 365 já contêm os tipos mais comuns de informações confidenciais necessários para você começar.
+Um modelo de política DLP pré-configurado pode ajudar a detectar tipos específicos de informações confidenciais, como dados de HIPAA, dados de PCI-DSS, dados da Lei Gramm-Leach-Bliley ou até informações de identificação pessoal (PII) específicas de localidade. Para facilitar a localização e a proteção de tipos comuns de informações confidenciais, os modelos de política incluídos no Microsoft 365 já contêm os tipos mais comuns de informações confidenciais necessários para você começar.
   
 ![Lista de modelos para políticas de prevenção contra perda de dados com o foco no modelo para a Lei Patriota dos EUA](../media/791b2403-430b-4987-8643-cc20abbd8148.png)
   
@@ -501,11 +501,11 @@ Ao criar uma política DLP que inclui o Microsoft Teams como um local, a políti
 
 Os membros da sua equipe de conformidade que irão criar políticas DLP precisam de permissões ao Centro de Conformidade &amp; Segurança. Por padrão, o administrador de locatário terá acesso a esse local e pode conceder aos responsáveis pela conformidade e outras pessoas acesso ao Centro de Conformidade &amp; Segurança, sem conceder todas as permissões de um administrador de locatário. Para fazer isso, recomendamos:
   
-1. Criar um grupo no Office 365 e adicione os responsáveis pela conformidade.
+1. Crie um grupo no Microsoft 365 e adicione os responsáveis pela conformidade.
     
 2. Criar um grupo de funções na página **Permissões** do Centro de Conformidade &amp; Segurança. 
     
-3. Adicionar o grupo do Office 365 ao grupo de funções.
+3. Adicione o grupo do Microsoft 365 ao grupo de função.
     
 Para saber mais, consulte [Conceder aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
   
@@ -519,7 +519,7 @@ Para usar a maioria dos cmdlets do Centro de Conformidade &amp; Segurança, voc�
     
 2. Usar qualquer um destes [cmdlets policy-and-compliance-dlp](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/export-dlppolicycollection?view=exchange-ps)
     
-No entanto, os relatórios DLP precisam extrair dados do Office 365, incluindo o Exchange Online. Por esse motivo, **os cmdlets para os relatórios DLP estão disponíveis no Exchange Online Powershell, e não no Centro de Conformidade &amp; Segurança do Powershell**. Portanto, para usar os cmdlets para os relatórios DLP, você precisa:
+No entanto, os relatórios DLP precisam extrair dados do Microsoft 365, incluindo o Exchange Online. Por esse motivo, **os cmdlets para os relatórios DLP estão disponíveis no Exchange Online Powershell, e não no Centro de Conformidade &amp; Segurança do Powershell**. Portanto, para usar os cmdlets para os relatórios DLP, você precisa:
   
 1. [Conectar-se ao Exchange Online usando o PowerShell Remoto](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)
     
@@ -544,4 +544,3 @@ No entanto, os relatórios DLP precisam extrair dados do Office 365, incluindo o
 - [O que as funções DLP procuram](what-the-dlp-functions-look-for.md)
     
 - [Criar um tipo de informação confidencial personalizado](create-a-custom-sensitive-information-type.md)
-    
