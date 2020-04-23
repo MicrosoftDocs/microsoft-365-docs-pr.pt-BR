@@ -15,25 +15,25 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Este cenário de solução ilustra como gerenciar o ciclo de vida dos documentos relacionados a produtos armazenados no SharePoint Online usando rótulos de retenção do Office 365. Isso é feito por meio do uso de metadados de documentos para classificar o conteúdo e especificamente aplicando automaticamente rótulos de retenção do Office 365 e configurando a retenção baseada em eventos.
-ms.openlocfilehash: bccfb7d20bfcca6476ce5fa971a2ab0c455824a5
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+description: Este cenário de solução ilustra como gerenciar o ciclo de vida dos documentos relacionados a produtos armazenados no SharePoint Online usando rótulos de retenção. Isso é feito por meio do uso de metadados de documentos para classificar o conteúdo e especificamente aplicando automaticamente rótulos de retenção e configurando a retenção baseada em eventos.
+ms.openlocfilehash: 214384fcdf5099f71c36425102bb62866859f910
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106033"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636389"
 ---
 # <a name="manage-the-lifecycle-of-sharepoint-documents-with-retention-labels"></a>Gerencie o ciclo de vida dos documentos do SharePoint com rótulos de retenção
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-Este artigo descreve como é possível gerenciar o ciclo de vida dos documentos relacionados a produtos armazenados no SharePoint Online usando rótulos de retenção do Office 365, e especificamente aplicando automaticamente os rótulos e configurando a retenção baseada em eventos. A funcionalidade de aplicação automática usa a classificação de documentos usando os metadados do SharePoint. O cenário neste artigo se baseia em documentos relacionados a produtos, mas os mesmos conceitos podem ser usados para outros cenários. Por exemplo, no setor de petróleo e gás, você pode gerenciar o ciclo de vida dos documentos relacionados a ativos físicos, como plataformas de petróleo, registros de poços ou licenças de produção. No setor de serviços financeiros, você pode gerenciar documentos relacionados a contas bancárias, hipotecas ou contratos de seguro. No setor público, você pode gerenciar documentos relacionados a autorizações de construção ou formulários de imposto.
+Este artigo descreve como é possível gerenciar o ciclo de vida dos documentos relacionados a produtos armazenados no SharePoint Online usando rótulos de retenção, e especificamente aplicando automaticamente os rótulos e configurando a retenção baseada em eventos. A funcionalidade de aplicação automática usa a classificação de documentos usando os metadados do SharePoint. O cenário neste artigo se baseia em documentos relacionados a produtos, mas os mesmos conceitos podem ser usados para outros cenários. Por exemplo, no setor de petróleo e gás, você pode gerenciar o ciclo de vida dos documentos relacionados a ativos físicos, como plataformas de petróleo, registros de poços ou licenças de produção. No setor de serviços financeiros, você pode gerenciar documentos relacionados a contas bancárias, hipotecas ou contratos de seguro. No setor público, você pode gerenciar documentos relacionados a autorizações de construção ou formulários de imposto.
 
 Vamos dar uma olhada no cenário deste artigo. Analisaremos a arquitetura de informações e a definição dos rótulos de retenção. Em seguida, examinaremos a classificação de documentos, aplicando automaticamente os rótulos e, por fim, geraremos os eventos que iniciam o período de retenção.
 
 ## <a name="information-architecture"></a>Arquitetura de informações
 
-O cenário deste artigo baseia-se em uma empresa de manufatura que usa o Office 365 SharePoint Online para armazenar todos os documentos relacionados aos produtos da empresa. Esses documentos incluem as especificações do produto, acordos com fornecedores e manuais de usuário. Ao armazenar esses documentos no SharePoint como parte das políticas de Gerenciamento de Conteúdo Corporativo, os metadados do documento são definidos e usados para classificá-los. Cada documento tem as seguintes propriedades de metadados:
+O cenário deste artigo baseia-se em uma empresa de manufatura que usa o SharePoint Online para armazenar todos os documentos relacionados aos produtos da empresa. Esses documentos incluem as especificações do produto, acordos com fornecedores e manuais de usuário. Ao armazenar esses documentos no SharePoint como parte das políticas de Gerenciamento de Conteúdo Corporativo, os metadados do documento são definidos e usados para classificá-los. Cada documento tem as seguintes propriedades de metadados:
 
 - **Tipo de documento** (como especificações de produto, contrato e manuais do usuário)
 
@@ -146,7 +146,7 @@ Agora que o rótulo de retenção foi criado, vamos dar uma olhada em como aplic
 
 Vamos para a [aplicação automática](labels.md#applying-a-retention-label-automatically-based-on-conditions) de rótulos de retenção criados para esse cenário usando a linguagem de consulta de palavra-chave (KQL). KQL é a linguagem usada para criar consultas de pesquisa. Na KQL, você pode pesquisar usando as palavras-chave ou as propriedades gerenciadas. Para obter mais informações sobre KQL, confira <https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference>
 
-Em um nível alto, gostaríamos de dizer ao Office 365 para "aplicar o rótulo de retenção **Especificação de Produto** a todos os documentos que têm o **Status** **Final** e um **Tipo de Documento** de **Especificações de Produto**. Lembre-se de que **Status** e **Tipo de documento** são as colunas de site definidas anteriormente para o tipo de conteúdo de documentação do produto na seção [Arquitetura de informações](#information-architecture). Para alcançar isso, precisamos configurar o esquema de pesquisa.
+Em um nível alto, gostaríamos de dizer ao Microsoft 365 para "aplicar o rótulo de retenção a**especificação do produto** a todos os documentos que têm o **status** de **final** e um **tipo de documento** de **especificações de produto**. Lembre-se de que **Status** e **Tipo de documento** são as colunas de site definidas anteriormente para o tipo de conteúdo de documentação do produto na seção [Arquitetura de informações](#information-architecture). Para alcançar isso, precisamos configurar o esquema de pesquisa.
 
 Quando o SharePoint indexa conteúdo, ele gera automaticamente propriedades rastreadas para cada coluna de site. Neste cenário, estamos interessados nas propriedades **Tipo de documento** e **Status**. Precisamos que os documentos na biblioteca usem o tipo de conteúdo correto e tenham as colunas de site preenchidas, para que a pesquisa possa criar as propriedades rastreadas.
 
@@ -237,7 +237,7 @@ Agora que verificamos se a consulta KQL está funcionando corretamente, vamos cr
 
 6. Digite um nome (por exemplo, **Aplicação automática de Rótulo de Especificação do Produto**) e uma descrição opcional para a política de rótulo e, em seguida, selecione **Próximo**. 
 
-7. Na página do assistente **Escolher locais**, selecione os locais de conteúdo aos quais deseja aplicar a política. Neste cenário, aplicamos essa política apenas a locais do SharePoint porque todos os documentos de produção são armazenados somente nas bibliotecas de documentos do SharePoint. Selecione **Deixe-me escolher locais específicos**, alterne o status dos emails do Exchange, das contas do OneDrive e dos grupos do Office 365 para desativar e verifique se o status de sites do SharePoint está ativado. 
+7. Na página do assistente **Escolher locais**, selecione os locais de conteúdo aos quais deseja aplicar a política. Neste cenário, aplicamos essa política apenas a locais do SharePoint porque todos os documentos de produção são armazenados somente nas bibliotecas de documentos do SharePoint. Selecione **deixe-me escolher locais específicos**, alterne o status dos emails do Exchange, das contas do OneDrive e dos grupos do Microsoft 365 para desativar e verifique se o status de sites do SharePoint está ativado. 
 
     ![Escolher sites específicos para aplicar rótulos automaticamente](../media/SPRetentionSPlocations.png)
 
@@ -270,7 +270,7 @@ Agora que os rótulos de retenção foram automaticamente aplicados, vamos nos c
 
 Você pode criar manualmente o evento no centro de segurança e conformidade acessando **Gerenciamento de Registros** > **Eventos**, e escolhendo o tipo de evento, configurando as IDs do ativo correto e inserindo uma data para o evento. Para mais informações, confira [Visão geral dos rótulos de retenção baseada em eventos](event-driven-retention.md).
 
-Neste cenário, criaremos automaticamente o evento gerando-o a partir de um sistema de produção externo. Nesse caso, o sistema que gera o evento é uma lista simples do SharePoint que indica se um produto está em produção ou não e um [Microsoft Flow](https://docs.microsoft.com/flow/getting-started) que está associado à lista e disparará o evento. Em um cenário real, qualquer sistema pode gerar o evento, como um sistema de RH ou CRM. O fluxo inclui várias interações prontas para uso e o bloco de construção das cargas de trabalho do Office 365, como o Exchange, o SharePoint, o Teams e o Dynamics 365, além de aplicativos de terceiros, como o Twitter, o Box, o Salesforce e Workdays. Isso facilita a integração do Flow com esses sistemas. Para obter mais informações, confira [Automatizar a retenção orientada a eventos](automate-event-driven-retention.md).
+Neste cenário, criaremos automaticamente o evento gerando-o a partir de um sistema de produção externo. Nesse caso, o sistema que gera o evento é uma lista simples do SharePoint que indica se um produto está em produção ou não e um [Microsoft Flow](https://docs.microsoft.com/flow/getting-started) que está associado à lista e disparará o evento. Em um cenário real, qualquer sistema pode gerar o evento, como um sistema de RH ou CRM. O fluxo inclui várias interações prontas para uso e o bloco de construção das cargas de trabalho do Microsoft 365, como o Exchange, o SharePoint, o Teams e o Dynamics 365, além de aplicativos de terceiros, como o Twitter, o Box, o Salesforce e Workdays. Isso facilita a integração do Flow com esses sistemas. Para obter mais informações, confira [Automatizar a retenção orientada a eventos](automate-event-driven-retention.md).
 
 A captura de tela a seguir mostra a lista do SharePoint que será usada para acionar o evento: 
 

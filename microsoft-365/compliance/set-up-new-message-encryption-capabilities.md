@@ -1,5 +1,5 @@
 ---
-title: Configurar novos recursos de Criptografia de Mensagens do Office 365
+title: Configurar recursos de criptografia de nova mensagem
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -16,25 +16,25 @@ ms.assetid: 7ff0c040-b25c-4378-9904-b1b50210d00e
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-description: Novos recursos de criptografia de mensagens do Office 365 criados no topo da proteção de informações do Azure, sua organização pode usar comunicações de email protegidas com pessoas dentro e fora da sua organização. Os novos recursos do OME funcionam com outras organizações do Office 365, Outlook.com, Gmail e outros serviços de email.
-ms.openlocfilehash: 766e1d2ae054a5a5e91786a360177492ee9ba1b7
-ms.sourcegitcommit: d9ceaa6ec54c3760747f31accdb02f729450f324
+description: Novos recursos de criptografia de mensagens do Office 365 criados no topo da proteção de informações do Azure, sua organização pode usar comunicações de email protegidas com pessoas dentro e fora da sua organização. Os novos recursos do OME funcionam com outras organizações, Outlook.com, Gmail e outros serviços de email.
+ms.openlocfilehash: 95ac1528c59dc3f59e0d0e923d78ffb7138456d5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680080"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635463"
 ---
-# <a name="set-up-new-office-365-message-encryption-capabilities"></a>Configurar novos recursos de Criptografia de Mensagens do Office 365
+# <a name="set-up-new-message-encryption-capabilities"></a>Configurar recursos de criptografia de nova mensagem
 
-Os novos recursos de criptografia de mensagens do Office 365 (OME) permitem que as organizações compartilhem emails protegidos com qualquer pessoa em qualquer dispositivo. Os usuários podem trocar mensagens protegidas com outras organizações do Office 365, bem como os clientes que não têm o Office 365 usando Outlook.com, Gmail e outros serviços de email.
+Os novos recursos de criptografia de mensagens do Office 365 (OME) permitem que as organizações compartilhem emails protegidos com qualquer pessoa em qualquer dispositivo. Os usuários podem trocar mensagens protegidas com outras organizações do Microsoft 365, bem como os não clientes que usam Outlook.com, Gmail e outros serviços de email.
 
-Siga as etapas abaixo para garantir que os novos recursos do OME estejam disponíveis na sua organização do Office 365.
+Siga as etapas abaixo para garantir que os novos recursos do OME estejam disponíveis na sua organização.
 
 ## <a name="verify-that-azure-rights-management-is-active"></a>Verifique se o Azure Rights Management está ativo
 
 Os novos recursos da OME aproveitam os recursos de proteção no[Azure RMS (Azure Rights Management Services)](https://docs.microsoft.com/azure/information-protection/what-is-information-protection), e a tecnologia usada pela[Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) para proteger emails e documentos por meio de controles de criptografia e acesso.
 
-O único pré-requisito para usar os novos recursos de OME que o [Azure Rights Management](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) deve ser ativado no locatário da sua organização. Caso esteja, o Office 365 ativa automaticamente os novos recursos de OME e você não precisa fazer nada.
+O único pré-requisito para usar os novos recursos de OME que o [Azure Rights Management](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) deve ser ativado no locatário da sua organização. Caso esteja, o Microsoft 365 ativa automaticamente os novos recursos de OME e você não precisa fazer nada.
 
 O Azure RMS também é ativado automaticamente para a maioria dos planos qualificados, portanto, provavelmente você não precise fazer nada. Para saber mais confira [Ativar o Gerenciamento de Direitos do Azure](https://docs.microsoft.com/azure/information-protection/activate-service).
 
@@ -55,15 +55,15 @@ Se você tiver desabilitado o Azure RMS, ou se ele não tiver sido ativado autom
 
 ## <a name="configure-management-of-your-azure-information-protection-tenant-key"></a>Configurar o gerenciamento de sua chave do locatário de proteção de informações do Azure
 
-Esta etapa é opcional. Permitir que a Microsoft gerencie a chave raiz da proteção de informações do Azure é a configuração padrão e a melhor prática recomendada para a maioria dos locatários do Office 365. Se esse for o caso, você não precisa fazer nada.
+Esta etapa é opcional. Permitir que a Microsoft gerencie a chave raiz da proteção de informações do Azure é a configuração padrão e a melhor prática recomendada para a maioria das organizações. Se esse for o caso, você não precisa fazer nada.
 
 Há muitos motivos, por exemplo, os requisitos de conformidade, que podem exigir a geração e o gerenciamento de sua própria chave raiz (também conhecida como (BYOK)). Se esse for o caso, recomendamos que você conclua as etapas necessárias antes de configurar os novos recursos do OME. Confira o artigo [Como planejar e implementar a chave locatário de proteção de informações do Azure](https://docs.microsoft.com/information-protection/plan-design/plan-implement-tenant-key) para saber mais.
 
 ## <a name="verify-new-ome-configuration-in-exchange-online-powershell"></a>Verificar a nova configuração do OME no PowerShell do Exchange Online
 
-Você pode verificar se o locatário do Office 365 está configurado corretamente para usar os novos recursos do Ome[no PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps).
+Você pode verificar se o locatário do Microsoft 365 está configurado corretamente para usar os novos recursos do OME no[Exchange Online do PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps).
   
-1. [Conecte-se ao Exchange Online do PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) usando uma conta com permissões de administrador global em seu locatário do Office 365.
+1. [Conecte-se ao Exchange Online do PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) usando uma conta com permissões de administrador global em seu locatário do Microsoft 365.
 
 2. Execute o cmdlet Get-IRMConfiguration.
 
@@ -81,7 +81,7 @@ Você pode verificar se o locatário do Office 365 está configurado corretament
      Test-IRMConfiguration -Sender securityadmin@contoso.com
      ```
 
-     - Fornecer um email de remetente é opcional, mas força o sistema a executar verificações adicionais. Use o endereço de email de qualquer usuário em seu locatário do Office 365.
+     - Fornecer um email de remetente é opcional, mas força o sistema a executar verificações adicionais. Use o endereço de email de qualquer usuário em seu locatário do Microsoft 365.
 
      Seus resultados devem ser semelhantes a:
 
@@ -99,7 +99,7 @@ Você pode verificar se o locatário do Office 365 está configurado corretament
             OVERALL RESULT: PASS
      ```
 
-   - O nome da sua organização do Office 365 substituirá *Contoso*.
+   - O nome da sua organização substituirá *Contoso*.
 
    - Os nomes dos modelos padrão podem ser diferentes daqueles exibidos acima. Confira [Configurando e Gerenciando modelos para a proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/configure-policy-templates) para saber mais.
 
@@ -111,7 +111,7 @@ Você pode verificar se o locatário do Office 365 está configurado corretament
 
 ## <a name="next-steps-define-mail-flow-rules-to-use-new-ome-capabilities"></a>Próximas etapas: definir regras de fluxo de emails para usar novos recursos do OME
 
-Se houver regras de fluxo de email configuradas anteriormente para criptografar emails na sua organização do Office 365, você precisará atualizar as regras existentes para usar os novos recursos do OME. Para novas implantações, você precisa criar novas regras de fluxo de emails.
+Se houver regras de fluxo de email configuradas anteriormente para criptografar emails na sua organização, você precisará atualizar as regras existentes para usar os novos recursos do OME. Para novas implantações, você precisa criar novas regras de fluxo de emails.
 
 >[!IMPORTANT]
 >Se você não atualizar as regras de fluxo de email existentes, os usuários continuarão a receber emails criptografados que usam o formato de anexo HTML anterior, em vez da nova experiência contínua do OME.

@@ -1,6 +1,6 @@
 ---
-title: Descoberta de RGPD, proteção e relatórios no ambiente de desenvolvimento/teste do Office 365
-description: Demonstre recursos de RGPD no Office 365.
+title: Descoberta de RGPD, proteção e relatórios no ambiente de desenvolvimento/teste
+description: Demonstre recursos de RGPD no Microsoft 365.
 f1.keywords:
 - NOCSH
 ms.author: bcarter
@@ -18,27 +18,27 @@ search.appverid:
 - MET150
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: f7bf98da5d358f9b76f38372353a1c2a9d0d45d3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6a16f48948cd40ea39f8d066471e902d2b5a6bf0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594085"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632336"
 ---
-# <a name="gdpr-discovery-protection-and-reporting-in-the-office-365-devtest-environment"></a>Descoberta de RGPD, proteção e relatórios no ambiente de desenvolvimento/teste do Office 365
+# <a name="gdpr-discovery-protection-and-reporting-in-the-devtest-environment"></a>Descoberta de RGPD, proteção e relatórios no ambiente de desenvolvimento/teste
 
- **Resumo:** Demonstre recursos de RGPD no Office 365. 
+ **Resumo:** demonstre recursos de RGPD no Microsoft 365. 
   
-Este artigo descreve como configurar e demonstrar a descoberta, a proteção e o relatório de informações de identificação pessoal (PII), para a Regulamentação Geral sobre a Proteção de Dados (RGPD) em um ambiente de desenvolvimento/teste do Office 365.
+Este artigo descreve como configurar e demonstrar a descoberta, a proteção e o relatório de informações de identificação pessoal (PII), para a Regulamentação Geral sobre a Proteção de Dados (RGPD) em um ambiente de desenvolvimento/teste do Microsoft 365.
   
-## <a name="phase-1-create-and-configure-your-trial-office-365-subscription"></a>Fase 1: Criar e configurar a sua assinatura de avaliação do Office 365
+## <a name="phase-1-create-and-configure-your-trial-microsoft-365-subscription"></a>Fase 1: Criar e configurar a sua assinatura de avaliação do Microsoft 365
 
-Primeiro, siga as etapas no artigo [Fase 2 do ambiente de desenvolvimento/teste do Office 365](https://docs.microsoft.com/Office365/Enterprise/office-365-dev-test-environment#phase-2-create-an-office-365-trial-subscription).
+Primeiro, siga as etapas no artigo em [Fase 2 do ambiente de desenvolvimento/teste do Microsoft 365](https://docs.microsoft.com/Office365/Enterprise/office-365-dev-test-environment#phase-2-create-an-office-365-trial-subscription).
 
 Em seguida, use estas etapas para configurar o gerente de Descoberta Eletrônica:
 
-1. Entre no locatário de avaliação do Office 365 com sua conta de administrador global.
-2. Na home page do Office 365, clique em **Segurança e Conformidade**.
+1. Entre no locatário de avaliação do Microsoft 365 com sua conta de administrador global.
+2. Na home page do Microsoft 365, clique em **segurança e conformidade**.
 3. Na nova guia Segurança e Conformidade, clique em **Permissões** > **Gerenciador de Descoberta Eletrônica**.
 4. Clique em **Editar** para o Gerenciador de Descoberta Eletrônica e clique em **Escolher o Gerenciador de Descoberta Eletrônica**.
 5. Clique em **+ Adicionar**, procure o nome da sua conta do administrador global e adicione sua conta de administrador global como um Gerente de Descoberta Eletrônica.
@@ -46,7 +46,7 @@ Em seguida, use estas etapas para configurar o gerente de Descoberta Eletrônica
   
 ## <a name="phase-2-add-personally-identifiable-information-to-your-tenant"></a>Fase 2: Adicionar as informações de identificação pessoal ao seu locatário
 
-Nesta fase, crie um documento com PII para um conjunto de exemplo de números de contas bancárias internacionais (IBANs) e armazene-o em um site do SharePoint Online no ambiente de desenvolvimento/teste do Office 365.
+Nesta fase, crie um documento com PII para um conjunto de exemplo de números de contas bancárias internacionais (IBANs) e armazene-o em um site do SharePoint Online no ambiente de desenvolvimento/teste do Microsoft 365.
 
 1. Abra o Microsoft Word no computador.
 2. Cole a tabela a seguir no arquivo do Word e salve-a como ‘IBANs.docx’ no computador local.
@@ -67,7 +67,7 @@ Nesta fase, crie um documento com PII para um conjunto de exemplo de números de
 Observação:- este conjunto de dados de amostra é derivado de informações publicamente disponíveis e destina-se a ser usado somente para fins de teste.
 
 3. Em uma nova guia do navegador, digite: **https://**\<NomeDoLocatário\>**.sharepoint.com**
-4. Clique em **Documentos** para abrir a biblioteca de documentos para esse site. Se você for solicitado a realizar um novo tour de experiência de lista, clique em **Avançar** até terminar.
+4. Clique em **documentos** para abrir a biblioteca de documentos para esse site. Se você for solicitado a realizar um novo tour de experiência de lista, clique em **avançar** até terminar.
 5.  Clique em **Carregar** > **Arquivos** e selecione o IBANs.docx criado na etapa 2.
 
   
@@ -99,7 +99,7 @@ Nesta fase, você pode criar um tipo personalizado de informações confidenciai
 - Um número de série de quatro dígitos. 
     - O intervalo de valores possível de um número de série que vai de 0000 a 9999.   
 
-A Contoso sempre faz referência aos clientes usando um CCN nas correspondências interna e externa, em documentos e outras formas. Eles precisam de um tipo personalizado confidencial para detectar o uso do CCN em conteúdo do Office 365 e assim aplicar proteção no uso desse formulário de informações de identificação pessoal.
+A Contoso sempre se refere aos clientes usando um CCN nas correspondências interna e externa, em documentos e outras formas. A Contoso precisa de um tipo de item confidencial personalizado para detectar o uso do CCN em conteúdo do Microsoft 365 e assim aplicar proteção no uso desse formulário de informações de identificação pessoal.
 
 1. Siga as instruções em [Conectar-se ao PowerShell do Centro de Conformidade e Segurança usando a autenticação multifator](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell?view=exchange-ps) e conecte-se ao Centro de Conformidade e Segurança com o UPN da sua conta de administrador global.
 2. Execute os seguintes comandos do PowerShell.
@@ -178,7 +178,7 @@ A Contoso sempre faz referência aos clientes usando um CCN nas correspondência
 
 ## <a name="phase-5-demonstrate-data-protection"></a>Fase 5: Demonstrar a proteção de dados
 
-A proteção de informações pessoais no Office 365 inclui o uso de recursos de prevenção contra perda de dados (DLP).  Com as políticas de DLP, é possível proteger automaticamente informações confidenciais no Office 365.
+A proteção de informações pessoais no Microsoft 365 inclui o uso de recursos de prevenção contra perda de dados (DLP).  Com as políticas de DLP, é possível proteger automaticamente informações confidenciais no Microsoft 365.
 
 Há várias maneiras de aplicar a proteção. Instruindo e aumentar a conscientização sobre onde os dados de residentes da UE estão armazenados em seu ambiente e como os seus funcionários têm permissão para gerenciá-los representa um nível de proteção de informações usando a DLP do Office 365.
 
@@ -189,7 +189,7 @@ Nesta fase, você cria uma nova política DLP e demonstra como ela é aplicada a
 3. Clique em **+ Criar uma política**.
 4. Em **Iniciar com um modelo ou criar uma política personalizada**, clique em **Personalizado** > **Política personalizada** > **Avançar**.
 5. Em **Nomear sua política**, forneça os seguintes detalhes e clique em **Avançar**: a. Nome: **Política de PII de cidadão da UE** b Descrição: **Proteger as informações de identificação pessoal de cidadãos europeus**
-6. Em **Escolher locais**, selecione **Todos os locais no Office 365**. Isso inclui conteúdo no email do Exchange e documentos do OneDrive e do SharePoint. E, em seguida, clique em **Avançar**.
+6. Em **escolher locais**, selecione **todos os locais no Microsoft 365**. Isso inclui conteúdo no email do Exchange e documentos do OneDrive e do SharePoint. E, em seguida, clique em **avançar**.
 7. Em **Personalizar o tipo de conteúdo que deseja proteger**, clique em **Encontrar conteúdo que contém:** e clique em **Editar**.
 8. Em **Escolher os tipos de conteúdo para proteger**, clique em **Adicionar** > **Tipos de informações confidenciais**.
 9. Em **Tipos de informações confidenciais**, clique em **+ Adicionar**.
@@ -233,7 +233,7 @@ Observação:- este conjunto de dados de amostra é derivado de informações pu
 
 ## <a name="phase-6-demonstrate-reporting"></a>Etapa 6: Demonstrar relatórios
  
-Nesta fase, você demonstra relatórios do Office 365 com base na política DLP configurada na fase 5.
+Nesta fase, você demonstra relatórios do Microsoft 365 com base na política DLP configurada na fase 5.
 
    1. Na guia Segurança e Conformidade do navegador, clique em **Página Inicial**.
    2. Clique em **Relatórios** > **Painel** > **Correspondências de políticas DLP**.
