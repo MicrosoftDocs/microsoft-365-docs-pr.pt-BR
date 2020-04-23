@@ -16,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a criar regras de fluxo de emails (regras de transporte) para criptografar e descriptografar mensagens usando a criptografia de mensagem do Office 365.
-ms.openlocfilehash: 063c3cf5d33e03e7e0c456a6937fee57451ea709
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f9e9440c40b68f36d0dcca069dcd0797412af184
+ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632976"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43790700"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages"></a>Definir regras de fluxo de email para criptografar mensagens de email
 
@@ -91,6 +91,28 @@ Você pode definir regras de fluxo de email para acionar a criptografia de mensa
    Você pode escolher **Adicionar ação** se quiser especificar outra ação.
 
 7. Na lista a **seguir** , remova todas as ações atribuídas para **Modificar a segurança** \> da mensagem **aplique a versão anterior do ome**.
+
+8. Selecione **Salvar**.
+
+## <a name="create-mail-flow-rules-to-remove-encryption-for-outgoing-email-messages-with-the-new-ome-capabilities"></a>Criar regras de fluxo de email para remover a criptografia para mensagens de email de saída com os novos recursos do OME
+
+Você pode definir regras de fluxo de email para o disparo de remover criptografia de mensagem com os novos recursos do OME usando o Eat.
+
+### <a name="use-the-eac-to-create-a-rule-to-remove-encryption-from-email-messages-with-the-new-ome-capabilities"></a>Use o Eat para criar uma regra para remover a criptografia de mensagens de email com os novos recursos do OME
+
+1. Em um navegador da Web, usando uma conta corporativa ou de estudante que recebeu permissões de administrador global, [entre no Office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426#ID0EAABAAA=Web_browser).
+
+2. Escolha o bloco **administrador** .
+
+3. No centro de administração do Microsoft 365, escolha central de **Administração** \> do **Exchange**.
+
+4. No Eat, vá para **regras** de **fluxo** \> de email e selecione **novo** ![novo](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> ícone **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+
+5. Em **nome**, digite um nome para a regra, como remover a criptografia de emails de saída.
+
+6. Em **aplicar esta regra se** selecionar as condições em que a criptografia deve ser removida das mensagens, adicione **o remetente está localizado** \> **dentro da organização**. Agora, adicione mais condições a destinatários específicos de destino, como **o destinatário está localizado** \> **fora da organização**.
+
+7. Em **faça o seguinte**, selecione **Modificar a segurança** \> da mensagem **remover a criptografia de mensagem do Office 365 e a proteção de direitos**.
 
 8. Selecione **Salvar**.
 

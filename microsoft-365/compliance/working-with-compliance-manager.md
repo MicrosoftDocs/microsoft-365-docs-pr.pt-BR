@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O gerente de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho. Use-o para controlar, atribuir e verificar atividades de conformidade regulatória relacionadas a produtos da Microsoft.
-ms.openlocfilehash: 2a2c0b9311062da1269f7b56c926ced9e038627f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2e67114c4b59fbb676c45995c08b9e4faa05e55b
+ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626227"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43790658"
 ---
 # <a name="working-with-microsoft-compliance-manager-preview"></a>Trabalhando com o Microsoft Compliance Manager (versão prévia)
 
@@ -35,7 +35,7 @@ O Gerenciador de conformidade pode ser acessado pelo portal de confiança do ser
 2. Entre com sua conta de serviço Microsoft, que é a conta de usuário do Office 365, Microsoft 365 ou Azure Active Directory (Azure AD).
 
 > [!NOTE]
-> No portal de confiança do serviço, selecione **Gerenciador de conformidade**, que é a versão de visualização com os recursos mais atuais. Não selecione **Gerenciador de conformidade (clássico)**, que contém recursos herdados não cobertos por esta documentação.
+> No portal de confiança do serviço, selecione **Gerenciador de conformidade**, que é a versão de visualização com os recursos mais atuais. Não selecione **Gerenciador de conformidade (clássico)**, que contém recursos de lançamento antecipado não cobertos por esta documentação.
 
 ## <a name="administration"></a>Administração
 

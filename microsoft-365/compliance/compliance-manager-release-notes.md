@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: 3e710f83bebd94719ef66cde7844f1301611adf4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 73fa3ac2ca15d922a74e1d3ceef6cc74a3bdedca
+ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637531"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43790564"
 ---
 # <a name="microsoft-compliance-manager-preview-release-notes"></a>Notas de versão do Gerenciador de conformidade da Microsoft (prévia)
 
@@ -62,6 +62,10 @@ Agora, o Gerenciador de conformidade está disponível nos seguintes idiomas, al
 ## <a name="known-issues-in-compliance-manager-preview"></a>Problemas conhecidos no gerente de conformidade (visualização)
 
 A seção a seguir aborda problemas conhecidos na versão atual do Gerenciador de conformidade.
+
+### <a name="dimension-values"></a>Valores de dimensão
+
+Como resultado da migração de dados durante a versão de abril de 2020, algumas organizações podem ver um **produto** ou um valor de **certificação** de "Custom" em suas avaliações e modelos. Esse valor foi inserido automaticamente se os campos de **produto** ou de **certificação** estiverem em branco, e não haverá efeito nos fluxos de trabalho de dados.
 
 ### <a name="compliance-score"></a>Pontuação de Conformidade
 

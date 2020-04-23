@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4ef19b106d5b00bb8b436b56b6da8bb653873f3a
-ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
+ms.openlocfilehash: 02be641b93ffdb245ae6073358b66c1204e46093
+ms.sourcegitcommit: 4581afb3116ccd7d0144398e83cd6a6990e3683b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43583318"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43772512"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>Política de segurança de serviços de informações de justiça criminal (CJIS)
 
@@ -82,8 +82,7 @@ A Microsoft assina um contrato de informação com um CSA (CJIS Systems Agency) 
 
 - [Serviços de informações de justiça criminal](https://aka.ms/cjis)
 - [Política de segurança do CJIS](https://aka.ms/cjis-security-policy)
-- [CJIS Security Policy versão 5,3 Backgrounder](https://aka.ms/cjis-backgrounder)
 - [Diretrizes de implementação do CJIS para o governo do Azure](https://aka.ms/cjisimplementationguidelines)
 - [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/?linkid=2087246)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

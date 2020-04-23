@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Notas de versão e problemas conhecidos para a pontuação de conformidade da Microsoft (visualização), um recurso no centro de conformidade do M365 que ajuda a simplificar e automatizar avaliações de risco.
-ms.openlocfilehash: dd7c99d2f0a86826be7803dc36e390250a4fc37b
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 4368255c87da118174ad08b52994865a8fdcd0af
+ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141546"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43790586"
 ---
 # <a name="microsoft-compliance-score-preview-release-notes"></a>Notas de versão da Pontuação de conformidade da Microsoft (visualização)
 

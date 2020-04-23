@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e90d5e47c6aa5ac6c2813f150e8136b93214fa3d
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: e1bd69e7038ce3bf6372a3f53cd985ce54f350a8
+ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42221993"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43781446"
 ---
 # <a name="nist-sp-800171"></a>SP DO NIST 800 – 171
 
@@ -40,7 +40,7 @@ Organizações de avaliação de terceiros credenciadas, Kratos SecureInfo e Coa
 
 Os requisitos do NIST SP 800 – 171 são um subconjunto do NIST SP 800-53, o padrão que o FedRAMP usa. Apêndice D do NIST SP 800 – 171 fornece um mapeamento direto de seus requisitos de segurança da CUI para os controles de segurança relevantes no NIST SP 800-53, para os quais os serviços de nuvem dentro do escopo já foram avaliados e autorizados no programa FedRAMP.
 
-Qualquer entidade que processa ou armazena CUI do governo dos EUA — instituições de pesquisa, empresas de consultoria, prestadores de serviços de produção — devem estar em conformidade com os requisitos estritos do NIST SP 800 – 171. Este atestado significa que os serviços de nuvem em escopo da Microsoft podem acomodar clientes que procuram implantar cargas de trabalho da CUI com a garantia de que a Microsoft está em conformidade total. Por exemplo, todos os prestadores de serviço do DoD que processam, armazenam ou transmitem "informações sobre defesa abordadas" usando os serviços de nuvem da Microsoft em seus sistemas de informações atendem às cláusulas DFARS do departamento de defesa dos EUA que exigem conformidade com a segurança requisitos do NIST SP 800 – 171.
+Qualquer entidade que processa ou armazena CUI do governo dos EUA — instituições de pesquisa, empresas de consultoria, prestadores de serviços de produção — devem estar em conformidade com os requisitos estritos do NIST SP 800 – 171. Este atestado significa que os serviços de nuvem em escopo da Microsoft podem acomodar clientes que procuram implantar cargas de trabalho da CUI com a garantia de que a Microsoft está em conformidade total. Por exemplo, todos os prestadores de serviço do DoD que processam, armazenam ou transmitem "informações sobre defesa abordadas" usando os serviços de nuvem da Microsoft em seus sistemas de informações atendem às cláusulas do departamento de defesa dos EUA que exigem conformidade com os requisitos de segurança do NIST SP 800 – 171.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
@@ -55,7 +55,7 @@ Qualquer entidade que processa ou armazena CUI do governo dos EUA — instituiç
 
 ## <a name="how-to-implement"></a>Como implementar
 
-- [NIST SP 800 – Blueprint 171](https://aka.ms/NIST-800-171-Blueprint): Obtenha suporte para implementar cargas de trabalho no Azure que estejam em conformidade com o NIST SP 800 – 171.
+- [Exemplos do Azure Blueprint](https://docs.microsoft.com/azure/governance/blueprints/samples/): Obtenha suporte para implementar cargas de trabalho compatíveis com controles baseados em NIST.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
