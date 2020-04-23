@@ -149,10 +149,6 @@
           href: document-fingerprinting.md
         - name: Funções DLP para informações confidenciais
           href: what-the-dlp-functions-look-for.md
-    - name: Criptografia no M365
-      href: encryption.md
-    - name: Criptografia de Serviço do Office 365
-      href: office-365-service-encryption.md
     - name: Chave de Cliente
       items:
         - name: Criptografia de serviço com Chave de Cliente no Office 365
@@ -163,7 +159,7 @@
           href: customer-key-manage.md
         - name: Rolar ou girar uma Chave de Cliente ou uma chave de disponibilidade
           href: customer-key-availability-key-roll.md
-        - name: Saiba mais sobre a chave disponibilidade da Chave de Cliente do Office 365
+        - name: Saiba mais sobre a chave disponibilidade da Chave de Cliente
           href: customer-key-availability-key-understand.md
     - name: Criptografia de email
       href: email-encryption.md
@@ -204,8 +200,6 @@
               href: legacy-information-for-message-encryption.md
             - name: Configurar o Azure Rights Management para a versão anterior de criptografia de mensagem do Office 365
               href: set-up-azure-rms-for-previous-version-message-encryption.md
-    - name: Configurar o IRM no centro de administração do SharePoint
-      href: set-up-irm-in-sp-admin-center.md
     - name: Entender a classificação de dados (visualização)
       href: data-classification-overview.md
       items:
@@ -345,6 +339,8 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=867039'
 - name: Gerenciar a Descoberta Eletrônica
   items:
+    - name: Descoberta eletrônica no Microsoft 365
+      href: ediscovery.md
     - name: Pesquisa de conteúdo
       items:
         - name: Visão geral da pesquisa de conteúdo
@@ -414,8 +410,16 @@
               href: clone-a-content-search.md
     - name: Descoberta Eletrônica Central
       items:
-        - name: Gerenciar casos de Descoberta Eletrônica
-          href: ediscovery-cases.md
+        - name: Introdução à Descoberta Eletrônica Central
+          href: get-started-core-ediscovery.md
+        - name: Criar retenções de descoberta eletrônica
+          href: create-ediscovery-holds.md
+        - name: Pesquisar de conteúdo em um caso
+          href: search-for-content-in-core-ediscovery.md
+        - name: Exportar o conteúdo de um caso
+          href: export-content-in-core-ediscovery.md
+        - name: 'Fechar, reabrir e excluir um caso'
+          href: close-reopen-delete-core-ediscovery-cases.md
         - name: Referência da Descoberta Eletrônica Principal
           items:
             - name: Atribuir permissões de Descoberta Eletrônica
@@ -430,6 +434,12 @@
               href: use-a-script-to-add-users-to-a-hold-in-ediscovery.md
             - name: Criar um relatório sobre bloqueios de Descoberta Eletrônica
               href: create-a-report-on-holds-in-ediscovery-cases.md
+            - name: Exportar um relatório de pesquisa
+              href: export-a-content-search-report.md
+            - name: Exibir as estatísticas de palavra-chave dos resultados da pesquisa
+              href: view-keyword-statistics-for-content-search.md
+            - name: Preparar resultados de pesquisa para a Descoberta Eletrônica Avançada (clássico)
+              href: prepare-search-results-for-advanced-ediscovery.md
             - name: Pesquisar e limpar dados vazados
               href: data-spillage-scenariosearch-and-purge.md
             - name: Preservar destinatários Cco para pesquisa
@@ -769,26 +779,26 @@
       href: get-started-with-service-trust-portal.md
     - name: Pontuação de Conformidade e Gerenciador de Conformidade
       items:
-        - name: Pontuação de Conformidade (visualização)
+        - name: Pontuação de Conformidade (Visualização)
           href: compliance-score.md
-        - name: Configurar a Pontuação de Conformidade (visualização)
+        - name: Configurar a Pontuação de Conformidade (Visualização)
           href: compliance-score-setup.md
-        - name: Trabalhando com a Pontuação de Conformidade (visualização)
+        - name: Trabalhando com a Pontuação de Conformidade (Visualização)
           href: working-with-compliance-score.md
-        - name: Cálculo da Pontuação de Conformidade (visualização)
+        - name: Cálculo da Pontuação de Conformidade (Visualização)
           href: compliance-score-methodology.md
-        - name: Notas de versão da Pontuação de Conformidade (visualização)
+        - name: Notas de versão da Pontuação de Conformidade (Visualização)
           href: compliance-score-release-notes.md
-        - name: Perguntas e respostas da Pontuação de Conformidade (visualização)
+        - name: Perguntas e respostas da Pontuação de Conformidade (Visualização)
           href: compliance-score-faq.md
-        - name: Gerenciador de Conformidade (visualização)
+        - name: Gerenciador de Conformidade (Visualização)
           href: compliance-manager-overview.md
           items:
-            - name: Notas de versão do Gerenciador de Conformidade (visualização)
+            - name: Novidades do Gerenciador de Conformidade (Visualização)
               href: compliance-manager-release-notes.md
-            - name: Trabalhar com o Gerenciador de conformidade (visualização)
+            - name: Trabalhar com o Gerenciador de Conformidade (Visualização)
               href: working-with-compliance-manager.md
-            - name: Gerenciador de Conformidade (clássico)
+            - name: Gerenciador de Conformidade (Clássico)
               href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: Ferramenta de solicitação de dados RGPD do indivíduo
       href: manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md
@@ -1202,7 +1212,7 @@
               href: offering-pdpa-argentina.md
 - name: Office 365 Enterprise
   href: 'https://docs.microsoft.com/Office365/Enterprise'
-- name: Office 365 Business
+- name: Aplicativos do Microsoft 365 para empresas
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
 - name: Segurança do Microsoft 365
   href: 'https://docs.microsoft.com/microsoft-365/security/'

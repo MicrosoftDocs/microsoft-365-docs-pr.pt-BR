@@ -1,5 +1,5 @@
 ---
-title: Recomendações de política de senha para o Office 365
+title: Recomendações de política de senha
 f1.keywords:
 - CSH
 ms.author: kwekua
@@ -18,18 +18,18 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Aprenda a tornar a sua organização mais segura contra ataques de senha e por que você deve bloquear senhas comuns e habilitar a autenticação multifator baseada em risco.
-ms.openlocfilehash: 74f78b6abcc3e3aa7eb3c18c858afcd8e916d432
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: eff22b5591893ea10f8e04e8e7f470e8a0bf9079
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516918"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627819"
 ---
-# <a name="password-policy-recommendations-for-office-365"></a>Recomendações de política de senha para o Office 365
+# <a name="password-policy-recommendations"></a>Recomendações de política de senha
  
-Como administrador de uma organização do Office 365, você é responsável por definir a política de senha para usuários em sua organização. Definir a política de senha pode ser complicado e confuso, e este artigo fornece recomendações para tornar a sua organização mais segura contra ataques de senha.
+Como administrador de uma organização, você é responsável por definir a política de senha para usuários em sua organização. Definir a política de senha pode ser complicado e confuso, e este artigo fornece recomendações para tornar a sua organização mais segura contra ataques de senha.
   
-Para determinar a frequência com que as senhas do Office 365 expiram em sua organização, confira [Definir política de expiração de senha para o Office 365](../manage/set-password-expiration-policy.md).
+Para determinar a frequência com que as senhas do Microsoft 365 expiram em sua organização, confira [Definir política de expiração de senha para o Office 365](../manage/set-password-expiration-policy.md).
   
 ## <a name="understanding-password-recommendations"></a>Compreendendo as recomendações de senha
 
