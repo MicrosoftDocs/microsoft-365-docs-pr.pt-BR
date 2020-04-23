@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os rótulos de retenção, você pode basear um período de retenção no momento que um tipo específico de evento ocorre. O evento dispara o início do período de retenção, e todo o conteúdo com um rótulo de retenção aplicado para esse tipo de evento recebe as ações de retenção do rótulo. A retenção controlada por eventos é usada como parte de um processo de gerenciamento de registros.
-ms.openlocfilehash: 4389f3639de3e9e036491026455ce62a9e258432
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: a33c9ae73c2a1721e62c4c1c294270cc8d27d198
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105618"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43616015"
 ---
 # <a name="overview-of-event-driven-retention"></a>Visão geral da retenção controlada por eventos
 
@@ -84,7 +84,7 @@ Este é o fluxo de trabalho de nível superior para retenção controlada por ev
 
 ### <a name="step-1-create-a-label-whose-retention-period-is-based-on-an-event"></a>Etapa 1: Criar um rótulo cujo período de retenção seja baseado em um evento
 
-Na central de conformidade do Microsoft 365, na central de segurança do Microsoft 365 ou na Central de Conformidade de&amp; Segurança do Office 365, na navegação à esquerda, escolha **Classificações** > **Rótulos de retenção** > **Rótulos** guia > **Criar um rótulo**.
+Na central de conformidade do Microsoft 365, na central de segurança do Microsoft 365 ou na Central de Conformidade &amp; Segurança, na navegação à esquerda, escolha a guia **Classificações** > **Rótulos de retenção** > **Rótulos** > **Criar um rótulo**.
   
 Ao criar o rótulo, ative a retenção e escolha a opção exibida abaixo para reter ou excluir o conteúdo com base em um evento. Isso significa que as configurações de retenção não entrarão em vigor até a Etapa 5, quando você criar um evento na página **Eventos**. 
   
@@ -168,7 +168,7 @@ Para saber mais, veja [Consultas de palavra-chave e condições de pesquisa para
 
 Para acessar a página **Eventos**, os revisores devem ser membros de um grupo com a função **Gerenciamento de disposição** e a função **Logs de auditoria somente para exibição**. Recomendamos criar um novo grupo de funções denominado Revisores de disposição, adicionar essas duas funções a esse grupo e incluir membros ao grupo de funções. 
   
-Para saber mais, consulte [Dar aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
+Para saber mais, confira [Fornecer aos usuários acesso ao Centro de Conformidade &amp; Segurança](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
   
 ## <a name="automate-events-by-using-powershell"></a>Automatizar eventos usando o PowerShell
 

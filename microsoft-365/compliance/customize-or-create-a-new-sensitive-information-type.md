@@ -19,17 +19,17 @@ search.appverid:
 - MET150
 ms.custom: ''
 ms.assetid: ''
-description: Saiba como modificar ou criar novos tipos de informação confidencial do Office 365 para GDPR.
-ms.openlocfilehash: 006a3e7be35000513053321ebb500cbd627e8779
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Saiba como modificar ou criar novos tipos de informação confidencial para GDPR.
+ms.openlocfilehash: e29193e3fdb7f4d2cd6a5810137bc120fb1171e5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595478"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637773"
 ---
 # <a name="customize-or-create-a-new-sensitive-information-type"></a>Personalizar ou criar um novo tipo de informação confidencial
 
-Este artigo fornece três exemplos para demonstrar como modificar ou criar novos tipos de informação confidencial do Office 365 para GDPR.
+Este artigo fornece três exemplos para demonstrar como modificar ou criar novos tipos de informação confidencial para GDPR.
 
 - Modificar um tipo de informação confidencial existente – Número de Cartão de Débito da UE
 
@@ -75,11 +75,11 @@ Para personalizar um tipo de informação confidencial:
 
 8.  Repita o rastreamento do conteúdo para identificar informações confidenciais. Confira [Solicitar manualmente o rastreamento e a reindexação de um site](https://support.office.com/article/Manually-request-crawling-and-re-indexing-of-a-site-a-library-or-a-list-9AFA977D-39DE-4321-B4CA-8C7C7E6D264E).
 
-## <a name="example-modify-the-eu-debit-card-number-sensitive-information-type"></a>Exemplo: modificar o tipo de informação confidencial do 'Número de Cartão de Débito da UE'
+## <a name="example-modify-the-eu-debit-card-number-sensitive-information-type"></a>Exemplo: modificar o tipo de informação confidencial do "Número de Cartão de Débito da UE"
 
 Melhorar a precisão das regras de DLP nos sistemas exige testes para detectar um conjunto de dados de exemplo e pode exigir um ajuste aprimorado por meio de testes e modificações repetitivas. Este exemplo demonstra modificações realizadas no tipo de informação confidencial do "Número de Cartão de Débito da UE" para melhorar a precisão.
 
-Ao pesquisar um Número de Cartão de Débito da UE em nosso exemplo, a definição do número estará rigorosamente definida como 16 dígitos usando um padrão complexo e estará sujeita à validação de uma soma de verificação. Não será possível alterar esse padrão devido à definição da cadeia de caracteres desse tipo de informação confidencial. No entanto, podemos fazer os seguintes ajustes para aumentar a precisão da forma como o Office 365 DLP localiza esse tipo de informação confidencial no Office 365.
+Ao pesquisar um Número de Cartão de Débito da UE em nosso exemplo, a definição do número estará rigorosamente definida como 16 dígitos usando um padrão complexo e estará sujeita à validação de uma soma de verificação. Não será possível alterar esse padrão devido à definição da cadeia de caracteres desse tipo de informação confidencial. No entanto, podemos fazer os seguintes ajustes para aumentar a precisão da forma como o DLP localiza esse tipo de informação confidencial no Office 365.
 
 ### <a name="proximity-modification"></a>Modificação de proximidade
 
@@ -139,7 +139,7 @@ Observação: vários novos tipos de informação confidencial estarão brevemen
 
 ### <a name="step-1--use-kql-queries-and-key-words-to-find-additional-data-in-your-environment"></a>Etapa 1: Usar consultas KQL e palavras-chave para encontrar dados adicionais em seu ambiente
 
-Talvez seja preciso criar outras consultas para localizar dados pessoais sujeitos à GDPR. A Pesquisa de Conteúdo usa a Keyword Query Language (KQL) para localizar os dados. Não é possível detectar os dados confidenciais mais importantes com precisão usando apenas a KQL sem os tipos de informação confidencial. Portanto, o objetivo é testar e otimizar cadeias de caracteres da KQL usando a Pesquisa de Conteúdo e usá-las para criar e ajustar novos tipos de informação confidencial para alcançar ainda mais precisão.
+Talvez seja preciso criar outras consultas para localizar dados pessoais sujeitos ao GDPR. A Pesquisa de Conteúdo usa a KQL (Keyword Query Language) para localizar os dados. Não é possível detectar os dados confidenciais mais importantes com precisão usando apenas a KQL sem os tipos de informação confidencial. Portanto, o objetivo é testar e otimizar cadeias de caracteres da KQL usando a Pesquisa de Conteúdo e usá-las para criar e ajustar novos tipos de informação confidencial para alcançar ainda mais precisão.
 
 Use estes recursos para formular e otimizar consultas usando KQL:
 
@@ -157,7 +157,7 @@ Para saber mais, confira [Consultas de palavra-chave e condições de pesquisa p
 
 Os endereços de email são considerados informações confidenciais relacionadas aos assuntos de dados. Isso é um exemplo simples para demonstrar como a Pesquisa de Conteúdo pode ajudar.
 
-As palavras-chave e o KQL não podem ser usados em conjunto. Use essas ferramentas separadamente para aperfeiçoar sua consulta e determinar as palavras-chave que podem ser úteis para os tipos de informação confidencial.
+Palavras-chave e KQL não podem ser usadas em conjunto. Use essas ferramentas separadamente para aperfeiçoar sua consulta e determinar as palavras-chave que podem ser úteis para os tipos de informação confidencial.
 
 ### <a name="kql-query"></a>Consulta KQL
 
@@ -294,7 +294,7 @@ Exemplos de CCNs:
 >
 > 17040O1118
 
-A Contoso sempre faz referência aos clientes usando um CCN nas correspondências interna e externa, em documentos, etc. A empresa deseja criar um tipo de informação confidencial personalizado para detectar o uso do CCN no Office 365 e assim aplicar proteção no uso desse formulário de dados pessoais.
+A Contoso sempre faz referência aos clientes usando um CCN nas correspondências interna e externa, em documentos etc. A empresa deseja criar um tipo de informação confidencial personalizado para detectar o uso do CCN e, assim, aplicar proteção no uso desse formulário de dados pessoais.
 
 ### <a name="create-a-new-sensitive-information-type-for-contoso-customer-number"></a>Criar um novo tipo de informação confidencial para o número de cliente da Contoso
 
@@ -312,7 +312,7 @@ A Contoso sempre faz referência aos clientes usando um CCN nas correspondência
 <td align="left">A Contoso usa o PowerShell e a Pesquisa de Conteúdo para encontrar documentos que correspondem a um conjunto de exemplos de CCNs.</td>
 <td align="left">
 
-<p>#Conectar-se ao Centro de Conformidade e Segurança do Office 365</p>
+<p>#Conectar ao Centro&amp; de Conformidade e Segurança</p>
 <p>$adminUser = &quot;davib@contoso.com&quot;</p>
 <p>Connect-IPPSSession -UserPrincipalName $adminUser</p>
 <p>#Criar e iniciar pesquisa de dados de exemplo</p>
@@ -363,7 +363,7 @@ A Contoso sempre faz referência aos clientes usando um CCN nas correspondência
 <tr class="even">
 <td align="left">8</td>
 <td align="left">A Contoso cria o tipo de informação confidencial personalizada com o seguinte PowerShell.</td>
-<td align="left"><p>#Conectar-se ao Centro de Conformidade e Segurança do Office 365</p>
+<td align="left"><p>#Conectar ao Centro&amp; de Conformidade e Segurança</p>
 <p>$adminUser = &quot;davib@contoso.com&quot;</p>
 <p>Connect-IPPSSession -UserPrincipalName $adminUser</p>
 <p>#Criar novo tipo de informação confidencial</p>

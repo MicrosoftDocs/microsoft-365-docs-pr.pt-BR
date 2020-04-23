@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: A Auditoria Avançada no Microsoft 365 fornece novos recursos de auditoria para ajudar sua organização com investigações forenses e de conformidade.
-ms.openlocfilehash: bdde2552d2c5ccd790740e1f9077e5d26391e920
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b1a79598fc49d710c54a23dc9ce92c9f2b7f5805
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634539"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632276"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Auditoria Avançada no Microsoft 365
 
@@ -65,7 +65,7 @@ Para obter informações sobre registros de auditoria para atividades MailItemsA
 
 ### <a name="search-for-mailitemsaccessed-audit-records"></a>Pesquisar registros de auditoria MailItemsAccessed
 
-Para pesquisar registros de auditoria MailItemsAccessed, é possível pesquisar a atividade **Itens da caixa de correio acessados**​​ na lista suspensa **Atividades da caixa de correio do Exchange** na [ferramenta de pesquisa de log de auditoria](search-the-audit-log-in-security-and-compliance.md) no Centro de Conformidade e Segurança do Office 365.
+Para pesquisar registros de auditoria MailItemsAccessed, é possível pesquisar a atividade **Itens da caixa de correio acessados**​​ na lista suspensa **Atividades da caixa de correio do Exchange** na [ferramenta de pesquisa de log de auditoria](search-the-audit-log-in-security-and-compliance.md) no Centro de Conformidade e Segurança.
 
 ![Pesquisar ações MailItemsAccessed na ferramenta de pesquisa de log de auditoria](../media/MailItemsAccessedSCC1.png)
 
@@ -85,7 +85,7 @@ Para mais informações, confira a seção "limitação da API" em [Referência 
 
 **Onde posso acessar a Auditoria Avançada?**
 
-Depois que a Auditoria Avançada for lançada em sua organização, você poderá criar políticas de retenção de log de auditoria e procurar registros de auditoria MailItemsAccessed usando a ferramenta de pesquisa de log de auditoria no [Centro de Conformidade e Segurança do Office 365](https://protection.office.com). Estamos trabalhando para implantar a Auditoria Avançada no [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com) nas próximas semanas.
+Depois que a Auditoria Avançada for lançada em sua organização, você poderá criar políticas de retenção de log de auditoria e procurar registros de auditoria MailItemsAccessed usando a ferramenta de pesquisa de log de auditoria no [Centro de Conformidade e Segurança](https://protection.office.com). Estamos trabalhando para implantar a Auditoria Avançada no [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com) nas próximas semanas.
 
 **Todo usuário precisa de uma licença E5 para se beneficiar da Auditoria Avançada?**
 

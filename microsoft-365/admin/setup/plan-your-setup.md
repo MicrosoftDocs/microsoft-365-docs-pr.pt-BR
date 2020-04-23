@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
 description: Saiba o que você precisa fazer para configurar seu Microsoft 365 para empresas.
-ms.openlocfilehash: 97463e624968c5b3edf563e916cbf4929ac581b6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d02e1aaf03449bd976b8db549274002b3ebb6ed6
+ms.sourcegitcommit: b458277f0a9937555bc6c5b3fb2a41613f7cc9a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627565"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43794024"
 ---
 # <a name="plan-your-setup-of-microsoft-365-for-business"></a>Planejar a configuração do Microsoft 365 para empresas
 
@@ -93,7 +93,7 @@ Se você estiver planejando migrar de um serviço de email existente para o Micr
   
 Se você for usar o Microsoft 365 para o seu email:
   
-- Para mover seu endereço de email comercial (como o *Rob@contoso.com*) de outro serviço de email para o Microsoft 365, você precisará direcionar seu email para que ele seja entregue em sua nova caixa de correio do Microsoft 365. Para fazer isso, selecione **migrar os dados dos seus usuários** na página de **configuração** , onde orientamos você pelas atualizações que você precisa fazer no seu host de domínio, passo a passo.
+- Para mover seu endereço de email comercial (como *rob\@contoso.com*) de outro serviço de email para o Microsoft 365, você precisa direcionar seu email para que ele seja entregue em sua nova caixa de correio do Microsoft 365. Para fazer isso, selecione **migrar os dados dos seus usuários** na página de **configuração** , onde orientamos você pelas atualizações que você precisa fazer no seu host de domínio, passo a passo.
 
 - Depois de atualizar o host do seu domínio, as alterações normalmente entrarão em vigor em apenas uma ou duas horas. Mas esteja ciente de que às vezes pode levar até 72 horas para que as alterações sejam atualizadas na Internet.
 

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e2a26b91de38c876145b9b5b1c7765058b4b25a3
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: 4376d2ca5ac27ec8e12f266bb7d3bb54289c1dbd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222053"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637521"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>Código de Conduta ISO/IEC 27018 para Proteção de Dados Pessoais na Nuvem
 
@@ -45,8 +45,8 @@ Saiba mais sobre os benefícios da ISO-Iec-27018 no Microsoft Cloud: [Baixe o in
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
 
 - [Azure, Azure Governamental e Azure Alemanha](https://aka.ms/AzureCompliance)
-- Segurança no Aplicativo na Nuvem
-- Serviços Profissionais da Microsoft: Premier e no Local para Azure, Dynamics 365, Intune e para clientes de médias empresas e corporativos do Office 365.
+- Cloud App Security
+- Serviços Profissionais da Microsoft: Premier e no Local para Azure, Dynamics 365, Intune e para clientes de médias empresas e corporativos do Microsoft 365 para empresas.
 - [Dynamics 365 e Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
 - Genomics
 - Gráfico
@@ -106,7 +106,7 @@ Este código de conduta aplica-se a CSPs que processam PII sob contratação de 
 
 No contexto da ISO/IEC 27018:
 
-- Os ’controladores’ controlam a coleta, manutenção, processamento ou uso de informações pessoais; incluem aqueles que as controlam em nome de outra empresa.
+- Os “controladores” controlam a coleta, manutenção, processamento ou uso de informações pessoais; incluem aqueles que as controlam em nome de outra empresa.
 - Os ‘processadores’ processam informações em nome dos controladores; não tomam decisões sobre como usar as informações ou as finalidades do processamento. Ao fornecer serviços de nuvem empresarial, a Microsoft — como seu fornecedor — é um processador de informações.
 
 **Onde posso ver as informações de conformidade da Microsoft com o ISO/IEC 27018?**
@@ -123,7 +123,7 @@ Contudo, você é responsável por contratar um avaliador para analisar a confor
 
 ## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
 
-A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudá-lo a entender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [configurar a Pontuação de conformidade](compliance-score-setup.md), selecione o [modelo ISO 27018](https://go.microsoft.com/fwlink/?linkid=2117523) pré-configurado do menu suspenso **Template** para ajudar sua organização a atender aos requisitos deste regulamento.
+A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso de visualização no [Centro de conformidade do Microsoft 365](microsoft-365-compliance-center.md) para ajudar você a compreender a postura de conformidade da sua organização e realizar ações para ajudar a reduzir os riscos. Depois de [configurar a Pontuação de conformidade](compliance-score-setup.md), selecione o [modelo ISO 27018](https://go.microsoft.com/fwlink/?linkid=2117523) pré-configurado do menu suspenso **Template** para ajudar sua organização a atender aos requisitos deste regulamento.
 
 ## <a name="resources"></a>Recursos
 

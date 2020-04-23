@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 description: A Cohasset Associates comprovou que, quando o Exchange Online e o Centro de Conformidade e Segurança são configurados conforme recomendado, eles atendem aos requisitos de armazenamento relevantes das normas 1.31(c)-(d) da CFTC, 4511 da FINRA e 17a-4 da SEC. A avaliação está disponível para baixar.
-ms.openlocfilehash: bf54bf5798d4bbb5b655cc367330bbb50de7f7b2
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: d2624dbc230bb0fb714ab1a5a66b91e70d301a9c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106119"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626417"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>Usar o Exchange Online e o Centro de Conformidade e Segurança para atender à norma 17a-4 da SEC
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-Caso a organização precise atender aos padrões regulamentares para retenção de dados, o Centro de Conformidade e Segurança do Office 365 fornece recursos para gerenciar o ciclo de vida dos dados no Exchange Online. Isso inclui a capacidade de reter, auditar, pesquisar e exportar os dados. Essas funcionalidades são adequadas para atender às necessidades da maioria das organizações.
+Se sua organização precisa obedecer aos padrões regulamentares de retenção de dados, o Centro de conformidade e segurança fornecerá recursos para gerenciar o ciclo de vida dos seus dados no Exchange Online. Isso inclui a capacidade de reter, auditar, pesquisar e exportar seus dados. Esses recursos são suficientes para atender às necessidades da maioria das organizações.
 
 No entanto, algumas organizações em setores altamente regulamentados estão sujeitas a requisitos regulamentares mais rigorosos. Por exemplo, instituições financeiras, como bancos ou corretoras, estão sujeitas à norma 17a-4 estabelecida pela SEC (Comissão de Títulos e Câmbio dos Estados Unidos). A norma 17a-4 tem requisitos específicos para armazenamento de dados eletrônicos, inclusive vários aspectos do gerenciamento de registros, como duração, formato, qualidade, disponibilidade e responsabilidade da retenção de registros.
 
@@ -42,9 +42,9 @@ A Cohasset Associates comprovou que, quando o Exchange Online e o Centro de Conf
 
 ## <a name="this-assessment-is-specific-to-exchange-online"></a>Esta avaliação foi feita especificamente para o Exchange Online
 
-Observe que esta foi feita especificamente para o Exchange Online. Ela não inclui outros serviços do Office 365, como SharePoint Online ou OneDrive for Business. No entanto, estamos planejando o suporte para esses serviços visando atender à norma 17a-4 da SEC.
+Observe que esta avaliação é específica para o Exchange Online. A avaliação não inclui outros serviços do Microsoft 365, como o SharePoint Online ou o OneDrive for Business, embora planejemos suporte para esses serviços com relação à SEC 17a-4 no futuro.
 
-É importante entender que o Skype for Business e o Teams também armazenam dados no Exchange Online. Portanto, a avaliação abrange as mensagens do Skype for Business, bem como as mensagens de canal e chat do Teams.
+É importante entender que o Skype for Business e o Teams também armazenam dados no Exchange Online. Assim, a avaliação abrange mensagens do Skype for Business e mensagens de canal e bate-papo do Teams.
 
 ## <a name="using-preservation-lock-is-key-to-the-recommended-configuration"></a>O uso do Bloqueio de Preservação é fundamental para a configuração recomendada
 
@@ -75,4 +75,4 @@ No momento, há algumas limitações no Exchange Online:
 - As curtidas não são retidas para mensagens de canal e chat do Teams.
 
 > [!NOTE]
-> A auditoria em nível de item já está disponível para caixas de correio para Grupo do Office 365. Para saber mais, consulte [Gerenciar a auditoria da caixa de correio](enable-mailbox-auditing.md).
+> A auditoria em nível de item já está disponível para caixas de correio do grupo do Microsoft 365. Para saber mais, consulte [Gerenciar a auditoria da caixa de correio](enable-mailbox-auditing.md).

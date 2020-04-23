@@ -20,29 +20,29 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: 'Resumo: aplique a Proteção de Informações do Azure para proteger arquivos em um site de equipe altamente confidencial do SharePoint Online.'
-ms.openlocfilehash: 296d5774b13699c25efda6d036e097344d4fefeb
-ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
+ms.openlocfilehash: 7d98ed6813e1c52ef2646cdbe402ab0bb3a50e3c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41855360"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632176"
 ---
 # <a name="protect-sharepoint-online-files-with-a-sensitivity-label"></a>Proteger arquivos do SharePoint Online com um rótulo de confidencialidade
 
-Use as etapas deste artigo para configurar um rótulo de confidencialidade do Office 365 para fornecer criptografia e permissões para arquivos. Esses arquivos podem ser adicionados a uma biblioteca do SharePoint configurada para proteção altamente confidencial. Ou abra um arquivo diretamente do site e aplique o rótulo. A proteção de criptografia e permissões vai junto com um arquivo, mesmo quando ele é baixado do site. 
+Use as etapas deste artigo para configurar um rótulo de confidencialidade para fornecer criptografia e permissões aos arquivos. Esses arquivos podem ser adicionados a uma biblioteca do SharePoint configurada para proteção altamente confidencial. Ou abra um arquivo diretamente do site e aplique o rótulo. A proteção de criptografia e permissões vai junto com um arquivo, mesmo quando ele é baixado do site. 
 
 Essas etapas são parte de uma solução maior de configuração da proteção altamente confidencial para sites do SharePoint e os arquivos dentro desses sites. Para saber mais, confira [Sites e arquivos seguros do SharePoint Online](../security/office-365-security/secure-sharepoint-online-sites-and-files.md). 
 
 Usar rótulos de confidencialidade em arquivos no SharePoint Online não é recomendável para todos os clientes, mas é uma opção para os clientes que precisam deste nível de proteção em um subconjunto de arquivos.
 
 Algumas observações importantes sobre esta solução:
-- Se a sua organização ainda não [habilitou rótulos de confidencialidade para os arquivos do Office no SharePoint e no OneDrive (visualização pública)](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files): Quando a criptografia for aplicada aos arquivos armazenados no Office 365, o serviço não poderá processar o conteúdo desses arquivos. Coautoria, descoberta eletrônica, pesquisa, Delve e outros recursos de colaboração não funcionam. Políticas DLP só funcionam com metadados (incluindo rótulos do Office 365), mas não com o conteúdo desses arquivos (como números de cartão de crédito em arquivos).
+- Se a sua organização ainda não [habilitou rótulos de confidencialidade para os arquivos do Office no SharePoint e no OneDrive (visualização pública)](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files): Quando a criptografia for aplicada aos arquivos armazenados no Office 365, o serviço não poderá processar o conteúdo desses arquivos. Coautoria, descoberta eletrônica, pesquisa, Delve e outros recursos de colaboração não funcionam. Políticas de Prevenção contra perdas de dados (DLP) só funcionam com metadados (incluindo rótulos), mas não com o conteúdo desses arquivos (como números de cartão de crédito em arquivos).
 
 - Essa solução requer que o usuário selecione um rótulo que aplique a proteção. Se você precisar de criptografia automática e da capacidade do SharePoint de indexar e inspecionar os arquivos, considere usar o IRM (Gerenciamento de Direitos de Informação) no SharePoint Online. Ao configurar uma biblioteca do SharePoint para IRM, os arquivos são criptografados automaticamente quando baixados para edição.  O IRM do SharePoint inclui limitações que podem influenciar sua decisão. Para saber mais, confira [Configurar o IRM (Gerenciamento de Direitos de Informação) no centro de administração do SharePoint](https://support.office.com/article/Set-up-Information-Rights-Management-IRM-in-SharePoint-admin-center-239CE6EB-4E81-42DB-BF86-A01362FED65C).
 
 ## <a name="admin-setup"></a>Configuração de administrador
 
-Para obter esse nível adicional de segurança para arquivos em um site de equipe específico do SharePoint Online, configure um rótulo de confidencialidade personalizado que seja seu próprio rótulo ou um sub-rótulo do rótulo geral para dados altamente regulamentados. Somente membros do grupo do Office 365 para o site de equipe do SharePoint Online verão o rótulo ou o sub-rótulo personalizado na lista de rótulos.
+Para obter esse nível adicional de segurança para arquivos em um site de equipe específico do SharePoint Online, configure um rótulo de confidencialidade personalizado que seja seu próprio rótulo ou um sub-rótulo do rótulo geral para dados altamente regulamentados. Apenas membros do grupo do Microsoft 365 no site de equipe do SharePoint Online verão o rótulo ou o sub-rótulo personalizado na lista de rótulos.
 
 - Use um rótulo de confidencialidade quando precisar de um pequeno número de rótulos para uso global e equipes privadas individuais.
 
@@ -51,8 +51,8 @@ Para obter esse nível adicional de segurança para arquivos em um site de equip
 Use [estas instruções](encryption-sensitivity-labels.md) para configurar um rótulo separado ou um sub-rótulo com as seguintes configurações:
 
 - O nome do rótulo ou do sub-rótulo contém o nome do site de equipe
-- A criptografia está habilitada
-- O grupo do Office 365 para o site de equipe tem permissões de coautoria
+- A criptografia está ativada
+- O grupo do Microsoft 365 da site equipe possui permissões de coautoria
 
 Depois de criar, publique o novo rótulo ou sub-rótulo para seus usuários, que poderão, aplicá-los a arquivos localmente antes de carregá-los para a equipe ou, posteriormente, quando o arquivo estiver armazenado na equipe.
  
@@ -64,8 +64,8 @@ Assim que os usuários puderem selecionar o rótulo de confidencialidade na opç
 ## <a name="adding-permissions-for-external-users"></a>Adicionando permissões para usuários externos
 Há duas maneiras de conceder aos usuários externos o acesso aos arquivos protegidos com o rótulo de confidencialidade. Em ambos os casos, os usuários externos devem ter uma conta do Azure AD. Se os usuários externos não forem membros de uma organização que usa o Azure AD, eles poderão obter uma conta do Azure AD individual usando essa página de inscrição: [https://aka.ms/aip-signup](https://aka.ms/aip-signup).
 
- - Adicione usuários externos ao grupo do Office 365 para o site de equipe. Você precisará primeiro adicionar a conta como um usuário B2B no seu diretório. Pode levar algumas horas para o [cache de associação de grupo pelo Azure Rights Management](https://docs.microsoft.com/azure/information-protection/plan-design/prepare#group-membership-caching-by-azure-information-protection).  
- - Adicione contas de usuários externos diretamente à configuração do rótulo. Você pode adicionar todos os usuários de uma organização (por exemplo, Fabrikam.com), um grupo do Office 365 (por exemplo, um grupo de finanças dentro de uma organização) ou um usuário individual. Por exemplo, você pode adicionar uma equipe externa de reguladores às permissões do seu rótulo de confidencialidade.
+ - Adicione usuários externos ao grupo do Office 365 para o site da equipe. Você precisará primeiro adicionar a conta como um usuário B2B no seu diretório. Pode levar algumas horas para o [cache de associação de grupo pelo Azure Rights Management](https://docs.microsoft.com/azure/information-protection/plan-design/prepare#group-membership-caching-by-azure-information-protection).  
+ - Adicione contas de usuários externos diretamente à configuração do rótulo. Você pode adicionar todos os usuários de uma organização (por exemplo: Fabrikam.com), um grupo do Microsoft 365 (por exemplo: um grupo de finanças dentro de uma organização) ou um usuário individual. Por exemplo, você pode adicionar uma equipe externa de reguladores às permissões do seu rótulo de confidencialidade.
 
 ## <a name="see-also"></a>Confira também
 

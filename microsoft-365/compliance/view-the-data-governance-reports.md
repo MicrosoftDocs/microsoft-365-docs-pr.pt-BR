@@ -14,17 +14,17 @@ localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
-description: Com os relatórios de governança de dados no Centro de Conformidade e Segurança do Office 365, você pode visualizar rapidamente se os rótulos estão sendo aplicados ao conteúdo como pretendido.
-ms.openlocfilehash: 4236f76a651550504bfcb46057517077704d4b2f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Nos relatórios de governança de dados do Centro de Conformidade &amp; Segurança, você pode visualizar rapidamente se os rótulos estão sendo aplicados ao conteúdo como pretendido.
+ms.openlocfilehash: dbfa8b698a4f09a8307f3bbec38555193237a48c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068780"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626297"
 ---
 # <a name="view-the-data-governance-reports"></a>Exibir os relatórios de governança de dados
 
-Depois de criar rótulos, convém verificar se eles estão sendo aplicados ao conteúdo como pretendido. Com os relatórios de governança de dados no Centro de Conformidade e Segurança do Office 365, você pode exibir rapidamente:
+Depois de criar rótulos, convém verificar se eles estão sendo aplicados ao conteúdo como pretendido. Com os relatórios de governança de dados no Centro de Conformidade &amp; Segurança, você pode exibir rapidamente:
   
 - **Cinco principais rótulos** Este relatório mostra a contagem dos cinco principais rótulos aplicados ao conteúdo. Clique neste relatório para exibir uma lista de todos os rótulos aplicados recentemente ao conteúdo. Você pode ver a contagem, o local, como foi aplicado, as ações de retenção, se é um registro e o tipo de disposição do rótulo. 
     

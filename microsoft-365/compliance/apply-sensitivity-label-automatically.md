@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 8295ec4098e90cac963598ab2d53d47a266b23a7
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.openlocfilehash: 50933032e47ebb6165e1e9354c1c1fc885915852
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551142"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637141"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -141,7 +141,7 @@ Para obter mais informações sobre os classificadores, confira [Introdução ao
 
 Durante o período de visualização, os seguintes aplicativos oferecem suporte a classificadores de rótulos de confidencialidade:
 
-- Aplicativos da área de trabalho do Office 365 ProPlus para Windows, do [Office Insider](https://office.com/insider):
+- Os aplicativos de área de trabalho do Microsoft365 Apps para Grandes Empresas para Windows, do [Office Insider](https://office.com/insider):
     - Word
     - Excel
     - PowerPoint
@@ -152,7 +152,7 @@ Durante o período de visualização, os seguintes aplicativos oferecem suporte 
     - PowerPoint
     - Outlook
 
-### <a name="recommend-that-the-user-applies-a-sensitivity-label-in-office-apps"></a>Recomenda-se que o usuário aplique um rótulo de confidencialidade em aplicativos do Office
+### <a name="recommend-that-the-user-applies-a-sensitivity-label"></a>Recomendar ao usuário que ele aplique um rótulo de confidencialidade
 
 Se preferir, você pode recomendar aos usuários que apliquem o rótulo. Com essa opção, seus usuários podem aceitar a classificação e qualquer proteção associada ou descartar a recomendação se o rótulo não for adequado para seu conteúdo.
 
@@ -162,7 +162,7 @@ Veja o exemplo de um aviso do cliente de rotulagem unificada da Proteção de In
 
 ![Aviso para aplicar um rótulo recomendado](../media/Sensitivity-label-Prompt-for-required-label.png)
 
-### <a name="when-automatic-or-recommended-labels-are-applied-in-office-apps"></a>Quando os rótulos automáticos ou recomendados são aplicados em aplicativos do Office
+### <a name="when-automatic-or-recommended-labels-are-applied"></a>Quando rótulos automáticos ou recomendados são aplicados
 
 A implementação de rotulagem automática e recomendada nos aplicativos do Office depende se você estiver usando a rotulagem interna do Office ou o cliente de rotulagem unificada da Proteção de Informações do Azure. Em ambos os casos, porém:
 
@@ -192,7 +192,7 @@ Específico para o cliente de rotulagem unificada da Proteção de Informações
 
 ### <a name="prerequisites-for-auto-labeling-policies"></a>Pré-requisitos para políticas de rotulagem automática
 
-- A auditoria do Office 365 deve estar ativada no modo de simulação. Se você precisar ativar a auditoria ou não tiver certeza se a auditoria já está ativada, confira [Ativar ou desativar a pesquisa de log de auditoria do Office 365](turn-audit-log-search-on-or-off.md).
+- A auditoria do Microsoft 365 deve estar ativada no modo de simulação. Se você precisar ativar a auditoria ou não tiver certeza se a auditoria já está ativada, confira [Ativar ou desativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md).
 
 - Para rotular arquivos automaticamente no SharePoint e no OneDrive:
     - Você deve [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)](sensitivity-labels-sharepoint-onedrive-files.md)
@@ -292,5 +292,4 @@ Você também pode ver os resultados da política de rotulagem automática usand
 
 > [!TIP]
 > Você também pode usar o explorador de conteúdo para identificar locais que possuem documentos não rotulados que contenham informações confidenciais. Usando essas informações, considere adicionar esses locais à política de rotulagem automática e inclua os tipos de informações confidenciais identificadas como regras.
-
 

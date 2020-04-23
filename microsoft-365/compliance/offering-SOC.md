@@ -14,20 +14,20 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7cb065bb63bc30c4704abd3d4239fd80bca6d21e
-ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
+ms.openlocfilehash: cdbd14ebd71964728282f5cff2e20f87f5a4a4a0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43225904"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633426"
 ---
 # <a name="service-organization-controls-soc"></a>Service Organization Controls (SOC)
 
 ## <a name="soc-1-2-and-3-reports-overview"></a>Visão geral dos relatórios SOC 1, 2 e 3
 
-Cada vez mais, as empresas terceirizam funções básicas, como o armazenamento de dados e o acesso a aplicativos, utilizando Provedores de Serviços de Nuvem (CSPs) e outras organizações de serviços. Em resposta, o American Institute of Certified Public Accountants (AICPA) desenvolveu a estrutura Service Organization Controls (SOC), um padrão de controles que protege a confidencialidade e a privacidade de informações armazenadas e processadas na nuvem. Esta estrutura está alinhada com o International Standard on Assurance Engagements (ISAE), o padrão de relatório para organizações internacionais de serviço.
+Cada vez mais, as empresas terceirizam funções básicas, como o armazenamento de dados e o acesso a aplicativos, utilizando Provedores de Serviços de Nuvem (CSPs) e outras organizações de serviços. Em resposta, o American Institute of Certified Public Accountants (AICPA) desenvolveu a estrutura Service Organization Controls (SOC), um padrão de controles que protege a confidencialidade e a privacidade de informações armazenadas e processadas na nuvem. Ele está alinhado com o International Standard on Assurance Engagements (ISAE), o padrão de relatório de informações para organizações internacionais de serviço.
 
-As auditorias de serviço baseadas na estrutura do SOC se enquadram nas categorias do SOC 1 e do SOC 2 que se aplicam aos serviços de nuvem da Microsoft dentro do escopo.
+As auditorias de serviços baseadas na estrutura do SOC são divididas em duas categorias — SOC 1 e SOC 2 — que se aplicam aos serviços de nuvem da Microsoft dentro do escopo.
 
 A auditoria do SOC 1, concebida para empresas CPA que auditam balanços financeiros, avalia a eficiência dos controles internos do CSP que afetam os relatórios financeiros de um cliente que utiliza os serviços de nuvem do provedor. Declaração sobre os Standards for Attestation Engagements (SSAE 18) e o International Standards for Assurance Engagements No. 3402 (ISAE 3402) são as normas sob as quais a auditoria é realizada e é a base do relatório do SOC 1.
 
@@ -99,7 +99,7 @@ Os serviços de nuvem da Microsoft são auditados pelo menos anualmente, seguind
 - [Relatório do Office 365 Core-SSAE 18 SOC 2](https://aka.ms/o365SOC-2)
 - [Relatório do Office 365 Core-SSAE 18 SOC 3](https://aka.ms/o365SOC-3)
 - [Os microserviços do Office 365 T1 – relatório SSAE 18 SOC2 tipo I ](https://aka.ms/o365-MS-SOC-2-type1)
-- [Relatório de Auditoria SOC 1 SSAE 16 do Sistema de Proteção de Dados do Cliente do Office 365](https://aka.ms/Office365CustomerLockboxSOCAuditReport)
+- [Relatório de Auditoria SOC 1 SSAE 16 do Sistema de Proteção de Dados do Cliente](https://aka.ms/Office365CustomerLockboxSOCAuditReport)
 - [Relatório de Auditoria SOC 2 AT 101 Type I do Yammer](https://aka.ms/YammerSOC2Type1AuditReport)
 - [Relatório do Yammer SOC 2 tipo II](https://aka.ms/yammerSOC-2)
 - [Ver as bridge letters e os relatórios de auditoria adicionais](https://aka.ms/auditreports)
@@ -115,7 +115,7 @@ Com os relatórios, os auditores podem comparar os resultados dos serviços de n
 
 **Com que frequência os relatórios do SOC para o Azure são emitidos?**
 
-Os relatórios do SOC para o Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream e Microsoft Datacenters se baseiam em uma janela de execução de 12 meses (período de auditoria) com novos relatórios lançados por trimestre (o período termina em 31 de março e 30 de setembro). As bridge letters (cartas-ponte) são emitidas por trimestre, normalmente na primeira semana de cada mês após o fim do trimestre. Os clientes podem [baixar](https://aka.ms/stp) os relatórios mais recentes no Portal de Confiança do Serviço.
+Os relatórios do SOC para o Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream e Microsoft Datacenters se baseiam em uma janela de execução de 12 meses (período de auditoria) com novos relatórios lançados por trimestre (o período termina em 31 de março e 30 de setembro). As cartas de pontes são emitidas em janeiro para cobrir o período de 1/10 – 31/12 e julho para cobrir o período de 1/4 – 30/6. Os clientes podem [baixar](https://aka.ms/stp) os relatórios mais recentes no Portal de Confiança do Serviço.
 
 **Preciso conduzir uma auditoria própria dos datacenters da Microsoft?**
 

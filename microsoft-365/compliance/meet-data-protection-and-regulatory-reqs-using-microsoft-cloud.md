@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: O Gerenciador de Conformidade no Portal de Confiança do Serviço Microsoft fornece ferramentas para monitorar, implementar e gerenciar os controles para ajudar sua organização a alcançar a conformidade de acordo com os padrões de segurança e proteção de dados do setor (como RGPD, ISO 27001 e 27018, e HIPAA) quando comparados aos serviços em nuvem da Microsoft, como o Microsoft Azure e o Office 365. O Gerenciador de Conformidade ajuda quem supervisiona a estratégia de privacidade e proteção de dados da sua organização a gerenciar o processo de avaliação de risco e conformidade.
-ms.openlocfilehash: 363b95294a9d06b425edcbb5c587f2f89878926b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 17884ff51a91ee0131f79fea05416ade59e4153e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071653"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634881"
 ---
 # <a name="microsoft-compliance-manager-classic"></a>Gerenciador de conformidade da Microsoft (Clássico)
 
@@ -700,7 +700,7 @@ O Gerenciador de Conformidade foi desenvolvido para ser atualizado regularmente 
     
 - Uma alteração **secundária** é uma alteração pequena das Ações do cliente, como corrigir um erro de digitação ou problemas de formatação, atualizar ou corrigir hiperlinks. Alterações secundárias geralmente não exigem que o controle seja novamente avaliado; no entanto, é recomendável examinar a Ação de cliente atualizada.
   
-### <a name="office-365-customer-managed-controls---change-log-for-july-2018"></a>Controles gerenciados pelo cliente do Office 365 – Alterar log de julho de 2018
+### <a name="customer-managed-controls---change-log-for-july-2018"></a>Controles gerenciados pelo cliente – Log de Alterações de julho de 2018
 
 |**ID de Controle**|**Avaliação**|**Tipo de alteração**|**Descrição da alteração**|**Ações recomendadas para clientes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -710,7 +710,7 @@ O Gerenciador de Conformidade foi desenvolvido para ser atualizado regularmente 
 45 C.F.R.  § 164.316(b)(2)(iii)| Office 365: HIPAA|Principal|Controle HITECH adicionado à avaliação de HIPAA do Office 365|Revise o controle adicionado e as ações recomendadas ao cliente<br/>|
 |
 
-### <a name="office-365-customer-managed-controls---change-log-for-april-2018"></a>Controles gerenciados pelo cliente do Office 365 – Alterar log de abril de 2018
+### <a name="customer-managed-controls---change-log-for-april-2018"></a>Controles gerenciados pelo cliente – Log de Alterações de abril de 2018
 
 |**RGPD**|**HIPAA**|**ISO 27001**|**ISO 27018**|**NIST 800-53**|**NIST 800-171**|**Tipo de alteração**|**Descrição da alteração**|**Ações recomendadas para clientes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|

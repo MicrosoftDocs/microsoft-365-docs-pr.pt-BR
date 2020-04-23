@@ -1,5 +1,5 @@
 ---
-title: Aplicar proteção a dados pessoais no Office 365
+title: Aplicar proteção a dados pessoais
 f1.keywords:
 - NOCSH
 ms.author: bcarter
@@ -18,21 +18,21 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-description: Saiba como usar políticas de prevenção de perda de dados (DLP) para proteger dados pessoais no Office 365.
-ms.openlocfilehash: ef6907f9c6574f53dc6f3ba6e44c72eac308d825
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Saiba como usar políticas de prevenção de perda de dados (DLP) para proteger dados pessoais no Microsoft 365.
+ms.openlocfilehash: 54bfdd27f5c18d6c145b1e9f13c5e92c1b322048
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079731"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634269"
 ---
-# <a name="apply-protection-to-personal-data-in-office-365"></a>Aplicar proteção a dados pessoais no Office 365
+# <a name="apply-protection-to-personal-data"></a>Aplicar proteção a dados pessoais
 
-A proteção de informações pessoais no Office 365 inclui o uso de recursos de prevenção contra perda de dados. Com as políticas de prevenção de perda de dados (DLP) no centro de conformidade, você pode identificar, monitorar e proteger automaticamente informações confidenciais no Office 365.
+A proteção de informações pessoais no Microsoft 365 inclui o uso de recursos de prevenção contra perda de dados. Com as políticas de prevenção de perda de dados (DLP) no centro de conformidade, você pode identificar, monitorar e proteger automaticamente informações confidenciais no Microsoft 365.
 
 Este tópico descreve como usar a DLP para proteger dados pessoais. Este tópico também lista outros recursos de proteção que podem ser usados para garantir a conformidade com o GDPR, incluindo como definir as permissões das bibliotecas do SharePoint e usar as políticas de acesso de dispositivos.
 
-## <a name="apply-protection-using-data-loss-prevention-in-office-365"></a>Aplicar proteção usando prevenção contra perda de dados no Office 365
+## <a name="apply-protection-using-data-loss-prevention-in-microsoft-365"></a>Aplicar proteção usando prevenção contra perda de dados no Microsoft 365
 
 Com a DLP, você pode:
 
@@ -42,7 +42,7 @@ Com a DLP, você pode:
 
 -   Ajudar os usuários a aprender a manter a conformidade sem interromper o fluxo de trabalho.
 
--   Ver relatórios de DLP que mostram conteúdo que corresponde às políticas de DLP da sua organização.
+-   Visualizar relatórios de DLP que mostrem conteúdo que corresponda às políticas de DLP da sua organização.
 
 Para mais informações, confira [Visão geral das políticas de prevenção contra perda de dados](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e).
 
@@ -62,9 +62,9 @@ Esta ilustração mostra as opções para criar uma política DLP:
 
 ### <a name="using-dlp-for-gdpr-compliance"></a>Usar DLP para conformidade com o GDPR
 
-Um dos principais usos da DPL do Office 365 é identificar dados pessoais relacionados a assuntos de dados da UE no ambiente do Office 365. A DPL do Office 365 pode notificar as equipes de conformidade sobre onde as informações pessoais estão armazenadas no SharePoint Online e no OneDrive for Business, ou quando os usuários enviam email contendo informações pessoais. A DLP pode ainda fornecer dicas de políticas aos seus funcionários ao trabalhar com informações pessoais relacionadas a residentes da UE.
+Um dos principais usos da DPL do Microsoft 365 é identificar dados pessoais relacionados a assuntos de dados da UE no ambiente do Microsoft 365. A DPL do Microsoft 365 pode notificar as equipes de conformidade sobre o local de armazenamento das informações pessoais no SharePoint Online e no OneDrive for Business, ou quando os usuários enviam email contendo informações pessoais. A DLP pode ainda fornecer dicas de políticas aos seus funcionários ao trabalhar com informações pessoais relacionadas a residentes da UE.
 
-Instruir e aumentar a conscientização em relação a onde os dados de residentes da UE estão armazenados no seu ambiente e como os seus funcionários têm permissão para gerenciá-los representam um nível de proteção de informações usando a DLP do Office 365. Muitas vezes, os funcionários que já têm acesso a esse tipo de informações precisam desse acesso para realizar suas tarefas do dia a dia. A aplicação das políticas de DLP para ajudar a manter a conformidade com o GDPR pode não exigir a restrição do acesso.
+Instruir e aumentar a conscientização em relação ao local de armazenamento dos dados de residentes da UE no seu ambiente e como os seus funcionários têm permissão para gerenciá-los representam um nível de proteção de informações usando a DLP do Microsoft 365. Muitas vezes, os funcionários que já têm acesso a esse tipo de informações precisam desse acesso para realizar suas tarefas do dia a dia. A aplicação das políticas de DLP para ajudar a manter a conformidade com o GDPR pode não exigir a restrição do acesso.
 
 No entanto, a conformidade com o GDPR geralmente envolve uma avaliação baseada em risco da organização, da perspectiva de segurança das informações e da perspectiva legal, identificação do tipo e onde as informações pessoais foram armazenadas, bem como se há uma justificativa legal para armazenar e processar essas informações. Com base nessa avaliação, a implementação de políticas para proteger a organização e estar em conformidade com o GDPR pode exigir a remoção do acesso dos funcionários a documentos que contenham informações pessoais de titulares dos dados da UE. Nos casos em que for preciso maior proteção, é possível configurar uma proteção adicional de DLP.
 
@@ -132,7 +132,7 @@ Descrição: exibir dicas de política para os funcionários, notificar equipes 
 </tr>
 <tr class="even">
 <td align="left">Locais</td>
-<td align="left">Todos os locais no Office 365</td>
+<td align="left">Todos os locais no Microsoft 365</td>
 </tr>
 <tr class="odd">
 <td align="left">Localizar conteúdo que contém</td>
@@ -144,7 +144,7 @@ Descrição: exibir dicas de política para os funcionários, notificar equipes 
 </tr>
 <tr class="odd">
 <td align="left">Notificar os usuários quando o conteúdo corresponder às configurações de política</td>
-<td align="left"><p>Marque esta caixa ("Mostrar dicas de política a usuários e enviar uma notificação de email para eles.")</p>
+<td align="left"><p>Marque esta caixa ("Mostrar dicas de política a usuários e enviar uma notificação de email para eles").</p>
 <p>Clique em "Personalizar a dica e o email" e atualize eles para o seu ambiente. Veja as notificações padrão neste artigo: <a href="https://support.office.com/article/Send-email-notifications-and-show-policy-tips-for-DLP-policies-87496bc5-9601-4473-8021-cb05c71369c1?ui=en-US&amp;rs=en-US&amp;ad=US">Enviar notificações por email e mostrar dicas de política para políticas DLP</a>.</p></td>
 </tr>
 <tr class="even">
@@ -166,7 +166,7 @@ Todos os locais incluem:
 
 Como a Pesquisa de Conteúdo, no momento, não permite testar tipos de informações confidenciais com email, considere criar políticas separadas para o Exchange com um subconjunto de tipos de informações confidenciais em cada política e monitore a distribuição dessas políticas.
 
-## <a name="additional-protection-you-can-apply-to-protect-personal-data-in-office-365"></a>Proteção adicional que pode ser aplicada para proteger dados pessoais no Office 365
+## <a name="additional-protection-you-can-apply-to-protect-personal-data-in-microsoft-365"></a>Proteção adicional que pode ser aplicada para proteger dados pessoais no Microsoft 365
 
 Os tipos de informações confidenciais, os rótulos e as políticas de proteção contra perda de dados ajudam a identificar os documentos que contêm dados específicos e a aplicar proteção. No entanto, essas proteções dependem da configuração de permissões apropriadas de acesso a dados, usuários com contas que não sejam comprometidas e dispositivos saudáveis.
 
@@ -189,7 +189,7 @@ Para maior acessibilidade, a tabela a seguir fornece as mesmas informações da 
 <td align="left"><p>Tipos de informações confidenciais</p>
 <p>Rótulos do Office.</p>
 <p>Políticas de prevenção contra perda de dados</p>
-<p>Criptografia de Mensagem do Office 365 para email</p></td>
+<p>Criptografia de Mensagem do Microsoft 365 para email</p></td>
 </tr>
 <tr class="even">
 <td align="left">Proteção no nível da biblioteca e site (inclui sites do SharePoint Online e OneDrive for Business)</td>
@@ -198,7 +198,7 @@ Para maior acessibilidade, a tabela a seguir fornece as mesmas informações da 
 <p>Políticas de acesso de dispositivo no nível do site</p></td>
 </tr>
 <tr class="odd">
-<td align="left">Proteção de acesso a serviços (inclui acesso a todos os serviços do Office 365)</td>
+<td align="left">Proteção de acesso a serviços (inclui acesso a todos os serviços do Microsoft 365)</td>
 <td align="left"><p>Proteção à identidade e ao acesso a dispositivos no pacote Enterprise Mobility + Security (EMS)</p>
 <p>Gerenciamento de acesso privilegiado</p>
 <p>Recursos de segurança do Windows 10</p></td>
@@ -212,7 +212,7 @@ O restante deste artigo fornecerá mais informações sobre cada uma dessas cate
 
 Você pode usar as seguintes funcionalidades em um ambiente configurado para conformidade com o GDPR. Esses recursos não são necessários para a conformidade com o GDPR, mas podem ser usados sem afetar sua capacidade de descobrir, proteger, monitorar e informar sobre dados relacionados à conformidade do GDPR.
 
-Chave de Cliente — Permite que os clientes forneçam e mantenham o controle sobre as chaves de criptografia que são usadas para criptografar dados em repouso no Office 365. Recomendado somente para clientes que tenham a necessidade regulatória de gerenciar suas próprias chaves de criptografia.
+Chave de Cliente — Permite que os clientes forneçam e mantenham o controle sobre as chaves de criptografia que são usadas para criptografar dados em repouso no Microsoft 365. Recomendado somente para clientes que tenham a necessidade regulatória de gerenciar suas próprias chaves de criptografia.
 
 Sistema de Proteção de Dados do Cliente — O sistema de proteção de dados do cliente permite controlar como um engenheiro de suporte da Microsoft acessa os seus dados, se necessário, para corrigir um problema técnico com base em cada caso. Controle se deseja dar ao engenheiro de suporte acesso aos seus dados ou não. Um tempo de expiração é fornecido com cada solicitação.
 
@@ -259,7 +259,7 @@ Mais informações:
 
 Muitas organizações permitem o compartilhamento externo para dar suporte à colaboração. Descubra como suas configurações de locatário estão configuradas. Em seguida, revise as configurações de compartilhamento externo para sites que contêm dados pessoais.
 
-Um usuário externo é alguém de fora da sua organização que é convidado a acessar seus documentos e sites do SharePoint Online, mas não tem uma licença para sua assinatura do Microsoft Office 365 ou SharePoint Online.
+Um usuário externo é alguém de fora da sua organização que é convidado a acessar seus documentos e sites do SharePoint Online, mas não tem uma licença para sua assinatura do Microsoft 365 ou SharePoint Online.
 
 As políticas de compartilhamento externo se aplicam ao SharePoint Online e OneDrive for Business
 
@@ -358,7 +358,7 @@ Mais informações: [Centro de administração do SharePoint Online: controlar o
 
 ## <a name="service-access-protection-for-identities-and-devices"></a>Proteção de acesso a serviços de identidades e dispositivos
 
-A Microsoft recomenda configurar a proteção de identidades e dispositivos que acessam o serviço. Seus esforços para proteger o acesso aos serviços do Office 365 também podem ser usados para proteger outros serviços de SaaS, serviços de PaaS e até aplicativos em outros provedores de nuvem.
+A Microsoft recomenda configurar a proteção de identidades e dispositivos que acessam o serviço. Seus esforços para proteger o acesso aos serviços do Microsoft 365 também podem ser usados para proteger outros serviços de SaaS, serviços de PaaS e até aplicativos em outros provedores de nuvem.
 
 A proteção de acesso de identidades e dispositivos oferece um parâmetro de proteção para garantir que as identidades não sejam comprometidas, que os dispositivos estejam em segurança e que os dados da organização que são acessados nos dispositivos estejam isolados e protegidos.
 
@@ -372,13 +372,13 @@ A ilustração a seguir descreve como os serviços em nuvem (SaaS, PaaS), tipos 
 
 Para fins de acessibilidade, o restante desta seção descreverá esta ilustração.
 
-### <a name="cloud-services"></a>Serviços em nuvem
+### <a name="cloud-services"></a>Serviços de nuvem
 
-O Azure Active Directory fornece acesso de identidade para qualquer serviço em nuvem, incluindo de outros provedores diferentes da Microsoft, como o Amazon Web Services. A ilustração mostra o Office 365, "Outro aplicativo de SaaS" e "aplicativo de PaaS". Setas apontam do Azure Active Directory para cada um desses serviços, mostrando que o Active Directory do Azure pode ser usado para autenticação em todos esses tipos de aplicativos.
+O Azure Active Directory fornece acesso de identidade para qualquer serviço em nuvem, incluindo de outros provedores diferentes da Microsoft, como o Amazon Web Services. A ilustração mostra o Microsoft 365, "Outro aplicativo de SaaS" e "aplicativo de PaaS". Setas apontam do Azure Active Directory para cada um desses serviços, mostrando que o Active Directory do Azure pode ser usado para autenticação em todos esses tipos de aplicativos.
 
 ### <a name="types-of-accounts"></a>Tipos de contas
 
-Contas de domínio do locatário são contas que você adiciona ao seu locatário e gerencia diretamente. Contas B2B são para usuários de fora da sua organização que você convida para colaborar. Estas podem ser outras contas do Office 365, contas de outra organização ou contas de cliente (como Gmail). A ilustração mostra ambos os tipos de conta no Azure Active Directory.
+Contas de domínio do locatário são contas que você adiciona ao seu locatário e gerencia diretamente. Contas B2B são para usuários de fora da sua organização que você convida para colaborar. Estas podem ser outras contas do Microsoft 365, contas de outra organização ou contas de cliente (como Gmail). A ilustração mostra ambos os tipos de conta no Azure Active Directory.
 
 ### <a name="capabilities"></a>Funcionalidades
 

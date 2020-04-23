@@ -16,17 +16,17 @@ localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
-description: Com o Explorador de Atividade de Rótulo no Centro de Conformidade e Segurança do Office 365, você pode rapidamente pesquisar e exibir a atividade de rótulo para todo o conteúdo no SharePoint e no OneDrive for Business nos últimos 30 dias. Esses são dados em tempo real que fornecem uma exibição clara para o que está acontecendo no seu locatário.
-ms.openlocfilehash: f1bb6f7a79759a9b2d36b5af334ced89e5b2b28a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Com o Explorador de Atividade de Rótulo no Centro de Conformidade &amp; Segurança, você pode rapidamente pesquisar e exibir a atividade de rótulo para todo o conteúdo no SharePoint e no OneDrive for Business nos últimos 30 dias. Esses são dados em tempo real que fornecem uma exibição clara para o que está acontecendo no seu locatário.
+ms.openlocfilehash: b0a799e192f6b6c3cb8087b38322094ca7423fea
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068862"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626327"
 ---
 # <a name="view-label-activity-for-documents"></a>Exibir a atividade de rótulos de documentos
 
-Depois de criar seus rótulos, você deverá verificar se eles estão sendo aplicados a conteúdo conforme o desejado. Com o Explorador de Atividade de Rótulo no Centro de Conformidade e Segurança do Office 365, você pode rapidamente pesquisar e exibir a atividade de rótulo para todo o conteúdo no SharePoint e no OneDrive for Business nos últimos 30 dias. Esses são dados em tempo real que fornecem uma exibição clara para o que está acontecendo no seu locatário.
+Depois de criar seus rótulos, você deverá verificar se eles estão sendo aplicados a conteúdo conforme o desejado. Com o Explorador de Atividade de Rótulo no Centro de Conformidade &amp; Segurança, você pode rapidamente pesquisar e exibir a atividade de rótulo para todo o conteúdo no SharePoint e no OneDrive for Business nos últimos 30 dias. Esses são dados em tempo real que fornecem uma exibição clara para o que está acontecendo no seu locatário.
   
 Por exemplo, com o Explorador de Atividade do Rótulo, você pode:
   

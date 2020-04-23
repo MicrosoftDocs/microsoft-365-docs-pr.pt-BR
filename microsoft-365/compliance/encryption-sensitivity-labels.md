@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode restringir o acesso ao conteúdo ao qual o rótulo será aplicado. Rótulos de confidencialidade podem usar criptografia para proteger o conteúdo.
-ms.openlocfilehash: ca6b3a76efcc25ab19b05bf841e506c6a5aab375
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.openlocfilehash: 543050a40848330b5e07c3a804b5718deac7bafa
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43540828"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631686"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia 
 
@@ -35,8 +35,8 @@ Quando você cria um rótulo de confidencialidade, pode restringir o acesso ao c
 
 Quando um documento ou email é criptografado, o acesso ao conteúdo é restrito, para que ele:
 
-- Possa ser descriptografado apenas por usuários autorizados pelas configurações de criptografia do rótulo.
-- Permaneça criptografado independentemente de onde esteja, dentro ou fora da sua organização, mesmo se o arquivo for renomeado.
+- Pode ser descriptografado apenas por usuários autorizados pelas configurações de criptografia do rótulo.
+- Permanece criptografado independentemente de onde esteja, dentro ou fora da sua organização, mesmo se o arquivo for renomeado.
 - Fique criptografado tanto em repouso (por exemplo, em uma conta do OneDrive) quanto em trânsito (por exemplo, um email enviado).
 
 Por fim, como administrador, quando você configura um rótulo de confidencialidade para aplicar criptografia, há duas opções a escolher:
@@ -44,7 +44,7 @@ Por fim, como administrador, quando você configura um rótulo de confidencialid
 - **Atribuir permissões agora**, para que assim você possa determinar exatamente quais usuários podem obter quais permissões de conteúdo com esse rótulo.
 - **Permitir que os usuários atribuam permissões** quando aplicam o rótulo ao conteúdo. Dessa forma, você pode conceder a pessoas em sua organização uma certa flexibilidade que elas possam precisar para colaborar e realizar o trabalho.
 
-As configurações de criptografia estão disponíveis quando você [cria um rótulo de confidencialidade](create-sensitivity-labels.md) no centro de conformidade do Microsoft 365, centro de segurança do Microsoft 365 ou Centro de Conformidade e Segurança do Office 365.
+As configurações de criptografia estão disponíveis quando você [cria um rótulo de confidencialidade](create-sensitivity-labels.md) no centro de conformidade do Microsoft 365, centro de segurança do Microsoft 365 ou Centro de conformidade e segurança.
 
 ## <a name="understand-how-the-encryption-works"></a>Entenda como funciona a criptografia
 
@@ -120,7 +120,7 @@ Optar por atribuir permissões agora ou permitir que os usuários atribuam permi
 
 Use as opções abaixo para controlar quem pode acessar os emails ou documentos aos quais aquele rótulo foi aplicado. Você pode:
 
-1. **Permitir que o acesso ao conteúdo rotulado expire**, em uma data específica ou depois de um número específico de dias após o rótulo ser aplicado. Após este período, os usuários não poderão abrir o item rotulado. Se você especificar uma data, isso será válido a partir da meia-noite da data em questão em seu fuso horário atual. (Observe que alguns clientes de email podem não impor expiração e exibir emails após a data de vencimento, devido a seus mecanismos de cache.)
+1. **Permitir que o acesso ao conteúdo rotulado expire** em uma data específica ou depois de um número específico de dias após o rótulo ser aplicado. Após este período, os usuários não poderão abrir o item rotulado. Se você especificar uma data, isso será válido a partir da meia-noite da data em questão no seu fuso horário atual. (Observe que alguns clientes de e-mail talvez não apliquem a expiração e mostrem e-mails após a data de validade devido aos seus mecanismos de armazenamento em cache.)
 
 2. **Permitir o acesso offline** nunca, sempre ou por um número específico de dias após o rótulo ser aplicado. Se você restringir o acesso offline para nunca ou por um número de dias, quando este limite for atingido, os usuários precisarão ser autenticados novamente e seu acesso será registrado. Para saber mais, confira a próxima seção na licença de uso de Gerenciamento de Direitos.
 
@@ -130,7 +130,7 @@ Configurações de controle de acesso para conteúdo criptografado:
 
 ### <a name="rights-management-use-license-for-offline-access"></a>Licença de uso de Gerenciamento de Direitos para acesso offline
 
-Quando um usuário abre um documento ou email protegido pela criptografia do serviço do Azure Rights Management, uma licença de uso desse serviço para o conteúdo é concedida ao usuário. A licença de uso é um certificado que contém os direitos de uso do usuário para o documento ou o email e a chave de criptografia usada para criptografar o conteúdo. A licença de uso também contém uma data de vencimento, caso tenha sido definida e por quanto tempo a licença de uso é válida.
+Quando um usuário abre um documento ou e-mail protegido pela criptografia do serviço doe Gerenciamento de direitos do Azure, uma licença de uso desse serviço para o conteúdo é concedida ao usuário. A licença de uso é um certificado que contém os direitos de uso do usuário para o documento ou o email e a chave de criptografia usada para criptografar o conteúdo. A licença de uso também contém uma data de vencimento, caso tenha sido definida e por quanto tempo a licença de uso é válida.
 
 Se nenhuma data de vencimento tiver sido definida, o período de validade da licença de uso padrão para um locatário é de 30 dias. Pela duração da licença de uso, o usuário não precisa ser autenticado ou autorizado novamente para o conteúdo. Esse processo permite que o usuário continue a abrir o documento ou email protegido sem uma conexão de Internet. Quando expirar o período de validade da licença de uso, na próxima vez em que o usuário acessar o documento ou email protegido, ele precisará ser autenticado e autorizado novamente.
 
@@ -157,6 +157,8 @@ Quando você atribui permissões, pode escolher:
 - Todos em sua organização (todos os membros locatários). Esta configuração exclui contas de convidados.
 
 - Todos os usuários autenticados. Verifique se você entendeu os [requisitos e limitações](#requirements-and-limitations-for-add-any-authenticated-users) dessa configurações antes de selecioná-la.
+- Qualquer usuário específico ou grupo de segurança habilitado para e-mails, grupo de distribuição, grupo Microsoft 365 ou grupo dinâmico de distribuição. 
+- Qualquer endereço de email ou domínio. Use esta opção para especificar todos os usuários em outra organização que usa o Azure AD, inserindo qualquer nome de domínio dessa organização. Você também pode usar essa opção para provedores sociais, inserindo o nome de domínio, como **gmail.com**, **hotmail.com** ou **outlook.com**.
 
 - Qualquer usuário específico ou grupo de segurança, grupo de distribuição, grupo do Office 365 ou [grupo de distribuição dinâmico](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule) habilitado para email no Microsoft Azure Active Directory. Observe que você não pode usar um [grupo de distribuição dinâmico do Exchange](https://docs.microsoft.com/Exchange/recipients/dynamic-distribution-groups/dynamic-distribution-groups?view=exchserver-2019) porque esse tipo de grupo não está sincronizado com o Microsoft Azure Active Directory e não pode usar um grupo de segurança que não esteja habilitado para email.
 

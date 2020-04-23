@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Tenha uma visão geral da Proteção de Informações do Office 365 para o GDPR. Saiba como descobrir, classificar, proteger e monitorar dados pessoais.
-ms.openlocfilehash: dbb420cce572b2e03260f9f5b1be63e65504276b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b838ae96c8b93dced8b4da898ed04effc0586463
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071150"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637215"
 ---
 # <a name="overview-of-office-365-information-protection-for-gdpr"></a>Visão geral da Proteção de Informações do Office 365 para o GDPR
 
@@ -103,4 +103,4 @@ Confira mais informações sobre como [Aplicar proteção a dados pessoais no Of
 
 ### <a name="step-5--monitor-for-leaks-of-personal-data"></a>Etapa 5: monitorar o vazamento de dados pessoais
 
-Os relatórios de prevenção contra perda de dados do Office 365 oferecem o mais alto nível de detalhamento para o monitoramento de dados confidenciais. É possível configurar alertas automatizados e investigar violações usando o log de auditoria do Office 365. O Cloud App Security estende a outros provedores SaaS a capacidade de localizar e monitorar dados confidenciais. Consulte mais informações sobre essas ferramentas em [Monitorar violações de dados pessoais](/security/office-365-security/monitor-for-leaks-of-personal-data.md).
+Os relatórios de prevenção contra perda de dados do Office 365 oferecem o mais alto nível de detalhamento para o monitoramento de dados confidenciais. É possível configurar alertas automatizados e investigar violações usando o log de auditoria. O Cloud App Security estende a outros provedores SaaS a capacidade de localizar e monitorar dados confidenciais. Confira mais informações sobre essas ferramentas em [Monitorar violações de dados pessoais](/security/office-365-security/monitor-for-leaks-of-personal-data.md).

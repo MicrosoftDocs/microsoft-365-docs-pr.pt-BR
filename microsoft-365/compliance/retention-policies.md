@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Com uma política de retenção, você pode decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra certas condições.'
-ms.openlocfilehash: df2e89e26de2baab21cb334c1852cb261e1b8c98
-ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
+ms.openlocfilehash: 7075e043a2d45358447137fbf76bcbf88a65e9f4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521507"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632432"
 ---
 # <a name="overview-of-retention-policies"></a>Visão geral de políticas de retenção
 
@@ -95,8 +95,6 @@ Quando a política de retenção for reter e excluir:
     > [!NOTE]
     > Para ajudar a evitar a perda de dados acidental, o conteúdo nunca será excluído automaticamente da Biblioteca de Retenção para Preservação, mas será transferido para a lixeira de segundo estágio. Lá, o período de cortesia de 93 dias permite que os administradores recuperem o conteúdo, se necessário.
     
-2. **Se o conteúdo não for modificado ou excluído** durante o período de retenção, ele será movido para a lixeira de primeiro estágio no final do período de retenção. Se um usuário excluir o conteúdo da lixeira ou esvaziá-la (processo também conhecido como limpeza), o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras de primeiro e de segundo estágio. Após os 93 dias, o documento será excluído permanentemente de onde estiver, seja na Lixeira de primeiro ou de segundo estágio. Como a lixeira não está indexada, ela não está disponível para pesquisa. Como resultado, uma pesquisa de descoberta eletrônica não encontra conteúdos da lixeira para colocar uma retenção.
-
 2. **Se o conteúdo não for modificado ou excluído** durante o período de retenção: no final do período de retenção, o documento será movido para a lixeira de primeiro estágio. Se um usuário excluir o documento da lixeira ou esvaziá-la (processo também conhecido como limpeza), o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras de primeiro e de segundo estágio. Após os 93 dias, o documento será excluído permanentemente de onde estiver, seja na lixeira de primeiro ou de segundo estágio. Como a lixeira não está indexada, ela não está disponível para pesquisa. Como resultado, uma pesquisa de descoberta eletrônica não encontra conteúdos da lixeira para colocar uma retenção. 
 
 Quando a política de retenção for reter somente ou excluir somente, os caminhos de conteúdo serão variações de reter e excluir:
@@ -333,7 +331,7 @@ Estamos trabalhando continuamente na otimização da funcionalidade de retençã
    > [!NOTE]
    > Antes, uma política de retenção não podia excluir o conteúdo do Teams em menos de 30 dias, mas removemos essa limitação. Agora, o período de retenção do conteúdo do Teams pode ser personalizado, sendo no mínimo de um dia. Se o período de retenção for de um dia, as mensagens serão excluídas permanentemente três dias após o término do período de retenção.
     
-No Teams, os arquivos compartilhados no chat são armazenados na conta do OneDrive do usuário que compartilhou o arquivo. Os arquivos carregados nos canais são armazenados no site do SharePoint da equipe. Portanto, para manter ou excluir arquivos no Teams, você precisa criar uma política de retenção que se aplique aos locais do OneDrive e Grupos do Office 365. Se você deseja aplicar uma política aos arquivos compartilhados no Teams de apenas um usuário ou equipe específica, poderá escolher os locais do OneDrive ou Grupos do Office 365 e incluir o usuário ou equipe específica.
+No Teams, os arquivos compartilhados no chat são armazenados na conta do OneDrive do usuário que compartilhou o arquivo. Os arquivos carregados nos canais são armazenados no site do SharePoint da equipe. Portanto, para manter ou excluir arquivos no Teams, você precisa criar uma política de retenção que se aplique aos locais do OneDrive e Grupos do Microsoft 365. Se você quiser aplicar uma política aos arquivos compartilhados no Teams de apenas um usuário ou equipe específica, poderá escolher os locais do OneDrive ou Grupos do Microsoft 365 e incluir o usuário ou equipe específica.
   
 Uma política de retenção que se aplica ao Teams pode usar [Bloqueio de Preservação](#locking-a-retention-policy).
   
@@ -342,9 +340,9 @@ Uma política de retenção que se aplica ao Teams pode usar [Bloqueio de Preser
 > [!NOTE]
 > Se você criar políticas de retenção para os locais do Skype ou Teams em sua organização, uma dessas políticas será exibida como a política de pasta padrão quando um usuário exibir as propriedades de uma pasta de caixa de correio no cliente da área de trabalho do Outlook. Esse é um problema de exibição incorreta no Outlook e [um problema conhecido](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies). O que deve ser exibido como a política de pasta padrão é a política de retenção da caixa de correio aplicada à pasta. A política de retenção do Skype ou Teams não é aplicada à caixa de correio do usuário.  
 
-### <a name="office-365-groups-locations"></a>Locais de grupos do Office 365
+### <a name="microsoft-365-groups-locations"></a>Locais dos grupos do Microsoft 365
 
-Para manter o conteúdo de um grupo do Office 365, você precisa usar o local de grupos do Office 365. Mesmo que um grupo do Office 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local do Exchange não incluirá conteúdo nas caixas de correio de grupo do Office 365. Uma política de retenção aplicada a um grupo do Office 365 inclui a caixa de correio do grupo e um site. Uma política de retenção aplicada a um grupo do Office 365 protege os recursos criados por um grupo do Office 365, que inclui o Microsoft Teams.
+Para manter o conteúdo de um grupo do Microsoft 365, você precisa usar o local de grupos do Microsoft 365. Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local do Exchange não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Uma política de retenção aplicada a um grupo do Microsoft 365 inclui a caixa de correio do grupo e um site. Uma política de retenção aplicada a um grupo do Microsoft 365 protege os recursos criados por um grupo do Microsoft 365, que inclui o Microsoft Teams.
 
 Além disso, não é possível usar o local do Exchange para incluir ou excluir uma caixa de correio de grupo específica. Embora o local do Exchange permita inicialmente que uma caixa de correio de grupo seja selecionada, ao tentar salvar a política de retenção, você recebe um erro indicando que "RemoteGroupMailbox" não é uma seleção válida para o local do Exchange. 
 
@@ -406,7 +404,7 @@ Para entender como as diferentes políticas de retenção são aplicadas ao cont
     
 3. **A inclusão explícita prevalece sobre a inclusão implícita.** Isso significa que: 
     
-    1. Se um rótulo com configurações de retenção for atribuído manualmente por um usuário a um item, como um email do Exchange ou um documento do OneDrive, esse rótulo tem prioridade sobre uma política atribuída no nível do site ou da caixa de correio e um rótulo padrão atribuído pela biblioteca de documentos. Por exemplo, se o rótulo explícito determina a retenção por dez anos, mas a política atribuída ao site estabelecer a retenção por apenas cinco anos, o rótulo terá prioridade. Os rótulos de aplicação automática são considerados implícitos, não explícitos, pois são aplicados automaticamente pelo Office 365.
+    1. Se um rótulo com configurações de retenção for atribuído manualmente por um usuário a um item, como um email do Exchange ou um documento do OneDrive, esse rótulo tem prioridade sobre uma política atribuída no nível do site ou da caixa de correio e um rótulo padrão atribuído pela biblioteca de documentos. Por exemplo, se o rótulo explícito determina a retenção por dez anos, mas a política atribuída ao site estabelecer a retenção por apenas cinco anos, o rótulo terá prioridade. Os rótulos de aplicação automática são considerados implícitos, não explícitos, pois são aplicados automaticamente pelo Microsoft 365.
     
     2. Se uma política de retenção incluir um local específico, como a caixa de correio de um usuário específico ou conta OneDrive for Business, essa política terá precedência sobre outra política de retenção que se aplica a caixas de correio de todos os usuários ou contas do OneDrive for Business, mas não incluirá especificamente essa caixa de correio do usuário.
     
@@ -418,13 +416,13 @@ Por fim, uma política de retenção ou rótulo não pode excluir permanentement
   
 ## <a name="use-a-retention-policy-instead-of-these-features"></a>Usar uma política de retenção em vez destes recursos
 
-Uma única política de retenção pode ser facilmente aplicada a uma organização inteira e a locais por todo o Office 365, incluindo o Exchange Online, o SharePoint Online, o OneDrive for Business e grupos do Office 365. Se precisar manter ou excluir conteúdo em qualquer lugar no Office 365, é recomendável usar uma política de retenção. (Você também pode usar rótulos com configurações de retenção. Para obter mais informações, consulte [Visão Geral do rótulos](labels.md).)
+Uma única política de retenção pode ser facilmente aplicada a uma organização inteira e a locais por todo o Microsoft 365, incluindo o Exchange Online, o SharePoint Online, o OneDrive for Business e grupos do Microsoft 365. Caso você precise manter ou excluir conteúdo em qualquer lugar no Microsoft 365, é recomendável usar uma política de retenção. (Você também pode usar rótulos com configurações de retenção. Para obter mais informações, consulte [Visão Geral do rótulos](labels.md).)
   
-Há vários outros recursos que já foram usados para reter ou excluir conteúdo no Office 365. Eles estão listados abaixo. Esses recursos continuarão a funcionar lado a lado com políticas de retenção e rótulos de retenção. Porém, futuramente, para governança de informações, recomendamos o uso de uma política de retenção ou o uso de rótulos em vez de todos esses recursos. Uma política de retenção é o único recurso que pode tanto reter quanto excluir conteúdo por todo o Office 365.
+Há vários outros recursos que já foram usados para reter ou excluir conteúdo no Microsoft 365. Eles estão listados abaixo. Esses recursos continuarão a funcionar lado a lado com políticas de retenção e rótulos de retenção. Porém, futuramente, para governança de informações, recomendamos o uso de uma política de retenção ou o uso de rótulos em vez de todos esses recursos. Uma política de retenção é o único recurso que pode tanto reter quanto excluir conteúdo por todo o Microsoft 365.
   
 ### <a name="exchange-online"></a>Exchange Online
 
-- [Gerenciar ocorrências de Descoberta Eletrônica no &amp;Centro de Conformidade e Segurança ](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da)do Office 365 (Retenção de Descoberta Eletrônica) 
+- [Gerenciar ocorrências de Descoberta Eletrônica no &amp;Centro de Conformidade e Segurança ](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da) (Retenção de Descoberta Eletrônica) 
     
 - [Bloqueio In-loco e a Retenção de Litígio](https://go.microsoft.com/fwlink/?linkid=846124) (Retenção de Descoberta Eletrônica) 
 
@@ -434,7 +432,7 @@ Há vários outros recursos que já foram usados para reter ou excluir conteúdo
     
 ### <a name="sharepoint-online-and-onedrive-for-business"></a>SharePoint Online e OneDrive for Business
 
-- [Gerenciar ocorrências de Descoberta Eletrônica no &amp;Centro de Conformidade e Segurança ](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da)do Office 365 (Retenção de Descoberta Eletrônica) 
+- [Gerenciar ocorrências de Descoberta Eletrônica no &amp;Centro de Conformidade e Segurança ](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da) (Retenção de Descoberta Eletrônica) 
     
 - [Adicionar conteúdo a uma ocorrência e colocar fontes em retenção na Descoberta Eletrônica](https://support.office.com/article/54d70de9-1ec2-4325-84f3-aeb588554479) (Retenção de Descoberta Eletrônica) 
     
@@ -460,9 +458,9 @@ Se você estava usando uma política de preservação, essa política foi automa
 
 Para usar os cmdlets de políticas de retenção:
   
-1. [Conecte-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
+1. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
     
-2. Use esses cmdlets do Centro de Conformidade e Segurança do Office 365
+2. Use estes cmdlets do Centro de Conformidade e Segurança:
     
     - [Get-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancepolicy)
     
@@ -484,7 +482,7 @@ Para usar os cmdlets de políticas de retenção:
 
 Os membros da sua equipe de conformidade que criarão políticas de retenção precisam de permissões para o [Centro de Conformidade&amp; e Segurança](https://protection.office.com/). Por padrão, o administrador de locatário terá acesso a esse local e pode dar acesso a outras pessoas e aos responsáveis pela conformidade ao [Centro de Conformidade&amp; e Segurança](https://protection.office.com/), sem lhes dar todas as permissões de um administrador de locatários. Para fazer isso, recomendamos que você acesse a página **Permissões** do [Centro de Conformidade&amp; e Segurança](https://protection.office.com/), edite o grupo de função **Administrador de Conformidade** e adicione membros a esse grupo de função. 
   
-Para saber mais, confira [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center). 
+Para saber mais, confira [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center). 
 
 Essas permissões são necessárias somente para criar e aplicar uma política de retenção. A imposição da política não exige acesso ao conteúdo.
 

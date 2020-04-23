@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Para implementar uma estratégia de gerenciamento de registros na organização do Office 365 ou da Microsoft, use rótulos de retenção que declarem conteúdo como um registro. Em seguida, publique ou aplique automaticamente o rótulo de registro de retenção.
-ms.openlocfilehash: d497f3e536a54226ad9e7b5bb9a399f66774c25e
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: db33c65b6c3528a717672b0111a9da098a3d5c31
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153829"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632110"
 ---
 # <a name="overview-of-records"></a>Visão geral de registros
 
@@ -108,6 +108,9 @@ O controle de versão do registro está disponível automaticamente para qualque
 
 ![Propriedade do status do registro no documento marcado como um registro](../media/recordversioning8.png)
 
+> [!NOTE]
+> O controle de versão do registro requer uma licença do Office 365 Enterprise E5 para cada usuário que tenha permissão para editar o conteúdo que foi declarado como um registro em um site do SharePoint ou em uma conta do OneDrive. Os usuários que têm acesso somente leitura não precisam desta licença.
+
 ### <a name="locking-and-unlocking-a-record"></a>Bloqueando e desbloqueando um registro
 
 Depois que um rótulo de registro é atribuído a um documento, qualquer usuário com permissões de colaboração ou um nível de permissão mais estreito poderá desbloquear um registro ou bloquear um registro desbloqueado.
@@ -153,7 +156,7 @@ A biblioteca de Retenção para Preservação está visível somente para admini
 
 ### <a name="searching-the-audit-log-for-record-versioning-events"></a>Pesquisando o log de auditoria para eventos de controle de versão do registro
 
-As ações de bloqueio e desbloqueio de registros são registradas no log de auditoria do Office 365. Você pode pesquisar pelas atividades específicas **Status do registro alterado para bloqueado** e **Status do registro alterado para desbloqueado**, que estão localizadas na seção **Atividades de arquivo e página** na lista suspensa de **Atividades** na página de **Pesquisa de log de auditoria** no centro de conformidade e segurança.
+As ações de bloqueio e desbloqueio de registros são registradas no log de auditoria. Você pode pesquisar pelas atividades específicas **Status do registro alterado para bloqueado** e **Status do registro alterado para desbloqueado**, que estão localizadas na seção **Atividades de arquivo e página** na lista suspensa de **Atividades** na página de **Pesquisa de log de auditoria** no centro de conformidade e segurança.
 <br/><br/>
 
 ![Pesquisar o log de auditoria para eventos de controle de versão do registro](../media/recordversioning13.png)

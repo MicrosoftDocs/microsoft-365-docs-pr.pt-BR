@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: O gerenciador de planos de arquivo fornece recursos avançados de gerenciamento de políticas e rótulos de retenção, políticas de rótulos de retenção e oferece uma maneira integrada de percorrer a atividade de rótulos e de rótulo para conteúdo para todo o seu ciclo de vida de conteúdo, desde a criação à colaboração, declaração de registros, retenção e por fim, à disposição.
-ms.openlocfilehash: c4b1ddfaf3191a282a67917c2b2d257712a10802
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: 4c9cbdefe538a0ed2593ec74dfcee1010fd9b818
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151456"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708436"
 ---
 # <a name="overview-of-file-plan-manager"></a>Visão geral do gerenciador de planos de arquivo
 
@@ -35,11 +35,11 @@ Para acessar o Gerenciador de planos de arquivos no centro de segurança e confo
 
 ## <a name="accessing-file-plan-manager"></a>Acessar o gerenciador de planos de arquivo
 
-Para acessar o gerenciador do plano de arquivos, você deve ter uma das seguintes funções de administrador:
+Para acessar o gerenciador de plano de arquivos, deve haver uma das seguintes funções de administrador:
     
-- Gerenciador de Retenção
-
-- Gerenciador de Retenção somente exibição
+    - Gerenciador de Retenção
+    
+    - Gerenciador de Retenção somente exibição
 
 ## <a name="default-retention-labels-and-label-policy"></a>Rótulos de retenção e política de rótulos padrão
 
@@ -131,7 +131,7 @@ Para importar novos rótulos de retenção e modificar os rótulos de retenção
 
    ![Modelo de plano de arquivo em branco aberto no Excel](../media/file-plan-blank-template.png)
 
-3. Preencher o modelo. A seguir, são descritas as propriedades e os valores válidos para cada propriedade no modelo de planos de arquivo.<br/>
+3. Preencher o modelo. A seguir, são descritas as propriedades e os valores válidos para cada propriedade no modelo de planos de arquivo. Para importação, cada valor tem um comprimento máximo de 64 caracteres. <br/>
 
    |**Propriedade**|**Tipo**|**Valores válidos**|
    |:-----|:-----|:-----|
@@ -152,7 +152,7 @@ Para importar novos rótulos de retenção e modificar os rótulos de retenção
    |CitationUrl|String|Esta propriedade especifica o valor que é exibido no descritor de planos de arquivo **Tipo de autoria**.|
    |CitationJurisdiction|String|Esta propriedade especifica a jurisdição ou órgão que é exibida no descritor de plano **Provisão/citação**, por exemplo, "Comissão de Valores Mobiliários dos EUA (SEC)".|
    |Regulatório|String|Deixar em branco. Esta propriedade não é usada nesse momento.|
-   |EventType|String|Esta propriedade especifica a regra de retenção associada ao rótulo. É possível usar qualquer valor que identifique a regra com exclusividade. Por exemplo:</br>**Nome**</br>**Nome diferenciado (DN)**</br>**GUID** </br>Você pode usar o cmdlet [Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancerule?view=exchange-ps) para exibir as regras de retenção disponíveis. Observe que, se você exportar rótulos de uma organização do Office 365, não poderá usar os valores da propriedade EventType dessa organização ao importar rótulos para uma organização diferente do Office 365. Isso porque os valores de EventType são exclusivos de uma organização. |
+   |EventType|String|Esta propriedade especifica a regra de retenção associada ao rótulo. É possível usar qualquer valor que identifique a regra com exclusividade. Por exemplo:</br>**Nome**</br>**Nome diferenciado (DN)**</br>**GUID** </br>Você pode usar o cmdlet [Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancerule?view=exchange-ps) para exibir as regras de retenção disponíveis. Observe que, se você exportar rótulos de uma organização, não poderá usar os valores da propriedade EventType dessa organização ao importar rótulos para uma organização diferente. Isso porque os valores de EventType são exclusivos de uma organização. |
    |||
 
    Veja um exemplo do modelo que contém as informações sobre rótulos de retenção.

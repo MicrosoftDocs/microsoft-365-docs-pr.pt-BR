@@ -1,5 +1,5 @@
 ---
-title: Use etiquetas de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
+title: Use rótulos de confidencialidade do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint (visualização pública)
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -16,21 +16,21 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint e Microsoft Teams e nos grupos do Office 365.
-ms.openlocfilehash: 69ab8dcecf95f02965254928110802bfd0308b8b
-ms.sourcegitcommit: b8aa905b7c9c59def56490670b928b0b7daa7d0c
+description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
+ms.openlocfilehash: b9ca945ac90ab27d3bc25f1022070eff4737bc10
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2020
-ms.locfileid: "43558760"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631298"
 ---
-# <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Usar códigos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)
+# <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites-public-preview"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint (visualização pública)
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-Ao criar rótulos de confidencialidade no [centro de conformidade do Microsoft 365](https://protection.office.com/), você pode aplicá-los aos seguintes contêineres: sites do Microsoft Teams, grupos do Office 365 e sites do SharePoint. Use as configurações de rótulo a seguir para ajudar a proteger o conteúdo desses contêineres:
+Quando você cria rótulos de confidencialidade no [Centro de conformidade do Microsoft 365](https://protection.office.com/), você pode aplicar aos seguintes contêineres: sites do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint. Use as configurações de rótulo a seguir para ajudar a proteger o conteúdo desses contêineres:
 
-- Privacidade (pública ou privada) dos sites de equipes conectados a grupos do Office 365
+- Privacidade (pública ou privada) dos sites de equipes conectadas ao grupo do Microsoft 365
 - Acesso de usuários externos
 - Acesso de dispositivos não gerenciados 
 
@@ -38,21 +38,21 @@ Quando você aplica esse rótulo a um contêiner suportado, o rótulo aplica aut
 
 O conteúdo desses contêineres, no entanto, não herda os rótulos das configurações como nome, marcações visuais ou criptografia. Para que os usuários possam rotular seus documentos em sites do SharePoint ou em sites de equipe, [habilite rótulos de confidencialidade para arquivos do Office no SharePoint e OneDrive](sensitivity-labels-sharepoint-onedrive-files.md).
 
-## <a name="about-the-public-preview-for-microsoft-teams-office-365-groups-and-sharepoint-sites"></a>Sobre a visualização pública do Microsoft Teams, grupos do Office 365 e sites do SharePoint
+## <a name="about-the-public-preview-for-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Sobre a visualização pública do Microsoft Teams, Grupos do Microsoft 365 e sites do SharePoint
 
-Os rótulos de confidencialidade do Microsoft Teams, grupos do Office 365 e sites do SharePoint são gradualmente implementados para locatários e podem ser alterados antes do lançamento final. Esta versão pública não funciona com as CDNs (redes de distribuição de conteúdo do Office 365).
+Os rótulos de confidencialidade do Microsoft Teams, Grupos do Microsoft 365 e sites do SharePoint são gradualmente implementados para locatários e podem ser alterados antes do lançamento final. Esta versão pública não funciona com as CDNs (redes de distribuição de conteúdo do Office 365).
 
 Antes de habilitar essa visualização e definir os rótulos de confidencialidade das novas configurações, os usuários podem ver e aplicar rótulos de confidencialidade em seus aplicativos. Por exemplo, no Word:
 
 ![Um rótulo de confidencialidade exibido no aplicativo Word para área de trabalho](../media/sensitivity-label-word.png)
 
-Depois de habilitar e configurar essa visualização, os usuários também podem ver e aplicar rótulos de confidencialidade ao Microsoft Teams, grupos do Office 365 e sites do SharePoint. Por exemplo, quando você cria um novo site de equipe no SharePoint:
+Depois de habilitar e configurar essa visualização, os usuários também podem ver e aplicar rótulos de confidencialidade do Microsoft Teams, Grupos do Microsoft 365 e sites do SharePoint. Por exemplo, quando você cria um novo site de equipe no SharePoint:
 
 ![Um rótulo de confidencialidade ao criar um site de equipe do SharePoint](../media/sensitivity-labels-new-team-site.png)
 
 ## <a name="enable-this-preview-and-synchronize-labels"></a>Habilitar esta visualização e sincronizar rótulos
 
-1. Como esse recurso usa a funcionalidade do Azure AD, siga as instruções na documentação do Azure AD para habilitar a visualização: [Atribuir rótulos de confidencialidade aos grupos do Office 365 no Azure Active Directory (visualização)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
+1. Como esse recurso usa a funcionalidade do Azure AD, siga as instruções na documentação do Azure AD para habilitar a visualização: [Atribuir rótulos de confidencialidade aos grupos do Microsoft 365 no Azure Active Directory (visualização)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
 
 2. Agora, [conecte-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell). 
     
@@ -65,7 +65,7 @@ Depois de habilitar e configurar essa visualização, os usuários também podem
     Import-PSSession $Session -DisableNameChecking
     ```
 
-3. Execute o seguinte comando para sincronizar seus rótulos de confidencialidade com o Azure AD, para que eles possam ser usados com grupos do Office 365:
+3. Execute o seguinte comando para sincronizar seus rótulos de confidencialidade com o Azure AD, para que eles possam ser usados com os Grupos do Microsoft 365:
     
     ```powershell
     Execute-AzureAdLabelSync
@@ -79,7 +79,7 @@ Se precisar de ajuda para criar ou editar um rótulo de confidencialidade, confi
 
 Nesta nova página **Configurações de site e grupo**, defina as configurações:
 
-- **Privacidade dos sites de equipes conectadas ao grupo do Office 365**: A configuração padrão de **Nenhum - permite que o usuário escolha quem pode acessar o site** está sendo implementado no momento para os locatários. Mantenha essa configuração padrão quando desejar proteger o conteúdo no contêiner usando o rótulo de confidencialidade, mas ainda permita que os usuários configurem eles mesmos a privacidade.
+- **Privacidade dos sites de equipes conectadas ao grupo do Microsoft 365**: A configuração padrão de **Nenhum - permite que o usuário escolha quem pode acessar o site** está sendo implementado no momento para os locatários. Mantenha essa configuração padrão quando desejar proteger o conteúdo no contêiner usando o rótulo de confidencialidade, mas ainda permita que os usuários configurem eles mesmos a privacidade.
     
     Selecione **Pública** ou**Privada** para definir e bloquear a configuração de privacidade quando você aplicar esse rótulo ao contêiner. Escolha **Pública** se desejar que alguém da sua organização acesse o site de equipe ou grupo no qual esse rótulo é aplicado ou **Privada** se desejar que o acesso seja restrito apenas a membros aprovados em sua organização. 
     
@@ -103,7 +103,7 @@ Na política de rótulo, apenas a configuração de política **Aplicar esta eti
 ## <a name="sensitivity-label-management"></a>Gerenciamento de rótulo de confidencialidade
 
 > [!WARNING]
-> Criar, modificar e excluir rótulos de confidencialidade que você usa para o Microsoft Teams, grupos do Office 365 e sites do SharePoint exige uma coordenação cuidadosa com as políticas de rótulo de publicação para os usuários. 
+> Criar, modificar e excluir rótulos de confidencialidade usados no Microsoft Teams, Grupos do Microsoft 365 e sites do SharePoint exige uma coordenação cuidadosa com a publicação de políticas de rótulo para os usuários. 
 
 Evite erros de criação para sites e grupos que possam afetar todos os usuários usando as diretrizes a seguir.
 
@@ -115,7 +115,7 @@ Depois de criar e publicar um rótulo de confidencialidade, pode levar até 24 h
 
 2. Aguarde 24 horas.
 
-3. Após essas 24 horas, use uma das contas de usuário especificadas na etapa 1 para criar uma equipe, um grupo do Office 365 ou um site do SharePoint com o rótulo que você criou na etapa 1.
+3. Após essas 24 horas de espera, use uma das contas de usuário especificadas na etapa 1 para criar uma equipe, grupo do Microsoft 365 ou site do SharePoint com o rótulo que você criou na etapa 1.
 
 4. Se não houver erros durante a operação de criação da etapa 3, publique o rótulo para todos os usuários em seu locatário. Se houver erros, contate o [suporte da Microsoft](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
@@ -131,9 +131,9 @@ Se você modificar ou excluir um rótulo de confidencialidade com as configuraç
 
 4. Se a etiqueta de confidencialidade não estiver visível, agora você pode modificá-la ou excluí-la com segurança. Se o rótulo ainda estiver visível, contate o [suporte da Microsoft](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
-## <a name="assign-sensitivity-labels-to-office-365-groups"></a>Atribuir rótulos de confidencialidade a grupos do Office 365
+## <a name="assign-sensitivity-labels-to-microsoft-365-groups"></a>Atribuir rótulos de confidencialidade aos Grupos do Microsoft 365
 
-Agora você está pronto para aplicar os rótulos ou rótulos de confidencialidade aos grupos do Office 365. Retorne à documentação do Azure AD para obter instruções:
+Agora você está pronto para aplicar os rótulos ou rótulos de confidencialidade aos grupos do Microsoft 365. Retorne à documentação do Azure AD para obter instruções:
 
 - [Atribuir um rótulo a um novo grupo no portal do Azure](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#assign-a-label-to-a-new-group-in-azure-portal)
 
@@ -153,7 +153,7 @@ Depois de criar a equipe, o rótulo de confidencialidade aparecerá no canto sup
 
 ![O rótulo de confidencialidade aparece na equipe](../media/privacy-setting-teams.png)
 
-O serviço aplica automaticamente o mesmo rótulo de confidencialidade ao grupo do Office 365 e ao site de equipe do SharePoint conectado.
+O serviço aplica automaticamente o mesmo rótulo de confidencialidade ao grupo do Microsoft 365 e ao site de equipe do SharePoint conectado.
 
 ## <a name="apply-a-sensitivity-label-to-a-new-group-in-outlook-on-the-web"></a>Aplicar um rótulo de confidencialidade a um novo grupo no Outlook na Web
 
@@ -256,7 +256,7 @@ Outros aplicativos e serviços onde você não pode usar atualmente os rótulos 
 
 ## <a name="classic-azure-ad-group-classification"></a>Classificação clássica de grupo do Azure AD
 
-O Office 365 não oferece mais suporte às classificações antigas para novos grupos do Office 365 e sites do SharePoint quando você habilita essa visualização. No entanto, os grupos e sites existentes ainda exibem os valores de classificação antigos, a menos que você os converta para usar rótulos de confidencialidade.
+O Microsoft 365 não oferece mais suporte às classificações antigas para novos grupos do Office 365 e sites do SharePoint quando você habilita essa visualização. No entanto, os grupos e sites existentes ainda exibem os valores de classificação antigos, a menos que você os converta para usar rótulos de confidencialidade.
 
 Como um exemplo de como você pode ter usado a classificação de grupo antiga do SharePoint, confira [Classificação de sites “moderna”](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification).
 
@@ -274,13 +274,13 @@ Para converter suas classificações antigas em rótulos de confidencialidade, s
 
 Depois: 
 
-1. Use o PowerShell para aplicar os novos rótulos de confidencialidade a grupos existentes do Office 365 e a sites do SharePoint usando mapeamento de nomes. Confira a seção a seguir para obter instruções.
+1. Use o PowerShell para aplicar os rótulos de confidencialidade a grupos existentes do Microsoft 365 e sites do SharePoint usando o mapeamento de nomes. Confira a seção a seguir para obter instruções.
 
 2. Remova as classificações antigas dos grupos e sites existentes.
 
 Embora você não possa impedir que os usuários criem novos grupos em aplicativos e serviços que ainda não suportam rótulos de confidencialidade, é possível executar um script recorrente do PowerShell para procurar novos grupos que os usuários criaram com as classificações antigas e convertê-los para uso de rótulos de confidencialidade. 
 
-#### <a name="use-powershell-to-convert-classifications-for-office-365-groups-to-sensitivity-labels"></a>Usar o PowerShell para converter classificações de grupos do Office 365 em rótulos de confidencialidade
+#### <a name="use-powershell-to-convert-classifications-for-microsoft-365-groups-to-sensitivity-labels"></a>Use o PowerShell para converter classificações de grupos do Microsoft 365 em rótulos de confidencialidade
 
 1. Primeiro, [conecte-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell). 
     
@@ -311,13 +311,13 @@ Embora você não possa impedir que os usuários criem novos grupos em aplicativ
     Import-PSSession $Session
     ```
 
-5. Execute o cmdlet [Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps) para obter a lista de grupos do Office 365 que possuem uma das classificações que você especificou.
-    
-    Por exemplo, para obter uma lista de grupos do Office 365 que possuem a classificação “Geral”: 
-    
-    ```powershell
-    $Groups= Get-UnifiedGroup | Where {$_.classification -eq "General"}
-    ```
+6. Anote o GUIDe dos rótulos de confidencialidade que você deseja aplicar a seus grupos do Microsoft 365.
+
+7. Use o seguinte comando como exemplo para obter a lista de grupos que atualmente têm a classificação "Geral":
+
+   ```PowerShell
+   $Groups= Get-UnifiedGroup | Where {$_.classification -eq "General"}
+   ```
 
 6. Para cada grupo, adicione o novo GUID de rótulo de confidencialidade. Por exemplo:
 
@@ -344,15 +344,15 @@ Para obter instruções sobre como pesquisar o log de auditoria, confira [Pesqui
 
 ## <a name="troubleshoot-sensitivity-label-deployment"></a>Solucionar problemas de implantação de rótulo de confidencialidade
 
-Está tendo problemas com os rótulos de confidencialidade do Microsoft Teams, grupos do Office 365 e sites do SharePoint? Verifique o seguinte:
+Está tendo problemas com os rótulos de confidencialidade dos Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint? Verifique o seguinte:
 
 ### <a name="labels-not-visible-after-publishing"></a>Rótulos não visíveis após a publicação
-Se você tiver problemas ao criar um site ou grupo do Office 365 depois de habilitar essas configurações ou modificar o nome ou a dica de ferramenta de um rótulo de confidencialidade, aguarde algumas horas após salvar as alterações no rótulo e tente criar a equipe ou o grupo novamente. Para saber mais, confira [Agendar a distribuição após criar ou alterar um rótulo de confidencialidade](sensitivity-labels-sharepoint-onedrive-files.md#schedule-roll-out-after-you-create-or-change-a-sensitivity-label).
+Se você tiver problemas ao criar um site ou grupo do Microsoft 365 depois de habilitar essas configurações ou modificar o nome ou a dica de ferramenta de um rótulo de confidencialidade, aguarde algumas horas após salvar as alterações no rótulo e tente criar a equipe ou o grupo novamente. Para saber mais, confira [Agendar a distribuição após criar ou alterar um rótulo de confidencialidade](sensitivity-labels-sharepoint-onedrive-files.md#schedule-roll-out-after-you-create-or-change-a-sensitivity-label).
 
 Se você ainda não conseguir ver o novo rótulo de confidencialidade do SharePoint Online, contate o [Suporte da Microsoft](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
 ### <a name="team-group-or-sharepoint-site-creation-errors"></a>Erros de criação de equipe, grupo ou site do SharePoint
-Se ocorrerem erros de criação durante a visualização pública, você poderá desativar os rótulos de confidencialidade do Microsoft Teams, grupos do Office 365 e sites do SharePoint usando as mesmas instruções em [Habilitar o suporte ao rótulo de confidencialidade no PowerShell](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#enable-sensitivity-label-support-in-powershell). No entanto, para desabilitar a visualização, na etapa 5, desabilite o recurso usando o `$setting["EnableMIPLabels"] = "False"`.
+Se você encontrar erros de criação durante a visualização pública, poderá desativar os rótulos de confidencialidade para Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint usando as mesmas instruções de [Habilitar o suporte ao rótulo de confidencialidade no PowerShell](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#enable-sensitivity-label-support-in-powershell). No entanto, para desabilitar a visualização, na etapa 5, desabilite o recurso usando o `$setting["EnableMIPLabels"] = "False"`.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
