@@ -1,5 +1,5 @@
 ---
-title: 'Etapa 8: Treinamento e comunicações de usuários'
+title: Etapa 8 - Treinamento e Comunicações de Usuários
 f1.keywords:
 - NOCSH
 ms.author: jogruszc
@@ -14,13 +14,13 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Saiba como preparar seus usuários finais para o Windows 10 e o Office 365 ProPlus com o uso de comunicações e treinamento.
-ms.openlocfilehash: 02fa62cc7f9276670812a887e927ce8a1c6fb549
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Aprenda a preparar seus usuários finais para o Windows 10 e Aplicativos do Microsoft 365 para empresas com o uso de comunicação e treinamento.
+ms.openlocfilehash: 7497925b7efd66dd4b86dd4d64df81490bbc7d90
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085100"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636742"
 ---
 # <a name="step-8-user-communications-and-training"></a>Etapa 8: Treinamento e comunicações de usuários
 
@@ -30,7 +30,7 @@ ms.locfileid: "42085100"
 <thead>
 <td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="Step 8" height="144" width="144" /></td>
 <td><p><strong>Etapa 8: Treinamento e comunicações de usuários</strong></p>
-<p>Certifique-se de que os usuários sejam informados sobre as novas experiências e novas maneiras de trabalhar à medida que você atualiza os computadores para o Windows 10 e o Office 365 ProPlus. Saiba como aproveitar a ajuda de adoção do usuário com o Microsoft FastTrack, materiais de treinamento e modelos de comunicação, bem como novas maneiras de monitorar o uso e a aceitação do usuário.</p></td>
+<p>Certifique-se de que os usuários estejam informados sobre as novas experiências e novas maneiras de trabalhar à medida que você migra os computadores para o Windows 10 e Aplicativos do Microsoft 365 para empresas. Saiba como aproveitar a assistência para adoção dos usuários com o Microsoft FastTrack, materiais de treinamento e modelos de comunicação, bem como novas maneiras de monitorar o uso e a aceitação do usuário.</p></td>
 <td><a href="https://aka.ms/ddev8" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></a></td>
 </thead>
 </table>
@@ -45,7 +45,7 @@ A boa notícia é que, se você estiver migrando do Windows 7 e do Office 2010 o
 
 ## <a name="getting-ready-for-new-experiences"></a>Como se preparar para novas experiências
 
-Começando pelo Office, se você estiver implantando o Office 365 ProPlus pela primeira vez, será possível comunicar as vantagens de entrar nos aplicativos do Office e salvar arquivos nos locais do OneDrive ou SharePoint para facilitar o compartilhamento, reduzir a ramificação do arquivo e habilitar a coautoria em tempo real.
+Começando pelo Office, se você estiver implantando o Aplicativos do Microsoft 365 para empresas pela primeira vez, será possível comunicar as vantagens de entrar nos aplicativos do Office e salvar arquivos nos locais do OneDrive ou SharePoint para facilitar o compartilhamento, reduzir a ramificação do arquivo e habilitar a coautoria em tempo real.
 
 Os modelos detalhados de comunicação e treinamento estão disponíveis para esses e outros aplicativos locais ou baseados em navegador, como o Teams e o Planner.
 
@@ -61,7 +61,7 @@ Também são visíveis os controles de segurança e conformidade aos quais os us
 
 Por exemplo, se você já tiver habilitado a Autenticação Multifator, ela utilizará o Azure AD e protegerá o acesso do usuário a recursos aproveitando um aplicativo de telefone ou um PIN para usar os serviços com segurança. E a Proteção de Informações do Azure facilita para os usuários classificar e rotular documentos.
 
-[Configurar a autenticação multifator para usuários do Office 365](https://support.office.com/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
+[Configurar a autenticação multifator para usuários](https://support.office.com/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
 
 Estes são apenas alguns dos novos recursos que serão percebidos pelos seus usuários e alguns poderão pegá-los de surpresa, de uma maneira mais ou menos positiva. E essas surpresas, especialmente se alterarem o fluxo de trabalho normal, podem resultar em mais chamadas e tíquetes para você ou seu suporte técnico.
 
@@ -83,9 +83,9 @@ Os anéis de implantação devem ser criados em conjunto com as unidades de neg�
 
 ### <a name="phase-1-the-it-team-and-early-adopter-insiders"></a>Fase 1: A equipe de TI e os usuários pioneiros 
 
-É melhor começar sua implantação com a equipe de TI e os usuários pioneiros entusiasmados, que se voluntariam para acesso antecipado. Com esses participantes com "informações privilegiadas", você poderá testar suas comunicações, os impactos da mudança e a eficácia das suas comunicações e do treinamento. Durante essa fase, a TI executa pequenos pilotos, aprende técnicas de solução de problemas e automação para ajudá-lo durante fases de implantação mais amplas.
+É melhor começar sua implantação com a equipe de TI e os adeptos iniciais entusiasmados, que se voluntariam para acesso antecipado. Com esses "privilegiados", você poderá testar suas comunicações, os impactos da mudança e a eficácia das suas comunicações e do treinamento. Durante essa fase, a TI executa pequenos pilotos, aprende técnicas de solução de problemas e automação para ajudá-lo durante fases de implantação mais amplas.
 
-É importante envolver membros na fase piloto inicial, para garantir que eles documentem suas observações e impressões no processo. Além disso, é bom tê-representantes fora da equipe de TI que ajudam a estender a comunicação orgânica e boca a boca dos novos recursos e normalmente serão os primeiros com condições de dar suporte quando os usuários em fases posteriores precisarem de ajuda.
+É importante envolver membros na fase piloto inicial, para garantir que eles documentem suas observações e impressões no processo. Além disso, é bom ter representantes fora da equipe de TI que ajudem a estender a comunicação orgânica e boca a boca dos novos recursos e normalmente serão os primeiros com condições de dar suporte quando os usuários em fases posteriores precisarem de ajuda.
 
 ### <a name="phase-2-pilot"></a>Fase 2: Piloto 
 
@@ -111,11 +111,11 @@ Além disso, se estiver usando o Microsoft 365 ou o Office 365, é grande a chan
 
 #### <a name="microsoft-it-showcase"></a>Demonstração da TI da Microsoft 
 
-A série Demonstração de TI da Microsoft é outro recurso excelente para conteúdo relacionado a implantação do Windows 10. Ele inclui linhas do tempo e cronogramas, modelos promoção digital, modelos de email e conteúdo da Intranet. Eles são baseados em materiais usados para a própria implantação do Windows 10 da Microsoft e foi modificado para qualquer organização usar.
+A série de apresentações de TI da Microsoft é outro recurso excelente para conteúdo relacionado a implantação do Windows 10. Ele inclui linhas do tempo e cronogramas, modelos para promoção digital, modelos de email e conteúdo da Intranet. Eles são baseados em materiais usados para a própria implantação do Windows 10 na Microsoft e foi modificado para qualquer organização usar.
 
 [Preparo da organização para uma implantação perfeita do Windows 10](https://www.microsoft.com/itshowcase/windows10deployment)
 
-Esses componentes e serviços em conjunto podem ser ajustados durante a fase piloto. E quando você começar a perceber com o que seus usuários se identificam durante o treinamento, quais dispositivos abordar pelo Analytics e quais dispositivos ou grupos de usuários para evitar ou atrasar, você poderá começar a ampliar sua implantação em fases posteriores usando uma abordagem orientada para dados e para a experiência.
+Esses componentes e serviços em conjunto podem ser ajustados durante a fase piloto. E quando você começar a perceber com o que seus usuários se identificam durante o treinamento, quais dispositivos abordar pelo Analytics e quais dispositivos ou grupos de usuários para evitar ou retardar, você poderá começar a ampliar sua implantação em fases posteriores usando uma abordagem orientada para dados e para a experiência.
 
 Com a expansão do piloto, convém documentar e publicar perguntas frequentes e conteúdo de autoatendimento para ajudar a reduzir proativamente os tíquetes de suporte e as atividades de assistência técnica.
 
@@ -129,8 +129,8 @@ Implante a uma velocidade razoável para a capacidade do departamento de TI, sup
 
 Além dos dados de diagnóstico monitorados por meio das ferramentas de análise, você também pode monitorar a utilização de serviços do Office 365 e do Microsoft 365 de maneira granular com relatórios de uso detalhados por carga de trabalho no centro de administração e usando os painéis de administração por meio do Power BI. Essas são excelentes ferramentas para ajudar a definir e acompanhar as metas à medida que você implementa novas ferramentas para trabalhar em conjunto, como o Microsoft Teams, ou novas formas de compartilhar arquivos, como o OneDrive.
 
-A adoção e a aceitação de novas tecnologias são um processo contínuo que abrange cada computador em sua organização que tiver o Windows 10 e o Office 365 ProPlus instalado. E os usuários não necessariamente mudam o modo como funcionam, sem que você pare para informá-los e treiná-los nos novos recursos. Por fim, com os novos modelos de serviços fornecendo novos recursos em um cronograma semestral contínuo para Windows e, opcionalmente, um cronograma mensal do Office, a comunicação será contínua.
+A adoção e a aceitação de novas tecnologias são um processo contínuo que abrange cada computador em sua organização que tiver o Windows 10 e Aplicativos do Microsoft 365 para empresas instalados. E os usuários não necessariamente mudam o modo como funcionam, sem que você pare para informá-los e treiná-los nos novos recursos. Por fim, com os novos modelos de serviços fornecendo novos recursos em um cronograma semestral contínuo para Windows e, opcionalmente, um cronograma mensal do Office, a comunicação será contínua.
 
 ## <a name="previous-step"></a>Etapa anterior 
 
-## <a name="step-7-windows-and-office-servicinghttpsakamsmdd7"></a>[Etapa 7: Manutenção do Windows e do Office](https://aka.ms/mdd7)
+## <a name="step-7-windows-and-office-servicing"></a>[Etapa 7: Manutenção do Windows e do Office](https://aka.ms/mdd7)

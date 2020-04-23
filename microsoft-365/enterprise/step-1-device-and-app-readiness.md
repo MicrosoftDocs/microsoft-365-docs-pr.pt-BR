@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aprenda a avaliar a preparação de dispositivos e aplicativos no ambiente.
-ms.openlocfilehash: abeb6bbfcc5a8de869263f5a4aa922a6642a92f1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: fc048b046e46b4b2e792aa9bffb695eed742a74c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085450"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636851"
 ---
 # <a name="step-1-device-and-app-readiness"></a>Etapa 1: preparação de dispositivos e aplicativos
 
@@ -36,10 +36,10 @@ ms.locfileid: "42085450"
 </table>
 
 >[!NOTE]
->A Preparação de Dispositivo e Aplicativos é a primeira etapa dos nossos processos de implantação recomendados, cobrindo os aspectos abrangentes da compatibilidade de aplicativos e hardware.  Para ver o processo completo de implantação de desktop, visite o [Centro de Implantação de Desktop](https://aka.ms/HowToShift).
+>A Preparação de Dispositivo e Aplicativos é a primeira etapa dos nossos processos de implantação recomendados, cobrindo os aspectos abrangentes da compatibilidade de aplicativos e hardware.  Para ver o processo completo de implantação de desktop, visite o [Centro de Implantação do Computador](https://aka.ms/HowToShift).
 >
 
-No passado, um grande desafio para a atualização de computadores dos usuários era a compatibilidade entre aplicativos e hardware. A boa notícia ao planejar sua migração para o Windows 10 e Office 365 ProPlus é que qualquer aplicativo escrito nos últimos 10 anos funciona no Windows 10, e todos os suplementos e macros do VBA que sua organização usou em versões do Office desde o Office 2010 continuam a funcionar em versões mais recentes do Office, sem precisar de modificações.
+No passado, um grande desafio para a atualização de computadores dos usuários era a compatibilidade entre aplicativos e hardware. A boa notícia ao planejar sua migração para o Windows 10 e para o Microsoft 365 Apps for enterprise é que qualquer aplicativo escrito nos últimos 10 anos funciona no Windows 10, e todos os suplementos e macros do VBA que sua organização usou em versões do Office desde o Office 2010 continuam a funcionar em versões mais recentes do Office, sem precisar de modificações.
 
 Dito isto, dependendo do tamanho e da idade da sua organização, verificar a compatibilidade entre aplicativos e hardware provavelmente ainda é uma etapa inicial essencial no nosso processo de implantação recomendado de fase de 8.
 
@@ -89,7 +89,7 @@ Você vai notar que a maioria dos aplicativos, drivers e suplementos inventariad
 
 Você pode usar o Desktop Analytics para avaliar os problemas de compatibilidade com base no navegador também, identificando sites e aplicativos da Web acessados por usuários que ainda usam controles ActiveX, objetos auxiliares do navegador, VBScript ou outras tecnologias herdadas que não têm suporte no navegador Microsoft Edge. Os usuários ainda precisam usar o Internet Explorer 11 para esses sites, e você pode adicioná-los à [lista de sites do modo empresarial](https://docs.microsoft.com/microsoft-edge/deploy/emie-to-improve-compatibility), usando o Gerenciador de lista de sites do modo empresarial.
 
-Além disso, para ajudar na mudança para o Office 365 ProPlus, você pode usar o [Readiness Toolkit for Office](https://docs.microsoft.com/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro) para testar a compatibilidade dos seus suplementos e macros do Microsoft Visual Basic for Applications (VBA).
+Além disso, para ajudar na mudança para o Microsoft 365 Apps for enterprise, você pode usar o [Readiness Toolkit for Office](https://docs.microsoft.com/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro) para testar a compatibilidade dos seus suplementos e macros do Microsoft Visual Basic for Applications (VBA).
 
 ![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-6.png)
 
@@ -110,12 +110,12 @@ Para saber mais, confira [Introdução ao inventário de software no Configurati
 
 ## <a name="app-assure"></a>Garantia de Aplicativo
 
-Outra ferramenta para ajudar com a compatibilidade de aplicativos do Windows 10 e Office 365 ProPlus é o programa [Desktop App Assure](https://aka.ms/appassure) disponível através do FastTrack Center. No caso de problemas com um aplicativo válido, um engenheiro da Microsoft trabalha com você sem nenhum custo adicional através do App Assure para ajudar a corrigir a incompatibilidade do aplicativo.
+Outra ferramenta para ajudar com a compatibilidade de aplicativos do Windows 10 e Microsoft 365 Apps for enterprise é o programa [Desktop App Assure](https://aka.ms/appassure) disponível através do FastTrack Center. No caso de problemas com um aplicativo válido, um engenheiro da Microsoft trabalha com você sem nenhum custo adicional através do App Assure para ajudar a corrigir a incompatibilidade do aplicativo.
 
 ## <a name="continued-use-of-diagnostic-data-tools"></a>Uso Contínuo de Ferramentas de Telemetria
 
-A análise da área de trabalho não é apenas uma ferramenta que ajuda você a mudar para o Windows 10 e para o Office 365 ProPlus. Depois que os computadores estiverem executando o Windows 10 e o Office 365, você pode usá-lo para ajudar na manutenção da sua implantação e para gerenciar as Atualizações de Recursos semestrais e manter-se atualizado.
+A análise da área de trabalho não é apenas uma ferramenta que ajuda você a mudar para o Windows 10 e para o Microsoft 365 Apps for enterprise. Depois que os computadores estiverem executando o Windows 10 e o Office 365, você pode usá-lo para ajudar na manutenção da sua implantação e para gerenciar as Atualizações de Recursos semestrais e manter-se atualizado.
 
 ## <a name="next-step"></a>Próxima etapa 
 
-## <a name="step-2-directory-and-network-readinesshttpsakamsmdd2"></a>[Etapa 2: diretório e preparação de rede](https://aka.ms/mdd2)
+## <a name="step-2-directory-and-network-readiness"></a>[Etapa 2: diretório e preparação de rede](https://aka.ms/mdd2)

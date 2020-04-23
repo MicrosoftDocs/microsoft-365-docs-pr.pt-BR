@@ -1,5 +1,5 @@
 ---
-title: Autenticação de email no Office 365
+title: Autenticação de email no Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,17 +17,17 @@ ms.collection:
 - Strat_O365_IP
 ms.custom: TopSMBIssues
 localization_priority: Priority
-description: Saiba como o Exchange Online e a Proteção do Exchange Online (EOP) no Office 365 usam a autenticação de email (SPF, DKIM e DMARC) para ajudar a evitar falsificações, phishing e spam.
-ms.openlocfilehash: 609f1a9bf80acc266bdfc5b0089eb6006be4bd7c
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+description: Saiba como o Exchange Online e o Exchange Online Protection (EOP) no Microsoft 365 usam a autenticação de email (SPF, DKIM e DMARC) para ajudar a evitar falsificações, phishing e spam.
+ms.openlocfilehash: f3a3ea902cb0c4fede4fcfd919f0969765bc4a96
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43529829"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637551"
 ---
-# <a name="email-authentication-in-office-365"></a>Autenticação de email no Office 365
+# <a name="email-authentication-in-microsoft-365"></a>Autenticação de email no Microsoft 365
 
-A autenticação de email (também conhecida como validação de email) é um grupo de padrões que tenta interromper a falsificação (mensagens de email de remetentes forjados). Nas organizações do Office 365 com caixas de correio do Exchange Online e organizações autônomas da Proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, a EOP usa os padrões para verificar emails de entrada:
+A autenticação de email (também conhecida como validação de email) é um grupo de padrões que tenta interromper a falsificação (mensagens de email de remetentes forjados). Nas organizações Microsoft 365 com caixas de correio do Exchange Online e organizações com Exchange Online Protection (EOP) autônomos, sem as caixas de correio do Exchange Online, o EOP usa os padrões para verificar os emails de entrada:
 
 - [SPF](how-office-365-uses-spf-to-prevent-spoofing.md)
 
@@ -55,7 +55,7 @@ Esse é um grande problema porque, embora as empresas possam não estar cientes 
 
 A autenticação implícita de email se baseia em várias extensões de políticas regulares de autenticação de email. Essas extensões incluem a reputação do remetente, histórico do remetente, histórico do destinatário, análise comportamental e outras técnicas avançadas. Uma mensagem enviada de um domínio que não usa políticas de autenticação de email será marcada como falsa, a menos que contenha outros sinais para indicar que é legítima.
 
-Para ver o comunicado geral da Microsoft, confira [Um mar de phishing, parte 2 ‒ antifalsificação aprimorada no Office 365](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Schooling-A-Sea-of-Phish-Part-2-Enhanced-Anti-spoofing/ba-p/176209).
+Para ver o anúncio geral da Microsoft, confira [A Sea of Phish Part 2 - Enhanced Anti-spoofing in Microsoft 365](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Schooling-A-Sea-of-Phish-Part-2-Enhanced-Anti-spoofing/ba-p/176209).
 
 ## <a name="composite-authentication"></a>Autenticação composta
 
@@ -63,9 +63,9 @@ Embora o SPF, o DKIM e o DMARC sejam úteis por si só, não comunicam um status
 
 > Authentication-Results:<br/>&nbsp;&nbsp;&nbsp;compauth=\<fail | pass | softpass | none\> reason=\<yyy\>
 
-Esses valores são explicados nos [campos de cabeçalho da mensagem Authentication-results usados pela autenticação de email do Office 365](anti-spam-message-headers.md#authentication-results-message-header-fields-used-by-office-365-email-authentication).
+Estes valores são explicados em [Resultados de autenticação do cabeçalho da mensagem](anti-spam-message-headers.md#authentication-results-message-header).
 
-Ao examinar os cabeçalhos das mensagens, os administradores ou mesmo os usuários finais podem determinar como o Office 365 determinou que o remetente é falsificado.
+Ao examinar os cabeçalhos das mensagens, os administradores ou usuários finais podem determinar como o Microsoft 365 determinou que o remetente é falsificado.
 
 ## <a name="why-email-authentication-is-not-always-enough-to-stop-spoofing"></a>Por que a autenticação de email nem sempre é suficiente para impedir a falsificação
 
@@ -128,11 +128,11 @@ To: michelle@fabrikam.com
 
 ## <a name="solutions-for-legitimate-senders-who-are-sending-unauthenticated-email"></a>Soluções para remetentes legítimos que enviam emails não autenticados
 
-O Office 365 mantém o controle de quem está enviando emails não autenticados para sua organização. Se o serviço considerar que o remetente não é legítimo, ele o marcará como uma falha de autenticação composta. Para evitar isso, você pode usar as recomendações nesta seção.
+O Microsoft 365 mantém o controle de quem está enviando emails não autenticados para sua organização. Se o serviço considerar que o remetente não é legítimo, ele o marcará como uma falha de autenticação composta. Para evitar isso, você pode usar as recomendações nesta seção.
 
 ### <a name="configure-email-authentication-for-domains-you-own"></a>Configure a autenticação de email para domínios que você possui
 
-Você pode usar este método para solucionar problemas de falsificação dentro da organização e falsificação entre domínios nos casos em que você possui ou interage com vários locatários. Também ajuda a solucionar problemas de falsificação entre domínios em que você envia para outros clientes no Office 365 ou terceiros hospedados por outros provedores.
+Você pode usar este método para solucionar problemas de falsificação dentro da organização e falsificação entre domínios nos casos em que você possui ou interage com vários locatários. Ele também ajuda a resolver a falsificação entre domínios que você envia para outros clientes no Microsoft 365 ou em terceiros que são hospedados por outros provedores.
 
 - [Configurar registros SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md) para seus domínios.
 
@@ -152,7 +152,7 @@ fabrikam.com IN TXT "v=spf1 include:spf.fabrikam.com ?all"
 
 Este exemplo significa que emails da sua infraestrutura corporativa passarão pela autenticação de email, mas emails de fontes desconhecidas voltarão à neutralidade.
 
-O Office 365 tratará emails de entrada da sua infraestrutura corporativa como autenticados, mas emails de fontes não identificadas ainda poderão ser marcados como falsos (dependendo de se o Office 365 puder autenticá-los implicitamente). No entanto, isso ainda é uma melhoria em relação à situação em que todos os emails são marcados como falsificação pelo Office 365.
+O Microsoft 365 tratará emails de entrada da sua infraestrutura corporativa como autenticados, mas emails de fontes não identificadas ainda poderão ser marcados como falsos (dependendo se o Microsoft 365 puder autenticá-los implicitamente). No entanto, isso ainda é uma melhoria em relação à situação em que todos os emails são marcados como falsificação pelo Microsoft 365.
 
 Após começar a usar um registro SPF com a política de fallback `?all`, você poderá gradualmente descobrir e incluir mais fontes de email para suas mensagens e, em seguida, atualizar seu registro SPF com uma política mais rígida.
 
@@ -170,7 +170,7 @@ Para permitir que esse remetente envie emails não autenticados, altere **No** p
 
 ### <a name="create-an-allow-entry-for-the-senderrecipient-pair"></a>Crie uma permissão de entrada para o par remetente/destinatário
 
-Para ignorar a filtragem de spam e algumas partes da filtragem de phishing, mas não a filtragem de malware para remetentes específicos, confira [Criar listas de remetentes seguros no Office 365](create-safe-sender-lists-in-office-365.md).
+Para ignorar a filtragem de spam, algumas partes da filtragem de phish, mas não a filtragem de malware de remetentes específicos, confira [Criar listas de remetentes confiáveis no Microsoft 365](create-safe-sender-lists-in-office-365.md).
 
 ### <a name="ask-the-sender-to-configure-email-authentication-for-domains-you-dont-own"></a>Peça ao remetente para configurar a autenticação de email para domínios que você não possui
 
