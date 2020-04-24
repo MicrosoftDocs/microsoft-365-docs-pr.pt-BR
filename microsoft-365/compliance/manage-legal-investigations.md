@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 description: Use casos de descoberta eletrônica no centro de conformidade da Microsoft 365 para gerenciar a investigação legal da sua organização. Se você tiver uma assinatura e5, poderá analisar mais dados de caso usando a análise de texto, aprendizado de máquinas e recursos de codificação de descoberta eletrônica avançada.
-ms.openlocfilehash: 41eaa4ca4428c21b905d63365a9b3af7da1df9aa
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1e7279fed51e108886ff0b4a6d64788d6424720e
+ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635901"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43799902"
 ---
 # <a name="manage-legal-investigations-in-microsoft-365"></a>Gerenciar investigações legais no Microsoft 365
 
@@ -64,7 +64,7 @@ Veja uma rápida visão geral do fluxo de trabalho interno na descoberta eletrô
 
 - [Indexar dados dos responsáveis](processing-data-for-case.md) e corrigir erros de indexação para que você possa coletar dados efetivamente para suas investigações
 
-- [Coletar dados](collecting-data-for-ediscovery.md) de um caso e adicionar [o suplemento a um conjunto de revisão para uma](collecting-data-for-ediscovery.md#adding-search-results-to-a-review-set) investigação adicional
+- [Coletar dados](collecting-data-for-ediscovery.md) de um caso e adicionar [o suplemento a um conjunto de revisão para uma](collecting-data-for-ediscovery.md#add-search-results-to-a-review-set) investigação adicional
 
 - [Exibir](view-documents-in-review-set.md) documentos, dados de [consulta](review-set-search.md) e itens de [marca](tagging-documents.md) em um conjunto de revisão
 

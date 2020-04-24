@@ -16,16 +16,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: a6b86d9f86edc427e10c02a99e3cda3e5e79db66
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 462c58f8531265026b34fe3d8484736aefa4c5fa
+ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595848"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43799934"
 ---
 # <a name="collect-data-for-a-case-in-advanced-ediscovery"></a>Coletar dados para uma ocorrência na descoberta eletrônica avançada
 
-Depois de identificar os responsáveis e as fontes de dados que são de interesse para o seu caso, é hora de identificar o conjunto de documentos para o qual se aprofundar. Você pode usar a ferramenta de pesquisa na descoberta eletrônica avançada para identificá-las de locais custodial e não custodial no Office 365.
+Depois de identificar os responsáveis e as fontes de dados que são de interesse para o seu caso, é hora de identificar o conjunto de documentos para o qual se aprofundar. Você pode usar a ferramenta de pesquisa na descoberta eletrônica avançada para identificar documentos relevantes do custodial e locais não custodial no Microsoft 365.
 
 Após executar uma pesquisa, você pode exibir estatísticas sobre os itens recuperados, como os locais que tinham a maioria dos itens que corresponderam à consulta de pesquisa. Você também pode visualizar um subconjunto dos resultados. Ao identificar o conjunto de documentos que você deseja examinar mais, você pode adicionar os resultados da pesquisa a uma revisão definida como coletar e processar.
 
@@ -49,6 +49,10 @@ Para obter mais informações sobre estatísticas de pesquisa, confira [Estatís
 
 Após a conclusão da visualização, o botão **Visualizar** estará ativo. Selecione-o para visualizar um subconjunto de amostra dos resultados.
 
-## <a name="adding-search-results-to-a-review-set"></a>Adicionando resultados de pesquisa a um conjunto de revisão
+## <a name="add-search-results-to-a-review-set"></a>Adicionar os resultados da pesquisa a um conjunto de revisão
 
 Quando estiver pronto para coletar e processar os resultados inteiros de uma pesquisa, você poderá fazê-lo adicionando-o a um conjunto de revisão. Para obter detalhes, consulte [Adicionar dados a um conjunto de revisão](add-data-to-review-set.md).
+
+## <a name="add-non-microsoft-365-data-to-a-review-set"></a>Adicionar dados que não sejam da Microsoft 365 a um conjunto de revisão
+
+Como parte do processo de coleta para uma ocorrência, você também pode adicionar dados que não sejam do Office 365 a uma revisão de análise e análise e análise em conjunto com os dados do Office 365 que você coletou usando a ferramenta de pesquisa. Ao adicionar um não-Office 365, você precisa associá-lo a um funcionário específico no caso. Para obter mais informações, consulte [carregar dados não-Microsoft 365 em um conjunto de revisão](load-non-Office-365-data-into-a-review-set.md).

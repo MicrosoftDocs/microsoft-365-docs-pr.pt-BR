@@ -1,5 +1,5 @@
 ---
-title: Definir configurações de lixo eletrônico em caixas de correio do Exchange Online no Office 365
+title: Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -16,14 +16,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online. Muitas dessas configurações estão disponíveis para usuários no Outlook ou no Outlook na Web.
-ms.openlocfilehash: 689cec3f6a8b12764d03c98d23a9eb7ab6ca8e5e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a18706c4bf63d9d96ba5e2f9bcbb803bddec36db
+ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638435"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43800062"
 ---
-# <a name="configure-junk-email-settings-on-exchange-online-mailboxes-in-office-365"></a>Definir configurações de lixo eletrônico em caixas de correio do Exchange Online no Office 365
+# <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online
 
 As configurações antispam organizacionais do Exchange Online são controladas pela proteção do Exchange Online (EOP). Para obter mais informações, confira [Proteção antispam no Office 365](anti-spam-protection.md).
 
@@ -43,11 +43,13 @@ Os administradores podem usar o PowerShell do Exchange Online para desabilitar, 
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você só pode usar o PowerShell do Exchange Online para executar estes procedimentos. Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+- Você só pode usar o PowerShell do Exchange Online para executar estes procedimentos. Para se conectar ao Exchange Online PowerShell, consulte [Conectar ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
 - Você precisa ter permissões para poder executar estes procedimentos. Especificamente, você precisará da função de **destinatários de email** (atribuída aos grupos de função **Gerenciamento da organização**, gerenciamento de **destinatários**e **destinatários de email personalizados** por padrão) ou à função **Opções do usuário** (atribuída aos grupos de funções Gerenciamento da **organização** e **suporte técnico** por padrão). Para adicionar usuários a grupos de funções no Exchange Online, confira [modificar grupos de função no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups). Observe que um usuário com permissões padrão pode executar esses mesmos procedimentos em suas próprias caixas de correio, desde que eles tenham [acesso ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
 
 - Em ambientes da EOP autônoma, em que a EOP protege as caixas de correio locais do Exchange, é preciso configurar regras de fluxo de email (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP, de modo que a regra do lixo eletrônico possa mover as mensagens para a pasta de Lixo Eletrônico. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
+
+- Remetentes confiáveis para caixas de correio compartilhadas não são sincronizadas com o Azure AD e o EOP por design.
 
 ## <a name="use-exchange-online-powershell-to-enable-or-disable-the-junk-email-rule-in-a-mailbox"></a>Usar o PowerShell do Exchange Online para habilitar ou desabilitar a regra de lixo eletrônico em uma caixa de correio
 
@@ -181,3 +183,38 @@ Quando o filtro de lixo eletrônico do Outlook é definido como **baixo** ou **a
 Portanto, o filtro de lixo eletrônico do Outlook pode usar a coleção de listas seguras da caixa de correio e sua própria classificação de spam para mover mensagens para a pasta lixo eletrônico, mesmo se a regra de lixo eletrônico estiver desabilitada na caixa de correio.
 
 O Outlook e o Outlook na Web oferecem suporte à coleção SafeList. O conjunto de listas seguras é salvo na caixa de correio do Exchange Online, portanto, as alterações na coleção de listas seguras no Outlook aparecem no Outlook na Web e vice-versa.
+
+## <a name="limits-for-junk-email-settings"></a>Limites para configurações de lixo eletrônico
+
+A coleção SafeList (a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados) armazenada na caixa de correio do usuário também é sincronizada com o EOP. Com a sincronização de diretórios, a coleção de listas seguras é sincronizada com o Azure AD.
+
+- O conjunto de listas seguras da caixa de correio do usuário tem um limite de 510 KB, que inclui todas as listas, além de configurações adicionais de filtro de lixo eletrônico. Se um usuário exceder esse limite, receberá um erro do Outlook que tem a seguinte aparência:
+
+  > Não é possível adicionar/não é possível adicionar as listas de lixo eletrônico do servidor. Você está acima do tamanho permitido no servidor. O filtro de lixo eletrônico no servidor será desabilitado até que as listas de lixo eletrônico tenham sido reduzidas para o tamanho permitido pelo servidor.
+
+  Para obter mais informações sobre esse limite e como Alterá-lo, consulte [KB2669081](https://support.microsoft.com/help/2669081/outlook-error-indicates-that-you-are-over-the-junk-e-mail-list-limit).
+
+- O conjunto de listas seguras sincronizadas no EOP tem os seguintes limites de sincronização:
+
+  - 1024 total de entradas na lista de remetentes confiáveis, na lista de destinatários confiáveis e em contatos externos se a **confiança de email de meus contatos** estiver habilitada.
+  - 500 total de entradas na lista de remetentes bloqueados e domínios bloqueados.
+
+  Quando o limite de entrada 1024 é atingido, acontece o seguinte:
+  
+  - A lista para de aceitar entradas no PowerShell e no Outlook na Web, mas nenhum erro é exibido.
+
+    Os usuários do Outlook podem continuar a adicionar mais de 1024 entradas até atingirem o limite do Outlook de 510 KB. O Outlook pode usar essas entradas adicionais, contanto que um filtro do EOP não bloqueie a mensagem antes da entrega à caixa de correio (regras de fluxo de email, anti-falsificação, etc.).
+
+- Com a sincronização de diretórios, as entradas são sincronizadas com o Azure AD na seguinte ordem:
+
+  1. Contatos de email se **a confiança de emails de meus contatos** estiver habilitada.
+  2. A lista de remetentes confiáveis e a lista de destinatários seguros são combinadas, desduplicadas e classificadas alfabeticamente sempre que uma alteração é feita para as primeiras 1024 entradas.
+
+  As primeiras entradas 1024 são usadas, e as informações relevantes são carimbadas nos cabeçalhos da mensagem.
+  
+  As entradas sobre 1024 que não foram sincronizadas com o Azure AD são processadas pelo Outlook (não pelo Outlook na Web) e nenhuma informação é carimbada nos cabeçalhos da mensagem.
+
+Como você pode ver, habilitar a configuração de **email de confiança de meus contatos** reduz o número de remetentes confiáveis e destinatários seguros que podem ser sincronizados. Se isso for um problema, recomendamos usar a política de grupo para desativar esse recurso:
+
+- Nome do arquivo: outlk16. opax
+- Configuração de política: **confiar em email de contatos**

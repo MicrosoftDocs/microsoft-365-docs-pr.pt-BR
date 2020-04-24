@@ -9,6 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -21,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: af00a516-dd39-4eda-af3e-1eaf686c8dc9
 description: 'Saiba como editar ou adicionar um registro DNS personalizado no Microsoft. '
-ms.openlocfilehash: d7084913e2439b126232735fe2e6abe853c03ddf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 05b1024be658d26a758711177c4a89629e875445
+ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630014"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43800030"
 ---
 # <a name="add-or-edit-custom-dns-records-in-microsoft"></a>Adicionar ou editar registros DNS personalizados no Microsoft
 

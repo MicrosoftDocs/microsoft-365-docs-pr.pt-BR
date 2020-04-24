@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Adicione seu domínio ao Office 365 no centro de administração do Microsoft 365 adicionando um registro DNS no seu host DNS. O assistente de instalação orienta você durante o processo.
-ms.openlocfilehash: 8e08233ffe33ac2b5d41ad164af80468de52983d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a77526efc526073e17b535612213202ad22d5657
+ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631810"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43800018"
 ---
 # <a name="add-a-domain-to-office-365"></a>Adicionar um domínio ao Office 365
 
@@ -101,6 +101,49 @@ ms.locfileid: "43631810"
     Se você quiser aguardar mais tarde, role até o final e selecione **ignorar esta etapa**.
     
 8. Selecione **concluir** -você terminou! 
+
+## <a name="add-or-edit-custom-dns-records"></a>Adicionar ou editar registros DNS personalizados
+
+Siga as etapas abaixo para adicionar um registro personalizado para um site ou serviço de terceiros.
+
+1. Entre no centro de administração da Microsoft em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+
+2. Vá para a página de**domínios** de **configurações**  > .
+
+3. Selecione um domínio na página **Domínios**. 
+    
+4. Em **configurações de DNS**, selecione **registros personalizados**; em seguida, selecione **novo registro personalizado**.
+
+5. Selecione o tipo de registro DNS que você deseja adicionar e digite as informações do novo registro.
+    
+6. Selecione **Salvar**.
+
+## <a name="registrars-with-domain-connect"></a>Registradores com conexão de domínio
+
+Os registradores habilitados para [conexão de domínio](https://www.domainconnect.org/) permitem que você adicione seu domínio ao Microsoft 365 em um processo de três etapas que leva minutos. 
+  
+No assistente, apenas confirmará que você é o proprietário do domínio e, em seguida, configurar automaticamente os registros do seu domínio, para que os emails sejam da Microsoft 365 e de outros serviços da Microsoft 365, como o Teams, trabalhem com seu domínio.
+  
+> [!NOTE]
+> Desative os bloqueadores de pop-up em seu navegador antes de iniciar o assistente de configuração.
+  
+### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>Registradores de conexão de domínio que se integram ao Microsoft 365
+
+- [1&amp;1 IONOS](https://www.1and1.com/)
+- [123Reg](https://www.123-reg.co.uk/)
+- [GoDaddy](https://www.godaddy.com/)
+- [WordPress](https://wordpress.com/)
+- [Plesk](https://www.plesk.com/)
+- [MediaTemple](https://mediatemple.net/)
+- SecureServer ou WildWestDomains (GoDaddy revendedores usando o SecureServer de Hospedagem de DNS)
+    - [Domínios MadDog](https://www.maddogdomains.com/)
+    - [Baratosnames](https://www.cheapnames.com)
+
+### <a name="what-happens-to-my-email-and-website"></a>O que acontece com meus emails e sites?
+
+Depois que você concluir a instalação, o registro MX do seu domínio será atualizado para apontar para o Microsoft 365 e todos os emails do seu domínio serão iniciados no Microsoft 365. Verifique se você adicionou usuários e configurou caixas de correio no Office 365 para todos aqueles que recebem emails em seu domínio!
+  
+Se você tiver um site que usa com a empresa, ele continuará funcionando onde está. As etapas de configuração de conexão de domínio não afetam o site.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
