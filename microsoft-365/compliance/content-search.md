@@ -1,5 +1,5 @@
 ---
-title: Pesquisa de Conteúdo no Office 365
+title: Pesquisa de Conteúdo
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Use a ferramenta Pesquisa de Conteúdo, no centro de conformidade do Office 365 ou do Microsoft 365, para pesquisar conteúdo em caixas de correio, sites do SharePoint Online, contas do OneDrive, Microsoft Teams, grupos do Office 365, grupos do Yammer e conversas do Skype for Business. Você pode usar consultas de pesquisa de palavras-chave e condições de pesquisa para restringir os resultados da pesquisa. Em seguida, você poderá visualizar e exportar os resultados da pesquisa. A Pesquisa de Conteúdo também é uma ferramenta efetiva para pesquisar conteúdo relacionado a uma solicitação do titular dos dados do RGPD.
-ms.openlocfilehash: 0f37daee28afabb6a63be316bd830f9b3992a044
-ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
+ms.openlocfilehash: 74fb84a46b4dd283eef90f2181a0d084a7a361e8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521497"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632356"
 ---
-# <a name="content-search-in-office-365"></a>Pesquisa de Conteúdo no Office 365
+# <a name="content-search"></a>Pesquisa de Conteúdo
 
-Use a ferramenta de Descoberta Eletrônica de Pesquisa de Conteúdo no centro de conformidade do Office 365 ou Microsoft 365 para pesquisar itens no local, como email, documentos e conversas de mensagens instantâneas na organização do Office 365. Use esta ferramenta para pesquisar itens nos seguintes serviços do Office 365:
+Use a ferramenta de Descoberta Eletrônica de Pesquisa de Conteúdo no centro de conformidade do Office 365 ou Microsoft 365 para pesquisar itens no local, como email, documentos e conversas de mensagens instantâneas na organização. Use esta ferramenta para pesquisar itens nos seguintes serviços:
   
 - Pastas públicas e caixas de correio do Exchange Online.
     
@@ -38,7 +38,7 @@ Use a ferramenta de Descoberta Eletrônica de Pesquisa de Conteúdo no centro de
     
 - Microsoft Teams 
 
-- Grupos do Office 365
+- Grupos do Microsoft 365
 
 - Grupos do Yammer 
     
@@ -48,7 +48,7 @@ Após a execução de uma Pesquisa de Conteúdo, o número de locais de conteúd
 
 Para ter acesso à página da **Pesquisa de conteúdo** e poder executar pesquisas, visualizar e exportar resultados de pesquisa, um administrador, um responsável pela conformidade ou um gerente de descoberta eletrônica deve ser membro do grupo da função de gerente de descoberta eletrônica do Centro de Conformidade e Segurança. Para obter mais informações, confira [Atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
   
-1. Vá para [https://protection.office.com](https://protection.office.com) e entre usando o email e a senha do Office 365.
+1. Vá para [https://protection.office.com](https://protection.office.com) e entre usando o seu endereço de email e senha da Microsoft.
     
 2. Clique em **Pesquisar** \> **Pesquisa de conteúdo**.
     
@@ -85,7 +85,7 @@ Para ter acesso à página da **Pesquisa de conteúdo** e poder executar pesquis
     
        - **Locais:** Escolha os locais de conteúdo a serem pesquisados.
     
-      - **Todos os locais:** Use essa opção para pesquisar todos os locais de conteúdo em sua organização. Isso inclui e-mails em todas as caixas de correio do Exchange (incluindo todas as caixas de correio inativas e caixas de correio de todas as equipes da Microsoft, do Yammer e do Office 365), todas as conversas do Skype for Business, todos os sites do SharePoint e do OneDrive for Business (incluindo o sites para todos os grupos do Microsoft Teams, do Yammer e do Office 365), e itens em todas as pastas públicas do Exchange.
+      - **Todos os locais:** Use essa opção para pesquisar todos os locais de conteúdo em sua organização. Isso inclui e-mails em todas as caixas de correio do Exchange (incluindo todas as caixas de correio inativas e caixas de correio do Microsoft Teams, Yammer Groups e Grupos do Microsoft 365), todas as conversas do Skype for Business, todos os sites do SharePoint e do OneDrive for Business (incluindo o sites para todos os grupos do Microsoft Teams, do Yammer e do Grupos do Microsoft 365), e itens em todas as pastas públicas do Exchange.
     
       - **Locais específicos:** Use essa opção para pesquisar locais de conteúdo específicos. Você poderá pesquisar todos os locais de conteúdo de um serviço específico do Office 365 (por exemplo, pesquisar em todas as caixas de correio do Exchange ou pesquisar conteúdo em todos os sites do SharePoint) ou pesquisar locais específicos em qualquer um dos serviços do Office 365 exibidos. 
     
@@ -178,7 +178,7 @@ Consulte as seções a seguir para obter mais informações sobre pesquisas de c
   
 [Pesquisar contas do OneDrive](#searching-onedrive-accounts)
   
-[Pesquisar por Microsoft Teams e Grupos do Office 365 ](#searching-microsoft-teams-and-office-365-groups)
+[Pesquisar por Microsoft Teams e Grupos do Microsoft 365](#searching-microsoft-teams-and-microsoft-365-groups)
 
 [Pesquisar grupos do Yammer](#searching-yammer-groups)
   
@@ -196,7 +196,7 @@ Consulte as seções a seguir para obter mais informações sobre pesquisas de c
 
 - Para obter uma descrição dos limites que são aplicados ao recurso de Pesquisa de Conteúdo, confira [Limites de Pesquisa de Conteúdo](limits-for-content-search.md).
     
-- A Microsoft coleta informações sobre o desempenho das Pesquisas de Conteúdo executadas por todas as organizações do Office 365. Embora a complexidade da consulta de pesquisa possa afetar os tempos de pesquisa, o maior fator que afeta o tempo de duração das pesquisas é o número de caixas de correio pesquisadas. Embora a Microsoft não forneça um Contrato de Nível de Serviço para os tempos de pesquisa, a tabela a seguir lista os tempos médios de pesquisa para uma Pesquisa de Conteúdo com base no número de caixas de correio incluídas na pesquisa.
+- A Microsoft coleta informações sobre o desempenho das Pesquisas de Conteúdo executadas por todas as organizações. Embora a complexidade da consulta de pesquisa possa afetar os tempos de pesquisa, o maior fator que afeta o tempo de duração das pesquisas é o número de caixas de correio pesquisadas. Embora a Microsoft não forneça um Contrato de Nível de Serviço para os tempos de pesquisa, a tabela a seguir lista os tempos médios de pesquisa para uma Pesquisa de Conteúdo com base no número de caixas de correio incluídas na pesquisa.
     
 |**Número de caixas de correio**|**Tempo médio de pesquisa**|
 |:-----|:-----|
@@ -229,7 +229,7 @@ Lembre-se do seguinte ao usar a lista de palavras-chave para criar uma consulta 
     
     ![Exemplo de consulta que é criada ao usar a lista de palavras-chave e uma condição](../media/b463750c-57fa-4602-9fed-0d5a420db3ad.png)
   
-- Ao executar uma pesquisa de conteúdo, o Office 365 verifica automaticamente a consulta de pesquisa para caracteres sem suporte e para operadores booleanos que podem não estar em maiúsculas. Os caracteres sem suporte geralmente estão ocultos e costumam causar um erro de pesquisa ou retornam resultados inesperados. Para obter mais informações sobre os caracteres sem suporte que estão marcados, confira [Verifique se há erros na consulta da Pesquisa de Conteúdo](check-your-content-search-query-for-errors.md).
+- Ao executar uma pesquisa de conteúdo, o Microsoft 365 verifica automaticamente a consulta de pesquisa para caracteres sem suporte e para operadores booleanos que podem não estar em maiúsculas. Os caracteres sem suporte geralmente estão ocultos e costumam causar um erro de pesquisa ou retornam resultados inesperados. Para obter mais informações sobre os caracteres sem suporte que estão marcados, confira [Verifique se há erros na consulta da Pesquisa de Conteúdo](check-your-content-search-query-for-errors.md).
     
 - Se você tiver uma consulta de pesquisa que contenha palavras-chave para caracteres que não estão em inglês (como caracteres chineses), clique em **Idioma/país de consulta**![Ícone de Idioma/país de consulta na Pesquisa de conteúdo](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png) e selecione um valor de código cultural de idioma/país para a pesquisa. O padrão idioma/região é neutro. Como saber se é preciso alterar a configuração de idioma para uma pesquisa de conteúdo? Se você tiver certeza de que os locais de conteúdo contêm os caracteres que não estão em inglês que você está procurando, mas a pesquisa não retorna nenhum resultado, a configuração de idioma pode ser a causa. 
   
@@ -239,15 +239,15 @@ Lembre-se do seguinte ao usar a lista de palavras-chave para criar uma consulta 
     
     No caso raro de acontecer do nome principal do usuário (UPN) ser alterado, a URL do local do OneDrive dessa pessoa é alterada para incorporar o novo UPN. Se isso acontecer, será preciso modificar uma pesquisa de conteúdo adicionando a nova URL do OneDrive do usuário e remover a antiga. Para saber mais, confira [Como as alterações de UPN afetam a URL do OneDrive](https://docs.microsoft.com/onedrive/upn-changes).
   
-### <a name="searching-microsoft-teams-and-office-365-groups"></a>Pesquisar por Microsoft Teams e Grupos do Office 365
+### <a name="searching-microsoft-teams-and-microsoft-365-groups"></a>Pesquisar por Microsoft Teams e Grupos do Microsoft 365
 
-Você pode pesquisar na caixa de correio associada a um Grupo do Office 365 ou ao Microsoft Teams. Como o Microsoft Teams se baseia nos Grupos do Office 365, a pesquisa é semelhante. Em ambos os casos, apenas a caixa de correio do grupo ou da equipe são pesquisadas. As caixas de correio do grupo ou membros da equipe não são pesquisadas. Para pesquisá-los, você precisa adicioná-los especificamente à pesquisa.
+Você pode pesquisar na caixa de correio associada a um Grupo do Microsoft 365 ou ao Microsoft Teams. Como o Microsoft Teams se baseia nos Grupos do Microsoft 365, a pesquisa é semelhante. Em ambos os casos, apenas a caixa de correio do grupo ou da equipe são pesquisadas. As caixas de correio do grupo ou membros da equipe não são pesquisadas. Para pesquisá-los, você precisa adicioná-los especificamente à pesquisa.
   
-Lembre-se do seguinte ao pesquisar o conteúdo do Microsoft Teams e dos grupos do Office 365.
+Lembre-se do seguinte ao pesquisar o conteúdo do Microsoft Teams e dos grupos do Microsoft 365.
   
-- Para pesquisar conteúdo localizado no Teams e em Grupos do Office 365, é necessário especificar a caixa de correio e o site do SharePoint associados a uma equipe ou grupo.
+- Para pesquisar conteúdo localizado no Teams e em Grupos do Microsoft 365, é necessário especificar a caixa de correio e o site do SharePoint associados a uma equipe ou grupo.
     
-- Execute o cmdlet **Get-UnifiedGroup** no Exchange Online para exibir as propriedades de uma equipe ou de um grupo do Office 365. Esta é uma boa maneira de obter a URL do site associado a uma equipe ou a um grupo. Por exemplo, o comando abaixo exibe as propriedades selecionadas para um grupo do Office365 chamado de Equipe de Liderança Sênior: 
+- Execute o cmdlet **Get-UnifiedGroup** no Exchange Online para exibir as propriedades de uma equipe ou de um Grupo do Microsoft 365. Esta é uma boa maneira de obter a URL do site associado a uma equipe ou a um grupo. Por exemplo, o comando abaixo exibe as propriedades selecionadas para um grupo do Microsoft 365 chamado de Equipe de Liderança Sênior: 
     
   ```text
   Get-UnifiedGroup "Senior Leadership Team" | FL DisplayName,Alias,PrimarySmtpAddress,SharePointSiteUrl
@@ -260,9 +260,9 @@ Lembre-se do seguinte ao pesquisar o conteúdo do Microsoft Teams e dos grupos d
     > [!NOTE]
     > Para executar o cmdlet **Get-UnifiedGroup**, é preciso ter atribuído a função de Destinatários Somente Leitura no Exchange Online ou ser membro de um grupo de funções atribuído à função de Destinatários Somente Leitura. 
   
-- Quando uma caixa de correio de usuário é pesquisada, qualquer equipe ou Grupo do Office 365 do qual o usuário seja membro não serão pesquisados. Da mesma forma, quando você pesquisa uma equipe ou um Grupo do Office 365, somente a caixa de correio e o site do grupo especificados são pesquisados. As caixas de correio e as contas do OneDrive for Business dos membros do grupo não são pesquisadas, a menos que você as adicione explicitamente à pesquisa.
+- Quando uma caixa de correio de usuário é pesquisada, qualquer equipe ou Grupo do Microsoft 365 do qual o usuário seja membro não serão pesquisados. Da mesma forma, quando você pesquisa uma equipe ou um Grupo do Microsoft 365, somente a caixa de correio e o site do grupo especificados são pesquisados. As caixas de correio e as contas do OneDrive for Business dos membros do grupo não são pesquisadas, a menos que você as adicione explicitamente à pesquisa.
     
-- Para obter uma lista dos membros de uma equipe ou um Grupo do Office 365, você pode exibir as propriedades na página **Início \> Grupos** no centro de administração do Microsoft 365. Como alternativa, execute o comando a seguir no PowerShell do Exchange Online: 
+- Para obter uma lista dos membros de uma equipe ou um Grupo do Microsoft 365, você pode exibir as propriedades na página **Início \> Grupos** no Centro de administração do Microsoft 365. Como alternativa, execute o comando a seguir no PowerShell do Exchange Online: 
     
   ```powershell
   Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress 
@@ -358,7 +358,7 @@ Eis alguns pontos a serem levados em consideração durante a pesquisa de caixas
 
 ### <a name="searching-disconnected-or-de-licensed-mailboxes"></a>Pesquisar caixas de correio desconectadas ou que tiveram a licença removida
 
-Se a licença do Exchange Online ( ou a licença inteira do Office 365) for removida de uma conta de usuário no Office 365 ou no Azure Active Directory, a caixa de correio do usuário se tornará uma caixa de correio *desconectada*. Isso significa que a caixa de correio não está mais associada à conta de usuário. Veja o que acontece ao pesquisar caixas de correio desconectadas:
+Se a licença do Exchange Online (ou a licença inteira do Microsoft 365) for removida de uma conta de usuário no Azure Active Directory, a caixa de correio do usuário se tornará uma caixa de correio *desconectada*. Isso significa que a caixa de correio não está mais associada à conta de usuário. Veja o que acontece ao pesquisar caixas de correio desconectadas:
 
 - Se a licença for removida de uma caixa de correio, esta não será mais pesquisável. 
 

@@ -1,5 +1,5 @@
 ---
-title: Pesquisar e excluir mensagens de email em sua organização do Office 365
+title: Pesquisar e excluir mensagens de email em sua organização
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,19 +16,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
-description: Você pode usar o recurso Pesquisar e limpar do Centro de Segurança e Conformidade do Office365 para pesquisar e excluir uma mensagem de e-mail de todas as caixas de correio da sua organização.
-ms.openlocfilehash: c05b6addf2fe50a5e6130e3c53fa1df02e50de30
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+description: Você pode usar o recurso pesquisar e limpar do Centro de Segurança e Conformidade para pesquisar e excluir uma mensagem de e-mail de todas as caixas de correio da sua organização.
+ms.openlocfilehash: 69df11f00680aec2380ed5663761a29bc1fcfebc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516826"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626437"
 ---
 # <a name="search-for-and-delete-email-messages"></a>Pesquisar e excluir mensagens de email
 
 **Este artigo é para administradores. Você está tentando encontrar itens na sua caixa de correio que deseja excluir? Confira [Localizar uma mensagem ou um item com a Pesquisa Instantânea](https://support.office.com/article/69748862-5976-47b9-98e8-ed179f1b9e4d)**.
    
-Você pode usar o recurso Pesquisa de Conteúdo no Office365 para pesquisar e excluir uma mensagem de email de todas as caixas de correio da sua organização. Isso pode ajudar você a encontrar e remover um email potencialmente nocivo ou de alto risco, como por exemplo:
+Você pode usar o recurso Pesquisa de Conteúdo para pesquisar e excluir uma mensagem de email de todas as caixas de correio da sua organização. Isso pode ajudar você a encontrar e remover um email potencialmente nocivo ou de alto risco, como por exemplo:
   
 - Mensagens que contenham anexos perigosos ou vírus
 
@@ -105,7 +105,7 @@ Start-ComplianceSearch -Identity $Search.Identity
 
 A próxima etapa é conectar-se ao Centro de Segurança e Conformidade da sua organização. Para obter instruções passo a passo, confira [Conectar-se ao Centro de Segurança e Conformidade no PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
   
-Se a sua conta do Office 365 usa a MFA (autenticação multifator) ou autenticação federada, você não poderá usar as instruções do tópico anterior sobre como se conectar ao Centro de Segurança e Conformidade no PowerShell. Em vez disso, confira as instruções no tópico [ Conectar-se ao Centro de Segurança e Conformidade no PowerShell, usando a autenticação multifator](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell).
+Se a sua conta do Microsoft 365 utiliza autenticação multifator (MFA) ou autenticação federada, você não pode utilizar as instruções do tópico anterior para conectar no Centro de Conformidade e Segurança do Windows PowerShell. Em vez disso, confira as instruções no tópico [ Conectar-se ao Centro de Segurança e Conformidade no PowerShell, usando a autenticação multifator](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell).
 
 Depois de se conectar ao PowerShell do Centro de Conformidade e Segurança, execute os cmdlets **New-ComplianceSearch** e **Start-ComplianceSearch** que você preparou na etapa anterior.
   
@@ -137,9 +137,9 @@ Para obter mais informações, consulte [New-ComplianceSearchAction](https://doc
     
 - **O que acontece após a exclusão de uma mensagem?**
 
-   Uma mensagem excluída com o comando `New-ComplianceSearchAction -Purge -PurgeType HardDelete` será movida para a pasta Remoções e não poderá ser acessada pelo usuário. Uma vez na pasta Remoções, a mensagem é mantida pelo período de retenção do item excluído, se a recuperação de itens individuais estiver habilitada para a caixa de correio. (No Office 365, a recuperação de item único é habilitada por padrão quando uma nova caixa de correio é criada.) Após o período de retenção de item excluído expirar, a mensagem será marcada para exclusão permanente e será definitivamente removida do Office 365 da próxima vez que a caixa de correio for processada pelo assistente de pastas gerenciadas. 
+   Uma mensagem excluída com o comando `New-ComplianceSearchAction -Purge -PurgeType HardDelete` será movida para a pasta Remoções e não poderá ser acessada pelo usuário. Uma vez na pasta Remoções, a mensagem é mantida pelo período de retenção do item excluído, se a recuperação de itens individuais estiver habilitada para a caixa de correio. (No Microsoft 365, a recuperação de item único é habilitada por padrão quando uma nova caixa de correio é criada.) Após o período de retenção de item excluído expirar, a mensagem será marcada para exclusão permanente e será definitivamente removida do Microsoft 365 da próxima vez que a caixa de correio for processada pelo assistente de pastas gerenciadas. 
 
-   Se você usar o comando `New-ComplianceSearchAction -Purge -PurgeType SoftDelete`, as mensagens serão movidas para a pasta Exclusões na pasta itens recuperáveis do usuário. Ela não é removida imediatamente do Office365. O usuário pode recuperar mensagens na pasta Itens Excluídos de acordo com o período de retenção do item excluído configurado para a caixa de correio. Após esse período de retenção (ou se o usuário remover a mensagem antes do período expirar), a mensagem será movida para a pasta Remoções e não poderá mais ser acessada pelo usuário. Uma vez na pasta Remoções, a mensagem é mantida novamente durante o período de retenção do item excluído configurado para a caixa de correio, se a recuperação de itens individuais estiver habilitada para a caixa de correio. (No Office 365, a recuperação de item único é habilitada por padrão quando uma nova caixa de correio é criada.) Após o período de retenção de item excluído expirar, a mensagem será marcada para exclusão permanente e será definitivamente removida do Office 365 da próxima vez que o assistente de pastas gerenciadas processar a caixa de correio. 
+   Se você usar o comando `New-ComplianceSearchAction -Purge -PurgeType SoftDelete`, as mensagens serão movidas para a pasta Exclusões na pasta itens recuperáveis do usuário. Ela não é removida imediatamente do Microsoft 365. O usuário pode recuperar mensagens na pasta Itens Excluídos de acordo com o período de retenção do item excluído configurado para a caixa de correio. Após esse período de retenção (ou se o usuário remover a mensagem antes do período expirar), a mensagem será movida para a pasta Remoções e não poderá mais ser acessada pelo usuário. Uma vez na pasta Remoções, a mensagem é mantida novamente durante o período de retenção do item excluído configurado para a caixa de correio, se a recuperação de itens individuais estiver habilitada para a caixa de correio. (No Microsoft 365, a recuperação de item único é habilitada por padrão quando uma nova caixa de correio é criada.) Após o período de retenção de item excluído expirar, a mensagem será marcada para exclusão permanente e será definitivamente removida do Microsoft 365 na próxima vez que a caixa de correio for processada pelo assistente de pastas gerenciadas. 
     
 - **E se você tiver que excluir uma mensagem de mais de 50.000 caixas de correio?**
 
@@ -149,7 +149,7 @@ Para obter mais informações, consulte [New-ComplianceSearchAction](https://doc
 
     Não, o comando New-ComplianceSearchAction-Purge não exclui itens não indexados. 
     
-- **O que acontece se uma mensagem for excluída de uma caixa de correio que foi colocada no Bloqueio In-loco ou na Retenção de Litígio ou se for parte de uma política de retenção do Office 365?**
+- **O que acontece se uma mensagem for excluída de uma caixa de correio que foi colocada no Bloqueio In-loco ou na Retenção de Litígio ou se for parte de uma política de retenção do Microsoft 365?**
 
     Quando for removida e transferida para a pasta Remoções, a mensagem será mantida até que a duração da retenção expire. Se a duração de retenção for ilimitada, os itens serão mantidos até que a retenção seja removida ou a duração da espera seja alterada.
     

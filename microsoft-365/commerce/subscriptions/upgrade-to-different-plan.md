@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 description: Saiba como atualizar para uma nova assinatura.
 monikerRange: o365-worldwide
-ms.openlocfilehash: a5cede13a64ea1a6562a326c32dc902d14c3dfe5
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: faddecffd91eb58dab7a3b498de97633b5efd9d0
+ms.sourcegitcommit: 11198133b43eb6a6369e544c8a0dd408d582591c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707518"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43796507"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Atualizar para um plano diferente 
 
@@ -63,7 +63,7 @@ Ao concluir o check-out, pode levar alguns minutos para finalizar a atualizaçã
 
 ## <a name="the-upgrade-tab-is-empty"></a>A guia atualização está vazia
 
-Se a guia **atualização** estiver vazia, você verá uma explicação do motivo pelo qual não é possível atualizar no momento. Você pode tentar [alterar planos manualmente](change-plans-manually.md) ou [ligar para o suporte](../../admin/contact-support-for-business-products.md). Para obter mais informações, consulte [por que não é possível atualizar planos?](#why-cant-i-upgrade-plans).
+Se a guia **atualização** estiver vazia, você verá uma explicação do motivo pelo qual não é possível atualizar no momento. Você pode tentar [alterar os planos manualmente](change-plans-manually.md). Para obter mais informações, consulte [por que não é possível atualizar planos?](#why-cant-i-upgrade-plans).
 
 ## <a name="i-dont-see-the-plan-i-want"></a>Não vejo o plano que desejo
 

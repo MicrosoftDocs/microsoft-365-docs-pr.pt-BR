@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de sensibilidade da estrutura da Proteção de Informações da Microsoft para classificar e proteger os dados da sua organização, garantindo que a produtividade do usuário e sua capacidade de colaborar não sejam prejudicadas. Esses rótulos podem aplicar configurações de proteção que incluem marcações visuais de criptografia, como rodapés e marcas d'água.
-ms.openlocfilehash: 27accc57bce0b5597836e7683cf5b28d0fa9b942
-ms.sourcegitcommit: 4ddbc1c3c29d79d3c4640b7b32f95576784efcca
+ms.openlocfilehash: c7a803180cfa839029ce86e19e0ede75c39d6476
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240306"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631288"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -80,7 +80,7 @@ Cada item de conteúdo pode ter um único rótulo de confidencialidade aplicado 
 > Além de aplicar rótulos a e-mails e documentos em aplicativos do Office, os rótulos de confidencialidade agora também estão disponíveis nas seguintes versões de visualização pública:
 > 
 > - [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)](sensitivity-labels-sharepoint-onedrive-files.md)
-> - [Usar etiquetas de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md)
+> - [Use rótulos de sensibilidade com websites do Microsoft Teams, Grupos do Microsoft 365 e Microsoft Office SharePoint Online (visualização pública).](sensitivity-labels-teams-groups-sites.md)
 
 Depois que um rótulo de confidencialidade é aplicado a um email ou documento, todas as definições de proteção definidas para esse rótulo são aplicadas no conteúdo. Com um rótulo de confidencialidade, você pode:
 
@@ -92,14 +92,14 @@ Depois que um rótulo de confidencialidade é aplicado a um email ou documento, 
     
     ![Marca-d'água e cabeçalho aplicados ao documento](../media/Sensitivity-label-watermark-header.png)
     
-    Precisa verificar quando as marcações de conteúdo são aplicadas? Confira [quando o Office 365 aplica a marcação de conteúdo e a criptografia ao conteúdo](sensitivity-labels-office-apps.md#when-office-365-applies-content-marking-and-encryption).
+    Precisa verificar quando as marcações de conteúdo são aplicadas? Ver [Quando o Microsoft 365 aplica a marcação e criptografia de conteúdo](sensitivity-labels-office-apps.md#when-office-365-applies-content-marking-and-encryption).
     
     Comprimentos de cadeias de caracteres: as marcas d' água estão limitadas a 255 caracteres. Os cabeçalhos e rodapés estão limitados a 1024 caracteres, exceto no Excel. O Excel tem um limite total de 255 caracteres para cabeçalhos e rodapés, mas esse limite inclui caracteres que não estão visíveis, como códigos de formatação. Se esse limite for alcançado, a cadeia de caracteres inserida não será exibida no Excel.
 
 
-- **Proteja o conteúdo em contêineres, como sites e grupos**, ao optar pela visualização do [uso de rótulos de confidencialidade no Microsoft Teams, em grupos do Office 365 e em sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md).
+- **Proteja o conteúdo em contêineres, como sites e grupos**, ao optar pela visualização do [uso de rótulos de confidencialidade no Microsoft Teams, em grupos do Microsoft 365 e em sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md).
     
-    As opções de configuração para **Configurações de site e grupo** não são exibidas até você optar pela visualização. Lembre-se de que essa configuração de rótulo não resulta na rotulação automática de documentos. Em vez disso, as configurações de rótulo protegem o conteúdo controlando o acesso ao contêiner onde os documentos estão armazenados. Essas configurações incluem o nível de privacidade, se um proprietário de grupo do Office 365 pode adicionar convidados ao grupo e o nível de acesso concedido a um dispositivo não gerenciado.
+    As opções de configuração para **Configurações de site e grupo** não são exibidas até você optar pela visualização. Lembre-se de que essa configuração de rótulo não resulta na rotulação automática de documentos. Em vez disso, as configurações de rótulo protegem o conteúdo controlando o acesso ao contêiner onde os documentos estão armazenados. Essas configurações incluem o nível de privacidade, se um proprietário de grupo do Microsoft 365 pode adicionar convidados ao grupo e o nível de acesso concedido a um dispositivo não gerenciado.
 
 - **Aplique o rótulo automaticamente nos aplicativos do Office ou recomende um rótulo.** Escolha quais tipos de informações confidenciais deseja rotular, e o rótulo poderá ser aplicado automaticamente ou será solicitado aos usuários que apliquem o rótulo recomendado. Caso recomende um rótulo, um texto de alerta escolhido por você será exibido. Por exemplo:
     
@@ -141,9 +141,9 @@ Depois de criar seus rótulos de confidencialidade, você precisa publicá-los p
 
 Com uma política de rótulos, você pode:
 
-- **Escolha quais usuários e grupos verão os rótulos.** Os rótulos podem ser publicados em todos os grupos de segurança habilitados por email, grupos do Office 365, ou grupos dinâmicos de distribuição.
+- **Escolha quais usuários e grupos verão os rótulos.** Os rótulos podem ser publicados em todos os grupos de segurança habilitados por email, grupos do Microsoft 365, ou grupos dinâmicos de distribuição.
 
-- **Aplicar um rótulo padrão** para todos os novos documentos e email criados pelos usuários e grupos incluídos na política de rótulo. Essa opção também se aplica aos recipientes, se você tiver [habilitado os rótulos de confidencialidade do Microsoft Teams, do Office 365 Groups e de sites do SharePoint](sensitivity-labels-teams-groups-sites.md). Os usuários sempre poderão alterar o rótulo padrão se ele não for o rótulo certo para o documento ou o e-mail. Considere usar um rótulo padrão para definir um nível de base de configurações de proteção que você deseja aplicar a todo o seu conteúdo. No entanto, sem o treinamento do usuário e outros controles, essa configuração também pode resultar em rotulagem inexata. 
+- **Aplicar um rótulo padrão** para todos os novos documentos e email criados pelos usuários e grupos incluídos na política de rótulo. Essa opção também se aplica aos recipientes, se você tiver [habilitado os rótulos de confidencialidade do Microsoft Teams, Grupos do Microsoft 365 e de sites do SharePoint](sensitivity-labels-teams-groups-sites.md). Os usuários sempre poderão alterar o rótulo padrão se ele não for o rótulo certo para o documento ou o e-mail. Considere usar um rótulo padrão para definir um nível de base de configurações de proteção que você deseja aplicar a todo o seu conteúdo. No entanto, sem o treinamento do usuário e outros controles, essa configuração também pode resultar em rotulagem inexata. 
 
 - **Exigir uma justificativa para alterar um rótulo.** Se um usuário tentar remover um rótulo ou substituí-lo por um rótulo que tenha um número de pedido menor, você poderá solicitar que o usuário forneça uma justificativa para executar essa ação. Por exemplo, um usuário abre um documento rotulado como confidencial (número de pedido 3) e substitui esse rótulo por um denominado público (número 1). Atualmente, a justificativa não é enviada para a [análise de rótulo](label-analytics.md) para que o administrador examine. No entanto, o [Cliente de rotulagem unificado de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2) envia essas informações para a [Análise de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/reports-aip).
 
@@ -197,7 +197,7 @@ Os metadados aplicados por ambos os conjuntos de rótulos são compatíveis, ent
 
 ### <a name="azure-information-protection-clients"></a>Clientes da Proteção de Informações do Azure
 
-Quando você usa rótulos de confidencialidade nos aplicativos do Office 365 ProPlus em computadores com Windows, você tem a opção de usar um cliente da Proteção de Informações do Azure ou usar a rotulagem interna do Office.
+Quando você usa rótulos de confidencialidade nos Aplicativos do Microsoft 365 para empresas em computadores com Windows, você tem a opção de usar um cliente da Proteção de Informações do Azure ou usar a rotulagem interna do Office.
 
 Por padrão, a rotulagem interna é desativada nesses aplicativos quando o cliente da Proteção de Informações do Azure é instalado. Para obter mais informações, incluindo como alterar esse comportamento padrão, confira [Cliente da rotulagem interna do Office e cliente da Proteção de Informações do Azure](sensitivity-labels-office-apps.md#office-built-in-labeling-client-and-the-azure-information-protection-client).
 

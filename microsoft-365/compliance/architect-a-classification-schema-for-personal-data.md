@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Determine se sua organização implementará os rótulos como parte do plano do RGPD.
-ms.openlocfilehash: fa10e3ccd320026f06db76feef8711f8483c2b70
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: db61c5c26ed8484e99aa8f06310bdd3385cf2dce
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596038"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637131"
 ---
 # <a name="architect-a-classification-schema-for-personal-data"></a>Desenvolver um esquema de classificação para dados pessoais
 
@@ -32,11 +32,11 @@ Observação: definir um esquema de classificação para uma organização e con
 
 ## <a name="decide-if-youre-using-labels-in-addition-to-sensitive-data-types"></a>Decidir se vai usar rótulos além dos tipos de dados confidenciais
 
-É possível abordar a classificação de informações pessoais no Office 365 de duas abordagens. Qualquer uma pode ser usada para a proteção de RGPD. Se decidir usar somente tipos de informações confidenciais para classificação, ignore o restante deste tópico.
+É possível abordar a classificação de informações pessoais no Microsoft 365 de duas abordagens. Qualquer uma pode ser usada para a proteção de RGPD. Se decidir usar somente tipos de informações confidenciais para classificação, ignore o restante deste tópico.
 
 Selecione uma das opções a seguir.
 
-### <a name="option-1-use-only-office-365-sensitive-information-types"></a>Opção 1: usar somente os tipos de informações confidenciais do Office 365
+### <a name="option-1-use-only-microsoft-365-sensitive-information-types"></a>Opção 1: usar somente os tipos de informações confidenciais do Microsoft 365
 
 - Os tipos de informações confidenciais funcionam bem para identificar e proteger os dados pessoais sujeitos ao RGPD e outros tipos de regulamentações.
 

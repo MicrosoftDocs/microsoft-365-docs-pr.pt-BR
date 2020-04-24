@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Saiba como pesquisar e localizar dados pessoais no Office 365.
-ms.openlocfilehash: 31ff182c673b9a8d8f468b81c6cf5d30cf00733a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3bcae58049cd844a64bfbff89f78a98df6e25dbc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597558"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638125"
 ---
 # <a name="search-for-and-find-personal-data"></a>Pesquisar e localizar dados pessoais
 
@@ -33,7 +33,7 @@ Artigo 4 – Definições
 
 > "dados pessoais" são todas as informações relativas a uma pessoa física identificada ou identificável ("titular dos dados"); uma pessoa física identificável é alguém que pode ser identificado, direta ou indiretamente, em especial por referência a um identificador como um nome, um número de identificação, dados de localização, um identificador online ou por um ou mais elementos específicos da identidade física, fisiológica, genética, mental, econômica, cultural ou social dessa pessoa física;
 
-Este artigo demonstra como localizar dados pessoais armazenados no SharePoint Online e no OneDrive for Business (que inclui os sites de todos os grupos do Office 365 e Microsoft Teams).
+Este artigo demonstra como localizar dados pessoais armazenados no SharePoint Online e no OneDrive for Business (que inclui os sites de todos os grupos do Microsoft 365 e Microsoft Teams).
 
 A localização de dados pessoais sujeitos ao GDPR se baseia no uso de tipos de informações confidenciais no Office 365. Eles definem como o processo automatizado reconhece os tipos de informações específicas, como números de serviços de saúde e cartão de crédito. Você pode usar as políticas de prevenção contra perda de dados para localizar dados pessoais no email enquanto está em trânsito. Você pode usar os tipos de informações confidenciais que deseja para o RGPD localizar e proteger as informações pessoais conforme elas são enviadas por email. Confira também, [Solicitações de entidades de dados GDPR gerenciados com a ferramenta de caso DSR no Centro de Conformidade & Segurança](https://docs.microsoft.com/microsoft-365/compliance/manage-gdpr-data-subject-requests-with-the-dsr-case-tool).
 
@@ -97,13 +97,13 @@ No momento, os tipos de informações confidenciais não podem ser usados para l
 <tbody>
 <tr class="odd"><td align="left"><p>Acessar a Pesquisa de Conteúdo no Centro de Conformidade e Segurança</p></td>
 <td align="left"><p>No painel esquerdo do Centro de Conformidade e Segurança, clique em **Pesquisa&amp; investigação** &gt; **Pesquisa de Conteúdo**.</p>
-<p>Confira <a href="https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">Executar uma Pesquisa de Conteúdo no Centro de Conformidade e Segurança do Office 365</a>.</p></td>
+<p>Confira <a href="https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">Executar uma Pesquisa de Conteúdo no Centro de Conformidade e &amp; Segurança</a>.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>Criar um novo item de pesquisa para cada tipo de informação confidencial</p></td>
 <td align="left"><p>Use a seguinte sintaxe:</p>
 <blockquote>
-<p>SensitiveType:"&lt;type&gt;"</p>
+<p>SensitiveType:"&lt;tipo&gt;"</p>
 </blockquote>
 <p>Por exemplo:</p>
 <blockquote>
@@ -117,7 +117,7 @@ No momento, os tipos de informações confidenciais não podem ser usados para l
 <td align="left"><p>Identifique esses tipos de problemas para determinar se a precisão da consulta está adequada:</p>
 <p><li>Muitos falsos positivos</li></p>
 <p><li>Falta de instâncias de dados conhecidos</li></p>
-<p>Confira <a href="https://support.office.com/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Exportar os resultados da Pesquisa de Conteúdo do Centro de Conformidade e Segurança do Office 365</a>.</p>
+<p>Confira <a href="https://support.office.com/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Exportar os resultados da Pesquisa de Conteúdo do &amp;Centro de Conformidade e Segurança</a>.</p>
 <p>Observação: se estiver usando o Mozilla Firefox ou o Chrome, pode ser preciso baixar antes os relatórios usando o Internet Explorer ou o Microsoft Edge para instalar o suplemento necessário.</p></td>
 </tr>
 </tbody>
@@ -153,7 +153,7 @@ Comece com esses tipos de informações confidenciais, muitos outros chegarão e
 >
 > Número da segurança social francesa (INSEE)
 >
-> Número da carteira de motorista alemã
+> Número de carteira de motorista da Alemanha
 >
 > Número da carteira de identidade alemã
 >
@@ -169,7 +169,7 @@ Comece com esses tipos de informações confidenciais, muitos outros chegarão e
 >
 > Número de carteira de motorista italiana
 >
-> Número do serviço do cidadão (BSN) holandês
+> Número do Serviço do Cidadão (BSN) da Países Baixos
 >
 > Número de identidade norueguesa
 >
@@ -187,7 +187,7 @@ Comece com esses tipos de informações confidenciais, muitos outros chegarão e
 >
 > Número de passaporte sueco
 >
-> Número da carteira de motorista britânica
+> Número de carteira de motorista do Reino Unido
 >
 > Número do título de eleitor britânico
 >
