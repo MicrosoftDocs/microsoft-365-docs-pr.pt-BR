@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: b9ca945ac90ab27d3bc25f1022070eff4737bc10
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9252fa5a5096e8a0768277f0c72d78e4743f51dc
+ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631298"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43790669"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites-public-preview"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint (visualização pública)
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-Quando você cria rótulos de confidencialidade no [Centro de conformidade do Microsoft 365](https://protection.office.com/), você pode aplicar aos seguintes contêineres: sites do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint. Use as configurações de rótulo a seguir para ajudar a proteger o conteúdo desses contêineres:
+Quando você cria rótulos de confidencialidade no [Centro de conformidade do Microsoft 365](https://protection.office.com/), você pode aplicar aos seguintes contêineres: sites do Microsoft Teams, grupos do Microsoft 365 (anteriormente denominado Grupos do Microsoft 365) e sites do SharePoint. Use as configurações de rótulo a seguir para ajudar a proteger o conteúdo desses contêineres:
 
 - Privacidade (pública ou privada) dos sites de equipes conectadas ao grupo do Microsoft 365
 - Acesso de usuários externos
@@ -79,7 +79,7 @@ Se precisar de ajuda para criar ou editar um rótulo de confidencialidade, confi
 
 Nesta nova página **Configurações de site e grupo**, defina as configurações:
 
-- **Privacidade dos sites de equipes conectadas ao grupo do Microsoft 365**: A configuração padrão de **Nenhum - permite que o usuário escolha quem pode acessar o site** está sendo implementado no momento para os locatários. Mantenha essa configuração padrão quando desejar proteger o conteúdo no contêiner usando o rótulo de confidencialidade, mas ainda permita que os usuários configurem eles mesmos a privacidade.
+- **Privacidade dos sites de equipes conectadas ao grupo do Office 365**: A configuração padrão de **Nenhum - permite que o usuário escolha quem pode acessar o site** está sendo implementado no momento para os locatários. Mantenha essa configuração padrão quando desejar proteger o conteúdo no contêiner usando o rótulo de confidencialidade, mas ainda permita que os usuários configurem eles mesmos a privacidade.
     
     Selecione **Pública** ou**Privada** para definir e bloquear a configuração de privacidade quando você aplicar esse rótulo ao contêiner. Escolha **Pública** se desejar que alguém da sua organização acesse o site de equipe ou grupo no qual esse rótulo é aplicado ou **Privada** se desejar que o acesso seja restrito apenas a membros aprovados em sua organização. 
     
@@ -256,7 +256,7 @@ Outros aplicativos e serviços onde você não pode usar atualmente os rótulos 
 
 ## <a name="classic-azure-ad-group-classification"></a>Classificação clássica de grupo do Azure AD
 
-O Microsoft 365 não oferece mais suporte às classificações antigas para novos grupos do Office 365 e sites do SharePoint quando você habilita essa visualização. No entanto, os grupos e sites existentes ainda exibem os valores de classificação antigos, a menos que você os converta para usar rótulos de confidencialidade.
+O Microsoft 365 não oferece mais suporte às classificações antigas para novos grupos do Microsoft 365 e sites do SharePoint quando você habilita essa visualização. No entanto, os grupos e sites existentes ainda exibem os valores de classificação antigos, a menos que você os converta para usar rótulos de confidencialidade.
 
 Como um exemplo de como você pode ter usado a classificação de grupo antiga do SharePoint, confira [Classificação de sites “moderna”](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification).
 
@@ -299,7 +299,7 @@ Embora você não possa impedir que os usuários criem novos grupos em aplicativ
     Get-Label |ft Name, Guid
     ```
 
-3. Anote as GUIDs dos rótulos de confidencialidade que você deseja aplicar aos grupos do Office 365.
+3. Anote o GUIDe dos rótulos de confidencialidade que você deseja aplicar a seus grupos do Microsoft 365.
 
 4. Agora, [conecte-se ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
     
@@ -311,9 +311,7 @@ Embora você não possa impedir que os usuários criem novos grupos em aplicativ
     Import-PSSession $Session
     ```
 
-6. Anote o GUIDe dos rótulos de confidencialidade que você deseja aplicar a seus grupos do Microsoft 365.
-
-7. Use o seguinte comando como exemplo para obter a lista de grupos que atualmente têm a classificação "Geral":
+5. Use o seguinte comando como exemplo para obter a lista de grupos que atualmente têm a classificação "Geral":
 
    ```PowerShell
    $Groups= Get-UnifiedGroup | Where {$_.classification -eq "General"}

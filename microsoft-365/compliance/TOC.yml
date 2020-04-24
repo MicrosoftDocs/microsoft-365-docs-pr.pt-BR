@@ -151,7 +151,7 @@
           href: what-the-dlp-functions-look-for.md
     - name: Criptografia no Microsoft 365
       href: encryption.md
-    - name: Criptografia do Serviço do Office 365
+    - name: Criptografia de Serviço do Office 365
       href: office-365-service-encryption.md
     - name: Chave de Cliente
       items:
@@ -513,8 +513,6 @@
               href: load-non-Office-365-data-into-a-review-set.md
             - name: Adicionar dados a outro conjunto de revisão
               href: add-data-to-review-set-from-another-review-set.md
-            - name: Gerenciar conjuntos de carga
-              href: manage-load-sets-in-advanced-ediscovery.md
         - name: Revisar dados de ocorrência
           items:
             - name: Use o painel do conjunto de revisões (visualização)

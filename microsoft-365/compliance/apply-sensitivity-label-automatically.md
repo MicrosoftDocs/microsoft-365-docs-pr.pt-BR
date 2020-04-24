@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 8b6cf223eb9a7a806691a282944e77040de3f586
-ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
+ms.openlocfilehash: ee9eef1c8f12d24cdf1c03ee5d7799c63c9acc23
+ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43790628"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43799974"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -141,7 +141,7 @@ Para obter mais informações sobre os classificadores, confira [Introdução ao
 
 Durante o período de visualização, os seguintes aplicativos oferecem suporte a classificadores de rótulos de confidencialidade:
 
-- Aplicativos para área de trabalho para Windows dos Aplicativos do Microsoft365 para empresas, do [Office Insider](https://office.com/insider):
+- Os aplicativos de área de trabalho do Microsoft365 Apps para Grandes Empresas para Windows, do [Office Insider](https://office.com/insider):
     - Word
     - Excel
     - PowerPoint
@@ -263,7 +263,6 @@ Por fim, você pode usar o modo de simulação para fornecer uma aproximação d
     - O destinatário é
     - A extensão de arquivo do anexo é
     - O anexo é protegido por senha
-    - A propriedade do documento é
     - Nenhum conteúdo do anexo de email pôde ser verificado
     - Nenhum conteúdo do anexo de email concluiu a verificação
 
@@ -277,17 +276,23 @@ Por fim, você pode usar o modo de simulação para fornecer uma aproximação d
 
 11. Para a página **Escolher um rótulo de aplicação automática**: Selecione **+ Escolher um rótulo**, selecione um rótulo no painel **Escolher um rótulo de confidencialidade** e selecione **Avançar**.
 
-12. Para a página **Escolher um modo para a política**: Selecione **Testar** se você estiver pronto para executar a política de rotulagem automática agora, no modo de simulação. Caso contrário, selecione **Deixar desativado**. Selecione **Avançar**. 
+12. Para a página **Decida se deseja executar a simulação de política agora ou mais tarde**: selecione **Executar política no modo de simulação** se você estiver pronto para executar a política de rotulagem automática agora, no modo de simulação. Caso contrário, selecione **Deixar a política desativada**. Selecione **Avançar**. 
 
 13. Para a página **Resumo**: Revise a configuração da política de rotulagem automática, faça as alterações necessárias e conclua o assistente.
     
     Diferentemente da rotulagem automática para aplicativos do Office, não há opção de publicação separada. No entanto, como nos rótulos de publicação, aguarde até 24 horas para que a política de rotulagem automática seja replicada em toda a organização.
 
-Agora, na página **Proteção de informações**, guia **Rotulagem automática (visualização)**, você verá a política de rotulagemo automática na seção de **Teste**. Selecione a política para ver os detalhes da configuração e do status (por exemplo, ainda em teste ou teste concluído). Selecione a guia **Itens correspondentes** para ver quais emails ou documentos correspondem às regras que você especificou.
+Agora, na página **Proteção de informações**, na guia **Rotulagem automática (visualização)**, você verá a política de rotulagem automática na seção **Simulação** ou **Desativar**, dependendo se você optou por executá-la no modo de simulação ou não. Selecione a política para ver os detalhes da configuração e do status (por exemplo, a **Simulação da política ainda está sendo executada**). Para as políticas em modo de simulação, selecione a guia **Itens correspondentes** para ver quais emails ou documentos correspondem às regras que você especificou.
 
-Você pode modificar a política diretamente nessa interface, selecionando a opção **Editar** na parte superior da página.
+Você pode modificar sua política diretamente nesta interface:
 
-Quando estiver pronto para executar a política sem simulação, selecione a opção **Ativar**.
+- Para uma política na seção **Desativar**, selecione o botão **Editar política**.
+
+- Para uma política na seção **Simulação**, selecione a opção **Editar** na parte superior da página, em qualquer uma das guias:
+    
+    ![Editar uma opção de política de rotulagem automática](../media/auto-labeling-edit.png)
+    
+    Quando estiver pronto para executar a política sem simulação, selecione a opção **Ativar política**.
 
 Você também pode ver os resultados da política de rotulagem automática usando o [explorador de conteúdo](data-classification-content-explorer.md) quando tiver as [permissões](data-classification-content-explorer.md#permissions) apropriadas:
 - O **visualizador de lista do Explorador de Conteúdo** permite que você veja o rótulo de um arquivo, mas não o conteúdo do arquivo.
