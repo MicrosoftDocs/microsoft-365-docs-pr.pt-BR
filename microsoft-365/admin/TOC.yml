@@ -219,8 +219,6 @@
           href: get-help-with-domains/information-for-dns-records.md
         - name: Localizar e corrigir problemas
           href: get-help-with-domains/find-and-fix-issues.md
-        - name: Conexão de Domínio
-          href: get-help-with-domains/domain-connect.md
         - name: Configure seu domínio (instruções específicas do host)
           href: get-help-with-domains/set-up-your-domain-host-specific-instructions.md
         - name: Alterar os nameservers em qualquer registrador de domínios
