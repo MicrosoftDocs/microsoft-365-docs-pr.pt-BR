@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: 40747d2ee66d4a873f83247278f04377ccfa8eaf
-ms.sourcegitcommit: d1909d34ac0cddeb776ff5eb8414bfc9707d5ac1
+ms.openlocfilehash: 1ab56f6d4fadf87de49069e93de429b7eecba577
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43163851"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707472"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -40,7 +40,7 @@ Quando estiver pronto para começar a proteger os dados da sua organização usa
     
     Para obter orientações mais abrangentes sobre a definição de uma taxonomia de classificação, faça o download do artigo técnico "Classificação de dados e taxonomia de rótulos de confidencialidade", no [Portal de confiança do serviço](https://aka.ms/DataClassificationWhitepaper).
 
-2. **Defina o que cada rótulo pode fazer.** Defina as configurações de proteção desejadas associadas a cada rótulo. Por exemplo, você pode querer que um conteúdo de menor confidencialidade (como um rótulo “Geral”) tenha apenas um cabeçalho ou rodapé aplicado, enquanto um conteúdo de maior confidencialidade (como um rótulo “Confidencial”) deve ter uma marca d’água, criptografia e proteção de ponto de extremidade aplicado a ele.
+2. **Defina o que cada rótulo pode fazer.** Defina as configurações de proteção desejadas associadas a cada rótulo. Por exemplo, você pode desejar que o conteúdo menos confidencial (como um rótulo "Geral") tenha apenas um cabeçalho ou rodapé aplicado, e que o conteúdo mais confidencial (como um rótulo "Confidencial") tenha uma marca d'água, criptografia e proteção de ponto de extremidade aplicadas.
 
 3. **Publique os rótulos.** Quando os rótulos de confidencialidade estiverem configurados, publique-os usando uma política de rótulo. Decida quais usuários e grupos devem ter os rótulos e quais configurações de política utilizar. Um único rótulo pode ser reutilizado; você o define uma vez e, em seguida, você pode incluí-lo em várias políticas de rótulo atribuídas a diferentes usuários. Por exemplo, você pode fazer o piloto dos rótulos de confidencialidade atribuindo uma política de rótulo a apenas alguns usuários. Em seguida, quando você estiver pronto para implantar os rótulos em toda a organização, poderá criar uma nova política de rótulos para seus rótulos e, desta vez, especificar todos os usuários.
 
@@ -52,15 +52,15 @@ O fluxo básico para a implantação e a aplicação de rótulos de sensibilidad
 
 Várias assinaturas diferentes oferecem suporte aos rótulos de sensibilidade e aos requisitos de licenciamento dos usuários que dependem dos recursos que você usa.
 
-Para visualizar as opções de licenciamento dos seus usuários para se beneficiar dos recursos de conformidade do Microsoft 365 a partir do dia 01º de abril de 2020, consulte as [Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD). Para rótulos de sensibilidade, consulte a seção [Proteção de informações](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) e o download relacionado em PDF.
+Para visualizar as opções de licenciamento dos seus usuários para se beneficiar dos recursos de conformidade do Microsoft 365 a partir do dia 01º de abril de 2020, consulte as [Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD). Para rótulos de confidencialidade, confira a seção [Proteção de informações](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) e o download relacionado em PDF ou Excel.
 
 ## <a name="permissions-required-to-create-and-manage-sensitivity-labels"></a>Permissões necessárias para criar e gerenciar rótulos dec confidencialidade
 
-Os membros da sua equipe de conformidade que forem criar rótulos de confidencialidade precisam de permissões para o Centro de conformidade do Microsoft 365, o Centro de segurança do Microsoft 365 ou o Centro de Conformidade e Segurança do Office 365. 
+Os membros da sua equipe de conformidade que forem criar rótulos de confidencialidade precisam de permissões no Centro de conformidade do Microsoft 365, Centro de segurança do Microsoft 365 ou Centro de Conformidade e Segurança. 
 
 Por padrão, seu administrador de locatário tem acesso a esses centros de administração e poderá fornecer acesso aos agentes de conformidade e a outras pessoas sem fornecer a eles todas as permissões de um administrador de locatários. Para permitir que se delegue esse acesso limitado de administrador, vá para a página **Permissões** de um desses centros de administração e, em seguida, adicione membros ao grupo de funções **administrador de conformidade de dados**, **administrador de conformidade** ou ** administrator de segurança**.
 
-Como alternativa, você pode criar um novo grupo de funções e adicionar as funções **administrador de rótulo de confidencialidade** ou **configuração da organização** a esse grupo. Para obter instruções, consulte [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
+Como alternativa, você pode criar um novo grupo de funções e adicionar as funções **administrador de rótulo de confidencialidade** ou **configuração da organização** a esse grupo. Para obter instruções, confira [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
 
 Essas permissões são necessárias somente para criar e configurar os rótulos de confidencialidade e suas políticas de rótulos. Eles não são necessários para aplicar os rótulos em aplicativos ou serviços.
 
@@ -78,7 +78,7 @@ Use a seguinte documentação para oferecer suporte à implantação de rótulo 
 |Habilitar recursos de colaboração no SharePoint (e OneDrive) para documentos rotulados com criptografia | [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)](sensitivity-labels-sharepoint-onedrive-files.md)
 |Gerenciar rótulos de confidencialidade para aplicativos do Office para que o conteúdo seja rotulado como foi criado |[Usar rótulos de confidencialidade em aplicativos do Office](sensitivity-labels-office-apps.md)|
 |Aplicar rótulos de confidencialidade automaticamente a documentos e emails | [Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)|
-|Usar os rótulos de confidencialidade para proteger o conteúdo do Teams e do SharePoint |[Usar etiquetas de confidencialidade com o Microsoft Teams, grupos do Office 365 e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md)|
+|Usar os rótulos de confidencialidade para proteger o conteúdo do Teams e do SharePoint |[Use rótulos de confidencialidade no Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md)|
 |Descobrir, rotular e proteger arquivos armazenados no repositório de dados locais |[Implantação do scanner da Proteção de Informações do Azure para classificar e proteger arquivos automaticamente](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
 |Descobrir, rotular e proteger arquivos armazenados no repositório da nuvem|[Descobrir, classificar, rotular e proteger dados regulamentados e confidenciais armazenados na nuvem](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |Visualizar como os rótulos de confidencialidade estão sendo usados para relatar o status de implantação e ajustar a configuração de rótulo|[Exibição do uso do rótulo com análises de rótulo](label-analytics.md)|

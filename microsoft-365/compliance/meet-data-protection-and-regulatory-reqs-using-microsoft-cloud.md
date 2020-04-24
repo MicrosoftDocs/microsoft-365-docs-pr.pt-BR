@@ -15,19 +15,19 @@ search.appverid:
 - MET150
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: O Gerenciador de Conformidade no Portal de Confiança do Serviço Microsoft fornece ferramentas para monitorar, implementar e gerenciar os controles para ajudar sua organização a alcançar a conformidade de acordo com os padrões de segurança e proteção de dados do setor (como RGPD, ISO 27001 e 27018, e HIPAA) quando comparados aos serviços em nuvem da Microsoft, como o Microsoft Azure e o Office 365. O Gerenciador de Conformidade ajuda quem supervisiona a estratégia de privacidade e proteção de dados da sua organização a gerenciar o processo de avaliação de risco e conformidade.
-ms.openlocfilehash: 17884ff51a91ee0131f79fea05416ade59e4153e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3019378c82e263ce438b385a998dcf2475f3b62d
+ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634881"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43790618"
 ---
 # <a name="microsoft-compliance-manager-classic"></a>Gerenciador de conformidade da Microsoft (Clássico)
 
 > [!NOTE]
-> Esta documentação descreve um produto legado. Os usuários são aconselhados a não usar esta versão do Gerenciador de conformidade e, em vez disso, a usar a [Pontuação de Conformidade da Microsoft](compliance-score.md).
+> Esta documentação descreve uma versão anterior deste produto. Os usuários são aconselhados a não usar esta versão do Gerenciador de Conformidade e, em vez disso, a usar a [Pontuação de Conformidade da Microsoft](compliance-score.md).
 
- *O Gerenciador de Conformidade não está disponível no Office 365 operado pela 21Vianet, Office 365 Germany, Office 365 US Government Community High (GCC High) ou Office 365 Department of Defense.* 
+ *O Gerenciador de Conformidade não está disponível no Office 365 operado pela 21Vianet, Office 365 Germany, Office 365 US Government Community High (GCC High) ou Office 365 Department of Defense.*
   
 O Gerenciador de Conformidade, uma ferramenta de avaliação de risco baseada no [Portal de Confiança do Serviço](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662) da Microsoft, permite monitorar, atribuir e verificar as atividades de conformidade normativas da sua organização relacionadas aos Serviços Profissionais e aos serviços em nuvem da Microsoft, como o Microsoft Office 365, o Microsoft Dynamics 365 e o Microsoft Azure. 
 

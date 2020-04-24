@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 50933032e47ebb6165e1e9354c1c1fc885915852
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8b6cf223eb9a7a806691a282944e77040de3f586
+ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637141"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43790628"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -141,7 +141,7 @@ Para obter mais informações sobre os classificadores, confira [Introdução ao
 
 Durante o período de visualização, os seguintes aplicativos oferecem suporte a classificadores de rótulos de confidencialidade:
 
-- Os aplicativos de área de trabalho do Microsoft365 Apps para Grandes Empresas para Windows, do [Office Insider](https://office.com/insider):
+- Aplicativos para área de trabalho para Windows dos Aplicativos do Microsoft365 para empresas, do [Office Insider](https://office.com/insider):
     - Word
     - Excel
     - PowerPoint
@@ -202,9 +202,10 @@ Específico para o cliente de rotulagem unificada da Proteção de Informações
     - Os tipos de informações de confidencialidade personalizadas são avaliados quanto ao conteúdo criado depois que os tipos de informações de confidencialidade personalizadas são salvos. 
     - Para testar novos tipos de informações confidenciais personalizadas, crie-os antes de criar a política de rotulagem automática e crie novos documentos com dados de exemplo para teste.
 
-- Um ou mais rótulos de confidencialidade [criados e publicados](create-sensitivity-labels.md) (para pelo menos um usuário) que você pode selecionar para sua política de rotulagem automática. Para esses rótulos:
+- Um ou mais rótulos de confidencialidade [criados e publicados](create-sensitivity-labels.md) (para pelo menos um usuário) que você pode selecionar para suas políticas de rotulagem automática. Para esses rótulos:
     - Não importa se a rotulagem automática na configuração de rótulo dos aplicativos do Office está ativada ou desativada, porque essa configuração complementa as políticas de rotulagem automática, conforme explicado na introdução. 
     - Se aos rótulos que você deseja usar para rotulagem automática estiverem configurados para usar marcações visuais (cabeçalhos, rodapés, marcas d'água), observe que eles não são aplicadas aos documentos.
+    - Se os rótulos aplicarem criptografia, a configuração **Aplicar permissões agora** deverá ser definida.
 
 ### <a name="learn-about-simulation-mode"></a>Saiba mais sobre o modo de simulação
 
@@ -239,6 +240,8 @@ Por fim, você pode usar o modo de simulação para fornecer uma aproximação d
 2. Selecione a guia de **rotulagem automática (visualização)**:
     
     ![Guia de rotulagem automática (visualização)](../media/auto-labeling-tab.png)
+    
+    Esta nova guia ainda está sendo distribuída aos locatários. Se você não puder vê-la, tente novamente em alguns dias.
 
 3. Selecione **+ Criar política**.
 
