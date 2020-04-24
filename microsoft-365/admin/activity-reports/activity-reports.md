@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Obtenha um relatório periódico de como as pessoas da sua organização estão usando os serviços do Microsoft 365. O painel Visão geral do uso permite detalhar cada gráfico para obter mais informações.
-ms.openlocfilehash: 646096b0e9d9f2c1d701fba312901bf744a74501
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 665512e322eadd2f590fb5109fd6f1a9e7706e61
+ms.sourcegitcommit: b458277f0a9937555bc6c5b3fb2a41613f7cc9a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621265"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43794012"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Relatórios do Microsoft 365 no centro de administração
 
@@ -104,7 +104,7 @@ De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
   
 - [Uso do OneDrive for Business](onedrive-for-business-usage.md)
 
-- [Uso do ProPlus](microsoft365-apps-usage.md)
+- [Uso dos Aplicativos do Microsoft 365](microsoft365-apps-usage.md)
   
 - [Uso do site do SharePoint](sharepoint-site-usage.md)
   
