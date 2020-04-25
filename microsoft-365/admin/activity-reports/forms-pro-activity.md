@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - GEA150
 description: Saiba como obter um relatório de atividades do Microsoft Forms pro usando o painel de relatórios do Microsoft 365 no centro de administração do Microsoft 365.
-ms.openlocfilehash: 69938124b1aeb996afd52c119ac61e2e607f871e
-ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+ms.openlocfilehash: b86fffe580e67e86999379cc3186465dcfc7fed8
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43781604"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804812"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Relatórios do Microsoft 365 no centro de administração-atividade de formulários
+# <a name="microsoft-365-reports-in-the-admin-center---forms-pro-activity"></a>Relatórios do Microsoft 365 no centro de administração – atividade do Forms pro
 
 O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividades em todos os produtos de sua organização. Ele possibilita detalhar até relatórios de um produto específico para que você tenha informações mais precisas sobre as atividades em cada produto. Confira o tópico [Visão geral de relatórios](activity-reports.md).
   

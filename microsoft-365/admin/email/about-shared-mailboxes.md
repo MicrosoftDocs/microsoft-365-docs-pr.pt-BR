@@ -20,20 +20,20 @@ search.appverid:
 - MET150
 - MOE150
 description: Caixas de correio compartilhadas são usadas quando várias pessoas precisam acessar a mesma caixa de correio. Saiba o que você precisa saber antes de criar uma caixa de correio compartilhada.
-ms.openlocfilehash: fcdbb591e5b8f9b2c5490435b68e543c17a035a0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b6d1d7c8e0ae99047b854e91c1a97327a839f630
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629102"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43808750"
 ---
 # <a name="about-shared-mailboxes"></a>Sobre as caixas de correio compartilhadas
 
 As caixas de correio compartilhadas são usadas quando várias pessoas precisam acessar a mesma caixa de correio, como uma informação da empresa ou um endereço de email de suporte, para mesa de recepção ou qualquer outra função que possa ser compartilhada por várias pessoas.
 
-Os usuários com permissões para a caixa de correio do grupo podem enviar como ou enviar em nome do endereço de email da caixa de correio, se o administrador tiver dado permissões para isso. Isso é particularmente útil para as caixas de correio de ajuda e suporte, pois os usuários podem enviar emails de "suporte da Contoso" ou "criar uma mesa de recepção.
+Os usuários com permissões para a caixa de correio do grupo podem enviar como ou enviar em nome do endereço de email da caixa de correio, se o administrador tiver dado permissões para isso. Isso é particularmente útil para caixas de correio de ajuda e suporte, pois os usuários podem enviar emails de "Suporte da Contoso" ou "Criar uma Mesa de Recepção".
 
-Antes [de criar uma caixa de correio compartilhada](create-a-shared-mailbox.md), aqui estão algumas coisas que você deve saber.
+Antes [de criar uma caixa de correio compartilhada](create-a-shared-mailbox.md), aqui estão algumas coisas que você deve saber:
 
 - **Licenças:** Sua caixa de correio compartilhada pode armazenar até 50 GB de dados sem atribuir uma licença a ele. Depois disso, você deve atribuir uma licença para a caixa de correio para armazenar mais dados. Para obter mais detalhes sobre licenciamento de caixa de correio compartilhada, confira [limites do Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx#StorageLimits). Quando uma caixa de correio compartilhada atingir o limite de armazenamento, você ainda poderá receber emails por um tempo, mas não poderá enviar novos emails. Depois de um tempo, você não receberá mais emails. Os remetentes que enviarem mensagens para essa caixa de correio receberão uma notificação de que a mensagem não foi entregue.
 
@@ -55,7 +55,7 @@ Antes [de criar uma caixa de correio compartilhada](create-a-shared-mailbox.md),
 
 - **Muitos usuários:** Quando há muitos usuários designados acessando simultaneamente uma caixa de correio compartilhada, eles podem falhar intermitentemente para se conectar a essa caixa de correio. Nesse caso, você pode considerar reduzir o número de usuários ou usar uma carga de trabalho diferente, como um grupo do Microsoft 365 ou uma pasta pública.
 
-- **Exclusão de mensagens:** Infelizmente, não é possível impedir que as pessoas excluam mensagens em uma caixa de correio compartilhada. A única maneira de contornar isso é criar um grupo do Microsoft 365 em vez de uma caixa de correio compartilhada. Um grupo no Outlook é como uma caixa de correio compartilhada. Para uma comparação dos dois, consulte [Compare groups](../create-groups/compare-groups.md). Para saber mais sobre grupos, consulte [saiba mais sobre grupos](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
+- **Exclusão de mensagens:** Infelizmente, não é possível impedir que as pessoas excluam mensagens em uma caixa de correio compartilhada. A única maneira de contornar isso é criar um grupo do Microsoft 365 em vez de uma caixa de correio compartilhada. Um grupo no Outlook é como uma caixa de correio compartilhada. Para uma comparação dos dois, consulte [Compare groups](../create-groups/compare-groups.md). Para saber mais sobre grupos, consulte [saiba mais sobre grupos](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx).
 
 ## <a name="related-articles"></a>Artigos relacionados
 

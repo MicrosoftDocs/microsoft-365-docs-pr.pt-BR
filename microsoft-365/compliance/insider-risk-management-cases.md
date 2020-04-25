@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 6b5132cad5725e46a49b9010868ede423321f307
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: 7af3e54a13ceabf4acfaa2259ea0089854660721
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179172"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804839"
 ---
 # <a name="insider-risk-management-cases"></a>Casos de gerenciamento de risco do insider
 
@@ -103,7 +103,7 @@ A guia **atividade do usuário** é uma das ferramentas mais poderosas para aná
 
 ### <a name="content-explorer"></a>Explorador de conteúdo
 
-A guia **Gerenciador de conteúdo** permite que analistas de risco e investigadores revisem cópias de todos os arquivos e mensagens de email individuais associados a alertas de risco. Por exemplo, se um alerta é criado quando um funcionário baixa centenas de arquivos do SharePoint Online para um dispositivo USB e a atividade dispara um alerta de política, todos os arquivos baixados para o alerta são capturados e copiados para o caso de gerenciamento de risco do insider da fontes de armazenamento originais.
+A guia **Gerenciador de conteúdo** permite que analistas de risco e investigadores revisem cópias de todos os arquivos e mensagens de email individuais associados a alertas de risco. Por exemplo, se um alerta é criado quando um funcionário baixa centenas de arquivos do SharePoint Online para um dispositivo USB e a atividade dispara um alerta de política, todos os arquivos baixados para o alerta são capturados e copiados para o caso de gerenciamento de risco do insider das fontes de armazenamento originais.
 
 O Gerenciador de conteúdo é uma poderosa ferramenta com recursos básicos e avançados de pesquisa e filtragem. Para saber mais sobre como usar o Gerenciador de conteúdo, confira [Insider Risk Management Content Explorer](insider-risk-management-content-explorer.md).
 
@@ -163,7 +163,7 @@ Para enviar um aviso ao funcionário atribuído a uma ocorrência:
 
 ### <a name="escalate-for-investigation"></a>Escalonar para investigação
 
-Escalonar o caso para investigação de funcionários em situações em que a análise jurídica adicional é necessária para a atividade de risco do funcionário. Esse escalonamento abre uma nova ocorrência de descoberta eletrônica avançada na sua organização do Microsoft 365. A descoberta eletrônica avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar o conteúdo que responde às investigações legais internas e externas da sua organização. Também permite que sua equipe jurídica gerencie todo o fluxo de trabalho de notificação de retenção legal para se comunicar com os responsáveis envolvidos em um caso. A atribuição de um revisor como um responsável em uma ocorrência de descoberta eletrônica avançada criada a partir de um caso de gerenciamento de risco do insider ajuda sua equipe jurídica a executar a ação apropriada e a gerenciar a preservação de conteúdo. Para saber mais sobre casos de descoberta eletrônica avançada, confira [visão geral do EDsicovery avançado no Microsoft 365](overview-ediscovery-20.md).
+Escalonar o caso para investigação de funcionários em situações em que a análise jurídica adicional é necessária para a atividade de risco do funcionário. Esse escalonamento abre uma nova ocorrência de descoberta eletrônica avançada na sua organização do Microsoft 365. A descoberta eletrônica avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar o conteúdo que responde às investigações legais internas e externas da sua organização. Também permite que sua equipe jurídica gerencie todo o fluxo de trabalho de notificação de retenção legal para se comunicar com os responsáveis envolvidos em um caso. A atribuição de um revisor como um responsável em uma ocorrência de descoberta eletrônica avançada criada a partir de um caso de gerenciamento de risco do insider ajuda sua equipe jurídica a executar a ação apropriada e a gerenciar a preservação de conteúdo. Para saber mais sobre casos de descoberta eletrônica avançada, confira [visão geral da descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md).
 
 Para escalonar uma ocorrência para uma investigação de funcionário:
 

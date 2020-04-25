@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Agora o Microsoft Teams terá acesso a links seguros no momento do clique. Se você estiver usando chats 1-em-1, entre grupos ou em canais e guias, se você tiver uma assinatura do Office 365 ATP, terá a capacidade de habilitar e usar esse recurso de segurança.
-ms.openlocfilehash: 88fe9756188eb16a2347d3c0cd4a98b4003ff457
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 07f20f0adf503e4592d2bd3f3bc9857d08a1e433
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635993"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43808997"
 ---
 <!--06/21/2019-->
 
@@ -28,7 +28,7 @@ ms.locfileid: "43635993"
 > [!IMPORTANT]
 > Este recurso está em **Visualização pública** para clientes no programa de adoção de tecnologia do Microsoft Teams (toque) a partir de 28 de fevereiro de 2020. Esta nota será removida do artigo quando links seguros para o Microsoft Teams estiver mais amplamente disponível.
 
-O Microsoft Teams, um aplicativo baseado em nuvem da Microsoft para gerenciar seu trabalho, já usa anexos seguros (para o Office 365), mas agora terá acesso a links seguros no momento do clique. Se você estiver usando chats 1-em-1, entre grupos ou em canais e guias, se você tiver uma assinatura do Office 365 ATP, terá a capacidade de habilitar e usar essa medida de segurança.
+O Microsoft Teams, um aplicativo baseado em nuvem da Microsoft para gerenciar seu trabalho, já usa anexos seguros (para o Office 365), mas agora terá acesso a links seguros no momento do clique. Se você estiver usando chats, bate-papos de grupo, canais ou guias, se você tiver uma assinatura do Office 365 ATP, você terá a capacidade de habilitar e usar essa medida de segurança. Para saber mais sobre os requisitos de licenciamento, confira [Diretrizes do Licenciamento de Serviços no Nível de Locatário do Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
 
 Veja como funciona: 
 
@@ -51,5 +51,4 @@ Se o usuário que enviou o link não estiver protegido pelo Office 365 ATP, ele 
 Clicar no *botão voltar* nesta página no Microsoft Teams irá fechá-lo (ou pode resultar em uma página em branco que os usuários possam fechar). No entanto, clicar no link novamente resultará na reavaliação da reputação do site para que essa página reapareça.
 
 > [!NOTE]
->Alguns administradores do Microsoft 365 habilitarão a mensagem de **continuar assim mesmo** na página de bloqueio. No entanto, se o recurso links seguros medir a reputação de um site e encontrá-lo, nenhum outro clique deve ser realizada. Não é recomendável que os usuários ignorem medidas de segurança. Considere isso em suas considerações antes de habilitar a continuação de qualquer modo. 
-
+> Alguns administradores do Microsoft 365 habilitarão a mensagem de **continuar assim mesmo** na página de bloqueio. No entanto, se o recurso links seguros medir a reputação de um site e encontrá-lo, nenhum outro clique deve ser realizada. Não é recomendável que os usuários ignorem medidas de segurança. Considere isso em suas considerações antes de habilitar a continuação de qualquer modo. 

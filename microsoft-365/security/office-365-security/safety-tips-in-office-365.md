@@ -17,16 +17,18 @@ ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
 description: Apresenta dicas de segurança para mensagens de email filtradas pelo EOP e pelo filtro de spam.
-ms.openlocfilehash: 7171f5855e295ffac931862c86db011c9f38a4c6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c7d7e6819e1374fd941d6eeb992ecf63726d4127
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634299"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43809028"
 ---
 # <a name="safety-tips-in-email-messages"></a>Dicas de segurança para mensagens de email
 
-O Exchange Online Protection (EOP) e o Microsoft 365 protegem você com spam, phishing e prevenção contra malware. Hoje, alguns desses ataques são tão bem criados que parecem legítimos. Enviar mensagens para a pasta lixo eletrônico nem sempre é suficiente. Agora, quando você verificar seu email no Outlook ou no Outlook na Web, o EOP verifica automaticamente o remetente e adiciona uma dica de segurança à parte superior do email.
+O Exchange Online Protection (EOP) e o Microsoft 365 protegem você com spam, phishing e prevenção contra malware. Hoje, alguns desses ataques são tão bem criados que parecem legítimos. Enviar mensagens para a pasta lixo eletrônico nem sempre é suficiente. Agora, quando você verificar seu email no Outlook ou no Outlook na Web ou em qualquer cliente de email, o EOP verifica automaticamente o remetente e adiciona uma dica de segurança à parte superior do email.
+
+As dicas de segurança no Outlook não dependem de qual versão do Outlook você está usando, pois a dica de segurança está quebrada aberta e inserida diretamente no corpo da mensagem. Isso significa que a dica de segurança será mostrada em qualquer cliente de email que você estiver usando. Ele é feito no nível de filtro de email e não é renderizado no nível do cliente de email, portanto, não apenas ele aparece em qualquer versão do Outlook, também aparece em qualquer cliente de email.
 
 A dica de segurança — uma mensagem codificada por cores — avisará você sobre mensagens potencialmente prejudiciais. A maioria das mensagens em sua caixa de entrada não terá uma dica de segurança. Você só as verá quando o EOP e o Microsoft 365 tiverem informações necessárias para ajudar a evitar spam, phishing e ataques de malware. Se as dicas de segurança aparecerem em sua caixa de entrada, você poderá usar os exemplos a seguir para saber mais sobre cada tipo de dica de segurança.
 
@@ -55,6 +57,7 @@ A dica de segurança — uma mensagem codificada por cores — avisará você so
     Também avisaremos quando ignoramos a verificação de um email porque ele é proveniente de um remetente em sua lista de remetentes confiáveis ou se existe uma regra de fluxo de emails para ignorar a filtragem.
 
     A dica de segurança cinza também aparece quando imagens externas são bloqueadas, ou seja, a mensagem está na sua caixa de entrada e não parece ser spam, mas contém imagens externas que você não optou por baixar.
+    
 
 ## <a name="working-with-safety-tips"></a>Trabalhar com dicas de segurança
 

@@ -17,19 +17,21 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8b8976f07f88afa184eb292b0cdc1d6e36a44d77
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8767174fa17aceab7d83adb96f938efad5074356
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43615913"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804769"
 ---
 # <a name="microsoft-secure-score-preview"></a>Pontuação segura da Microsoft (visualização)
 
 >[!IMPORTANT]
 >Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-A pontuação segura da Microsoft é uma medida da postura de segurança de uma organização, com um número maior indicando ações mais aprimoradas. Seguir as recomendações de Pontuação de segurança podem proteger sua organização contra ameaças. A partir de um painel centralizado no centro de segurança do Microsoft 365, as organizações podem monitorar e trabalhar com a segurança de suas identidades, dados, aplicativos, dispositivos e infraestrutura do Microsoft 365.
+A pontuação segura da Microsoft é uma medida da postura de segurança de uma organização, com um número maior indicando ações mais aprimoradas. Ele pode ser encontrado no https://security.microsoft.com/securescore na central de segurança do Microsoft 365.
+
+Seguir as recomendações de Pontuação de segurança podem proteger sua organização contra ameaças. A partir de um painel centralizado no centro de segurança do Microsoft 365, as organizações podem monitorar e trabalhar com a segurança de suas identidades, dados, aplicativos, dispositivos e infraestrutura do Microsoft 365.
 
 A pontuação segura ajuda as organizações:  
 
@@ -154,9 +156,34 @@ A pontuação segura da Microsoft é um resumo numérico de sua postura de segur
 
 ## <a name="whats-new"></a>Quais são as novidades? 
 
-Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, confira [o que está acontecendo na pontuação segura da Microsoft?](microsoft-secure-score-whats-coming.md)
+Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, confira [o que está acontecendo na pontuação segura da Microsoft?](microsoft-secure-score-whats-coming.md).
 
-### <a name="updated-interface-and-functionality"></a>Interface e funcionalidade atualizadas
+### <a name="april-21st-2020"></a>21 de abril de 2020
+
+#### <a name="added-azure-active-directory-improvement-action"></a>Foi adicionada a ação de melhoria do Azure Active Directory
+
+- Não permitir que os usuários conceda consentimento a aplicativos não gerenciados (atualmente disponível na versão lançada)
+
+#### <a name="added-azure-advanced-threat-protection-improvement-actions"></a>Foram adicionadas ações aprimoradas para proteção avançada contra ameaças do Azure
+
+- Desabilitar o serviço spooler de impressão em controladores de domínio
+- Modificar as delegações Kerberos não seguras para impedir a representação
+- Proteger e gerenciar senhas de administrador local com o Microsoft LAPS
+- Reduzir o risco de caminho de movimento lateral para entidades confidenciais
+- Remover contas inativas de grupos confidenciais
+- Remover atributos de histórico de SID não seguros das entidades
+- Resolver atributos de conta não seguros
+- Parar exposição de credenciais de texto não criptografado
+- Parar comunicação de protocolos herdados
+- Interromper o uso de codificação fraca
+
+#### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations"></a>Suporte para recomendações de segurança do TVM (gerenciamento de vulnerabilidades) do Microsoft defender & ATP
+
+Todas as recomendações de segurança lançadas fornecidas pelo TVM estão disponíveis agora.
+
+### <a name="january---march-2020"></a>Janeiro-Março de 2020
+
+#### <a name="updated-interface-and-functionality"></a>Interface e funcionalidade atualizadas
 
 * Todos os novos modos de exibição de métricas e tendências para discussões de nível de líder e CISO
 * Novas maneiras de acompanhar e avaliar a sua pontuação
@@ -165,13 +192,13 @@ Para tornar a pontuação segura da Microsoft um melhor representante da postura
 * Gerenciar em direção às suas metas futuras usando pontuações de Pontuação e ações planejadas
 * E muito mais!
 
-### <a name="removed-not-scored-and-review-improvement-actions"></a>Ações de melhoria "não classificadas" e "revisar" removidas
+#### <a name="removed-not-scored-and-review-improvement-actions"></a>Ações de melhoria "não classificadas" e "revisar" removidas
 
 Um dos princípios de Pontuação segura é que a pontuação deve ser padronizada e fácil de se relacionar. Ter ações de melhoria que não podem ser mensuráveis ou acionável está causando confusão. Uma pontuação segura da Microsoft faz sentido quando cada recomendação pode ter um efeito claro na pontuação. As ações de melhoria não pontuadas não são mensuráveis e as ações de análise de revisão não são medidas para o mesmo padrão como outras ações de aprimoramento.
 
 Por esses motivos, todas as ações de melhoria que não foram pontuadas ou exigiam uma cadência de revisão foram temporariamente removidas. Nenhuma ação é necessária em sua parte.
 
-### <a name="simplification-of-the-point-system"></a>Simplificação do sistema de pontos
+#### <a name="simplification-of-the-point-system"></a>Simplificação do sistema de pontos
 
 Para padronizar pontos em várias experiências, cada ponto de ação de melhoria de Pontuação segura foi atualizado para exceder 10 pontos ou menos. É necessário ser mais consistente em todo o espectro de controles de segurança que temos hoje e aqueles que iremos adicionar no futuro. Embora essa seja uma alteração significativa e você veja os totais de pontos de projeção, não haverá mudanças na sua postura de segurança.
 
