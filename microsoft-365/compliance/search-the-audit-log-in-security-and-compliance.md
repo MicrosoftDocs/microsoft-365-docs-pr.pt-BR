@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização. '
-ms.openlocfilehash: 8798dccb02b35158bce34b710362c5b020a9bb15
-ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
+ms.openlocfilehash: f3cf16da0c7623c1cdd7f90272fa4b11126dcc25
+ms.sourcegitcommit: 4f2129b161eed3f9ddec47494fa19a2a7a553e4f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/24/2020
-ms.locfileid: "43800042"
+ms.locfileid: "43805186"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -113,7 +113,7 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
 
 - Pode levar de 30 minutos a 24 horas após a ocorrência de um evento para que o registro do log de auditoria seja retornado nos resultados de uma pesquisa de log de auditoria. A tabela a seguir mostra o tempo necessário para os vários serviços do Office 365.
 
-  |**Serviço da Microsoft 365**|**30 minutos**|**24 horas**|
+  |**Serviço ou recurso do Microsoft 365**|**30 minutos**|**24 horas**|
   |:-----|:-----:|:-----:|
   |Proteção Avançada contra Ameaças e Inteligência contra Ameaças|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Azure Active Directory (eventos de logon do usuário)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
@@ -129,6 +129,7 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
   |Aplicativos de energia||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Power BI|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Centro de Conformidade e Segurança|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Rótulos de confidencialidade||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |SharePoint Online e OneDrive for Business|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Sway||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Workplace Analytics|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||

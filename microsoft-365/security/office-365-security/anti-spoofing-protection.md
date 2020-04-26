@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: ''
-ms.openlocfilehash: 3a306cb8bda0f5f07660f8a2af60e29a3c4d0776
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e66a0b7965212ef65663208efd73378d8c14a726
+ms.sourcegitcommit: 4f2129b161eed3f9ddec47494fa19a2a7a553e4f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636029"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43805228"
 ---
 # <a name="anti-spoofing-protection"></a>Proteção antifalsificação
 
@@ -92,11 +92,9 @@ A Microsoft diferencia dois tipos diferentes de mensagens falsas:
 
   `Authentication-Results: ... compauth=fail reason=6xx`
 
-  `X-Forefront-Antispam-Report: ...CAT:SPM/HSPM/PHSH;...SFTY:9.11`
+  `X-Forefront-Antispam-Report: ...CAT:SPOOF;...SFTY:9.11`
 
   - `reason=6xx` indica falsificação dentro da organização.
-
-  - CAT é a categoria da mensagem e normalmente é SPM (spam), mas ocasionalmente pode ser HSPM (spam de alta confiança) ou PHISH (phishing), dependendo de quais outros tipos de padrões tenham sido detectados na mensagem.
 
   - SFTY é o nível de segurança da mensagem. 9 indica phishing, .11 indica falsificação dentro da organização.
 
@@ -109,7 +107,7 @@ A Microsoft diferencia dois tipos diferentes de mensagens falsas:
 
   `X-Forefront-Antispam-Report: ...CAT:SPOOF;...SFTY:9.22`
 
-  - O valor `reason=000` indica que a mensagem foi reprovada na autenticação explícita de email. `reason=001` indica que a mensagem foi reprovada na autenticação implícita de email.
+  - `reason=000` indica que a mensagem foi reprovada na autenticação explícita de email. `reason=001` indica que a mensagem foi reprovada na autenticação implícita de email.
 
   - SFTY é o nível de segurança da mensagem. 9 indica phishing, .22 indica falsificação entre domínios.
 

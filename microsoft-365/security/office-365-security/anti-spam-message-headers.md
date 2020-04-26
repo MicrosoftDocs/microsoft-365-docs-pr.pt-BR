@@ -15,12 +15,12 @@ ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
 description: Aprenda sobre os campos e valores do cabeçalho que são adicionados às mensagens pela Proteção do Exchange Online.
-ms.openlocfilehash: 1bb2468908ef9711242bdb236f7f43f9f6e43eb1
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 8b034da9e6c4ac138e804e07e4654c1e269aeda1
+ms.sourcegitcommit: 4f2129b161eed3f9ddec47494fa19a2a7a553e4f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708578"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43805214"
 ---
 # <a name="anti-spam-message-headers"></a>Cabeçalhos de mensagem antispam
 
@@ -46,7 +46,7 @@ Depois de acessar as informações do cabeçalho da mensagem, procure **X-Forefr
 |IPV:CAL|A mensagem ignorou a filtragem de spam porque o endereço de IP de origem estava na Lista de permissões do IP. Para obter mais informações, confira [Configurar a filtragem da conexão](configure-the-connection-filter-policy.md).|
 |IPV:NLI|O endereço IP não está listado em qualquer lista de reputação de IP.|
 |LANG|O idioma no qual a mensagem foi escrita, conforme especificado pelo código de país/região (por exemplo, ru_RU para russo).|
-|PTR:\[ReverseDNS\]|O registro PTR (também conhecido como registro do ponteiro ou endereço DNS reverso) do endereço de IP de origem.|
+|PTR:\[ReverseDNS\]|O registro PTR do endereço IP de envio, também conhecido como o endereço de DNS reverso.|
 |SCL|O nível de confiança do spam (SCL) da mensagem. Um valor mais alto indica que é mais provável que a mensagem seja spam. Para obter mais informações, confira [Nível de confiança de Spam (SCL)](spam-confidence-levels.md).|
 |SFTY|A mensagem foi identificada como phishing e também será marcada com um dos seguintes valores: <ul><li>9.1: Valor padrão. A mensagem contém uma URL de phishing, pode conter outro conteúdo de phishing ou pode ter sido marcada como phishing por outro filtro de email (por exemplo, Exchange local) antes de ser retransmitida para o Microsoft 365.</li><li>9.11: [Falsificação dentro da organização ou self-to-self](anti-spoofing-protection.md#different-types-of-spoofing). A mensagem foi reprovada nas verificações antifalsificação em que o domínio de email do remetente no cabeçalho De é o mesmo que, parte de ou se alinha com a mesma organização que o domínio de recebimento. A dica de segurança para falsificação dentro da organização será adicionada à mensagem.</li><li>9.19: Usurpação de identidade de domínio. O domínio de envio está tentando representar um domínio protegido (um domínio pertencente à organização do destinatário ou um domínio personalizado) especificado em uma política antiphishing da ATP. A dica de segurança para usurpação de identidade de domínio é adicionada à mensagem (se a dica de segurança estiver ativada na política antiphishing da ATP).</li><li>9.20: Usurpação de identidade de usuário. O usuário de envio está tentando se passar por um usuário na organização do destinatário ou por um usuário protegido especificado em uma política antiphishing da ATP. A dica de segurança para usurpação de identidade de usuário é adicionada à mensagem (se a dica de segurança estiver ativada na política antiphishing da ATP).</li><li>9.21: [Falsificação entre domínios](anti-spoofing-protection.md#different-types-of-spoofing). A mensagem foi reprovada em verificações de antifalsificação em que o domínio de email do remetente no cabeçalho De não autentica e é um domínio externo. Usado em combinação com [CompAuth](#authentication-results-message-header-fields-used-by-microsoft-email-authentication)).</li><li>9.22: Igual a 9.21, exceto pelo fato de o usuário ter um remetente seguro que foi substituído.</li><li>9.23: Igual a 9.22, exceto que a organização tem um remetente ou domínio permitido que foi substituído.</li><li>9.24: O mesmo que 9.23, exceto que o usuário possui uma regra de fluxo de mensagens do Exchange (também conhecida como regra de transporte) que foi substituída.</li></ul>|
 |SFV:BLK|A filtragem foi ignorada e a mensagem foi bloqueada pois foi enviada de um endereço dos Remetentes bloqueados no Outlook de um usuário (a lista de Remetentes bloqueados do usuário).<br/></br> Para saber mais sobre como os administradores podem gerenciar a lista de remetentes bloqueados de um usuário, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md).|
