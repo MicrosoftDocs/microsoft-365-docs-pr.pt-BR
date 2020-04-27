@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Documentação de cobranças e assinaturas de negócios
-summary: Saiba como comprar e gerenciar assinaturas comerciais, executar tarefas de gerenciamento de licenças e gerenciar cobrança e pagamentos para suas contas de negócios com a Microsoft.
+title: Assinaturas de negócios e documentação de cobrança
+summary: Aprenda a comprar e gerenciar assinaturas comerciais, executar tarefas de gerenciamento de licenças e gerenciar cobranças e pagamentos de suas contas de negócios com a Microsoft.
 metadata:
-  title: Documentação de cobranças e assinaturas de negócios
-  description: Saiba como comprar e gerenciar assinaturas comerciais, executar tarefas de gerenciamento de licenças e gerenciar cobrança e pagamentos para suas contas de negócios com a Microsoft.
+  title: Assinaturas de negócios e documentação de cobrança
+  description: Aprenda a comprar e gerenciar assinaturas comerciais, executar tarefas de gerenciamento de licenças e gerenciar cobranças e pagamentos de suas contas de negócios com a Microsoft.
   ms.service: o365-administration
   ms.topic: landing-page
   ms.collection: commerce
@@ -14,12 +14,12 @@ metadata:
   search.appverid: MET150
   ms.openlocfilehash: 76f86bcd65fe1d5894777d8263f8c48f5fc5493b
   ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: pt-BR
   ms.lasthandoff: 02/29/2020
   ms.locfileid: "42341559"
 landingContent:
-- title: Gerenciar faturas e pagamentos
+- title: Gerenciar contas e pagamentos
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -63,9 +63,9 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Experimente ou compre o Microsoft 365
+    - text: Experimentar ou comprar o Microsoft 365
       url: try-or-buy-microsoft-365.md
-    - text: Comprar uma assinatura de sua avaliação gratuita
+    - text: Comprar uma assinatura da sua avaliação gratuita
       url: buy-a-subscription-from-your-free-trial.md
     - text: Prorrogar a avaliação
       url: extend-your-trial.md
