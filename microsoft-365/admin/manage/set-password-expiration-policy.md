@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Saiba como definir uma política de expiração de senha para sua organização no centro de administração do Microsoft 365. '
-ms.openlocfilehash: bcea72dadb6f10ac4ef80677f3def57eca2724cd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: dd925ee3a5d2aadb07dceed5a0e896e77921e2a1
+ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628047"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901005"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
@@ -67,7 +67,7 @@ Vejamos alguns pontos que você precisa saber sobre como esse recurso funcionar�
     
 ## <a name="prevent-last-password-from-being-used-again"></a>Impedir que a última senha seja utilizada novamente
 
-Se quiser impedir que os usuários promovam a reciclagem de senhas antigas, use o Azure AD. Consulte [Definir a política de expiração da senha da sua organização](https://docs.microsoft.com/office365/admin/manage/set-password-expiration-policy?view=o365-worldwide).
+Se quiser impedir que os usuários promovam a reciclagem de senhas antigas, use o Azure AD. Confira [Impor histórico de senhas](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/enforce-password-history).
 
 Além disso, se um funcionário tiver usado um dispositivo móvel para acessar o Microsoft 365, você poderá apagá-lo a fim de garantir que a senha não seja armazenada e reciclada desse local. Para saber mais, confira [Apagar e bloquear o dispositivo móvel de um funcionário antigo](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee?view=o365-worldwide#wipe-and-block-a-former-employees-mobile-device).
 
