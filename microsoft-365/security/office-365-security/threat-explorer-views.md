@@ -14,12 +14,12 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os vários tipos de modos de exibição disponíveis no Gerenciador de ameaças e detecções em tempo real.
-ms.openlocfilehash: 7b05ec1346df3bfa428c384a4236a8758e22da28
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: ccee7905068619d959e0939aca8b31856dd114a1
+ms.sourcegitcommit: c758a4290d205394225a0df2fd667cb565c79c8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955634"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43907244"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Modos de exibição no Gerenciador de ameaças e detecções em tempo real
 
@@ -30,7 +30,15 @@ O [Gerenciador de ameaças](threat-explorer.md) (e o relatório de detecções e
 - Se você tiver o [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) plano 2, você terá o Explorer.
 - Se você tiver o Office 365 ATP Plan 1, então você tem detecções em tempo real.
 
-Quando você abre o primeiro Explorer (ou o relatório de detecções em tempo real), o modo de exibição padrão mostra as detecções de malware de email dos últimos 7 dias. Este relatório também pode mostrar detecções de ATP, como URLs mal-intencionadas detectadas por [links seguros](atp-safe-links.md)e arquivos mal-intencionados detectados por [anexos seguros](atp-safe-attachments.md). Esse relatório pode ser modificado para mostrar dados nos últimos 30 dias (a menos que você esteja usando uma assinatura de avaliação). As assinaturas de avaliação incluirão dados apenas nos últimos sete dias.
+Quando você abre o primeiro Explorer (ou o relatório de detecções em tempo real), o modo de exibição padrão mostra as detecções de malware de email dos últimos 7 dias. Este relatório também pode mostrar detecções de ATP, como URLs mal-intencionadas detectadas por [links seguros](atp-safe-links.md)e arquivos mal-intencionados detectados por [anexos seguros](atp-safe-attachments.md). Esse relatório pode ser modificado para mostrar dados nos últimos 30 dias (com uma assinatura paga do ATP P2). As assinaturas de avaliação incluirão dados apenas nos últimos sete dias.
+
+|Assinatura  |Utilitário  |Dias de dados  |
+|---------|---------|---------|
+|Avaliação da ATP P1     | Detecção em tempo real        |   7       |
+|ATP P1 pago     |   Detecção em tempo real      |    até     |
+|ATP P1 pago teste avaliação ATP P2     | Explorador de Ameaças   |   7    |
+|Trilha P2 ATP     |  Explorador de Ameaças       |     7     |
+|ATP P2 pago     |     Explorador de Ameaças    |  até       |
 
 Use o menu **Exibir** para alterar as informações que são exibidas. As dicas de ferramentas ajudam a determinar o modo de exibição a ser usado.
   
@@ -99,7 +107,7 @@ Para exibir esse relatório, no Explorer, escolha **Exibir** > **email** > **tod
 > [!NOTE]
 > Se você receber um erro que leia **muitos dados a serem exibidos**, adicione um filtro e, se necessário, restrinja o intervalo de datas que você está exibindo. 
 
-Para aplicar um filtro, escolha **remetente**, selecione um item na lista e clique no botão atualizar. No nosso exemplo, usamos a **tecnologia de detecção** como um filtro (há várias opções disponíveis). Exibir informações por remetente, domínio do remetente, destinatários, assunto, nome do arquivo de anexo, família de malware, status de proteção (ações executadas por seus recursos e políticas de proteção contra ameaças no Office 365), tecnologia de detecção (como o malware foi detectado) e adicionais. 
+Para aplicar um filtro, escolha **remetente**, selecione um item na lista e clique no botão atualizar. No nosso exemplo, usamos a **tecnologia de detecção** como um filtro (há várias opções disponíveis). Exibir informações por remetente, domínio do remetente, destinatários, assunto, nome do arquivo de anexo, família de malware, status de proteção (ações executadas por seus recursos e políticas de proteção contra ameaças no Office 365), tecnologia de detecção (como o malware foi detectado) e muito mais. 
 
 ![Exibir dados sobre o email detectado por tecnologia de detecção](../../media/0c032eb3-6021-4174-9f06-ff8f30c245ca.png) 
 

@@ -21,14 +21,21 @@ ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: O centro de administração do Microsoft 365-Aprenda sobre os recursos que foram adicionados este mês.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: a3c042413525ec591f74cd63685490f7de93775a
-ms.sourcegitcommit: 4f2129b161eed3f9ddec47494fa19a2a7a553e4f
+ms.openlocfilehash: 0b6d0741b5c59b1d720ca1ef73c0d45a674569b1
+ms.sourcegitcommit: c758a4290d205394225a0df2fd667cb565c79c8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43805180"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43907232"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>O que há de novo no centro de administração do Microsoft 365
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Algumas das informações deste artigo podem não se aplicar ao Office 365 operado pela 21Vianet.
+
+::: moniker-end
 
 Estamos adicionando continuamente novos recursos ao [centro de administração do Microsoft 365](microsoft-365-admin-center-preview.md), corrigindo os problemas que aprendemos e fazendo alterações com base em seus comentários. Veja o que está disponível para você hoje. Alguns recursos são implementados em diferentes velocidades para nossos clientes. Se ainda não estiver vendo um recurso, [tente adicioná-lo ao lançamento direcionado](manage/release-options-in-office-365.md).
 
