@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Use a ferramenta Pesquisa de Conteúdo, no centro de conformidade do Office 365 ou do Microsoft 365, para pesquisar conteúdo em caixas de correio, sites do SharePoint Online, contas do OneDrive, Microsoft Teams, grupos do Office 365, grupos do Yammer e conversas do Skype for Business. Você pode usar consultas de pesquisa de palavras-chave e condições de pesquisa para restringir os resultados da pesquisa. Em seguida, você poderá visualizar e exportar os resultados da pesquisa. A Pesquisa de Conteúdo também é uma ferramenta efetiva para pesquisar conteúdo relacionado a uma solicitação do titular dos dados do RGPD.
-ms.openlocfilehash: 74fb84a46b4dd283eef90f2181a0d084a7a361e8
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d601db20cbfc8c5ea5a4fcc64d181a99a7f8f940
+ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632356"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43900735"
 ---
 # <a name="content-search"></a>Pesquisa de Conteúdo
 
@@ -138,13 +138,13 @@ Para visualizar as estatísticas de pesquisa:
     
 3. Na lista suspensa **Resultados individuais**, clique em **Estatísticas de pesquisa**.
     
-4. Na lista suspensa **Tipo**, clique em uma das seguintes opções, dependendo das estatísticas de pesquisa que você deseja visualizar. 
+4. Na lista suspensa **Tipo**, clique em uma das seguintes opções, dependendo das estatísticas de pesquisa que você deseja visualizar:
     
-  - **Resumo**: Exibe as estatísticas de cada tipo de locais de conteúdo pesquisado. Tal resumo contém o número de locais de conteúdo com os itens correspondentes à consulta de pesquisa, o número total e o tamanho dos itens de resultado da pesquisa. Esta é a configuração padrão.
-    
-  - **Consultas:** Exibe estatísticas sobre a consulta de pesquisa. Já esse inclui o tipo de local de conteúdo ao qual as estatísticas de consulta são aplicáveis, parte da consulta de pesquisa à qual as estatísticas são aplicáveis (observe que **Primário** indica toda a consulta de pesquisa), o número de locais de conteúdo que contêm itens correspondentes à consulta de pesquisa, o número total, tamanho e os itens que foram encontrados (no local de conteúdo especificado) correspondentes à consulta de pesquisa. As estatísticas para itens não indexados (também chamados de *itens parcialmente indexados*) também são exibidas. No entanto, apenas itens parcialmente indexados de caixas de correio estão inclusos nas estatísticas. Itens parcialmente indexados do SharePoint e do OneDrive não são incluídos nas estatísticas.
-    
-  - **Principais locais:** Exibe estatísticas sobre o número de itens que correspondem à consulta de pesquisa em cada local de conteúdo. Os primeiros 1.000 locais são exibidos.
+    - **Resumo**: Exibe as estatísticas de cada tipo de locais de conteúdo pesquisado. Tal resumo contém o número de locais de conteúdo com os itens correspondentes à consulta de pesquisa, o número total e o tamanho dos itens de resultado da pesquisa. Esta é a configuração padrão.
+
+    - **Consultas:** Exibe estatísticas sobre a consulta de pesquisa. Já esse inclui o tipo de local de conteúdo ao qual as estatísticas de consulta são aplicáveis, parte da consulta de pesquisa à qual as estatísticas são aplicáveis (observe que **Primário** indica toda a consulta de pesquisa), o número de locais de conteúdo que contêm itens correspondentes à consulta de pesquisa, o número total, tamanho e os itens que foram encontrados (no local de conteúdo especificado) correspondentes à consulta de pesquisa. As estatísticas para itens não indexados (também chamados de *itens parcialmente indexados*) também são exibidas. No entanto, apenas itens parcialmente indexados de caixas de correio estão inclusos nas estatísticas. Itens parcialmente indexados do SharePoint e do OneDrive não são incluídos nas estatísticas.
+
+    - **Principais locais:** Exibe estatísticas sobre o número de itens que correspondem à consulta de pesquisa em cada local de conteúdo. Os primeiros 1.000 locais são exibidos.
     
 Para obter mais informações sobre as estatísticas de pesquisa, confira [Exibir estatísticas da palavra-chave para resultados de Pesquisa de Conteúdo](view-keyword-statistics-for-content-search.md).
   
@@ -246,6 +246,8 @@ Você pode pesquisar na caixa de correio associada a um Grupo do Microsoft 365 o
 Lembre-se do seguinte ao pesquisar o conteúdo do Microsoft Teams e dos grupos do Microsoft 365.
   
 - Para pesquisar conteúdo localizado no Teams e em Grupos do Microsoft 365, é necessário especificar a caixa de correio e o site do SharePoint associados a uma equipe ou grupo.
+
+- O conteúdo dos canais privados é armazenado na caixa de correio de cada usuário, não na caixa de correio da equipe. Para pesquisar conteúdo em canais privados, confira [Descoberta eletrônica de canais privados](https://docs.microsoft.com/microsoftteams/ediscovery-investigation#ediscovery-of-private-channels).
     
 - Execute o cmdlet **Get-UnifiedGroup** no Exchange Online para exibir as propriedades de uma equipe ou de um Grupo do Microsoft 365. Esta é uma boa maneira de obter a URL do site associado a uma equipe ou a um grupo. Por exemplo, o comando abaixo exibe as propriedades selecionadas para um grupo do Microsoft 365 chamado de Equipe de Liderança Sênior: 
     
