@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Saiba como habilitar o suplemento de mensagem de relatório para o Outlook e o Outlook na Web, para usuários individuais ou para toda a organização.
-ms.openlocfilehash: 101a37f48e31f762171b2269055d0e69c889d0dc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0024e8c87ef6326c1df4547349631c4f1fd4cab8
+ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633294"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43921571"
 ---
 # <a name="enable-the-report-message-add-in"></a>Habilitar o suplemento de Mensagem de Relatório
 
@@ -53,6 +53,8 @@ Se você for um administrador global ou um administrador do Exchange Online e o 
 
   - Caixas de correio em organizações do Exchange local
   - Assinaturas GCC, GCC alta ou DoD
+
+- Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [especificar uma caixa de correio para envios de emails de spam e mensagens de phishing no Office 365](user-submission.md).
 
 - O navegador da Web existente deverá funcionar com o suplemento de mensagem de relatório. Mas, se você notar que o suplemento não está disponível ou não está funcionando conforme o esperado, tente um navegador diferente.
 

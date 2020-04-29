@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7a2efd75-0771-4897-ba7b-082fe5bfa9da
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no Amazon Web Services (AWS) para Microsoft.
-ms.openlocfilehash: 086a5d7210d2c722aeda701dc62a699ca0eaec87
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1ce4d47dce2fce177efafade49b78ea706cf14e2
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629726"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919534"
 ---
 # <a name="create-dns-records-at-amazon-web-services-aws-for-microsoft"></a>Criar registros DNS no Amazon Web Services (AWS) para o Microsoft
 
@@ -38,12 +38,12 @@ Depois que você adicionar esses registros no AWS, o domínio será configurado 
 Para saber mais sobre o webhosting e o DNS para sites com o Microsfot, confira [usar um site público com a Microsoft](https://support.office.com/article/choose-a-public-website-3325d50e-d131-403c-a278-7f3296fe33a9).
   
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você estiver tendo problemas com o fluxo de emails ou com outros problemas após adicionar registros DNS, consulte [Localizar e corrigir problemas após adicionar seu domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
+> Typically it takes about 15 minutes for DNS changes to take effect. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de e-mails ou de outro tipo após adicionar os registros DNS, consulte [Localizar e corrigir problemas ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="add-a-txt-record-for-verification"></a>Adicionar um registro TXT para verificação
 <a name="BKMK_verify"> </a>
 
-Antes de usar seu domínio com a Microsoft, precisamos garantir que você o tenha. Sua capacidade de fazer logon em sua conta no registrador de domínios e criar o registro DNS comprova para a Microsoft que você é o proprietário do domínio.
+Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o proprietário dele. A capacidade de entrar na conta do seu registrador de domínios e criar o registro de DNS prova à Microsoft que você é o proprietário do domínio.
   
 > [!NOTE]
 > Esse registro é usado exclusivamente para confirmar se você é o proprietário do domínio; ele não afeta mais nada. É possível excluí-lo mais tarde, se desejar. 
@@ -52,7 +52,7 @@ Antes de usar seu domínio com a Microsoft, precisamos garantir que você o tenh
     
 2. Na página **recursos** , selecione **zonas hospedadas**.
     
-3. Na página * * zonas hospedadas * *, na coluna **nome do domínio** , selecione o nome do domínio que você deseja editar. 
+3. Na página **zonas hospedadas** , na coluna **nome do domínio** , selecione o nome do domínio que você deseja editar. 
     
 4. Selecione **criar conjunto de registros**.
     
@@ -66,7 +66,7 @@ Antes de usar seu domínio com a Microsoft, precisamos garantir que você o tenh
     |||||||
     |:-----|:-----|:-----|:-----|:-----|:-----|
     |**Nome** <br/> |**Tipo** <br/> |**Alias** <br/> |**TTL (Segundos)** <br/> |**Valor** <br/> |**Política de Roteamento** <br/> |
-    |(Leave this field empty.)  <br/> |TXT - Text  <br/> |Não  <br/> |300  <br/> |MS = ms *XXXXXXXX*  <br/>**Observação**: esse é um exemplo. Use o seu **destino específico ou aponte para** o valor de endereço aqui, na tabela no Microsoft 365. [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Simples  <br/> |
+    |(Leave this field empty.)  <br/> |TXT - Text  <br/> |Não  <br/> |300  <br/> |MS = ms *XXXXXXXX*  <br/>**Observação**: esse é um exemplo. Use seu valor específico de **Destino ou Pontos de Endereçamento** aqui, retirado da tabela no Microsoft 365. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |Simples  <br/> |
    
 6. Selecione **Criar**.
     
@@ -74,9 +74,9 @@ Antes de usar seu domínio com a Microsoft, precisamos garantir que você o tenh
     
 Agora que você adicionou o registro no site do seu registrador de domínio, você voltará para a Microsoft e solicitará uma pesquisa para o registro.
   
-Quando a Microsoft encontrar o registro TXT correto, seu domínio será verificado.
+Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verificado.
   
-1. No centro de administração da Microsoft, vá para a página de <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a> de **configurações** \> .
+1. No centro do administrador da Microsoft, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
 
     
 2. Na página **Domínios**, clique no domínio que você está verificando. 
@@ -86,7 +86,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio será verifica
 4. Na página **Verificar domínio**, clique em **Verificar**.
     
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você estiver tendo problemas com o fluxo de emails ou com outros problemas após adicionar registros DNS, consulte [Localizar e corrigir problemas após adicionar seu domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
+> Typically it takes about 15 minutes for DNS changes to take effect. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de e-mails ou de outro tipo após adicionar os registros DNS, consulte [Localizar e corrigir problemas ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft-365"></a>Adicionar um registro MX para que o email do seu domínio seja fornecido com o Microsoft 365
 <a name="BKMK_add_MX"> </a>
@@ -171,7 +171,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio será verifica
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já tiver um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. Precisa de exemplos? Confira estes [registros de sistema de nomes de domínio externo para a Microsoft](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0). Para validar o registro SPF, você pode usar uma destas[ferramentas de validação de SPF](../setup/domains-faq.md). 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0). Para validar o registro SPF, você pode usar uma destas[ferramentas de validação de SPF](../setup/domains-faq.md). 
   
 1. Para começar, vá para sua página de domínios no AWS usando [este link](https://console.aws.amazon.com/route53/home). Você será solicitado a fazer logon primeiro.
     
@@ -228,5 +228,5 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio será verifica
     Na página **zonas hospedadas** , selecione **criar conjunto de registros**, crie um registro usando os valores da próxima linha na tabela e, em seguida, selecione **criar** para concluir esse registro. 
     
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você estiver tendo problemas com o fluxo de emails ou com outros problemas após adicionar registros DNS, consulte [Localizar e corrigir problemas após adicionar seu domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
+> Typically it takes about 15 minutes for DNS changes to take effect. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de e-mails ou de outro tipo após adicionar os registros DNS, consulte [Localizar e corrigir problemas ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
   

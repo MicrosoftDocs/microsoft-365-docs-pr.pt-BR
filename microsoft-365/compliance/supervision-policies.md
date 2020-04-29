@@ -19,14 +19,25 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft 365 Compliance
-ms.openlocfilehash: efdb1c7879f00c48e8588b5b9312dad106dc8992
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: df24ee91482785c725acd5b531c6b138e5e165a7
+ms.sourcegitcommit: 90f7bbba5fc23f10b59c75b2b65d6c0903ce66dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626965"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43930168"
 ---
 # <a name="supervision-policies"></a>Políticas de supervisão
+
+>[!IMPORTANT]
+>Seguindo o lançamento da conformidade de comunicação no Microsoft 365 Compliance em fevereiro de 2020, a supervisão no Office 365 está sendo desativada. As políticas de supervisão não estarão mais disponíveis para a criação e as políticas eventualmente serão removidas, após um período estendido de acesso somente leitura.
+>
+>Se você usar a supervisão, lembre-se de que:
+>
+>- A partir de 15 de junho de 2020, os locatários não terão a capacidade de criar novas políticas de supervisão.
+>- A partir de 31 de agosto de 2020, as políticas existentes deixarão de capturar novas mensagens.
+>- A partir de outubro de 26th, 2020, as políticas existentes serão excluídas.
+>
+>Incentivamos ativamente os clientes que estão explorando ou usando a supervisão no Office 365 para usar a nova solução de [conformidade de comunicação](communication-compliance.md) para atender às suas necessidades de monitoramento de comunicações ou regulamentações com um conjunto muito mais avançado de recursos inteligentes.
 
 As políticas de supervisão no Microsoft 365 permitem que você capture comunicações de funcionários para verificação por revisores designados. Você pode definir políticas específicas que capturam emails internos e externos, Microsoft Teams ou comunicações de terceiros em sua organização. Os revisores podem, então, examinar as mensagens para garantir que estejam em conformidade com os padrões de mensagem da sua organização e as resolvem com o tipo de classificação.
 
@@ -40,16 +51,12 @@ Em algumas organizações, pode haver uma separação de tarefas entre o suporte
 
 Para obter uma visão geral rápida das políticas de supervisão, consulte o [vídeo da política de supervisão](https://youtu.be/C3Y8WZ7o_dI) no canal do [Microsoft mecânica](https://www.youtube.com/user/OfficeGarageSeries).
 
-Para saber mais sobre aprimoramentos e disponibilidade de recursos de supervisão, confira o [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
-
-Deseja experimentar a nova experiência de conformidade de comunicação no Microsoft 365? Confira os novos e aprimorados recursos disponíveis em [conformidade de comunicação no Microsoft 365](communication-compliance.md).
-
 ## <a name="transitioning-from-supervision"></a>Transição de supervisão
 
 As organizações que usam políticas de supervisão e planejam fazer a transição para [políticas de conformidade de comunicação no Microsoft 365](communication-compliance.md) precisam entender estes pontos importantes:
 
 - A solução de supervisão no Microsoft 365 será totalmente substituída pela solução de conformidade de comunicação no Microsoft 365. Para as organizações que estão migrando para a conformidade de comunicação de políticas de supervisão, recomendamos criar novas políticas de conformidade de comunicação com as mesmas *condições* que as políticas de supervisão existentes para habilitar novos aprimoramentos de investigação e correção. Ao fazer a transição para conformidade de comunicação no Microsoft 365, você deve planejar a exportação de dados de relatórios da supervisão, caso tenha requisitos de política de retenção de conformidade interna.
-- No ínterim, as organizações podem usar ambas as soluções lado a lado até que sejam migradas completamente, mas as políticas usadas em cada solução devem ter *nomes de política exclusivos*. Grupos e dicionários de palavras-chave personalizados podem ser compartilhados entre soluções durante o período de transição.
+- No ínterim, as organizações podem usar ambas as soluções lado a lado até que sejam totalmente migradas, mas as políticas usadas em cada solução devem ter *nomes de política exclusivos*. Grupos e dicionários de palavras-chave personalizados podem ser compartilhados entre soluções durante o período de transição.
 - As mensagens salvas em supervisão no Microsoft 365 as correspondências de política não podem ser movidas ou compartilhadas na conformidade de comunicação no Microsoft 365.
 
 Para obter informações de aposentadoria para supervisão no Office 365, consulte o [mapa de 365 da Microsoft](https://www.microsoft.com/microsoft-365/roadmap) para obter detalhes.
@@ -60,7 +67,7 @@ As políticas de supervisão podem ajudar a monitorar as comunicações em sua o
 
 - **Políticas corporativas**
 
-    Os funcionários devem estar em conformidade com o uso aceitável, padrões éticos e outras políticas corporativas em todas as comunicações relacionadas aos negócios. As políticas de supervisão podem detectar violações de política e ajudá-lo a realizar ações corretivas para ajudar a reduzir esses tipos de incidentes. Por exemplo, você pode monitorar sua organização em busca de possíveis violações de recursos humanos, como assédio ou uso de linguagem inadequada ou ofensiva em comunicações de funcionários.
+    Os funcionários devem estar em conformidade com o uso aceitável, padrões éticos e outras políticas corporativas em todas as comunicações relacionadas aos negócios. As políticas de supervisão podem detectar violações de política e ajudá-lo a realizar ações corretivas para ajudar a reduzir esses tipos de incidentes. Por exemplo, você pode monitorar possíveis violações de recursos humanos, como assédio ou uso de linguagem inadequada ou ofensiva em comunicações de funcionários.
 
 - **Gerenciamento de risco**
 
@@ -101,12 +108,12 @@ Com políticas de supervisão, você pode optar por monitorar mensagens em uma o
 
 - **Microsoft Teams:** Comunicações de chat e anexos associados nos canais do Microsoft Teams públicos e privados e chats individuais podem ser supervisionados. O Team chats que correspondem às condições de política de supervisão são processados uma vez a cada 24 horas e, em seguida, estão disponíveis para monitoramento e relatórios de supervisão. Use as configurações de gerenciamento de grupo a seguir para supervisionar chats de usuários individuais e comunicações de canal no Teams:
 
-    - **Para supervisão de chat do teams:** Atribuir usuários individuais ou atribuir um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de supervisão. Isso é para relações de usuário/chat de 1 para 1 ou de um para muitos.
+    - **Para supervisão de chat do teams:** Atribuir usuários individuais ou atribuir um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de supervisão. Essa configuração é para relações de usuário/chat de 1 para 1 ou de um para muitos.
     - **Para comunicações de canal do teams:** Atribua todos os Microsoft Teams Channel ou Microsoft 365 Group que você deseja monitorar que contenham um usuário específico à política de supervisão. Se você adicionar o mesmo usuário a outros canais do Microsoft Teams ou a grupos do Microsoft 365, certifique-se de adicionar esses novos canais e grupos à política de supervisão.
 
 - **Skype for Business Online:** Comunicações de chat e anexos associados no Skype for Business Online podem ser supervisionados. As condições de política de supervisão de correspondência do Skype for Business online são processadas uma vez a cada 24 horas e, em seguida, estão disponíveis para monitoramento e relatórios de supervisão. Conversas de chat supervisionadas são originadas de [conversas anteriores salvas no Skype for Business online](https://support.office.com/article/Find-a-previous-Skype-for-Business-conversation-18892eba-5f18-4281-8c87-fd48bd72e6a2).  Use a seguinte configuração de gerenciamento de grupos para supervisionar as comunicações de chat do usuário no Skype for Business Online:
 
-    - **Para supervisão de chat do Skype for Business Online:** Atribuir usuários individuais ou atribuir um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de supervisão. Isso é para relações de usuário/chat de 1 para 1 ou de um para muitos.
+    - **Para supervisão de chat do Skype for Business Online:** Atribuir usuários individuais ou atribuir um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de supervisão. Essa configuração é para relações de usuário/chat de 1 para 1 ou de um para muitos.
 
 - **Fontes de terceiros:** Você pode supervisionar as comunicações de fontes de terceiros (como do Facebook ou do DropBox) para dados importados em caixas de correio em sua organização. [Saiba como importar dados de terceiros](archiving-third-party-data.md).
 
@@ -147,7 +154,7 @@ Monitorar mensagens de email enviadas ou recebidas em sua organização para uma
 >- monitorar as comunicações do Microsoft Teams em sua organização para uma linguagem ofensiva
 >- impedir ou bloquear linguagem ofensiva em comunicações em sua organização
 
-Observe que o modelo não fornece uma lista exaustiva de idiomas ofensivos. Além disso, os padrões culturais e de idioma mudam continuamente e, em claro, a Microsoft reserva-se o direito de atualizar o modelo de acordo com sua vontade. Embora o modelo possa ajudar sua organização a monitorar a linguagem ofensiva, o modelo não se destina a fornecer o único meio de monitoramento ou a solução de tal idioma da sua organização. Sua organização, não a Microsoft, permanece responsável por todas as decisões relacionadas ao monitoramento e bloqueio da linguagem ofensiva.
+O modelo não fornece uma lista exaustiva de idiomas ofensivos. Além disso, os padrões culturais e de idioma mudam continuamente e, em claro, a Microsoft reserva-se o direito de atualizar o modelo de acordo com sua vontade. Embora o modelo possa ajudar sua organização a monitorar a linguagem ofensiva, o modelo não se destina a fornecer o único meio de monitoramento ou a solução de tal idioma da sua organização. Sua organização, não a Microsoft, permanece responsável por todas as decisões relacionadas ao monitoramento e bloqueio da linguagem ofensiva.
 
 O modelo de linguagem ofensiva monitora o email em busca de uma mensagem de erro associada aos seguintes tipos de idioma:
 
@@ -277,7 +284,7 @@ Aqui está uma divisão dos valores exibidos na coluna **tipo de marca** .
 
 ## <a name="audit"></a>Faça
 
-Em alguns casos, você deve fornecer informações para auditores regulamentares ou de conformidade para provar a supervisão de atividades e comunicações de funcionários. Isso pode ser um resumo de todas as atividades de supervisão associadas a uma política definida ou sempre que uma política de supervisão é alterada. As políticas de supervisão têm trilhas de auditoria internas para uma preparação completa para auditorias internas ou externas. Os históricos de auditoria detalhados de todas as ações monitoradas por suas políticas de supervisão oferecem prova de procedimentos de supervisão.
+Em alguns casos, você deve fornecer informações para auditores regulamentares ou de conformidade para provar a supervisão de atividades e comunicações de funcionários. Essas informações podem ser um resumo de todas as atividades de supervisão associadas a uma política definida ou a qualquer momento em que uma política de supervisão é alterada. As políticas de supervisão têm trilhas de auditoria internas para uma preparação completa para auditorias internas ou externas. Os históricos de auditoria detalhados de todas as ações monitoradas por suas políticas de supervisão oferecem prova de procedimentos de supervisão.
 
 As seguintes atividades de política de supervisão são auditadas e estão disponíveis nos logs de auditoria unificada:
 

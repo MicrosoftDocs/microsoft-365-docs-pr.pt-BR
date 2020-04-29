@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Os usuários do Microsoft 365 com caixas de correio do Exchange Online podem usar o Outlook na Web (Outlook Web App) para enviar mensagens de spam, não spam e phishing para a Microsoft para análise.
-ms.openlocfilehash: 858224074ef7258d59318eef0c685a4ea4f9130f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9fc17abafe219a450e0fb6e45438211ea03fb337
+ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632614"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43921475"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-office-365"></a>Relatar emails de lixo eletrônico e phishing no Outlook na Web no Office 365
 
@@ -32,6 +32,8 @@ Se você for um cliente do Microsoft 365 com caixas de correio do Exchange Onlin
 - Se você for um administrador em uma organização com caixas de correio do Exchange Online, recomendamos que você use o portal de envios no centro de conformidade do & de segurança. Para obter mais informações, consulte [usar o envio do administrador para enviar spam, phishing, URLs e arquivos suspeitos à Microsoft](admin-submission.md).
 
 - Os administradores podem desabilitar ou habilitar a capacidade de os usuários reportarem mensagens para a Microsoft no Outlook na Web. Para obter detalhes, consulte a seção [desabilitar ou habilitar relatórios de lixo eletrônico no Outlook na Web](#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) mais adiante neste tópico.
+
+- Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [especificar uma caixa de correio para envios de emails de spam e mensagens de phishing no Office 365](user-submission.md).
 
 - Para obter mais informações sobre como relatar mensagens à Microsoft, consulte [relatar mensagens e arquivos para a Microsoft no Office 365](report-junk-email-messages-to-microsoft.md).
 

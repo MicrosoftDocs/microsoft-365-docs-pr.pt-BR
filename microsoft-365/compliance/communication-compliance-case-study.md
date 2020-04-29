@@ -1,6 +1,6 @@
 ---
-title: Estudo de caso-Contoso configura rapidamente uma política de idioma ofensiva para o Microsoft Teams e comunicações do Exchange
-description: Um estudo de caso para contoso e como eles configuram rapidamente uma política de conformidade de comunicação para monitorar a linguagem ofensiva no Microsoft Teams e nas comunicações do Exchange Online
+title: Estudo de caso-Contoso configura rapidamente uma política de linguagem ofensiva para comunicações do Microsoft Teams, Exchange e Yammer
+description: Um estudo de caso para contoso e como eles configuram rapidamente uma política de conformidade de comunicação para monitorar a linguagem ofensiva no Microsoft Teams, no Exchange Online e nas comunicações do Yammer.
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -19,18 +19,18 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: e4cab1d34d17b5ecbe23aaba53698f61473bc6a8
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 39815140d223d95275e03b0e85b931699bd69f7e
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637173"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919708"
 ---
-# <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-and-exchange-communications"></a>Estudo de caso-Contoso configura rapidamente uma política de idioma ofensiva para o Microsoft Teams e comunicações do Exchange
+# <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-exchange-and-yammer-communications"></a>Estudo de caso-Contoso configura rapidamente uma política de linguagem ofensiva para comunicações do Microsoft Teams, Exchange e Yammer
 
-A conformidade de comunicação no Microsoft 365 ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e realizar ações de correção para mensagens inadequadas em sua organização. As políticas predefinidas e personalizadas permitem que você examine as comunicações internas e externas para correspondências de política, de modo que eles possam ser examinados por revisores designados. Os revisores podem investigar emails varridos, Microsoft Teams ou comunicações de terceiros em sua organização e tomar ações de correção apropriadas para garantir que eles estejam em conformidade com os padrões de mensagem da sua organização.
+A conformidade de comunicação no Microsoft 365 ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e realizar ações de correção para mensagens inadequadas em sua organização. As políticas predefinidas e personalizadas permitem que você examine as comunicações internas e externas para correspondências de política, de modo que eles possam ser examinados por revisores designados. Os revisores podem investigar emails varridos, Microsoft Teams, Yammer ou comunicações de terceiros em sua organização e tomar as ações de correção apropriadas para garantir que eles estejam em conformidade com os padrões de mensagem da sua organização.
 
-A Contoso Corporation é uma organização fictícia que precisa configurar rapidamente uma política para monitorar a linguagem ofensiva. Eles usaram o Microsoft 365 primariamente para o suporte a emails e Microsoft Teams para seus funcionários, mas têm novos requisitos para impor a política da empresa contra assédio no local de trabalho. Os administradores de ti e especialistas de ti da Contoso têm uma compreensão básica dos conceitos básicos do trabalho com a Microsoft 365 e procuram orientações de ponta a ponta sobre como começar rapidamente a conformidade de comunicação.
+A Contoso Corporation é uma organização fictícia que precisa configurar rapidamente uma política para monitorar a linguagem ofensiva. Eles usaram o Microsoft 365 primariamente para email, Microsoft Teams e suporte do Yammer para seus funcionários, mas têm novos requisitos para impor a política da empresa contra assédio no local de trabalho. Os administradores de ti e especialistas de ti da Contoso têm uma compreensão básica dos conceitos básicos do trabalho com a Microsoft 365 e procuram orientações de ponta a ponta sobre como começar rapidamente a conformidade de comunicação.
 
 Este estudo de caso abordará as noções básicas para configurar rapidamente uma política de conformidade de comunicação para monitorar a comunicação de linguagens ofensivas. Este guia inclui:
 
@@ -41,7 +41,7 @@ Este estudo de caso abordará as noções básicas para configurar rapidamente u
 
 ## <a name="step-1---planning-for-communication-compliance"></a>Etapa 1-planejando a conformidade de comunicação
 
-Os administradores de ti e especialistas de ti da Contoso participaram online do webinars sobre soluções de conformidade no Microsoft 365 e decidiram que as políticas de conformidade de comunicação o ajudarão a atender aos requisitos de política corporativa atualizadas para reduzir o assédio do trabalho. Trabalhando juntos, eles desenvolveram um plano para criar e habilitar uma política de conformidade de comunicação que irá monitorar a linguagem ofensiva para chats enviados no Microsoft Teams em mensagens de email enviadas no Exchange Online. O plano inclui a identificação:
+Os administradores de ti e especialistas de ti da Contoso participaram online do webinars sobre soluções de conformidade no Microsoft 365 e decidiram que as políticas de conformidade de comunicação o ajudarão a atender aos requisitos de política corporativa atualizadas para reduzir o assédio do trabalho. Trabalhando juntos, desenvolveram um plano para criar e habilitar uma política de conformidade de comunicação que irá monitorar a linguagem ofensiva para chats enviados no Microsoft Teams, mensagens privadas e conversas da Comunidade no Yammer e em mensagens de email enviadas no Exchange Online. O plano inclui a identificação:
 
 - Os administradores de ti que precisam acessar os recursos de conformidade de comunicação.
 - Os especialistas de conformidade que precisam criar e gerenciar políticas de comunicação.
@@ -146,6 +146,12 @@ Para começar a usar uma política de conformidade de comunicação, há vários
 A conformidade com comunicações requer logs de auditoria para mostrar alertas e rastrear ações de correção realizadas por revisores. Os logs de auditoria são um resumo de todas as atividades associadas a uma política organizacional definida ou sempre que houver uma alteração em uma política de conformidade de comunicação.
 
 Os administradores de ti da Contoso analisam e concluem as [instruções passo a passo](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off) para ativar a auditoria. Depois de ativar a auditoria, uma mensagem é exibida dizendo que o log de auditoria está sendo preparado e que eles podem executar uma pesquisa em algumas horas após a conclusão da preparação. Os administradores de ti da Contoso têm que executar esta ação apenas uma vez.
+
+### <a name="configuring-yammer-tenant-for-native-mode"></a>Configurando o locatário do Yammer para o modo nativo
+
+A conformidade com comunicações exige que o locatário do Yammer de uma organização esteja no modo nativo para monitorar a linguagem ofensiva em mensagens privadas e conversas da Comunidade pública.
+
+Os administradores de ti da Contoso garantem a análise das informações no [tópico Visão geral do modo nativo do Yammer no Microsoft 365](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) e seguem as etapas para executar a ferramenta de migração no tópico [configurar sua rede do Yammer para o modo nativo para o Microsoft 365](https://docs.microsoft.com/yammer/configure-your-yammer-network/native-mode) .
 
 ### <a name="setting-up-a-group-for-in-scope-users"></a>Configurando um grupo para usuários dentro do escopo
 

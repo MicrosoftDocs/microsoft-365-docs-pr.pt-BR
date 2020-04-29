@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: 3127b4ac7b661cd5143052d298424e24d26071a5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 09b955a3cf5b987d2ca7dac37c4c604fb45a2e56
+ms.sourcegitcommit: 90f7bbba5fc23f10b59c75b2b65d6c0903ce66dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635779"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43930138"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)
 
@@ -104,7 +104,7 @@ Para esta visualização, use o aplicativo de sincronização do OneDrive versã
 
 ## <a name="prepare-the-sharepoint-online-management-shell-for-the-preview"></a>Preparar o Shell de gerenciamento do SharePoint Online para a visualização
 
-Antes de habilitar a visualização, verifique se você está executando o Shell de gerenciamento do SharePoint Online versão 16.0.19418.12000 ou superior. Se você já tiver a versão mais recente, poderá prosseguir e habilitar a visualização.
+Para habilitar a visualização usando o PowerShell, verifique se você está executando o Shell de gerenciamento do SharePoint Online versão 16.0.19418.12000 ou superior. Se você já tiver a versão mais recente, poderá prosseguir e habilitar a visualização.
 
 1. Se você tiver instalado uma versão anterior do Shell de Gerenciamento do SharePoint Online na galeria do PowerShell, poderá atualizar o módulo executando o cmdlet a seguir.
 
@@ -119,7 +119,6 @@ Antes de habilitar a visualização, verifique se você está executando o Shell
 4. Escolha o idioma e clique em **Salvar**.
 
 5. Escolha entre o arquivo .msi x64 e x86. Baixe o arquivo x64 se você executar a versão de 64 bits do Windows ou o arquivo x86, se você executar a versão de 32 bits. Se não souber, confira [qual versão do sistema operacional Windows estou executando?](https://support.microsoft.com/help/13443/windows-which-operating-system)
-
 
 6. Depois de baixar o arquivo, execute o arquivo e siga as etapas no assistente de instalação.
 
@@ -137,6 +136,25 @@ Para habilitar a visualização, use o cmdlet Set-SPOTenant:
     Set-SPOTenant -EnableAIPIntegration $true  
     ```
 3. Para o Office 365 multigeo: Repita as etapas 1 e 2 para cada um dos locais geográficos restantes.
+
+## <a name="use-the-compliance-center-to-enable-support-for-sensitivity-labels"></a>Usar o centro de conformidade para habilitar o suporte a rótulos de confidencialidade
+
+Essa opção está atualmente distribuindo-se aos locatários como um método alternativo para habilitar a visualização.
+
+O administrador global da sua organização tem permissões completas para criar e gerenciar todos os aspectos de rótulos de sensibilidade. Se você não estiver entrando como um administrador global do, confira [permissões necessárias para criar e gerenciar os rótulos de confidencialidade](get-started-with-sensitivity-labels.md#permissions-required-to-create-and-manage-sensitivity-labels).
+
+1. Entre no centro de [conformidade da Microsoft 365](https://compliance.microsoft.com/)e navegue até **soluções** > de**proteção de informações**
+    
+    Se você não vir essa opção imediatamente, selecione primeiro **Mostrar tudo**. 
+
+2. Na guia **Rótulos** , se você vir uma mensagem para ativar a capacidade de processar o conteúdo em arquivos do Office Online, selecione **Ativar agora**:
+    
+    ![Ativar o botão agora para habilitar os rótulos de confidencialidade do Office Online](../media/sensitivity-labels-turn-on-banner.png)
+    
+    O comando é executado imediatamente e quando a página é atualizada da próxima vez, não é mais possível ver a mensagem ou o botão. 
+
+> [!NOTE]
+> Se você tiver o Office 365 multigeográfico, deverá usar o PowerShell para habilitar esses recursos para todos os locais geográficos. Para obter instruções, consulte as seções anteriores.
 
 ## <a name="schedule-roll-out-after-you-create-or-change-a-sensitivity-label"></a>Agendar a distribuição após criar ou alterar um rótulo de confidencialidade
 

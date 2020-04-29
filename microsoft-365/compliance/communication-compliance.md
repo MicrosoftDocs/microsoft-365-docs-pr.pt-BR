@@ -18,16 +18,16 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 24d11f94d2b9139a6e54f29cff39f05076676f78
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b8e25b55ea20514e452b2c26ee0ad1569dbc3c85
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634173"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919688"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Conformidade com comunicações no Microsoft 365
 
-A conformidade com comunicações faz parte do novo conjunto de soluções de risco do insider no Microsoft 365 que ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e realizar ações de correção para mensagens inadequadas em sua organização. As políticas predefinidas e personalizadas permitem que você examine as comunicações internas e externas para correspondências de política, de modo que eles possam ser examinados por revisores designados. Os revisores podem investigar emails varridos, Microsoft Teams ou comunicações de terceiros em sua organização e tomar ações de correção apropriadas para garantir que eles estejam em conformidade com os padrões de mensagem da sua organização.
+A conformidade com comunicações faz parte do novo conjunto de soluções de risco do insider no Microsoft 365 que ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e realizar ações de correção para mensagens inadequadas em sua organização. As políticas predefinidas e personalizadas permitem que você examine as comunicações internas e externas para correspondências de política, de modo que eles possam ser examinados por revisores designados. Os revisores podem investigar emails varridos, Microsoft Teams, Yammer ou comunicações de terceiros em sua organização e tomar as ações de correção apropriadas para garantir que eles estejam em conformidade com os padrões de mensagem da sua organização.
 
 As políticas de conformidade de comunicação no Microsoft 365 ajudam a superar muitos desafios modernos associados à conformidade e às comunicações internas e externas, incluindo:
 
@@ -99,6 +99,7 @@ As políticas de conformidade de comunicação verificam e capturam mensagens em
 
 - **Microsoft Teams**: comunicações de chat para canais públicos e privados do [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview) e chats individuais têm suporte na conformidade de comunicação como uma fonte de canal autônomo ou com outros serviços do Microsoft 365. Agora, as políticas verificam automaticamente todos os canais e equipes do Microsoft Teams para usuários específicos definidos em uma política, eliminando a necessidade de manter uma lista de mapeamento separada para as atribuições do Microsoft Teams.
 - **Exchange Online**: todas as caixas de correio hospedadas no [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online) na sua organização do Microsoft 365 estão qualificadas para verificação. Os emails e anexos que correspondem às condições de política de conformidade de comunicação estão disponíveis instantaneamente para monitoramento e relatórios de supervisão. O Exchange Online agora é um canal de origem opcional e não é mais necessário em políticas de conformidade de comunicação.
+- **Yammer**: mensagens privadas e conversas públicas da Comunidade no [Yammer](https://docs.microsoft.com/yammer/yammer-landing-page) são suportadas em políticas de conformidade de comunicação. O Yammer é um canal opcional e deve estar no [modo nativo](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) para suportar a verificação de mensagens e anexos.
 - **Skype for Business online**: as políticas de conformidade de comunicação dão suporte à verificação de comunicações de chat e anexos associados no [Skype for Business online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online).
 - **Fontes de terceiros**: você pode examinar mensagens de [fontes de terceiros](archiving-third-party-data.md) para dados importados em caixas de correio em sua organização do Microsoft 365. A conformidade de comunicação oferece suporte a conexões com várias plataformas populares, incluindo Bloomberg imediato, Facebook, Twitter e outros.
 
@@ -155,4 +156,4 @@ Manter o controle e o gerenciamento de problemas de conformidade identificados p
 
 ## <a name="ready-to-get-started"></a>Pronto para começar?
 
-Para configurar a conformidade de comunicação para sua organização do Microsoft 365, consulte [Configurar a conformidade de comunicação para o microsoft 365](communication-compliance-configure.md) ou confira o [estudo de caso para contoso](communication-compliance-case-study.md) e como configurou rapidamente uma política de conformidade de comunicação para monitorar uma linguagem ofensiva no Microsoft Teams e no Exchange Online Communications.
+Para configurar a conformidade de comunicação para sua organização do Microsoft 365, consulte [Configurar a conformidade de comunicação para o microsoft 365](communication-compliance-configure.md) ou confira o [estudo de caso para contoso](communication-compliance-case-study.md) e como configurou rapidamente uma política de conformidade de comunicação para monitorar a linguagem ofensiva no Microsoft Teams, Exchange Online e comunicações do Yammer.

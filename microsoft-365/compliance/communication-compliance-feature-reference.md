@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 25f69491156d7862d9dc145123ec158a3ff40556
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1a63e71df0d9ac6d43fce31ad2e974b787697a9a
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634183"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919668"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -43,13 +43,13 @@ Os modelos de política são configurações de política predefinidas que você
 
 |**Área**|**Modelo de política**|**Detalhes**|
 |:-----|:-----|:-----|
-| **Linguagem ofensiva e antiassédio** | Monitorar comunicações para linguagem ofensiva | -Locais: Exchange, Teams, Skype for Business <br> -Direction: entrada, saída, interna <br> – Porcentagem de revisão: 100% <br> -Condições: classificador de idiomas ofensivo |
-| **Informação confidencial** | Monitorar as comunicações para informações confidenciais | -Locais: Exchange, Teams, Skype for Business <br> -Direction: entrada, saída, interna <br> – Porcentagem de revisão: 10% <br> – Condições: informações confidenciais, padrões e tipos de conteúdo prontos, opção de dicionário personalizado, anexos com mais de 1 MB |
-| **Conformidade normativa** | Monitorar as comunicações para informações relacionadas à conformidade normativa financeira | -Locais: Exchange, Teams, Skype for Business <br> -Direction: entrada, saída <br> – Porcentagem de revisão: 10% <br> -Condições: opção de dicionário personalizado, anexos com mais de 1 MB |
+| **Linguagem ofensiva e antiassédio** | Monitorar comunicações para linguagem ofensiva | -Locais: Exchange Online, Microsoft Teams, Yammer, Skype for Business <br> -Direction: entrada, saída, interna <br> – Porcentagem de revisão: 100% <br> -Condições: classificador de idiomas ofensivo |
+| **Informação confidencial** | Monitorar as comunicações para informações confidenciais | -Locais: Exchange Online, Microsoft Teams, Yammer, Skype for Business <br> -Direction: entrada, saída, interna <br> – Porcentagem de revisão: 10% <br> – Condições: informações confidenciais, padrões e tipos de conteúdo prontos, opção de dicionário personalizado, anexos com mais de 1 MB |
+| **Conformidade normativa** | Monitorar as comunicações para informações relacionadas à conformidade normativa financeira | -Locais: Exchange Online, Microsoft Teams, Yammer, Skype for Business <br> -Direction: entrada, saída <br> – Porcentagem de revisão: 10% <br> -Condições: opção de dicionário personalizado, anexos com mais de 1 MB |
 
 ## <a name="supervised-users"></a>Usuários supervisionados
 
-Antes de começar a usar a conformidade de comunicação, você deve determinar quem precisa de suas comunicações revisadas. Na política, os endereços de email do usuário identificam pessoas ou grupos de pessoas para supervisionar. Alguns exemplos desses grupos são grupos da Microsoft 365, listas de distribuição baseados no Exchange e canais do Microsoft Teams. Você também pode excluir usuários ou grupos específicos da verificação com um grupo de exclusão específico ou uma lista de grupos.
+Antes de começar a usar a conformidade de comunicação, você deve determinar quem precisa de suas comunicações revisadas. Na política, os endereços de email do usuário identificam pessoas ou grupos de pessoas para supervisionar. Alguns exemplos desses grupos são grupos da Microsoft 365, listas de distribuição baseadas no Exchange, comunidades do Yammer e canais do Microsoft Teams. Você também pode excluir usuários ou grupos específicos da verificação com um grupo de exclusão específico ou uma lista de grupos.
 
 >[!IMPORTANT]
 >Os usuários cobertos por políticas de conformidade de comunicação devem ter uma licença de conformidade do Microsoft 365 e5, uma licença do Office 365 Enterprise E3 com o complemento de conformidade avançada ou ser incluído em uma assinatura do Office 365 Enterprise e5. Se você não tem um plano Enterprise E5 existente e deseja tentar a conformidade de comunicação, pode [se inscrever para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
@@ -75,6 +75,8 @@ Com as políticas de conformidade de comunicação, você pode optar por examina
 
 - **Email do Exchange**: as caixas de correio hospedadas no Exchange Online como parte da sua assinatura do Microsoft 365 ou do Office 365 estão qualificadas para a verificação de mensagens. Mensagens de email e anexos do Exchange as condições de política de conformidade de comunicação podem levar até 24 horas para serem processadas. Os tipos de anexo com suporte para conformidade de comunicação são os mesmos que os [tipos de arquivo suportados para inspeções de conteúdo de regras de fluxo de email do Exchange](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection).
 
+- **Yammer**: mensagens privadas e conversas públicas e anexos associados podem ser verificados. Quando um usuário é adicionado à política de conformidade de comunicação que inclui o Yammer como um canal definido, as comunicações em todas as comunidades do Yammer das quais o usuário é membro estão incluídas no processo de verificação. Chat e anexos do Yammer as condições de política de conformidade de comunicação podem levar até 24 horas para serem processadas. O Yammer deve estar no [modo nativo](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) para políticas de conformidade de comunicação para monitorar comunicações e anexos do Yammer. No modo nativo, todos os usuários do Yammer estão no Azure Active Directory (AAD), todos os grupos são grupos do Office 365 e todos os arquivos são armazenados no SharePoint Online.
+
 - **Skype for Business online**: as comunicações de chat e anexos associados no Skype for Business Online podem ser supervisionados. Conversas do Skype for Business online as condições de política de conformidade de comunicação podem levar até 24 horas para serem processadas. Conversas de chat supervisionadas são originadas de [conversas anteriores salvas no Skype for Business online](https://support.office.com/article/Find-a-previous-Skype-for-Business-conversation-18892eba-5f18-4281-8c87-fd48bd72e6a2).  Use a seguinte configuração de gerenciamento de grupos para supervisionar as comunicações de chat do usuário no Skype for Business Online:
 
     - **Para comunicações de chat do Skype for Business online**: atribua usuários individuais ou atribua um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de conformidade de comunicação. Essa configuração é para relações de usuário/chat de um-para-um ou um-para-muitos.
@@ -84,7 +86,6 @@ Com as políticas de conformidade de comunicação, você pode optar por examina
     - [Bloomberg instantâneo](archive-instant-bloomberg-data.md)
     - [Facebook](archive-facebook-data-with-sample-connector.md)
     - [LinkedIn](archive-linkedin-data.md)
-    - SAP SuccessFactors
     - [Twitter](archive-twitter-data-with-sample-connector.md)
     - [Conector de dados personalizado](archiving-third-party-data.md)
 
@@ -233,7 +234,7 @@ Os filtros de conformidade de comunicação permitem que você filtre e classifi
 | **Tem anexo** | A presença de anexo na mensagem. |
 | **Classe de item** | A origem da mensagem com base no tipo de mensagem, email, Microsoft Team Chat, Bloonmberg, etc. |
 | **Domínios de destinatário** | O domínio para o qual a mensagem foi enviada. Esse domínio normalmente é seu domínio de assinatura do Microsoft 365 por padrão. |
-| **Recipient** | O usuário para o qual a mensagem foi enviada. |
+| **Recipiente** | O usuário para o qual a mensagem foi enviada. |
 | **Sender** | A pessoa que enviou a mensagem. |
 | **Domínio do remetente** | O domínio que enviou a mensagem. |
 | **Tamanho** | O tamanho da mensagem em KB. |

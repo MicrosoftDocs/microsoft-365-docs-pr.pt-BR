@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Saiba como você pode redefinir suas senhas usando a ferramenta de redefinição de senha autoatendimento.
-ms.openlocfilehash: beffbcac997806f0c13347dfba42a1ab0ec65c1d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9d9a1f97f9f6fc59b54f2f9bdce9c337c7d57b13
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617141"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919430"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Permitir que os usuários redefinam as próprias senhas
 
@@ -65,12 +65,12 @@ Estas etapas habilitam a redefinição de senhas de autoatendimento para todas a
 
 ::: moniker range="o365-21vianet"
 
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a página **configurações** \> de privacidade de **segurança &amp; ** .
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a página de **privacidade &amp; de segurança** **das configurações** \> de **configurações** \>.
 
 ::: moniker-end
 
    
-2. Em **permitir que as pessoas redefinam suas próprias senhas**, selecione o link para o **centro de administração do Azure ad**. Você receberá o Azure gratuitamente!
+2. Selecione **redefinição de senha de autoatendimento**, selecione o link para **acessar o portal do Azure para ativar a redefinição de senha de autoatendimento**. Você receberá o Azure gratuitamente!
   
 3. Selecione **usuários** na navegação à esquerda e, em seguida, selecione **Redefinir senha**.
   

@@ -21,12 +21,12 @@ ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: O centro de administração do Microsoft 365-Aprenda sobre os recursos que foram adicionados este mês.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 0b6d0741b5c59b1d720ca1ef73c0d45a674569b1
-ms.sourcegitcommit: c758a4290d205394225a0df2fd667cb565c79c8f
+ms.openlocfilehash: e0f7242ff144b5e4b42a6cb1713b2ad5df41f2f3
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43907232"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919755"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>O que há de novo no centro de administração do Microsoft 365
 
@@ -49,6 +49,7 @@ E se você estiver interessado no que há de novo em outros serviços de nuvem d
 - [O que há de novo no Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
 - [O que há de novo no centro de conformidade da Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
 - [O que há de novo no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
+- [O que há de novo no centro de administração do Exchange](https://docs.microsoft.com/Exchange/whats-new)
 - [Atualizações do Office](https://docs.microsoft.com/OfficeUpdates/)
 
 ## <a name="march-2020"></a>Março de 2020
@@ -96,6 +97,7 @@ Os novos nomes de produto entram em vigor em 21 de abril de 2020. Essa é uma al
 ### <a name="videos-training-and-docs"></a>Vídeos, treinamento e documentos
 
 [O que há de novo no microsoft 365 Web Series](https://go.microsoft.com/fwlink/p/?linkid=2118096): no episódio deste mês, destacamos o aniversário de três anos do Microsoft Teams e abordam novos recursos, incluindo qualidade de áudio aprimorada em reuniões online, comunicações direcionadas para gerentes de primeira função com o aplicativo turnos, o Teams e a interoperabilidade de consumidor do Skype e muito mais.
+
 
 ## <a name="february-2020"></a>Fevereiro de 2020
 
@@ -259,7 +261,7 @@ Tecnicamente, esta não é a novidade do centro de administração do Microsoft 
 > [!IMPORTANT]
 > Agora você pode acessar o seu centro de administração do SharePoint com uma URL regular:[https://admin.microsoft.com/SharePoint](https://admin.microsoft.com/SharePoint)
 
-Para obter mais informações, consulte [What ' s New in the SharePoint Admin Center](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
+Para obter mais informações, consulte [What ' s New in the SharePoint Admin Center](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center).
 
 ## <a name="september-2019"></a>Setembro de 2019
 

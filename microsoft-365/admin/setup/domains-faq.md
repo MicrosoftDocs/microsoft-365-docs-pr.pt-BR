@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: Saiba mais sobre domínios encontrando respostas para suas perguntas em perguntas frequentes.
 ms.custom: okr_smb
-ms.openlocfilehash: 4ece90306f37b6f07e34ce93423a76f084d50b6f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 81e67ee4b22ea0682d65ebc0e48a4b3564e79526
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627589"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919476"
 ---
 # <a name="domains-faq"></a>Perguntas frequentes sobre domínios
 
@@ -492,7 +492,7 @@ Você pode, mas há limitações:
         
     4. Teste o email para alguém que está no outro sistema de email. Por exemplo, envie um email para o usuário C. Este email deve ser entregue na caixa de correio do usuário C no seu servidor de email original.
         
-    5. A partir de uma conta externa ou da conta de email de um funcionário no outro sistema de email, verifique se o encaminhamento foi configurado corretamente no outro sistema de email. Por exemplo, da conta de servidor origninal do usuário C ou de uma conta do hotmail, envie um email para o usuário e verifique se ele chega à caixa de correio do Office 365 do usuário A.
+    5. A partir de uma conta externa ou da conta de email de um funcionário no outro sistema de email, verifique se o encaminhamento foi configurado corretamente no outro sistema de email. Por exemplo, da conta de servidor original do usuário C ou de uma conta do hotmail, envie um email para o usuário e verifique se ele chega à caixa de correio do Office 365 do usuário A.
         
 9. Mover conteúdo da caixa de correio
     

@@ -21,18 +21,18 @@ search.appverid:
 - GEA150
 ROBOTS: NOINDEX
 description: Saiba mais sobre as maneiras como você pode obter ajuda usando o centro de administração do Microsoft 365.
-ms.openlocfilehash: f9d42057e1ad16108237b9f53eedf60736cd6bd5
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 847281acc368f45ffaf466cc3877c042507a7f79
+ms.sourcegitcommit: 90f7bbba5fc23f10b59c75b2b65d6c0903ce66dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894740"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43930190"
 ---
 <!-- The following is just placeholder text from Madhura's mail. We need to add images/examples of each -->
 
 # <a name="how-to-get-help-in-the-microsoft-365-admin-center"></a>Como obter ajuda no centro de administração do Microsoft 365
 
-Se você é um administrador, o [admin.Microsoft.com](https://admin.microsoft.com) é o local para gerenciar e aproveitar ao máximo a sua assinatura do Microsoft 365. Às vezes, você pode não encontrar a tarefa certa, precisa de mais contexto antes de embarcar em um fluxo de tarefas ou simplesmente não ter certeza do escopo e do impacto de suas ações como administrador. Para cobrir essas situações, fornecemos ajuda moderna e assistência inteligente em todo o centro de administração do Microsoft 365 das seguintes maneiras:
+Se você é um administrador, o [admin.Microsoft.com](https://admin.microsoft.com) é o local para gerenciar e aproveitar ao máximo a sua assinatura do Microsoft 365. Às vezes, você pode não encontrar a tarefa certa, precisa de mais contexto antes de embarcar em um fluxo de tarefas ou simplesmente não ter certeza sobre o escopo e o impacto de suas ações como um administrador. Para cobrir essas situações, fornecemos ajuda moderna e assistência inteligente em todo o centro de administração do Microsoft 365 das seguintes maneiras:
 
 <ul class="panelContent cardsW">
     <li>
@@ -94,6 +94,7 @@ Se você é um administrador, o [admin.Microsoft.com](https://admin.microsoft.co
     </li>
 </ul>
  
+
 ## <a name="integrated-help"></a>Ajuda integrada
 
 A ajuda está integrada em todo o centro de administração e, portanto, está correta quando você precisa. Na parte superior de muitas páginas, você encontrará o texto de ajuda embutida que fornece uma visão geral informativa da tarefa em mãos, bem como links para artigos que permitem encontrar rapidamente a documentação oficial para um aprendizado mais aprofundado.
@@ -102,9 +103,9 @@ A ajuda está integrada em todo o centro de administração e, portanto, está c
 
 ## <a name="modern-self-help-powered-by-ai"></a>Auto-ajuda moderna alimentada pelo AI
 
-Selecionar o botão "precisa de ajuda" no centro de administração do Microsoft 365 abre nossa experiência de auto-ajuda moderna com inteligência artificial. Por exemplo, se você procurar *verificar meu domínio*, receberá as etapas mais alguns artigos que achamos ajudá-lo. Usamos o aprendizado da máquina para entonar a solução mais próxima que foi encontrada como ajuda para outros administradores que inseriram consultas semelhantes.
+Para abrir nossa experiência de auto-ajuda moderna, que é alimentada por inteligência artificial, selecione o botão de **ajuda necessário** no centro de administração do Microsoft 365. Por exemplo, se você procurar "verificar meu domínio", você receberá as etapas mais alguns artigos que achamos ajudá-lo. Usamos o aprendizado da máquina para trazer a solução mais próxima que ajudou outros administradores a inserir consultas semelhantes.
 
-Ou, para os horários em que você não sabe como fazer algo em sua situação específica, use o assistente de suporte. Atualmente, essa experiência só está disponível em inglês. Basta usar a opção de alternância na parte superior do painel "precisa de ajuda" para ativá-la. O assistente de suporte fornece uma interface de conversa para obter ajuda. Insira sua consulta, e o chatbot fará perguntas de esclarecimento para obter a resposta certa para a sua situação específica. Pense nisso como seu auxiliar virtual para descobrir soluções e concluir tarefas.
+Ou, para os horários em que você não sabe como fazer algo em sua situação específica, use o assistente de suporte. Atualmente, essa experiência está disponível somente em inglês. Para ativar o assistente de suporte, basta usar o botão de alternância na parte superior do painel de **ajuda necessário** . O assistente de suporte fornece uma interface de conversa para ajudá-lo. Depois de inserir sua consulta, o chatbot faz perguntas de esclarecimento para obter a resposta certa para a sua situação específica. Pense nisso como seu auxiliar virtual para descobrir soluções e concluir tarefas.
 
 ![Auto-ajuda moderna](../../media/help-options.png)
 

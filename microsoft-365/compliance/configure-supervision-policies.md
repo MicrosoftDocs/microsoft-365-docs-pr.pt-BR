@@ -19,17 +19,25 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: 2935f6d163a954cf17e4e4ce3c357028c9763b3b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c13e481cfc55e56d8cc1c0a772f2f661992f5353
+ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632366"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43921453"
 ---
 # <a name="configure-supervision-policies-in-office-365"></a>Configurar políticas de supervisão no Office 365
 
 >[!IMPORTANT]
->Este tópico se aplica à configuração de políticas de supervisão em uma assinatura do Microsoft 365. Se você quiser configurar a conformidade de comunicações para uma assinatura do Microsoft 365, consulte [Configure Communications Compliance in Microsoft 365](communication-compliance-configure.md).
+>Seguindo o lançamento da conformidade de comunicação no Microsoft 365 Compliance em fevereiro de 2020, a supervisão no Office 365 está sendo desativada. As políticas de supervisão não estarão mais disponíveis para a criação e as políticas eventualmente serão removidas, após um período estendido de acesso somente leitura.
+>
+>Se você usar a supervisão, lembre-se de que:
+>
+>- A partir de 15 de junho de 2020, os locatários não terão a capacidade de criar novas políticas de supervisão.
+>- A partir de 31 de agosto de 2020, as políticas existentes deixarão de capturar novas mensagens.
+>- A partir de outubro de 26th, 2020, as políticas existentes serão excluídas.
+>
+>Incentivamos ativamente os clientes que estão explorando ou usando a supervisão no Office 365 para usar a nova solução de [conformidade de comunicação](communication-compliance.md) para atender às suas necessidades de monitoramento de comunicações ou regulamentações com um conjunto muito mais avançado de recursos inteligentes.
 
 Use políticas de supervisão para capturar comunicações de funcionários para verificação por revisores internos ou externos. Para obter mais informações sobre como as políticas de supervisão podem ajudá-lo a monitorar as comunicações em sua organização, consulte [políticas de supervisão no Office 365](supervision-policies.md).
 
