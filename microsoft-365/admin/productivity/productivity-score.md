@@ -18,149 +18,122 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Visão geral da pontuação da produtividade da Microsoft.
-ms.openlocfilehash: 3e85ef40513593b7fcd66269671128c1233d10f9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ae2d6188af6a0964dc7670adf0777c0bb3d77a77
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627747"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942226"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Pontuação de produtividade da Microsoft (versão prévia)
 
-A Microsoft 365 oferece soluções de produtividade que permitem que sua organização atenda às suas metas de negócios. Pontuação de produtividade fornece ideias para usar essas soluções que você pode transformar em como o trabalho é feito.Ele contém: 
+Pontuação de produtividade ajuda as organizações a transformar como o trabalho é feito com ideias sobre como as pessoas usam o Microsoft 365 e as experiências tecnológicas que dão suporte a eles. A pontuação reflete o desempenho da organização em relação à experiência de funcionários e tecnologias e compara sua pontuação com organizações como a sua.
 
-- **Visibilidade** , ajudando-os a entender como as pessoas trabalham na forma de sua pontuação atual com a divisão em categorias de experiência de funcionários e experiência de tecnologia (em breve). 
-- **Ideias** para identificar oportunidades para habilitar experiências aprimoradas. 
-- **Ações** para atualizar habilidades e sistemas para que todos possam realizar o melhor trabalho. 
+A pontuação inclui:
 
-A pontuação e o insights estão presentes em duas categorias:  
+- **Métricas** para ajudá-lo a ver como as pessoas estão usando produtos Microsoft 365 para colaborar, comunicar e trabalhar entre plataformas.
+- **Informações sobre os** dados para ajudá-lo a identificar oportunidades para melhorar a produtividade e a satisfação dos funcionários.
+- **Ações recomendadas** que você pode executar para ajudar as pessoas da sua organização a usar os produtos do Microsoft 365 com eficiência para que todos possam realizar o melhor trabalho.
 
-- **Experiência do funcionário:** mostra como a Microsoft 365 está ajudando a criar uma força de trabalho produtiva e contratada quantificando como as pessoas colaboram em conteúdo, trabalhar em qualquer lugar, compreendendo os estilos de comunicação (em breve) e desenvolvendo uma cultura de reunião (em breve) 
+Fornecemos dados, ideias e recomendações em duas áreas: 
 
-- **Experiência tecnológica** (em breve): ajuda você a otimizar suas experiências de dispositivo, como correção proativa dos problemas comuns de helpdesk e melhorar os tempos de inicialização do computador e sua rede para garantir que seus aplicativos funcionem bem.  
+- **Experiência do funcionário:** Medimos como as pessoas colaboram com o conteúdo, como usam os produtos da Microsoft 365 para se comunicarem e se usam o Microsoft 365 entre plataformas. 
 
-## <a name="how-it-works"></a>Como funciona
+    Fornecemos esses percepções porque, quando as pessoas colaboram online, elas economizam tempo. Quando eles têm liberdade para trabalhar em qualquer dispositivo, eles são mais produtivos e satisfeitos. Quando eles podem se comunicar de forma flexível, eles são mais eficientes, relações melhores de formulário e sua organização é mais unificado. Para obter evidências, consulte [Forrester Report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
 
-### <a name="areas-of-scoring"></a>Áreas de Pontuação 
+- **Experiência de tecnologia:** A produtividade depende da tecnologia confiável e de desempenho, bem como do uso eficiente do Microsoft 365. Fornecemos uma análise de ponto de extremidade, que oferece recomendações e recomendações sobre a configuração e os tempos de inicialização do dispositivo e fornecemos informações de conectividade de rede da Microsoft 365 para sua organização.
 
-Em cada categoria de pontuação, a pontuação de produtividade fornece ideias sobre sua transformação de trabalho nas áreas. As áreas abordadas na experiência do funcionário são:
+Para saber mais sobre a análise de ponto final, leia [a visão geral da conectividade de rede](https://docs.microsoft.com/office365/enterprise/office-365-networking-overview).
+  
 
-- Colaboração em conteúdo  
-- Trabalhando em qualquer lugar 
-- Noções básicas sobre os estilos de comunicação (em breve) 
-- Desenvolver uma cultura de reunião (em breve) 
+## <a name="how-the-score-is-calculated"></a>Como a pontuação é calculada
 
-### <a name="scoring-user-actions"></a>Pontuação de ações do usuário 
+A pontuação da produtividade baseia-se nas pontuações combinadas das categorias de experiência de seus funcionários e tecnologias. Cada categoria é ponderada igualmente, com um total de 100 pontos por categoria. O total de pontos possíveis para a pontuação de produtividade é de 500.
 
-Dentro de cada área, medimos as ações chave com base em pesquisa, que representam as maneiras de trabalhar, permitindo que as organizações transformem em uma organização altamente produtiva. Para cada área, computamos a porcentagem de usuários que realizam essas ações nos últimos 28 dias. 
+### <a name="score-categories"></a>Categorias de Pontuação 
 
-A pontuação da experiência do funcionário é organizada como uma pontuação média em todas as áreas. Observe que vamos continuar a adicionar mais áreas à experiência de funcionários e à experiência tecnológica ao longo do tempo. 
+- Colaboração de conteúdo (100 pontos)
+- Comunicação (100 pontos)
+- Mobilidade (100 pontos)
+- Análise de ponto de extremidade (100 pontos)
+- Conectividade de rede (100 pontos)
+- **Total possível = 500 pontos**
+ 
+ Em cada categoria, identificamos padrões para as principais atividades que são indicadores de como as pessoas usam os produtos da Microsoft 365 para colaborar, comunicar e trabalhar entre plataformas. Fornecemos visualizações de 28 dias e 180 dias das principais atividades. Também fornecemos métricas de suporte que não fazem parte do cálculo de pontuação, mas são importantes para ajudá-lo a identificar comportamentos e configurações subjacentes que podem ser atuados na alteração da unidade.
 
-### <a name="products-included-in-the-productivity-score"></a>Produtos incluídos na pontuação de produtividade 
+### <a name="products-included-in-productivity-score"></a>Produtos incluídos na pontuação de produtividade 
 
-A pontuação de produtividade atualmente inclui sinais da chave cargas de trabalho do Microsoft 365 OneDrive, SharePoint, Word, Excel, PowerPoint, OneNote, Outlook, Yammer, Teams, Skype. 
+Pontuação de produtividade inclui dados do Exchange, SharePoint, OneDrive, Teams, Word, Excel, PowerPoint, OneNote, Outlook, Yammer e Skype.
 
-Sua pontuação é atualizada diariamente e reflete as ações do usuário concluídas nos últimos 28 dias (incluindo o dia atual).
+Sua pontuação é atualizada diariamente e reflete as ações do usuário concluídas nos últimos 28 a 180 dias (incluindo o dia atual).
 
-## <a name="access-and-required-permissions"></a>Acesso e permissões necessárias 
 
-Para a experiência do funcionário, você deve ter uma assinatura para um plano do Microsoft 365 para empresas com vários usuários. 
+## <a name="pre-requisites"></a>Pré-requisitos 
 
-Para ter permissão para acessar a pontuação da produtividade da Microsoft, você deve ter as seguintes funções: 
+Você precisa de uma assinatura do Microsoft 365 for Business ou do Office 365 para Enterprise para obter os dados da experiência do funcionário, e você precisa estar usando serviços em nuvem de vários locatários. Para obter dados de análise do ponto de extremidade para seu locatário, você precisa adicionar o Microsoft Intune à sua assinatura. O Intune ajuda você a proteger os dados da sua organização por meio do gerenciamento de dispositivos e aplicativos.       Depois de ter o Intune, você pode ativar a análise de ponto de extremidade dentro da experiência do Intune. Saiba mais sobre o Microsoft Intune. 
+
+Para exibir a pontuação de produtividade da sua organização, você deve ter uma das seguintes funções: 
 
 - Administrador global 
-- Administradores do Exchange 
-- Administradores do SharePoint 
-- Administradores do Skype for Business 
+- Administradores do Exchange
+- Administrador do SharePoint 
+- Administrador do Skype for Business 
 - Administrador de equipes 
 - Leitor global 
 - Leitor de relatórios 
 
-Você pode acessar a experiência no Microsoft 365 admin Home escolhendo **relatórios** > de**produtividade** no painel de navegação à esquerda.
+Você pode acessar a experiência da página inicial do Microsoft 365 admin em **relatórios** > de**produtividade**.
 
 ## <a name="interpreting-productivity-score"></a>Interpretação da Pontuação de produtividade 
 
-### <a name="learn-how-your-organization-works"></a>Saiba como sua organização funciona 
-
-Home Page de produtividade da ti fornece a pontuação atual e o histórico de uma base de porcentagem, principal insights para áreas em cada categoria de Pontuação complementadas por benchmarks. 
+A Home Page de Pontuação de produtividade mostra a pontuação total e o histórico de pontuação, bem como a principal percepção de cada categoria
 
 ![Home Page de Pontuação de produtividade](../../media/pslanding.png)
 
-1. a**Pontuação de produtividade** é listada em uma base de porcentagem, <numerator> / <denominator> bem como no formato, para que você também possa ver seus pontos absolutos (numerador) e os pontos máximos possíveis  
-1. Essa tabela dinâmica permite que você selecione a categoria de pontuação na qual você deseja se concentrar. Na visualização, você só pode exibir a **experiência do funcionário**, mas a seleção será expandida em breve para incluir **experiência tecnológica**. 
-1. O **benchmark de par** permite que você compare sua pontuação atual com organizações como você. A medida de benchmark é calculada como a média de medidas dentro de um conjunto de organizações semelhantes. O conjunto é composto por organizações que têm um número semelhante de usuários habilitados, região, os tipos de licenças de sua propriedade, setor e gestão no Microsoft 365 ou no Office 365. 
-1. A seção **Score Categories** fornece uma divisão de sua pontuação de produtividade com benchmarks por categoria.
-1. O **histórico de Pontuação** exibe como sua pontuação em cada categoria foi movida nos últimos seis meses.
-1. A principal visão para **colaboração no conteúdo** mostra as medidas relevantes com benchmarks dessa área que contribuem para a pontuação. Selecione **Exibir detalhes** para ver a página detalhes da área.
-1. A principal visão para **trabalhar em qualquer lugar** mostra as medidas relevantes com benchmarks nessa área que contribuem para a pontuação. Selecione **Exibir detalhes** para ver a página detalhes da área.  
+**Sua pontuação** é mostrada como um valor de porcentagem, bem como em pontos, para que você possa ver seus pontos (numerador) e os pontos máximos possíveis (denominadores).
 
-### <a name="insights-to-identify-opportunities-to-improve-experiences"></a>Ideias para identificar oportunidades de melhorar as experiências 
+Os **benchmarks de ponto** permitem comparar sua pontuação com organizações como a sua. Para as categorias de experiência do funcionário, a medida de benchmark de ponto é calculada como a média de medidas dentro de um conjunto de organizações semelhantes. O conjunto é composto por organizações em sua região com um número semelhante de usuários licenciados, tipos de licenças, setor e gestão com o Microsoft 365. 
 
-Para cada área, selecione **Exibir detalhes** na visão principal para exibir a página de detalhes de área que exibe idéias adicionais, pesquisa e ações relacionadas para melhorar sua pontuação. .
+O benchmark ponto de extremidade da análise do Endpoint inclui destinos para o desempenho de inicialização do dispositivo e a configuração de software recomendada com base em valores medianos agregados em todos os locatários.
 
-Todas as páginas de detalhes da área seguem a seguinte estrutura: 
+Para conectividade de rede, o benchmark recomendado é de 80 pontos.
 
-- Superior esquerda: percepção principal retidas da Home Page.
-- Inferior à esquerda: suporte a insights com ações contextuais.  
-- Certo: pesquisa acadêmica que demonstra a relação entre a área e a produtividade.
+A seção de **divisão de Pontuação** fornece uma divisão da sua pontuação de produtividade com benchmarks por funcionários e áreas de experiência de tecnologia.
 
-Além disso, todos os insights contêm os seguintes elementos: 
+O histórico de Pontuação exibe como sua pontuação em cada categoria foi alterada nos últimos seis meses.
 
-- Cabeçalho: principal argumento ou resultado controlado por cada percepção;
-- Resumo: mais explicações sobre por que as medidas na percepção são importantes para a produtividade da sua organização. 
-- Visualização de dados: quantifica visualmente a posição da sua organização em relação às medidas na percepção com benchmarks, conforme aplicável.
-- Ações: ação contextual que pode ajudar a impulsionar mais dos resultados desejados de acordo com a percepção e, portanto, melhorar sua pontuação.
+As áreas **experiência do funcionário** e **experiência tecnológica** contêm os principais fatos para as categorias nessas áreas. Você pode clicar em cada categoria para ver informações mais profundas.
 
-### <a name="area-detail-page--collaborating-on-content"></a>Página de detalhes da área – colaboração no conteúdo 
+## <a name="category-details-pages"></a>Páginas de detalhes da categoria
 
-![Collaborationg na página de conteúdo.](../../media/pscollab.png)
+Cada página de detalhes da categoria mostra a principal percepção e as métricas de suporte, bem como as pesquisas e ações relacionadas que você pode tomar para conduzir as alterações em sua organização. A pesquisa oferece suporte à importância e lógica por trás dos principais insights para cada categoria. para obter mais informações, [Leia o relatório da Forrester](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
 
-A colaboração na página de conteúdo contém a principal percepção da Home Page de Pontuação de produtividade. Ele tem os seguintes componentes:
+### <a name="content-collaboration-details"></a>Detalhes de colaboração de conteúdo
 
-1. Header: quantifica a porcentagem de usuários que estão colaborando no conteúdo (resultado principal).
-1. Corpo: Saiba mais sobre como a maior colaboração resulta em maior produtividade.
-1. Visualização: isso quantifica visualmente cada elemento que contribui para a pontuação dessa área com benchmarks:
+A principal visão da colaboração de conteúdo é o número de pessoas que criar, ler e colaborar (editar e compartilhar) online. Essas medidas são importantes porque a pesquisa mostra que, quando as pessoas colaboram com arquivos online, cada pessoa salva uma média de 100 minutos ou quase 2 horas por semana.
 
-    - **Leitores**: quantifica os usuários que acessam ou baixam arquivos na nuvem (onedrive e SharePoint) em uma base de usuários habilitados para o onedrive e o SharePoint.
-    - **Authors**: quantifica os usuários modificando, carregando, sincronizando, fazendo check-in, copiando ou movendo arquivos na nuvem (onedrive e SharePoint) em uma base de usuários habilitados para o onedrive e o SharePoint.
-    - **Colaboradores**: quantifica os usuários colaborando em arquivos na nuvem (onedrive e SharePoint) em uma base de usuários habilitados para o onedrive e o SharePoint. Dois usuários são colaboradores se um deles ler ou editar um documento de nuvem do Word, Excel, PowerPoint, OneNote ou PDF após o outro criado ou modificado em uma janela de 28 dias.
+Definimos a colaboração de conteúdo como uma pessoa criando e compartilhando um arquivo do Office e, em seguida, pelo menos uma outra pessoa editando-o. 
 
-1. **Por que isso importa** fornece um resumo da colaboração de vinculação de pesquisa em arquivos em nuvem com produtividade. **Ler a pesquisa da Forrester** vai para um artigo de pesquisa que fornece mais contexto sobre como a colaboração é para aumentar a produtividade.
-1. O suporte à **colaboração na colaboração em vários arquivos** quantifica o modo como os usuários em sua organização estão colaborando em diferentes arquivos. 
-1. O suporte a informações sobre o **compartilhamento de arquivos em nuvem** quantifica se os usuários estão compartilhando conteúdo na nuvem enquanto dão distinção entre o compartilhamento interno e externo.
-1. O suporte a informações sobre o **envio de arquivos de nuvem de email** se os usuários que compartilham arquivos via email estão usando anexos em vez de links para arquivos em nuvem.
+Leitores: pessoas que acessam ou fazem download de arquivos online no OneDrive ou no SharePoint.
 
-Os tipos de arquivo considerados como colaboração são Word/Excel/PowerPoint/OneNote/PDF.
+**Criadores:** Pessoas que criam, modificam, carregam, sincronizam, fazem check-in, copiam ou movem arquivos do OneDrive ou do SharePoint Online.
 
-### <a name="area-detail-page--working-anywhere"></a>Página de detalhes da área – trabalhando em qualquer lugar 
+Colaboradores: pessoas que colaboram com arquivos online usando o OneDrive ou o SharePoint. Duas pessoas são colaboradores se um deles lê ou edita um documento online do Word, Excel, PowerPoint, OneNote ou em nuvem do PDF depois que a outra pessoa cria ou modifica, em uma janela de 28 dias.
 
-![Página trabalhar em qualquer lugar.](../../media/psflexibility.png)
+Os tipos de arquivo considerados para colaboração são arquivos do Word, Excel, PowerPoint, OneNote e PDF.
 
-A página trabalho em qualquer lugar quantifica os usuários (como um percentual e um valor absoluto) que usavam pelo menos um aplicativo de produtividade em duas ou mais plataformas, que são desktop, celular e Web. Os usuários recebem pontos mais altos para usar mais aplicativos e plataformas. Os aplicativos que estão sendo considerados como Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer, Skype. A base da visão é que os usuários estão habilitados para o Microsoft 365 aplicativos para empresas, Exchange, Yammer, Skype ou Teams.
+Fornecemos informações sobre os tempos de inicialização e configurados para dispositivos em sua organização, bem como insights de conectividade de rede para colaboração de conteúdo porque a colaboração de arquivos online requer dispositivos confiáveis que começam a ter software atualizado, bem como boa conectividade para o Microsoft 365.
 
-1. **Por que isso importa** fornece um resumo do uso de links de pesquisa de várias plataformas para maior produtividade. **Ler a pesquisa da Forrester** vai para um artigo de pesquisa que fornece mais contexto sobre como o trabalho no é para aumentar a produtividade.
-1. O suporte a informações no **email em qualquer lugar** quantifica o número de usuários em sua organização usando o Outlook nas plataformas da base de usuários ativos no Outlook.
-1. O suporte ao **chat em qualquer lugar** quantifica o modo como os usuários em sua organização estão usando o Teams em plataformas dentro de uma base de usuários ativos no Microsoft Teams.
-1. Dando suporte ao **acesso a documentos do Office em qualquer lugar** quantifica o modo como os usuários da sua organização estão usando o Word, o Excel, o PowerPoint e o OneNote nas plataformas da base de usuários ativos no Word, no Excel, no PowerPoint ou no OneNote.
+### <a name="communication-details"></a>Detalhes de comunicação
 
-### <a name="actions-for-update-skills-and-systems"></a>Ações para sistemas e qualificações de atualização 
+A principal visão da comunicação é a freqüência com que as pessoas em sua organização usam Postagens de email, chat e comunidade para se comunicar. Essa percepção é importante porque, quando as pessoas usam uma variedade de ferramentas de comunicação em tempo real, elas podem escolher o modo de comunicação que ajuda a ser mais eficiente, e elas têm ferramentas como chat e comunidades que ajudam a desenvolver relações entre os locais do Office.
 
-Para promover a ação, cada informação de apoio tem ações embutidas que podem ajudar a transformar sua experiência de funcionários, algumas das quais podem ser alterações de configuração ou campanhas de conscientização. Clicar nessas chamadas é aberta nas opções do painel ações recomendadas que você pode considerar. No momento, as ações no **conteúdo colaborativo** estão habilitadas.
+### <a name="mobility-details"></a>Detalhes da mobilidade
 
-![Colaborar em documentos do Office.](../../media/psactions1.png)
+A principal percepção para mobilidade é o número de pessoas que acessam arquivos e usam email e bate-papo em várias plataformas. A capacidade de trabalhar a partir de qualquer local em qualquer dispositivo que ele escolha seja importante para pessoas com funções de vendas, gerentes seniores, consultores e outros que precisam trabalhar fora do escritório para serem produtivos. Os aprimoramentos desses funcionários têm um grande impacto. 
 
-1. O **modo de exibição de ações** vai para um painel listando todas as ações relacionadas à colaboração no conteúdo.
-1. **Incentive os usuários a colaborar** vão para uma lista de vídeos instrutivos sobre colaboração com tópicos como coautoria e @mentions. 
-1. Personalizar as configurações de **compartilhamento externo** vai para uma página com uma visão geral do compartilhamento externo descrevendo o que acontece quando os usuários compartilham, dependendo do que estão compartilhando e com quem.  
-1. **Replace Attachments with Shared links** vai para uma página explicando como compartilhar links do onedrive em vez de anexos em email para uma melhor colaboração.
+Medimos a porcentagem e o número absoluto de pessoas que usavam pelo menos um aplicativo de produtividade da Microsoft 365 em duas ou mais plataformas, incluindo desktops, móveis e Web. Os aplicativos de produtividade que medemos são Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer e Skype. As pessoas devem ter aplicativos da Microsoft 365 para licenças Enterprise, Exchange, Yammer, Skype ou Teams a serem medidos. 
 
-Selecionar qualquer um dos botões de ação abre o painel **ações recomendadas** à direita que tem um resumo de cada ação e um link para as páginas de documentação.
+## <a name="we-want-to-hear-from-you"></a>Queremos ouvir sua opinião
 
-![Painel de ações recomendadas.](../../media/psacttions2.png)
-
-
-## <a name="we-want-to-hear-from-you"></a>Queremos ouvir sua opinião 
-
-Queremos utilizar o programa de visualização privada para obter comentários e usar os aprendizados para criar o produto com você no futuro. Você pode usar as seções de **comentários** dentro do produto e/ou acessar a equipe de Pontuação de produtividade em ProductivityScorePreview@service.microsoft.com.
-
-Para solicitar acesso à visualização privada, preencha o formulário em https://aka.ms/productivityscorepreview.  
+Compartilhe suas opiniões sobre a pontuação de produtividade e suas ideias sobre como aprimorá-la. Use as seções de **comentários** dentro do produto e/ou acesse a equipe de Pontuação de produtividade em ProductivityScorePreview@service.microsoft.com.

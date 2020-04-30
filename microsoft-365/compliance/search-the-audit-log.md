@@ -11,15 +11,17 @@ ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: 57ca5138-0ae0-4d34-bd40-240441ef2fb6
 description: 'O log de auditoria é um log de auditoria unificado. Por que usar um log de auditoria unificada? Porque os eventos da maioria dos serviços que sua organização assina são registrados em um único log de auditoria que você pode pesquisar. Isso significa que você pode pesquisar o usuário e a atividade de administrador nesses serviços:'
-ms.openlocfilehash: 95f5025e4831223c93251c7c22d1f43d44086d48
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3cc76b272516c0e0508c7d76f0b93da44effa487
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625091"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943640"
 ---
 # <a name="search-the-audit-log-for-user-and-admin-activity"></a>Pesquisar o log de auditoria para a atividade do usuário e do administrador
 

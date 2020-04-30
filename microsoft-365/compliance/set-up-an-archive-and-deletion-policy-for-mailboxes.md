@@ -1,5 +1,5 @@
 ---
-title: Configurar uma política de arquivo morto e exclusão para caixas de correio em sua organização
+title: Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -17,16 +17,17 @@ search.appverid:
 - MED150
 - MBS150
 - BCS160
+- MET150
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: Criar uma política de arquivamento e exclusão que move automaticamente os itens para a caixa de correio de arquivo morto de um usuário.
-ms.openlocfilehash: d5c55227d601476b7c06d530a13a5768a4a108c4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b8d156ec9340e644e8f0bf213f04135e756421eb
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635555"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943574"
 ---
-# <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>Configurar uma política de arquivo morto e exclusão para caixas de correio em sua organização
+# <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização
 
  No Microsoft 365, os administradores podem criar uma política de arquivamento e exclusão que move automaticamente os itens para a caixa de correio de arquivo morto de um usuário e exclui automaticamente os itens da caixa de correio. O administrador faz isso criando uma política de retenção que é atribuída às caixas de correio e move itens para a caixa de correio de arquivo morto de um usuário depois de um determinado período de tempo e que também exclui itens da caixa de correio depois que eles atingem um determinado limite de idade. As regras reais que determinam quais itens são movidos ou excluídos e quando isso acontece é chamado de marcas de retenção. As marcas de retenção são vinculadas a uma política de retenção, que, por sua vez, é atribuída à caixa de correio de um usuário. Uma marca de retenção aplica configurações de retenção a mensagens e pastas individuais na caixa de correio de um usuário. Define por quanto tempo uma mensagem permanece na caixa de correio e qual ação é executada quando a mensagem atinge a idade de retenção especificada. Quando uma mensagem atinge sua idade de retenção, ela é movida para a caixa de correio de arquivo morto do usuário ou ela é excluída. 
   

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 31efc571-c8b9-46fb-b42d-203c2fb25289
 description: Saiba como você pode configurar o Office 365 operado pela 21Vianet para gerenciar seus registros DNS, quando 1&1 Internet é o provedor de Hospedagem de DNS.
-ms.openlocfilehash: 53e846b5a9672f3fbf0e003ec48261afc80c0abf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 99ac40472d0afa0cb734b0e86a0f10d7904133e1
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630002"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939399"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-11-ionos"></a>Alterar os nameservers para configurar o Microsoft 365 com 1&1 IONOS
 
@@ -38,7 +38,7 @@ Siga estas instruções se desejar que a Microsoft 365 gerencie seus registros D
 ## <a name="add-a-txt-record-for-verification"></a>Adicionar um registro TXT para verificação
 
 
-Antes de usar o seu domínio com o Microsoft 365, precisamos garantir que você o tenha. Sua capacidade de fazer logon em sua conta no registrador de domínios e criar o registro DNS comprova-se para a Microsoft 365 que você é o proprietário do domínio.
+Antes de usar o seu domínio com o Microsoft 365, precisamos verificar se você é o proprietário dele. A capacidade de entrar na conta do seu registrador de domínios e criar o registro de DNS prova ao Microsoft 365 que você é o proprietário do domínio.
   
 > [!NOTE]
 > Esse registro é usado exclusivamente para confirmar se você é o proprietário do domínio; ele não afeta mais nada. É possível excluí-lo mais tarde, se desejar. 
@@ -62,7 +62,7 @@ Siga as etapas abaixo ou [assista ao vídeo (início em 0:42)](https://support.o
 ||||
 |:-----|:-----|:-----|
 |**Tipo** <br/> |**Prefixo** <br/> |**Valor do Nome** <br/> |
-|TXT  <br/> |(Leave this field empty.)  <br/> |MS = ms *XXXXXXXX* <br/> **Observação**: Este é um exemplo. Use o seu **destino específico ou aponte para** o valor de endereço aqui, na tabela no Microsoft 365. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md) <br/> |
+|TXT  <br/> |(Leave this field empty.)  <br/> |MS = ms *XXXXXXXX* <br/> **Observação**: Este é um exemplo. Use seu valor específico de **Destino ou Pontos de Endereçamento** aqui, retirado da tabela no Microsoft 365. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md) <br/> |
 
    
 7. Selecione **salvar**e **salve** novamente. 
@@ -71,9 +71,9 @@ Siga as etapas abaixo ou [assista ao vídeo (início em 0:42)](https://support.o
     
 9. Aguarde alguns minutos antes de prosseguir para que o registro que você acabou de criar possa ser atualizado na Internet.
     
-Agora que você adicionou o registro no site do seu registrador de domínio, você voltará para o Microsoft 365 e solicitará que a Microsoft 365 procure o registro.
+Agora que você adicionou o registro no site do seu registrador de domínios, retorne ao Microsoft 365 e solicite que o Microsoft 365 procure o registro.
   
-Quando o Microsoft 365 encontrar o registro TXT correto, seu domínio será verificado.
+Quando o Microsoft 365 encontrar o registros TXT correto, o domínio será verificado.
   
 1. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
     
@@ -138,7 +138,7 @@ Pronto para alterar os registros NS de modo que o Microsoft 365 possa configurar
 |**Servidor de nomes 3** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**Servidor de nomes 4** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-    ![Entering name server values](../../media/0f15880c-88b6-4133-8f31-62f0d98ee63f.png)
+![Inserir valores de servidor de nomes](../../media/0f15880c-88b6-4133-8f31-62f0d98ee63f.png)
   
 4. Selecione **Salvar**.
     

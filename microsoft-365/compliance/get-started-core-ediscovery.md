@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve como começar a usar a descoberta eletrônica principal no Microsoft 365. Depois de atribuir permissões de descoberta eletrônica e criar uma ocorrência, você pode adicionar membros, criar isenções de descoberta eletrônica e, em seguida, procurar e exportar dados relevantes à sua investigação.
-ms.openlocfilehash: 838870f60c55c82225c3809aa8f281beadd0dba1
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.openlocfilehash: c9c3d8c3832703e8dbbcf8b2c04a566af0f5eb6b
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551355"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943380"
 ---
-# <a name="get-started-with-core-ediscovery"></a>Introdução à descoberta eletrônica principal
+# <a name="get-started-with-core-ediscovery"></a>Introdução à Descoberta Eletrônica Central
 
 A descoberta eletrônica principal no Microsoft 365 fornece uma ferramenta de descoberta eletrônica básica que as organizações podem usar para pesquisar e exportar conteúdo no Microsoft 365 e no Office 365. Você também pode usar a descoberta eletrônica principal para colocar um controle de descoberta eletrônica em locais de conteúdo, como caixas de correio do Exchange, sites do SharePoint, contas do OneDrive e Microsoft Teams. Nada é necessário para implantar a descoberta eletrônica principal, mas há algumas tarefas de pré-requisito que um administrador de ti e um gerente de descoberta eletrônica precisam concluir para que sua organização possa começar a usar a descoberta eletrônica principal para pesquisar, exportar e preservar o conteúdo.
 
@@ -36,15 +36,25 @@ O licenciamento da descoberta eletrônica principal requer a assinatura apropria
 
 - **Assinatura da organização:** Para acessar a descoberta eletrônica Core no centro de conformidade da Microsoft 365 ou no centro de conformidade & segurança do Office 365 e usar os recursos de retenção e exportação, sua organização deve ter uma assinatura do Microsoft 365 E3 ou Office 365 E3 ou superior.
 
-- **Licenciamento por usuário:** Para colocar uma descoberta eletrônica em caixas de correio do usuário, esse usuário deve receber uma das seguintes licenças, dependendo da sua assinatura de organização:
+- **Licenciamento por usuário:** Para colocar um controle de descoberta eletrônica em caixas de correio e sites, um usuário deve receber uma das seguintes licenças, dependendo da sua assinatura de organização:
 
   - Uma licença do Microsoft 365 E3 ou do Office 365 E3 ou superior
 
+   OU
+
   - Uma licença do Microsoft 365 E1 ou do Office 365 E1 com uma licença complementar de arquivamento do Exchange Online plano 2 ou do Exchange Online
 
+  E
+
+  - Uma licença do Microsoft 365 E1 ou do Office 365 E1 com uma licença complementar do SharePoint Online plano 2 ou do OneDrive for Business plano 2
+  
   Para obter informações sobre como atribuir licenças, consulte [assign licenses to Users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
-Para obter informações sobre o licenciamento do Microsoft 365 e do Office 365, baixe e veja a solução "descobrir & responder" na [comparação de licenciamento de conformidade do Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/downloads/microsoft-365-compliance-licensing-comparison.pdf).
+Para obter informações sobre licenciamento:
+
+- Baixe e veja a solução "descobrir & responder" na [comparação de licenciamento de conformidade da Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/downloads/microsoft-365-compliance-licensing-comparison.xlsx).
+
+- Consulte a [Descrição do serviço centro de conformidade do & de segurança](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
 
 ## <a name="step-2-assign-ediscovery-permissions"></a>Etapa 2: atribuir permissões de descoberta eletrônica
 

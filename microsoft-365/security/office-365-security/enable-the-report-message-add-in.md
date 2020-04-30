@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Saiba como habilitar o suplemento de mensagem de relatório para o Outlook e o Outlook na Web, para usuários individuais ou para toda a organização.
-ms.openlocfilehash: 0024e8c87ef6326c1df4547349631c4f1fd4cab8
-ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
+ms.openlocfilehash: 22ce1c8e8084cb0bcbcb2f9fa4c0c80e1a59bf9c
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43921571"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939470"
 ---
 # <a name="enable-the-report-message-add-in"></a>Habilitar o suplemento de Mensagem de Relatório
 
@@ -133,7 +133,7 @@ Para saber como usar o suplemento, confira [usar o suplemento de mensagem de rel
 
    ![Anunciar página de suplemento](../../media/announce-add-in-page.png)
 
-### <a name="learn-how-to-use-the-report-message-add-in"></a>Saiba como usar o suplemento de mensagem de relatório
+## <a name="learn-how-to-use-the-report-message-add-in"></a>Saiba como usar o suplemento de mensagem de relatório
 
 Pessoas que têm o suplemento atribuído a eles verão os seguintes ícones:
 
@@ -147,7 +147,7 @@ Pessoas que têm o suplemento atribuído a eles verão os seguintes ícones:
 
 Ao notificar os usuários sobre o suplemento de mensagens de relatório, inclua um link para [usar o suplemento de mensagem de relatório](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
 
-### <a name="review-or-edit-settings-for-the-report-message-add-in"></a>Revise ou edite as configurações do suplemento de mensagem de relatório
+## <a name="review-or-edit-settings-for-the-report-message-add-in"></a>Revise ou edite as configurações do suplemento de mensagem de relatório
 
 1. No centro de administração do Microsoft 365, acesse a página de **suplementos de &** de <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns>serviços em.
 
@@ -158,3 +158,11 @@ Ao notificar os usuários sobre o suplemento de mensagens de relatório, inclua 
 3. No submenu **Editar mensagem de relatório** que aparece, revise e edite as configurações conforme apropriado para sua organização. Quando concluir, clique em **Salvar**.
 
    ![Configurações para o suplemento de mensagem de relatório](../../media/EditReportMessageAddIn.png)
+
+## <a name="view-and-review-reported-messages"></a>Exibir e examinar mensagens relatadas
+
+Para revisar as mensagens que os usuários reportam à Microsoft, você tem estas opções:
+
+- Use o portal de envios do administrador. Para obter mais informações, consulte [View User envios to Microsoft](admin-submission.md#view-user-submissions-to-microsoft).
+
+- Criar uma regra de fluxo de emails (também conhecida como regra de transporte) para enviar cópias de mensagens relatadas. Para obter instruções, consulte [usar regras de fluxo de emails para ver o que seus usuários estão relatando à Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md).

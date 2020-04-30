@@ -9,16 +9,18 @@ audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection:
 - M365-security-compliance
 - remotework
 description: Proteja seus emails e dados de negócios contra ameaças da Cyber, incluindo ransomware, phishing e anexos mal-intencionados.
-ms.openlocfilehash: f2d76fd92ac6d439fd6400a0478028c99ae935eb
-ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
+ms.openlocfilehash: 04f59d4f87bda9460930b54818d2ab43933d11e5
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43808839"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943538"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>As 12 principais tarefas para equipes de segurança dar suporte ao trabalho de casa
 
@@ -33,7 +35,7 @@ Para os clientes que usam nossos planos corporativos, a Microsoft recomenda que 
 - O Microsoft 365 E3 inclui o Enterprise Mobility + Security (EMS) E3 e o Azure AD P1
 - O Microsoft 365 E5 inclui o EMS E5 e o Azure AD P2
   
-||**Tarefa**| Todos os planos empresariais do Office 365|**Microsoft 365 E3** |**Microsoft 365 E5**|
+||**Task**| Todos os planos empresariais do Office 365|**Microsoft 365 E3** |**Microsoft 365 E5**|
 |:-----|:-----|:-----|:-----|:-----|
 |1      |[Habilitar a MFA (autenticação multifator do Azure)](#1-enable-azure-multi-factor-authentication-mfa)   |   ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   | ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |duas     | [Proteção contra ameaças](#2-protect-against-threats) |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
@@ -45,7 +47,7 @@ Para os clientes que usam nossos planos corporativos, a Microsoft recomenda que 
 |8       |  [Registrar PCs no gerenciamento de dispositivos e exigir computadores compatíveis](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)   |  | ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)        | ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |9       | [Otimizar sua rede para conectividade de nuvem](#9-optimize-your-network-for-cloud-connectivity)  |  ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |10    | [Treinar usuários](#10-train-users) |    ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
-|11  |[Introdução ao Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security) |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
+|11  |[Introdução ao Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security) |  |  |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
 |12  |[Monitorar ameaças e tomar ações](#12-monitor-for-threats-and-take-action) |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)  |
 | | | |
 

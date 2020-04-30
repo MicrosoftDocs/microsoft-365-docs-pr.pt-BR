@@ -15,19 +15,19 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 - Strat_O365_Enterprise
-description: 'Resumo: uma explicação de criptografia no Azure.'
-ms.openlocfilehash: de018e24fc6681ac613e16d8f151c6ea5362f92d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Uma explicação da criptografia no Azure.
+ms.openlocfilehash: cac3a27a209b4c2da66dbf583d2be88cf06aca34
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637429"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943310"
 ---
 # <a name="encryption-in-azure"></a>Criptografia no Azure
 
-## <a name="introduction"></a>Introdução
+Garantias tecnológicas no Azure, como comunicações criptografadas e processos operacionais, ajudam a manter seus dados seguros. Você também tem a flexibilidade para implementar recursos de criptografia adicionais e gerenciar suas próprias chaves criptográficas. Independentemente da configuração do cliente, a Microsoft aplica criptografia para proteger os dados do cliente no Azure. A Microsoft também permite que você controle seus dados hospedados no Azure por meio de uma variedade de tecnologias avançadas para criptografar, controlar e gerenciar chaves criptográficas e controlar e auditar o acesso aos dados. Além disso, o armazenamento do Azure fornece um conjunto abrangente de recursos de segurança que, juntos, permitem que os desenvolvedores criem aplicativos seguros.
 
-Garantias tecnológicas no Azure, como comunicações criptografadas e processos operacionais, ajudam a manter seus dados seguros. Você também tem a flexibilidade para implementar recursos de criptografia adicionais e gerenciar suas próprias chaves criptográficas. Independentemente da configuração do cliente, a Microsoft aplica criptografia para proteger os dados do cliente no Azure. A Microsoft também permite que você controle seus dados hospedados no Azure por meio de uma variedade de tecnologias avançadas para criptografar, controlar e gerenciar chaves criptográficas, controlar e auditar o acesso aos dados. Além disso, o armazenamento do Azure fornece um conjunto abrangente de recursos de segurança que, juntos, permitem que os desenvolvedores criem aplicativos seguros.
+## <a name="introduction"></a>Introdução
 
 O Azure oferece muitos mecanismos para proteger os dados à medida que ele se move de um local para outro. A Microsoft usa o TLS para proteger os dados quando está viajando entre os serviços de nuvem e os clientes. Os data centers da Microsoft negociam uma conexão TLS com sistemas clientes que se conectam aos serviços do Azure. O sigilo total na transferência (PFS) protege as conexões entre os sistemas clientes e os serviços de nuvem da Microsoft por chaves exclusivas. As conexões também usam comprimentos de chave de criptografia de 2.048 bits baseados em RSA. Essa combinação torna difícil para alguém interceptar e acessar os dados que estão em trânsito.
 
@@ -41,7 +41,7 @@ Para obter mais informações sobre criptografia no Azure, confira [visão geral
 
 A criptografia de disco do Azure permite que você criptografe seus discos VM do Windows e do Linux como um serviço (IaaS). A criptografia de disco do Azure aproveita o recurso BitLocker do Windows e o recurso de DM criptografado do Linux para fornecer a criptografia no nível do volume para o sistema operacional e os discos de dados. Também garante que todos os dados nos discos da VM sejam criptografados em repouso no armazenamento do Azure. A criptografia de disco do Azure é integrada ao Azure Key Vault para ajudá-lo a controlar, gerenciar e auditar o uso das chaves e dos segredos de criptografia.
 
-Para obter mais informações, consulte [recomendações de segurança para máquinas virtuais do Windows no Azure](https://docs.microsoft.com/azure/security/azure-security-disk-encryption).
+Para obter mais informações, consulte [recomendações de segurança para máquinas virtuais do Windows no Azure](https://docs.microsoft.com/azure/virtual-machines/windows/security-recommendations).
 
 ## <a name="azure-storage-service-encryption"></a>Criptografia de serviço de armazenamento do Azure
 

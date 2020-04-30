@@ -23,18 +23,18 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: Compreenda os motivos pelos quais às vezes os planos de mudança precisa ser feito manualmente ou chamando o suporte.
-ms.openlocfilehash: 5d446e3492bc9039e490cacca469443c0dc52cbd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8b6c4069f2c7f0cfd86981c1001a7211aa298ff7
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631924"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943138"
 ---
 # <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Por que não posso mudar de plano de negócios da Microsoft 365?
 
 ::: moniker range="o365-worldwide"
 > [!NOTE]
-> Este artigo aplica-se ao centro de administração antigo. Para exibir o artigo sobre o centro de administração (visualização), confira [por que não consigo atualizar os planos?](why-cant-i-change-plans.md). A visualização está disponível para todos os administradores do Microsoft 365, você pode optar por selecionar **repetir a** alternância de visualização localizada na parte superior da Home Page. Para saber mais, confira [Sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md).
+> Este artigo aplica-se ao centro de administração antigo. Para exibir o artigo sobre o centro de administração (visualização), confira [por que não consigo atualizar os planos?](upgrade-to-different-plan.md#why-cant-i-upgrade-plans). A visualização está disponível para todos os administradores do Microsoft 365, você pode optar por selecionar **repetir a** alternância de visualização localizada na parte superior da Home Page. Para saber mais, confira [Sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md).
 ::: moniker-end
 
 Se você não vir o botão **mudar** de plano, seu plano não poderá ser alternado automaticamente. Em alguns casos, você pode conseguir resolver o problema para que você possa usar o botão **Mudar de plano** ou pode conseguir [mudar de plano manualmente](switch-plans-manually.md). Posicione o mouse sobre o ícone de informações para exibir uma mensagem que explica por que o botão **Mudar de plano** não está disponível. Use as informações neste artigo para solucionar o problema.

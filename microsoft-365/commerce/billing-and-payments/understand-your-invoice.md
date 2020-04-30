@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 description: Saiba como ler e entender sua fatura para produtos de negócios da Microsoft.
 keywords: contas de cobrança, informações da organização, faturas
-ms.openlocfilehash: 3028b0e8aa952b932e7d56a5ecceaad5931dee30
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7b16af7c6ef39743aa8d0a4e927786f64f47c4cd
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634975"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942872"
 ---
 # <a name="understand-your-invoice"></a>Entenda a sua fatura
 
 A fatura fornece um resumo de seus encargos e instruções para pagamento. Você pode [exibir sua fatura online](#view-your-online-invoice) no centro de administração do Microsoft 365. Você também pode baixá-lo no formato de documento portátil (. pdf) para enviar por email.
 
-Se você tiver apenas uma assinatura do Microsoft 365, confira [exibir sua fatura do microsoft 365 para empresas](view-your-bill-or-invoice.md).
+Se você tiver apenas uma assinatura do Microsoft 365, confira [entender sua fatura do microsoft 365 para empresas](understand-your-invoice2.md).
 
 ## <a name="understand-the-invoice-header"></a>Entender o cabeçalho da fatura
 
@@ -78,7 +78,7 @@ O valor total devido para cada família de serviços é calculado subtraindo cr�
 
 `Total = Charges/Credits - Azure Credit + Tax`
 
-Se houver encargos do Azure na fatura que você gostaria de obter mais detalhes, confira [entender os encargos em sua fatura de contrato de cliente da Microsoft](https://docs.microsoft.com/azure/billing/billing-mca-understand-your-bill).
+Se houver encargos do Azure na fatura que você gostaria de obter mais detalhes, consulte [revisar sua fatura de contrato de cliente da Microsoft](https://docs.microsoft.com/azure/cost-management-billing/understand/review-customer-agreement-bill).
 
 ## <a name="understand-the-last-invoice-page"></a>Entender a última página de fatura
 

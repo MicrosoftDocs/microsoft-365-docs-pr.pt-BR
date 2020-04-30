@@ -10,18 +10,20 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: 53c1a44ad1e27d2d1002680faee56ae88e3e0921
-ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
+ms.openlocfilehash: 0850e3fbbccb7653ddb9c56c07deaad9ed13f84a
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42710540"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943360"
 ---
 # <a name="set-up-a-connector-to-import-hr-data"></a>Configurar um conector para importar dados de RH
 
-Você pode configurar um conector de dados no centro de conformidade da Microsoft 365 para importar dados de recursos humanos (RH), como a data em que um funcionário enviou a demissão e a data do último dia do funcionário. Esses dados de RH podem ser usados pelas soluções de proteção de informações da Microsoft, como a nova [solução de gerenciamento de risco](insider-risk-management.md)interno, para ajudar a proteger sua organização contra atividades mal-intencionadas ou roubo de dados dentro da sua organização. A configuração de um conector de RH consiste na criação de um aplicativo no Azure Active Directory que é usado para autenticação por conector, a criação de arquivos de mapeamento CSV que contém seus dados de RH, a criação de um conector de dados no centro de conformidade e a execução de um script (em um agendada) que absorve os dados de RH no arquivo CSV para a nuvem da Microsoft. Em seguida, o conector de dados é usado como soluções de conformidade da Microsoft (como gerenciamento de risco do insider) para acessar os dados de RH que foram importados para sua organização do Microsoft 365.
+Você pode configurar um conector de dados no centro de conformidade da Microsoft 365 para importar dados de recursos humanos (RH), como a data em que um funcionário enviou a demissão e a data do último dia do funcionário. Esses dados de RH podem ser usados pelas soluções de proteção de informações da Microsoft, como a nova [solução de gerenciamento de risco](insider-risk-management.md)interno, para ajudar a proteger sua organização contra atividades mal-intencionadas ou roubo de dados dentro da sua organização. A configuração de um conector de RH consiste na criação de um aplicativo no Azure Active Directory que é usado para autenticação por conector, a criação de arquivos de mapeamento CSV que contém seus dados de RH, a criação de um conector de dados no centro de conformidade e a execução de um script (em uma base agendada) que inclua os dados de RH no arquivo CSV para a nuvem da Microsoft. Em seguida, o conector de dados é usado como soluções de conformidade da Microsoft (como gerenciamento de risco do insider) para acessar os dados de RH que foram importados para sua organização do Microsoft 365.
 
 ## <a name="before-you-begin"></a>Antes de começar
 

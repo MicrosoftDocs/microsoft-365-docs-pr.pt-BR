@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match.
-ms.openlocfilehash: 63db4da59a04f13d79da61932f74f49d87fa3ffc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 94adbd4382c6e0a5a736feeb7de4bc32e213d25c
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631320"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919698"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
 
@@ -50,8 +50,8 @@ Quando estiver disponível para o público geral, a classificação baseada em E
 
 - Office 365 E5
 - Microsoft 365 E5
-- Proteção de Informações e Conformidade do Microsoft 365
-- Conformidade Avançada do Office 365
+- Conformidade do Microsoft 365 E5
+- Proteção e governança de informações do Microsoft E5/A5
 
 ## <a name="the-work-flow-at-a-glance"></a>Visão geral do fluxo de trabalho 
 

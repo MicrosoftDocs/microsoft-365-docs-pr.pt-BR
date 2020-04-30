@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: Saiba como pesquisar o log de auditoria em busca de eventos registrados quando os administradores de conformidade realizam pesquisa de conteúdo e tarefas de caixa de descoberta eletrônica no centro de conformidade de & de segurança.
-ms.openlocfilehash: 96f6b121064e7540778a418baa96bae448e4eed3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f575953fb2d48ac996e443589ff312743d93d424
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631822"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943650"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>Procurar atividades de descoberta eletrônica no log de auditoria
 
@@ -46,7 +48,7 @@ No momento, você precisa fazer algumas coisas específicas para exibir atividad
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Entre usando sua conta corporativa ou de estudante.
+2. Entre usando sua conta de trabalho ou da escola.
     
 3. No painel esquerdo, clique em **Pesquisar**e, em seguida, clique em **pesquisa de log de auditoria**.
     
@@ -84,8 +86,8 @@ A tabela a seguir descreve as atividades de pesquisa de conteúdo e de descobert
 |Filtro de permissões de pesquisa alterado  <br/> |SearchPermissionUpdated  <br/> |Set-ComplianceSecurityFilter  <br/> |Um filtro de permissões de pesquisa foi alterado.  <br/> |
 |Consulta de pesquisa de retenção de caso de descoberta eletrônica alterada  <br/> |HoldUpdated  <br/> |Set-CaseHoldRule  <br/> |Um bloqueio baseado em consulta associado a um caso de descoberta eletrônica foi alterado. As alterações possíveis incluem a edição da consulta ou do intervalo de datas de uma retenção baseada em consulta.  <br/> |
 |Item de visualização de pesquisa de conteúdo baixado  <br/> |PreviewItemDownloaded  <br/> |Não disponível  <br/> |Um usuário baixou um item para seu computador local (clicando no link **baixar item original** ) ao visualizar os resultados da pesquisa.  <br/> |
-|Item de visualização de pesquisa de conteúdo listado  <br/> |PreviewItemListed  <br/> |N/D  <br/> |Um usuário clicou em **Visualizar resultados da pesquisa** para exibir a página Visualizar resultados da pesquisa, que lista até 1000 itens dos resultados de uma pesquisa de conteúdo.  <br/> |
-|Item de visualização de pesquisa de conteúdo exibido  <br/> |PreviewItemRendered  <br/> |N/D  <br/> |Um gerente de descoberta eletrônica exibiu um item clicando nele ao visualizar os resultados da pesquisa.  <br/> |
+|Item de visualização de pesquisa de conteúdo listado  <br/> |PreviewItemListed  <br/> |Não disponível  <br/> |Um usuário clicou em **Visualizar resultados da pesquisa** para exibir a página Visualizar resultados da pesquisa, que lista até 1000 itens dos resultados de uma pesquisa de conteúdo.  <br/> |
+|Item de visualização de pesquisa de conteúdo exibido  <br/> |PreviewItemRendered  <br/> |Não disponível  <br/> |Um gerente de descoberta eletrônica exibiu um item clicando nele ao visualizar os resultados da pesquisa.  <br/> |
 |Pesquisa de conteúdo criada  <br/> |SearchCreated  <br/> |New-ComplianceSearch  <br/> |Uma nova pesquisa de conteúdo foi criada.  <br/> |
 |Administrador de descoberta eletrônica criado  <br/> |CaseAdminAdded  <br/> |Add-eDiscoveryCaseAdmin  <br/> |Um usuário foi adicionado como um administrador de descoberta eletrônica na organização.  <br/> |
 |Ocorrência de descoberta eletrônica criada  <br/> |CaseAdded  <br/> |New-ComplianceCase  <br/> |Um caso de descoberta eletrônica foi criado. Quando um caso é criado, você só precisa dar um nome a ele. Outras tarefas relacionadas a maiúsculas e minúsculas, como a adição de membros, a criação de isenções e a criação de pesquisas de conteúdo associadas ao caso de eventos adicionais serem registrados.  <br/> |

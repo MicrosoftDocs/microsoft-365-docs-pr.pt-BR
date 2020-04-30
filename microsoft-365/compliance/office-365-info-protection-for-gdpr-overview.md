@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Tenha uma visão geral da Proteção de Informações do Office 365 para o GDPR. Saiba como descobrir, classificar, proteger e monitorar dados pessoais.
-ms.openlocfilehash: b838ae96c8b93dced8b4da898ed04effc0586463
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 83a090b214821142a312ee81463fb3c395876867
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637215"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919600"
 ---
 # <a name="overview-of-office-365-information-protection-for-gdpr"></a>Visão geral da Proteção de Informações do Office 365 para o GDPR
 
@@ -99,7 +99,7 @@ A proteção de acesso ao Office 365 e a outros serviços de nuvem incluem:
 
 - Recursos de segurança do Windows 10
 
-Confira mais informações sobre como [Aplicar proteção a dados pessoais no Office 365](apply-protection-to-personal-data-in-office-365.md).
+Para obter mais informações sobre como aplicar proteção, consulte [Aplicar proteção aos dados pessoais no Office 365](apply-protection-to-personal-data-in-office-365.md).
 
 ### <a name="step-5--monitor-for-leaks-of-personal-data"></a>Etapa 5: monitorar o vazamento de dados pessoais
 

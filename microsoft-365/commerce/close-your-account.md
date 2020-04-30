@@ -15,16 +15,16 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Saiba como fechar sua conta com a Microsoft.
-ms.openlocfilehash: 3a193aea92ff384d53ce320a98cd9043d990b678
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b71cfe8246b5e3e9471c76cf8043bad52840f194
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080378"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942848"
 ---
 # <a name="close-your-account"></a>Fechar sua conta
 
-Quando você fecha sua conta com a Microsoft, todas as informações relacionadas à sua conta são excluídas. Essas informações incluem assinaturas, licenças, métodos de pagamento, usuários e dados de usuário. Antes de iniciar esse processo, certifique-se de fazer o backup de todos os dados que deseja preservar.
+Quando você fecha a sua conta do Microsoft, todas as informações relacionadas à sua conta são excluídas. Essas informações incluem assinaturas, licenças, métodos de pagamento, usuários e dados do usuário. Antes de iniciar esse processo, certifique-se de fazer o backup de todos os dados que deseja preservar.
 
 ## <a name="step-1-delete-users"></a>Etapa 1: excluir usuários
 
@@ -72,7 +72,7 @@ Se sua organização usa o Active Directory que sincroniza com o Azure AD, exclu
 
 3. Na página autenticação multifator, desabilite todas as contas, exceto para a conta de administrador global que você está usando no momento.
 
-Você também pode <a href="https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userstates#use-powershell">usar o PowerShell para desabilitar a autenticação multifator para vários usuários</a>.
+Você também pode <a href="https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell">usar o PowerShell para desabilitar a autenticação multifator para vários usuários</a>.
 
 ## <a name="step-5-delete-the-directory-in-azure-active-directory"></a>Etapa 5: excluir o diretório no Azure Active Directory
 

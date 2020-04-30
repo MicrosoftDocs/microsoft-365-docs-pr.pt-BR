@@ -9,17 +9,19 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: None
+search.appverid:
+- MET150
 ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - commerce
 ms.custom: ''
 description: Saiba mais sobre o novo recurso de alocações.
-ms.openlocfilehash: d1f926165678b57ec46195d525f2fcdaa6976501
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e6fe91ee2c0e2de58b54e40eddba6d3066999e6d
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632408"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942170"
 ---
 # <a name="allotment-basics"></a>Noções básicas sobre alocação
 

@@ -17,12 +17,12 @@ ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber como configurar remetentes falsificados para permitir ou não permissões e outras configurações de inteligência de falsificação no Exchange Online e no Exchange Online Protection (EOP).
-ms.openlocfilehash: 958f27d190748ee12976a6b47794a23e025172cf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e2aeefbd90a7ed66699778fab54a76a33293e4bb
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630486"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949232"
 ---
 # <a name="configure-spoof-intelligence-in-microsoft-365"></a>Configurar a inteligência de spoof no Microsoft 365
 
@@ -166,13 +166,11 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-PhishF
 
 As opções de configuração para a inteligência de falsificação são descritas em [configurações de spoof em políticas anti-phishing](set-up-anti-phishing-policies.md#spoof-settings).
 
-Suas opções disponíveis dependem de sua assinatura:
+Você pode definir as configurações de inteligência de spoofing na política anti-phishing padrão e também em políticas personalizadas. Para obter instruções com base em sua assinatura, consulte um dos seguintes tópicos:
 
-- As organizações autônomas do EOP sem caixas de correio do Exchange Online não podem definir configurações de inteligência de spoof.
+- [Configure as políticas anti-phishing no EOP](configure-anti-phishing-policies-eop.md).
 
-- As organizações do Microsoft 365 com caixas de correio do Exchange Online podem definir configurações de inteligência de falsificação na política anti-phishing padrão (e apenas). Para obter instruções, consulte [Configurar a política anti-phishing padrão no EOP](configure-anti-phishing-policies-eop.md).
-
-- As organizações 365 da Microsoft com a ATP podem definir as configurações de inteligência de spoofing na política anti-phishing padrão da ATP e também em políticas anti-phishing personalizadas da ATP. Para obter instruções, consulte [Configure ATP anti-phishing Policies in Microsoft 365](configure-atp-anti-phishing-policies.md).
+- [Configurar as políticas de anti-phishing do ATP no Microsoft 365](configure-atp-anti-phishing-policies.md).
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Como saber se esses procedimentos funcionaram?
 
@@ -224,7 +222,7 @@ Fique à medida sobre falsificação e proteção contra phishing. Aqui estão a
 
 - Verifique o **relatório de falsificação de emails**. Você pode usar esse relatório com frequência para exibir e ajudar a gerenciar remetentes falsificados. Para saber mais, confira [relatório de detecções de spoof](view-email-security-reports.md#spoof-detections-report).
 
-- Revise a configuração da estrutura de política de remetente (SPF). Para obter uma breve introdução ao SPF e para configurá-lo rapidamente, consulte [Configurar o SPF no Microsoft 365 para ajudar a evitar a falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md). Para compreender melhor como o Office 365 usa SPF, para solucionar problemas, ou para saber mais sobre implantações incomuns, como implantações híbridas, comece com [How Office 365 uses Sender Policy Framework (SPF) to prevent spoofing](how-office-365-uses-spf-to-prevent-spoofing.md).
+- Revise a configuração da estrutura de política de remetente (SPF). Para obter uma introdução rápida à SPF e para configurá-la rapidamente, confira [Configurar a SPF no Microsoft 365 para ajudar a evitar falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md). Para compreender melhor como o Office 365 usa SPF, para solucionar problemas, ou para saber mais sobre implantações incomuns, como implantações híbridas, comece com [How Office 365 uses Sender Policy Framework (SPF) to prevent spoofing](how-office-365-uses-spf-to-prevent-spoofing.md).
 
 - Revise sua configuração de email identificado do DomainKeys (DKIM). Você deve usar o DKIM além de SPF e DMARC para ajudar a impedir que os invasores enviem mensagens parecidas com o seu domínio. O DKIM possibilita adicionar uma assinatura digital a mensagens de email no cabeçalho da mensagem. Para saber mais, confira [usar DKIM para validar emails de saída enviados do seu domínio personalizado no Office 365](use-dkim-to-validate-outbound-email.md).
 

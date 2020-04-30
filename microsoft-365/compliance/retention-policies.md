@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Com uma política de retenção, você pode decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra certas condições.'
-ms.openlocfilehash: 7075e043a2d45358447137fbf76bcbf88a65e9f4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 42e130bfb9f988f0b771c45cbe08663f17e7b595
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632432"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949400"
 ---
 # <a name="overview-of-retention-policies"></a>Visão geral de políticas de retenção
 
@@ -58,7 +58,7 @@ Você cria e gerencia políticas de retenção do [Centro de conformidade do Mic
 
 Como alternativa, você pode navegar até o mesmo local no centro de conformidade do Microsoft 365 usando a guia **Soluções** > **Governança de informações** > **Retenção**. 
 
-**Se você quiser a capacidade de revisar o conteúdo antes que ele seja permanentemente excluído,** considere usar [rótulos de retenção](labels.md), em vez de uma política de retenção. Ao criar um rótulo de retenção, você pode configurar uma [revisão de disposição](disposition-reviews.md) para revisar o conteúdo no final do seu período de retenção.
+**Se você quiser a capacidade de revisar o conteúdo antes que ele seja permanentemente excluído,** considere usar [rótulos de retenção](labels.md), em vez de uma política de retenção. Ao criar um rótulo de retenção, você pode configurar uma [revisão de disposição](disposition.md#disposition-reviews) para revisar o conteúdo no final do seu período de retenção.
 
 ## <a name="how-a-retention-policy-works-with-content-in-place"></a>Como funciona uma política de retenção com conteúdo in-loco
 

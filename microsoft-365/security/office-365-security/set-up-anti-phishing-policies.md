@@ -14,27 +14,25 @@ ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre a política anti-phishing básica na proteção do Exchange Online (EOP) e as políticas anti-phishing avançadas do ATP no Office 365 proteção avançada contra ameaças.
-ms.openlocfilehash: 64a47d5514ab7a3a845e8d8b008f1cd8f672640b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 32214d24c7ed030b3bc7aad36bf3ac99f68a17fb
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638351"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949376"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
-As políticas para definir as configurações de proteção anti-phishing estão disponíveis nas organizações do Office 365 com caixas de correio do Exchange Online, organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online e organizações de proteção avançada contra ameaças (ATP) do Office 365.
+As políticas para definir as configurações de proteção anti-phishing estão disponíveis nas organizações do Microsoft 365 com caixas de correio do Exchange Online, organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online e organizações de proteção avançada contra ameaças (ATP) do Office 365.
 
 As políticas de anti-phishing do ATP só estão disponíveis em organizações que têm o Office 365 ATP. Por exemplo:
 
-- Office 365 Enterprise e5, Office 365 Education a5, etc.
+- Microsoft 365 Enterprise e5, Microsoft 365 Education a5, etc.
 - [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
 - [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business)
 - [Office 365 ATP como um complemento](https://products.office.com/exchange/advance-threat-protection)
 
-As políticas anti-phishing da ATP incluem uma política antiphishing padrão interna, e você pode criar políticas antiphishing adicionais personalizadas da ATP.
-
-Outras organizações do Microsoft 365 com caixas de correio do Exchange Online ou de proteção autônoma do Exchange Online (EOP) sem caixas de correio do Exchange Online têm uma política anti-phishing padrão interna, mas não é possível criar políticas adicionais. Somente as organizações com caixas de correio do Exchange Online podem modificar sua política anti-phishing padrão.
+Todas as outras organizações têm políticas anti-phishing.
 
 As diferenças de alto nível entre as políticas anti-phishing e as políticas anti-phishing do ATP são descritas na tabela a seguir:
 
@@ -42,8 +40,8 @@ As diferenças de alto nível entre as políticas anti-phishing e as políticas 
 |---|:---:|:---:|
 |**Recurso**|**Políticas anti-phishing**|**Políticas de anti-phishing da ATP**|
 |Política padrão criada automaticamente|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Criar políticas personalizadas||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|Configurações de política<sup>\*</sup>||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Criar políticas personalizadas|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|Configurações de política<sup>\*</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |Configurações de representação||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |Configurações de spoof|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |Limites avançados de phishing||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
@@ -57,7 +55,7 @@ Para configurar as políticas anti-phishing, consulte os seguintes tópicos:
 
 - [Configurar as políticas de anti-phishing do ATP no Microsoft 365](configure-atp-anti-phishing-policies.md)
 
-O restante deste tópico descreve as configurações disponíveis nas políticas anti-phishing do EOP e do ATP.
+O restante deste tópico descreve as configurações disponíveis nas políticas anti-phishing e nas políticas antiphishing da ATP.
 
 ## <a name="spoof-settings"></a>Configurações de spoof
 
@@ -65,10 +63,10 @@ Falsificação é quando o endereço de em uma mensagem de email (o endereço do
 
 As seguintes configurações de spoof estão disponíveis em políticas anti-phishing e políticas antiphishing da ATP:
 
-- **Proteção contra falsificação**: habilita ou desabilita a proteção contra falsificação. Recomendamos que você deixe-o habilitado. Você usa a **política de inteligência de spoof** para permitir ou bloquear remetentes internos e externos falsificados específicos. Para obter mais informações, consulte [Configure spoof Intelligence in Microsoft 365](learn-about-spoof-intelligence.md).
+- **Proteção contra falsificação**: habilita ou desabilita a proteção contra falsificação. Recomendamos que você deixe-o habilitado. Você usa a **política de inteligência de spoof** para permitir ou bloquear remetentes internos e externos falsificados específicos. Para obter mais informações, contra [Configurar a inteligência contra falsificação no Microsoft 365](learn-about-spoof-intelligence.md).
 
   > [!NOTE]
-  > As configurações de spoof são habilitadas por padrão na política anti-phishing padrão no EOP, na política anti-phishing padrão ATP e em novas políticas personalizadas de anti-phishing da ATP que você cria. <br/><br/> Você não precisa desabilitar a proteção contra falsificação se o registro MX não apontar para o Microsoft 365; em vez disso, habilite a filtragem avançada de conectores. Para obter instruções, consulte [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
+  > As configurações de spoof são habilitadas por padrão na política anti-phishing padrão no EOP, na política anti-phishing padrão da ATP e em novas políticas antiphishing personalizadas ou políticas antiphishing da ATP que você criar. <br/><br/> Você não precisa desabilitar a proteção contra falsificação se o registro MX não apontar para o Microsoft 365; em vez disso, habilite a filtragem avançada de conectores. Para obter instruções, consulte [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
   Para mensagens de remetentes falsificados bloqueados, você também pode especificar a ação a ser tomada nas mensagens:
 

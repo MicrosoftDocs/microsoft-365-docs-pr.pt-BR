@@ -9,14 +9,16 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: M365-security-compliance
 description: A descoberta eletrônica in-loco e o bloqueio in-loco (e os cmdlets do PowerShell correspondentes) no Exchange Online serão removidos no primeiro semestre de 2020. O cmdlet Search-Mailbox e o eDiscovery avançado v 1.0 também estão sendo desativados no mesmo período de tempo.
-ms.openlocfilehash: 23ff43dfc2131073425deb947aee41662e30616a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 48dbbd86071f8b07fa3dbf3a699f0d7e085fd50b
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635565"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943340"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Baixa das ferramentas de Descoberta Eletrônica herdadas
 
@@ -90,7 +92,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <table>
 <thead>
 <tr class="header">
-<th><strong>Função</strong></th>
+<th><strong>Funcionalidade</strong></th>
 <th><strong>Ferramenta alternativa</strong></th>
 <th><strong>Comments</strong></th>
 </tr>
@@ -193,7 +195,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <table>
 <thead>
 <tr class="header">
-<th><strong>Função</strong></th>
+<th><strong>Funcionalidade</strong></th>
 <th><strong>Ferramentas alternativas</strong></th>
 <th><strong>Comments</strong></th>
 </tr>
@@ -272,7 +274,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <table>
 <thead>
 <tr class="header">
-<th><strong>Função</strong></th>
+<th><strong>Funcionalidade</strong></th>
 <th><strong>Ferramentas alternativas</strong></th>
 <th><strong>Comments</strong></th>
 </tr>
