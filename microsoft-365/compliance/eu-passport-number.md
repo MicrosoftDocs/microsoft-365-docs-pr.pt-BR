@@ -2,54 +2,54 @@
 title: Número do Passport da UE
 f1.keywords:
 - NOCSH
-ms.author: cabailey
-author: cabailey
+ms.author: chrfox
+author: chrfox
 manager: laurawi
-ms.date: 8/16/2018
+ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o tipo de informação confidencial do número do Passport da UE. Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.
-ms.openlocfilehash: 0032d3e50d7dab0b696d9000242e70956469052e
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 56eb79dd067ca89600f92ea57eaaf01e562f9388
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "41592112"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43938735"
 ---
-# <a name="eu-passport-number"></a><span data-ttu-id="ba2ae-104">Número do Passport da UE</span><span class="sxs-lookup"><span data-stu-id="ba2ae-104">EU Passport Number</span></span>
+# <a name="eu-passport-number"></a><span data-ttu-id="d89e3-104">Número do Passport da UE</span><span class="sxs-lookup"><span data-stu-id="d89e3-104">EU Passport Number</span></span>
 
-<span data-ttu-id="ba2ae-105">Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o tipo de informação confidencial do número do Passport da UE.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-105">This topic shows what a data loss prevention (DLP) policy looks for when it detects the EU Passport Number sensitive information type.</span></span> <span data-ttu-id="ba2ae-106">Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-106">This sensitive information type defines different patterns, keywords, and other evidence for each country.</span></span>
+<span data-ttu-id="d89e3-105">Este tópico mostra o que uma política de prevenção de perda de dados (DLP) procura quando detecta o tipo de informação confidencial do número do Passport da UE.</span><span class="sxs-lookup"><span data-stu-id="d89e3-105">This topic shows what a data loss prevention (DLP) policy looks for when it detects the EU Passport Number sensitive information type.</span></span> <span data-ttu-id="d89e3-106">Esse tipo de informação confidencial define diferentes padrões, palavras-chave e outras evidências para cada país.</span><span class="sxs-lookup"><span data-stu-id="d89e3-106">This sensitive information type defines different patterns, keywords, and other evidence for each country.</span></span>
   
-## <a name="austria"></a><span data-ttu-id="ba2ae-107">Áustria</span><span class="sxs-lookup"><span data-stu-id="ba2ae-107">Austria</span></span>
+## <a name="austria"></a><span data-ttu-id="d89e3-107">Áustria</span><span class="sxs-lookup"><span data-stu-id="d89e3-107">Austria</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-108">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-108">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-108">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-108">Format</span></span>
 
-<span data-ttu-id="ba2ae-109">Uma letra seguida de um espaço opcional e sete dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-109">One letter followed by an optional space and seven digits</span></span>
+<span data-ttu-id="d89e3-109">Uma letra seguida de um espaço opcional e sete dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-109">One letter followed by an optional space and seven digits</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-110">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-110">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-110">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-110">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-111">Uma combinação de uma letra, sete dígitos e um espaço:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-111">A combination of one letter, seven digits, and one space:</span></span>
+<span data-ttu-id="d89e3-111">Uma combinação de uma letra, sete dígitos e um espaço:</span><span class="sxs-lookup"><span data-stu-id="d89e3-111">A combination of one letter, seven digits, and one space:</span></span>
   
-- <span data-ttu-id="ba2ae-112">Uma letra (não diferencia maiúscula de minúscula)</span><span class="sxs-lookup"><span data-stu-id="ba2ae-112">One letter (not case sensitive)</span></span>
+- <span data-ttu-id="d89e3-112">Uma letra (não diferencia maiúscula de minúscula)</span><span class="sxs-lookup"><span data-stu-id="d89e3-112">One letter (not case sensitive)</span></span>
     
-- <span data-ttu-id="ba2ae-113">Um espaço (opcional)</span><span class="sxs-lookup"><span data-stu-id="ba2ae-113">One space (optional)</span></span>
+- <span data-ttu-id="d89e3-113">Um espaço (opcional)</span><span class="sxs-lookup"><span data-stu-id="d89e3-113">One space (optional)</span></span>
     
-- <span data-ttu-id="ba2ae-114">Sete dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-114">Seven digits</span></span>
+- <span data-ttu-id="d89e3-114">Sete dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-114">Seven digits</span></span>
     
-### <a name="checksum"></a><span data-ttu-id="ba2ae-115">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-115">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-115">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-115">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-116">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="ba2ae-116">Not applicable</span></span>
+<span data-ttu-id="d89e3-116">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="d89e3-116">Not applicable</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-117">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-117">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-117">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-117">Definition</span></span>
 
-<span data-ttu-id="ba2ae-118">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-118">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-118">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-118">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-119">A expressão `Regex_austria_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-119">The regular expression  `Regex_austria_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-119">A expressão `Regex_austria_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-119">The regular expression  `Regex_austria_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-120">Uma palavra- `Keywords_austria_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-120">A keyword from  `Keywords_austria_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-120">Uma palavra- `Keywords_austria_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-120">A keyword from  `Keywords_austria_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -61,34 +61,34 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-121">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-121">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-121">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-121">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-122">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-122">| |</span></span>
-|<span data-ttu-id="ba2ae-123">**Keywords_austria_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-123">**Keywords_austria_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-122">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-122">| |</span></span>
+|<span data-ttu-id="d89e3-123">**Keywords_austria_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-123">**Keywords_austria_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-124">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-124">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-125">número de passaporte austríaco</span><span class="sxs-lookup"><span data-stu-id="ba2ae-125">austrian passport number</span></span>  <br/> <span data-ttu-id="ba2ae-126">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-126">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-127">reisepass</span><span class="sxs-lookup"><span data-stu-id="ba2ae-127">reisepass</span></span>  <br/> <span data-ttu-id="ba2ae-128">österreichisch reisepass</span><span class="sxs-lookup"><span data-stu-id="ba2ae-128">österreichisch reisepass</span></span>  <br/> |
+|<span data-ttu-id="d89e3-124">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-124">passport number</span></span>  <br/> <span data-ttu-id="d89e3-125">número de passaporte austríaco</span><span class="sxs-lookup"><span data-stu-id="d89e3-125">austrian passport number</span></span>  <br/> <span data-ttu-id="d89e3-126">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-126">passport no</span></span>  <br/> <span data-ttu-id="d89e3-127">reisepass</span><span class="sxs-lookup"><span data-stu-id="d89e3-127">reisepass</span></span>  <br/> <span data-ttu-id="d89e3-128">österreichisch reisepass</span><span class="sxs-lookup"><span data-stu-id="d89e3-128">österreichisch reisepass</span></span>  <br/> |
    
-## <a name="belgium"></a><span data-ttu-id="ba2ae-129">Bélgica</span><span class="sxs-lookup"><span data-stu-id="ba2ae-129">Belgium</span></span>
+## <a name="belgium"></a><span data-ttu-id="d89e3-129">Bélgica</span><span class="sxs-lookup"><span data-stu-id="d89e3-129">Belgium</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-130">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-130">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-130">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-130">Format</span></span>
 
-<span data-ttu-id="ba2ae-131">Duas letras seguidas por seis dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-131">Two letters followed by six digits with no spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-131">Duas letras seguidas por seis dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-131">Two letters followed by six digits with no spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-132">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-132">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-132">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-132">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-133">Duas letras e seguidas por seis dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-133">Two letters and followed by six digits</span></span>
+<span data-ttu-id="d89e3-133">Duas letras e seguidas por seis dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-133">Two letters and followed by six digits</span></span>
   
-### <a name="checksum"></a><span data-ttu-id="ba2ae-134">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-134">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-134">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-134">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-135">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="ba2ae-135">Not applicable</span></span>
+<span data-ttu-id="d89e3-135">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="d89e3-135">Not applicable</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-136">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-136">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-136">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-136">Definition</span></span>
 
-<span data-ttu-id="ba2ae-137">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-137">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-137">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-137">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-138">A expressão `Regex_belgium_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-138">The regular expression  `Regex_belgium_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-138">A expressão `Regex_belgium_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-138">The regular expression  `Regex_belgium_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-139">Uma palavra- `Keywords_belgium_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-139">A keyword from  `Keywords_belgium_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-139">Uma palavra- `Keywords_belgium_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-139">A keyword from  `Keywords_belgium_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -100,34 +100,34 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-140">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-140">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-140">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-140">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-141">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-141">| |</span></span>
-|<span data-ttu-id="ba2ae-142">**Keywords_belgium_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-142">**Keywords_belgium_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-141">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-141">| |</span></span>
+|<span data-ttu-id="d89e3-142">**Keywords_belgium_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-142">**Keywords_belgium_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-143">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-143">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-144">número de passaporte belga</span><span class="sxs-lookup"><span data-stu-id="ba2ae-144">belgian passport number</span></span>  <br/> <span data-ttu-id="ba2ae-145">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-145">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-146">paspoort</span><span class="sxs-lookup"><span data-stu-id="ba2ae-146">paspoort</span></span>  <br/> <span data-ttu-id="ba2ae-147">paspoortnummer</span><span class="sxs-lookup"><span data-stu-id="ba2ae-147">paspoortnummer</span></span>  <br/> <span data-ttu-id="ba2ae-148">reisepass kein</span><span class="sxs-lookup"><span data-stu-id="ba2ae-148">reisepass kein</span></span>  <br/> <span data-ttu-id="ba2ae-149">reisepass</span><span class="sxs-lookup"><span data-stu-id="ba2ae-149">reisepass</span></span>  <br/> |
+|<span data-ttu-id="d89e3-143">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-143">passport number</span></span>  <br/> <span data-ttu-id="d89e3-144">número de passaporte belga</span><span class="sxs-lookup"><span data-stu-id="d89e3-144">belgian passport number</span></span>  <br/> <span data-ttu-id="d89e3-145">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-145">passport no</span></span>  <br/> <span data-ttu-id="d89e3-146">paspoort</span><span class="sxs-lookup"><span data-stu-id="d89e3-146">paspoort</span></span>  <br/> <span data-ttu-id="d89e3-147">paspoortnummer</span><span class="sxs-lookup"><span data-stu-id="d89e3-147">paspoortnummer</span></span>  <br/> <span data-ttu-id="d89e3-148">reisepass kein</span><span class="sxs-lookup"><span data-stu-id="d89e3-148">reisepass kein</span></span>  <br/> <span data-ttu-id="d89e3-149">reisepass</span><span class="sxs-lookup"><span data-stu-id="d89e3-149">reisepass</span></span>  <br/> |
    
-## <a name="bulgaria"></a><span data-ttu-id="ba2ae-150">Bulgária</span><span class="sxs-lookup"><span data-stu-id="ba2ae-150">Bulgaria</span></span>
+## <a name="bulgaria"></a><span data-ttu-id="d89e3-150">Bulgária</span><span class="sxs-lookup"><span data-stu-id="d89e3-150">Bulgaria</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-151">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-151">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-151">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-151">Format</span></span>
 
-<span data-ttu-id="ba2ae-152">Nove dígitos sem espaços e delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-152">Nine digits without spaces and delimiters</span></span>
+<span data-ttu-id="d89e3-152">Nove dígitos sem espaços e delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-152">Nine digits without spaces and delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-153">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-153">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-153">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-153">Pattern</span></span>
 
- <span data-ttu-id="ba2ae-154">Nove dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-154">Nine digits</span></span> 
+ <span data-ttu-id="d89e3-154">Nove dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-154">Nine digits</span></span> 
   
-### <a name="checksum"></a><span data-ttu-id="ba2ae-155">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-155">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-155">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-155">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-156">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-156">No</span></span>
+<span data-ttu-id="d89e3-156">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-156">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-157">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-157">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-157">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-157">Definition</span></span>
 
-<span data-ttu-id="ba2ae-158">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-158">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-158">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-158">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-159">A expressão `Regex_bulgaria_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-159">The regular expression  `Regex_bulgaria_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-159">A expressão `Regex_bulgaria_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-159">The regular expression  `Regex_bulgaria_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-160">Uma palavra- `Keywords_bulgaria_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-160">A keyword from  `Keywords_bulgaria_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-160">Uma palavra- `Keywords_bulgaria_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-160">A keyword from  `Keywords_bulgaria_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -139,34 +139,34 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-161">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-161">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-161">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-161">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-162">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-162">| |</span></span>
-|<span data-ttu-id="ba2ae-163">**Keywords_bulgaria_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-163">**Keywords_bulgaria_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-162">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-162">| |</span></span>
+|<span data-ttu-id="d89e3-163">**Keywords_bulgaria_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-163">**Keywords_bulgaria_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-164">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-164">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-165">número de passaporte búlgaro</span><span class="sxs-lookup"><span data-stu-id="ba2ae-165">bulgarian passport number</span></span>  <br/> <span data-ttu-id="ba2ae-166">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-166">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-167">номер на паспорта</span><span class="sxs-lookup"><span data-stu-id="ba2ae-167">номер на паспорта</span></span>  <br/> |
+|<span data-ttu-id="d89e3-164">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-164">passport number</span></span>  <br/> <span data-ttu-id="d89e3-165">número de passaporte búlgaro</span><span class="sxs-lookup"><span data-stu-id="d89e3-165">bulgarian passport number</span></span>  <br/> <span data-ttu-id="d89e3-166">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-166">passport no</span></span>  <br/> <span data-ttu-id="d89e3-167">номер на паспорта</span><span class="sxs-lookup"><span data-stu-id="d89e3-167">номер на паспорта</span></span>  <br/> |
    
-## <a name="croatia"></a><span data-ttu-id="ba2ae-168">Croácia</span><span class="sxs-lookup"><span data-stu-id="ba2ae-168">Croatia</span></span>
+## <a name="croatia"></a><span data-ttu-id="d89e3-168">Croácia</span><span class="sxs-lookup"><span data-stu-id="d89e3-168">Croatia</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-169">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-169">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-169">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-169">Format</span></span>
 
-<span data-ttu-id="ba2ae-170">Nove dígitos sem espaços e delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-170">Nine digits without spaces and delimiters</span></span>
+<span data-ttu-id="d89e3-170">Nove dígitos sem espaços e delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-170">Nine digits without spaces and delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-171">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-171">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-171">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-171">Pattern</span></span>
 
- <span data-ttu-id="ba2ae-172">Nove dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-172">Nine digits</span></span> 
+ <span data-ttu-id="d89e3-172">Nove dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-172">Nine digits</span></span> 
   
-### <a name="checksum"></a><span data-ttu-id="ba2ae-173">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-173">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-173">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-173">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-174">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-174">No</span></span>
+<span data-ttu-id="d89e3-174">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-174">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-175">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-175">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-175">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-175">Definition</span></span>
 
-<span data-ttu-id="ba2ae-176">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-176">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-176">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-176">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-177">A expressão `Regex_croatia_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-177">The regular expression  `Regex_croatia_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-177">A expressão `Regex_croatia_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-177">The regular expression  `Regex_croatia_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-178">Uma palavra- `Keywords_croatia_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-178">A keyword from  `Keywords_croatia_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-178">Uma palavra- `Keywords_croatia_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-178">A keyword from  `Keywords_croatia_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -178,34 +178,34 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-179">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-179">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-179">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-179">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-180">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-180">| |</span></span>
-|<span data-ttu-id="ba2ae-181">**Keywords_croatia_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-181">**Keywords_croatia_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-180">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-180">| |</span></span>
+|<span data-ttu-id="d89e3-181">**Keywords_croatia_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-181">**Keywords_croatia_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-182">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-182">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-183">número de passaporte Croata</span><span class="sxs-lookup"><span data-stu-id="ba2ae-183">croatian passport number</span></span>  <br/> <span data-ttu-id="ba2ae-184">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-184">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-185">broj putovnice</span><span class="sxs-lookup"><span data-stu-id="ba2ae-185">broj putovnice</span></span>  <br/> |
+|<span data-ttu-id="d89e3-182">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-182">passport number</span></span>  <br/> <span data-ttu-id="d89e3-183">número de passaporte Croata</span><span class="sxs-lookup"><span data-stu-id="d89e3-183">croatian passport number</span></span>  <br/> <span data-ttu-id="d89e3-184">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-184">passport no</span></span>  <br/> <span data-ttu-id="d89e3-185">broj putovnice</span><span class="sxs-lookup"><span data-stu-id="d89e3-185">broj putovnice</span></span>  <br/> |
    
-## <a name="cyprus"></a><span data-ttu-id="ba2ae-186">Chipre</span><span class="sxs-lookup"><span data-stu-id="ba2ae-186">Cyprus</span></span>
+## <a name="cyprus"></a><span data-ttu-id="d89e3-186">Chipre</span><span class="sxs-lookup"><span data-stu-id="d89e3-186">Cyprus</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-187">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-187">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-187">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-187">Format</span></span>
 
-<span data-ttu-id="ba2ae-188">Uma letra seguida de 6-8 dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-188">One letter followed by 6-8 digits with no spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-188">Uma letra seguida de 6-8 dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-188">One letter followed by 6-8 digits with no spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-189">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-189">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-189">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-189">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-190">Uma letra seguida de seis a oito dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-190">One letter followed by six to eight digits</span></span>
+<span data-ttu-id="d89e3-190">Uma letra seguida de seis a oito dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-190">One letter followed by six to eight digits</span></span>
   
-### <a name="checksum"></a><span data-ttu-id="ba2ae-191">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-191">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-191">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-191">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-192">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-192">No</span></span>
+<span data-ttu-id="d89e3-192">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-192">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-193">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-193">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-193">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-193">Definition</span></span>
 
-<span data-ttu-id="ba2ae-194">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-194">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-194">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-194">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-195">A expressão `Regex_cyprus_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-195">The regular expression  `Regex_cyprus_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-195">A expressão `Regex_cyprus_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-195">The regular expression  `Regex_cyprus_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-196">Uma palavra- `Keywords_cyprus_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-196">A keyword from  `Keywords_cyprus_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-196">Uma palavra- `Keywords_cyprus_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-196">A keyword from  `Keywords_cyprus_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -217,34 +217,34 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-197">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-197">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-197">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-197">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-198">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-198">| |</span></span>
-|<span data-ttu-id="ba2ae-199">**Keywords_cyprus_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-199">**Keywords_cyprus_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-198">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-198">| |</span></span>
+|<span data-ttu-id="d89e3-199">**Keywords_cyprus_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-199">**Keywords_cyprus_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-200">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-200">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-201">número de passaporte do Chipre</span><span class="sxs-lookup"><span data-stu-id="ba2ae-201">cyprus passport number</span></span>  <br/> <span data-ttu-id="ba2ae-202">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-202">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-203">αριθμό διαβατηρίου</span><span class="sxs-lookup"><span data-stu-id="ba2ae-203">αριθμό διαβατηρίου</span></span>  <br/> |
+|<span data-ttu-id="d89e3-200">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-200">passport number</span></span>  <br/> <span data-ttu-id="d89e3-201">número de passaporte do Chipre</span><span class="sxs-lookup"><span data-stu-id="d89e3-201">cyprus passport number</span></span>  <br/> <span data-ttu-id="d89e3-202">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-202">passport no</span></span>  <br/> <span data-ttu-id="d89e3-203">αριθμό διαβατηρίου</span><span class="sxs-lookup"><span data-stu-id="d89e3-203">αριθμό διαβατηρίου</span></span>  <br/> |
    
-## <a name="czech-republic"></a><span data-ttu-id="ba2ae-204">República Tcheca</span><span class="sxs-lookup"><span data-stu-id="ba2ae-204">Czech Republic</span></span>
+## <a name="czech-republic"></a><span data-ttu-id="d89e3-204">República Tcheca</span><span class="sxs-lookup"><span data-stu-id="d89e3-204">Czech Republic</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-205">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-205">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-205">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-205">Format</span></span>
 
-<span data-ttu-id="ba2ae-206">Oito dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-206">Eight digits without spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-206">Oito dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-206">Eight digits without spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-207">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-207">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-207">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-207">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-208">Oito dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-208">Eight digits without spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-208">Oito dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-208">Eight digits without spaces or delimiters</span></span>
   
-### <a name="checksum"></a><span data-ttu-id="ba2ae-209">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-209">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-209">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-209">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-210">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-210">No</span></span>
+<span data-ttu-id="d89e3-210">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-210">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-211">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-211">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-211">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-211">Definition</span></span>
 
-<span data-ttu-id="ba2ae-212">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-212">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-212">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-212">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-213">A expressão `Regex_czech_republic_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-213">The regular expression  `Regex_czech_republic_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-213">A expressão `Regex_czech_republic_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-213">The regular expression  `Regex_czech_republic_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-214">Uma palavra- `Keywords_czech_republic_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-214">A keyword from  `Keywords_czech_republic_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-214">Uma palavra- `Keywords_czech_republic_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-214">A keyword from  `Keywords_czech_republic_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -256,34 +256,34 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-215">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-215">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-215">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-215">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-216">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-216">| |</span></span>
-|<span data-ttu-id="ba2ae-217">**Keywords_czech_republic_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-217">**Keywords_czech_republic_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-216">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-216">| |</span></span>
+|<span data-ttu-id="d89e3-217">**Keywords_czech_republic_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-217">**Keywords_czech_republic_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-218">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-218">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-219">número de passaporte tcheco</span><span class="sxs-lookup"><span data-stu-id="ba2ae-219">czech passport number</span></span>  <br/> <span data-ttu-id="ba2ae-220">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-220">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-221">Pas cestovní</span><span class="sxs-lookup"><span data-stu-id="ba2ae-221">cestovní pas</span></span>  <br/> <span data-ttu-id="ba2ae-222">Pas</span><span class="sxs-lookup"><span data-stu-id="ba2ae-222">pas</span></span>  <br/> |
+|<span data-ttu-id="d89e3-218">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-218">passport number</span></span>  <br/> <span data-ttu-id="d89e3-219">número de passaporte tcheco</span><span class="sxs-lookup"><span data-stu-id="d89e3-219">czech passport number</span></span>  <br/> <span data-ttu-id="d89e3-220">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-220">passport no</span></span>  <br/> <span data-ttu-id="d89e3-221">Pas cestovní</span><span class="sxs-lookup"><span data-stu-id="d89e3-221">cestovní pas</span></span>  <br/> <span data-ttu-id="d89e3-222">Pas</span><span class="sxs-lookup"><span data-stu-id="d89e3-222">pas</span></span>  <br/> |
    
-## <a name="denmark"></a><span data-ttu-id="ba2ae-223">Dinamarca</span><span class="sxs-lookup"><span data-stu-id="ba2ae-223">Denmark</span></span>
+## <a name="denmark"></a><span data-ttu-id="d89e3-223">Dinamarca</span><span class="sxs-lookup"><span data-stu-id="d89e3-223">Denmark</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-224">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-224">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-224">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-224">Format</span></span>
 
-<span data-ttu-id="ba2ae-225">Nove dígitos sem espaços e delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-225">Nine digits without spaces and delimiters</span></span>
+<span data-ttu-id="d89e3-225">Nove dígitos sem espaços e delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-225">Nine digits without spaces and delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-226">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-226">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-226">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-226">Pattern</span></span>
 
- <span data-ttu-id="ba2ae-227">Nove dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-227">Nine digits</span></span> 
+ <span data-ttu-id="d89e3-227">Nove dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-227">Nine digits</span></span> 
   
-### <a name="checksum"></a><span data-ttu-id="ba2ae-228">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-228">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-228">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-228">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-229">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-229">No</span></span>
+<span data-ttu-id="d89e3-229">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-229">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-230">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-230">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-230">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-230">Definition</span></span>
 
-<span data-ttu-id="ba2ae-231">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-231">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-231">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-231">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-232">A expressão `Regex_denmark_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-232">The regular expression  `Regex_denmark_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-232">A expressão `Regex_denmark_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-232">The regular expression  `Regex_denmark_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-233">Uma palavra- `Keywords_denmark_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-233">A keyword from  `Keywords_denmark_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-233">Uma palavra- `Keywords_denmark_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-233">A keyword from  `Keywords_denmark_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -295,34 +295,34 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-234">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-234">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-234">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-234">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-235">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-235">| |</span></span>
-|<span data-ttu-id="ba2ae-236">**Keywords_denmark_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-236">**Keywords_denmark_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-235">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-235">| |</span></span>
+|<span data-ttu-id="d89e3-236">**Keywords_denmark_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-236">**Keywords_denmark_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-237">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-237">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-238">número de passaporte dinamarquês</span><span class="sxs-lookup"><span data-stu-id="ba2ae-238">danish passport number</span></span>  <br/> <span data-ttu-id="ba2ae-239">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-239">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-240">Pas</span><span class="sxs-lookup"><span data-stu-id="ba2ae-240">pas</span></span>  <br/> <span data-ttu-id="ba2ae-241">pasnummer</span><span class="sxs-lookup"><span data-stu-id="ba2ae-241">pasnummer</span></span>  <br/> |
+|<span data-ttu-id="d89e3-237">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-237">passport number</span></span>  <br/> <span data-ttu-id="d89e3-238">número de passaporte dinamarquês</span><span class="sxs-lookup"><span data-stu-id="d89e3-238">danish passport number</span></span>  <br/> <span data-ttu-id="d89e3-239">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-239">passport no</span></span>  <br/> <span data-ttu-id="d89e3-240">Pas</span><span class="sxs-lookup"><span data-stu-id="d89e3-240">pas</span></span>  <br/> <span data-ttu-id="d89e3-241">pasnummer</span><span class="sxs-lookup"><span data-stu-id="d89e3-241">pasnummer</span></span>  <br/> |
    
-## <a name="estonia"></a><span data-ttu-id="ba2ae-242">Estônia</span><span class="sxs-lookup"><span data-stu-id="ba2ae-242">Estonia</span></span>
+## <a name="estonia"></a><span data-ttu-id="d89e3-242">Estônia</span><span class="sxs-lookup"><span data-stu-id="d89e3-242">Estonia</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-243">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-243">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-243">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-243">Format</span></span>
 
-<span data-ttu-id="ba2ae-244">Uma letra seguida por sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-244">One letter followed by seven digits with no spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-244">Uma letra seguida por sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-244">One letter followed by seven digits with no spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-245">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-245">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-245">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-245">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-246">Uma letra seguida por sete dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-246">One letter followed by seven digits</span></span>
+<span data-ttu-id="d89e3-246">Uma letra seguida por sete dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-246">One letter followed by seven digits</span></span>
   
-### <a name="checksum"></a><span data-ttu-id="ba2ae-247">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-247">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-247">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-247">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-248">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-248">No</span></span>
+<span data-ttu-id="d89e3-248">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-248">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-249">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-249">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-249">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-249">Definition</span></span>
 
-<span data-ttu-id="ba2ae-250">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-250">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-250">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-250">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-251">A expressão `Regex_estonia_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-251">The regular expression  `Regex_estonia_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-251">A expressão `Regex_estonia_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-251">The regular expression  `Regex_estonia_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-252">Uma palavra- `Keywords_estonia_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-252">A keyword from  `Keywords_estonia_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-252">Uma palavra- `Keywords_estonia_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-252">A keyword from  `Keywords_estonia_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -334,46 +334,46 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-253">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-253">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-253">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-253">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-254">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-254">| |</span></span>
-|<span data-ttu-id="ba2ae-255">**Keywords_estonia_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-255">**Keywords_estonia_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-254">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-254">| |</span></span>
+|<span data-ttu-id="d89e3-255">**Keywords_estonia_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-255">**Keywords_estonia_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-256">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-256">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-257">número de passaporte estoniano</span><span class="sxs-lookup"><span data-stu-id="ba2ae-257">estonian passport number</span></span>  <br/> <span data-ttu-id="ba2ae-258">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-258">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-259">Eesti kodaniku</span><span class="sxs-lookup"><span data-stu-id="ba2ae-259">eesti kodaniku pass</span></span>  <br/> |
+|<span data-ttu-id="d89e3-256">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-256">passport number</span></span>  <br/> <span data-ttu-id="d89e3-257">número de passaporte estoniano</span><span class="sxs-lookup"><span data-stu-id="d89e3-257">estonian passport number</span></span>  <br/> <span data-ttu-id="d89e3-258">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-258">passport no</span></span>  <br/> <span data-ttu-id="d89e3-259">Eesti kodaniku</span><span class="sxs-lookup"><span data-stu-id="d89e3-259">eesti kodaniku pass</span></span>  <br/> |
    
-## <a name="finland"></a><span data-ttu-id="ba2ae-260">Finlândia</span><span class="sxs-lookup"><span data-stu-id="ba2ae-260">Finland</span></span>
+## <a name="finland"></a><span data-ttu-id="d89e3-260">Finlândia</span><span class="sxs-lookup"><span data-stu-id="d89e3-260">Finland</span></span>
 
-<span data-ttu-id="ba2ae-261">Para obter detalhes, consulte a seção "número de passaporte da Finlândia" em [o que os tipos de informações confidenciais buscam](what-the-sensitive-information-types-look-for.md).</span><span class="sxs-lookup"><span data-stu-id="ba2ae-261">For details, see the section "Finland Passport Number" in [What the sensitive information types look for](what-the-sensitive-information-types-look-for.md).</span></span>
+<span data-ttu-id="d89e3-261">Para obter detalhes, consulte a seção "número de passaporte da Finlândia" em [o que os tipos de informações confidenciais buscam](what-the-sensitive-information-types-look-for.md).</span><span class="sxs-lookup"><span data-stu-id="d89e3-261">For details, see the section "Finland Passport Number" in [What the sensitive information types look for](what-the-sensitive-information-types-look-for.md).</span></span>
   
-## <a name="france"></a><span data-ttu-id="ba2ae-262">França</span><span class="sxs-lookup"><span data-stu-id="ba2ae-262">France</span></span>
+## <a name="france"></a><span data-ttu-id="d89e3-262">França</span><span class="sxs-lookup"><span data-stu-id="d89e3-262">France</span></span>
 
-<span data-ttu-id="ba2ae-263">Para obter detalhes, consulte a seção "número do passaporte da França" em [o que os tipos de informações confidenciais buscam](what-the-sensitive-information-types-look-for.md).</span><span class="sxs-lookup"><span data-stu-id="ba2ae-263">For details, see the section "France Passport Number" in [What the sensitive information types look for](what-the-sensitive-information-types-look-for.md).</span></span>
+<span data-ttu-id="d89e3-263">Para obter detalhes, consulte a seção "número do passaporte da França" em [o que os tipos de informações confidenciais buscam](what-the-sensitive-information-types-look-for.md).</span><span class="sxs-lookup"><span data-stu-id="d89e3-263">For details, see the section "France Passport Number" in [What the sensitive information types look for](what-the-sensitive-information-types-look-for.md).</span></span>
   
-## <a name="germany"></a><span data-ttu-id="ba2ae-264">Alemanha</span><span class="sxs-lookup"><span data-stu-id="ba2ae-264">Germany</span></span>
+## <a name="germany"></a><span data-ttu-id="d89e3-264">Alemanha</span><span class="sxs-lookup"><span data-stu-id="d89e3-264">Germany</span></span>
 
-<span data-ttu-id="ba2ae-265">Para obter detalhes, consulte a seção "número do passaporte em alemão" em [o que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md).</span><span class="sxs-lookup"><span data-stu-id="ba2ae-265">For details, see the section "German Passport Number" in [What the sensitive information types look for](what-the-sensitive-information-types-look-for.md).</span></span>
+<span data-ttu-id="d89e3-265">Para obter detalhes, consulte a seção "número do passaporte em alemão" em [o que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md).</span><span class="sxs-lookup"><span data-stu-id="d89e3-265">For details, see the section "German Passport Number" in [What the sensitive information types look for](what-the-sensitive-information-types-look-for.md).</span></span>
   
-## <a name="greece"></a><span data-ttu-id="ba2ae-266">Grécia</span><span class="sxs-lookup"><span data-stu-id="ba2ae-266">Greece</span></span>
+## <a name="greece"></a><span data-ttu-id="d89e3-266">Grécia</span><span class="sxs-lookup"><span data-stu-id="d89e3-266">Greece</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-267">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-267">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-267">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-267">Format</span></span>
 
-<span data-ttu-id="ba2ae-268">Duas letras seguidas por sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-268">Two letters followed by seven digits with no spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-268">Duas letras seguidas por sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-268">Two letters followed by seven digits with no spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-269">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-269">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-269">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-269">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-270">Duas letras seguidas por sete dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-270">Two letters followed by seven digits</span></span>
+<span data-ttu-id="d89e3-270">Duas letras seguidas por sete dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-270">Two letters followed by seven digits</span></span>
   
-### <a name="checksum"></a><span data-ttu-id="ba2ae-271">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-271">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-271">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-271">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-272">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-272">No</span></span>
+<span data-ttu-id="d89e3-272">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-272">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-273">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-273">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-273">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-273">Definition</span></span>
 
-<span data-ttu-id="ba2ae-274">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-274">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-274">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-274">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-275">A expressão `Regex_greece_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-275">The regular expression  `Regex_greece_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-275">A expressão `Regex_greece_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-275">The regular expression  `Regex_greece_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-276">Uma palavra- `Keywords_greece_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-276">A keyword from  `Keywords_greece_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-276">Uma palavra- `Keywords_greece_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-276">A keyword from  `Keywords_greece_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -385,34 +385,34 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-277">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-277">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-277">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-277">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-278">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-278">| |</span></span>
-|<span data-ttu-id="ba2ae-279">**Keywords_greece_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-279">**Keywords_greece_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-278">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-278">| |</span></span>
+|<span data-ttu-id="d89e3-279">**Keywords_greece_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-279">**Keywords_greece_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-280">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-280">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-281">número de passaporte grego</span><span class="sxs-lookup"><span data-stu-id="ba2ae-281">greek passport number</span></span>  <br/> <span data-ttu-id="ba2ae-282">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-282">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-283">διαβατηριο</span><span class="sxs-lookup"><span data-stu-id="ba2ae-283">διαβατηριο</span></span>  <br/> |
+|<span data-ttu-id="d89e3-280">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-280">passport number</span></span>  <br/> <span data-ttu-id="d89e3-281">número de passaporte grego</span><span class="sxs-lookup"><span data-stu-id="d89e3-281">greek passport number</span></span>  <br/> <span data-ttu-id="d89e3-282">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-282">passport no</span></span>  <br/> <span data-ttu-id="d89e3-283">διαβατηριο</span><span class="sxs-lookup"><span data-stu-id="d89e3-283">διαβατηριο</span></span>  <br/> |
    
-## <a name="hungary"></a><span data-ttu-id="ba2ae-284">Hungria</span><span class="sxs-lookup"><span data-stu-id="ba2ae-284">Hungary</span></span>
+## <a name="hungary"></a><span data-ttu-id="d89e3-284">Hungria</span><span class="sxs-lookup"><span data-stu-id="d89e3-284">Hungary</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-285">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-285">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-285">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-285">Format</span></span>
 
-<span data-ttu-id="ba2ae-286">Duas letras seguidas por seis ou sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-286">Two letters followed by six or seven digits with no spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-286">Duas letras seguidas por seis ou sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-286">Two letters followed by six or seven digits with no spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-287">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-287">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-287">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-287">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-288">Duas letras seguidas por seis ou sete dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-288">Two letters followed by six or seven digits</span></span>
+<span data-ttu-id="d89e3-288">Duas letras seguidas por seis ou sete dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-288">Two letters followed by six or seven digits</span></span>
   
-### <a name="checksum"></a><span data-ttu-id="ba2ae-289">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-289">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-289">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-289">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-290">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-290">No</span></span>
+<span data-ttu-id="d89e3-290">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-290">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-291">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-291">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-291">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-291">Definition</span></span>
 
-<span data-ttu-id="ba2ae-292">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-292">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-292">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-292">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-293">A expressão `Regex_hungary_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-293">The regular expression  `Regex_hungary_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-293">A expressão `Regex_hungary_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-293">The regular expression  `Regex_hungary_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-294">Uma palavra- `Keywords_hungary_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-294">A keyword from  `Keywords_hungary_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-294">Uma palavra- `Keywords_hungary_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-294">A keyword from  `Keywords_hungary_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -424,38 +424,38 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-295">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-295">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-295">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-295">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-296">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-296">| |</span></span>
-|<span data-ttu-id="ba2ae-297">**Keywords_hungary_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-297">**Keywords_hungary_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-296">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-296">| |</span></span>
+|<span data-ttu-id="d89e3-297">**Keywords_hungary_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-297">**Keywords_hungary_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-298">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-298">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-299">número de passaporte húngaro</span><span class="sxs-lookup"><span data-stu-id="ba2ae-299">hungarian passport number</span></span>  <br/> <span data-ttu-id="ba2ae-300">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-300">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-301">útlevél száma</span><span class="sxs-lookup"><span data-stu-id="ba2ae-301">útlevél száma</span></span>  <br/> |
+|<span data-ttu-id="d89e3-298">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-298">passport number</span></span>  <br/> <span data-ttu-id="d89e3-299">número de passaporte húngaro</span><span class="sxs-lookup"><span data-stu-id="d89e3-299">hungarian passport number</span></span>  <br/> <span data-ttu-id="d89e3-300">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-300">passport no</span></span>  <br/> <span data-ttu-id="d89e3-301">útlevél száma</span><span class="sxs-lookup"><span data-stu-id="d89e3-301">útlevél száma</span></span>  <br/> |
    
-## <a name="ireland"></a><span data-ttu-id="ba2ae-302">Irlanda</span><span class="sxs-lookup"><span data-stu-id="ba2ae-302">Ireland</span></span>
+## <a name="ireland"></a><span data-ttu-id="d89e3-302">Irlanda</span><span class="sxs-lookup"><span data-stu-id="d89e3-302">Ireland</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-303">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-303">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-303">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-303">Format</span></span>
 
-<span data-ttu-id="ba2ae-304">Duas letras ou dígitos seguidos de sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-304">Two letters or digits followed by seven digits with no spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-304">Duas letras ou dígitos seguidos de sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-304">Two letters or digits followed by seven digits with no spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-305">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-305">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-305">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-305">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-306">Duas letras ou dígitos seguidos por sete dígitos:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-306">Two letters or digits followed by seven digits:</span></span>
+<span data-ttu-id="d89e3-306">Duas letras ou dígitos seguidos por sete dígitos:</span><span class="sxs-lookup"><span data-stu-id="d89e3-306">Two letters or digits followed by seven digits:</span></span>
   
-- <span data-ttu-id="ba2ae-307">Dois dígitos ou letras (não diferenciam maiúsculas de minúsculas)</span><span class="sxs-lookup"><span data-stu-id="ba2ae-307">Two digits or letters (not case sensitive)</span></span>
+- <span data-ttu-id="d89e3-307">Dois dígitos ou letras (não diferenciam maiúsculas de minúsculas)</span><span class="sxs-lookup"><span data-stu-id="d89e3-307">Two digits or letters (not case sensitive)</span></span>
     
-- <span data-ttu-id="ba2ae-308">Sete dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-308">Seven digits</span></span>
+- <span data-ttu-id="d89e3-308">Sete dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-308">Seven digits</span></span>
     
-### <a name="checksum"></a><span data-ttu-id="ba2ae-309">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-309">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-309">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-309">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-310">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-310">No</span></span>
+<span data-ttu-id="d89e3-310">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-310">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-311">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-311">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-311">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-311">Definition</span></span>
 
-<span data-ttu-id="ba2ae-312">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-312">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-312">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-312">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-313">A expressão `Regex_ireland_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-313">The regular expression  `Regex_ireland_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-313">A expressão `Regex_ireland_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-313">The regular expression  `Regex_ireland_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-314">Uma palavra- `Keywords_ireland_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-314">A keyword from  `Keywords_ireland_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-314">Uma palavra- `Keywords_ireland_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-314">A keyword from  `Keywords_ireland_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -467,38 +467,38 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-315">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-315">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-315">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-315">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-316">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-316">| |</span></span>
-|<span data-ttu-id="ba2ae-317">**Keywords_ireland_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-317">**Keywords_ireland_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-316">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-316">| |</span></span>
+|<span data-ttu-id="d89e3-317">**Keywords_ireland_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-317">**Keywords_ireland_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-318">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-318">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-319">número de passaporte do irlandês</span><span class="sxs-lookup"><span data-stu-id="ba2ae-319">irish passport number</span></span>  <br/> <span data-ttu-id="ba2ae-320">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-320">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-321">Pas</span><span class="sxs-lookup"><span data-stu-id="ba2ae-321">pas</span></span>  <br/> <span data-ttu-id="ba2ae-322">Passaport</span><span class="sxs-lookup"><span data-stu-id="ba2ae-322">passport</span></span>  <br/> <span data-ttu-id="ba2ae-323">passeport</span><span class="sxs-lookup"><span data-stu-id="ba2ae-323">passeport</span></span>  <br/> <span data-ttu-id="ba2ae-324">passeport numero</span><span class="sxs-lookup"><span data-stu-id="ba2ae-324">passeport numero</span></span>  <br/> |
+|<span data-ttu-id="d89e3-318">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-318">passport number</span></span>  <br/> <span data-ttu-id="d89e3-319">número de passaporte do irlandês</span><span class="sxs-lookup"><span data-stu-id="d89e3-319">irish passport number</span></span>  <br/> <span data-ttu-id="d89e3-320">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-320">passport no</span></span>  <br/> <span data-ttu-id="d89e3-321">Pas</span><span class="sxs-lookup"><span data-stu-id="d89e3-321">pas</span></span>  <br/> <span data-ttu-id="d89e3-322">Passaport</span><span class="sxs-lookup"><span data-stu-id="d89e3-322">passport</span></span>  <br/> <span data-ttu-id="d89e3-323">passeport</span><span class="sxs-lookup"><span data-stu-id="d89e3-323">passeport</span></span>  <br/> <span data-ttu-id="d89e3-324">passeport numero</span><span class="sxs-lookup"><span data-stu-id="d89e3-324">passeport numero</span></span>  <br/> |
    
-## <a name="italy"></a><span data-ttu-id="ba2ae-325">Itália</span><span class="sxs-lookup"><span data-stu-id="ba2ae-325">Italy</span></span>
+## <a name="italy"></a><span data-ttu-id="d89e3-325">Itália</span><span class="sxs-lookup"><span data-stu-id="d89e3-325">Italy</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-326">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-326">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-326">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-326">Format</span></span>
 
-<span data-ttu-id="ba2ae-327">Duas letras ou dígitos seguidos de sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-327">Two letters or digits followed by seven digits with no spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-327">Duas letras ou dígitos seguidos de sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-327">Two letters or digits followed by seven digits with no spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-328">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-328">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-328">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-328">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-329">Duas letras ou dígitos seguidos por sete dígitos:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-329">Two letters or digits followed by seven digits:</span></span>
+<span data-ttu-id="d89e3-329">Duas letras ou dígitos seguidos por sete dígitos:</span><span class="sxs-lookup"><span data-stu-id="d89e3-329">Two letters or digits followed by seven digits:</span></span>
   
-- <span data-ttu-id="ba2ae-330">Dois dígitos ou letras (não diferenciam maiúsculas de minúsculas)</span><span class="sxs-lookup"><span data-stu-id="ba2ae-330">Two digits or letters (not case sensitive)</span></span>
+- <span data-ttu-id="d89e3-330">Dois dígitos ou letras (não diferenciam maiúsculas de minúsculas)</span><span class="sxs-lookup"><span data-stu-id="d89e3-330">Two digits or letters (not case sensitive)</span></span>
     
-- <span data-ttu-id="ba2ae-331">Sete dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-331">Seven digits</span></span>
+- <span data-ttu-id="d89e3-331">Sete dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-331">Seven digits</span></span>
     
-### <a name="checksum"></a><span data-ttu-id="ba2ae-332">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-332">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-332">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-332">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-333">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="ba2ae-333">Not applicable</span></span>
+<span data-ttu-id="d89e3-333">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="d89e3-333">Not applicable</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-334">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-334">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-334">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-334">Definition</span></span>
 
-<span data-ttu-id="ba2ae-335">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-335">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-335">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-335">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-336">A expressão `Regex_italy_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-336">The regular expression  `Regex_italy_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-336">A expressão `Regex_italy_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-336">The regular expression  `Regex_italy_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-337">Uma palavra- `Keywords_italy_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-337">A keyword from  `Keywords_italy_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-337">Uma palavra- `Keywords_italy_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-337">A keyword from  `Keywords_italy_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -510,38 +510,38 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-338">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-338">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-338">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-338">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-339">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-339">| |</span></span>
-|<span data-ttu-id="ba2ae-340">**Keywords_italy_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-340">**Keywords_italy_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-339">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-339">| |</span></span>
+|<span data-ttu-id="d89e3-340">**Keywords_italy_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-340">**Keywords_italy_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-341">número de passaporte italiano</span><span class="sxs-lookup"><span data-stu-id="ba2ae-341">italian passport number</span></span>  <br/> <span data-ttu-id="ba2ae-342">repubblica italiana passaporto</span><span class="sxs-lookup"><span data-stu-id="ba2ae-342">repubblica italiana passaporto</span></span>  <br/> <span data-ttu-id="ba2ae-343">passaporto</span><span class="sxs-lookup"><span data-stu-id="ba2ae-343">passaporto</span></span>  <br/> <span data-ttu-id="ba2ae-344">passaporto italiana</span><span class="sxs-lookup"><span data-stu-id="ba2ae-344">passaporto italiana</span></span>  <br/> <span data-ttu-id="ba2ae-345">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-345">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-346">italiana passaporto numero</span><span class="sxs-lookup"><span data-stu-id="ba2ae-346">italiana passaporto numero</span></span>  <br/> <span data-ttu-id="ba2ae-347">passaporto numero</span><span class="sxs-lookup"><span data-stu-id="ba2ae-347">passaporto numero</span></span>  <br/> <span data-ttu-id="ba2ae-348">numéro passeport italien</span><span class="sxs-lookup"><span data-stu-id="ba2ae-348">numéro passeport italien</span></span>  <br/> <span data-ttu-id="ba2ae-349">numéro passeport</span><span class="sxs-lookup"><span data-stu-id="ba2ae-349">numéro passeport</span></span>  <br/> |
+|<span data-ttu-id="d89e3-341">número de passaporte italiano</span><span class="sxs-lookup"><span data-stu-id="d89e3-341">italian passport number</span></span>  <br/> <span data-ttu-id="d89e3-342">repubblica italiana passaporto</span><span class="sxs-lookup"><span data-stu-id="d89e3-342">repubblica italiana passaporto</span></span>  <br/> <span data-ttu-id="d89e3-343">passaporto</span><span class="sxs-lookup"><span data-stu-id="d89e3-343">passaporto</span></span>  <br/> <span data-ttu-id="d89e3-344">passaporto italiana</span><span class="sxs-lookup"><span data-stu-id="d89e3-344">passaporto italiana</span></span>  <br/> <span data-ttu-id="d89e3-345">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-345">passport number</span></span>  <br/> <span data-ttu-id="d89e3-346">italiana passaporto numero</span><span class="sxs-lookup"><span data-stu-id="d89e3-346">italiana passaporto numero</span></span>  <br/> <span data-ttu-id="d89e3-347">passaporto numero</span><span class="sxs-lookup"><span data-stu-id="d89e3-347">passaporto numero</span></span>  <br/> <span data-ttu-id="d89e3-348">numéro passeport italien</span><span class="sxs-lookup"><span data-stu-id="d89e3-348">numéro passeport italien</span></span>  <br/> <span data-ttu-id="d89e3-349">numéro passeport</span><span class="sxs-lookup"><span data-stu-id="d89e3-349">numéro passeport</span></span>  <br/> |
    
-## <a name="latvia"></a><span data-ttu-id="ba2ae-350">Letônia</span><span class="sxs-lookup"><span data-stu-id="ba2ae-350">Latvia</span></span>
+## <a name="latvia"></a><span data-ttu-id="d89e3-350">Letônia</span><span class="sxs-lookup"><span data-stu-id="d89e3-350">Latvia</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-351">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-351">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-351">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-351">Format</span></span>
 
-<span data-ttu-id="ba2ae-352">Duas letras ou dígitos seguidos de sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-352">Two letters or digits followed by seven digits with no spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-352">Duas letras ou dígitos seguidos de sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-352">Two letters or digits followed by seven digits with no spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-353">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-353">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-353">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-353">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-354">Duas letras ou dígitos seguidos por sete dígitos:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-354">Two letters or digits followed by seven digits:</span></span>
+<span data-ttu-id="d89e3-354">Duas letras ou dígitos seguidos por sete dígitos:</span><span class="sxs-lookup"><span data-stu-id="d89e3-354">Two letters or digits followed by seven digits:</span></span>
   
-- <span data-ttu-id="ba2ae-355">Dois dígitos ou letras (não diferenciam maiúsculas de minúsculas)</span><span class="sxs-lookup"><span data-stu-id="ba2ae-355">Two digits or letters (not case sensitive)</span></span>
+- <span data-ttu-id="d89e3-355">Dois dígitos ou letras (não diferenciam maiúsculas de minúsculas)</span><span class="sxs-lookup"><span data-stu-id="d89e3-355">Two digits or letters (not case sensitive)</span></span>
     
-- <span data-ttu-id="ba2ae-356">Sete dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-356">Seven digits</span></span>
+- <span data-ttu-id="d89e3-356">Sete dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-356">Seven digits</span></span>
     
-### <a name="checksum"></a><span data-ttu-id="ba2ae-357">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-357">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-357">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-357">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-358">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-358">No</span></span>
+<span data-ttu-id="d89e3-358">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-358">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-359">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-359">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-359">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-359">Definition</span></span>
 
-<span data-ttu-id="ba2ae-360">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-360">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-360">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-360">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-361">A expressão `Regex_latvia_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-361">The regular expression  `Regex_latvia_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-361">A expressão `Regex_latvia_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-361">The regular expression  `Regex_latvia_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-362">Uma palavra- `Keywords_latvia_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-362">A keyword from  `Keywords_latvia_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-362">Uma palavra- `Keywords_latvia_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-362">A keyword from  `Keywords_latvia_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -553,34 +553,34 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-363">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-363">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-363">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-363">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-364">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-364">| |</span></span>
-|<span data-ttu-id="ba2ae-365">**Keywords_latvia_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-365">**Keywords_latvia_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-364">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-364">| |</span></span>
+|<span data-ttu-id="d89e3-365">**Keywords_latvia_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-365">**Keywords_latvia_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-366">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-366">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-367">número de passaporte da Letão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-367">latvian passport number</span></span>  <br/> <span data-ttu-id="ba2ae-368">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-368">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-369">pase numurs</span><span class="sxs-lookup"><span data-stu-id="ba2ae-369">pase numurs</span></span>  <br/> |
+|<span data-ttu-id="d89e3-366">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-366">passport number</span></span>  <br/> <span data-ttu-id="d89e3-367">número de passaporte da Letão</span><span class="sxs-lookup"><span data-stu-id="d89e3-367">latvian passport number</span></span>  <br/> <span data-ttu-id="d89e3-368">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-368">passport no</span></span>  <br/> <span data-ttu-id="d89e3-369">pase numurs</span><span class="sxs-lookup"><span data-stu-id="d89e3-369">pase numurs</span></span>  <br/> |
    
-## <a name="lithuania"></a><span data-ttu-id="ba2ae-370">Lituânia</span><span class="sxs-lookup"><span data-stu-id="ba2ae-370">Lithuania</span></span>
+## <a name="lithuania"></a><span data-ttu-id="d89e3-370">Lituânia</span><span class="sxs-lookup"><span data-stu-id="d89e3-370">Lithuania</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-371">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-371">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-371">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-371">Format</span></span>
 
-<span data-ttu-id="ba2ae-372">Oito dígitos ou letras sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-372">Eight digits or letters with no spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-372">Oito dígitos ou letras sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-372">Eight digits or letters with no spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-373">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-373">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-373">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-373">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-374">Oito dígitos ou letras (não diferencia maiúsculas de minúsculas)</span><span class="sxs-lookup"><span data-stu-id="ba2ae-374">Eight digits or letters (not case sensitive)</span></span>
+<span data-ttu-id="d89e3-374">Oito dígitos ou letras (não diferencia maiúsculas de minúsculas)</span><span class="sxs-lookup"><span data-stu-id="d89e3-374">Eight digits or letters (not case sensitive)</span></span>
   
-### <a name="checksum"></a><span data-ttu-id="ba2ae-375">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-375">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-375">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-375">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-376">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="ba2ae-376">Not applicable</span></span>
+<span data-ttu-id="d89e3-376">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="d89e3-376">Not applicable</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-377">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-377">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-377">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-377">Definition</span></span>
 
-<span data-ttu-id="ba2ae-378">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-378">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-378">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-378">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-379">A expressão `Regex_lithuania_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-379">The regular expression  `Regex_lithuania_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-379">A expressão `Regex_lithuania_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-379">The regular expression  `Regex_lithuania_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-380">Uma palavra- `Keywords_lithuania_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-380">A keyword from  `Keywords_lithuania_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-380">Uma palavra- `Keywords_lithuania_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-380">A keyword from  `Keywords_lithuania_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -592,34 +592,34 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-381">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-381">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-381">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-381">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-382">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-382">| |</span></span>
-|<span data-ttu-id="ba2ae-383">**Keywords_lithuania_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-383">**Keywords_lithuania_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-382">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-382">| |</span></span>
+|<span data-ttu-id="d89e3-383">**Keywords_lithuania_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-383">**Keywords_lithuania_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-384">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-384">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-385">número de passaporte lithunian</span><span class="sxs-lookup"><span data-stu-id="ba2ae-385">lithunian passport number</span></span>  <br/> <span data-ttu-id="ba2ae-386">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-386">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-387">paso numeris</span><span class="sxs-lookup"><span data-stu-id="ba2ae-387">paso numeris</span></span>  <br/> |
+|<span data-ttu-id="d89e3-384">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-384">passport number</span></span>  <br/> <span data-ttu-id="d89e3-385">número de passaporte lithunian</span><span class="sxs-lookup"><span data-stu-id="d89e3-385">lithunian passport number</span></span>  <br/> <span data-ttu-id="d89e3-386">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-386">passport no</span></span>  <br/> <span data-ttu-id="d89e3-387">paso numeris</span><span class="sxs-lookup"><span data-stu-id="d89e3-387">paso numeris</span></span>  <br/> |
    
-## <a name="luxemburg"></a><span data-ttu-id="ba2ae-388">Luxemburg</span><span class="sxs-lookup"><span data-stu-id="ba2ae-388">Luxemburg</span></span>
+## <a name="luxemburg"></a><span data-ttu-id="d89e3-388">Luxemburg</span><span class="sxs-lookup"><span data-stu-id="d89e3-388">Luxemburg</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-389">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-389">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-389">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-389">Format</span></span>
 
-<span data-ttu-id="ba2ae-390">Oito dígitos ou letras sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-390">Eight digits or letters with no spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-390">Oito dígitos ou letras sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-390">Eight digits or letters with no spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-391">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-391">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-391">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-391">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-392">Oito dígitos ou letras (não diferencia maiúsculas de minúsculas)</span><span class="sxs-lookup"><span data-stu-id="ba2ae-392">Eight digits or letters (not case sensitive)</span></span>
+<span data-ttu-id="d89e3-392">Oito dígitos ou letras (não diferencia maiúsculas de minúsculas)</span><span class="sxs-lookup"><span data-stu-id="d89e3-392">Eight digits or letters (not case sensitive)</span></span>
   
-### <a name="checksum"></a><span data-ttu-id="ba2ae-393">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-393">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-393">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-393">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-394">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-394">No</span></span>
+<span data-ttu-id="d89e3-394">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-394">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-395">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-395">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-395">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-395">Definition</span></span>
 
-<span data-ttu-id="ba2ae-396">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-396">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-396">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-396">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-397">A expressão `Regex_nation_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-397">The regular expression  `Regex_nation_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-397">A expressão `Regex_nation_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-397">The regular expression  `Regex_nation_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-398">Uma palavra- `Keywords_nation_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-398">A keyword from  `Keywords_nation_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-398">Uma palavra- `Keywords_nation_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-398">A keyword from  `Keywords_nation_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -631,34 +631,34 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-399">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-399">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-399">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-399">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-400">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-400">| |</span></span>
-|<span data-ttu-id="ba2ae-401">**Keywords_nation_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-401">**Keywords_nation_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-400">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-400">| |</span></span>
+|<span data-ttu-id="d89e3-401">**Keywords_nation_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-401">**Keywords_nation_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-402">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-402">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-403">número de passaporte da Letão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-403">latvian passport number</span></span>  <br/> <span data-ttu-id="ba2ae-404">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-404">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-405">passnummer</span><span class="sxs-lookup"><span data-stu-id="ba2ae-405">passnummer</span></span>  <br/> |
+|<span data-ttu-id="d89e3-402">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-402">passport number</span></span>  <br/> <span data-ttu-id="d89e3-403">número de passaporte da Letão</span><span class="sxs-lookup"><span data-stu-id="d89e3-403">latvian passport number</span></span>  <br/> <span data-ttu-id="d89e3-404">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-404">passport no</span></span>  <br/> <span data-ttu-id="d89e3-405">passnummer</span><span class="sxs-lookup"><span data-stu-id="d89e3-405">passnummer</span></span>  <br/> |
    
-## <a name="malta"></a><span data-ttu-id="ba2ae-406">Malta</span><span class="sxs-lookup"><span data-stu-id="ba2ae-406">Malta</span></span>
+## <a name="malta"></a><span data-ttu-id="d89e3-406">Malta</span><span class="sxs-lookup"><span data-stu-id="d89e3-406">Malta</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-407">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-407">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-407">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-407">Format</span></span>
 
-<span data-ttu-id="ba2ae-408">Sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-408">Seven digits without spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-408">Sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-408">Seven digits without spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-409">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-409">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-409">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-409">Pattern</span></span>
 
- <span data-ttu-id="ba2ae-410">Sete dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-410">Seven digits</span></span> 
+ <span data-ttu-id="d89e3-410">Sete dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-410">Seven digits</span></span> 
   
-### <a name="checksum"></a><span data-ttu-id="ba2ae-411">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-411">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-411">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-411">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-412">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-412">No</span></span>
+<span data-ttu-id="d89e3-412">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-412">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-413">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-413">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-413">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-413">Definition</span></span>
 
-<span data-ttu-id="ba2ae-414">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-414">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-414">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-414">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-415">A expressão `Regex_malta_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-415">The regular expression  `Regex_malta_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-415">A expressão `Regex_malta_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-415">The regular expression  `Regex_malta_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-416">Uma palavra- `Keywords_malta_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-416">A keyword from  `Keywords_malta_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-416">Uma palavra- `Keywords_malta_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-416">A keyword from  `Keywords_malta_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -670,34 +670,34 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-417">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-417">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-417">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-417">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-418">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-418">| |</span></span>
-|<span data-ttu-id="ba2ae-419">**Keywords_malta_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-419">**Keywords_malta_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-418">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-418">| |</span></span>
+|<span data-ttu-id="d89e3-419">**Keywords_malta_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-419">**Keywords_malta_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-420">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-420">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-421">número de passaporte Maltês</span><span class="sxs-lookup"><span data-stu-id="ba2ae-421">maltese passport number</span></span>  <br/> <span data-ttu-id="ba2ae-422">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-422">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-423">numru tal-passaport</span><span class="sxs-lookup"><span data-stu-id="ba2ae-423">numru tal-passaport</span></span>  <br/> |
+|<span data-ttu-id="d89e3-420">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-420">passport number</span></span>  <br/> <span data-ttu-id="d89e3-421">número de passaporte Maltês</span><span class="sxs-lookup"><span data-stu-id="d89e3-421">maltese passport number</span></span>  <br/> <span data-ttu-id="d89e3-422">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-422">passport no</span></span>  <br/> <span data-ttu-id="d89e3-423">numru tal-passaport</span><span class="sxs-lookup"><span data-stu-id="d89e3-423">numru tal-passaport</span></span>  <br/> |
    
-## <a name="netherlands"></a><span data-ttu-id="ba2ae-424">Países Baixos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-424">Netherlands</span></span>
+## <a name="netherlands"></a><span data-ttu-id="d89e3-424">Países Baixos</span><span class="sxs-lookup"><span data-stu-id="d89e3-424">Netherlands</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-425">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-425">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-425">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-425">Format</span></span>
 
-<span data-ttu-id="ba2ae-426">Nove letras ou dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-426">Nine letters or digits with no spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-426">Nove letras ou dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-426">Nine letters or digits with no spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-427">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-427">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-427">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-427">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-428">Nove letras ou dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-428">Nine letters or digits</span></span>
+<span data-ttu-id="d89e3-428">Nove letras ou dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-428">Nine letters or digits</span></span>
   
-### <a name="checksum"></a><span data-ttu-id="ba2ae-429">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-429">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-429">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-429">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-430">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="ba2ae-430">Not applicable</span></span>
+<span data-ttu-id="d89e3-430">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="d89e3-430">Not applicable</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-431">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-431">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-431">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-431">Definition</span></span>
 
-<span data-ttu-id="ba2ae-432">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-432">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-432">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-432">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-433">A expressão `Regex_netherlands_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-433">The regular expression  `Regex_netherlands_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-433">A expressão `Regex_netherlands_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-433">The regular expression  `Regex_netherlands_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-434">Uma palavra- `Keywords_netherlands_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-434">A keyword from  `Keywords_netherlands_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-434">Uma palavra- `Keywords_netherlands_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-434">A keyword from  `Keywords_netherlands_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -709,42 +709,42 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-435">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-435">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-435">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-435">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-436">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-436">| |</span></span>
-|<span data-ttu-id="ba2ae-437">**Keywords_netherlands_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-437">**Keywords_netherlands_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-436">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-436">| |</span></span>
+|<span data-ttu-id="d89e3-437">**Keywords_netherlands_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-437">**Keywords_netherlands_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-438">número de passaporte holandês</span><span class="sxs-lookup"><span data-stu-id="ba2ae-438">dutch passport number</span></span>  <br/> <span data-ttu-id="ba2ae-439">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-439">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-440">número de passaporte Holanda</span><span class="sxs-lookup"><span data-stu-id="ba2ae-440">netherlands passport number</span></span>  <br/> <span data-ttu-id="ba2ae-441">nederlanden paspoort nummer</span><span class="sxs-lookup"><span data-stu-id="ba2ae-441">nederlanden paspoort nummer</span></span>  <br/> <span data-ttu-id="ba2ae-442">paspoort</span><span class="sxs-lookup"><span data-stu-id="ba2ae-442">paspoort</span></span>  <br/> <span data-ttu-id="ba2ae-443">nederlanden paspoortnummer</span><span class="sxs-lookup"><span data-stu-id="ba2ae-443">nederlanden paspoortnummer</span></span>  <br/> <span data-ttu-id="ba2ae-444">paspoortnummer</span><span class="sxs-lookup"><span data-stu-id="ba2ae-444">paspoortnummer</span></span>  <br/> |
+|<span data-ttu-id="d89e3-438">número de passaporte holandês</span><span class="sxs-lookup"><span data-stu-id="d89e3-438">dutch passport number</span></span>  <br/> <span data-ttu-id="d89e3-439">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-439">passport number</span></span>  <br/> <span data-ttu-id="d89e3-440">número de passaporte Holanda</span><span class="sxs-lookup"><span data-stu-id="d89e3-440">netherlands passport number</span></span>  <br/> <span data-ttu-id="d89e3-441">nederlanden paspoort nummer</span><span class="sxs-lookup"><span data-stu-id="d89e3-441">nederlanden paspoort nummer</span></span>  <br/> <span data-ttu-id="d89e3-442">paspoort</span><span class="sxs-lookup"><span data-stu-id="d89e3-442">paspoort</span></span>  <br/> <span data-ttu-id="d89e3-443">nederlanden paspoortnummer</span><span class="sxs-lookup"><span data-stu-id="d89e3-443">nederlanden paspoortnummer</span></span>  <br/> <span data-ttu-id="d89e3-444">paspoortnummer</span><span class="sxs-lookup"><span data-stu-id="d89e3-444">paspoortnummer</span></span>  <br/> |
    
-## <a name="poland"></a><span data-ttu-id="ba2ae-445">Polônia</span><span class="sxs-lookup"><span data-stu-id="ba2ae-445">Poland</span></span>
+## <a name="poland"></a><span data-ttu-id="d89e3-445">Polônia</span><span class="sxs-lookup"><span data-stu-id="d89e3-445">Poland</span></span>
 
-<span data-ttu-id="ba2ae-446">Para obter detalhes, consulte a seção "número de passaporte da Polônia" em [o que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md).</span><span class="sxs-lookup"><span data-stu-id="ba2ae-446">For details, see the section "Poland Passport Number" in [What the sensitive information types look for](what-the-sensitive-information-types-look-for.md).</span></span>
+<span data-ttu-id="d89e3-446">Para obter detalhes, consulte a seção "número de passaporte da Polônia" em [o que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md).</span><span class="sxs-lookup"><span data-stu-id="d89e3-446">For details, see the section "Poland Passport Number" in [What the sensitive information types look for](what-the-sensitive-information-types-look-for.md).</span></span>
   
-## <a name="portugal"></a><span data-ttu-id="ba2ae-447">Portugal</span><span class="sxs-lookup"><span data-stu-id="ba2ae-447">Portugal</span></span>
+## <a name="portugal"></a><span data-ttu-id="d89e3-447">Portugal</span><span class="sxs-lookup"><span data-stu-id="d89e3-447">Portugal</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-448">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-448">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-448">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-448">Format</span></span>
 
-<span data-ttu-id="ba2ae-449">Uma letra seguida de seis dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-449">One letter followed by six digits with no spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-449">Uma letra seguida de seis dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-449">One letter followed by six digits with no spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-450">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-450">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-450">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-450">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-451">Uma letra seguida por seis dígitos:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-451">One letter followed by six digits:</span></span>
+<span data-ttu-id="d89e3-451">Uma letra seguida por seis dígitos:</span><span class="sxs-lookup"><span data-stu-id="d89e3-451">One letter followed by six digits:</span></span>
   
-- <span data-ttu-id="ba2ae-452">Uma letra (não diferencia maiúscula de minúscula)</span><span class="sxs-lookup"><span data-stu-id="ba2ae-452">One letter (not case sensitive)</span></span>
+- <span data-ttu-id="d89e3-452">Uma letra (não diferencia maiúscula de minúscula)</span><span class="sxs-lookup"><span data-stu-id="d89e3-452">One letter (not case sensitive)</span></span>
     
-- <span data-ttu-id="ba2ae-453">Seis dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-453">Six digits</span></span>
+- <span data-ttu-id="d89e3-453">Seis dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-453">Six digits</span></span>
     
-### <a name="checksum"></a><span data-ttu-id="ba2ae-454">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-454">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-454">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-454">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-455">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-455">No</span></span>
+<span data-ttu-id="d89e3-455">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-455">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-456">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-456">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-456">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-456">Definition</span></span>
 
-<span data-ttu-id="ba2ae-457">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-457">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-457">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-457">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-458">A expressão `Regex_portugal_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-458">The regular expression  `Regex_portugal_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-458">A expressão `Regex_portugal_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-458">The regular expression  `Regex_portugal_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-459">Uma palavra- `Keywords_portugal_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-459">A keyword from  `Keywords_portugal_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-459">Uma palavra- `Keywords_portugal_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-459">A keyword from  `Keywords_portugal_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -756,34 +756,34 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-460">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-460">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-460">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-460">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-461">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-461">| |</span></span>
-|<span data-ttu-id="ba2ae-462">**Keywords_portugal_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-462">**Keywords_portugal_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-461">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-461">| |</span></span>
+|<span data-ttu-id="d89e3-462">**Keywords_portugal_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-462">**Keywords_portugal_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-463">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-463">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-464">número de passaporte Português</span><span class="sxs-lookup"><span data-stu-id="ba2ae-464">portuguese passport number</span></span>  <br/> <span data-ttu-id="ba2ae-465">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-465">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-466">número do passaporte</span><span class="sxs-lookup"><span data-stu-id="ba2ae-466">número do passaporte</span></span>  <br/> |
+|<span data-ttu-id="d89e3-463">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-463">passport number</span></span>  <br/> <span data-ttu-id="d89e3-464">número de passaporte Português</span><span class="sxs-lookup"><span data-stu-id="d89e3-464">portuguese passport number</span></span>  <br/> <span data-ttu-id="d89e3-465">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-465">passport no</span></span>  <br/> <span data-ttu-id="d89e3-466">número do passaporte</span><span class="sxs-lookup"><span data-stu-id="d89e3-466">número do passaporte</span></span>  <br/> |
    
-## <a name="romania"></a><span data-ttu-id="ba2ae-467">Romênia</span><span class="sxs-lookup"><span data-stu-id="ba2ae-467">Romania</span></span>
+## <a name="romania"></a><span data-ttu-id="d89e3-467">Romênia</span><span class="sxs-lookup"><span data-stu-id="d89e3-467">Romania</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-468">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-468">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-468">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-468">Format</span></span>
 
-<span data-ttu-id="ba2ae-469">Oito ou nove dígitos sem espaços e delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-469">Eight or nine digits without spaces and delimiters</span></span>
+<span data-ttu-id="d89e3-469">Oito ou nove dígitos sem espaços e delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-469">Eight or nine digits without spaces and delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-470">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-470">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-470">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-470">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-471">Oito ou nove dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-471">Eight or nine digits</span></span>
+<span data-ttu-id="d89e3-471">Oito ou nove dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-471">Eight or nine digits</span></span>
   
-### <a name="checksum"></a><span data-ttu-id="ba2ae-472">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-472">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-472">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-472">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-473">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-473">No</span></span>
+<span data-ttu-id="d89e3-473">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-473">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-474">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-474">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-474">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-474">Definition</span></span>
 
-<span data-ttu-id="ba2ae-475">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-475">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-475">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-475">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-476">A expressão `Regex_romania_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-476">The regular expression  `Regex_romania_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-476">A expressão `Regex_romania_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-476">The regular expression  `Regex_romania_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-477">Uma palavra- `Keywords_romania_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-477">A keyword from  `Keywords_romania_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-477">Uma palavra- `Keywords_romania_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-477">A keyword from  `Keywords_romania_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -795,34 +795,34 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-478">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-478">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-478">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-478">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-479">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-479">| |</span></span>
-|<span data-ttu-id="ba2ae-480">**Keywords_romania_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-480">**Keywords_romania_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-479">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-479">| |</span></span>
+|<span data-ttu-id="d89e3-480">**Keywords_romania_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-480">**Keywords_romania_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-481">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-481">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-482">número de passaporte romeno</span><span class="sxs-lookup"><span data-stu-id="ba2ae-482">romanian passport number</span></span>  <br/> <span data-ttu-id="ba2ae-483">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-483">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-484">numărul pașaportului</span><span class="sxs-lookup"><span data-stu-id="ba2ae-484">numărul pașaportului</span></span>  <br/> |
+|<span data-ttu-id="d89e3-481">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-481">passport number</span></span>  <br/> <span data-ttu-id="d89e3-482">número de passaporte romeno</span><span class="sxs-lookup"><span data-stu-id="d89e3-482">romanian passport number</span></span>  <br/> <span data-ttu-id="d89e3-483">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-483">passport no</span></span>  <br/> <span data-ttu-id="d89e3-484">numărul pașaportului</span><span class="sxs-lookup"><span data-stu-id="d89e3-484">numărul pașaportului</span></span>  <br/> |
    
-## <a name="slovakia"></a><span data-ttu-id="ba2ae-485">Eslováquia</span><span class="sxs-lookup"><span data-stu-id="ba2ae-485">Slovakia</span></span>
+## <a name="slovakia"></a><span data-ttu-id="d89e3-485">Eslováquia</span><span class="sxs-lookup"><span data-stu-id="d89e3-485">Slovakia</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-486">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-486">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-486">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-486">Format</span></span>
 
-<span data-ttu-id="ba2ae-487">Um dígito ou letra seguido por sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-487">One digit or letter followed by seven digits with no spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-487">Um dígito ou letra seguido por sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-487">One digit or letter followed by seven digits with no spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-488">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-488">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-488">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-488">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-489">Um dígito ou letra (não diferencia maiúsculas de minúsculas) seguido por sete dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-489">One digit or letter (not case sensitive) followed by seven digits</span></span>
+<span data-ttu-id="d89e3-489">Um dígito ou letra (não diferencia maiúsculas de minúsculas) seguido por sete dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-489">One digit or letter (not case sensitive) followed by seven digits</span></span>
   
-### <a name="checksum"></a><span data-ttu-id="ba2ae-490">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-490">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-490">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-490">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-491">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-491">No</span></span>
+<span data-ttu-id="d89e3-491">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-491">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-492">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-492">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-492">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-492">Definition</span></span>
 
-<span data-ttu-id="ba2ae-493">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-493">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-493">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-493">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-494">A expressão `Regex_slovakia_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-494">The regular expression  `Regex_slovakia_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-494">A expressão `Regex_slovakia_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-494">The regular expression  `Regex_slovakia_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-495">Uma palavra- `Keywords_slovakia_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-495">A keyword from  `Keywords_slovakia_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-495">Uma palavra- `Keywords_slovakia_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-495">A keyword from  `Keywords_slovakia_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -834,40 +834,40 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-496">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-496">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-496">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-496">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-497">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-497">| |</span></span>
-|<span data-ttu-id="ba2ae-498">**Keywords_slovakia_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-498">**Keywords_slovakia_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-497">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-497">| |</span></span>
+|<span data-ttu-id="d89e3-498">**Keywords_slovakia_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-498">**Keywords_slovakia_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-499">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-499">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-500">número de passaporte eslovaco</span><span class="sxs-lookup"><span data-stu-id="ba2ae-500">slovakian passport number</span></span>  <br/> <span data-ttu-id="ba2ae-501">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-501">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-502">číslo pasu</span><span class="sxs-lookup"><span data-stu-id="ba2ae-502">číslo pasu</span></span>  <br/> |
+|<span data-ttu-id="d89e3-499">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-499">passport number</span></span>  <br/> <span data-ttu-id="d89e3-500">número de passaporte eslovaco</span><span class="sxs-lookup"><span data-stu-id="d89e3-500">slovakian passport number</span></span>  <br/> <span data-ttu-id="d89e3-501">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-501">passport no</span></span>  <br/> <span data-ttu-id="d89e3-502">číslo pasu</span><span class="sxs-lookup"><span data-stu-id="d89e3-502">číslo pasu</span></span>  <br/> |
    
-## <a name="slovenia"></a><span data-ttu-id="ba2ae-503">Eslovênia</span><span class="sxs-lookup"><span data-stu-id="ba2ae-503">Slovenia</span></span>
+## <a name="slovenia"></a><span data-ttu-id="d89e3-503">Eslovênia</span><span class="sxs-lookup"><span data-stu-id="d89e3-503">Slovenia</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-504">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-504">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-504">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-504">Format</span></span>
 
-<span data-ttu-id="ba2ae-505">Duas letras seguidas por sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-505">Two letters followed by seven digits with no spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-505">Duas letras seguidas por sete dígitos sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-505">Two letters followed by seven digits with no spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-506">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-506">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-506">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-506">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-507">Duas letras seguidas por sete dígitos:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-507">Two letters followed by seven digits:</span></span>
+<span data-ttu-id="d89e3-507">Duas letras seguidas por sete dígitos:</span><span class="sxs-lookup"><span data-stu-id="d89e3-507">Two letters followed by seven digits:</span></span>
   
-- <span data-ttu-id="ba2ae-508">A letra "P"</span><span class="sxs-lookup"><span data-stu-id="ba2ae-508">The letter "P"</span></span>
+- <span data-ttu-id="d89e3-508">A letra "P"</span><span class="sxs-lookup"><span data-stu-id="d89e3-508">The letter "P"</span></span>
     
-- <span data-ttu-id="ba2ae-509">Uma letra maiúscula</span><span class="sxs-lookup"><span data-stu-id="ba2ae-509">One uppercase letter</span></span>
+- <span data-ttu-id="d89e3-509">Uma letra maiúscula</span><span class="sxs-lookup"><span data-stu-id="d89e3-509">One uppercase letter</span></span>
     
-- <span data-ttu-id="ba2ae-510">Sete dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-510">Seven digits</span></span>
+- <span data-ttu-id="d89e3-510">Sete dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-510">Seven digits</span></span>
     
-### <a name="checksum"></a><span data-ttu-id="ba2ae-511">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-511">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-511">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-511">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-512">Não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-512">No</span></span>
+<span data-ttu-id="d89e3-512">Não</span><span class="sxs-lookup"><span data-stu-id="d89e3-512">No</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-513">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-513">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-513">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-513">Definition</span></span>
 
-<span data-ttu-id="ba2ae-514">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-514">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-514">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-514">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-515">A expressão `Regex_slovenia_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-515">The regular expression  `Regex_slovenia_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-515">A expressão `Regex_slovenia_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-515">The regular expression  `Regex_slovenia_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-516">Uma palavra- `Keywords_slovenia_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-516">A keyword from  `Keywords_slovenia_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-516">Uma palavra- `Keywords_slovenia_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-516">A keyword from  `Keywords_slovenia_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -879,40 +879,40 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-517">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-517">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-517">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-517">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-518">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-518">| |</span></span>
-|<span data-ttu-id="ba2ae-519">**Keywords_slovenia_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-519">**Keywords_slovenia_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-518">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-518">| |</span></span>
+|<span data-ttu-id="d89e3-519">**Keywords_slovenia_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-519">**Keywords_slovenia_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-520">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-520">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-521">número de passaporte esloveno</span><span class="sxs-lookup"><span data-stu-id="ba2ae-521">slovenian passport number</span></span>  <br/> <span data-ttu-id="ba2ae-522">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-522">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-523">lista de številka potnega</span><span class="sxs-lookup"><span data-stu-id="ba2ae-523">številka potnega lista</span></span>  <br/> |
+|<span data-ttu-id="d89e3-520">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-520">passport number</span></span>  <br/> <span data-ttu-id="d89e3-521">número de passaporte esloveno</span><span class="sxs-lookup"><span data-stu-id="d89e3-521">slovenian passport number</span></span>  <br/> <span data-ttu-id="d89e3-522">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-522">passport no</span></span>  <br/> <span data-ttu-id="d89e3-523">lista de številka potnega</span><span class="sxs-lookup"><span data-stu-id="d89e3-523">številka potnega lista</span></span>  <br/> |
    
-## <a name="spain"></a><span data-ttu-id="ba2ae-524">Espanha</span><span class="sxs-lookup"><span data-stu-id="ba2ae-524">Spain</span></span>
+## <a name="spain"></a><span data-ttu-id="d89e3-524">Espanha</span><span class="sxs-lookup"><span data-stu-id="d89e3-524">Spain</span></span>
 
-### <a name="format"></a><span data-ttu-id="ba2ae-525">Formatar</span><span class="sxs-lookup"><span data-stu-id="ba2ae-525">Format</span></span>
+### <a name="format"></a><span data-ttu-id="d89e3-525">Formatar</span><span class="sxs-lookup"><span data-stu-id="d89e3-525">Format</span></span>
 
-<span data-ttu-id="ba2ae-526">Uma combinação de letras e números de oito ou nove caracteres sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="ba2ae-526">An eight- or nine-character combination of letters and numbers with no spaces or delimiters</span></span>
+<span data-ttu-id="d89e3-526">Uma combinação de letras e números de oito ou nove caracteres sem espaços ou delimitadores</span><span class="sxs-lookup"><span data-stu-id="d89e3-526">An eight- or nine-character combination of letters and numbers with no spaces or delimiters</span></span>
   
-### <a name="pattern"></a><span data-ttu-id="ba2ae-527">Padrão</span><span class="sxs-lookup"><span data-stu-id="ba2ae-527">Pattern</span></span>
+### <a name="pattern"></a><span data-ttu-id="d89e3-527">Padrão</span><span class="sxs-lookup"><span data-stu-id="d89e3-527">Pattern</span></span>
 
-<span data-ttu-id="ba2ae-528">Uma combinação de letras e números de oito ou nove caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-528">An eight- or nine-character combination of letters and numbers:</span></span>
+<span data-ttu-id="d89e3-528">Uma combinação de letras e números de oito ou nove caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-528">An eight- or nine-character combination of letters and numbers:</span></span>
   
--  <span data-ttu-id="ba2ae-529">Dois dígitos ou letras</span><span class="sxs-lookup"><span data-stu-id="ba2ae-529">Two digits or letters</span></span> 
+-  <span data-ttu-id="d89e3-529">Dois dígitos ou letras</span><span class="sxs-lookup"><span data-stu-id="d89e3-529">Two digits or letters</span></span> 
     
-- <span data-ttu-id="ba2ae-530">Um dígito ou letra (opcional)</span><span class="sxs-lookup"><span data-stu-id="ba2ae-530">One digit or letter (optional)</span></span>
+- <span data-ttu-id="d89e3-530">Um dígito ou letra (opcional)</span><span class="sxs-lookup"><span data-stu-id="d89e3-530">One digit or letter (optional)</span></span>
     
-- <span data-ttu-id="ba2ae-531">Seis dígitos</span><span class="sxs-lookup"><span data-stu-id="ba2ae-531">Six digits</span></span>
+- <span data-ttu-id="d89e3-531">Seis dígitos</span><span class="sxs-lookup"><span data-stu-id="d89e3-531">Six digits</span></span>
     
-### <a name="checksum"></a><span data-ttu-id="ba2ae-532">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="ba2ae-532">Checksum</span></span>
+### <a name="checksum"></a><span data-ttu-id="d89e3-532">Soma de verificação</span><span class="sxs-lookup"><span data-stu-id="d89e3-532">Checksum</span></span>
 
-<span data-ttu-id="ba2ae-533">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="ba2ae-533">Not applicable</span></span>
+<span data-ttu-id="d89e3-533">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="d89e3-533">Not applicable</span></span>
   
-### <a name="definition"></a><span data-ttu-id="ba2ae-534">Definição</span><span class="sxs-lookup"><span data-stu-id="ba2ae-534">Definition</span></span>
+### <a name="definition"></a><span data-ttu-id="d89e3-534">Definição</span><span class="sxs-lookup"><span data-stu-id="d89e3-534">Definition</span></span>
 
-<span data-ttu-id="ba2ae-535">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="ba2ae-535">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
+<span data-ttu-id="d89e3-535">Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:</span><span class="sxs-lookup"><span data-stu-id="d89e3-535">A DLP policy is 75% confident that it's detected this type of sensitive information if, within a proximity of 300 characters:</span></span>
   
-- <span data-ttu-id="ba2ae-536">A expressão `Regex_spain_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-536">The regular expression  `Regex_spain_eu_passport_number` finds content that matches the pattern.</span></span> 
+- <span data-ttu-id="d89e3-536">A expressão `Regex_spain_eu_passport_number` regular localiza o conteúdo que corresponde ao padrão.</span><span class="sxs-lookup"><span data-stu-id="d89e3-536">The regular expression  `Regex_spain_eu_passport_number` finds content that matches the pattern.</span></span> 
     
-- <span data-ttu-id="ba2ae-537">Uma palavra- `Keywords_spain_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="ba2ae-537">A keyword from  `Keywords_spain_eu_passport_number` is found.</span></span> 
+- <span data-ttu-id="d89e3-537">Uma palavra- `Keywords_spain_eu_passport_number` chave de foi encontrada.</span><span class="sxs-lookup"><span data-stu-id="d89e3-537">A keyword from  `Keywords_spain_eu_passport_number` is found.</span></span> 
     
 ```
  <!-- EU Passport Number -->
@@ -924,22 +924,22 @@ ms.locfileid: "41592112"
 </Entity>
 ```
 
-### <a name="keywords"></a><span data-ttu-id="ba2ae-538">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="ba2ae-538">Keywords</span></span>
+### <a name="keywords"></a><span data-ttu-id="d89e3-538">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="d89e3-538">Keywords</span></span>
 
-<span data-ttu-id="ba2ae-539">| |</span><span class="sxs-lookup"><span data-stu-id="ba2ae-539">| |</span></span>
-|<span data-ttu-id="ba2ae-540">**Keywords_spain_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="ba2ae-540">**Keywords_spain_eu_passport_number**</span></span>|
+<span data-ttu-id="d89e3-539">| |</span><span class="sxs-lookup"><span data-stu-id="d89e3-539">| |</span></span>
+|<span data-ttu-id="d89e3-540">**Keywords_spain_eu_passport_number**</span><span class="sxs-lookup"><span data-stu-id="d89e3-540">**Keywords_spain_eu_passport_number**</span></span>|
 |:-----|
-|<span data-ttu-id="ba2ae-541">Passaport</span><span class="sxs-lookup"><span data-stu-id="ba2ae-541">passport</span></span>  <br/> <span data-ttu-id="ba2ae-542">o Passport da Espanha</span><span class="sxs-lookup"><span data-stu-id="ba2ae-542">spain passport</span></span>  <br/> <span data-ttu-id="ba2ae-543">Catálogo do Passport</span><span class="sxs-lookup"><span data-stu-id="ba2ae-543">passport book</span></span>  <br/> <span data-ttu-id="ba2ae-544">passport number</span><span class="sxs-lookup"><span data-stu-id="ba2ae-544">passport number</span></span>  <br/> <span data-ttu-id="ba2ae-545">Passport não</span><span class="sxs-lookup"><span data-stu-id="ba2ae-545">passport no</span></span>  <br/> <span data-ttu-id="ba2ae-546">libreta pasaporte</span><span class="sxs-lookup"><span data-stu-id="ba2ae-546">libreta pasaporte</span></span>  <br/> <span data-ttu-id="ba2ae-547">número pasaporte</span><span class="sxs-lookup"><span data-stu-id="ba2ae-547">número pasaporte</span></span>  <br/> <span data-ttu-id="ba2ae-548">españa pasaporte</span><span class="sxs-lookup"><span data-stu-id="ba2ae-548">españa pasaporte</span></span>  <br/> <span data-ttu-id="ba2ae-549">pasaporte</span><span class="sxs-lookup"><span data-stu-id="ba2ae-549">pasaporte</span></span>  <br/> |
+|<span data-ttu-id="d89e3-541">Passaport</span><span class="sxs-lookup"><span data-stu-id="d89e3-541">passport</span></span>  <br/> <span data-ttu-id="d89e3-542">o Passport da Espanha</span><span class="sxs-lookup"><span data-stu-id="d89e3-542">spain passport</span></span>  <br/> <span data-ttu-id="d89e3-543">Catálogo do Passport</span><span class="sxs-lookup"><span data-stu-id="d89e3-543">passport book</span></span>  <br/> <span data-ttu-id="d89e3-544">passport number</span><span class="sxs-lookup"><span data-stu-id="d89e3-544">passport number</span></span>  <br/> <span data-ttu-id="d89e3-545">Passport não</span><span class="sxs-lookup"><span data-stu-id="d89e3-545">passport no</span></span>  <br/> <span data-ttu-id="d89e3-546">libreta pasaporte</span><span class="sxs-lookup"><span data-stu-id="d89e3-546">libreta pasaporte</span></span>  <br/> <span data-ttu-id="d89e3-547">número pasaporte</span><span class="sxs-lookup"><span data-stu-id="d89e3-547">número pasaporte</span></span>  <br/> <span data-ttu-id="d89e3-548">españa pasaporte</span><span class="sxs-lookup"><span data-stu-id="d89e3-548">españa pasaporte</span></span>  <br/> <span data-ttu-id="d89e3-549">pasaporte</span><span class="sxs-lookup"><span data-stu-id="d89e3-549">pasaporte</span></span>  <br/> |
    
-## <a name="sweden"></a><span data-ttu-id="ba2ae-550">Suécia</span><span class="sxs-lookup"><span data-stu-id="ba2ae-550">Sweden</span></span>
+## <a name="sweden"></a><span data-ttu-id="d89e3-550">Suécia</span><span class="sxs-lookup"><span data-stu-id="d89e3-550">Sweden</span></span>
 
-<span data-ttu-id="ba2ae-551">Para obter detalhes, consulte a seção "número de passaporte da Suécia" em [o que os tipos de informações confidenciais buscam](what-the-sensitive-information-types-look-for.md).</span><span class="sxs-lookup"><span data-stu-id="ba2ae-551">For details, see the section "Sweden Passport Number" in [What the sensitive information types look for](what-the-sensitive-information-types-look-for.md).</span></span>
+<span data-ttu-id="d89e3-551">Para obter detalhes, consulte a seção "número de passaporte da Suécia" em [o que os tipos de informações confidenciais buscam](what-the-sensitive-information-types-look-for.md).</span><span class="sxs-lookup"><span data-stu-id="d89e3-551">For details, see the section "Sweden Passport Number" in [What the sensitive information types look for](what-the-sensitive-information-types-look-for.md).</span></span>
   
-## <a name="uk"></a><span data-ttu-id="ba2ae-552">Reino Unido</span><span class="sxs-lookup"><span data-stu-id="ba2ae-552">UK</span></span>
+## <a name="uk"></a><span data-ttu-id="d89e3-552">Reino Unido</span><span class="sxs-lookup"><span data-stu-id="d89e3-552">UK</span></span>
 
-<span data-ttu-id="ba2ae-553">Para obter detalhes, consulte a seção "U.S./Reino Unido</span><span class="sxs-lookup"><span data-stu-id="ba2ae-553">For details, see the section "U.S. / U.K.</span></span> <span data-ttu-id="ba2ae-554">Número do Passport "no [que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md).</span><span class="sxs-lookup"><span data-stu-id="ba2ae-554">Passport Number" in [What the sensitive information types look for](what-the-sensitive-information-types-look-for.md).</span></span>
+<span data-ttu-id="d89e3-553">Para obter detalhes, consulte a seção "U.S./Reino Unido</span><span class="sxs-lookup"><span data-stu-id="d89e3-553">For details, see the section "U.S. / U.K.</span></span> <span data-ttu-id="d89e3-554">Número do Passport "no [que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md).</span><span class="sxs-lookup"><span data-stu-id="d89e3-554">Passport Number" in [What the sensitive information types look for](what-the-sensitive-information-types-look-for.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="ba2ae-555">Confira também</span><span class="sxs-lookup"><span data-stu-id="ba2ae-555">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d89e3-555">Confira também</span><span class="sxs-lookup"><span data-stu-id="d89e3-555">See also</span></span>
 
-[<span data-ttu-id="ba2ae-556">O que os tipos de informação confidencial procuram</span><span class="sxs-lookup"><span data-stu-id="ba2ae-556">What the sensitive information types look for</span></span>](what-the-sensitive-information-types-look-for.md)
+[<span data-ttu-id="d89e3-556">O que os tipos de informação confidencial procuram</span><span class="sxs-lookup"><span data-stu-id="d89e3-556">What the sensitive information types look for</span></span>](what-the-sensitive-information-types-look-for.md)
 

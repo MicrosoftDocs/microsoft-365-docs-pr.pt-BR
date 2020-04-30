@@ -13,14 +13,16 @@ ms.collection:
 layout: LandingPage
 ms.service: o365-administration
 localization_priority: Priority
+search.appverid:
+- MET150
 ms.assetid: f7449a18-1400-475a-b158-2668fef93bfe
 description: Saiba como gerenciar e-mails para suas caixas de correio do Microsoft 365.
-ms.openlocfilehash: 25d34ed4f86a918daea5e04c89b9b79c91bebc08
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6c08fa471d718dcaa3cc19b00bb193a311d84350
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628850"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942147"
 ---
 # <a name="email"></a>Email
 
