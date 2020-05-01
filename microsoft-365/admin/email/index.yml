@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: Gerenciar email e calendários
+summary: Confira estes recursos para ajudar os administradores com tarefas comuns ou confira o painel de navegação à esquerda para obter uma lista completa.
+metadata:
+  title: Gerenciar email e calendários
+  description: Gerenciar configurações de email, grupos de distribuição, configurações de segurança e configurar caixas de correio compartilhadas
+  ms.service: O365-administration
+  ms.topic: landing-page
+  author: sirkkuw
+  ms.author: sirkkuw
+  ms.date: 04/16/2020
+  localization_priority: Priority
+  ms.openlocfilehash: 65b0a249c5574ca149c0abe1e0ed879f649143fe
+  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+  ms.translationtype: MT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 04/30/2020
+  ms.locfileid: "43952668"
+landingContent:
+- title: Gerenciar email
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Gerenciar configurações de email do usuário
+      url: office-365-user-email-settings.md
+    - text: Sobre a colaboração de emails
+      url: email-collaboration.md
+  - linkListType: how-to-guide
+    links:
+    - text: Adicionar outro alias de email
+      url: add-another-email-alias-for-a-user.md
+    - text: Usar seu domínio personalizado
+      url: change-email-address.md
+    - text: Configurar o encaminhamento de email
+      url: configure-email-forwarding.md
+    - text: Trabalhar com grupos de segurança
+      url: create-edit-or-delete-a-security-group.md
+- title: Gerenciar calendários
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Gerenciar seu calendário e contatos no Outlook
+      url: https://support.office.com/article/631a182a-21e0-4e41-8fa2-0d83e55da02d
+  - linkListType: video
+    links:
+    - text: Criar um calendário compartilhado
+      url: https://support.office.com/article/8385667b-d758-4489-a53f-f542dd01e6ff
+- title: Gerenciar caixas de correio compartilhadas
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Configurar uma caixa de correio compartilhada
+      url: configure-a-shared-mailbox.md
+    - text: Converter uma caixa de correio do usuário em uma caixa de correio compartilhada
+      url: convert-user-mailbox-to-shared-mailbox.md
+    - text: Remover uma licença de uma caixa de correio compartilhada
+      url: remove-license-from-shared-mailbox.md
+    - text: Resolver problemas com caixas de correio compartilhadas
+      url: resolve-issues-with-shared-mailboxes.md
+- title: Solucionar problemas de conexão e de entrega dos e-mails
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Localizar e corrigir problemas de entrega de e-mails
+      url: https://docs.microsoft.com/exchange/troubleshoot/mail-delivery/email-delivery-issues
+    - text: Corrigir e localizar problemas após adicionar o domínio ou registros DNS
+      url: ../get-help-with-domains/find-and-fix-issues.md
+    - text: Recuperar emails excluídos em uma caixa de correio de usuário
+      url: https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox
+    - text: Corrigir problemas de conexão do Outlook no Microsoft 365 e Exchange Online
+      url: https://support.office.com/article/e90bb691-c2a7-4697-a94f-88836856c72f

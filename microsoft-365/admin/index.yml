@@ -1,0 +1,72 @@
+### YamlMime:Hub
+title: Ajuda do centro de administração 365 da Microsoft
+summary: Explore os recursos para trabalhar no centro de administração do Microsoft 365.
+brand: m365
+metadata:
+  title: Ajuda do centro de administração 365 da Microsoft
+  description: Configurar e gerenciar o Office 365 e o Microsoft 365 no centro de administração do Microsoft 365.
+  ms.service: O365-administration
+  ms.prod: microsoft-365-business
+  ms.topic: hub-page
+  author: sirkkuw
+  ms.author: sirkkuw
+  ms.date: 11/08/2019
+  localization_priority: Priority
+  ms.openlocfilehash: 8299bf7fa32e6a1678185370e2ae994d80ecf270
+  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+  ms.translationtype: MT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 04/30/2020
+  ms.locfileid: "43952660"
+productDirectory:
+  title: Introdução
+  summary: Configure sua assinatura e email, adicione usuários e instale aplicativos.
+  items:
+  - title: Introdução
+    imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
+    summary: Inscreva-se e configure o Microsoft 365.
+    url: setup/index.yml
+  - title: Migrar dados
+    imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
+    summary: Mova seus dados de outro serviço para o Microsoft 365.
+    url: setup/migrate-email-and-contacts-admin.md
+  - title: Instalar aplicativos
+    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
+    summary: Instale o Office e outros aplicativos da Microsoft para usuários em sua organização.
+    url: setup/install-applications.md
+  - title: Treinar usuários
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
+    summary: Ajudar os usuários em sua organização a saber como armazenar e compartilhar arquivos e usar aplicativos do Office.
+    url: https://support.office.com/office-training-center
+additionalContent:
+  sections:
+  - title: Gerenciar
+    summary: Gerenciar sua assinatura, seus serviços e seus usuários, proteger sua empresa e obter ajuda para a solução de problemas.
+    items:
+    - title: Visão geral do centro de administração do Microsoft 365
+      summary: Saiba mais sobre as funções de administrador, como permanecer na parte superior das alterações e como personalizar sua assinatura.
+      url: admin-overview/about-the-admin-center.md
+    - title: Usuários e grupos
+      summary: Gerenciar senhas, adicionar e remover usuários, configurar e gerenciar grupos, gerenciar o acesso de convidados e atribuir licenças de usuário.
+      url: add-users/index.yml
+    - title: Email e calendários
+      summary: Gerenciar configurações de email, grupos de distribuição e configurações de segurança e configurar caixas de correio compartilhadas.
+      url: email/index.yml
+    - title: Domínios
+      summary: Saiba mais sobre domínios, configurar e gerenciar domínios e atualizar registros DNS.
+      url: setup/add-domain.md
+    - title: Seus dados e serviço
+      summary: Monitore o status do serviço, faça backup dos dados, instale suplementos e atualize para os aplicativos mais recentes.
+      url: manage/index.yml
+    - title: Assinaturas e cobrança
+      summary: Gerenciar contas, assinaturas e licenças de produtos, atualizar métodos de pagamento e adquirir serviços e armazenamento adicionais.
+      url: ../commerce/index.yml
+    - title: Proteger sua organização
+      summary: Crie políticas de DLP (prevenção contra perda de dados), configure a autenticação multifator (MFA) e saiba mais sobre a pontuação segura da Microsoft e o RGPD.
+      url: security-and-compliance/secure-your-business-data.md
+    - title: Trabalhar com clientes
+      summary: Compartilhar documentos e usar o Microsoft Teams para colaboração e reunião.
+      url: work-with-customers/index.yml
+    - title: Solução de problemas
+      summary: Acessar recursos para ajudá-lo a solucionar e corrigir problemas com seus produtos ou serviços do Office.
+      url: https://docs.microsoft.com/office/troubleshoot/

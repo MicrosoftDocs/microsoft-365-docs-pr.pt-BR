@@ -17,16 +17,15 @@ search.appverid:
 - MET150
 - MOE150
 - FRP150
-ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: O centro de administração do Microsoft 365-Aprenda sobre os recursos que foram adicionados este mês.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 03fae5d2a9b8adc9859eb16bfd9d98740e7d8bf2
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: bd701f8ea2a6187f73fff91ea1ca2ccf2641f6e3
+ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939446"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952646"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>O que há de novo no centro de administração do Microsoft 365
 
@@ -181,7 +180,7 @@ Começamos a distribuir a capacidade de alterar sua forma de pagamento do cartã
 
 ![Captura de tela: seção de cobrança do cartão de assinatura com um cartão de crédito como método de pagamento.](../media/MAC-BillingEditCreditCard.png)
 
-Quer ler mais sobre ele? [Alterar de cartão de crédito ou conta bancária para fatura](../commerce/billing-and-payments/change-payment-method.md)
+Quer ler mais sobre ele? [Mudar de cartão de crédito ou conta bancária para fatura](../commerce/billing-and-payments/change-payment-method.md)
 
 ### <a name="global-reader"></a>Leitor global
 

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a eliminação de conteúdo, se você usar uma revisão de disposição ou se o conteúdo é excluído automaticamente de acordo com as configurações que você configurou.
-ms.openlocfilehash: cb48d2eb6d2d06093ddea74f13269faeb4798b97
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+ms.openlocfilehash: 47cb8f023f378796f206e436aa33e74b2993ac97
+ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950055"
+ms.locfileid: "43952614"
 ---
 # <a name="disposition-of-content"></a>Disposição do conteúdo
 
@@ -120,7 +120,7 @@ O conteúdo que está aguardando uma análise de disposição é excluído somen
 > [!NOTE]
 > A capacidade de ver os registros que foram excluídos automaticamente sem uma análise de descarte é descontínua para os locatários durante abril e maio de 2020, portanto, talvez você não veja essa experiência imediatamente.
 
-Use a guia **disposição** da página **Gerenciamento de registros** para identificar os registros excluídos automaticamente. Estes itens exibem os **registros descartados** na coluna **tipo** . Em comparação, os registros descartados que são aprovados para serem excluídos por meio de uma revisão de disposição exibem a **eliminação pendente**. Por exemplo:
+Use a guia **disposição** da página **Gerenciamento de registros** para identificar os registros excluídos automaticamente. Estes itens exibem os **registros descartados** na coluna **tipo** . Por exemplo:
 
 ![Itens que foram descartados sem uma revisão de disposição](../media/records-disposed2.png)
 

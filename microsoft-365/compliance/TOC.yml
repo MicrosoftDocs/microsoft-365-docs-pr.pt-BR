@@ -285,8 +285,8 @@
           href: automate-event-driven-retention.md
         - name: Gerenciar o ciclo de vida dos documentos do SharePoint
           href: auto-apply-retention-labels-scenario.md
-    - name: Descartar dados
-      href: disposition-reviews.md
+    - name: Descarte de dados
+      href: disposition.md
     - name: Gerenciar caixas de correio inativas
       items:
         - name: Visão geral de caixas de correio inativas
@@ -340,7 +340,7 @@
             - name: Automatizar retenção baseada em eventos
               href: automate-event-driven-retention.md
         - name: Disposição
-          href: disposition-reviews.md
+          href: disposition.md
         - name: Mais sobre gerenciamento de registros
           items:
             - name: Assistir a vídeos sobre gerenciamento de registros

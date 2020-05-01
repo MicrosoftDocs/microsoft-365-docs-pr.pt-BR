@@ -16,14 +16,13 @@ search.appverid:
 - MET150
 - MOE150
 - FRP150
-ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: Saiba mais sobre o novo centro de administração do Microsoft 365.
-ms.openlocfilehash: c4e6df3824e3f4ca33e947c438bb0be2f841e416
-ms.sourcegitcommit: c758a4290d205394225a0df2fd667cb565c79c8f
+ms.openlocfilehash: 95453380fc693c4313debf5baaa96264d486385b
+ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43907220"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952634"
 ---
 # <a name="about-the-new-microsoft-365-admin-center"></a>Sobre o novo centro de administração do Microsoft 365
 
@@ -105,7 +104,7 @@ Sim. O novo centro de administração é totalmente funcional e tem todos os rec
 
 O Microsoft 365 é uma solução completa e inteligente que inclui o Office 365, Windows 10 e Enterprise Mobility + Security, que permite que todos sejam criativos e trabalhem juntos de forma segura. As seguintes assinaturas do Microsoft 365 estão disponíveis no centro de administração para experimentar ou comprar agora:
   
-- Microsoft 365 for business
+- Microsoft 365 para empresas
 - Microsoft 365 Enterprise E3
 - Microsoft 365 Enterprise E5
     

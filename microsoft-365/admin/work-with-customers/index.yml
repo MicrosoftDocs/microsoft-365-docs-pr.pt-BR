@@ -1,0 +1,39 @@
+### YamlMime:Landing
+title: Trabalhar com clientes
+summary: Confira estes recursos para ajudar os administradores com tarefas comuns ou confira o painel de navegação à esquerda para obter uma lista completa.
+metadata:
+  title: Trabalhar com clientes
+  description: Compartilhar documentos e usar o Microsoft Teams para colaboração e reunião
+  ms.service: O365-administration
+  ms.topic: landing-page
+  author: sirkkuw
+  ms.author: sirkkuw
+  ms.date: 04/16/2020
+  localization_priority: Priority
+  ms.openlocfilehash: 299b7fa4cb98f05a1f5a3248fad59d3e8ea414ed
+  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+  ms.translationtype: MT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 04/30/2020
+  ms.locfileid: "43952658"
+landingContent:
+- title: Trabalhar com clientes
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Compartilhar sites e arquivos externamente
+      url: ../manage/share-sites-with-external-users.md
+    - text: Compartilhar calendários com usuários convidados
+      url: ../manage/share-calendars-with-external-users.md
+  - linkListType: video
+    links:
+    - text: Criar uma equipe com convidados
+      url: https://support.office.com/article/11fbb083-52ee-434d-8c6e-63711fdafac7
+    - text: Ingressar em uma equipe como convidado
+      url: https://support.office.com/article/928d1eef-61e2-49ec-b754-c2fe86b34824
+    - text: Converse com funcionários e clientes
+      url: https://support.office.com/article/65748808-a403-462c-a6e1-b169e5bc6c92
+    - text: Agendar uma reunião do teams com convidados
+      url: https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a
+    - text: Ingressar em uma reunião do teams com convidados
+      url: https://support.office.com/article/a120c282-063d-46b8-b973-851197ab75d8
