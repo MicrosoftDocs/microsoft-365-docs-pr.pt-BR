@@ -1,0 +1,80 @@
+### YamlMime:Landing
+title: Gerenciar usuários e grupos
+summary: Confira estes recursos para ajudar os administradores com tarefas comuns ou confira o painel de navegação à esquerda para obter uma lista completa.
+metadata:
+  title: Gerenciar usuários e grupos
+  description: Gerenciar senhas, adicionar e remover usuários, configurar grupos e gerenciar licenças
+  ms.service: O365-administration
+  ms.subservice: subservice
+  ms.topic: landing-page
+  author: sirkkuw
+  ms.author: sirkkuw
+  ms.date: 01/27/2020
+  localization_priority: Priority
+  ms.openlocfilehash: fc4300d57f3a14a7f71b0ff61a3aedf4c54bbac6
+  ms.sourcegitcommit: a2dd93943f68362220b123e3e4b0f7b3facbdd03
+  ms.translationtype: MT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 04/30/2020
+  ms.locfileid: "43955308"
+landingContent:
+- title: Gerenciamento de usuários
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Adicionar um usuário
+      url: add-users.md
+    - text: Editar um usuário
+      url: add-users.md
+    - text: Adicionar outro endereço de email
+      url: ../email/add-another-email-alias-for-a-user.md
+    - text: Criar uma caixa de correio compartilhada
+      url: ../email/create-a-shared-mailbox.md
+    - text: Atribuir licenças aos usuários
+      url: ../manage/assign-licenses-to-users.md
+    - text: Remover licenças de usuários
+      url: ../manage/remove-licenses-from-users.md
+    - text: Usar seu domínio personalizado
+      url: ../email/change-email-address.md
+- title: Gerenciamento de grupos
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Criar grupos
+      url: ../create-groups/create-groups.md
+    - text: Adicionar membros
+      url: ../create-groups/add-or-remove-members-from-groups.md
+    - text: Restaurar ou recuperar um grupo excluído
+      url: ../create-groups/restore-deleted-group.md
+    - text: Gerenciar o acesso de convidados em grupos
+      url: ../create-groups/manage-guest-access-in-groups.md
+- title: Gerenciar senhas
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Redefinir a senha de um usuário
+      url: reset-passwords.md
+    - text: Definir senhas para nunca expirar
+      url: set-password-to-never-expire.md
+    - text: Permitir que os usuários redefinam as próprias senhas
+      url: let-users-reset-passwords.md
+    - text: Definir a política de expiração de senha para sua organização
+      url: ../manage/set-password-expiration-policy.md
+    - text: Redefinir senha de administrador
+      url: reset-passwords.md#reset-my-admin-password
+- title: Remova um funcionário
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Excluir um usuário
+      url: delete-a-user.md
+    - text: Acessar e fazer backup dos dados de um usuário anterior
+      url: get-access-to-and-back-up-a-former-user-s-data.md
+    - text: Encaminhar emails para outro usuário
+      url: ../email/configure-email-forwarding.md
+    - text: Remover a licença
+      url: ../manage/remove-licenses-from-users.md
+    - text: Restaurar um usuário excluído
+      url: restore-user.md
+    - text: Remover dados da empresa de dispositivos (Microsoft 365 Business Premium)
+      url: ../../business/remove-company-data.md
