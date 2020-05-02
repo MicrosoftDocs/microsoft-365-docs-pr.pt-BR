@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 para empresas.
-ms.openlocfilehash: 85f05e85989d7b298ba0575c7447a3ef157ea163
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d9148acadf5ec05562ac1a5cbbca9cbf7d0a1b65
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631556"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002284"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Visão geral do Microsoft 365 para empresas
 
@@ -45,7 +45,7 @@ O Microsoft 365 para empresas está disponível em três planos.
 |:-------|:-----|
 | E3 | Acessar os principais produtos e recursos do Microsoft 365 para melhorar a produtividade do local de trabalho e promover a inovação, com segurança. |
 | E5 | Acessar os produtos e recursos mais recentes no Microsoft 365, incluindo proteção avançada contra ameaças, ferramentas de segurança e colaboração.. Inclui todos os recursos do E3's, além de ferramentas avançadas de segurança, voz e análise de dados. |
-| F1 | Conecte-se aos seus primeiros trabalhadores por meio de ferramentas e recursos desenvolvidos para fins de uso que permitam que eles façam o melhor trabalho. |
+| F3 | Conecte-se aos seus primeiros trabalhadores por meio de ferramentas e recursos desenvolvidos para fins de uso que permitam que eles façam o melhor trabalho. |
 |||
 
 Se você tiver o Microsoft 365 E3, também poderá obter estas [ofertas](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/):

@@ -5,17 +5,21 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: sharepoint-online
-ms.collection: SPO_Content
+ms.prod: microsoft-365-enterprise
+ms.collection:
+- SPO_Content
+- M365-collaboration
+ms.custom:
+- M365solutions
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba como colaborar com convidados em um site do SharePoint.
-ms.openlocfilehash: 5a8bc5da55f3582a7e298dab97ec4d6b3d147b60
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b9b5a50b4d0f7486b3c86546a672b01db3a5b000
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630732"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002272"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>Colaborar com convidados em um site
 
@@ -52,7 +56,7 @@ Observe as configurações na seção **restrições de colaboração** . Certif
 
 Os sites modernos do SharePoint usam os grupos do Microsoft 365 para controlar o acesso ao site. As configurações de convidado do Microsoft 365 groups devem ser ativadas para que o acesso de convidados nos sites do SharePoint funcione.
 
-![Captura de tela das configurações de convidado do Microsoft 365 groups no centro de administração do Microsoft 365](../media/office-365-groups-guest-settings.png)
+![Captura de tela das configurações de convidado dos Grupos do Microsoft 365 no Centro de administração do Microsoft 365](../media/office-365-groups-guest-settings.png)
 
 Para definir as configurações de convidados de grupos do Microsoft 365
 
@@ -135,7 +139,7 @@ Para convidar convidados para um grupo
 
 [Limitar a exposição acidental dos arquivos ao compartilhar com convidados](share-limit-accidental-exposure.md)
 
-[Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
+[Criar um ambiente seguro de compartilhamento para convidados](create-secure-guest-sharing-environment.md)
 
 [Crie uma extranet B2B com convidados gerenciados](b2b-extranet.md)
 

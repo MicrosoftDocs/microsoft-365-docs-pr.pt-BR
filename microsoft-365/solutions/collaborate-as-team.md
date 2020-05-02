@@ -5,17 +5,21 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: sharepoint-online
-ms.collection: SPO_Content
+ms.prod: microsoft-365-enterprise
+ms.collection:
+- SPO_Content
+- M365-collaboration
+ms.custom:
+- M365solutions
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba como colaborar com convidados no Microsoft Teams.
-ms.openlocfilehash: 4b395f0086198c6226d720c38fc4ea13b1a9d887
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7d840628ce6d987a907e8be2c8a3c3c5125f7d33
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630744"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002187"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Colaborar com convidados em uma equipe
 
@@ -72,7 +76,7 @@ Para definir as configurações de acesso de convidados do teams
 
 O Teams usa os grupos do Microsoft 365 para associação da equipe. As configurações de convidado do Microsoft 365 groups devem ser ativadas para que o acesso de convidados no Teams funcione.
 
-![Captura de tela das configurações de convidado do Microsoft 365 groups no centro de administração do Microsoft 365](../media/office-365-groups-guest-settings.png)
+![Captura de tela das configurações de convidado dos Grupos do Microsoft 365 no Centro de administração do Microsoft 365](../media/office-365-groups-guest-settings.png)
 
 Para definir as configurações de convidados de grupos do Microsoft 365
 
@@ -173,6 +177,6 @@ Para convidar convidados para uma equipe
 
 [Limitar a exposição acidental dos arquivos ao compartilhar com convidados](share-limit-accidental-exposure.md)
 
-[Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
+[Criar um ambiente seguro de compartilhamento para convidados](create-secure-guest-sharing-environment.md)
 
 [Crie uma extranet B2B com convidados gerenciados](b2b-extranet.md)

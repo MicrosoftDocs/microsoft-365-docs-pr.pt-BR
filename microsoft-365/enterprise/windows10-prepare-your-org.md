@@ -12,12 +12,12 @@ ms.date: 06/01/2018
 f1.keywords:
 - NOCSH
 ms.author: josephd
-ms.openlocfilehash: 74c8dc4a0d4e2d457462320999ed79e80b372b7a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 43793a1780542b1825c693030dd9d4dbff4ee3d7
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636658"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002338"
 ---
 # <a name="step-1-prepare-your-organization-for-windows-10-enterprise"></a>Etapa 1: preparar sua organização para o Windows 10 Enterprise
 
@@ -56,7 +56,7 @@ Use o valor apropriado na tabela abaixo ao configurar a política de gerenciamen
 
 Você pode habilitar os dados de diagnóstico através de qualquer um destes métodos:
 
-* **Microsoft Intune** – se você planeja usar o Intune para gerenciar seus dispositivos, é possível criar uma política de configuração para habilitar os dados de diagnóstico, configurando a política de sistema do <a href="https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowtelemetry" target="blank">SystemAllowTelemetry</a> . Para obter mais informações sobre como configurar políticas de configuração, consulte [gerenciar configurações e recursos em seus dispositivos com as políticas do Microsoft Intune](https://aka.ms/intuneconfigpolicies).
+* **Microsoft Intune** – se você planeja usar o Intune para gerenciar seus dispositivos, é possível criar uma política de configuração para habilitar os dados de diagnóstico, configurando a política de sistema do <a href="https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowtelemetry" target="blank">SystemAllowTelemetry</a> .
 * **Editor do registro** -você pode usar o editor do registro para habilitar manualmente os dados de diagnóstico em cada dispositivo da sua organização. Como alternativa, você pode escrever um script para editar o registro. Se uma política de gerenciamento já existir, como política de grupo ou MDM, ela substituirá essa configuração do registro.
 * **Política de grupo** -se você não planeja registrar dispositivos no Intune, você pode usar um objeto de política de grupo para definir o nível de dados de diagnóstico da sua organização.
 * **Prompt de comando** -você pode configurar os dados de diagnóstico e o serviço do Windows 10 para que iniciem automaticamente com o prompt de comando. Esse método é melhor se você estiver testando o serviço em apenas alguns dispositivos. Habilitar o serviço para iniciar automaticamente com este comando não irá configurar o nível de dados de diagnóstico. Se você não configurou um nível de dados de diagnóstico usando ferramentas de gerenciamento, o serviço funcionará com o nível avançado padrão.

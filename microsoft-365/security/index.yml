@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 202a01b439755211cbf3d8b06ea1ef874a58c3c1
-  ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+  ms.openlocfilehash: f97f9b3eed2ec9eed95b1f4ec57a3b055d8c4925
+  ms.sourcegitcommit: b57d597edbff5ab6cff8c2b04d27c15b0024776f
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43708662"
+  ms.lasthandoff: 05/01/2020
+  ms.locfileid: "43997521"
 landingContent:
 - title: Proteção contra Ameaças da Microsoft
   linkLists:
@@ -28,28 +28,18 @@ landingContent:
       url: mtp/microsoft-threat-protection.md
     - text: Centro de segurança do Microsoft 365
       url: mtp/overview-security-center.md
-- title: Microsoft Defender ATP
+- title: Comece com avaliações gratuitas
   linkLists:
   - linkListType: overview
     links:
-    - text: O que é o Microsoft Defender ATP?
-      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
-    - text: Visão geral dos recursos
-      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
+    - text: Avaliar a proteção contra ameaças da Microsoft
+      url: mtp/mtp-evaluation.md
 - title: Proteger sua força de obra remota
   linkLists:
   - linkListType: get-started
     links:
     - text: Proteger sua força de obra remota
       url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
-- title: Office 365 ATP
-  linkLists:
-  - linkListType: overview
-    links:
-    - text: O que é o Office 365?
-      url: office-365-security/office-365-atp.md
-    - text: Descrição do serviço ATP do Office 365
-      url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
 - title: Azure ATP
   linkLists:
   - linkListType: overview
@@ -58,6 +48,22 @@ landingContent:
       url: https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp
     - text: Arquitetura ATP do Azure
       url: https://docs.microsoft.com/azure-advanced-threat-protection/atp-architecture
+- title: Office 365 ATP
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que é o Office 365?
+      url: office-365-security/office-365-atp.md
+    - text: Descrição do serviço ATP do Office 365
+      url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
+- title: Microsoft Defender ATP
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que é o Microsoft Defender ATP?
+      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
+    - text: Visão geral dos recursos
+      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
 - title: Central de Segurança do Azure
   linkLists:
   - linkListType: overview
@@ -74,15 +80,15 @@ landingContent:
       url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
     - text: Introdução ao Microsoft Cloud App Security
       url: https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security
-- title: Azure Sentinel
-  linkLists:
-  - linkListType: overview
-    links:
-    - text: O que é o Azure Sentinel?
-      url: https://docs.microsoft.com/azure/sentinel/overview
 - title: Gerenciamento de segurança
   linkLists:
   - linkListType: overview
     links:
     - text: Classificação de segurança
       url: mtp/microsoft-secure-score.md
+- title: Azure Sentinel
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que é o Azure Sentinel?
+      url: https://docs.microsoft.com/azure/sentinel/overview

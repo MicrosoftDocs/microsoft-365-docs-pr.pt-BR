@@ -1,0 +1,163 @@
+- name: Centro de soluções e arquitetura da Microsoft 365
+  href: solution-architecture-center.md
+  displayName: Home
+- name: Ilustrações de solução e arquitetura
+  items:
+    - name: Ilustrações de produtividade da Microsoft 365
+      href: productivity-illustrations.md
+    - name: Modelos de arquitetura de nuvem da Microsoft
+      href: cloud-architecture-models.md
+- name: Soluções do Microsoft 365 Foundation
+  items:
+    - name: Visão Geral
+      href: foundation-solutions-overview.md
+    - name: Capacitar funcionários remotos com o Microsoft 365
+      href: empower-people-to-work-remotely.md
+      items:
+        - name: Etapa 1. Aumentar a segurança de entrada para funcionários remotos com a MFA
+          href: empower-people-to-work-remotely-secure-sign-in.md
+        - name: Etapa 2. Fornecer acesso remoto
+          href: empower-people-to-work-remotely-remote-access.md
+        - name: 'Etapa 3. Implantar o gerenciamento de ponto de extremidade para seus dispositivos, computadores e outros pontos de extremidade'
+          href: empower-people-to-work-remotely-manage-endpoints.md
+        - name: Etapa 4. Implantar aplicativos e serviços de produtividade de funcionários remotos
+          href: empower-people-to-work-remotely-teams-productivity-apps.md
+        - name: Etapa 5. Criar instalações de comunicação de crise do COVID-19
+          href: empower-people-to-work-remotely-communication-venues.md
+        - name: Etapa 6. Treinar os comentários de uso de endereço e funcionários remotos
+          href: empower-people-to-work-remotely-train-monitor-usage.md
+    - name: Configurar a colaboração segura com o Microsoft 365
+      href: setup-secure-collaboration-with-teams.md
+      items:
+        - name: Três camadas de proteção com o Microsoft Teams
+          items:
+            - name: Três camadas de visão geral de proteção
+              href: configure-teams-three-tiers-protection.md
+            - name: Configurar a proteção de linha de base
+              href: configure-teams-baseline-protection.md
+            - name: Configurar proteção confidencial
+              href: configure-teams-sensitive-protection.md
+            - name: Configurar a proteção altamente confidencial
+              href: configure-teams-highly-sensitive-protection.md
+            - name: Configurar uma equipe com isolamento de segurança
+              href: secure-teams-security-isolation.md
+        - name: Configurar o compartilhamento externo
+          items:
+            - name: Visão geral do compartilhamento externo
+              href: collaborate-with-people-outside-your-organization.md
+            - name: Cenários de configuração
+              items:
+                - name: Colaborar em documentos
+                  href: collaborate-on-documents.md
+                - name: Colaborar em um site
+                  href: collaborate-in-site.md
+                - name: Colabore em equipe
+                  href: collaborate-as-team.md
+                - name: Criar uma extranet B2B
+                  href: b2b-extranet.md
+                - name: Limitar o compartilhamento
+                  href: microsoft-365-limit-sharing.md
+            - name: Cenários de segurança
+              items:
+                - name: Compartilhamento não autenticado
+                  href: best-practices-anonymous-sharing.md
+                - name: Limitar a exposição acidental
+                  href: share-limit-accidental-exposure.md
+                - name: Ambiente seguro de compartilhamento de convidados
+                  href: create-secure-guest-sharing-environment.md
+            - name: Referência de compartilhamento externo
+              href: microsoft-365-guest-settings.md
+    - name: Implantar a proteção contra ameaças no Microsoft 365
+      href: deploy-threat-protection.md
+- name: Cenários e soluções de carga de trabalho
+  items:
+    - name: Visão Geral
+      href: workload-solutions-scenarios-overview.md
+    - name: Trabalho em equipe e colaboração
+      items:
+        - name: Cartazes da arquitetura do teams
+          href: 'https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Soluções de telefonia
+          items:
+            - name: Escolha sua solução
+              href: 'https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+            - name: Estudo de caso para a corporação multinacional
+              href: null
+        - name: Colaboração de arquivos no SharePoint com o Microsoft 365
+          href: 'https://docs.microsoft.com/sharepoint/deploy-file-collaboration?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Planejar uma intranet inteligente do SharePoint
+          href: 'https://docs.microsoft.com/sharepoint/plan-intranet?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Guia do OneDrive para empresas
+          href: 'https://docs.microsoft.com/en-us/onedrive/plan-onedrive-enterprise?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+    - name: Segurança
+      items:
+        - name: Principais tarefas de equipes de segurança para dar suporte ao trabalho de casa
+          href: 'https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Segurança da Microsoft 365 para responsáveis por decisões de negócios (BDMs)
+          href: 'https://docs.microsoft.com/microsoft-365/security/microsoft-365-security-for-bdm?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Implantar a proteção avançada contra ameaças do Microsoft defender
+          href: 'https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+    - name: Conformidade
+      items:
+        - name: Proteção de Informações para RGPD
+          href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Planos de ação de conformidade regulatória
+          items:
+            - name: ISO - Plano de ação recomendado
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/iso-action-plan?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+            - name: NIST - Plano de ação recomendado
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/nist-action-plan?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+            - name: CCPA – Perguntas frequentes
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+            - name: RGPD-plano de ação recomendado
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/gdpr?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+    - name: Estudos de caso da contoso
+      items:
+        - name: Soluções da Microsoft 365 para a Contoso Corporation
+          href: contoso-case-study-solutions.md
+        - name: Equipe isolada para um projeto de segredo superior
+          href: contoso-team-for-top-secret-project.md
+    - name: Guias de Laboratório de teste
+      items:
+        - name: Guias de laboratório de teste para soluções e cenários
+          href: test-lab-guides-overview-solutions.md
+        - name: Equipe com isolamento de segurança
+          href: team-security-isolation-dev-test.md
+- name: Orientação específica do setor
+  items:
+    - name: Visão Geral
+      href: industry-specific-guidance-overview.md
+    - name: Finanças
+      items:
+        - name: Segurança e conformidade para serviços financeiros
+          href: financial-services-secure-collaboration.md
+    - name: Serviços de energia e utilitários
+      items:
+        - name: Segurança e conformidade para serviços de energia e utilitários
+          href: energy-secure-collaboration.md
+    - name: Saúde
+      items:
+        - name: Teams para Serviços de Saúde
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+    - name: Educação
+      items:
+        - name: Teams para a Educação
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+    - name: Governo
+      items:
+        - name: Teams para a Administração Pública
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+        - name: Suporte a funcionários remotos governamentais usando o Teams
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+- name: Princípios de design de arquitetura corporativa
+  items:
+    - name: Visão Geral
+      href: design-principles.md
+    - name: Para identificar e além disso
+      href: identity-design-principles.md
+    - name: Obstáculos de segurança que você pode sailr
+      href: security-design-principles.md
+- name: Recursos de implantação do Microsoft 365
+  items:
+    - name: Implantar o Microsoft 365
+      href: 'https://docs.microsoft.com/microsoft-365/enterprise/deploy-microsoft-365-enterprise'

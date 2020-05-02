@@ -5,17 +5,21 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: sharepoint-online
-ms.collection: SPO_Content
+ms.prod: microsoft-365-enterprise
+ms.collection:
+- SPO_Content
+- M365-collaboration
+ms.custom:
+- M365solutions
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba como colaborar com convidados em um documento no SharePoint e no OneDrive.
-ms.openlocfilehash: 139533b2d7bf65ddd9584007a5ac03800c731d0b
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 33d9300343b23702d5024ac0b489930ac815be7e
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604363"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002260"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>Colaborar com convidados em um documento
 

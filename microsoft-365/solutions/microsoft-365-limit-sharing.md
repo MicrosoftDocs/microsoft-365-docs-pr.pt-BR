@@ -5,21 +5,24 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: o365-solutions
-ms.collection: SPO_Content
+ms.prod: microsoft-365-enterprise
+ms.collection:
+- SPO_Content
+- M365-collaboration
 search.appverid:
 - SPO160
 - MET150
 f1.keywords: NOCSH
-ms.custom: ''
+ms.custom:
+- M365solutions
 localization_priority: Priority
 description: Saiba mais sobre as opções para limitar ou desabilitar o compartilhamento no Microsoft 365.
-ms.openlocfilehash: ebeeefa61d9f4fc9fd77b417ccadfaa4308acb38
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 339a548b1085f692c38c057e3aea4ae091431d9c
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632590"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44001717"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Limitar o compartilhamento no Microsoft 365
 

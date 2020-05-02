@@ -5,17 +5,21 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: sharepoint-online
-ms.collection: SPO_Content
+ms.prod: microsoft-365-enterprise
+ms.collection:
+- SPO_Content
+- M365-collaboration
+ms.custom:
+- M365solutions
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba como configurar o Microsoft 365 para colaboração com pessoas de fora da sua organização.
-ms.openlocfilehash: 1b2a15312dcaacc398bb521f3ecfb6e7453f66bb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 338b486725f727506d654a4507d8ea47c6fa2bab
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630720"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002247"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Colaborar com pessoas de fora da sua organização
 
@@ -42,7 +46,7 @@ Depois de habilitar o cenário que você deseja usar para compartilhar com pesso
 
 - [Práticas recomendadas para o compartilhamento de arquivos e pastas com usuários não autenticados](best-practices-anonymous-sharing.md) : Saiba mais sobre as práticas recomendadas para o compartilhamento com usuários não autenticados.
 - [Limitar exposição acidental](share-limit-accidental-exposure.md) : saiba como reduzir as chances de compartilhar acidentalmente conteúdo confidencial com pessoas de fora da sua organização.
-- [Criar um ambiente de compartilhamento seguro de convidados](create-secure-guest-sharing-environment.md)) – Saiba mais sobre as ferramentas fornecidas no Microsoft 365 para ajudar a garantir que o compartilhamento com pessoas de fora da sua organização seja realizado de forma segura e segura e atenda aos requisitos de governança.
+- [Criar um ambiente de compartilhamento seguro de convidados](create-secure-guest-sharing-environment.md) : Saiba mais sobre as ferramentas fornecidas no Microsoft 365 para ajudar a garantir que o compartilhamento com pessoas de fora da sua organização seja feito de forma segura e segura e atenda aos requisitos de governança.
 
 ## <a name="collaborate-with-partner-companies"></a>Colaborar com empresas parceiras
 

@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: fa970b28939ad43bf6a2717e603013277bc9130f
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: f1c616a3d752324b8db5fdd5069904989a25eade
+ms.sourcegitcommit: b57d597edbff5ab6cff8c2b04d27c15b0024776f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633899"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997509"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Habilitar a Proteção contra Ameaças da Microsoft
 
@@ -36,7 +36,7 @@ A Proteção contra Ameaças da Microsoft unifica o processo de resposta a incid
 Para obter a melhor proteção e otimizar a proteção contra ameaças da Microsoft, recomendamos implantar todos os serviços compatíveis em sua rede. Para obter mais informações, [Leia sobre a implantação de serviços com suporte](deploy-supported-services.md).
 
 ## <a name="check-license-eligibility-and-required-permissions"></a>Verificar a qualificação de licenças e as permissões necessárias
-Uma licença do Microsoft 365 e5, E5 Security ou a5 ou uma combinação válida de licenças oferece acesso a serviços com suporte e concede a você o uso da proteção contra ameaças da Microsoft na central de segurança da Microsoft 365.
+Uma licença de segurança do Microsoft 365 e5, E5 Security, a5 ou a5 ou uma combinação válida de licenças oferece acesso a serviços com suporte e o direito de usar a proteção contra ameaças da Microsoft na central de segurança da Microsoft 365.
 
 Para obter informações detalhadas sobre licenciamento, [Leia os requisitos de licenciamento](prerequisites.md#licensing-requirements).
 
@@ -51,7 +51,7 @@ Antes de ativar o serviço, o centro de segurança do Microsoft 365 ([Security.M
 ![Imagem da página de boas-vindas da proteção contra ameaças da Microsoft mostra se a proteção](../../media/mtp-welcome.png)
 contra ameaças da Microsoft não foi ativada na*página de boas-vindas do Microsoft 365 Security Center*
 
-Para ativar a proteção contra ameaças da Microsoft, basta concluir o processo na página de boas-vindas. Você também pode ativar a proteção contra ameaças da Microsoft acessando **configurações** ([Security.Microsoft.com/Settings](https://security.microsoft.com/settings)) no painel de navegação e selecionando **proteção contra ameaças da Microsoft**.
+Para ativar a proteção contra ameaças da Microsoft, basta concluir o processo na página de boas-vindas. Você também pode ativar a proteção contra ameaças da Microsoft acessando **configurações** ([Security.Microsoft.com/Settings](https://security.microsoft.com/settings)) no painel de navegação e selecionando **proteção contra ameaças da Microsoft**. Clique em **Salvar**.
 
 >[!NOTE]
 >Se você não vir **as configurações** no painel de navegação ou não conseguir acessar a página, verifique suas permissões e licenças.
