@@ -1,0 +1,78 @@
+### YamlMime:Hub
+title: Centro de soluções e arquitetura da Microsoft 365
+summary: Entenda como projetar a solução e a arquitetura que é ideal para sua organização.
+brand: m365
+metadata:
+  title: Centro de soluções e arquitetura da Microsoft 365
+  description: Entenda como projetar a solução e a arquitetura que é ideal para a sua organização
+  ms.service: o365-solutions
+  ms.topic: hub-page
+  ms.collection: m365-security-compliance
+  author: samanro
+  ms.author: samanro
+  manager: bcarter
+  audience: ITPro
+  ms.date: 11/08/2019
+  localization_priority: Priority
+  ms.openlocfilehash: 9302dc56dba602a0ea00927dd24176b776b17ae8
+  ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+  ms.translationtype: MT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 05/01/2020
+  ms.locfileid: "44002474"
+highlightedContent:
+  items:
+  - title: Capacitar funcionários remotos com o Microsoft 365
+    itemType: whats-new
+    url: empower-people-to-work-remotely.md
+  - title: Configurar a colaboração segura com o Microsoft 365
+    itemType: get-started
+    url: setup-secure-collaboration-with-teams.md
+  - title: Implantar a proteção contra ameaças no Microsoft 365
+    itemType: get-started
+    url: deploy-threat-protection.md
+productDirectory:
+  items:
+  - title: Soluções básicas do Microsoft 365
+    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
+    summary: Encontre orientações completas para um problema específico de negócios ou necessidade, desde planejamento à implementação e adoção.
+    url: foundation-solutions-overview.md
+  - title: Orientação de cenário e solução de carga de trabalho
+    imageSrc: https://docs.microsoft.com/office/media/icons/objects-blue.svg
+    summary: Adicione esses cenários às soluções fundamentais para adicionar recursos ao seu ambiente.
+    url: workload-solutions-scenarios-overview.md
+  - title: Ilustrações de solução e arquitetura
+    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg
+    summary: Veja ou baixe estas ilustrações para entender os recursos e a arquitetura dos serviços do Microsoft 365.
+    url: productivity-illustrations.md
+  - title: Orientação específica do setor
+    imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-blue.svg
+    summary: Encontre orientações especificamente criadas para o seu ramo.
+    url: industry-specific-guidance-overview.md
+  - title: Princípios de design corporativo
+    imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-blue.svg
+    summary: Compreenda os principais princípios necessários para entender a rede, a identidade, a segurança e as arquiteturas multinacionais.
+    url: design-principles.md
+  - title: Roteiro e recursos de implantação
+    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
+    summary: Recursos para configurar a colaboração junto com segurança e proteção de informações.
+    url: https://docs.microsoft.com/microsoft-365/?view=o365-worldwide
+additionalContent:
+  sections:
+  - title: Mais recursos para o Microsoft 365
+    items:
+    - title: Centro de ajuda do Microsoft 365 para administradores e profissionais de ti
+      summary: Encontre mais recursos para profissionais de ti na página do Microsoft 365
+      url: https://docs.microsoft.com/microsoft-365
+    - title: Treinamento para administradores e profissionais de TI
+      summary: Encontre recursos de treinamento para gerenciar o Microsoft 365
+      url: https://docs.microsoft.com/learn/m365/
+    - title: Treinamento para usuários finais
+      summary: Ajudar os usuários finais a aprender a usar o Microsoft 365
+      url: https://support.office.com/modernworkplace
+    - title: Comunidade técnica do Microsoft 365
+      summary: Participe da comunidade técnica
+      url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365
+    - title: Recursos para desenvolvedores
+      summary: Saiba como desenvolver o Microsoft 365
+      url: https://developer.microsoft.com/microsoft-365
