@@ -5,21 +5,25 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: sharepoint-online
-ms.collection: SPO_Content
+ms.prod: microsoft-365-enterprise
+ms.collection:
+- SPO_Content
+- M365-collaboration
+ms.custom:
+- M365solutions
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Saiba como limitar a exposição acidental de informações ao compartilhar arquivos com pessoas de fora da sua organização.
-ms.openlocfilehash: a84c5183ba3a816cf4d65f854f0143a48374f669
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 93fceaca45a3f814341678c2d29d5feea3653369
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604309"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002163"
 ---
 # <a name="limit-accidental-exposure-to-files-when-sharing-with-people-outside-your-organization"></a>Limitar a exposição acidental de arquivos ao compartilhar com pessoas de fora da sua organização
 
-Ao compartilhar arquivos e pastas com pessoas de fora da sua organização, há várias opções para reduzir as chances de compartilhar informações confidenciais acidentalmente. Você pode escolher a opção apresentada neste artigo que atenda melhor às necessidades da sua organização.
+Ao compartilhar arquivos e pastas com pessoas de fora da sua organização, há uma variedade de opções para reduzir as chances de compartilhar acidentalmente informações confidenciais. Você pode escolher a opção apresentada neste artigo que atenda melhor às necessidades da sua organização.
 
 ## <a name="use-best-practices-for-anyone-links"></a>Usar as práticas recomendadas para links para Qualquer pessoa
 
@@ -79,7 +83,7 @@ Limitar o compartilhamento externo com membros de um grupo de segurança
 3. Em **Quem pode compartilhar fora da sua organização**, marque uma ou ambas as caixas de seleção: a. **Permitir que apenas os usuários dos grupos de segurança selecionados compartilhem com usuários externos autenticados** para especificar um grupo de segurança que pode fazer o compartilhamento com usuários autenticados; b. **Permitir que apenas os usuários dos grupos de segurança selecionados compartilhem com usuários externos autenticados e usando links anônimos** para especificar um grupo de segurança que pode fazer o compartilhamento com usuários autenticados e usando links para Qualquer pessoa.
 4. Clique em **OK**.
 
-Tenha em mente que isso se aplica a arquivos, pastas e sites, mas não a grupos do Office 365 ou Teams. Quando os membros convidarem pessoas para um grupo privado do Office 365 ou para uma equipe privada no Microsoft Teams, o convite será enviado ao proprietário do grupo ou da equipe para aprovação.
+Observe que isso afeta arquivos, pastas e sites, mas não os grupos do Microsoft 365 ou Teams. Quando os membros convidarem pessoas para um grupo privado do Microsoft 365 ou uma equipe privada no Microsoft Teams, o convite é enviado ao proprietário do grupo ou equipe para aprovação.
 
 ## <a name="see-also"></a>Confira também
 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda os recursos que você pode usar para implantar o Microsoft 365 para empresas na sua organização.
-ms.openlocfilehash: 3f6ddb1caf270f2ba261bd7b9c8f8cd938187705
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b37e7fa844a27596904e5684c5692c0193c35513
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638231"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002350"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>Implantar o Microsoft 365 para empresas
 
@@ -117,7 +117,7 @@ Definir uma cultura digital é uma das principais prioridades para todo líder q
 
 Ao mesmo tempo, recursos de segurança inteligentes e integração de produto ajudam a simplificar as necessidades de gerenciamento e a minimizar o custo total de propriedade no ciclo de vida de TI. 
 
-Saiba como o Core Services Engineering and Operations (antigo Microsoft IT) [planejou e implantou uma base](https://www.microsoft.com/itshowcase/deploying-and-managing-microsoft-365) para dar suporte aos aplicativos e serviços que estimulam a criatividade e o trabalho em equipe em um ambiente seguro.
+Saiba como a Engenharia e Operações dos Principais Serviços (anteriormente Microsoft IT) [criou um Ambiente de Trabalho Moderno com o Microsoft 365](https://www.microsoft.com/en-us/itshowcase/microsoft-365).
 
 > [!Note]
 > Esta página da Web só está disponível em inglês.

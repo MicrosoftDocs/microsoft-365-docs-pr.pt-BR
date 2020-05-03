@@ -9,15 +9,17 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - M365-security-compliance
-ms.service: O365-seccomp
+ms.prod: microsoft-365-enterprise
 localization_priority: Priority
 description: Saiba como o Microsoft 365 auxilia as organizações de energia a migrarem para uma plataforma de colaboração moderna, ajudando a manter os dados e sistemas seguros e compatíveis com os regulamentos
-ms.openlocfilehash: 536c895a52024845d8e37c5a7c0b63ba1b2c2752
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- M365solutions
+ms.openlocfilehash: b0a791177f201e07d00ecbc4621509c1029c4734
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637183"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002235"
 ---
 # <a name="key-compliance-and-security-considerations-for-the-energy-industry"></a>Principais considerações de conformidade e segurança para o setor de energia
 :::image type="content" source="../media/solution-arch-center/MSC17_global_016.png" alt-text="Metáfora de ilustração de uma visão global de várias indústrias utilizando a nuvem":::
@@ -197,7 +199,7 @@ Com muitos canais de comunicação disponíveis para os funcionários, as organi
 
 A Conformidade de comunicação pode monitorar vários canais de comunicação e usar modelos de aprendizado de máquina para identificar possíveis violações de política, incluindo e-mails do Office 365, Microsoft Teams, Skype for Business Online, Facebook, Twitter e mensagens instantâneas da Bloomberg. A Conformidade de comunicação ajuda as equipes de conformidade a analisarem de maneira eficaz e eficiente as mensagens quanto a possíveis violações de:
 - Políticas corporativas, como uso aceitável, padrões éticos e políticas específicas corporativas 
-- Confidencialidade ou divulgação de negócios confidenciais, como comunicações não autorizadas de projetos confidenciais, como aquisições futuras, fusões, divulgação de ganhos, reorganizações ou mudanças na equipe de liderança.
+- confidencialidade ou divulgação de negócios confidenciais, como comunicações não autorizadas de projetos confidenciais, como aquisições futuras, fusões, divulgação de ganhos, reorganizações ou mudanças na equipe de liderança.
 - Requisitos de conformidade regulamentar, como comunicações dos funcionários sobre os tipos de negócios ou transações em que uma organização se compromete com os regulamentos da FERC para mercados de energia
 
 A Conformidade de comunicação fornece classificadores internos de ameaças, assédio e palavrões para ajudar a reduzir falsos positivos ao revisar as comunicações. Isso economiza tempo dos revisores durante o processo de investigação e correção. Ajuda os revisores a se concentrarem em mensagens específicas em segmentos longos, destacados por alertas de política. Isso ajuda as equipes de conformidade a identificar e corrigir riscos de forma mais rápida. Ele fornece às equipes de conformidade a capacidade de configurar e ajustar políticas facilmente, ajustando a solução às necessidades específicas da organização e reduzindo os falsos positivos. A Conformidade da comunicação também pode rastrear o comportamento do usuário ao longo do tempo, destacando possíveis padrões em comportamentos de risco ou violações de políticas. Por fim, fornece fluxos de trabalho de correção incorporados flexíveis para que os revisores possam agir rapidamente e escalar às equipes jurídicas ou de recursos humanos de acordo com os processos corporativos definidos.

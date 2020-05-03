@@ -6,18 +6,19 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.collection:
-- Ent_O365
-- Strat_O365_Enterprise
 - M365-security-compliance
-ms.service: O365-seccomp
+ms.prod: microsoft-365-enterprise
+ms.custom:
+- M365solutions
 localization_priority: Priority
 description: Saiba como o Microsoft 365 ajuda os serviços financeiros a migrar para uma moderna plataforma de colaboração, ajudando a manter os dados e sistemas seguros e em conformidade com os regulamentos
-ms.openlocfilehash: 4dc2c25001bb817dcf31927d2c15b1246cc52901
-ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
+f1.keywords: NOCSH
+ms.openlocfilehash: e3ed7d40cf7b4452dd2bc47e870e0a7afe10d629
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978273"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002362"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Considerações de segurança e conformidade essenciais para os mercados bancário e de capital dos EUA
 
@@ -55,7 +56,7 @@ Fornecer aos funcionários uma plataforma de colaboração moderna baseada em nu
 
 O Teams fornece um hub de colaboração para a organização. Ele ajuda a unir as pessoas com o objetivo de trabalhar produtivamente em iniciativas e projetos comuns. O Teams permite que os membros das equipes conduzam conversas de chat entre duas ou várias pessoas e colaborem e trabalhem em coautoria em documentos, além de armazenar e compartilhar arquivos. O Teams também facilita as reuniões online por meio de voz e vídeo corporativos integrados. O Teams também pode ser personalizado com aplicativos da Microsoft, como Microsoft Planner, Microsoft Dynamics 365, PowerApps, PowerBI e aplicativos de linhas de negócios de terceiros. O Teams foi desenvolvido para ser usado por membros internos das equipes e por usuários externos com permissão, que podem ingressar nos canais das equipes, participar de conversas de chat, acessar arquivos armazenados e aproveitar outros aplicativos.
 
-Todas as equipes do Microsoft Teams são complementadas por um grupo do Office 365. Esse grupo é considerado o serviço de assinatura para vários serviços do Office 365, incluindo o Teams. Os grupos do Office 365 são usados para distinguir "proprietários" e "membros" com segurança e controlar o acesso a vários recursos do Teams. Quando combinado a controles adequados de governança e análises de acesso administradas regularmente, o Teams permite que apenas membros e proprietários utilizem canais e recursos autorizados.
+Cada Microsoft Team tem suporte de um grupo do Microsoft 365. Esse grupo é considerado o serviço de assinatura para vários serviços do Office 365, incluindo o Teams. Os grupos do Microsoft 365 são usados para distinguir "proprietários" e "membros" com segurança e controlar o acesso a vários recursos do Teams. Quando combinado a controles adequados de governança e análises de acesso administradas regularmente, o Teams permite que apenas membros e proprietários utilizem canais e recursos autorizados.
 
 Um cenário comum em que o Teams beneficia serviços financeiros é durante a execução de projetos ou programas internos. Por exemplo, muitas instituições financeiras, incluindo bancos, empresas de gestão de patrimônio, cooperativas de crédito e provedores de seguros, precisam ter programas contra lavagem de dinheiro e outros programas de conformidade. Uma equipe multifuncional composta por TI, linhas de negócios como varejo e gerenciamento de patrimônio e uma unidade de crime financeiro pode ser obrigada a compartilhar dados entre si e a se comunicar sobre o programa ou investigações específicas. Tradicionalmente, esses programas usam unidades de rede compartilhadas, mas essa abordagem pode apresentar inúmeros desafios, incluindo:
 * Somente uma pessoa pode editar um documento de cada vez.
@@ -70,18 +71,18 @@ Outro cenário comum é usar o Teams como um "centro de dados virtual" para cola
  
 ### <a name="teams-improve-collaboration-and-reduce-compliance-risk"></a>Teams: melhore a colaboração e reduza o risco de conformidade
 
-O Microsoft 365 fornece outros recursos comuns de política para o Teams por meio do uso de grupos do Office 365 como um serviço de assinatura subjacente. Essas políticas podem ajudar a melhorar a colaboração e atender às necessidades de conformidade.
+O Microsoft 365 fornece outros recursos comuns de política para o Teams por meio do uso de grupos do Microsoft 365 como um serviço de assinatura subjacente. Essas políticas podem ajudar a melhorar a colaboração e atender às necessidades de conformidade.
 
-**As políticas de nome de grupos do Office 365** ajudam a garantir que os grupos do Office 365 e, portanto, as equipes, sejam nomeados de acordo com a política corporativa. Os nomes podem ser problemáticos se não forem apropriados. Por exemplo, funcionários podem não saber com quais equipes trabalhar ou compartilhar informações se os nomes não forem aplicados adequadamente. As políticas de nome de grupo (incluindo suporte para políticas baseadas em prefixo/sufixo e palavras bloqueadas personalizadas) podem impor uma "higiene" boa e impedir o uso de palavras específicas, como palavras reservadas ou terminologia inadequada.
+**As políticas de nome de grupos do Microsoft 365** ajudam a garantir que os grupos do Microsoft 365 e, portanto, as equipes, sejam nomeados de acordo com a política corporativa. Os nomes podem ser problemáticos se não forem apropriados. Por exemplo, funcionários podem não saber com quais equipes trabalhar ou compartilhar informações se os nomes não forem aplicados adequadamente. As políticas de nome de grupo (incluindo suporte para políticas baseadas em prefixo/sufixo e palavras bloqueadas personalizadas) podem impor uma "higiene" boa e impedir o uso de palavras específicas, como palavras reservadas ou terminologia inadequada.
   
-**As políticas de expiração de grupos do Office 365** ajudam a garantir que os grupos do Office 365 e, portanto, as equipes, não sejam retidos por períodos mais longos do que a organização deseja ou precisa. Esse recurso ajuda a evitar dois problemas principais de gerenciamento de informações:
+**As políticas de expiração de grupos do Microsoft 365** ajudam a garantir que os grupos do Microsoft 365 e, portanto, as equipes, não sejam retidos por períodos mais longos do que a organização deseja ou precisa. Esse recurso ajuda a evitar dois problemas principais de gerenciamento de informações:
 
 * Proliferação de equipes que não são necessárias ou usadas.
 * Retenção excessiva de dados que não são mais necessários ou usados pela organização (exceto nos casos de retenção/preservação legal).
 
-Os administradores podem especificar um período de validade para grupos do Office 365, como 90, 180 ou 365 dias. Se um serviço que tem o respaldo de um grupo do Office 365 estiver inativo dentro do período de validade, os proprietários do grupo serão notificados. Se nenhuma ação for tomada, o grupo do Office 365 e todos os seus serviços relacionados, incluindo o Teams, serão excluídos.
+Os administradores podem especificar um período de validade para grupos do Microsoft 365, como 90, 180 ou 365 dias. Se um serviço que tem o respaldo de um grupo do Microsoft 365 estiver inativo dentro do período de validade, os proprietários do grupo serão notificados. Se nenhuma ação for tomada, o grupo do Microsoft 365 e todos os seus serviços relacionados, incluindo o Teams, serão excluídos.
   
-A retenção excessiva de dados armazenados no Teams e em outros serviços baseados em grupo pode representar riscos para as organizações de serviços financeiros. As políticas de expiração de grupo do Office 365 são uma maneira recomendada de ajudar a impedir a retenção de dados que não são mais necessários. Combinado com rótulos e políticas de retenção incorporados, o Microsoft 365 ajuda a garantir que as organizações estejam retendo apenas os dados necessários para atender às políticas corporativas e obrigações de conformidade regulamentar.
+A retenção excessiva de dados armazenados no Teams e em outros serviços baseados em grupo pode representar riscos para as organizações de serviços financeiros. As políticas de expiração de grupo do Microsoft 365 são uma maneira recomendada de ajudar a impedir a retenção de dados que não são mais necessários. Combinado com rótulos e políticas de retenção incorporados, o Microsoft 365 ajuda a garantir que as organizações estejam retendo apenas os dados necessários para atender às políticas corporativas e obrigações de conformidade regulamentar.
 
 #### <a name="teams-integrate-custom-requirements-with-ease"></a>Teams: integre requisitos personalizados com facilidade
 
@@ -215,7 +216,7 @@ Instituições financeiras gerenciam grandes quantidades de dados. E alguns per�
 - O que ocorre quando o período de retenção expira (excluir o documento, iniciar uma análise de disposição ou não tomar nenhuma ação)
 -  O que aciona o início do período de retenção (data de criação, data da última modificação, data rotulada ou evento) e marca o documento ou email como um registro (o que significa que não pode ser editado ou excluído)
 
-Os rótulos de retenção são publicados nos sites do SharePoint ou OneDrive, caixas de correio do Exchange e grupos do Office 365. Os usuários podem aplicar os rótulos de retenção a documentos e emails manualmente. Os gerentes de registro podem usar a inteligência para aplicar os rótulos automaticamente. Os recursos inteligentes podem basear-se em [mais de noventa tipos de informações confidenciais internos](https://docs.microsoft.com/microsoft-365/compliance/what-the-sensitive-information-types-look-for?view=o365-worldwide) (como número de roteamento ABA, número de conta bancária nos EUA ou número de previdência social nos EUA). Eles também são personalizáveis com base em palavras-chave ou dados confidenciais encontrados em documentos ou emails, como números de cartão de crédito ou outras informações de identificação pessoal, ou com base nos metadados do SharePoint. Para dados que não são facilmente identificados através da correspondência de padrões manual ou automatizada, os classificadores treináveis podem ser usados para classificar documentos de maneira inteligente, com base nas técnicas de aprendizado de máquina.
+Os rótulos de retenção são publicados nos sites do SharePoint ou OneDrive, caixas de correio do Exchange e grupos do Microsoft 365. Os usuários podem aplicar os rótulos de retenção a documentos e emails manualmente. Os gerentes de registro podem usar a inteligência para aplicar os rótulos automaticamente. Os recursos inteligentes podem basear-se em [mais de noventa tipos de informações confidenciais internos](https://docs.microsoft.com/microsoft-365/compliance/what-the-sensitive-information-types-look-for?view=o365-worldwide) (como número de roteamento ABA, número de conta bancária nos EUA ou número de previdência social nos EUA). Eles também são personalizáveis com base em palavras-chave ou dados confidenciais encontrados em documentos ou emails, como números de cartão de crédito ou outras informações de identificação pessoal, ou com base nos metadados do SharePoint. Para dados que não são facilmente identificados através da correspondência de padrões manual ou automatizada, os classificadores treináveis podem ser usados para classificar documentos de maneira inteligente, com base nas técnicas de aprendizado de máquina.
  
 A **Comissão de Títulos e Câmbio dos Estados Unidos (SEC)** exige que corretoras e outras instituições financeiras regulamentadas mantenham todas as comunicações relacionadas aos negócios. Esses requisitos se aplicam a muitos tipos de comunicação e dados, incluindo emails, documentos, mensagens instantâneas, faxes e muito mais. A **Regra 17a-4 da SEC** define os critérios que essas organizações devem atender para armazenar registros em um sistema de armazenamento eletrônico de dados. Em 2003, a SEC emitiu um comunicado que esclareceu esses requisitos. Ele incluiu os seguintes critérios:
 
