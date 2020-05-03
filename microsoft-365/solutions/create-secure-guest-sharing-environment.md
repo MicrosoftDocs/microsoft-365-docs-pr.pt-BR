@@ -5,17 +5,21 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: sharepoint-online
-ms.collection: SPO_Content
+ms.prod: microsoft-365-enterprise
+ms.collection:
+- SPO_Content
+- M365-security-compliance
+ms.custom:
+- M365solutions
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Aprenda a criar um ambiente de compartilhamento de convidados seguro no Microsoft 365.
-ms.openlocfilehash: 63a636ccf65b5439d5e83cf5fbe64e5db2ce40b5
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 73d3e2a9a55ead5447d2c6d640123ee3befd8373
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604333"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44003742"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Criar um ambiente de compartilhamento de convidados seguro
 
@@ -29,7 +33,7 @@ Esse cenário inclui:
 - Restringir convidados a acesso somente Web para dispositivos não gerenciados.
 - Configurar uma política de tempo limite de sessão para garantir que os convidados autentiquem diariamente.
 - Criar e publicar rótulos de sensibilidade para classificar o conteúdo.
-- Criar um tipo de informação confidenciais para um projeto altamente confidencial.
+- Criar um tipo de informação confidencial para um projeto altamente confidencial.
 - Atribuir um rótulo *altamente confidencial* a documentos que contenham o tipo de informação confidencial.
 - Remover automaticamente o acesso de convidados de arquivos rotulados como *altamente confidenciais*.
 
@@ -188,15 +192,15 @@ Os rótulos de confidencialidade podem ser usados de várias maneiras para class
 Primeiro, criaremos três rótulos de confidencialidade no Centro de Conformidade do Microsoft 365:
 
 - Geral
-- Confidencial
-- Altamente Confidencial
+- confidencial
+- Altamente confidencial
 
-Use o procedimento a seguir para os rótulos *Geral* e *Confidencial*.
+Use o procedimento a seguir para os rótulos *Geral* e *confidencial*.
 
-Para criar um rótulo de classificação (Geral e Confidencial)
+Para criar um rótulo de classificação (Geral e confidencial)
 1. No [Centro de Conformidade do Microsoft 365r](https://compliance.microsoft.com), na navegação à esquerda, expanda **Classificação** e, em seguida, clique em **Rótulos de Confidencialidade**.
 2. Clique em **Criar um rótulo**.
-3. Em **Nome do rótulo**, digite *Geral* ou *Confidencial*.
+3. Em **Nome do rótulo**, digite *Geral* ou *confidencial*.
 4. Em **Dica de ferramenta**, digite *Informações gerais que possam ser compartilhadas com funcionários, convidados e parceiros* ou *Informações confidenciais. Compartilhe somente com funcionários e convidados autorizados*, e, em seguida, clique em **Avançar**.
 5. Deixe a criptografia **Desativada** e clique em **Avançar**.
 6. Deixe a marcação de conteúdo **Desativada** e clique em **Avançar**.
@@ -204,9 +208,9 @@ Para criar um rótulo de classificação (Geral e Confidencial)
 8. Deixe rotular automaticamente **Desativado** e clique em **Avançar**.
 9. Clique em **Criar**.
 
-Com o rótulo *Altamente Confidencial*, adicionaremos uma marca d' água automática de documentos com o rótulo.
+Com o rótulo *Altamente Confidencial*, adicionaremos uma marca d' água automática aos documentos com o rótulo.
 
-Para criar um rótulo de classificação (Altamente Confidencial)
+Para criar um rótulo de classificação (Altamente confidencial)
 1. Clique em **Criar um rótulo**.
 2. Em **Nome do rótulo**, digite *Altamente confidencial*.
 3. Em **Dica de ferramenta**, digite *Informações altamente confidenciais. Não compartilhe com convidados* e, em seguida, clique em **Avançar**.
@@ -215,7 +219,7 @@ Para criar um rótulo de classificação (Altamente Confidencial)
 6. Digite *Altamente confidencial*no texto do cabeçalho e clique em **Salvar**.
 7. Na página **Marcação de conteúdo**, **Ative** a marcação de conteúdo.
 8. Marque a caixa de seleção **Adicionar uma marca d' água** e, em seguida, clique em **Personalizar texto**.
-9. Em **Texto da marca d'água**,digite *Altamente Confidencial*.
+9. Em **Texto da marca d'água**,digite *Altamente confidencial*.
 10. Digite *24* como **Tamanho da fonte** e, em seguida, clique em **Salvar**.
 11. Na página **Marcação de conteúdo**, clique **Avançar**.
 12. Deixe a prevenção contra perda de dados **Desativada** e clique em **Avançar**.
@@ -237,12 +241,12 @@ Publicar rótulos
 8. Na página **Configurações de política**, digite *Confidencialidade do Documento* para o nome e, em seguida, clique em **Avançar.**.
 9. Clique em **Publicar**.
 
-Com os rótulos publicados, eles ficam disponíveis para os usuários dos aplicativos da área de trabalho do Office. Quando os usuários aplicam o rótulo **altamente confidencial**, uma marca d' água é adicionada automaticamente ao documento.
+Com os rótulos publicados, eles ficam disponíveis para os usuários dos aplicativos da área de trabalho do Office. Quando os usuários aplicam o rótulo **Altamente confidencial**, uma marca d' água é adicionada automaticamente ao documento.
 
 ### <a name="more-information"></a>Mais informações
 [Visão geral de rótulos de confidencialidade](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels)
 
-## <a name="create-a-sensitive-information-type-for-a-highly-confidential-project"></a>Criar um tipo de informação confidencial para um projeto altamente confidencial.
+## <a name="create-a-sensitive-information-type-for-a-highly-sensitive-project"></a>Criar um tipo de informação confidencial para um projeto altamente confidencial.
 
 Os tipos de informações confidenciais são cadeias de caracteres predefinidas que podem ser usadas em fluxos de trabalho de política para reforçar os requisitos de conformidade. O Centro de Conformidade da Microsoft 365 vem com mais de 100 tipos de informações confidenciais, incluindo números de carteira de motorista, números de cartão de crédito, números de contas bancárias, etc.
 
@@ -262,7 +266,7 @@ Criar um tipo de informação confidencial
 
 ## <a name="create-a-policy-to-assign-a-label-based-on-a-sensitive-information-type"></a>Criar uma política para atribuir um rótulo baseado em um tipo de informação confidencial
 
-Depois de criar o tipo de informação confidencial, podemos criar uma política de arquivo no Microsoft Cloud app Security para aplicar o rótulo *Altamente Confidencial* aos documentos que contêm a cadeia de caracteres *Projeto Saturno* automaticamente.
+Depois de criar o tipo de informação confidencial, podemos criar uma política de arquivo no Microsoft Cloud App Security para aplicar o rótulo *Altamente confidencial* aos documentos que contêm a cadeia de caracteres *Projeto Saturno* automaticamente.
 
 > [!NOTE]
 > Há um processo de replicação que torna os rótulos de confidencialidade disponíveis na Cloud App Security. Você pode não ver o rótulo disponível para uma política imediatamente.
@@ -279,19 +283,19 @@ Criar uma política de arquivo baseada no tipo de informação confidencial
 10. Pesquise e selecione o rótulo de confidencialidade do *Projeto Saturno* e clique em **Concluído**.</br>
    ![Captura de tela das configurações do método de inspeção do Cloud App Security](../media/mcas-sensitive-info-type-project-saturn.png)
 11. Em **Governança**, expanda **Microsoft SharePoint Online**.
-12. Marque a caixa de seleção **Aplicar rótulo de classificação** e selecione o rótulo **Altamente Confidencial**.
+12. Marque a caixa de seleção **Aplicar rótulo de classificação** e selecione o rótulo **Altamente confidencial**.
 13. Clique em **Criar**.
 
-Com a política in-loco, quando um usuário digita "Projeto Saturno" em um documento, o Cloud app Security aplica automaticamente o rótulo *Altamente Confidencial* ao verificar o arquivo.
+Com a política implantada, quando um usuário digita "Projeto Saturno" em um documento, o Cloud App Security aplica automaticamente o rótulo *Altamente confidencial* ao verificar o arquivo.
 
 ### <a name="more-information"></a>Mais informações
 [Políticas de arquivo](https://docs.microsoft.com/cloud-app-security/data-protection-policies)
 
-## <a name="create-a-policy-to-remove-guest-access-to-highly-confidential-files"></a>Criar uma política para remover o acesso de convidados a arquivos altamente confidenciais
+## <a name="create-a-policy-to-remove-guest-access-to-highly-sensitive-files"></a>Criar uma política para remover o acesso de convidados a arquivos altamente confidenciais
 
-No exemplo neste artigo, os arquivos com o rótulo *Altamente Confidencial* não devem ser compartilhados com convidados. Podemos criar uma política de arquivo na Cloud App Security que remove automaticamente o acesso de convidados de arquivos com esse rótulo.
+No exemplo neste artigo, os arquivos com o rótulo *Altamente confidencial* não devem ser compartilhados com convidados. Podemos criar uma política de arquivo na Cloud App Security que remove automaticamente o acesso de convidados de arquivos com esse rótulo.
 
-Observe que isso não impede que os usuários compartilhem ou compartilhem novamente esses arquivos. Depende ainda que seus usuários sigam as políticas de governança para os arquivos armazenados em sites que permitem o compartilhamento de convidados. No entanto, isso pode ser uma ferramenta útil para remover o acesso de convidados de arquivos que tiveram informações confidenciais adicionadas a eles após terem sido compartilhados com convidados.
+Observe que isso não impede que os usuários compartilhem ou compartilhem novamente esses arquivos. Depende ainda que seus usuários sigam as políticas de governança para os arquivos armazenados em sites que permitem o compartilhamento de convidados. No entanto, isso pode ser uma ferramenta útil para remover o acesso de convidados a arquivos que tiveram informações confidenciais adicionadas a eles após terem sido compartilhados com convidados.
 
 Para criar uma política de arquivo baseada em rótulos
 1. Abra o [Microsoft Cloud App Security](https://portal.cloudappsecurity.com).
@@ -315,7 +319,7 @@ Para criar uma política de arquivo baseada em rótulos
 
 Para testar a solução descrita neste artigo, crie um documento do Word e salve-o em uma biblioteca de documentos. Compartilhe o arquivo com um usuário convidado. Quando o convidado tenta acessar o documento, ele deve ser solicitado a se inscrever na autenticação multifator e, em seguida, aceitar os termos de uso.
 
-Quando o convidado tiver acesso ao documento, digite *Projeto Saturno* no documento e salve-o. Uma vez que o Cloud App Security analisa o documento, o rótulo *Altamente Confidencial* deve ser aplicado e o usuário convidado não deve mais acessá-lo.
+Quando o convidado tiver acesso ao documento, digite *Projeto Saturno* no documento e salve-o. Uma vez que o Cloud App Security analisa o documento, o rótulo *Altamente confidencial* deve ser aplicado e o usuário convidado não deve mais acessá-lo.
 
 Você pode usar as ferramentas descritas neste artigo em várias combinações para ajudar a criar um ambiente de compartilhamento de convidados seguro e confiável para sua organização.
 
