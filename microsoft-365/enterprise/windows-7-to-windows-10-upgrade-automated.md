@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Atualizações automatizadas do Windows 7 para o Windows 10 para grandes organizações
-ms.openlocfilehash: f9ba1022b4c7f702f6cb9b815deee59047c4b704
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 575ffba84b2cd7b7cfe5267a35a9f36c75dbe306
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113476"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011546"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>Atualizações automáticas in-loco do Windows 7 para o Windows 10 para grandes organizações
 
@@ -42,7 +42,7 @@ As atualizações in-loco para o Windows 10 são uma abordagem confiável para m
 
 O processo de atualização, por padrão, faz backup da instalação anterior do Windows, como parte da atualização, para que, no caso de uma falha de atualização, ou se um dispositivo ou aplicativo não funcionar corretamente após a atualização, o computador possa ser revertido para o Windows 7. Os computadores atualizados por padrão têm 10 dias, para que você possa iniciar manualmente uma reversão para o Windows 7, se necessário.
 
-As atualizações in-loco podem ser automatizadas usando as ferramentas de implantação do sistema operacional como o [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) ou o [Kit de Ferramentas de Implantação da Microsoft](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-the-microsoft-deployment-toolkit). Este artigo destaca as abordagens e otimizações automatizadas juntamente com links para recursos relacionados para obter ajuda adicional.
+As atualizações in-loco podem ser automatizadas usando as ferramentas de implantação do sistema operacional como o [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) ou o [Kit de Ferramentas de Implantação da Microsoft](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-the-microsoft-deployment-toolkit). Este artigo destaca as abordagens e otimizações automatizadas juntamente com links para recursos relacionados para obter ajuda adicional.
 
 ## <a name="upgrading-a-small-number-of-computers"></a>Atualizar um pequeno número de computadores
 
@@ -80,13 +80,13 @@ Os motivos mais comuns pelos quais as atualizações podem não ser concluídas 
 
   - Soluções de código de baixo nível, como anti-malware, VPN ou virtualização
 
-Os modelos de [Atualização de sequência de tarefas](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) estão incorporados ao Branch atual do Microsoft Endpoint Configuration Manager e estão disponíveis para várias versões. Em versões recentes, há melhorias significativas de tecnologia no Configuration Manager que tornam o processo ainda mais eficiente para determinar a compatibilidade de dispositivos e do Office, reduzindo o tráfego de rede e configurando novas opções como o backup do OneDrive. Assista a esta [ apresentação do Microsoft Mechanics](https://youtu.be/CYRnAmCD7ls) para saber mais sobre as atualizações recentes para a implantação do sistema operacional do Configuration Manager.
+Os modelos de [Atualização de sequência de tarefas](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) estão incorporados ao Branch atual do Microsoft Endpoint Configuration Manager e estão disponíveis para várias versões. Em versões recentes, há melhorias significativas de tecnologia no Configuration Manager que tornam o processo ainda mais eficiente para determinar a compatibilidade de dispositivos e do Office, reduzindo o tráfego de rede e configurando novas opções como o backup do OneDrive. Assista a esta [ apresentação do Microsoft Mechanics](https://youtu.be/CYRnAmCD7ls) para saber mais sobre as atualizações recentes para a implantação do sistema operacional do Configuration Manager.
 
 Caso não use o Microsoft Endpoint Configuration Manager, você pode usar o Kit de Ferramentas de Implantação da Microsoft para criar e executar a atualização de sequências de tarefas de implantação.
 
 ## <a name="pre-cache-task-sequence-upgrades"></a>Atualizações de sequência de tarefas anteriores ao cache
 
-A [opção de cache anterior](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system#configure-pre-cache-content) para o Configuration Manager permite que os clientes baixem o conteúdo do pacote de atualização do sistema operacional antes da sequência de tarefas atualizar o sistema operacional. Anteriormente, iniciar a sequência de tarefas iniciaria o download do conteúdo do pacote. O conteúdo anterior ao cache também oferece a opção de baixar o pacote de atualização do SO aplicável e todo o conteúdo mencionado assim que ele recebe a implantação.
+A [opção de cache anterior](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system#configure-pre-cache-content) para o Configuration Manager permite que os clientes baixem o conteúdo do pacote de atualização do sistema operacional antes da sequência de tarefas atualizar o sistema operacional. Anteriormente, iniciar a sequência de tarefas iniciaria o download do conteúdo do pacote. O conteúdo anterior ao cache também oferece a opção de baixar o pacote de atualização do SO aplicável e todo o conteúdo mencionado assim que ele recebe a implantação.
 
 Sequências de tarefas anteriores ao cache combinadas com verificações de compatibilidade
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - M365solutions
 description: Use o Microsoft Endpoint Manager para gerenciar seus dispositivos, PCs e outros pontos de extremidade.
-ms.openlocfilehash: fdfe38a25947312b878b03734c320de004762506
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 76e18d65865f4ec2bbc8a8d1554bb4cad6fee553
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002406"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011598"
 ---
 # <a name="3-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>3. Implantar o gerenciamento de pontos de extremidade em seus dispositivos, PCs e outros pontos de extremidade
 
@@ -40,7 +40,7 @@ Para obter mais informações, confira a [visão geral do Microsoft Intune](http
 
 O Gerenciador de Configurações é uma solução de gerenciamento local para gerenciar desktops, servidores e laptops que estão na sua rede ou baseada na Internet. Você pode habilitá-lo na nuvem para integrar-se ao Intune, Azure AD, Microsoft Defender ATP e outros serviços de nuvem. Use o Gerenciador de Configurações para implantar aplicativos, atualizações de software e sistemas operacionais. Você também pode monitorar a conformidade, consultar e agir sobre os clientes em tempo real e muito mais.
 
-Para obter mais informações, confira a [visão geral do Gerenciador de Configurações](https://docs.microsoft.com/configmgr/core/understand/introduction).
+Para obter mais informações, confira a [visão geral do Gerenciador de Configurações](https://docs.microsoft.com/mem/configmgr/core/understand/introduction).
 
 ## <a name="co-management"></a>Co-gerenciamento
 
@@ -48,13 +48,13 @@ O co-gerenciamento combina seu investimento existente no Gerenciador de Configur
 
 Como parte do Endpoint Manager, o co-gerenciamento usa recursos de nuvem, incluindo Acesso Condicional. Você mantém algumas tarefas no local enquanto executa outras na nuvem com o Intune.
 
-Para mais informações, confira esta [visão geral do co-gerenciamento](https://docs.microsoft.com/configmgr/comanage/overview).
+Para mais informações, confira esta [visão geral do co-gerenciamento](https://docs.microsoft.com/mem/configmgr/comanage/overview).
 
 ## <a name="desktop-analytics"></a>Análise de Área de Trabalho
 
 A Análise de Área de Trabalho é um serviço baseado em nuvem que se integra ao Gerenciador de Configurações e fornece informações e inteligência para que você possa tomar decisões informadas sobre seus clientes Windows. Ela combina dados da sua organização com dados agregados de milhões de dispositivos conectados aos serviços de nuvem da Microsoft. Com a Análise de Área de Trabalho, você pode criar um inventário de aplicativos em execução em sua organização, avaliar a compatibilidade de aplicativos com as atualizações de recursos mais recentes do Windows 10, identificar problemas de compatibilidade e receber sugestões de mitigação com base em informações de dados ativadas em nuvem, criar grupos piloto que representam todo aplicativo e o estado do driver em um conjunto mínimo de dispositivos e implantar o Windows 10 ao piloto e em dispositivos gerenciados por produção.
 
-Para obter mais informações, confira a [visão geral da Análise de Área de Trabalho](https://docs.microsoft.com/configmgr/desktop-analytics/overview).
+Para obter mais informações, confira a [visão geral da Análise de Área de Trabalho](https://docs.microsoft.com/mem/configmgr/desktop-analytics/overview).
 
 ## <a name="windows-autopilot"></a>Windows Autopilot
 
