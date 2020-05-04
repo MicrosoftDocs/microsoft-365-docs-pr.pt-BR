@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aprenda a avaliar a preparação de diretórios e da rede no ambiente.
-ms.openlocfilehash: 4db179a2ed4c2aada841e8f7a4ed824aa1e190ff
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b9b2ed38afd77a5dd487b7e319eeee5300a62a25
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636803"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011646"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>Etapa 2: Diretório e preparação de rede
 
@@ -51,7 +51,7 @@ Neste artigo, exploraremos as ferramentas e as opções para preparar seus servi
 
 Se sua organização usa o Office 365, o Exchange Online, o Microsoft Intune ou outros serviços do Microsoft Online, a boa notícia é que você já está usando o Azure Active Directory. Caso já esteja usando, apenas verifique se os usuários aos quais você está direcionando a implantação de desktop estão em seu Azure Active Directory e se as licenças foram atribuídas.
 
-Se atualmente não estiver usando o Azure Active Directory, há [vários recursos](https://docs.microsoft.com/azure/active-directory/) para ajudá-lo a configurá-lo. É possível que você esteja habilitado a receber assistência personalizada por meio do Microsoft FastTrack, como parte da licença. Saiba mais sobre o Microsoft Fastrack clicando [aqui](https://fasttrack.microsoft.com).
+Se atualmente não estiver usando o Azure Active Directory, há [vários recursos](https://docs.microsoft.com/azure/active-directory/) para ajudá-lo a configurá-lo. É possível que você esteja habilitado a receber assistência personalizada por meio do Microsoft FastTrack, como parte da licença. Saiba mais sobre o Microsoft FastTrack [aqui](https://fasttrack.microsoft.com).
 
 Depois que o Azure Active Directory estiver configurado, os usuários poderão entrar e ativar os Aplicativos do Microsoft 365 para empresas, e você poderá usar a implantação do Microsoft Intune ou do Windows Autopilot para implantação automatizada de aplicativos e políticas.
 
@@ -121,7 +121,7 @@ Além de aprimorar a Otimização de Entrega, veja a seguir três itens que ajud
 
 **Compactação delta binária** Os Aplicativos do Microsoft 365 usa a compactação delta binária para reduzir a largura de banda consumida pelas atualizações de software ao atualizar da versão mais recente dos Aplicativos do Microsoft 365 para a nova versão. Ao obter apenas as alterações de nível binário da versão anterior, o impacto do crescimento mensal de atualizações cumulativas é minimizado. Isso tem o potencial de economizar centenas de dados por PC a cada mês. Para usar esse recurso, não é possível pular versões. Se fizer isso, a atualização cumulativa completa deverá ser baixada.
 
-[Baixar as atualizações do Office 365](https://docs.microsoft.com/deployoffice/overview-of-the-update-process-for-office-365-proplus#download-the-updates-for-office-365-proplus)
+[Baixando atualizações dos Aplicativos do Microsoft 365](https://docs.microsoft.com/deployoffice/overview-update-process-microsoft-365-apps#download-the-updates-for-microsoft-365-apps)
 
 **Arquivos de Dados do Outlook** O Outlook geralmente está configurado para armazenar localmente em cache toda a caixa de correio do usuário para uso offline. Em qualquer implantação do Windows, exceto em uma atualização in-loco, são necessários os Arquivos de dados do Outlook dos usuários para recriá-los por conta própria após a atualização. Este é um processo automatizado, mas com limites de caixas de correio do Outlook normalmente definidos em até 100 GB, um novo armazenamento local em cache de toda a caixa de correio de todos os usuários indica muita transferência de dados. Para reduzir a carga da rede, considere a possibilidade de usar a Política de Grupo para reduzir a configuração de “Email para manter offline”. Nos Aplicativos do Microsoft 365 para empresas ou Office 2016, o valor padrão do Outlook está definido como 12 meses. Para reduzir o impacto na rede, considere configurar o cache offline para ter uma duração entre 1 a 6 meses. Alterar essa configuração não afetará o tamanho da caixa de correio online, e toda a caixa de correio ainda pode ser pesquisada pelo Outlook quando estiver online.
 

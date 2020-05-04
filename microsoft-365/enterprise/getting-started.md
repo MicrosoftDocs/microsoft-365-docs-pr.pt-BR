@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Introdução ao Processo de Implantação do Computador.
-ms.openlocfilehash: f50a719d87a961c0446757d21d2f8be5d6eedbc0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 05ec900acbcfed9d148ef4f567aab099dd9b7c7d
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634213"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011870"
 ---
 # <a name="getting-started---desktop-deployment"></a>Introdução - Implantação do Computador
 
@@ -53,7 +53,7 @@ Um dos principais locatários das práticas modernas de gerenciamento são dispo
 
 [Windows 10 para o profissional de TI](https://www.microsoft.com/itpro/windows-10)
 
-[Sobre o Microsoft 365 Apps para empresas na empresa](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)
+[Sobre o Microsoft 365 Apps para Grandes Empresas](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps)
 
 ## <a name="what-has-changed"></a>O que mudou
 
@@ -67,7 +67,7 @@ Vamos começar dando uma olhada no que mudou e melhorou desde a sua última impl
 
 **Gerenciamento de dispositivos baseados em nuvem:** Serviços como o Microsoft Intune ajudam você a gerenciar seus dispositivos com Windows 10 da mesma forma que gerencia seus outros dispositivos móveis, tudo em um único lugar. O que torna o Microsoft Intune único é a habilidade de co-gerenciar seus dispositivos Windows 10 com o Microsoft Endpoint Configuration Manager. Você pode usar o Configuration Manager para ajudá-lo a mudar para o Windows 10 e, em seguida, adicionar o Microsoft Intune. Trabalhando juntos, o Microsoft Endpoint Configuration Manager se torna a borda inteligente dentro de sua organização, conectado à nuvem inteligente da Microsoft. Isso permite que você gerencie os dispositivos de seus usuários com segurança onde quer que eles estejam, estejam conectados na nuvem de sua organização ou na nuvem pública.
 
-[Cogerenciamento para dispositivos com o Windows 10](https://docs.microsoft.com/configmgr/core/clients/manage/co-management-overview)
+[Cogerenciamento para dispositivos com o Windows 10](https://docs.microsoft.com/mem/configmgr/core/clients/manage/co-management-overview)
 
 **Serviço de Implantação baseado em nuvem:** Conforme você adquire novos computadores, apresentamos um novo serviço de nuvem para ajudá-lo a implantar os dispositivos com Microsoft 365, chamado de serviço de implantação do Windows Autopilot. O Autopilot é integrado aos seus provedores de hardware e novos computadores são registrados automaticamente no Autopilot, permitindo que o novo computador seja enviado diretamente ao usuário final. Quando o computador é ligado pela primeira vez, ele é configurado rapidamente para a configuração desejada pela sua organização e personalizado para as necessidades específicas do usuário.
 
@@ -77,7 +77,7 @@ Vamos começar dando uma olhada no que mudou e melhorou desde a sua última impl
 
 Clique para Executar é bem diferente dos pacotes baseados em MSI do passado. Clique para Executar é mais rápido, mais leve e oferece suporte para atualizações em segundo plano para manter seus usuários ativos. Ele ainda é uma cópia local do Office e você pode continuar a usar suas ferramentas de implantação existentes, como o Microsoft Endpoint Configuration Manager para provisionar e configurar os aplicativos.
 
-[Guia de implantação dos Aplicativos do Microsoft 365 Apps](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
+[Guia de implantação dos Aplicativos do Microsoft 365](https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps)
 
 **Atualizações semestrais:** quando você tiver migrado para o Windows 10 e o Microsoft 365 Apps, as atualizações serão entregues semestralmente com novos recursos. Mas com o Microsoft conseguindo trazer informações da nuvem para ajudar, você pode implantar essas atualizações em centenas a milhares de dispositivos de forma rápida e segura. Como uma atualização in-loco, a Atualização de Recurso preserva aplicativos, dados e configurações da versão anterior.
 
@@ -109,14 +109,14 @@ Assim como em atualizações anteriores, a Ferramenta de Migração dos Estados 
 
 **[Etapa 6: Implantação do sistema operacional e atualizações de recursos](https://aka.ms/mdd6)** Com tudo preparado, a próxima etapa é implantar as imagens do sistema operacional. Muito do trabalho pesado pode ser feito usando as sequências de tarefas e a infraestrutura do System Center Configuration Manager. A abordagem recomendada é implantar em fases, visando e implantando em um "grupo de adoção antecipada" em sua organização usando um conjunto representativo de hardware e aplicativos. Você pode usar os dados desses dispositivos e usuários e ter como destino cada vez mais computadores, de forma gradual.
 
-[Introdução à implantação do sistema operacional no Configuration Manager](https://docs.microsoft.com/configmgr/osd/understand/introduction-to-operating-system-deployment)
+[Introdução à implantação do sistema operacional no Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
 
 **[Etapa 7: Windows e Office como serviço](https://aka.ms/mdd7)** Isso representa uma grande mudança na forma que você mantém o estado real do computador dos usuários. Com essa mudança para o Windows 10 e o Microsoft 365 Apps para empresas, você pode gerenciar o Windows e o Office como um serviço. Em vez de uma grande mudança de tecnologia em pequenos intervalos de anos, você estará trazendo novos recursos, experiências e proteções ao seu usuário. As atualizações de recursos semestrais oferecem novos recursos no outono e primavera de cada ano, enquanto as Atualizações de Qualidade cumulativas contêm segurança, confiabilidade e correção de bugs. Embora você possa optar por implantar o cliente do Office 2019, é altamente recomendável que você mude para o Microsoft 365 Apps para empresas. Isso segue um plano de serviço semelhante para o Windows para que seus usuários também recebam atualizações para os aplicativos do Office regularmente.
 
 ![](../media/getting-started-media/getting-started-media-2.png)
 
 [Visão geral do Windows como serviço](https://docs.microsoft.com/windows/deployment/update/waas-overview)
-[Visão geral do Office como serviço](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
+[Visão geral do Office como serviço](https://docs.microsoft.com/DeployOffice/overview-update-channels)
 
 **[Etapa 8: Treinamento e comunicações de usuários](https://aka.ms/mdd8)** Esse último passo é essencial para gerar uso de novos recursos para aperfeiçoar o trabalho em equipe, comunicação, segurança e mais. Antes que a implantação geral seja direcionada a usuários fora dos círculos de usuários pioneiros, recomendados que você implante o treinamento e comunicações de usuários. Isso vai ajudar a gerar as mudanças desejadas em como as pessoas usam os novos recursos no Office, Windows ou outros aplicativos e serviços da linha de negócios. Para ajudar, fornecemos treinamento online gratuito através do Microsoft FastTrack. Além disso, publicamos amostras gratuitas de planos de comunicação e cronogramas junto com modelos de e-mail, sociais e de intranet para ajudá-lo na sua implantação do Windows 10. Como Microsoft 365 ou organização, sua organização também pode ser qualificada e receber suporte direto.
 

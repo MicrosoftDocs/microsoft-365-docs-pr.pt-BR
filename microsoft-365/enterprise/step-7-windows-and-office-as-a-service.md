@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba como se preparar para a manutenção do Windows e do Office em seu ambiente.
-ms.openlocfilehash: 422cbd4fd8310a9bc63696c0ea6e9da858c51230
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: bca8fbf39bbbcc7b0a37512383caf630ffe3da67
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636730"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011610"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>Etapa 7: Manutenção do Windows e do Office
 
@@ -83,7 +83,7 @@ Também pensamos em como descomplicar a implantação das atualizações para vo
 
 [Implantar as atualizações do Windows 10 usando o Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 
-[Gerenciar os Aplicativos do Microsoft 365 para empresas com o Gerenciador de Configurações](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
+[Gerenciar os Aplicativos do Microsoft 365 para empresas com o Gerenciador de Configurações](https://docs.microsoft.com/mem/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
 
 ## <a name="overview-of-windows-and-office-channels"></a>Visão geral dos canais do Windows e do Office
 
@@ -103,7 +103,7 @@ O Microsoft 365 oferece quatro canais de manutenção:
 Para obter informações detalhadas sobre os canais de manutenção do Windows e do Office, examine a documentação a seguir:
 
 - [Visão geral do Windows como Serviço](https://docs.microsoft.com/windows/deployment/update/waas-overview#servicing-channels)
-- [Visão geral dos canais de atualização dos Aplicativos do Microsoft 365 para empresas](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
+- [Visão geral dos canais de atualização do Microsoft 365 Apps](https://docs.microsoft.com/DeployOffice/overview-update-channels#BKMK_SAC)
 
 ## <a name="phased-deployment-of-updates"></a>Implantação de atualizações em fases
 
@@ -141,7 +141,7 @@ Quanto às ferramentas a utilizar, você pode usar as configurações de políti
 
 [Canal Semestral do Windows](https://docs.microsoft.com/windows/deployment/update/waas-overview#semi-annual-channel)
 
-[Canal Semestral para os Aplicativos do Microsoft 365 para empresas](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
+[Canal Semestral para os Aplicativos do Microsoft 365](https://docs.microsoft.com/DeployOffice/overview-update-channels#BKMK_SAC)
 
 #### <a name="upgrade-task-sequences"></a>Atualizar as sequências de tarefas
 
@@ -153,7 +153,7 @@ Uma sequência de tarefas permite que você crie verificações ou tarefas perso
 
 Se você já está usando as sequências de tarefas para migrar seus computadores com o Windows 7 para o Windows 10 e está habituado com essas ferramentas, este é um ótimo lugar para começar e exercer o máximo controle. Embora seja possível usar uma única sequência de tarefas para a atualização inteira, é muito comum que as organizações usem duas sequências de tarefas: uma para garantir que os computadores estejam prontos para a atualização, que silenciosamente prepara para as fases todos os arquivos de instalação necessários nos computadores de destino e um para fazer a atualização de fato. Esta abordagem garante que a produtividade do usuário seja menos afetada.
 
-[Criar uma sequência de tarefas para atualizar um sistema operacional no Gerenciador de Configurações](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+[Criar uma sequência de tarefas para atualizar um sistema operacional no Gerenciador de Configurações](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 
 #### <a name="semi-annual-channel-support-for-feature-updates"></a>Suporte de canal semestral para atualizações de recursos
 

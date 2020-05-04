@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Percorra o processo de migração de versões do Microsoft Office, servidores do Office e Windows para o Microsoft 365 Enterprise em toda a organização.
-ms.openlocfilehash: 76396ea3eb4622bb27455938f5c645dd1240003a
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 6830b4627eea799e18d32d3f9150617df339d7d4
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113488"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011790"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Migração para o Microsoft 365 Enterprise
 
@@ -25,7 +25,7 @@ A maioria das organizações empresariais tem um ambiente heterogêneo com vári
 
 Para maximizar o valor comercial do conjunto integrado de produtos do Microsoft 365 Enterprise, comece a planejar e implementar uma estratégia para migrar versões de:
 
-- Cliente do Office instalado em seus computadores para o Office 365 ProPlus
+- O cliente do Office instalado em seus computadores para o Aplicativos do Microsoft 365 para empresas
 - Servidores do Office instalados em seus servidores para seus serviços equivalentes no Office 365
 - Windows 7 e Windows 8.1 em dispositivos Windows 10 Enterprise
 
@@ -49,7 +49,7 @@ Em muitas organizações grandes e pequenas, você pode usar uma combinação de
 - Não estão otimizadas para aproveitar as tecnologias de nuvem da Microsoft e ajudar você a transformar seus negócios digitalmente.
 - Não há novos recursos.
  
-O Microsoft 365 Enterprise inclui o Office 365 ProPlus, uma versão dos produtos de cliente do Office que está disponível com uma licença do Microsoft 365 Enterprise e é instalada e atualizada a partir da nuvem da Microsoft. O Office 365 ProPlus inclui atualizações de segurança e os recursos mais recentes. Confira [Sobre o Office 365 ProPlus na empresa](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise) para obter mais informações.
+O Microsoft 365 Enterprise inclui o Aplicativos do Microsoft 365 para empresas, uma versão dos produtos cliente do Office que está disponível com uma licença do Microsoft 365 Enterprise e é instalada e atualizada a partir da nuvem da Microsoft. O Aplicativos do Microsoft 365 para empresas inclui atualizações de segurança e os recursos mais recentes. Consulte [Sobre o Microsoft 365 Apps para Grandes Empresas](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps) para obter mais informações.
 
 ### <a name="office-2007"></a>Office 2007
 
@@ -59,9 +59,9 @@ Em vez de atualizar seus computadores que executam o Office 2007 com o Office 20
 
 1. Como adquirir e atribuir uma licença do Microsoft 365 aos usuários.
 2. Como desinstalar o Office 2007 em seus computadores.
-3. Como instalar o Office 365 ProPlus, individualmente ou em conjunto com uma distribuição de TI. Para mais informações, confira [Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md).
+3. Instalar o Aplicativos do Microsoft 365 para empresas, individualmente ou em conjunto com uma distribuição de TI. Para saber mais, confira [Fase 4: Aplicativos do Microsoft 365 para empresas](office365proplus-infrastructure.md).
 
-O Office 365 ProPlus instala atualizações automaticamente e pode aproveitar os serviços baseados em nuvem no Office 365 para aumentar a segurança e a produtividade.
+O Aplicativos do Microsoft 365 para empresas instala atualizações automaticamente e pode aproveitar os serviços baseados em nuvem para aumentar a segurança e a produtividade.
 
 ### <a name="office-2010"></a>Office 2010
 
@@ -71,9 +71,9 @@ Em vez de atualizar seus computadores que executam o Office 2010 com o Office 20
 
 1. Como adquirir e atribuir uma licença do Microsoft 365 aos usuários.
 2. Como desinstalar o Office 2010 em seus computadores.
-3. Como instalar o Office 365 ProPlus, individualmente ou em conjunto com uma distribuição de TI. Para mais informações, confira [Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md).
+3. Instalar o Aplicativos do Microsoft 365 para empresas, individualmente ou em conjunto com uma distribuição de TI. Para saber mais, confira [Fase 4: Aplicativos do Microsoft 365 para empresas](office365proplus-infrastructure.md).
 
-O Office 365 ProPlus instala atualizações de segurança e de novos recursos automaticamente e pode aproveitar os serviços baseados em nuvem no Microsoft 365 para aumentar a segurança e a produtividade.
+O Aplicativos do Microsoft 365 para empresas instala atualizações de segurança e de novos recursos automaticamente e pode aproveitar os serviços baseados em nuvem no Microsoft 365 para aumentar a segurança e a produtividade.
 
 ### <a name="office-2013-and-office-2016"></a>Office 2013 e Office 2016
 
@@ -83,9 +83,9 @@ Em vez de continuar atualizando os computadores com as atualizações de seguran
 
 1. Como adquirir e atribuir uma licença do Microsoft 365 aos usuários.
 2. Como desinstalar o Office 2013 ou o Office 2016 em seus computadores.
-3. Como instalar o Office 365 ProPlus, individualmente ou em conjunto com uma distribuição de TI. Para mais informações, confira [Fase 4: Office 365 ProPlus](office365proplus-infrastructure.md).
+3. Instalar o Aplicativos do Microsoft 365 para empresas, individualmente ou em conjunto com uma distribuição de TI. Para saber mais, confira [Fase 4: Aplicativos do Microsoft 365 para empresas](office365proplus-infrastructure.md).
 
-O Office 365 ProPlus instala atualizações de segurança e de novos recursos automaticamente e pode aproveitar os serviços baseados em nuvem no Microsoft 365 para aumentar a segurança e a produtividade.
+O Aplicativos do Microsoft 365 para empresas instala atualizações de segurança e de novos recursos automaticamente e pode aproveitar os serviços baseados em nuvem no Microsoft 365 para aumentar a segurança e a produtividade.
 
 ## <a name="migration-for-microsoft-office-server-products"></a>Migração para produtos de servidor do Microsoft Office
 
@@ -116,10 +116,9 @@ Em vez de atualizar seus produtos de servidor na versão Office 2007 com produto
 
 ### <a name="office-server-2010"></a>Office Server 2010
 
-Para produtos de servidor na versão Office 2010, o fim do suporte será em **13 de outubro de 2020** para o seguinte:
+O fim do suporte ao [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support) será em **13 de outubro de 2020**.
 
-- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
-- [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010)
+O fim do suporte ao [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010) será em **13 de abrir de 2021**.
 
 Em vez de atualizar esses produtos de servidor na versão Office 2010 com produtos de servidor nas versões Office 2013 ou Office 2016, considere:
 
@@ -163,7 +162,7 @@ Você pode[baixar esse pôster](https://github.com/MicrosoftDocs/microsoft-365-d
 
 Veja como os especialistas em TI da Microsoft migraram a empresa para o Microsoft 365 Enterprise com estes recursos: 
 
-- [Implantar e atualizar o Microsoft Office 365 ProPlus](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus)
+- [Implantar e atualizar o Aplicativos do Microsoft 365 para empresas da Microsoft](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus)
 - [A Microsoft migra 150 mil caixas de correio para o Exchange Online](https://www.microsoft.com/itshowcase/Article/Content/577/Microsoft-migrates-150000-mailboxes-to-Exchange-Online)
 - [SharePoint para a nuvem: saiba como a Microsoft realizou a própria migração](https://www.microsoft.com/itshowcase/Article/Content/691/SharePoint-to-the-cloud-Learn-how-Microsoft-ran-its-own-migration)
 - [Implantar o Windows 10 na Microsoft como uma atualização in-loco](https://www.microsoft.com/itshowcase/Article/Content/668/Deploying-Windows-10-at-Microsoft-as-an-inplace-upgrade)

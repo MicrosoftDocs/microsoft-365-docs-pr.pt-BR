@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Percorra as fases simplificadas da infraestrutura de base do Microsoft 365 para empresas para organizações não empresariais.
-ms.openlocfilehash: cad142f2f26eb999431eb5bb531cb4520e4d6102
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e1c747e5f4ab3e58adeaf91518512d8ece83d91b
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638255"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011894"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-for-non-enterprises"></a>Infraestrutura de base não empresarial do Microsoft 365 para empresas
 
@@ -215,7 +215,7 @@ Os novos e destacados elementos do Windows 10 Enterprise incluem:
 
 ## <a name="phase-4-microsoft-365-apps-for-enterprise"></a>Fase 4 - Microsoft 365 Apps para empresas
 
-O Microsoft 365 para empresas inclui o Microsoft 365 Apps, a versão de assinatura do Microsoft Office. Como o Office 2016 ou o Office 2019, o Microsoft 365 Apps é instalado diretamente nos seus dispositivos clientes. Entretanto, o Microsoft 365 Apps para empresas recebe atualizações que incluem novos recursos regularmente. Consulte [Sobre o Microsoft 365 Apps para empresas na empresa](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise) para obter mais informações.
+O Microsoft 365 para empresas inclui o Microsoft 365 Apps, a versão de assinatura do Microsoft Office. Como o Office 2016 ou o Office 2019, o Microsoft 365 Apps é instalado diretamente nos seus dispositivos clientes. Entretanto, o Microsoft 365 Apps para empresas recebe atualizações que incluem novos recursos regularmente. Consulte [Sobre o Microsoft 365 Apps para Grandes Empresas](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps) para obter mais informações.
 
 Na sua organização não corporativa, instale manualmente o Microsoft 365 Apps para empresas nos dispositivos, o que pode incluir dispositivos Windows, iOS e Android. Isso pode ser feito como parte da preparação de um novo dispositivo para uso ou pode ser feito pelo usuário como parte de seu processo de integração.
 

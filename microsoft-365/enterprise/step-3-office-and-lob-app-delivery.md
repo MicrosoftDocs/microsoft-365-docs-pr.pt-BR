@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba como entregar aplicativos do Office e LOB.
-ms.openlocfilehash: bf610f6d6684cf8fb6211301468747fbecf3d8f1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ab40e59face9e8c4b37db15a9c815ea5579b4a2c
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636791"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011634"
 ---
 # <a name="step-3-office-and-lob-app-delivery"></a>Etapa 3: Entrega de aplicativos do Office e LOB
 
@@ -63,9 +63,9 @@ Outro método popular de entrega de aplicativos é a geração de imagens do com
 
 Se você quiser incluir os Aplicativos do Microsoft 365 para empresas na sua imagem, lembre-se de que ele usa uma ativação baseada no usuário e não pode ser pré-ativado pelo administrador do sistema. Use a Ferramenta de Implantação do Office para instalar previamente o Office no dispositivo que você está gerando imagens e ignore a entrada do usuário. Depois que a imagem for implantada, os usuários finais poderão entrar usando as credenciais e ativar os Aplicativos do Microsoft 365 para empresas.
 
-[Criar uma sequência de tarefas para instalar um sistema operacional](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
+[Criar uma sequência de tarefas para instalar um sistema operacional](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
-[Implantar os Aplicativos do Microsoft 365 para empresas como parte de uma imagem do sistema operacional](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
+[Implantar os Aplicativos do Microsoft 365 como parte de uma imagem do sistema operacional](https://docs.microsoft.com/deployoffice/deploy-microsoft-365-apps-operating-system-image)
 
 ## <a name="office-click-to-run"></a>Clique para Executar no Office 
 
@@ -81,11 +81,11 @@ Se você usa o Gerenciador de Configurações, ainda será possível usá-lo par
 
 ![](../media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-6.png)
 
-[Guia de implantação do Aplicativos do Microsoft 365 para empresas](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
+[Guia de implantação dos Aplicativos do Microsoft 365](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
 
-[Remover as versões MSI existentes do Office durante a atualização para o Aplicativos do Microsoft 365 para empresas](https://docs.microsoft.com/deployoffice/upgrade-from-msi-version)
+[Remover as versões MSI existentes do Office durante a atualização para o Aplicativos do Microsoft 365](https://docs.microsoft.com/deployoffice/upgrade-from-msi-version)
 
-[Gerenciar o Aplicativos do Microsoft 365 para empresas com o Gerenciador de Configurações](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
+[Gerenciar o Aplicativos do Microsoft 365 para empresas com o Gerenciador de Configurações](https://docs.microsoft.com/mem/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
 
 [Atribuir aplicativos do Office 365 a dispositivos do Windows 10 com o Microsoft Intune](https://docs.microsoft.com/intune/apps-add-office365)
 
