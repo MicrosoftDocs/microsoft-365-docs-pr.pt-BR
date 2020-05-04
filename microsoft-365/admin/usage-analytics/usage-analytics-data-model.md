@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: 'Saiba como a análise de uso se conecta a uma API e fornece tendências mensais de uso de vários serviços da Microsoft 365.  '
-ms.openlocfilehash: 56ef0ffcedee71a4529ff31aecefed0d2645b89a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2c39edd66bda19233a67c4623044ffc9e0e8046d
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634235"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011766"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Modelo de dados de análise de uso do Microsoft 365
 
@@ -50,7 +50,7 @@ Esta API fornece informações sobre a tendência mensal de uso dos vários serv
 |Uso Online do SharePoint do Locatário  <br/> |Contém dados sobre os sites do SharePoint, incluindo sites de Equipe ou de Grupo, como o número total de sites, o número de documentos no site, o número de arquivos por tipo de atividade e armazenamento usado.  <br/> |Contém os dados de estado de fim de mês por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
 |Uso do OneDrive for Business do Locatário  <br/> |Contém dados sobre as contas do OneDrive, como o número de contas, o número de documentos em OneDrives, o armazenamento usado, a contagem de arquivos por tipo de atividade.  <br/> |Contém os dados de estado de fim de mês por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
 |Uso de grupos do Microsoft 365  <br/> |Contém dados sobre o uso de grupos do Microsoft 365, incluindo a caixa de correio, o SharePoint e o Yammer.  <br/> |Contém os dados de estado de fim de mês por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
-|Ativação do Office do Locatário  <br/> |Contém dados sobre o número de ativações de assinatura do Office, a contagem de ativações por dispositivo (Android/iOS/Mac/PC), as ativações pelo plano de serviço, por exemplo, Office Proplus, Visio, Project.  <br/> |Contém os dados de estado de fim de mês por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
+|Ativação do Office do Locatário  <br/> |Contém dados sobre o número de ativações de assinatura do Office, contagem de ativação por dispositivo (Android/iOS/Mac/PC), ativações por plano de serviço, por exemplo, Microsoft 365 Apps for Enterprise, Visio, Project.  <br/> |Contém os dados de estado de fim de mês por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
 |Estado do Usuário  <br/> |Contém metadados sobre os usuários, incluindo o nome de exibição do usuário, os produtos atribuídos, o local, o departamento, o título, a empresa. Esses dados referem-se aos usuários que receberam uma licença durante o último mês completo. Todos os usuários são exclusivamente representados por uma id de usuário.  <br/> |Esses dados referem-se aos usuários que tinham uma licença atribuída durante o último mês completo.  <br/> |
 |Atividade do Usuário  <br/> |Contém informações de nível de cada usuário sobre as atividades executadas por usuários licenciados.  <br/> Veja [definição de usuário ativo](active-user-in-usage-reports.md) para saber mais sobre as atividades em um produto que são retornadas nesta tabela de dados.  <br/> |Esses dados referem-se aos usuários que executaram uma atividade em qualquer um dos serviços durante o último mês completo.  <br/> |
    
@@ -152,7 +152,7 @@ Esta tabela fornece dados de adoção mês a mês em termos de habilitação, at
 |ActiveUsers  <br/> |Número de usuários que executaram uma atividade intencional no produto para o valor do período de tempo.  <br/> Um usuário é contado como ativo para um produto em um mês específico se ele tiver executado uma das principais atividades no produto. As principais atividades estão disponíveis na tabela **Atividade de produtos do locatário**.  <br/> |
 |CumulativeActiveUsers  <br/> |Número de usuários que estão habilitados para usar um produto e que usaram o produto até o mês-prazo pelo menos uma vez desde o início da coleta de dados no novo sistema de uso.  <br/> |
 |MoMReturningUsers  <br/> |Número de usuários que estão ativos no mês-prazo e que também estavam ativos no mês anterior.  <br/> |
-|FirstTimeUsers  <br/> |Número de usuários que ficaram ativos no prazo pela primeira vez desde a coleta de dados, no novo sistema de uso.  <br/> Um usuário é contado como usuário iniciante em um mês específico se detectarmos sua atividade pela primeira vez desde o início do conjunto de dados neste novo sistema de relatórios. Depois de contado como usuário iniciante, mesmo se esse usuário tiver um intervalo grande na sua atividade, ele nunca será contado novamente como um usuário iniciante.  <br/> |
+|FirstTimeUsers  <br/> |Número de usuários que ficaram ativos no prazo pela primeira vez desde a coleta de dados, no novo sistema de uso.  <br/> Um usuário é contado como usuário iniciante em um mês específico se detectarmos sua atividade pela primeira vez desde o início do conjunto de dados neste novo sistema de relatórios. Uma vez contado como o usuário pela primeira vez, mesmo que esse usuário tenha uma grande diferença em suas atividades, elas nunca serão contadas novamente como o usuário da primeira vez  <br/> |
 |Data do Conteúdo  <br/> |Se o prazo mostrar o mês atual, esse valor representará a última data do mês atual para o qual os dados estão disponíveis.  <br/> Se o prazo mostrar o mês anterior, esse valor representará a última data do mês do prazo.  <br/> |
    
 ### <a name="data-table---tenant-product-activity"></a>Tabela de dados - Atividade de Produto do Locatário
@@ -277,7 +277,7 @@ Esta tabela fornece dados sobre como os grupos do Microsoft 365 são usados em t
    
 ### <a name="data-table---tenant-office-activation"></a>Tabela de dados - Ativação do Office do Locatário
 
-A tabela fornece dados sobre o número de ativações de assinatura do Office entre os planos de serviço, por exemplo, Office Proplus, Visio, Project. Ela também fornece dados sobre o número de ativações por dispositivo (Android/iOS/Mac/PC).
+A tabela fornece dados sobre o número de ativações de assinatura do Office nos planos de serviço, por exemplo, Microsoft 365 Apps for Enterprises, Visio, Project. Ela também fornece dados sobre o número de ativações por dispositivo (Android/iOS/Mac/PC).
   
 |**Nome da coluna**|**Descrição da coluna**|
 |:-----|:-----|

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f04c6bf41e9c09455773c419efec0b7b4e8ca5ae
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: fa35e71d2748e02da12a239f67134c1b25b5a369
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637985"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011824"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust Alliance (HITRUST) estrutura de segurança comum (CSF)
 
@@ -39,7 +39,7 @@ Saiba como acelerar sua implantação do HITRUST com o plano de segurança e con
 
 [Baixe a matriz de responsabilidades do cliente do Microsoft Azure HITRUST (CRM) Blueprint v 9.0 d](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=3ccde498-4761-4be0-be8b-cd8d379a3a4f&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_Healthcare_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - Intune
@@ -82,7 +82,7 @@ Você pode baixar uma cópia da carta de certificação para o [Azure](https://s
 
 **Quais são os serviços no escopo para o Office 365?**
 
-Os serviços de escopo de certificação do HITRUST CSF são arquivamento do Exchange Online, proteção do Exchange Online, Exchange Online, Skype for Business, centro de administração, SharePoint Online, o Project online, o OneDrive for Business, o Office Online, o Microsoft Teams, o Office PROPLUS na nuvem multilocatário do Office 365 e o Office 365 GCC.
+Os serviços de escopo de certificação do HITRUST CSF são arquivamento do Exchange Online, do Exchange Online, do Exchange Online, do Skype for Business, do centro de administração, do SharePoint Online, do Project online, do OneDrive for Business, do Office Online, do Microsoft Teams, do Microsoft 365 Apps for Enterprise na nuvem multilocatário do Office 365 e do Office 365 GCC.
 
 > [!NOTE]
 > O Microsoft 365 aplicativos para empresas permite o acesso a vários serviços de nuvem, como configurações de roaming, licenciamento e armazenamento em nuvem do OneDrive para consumidores, e pode permitir o acesso a serviços de nuvem adicionais no futuro. As configurações de roaming e o licenciamento dão suporte aos padrões do HITRUST. O armazenamento em nuvem do OneDrive não é e outros serviços em nuvem que são acessíveis através dos aplicativos do Microsoft 365 para empresas e que a Microsoft pode oferecer no futuro também podem não oferecer suporte a esses padrões. *
@@ -109,7 +109,7 @@ Faça logon na ferramenta HITRUST MyCSF® e preencha previamente sua avaliação
 - [HITRUST CSF 9,3](https://hitrustalliance.net/csf-license-agreement/)
 - [Entendendo e aproveitando o CSF](https://hitrustalliance.net/understanding-leveraging-csf/)
 - [Saiba mais sobre o programa de responsabilidade compartilhada do HITRUST](https://go.microsoft.com/fwlink/p/?linkid=2100268)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

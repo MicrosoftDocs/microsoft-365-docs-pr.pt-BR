@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 763a9f3c7c517a5d093b9691310720468053bf24
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 02e6eb5914af9ad72971029913d31b214ebbd190
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636469"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011930"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Como as atualizações são tratadas na área de trabalho gerenciada da Microsoft
 
@@ -61,10 +61,10 @@ Como funciona a implantação da atualização:
 <tr><td>Atualizações de recursos para o sistema operacional</td><td>0 dias</td><td>30 dias</td><td>60 dias</td><td>90 dias</td></tr>
 <tr><td>Drivers/firmware</td><td colspan="4">Segue o agendamento de atualizações de qualidade</td></tr>
 <tr><td>Definição de antivírus</td><td colspan="4">Atualizado com cada verificação</td></tr>
-<tr><td>Aplicativos da Microsoft 365 para empresas</td><td colspan="4">Acompanha o canal mensal do Office
+<tr><td>Microsoft 365 Apps para Grandes Empresas</td><td colspan="4">Acompanha o canal mensal do Office
 </table>
 
-Para obter mais informações sobre o canal mensal para o Microsoft 365 Apps for Enterprise, consulte [Overview of Update Channels for microsoft 365 Apps for Enterprise](https://docs.microsoft.com/deployoffice/overview-of-update-channels-for-office-365-proplus).
+Para obter mais informações sobre o canal mensal para o Microsoft 365 Apps for Enterprise, consulte [Overview of Update Channels for microsoft 365 apps](https://docs.microsoft.com/deployoffice/overview-update-channels).
 
 >[!NOTE]
 >Esses períodos de adiamento foram intencionalmente projetados para garantir altos padrões de segurança e desempenho para todos os usuários. Além disso, com base nos dados coletados em todos os dispositivos de área de trabalho gerenciada da Microsoft e no escopo variável e no impacto das atualizações, a área de trabalho gerenciada da Microsoft reserva a flexibilidade para modificar o tamanho dos períodos de adiamento acima para qualquer e todos os grupos de implantação em uma base ad hoc.

@@ -12,12 +12,12 @@ ms.date: 08/30/2018
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: ca5abb97628d04a9f29bb3a3fb9b43a578dbab74
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1c90640fa49aa102d2a4c8420feedf659b5682f2
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085580"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011812"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>Etapa 2: implantar o Windows 10 Enterprise para dispositivos existentes como uma atualização in-loco
 
@@ -47,7 +47,7 @@ Consulte [gerenciar atualizações do Windows com a preparação para atualizaç
 
 Em seguida, siga o guia para usar o Gerenciador de configuração (ramificação atual) para atualizar o sistema operacional Windows 7 ou posterior para o Windows 10. Como em qualquer implantação de alto risco, é recomendável fazer backup dos dados do usuário antes de prosseguir. O armazenamento em nuvem do OneDrive está pronto para ser usado para usuários licenciados da Microsoft 365 e pode ser usado para armazenar com segurança seus arquivos. Para obter mais informações, consulte o [Guia de início rápido do onedrive](https://aka.ms/ODfBquickstartguide). Para acessar essa página, você deve entrar como administrador de locatário ou administrador global em um Office 365 ou Microsoft 365 locatário.
 
-Para obter uma lista de versões do Gerenciador de configurações e as versões do cliente Windows 10 correspondentes suportadas, consulte [support for Windows 10 for Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10).
+Para obter uma lista de versões do Gerenciador de configurações e as versões do cliente Windows 10 correspondentes suportadas, consulte [support for Windows 10 for Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/plan-design/configs/support-for-windows-10).
 
 **Para verificar a preparação para atualizar o Windows**
 
@@ -96,13 +96,13 @@ Para criar uma sequência de tarefas de atualização, execute as seguintes etap
 Após criar a sequência de tarefas de atualização, você precisará criar uma coleção que contenha os dispositivos que você irá atualizar.
 
 > [!NOTE]
-> Use as configurações a seguir para testar a implantação em um único dispositivo. Você pode usar regras de associação diferentes para incluir grupos de dispositivos quando estiver pronto. Para obter mais informações, consulte [como criar conjuntos no Gerenciador de configurações](https://docs.microsoft.com/configmgr/core/clients/manage/collections/create-collections).
+> Use as configurações a seguir para testar a implantação em um único dispositivo. Você pode usar regras de associação diferentes para incluir grupos de dispositivos quando estiver pronto. Para obter mais informações, consulte [como criar conjuntos no Gerenciador de configurações](https://docs.microsoft.com/mem/configmgr/core/clients/manage/collections/create-collections).
 
 1. No console do Gerenciador de configurações, no espaço de trabalho **ativos e conformidade** , clique com o botão direito do mouse em **coleções de dispositivos**e selecione **criar coleção de dispositivos**. 
 2. No Assistente para criar coleção de dispositivos, na página **geral** , insira as seguintes configurações e selecione **Avançar**:
     - Name: atualização do Windows 10 Enterprise x64
     - Limitação de coleção: All Systems
-3. Na página **regras de associação** , selecione **** > **regra direta** de adição de regra para iniciar o assistente de criação de regra de associação direta.
+3. Na página **regras de associação** , selecione **Add Rule** > **regra direta** de adição de regra para iniciar o assistente de criação de regra de associação direta.
 4. Na página de **boas-vindas** do assistente para criar regra de associação direta, selecione **Avançar**.
 5. Na página **Pesquisar recursos** , insira as configurações a seguir, substituindo o texto do **valor** do espaço reservado pelo nome do dispositivo que você está atualizando: 
     - Classe de recurso: recurso do sistema

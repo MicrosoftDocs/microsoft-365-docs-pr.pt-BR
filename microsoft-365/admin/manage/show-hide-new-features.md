@@ -1,5 +1,5 @@
 ---
-title: Mostrar ou ocultar novos recursos usando o que há de novo gerenciamento
+title: Mostrar ou ocultar novos recursos usando o Gerenciamento de Novidades
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -18,14 +18,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Decida quais recursos e o conteúdo de suas novidades são exibidos ou ocultos dos usuários finais no Office What ' s New Management for Office Desktop apps.
-ms.openlocfilehash: de4191529c58dd471c6f24e86bdff2177a38b51d
-ms.sourcegitcommit: 256184cf731c1851b04a07dd7d59ecf020d02635
+ms.openlocfilehash: 7399da493f8e6878a92dc13d92482d7ddece0ba3
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131964"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011694"
 ---
-# <a name="show-or-hide-new-features-using-whats-new-management"></a>Mostrar ou ocultar novos recursos usando o que há de novo gerenciamento
+# <a name="show-or-hide-new-features-using-whats-new-management"></a>Mostrar ou ocultar novos recursos usando o Gerenciamento de Novidades
 
 O Office What ' s New Management for Win 32 permite que sua organização decida quais recursos são exibidos ou ocultos dos usuários finais no aplicativo da área de trabalho do Office. Cada versão do Office inclui recursos novos e aprimorados, e a visualização de conteúdo permite que você visualize o novo conteúdo para cada versão de lançamento e canal e escolha se deseja ocultar ou mostrar o conteúdo novo para cada recurso para os usuários finais. 
 
@@ -58,11 +58,11 @@ Novos recursos aparecem no Office o que há de novo gerenciamento com base neste
 ||||
 |:-----|:-----|:-----|
 |**Canal** <br/> |**Na visualização de gerenciamento** <br/> |**Executar ação** <br/> |
-|**Mensalmente** <br/> |15 do mês  <br/> |1-3 semanas antes da versão mensal <br/> |
+|**Mensal** <br/> |15 do mês  <br/> |1-3 semanas antes da versão mensal <br/> |
 |**Semestral (direcionado)** <br/> |1º de setembro e 1 de março <br/> | duas semanas antes da versão principal que traz novos recursos
 |**Semestral** <br/> |1º de Janeiro e 1 de julho <br/> | duas semanas antes da versão principal que traz novos recursos<br/> |
 
-Para obter mais informações sobre cronogramas de atualização de canal, consulte [Update History for Office 365 ProPlus (listado por Date)](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date).
+Para obter mais informações sobre cronogramas de atualização de canal, consulte [Update History for Microsoft 365 apps (listado por Date)](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date).
 
 ## <a name="related-articles"></a>Artigos relacionados
 

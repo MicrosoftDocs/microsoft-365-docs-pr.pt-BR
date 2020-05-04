@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Obtenha uma visão geral de como sua organização está adotando os serviços do Microsoft 365 para se comunicar e colaborar.
-ms.openlocfilehash: 783b2c599a5f3a31446855450029859e6dfd9f65
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3e74160cc2e30dc9337e0203fd82ced98869faf7
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626929"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011754"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Análise de uso do Microsoft 365
 ---
@@ -71,7 +71,7 @@ O relatório de visão geral do Microsoft 365 contém os seguintes relatórios. 
 
 A página ativação e licença oferece relatórios sobre a ativação do Microsoft 365; ou seja, quantos usuários baixaram e ativaram os aplicativos do Office e quantas licenças foram atribuídas por sua organização. O valor de mês em direção à parte superior se refere ao mês atual e as métricas refletem os valores agregados do início do mês até a data atual.
 
-- **Ativação do** &ndash; plano de serviço de controle (por exemplo, as ativações do Microsoft 365 ProPlus, do Project e do Visio) em sua organização. Cada pessoa com uma licença do Office pode instalar produtos em até cinco dispositivos. Você também pode usar relatórios nesta seção para ver os dispositivos nos quais as pessoas instalaram os aplicativos do Office. Observe que para ativar um plano, um usuário deve instalar o aplicativo e entrar com sua conta.
+- Monitor de **ativação** &ndash; plano de serviço (por exemplo, aplicativos do Microsoft 365 para as ativações de Enterprise, Project e Visio) em sua organização. Cada pessoa com uma licença do Office pode instalar produtos em até cinco dispositivos. Você também pode usar relatórios nesta seção para ver os dispositivos nos quais as pessoas instalaram os aplicativos do Office. Observe que para ativar um plano, um usuário deve instalar o aplicativo e entrar com sua conta.
 
 - **Licenciamento** &ndash; este relatório contém uma visão geral dos tipos de licença, a contagem de usuários que foram atribuídos a cada tipo de licença e a distribuição de atribuição de licença para cada mês. O valor de mês em direção à parte superior se refere ao mês atual e as métricas refletem os valores agregados do início do mês até a data atual.
 

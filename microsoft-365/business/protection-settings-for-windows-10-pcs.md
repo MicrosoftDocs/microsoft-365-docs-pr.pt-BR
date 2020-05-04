@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Saiba mais sobre o padrão e outras configurações disponíveis no Microsoft 365 for Business para proteger dispositivos Windows 10.
-ms.openlocfilehash: a3b7f0a8572a215491b32101a30c306b54571b6f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9096fb6a8fc790d9a9432578cfd8623f9cb69c7a
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633008"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011558"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Defina configurações de proteção de dispositivos para PCs com Windows 10
 
@@ -63,11 +63,11 @@ Para obter mais informações, consulte [como os recursos de proteção no Micro
   
 |||
 |:-----|:-----|
-|Configuração  <br/> |Descrição  <br/> |
+|Setting  <br/> |Descrição  <br/> |
 |Ajudar a proteger PCs contra vírus e outras ameaças usando o Windows Defender Antivirus  <br/> |Exige que o Windows Defender Antivírus esteja ativado para proteger computadores contra os riscos de estar conectado à Internet.  <br/> |
 |Ajudar a proteger PCs contra ameaças baseadas na Web no Microsoft Edge  <br/> |Ativa as configurações do Microsoft Edge que ajudam a proteger os usuários contra sites e downloads mal-intencionados.  <br/> |
 |Usar regras que reduzem a superfície de ataque de dispositivos  <br/> |Quando ativada, a redução da superfície de ataque ajuda a bloquear ações e aplicativos normalmente usados por malware para infectar dispositivos. Esta configuração só estará disponível se o Windows Defender Antivírus for definido como ativado. Confira [Reduzir superfícies de ataque](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/exploit-protection) para saber mais.  <br/> |
-|Proteger pastas de ameaças como ransomware  <br/> |Essa configuração usa o acesso a pastas controladas para proteger os dados da empresa contra modificações feitas por aplicativos suspeitos ou maliciosos, como ransomware. Esses tipos de aplicativos são impedidos de fazer alterações em pastas protegidas. Esta configuração só estará disponível se o Windows Defender Antivírus for definido como ativado. Consulte [proteger pastas com acesso controlado a pastas](https://docs.microsoft.com/configmgr/protect/deploy-use/create-deploy-exploit-guard-policy#bkmk_CFA) para saber mais.  <br/> |
+|Proteger pastas de ameaças como ransomware  <br/> |Essa configuração usa o acesso a pastas controladas para proteger os dados da empresa contra modificações feitas por aplicativos suspeitos ou maliciosos, como ransomware. Esses tipos de aplicativos são impedidos de fazer alterações em pastas protegidas. Esta configuração só estará disponível se o Windows Defender Antivírus for definido como ativado. Consulte [proteger pastas com acesso controlado a pastas](https://docs.microsoft.com/mem/configmgr/protect/deploy-use/create-deploy-exploit-guard-policy#bkmk_CFA) para saber mais.  <br/> |
 |Impedir o acesso da rede a conteúdo potencialmente malicioso na Internet  <br/> |Use essa configuração para bloquear as conexões de usuário de saída para locais de Internet de baixa reputação que podem hospedar golpes de phishing, exploits ou outros conteúdos mal-intencionados. Essa configuração só estará disponível se o Windows Defender antivírus estiver definido como **ativado**. Para obter mais informações, consulte [proteger sua rede](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-real-time-protection-windows-defender-antivirus).  <br/> |
 |Ajudar a proteger os arquivos e pastas em computadores contra acesso não autorizado com o BitLocker  <br/> |O BitLocker protege os dados por meio da criptografia das unidades de disco do computador e da proteção contra exposição de dados caso um computador seja perdido ou roubado. Para obter mais informações, consulte [perguntas frequentes sobre BitLocker](https://go.microsoft.com/fwlink/?linkid=871000).  <br/> |
 |Permitir que os usuários baixem aplicativos da Microsoft Store  <br/> |Permite aos usuários baixar e instalar os aplicativos da Microsoft Store. Aplicativos incluem desde jogos a ferramentas de produtividade, portanto, deixamos essa configuração **Ativada**, mas você pode desativá-la para obter mais segurança.  <br/> |

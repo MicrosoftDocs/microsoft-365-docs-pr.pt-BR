@@ -19,14 +19,14 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como implantar suplementos para usuários e grupos em sua organização usando a implantação centralizada no centro de administração.
-ms.openlocfilehash: 440cb55f318ac2aa43af5a24fa8ca80753aa03ac
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 30f2c08aa895f63ed529b4390d208e3daa9d6d7b
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628155"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011706"
 ---
-# <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Gerenciar a implantação de suplementos no centro de administração do Microsoft 365
+# <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Gerenciar a implantação de suplementos no Centro de administração do Microsoft 365
 
 Os suplementos do Office ajudam você a personalizar seus documentos e simplificar a forma como você acessa as informações na Web (Confira [começar a usar o suplemento do Office](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx)). Como administrador, você pode implantar suplementos do Office para os usuários em sua organização. Você pode fazer isso usando o recurso de implantação centralizado no centro de administração do Microsoft 365.
   
@@ -211,12 +211,12 @@ Ser compatível com o RGPD para menores que você precisa para garantir que uma 
 |||
 |:-----|:-----|
 |**Plataforma** <br/> |**Número de compilação** <br/> |
-|Office 2016 ProPlus mensal para Windows  <br/> |9001,2138   <br/> |
-|Office 2016 ProPlus semestral  <br/> |8431,2159  <br/> |
+|Microsoft 365 aplicativos para empresas (canal mensal)  <br/> |9001,2138   <br/> |
+|Aplicativos da Microsoft 365 para empresas (canal semestral)  <br/> |8431,2159  <br/> |
 |Office 2016 para Windows  <br/> |16.0.4672.1000  <br/> |
 |Office 2013 para Windows  <br/> |15.0.5023.1000  <br/> |
 |Office 2016 para Mac  <br/> |16.11.18020200  <br/> |
-|Office para a Web  <br/> |Não disponível  <br/> |
+|Office para a Web  <br/> |N/D  <br/> |
    
  **Para o Outlook**: 
   
@@ -228,7 +228,7 @@ Ser compatível com o RGPD para menores que você precisa para garantir que uma 
 |Office 2016 para Mac  <br/> |16.0.9318.1000  <br/> |
 |Outlook Mobile para iOS  <br/> |2.75.0  <br/> |
 |Outlook Mobile para Android  <br/> |2.2.145  <br/> |
-|Outlook.com  <br/> |Não disponível  <br/> |
+|Outlook.com  <br/> |N/D  <br/> |
    
  **Requisitos do Office 2013**
   

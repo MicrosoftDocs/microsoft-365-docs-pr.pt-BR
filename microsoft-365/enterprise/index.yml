@@ -13,12 +13,12 @@ metadata:
   author: robmazz
   ms.author: robmazz
   ms.date: 11/29/2019
-  ms.openlocfilehash: b9cefc03e590b5f8ab94af9d86e01ba53f76334a
-  ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-  ms.translationtype: HT
+  ms.openlocfilehash: f954a03e23d354eb52e5dc112f1ebc1d804ca350
+  ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+  ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/21/2020
-  ms.locfileid: "43631652"
+  ms.lasthandoff: 05/04/2020
+  ms.locfileid: "44011168"
 highlightedContent:
   items:
   - title: Saiba mais sobre o Microsoft 365 para empresas
@@ -56,7 +56,7 @@ conceptualContent:
     - url: https://docs.microsoft.com/windows/deployment/
       itemType: get-started
       text: Windows 10 Enterprise
-    - url: https://docs.microsoft.com/deployoffice/plan-office-365-proplus
+    - url: https://docs.microsoft.com/deployoffice/plan-microsoft-365-apps
       itemType: deploy
       text: Microsoft 365 Apps para empresas
     - url: https://docs.microsoft.com/intune/fundamentals/planning-guide
@@ -81,7 +81,7 @@ conceptualContent:
     - url: https://docs.microsoft.com/windows/deployment/update/
       itemType: how-to-guide
       text: Windows 10 Enterprise
-    - url: https://docs.microsoft.com/deployoffice/overview-of-update-channels-for-office-365-proplus
+    - url: https://docs.microsoft.com/deployoffice/overview-update-channels
       itemType: concept
       text: Microsoft 365 Apps para empresas
     - url: https://docs.microsoft.com/intune/apps/app-management

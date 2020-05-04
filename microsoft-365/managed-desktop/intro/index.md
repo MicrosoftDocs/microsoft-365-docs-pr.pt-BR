@@ -5,12 +5,12 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 86bec329c5e0793be070df311d6058282e7be854
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0df3f6d2636a277bdca12e7d76279c4c58c9f1d4
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636215"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011906"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de Trabalho Gerenciada da Microsoft?
 
@@ -53,7 +53,7 @@ Os seus administradores de ti se beneficiam dos seguintes recursos:
 A área de trabalho gerenciada da Microsoft assume o fardo de gerenciar dispositivos registrados e o software da Microsoft que eles utilizam.
 
 - **Hardware:** Em vez de seu departamento de ti ter de Pesquisar e testar dispositivos (e seus drivers), dispositivos específicos são cuidadosamente testados pela área de trabalho gerenciada da Microsoft, resultando em uma [lista organizada de dispositivos](../service-description/device-list.md) que atendem aos requisitos de desempenho de nível empresarial e têm a garantia de trabalhar com o serviço. Você pode obter os próprios dispositivos (ou trabalhar com um parceiro) ou reutilizar os dispositivos já existentes, contanto que eles estejam na lista aprovada. O registro de dispositivos é fácil e direto, e antes de ser implantado, você também pode [Personalizar](../working-with-managed-desktop/config-setting-overview.md) determinados aspectos da experiência do dispositivo para seus usuários finais.
-- **Atualizações:** O Microsoft Managed desktop configura e gerencia todos os aspectos de [grupos de implantação](../service-description/updates.md) para atualizações de recursos e qualidade do Windows 10, Drivers, firmware, definições de antivírus e atualizações do Office ProPlus. Isso inclui testes e verificações abrangentes de todas as atualizações, garantindo que os dispositivos registrados estejam sempre atualizados e minimizando as interrupções, liberando seu departamento de ti da tarefa em andamento.
+- **Atualizações:** A área de trabalho gerenciada da Microsoft configura e gerencia todos os aspectos de [grupos de implantação](../service-description/updates.md) para atualizações de recursos e qualidade do Windows 10, Drivers, firmware, definições de antivírus e aplicativos do Microsoft 365 para atualizações empresariais. Isso inclui testes e verificações abrangentes de todas as atualizações, garantindo que os dispositivos registrados estejam sempre atualizados e minimizando as interrupções, liberando seu departamento de ti da tarefa em andamento.
 - **Aplicativos:** Como parte do Microsoft 365 Enterprise, a Microsoft fornece (e gerencia) vários aplicativos fundamentais da Microsoft para você. Mas você provavelmente também tem outros aplicativos necessários para sua empresa. Em vez de seu departamento de ti ter que testar, empacotar e implantar esses aplicativos, a Microsoft ajuda você a implantá-los e pode ajudar com o [aplicativo de área de trabalho garantir](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure) , se necessário. Saiba mais em [aplicativos na área de trabalho gerenciada da Microsoft](../get-ready/apps.md).
 
 

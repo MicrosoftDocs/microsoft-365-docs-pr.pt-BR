@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: fe98df2c64bca36bc44c30bddb8b5e53d25aa6a5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ac1491a9257ff7169c0e2a10b014897d47a5d14b
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634551"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011834"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Portais de segurança e centros de administração da Microsoft
 Embora o [centro de segurança do Microsoft 365](overview-security-center.md) seja a nova casa para monitorar e gerenciar a segurança em suas identidades, dados, dispositivos e aplicativos, você precisará acessar vários portais para determinadas tarefas especializadas.
@@ -52,5 +52,5 @@ Embora esses portais não sejam especificamente para o gerenciamento de seguran�
 | Portal do Azure | Exibir e gerenciar o [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) e todos os seus [recursos do Azure](https://docs.microsoft.com/azure/azure-resource-manager/management/overview)  | [portal.azure.com](https://portal.azure.com/) |
 | Centro de conformidade do Microsoft 365 | Gerenciar políticas de manipulação de dados e garantir [conformidade com regulamentos](https://docs.microsoft.com/microsoft-365/compliance/offering-home?view=o365-worldwide) | [compliance.microsoft.com](https://compliance.microsoft.com/) |
 | Centro de administração do Microsoft 365 | Configure os serviços do Microsoft 365; gerenciar funções, licenças e controlar atualizações para seus serviços do Microsoft 365 | [admin.microsoft.com](https://admin.microsoft.com/) |
-| Centro de administração do Microsoft Endpoint Manager | Usar [o Microsoft Endpoint Manager](https://docs.microsoft.com/configmgr/) para gerenciar e proteger os dispositivos usando os recursos do Intune e do Configuration Manager combinados | [devicemanagement.microsoft.com](https://devicemanagement.microsoft.com/) |
+| Centro de administração do Microsoft Endpoint Manager | Usar [o Microsoft Endpoint Manager](https://docs.microsoft.com/mem/configmgr/) para gerenciar e proteger os dispositivos usando os recursos do Intune e do Configuration Manager combinados | [devicemanagement.microsoft.com](https://devicemanagement.microsoft.com/) |
 | Portal do Microsoft Intune | Usar [o Microsoft Intune](https://docs.microsoft.com/intune/fundamentals/what-is-intune) para implantar políticas de dispositivo e monitorar dispositivos para fins de conformidade | [#blade/Microsoft_Intune_DeviceSettings portal.azure.com/](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview)

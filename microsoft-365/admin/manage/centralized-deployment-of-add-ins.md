@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Determine se o locatário e os usuários atendem aos requisitos, para que você possa usar a implantação centralizada para implantar os suplementos do Office.
-ms.openlocfilehash: 10dd97adf67cf3aeb91337fb251e7cebffdce56c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0fcdb9901c708842470f72106ab4eea20ff8b17e
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628227"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011718"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a implantação centralizada de suplementos funciona para a sua organização
 
@@ -32,7 +32,7 @@ A implantação centralizada é a maneira recomendada e mais rica de recursos pa
 A implantação centralizada oferece suporte a Windows, Mac, iOS, Android e aplicativos do Office Online.
 Pode levar até 12 horas para que um suplemento seja exibido para o cliente para todos os usuários.
   
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 A implantação centralizada de suplementos exige que os usuários estejam usando o Microsoft 365 aplicativos para empresas (e estejam conectados ao Office usando a respectiva ID organizacional) e tenham o Exchange Online e caixas de correio ativas do Exchange Online. Seu diretório de assinatura deve ser ou federado no Azure Active Directory.
 Você pode exibir requisitos específicos para o Office e o Exchange abaixo ou usar o [Verificador de compatibilidade de implantação centralizado](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker).
@@ -73,7 +73,7 @@ A Implantação Centralizada não é compatível com:
 
 Para usar o Microsoft 365 aplicativos para empresas, um usuário deve ter uma conta do Microsoft 365 e deve ter sido atribuída uma licença. Para obter mais informações, consulte [Overview of Microsoft 365 Apps for Enterprise](https://go.microsoft.com/fwlink/p/?linkid=846328).
 
-A maneira mais simples de detectar se um usuário tem o Microsoft 365 ProPlus instalado e o está usando recentemente é usar o relatório de ativações do Microsoft Office, que está disponível no centro de administração do Microsoft 365. O relatório fornece uma lista de todos os usuários que ativaram o Microsoft 365 aplicativos para empresas nos últimos sete dias, 30 dias, 90 dias ou 180 dias. Para fins de implantação centralizada, as ativações da área de trabalho para Windows ou Mac são as colunas importantes no relatório. É possível exportar o relatório para Excel. Para obter mais informações sobre o relatório, consulte [microsoft 365 Reports no centro de administração-ativações do Microsoft Office](../activity-reports/microsoft-office-activations.md).
+A maneira mais simples de detectar se um usuário tem o Microsoft 365 aplicativos para Enterprise instalado e o está usando recentemente é usar o relatório de ativações do Microsoft Office, que está disponível no centro de administração do Microsoft 365. O relatório fornece uma lista de todos os usuários que ativaram o Microsoft 365 aplicativos para empresas nos últimos sete dias, 30 dias, 90 dias ou 180 dias. Para fins de implantação centralizada, as ativações da área de trabalho para Windows ou Mac são as colunas importantes no relatório. É possível exportar o relatório para Excel. Para obter mais informações sobre o relatório, consulte [microsoft 365 Reports no centro de administração-ativações do Microsoft Office](../activity-reports/microsoft-office-activations.md).
   
 Se não quiser usar o relatório de ativações, você pode pedir a um usuário para abrir um aplicativo do Office, como o Word, em sua máquina e, em seguida, escolher **conta**de **arquivo** \> . Em **informações do produto**, você deve ver o **produto de assinatura** e **o Microsoft Microsoft 365 aplicativos para empresas**, conforme mostrado na imagem a seguir.
 

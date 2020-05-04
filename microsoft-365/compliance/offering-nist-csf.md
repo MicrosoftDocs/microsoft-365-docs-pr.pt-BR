@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b380604e908d91feacefe6b54ed3d3f08dcea0fa
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 49eb9ae31ab913be30b2b96735f15ae57e85a10f
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637793"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011228"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>National Institute of Standards and Technology (NIST) cybersecurity Framework (CSF)
 
@@ -40,7 +40,7 @@ Saiba como acelerar sua implantação de estrutura do NIST cybersecurity com a p
 - [Baixar a segurança do Azure e a estrutura de verificação de avaliação de risco do NIST CSF](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=11e61716-11ab-4b11-9a9a-434b33a62ff9&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_NIST_CSF_Blueprint)
 - [Saiba mais sobre a avaliação CSF do NIST para o Office 365 em Pontuação de conformidade](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 para o governo](https://aka.ms/d365-compliance-list)
@@ -88,7 +88,7 @@ De acordo com o [departamento de segurança do Homeland](https://www.dhs.gov/cri
 
 **Quais são os serviços no escopo para o Office 365?**
 
-Os serviços dentro do escopo da certificação CSF do NIST são arquivamento do Exchange Online, proteção do Exchange Online, Exchange Online, Skype for Business, centro de administração, SharePoint Online, o Project online, o OneDrive for Business, o Office Online, o myAnalytics, o Microsoft Teams, o Office PROPLUS na nuvem de vários locatários do Office 365 e o Office 365 GCC.
+Os serviços dentro do escopo da certificação CSF do NIST são arquivamento do Exchange Online, proteção do Exchange Online, Exchange Online, Skype for Business, centro de administração, SharePoint Online, o Project online, o OneDrive for Business, o Office Online, o Microsoft Teams, o Microsoft 365 Apps for Enterprise na nuvem multilocatário do Office 365 e o Office 365 GCC.
 
 > [!NOTE]
 > O Microsoft 365 aplicativos para empresas permite o acesso a vários serviços de nuvem, como configurações de roaming, licenciamento e armazenamento em nuvem do OneDrive para consumidores, e pode permitir o acesso a serviços de nuvem adicionais no futuro. As configurações de roaming e o licenciamento dão suporte aos padrões do HITRUST. O armazenamento em nuvem do OneDrive não é e outros serviços em nuvem que são acessíveis através dos aplicativos do Microsoft 365 para empresas e que a Microsoft pode oferecer no futuro também podem não oferecer suporte a esses padrões. *
@@ -109,7 +109,7 @@ A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso 
 - [Ordem executiva presidencial para reforçar o cybersecurity de redes federais e infra-estrutura crítica](https://www.whitehouse.gov/the-press-office/2017/05/11/presidential-executive-order-strengthening-cybersecurity-federal)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Termos dos Serviços Online](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
 

@@ -20,12 +20,12 @@ search.appverid:
 description: O centro de administração do Microsoft 365-Aprenda sobre os recursos que foram adicionados este mês.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: bd701f8ea2a6187f73fff91ea1ca2ccf2641f6e3
-ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+ms.openlocfilehash: 2b25e68fbe07b46243f92bdcd252e86340d5f7eb
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952646"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011322"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>O que há de novo no centro de administração do Microsoft 365
 
@@ -289,7 +289,7 @@ Há uma atualização para outro dos nossos assistentes de instalação inicial:
 
 Temos algumas atualizações para cobrança e assinaturas neste mês:
 
-- Assinaturas baseadas em dispositivo: você pode atribuir ou cancelar a atribuição de licenças do **Office 365 ProPlus for Education (Device)** aos dispositivos no centro de administração do Microsoft 365. O **Office 365 ProPlus for Education (dispositivo)** é uma licença complementar que lhe permitirá atribuir uma licença a um dispositivo. Vá até produtos de **cobrança** > **& serviços** para encontrar e adquirir a licença.
+- Assinaturas baseadas em dispositivo: você pode atribuir ou cancelar a atribuição **de licenças do microsoft 365 Apps for Education (Device)** a dispositivos no centro de administração do Microsoft 365. **O Microsoft 365 Apps for Education (dispositivo)** é uma licença complementar que lhe permitirá atribuir uma licença a um dispositivo. Vá até produtos de **cobrança** > **& serviços** para encontrar e adquirir a licença.
 - Gerenciamento de licença baseado em usuário: atualizamos o modo como você atribui licenças aos usuários**ativos** de **usuários** > para o novo estilo. Para saber mais, confira:
   - [Atribuir licenças a usuários](manage/assign-licenses-to-users.md)
   - [Cancelar licenças de usuários](manage/remove-licenses-from-users.md)

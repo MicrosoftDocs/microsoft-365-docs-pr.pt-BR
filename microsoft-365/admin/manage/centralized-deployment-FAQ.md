@@ -1,5 +1,5 @@
 ---
-title: Perguntas frequentes sobre implantação centralizada
+title: Perguntas frequentes sobre Implantação Centralizada
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -18,20 +18,20 @@ search.appverid:
 - MET150
 - MOE150
 description: Revise as respostas para perguntas frequentes sobre a implantação centralizada no centro de administração do Microsoft 365.
-ms.openlocfilehash: 39df2ec5a1671f800572bc845581bdbe2716d209
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: c389ab07136b8a6e625db9ecfeff514a6899cd7d
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209659"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011730"
 ---
-# <a name="centralized-deployment-faq"></a>Perguntas frequentes sobre implantação centralizada
+# <a name="centralized-deployment-faq"></a>Perguntas frequentes sobre Implantação Centralizada
 
 A implantação centralizada é a maneira recomendada para o administrador do Office 365 implantar suplementos do Office (Word, Excel, PowerPoint e Outlook) para usuários e grupos em uma organização, desde que a organização atenda a todos os requisitos para usar a implantação centralizada, conforme descrito neste artigo.   
   
 ## <a name="how-do-i-know-if-my-organization-is-set-up-for-centralized-deployment"></a>Como saber se minha organização está configurada para implantação centralizada?  
 
-A implantação centralizada de suplementos requer que os usuários estejam usando o Office 365 ProPlus (e estejam conectados ao Office usando suas credenciais de login organizacionais) e tenham caixas de correio do Exchange Online. O diretório de assinatura deve estar no Azure Active Directory ou federado a ele.  
+A implantação centralizada de suplementos requer que os usuários estejam usando o Microsoft 365 aplicativos para empresas (e estejam conectados ao Office usando suas credenciais de login organizacionais) e tenham caixas de correio do Exchange Online. O diretório de assinatura deve estar no Azure Active Directory ou federado a ele.  
  
 A implantação centralizada só é suportada para caixas de correio online. Ele não oferece suporte à implantação em caixas de correio locais do Exchange.
  

@@ -12,12 +12,12 @@ ms.date: 08/28/2019
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: 53c38ba2e915cd439c8d7629bc7f9cd56ebc8647
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d1019547fb16fd4fd5669ebd5286e8c9e32668fe
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636670"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011918"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>Fase 3: Windows 10 Enterprise
 
@@ -41,7 +41,7 @@ Há várias maneiras de implantar o Windows 10 Enterprise para sua organização
 
 | Cenário da implantação | Quando usá-la |
 |:--- |:--- |
-| [Usando o Microsoft Endpoint Configuration Manager como uma atualização in-loco](windows10-deploy-inplaceupgrade.md) | Selecione esta opção se você precisar atualizar computadores com Windows 7 ou Windows 8,1 para a <a href="https://aka.ms/windows-10-release-information" target="_blank">versão atual</a> do Windows 10 Enterprise e seus computadores estiverem atualmente gerenciados com o <a href="https://docs.microsoft.com/configmgr/core/understand/introduction" target="_blank">Gerenciador de configurações (ramificação atual)</a>. |
+| [Usando o Microsoft Endpoint Configuration Manager como uma atualização in-loco](windows10-deploy-inplaceupgrade.md) | Selecione esta opção se você precisar atualizar computadores com Windows 7 ou Windows 8,1 para a <a href="https://aka.ms/windows-10-release-information" target="_blank">versão atual</a> do Windows 10 Enterprise e seus computadores estiverem atualmente gerenciados com o <a href="https://docs.microsoft.com/mem/configmgr/core/understand/introduction" target="_blank">Gerenciador de configurações (ramificação atual)</a>. |
 | [Usando o Windows AutoPilot](windows10-deploy-autopilot.md) | Selecione essa opção se estiver configurando novos computadores Windows que tenham o Windows 10 Enterprise, versão 1703 ou posterior pré-instalado. Os usuários finais iniciarão a instalação usando a configuração desejada inserindo suas credenciais de conta corporativa ou de estudante. |
 
 Se esses cenários de implantação não atenderem às necessidades da sua organização, você poderá aprender sobre outros cenários e entender os recursos e as limitações de cada um nos [cenários de implantação do Windows 10](https://docs.microsoft.com/windows/deployment/windows-10-deployment-scenarios). Você também pode <a href="https://aka.ms/planforwin10deployment" target="_blank">planejar a implantação do Windows 10</a> por conta própria.
