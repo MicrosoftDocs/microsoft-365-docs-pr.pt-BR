@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 48e6b000110014637afbf032f81b23703a763f4d
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 7d31d77bdb08ce5ae7ef5580301b0432747da2a1
+ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943240"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952624"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -188,7 +188,7 @@ Específico para o cliente de rotulagem unificada da Proteção de Informações
 
 ## <a name="how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange"></a>Como configurar as políticas de rotulagem automática para o SharePoint, OneDrive e Exchange
 > [!NOTE]
-> As políticas de rotulagem automática estão gradualmente sendo distribuídas para locatários em visualização pública e estão sujeitas a alterações.
+> As políticas de rotulagem automática estão em visualização pública e estão sujeitas a alterações.
 
 ### <a name="prerequisites-for-auto-labeling-policies"></a>Pré-requisitos para políticas de rotulagem automática
 
@@ -241,7 +241,6 @@ Por fim, você pode usar o modo de simulação para fornecer uma aproximação d
     
     ![Guia de rotulagem automática (visualização)](../media/auto-labeling-tab.png)
     
-    Esta nova guia ainda está sendo distribuída aos locatários. Se você não puder vê-la, tente novamente em alguns dias.
 
 3. Selecione **+ Criar política**.
 
