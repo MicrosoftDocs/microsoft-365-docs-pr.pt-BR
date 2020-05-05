@@ -9,22 +9,22 @@
       href: cloud-architecture-models.md
 - name: Soluções do Microsoft 365 Foundation
   items:
-    - name: Visão Geral
+    - name: Visão geral
       href: foundation-solutions-overview.md
-    - name: Capacitar funcionários remotos com o Microsoft 365
+    - name: Capacite funcionários remotos com o Microsoft 365
       href: empower-people-to-work-remotely.md
       items:
         - name: Etapa 1. Aumentar a segurança de entrada para funcionários remotos com a MFA
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: Etapa 2. Fornecer acesso remoto
           href: empower-people-to-work-remotely-remote-access.md
-        - name: 'Etapa 3. Implantar o gerenciamento de ponto de extremidade para seus dispositivos, computadores e outros pontos de extremidade'
+        - name: 'Etapa 3. Implantar o gerenciamento de pontos de extremidade em seus dispositivos, PCs e outros pontos de extremidade'
           href: empower-people-to-work-remotely-manage-endpoints.md
-        - name: Etapa 4. Implantar aplicativos e serviços de produtividade de funcionários remotos
+        - name: Etapa 4. Implantar aplicativos e serviços de produtividade de trabalhador remoto
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: Etapa 5. Criar instalações de comunicação de crise do COVID-19
+        - name: Etapa 5. Criar locais de comunicação da crise COVID-19
           href: empower-people-to-work-remotely-communication-venues.md
-        - name: Etapa 6. Treinar os comentários de uso de endereço e funcionários remotos
+        - name: Etapa 6. Treinar os funcionários remotos e responder a questões sobre o uso
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Configurar a colaboração segura com o Microsoft 365
       href: setup-secure-collaboration-with-teams.md
@@ -71,46 +71,46 @@
       href: deploy-threat-protection.md
 - name: Cenários e soluções de carga de trabalho
   items:
-    - name: Visão Geral
+    - name: Visão geral
       href: workload-solutions-scenarios-overview.md
     - name: Trabalho em equipe e colaboração
       items:
         - name: Cartazes da arquitetura do teams
-          href: 'https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Soluções de telefonia
           items:
             - name: Escolha sua solução
-              href: 'https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: Estudo de caso para a corporação multinacional
               href: null
         - name: Colaboração de arquivos no SharePoint com o Microsoft 365
-          href: 'https://docs.microsoft.com/sharepoint/deploy-file-collaboration?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/sharepoint/deploy-file-collaboration?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Planejar uma intranet inteligente do SharePoint
-          href: 'https://docs.microsoft.com/sharepoint/plan-intranet?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/sharepoint/plan-intranet?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Guia do OneDrive para empresas
-          href: 'https://docs.microsoft.com/en-us/onedrive/plan-onedrive-enterprise?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/en-us/onedrive/plan-onedrive-enterprise?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Segurança
       items:
         - name: Principais tarefas de equipes de segurança para dar suporte ao trabalho de casa
-          href: 'https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Segurança da Microsoft 365 para responsáveis por decisões de negócios (BDMs)
-          href: 'https://docs.microsoft.com/microsoft-365/security/microsoft-365-security-for-bdm?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/microsoft-365/security/microsoft-365-security-for-bdm?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Implantar a proteção avançada contra ameaças do Microsoft defender
-          href: 'https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Conformidade
       items:
         - name: Proteção de Informações para RGPD
-          href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Planos de ação de conformidade regulatória
           items:
             - name: ISO - Plano de ação recomendado
-              href: 'https://docs.microsoft.com/microsoft-365/compliance/iso-action-plan?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/iso-action-plan?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: NIST - Plano de ação recomendado
-              href: 'https://docs.microsoft.com/microsoft-365/compliance/nist-action-plan?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/nist-action-plan?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: CCPA – Perguntas frequentes
-              href: 'https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: RGPD-plano de ação recomendado
-              href: 'https://docs.microsoft.com/microsoft-365/compliance/gdpr?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/gdpr?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Estudos de caso da contoso
       items:
         - name: Soluções da Microsoft 365 para a Contoso Corporation
@@ -125,7 +125,7 @@
           href: team-security-isolation-dev-test.md
 - name: Orientação específica do setor
   items:
-    - name: Visão Geral
+    - name: Visão geral
       href: industry-specific-guidance-overview.md
     - name: Finanças
       items:
@@ -138,20 +138,20 @@
     - name: Saúde
       items:
         - name: Teams para Serviços de Saúde
-          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Educação
       items:
         - name: Teams para a Educação
-          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Governo
       items:
         - name: Teams para a Administração Pública
-          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Suporte a funcionários remotos governamentais usando o Teams
-          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
 - name: Princípios de design de arquitetura corporativa
   items:
-    - name: Visão Geral
+    - name: Visão geral
       href: design-principles.md
     - name: Para identificar e além disso
       href: identity-design-principles.md
