@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 9f518a6d-1e2c-4d44-93f3-e19013a1552b
 description: 'Criar uma caixa de correio de sala ou equipamento para que todos na sua organização possam reservá-la para reuniões ou eventos usando o Outlook. '
-ms.openlocfilehash: 1690eba40b71972c18f28e02baf0a39d6557651a
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 80562901ecc7382ce6e4ff3375b98efd89a991f0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361856"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628071"
 ---
-# <a name="room-and-equipment-mailboxes"></a>Caixas de correio de equipamentos e salas
+# <a name="room-and-equipment-mailboxes"></a>Caixas de correio de salas e equipamentos
 
-Se você tiver uma sala de conferência, um carro da empresa ou equipamento que todos precisem usar, precisará encontrar uma maneira de permitir que esses recursos possam ser reservados por todos. A melhor maneira de fazer isso é criar uma caixa de correio de sala ou equipamento no Office 365 para cada recurso. Você pode criar uma para sua sala de conferência no primeiro andar, o equipamento de mídia ou um caminhão de mudanças.
+Se você tiver uma sala de conferência, um carro da empresa ou equipamento que todos precisem usar, precisará encontrar uma maneira de tornar que esses recursos reserváveis por todos. A melhor maneira de fazer isso é criar uma caixa de correio da sala ou do equipamento no Microsoft 365 para cada recurso. Você pode criar uma para sua sala de conferência no primeiro andar, para o equipamento de mídia ou para um caminhão de mudanças.
   
 Depois de criar uma caixa de correio de sala ou equipamento, todos na empresa poderão reservá-lo para reuniões ou eventos usando o Outlook. Saiba **como usá-lo** e **como configurá-lo** nas duas próximas guias. Aqui estão algumas perguntas comuns sobre caixas de correio de salas e equipamento. 
   
@@ -66,7 +66,7 @@ Para configurar uma caixa de correio de sala ou equipamento, acesse o centro de 
   
 2. Selecione **Adicionar**.
     
-3. Preencha os campos de sala ou equipamento:<br/>![Adicionar uma caixa de correio de sala no Office 365](../../media/114d49e3-976e-40ef-b0af-2b0f5c85f15e.png)<br/>
+3. Preencha os campos de sala ou equipamento:<br/>![Adicionar uma caixa de correio de sala no Microsoft 365](../../media/114d49e3-976e-40ef-b0af-2b0f5c85f15e.png)<br/>
   
   - **Sala** ou **Equipamento**: o tipo de caixa de correio que você deseja criar.
     
@@ -105,7 +105,7 @@ Abra a reunião agendada por você no Outlook e, em seguida, remova a sala ou o 
   
 ### <a name="does-a-room-mailbox-or-equipment-mailbox-need-a-product-license"></a>Uma caixa de correio de sala ou de equipamento precisa de uma licença de produto?
 
-Não. Embora a maioria das pessoas em sua organização precise de uma licença para usar o Office 365, você não precisa atribuir uma licença a uma caixa de correio de sala ou a uma caixa de correio de equipamento.
+Não. Embora a maioria das pessoas em sua organização precise de uma licença para usar o Microsoft 365, você não precisa atribuir uma licença para uma caixa de correio de sala ou para uma caixa de correio de equipamento.
   
 ### <a name="do-i-need-an-owner-in-charge-of-booking-the-rooms-or-equipment"></a>Preciso de um proprietário responsável pela reserva de salas ou equipamento?
 

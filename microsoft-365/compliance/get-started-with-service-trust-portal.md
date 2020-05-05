@@ -13,13 +13,13 @@ search.appverid: MET150
 mscollection: M365-security-compliance
 ms.custom: Adm_O365
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
-description: Para os relatórios de conformidade normativa do Office 365, Azure e Dynamics 365 online, para ver auditorias de terceiros, descubra como a Microsoft mantém a segurança dos dados dos clientes e como é possível ser compatível com ISO, HIPAA, NIST, FINRA, RGPD e FedRAMP quando você usa esses serviços online.
-ms.openlocfilehash: 865b16dfc5e1878a9bc51f8d84ef8c0128f39298
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Para os relatórios de conformidade normativa do Microsoft 365, Azure e Dynamics 365 online, para ver auditorias de terceiros, descubra como a Microsoft mantém a segurança dos dados dos clientes e como é possível ser compatível com ISO, HIPAA, NIST, FINRA, RGPD e FedRAMP quando você usa esses serviços online.
+ms.openlocfilehash: 837ab06a0b4cf058586cff31c462884833da5871
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073140"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632442"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Introdução ao portal de confiança do serviço Microsoft
 
@@ -27,11 +27,11 @@ O portal de confiança do serviço Microsoft oferece uma variedade de conteúdo,
   
 ## <a name="accessing-the-service-trust-portal"></a>Acessar o portal de confiança do serviço
 
-O portal de confiança do serviço contém detalhes sobre a implementação da Microsoft de controles e processos que protege nossos serviços em nuvem e os dados do cliente estão contidos. Para acessar alguns dos recursos no portal de confiança do serviço, você deve fazer logon como um usuário autenticado com sua conta do Microsoft Cloud Services (uma conta da organização do Azure Active Directory ou uma conta da Microsoft) e examinar e aceitar o Microsoft Contrato de não divulgação para materiais de conformidade.
+O portal de confiança do serviço contém detalhes sobre a implementação da Microsoft de controles e processos que protege nossos serviços em nuvem e os dados do cliente estão contidos. Para acessar alguns dos recursos no portal de confiança do serviço, você deve fazer logon como um usuário autenticado com sua conta do Microsoft Cloud Services (uma conta da organização do Azure Active Directory ou uma conta da Microsoft) e revisar e aceitar o contrato de não divulgação da Microsoft para materiais de conformidade.
   
 **Os clientes existentes podem acessar o portal de confiança do serviço** em [https://aka.ms/STP](https://aka.ms/STP) uma das seguintes assinaturas online (avaliação ou paga): 
   
-- Office 365
+- Microsoft 365
 
 - Dynamics 365
 
@@ -44,7 +44,7 @@ O portal de confiança do serviço contém detalhes sobre a implementação da M
   
 Para criar uma nova conta ou criar uma conta de avaliação, use um dos seguintes formulários de inscrição (também usados para contas de avaliação) para obter acesso ao STP.
   
-- Inscreva-se para obter uma nova conta de [avaliação do office 365 Business](https://go.microsoft.com/fwlink/p/?LinkID=507653) ou uma nova [conta de avaliação do Office 365 Enterprise](https://go.microsoft.com/fwlink/p/?LinkID=698279)
+- Inscreva-se em uma nova conta de [avaliação do Microsoft 365 Apps for Business](https://go.microsoft.com/fwlink/p/?LinkID=507653) ou uma nova [conta de avaliação do Office 365 Enterprise](https://go.microsoft.com/fwlink/p/?LinkID=698279)
 
 - Inscreva-se para uma nova [conta de avaliação do Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=252780)
 
@@ -64,9 +64,9 @@ As seções a seguir descrevem cada item no menu principal.
 
 O link do **portal de confiança do serviço** exibe a Home Page. Ele oferece uma maneira rápida de retornar à Home Page.
 
-### <a name="compliance-manager"></a>Gerente de Conformidade
+### <a name="compliance-manager"></a>Gerenciador de Conformidade
 
-O Gerenciador de conformidade é uma ferramenta de avaliação de riscos baseada em fluxo de trabalho que ajuda a rastrear, atribuir e verificar as atividades de conformidade normativa da sua organização relacionadas aos serviços de nuvem da Microsoft, como o Office 365, o Dynamics 365 e o Azure. Use o Gerenciador de conformidade para gerenciar a conformidade normativa dentro do modelo de responsabilidade compartilhada da nuvem. Dependendo da versão do Gerenciador de conformidade que você deseja usar, consulte os seguintes artigos para obter mais informações:
+O Gerenciador de conformidade é uma ferramenta de avaliação de riscos baseada em fluxo de trabalho que ajuda a rastrear, atribuir e verificar as atividades de conformidade normativa da sua organização relacionadas aos serviços de nuvem da Microsoft, como o Microsoft 365, o Dynamics 365 e o Azure. Use o Gerenciador de conformidade para gerenciar a conformidade normativa dentro do modelo de responsabilidade compartilhada da nuvem. Dependendo da versão do Gerenciador de conformidade que você deseja usar, consulte os seguintes artigos para obter mais informações:
 
 - [Gerenciador de conformidade da Microsoft (Clássico)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 
@@ -82,11 +82,11 @@ Fornece uma infinidade de informações de implementação e design de seguranç
 
     - Service Organization Controls (SOC)
 
-    - Instituto Nacional de padrões e tecnologia (NIST)
+    - NIST (Instituto Nacional de Padrões e Tecnologia)
 
-    - Programa de gerenciamento de riscos e autorização federal (FedRAMP)
+    - FedRAMP (Programa Federal de Gerenciamento de Autorização e Risco)
 
-    - Regulamento Geral de Proteção de Dados (GDPR)
+    - Regulamento Geral de Proteção de Dados (RGPD)
 
 - **Proteção de dados:** Contém uma variedade de recursos como controles auditados, White papers, perguntas frequentes, testes de penetração, ferramentas de avaliação de risco e guias de conformidade.
 
@@ -102,7 +102,7 @@ Fornece informações de conformidade específicas do setor e da região sobre o
   
 ### <a name="trust-center"></a>Central de Confiabilidade
 
-Links para a [central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center), que fornece mais informações sobre segurança, conformidade e privacidade na nuvem da Microsoft. Isso inclui informações sobre os recursos nos serviços do Microsoft Cloud que podem ser usados para atender a requisitos específicos do RGPD, documentação útil para sua responsabilidade do RGPD e para sua compreensão das medidas técnicas e organizacionais A Microsoft levou para dar suporte ao RGPD.
+Links para a [central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center), que fornece mais informações sobre segurança, conformidade e privacidade na nuvem da Microsoft. Isso inclui informações sobre os recursos nos serviços do Microsoft Cloud que você pode usar para lidar com requisitos específicos do RGPD, a documentação útil para sua responsabilidade do RGPD e para sua compreensão das medidas técnicas e organizacionais que a Microsoft levou para suportar o RGPD.
   
 ### <a name="my-library"></a>Minha Biblioteca
 
