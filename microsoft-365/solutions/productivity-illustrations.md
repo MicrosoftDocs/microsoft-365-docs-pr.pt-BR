@@ -14,12 +14,12 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-ms.openlocfilehash: 8b792fa659866682df32130992340d9089aebfe7
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 8482c6591958e36f2c764d61f3fa7116f348f8d8
+ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011846"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44022127"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Ilustrações de produtividade da Microsoft 365
 
@@ -121,16 +121,7 @@ Atualizado em janeiro de 2019
 
 Para saber mais, confira o artigo neste cartaz: [Soluções de telefonia da Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
   
-<a name="msd"></a>
-### <a name="deploy-a-modern-and-secure-desktop-with-microsoft"></a>Implantar uma área de trabalho segura e moderna com a Microsoft
-
-O que os arquitetos de ti precisam saber sobre a implantação e o gerenciamento de atualizações para o Microsoft 365 Apps for Enterprise (anteriormente chamado Office 365 ProPlus) no Windows 10.
   
-
-|**Item**|**Descrição**|
-|:-----|:-----|
-|[![Miniatura do modelo Implantar uma área de trabalho segura e moderna com a Microsoft](../media/solutions-architecture-center/deploy-modern-desktop-thumb.png)](https://www.microsoft.com/download/details.aspx?id=55987) <br/> [PDF](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.pdf)  \| [Visio](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.vsdx) <br/>Atualizado em setembro de 2017 | Este modelo contém: <ul><li>  Implantando o Windows 10 e o Microsoft 365 aplicativos da empresa a partir da nuvem da Microsoft </li><li>  Implantando o Windows 10 e o Microsoft 365 aplicativos para empresas com o Microsoft Endpoint Configuration Manager </li><li>  Gerenciando atualizações para o Windows 10 e para o Microsoft 365 aplicativos da empresa a partir da nuvem da Microsoft </li><li>  Gerenciando atualizações para o Windows 10 e para o Microsoft 365 aplicativos para empresas com o Microsoft Endpoint Configuration Manager </li><li>  Recursos adicionais de proteção do Windows 10 </li></ul><br/> |
-   
 ## <a name="see-also"></a>Confira também
 
 [Modelos de arquitetura para SharePoint, Exchange, Skype for Business e Lync](https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync)

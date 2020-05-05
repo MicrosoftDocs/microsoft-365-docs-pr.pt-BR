@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: Saiba mais sobre os aplicativos integrados e como ativá-los para permitir que aplicativos de terceiros acessem as informações do Microsoft 365 dos usuários.
-ms.openlocfilehash: 7e758facda49bb63e09c9ec667522c2b20fa75bd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2e292afc4ab33eef1ace91808f93588b9cec4702
+ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627843"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44022103"
 ---
 # <a name="turning-integrated-apps-on-or-off"></a>Ativar ou desativar o recurso Aplicativos Integrados
 
@@ -35,7 +35,7 @@ Quando o aplicativos integrados está ativado, os usuários em sua organização
 
 Veja aqui como ativar ou desativar o recurso Aplicativos Integrados.
 
-1. No centro de administração do Microsoft 365, vá para a página [suplementos de serviços &amp; ](https://go.microsoft.com/fwlink/p/?linkid=2053743) de **configurações** \> e selecione **aplicativos integrados**.
+1. No centro de administração do Microsoft 365, vá para a página **configurações** de \> **configurações** \> , guia **Serviços** e, em seguida, selecione **aplicativos integrados**.
 
 2. Na página **aplicativos integrados** , selecione a opção para ativar ou desativar aplicativos integrados.
 

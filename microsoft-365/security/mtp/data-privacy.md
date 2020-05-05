@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 81773481f79a70cb5996696c9554dfe744170e8c
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: d11fdc58f44c9e4bacb708fb246fdea40eb75cff
+ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011238"
+ms.locfileid: "44016057"
 ---
 # <a name="microsoft-threat-protection-data-security-and-privacy"></a>Privacidade e segurança de dados da Proteção contra Ameaças da Microsoft
 
@@ -33,7 +33,7 @@ ms.locfileid: "44011238"
 
 Usando a proteção contra ameaças da Microsoft, você concorda com os seguintes termos:
 
-*O serviço da Microsoft para proteção contra ameaças (MTP) transfere determinados dados do cliente de outros serviços do Microsoft Enterprise online para o MTP e de MTP de volta para os serviços do Microsoft Enterprise online. Essas transferências de dados são governadas pelos [termos dos serviços online](https://go.microsoft.com/fwlink/?linkid=2127420) e mais descritas na [central de confiabilidade da Microsoft](https://go.microsoft.com/fwlink/?linkid=2127550).*
+*Ao ativar a proteção contra ameaças da Microsoft (MTP), você concorda com os termos a seguir. Os dados do cliente aplicáveis, conforme definido nos termos de serviço online (OST), serão transferidos de outros serviços da Microsoft para o MTP. O uso de seus dados de cliente no MTP acompanhará os padrões de manipulação de dados e os compromissos para a proteção avançada contra ameaças do Microsoft defender (Microsoft defender ATP). Você reconhece que esses compromissos podem diferir dos serviços dos quais os dados do cliente são transferidos. Além disso, os dados do cliente armazenados no MTP serão armazenados em repouso na geografia que você selecionou para armazenamento de seus dados do cliente do MDATP, que podem diferir da geografia que você selecionou em conexão com outros serviços. A Microsoft não transferirá os dados do cliente fora dessa geografia, exceto conforme observado na seção local dos dados da [central de confiabilidade da Microsoft](https://www.microsoft.com/trust-center).*
 
 Para obter mais informações sobre o armazenamento de dados e as informações de privacidade dos produtos específicos, confira:
 - [Privacidade e armazenamento de dados da Proteção Avançada contra Ameaças (ATP) do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)

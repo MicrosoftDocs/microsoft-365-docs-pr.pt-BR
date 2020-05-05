@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Saiba como fazer alterações no perfil da sua organização, como nome da organização, endereço, telefone, contato técnico e email.
-ms.openlocfilehash: 59c429a8460d16f2c636beeaf571689d33b400d5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 94f2c875a9373675fd044db7b73251cefe859647
+ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628215"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44016009"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Alterar o endereço, o contato técnico e outras informações da organização
   
@@ -52,7 +52,7 @@ Para alterar outras informações na página de perfil de sua empresa:
 
 |**Field**  |**Descrição**  |
 |---------|---------|
-|Nome  <br/>   | O nome inserido aqui é o que os usuários verão nas seguintes páginas:  <br/>  Página de entrada: se seus usuários configuraram outras contas da Microsoft com seus endereços de email comercial e escolar, poderão ver o nome da organização na página de entrada. Isso os ajuda a distinguir entre a conta conta corporativa ou de estudante e outras contas, e possibilita identificar qual delas usar ao entrar.  <br/>  Link e página de perfil da organização: o link para o perfil da sua organização exibe o nome da organização.  <br/>  Navegação do Yammer: no Yammer, a navegação à esquerda usa o nome da organização como o nome da rede doméstica do Yammer.  <br/> Cliente de sincronização do OneDrive: o nome da organização é mostrado no explorador de arquivos no Windows e no localizador no Mac, os caminhos de arquivo, a central de atividades do OneDrive, a dica de ferramenta do ícone de nuvem do OneDrive e a janela Configurações do OneDrive. No momento, atualizar o nome da organização não o atualiza para clientes configurados. <br/>        |
+|Nome  <br/>   | O nome inserido aqui é o que os usuários verão nas seguintes páginas:  <br/>  Página de entrada: se seus usuários configuraram outras contas da Microsoft com seus endereços de email comercial e escolar, poderão ver o nome da organização na página de entrada. Isso os ajuda a distinguir entre a conta conta corporativa ou de estudante e outras contas, e possibilita identificar qual delas usar ao entrar.  <br/>  Link e página de perfil da organização: o link para o perfil da sua organização exibe o nome da organização.  <br/>  Navegação do Yammer: no Yammer, a navegação à esquerda usa o nome da organização como o nome da rede doméstica do Yammer.  <br/> Cliente de sincronização do OneDrive: o nome da organização é mostrado no explorador de arquivos no Windows e no localizador no Mac, os caminhos de arquivo, a central de atividades do OneDrive, a dica de ferramenta do ícone de nuvem do OneDrive e a janela Configurações do OneDrive. No momento, atualizar o nome da organização não o atualiza para clientes configurados. <br/> MS Teams: o alternador de organização no Teams exibe o nome da organização <br/>  |
 |Endereço, Cidade, Estado/província, Código postal  <br/>     | O endereço inserido aqui é o que você verá na sua fatura, em vendido para: o endereço vendido para em sua conta é igual ao endereço da sua organização na sua página de perfil (Confira [entender sua fatura para o Microsoft 365 for Business](../../commerce/billing-and-payments/understand-your-invoice2.md)).  <br/>        |
 |País ou região,  <br/>    | Este é o país ou a região em que a empresa está localizada. O país ou a região selecionado determina quais serviços estão disponíveis para você, a moeda de impostos e cobrança do seu país ou região e o local do data center mais próximo (veja [Restrições de licença do Microsoft Office](https://office.microsoft.com/redir/FX103037529)).  <br/>Observação: depois de selecionado, o país ou região não pode ser alterado. Se você deseja alterar a seleção, precisa cancelar sua assinatura e inscrever-se novamente. Para obter ajuda com esse processo, [entre em contato com o suporte](../contact-support-for-business-products.md).        |
 |Telefone  <br/>     | Este é o número principal para a sua empresa. Geralmente é o número da sede de sua empresa.  <br/>        |

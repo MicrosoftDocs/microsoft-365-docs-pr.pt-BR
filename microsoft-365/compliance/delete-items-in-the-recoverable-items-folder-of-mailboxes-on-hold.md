@@ -16,13 +16,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
-description: "Para administradores: excluir itens em um \n\npasta itens recuperáveis da er para uma caixa de correio do Exchange Online, mesmo se essa caixa de correio for colocada em retenção legal. Essa é uma maneira eficaz de excluir dados que foram desfeitos acidentalmente no Microsoft 365."
-ms.openlocfilehash: 0e6782c96efa997773b06535d5a0364100bd5433
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 'Para administradores: excluir itens na pasta itens recuperáveis de um usuário para uma caixa de correio do Exchange Online, mesmo se essa caixa de correio for colocada em retenção legal. Essa é uma maneira eficaz de excluir dados que foram desfeitos acidentalmente no Microsoft 365.'
+ms.openlocfilehash: 4cf568c06fc3b6ee886ff1823d8771a64c0286d8
+ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630508"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44022081"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>Excluir itens da pasta itens recuperáveis das caixas de correio baseadas em nuvem em manter ajuda do administrador
 
@@ -48,21 +48,21 @@ A pasta itens recuperáveis para uma caixa de correio do Exchange Online existe 
 ## <a name="before-you-begin"></a>Antes de começar
 
 - Para criar e executar uma pesquisa de conteúdo, você precisa ser membro do grupo de funções Gerente de Descoberta Eletrônica ou receber a função de gerenciamento de Pesquisa de Conformidade. Para excluir mensagens, você precisa ser membro do grupo de funções Gerenciamento da Organização ou receber a função de gerenciamento Pesquisa e Limpar. Para saber mais sobre como adicionar usuários a um grupo de função, confira [Atribuir permissões de Descoberta Eletrônica no Centro de Segurança e Conformidade](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions).
-    
+
 - O procedimento descrito neste artigo não tem suporte para caixas de correio inativas. Isso ocorre porque não é possível reaplicar uma retenção (ou uma diretiva de retenção) a uma caixa de correio inativa após removê-la. Quando você remove uma retenção de uma caixa de correio inativa, ela é alterada para uma caixa de correio normal excluída por software e será excluída permanentemente da sua organização depois de ser processada pelo assistente de pasta gerenciada.
-    
+
 - Você não pode executar esse procedimento para uma caixa de correio que foi atribuída a uma política de retenção que foi bloqueada com um bloqueio de preservação. Isso ocorre porque um bloqueio de preservação impede que você remova ou exclua a caixa de correio da política de retenção e desabilite o assistente de pasta gerenciada na caixa de correio. Para obter mais informações sobre as políticas de retenção de bloqueio, consulte [bloquear uma política de retenção](retention-policies.md#locking-a-retention-policy).
-    
+
 - Se uma caixa de correio não for colocada em espera (ou não tiver a recuperação de item único habilitada), você poderá excluir os itens da pasta itens recuperáveis. Para obter mais informações sobre como fazer isso, confira [Pesquisar e excluir mensagens de email em sua organização](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization).
   
 ## <a name="step-1-collect-information-about-the-mailbox"></a>Etapa 1: coletar informações sobre a caixa de correio
 
 Essa primeira etapa é coletar as propriedades selecionadas da caixa de correio de destino que afetem esse procedimento. Certifique-se de anotar essas configurações ou salvá-las em um arquivo de texto porque você alterará algumas dessas propriedades e reverterá para os valores originais na etapa 6, após excluir itens da pasta itens recuperáveis. Veja a seguir uma lista das propriedades de caixa de correio que você precisa coletar.
   
--  *SingleItemRecoveryEnabled* e *RetainDeletedItemsFor* ; se necessário, você desabilitará a recuperação única e aumentará o período de retenção de itens excluídos na etapa 3. 
-    
--  *LitigationHoldEnabled* e *InPlaceHolds* ; Você precisa identificar todas as suspensões colocadas na caixa de correio para que possa removê-las temporariamente na etapa 3. Consulte a seção [mais informações](#more-information) para obter dicas sobre como identificar a retenção de tipo que pode ser colocada em uma caixa de correio. 
-    
+- *SingleItemRecoveryEnabled* e *RetainDeletedItemsFor*. Se necessário, você desabilitará a recuperação única e aumentará o período de retenção de itens excluídos na etapa 3. 
+
+- *LitigationHoldEnabled* e *InPlaceHolds*. Você precisa identificar todas as suspensões colocadas na caixa de correio para que possa removê-las temporariamente na etapa 3. Consulte a seção [mais informações](#more-information) para obter dicas sobre como identificar a retenção de tipo que pode ser colocada em uma caixa de correio. 
+
 Além disso, é necessário obter as configurações de acesso do cliente da caixa de correio para que você possa desabilitá-las temporariamente para que o proprietário (ou outros usuários) não possa acessar a caixa de correio durante esse procedimento. Por fim, você pode obter o tamanho atual e o número de itens na pasta itens recuperáveis. Após excluir itens da pasta itens recuperáveis na etapa 5, você usará essas informações para verificar se os itens foram removidos.
   
 1. [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=396554). Certifique-se de usar um nome de usuário e senha para uma conta de administrador que tenha sido atribuída às funções de gerenciamento apropriadas no Exchange Online. 
@@ -225,9 +225,9 @@ Após identificar que uma caixa de correio está em espera porque um rótulo de 
 
 Para saber mais sobre rótulos, confira [Visão geral dos rótulos](labels.md).
 
- ### <a name="ediscovery-case-holds"></a>retenção de ocorrência de descoberta eletrônica
+ ### <a name="ediscovery-holds"></a>bloqueios de descoberta eletrônica
   
-Execute os seguintes comandos no [PowerShell do centro de conformidade e segurança &](https://go.microsoft.com/fwlink/?linkid=627084) para identificar o bloqueio associado a uma ocorrência de descoberta eletrônica aplicada à caixa de correio. Use o GUID (não incluindo o `UniH` prefixo) para o bloqueio de descoberta eletrônica que você identificou na etapa 1. O segundo comando exibe o nome da ocorrência de descoberta eletrônica à qual a retenção está associada; o terceiro comando exibe o nome da retenção. 
+Execute os seguintes comandos no [PowerShell do centro de conformidade e segurança &](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) para identificar o bloqueio associado a um caso de descoberta eletrônica (chamado de *descoberta eletrônica segura*) que é aplicado à caixa de correio. Use o GUID (não incluindo o `UniH` prefixo) para o bloqueio de descoberta eletrônica que você identificou na etapa 1. O segundo comando exibe o nome da ocorrência de descoberta eletrônica à qual a retenção está associada; o terceiro comando exibe o nome da retenção. 
   
 ```powershell
 $CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>
@@ -241,7 +241,7 @@ Get-ComplianceCase $CaseHold.CaseId | FL Name
 $CaseHold.Name
 ```
 
-Após identificar o nome do caso de descoberta eletrônica e a retenção, vá **para a** \> página **descoberta** eletrônica de descoberta eletrônica no centro de conformidade, abra o caso e remova a caixa de correio da isenção. Para mais informações, consulte [casos de descoberta eletrônica](ediscovery-cases.md).
+Após identificar o nome do caso de descoberta eletrônica e a retenção, vá **para a** \> página **descoberta** eletrônica de descoberta eletrônica no centro de conformidade, abra o caso e remova a caixa de correio da isenção. Para obter mais informações sobre como identificar bloqueios de descoberta eletrônica, consulte a seção "isenções de descoberta eletrônica" em [como identificar o tipo de retenção colocado em uma caixa de correio do Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md#ediscovery-holds).
   
 ## <a name="step-4-remove-the-delay-hold-from-the-mailbox"></a>Etapa 4: remover o atraso no bloqueio da caixa de correio
 

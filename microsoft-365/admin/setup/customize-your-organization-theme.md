@@ -2,8 +2,8 @@
 title: Personalizar o tema da sua organização
 f1.keywords:
 - CSH
-ms.author: twerner
-author: twernermsft
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Saiba como alterar o tema padrão do Microsoft 365 e personalizá-lo para corresponder ao logotipo ou à cor da empresa. '
-ms.openlocfilehash: 06b247da1a8ac1f330f2ad36c8b29897963819f3
-ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
+ms.openlocfilehash: cfde26e2b7f6d74a59b7431091fbc3c2f6049ec6
+ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43900769"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44022115"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Personalizar o tema do Microsoft 365 para sua organização
 
