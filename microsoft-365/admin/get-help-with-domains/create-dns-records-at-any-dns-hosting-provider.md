@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 7b7b075d-79f9-4e37-8a9e-fb60c1d95166
 description: Aprenda a verificar seu domínio e criar registros DNS em qualquer provedor de hospedagem de DNS para o Microsoft 365.
 ms.custom: okr_smb
-ms.openlocfilehash: c727092c153e43369d5ed52d71bfcd256878db4b
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: a2d9b57f0230aa736944727e39845f3a0a533426
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919500"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048778"
 ---
 # <a name="create-dns-records-at-any-dns-hosting-provider"></a>Criar registros DNS em qualquer provedor de hospedagem de DNS
 
@@ -41,7 +41,7 @@ Se você não conhece o provedor de host DNS ou o registrador de domínios para 
 Para configurar os registros por conta própria, estes são os registros a adicionar. Observe que o registro de verificação e o registro MX são exclusivos do seu domínio. Para configurá-los, você deve obter e usar um valor de "token" específico para o seu domínio. As etapas a seguir explicam como fazer isso.
   
 > [!IMPORTANT]
-> O nome exato das caixas ou dos *campos* nos quais você digita ou cola as informações para criar cada tipo de registro DNS é diferente para cada host de DNS. Seu host DNS pode ter ajuda no site do para auxiliar no mapeamento das instruções apresentadas aqui para os campos exatos no site. Lembre-se de verificar se há instruções detalhadas para o seu host DNS em [Criar registros DNS para o Microsoft 365](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23.aspx). > Alguns hosts DNS não permitem que você crie todos os tipos de registro necessários. Isso [causa limitações de serviço](https://support.office.com/article/7ae9a655-041d-4724-aa92-60392ee390c2.aspx) no Microsoft 365. Se o host do seu domínio não oferecer suporte a registros SRV, TXT ou CNAME, por exemplo, recomendamos que você [transfira seu domínio](../get-help-with-domains/buy-a-domain-name.md) para um host DNS que ofereça suporte a todos os registros necessários. Para uma configuração de processos rápida e automatizada com o Microsoft 365, recomendamos transferir seu domínio para o GoDaddy. 
+> O nome exato das caixas ou dos *campos* nos quais você digita ou cola as informações para criar cada tipo de registro DNS é diferente para cada host de DNS. Seu host DNS pode ter ajuda no site do para auxiliar no mapeamento das instruções apresentadas aqui para os campos exatos no site. Lembre-se de verificar se há instruções detalhadas para o seu host DNS em [Criar registros DNS para o Microsoft 365](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23.aspx). > Alguns hosts DNS não permitem que você crie todos os tipos de registro necessários. Isso [causa limitações de serviço](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) no Microsoft 365. Se o host do seu domínio não oferecer suporte a registros SRV, TXT ou CNAME, por exemplo, recomendamos que você [transfira seu domínio](../get-help-with-domains/buy-a-domain-name.md) para um host DNS que ofereça suporte a todos os registros necessários. Para uma configuração de processos rápida e automatizada com o Microsoft 365, recomendamos transferir seu domínio para o GoDaddy. 
   
 > [!NOTE]
 > Normalmente, leva apenas alguns minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Localizar e corrigir problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
@@ -81,7 +81,7 @@ Antes de usar o seu domínio com o Microsoft 365, precisamos verificar se você 
       ||||||
       |:-----|:-----|:-----|:-----|:-----|
       |**Tipo de registro**|**Alias** ou **Nome do host**|**Valor**|**Prioridade**|**TTL**|
-      |MX|Digite **@** ou seu nome de domínio. |MS=ms *XXXXXXXX* <br/> **Observação**: esse é um exemplo. Use seu valor específico de **Destinos ou Pontos de Endereçamento** aqui, da tabela no Office 365.    <br/>       [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)     <br/>     |Para **Priority**, para evitar conflitos com o registro MX usado para o fluxo de email, use uma prioridade menor do que a prioridade de qualquer registro MX existente. <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) <br/> |Defina esse valor como **1 hora** ou o equivalente em minutos ( **60** ), segundos ( **3600** ), etc. |
+      |MX|Digite **@** ou seu nome de domínio. |MS=ms *XXXXXXXX* <br/> **Observação**: esse é um exemplo. Use seu valor específico de **Destinos ou Pontos de Endereçamento** aqui, da tabela no Office 365.    <br/>       [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)     <br/>     |Para **Priority**, para evitar conflitos com o registro MX usado para o fluxo de email, use uma prioridade menor do que a prioridade de qualquer registro MX existente. <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |Defina esse valor como **1 hora** ou o equivalente em minutos ( **60** ), segundos ( **3600** ), etc. |
    
 2. Salve o registro.
     
@@ -141,7 +141,7 @@ Localize a página na qual você pode criar registros para o seu domínio.
     
    - **Priority**: defina a prioridade do registro MX para o valor mais alto disponível, que normalmente é **0**.
     
-      Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)
+      Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)
     
    - **Nome do host**: **@**
     

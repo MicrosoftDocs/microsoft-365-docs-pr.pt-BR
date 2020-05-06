@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: 'Saiba como renovar sua assinatura do Microsoft 365 for Business usando uma chave do produto e ativar ou desativar a cobrança recorrente. '
-ms.openlocfilehash: 9a44f8e65aad46e82134d8f088f6955bcd37ad3b
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 7cceae61891da31dbb058af1db12598a02b172e2
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707650"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046223"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Renovar o Microsoft 365 para empresas
 
@@ -48,7 +48,7 @@ Se você tiver pago sua assinatura com uma chave do produto, sua assinatura expi
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Escolha a assinatura da qual você quer gerenciar o faturamento recorrente.
 
@@ -60,7 +60,7 @@ Se você tiver pago sua assinatura com uma chave do produto, sua assinatura expi
 
     > [!NOTE]
     > - Você só pode alterar a configuração de **cobrança recorrente** para assinaturas ativas. Se sua assinatura já tiver expirado ou estiver desabilitada, será necessário [reativá-la](reactivate-your-subscription.md) para que você possa ativar ou desativar a **cobrança recorrente** .
-    > - Quando a **cobrança recorrente** está desativada, a assinatura não é cancelada imediatamente. Ele permanece ativo até expirar. Você pode exibir a data de expiração na seção **cobrança** dos detalhes da assinatura na página **produtos & Services** .
+    > - Quando a **cobrança recorrente** está desativada, a assinatura não é cancelada imediatamente. Ele permanece ativo até expirar. Você pode exibir a data de expiração na seção **cobrança** dos detalhes da assinatura na página **seus produtos** .
     > - Para saber como cancelar a assinatura imediatamente, confira [cancelar minha assinatura](cancel-your-subscription.md).
 
 ::: moniker-end
@@ -70,7 +70,7 @@ Se você tiver pago sua assinatura com uma chave do produto, sua assinatura expi
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
 
 2. Escolha a assinatura da qual você quer gerenciar o faturamento recorrente.
- 
+
 3. Para ativar a **cobrança recorrente**, alterne o botão para **Ativar**.
 
     ![Close de um cartão de assinatura com cobrança recorrente ativada.](../../media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
@@ -109,10 +109,6 @@ Se você tiver pago sua assinatura com uma chave do produto, sua assinatura expi
   
 [O que acontecerá com os meus dados e com o meu acesso quando a assinatura terminar?](what-if-my-subscription-expires.md)
 
-[Adicionar, atualizar ou remover métodos de pagamento](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
-
-[Alterar sua forma de pagamento](../billing-and-payments/change-payment-method.md)
-  
 [Insira sua chave do produto](../enter-your-product-key.md)
   
 [Comprar sua versão de avaliação do Microsoft 365 for Business](../buy-a-subscription-from-your-free-trial.md)

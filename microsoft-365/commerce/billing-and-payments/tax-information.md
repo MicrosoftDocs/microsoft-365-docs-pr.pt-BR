@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 description: 'Descubra quanto de impostos você será cobrado para sua assinatura do Microsoft 365 for Business em diferentes regiões. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 491c8241d8517d342e04a214d426e937895aab5a
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 0aeabd49477bdef856a7ddb9f3b7c39211be2479
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708126"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045819"
 ---
 # <a name="tax-information"></a>Informação de imposto
 
@@ -114,7 +114,7 @@ Você pode estar qualificado para ter IVA com taxa zero.
 
 #### <a name="add-your-vat-id-eu-countries-only"></a>Adicionar sua ID de IVA (apenas países da UE)
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Encontre o cartão de assinatura para a assinatura que você deseja atualizar.
 

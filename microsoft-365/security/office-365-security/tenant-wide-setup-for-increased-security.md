@@ -16,13 +16,15 @@ ms.collection:
 - M365-security-compliance
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
-description: Orienta você na configuração recomendada para definições de todos os locatários que afetam a segurança do seu ambiente Microsoft 365. Suas necessidades de segurança podem exigir mais ou menos segurança. Use estas recomendações como ponto de partida.
-ms.openlocfilehash: 0d16011a7abfcaa20d2a053ee9c00b3719a2b3c6
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+ms.custom:
+- seo-marvel-apr2020
+description: Este tópico o orienta através da configuração recomendada para definições de todos os locatários que afetam a segurança do seu ambiente Microsoft 365.
+ms.openlocfilehash: 25338e95a638173abeebd3477955ad16c9116712
+ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43949388"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44043352"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Configure seu Microsoft 365 locatário para maior segurança
 
@@ -42,7 +44,7 @@ O centro de segurança do Microsoft 365 inclui recursos que protegem o seu ambie
 |**Anti-phishing**|Sim|Se você tiver um domínio personalizado, configure a política anti-phishing padrão para proteger as contas de email de seus usuários mais valiosos, como seu CEO, e para proteger seu domínio. Revisar [políticas anti-phishing no Office 365](set-up-anti-phishing-policies.md) e consulte [Configure anti-phishing Policies in EOP](configure-anti-phishing-policies-eop.md) ou [Configure ATP anti-phishing Policies in Office 365](configure-atp-anti-phishing-policies.md).|
 |**Mecanismo Antimalware**|Sim| Edite a política padrão: <br/> &ensp;&ensp;* Filtro tipos de anexo comuns — selecione ativado <br/><br/> Você também pode criar políticas de filtro de malware personalizadas e aplicá-las a usuários, grupos ou domínios especificados em sua organização. <br/><br/> Mais informações: <br/> &ensp;&ensp;* [Proteção Antimalware](anti-malware-protection.md) <br/> &ensp;&ensp;* [Configurar políticas Antimalware](configure-anti-malware-policies.md)|
 |**Anexos Seguros da ATP**|Não| Na página principal de anexos seguros, proteja arquivos no SharePoint, no OneDrive e no Microsoft Teams marcando esta caixa: <br/> &ensp;&ensp;* Ativar a ATP para SharePoint, OneDrive e Microsoft Teams <br/><br/> Adicione uma nova política de anexo seguro com estas configurações: <br/> &ensp;&ensp;* Bloquear — bloquear emails e anexos atuais e futuros com malware detectado (escolha esta opção) <br/> &ensp;&ensp;* Habilitar redirecionamento — (Marque esta caixa e insira um endereço de email, como uma conta de administrador ou de quarentena) <br/> &ensp;&ensp;* Aplicar a seleção acima se a verificação de malware por anexos expirar ou ocorrer erro (marcar esta caixa) <br/> &ensp;&ensp;* Aplicado a — o domínio do destinatário é (selecione seu domínio) <br/><br/>Mais informações: [Configurar políticas de anexos seguros do Office 365 ATP](set-up-atp-safe-attachments-policies.md)|
-|**Links seguros da ATP**|Sim| Adicione essa configuração à política padrão para toda a organização: <br/> &ensp;&ensp;* Use links seguros em: Microsoft 365 aplicativos para empresas, Office para iOS e Android (Selecione essa opção). <br/><br/>Política recomendada para destinatários específicos: <br/> &ensp;&ensp;* As URLs serão reescritas e verificadas em relação a uma lista de links mal-intencionados conhecidos quando o usuário clicar no link (Selecione essa opção). <br/> &ensp;&ensp;* Use anexos seguros para examinar Conteúdo baixável (Marque esta caixa). <br/> &ensp;&ensp;* Aplicado a – o domínio do destinatário é (selecione o seu domínio). <br/><br/> Mais informações: [Office 365 ATP Safe links](atp-safe-links.md).|
+|**Links Seguros de ATP**|Sim| Adicione essa configuração à política padrão para toda a organização: <br/> &ensp;&ensp;* Use links seguros em: Microsoft 365 aplicativos para empresas, Office para iOS e Android (Selecione essa opção). <br/><br/>Política recomendada para destinatários específicos: <br/> &ensp;&ensp;* As URLs serão reescritas e verificadas em relação a uma lista de links mal-intencionados conhecidos quando o usuário clicar no link (Selecione essa opção). <br/> &ensp;&ensp;* Use anexos seguros para examinar Conteúdo baixável (Marque esta caixa). <br/> &ensp;&ensp;* Aplicado a – o domínio do destinatário é (selecione o seu domínio). <br/><br/> Mais informações: [Office 365 ATP Safe links](atp-safe-links.md).|
 |**Anti-spam (filtragem de email)**|Sim| O que observar: <br/> &ensp;&ensp;* Excesso de spam — escolha as configurações personalizadas e edite a política padrão de filtro de spam. <br/> &ensp;&ensp;* Spoof Intelligence — revise os remetentes que estão falsificando seu domínio. Bloquear ou permitir estes remetentes. <br/><br/>Mais informações: [Microsoft 365 email anti-spam Protection](anti-spam-protection.md).|
 |***Autenticação de email***|Sim|A autenticação de email usa um DNS (sistema de nomes de domínio) para adicionar informações verificáveis a mensagens de email sobre o remetente de um email. O Microsoft 365 configura a autenticação de email para seu domínio padrão (onmicrosoft.com), mas os administradores do Microsoft 365 também podem usar a autenticação de email para domínios personalizados. Três métodos de autenticação são usados: <br/><br/> &ensp;&ensp;* Estrutura de política de remetente (ou SPF).<br/>&ensp;&ensp;&ensp;&ensp;– Para configuração, consulte [Configurar o SPF no Microsoft 365 para ajudar a impedir a falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md). <br/> &ensp;&ensp;* DomainKeys Identificated mail (DKIM). <br/> &ensp;&ensp;&ensp;&ensp;– Consulte [usar DKIM para validar emails de saída enviados do seu domínio personalizado](use-dkim-to-validate-outbound-email.md). <br/>&ensp;&ensp;&ensp;&ensp;Após configurar o DKIM, habilite-o na central de segurança.<br/> &ensp;&ensp;* Autenticação, geração de relatórios e conformidade de mensagens baseadas em domínio (DMARC). <br/> &ensp;&ensp;&ensp;&ensp;– Para a configuração do DMARC, [use o DMARC para validar emails no Microsoft 365](use-dmarc-to-validate-email.md).|
 |
@@ -109,7 +111,7 @@ Para ambientes seguros, não deixe de desabilitar a autenticação para aplicati
 
 Enquanto isso, use um dos seguintes métodos para fazer isso para o SharePoint Online e o OneDrive for Business:
 
-- Usar o PowerShell, consulte [bloquear aplicativos que não usam autenticação moderna](https://docs.microsoft.com/intune-classic/deploy-use/block-apps-with-no-modern-authentication).
+- Use o PowerShell em [bloquear aplicativos que não usam autenticação moderna (Adal)](https://docs.microsoft.com/mem/intune/protect/app-modern-authentication-block).
 
 - Configure isso no centro de administração do SharePoint na página "acesso ao dispositivo" — "controlar o acesso de aplicativos que não usam autenticação moderna". Escolha bloquear.
 

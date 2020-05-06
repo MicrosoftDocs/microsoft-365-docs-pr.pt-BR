@@ -1,5 +1,5 @@
 ---
-title: Criar consultas de pesquisa
+title: Criar consultas de pesquisa – investigações de dados
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
+ms.custom: seo-marvel-mar2020
 description: Use palavras-chave e condições para restringir o escopo de pesquisa ao pesquisar dados usando a investigação de dados no Microsoft 365.
-ms.openlocfilehash: b6769d662f843622a537a5ce93c1c5331b00fc3f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 95466d0e7c7109001fef001cc0d5bca5b6d658ed
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079010"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034109"
 ---
 # <a name="build-search-queries"></a>Criar consultas de pesquisa
 

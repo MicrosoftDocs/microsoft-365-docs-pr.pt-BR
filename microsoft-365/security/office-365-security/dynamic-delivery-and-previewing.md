@@ -17,12 +17,13 @@ ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 ms.collection:
 - M365-security-compliance
 description: Ao configurar as políticas de anexos seguros de ATP, você escolhe a entrega dinâmica para evitar atrasos de mensagens e permite que as pessoas visualizem os anexos que estão sendo examinados.
-ms.openlocfilehash: c8e0a60912244a636fbbe6ca62f7c1b9c260e0f6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 7c30803efd2dafedd6d988de5374f08bd61f7d2a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637563"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034787"
 ---
 # <a name="dynamic-delivery-and-previewing-with-atp-safe-attachments"></a>Entrega dinâmica e visualização com anexos seguros de ATP
 

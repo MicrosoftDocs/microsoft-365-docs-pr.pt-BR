@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 5421ba811e401bdd191aee0ddbff21a1286dc9fe
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Saiba como usar a correção de erros para corrigir problemas de dados na descoberta eletrônica avançada que pode impedir o processamento adequado do conteúdo.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 8ada53dd6339541fc39b37903a0f58fd4ad84c8c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074568"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035905"
 ---
 # <a name="error-remediation-when-processing-data"></a>Correção de erros durante o processamento de dados
 

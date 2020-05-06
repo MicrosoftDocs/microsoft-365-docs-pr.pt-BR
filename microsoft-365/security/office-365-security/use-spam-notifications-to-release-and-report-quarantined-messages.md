@@ -1,5 +1,5 @@
 ---
-title: Usar notificações de spam do usuário para liberar e relatar mensagens em quarentena
+title: Notificações de spam do usuário final no Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,17 +17,19 @@ search.appverid:
 ms.assetid: 56de4ed5-b0aa-4195-9f46-033d7cc086bc
 ms.collection:
 - M365-security-compliance
-description: Quando um administrador habilita as notificações de spam para o usuário final em políticas antispam, os destinatários da mensagem receberão notificações periódicas sobre suas mensagens em quarentena.
-ms.openlocfilehash: 641efc024a2842f30f7754c52f624a9f668851de
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Neste artigo, você aprenderá sobre as notificações de spam do usuário final para mensagens em quarentena.
+ms.openlocfilehash: 2a865130bf1fa0c09b5b68254fb604795b204c22
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636411"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034993"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Usar notificações de spam do usuário para liberar e relatar mensagens em quarentena
 
-A quarentena contém mensagens potencialmente perigosas ou indesejadas nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) independentes sem caixas de correio do Exchange Online. Para obter mais informações, consulte [Quarentena no Office 365](quarantine-email-messages.md).
+A quarentena contém mensagens potencialmente perigosas ou indesejadas nas organizações que utilizam Microsoft 365 com caixas de correio do Exchange Online ou Exchange Online Protection (EOP) de organizações autônomas, sem as caixas de correio do Exchange Online. Para obter mais informações, consulte [Quarentena no Office 365](quarantine-email-messages.md).
 
 Por padrão, as notificações de spam do usuário final estão desabilitadas em políticas antispam. Quando um administrador [habilita notificações de spam para o usuário final](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications), os destinatários receberão notificações periódicas sobre suas mensagens que foram colocadas em quarentena como spam, email em massa ou (em abril de 2020) phishing.
 

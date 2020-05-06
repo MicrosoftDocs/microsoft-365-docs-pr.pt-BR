@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 055104a5b7f60fe54b421e7236143aa9af08b57f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Uma tabela que lista os tipos de arquivo com suporte e quais visualizadores eles podem ser exibidos no para investigações de dados (visualização).
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: b4aef30c3f2bc15c306a7561bab261bdb0bdcace
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601428"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034535"
 ---
 # <a name="supported-file-types-in-data-investigations-preview"></a>Tipos de arquivo com suporte em investigações de dados (versão prévia)
 

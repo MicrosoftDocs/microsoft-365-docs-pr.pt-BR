@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 0b6c42f594ef10c868051d81b0a7ea4b7ff84e00
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Saiba como o módulo de relevância analisa dados em evidência com uma descrição do fluxo de trabalho de relevância e as etapas de treinamento em investigações de dados (versão prévia).
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 10b05d4d648bc781a2ec1c7ff8a35d5e82583c55
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080608"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034483"
 ---
 # <a name="use-the-relevance-module-to-analyze-data-in-evidence"></a>Usar o módulo de relevância para analisar dados em evidência
 
@@ -43,7 +44,7 @@ Em investigações de dados (prévia), o módulo de relevância inclui o treinam
     
 - **Cálculo de lote**: os critérios de relevância acumulados e aprendidos são aplicados a todo o conjunto de arquivos e uma pontuação de relevância é gerada para cada arquivo.
     
-- ****@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ Os resultados da análise aplicada ao caso inteiro são exibidos após o cálculo de lote, e os dados usados para fazer decisões de revisão
+- **Decide**@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ Os resultados da análise aplicada ao caso inteiro são exibidos após o cálculo de lote, e os dados usados para fazer decisões de revisão
     
 - **Test**: os resultados podem ser testados para verificar a validade e a eficácia do processamento de investigações de dados (visualização).
 
@@ -121,7 +122,7 @@ Na guia **controle \> de relevância** , as investigações de dados fornecem re
     
   - Implicação: nenhum treinamento de relevância é necessário neste ponto.
     
-Embora as investigações de dados orientam você durante o processo, com as próximas etapas recomendadas em estágios diferentes, também permite navegar entre guias e páginas e fazer escolhas para lidar com situações que possam ser pertinentes a seu caso, problema ou processo de revisão de documento. 
+Embora as investigações de dados orientam você durante o processo, com as próximas etapas recomendadas em estágios diferentes, também permite navegar entre guias e páginas e fazer escolhas para tratar de situações que possam ser pertinentes a seu processo de análise de caso, de problema ou de documento individual. 
   
 É possível aceitar ou substituir as investigações de dados as opções de processamento da próxima etapa. Se você deseja executar uma etapa diferente da próxima etapa recomendada, clique na **próxima etapa** listada na exibição de problema expandida na caixa de diálogo, clique no botão **Modificar** ao lado da próxima etapa e selecione outra opção de próxima etapa. 
   

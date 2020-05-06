@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Importe dados que não sejam da Microsoft 365 para uma análise definida em uma ocorrência de descoberta eletrônica avançada.
-ms.openlocfilehash: 823ecbdbd50adbb1925bcda154db2c1b8ba24cca
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba como importar dados que não são da Microsoft 365 para uma análise definida para análise em um caso de descoberta eletrônica avançada.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ed4a26ea1dd68b9198cce67ce0f97580ed4b2a99
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632636"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034419"
 ---
 # <a name="load-non-microsoft-365-data-into-a-review-set"></a>Carregar dados que não sejam da Microsoft 365 em um conjunto de revisão
 

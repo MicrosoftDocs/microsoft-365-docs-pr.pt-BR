@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Este artigo contém as notas de versão da descoberta eletrônica avançada.
-ms.openlocfilehash: e51647e56e7fb29d8f67d36941a2847278c1e1c0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Este artigo contém as notas de versão da descoberta eletrônica avançada, incluindo problemas conhecidos, problemas corrigidos e novos recursos.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 45a4647856fef0186840ec5465bb9250e5d78de4
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601638"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034615"
 ---
 # <a name="release-notes-for-advanced-ediscovery"></a>Notas de versão para descoberta eletrônica avançada
 

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: b8e25b55ea20514e452b2c26ee0ad1569dbc3c85
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 71226634f17e8e801c409e513494dfdcc19d0719
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919688"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046289"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Conformidade com comunicações no Microsoft 365
 
@@ -156,4 +156,6 @@ Manter o controle e o gerenciamento de problemas de conformidade identificados p
 
 ## <a name="ready-to-get-started"></a>Pronto para começar?
 
-Para configurar a conformidade de comunicação para sua organização do Microsoft 365, consulte [Configurar a conformidade de comunicação para o microsoft 365](communication-compliance-configure.md) ou confira o [estudo de caso para contoso](communication-compliance-case-study.md) e como configurou rapidamente uma política de conformidade de comunicação para monitorar a linguagem ofensiva no Microsoft Teams, Exchange Online e comunicações do Yammer.
+- Para obter informações de planejamento, consulte [Plan for Communication Compliance](communication-compliance-plan.md).
+- Confira o [estudo de caso para contoso](communication-compliance-case-study.md) e veja como eles definiram rapidamente uma política de conformidade de comunicação para monitorar a linguagem ofensiva no Microsoft Teams, no Exchange Online e nas comunicações do Yammer.
+- Para configurar a conformidade de comunicação para sua organização do Microsoft 365, consulte [Configure Communication Compliance for Microsoft 365](communication-compliance-configure.md).

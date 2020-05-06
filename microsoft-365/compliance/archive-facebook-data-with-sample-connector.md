@@ -13,13 +13,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
-description: Os administradores podem configurar um conector para importar dados de terceiros de fontes de dados, como páginas de negócios do Facebook, Twitter, páginas da empresa do LinkedIn e Bloomberg instantâneo. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a governança dos dados de terceiros da sua organização.
-ms.openlocfilehash: 21023e380e4065f40edd4c3dea3f4c461d743f04
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom:
+- seo-marvel-apr2020
+description: Configure um conector para importar dados do Facebook para o Microsoft 365, de modo que você possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção.
+ms.openlocfilehash: a1a45b3558e8c5fb77fb1d04a1a38402000bbd1b
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943230"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035153"
 ---
 # <a name="set-up-a-connector-to-archive-facebook-data"></a>Configurar um conector para arquivar dados do Facebook
 

@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Descubra as etapas de configuração para o Microsoft 365 Business Premium, incluindo a adição de um domínio e usuários, a configuração de políticas de segurança e muito mais.
-ms.openlocfilehash: a34ede0002e7e78c5dc437c663fe527cf94e46c5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: cfc8523fe88ebca6b8c03db0ad0f6caeba662923
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635755"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048032"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Configurar o Microsoft 365 Business Premium no assistente de configuração
 
@@ -124,7 +124,7 @@ As políticas configuradas no assistente são aplicadas automaticamente a um [gr
 
 ## <a name="secure-windows-10-pcs"></a>Proteger computadores com Windows 10
 
-Na barra de navegação esquerda, selecione **configuração** e, em **entrada e segurança**, escolha **proteger seus computadores com Windows 10**. Escolha **Exibir** para começar. Confira [proteger seus computadores com Windows 10](secure-win-10-pcs.md) para obter instruções completas.
+Na barra de navegação esquerda, selecione **configuração** e, em seguida, em **entrada e segurança**, escolha **proteger seus computadores com Windows 10**. Escolha **Exibir** para começar. Confira [proteger seus computadores com Windows 10](secure-win-10-pcs.md) para obter instruções completas.
 
 ## <a name="deploy-office-365-client-apps"></a>Implantar aplicativos cliente do Office 365
 
@@ -136,4 +136,4 @@ Você também pode instalar o Office individualmente. Confira [instalar o Office
 
 ## <a name="see-also"></a>Confira também
 
-[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

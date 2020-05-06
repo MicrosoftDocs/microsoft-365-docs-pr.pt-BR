@@ -13,13 +13,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
-description: Os administradores podem configurar um conector nativo para importar dados da ferramenta de chat do Bloomberg no momento para o Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: d423de02695b1727f3c2ac7de00dde99a36a073c
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom:
+- seo-marvel-apr2020
+description: Configure um conector para importar dados do Bloomberg do Instant para o Microsoft 365, de modo que você possa usar várias ferramentas de conformidade.
+ms.openlocfilehash: 49fdef36e6ae2b425878641c1a368e982e391eeb
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943220"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035143"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data"></a>Configurar um conector para arquivar dados do Instant Bloomberg
 

@@ -1,5 +1,5 @@
 ---
-title: Gerenciar solicitações de entidades de dados do RGPD com a ferramenta de casos DSR no centro de conformidade & segurança
+title: Gerenciar solicitações de entidades de dados do RGPD com a ferramenta de casos DSR no centro de conformidade e segurança &
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -18,12 +18,13 @@ ms.collection:
 - SPO_Content
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
 description: O RGPD fornece aos seus dados pessoais direitos específicos da UE (chamados de dados). esses direitos incluem a obtenção de cópias dele, a solicitação de alterações, a restrição do processamento dele, a exclusão ou o recebimento de um formato eletrônico. Uma solicitação formal por um assunto de dados para realizar uma ação em seus dados pessoais é chamada de solicitação de entidade de dados ou DSR. Você pode usar casos de DSR no centro de conformidade no Office 365 e no Microsoft 365 para gerenciar as investigações de DSR da sua organização.
-ms.openlocfilehash: 7fc786f1e330b03884ef279e210c8f8ef22e9793
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f3be609ae1245b20b39d26fe60444e6e54f171d3
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635921"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035865"
 ---
 # <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-security--compliance-center"></a>Gerenciar solicitações de entidades de dados do RGPD com a ferramenta de casos DSR no centro de conformidade & segurança
 

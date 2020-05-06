@@ -1,5 +1,5 @@
 ---
-title: Temas
+title: Temas – investigações de dados
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 4460faebf5bc138eb72e583c154ee6ee9d70c294
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Durante uma investigação de dados, use temas para organizar documentos encontrando ideias ou conceitos comuns.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e05210036ce2db0a06b6450a611908cf2de24f19
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080908"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034505"
 ---
 # <a name="themes"></a>Temas
 

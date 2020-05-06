@@ -12,13 +12,14 @@ ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
 localization_priority: None
-description: Use este artigo como referência para vários atributos que podem ser usados em políticas de barreira de informações.
-ms.openlocfilehash: ff7b6e22370c086f6b685fce4de8b61396017bf9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Este é um artigo de referência sobre os atributos da conta de usuário do Azure Active Directory que você usa para definir segmentos de barreira de informações.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 75a568b4d54432de0b72c379e83077c222acb687
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600618"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035047"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>Atributos das políticas de barreira de informações
 
@@ -88,10 +89,10 @@ A tabela a seguir lista os atributos que você pode usar com as barreiras de inf
 |StreetAddress |StreetAddress |
 |TargetAddress |ExternalEmailAddress |
 |UsageLocation |UsageLocation |
-|UserPrincipalName  |UserPrincipalName  |
-|Correio   |WindowsEmailAddress    |
+|UserPrincipalName    |UserPrincipalName    |
+|Correio    |WindowsEmailAddress    |
 |Descrição    |Descrição    |
-|Tattoo   |MemberOfGroup  |
+|Tattoo    |MemberOfGroup    |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

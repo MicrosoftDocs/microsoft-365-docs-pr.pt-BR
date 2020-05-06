@@ -13,12 +13,13 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Saiba como definir políticas para barreiras de informações no Microsoft Teams.
-ms.openlocfilehash: c7bc7a1f90962910a0626967e4f6dee005695e30
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 1c81fedddf5e3553ec4b24353fac43079305c5b2
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621367"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035037"
 ---
 # <a name="define-information-barrier-policies"></a>Definir políticas de barreira de informações
 
@@ -285,7 +286,7 @@ A contoso tem cinco departamentos: RH, vendas, marketing, pesquisa e produção.
 
 |Segmento  |Pode falar com  |Não é possível falar com  |
 |---------|---------|---------|
-|HUMANOS     |Todos         |(sem restrições)         |
+|HR     |Todos         |(sem restrições)         |
 |Vendas     |RH, marketing, manufatura         |Pesquisar         |
 |Marketing     |Todos         |(sem restrições)         |
 |Pesquisar     |RH, marketing, manufatura        |Vendas     |
@@ -304,7 +305,7 @@ A Contoso usará o atributo Department no Azure Active Directory para definir se
 
 |Departamento  |Definição de segmento  |
 |---------|---------|
-|HUMANOS     | `New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"`        |
+|HR     | `New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"`        |
 |Vendas     | `New-OrganizationSegment -Name "Sales" -UserGroupFilter "Department -eq 'Sales'"`        |
 |Marketing     | `New-OrganizationSegment -Name "Marketing" -UserGroupFilter "Department -eq 'Marketing'"`        |
 |Pesquisar     | `New-OrganizationSegment -Name "Research" -UserGroupFilter "Department -eq 'Research'"`        |

@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 509b8643ffd2b9ee8b364615e2ed3f56afe84733
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e820eed8e47adf040b267ffc0a3cf3e23410d7ef
+ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637469"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44043302"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>Gerenciamento de risco do insider no Microsoft 365
 
@@ -132,4 +132,5 @@ A comunicação entre funcionários é geralmente uma fonte de violações inadv
 
 ## <a name="ready-to-get-started"></a>Pronto para começar?
 
-Pronto para configurar o gerenciamento de risco do insider para sua organização? Confira [introdução ao gerenciamento de risco do insider](insider-risk-management-configure.md) para configurar os pré-requisitos, criar políticas e começar a receber alertas.
+- Consulte [planejar o gerenciamento de risco do insider](insider-risk-management-plan.md) para saber como se preparar para habilitar as políticas de gerenciamento de risco do insider em sua organização.
+- Confira [introdução ao gerenciamento de risco do insider](insider-risk-management-configure.md) para configurar os pré-requisitos, criar políticas e começar a receber alertas.

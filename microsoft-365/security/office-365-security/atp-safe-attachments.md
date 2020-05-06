@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 ms.collection:
 - M365-security-compliance
-description: O recurso de anexos seguros oferece verificação de horário de clique de anexos de email. Use anexos seguros para proteger sua organização contra arquivos mal-intencionados enviados ou recebidos por email.
-ms.openlocfilehash: ca46a523ffd15177c44dcb81d2529b769cc2e79c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+- seo-marvel-apr2020
+description: Neste artigo, você aprenderá sobre o recurso de anexos seguros de ATP para o Office 365 e como obter o recurso para sua assinatura.
+ms.openlocfilehash: e6cbd5cb494e765bdb849da93114ea4168ab3c93
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636005"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034847"
 ---
 # <a name="atp-safe-attachments"></a>Anexos Seguros da ATP
 

@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Os administradores podem aprender a gerenciar compras de autoatendimento feitas por usuários em sua organização.
-ms.openlocfilehash: ab0e98963e1274925fcf678307907a93eafc9663
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 7074a829bed3e65a160a9a33afb4f2b130f6c8d1
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409626"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046175"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Gerenciar compras de autoatendimento (Administrador)
 
@@ -29,7 +29,7 @@ Você também pode controlar se os usuários da sua organização podem fazer co
 
 ## <a name="view-self-service-subscriptions"></a>Exibir assinaturas de autoatendimento
 
-1. No centro de administração, vá para a página de serviços de **cobrança** > de<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
+1. No centro de administração, vá para a página **cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Ao lado de **refinar resultados**, no menu suspenso **tipo de conta** , escolha **autoatendimento**.
 
@@ -56,7 +56,7 @@ Você pode desabilitar ou habilitar compras de autoatendimento para usuários em
 
 Você pode usar o módulo do PowerShell do **MSCommerce** para:
 
-- Exibir o estado padrão do valor **** &mdash; do parâmetro AllowSelfServicePurchase se ele está habilitado ou desabilitado por produto
+- Exibir o estado padrão do valor **AllowSelfServicePurchase** &mdash; do parâmetro AllowSelfServicePurchase se ele está habilitado ou desabilitado por produto
 - Exibir uma lista de produtos aplicáveis e se a compra de autoatendimento está habilitada ou desabilitada
 - Exibir ou modificar a configuração atual de um produto específico para habilitá-lo ou desabilitá-lo
 

@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Este artigo descreve a nova ferramenta de investigações de dados (visualização) no Microsoft 365.
-ms.openlocfilehash: e147275c21696520c33d5a6679e3ea81023877de
-ms.sourcegitcommit: 7930fb8327bbd3594fde52f2dbf91e0f5d92f684
+ms.custom:
+- seo-marvel-mar2020
+description: Neste artigo, você aprenderá sobre a ferramenta de investigações de dados (visualização) no Microsoft 365. A ferramenta de investigações de dados ajuda a avaliar e corrigir os dados derramamento.
+ms.openlocfilehash: 6975d554e939481c6ee1c32ec4e76bb25c7bf36c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42328073"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036044"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Visão geral das investigações de dados (prévia) no Microsoft 365
 
@@ -41,7 +43,7 @@ As seções a seguir descrevem cada etapa no fluxo de trabalho interno em invest
 
 ## <a name="search-for-sensitive-malicious-or-misplaced-data"></a>Procurar dados confidenciais, mal-intencionados ou colocados no local errado
 
-Use a guia **pesquisas** para criar pesquisas para localizar os dados do Office 365 que você deseja corrigir. Você pode criar e executar pesquisas baseadas em consulta para identificar um conjunto de mensagens e documentos de email que podem conter dados derramados e, em seguida, coletá-los como evidências para análise e análise. Além disso, você pode usar a ferramenta de pesquisa para visualizar documentos de amostra e exibir estatísticas de pesquisa que podem ajudá-lo a refinar e aprimorar os resultados da pesquisa. Quando estiver satisfeito de que os resultados da pesquisa contenham todos os dados relevantes para a investigação, adicione os resultados da pesquisa ao conjunto de evidências para análise adicional, avaliação de impacto e realização de ações corretivas conforme necessário. Para saber mais, confira [Pesquisar dados em uma investigação](search-for-data.md).
+Use a guia **pesquisas** para criar pesquisas para localizar os dados do Microsoft 365 que você deseja corrigir. Você pode criar e executar pesquisas baseadas em consulta para identificar um conjunto de mensagens e documentos de email que podem conter dados derramados e, em seguida, coletá-los como evidências para análise e análise. Além disso, você pode usar a ferramenta de pesquisa para visualizar documentos de amostra e exibir estatísticas de pesquisa que podem ajudá-lo a refinar e aprimorar os resultados da pesquisa. Quando estiver satisfeito de que os resultados da pesquisa contenham todos os dados relevantes para a investigação, adicione os resultados da pesquisa ao conjunto de evidências para análise adicional, avaliação de impacto e realização de ações corretivas conforme necessário. Para saber mais, confira [Pesquisar dados em uma investigação](search-for-data.md).
 
 ## <a name="review-and-investigate-evidence"></a>Analisar e investigar evidências
 

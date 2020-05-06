@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 description: Saiba como atualizar para uma nova assinatura.
 monikerRange: o365-worldwide
-ms.openlocfilehash: faddecffd91eb58dab7a3b498de97633b5efd9d0
-ms.sourcegitcommit: 11198133b43eb6a6369e544c8a0dd408d582591c
+ms.openlocfilehash: 7739da2d56fa0d37dd64b22b2959ad6dca198e75
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43796507"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046211"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Atualizar para um plano diferente 
 
@@ -42,7 +42,7 @@ Quando sua empresa mudar ou precisar de mais recursos, você poderá atualizar o
 
 Ao usar a guia **atualização** , você é orientado pelo processo de compra de um novo plano. Todos os usuários recebem licenças automaticamente no novo plano e seu plano antigo é cancelado para você.
 
-1. No centro de administração, vá para a página de serviços de **cobrança** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Selecione a assinatura que você deseja atualizar.
 
@@ -59,7 +59,7 @@ Ao usar a guia **atualização** , você é orientado pelo processo de compra de
 
 7. Quando tiver terminado, selecione **fazer pedido**.
 
-Ao concluir o check-out, pode levar alguns minutos para finalizar a atualização. Você pode começar a usar sua nova assinatura imediatamente. Selecione **verificar status da atualização** para verificar o progresso da atualização. Você será notificado quando a atualização for concluída. A notificação é exibida na página **produtos & serviços** , ao lado de sua nova assinatura.
+Ao concluir o check-out, pode levar alguns minutos para finalizar a atualização. Você pode começar a usar sua nova assinatura imediatamente. Selecione **verificar status da atualização** para verificar o progresso da atualização. Você será notificado quando a atualização for concluída. A notificação é exibida na página **seus produtos** , ao lado de sua nova assinatura.
 
 ## <a name="the-upgrade-tab-is-empty"></a>A guia atualização está vazia
 
@@ -137,7 +137,7 @@ Se você tiver um complemento com sua assinatura, talvez seja possível [alterar
 
 #### <a name="your-subscription-has-an-unpaid-balance"></a>Sua assinatura tem um saldo não pago
 
-Para resolver isso, encontre a assinatura na página <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos & serviços</a> e selecione o link **pagar agora** na seção **cobrança** . Depois que o pagamento tiver sido feito, verifique a guia **atualização** novamente.
+Para resolver isso, encontre a assinatura na página <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus produtos</a> e selecione o link **pagar agora** na seção **cobrança** . Depois que o pagamento tiver sido feito, verifique a guia **atualização** novamente.
 
 ## <a name="what-does-upgrading-a-plan-do-to-my-service-and-billing"></a>O que a atualização de um plano faz com o meu serviço e cobrança?
 

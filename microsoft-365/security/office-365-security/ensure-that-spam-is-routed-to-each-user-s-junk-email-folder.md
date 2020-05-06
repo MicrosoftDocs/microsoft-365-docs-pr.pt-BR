@@ -15,13 +15,14 @@ search.appverid:
 ms.assetid: 0cbaccf8-4afc-47e3-a36d-a84598a55fb8
 ms.collection:
 - M365-security-compliance
-description: Os administradores podem saber como configurar o seu ambiente do Exchange local para rotear o spam para pastas de lixo eletrônico de usuários locais, se estiverem usando o Exchange Online Protection (EOP) autônomo em ambientes híbridos.
-ms.openlocfilehash: f2964324c6d9104719fc79ff31f14b4b94c627cc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Os administradores podem aprender a rotear spam para as pastas de lixo eletrônico do usuário em um ambiente híbrido do Exchange Online Protection.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 14193fecf90a6f2ddde05fbfdaded0ff2bcb5875
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621277"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036567"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Configurar o EOP autônomo para fornecer spam para a pasta lixo eletrônico em ambientes híbridos
 

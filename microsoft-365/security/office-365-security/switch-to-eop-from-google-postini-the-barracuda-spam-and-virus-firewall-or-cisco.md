@@ -1,5 +1,5 @@
 ---
-title: Mudando para EOP da Google Postini, Firewall de Vírus ou Spam Barracuda ou Cisco IronPort
+title: Alternar para EOP de outro serviço de proteção
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -11,13 +11,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
-description: O objetivo deste tópico é ajudar você a entender o processo de optar pelo Exchange Online Protection (EOP) a partir de um serviço de proteção na nuvem ou ferramenta de higienização de email local e então oferecer recursos de ajuda para começar.
-ms.openlocfilehash: e6a25d6477741f5796dd08b5811d97e2d0c76b51
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Neste artigo, você aprenderá a alternar para o Exchange Online Protection (EOP) de um dispositivo de higiene de email local ou serviço de proteção baseado em nuvem.
+ms.openlocfilehash: 4bbd0b60d42b52d5c9343126f12059fcf1fc3d62
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631188"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035219"
 ---
 # <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Mudando para EOP da Google Postini, Firewall de Vírus ou Spam Barracuda ou Cisco IronPort
 

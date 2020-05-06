@@ -1,5 +1,5 @@
 ---
-title: Investigação e resposta automatizadas (AIR)
+title: Visão geral de investigação e resposta automatizada (AIR)
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -14,15 +14,15 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Obtenha uma visão geral dos recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.custom: air
-ms.openlocfilehash: 638f421289d5b4f0d8c02fbd5bf2913191721bf6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: air - seo-marvel-mar2020
+ms.openlocfilehash: 3f8aa761207be61f78eb5f9b5140439c86455bf3
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638543"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035611"
 ---
-# <a name="automated-investigation-and-response-air"></a>Investigação e resposta automatizadas (AIR)
+# <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-365"></a>Uma visão geral da investigação e resposta automatizadas (AIR) no Microsoft 365
 
 Como os alertas de segurança são disparados, a equipe de operações de segurança pode examinar os alertas e realizar etapas para proteger sua organização. Às vezes, as equipes de operações de segurança podem se sentir sobrecarregadas pelo volume de alertas disparados. Os recursos de investigação e resposta automatizada (AIR) podem ajudar. O AIR permite que sua equipe de operações de segurança opere de forma mais eficiente e eficaz. Os recursos de ar incluem processos de investigação automatizados em resposta a ameaças bem conhecidas que existem atualmente. Ações de correção apropriadas aguardam aprovação, permitindo que sua equipe de operações de segurança responda a ameaças detectadas. 
 

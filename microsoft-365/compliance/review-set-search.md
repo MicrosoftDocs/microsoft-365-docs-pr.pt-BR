@@ -1,5 +1,5 @@
 ---
-title: Consultar os dados em um conjunto de revisão
+title: Consultar dados em um conjunto de revisão
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,15 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 97c1acdb515e278c40ca25d47e2d9fd24c23d51f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Saiba como criar e executar uma consulta em uma revisão definida para organizar dados para uma análise mais eficiente em uma ocorrência de descoberta eletrônica avançada.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 1bf4d86ea4aecb33cbb2e7ad7b617cd58a5c086d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42070048"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034595"
 ---
-# <a name="query-the-data-in-a-review-set"></a>Consultar os dados em um conjunto de revisão
+# <a name="query-the-data-in-a-review-set"></a>Consultar dados em um conjunto de revisão
 
 Na maioria dos casos, será útil ser capaz de se aprofundar nos dados de um conjunto de análise e organizar esses dados para facilitar uma análise mais eficiente. Usar consultas em um conjunto de revisão ajuda você a se concentrar em um subconjunto de documentos que atendem aos critérios de sua análise.
 

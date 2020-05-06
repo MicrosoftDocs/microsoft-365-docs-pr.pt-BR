@@ -1,7 +1,7 @@
 ---
 title: Criar e gerenciar regras de detecção personalizadas no Microsoft Threat Protection
 description: Saiba como criar e gerenciar regras de detecções personalizadas com base em consultas de busca avançada
-keywords: caça avançada, busca de ameaças, caça de ameaças da CyberSource, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, detecções personalizadas, regras, esquema, Kusto, Microsoft 365, proteção contra ameaças da Microsoft, RBAC, permissões, Microsoft Defender ATP
+keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção contra ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, detecções personalizadas, regras, esquema, Kusto, Microsoft 365, proteção contra ameaças da Microsoft, RBAC, permissões, Microsoft defender ATP
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: adb8c7dfa0050ef2eb0d59e1e55d07da7aaa3f39
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: cdfc23f34d90c9d725ec6fb314728553a987c025
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42931721"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034859"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Criar e gerenciar regras de detecções personalizadas
 
@@ -114,7 +114,7 @@ Identifique as colunas nos resultados de consulta onde você espera encontrar a 
 
 Você pode selecionar apenas uma coluna para cada tipo de entidade (caixa de correio, usuário ou dispositivo). As colunas que não são retornadas pela consulta não podem ser selecionadas.
 
-### <a name="3-specify-actions-on-files-or-machines"></a>3. Especifique ações em arquivos ou máquinas.
+### <a name="4-specify-actions-on-files-or-machines"></a>4. Especifique ações em arquivos ou máquinas.
 Sua regra de detecção personalizada pode executar automaticamente ações em arquivos ou máquinas que são retornadas pela consulta.
 
 #### <a name="actions-on-machines"></a>Ações em máquinas
@@ -130,7 +130,7 @@ Quando selecionada, a ação de **arquivo de quarentena** é executada nos arqui
 > [!NOTE]
 > A ação de permissão ou bloqueio para regras de detecção personalizada atualmente não é suportada no Microsoft Threat Protection.
 
-### <a name="4-set-the-rule-scope"></a>4. defina o escopo da regra.
+### <a name="5-set-the-rule-scope"></a>5. defina o escopo da regra.
 Defina o escopo para especificar quais dispositivos são cobertos pela regra. O escopo influencia as regras que verificam dispositivos e não afetam as regras que verificam apenas caixas de correio e contas de usuário e identidades.
 
 Ao configurar o escopo, você pode selecionar:
@@ -140,7 +140,7 @@ Ao configurar o escopo, você pode selecionar:
 
 Somente os dados de dispositivos no escopo serão consultados. Além disso, as ações serão executadas apenas nesses dispositivos.
 
-### <a name="5-review-and-turn-on-the-rule"></a>5. revise e ative a regra.
+### <a name="6-review-and-turn-on-the-rule"></a>6. revise e ative a regra.
 Após a revisão da regra, clique em **criar** para salvá-la. A regra de detecção personalizada é executada imediatamente. Ele é executado novamente com base na frequência configurada para verificar correspondências, gerar alertas e realizar ações de resposta.
 
 ## <a name="manage-existing-custom-detection-rules"></a>Gerenciar regras de detecção personalizadas existentes

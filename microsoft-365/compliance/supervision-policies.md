@@ -1,6 +1,6 @@
 ---
 title: Políticas de supervisão
-description: Aprenda sobre políticas de supervisão
+description: Saiba mais sobre como usar políticas de supervisão no Microsoft 365 para capturar comunicações de funcionários para verificação por revisores designados.
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -18,13 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
+ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft 365 Compliance
-ms.openlocfilehash: df24ee91482785c725acd5b531c6b138e5e165a7
-ms.sourcegitcommit: 90f7bbba5fc23f10b59c75b2b65d6c0903ce66dd
+ms.openlocfilehash: b0778cd05565057fde8982e791a75801d097046c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43930168"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034555"
 ---
 # <a name="supervision-policies"></a>Políticas de supervisão
 

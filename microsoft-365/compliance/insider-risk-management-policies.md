@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 5e81c9ff65db6ecd4a1ac1995c8a592f4377ae1c
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: e135ceec2ac4abcd0bfd5183fb19089a97dc4bb4
+ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634349"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44043292"
 ---
 # <a name="insider-risk-management-policies"></a>Políticas de gerenciamento de risco do insider
 
@@ -42,7 +42,7 @@ Os modelos de gerenciamento de risco do insider são condições de política pr
 
 ### <a name="departing-employee-data-theft"></a>Como a parte do roubo de dados do funcionário
 
-Quando os funcionários saem da sua organização, há indicadores de risco específicos geralmente associados ao roubo de dados por parte dos funcionários. Este modelo de política prioriza esses indicadores e focaliza a detecção e os alertas nessa área de risco. O roubo de dados para os funcionários de parte pode incluir o download de arquivos do SharePoint Online, a cópia de arquivos para dispositivos portáteis, como unidades USB, impressão de arquivos e cópia de dados para serviços de armazenamento e mensagens na nuvem pessoal próximo à demissão de emprego e datas de término. Este modelo prioriza os indicadores de risco relacionados a essas atividades e como eles se correlacionam com o status de emprego do funcionário.
+Quando os funcionários saem da sua organização, há indicadores de risco específicos geralmente associados ao roubo de dados por parte dos funcionários. Este modelo de política prioriza esses indicadores e focaliza a detecção e os alertas nessa área de risco. O roubo de dados para os funcionários de parte pode incluir o download de arquivos do SharePoint Online, a cópia de arquivos para dispositivos portáteis, como unidades USB, impressão de arquivos e cópia de dados para serviços de armazenamento e mensagens na nuvem pessoal próximo de suas datas de demissão e término de emprego. Este modelo prioriza os indicadores de risco relacionados a essas atividades e como eles se correlacionam com o status de emprego do funcionário.
 
 >[!IMPORTANT]
 >Ao usar esse modelo, você deve configurar um conector de RH da Microsoft 365 para importar periodicamente informações de data de demissão e de término para os funcionários de sua organização. Consulte o tópico [importar dados com o conector de RH](import-hr-data.md) para obter orientações passo a passo para configurar o Microsoft 365 HR Connector para sua organização.
@@ -60,13 +60,13 @@ Detectar e realizar ações para impedir o comportamento ofensivo e abusivo é u
 
 ## <a name="policy-settings"></a>Configurações de política
 
-As configurações de risco do insider são aplicadas a todas as políticas de gerenciamento de risco do Insider, independentemente do modelo que você escolheu ao criar uma política. As configurações são definidas usando o controle de configurações de risco do **Insider* localizado na parte superior de todas as guias de gerenciamento de risco do insider Essas configurações controlam a privacidade, indicadores, monitoramento de janelas e detecções inteligentes.
+As configurações de risco do insider são aplicadas a todas as políticas de gerenciamento de risco do Insider, independentemente do modelo que você escolheu ao criar uma política. As configurações são definidas usando o controle de **configurações de risco do insider** localizado na parte superior de todas as guias de gerenciamento de risco do insider Essas configurações controlam a privacidade, indicadores, monitoramento de janelas e detecções inteligentes.
 
 ### <a name="privacy"></a>Privacidade
 
 A proteção da privacidade dos usuários que têm correspondências de política é importante e pode ajudar a promover o Objectivity em análises de investigação e análise de dados para alertas de risco do insider. Para usuários com correspondências de política de risco do Insider, você pode escolher uma das seguintes configurações:
 
-- **Mostrar versões anonimato de nomes de**usuário: os nomes de usuários são anônimos para impedir que administradores, investigadores de dados e revisores vejam quem está associado a alertas de política. Por exemplo, um "Taylor de cortesia" do usuário apareceria com um psuedonym aleatório, como "AnonIS8-988" em todas as áreas da experiência de gerenciamento de risco do insider. A escolha dessa configuração anonymizes todos os usuários com correspondências de política atuais e anteriores e se aplicam a todas as políticas. As informações de perfil de usuário no alerta de risco do insider e os detalhes do caso não estarão disponíveis quando essa opção for escolhida. No entanto, os nomes de usuário são exibidos ao adicionar novos usuários às políticas existentes ou ao atribuir usuários a novas políticas. Se você optar por desativar essa configuração, os nomes de usuário serão exibidos para todos os usuários que têm correspondências de política atuais ou antigas.
+- **Mostrar versões anonimato de nomes de**usuário: os nomes de usuários são anônimos para impedir que administradores, investigadores de dados e revisores vejam quem está associado a alertas de política. Por exemplo, um "Taylor de cortesia" do usuário apareceria com um pseudonym aleatório, como "AnonIS8-988" em todas as áreas da experiência de gerenciamento de risco do insider. A escolha dessa configuração anonymizes todos os usuários com correspondências de política atuais e anteriores e se aplicam a todas as políticas. As informações de perfil de usuário no alerta de risco do insider e os detalhes do caso não estarão disponíveis quando essa opção for escolhida. No entanto, os nomes de usuário são exibidos ao adicionar novos usuários às políticas existentes ou ao atribuir usuários a novas políticas. Se você optar por desativar essa configuração, os nomes de usuário serão exibidos para todos os usuários que têm correspondências de política atuais ou antigas.
 - **Não mostrar versões anonimato de nomes de usernames**: os nomes de usernames são exibidos para todas as correspondências de política atuais e anteriores para alertas e casos. As informações de perfil de usuário (o nome, título, alias e organização ou departamento) são exibidas para o usuário para todos os alertas e casos de gerenciamento de risco do insider.
 
 ### <a name="indicators"></a>Indicadores
@@ -87,14 +87,14 @@ Os cronogramas de política permitem definir períodos de revisão passados e fu
 
 ### <a name="intelligent-detections"></a>Detecções inteligentes
 
-As configurações inteligentes de detecção ajudam a refinar o modo como a detecção de atividades arriscadas são processadas para alertas. Em determinadas circunstâncias, talvez seja necessário definir tipos de arquivos a serem ignorados ou você deseja impor um nível de detecção de arquivos para ajudar a definir uma barra mínima para alertas. Ao usar políticas de linguagem ofensivas, talvez seja necessário aumentar ou diminuir a sensibilidade à detecção para controlar a quantidade de correspondências de política relatadas. Use estas configurações para controlar exclusões de tipo de arquivo, limites de volume de arquivo e sensibilidade à detecção de linguagem ofensiva.
+As configurações inteligentes de detecção ajudam a refinar o modo como as detecções de atividades arriscadas são processadas para alertas. Em determinadas circunstâncias, talvez seja necessário definir tipos de arquivos a serem ignorados ou você deseja impor um nível de detecção de arquivos para ajudar a definir uma barra mínima para alertas. Ao usar políticas de linguagem ofensivas, talvez seja necessário aumentar ou diminuir a sensibilidade à detecção para controlar a quantidade de correspondências de política relatadas. Use estas configurações para controlar exclusões de tipo de arquivo, limites de volume de arquivo e sensibilidade à detecção de linguagem ofensiva.
 
 #### <a name="anomaly-detections"></a>Detecções de anomalias
 
 As detecções anômalas incluem configurações de exclusões de tipo de arquivo e limites de volume de arquivo.
 
 - **Exclusões de tipo de arquivo**: para excluir tipos de arquivo específicos de todas as políticas de gerenciamento de risco do Insider, insira as extensões de tipo de arquivo separadas por vírgulas. Por exemplo, para excluir determinados tipos de arquivos de música de correspondências de política, você pode inserir *AAC, mp3, WAV, WMA* no campo de **exclusões de tipo de arquivo** . Arquivos com essas extensões seriam ignorados por todas as políticas de gerenciamento de risco do insider.
-- **Limite de corte de volume de arquivo**: para definir um nível mínimo de arquivo antes que os alertas de atividade sejam relatados nas políticas de risco do Insider, insira o número de arquivos. Por exemplo, você digitaria ' 10 ' se não quiser gerar alertas de risco do insider quando um usuário baixar 10 arquivos ou menos, mesmo que as suas políticas considerem essa anomalia.
+- **Limite de corte de volume de arquivo**: para definir um nível mínimo de arquivo antes que os alertas de atividade sejam relatados nas políticas de risco do Insider, insira o número de arquivos. Por exemplo, você digitaria ' 10 ' se não quiser gerar alertas de risco Insider quando um usuário baixar 10 arquivos ou menos, mesmo que as políticas considerem uma anomalia.
 
 #### <a name="offensive-language-detections"></a>Detecções de idiomas ofensivos
 

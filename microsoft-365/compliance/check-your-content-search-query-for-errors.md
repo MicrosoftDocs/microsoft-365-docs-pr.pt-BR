@@ -14,13 +14,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 88898874-e262-4c5c-b6d2-4e697497fc74
-description: Verifique a pesquisa de palavras-chave em busca de erros e erros de digitação, como caracteres não suportados e operadores booleanos minúsculos, antes de executar a pesquisa. Se encontrarmos um erro, sugeriremos uma consulta revisada.
-ms.openlocfilehash: bd87faa774f8449833287ff0c583f9e15a4298ff
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como verificar sua consulta de palavra-chave para pesquisa de conteúdo e erros de ortografia, como caracteres não suportados e operadores booleanos em minúsculas.
+ms.openlocfilehash: 489afd8b2fe19742b63232d323197afecc257ccc
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942904"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035623"
 ---
 # <a name="check-your-content-search-query-for-errors"></a>Verifique se há erros na sua consulta da Pesquisa de Conteúdo
 

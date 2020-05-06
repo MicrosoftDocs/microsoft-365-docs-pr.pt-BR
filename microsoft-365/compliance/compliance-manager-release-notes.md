@@ -13,13 +13,15 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: 73fa3ac2ca15d922a74e1d3ceef6cc74a3bdedca
-ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
+ms.custom:
+- seo-marvel-mar2020
+description: Exibir notas de versão que contenham informações sobre novos recursos e problemas conhecidos (para resolver em futuras versões) no gerente de conformidade da Microsoft.
+ms.openlocfilehash: fb462939ef1b1bf0c6f7f4552359d50645b528f3
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43790564"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033701"
 ---
 # <a name="microsoft-compliance-manager-preview-release-notes"></a>Notas de versão do Gerenciador de conformidade da Microsoft (prévia)
 

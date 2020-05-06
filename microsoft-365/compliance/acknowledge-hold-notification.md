@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Talvez seja necessário informar os responsáveis pela obrigação de preservar as informações armazenadas eletronicamente como parte da investigação legal. A descoberta eletrônica avançada permite que você gerencie facilmente o processo de notificação de espera.
-ms.openlocfilehash: 703034088b03badae309961c2abda9db80425b99
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como usar a descoberta eletrônica avançada para enviar e acompanhar notificações de bloqueio legal por email, bem como monitorar o status de obrigação.
+ms.openlocfilehash: 393d8884a4d4d39056267666fdce6a2754cb582b
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080268"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034881"
 ---
 # <a name="acknowledge-a-hold-notification"></a>Confirmar uma notificação de retenção
 

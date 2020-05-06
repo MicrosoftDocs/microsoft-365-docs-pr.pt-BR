@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: O recurso de links seguros oferece verificação de horário de clique de hiperlinks em documentos do Office e em mensagens de email. Leia este artigo para saber como os links seguros de ATP funcionam.
-ms.openlocfilehash: 7887c3c2920f472d4baa7ff899c3e3b4f704385d
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: e79c44b91eb5de7564058b4dc50c94d2a4223f08
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943706"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046359"
 ---
 # <a name="how-atp-safe-links-works"></a>Como funcionam os Links Seguros da ATP
 > [!IMPORTANT] 
@@ -43,7 +43,7 @@ Em um nível alto, veja como a proteção de [links de segurança ATP](atp-safe-
     
 6. O recurso de links seguros de ATP verifica imediatamente a URL antes de abrir o site. A URL é identificada como bloqueada, mal-intencionada ou segura.
         
-   - Se a URL for um site incluído na [lista de URLs bloqueadas](set-up-a-custom-blocked-urls-list-wtih-atp.md)da organização, uma [página de aviso](atp-safe-links-warning-pages.md) será aberta. 
+   - Se a URL for um site incluído na [lista de URLs bloqueadas](set-up-a-custom-blocked-urls-list-atp.md)da organização, uma [página de aviso](atp-safe-links-warning-pages.md) será aberta. 
     
    - Se a URL for um site que foi determinado como mal-intencionado, uma [página de aviso](atp-safe-links-warning-pages.md) será aberta. 
     
@@ -61,7 +61,7 @@ Em um nível alto, veja como a proteção de [links seguros ATP](atp-safe-links.
     
 3. Quando o usuário clica em uma URL no documento, o link é verificado pelo serviço de links seguros de ATP.
     
-   - Se a URL for um site que está incluído na [lista de URLs bloqueados personalizada](set-up-a-custom-blocked-urls-list-wtih-atp.md)da organização, o usuário será levado para uma [página de aviso](atp-safe-links-warning-pages.md).
+   - Se a URL for um site que está incluído na [lista de URLs bloqueados personalizada](set-up-a-custom-blocked-urls-list-atp.md)da organização, o usuário será levado para uma [página de aviso](atp-safe-links-warning-pages.md).
     
    - Se a URL for um site que foi determinado como mal-intencionado, o usuário será levado para uma [página de aviso](atp-safe-links-warning-pages.md).
     
