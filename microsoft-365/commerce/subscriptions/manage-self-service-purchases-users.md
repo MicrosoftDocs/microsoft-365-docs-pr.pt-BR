@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Os usuários podem aprender a gerenciar suas compras de autoatendimento.
-ms.openlocfilehash: f4be2176d970af426817e975b9942ce5e2b89a9e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ed84bfc215d000eaa144aaf1f6eac281fc5a0c16
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636634"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046163"
 ---
 # <a name="manage-self-service-purchases-users"></a>Gerenciar compras de autoatendimento (Usuários)
 
@@ -30,11 +30,11 @@ Seu administrador tem um modo de exibição somente leitura em qualquer assinatu
 
 ## <a name="view-your-subscriptions"></a>Exibir suas assinaturas
 
-Você pode exibir uma lista de todas as assinaturas adquiridas por autoatendimento que você comprou. No centro de administração, vá para a página de serviços de **cobrança** > de<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
+Você pode exibir uma lista de todas as assinaturas adquiridas por autoatendimento que você comprou. No centro de administração, vá para a página **cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 ## <a name="how-to-buy-more-or-reduce-licenses"></a>Como comprar mais ou reduzir licenças
 
-1. No centro de administração, vá para a página de serviços de **cobrança** > de<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
+1. No centro de administração, vá para a página **cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Encontre a assinatura para a qual você deseja comprar mais ou reduzir licenças.
 
@@ -74,7 +74,7 @@ Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105.
 
 ## <a name="cancel-a-subscription"></a>Cancelar uma assinatura
 
-1. No centro de administração, vá para a página de serviços de **cobrança** > de<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
+1. No centro de administração, vá para a página **cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Encontre a assinatura que você deseja cancelar.
 

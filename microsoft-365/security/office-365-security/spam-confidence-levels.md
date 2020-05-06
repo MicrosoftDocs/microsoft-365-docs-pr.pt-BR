@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: 34681000-0022-4b92-b38a-e32b3ed96bf6
 ms.collection:
 - M365-security-compliance
-description: Os administradores podem aprender sobre como o nível de confiança de spam (SCL) determina a probabilidade ou improvável de uma mensagem ser spam, e as ações padrão que a filtragem de spam realiza em mensagens com base no SCL.
-ms.openlocfilehash: 519bc48e7285283ad0570b8f3ac598615b132875
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Neste artigo, os administradores podem aprender sobre como o nível de confiança de spam (SCL) determina a likeliness de uma mensagem como spam.
+ms.openlocfilehash: 9448b1fd99878dbb85bc8699afc0719bc62dd951
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638279"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035243"
 ---
 # <a name="spam-confidence-level-scl-in-office-365"></a>SCL (nível de confiança de spam) no Office 365
 

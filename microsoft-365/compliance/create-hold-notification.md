@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Use a guia comunicações em um caso de descoberta eletrônica avançada para gerenciar o fluxo de trabalho de notificação do responsáveis.
-ms.openlocfilehash: b4d3c4c3ed132914ebe46b03eb65d24e073ee687
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+description: Use a ferramenta de comunicação em um caso de descoberta eletrônica avançada para enviar, coletar e acompanhar as notificações de retenção legal.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 0bcbdef1c1393ff3e7f3baf30279909ed3a663f5
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280229"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035783"
 ---
 # <a name="create-a-legal-hold-notice"></a>Criar um aviso de retenção legal
 

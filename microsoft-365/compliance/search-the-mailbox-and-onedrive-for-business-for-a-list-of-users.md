@@ -1,5 +1,5 @@
 ---
-title: Use a Pesquisa de Conteúdo para procurar uma lista de usuários na caixa de correio e no site do OneDrive for Business
+title: Pesquisar a caixa de correio & site do OneDrive for Business para obter uma lista de usuários com pesquisa de conteúdo
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -18,12 +18,13 @@ search.appverid:
 - MET150
 ms.assetid: 5f4f8206-2d6a-4cb2-bbc6-7a0698703cc0
 description: Use a pesquisa de conteúdo e o script neste artigo para pesquisar as caixas de correio e os sites do OneDrive for Business para um grupo de usuários.
-ms.openlocfilehash: 31dfa2057eff27ed1d2579cc541361858a11c7ce
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e9269fca59d13dfb715153c4211339e0d9cfb7e0
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943270"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035823"
 ---
 # <a name="use-content-search-to-search-the-mailbox-and-onedrive-for-business-site-for-a-list-of-users"></a>Use a Pesquisa de Conteúdo para procurar uma lista de usuários na caixa de correio e no site do OneDrive for Business
 

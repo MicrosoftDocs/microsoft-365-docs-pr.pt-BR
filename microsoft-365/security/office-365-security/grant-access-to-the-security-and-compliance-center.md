@@ -17,13 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
-description: Os usuários precisam receber permissões no centro de conformidade e segurança & antes de poderem gerenciar qualquer um dos seus recursos de segurança ou conformidade.
-ms.openlocfilehash: 5110bcecb6731cbf51023c6df19bed30bcba72c1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Os usuários precisam receber permissões no centro de conformidade & segurança da Microsoft 365 antes de poderem gerenciar qualquer um dos seus recursos de segurança ou conformidade.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d6071bb6260e0c0f524eb6e5d4e78c78fa8ff750
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638053"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036663"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>Conceder aos usuários acesso ao Centro de Conformidade e Segurança
 

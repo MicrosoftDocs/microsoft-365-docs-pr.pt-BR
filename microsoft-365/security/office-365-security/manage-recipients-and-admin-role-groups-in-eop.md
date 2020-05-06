@@ -11,13 +11,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 2041a048-8d78-4b76-a91f-43ea43a858bd
-description: O Microsoft Proteção do Exchange Online (EOP) oferece várias maneiras de gerenciar seus destinatários de email. Os tópicos a seguir e seus sub-tópicos associados fornecem informações e procedimentos de configuração para gerenciar destinatários e atribuir permissões de grupos de funções de administrações.
-ms.openlocfilehash: a56151167bdc2500af461dbcd188cfe635c6d866
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba mais sobre os procedimentos de configuração para gerenciar destinatários de email & atribuir permissões de grupo de funções de administrador no Microsoft Exchange Online Protection (EOP).
+ms.openlocfilehash: 4e5ed4d19ec25eeb93da919a0f56c06dc1154d98
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598958"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036156"
 ---
 # <a name="manage-recipients-and-admin-role-groups-in-eop"></a>Gerenciar destinatários e grupos com função administrativa no EOP
 

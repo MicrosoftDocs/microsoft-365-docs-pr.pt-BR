@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 0f9cb386ce57d6581ade5caa05e029511100d9b3
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: Saiba mais sobre as ferramentas disponíveis para organizar conjuntos de documentos ao analisar uma ocorrência de descoberta eletrônica avançada.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 87788e444a5ef671586567510448dab8b9deddcd
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42556779"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033815"
 ---
 # <a name="analyze-data-in-a-review-set-in-advanced-ediscovery"></a>Analisar dados em um conjunto de revisão na descoberta eletrônica avançada
 

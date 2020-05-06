@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
-description: Definir políticas de anexos seguros para proteger sua organização contra arquivos mal-intencionados no email.
-ms.openlocfilehash: d9139ff1b3adef2f70b6aede630791d355127573
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba como definir políticas de anexos seguros para proteger sua organização contra arquivos mal-intencionados no email.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ab67b66b8773f45e819abef34e1d77ce5de4cc62
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638339"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035315"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Configurar políticas de anexos seguros de ATP do Office 365
 
@@ -80,7 +81,7 @@ Pessoas costumam enviar, receber e compartilhar anexos, como documentos, apresen
 
    - Na seção **aplica-se** a, escolha **o domínio do destinatário**e selecione o seu domínio. Escolha **Adicionar**e, em seguida, escolha **OK**.
 
-6. Selecione **Salvar**.
+6. Escolha **Salvar**.
 
 Considere configurar várias políticas de anexos seguros de ATP para sua organização. Essas políticas serão aplicadas na ordem em que estão listadas na página de **anexos seguros de ATP** . Após uma política ter sido definida ou editada, permita pelo menos 30 minutos para que as políticas entrem em vigor nos datacenters da Microsoft.
 

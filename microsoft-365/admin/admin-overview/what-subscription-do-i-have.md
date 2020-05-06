@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: Saiba como verificar quais assinaturas sua organização acessará a página assinaturas.
 ms.custom: okr_SMB
-ms.openlocfilehash: a8ebff405d57578142318a2111db1dcb53d54435
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b855c533627aadf6117e6830d7484276003ea665
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621425"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045207"
 ---
 # <a name="what-subscription-do-i-have"></a>Qual assinatura eu tenho?
 
@@ -40,9 +40,9 @@ Se você é um administrador, é possível verificar quais assinaturas sua organ
 > [!NOTE]
 > Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
-2. Suas assinaturas são exibidas na página **produtos & serviços** , juntamente com o nome da assinatura, informações sobre a assinatura e seu status. Para ver uma exibição condensada, selecione **modo de exibição de tabela**.
+2. Suas assinaturas são exibidas na página **produtos** , juntamente com o nome da assinatura, informações sobre a assinatura e seu status. Para ver uma exibição condensada, selecione **modo de exibição de tabela**.
 
 ::: moniker-end
   

@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Adicione os resultados de uma pesquisa associada a uma ocorrência de descoberta eletrônica avançada. Os itens são copiados do local original e copiados para um local de armazenamento do Azure fornecido pela Microsoft. Os itens também são reindexados e a descoberta eletrônica avançada executará o OCR (reconhecimento óptico de caracteres) em arquivos de imagem e carregará o texto da imagem para revisão e análise.
-ms.openlocfilehash: b3710a91585d801f55b36622d6048a2c4bc58a7d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como adicionar resultados de pesquisa ou amostras desses resultados de pesquisa a um conjunto avançado de análise de casos de descoberta eletrônica.
+ms.openlocfilehash: 5e0cdb12a34b3b69c41546e6fcb356ed905189dd
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632296"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034665"
 ---
 # <a name="add-search-results-to-a-review-set"></a>Adicionar os resultados da pesquisa a um conjunto de revisão
 

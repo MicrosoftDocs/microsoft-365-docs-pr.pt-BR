@@ -10,16 +10,19 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
 search.appverid:
 - MOE150
 - MET150
-description: O Gerenciador de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. O Gerenciador de conformidade permite que você rastreie, atribua e verifique as atividades de conformidade normativa relacionadas aos serviços em nuvem da Microsoft.
-ms.openlocfilehash: 31a56f7cba8bb8957d758ca2905853f26d1f8edf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba mais sobre o gerente de conformidade da Microsoft, uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft.
+ms.openlocfilehash: cc62e989a3ef0a40a05c5f2e34e6e15dc6e7f399
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632986"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046279"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Gerente de conformidade da Microsoft (versão prévia)
 
@@ -42,17 +45,15 @@ Com o gerente de conformidade, sua organização pode:
 - Fornecer um repositório seguro para carregar e gerenciar evidências e outros artefatos relacionados às suas atividades de conformidade.
 - Produzir relatórios detalhados do Microsoft Excel, que documentam as atividades de conformidade realizadas pela Microsoft e sua organização para auditores, reguladores e outros revisores de conformidade.
 
-> [!NOTE]
-> As ações do cliente fornecidas no gerente de conformidade são recomendações; a sua organização pode avaliar a eficácia dessas recomendações em seu respectivo ambiente normativo antes da implementação. As recomendações encontradas no Gerenciador de conformidade não devem ser interpretadas como uma garantia de conformidade.
+  
+> [!IMPORTANT]
+> As recomendações da Pontuação de conformidade e do Gerente de conformidade não devem ser interpretadas como garantia de conformidade. Você pode avaliar e validar a eficácia dos controles de clientes por seu ambiente normativo. Esses serviços estão atualmente em versão prévia e sujeitos aos termos e condições nos [termos dos serviços online](https://go.microsoft.com/fwlink/?linkid=2108910). Confira também [orientações de licenciamento da Microsoft 365 para segurança e conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="relationship-to-compliance-score"></a>Relação com a pontuação de conformidade
 
 A [Pontuação de conformidade da Microsoft (versão prévia)](compliance-score.md) é um recurso do centro de conformidade da Microsoft 365 que oferece uma visão de nível superior para a postura de conformidade da sua organização. Ele calcula uma pontuação baseada em risco medindo seu progresso em ações de conclusão que ajudam a reduzir os riscos relacionados à proteção de dados e aos padrões normativos. Saber sua pontuação geral de conformidade ajuda sua organização a entender e gerenciar a conformidade. Entenda [como a pontuação de conformidade é calculada](compliance-score-methodology.md).
 
 O Gerenciador de conformidade compartilha o mesmo backend com pontuação de conformidade. Durante a fase de visualização pública para ambas as ferramentas, o Gerenciador de conformidade é onde você gerenciará as avaliações e as implementações de controle personalizado. Saiba mais sobre a [relação entre a pontuação de conformidade e o gerente de conformidade](compliance-score-release-notes.md#compliance-score-relationship-to-compliance-manager).
-  
-> [!IMPORTANT]
-> O Índice de conformidade não expressa uma medida absoluta da conformidade organizacional com qualquer padrão ou regulamento específico. Ela expressa até que ponto você adotou controles que podem reduzir os riscos para dados pessoais e privacidade individual. Nenhum serviço pode garantir que você está em conformidade com um padrão ou regulamento, e a pontuação de conformidade não deve ser interpretada como uma garantia de qualquer forma.
 
 ## <a name="compliance-manager-components"></a>Componentes do Gerenciador de conformidade
 

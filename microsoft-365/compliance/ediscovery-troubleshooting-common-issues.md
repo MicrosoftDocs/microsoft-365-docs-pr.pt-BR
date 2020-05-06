@@ -16,14 +16,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Investigar, solucionar problemas e resolver problemas comuns no eDiscovery.
+description: Saiba mais sobre as etapas básicas de solução de problemas que você pode executar para resolver problemas comuns na descoberta eletrônica do Office 365.
 siblings_only: true
-ms.openlocfilehash: 5bcbe498cb650268dc8ff6f2b41a6201e75a8192
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f8b73e886e9aa639ff5575f10822417411a0784e
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631766"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035663"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Investigar, solucionar problemas e resolver problemas comuns de descoberta eletrônica
 

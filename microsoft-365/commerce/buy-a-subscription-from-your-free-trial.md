@@ -27,12 +27,12 @@ search.appverid:
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
 description: Adquira uma assinatura do Microsoft 365 for Business. Você pode comprar o mesmo tipo de assinatura que você tentou ou um plano diferente.
-ms.openlocfilehash: 3635a4ae729aa0759ef1f2de2905fa745a48951a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 48786ffc4bd0a8c5e8e13e0062b6db1dd5bed561
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634939"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045795"
 ---
 # <a name="buy-a-subscription-to-microsoft-365-for-business-from-your-free-trial"></a>Comprar uma assinatura para a Microsoft 365 para empresas a partir de sua avaliação gratuita
 
@@ -50,9 +50,9 @@ Você já experimentou o Microsoft 365 e agora está pronto para comprar. Você 
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
-2. Na página **produtos & serviços** , localize a assinatura que você deseja comprar. Na seção **licenças** , selecione **comprar assinatura**.
+2. Na página **seus produtos** , encontre a assinatura que você deseja comprar. Na seção **licenças** , selecione **comprar assinatura**.
 
 3. Escolha um compromisso mensal ou anual para sua assinatura e, em seguida, selecione **checkout**.
 
@@ -163,6 +163,6 @@ Se você adquirir um tipo diferente de assinatura do que a sua avaliação, ter�
 
 [Prorrogar a avaliação](extend-your-trial.md)
   
-[Inscreva-se no Microsoft 365](../admin/admin-overview/sign-up-for-office-365.md)
+[Inscrever-se no Microsoft 365](../admin/admin-overview/sign-up-for-office-365.md)
   
 [Mudar para um plano ou assinatura diferente da Microsoft 365](subscriptions/switch-to-a-different-plan.md)

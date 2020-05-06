@@ -1,5 +1,5 @@
 ---
-title: Limpeza automática de zero horas (ZAP)-proteção retroativa contra spam, malware e phishing.
+title: Limpeza automática de zero horas (ZAP)-recurso de proteção de email
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,13 +18,15 @@ search.appverid:
 ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
-description: A limpeza automática de zero horas (ZAP) é um recurso de proteção de email no Microsoft 365 que detecta spam, malware ou mensagens de phishing que já foram entregues ao Exchange Online. Como o ZAP faz isso depende do tipo de conteúdo mal-intencionado detectado.
-ms.openlocfilehash: f1b36f1152882f446c8f611ceafb44a085cc0a5d
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba mais sobre exclusão automática de zero horas (ZAP), um recurso de proteção de email no Microsoft 365 que detecta spam, malware ou mensagens de phishing que já foram entregues ao Exchange Online.
+ms.openlocfilehash: a6f21147e7beaadb3aa6430b299dea8b248561c1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708446"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034921"
 ---
 # <a name="zero-hour-auto-purge-zap---protection-against-spam-and-malware-in-microsoft-365"></a>Limpeza automática de zero horas (ZAP)-proteção contra spam e malware no Microsoft 365
 

@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Este artigo descreve a nova versão da descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: 3296fbbd04f2baa635fdf0330fc65b927a21448a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Este artigo fornece uma visão geral da descoberta eletrônica avançada no Microsoft 365, uma ferramenta para investigações internas e externas.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: fae09b33364f9ff57233ee25ccf40e4956dfd408
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626757"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034901"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Visão geral da solução de descoberta eletrônica avançada no Microsoft 365
 

@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 86aa29d0c271869eb1939b8a6a8dfb004e35d2cf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7e903467a35427e4d1c6fae0b29f41d970d0fbc8
+ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637479"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44043312"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
@@ -49,7 +49,7 @@ Dependendo da estrutura da sua equipe de gerenciamento de conformidade, você te
 
 | **Default management role assignments for this role** | **Permissões de função** |
 | :---- | :---------------- |
-| **Gerenciamento de riscos internos** | Use esse grupo de funções para gerenciar o gerenciamento de riscos do insider para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores, analistas e investigadores designados, você pode configurar permissões de gerenciamento de risco do insider em um único grupo. Esse grupo de função contém todas as funções de permissão de gerenciamento de risco do insider. Essa é a maneira mais fácil de começar rapidamente com o gerenciamento de risco do insider e é uma boa opção para organizações que não precisam de permissões separadas definidas para grupos de usuários separados.|
+| **Gerenciamento de risco do insider** | Use esse grupo de funções para gerenciar o gerenciamento de riscos do insider para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores, analistas e investigadores designados, você pode configurar permissões de gerenciamento de risco do insider em um único grupo. Esse grupo de função contém todas as funções de permissão de gerenciamento de risco do insider. Essa configuração é a maneira mais fácil de começar rapidamente com o gerenciamento de risco do insider e é uma boa opção para organizações que não precisam de permissões separadas definidas para grupos de usuários separados.|
 | **Administrador de gerenciamento de risco do insider** | Use esse grupo de funções para configurar inicialmente o gerenciamento de riscos de insider e depois para separar os administradores de risco internos em um grupo definido.  Os usuários desse grupo de funções podem criar, ler, atualizar e excluir políticas de gerenciamento de risco do Insider, configurações globais e atribuições de grupos de função. |
 | **Analistas de gerenciamento de risco do insider** | Use esse grupo para atribuir permissões a usuários que atuarão como analistas de caso de risco do insider. Os usuários desse grupo de funções podem acessar todos os modelos de alerta, casos e avisos de gerenciamento de risco do insider. Eles não podem acessar o Gerenciador de conteúdo de risco do insider. |
 | **Investigadores de gerenciamento de risco do insider** | Use esse grupo para atribuir permissões a usuários que atuarão como investigadores de dados de risco do insider. Os usuários desse grupo de funções podem acessar todos os alertas de gerenciamento de risco do Insider, casos, modelos de avisos e o Gerenciador de conteúdo para todos os casos. |
@@ -93,7 +93,7 @@ Consulte o tópico [configurar um conector para importar dados de RH](import-hr-
 
 ### <a name="configure-data-loss-prevention-dlp-policies"></a>Configurar políticas de DLP (prevenção contra perda de dados)
 
-O Insider Risk man'gement oferece suporte ao uso de políticas de DLP para ajudar a identificar a exposição intencional ou acidental de informações confidenciais a partes indesejadas. Ao configurar uma política de gerenciamento de risco do insider com o modelo de *vazamento de dados* , você precisa atribuir uma política de DLP específica à política. Esta política ajuda a direcionar os indicadores de alerta para informações confidenciais é uma parte importante da configuração da cobertura de gerenciamento de risco completo em sua organização.
+O gerenciamento de riscos do insider suporta o uso de políticas DLP para ajudar a identificar a exposição intencional ou acidental de informações confidenciais a partes indesejadas. Ao configurar uma política de gerenciamento de risco do insider com o modelo de *vazamento de dados* , você precisa atribuir uma política de DLP específica à política. Esta política ajuda a direcionar os indicadores de alerta para informações confidenciais é uma parte importante da configuração da cobertura de gerenciamento de risco completo em sua organização.
 
 Consulte o tópico [criar, testar e ajustar uma política de DLP](create-test-tune-dlp-policy.md) para obter orientações passo a passo para configurar as políticas de DLP para sua organização. Após configurar uma política de DLP, retorne a estas configurações "ration Steps". "" "" "" "" "" "
 

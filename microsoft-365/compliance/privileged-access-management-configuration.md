@@ -14,15 +14,17 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-ms.custom: Ent_Solutions
+ms.custom:
+- Ent_Solutions
+- seo-marvel-apr2020
 ms.assetid: ''
-description: Use este tópico para saber mais sobre como configurar o gerenciamento de acesso privilegiado.
-ms.openlocfilehash: 196685eda6818b399c778363ee458f6f2792a33a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Use este artigo para saber mais sobre como habilitar e configurar o gerenciamento de acesso privilegiado no Office 365.
+ms.openlocfilehash: cbb38c2edff0c85e24855e3f6a1613ad8a92043e
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626507"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036416"
 ---
 # <a name="get-started-with-privileged-access-management"></a>Introdução ao gerenciamento de acesso privilegiado
 

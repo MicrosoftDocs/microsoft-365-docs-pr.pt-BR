@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba mais sobre o Microsoft 365 for Business, como configurá-lo e como preparar os dispositivos e os computadores dos usuários para garantir que eles estejam protegidos pela Microsoft 365 para empresas.
-ms.openlocfilehash: 17b142fb704d1b0be088a649490e751effb19517
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8754c470cb6369f0814f953288be130fa49cea86
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633194"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048076"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Introdução ao Microsoft 365 for Business
 
@@ -44,7 +44,7 @@ Assista a este vídeo para ver uma rápida visão geral do Microsoft 365 for Bus
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-O Microsoft 365 for Business é destinado a até 300 licenças. Se você precisar de mais licenças, consulte a documentação do [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) para obter mais informações. 
+O Microsoft 365 for Business é destinado a até 300 licenças. Se precisar de mais licenças, confira a documentação do[Microsoft 365 Enterprise ](https://go.microsoft.com/fwlink/p/?linkid=860986) para saber mais. 
   
 ## <a name="get-microsoft-365-for-business"></a>Obter o Microsoft 365 para empresas
 
@@ -83,7 +83,7 @@ Entre no [centro de administração do Microsoft 365](https://portal.office.com/
     
     - Use o assistente de sincronização de diretórios para sincronizar seus usuários com a nuvem. Siga as etapas em [Configurar a sincronização de diretório para o Microsoft 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) para concluir esse processo. Após sincronizar seus usuários com a nuvem, você terá que desativar a [sincronização de diretório do Office 365](https://support.office.com/article/ee5f861e-bd48-4267-83d1-a4ead4b4a00d).
     
-    Você também precisará conceder a cada usuário uma licença para a Microsoft 365 para empresas. Você pode fazer isso no [Assistente de configuração](set-up.md) ou pode [atribuir licenças aos usuários no Microsoft 365 para empresas](https://support.office.com/article/997596B5-4173-4627-B915-36ABAC6786DC).
+    Você também precisará conceder a cada usuário uma licença para a Microsoft 365 para empresas. Você pode fazer isso no [Assistente de configuração](set-up.md) ou pode [atribuir licenças aos usuários no Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
     
 ### <a name="2-prepare-mobile-devices"></a>2: preparar dispositivos móveis
 
@@ -112,4 +112,4 @@ Se você mantiver um Active Directory local que contenha alguns recursos locais 
   
 [Gerenciar o microsoft 365 for Business](manage.md)[migrar para a Microsoft 365 para empresas](migrate-to-microsoft-365-business.md)
 
-[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 
+[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 
