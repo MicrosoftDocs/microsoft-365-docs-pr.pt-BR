@@ -1,5 +1,5 @@
 ---
-title: Monitorar e exibir relatórios no centro de segurança do Microsoft 365
+title: Monitorar e exibir relatórios-central de segurança
 description: Descreve como a central de segurança da Microsoft 365 fornece um resumo rápido de proteção e status de segurança.
 keywords: segurança, malware, Microsoft 365, M365, central de segurança, monitor, relatório, status
 ms.prod: microsoft-365-enterprise
@@ -14,12 +14,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 5acc122b827a9d715782923d03cef7fd0e0417e4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 987f3a60b514874bd970b93bdcc2c08832345b4b
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086980"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033981"
 ---
 # <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Monitorar e exibir relatórios no centro de segurança do Microsoft 365
 

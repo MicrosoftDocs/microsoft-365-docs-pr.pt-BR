@@ -22,20 +22,20 @@ search.appverid:
 ms.assetid: 82ba88fa-ebdf-4d44-a7b3-cea82b25d71a
 ROBOTS: NOINDEX
 description: Saiba como adicionar licenças à sua assinatura do Microsoft 365 adquirida por meio do parceiro terceiro, reconhecida pela Microsoft.
-ms.openlocfilehash: 3e8a6ce968727cea6aec6140e7d3f354ed68bc94
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 9e463e53d51e7fc0a3828cc6163296084995f9c9
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708138"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045747"
 ---
 # <a name="add-licenses-to-a-subscription-purchased-through-the-volume-licensing-service-center"></a>Adicionar licenças a uma assinatura adquirida pelo Centro de Serviços de Licenciamento por Volume
 
 Se você comprou o Microsoft 365 for Business ou o Office 365 Enterprise Plan por meio de um parceiro de terceiros, você deve comprar licenças adicionais por meio desse parceiro. Se o parceiro que forneceu a assinatura for conhecido pela Microsoft, você pode descobrir como entrar em contato com seu parceiro usando o procedimento a seguir.
 
 ::: moniker range="o365-worldwide"
-
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+  
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Selecione a assinatura à qual você deseja adicionar licenças e, em seguida, selecione o link do **centro de serviços de licenciamento por volume (VLSC)** .
 

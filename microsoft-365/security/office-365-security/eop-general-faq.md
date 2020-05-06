@@ -11,13 +11,15 @@ ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
-description: 'Aqui, respondemos às dúvidas gerais mais comuns sobre o Proteção do Exchange Online (EOP), o serviço de filtragem de email hospedado na nuvem da Microsoft. Para ver mais tópicos de perguntas frequentes, vá para os seguintes links:'
-ms.openlocfilehash: 899109a768399f53674b97fc8df2f71aa822316d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Neste tópico, você encontrará as perguntas gerais mais comuns sobre o serviço de filtragem de email hospedado na nuvem do Microsoft Exchange Online Protection (EOP).
+ms.openlocfilehash: 48841e5e68dd560329eadc0a654e6d8fe1b2d09e
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636247"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036555"
 ---
 # <a name="eop-general-faq"></a>Perguntas frequentes gerais sobre o EOP
 

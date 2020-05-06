@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
 ms.collection:
 - M365-security-compliance
-description: Este tópico explica a diferença entre o lixo eletrônico (spam) e o email em massa e os controles relacionados no Office 365.
-ms.openlocfilehash: 15ca00b007ef0b8470e1b30608a695a90bd638b2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba mais sobre a diferença entre o lixo eletrônico & email em massa. Também saiba mais sobre as diferentes opções disponíveis no Exchange Online & o Exchange Online Protection (EOP).
+ms.openlocfilehash: 5d9d3b513de64d2a150d9e0a1c94bc5ca746b617
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630828"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036591"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>Qual é a diferença entre lixo eletrônico e email em massa?
 

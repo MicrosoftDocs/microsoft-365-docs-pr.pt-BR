@@ -16,13 +16,15 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: 'A maneira mais fácil e mais comum para começar a usar políticas de DLP é usar um dos modelos incluídos no Office 365. '
-ms.openlocfilehash: 956359695978953445237afaa21af028ae8b4c6c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-mar2020
+description: Neste artigo, você aprenderá a criar políticas de DLP usando um dos modelos incluídos no Office 365.
+ms.openlocfilehash: be063c8ee8605db94fe3a68f7ca42b7135553f5e
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631330"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035713"
 ---
 # <a name="create-a-dlp-policy-from-a-template"></a>Criar uma política DLP com base em um modelo
 
@@ -58,7 +60,7 @@ Neste exemplo, você criará uma política de DLP que identifica os dados PII do
 
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Entre usando sua conta corporativa ou de estudante. Agora você está no centro de &amp; conformidade de segurança.
+2. Entre usando sua conta de trabalho ou da escola. Agora você está no centro de &amp; conformidade de segurança.
     
 3. Na navegação \> à &amp; esquerda centro \> de conformidade de segurança \> **política** \> de **prevenção contra perda de dados** **+ criar uma política**.
     

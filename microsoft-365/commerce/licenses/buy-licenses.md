@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
 description: Saiba como adicionar e remover licenças da sua assinatura do Microsoft 365 for Business.
-ms.openlocfilehash: ce14021b3d6efaa14c9010a82ad4b522b0b08339
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 57768a7e93b19c14c5428508268c2c1e37d700f6
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632524"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045219"
 ---
 # <a name="manage-subscription-licenses"></a>Gerencie licenças de assinatura
 
@@ -42,9 +42,9 @@ Você não pode remover uma licença de uma assinatura se ela estiver atribuída
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
-2. Na página **produtos & serviços** , localize a assinatura à qual você deseja adicionar ou remover licenças e, em seguida, selecione **Adicionar/remover licenças**.
+2. Na página **seus produtos** , encontre a assinatura à qual você deseja adicionar ou remover licenças e selecione **Adicionar/remover licenças**.
 
     [Não está vendo o link para Adicionar/Remover licenças?](#what-if-i-dont-see-the-addremove-licenses-link)
 

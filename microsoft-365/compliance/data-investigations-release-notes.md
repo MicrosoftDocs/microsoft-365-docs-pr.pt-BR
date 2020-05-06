@@ -15,13 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Este artigo descreve a nova ferramenta de investigações de dados (visualização) no Microsoft 365.
-ms.openlocfilehash: 813877151f538bc07a0460fdd702ab37ebcc5a1a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
+description: Neste artigo, você encontrará notas de versão que contêm alterações e novos recursos para a ferramenta de investigações de dados (visualização) no Microsoft 365.
+ms.openlocfilehash: 5bb18ccb3354082634780720938fb18164da0ccb
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637731"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035723"
 ---
 # <a name="release-notes-for-data-investigations-preview-in-microsoft-365"></a>Notas de versão para investigações de dados (visualização) no Microsoft 365
 

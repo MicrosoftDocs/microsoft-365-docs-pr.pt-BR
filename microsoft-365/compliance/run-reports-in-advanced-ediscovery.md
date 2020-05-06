@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: b270243e-99a0-4c34-9b21-acb1512d56c6
-description: 'Saiba como executar um relatório e, em seguida, baixe o arquivo. csv na descoberta eletrônica avançada.  '
-ms.openlocfilehash: 9da35e21de23e4773130f5aa87b16fe18d044140
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba como executar um relatório para o processo selecionado e baixe o arquivo. csv na descoberta eletrônica avançada.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e8761277dae8898cfe4c1674beb3f89eeddb48ba
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626477"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034585"
 ---
 # <a name="run-reports-in-advanced-ediscovery-classic"></a>Executar relatórios na descoberta eletrônica avançada (clássico)
 

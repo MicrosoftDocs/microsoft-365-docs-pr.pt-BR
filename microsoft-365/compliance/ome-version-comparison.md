@@ -15,13 +15,14 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: Ajuda a explicar as diferenças entre as versões de criptografia de mensagens.
-ms.openlocfilehash: 89d145f19591ba59df6983bb8863a8e0cc28fcf3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Este artigo ajuda a explicar as diferenças entre diferentes versões da criptografia de mensagem do Office 365.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 32895f8aae8c6c23ab7f0e3d70d4caa73285fa9e
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626787"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034871"
 ---
 # <a name="compare-versions-of-ome"></a>Comparar versões de OME
 
@@ -38,7 +39,7 @@ Este artigo compara a criptografia de mensagens do Office 365 (OME) herdada para
 |-----------------------------------|-------------------|-------------------|--------------------------|
 |**Funcionalidade**                     | **OME Herdado**    | **IRM**           | **Novos recursos do OME** |
 |*Enviar um email criptografado*        |Por meio de regras de fluxo de email do Exchange|O usuário final iniciou a partir do Outlook na Web ou do Outlook na Web; ou por meio de regras de fluxo de email do Exchange|Usuário final iniciado a partir da área de trabalho do Outlook, Outlook para Mac ou Outlook na Web; por meio de regras de fluxo de email do Exchange (também conhecidas como regras de transporte) e prevenção de perda de dados (DLP)|
-|*Modelo de gerenciamento de direitos*       |   Não disponível      |Opção não encaminhar e modelos personalizados|Opção não encaminhar, opção somente criptografia e modelos personalizados|
+|*Modelo de gerenciamento de direitos*       |   N/D      |Opção não encaminhar e modelos personalizados|Opção não encaminhar, opção somente criptografia e modelos personalizados|
 |*Tipo de destinatário*                   |Destinatários internos e externos|Somente destinatários internos         |Destinatários internos e externos|
 |*Experiência para o destinatário interno*|Os destinatários recebem uma mensagem HTML, que eles baixam e abrem em um navegador da Web ou aplicativo móvel|Experiência interna nativa em clientes do Outlook|Experiência nativa em linha para destinatários na mesma organização usando clientes do Outlook.  Os destinatários podem ler a mensagem do portal OME usando clientes que não o Outlook (sem download ou aplicativo necessário).|
 |*Experiência para destinatário externo*|Os destinatários recebem uma mensagem HTML, que eles baixam e abrem em um navegador da Web ou aplicativo móvel|N/D|Experiência interna nativa para destinatários do Microsoft 365. Todos os outros destinatários podem ler a mensagem do portal do OME (sem download ou aplicativo necessário).|

@@ -16,13 +16,15 @@ search.appverid:
 ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
 ms.collection:
 - M365-security-compliance
-description: Os administradores podem saber como configurar remetentes falsificados para permitir ou não permissões e outras configurações de inteligência de falsificação no Exchange Online e no Exchange Online Protection (EOP).
-ms.openlocfilehash: e2aeefbd90a7ed66699778fab54a76a33293e4bb
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+ms.custom:
+- seo-marvel-apr2020
+description: Neste artigo, você aprenderá a usar e gerenciar a inteligência de falsificação para proteção contra falsificação de email.
+ms.openlocfilehash: 32a7668edced5c9dbca2f7b16ff00253b56a5988
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43949232"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034239"
 ---
 # <a name="configure-spoof-intelligence-in-microsoft-365"></a>Configurar a inteligência de spoof no Microsoft 365
 

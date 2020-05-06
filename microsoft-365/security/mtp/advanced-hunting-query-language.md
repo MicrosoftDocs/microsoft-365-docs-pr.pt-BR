@@ -1,7 +1,7 @@
 ---
 title: Conheça a linguagem de consulta de busca avançada no Microsoft Threat Protection
 description: Crie sua primeira consulta de busca de ameaças e saiba mais sobre os operadores comuns e outros aspectos da linguagem de consulta de busca avançada
-keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, idioma, aprendizado, primeira consulta, telemetria, eventos, telemetria, detecções personalizadas, esquema, Kusto, operadores, tipos de dados, PowerShell baixar, exemplo de consulta
+keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, idioma, aprendizado, primeira consulta, telemetria, eventos, telemetria, detecções personalizadas, esquema, Kusto, operadores, tipos de dados, download do PowerShell, exemplo de consulta
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 5715baaccd95d975f7d15196906a6326177bbc2e
-ms.sourcegitcommit: 242f051c4cf3683f8c1a5da20ceca81bde212cfc
+ms.openlocfilehash: 14de9d84ef19be3dcf1e630b2814a6060bfe7f27
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982000"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036494"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Conhecer a linguagem de consulta de busca avançada
 
@@ -147,6 +147,11 @@ Os dados em tabelas de caça avançada geralmente são classificados nos seguint
 | `bool` | Verdadeiro ou falso |
 | `int` | valor numérico de bits de 32  |
 | `long` | valor numérico de bits de 64 |
+
+## <a name="get-help-as-you-write-queries"></a>Obter ajuda durante a criação de consultas
+Aproveite as funcionalidades a seguir para escrever rapidamente as consultas:
+- **Sugestão** automática — à medida que você escreve consultas, a busca avançada fornece sugestões do IntelliSense. 
+- **Referência de esquema** — inclui a lista de tabelas e suas colunas ao lado da área de trabalho. Para saber mais, passe o mouse sobre um item. Clique duas vezes em um item para inseri-lo no editor de consultas.
 
 ## <a name="use-sample-queries"></a>Use consultas de amostra
 

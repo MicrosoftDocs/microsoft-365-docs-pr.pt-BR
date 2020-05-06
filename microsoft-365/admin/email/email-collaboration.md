@@ -25,12 +25,12 @@ search.appverid:
 - SPB160
 ms.assetid: eb3e840f-ed60-4461-81f5-12381c132b89
 description: Saiba mais sobre os vários tipos de grupos e como usá-los com os vários recursos de colaboração do Microsoft 365.
-ms.openlocfilehash: 09dce9a26d22989fecf828bf91c0e8ce9583a589
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b5b8030b1f16562007ac2786dca776db6482eecb
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628862"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048790"
 ---
 # <a name="email-collaboration"></a>Colaboração por email
 
@@ -47,7 +47,7 @@ Esta tabela explica as várias opções de colaboração disponíveis para você
 |:-----|:-----|
 |Grupos no Outlook  <br/> |Um espaço de trabalho compartilhado que funciona em todos os aplicativos no Microsoft 365. Inclui uma caixa de entrada compartilhada, um calendário e um site de armazenamento de arquivos do OneDrive for Business. Os usuários podem criar, localizar e participar de grupos no Outlook diretamente de seus emails ou calendários. Usuários novos e existentes com uma assinatura do Exchange Online ou do Microsoft 365 podem usar grupos no Outlook.  <br/> |
 |Caixa de correio compartilhada  <br/> |Uma caixa de correio para que os usuários selecionados possam ler e enviar emails, e compartilhar um calendário comum. As caixas de correio compartilhadas também podem servir como um endereço de email genérico (como info@contoso.com ou vendas@contoso.com), que os clientes podem usar para obter informações sobre a sua empresa. Quando a permissão Enviar como for habilitada na caixa de correio compartilhada, os emails enviados a partir da caixa de correio vão usar o endereço genérico (por exemplo, vendas@contoso.com).  <br/> |
-|Lista de distribuição ou grupo de distribuição  <br/> |É usada para enviar mensagens de email para duas ou mais pessoas ao mesmo tempo. Os grupos de distribuição também são conhecidos como grupos de distribuição habilitados para email. Uma variante do grupo de distribuição, chamado de grupo dinâmico de distribuição, é um objeto de grupo do Active Directory habilitado para email usado para enviar emails a um grupo grande e desenvolvido de destinatários. Você pode especificar filtros e condições para determinar os destinatários exatos, como todos os membros de uma localidade em especial ou todos os funcionários em tempo integral.<br/><br/> Os grupos do Microsoft 365 no Outlook oferecem uma solução mais poderosa para colaboração do que grupos de distribuição. Para saber mais, confira [por que você deve atualizar suas listas de distribuição para grupos no Outlook](https://support.office.com/article/7fb3d880-593b-4909-aafa-950dd50ce188.aspx) e [migrar listas de distribuição para grupos do Microsoft 365](../manage/upgrade-distribution-lists.md).  <br/> |
+|Lista de distribuição ou grupo de distribuição  <br/> |É usada para enviar mensagens de email para duas ou mais pessoas ao mesmo tempo. Os grupos de distribuição também são conhecidos como grupos de distribuição habilitados para email. Uma variante do grupo de distribuição, chamado de grupo dinâmico de distribuição, é um objeto de grupo do Active Directory habilitado para email usado para enviar emails a um grupo grande e desenvolvido de destinatários. Você pode especificar filtros e condições para determinar os destinatários exatos, como todos os membros de uma localidade em especial ou todos os funcionários em tempo integral.<br/><br/> Os grupos do Microsoft 365 no Outlook oferecem uma solução mais poderosa para colaboração do que grupos de distribuição. Para saber mais, confira [por que você deve atualizar suas listas de distribuição para grupos no Outlook](https://support.microsoft.com/en-us/office/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188) e [migrar listas de distribuição para grupos do Microsoft 365](../manage/upgrade-distribution-lists.md).  <br/> |
 |Pasta pública  <br/> |Projetado para acesso compartilhado, as pastas públicas oferecem uma maneira fácil e eficaz de coletar, organizar e compartilhar informações com outras pessoas em sua organização. As pastas públicas organizam conteúdo em uma hierarquia profunda de fácil navegação e estão sempre visíveis no modo de exibição de pasta do Outlook. Uma pasta pública poderá ser habilitada para email e adicionada como um membro do grupo de distribuição. Os emails enviados para o grupo de distribuição são automaticamente adicionados à pasta pública para arquivamento ou para consultas posteriores. As pastas públicas também proporcionam o compartilhamento de documentos simples, caso você não possua uma assinatura do SharePoint Online.  <br/> |
    
 ## <a name="which-collaboration-tool-to-use"></a>Quais ferramentas de colaboração devem-se usar?

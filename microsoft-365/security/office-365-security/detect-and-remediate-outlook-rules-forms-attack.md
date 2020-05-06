@@ -1,5 +1,5 @@
 ---
-title: Detectar e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados
+title: Detectar e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados.
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -16,12 +16,13 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados no Office 365
-ms.openlocfilehash: 71f796f589157a8eb801af3da78d67d16534447b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6e818d05465f7b91268cc44c345c6699e8c6d0ed
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637587"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034811"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Detectar e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados
 
@@ -234,9 +235,9 @@ Procure a chave EnableUnsafeClientMailRules. Se ele estiver lá e estiver defini
 
 Os clientes com instalações do Exchange no local devem considerar o bloqueio de versões mais antigas do Outlook que não possuem patches disponíveis. Os detalhes sobre esse processo podem ser encontrados no artigo [Configurar o bloqueio de cliente do Outlook](https://docs.microsoft.com/exchange/configure-outlook-client-blocking-exchange-2013-help).
 
-## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Proteger o Microsoft 365 como um cybersecurity pro
+## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Proteja o Microsoft 365 como um profissional de segurança cibernética
 
-Sua assinatura do Microsoft 365 vem com um conjunto poderoso de recursos de segurança que você pode usar para proteger seus dados e seus usuários. Use o [mapa de segurança da Microsoft 365-principais prioridades para os primeiros 30 dias, 90 dias e além](security-roadmap.md) de implementar as práticas recomendadas da Microsoft para proteger seu locatário do Microsoft 365.
+Sua assinatura do Microsoft 365 vem com um poderoso conjunto de recursos de segurança que você pode usar para proteger seus dados e seus usuários. Use o [roteiro de segurança do Microsoft 365: principais prioridades para os primeiros 30 dias, 90 dias e depois](security-roadmap.md) para implementar práticas recomendadas para proteger o seu locatário do Microsoft 365.
 
 - Tarefas a realizar nos primeiros 30 dias. Estas têm efeito imediato e baixo impacto para seus usuários.
 

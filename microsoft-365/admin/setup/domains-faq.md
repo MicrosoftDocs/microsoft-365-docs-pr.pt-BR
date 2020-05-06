@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: Saiba mais sobre domínios encontrando respostas para suas perguntas em perguntas frequentes.
 ms.custom: okr_smb
-ms.openlocfilehash: 81e67ee4b22ea0682d65ebc0e48a4b3564e79526
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 0b9b79c3cab74f4f809f0bd96ed5a51c17282ccd
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919476"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048156"
 ---
 # <a name="domains-faq"></a>Perguntas frequentes sobre domínios
 
@@ -366,7 +366,7 @@ Você pode continuar usando o domínio onmicrosoft.de inicial, mesmo depois de a
 
 ## <a name="how-do-i-verify-my-nonprofit-or-education-status"></a>Como verifico meu status de educação ou sem fins lucrativos?
 
-1. Selecione **Configurar** no [centro de administração](https://support.office.com/article/17d3ff3f-3601-466e-b5a1-482b31cfb791.aspx) para iniciar o assistente. (Certifique-se de entrar no Office 365 primeiro.) 
+1. Selecione **Configurar** no [centro de administração](https://docs.microsoft.com/microsoft-365/admin/admin-home) para iniciar o assistente. (Certifique-se de entrar no Office 365 primeiro.) 
     
 2. Para se tornar o administrador da sua escola, selecione a opção **se tornar um administrador** no Office 365. 
     

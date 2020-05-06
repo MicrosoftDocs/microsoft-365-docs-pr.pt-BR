@@ -1,5 +1,5 @@
 ---
-title: Proteger caixas de correio locais com o Exchange Online Protection
+title: Proteger a caixa de correio local-proteção do Exchange Online
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -18,13 +18,15 @@ search.appverid:
 ms.assetid: c5e95951-da67-4ec7-92c5-982abd477e69
 ms.collection:
 - M365-security-compliance
-description: Mesmo que você planeje hospedar algumas ou todas as suas caixas de correio no local, ainda poderá proteger as caixas de correio com o Exchange Online Protection (EOP). Para configurar conectores, sua conta deve ser um administrador global ou um administrador da empresa do Exchange (o grupo de funções Gerenciamento da organização). Para obter informações sobre como as permissões do Office 365 se relacionam às permissões do Exchange, consulte Atribuindo funções de administrador no Office 365 operado pela 21Vianet. Se todas as suas caixas de correio do Exchange estiverem no local, siga estas etapas para configurar o serviço EOP.
-ms.openlocfilehash: 5d60e762b46f6f6f9228fb21ea6450e015ed9d93
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Neste artigo, você aprenderá como proteger caixas de correio locais com o Exchange Online Protection (EOP)
+ms.openlocfilehash: bdfebf16d77f26f3e3bb2890bd4aa8ccfa12f27b
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634443"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033873"
 ---
 # <a name="protect-on-premises-mailboxes-with-exchange-online-protection"></a>Proteger caixas de correio locais com o Exchange Online Protection
 

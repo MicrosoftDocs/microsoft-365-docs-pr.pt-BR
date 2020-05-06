@@ -1,6 +1,6 @@
 ---
 title: O que há de novo no Office 365 proteção avançada contra ameaças
-description: Lista os novos recursos e funcionalidades do Office 365 ATP
+description: Saiba mais sobre os novos recursos e funcionalidades disponíveis na versão mais recente do Microsoft Office 365 ATP.
 keywords: o que há de novo no Office 365 ATP, GA, geralmente disponível, recursos, disponível, novo
 search.appverid: met150
 ms.service: O365-seccomp
@@ -15,12 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: b48f106e500673da0858aa4e190462dd3d01fad1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.date: 02/21/2020
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 4e6dfaa8a6a2a0157e9274c7b25dae6e7aed2395
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630816"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036579"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Novidades na ATP do Office 365
 

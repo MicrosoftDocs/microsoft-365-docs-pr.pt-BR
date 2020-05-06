@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: Saiba como atualizar seus endereços de cobrança para o Microsoft 365 for Business. Você também pode atualizar o endereço de email usado para receber notificações de cobrança.
 ms.custom: okr_SMB
-ms.openlocfilehash: 169dfd78ca39e91e065c3bea59242a9f205463d0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7edef65eb1cf45192188316b13acfd87eac5a490
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632714"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048020"
 ---
 # <a name="change-your-billing-addresses"></a>Alterar os endereços para cobrança
 
@@ -121,7 +121,7 @@ Se você estiver usando o Office 365 operado pela 21Vianet na China, confira [ex
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Encontre a assinatura que você deseja alterar. Na seção **configurações & ações** , selecione **Editar endereço de uso do serviço**.
 
@@ -170,6 +170,8 @@ Por padrão, as notificações de cobrança da sua organização são enviadas p
 ## <a name="change-the-alternate-email-address-for-another-admin"></a>Alterar o endereço de email alternativo para outro administrador
 
 Você também pode alterar o endereço de email alternativo de outros administradores globais e administradores de fatura na sua organização.
+
+::: moniker range="o365-worldwide"
   
 1. No Centro de Administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Notificações de cobrança</a>.
 

@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
-description: Use este artigo como guia para configurar seus recursos de proteção contra ameaças agora.
-ms.openlocfilehash: 0adf7bbb2637cc8a8d2918d951c1ccef51060b31
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba mais sobre a proteção contra ameaças do Office 365 e configure como usá-la para sua organização.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 7bdc7d619f3c48318572116fbc52647a0858ec5e
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634455"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033885"
 ---
 # <a name="protect-against-threats"></a>Proteção contra ameaças
 
@@ -31,7 +32,7 @@ O Microsoft 365 inclui vários recursos de proteção contra ameaças. Este é u
 > [!IMPORTANT]
 > **As configurações iniciais recomendadas são incluídas para cada tipo de política; no entanto, muitas opções estão disponíveis e você pode ajustar suas configurações para atender às necessidades específicas da sua organização**. Aguarde aproximadamente 30 minutos para que as políticas ou as alterações funcionem da mesma forma por meio do datacenter.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 ### <a name="subscriptions"></a>Assinaturas
 
@@ -55,7 +56,7 @@ Você deve receber uma função apropriada para configurar as políticas no [cen
 
 |Função ou grupo de funções|Onde saber mais|
 |---------|---------|
-|administrador global|[Sobre as funções de administrador do Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
+|administrador global|[Sobre as funções de administrador do Microsoft 365 ](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
 |Administrador de Segurança|[Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Gerenciamento de Organização do Exchange Online|[Permissões no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>e<br> [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
 |
