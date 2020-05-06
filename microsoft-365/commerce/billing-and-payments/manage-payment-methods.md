@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba como gerenciar seus métodos de pagamento no centro de administração do Microsoft 365.
-ms.openlocfilehash: 997b957bb28d32402e17eb855bc891ed07e5f27f
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: fb3efa7aa2e098462e8c323d1cd0038222862e7b
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894836"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045863"
 ---
 # <a name="manage-payment-methods"></a>Gerenciar métodos de pagamento
 
@@ -36,7 +36,7 @@ Ao comprar produtos ou serviços de negócios da Microsoft, você pode usar um m
 >
 > Você deve usar um método de pagamento emitido do mesmo país do seu locatário.
 
-## <a name="add-a-payment-method"></a>Adicionar um método de pagamento
+## <a name="add-a-payment-method"></a>Adicionar uma forma de pagamento
 
 A adição de um método de pagamento não associa nenhuma assinatura a ela. Para atribuir uma única assinatura ao método de pagamento, confira [alterar um método de pagamento para uma única assinatura](#change-a-payment-method-for-a-single-subscription). Para substituir todas as assinaturas que usam outra forma de pagamento com a nova, confira [substituir um método de pagamento](#replace-a-payment-method).
 
@@ -73,7 +73,7 @@ Para alterar a forma de pagamento de uma única assinatura, confira [alterar um 
 
 Você pode alterar o método de pagamento usado para pagar uma única assinatura.
 
-1. No centro de administração, vá para a página de serviços de **cobrança** > de<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
+1. No centro de administração, vá para a página **cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 2. Na guia **assinaturas** , selecione a assinatura que você deseja pagar com a método de pagamento alternativo. 
 3. Em **cobrança**, ao lado da forma de pagamento, selecione **Editar**.
 4. Ao lado de sua método de pagamento existente, selecione **alterar**.
@@ -108,7 +108,7 @@ Se um método de pagamento estiver anexado a qualquer assinatura ou perfil de co
 7. A nova forma de pagamento já está selecionada na lista suspensa. Selecione **Avançar**.
 8. Selecione **Excluir**.
 
-## <a name="troubleshoot-payment-methods"></a>Solucionar problemas de métodos de pagamento
+## <a name="troubleshoot-payment-methods"></a>Solucionar problemas de formas de pagamento
 
 |**Problema**|**Etapas de solução de problemas**|
 |:----------|:-----|

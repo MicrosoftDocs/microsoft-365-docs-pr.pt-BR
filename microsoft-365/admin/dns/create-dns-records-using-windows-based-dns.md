@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em DNS baseado em Windows para Microsoft.
-ms.openlocfilehash: 3207a319880a23b71a17e80f3e9e77398fa79ef0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1aaf81dddf27911ad3562bec6f56fb34c64fd37d
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631364"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048838"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>Criar registros DNS para a Microsoft usando DNS baseado no Windows
 
@@ -110,7 +110,7 @@ Adicione o registro CNAME Enterpriseenrollment do MDM.
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já tiver um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. 
   
 Adicione o registro TXT SPF do seu domínio ajudar a evitar spam de email.
   
@@ -200,7 +200,7 @@ Verifique seu domínio no Microsoft.
 ## <a name="non-routable-email-address-used-as-a-upn-in-your-on-prem-active-directory"></a>Endereço de email não roteável utilizado como um UPN no seu Active Directory local
 <a name="BKMK_ADNote"> </a>
 
-Se você estiver planejando sincronizar seu Active Directory local com a Microsoft, verifique se o sufixo UPN (nome principal de usuário) do Active Directory é um sufixo de domínio válido, e não um sufixo de domínio sem suporte, como @contoso. local. Se você precisar alterar seu sufixo UPN, consulte [como preparar um domínio não roteável para a sincronização de diretórios](https://support.office.com/article/e7968303-c234-46c4-b8b0-b5c93c6d57a7).
+Se você estiver planejando sincronizar seu Active Directory local com a Microsoft, verifique se o sufixo UPN (nome principal de usuário) do Active Directory é um sufixo de domínio válido, e não um sufixo de domínio sem suporte, como @contoso. local. Se você precisar alterar seu sufixo UPN, consulte [como preparar um domínio não roteável para a sincronização de diretórios](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization).
   
 > [!NOTE]
 >  Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 

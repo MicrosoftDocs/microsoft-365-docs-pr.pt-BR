@@ -14,15 +14,17 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-ms.custom: Ent_Solutions
+ms.custom:
+- Ent_Solutions
+- seo-marvel-apr2020
 ms.assetid: ''
-description: Use este tópico para saber mais sobre o gerenciamento de acesso privilegiado
-ms.openlocfilehash: 932e4d5574ac14c7dd76f8df70b61ed274acebbf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Este artigo fornece uma visão geral sobre o gerenciamento de acesso privilegiado no Microsoft 365, incluindo as respostas para perguntas frequentes.
+ms.openlocfilehash: eb5fe5320c061d40f0882f93b66afa3cad4fa0fa
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626497"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036034"
 ---
 # <a name="privileged-access-management"></a>Gerenciamento de acesso privilegiado
 

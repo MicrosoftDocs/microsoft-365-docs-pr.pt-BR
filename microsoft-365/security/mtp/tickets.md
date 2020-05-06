@@ -1,6 +1,6 @@
 ---
 title: Criar e acompanhar tíquetes por meio do ServiceNow
-description: A central de segurança do Microsoft 365 está sendo aprimorada com a capacidade de criar e controlar de forma nativa as permissões no ServiceNow. Os administradores de segurança podem enviar uma recomendação de Pontuação segura diretamente para o ServiceNow e criar uma permissão.
+description: Saiba como criar e acompanhar tíquetes no ServiceNow do centro de segurança do Microsoft 365.
 keywords: segurança, Microsoft 365, M365, Pontuação segura, central de segurança, ServiceNow, tíquetes, tarefas
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -17,12 +17,14 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: eb6af6b11d2d932f3bd2165aa3f597c14feb5ae8
-ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
+ms.custom:
+- seo-marvel-apr2020
+ms.openlocfilehash: 6070878d6cf0efd8a85d05ff6ef89ee49baf4144
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901017"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034183"
 ---
 # <a name="manage-tickets-through-servicenow"></a>Gerenciar tíquetes pelo ServiceNow
 

@@ -1,6 +1,6 @@
 ---
-title: Monitoramento de dados e relatórios no centro de segurança do Microsoft 365
-description: Descreve como você pode acompanhar a atividade do usuário que pode levar à divulgação de dados não autorizado.
+title: Relatórios de & de monitoramento de dados-central de segurança
+description: Saiba como você pode acompanhar a atividade do usuário que pode levar à divulgação de dados não autorizado no centro de segurança do Microsoft 365.
 keywords: segurança, malware, Microsoft 365, M365, central de segurança, monitor, relatório, dados
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -14,12 +14,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 271cd4d3379239073a6f16c5253fc26da87d8605
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f9bb0a7d0ce7def52089ec64a35edc5a2475b342
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637087"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034005"
 ---
 # <a name="data-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Monitoramento de dados e relatórios no centro de segurança do Microsoft 365
 

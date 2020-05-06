@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: Saiba como interpretar as informações sobre encargos, cobrança e pagamento na sua fatura do Microsoft 365 para empresas e como alterar o número da ordem de compra.
-ms.openlocfilehash: 392957ecf06c6200bca3daf205946f5b8fd1563a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5cb2f961fa11f25e160ddd978783c7744776307e
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634963"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045807"
 ---
 # <a name="understand-your-invoice-for-microsoft-365-for-business"></a>Entenda sua fatura para o Microsoft 365 for Business
 
@@ -66,7 +66,7 @@ A tabela a seguir descreve os campos exibidos na fatura. Alguns campos listados 
 > [!NOTE]
 > O pagamento por meio de conta bancária não está disponível em alguns países ou regiões.
   
-|**Nome**|**Descrição**|
+|**Name**|**Descrição**|
 |:-----|:-----|
 |Preço anual|As assinaturas são cobradas mensalmente ou anualmente. Se você escolher cobrança anual durante a compra da assinatura, o preço anual da licença será refletido na fatura. Caso pretenda alterar a frequência de cobrança, cancele a assinatura e compre-a novamente com a nova frequência de cobrança.|
 |Período de Cobrança|Um período de cobrança é o período de tempo decorrido desde a data da última fatura. Um Período de Serviço é o período de tempo durante o qual você é cobrado por usar o serviço.|
@@ -104,7 +104,7 @@ Se paga por fatura, você pode adicionar ou alterar o número da OC (ordem de co
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Se você estiver no modo de exibição de **tabela** , selecione **cartões** para alternar entre modos de exibição.
 

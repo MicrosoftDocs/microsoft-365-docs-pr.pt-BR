@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
 ms.collection:
 - M365-security-compliance
-description: Veja como a compreensão da inteligência de falsificação funciona na proteção avançada contra ameaças do Office 365.
-ms.openlocfilehash: 4ad3de8812e09b73018c02232e3e66e4bec9d041
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba como a nova compreensão de inteligência de falsificação funciona, incluindo como determinar rapidamente quais remetentes estão enviando legitimamente emails não autenticados.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 481d248b833c7910152cd39113ff32fdc1217a5a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630924"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033639"
 ---
 # <a name="walkthrough---atp-spoof-intelligence-insight-in-microsoft-365"></a>Walkthrough-visão geral da inteligência de fraudes ATP no Microsoft 365
 
@@ -34,15 +35,15 @@ Este passo a passo é um dos vários para o centro de conformidade de & de segur
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página do **painel** de segurança <https://protection.office.com/searchandinvestigation/dashboard>, use.
+- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página do **painel** de segurança <https://protection.office.com/searchandinvestigation/dashboard>, use.
 
   Você pode exibir a percepção de inteligência de falsificação de mais de um painel no centro de conformidade & segurança. Independentemente de qual painel você está vendo, a percepção fornece os mesmos detalhes e permite que você realize rapidamente as mesmas tarefas.
 
-- Você precisa receber permissões para executar esses procedimentos. Para usar o spoof Intelligence percepção, você precisa ser membro dos grupos de função de **Gerenciamento da organização**, administrador de **segurança**ou leitor de **segurança** . Para obter mais informações sobre grupos de função no centro de conformidade de & de segurança, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
+- Você precisa receber permissões para executar esses procedimentos. Para usar o spoof Intelligence percepção, você precisa ser membro dos grupos de função de **Gerenciamento da organização**, administrador de **segurança**ou leitor de **segurança** . Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
 - Você habilita e desabilita a inteligência de spoof em políticas anti-phishing da ATP. Para obter mais informações, consulte [Configure ATP anti-phishing Policies in Microsoft 365](configure-atp-anti-phishing-policies.md).
 
-- Nas organizações do Microsoft 365 com caixas de correio do Exchange Online e em proteção autônoma do Exchange Online (EOP) sem caixas de correio do Exchange Online, você pode usar a inteligência de spoof para monitorar e gerenciar remetentes que está enviando mensagens não autenticadas. Para obter mais informações, consulte [Configure spoof Intelligence in Microsoft 365](learn-about-spoof-intelligence.md).
+- Nas organizações do Microsoft 365 com caixas de correio do Exchange Online e em proteção autônoma do Exchange Online (EOP) sem caixas de correio do Exchange Online, você pode usar a inteligência de spoof para monitorar e gerenciar remetentes que está enviando mensagens não autenticadas. Para obter mais informações, contra [Configurar a inteligência contra falsificação no Microsoft 365](learn-about-spoof-intelligence.md).
 
 ## <a name="open-the-spoof-intelligence-insight-in-the-security--compliance-center"></a>Abrir a percepção de compreensão da falsificação no centro de conformidade & segurança
 

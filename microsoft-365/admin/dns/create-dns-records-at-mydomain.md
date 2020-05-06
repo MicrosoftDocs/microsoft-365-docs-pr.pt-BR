@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9982191d-ed79-46a9-b2e7-317d1a3a9867
 description: Aprenda a verificar seu domínio e a configurar registros DNS para emails, Skype for Business Online e outros serviços em Meu Domínio para Microsoft.
-ms.openlocfilehash: ea89fd64c7f3f87f59b7e71e1366372c442e254d
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: cc12729e10e651abc2eaa109c47c2a5fbfe5ea1e
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939174"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048970"
 ---
 # <a name="create-dns-records-at-mydomain-for-microsoft"></a>Criar registros DNS no Meu Domínio para Microsoft
 
@@ -34,7 +34,7 @@ ms.locfileid: "43939174"
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
   
 > [!CAUTION]
-> O site MyDomain não dá suporte a registros SRV, ou seja, vários recursos do Skype for Business Online e do Outlook Web App não funcionarão. Não importa qual plano da Microsoft você utiliza, se você gerenciar seus registros DNS no site Meu Domínio, haverá [limitações de serviço significativas](https://support.office.com/article/7ae9a655-041d-4724-aa92-60392ee390c2.aspx) e talvez você queira mudar para um provedor de hospedagem de DNS diferente. 
+> O site MyDomain não dá suporte a registros SRV, ou seja, vários recursos do Skype for Business Online e do Outlook Web App não funcionarão. Não importa qual plano da Microsoft você utiliza, se você gerenciar seus registros DNS no site Meu Domínio, haverá [limitações de serviço significativas](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) e talvez você queira mudar para um provedor de hospedagem de DNS diferente. 
   
 Se você quiser gerenciar seus próprios registros DNS da Microsoft na MyDomain apesar das limitações do serviço, siga as etapas deste artigo para configurar os registros DNS para email, Skype for Business Online e assim por diante.
     
@@ -108,7 +108,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Prioridade**|**Host**|**Aponta para:**|
     |:-----|:-----|:-----|
-    |0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) <br/> |@  <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha a sua \<*chave-de-domínio*\> através da sua conta Microsoft. > [Como localizo isso?](../get-help-with-domains/information-for-dns-records.md)          |
+    |0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |@  <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha a sua \<*chave-de-domínio*\> através da sua conta Microsoft. > [Como localizo isso?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![MyDomain-BP-Configure-2-2](../../media/3e19cec3-7f3b-493d-81f7-cda30ba007d5.png)
   
@@ -167,7 +167,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro SPF que inclua os dois conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro SPF que inclua os dois conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
   
 1. Para começar, vá até a sua página de domínios em MeuDomínio usando [este link](https://www.mydomain.com/controlpanel). Você será solicitado a fazer logon primeiro.
     
@@ -197,7 +197,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 <a name="BKMK_add_SRV"> </a>
 
 > [!CAUTION]
-> O site MyDomain não dá suporte a registros SRV, ou seja, vários recursos do Skype for Business Online e do Outlook Web App não funcionarão. Não importa qual plano da Microsoft você utiliza, se você gerenciar seus registros DNS no site Meu Domínio, haverá [limitações de serviço significativas](https://support.office.com/article/7ae9a655-041d-4724-aa92-60392ee390c2.aspx) e talvez você queira mudar para um provedor de hospedagem de DNS diferente. 
+> O site MyDomain não dá suporte a registros SRV, ou seja, vários recursos do Skype for Business Online e do Outlook Web App não funcionarão. Não importa qual plano da Microsoft você utiliza, se você gerenciar seus registros DNS no site Meu Domínio, haverá [limitações de serviço significativas](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) e talvez você queira mudar para um provedor de hospedagem de DNS diferente. 
   
 > [!NOTE]
 > Typically it takes about 15 minutes for DNS changes to take effect. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de e-mails ou de outro tipo após adicionar os registros DNS, consulte [Localizar e corrigir problemas ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 

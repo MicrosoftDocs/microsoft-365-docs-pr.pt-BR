@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: bf4274106ce1724785c3ac38204f753cd7788a63
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Use a ferramenta de gerenciamento de descoberta eletrônica avançada para acessar e Pesquisar facilmente a atividade em seus responsáveis.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 84da57c8f2115c18543d4f38fd84f2c4eccb46d5
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626337"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034293"
 ---
 # <a name="view-custodian-audit-activity"></a>Exibir atividade de auditoria de responsáveis
 
@@ -29,7 +30,7 @@ Precisa descobrir se um usuário visualizou um documento específico ou apagou u
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você precisa receber a função de logs de auditoria somente para exibição ou logs de auditoria no Exchange Online para pesquisar o log de auditoria. Por padrão, essas funções são atribuídas aos grupos de funções Gerenciamento de Conformidade e Gerenciamento de Organização na página Permissões do centro de administração do Exchange. Para permitir que um usuário pesquise o log de auditoria de descoberta eletrônica avançado com o nível mínimo de privilégios, você pode criar um grupo de função personalizado no Exchange Online, adicionar os logs de auditoria somente para exibição ou a função logs de auditoria e, em seguida, adicionar o usuário como membro do novo grupo de funções. Para saber mais, confira Gerenciar Grupos de Funções do Exchange Online.
+É preciso atribuir a função Logs de Auditoria Somente para Exibição ou Logs de Auditoria do Exchange Online para pesquisar o log de auditoria. Por padrão, essas funções são atribuídas aos grupos de funções Gerenciamento de Conformidade e Gerenciamento de Organização na página Permissões do centro de administração do Exchange. Para permitir que um usuário pesquise o log de auditoria de descoberta eletrônica avançado com o nível mínimo de privilégios, você pode criar um grupo de função personalizado no Exchange Online, adicionar os logs de auditoria somente para exibição ou a função logs de auditoria e, em seguida, adicionar o usuário como membro do novo grupo de funções. Para saber mais, confira Gerenciar Grupos de Funções do Exchange Online.
 
 > [!IMPORTANT]
 > Se você atribuir a um usuário a função logs de auditoria somente para exibição ou logs de auditoria na página permissões no centro de conformidade de & de segurança, elas não poderão pesquisar o log de auditoria. Você deve atribuir as permissões no Exchange Online. Isso ocorre porque o cmdlet subjacente usado para pesquisar o log de auditoria é um cmdlet Exchange Online.

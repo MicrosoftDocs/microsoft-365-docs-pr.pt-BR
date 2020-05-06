@@ -1,5 +1,5 @@
 ---
-title: Envios de administradores, envios, problemas de spam, falso negativo, enviar phishing, enviar email para verificação, email suspeito no Office 365, examinar um email, fazer com que a Microsoft examine o phishing, peça à Microsoft para spam, enviar emails, enviar emails, emails do dodgy, email de ator ruim, email suspeito e não confiável, relatar emails de Phish para a Microsoft, relatar emails de phishing para a Microsoft , relatar malware em email para a Microsoft, email de spam na caixa de entrada, vírus em email
+title: Envios do administrador no Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,13 +14,15 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
+ms.custom:
+- seo-marvel-apr2020
 description: Saiba como enviar emails suspeitos, emails de phishing, spam e outras mensagens, URLs e arquivos potencialmente nocivos da sua empresa para a Microsoft para verificação.
-ms.openlocfilehash: 73c33ba1218a710c33f8b2675bc65c0a7486efda
-ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
+ms.openlocfilehash: 79f200963655e5fb07a04b686c1dd8cc3bbd0873
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43921487"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034195"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de sensibilidade da estrutura da Proteção de Informações da Microsoft para classificar e proteger os dados da sua organização, garantindo que a produtividade do usuário e sua capacidade de colaborar não sejam prejudicadas. Esses rótulos podem aplicar configurações de proteção que incluem marcações visuais de criptografia, como rodapés e marcas d'água.
-ms.openlocfilehash: d31faa5dde212060f5e7b3c075cf4bc6fb3bef5f
-ms.sourcegitcommit: fa6a1e432747e150df945050a3744b4408ceb2d9
+ms.openlocfilehash: b09a107c6b03743eeaddf86e812cc747482d2eb4
+ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43957301"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44022149"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -138,20 +138,24 @@ Depois de criar seus rótulos de confidencialidade, você precisa publicá-los p
 
 Com uma política de rótulos, você pode:
 
-- **Escolha quais usuários e grupos verão os rótulos.** Os rótulos podem ser publicados em qualquer usuário específico ou grupo de segurança habilitado para email, grupo de distribuição ou grupo do Microsoft 365 (que podem ter [associação dinâmica](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule) no Azure AD.
+- **Escolha quais usuários e grupos verão os rótulos.** Os rótulos podem ser publicados para qualquer usuário específico ou grupo de segurança habilitado para email, grupo de distribuição ou grupo do Microsoft 365 (que podem ter [associação dinâmica](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)) no Azure AD.
 
-- **Aplicar um rótulo padrão** para todos os novos documentos e email criados pelos usuários e grupos incluídos na política de rótulo. Essa opção também se aplica a contêineres, se você tiver [ativado rótulos de confidencialidade para Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint](sensitivity-labels-teams-groups-sites.md). Os usuários sempre poderão alterar o rótulo padrão se ele não for o rótulo certo para o documento ou o e-mail. Considere usar um rótulo padrão para definir um nível de base de configurações de proteção que você deseja aplicar a todo o seu conteúdo. No entanto, sem o treinamento do usuário e outros controles, essa configuração também pode resultar em rotulagem inexata. 
+- **Aplicar um rótulo padrão** para todos os novos documentos e email criados pelos usuários e grupos incluídos na política de rótulo. Essa opção também se aplica a contêineres, se você tiver [ativado rótulos de confidencialidade para Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint](sensitivity-labels-teams-groups-sites.md). Os usuários sempre poderão alterar o rótulo padrão se ele não for o rótulo certo para o documento ou o e-mail. 
+    
+    Considere usar um rótulo padrão para definir um nível de base de configurações de proteção que você deseja aplicar a todo o seu conteúdo. No entanto, sem o treinamento do usuário e outros controles, essa configuração também pode resultar em rotulagem inexata. Geralmente, não é uma boa ideia selecionar um rótulo que aplica a criptografia como um rótulo padrão para documentos. Por exemplo, muitas organizações precisam enviar e compartilhar emails com usuários externos que podem não ter [aplicativos compatíveis com a criptografia](https://docs.microsoft.com/azure/information-protection/requirements-applications#rms-enlightened-applications) ou talvez não usem uma [conta que possa ser autorizada](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents#supported-scenarios-for-opening-protected-documents).
 
 - **Exigir uma justificativa para alterar um rótulo.** Se um usuário tentar remover um rótulo ou substituí-lo por um rótulo que tenha um número de pedido menor, você poderá solicitar que o usuário forneça uma justificativa para executar essa ação. Por exemplo, um usuário abre um documento rotulado como confidencial (número de pedido 3) e substitui esse rótulo por um denominado público (número 1). Atualmente, a justificativa não é enviada para a [análise de rótulo](label-analytics.md) para que o administrador examine. No entanto, o [Cliente de rotulagem unificado de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2) envia essas informações para a [Análise de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/reports-aip).
 
     ![Prompt no qual os usuários inserem uma justificativa](../media/Sensitivity-label-justification-required.png)
 
-- **Exigir que os usuários apliquem um rótulo a seus emails e documentos.** Também conhecido como rotulagem obrigatória, você pode exigir que um rótulo seja aplicado antes que os usuários possam salvar documentos e enviar emails. Use esta opção para ajudar a aumentar a cobertura de rótulo. O rótulo pode ser atribuído manualmente pelo usuário, automaticamente como resultado de uma condição configurada ou por padrão (a opção de rótulo padrão descrita acima). O prompt exibido no Outlook quando um usuário é solicitado a atribuir um rótulo:
+- **Exigir que os usuários apliquem um rótulo a seus emails e documentos.** Também conhecido como rotulagem obrigatória, você pode exigir que um rótulo seja aplicado antes que os usuários possam salvar documentos e enviar emails. O rótulo pode ser atribuído manualmente pelo usuário, automaticamente como resultado de uma condição configurada ou por padrão (a opção de rótulo padrão descrita acima). Um prompt de exemplo exibido no Outlook quando um usuário é solicitado a atribuir um rótulo:
 
     ![Prompt no Outlook pedindo ao usuário para aplicar o rótulo necessário](../media/sensitivity-labels-mandatory-prompt-aipv2-outlook.PNG)
     
     > [!NOTE]
-    > O rotulamento obrigatório exige uma assinatura de proteção de informações do Azure. Para usar esse recurso, você deve instalar o [Cliente de rotulagem unificado de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/install-unifiedlabelingclient-app). O cliente só é executado no Windows, portanto esse recurso ainda não é compatível com Mac, iOS e Android.
+    > Atualmente, a rotulagem obrigatória exige o [cliente de rotulagem unificada da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/install-unifiedlabelingclient-app). O cliente só é executado no Windows, portanto esse recurso ainda não é compatível com Mac, iOS e Android.
+    
+    Considere usar essa opção para ajudar a aumentar a cobertura de rótulos. No entanto, sem o treinamento do usuário, essa configuração pode resultar em rotulagem imprecisa. Além disso, a menos que você também defina um rótulo padrão, a rotulagem obrigatória poderá frustrar os usuários com os prompts frequentes. 
 
 - **Fornecer um link de ajuda para uma página de ajuda personalizada** Se os usuários não tiverem certeza do significado dos rótulos de sensibilidade ou de como devem ser usados, você pode fornecer um URL Saiba mais que aparece na parte inferior do menu do **Rótulo de sensibilidade** nos aplicativos do Office:
 
