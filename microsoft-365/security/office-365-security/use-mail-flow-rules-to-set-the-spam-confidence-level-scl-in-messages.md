@@ -15,13 +15,14 @@ search.appverid:
 ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
 ms.collection:
 - M365-security-compliance
-description: Os administradores podem aprender a definir o SCL de mensagens na proteção do Exchange Online.
-ms.openlocfilehash: cc75130d1e30b4cd64c32b1729c8145ad3088742
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba como criar regras de fluxo de emails (regras de transporte) para identificar mensagens e definir o nível de confiança de spam (SCL) das mensagens na proteção do Exchange Online.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 444a7f2a8342102c2222cc734b2592f46632f8d3
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636423"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035005"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>Usar regras de fluxo de emails para definir o SCL (nível de confiança de spam) em mensagens
 

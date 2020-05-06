@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 2666b1f4add1a55453162d1555e9b7e1f01eada7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Encontre informações sobre descrição, indexação, pesquisa, exportação e download de limites em investigações de dados (versão prévia).
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 95e779d56861e22f6fdab41442bb3e839329d193
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600768"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036328"
 ---
 # <a name="data-investigations-preview-limits"></a>Limites de investigações de dados (visualização)
 

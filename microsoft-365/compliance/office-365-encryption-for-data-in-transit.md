@@ -1,5 +1,5 @@
 ---
-title: Criptografia para dados em trânsito
+title: Criptografia de dados em trânsito
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -15,15 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 - Strat_O365_Enterprise
-description: Uma breve explicação sobre como a Microsoft criptografa dados em trânsito em seus data centers.
-ms.openlocfilehash: 645294522185a631012c1654fbad96ba0a21b33e
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+description: Neste artigo, encontre uma breve explicação de como a Microsoft criptografa os dados do cliente Microsoft 365 em trânsito.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 7ee869308549398a9df00ed42975b4aeedb666a4
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943300"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033599"
 ---
-# <a name="encryption-for-data-in-transit"></a>Criptografia para dados em trânsito
+# <a name="encryption-for-data-in-transit"></a>Criptografia de dados em trânsito
 
 Além de proteger os dados do cliente em repouso, a Microsoft usa tecnologias de criptografia para proteger os dados do cliente em trânsito. 
 

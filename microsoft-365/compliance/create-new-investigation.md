@@ -15,19 +15,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 007a7517cb0ea3c810d667cbfa88c0da1755b0d8
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Saiba como criar, configurar e salvar uma nova investigação em investigações de dados (visualização) no centro de conformidade da Microsoft 365.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 62166f1fb820c33e1e8981b31c5fc9a48e54390a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42077459"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035773"
 ---
 # <a name="create-a-new-investigation-in-data-investigations-preview"></a>Criar uma nova investigação em investigações de dados (prévia)
 
 1. Acesse [https://compliance.microsoft.com](https://compliance.microsoft.com).
     
-2. Entre usando sua conta corporativa ou de estudante.
+2. Entre usando sua conta de trabalho ou da escola.
     
 3. No centro de conformidade, clique em **investigações de dados**.
  

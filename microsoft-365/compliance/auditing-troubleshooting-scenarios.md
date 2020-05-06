@@ -15,13 +15,15 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-description: Você pode usar a ferramenta de pesquisa de log de auditoria para ajudá-lo a solucionar problemas comuns, como investigar uma conta comprometida, descobrir quem configurou o encaminhamento de email para uma caixa de correio ou determinar por que um usuário externo fez logon com êxito na sua organização.
-ms.openlocfilehash: 8eaff1fa3eea6a0fa60edcfd43f4f2aedb5a5ffc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como usar a ferramenta de pesquisa de log de auditoria do Office 365 para ajudar a solucionar problemas comuns de suporte para contas de email.
+ms.openlocfilehash: 64ddffab518fdf54dba1ffca87548a65037b8eb7
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636379"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034207"
 ---
 # <a name="search-the-audit-log-to-investigate-common-support-issues"></a>Pesquisar o log de auditoria para investigar problemas comuns de suporte
 
@@ -236,6 +238,6 @@ Estes são dois cenários de exemplo que resultaria em um **usuário bem-sucedid
 
     Além das atividades de **logon do usuário** , outros registros de auditoria podem ser retornados, por exemplo, que indicam um usuário na sua organização recursos compartilhados com o usuário externo e se o usuário externo acesso, modificou ou baixou um documento que foi compartilhado com eles.
 
-- Procure atividades de compartilhamento do SharePoint que informariam que um arquivo foi compartilhado com o usuário externo identificado por um registro **de auditoria conectado** por um usuário. Para obter mais informações, consulte [usar a auditoria de compartilhamento no log de auditoria](use-sharing-auditing.md).
+- Procure atividades de compartilhamento do SharePoint que informariam que um arquivo foi compartilhado com o usuário externo identificado por um registro **de auditoria conectado** por um usuário. Para saber mais, veja [Usar a auditoria de compartilhamento no log de auditoria](use-sharing-auditing.md).
 
 - Exporte os resultados de pesquisa de log de auditoria que contêm registros relevantes à sua investigação, para que você possa usar o Excel para pesquisar outras atividades relacionadas ao usuário externo. Para obter mais informações, consulte [exportar, configurar e exibir registros de log de auditoria](export-view-audit-log-records.md).

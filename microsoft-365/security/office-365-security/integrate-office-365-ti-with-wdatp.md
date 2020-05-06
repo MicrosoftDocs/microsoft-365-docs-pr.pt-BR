@@ -1,5 +1,5 @@
 ---
-title: Integrar a proteção avançada contra ameaças do Office 365 com a proteção avançada contra ameaças do Microsoft defender
+title: Integrar o ATP do Office 365 com o ATP do Microsoft Defender
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -17,12 +17,13 @@ ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 ms.collection:
 - M365-security-compliance
 description: Integre a proteção avançada contra ameaças do Office 365 com a proteção avançada contra ameaças do Microsoft defender para ver informações mais detalhadas sobre o gerenciamento de ameaças.
-ms.openlocfilehash: e416d70baf7498b0163d5bd8aa8e923585a5e5a4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 1574def6959bf63f061ff35bae71aed9657de436
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633804"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036360"
 ---
 # <a name="integrate-office-365-advanced-threat-protection-with-microsoft-defender-advanced-threat-protection"></a>Integrar a proteção avançada contra ameaças do Office 365 com a proteção avançada contra ameaças do Microsoft defender
 
@@ -34,7 +35,7 @@ A imagem a seguir mostra a guia **dispositivos** que você verá quando tiver a 
   
 Neste exemplo, você pode ver que os destinatários da mensagem de email têm quatro dispositivos e um tem um alerta. Clicar no link de um dispositivo abre sua página na central de segurança do Microsoft defender.
   
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 - Sua organização deve ter o Office 365 ATP Plan 2 (ou o Office 365 E5) e o Microsoft defender ATP.
     

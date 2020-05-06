@@ -17,13 +17,14 @@ search.appverid:
 ms.assetid: 2bb4e7c0-5f7f-4144-b647-cc6a956aaa53
 ms.collection:
 - M365-security-compliance
-description: Saiba mais sobre os alertas que você pode definir para ajudar com a segurança no Office 365.
-ms.openlocfilehash: 24e36b6867600985a9ca0f9cb3cbafc5a8c6029e
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+description: Saiba mais sobre como usar os recursos de alerta no centro de conformidade & segurança do Office 365 para exibir e gerenciar alertas, incluindo o gerenciamento de alertas avançados.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 8b0c2d89f7f91e1dfcae644663c43bc6e8640f37
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943550"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033769"
 ---
 # <a name="alerts-in-the-security-amp-compliance-center"></a>Alertas no centro de &amp; conformidade de segurança
 

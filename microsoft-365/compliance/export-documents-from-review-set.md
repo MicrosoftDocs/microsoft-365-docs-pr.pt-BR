@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 9a732258e787de3407731f0fdfc98ed07653df71
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Saiba como selecionar e exportar ou baixar o conteúdo de um conjunto de revisão para apresentações ou revisões externas.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 29c2224a1ce0a92bca3b2057352f6f82fdc7afde
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074348"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034089"
 ---
 # <a name="export-documents-from-a-review-set"></a>Exportar documentos de um conjunto de revisão
 

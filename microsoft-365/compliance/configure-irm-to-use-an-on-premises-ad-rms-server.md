@@ -15,13 +15,14 @@ search.appverid:
 ms.assetid: 3ecde857-4b7c-451d-b4aa-9eeffc8a8c61
 ms.collection:
 - M365-security-compliance
-description: Este tópico mostra como configurar o IRM para usar um servidor AD RMS.
-ms.openlocfilehash: d9d1dee8ca0992f1e2f9cb344baba4f245d3ca37
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Saiba como configurar o IRM (gerenciamento de direitos de informação) no Exchange Online para usar um servidor do Active Directory Rights Management Service (AD RMS).
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 510dc7ea628a46bc5bedfc04ba3b197407d5d67d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078489"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033691"
 ---
 # <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>Configurar o IRM para usar um servidor RMS do AD local
   

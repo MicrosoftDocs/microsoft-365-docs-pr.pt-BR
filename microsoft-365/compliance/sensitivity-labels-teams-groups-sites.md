@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: ac4e95c8356149ce9e5c719837820f84332d2a80
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: ff99489d933ee932c79fee8c655a46268eb8a6a4
+ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804845"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44022139"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites-public-preview"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint (visualização pública)
 
@@ -81,7 +81,7 @@ Nesta nova página **Configurações de site e grupo**, defina as configuraçõe
 
 - **Privacidade dos sites de equipes conectadas ao grupo do Office 365**: A configuração padrão de **Nenhum - permite que o usuário escolha quem pode acessar o site** está sendo implementado no momento para os locatários. Mantenha essa configuração padrão quando desejar proteger o conteúdo no contêiner usando o rótulo de confidencialidade, mas ainda permita que os usuários configurem eles mesmos a privacidade.
     
-    Selecione **Pública** ou**Privada** para definir e bloquear a configuração de privacidade quando você aplicar esse rótulo ao contêiner. Escolha **Pública** se desejar que alguém da sua organização acesse o site de equipe ou grupo no qual esse rótulo é aplicado ou **Privada** se desejar que o acesso seja restrito apenas a membros aprovados em sua organização. 
+    Selecione **Pública** ou **Privada** para definir e bloquear a configuração de privacidade quando você aplicar esse rótulo ao contêiner. Escolha **Pública** se desejar que alguém da sua organização acesse o site de equipe ou grupo no qual esse rótulo é aplicado ou **Privada** se desejar que o acesso seja restrito apenas a membros aprovados em sua organização. 
     
     A configuração **Pública** ou **Privada** substitui qualquer configuração de privacidade anterior que possa ser definida para a equipe ou grupo e bloqueia o valor da privacidade, para que ele possa ser alterado apenas removendo primeiramente o rótulo de confidencialidade do contêiner. Depois de remover o rótulo de confidencialidade, a configuração de privacidade do rótulo permanece e os usuários agora podem alterá-lo novamente.
 
@@ -330,15 +330,17 @@ Embora você não possa impedir que os usuários criem novos grupos em aplicativ
 
 Se alguém enviar um documento para um site protegido por um rótulo de confidencialidade e o documento tiver um rótulo de confidencialidade com [prioridade mais alta](sensitivity-labels.md#label-priority-order-matters) que o rótulo de confidencialidade aplicado ao site, essa ação não será bloqueada. Por exemplo, você aplicou o rótulo **Geral** a um site do SharePoint e alguém carrega neste site um documento chamado **Confidencial**. Como um rótulo de confidencialidade com prioridade mais alta identifica o conteúdo que é mais confidencial do que o conteúdo com ordem de prioridade mais baixa, essa situação pode ser um problema de segurança.
 
-Embora a ação não seja bloqueada, ela é auditada, para que você possa identificar documentos com esse desalinhamento da prioridade do rótulo e tomar medidas, se necessário. Por exemplo, excluir ou mover o documento carregado do site. 
+Embora a ação não seja bloqueada, ela é auditada e gera automaticamente um email para a pessoa que carregou o documento e para o administrador do site. Como resultado, tanto o usuário como os administradores podem identificar documentos que tenham esse desalinhamento da prioridade do rótulo e tomar medidas, se necessário. Por exemplo, excluir ou mover o documento carregado do site. 
 
-Não seria um problema de segurança se o documento tivesse um rótulo de confidencialidade de prioridade mais baixa que o rótulo de confidencialidade aplicado ao site. Por exemplo, um documento chamado **Geral** é carregado em um site chamado **Confidencial**. Neste cenário, um evento de auditoria não é gerado.
+Não seria um problema de segurança se o documento tivesse um rótulo de confidencialidade de prioridade mais baixa que o rótulo de confidencialidade aplicado ao site. Por exemplo, um documento chamado **Geral** é carregado em um site chamado **Confidencial**. Neste cenário, um evento de auditoria e email não são gerados.
 
 Para pesquisar o log de auditoria para esse evento, procure por **Incompatibilidade de confidencialidade em documento detectada** na categoria **Atividades de arquivo e página**. 
 
-Quando alguém adiciona ou remove um rótulo de confidencialidade para ou de um site ou grupo, essas atividades também são auditadas. Esses eventos podem ser encontrados na categoria [Atividades de rótulo de confidencialidade](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities). 
+O email gerado automaticamente tem o assunto **Rótulo de confidencialidade incompatível detectado** e a mensagem do email explica a incompatibilidade de rótulo com um link para o documento e o site carregados. Ele também contém um link de documentação que explica como os usuários podem alterar o rótulo de confidencialidade. Atualmente, não é possível desabilitar ou personalizar esses emails.
 
-Para obter instruções sobre como pesquisar o log de auditoria, confira [Pesquisar o log de auditoria no Centro de Conformidade e Segurança](search-the-audit-log-in-security-and-compliance.md).
+Quando alguém adiciona ou remove um rótulo de confidencialidade para ou de um site ou grupo, essas atividades também são auditadas, mas não geram um email automático. 
+
+Todos esses eventos podem ser encontrados na categoria [Atividades de rótulo de confidencialidade](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities). Para obter instruções sobre como pesquisar o log de auditoria, confira [Pesquisar o log de auditoria no Centro de Conformidade e Segurança](search-the-audit-log-in-security-and-compliance.md).
 
 ## <a name="troubleshoot-sensitivity-label-deployment"></a>Solucionar problemas de implantação de rótulo de confidencialidade
 

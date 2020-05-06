@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 9eef3b38ceef7efc42e1f66c45069f51a0a95d45
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba como usar o recurso de importação de conteúdo não-Office 365 para carregar documentos que não sejam do Office 365 em evidências em uma investigação de dados.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 499b1074b9a1e2026804eab2ac958fe7392e98ea
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632626"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034409"
 ---
 # <a name="load-non-microsoft-365-data-into-evidence"></a>Carregar dados que não sejam da Microsoft 365 em evidências
 

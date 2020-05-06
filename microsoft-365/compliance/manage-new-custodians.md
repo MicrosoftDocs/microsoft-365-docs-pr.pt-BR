@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Gerencie os responsáveis em um caso de descoberta eletrônica avançada.
-ms.openlocfilehash: b497aef50c2bafd58e3b9cf8643a1ecc038520a4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba como exibir detalhes, editar e em massa editar a lista de responsáveis em uma ocorrência de descoberta eletrônica avançada.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 895383f72259fa5e46a46df35925bcc73f62e3a5
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635891"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034173"
 ---
 # <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>Gerenciar os responsáveis em uma ocorrência de descoberta eletrônica avançada
 
@@ -126,9 +127,9 @@ Para liberar um responsáveis:
 
 1. Vá para **descoberta eletrônica > descoberta eletrônica avançada** e abra o caso.
 
-2.  Vá para a guia **responsáveis** .
+2.    Vá para a guia **responsáveis** .
 
-3.  Clique na **guia responsáveis**e selecione os responsáveis que estão sendo liberados do caso.
+3.    Clique na **guia responsáveis**e selecione os responsáveis que estão sendo liberados do caso.
 
 4. Na página do menu suspenso, clique em **liberar responsáveis**.
 

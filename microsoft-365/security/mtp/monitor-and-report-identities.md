@@ -1,5 +1,5 @@
 ---
-title: Monitoramento e relatórios de identidade no centro de segurança do Microsoft 365
+title: Monitoramento de identidade e relatório-central de segurança
 description: Descreve como você pode monitorar os usuários em sua organização e controlar comportamentos suspeitos ou arriscados.
 keywords: segurança, malware, Microsoft 365, M365, central de segurança, monitor, relatório, identidade, usuários
 ms.prod: microsoft-365-enterprise
@@ -14,19 +14,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 2a84cc9c275db1579dfab5050672faf2463698e6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6e884e6fc67670f25e48747324c15b158cc5c284
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084961"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034029"
 ---
 # <a name="identity-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Monitoramento e relatórios de identidade no centro de segurança do Microsoft 365
 
 Você pode monitorar as identidades em sua organização e acompanhar os comportamentos suspeitos ou arriscados. Na categoria **identidades** de **relatórios**, você pode controlar:
 
-* Usuários com as anomalias mais detectadas
-* Quantos usuários são relatados em risco por políticas de acesso condicional
+* Os usuários com as anomalias mais detectadas
+* Quantos usuários são relatados sob risco por políticas de acesso condicional
 * O número de administradores globais em sua organização
 
 ![Categoria identidades da página relatórios](../../media/identities.png)
