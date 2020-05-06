@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Saiba como adicionar convidados a um grupo do Microsoft 365, exibir usuários convidados e usar o PowerShell para controlar o acesso de convidados.
-ms.openlocfilehash: cca1d3dff4d95f5b15b9f18d5eeebcf054e52fe3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1b315ac89936aaa69072959031733fef4e0a5c1a
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630062"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049186"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Gerenciar o acesso de convidados nos grupos do Microsoft 365
 
@@ -33,7 +33,7 @@ Quando ele está ativado, os membros do grupo podem convidar usuários convidado
 
 > [!Note]
 > As redes corporativas do Yammer que estão no modo nativo ou na [Geografia da UE](https://go.microsoft.com/fwlink/?linkid=2107357) não dão suporte a convidados de rede.
-> Os grupos do Yammer conectados ao Microsoft 365 atualmente não dão suporte ao acesso de convidados, mas você pode criar grupos externos não conectados na sua rede do Yammer. Veja [criar e gerenciar grupos externos no Yammer](https://support.office.com/article/9ccd15ce-0efc-4dc1-81bc-4a424ab6f92a.aspx) para obter instruções.
+> Os grupos do Yammer conectados ao Microsoft 365 atualmente não dão suporte ao acesso de convidados, mas você pode criar grupos externos não conectados na sua rede do Yammer. Veja [criar e gerenciar grupos externos no Yammer](https://docs.microsoft.com/yammer/work-with-external-users/create-and-manage-external-groups) para obter instruções.
 
 ### <a name="edit-guest-information"></a>Editar informações de convidados
 

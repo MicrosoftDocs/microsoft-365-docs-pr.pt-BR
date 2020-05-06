@@ -20,12 +20,12 @@ search.appverid:
 description: O centro de administração do Microsoft 365-Aprenda sobre os recursos que foram adicionados este mês.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 2b25e68fbe07b46243f92bdcd252e86340d5f7eb
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: afb18a9e9a249459665781bb1105397684f04653
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011322"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045947"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>O que há de novo no centro de administração do Microsoft 365
 
@@ -176,7 +176,7 @@ Estamos combinando notícias de novembro e de dezembro porque, após o Ignite, t
 
 ### <a name="change-from-credit-card-to-invoice-payment"></a>Alterar do cartão de crédito para o pagamento da fatura
 
-Começamos a distribuir a capacidade de alterar sua forma de pagamento do cartão de crédito para uma fatura. Vá até produtos de **cobrança** \> **& serviços**, selecione uma assinatura e, em seguida, selecione o link **Editar** ao lado do pagamento do cartão de crédito.
+Começamos a distribuir a capacidade de alterar sua forma de pagamento do cartão de crédito para uma fatura. Vá para **cobrança** \> **de seus produtos**, selecione uma assinatura e, em seguida, selecione o link **Editar** ao lado do pagamento do cartão de crédito.
 
 ![Captura de tela: seção de cobrança do cartão de assinatura com um cartão de crédito como método de pagamento.](../media/MAC-BillingEditCreditCard.png)
 
@@ -244,7 +244,7 @@ A integridade do serviço foi atualizada para o novo estilo e, se você for afet
 
 ### <a name="viral-subscriptions"></a>Assinaturas "viral"
 
-Como você sabe, os usuários podem ativar assinaturas gratuitas para uma infinidade de produtos como o Power BI e o app Connect. Agora você pode ver as "assinaturas viral" que os usuários tentaram. Vá até produtos de **cobrança** > **& serviços**. Selecione o filtro de **tipo de conta** na guia assinaturas para ver as assinaturas adquiridas pelo usuário. Se necessário, agora você tem a capacidade de remover essas assinaturas da sua conta.
+Como você sabe, os usuários podem ativar assinaturas gratuitas para uma infinidade de produtos como o Power BI e o app Connect. Agora você pode ver as "assinaturas viral" que os usuários tentaram. Vá para **cobrança** > **de seus produtos**. Selecione o filtro de **tipo de conta** na guia assinaturas para ver as assinaturas adquiridas pelo usuário. Se necessário, agora você tem a capacidade de remover essas assinaturas da sua conta.
 
 ### <a name="user-templates"></a>Modelos do usuário
 
@@ -289,7 +289,7 @@ Há uma atualização para outro dos nossos assistentes de instalação inicial:
 
 Temos algumas atualizações para cobrança e assinaturas neste mês:
 
-- Assinaturas baseadas em dispositivo: você pode atribuir ou cancelar a atribuição **de licenças do microsoft 365 Apps for Education (Device)** a dispositivos no centro de administração do Microsoft 365. **O Microsoft 365 Apps for Education (dispositivo)** é uma licença complementar que lhe permitirá atribuir uma licença a um dispositivo. Vá até produtos de **cobrança** > **& serviços** para encontrar e adquirir a licença.
+- Assinaturas baseadas em dispositivo: você pode atribuir ou cancelar a atribuição **de licenças do microsoft 365 Apps for Education (Device)** a dispositivos no centro de administração do Microsoft 365. **O Microsoft 365 Apps for Education (dispositivo)** é uma licença complementar que lhe permitirá atribuir uma licença a um dispositivo. Vá para **cobrança** > de**seus produtos** para encontrar e comprar a licença.
 - Gerenciamento de licença baseado em usuário: atualizamos o modo como você atribui licenças aos usuários**ativos** de **usuários** > para o novo estilo. Para saber mais, confira:
   - [Atribuir licenças a usuários](manage/assign-licenses-to-users.md)
   - [Cancelar licenças de usuários](manage/remove-licenses-from-users.md)
@@ -333,7 +333,7 @@ Temos algumas alterações empolgantes para ajudá-lo a configurar sua organiza�
 
 ### <a name="billing--subscriptions"></a>Cobrança & assinaturas
 
-- Tipo de produto de **software** – agora você pode exibir produtos de software adquiridos por meio de um provedor de serviços de nuvem (CSP). Para ver seus downloads e chaves, acesse produtos de **cobrança** > **&** > guia**software** de serviços.
+- Tipo de produto de **software** – agora você pode exibir produtos de software adquiridos por meio de um provedor de serviços de nuvem (CSP). Para ver seus downloads e chaves, vá para **cobrança** > da guia**software** **de produtos** > .
 - Você pode exibir os produtos e serviços modernos do Azure no centro de administração do Microsoft 365, se você os comprou da Microsoft ou de um provedor de terceiros. Exemplos de produtos modernos do Azure incluídos:
   - Instâncias virtuais do Azure reservadas
   - Planos de suporte do Azure
@@ -431,7 +431,7 @@ Fizemos mais algumas alterações no **Gerenciamento de usuários**, aqui está 
 - Há uma Bonanza de alterações de **cobrança** neste mês...
   - Agora você pode atualizar o CVV para cartões de crédito existentes sem precisar excluí-lo e adicioná-lo novamente. Você pode atualizar o CVV indo até **Bills** > **Payment Methods**.
     - Tornamos mais fácil localizar suas **faturas** e compreender qualquer problema de cobrança que sua conta pode estar tendo. E agora você pode ver suas listas no navegador da Web em vez de precisar baixar o PDF. Vá para > **faturas** **de faturas**.
-    - Na página **produtos & serviços** , agora agregamos suas informações de assinatura se você tiver várias assinaturas do mesmo tipo.
+    - Na página **seus produtos** , agora agregamos suas informações de assinatura se você tiver várias assinaturas do mesmo tipo.
 
 ## <a name="march-2019---weve-officially-released-the-admin-center"></a>Março de 2019 – lançamos oficialmente o centro de administração
 

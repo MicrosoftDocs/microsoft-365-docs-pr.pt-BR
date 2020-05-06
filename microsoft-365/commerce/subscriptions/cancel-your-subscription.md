@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Saiba como cancelar sua assinatura de avaliação do Microsoft 365 for Business ou pago.
-ms.openlocfilehash: 56ffeae38b3cba94efacbb52bf2d9beb9af90ebb
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: c12b574d29b50432cdb480dca711588ad1f0df32
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708078"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046199"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
@@ -43,7 +43,7 @@ Se você adicionou seu próprio nome de domínio para usar com sua assinatura, v
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Encontre a assinatura que você deseja cancelar e, em **configurações & ações**, selecione **cancelar assinatura**.
 

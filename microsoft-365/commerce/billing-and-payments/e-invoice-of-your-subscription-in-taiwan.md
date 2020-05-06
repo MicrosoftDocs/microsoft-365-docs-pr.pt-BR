@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 66315e5b-883a-432b-8650-d896f95af228
 ROBOTS: NOINDEX
 description: Saiba mais sobre o Microsoft 365 for Business e-fatura para Taiwan.
-ms.openlocfilehash: 4603d9f39a4421b6711d056d0646981732353c5c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0b57ce0cb6b30b4c9dcd37c3b6931a3389b50b68
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632702"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045875"
 ---
 # <a name="understand-your-e-invoice-for-microsoft-365-for-business-taiwan"></a>Entender sua fatura eletrônica para o Microsoft 365 for Business (Taiwan)
 
@@ -55,7 +55,7 @@ No momento da criação da conta, na **etapa 1**, bem-vindo, vamos conhecer voc�
   
 Depois de criar sua conta, você pode atualizar seu ID de IVA por meio do seu centro de administração seguindo estas etapas:
   
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
     
 2. Selecione uma assinatura e, em seguida, selecione **mais ações**.
     

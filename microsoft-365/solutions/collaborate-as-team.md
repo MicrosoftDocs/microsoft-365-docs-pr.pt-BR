@@ -11,15 +11,16 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - M365solutions
+- seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
-description: Saiba como colaborar com convidados no Microsoft Teams.
-ms.openlocfilehash: 7d840628ce6d987a907e8be2c8a3c3c5125f7d33
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+description: Saiba mais sobre as etapas de configuração do 365 da Microsoft necessárias para configurar uma equipe para colaboração com convidados no Microsoft Teams.
+ms.openlocfilehash: bf074d9115d8e5d9e2c7c265ee96e493ac3d59e3
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002187"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036002"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Colaborar com convidados em uma equipe
 
@@ -177,6 +178,6 @@ Para convidar convidados para uma equipe
 
 [Limitar a exposição acidental dos arquivos ao compartilhar com convidados](share-limit-accidental-exposure.md)
 
-[Criar um ambiente seguro de compartilhamento para convidados](create-secure-guest-sharing-environment.md)
+[Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
 
 [Crie uma extranet B2B com convidados gerenciados](b2b-extranet.md)

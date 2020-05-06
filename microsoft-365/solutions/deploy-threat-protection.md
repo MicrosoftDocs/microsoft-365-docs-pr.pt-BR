@@ -1,6 +1,6 @@
 ---
 title: Implantar recursos de proteção contra ameaças no Microsoft 365
-description: Saiba como implantar recursos de proteção contra ameaças no Microsoft 365 e5.
+description: Saiba como implantar serviços e recursos de proteção contra ameaças no Microsoft 365 e5.
 ms.author: bcarter
 author: brendacarter
 manager: dansimp
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-ms.openlocfilehash: ff6854636c13e6c1ea40cf4cc6fa39d7b2b340b4
-ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
+ms.openlocfilehash: 81b069bb5c316bea211bee98c293f2d1fcdd2422
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44016091"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046257"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Implantar recursos de proteção contra ameaças no Microsoft 365
 
@@ -48,7 +48,16 @@ A ilustração a seguir mostra um caminho recomendado para implantar esses recur
 
 ![Sinais de proteção contra ameaças do M365](../media/solutions-architecture-center/deploy-threat-protection-across-m365.png)
 
-As organizações com várias equipes de segurança podem implementar esses recursos em paralelo.
+|Soluções/recursos  |Descrição  |
+|---------|---------|
+|Autenticação multifatorial e acesso condicional     |Proteger contra identidades e dispositivos comprometidos. Comece com esta proteção porque é fundamental. A configuração recomendada neste guia inclui a proteção de identidade do Azure AD como pré-requisito.     |
+|Proteção Avançada contra Ameaças do Azure     |  Uma solução de segurança baseada em nuvem que aproveita seus sinais do Active Directory local para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações mal-intencionadas intencionais direcionadas para sua organização. Concentre-se nesse próximo porque ele protege sua infraestrutura local e de nuvem, não tem dependências ou pré-requisitos e pode fornecer benefícios imediatos.       | 
+|Proteção Avançada contra Ameaças do Office 365     | Protege sua organização contra ameaças mal-intencionadas, feitas por mensagens de email, links (URLs) e ferramentas de colaboração. Proteções para malware, phishing, falsificação e outros tipos de ataque. Isso é recomendável, pois o controle de alterações, a migração das configurações do sistema responsável e outras considerações podem levar mais tempo para ser implantado. <br><br>Observação: você também configura os recursos de proteção contra ameaças incluídos em todas as assinaturas do Office 365 (proteção do Exchange Online).       |
+|Proteção avançada contra ameaças do Microsoft Defender    | Uma plataforma do Endpoint Protection que ajuda a impedir, detectar, investigar e responder a ameaças avançadas. Isso leva mais tempo para implantar, mas pode ser feito em paralelo com outros recursos se outros administradores forem responsáveis.   |
+|Microsoft Cloud App Security     |   Um agente de segurança de acesso à nuvem para descoberta, investigação e governança. Você pode habilitar este cedo para começar a coletar dados e insights. Implementar informações e outras proteções direcionadas em seus aplicativos SaaS envolve o planejamento e pode levar mais tempo.       | 
+
+> [!TIP]
+> As organizações com várias equipes de segurança podem implementar esses recursos em paralelo.
 
 ## <a name="deploy-your-threat-protection-solution"></a>Implantar sua solução de proteção contra ameaças
 

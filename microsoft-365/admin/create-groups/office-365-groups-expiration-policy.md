@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as políticas de expiração de grupos do Microsoft 365.
-ms.openlocfilehash: be61c66b310ada07876c5b3b005e6a7eb660092d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 82938caf083cd5b5fa330fd047686ae6a8b5300d
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630050"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049174"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Política de expiração de grupo do Microsoft 365
 
@@ -77,12 +77,12 @@ Os proprietários do grupo serão notificados somente por email. Se o grupo foi 
 
 30 dias antes do vencimento do grupo, os proprietários do grupo (ou os endereços de email que você especificou para os grupos que não têm um proprietário) receberão um email, permitindo que eles renovem facilmente o grupo. Se ele não renová-lo, receberá outra renovação de email 15 dias antes da expiração. Se eles ainda não foram renovados, receberão uma notificação por email o dia antes da expiração.
 
-Se, por algum motivo, nenhum dos proprietários ou administradores renovar o grupo antes de expirar, o administrador ainda poderá restaurar o grupo por até 30 dias após a expiração. Para obter detalhes, consulte: [restaurar um grupo do Microsoft 365 excluído](https://support.office.com/article/restore-a-deleted-office-365-group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54).
+Se, por algum motivo, nenhum dos proprietários ou administradores renovar o grupo antes de expirar, o administrador ainda poderá restaurar o grupo por até 30 dias após a expiração. Para obter detalhes, consulte: [restaurar um grupo do Microsoft 365 excluído](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Visão geral de políticas de retenção](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423)
+[Visão geral de políticas de retenção](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)
 
-[Atribuir um novo proprietário a um grupo órfão](https://support.office.com/article/86bb3db6-8857-45d1-95c8-f6d540e45732)
+[Atribuir um novo proprietário a um grupo órfão](https://support.microsoft.com/en-us/office/assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)
 
 [Configurar a validade de grupos do Microsoft 365](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal) '

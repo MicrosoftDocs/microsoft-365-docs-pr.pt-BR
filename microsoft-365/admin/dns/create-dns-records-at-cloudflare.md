@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em cloudflare para a Microsoft.
-ms.openlocfilehash: 116132d096db61e7004315dcf159fc78dd790d43
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: 36578d8eed2c5630a9ce5abfb355983a26028888
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939314"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049066"
 ---
 # <a name="create-dns-records-at-cloudflare-for-microsoft"></a>Criar registros DNS no cloudflare para Microsoft
 
@@ -87,7 +87,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
     |**Tipo**|**Nome**|**TTL automático**|**Conteúdo**|
     |:-----|:-----|:-----|:----|
-    |TXT  <br/> |@  <br/> |30 minutos  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)    |
+    |TXT  <br/> |@  <br/> |30 minutos  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)    |
   
     
 5. Selecione **Salvar**.
@@ -131,7 +131,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Tipo**|**Nome**|**Servidor de email**|**Prioridade**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |@  <br/> |*\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta do Microsoft 365.   [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md) |1  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) <br/>|30 minutos  <br/> |
+    |MX  <br/> |@  <br/> |*\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta do Microsoft 365.   [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md) |1  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/>|30 minutos  <br/> |
    
 
   
@@ -175,7 +175,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 7. Adicione cada um dos outros cinco registros CNAME.
 
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -193,7 +193,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Tipo**|**Nome**|**TTL**|**Conteúdo**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |@  <br/> |30 minutos  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.   |
+    |TXT  <br/> |@  <br/> |30 minutos  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.   |
 
  
 5. Selecione **Salvar**.

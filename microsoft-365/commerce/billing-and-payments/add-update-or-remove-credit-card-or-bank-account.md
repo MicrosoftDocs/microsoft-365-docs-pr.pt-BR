@@ -1,5 +1,5 @@
 ---
-title: Adicionar, atualizar ou remover seus métodos de pagamento
+title: Adicionar, atualizar ou remover formas de pagamento
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -24,17 +24,17 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Saiba como gerenciar seus métodos de pagamento no centro de administração do Microsoft 365.
-ms.openlocfilehash: be03d4b779c0592d47b23c4cf1fd491b7c8f455e
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: b15381ee4eba7c1a91e108743fc326c890ab1820
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106043"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045923"
 ---
-# <a name="add-update-or-remove-your-payment-methods"></a>Adicionar, atualizar ou remover seus métodos de pagamento
+# <a name="add-update-or-remove-your-payment-methods"></a>Adicionar, atualizar ou remover formas de pagamento
 
 ::: moniker range="o365-worldwide"
-Você pode comprar produtos e serviços da Microsoft com um cartão de crédito ou débito ou uma conta bancária. Você pode inserir suas informações de pagamento na página **métodos de pagamento** ou quando fizer uma compra.
+Você pode comprar produtos e serviços da Microsoft com um cartão de crédito ou débito ou uma conta bancária. Você pode inserir suas informações de pagamento na página de **Formas de pagamento**, ou quando faz uma compra.
 
 Você só pode gerenciar os métodos de pagamento que você adicionou.
 
@@ -45,14 +45,14 @@ Você só pode gerenciar os métodos de pagamento que você adicionou.
 
 **A interface que você vê não corresponde à descrita neste artigo?** Em caso afirmativo, consulte [Manage Payment Methods](manage-payment-methods.md).
 
-## <a name="add-a-payment-method"></a>Adicionar um método de pagamento
+## <a name="add-a-payment-method"></a>Adicionar uma forma de pagamento
 
 1. No centro de administração, vá **para a página** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">métodos de pagamento</a> de faturas **& pagamentos** > .
 2. Selecione **Adicionar um método de pagamento**.
 3. Na página **Método de pagamento**, escolha um método de pagamento do menu suspenso.
 4. Insira as informações para o novo cartão ou conta bancária e, em seguida, selecione **Adicionar**.
 
-## <a name="update-an-existing-payment-method"></a>Atualizar um método de pagamento existente
+## <a name="update-an-existing-payment-method"></a>Atualizar uma forma de pagamento existente
 
 Não é possível alterar o número em um cartão ou conta bancária existente. Se o número do cartão ou da conta bancária tiver sido alterado, adicione-o como uma nova forma de pagamento. Em seguida, selecione-o como a opção de pagamento para sua assinatura e remova o cartão ou a conta bancária existente. Você deve usar um cartão emitido do mesmo país do seu locatário.
 
@@ -60,13 +60,13 @@ Não é possível alterar o número em um cartão ou conta bancária existente. 
 2. Na página **métodos de pagamento** , escolha o cartão ou a conta bancária a ser atualizada e, em seguida, selecione **Editar**.
 3. Atualize suas informações de método de pagamento (nome no cartão ou conta bancária, endereço de cobrança, número de telefone ou data de expiração) e, em seguida, selecione **salvar**.
 
-## <a name="change-a-payment-method"></a>Alterar um método de pagamento
+## <a name="change-a-payment-method"></a>Alterar uma forma de pagamento
 
 Você pode alterar a forma de pagamento usada para pagar uma única assinatura. Você também pode mover todas as assinaturas de um método de pagamento para outro.
 
 ### <a name="change-the-payment-method-used-for-a-single-subscription"></a>Alterar o método de pagamento usado para uma única assinatura
 
-1. No centro de administração, vá para a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+1. No centro de administração, vá para a página **cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 2. Selecione a assinatura que você deseja pagar com o novo cartão ou conta bancária. Em **cobrança**, ao lado da forma de pagamento, selecione **Editar**.
 3. Ao lado de sua método de pagamento existente, selecione **alterar**.
 4. No menu suspenso, selecione uma método de pagamento alternativo ou escolha Adicionar uma forma de pagamento.
@@ -83,13 +83,13 @@ Você pode alterar a forma de pagamento usada para pagar uma única assinatura. 
 > [!NOTE]
 > Você só pode alterar os métodos de pagamento existentes no painel **alterar método de pagamento** . Se você deseja alterar para pagar por fatura, confira [alterar de cartão de crédito ou conta bancária para fatura](change-payment-method.md#change-from-credit-card-or-bank-account-to-invoice).
 
-## <a name="remove-a-payment-method"></a>Remover um método de pagamento
+## <a name="remove-a-payment-method"></a>Remover uma forma de pagamento
 
 Você só pode remover um cartão de crédito ou débito ou uma conta bancária da sua lista de métodos de pagamento se ele não estiver anexado a uma assinatura. Isso se aplica a todas as assinaturas, seja qual for o status. Adicione um método de pagamento para a assinatura e remova a antiga da assinatura. Se a forma de pagamento estiver associada a um perfil de cobrança, altere o método de pagamento usado para o perfil de cobrança e remova a forma de pagamento.
 
 ### <a name="delete-a-payment-method"></a>Excluir um método de pagamento
 
-Se sua forma de pagamento não estiver associada a nenhuma assinatura, você poderá excluí-la imediatamente.
+Se a forma de pagamento não estiver associada a nenhuma assinatura, você pode excluí-la imediatamente.
 
 1. No centro de administração, vá **para a página** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">métodos de pagamento</a> de faturas **& pagamentos** > .
 2. Passe o mouse sobre o cartão ou a conta bancária e, em seguida, selecione o ícone Excluir.
@@ -141,7 +141,7 @@ Se sua forma de pagamento estiver associada a um perfil de cobrança e também f
 2. Se você não tiver um método de pagamento alternativo, siga as etapas em [Adicionar um método de pagamento alternativo usado para pagar assinaturas](#add-an-alternate-payment-method-used-to-pay-for-subscriptions).
 3. Se você já tiver outros métodos de pagamento disponíveis, siga as etapas em [alterar um método de pagamento](#change-a-payment-method).
 
-## <a name="troubleshoot-payment-methods"></a>Solucionar problemas de métodos de pagamento
+## <a name="troubleshoot-payment-methods"></a>Solucionar problemas de formas de pagamento
 
 |**Problema**|**Etapas de solução de problemas**|
 |:-----|:-----|

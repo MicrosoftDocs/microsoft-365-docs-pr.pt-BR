@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A pontuação de conformidade da Microsoft ajuda as organizações a simplificar e automatizar avaliações de riscos e sugere ações recomendadas para ajudar a lidar com riscos.
-ms.openlocfilehash: 77650747e28096fc05c4a9b30bc92545b6f2bc29
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 507ff021095dfc0b18cffb6db313009c22ad2693
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141566"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046269"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Pontuação de conformidade da Microsoft (visualização)
 
@@ -49,8 +49,8 @@ A pontuação de conformidade ajuda a simplificar o gerenciamento de conformidad
 - **Ações recomendadas**: oferece recomendações e orientações passo a passo sobre como implementar controles para maximizar sua pontuação
 -  **Mapeamento de controle interno**: ajuda você a se manter atualizado com o panorama de conformidade em evolução, fornecendo uma estrutura de controle comum incorporada
 
-> [!IMPORTANT] 
-> A pontuação de conformidade não expressa uma medida absoluta da conformidade organizacional com qualquer padrão ou regulamentação específico. Ele expressa a extensão para a qual você adotou controles que podem reduzir os riscos para dados pessoais e privacidade individual. As recomendações de Pontuação de conformidade e gerente de conformidade não devem ser interpretados como garantia de conformidade. Este serviço está atualmente em versão prévia e está sujeito aos termos e condições nos [termos dos serviços online](https://go.microsoft.com/fwlink/?linkid=2108910).
+> [!IMPORTANT]
+> As recomendações da Pontuação de conformidade e do Gerente de conformidade não devem ser interpretadas como garantia de conformidade. Você pode avaliar e validar a eficácia dos controles de clientes por seu ambiente normativo. Esses serviços estão atualmente em versão prévia e sujeitos aos termos e condições nos [termos dos serviços online](https://go.microsoft.com/fwlink/?linkid=2108910). Confira também [orientações de licenciamento da Microsoft 365 para segurança e conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="relationship-to-compliance-manager"></a>Relação com o Gerenciador de conformidade
 
@@ -64,7 +64,7 @@ Saiba mais sobre a relação entre a pontuação de conformidade e o gerente de 
 
 ## <a name="understanding-your-score"></a>Noções básicas sobre sua pontuação
 
-A pontuação de conformidade fornece uma pontuação inicial com base na linha de base de proteção de dados da Microsoft 365. Essa linha de base é um conjunto de controles que inclui normas e padrões comuns do setor. Embora essa pontuação seja um bom ponto de partida para avaliar sua postura de conformidade, a pontuação de conformidade torna-se mais poderosa depois que você adiciona avaliações que sejam mais relevantes para sua organização.
+A pontuação de conformidade fornece uma pontuação inicial com base na linha de base de proteção de dados da Microsoft 365. Essa linha de base é um conjunto de controles que inclui padrões e normas comuns do setor. Embora essa pontuação seja um bom ponto de partida para avaliar sua postura de conformidade, a pontuação de conformidade torna-se mais poderosa depois que você adiciona avaliações que sejam mais relevantes para sua organização.
 
 Por exemplo, se sua organização pertencer ao setor de serviços financeiros, talvez você queira adicionar a avaliação do FFIEC. Se sua organização pertencer ao setor de saúde, você poderá adicionar a avaliação HIPAA/alta tecnologia. Saiba como [Adicionar avaliações no Gerenciador de conformidade](working-with-compliance-manager.md#assessments).
 

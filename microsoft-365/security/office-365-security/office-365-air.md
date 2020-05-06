@@ -1,5 +1,5 @@
 ---
-title: Investigação e resposta automatizadas (AIR)
+title: Investigação e resposta automatizadas (ar)-introdução
 keywords: AIR, autoIR, ATP, automatizado, investigação, resposta, correção, ameaças, avançado, ameaça, proteção
 f1.keywords:
 - NOCSH
@@ -15,15 +15,15 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Comece a usar os recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
-ms.custom: air
-ms.openlocfilehash: 3b7ddd88161b695e8929b749dac61d7947392a0d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: air - seo-marvel-mar2020
+ms.openlocfilehash: b9811963210f253bbfe90af02dd6d38926776a62
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634539"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033945"
 ---
-# <a name="automated-investigation-and-response-air"></a>Investigação e resposta automatizadas (AIR)
+# <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Introdução ao uso de investigação e resposta automatizadas (AIR) no Office 365
 
 [Office 365 proteção avançada contra ameaças](office-365-atp.md) (Office 365 ATP) o plano 2 inclui recursos avançados de investigação e resposta (Air) automatizados que podem economizar tempo e esforço da equipe de operações de segurança. À medida que os alertas são disparados, a equipe de operações de segurança pode revisar, priorizar e responder a esses alertas. Acompanhar o volume de alertas de entrada pode ser impressionante. A automação de algumas delas pode ajudar. Com o AIR, sua equipe de operações de segurança pode se concentrar nas tarefas de maior prioridade sem perder a visão dos alertas disparados.
 
@@ -52,7 +52,7 @@ Em um nível alto, um alerta é disparado e um guia de análise de segurança in
     Como as ações de correção pendentes são aprovadas (ou rejeitadas), a investigação automatizada é concluída.
 
 > [!NOTE]
-> No Office 365 ATP, nenhuma ação de correção é executada automaticamente. As ações de correção são executadas apenas após a aprovação da equipe de segurança da sua organização. 
+> No Office 365 ATP, nenhuma ação de correção é executada automaticamente. As ações de correção só serão tomadas mediante a aprovação da equipe de segurança da sua organização. 
 
 Durante e após um processo de investigação automatizado, a equipe de segurança pode fazer o seguinte:
 

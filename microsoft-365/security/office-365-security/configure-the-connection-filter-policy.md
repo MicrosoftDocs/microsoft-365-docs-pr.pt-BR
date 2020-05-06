@@ -1,5 +1,5 @@
 ---
-title: Configurar a política de filtro de conexão padrão, a lista de IPs permitidos, a lista de IPs bloqueados, habilitar ou desabilitar a lista segura
+title: Configurar a política de filtro de conexão padrão
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
-description: Para certificar-se de que os emails enviados de pessoas confiáveis não estão bloqueados, você pode usar a política de filtro de conexão para criar uma lista de permissões de endereços IP nos quais confia. Você também pode criar uma lista de remetentes de IP bloqueados.
-ms.openlocfilehash: 54e68c79f78bb1408684ac583edff137cb687b53
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba mais sobre como configurar a filtragem de conexão no Office 365 para permitir ou bloquear emails de servidores de email.
+ms.openlocfilehash: 0848e9a59df8c312891add29d14eec2dfed420df
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637741"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035077"
 ---
 # <a name="configure-connection-filtering"></a>Configurar a filtragem da conexão
 
@@ -44,7 +46,7 @@ Este tópico descreve como configurar a política de filtro de conexão padrão 
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell da Proteção do Exchange Online autônoma, confira [Conectar ao PowerShell da Proteção do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
-- Você precisa receber permissões para executar esses procedimentos. Para modificar a política de filtro de conexão padrão, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** . Para acesso somente leitura à política de filtro de conexão padrão, você precisa ser membro do grupo de função **leitor de segurança** . Para obter mais informações sobre grupos de função no centro de conformidade de & de segurança, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
+- Você precisa receber permissões para executar esses procedimentos. Para modificar a política de filtro de conexão padrão, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** . Para acesso somente leitura à política de filtro de conexão padrão, você precisa ser membro do grupo de função **leitor de segurança** . Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
 - Para localizar os endereços IP de origem dos servidores de email (remetentes) que você deseja permitir ou bloquear, você pode verificar o campo de cabeçalho IP de conexão (**CIP**) no cabeçalho da mensagem. Para exibir um cabeçalho de mensagem em vários clientes de email, confira [exibir cabeçalhos de mensagens da Internet no Outlook](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c).
 

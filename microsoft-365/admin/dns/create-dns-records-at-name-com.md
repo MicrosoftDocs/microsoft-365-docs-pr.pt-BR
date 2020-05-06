@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9ddcc2fc-9433-4335-8192-6ffb1f541087
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em name.com para a Microsoft.
-ms.openlocfilehash: 8518ca2570b3be1cb3abcd5c57b8309e989481cb
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: e9133b3701c2b454cad11b9579dc7463f1a74460
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43938655"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048958"
 ---
 # <a name="create-dns-records-at-namecom-for-microsoft"></a>Criar registros DNS no name.com para Microsoft
 
@@ -66,7 +66,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     |||||
     |:-----|:-----|:-----|:-----|
     |**Tipo** <br/> |**Host** <br/> |**Atender** <br/> |**TTL** <br/> |
-    |TXT  <br/> |(Leave this field empty.)  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |Use the default value (300).  <br/> |
+    |TXT  <br/> |(Leave this field empty.)  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |Use the default value (300).  <br/> |
    
     ![Nome-BP-Verify-1-1](../../media/0c352fd3-cf84-439f-a481-0705e225cc54.png)
   
@@ -118,7 +118,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Tipo**|**Host**|**Atender**|**TTL**|**Prio**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(Deixe este campo vazio.)  <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta da Microsoft.           [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Use the default value (300).  <br/> |,0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) <br/> |
+    |MX  <br/> |(Deixe este campo vazio.)  <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta da Microsoft.           [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Use the default value (300).  <br/> |,0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
    
    ![Name-BP-configure-2-1](../../media/11ba2160-fc8e-4196-bb15-2b7c6d49c8fc.png)
   
@@ -203,7 +203,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Tipo**|**Host**|**Atender**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |Use the default value (300).  <br/> |
+    |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |Use the default value (300).  <br/> |
    
    ![Name-BP-configure-4-1](../../media/cbbfc071-840a-4ffa-a59e-0dfce03063cc.png)
   
@@ -234,8 +234,8 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Tipo**|**Serviço**|**Peso**|**TTL**|**Prio**|**Protocolo**|**Porta**|**Destino**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV|sip|1|Use o valor padrão (300).|100|tls|443|sipdir.online.lync.com <br> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
-    |SRV|sipfederationtls|1|Use o valor padrão (300).|100|tcp|5061|sipfed.online.lync.com <br>**Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
+    |SRV|sip|1|Use o valor padrão (300).|100|tls|443|sipdir.online.lync.com <br> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
+    |SRV|sipfederationtls|1|Use o valor padrão (300).|100|tcp|5061|sipfed.online.lync.com <br>**Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
    
    ![Name-BP-configure-5-1](../../media/d9a885fd-7300-45b6-ad4c-0b4bf1067560.png)
   

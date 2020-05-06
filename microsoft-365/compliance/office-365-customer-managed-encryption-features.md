@@ -12,13 +12,15 @@ localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
-description: 'Resumo: entenda a resiliência de dados no Microsoft 365.'
-ms.openlocfilehash: 365cde7137247e20bb4fd2b57039057398deafd5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-mar2020
+description: Neste artigo, você aprenderá sobre tecnologias de criptografia que podem ser gerenciadas e configuradas no Microsoft 365.
+ms.openlocfilehash: 3c7050ba0417473b4b387937336aae02c1eba778
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637337"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033609"
 ---
 # <a name="customer-managed-encryption-features"></a>Recursos de criptografia gerenciada pelo cliente
 
@@ -64,8 +66,8 @@ Se quiser garantir uma comunicação segura com um parceiro, você pode usar con
 
 O Exchange Online Protection (EOP) e o Exchange Online suportam validação de entrada de mensagens de Email Identificado por Chaves de Domínio (DKIM). DKIM é um método para validar que uma mensagem foi enviada do domínio que ela diz ter originado e que não foi falsificada por qualquer outra pessoa. Ele vincula uma mensagem de email à organização responsável por enviá-la e faz parte de um paradigma maior de criptografia de email. Para obter mais informações sobre as três partes desse paradigma, consulte:
 
-- [Configurar o SPF para ajudar a evitar a falsificação](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing)
+- [Configure o SPF para ajudar a evitar falsificações](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing)
 
-- [Usar DKIM para validar emails de saída enviados do seu domínio personalizado](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email)
+- [Usar o DKIM para validar emails enviados de seu domínio personalizado](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email)
 
 - [Usar DMARC para validar emails](https://docs.microsoft.com/office365/SecurityCompliance/use-dmarc-to-validate-email)

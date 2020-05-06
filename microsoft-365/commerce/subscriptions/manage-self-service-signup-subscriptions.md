@@ -17,18 +17,18 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba como gerenciar assinaturas gratuitas de inscrição de autoatendimento para sua organização.
-ms.openlocfilehash: 056ae95f9f5067ea3fa86164b620c72c84e3aad4
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 46c77cb32fec4dfa1fb9c3d3f992bd842be1b969
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43154124"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045244"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>Gerenciar assinaturas de inscrição de autoatendimento
 
 ## <a name="what-are-self-service-sign-up-subscriptions"></a>O que são assinaturas de inscrição de autoatendimento?
 
-Há um número limitado de assinaturas gratuitas de inscrição de autoatendimento que os usuários em sua organização podem se inscrever. Um usuário só pode se inscrever para e usar uma assinatura de inscrição autoatendimento por conta própria. Essas assinaturas são exibidas na página **produtos & serviços** , são marcadas como **livres**e você tem uma nota que diz: "esta é uma assinatura gratuita ativada pelos usuários da sua empresa." Você pode gerenciar assinaturas de inscrição de autoatendimento, bloqueando os usuários de se inscrever e excluindo assinaturas gratuitas para as quais os usuários se inscreveram. Para obter mais informações sobre a inscrição de autoatendimento e as assinaturas disponíveis, consulte usar a inscrição de autoatendimento [em sua organização](../../admin/misc/self-service-sign-up.md).
+Há um número limitado de assinaturas gratuitas de inscrição de autoatendimento que os usuários em sua organização podem se inscrever. Um usuário só pode se inscrever para e usar uma assinatura de inscrição autoatendimento por conta própria. Essas assinaturas são exibidas na página **seus produtos** , são marcadas como **livres**e você tem uma nota que diz: "esta é uma assinatura gratuita ativada pelos usuários da sua empresa." Você pode gerenciar assinaturas de inscrição de autoatendimento, bloqueando os usuários de se inscrever e excluindo assinaturas gratuitas para as quais os usuários se inscreveram. Para obter mais informações sobre a inscrição de autoatendimento e as assinaturas disponíveis, consulte usar a inscrição de autoatendimento [em sua organização](../../admin/misc/self-service-sign-up.md).
 
 ## <a name="how-are-these-subscriptions-different-from-self-service-purchase-subscriptions"></a>Como essas assinaturas são diferentes das assinaturas de compras de autoatendimento?
 
@@ -43,7 +43,7 @@ Use o cmdlet [**set-MsolCompanySettings**](https://docs.microsoft.com/powershell
 > [!IMPORTANT]
 > Quando você exclui uma assinatura de inscrição de autoatendimento, impede que todos os usuários acessem seus dados e emails e exclua todos os dados e email.
 
-1. No centro de administração, vá para a página de serviços de **cobrança** > de<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
+1. No centro de administração, vá para a página **cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 2. Encontre a assinatura de inscrição de autoatendimento que você deseja excluir. Na seção **configurações & ações** , selecione **excluir assinatura**.
 3. No painel **excluir assinatura** , marque a caixa de seleção e, em seguida, selecione **excluir assinatura**.
 

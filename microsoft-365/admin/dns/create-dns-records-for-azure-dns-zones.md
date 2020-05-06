@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: fbcef2d7-ebaf-40d0-ba1f-cdaeff9f50ef
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços nas zonas de DNS do Azure para a Microsoft.
-ms.openlocfilehash: 7104fb18a6581b7ebc853f938b85171ae1886cfd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3d50051e2302b6ef49762cad6682f15c90dd74a1
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629138"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048862"
 ---
 # <a name="create-dns-records-for-azure-dns-zones"></a>Criar registros DNS para zonas DNS do Azure
 
@@ -39,13 +39,13 @@ Esses são os principais registros a adicionar.
     
 - [Adicionar um registro TXT para verificação](#add-a-txt-record-for-verification)
 
-- [Adicionar um registro MX para que o email do seu domínio seja fornecido para a Microsoft](#add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft)
+- [Adicione um registro MX para que o email do domínio vá para a Microsoft.](#add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft)
     
 - [Adicionar os quatro registros CNAME necessários para o Microsoft](#add-the-four-cname-records-that-are-required-for-microsoft)
     
 - [Adicionar registro TXT à SPF para ajudar a evitar spam de email](#add-a-txt-record-for-spf-to-help-prevent-email-spam)
     
-- [Adicionar os dois registros SRV necessários para o Microsoft](#add-the-two-srv-records-that-are-required-for-microsoft)
+- [Adicionar os dois registros SRV necessários para a Microsoft](#add-the-two-srv-records-that-are-required-for-microsoft)
     
 Depois que você adicionar esses registros no Azure, o domínio será configurado para funcionar com os serviços da Microsoft.
   
@@ -86,7 +86,7 @@ Para mudar os servidores de nomes do seu domínio por conta própria no site do 
 ## <a name="add-a-txt-record-for-verification"></a>Adicionar um registro TXT para verificação
 <a name="BKMK_verify"> </a>
 
-Antes de usar seu domínio com a Microsoft, precisamos garantir que você o tenha. Sua capacidade de fazer logon em sua conta no registrador de domínios e criar o registro DNS comprova para a Microsoft que você é o proprietário do domínio.
+Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o proprietário dele. A capacidade de entrar na conta do seu registrador de domínios e criar o registro de DNS prova à Microsoft que você é o proprietário do domínio.
   
 > [!NOTE]
 > Esse registro é usado exclusivamente para confirmar se você é o proprietário do domínio; ele não afeta mais nada. É possível excluí-lo mais tarde, se desejar. 
@@ -109,7 +109,7 @@ Antes de usar seu domínio com a Microsoft, precisamos garantir que você o tenh
     
     |**Nome**|**Tipo**|**TTL**|**Unidade TTL**|**Valor**|
     |:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |TXT  <br/> |1  <br/> |Horas  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use o seu **destino específico ou aponte para** o valor de endereço aqui, a partir da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |TXT  <br/> |1  <br/> |Horas  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Azure-BP-Verify-1-1](../../media/7d5a253c-e88f-4565-a00a-79bba52f9970.png)
   
@@ -117,9 +117,9 @@ Antes de usar seu domínio com a Microsoft, precisamos garantir que você o tenh
   
 6. Aguarde alguns minutos antes de prosseguir para que o registro que você acabou de criar possa ser atualizado na Internet.
     
-Agora que você adicionou o registro no site do seu registrador de domínio, você voltará para a Microsoft e solicitará o registro.
+Agora que você adicionou o registro no site do seu registrador de domínios, retorne à Microsoft e solicite o registro.
   
-Quando a Microsoft encontrar o registro TXT correto, seu domínio será verificado.
+Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verificado.
   
 1. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
     
@@ -138,7 +138,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio será verifica
 > [!NOTE]
 >  Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>Adicionar um registro MX para que o email do seu domínio seja fornecido para a Microsoft
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>Adicione um registro MX para que o email do domínio vá para a Microsoft.
 <a name="BKMK_add_MX"> </a>
 
 1. Para começar, vá até a sua página de domínios no Azure usando [este link](https://portal.azure.com ). Será solicitado que você faça logon primeiro.
@@ -159,7 +159,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio será verifica
     
     |**Nome**|**Tipo**|**TTL**|**Unidade TTL**|**Preferência**|**Troca de emails**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1  <br/> |Horas  <br/> |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta da Microsoft.   [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)  
+    |@  <br/> |MX  <br/> |1  <br/> |Horas  <br/> |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta da Microsoft.   [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)  
    
     ![Azure-BP-configure-2-1](../../media/712c23ae-9d38-4af2-94e0-0704e70744fe.png)
   
@@ -239,7 +239,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio será verifica
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já tiver um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. 
   
 1. Para começar, vá até a sua página de domínios no Azure usando [este link](https://portal.azure.com ). Será solicitado que você faça logon primeiro.
     
@@ -267,7 +267,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio será verifica
     
     ![Azure-BP-configure-4-3](../../media/d7421c7f-ea63-4e11-8595-a482b8c165e0.png)
   
-## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Adicionar os dois registros SRV necessários para o Microsoft
+## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Adicionar os dois registros SRV necessários para a Microsoft
 <a name="BKMK_add_SRV"> </a>
 
 1. Para começar, vá até a sua página de domínios no Azure usando [este link](https://portal.azure.com ). Será solicitado que você faça logon primeiro.

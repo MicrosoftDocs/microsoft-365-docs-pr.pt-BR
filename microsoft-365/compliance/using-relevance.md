@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 2ddc9a6ae868682a3a241e9896d3aa63ac46f985
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Saiba como o módulo de relevância analisa dados em evidência com uma descrição do fluxo de trabalho de relevância e as etapas de treinamento na descoberta eletrônica avançada.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 4babb0aa7693bc1107cc7594da967bca2d307228
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069149"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034463"
 ---
 # <a name="use-the-relevance-module-to-analyze-data-in-advanced-ediscovery"></a>Usar o módulo de relevância para analisar dados na descoberta eletrônica avançada
 
@@ -49,7 +50,7 @@ O fluxo de trabalho de relevância é mostrado e descrito da seguinte maneira:
     
 - **Cálculo de lote**: os critérios de relevância acumulados e aprendidos são aplicados a todo o conjunto de arquivos e uma pontuação de relevância é gerada para cada arquivo.
     
-- ****@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ Os resultados da análise aplicada ao caso inteiro são exibidos após o cálculo de lote, e os dados usados para fazer decisões de revisão
+- **Decide**@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ Os resultados da análise aplicada ao caso inteiro são exibidos após o cálculo de lote, e os dados usados para fazer decisões de revisão
     
 - **Test**: os resultados podem ser testados para verificar a validade e a eficácia do processamento avançado de descoberta eletrônica.
 
@@ -127,7 +128,7 @@ Na guia **controle \> de relevância** , a descoberta eletrônica avançada forn
     
   - Implicação: nenhum treinamento de relevância é necessário neste ponto.
     
-Embora a descoberta eletrônica avançada orienta você durante o processo, com as próximas etapas recomendadas em estágios diferentes, ela também permite que você navegue entre guias e páginas e faça escolhas para lidar com situações que possam ser pertinentes a seu caso, problema ou processo de revisão de documento. 
+Embora a descoberta eletrônica avançada orienta você durante o processo, com as próximas etapas recomendadas em estágios diferentes, ela também permite que você navegue entre guias e páginas e faça escolhas para lidar com situações que possam ser pertinentes a seu processo de análise de caso, de problema ou de documento individual. 
   
 É possível aceitar ou substituir as opções de processamento de próxima etapa de descoberta eletrônica avançada. Se você deseja executar uma etapa diferente da próxima etapa recomendada, clique na **próxima etapa** listada na exibição de problema expandida na caixa de diálogo, clique no botão **Modificar** ao lado da próxima etapa e selecione outra opção de próxima etapa. 
   

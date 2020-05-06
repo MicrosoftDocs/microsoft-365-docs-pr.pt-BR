@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - BSA160
 description: Saiba como planejar a governança de grupos do Microsoft 365.
-ms.openlocfilehash: 95cd549fea6646639386d33e5a026f60b3ccbbba
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 4427f210bc1691ef04b97fa4802313078f8d0997
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617129"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049406"
 ---
 # <a name="plan-for-governance-in-groups"></a>Planejar a governança em grupos
 
@@ -50,10 +50,10 @@ Há três métodos de comunicação principais suportados pelos grupos do Micros
 > Criar um novo grupo por meio de outros aplicativos de trabalho em equipe-como o SharePoint, o Planner ou o Stream-criará um grupo com uma caixa de entrada do Outlook e a capacidade de se conectar ao Microsoft Teams.
 
 Dependendo de onde um grupo é criado, determinados recursos são provisionados automaticamente, como:
-- [Caixa de entrada](https://support.office.com/article/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22) -para conversas por email entre membros do grupo. Esta caixa de entrada tem um endereço de email e pode ser definida para aceitar mensagens de pessoas de fora do grupo e até mesmo fora da organização, muito parecida com uma lista de distribuição tradicional.
+- [Caixa de entrada](https://support.microsoft.com/en-us/office/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22) -para conversas por email entre membros do grupo. Esta caixa de entrada tem um endereço de email e pode ser definida para aceitar mensagens de pessoas de fora do grupo e até mesmo fora da organização, muito parecida com uma lista de distribuição tradicional.
  - [Calendário](https://support.office.com/article/schedule-a-meeting-on-a-group-calendar-in-outlook-0cf1ad68-1034-4306-b367-d75e9818376a) – para eventos de agendamento relacionados ao grupo
 - [Site de equipe do SharePoint](https://support.office.com/article/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) – um repositório central para informações, links e conteúdo relacionados ao seu grupo
-- [Biblioteca de documentos do SharePoint](https://support.office.com/article/share-group-files-749bc73b-90c9-4760-9b6f-9aa1cf01b403) – um local central para o grupo armazenar e compartilhar arquivos
+- [Biblioteca de documentos do SharePoint](https://support.microsoft.com/en-us/office/share-group-files-in-outlook-749bc73b-90c9-4760-9b6f-9aa1cf01b403) – um local central para o grupo armazenar e compartilhar arquivos
 - [Bloco de anotações do OneNote](https://support.office.com/article/get-started-with-onenote-e768fafa-8f9b-4eac-8600-65aa10b2fe97) – para coletar ideias, pesquisa e informações
 - [Planejador](https://support.office.com/article/microsoft-planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) – para atribuir e gerenciar tarefas de projeto entre seus membros do grupo
 - [Grupo do Yammer](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) – um local comum para ter conversas e compartilhar informações
@@ -81,7 +81,7 @@ Há vários lugares para ter uma conversa no Microsoft 365. A compreensão de on
 
 - Grupos do Outlook: DL moderna (colaboração baseada em email)
   - Onipresente para comunicação direcionada
-  - Atualizar as DLs para grupos do Microsoft 365 – [por que você deve atualizar?](https://support.office.com/article/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
+  - Atualizar as DLs para grupos do Microsoft 365 – [por que você deve atualizar?](https://support.microsoft.com/office/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
 
 - SharePoint – experiência de colaboração de conteúdo principal para todos os grupos da Microsoft 365
   - Cada grupo Obtém um site de equipe do SharePoint conectado
@@ -119,7 +119,7 @@ Há três modelos principais de provisionamento em grupos: abrir, orientado por 
 | -------------- | ------------------------------------------------------------ |
 | Abrir (padrão) | Os usuários podem criar seus próprios grupos, conforme necessário, sem precisar aguardar ou se aborrecer. |
 | LED de ti         | Os usuários solicitam um grupo dele. Ele pode orientá-los na seleção das melhores ferramentas de colaboração para suas necessidades. |
-| Incontrolável     | Criação de grupo restrita a pessoas, equipes ou serviços específicos. Para saber mais, confira [gerenciar quem pode criar grupos do Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618). |
+| Incontrolável     | Criação de grupo restrita a pessoas, equipes ou serviços específicos. Para saber mais, confira [gerenciar quem pode criar grupos do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups). |
 
 Sua organização pode ter requisitos específicos para implementar controles estritos em quem pode criar grupos. Use a tabela a seguir para ajudar a tomar a decisão sobre qual modelo de provisionamento se ajusta à sua organização.
 
@@ -154,7 +154,7 @@ Se você tiver excluído um grupo do Microsoft 365, por padrão, ele será manti
 >Durante o período de "exclusão temporária", se um usuário tentar acessar, verá uma mensagem 403 Proibido. Após esse período, se o usuário tentar acessar o site, verá uma mensagem 404 Não Encontrado.
 
 #### <a name="resources"></a>*Recursos*
-- [Restaurar um grupo do Microsoft 365 excluído](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54?ui=en-US&rs=en-001&ad=US)
+- [Restaurar um grupo do Microsoft 365 excluído](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group?ui=en-US&rs=en-001&ad=US)
 - [Restaurar um grupo do Microsoft 365 excluído no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted)
 - [Excluir grupos usando o cmdlet Remove-UnifiedGroup](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx)
 
@@ -273,7 +273,7 @@ Há anos que as organizações confiaram nos grupos de distribuição para se co
 
 #### <a name="resources"></a>*Recursos*
 - [Atualizar listas de distribuição (DL) para grupos no Outlook](https://aka.ms/whyupgradedls)
-- Atualização com um clique por meio do centro de administração do Exchange ou por [scripts do PowerShell](https://support.office.com/article/787d7a75-e201-46f3-a242-f698162ff09f)
+- Atualização com um clique por meio do centro de administração do Exchange ou por [scripts do PowerShell](https://docs.microsoft.com/microsoft-365/admin/manage/upgrade-distribution-lists)
 - [Migrar listas de distribuição para o Microsoft 365 groups-ajuda para administradores](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists)
 - [Conectar sites existentes do SharePoint a grupos do Microsoft 365:](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group)
 - [Analisar e usar os dados do verificador](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group-scanner)
@@ -296,8 +296,8 @@ O painel de relatórios do Microsoft 365 mostra a visão geral das atividades em
 
 
 #### <a name="resources"></a>*Recursos*
-- [Relatórios do Microsoft 365 no centro de administração](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40)
-- [Pacote de conteúdo de adoção do Office 365](https://support.office.com/article/Office-365-Adoption-Content-Pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)
+- [Relatórios do Microsoft 365 no centro de administração](https://docs.microsoft.com/microsoft-365/admin/activity-reports/office-365-groups)
+- [Pacote de conteúdo de adoção do Office 365](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics)
 - [Pacote de conteúdo do Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-power-bi-content-pack-how-to)
 - [API de atividade de grupos do Microsoft Graph](https://developer.microsoft.com/graph/docs/api-reference/v1.0/resources/office_365_groups_activity_reports)
 - [Relatório de grupos do Microsoft 365 (grupos unificados)](https://gallery.technet.microsoft.com/office/Office-365-Groups-Report-7e3e161b)
@@ -318,8 +318,8 @@ Considere uma organização que implantou o Microsoft 365 com pelo menos licenç
 
 | Etapa | Descrição |
 | --------------- | ------------------------------------------------------------ |
-| Orientação |<ul><li>Considere um modelo de provisionamento de autoatendimento.</li><li> Os grupos no Outlook & sites do SharePoint são [privados por padrão](https://techcommunity.microsoft.com/t5/Office-365-Groups/Groups-in-Outlook-and-Group-connected-team-sites-are-now-private/m-p/186395).</li><li> Os grupos podem ser criados por meio da atualização de listas de distribuição existentes (DLs) uma ou em massa por meio do PowerShell. Consulte [upgrade Distribution Lists to Microsoft 365 groups](https://support.office.com/article/Upgrade-distribution-lists-to-Office-365-Groups-in-Outlook-787D7A75-E201-46F3-A242-F698162FF09F).</li><li> Habilite o acesso de convidados, mas administre usando permitir/bloquear domínios convidados.</li><li> Use o Group Reporting para obter informações sobre como os usuários estão usando grupos.</li><li> Considere a criação de uma equipe do Microsoft Teams para toda a organização como uma maneira de todos fazer parte de uma única equipe para colaboração. </li></ul>|
-| Próximas Etapas      |<ul><li>Considere usar [designs de site e scripts de site](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview) para definir o design padrão para controles usando as ações definidas dentro da [referência de esquema JSON](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema).</li><li>Revisar [grupos de relatórios](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40).</li><li>Rastreie grupos totais e grupos inativos/ativos.</li><li>Acompanhar o armazenamento do Exchange e do SharePoint usado.</li><li>Exibir atividade de grupo entre conversas de caixa de correio de grupo, atividade de arquivos/sites de grupo, etc.</li></ul> |
+| Orientação |<ul><li>Considere um modelo de provisionamento de autoatendimento.</li><li> Os grupos no Outlook & sites do SharePoint são [privados por padrão](https://techcommunity.microsoft.com/t5/Office-365-Groups/Groups-in-Outlook-and-Group-connected-team-sites-are-now-private/m-p/186395).</li><li> Os grupos podem ser criados por meio da atualização de listas de distribuição existentes (DLs) uma ou em massa por meio do PowerShell. Consulte [upgrade Distribution Lists to Microsoft 365 groups](https://docs.microsoft.com/microsoft-365/admin/manage/upgrade-distribution-lists).</li><li> Habilite o acesso de convidados, mas administre usando permitir/bloquear domínios convidados.</li><li> Use o Group Reporting para obter informações sobre como os usuários estão usando grupos.</li><li> Considere a criação de uma equipe do Microsoft Teams para toda a organização como uma maneira de todos fazer parte de uma única equipe para colaboração. </li></ul>|
+| Próximas Etapas      |<ul><li>Considere usar [designs de site e scripts de site](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview) para definir o design padrão para controles usando as ações definidas dentro da [referência de esquema JSON](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema).</li><li>Revisar [grupos de relatórios](https://docs.microsoft.com/microsoft-365/admin/activity-reports/office-365-groups).</li><li>Rastreie grupos totais e grupos inativos/ativos.</li><li>Acompanhar o armazenamento do Exchange e do SharePoint usado.</li><li>Exibir atividade de grupo entre conversas de caixa de correio de grupo, atividade de arquivos/sites de grupo, etc.</li></ul> |
 
 ### <a name="medium-sized-business"></a>Empresas de médio porte
 Além das recomendações acima, considere o seguinte para empresas de médio porte que implantou o Microsoft 365 com pelo menos um Enterprise E3/E5 com licenças do Azure Active Directory Premium P1.

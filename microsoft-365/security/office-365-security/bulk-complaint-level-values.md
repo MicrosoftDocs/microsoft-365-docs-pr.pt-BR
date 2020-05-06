@@ -1,5 +1,5 @@
 ---
-title: Valores de nível de reclamação em massa, remetentes de email em massa, níveis de BCL, como a BCL funciona, classificações de BCL, antispam, cabeçalho antispam, filtragem de email em massa, emails em massa
+title: Valores do nível de reclamação em massa
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,12 +16,12 @@ ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os valores de nível de conformidade em massa (BCL) no Office 365.
-ms.openlocfilehash: e45b08756dd528e56b24635d670ddcd05e4396e4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 82c006f05ce3d37ff23ca1e522b653bd26efeed8
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630630"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035563"
 ---
 # <a name="bulk-complaint-level-bcl-in-office-365"></a>Nível de reclamação em massa (BCL) no Office 365
 

@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 description: Você pode criar uma caixa de correio inativa no Microsoft 365 aplicando uma política de retenção ou bloqueio à caixa de correio e, em seguida, excluindo a conta de usuário correspondente. Os itens em uma caixa de correio inativa são mantidos pela duração da política de retenção ou retenção aplicada a ele antes de ser tornado inativo. Para excluir permanentemente uma caixa de correio inativa, apenas remova a política de retenção ou bloqueio.
-ms.openlocfilehash: 9c34acb22e1be7f88d87d254c0fac34ca9ff8105
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6265504f12adeadbc51c36c1e97c999e30a0d141
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634203"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048010"
 ---
 # <a name="create-and-manage-inactive-mailboxes"></a>Criar e gerenciar caixas de correio inativas
 
@@ -36,7 +36,7 @@ O Microsoft 365 permite que você mantenha o conteúdo de caixas de correio excl
 
 - Para tornar uma caixa de correio inativa, deve ser atribuída uma licença do Exchange Online Plan 2 para que uma retenção de litígio ou uma política de retenção possa ser aplicada à caixa de correio antes de ser excluída. As licenças do Exchange Online Plan 2 fazem parte de uma assinatura do Office 365 Enterprise E3 e e5. Se uma caixa de correio for atribuída a uma licença de quiosque do Exchange Online plano 1 ou do Exchange Online (que fazem parte de uma assinatura do Office 365 E1 e F1, respectivamente), você precisará atribuir uma licença de arquivamento do Exchange Online separada para que uma retenção possa ser aplicada à caixa de correio antes de ser excluída. Para saber mais, confira [Arquivamento do Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=286153).
 
-- As licenças associadas à caixa de correio do Exchange Online excluída estarão disponíveis após a exclusão da conta de usuário correspondente. Você pode [atribuir essas licenças a outro usuário](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc). 
+- As licenças associadas à caixa de correio do Exchange Online excluída estarão disponíveis após a exclusão da conta de usuário correspondente. Você pode [atribuir essas licenças a outro usuário](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users). 
 
 - Se uma retenção de litígio ou uma política de retenção (que é configurada para reter ou reter e excluir conteúdo) não for aplicada a uma caixa de correio antes de ser excluída, o conteúdo da caixa de correio não será mantido ou detectável. No entanto, a caixa de correio excluída pode ser recuperada em até 30 dias após a exclusão, mas a caixa de correio e seu conteúdo serão excluídos permanentemente após 30 dias, se não for recuperado.
 
@@ -73,7 +73,7 @@ Depois que a caixa de correio é colocada em espera ou uma política de retenç�
 
 Para exibir uma lista das caixas de correio inativas em sua organização:
   
-1. Acesse [https://protection.office.com](https://protection.office.com) e entre usando as credenciais de uma conta de administrador em sua organização. 
+1. Vá para [https://protection.office.com](https://protection.office.com) e entre usando as credenciais de uma conta de administrador em sua organização. 
     
 2. Clique em**retenção**de **governança** > de informações.
     

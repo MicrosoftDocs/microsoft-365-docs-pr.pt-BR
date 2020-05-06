@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 'Saiba como redefinir a senha de um usuário na assinatura do Microsoft 365 for Business. '
-ms.openlocfilehash: 0d8a68edb0b85094b271712f018eea79ca9f0aee
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 99ec6423b835204624f91977b6f138fa7c8ba8cd
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626941"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049442"
 ---
 # <a name="reset-passwords"></a>Redefinir senha
 
@@ -93,7 +93,7 @@ Se você esqueceu a senha e não consegue entrar:
     
 - Peça a outro administrador global em sua empresa para redefinir sua senha.
     
-- Ou, [ligue para o suporte da Microsoft](https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&amp;rs=en-US&amp;ad=US#ID0EAADAAA=Phone_support_). 
+- Ou, [ligue para o suporte da Microsoft](https://docs.microsoft.com/en-us/microsoft-365/admin/contact-support-for-business-products). 
     
 ## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>Redefinir todas as senhas de negócios para todas as pessoas em sua organização ao mesmo tempo
 <a name="bkmk_forgot"> </a>
@@ -117,9 +117,9 @@ Estas etapas funcionam para uma empresa com dezenas de usuários. Se você tiver
 
 Use o PowerShell! Confira esta postagem por Eyal Doron: [Gerenciamento de senhas com o PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).
   
-Veja um artigo relacionado: [Definir senhas de várias contas de usuário](https://support.office.com/article/014fc912-bee1-461d-ad00-56b80428b907.aspx#bkmk_password).
+Veja um artigo relacionado: [Definir senhas de várias contas de usuário](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).
   
-Para obter informações gerais, consulte [PowerShell for Microsoft 365 Administrators](https://support.office.com/article/40fdcbd4-c34f-42ab-8678-8b3751137ef1.aspx).
+Para obter informações gerais, consulte [PowerShell for Microsoft 365 Administrators](https://support.microsoft.com/en-us/office/powershell-for-office-365-administrators-40fdcbd4-c34f-42ab-8678-8b3751137ef1).
   
 ## <a name="force-a-password-change-for-all-users-in-your-business"></a>Forçar uma alteração de senha para todos os usuários da sua empresa
 <a name="bkmk_forgot"> </a>
@@ -144,4 +144,4 @@ Experimente os procedimentos deste artigo: [Eu esqueci o nome de usuário ou a s
 
 [Remover um ex-funcionário](remove-former-employee.md)
 
-[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

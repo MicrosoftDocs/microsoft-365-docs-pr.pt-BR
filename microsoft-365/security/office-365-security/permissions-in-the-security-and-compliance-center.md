@@ -1,5 +1,5 @@
 ---
-title: Permissões no Centro de Conformidade e Segurança
+title: Permissões-centro de conformidade & segurança da Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,13 +16,14 @@ ms.collection: Strat_O365_IP
 search.appverid:
 - MOE150
 - MET150
-description: Os administradores podem saber mais sobre as permissões disponíveis no centro de conformidade do & de segurança.
-ms.openlocfilehash: 8fd288aa9a0a409a005c43a1ff685bf29bfef6b3
-ms.sourcegitcommit: 90f7bbba5fc23f10b59c75b2b65d6c0903ce66dd
+description: Os administradores podem saber mais sobre as permissões disponíveis no centro de conformidade & segurança do Microsoft 365.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dda0fe4263c6c62e9ac7829c87caf6332e56f809
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43930178"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033909"
 ---
 # <a name="permissions-in-the-security--compliance-center"></a>Permissões no Centro de Conformidade e Segurança
 

@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Siga esta lista de verificação para remover um funcionário do Microsoft 365 e dados seguros. '
-ms.openlocfilehash: 593460c2e49b7136972c084a9927544e6194cb90
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 74da58878259275d9b39849bd917f7ef35dce82b
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617117"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045291"
 ---
 # <a name="remove-a-former-employee"></a>Remover um ex-funcionário
   
@@ -318,7 +318,7 @@ Quando você remove a licença, todos os dados do usuário são mantidos por 30 
 
 
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 
 ::: moniker-end

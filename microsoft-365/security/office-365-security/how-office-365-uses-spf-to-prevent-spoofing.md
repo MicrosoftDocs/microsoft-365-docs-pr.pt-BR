@@ -1,5 +1,5 @@
 ---
-title: Como a Microsoft 365 usa o Sender Policy Framework (SPF) para evitar falsificação
+title: Como a estrutura de política de remetente (SPF) impede a falsificação
 f1.keywords:
 - CSH
 ms.author: tracyp
@@ -15,15 +15,17 @@ search.appverid:
 ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 ms.collection:
 - M365-security-compliance
-description: 'Resumo: Este artigo descreve como o Microsoft 365 usa o registro TXT da SPF (Sender Policy Framework) no DNS para garantir que os sistemas de email de destino confiem em mensagens enviadas de seu domínio personalizado. Isso se aplica ao email de saída enviado pelo Microsoft 365. As mensagens enviadas do Microsoft 365 para um destinatário no Microsoft 365 sempre passarão por SPF.'
-ms.openlocfilehash: d73fb881b8395c6c1383cca70e506694795f1364
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como a Microsoft 365 usa o registro TXT da SPF (Sender Policy Framework) no DNS para garantir que os sistemas de email de destino confiem em mensagens enviadas de seu domínio personalizado.
+ms.openlocfilehash: 5d09047b51f191947c13a3e6ca64b5cb30d3f6a0
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633985"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036384"
 ---
-# <a name="how-microsoft-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Como a Microsoft 365 usa o Sender Policy Framework (SPF) para evitar falsificação
+# <a name="how-microsoft-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Como o Microsoft 365 usa SPF (Sender Policy Framework) para evitar falsificação
 
  **Resumo:** Este artigo descreve como o Microsoft 365 usa o registro TXT da SPF (Sender Policy Framework) no DNS para garantir que os sistemas de email de destino confiem em mensagens enviadas de seu domínio personalizado. Isso se aplica ao email de saída enviado pelo Microsoft 365. As mensagens enviadas do Microsoft 365 para um destinatário no Microsoft 365 sempre passarão por SPF.
 
@@ -202,7 +204,7 @@ v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 ip4:192.168.0.3 include:spf.protection.ou
 
 Depois de formular seu registro TXT SPF, siga as etapas em [Configurar o SPF no Microsoft 365 para ajudar a impedir a falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md) de adicioná-lo ao seu domínio.
 
-Embora o SPF tenha sido projetado para ajudar a evitar falsificação, existem técnicas de falsificação contra as quais o SPF não pode oferecer proteção. Para proteger-se contra elas, depois de configurar o SPF, você também deve configurar o DKIM e o DMARC para o Microsoft 365. Para começar, confira [usar DKIM para validar emails de saída enviados do seu domínio personalizado no Microsoft 365](use-dkim-to-validate-outbound-email.md). Em seguida, confira [usar DMARC para validar emails no Microsoft 365](use-dmarc-to-validate-email.md).
+Embora o SPF tenha sido projetado para ajudar a evitar falsificação, existem técnicas de falsificação contra as quais o SPF não pode oferecer proteção. Para proteger-se contra elas, depois de configurar o SPF, você também deve configurar o DKIM e o DMARC para o Microsoft 365. Para começar, confira [usar DKIM para validar emails de saída enviados do seu domínio personalizado no Microsoft 365](use-dkim-to-validate-outbound-email.md). Em seguida, consulte [Usar DMARC para validar emails no Microsoft 365](use-dmarc-to-validate-email.md).
 
 ## <a name="troubleshooting-best-practices-for-spf-in-microsoft-365"></a>Solução de problemas: práticas recomendadas para SPF no Microsoft 365
 <a name="SPFTroubleshoot"> </a>

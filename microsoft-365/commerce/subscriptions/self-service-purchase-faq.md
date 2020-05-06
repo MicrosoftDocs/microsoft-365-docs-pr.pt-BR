@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: Encontre respostas para perguntas frequentes sobre compras de autoatendimento.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: 26b6e11a6c992f85b136d05269cefb80f233b11f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c7f91b8067aac5baa3c792dac10c1fdadae55fa2
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636542"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046151"
 ---
 # <a name="self-service-purchase-faq"></a>Perguntas frequentes de compras de autoatendimento
 
@@ -119,7 +119,7 @@ Os administradores podem atribuir licenças existentes ou comprar assinaturas ad
 
 ### <a name="where-does-the-admin-see-self-service-purchases"></a>Onde o administrador vê compras de autoatendimento?
 
-Os administradores globais e de cobrança podem ver assinaturas compradas por meio de compras de autoatendimento em produtos de **cobrança** > **& serviços** no <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a> junto com todas as outras assinaturas adquiridas por meio da aquisição central. Eles podem filtrar a lista apenas com as assinaturas adquiridas por meio da aquisição central ou incluir assinaturas compradas por meio de compras de autoatendimento.
+Os administradores globais e de cobrança podem ver as assinaturas compradas por meio de compras de autoatendimento na **cobrança** > **de seus produtos** no <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a> junto com todas as outras assinaturas adquiridas por meio da aquisição central. Eles podem filtrar a lista apenas com as assinaturas adquiridas por meio da aquisição central ou incluir assinaturas compradas por meio de compras de autoatendimento.
 
 Os administradores podem ver o produto, o nome do comprador, a assinatura adquirida, a data de vencimento, o histórico de pedidos, o preço de compra e os usuários atribuídos.
 

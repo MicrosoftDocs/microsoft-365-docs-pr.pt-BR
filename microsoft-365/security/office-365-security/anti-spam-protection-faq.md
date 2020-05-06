@@ -14,13 +14,15 @@ search.appverid:
 ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
-description: Perguntas frequentes e respostas para administradores sobre a proteção antispam no Exchange Online e no Exchange Online Protection (EOP) autônomo.
-ms.openlocfilehash: 0bd34639d717b979a02272e3c2f5de243c68d3ab
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Este tópico fornece perguntas frequentes & respostas sobre a proteção antispam. As respostas são aplicáveis aos clientes do Microsoft Exchange Online & o Exchange Online Protection (EOP).
+ms.openlocfilehash: 33fb1fb5d73f0d686a72e89d460c0973d2bbdabe
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636053"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033733"
 ---
 # <a name="anti-spam-protection-faq"></a>Perguntas frequentes sobre a proteção antispam
 
@@ -133,7 +135,7 @@ R. As diretrizes apresentadas abaixo são as práticas recomendas para o envio d
 
   Os registros SPF são um mecanismo para a validação de que os emails enviados de um domínio realmente vêm desse domínio e de que os emails não são falsificados. Para obter mais informações sobre registros SPF, consulte os seguintes links:
 
-  [Configurar o SPF para ajudar a evitar a falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+  [Configure o SPF para ajudar a evitar falsificações](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
   [Perguntas frequentes sobre domínios](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
 

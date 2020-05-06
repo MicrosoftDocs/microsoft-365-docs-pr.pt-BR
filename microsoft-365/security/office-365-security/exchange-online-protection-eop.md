@@ -11,13 +11,14 @@ ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
-description: Veja algumas coisas que você deve estar ciente antes de começar a trabalhar com o EOP.
-ms.openlocfilehash: c86d8dbf71cdfddf0562e9c572dc8d65043e1c69
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+description: Saiba mais sobre o serviço de filtragem de email hospedado do Microsoft Exchange Online Protection (EOP), incluindo como configurar seu serviço EOP.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ee39e051d3be0e3b27013929bdc3d3a948457c9b
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032859"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036531"
 ---
 # <a name="exchange-online-protection"></a>Proteção do Exchange Online
 
@@ -63,7 +64,7 @@ O conteúdo da Ajuda para administradores do EOP é composta pelas seguintes cat
 
 O conteúdo da Ajuda para auxiliar usuários finais do EOP a gerenciar spam é composto pelos seguintes tópicos:
 
-- [Relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md)
+- [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md)
 
 - Os usuários finais podem adicionar remetentes à sua própria lista de remetentes confiáveis ou bloquear a lista de remetentes no Outlook ou no Outlook na Web. Os administradores também podem modificar essas listas nas caixas de correio dos usuários. Para obter mais informações, consulte [sobre configurações de lixo eletrônico no Outlook](configure-junk-email-settings-on-exo-mailboxes.md#about-junk-email-settings-in-outlook).
 

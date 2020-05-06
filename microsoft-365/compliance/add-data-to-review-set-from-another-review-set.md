@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: a6bd4672c75e2e633ede2ad54effb4c6562b822c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Saiba como selecionar documentos de um conjunto de análise e trabalhar com eles individualmente em outro conjunto em um caso de descoberta eletrônica avançada.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 636e76b1740cfa07254e4c56165cfafa8f1fad5a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080169"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034675"
 ---
 # <a name="add-data-to-a-review-set-from-another-review-set"></a>Adicionar dados a um conjunto de revisão de outro conjunto de revisão
 

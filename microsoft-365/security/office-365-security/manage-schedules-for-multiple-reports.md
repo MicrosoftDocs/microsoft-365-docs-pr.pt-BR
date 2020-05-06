@@ -1,5 +1,5 @@
 ---
-title: Gerenciar agendas para vários relatórios no centro &amp; de conformidade de segurança
+title: Agendamentos para vários relatórios-segurança & centro de conformidade
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -14,12 +14,13 @@ search.appverid:
 - MOE150
 ms.assetid: 3384c6f1-ffc0-4120-a211-1991aca51663
 description: Saiba como exibir, editar e gerenciar cronogramas para relatórios no centro de conformidade &amp; de segurança.
-ms.openlocfilehash: b7ccd7ddd766a1e109fb0363b56290020356946e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 7ecbae3fc942c6a96f9df5e84c0ee1922e1554b4
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635323"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036131"
 ---
 # <a name="manage-schedules-for-multiple-reports-in-the-security-amp-compliance-center"></a>Gerenciar agendas para vários relatórios no centro &amp; de conformidade de segurança
 

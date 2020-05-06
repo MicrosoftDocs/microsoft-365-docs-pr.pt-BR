@@ -15,12 +15,12 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Saiba como fechar sua conta com a Microsoft.
-ms.openlocfilehash: b71cfe8246b5e3e9471c76cf8043bad52840f194
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 43ec3fe2eedc354c0494818f97b01e8de63694c7
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942848"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045771"
 ---
 # <a name="close-your-account"></a>Fechar sua conta
 
@@ -40,7 +40,7 @@ Se sua organização usa o Active Directory que sincroniza com o Azure AD, exclu
 
 ## <a name="step-2-cancel-all-active-subscriptions"></a>Etapa 2: cancelar todas as assinaturas ativas
 
-1. No centro de administração, vá para a página de serviços de **cobrança** > de<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
+1. No centro de administração, vá para a página **cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Se a lista de assinaturas estiver no modo de exibição de **tabela** , no lado direito, selecione **cartões**.
 
@@ -52,7 +52,7 @@ Se sua organização usa o Active Directory que sincroniza com o Azure AD, exclu
 
 ## <a name="step-3-delete-all-disabled-subscriptions"></a>Etapa 3: excluir todas as assinaturas desabilitadas
 
-1. No centro de administração, vá para a página de serviços de **cobrança** > de<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
+1. No centro de administração, vá para a página **cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Se a lista de assinaturas estiver no modo de exibição de **tabela** , no lado direito, selecione **cartões**.
 

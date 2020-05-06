@@ -13,13 +13,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
-description: Os administradores podem configurar um conector nativo para importar dados de uma página da empresa do LinkedIn para o Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar a conformidade dos dados de terceiros da sua organização.
-ms.openlocfilehash: 6b74e6ba8dca810a8a185ae6011207a419c3e79d
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom:
+- seo-marvel-apr2020
+description: Configure um conector para importar dados do LinkedIn para a Microsoft 365, de modo que você possa usar ferramentas de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção.
+ms.openlocfilehash: 7d88d366ea19be7d158a04edc7d7fb11dca7bab9
+ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943210"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44043342"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data"></a>Configurar um conector para arquivar dados do LinkedIn
 
@@ -57,17 +59,15 @@ Depois que os dados da página da empresa do LinkedIn são armazenados em uma ca
 
 6. Selecione a página da empresa da qual você deseja arquivar itens e clique em **Avançar**.
 
-7. Na página **definir filtros** , você pode aplicar um filtro para importar inicialmente os itens que tenham uma determinada idade. Selecione uma idade e clique em **Avançar**.
+7. Na página **escolher local de armazenamento** , clique na caixa, selecione o endereço de email de uma caixa de correio do Microsoft 365 em que os itens do LinkedIn serão importados e clique em **Avançar**. Os itens são importados para a pasta caixa de entrada nesta caixa de correio.
 
-8. Na página **escolher local de armazenamento** , clique na caixa, selecione o endereço de email de uma caixa de correio do Microsoft 365 para a qual os itens do LinkedIn serão importados e clique em **Avançar**. Os itens são importados para a pasta caixa de entrada nesta caixa de correio.
+8. Em **fornecer consentimento do administrador**, clique em **fornecer consentimento** e siga as etapas. Você deve ser um administrador global para fornecer consentimento para o serviço de importação do Office 365 para acessar dados em sua organização.
 
-9. Em **fornecer consentimento do administrador**, clique em **fornecer consentimento** e siga as etapas. Você deve ser um administrador global para fornecer consentimento para o serviço de importação do Office 365 para acessar dados em sua organização.
-
-10. Clique em **Avançar** para revisar as configurações do conector e clique em **concluir** para concluir a configuração do conector.
+9. Clique em **Avançar** para revisar as configurações do conector e clique em **concluir** para concluir a configuração do conector.
 
 Depois de criar o conector, você pode voltar para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector (selecione **Atualizar** , se necessário, para atualizar a lista de conectores). O valor na coluna **status** está **aguardando para iniciar**. É necessário ter até 24 horas para que o processo inicial de importação seja iniciado. Após a primeira vez que o conector é executado e importa os itens do LinkedIn, o conector é executado uma vez a cada 24 horas e importa os novos itens que são criados na página da empresa do LinkedIn nas últimas 24 horas.
 
-Para exibir mais detalhes, selecione o conector na lista na página **conectores de dados** para exibir a página do menu de atalho. Em **status**, o intervalo de datas exibido indica o filtro de idade que foi selecionado quando o conector foi criado. 
+Para exibir mais detalhes, selecione o conector na lista na página **conectores de dados** para exibir a página do menu de atalho. Em **status**, o intervalo de datas exibido indica o filtro de idade que foi selecionado quando o conector foi criado.
 
 ## <a name="more-information"></a>Mais informações
 
