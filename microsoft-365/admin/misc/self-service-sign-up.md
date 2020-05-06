@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 4f8712ff-9346-4c6c-bb63-a21ad7a62cbd
 description: Saiba mais sobre os programas de autoatendimento do Microsoft 365 de autoatendimento e disponíveis, como os aplicativos de alimentação da Microsoft, o Microsoft Flow e o Dynamics 365 para finanças.
 ms.custom: okr_SMB
-ms.openlocfilehash: d20609d48c71795205940546bef752c236ae3e81
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 02d318fbafb6e062f9c3d1592cd6adc7f764fd56
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627795"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045262"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>Usando a inscrição de autoatendimento em sua organização
 
@@ -42,7 +42,7 @@ O exemplo a seguir descreve como o auto-inscrição funciona para uma escola. O 
 
 3. Validamos o endereço de email e, em seguida, eles podem começar a usar o Microsoft 365, Power BI ou outros serviços imediatamente.
 
-4. Como administrador de negócios, você vê quem se inscreveu para uma assinatura, exibindo a página **produtos & Services** no centro de administração. Dessa forma, você pode ver quando há licenças novas ou não reconhecidas para serviços em seu locatário. Para controlar se os usuários podem se inscrever em subscrições de autoatendimento, use o cmdlet do PowerShell [set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0) com o parâmetro **AllowAdHocSubscriptions** . Para obter mais informações, consulte [como controlar as configurações de autoatendimento?](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide)
+4. Como administrador de negócios, você vê quem se inscreveu para uma assinatura, exibindo a página **seus produtos** no centro de administração. Dessa forma, você pode ver quando há licenças novas ou não reconhecidas para serviços em seu locatário. Para controlar se os usuários podem se inscrever em subscrições de autoatendimento, use o cmdlet do PowerShell [set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0) com o parâmetro **AllowAdHocSubscriptions** . Para obter mais informações, consulte [como controlar as configurações de autoatendimento?](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide)
 
 ## <a name="available-self-service-programs"></a>Programas de autoatendimento disponíveis
 
@@ -64,5 +64,5 @@ A seguir estão os programas autoatendimento disponíveis atualmente. Essa lista
 |**Centro de serviços de licença por volume da Microsoft** <br/> |O centro de serviços de licença de volume da Microsoft exibe licenças adquiridas sob Enterprise, Select, Education (campus ou School), Open Value, Open License, and ISV Royalty Agreements.  <br/> |[Treinamento e recursos do VLSC](https://www.microsoft.com/en-us/Licensing/existing-customer/vlsc-training-and-resources.aspx) <br/> |[Centro de serviços de licença de volume](https://www.microsoft.com/Licensing/servicecenter/default.aspx) <br/> |
 |**Minecraft Education Edition** <br/> |Usando o Minecraft como uma plataforma para o aprendizado, os educadores podem motivar e inspirar cada aluno a alcançar mais e Ignite uma paixão para o aprendizado. Ingresse em uma comunidade de educadores aprendendo a usar o Minecraft para desbloquear o potencial do aluno.  <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841480) <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841471) <br/> |
 |**Microsoft Stream** <br/> |Carregue e compartilhe vídeos em sua organização para melhorar a comunicação, a participação e o aprendizado.  <br/> |[Experiência do &amp; dia de inscrição 0](https://go.microsoft.com/fwlink/p/?linkid=841472) <br/> |[Microsoft Stream](https://go.microsoft.com/fwlink/p/?linkid=841473) <br/> |
-|**Automatização de energia** <br/> |A automatização de energia é um produto para ajudá-lo a configurar fluxos de trabalho automatizados entre seus aplicativos e serviços favoritos para sincronizar arquivos, obter notificações, coletar dados e muito mais.  <br/> |[Inscreva-se e entre para automatizar a alimentação](https://docs.microsoft.com/power-automate/sign-up-sign-in) <br/> |[Automatização de energia](https://go.microsoft.com/fwlink/p/?linkid=841465) <br/> |
+|**Power Automate** <br/> |A automatização de energia é um produto para ajudá-lo a configurar fluxos de trabalho automatizados entre seus aplicativos e serviços favoritos para sincronizar arquivos, obter notificações, coletar dados e muito mais.  <br/> |[Inscreva-se e entre para automatizar a alimentação](https://docs.microsoft.com/power-automate/sign-up-sign-in) <br/> |[Power Automate](https://go.microsoft.com/fwlink/p/?linkid=841465) <br/> |
 |**Agentes virtuais de alimentação** <br/> |Os agentes virtuais de alimentação capacitam o Teams a criar facilmente bots poderosos usando uma interface gráfica orientada e sem código, sem a necessidade de cientistas ou desenvolvedores de dados. Os agentes virtuais de alimentação resolvem muitos dos principais problemas com a criação de bot no setor atualmente. Ele elimina a lacuna entre os especialistas no assunto e as equipes de desenvolvimento que montam os bots, e a longa latência entre as equipes que reconhecem um problema e a atualização do bot para o endereçamento.  <br/> |[Detalhes de licenciamento e acesso](https://go.microsoft.com/fwlink/?linkid=2113708) <br/> |[Inscrever-se para agentes virtuais de alimentação](https://aka.ms/TryPVA) <br/> |

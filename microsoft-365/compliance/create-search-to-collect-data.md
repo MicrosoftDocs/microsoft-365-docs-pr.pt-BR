@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 4b740b07b59b7500b8f57584767796b7f31ae87d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba como criar, definir e escolher os responsáveis e os locais do custodial para uma pesquisa em um caso de descoberta eletrônica avançada.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 1d9051824ff3f28484d0750b982edd70334a9b88
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635971"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035763"
 ---
 # <a name="create-a-search"></a>Criar uma pesquisa
 

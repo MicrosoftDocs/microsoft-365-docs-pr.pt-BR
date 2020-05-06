@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 806e27f85df0c51ffe019f5fd3c702c165afdd89
-ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
+description: Saiba como gerenciar conjuntos de revisão para que você possa analisar, consultar, exibir, marcar e exportar dados em um caso de descoberta eletrônica avançada.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: c489fa77c8e2d40d4f50275848465d5e8334c7a1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43800052"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034163"
 ---
 # <a name="manage-review-sets-in-advanced-ediscovery"></a>Gerenciar conjuntos de análise na descoberta eletrônica avançada
 

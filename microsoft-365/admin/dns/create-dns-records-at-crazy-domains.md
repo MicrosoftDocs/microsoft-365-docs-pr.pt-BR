@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6386d63e-b78f-4736-90e7-b99a2c116a9f
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em domínios malucos para a Microsoft.
-ms.openlocfilehash: 5a5a0f4c92e14bdfd6c54249cd66c9e88abee075
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: 05f0f281d97d497fe3a6cf9695e5c458492f95aa
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939326"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049078"
 ---
 # <a name="create-dns-records-at-crazy-domains-for-microsoft"></a>Criar registros DNS em domínios malucos para a Microsoft
 
@@ -72,7 +72,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
     ![CrazyDomains-BP-Verify-1-1](../../media/f0ffdefb-d7a5-47df-bb5e-bf8a3bcc9b01.png)
   
-7. Clique em **Adicionar**.
+7. Selecione **Adicionar**.
     
     ![CrazyDomains-BP-Verify-1-2](../../media/b0cd623a-67f7-4bae-a5b5-507f5a106123.png)
   
@@ -80,7 +80,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
     |**Subdomínio**|**Registro de Texto**|
     |:-----|:-----|
-    |(Leave this field empty.)  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |(Leave this field empty.)  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![CrazyDomains-BP-Verify-1-3](../../media/3867de97-6a98-4475-9bda-470bac75d483.png)
   
@@ -139,7 +139,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-configure-2-1](../../media/63f7ab77-e686-4e7b-a3a2-1ac28a02d5f3.png)
   
-7. Clique em **Adicionar**.
+7. Selecione **Adicionar**.
     
     ![CrazyDomains-BP-configure-2-2](../../media/a60680a1-2513-498c-b42f-8ffa575ee48e.png)
   
@@ -149,7 +149,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Email para a zona**|**Prioridade**|**Atribuído a um servidor**|
     |:-----|:-----|:-----|
-    |(Deixe este campo vazio.)  <br/> |1  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta da Microsoft.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |(Deixe este campo vazio.)  <br/> |1  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta da Microsoft.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
        
    ![CrazyDomains-BP-configure-2-3](../../media/e27df6a6-19a6-4e58-9716-a74be1c3f8da.png)
   
@@ -198,7 +198,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-configure-3-1](../../media/2f02538b-fc79-46d2-a2b7-1022eaf0fb08.png)
   
-7. Clique em **Adicionar**.
+7. Selecione **Adicionar**.
     
     ![CrazyDomains-BP-configure-3-2](../../media/4c5929cf-1c21-4af9-899b-e36091f0f14d.png)
   
@@ -230,7 +230,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-configure-3-5](../../media/dbe578f6-359c-428c-b296-ca624cecfc3c.png)
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -260,7 +260,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-configure-4-1](../../media/7f2461e2-0468-49bd-9eb0-981e9b2f72d6.png)
   
-7. Clique em **Adicionar**.
+7. Selecione **Adicionar**.
     
     ![CrazyDomains-BP-configure-4-2](../../media/64ef9e1f-676d-46e2-9253-a83d9bcd1c4e.png)
   
@@ -268,7 +268,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Subdomínio**|**Registro de Texto**|
     |:-----|:-----|
-    |(Deixe este campo vazio.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
+    |(Deixe este campo vazio.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
    
     ![CrazyDomains-BP-configure-4-3](../../media/e7fd524a-c94b-4cdd-b264-67abb532a71b.png)
   
@@ -303,7 +303,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-configure-5-1](../../media/156acebc-7f6d-4b5e-8493-6bc62ca0ee27.png)
   
-7. Clique em **Adicionar**.
+7. Selecione **Adicionar**.
     
     ![CrazyDomains-BP-configure-5-2](../../media/6a711df7-4215-49b2-b58f-1cf1a242b383.png)
   

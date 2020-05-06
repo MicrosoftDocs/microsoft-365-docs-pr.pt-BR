@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Saiba como você pode ter mais de um endereço de email, chamado alias de email, associado à sua conta do Microsoft 365 for Business. '
-ms.openlocfilehash: 66ff2441c95ed28b2072792fd0a63b16eea85c04
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: efd0dbf5ae072c803b52d94dd41f16db9bb0413a
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629078"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048802"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Adicionar outro alias de email para um usuário
   
@@ -68,7 +68,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     > Se você comprou a assinatura da GoDaddy ou de outro parceiro, vá até o respectivo console de gerenciamento para definir o novo alias como principal. 
   
     > [!TIP]
-    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Adicionar um domínio ao Office 365](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207.aspx). 
+    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Adicionar um domínio ao Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). 
   
      
 5. Quando terminar, escolha **salvar alterações**.
@@ -100,7 +100,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     > Se você comprou a assinatura da GoDaddy ou de outro parceiro, vá até o respectivo console de gerenciamento para definir o novo alias como principal. 
   
     > [!TIP]
-    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Adicionar um domínio ao Office 365](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207.aspx). 
+    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Adicionar um domínio ao Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). 
 
 5. Quando terminar, selecione **salvar**.
 
@@ -131,7 +131,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     > Se você comprou a assinatura da GoDaddy ou de outro parceiro, vá até o respectivo console de gerenciamento para definir o novo alias como principal. 
   
     > [!TIP]
-    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Adicionar um domínio ao Office 365](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207.aspx). 
+    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Adicionar um domínio ao Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). 
 
 5. Quando terminar, selecione **salvar**.
 

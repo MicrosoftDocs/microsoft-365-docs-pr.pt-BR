@@ -1,5 +1,5 @@
 ---
-title: 'Executar um relatório de grupo de função de administrador no EOP '
+title: Executar um relatório de grupo de função de administrador no EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -11,13 +11,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
-description: Os administradores podem aprender a executar um relatório de grupo de funções de administrador no Exchange Online Protection (EOP). Este relatório registra quando um administrador adiciona ou remove membros dos grupos de função de administrador, o Microsoft proteção do Exchange Online (EOP) registra cada ocorrência.
-ms.openlocfilehash: d9e7db8accae259b3eb332ce17c52c6749c2bec2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.custom:
+- seo-marvel-apr2020
+description: Neste artigo, você aprenderá a executar um relatório de grupo de funções de administrador no Exchange Online Protection (EOP).
+ms.openlocfilehash: d3c4db8079a71ba054f323617d3ade65083a3a04
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598538"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034451"
 ---
 # <a name="run-an-administrator-role-group-report-in-eop"></a>Executar um relatório de grupo de função de administrador no EOP
 

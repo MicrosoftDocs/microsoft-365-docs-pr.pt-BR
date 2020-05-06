@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 099b19df89026562201131d1e7c099785b1cb03e
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: Saiba como exportar ou baixar o conteúdo de um conjunto de revisão para apresentações ou revisões externas em um caso de descoberta eletrônica avançada.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 2aeb8b2cdfa850c3878b23205ce965794ea3be15
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558182"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035949"
 ---
 # <a name="export-case-data-in-advanced-ediscovery"></a>Exportar dados de caso na descoberta eletrônica avançada
 

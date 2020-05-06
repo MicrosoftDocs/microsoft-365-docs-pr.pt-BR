@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 11115db9e9a29f9abe83b3c26322f7586806d4dc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba como usar a ferramenta de gerenciamento de responsáveis interna na descoberta eletrônica avançada para coordenar seus fluxos de trabalho e identificar fontes de dados relevantes em um caso.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b0c85fb080faeeafd5909c033bc95ef14efc2c45
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632306"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034685"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>Adicionar responsáveis a uma ocorrência de descoberta eletrônica avançada
 

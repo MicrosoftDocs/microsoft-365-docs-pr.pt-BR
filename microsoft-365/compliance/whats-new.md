@@ -1,5 +1,5 @@
 ---
-title: O que há de novo no centro de conformidade da Microsoft 365
+title: O que há de novo no centro de conformidade
 f1.keywords:
 - NOCSH
 ms.author: brendonb
@@ -17,12 +17,13 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Estamos adicionando novos recursos para o centro de conformidade da Microsoft 365, corrigindo os problemas que aprendemos e fazendo alterações com base em seus comentários. Descubra o que temos para este mês.
-ms.openlocfilehash: 2f172c8639215285a793f16f4913917be6a58614
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 940d316c97370a477c963785ae7e90482b35a46c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626257"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034263"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>O que há de novo no centro de conformidade da Microsoft 365
 
@@ -142,7 +143,7 @@ Aqui está um resumo das novas soluções que você encontrará. Fique atento pa
 > Essas soluções estão localizadas somente no centro de conformidade da Microsoft 365. Eles não podem ser gerenciados no centro de conformidade & segurança do Office 365.
 <br/>
 
-|**Nova solução**|**Descrição**|**Saiba Mais**|
+|**Nova solução**|**Descrição**|**Saiba mais**|
 |:-----|:-----|:-----|
 |Pontuação de conformidade da Microsoft (visualização) <br/>|Criado a partir do [Gerenciador de conformidade](compliance-manager-overview.md), a pontuação de conformidade é um recurso autônomo com um design mais simples e mais fácil, que ajuda você a compreender e aprimorar a postura de conformidade da sua organização. Ele calcula uma pontuação baseada em risco medindo seu progresso em ações de conclusão que ajudam a reduzir os riscos relacionados à proteção de dados e aos padrões normativos. <br/>|[Visão geral da Pontuação de conformidade da Microsoft (versão prévia)](compliance-score.md)|
 |Catálogo de soluções (versão prévia) <br/>|O catálogo de soluções é seu ponto de partida para descoberta, aprendizado e rápida introdução às soluções de gerenciamento de conformidade e risco. O catálogo é organizado em três categorias de conformidade, cada uma contendo detalhes sobre as soluções que compõem essa categoria. As categorias incluem proteção de informações & governança, gerenciamento de risco do insider e resposta de & de descoberta <br/>|[Visão geral do catálogo de soluções (versão prévia)](microsoft-365-solution-catalog.md)|
@@ -158,12 +159,12 @@ Se você estiver usando o centro de conformidade de & de segurança do Office 36
 > Alguns recursos ainda estão disponíveis somente no centro de conformidade & segurança do Office 365 – eles estão indicados abaixo. Mas estamos trabalhando para visualizar isso no centro de conformidade da Microsoft 365, portanto, fique atento às atualizações. 
 <br/>
 
-|**Recurso**|**Centro de Segurança e Conformidade do Office 365**|**Centro de conformidade do Microsoft 365**|**Saiba Mais**|
+|**Recurso**|**Centro de Segurança e Conformidade do Office 365**|**Centro de conformidade do Microsoft 365**|**Saiba mais**|
 |:-----|:-----|:-----|:-----|
 |Descoberta Eletrônica Avançada|descoberta eletrônica avançada > de descoberta eletrônica <br/> https://protection.office.com/advancedediscoverycases |> de descoberta eletrônica avançada <br/> https://compliance.microsoft.com/advancedediscovery | [Visão geral da solução de descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md) |
 |Políticas de alerta|Alertas > políticas de alerta <br/> https://protection.office.com/alertpolicies |No momento, as políticas de alerta são gerenciadas apenas no centro de conformidade & segurança do Office 365. |[Políticas de alerta no centro de conformidade e segurança](alert-policies.md) |
 |Alertas|Alertas > exibir alertas <br/> https://protection.office.com/viewalerts |Alertas <br/> https://compliance.microsoft.com/compliancealerts |[Exibir alertas](alert-policies.md#viewing-alerts)|
-|Arquivo|Arquivamento de > de governança de informações <br/> https://protection.office.com/archiving |Guia arquivar > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=archive |[Habilitar caixas de correio de arquivo morto](enable-archive-mailboxes.md)|
+|Arquivar|Arquivamento de > de governança de informações <br/> https://protection.office.com/archiving |Guia arquivar > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=archive |[Habilitar caixas de correio de arquivo morto](enable-archive-mailboxes.md)|
 |Pesquisa de log de auditoria|Pesquisa > pesquisa de log de auditoria <br/> https://protection.office.com/unifiedauditlog |Faça <br/> https://compliance.microsoft.com/auditlogsearch | [Pesquisar o log de auditoria no centro de conformidade & segurança](search-the-audit-log-in-security-and-compliance.md)|
 |Pesquisa de conteúdo|Pesquisar > pesquisa de conteúdo <br/> https://protection.office.com/contentsearchbeta?ContentOnly=1 | Pesquisa de conteúdo <br/> https://compliance.microsoft.com/contentsearch |[Pesquisar conteúdo no Office 365](search-for-content.md) |
 |Conectores de dados|> de governança de informações arquivar dados de terceiros <br/> https://protection.office.com/nativeconnector | Conectores de dados <br/> https://compliance.microsoft.com/connectorlanding |[Arquivar dados de terceiros](archiving-third-party-data.md)|
@@ -191,13 +192,13 @@ Ao configurar a criptografia para um rótulo de confidencialidade, agora você t
 - Ao aplicar o rótulo ao **email do Outlook**, os usuários podem impor restrições equivalentes à opção não encaminhar. Os destinatários poderão ler a mensagem, mas não encaminhar, imprimir ou copiar o conteúdo.
 - Ao aplicar o rótulo a **arquivos do Word, PowerPoint e Excel**, os usuários serão solicitados a atribuir permissões de acesso a usuários e grupos específicos.
 
-[Saiba Mais](encryption-sensitivity-labels.md#let-users-assign-permissions)
+[Saiba mais](encryption-sensitivity-labels.md#let-users-assign-permissions)
 
 ## <a name="august-2019"></a>Agosto de 2019
 
 ### <a name="update-to-data-investigations"></a>Atualizar para investigações de dados
 
-Ao realizar uma investigação de dados, agora você pode excluir itens de seus locais originais. Isso significa que você pode excluir itens de caixas de correio do Exchange, sites do SharePoint e contas do OneDrive em sua organização. Como você coletou os itens como evidência, terá cópias deles retidas no conjunto de evidências para que possa investigar mais ou simplesmente manter como uma referência. [Saiba Mais](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) 
+Ao realizar uma investigação de dados, agora você pode excluir itens de seus locais originais. Isso significa que você pode excluir itens de caixas de correio do Exchange, sites do SharePoint e contas do OneDrive em sua organização. Como você coletou os itens como evidência, terá cópias deles retidas no conjunto de evidências para que possa investigar mais ou simplesmente manter como uma referência. [Saiba mais](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) 
 
 ## <a name="july-2019"></a>Julho de 2019
 

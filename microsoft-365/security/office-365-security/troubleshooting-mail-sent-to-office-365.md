@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 ms.collection:
 - M365-security-compliance
-description: Este artigo fornece informações de solução de problemas para remetentes que estão enfrentando problemas ao tentar enviar emails para caixas de entrada no Microsoft 365 e práticas recomendadas para envio de emails em massa para clientes.
-ms.openlocfilehash: 89fd6d11cca0d7689203948922b27e46ae2c602a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Este artigo fornece informações sobre como solucionar problemas com o envio de emails para as caixas de entrada no Microsoft 365 & práticas recomendadas para envio de email em massa para os clientes da Microsoft 365.
+ms.openlocfilehash: 849707ee8b703f13ac12ecb414a8ed9ea6421704
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631140"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036735"
 ---
 # <a name="troubleshooting-mail-sent-to-office-365"></a>Solução de problemas de email enviados para o Office 365
 

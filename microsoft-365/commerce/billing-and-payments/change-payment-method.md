@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: Saiba como alterar a forma de pagamento para sua assinatura de negócios.
-ms.openlocfilehash: 8b2528b694dcca181d0508e54894ca50364eac20
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 195bdcd580663fe2cb9789562a52208753500a79
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708150"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045899"
 ---
 # <a name="change-your-payment-method"></a>Alterar sua forma de pagamento
 
@@ -53,7 +53,7 @@ Se você mudar de fatura para cartão de crédito ou conta bancária, seus encar
 Se você alterar de cartão de crédito ou conta bancária para fatura, qualquer saldo pendente será transferido para sua próxima fatura.
   
 > [!NOTE]
-> Se você pagar por cartão de crédito e seu cartão de crédito for recusado, você receberá um email informando que não foi possível processar o pagamento. Você pode atualizar suas informações de cartão de crédito e enviar o pagamento imediatamente usando o link de **equilíbrio de liquidação** na página **produtos & Services** . Para obter mais informações, consulte e [se meu cartão de crédito foi recusado e se o meu pagamento está](pay-for-your-subscription.md#what-if-my-credit-card-was-declined-and-my-payment-is-past-due) vencido? 
+> Se você pagar por cartão de crédito e seu cartão de crédito for recusado, você receberá um email informando que não foi possível processar o pagamento. Você pode atualizar suas informações de cartão de crédito e enviar o pagamento imediatamente usando o link de **equilíbrio de liquidação** na página **seus produtos** . Para obter mais informações, consulte e [se meu cartão de crédito foi recusado e se o meu pagamento está](pay-for-your-subscription.md#what-if-my-credit-card-was-declined-and-my-payment-is-past-due) vencido? 
   
 ::: moniker-end
 
@@ -81,14 +81,14 @@ Se você estiver migrando de *cartão de crédito ou conta bancária para fatura
 
 ::: moniker range="o365-worldwide"
 
-## <a name="change-from-invoice-to-credit-card-or-bank-account"></a>Trocar de fatura para cartão de crédito ou conta bancária
+## <a name="change-from-invoice-to-credit-card-or-bank-account"></a>Mudar de fatura para cartão de crédito ou conta bancária
 
 > [!TIP]
 > As etapas a seguir se aplicam apenas às assinaturas individuais. Caso tenha várias assinaturas na organização, faça os seguintes procedimentos para cada assinatura que desejar alterar.
   
-Quando você muda de pagamento por fatura para pagar com um cartão de crédito ou uma conta bancária, criamos automaticamente uma nova assinatura para você, move seus usuários para a nova assinatura e, em seguida, desabilita sua assinatura antiga. Não se preocupe, seus usuários não verão uma interrupção no serviço e todas as informações estarão disponíveis por meio da nova assinatura.
+Quando você muda de pagamento por fatura para pagamento com cartão de crédito ou conta bancária, criamos automaticamente uma nova assinatura para você, migramos seus usuários para a nova assinatura e desabilitamos sua assinatura antiga. Não se preocupe, seus usuários não verão uma interrupção no serviço e todas as suas informações estarão disponíveis através da nova assinatura.
 
-1. No centro de administração, vá para a página de serviços de **cobrança** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Se você estiver no modo de exibição de **tabela** , selecione **cartões**.
 
@@ -106,7 +106,7 @@ Quando você muda de pagamento por fatura para pagar com um cartão de crédito 
 
 ::: moniker range="o365-germany"
 
-## <a name="change-from-invoice-to-credit-card-or-bank-account"></a>Trocar de fatura para cartão de crédito ou conta bancária
+## <a name="change-from-invoice-to-credit-card-or-bank-account"></a>Mudar de fatura para cartão de crédito ou conta bancária
 
 > [!TIP]
 > As etapas a seguir se aplicam apenas às assinaturas individuais. Caso tenha várias assinaturas na organização, faça os seguintes procedimentos para cada assinatura que desejar alterar.
@@ -137,22 +137,22 @@ Ao retornar para a página **Assinaturas**, você verá a assinatura antiga marc
 
 ::: moniker range="o365-worldwide"
 
-## <a name="change-from-credit-card-or-bank-account-to-invoice"></a>Trocar de cartão de crédito ou conta bancária para fatura
+## <a name="change-from-credit-card-or-bank-account-to-invoice"></a>Mudar de cartão de crédito ou conta bancária para fatura
 
-Você pode alterar para pagar por fatura somente se o seu pedido estiver acima de uma determinada quantidade. Se você não atender aos requisitos, verá a mensagem "a quantidade de pedidos não é grande o suficiente para se qualificar para fatura com o fio de cheque".
+Você pode alterar para pagar por fatura apenas se o seu pedido estiver acima de uma determinada quantidade. Se você não atender ao requisito, verá a mensagem "A quantidade do seu pedido não é grande o suficiente para ser qualificada para fatura com transferência bancária".
 
-Se a quantidade de pedidos for muito alta, uma verificação de crédito poderá ser necessária. Em caso afirmativo, você verá a mensagem "não qualificado para mudar para fatura. Seu pedido requer uma verificação de crédito. " Nesse caso, você muda para pagar por fatura manualmente. Use as etapas a seguir para concluir a alteração manual.
+Se a quantidade do seu pedido for muito alta, pode ser necessária uma verificação de crédito. Nesse caso, você verá a mensagem "Não qualificado para alterar a fatura. O pedido exige uma verificação de crédito." Nesse caso, você altera para pagar manualmente por fatura. Use as etapas a seguir para concluir a alteração manual.
 
-1. Vá para <a href="https://Office365.com" target="_blank">office365.com</a> e compre a mesma assinatura do que você tem no momento. Ao fazer check-out, escolha a opção de pagamento por fatura.
+1. Vá para <a href="https://Microsoft365.com" target="_blank">Microsoft365.com</a> e compre a mesma assinatura do que você tem no momento. Ao fazer check-out, escolha a opção de pagamento por fatura.
 
     > [!IMPORTANT]
-    > Você não pode usar a página **produtos & Services** no centro de administração para comprar a assinatura. Você deve usar o <a href="https://Office365.com" target="_blank">office365.com</a>.
+    > Você não pode usar a página **seus produtos** no centro de administração para comprar a assinatura. Você deve usar o <a href="https://Microsoft365.com" target="_blank">Microsoft365.com</a>.
 
 2. Após a conclusão da compra, cancele a assinatura original. Seus usuários são automaticamente movidos para a nova assinatura.
 
 Se nenhuma verificação de crédito for necessária, use as etapas a seguir para alterar o pagamento por fatura.
 
-1. No centro de administração, vá para a página de serviços de **cobrança** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Se você estiver no modo de exibição de **tabela** , selecione **cartões**.
 
@@ -164,7 +164,7 @@ Se nenhuma verificação de crédito for necessária, use as etapas a seguir par
 
 6. Insira seu nome, endereço e número de telefone. Você também pode adicionar um número de OC para exibir na fatura.
   
-7. Quando tiver terminado, selecione **salvar**.
+7. Quando terminar, selecione **Salvar**.
 
 8. Verifique se o método de pagamento selecionado está correto e, em seguida, selecione **salvar**.
 
@@ -172,7 +172,7 @@ Se nenhuma verificação de crédito for necessária, use as etapas a seguir par
 
 ::: moniker range="o365-germany"
 
-## <a name="change-from-credit-card-or-bank-account-to-invoice"></a>Trocar de cartão de crédito ou conta bancária para fatura
+## <a name="change-from-credit-card-or-bank-account-to-invoice"></a>Mudar de cartão de crédito ou conta bancária para fatura
 
 > [!NOTE]
 > A opção de pagamento por fatura só estará disponível se a sua assinatura estiver em um determinado valor (que varia de acordo com o local do serviço). Podemos solicitar uma verificação de crédito, em caso de pagamentos de valor superior por meio de fatura. Para saber mais, confira [o pagamento da sua assinatura](pay-for-your-subscription.md).
@@ -198,7 +198,7 @@ Se nenhuma verificação de crédito for necessária, use as etapas a seguir par
 
 Você pode usar as etapas a seguir a qualquer momento para verificar a forma de pagamento configurada para uma assinatura específica.
 
-1. No centro de administração, vá para a página de serviços de **cobrança** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">produtos &</a> .
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Encontre a assinatura que você deseja verificar. A forma de pagamento configurada para a assinatura aparece na seção **cobrança** .
 

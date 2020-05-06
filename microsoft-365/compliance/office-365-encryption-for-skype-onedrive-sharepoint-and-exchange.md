@@ -16,13 +16,14 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - SPO_Content
-description: 'Resumo: uma descrição da criptografia para o Skype, o OneDrive, o SharePoint e o Exchange Online.'
-ms.openlocfilehash: 13c46df74861120b6f5c2fbe7132f912ef29dde3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Neste artigo, encontre uma descrição da criptografia do Office 365 para Skype, OneDrive, SharePoint e Exchange Online.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9e250f3fe63875f2f1d65f2765e114f212e72f35
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637281"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031391"
 ---
 # <a name="encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>Criptografia para Skype for Business, OneDrive for Business, SharePoint Online e Exchange Online
 

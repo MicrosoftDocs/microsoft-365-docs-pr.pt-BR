@@ -1,5 +1,5 @@
 ---
-title: Detecção de duplicata próxima
+title: Detecção de duplicidade próxima-descoberta eletrônica
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: e1a9ffe264925911f475732ffd98a43fa533e458
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Use a detecção quase duplicada para agrupar documentos semelhantes ao analisar dados de caso para descoberta eletrônica avançada.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 4c24e1b67af68dc5fccd900fc390a63e8da3c389
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071308"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036436"
 ---
 # <a name="near-duplicate-detection"></a>Detecção de duplicata próxima
 

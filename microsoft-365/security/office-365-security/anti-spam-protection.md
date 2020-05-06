@@ -16,13 +16,15 @@ search.appverid:
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
-description: Saiba mais sobre as configurações e filtros antispam que ajudarão você a evitar spam no Exchange Online e no Microsoft 365. Obtendo muito spam no Microsoft 365? Você pode personalizar suas configurações de filtro de spam e antispam.
-ms.openlocfilehash: 3bb1c81af0061cc20b4c7bb2a963c0d06b7914e3
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba mais sobre as configurações e filtros antispam que ajudarão você a evitar spam no Exchange Online e no Microsoft 365.
+ms.openlocfilehash: 96132bf66438861eb117aedd841f7912de1258cc
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708566"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034053"
 ---
 # <a name="anti-spam-protection-in-microsoft-365"></a>Proteção antispam no Microsoft 365
 
@@ -71,7 +73,7 @@ Veja a seguir algumas práticas recomendadas que se aplicam a qualquer um dos ce
 
 - **Usar autenticação de email**: se você for um domínio de email, poderá usar o DNS para ajudar a garantir que as mensagens de remetentes desse domínio sejam legítimas. Para ajudar a evitar spam e falsificação indesejada no EOP, use todos os seguintes métodos de autenticação de email:
 
-  - **SPF**: a estrutura da política do remetente verifica o endereço IP de origem da mensagem em relação ao proprietário do domínio de envio. Para obter uma breve introdução ao SPF e para configurá-lo rapidamente, consulte [Configurar o SPF para ajudar a evitar a falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md). Para obter uma compreensão mais detalhada sobre como a Microsoft 365 usa o SPF ou para solução de problemas ou implantações não padrão, como implantações híbridas, 365 comece a [usar a estrutura de política de remetente (SPF) para evitar falsificações](how-office-365-uses-spf-to-prevent-spoofing.md).
+  - **SPF**: a estrutura da política do remetente verifica o endereço IP de origem da mensagem em relação ao proprietário do domínio de envio. Para obter uma breve introdução ao SPF e para configurá-lo rapidamente, consulte [Configurar o SPF para ajudar a evitar a falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md). Para compreender melhor como o Microsoft 365 usa a SPF, para solucionar problemas ou para implantações fora do padrão, como as implantações híbridas, comece com [Como o Microsoft 365 usa a estrutura de política do remetente (SPF) para evitar a falsificação](how-office-365-uses-spf-to-prevent-spoofing.md).
 
   - **DKIM**: DomainKeys identificado mail adiciona uma assinatura digital ao cabeçalho da mensagem de mensagens enviadas do seu domínio. Para saber mais, confira [usar DKIM para validar emails de saída enviados do seu domínio personalizado no Microsoft 365](use-dkim-to-validate-outbound-email.md).
 

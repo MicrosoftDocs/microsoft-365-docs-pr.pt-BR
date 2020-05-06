@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
-description: A filtragem de spam de saída está sempre habilitada se você utilizar o serviço de envio de email de saída, protegendo assim as organizações que utilizam o serviço e seus destinatários desejados.
-ms.openlocfilehash: 27f79252d2d08c374784064ac6a12bc4cc7725ea
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Neste artigo, você aprenderá como configurar políticas de spam de saída que se aplicam a usuários, grupos ou domínios específicos em sua organização.
+ms.openlocfilehash: 644ffb51c92f4d71d3ae2cde1eba408289573f48
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637719"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036783"
 ---
 # <a name="configure-outbound-spam-filtering"></a>Configurar a filtragem de spam de saída
 
@@ -29,7 +31,7 @@ Se você for um cliente Microsoft 365 com caixas de correio no Exchange Online o
 
 O spam de saída de um usuário em sua organização normalmente indica uma conta comprometida. Mensagens de saída suspeitas são marcadas como spam (independentemente do nível de confiança de spam ou SCL) e são roteadas através do [pool de entrega de alto risco](high-risk-delivery-pool-for-outbound-messages.md) para ajudar a proteger a reputação do serviço (ou seja, manter os servidores de email de origem do Microsoft 365 fora das listas de bloqueios de IP). Os administradores são notificados automaticamente sobre atividade de email de saída suspeita e usuários bloqueados por meio de [políticas de alerta](../../compliance/alert-policies.md).
 
-O EOP usa políticas de spam de saída como parte da defesa geral da sua organização contra spam. Para obter mais informações, consulte [proteção](anti-spam-protection.md)antispam.
+O EOP usa políticas de spam de saída como parte da defesa geral da sua organização contra spam. Para obter mais informações, consulte [Proteção antispam](anti-spam-protection.md).
 
 Os administradores podem exibir, editar e configurar (mas não excluir) a política de spam de saída padrão. Para maior granularidade, você também pode criar políticas personalizadas de spam de saída que se aplicam a usuários, grupos ou domínios específicos em sua organização. Políticas personalizadas sempre terão prioridade sobre a política padrão, mas você pode alterar a prioridade (ordem de execução) de suas políticas personalizadas.
 
@@ -77,7 +79,7 @@ Para aumentar a eficácia da filtragem de spam de saída, você pode criar polí
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell da Proteção do Exchange Online autônoma, confira [Conectar ao PowerShell da Proteção do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
-- Você precisa receber permissões para executar esses procedimentos. Para adicionar, modificar e excluir políticas de spam de saída, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** . Para acesso somente leitura às políticas de spam de saída, você precisa ser membro do grupo de função **leitor de segurança** . Para obter mais informações sobre grupos de função no centro de conformidade de & de segurança, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
+- Você precisa receber permissões para executar esses procedimentos. Para adicionar, modificar e excluir políticas de spam de saída, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** . Para acesso somente leitura às políticas de spam de saída, você precisa ser membro do grupo de função **leitor de segurança** . Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
 - Para obter as configurações recomendadas para políticas de spam de saída, confira [configurações de política de filtro de spam de saída do EOP](recommended-settings-for-eop-and-office365-atp.md#eop-outbound-spam-policy-settings).
 

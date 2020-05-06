@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: b286f853-b484-4af0-b01f-281fffd85e7a
 ms.collection:
 - M365-security-compliance
-description: As configurações avançadas de filtro de spam (ASF) nas políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) permitem que os administradores identifiquem mensagens que contêm propriedades de mensagens específicas que são comumente usadas em spam. Dependendo da propriedade, as detecções de ASF marcarão a mensagem como spam ou spam de alta confiança.
-ms.openlocfilehash: 58114fa97d46a5a6f6f49c24826ace9edd811e1d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba mais sobre as configurações avançadas de filtro de spam (ASF) em políticas antispam, que permitem que os administradores identifiquem mensagens contendo propriedades de mensagens específicas comumente usadas em spam.
+ms.openlocfilehash: 31793f5996cc27cf7e5de75d9c190657e6592c57
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634725"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034122"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-office-365"></a>Configurações avançadas de filtro de spam (ASF) no Office 365
 

@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: dbb08031504059adffc652c1c66ce710eac2ead3
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+description: Saiba como criar e executar uma consulta dentro de suas evidências em uma investigação de dados, adicionando condições e filtros para restringir os resultados.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a75c188bb7374e08911290acb0a1d0bd6a21566c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "41590712"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034099"
 ---
 # <a name="query-the-data-in-evidence"></a>Consultar os dados em evidência
 

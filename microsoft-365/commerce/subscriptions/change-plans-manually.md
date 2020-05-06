@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: Altere as assinaturas manualmente, comprando uma nova assinatura e garantindo que ambas as assinaturas estejam listadas e ativas.
-ms.openlocfilehash: bcd9a129ef1597469ef9bbf93841b5db4f919f1e
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: fcaa3ebfd9d20fa50c9f37f3366aec9d4dd69103
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707626"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046187"
 ---
 # <a name="change-plans-manually"></a>Alterar planos manualmente
 
@@ -58,14 +58,14 @@ Inclua uma licença para cada usuário que você deseja mover.
 
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>Etapa 3: verificar sua nova assinatura e licenças
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. **Verificar se as duas assinaturas estão listadas e ativas** A assinatura da qual você está migrando usuários e a assinatura à qual você está movendo usuários devem estar listadas em conjunto. Se a nova assinatura não estiver quando você verificar pela primeira vez, tente novamente mais tarde. Verifique se ambas as assinaturas estão ativas. [A nova assinatura não está listada ou não está ativa](#the-new-subscription-isnt-listed-or-isnt-active).
 
 3. **Verifique se você tem licenças suficientes para cada usuário** Cada usuário precisa de uma licença que corresponda à sua assinatura. Portanto, se você quiser mover dez usuários para o Microsoft 365 Business Premium, será necessário garantir que dez licenças estejam disponíveis.
 
 4. **Precisa de mais licenças para a nova assinatura?**
-   Vá até a página **produtos & serviços** e [compre mais licenças](../licenses/buy-licenses.md).
+   Vá para a página **produtos** e [compre mais licenças](../licenses/buy-licenses.md).
 
 > [E as licenças antigas?](#what-about-the-old-licenses)
 
