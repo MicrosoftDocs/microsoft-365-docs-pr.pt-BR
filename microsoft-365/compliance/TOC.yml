@@ -22,6 +22,8 @@
       items:
         - name: Saiba mais sobre o gerenciamento de riscos internos
           href: insider-risk-management.md
+        - name: Planejar o gerenciamento de riscos internos
+          href: insider-risk-management-plan.md
         - name: Introdução ao gerenciamento de riscos internos
           href: insider-risk-management-configure.md
         - name: Criar e gerenciar políticas de riscos internos
