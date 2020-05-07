@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Tem uma pergunta sobre como funcionam os novos recursos de proteção de mensagens? Verifique se há uma resposta aqui.
-ms.openlocfilehash: 93b57e2b973fadd8b4ac2388e42f460114228c3c
-ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+ms.openlocfilehash: 75b414aecfbe9d3952d7e3c5994946775d353a6f
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43781456"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049516"
 ---
 # <a name="message-encryption-faq"></a>Perguntas frequentes sobre criptografia de mensagens
 
@@ -109,11 +109,11 @@ Se houver suporte para um formato de arquivo, como um arquivo do Word, Excel ou 
   
 ## <a name="are-pdf-file-attachments-supported"></a>Há suporte para anexos de arquivos PDF?
 
-A resposta curta é sim! A criptografia de PDF permite proteger documentos PDF confidenciais por meio de comunicação segura ou colaboração segura. Quando você envia um email, o serviço do Office 365 criptografa anexos de arquivo PDF não o cliente Outlook. 
+A resposta curta é sim! A criptografia de PDF permite proteger documentos PDF confidenciais por meio de comunicação segura ou colaboração segura. Quando você envia um email, o serviço do Office 365 criptografa anexos de arquivo PDF não o cliente Outlook.
 
-Após habilitar a criptografia de anexo de arquivo PDF, você poderá criptografar PDFs enviados sem nenhuma etapa adicional do Outlook na Web, do Outlook para iOS e do Outlook para Android.
+Para o Outlook na Web, Outlook para iOS e Outlook para Android, você pode criptografar PDFs enviados sem nenhuma etapa adicional. Esses clientes oferecem suporte nativo à criptografia PDF.
 
-O Outlook desktop não oferece suporte nativo à criptografia de anexos de arquivos PDF. Para contornar isso, você ainda pode habilitar a criptografia de anexo de arquivo PDF em sua organização. Quando você envia emails da área de trabalho do Outlook com um anexo em PDF, o cliente envia a mensagem com o anexo para o serviço primeiro. Quando o serviço recebe o arquivo, o serviço aplica a proteção OME da política de prevenção contra perda de dados (DLP) ou regra de fluxo de emails no Exchange Online. Em seguida, o Exchange Online envia a mensagem com o anexo de arquivo PDF protegido.
+O Outlook desktop não oferece suporte nativo à criptografia de anexos de arquivos PDF. Em vez disso, você precisará configurar as regras de fluxo de email do Exchange ou DLP para aplicar a criptografia a anexos em PDF primeiro. Quando você envia emails da área de trabalho do Outlook com um anexo em PDF, o cliente envia a mensagem com o anexo para o serviço primeiro. Quando o serviço recebe o arquivo, o serviço aplica a proteção OME da política de prevenção contra perda de dados (DLP) ou regra de fluxo de emails no Exchange Online. Em seguida, o Exchange Online envia a mensagem com o anexo de arquivo PDF protegido.
 
 Para habilitar a criptografia para anexos em PDF, execute o seguinte comando no [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell):
 

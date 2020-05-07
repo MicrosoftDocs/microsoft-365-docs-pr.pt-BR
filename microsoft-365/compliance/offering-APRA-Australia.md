@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 568a078c18ead86ddbf3e92cfec3bfc7367595e2
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: b344f9c4d750c6e6571c0e76be0c9db0c421271b
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41662037"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065886"
 ---
 # <a name="australian-prudential-regulation-authority-apra"></a>Autoridade de regulamentação Prudential australiana (APRA)
 
@@ -45,7 +45,7 @@ Este Microsoft paper fornece orientações detalhadas para os serviços financei
 
 A resposta da Microsoft enfoca as duas categorias de risco mais alto. Embora os serviços de nuvem não sejam proibidos por qualquer categoria de risco, o APRA espera que você faça um nível proporcional maior de auditoria e espere um nível crescente de análise de APRA, à medida que você move as categorias de risco. O APRA lista um intervalo de fatores que geralmente indicam o risco de alto ou radical inerente para a terceirização na nuvem. A Microsoft aborda cada um desses fatores em profundidade, fornecendo informações e ferramentas para ajudá-lo a avaliar e gerenciar o risco de mover seus dados e cargas de trabalho para o Azure.
 
-A Microsoft também aborda cada consideração de gerenciamento de risco do APRA: estratégia, governança, processo de seleção de solução, acesso APRA e capacidade de agir, abordagem de transição, avaliações de risco e segurança, supervisão contínuo, interrupção de negócios e auditoria e certeza. Ponto a ponto, daremos orientações e oferecemos ferramentas para ajudá-lo a responder a cada problema durante a implantação do Azure.
+A Microsoft também aborda cada consideração de gerenciamento de risco do APRA: estratégia, governança, processo de seleção de solução, acesso APRA e capacidade de agir, abordagem de transição, avaliações de risco e segurança, supervisão contínuo, interrupção de negócios e auditoria e garantia. Ponto a ponto, daremos orientações e oferecemos ferramentas para ajudá-lo a responder a cada problema durante a implantação do Azure.
 
 Obtenha suporte prático para mover dados e cargas de trabalho para o Azure em conformidade com as regulamentações do APRA: [baixar a resposta da Microsoft para o documento de informações do apra na nuvem](https://aka.ms/navigatecloudaustralia).
 
@@ -66,7 +66,7 @@ O CPS 234 espelha totalmente a estrutura básica de segurança da Microsoft: pro
 
 Esta lista de verificação da Microsoft apresenta os requisitos normativos APRA que as empresas financeiras devem resolver ao mudar para a nuvem. Ele mapeia o Azure contra não apenas a [terceirização Prudential standard do CPS 231](https://www.apra.gov.au/sites/default/files/Prudential-Standard-CPS-231-Outsourcing-%28July-2017%29.pdf), mas outros padrões relevantes do apra, como a continuidade de negócios e o gerenciamento de riscos. Concluir esta lista de verificação ajuda suas instituições de serviços financeiros a adotar o Azure com a confiança de que ele atende aos requisitos de APRA relevantes.
 
-Ao confiar em nossa abordagem abrangente para a garantia de risco na nuvem, temos certeza de que as organizações de serviços financeiros da Austrália podem migrar para os serviços de nuvem da Microsoft de uma maneira que não só seja consistente com as diretrizes do APRA, mas podem fornecer aos clientes um perfil de gerenciamento de riscos de segurança mais avançado do que o local ou outras soluções hospedadas.
+Ao confiar em nossa abordagem abrangente para a garantia de risco na nuvem, temos certeza de que as organizações de serviços financeiros da Austrália podem migrar para os serviços de nuvem da Microsoft de uma maneira que não só seja consistente com as diretrizes do APRA, mas podem fornecer aos clientes um perfil de gerenciamento de riscos de segurança mais avançado do que as soluções hospedadas ou outras.
 
 Obtenha suporte prático para mover dados e cargas de trabalho para o Azure em conformidade com as regulamentações do APRA: [baixar os serviços de nuvem da Microsoft: uma lista de verificação de conformidade para instituições financeiras na Austrália](https://www.microsoft.com/cms/api/am/binary/RE3ez0C).
 
@@ -82,7 +82,7 @@ Obtenha suporte prático para mover dados e cargas de trabalho para o Azure em c
 
 Não. No entanto, a maioria das organizações financeiras regulamentadas deve notificar o APRA após entrar em acordos para terceirizar atividades de negócios de material dentro da Austrália ou consultar o APRA antes de terceirizar essas atividades fora da Austrália.
 
-Além disso, se os serviços de nuvem forem considerados como "riscos herdados ou com maior ou radical" conforme descrito no artigo de informações do APRA [nas nuvens](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf), a instituição financeira será incentivada (mas não obrigatório) para consultar o apra, independentemente de o serviço ser ou não fornecido dentro ou fora da Austrália.
+Além disso, se os serviços de nuvem forem considerados como "riscos herdados ou com maior ou extremos" conforme descrito no papel de informações do APRA [nas nuvens](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf), a instituição financeira será incentivada (mas não necessária) para consultar o apra, independentemente de o serviço ser ou não fornecido dentro ou fora da Austrália.
 
 **São permitidas transferências de dados fora da Austrália?**
 
@@ -101,4 +101,4 @@ Sim. A legislação de privacidade geral (que se aplica a todos os setores, não
 - [Programa de Conformidade para Serviços Financeiros da Microsoft](https://www.microsoft.com/download/details.aspx?id=55332)
 - [Conformidade de serviços financeiros no Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Serviços de nuvem corporativos da Microsoft e serviços financeiros](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

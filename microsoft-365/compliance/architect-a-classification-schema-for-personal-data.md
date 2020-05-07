@@ -16,13 +16,14 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-description: Determine se sua organização implementará os rótulos como parte do plano do RGPD.
-ms.openlocfilehash: db61c5c26ed8484e99aa8f06310bdd3385cf2dce
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Determine se a sua organização implementará os rótulos como parte do seu plano da Regulamentação Geral de Proteção de Dados (RGPD).
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 17484e56206ba8f32db3c779623f2f8d7ed57496
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637131"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035163"
 ---
 # <a name="architect-a-classification-schema-for-personal-data"></a>Desenvolver um esquema de classificação para dados pessoais
 

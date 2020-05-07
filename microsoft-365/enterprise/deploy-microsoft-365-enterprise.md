@@ -1,5 +1,5 @@
 ---
-title: Implantar o Microsoft 365 para empresas
+title: Implantação do Microsoft 365 para empresas
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
@@ -13,16 +13,16 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 description: Entenda os recursos que você pode usar para implantar o Microsoft 365 para empresas na sua organização.
-ms.openlocfilehash: b37e7fa844a27596904e5684c5692c0193c35513
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 0e588816cb2393af05b48900821d7aae92b6853d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002350"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031421"
 ---
-# <a name="deploy-microsoft-365-for-enterprise"></a>Implantar o Microsoft 365 para empresas
+# <a name="deploy-microsoft-365-for-enterprise"></a>Implantação do Microsoft 365 para empresas
 
 O Microsoft 365 para empresas é uma combinação de aplicativos e serviços de produtividade locais e na nuvem com o Windows 10 Enterprise que:  
 
@@ -75,7 +75,7 @@ Comece sozinho em sua jornada de implantação de ponta a ponta [aqui](deploy-fo
 
 ## <a name="take-a-test-drive"></a>Faça um test drive
 
-“*É fazendo que se aprende a fazer aquilo que se deve aprender a fazer.*” - Aristóteles
+"*É fazendo que se aprende a fazer aquilo que se deve aprender a fazer.*" - Aristóteles
 
 Se você está começando a usar Microsoft 365 para empresas ou um produto específico ou recurso, uma das melhores formas de aprender é criar algo sozinho e ver isso funcionar.
 
@@ -117,7 +117,7 @@ Definir uma cultura digital é uma das principais prioridades para todo líder q
 
 Ao mesmo tempo, recursos de segurança inteligentes e integração de produto ajudam a simplificar as necessidades de gerenciamento e a minimizar o custo total de propriedade no ciclo de vida de TI. 
 
-Saiba como a Engenharia e Operações dos Principais Serviços (anteriormente Microsoft IT) [criou um Ambiente de Trabalho Moderno com o Microsoft 365](https://www.microsoft.com/en-us/itshowcase/microsoft-365).
+Saiba como a Engenharia e Operações dos Principais Serviços (anteriormente Microsoft IT) [criou um Ambiente de Trabalho Moderno com o Microsoft 365](https://www.microsoft.com/pt-BR/itshowcase/microsoft-365).
 
 > [!Note]
 > Esta página da Web só está disponível em inglês.

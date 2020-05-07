@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - M365solutions
 description: Garanta que seus funcionários remotos possam acessar recursos locais ao otimizar o acesso aos serviços em nuvem do Microsoft 365.
-ms.openlocfilehash: fb91451b52c55f2cad1e0efefe19a044ce1cc37b
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: daa1a04912dd83c7a53769299b3870b90dbfd33a
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002380"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049550"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>Etapa 2. Fornecer acesso remoto a aplicativos e serviços locais
 
@@ -35,6 +35,10 @@ Há três configurações principais:
 1. Você já está usando uma solução VPN de acesso remoto.
 2. Você não está usando uma solução VPN de acesso remoto, você possui identidade híbrida e precisa de acesso remoto apenas a aplicativos locais baseados na Web.
 3. Você não está usando uma solução VPN de acesso remoto e precisa acessar aplicativos locais, alguns dos quais não são baseados na Web.
+
+Confira este fluxograma para obter as opções de configuração de acesso remoto abordadas neste artigo.
+
+![Configuração de acesso remoto](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-flowchart.png)
 
 Com as conexões de acesso remoto, você também pode usar a [Área de Trabalho Remota](https://support.microsoft.com/help/4028379/windows-10-how-to-use-remote-desktop) para conectar os usuários a um computador local. Por exemplo, um trabalhador remoto pode usar a Área de Trabalho Remota para conectar-se ao computador em seu escritório a partir de dispositivos Windows, iOS ou Android. Uma vez conectados remotamente, eles podem usá-la como se estivessem sentados na frente dela.
 

@@ -1,6 +1,6 @@
 ---
-title: Descoberta de RGPD, proteção e relatórios no ambiente de desenvolvimento/teste
-description: Demonstre recursos de RGPD no Microsoft 365.
+title: Descoberta de RGPD, proteção e relatórios no ambiente de desenvolvimento/teste do Microsoft 365
+description: Saiba como configurar e demonstrar informações de identificação pessoal (PII) para GDPR em um ambiente de desenvolvimento/teste do Microsoft 365.
 f1.keywords:
 - NOCSH
 ms.author: bcarter
@@ -18,12 +18,13 @@ search.appverid:
 - MET150
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 6a16f48948cd40ea39f8d066471e902d2b5a6bf0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b35db1a7be133e61cbde03f02af83baf9341d32e
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632336"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034645"
 ---
 # <a name="gdpr-discovery-protection-and-reporting-in-the-devtest-environment"></a>Descoberta de RGPD, proteção e relatórios no ambiente de desenvolvimento/teste
 

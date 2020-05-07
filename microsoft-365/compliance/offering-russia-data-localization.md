@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 989d30a53b767bc8ec757c92e72198e3900bcfeb
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 70e36d4f11f7fc1a5870f41a32351cf7078bdc68
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943660"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065766"
 ---
 # <a name="russian-personal-data-localization-requirements"></a>Requisitos de localização de dados pessoais em Russo
 
@@ -71,5 +71,5 @@ Para perguntas técnicas e de cobrança, consulte os recursos de suporte da Micr
 - **Suporte online**: enviar consultas via [suporte à plataforma de alimentação](https://docs.microsoft.com/power-platform/admin/get-help-support)
 
 > [!NOTE]
-> <sup>1</sup> n º de leis federais 242-FZ (edição com data de 12.31.2014) "sobre a inserção de emendas em determinados atos legislativos da Federação Russa sobre como esclarecer o procedimento para processamento de dados pessoais em redes de informações e de telecomunicações" com data de 07.21.2014 <br>
+> <sup>1</sup> n º de leis federais 242-FZ (edição com data de 12.31.2014) ' sobre a inserção de emendas em certas atitudes legislativas da Federação Russa sobre como esclarecer o procedimento para processamento de dados pessoais em redes de informações e de telecomunicações <br>
 > <sup>2</sup> leis federais de no. 152-FZ em dados pessoais a partir de 7,27. 2006<br>

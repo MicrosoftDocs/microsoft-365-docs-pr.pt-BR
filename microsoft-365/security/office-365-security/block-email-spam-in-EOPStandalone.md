@@ -17,13 +17,14 @@ search.appverid:
 ms.assetid: da21c0b6-e8f0-4cc8-af2e-5029a9433d59
 ms.collection:
 - M365-security-compliance
-description: Documento para administradores autônomos de EOP para ajudar a evitar falsos negativos de spam
-ms.openlocfilehash: 326c51f7f6730d510f411b5318b29e97b128c078
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Aprenda a configurar o filtro antispam do Office 365 para bloquear spam de e-mail e impedir mensagens falsas negativas.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 16bb5530384dba360483eba3a8e05fbfdf3fe895
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630642"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035575"
 ---
 # <a name="customize-the-anti-spam-filter-with-these-settings"></a>Personalizar o filtro antispam com estas configurações
 

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 1a63e71df0d9ac6d43fce31ad2e974b787697a9a
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 797b32dfa0cd286cf7eb9b6e0aa128d332f5c19a
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919668"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066200"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -32,7 +32,7 @@ ms.locfileid: "43919668"
 >[!Important]
 >Não há suporte para o uso do PowerShell para criar e gerenciar políticas de conformidade de comunicação. Para criar e gerenciar essas políticas, você deve usar os controles de gerenciamento de políticas na [solução de conformidade de comunicação do Microsoft 365](https://compliance.microsoft.com/supervisoryreview).
 
-Você cria políticas de conformidade de comunicação para organizações do Microsoft 365 no centro de conformidade da Microsoft 365. Se você tiver uma organização do Microsoft 365, [configurará políticas de supervisão](configure-supervision-policies.md) no centro de conformidade e segurança &. As políticas de conformidade de comunicação definem quais comunicações e usuários estão sujeitos a revisar em sua organização, definir quais condições personalizadas as comunicações devem atender e especificar quem deve fazer revisões. Os usuários incluídos no grupo de função **administrador de análise de supervisão** podem configurar políticas e qualquer pessoa que tenha essa função atribuída pode acessar a página conformidade de **comunicação** no centro de conformidade da Microsoft 365. Se necessário, você pode exportar o histórico de modificações para uma política para um arquivo. csv que também inclui o status de alertas pendentes de revisão, itens escalonados e itens resolvidos. As políticas não podem ser renomeadas e podem ser excluídas quando não forem mais necessárias.
+Você cria políticas de conformidade de comunicação para organizações do Microsoft 365 no centro de conformidade da Microsoft 365. As políticas de conformidade de comunicação definem quais comunicações e usuários estão sujeitos a revisar em sua organização, definir quais condições personalizadas as comunicações devem atender e especificar quem deve fazer revisões. Os usuários incluídos no grupo de função **administrador de análise de supervisão** podem configurar políticas e qualquer pessoa que tenha essa função atribuída pode acessar a página conformidade de **comunicação** no centro de conformidade da Microsoft 365. Se necessário, você pode exportar o histórico de modificações para uma política para um arquivo. csv que também inclui o status de alertas pendentes de revisão, itens escalonados e itens resolvidos. As políticas não podem ser renomeadas e podem ser excluídas quando não forem mais necessárias.
 
 >[!NOTE]
 >Políticas de supervisão criadas no centro de segurança & conformidade para assinaturas do Office 365 não podem migrar para a Microsoft 365. Se você estiver migrando de uma assinatura do Office 365 para uma assinatura do Microsoft 365, será necessário criar novas políticas de conformidade de comunicação para substituir as políticas de supervisão existentes.
@@ -179,7 +179,7 @@ Para verificar as mensagens de email e anexos das mesmas palavras-chave, crie um
   
 #### <a name="enter-multiple-conditions"></a>Inserir várias condições
 
-Se você inserir várias condições, a Microsoft 365 usará todas as condições juntas para determinar quando aplicar a política de supervisão a itens de comunicação. Quando você configura várias condições, todas as condições devem ser atendidas para que a política seja aplicada, a menos que você insira uma exceção. Por exemplo, você precisará de uma política que se aplique se uma mensagem contiver a palavra "comércio" e maior que 2 MB. No entanto, se a mensagem também contiver as palavras "aprovadas pela contoso Financial", a política não deverá ser aplicada. Neste exemplo, as três condições seriam definidas da seguinte maneira:
+Se você inserir várias condições, a Microsoft 365 usará todas as condições juntas para determinar quando aplicar a política de conformidade de comunicação aos itens de comunicação. Quando você configura várias condições, todas as condições devem ser atendidas para que a política seja aplicada, a menos que você insira uma exceção. Por exemplo, você precisará de uma política que se aplique se uma mensagem contiver a palavra "comércio" e maior que 2 MB. No entanto, se a mensagem também contiver as palavras "aprovadas pela contoso Financial", a política não deverá ser aplicada. Neste exemplo, as três condições seriam definidas da seguinte maneira:
   
 - A **mensagem contém qualquer uma destas palavras**, com as palavras-chave "trade"
 - O **tamanho da mensagem é maior que**, com o valor 2 MB
@@ -187,7 +187,7 @@ Se você inserir várias condições, a Microsoft 365 usará todas as condiçõe
 
 ### <a name="review-percentage"></a>Porcentagem de revisão
 
-Se quiser reduzir a quantidade de conteúdo a ser revisada, você poderá especificar uma porcentagem de todas as comunicações governadas por uma política de supervisão. Uma amostra de conteúdo aleatória em tempo real é selecionada da porcentagem total de conteúdo que corresponde às condições de política escolhidas. Se quiser que os revisores Revisem todos os itens, você pode configurar **100%** em uma política de conformidade de comunicação.
+Se quiser reduzir a quantidade de conteúdo a ser revisada, você poderá especificar uma porcentagem de todas as comunicações governadas por uma política de conformidade de comunicação. Uma amostra de conteúdo aleatória em tempo real é selecionada da porcentagem total de conteúdo que corresponde às condições de política escolhidas. Se quiser que os revisores Revisem todos os itens, você pode configurar **100%** em uma política de conformidade de comunicação.
 
 ## <a name="notices"></a>Avisos
 
@@ -195,7 +195,7 @@ Você pode criar modelos de aviso se quiser enviar aos usuários um aviso de lem
 
 Os modelos de avisos são modelos de email personalizados onde você pode definir os seguintes campos de mensagem:
 
-|**Field**|**Required**| **Detalhes** |
+|**Campo**|**Required**| **Detalhes** |
 |:-----|:-----|:-----|
 |**Nome do modelo** | Sim | Nome amigável para o modelo de aviso que você selecionará no fluxo de trabalho notificar durante a correção, suporta caracteres de texto. |
 | **Endereço do remetente**. | Sim | O endereço de um ou mais usuários ou grupos que enviam a mensagem para o funcionário com uma correspondência de política, selecionado no Active Directory para a sua assinatura. |
@@ -287,7 +287,7 @@ Em alguns casos, você deve fornecer informações para auditores regulamentares
 
 Para exibir as atividades de política de conformidade de comunicação, selecione o controle **Exportar atividades de revisão** na página principal de qualquer política. Esta ação gera um arquivo de auditoria no formato. csv que contém as seguintes informações:
 
-|**Field**|**Detalhes**|
+|**Campo**|**Detalhes**|
 |:-----|:-----|
 | **CreationDate** | A data em que a atividade foi realizada em uma política. |
 | **UserIds** | O usuário que realizou a atividade em uma política. |

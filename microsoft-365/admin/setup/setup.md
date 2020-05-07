@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 6a3a29a0-e616-4713-99d1-15eda62d04fa
 description: Aprenda a configurar o Microsoft 365 Business Standard, o Microsoft 365 Business Basic, os aplicativos do Microsoft 365 for Business ou o Office 365 Education.
-ms.openlocfilehash: 448dc7ae990a4c9803ea751e4ad855f375195734
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 812d1a65986f53e53a02d4c1b70c823dffa98786
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627541"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053855"
 ---
 # <a name="set-up-microsoft-365-for-business"></a>Configurar o Microsoft 365 para empresas
 
@@ -309,9 +309,9 @@ Para fazer um tour pelo Microsoft 365 e aprender a usar todos os aplicativos do 
 
 ### <a name="get-ready-for-office-365"></a>Prepare-se para o Office 365
 
-- **Primeiro, verifique se você está qualificado para uma assinatura Education:** Siga as etapas para [Verify your Microsoft domain to prove ownership, nonprofit or education status, or to activate Yammer](https://support.office.com/article/87d1844e-aa47-4dc0-a61b-1b773fd4e590), para que a Microsoft autorize você a usar um plano Education. Em seguida, você pode configurar o Office 365 para a sua escola, seguindo as orientações neste artigo.
+- **Primeiro, verifique se você está qualificado para uma assinatura Education:** Siga as etapas para [Verify your Microsoft domain to prove ownership, nonprofit or education status, or to activate Yammer](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq), para que a Microsoft autorize você a usar um plano Education. Em seguida, você pode configurar o Office 365 para a sua escola, seguindo as orientações neste artigo.
 
-- **Precisa de ajuda?** Se precisar de ajuda com uma implantação mais avançada, o **[FastTrack](https://www.microsoft.com/en-us/fasttrack/microsoft-365/office-365)** é um ótimo lugar para começar. Você também pode [encontrar um parceiro](https://go.microsoft.com/fwlink/p/?linkid=391089) para ajudá-lo.
+- **Precisa de ajuda?** Se precisar de ajuda com uma implantação mais avançada, o **[FastTrack](https://www.microsoft.com/pt-BR/fasttrack/microsoft-365/office-365)** é um ótimo lugar para começar. Você também pode [encontrar um parceiro](https://go.microsoft.com/fwlink/p/?linkid=391089) para ajudá-lo.
 
 - **Planejar** Essas ferramentas e recursos ajudarão a preparar sua rede, diretório e os usuários do Office 365: [Preparar sua organização para o Office 365 Enterprise](https://support.office.com/article/712fced7-f9d0-4fde-8b79-286262a5d0bc).
 

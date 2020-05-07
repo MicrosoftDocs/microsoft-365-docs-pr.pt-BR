@@ -1,6 +1,6 @@
 ---
 title: Regulamento Geral sobre a Proteção de Dados
-description: Diretrizes técnicas da Microsoft para o RGPD (Regulamento Geral sobre a Proteção de Dados)
+description: Saiba mais sobre as diretrizes técnicas da Microsoft e encontre informações úteis para a Norma Geral de Proteção de Dados (GDPR).
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
@@ -15,12 +15,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 960a09c89c855861e3db0402f40dd558b27527ac
-ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: fb89a24e48dbdadd9a1af863cb8c44ded46435b1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42322550"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036204"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Resumo do Regulamento Geral sobre a Proteção de Dados
 
@@ -136,11 +137,11 @@ A Microsoft pratica princípios de privacidade estrutural e privacidade por padr
 Essas análises de privacidade tendem a ser granulares – um serviço específico pode receber dezenas ou centenas de análises. A Microsoft implementa essas análises de privacidade granulares em Avaliações do Impacto sobre a Proteção dos Dados (DPIAs) que abrangem os principais agrupamentos de processamento, que então são examinadas pelo Oficial de Proteção de Dados (DPO) da Microsoft EU. O DPO avalia os riscos relacionados ao processamento de dados para garantir que existam mitigações suficientes em vigor. Se o DPO detectar riscos não mitigados, as alterações repassadas ao grupo de engenharia. As DPIAs serão revisadas e atualizadas à medida que os riscos à proteção dos dados mudarem.
 
 
-A Microsoft, como processador, tem o dever de ajudar os controladores a assegurar a conformidade com os requisitos para DPIA estabelecidos no RGPD. Para dar suporte aos nossos clientes, as seções relevantes de DPIAs da Microsoft foram abstraídas e serão fornecidas por meio desta seção em atualizações futuras, com a intenção de permitir que os controladores que dependem de serviços da Microsoft aproveitem os resumos para criar suas próprias DPIAs.
+A Microsoft, como processador, tem o dever de ajudar os controladores a assegurar a conformidade com os requisitos para DPIA estabelecidos no RGPD. Para dar suporte aos nossos clientes, as seções relevantes de DPIAs da Microsoft foram abstraídas e serão fornecidas por meio desta seção em atualizações futuras, com a intenção de permitir que os controladores que dependem de serviços Microsoft aproveitem os resumos para criar suas próprias DPIAs.
 
 ## <a name="breach-notification"></a>Notificação de falha
 
-O RGPD impõe requisitos de notificação para controladores e processadores de dados para uma violação de dados pessoais. Como um processador de dados, a Microsoft garante que os clientes possam atender aos requisitos de notificação de violação do RGPD. Os controladores de dados são responsáveis por avaliar os riscos de privacidade de dados e determinar se uma violação exige uma notificação de DPA do cliente. A Microsoft fornece as informações necessárias para a avaliação. Para obter mais informações sobre como a Microsoft detecta e responde a uma violação de dados pessoais, confira [Notificação de violação de dados no RGPD](gdpr-breach-notification.md).
+O RGPD impõe requisitos de notificação para controladores e processadores de dados para uma violação de dados pessoais. Como um processador de dados, a Microsoft garante que os clientes possam atender aos requisitos de notificação de violação do RGPD. Os controladores de dados são responsáveis por avaliar os riscos à privacidade de dados e determinar se uma violação exige uma notificação de DPA do cliente. A Microsoft fornece as informações necessárias para a avaliação. Para obter mais informações sobre como a Microsoft detecta e responde a uma violação de dados pessoais, confira [Notificação de violação de dados no RGPD](gdpr-breach-notification.md).
 
 ### <a name="breach-notification-faqs"></a>Perguntas frequentes sobre notificação de falha
 
@@ -183,7 +184,7 @@ Essas [listas de verificação](gdpr-arc.md) fornecem uma forma conveniente de a
 
 **A Microsoft faz os compromissos com seus clientes em relação ao RGPD?**
 
-Sim. O RGPD exige que os controladores (por exemplo, organizações que usam os serviços online da Microsoft) usem apenas processadores (como Microsoft) que forneçam garantias suficientes para atender aos principais requisitos do RGPD. A Microsoft tomou a iniciativa de se comprometer com todos os clientes de Licenciamento por Volume como parte de seus acordos.
+Sim. O RGPD exige que os controladores (por exemplo, organizações que usam os serviços online da Microsoft) usem apenas processadores (como a Microsoft) que forneçam garantias suficientes para atender aos principais requisitos do RGPD. A Microsoft tomou a iniciativa de se comprometer com todos os clientes de Licenciamento por Volume como parte de seus acordos.
 
 **Como a Microsoft me ajuda a consentir?**
 
@@ -191,7 +192,7 @@ A Microsoft fornece ferramentas e documentação para dar suporte à sua respons
 
 **Quais compromissos estão nos termos RGPD?**
 
-Os termos de RGPD da Microsoft refletem os compromissos obrigatórios dos processadores no artigo 28. O artigo 28 exige que os processadores se comprometam a:
+Os Termos de RGPD da Microsoft refletem os compromissos obrigatórios dos processadores no Artigo 28. O artigo 28 exige que os processadores se comprometam a:
 
 - Usar somente os subprocessadores com o consentimento do controlador e se responsabilizar por subprocessos.
 - Processe dados pessoais somente nas instruções do controlador, incluindo em relação a transferências.
@@ -222,7 +223,7 @@ O RGPD impõe uma ampla variedade de requisitos às organizações que coletam o
 - *Limitando o armazenamento de dados pessoais*. Será necessário garantir que os dados pessoais sejam retidos apenas pelo tempo necessário para alcançar o propósito para o qual os dados foram coletados.
 - Garantindo *segurança*, *integridade* e *confidencialidade de dados pessoais*. Sua organização deve tomar medidas para manter os dados pessoais protegidos por meio de medidas de segurança técnica e organizacional.
 
-Você precisará entender as obrigações específicas da sua organização com o CCPA, e como às atenderá, embora a Microsoft esteja disponível para te ajudar em sua jornada.
+Você precisará entender as obrigações específicas da sua organização com o RGPD, e como as atenderá, embora a Microsoft esteja disponível para te ajudar em sua jornada.
 
 **Quais direitos as empresas precisam garantir segundo os termos do RGDP?**
 
@@ -250,7 +251,7 @@ Sim, o RGPD se aplica a controladores e processadores. Os controladores devem us
 
 **Qual o valor máximo da multa pela não conformidade das empresas?**
 
-As empresas podem ser multadas em até € 20m ou 4% do faturamento global anual, o que for maior, por não atender a determinados requisitos do RGPD. Outras soluções individuais podem aumentar o risco caso você não cumpra aos requisitos do RGPD.
+As empresas podem ser multadas em até &euro;20m ou 4% do faturamento global anual, o que for maior, por não atender a determinados requisitos do RGPD. Outras soluções individuais podem aumentar o risco caso você não cumpra aos requisitos do RGPD.
 
 **Minha empresa precisa indicar um DPO (Diretor de Proteção de Dados)?**
 
@@ -274,7 +275,7 @@ Sim. Embora as regras sejam diferentes, o RGPD se aplica à organizações que c
 
 **O que é considerado especificamente dados pessoais?**
 
-Os dados pessoais são quaisquer informações relacionadas a uma pessoa, identificável ou não. Não há distinção entre as funções pública, privada ou corporativa de uma pessoa. Os dados pessoais podem incluir:
+Os dados pessoais são quaisquer informações relacionadas a uma pessoa, identificável ou não. Não há distinção entre as funções pública, privada ou de trabalho de uma pessoa. Os dados pessoais podem incluir:
 
 - Nome
 - Endereço residencial
@@ -311,7 +312,7 @@ No caso em que existam motivos legítimos para o processamento contínuo e para 
 
 A criptografia é identificada na RGPD como uma medida de proteção que processa dados pessoais ininteligíveis quando eles forem afetados por uma violação. Portanto, o uso ou não da criptografia pode afetar os requisitos para a notificação de uma violação de dados pessoais. O RGPD também aponta para a criptografia como uma medida técnica ou organizacional adequada em alguns casos, dependendo do risco. A criptografia também é um requisito do Padrão de Segurança de dados do setor de cartão de crédito e parte das diretrizes de conformidade estritas específicas para o setor de serviços financeiros. Os produtos e serviços da Microsoft, como o Azure, o Dynamics 365, o Enterprise Mobility + Security, o Office Microsoft 365, o banco de dados SQL Server/Azure SQL e o Windows 10 oferecem criptografia robusta para dados em trânsito e dados em repouso.
 
-**Como o RGPD altera a resposta de uma organização para violações de dados pessoais?**
+**Como o RGPD altera a resposta de uma organização a violações de dados pessoais?**
 
 O RGPD alterará os requisitos de proteção de dados e tomará obrigações mais estritas para processadores e controladores em relação a notificações de violações de dados pessoais. Sob a nova regulamentação, o processador deve notificar o controlador de dados de uma violação de dados pessoal, depois de ter ciência, sem atrasos inesperados. Depois de conhecer um vazamento de dados pessoal, o controlador deve notificar a autoridade de proteção de dados relevante em até 72 horas. Se a violação provavelmente resultar em um alto risco para os direitos e as liberdade das pessoas, os controladores também precisarão notificar as pessoas afetadas sem atrasos indesejados. As diretrizes adicionais neste tópico estão sendo elaboradas pelo Grupo de Trabalho do Artigo 29 da UE.
 

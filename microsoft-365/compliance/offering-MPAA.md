@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d6f817ed755237a49d792ca66f78977729c5d13f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 47aabfdff1973b3edff21c858d25c158ce39c6a7
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602158"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065632"
 ---
 # <a name="motion-picture-association-of-america-mpaa"></a>Motion Picture Association of America (MPAA)
 
@@ -35,9 +35,7 @@ A avaliação da MPAA abrange 48 tópicos de segurança nas Diretrizes Comuns e 
 
 Essa avaliação formal de conformidade do Azure significa que as empresas que fazem negócios com os principais estúdios podem usar o Azure para ajudar a reduzir os custos de TI normalmente associados com a criação, o gerenciamento, o armazenamento e a distribuição segura de conteúdo e, ao mesmo tempo, atender aos requisitos da MPAA. Os Serviços de Mídia, Armazenamento, Redes Virtuais e mais de 30 outros serviços internos e externos do Azure fornecem um mecanismo de fluxo de trabalho de conteúdo na nuvem que é mais seguro e escalonável que os processos de produção locais tradicionais e mais eficientes para proteger os ativos de mídia downstream.
 
-Saiba mais sobre os benefícios da MPAA na nuvem da Microsoft : [Baixe o informativo da MPAA](https://aka.ms/mpaa-backgrounder)
-
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [O Azure está em conformidade com as diretrizes de práticas recomendadas da MPAA](https://aka.ms/AzureCompliance)
 
@@ -70,7 +68,3 @@ As instalações do estúdios de filmagem, as empresas de efeitos visuais e outr
 - [ Auto-avaliação do CSA STAR do Azure](https://www.microsoft.com/TrustCenter/Compliance/CSA-self-assessment)
 - [Respostas do Azure ao CSA CAIQ v3.0.1](https://gallery.technet.microsoft.com/Azure-Responses-to-CSA-46034a11)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/7/A/1/7A19B051-3399-4222-BEF1-E6E3E0A17961/MPAA_Backgrounder.pdf).

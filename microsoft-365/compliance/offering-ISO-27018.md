@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4376d2ca5ac27ec8e12f266bb7d3bb54289c1dbd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8c04362747a3e4767defcf746e1158849c00725b
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637521"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065756"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>Código de Conduta ISO/IEC 27018 para Proteção de Dados Pessoais na Nuvem
 
@@ -40,9 +40,7 @@ Ao seguir os padrões da ISO/IEC 27001 e o código de conduta incorporado na ISO
 - **Os clientes da Microsoft sabem o que acontece com as PII deles.** A ISO/IEC 27018 exige uma política que possibilite o retorno, a transferência e o descarte seguro de informações pessoais dentro de um período aceitável. Se a Microsoft trabalhar com outras empresas que precisem acessar seus dados de clientes, a Microsoft divulga as identidades desses subprocessadores de forma proativa.
 - **A Microsoft cumprirá apenas as solicitações de divulgação de dados de clientes obrigatórias por lei.** Se for necessário que a Microsoft cumpra uma solicitação desse tipo, como no caso de investigações criminais, ela sempre notificará o cliente, a menos que isso seja proibido por lei.
 
-Saiba mais sobre os benefícios da ISO-Iec-27018 no Microsoft Cloud: [Baixe o informativo da ISO/IEC 27017](https://aka.ms/iso27017-backgrounder)
-
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Azure, Azure Governamental e Azure Alemanha](https://aka.ms/AzureCompliance)
 - Cloud App Security
@@ -132,8 +130,4 @@ A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso 
 - [Políticas de acesso a dados para a nuvem empresarial e serviços técnicos da Microsoft](https://www.microsoft.com/trustcenter/Privacy/Who-can-access-your-data-and-on-what-terms)
 - [Termos de Serviços Online da Microsoft](https://aka.ms/Online-Services-Terms)
 - [Nuvem Governamental da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2087246)
-- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/F/D/A/FDA4697E-D72D-4513-8626-A5F294DC7A0F/ISOIEC_27018_Compliance_Backgrounder.pdf).
+- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

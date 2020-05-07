@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7a0dfc1b03099d52255f2e474ba8d99c2ea3a2cb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a305c66aaa3359417bd72b8525ed63787d655f8f
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602148"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065676"
 ---
 # <a name="multi-tier-cloud-security-mtcs-standard-for-singapore"></a>Padrão MTCS (Multi-Tier Cloud Security) para Singapura
 
@@ -42,9 +42,7 @@ Depois de avaliações rigorosas realizadas pelo MTCS Certification Body, os ser
 
 As certificações foram concedidas no Nível 3 para os serviços do Azure (IaaS e PaaS), Serviços do Microsoft Dynamics 365 (SaaS) e Serviços do Microsoft Office 365 (SaaS). Uma certificação Nível 3 significa que os serviços de nuvem no escopo da Microsoft podem hospedar dados de alto impacto para organizações regulamentadas seguindo os requisitos de segurança mais rigorosos. Ela é exigida pelo governo de Singapura para determinadas implementações de soluções em nuvem.
 
-Saiba mais sobre os benefícios do MTCS no Microsoft Cloud: [Baixe o informativo do padrão MTCS para Singapura](https://aka.ms/mtcs-backgrounder)
-
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Azure](https://go.microsoft.com/fwlink/p/?linkid=2092718)
 - [Dynamics 365](https://go.microsoft.com/fwlink/p/?linkid=2051700)
@@ -105,7 +103,3 @@ Sim. Se houver uma requisição para certificar seus serviços baseados nesses s
 - [Conformidade do Azure no contexto dos requisitos de segurança e privacidade de Singapura](https://aka.ms/azurecompliancesingapore)
 - [Termos do Microsoft Online Services](https://aka.ms/Online-Services-Terms)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/3/1/A/31AA4618-A5AE-4013-832B-C7A23CEBC26E/MCTS_Compliance_Backgrounder.pdf).

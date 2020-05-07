@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6a2957ed5782c9449a1715669a7e220940572a66
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 68dfc85b2f7ba4025393c82fa7ca5c67575ca0d2
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602568"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066244"
 ---
 # <a name="canadian-privacy-laws"></a>Leis de Privacidade do Canadá
 
@@ -27,7 +27,7 @@ ms.locfileid: "41602568"
 
 As leis de privacidade canadenses foram estabelecidas para proteger a privacidade dos indivíduos e dar-lhes o direito de acessar as informações coletadas sobre eles. O [Gabinete do Comissário de Privacidade do Canadá](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/02_05_d_15/) (OPCC) supervisiona a conformidade com essas leis.
 
-A [Lei de Privacidade](https://privacy.microsoft.com/en-US/#heading-0-0-2-1) regula como as organizações do governo federal coletam, usam e divulgam informações de identificação pessoal, incluindo as dos funcionários federais. A [Lei de Proteção de Informações Pessoais e Documentos Eletrônicos](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/) (PIPEDA) rege os mesmos princípios para as atividades de negócios de empresas comerciais com fins lucrativos e para os funcionários de empresas regulamentadas pelo governo federal, como bancos, companhias aéreas e empresas de telecomunicações.
+A [Lei de Privacidade](https://privacy.microsoft.com/pt-BR/#heading-0-0-2-1) regula como as organizações do governo federal coletam, usam e divulgam informações de identificação pessoal, incluindo as dos funcionários federais. A [Lei de Proteção de Informações Pessoais e Documentos Eletrônicos](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/) (PIPEDA) rege os mesmos princípios para as atividades de negócios de empresas comerciais com fins lucrativos e para os funcionários de empresas regulamentadas pelo governo federal, como bancos, companhias aéreas e empresas de telecomunicações.
 
 A PIPEDA baseia-se em 10 [princípios justos da informação](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/) que as empresas devem seguir para poder cumpri-los. Por exemplo, o princípio básico do consentimento dá origem ao requisito da PIPEDA que diz que as organizações devem ter a permissão de um indivíduo para coletar ou usar suas informações pessoais. Os indivíduos têm o direito de acessar essas informações pessoais e desafiar sua precisão (fundamentada no princípio do "acesso individual"). O princípio de "fins de identificação" leva à regra de que informações pessoais podem ser usadas apenas para os fins acordados.
 
@@ -79,7 +79,3 @@ A PIPEDA não exige que as empresas canadenses mantenham as informações pessoa
 - [Declaração de Privacidade da Microsoft](https://privacy.microsoft.com/privacystatement)
 - [Considerações sobre privacidade na nuvem](https://download.microsoft.com/download/0/9/D/09DE47F6-F9E5-4C14-B9E8-E8119A130ACC/Privacy_considerations_in_the_cloud.pdf)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/1/9/3/19390188-F5C7-4819-80BB-30B84304E499/CanadianPrivacyLaws-Compliance.pdf).

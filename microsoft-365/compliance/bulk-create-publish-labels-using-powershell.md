@@ -15,13 +15,15 @@ localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
-description: No Office 365, você pode usar rótulos de retenção para implementar uma agenda de retenção na sua organização. Usando os arquivos script e .csv fornecidos, você pode criar e publicar rótulos de retenção e políticas de rótulo de retenção usando o PowerShell.
-ms.openlocfilehash: 055bc785c492e2fa37bc60ce4e383f79111c551a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Aprenda a usar os rótulos de retenção do Office 365 para implementar um agendamento de retenção para a sua organização usando o PowerShell.
+ms.openlocfilehash: 01ec0758abc0580aadb6f0fce623e449ec31c853
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636349"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035529"
 ---
 # <a name="bulk-create-and-publish-retention-labels-by-using-powershell"></a>Criação e publicação em massa de rótulos de retenção usando o PowerShell
 

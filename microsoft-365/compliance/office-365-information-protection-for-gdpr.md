@@ -16,13 +16,14 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-description: Esta solução demonstra como proteger dados confidenciais armazenados nos serviços do Office 365.
-ms.openlocfilehash: d71f3297fa5f315fe9a66bbc4b4217e58f5328bd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Esta solução demonstra como proteger dados confidenciais armazenados nos serviços do Office 365 usando o Regulamento Geral de Proteção de Dados (RGPD) como exemplo.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c054042b74896e40369b2415282620f0878cf7b8
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626909"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031433"
 ---
 # <a name="information-protection-for-gdpr"></a>Proteção de Informações para GDPR
 

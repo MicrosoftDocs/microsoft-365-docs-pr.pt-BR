@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c6f175a140b3744e4bf47dff7b542414c659c4fe
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 62be8fe021ebacfe07faaaadfc33811dd7c8a7ef
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071208"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065696"
 ---
 # <a name="trusight"></a>TruSight
 
@@ -69,7 +69,3 @@ Para adquirir o relatório de *Avaliação Abrangente do Microsoft Cloud*, entre
 - [Serviços de nuvem corporativos da Microsoft e serviços financeiros](https://aka.ms/FinServ-Compliance)
 - [Responsabilidades compartilhadas para a computação em nuvem](https://aka.ms/sharedresponsibility)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/D/A/D/dad1cf29-5529-4797-9eda-96e5e472e619/TruSight-Compliance.pdf).

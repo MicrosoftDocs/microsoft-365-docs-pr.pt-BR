@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 7e903467a35427e4d1c6fae0b29f41d970d0fbc8
-ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
+ms.openlocfilehash: b5efda8f6b4b7937b98a9357ad3bb2c661541256
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44043312"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065816"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
@@ -34,8 +34,10 @@ Antes de começar a usar o gerenciamento de risco do Insider, você deve confirm
 
 - Assinatura do Microsoft 365 E5 (versão paga ou de avaliação)
 - Assinatura do Microsoft 365 E3 + o complemento de conformidade do Microsoft 365 e5
+- Assinatura do Microsoft 365 E3 + o complemento de gerenciamento de risco do Microsoft 365 E5 Insider
 - Assinatura do Microsoft 365 a5 (versão paga ou de avaliação)
 - Assinatura do 365 a3 + o complemento de conformidade do Microsoft 365 a5
+- Assinatura do 365 a3 + o complemento de gerenciamento de risco Microsoft 365 a5 Insider
 
 Os usuários incluídos nas políticas de gerenciamento de risco do insider devem receber uma das licenças acima.
 

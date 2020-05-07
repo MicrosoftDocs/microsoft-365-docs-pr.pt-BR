@@ -1,6 +1,6 @@
 ---
 title: RGPD para SharePoint Server
-description: Saiba mais sobre como atender aos requisitos de RGPD no SharePoint Server local.
+description: Aprenda a resolver Regulamentações Gerais de Proteção de Dados (RGPD) para o SharePoint Server local.
 f1.keywords:
 - NOCSH
 ms.author: mikeplum
@@ -11,12 +11,13 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 6cbcb7f0918d472d953cb0f837adcb23b642a3a3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 58ddbe98ec5ca6b08e6d6be58c4258265c13e3de
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596388"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036224"
 ---
 # <a name="gdpr-for-sharepoint-server"></a>RGPD para SharePoint Server
 
@@ -306,7 +307,7 @@ Siga estas etapas básicas para remover as informações pessoais de um usuário
 
 2.  Execute uma [sincronização de perfil](https://docs.microsoft.com/sharepoint/administration/start-profile-synchronization-manually) no SharePoint Server.
 
-3.  Exclua o perfil do SharePoint Server. Quando terminar, o SharePoint Server removerá totalmente o perfil do banco de dados de perfis de usuários em 30 dias. A página de perfil e o site pessoal de usuário serão excluídos.
+3.  Excluir o perfil do SharePoint Server. Quando terminar, o SharePoint Server removerá totalmente o perfil do banco de dados de perfis de usuários em 30 dias. A página de perfil e o site pessoal de usuário serão excluídos.
 
 Depois de excluir o perfil de um usuário, algumas informações limitadas (como a ID do usuário) ainda poderão estar registradas em conjuntos de sites que o usuário acessou. Se quiser excluir dados de um conjunto de sites, isso pode ser feito usando o CSOM. Um exemplo de script é fornecido abaixo:
 

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b62e40ce317bc5a6bc817e5eade5b476542c5f04
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ac5a027225ce0f7c4c719ba3a897f5bc6f5629d5
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602168"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065642"
 ---
 # <a name="minimum-acceptable-risk-standards-for-exchanges-mars-e-20-framework"></a>Padrões de Risco Mínimo Aceitável para a Estrutura de Trocas (MARS-E) 2.0
 
@@ -35,9 +35,7 @@ Essas atualizações abordam a confidencialidade, a integridade e a disponibilid
 
 Atualmente, não existe um processo formal de autorização e de credenciamento para o MARS-E. No entanto, os serviços da Plataforma do Microsoft Azure já passaram por auditorias independentes do FedRAMP no Nível de Impacto Moderado e no Azure Government no Nível de Impacto Alto, e são autorizados de acordo com os padrões do FedRAMP. Embora esses padrões não se concentrem especificamente em MARS-E, os requisitos de controle e objetivos do MARS-E estão alinhados e servem para proteger a confidencialidade, a integridade e a disponibilidade dos dados no Azure.
 
-Saiba mais sobre os benefícios da Estrutura de MARS-E 2.0 no Microsoft Cloud: [Baixe o informativo do MARS-E](https://aka.ms/mars-e-backgrounder)
-
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - Intune
@@ -72,7 +70,3 @@ Sim. Os relatórios de terceiros para os padrões do FedRAMP atestam a eficácia
 - [White paper sobre estrutura de conformidade para serviços online da Microsoft](https://aka.ms/compliance-framework)
 - [Termos do Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/7/C/2/7C2690A7-19CC-4EED-A47A-B43CC418790A/MARS-E-Compliance.pdf).

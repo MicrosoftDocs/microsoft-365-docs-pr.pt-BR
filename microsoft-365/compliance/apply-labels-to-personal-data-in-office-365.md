@@ -16,13 +16,14 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-description: Saiba como usar os rótulos do Office como parte do seu plano de proteção do GDPR.
-ms.openlocfilehash: 5ffcddaa183e64fe53c14d740025b7df30e9687a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Aprenda a usar os rótulos do Office como parte do plano de proteção Geral de Proteção de Dados (GDPR).
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2ad80a63470d0afa4cfb946def18f3408f8a27f4
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636279"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034355"
 ---
 # <a name="apply-labels-to-personal-data"></a>Aplicar rótulos a dados pessoais
 

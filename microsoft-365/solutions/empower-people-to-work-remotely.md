@@ -17,16 +17,18 @@ ms.collection:
 ms.custom:
 - M365solutions
 description: Configure a infraestrutura e os recursos de segurança que permitam que seus funcionários trabalhem remotamente em qualquer lugar e a qualquer momento.
-ms.openlocfilehash: da83dc788f31edb56a155f29dd6f14529840f8d5
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: af5246971de87866c41eb90ec8524e567cfd48f1
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003790"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049526"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Capacite funcionários remotos com o Microsoft 365
 
 Em resposta à crise COVID-19, sua empresa talvez precise habilitar seus funcionários a ter acesso seguro às informações, ferramentas e recursos locais, no local e na nuvem de sua organização. 
+
+![Capacite funcionários remotos com o Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)
 
 Use estas etapas para proteger e otimizar o acesso aos servidores, dados e serviços na nuvem da sua organização e habilitar a produtividade máxima do trabalho.
 

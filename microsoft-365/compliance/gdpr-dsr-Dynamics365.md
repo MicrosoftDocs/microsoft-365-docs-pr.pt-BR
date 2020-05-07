@@ -1,6 +1,6 @@
 ---
 title: Solicitações de entidades de dados do Dynamics 365 para o RGPD e CCPA
-description: Guia sobre como usar produtos, serviços e ferramentas administrativas da Microsoft para ajudar nossos clientes controladores a encontrarem e tomarem medidas em relação a dados pessoais para responder às solicitações de DSR e CCPA.
+description: Este guia ajudará você a entender como encontrar e tomar ações sobre dados pessoais e responder a solicitações de DSR e CCPA realizadas por clientes do Dynamics 365.
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD, CCPA
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
@@ -15,13 +15,15 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 hideEdit: true
+ms.custom:
+- seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 38c50703fbc58e85a646720b5bbe8b400477b9d4
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: ec598816158068445f3f662bbdd6ea7c7edafd82
+ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558001"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44043322"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de entidades de dados do Dynamics 365 para o RGPD e CCPA
 
@@ -223,7 +225,7 @@ Os administradores podem acessar os logs gerados pelo sistema associados ao uso 
 
 Depois de criar uma nova solicitação, ela será listada na página **Exportação de Log de Dados**, onde você poderá acompanhar seu status. Após a conclusão de uma solicitação, você poderá clicar em um link para acessar os logs gerados pelo sistema que serão exportados para o local de armazenamento do Azure de sua organização dentro de 30 dias após a criação da solicitação. Os dados serão salvos em formato comum legível por máquina, como JSON ou XML. Se você não tiver uma conta do Azure e um local de armazenamento do Azure, será preciso criar uma conta do Azure e/ou um local de armazenamento do Azure para sua organização para que a ferramenta Exportação de Log de Dados possa exportar os logs gerados pelo sistema.
 
-O Azure possibilita que sua organização exporte os dados no formato JSON nativo para um Contêiner de Armazenamento do Azure especificado[. Artigo Introdução ao Armazenamento do Microsoft Azure — Armazenamento de blobs](https://docs.microsoft.com/azure/storage/common/storage-introduction#blob-storage).
+O Azure possibilita que sua organização exporte os dados no formato JSON nativo para um Contêiner de Armazenamento do Azure especificado[. Artigo Introdução ao Armazenamento do Microsoft Azure — Armazenamento de blobs](https://docs.microsoft.com/azure/storage/common/storage-introduction#blob-storage). Os dados recuperados não incluirão dados que possam comprometer a segurança e a estabilidade do serviço.
 
 > [!IMPORTANT]
 > Você deve ser um administrador de locatários para exportar dados de usuário do locatário.
@@ -245,9 +247,7 @@ A tabela a seguir resume como acessar e exportar os logs gerados pelo sistema:
 
 ### <a name="deleting-system-generated-logs"></a>Excluir os logs gerados pelo sistema
 
-Para excluir logs gerados pelo sistema recuperados por meio de uma solicitação de acesso, você deve remover o usuário do serviço e excluir permanentemente sua conta do Azure Active Directory. Para obter instruções sobre como excluir permanentemente um usuário, consulte a seção [Excluir um usuário](https://microsoft-my.sharepoint.com/personal/kated_microsoft_com/Documents/DSR%20Guide%20v4%20-(newly%20created%20for%20O365%20only).docx#_Deleting_a_user) deste guia. É importante observar que excluir permanentemente uma conta de usuário é um processo irreversível após iniciado.
-
-Excluir permanentemente uma conta de usuário removerá os dados do usuário de logs gerados pelo sistema de quase todos os serviços do Dynamics 365 dentro de 30 dias.
+Para excluir logs gerados pelo sistema recuperados por meio de uma solicitação de acesso, você deve remover o usuário do serviço e excluir permanentemente a conta do Azure Active Directory. É importante observar que, após iniciar a exclusão permanente de uma conta de usuário, esta ação é irreversível. Excluir permanentemente uma conta de usuário removerá os dados do usuário de logs gerados pelo sistema de quase todos os serviços do Dynamics 365 dentro de 30 dias.
 
 ## <a name="learn-more"></a>Saiba mais
 

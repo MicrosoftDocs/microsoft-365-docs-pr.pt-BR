@@ -1,5 +1,5 @@
 ---
-title: Defina grupos e usuários para um ambiente de desenvolvimento/teste de uma campanha política
+title: Defina grupos e usuários - Ambiente de desenvolvimento/teste de uma campanha política
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -17,12 +17,13 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: 'Resumo: Crie assinaturas de teste do Office 365 e Enterprise Mobility + Security (EMS) com usuários e grupos para um ambiente de desenvolvimento/teste de campanha política.'
-ms.openlocfilehash: a61cc21b67cafd213d47076698929d0aa2644d08
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 14722ab96230ecb8acaf4476d6ca70c47de2ffdd
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083480"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035101"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Defina grupos e usuários para um ambiente de desenvolvimento/teste de uma campanha política
 
@@ -36,9 +37,9 @@ Nesta fase, você deve obter assinaturas de avaliação do Office 365 E5 e do En
 
 Primeiro, siga as instruções na **Fase 2** do [ambiente de desenvolvimento/de teste do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment).
 
-Em seguida, inscreva-se para a assinatura de avaliação do EMS E5 e adicione-a à mesma organização de sua assinatura de avaliação do Office 365.
+Em seguida, inscreva-se para a assinatura de avaliação do EMS E5 e adicione-o à mesma organização da assinatura de avaliação da sua empresa.
 
-1. Se necessário, entre no centro de administração com as credenciais da conta do administrador global da sua assinatura de avaliação. Para obter ajuda, confira [Como entrar no Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Se necessário, entre no centro de administração com as credenciais da conta do administrador global da sua assinatura de avaliação. Para obter ajuda, confira [Onde acessar](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
 2. Clique no bloco de **Administração**.
 
@@ -191,7 +192,7 @@ Grave esses valores para trabalhar com as assinaturas de avaliação do Office 3
 
   Por exemplo, para o nome de domínio de assinatura de avaliação contoso.onmicrosoft.com, o nome da organização é "contoso".
 
-- O nome do administrador global do Office 365: ![Sublinhado](../../media/Common-Images/TableLine.png).onmicrosoft.com
+- Nome do administrador global: ![Sublinhado](../../media/Common-Images/TableLine.png).onmicrosoft.com
 
   Grave a senha dessa conta e a senha inicial comum das outras contas de usuário em um local seguro.
 

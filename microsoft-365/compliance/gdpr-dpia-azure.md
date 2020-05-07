@@ -1,6 +1,6 @@
 ---
 title: AIPD Azure para RGPD
-description: ''
+description: Encontre informações para determinar se uma Avaliação de Impacto de Proteção de Dados (DPIA) é necessária durante o uso do Microsoft Azure.
 keywords: AIPD, Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
@@ -16,12 +16,13 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: b7736a3890f293ca6bcfa05fd2f1630748009d9f
-ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ec7bcf7a3211531e1c0cd2abf514752c6099e8d1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43547551"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035459"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-azure"></a>Avaliações do Impacto sobre a Proteção dos Dados: orientações para controladores de dados que usam o Microsoft Azure
 

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Saiba como atualizar uma ou várias listas de distribuição para grupos do Microsoft 365 no Outlook e como usar o PowerShell para atualizar várias listas de distribuição simultaneamente.
-ms.openlocfilehash: 3f364de1e863cef542fb8342e61f537bcd113535
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 993b0baf46b702322df64693f682e25b0240a0ab
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048168"
+ms.locfileid: "44065664"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Atualizar listas de distribuição para grupos do Microsoft 365 no Outlook
 
@@ -51,7 +51,7 @@ Você deve ser um administrador global ou administrador do Exchange para atualiz
 7. Se você selecionou uma DL para atualização, mas ela ainda aparece na página como disponível para atualização, a atualização não foi possível. Veja [o que fazer se a atualização não funcionar](#what-to-do-if-the-upgrade-doesnt-work).
 
 > [!NOTE]
-> Se você estiver obtendo os emails de Resumo de grupos, poderá observar na parte inferior que às vezes oferecerá para permitir que você atualize as listas de distribuição qualificadas das quais você é o proprietário. Confira [ter uma conversa de grupo no Outlook](https://support.office.com/article/a0482e24-a769-4e39-a5ba-a7c56e828b22.aspx) para obter mais informações sobre emails de resumo.
+> Se você estiver obtendo os emails de Resumo de grupos, poderá observar na parte inferior que às vezes oferecerá para permitir que você atualize as listas de distribuição qualificadas das quais você é o proprietário. Confira [ter uma conversa de grupo no Outlook](https://support.microsoft.com/en-us/office/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22) para obter mais informações sobre emails de resumo.
 
 
 ## <a name="what-to-do-if-the-upgrade-doesnt-work"></a>O que fazer se a atualização não funcionar

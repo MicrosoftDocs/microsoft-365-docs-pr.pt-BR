@@ -1,6 +1,6 @@
 ---
 title: RGPD para servidores do Office
-description: Saiba mais sobre como atender aos requisitos de RGPD em servidores locais do Office.
+description: Aprenda a resolver Regulamentações Gerais de Proteção de Dados (RGPD) para o SharePoint Server local.
 f1.keywords:
 - NOCSH
 ms.author: mikeplum
@@ -11,12 +11,13 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: b50722d7f37b54b38bac259b7c42d3bd782dfb3d
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 4efb3803df2baa1ca37aeda05ae81947c3b65010
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557951"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036256"
 ---
 # <a name="gdpr-for-office-on-premises-servers"></a>RGPD para servidores locais do Office
 
@@ -54,4 +55,4 @@ Para aprimorar a acessibilidade, a tabela a seguir fornece os mesmos exemplos da
 |Proteger||Regras de prevenção contra perda de dados do Exchange Server; proteção de IRM para bibliotecas de permissões|Regras de prevenção contra perda de dados do Exchange Server; integração de IRM com o Exchange Server|||
 |Monitorar|Integrar logs com ferramentas SIEM|Integrar logs com ferramentas SIEM|Integrar logs com ferramentas SIEM|Integrar logs com ferramentas SIEM|Integrar logs com ferramentas SIEM|
 
-*A proteção criptografa os arquivos. Consequentemente, o SharePoint Server não consegue encontrar os tipos de informações confidenciais nesses arquivos.
+*Note que a proteção criptografa os arquivos. Consequentemente, o SharePoint Server não consegue encontrar os tipos de informações confidenciais nesses arquivos.

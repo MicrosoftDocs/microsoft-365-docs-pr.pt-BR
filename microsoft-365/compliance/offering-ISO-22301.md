@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0c3898fd808a588578cba29f7f40b8d5be183e1c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 695471d51e391957a5dfea8770cb1928dd39ee86
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602258"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065906"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>Padrão de Gerenciamento de Continuidade dos Negócios ISO 22301:2012
 
@@ -33,9 +33,7 @@ Publicada em 2012 pelo comitê técnico, a ISO 22301:2012 é o primeiro padrão 
 
 A Microsoft é o primeiro provedor de serviços de nuvem de grande escala a receber a certificação ISO 22301 para o gerenciamento de continuidade dos negócios. Um corpo de certificação independente concedeu essa certificação ao Microsoft Azure, ao Microsoft Azure Government, ao Microsoft Office 365 (incluindo ofertas comerciais, governamentais e educativas), ao Microsoft Cloud App Security, ao Microsoft Intune e ao Microsoft Power BI após uma auditoria estrita abordando todos os aspectos dos processos de continuidade dos negócios. A auditoria abordou os serviços dentro do escopo listados abaixo e os recursos de gerenciamento do Azure, o portal do Azure e os sistemas usados para monitorar, operar e atualizar os serviços dentro do escopo.
 
-Saiba mais sobre os benefícios da ISO/IEC 22301 no Microsoft Cloud: [Baixe o informativo da ISO/IEC 22301](https://aka.ms/iso22301-backgrounder)
-
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 - Segurança no Aplicativo na Nuvem
@@ -79,7 +77,3 @@ Sim. Se a sua empresa exige a certificação ISO 22301 para as implementações 
 - [Descrição do Programa de Gerenciamento de Continuidade de Negócios do Microsoft Enterprise](https://go.microsoft.com/fwlink/p/?linkid=2092212)
 - [Pontuação de Conformidade](compliance-score.md)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/0/0/9/009B2F34-96F6-4D85-8BDC-238B91A2C6EE/ISO-22301-Compliance.pdf ).
