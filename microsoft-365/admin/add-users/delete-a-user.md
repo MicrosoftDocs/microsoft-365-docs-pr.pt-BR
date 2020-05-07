@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Saiba como excluir uma conta de usuário. Decida o que fazer com o email do usuário, o conteúdo do OneDrive e se deseja manter a licença do produto ou parar de pagar por ela.
-ms.openlocfilehash: 1d529627841c648684c8a9fe217a761b29749150
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a179915ae92def2a967dc86378346bb905c923e4
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617243"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049454"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Excluir um usuário da sua organização
   
@@ -61,7 +61,7 @@ Antes de começar, pense no que você deseja fazer com o conteúdo do usuário e
 |||
 |:-----|:-----|
 |Licenças de produto  <br/> |Você pode remover a licença do usuário e removê-la das assinaturas para parar de pagar pela licença. Se você selecionar essa opção, a licença será removida automaticamente de suas assinaturas.  <br/><br/> **Você não pode remover a licença** se a comprou por meio de um parceiro ou de um licenciamento por volume. Se você estiver pagando um plano anual ou se estiver no meio de um ciclo de cobrança, não será possível remover a licença da sua assinatura até que o compromisso seja concluído.  <br/> |
-|Conteúdo do OneDrive  <br/> |Se o usuário salvou seus arquivos no OneDrive, você pode dar a outro usuário acesso a esses arquivos.  <br/><br/> Você precisará mover os arquivos que deseja manter dentro do período de retenção definido para arquivos do OneDrive. **Por padrão, o período de retenção é de 30 dias.** Se você não mover os arquivos dentro do período de retenção após excluir o usuário, o conteúdo do OneDrive será excluído permanentemente. Para aumentar o número de dias que você retém arquivos do OneDrive para contas excluídas, consulte [set the onedrive Retention for Deleted Users](https://support.office.com/article/fa1641ea-9f03-4f34-a826-dbd8697e76fe.aspx).  <br/><br/> **Importante!** Se o usuário excluído utilizou um computador pessoal para baixar arquivos do SharePoint e do OneDrive, não há como apagar os arquivos armazenados no computador. Eles continuarão a ter acesso a todos os arquivos que foram sincronizados a partir do OneDrive.           |
+|Conteúdo do OneDrive  <br/> |Se o usuário salvou seus arquivos no OneDrive, você pode dar a outro usuário acesso a esses arquivos.  <br/><br/> Você precisará mover os arquivos que deseja manter dentro do período de retenção definido para arquivos do OneDrive. **Por padrão, o período de retenção é de 30 dias.** Se você não mover os arquivos dentro do período de retenção após excluir o usuário, o conteúdo do OneDrive será excluído permanentemente. Para aumentar o número de dias que você retém arquivos do OneDrive para contas excluídas, consulte [set the onedrive Retention for Deleted Users](https://docs.microsoft.com/onedrive/set-retention).  <br/><br/> **Importante!** Se o usuário excluído utilizou um computador pessoal para baixar arquivos do SharePoint e do OneDrive, não há como apagar os arquivos armazenados no computador. Eles continuarão a ter acesso a todos os arquivos que foram sincronizados a partir do OneDrive.           |
 |Email  <br/> | Conceder a outro usuário acesso ao email do usuário excluído converterá a caixa de correio do usuário excluído em uma caixa de correio compartilhada. O novo proprietário da caixa de correio pode acessar a caixa de correio e monitorar novos emails. Você também terá as seguintes opções:  <br/>  <br/>Alterar o nome para exibição-recomendamos alterar o nome de exibição para que seja fácil identificar a caixa de correio compartilhada na lista de usuários ativos.  <br/>  Ativar respostas automáticas – já escrevemos uma resposta de educador automática para você. Você pode enviar respostas automáticas diferentes para pessoas dentro da sua organização e pessoas de fora da organização.  <br/> <br/> Limpar aliases-os aliases são endereços de email adicionais para os usuários. Algumas organizações não as usam, portanto, se você não tiver nenhum, não será necessário fazer nada mais aqui. Se o usuário tiver aliases, recomendamos removê-los para que você possa reutilizar esses endereços de email. Caso contrário, você não poderá usar novamente esses endereços de email até que o período de retenção de caixas de correio excluídas tenha passado. Por padrão, uma caixa de correio excluída é recuperável por 30 dias. Para obter mais informações, consulte [excluir ou restaurar caixas de correio do usuário no Exchange Online](https://docs.microsoft.com/exchange/recipients-in-exchange-online/delete-or-restore-mailboxes#delete-a-user-mailbox). <br/> |
 |Active Directory  <br/> |Se a sua empresa usa o **Active Directory** sincronizado com o Azure AD, é necessário excluir a conta de usuário do Active Directory. Não é possível fazê-lo no Office 365. Para obter instruções, consulte [excluir uma conta de usuário](https://go.microsoft.com/fwlink/p/?linkid=841808).  <br/> |
    
@@ -138,7 +138,7 @@ Reduzir o número de licenças é uma etapa separada que só pode ser realizada 
   
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>. Se você não vir essa opção, você não é um administrador global ou de cobrança e não pode executar esta etapa.
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> . Se você não vir essa opção, você não é um administrador global ou de cobrança e não pode executar esta etapa.
 
 2. Selecione a assinatura (se você tiver mais de uma) e, em seguida, selecione **Adicionar/remover licenças** para excluir a licença para não pagar por ela até contratar outra pessoa.  
 

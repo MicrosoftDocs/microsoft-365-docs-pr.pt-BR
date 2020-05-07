@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Aprenda sobre domínios e seus registros DNS associados para ajudá-lo a gerenciar seus domínios.
-ms.openlocfilehash: bd011add44ea462dacab41fde1ef0ebe4a6b4aa8
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: feef7de31f1576173f7377afe3eac8a6f6aaacb1
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048180"
+ms.locfileid: "44053747"
 ---
 # <a name="dns-basics"></a>Noções básicas do DNS
 
@@ -151,14 +151,14 @@ Por que o arquivo de zona do seu domínio pode estar em outro lugar além do seu
 ## <a name="why-add-a-domain-in-office-365"></a>Por que adicionar um domínio no Office 365?
 
 
-Adicionar um domínio personalizado, como fourthcoffee.com ao Office 365 permite que você use um endereço de email e uma identificação de usuário mais curtos e familiares com o serviço. Você [receberá um domínio para usar](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx) ao se inscrever em uma conta do Office 365, mas ele inclui o domínio “onmicrosoft.com”. Muitas pessoas preferem adicionar o domínio de suas organizações ou empresas quando planejam usar o Office 365 para emails. 
+Adicionar um domínio personalizado, como fourthcoffee.com ao Office 365 permite que você use um endereço de email e uma identificação de usuário mais curtos e familiares com o serviço. Você [receberá um domínio para usar](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) ao se inscrever em uma conta do Office 365, mas ele inclui o domínio “onmicrosoft.com”. Muitas pessoas preferem adicionar o domínio de suas organizações ou empresas quando planejam usar o Office 365 para emails. 
   
 > [!NOTE]
 > Se você quer apenas baixar e usar aplicativos da Microsoft, como Outlook ou Word, não precisa adicionar um domínio: [Instalar o Office no seu computador ou Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx). 
   
 É possível usar seu nome de domínio no Office 365 com seu email, site público e endereço do sistema de mensagens instantâneas.
   
-- **Email:** seu nome de domínio permite que você personalize seu email para que seja possível utilizar um endereço mais curto e mais fácil de lembrar que [o endereço de email inicial onmicrosoft.com](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx) que acompanha sua conta.  Portanto, em vez de paulo@contoso.onmicrosoft.com, o endereço de email (que também é a conta corporativa que você utiliza para entrar no Office 365) poderia ser paulo@contoso.com. 
+- **Email:** seu nome de domínio permite que você personalize seu email para que seja possível utilizar um endereço mais curto e mais fácil de lembrar que [o endereço de email inicial onmicrosoft.com](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) que acompanha sua conta.  Portanto, em vez de paulo@contoso.onmicrosoft.com, o endereço de email (que também é a conta corporativa que você utiliza para entrar no Office 365) poderia ser paulo@contoso.com. 
     
 - **Website:** Se você possui uma assinatura do Microsoft 365 que inclui um site público do SharePoint Online (não está mais disponível para compra), seu site público é fornecido com um endereço inicial como este: contoso-public.sharepoint.com. Se você configurar seu site para sua empresa, poderá usar um nome de domínio personalizado para renomear o endereço do site para algo como www.contoso.com. 
     
@@ -170,14 +170,14 @@ Adicionar um domínio personalizado, como fourthcoffee.com ao Office 365 permite
 ## <a name="why-add-a-domain-in-office-365"></a>Por que adicionar um domínio no Office 365?
 
 
-Adicionar um domínio personalizado, como fourthcoffee.com ao Office 365 permite que você use um endereço de email e uma identificação de usuário mais curtos e familiares com o serviço. Você [receberá um domínio para usar](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx) ao se inscrever em uma conta do Office 365, mas ele inclui o domínio “onmicrosoft.com”. Muitas pessoas preferem adicionar o domínio de suas organizações ou empresas quando planejam usar o Office 365 para emails. 
+Adicionar um domínio personalizado, como fourthcoffee.com ao Office 365 permite que você use um endereço de email e uma identificação de usuário mais curtos e familiares com o serviço. Você [receberá um domínio para usar](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) ao se inscrever em uma conta do Office 365, mas ele inclui o domínio “onmicrosoft.com”. Muitas pessoas preferem adicionar o domínio de suas organizações ou empresas quando planejam usar o Office 365 para emails. 
   
 > [!NOTE]
 > Você não precisa adicionar um domínio se deseja apenas baixar e usar os aplicativos do Office 365, como o Outlook ou o Word: [Instalar o Office no seu PC ou Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx). 
   
 É possível usar seu nome de domínio no Office 365 com seu email, site público e endereço do sistema de mensagens instantâneas.
   
-- **Email:** seu nome de domínio permite que você personalize seu email para que seja possível utilizar um endereço mais curto e mais fácil de lembrar que [o endereço de email inicial onmicrosoft.com](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx) que acompanha sua conta.  Portanto, em vez de paulo@contoso.onmicrosoft.com, o endereço de email (que também é a conta corporativa que você utiliza para entrar no Office 365) poderia ser paulo@contoso.com. 
+- **Email:** seu nome de domínio permite que você personalize seu email para que seja possível utilizar um endereço mais curto e mais fácil de lembrar que [o endereço de email inicial onmicrosoft.com](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) que acompanha sua conta.  Portanto, em vez de paulo@contoso.onmicrosoft.com, o endereço de email (que também é a conta corporativa que você utiliza para entrar no Office 365) poderia ser paulo@contoso.com. 
     
 - **Website:** Se você tiver uma assinatura que inclua um site público do SharePoint Online (não está mais disponível para compra), seu site público será exibido com um endereço inicial como o seguinte: contoso-public.sharepoint.com. Se você configurar seu site para sua empresa, poderá usar um nome de domínio personalizado para renomear o endereço do site para algo como www.contoso.com. 
     

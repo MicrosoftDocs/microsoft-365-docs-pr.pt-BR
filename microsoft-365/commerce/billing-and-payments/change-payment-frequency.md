@@ -20,14 +20,21 @@ ms.custom:
 search.appverid:
 - MET150
 description: Saiba como alterar a frequência em que você é cobrado por sua assinatura de negócios.
-ms.openlocfilehash: 574a0c565a981aa1e2af4800aff379bbb6e9692c
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: ce659f03ee94a47728a097e73749c2a0a01c962b
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045911"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140930"
 ---
 # <a name="change-your-payment-frequency"></a>Alterar a frequência de pagamento
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Ao comprar uma assinatura, você escolhe a cobrança mensal ou anual. Para alterar a frequência de cobrança de uma assinatura, use as etapas a seguir.
 

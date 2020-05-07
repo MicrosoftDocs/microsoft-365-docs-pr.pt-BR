@@ -21,14 +21,21 @@ search.appverid:
 - GEA150
 ms.assetid: 9b497c85-d0a4-4735-80fa-d3565bc05bd1
 description: Saiba como remover licenças de contas de usuário.
-ms.openlocfilehash: e3c6150c2eb228e29bf6fc2b87d90809a7033660
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 49d3b4b6786bc6ab66bc0416aac847ada592664d
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628095"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139632"
 ---
 # <a name="unassign-licenses-from-users"></a>Cancelar a atribuição de licenças de usuários
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 ::: moniker range="o365-worldwide"
 Você pode remover ou cancelar a atribuição de licenças de usuários na página **usuários ativos** ou na página **licenças** . O método a ser usado depende se você deseja cancelar a atribuição de licenças de produto de usuários específicos ou cancelar a atribuição de licenças de usuários de produtos específicos.
@@ -142,7 +149,7 @@ Quando você usa a página **licenças** para cancelar a atribuição de licenç
 
 ## <a name="what-you-need-to-know-about-unassigning-licenses-for-users"></a>O que você precisa saber sobre a desatribuição de licenças para usuários
 
-- Você deve ser um administrador global, administrador de cobrança, administrador de licenças ou administrador de gerenciamento de usuários. Para obter mais informações, consulte [about Microsoft 365 admin Roles](../add-users/about-admin-roles.md).
+- Você precisa ser um Administrador global, um Administrador de cobrança ou um Administrador de gerenciamento de usuários. Para obter mais informações, consulte [Sobre as funções de administrador do Microsoft 365](../add-users/about-admin-roles.md).
 
 - Você pode [remover licenças a contas de usuário com o Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=848428).
 

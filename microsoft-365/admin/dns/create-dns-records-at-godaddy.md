@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: f40a9185-b6d5-4a80-bb31-aa3bb0cab48a
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em GoDaddy para a Microsoft.
 ms.custom: okr_smb
-ms.openlocfilehash: 0f71eb512b83451db8fee41b535ecc0c60d8d6bc
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: b1c5539af6683bbf8f94fd15880fb870caf31342
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939210"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049018"
 ---
 # <a name="create-dns-records-at-godaddy-for-microsoft"></a>Criar registros DNS no GoDaddy para Microsoft
 
@@ -57,7 +57,7 @@ Siga as etapas abaixo.
 
     ![GoDaddy-BP-configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Clique em **Adicionar**.
+3. Selecione **Adicionar**.
 
     ![GoDaddy-BP-configure-1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -108,7 +108,7 @@ Siga as etapas abaixo.
 
     ![GoDaddy-BP-configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Clique em **Adicionar**.
+3. Selecione **Adicionar**.
 
     ![GoDaddy-BP-configure-1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -122,7 +122,7 @@ Siga as etapas abaixo.
 
     |**Tipo de registro**|**Host**|**Pontos de**|**Prioridade**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |Servidor de mensagens (MX)  <br/> |@  <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta da Microsoft.           [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) <br/> |1 hora  <br/> |
+    |Servidor de mensagens (MX)  <br/> |@  <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta da Microsoft.           [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |1 hora  <br/> |
 
 6. Selecione **Salvar**.
 
@@ -139,7 +139,7 @@ Siga as etapas abaixo.
 
     ![GoDaddy-BP-configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Clique em **Adicionar**.
+3. Selecione **Adicionar**.
 
     ![GoDaddy-BP-configure-1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -166,7 +166,7 @@ Siga as etapas abaixo.
 
 6. Repita essas etapas para adicionar o próximo registro CNAME até ter criado todos os seis registros CNAME.
 
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -182,7 +182,7 @@ Siga as etapas abaixo.
 
     ![GoDaddy-BP-configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Clique em **Adicionar**.
+3. Selecione **Adicionar**.
 
     ![GoDaddy-BP-configure-1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -216,7 +216,7 @@ Siga as etapas abaixo.
 
     ![GoDaddy-BP-configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Clique em **Adicionar**.
+3. Selecione **Adicionar**.
 
     ![GoDaddy-BP-configure-1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 

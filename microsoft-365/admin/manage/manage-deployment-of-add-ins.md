@@ -19,14 +19,21 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como implantar suplementos para usuários e grupos em sua organização usando a implantação centralizada no centro de administração.
-ms.openlocfilehash: 30f2c08aa895f63ed529b4390d208e3daa9d6d7b
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: cb41d02d8075e94c788a9964e0a3ac69d8363ef4
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011706"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139704"
 ---
 # <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Gerenciar a implantação de suplementos no Centro de administração do Microsoft 365
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Os suplementos do Office ajudam você a personalizar seus documentos e simplificar a forma como você acessa as informações na Web (Confira [começar a usar o suplemento do Office](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx)). Como administrador, você pode implantar suplementos do Office para os usuários em sua organização. Você pode fazer isso usando o recurso de implantação centralizado no centro de administração do Microsoft 365.
   
@@ -216,7 +223,7 @@ Ser compatível com o RGPD para menores que você precisa para garantir que uma 
 |Office 2016 para Windows  <br/> |16.0.4672.1000  <br/> |
 |Office 2013 para Windows  <br/> |15.0.5023.1000  <br/> |
 |Office 2016 para Mac  <br/> |16.11.18020200  <br/> |
-|Office para a Web  <br/> |N/D  <br/> |
+|Office para a Web  <br/> |N/A  <br/> |
    
  **Para o Outlook**: 
   
@@ -228,13 +235,13 @@ Ser compatível com o RGPD para menores que você precisa para garantir que uma 
 |Office 2016 para Mac  <br/> |16.0.9318.1000  <br/> |
 |Outlook Mobile para iOS  <br/> |2.75.0  <br/> |
 |Outlook Mobile para Android  <br/> |2.2.145  <br/> |
-|Outlook.com  <br/> |N/D  <br/> |
+|Outlook.com  <br/> |N/A  <br/> |
    
  **Requisitos do Office 2013**
   
 O Word, o Excel e o PowerPoint 2013 para Windows oferecerão suporte às mesmas verificações secundárias se a ADAL (biblioteca de autenticação do Active Directory) estiver habilitada. Há duas opções de conformidade, conforme explicado a seguir.
   
-- **Habilitar Adal**. Este artigo explica como habilitar a ADAL para o Office 2013: [usando a autenticação moderna da Microsoft 365 com clientes do Office](https://support.office.com/article/776c0036-66fd-41cb-8928-5495c0f9168a).<br/>Você também precisa definir as chaves do registro para habilitar a ADAL, conforme explicado em [habilitar a autenticação moderna para o Office 2013 em dispositivos Windows](../security-and-compliance/enable-modern-authentication.md).<br/>Além disso, você precisa instalar as seguintes atualizações de abril para o Office 2013:
+- **Habilitar Adal**. Este artigo explica como habilitar a ADAL para o Office 2013: [usando a autenticação moderna da Microsoft 365 com clientes do Office](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016).<br/>Você também precisa definir as chaves do registro para habilitar a ADAL, conforme explicado em [habilitar a autenticação moderna para o Office 2013 em dispositivos Windows](../security-and-compliance/enable-modern-authentication.md).<br/>Além disso, você precisa instalar as seguintes atualizações de abril para o Office 2013:
     
   - [Descrição da atualização de segurança para o Office 2013:10 de abril de 2018](https://support.microsoft.com/help/4018330/description-of-the-security-update-for-office-2013-april-10-2018)
     
@@ -281,6 +288,6 @@ Você também pode excluir um suplemento implantado.
 
 Saiba mais sobre a criação e [a criação de suplementos do Office](https://go.microsoft.com/fwlink/p/?linkid=846362).
   
-[Use cmdlets do PowerShell de implantação centralizada para gerenciar suplementos](https://support.office.com/article/94f4e86d-b8e5-42dd-b558-e6092f830ec9).
+[Use cmdlets do PowerShell de implantação centralizada para gerenciar suplementos](https://docs.microsoft.com/office365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins).
   
 [Solução de problemas: o usuário não está vendo suplementos](https://docs.microsoft.com/office365/troubleshoot/access-management/user-not-seeing-add-ins)

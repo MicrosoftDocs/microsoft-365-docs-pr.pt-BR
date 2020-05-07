@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: Saiba mais sobre os problemas que você tem ao configurar um domínio personalizado certificando-se de que os registros DNS estão configurados corretamente.
-ms.openlocfilehash: 13d867559684d80ee5c0e1f7005d1dcaf3b4d611
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 457b9a0f76e66f121572064f359f120b770b65de
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628465"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053711"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>Localizar e corrigir problemas após a adição do seu domínio ou de registros DNS
 
@@ -65,21 +65,21 @@ Há alguns motivos comuns para a verificação de domínios não funcionar como 
 ## <a name="outlook-isnt-working"></a>O Outlook não está funcionando?
 <a name="BKMK_OutlookBroken"> </a>
 
-Se você configurou o registro MX e os outros registros DNS corretamente para o seu domínio, mas o seu email não funciona, deixe-nos ajudá-lo a [corrigir os problemas do Outlook](https://support.office.com/article/b3e740b9-171d-4179-bcd1-e279a363fa75.aspx).
+Se você configurou o registro MX e os outros registros DNS corretamente para o seu domínio, mas o seu email não funciona, deixe-nos ajudá-lo a [corrigir os problemas do Outlook](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues).
   
 ## <a name="everyones-email-got-switched-to-microsoft-365-and-you-only-wanted-your-email-to-switch"></a>OS emails de todos os usuários mudaram para o Microsoft 365 e você só queria que seu email trocasse?
 <a name="BKMK_EmailSwitched"> </a>
 
 Quando você adiciona seu domínio ao Microsoft 365, normalmente o registro MX do seu domínio é atualizado (por você ou pelo Microsoft 365) para apontar para o Microsoft 365, e todos os emails enviados para esse domínio começarão a ser o Microsoft 365. Certifique-se de ter criado caixas de correio no Microsoft 365 para todos que têm emails no seu domínio antes de alterar o registro MX.
   
-E se você não quiser mover emails para todas as pessoas em seu domínio para a Microsoft 365? Você pode executar etapas para [o Microsoft 365 piloto com apenas alguns endereços de email](https://support.office.com/article/39cee536-6a03-40cf-b9c1-f301bb6001d7.aspx).
+E se você não quiser mover emails para todas as pessoas em seu domínio para a Microsoft 365? Você pode executar etapas para [o Microsoft 365 piloto com apenas alguns endereços de email](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
   
 ## <a name="cant-confirm-non-profit-or-school-account-status"></a>Não consegue confirmar o status de conta de estudante ou sem fins lucrativos?
 <a name="BKMK_validateAcct"> </a>
 
 Há alguns cenários em que você só precisa verificar o domínio da sua organização e não configurar nenhum serviço. Por exemplo, para provar à Microsoft 365 que sua organização é qualificada para uma assinatura escolar.
   
-Confira as orientações em [verificar o seu domínio do Microsoft 365 para provar a propriedade, o status de educação ou não de lucro, ou para ativar o Yammer](https://support.office.com/article/87d1844e-aa47-4dc0-a61b-1b773fd4e590) para garantir que todas as etapas necessárias foram concluídas. É um pouco diferente para cada situação. 
+Confira as orientações em [verificar o seu domínio do Microsoft 365 para provar a propriedade, o status de educação ou não de lucro, ou para ativar o Yammer](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) para garantir que todas as etapas necessárias foram concluídas. É um pouco diferente para cada situação. 
   
 ## <a name="services-not-working-with-your-domain"></a>Os serviços não estão funcionando com o seu domínio?
 <a name="BKMK_Test"> </a>
@@ -87,14 +87,14 @@ Confira as orientações em [verificar o seu domínio do Microsoft 365 para prov
 Podemos ajudá-lo a corrigir problemas com a configuração de DNS do seu domínio. A solução de problemas de domínios no Microsoft 365 mostrará todos os registros que precisam de correção e exatamente o que os registros precisam ser definidos. 
 
 > [!TIP]
-> O DNS foi configurado corretamente, mas o email não funciona no Outlook na sua área de trabalho? Confira os [diferentes cenários de fluxo de mensagens que você pode ter com o Microsoft 365](https://go.microsoft.com/fwlink/?LinkId=787530) para garantir que você tenha as coisas configuradas corretamente para sua empresa. Se preferir, obtenha mais soluções de problemas com email aqui: [Corrigir problemas do Outlook](https://support.office.com/article/b3e740b9-171d-4179-bcd1-e279a363fa75.aspx). 
+> O DNS foi configurado corretamente, mas o email não funciona no Outlook na sua área de trabalho? Confira os [diferentes cenários de fluxo de mensagens que você pode ter com o Microsoft 365](https://www.microsoft.com/?ref=go) para garantir que você tenha as coisas configuradas corretamente para sua empresa. Se preferir, obtenha mais soluções de problemas com email aqui: [Corrigir problemas do Outlook](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues). 
   
 ## <a name="accessing-your-website-isnt-working"></a>Não consegue acessar o seu site?
 <a name="BKMK_Website"> </a>
 
 Caso tenha corrigido os problemas de DNS, mas ainda esteja com dificuldades, tente um dos seguintes procedimentos.
   
-- As pessoas não conseguem acessar seu site em www.mydomain.com: [Rastrear problemas do site](https://support.office.com/article/61f34ca1-ca7f-4a65-9348-def20db09ddf.aspx)
+- As pessoas não conseguem acessar seu site em www.mydomain.com: [Rastrear problemas do site](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)
     
 - Você não pode atualizar seu registro A ou CNAME para apontar para seu site: [atualizar registros DNS personalizados no Microsoft 365](../dns/add-or-edit-custom-dns-records.md)
     
