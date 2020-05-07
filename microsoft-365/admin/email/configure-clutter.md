@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
 description: 'Saiba como habilitar ou desabilitar o recurso de desordem para todos ou usuários específicos em sua organização, usando o Exchange PowerShell. '
-ms.openlocfilehash: b71fe20133c78974dc7d1c97a061121eded9f221
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6ba1e3f2b6a8a516a2b55267ab22fb43613350e0
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628922"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053831"
 ---
 # <a name="configure-clutter-for-your-organization"></a>Configurar resíduos para sua organização
 
@@ -98,7 +98,7 @@ Como administrador, você pode reabilitar resíduos usando o Exchange PowerShell
 ## <a name="related-articles"></a>Artigos relacionados
 <a name="bkmk_onoff"> </a>
 
-[Usar email secundário para classificar mensagens de baixa prioridade no Outlook](https://support.office.com/article/7755ebf5-4585-469b-b1ab-8b12425c6b6b.aspx)
+[Usar email secundário para classificar mensagens de baixa prioridade no Outlook](https://support.office.com/article/use-clutter-to-sort-low-priority-messages-in-outlook-7b50c5db-7704-4e55-8a1b-dfc7bf1eafa0)
     
 [Usar email secundário para classificar mensagens de baixa prioridade no OWA](https://support.office.com/article/fe4d64ca-bf73-48f1-91b4-9a659e008bce.aspx)
     

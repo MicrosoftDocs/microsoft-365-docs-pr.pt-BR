@@ -20,14 +20,21 @@ search.appverid:
 ms.assetid: 89502322-bfbb-43d6-9207-4030f8ce26e0
 ROBOTS: NOINDEX
 description: 'Saiba como compartilhar sites e arquivos com pessoas de fora da organização. '
-ms.openlocfilehash: c11526ee199cf097053489bb4ab8060dcb2c6bc9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e49cc84314b55f1aacfa47ab28916bae12132a3e
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628023"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139608"
 ---
 # <a name="share-sites-and-files-externally"></a>Compartilhar sites e arquivos externamente
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Para colaborar com pessoas de fora da sua organização, você pode compartilhar sites inteiros ou arquivos específicos externamente. Caso queira ir diretamente para a configuração do compartilhamento, escolha o cenário desejado a habilitar:
 

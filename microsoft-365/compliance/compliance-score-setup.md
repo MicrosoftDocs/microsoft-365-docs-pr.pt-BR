@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como configurar e começar a usar a pontuação de conformidade da Microsoft, que ajuda a simplificar e automatizar as avaliações de risco.
-ms.openlocfilehash: 4ccd89647540aeda8ba6253f6e5eefab1dc81791
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7a0030ed417e21484717b6edf12406d2f5e760e5
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632386"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140856"
 ---
 # <a name="microsoft-compliance-score-preview-setup"></a>Configuração da Pontuação de conformidade da Microsoft (versão prévia)
 
@@ -40,16 +40,14 @@ A pontuação de conformidade usa um modelo de permissão RBAC (controle de aces
 
 ### <a name="where-to-set-permissions"></a>Onde definir permissões
 
-O administrador global da sua organização pode definir permissões de usuário no centro de conformidade da Microsoft 365 ou no Azure Active Directory (Azure AD). Depois que as funções são definidas em qualquer um desses locais, os usuários podem acessar a pontuação de conformidade, bem como o Gerenciador de conformidade.
-
-Observe que as funções do Gerenciador de conformidade existentes **não são** transferidas para a pontuação de conformidade. Se você tiver uma função no gerente de conformidade e for nova na pontuação de conformidade, sua função de gerente de conformidade não concederá acesso à pontuação de conformidade. Seu administrador global precisará definir permissões e uma função para você no centro de conformidade da Microsoft 365 ou no Azure AD para que você possa acessar a pontuação de conformidade.
+O administrador global da sua organização pode definir permissões de usuário no [Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal) ou no [Gerenciador de conformidade](compliance-manager-overview.md#permissions). Depois que as funções são definidas em qualquer um desses locais, os usuários podem acessar a pontuação de conformidade, bem como o Gerenciador de conformidade.
 
 ### <a name="role-types"></a>Tipos de função
 
-A tabela abaixo mostra como cada função do centro de conformidade da Microsoft 365 mapeia as funções do Gerenciador de conformidade existentes e as funções permitidas por cada função.
+A tabela abaixo mostra como cada [função do Azure ad](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) é mapeada para as funções do Gerenciador de conformidade existentes e as funções permitidas por cada função. Os usuários precisarão, pelo menos, da função leitor global do Azure AD para acessar a pontuação de conformidade.
 
 
-| O usuário pode: | Função centro de conformidade da Microsoft 365 | Função de gerente de conformidade | 
+| O usuário pode: | Função do Azure AD | Função de gerente de conformidade | 
 | :------------- | :-------------: | :------------: |
 | **Ler mas não editar dados**| Leitor global do Azure AD  | Leitor global do Azure AD | 
 | **Ler mas não editar dados**| Leitor de segurança | Leitor do Gerenciador de conformidade  | 
@@ -60,13 +58,6 @@ A tabela abaixo mostra como cada função do centro de conformidade da Microsoft
 
 > [!NOTE]
 > Quando você passar da Pontuação de conformidade para o gerente de conformidade para concluir uma tarefa (por exemplo, para gerenciar avaliações), o navegador abrirá uma nova guia e uma caixa de diálogo será exibida. Na seção superior com o cabeçalho, "já é um cliente dos serviços de nuvem da Microsoft? Entre em sua conta, "selecione **entrar no** Gerenciador de conformidade do Access; Não será necessário inserir novamente suas credenciais.
-
-### <a name="how-to-set-permissions-and-roles-in-the-microsoft-365-compliance-center"></a>Como definir permissões e funções no centro de conformidade da Microsoft 365
-
-Para definir permissões no centro de conformidade da Microsoft 365:
-
-1. Vá para o [centro de conformidade da Microsoft 365](https://compliance.microsoft.com) e entre com sua conta de administrador global.
-2. Selecione **permissões** no painel de navegação à esquerda. A partir daqui, você pode exibir funções e atribuir permissões.
 
 ## <a name="configure-automatic-secure-score-updates"></a>Configurar atualizações automáticas de Pontuação segura
 

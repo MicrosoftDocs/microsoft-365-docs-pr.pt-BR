@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1970f7d6-03b5-442f-b385-5880b9c256ec
 description: Saiba como adicionar usuários ao Microsoft 365, um de cada vez ou vários usuários ao mesmo tempo a partir de um arquivo CSV.
-ms.openlocfilehash: 78e5cf2c3c0148a91d48355881c3aec331213fd5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6d7a9d97d4cca25bac6579ea4427136351110658
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618855"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049466"
 ---
 # <a name="add-users-individually-or-in-bulk"></a>Adicionar usuários individualmente ou em massa
 
@@ -118,7 +118,7 @@ As pessoas da sua equipe precisam de uma conta de usuário antes de entrarem e a
 Depois de adicionar usuários, você receberá uma notificação por email da equipe do Microsoft Online Services. O email conterá a ID de usuário e a senha da pessoa para que eles possam entrar no Microsoft 365. Você precisa informar ao novo usuário sobre suas informações de entrada do Microsoft 365. Use seu processo normal para comunicar as novas senhas.
 
 > [!NOTE]
->Se você criar usuários migrando caixas de correio, será necessário ativar as contas de usuário atribuindo licenças. Se você não atribuir uma licença a um usuário, a caixa de correio será desabilitada após um período de carência de 30 dias. Confira como [atribuir licenças aos usuários](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) usando o centro de administração do Microsoft 365.
+>Se você criar usuários migrando caixas de correio, será necessário ativar as contas de usuário atribuindo licenças. Se você não atribuir uma licença a um usuário, a caixa de correio será desabilitada após um período de carência de 30 dias. Confira como [atribuir licenças aos usuários](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) usando o centro de administração do Microsoft 365.
 
 ### <a name="video-add-and-manage-users-in-the-admin-center"></a>Vídeo: Adicionar e gerenciar usuários no centro de administração
 

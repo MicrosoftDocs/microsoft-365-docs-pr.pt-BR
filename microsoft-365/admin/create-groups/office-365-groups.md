@@ -1,5 +1,5 @@
 ---
-title: Visão geral dos grupos do Microsoft 365 para administradores
+title: Visão geral dos Grupos do Microsoft 365 para administradores
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -18,14 +18,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre os grupos do Microsoft 365.
-ms.openlocfilehash: 9d47383d3226d5a18b9a30a579f6497c7ce63477
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: aca6dfee26e05f162b8cc3efb69005d773a9a9dc
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630038"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049162"
 ---
-# <a name="overview-of-microsoft-365-groups-for-administrators"></a>Visão geral dos grupos do Microsoft 365 para administradores
+# <a name="overview-of-microsoft-365-groups-for-administrators"></a>Visão geral dos Grupos do Microsoft 365 para administradores
 
 Microsoft 365 groups é o serviço de associação de base que orienta todo o trabalho em equipe no Microsoft 365. Com os grupos do Microsoft 365, você pode dar a um grupo de pessoas acesso a uma coleção de recursos de colaboração para que as pessoas compartilhem. Esses recursos incluem:
 
@@ -56,7 +56,7 @@ Como administrador, você pode:
 - [Especificar quem pode criar grupos](manage-creation-of-groups.md)
 - [Criar uma política de nomenclatura para grupos na sua organização](groups-naming-policy.md)
 - [Escolha o domínio a ser usado ao criar um grupo](choose-domain-to-create-groups.md)
-- [Gerenciar o acesso de convidados aos grupos](manage-guest-access-in-groups.md)
+- [Gerenciar o acesso de convidado a grupos](manage-guest-access-in-groups.md)
 - [Recuperar um grupo excluído](restore-deleted-group.md) (dentro de 30 dias de exclusão)
 
 Se preferir um modo mais automatizado de gerenciar o ciclo de vida de seus grupos do Microsoft 365, você poderá usar as políticas de expiração para expirar grupos em um intervalo de tempo específico. Os proprietários do grupo receberão um email 30, 15 e 1 dia antes da expiração do grupo, permitindo que eles renovem facilmente o grupo se ainda forem necessários. Confira: [política de expiração de grupo do Microsoft 365](office-365-groups-expiration-policy.md).
@@ -79,7 +79,7 @@ Os seguintes limites se aplicam aos grupos do Microsoft 365:
 |Armazenamento de arquivos|1 terabyte + 10 GB por usuário inscrito + qualquer armazenamento adicional adquirido. Você pode adquirir uma quantidade ilimitada de armazenamento adicional.|
 |Tamanho da caixa de correio de grupo|50 GB|
 
-O número máximo padrão de grupos do Microsoft 365 que uma organização pode ter é 500.000, mas pode ser aumentado por solicitação. Para obter mais informações sobre os limites de grupos do Microsoft 365, consulte [microsoft 365 groups-ajuda para administradores](https://support.office.com/article/3f780e8e-61aa-4287-830d-ff6209cbc192.aspx).
+O número máximo padrão de grupos do Microsoft 365 que uma organização pode ter é 500.000, mas pode ser aumentado por solicitação. Para obter mais informações sobre os limites de grupos do Microsoft 365, consulte [microsoft 365 groups-ajuda para administradores](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 Gerenciar seus grupos do Microsoft 365 é mais eficaz quando você tem informações acionáveis sobre o uso de grupos. O centro de administração do Microsoft 365 tem uma ferramenta de relatório que pode permitir que você veja coisas como o uso de armazenamento, quantos grupos ativos você tem e até mesmo como seus usuários estão usando os grupos. Confira: [Microsoft 365 Reports no centro de administração](../activity-reports/office-365-groups.md) para obter mais informações.
 

@@ -17,13 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 1334a90dc2e98e720aa9da392bd558adb34b37b2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba como colocar suspensões em responsáveis e suas fontes de dados para preservar o conteúdo relevante para o caso de descoberta eletrônica avançada.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 8789889a243bad15f1c29c0bd392d7273574b62c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632956"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034119"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Gerenciar isenções na descoberta eletrônica avançada
 
@@ -122,7 +123,7 @@ O Microsoft Teams é desenvolvido em grupos do Office 365. Portanto, colocá-los
 - **Como mapear outros grupos do Microsoft 365 ou site do Microsoft Teams para um Object? E como colocar um bloqueio não custodial em grupos do Microsoft 365 e no Microsoft Teams?** O Microsoft Teams é desenvolvido em grupos da Microsoft 365. Portanto, colocá-los em espera em um caso de descoberta eletrônica é muito semelhante. Tenha em mente os seguintes pontos ao colocar os grupos do Microsoft 365 e o Microsoft Teams em espera.
   - Para colocar o conteúdo localizado nos grupos do Microsoft 365 e no Microsoft Teams em espera, você precisa especificar a caixa de correio e o site do SharePoint que estão associados a um grupo ou a uma equipe.
   
-  - Execute o cmdlet **Get-unificado** no Exchange Online para exibir as propriedades de um grupo do Microsoft 365 ou Microsoft Team. Essa é uma boa maneira de obter a URL do site que está associado a um grupo do Microsoft 365 ou a uma equipe da Microsoft. Por exemplo, o comando a seguir exibe as propriedades selecionadas para um grupo do Microsoft 365 chamado equipe de liderança sênior:
+  - Execute o cmdlet **Get-unificado** no Exchange Online para exibir as propriedades de um grupo do Microsoft 365 ou Microsoft Team. Essa é uma boa maneira de obter a URL do site que está associado a um grupo do Microsoft 365 ou a uma equipe da Microsoft. Por exemplo, o comando abaixo exibe as propriedades selecionadas para um grupo do Microsoft 365 chamado de Equipe de Liderança Sênior:
 
 
     ```text

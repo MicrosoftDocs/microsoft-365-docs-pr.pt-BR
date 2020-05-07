@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7a2efd75-0771-4897-ba7b-082fe5bfa9da
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no Amazon Web Services (AWS) para Microsoft.
-ms.openlocfilehash: daac9a8efedc8a2710217e352d9793ead954d2c3
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: d75822feef5848575b8ec7fe09f834f67cdc6c55
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939350"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049102"
 ---
 # <a name="create-dns-records-at-amazon-web-services-aws-for-microsoft"></a>Criar registros DNS no Amazon Web Services (AWS) para o Microsoft
 
@@ -66,7 +66,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     |||||||
     |:-----|:-----|:-----|:-----|:-----|:-----|
     |**Nome** <br/> |**Tipo** <br/> |**Alias** <br/> |**TTL (Segundos)** <br/> |**Valor** <br/> |**Política de Roteamento** <br/> |
-    |(Leave this field empty.)  <br/> |TXT - Text  <br/> |Não  <br/> |300  <br/> |MS=ms *XXXXXXXX*  <br/>**Observação**: esse é um exemplo. Use seu valor específico de **Destino ou Pontos de Endereçamento** aqui, retirado da tabela no Microsoft 365. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |Simples  <br/> |
+    |(Leave this field empty.)  <br/> |TXT - Text  <br/> |Não  <br/> |300  <br/> |MS = ms *XXXXXXXX*  <br/>**Observação**: esse é um exemplo. Use seu valor específico de **Destino ou Pontos de Endereçamento** aqui, retirado da tabela no Microsoft 365. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |Simples  <br/> |
    
 6. Selecione **Criar**.
     
@@ -167,11 +167,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     Repita esse processo até ter criado todos os cinco registros CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0). Para validar o registro SPF, você pode usar uma destas[ferramentas de validação de SPF](../setup/domains-faq.md). 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records). Para validar o registro SPF, você pode usar uma destas[ferramentas de validação de SPF](../setup/domains-faq.md). 
   
 1. Para começar, vá para sua página de domínios no AWS usando [este link](https://console.aws.amazon.com/route53/home). Você será solicitado a fazer logon primeiro.
     
@@ -187,7 +187,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Valor:**|
     |:-----|
-    |v=spf1 include:spf.protection.outlook.com -all  <br/> (As aspas necessárias para as instruções na tela são fornecidas automaticamente. Não é necessário inseri-las manualmente.)  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
+    |v=spf1 include:spf.protection.outlook.com -all  <br/> (As aspas necessárias para as instruções na tela são fornecidas automaticamente. Não é necessário inseri-las manualmente.)  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
    
     ![AWS-BP-configure-4-2](../../media/beb3c086-eaf8-4245-9860-18512a3ff72e.png)
   
@@ -214,8 +214,8 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome**|**Tipo**|**Alias**|**TTL (Segundos)**|**Valor**|**Política de Roteamento**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip. _tls|SRV - Localizador de serviço|Não|300|100 1 443 sipdir.online.lync.com. **Esse valor deve terminar com um ponto (.)**><br> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |Simples|
-    |_sipfederationtls. _tcp|SRV - Localizador de serviço|Não|300|100 1 5061 sipfed.online.lync.com. **This value MUST end with a period (.)**<br> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |Simples|
+    |_sip. _tls|SRV - Localizador de serviço|Não|300|100 1 443 sipdir.online.lync.com. **Esse valor deve terminar com um ponto (.)**><br> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |Simples|
+    |_sipfederationtls. _tcp|SRV - Localizador de serviço|Não|300|100 1 5061 sipfed.online.lync.com. **This value MUST end with a period (.)**<br> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |Simples|
    
     ![AWS-BP-configure-5-1](../../media/c3f841d3-6076-428f-bb04-e71cc5f392fa.png)
   

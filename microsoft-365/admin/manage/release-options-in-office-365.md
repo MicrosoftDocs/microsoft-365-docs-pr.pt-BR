@@ -21,14 +21,21 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Saiba como configurar a opção de lançamento para novas atualizações de produtos e recursos no centro de administração do Microsoft 365.
-ms.openlocfilehash: 11672e46acb3124c8fd840ab19ee683cfd6af94f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: fc931893e95ff053cd251b6c1b12bfdbaadf49ae
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628107"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139644"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>Configurar as opções de lançamento padrão ou direcionadas
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Com o Microsoft 365, você recebe novos recursos e atualizações de produtos à medida que eles são disponibilizados em vez de realizar atualizações dispendiosas a cada ano. Você pode gerenciar como sua organização recebe essas atualizações. Por exemplo, você pode se inscrever em uma versão antecipada para que sua organização receba as atualizações primeiro. Você pode designar que apenas alguns usuários recebem as atualizações. Ou você pode permanecer no cronograma de lançamento padrão e receber as atualizações mais tarde. Este artigo explica as diferentes opções de versão e como você pode usá-las para sua organização.
   

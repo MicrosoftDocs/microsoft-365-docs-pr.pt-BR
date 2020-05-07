@@ -24,12 +24,12 @@ description: Saiba quais opções de pagamento estão disponíveis para pagar su
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: ccf04de4fe11469241e734a202aad3e20778843c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 599eb7eafda81f59b02ab11c822307d0db0c49c2
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635011"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045831"
 ---
 # <a name="pay-for-your-subscription"></a>Pagar por sua assinatura
 
@@ -51,7 +51,7 @@ Se você pagar com cartão de crédito e ele for recusado, você receberá um em
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Localize a assinatura com o saldo pendente. Na seção de **Cobrança**, ao lado de **Assinatura tem um pagamento vencido**, selecione **Liquidar saldo**.
 

@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Aprenda sobre domínios e seus registros DNS associados para ajudá-lo a gerenciar seus domínios.
-ms.openlocfilehash: 0b1e969dbb8b172c799e98d5470860fec3625fc2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: bd011add44ea462dacab41fde1ef0ebe4a6b4aa8
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628477"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048180"
 ---
 # <a name="dns-basics"></a>Noções básicas do DNS
 
@@ -191,7 +191,7 @@ Há diversos registros DNS necessários para que o Office 365 funcione com seu d
   
 Você pode [encontrar uma lista de valores](information-for-dns-records.md) para configurar seu domínio. Eles estão incluídos diretamente no centro de administração do Microsoft 365. 
   
-Ou, se estiver planejando uma implantação, convém analisar uma lista de todos os registros DNS necessários para o Office 365, a função deles e os valores de exemplo. Confira os [registros de Sistema de Nomes de Domínio externos para o Office 365](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0). 
+Ou, se estiver planejando uma implantação, convém analisar uma lista de todos os registros DNS necessários para o Office 365, a função deles e os valores de exemplo. Confira os [registros de Sistema de Nomes de Domínio externos para o Office 365](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records). 
   
 ## <a name="how-can-i-learn-more"></a>Como posso saber mais?
 

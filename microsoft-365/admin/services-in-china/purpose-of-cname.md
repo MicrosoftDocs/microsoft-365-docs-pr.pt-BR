@@ -19,12 +19,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: Saiba mais sobre o registro CNAME ' MSOID ' no Office 365 que o direciona para o melhor servidor para processos de autenticação, portanto, você terá um elemento de resposta mais rápido.
 monikerRange: o365-21vianet
-ms.openlocfilehash: f5369b8a723c60691da0e73f2bd8cc32233abbcd
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: a7c59829419ac8e7db400b079681ccf5bff199d6
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212216"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053843"
 ---
 # <a name="whats-the-purpose-of-the-office-365-cname-record-for-msoid"></a>Qual é o propósito do registro CNAME no Office 365 para MSOID?
 
@@ -40,7 +40,7 @@ Se o registro CNAME estiver faltando em seu domínio, esses aplicativos usarão 
   
  **Se o Office 365 gerencia os registros DNS do seu domínio,** O Office 365 configura esse registro CNAME para você. 
   
- **Se você estiver Gerenciando registros DNS para seu domínio no seu host DNS,** crie este registro por conta própria [seguindo as instruções para o seu host DNS](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23.aspx).
+ **Se você estiver Gerenciando registros DNS para seu domínio no seu host DNS,** crie este registro por conta própria [seguindo as instruções para o seu host DNS](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
   
 Se você estiver planejando uma implantação do Office 365 e quiser saber mais sobre todos os registros DNS que talvez precise adicionar ou atualizar, leia sobre eles em [referência: registros de sistema de nomes de domínio externo do Office 365](https://go.microsoft.com/fwlink/?LinkId=579013).
   

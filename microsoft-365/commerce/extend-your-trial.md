@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 75533195-f1f6-4c2c-8ceb-0b5597790d7b
 description: Saiba como estender sua assinatura de avaliação por outro período de 30 dias.
-ms.openlocfilehash: 2656e23120e114f2bc83988aff614790663131d7
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a158f737b0606ec8b3ae451d92d312ea2969f176
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634891"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045759"
 ---
 # <a name="extend-your-trial"></a>Prorrogar a avaliação
 
@@ -34,10 +34,9 @@ Você precisa de mais tempo para experimentar os recursos do Microsoft 365 for B
 
 ::: moniker range="o365-worldwide"
 
+1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produtos e serviços</a>.
-
-2. Na página **produtos & serviços** , localize a assinatura de avaliação que você deseja estender. Na seção **configurações & ações** , selecione **estender avaliação**.
+2. Na página **seus produtos** , encontre a assinatura de avaliação que você deseja estender. Na seção **configurações & ações** , selecione **estender avaliação**.
 
 3. Revise as informações de extensão e, se necessário, altere sua forma de pagamento. Quando tiver terminado, selecione **estender avaliação**.
 
@@ -45,9 +44,7 @@ Você precisa de mais tempo para experimentar os recursos do Microsoft 365 for B
 
 ::: moniker range="o365-germany"
 
-
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
-
 
 2. Na página **assinaturas** , selecione a assinatura de avaliação que você deseja estender e, em seguida, na data de expiração, selecione **estender avaliação**.
 
