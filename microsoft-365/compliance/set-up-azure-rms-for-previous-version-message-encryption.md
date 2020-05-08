@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2cba47b3-f09e-4911-9207-ac056fcb9db7
 description: A versão anterior da criptografia de mensagem do Office 365 depende do Microsoft Azure Rights Management (anteriormente conhecido como gerenciamento de direitos do Windows Azure Active Directory).
-ms.openlocfilehash: 234115a76116fe9033e8da7868f846658d0d3eee
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 879f4ec1db8a8cfe1fe3c8d3b1dd9e1fc68dd687
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943260"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165912"
 ---
 # <a name="set-up-azure-rights-management-for-the-previous-version-of-message-encryption"></a>Configurar o Azure Rights Management para a versão anterior de criptografia de mensagens
 
@@ -116,7 +116,7 @@ Você pode continuar a usar suas regras de fluxo de emails de criptografia de me
 ## <a name="next-steps"></a>Próximas etapas
 <a name="importTPDs"> </a>
 
-Depois de concluir a instalação do Azure Rights Management, se você quiser habilitar os novos recursos do OME, confira [configurar os novos recursos de criptografia de mensagens do Office 365 criados sobre a proteção de informações do Azure.](https://support.office.com/article/7ff0c040-b25c-4378-9904-b1b50210d00e)
+Depois de concluir a instalação do Azure Rights Management, se você quiser habilitar os novos recursos do OME, confira [configurar os novos recursos de criptografia de mensagens do Office 365 criados sobre a proteção de informações do Azure.](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities)
   
 Depois de configurar sua organização para usar os novos recursos do OME, você está pronto para [definir regras de fluxo de emails para proteger as mensagens de email com novos recursos do ome](define-mail-flow-rules-to-encrypt-email.md).
   

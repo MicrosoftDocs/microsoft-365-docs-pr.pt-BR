@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: Saiba como automatizar tarefas de pesquisa de conteúdo, como a criação de pesquisas e a execução de relatórios por meio de scripts do PowerShell no centro de conformidade de & de segurança no Office 365.
-ms.openlocfilehash: 4e66013ba34c71fd7e2078691f892c2ae289538b
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 1967d17ab24c991d38a7c5881d3cff87750084c3
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943492"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166072"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>Criar, gerar relatórios sobre e excluir várias Pesquisas de Conteúdo
 
@@ -33,7 +33,7 @@ ms.locfileid: "43943492"
 
 - Você precisa ser membro do grupo de função Gerenciador de descoberta eletrônica no centro de conformidade do & de segurança para executar os scripts descritos neste tópico. 
     
-- Para coletar uma lista das URLs para os sites do OneDrive for Business em sua organização que você pode adicionar ao arquivo CSV na etapa 1, consulte [criar uma lista de todos os locais do onedrive em sua organização](https://support.office.com/article/Create-a-list-of-all-OneDrive-locations-in-your-organization-8e200cb2-c768-49cb-88ec-53493e8ad80a). 
+- Para coletar uma lista das URLs para os sites do OneDrive for Business em sua organização que você pode adicionar ao arquivo CSV na etapa 1, consulte [criar uma lista de todos os locais do onedrive em sua organização](https://docs.microsoft.com/onedrive/list-onedrive-urls). 
     
 - Certifique-se de salvar todos os arquivos que você criou neste tópico para a mesma pasta. Isso facilitará a execução dos scripts.
     

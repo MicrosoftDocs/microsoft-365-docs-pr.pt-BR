@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Saiba como usar o Windows AutoPilot para configurar novos dispositivos Windows 10 para sua empresa para que eles estejam prontos para uso do funcionário.
-ms.openlocfilehash: 98a2bfc721ce86c81ebd89e8f41603e619b31546
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: de14012ebf9e7cdd22e41505f316ab665773c670
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627485"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165872"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Use o guia passo a passo para adicionar perfil e dispositivos do Autopilot
 
@@ -69,7 +69,7 @@ Se você ainda não criou grupos ou perfis de dispositivos, a melhor maneira de 
     
     Você pode obter essas informações do seu fornecedor de hardware ou pode usar o [script Get-WindowsAutoPilotInfo do PowerShell](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) para gerar um arquivo CSV. 
     
-    Para saber mais, confira o [Arquivo CSV da lista de dispositivos](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e). Você também pode baixar um exemplo de arquivo na página **Carregar arquivo .csv com uma lista de dispositivos**. 
+    Para saber mais, confira o [Arquivo CSV da lista de dispositivos](https://docs.microsoft.com/microsoft-365/admin/misc/device-list). Você também pode baixar um exemplo de arquivo na página **Carregar arquivo .csv com uma lista de dispositivos**. 
     
 4. Na página **atribuir um perfil** , você pode escolher um perfil existente ou criar um novo. Se você ainda não tiver um, você será solicitado a criar um. 
     

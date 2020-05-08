@@ -1,5 +1,5 @@
 ---
-title: Enviar email criptografado
+title: Enviar e-mail criptografado
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba como enviar emails criptografados usando o Outlook.
-ms.openlocfilehash: 559998326caedaf3352741ad9083940f79b1a614
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: fe0835c7b5b3328114ce7820da3336ca9f300d3e
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080449"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165680"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>Criptografar ou rotular seus emails confidenciais
 
@@ -48,7 +48,7 @@ Antes de enviar emails com informações confidenciais ou confidenciais, conside
 
 ## <a name="set-it-up"></a>Configuração
 
-Se você deseja criptografar uma mensagem que não atende a uma regra predefinida ou seu administrador não configurou nenhuma regra, você pode aplicar uma variedade de regras de criptografia diferentes antes de enviar a mensagem. Para enviar uma mensagem criptografada do Outlook 2013 ou 2016 ou do Outlook 2016 para Mac, selecione **opções > permissões**e, em seguida, selecione a opção de proteção necessária. Você também pode enviar uma mensagem criptografada selecionando o botão **proteger** no Outlook na Web. Para obter mais informações, consulte [enviar, exibir e responder a mensagens criptografadas no Outlook para PC](https://support.office.com/article/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980?ui=en-US&rs=en-US&ad=US).
+Se você deseja criptografar uma mensagem que não atende a uma regra predefinida ou seu administrador não configurou nenhuma regra, você pode aplicar uma variedade de regras de criptografia diferentes antes de enviar a mensagem. Para enviar uma mensagem criptografada do Outlook 2013 ou 2016 ou do Outlook 2016 para Mac, selecione **opções > permissões**e, em seguida, selecione a opção de proteção necessária. Você também pode enviar uma mensagem criptografada selecionando o botão **proteger** no Outlook na Web. Para obter mais informações, consulte [enviar, exibir e responder a mensagens criptografadas no Outlook para PC](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980).
 
 ## <a name="admin-settings"></a>Configurações de administrador
 

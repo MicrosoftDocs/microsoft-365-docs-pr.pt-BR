@@ -1,6 +1,5 @@
 ---
 title: Solicitações de assunto de dados para o RGPD e o CCPA
-description: ''
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD, CCPA
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
@@ -15,18 +14,20 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: fc5f4f8752d17595cfafaa39626f0d36675d7c82
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: Aprenda a concluir o DSRs sob as Normas Gerais de Proteção de Dados (GPDR) e a Lei de Privacidade do Consumidor da Califórnia (CCPA) usando produtos e serviços da Microsoft.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 7342c0ae4105c05ae2e2956df51581d3afedb286
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558051"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035469"
 ---
 # <a name="data-subject-requests-and-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados e o RGPD e CCPA
 
-O Regulamento Geral de Proteção de Dados (RGPD) introduz novas regras a organizações que ofereçam bens e serviços a pessoas na União Europeia (UE) ou que coletam e analisam dados vinculados a residentes na UE. independentemente de onde você ou sua empresa estejam localizados. É possível encontrar mais informações no [tópico Resumo do RGDP](gdpr.md).
+O Regulamento Geral de Proteção de Dados (RGPD) introduz novas regras a organizações que ofereçam bens e serviços a pessoas na União Europeia (UE) ou que coletam e analisam dados vinculados a residentes na UE. independentemente de onde você ou sua empresa estejam localizados. É possível encontrar mais informações no [tópico Resumo RGDP](gdpr.md).
 
-Da mesma forma, a Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do GDPR, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais.  O CCPA também fornece certas divulgações, proteções contra discriminação ao eleger direitos de exercício e requisitos de "auto-exclusão/opção de inclusão" para determinadas transferências de dados classificados como "vendas". Neste documento, você poderá obter informações sobre como concluir as solicitações de entidades de dados (DSRs) em RGPD e CCPA usando produtos e serviços da Microsoft.
+Da mesma forma, a Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do RGDP, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais.  O CCPA também fornece certas divulgações, proteções contra discriminação ao eleger direitos de exercício e requisitos de "aceitação/recusa" para determinadas transferências de dados classificadas como "vendas". Neste documento, você poderá obter informações sobre como concluir as solicitações de entidades de dados (DSRs) em RGPD e CCPA usando produtos e serviços da Microsoft.
 
 - [Office 365](gdpr-dsr-Office365.md)
 - [Azure](gdpr-dsr-Azure.md)
@@ -53,14 +54,14 @@ A Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obr
 
 Como controlador, você é obrigado a levar em consideração imediatamente cada DSR e fornecer uma resposta substantiva, basta executar a ação solicitada ou fornecer uma explicação sobre por que o DSR não pode ser acomodado pelo controlador. Um controlador deve consultar seus próprios consultores legais ou de conformidade quanto ao descarte apropriado de um determinado DSR.
 
-Vários processos podem estar envolvidos em concluir um DSR, sujeito às regras de RGPD de conformidade da sua organização.
+Vários processos podem estar envolvidos na conclusão de um DSR, sujeito às regras de RGPD de conformidade da sua organização.
   
 - **Descoberta**. O processo de determinar quais dados são necessários para concluir um DSR.
 - **Acessar**. Recuperação e transmissão potencial para o assunto dos dados das informações descobertas.
 - **Retificar**. Implemente alterações ou outros dados pessoais solicitados.
 - **Restringir**. Alterar o acesso ou processamento de dados persona restringindo o acesso ou removendo dados da nuvem da Microsoft.
-- **Exportar**. Fornecendo um formato "estruturado, comumente usado, de uso de máquina" de dados pessoais para o assunto de dados, conforme fornecido pela RGPD"direito da portabilidade de dados".
-- **Excluir**. Remoção permanente de dados pessoais da nuvem da Microsoft.
+- **Exportar**. Fornecendo um formato "estruturado, comumente usado, de leitura por máquina" de dados pessoais para o titular de dados, conforme fornecido pelo "direito à portabilidade de dados" do RGPD".
+- **Delete**. Remoção permanente de dados pessoais da nuvem da Microsoft.
 
 ## <a name="specific-dsr-considerations"></a>Considerações específicas sobre DSR
 
@@ -78,7 +79,7 @@ Os logs e os dados relacionados gerados pela Microsoft podem conter dados pessoa
 
 ### <a name="yammer-and-kaizala"></a>Yammer e Kaizala
 
-Excluir uma conta de usuário não removerá logs geradas pelo sistema para o Yammer e Kaizala. Para remover os dados desses aplicativos, siga um dos seguintes recursos:
+Excluir a conta de um usuário não removerá os logs gerados pelo sistema para o Yammer e o Kaizala. Para remover os dados desses aplicativos, confira um dos seguintes recursos:
 
 - [Gerenciar solicitações de entidades de dados do RGPD do Yammer Enterprise](https://docs.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
 - [Exportar ou excluir dados organizacionais do usuário no Kaizala](https://docs.microsoft.com/office365/kaizala/export-or-delete-a-user-s-data)

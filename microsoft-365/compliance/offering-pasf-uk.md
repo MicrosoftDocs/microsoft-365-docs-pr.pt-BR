@@ -14,24 +14,24 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 292e565064a91d2256dc62831dc1f0957a9b96eb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3207d0d29c837064ac5c27cc7022a8d0d7e63a22
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601868"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065786"
 ---
 # <a name="police-assured-secure-facilities-pasf-united-kingdom"></a>Facilidades seguras de polícia (PASF) Reino Unido
 
 ## <a name="about-pasf"></a>Sobre o PASF
 
-A NPIRMT (equipe de gerenciamento de riscos das informações de vigilância nacional) do escritório doméstico do Reino Unido (o ministério responsável por segurança, Immigration e lei e ordem) é cobrada com a garantia de que o armazenamento e o acesso às informações de polícia atendam aos padrões. Por meio da [política de gerenciamento de risco das informações de vigilância nacional](http://library.college.police.uk/docs/APP-National-Policing-Information-Risk-Management-Policy.pdf), ele define os padrões e controles centrais para agências de imposição de leis no Reino Unido que estão avaliando o risco de mover sistemas de informações de polícia para a nuvem. A política requer que todos os serviços nacionais de polícia no Reino Unido, que armazenam e processem as informações de imposição de leis sensíveis, contenham uma etapa adicional na avaliação de riscos: uma inspeção física do datacenter onde seus dados serão armazenar. A avaliação bem-sucedida de um datacenter determina que ele é PASF.
+A NPIRMT (equipe de gerenciamento de riscos das informações de vigilância nacional) do escritório doméstico do Reino Unido (o ministério responsável por segurança, Immigration e lei e ordem) é cobrada com a garantia de que o armazenamento e o acesso às informações de polícia atendam aos padrões. Por meio da [política de gerenciamento de risco das informações de vigilância nacional](http://library.college.police.uk/docs/APP-National-Policing-Information-Risk-Management-Policy.pdf), ele define os padrões e controles centrais para agências de imposição de leis no Reino Unido que estão avaliando o risco de mover sistemas de informações de polícia para a nuvem. A política requer que todos os serviços nacionais de polícia no Reino Unido, que armazenam e processem as informações de imposição de leis de legislação, estejam em vigor, consigam uma etapa adicional na avaliação de riscos: uma inspeção física do datacenter onde seus dados serão armazenados. A avaliação bem-sucedida de um datacenter determina que ele é PASF.
 
-Para ajudar os serviços locais de polícia com sua análise de auditoria detalhada, o NPIRMT realizou uma auditoria do PASF dos datacenters do Azure e determinou que eles estão em conformidade. Os serviços locais de polícia podem usar essa avaliação do NPIRMT para dar suporte à sua própria revisão. Usando as diretrizes de política do NPIRMT, o proprietário sênior do risco de informações para cada serviço de polícia é responsável por avaliar a adequação de um datacenter individual no contexto de seu aplicativo específico, que, em seguida, envia para o NPIRMT para aprovação .
+Para ajudar os serviços locais de polícia com sua análise de auditoria detalhada, o NPIRMT realizou uma auditoria do PASF dos datacenters do Azure e determinou que eles estão em conformidade. Os serviços locais de polícia podem usar essa avaliação do NPIRMT para dar suporte à sua própria revisão. Usando as diretrizes de política do NPIRMT, o proprietário sênior do risco de informações para cada serviço de polícia é responsável por avaliar a adequação de um datacenter individual no contexto de seu aplicativo específico, que, em seguida, envia para o NPIRMT para aprovação.
 
 ## <a name="microsoft-and-pasf"></a>Microsoft e PASF
 
-A equipe de gerenciamento de riscos das informações de vigilância nacional do Reino Unido (NPIRMT) concluiu uma avaliação de segurança abrangente da infraestrutura física dos datacenters do Microsoft Azure no Reino Unido e concluiu que estão em conformidade com os requisitos do NPIRMT sem qualquer ação corretiva. Essa auditoria física bem-sucedida significa que o Microsoft Business Cloud Services agora pode suportar as forças de polícia no Reino Unido, que exigem instalações seguras de polícia (PASF) para processar e armazenar seus dados na nuvem.
+A equipe de gerenciamento de riscos das informações de vigilância nacional do Reino Unido (NPIRMT) concluiu uma avaliação de segurança abrangente da infraestrutura física dos datacenters do Microsoft Azure no Reino Unido e concluiu que estão em conformidade com os requisitos do NPIRMT sem nenhuma ação corretiva. Essa auditoria física bem-sucedida significa que o Microsoft Business Cloud Services agora pode suportar as forças de polícia no Reino Unido, que exigem instalações seguras de polícia (PASF) para processar e armazenar seus dados na nuvem.
 
 A Microsoft usa uma abordagem de defesa profunda e abrangente para segurança. Nossos data centers do Reino Unido (como todos os datacenters da Microsoft) são certificados para cumprir o [portfólio mais abrangente](https://azure.microsoft.com/overview/trusted-cloud/) de padrões reconhecidos internacionalmente de qualquer provedor de serviço de nuvem e atendem consistentemente a esses requisitos. Isso inclui a certificação para nossa implementação dos [padrões de gerenciamento de segurança de informações ISO/iec 27001](offering-iso-27001.md) e o [código de prática iso/IEC 27018 para a proteção de dados pessoais na nuvem](offering-iso-27018.md).
 
@@ -62,9 +62,5 @@ Sim. A imposição de leis pode usar a avaliação do NPIRMT do Azure para dar s
 - [Política de certificação de vigilância nacional](http://library.college.police.uk/docs/APP-National-Policing-Accreditation-Policy-2013.pdf)
 - [Recursos do Azure, local e segurança física](https://azure.microsoft.com/blog/azure-layered-approach-to-physical-security/)
 - [Padrões do ISM da Microsoft e ISO/IEC 27001:2013](offering-iso-27001.md)
-- [Termos do Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
+- [Termos de Serviços Online da Microsoft](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/C/9/7/C97C7B62-F582-4C25-8ABB-80DFB87628CA/PASF-Compliance.pdf).

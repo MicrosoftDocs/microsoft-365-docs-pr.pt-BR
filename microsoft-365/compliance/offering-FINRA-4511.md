@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9518fbdca5e7234e31979e4c88fe4499b65fc5f0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bcffe85011bad55a458f2359051fe659f5720c8b
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602398"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066334"
 ---
 # <a name="financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>Regra de autoridade de regulamentação do setor financeiro (FINRA) 4511 (c) Estados Unidos
 
@@ -69,7 +69,7 @@ O arquivamento no Office 365 ajuda a preservar uma ampla variedade de dados, inc
 ## <a name="how-to-implement"></a>Como implementar
 
 - **Regulamentação de serviços financeiros**: mapa de conformidade dos principais princípios normativos dos EUA para computação em nuvem e serviços online da Microsoft. [Saiba mais](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
-- **Guia de conformidade e avaliação de risco**: cria um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador. [Saiba mais](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+- **Guia de Conformidade & Avaliação de Risco **: Cria um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador. [Saiba mais](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 - **Casos de uso financeiro**: Visões gerais de uso, tutoriais e outros recursos para criar soluções Azure para serviços financeiros. [Saiba mais](https://docs.microsoft.com/azure/industry/financial/)
 
 ## <a name="resources"></a>Recursos
@@ -81,7 +81,3 @@ O arquivamento no Office 365 ajuda a preservar uma ampla variedade de dados, inc
 - [Políticas de retenção do Microsoft Office 365](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
 - [Blog dos Serviços Financeiros da Microsoft](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
 - [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/6/B/2/6B20520B-E264-4B58-9EE2-DD6C87D9E254/FINRA-Compliance.pdf).

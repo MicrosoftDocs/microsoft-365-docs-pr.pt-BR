@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: b5efda8f6b4b7937b98a9357ad3bb2c661541256
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: ace04c61b8bb26661201b3a2616799f0dc4ea87e
+ms.sourcegitcommit: 9ffa2fd25776726475e10148940987fa076bbd91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065816"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44162673"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
@@ -91,17 +91,19 @@ O gerenciamento de risco do insider oferece suporte à importação de dados de 
 Consulte o tópico [configurar um conector para importar dados de RH](import-hr-data.md) para obter orientações passo a passo para configurar o Microsoft 365 HR Connector para sua organização. Depois de configurar o conector de RH, retorne a estas etapas de configuração.
 
 >[!IMPORTANT]
->Se você configurar um p'licy usando o modelo de *roubo de dados do emplo'ee* , será necessário configurar o conector de RH para usar os recursos de detecção de sinal completo do modelo de política. Se você configurar mais de um conector de RH para sua organização, o gerenciamento de riscos do insider receberá os indicadores automaticamente de todos os conectores de RH.
+>Se você configurar uma política usando o modelo de *roubo de dados do funcionário de canpartes* , será necessário configurar o conector de RH para usar os recursos de detecção de sinal completo do modelo de política. Se você configurar mais de um conector de RH para sua organização, o gerenciamento de riscos do insider receberá os indicadores automaticamente de todos os conectores de RH.
 
 ### <a name="configure-data-loss-prevention-dlp-policies"></a>Configurar políticas de DLP (prevenção contra perda de dados)
 
-O gerenciamento de riscos do insider suporta o uso de políticas DLP para ajudar a identificar a exposição intencional ou acidental de informações confidenciais a partes indesejadas. Ao configurar uma política de gerenciamento de risco do insider com o modelo de *vazamento de dados* , você precisa atribuir uma política de DLP específica à política. Esta política ajuda a direcionar os indicadores de alerta para informações confidenciais é uma parte importante da configuração da cobertura de gerenciamento de risco completo em sua organização.
+O gerenciamento de riscos do insider suporta o uso de políticas DLP para ajudar a identificar a exposição intencional ou acidental de informações confidenciais a partes indesejadas. Ao configurar uma política de gerenciamento de risco do insider com o modelo de *vazamento de dados* , você precisa atribuir uma política de DLP específica à política.
 
-Consulte o tópico [criar, testar e ajustar uma política de DLP](create-test-tune-dlp-policy.md) para obter orientações passo a passo para configurar as políticas de DLP para sua organização. Após configurar uma política de DLP, retorne a estas configurações "ration Steps". "" "" "" "" "" "
+Esta política ajuda a direcionar os indicadores de gerenciamento de risco do insider para alertas de DLP de alta gravidade para informações confidenciais e é uma parte importante da configuração da cobertura de gerenciamento de risco completo em sua organização. Se você configurar mais de uma política de DLP para sua organização, será necessário atribuir uma política de gerenciamento de risco Insider por política DLP.
+
+Consulte o tópico [criar, testar e ajustar uma política de DLP](create-test-tune-dlp-policy.md) para obter orientações passo a passo para configurar as políticas de DLP para sua organização. Após configurar uma política de DLP, retorne a estas etapas de configuração.
 
 >[!IMPORTANT]
->Se você configurar uma política usando o modelo de *vazamento de dados* , será necessário configurar pelo menos uma política de DLP para usar os recursos de detecção de sinal completo do modelo de política. Se você configurar mais de uma política de DLP para sua organização, será necessário atribuir uma política de gerenciamento de risco Insider por política DLP.
-""""""""
+>Certifique-se de que a configuração **relatórios de incidentes** na política de DLP para gerenciamento de risco do insider usada com este modelo está configurada para alertas de nível de severidade *alto* . Os alertas de gerenciamento de risco do insider não serão gerados de políticas DLP com o conjunto de campos **relatórios de incidentes** em *baixo* ou *médio*.
+
 ## <a name="step-4-required-configure-insider-risk-settings"></a>Etapa 4 (obrigatório): definir configurações de risco do insider
 
 [As configurações de risco do insider](insider-risk-management-policies.md#policy-settings) são aplicadas a todas as políticas de gerenciamento de risco do Insider, independentemente do modelo que você escolheu ao criar uma política. As configurações são definidas usando o controle de **configurações de risco do insider** localizado na parte superior de todas as guias de gerenciamento de risco do insider Essas configurações controlam a privacidade, indicadores, monitoramento de janelas e detecções inteligentes.

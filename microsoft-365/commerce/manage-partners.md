@@ -16,14 +16,21 @@ search.appverid:
 - MET150
 description: Saiba como trabalhar com os fornecedores de soluções certificadas pela Microsoft (parceiros) para comprar e gerenciar produtos e serviços para sua organização ou escola.
 keywords: parceiro, provedor de soluções
-ms.openlocfilehash: ad51ee23b780de33aaaca6ad651816dba89c7bc9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3ba5a62caf199bf1e111ecf921df0f21568d5257
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080358"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141202"
 ---
 # <a name="manage-partner-relationships"></a>Gerenciar relacionamentos de parceiros
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Você pode trabalhar com os fornecedores de soluções certificadas pela Microsoft (parceiros) para comprar e gerenciar produtos e serviços para sua organização ou escola. Há algumas etapas envolvidas na configuração das coisas.
 

@@ -14,14 +14,21 @@ ms.collection:
 search.appverid:
 - MET150
 description: Os administradores podem aprender a gerenciar compras de autoatendimento feitas por usuários em sua organização.
-ms.openlocfilehash: 7074a829bed3e65a160a9a33afb4f2b130f6c8d1
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 991dc87c40f41a6cbd2f1c08d4bc72bbb34d28f1
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046175"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141145"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Gerenciar compras de autoatendimento (Administrador)
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Como administrador, você pode ver compras de autoatendimento feitas por pessoas em sua organização. Você pode ver o produto, o nome do comprador, as assinaturas adquiridas, a data de vencimento, o preço de compra e os usuários atribuídos para cada compra de autoatendimento. Se for necessário para sua organização, você poderá desativar a compras de autoatendimento por produto através do PowerShell. Você tem as mesmas políticas de gerenciamento e de acesso a dados sobre produtos comprados por autoatendimento ou de forma centralizada.
 

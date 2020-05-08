@@ -1,5 +1,5 @@
 ---
-title: Navegar e usar os relatórios na análise de uso do Microsoft 365
+title: 'Navegar e utilizar os relatórios da análise de uso do Microsoft 365 '
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -19,14 +19,21 @@ search.appverid:
 - MOE150
 ms.assetid: 286fcf0b-ffc7-4593-8073-d7a4a5dd2b45
 description: Saiba como exibir os relatórios usando guias de navegação e filtros.
-ms.openlocfilehash: 3abbd2362cb6216d5dd561c7792fa41588daac66
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: dedcaf52a2b5e69d53f8c41494b5fd68ac1f248b
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42355102"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140666"
 ---
-# <a name="navigate-and-utilize-the-reports-in-microsoft-365-usage-analytics"></a>Navegar e usar os relatórios na análise de uso do Microsoft 365
+# <a name="navigate-and-utilize-the-reports-in-microsoft-365-usage-analytics"></a>Navegar e utilizar os relatórios da análise de uso do Microsoft 365 
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 O painel mostra uma visão geral das principais métricas de uso e adoção. Ao selecionar as métricas de nível superior, você pode acessar relatórios que fornecem mais detalhes e insights. Cada guia de relatório contém visualizações de dados específicas para um aspecto de uso e adoção da sua organização. Os dados coletados são explicados no título de cada relatório e aparece um bloco que contém mais informações sobre as visualizações na guia relatório que você está exibindo.
 

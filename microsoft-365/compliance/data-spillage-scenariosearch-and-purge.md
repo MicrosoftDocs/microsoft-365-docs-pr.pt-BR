@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Use as ferramentas de descoberta eletrônica e de pesquisa para gerenciar e responder a um incidente de derramamento de dados em sua organização.
-ms.openlocfilehash: fd230d3e54ca61046a28f60d81d497a413bfa4f7
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 708343992d2b8d51d9b10f89cd6b986de00423d6
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630588"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166052"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>série de soluções de descoberta eletrônica: cenário de derramamento de dados-pesquisa e limpeza
 
@@ -120,7 +120,7 @@ Para investigar melhor se um email com dados derramados foi compartilhado, você
   
 Você pode usar o rastreamento de mensagens no centro de segurança e conformidade ou usar os cmdlets correspondentes no PowerShell do Exchange Online. É importante observar que o rastreamento de mensagens não oferece garantias completas sobre a integridade dos dados retornados. Para obter mais informações sobre como usar o rastreamento de mensagens, consulte: 
   
-- [Rastreamento de mensagens no Centro de Conformidade e Segurança](https://support.office.com/article/3e64f99d-ac33-4aba-91c5-9cb4ca476803.aspx)
+- [Rastreamento de mensagens no Centro de Conformidade e Segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/message-trace-scc)
     
 - [Novo rastreamento de mensagens no centro de conformidade e segurança &](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)
     

@@ -18,12 +18,12 @@ ms.collection:
 - Strat_O365_Enterprise
 description: Saiba como criar uma política de tipo de informação confidencial para sua organização usando a criptografia de mensagem do Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a6baf20d755ed30ce962d7cc6b03f6c9734e4a4
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 7ba94923c1f8c6ade6b7bf494636c562b4cc4102
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44031401"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165952"
 ---
 # <a name="create-a-sensitive-information-type-policy-for-your-organization-using-message-encryption"></a>Criar uma política de tipo de informação confidencial para sua organização usando a criptografia de mensagens
 
@@ -64,7 +64,7 @@ Depois que a Microsoft criptografa uma mensagem, os destinatários têm acesso i
 
 Talvez você queira atualizar qualquer material de treinamento e documentação do usuário final aplicável para preparar as pessoas em sua organização para essa alteração. Compartilhe estes recursos de criptografia de mensagem do Office 365 com seus usuários conforme apropriado:
 
-- [Enviar, exibir e responder a mensagens criptografadas no Outlook para PC](https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980)
+- [Enviar, exibir e responder a mensagens criptografadas no Outlook para PC](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)
 - [Vídeo do Microsoft 365 Essentials: criptografia de mensagem do Office](https://youtu.be/CQR0cG_iEUc)
 
 ## <a name="view-these-changes-in-the-audit-log"></a>Exibir essas alterações no log de auditoria

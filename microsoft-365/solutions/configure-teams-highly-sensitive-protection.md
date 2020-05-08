@@ -13,15 +13,16 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+- M365solutions
 ms.custom:
 - Ent_Solutions
 description: Aprenda a implantar equipes com proteção para dados altamente confidenciais.
-ms.openlocfilehash: f044dd672d52db4100fcb4cfec2519a8605c7be8
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: f60c46c3b596c131bb04a49f0293c6dd8bbbea2b
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002469"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166168"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Configurar equipes com proteção para dados altamente confidenciais
 
@@ -42,8 +43,8 @@ Dependendo da natureza da sua empresa, você pode ou não querer ativar o compar
 
 Para obter detalhes sobre como compartilhar com convidados com segurança, confira os seguintes recursos:
 
-- [Limitar a exposição acidental a arquivos ao compartilhar arquivos com pessoas de fora da sua organização](https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure)
-- [Criar um ambiente de compartilhamento de convidados seguro](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
+- [Limite a exposição acidental a arquivos ao compartilhar arquivos com pessoas de fora da sua organização](https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure)
+- [Criar um ambiente seguro de compartilhamento de convidados](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
 Para permitir ou bloquear o compartilhamento de convidados, usamos uma combinação de um rótulo de confidencialidade para a equipe e controles de compartilhamento no nível do site para o Microsoft Office SharePoint Online associado, ambos discutidos mais adiante.
 
@@ -70,8 +71,8 @@ Para criar um rótulo de confidencialidade
 10.  Clique em **Salvar** e, em seguida, clique em **Avançar**.
 11. Na página **Marcação de conteúdo**, ative a marcação de conteúdo se desejar adicionar automaticamente um cabeçalho, rodapé ou marca d'água aos arquivos classificados com este rótulo.
 12. Na página **Configurações de site e grupo**, defina **Configurações de site e grupo** como **Ativado**.
-13. No menu suspenso **Privacidade de sites de equipe conectados a grupos do Office 365**, escolha **Privado – somente membros podem acessar o site**.
-14. Se você deseja permitir o acesso de convidado, marque a caixa de seleção **Permitir que proprietários de grupos do Office 365 adicionem pessoas de fora da organização aos grupos**. 
+13. No menu suspenso **Privacidade de sites de equipe conectados a grupos do Office 365**, escolha **Privado - somente membros podem acessar o site**.
+14. Se você deseja permitir o acesso de convidado, marque a caixa de seleção **Permitir que proprietários de grupos do Office 365 adicionem pessoas de fora da organização ao grupo**. 
 15. Em **Dispositivos não gerenciados**, escolha **Bloquear acesso**.
 16. Clique em **Avançar**.
 17. Na página **Rotulação automática para aplicativos do Office**, clique em **Avançar**.
@@ -97,7 +98,7 @@ Para criar uma equipe para informações altamente confidenciais
 Nesta camada, restringimos a criação de canais privados os proprietários da equipe.
 
 Para restringir a criação de canais privados
-1. Na equipe, clique em **Mais opções** e clique em **Gerenciar equipe**.
+1. Na equipe, clique em **Mais opções** e em **Gerenciar equipe**.
 2. Na guia **Configurações**, expanda **Permissões de membro**.
 3. Desmarque a caixa de seleção **Permitir que os membros criem canais privados**.
 
@@ -114,10 +115,10 @@ Sempre que você cria uma nova equipe com o rótulo altamente confidencial, há 
 
 A configuração de compartilhamento de convidados que você escolheu quando criou o rótulo (que afeta somente a associação à equipe) deve corresponder às configurações de compartilhamento de convidados do site do Microsoft Office SharePoint Online associado, da seguinte maneira:
 
-|Configuração de rótulo|Configuração do site do Microsoft Office SharePoint Online|
+|Configuração do rótulo|Configuração do site do Microsoft Office SharePoint Online|
 |:------------|:----------------------|
 |**Permitir que proprietários de grupos do Office 365 adicionem pessoas de fora da organização aos grupos** selecionado|**Convidados novos e existentes** (padrão para novas equipes)|
-|**Permitir que proprietários de grupos do Office 365 adicionem pessoas de fora da organização aos grupos** não selecionado|**Somente pessoas em sua organização**|
+|**Permitir que os proprietários de grupos do Office 365 adicionem pessoas de fora da organização aos grupos** não selecionado|**Somente pessoas em sua organização**|
 
 Para atualizar as configurações do site
 1. Abra o [Centro de Administração do SharePoint Online](https://admin.microsoft.com/sharepoint).
@@ -139,7 +140,7 @@ Se você adicionar canais privados à equipe, cada canal privado criará um novo
 
 ### <a name="site-sharing-settings"></a>Configurações de compartilhamento de site
 
-Para ajudar a garantir que o site do Microsoft Office SharePoint Online não seja compartilhado com pessoas que não sejam membros da equipe, limitamos esse compartilhamento aos proprietários. Também limitamos o compartilhamento de arquivos e pastas aos proprietários da equipe. Isso ajuda a garantir que os proprietários estejam cientes sempre que um arquivo for compartilhado com alguém de fora da equipe.
+Para ajudar a garantir que o site do Microsoft Office SharePoint Online não seja compartilhado com pessoas que não são membros da equipe, limitamos esse compartilhamento aos proprietários. Também limitamos o compartilhamento de arquivos e pastas aos proprietários da equipe. Isso ajuda a garantir que os proprietários estejam cientes sempre que um arquivo for compartilhado com alguém de fora da equipe.
 
 Para configurar o compartilhamento de site somente para proprietários
 1. No Teams, navegue até a guia **Geral** da equipe que deseja atualizar.

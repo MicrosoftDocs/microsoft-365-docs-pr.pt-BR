@@ -19,14 +19,21 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: Saiba como obter uma avaliação gratuita ou comprar uma assinatura para o Microsoft 365.
-ms.openlocfilehash: 255cd1779f3fb29a619110160faefdd3d5369eca
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 19529192e2fa48ac081a84e9ad54669c3ef16791
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707530"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141049"
 ---
 # <a name="try-or-buy-a-microsoft-365-subscription"></a>Experimentar ou comprar uma assinatura do Microsoft 365
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 A Microsoft 365 é uma solução completa que combina o Office 365 e o Windows 10 com segurança avançada e gerenciamento de dispositivos. Se você já tem uma assinatura e deseja fazer uma avaliação ou comprar uma assinatura do Microsoft 365, a melhor maneira de fazê-lo é através do centro de administração. As seguintes assinaturas do Microsoft 365 estão disponíveis no centro de administração para experimentar ou comprar agora:
   

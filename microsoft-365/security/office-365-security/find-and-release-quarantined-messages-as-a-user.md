@@ -16,13 +16,15 @@ search.appverid:
 ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
 - M365-security-compliance
-description: Como um usuário do Microsoft 365, você pode exibir, liberar e excluir suas mensagens em quarentena (mensagens em que você é um destinatário e a filtragem de spam colocou a mensagem como spam ou email em massa). Você exibe e gerencia suas mensagens em quarentena no Centro de conformidade e de segurança.
-ms.openlocfilehash: b8ab5835a29ccf0c58d27f56fe84d29745419b1a
-ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
+ms.custom:
+- seo-marvel-apr2020
+description: Neste artigo, você aprenderá a exibir e gerenciar mensagens em quarentena no Centro de Conformidade e Segurança do Microsoft 365.
+ms.openlocfilehash: 177f60f1fccc764d74ec0374249a62c602cb84aa
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43809016"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036507"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user"></a>Localizar e liberar mensagens em quarentena como um usuário
 

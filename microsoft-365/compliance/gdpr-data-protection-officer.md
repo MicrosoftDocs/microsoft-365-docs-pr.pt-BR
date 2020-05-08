@@ -1,6 +1,6 @@
 ---
-title: Diretor de proteção dos dados da Microsoft
-description: Informações sobre o DPO (Diretor de Proteção dos Dados) da União Europeia da Microsoft para o RGPD
+title: Responsável pela proteção dos dados da Microsoft
+description: Saiba mais sobre a posição e as qualificações do Diretor de Proteção de Dados da União Europeia da Microsoft (DPO) para o GDPR.
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
@@ -15,18 +15,19 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 8e517db11806085339f6f431c9b942b468a211ed
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b09458bfba65a196ff9be4d9bfd7f3fbfda25fda
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558061"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036089"
 ---
 # <a name="microsofts-data-protection-officer"></a>Diretor de proteção dos dados da Microsoft
 
 ## <a name="overview"></a>Visão geral
 
-A Microsoft indicou um DPO (Responsável pela Proteção dos Dados) para ser um consultor independente dos grupos de engenharia e grupos de negócios da Microsoft e ajudar a garantir que todo o processamento proposto de dados pessoais atenda aos requisitos legais da UE e aos padrões corporativos da Microsoft. A função foi criada para atender aos critérios de RGPD definidos nos artigos 37 a 39.
+A Microsoft indicou um Diretor de Proteção de Dados da União Europeia da Microsoft (DPO) para ser um consultor independente dos grupos de engenharia e grupos de negócios da Microsoft e ajudar a garantir que todo o processamento de dados pessoais proposto atenda aos requisitos legais da UE e aos padrões corporativos da Microsoft. A função foi criada para atender aos critérios de RGPD definidos nos artigos 37 a 39.
 
 ## <a name="qualifications"></a>Qualificações
 

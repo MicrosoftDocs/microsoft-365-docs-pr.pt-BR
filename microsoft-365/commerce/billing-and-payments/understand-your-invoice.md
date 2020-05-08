@@ -18,14 +18,21 @@ search.appverid:
 - MET150
 description: Saiba como ler e entender sua fatura para produtos de negócios da Microsoft.
 keywords: contas de cobrança, informações da organização, faturas
-ms.openlocfilehash: 7b16af7c6ef39743aa8d0a4e927786f64f47c4cd
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: dad635df97e9cdf490118adc3a041c876878521b
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942872"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141323"
 ---
 # <a name="understand-your-invoice"></a>Entenda a sua fatura
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 A fatura fornece um resumo de seus encargos e instruções para pagamento. Você pode [exibir sua fatura online](#view-your-online-invoice) no centro de administração do Microsoft 365. Você também pode baixá-lo no formato de documento portátil (. pdf) para enviar por email.
 

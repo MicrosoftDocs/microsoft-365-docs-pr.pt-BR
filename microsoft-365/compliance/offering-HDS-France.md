@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 88f84cc73bfea5bbc072a46e894a140e227844b2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 46118f9fe48e6fe794cdb256384bb88e9a1e0cfa
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602318"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066464"
 ---
 # <a name="health-data-hosting-hds-france"></a>Hospedagem de Dados de Integridade (HDS) França
 
@@ -74,7 +74,3 @@ A certificação HDS é válida por três anos.
 - [Azure for health](https://azure.microsoft.com/industries/healthcare/)
 - [Segurança na Microsoft](https://www.microsoft.com/security)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/E/7/B/E7BC3E72-A6E5-4A10-96C9-3B210C4DBE35/HDS-Compliance.pdf).

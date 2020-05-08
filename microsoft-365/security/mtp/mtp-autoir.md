@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: f7ae1a285e22ad18d292d37aab0bba0b4a441461
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 6ac6d74b027cc533f689c1d67c7fce246c73984f
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857446"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166156"
 ---
 # <a name="automated-investigation-and-response-air-capabilities-in-microsoft-threat-protection"></a>Recursos de investigação e resposta automatizados (AIR) na proteção contra ameaças da Microsoft
 
@@ -54,7 +54,7 @@ Um alerta disparado cria um incidente, que pode iniciar uma investigação autom
 |Dispositivos (também chamados de pontos de extremidade)     |[Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)<br/>[Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) |      
 |Conteúdo de email (arquivos e mensagens nas caixas de correio)     |[Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)         |
 
-Cada investigação gera verditos (*Malicioso*, *Suspeito* ou *Limpo*) para cada evidência investigada. Dependendo do tipo de ameaça e veredicto resultante, as ações de correção ocorrerão automaticamente ou após a aprovação da equipe de operações de segurança da sua organização. As ações pendentes e concluídas estão listadas na [Central de ações](mtp-action-center.md).
+Cada investigação gera verdicts (*mal-intencionado*, *suspeito*ou *nenhuma ameaça encontrada*) para cada evidência investigada. Dependendo do tipo de ameaça e veredicto resultante, as ações de correção ocorrerão automaticamente ou após a aprovação da equipe de operações de segurança da sua organização. As ações pendentes e concluídas estão listadas na [Central de ações](mtp-action-center.md).
 
 > [!TIP]
 > Se você acha que algo foi perdido ou detectado incorretamente por recursos de investigação e resposta automatizados na proteção contra ameaças da Microsoft, vamos nos lembrar! Veja [como relatar falsos positivos/negativos em recursos de investigação e resposta automatizados (Air) no Microsoft Threat Protection](mtp-autoir-report-false-positives-negatives.md).

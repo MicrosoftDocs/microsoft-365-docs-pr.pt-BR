@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6dcdfd7ec2230de3eec7ccc0db08f7f4a637263d
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: d0656286ecdac0471715c5dbb0feaa0bbaffaf6a
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222063"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066354"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>Conselho Federal de análise de instituições financeiras (FFIEC)
 
@@ -37,7 +37,7 @@ Acelere sua implantação de serviços financeiros: [Baixe o plano de segurança
 
 Para ajudar os clientes da instituição financeira a atender aos requisitos de conformidade do FFIEC com o Azure, a Microsoft desenvolveu o:
 
-- [Ferramenta de diagnóstico de segurança na nuvem * *](https://aka.ms/FFIEC-CSDT) para ajudá-lo a conduzir uma avaliação de risco dos serviços do Azure com mais eficiência. A ferramenta (uma planilha do Excel) apresenta 19 domínios de segurança de informações (como segurança de rede e de sistema e gerenciamento de informações e riscos) que controlam os requisitos de regulamentações de serviços financeiros e outros padrões relevantes, além do FFIEC Exames manuais. A ferramenta explica como o Azure atende a cada requisito aplicável aos provedores de serviços de tecnologia (TSPs).
+- [Ferramenta de diagnóstico de segurança na nuvem * *](https://aka.ms/FFIEC-CSDT) para ajudá-lo a conduzir uma avaliação de risco dos serviços do Azure com mais eficiência. A ferramenta (uma planilha do Excel) apresenta 19 domínios de segurança de informações (como segurança de rede e de sistema e gerenciamento de informações e riscos) que acompanham os requisitos de regulamentações de serviços financeiros e outros padrões relevantes, bem como os manuais de análise de ti do FFIEC. A ferramenta explica como o Azure atende a cada requisito aplicável aos provedores de serviços de tecnologia (TSPs).
 - [Plano gráfico de segurança e conformidade do Microsoft Azure para os cargas de trabalho de serviços regulamentados](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint), um complemento à ferramenta de diagnóstico. Ele oferece orientação sobre o uso dos serviços de nuvem do Azure e considerações para conformidade do cliente com os requisitos da FFIEC e diretrizes de avaliação de risco.
 
 Para ajudá-lo a atender aos requisitos do FFIEC, os serviços de nuvem da Microsoft fornecem [relatórios de atestado de SOC](offering-SOC.md) produzidos por uma firma CPA independente. Por exemplo, o atestamento do tipo 2 do SOC 1 é baseado no AICPA SSAE 18 Standard (consulte AT-C seção 105) que substituiu a SAS 70 e é apropriado para relatar certos controles para relatórios financeiros. Os relatórios do SOC incluem a opinião do auditor sobre a eficácia dos controles da Microsoft em atingir os objetivos de controle relacionados durante o período de monitoramento especificado. As instituições financeiras podem usar essa auditoria formal ao obter obrigações de conformidade específicas de FFIEC para ativos implantados no Azure, no Power BI e no Office 365.
@@ -79,7 +79,3 @@ A [Pontuação de Conformidade da Microsoft](compliance-score.md) é um recurso 
 - [Serviços de nuvem corporativos da Microsoft e serviços financeiros](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
 - [Responsabilidades compartilhadas para a computação em nuvem](https://aka.ms/sharedresponsibility)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/6/2/7/62760960-C4B5-456B-9CF8-DCB7D692AAC4/FFIEC-Compliance.pdf).

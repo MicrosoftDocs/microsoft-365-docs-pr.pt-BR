@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Proteja seus emails e dados de negócios contra ameaças da Cyber, incluindo ransomware, phishing e anexos mal-intencionados.
-ms.openlocfilehash: a5d81eed4d3d6edae48cd82109f83320953782a3
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: abc75a7c7a8b771e5b15fb3c4f0aeb2125be4684
+ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046347"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44155416"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>As 12 principais tarefas para equipes de segurança dar suporte ao trabalho de casa
 
@@ -35,7 +35,7 @@ Para os clientes que usam nossos planos corporativos, a Microsoft recomenda que 
 - O Microsoft 365 E3 inclui o Enterprise Mobility + Security (EMS) E3 e o Azure AD P1
 - O Microsoft 365 E5 inclui o EMS E5 e o Azure AD P2
   
-||**Tarefa**| Todos os planos empresariais do Office 365|**Microsoft 365 E3** |**Microsoft 365 e5**|
+||**Task**| Todos os planos empresariais do Office 365|**Microsoft 365 E3** |**Microsoft 365 E5**|
 |:-----|:-----|:-----|:-----|:-----|
 |1      |[Habilitar a MFA (autenticação multifator do Azure)](#1-enable-azure-multi-factor-authentication-mfa)   |   ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)   | ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |duas     | [Proteção contra ameaças](#2-protect-against-threats) |![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
@@ -217,7 +217,7 @@ Além desta orientação, a Microsoft recomenda que os usuários executem as aç
     
 A Microsoft também recomenda que os usuários protejam suas contas de email pessoais executando as ações recomendadas nos seguintes artigos:
   
-- [Ajudar a proteger sua conta de email do Outlook.com](https://support.office.com/article/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba.aspx)
+- [Ajudar a proteger sua conta de email do Outlook.com](https://support.microsoft.com/en-us/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
     
 - [Proteger sua conta do Gmail com a verificação em duas etapas](https://go.microsoft.com/fwlink/?linkid=2015688&amp;clcid=0x409)
 

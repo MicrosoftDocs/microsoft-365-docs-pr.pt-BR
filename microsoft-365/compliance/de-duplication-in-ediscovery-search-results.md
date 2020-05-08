@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 description: Você tem a opção de cancelar a duplicação de resultados de pesquisa de descoberta eletrônica que são exportados para que apenas uma cópia de uma mensagem de email seja exportada, embora várias instâncias da mesma mensagem possam ter sido encontradas em caixas de correio diferentes.
-ms.openlocfilehash: 17bfb7581da1147c7de8cae0437fe91316a3fcb6
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 6a63783efd76d6e598d3f00dd8a683317c261d2d
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943128"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166042"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>Deduplicação nos resultados de pesquisa de Descoberta Eletrônica
 
@@ -84,4 +84,4 @@ As mensagens exclusivas também podem ser marcadas como duplicatas quando o recu
 
   - [Exportar resultados de pesquisa de descoberta eletrônica in-loco para um arquivo PST](https://go.microsoft.com/fwlink/p/?linkid=832671)
 
-  - [Exportar conteúdo e criar relatórios no Centro de Descoberta eletrônica](https://support.office.com/article/7b2ea190-5f9b-4876-86e5-4440354c381a)
+  - [Exportar conteúdo e criar relatórios no Centro de Descoberta eletrônica](https://docs.microsoft.com/SharePoint/governance/export-content-and-create-reports-in-the-ediscovery-center)

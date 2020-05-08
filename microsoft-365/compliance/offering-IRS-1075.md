@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bb7a805fa927756753e3ba09c3dd5eb2998467e7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b64b69d52028a09ddd54863d4e2cbf5f0642bd67
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602288"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066324"
 ---
 # <a name="us-internal-revenue-service-publication-1075"></a>Publicação de serviço de receita interna da US 1075
 
@@ -33,7 +33,7 @@ Para proteger o FTI, o IRS 1075 prescreve os controles de segurança e privacida
 
 Microsoft Azure governo e [Microsoft Office 365 os serviços de nuvem do governo dos EUA](https://products.office.com/government/office-365-web-services-for-government) oferecem um compromisso contratual de que eles têm os controles adequados em vigor, e os recursos de segurança necessários para os clientes da Agência da Microsoft atenderem aos requisitos de baixo do IRS 1075.  
   
-Estes serviços de nuvem da Microsoft para o governo fornecem uma plataforma na qual os clientes podem criar e operar suas soluções, mas os clientes devem determinar por si mesmos se essas soluções específicas são operadas de acordo com o IRS 1075 e, portanto, sujeito à auditoria da administração fiscal.  
+Estes serviços de nuvem da Microsoft para o governo fornecem uma plataforma na qual os clientes podem criar e operar suas soluções, mas os clientes devem determinar por si mesmos se essas soluções específicas são operadas de acordo com o IRS 1075 e, portanto, sujeitas à auditoria da administração fiscal.  
   
 Para ajudar agências governamentais em seus esforços de conformidade, a Microsoft:
 
@@ -43,9 +43,7 @@ Para ajudar agências governamentais em seus esforços de conformidade, a Micros
 - Fornece às considerações de conformidade do governo do IRS e ao Office 365 considerações de conformidade do governo dos EUA, que descrevem como uma agência pode usar o Microsoft Cloud para serviços governamentais de uma maneira que seja compatível com o IRS 1075. Clientes governamentais sob NDA podem solicitar esses documentos.
 - Oferece aos clientes a oportunidade (com suas custas) para se comunicar com especialistas no Microsoft Subject ou fora dos auditores, se necessário.
 
-Saiba mais sobre os benefícios do IRS 1075 na nuvem da Microsoft: [baixar o irs 1075 Backgrounder](https://aka.ms/irs1075-backgrounder)
-
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 As autorizações do FedRAMP são concedidas a três níveis de impacto com base nas diretrizes do NIST: baixo, médio e alto. Essas classificam o impacto que a perda de confidencialidade, integridade ou disponibilidade pode ter em uma organização: baixo (efeito limitado), médio (efeito adverso sério) e alto (efeito grave ou catastrófico).
 
@@ -82,10 +80,6 @@ Não. Os únicos ambientes onde o FTI podem ser armazenados e processados são o
 
 - [Publicação IRS 1075](https://www.irs.gov/pub/irs-pdf/p1075.pdf)
 - [Programa de salvaguardas IRS](https://www.irs.gov/uac/Safeguards-Program)
-- [Estrutura de Conformidade do Microsoft Common Controls Hub](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Estrutura de Conformidade do Hub de Controles Comuns da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 - [Microsoft Cloud for Government](https://enterprise.microsoft.com/industries/government/start-your-microsoft-cloud-for-government-trial-today)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/D/1/8/D1825AE2-4FDA-4A4B-8D4F-9B7D2976D54A/IRS1075_Compliance_Backgrounder.pdf).

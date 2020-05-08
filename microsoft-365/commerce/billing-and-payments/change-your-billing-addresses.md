@@ -23,14 +23,21 @@ search.appverid:
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: Saiba como atualizar seus endereços de cobrança para o Microsoft 365 for Business. Você também pode atualizar o endereço de email usado para receber notificações de cobrança.
 ms.custom: okr_SMB
-ms.openlocfilehash: 7edef65eb1cf45192188316b13acfd87eac5a490
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 09f4ef95c9f8ab3dcce3b3a2511c5e407539020e
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048020"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140918"
 ---
 # <a name="change-your-billing-addresses"></a>Alterar os endereços para cobrança
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Sua cobrança ou fatura contém três endereços:
   

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A pontuação de conformidade da Microsoft ajuda as organizações a simplificar e automatizar avaliações de riscos e sugere ações recomendadas para ajudar a lidar com riscos.
-ms.openlocfilehash: 507ff021095dfc0b18cffb6db313009c22ad2693
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 5fced1a9452f2345a678bfef670e1a19b9811e81
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046269"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140846"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Pontuação de conformidade da Microsoft (visualização)
 
@@ -104,7 +104,7 @@ Exibir instruções detalhadas para [gerenciar avaliações no Gerenciador de co
 
 ### <a name="templates"></a>Modelos
 
-A pontuação de conformidade fornece modelos pré-configurados para avaliações. Você também pode personalizar um modelo pré-configurado adicionando seus próprios controles e ações. Por exemplo, você pode criar um modelo para seu controle de processo de negócios ou um modelo para uma proteção de dados regional ou padrão de conformidade que não esteja coberto por um dos modelos pré-configurados. Ao trazer seus próprios modelos para a pontuação de conformidade, você pode controlar não apenas avaliações da nuvem da Microsoft, mas também qualquer outra avaliação de risco no escopo da sua organização.
+A pontuação de conformidade fornece modelos pré-configurados para avaliações. Você também pode criar uma avaliação personalizada adicionando seus próprios controles e ações a um modelo pré-configurado. Por exemplo, você pode criar um modelo para seu controle de processo de negócios ou um modelo para uma proteção de dados regional ou padrão de conformidade que não esteja coberto por um dos modelos pré-configurados. Ao trazer seus próprios modelos para a pontuação de conformidade, você pode controlar não apenas avaliações da nuvem da Microsoft, mas também qualquer outra avaliação de risco no escopo da sua organização.
 
 Os modelos pré-configurados de Pontuação de conformidade são:
 

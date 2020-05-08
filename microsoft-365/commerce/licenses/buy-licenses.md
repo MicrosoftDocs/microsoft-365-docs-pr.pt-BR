@@ -25,14 +25,21 @@ search.appverid:
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
 description: Saiba como adicionar e remover licenças da sua assinatura do Microsoft 365 for Business.
-ms.openlocfilehash: 57768a7e93b19c14c5428508268c2c1e37d700f6
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: f8ae177052be325673af96d9535f25dfcdc93180
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045219"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141228"
 ---
 # <a name="manage-subscription-licenses"></a>Gerencie licenças de assinatura
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Você pode adicionar ou remover licenças de suas assinaturas usando estas etapas.
 

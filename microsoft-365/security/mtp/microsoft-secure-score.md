@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 56c3187999d34ac6d84c1b3857053f82bb40b2a9
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: 9f39878ca56aef3ec8c9d89805a87196c19eb5b8
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804762"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141502"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -52,7 +52,7 @@ A maioria é classificada de forma binária, se você implementar a ação de me
 
 ### <a name="products-included-in-secure-score"></a>Produtos incluídos na pontuação segura
 
-No momento, há recomendações para incluir o SharePoint Online, o Exchange Online, o OneDrive for Business, o Microsoft Information Protection e outros, o Azure AD e o Cloud app Security. As recomendações para outros produtos de segurança, como o Azure ATP e o Microsoft defender ATP, serão disponibilizadas em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por terceiros.
+No momento, há recomendações para o Microsoft 365 (incluindo o Exchange Online), o Azure AD, o Microsoft defender ATP, o Azure ATP e o Cloud app Security. As recomendações para outros produtos de segurança serão disponibilizadas em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por terceiros.
 
 ## <a name="required-permissions"></a>Permissões obrigatórias
 
@@ -110,8 +110,6 @@ A classificação baseia-se no número de outros pontos restantes para atingir, 
 
 ### <a name="actions"></a>Ações
 
-As ações rotuladas como [not score] não são rastreadas pela pontuação segura da Microsoft. Você ainda pode tomar ações, mas concluí-las não afetará sua pontuação. Se uma ação for rastreada pela pontuação segura da Microsoft no futuro e você já a tiver concluído, sua pontuação segura refletirá automaticamente a alteração.
-
 Quando você seleciona uma ação de aprimoramento específica, uma saída é exibida. Para concluir a ação, você tem algumas opções:
 
 1. Selecione **configurações de exibição** para ir para a tela de configuração e fazer a alteração. Em seguida, você obtém os pontos que a ação vale a pena, visível na parte superior da saída. Os pontos podem levar até 24 horas para serem atualizados.
@@ -122,7 +120,7 @@ Quando você seleciona uma ação de aprimoramento específica, uma saída é ex
 
 ![Exemplo de ação de melhoria da Pontuação de segurança](../../media/secure-score/secure-score1x450.png)
 
-*Figuras 2 & 3: aprimorar submenus de ação*
+*Figuras 2: submenu de ação de melhoria*
 
 ## <a name="monitor-improvements-over-time"></a>Monitorar melhorias ao longo do tempo
 

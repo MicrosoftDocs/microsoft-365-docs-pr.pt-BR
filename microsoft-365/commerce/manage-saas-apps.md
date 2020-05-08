@@ -13,14 +13,21 @@ ms.collection:
 - commerce
 search.appverid: MET150
 description: Saiba como ativar e gerenciar aplicativos de terceiros no centro de administração do Microsoft 365.
-ms.openlocfilehash: 521a535115cd3a082348485f4d03dade27c71d92
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: eb2826a4b0c69d61eb35a9dfff37e9dc2dd6ad71
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045959"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141183"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>Gerenciar assinaturas de aplicativos de terceiros para sua organização
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Você pode gerenciar licenças e cobrança para aplicativos de terceiros no centro de administração do Microsoft 365 com o modo de visualização ativado. Os recursos atualizados incluem gerenciamento avançado de assinatura, acesso melhorado às informações de cobrança e maior flexibilidade para gerenciar contas. O gerenciamento de assinatura é baseado na plataforma comercial atualizada da Microsoft. Isso se aplica a aplicativos de software como serviço que os clientes adquirem diretamente ou de provedor de terceiros.
 

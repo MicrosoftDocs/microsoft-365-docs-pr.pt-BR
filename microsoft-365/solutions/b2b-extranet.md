@@ -9,17 +9,17 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-ms.custom:
 - M365solutions
+ms.custom: ''
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba como criar um site de extranet B2B ou uma equipe com usuários convidados gerenciados de uma organização de parceiro.
-ms.openlocfilehash: 3a1faab90907daf9c48ec02c51eb272187fb0fde
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 1b7542dd2fcd5fa28afc013f83da713c37e1187b
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44001693"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166144"
 ---
 # <a name="create-a-b2b-extranet-with-managed-guests"></a>Crie uma extranet B2B com convidados gerenciados
 
@@ -33,7 +33,7 @@ Antes de começar, crie o site ou a equipe que você deseja compartilhar com a o
 
 ## <a name="connect-the-partner-organization"></a>Conectar a organização de parceiro
 
-Para convidar convidados de uma organização de parceiro, você precisa adicionar o domínio do parceiro como uma organização conectada no Active Directory do Azure.
+Para convidar convidados de uma organização de parceiro, você precisa adicionar o domínio do parceiro como uma organização conectada no Azure Active Directory.
 
 Para adicionar uma organização conectada
 1. No [Azure Active Directory](https://aad.portal.azure.com), clique em **governança de identidade**.

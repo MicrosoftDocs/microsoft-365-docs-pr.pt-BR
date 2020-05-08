@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2aa68d75f795e670390c913c999c154a0164c18c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e8d7ce93438ce3699dd30ac8b5f0f8818045eaf5
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602458"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066394"
 ---
 # <a name="federation-against-copyright-theft-fact"></a>Federação contra roubo de direitos autorais (fato)
 
@@ -29,13 +29,11 @@ O conteúdo de direitos autorais tem muitas formas: imagens, vídeos, música, c
 
 ## <a name="microsoft-and-federation-against-copyright-theft-fact"></a>Microsoft e Federação contra roubo de direitos autorais (fato)
 
-Para ressaltar o compromisso da Microsoft de proteger os clientes quando eles enconfiarem esses ativos à nuvem pública, o Microsoft Azure foi certificado pela Federação contra roubo de direitos autorais (fato) no Reino Unido. A certificação de fato é baseada na ISO 27001, concentrando-se na segurança física e digital, na triagem e no treinamento da equipe e no controle de acesso. O programa de proteção e segurança de conteúdo de fatos é voltado para a especialização de leis, parceiros tecnológicos e associações do setor para combater a violação de direitos autorais e roubo de conteúdo, como compartilhamento ponto a ponto, duplicação de disco ilegal e sinal fraude.
+Para ressaltar o compromisso da Microsoft de proteger os clientes quando eles enconfiarem esses ativos à nuvem pública, o Microsoft Azure foi certificado pela Federação contra roubo de direitos autorais (fato) no Reino Unido. A certificação de fato é baseada na ISO 27001, concentrando-se na segurança física e digital, na triagem e no treinamento da equipe e no controle de acesso. O programa de proteção e segurança de conteúdo de fatos é voltado para a expertise, parceiros tecnológicos e associações do setor para combater a violação de direitos autorais e roubo de conteúdo, como compartilhamento ponto a ponto, duplicação de disco ilegal e roubo de sinal.
 
 Com base no envio voluntário pela Microsoft para uma auditoria de fatos, o auditor de fatos certificado para o Azure. O Azure foi o primeiro serviço de nuvem pública de vários locatários a realizar a certificação de fatos, adicionando ao portfólio do Azure de certificações relacionadas à mídia, incluindo a certificação CDSA e uma avaliação formal do MPAA.
 
-Saiba mais sobre os benefícios do fato na nuvem da Microsoft: [baixar o plano de fundo de fatos](https://aka.ms/fact-backgrounder)
-
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
 
@@ -62,7 +60,3 @@ A conformidade com o fato é voluntária, mas a Microsoft optou por realizar uma
 - [Avaliação do MPAA](offering-mpaa.md)
 - [Respostas do Azure ao CSA CAIQ v3.0.1](https://aka.ms/csacaiqresponses)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/D/B/B/DBBA0998-F08A-4CA8-B668-41A5EE0CFBED/FACT-Compliance.pdf).

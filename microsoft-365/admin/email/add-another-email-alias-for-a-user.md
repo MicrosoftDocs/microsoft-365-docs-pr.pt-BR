@@ -22,14 +22,21 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Saiba como você pode ter mais de um endereço de email, chamado alias de email, associado à sua conta do Microsoft 365 for Business. '
-ms.openlocfilehash: efd0dbf5ae072c803b52d94dd41f16db9bb0413a
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 603b2f42d603ae5172c66b6f78bc55f8d44c81f5
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048802"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140507"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Adicionar outro alias de email para um usuário
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
   
 Este artigo é para os administradores do Microsoft 365 que têm assinaturas de negócios. Ele não se destina a usuários domésticos.
   

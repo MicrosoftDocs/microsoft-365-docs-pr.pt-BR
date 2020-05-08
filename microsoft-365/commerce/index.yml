@@ -12,12 +12,12 @@ metadata:
   ms.date: 02/27/2020
   localization_priority: Normal
   search.appverid: MET150
-  ms.openlocfilehash: 76f86bcd65fe1d5894777d8263f8c48f5fc5493b
-  ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
-  ms.translationtype: HT
+  ms.openlocfilehash: 7d7fb563862ba7a76e0af0b00238917ce4eb7167
+  ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+  ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 02/29/2020
-  ms.locfileid: "42341559"
+  ms.lasthandoff: 05/08/2020
+  ms.locfileid: "44165668"
 landingContent:
 - title: Gerenciar contas e pagamentos
   linkLists:
@@ -26,7 +26,7 @@ landingContent:
     - text: Exibir a fatura
       url: billing-and-payments/view-your-bill-or-invoice.md
     - text: Gerenciar métodos de pagamento
-      url: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
+      url: billing-and-payments/manage-payment-methods.md
     - text: Entenda a sua fatura
       url: billing-and-payments/understand-your-invoice.md
     - text: Gerenciar perfis de cobrança

@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Saiba mais sobre o Office 365 operado pela 21Vianet que foi projetado para atender às necessidades de serviços de nuvem seguros, confiáveis e escalonáveis na China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: c473dacee7fe6f2e779960711a87368e261c3448
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 6d3facba5beb9398f26ede5345b9121275a47b94
+ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360792"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44155404"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Office 365 operado pela 21Vianet
 
@@ -54,12 +54,12 @@ Se quiser saber como começar a usar os serviços gerais do Office 365, confira 
 
 |||
 |:-----|:-----|
-|Domínios personalizados  <br/> |Os administradores podem criar e/ou usar domínios personalizados registrados por meio de provedores de domínio específicos para chinês. Se você não tiver um domínio personalizado, você pode [comprar um nome de domínio](https://support.office.com/article/a6689b24-eeca-41f1-afe6-19917936b73c.aspx) de um registrador de nome de domínio. Se você já tiver um, [encontre seu registrador de domínios ou provedor de Hospedagem de DNS](https://support.office.com/article/98b6bfa3-1b0b-4484-8a12-02061cc9f9c3).  <br/> Além disso, se você criar um site público usando o serviço do Office 365 SharePoint Online, a política de conformidade da Internet da China requer que você obtenha um número do provedor de conteúdo da Internet (ICP).  **Observação:** A validação automática para palavras não permitidas em nomes de domínio personalizados não está disponível.           |
+|Domínios personalizados  <br/> |Os administradores podem criar e/ou usar domínios personalizados registrados por meio de provedores de domínio específicos para chinês. Se você não tiver um domínio personalizado, você pode [comprar um nome de domínio](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/buy-a-domain-name) de um registrador de nome de domínio. Se você já tiver um, [encontre seu registrador de domínios ou provedor de Hospedagem de DNS](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-your-domain-registrar).  <br/> Além disso, se você criar um site público usando o serviço do Office 365 SharePoint Online, a política de conformidade da Internet da China requer que você obtenha um número do provedor de conteúdo da Internet (ICP).  **Observação:** A validação automática para palavras não permitidas em nomes de domínio personalizados não está disponível.           |
 |Assinaturas, cobranças e suporte técnico  <br/> |Fornecido pela 21Vianet. Para obter informações sobre como entrar em contato com o suporte, consulte [entrar em contato com o suporte do Office 365 para empresas](../contact-support-for-business-products.md).  <br/> |
-|	Redefinição de senha de autoatendimento  <br/> |Disponível apenas para administradores. Para obter mais informações, consulte [alterar ou redefinir sua senha no Office 365 operado pela 21vianet](https://support.office.com/article/d8eb5b62-9d0e-4267-a9bf-2aa491ee6d0b).  <br/> |
+|Redefinição de senha por autoatendimento  <br/> |Disponível apenas para administradores. Para obter mais informações, consulte [alterar ou redefinir sua senha no Office 365 operado pela 21vianet](https://support.microsoft.com/en-us/office/change-or-reset-your-password-in-microsoft-365-operated-by-21vianet-d8eb5b62-9d0e-4267-a9bf-2aa491ee6d0b).  <br/> |
 |Segurança, privacidade, conformidade e detalhes sobre níveis de suporte  <br/> |Fornecido pela 21Vianet.  <br/> |
 |Configuração da área de trabalho do Office  <br/> |A configuração da área de trabalho do Office não está disponível para o Office 2010 e o Office 2007. No entanto, os administradores podem [configurar os aplicativos de área de trabalho atuais do Office para trabalhar com o Office 365](https://support.office.com/article/85646aba-7e6c-4e24-a047-8fd9ce4f9d2e).  <br/> |
-|Suporte móvel e de dispositivo\*  <br/> | Em breve, estão os seguintes recursos móveis:  <br/>  Gerenciamento de dispositivo móvel (MDM)  <br/>  O BlackBerry Business Cloud Services (BBCS) não está disponível, mas você pode usar os dispositivos do Exchange ActiveSync ou uma oferta da Research in Motion (RIM, a solução de email sem fio BlackBerry) para executar o BlackBerry Enterprise Server (BES).  <br/>  Para obter mais informações sobre suporte a dispositivos móveis, consulte [configurar e gerenciar o acesso móvel para seus usuários](https://support.office.com/article/01fff219-4492-40f2-82d3-fd2ffc0ad802).  <br/> |
+|Suporte móvel e de dispositivo\*  <br/> | Em breve, estão os seguintes recursos móveis:  <br/>  Gerenciamento de dispositivo móvel (MDM)  <br/>  O BlackBerry Business Cloud Services (BBCS) não está disponível, mas você pode usar os dispositivos do Exchange ActiveSync ou uma oferta da Research in Motion (RIM, a solução de email sem fio BlackBerry) para executar o BlackBerry Enterprise Server (BES).  <br/>  Para obter mais informações sobre suporte a dispositivos móveis, consulte [configurar e gerenciar o acesso móvel para seus usuários](https://support.microsoft.com/en-us/office/set-up-and-manage-mobile-access-for-your-users-01fff219-4492-40f2-82d3-fd2ffc0ad802).  <br/> |
 |Office Lens  <br/> |Indisponível.  <br/> |
 |Microsoft Planner  <br/> |Em breve.  <br/> |
 |Microsoft Teams  <br/> |Indisponível.  <br/> |
@@ -130,8 +130,8 @@ Para organizações que executam versões antigas ou mistas do Exchange Server, 
 | Misto 2013 SP1/2010 SP3  <br/> | 2013 SP1  <br/> | Sim  <br/> | Somente disponibilidade configurada manualmente  <br/> |
 | 2010 SP3  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhum  <br/> |
 | 2007  <br/> | 2013 CU5  <br/> | Sim  <br/> | Somente disponibilidade  <br/> |
-| 2007  <br/> | 2013 SP1 ou 2010 SP3No  <br/> | Não disponível  <br/> | Sem suporte  <br/> |
-| 2003  <br/> | 2013 SP1/CU5  <br/> | Não disponível  <br/> | Sem suporte  <br/> |
+| 2007  <br/> | 2013 SP1 ou 2010 SP3No  <br/> | N/A  <br/> | Sem suporte  <br/> |
+| 2003  <br/> | 2013 SP1/CU5  <br/> | N/A  <br/> | Sem suporte  <br/> |
 | 2003  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhum  <br/> |
 
    
@@ -210,7 +210,7 @@ Compartilhamento de dados de contato do Exchange em dispositivos móveis da Appl
 
 |||
 |:-----|:-----|
-|Provedores de domínio para suporte ao Skype for Business  <br/> |Você precisará registrar seu domínio com um provedor de domínio específico de chinês que ofereça suporte a registros SRV. Para obter mais informações sobre como registrar domínios, consulte [localizar seu registrador de domínio ou provedor de Hospedagem de DNS](https://support.office.com/article/98b6bfa3-1b0b-4484-8a12-02061cc9f9c3).  <br/> |
+|Provedores de domínio para suporte ao Skype for Business  <br/> |Você precisará registrar seu domínio com um provedor de domínio específico de chinês que ofereça suporte a registros SRV. Para obter mais informações sobre como registrar domínios, consulte [localizar seu registrador de domínio ou provedor de Hospedagem de DNS](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-your-domain-registrar).  <br/> |
 |Conferência discada (a capacidade de adicionar acesso telefônico a reuniões para usuários que não conseguem acessar um computador)  <br/> |Você pode ver opções no Skype for Business e no centro de administração do Skype for Business para conferência de discagem e provedores, mas esses recursos ainda não estão disponíveis. Eles serão disponibilizados em breve.  <br/> |
 |Ajuda da área de trabalho do Skype for Business  <br/> |Você pode encontrar ajuda para o Skype for Business Desktop [aqui](https://support.office.com/article/6ae5853c-f0fd-4710-aecf-f46def8377ad.aspx). No entanto, a ajuda do desktop não está disponível no produto, a menos que você esteja usando o Office Clique para executar.  <br/> |
 |Lync 2010  <br/> |Indisponível.  <br/> |

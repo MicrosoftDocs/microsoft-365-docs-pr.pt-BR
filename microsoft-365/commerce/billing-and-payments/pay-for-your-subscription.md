@@ -24,14 +24,21 @@ description: Saiba quais opções de pagamento estão disponíveis para pagar su
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: 599eb7eafda81f59b02ab11c822307d0db0c49c2
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 613bb0fcc776b65090ee66faf6dc0516987947b2
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045831"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140866"
 ---
 # <a name="pay-for-your-subscription"></a>Pagar por sua assinatura
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Ao configurar sua assinatura, você pode optar por pagar com cartão de crédito ou pagamentos em conta bancária, ou pagar por fatura usando cheque ou transferência eletrônica de fundos (EFT). A forma de pagamento escolhida é a que continuaremos a usar nos períodos de cobrança seguintes, a menos que você [altere a forma de pagamento](change-payment-method.md).
 
@@ -120,7 +127,7 @@ Se você não tiver certeza de quanto deve, [verifique sua fatura e o histórico
 > - [Argentina](../pay/argentina.md)
 > - [Armênia](../pay/armenia.md)
 > - [Austrália](../pay/australia.md)
-> - [Áustria](../pay/austria.md)
+> - [Áustria ](../pay/austria.md)
 > - [Azerbaijão](../pay/azerbaijan.md)
 > - [Bahamas](../pay/bahamas.md)
 > - [Bahrein](../pay/bahrain.md)
@@ -145,7 +152,7 @@ Se você não tiver certeza de quanto deve, [verifique sua fatura e o histórico
 > - [Colômbia](../pay/colombia.md)
 > - [Costa Rica](../pay/costa-rica.md)
 > - [Côte d'Ivoire (Costa do Marfim)](../pay/cote-divoire.md)
-> - [Croácia](../pay/croatia.md)
+> - [Croácia ](../pay/croatia.md)
 > - [Curaçao](../pay/curacao.md)
 > - [Chipre](../pay/cyprus.md)
 > - [República Tcheca](../pay/czech-republic.md)
@@ -159,8 +166,8 @@ Se você não tiver certeza de quanto deve, [verifique sua fatura e o histórico
 > - [Etiópia](../pay/ethiopia.md)
 > - [Ilhas Faroe](../pay/faroe-islands.md)
 > - [Fiji](../pay/fiji.md)
-> - [Finlândia](../pay/finland.md)
-> - [França](../pay/france.md)
+> - [Finlândia ](../pay/finland.md)
+> - [França ](../pay/france.md)
 > - [Guiana Francesa](../pay/french-guiana.md)
 > - [Geórgia](../pay/georgia.md)
 > - [Alemanha](../pay/germany.md)
@@ -176,8 +183,8 @@ Se você não tiver certeza de quanto deve, [verifique sua fatura e o histórico
 > - [Hong-Kong](../pay/hong-kong.md)
 > - [Hungria](../pay/hungary.md)
 > - [Islândia ](../pay/iceland.md)
-> - [Índia](../pay/india.md)
-> - [Indonésia](../pay/indonesia.md)
+> - [Índia ](../pay/india.md)
+> - [Indonésia ](../pay/indonesia.md)
 > - [Iraque](../pay/iraq.md)
 > - [Irlanda](../pay/ireland.md)
 > - [Israel](../pay/israel.md)
@@ -194,7 +201,7 @@ Se você não tiver certeza de quanto deve, [verifique sua fatura e o histórico
 > - [Líbano](../pay/lebanon.md)
 > - [Líbia](../pay/libya.md)
 > - [Liechtenstein](../pay/liechtenstein.md)
-> - [Lituânia](../pay/lithuania.md)
+> - [Lituânia ](../pay/lithuania.md)
 > - [Luxemburgo](../pay/luxembourg.md)
 > - [Macau](../pay/macao.md)
 > - [Macedônia do Norte](../pay/macedonia.md)
@@ -215,7 +222,7 @@ Se você não tiver certeza de quanto deve, [verifique sua fatura e o histórico
 > - [Nigéria](../pay/nigeria.md)
 > - [Noruega](../pay/norway.md)
 > - [Omã](../pay/oman.md)
-> - [Paquistão](../pay/pakistan.md)
+> - [Paquistão ](../pay/pakistan.md)
 > - [Autoridade Palestina](../pay/palestinian-authority.md)
 > - [Panamá](../pay/panama.md)
 > - [Paraguai](../pay/paraguay.md)
@@ -226,7 +233,7 @@ Se você não tiver certeza de quanto deve, [verifique sua fatura e o histórico
 > - [Porto Rico](../pay/puerto-rico.md)
 > - [Catar](../pay/qatar.md)
 > - [Romênia](../pay/romania.md)
-> - [Rússia](../pay/russia.md)
+> - [Rússia ](../pay/russia.md)
 > - [Ruanda](../pay/rwanda.md)
 > - [São Cristóvão e Nevis](../pay/saint-kitts-and-nevis.md)
 > - [Santa Lúcia](../pay/saint-lucia.md)
@@ -256,10 +263,10 @@ Se você não tiver certeza de quanto deve, [verifique sua fatura e o histórico
 > - [Emirados Árabes Unidos](../pay/united-arab-emirates.md)
 > - [Reino Unido](../pay/united-kingdom.md)
 > - [Estados Unidos](../pay/united-states.md)
-> - [Uruguai](../pay/uruguay.md)
+> - [Uruguai ](../pay/uruguay.md)
 > - [Uzbequistão](../pay/uzbekistan.md)
 > - [Venezuela](../pay/venezuela.md)
-> - [Vietnã](../pay/vietnam.md)
+> - [Vietnã ](../pay/vietnam.md)
 > - [Ilhas Virgens (EUA)](../pay/virgin-islands.md)
 > - [Iêmen](../pay/yemen.md)
 > - [Zâmbia](../pay/zambia.md)

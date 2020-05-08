@@ -20,14 +20,21 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Proteja seus emails e dados de negócios contra ameaças da Cyber, incluindo ransomware, phishing e anexos mal-intencionados. '
-ms.openlocfilehash: 2f70bf8d7b3a98416eca288aaa68f12fde1ba211
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 119329289a9c19c2256cf112e82289b55cf9ce07
+ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627687"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44155428"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>As 10 maneiras principais de proteger os planos do Microsoft 365 for Business
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Se você é uma organização pequena ou média, usando um dos planos de negócios da Microsoft e seu tipo de organização é direcionado a criminosos virtuais e hackers, use as orientações deste artigo para aumentar a segurança da sua organização. Esta orientação ajuda sua organização a atingir as metas descritas no manual de [campanha do cybersecurity da](https://go.microsoft.com/fwlink/?linkid=2015598&amp;clcid=0x409)faculdade do Harvard Kennedy.
   
@@ -90,7 +97,7 @@ Além desta orientação, a Microsoft recomenda que os usuários executem as aç
     
 A Microsoft também recomenda que os usuários protejam suas contas de email pessoais executando as ações recomendadas nos seguintes artigos:
   
-- [Ajudar a proteger sua conta de email do Outlook.com](https://support.office.com/article/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba.aspx)
+- [Ajudar a proteger sua conta de email do Outlook.com](https://support.microsoft.com/en-us/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
     
 - [Proteger sua conta do Gmail com a verificação em duas etapas](https://go.microsoft.com/fwlink/?linkid=2015688&amp;clcid=0x409)
     
@@ -222,7 +229,7 @@ Se o destinatário tiver o Outlook 2013 ou o Outlook 2016 e uma conta de email d
   
 Se o destinatário estiver usando outro cliente de email ou conta de email, como o Gmail ou o Yahoo, ele verá um link que permite que eles entrem em ler a mensagem de email ou solicitar uma senha de uso único para exibir a mensagem em um navegador da Web. Se os usuários não estiverem recebendo o email, peça que eles confiram a pasta spam ou lixo eletrônico. 
   
-Para obter mais informações, consulte [enviar, exibir e responder a mensagens criptografadas no Outlook para PC](https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980.aspx).
+Para obter mais informações, consulte [enviar, exibir e responder a mensagens criptografadas no Outlook para PC](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980).
   
 ## <a name="8-protect-your-email-from-phishing-attacks"></a>8. proteger seu email contra ataques de phishing
 <a name="phishing"> </a>

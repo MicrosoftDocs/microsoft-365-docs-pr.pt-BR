@@ -21,14 +21,21 @@ search.appverid:
 - MOE150
 ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: 'Remover a licença de uma caixa de correio compartilhada para atribuí-la a outro usuário. '
-ms.openlocfilehash: 02c98570a1742d710373c6711d2621a0a9ebe818
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: fb09036fc28ea3d9c182395d0a85e467f611dfdc
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210523"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140424"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Remover uma licença de uma caixa de correio compartilhada
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Caixas de correio compartilhadas não precisam de uma licença a menos que a caixa de correio tenha mais de 50 GB de dados. Siga estas instruções para remover uma licença de uma caixa de correio compartilhada para que você possa atribuí-la a um usuário ou retorná-la para que não esteja pagando por uma licença desnecessária.
   
@@ -102,6 +109,6 @@ Caixas de correio compartilhadas não precisam de uma licença a menos que a cai
 
 [Configurar uma caixa de correio compartilhada](configure-a-shared-mailbox.md)
 
-[Converter uma caixa de correio do usuário em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md)
+[Converter uma caixa de correio do usuário em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md).
 
 [Solucionar problemas com caixas de correio compartilhadas](resolve-issues-with-shared-mailboxes.md)

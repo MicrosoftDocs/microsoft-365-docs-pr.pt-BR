@@ -21,14 +21,21 @@ search.appverid:
 - BEA160
 ms.assetid: 75533195-f1f6-4c2c-8ceb-0b5597790d7b
 description: Saiba como estender sua assinatura de avaliação por outro período de 30 dias.
-ms.openlocfilehash: a158f737b0606ec8b3ae451d92d312ea2969f176
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: e634c43c1d6399abc3a88438fe410f5a1a19361e
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045759"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141247"
 ---
 # <a name="extend-your-trial"></a>Prorrogar a avaliação
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Você precisa de mais tempo para experimentar os recursos do Microsoft 365 for Business antes de comprar? Se sua assinatura de avaliação só tiver mais 15 dias até expirar e a avaliação não tiver sido estendida até então, você pode estender sua avaliação por mais 30 dias. Isso pode ser feito apenas uma vez.
 

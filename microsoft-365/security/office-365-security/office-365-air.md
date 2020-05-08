@@ -16,12 +16,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Comece a usar os recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: b9811963210f253bbfe90af02dd6d38926776a62
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 4e36e0fa07f825d3259ef9e42b802c81ae929470
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033945"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159402"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Introdução ao uso de investigação e resposta automatizadas (AIR) no Office 365
 
@@ -93,6 +93,13 @@ As permissões são concedidas por determinadas funções, como aquelas descrita
 |--|--|
 |Para configurar os recursos de ar |Uma das seguintes funções: <br/>-Administrador global<br/>-Administrador de segurança <br/>Essas funções podem ser atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade do & de segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
 |Para aprovar ou rejeitar ações recomendadas|Uma das seguintes funções, atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no [centro de conformidade & segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)):<br/>-Administrador global <br/>-Administrador de segurança<br/>– Leitor de segurança <br/>---e---<br/>– Pesquisa e limpeza (esta função é atribuída somente no [centro de conformidade de & de segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Talvez seja necessário criar um novo grupo de função e adicionar a função de pesquisa e limpeza a esse novo grupo de função.)
+
+As licenças [do plano ATP 2 do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2) devem ser atribuídas a:
+- Administradores de segurança (incluindo administradores globais)
+- A equipe de operações de segurança da sua organização (incluindo leitores de segurança e aquelas com a função de pesquisa e limpeza)
+- Usuários finais
+
+Além disso, [as políticas ATP do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) devem ser definidas e aplicadas para que a proteção seja estabelecida.
 
 ## <a name="next-steps"></a>Próximas etapas
 

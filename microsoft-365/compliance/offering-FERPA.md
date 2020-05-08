@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 11fa59476737fd3326fb49427945f183f8b990bc
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6685a542ac082b97ec771bb14481eecf212f4898
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602428"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066364"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>Lei de privacidade e direitos educacionais da família (FERPA)
 
@@ -27,7 +27,7 @@ ms.locfileid: "41602428"
 
 O FERPA (Rights educations and Privacy Act) é uma legislação federal americana que protege a privacidade dos registros de educação dos alunos, incluindo informações de identificação pessoal e de diretório. O FERPA foi acionado para garantir que os pais e estudantes idade 18 e mais velhos possam acessar esses registros, solicitar alterações a eles e controlar a divulgação de informações, exceto em casos específicos e limitados, onde o FERPA permite divulgação sem o consentimento.
 
-A lei se aplica a escolas, distritos escolares e qualquer outra instituição que recebe fundos do departamento de educação dos EUA, ou seja, praticamente todos os públicos-escolar e distritos de escolas públicos, e também a maioria das instituições secundárias, públicas e privadas .
+A lei se aplica a escolas, distritos escolares e qualquer outra instituição que recebe o financiamento do departamento de educação dos EUA, ou seja, praticamente todos os públicos-escolar e distritos de escolas públicos, e também a maioria das instituições secundárias, públicas e privadas.
 
 A segurança é central para conformidade com o FERPA, que requer a proteção de informações do aluno contra divulgações não autorizadas. Instituições educacionais que usam a computação em nuvem precisam de garantias contratuais que um fornecedor de tecnologia gerencia dados confidenciais dos alunos de forma adequada.
 
@@ -41,9 +41,7 @@ O FERPA não requer ou reconhece auditorias ou outras certificações, de forma 
 
 Como resultado desses compromissos contratuais, os clientes sujeitos ao FERPA — instituições educacionais e terceiros para quem eles fornecem acesso a dados confidenciais do aluno — podem usar com segurança os serviços de nuvem do Microsoft Business para processar, armazenar e transmitir esses dados.
 
-Saiba mais sobre os benefícios do FERPA na nuvem da Microsoft: [baixar o plano de fundo do FERPA](https://aka.ms/ferpa-compliance)
-
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 Os serviços para os quais a Microsoft concorda em ser designados como uma "escola oficial" com "interesses educativos legítimos" nos dados do cliente incluem:
 
@@ -77,9 +75,5 @@ Esta legislação federal dos EUA exige a proteção da privacidade dos registro
 - [Registro Federal: FERPA última regra](https://aka.ms/ferpa-reg)
 - [Guia de implementação do FERPA para o Microsoft Azure](https://aka.ms/azureferpa)
 - [Mapeamento da estrutura de conformidade do Azure FERPA](https://aka.ms/AzureFERPAMapping)
-- [Termos do Microsoft Online Services](https://aka.ms/Online-Services-Terms)
+- [Termos de Serviços Online da Microsoft](https://aka.ms/Online-Services-Terms)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/2/8/3/2839FB21-353E-472E-BE57-883EC9C6185F/FERPA_Compliance_Backgrounder.pdf).

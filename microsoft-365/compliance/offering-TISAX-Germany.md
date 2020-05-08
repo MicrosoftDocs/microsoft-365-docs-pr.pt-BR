@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3c7d3c6a710141972c1e54a7c67bfccd59c378d6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e2324cdbb4c47cff3b5e315b4c6b294258b11e24
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602008"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066284"
 ---
 # <a name="trusted-information-security-assessment-exchange-tisax-germany"></a>Intercâmbio de Avaliação de Segurança da Informação Confiável (TISAX) Alemanha
 
@@ -29,7 +29,7 @@ Para ajudar a garantir a conectividade cada vez maior na indústria automotiva, 
 
 As empresas membros da VDA usavam esse instrumento tanto para avaliações de segurança interna quanto para fornecedores, prestadores de serviços e outros parceiros que processam informações confidenciais em seu nome. Entretanto, como essas avaliações foram tratadas individualmente por cada empresa, isso criou um ônus aos parceiros e um esforço duplicado por parte dos membros da VDA.
 
-Para ajudar a simplificar as avaliações, a VDA criou um mecanismo comum de avaliação e troca, o [Intercâmbio de Avaliação de Segurança da Informação ](https://www.enx.com/tisax/) Confiável (TISAX). O catálogo de requisitos TISAX subjacentes, Questionário para Verificação da Avaliação da Segurança da Informação e Gerenciamento da Segurança da Informação, Vers. 4 ([Alemã](https://www.vda.de/de/services/Publikationen.html) e [](https://www.vda.de/en/services/Publications.html)inglesa), fornecem padrões comuns para medidas de segurança de TI e permitem que as empresas registradas no TISAX compartilhem os resultados da avaliação. A VDA confiou em um terceiro neutro, o [ENX Association](https://portal.enx.com/en-US/en-en/TISAX/tisaxassessmentresults/), com a implementação do TISAX. Nessa capacidade, ele credencia provedores de auditoria (auditores), mantém os critérios de acreditação e os requisitos de avaliação e monitora a qualidade dos resultados da implementação e avaliação.
+Para ajudar a simplificar as avaliações, a VDA criou um mecanismo comum de avaliação e troca, o [Intercâmbio de Avaliação de Segurança da Informação ](https://www.enx.com/tisax/) Confiável (TISAX). O catálogo de requisitos TISAX subjacentes, Questionário para Verificação da Avaliação da Segurança da Informação e Gerenciamento da Segurança da Informação, Vers. 4 ([Alemã](https://www.vda.de/de/services/Publikationen.html) e [](https://www.vda.de/en/services/Publications.html)inglesa), fornecem padrões comuns para medidas de segurança de TI e permitem que as empresas registradas no TISAX compartilhem os resultados da avaliação. A VDA confiou em um terceiro neutro, o [ENX Association](https://portal.enx.com/pt-BR/en-en/TISAX/tisaxassessmentresults/), com a implementação do TISAX. Nessa capacidade, ele credencia provedores de auditoria (auditores), mantém os critérios de acreditação e os requisitos de avaliação e monitora a qualidade dos resultados da implementação e avaliação.
 
 ## <a name="microsoft-and-tisax"></a>Microsoft e TISAX.
 
@@ -53,7 +53,7 @@ A avaliação do TISAX se concentrou nos serviços da Microsoft:
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
-Os representantes do setor registrados na ENX podem encontrar detalhes sobre a avaliação TISAX dos serviços em nuvem da Microsoft no escopo no [portal da ENX](https://portal.enx.com/en-US/). Para pesquisar os resultados da avaliação da Microsoft, entre na sua conta TISAX existente e procure pela Microsoft. Como alternativa, você pode restringir sua pesquisa usando as informações abaixo:
+Os representantes do setor registrados na ENX podem encontrar detalhes sobre a avaliação TISAX dos serviços em nuvem da Microsoft no escopo no [portal da ENX](https://portal.enx.com/pt-BR/). Para pesquisar os resultados da avaliação da Microsoft, entre na sua conta TISAX existente e procure pela Microsoft. Como alternativa, você pode restringir sua pesquisa usando as informações abaixo:
 
 - ID do participante da Microsoft: PGKYK0
 - Microsoft Corp. ID do escopo de Nível 3 da Avaliação (AL) EU: SY869K
@@ -75,14 +75,10 @@ A ENX fornece confirmação de certificação apenas para representantes do seto
 
 ## <a name="resources"></a>Recursos
 
-- [Perguntas frequentes sobre o TISAX](https://portal.enx.com/en-US/TISAX/faqs/)
+- [Perguntas frequentes sobre o TISAX](https://portal.enx.com/pt-BR/TISAX/faqs/)
 - [A Volkswagen e a Microsoft anunciam parceria estratégica](https://www.volkswagen-newsroom.com/en/press-releases/volkswagen-and-microsoft-announce-strategic-partnership-4234)
 - [Escritório no seu carro: a BMW possui o Skype for Business](https://news.microsoft.com/de-de/skype-business-ab-sofort-fahrzeugen-von-bmw-verfugbar/) (Alemão)
 - [Conectar veículos a longo prazo: Daimler](https://customers.microsoft.com/story/daimlertrucks)
 - [A Continental está adotando o Microsoft Office 365 para aumentar a produtividade](https://www.avanade.com/en/clients/continental)
 - [Microsoft e ISO/IEC 27001:2013](offering-iso-27001.md)
-- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/5/C/3/5C32AD74-703F-4B61-A290-B00B96E8DD8D/TISAX-Compliance.pdf).
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

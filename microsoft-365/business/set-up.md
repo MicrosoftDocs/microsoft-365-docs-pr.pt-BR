@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Descubra as etapas de configuração para o Microsoft 365 Business Premium, incluindo a adição de um domínio e usuários, a configuração de políticas de segurança e muito mais.
-ms.openlocfilehash: cfc8523fe88ebca6b8c03db0ad0f6caeba662923
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 03f446f790a664af85cc630048bc022d88b6e54f
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048032"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165768"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Configurar o Microsoft 365 Business Premium no assistente de configuração
 
@@ -97,7 +97,7 @@ Todos os usuários adicionados ao assistente recebem automaticamente uma licenç
   
 Para configurar serviços, você deve atualizar alguns registros no registrador de domínios ou no host DNS.
   
-1. O assistente de configuração normalmente detecta o registrador e proporciona um link para as instruções passo a passo para atualizar seus registros NS no site do registrador. Caso contrário, [altere os nameservers para configurar o Office 365 com qualquer registrador de domínio](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2). 
+1. O assistente de configuração normalmente detecta o registrador e proporciona um link para as instruções passo a passo para atualizar seus registros NS no site do registrador. Caso contrário, [altere os nameservers para configurar o Office 365 com qualquer registrador de domínio](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar). 
 
     - Se você tiver registros DNS existentes, por exemplo, um site existente, mas seu host DNS estiver habilitado para [conexão de domínio](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), escolha **adicionar registros para mim**. Na página **escolha seus serviços online** , aceite todos os padrões e escolha **Avançar**e escolha **autorizar** na página do seu host DNS.
     - Se você tiver registros DNS existentes com outros hosts DNS (não habilitados para conexão de domínio), será necessário gerenciar seus próprios registros DNS para garantir que os serviços existentes permaneçam conectados. Confira [noções básicas sobre domínios](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) para obter mais informações.

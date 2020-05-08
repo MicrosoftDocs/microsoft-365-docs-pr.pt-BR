@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a eliminação de conteúdo, se você usar uma revisão de disposição ou se o conteúdo é excluído automaticamente de acordo com as configurações que você configurou.
-ms.openlocfilehash: 47cb8f023f378796f206e436aa33e74b2993ac97
-ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+ms.openlocfilehash: 07790175d56db9b82610b4882070a54ddce3d0c2
+ms.sourcegitcommit: 8a15038a6ac16f41f6b90af52e367f888104cec9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952614"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44156886"
 ---
 # <a name="disposition-of-content"></a>Disposição do conteúdo
 
@@ -63,11 +63,14 @@ Quando o conteúdo atinge o final do período de retenção, há vários motivos
 
 Quando uma revisão de disposição é disparada no final do período de retenção:
   
-- As pessoas escolhidas recebem uma notificação por email de que o conteúdo deve ser revisado. Esses revisores podem ser usuários individuais, grupos de distribuição ou segurança ou grupos do Office 365. Observe que as notificações são enviadas semanalmente.
+- As pessoas escolhidas recebem uma notificação por email de que o conteúdo deve ser revisado. Esses revisores podem ser usuários individuais, grupos de distribuição ou segurança ou grupos do Microsoft 365 ([anteriormente grupos do Office 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)). Observe que as notificações são enviadas semanalmente.
     
 - Os revisores vão para a guia **disposição** no centro de conformidade da Microsoft 365 para analisar o conteúdo e decidir se ele será excluído permanentemente, estender o período de retenção ou aplicar um rótulo de retenção diferente.
 
 Uma análise de disposição pode incluir conteúdo em caixas de correio do Exchange, sites do SharePoint, contas do OneDrive e Microsoft 365 grupos. O conteúdo que está aguardando uma revisão de disposição nesses locais é excluído somente depois que um revisor escolhe excluir permanentemente o conteúdo.
+
+> [!NOTE]
+> Uma caixa de correio deve ter pelo menos 10 MB de dados para suportar revisões de disposição.
 
 Você pode ver uma visão geral de todas as desposições pendentes na guia **visão geral** . Por exemplo:
 
@@ -106,10 +109,10 @@ Como você pode ver na imagem, as ações suportadas são:
 - Aplicar um rótulo de retenção diferente
 
 Fornecendo permissões para o local e o conteúdo, você pode usar o link na coluna **local** para exibir documentos em seu local original. Durante uma revisão de disposição, o conteúdo nunca se move do local original e nunca é excluído até que o revisor opte por fazê-lo.
-  
+
 As notificações por email são enviadas automaticamente para os revisores de forma semanal. Esse processo agendado significa que, quando o conteúdo atinge o final do período de retenção, pode levar até sete dias para que os revisores recebam a notificação de email de que o conteúdo está aguardando a eliminação.
   
-Todas as ações de disposição podem ser auditadas.
+Todas as ações de disposição podem ser auditadas e o texto de justificativa inserido pelo revisor é salvo e exibido na coluna **Comentário** da página **itens descartados** .
   
 ### <a name="how-long-until-disposed-content-is-permanently-deleted"></a>Quanto tempo até o conteúdo Descartado é excluído permanentemente
 

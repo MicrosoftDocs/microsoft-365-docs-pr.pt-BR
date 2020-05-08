@@ -20,14 +20,21 @@ search.appverid:
 ms.assetid: c29d38b5-53a6-4bd9-b7aa-ce12c902da83
 description: Exibir sua declaração de cobrança ou fatura sobre seu Office 365 operado pela 21Vianet na China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 7e11f2f597382651b58ca0ee6ba1ff5c513b80be
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 24a38afe834b147a7250a1c34b1c6af094b9421c
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360762"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140796"
 ---
 # <a name="view-your-bill-or-get-a-fapiao-in-office-365-operated-by-21vianet"></a>Exibir sua cobrança ou obter uma Fapiao no Office 365 operado pela 21Vianet
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Você pode exibir sua declaração de cobrança ou fatura para obter informações sobre seus encargos de assinatura do Office 365 operado pela 21Vianet. Você também pode obter um Fapiao (a última prova de compra). Você pode enviar sua solicitação de Fapiao para o nosso [sistema de gerenciamento do Fapiao](https://go.microsoft.com/fwlink/p/?linkid=837465) cerca de três dias após o pagamento. 
   

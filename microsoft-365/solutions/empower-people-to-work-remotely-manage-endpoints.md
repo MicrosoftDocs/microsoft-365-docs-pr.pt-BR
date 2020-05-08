@@ -17,18 +17,20 @@ ms.collection:
 ms.custom:
 - M365solutions
 description: Use o Microsoft Endpoint Manager para gerenciar seus dispositivos, PCs e outros pontos de extremidade.
-ms.openlocfilehash: 76e18d65865f4ec2bbc8a8d1554bb4cad6fee553
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 2a5b047aabb95d0b60c46fe3bec339e723adee0e
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011598"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049574"
 ---
 # <a name="3-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>3. Implantar o gerenciamento de pontos de extremidade em seus dispositivos, PCs e outros pontos de extremidade
 
 Com funcionários remotos, é necessário oferecer suporte a um número crescente de dispositivos pessoais. O gerenciamento de pontos de extremidade é uma abordagem de segurança baseada em políticas que exige que os dispositivos obedeçam a critérios específicos antes de receberem acesso aos recursos. O Microsoft Endpoint Manager oferece um ambiente de trabalho e recursos de gerenciamento modernos para manter seus dados seguros na nuvem e no local. 
 
 O Endpoint Manager fornece serviços e ferramentas para gerenciar dispositivos móveis, computadores desktop, máquinas virtuais, dispositivos incorporados e servidores combinando os seguintes serviços que você já deve conhecer e estar usando.
+
+![Os componentes para o gerenciamento de pontos de extremidade](../media/empower-people-to-work-remotely/endpoint-managment-step-grid.png)
 
 ## <a name="microsoft-intune"></a>Microsoft Intune
 

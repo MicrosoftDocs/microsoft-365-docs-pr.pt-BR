@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Saiba como habilitar o Microsoft 365 para proteger dispositivos do Windows 10 locais associados ao Active Directory em apenas algumas etapas.
-ms.openlocfilehash: 431c1be74723e156befb13ffe1ed98b48b9a23cb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: adc125c32fe5aa56be8c17c07f28316602a36594
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633274"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165800"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-for-business"></a>Habilitar dispositivos Windows 10 associados a um domínio para serem gerenciados pelo Microsoft 365 for Business
 
@@ -53,7 +53,7 @@ Antes de sincronizar os usuários e computadores do domínio do Active Directory
 
 ## <a name="2-install-and-configure-azure-ad-connect"></a>2. instalar e configurar o Azure AD Connect
 
-Para sincronizar os usuários, grupos e contatos do Active Directory local para o Active Directory do Azure, instale o Azure Active Directory Connect e configure a sincronização de diretórios. Confira [Configurar a sincronização de diretórios para o Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) para saber mais.
+Para sincronizar os usuários, grupos e contatos do Active Directory local para o Active Directory do Azure, instale o Azure Active Directory Connect e configure a sincronização de diretórios. Confira [Configurar a sincronização de diretórios para o Office 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) para saber mais.
 
 > [!NOTE]
 > As etapas são exatamente as mesmas para o Microsoft 365 for Business. 

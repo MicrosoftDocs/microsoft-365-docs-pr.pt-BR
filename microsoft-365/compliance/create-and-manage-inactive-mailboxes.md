@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 description: Você pode criar uma caixa de correio inativa no Microsoft 365 aplicando uma política de retenção ou bloqueio à caixa de correio e, em seguida, excluindo a conta de usuário correspondente. Os itens em uma caixa de correio inativa são mantidos pela duração da política de retenção ou retenção aplicada a ele antes de ser tornado inativo. Para excluir permanentemente uma caixa de correio inativa, apenas remova a política de retenção ou bloqueio.
-ms.openlocfilehash: 6265504f12adeadbc51c36c1e97c999e30a0d141
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: bf8539ad8cfdd0170d17b490e7cfeaee8e0bd789
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048010"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166082"
 ---
 # <a name="create-and-manage-inactive-mailboxes"></a>Criar e gerenciar caixas de correio inativas
 
@@ -63,7 +63,7 @@ Para obter os procedimentos passo a passo para colocar uma caixa de correio em r
   
 ### <a name="step-2-delete-the-mailbox"></a>Etapa 2: Excluir a caixa de correio
 
-Depois que a caixa de correio é colocada em espera ou uma política de retenção é aplicada a ela, a próxima etapa é excluir a caixa de correio. A melhor maneira de excluir uma caixa de correio é excluir a conta de usuário correspondente no centro de administração do Microsoft 365. Para obter informações sobre como excluir contas de usuário, consulte [excluir um usuário da sua organização](https://support.office.com/article/d5155593-3bac-4d8d-9d8b-f4513a81479e).
+Depois que a caixa de correio é colocada em espera ou uma política de retenção é aplicada a ela, a próxima etapa é excluir a caixa de correio. A melhor maneira de excluir uma caixa de correio é excluir a conta de usuário correspondente no centro de administração do Microsoft 365. Para obter informações sobre como excluir contas de usuário, consulte [excluir um usuário da sua organização](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user).
   
 > [!NOTE]
 > Você também pode excluir a caixa de correio usando o cmdlet **Remove-Mailbox** no PowerShell do Exchange Online. Para saber mais, confira [Excluir ou restaurar caixas de correio do usuário no Exchange Online](https://go.microsoft.com/fwlink/?linkid=856287). 

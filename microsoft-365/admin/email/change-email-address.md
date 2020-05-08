@@ -24,14 +24,21 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: 'Altere seu endereço de email inicial para um endereço de email amigável, como o tom@fourthcoffee.com. Para fazer isso, você precisa comprar um nome de domínio e adicioná-lo ao Microsoft 365. '
-ms.openlocfilehash: baa2e49d98ed1d7b3de9af78b84403d028b4c91d
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: 50739c01fda9528140870798324dd69a1c68abce
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053819"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140495"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>Mudar seu endereço de email para usar seu domínio personalizado
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md)**. 
   

@@ -19,14 +19,21 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Saiba como restaurar um grupo do Microsoft 365 excluído.
-ms.openlocfilehash: 870db3c92cd1f28f91540633a1dce9d0353c2b87
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 9d432d6ddb7e41b6560329b562c24f392a424412
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049150"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140519"
 ---
 # <a name="restore-a-deleted-group"></a>Restaurar um grupo excluído
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Se você tiver excluído um grupo, ele será mantido por 30 dias por padrão. Este período de 30 dias é considerado uma "exclusão reversível" porque você ainda pode restaurar o grupo. Após 30 dias, o grupo e seu conteúdo associado são excluídos permanentemente e não podem ser restaurados.
 

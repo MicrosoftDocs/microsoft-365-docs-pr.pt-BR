@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 07a722101aaf9a3413e5821459ea9a980a8b76fe
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1b24460940d583eeb9ed431b61453e87a218a816
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071278"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066374"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>Título da CFR de comida e administração de drogas 21 parte 11
 
@@ -39,13 +39,13 @@ O título da CFR 21 parte 11 define os requisitos para garantir que os registros
 
 Os serviços de nuvem corporativa da Microsoft passam por auditorias regulares de terceiros do tipo 2 e SOC 2 tipo 2 e são certificados de acordo com os padrões ISO/IEC 27001 e ISO/IEC 27018.
 
-Embora essas auditorias e certificações regulares não enfoquem especificamente a conformidade normativa da FDA, sua finalidade e seus objetivos são semelhantes à natureza do título da CFR 21 parte 11, e serve para ajudar a garantir a confidencialidade, integridade e disponibilidade dos dados armazenados nos serviços em nuvem da Microsoft. Nossa abordagem de qualificação também é baseada nas práticas recomendadas do setor, incluindo a série International Society for farmacêutico ISPE (engenharia farmacêutica) GAMP de guias de boas práticas e o esquema de cooperação (PIC/S) práticas recomendadas para sistemas de computador em ambientes GxP regulamentados.
+Embora essas auditorias e certificações regulares não enfoquem especificamente a conformidade normativa da FDA, sua finalidade e seus objetivos são semelhantes à natureza do título da CFR 21 parte 11, e serve para ajudar a garantir a confidencialidade, integridade e disponibilidade de dados armazenados nos serviços de nuvem da Microsoft. Nossa abordagem de qualificação também é baseada nas práticas recomendadas do setor, incluindo a série International Society for farmacêutico ISPE (engenharia farmacêutica) GAMP de guias de boas práticas e o esquema de cooperação (PIC/S) práticas recomendadas para sistemas de computador em ambientes GxP regulamentados.
 
 Os clientes podem solicitar acesso aos relatórios de conformidade, sujeitos a termos e condições de contrato de não divulgação, por meio de seu representante de conta da Microsoft ou por meio do [portal de confiança do serviço](https://aka.ms/stphelp). Além disso, as diretrizes de qualificação para o Microsoft Azure e o Microsoft Office 365 fornecem uma explicação detalhada de como os controles de auditoria da Microsoft correspondem aos requisitos do título da CFR 21 parte 11, orientações para implementar uma estratégia de qualificação da FDA e uma descrição das áreas de responsabilidade compartilhada.
 
 Saiba como acelerar o título da sua FDA CFR 21 implantação: [baixar o guia de qualificação do Azure FDA 21](https://go.microsoft.com/fwlink/p/?linkid=2086604)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 Embora não haja certificação para conformidade com o título da CFR 21 parte 11, os seguintes serviços de nuvem corporativa da Microsoft sofreram auditorias independentes, que podem ajudar os clientes em seus esforços de conformidade. Esses serviços incluem:
 
@@ -94,7 +94,3 @@ A Microsoft garante que os serviços de nuvem corporativa atendam aos termos def
 - [Termos de Serviços Online da Microsoft](https://aka.ms/Online-Services-Terms)
 - [Microsoft Cloud for Government](https://aka.ms/govt-cloud)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/8/8/D/88DA8B65-8CEE-46A5-8E93-DAFC3699AD06/FDA_Compliance_Backgrounder.pdf).

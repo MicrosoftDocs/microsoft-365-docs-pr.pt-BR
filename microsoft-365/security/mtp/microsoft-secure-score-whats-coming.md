@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 17bfa8ee50fbdb7dce988324f478d88d00600121
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: a7e13ae8a3ccffa644a123f57b05c4364d4333d2
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804740"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141342"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>O que está acontecendo na pontuação segura da Microsoft?
 
@@ -30,8 +30,8 @@ Para tornar a [Pontuação segura da Microsoft](microsoft-secure-score.md) um me
 
 Para saber mais sobre as alterações recentes, confira [o que há de novo na pontuação segura da Microsoft?](microsoft-secure-score.md#whats-new)
 
-## <a name="may-2020"></a>Maio de 2020
+## <a name="may-2020"></a>May 2020
 
-### <a name="adding-azure-advanced-threat-protection-improvement-actions-to-preview"></a>Adicionando ações avançadas aprimoradas de proteção contra ameaças do Azure para visualização
+### <a name="adding-additional-azure-advanced-threat-protection-improvement-actions-to-preview"></a>Adicionando ações de melhoria avançada de proteção contra ameaças avançadas do Azure para visualização
 
 - Habilitar recursos de segurança em relações de confiança do Active Directory

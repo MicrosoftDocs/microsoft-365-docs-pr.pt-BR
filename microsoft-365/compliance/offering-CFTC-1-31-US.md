@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 448dbcf250a34d7c7d7acb2d3f3acc4c8de4d14b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 08f912492d1874b940156e3a6165f9476add7711
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602638"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065846"
 ---
 # <a name="commodity-futures-trading-commission-cftc-rule-131c-d-united-states"></a>Comissão de negócios de futuro de mercadorias (CFTC) de regra 1.31 (c-d) Estados Unidos
 
@@ -59,7 +59,7 @@ O arquivamento no Office 365 ajuda a preservar uma ampla variedade de dados, inc
 ## <a name="how-to-implement"></a>Como implementar
 
 - [Regulamentação de serviços financeiros](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): mapa de conformidade dos principais princípios normativos dos EUA para computação em nuvem e serviços online da Microsoft.
-- [Guia de conformidade e avaliação de risco](https://aka.ms/RiskGovernanceGuide): cria um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador.
+- [Guia de Conformidade & Avaliação de Risco ](https://aka.ms/RiskGovernanceGuide): Cria um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador.
 - [Casos de uso financeiro](https://docs.microsoft.com/azure/industry/financial/): Visões gerais de uso, tutoriais e outros recursos para criar soluções Azure para serviços financeiros.
 
 ## <a name="resources"></a>Recursos
@@ -71,7 +71,3 @@ O arquivamento no Office 365 ajuda a preservar uma ampla variedade de dados, inc
 - [Políticas de retenção do Microsoft Office 365](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
 - [Blog dos Serviços Financeiros da Microsoft](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
 - [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/9/A/9/9A9847FE-164A-4321-8112-50719D9EA877/CFTC1.31-Compliance.pdf).
