@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: d7138188-086e-4a54-a155-11fa953c3930
 ROBOTS: NOINDEX
 description: Saiba como ativar, renovar ou adicionar licenças a uma assinatura do Microsoft 365 for Business.
-ms.openlocfilehash: da4e42ae2dadec8d376b9ef8d12c6d4cb4fe7af5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0f8233613f7929dad37167e7237be335d4e8f567
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636447"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165118"
 ---
 # <a name="enter-your-product-key-purchased-from-microsoft-open"></a>Insira a chave do produto comprada da Microsoft Open
 
@@ -55,7 +55,7 @@ Se você comprou o Microsoft 365 de um programa de licença aberta da Microsoft,
 > [!NOTE]
 > Os clientes de licenciamento por volume também podem optar por ativar assinaturas no [centro de serviços de licenciamento por volume](https://go.microsoft.com/fwlink/p/?LinkID=282016). Para saber como fazer isso, baixe o guia em PDF [Ativar Serviços Online no Centro de Serviços de Licenciamento por Volume](https://go.microsoft.com/fwlink/p/?LinkId=618096). 
   
-## <a name="whats-next"></a>E agora?
+## <a name="whats-next"></a>O que vem a seguir?
 
 Se você é novo no Microsoft 365 for Business, saiba como [Configurar o microsoft 365 para sua organização](../admin/setup/setup.md).
   
@@ -63,7 +63,7 @@ Se você é novo no Microsoft 365 for Business, saiba como [Configurar o microso
 
 Confira esta lista de erros e soluções comuns: [problemas com a chave do produto?](product-key-errors-and-solutions.md)
   
-Se for um parceiro, confira [Parceiros: usar uma chave do produto para configurar uma assinatura de cliente](https://support.office.com/article/cf22c50f-95c9-4fa2-b959-c264de256d40.aspx).
+Se for um parceiro, confira [Parceiros: usar uma chave do produto para configurar uma assinatura de cliente](https://support.microsoft.com/en-us/office/partners-use-a-product-key-to-set-up-a-customer-subscription-cf22c50f-95c9-4fa2-b959-c264de256d40).
   
 Se for um cliente de licenciamento por volume, pode saber mais visitando [Recursos e treinamento do Centro de Serviços de Licenciamento por Volume da Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=618103).
   

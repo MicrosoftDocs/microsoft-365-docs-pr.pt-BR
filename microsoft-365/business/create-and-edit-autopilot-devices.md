@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
 description: Saiba como carregar dispositivos usando o piloto automático no Microsoft 365 Business Premium. Você pode atribuir um perfil a um dispositivo ou a um grupo de dispositivos.
-ms.openlocfilehash: f2a7f801ae471352595a36b355a874b2de653326
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 83c027cfe019e037518c4ca13eb331e5300fc2c1
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627385"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165852"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>Crie e edite os dispositivos do AutoPilot
 
@@ -50,7 +50,7 @@ Os dispositivos devem atender a estes requisitos:
     
     ![In the Devices tab, choose Add devices.](../media/6ba81e22-c873-40ad-8a72-ce64d15ea6ba.png)
   
-3. No painel **Adicionar dispositivos** , navegue até um [arquivo CSV de lista de dispositivos](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e) que você preparou \> **salvar** \> **fechar**.
+3. No painel **Adicionar dispositivos** , navegue até um [arquivo CSV de lista de dispositivos](https://docs.microsoft.com/microsoft-365/admin/misc/device-list) que você preparou \> **salvar** \> **fechar**.
     
     Você pode obter essas informações do seu fornecedor de hardware ou pode usar o [script Get-WindowsAutoPilotInfo do PowerShell](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) para gerar um arquivo CSV. 
     

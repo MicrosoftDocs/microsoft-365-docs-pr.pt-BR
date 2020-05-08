@@ -10,15 +10,15 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-ms.custom:
 - M365solutions
+ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 260eef294f8fa1979a52183a3ec8e963b1b36f66
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: d966f67bbf04cb7f41d7516b351a6dd5cb8d68fe
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002424"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160094"
 ---
 # <a name="multi-national-design-principles-for-microsoft-365"></a>Princípios de design multinacionais para o Microsoft 365
 

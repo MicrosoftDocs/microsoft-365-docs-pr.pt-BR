@@ -9,20 +9,20 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
+- M365solutions
 search.appverid:
 - SPO160
 - MET150
 f1.keywords: NOCSH
-ms.custom:
-- M365solutions
+ms.custom: ''
 localization_priority: Priority
 description: Saiba mais sobre as opções para limitar ou desabilitar o compartilhamento no Microsoft 365.
-ms.openlocfilehash: 339a548b1085f692c38c057e3aea4ae091431d9c
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: a80a77580140d85ea0b2008eec2df9002cf5a3d7
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44001717"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160106"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Limitar o compartilhamento no Microsoft 365
 

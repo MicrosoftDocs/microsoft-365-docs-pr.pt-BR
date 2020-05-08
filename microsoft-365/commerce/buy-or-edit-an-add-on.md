@@ -22,14 +22,21 @@ search.appverid:
 ms.assetid: 4e7b57d6-b93b-457d-aecd-0ea58bff07a6
 description: Saiba como adquirir um complemento para adicionar mais funcionalidades à sua assinatura do Microsoft 365 for Business. Você também pode atualizar e remover um complemento.
 ms.custom: okr_SMB
-ms.openlocfilehash: 801da522c9fea9efcc4d3d4a0285a6ffcb5adc0b
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 60bc63d4db84667f00ab0bde95e8541f45a38df7
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045783"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141285"
 ---
 # <a name="buy-or-edit-an-add-on"></a>Comprar ou editar um suplemento
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Vários dos planos do Microsoft 365 para empresas têm complementos que você pode comprar para a sua assinatura. Um complemento fornece funcionalidade adicional para a assinatura para a qual você o comprou.
 

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: Saiba como usar políticas de prevenção de perda de dados (DLP) para proteger dados pessoais no Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f5c82a1f841cca1eea9a79d8f9dbcc1f81a3ad74
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: eb6ae528e54f93fea26a20be35a6f5bfb33337d2
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035173"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165224"
 ---
 # <a name="apply-protection-to-personal-data"></a>Aplicar proteção a dados pessoais
 
@@ -45,7 +45,7 @@ Com a DLP, você pode:
 
 -   Visualizar relatórios de DLP que mostrem conteúdo que corresponda às políticas de DLP da sua organização.
 
-Para mais informações, confira [Visão geral das políticas de prevenção contra perda de dados](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e).
+Para mais informações, confira [Visão geral das políticas de prevenção contra perda de dados](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies).
 
 ![Opções para criar uma política de Prevenção Contra Perda de Dados](../media/Apply-protection-to-personal-data-in-Office-365-image1.png)
 
@@ -146,7 +146,7 @@ Descrição: exibir dicas de política para os funcionários, notificar equipes 
 <tr class="odd">
 <td align="left">Notificar os usuários quando o conteúdo corresponder às configurações de política</td>
 <td align="left"><p>Marque esta caixa ("Mostrar dicas de política a usuários e enviar uma notificação de email para eles").</p>
-<p>Clique em "Personalizar a dica e o email" e atualize eles para o seu ambiente. Veja as notificações padrão neste artigo: <a href="https://support.office.com/article/Send-email-notifications-and-show-policy-tips-for-DLP-policies-87496bc5-9601-4473-8021-cb05c71369c1?ui=en-US&amp;rs=en-US&amp;ad=US">Enviar notificações por email e mostrar dicas de política para políticas DLP</a>.</p></td>
+<p>Clique em "Personalizar a dica e o email" e atualize eles para o seu ambiente. Veja as notificações padrão neste artigo: <a href="https://docs.microsoft.com/microsoft-365/compliance/use-notifications-and-policy-tips">Enviar notificações por email e mostrar dicas de política para políticas DLP</a>.</p></td>
 </tr>
 <tr class="even">
 <td align="left">Detectar quando uma quantidade específica de informações confidenciais estiver sendo compartilhada de uma só vez</td>
@@ -252,9 +252,9 @@ A ilustração apresenta os níveis de permissão, desde Controle total a Soment
 
 Mais informações:
 
--   [Compreender os níveis de permissão no SharePoint](https://support.office.com/pt-BR/article/Understanding-permission-levels-in-SharePoint-87ecbb0e-6550-491a-8826-c075e4859848)
+-   [Compreender os níveis de permissão no SharePoint](https://docs.microsoft.com/sharepoint/understanding-permission-levels)
 
--   [Compreender os grupos do SharePoint](https://support.office.com/pt-BR/article/Understanding-SharePoint-groups-94d9b261-161e-4ace-829e-eca1c8cd2eb8)
+-   [Compreender os grupos do SharePoint](https://docs.microsoft.com/sharepoint/default-sharepoint-groups)
 
 ### <a name="external-sharing-policies-for-sharepoint-and-onedrive-for-business-libraries"></a>Políticas de compartilhamento externo para bibliotecas do SharePoint e OneDrive for Business
 
@@ -304,9 +304,9 @@ A tabela a seguir resume os controles que você pode configurar.
 
 Mais informações:
 
--   [Gerenciar compartilhamento externo para o ambiente do SharePoint Online](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
+-   [Gerenciar compartilhamento externo para o ambiente do SharePoint Online](https://docs.microsoft.com/sharepoint/external-sharing-overview)
 
--   [Compartilhar sites ou documentos com pessoas de fora da organização](https://support.office.com/pt-BR/article/Share-sites-or-documents-with-people-outside-your-organization-80e49744-e30f-44db-8d51-16661b1d4232)
+-   [Compartilhar sites ou documentos com pessoas de fora da organização](https://support.office.com/article/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c)
 
 ### <a name="site-level-device-access-policies"></a>Políticas de acesso de dispositivo no nível do site
 
@@ -355,7 +355,7 @@ As políticas de acesso de dispositivos do SharePoint e do OneDrive for Business
 </tbody>
 </table>
 
-Mais informações: [Centro de administração do SharePoint Online: controlar o acesso de dispositivos não gerenciados](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622?ui=en-US&rs=en-US&ad=US).
+Mais informações: [Centro de administração do SharePoint Online: controlar o acesso de dispositivos não gerenciados](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices).
 
 ## <a name="service-access-protection-for-identities-and-devices"></a>Proteção de acesso a serviços de identidades e dispositivos
 

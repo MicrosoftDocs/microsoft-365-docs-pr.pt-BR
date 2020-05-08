@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 797b32dfa0cd286cf7eb9b6e0aa128d332f5c19a
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 70c82232dff10bb13c5079de9590cde2508db14c
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066200"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159928"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -44,7 +44,7 @@ Os modelos de política são configurações de política predefinidas que você
 |**Área**|**Modelo de política**|**Detalhes**|
 |:-----|:-----|:-----|
 | **Linguagem ofensiva e antiassédio** | Monitorar comunicações para linguagem ofensiva | -Locais: Exchange Online, Microsoft Teams, Yammer, Skype for Business <br> -Direction: entrada, saída, interna <br> – Porcentagem de revisão: 100% <br> -Condições: classificador de idiomas ofensivo |
-| **Informação confidencial** | Monitorar as comunicações para informações confidenciais | -Locais: Exchange Online, Microsoft Teams, Yammer, Skype for Business <br> -Direction: entrada, saída, interna <br> – Porcentagem de revisão: 10% <br> – Condições: informações confidenciais, padrões e tipos de conteúdo prontos, opção de dicionário personalizado, anexos com mais de 1 MB |
+| **Informação confidencial** | Monitorar as comunicações para informações confidenciais | -Locais: Exchange Online, Microsoft Teams, Yammer, Skype for Business <br> -Direction: entrada, saída, interna <br> – Porcentagem de revisão: 10% <br> -Condições: informações confidenciais, padrões de conteúdo prontos e tipos, opção de dicionário personalizado, anexos com mais de 1 MB |
 | **Conformidade normativa** | Monitorar as comunicações para informações relacionadas à conformidade normativa financeira | -Locais: Exchange Online, Microsoft Teams, Yammer, Skype for Business <br> -Direction: entrada, saída <br> – Porcentagem de revisão: 10% <br> -Condições: opção de dicionário personalizado, anexos com mais de 1 MB |
 
 ## <a name="supervised-users"></a>Usuários supervisionados
@@ -62,7 +62,7 @@ Ao criar uma política de conformidade de comunicação, você deve determinar q
 
 Para simplificar a configuração, crie grupos para pessoas que precisam de suas comunicações revisadas e grupos para pessoas que revisam essas comunicações. Se você estiver usando grupos, talvez precise de vários. Por exemplo, se você quiser examinar as comunicações entre dois grupos distintos de pessoas ou se quiser especificar um grupo que não é supervisionado.
 
-Quando você seleciona um grupo do Microsoft 365 para usuários supervisionados, a política verifica o conteúdo da caixa de correio compartilhada e dos canais do Microsoft Teams associados ao grupo. Quando você seleciona uma lista de distribuição, a política verifica caixas de correio de usuários individuais.
+Quando você seleciona um grupo do Microsoft 365 para usuários supervisionados, a política verifica o conteúdo da caixa de correio compartilhada e dos canais do Microsoft Teams associados ao grupo. Quando você seleciona uma lista de distribuição, a política verifica caixas de correio de usuários individuais. A adição de grupos e listas de distribuição a políticas de conformidade de comunicação faz parte das condições e dos conjuntos de regras gerais, portanto, o número máximo de grupos e listas de distribuição que uma política oferece suporte varia dependendo do número de condições também adicionadas à política. Cada política deve suportar aproximadamente 20 grupos ou listas de distribuição, dependendo do número de condições adicionais presentes na política.
 
 ## <a name="supported-communication-types"></a>Tipos de comunicação com suporte
 
@@ -278,7 +278,7 @@ Se quiser alterar o nível de gravidade atribuído em uma política de alerta pa
 
 7. Selecione **fechar** para sair da página de detalhes da política de alerta.
 
-## <a name="audit"></a>Faça
+## <a name="audit"></a>Auditoria
 
 Em alguns casos, você deve fornecer informações para auditores regulamentares ou de conformidade para provar a supervisão de atividades e comunicações de funcionários. Essas informações podem ser um resumo de todas as atividades associadas a uma política organizacional definida ou a qualquer momento em que uma política de conformidade de comunicação é alterada. As políticas de conformidade de comunicação têm trilhas de auditoria internas para a preparação completa para auditorias internas ou externas. Históricos de auditoria detalhados de cada ação criar, editar e excluir são capturados por suas políticas de comunicação para fornecer provas de procedimentos de supervisão.
 

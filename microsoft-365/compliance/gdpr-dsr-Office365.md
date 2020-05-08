@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 33723d5de94279e53a77434679c5406575dff3be
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: dbb24e3c7347faf09e5f14d3d28d17b8163ccc2c
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632502"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166022"
 ---
 # <a name="data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações do Titular dos Dados para RGPD e CCPA
 
@@ -119,7 +119,7 @@ A primeira etapa ao responder a uma DSR é localizar os dados pessoais do titula
 
 Conforme mencionado anteriormente, a Microsoft estima que mais de 90% dos dados de uma organização sejam criados com aplicativos do Office, como Word e Excel. Isso significa que é possível usar a Pesquisa de Conteúdo no Centro de Conformidade e Segurança para pesquisar pela maioria dos dados relacionados a DSRs.
 
-Este guia pressupõe que você ou a pessoa que está pesquisando dados pessoais que possam ser responsivos a uma solicitação DSR esteja familiarizado ou tenha experiência em usar a ferramenta Pesquisa de Conteúdo no Centro de Conformidade e Segurança. Para obter as diretrizes gerais de como usar a Pesquisa de Conteúdo, confira [Pesquisa de Conteúdo no Office 365](https://support.office.com/article/Content-Search-in-Office-365-53390468-eec6-45cb-b6cd-7511f9c909e4). Certifique-se de que a pessoa que esteja fazendo as pesquisas tenha recebido as permissões necessárias no Centro de Conformidade e Segurança. Essa pessoa deve ser adicionada como membro do grupo de função Gerente de Descoberta Eletrônica no Centro de Conformidade e Segurança. Confira [Atribuir permissões de Descoberta Eletrônica no Centro de Conformidade e Segurança](https://support.office.com/article/Assign-eDiscovery-permissions-in-the-Office-365-Security-Compliance-Center-5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7). Considere a adição de outras pessoas da organização que estejam envolvidas na investigação de DSRs ao grupo de função Gerente de Descoberta Eletrônica, de modo que elas possam executar as ações necessárias na ferramenta Pesquisa de Conteúdo, como visualizar e exportar resultados da pesquisa. No entanto, a menos que você tenha configurado limites de conformidade (conforme descrito [aqui](#set-up-compliance-boundaries-to-limit-the-scope-of-content-searches)), esteja ciente de que um Gerente de Descoberta Eletrônica pode pesquisar todos os locais de conteúdo da organização, incluindo aqueles que podem não estar relacionados a uma investigação de DSR.
+Este guia pressupõe que você ou a pessoa que está pesquisando dados pessoais que possam ser responsivos a uma solicitação DSR esteja familiarizado ou tenha experiência em usar a ferramenta Pesquisa de Conteúdo no Centro de Conformidade e Segurança. Para obter as diretrizes gerais de como usar a Pesquisa de Conteúdo, confira [Pesquisa de Conteúdo no Office 365](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4). Certifique-se de que a pessoa que esteja fazendo as pesquisas tenha recebido as permissões necessárias no Centro de Conformidade e Segurança. Essa pessoa deve ser adicionada como membro do grupo de função Gerente de Descoberta Eletrônica no Centro de Conformidade e Segurança. Confira [Atribuir permissões de Descoberta Eletrônica no Centro de Conformidade e Segurança](https://support.office.com/article/Assign-eDiscovery-permissions-in-the-Office-365-Security-Compliance-Center-5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7). Considere a adição de outras pessoas da organização que estejam envolvidas na investigação de DSRs ao grupo de função Gerente de Descoberta Eletrônica, de modo que elas possam executar as ações necessárias na ferramenta Pesquisa de Conteúdo, como visualizar e exportar resultados da pesquisa. No entanto, a menos que você tenha configurado limites de conformidade (conforme descrito [aqui](#set-up-compliance-boundaries-to-limit-the-scope-of-content-searches)), esteja ciente de que um Gerente de Descoberta Eletrônica pode pesquisar todos os locais de conteúdo da organização, incluindo aqueles que podem não estar relacionados a uma investigação de DSR.
 
 Depois de encontrar os dados, você pode executar uma ação específica que atenda à solicitação feita pelo titular dos dados.
 
@@ -141,7 +141,7 @@ Você pode pesquisar os tipos de local de conteúdo a seguir com a ferramenta Pe
 #### <a name="tips-for-searching-content-locations"></a>Dicas para pesquisar locais de conteúdo
 
 - Comece pesquisando todos os locais de conteúdo da organização (o que pode ser feito em uma única pesquisa) para determinar rapidamente quais locais de conteúdo possuem itens que correspondem à sua consulta de pesquisa. Em seguida, você pode fazer uma nova pesquisa e limitar o escopo dela aos locais específicos que apresentam itens relevantes.
-- Use as estatísticas de pesquisa para identificar os principais locais que contêm itens que correspondem à sua consulta de pesquisa. Consulte [Exibir as estatísticas de palavra-chave para resultados de pesquisa de conteúdo](https://support.office.com/article/View-keyword-statistics-for-Content-Search-results-9701a024-c52e-43f0-b545-9a53478aec04).
+- Use as estatísticas de pesquisa para identificar os principais locais que contêm itens que correspondem à sua consulta de pesquisa. Consulte [Exibir as estatísticas de palavra-chave para resultados de pesquisa de conteúdo](https://docs.microsoft.com/microsoft-365/compliance/view-keyword-statistics-for-content-search).
 - Pesquise no log de auditoria as atividades recentes de arquivos e pastas executadas pelo usuário que é o titular do DSR. Pesquisar o log de auditoria traz uma lista de registros de auditoria que contêm o nome e o local de recursos que o usuário interagiu recentemente.  Você pode usar essas informações para criar uma consulta de pesquisa de conteúdo. Confira [Pesquisar o log de auditoria no Centro de Conformidade e Segurança](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
 #### <a name="building-search-queries-to-find-personal-data"></a>Criar consultas de pesquisa para encontrar dados pessoais
@@ -170,11 +170,11 @@ A tabela a seguir lista algumas condições que podem ser usadas para limitar o 
 | Marca de conformidade |O rótulo atribuído a uma mensagem de email ou um documento. Os rótulos são usados para classificar emails e documentos para governança de dados e imposição de regras de retenção com base na classificação definida pelo rótulo. Use essa condição para pesquisar itens que receberam um rótulo automática ou manualmente.<br/>Essa é uma condição útil para investigações de DSR porque sua organização pode estar usando rótulos para classificar conteúdos relacionados à privacidade dos dados ou que contenham dados pessoais ou informações confidenciais. Consulte a seção "Usando a Pesquisa de Conteúdo para encontrar todos os conteúdos com rótulos específicos aplicados" em [Visão geral dos rótulos no Office 365.](https://support.office.com/article/overview-of-labels-af398293-c69d-465e-a249-d74561552d30)|compliancetag="personal data"|
 ||||
 
-Há muito mais condições de pesquisa e propriedades de documento ou email que você pode usar para criar consultas de pesquisa mais complexas. Veja a seção a seguir no tópico da Ajuda [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](https://support.office.com/article/Keyword-queries-and-search-conditions-for-Content-Search-c4639c2e-7223-4302-8e0d-b6e10f1c3be3) para obter mais informações.
+Há muito mais condições de pesquisa e propriedades de documento ou email que você pode usar para criar consultas de pesquisa mais complexas. Veja a seção a seguir no tópico da Ajuda [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions) para obter mais informações.
 
-- [Propriedades de emails pesquisáveis](https://support.office.com/article/Keyword-queries-and-search-conditions-for-Content-Search-c4639c2e-7223-4302-8e0d-b6e10f1c3be3)
-- [Propriedades de site pesquisáveis (documento)](https://support.office.com/article/Keyword-queries-and-search-conditions-for-Content-Search-c4639c2e-7223-4302-8e0d-b6e10f1c3be3)
-- [Condições de pesquisa](https://support.office.com/article/Keyword-queries-and-search-conditions-for-Content-Search-c4639c2e-7223-4302-8e0d-b6e10f1c3be3)
+- [Propriedades de emails pesquisáveis](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions)
+- [Propriedades de site pesquisáveis (documento)](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions)
+- [Condições de pesquisa](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions)
 
 #### <a name="searching-for-personal-data-in-sharepoint-lists-discussions-and-forms"></a>Pesquisar dados pessoais em listas, discussões e formulários do SharePoint
 
@@ -222,15 +222,15 @@ Este exemplo retorna mensagens de email que contêm o número de identificação
 
 #### <a name="working-with-partially-indexed-items-in-content-search"></a>Trabalhar com itens parcialmente indexados na Pesquisa de Conteúdo
 
-Itens parcialmente indexados (também chamados de *itens não indexados*) são itens e documentos da caixa de correio do Exchange Online nos sites do SharePoint Online e OneDrive for Business que, por algum motivo, não foram indexados para pesquisa, o que significa que eles não podem ser pesquisados usando a Pesquisa de Conteúdo. A maioria das mensagens de email e dos documentos de site é indexada com êxito, pois eles se enquadram nos [limites de indexação do Office 365](https://support.office.com/article/limits-for-content-search-in-the-office-365-security-compliance-center-78fe3147-1979-4c41-83bb-aeccf244368d?).  Os motivos pelos quais as mensagens ou arquivos de email não são indexados para pesquisa incluem:
+Itens parcialmente indexados (também chamados de *itens não indexados*) são itens e documentos da caixa de correio do Exchange Online nos sites do SharePoint Online e OneDrive for Business que, por algum motivo, não foram indexados para pesquisa, o que significa que eles não podem ser pesquisados usando a Pesquisa de Conteúdo. A maioria das mensagens de email e dos documentos de site é indexada com êxito, pois eles se enquadram nos [limites de indexação do Office 365](https://support.office.com/article/limits-for-content-search-in-the-office-365-security-compliance-center-78fe3147-1979-4c41-83bb-aeccf244368d??).  Os motivos pelos quais as mensagens ou arquivos de email não são indexados para pesquisa incluem:
 
-- O tipo de arquivo não é [reconhecido ou não tem suporte para indexação](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b?).  No entanto, às vezes o tipo de arquivo tem suporte para indexação, mas houve um erro de indexação com um arquivo específico.
+- O tipo de arquivo não é [reconhecido ou não tem suporte para indexação](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b??).  No entanto, às vezes o tipo de arquivo tem suporte para indexação, mas houve um erro de indexação com um arquivo específico.
 - As mensagens de email têm um arquivo anexado sem um manipulador válido, como um arquivo de imagem (essa é a causa mais comum de itens de email parcialmente indexados)
 - Os arquivos anexados às mensagens de email são muito grandes ou há muitos arquivos anexados
 
 É recomendável saber mais sobre itens parcialmente indexados para que você possa trabalhar com eles ao responder às solicitações DSR. Para obter mais informações, confira:
 
-- [Itens parcialmente indexados na Pesquisa de Conteúdo do Office 365](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b?)
+- [Itens parcialmente indexados na Pesquisa de Conteúdo do Office 365](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b??)
 - [Investigar itens parcialmente indexados na Descoberta Eletrônica do Office 365](https://support.office.com/article/investigating-partially-indexed-items-in-office-365-ediscovery-4e8ff113-6361-41e2-915a-6338a7e2a1ed)
 - [Exportar itens não indexados](https://support.office.com/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278#unidexeditems)
 
@@ -1037,7 +1037,7 @@ As seções a seguir explicam como usar a funcionalidade no aplicativo do Micros
 
 #### <a name="discover"></a>Descobrir
 
-Os planos do Planner são associados a um Grupo do Microsoft 365 e os arquivos desse grupo são armazenados em um site do SharePoint Online associado do grupo. Isso significa que você pode usar a Pesquisa de Conteúdo para encontrar arquivos do Planner pesquisando o site do Grupo do Microsoft 365. Para isso, você precisa ter a URL do Grupo do Microsoft 365. Confira [Pesquisar Grupos do Microsoft 365 e Microsoft Teams](https://support.office.com/article/Content-Search-in-Office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) no tópico de ajuda “Pesquisa de Conteúdo no Microsoft 365” para ver dicas de como obter informações sobre os Grupos do Office 365 que ajudem a pesquisar arquivos do Planner no site do SharePoint Online correspondente.
+Os planos do Planner são associados a um Grupo do Microsoft 365 e os arquivos desse grupo são armazenados em um site do SharePoint Online associado do grupo. Isso significa que você pode usar a Pesquisa de Conteúdo para encontrar arquivos do Planner pesquisando o site do Grupo do Microsoft 365. Para isso, você precisa ter a URL do Grupo do Microsoft 365. Confira [Pesquisar Grupos do Microsoft 365 e Microsoft Teams](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) no tópico de ajuda “Pesquisa de Conteúdo no Microsoft 365” para ver dicas de como obter informações sobre os Grupos do Office 365 que ajudem a pesquisar arquivos do Planner no site do SharePoint Online correspondente.
 
 #### <a name="access"></a>Acessar
 

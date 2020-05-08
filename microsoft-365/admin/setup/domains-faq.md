@@ -22,14 +22,21 @@ search.appverid:
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: Saiba mais sobre domínios encontrando respostas para suas perguntas em perguntas frequentes.
 ms.custom: okr_smb
-ms.openlocfilehash: 0b9b79c3cab74f4f809f0bd96ed5a51c17282ccd
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 09e811b64def4d507a9d825f95b9d22f910669bb
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048156"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140744"
 ---
 # <a name="domains-faq"></a>Perguntas frequentes sobre domínios
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Este artigo contém respostas para perguntas frequentes sobre domínios no Office 365.
 

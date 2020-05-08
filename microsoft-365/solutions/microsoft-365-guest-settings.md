@@ -1,5 +1,5 @@
 ---
-title: Referência das configurações de compartilhamento de convidado do Microsoft 365
+title: Referência de configurações de compartilhamento de convidados do Microsoft 365
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -9,17 +9,18 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
+- M365solutions
 f1.keywords: NOCSH
 ms.custom:
-- M365solutions
+- seo-marvel-apr2020
 localization_priority: Priority
-description: Saiba mais sobre as configurações de compartilhamento de convidados disponíveis no Microsoft 365.
-ms.openlocfilehash: 419fed11ec0eed5c49828a43510b3b396b9ec0f5
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+description: Saiba mais sobre as configurações de compartilhamento de convidados disponíveis no Microsoft 365 que podem afetar o compartilhamento com pessoas de fora da sua organização.
+ms.openlocfilehash: a1c734adfe72d5eff5f18e67116544fd63eb854a
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002223"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160130"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Referência de configurações de compartilhamento de convidados do Microsoft 365
 

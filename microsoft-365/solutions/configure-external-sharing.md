@@ -10,15 +10,15 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom:
 - M365solutions
+ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 27ef95ed214a5b2c5c9299893f1c866559b49061
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: abd789c9121cbbeeb484aa51bdb47eac18f39c0f
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003778"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159414"
 ---
 # <a name="configure-external-sharing-across-microsoft-365"></a>Configurar o compartilhamento externo no Microsoft 365
 

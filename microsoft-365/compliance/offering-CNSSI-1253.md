@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f65baf936e83e4f5128f207a82bce50100cd58b2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 59bb5fd9e692cc5c69a4baf1cdc14cc200dba7a6
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602588"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066264"
 ---
 # <a name="committee-on-national-security-systems-instruction-no-1253-cnssi-1253"></a>Não há um Comitê sobre a instrução de sistemas de segurança nacional 1253 (CNSSI 1253)
 
@@ -35,11 +35,11 @@ Por exemplo, a abordagem CNSSI 1253 define explicitamente as associações de co
 
 Uma organização de avaliação de terceiros aprovada por FedRAMP (3PAO), Kratos SecureInfo, tem validado independentemente a conformidade do sistema governamental do Microsoft Azure com a linha de base CNSSI 1253 High-High-High. Kratos SecureInfo atesta que o relatório de 1253 de avaliação de segurança do CNSSI (SAR) do governo do Azure oferece uma avaliação completa dos controles de segurança aplicáveis estipulados no plano de avaliação de segurança (SAP). O SAR documenta os testes conduzidos para validar o governo do Azure em relação a uma seleção de controles de segurança do CNSSI 1253 para sistemas que exigem alta confidencialidade, alta integridade e alta disponibilidade.  
   
-O Azure governamental atualmente possui uma autorização de alto nível do FedRAMP para operar (P-ATO) emitida pela placa de autorização conjunta (JAB) e uma autorização (PA) de departamento de defesa provisionada no nível de impacto 5 da segurança da computação em nuvem Guia de requisitos (SRG). Usando essas autorizações, o Kratos SecureInfo analisou os controles de segurança que foram testados nas avaliações anteriores para determinar quais controles de segurança do CNSSI 1253 adicionais serão testados para garantir a conformidade com a linha de base CNSSI 1253 alta-alta. Kratos SecureInfo examinou evidências e realizou entrevistas para validar a implementação bem-sucedida de 43 controles de segurança aplicáveis e publicou os resultados de seus testes completos no CNSSI 1253 SAR.  
+O governo do Azure atualmente possui uma autorização de alto nível do FedRAMP para operar (P-ATO) emitida pela placa de autorização conjunta (JAB) e uma autorização de departamento de defesa (PA) para o nível de impacto 5 do guia de requisitos de segurança da computação em nuvem (SRG). Usando essas autorizações, o Kratos SecureInfo analisou os controles de segurança que foram testados nas avaliações anteriores para determinar quais controles de segurança do CNSSI 1253 adicionais serão testados para garantir a conformidade com a linha de base CNSSI 1253 alta-alta. Kratos SecureInfo examinou evidências e realizou entrevistas para validar a implementação bem-sucedida de 43 controles de segurança aplicáveis e publicou os resultados de seus testes completos no CNSSI 1253 SAR.  
   
-A conformidade do governo do Azure com os requisitos exigentes do CNSSI 1253 significa que o Azure pode oferecer aos clientes do setor público nos Estados Unidos uma rica variedade de serviços compatíveis com o CNSSI 1253, permitindo que eles se beneficiem com a economia de custos e com o rigoroso segurança da nuvem da Microsoft.
+A conformidade do governo do Azure com os requisitos exigentes do CNSSI 1253 significa que o Azure pode oferecer aos clientes do setor público nos Estados Unidos uma ampla variedade de serviços compatíveis com o CNSSI 1253, permitindo que eles se beneficiem com a economia de custos e a segurança rigorosa da nuvem da Microsoft.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 
@@ -69,7 +69,3 @@ O Azure governamental (FedRAMP Package ID F1603087869) foi testado novamente ess
 - [Autorização de Microsoft e DoD provisório](offering-DoD-DISA-L2-L4-L5.md)
 - [Nuvem Governamental da Microsoft](https://www.microsoft.com/enterprise/government)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/6/E/C/6EC27E89-826E-44CB-A107-2A37AC879206/CNSSI_1253-Compliance.pdf).

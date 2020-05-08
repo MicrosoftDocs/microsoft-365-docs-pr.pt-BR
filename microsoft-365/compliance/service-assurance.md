@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: Baixe as auditorias de terceiros, descubra como a Microsoft mantém a segurança dos dados dos clientes e saiba como você pode estar em conformidade com ISO, HIPAA, FINRA e FedRAMP ao usar o Office 365.
-ms.openlocfilehash: b9a9198d8206b2693f0634355c926856c1327d9d
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: d2805ae3532ee01a2515693cac6eb52da209022d
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943584"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165922"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>Garantia de serviço no centro de conformidade & segurança
 
@@ -134,7 +134,7 @@ Retorne à página **permissões** a qualquer momento para adicionar mais usuár
 ## <a name="get-help-with-service-assurance"></a>Obter ajuda com a garantia de serviço
 <a name="addother"> </a>
 
-[Entre em contato com o suporte para produtos de negócios-ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+[Entre em contato com o suporte para produtos de negócios-ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).
   
 ## <a name="frequently-asked-questions"></a>Perguntas Frequentes
 <a name="addother"> </a>
