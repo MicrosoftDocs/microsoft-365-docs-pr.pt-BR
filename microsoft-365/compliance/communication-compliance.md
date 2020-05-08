@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 71226634f17e8e801c409e513494dfdcc19d0719
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: e49b80cc873887cf9cc447a28ac2a274034176fc
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046289"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066234"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Conformidade com comunicações no Microsoft 365
 
@@ -49,7 +49,7 @@ As políticas de conformidade de comunicação podem ajudar na revisão de mensa
 
 - **Gerenciamento de risco**
 
-    As organizações são responsáveis por todas as comunicações distribuídas por toda a infraestrutura e sistemas corporativos de rede. O uso de políticas de supervisão de comunicações para ajudar a identificar e gerenciar a possível exposição e risco legais pode ajudar a minimizar os riscos antes que eles possam danificar as operações corporativas. Por exemplo, você pode examinar mensagens em sua organização para comunicações não autorizadas sobre projetos confidenciais, como aquisições futuras, fusões, divulgações de ganhos, reorganizações ou alterações da equipe de liderança.
+    As organizações são responsáveis por todas as comunicações distribuídas por toda a infraestrutura e sistemas corporativos de rede. O uso de políticas de conformidade de comunicação para ajudar a identificar e gerenciar a possível exposição e risco legais pode ajudar a minimizar os riscos antes que eles possam danificar as operações corporativas. Por exemplo, você pode examinar mensagens em sua organização para comunicações não autorizadas sobre projetos confidenciais, como aquisições futuras, fusões, divulgações de ganhos, reorganizações ou alterações da equipe de liderança.
 
 - **Conformidade normativa**
 
@@ -98,7 +98,7 @@ Novos painéis interativos para alertas, correspondências de política, ações
 As políticas de conformidade de comunicação verificam e capturam mensagens em vários canais de comunicação para ajudá-lo a analisar e corrigir problemas de conformidade rapidamente:
 
 - **Microsoft Teams**: comunicações de chat para canais públicos e privados do [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview) e chats individuais têm suporte na conformidade de comunicação como uma fonte de canal autônomo ou com outros serviços do Microsoft 365. Agora, as políticas verificam automaticamente todos os canais e equipes do Microsoft Teams para usuários específicos definidos em uma política, eliminando a necessidade de manter uma lista de mapeamento separada para as atribuições do Microsoft Teams.
-- **Exchange Online**: todas as caixas de correio hospedadas no [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online) na sua organização do Microsoft 365 estão qualificadas para verificação. Os emails e anexos que correspondem às condições de política de conformidade de comunicação estão disponíveis instantaneamente para monitoramento e relatórios de supervisão. O Exchange Online agora é um canal de origem opcional e não é mais necessário em políticas de conformidade de comunicação.
+- **Exchange Online**: todas as caixas de correio hospedadas no [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online) na sua organização do Microsoft 365 estão qualificadas para verificação. Os emails e anexos que correspondem às condições de política de conformidade de comunicação estão disponíveis instantaneamente para monitoramento e em relatórios de conformidade. O Exchange Online agora é um canal de origem opcional e não é mais necessário em políticas de conformidade de comunicação.
 - **Yammer**: mensagens privadas e conversas públicas da Comunidade no [Yammer](https://docs.microsoft.com/yammer/yammer-landing-page) são suportadas em políticas de conformidade de comunicação. O Yammer é um canal opcional e deve estar no [modo nativo](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) para suportar a verificação de mensagens e anexos.
 - **Skype for Business online**: as políticas de conformidade de comunicação dão suporte à verificação de comunicações de chat e anexos associados no [Skype for Business online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online).
 - **Fontes de terceiros**: você pode examinar mensagens de [fontes de terceiros](archiving-third-party-data.md) para dados importados em caixas de correio em sua organização do Microsoft 365. A conformidade de comunicação oferece suporte a conexões com várias plataformas populares, incluindo Bloomberg imediato, Facebook, Twitter e outros.
@@ -125,13 +125,13 @@ Você pode escolher entre os seguintes modelos de política no centro de conform
 - **Linguagem ofensiva e antiassédio**: Use este modelo para criar rapidamente uma política que usa o classificador interno para detectar automaticamente o conteúdo que pode ser considerado abusivo ou ofensivo.
 - **Informações confidenciais**: Use este modelo para criar uma política de verificação de comunicações contendo tipos de informações confidenciais definidos ou palavras-chave para ajudar a garantir que dados importantes não sejam compartilhados com pessoas que não deveriam ter acesso.
 - **Conformidade normativa**: Use este modelo para criar uma política para verificar as comunicações de referências a termos financeiros padrão associados a padrões normativos.
-- **Política personalizada**: Use este modelo para configurar canais de comunicação específicos, condições de detecção individuais e a quantidade de conteúdo a ser revisada para supervisão em sua organização.
+- **Política personalizada**: Use este modelo para configurar canais de comunicação específicos, condições de detecção individuais e a quantidade de conteúdo a ser monitorado e revisado em sua organização.
 
 ### <a name="investigate"></a>Investigar
 
 Nesta etapa, você tem uma visão mais profunda dos problemas detectados como correspondentes às políticas de conformidade de comunicação. Esta etapa inclui as seguintes ações disponíveis no centro de conformidade da Microsoft 365:
 
-- **Alertas**: quando uma mensagem corresponde a uma política de supervisão, um alerta é gerado automaticamente. Para cada alerta, você pode ver o status, a gravidade, o tempo detectado e se um caso é atribuído e seu status. Novos alertas são exibidos na home page de conformidade de comunicação e na página **alertas** e são listados em ordem de gravidade.
+- **Alertas**: quando uma mensagem corresponde a uma condição de política, um alerta é gerado automaticamente. Para cada alerta, você pode ver o status, a gravidade, o tempo detectado e se um caso é atribuído e seu status. Novos alertas são exibidos na home page de conformidade de comunicação e na página **alertas** e são listados em ordem de gravidade.
 - **Gerenciamento de problemas**: para cada alerta, você pode tomar medidas investigativas para ajudar a corrigir o problema detectado na mensagem
 - **Revisão de documentos**: durante a investigação de um problema, você pode usar vários modos de exibição da mensagem para ajudar a avaliar corretamente o problema detectado. Os modos de exibição incluem um resumo de conversa, somente texto, anotações e detalhes da conversa de comunicação.
 - **Revisão do histórico de atividades do usuário**: exibir o histórico de atividades de mensagens do usuário e ações de correção, como notificações e escalonamentos passados, para correspondências de política.

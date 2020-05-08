@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: 'Altere seu endereço de email inicial para um endereço de email amigável, como o tom@fourthcoffee.com. Para fazer isso, você precisa comprar um nome de domínio e adicioná-lo ao Microsoft 365. '
-ms.openlocfilehash: d419521210740cfa76a911cf0d66e7826ee8e626
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: baa2e49d98ed1d7b3de9af78b84403d028b4c91d
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629054"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053819"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>Mudar seu endereço de email para usar seu domínio personalizado
 
@@ -53,7 +53,7 @@ Seu endereço de email inicial no Office 365 operado pela 21Vianet inclui o part
 
 ::: moniker-end
 
-Quando você altera o email do seu domínio para o Microsoft 365, atualizando o registro MX do seu domínio durante a instalação, todos os emails enviados para esse domínio serão iniciados no Microsoft 365. Verifique se você adicionou usuários e criou caixas de correio no Microsoft 365 para todos que têm emails em seu domínio antes de alterar o registro MX. Não deseja mover emails para todas as pessoas em seu domínio para a Microsoft 365? Você pode executar etapas para [o Microsoft 365 piloto com apenas alguns endereços de email](https://support.office.com/article/39cee536-6a03-40cf-b9c1-f301bb6001d7.aspx).
+Quando você altera o email do seu domínio para o Microsoft 365, atualizando o registro MX do seu domínio durante a instalação, todos os emails enviados para esse domínio serão iniciados no Microsoft 365. Verifique se você adicionou usuários e criou caixas de correio no Microsoft 365 para todos que têm emails em seu domínio antes de alterar o registro MX. Não deseja mover emails para todas as pessoas em seu domínio para a Microsoft 365? Você pode executar etapas para [o Microsoft 365 piloto com apenas alguns endereços de email](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).
   
 ## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>Alterar seu endereço de email para usar seu domínio personalizado usando o centro de administração do Microsoft 365
 
