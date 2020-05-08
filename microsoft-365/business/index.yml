@@ -11,12 +11,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 5f146e4d0ab5a86a3891e2313b93ad307f838ae1
-  ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+  ms.openlocfilehash: 05b835c8c7ceb6a472710a9878f356de63c89e5f
+  ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/07/2020
-  ms.locfileid: "44159938"
+  ms.lasthandoff: 05/08/2020
+  ms.locfileid: "44165820"
 productDirectory:
   title: Trabalho remoto seguro com o Microsoft 365 Business Premium
   items:
@@ -26,7 +26,7 @@ productDirectory:
     url: https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623
   - title: Obter o kit de parceiro gratuito
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
-    summary: Orientações práticas e vá para recursos de mercado para parceiros para habilitar o trabalho remoto seguro.
+    summary: Orientações práticas e vá para recursos de mercado para parceiros para proteger o trabalho remoto.
     url: https://www.microsoft.com/microsoft-365/partners/videos/secure-your-smb-customers-as-they-cope-with-covid-19
   - title: Quais são as novidades?
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
@@ -118,7 +118,7 @@ conceptualContent:
     - url: https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies
       itemType: overview
       text: Prevenção contra Perda de Dados
-    - url: https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980
+    - url: https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980
       itemType: how-to-guide
       text: Enviar e-mail criptografado
     - url: https://docs.microsoft.com/microsoft-365/business/set-up-compliance#set-up-email-retention-with-exchange-online-archiving
