@@ -7,22 +7,24 @@ metadata:
   description: Entenda como projetar a solução e a arquitetura que é ideal para a sua organização
   ms.service: o365-solutions
   ms.topic: hub-page
-  ms.collection: m365-security-compliance
+  ms.collection:
+  - m365-security-compliance
+  - M365solutions
   author: samanro
   ms.author: samanro
   manager: bcarter
   audience: ITPro
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 9302dc56dba602a0ea00927dd24176b776b17ae8
-  ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+  ms.openlocfilehash: 7f0da78b7d0c716532c2aca277059ff54478be5f
+  ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/01/2020
-  ms.locfileid: "44002474"
+  ms.lasthandoff: 05/07/2020
+  ms.locfileid: "44160142"
 highlightedContent:
   items:
-  - title: Capacitar funcionários remotos com o Microsoft 365
+  - title: Capacite funcionários remotos com o Microsoft 365
     itemType: whats-new
     url: empower-people-to-work-remotely.md
   - title: Configurar a colaboração segura com o Microsoft 365
