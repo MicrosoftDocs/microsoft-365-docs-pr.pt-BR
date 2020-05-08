@@ -9,18 +9,18 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-ms.custom:
 - M365solutions
+ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba mais sobre as etapas de configuração do 365 da Microsoft necessárias para configurar uma equipe para colaboração com convidados no Microsoft Teams.
-ms.openlocfilehash: bf074d9115d8e5d9e2c7c265ee96e493ac3d59e3
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: dabcfa53e9ccf4b3ea136b5ab522619fe81ae738
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036002"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160022"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Colaborar com convidados em uma equipe
 
@@ -61,17 +61,17 @@ Verifique se o acesso de convidados está habilitado no Teams e faça qualquer a
 
 ![Captura de tela de alternância de acesso de convidados](../media/teams-guest-access-toggle-on.png)
 
-Para definir as configurações de acesso de convidados do teams
+Para definir as configurações de acesso de convidado do Teams
 
-1. Faça logon no centro de administração do Microsoft 365 [https://admin.microsoft.com](https://admin.microsoft.com)em.
-2. No painel de navegação à esquerda, clique em **Mostrar tudo**.
-3. Em **centros de administração**, clique em **equipes**.
-4. No centro de administração do Microsoft Teams, no painel de navegação à esquerda, expanda **configurações de toda a organização** e clique em **acesso de convidado**.
-5. Verifique se **permitir acesso de convidados no Teams** está definido como **ativado**.
-6. Faça as alterações desejadas nas configurações de convidado adicionais e clique em **salvar**.
+1. Entre no Centro de administração do Microsoft 365 em [https://admin.microsoft.com](https://admin.microsoft.com).
+2. Na barra de navegação esquerda, clique em **Mostrar tudo**.
+3. Em **Centros de administração**, clique em **Teams**.
+4. No Centro de administração do Teams, na navegação à esquerda, expanda **Configurações para toda a organização** e clique em **Acesso de convidado**.
+5. Certifique-se de que **Permitir acesso de convidado no Teams** esteja definido como **Ativado**.
+6. Faça as alterações desejadas nas configurações de convidado adicionais e clique em **Salvar**.
 
 > [!NOTE]
-> Pode levar até vinte e quatro horas para que a configuração de convidado do Microsoft Teams fique ativa após você ativá-la.
+> Depois de habilitá-la, pode levar até 24 horas para que a configuração de convidado do Teams se torne ativa.
 
 ## <a name="microsoft-365-groups-guest-settings"></a>Configurações de convidado de grupos do Microsoft 365
 
@@ -178,6 +178,6 @@ Para convidar convidados para uma equipe
 
 [Limitar a exposição acidental dos arquivos ao compartilhar com convidados](share-limit-accidental-exposure.md)
 
-[Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
+[Criar um ambiente seguro de compartilhamento para convidados](create-secure-guest-sharing-environment.md)
 
 [Crie uma extranet B2B com convidados gerenciados](b2b-extranet.md)

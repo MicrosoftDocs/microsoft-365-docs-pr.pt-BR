@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f4cb36cd208017881dd03a99d4e8c8adbbea65d4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7a43011a1d81c014526b1dd9178d051162e96acd
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602068"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065956"
 ---
 # <a name="office-of-the-superintendent-of-financial-institutions-osfi-canada"></a>Escritório do Superintendente de Instituições Financeiras (OSFI), Canadá
 
@@ -75,7 +75,3 @@ Sim, mas apenas se o acordo de terceirização envolve terceirização de ativid
 - [conformidade dos serviços financeiros no Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Ferramenta de Avaliação de Risco na Nuvem de Serviços Financeiros do Azure](https://aka.ms/FFIEC-CSDT)
 - [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/6/9/9/699E9434-6376-4F2A-A666-1F10D715B898/OFSI-Compliance.pdf).

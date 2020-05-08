@@ -13,15 +13,16 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+- M365solutions
 ms.custom:
 - Ent_Solutions
 description: Aprenda a implantar equipes com proteção para dados altamente confidenciais.
-ms.openlocfilehash: 6c3d79e212a1a0333a7262b72ae0f1db8597096f
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 6ad5de355055ac193979db9154d54ab9974fcde0
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002392"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159916"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>Configurar equipes com proteção para dados altamente confidenciais
 
@@ -37,8 +38,8 @@ Dependendo da natureza da sua empresa, você pode ou não querer ativar o compar
 
 Para obter detalhes sobre como compartilhar com convidados com segurança, confira os seguintes recursos:
 
-- [Limitar a exposição acidental a arquivos ao compartilhar arquivos com pessoas de fora da sua organização](https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure)
-- [Criar um ambiente de compartilhamento de convidados seguro](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
+- [Limite a exposição acidental a arquivos ao compartilhar arquivos com pessoas de fora da sua organização](https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure)
+- [Criar um ambiente seguro de compartilhamento de convidados](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
 Para permitir ou bloquear o compartilhamento de convidados, usamos uma combinação de um rótulo de confidencialidade para a equipe e controles de compartilhamento no nível do site para o Microsoft Office SharePoint Online associado, ambos discutidos mais adiante.
 
@@ -61,7 +62,7 @@ Para criar um rótulo de confidencialidade
 6. Na página **criptografia**, clique em **próximo**.
 7. Na página **Marcação de conteúdo**, ative a marcação de conteúdo se desejar adicionar automaticamente um cabeçalho, rodapé ou marca d'água aos arquivos classificados com este rótulo.
 8. Na página **Configurações de site e grupo**, defina **Configurações de site e grupo** como **Ativado**.
-9. No menu suspenso **Privacidade de sites de equipe conectados a grupos do Office 365**, escolha **Privado – somente membros podem acessar o site**.
+9. No menu suspenso **Privacidade de sites de equipe conectados a grupos do Office 365**, escolha **Privado - somente membros podem acessar o site**.
 10. Se você deseja permitir o acesso de convidado, marque a caixa de seleção **Permitir que proprietários de grupos do Office 365 adicionem pessoas de fora da organização aos grupos**. 
 11. Em **dispositivos não gerenciados**, escolha **permitir o acesso somente Web limitado,**.
 12. Clique em **Avançar**.
@@ -75,7 +76,7 @@ Depois de criar o rótulo, você precisará publicá-lo para os usuários que o 
 A configuração adicional do cenário altamente confidencial é feita no site do Microsoft Office SharePoint Online associado à equipe; portanto, a próxima etapa é criar uma equipe.
 
 Para criar uma equipe para informações altamente confidenciais
-1. No Teams, clique em **Equipes** no lado esquerdo do aplicativo e clique em **Criar equipe ou ingressar em uma** na parte inferior da lista de equipes.
+1. Nas equipes, clique em **Equipes** no lado esquerdo do aplicativo e clique em **Ingressar ou criar uma equipe** na parte inferior da lista de equipes.
 2. Clique em **Criar equipe** (primeiro cartão, canto superior esquerdo).
 3. Escolha **Criar uma equipe do zero**.
 4. Na lista **Confidencialidade**, escolha o rótulo **Altamente confidencial** que você acabou de criar.
@@ -88,7 +89,7 @@ Para criar uma equipe para informações altamente confidenciais
 Nesta camada, restringimos a criação de canais privados os proprietários da equipe.
 
 Para restringir a criação de canais privados
-1. Na equipe, clique em **Mais opções** e clique em **Gerenciar equipe**.
+1. Na equipe, clique em **Mais opções** e em **Gerenciar equipe**.
 2. Na guia **Configurações**, expanda **Permissões de membro**.
 3. Desmarque a caixa de seleção **Permitir que os membros criem canais privados**.
 
@@ -105,17 +106,17 @@ Sempre que você cria uma nova equipe com o rótulo altamente confidencial, há 
 
 A configuração de compartilhamento de convidados que você escolheu quando criou o rótulo (que afeta somente a associação à equipe) deve corresponder às configurações de compartilhamento de convidados do site do Microsoft Office SharePoint Online associado, da seguinte maneira:
 
-|Configuração de rótulo|Configuração do site do Microsoft Office SharePoint Online|
+|Configuração do rótulo|Configuração do site do Microsoft Office SharePoint Online|
 |:------------|:----------------------|
 |**Permitir que proprietários de grupos do Office 365 adicionem pessoas de fora da organização aos grupos** selecionado|**Convidados novos e existentes** (padrão para novas equipes)|
-|**Permitir que proprietários de grupos do Office 365 adicionem pessoas de fora da organização aos grupos** não selecionado|**Somente pessoas em sua organização**|
+|**Permitir que os proprietários de grupos do Office 365 adicionem pessoas de fora da organização aos grupos** não selecionado|**Somente pessoas em sua organização**|
 
 Para atualizar as configurações do site
 1. Abra o [Centro de Administração do SharePoint Online](https://admin.microsoft.com/sharepoint).
 2. Em **Sites**, clique em **Sites ativos**.
 3. Clique no site associado à equipe.
 4. Na guia **Políticas**, em **Compartilhamento externo**, clique em **Editar**.
-5. Se você permitiu o compartilhamento de convidados ao criar o rótulo Altamente confidencial, certifique-se de que **Convidados novos e existentes** esteja selecionado. Se você não permitiu o compartilhamento quando criou o rótulo, escolha **Somente pessoas da sua organização**.
+5. Se você permitiu o compartilhamento de convidados ao criar o rótulo confidencial, certifique-se de que **Convidados novos e existentes** esteja selecionados. Se você não permitiu o compartilhamento quando criou o rótulo, escolha **Somente pessoas da sua organização**.
 6. Em tipo de link de compartilhamento padrão, desmarque a caixa de seleção **igual ao nível da organização** e selecione **pessoas específicas (somente as pessoas que o usuário especificar)**.
 7. Clique em **Salvar**.
 

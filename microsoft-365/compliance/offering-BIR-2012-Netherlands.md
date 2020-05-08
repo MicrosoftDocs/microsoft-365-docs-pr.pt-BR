@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 695edb08c8316cf3f95af37321d5ab3a7d53399d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 765e9b3ed18e15cd458913e7f943d52f791dbafd
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602678"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065876"
 ---
 # <a name="baseline-informatiebeveiliging-rijksdienst-standard-bir-2012"></a>Padrão de linha de base do Informatiebeveiliging Rijksdienst (BIR 2012)
 
@@ -75,7 +75,3 @@ O relatório é fornecido aos clientes sob um acordo de confidencialidade tendo 
 - [Prescrição de segurança das informações nacional 2007 (VIR)](https://wetten.overheid.nl/BWBR0022141/2007-07-01)
 - [Segurança da informações da linha de base (BIR)](https://www.earonline.nl/index.php/BIR_2012)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/F/0/0/F00F62B6-254B-41AC-AC79-7A43CD6E376C/BIR2012-Compliance.pdf).

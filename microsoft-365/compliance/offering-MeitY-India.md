@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3b1f93b301ba4db44b7260ae588688acf648e345
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 86a3e7ce703881452d3d112aace3b418bf0984af
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602138"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066092"
 ---
 # <a name="ministry-of-electronics-and-information-technology-meity"></a>Ministério da tecnologia de informações e eletrônicos (MeitY)
 
@@ -27,7 +27,7 @@ ms.locfileid: "41602138"
 
 O Ministério da tecnologia de informação e eletrônicos (MeitY), uma agência do governo da Índia, fornece diretrizes de política para todas as organizações governamentais e de setor público de estado. Suas diretrizes também são freqüentemente adotadas por organizações do setor privado em setores regulamentados, como serviços financeiros e telecomunicações.
 
-O MeitY fornece a capacitação (referida por MeitY como "empanelment") dos provedores de serviços de nuvem, o que exige que os serviços de nuvem sejam certificados como compatíveis com um conjunto predefinido de padrões e diretrizes sobre segurança, interoperabilidade, portabilidade de dados contrato de nível de serviço e termos contratuais e condições. Auditores configurados pelo MeitY verificam a conformidade conduzindo auditorias de provedores de serviços de nuvem.
+O MeitY fornece a capacitação (referida por MeitY como ' empanelment ') de provedores de serviços de nuvem, que exige que os serviços de nuvem sejam certificados como compatíveis com um conjunto predefinido de padrões e diretrizes sobre segurança, interoperabilidade, portabilidade de dados, contrato de nível de serviço e condições e termos contratuais. Auditores configurados pelo MeitY verificam a conformidade conduzindo auditorias de provedores de serviços de nuvem.
 
 Após a credencial, os provedores de serviços de nuvem são listados em um diretório de serviços de nuvem governamental onde as organizações do setor público podem comparar e adquirir serviços de nuvem credenciados. O diretório é um serviço da [iniciativa de nuvem do MeghRaj](https://meity.gov.in/content/gi-cloud-meghraj) (ou \[do GI governamental\] of India Cloud), que promove o uso da computação em nuvem no governo e governa a implementação de serviços de ti do setor público.
 
@@ -63,7 +63,3 @@ Tornar os serviços do governo disponíveis para o cidadãos online é uma parte
 - [Iniciativa de nuvem do MeghRaj](https://meity.gov.in/content/gi-cloud-meghraj)
 - [Provedores de serviços de nuvem credenciados](https://meity.gov.in/content/gi-cloud-meghraj)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/E/8/B/E8B5BC95-2B66-4759-8BBE-31D2F641B3FD/MeitY-Compliance.pdf).

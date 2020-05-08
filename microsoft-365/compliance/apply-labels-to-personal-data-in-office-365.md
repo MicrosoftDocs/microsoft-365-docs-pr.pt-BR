@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 description: Aprenda a usar os rótulos do Office como parte do plano de proteção Geral de Proteção de Dados (GDPR).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ad80a63470d0afa4cfb946def18f3408f8a27f4
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 42cfc73433a7087f0f5dd62f2da9b27b5a3cf48d
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034355"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165254"
 ---
 # <a name="apply-labels-to-personal-data"></a>Aplicar rótulos a dados pessoais
 
@@ -182,7 +182,7 @@ Criar rótulos e políticas no centro de segurança ou no centro de conformidade
 <tr class="odd">
 <td align="left"><p>Conceder permissões aos membros da sua equipe de conformidade.</p></td>
 <td align="left"><p>Os membros da equipe de conformidade que criarão os rótulos precisam de permissões para usar o centro de segurança e/ou o centro de conformidade. Acesse as Permissões, no centro de segurança ou no centros de conformidade e modifique os membros do grupo Administrador de Conformidade.</p>
-<p>Confira <a href="https://support.office.com/en-ie/article/Give-users-access-to-the-Office-365-Security-Compliance-Center-2cfce2c8-20c5-47f9-afc4-24b059c1bd76">Conceder aos usuários acesso ao centro de segurança e/ou o centro de conformidade</a>.</p></td>
+<p>Confira <a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center">Conceder aos usuários acesso ao centro de segurança e/ou o centro de conformidade</a>.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>Crie rótulos de retenção.</p></td>

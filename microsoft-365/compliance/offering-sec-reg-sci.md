@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4ad74c8d4ec71587f88a80c3ee109500e230be35
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e2b314934a51c16ab4e907b7d9f6208e7de21641
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071218"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065706"
 ---
 # <a name="securities-and-exchange-commission-regulation-systems-compliance-and-integrity-sci"></a>Interações de títulos e do Exchange: SCI (conformidade e integridade dos sistemas regulamentares)
 
@@ -52,7 +52,7 @@ Este documento fornece uma lista de verificação completa das áreas de foco da
 - [Guia de implementação de Sci da regulamentação](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=a69ce0c1-7b7e-44e9-9143-867241e6b2f9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers): mapeia os recursos do Azure em relação à regulamentação e detalha a responsabilidade compartilhada de conformidade.
 - [Projetando aplicativos do Azure confiáveis](https://docs.microsoft.com/azure/architecture/resiliency/): uma breve visão geral de como criar a confiabilidade em cada etapa do design do aplicativo do Azure.
 - [Projetando aplicativos altamente disponíveis](https://docs.microsoft.com/azure/storage/common/storage-designing-ha-apps-with-ragrs): como os desenvolvedores podem ajudar a garantir que seus aplicativos de armazenamento do Azure estejam altamente disponíveis.
-- [Guia de conformidade e avaliação de risco](https://aka.ms/RiskGovernanceGuide): cria um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador.
+- [Guia de Conformidade & Avaliação de Risco ](https://aka.ms/RiskGovernanceGuide): Cria um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -62,7 +62,7 @@ Este documento fornece uma lista de verificação completa das áreas de foco da
 
 **Quais instituições financeiras podem aproveitar o Azure para ajudar a atender aos requisitos de SCI da regulamentação?**
 
-Organizações financeiras ou entidades SCI que estão sujeitas a essa regulamentação podem implantar o Azure. A SEC diz que sua regulamentação se aplica a ' organizações de auto-regulamentação (SROs), incluindo trocas de ações e ações, agências de limpeza registradas, FINRA e o MSRB, sistemas de negociação alternativos (ATSs), que o NMS de comércio e as ações não NMS excedem os especificados limites de volume, disseminadores de dados de mercado consolidados (processadores de plano) e determinadas agências de limpeza isentas.
+Organizações financeiras ou entidades SCI que estão sujeitas a essa regulamentação podem implantar o Azure. A SEC diz que sua regulamentação se aplica a ' organizações de auto-regulamentação (SROs), incluindo trocas de ações e ações, confirmando agências de compensação, FINRA e o MSRB, sistemas de negociação alternativos (ATSs), que as ações de NMS e não NMS de negócios excedem os limites de volume especificados, os disseminadores de dados de mercado consolidados
 
 ## <a name="resources"></a>Recursos
 
@@ -74,7 +74,3 @@ Organizações financeiras ou entidades SCI que estão sujeitas a essa regulamen
 - [Serviços financeiros da Microsoft](https://aka.ms/FinServ-Compliance)
 - [Regra da Microsoft e da SEC 17a-4](offering-SEC-17a-4.md)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/8/1/a/81aa04eb-3c1f-4c1a-ba7d-9d30032acc52/SEC_Reg_SCI-Compliance.pdf).

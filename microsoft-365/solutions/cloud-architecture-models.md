@@ -10,15 +10,15 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-ms.custom:
 - M365solutions
+ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: ee198d5813c910f6d9d8add74d5faf32e094d7e3
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: be79402c7aaf540ba3174e0844b1fe5bdc87a7ec
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002475"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160034"
 ---
 # <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>Ilustrações do Microsoft Cloud para Enterprise Architects
 

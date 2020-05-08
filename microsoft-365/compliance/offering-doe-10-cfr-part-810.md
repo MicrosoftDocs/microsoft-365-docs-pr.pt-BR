@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f9054c164efa340b489de917fb820e0460123df5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b34babe60781858b85a3c76280c2126094442851
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601968"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066434"
 ---
 # <a name="us-doe-10-cfr-part-810"></a>US DoE 10 CFR parte 810
 
@@ -34,7 +34,7 @@ O FedRAMP oferece uma linha de base adequada para fornecer garantias de que o go
 
 Além disso, o governo do Azure é uma nuvem de comunidade do governo dos EUA que é fisicamente separada da nuvem do Azure. Ele fornece garantias adicionais sobre os requisitos específicos de filtragem de plano de fundo pelo governo dos EUA, incluindo controles específicos que restringem o acesso a informações e sistemas para os cidadãos nos EUA na equipe de operações do Azure.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Governo do Azure](https://aka.ms/AzureCompliance)
 - Intune
@@ -45,7 +45,7 @@ Além disso, o governo do Azure é uma nuvem de comunidade do governo dos EUA qu
 
 ## <a name="about-doe-10-cfr-part-810"></a>Sobre a Silva com a parte 810 da CFR
 
-A regulamentação de controle de exportação do departamento de energia dos EUA (DoE) [10 CFR parte 810](https://www.govinfo.gov/content/pkg/FR-2015-02-23/pdf/2015-03479.pdf) governa a exportação de tecnologia nuclear não classificada e assistência. Ele ajuda a garantir que as tecnologias nucleares exportadas dos Estados Unidos serão usadas apenas para fins do Peaceful. A parte revisada 810 (regra final) levou em vigor em 2015 de março e é administrada pela [Administração Nacional de segurança nuclear](https://www.energy.gov/nnsa/national-nuclear-security-administration). A seção 810,6 afirma que a autorização específica da Silva é necessária para as disposições de assistência e transferência de tecnologias nucleares confidenciais que são "geralmente autorizadas", bem como aquelas que exigem autorização específica (por exemplo, para obter assistência envolver tecnologias nucleares confidenciais como o enriquecimento e a produção de água pesada).
+A regulamentação de controle de exportação do departamento de energia dos EUA (DoE) [10 CFR parte 810](https://www.govinfo.gov/content/pkg/FR-2015-02-23/pdf/2015-03479.pdf) governa a exportação de tecnologia nuclear não classificada e assistência. Ele ajuda a garantir que as tecnologias nucleares exportadas dos Estados Unidos serão usadas apenas para fins do Peaceful. A parte revisada 810 (regra final) levou em vigor em 2015 de março e é administrada pela [Administração Nacional de segurança nuclear](https://www.energy.gov/nnsa/national-nuclear-security-administration). A seção 810,6 afirma que a autorização específica da Silva é necessária para as disposições de assistência e transferência de tecnologias nucleares confidenciais que são "geralmente autorizadas", bem como aquelas que exigem autorização específica (por exemplo, para obter assistência envolvendo tecnologias nucleares confidenciais, como o enriquecimento e a produção de água pesada).
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -68,7 +68,3 @@ Os clientes que implantam dados no Azure governamentais são responsáveis por s
 - [Microsoft e DoD](offering-dod-disa-l2-l4-l5.md)
 - [Nuvem Governamental da Microsoft](https://www.microsoft.com/enterprise/government)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/A/E/3/AE309D0E-F8D5-42C9-9B36-86FF51464AFC/DOE_10CFR_Part810-Compliance.pdf).

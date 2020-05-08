@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: dd12d261c52f79bf6b9e8de747bb8fcaec775686
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2582dcc9c865ad96390163ffef819811906cf0de
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602198"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066618"
 ---
 # <a name="spanish-royal-decree-17202007-spanish-organic-law-151999"></a>Decreto Real Espanhol 1720/2007, Lei Orgânica da Espanha 15/1999
 
@@ -72,8 +72,4 @@ Sim. Se a sua organização exigir ou se estiver procurando uma credencial alinh
 - Agência de Proteção de Dados espanhola ([espanhol](https://www.agpd.es/portalwebAGPD/index-ides-idphp.php))
 - Lei Orgânica 15/1999 de 13 de dezembro para a proteção de dados pessoais – [espanhol](https://www.boe.es/buscar/act.php?id=BOE-A-1999-23750)
 - [Termos do Microsoft Online Services](https://aka.ms/Online-Services-Terms)
-- [Conformidade no Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/A/2/8/A280F049-3C15-4638-A2FA-EFD2793A956E/LOPD-Compliance.pdf).
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

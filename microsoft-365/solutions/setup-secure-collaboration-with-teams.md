@@ -9,16 +9,16 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom:
 - M365solutions
+ms.custom: ''
 f1.keywords: NOCSH
 description: Saiba como configurar o Microsoft Teams para proteger seus dados com base em sua confidencialidade
-ms.openlocfilehash: 77493398b11109a51c4e60599561fd8cd4f6c3ac
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 8704c3a0a271c247652d611e963ff1d26308dcdb
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002388"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159462"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Configurar a colaboração segura com o Microsoft 365
 
@@ -85,9 +85,9 @@ A configuração dessas camadas envolve:
 
 Comece com a camada da linha de base e, em seguida, adicione equipes que usam as camadas *confidenciais* e *altamente confidenciais* , conforme necessário, para ajudar a proteger as informações da sua organização. Confira estes recursos para começar:
 
-- [Configurar o Teams com proteção de linha de base](configure-teams-baseline-protection.md)
-- [Configurar o Microsoft Teams com proteção para dados confidenciais](configure-teams-sensitive-protection.md)
-- [Configurar o Microsoft Teams com proteção para dados altamente confidenciais](configure-teams-highly-sensitive-protection.md)
+- [Configurar equipes com proteção de linha de base](configure-teams-baseline-protection.md)
+- [Configurar equipes com proteção para dados altamente confidenciais](configure-teams-sensitive-protection.md)
+- [Configurar equipes com proteção para dados altamente confidenciais](configure-teams-highly-sensitive-protection.md)
 
 Se você tiver um projeto altamente confidencial que exija proteção adicional do compartilhamento, mesmo dentro da sua organização, você pode configurar uma equipe que usa seu próprio rótulo de confidencialidade para criptografar arquivos, de modo que somente os membros da equipe possam lê-los. Confira [Configurar uma equipe com isolamento de segurança](secure-teams-security-isolation.md) para obter detalhes.
 
@@ -104,8 +104,8 @@ Esses recursos ajudarão você a começar a configurar o ambiente para colaborar
 Dependendo da sensibilidade das informações que estão sendo compartilhadas, você pode adicionar salvaguardas para ajudar a evitar o compartilhamento. Esses recursos ajudarão você a configurar as proteções necessárias para a sua organização:
 
 - [Práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados](best-practices-anonymous-sharing.md)
-- [Limitar a exposição acidental de arquivos ao compartilhar com pessoas de fora da sua organização](share-limit-accidental-exposure.md)
-- [Criar um ambiente seguro de compartilhamento para convidados](create-secure-guest-sharing-environment.md)
+- [Limitar a exposição acidental a arquivos ao compartilhar arquivos com pessoas de fora da sua organização](share-limit-accidental-exposure.md)
+- [Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
 
 Se você tiver um projeto importante com uma organização parceira, poderá usar o gerenciamento de qualificação do Azure para gerenciar os convidados dessa organização em uma equipe que você configurou para o projeto. Consulte [criar uma extranet B2B com convidados gerenciados](b2b-extranet.md) para obter detalhes.
 
