@@ -180,7 +180,9 @@
                       href: mtp/custom-detection-rules.md
             - name: Classificação de Segurança
               items:
-                - name: Classificação de Segurança
+                - name: Classificação de Segurança (nova).
+                  href: mtp/microsoft-secure-score-new.md
+                - name: Classificação de Segurança (iteração anterior)
                   href: mtp/microsoft-secure-score.md
                 - name: Classificação de Segurança (visualização)
                   href: mtp/microsoft-secure-score-preview.md
