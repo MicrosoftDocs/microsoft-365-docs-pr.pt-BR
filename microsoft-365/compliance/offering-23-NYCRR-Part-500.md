@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e5d9c847173af4155d6c9eb0f8c59a07053435c2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e9b72f7206ff83b790cf41c00e3f7042eadf3664
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602888"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066658"
 ---
 # <a name="title-23-nycrr-part-500"></a>Título 23 do NYCRR Parte 500
 
@@ -40,7 +40,7 @@ Os novos regulamentos de Nova York exigem que cada instituição financeira:
 - **Designe um diretor de segurança da informação** (CISO) para gerenciar o programa de segurança cibernética e aplicar a política. Para ajudar o CISO, a Microsoft fornece informações detalhadas de segurança cibernética sobre as implantações do Microsoft Cloud por meio da [Central de Segurança do Azure](https://azure.microsoft.com/services/security-center/?v=17.23h), [Office 365 Advanced Threat Analytics](https://docs.microsoft.com/advanced-threat-analytics/) e da [Segurança do Power BI](https://go.microsoft.com/fwlink/?LinkId=829185).
 - **Monitore e teste a eficácia de seu programa segurança cibernética**: a Microsoft fornece informações de auditorias de suas práticas de segurança cibernética que incluem monitoramento contínuo, testes periódicos de penetração e avaliações de vulnerabilidades. Os clientes podem realizar seus próprios testes sem permissão prévia da Microsoft.
 - **Mantenha uma trilha de auditoria.** As funcionalidades internas de auditoria dos clientes do Azure, Office 365 e Power BI geram informações que podem ser usadas para reconstituir transações financeiras e desenvolver informações da trilha de auditoria.
-- **Limite o acesso a sistemas de informações que contenham informações confidenciais**" Avalia se o Azure, o Office 365 e o Power BI oferecem um processo de controle de acesso baseado em função (RBAC) nativo para cada serviço, requisitos rígidos de segurança e acesso para todos os administradores da Microsoft e auditorias de todas as solicitações para privilégios de acesso elevados.
+- **Limitar o acesso a sistemas de informações que contenham informações não públicas**: mede que o Azure, o Office 365 e o Power BI oferecem um processo de controle de acesso baseado em função (RBAC) nativo para cada serviço, requisitos rigorosos de segurança e acesso para todos os administradores da Microsoft e auditorias de todas as solicitações de privilégios de acesso elevados.
 - **Estabeleça procedimentos para avaliar e testar a segurança de aplicativos desenvolvidos externamente**: para desenvolvedores que usam o Visual Studio, as [Regras de segurança](https://docs.microsoft.com/visualstudio/code-quality/security-rules-rule-set-for-managed-code) do código gerenciado podem ajudar a garantir que as ameaças à segurança cibernética do aplicativo sejam detectadas e atenuadas antes da implantação do código.
 - **Use avaliações de risco periódicas para criar e aprimorar programas de segurança cibernética**: para clientes, a Microsoft agrega informações sobre ameaças à segurança, fornece roteiros de gerenciamento de alterações e atualiza regularmente as informações sobre subcontratados. A Microsoft também realiza regularmente avaliações de risco de seus próprios serviços e os resultados estão disponíveis para os clientes.
 - **Use pessoal qualificado para gerenciar riscos de segurança cibernética e supervisionar funções de segurança cibernética**: a Microsoft emprega procedimentos rigorosos para o acesso de nossos funcionários aos dados de seus clientes. Se usamos subcontratados, nos mantemos responsáveis pela prestação dos serviços e garantiremos que os subcontratados cumpram totalmente os compromissos de privacidade e segurança da Microsoft, incluindo requisitos para o tratamento de dados confidenciais, verificações de antecedentes e acordos de confidencialidade.
@@ -76,7 +76,3 @@ Confira o artigo [Quem supervisionamos](https://go.microsoft.com/fwlink/p/?linki
 - [Programa de conformidade para serviços financeiros do Microsoft Cloud](https://www.microsoft.com/download/confirmation.aspx?id=55332)
 - [Conformidade de serviços financeiros no Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Responsabilidades compartilhadas da computação em nuvem](https://aka.ms/sharedresponsibility)- 
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/9/F/B/9FB6EE03-0096-4820-A5BF-B633EE2BE0B7/23NYCRR_Part500-Compliance.pdf).

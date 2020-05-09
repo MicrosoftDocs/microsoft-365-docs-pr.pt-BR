@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c792653cf8434a14bc89776a4ec870bc0d9a67ca
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 778338220cf7897f8a557fb1e335062d3effeac5
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637975"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066414"
 ---
 # <a name="european-union-model-clauses"></a>Cláusulas Modelo da União Europeia
 
@@ -38,10 +38,6 @@ Entretanto, a principal obrigação dos clientes corporativos da Microsoft, que 
 A Microsoft apresentou suas Cláusulas Contratuais Padrão ao Grupo de Trabalho Artigo 29 da UE para avaliação e aprovação. O Grupo de Trabalho Artigo 29 inclui representantes da Supervisão Europeia de Proteção de Dados, da Comissão Europeia e de cada uma das 28 autoridades de proteção de dados (DPAs) da UE.
 
 O grupo determinou que a implementação das disposições nos contratos da Microsoft estava alinhada com seus requisitos estritos. (A Microsoft foi o primeiro provedor de serviços de nuvem a receber uma carta de endosso e aprovação do grupo.) A aprovação abordou os compromissos refletidos nas Cláusulas Modelo 2010/87/UE, mas não nos apêndices, que descrevem as transferências de dados e as medidas de segurança implementadas pelo importador de dados. Os apêndices podem ser analisados separadamente pelo DPA.
-
-Conheça as vantagens das Cláusulas Modelo da União Europeia na Nuvem da Microsoft
-
-[Baixar informações sobre as Cláusulas Modelo da União Europeia](https://aka.ms/eu-model-backgrounder)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
@@ -77,7 +73,7 @@ Conformidade é um compromisso contratual. As Cláusulas Contratuais Padrão da 
 
 **O que é um "subprocessador"?**
 
-Um "subprocessador" é aquele que processa dados pessoais de acordo com as instruções do controlador dos dados e segundo os termos das Cláusulas Modelo da UE e do subcontrato. Clientes da Microsoft - fornecedores independentes de software (ISvs), em particular, costumam ser os processadores de dados. Nesses casos, a Microsoft é o subprocessador.
+Um subprocessador é alguém que processa dados pessoais seguindo as instruções do controlador de dados, os termos das cláusulas de modelo da UE e o subcontrato. Clientes da Microsoft - fornecedores independentes de software (ISvs), em particular, costumam ser os processadores de dados. Nesses casos, a Microsoft é o subprocessador.
 
 **Por onde as iniciativas de conformidade da minha organização se iniciam?**
 
@@ -94,7 +90,3 @@ Você pode inserir um contrato como o [Termos de Serviços Online](https://aka.m
 - [Estrutura de Conformidade do Hub de Controles Comuns da Microsoft](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Termos de Serviços Online da Microsoft](https://aka.ms/Online-Services-Terms)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/E/5/F/E5FA8D11-07A4-4496-82B3-0BCFABAA2FB7/EU_Model_Clauses_Compliance_Backgrounder.pdf).

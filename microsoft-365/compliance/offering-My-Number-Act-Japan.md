@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7b8e7e7f15ac4a0f257e9c4c86bd14659cc609b6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d270e43bb336a6cdf110507ba51281e135f99b9a
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632926"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066075"
 ---
 # <a name="my-number-act-japan"></a>Lei My Number (Japão)
 
@@ -33,11 +33,11 @@ A Comissão de Proteção de Informações Pessoais (PPC), que atua como autorid
 
 Para ajudar nossos clientes japoneses a proteger a privacidade dos dados pessoais, a Microsoft estabelece contratualmente através dos [Termos do Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31) que os serviços no escopo de nuvem de negócios implementem as proteções de segurança técnica e organizacional que ajudam nossos clientes a cumprir a Lei My Number. Isso significa que os clientes no japão podem implantar os serviços de nuvem de negócios da Microsoft com a segurança de estarem em conformidade com os requisitos legislativos japoneses.
 
-O [Q\&A](https://www.ppc.go.jp/legal/policy/faq/) (japonês) publicado pela Comissão de Proteção de Informações Pessoais (PPC) estabelece diretrizes para o tratamento e a proteção adequados das informações pessoais. Fica estabelecido que terceiros não podem tratar dados pessoais caso esteja previsto no contrato que terceiros (a) não devam fazê-lo e (b) haja um sistema de controle de acesso específico. A Lei My Number especifica as obrigações durante a transferência de dados para terceiros, mas a seção [Q3-12](https://www.ppc.go.jp/legal/policy/faq/) (japonês) do PPC Q\&A explica que isso não se aplica se o terceiro não "tratar" - ou seja, ter acesso permanente - os dados pessoais.
+O [Q\&A](https://www.ppc.go.jp/legal/policy/faq/) (japonês) publicado pela Comissão de Proteção de Informações Pessoais (PPC) estabelece diretrizes para o tratamento e a proteção adequados das informações pessoais. Fica estabelecido que terceiros não podem tratar dados pessoais caso esteja previsto no contrato que terceiros (a) não devam fazê-lo e (b) haja um sistema de controle de acesso específico. A Lei Meu número especifica as obrigações durante a transferência de dados para terceiros, mas a seção [Q3-12](https://www.ppc.go.jp/legal/policy/faq/) (japonês) do PPC Q\&A explica que isso não se aplica se o terceiro não "tratar" - ou seja, ter acesso permanente - os dados pessoais.
 
 Os serviços de nuvem de negócios do Microsoft Business atendem a esses requisitos nos [Termos do Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31), que determinam que a propriedade e a responsabilidade dos dados de clientes que contêm dados My Number pertencem aos clientes, não à Microsoft. O cliente, portanto, deve ter os controles adequados no local para proteger os dados My Number contidos nos dados dos clientes.
 
-Como a Microsoft não tem acesso permanente aos dados do My Number armazenados em seus serviços de nuvem, não é necessário ter um contrato de "terceirização" para o tratamento dos dados do My Number. Se um cliente deseja que a Microsoft tenha acesso aos dados de clientes que contenham os dados My Number, deve fazer um contrato de terceirização adicional com a Microsoft para todos os casos antes de fazer tal solicitação.
+Como a Microsoft não possui acesso permanente aos dados do Meu número armazenados nos seus serviços de nuvem, não é necessário ter um contrato de "terceirização" para o tratamento dos dados do Meu número. Se um cliente deseja que a Microsoft tenha acesso aos dados de clientes que contenham os dados My Number, deve fazer um contrato de terceirização adicional com a Microsoft para todos os casos antes de fazer tal solicitação.
 
 Os termos também atestam que a Microsoft se compromete a usar os dados do cliente apenas para fornecer serviços para o cliente - não para propaganda ou finalidades comerciais similares - e que a Microsoft tem sistemas de controle de acesso robustos.
 
@@ -73,11 +73,7 @@ Portanto, os serviços de nuvem de negócios da Microsoft atendem aos requisitos
 ## <a name="resources"></a>Recursos
 
 - [Conformidade do Azure e Requisitos de Segurança e Privacidade do Japão](https://gallery.technet.microsoft.com/Azure-Compliance-and-the-53409748)
-- [Privacidade na Microsoft](https://privacy.microsoft.com/en-US/)
+- [Privacidade na Microsoft](https://privacy.microsoft.com/pt-BR/)
 - [Declaração de Privacidade da Microsoft](https://privacy.microsoft.com/privacystatement)
 - [Considerações sobre privacidade na nuvem](https://download.microsoft.com/download/0/9/D/09DE47F6-F9E5-4C14-B9E8-E8119A130ACC/Privacy_considerations_in_the_cloud.pdf)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/0/E/C/0EC14DDA-6041-4841-A180-199870B136C4/MyNumberAct-Compliance.pdf).

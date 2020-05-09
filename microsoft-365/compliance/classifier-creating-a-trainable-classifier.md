@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use classificadores estagiários quando um dos classificadores internos não atender às suas necessidades. Um classificador da Microsoft 365 é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo fornecendo amostras de ti para ver. Este tópico mostra como criar um classificador personalizado.
-ms.openlocfilehash: 31fb4374290bcf92a5c68bc4e7531e9472622b0b
-ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
+ms.openlocfilehash: 6358f333b274c4a1ce618d87598e7ea5340b77c9
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42266890"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173503"
 ---
 # <a name="creating-a-trainable-classifier-preview"></a>Criar um classificador treinado (visualização)
 
@@ -118,7 +118,7 @@ Depois que o classificador treinado tiver processado exemplos positivos suficien
 
 21. Publicar o classificador.
 
-22. Depois de publicado, seu classificador estará disponível como uma condição na [política de rótulo de retenção de aplicação automática com base em uma condição](labels.md#applying-a-retention-label-automatically-based-on-conditions) e em conformidade de [comunicação](communication-compliance.md).
+22. Depois de publicado, o classificador estará disponível como uma condição no [Office autolabeling com rótulos de sensibilidade](apply-sensitivity-label-automatically.md), [aplicar automaticamente a política de rótulo de retenção com base em uma condição](labels.md#applying-a-retention-label-automatically-based-on-conditions) e em [conformidade de comunicação](communication-compliance.md).
 
 > [!CAUTION]
 > Após a publicação de um classificador, ele não poderá passar por nenhum treinamento adicional, portanto, certifique-se de que você testou e analisou o máximo de itens possível para garantir que a precisão seja a mais alta possível.

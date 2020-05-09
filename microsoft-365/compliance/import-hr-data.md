@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: 0850e3fbbccb7653ddb9c56c07deaad9ed13f84a
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 118e2a8ad4ff134a4529e3ffc95fa22cdb7cbdaf
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943360"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173481"
 ---
 # <a name="set-up-a-connector-to-import-hr-data"></a>Configurar um conector para importar dados de RH
 
@@ -68,7 +68,7 @@ A tabela a seguir descreve cada coluna no arquivo CSV:
 |**LastWorkingDate**|Especifica o último dia de trabalho para o funcionário demitido. Você deve usar o seguinte formato de data `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm`:, que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
 |||
 
-Depois de criar o arquivo CSV com os dados de RH necessários, armazene-os no computador local em que você executa o script na etapa 4. Você também deve implementar uma estratégia de atualização para certificar-se de que o arquivo CSV sempre contenha as informações mais atuais para que seja o que você executar o script, os dados mais atuais de encerramento do funcionário serão carregados para a nuvem da Microsoft.
+Depois de criar o arquivo CSV com os dados de RH necessários, armazene-os no mesmo sistema que o script executado na etapa 4. Você também deve implementar uma estratégia de atualização para certificar-se de que o arquivo CSV sempre contenha as informações mais atuais para que seja o que você executar o script, os dados mais atuais de encerramento do funcionário serão carregados para a nuvem da Microsoft.
 
 ## <a name="step-3-create-the-hr-connector"></a>Etapa 3: criar o conector de RH
 
@@ -136,7 +136,7 @@ A última etapa na configuração de um conector de RH é executar um script de 
    |`appId` |Esta é a ID do aplicativo AAD para o aplicativo que você criou no Azure AD na etapa 1. Isso é usado pelo Azure AD para autenticação quando o script tenta acessar sua organização do Microsoft 365. | 
    |`appSecret`|Este é o segredo do aplicativo AAD para o aplicativo que você criou no Azure AD na etapa 1. Isso também é usado para autenticação.|
    |`jobId`|Esta é a ID do trabalho do conector de RH que você criou na etapa 3. Isso é usado para associar os dados de RH que são carregados para a nuvem da Microsoft com o conector de RH.|
-   |`csvFilePath`|Este é o caminho do arquivo no computador local (aquele que você está usando para executar o script) para o arquivo CSV que você criou na etapa 2. Tente evitar espaços no caminho do arquivo; caso contrário, use aspas simples.|
+   |`csvFilePath`|Este é o caminho do arquivo para o arquivo CSV (armazenado no mesmo sistema que o script) que você criou na etapa 2. Tente evitar espaços no caminho do arquivo; caso contrário, use aspas simples.|
    |||
    
    Veja um exemplo da sintaxe do script do conector de RH usando valores reais para cada parâmetro:
@@ -177,7 +177,7 @@ Você pode fazer com que o aplicativo Agendador de tarefas do Windows execute o 
 
 3. Na seção **ações** , clique em **criar tarefa**.
 
-4. Na guia **geral** , digite um nome descritivo para a tarefa agendada; por exemplo, **script do conector de RH**. Você também pode adicionar uma descrição opcional. 
+4. Na guia **geral** , digite um nome descritivo para a tarefa agendada; por exemplo, **script do conector de RH**. Você também pode adicionar uma descrição opcional.
 
 5. Em **Opções de segurança**, faça o seguinte:
 

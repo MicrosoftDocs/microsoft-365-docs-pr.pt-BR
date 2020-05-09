@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: bdf66e4160e324fa3b83cc58214b16fbacf5c233
-ms.sourcegitcommit: fa6a1e432747e150df945050a3744b4408ceb2d9
+ms.openlocfilehash: bb35d4ed287e87ba17780c0e7106b837beb9666a
+ms.sourcegitcommit: 758263ad484e00f5a561a47c8c22d5787af7671e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43957281"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44170910"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
@@ -56,9 +56,9 @@ Assista ao vídeo a seguir (sem áudio) para ver os novos recursos em ação:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed//RE4ornZ]
 
-Você sempre tem a opção de desabilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive a qualquer momento.
+Você sempre tem a opção de desabilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive ([recusar](#how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out) a qualquer momento.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Esses novos recursos funcionam somente com [Rótulos de confidencialidade](sensitivity-labels.md) . Se, no momento, você tiver rótulos de proteção de informações do Azure, primeiro migre-os para os rótulos de confidencialização para que você possa habilitar esses recursos para novos arquivos que você carregar. Para obter instruções, consulte [como migrar rótulos de proteção de informações do Azure para rótulos de sensibilidade unificada](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 
@@ -66,21 +66,13 @@ Use o aplicativo de sincronização do OneDrive versão 19.002.0121.0008 ou post
 
 ## <a name="limitations"></a>Limitações
 
-- Quando você habilita rótulos de sensibilidade para arquivos do Office no SharePoint e no OneDrive, os usuários que alteram um rótulo em um arquivo em uma pasta de sincronização do OneDrive podem não conseguir salvar outras alterações que eles fazem no arquivo. Este cenário se aplica a arquivos que são rotulados com criptografia e também quando a alteração do rótulo é de um rótulo que não aplicou criptografia a um rótulo que aplica criptografia. Os usuários vêem um [círculo vermelho com um erro de ícone de cruz branco](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)e são solicitados a salvar novas alterações como uma cópia separada.  
-    
-    Além das alterações de rótulo que são iniciadas pelos usuários, o mesmo comportamento pode ocorrer se um administrador alterar as configurações de um rótulo publicado já aplicado aos arquivos baixados para o cliente de sincronização dos usuários.
-    
-    Para evitar a perda de trabalho nesses cenários, execute uma destas ações:
-    - Para aplicar rótulos, use as versões Web dos aplicativos do Office.
-    - Feche um arquivo depois de aplicar um rótulo e reabra o arquivo para fazer outras alterações.
-
 - O SharePoint não aplica automaticamente rótulos de sensibilidade a arquivos existentes que você já criptografou usando rótulos de proteção de informações do Azure. Em vez disso, para fazer com que os recursos funcionem após habilitar os rótulos de confidencialidade dos arquivos do Office no SharePoint e no OneDrive, conclua estas tarefas:
     
-    1. Certifique-se de ter migrado os rótulos de proteção de informações do Azure para os rótulos de confidencialidade e publicá-los no centro de conformidade do Microsoft 365 ou no centro de administração de rótulo equivalente.
+    1. Certifique-se [de ter migrado os rótulos de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) para os rótulos de confidencialidade e [publicá-los](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) no centro de conformidade do Microsoft 365 ou no centro de administração de rótulo equivalente.
     
     2. Baixe os arquivos e carregue-os no SharePoint.
 
-- O SharePoint não pode processar arquivos criptografados quando o rótulo que aplicou a criptografia tem uma das seguintes configurações de criptografia:
+- O SharePoint não pode processar arquivos criptografados quando o rótulo que aplicou a criptografia tem uma das seguintes [configurações de criptografia](encryption-sensitivity-labels.md#configure-encryption-settings):
     - **Permitir que os usuários atribuam permissões quando aplicarem o rótulo** e a caixa de seleção **no Word, PowerPoint e Excel, solicitar que os usuários especifiquem permissões** está selecionado. Essa configuração às vezes é chamada de "permissões definidas pelo usuário".
     - O **acesso do usuário ao conteúdo expira** é definido como um valor diferente de **nunca**.
     
@@ -91,6 +83,8 @@ Use o aplicativo de sincronização do OneDrive versão 19.002.0121.0008 ou post
 - O site de acompanhamento de documentos da proteção de informações do Azure não é suportado.
 
 - Aplicativos de área de trabalho do Office e aplicativos móveis não oferecem suporte à coautoria de arquivos rotulados com criptografia. Esses aplicativos continuam a abrir arquivos rotulados e criptografados no modo de edição exclusivo.
+
+- Se um administrador alterar as configurações de um rótulo publicado que já tenha sido aplicado aos arquivos baixados para o cliente de sincronização dos usuários, os usuários poderão não conseguir salvar as alterações feitas no arquivo na pasta de sincronização do OneDrive. Este cenário se aplica a arquivos que são rotulados com criptografia e também quando a alteração do rótulo é de um rótulo que não aplicou criptografia a um rótulo que aplica criptografia. Os usuários vêem um [círculo vermelho com um erro de ícone de cruz branco](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)e são solicitados a salvar novas alterações como uma cópia separada. Em vez disso, eles podem fechar e reabrir o arquivo ou usar o Office na Web.
 
 - Se um documento rotulado for carregado no SharePoint e a criptografia aplicada usando uma conta de um nome de entidade de serviço, o documento não poderá ser aberto no Office na Web. Exemplos de cenários incluem o Microsoft Cloud app Security e um arquivo enviado para o Teams por email.
 

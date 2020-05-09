@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a83c744bc9f1335e0ce2993801475fdf16164766
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8e147e26072609a43d962b1d9fc7e71925510da4
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627063"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064690"
 ---
 # <a name="center-for-internet-security-cis-benchmarks"></a>Parâmetros da Center for Internet Security (CIS)
 
 ## <a name="about-cis-benchmarks"></a>Sobre os Parâmetros da CIS
 
-O [Center for Internet Security](https://www.cisecurity.org/) é uma entidade sem fins lucrativos cuja missão é "identificar, desenvolver, validar, promover e manter soluções de práticas recomendadas para defesa cibernética". Ela recorre à experiência de profissionais de segurança cibernética e de TI de instituições governamentais, empresariais e acadêmicas de todo o mundo. Para desenvolver padrões e práticas recomendadas, inclusive as imagens protegidas, os controles e os parâmetros da CIS, eles seguem um modelo de tomada de decisão por consenso.  
+O [Centro de segurança na Internet](https://www.cisecurity.org/) é uma entidade sem fins lucrativos cuja missão é "identificar, desenvolver, validar, promover e manter soluções de práticas recomendadas para a defesa cibernética". Ela recorre à experiência de profissionais de segurança cibernética e de TI de instituições governamentais, empresariais e acadêmicas de todo o mundo. Para desenvolver padrões e práticas recomendadas, inclusive as imagens protegidas, os controles e os parâmetros da CIS, eles seguem um modelo de tomada de decisão por consenso.  
   
 [Os parâmetros da CIS](https://www.cisecurity.org/cis-benchmarks/) são práticas recomendadas e linhas de base de configuração para a configuração de um sistema com segurança. Cada uma das recomendações de diretrizes faz referência a um ou mais [controles de CIS](https://www.cisecurity.org/controls/) criados para ajudar as organizações a melhorar os recursos de defesa cibernética. Os controles da CIS fazem o mapeamento para muitas estruturas regulatórias e padrões estabelecidos, o que inclui a Estrutura de Segurança Cibernética (CSF) do NIST e o NIST SP 800-53, a série de padrões ISO 27000, PCI DSS, HIPAA e outros.  
   
@@ -46,9 +46,9 @@ Os parâmetros da CIS são reconhecidos internacionalmente como padrões de segu
   
 Como todos os parâmetros da CIS, os parâmetros da Microsoft foram criados usando um processo de análise de consenso baseado em contribuições de especialistas de diferentes áreas de conhecimentos, incluindo desenvolvimento de software, auditoria e conformidade, pesquisa em segurança, operações, governo e legislação. A Microsoft contribuiu de forma integral com os esforços da CIS. Por exemplo, o Office 365 foi testado em relação aos serviços listados e o Parâmetro do Microsoft 365 Foundations engloba uma série de recomendações para a definição das políticas de segurança apropriadas, abrangendo conta e autenticação, gerenciamento de dados, permissões de aplicativos, armazenamento e outras áreas da política de segurança.  
   
-Além dos parâmetros para produtos e serviços da Microsoft, a CIS também publicou [Imagens Protegidas da CIS para uso em máquinas virtuais do Azure](https://www.cisecurity.org/blog/cis-hardened-images-now-in-microsoft-azure-marketplace/) configuradas para atender aos parâmetros da CIS. Isso inclui a Imagem Protegida da CIS para Microsoft Windows Server 2016 certificada para execução no Azure. O CIS declara que "Todas as imagens protegidas da CIS disponíveis no [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps?search=center%20for%20internet%20security) são certificadas para veiculação no Azure. Elas foram previamente testadas em relação à preparação e à compatibilidade com a nuvem pública do Azure, a Plataforma do Microsoft Cloud hospedada por provedores de serviços pela Cloud OS Network, e implantações do Windows Server Hyper-V na nuvem privada local gerenciadas por clientes".
+Além dos parâmetros para produtos e serviços da Microsoft, a CIS também publicou [Imagens Protegidas da CIS para uso em máquinas virtuais do Azure](https://www.cisecurity.org/blog/cis-hardened-images-now-in-microsoft-azure-marketplace/) configuradas para atender aos parâmetros da CIS. Isso inclui a Imagem Protegida da CIS para Microsoft Windows Server 2016 certificada para execução no Azure. O CIS declara que "Todas as imagens protegidas da CIS disponíveis no [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps?search=center%20for%20internet%20security) são certificadas para veiculação no Azure. Elas foram pré-testadas quanto à prontidão e compatibilidade com a nuvem pública do Azure, ao Microsoft Cloud Platform hospedado por provedores de serviços pela Rede do Cloud OS e implantações locais do Windows Server Hyper-V em nuvem privada gerenciadas pelos clientes”.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Azure e Azure Government](https://aka.ms/AzureCompliance)
 - [Office e Microsoft 365](https://aka.ms/o365-compliance-framework)
@@ -84,7 +84,7 @@ A versão dos Parâmetros da CIS muda de acordo com a comunidade de profissionai
 
 **Quem contribuiu para o desenvolvimento dos Parâmetros da CIS da Microsoft?**
 
-O CIS observa que os "Parâmetros são desenvolvidos por meio dos esforços generosos de especialistas voluntários, fornecedores de tecnologia, membros públicos e privados da comunidade de Parâmetros da CIS Benchmark e a equipe de Desenvolvimento de Parâmetros da CIS". Por exemplo, você verá uma lista de colaboradores do Azure em [Parâmetros do Microsoft Azure Foundations da CIS v1.0.0 já disponíveis](https://www.cisecurity.org/blog/cis-microsoft-azure-foundations-benchmark-v1-0-0-now-available/).
+A CIS observa que seus “Parâmetros são desenvolvidos através dos generosos esforços voluntários de especialistas no assunto, fornecedores de tecnologia, membros públicos e privados da comunidade do CIS Benchmark e da equipe de desenvolvimento do Parâmetro da CIS”. Por exemplo, você verá uma lista de colaboradores do Azure em [Parâmetros do Microsoft Azure Foundations da CIS v1.0.0 já disponíveis](https://www.cisecurity.org/blog/cis-microsoft-azure-foundations-benchmark-v1-0-0-now-available/).
 
 ## <a name="resources"></a>Recursos
 
@@ -92,7 +92,3 @@ O CIS observa que os "Parâmetros são desenvolvidos por meio dos esforços gene
 - [Configurações de política de segurança do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/security-policy-settings)
 - [Segurança empresarial do Windows 10](https://docs.microsoft.com/windows/security/index)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Baixar informações de oferta
-
-Precisa do documento informativo desta oferta? Baixe o [PDF](https://download.microsoft.com/download/9/B/7/9B75D846-BDB9-41CB-86FF-F0ADFD15800B/CIS_Benchmarks-Compliance.pdf).
