@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 'Saiba como redefinir a senha de um usuário na assinatura do Microsoft 365 for Business. '
-ms.openlocfilehash: 14226927680c70035a01d9390f114cb0bfddbf38
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 32d2d529ab4e2592556613b016231dbbd93458b3
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064804"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173513"
 ---
 # <a name="reset-passwords"></a>Redefinir senha
 
@@ -79,11 +79,11 @@ Estas etapas são apenas para pessoas que usam um plano Microsoft 365 para empre
 
 Use estas etapas se você esqueceu sua senha, mas consegue entrar no Microsoft 365 porque, por exemplo, sua senha é salva no navegador: 
     
-1. No Microsoft 365, selecione **configurações** \> **informações pessoais** **do Office 365** \> . 
+1. Selecione seu nome (ícone) no canto superior direito >**informações pessoais**da **minha conta** > . 
           
-2. Verifique se os detalhes de **contato** e o **email alternativo** estão corretos. Caso contrário, altere-as agora. 
+2. Em **detalhes do contato**, verifique se o seu **email alternativo** está correto e se você forneceu um número de telefone celular. Caso contrário, altere-as agora. 
         
-3. Sair do Office 365: Selecione seu nome no canto superior direito (na imagem acima, mostrado como **Diane**) \> **sair**. 
+3. Sair: Selecione seu nome no canto superior direito (na imagem acima, mostrado como **Diane**) \> **sair**. 
         
 4. Agora entre novamente: digite \> **seu nome de** \> usuário e, em seguida, selecione **esqueceu a senha**. 
     
@@ -92,6 +92,8 @@ Use estas etapas se você esqueceu sua senha, mas consegue entrar no Microsoft 3
 Se você esqueceu a senha e não consegue entrar: 
     
 - Peça a outro administrador global em sua empresa para redefinir sua senha.
+
+- Verifique se você forneceu informações de contato alternativas, incluindo um número de telefone celular. 
     
 - Ou, [ligue para o suporte da Microsoft](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). 
     

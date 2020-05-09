@@ -1,6 +1,6 @@
 ---
-title: Microsoft Secure Score
-description: Descreve a pontuação segura da Microsoft na central de segurança do Microsoft 365, como os detalhes são calculados e quais administradores de segurança podem esperar.
+title: Pontuação segura da Microsoft (iteração anterior)
+description: Descreve a pontuação segura da Microsoft na central de segurança do Microsoft 365, como melhorar a postura de segurança e quais administradores de segurança podem esperar.
 keywords: segurança, malware, Microsoft 365, M365, Pontuação segura, central de segurança, ações de melhoria
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -17,14 +17,19 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 9f39878ca56aef3ec8c9d89805a87196c19eb5b8
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 383ef5a0ff61b861bd72dc08d7b974ef98592fcc
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141502"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173387"
 ---
-# <a name="microsoft-secure-score"></a>Microsoft Secure Score
+# <a name="microsoft-secure-score-previous-iteration"></a>Pontuação segura da Microsoft (iteração anterior)
+
+>[!IMPORTANT]
+>Essa iteração da Pontuação segura da Microsoft está sendo substituída por novos elementos e recursos de design nos próximos meses. Se você ainda não vir a iteração mais recente, em breve.
+>
+>Se você vir uma guia de **tendências & de métricas** ao lado de histórico, você está na nova iteração. [Ir para a pontuação segura da Microsoft (nova)](microsoft-secure-score-new.md)
 
 A pontuação segura da Microsoft é uma medida da postura de segurança de uma organização, com um número maior indicando ações mais aprimoradas. Seguir as recomendações de Pontuação de segurança podem proteger sua organização contra ameaças. A partir de um painel centralizado no centro de segurança do Microsoft 365, as organizações podem monitorar e trabalhar com a segurança de suas identidades, dados, aplicativos, dispositivos e infraestrutura do Microsoft 365.
 

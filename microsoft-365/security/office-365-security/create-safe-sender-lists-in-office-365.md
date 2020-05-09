@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como os administradores podem criar uma lista de remetentes confiáveis no Microsoft 365 e EOP que permite a mensagens de entrada ignorar a filtragem de spam.
-ms.openlocfilehash: e09d607f6b5203bdc3ab23ad5bd6e8f85782605a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 300ecf8cfdb7436b8eda306a28c237ed8bf19760
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036338"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173411"
 ---
 # <a name="create-safe-sender-lists"></a>Criar listas de remetentes confiáveis
 
@@ -85,7 +85,7 @@ O exemplo a seguir supõe que você precisa de emails do contoso.com para ignora
 
 ## <a name="use-outlook-safe-senders"></a>Usar remetentes confiáveis do Outlook
 
-Em vez de uma configuração organizacional, os usuários ou administradores podem adicionar os endereços de email do remetente à lista de remetentes confiáveis na caixa de correio. Para obter instruções, consulte [definir configurações de lixo eletrônico em caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
+Em vez de uma configuração organizacional, os usuários ou administradores podem adicionar os endereços de email do remetente à lista de remetentes confiáveis na caixa de correio. Para obter instruções, consulte [definir configurações de lixo eletrônico em caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md). Isso não é desejável na maioria das situações, já que os remetentes ignorarão partes da pilha de filtragem. Embora você confie no remetente, o remetente pode ser comprometido e acabar enviando conteúdo mal-intencionado. É melhor que nossos filtros façam o que é necessário para verificar cada mensagem e, em seguida, [relatar o falso positivo/negativo para a Microsoft](report-junk-email-messages-to-microsoft.md) se nossos filtros erram. Isso também impede que o [zap](zero-hour-auto-purge.md) faça o que deve ser feito na mensagem também.
 
 Quando as mensagens ignoram a filtragem de spam devido à lista de remetentes confiáveis de um usuário, o campo de cabeçalho **X-Forefront-antispam-Report** conterá o valor `SFV:SFE`, que indica que a filtragem de spam, spoof e phishing foi ignorada.
 

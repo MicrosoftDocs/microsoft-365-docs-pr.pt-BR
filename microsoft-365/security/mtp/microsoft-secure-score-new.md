@@ -1,5 +1,5 @@
 ---
-title: Pontuação segura da Microsoft (visualização)
+title: Pontuação segura da Microsoft novo
 description: Descreve a pontuação segura da Microsoft na central de segurança do Microsoft 365, como os detalhes são calculados e quais administradores de segurança podem esperar usá-lo.
 keywords: segurança, malware, Microsoft 365, M365, Pontuação segura, central de segurança, ações de melhoria
 ms.prod: w10
@@ -17,17 +17,19 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 0a721311706faccbd7563520183c7f198298dddc
+ms.openlocfilehash: 965b4cf872129dc7bc9b439c1c15025acceb44c6
 ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173457"
+ms.locfileid: "44173537"
 ---
-# <a name="microsoft-secure-score-preview"></a>Pontuação segura da Microsoft (visualização)
+# <a name="microsoft-secure-score-new"></a>Pontuação segura da Microsoft (nova)
 
 >[!IMPORTANT]
->Algumas informações estão relacionadas ao produto já publicado que pode ser modificado substancialmente antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>Essa nova iteração da Pontuação segura da Microsoft é substituir a iteração anterior por novos recursos e elementos de design nos próximos meses
+>
+>Se você não vir uma guia de **tendências & de métricas** ao lado de History, você está na iteração anterior. [Ir para a pontuação segura da Microsoft (iteração anterior)](microsoft-secure-score.md)
 
 A pontuação segura da Microsoft é uma medida da postura de segurança de uma organização, com um número maior indicando ações mais aprimoradas. Ele pode ser encontrado no https://security.microsoft.com/securescore na [central de segurança do Microsoft 365](overview-security-center.md).
 
@@ -103,8 +105,8 @@ Para ajudá-lo a obter mais rapidamente as informações de que você precisa, a
 
 Na página de visão geral de Pontuação segura da Microsoft, você pode ver como os pontos são divididos entre esses grupos e que pontos estão disponíveis. A página de visão geral também é o local para obter uma visão completa da pontuação total, tendência histórica de sua pontuação segura com comparações de benchmark e ações de melhoria priorizadas que podem ser tomadas para melhorar sua pontuação.
 
-![Home Page](../../media/secure-score/secure-score-homepage.png)
-de Pontuação segura*Figura 1: página de visão geral de Pontuação segura da Microsoft*
+![Home Page de Pontuação segura](../../media/secure-score/secure-score-homepage-new.png)
+
 
 ## <a name="take-action-to-improve-your-score"></a>Executar uma ação para melhorar sua pontuação
 
@@ -176,32 +178,12 @@ A pontuação segura da Microsoft é um resumo numérico de sua postura de segur
 
 Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, confira [o que está acontecendo na pontuação segura da Microsoft?](microsoft-secure-score-whats-coming.md).
 
-### <a name="april-2020"></a>Abril de 2020
+- Foram adicionadas ações de melhoria do Azure Active Directory
+- Foram adicionadas ações aprimoradas para proteção avançada contra ameaças do Azure
+- Suporte para recomendações de segurança de [Gerenciamento de vulnerabilidades](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) do Microsoft Defender ATP &
+    - Todas as recomendações de segurança lançadas fornecidas pelo TVM estão disponíveis agora
 
-#### <a name="added-azure-active-directory-improvement-action"></a>Foi adicionada a ação de melhoria do Azure Active Directory
-
-- Não permitir que os usuários conceda consentimento a aplicativos não gerenciados (atualmente disponível na versão lançada)
-
-#### <a name="added-azure-advanced-threat-protection-improvement-actions"></a>Foram adicionadas ações aprimoradas para proteção avançada contra ameaças do Azure
-
-- Desabilitar o serviço spooler de impressão em controladores de domínio
-- Modificar as delegações Kerberos não seguras para impedir a representação
-- Proteger e gerenciar senhas de administrador local com o Microsoft LAPS
-- Reduzir o risco de caminho de movimento lateral para entidades confidenciais
-- Remover contas inativas de grupos confidenciais
-- Remover atributos de histórico de SID não seguros das entidades
-- Resolver atributos de conta não seguros
-- Parar exposição de credenciais de texto não criptografado
-- Parar comunicação de protocolos herdados
-- Interromper o uso de codificação fraca
-
-#### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations"></a>Suporte para recomendações de segurança do TVM (gerenciamento de vulnerabilidades) do Microsoft defender & ATP
-
-Todas as recomendações de segurança lançadas fornecidas pelo TVM estão disponíveis agora.
-
-### <a name="january---march-2020"></a>Janeiro-Março de 2020
-
-#### <a name="updated-interface-and-functionality"></a>Interface e funcionalidade atualizadas
+### <a name="updated-interface-and-functionality"></a>Interface e funcionalidade atualizadas
 
 * Todos os novos modos de exibição de métricas e tendências para discussões de nível de líder e CISO
 * Novas maneiras de acompanhar e avaliar a sua pontuação
@@ -209,16 +191,6 @@ Todas as recomendações de segurança lançadas fornecidas pelo TVM estão disp
 * Filtrar, marcar, Pesquisar e agrupar suas ações de aperfeiçoamento
 * Gerenciar em direção às suas metas futuras usando pontuações de Pontuação e ações planejadas
 * E muito mais!
-
-#### <a name="removed-not-scored-and-review-improvement-actions"></a>Ações de melhoria "não classificadas" e "revisar" removidas
-
-Um dos princípios de Pontuação segura é que a pontuação deve ser padronizada e fácil de se relacionar. Ter ações de melhoria que não podem ser mensuráveis ou acionável está causando confusão. Uma pontuação segura da Microsoft faz sentido quando cada recomendação pode ter um efeito claro na pontuação. As ações de melhoria não pontuadas não são mensuráveis e as ações de análise de revisão não são medidas para o mesmo padrão como outras ações de aprimoramento.
-
-Por esses motivos, todas as ações de melhoria que não foram pontuadas ou exigiam uma cadência de revisão foram temporariamente removidas. Nenhuma ação é necessária em sua parte.
-
-#### <a name="simplification-of-the-point-system"></a>Simplificação do sistema de pontos
-
-Para padronizar pontos em várias experiências, cada ponto de ação de melhoria de Pontuação segura foi atualizado para exceder 10 pontos ou menos. É necessário ser mais consistente em todo o espectro de controles de segurança que temos hoje e aqueles que iremos adicionar no futuro. Embora essa seja uma alteração significativa e você veja os totais de pontos de projeção, não haverá mudanças na sua postura de segurança.
 
 ## <a name="we-want-to-hear-from-you"></a>Queremos ouvir sua opinião
 

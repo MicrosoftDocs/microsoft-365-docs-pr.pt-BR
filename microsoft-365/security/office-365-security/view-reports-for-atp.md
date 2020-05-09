@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Encontre e use relatórios para a proteção avançada contra ameaças do Office 365 &amp; no centro de conformidade de segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56e8b79ad85a5801f75a6ed36a58afe58b552527
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: c202e7df274e81da5395f7466199d85443361c05
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034957"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173317"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Exibir relatórios para a proteção avançada contra ameaças do Office 365
 
@@ -101,7 +101,7 @@ Este relatório é baseado em dados coletados e ameaças detectadas, por clique 
 Na tabela detalhes, você poderá ver mais informações sobre o clique em tempo e informações do usuário. Por fim, tenha em mente que o relatório de status de proteção de URL mostra a proteção do recurso de links seguros de ATP, para que somente os clientes que tenham habilitados os links seguros de ATP vejam os dados refletidos nesse relatório.
 
 > [!NOTE]
-> Este é um *relatório de tendências de proteção*, o que significa que os dados representam tendências em um conjunto de dados maior. Os relatórios não estão disponíveis em tempo real aqui. Para URL em tempo real clique em dados, continue a usar o rastreamento de URL.
+> Este é um *relatório de tendências de proteção*, o que significa que os dados representam tendências em um conjunto de dados maior. Como resultado, os dados no modo de exibição de agregação não estão disponíveis em tempo real aqui, mas os dados no modo de exibição de tabela detalhes são, portanto, você pode ver uma pequena discrepância entre as duas exibições.
 
 ## <a name="atp-file-types-report"></a>Relatório de Tipos de Arquivo ATP
 

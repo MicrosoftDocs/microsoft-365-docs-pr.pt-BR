@@ -21,20 +21,21 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Saiba como definir que algumas senhas de usuário individuais nunca expirem, usando o Windows PowerShell.
-ms.openlocfilehash: 66c4901d171f5ed2e07d7a9f5cccbf141dc3d04d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3d5d65f687a5ed02e0e20ff77482f7bef5b6b695
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43624029"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173491"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Definir a senha de um usuário individual para nunca expirar
 
 ## <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
-1. No centro de administração, vá para a página **configurações** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">segurança & privacidade</a> .
-2. Ao lado de **política de senha** , selecione **Editar**. 
-3. Se as senhas estiverem definidas para nunca expirar, defina a **opção para desativado**. Você terá a opção de especificar o número de dias até que as senhas expirem.
+1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">configurações</a> de **configurações** \> .
+2. Na parte superior da página configurações, selecione **segurança & privacidade**.
+3. Selecione **Política de expiração de senha**. 
+4. Se as senhas estiverem definidas para nunca expirar, clique na caixa de seleção ao lado de **definir senhas de usuário para expirar após um número de dias**. Você terá a opção de especificar o número de dias até que as senhas expirem.
 
 ## <a name="set-the-password-expiration-policy-for-individual-users"></a>Definir a política de expiração de senha para usuários individuais
 

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá como configurar políticas de spam de saída que se aplicam a usuários, grupos ou domínios específicos em sua organização.
-ms.openlocfilehash: 644ffb51c92f4d71d3ae2cde1eba408289573f48
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: efd3fecc2447435f40e4e20fd958e8f3b2d8e48f
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036783"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173435"
 ---
 # <a name="configure-outbound-spam-filtering"></a>Configurar a filtragem de spam de saída
 
@@ -53,7 +53,7 @@ A diferença entre esses dois elementos não é óbvia quando você gerencia pol
 
 - Quando você remove uma política de spam de saída do centro de conformidade & segurança, a regra de filtro de spam de saída e a política de filtro de spam de saída associada são removidas.
 
-No PowerShell do Exchange Online ou autônomo do Exchange Online Protection, a diferença entre políticas de filtro de spam de saída e regras de filtro de spam de saída é aparente. Você gerencia as políticas de filtro de spam de ** \*** saída usando os cmdlets-HostedContentFilterPolicy e gerencia as regras de filtro de spam de saída usando os ** \*cmdlets-HostedContentFilterRule** .
+No PowerShell do Exchange Online ou autônomo do Exchange Online Protection, a diferença entre políticas de filtro de spam de saída e regras de filtro de spam de saída é aparente. Você gerencia as políticas de filtro de spam de ** \*** saída usando os cmdlets-HostedOutboundSpamFilterPolicy e gerencia as regras de filtro de spam de saída usando os ** \*cmdlets-HostedOutboundSpamFilterRule** .
 
 - No PowerShell, você cria primeiro a política de filtro de spam de saída e, em seguida, cria a regra de filtro de spam de saída que identifica a política à qual a regra se aplica.
 

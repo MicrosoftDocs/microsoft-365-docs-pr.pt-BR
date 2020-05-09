@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Saiba como você pode redefinir suas senhas usando a ferramenta de redefinição de senha autoatendimento.
-ms.openlocfilehash: 9d9a1f97f9f6fc59b54f2f9bdce9c337c7d57b13
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 01099f6f678bbaa3b163ac59e0417614352e0e97
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919430"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173525"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Permitir que os usuários redefinam as próprias senhas
 
@@ -53,7 +53,7 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 Estas etapas habilitam a redefinição de senhas de autoatendimento para todas as pessoas da empresa.
   
 ::: moniker range="o365-worldwide"
-1.  No centro de administração, vá para a página **configurações** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">segurança & privacidade</a> .
+1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">configurações</a> de **configurações** \> .
 
 ::: moniker-end
 
@@ -70,13 +70,13 @@ Estas etapas habilitam a redefinição de senhas de autoatendimento para todas a
 ::: moniker-end
 
    
-2. Selecione **redefinição de senha de autoatendimento**, selecione o link para **acessar o portal do Azure para ativar a redefinição de senha de autoatendimento**. Você receberá o Azure gratuitamente!
+2. Na parte superior da página configurações, selecione **segurança & privacidade**.
   
-3. Selecione **usuários** na navegação à esquerda e, em seguida, selecione **Redefinir senha**.
+3. Selecione **redefinição de senha de autoatendimento**.
   
 4. Na página Propriedades, selecione **tudo** para habilitá-lo para todas as pessoas em sua empresa e, em seguida, selecione **salvar**.
   
-5. Quando os usuários entram no Office 365, devem inserir informações de contato adicionais que ajudarão a redefinir a senha deles no futuro.
+5. Quando seus usuários entrarem, eles serão solicitados a inserir informações de contato adicionais que os ajudarão a redefinir sua senha no futuro.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

@@ -21,12 +21,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba mais sobre exclusão automática de zero horas (ZAP), um recurso de proteção de email no Microsoft 365 que detecta spam, malware ou mensagens de phishing que já foram entregues ao Exchange Online.
-ms.openlocfilehash: a6f21147e7beaadb3aa6430b299dea8b248561c1
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: ba7aa74dd9152990ce327d1b1564c3246d15cbb8
+ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034921"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "44173293"
 ---
 # <a name="zero-hour-auto-purge-zap---protection-against-spam-and-malware-in-microsoft-365"></a>Limpeza automática de zero horas (ZAP)-proteção contra spam e malware no Microsoft 365
 
@@ -42,7 +42,7 @@ A Microsoft 365 atualiza as assinaturas de spam e malware em tempo real diariame
 
 A ação ZAP é direta para o usuário; Eles não são notificados quando uma mensagem é detectada e movida.
 
-[Listas de remetentes seguros](create-safe-sender-lists-in-office-365.md), regras de fluxo de emails (também conhecidas como regras de transporte), regras de caixa de entrada ou filtros adicionais têm precedência sobre o zap.
+[Listas de remetentes seguros](create-safe-sender-lists-in-office-365.md), regras de fluxo de emails (também conhecidas como regras de transporte), regras de caixa de entrada ou filtros adicionais têm precedência sobre o zap. Semelhante ao que acontece no fluxo de email, isso significa que, mesmo se o serviço determinar que a mensagem entregue precisa de ZAP, a mensagem não é acionada por causa da configuração de remetentes confiáveis. Essa é outra razão para ter cuidado com a configuração de mensagens para ignorar a filtragem.
 
 ### <a name="malware-zap"></a>ZAP de malware
 
@@ -88,28 +88,28 @@ Para determinar se o ZAP moveu a mensagem, você pode usar o [relatório de stat
 
 ## <a name="zap-faq"></a>FAQ DE ZAP
 
-### <a name="q-what-happens-if-a-legitimate-message-is-moved-to-the-junk-email-folder"></a>P: o que acontece quando uma mensagem legítima é movida para a pasta lixo eletrônico?
+### <a name="what-happens-if-a-legitimate-message-is-moved-to-the-junk-email-folder"></a>O que acontece se uma mensagem legítima for movida para a pasta lixo eletrônico?
 
-A: você deve seguir o processo de relatório normal para [falsos positivos](report-junk-email-messages-to-microsoft.md). A única razão pela qual a mensagem seria movida da caixa de entrada para a pasta lixo eletrônico seria porque o serviço determinou que a mensagem era spam ou mal-intencionada.
+Você deve seguir o processo de relatório normal para [falsos positivos](report-junk-email-messages-to-microsoft.md). A única razão pela qual a mensagem seria movida da caixa de entrada para a pasta lixo eletrônico seria porque o serviço determinou que a mensagem era spam ou mal-intencionada.
 
-### <a name="q-what-if-i-use-the-quarantine-folder-instead-of-the-junk-mail-folder"></a>P: e se eu usar a pasta quarentena em vez da pasta lixo eletrônico?
+### <a name="what-if-i-use-the-quarantine-folder-instead-of-the-junk-mail-folder"></a>E se eu usar a pasta quarentena em vez da pasta lixo eletrônico?
 
-Um: ZAP executará uma ação em uma mensagem com base na configuração de suas políticas antispam, conforme descrito anteriormente neste tópico.
+O ZAP executará uma ação em uma mensagem com base na configuração de suas políticas antispam, conforme descrito anteriormente neste tópico.
 
-### <a name="q-what-if-im-using-mail-flow-rules-or-allowedblocked-sender-lists"></a>P: e se eu estiver usando regras de fluxo de email ou listas de remetentes permitidos/bloqueados?
+### <a name="what-if-im-using-safe-senders-mail-flow-rules-or-allowedblocked-sender-lists"></a>E se eu estiver usando remetentes confiáveis, regras de fluxo de email ou listas de remetentes permitidos/bloqueados?
 
-A: regras de fluxo de emails ou bloqueio e permitir configurações organizacionais têm precedência. Essas mensagens são excluídas de ZAP.
+Remetentes confiáveis, regras de fluxo de emails ou bloqueio e permitir configurações organizacionais têm precedência. Essas mensagens são excluídas de ZAP, pois o serviço está fazendo o que você configurou para fazer. Essa é outra razão para ter cuidado com a configuração de mensagens para ignorar a filtragem.
 
-### <a name="q-what-if-a-message-is-moved-to-another-folder-eg-inbox-rules"></a>P: e se uma mensagem for movida para outra pasta (por exemplo, regras de caixa de entrada)?
+### <a name="what-if-a-message-is-moved-to-another-folder-eg-inbox-rules"></a>E se uma mensagem for movida para outra pasta (por exemplo, regras de caixa de entrada)?
 
-A: ZAP ainda funciona desde que a mensagem não tenha sido excluída, ou desde que a mesma ação, ou mais forte, ainda não tenha sido aplicada. Por exemplo, se a política de phishing estiver definida como quarentena e o usuário ou administrador já tiver desenviado o email, a quarentena executará uma ação para colocar em quarentena o arquivo.
+ZAP ainda funciona desde que a mensagem não tenha sido excluída, ou desde que a mesma ação, ou mais forte, ainda não tenha sido aplicada. Por exemplo, se a política de phishing estiver definida como quarentena e o usuário ou administrador já tiver desenviado o email, a quarentena executará uma ação para colocar em quarentena o arquivo.
 
-### <a name="q-does-zap-change-the-message-header"></a>P: a ZAP altera o cabeçalho da mensagem?
+### <a name="does-zap-change-the-message-header"></a>O ZAP altera o cabeçalho da mensagem?
 
-A: uma ação ZAP não faz qualquer alteração no cabeçalho da mensagem.
+Uma ação ZAP não faz qualquer alteração no cabeçalho da mensagem.
 
-### <a name="q-how-does-zap-affect-mailboxes-on-hold"></a>P: como o ZAP afeta caixas de correio em espera?
+### <a name="how-does-zap-affect-mailboxes-on-hold"></a>Como o ZAP afeta caixas de correio em espera?
 
-A: ZAP não colocará em quarentena as mensagens de caixas de correio em espera. ZAP pode mover mensagens para a pasta lixo eletrônico com base na ação configurada para um spam ou veredicto de phishing em políticas antispam.
+ZAP não colocará em quarentena as mensagens de caixas de correio em espera. ZAP pode mover mensagens para a pasta lixo eletrônico com base na ação configurada para um spam ou veredicto de phishing em políticas antispam.
 
 Para obter mais informações sobre isenções no Exchange Online, consulte [bloqueio in-loco e retenção de litígio no Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/in-place-and-litigation-holds).
