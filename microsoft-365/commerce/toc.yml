@@ -1,7 +1,7 @@
 - name: Gerenciar assinaturas comerciais
   href: index.yml
 - name: Centro de ajuda para Administradores do Microsoft 365
-  href: ../admin/admin-home.md
+  href: ../admin/index.yml
 - name: Experimentar ou comprar
   items:
     - name: Inscreva-se na avaliação do Microsoft 365
@@ -51,7 +51,7 @@
     - name: Entenda a sua fatura
       href: billing-and-payments/understand-your-invoice.md
     - name: Gerenciar métodos de pagamento
-      href: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
+      href: billing-and-payments/manage-payment-methods.md
     - name: Pagar por sua assinatura
       href: billing-and-payments/pay-for-your-subscription.md
     - name: Alterar sua forma de pagamento
