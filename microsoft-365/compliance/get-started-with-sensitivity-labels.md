@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: 98f84d40b475c3b07ce618dcc207005fce47e83f
-ms.sourcegitcommit: fa6a1e432747e150df945050a3744b4408ceb2d9
+ms.openlocfilehash: f024995f63af19efa410cdb02a1f8c8d110902eb
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43957291"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140987"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -81,6 +81,7 @@ Use a seguinte documentação para oferecer suporte à implantação de rótulo 
 |Usar os rótulos de confidencialidade para proteger o conteúdo do Teams e do SharePoint |[Use rótulos de confidencialidade no Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md)|
 |Descobrir, rotular e proteger arquivos armazenados no repositório de dados locais |[Implantação do scanner da Proteção de Informações do Azure para classificar e proteger arquivos automaticamente](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
 |Descobrir, rotular e proteger arquivos armazenados no repositório da nuvem|[Descobrir, classificar, rotular e proteger dados regulamentados e confidenciais armazenados na nuvem](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
+|Aplicar e exibir rótulos de sensibilidade no Power BI e proteger relatórios baixados|[Proteção de dados no Power BI (visualização)](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|
 |Visualizar como os rótulos de confidencialidade estão sendo usados para relatar o status de implantação e ajustar a configuração de rótulo|[Exibição do uso do rótulo com análises de rótulo](label-analytics.md)|
 
 
@@ -89,7 +90,7 @@ Use a seguinte documentação para oferecer suporte à implantação de rótulo 
 A documentação mais eficaz do usuário final será orientação e instruções personalizadas que você fornecerá para os nomes de etiqueta e configurações que você escolher. No entanto, você pode usar os seguintes recursos para obter instruções básicas:   
 
 - [Aplicar rótulos de confidencialidade aos seus arquivos e email no Office](https://support.office.com/article/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
-    - [Problemas conhecidos em rótulos de confidencialidade no Office](https://support.office.com/en-us/article/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
+    - [Problemas conhecidos em rótulos de confidencialidade no Office](https://support.office.com/pt-BR/article/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
 
 - [Aplicar ou recomendar rótulos de confidencialidade automaticamente aos seus arquivos e emails no Office](https://support.office.com/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)
     - [Problemas conhecidos com a aplicação ou recomendação de rótulos de confidencialidade automática](https://support.office.com/article/known-issues-with-automatically-applying-or-recommending-sensitivity-labels-451698ae-311b-4d28-83aa-a839a66f6efc)

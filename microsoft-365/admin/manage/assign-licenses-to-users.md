@@ -24,14 +24,21 @@ search.appverid:
 - GEA150
 ms.assetid: 997596b5-4173-4627-b915-36abac6786dc
 description: Saiba como atribuir licenças a usuários ou migrar usuários para uma nova assinatura.
-ms.openlocfilehash: 2019aeef0d802e92489b09bbddb564c4ecded8c0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 971141514f9117db69a2fbc8f91c2e42b329c33a
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628239"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139692"
 ---
 # <a name="assign-licenses-to-users"></a>Atribuir licenças aos usuários
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 ::: moniker range="o365-worldwide"
 

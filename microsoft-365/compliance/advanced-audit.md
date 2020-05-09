@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: A Auditoria Avançada no Microsoft 365 fornece novos recursos de auditoria para ajudar sua organização com investigações forenses e de conformidade.
-ms.openlocfilehash: b1a79598fc49d710c54a23dc9ce92c9f2b7f5805
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6fb42e9df35fe025c5c5f292238217aebb4098c7
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632276"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141039"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Auditoria Avançada no Microsoft 365
 
@@ -93,7 +93,7 @@ Para se beneficiar dos recursos da Auditoria Avançada no nível de usuário, o 
 
 **Por que não vejo a Auditoria Avançada em minha organização, apesar de termos uma assinatura E5 e usuários com licenças E5 atribuídas?**
 
-É possível que os recursos de Auditoria Avançada (como a capacidade de criar políticas de retenção de log de auditoria e o log de registros de auditoria MailItemsAccessed) não estejam disponíveis em sua organização, mesmo com o licenciamento correto em vigor. Caso esteja acontecendo, é porque o pacote de Auditoria Avançada ainda não foi implementado em sua organização. Esse é um problema de aterramento temporário de licenciamento, que deve ser resolvido para as organizações afetadas nas próximas semanas. Para atenuar esse problema, execute as seguintes etapas para cada usuário E5:
+É possível que os recursos de Auditoria Avançada (como a capacidade de criar políticas de retenção de log de auditoria e o log de registros de auditoria MailItemsAccessed) não estejam disponíveis em sua organização, mesmo com o licenciamento correto em vigor. Caso esteja acontecendo, é porque o pacote de Auditoria Avançada ainda não foi implementado em sua organização. Esse é um problema de preenchimento temporário de licenciamento, que deve ser resolvido para as organizações afetadas em breve. Para atenuar esse problema, execute as seguintes etapas para cada usuário E5:
 
 1. No centro de administração do Microsoft 365, acesse **Usuários > Usuários ativos** e selecione um usuário.
 
@@ -106,6 +106,8 @@ Para se beneficiar dos recursos da Auditoria Avançada no nível de usuário, o 
    b. Se a caixa de seleção **Auditoria Avançada do Microsoft 365** estiver selecionada, desmarque-a e clique em **Salvar alterações.** Confira a etapa 4.
 
 4. Se você desmarcou a caixa de seleção na etapa 3, aguarde 60 minutos e repita a etapa 3a para ativar o aplicativo Auditoria Avançada do Microsoft 365.
+
+Para organizações que atribuem licenças a grupos de usuários usando o licenciamento baseado em grupo, é necessário desativar a atribuição de licenciamento da Auditoria avançada do Microsoft 365 do grupo. Depois de salvar as alterações, verifique se a Auditoria Avançada do Microsoft 365 está desativada para o grupo. Em seguida, ative novamente a atribuição de licenciamento do grupo. Para obter mais instruções do licenciamento baseado em grupo, consulte [Atribuir licenças a usuários por membro de grupo no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign).
 
 **O que acontece se minha organização estava na visualização privada para retenção de um ano de registros de auditoria?**
 
