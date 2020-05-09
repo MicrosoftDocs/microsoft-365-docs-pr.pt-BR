@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Neste artigo, você aprenderá sobre as práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados.
-ms.openlocfilehash: 4660d1ab34172bf73e6bea0de3065d2c946a7d2c
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 10de9c43497bd8e07071235868414e91c20aadb5
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036759"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141375"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados
 
@@ -40,7 +40,7 @@ Quando o link de *Qualquer pessoa* expira, não pode mais ser usado para acessar
 Para definir uma data de vencimento para links de Qualquer pessoa
 1. Abra o Centro de administração do SharePoint Online.
 2. Na barra de navegação esquerda, clique em **Compartilhamento**.
-3. Em **Configurações avançadas para links de "Qualquer Pessoa"**, marque a caixa de seleção **Estes links devem expirar dentro desta quantidade de dias**.</br>
+3. Em **Escolha as opções de expiração e permissões para todos os links**, marque a caixa de seleção **Estes links devem expirar dentro de vários dias**.</br>
    ![Captura de tela das configurações de término do link de Qualquer pessoa no nível da organização do SharePoint](../media/sharepoint-organization-anyone-link-expiration.png)
 4. Digite o número de dias na caixa e clique em **Salvar**.
 
