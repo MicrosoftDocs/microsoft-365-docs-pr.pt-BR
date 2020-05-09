@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 548b331a8ee26434f53b9960fd355feacd45dfde
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: cc6f99dea89a5abc7f4c5bc07187c82d8999a064
+ms.sourcegitcommit: 8a15038a6ac16f41f6b90af52e367f888104cec9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066314"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44156876"
 ---
 # <a name="service-organization-controls-soc"></a>Service Organization Controls (SOC)
 
@@ -77,19 +77,13 @@ A Microsoft obteve os relatórios SOC 1 Type 2, SOC 2 Type 2 e SOC 3. Em geral, 
 
 ### <a name="audit-cycle"></a>Ciclo de auditoria
 
-Os serviços de nuvem da Microsoft são auditados pelo menos anualmente, seguindo as normas do SOC 1 (SSAE18, ISAE 3402) e SOC 2 (AT Section 101).
+Os serviços de nuvem da Microsoft são auditados pelo menos anualmente, seguindo as normas do SOC 1 (SSAE18, ISAE 3402), SOC 2 (AT Section 101) e SOC 3.
 
-#### <a name="azure-cloud-app-security-flow-graph-intune-power-bi-powerapps-stream-and-microsoft-datacenters"></a>Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream e Microsoft Datacenters
+#### <a name="azure-dynamics-365-cloud-app-security-flow-graph-intune-power-bi-powerapps-stream-and-microsoft-datacenters"></a>Azure, Dynamics 365, Cloud APP Security, Flow, Graph, Intune, Power BI, PowerApps, Stream e data centers da Microsoft
 
-- [Relatório SOC 1 Type 2 do Azure e do Azure Government](https://go.microsoft.com/fwlink/p/?linkid=2099601)
-- [Relatório SOC 2 Type 2 do Azure e do Azure Government](https://aka.ms/azuresoc2auditreport)
-- [Relatório SOC 3 do Azure e do Azure Government](https://aka.ms/azuresoc3auditreport)
-
-#### <a name="dynamics-365"></a>Dynamics 365
-
-- [Relatório SOC 1 Type 2 do Dynamics 365](https://aka.ms/Dynamics365SOC1AuditReport)
-- [Relatório de Auditoria SOC 2 AT 101 Type II do Dynamics 365](https://aka.ms/Dynamics365SOC2AuditReport)
-- [Ver as bridge letters e os relatórios de auditoria adicionais](https://aka.ms/auditreports)
+- [Azure + Dynamics 365 e Azure + Relatórios Government SOC 1 Type 2 no Dynamics 365](https://aka.ms/azuresoc1auditreport)
+- [Azure + Dynamics 365 e Azure + Relatórios Government SOC 2 Type 2 no Dynamics 365](https://aka.ms/azuresoc2auditreport)
+- [Azure + Dynamics 365 e Azure + Relatórios Government SOC 3 no Dynamics 365](https://aka.ms/azuresoc3auditreport)
 
 #### <a name="office-365"></a>Office 365
 
