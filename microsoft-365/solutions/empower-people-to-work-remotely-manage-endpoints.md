@@ -1,5 +1,5 @@
 ---
-title: 3. Implantar o gerenciamento de pontos de extremidade em seus dispositivos, PCs e outros pontos de extremidade
+title: Etapa 3. Implantar o gerenciamento de pontos de extremidade em seus dispositivos, PCs e outros pontos de extremidade
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -14,17 +14,17 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-ms.custom:
 - M365solutions
+ms.custom: ''
 description: Use o Microsoft Endpoint Manager para gerenciar seus dispositivos, PCs e outros pontos de extremidade.
-ms.openlocfilehash: 2a5b047aabb95d0b60c46fe3bec339e723adee0e
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 388ac2b7f9f4a31d33c1f4551e215b2b32c8f85f
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049574"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160793"
 ---
-# <a name="3-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>3. Implantar o gerenciamento de pontos de extremidade em seus dispositivos, PCs e outros pontos de extremidade
+# <a name="step-3-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Etapa 3. Implantar o gerenciamento de pontos de extremidade em seus dispositivos, PCs e outros pontos de extremidade
 
 Com funcionários remotos, é necessário oferecer suporte a um número crescente de dispositivos pessoais. O gerenciamento de pontos de extremidade é uma abordagem de segurança baseada em políticas que exige que os dispositivos obedeçam a critérios específicos antes de receberem acesso aos recursos. O Microsoft Endpoint Manager oferece um ambiente de trabalho e recursos de gerenciamento modernos para manter seus dados seguros na nuvem e no local. 
 

@@ -1,5 +1,5 @@
 ---
-title: '# Etapa 5: criar locais de comunicação contra crise de COVID-19'
+title: 'Etapa 5: criar locais de comunicação contra crise de COVID-19'
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -14,14 +14,15 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
+- M365solutions
 ms.custom: ''
 description: Use o Microsoft 365 para criar maneiras diferentes de comunicar as notícias internas e públicas sobre a COVID-19.
-ms.openlocfilehash: 189e0bde959ee8ad245b03cb5aca42ab6b19a0b3
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 686cfa12d76bf4122ebe4ae22a49da938322fee9
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002407"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160805"
 ---
 # <a name="step-5-create-covid-19-crisis-communication-venues"></a>Etapa 5: criar locais de comunicação contra crise de COVID-19
 
@@ -32,7 +33,9 @@ Existem várias maneiras de fornecer locais de comunicação adicionais para ate
 - Um site de comunicação no SharePoint Online
 - Uma comunidade do Yammer
 
-## <a name="employee-surveys"></a>Pesquisas com funcionários
+![Locais de comunicação de crise do COVID-19](../media/empower-people-to-work-remotely/comm-venues-grid.png)
+
+## <a name="employee-surveys"></a>Enquetes com funcionários
 
 O [Microsoft Power Platform](https://powerplatform.microsoft.com/), incluindo o Power Automate e o Power Apps, pode ser usado para se comunicar com os funcionários remotos de várias maneiras. Por exemplo, o [Microsoft Forms](https://forms.microsoft.com/) pode ser usado para fazer pesquisas com os funcionários remotos e determinar:
 

@@ -1,5 +1,5 @@
 ---
-title: 4. Implantar aplicativos e serviços de produtividade de trabalhador remoto
+title: Etapa 4. Implantar aplicativos e serviços de produtividade de trabalhador remoto
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -14,17 +14,17 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-ms.custom:
 - M365solutions
+ms.custom: ''
 description: Permita que seus usuários sejam produtivos com o Teams, Exchange, Microsoft Office SharePoint Online e outros serviços do Microsoft 365.
-ms.openlocfilehash: dddc3cac8a6cb955e8a337eed07279ba75c029aa
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 2fc55ff9f991c75e8124c710e60fe2ba34ed7f17
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002433"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160733"
 ---
-# <a name="4-deploy-remote-worker-productivity-apps-and-services"></a>4. Implantar aplicativos e serviços de produtividade de trabalhador remoto
+# <a name="step-4-deploy-remote-worker-productivity-apps-and-services"></a>Etapa 4. Implantar aplicativos e serviços de produtividade de trabalhador remoto
 
 Para serem produtivas, as pessoas precisam se comunicar e colaborar umas com as outras. Elas precisam se reunir, conversar por voz e texto, criar novos conteúdos e compartilhar informações e arquivos, trocar emails e gerenciar calendários e tarefas. O Microsoft 365 fornece serviços baseados em nuvem para todas estas funções importantes:
 
@@ -32,6 +32,8 @@ Para serem produtivas, as pessoas precisam se comunicar e colaborar umas com as 
 - Para trocar emails e gerenciar calendários, contatos e tarefas, use o Exchange Online e o cliente Outlook.
 - Para armazenar e colaborar em arquivos, use o Microsoft Office SharePoint Online e o OneDrive. Você pode usá-los com um navegador da Web ou no Teams.
 - Para criar novos conteúdos ou colaborar em conteúdos existentes, os Aplicativos do Microsoft 365 são versões do Word, PowerPoint, Excel e Outlook instaladas no computador local e recebem atualizações contínuas de recursos e segurança.
+
+![Usar o Teams, o Outlook, o SharePoint, o OneDrive e os aplicativos do Microsoft 365 para se manterem produtivos](../media/empower-people-to-work-remotely/remote-workers-productivity-grid.png)
 
 ## <a name="keep-people-connected-with-microsoft-teams"></a>Manter as pessoas conectadas ao Microsoft Teams
 
