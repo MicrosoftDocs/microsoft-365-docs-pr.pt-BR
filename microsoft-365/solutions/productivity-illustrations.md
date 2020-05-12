@@ -1,6 +1,6 @@
 ---
-title: Ilustrações de produtividade da Microsoft 365
-description: Use estas ilustrações para entender as noções básicas de arquitetura para implementar o Microsoft 365 Productivity Solutions.
+title: Ilustrações de produtividade do Microsoft 365
+description: Use essas ilustrações para entender as noções básicas de arquitetura para implementar as soluções de produtividade do Microsoft 365.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -11,17 +11,17 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - M365-security-compliance
-ms.custom:
 - M365solutions
+ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 8482c6591958e36f2c764d61f3fa7116f348f8d8
-ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
-ms.translationtype: MT
+ms.openlocfilehash: 2ad424741ecbfe6f4bb8693df13a92bc71f012ce
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44022127"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160082"
 ---
-# <a name="microsoft-365-productivity-illustrations"></a>Ilustrações de produtividade da Microsoft 365
+# <a name="microsoft-365-productivity-illustrations"></a>Ilustrações de produtividade do Microsoft 365
 
 A série de solução do Microsoft 365 Enterprise fornece orientações para a implementação de recursos do Microsoft 365, especialmente quando os recursos e as tecnologias se encontram.
 
@@ -47,14 +47,14 @@ Segurança e proteção de informações para organizações de várias regiões
 |:-----|:-----|
 |[![Imagem em miniatura para infográfico de várias regiões](../media/solutions-architecture-center/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx)<br>Atualizado em março de 2020 |Usar um único locatário do Microsoft 365 para sua organização global é a melhor escolha e experiência por vários motivos. No entanto, muitos arquitetos têm dificuldades para encontrar a melhor forma de atender aos objetivos de segurança e proteção de informações em diferentes regiões. Este conjunto de tópicos fornece recomendações. |
 
-### <a name="microsoft-defender-atp-deployment-strategy"></a>Estratégia de implantação do Microsoft defender ATP
+### <a name="microsoft-defender-atp-deployment-strategy"></a>Estratégia de implantação do Microsoft Defender ATP
 
-Dependendo do seu ambiente, algumas ferramentas são mais adequadas para determinadas arquiteturas.
+Dependendo do ambiente, algumas ferramentas são mais adequadas para determinadas arquiteturas.
 
 
 |**Item**|**Descrição**|
 |:-----|:-----|
-|[![Imagem em miniatura da estratégia de implantação do Microsoft defender ATP](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.vsdx) <br>Atualizado em fevereiro de 2020| O material arquitetônico ajuda você a planejar sua implantação para as seguintes arquiteturas: <ul><li> Nuvem nativa </li><li> Co-gerenciamento </li><li> Local</li><li>Avaliação e integração local</li>
+|[![Imagem em miniatura da estratégia de implantação do Microsoft Defender ATP](../media/solutions-architecture-center/mdatp-deployment-strategy.png)](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)<br/> [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.pdf)  \| [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-deployment-strategy.vsdx) <br>Atualizado em fevereiro de 2020| O material arquitetônico ajuda a planejar a implantação para as seguintes arquiteturas: <ul><li> Nuvem nativa </li><li> Cogerenciamento </li><li> No local</li><li>Avaliação e integração local</li>
 
 
 <a name="m365foundationinfra"></a>
@@ -115,7 +115,7 @@ This guidance includes Test Lab Guides. For more information, see [Microsoft Sec
 A Microsoft oferece suporte a várias opções conforme você começa sua jornada no Teams na nuvem da Microsoft. Esse cartaz ajuda você a decidir qual solução de telefonia da Microsoft (sistema de telefone na nuvem ou o Enterprise Voice local) é ideal para os usuários de sua organização e como sua organização pode se conectar à Rede pública de telefonia comutada (PSTN).
 
 
-[![Miniatura do pôster das soluções de telefonia da Microsoft](../media/solutions-architecture-center/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
+[![Miniatura do cartaz de Soluções de Telefonia da Microsoft](../media/solutions-architecture-center/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
 [PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.vsdx) <br>
 Atualizado em janeiro de 2019
 

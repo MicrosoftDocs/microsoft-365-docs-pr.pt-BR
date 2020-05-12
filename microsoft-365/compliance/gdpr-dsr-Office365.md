@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: dbb24e3c7347faf09e5f14d3d28d17b8163ccc2c
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: e4620938a5f7f63d7da09d60d701e81c3bbae0fa
+ms.sourcegitcommit: 758263ad484e00f5a561a47c8c22d5787af7671e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166022"
+ms.locfileid: "44171000"
 ---
 # <a name="data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações do Titular dos Dados para RGPD e CCPA
 
@@ -586,7 +586,7 @@ Após excluir uma conta de usuário:
 - O usuário não pode mais entrar no Office 365 nem acessar nenhum dos recursos da Microsoft da sua organização, como a conta do OneDrive for Business, sites do SharePoint Online ou a caixa de correio do Exchange Online.
 - Os dados pessoais, como endereço de email, alias, número de telefone e endereço para correspondência, que estão associados à conta do usuário são excluídos
 - Alguns aplicativos do Office 365 removem informações sobre o usuário. Por exemplo, no Microsoft Flow, o usuário excluído é removido da lista de proprietários de um fluxo compartilhado.
-- Os logs gerados pelo sistema sobre o titular dos dados serão excluídos 30 dias depois que a conta de usuário for excluída. Para saber mais, confira a seção [Excluir logs gerados pelo sistema](#deleting-system-generated-logs).
+- Os logs gerados pelo sistema sobre o titular dos dados, com exceção dos dados que possam comprometer a segurança ou estabilidade do serviço, serão excluídos 30 dias após a exclusão da conta do usuário. Para saber mais, confira a seção [Excluir logs gerados pelo sistema](#deleting-system-generated-logs).
 
 >[!IMPORTANT]
 >Depois de excluir uma conta de usuário, essa pessoa perderá a capacidade de entrar no Office 365 e de entrar em qualquer outro produto ou serviço dos quais ela dependia antigamente para uma conta corporativa ou de estudante. Essa pessoa também não poderá iniciar qualquer solicitação DSR por meio da Microsoft diretamente em instâncias onde a Microsoft é o controlador de dados. Para saber mais, confira a seção [Produtos e serviços autenticados com uma ID de organização para a qual a Microsoft é um controlador de dados](#product-and-services-authenticated-with-an-org-id-for-which-microsoft-is-a-data-controller), na Parte 4 deste guia.
@@ -597,7 +597,7 @@ Após excluir uma conta de usuário:
 Como a exclusão temporária e a exclusão irreversível de dados que foram descritas na seção anterior sobre como excluir dados pessoais, quando você exclui uma conta de usuário, também há um estado de exclusão temporária e exclusão irreversível.
 
 - Quando você inicialmente exclui uma conta de usuário (excluindo o usuário no centro de administração ou no portal do Azure), ela é excluída temporariamente e movida para a Lixeira do Azure por até 30 dias.  Nesse ponto, a conta de usuário pode ser restaurada.
-- Se você excluiu permanentemente a conta de usuário, ela será excluída irreversivelmente e removida da Lixeira no Azure. Nesse ponto, a conta de usuário não pode ser restaurada e todos os dados associados a ela serão permanentemente removidos da nuvem da Microsoft. Os logs gerados pelo sistema sobre o titular dos dados serão excluídos depois que a conta de usuário for excluída irreversivelmente.
+- Se você excluiu permanentemente a conta de usuário, ela será excluída irreversivelmente e removida da Lixeira no Azure. Nesse ponto, a conta de usuário não pode ser restaurada e todos os dados associados a ela serão permanentemente removidos da nuvem da Microsoft. A exclusão irreversível de uma conta exclui os logs gerados pelo sistema sobre o titular dos dados, exceto os dados que podem comprometer a segurança ou a estabilidade do serviço.
 
 Veja a seguir o processo detalhado para excluir um usuário da sua organização.
 
@@ -1598,7 +1598,7 @@ A Microsoft oferece a capacidade de descobrir os dados dos clientes diretamente 
 
 Para excluir logs gerados pelo sistema recuperados por meio de uma solicitação de acesso, você deve remover o usuário do serviço e excluir permanentemente sua conta do Azure Active Directory. Para obter instruções sobre como excluir permanentemente um usuário, confira a seção [Excluir um usuário](#deleting-a-user) deste guia. É importante observar que excluir permanentemente uma conta de usuário é um processo irreversível após iniciado.
 
-Excluir permanentemente uma conta de usuário remove os dados do usuário de logs gerados pelo sistema de quase todos os serviços do Office 365 dentro de 30 dias. A exceção é quando a exclusão permanente da conta de usuário leva mais de 30 dias no Exchange Online. Dada a natureza crítica do conteúdo do Exchange Online e para impedir a perda acidental de dados. O sistema foi intencionalmente projetado para colocar os dados em um estado de retenção por até 60 dias depois que uma conta de usuário for permanentemente excluída. Para excluir permanentemente os dados do Exchange Online de um usuário em um prazo de 30 dias, exclua permanentemente a conta do usuário no Azure Active Directory, contate o [suporte da Microsoft](https://support.microsoft.com/) e solicite que os dados do Exchange Online do usuário sejam manualmente removidos do processo de exclusão agendado.  Para saber mais, confira [Remover dados do Exchange Online](#removing-exchange-online-data), que foi explicado anteriormente neste guia
+Excluir permanentemente uma conta de usuário remove os dados do usuário dos logs gerados pelo sistema, exceto dados que possam comprometer a segurança ou estabilidade do serviço, para quase todos os serviços do Office 365 em 30 dias. A exceção é quando a exclusão permanente da conta de usuário leva mais de 30 dias no Exchange Online. Dada a natureza crítica do conteúdo do Exchange Online e para impedir a perda acidental de dados. O sistema foi intencionalmente projetado para colocar os dados em um estado de retenção por até 60 dias depois que uma conta de usuário for permanentemente excluída. Para excluir permanentemente os dados do Exchange Online de um usuário em um prazo de 30 dias, exclua permanentemente a conta do usuário no Azure Active Directory, contate o [suporte da Microsoft](https://support.microsoft.com/) e solicite que os dados do Exchange Online do usuário sejam manualmente removidos do processo de exclusão agendado.  Para saber mais, confira [Remover dados do Exchange Online](#removing-exchange-online-data), que foi explicado anteriormente neste guia
 
 Excluir uma conta de usuário não removerá logs gerados pelo sistema para o Yammer e Kaizala. Para remover os dados desses aplicativos, siga um destes procedimentos:
 
