@@ -15,17 +15,17 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba mais sobre a ordem de aplicativos das proteções do Office 365 e como o valor de prioridade nas políticas de proteção determina qual política é aplicada.
-ms.openlocfilehash: 856b3bc39cd971e605cd9f1c0f31554a853c1b67
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Os administradores podem saber mais sobre a ordem de proteção de aplicativos na proteção do Exchange Online (EOP) e como o valor de prioridade nas políticas de proteção determina qual política é aplicada.
+ms.openlocfilehash: 176d39a240d49e0118b4bb8e8cee52a6e7c61b0e
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036711"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209434"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Ordem e precedência de proteção de email
 
-Como um usuário do Microsoft 365, seus emails de entrada podem ser sinalizados por várias formas de proteção. Por exemplo, as políticas anti-phishing internas do EOP que estão disponíveis para todos os clientes da Microsoft 365 e as políticas de anti-phishing mais robustas da ATP que também estão disponíveis para os clientes do Office 365 Advanced Threat Protection. As mensagens também passam por várias verificações de detecção de malware, spam, phishing, etc. Dada a todas essas atividades, pode haver uma certa confusão sobre qual política é aplicada.
+Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, os emails de entrada podem ser sinalizados por várias formas de proteção. Por exemplo, as políticas anti-phishing internas do EOP que estão disponíveis para todos os clientes da Microsoft 365 e as políticas de anti-phishing mais robustas do ATP que também estão disponíveis para clientes do Office 365 Advanced Threat Protection (Office 365 ATP). As mensagens também passam por várias verificações de detecção de malware, spam, phishing, etc. Dada a todas essas atividades, pode haver uma certa confusão sobre qual política é aplicada.
 
 Em geral, uma política aplicada a uma mensagem é identificada no cabeçalho **X-Forefront-antispam-Report** na propriedade **Cat (categoria)** . Para obter mais informações, consulte [Cabeçalhos de mensagem antispam](anti-spam-message-headers.md).
 
@@ -35,15 +35,15 @@ Há dois fatores principais que determinam qual política é aplicada a uma mens
 
   |||||
   |---|---|---|---|
-  |**Prioridade**|**Proteção de email**|**Categoria**|**Onde gerenciar**|
-  |1|Malware|GATO: MALW|[Configurar políticas Antimalware no Office 365](configure-anti-malware-policies.md)|
-  |duas|Phishing|GATO: PHSH|[Configurar políticas antispam no Office 365](configure-your-spam-filter-policies.md)|
-  |3D|Spam de alta confiança|GATO: HSPM|[Configurar políticas antispam no Office 365](configure-your-spam-filter-policies.md)|
-  |4 |Spoofing|GATO: SPOOF|[Configurar o spoof Intelligence no Office 365](learn-about-spoof-intelligence.md)|
-  |5 |Spam|GATO: SPM|[Configurar políticas antispam no Office 365](configure-your-spam-filter-policies.md)|
-  |6 |Em massa|GATO: EM MASSA|[Configurar políticas antispam no Office 365](configure-your-spam-filter-policies.md)|
-  |178<sup>\*</sup>|Representação de domínio (usuários protegidos)|DIMP|[Configurar as políticas de anti-phishing do ATP no Office 365](configure-atp-anti-phishing-policies.md)|
-  |8<sup>\*</sup>|Representação de usuário (domínios protegidos)|UIMP|[Configurar as políticas de anti-phishing do ATP no Office 365](configure-atp-anti-phishing-policies.md)|
+  |**Prioridade**|**Proteção de email**|**Category**|**Onde gerenciar**|
+  |1|Malware|GATO: MALW|[Configurar políticas Antimalware no EOP](configure-anti-malware-policies.md)|
+  |duas|Phishing|GATO: PHSH|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
+  |3D|Spam de alta confiança|GATO: HSPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
+  |4 |Spoofing|GATO: SPOOF|[Configurar o spoof Intelligence no EOP](learn-about-spoof-intelligence.md)|
+  |5 |Spam|GATO: SPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
+  |6 |Em massa|GATO: EM MASSA|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
+  |178<sup>\*</sup>|Representação de domínio (usuários protegidos)|DIMP|[Configurar políticas anti-phishing ATP](configure-atp-anti-phishing-policies.md)|
+  |8<sup>\*</sup>|Representação de usuário (domínios protegidos)|UIMP|[Configurar políticas anti-phishing ATP](configure-atp-anti-phishing-policies.md)|
   |
 
   <sup>\*</sup>Esses recursos estão disponíveis apenas em políticas anti-phishing da ATP.

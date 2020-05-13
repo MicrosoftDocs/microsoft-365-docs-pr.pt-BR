@@ -18,19 +18,19 @@ search.appverid:
 - MET150
 description: Saiba como ler e entender sua fatura para produtos de negócios da Microsoft.
 keywords: contas de cobrança, informações da organização, faturas
-ms.openlocfilehash: dad635df97e9cdf490118adc3a041c876878521b
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 63186bb0fc601be786e223fe2e6febbdb48361e2
+ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141323"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44211399"
 ---
 # <a name="understand-your-invoice"></a>Entenda a sua fatura
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -46,7 +46,7 @@ A parte superior da primeira página identifica quem é responsável pelo pagame
 | --- | --- |
 | Vendido para |A conta de cobrança que identifica o nome e o endereço da entidade legal responsável pelo pagamento. Essas informações podem ser gerenciadas na página <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">contas de cobrança</a> , onde você pode encontrar o contrato de conta e gerenciar funções e permissões. |
 | Faturar para |Identifica quem recebe a fatura. Essas informações podem ser gerenciadas na página <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">perfis de cobrança</a> . O perfil de cobrança também é mostrado na página fatura online, na seção **Resumo da fatura** . Para saber mais sobre perfis de cobrança e como você pode usá-los para criar opções de cobrança mais flexíveis para sua organização, consulte [Manage Rebilling Profiles](manage-billing-profiles.md). |
-| Perfil de cobrança |O nome do perfil de cobrança usado para definir as propriedades de fatura, como faturar, número da OC e condições de pagamento. Essas informações podem ser gerenciadas na página <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">perfis de cobrança</a> . Para obter mais informações sobre perfis de cobrança e como usá-los para criar opções de cobrança mais flexíveis para sua organização, consulte [Manage billing Profiles](manage-billing-profiles.md). |
+| Perfil de cobrança |O nome do perfil de cobrança usado para definir as propriedades de fatura, como **faturar**, **número da OC**e condições de pagamento. Essas informações podem ser gerenciadas na página <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">perfis de cobrança</a> . Para obter mais informações sobre perfis de cobrança e como usá-los para criar opções de cobrança mais flexíveis para sua organização, consulte [Manage billing Profiles](manage-billing-profiles.md). |
 | Número da fatura |Um número exclusivo de fatura gerado pela Microsoft usado para fins de acompanhamento. |
 | Data da fatura |Data em que a fatura é gerada, geralmente cinco a 12 dias após o fim do ciclo de cobrança. Você pode verificar a data da fatura na página de detalhes do perfil de cobrança. Os encargos que ocorrem entre o final do período de cobrança e a data da fatura são incluídos na fatura do mês seguinte, pois estão no próximo período de cobrança. As datas de início e término do período de cobrança de cada fatura são listadas no Resumo de **cobrança**do PDF de fatura.|
 | Condições de pagamento |Como você paga pelo Microsoft Bill. *30 dias líquidos* significa que você paga seguindo as instruções da fatura, dentro de 30 dias da data da fatura. |
@@ -77,13 +77,13 @@ As páginas de encargos mostram o custo dividido por produto. Para clientes do A
 | Valor do imposto | Quantidade de imposto aplicada à compra com base na taxa de imposto |
 | Total | O valor total devido para a compra |
 
-Os detalhes dos itens de linha variam dependendo do tipo de produto para o qual você está cobrado. Por exemplo, para produtos do Azure, a quantidade de créditos do Azure aplicados é mostrada. Os produtos baseados em assentos mostram o preço unitário e a quantidade. Os detalhes da fatura descrevem os produtos comprados, desconto ou créditos que foram aplicados, a taxa de impostos e o valor e os totais de itens de linha.
+Os detalhes dos itens de linha variam dependendo do tipo de produto para o qual você está cobrado. Por exemplo, para produtos do Azure, a quantidade de créditos do Azure aplicados é mostrada. Os produtos baseados em assentos mostram o preço unitário e a quantidade. Os detalhes da fatura mostram os produtos comprados, desconto ou créditos que foram aplicados, a taxa de impostos e o valor e os totais de itens de linha.
 
-`Total = Charges - Azure Credit + Tax`
+    `Total = Charges - Azure Credit + Tax`
 
 O valor total devido para cada família de serviços é calculado subtraindo créditos do Azure de créditos/cobranças e adicionando impostos:
 
-`Total = Charges/Credits - Azure Credit + Tax`
+    `Total = Charges/Credits - Azure Credit + Tax`
 
 Se houver encargos do Azure na fatura que você gostaria de obter mais detalhes, consulte [revisar sua fatura de contrato de cliente da Microsoft](https://docs.microsoft.com/azure/cost-management-billing/understand/review-customer-agreement-bill).
 
@@ -101,11 +101,11 @@ Se você tiver serviços de terceiros em sua lista, o nome e o endereço de cada
 
 As faturas estão disponíveis online. Um link para sua fatura online está disponível na sua fatura do PDF e a partir de uma notificação por email. A fatura online é expansível para que você possa exibir os encargos em sua fatura e ver mais detalhes de cada item. A fatura online inclui:
 
-- **Detalhes** &mdash; de preços informações adicionais, incluindo detalhes sobre descontos e preços de produto.
+- **Detalhes** &mdash; de preços Informações adicionais, incluindo detalhes sobre descontos e preços de produto.
 
-- **Pagamento** &mdash; online você pode optar por fazer um pagamento online da fatura.
+- **Pagamento online** &mdash; Você pode optar por fazer um pagamento online da fatura.
 
-- **Azure cost Management** &mdash; for Azure clientes, faturas online incluem um link para o gerenciamento de custos do Azure.
+- Gerenciamento de custos **do Azure** &mdash; Para clientes do Azure, faturas online incluem um link para o gerenciamento de custos do Azure.
 
 ### <a name="to-view-your-online-invoice"></a>Para exibir sua fatura online
 
@@ -114,6 +114,42 @@ As faturas estão disponíveis online. Um link para sua fatura online está disp
 2. Para baixar a versão. pdf da fatura, escolha **baixar nota fiscal PDF** na linha da fatura que você deseja ver.
 
 3. Para exibir sua fatura online, escolha uma fatura na lista. Você também pode baixar o. pdf da página detalhes da fatura.
+
+## <a name="invoice-faq"></a>Perguntas frequentes de fatura
+
+### <a name="when-is-my-invoice-available"></a>Quando está minha fatura disponível?
+
+Algumas faturas são geradas dentro de 24 horas da compra. Outras faturas são geradas no final do período de cobrança e incluem todos os itens desse período.
+
+### <a name="how-do-i-pay-the-amount-due-on-my-invoice"></a>Como pagar o valor devido na minha fatura?
+
+As instruções de pagamento dependem da forma de pagamento e são fornecidas na parte inferior do PDF da fatura. Se sua forma de pagamento for um cartão de crédito, ela será automaticamente carregada dentro de 10 dias da data da fatura. Se sua forma de pagamento for por cheque ou transferência por fio, Confira as informações em **instruções de pagamento** no PDF.
+
+### <a name="whats-the-difference-between-sold-to-and-bill-to-addresses"></a>Qual é a diferença entre "vendido a" e "endereços de cobrança"?
+
+- **Vendido para:** A entidade legal responsável pelo pagamento e identificada na fatura. O endereço fornecido aqui é usado para determinar sua taxa de imposto, a menos que você opte por fornecer um endereço de envio alternativo durante sua compra. Para obter mais informações, consulte [Tax Information](tax-information.md).
+- **Faturar para:** O endereço onde a fatura física é enviada, se aplicável. Pode haver vários endereços **de cobrança** por entidade legal, mas apenas um endereço **de** cobrança por perfil de cobrança.
+
+### <a name="what-are-billed-amount-and-amount-due"></a>O que são "quantia cobrada" e "valor devido?"
+
+- **Valor cobrado:** O valor total da compra que você fez.
+- **Valor devido:** O saldo restante para o que você deve ter.
+
+### <a name="what-is-the-difference-between-service-period-and-billing-period"></a>Qual é a diferença entre "período de serviço" e "período de cobrança?"
+
+- **Período de serviço:** O período de tempo durante o qual você está cobrado para usar o serviço.
+- **Período de cobrança:** O período de tempo desde a última data de fatura.
+
+### <a name="how-do-i-view-and-print-my-bill"></a>Como exibir e imprimir minha lista?
+
+1. Na página **faturas**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& pagamentos</a> , selecione um intervalo de datas da fatura.
+2. Para imprimir ou salvar uma cópia em PDF da lista, selecione **baixar PDF de fatura**e, em seguida, imprimir o PDF.
+
+Para saber mais, confira [exibir sua cobrança ou fatura](view-your-bill-or-invoice.md).
+
+### <a name="why-dont-i-see-azure-prepayment-as-a-payment-method"></a>Por que não vejo o pagamento antecipado do Azure como um método de pagamento?
+
+O pagamento antecipado do Azure está disponível como um método de pagamento somente para produtos e serviços do Azure qualificados.
 
 ## <a name="need-help-contact-support"></a>Precisa de ajuda? Fale com o suporte.
 

@@ -1,5 +1,5 @@
 ---
-title: Envios do administrador no Office 365
+title: Envios de administrador
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,17 +16,17 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba como enviar emails suspeitos, emails de phishing, spam e outras mensagens, URLs e arquivos potencialmente nocivos da sua empresa para a Microsoft para verificação.
-ms.openlocfilehash: 79f200963655e5fb07a04b686c1dd8cc3bbd0873
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Os administradores podem aprender a usar o portal de envios no centro de conformidade de & de segurança para enviar emails suspeitos, emails de phishing, spam e outras mensagens, URLs e arquivos potencialmente nocivos para a Microsoft para verificação.
+ms.openlocfilehash: ae84c9ca111c7e7056ae97abff20471c474dccb2
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034195"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209746"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 
-Se você for um administrador em uma organização do Microsoft 365 com caixas de correio no Exchange Online, você pode usar o portal de envios no centro de conformidade de & de segurança para enviar mensagens de email, URLs e anexos para a Microsoft para verificação.
+Nas organizações do Microsoft 365 com caixas de correio no Exchange Online, os administradores podem usar o portal de envios no centro de conformidade de & de segurança para enviar mensagens de email, URLs e anexos para a Microsoft para verificação.
 
 Ao enviar um email, você receberá informações sobre qualquer política que possa ter permitido o email de entrada em seu locatário, bem como o exame de qualquer URL e anexo no email. As políticas que podem ter permitido um email incluem a lista de remetentes confiáveis de um usuário individual, bem como políticas de nível de locatário, como regras de fluxo de emails do Exchange (também conhecidas como regras de transporte).
 
@@ -34,7 +34,7 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página de **envio** , <https://protection.office.com/reportsubmission>use.
+- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página de **envio** , use <https://protection.office.com/reportsubmission> .
 
 - Você precisa receber permissões para executar esses procedimentos. Para adicionar, modificar e excluir políticas antispam, você precisa ser membro dos grupos de função de gerenciamento da **organização**, **administrador de segurança**ou **leitor de segurança** . Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
@@ -42,7 +42,7 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
 ## <a name="report-suspicious-content-to-microsoft"></a>Relatar conteúdo suspeito para a Microsoft
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **análise** \> de gerenciamento de ameaça **mensagens de envio de administração**.
+1. No centro de conformidade & segurança, vá para análise de **Gerenciamento de ameaça** \> **Review** \> **mensagens de envio de administração**.
 
 2. Na página **Submissions** envios que aparece, clique no botão **novo envio** .
 
@@ -74,7 +74,7 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Enviar uma URL suspeita para a Microsoft
 
-1. Na seção **tipo de objeto** , selecione **URL**. Na caixa exibida, digite a URL completa (por exemplo, <https://www.fabrikam.com/marketing.html>).
+1. Na seção **tipo de objeto** , selecione **URL**. Na caixa exibida, digite a URL completa (por exemplo, <https://www.fabrikam.com/marketing.html> ).
 
 2. Na seção **motivo da envio** , selecione uma das seguintes opções:
 
@@ -104,11 +104,11 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
 ## <a name="view-admin-submissions"></a>Exibir envios de administradores
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **análise** \> de gerenciamento de ameaça **mensagens de envio de administração**.
+1. No centro de conformidade & segurança, vá para análise de **Gerenciamento de ameaça** \> **Review** \> **mensagens de envio de administração**.
 
 2. Na página **envios** que aparece, verifique se a guia **envios de administrador** está selecionada.
 
-Próximo à parte superior da página, você pode inserir uma data de início, uma data de término e (por padrão), você pode filtrar por **ID de envio** , inserindo um valor na ![caixa e](../../media/scc-quarantine-refresh.png)clicando em Atualizar botão. Update
+Próximo à parte superior da página, você pode inserir uma data de início, uma data de término e (por padrão), você pode filtrar por **ID de envio** , inserindo um valor na caixa e clicando em ![ Atualizar botão ](../../media/scc-quarantine-refresh.png) . Update
 
 Para alterar os critérios de filtro, clique no botão **ID de envio** e escolha um dos seguintes valores:
 
@@ -178,7 +178,7 @@ Você pode clicar no botão **Opções de coluna** próximo à parte inferior da
 
 Se você tiver implantado o [suplemento de mensagem de relatório](enable-the-report-message-add-in.md)ou se as pessoas usarem [relatórios internos no Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md), você poderá ver quais usuários estão relatando na guia **envios** de usuários.
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **análise** \> de gerenciamento de ameaça **mensagens de envio de administração**.
+1. No centro de conformidade & segurança, vá para análise de **Gerenciamento de ameaça** \> **Review** \> **mensagens de envio de administração**.
 
 2. Na página **envios** que aparece, clique na guia **envios do usuário** .
 
@@ -193,7 +193,7 @@ Você pode clicar no botão **Opções de coluna** próximo à parte inferior da
 
 <sup>\*</sup>Se você clicar nesse valor, as informações detalhadas serão exibidas em um submenu.
 
-Próximo à parte superior da página, você pode inserir uma data de início, uma data de término e (por padrão), você pode filtrar por **remetente** inserindo um valor na caixa e ![clicando em](../../media/scc-quarantine-refresh.png)Atualizar botão. Update
+Próximo à parte superior da página, você pode inserir uma data de início, uma data de término e (por padrão), você pode filtrar por **remetente** inserindo um valor na caixa e clicando em ![ Atualizar botão ](../../media/scc-quarantine-refresh.png) . Update
 
 Para alterar os critérios de filtro, clique no botão **remetente** e escolha um dos seguintes valores:
 
@@ -211,7 +211,7 @@ Para exportar os resultados, clique em **Exportar** próximo à parte superior d
 
 Se você [configurou uma caixa de correio personalizada](user-submission.md) para receber mensagens relatadas pelo usuário, você pode exibir e também enviar mensagens que foram entregues à caixa de correio de relatório.
 
-1. No centro de conformidade & segurança, vá para **Threat management** \> **análise** \> de gerenciamento de ameaça **mensagens de envio de administração**.
+1. No centro de conformidade & segurança, vá para análise de **Gerenciamento de ameaça** \> **Review** \> **mensagens de envio de administração**.
 
 2. Na página **envios** que aparece, clique na guia **caixa de correio personalizada** .
 
@@ -224,7 +224,7 @@ Você pode clicar no botão **Opções de coluna** próximo à parte inferior da
 - **IP do remetente**<sup>\*</sup>
 - **Tipo de envio**
 
-Próximo à parte superior da página, você pode inserir uma data de início, uma data de término e filtrar por **enviado** , inserindo um valor na caixa e clicando em ![Atualizar botão.](../../media/scc-quarantine-refresh.png) Update
+Próximo à parte superior da página, você pode inserir uma data de início, uma data de término e filtrar por **enviado** , inserindo um valor na caixa e clicando em ![ Atualizar botão ](../../media/scc-quarantine-refresh.png) . Update
 
 Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **dados do gráfico** ou **tabela**. Na caixa de diálogo exibida, salve o arquivo. csv.
 

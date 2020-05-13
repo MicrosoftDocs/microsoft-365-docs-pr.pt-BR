@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: e49b80cc873887cf9cc447a28ac2a274034176fc
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 49b5491cb67f447bf8cca1d88aab807c1bf30624
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066234"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208383"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Conformidade com comunicações no Microsoft 365
 
@@ -97,7 +97,7 @@ Novos painéis interativos para alertas, correspondências de política, ações
 
 As políticas de conformidade de comunicação verificam e capturam mensagens em vários canais de comunicação para ajudá-lo a analisar e corrigir problemas de conformidade rapidamente:
 
-- **Microsoft Teams**: comunicações de chat para canais públicos e privados do [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview) e chats individuais têm suporte na conformidade de comunicação como uma fonte de canal autônomo ou com outros serviços do Microsoft 365. Agora, as políticas verificam automaticamente todos os canais e equipes do Microsoft Teams para usuários específicos definidos em uma política, eliminando a necessidade de manter uma lista de mapeamento separada para as atribuições do Microsoft Teams.
+- **Microsoft Teams**: comunicações de chat para canais públicos e privados do [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview) e chats individuais têm suporte na conformidade de comunicação como uma fonte de canal autônomo ou com outros serviços do Microsoft 365. Você precisará adicionar manualmente usuários individuais, grupos de distribuição ou canais específicos do Microsoft Teams quando selecionar usuários e grupos para supervisionar em uma política de conformidade de comunicação.
 - **Exchange Online**: todas as caixas de correio hospedadas no [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online) na sua organização do Microsoft 365 estão qualificadas para verificação. Os emails e anexos que correspondem às condições de política de conformidade de comunicação estão disponíveis instantaneamente para monitoramento e em relatórios de conformidade. O Exchange Online agora é um canal de origem opcional e não é mais necessário em políticas de conformidade de comunicação.
 - **Yammer**: mensagens privadas e conversas públicas da Comunidade no [Yammer](https://docs.microsoft.com/yammer/yammer-landing-page) são suportadas em políticas de conformidade de comunicação. O Yammer é um canal opcional e deve estar no [modo nativo](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) para suportar a verificação de mensagens e anexos.
 - **Skype for Business online**: as políticas de conformidade de comunicação dão suporte à verificação de comunicações de chat e anexos associados no [Skype for Business online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online).

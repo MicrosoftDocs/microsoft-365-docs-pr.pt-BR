@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
 description: Use o script neste artigo para gerar um relatório que contenha informações sobre todas as isenções associadas a ocorrências de descoberta eletrônica no centro de conformidade no Office 365 ou Microsoft 365.
-ms.openlocfilehash: 9fa4bab745a3f956b32deb1dab1a1d909cecf08a
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 4a4d9c4195a201482228226ddd781260bb19499c
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942894"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208373"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases"></a>Criar um relatório sobre retenções em ocorrências de Descoberta eletrônica
   
@@ -41,27 +41,9 @@ Consulte a seção [mais informações](#more-information) para obter uma descri
     
 ## <a name="step-1-connect-to-the-security--compliance-center-powershell"></a>Etapa 1: conectar-se ao PowerShell do centro de conformidade & segurança
 
-A primeira etapa é conectar-se ao centro de conformidade & segurança da sua organização.
+A primeira etapa é conectar-se ao PowerShell de segurança & centro de conformidade da sua organização. Para obter instruções passo a passo, confira [Conectar-se ao Centro de Segurança e Conformidade no PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
   
-1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo. ps1; por exemplo, `ConnectSCC.ps1`. 
-    
-      ```powershell
-      # Get login credentials 
-      $UserCredential = Get-Credential 
-      $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Credential $UserCredential -Authentication Basic -AllowRedirection 
-      Import-PSSession $Session -AllowClobber -DisableNameChecking 
-      $Host.UI.RawUI.WindowTitle = $UserCredential.UserName + " (Security & Compliance Center)" 
-    ```
-
-2. No computador local, abra o Windows PowerShell e vá para a pasta onde você salvou o script. 
-    
-3. Executar o script; por exemplo:
-
-    ```powershell
-    .\ConnectSCC.ps1
-    ```
-
-4. Quando solicitar suas credenciais, insira seu endereço de email e senha e clique em **OK**. 
+Se a sua conta do Microsoft 365 utiliza autenticação multifator (MFA) ou autenticação federada, você não pode utilizar as instruções do tópico anterior para conectar no Centro de Conformidade e Segurança do Windows PowerShell. Em vez disso, confira as instruções no tópico [ Conectar-se ao Centro de Segurança e Conformidade no PowerShell, usando a autenticação multifator](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell).
   
 ## <a name="step-2-run-the-script-to-report-on-holds-associated-with-ediscovery-cases"></a>Etapa 2: executar o script para relatar em suspensões associadas a ocorrências de descoberta eletrônica
 
@@ -172,9 +154,9 @@ Write-host "Script complete! Report files saved to this folder: '$Path'"
     > [!TIP]
     > Para salvar o relatório na mesma pasta em que o script está localizado, digite um ponto (".") quando solicitado a fornecer uma pasta de destino. Para salvar o relatório em uma subpasta na pasta em que o script está localizado, basta digitar o nome da subpasta. 
   
-    O script começa a coletar informações sobre todos os casos de descoberta eletrônica em sua organização. Não acesse o arquivo de relatório enquanto o script estiver em execução. Depois que o script for concluído, uma mensagem de confirmação será exibida na sessão do Windows PowerShell. Depois que esta mensagem for exibida, você poderá acessar o relatório na pasta que você especificou na etapa 4. O nome de arquivo para o relatório `CaseHoldsReport<DateTimeStamp>.csv`é.
+    O script começa a coletar informações sobre todos os casos de descoberta eletrônica em sua organização. Não acesse o arquivo de relatório enquanto o script estiver em execução. Depois que o script for concluído, uma mensagem de confirmação será exibida na sessão do Windows PowerShell. Depois que esta mensagem for exibida, você poderá acessar o relatório na pasta que você especificou na etapa 4. O nome de arquivo para o relatório é `CaseHoldsReport<DateTimeStamp>.csv` .
 
-    O script também cria um relatório com uma lista de casos que não tem nenhuma isenção. O nome de arquivo para esse relatório `CaseswithNoHolds<DateTimeStamp>.csv`é.
+    O script também cria um relatório com uma lista de casos que não tem nenhuma isenção. O nome de arquivo para esse relatório é `CaseswithNoHolds<DateTimeStamp>.csv` .
     
     Veja um exemplo de execução do script CaseHoldsReport. ps1. 
     

@@ -1,5 +1,5 @@
 ---
-title: Proteção contra phishing no Microsoft 365
+title: Proteção anti-phishing
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,13 +18,13 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
-description: Este artigo apresenta os recursos online disponíveis que podem ser utilizados para aprender sobre e implementar as opções e estratégias anti-phishing no Microsoft 365.
-ms.openlocfilehash: 09d384376b1e44989987c40ef3c7860e4fac6167
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Os administradores podem aprender sobre os recursos de proteção contra phishing no Exchange Online Protection (EOP) e a proteção avançada contra ameaças do Office 365 (Office 365 ATP).
+ms.openlocfilehash: c1b9332fc35997dfe1cbfdfbef79e2d7beed736f
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033757"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208966"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Proteção contra phishing no Microsoft 365
 
@@ -38,13 +38,13 @@ ms.locfileid: "44033757"
 
 - **Ransomware** que criptografa seus dados e exige que o pagamento seja descriptografado quase sempre inicia em mensagens de phishing. A proteção anti-phishing não pode ajudar você a descriptografar arquivos criptografados, mas pode ajudar a detectar as mensagens de phishing iniciais que estão associadas à campanha de ransomware. Para obter mais informações sobre a recuperação de um ataque de ransomware, confira [recuperar de um ataque de ransomware no Microsoft 365](recover-from-ransomware.md).
 
-Com a crescente complexidade dos ataques, é ainda difícil para os usuários treinados identificar mensagens de phishing sofisticadas. Felizmente, o Exchange Online Protection (EOP) e os recursos adicionais do Microsoft 365 Advanced Threat Protection (ATP) podem ajudar.
+Com a crescente complexidade dos ataques, é ainda difícil para os usuários treinados identificar mensagens de phishing sofisticadas. Felizmente, o Exchange Online Protection (EOP) e os recursos adicionais no Office 365 Advanced Threat Protection (Office 365 ATP) podem ajudar.
 
 ## <a name="anti-phishing-protection-in-eop"></a>Proteção contra phishing no EOP
 
 EOP (ou seja, as organizações Microsoft 365 sem ATP) contêm recursos que podem ajudar a proteger sua organização contra ameaças de phishing:
 
-- **Inteligência contra falsificação**: Revise as mensagens falsas dos remetentes em domínios internos e externos e permita ou bloqueie esses remetentes. Para obter mais informações, contra [Configurar a inteligência contra falsificação no Microsoft 365](learn-about-spoof-intelligence.md).
+- **Inteligência contra falsificação**: Revise as mensagens falsas dos remetentes em domínios internos e externos e permita ou bloqueie esses remetentes. Para obter mais informações, consulte [Configure spoof Intelligence in EOP](learn-about-spoof-intelligence.md).
 
 - **Políticas anti-phishing no EOP**: ativar ou desativar a inteligência de falsificação, ativar ou desativar a identificação de remetente não autenticado no Outlook e especificar a ação para remetentes falsificados bloqueados (mover para a pasta lixo eletrônico ou quarentena). Para obter mais informações, consulte [Configure anti-phishing Policies in EOP](configure-anti-phishing-policies-eop.md).
 

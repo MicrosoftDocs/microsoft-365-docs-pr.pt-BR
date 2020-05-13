@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para a área de trabalho, aplicativos do Office para dispositivos móveis e aplicativos do Office para a Web. Descubra quais aplicativos dão suporte a rótulos de confidencialidade.
-ms.openlocfilehash: db450bae565151fd3f3472217cbd5a0f03a3ab79
-ms.sourcegitcommit: 5b7630b8692c692aef3eefc8857f46a7ee172dfd
+ms.openlocfilehash: 5a5b793358364efdd725de5478318a8237d78ca8
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44174055"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208065"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -56,7 +56,7 @@ Para iOS e Android: onde eles têm uma versão mínima listada, o recurso de ró
 |[Fornecer ajuda para um link para uma página de ajuda personalizada](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Marcar o conteúdo](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | Distribuindo para o [canal mensal](https://docs.microsoft.com/DeployOffice/overview-update-channels#monthly-channel-for-microsoft-365-apps) (2003 +) | Distribuindo para o [canal mensal](https://docs.microsoft.com/DeployOffice/overview-update-channels#monthly-channel-for-microsoft-365-apps) (16.35 +)   | Em revisão   | Em revisão         | Em revisão                                                        |
+|[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | [Canal mensal](https://docs.microsoft.com/DeployOffice/overview-update-channels#monthly-channel-for-microsoft-365-apps) (2003 +) | [Canal mensal](https://docs.microsoft.com/DeployOffice/overview-update-channels#monthly-channel-for-microsoft-365-apps) (16.35 +)   | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Exibir o uso de rótulo com o rótulo Analytics](label-analytics.md) e enviar dados para administradores                      | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Exigir que os usuários apliquem um rótulo aos seus emails e documentos](sensitivity-labels.md#what-label-policies-can-do)   | Em revisão            | Em revisão        | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | Visualização: no [Office Insider](https://office.com/insider)                                  | Em revisão | Em revisão | Em revisão | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
@@ -119,7 +119,7 @@ Se você precisar converter modelos de proteção existentes para rótulos, use 
 
 Os rótulos de confidencialidade configurados para aplicar criptografia removem a complexidade dos usuários para especificar suas próprias configurações de criptografia. Em muitos aplicativos do Office, essas configurações de criptografia individuais ainda podem ser configuradas manualmente por usuários usando as opções de gerenciamento de direitos de informação (IRM). Por exemplo, para aplicativos do Windows:
 
-- Para um documento: **arquivo** > de**proteção** > de**informações** > de arquivo**restringir o acesso**
+- Para um documento: **arquivo**de proteção de informações de arquivo restringir o  >  **Info**  >  **Protect Document**  >  **acesso**
 - para um email: na guia **opções** > **criptografar** 
   
 Quando o usuário rotula inicialmente um documento ou um email, eles podem sempre substituir suas definições de configuração de rótulo por suas próprias configurações de criptografia. Por exemplo:

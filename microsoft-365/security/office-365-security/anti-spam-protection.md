@@ -18,20 +18,20 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba mais sobre as configurações e filtros antispam que ajudarão você a evitar spam no Exchange Online e no Microsoft 365.
-ms.openlocfilehash: 96132bf66438861eb117aedd841f7912de1258cc
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Os administradores podem aprender sobre as configurações e filtros antispam que ajudarão a evitar spam na proteção do Exchange Online (EOP).
+ms.openlocfilehash: d7c58fd4751bc7d92d5dfa3cadcfb7b24a3fc465
+ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034053"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44211411"
 ---
-# <a name="anti-spam-protection-in-microsoft-365"></a>Proteção antispam no Microsoft 365
+# <a name="anti-spam-protection-in-eop"></a>Proteção antispam no EOP
 
 > [!NOTE]
-> Este tópico destina-se ao Microsoft 365 admins. Para os tópicos do usuário final, confira [visão geral do filtro de lixo eletrônico](https://support.Microsoft.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) e [saiba mais sobre lixo eletrônico e phishing](https://support.Microsoft.com/article/86c1d76f-4d5a-4967-9647-35665dc17c31).
+> Este tópico destina-se a administradores. Para os tópicos do usuário final, confira [visão geral do filtro de lixo eletrônico](https://support.Microsoft.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) e [saiba mais sobre lixo eletrônico e phishing](https://support.Microsoft.com/article/86c1d76f-4d5a-4967-9647-35665dc17c31).
 
-Se você for um cliente da Microsoft 365 com caixas de correio no Exchange Online ou um cliente autônomo do Exchange Online Protection (EOP), sem caixas de correio do Exchange Online, suas mensagens de email serão automaticamente protegidas contra spam (lixo eletrônico) pelo EOP.
+Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, as mensagens de email são automaticamente protegidas contra spam (lixo eletrônico) por EOP.
 
 O mapa de segurança de email da Microsoft envolve uma abordagem de vários produtos sem correspondência. A tecnologia antispam e anti-phishing do EOP é aplicada em nossas plataformas de email para fornecer aos usuários as últimas ferramentas antispam e anti-phishing e as inovações em toda a rede. O objetivo do EOP é oferecer um serviço de email abrangente e útil que ajuda a detectar e proteger os usuários contra lixo eletrônico, ameaças de email fraudulentas (phishing) e malware.
 
@@ -43,7 +43,7 @@ Para ajudar a reduzir o lixo eletrônico, o EOP inclui proteção de lixo eletr�
 
 As configurações antispam no EOP são feitas das seguintes tecnologias:
 
-- **Filtragem de conexão**: identifica servidores de origem de email bons e ruins no início da conexão de email de entrada por meio da lista de IPs permitidos, da lista de IPs bloqueados e da *lista segura* (uma lista dinâmica, mas não editável de remetentes confiáveis mantidos pela Microsoft). Você define essas configurações na política de filtro de conexão. Saiba mais em [Configurar filtragem de conexão no Microsoft 365](configure-the-connection-filter-policy.md).
+- **Filtragem de conexão**: identifica servidores de origem de email bons e ruins no início da conexão de email de entrada por meio da lista de IPs permitidos, da lista de IPs bloqueados e da *lista segura* (uma lista dinâmica, mas não editável de remetentes confiáveis mantidos pela Microsoft). Você define essas configurações na política de filtro de conexão. Saiba mais em [Configurar filtragem de conexão](configure-the-connection-filter-policy.md).
 
   > [!NOTE]
   > O spoof Intelligence usa a filtragem de conexão para criar listas de permissões e bloqueios de remetentes que estão falsificando seu domínio de email. Para obter mais informações, consulte [saiba mais sobre o spoof Intelligence no Microsoft 365](learn-about-spoof-intelligence.md).
@@ -105,7 +105,7 @@ Veja algumas etapas que você pode executar para ajudar a evitar positivos falso
 
   Para obter mais informações sobre essas configurações, consulte [definir configurações de lixo eletrônico em caixas de correio do Exchange Online no Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
-- **Use as listas de remetentes seguros disponíveis**: para obter informações, consulte [criar listas de remetentes confiáveis] (criar-Safe-Sender-Lists-in-office-365.MD.
+- **Use as listas de remetentes seguros disponíveis**: para saber mais, confira [criar listas de remetentes seguros](create-safe-sender-lists-in-office-365.md).
 
 - **Verifique se os usuários estão dentro dos limites de envio e recebimento** , conforme descrito em [recebendo e enviando limites](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits) na descrição do serviço do Exchange Online.
 

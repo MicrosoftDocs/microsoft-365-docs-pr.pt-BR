@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve como gerenciar as principais ocorrências de descoberta eletrônica. Isso inclui fechar uma ocorrência, reabrir uma ocorrência fechada e excluir uma ocorrência.
-ms.openlocfilehash: 41ba622a58b0abb5ce668e6d94d89b1694a328c9
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.openlocfilehash: 45282486c2c3b1d00b99a1cda5968b3bb042f6c2
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551354"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208413"
 ---
 # <a name="close-reopen-and-delete-a-core-ediscovery-case"></a>Fechar, reabrir e excluir uma ocorrência de descoberta eletrônica principal
 
@@ -42,7 +42,7 @@ Quando o caso ou investigação legal suportado por uma caixa de descoberta elet
 
 Para fechar uma ocorrência:
   
-1. No centro de conformidade da Microsoft 365, clique em**central** de **descoberta eletrônica** > para exibir a lista de casos de descoberta eletrônica principal em sua organização.
+1. No centro de conformidade da Microsoft 365, clique em Central de **descoberta eletrônica**  >  **Core** para exibir a lista de principais casos de descoberta eletrônica em sua organização.
 
 2. Clique no nome do caso que você deseja fechar.
 
@@ -66,7 +66,7 @@ Para fechar uma ocorrência:
 
 Quando você reabrir um caso, qualquer bloqueio de descoberta eletrônica que estava no lugar quando o caso foi fechado não será restabelecido automaticamente. Depois que o caso for reaberto, você terá que ir para a página de **isenções** e ativar as isenções anteriores. Para ativar uma retenção, selecione-a para exibir a página do submenu e, em seguida, defina o **status** de alternância como **ativado**.
   
-1. No centro de conformidade da Microsoft 365, clique em**central** de **descoberta eletrônica** > para exibir a lista de casos de descoberta eletrônica principal em sua organização.
+1. No centro de conformidade da Microsoft 365, clique em Central de **descoberta eletrônica**  >  **Core** para exibir a lista de principais casos de descoberta eletrônica em sua organização.
 
 2. Clique no nome do caso que você deseja reabrir.
 
@@ -102,7 +102,7 @@ Para excluir uma retenção de descoberta eletrônica:
 
 Para excluir uma ocorrência:
 
-1. No centro de conformidade da Microsoft 365, clique em**central** de **descoberta eletrônica** > para exibir a lista de casos de descoberta eletrônica principal em sua organização.
+1. No centro de conformidade da Microsoft 365, clique em Central de **descoberta eletrônica**  >  **Core** para exibir a lista de principais casos de descoberta eletrônica em sua organização.
 
 2. Clique no nome do caso que você deseja excluir.
 

@@ -13,16 +13,16 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Os administradores podem saber mais sobre os códigos de erro associados à entrega de mensagens usando conectores (também conhecidos como inteligência de fluxo de emails).
-ms.openlocfilehash: aa156299dcc835369b7eb69bb5719b27078d8404
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 55b57e4b487444abb57bcc184ef6fd742ea9dc1d
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635631"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44206611"
 ---
-# <a name="mail-flow-intelligence"></a>Inteligência de fluxo de emails
+# <a name="mail-flow-intelligence-in-eop"></a>Inteligência de fluxo de emails no EOP
 
-Normalmente, você usa um conector para rotear mensagens de email de sua organização para seu ambiente de email local. Você também pode usar um conector para rotear mensagens do Microsoft 365 para uma organização parceira. Quando o Microsoft 365 não consegue entregar essas mensagens por meio do conector, elas são colocadas em fila no Microsoft 365. O Microsoft 365 continuará a entregar a entrega de cada mensagem por 24 horas. Após 24 horas, a mensagem na fila expirará, e a mensagem será retornada ao remetente original em uma notificação de falha na entrega (também conhecida como uma mensagem de erro NDR ou de retorno).
+Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, você geralmente usa um conector para rotear mensagens de email do EOP para seu ambiente de email local. Você também pode usar um conector para rotear mensagens do Microsoft 365 para uma organização parceira. Quando o Microsoft 365 não consegue entregar essas mensagens por meio do conector, elas são colocadas em fila no Microsoft 365. O Microsoft 365 continuará a entregar a entrega de cada mensagem por 24 horas. Após 24 horas, a mensagem na fila expirará, e a mensagem será retornada ao remetente original em uma notificação de falha na entrega (também conhecida como uma mensagem de erro NDR ou de retorno).
 
 O Microsoft 365 gera um erro quando uma mensagem não pode ser entregue usando um conector. Os erros mais comuns e suas soluções são descritos neste tópico. Coletivamente, os erros de enfileiramento e notificação para mensagens não entregues enviadas via conectores são conhecidos como _inteligência de fluxo de emails_.
 
@@ -68,13 +68,13 @@ Normalmente, esse erro significa que o Microsoft 365 encontrou um erro de conex�
 
   - No [centro de administração do Exchange (Eat)](https://docs.microsoft.com/Exchange/exchange-admin-center), desabilite ou exclua o conector que entrega emails do Microsoft 365 para seu ambiente de email local:
 
-    1. No Eat, vá para \> **conectores**de **fluxo de emails** .
+    1. No Eat, vá para conectores de **fluxo de emails** \> **Connectors**.
 
     2. Selecione o conector com o valor **de do** **Office 365** e o valor **para para** o **servidor de email da sua organização** e execute uma das seguintes etapas:
 
-       - Exclua o conector clicando no ícone **excluir** ![remover](../../media/adf01106-cc79-475c-8673-065371c1897b.gif)
+       - Exclua o conector clicando no ícone **excluir** ![ remover](../../media/adf01106-cc79-475c-8673-065371c1897b.gif)
 
-       - Desabilite o conector clicando em **Editar** ![ícone](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) de edição e desmarcando **ativá-lo**.
+       - Desabilite o conector clicando em **Editar** ![ ícone ](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) de edição e desmarcando **ativá-lo**.
 
   - Altere o domínio aceito no Microsoft 365 associado ao seu ambiente de email local da **retransmissão interna** para **autoritativa**. Para obter instruções, consulte [gerenciar domínios aceitos no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
@@ -86,7 +86,7 @@ Normalmente, esse erro significa que o Microsoft 365 encontrou um erro de conex�
 
 Normalmente, esse erro significa que o Microsoft 365 está conectado ao servidor de email de destino, mas o servidor respondeu com um erro imediato ou não atende aos requisitos de conexão. Os detalhes do erro explicarão o problema. Por exemplo:
 
-- O servidor de email de destino respondeu com um erro "serviço não disponível", que indica que o servidor não pode manter a comunicação com o Office 365.
+- O servidor de email de destino respondeu com um erro "serviço não disponível", que indica que o servidor não pode manter a comunicação com o Microsoft 365.
 
 - O conector é configurado para exigir TLS, mas o servidor de email de destino não dá suporte a TLS.
 
@@ -102,15 +102,15 @@ Normalmente, esse erro significa que a Microsoft 365 está tendo dificuldade par
 
 - O firewall usa regras de exame de pacotes SMTP e essas regras não estão funcionando corretamente.
 
-- Seu servidor de email local não está funcionando corretamente (por exemplo, bloqueios de serviço, panes ou recursos de sistema Baixos), que está causando o tempo limite do servidor e fecha a conexão com o Office 365.
+- Seu servidor de email local não está funcionando corretamente (por exemplo, bloqueios de serviço, panes ou recursos de sistema Baixos), que está causando o tempo limite do servidor e feche a conexão com o Microsoft 365.
 
-- Há problemas de rede entre seu ambiente local e o Office 365.
+- Há problemas de rede entre seu ambiente local e o Microsoft 365.
 
 ### <a name="how-do-i-fix-error-code-450-44318"></a>Como corrigir o código de erro 450 4.4.318?
 
 - Descubra qual cenário se aplica a você e faça as correções necessárias.
 
-- Se o problema for causado por problemas de rede entre seu ambiente local e o Office 365, entre em contato com sua equipe de rede para solucionar o problema.
+- Se o problema for causado por problemas de rede entre seu ambiente local e o Microsoft 365, entre em contato com sua equipe de rede para solucionar o problema.
 
 - Se o erro for da organização de seu parceiro (por exemplo, um provedor de serviços de nuvem de terceiros), você precisará entrar em contato com seu parceiro para corrigir o problema.
 

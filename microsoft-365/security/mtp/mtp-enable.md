@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 394fceffb96350b7702c5eef4a8138b3eb53f714
-ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
+ms.openlocfilehash: 9a57929e42f08db8abda170c889441d3a50ade72
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44016069"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209242"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Habilitar a Proteção contra Ameaças da Microsoft
 
@@ -45,22 +45,27 @@ Você deve ser um **administrador global** ou um **administrador de segurança**
 
 ## <a name="start-using-the-service"></a>Começar a usar o serviço
 
+>[!IMPORTANT]
+>A partir de 12 de maio de 2020, a Microsoft irá distribuir novas experiências otimizadas em torno [dos requisitos de licenciamento](prerequisites.md#licensing-requirements) e ativando a proteção contra ameaças da Microsoft. Durante várias semanas durante esse período, alguns clientes começarão a ver as alterações nas experiências do Portal. As informações sobre as novas experiências são marcadas como **nova experiência** neste artigo.
+
 A proteção contra ameaças da Microsoft agrega dados dos vários serviços integrados. Ele processará e armazenará dados centralmente para identificar novas insights e tornar os fluxos de trabalho de resposta centralizados possíveis. Ele faz isso sem afetar as implantações, as configurações ou os dados existentes associados aos serviços integrados.
 
 Antes de ativar o serviço, o centro de segurança do Microsoft 365 ([Security.Microsoft.com](https://security.microsoft.com)) mostra a página de boas-vindas da proteção contra ameaças da Microsoft ao selecionar **incidentes**, a **central de ações**ou a **busca** no painel de navegação. Essas opções de navegação não são mostradas se você não estiver qualificado para usar a proteção contra ameaças da Microsoft.
 
-![Imagem da página de boas-vindas da proteção contra ameaças da Microsoft mostra se a proteção](../../media/mtp-welcome.png)
-contra ameaças da Microsoft não foi ativada na*página de boas-vindas do Microsoft 365 Security Center*
+![Imagem da página de boas-vindas da proteção contra ameaças da Microsoft mostra se a proteção contra ameaças da Microsoft não foi ativada na ](../../media/mtp-welcome.png)
+ *página de boas-vindas do Microsoft 365 Security Center*
 
 Para ativar a proteção contra ameaças da Microsoft, basta concluir o processo na página de boas-vindas. Você também pode ativar a proteção contra ameaças da Microsoft acessando **configurações** ([Security.Microsoft.com/Settings](https://security.microsoft.com/settings)) no painel de navegação e selecionando **proteção contra ameaças da Microsoft**.
 
 >[!NOTE]
->Se você não vir **as configurações** no painel de navegação ou não conseguir acessar a página, verifique suas permissões e licenças.       
+>Se você não vir **as configurações** no painel de navegação ou não conseguir acessar a página, verifique suas permissões e licenças.
 
 ### <a name="select-data-center-location"></a>Selecionar local do Data Center
 Se o Microsoft Defender ATP tiver sido provisionado para sua organização, os dados serão armazenados e processados no mesmo local do data center que você selecionou para [os dados do Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy). Caso não tenha o Microsoft Defender ATP, será solicitado que você escolha um novo local de data center especificamente para a Proteção contra Ameaças da Microsoft. 
  
 Você precisa fornecer consentimento antes que os dados sejam compartilhados entre os serviços e agregados.
+
+**Nova experiência:** A partir de 12 de maio de 2020, os clientes receberão gradualmente alterações nessa experiência. Para aqueles com a nova experiência, o serviço seleciona automaticamente o local ideal do Data Center para seus dados agregados com base em seus serviços de segurança do Microsoft 365 existentes. O local do Data Center selecionado é mostrado na tela.
 
 ### <a name="confirm-that-the-service-is-on"></a>Confirmar se o serviço está ativado
 Depois que o serviço é provisionado, ele adiciona:
@@ -69,8 +74,8 @@ Depois que o serviço é provisionado, ele adiciona:
 - Uma central de ações para gerenciar [investigações e respostas automatizadas](mtp-autoir.md)
 - Recursos [avançados de busca](advanced-hunting-overview.md)
 
-![Imagem do painel de navegação do centro de segurança do Microsoft 365 com](../../media/mtp-on.png)
-o Microsoft Threat Protection apresenta a*central de segurança da Microsoft 365 com gerenciamento de incidentes e outros recursos de proteção contra ameaças da Microsoft*
+![Imagem do painel de navegação do centro de segurança do Microsoft 365 com o Microsoft Threat Protection apresenta a ](../../media/mtp-on.png)
+ *central de segurança da Microsoft 365 com gerenciamento de incidentes e outros recursos de proteção contra ameaças da Microsoft*
 
 ### <a name="getting-azure-atp-data"></a>Obter dados da ATP do Azure
 Para compartilhar dados da ATP do Azure com a Proteção contra Ameaças da Microsoft, verifique se a integração do Microsoft Cloud App Security e da ATP do Azure está ativada. [Saiba mais sobre esta integração](https://docs.microsoft.com/cloud-app-security/aatp-integration) 

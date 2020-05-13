@@ -1,11 +1,11 @@
 ---
-title: Proteger a caixa de correio local-proteção do Exchange Online
+title: Proteger caixas de correio locais na China com EOP autônomo
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 6/1/2017
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -20,15 +20,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Neste artigo, você aprenderá como proteger caixas de correio locais com o Exchange Online Protection (EOP)
-ms.openlocfilehash: bdfebf16d77f26f3e3bb2890bd4aa8ccfa12f27b
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Os administradores da China usando o Office 365 operado pela 21Vianet podem aprender a usar o proteção do Exchange Online (EOP) autônomo para proteger suas caixas de correio locais.
+ms.openlocfilehash: 6ce85e626f9bf4c960de57ad5cd15ac3148954cb
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033873"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208289"
 ---
-# <a name="protect-on-premises-mailboxes-with-exchange-online-protection"></a>Proteger caixas de correio locais com o Exchange Online Protection
+# <a name="protect-on-premises-mailboxes-in-china-with-standalone-eop"></a>Proteger caixas de correio locais na China com EOP autônomo
 
 > [!NOTE]
 > Este artigo aplica-se somente ao Office 365 operado pela 21Vianet na China.
@@ -65,7 +65,7 @@ Após configurar os conectores, espere 72 horas para permitir a propagação das
 
 ## <a name="step-5-ensure-that-spam-is-routed-to-each-users-junk-email-folder"></a>Etapa 5: garantir que o spam seja roteado para a pasta de lixo eletrônico de cada usuário
 
-Para garantir que o spam (lixo eletrônico) é roteado corretamente para a pasta de Lixo Eletrônico de cada usuário, é necessário realizar alguns passos de configuração. As etapas são fornecidas em [Configurar o EOP autônomo para fornecer spam para a pasta lixo eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md). Se não quiser mover mensagens para a pasta de Lixo Eletrônico de cada usuário, você pode escolher outra ação editando suas políticas de filtro de conteúdo no centro de administração do Exchange. Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
+Para garantir que o spam (lixo eletrônico) é roteado corretamente para a pasta de Lixo Eletrônico de cada usuário, é necessário realizar alguns passos de configuração. As etapas são fornecidas em [Configurar o EOP autônomo para fornecer spam para a pasta lixo eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md). Se não quiser mover mensagens para a pasta de lixo eletrônico de cada usuário, você pode escolher outra ação editando suas políticas antispam (também conhecidas como políticas de filtro de conteúdo). Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Etapa 6: usar o centro de administração do Microsoft 365 para apontar o seu registro MX para o EOP
 
