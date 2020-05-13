@@ -15,16 +15,16 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre documentos seguros no Office 365 ATP.
-ms.openlocfilehash: b70c7013ce038a3934b7ea5e62d1d0530f12e4e6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 11c2736edee3dd1fcbc2560d5fa574def05a8f6e
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634311"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213111"
 ---
-# <a name="safe-documents-in-office-365-advanced-threat-protection"></a>Documentos seguros no Office 365 proteção avançada contra ameaças
+# <a name="safe-documents-in-office-365-advanced-threat-protection"></a>Documentos Seguros na Proteção Avançada contra Ameaças do Office 365
 
-Documentos seguros é um recurso da proteção avançada contra ameaças do Office 365 (ATP) que usa a [proteção avançada contra ameaças do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) para verificar documentos e arquivos abertos no [modo de exibição protegido](https://support.office.com/article/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653).
+Documentos seguros é um recurso da proteção avançada contra ameaças do Office 365 (Office 365 ATP) que usa a [proteção avançada contra ameaças do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) para verificar documentos e arquivos abertos no [modo de exibição protegido](https://support.office.com/article/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -32,17 +32,22 @@ Documentos seguros é um recurso da proteção avançada contra ameaças do Offi
 
 - No momento, documentos seguros estão disponíveis para visualização pública, disponível para os usuários que fazem parte do [programa Office Insider](https://insider.office.com/en-us/join) no ' canal mensal (direcionado) ' com o office versão 2002 (12527,20092) ou superior. Esse recurso está desativado por padrão e deverá ser habilitado pelo administrador de segurança.
 
-- No momento, apenas a região americana tem suporte para processamento de arquivos em conformidade (todos os arquivos viajarão para a região dos EUA para verificação). O suporte para região UK/UE é planejado em uma atualização futura.
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell do EOP autônomo, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
-- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell do Exchange Online Protection, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Você precisa ter permissões para poder executar os procedimentos deste tópico. Para habilitar e configurar documentos seguros, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de administrador de **segurança** . Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
-- Você precisa ter permissões para poder executar os procedimentos deste tópico. Para habilitar e configurar documentos seguros, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de administrador de **segurança** . Para obter mais informações sobre grupos de função no centro de conformidade de & de segurança, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
+## <a name="how-does-microsoft-handle-your-data"></a>Como a Microsoft lida com seus dados?
+
+Para mantê-lo protegido, documentos seguros enviam arquivos para a nuvem de [proteção avançada contra ameaças do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) para análise.
+
+- Detalhes sobre como a proteção de thread avançada do Microsoft defender lida com seus dados pode ser encontrada [aqui](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+- Além das diretrizes acima, os arquivos enviados por documentos seguros não são mantidos no defender além do tempo necessário para análise, que normalmente é menor que 24 horas
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Usar o centro de conformidade de & de segurança para configurar documentos seguros
 
-1. Abra o centro de conformidade & segurança <https://protection.office.com>em.
+1. Abra o centro de conformidade & segurança em <https://protection.office.com> .
 
-2. Vá para **Threat management** \> **política** \> de gerenciamento de ameaças **anexos seguros de ATP**.
+2. Vá para política de **Gerenciamento de ameaças** \> **Policy** \> **anexos seguros de ATP**.
 
 3. Na seção **ajudar as pessoas a permanecerem seguras ao confiar em um arquivo para abrir fora do modo de exibição protegido em aplicativos do Office** , configure qualquer uma das seguintes configurações:
 
@@ -54,7 +59,7 @@ Documentos seguros é um recurso da proteção avançada contra ameaças do Offi
 
 ![Página de anexos seguros de ATP](../../media/safe-docs.png)
 
-### <a name="use-exchange-online-powershell-or-exchange-online-protection-powershell-to-configure-safe-documents"></a>Usar o PowerShell do Exchange Online ou do Exchange Online Protection para configurar documentos seguros
+### <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-safe-documents"></a>Usar o PowerShell do Exchange Online ou o PowerShell do EOP para configurar documentos seguros
 
 Use a seguinte sintaxe:
 
@@ -78,7 +83,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-AtpPol
 
 Para verificar se você habilitou e configurou documentos seguros, execute uma das seguintes etapas:
 
-- No centro de conformidade & segurança, vá para a **política** \> de **Gerenciamento** \> de ameaças de **anexos seguros de ATP**e verifique as seleções na seção **ajuda para manter a segurança ao confiar em um arquivo para abrir fora do modo de exibição protegido em aplicativos do Office** .
+- No centro de conformidade & segurança, vá para a política de **Gerenciamento de ameaças** de \> **Policy** \> **anexos seguros de ATP**e verifique as seleções na seção **ajuda para manter a segurança ao confiar em um arquivo para abrir fora do modo de exibição protegido em aplicativos do Office** .
 
 - Execute o seguinte comando no PowerShell do Exchange Online e verifique os valores de propriedade:
 

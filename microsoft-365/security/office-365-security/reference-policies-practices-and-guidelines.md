@@ -2,10 +2,10 @@
 title: Políticas de referência, práticas e diretrizes
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 12/09/2016
+ms.date: ''
 audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: A Microsoft desenvolveu várias políticas, procedimentos e adotou várias práticas recomendadas do setor para ajudar a proteger os usuários de emails ofensivos, indesejados ou mal-intencionados.
-ms.openlocfilehash: 6e73355c02e0416a80441aff8143fcbf51150b94
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9684453503329e955c21051885c5d93e8c927c48
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634383"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208205"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Referência: políticas, práticas e diretrizes
 
@@ -31,9 +31,9 @@ Se você não estiver em conformidade com essas políticas e diretrizes, talvez 
 
 ## <a name="general-microsoft-policies"></a>Políticas gerais da Microsoft
 
-Email enviado para o Microsoft 365 os usuários devem estar em conformidade com todas as políticas da Microsoft que regem a transmissão e o uso de email do Office 365.
+Os emails enviados para o Microsoft 365 os usuários devem estar em conformidade com todas as políticas da Microsoft que regem a transmissão de email e o uso do Microsoft 365.
 
-- Termos de serviços aplicáveis ao Office 365; em particular, a proibição contra o uso do serviço para spam ou distribuição de malware
+- Termos de serviços aplicáveis ao Microsoft 365; em particular, a proibição contra o uso do serviço para spam ou distribuição de malware.
 
 - [Contrato de serviços Microsoft](https://www.microsoft.com/servicesagreement/)
 
@@ -85,7 +85,7 @@ A Microsoft trabalha ativamente com órgãos de mercado e provedores de serviço
 
 - [Aliança de confiança online](https://www.otalliance.org/resources)
 
-- [Coalition de &amp; provedor de remetente de email](https://www.espcoalition.org/)
+- [Remetente de email & provedor de Coalition](https://www.espcoalition.org/)
 
 ## <a name="abuse-and-spam-reporting"></a>Relatórios de abuso e spam
 

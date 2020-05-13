@@ -16,16 +16,16 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: Use o novo painel de segurança para analisar o status de proteção contra ameaças do Office 365 e exibir e agir em alertas de segurança.
-ms.openlocfilehash: 3b6d754505d0e23f1080520e66061b8f6fef523e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d750c0055a9a55f573e4b920166284f6d95ae70f
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632512"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208031"
 ---
 # <a name="security-dashboard"></a>Painel de segurança
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O [centro de conformidade & segurança](../../compliance/go-to-the-securitycompliance-center.md) permite que sua organização gerencie a proteção e a conformidade dos dados. Supondo que você tenha as permissões necessárias, o painel de segurança permite que você revise o status da proteção contra ameaças, bem como o modo de exibição e agir nos alertas de segurança.
 
@@ -35,7 +35,7 @@ Assista ao vídeo para obter uma visão geral e leia este artigo para saber mais
 
 Dependendo da assinatura que a sua organização inclui, o painel de segurança inclui vários widgets, como Resumo de gerenciamento de ameaças, status de proteção contra ameaças, detecções semanais globais de ameaças, malware e muito mais, conforme descrito nas seções a seguir.
 
-Para exibir o painel de segurança, no [centro de conformidade & segurança](../../compliance/go-to-the-securitycompliance-center.md), vá para o **painel** **Gerenciamento** \> de ameaças.
+Para exibir o painel de segurança, no [centro de conformidade & segurança](../../compliance/go-to-the-securitycompliance-center.md), vá para o painel **Gerenciamento de ameaças** \> **Dashboard**.
 
 > [!NOTE]
 > Você deve ser um administrador global, um administrador de segurança ou um leitor de segurança para exibir o painel de segurança. Alguns widgets exigem permissões adicionais para exibir. Para saber mais, confira [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
@@ -61,7 +61,7 @@ O widget status de proteção contra ameaças mostra a eficácia da proteção c
 
 ![Widget status de proteção contra ameaças](../../media/tpswidget.png)
 
-Os detalhes dependem de sua assinatura do Microsoft 365 incluir o [Exchange Online Protection](exchange-online-protection-eop.md) (EOP) com ou sem o [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP).
+Os detalhes dependem de sua assinatura do Microsoft 365 incluir o [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) com ou sem o [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP).
 
 |||
 |---|---|

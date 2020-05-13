@@ -16,17 +16,17 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Saiba como habilitar o suplemento de mensagem de relatório para o Outlook e o Outlook na Web, para usuários individuais ou para toda a organização.
-ms.openlocfilehash: 22ce1c8e8084cb0bcbcb2f9fa4c0c80e1a59bf9c
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: 67fe2112e5d507ac1f0dc78ffa3534ebc9874916
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939470"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209482"
 ---
 # <a name="enable-the-report-message-add-in"></a>Habilitar o suplemento de Mensagem de Relatório
 
 > [!NOTE]
-> Se você for um administrador em uma organização com caixas de correio do Exchange Online, recomendamos que você use o portal de envios no centro de conformidade do & de segurança. Para obter mais informações, consulte [usar o envio do administrador para enviar spam, phishing, URLs e arquivos suspeitos à Microsoft](admin-submission.md).
+> Se você for um administrador em uma organização do Microsoft 365 com caixas de correio do Exchange Online, recomendamos que você use o portal de envios no centro de conformidade de & de segurança. Para obter mais informações, consulte [usar o envio do administrador para enviar spam, phishing, URLs e arquivos suspeitos à Microsoft](admin-submission.md).
 
 O suplemento de mensagem de relatório para o Outlook e o Outlook na Web (anteriormente conhecido como Outlook Web App) permite que as pessoas relatem facilmente falsos positivos (emails satisfatórios marcados como defeituosos) ou falsos negativos (emails inválidos permitidos) para a Microsoft e seus afiliados para análise. A Microsoft usa esses envios para melhorar a eficácia das tecnologias de proteção de email.
 
@@ -54,7 +54,7 @@ Se você for um administrador global ou um administrador do Exchange Online e o 
   - Caixas de correio em organizações do Exchange local
   - Assinaturas GCC, GCC alta ou DoD
 
-- Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [especificar uma caixa de correio para envios de emails de spam e mensagens de phishing no Office 365](user-submission.md).
+- Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [especificar uma caixa de correio para envios de emails de spam e mensagens de phishing no Exchange Online](user-submission.md).
 
 - O navegador da Web existente deverá funcionar com o suplemento de mensagem de relatório. Mas, se você notar que o suplemento não está disponível ou não está funcionando conforme o esperado, tente um navegador diferente.
 
@@ -64,7 +64,7 @@ Se você for um administrador global ou um administrador do Exchange Online e o 
 
 ## <a name="get-the-report-message-add-in-for-yourself"></a>Obter o suplemento de mensagem de relatório para você mesmo
 
-1. Vá para o Microsoft AppSource em <https://appsource.microsoft.com/marketplace/apps> e procure o suplemento de mensagem de relatório. Para ir diretamente para o suplemento de mensagem de relatório, acesse <https://appsource.microsoft.com/product/office/wa104381180>.
+1. Vá para o Microsoft AppSource em <https://appsource.microsoft.com/marketplace/apps> e procure o suplemento de mensagem de relatório. Para ir diretamente para o suplemento de mensagem de relatório, acesse <https://appsource.microsoft.com/product/office/wa104381180> .
 
 2. Clique em **obter agora**.
 
@@ -91,7 +91,7 @@ Para saber como usar o suplemento, confira [usar o suplemento de mensagem de rel
 > [!NOTE]
 > Pode levar até 12 horas para que o suplemento apareça em sua organização.
 
-1. No centro de administração do Microsoft 365, vá para a página <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> **Serviços & suplementos** e clique em **implantar suplemento**.
+1. No centro de administração do Microsoft 365, vá para a página **serviços & suplementos** <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> e clique em **implantar suplemento**.
 
    ![Página serviços e suplementos no centro de administração do Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
@@ -101,7 +101,7 @@ Para saber como usar o suplemento, confira [usar o suplemento de mensagem de rel
 
    ![Implantar uma nova página de suplemento](../../media/NewAddInScreen2.png)
 
-4. Na página **selecionar suplemento** que aparece, clique na caixa de **pesquisa** , insira uma mensagem de **relatório**e clique em ícone](../../media/search-icon.png)de pesquisa de **pesquisa** ![. Na lista de resultados, encontre **mensagem de relatório** e clique em **Adicionar**.
+4. Na página **selecionar suplemento** que aparece, clique na caixa de **pesquisa** , insira uma mensagem de **relatório**e clique em ícone de pesquisa de **pesquisa** ![ ](../../media/search-icon.png) . Na lista de resultados, encontre **mensagem de relatório** e clique em **Adicionar**.
 
    ![Selecionar resultados de pesquisa de suplemento](../../media/NewAddInScreen3.png)
 
@@ -118,7 +118,7 @@ Para saber como usar o suplemento, confira [usar o suplemento de mensagem de rel
    - **Método de implantação**: selecione um dos seguintes valores:
 
      - **Fixo (padrão)**: o suplemento é implantado automaticamente para os usuários especificados, e eles não podem removê-lo.
-     - **Disponível**: os usuários podem instalar o suplemento em **casa** \> **Get de suplementos** \> do **administrador**.
+     - **Disponível**: os usuários podem instalar o suplemento em **casa** \> **Get de suplementos** do \> **administrador**.
      - **Opcional**: o suplemento é implantado automaticamente para os usuários especificados, mas eles podem optar por removê-lo.
 
    ![Configurar página de suplemento](../../media/configure-add-in.png)
@@ -149,7 +149,7 @@ Ao notificar os usuários sobre o suplemento de mensagens de relatório, inclua 
 
 ## <a name="review-or-edit-settings-for-the-report-message-add-in"></a>Revise ou edite as configurações do suplemento de mensagem de relatório
 
-1. No centro de administração do Microsoft 365, acesse a página de **suplementos de &** de <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns>serviços em.
+1. No centro de administração do Microsoft 365, acesse a página de **suplementos de & de serviços** em <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> .
 
    ![Página serviços e suplementos no novo centro de administração do Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 

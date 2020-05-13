@@ -16,12 +16,12 @@ ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 ms.collection:
 - M365-security-compliance
 description: Saiba como o pool de entrega de alto risco é usado para proteger a reputação de servidores de email nos datacenters do Microsoft 365.
-ms.openlocfilehash: 7fb4788361534335be1e07bae44ed7511bebe434
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 190dc3bd7ed2a6cddb23c8bc7c117dee30fd4f13
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638029"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209182"
 ---
 # <a name="high-risk-delivery-pool-for-outbound-messages"></a>Pool de entrega de alto risco para mensagens de saída
 
@@ -45,11 +45,8 @@ O pool de entrega de alto risco de saída gerencia a entrega de todas as notific
 As possíveis causas para uma sobrecarga nos NDRs incluem:
 
 - Uma campanha de falsificação que afeta um dos clientes que usam o serviço.
-
 - Um ataque de coleta de diretório.
-
 - Um ataque de spam.
-
 - Um servidor de emails não autorizados.
 
 Todos esses problemas podem resultar em um aumento repentino no número de NDRs que estão sendo processados pelo serviço. Muitas vezes, esses NDRs parecem ser spam para outros servidores de email e serviços (também conhecidos como _[dispersão](backscatter-messages-and-eop.md)_).

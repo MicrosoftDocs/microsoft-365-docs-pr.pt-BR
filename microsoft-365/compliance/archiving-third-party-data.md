@@ -20,12 +20,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como importar dados de terceiros de plataformas de mídia social, plataformas de mensagens instantâneas e plataformas de colaboração de documentos para caixas de correio do Microsoft 365.
-ms.openlocfilehash: 0db7019b607388b7c62fe19210b85b8410083f32
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 2d011fcb63e0ec9804ade62f9fdcd1dd95fbf798
+ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035479"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210517"
 ---
 # <a name="archive-third-party-data"></a>Arquivar dados de terceiros
 
@@ -47,14 +47,14 @@ Há duas maneiras de importar e arquivar dados de terceiros no Microsoft 365:
 
 - **Use um conector de dados de terceiros no centro de conformidade de & de segurança:** Use um conector de dados personalizado que está disponível no centro de conformidade da Microsoft 365. Após configurar e configurar o conector, ele se conecta à fonte de dados de terceiros, converte o conteúdo de um item em um formato de mensagem de email e, em seguida, importa o item para uma caixa de correio no Microsoft 365. No momento, você pode implementar conectores para importar e arquivar dados de páginas de negócios do Facebook, contas do Twitter corporativos, LinkedIn, Bloomberg do Instant e dados de recursos humanos da sua organização (RH). Para obter instruções passo a passo para configurar um desses conectores, consulte:
 
-   - **Facebook:** [usar um conector para arquivar dados do Facebook](archive-facebook-data-with-sample-connector.md)
+   - **Facebook:** [usar um conector para arquivar dados do Facebook (visualização)](archive-facebook-data-with-sample-connector.md)
 
-   - **Twitter:** [usar um conector para arquivar dados do Twitter](archive-twitter-data-with-sample-connector.md)
+   - **Twitter:** [usar um conector para arquivar dados do Twitter (versão prévia)](archive-twitter-data-with-sample-connector.md)
 
    - **LinkedIn:** [configurar um conector para arquivar dados do LinkedIn](archive-linkedin-data.md)
 
    - **Bloomberg instantâneo:** [configurar um conector para arquivar dados instantâneos do Bloomberg](archive-instant-bloomberg-data.md)
 
-   - **Dados de RH:** [configurar um conector para importar dados de RH](import-hr-data.md)
+   - **Dados de RH:** [configurar um conector para importar dados de RH (visualização)](import-hr-data.md)
 
 - **Trabalhar com um parceiro da Microsoft:** Sua organização trabalha com um parceiro da Microsoft que fornecerá um conector personalizado que será configurado para extrair itens da fonte de dados de terceiros regularmente e, em seguida, se conectar à nuvem da Microsoft por uma API de terceiros e importá-los para o Microsoft 365. O conector de parceiro também converte o conteúdo de um item da fonte de dados de terceiros em uma mensagem de email e, em seguida, importa-o para uma caixa de correio no Microsoft 365. Para obter uma lista de parceiros com os quais você pode trabalhar e o processo passo a passo desse método, confira [trabalhar com um parceiro para arquivar dados de terceiros no Microsoft 365](work-with-partner-to-archive-third-party-data.md).

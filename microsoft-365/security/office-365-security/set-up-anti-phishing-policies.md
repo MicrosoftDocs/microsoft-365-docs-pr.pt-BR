@@ -15,17 +15,17 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Neste artigo, você aprenderá a configurar a proteção contra phishing no Microsoft 365, para proteger sua organização contra ataques de phishing mal-intencionados.
-ms.openlocfilehash: bbde781114cadb6535bdb09c133d834ce23793a3
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Office 365 Advanced Threat Protection (Office 365 ATP).
+ms.openlocfilehash: 0b1342d61ab4ab1fedde63271082c577211f6595
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035327"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209806"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
-As políticas para definir as configurações de proteção anti-phishing estão disponíveis nas organizações do Microsoft 365 com caixas de correio do Exchange Online, organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online e organizações de proteção avançada contra ameaças (ATP) do Office 365.
+As políticas para definir as configurações de proteção anti-phishing estão disponíveis nas organizações do Microsoft 365 com caixas de correio do Exchange Online, organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online e organizações do Office 365 Advanced Threat Protection (Office 365 ATP).
 
 As políticas de anti-phishing do ATP só estão disponíveis em organizações que têm o Office 365 ATP. Por exemplo:
 
@@ -185,7 +185,7 @@ As configurações de representação a seguir estão disponíveis apenas em pol
 
 ### <a name="advanced-phishing-thresholds-in-atp-anti-phishing-policies"></a>Limites avançados de phishing nas políticas anti-phishing da ATP
 
-Os seguintes limites avançados de phishing estão disponíveis apenas em políticas anti-phishing da ATP para especificar como tratar mensagens de phishing detectadas:
+Os seguintes limites avançados de phishing estão disponíveis apenas em políticas anti-phishing da ATP para controlar a sensibilidade para aplicar modelos de aprendizado de máquina às mensagens para determinar uma veredicto de phishing:
 
 - **1-padrão**: Este é o valor padrão. A gravidade da ação tomada na mensagem depende do grau de confiança de que a mensagem é phishing (baixa, média, alta ou muito alta confiança). Por exemplo, as mensagens identificadas como phishing com um nível muito elevado de confiança têm as ações mais severas aplicadas, enquanto as mensagens identificadas como phishing com um baixo grau de confiança têm menos ações aplicadas.
 

@@ -1,5 +1,5 @@
 ---
-title: Centro de administração do Exchange na Proteção do Exchange Online
+title: Centro de administração do Exchange no EOP autônomo
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,29 +15,39 @@ search.appverid:
 ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
-description: O EAC (Centro de administração do Exchange) é o console de gerenciamento baseado na Web da EOP (Proteção do Exchange Online) da Microsoft.
-ms.openlocfilehash: 3b5fb014e56a9928d58abffd5e4c96e1eef463ad
-ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
+description: Saiba mais sobre a interface de gerenciamento da Web no proteção autônoma do Exchange Online (EOP).
+ms.openlocfilehash: 378754f2565604236f7ac33e471d1f991238d304
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42372489"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209701"
 ---
-# <a name="exchange-admin-center-in-exchange-online-protection"></a>Centro de administração do Exchange na Proteção do Exchange Online
+# <a name="exchange-admin-center-in-standalone-eop"></a>Centro de administração do Exchange no EOP autônomo
 
-O EAC (Centro de administração do Exchange) é o console de gerenciamento baseado na Web da EOP (Proteção do Exchange Online) da Microsoft.
-
-Procurando a versão do Exchange Server deste tópico? Confira [centro de administração do Exchange no Exchange Server](https://docs.microsoft.com/exchange/architecture/client-access/exchange-admin-center).
+O centro de administração do Exchange (Eat) é um console de gerenciamento baseado na Web para o proteção do Exchange Online (EOP) autônomo.
 
 Procurando a versão do Exchange Online deste tópico? Confira [Exchange admin center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 
-## <a name="accessing-the-eac"></a>Acessando o EAC
+## <a name="open-the-eac-in-eop"></a>Abra o Eat no EOP
 
-Na maioria dos casos, os clientes do EOP acessarão a Eat através do centro de administração do Microsoft 365. Você encontra um link para a EOP no menu suspenso no bloco **Administrador**, que fica ao lado do bloco **Eu**. Clique no bloco **administrador** e selecione **proteção do Exchange Online** no menu suspenso a ser levado para o Eat.
+Clientes autônomos do EOP podem acessar o Eat usando os seguintes métodos:
 
-You can also access the EAC sign in page directly via the following URL: `https://admin.protection.outlook.com/ecp/<companydomain>`. For example, `https://admin.protection.outlook.com/ecp/contoso.onmicrosoft.com`. After specifying your user credentials you will be taken directly into the EAC.
+- **No centro de administração do Microsoft 365**:
 
-## <a name="common-user-interface-elements-in-the-eac"></a>Elementos da interface do usuário comuns no EAC
+  1. Vá para <https://admin.microsoft.com> e clique em **Mostrar tudo**.
+
+     ![Clique em Mostrar tudo no centro de administração do Microsoft 365](../../media/m365-center-show-all.png)
+
+  2. Na seção **centros de administração** que aparece, clique em **todos os centros de administração**.
+
+     ![Clique em todos os centros de administração no centro de administração do Microsoft 365](../../media/m365-center-select-all-admin-centers.png)
+
+  3. Na página **todos os centros de administração** que aparece, clique em **proteção do Exchange Online**.
+
+- Ir diretamente para `https://admin.protection.outlook.com/ecp/` .
+
+## <a name="common-user-interface-elements-in-the-eac-in-eop"></a>Elementos de interface do usuário comuns no Eat no EOP
 
 Esta seção descreve os elementos da interface do usuário encontrados no EAC.
 
@@ -47,15 +57,20 @@ Esta seção descreve os elementos da interface do usuário encontrados no EAC.
 
 Este é o primeiro nível de navegação para a maioria das tarefas que você executará no EAC. O painel de recursos é organizado por áreas de recursos.
 
-1. **Destinatários**: aqui você exibirá usuários internos e contatos externos.
+- **Destinatários**: Este é o local em que você exibirá grupos e contatos externos.
 
-2. **Permissões**: Este é o local em que você gerenciará as funções de administrador.
+- **Permissões**: Este é o local em que você gerenciará funções de administrador.
 
-3. **Gerenciamento de conformidade**: aqui você encontrará logs e relatórios de auditoria, como o relatório do grupo de funções de administrador.
+- **Gerenciamento de conformidade**: aqui você encontrará o relatório do grupo de funções de administrador e o relatório de log de auditoria do administrador.
 
-4. **Proteção**: aqui você gerenciará a proteção antimalware e antispam para sua organização, além de gerenciar as mensagens em quarentena.
+- **Proteção**: aqui você pode gerenciar políticas Antimalware, a política de filtro de conexão padrão e o DKIM.
 
-5. **Fluxo de emails**: aqui você gerenciará regras, domínios aceitos e conectores, bem como onde você vai para executar o rastreamento de mensagens.
+  > [!NOTE]
+  > Você deve gerenciar políticas antimalware e a política de filtro de conexão padrão no centro de conformidade do & de segurança. Para obter mais informações, consulte [Configure anti-malware Policies in EOP](configure-anti-malware-policies.md) e [Configure Connection Filtering in EOP](configure-the-connection-filter-policy.md).
+
+- **Fluxo de email**: aqui você gerenciará as regras de fluxo de emails (também conhecidas como regras de transporte), domínios aceitos e conectores, bem como onde você pode ir para executar o rastreamento de mensagens.
+
+- **Híbrido**: Este é o local onde você pode executar o [Assistente de configuração híbrida](https://docs.microsoft.com/Exchange/hybrid-configuration-wizard)e onde é possível instalar o [módulo do PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell).
 
 ### <a name="tabs"></a>Guias
 
@@ -65,8 +80,9 @@ As guias são seu segundo nível de navegação. Cada uma das áreas de recursos
 
 Ao clicar na maioria das guias, você verá uma barra de ferramentas. A barra de ferramentas possui ícones que realizam ações específicas, A tabela a seguir descreve os ícones e suas ações.
 
+||||
+|---|---|---|
 |**Ícone**|**Nome**|**Action**|
-|:-----|:-----|:-----|
 |![Ícone Adicionar](../../media/ITPro-EAC-AddIcon.gif)|Adicionar, Novo|Use esse ícone para criar um novo objeto. Alguns desses ícones têm uma seta para baixo associada, na qual é possível clicar para exibir objetos adicionais que você pode criar.|
 |![Ícone de edição](../../media/ITPro-EAC-EditIcon.gif)|Editar|Use esse ícone para editar um objeto.|
 |![Excluir ícone](../../media/ITPro-EAC-DeleteIcon.gif)|Excluir|Use esse ícone para excluir um objeto. Alguns ícones excluídos têm uma seta para baixo na qual é possível clicar para mostrar opções adicionais.|
@@ -75,6 +91,7 @@ Ao clicar na maioria das guias, você verá uma barra de ferramentas. A barra de
 |![Ícone Mais opções](../../media/ITPro-EAC-MoreOptionsIcon.gif)|Mais opções|Use esse ícone para ver mais ações que podem ser realizadas para os objetos dessa guia. Por exemplo, em **Destinatários \> Usuários**, um clique neste ícone mostra a opção para executar uma **Pesquisa Avançada**.  |
 |![Ícone Seta para cima](../../media/ITPro-EAC-UpArrowIcon.gif)![Ícone Seta para baixo](../../media/ITPro-EAC-DownArrowIcon.gif)|Seta para cima e seta para baixo|Use esses ícones para mover a prioridade de um objeto para cima ou para baixo.|
 |![ícone Remover](../../media/ITPro-EAC-RemoveIcon.gif)|Remover|Use esse ícone para remover objetos de uma lista.|
+|
 
 ### <a name="list-view"></a>Exibição de Lista
 
@@ -86,23 +103,25 @@ Quando você seleciona um objeto na exibição de lista, informações sobre ess
 
 ### <a name="me-tile-and-help"></a>Bloco Eu e Ajuda
 
-O bloco **Eu** permite sair do EAC e entrar como um usuário diferente. No menu **suspenso do**![ícone](../../media/ITPro-EAC-HelpIcon.gif) ajuda da ajuda, é possível executar as seguintes ações:
+O bloco **Eu** permite sair do EAC e entrar como um usuário diferente. No **Help** ![ menu suspenso do ícone ajuda da ajuda ](../../media/ITPro-EAC-HelpIcon.gif) , é possível executar as seguintes ações:
 
-1. **Ajuda**: clique ![no ícone](../../media/ITPro-EAC-HelpIcon.gif) ajuda para exibir o conteúdo da ajuda online.
+- **Ajuda**: clique ![ no ícone ajuda ](../../media/ITPro-EAC-HelpIcon.gif) para exibir o conteúdo da ajuda online.
 
-2. **Desabilitar bolha de ajuda**: a bolha de ajuda exibe a ajuda contextual para os campos quando você cria ou edita um objeto. Você pode desativar a bolha de Ajuda ou ativá-la se tiver sido desabilitada.
+- **Feedback**: deixar comentários.
 
-3. **Copyright**: clique neste link para ler o aviso de direitos autorais para o Exchange Online Protection.
+- **Comunidade**: poste uma pergunta para localizar respostas nos fóruns da Comunidade.
 
-4. **Privacidade**: clique para ler a política de privacidade do Exchange Online Protection.
+- **Desabilitar bolha de ajuda**: a bolha de ajuda exibe a ajuda contextual para os campos quando você cria ou edita um objeto. Você pode desativar a bolha de Ajuda ou ativá-la se tiver sido desabilitada.
+
+- **Show Command Logging**: uma nova janela é aberta e mostra os comandos equivalentes do PowerShell com base no que você configurou no Eat.
 
 ## <a name="supported-browsers"></a>Navegadores com suporte
 
 Para ter a melhor experiência ao usar o EAC, recomendamos que você sempre use os navegadores, clientes do Office e aplicativos mais recentes. Também recomendamos que você instale as atualizações de software quando elas estiverem disponíveis. Para obter mais informações sobre os navegadores e requisitos de sistema suportados para o serviço, consulte [System Requirements for Office](https://products.office.com/office-system-requirements).
 
-## <a name="supported-languages-in-eop"></a>Idiomas com suporte na EOP
+## <a name="supported-languages"></a>Idiomas compatíveis
 
-Os seguintes idiomas têm suporte e estão disponíveis para o Exchange Online Protection.
+Os seguintes idiomas têm suporte e estão disponíveis para o Eat no EOP autônomo.
 
 - Amárico
 
@@ -227,5 +246,3 @@ Os seguintes idiomas têm suporte e estão disponíveis para o Exchange Online P
 - Vietnamita
 
 - Galês
-
-

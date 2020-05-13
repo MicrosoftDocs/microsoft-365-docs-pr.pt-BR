@@ -1,5 +1,5 @@
 ---
-title: Perguntas frequentes sobre proteção contra falsificação
+title: Perguntas frequentes sobre a proteção antifalsificação
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,21 +15,21 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Perguntas frequentes e respostas para administradores sobre a proteção contra falsificação no Exchange Online e no Exchange Online Protection (EOP) autônomo.
-ms.openlocfilehash: b39e48fd57b899e6296d40ab10aac265cb4165a3
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+description: Os administradores podem exibir perguntas frequentes e respostas sobre a proteção contra falsificação no Exchange Online Protection (EOP).
+ms.openlocfilehash: 603293dd00100e3b93a225d94f2ed8fd9baae6a5
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43529828"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209090"
 ---
-# <a name="anti-spoofing-protection-faq-in-office-365"></a>Perguntas frequentes sobre proteção contra falsificação no Office 365
+# <a name="anti-spoofing-protection-faq"></a>Perguntas frequentes sobre a proteção antifalsificação
 
-Este tópico fornece perguntas frequentes e respostas sobre a proteção contra falsificação para clientes do Office 365 com caixas de correio em Exchange Online ou clientes autônomos do Exchange Online Protection (EOP), sem caixas de correio do Exchange Online.
+Este tópico fornece perguntas frequentes e respostas sobre a proteção contra falsificação para organizações do Microsoft 365 com caixas de correio no Exchange Online, ou organizações autônomas do Exchange Online Protection (EOP), sem caixas de correio do Exchange Online.
 
 Para perguntas e respostas sobre a proteção contra spam, confira [perguntas frequentes sobre proteção](anti-spam-protection-faq.md)contra spam.
 
-Para perguntas e respostas sobre a proteção contra malware, consulte [Anti-Malware Protection FAQ in Office 365](anti-malware-protection-faq-eop.md)
+Para perguntas e respostas sobre a proteção contra malware, consulte [Anti-Malware Protection FAQ](anti-malware-protection-faq-eop.md)
 
 ## <a name="why-did-microsoft-choose-to-junk-unauthenticated-inbound-email"></a>Por que a Microsoft optou por emails de entrada não autenticados de lixo eletrônico?
 
@@ -41,11 +41,11 @@ Quando a Microsoft habilitou este recurso no 2018, ocorreram alguns falsos posit
 
 A própria Microsoft primeiro adotou os novos requisitos de autenticação de email várias semanas antes de implantá-lo para os clientes. Embora tenha havido dificuldades no início, elas diminuíram gradualmente.
 
-## <a name="is-spoof-intelligence-available-to-office-365-customers-without-atp"></a>A inteligência de falsificação está disponível para clientes do Office 365 sem a ATP?
+## <a name="is-spoof-intelligence-available-to-microsoft-365-customers-without-atp"></a>A inteligência de falsificação está disponível para clientes da Microsoft 365 sem ATP?
 
-Sim. A partir de outubro de 2018, a inteligência de falsificação está disponível para todas as organizações com caixas de correio do Exchange Online e organizações autônomas do EOP sem caixas de correio do Exchange Online.
+Sim. A partir de outubro de 2018, a inteligência de falsificação está disponível para todas as organizações com caixas de correio no Exchange Online e organizações EOP autônomas sem caixas de correio do Exchange Online.
 
-A tecnologia antifalsificação foi inicialmente implantada em organizações que tinham assinaturas do Office 365 Enterprise E5 ou o complemento do Office 365 Advanced Threat Protection (ATP) para sua assinatura.
+A tecnologia antifalsificação foi inicialmente implantada apenas para organizações que tinham assinaturas do Office 365 Enterprise E5 ou o complemento Office 365 Advanced Threat Protection (Office 365 ATP) para sua assinatura.
 
 ## <a name="how-can-i-report-spam-or-non-spam-messages-back-to-microsoft"></a>Como relatar mensagens de spam ou não spam para a Microsoft?
 
@@ -63,17 +63,17 @@ Agora que a [filtragem avançada para conectores](https://docs.microsoft.com/exc
 
 ## <a name="does-anti-spoofing-protection-mean-i-will-be-protected-from-all-phishing"></a>A proteção contra falsificação significa que eu será protegido contra todos os phishing?
 
-Infelizmente, não. Os invasores se adaptarão ao uso de outras técnicas (por exemplo, contas comprometidas ou contas em serviços de email gratuitos). No entanto, a proteção anti-phishing funciona muito melhor para detectar esses outros tipos de métodos de phishing. As camadas de proteção no Office 365 são projetadas juntas e compiladas umas sobre as outras.
+Infelizmente, não. Os invasores se adaptarão ao uso de outras técnicas (por exemplo, contas comprometidas ou contas em serviços de email gratuitos). No entanto, a proteção anti-phishing funciona muito melhor para detectar esses outros tipos de métodos de phishing. As camadas de proteção no EOP são projetadas juntas e compiladas umas sobre as outras.
 
 ## <a name="do-other-large-email-services-block-unauthenticated-inbound-email"></a>Outros grandes serviços de email bloqueiam emails de entrada não autenticados?
 
-Quase todos os grandes serviços de email implementam verificações tradicionais de SPF, DKIM e DMARC. Alguns serviços têm outras verificações mais estritas, mas poucos vão até o Office 365 bloquear emails não autenticados e tratá-los como mensagens falsificadas. No entanto, o setor está se tornando mais atento a problemas com emails não autenticados, especialmente devido ao problema de phishing.
+Quase todos os grandes serviços de email implementam verificações tradicionais de SPF, DKIM e DMARC. Alguns serviços têm outras verificações mais estritas, mas poucos vão para o EOP bloquear emails não autenticados e tratá-los como mensagens falsificadas. No entanto, o setor está se tornando mais atento a problemas com emails não autenticados, especialmente devido ao problema de phishing.
 
 ## <a name="do-i-still-need-to-enable-the-advanced-spam-filter-setting-spf-record-hard-fail-_markasspamspfrecordhardfail_-if-i-enable-anti-spoofing"></a>Ainda precisa habilitar a configuração avançada de filtro de spam "registro SPF: falha de hardware" (_MarkAsSpamSpfRecordHardFail_) se eu habilitar a antifalsificação?
 
 Não. Essa configuração de ASF não é mais necessária porque a antifalsificação não apenas considera o hardware de SPF com falhas, mas um conjunto muito mais amplo de critérios. Se você habilitar a antifalsificação e ativado o **Registro SPF: ocorreu um erro no hardware** (_MarkAsSpamSpfRecordHardFail_), provavelmente obterá mais falsos positivos.
 
-Recomendamos que você desabilite esse recurso, pois ele não fornecerá praticamente nenhum benefício adicional para detectar spam ou mensagens de phishing e, em vez disso, geraria quase todos os falsos positivos. Para obter mais informações, consulte [Configurações avançadas do filtro de spam (ASF) no Office 365](advanced-spam-filtering-asf-options.md).
+Recomendamos que você desabilite esse recurso, pois ele não fornecerá praticamente nenhum benefício adicional para detectar spam ou mensagens de phishing e, em vez disso, geraria quase todos os falsos positivos. Para obter mais informações, consulte [Configurações avançadas de filtro de spam (ASF) no EOP](advanced-spam-filtering-asf-options.md).
 
 ## <a name="does-sender-rewriting-scheme-help-fix-forwarded-email"></a>A ajuda do esquema de reconfiguração do remetente corrige emails encaminhados?
 

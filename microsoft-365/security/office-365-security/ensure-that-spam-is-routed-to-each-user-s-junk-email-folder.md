@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a rotear spam para as pastas de lixo eletrônico do usuário em um ambiente híbrido do Exchange Online Protection.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 14193fecf90a6f2ddde05fbfdaded0ff2bcb5875
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: a5b4d16c864b25c4d47910f0dd69f0ed3e71a0de
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036567"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209470"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Configurar o EOP autônomo para fornecer spam para a pasta lixo eletrônico em ambientes híbridos
 
@@ -44,7 +44,7 @@ Para obter mais informações sobre esses valores de cabeçalho, consulte [anti-
 Este tópico descreve como criar essas regras de fluxo de emails do centro de administração do Exchange (Eat) e no Shell de gerenciamento do Exchange (Exchange PowerShell) na organização do Exchange local.
 
 > [!TIP]
-> Em vez de entregar as mensagens à pasta de lixo eletrônico do usuário local, você pode configurar políticas antispam no EOP para colocar mensagens de spam em quarentena no EOP. Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
+> Em vez de entregar as mensagens à pasta de lixo eletrônico do usuário local, você pode configurar políticas antispam no EOP para colocar mensagens de spam em quarentena no EOP. Para obter mais informações, consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -60,7 +60,7 @@ Este tópico descreve como criar essas regras de fluxo de emails do centro de ad
 
   - Se a regra de lixo eletrônico está habilitada na caixa de correio (o valor do parâmetro _Enabled_ é $true no cmdlet [set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration) no Shell de gerenciamento do Exchange). É a regra de lixo eletrônico que realmente move a mensagem para a pasta lixo eletrônico após a entrega. Por padrão, a regra de lixo eletrônico está habilitada nas caixas de correio. Para obter mais informações, consulte [Configurar configurações antispam do Exchange em caixas de correio](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings).
   
-- Para abrir o Eat em um servidor Exchange, confira [centro de administração do Exchange no Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center). Para abrir o Shell de gerenciamento do Exchange [https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell), consulte.
+- Para abrir o Eat em um servidor Exchange, confira [centro de administração do Exchange no Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center). Para abrir o Shell de gerenciamento do Exchange, consulte [https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) .
 
 - Para obter mais informações sobre regras de fluxo de emails no Exchange local, consulte os seguintes tópicos:
 
@@ -74,7 +74,7 @@ Este tópico descreve como criar essas regras de fluxo de emails do centro de ad
 
 1. No EAC, vá para **Fluxo de emails** \> **Regras**.
 
-2. Clique em **Adicionar** ![ícone](../../media/ITPro-EAC-AddIcon.png) de adição e selecione **criar uma nova regra** no menu suspenso que aparece.
+2. Clique em **Adicionar** ![ ícone de adição ](../../media/ITPro-EAC-AddIcon.png) e selecione **criar uma nova regra** no menu suspenso que aparece.
 
 3. Na página **nova regra** que é aberta, defina as seguintes configurações:
 
@@ -88,15 +88,15 @@ Este tópico descreve como criar essas regras de fluxo de emails do centro de ad
 
    - Clique em **mais opções**.
 
-   - **Aplicar esta regra se**: selecionar **um cabeçalho** \> de mensagem **inclui qualquer uma destas palavras**.
+   - **Aplicar esta regra se**: selecionar **um cabeçalho de mensagem** \> **inclui qualquer uma destas palavras**.
 
      Na frase **Inserir cabeçalho de texto inclui palavras de entrada** que aparecem, siga estas etapas:
 
      - Clique em **Inserir texto**. Na caixa de diálogo **especificar nome do cabeçalho** que aparece, insira **X-Forefront-antispam-Report** e clique em **OK**.
 
-     - Clique em **inserir palavras**. Na caixa de diálogo **especificar palavras ou frases** que aparece, insira um dos valores de cabeçalho de spam do EOP (**SFV: SPM**, **SFV: SKS**ou **SFV: SKB**) **Add** ![, clique em](../../media/ITPro-EAC-AddIcon.png)adicionar ícone de adição e, em seguida, clique em **OK**.
+     - Clique em **inserir palavras**. Na caixa de diálogo **especificar palavras ou frases** que aparece, insira um dos valores de cabeçalho de spam do EOP (**SFV: SPM**, **SFV: SKS**ou **SFV: SKB**), clique em **Adicionar** ![ ícone ](../../media/ITPro-EAC-AddIcon.png) de adição e, em seguida, clique em **OK**.
 
-   - **Faça o seguinte**: selecione **modificar as propriedades** \> da mensagem **definem o nível de confiança de spam (SCL)**.
+   - **Faça o seguinte**: selecione **modificar as propriedades da mensagem** \> **definem o nível de confiança de spam (SCL)**.
 
      Na caixa de diálogo **especificar SCL** exibida, selecione **6** (o valor padrão é **5**).
 
@@ -132,9 +132,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetro, consulte [New-Tr
 
 Para verificar se você configurou com êxito o EOP autônomo para entregar spam para a pasta lixo eletrônico no ambiente híbrido, execute uma das seguintes etapas:
 
-- No Eat, vá para **regras**de **fluxo** \> de emails, selecione a regra e clique em **Editar** ![ícone](../../media/ITPro-EAC-EditIcon.png) de edição para verificar as configurações.
+- No Eat, vá para regras de **fluxo de emails** \> **Rules**, selecione a regra e clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) para verificar as configurações.
 
-- No Shell de gerenciamento do Exchange, \<substitua\> RuleName pelo nome da regra de fluxo de emails e regra o comando a seguir para verificar as configurações:
+- No Shell de gerenciamento do Exchange, substitua \< RuleName \> pelo nome da regra de fluxo de emails e regra o comando a seguir para verificar as configurações:
 
   ```powershell
   Get-TransportRule -Identity "<RuleName>" | Format-List

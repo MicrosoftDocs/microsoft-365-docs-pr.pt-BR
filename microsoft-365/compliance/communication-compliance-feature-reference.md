@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 70c82232dff10bb13c5079de9590cde2508db14c
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: bfaead99bf439173cb353bc745488a5d0aee70c4
+ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159928"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210520"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -56,7 +56,7 @@ Antes de começar a usar a conformidade de comunicação, você deve determinar 
 
 ## <a name="reviewers"></a>Revisores
 
-Ao criar uma política de conformidade de comunicação, você deve determinar quem revisa as mensagens dos usuários supervisionados. Na política, os endereços de email do usuário identificam pessoas ou grupos de pessoas para analisar comunicações supervisionadas. Todos os revisores devem ter caixas de correio hospedadas no Exchange Online e devem ser atribuídas ao **Gerenciamento de casos** e às funções de **revisão** .
+Ao criar uma política de conformidade de comunicação, você deve determinar quem revisa as mensagens dos usuários supervisionados. Na política, os endereços de email do usuário identificam pessoas ou grupos de pessoas para analisar comunicações supervisionadas. Todos os revisores devem ter caixas de correio hospedadas no Exchange Online e devem ser atribuídas ao **Gerenciamento de casos** e às funções de **revisão** . Quando os revisores são adicionados a uma política, eles recebem automaticamente uma mensagem de email que os notifica da atribuição à política e fornece links para informações sobre o processo de revisão.
 
 ## <a name="groups-for-supervised-users-and-reviewers"></a>Grupos de usuários e revisores supervisionados
 
@@ -71,7 +71,7 @@ Com as políticas de conformidade de comunicação, você pode optar por examina
 - **Microsoft Teams**: comunicações de chat e anexos associados em canais do Microsoft Teams públicos e privados e chats individuais podem ser verificados. Conversas de chat e anexos do Team as condições de política de conformidade de comunicação podem levar até 24 horas para serem processadas. Use as configurações de gerenciamento de grupo a seguir para supervisionar chats de usuários individuais e comunicações de canal no Teams:
 
     - **Para comunicações de chat do teams:** Atribuir usuários individuais ou atribuir um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de conformidade de comunicação. Essa configuração é para relações de usuário/chat de um-para-um ou um-para-muitos.
-    - **Para comunicações de canal do teams:** Atribua todos os Microsoft Teams Channel ou Microsoft 365 Group que você deseja verificar que contenham um usuário específico à política de conformidade de comunicação. Se você adicionar o mesmo usuário a outros canais do Microsoft Teams ou a grupos do Microsoft 365, certifique-se de adicionar esses novos canais e grupos à política de conformidade de comunicação.
+    - **Para comunicações de canal do teams:** Atribua todos os canais do Microsoft Teams ou Microsoft 365 que você deseja verificar que contenham um usuário específico à política de conformidade de comunicação. Se você adicionar o mesmo usuário a outros canais do Microsoft Teams ou a grupos do Microsoft 365, certifique-se de adicionar esses novos canais e grupos à política de conformidade de comunicação.
 
 - **Email do Exchange**: as caixas de correio hospedadas no Exchange Online como parte da sua assinatura do Microsoft 365 ou do Office 365 estão qualificadas para a verificação de mensagens. Mensagens de email e anexos do Exchange as condições de política de conformidade de comunicação podem levar até 24 horas para serem processadas. Os tipos de anexo com suporte para conformidade de comunicação são os mesmos que os [tipos de arquivo suportados para inspeções de conteúdo de regras de fluxo de email do Exchange](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection).
 
@@ -195,7 +195,7 @@ Você pode criar modelos de aviso se quiser enviar aos usuários um aviso de lem
 
 Os modelos de avisos são modelos de email personalizados onde você pode definir os seguintes campos de mensagem:
 
-|**Campo**|**Required**| **Detalhes** |
+|**Field**|**Required**| **Detalhes** |
 |:-----|:-----|:-----|
 |**Nome do modelo** | Sim | Nome amigável para o modelo de aviso que você selecionará no fluxo de trabalho notificar durante a correção, suporta caracteres de texto. |
 | **Endereço do remetente**. | Sim | O endereço de um ou mais usuários ou grupos que enviam a mensagem para o funcionário com uma correspondência de política, selecionado no Active Directory para a sua assinatura. |
@@ -287,7 +287,7 @@ Em alguns casos, você deve fornecer informações para auditores regulamentares
 
 Para exibir as atividades de política de conformidade de comunicação, selecione o controle **Exportar atividades de revisão** na página principal de qualquer política. Esta ação gera um arquivo de auditoria no formato. csv que contém as seguintes informações:
 
-|**Campo**|**Detalhes**|
+|**Field**|**Detalhes**|
 |:-----|:-----|
 | **CreationDate** | A data em que a atividade foi realizada em uma política. |
 | **UserIds** | O usuário que realizou a atividade em uma política. |

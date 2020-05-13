@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os Modos de Exibição de Campanhas na Proteção Avançada contra Ameaças do Office 365.
-ms.openlocfilehash: 69b11319ffb033b628e59abac931b6a3f30d082c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5441c877dac70330bf1e5653983494be5b1b3293
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637813"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209590"
 ---
 # <a name="campaign-views-in-atp"></a>Exibições de campanha na ATP
 
@@ -54,15 +54,15 @@ Uma campanha pode ser de vida curta ou pode abranger vários dias, semanas ou me
 
 ## <a name="campaign-views-the-security--compliance-center"></a>Exibições de campanha o centro de conformidade & segurança
 
-Os modos de exibição de campanha estão disponíveis no [centro de conformidade e segurança &](https://protection.office.com) nas **campanhas**de **Gerenciamento** \> de ameaças.
+Os modos de exibição de campanha estão disponíveis no [centro de conformidade e segurança &](https://protection.office.com) nas campanhas de **Gerenciamento de ameaças** \> **Campaigns**.
 
 ![Visão geral das campanhas no Centro de Conformidade e Segurança](../../media/campaigns-overview.png)
 
 Você também pode acessar o modo de exibição campanhas de:
 
-- **Threat management** \> **Explorer** Gerenciador \> de gerenciamento de ameaças **Exibir** \> **campanhas**
+- **Gerenciamento** \> de ameaças **Explorer** \> **Exibir** \> **Campanhas**
 
-- **Threat management** \> **Explorer** Gerenciador \> de gerenciamento de ameaças **Exibir** \> **todas as** \> **campanhas** de email
+- **Gerenciamento** \> de ameaças **Explorer** \> **Exibir** \> **Todos os emails** \> **Campanha**
 
 > [!TIP]
 > Caso não veja nenhum dado da campanha, experimente alterar o intervalo de datas.
@@ -83,7 +83,7 @@ A página Visão geral mostra as seguintes informações sobre a campanha:
 
 - **Clicado**: o número de usuários que clicaram na URL na mensagem de phishing.
 
-- **Taxa de clique**: a porcentagem conforme calculada por "**clicado** / em**caixa de entrada**". Esse valor é um indicador da eficácia da campanha e se os destinatários podem identificar a mensagem como phishing e evitar clicar na URL de carga.
+- **Taxa de clique**: a porcentagem conforme calculada por "**clicado**em  /  **caixa de entrada**". Esse valor é um indicador da eficácia da campanha e se os destinatários podem identificar a mensagem como phishing e evitar clicar na URL de carga.
 
 - **Visitado**: quantos usuários realmente o fizeram no site de carga de transferência. Se houver valores **clicados** , mas os links seguros bloquearam o acesso ao site, esse valor será zero.
 
@@ -144,7 +144,7 @@ O diagrama contém as seguintes informações:
 
   <sup>\*\*</sup>Revise suas políticas antispam, pois essas mensagens devem ser colocadas em quarentena, não entregues.
 
-- **Locais de entrega**: Você provavelmente desejará investigar as mensagens que foram realmente entregues aos destinatários (na pasta Caixa de Entrada ou Lixo Eletrônico), mesmo se os usuários não clicarem na URL do payload na mensagem. Você também pode remover as mensagens em quarentena da quarentena. Para obter mais informações, consulte [Quarantine Email messages in Office 365](quarantine-email-messages.md).
+- **Locais de entrega**: Você provavelmente desejará investigar as mensagens que foram realmente entregues aos destinatários (na pasta Caixa de Entrada ou Lixo Eletrônico), mesmo se os usuários não clicarem na URL do payload na mensagem. Você também pode remover as mensagens em quarentena da quarentena. Para obter mais informações, consulte [mensagens de email em quarentena no EOP](quarantine-email-messages.md).
 
   - **Pasta excluída**
 

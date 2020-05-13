@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 35eb63fd5b472f4b58c5f2fb5285ffff012277dd
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: b1ce2de627e7068124a1dfd15b84d40a2063d3a2
+ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065896"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210557"
 ---
 # <a name="get-started-with-communication-compliance"></a>Introdução à conformidade de comunicação
 
@@ -129,14 +129,14 @@ Para obter mais informações sobre como configurar o Yammer no modo nativo, con
 
     - Confirme ou atualize o nome da política. Os nomes de política não podem ser alterados depois que a política é criada.
     - Escolha os usuários ou grupos para supervisionar, incluindo a escolha de usuários ou grupos que você gostaria de excluir.
-    - Escolha os revisores da política. Os revisores são usuários individuais e todos os revisores devem ter caixas de correio hospedadas no Exchange Online. Os revisores adicionados aqui são os revisores que você pode escolher ao escalonar um alerta no fluxo de trabalho de investigação e correção.
+    - Escolha os revisores da política. Os revisores são usuários individuais e todos os revisores devem ter caixas de correio hospedadas no Exchange Online. Os revisores adicionados aqui são os revisores que você pode escolher ao escalonar um alerta no fluxo de trabalho de investigação e correção. Quando os revisores são adicionados a uma política, eles recebem automaticamente uma mensagem de email que os notifica da atribuição à política e fornece links para informações sobre o processo de revisão.
     - Escolha um campo condição limitada, geralmente um tipo de informação confidencial ou um dicionário de palavras-chave para aplicar à política.
 
     Se você optar por usar o assistente de política para criar uma política personalizada, você irá:
 
     - Forneça um nome e uma descrição para a política. Os nomes de política não podem ser alterados depois que a política é criada.
     - Escolha os usuários ou grupos para supervisionar, incluindo todos os usuários em sua organização, usuários e grupos específicos ou outros usuários e grupos que você gostaria de excluir.
-    - Escolha os revisores da política. Os revisores são usuários individuais e todos os revisores devem ter caixas de correio hospedadas no Exchange Online.
+    - Escolha os revisores da política. Os revisores são usuários individuais e todos os revisores devem ter caixas de correio hospedadas no Exchange Online. Os revisores adicionados aqui são os revisores que você pode escolher ao escalonar um alerta no fluxo de trabalho de investigação e correção. Quando os revisores são adicionados a uma política, eles recebem automaticamente uma mensagem de email que os notifica da atribuição à política e fornece links para informações sobre o processo de revisão.
     - Escolha os canais de comunicação para verificação, incluindo Exchange, Microsoft Teams, Yammer ou Skype for Business. Você também pode optar por verificar fontes de terceiros se tiver configurado um conector no Microsoft 365.
     - Escolha a direção de comunicação para monitorar, incluindo comunicações de entrada, de saída ou internas.
     - Definir as [condições](communication-compliance-feature-reference.md#ConditionalSettings)de política de conformidade de comunicação. Você pode escolher entre as condições endereço da mensagem, palavra-chave, tipos de arquivo e correspondência de tamanho.
@@ -145,7 +145,7 @@ Para obter mais informações sobre como configurar o Yammer no modo nativo, con
 
     >[!CAUTION]
     >Estamos preterindo o classificador interno de **idioma ofensivo** , pois ele está produzindo um grande número de falsos positivos. Não usá-lo e, se estiver usando, você deverá mover seus processos de negócios para fora dele. Recomendamos o uso de classificadores internos **contra ameaças**, **profanação**e **assédio** .
-    
+
     - Defina a porcentagem de comunicação a ser revisada.
     - Revise suas seleções de política e crie a política.
 
@@ -185,6 +185,6 @@ Siga estas etapas para testar sua política de conformidade de comunicação:
     > [!NOTE]
     > As comunicações em todos os canais de origem podem levar até 24 horas para serem processadas completamente em uma política.
 
-3. Entre no Microsoft 365 como um revisor designado na política de conformidade de comunicação. Navegue até **Communication compliance** > **alertas** de conformidade de comunicação para exibir os alertas de suas políticas.
+3. Entre no Microsoft 365 como um revisor designado na política de conformidade de comunicação. Navegue até alertas de **conformidade de comunicação**  >  **Alerts** para exibir os alertas de suas políticas.
 
 4. Corrija o alerta usando os controles de correção e verifique se o alerta foi resolvido corretamente.

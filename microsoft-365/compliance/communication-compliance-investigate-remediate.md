@@ -1,5 +1,5 @@
 ---
-title: Investigar e corrigir alertas de conformidade de comunicação
+title: Investigar e corrigir alertas de conformidade em comunicações
 description: Investigue e corrija os alertas de conformidade de comunicação no Microsoft 365.
 f1.keywords:
 - NOCSH
@@ -18,14 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: fb185239ee670c9fa4bd4add5bd36140db2f7706
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 3cef513d6b89634e16e0a0b4516f403cf1a794af
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42632852"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208393"
 ---
-# <a name="investigate-and-remediate-communication-compliance-alerts"></a>Investigar e corrigir alertas de conformidade de comunicação
+# <a name="investigate-and-remediate-communication-compliance-alerts"></a>Investigar e corrigir alertas de conformidade em comunicações
 
 Depois de configurar suas políticas de conformidade de comunicação, você começará a receber alertas no centro de conformidade da Microsoft 365 para problemas de mensagens que correspondam às suas condições de política. Siga as instruções do fluxo de trabalho aqui para investigar e corrigir problemas de alerta.
 
@@ -33,14 +33,14 @@ Depois de configurar suas políticas de conformidade de comunicação, você com
 
 A primeira etapa para investigar problemas detectados por suas políticas é examinar os alertas gerados no centro de conformidade da Microsoft 365. Há várias áreas no centro de conformidade para ajudá-lo a investigar rapidamente os alertas, dependendo de como você prefere exibir o agrupamento de alertas:
 
-- **Home Page de conformidade de comunicação**: quando você entra [https://compliance.microsoft.com](https://compliance.microsoft.com) no usando credenciais para uma conta de administrador na sua organização do Microsoft 365, selecione**visão geral** de **conformidade** > de comunicação para exibir a Home Page de conformidade de comunicação. Aqui você verá:
+- **Home Page de conformidade de comunicação**: quando você entra no [https://compliance.microsoft.com](https://compliance.microsoft.com) usando credenciais para uma conta de administrador na sua organização do Microsoft 365, selecione visão geral de **conformidade de comunicação**  >  **Overview** para exibir a Home Page de conformidade de comunicação. Aqui você verá:
     - Alertas que precisam de revisão listadas da severidade alta para baixa. Selecione um alerta para iniciar a página detalhes do alerta e para iniciar ações de correção.
     - Correspondências de política recentes listadas pelo nome da política.
     - Itens resolvidos listados pelo nome da política.
     - Escalonamentos listados pelo nome da política.
     - Os usuários com a maioria das correspondências de política são listados do máximo para o menor número de correspondências.
-- **Guia alertas**: Navegue até **Communication compliance** > **alertas** de conformidade de comunicação para exibir alertas agrupados pela política de conformidade de comunicação correspondente. Este modo de exibição permite ver rapidamente quais políticas de conformidade de comunicação estão gerando a maioria dos alertas ordenados por severidade.  Para iniciar ações de correção, expanda uma política para selecionar um alerta específico e para iniciar a página detalhes do alerta.
-- **Guia políticas**: Navegue até **Communication compliance** > **políticas** de conformidade de comunicação para exibir as políticas de conformidade de comunicação configuradas para sua organização do Microsoft 365. Cada política listada inclui a contagem de alertas que precisam de revisão. Selecionar uma política exibe todos os alertas pendentes para correspondências com a política, selecione um alerta específico para iniciar a página de detalhes da política e para iniciar ações de correção.
+- **Guia alertas**: Navegue até alertas de **conformidade de comunicação**  >  **Alerts** para exibir os últimos 30 dias de alertas agrupados por correspondências de política. Este modo de exibição permite ver rapidamente quais políticas de conformidade de comunicação estão gerando a maioria dos alertas ordenados por severidade.  Para iniciar ações de correção, expanda uma política para selecionar um alerta específico e para iniciar a página detalhes do alerta.
+- **Guia políticas**: Navegue até políticas de **conformidade de comunicação**  >  **Policies** para exibir as políticas de conformidade de comunicação configuradas para sua organização do Microsoft 365. Cada política listada inclui a contagem de alertas que precisam de revisão. Selecionar uma política exibe todos os alertas pendentes para correspondências com a política, selecione um alerta específico para iniciar a página de detalhes da política e para iniciar ações de correção.
 
 ### <a name="using-filters"></a>Usando filtros
 

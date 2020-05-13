@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá a usar o portal de remoção da lista para ser removido da lista de remetentes bloqueados do Microsoft 365.
-ms.openlocfilehash: 700382a494865b80116cfd8419213ed43b35b8a1
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 239d30fec4d904af353731974435d377801be6c7
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034981"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208532"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>Use o portal de remoção da lista para ser removido da lista de remetentes bloqueados
 
@@ -47,7 +47,7 @@ em que  _IP address_ é o endereço IP do computador no qual o servidor de email
 
 3. Clique em **Enviar**.
 
-    O portal envia um email para o endereço de email que você fornecer. O email será parecido com o seguinte: ![captura de tela do email recebido ao enviar uma solicitação pelo portal de deslista](../../media/bf13e4f7-f68c-4e46-baa7-b6ab4cfc13f3.png)
+    O portal envia um email para o endereço de email que você fornecer. O email será parecido com o seguinte: ![ captura de tela do email recebido ao enviar uma solicitação pelo portal de deslista](../../media/bf13e4f7-f68c-4e46-baa7-b6ab4cfc13f3.png)
 
 4. Clique no link confirmação no email enviado a você pelo portal de remoção da lista.
 
@@ -60,4 +60,4 @@ em que  _IP address_ é o endereço IP do computador no qual o servidor de email
     > [!NOTE]
     > Pode levar até 24 horas ou os resultados podem variar muito antes de as restrições serem removidas.
 
-Consulte [criar listas de remetentes seguros no office 365](create-safe-sender-lists-in-office-365.md) e [proteção de spam de saída no Office 365](outbound-spam-controls.md) para impedir que o IP seja removido.
+Confira [criar listas de remetentes seguros no EOP](create-safe-sender-lists-in-office-365.md) e [proteção contra spam de saída no EOP](outbound-spam-controls.md) para evitar que o IP seja removido.

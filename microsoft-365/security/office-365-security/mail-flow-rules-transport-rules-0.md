@@ -1,5 +1,5 @@
 ---
-title: Regras de fluxo de emails (regras de transporte)-proteção do Exchange Online
+title: Regras de fluxo de emails no EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,18 +12,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: Você pode usar regras de fluxo de emails (regras de transporte) para identificar e executar ações em mensagens que fluem pela sua organização.
-ms.openlocfilehash: 8cb28a1f198d0717d2373de8f2b9cb048b6ff7df
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 8eb4b805065ef1e279c5bbdab17a86b29aacc17b
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036180"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209686"
 ---
-# <a name="mail-flow-rules-transport-rules-in-exchange-online-protection"></a>Regras de fluxo de emails (regras de transporte) no Exchange Online Protection
+# <a name="mail-flow-rules-transport-rules-in-standalone-eop"></a>Regras de fluxo de emails (regras de transporte) em EOP autônomo
 
-Você pode usar regras de fluxo de emails (também conhecidas como regras de transporte) para identificar e executar ações em mensagens que fluem pela sua organização. As regras de fluxo de emails são semelhantes às regras de Caixas de Entrada disponíveis no Outlook e no Outlook na Web. A principal diferença das regras de fluxo de emails é que elas atuam em mensagens que estão em trânsito, não depois que a mensagem foi entregue à caixa de correio. As regras de fluxo de emails contêm conjuntos mais amplos de condições, exceções e ações com os quais é possível desfrutar da flexibilidade necessária para implementar muitos tipos de políticas de mensagem.
+Em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, você pode usar regras de fluxo de emails (também conhecidas como regras de transporte) para identificar e executar ações em mensagens que fluem pela sua organização.
 
-Este artigo explica os componentes das regras de fluxo de emails e como eles funcionam.
+Este tópico explica os componentes das regras de fluxo de emails e como eles funcionam.
 
 Para obter as etapas para criar, copiar e gerenciar regras de fluxo de emails, consulte [Manage Mail Flow Rules in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules). Você pode impor e testar cada regra ou testar e notificar o remetente. Para saber mais sobre as opções de teste, confira [testar regras de fluxo de email](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules) e [dicas de política no Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips).
 
@@ -39,13 +39,13 @@ Para implementar políticas de mensagens específicas usando regras do fluxo de 
 
 - [Usar regras de fluxo de emails para definir o nível de confiança de spam (SCL) em mensagens](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
 
-- [Criar listas de remetentes bloqueados no Office 365](create-block-sender-lists-in-office-365.md)
+- [Criar listas de remetentes bloqueados no EOP](create-block-sender-lists-in-office-365.md)
 
 - [Redução de ameaças de malware com o bloqueio de anexos de arquivo no Exchange Online Protection](reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md)
 
 - [Definir regras para criptografar ou descriptografar mensagens de email no Office 365](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)
 
-O vídeo a seguir fornece uma demonstração da configuração de regras de fluxo de emails na proteção do Exchange Online.
+O vídeo a seguir fornece uma demonstração da configuração de regras de fluxo de emails no EOP autônomo.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/7cdcd2cb-9382-4065-98e1-81257b32a189?autoplay=false]
 
@@ -55,13 +55,13 @@ Um regra de fluxo de emails é formada por condições, exceções, ações e pr
 
 - **Condições**: identifique as mensagens às quais você deseja aplicar as ações. Algumas condições examinam campos de cabeçalhos de mensagens (por exemplo, os campos Para, De ou Cc). Outras condições examinam propriedades de mensagens (por exemplo, assunto, corpo, anexos, tamanho e classificação da mensagem). A maioria das condições exige que você especifique um operador de comparação (por exemplo, igual a, diferente de ou contém) e um valor a ser correspondido. Se não houver condições ou exceções, a regra será aplicada a todas as mensagens.
 
-Para obter mais informações sobre as condições de regra de fluxo de emails no Exchange Online Protection, consulte [Mail Flow Rule Conditions and exceptions (predicates) no Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).
+Para obter mais informações sobre as condições de regra de fluxo de emails no EOP autônomo, consulte [Mail Flow Rule Conditions and exceptions (predicates) no Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).
 
 - **Exceções**: opcionalmente, identifique as mensagens às quais as ações não devem se aplicar. Os mesmos identificadores de mensagens disponíveis nas condições também estão disponíveis nas exceções. As exceções substituem as condições e impedem que as ações da regra sejam aplicadas a uma mensagem, mesmo que a mensagem atenda a todas as condições configuradas.
 
 - **Ações**: especifique o que fazer às mensagens que correspondam às condições da regra e não correspondem a nenhuma das exceções. Há muitas ações disponíveis, como rejeitar, excluir ou redirecionar mensagens, incluir destinatários adicionais, incluir prefixos no assunto da mensagem ou inserir avisos de isenção legal no corpo da mensagem.
 
-Para obter mais informações sobre ações de regra de fluxo de emails disponíveis no Exchange Online Protection, consulte [Mail Flow Rule Actions in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
+Para obter mais informações sobre ações de regra de fluxo de emails disponíveis em EOP autônomos, consulte [Mail Flow Rule Actions in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 - **Propriedades**: especifique outras configurações de regras que não sejam condições, exceções ou ações. Por exemplo, quando a regra deve ser aplicada, se devemos impor ou testar a regra e o período em que a regra é ativa.
 
@@ -84,7 +84,7 @@ A tabela a seguir descreve as propriedades das regras que estão disponíveis na
 
 |**Nome da propriedade no EAC**|**Nome do parâmetro no PowerShell**|**Descrição**|
 |:-----|:-----|:-----|
-|**Prioridade**|_Priority_|Indica a ordem que as regras são aplicadas às mensagens. A prioridade padrão se baseia no momento em que a regra é criada (regras mais antigas têm uma prioridade mais alta que as regras mais recentes e as regras de prioridade mais alta são processadas antes das regras de prioridade mais baixa).   <br/><br/> Altere a prioridade da regra no EAC movendo a regra para cima ou para baixo na lista de regras. No PowerShell, defina o número de prioridade (0 é a prioridade mais alta).   <br/><br/> Por exemplo, se tiver uma regra para rejeitar mensagens que incluam um número de cartão de crédito e outra exigindo aprovação, você desejará que a regra de rejeição ocorra primeiro e pare a aplicação das outras regras.  |
+|**Prioridade**|_Priority_|Indica a ordem que as regras são aplicadas às mensagens. A prioridade padrão se baseia no momento em que a regra é criada (regras mais antigas têm uma prioridade mais alta que as regras mais recentes e as regras de prioridade mais alta são processadas antes das regras de prioridade mais baixa).   <br/><br/> Altere a prioridade da regra no EAC movendo a regra para cima ou para baixo na lista de regras. No PowerShell, você define o número de prioridade (0 é a prioridade mais alta). <br/><br/> Por exemplo, se tiver uma regra para rejeitar mensagens que incluam um número de cartão de crédito e outra exigindo aprovação, você desejará que a regra de rejeição ocorra primeiro e pare a aplicação das outras regras.  |
 |**Modo**|_Mode_|Você pode especificar se deseja que a regra comece a processar as mensagens imediatamente, ou se deseja testar as regras sem afetar a entrega da mensagem (com ou sem Prevenção contra Perda de Dados ou Dicas de Política DLP). <br/><br/> As dicas de política apresentam uma anotação breve no Outlook ou no Outlook na Web que fornecem informações sobre possíveis violações de política para a pessoa que está criando a mensagem. Para saber mais, veja **Policy Tips**.  <br/><br/> Para saber mais sobre os modos, confira **Test a mail flow rule**.|
 |**Ativar esta regra na seguinte data** <br/><br/> **Desativar esta regra na seguinte data**|_ActivationDate_ <br/> _ExpiryDate_|Especifica o intervalo de datas quando a regra está ativa.|
 |**Na** caixa de seleção selecionada ou não selecionada|Novas regras: parâmetro _Enabled_ no cmdlet **New-TransportRule** . <br/><br/> Regras existentes: Use os cmdlets **Enable-TransportRule** ou **Disable-TransportRule**. <br/><br/> O valor é exibido na propriedade **State** da regra.|Você pode criar uma regra desabilitada e ativá-la quando estiver pronto para testá-la. Ou, você pode desativar uma regra sem excluí-la para preservar as configurações.|
@@ -95,15 +95,13 @@ A tabela a seguir descreve as propriedades das regras que estão disponíveis na
 
 ## <a name="how-mail-flow-rules-are-applied-to-messages"></a>Como as regras de fluxo de emails são aplicadas a mensagens
 
-Todas as mensagens que fluem por sua organização são avaliadas pelas regras de fluxo de emails habilitadas para a sua organização. As regras são processadas na ordem listada na página de \> **regras** de **fluxo de emails** no Eat ou com base no valor do parâmetro _Priority_ correspondente no PowerShell.
+Todas as mensagens que fluem por sua organização são avaliadas pelas regras de fluxo de emails habilitadas para a sua organização. As regras são processadas na ordem listada na página de regras de **fluxo de emails** \> **Rules** no Eat ou com base no valor do parâmetro _Priority_ correspondente no PowerShell.
 
 Cada regra também oferece a opção de parar o processamento de outras quando é encontrada correspondência com a regra. Esta configuração é importante para as mensagens que atendem às condições em várias regras de fluxo de emails (qual regra você deseja aplicar à mensagem? Todas? Apenas uma?).
 
 ### <a name="differences-in-processing-based-on-message-type"></a>Diferenças no processamento com base no tipo de mensagem
 
 Existem vários tipos de mensagens que transitam por uma organização. A tabela a seguir mostra quais tipos de mensagens podem ser processados por regras de fluxo de emails.
-
-****
 
 |**Tipo de mensagem**|**Uma regra pode ser aplicada?**|
 |:-----|:-----|
@@ -114,7 +112,7 @@ Existem vários tipos de mensagens que transitam por uma organização. A tabela
 |**Mensagens com assinatura limpa**: mensagens que foram assinadas, mas não foram criptografadas.|Sim|
 |**Mensagens de um**: mensagens criadas ou processadas pelo serviço de Unificação de mensagens, como caixa postal, fax, notificações de chamadas não atendidas e mensagens criadas ou encaminhadas usando o Microsoft Outlook Voice Access.|Sim|
 |**Mensagens anônimas**: mensagens enviadas por remetentes anônimos.|Sim|
-|**Ler relatórios**: relatórios gerados em resposta às solicitações de confirmação de leitura pelos remetentes. Os relatórios de leitura têm uma classe `IPM.Note*.MdnRead` de `IPM.Note*.MdnNotRead`mensagem de ou.|Sim|
+|**Ler relatórios**: relatórios gerados em resposta às solicitações de confirmação de leitura pelos remetentes. Os relatórios de leitura têm uma classe de mensagem de `IPM.Note*.MdnRead` ou `IPM.Note*.MdnNotRead` .|Sim|
 
 ## <a name="what-else-should-i-know"></a>O que mais devo saber?
 

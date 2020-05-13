@@ -14,19 +14,19 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Saiba como instalar e usar o suplemento relatório de lixo eletrônico da Microsoft para relatar mensagens de spam, não spam e phishing à Microsoft.
-ms.openlocfilehash: be087a15071114b2d1ec564cbb118dcd85e32429
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5c0b802bea89a0f0f62952261bf0d2864842024f
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638495"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208822"
 ---
-# <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook-in-office-365"></a>Instalar e usar o suplemento relatório de lixo eletrônico para o Microsoft Outlook no Office 365
+# <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Instalar e usar o suplemento relatório de lixo eletrônico para o Microsoft Outlook
 
 > [!NOTE]
-> Se você não estiver usando o suplemento relatório de lixo eletrônico, recomendamos o [suplemento mensagem de relatório](enable-the-report-message-add-in.md) .
+> Se você não estiver usando o suplemento relatório de lixo eletrônico, recomendamos o [suplemento mensagem de relatório](enable-the-report-message-add-in.md) . Para mais informações, confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
 
-O suplemento relatório de lixo eletrônico do Microsoft Outlook permite que os usuários enviem falsos positivos (bons emails marcados como spam), falsos negativos (emails inválidos) e mensagens de phishing para o Exchange Online Protection (EOP). Se sua organização não usa o EOP, seu envio de relatório de lixo eletrônico não afetará a filtragem de spam.
+O suplemento relatório de lixo eletrônico para o Microsoft Outlook permite que os usuários enviem falsos positivos (emails em boas condições marcados como spam), falsos negativos (emails inválidos permitidos) e mensagens de phishing para a Microsoft. Se sua organização não usa a proteção do Exchange Online (por exemplo, Exchange ou serviços de email locais, que não seja o Exchange Online), o envio do relatório de lixo eletrônico não afetará a filtragem de spam.
 
 Este tópico explica como instalar e usar o suplemento relatório de lixo eletrônico.
 
@@ -39,7 +39,7 @@ Este tópico explica como instalar e usar o suplemento relatório de lixo eletr�
   - Outlook 2013 ou posterior
   - Outlook incluído no Microsoft 365 Apps for Enterprise
 
-- Para obter mais informações sobre como relatar mensagens à Microsoft, consulte [relatar mensagens e arquivos para a Microsoft no Office 365](report-junk-email-messages-to-microsoft.md).
+- Para obter mais informações sobre como relatar mensagens à Microsoft, consulte [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md).
 
 ## <a name="use-the-junk-email-reporting-add-in-to-report-spam-and-phishing-messages"></a>Usar o suplemento relatório de lixo eletrônico para relatar mensagens de spam e phishing
 
@@ -197,7 +197,7 @@ Para verificar se você instalou com êxito o suplemento relatório de lixo elet
 
 Após fechar o Outlook, use qualquer um dos seguintes procedimentos para desinstalar o suplemento relatório de lixo eletrônico:
 
-- **Painel de controle**: Pressione a tecla Windows + R. Na caixa de diálogo **executar** que é aberta `control appwiz.cpl` , insira e clique em **OK**.
+- **Painel de controle**: Pressione a tecla Windows + R. Na caixa de diálogo **executar** que é aberta, insira `control appwiz.cpl` e clique em **OK**.
 
   Localize e selecione o **suplemento relatório de lixo eletrônico da Microsoft** na lista e clique em **desinstalar**.
 
@@ -209,7 +209,7 @@ Após fechar o Outlook, use qualquer um dos seguintes procedimentos para desinst
 
   Na caixa de diálogo exibida, selecione **remover suplemento relatório de lixo eletrônico da Microsoft para Outlook** e clique em **Avançar**.
 
-- **Modo silencioso**: encontre ou baixe o arquivo. msi apropriado. Em uma janela de prompt de comando \<,\> substitua PathToFile pelo local do arquivo. msi e execute um dos seguintes comandos:
+- **Modo silencioso**: encontre ou baixe o arquivo. msi apropriado. Em uma janela de prompt de comando, substitua \< PathToFile \> pelo local do arquivo. msi e execute um dos seguintes comandos:
 
   - **32**bits:
 
@@ -288,7 +288,7 @@ Para outros métodos que você pode usar para enviar mensagens à Microsoft, con
 
 #### <a name="problem-users-selected-not-to-receive-a-confirmation-prompt-when-they-report-messages-and-now-they-want-the-prompt-back"></a>Problema: os usuários optaram por não receber um prompt de confirmação ao relatar mensagens e agora eles querem retornar o prompt
 
-1. Crie a `ConfirmReportJunk`chave do registro wih o valor "true":
+1. Crie a `ConfirmReportJunk` chave do registro wih o valor "true":
 
    ```text
    Windows Registry Editor Version 5.00

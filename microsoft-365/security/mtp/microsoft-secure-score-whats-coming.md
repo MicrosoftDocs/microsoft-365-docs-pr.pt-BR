@@ -17,21 +17,21 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: a7e13ae8a3ccffa644a123f57b05c4364d4333d2
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: d9025e4333c6d6ae40f894fc6bde195028871dab
+ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141342"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44211445"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>O que está acontecendo na pontuação segura da Microsoft?
 
-Para tornar a [Pontuação segura da Microsoft](microsoft-secure-score.md) um melhor representante da postura de segurança e melhorar a usabilidade, estamos fazendo algumas alterações em um futuro próximo. Sua pontuação e a pontuação máxima possível mudarão. No entanto, isso não implica uma alteração na postura de segurança.
+Para tornar a [Pontuação segura da Microsoft](microsoft-secure-score-new.md) um melhor representante da postura de segurança e melhorar a usabilidade, estamos fazendo algumas alterações em um futuro próximo. Sua pontuação e a pontuação máxima possível mudarão. No entanto, isso não implica uma alteração na postura de segurança.
 
-Para saber mais sobre as alterações recentes, confira [o que há de novo na pontuação segura da Microsoft?](microsoft-secure-score.md#whats-new)
+Para saber mais sobre as alterações recentes, confira [o que há de novo na pontuação segura da Microsoft?](microsoft-secure-score-new.md#whats-new)
 
-## <a name="may-2020"></a>May 2020
+## <a name="may-2020"></a>Maio de 2020
 
-### <a name="adding-additional-azure-advanced-threat-protection-improvement-actions-to-preview"></a>Adicionando ações de melhoria avançada de proteção contra ameaças avançadas do Azure para visualização
+### <a name="adding-additional-azure-advanced-threat-protection-improvement-actions-to-the-preview-release-and-new-iteration"></a>Adicionando ações avançadas aprimoradas de melhoria de proteção contra ameaças à versão prévia e à nova iteração
 
 - Habilitar recursos de segurança em relações de confiança do Active Directory

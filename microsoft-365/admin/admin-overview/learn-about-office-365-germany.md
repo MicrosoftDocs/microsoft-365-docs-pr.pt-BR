@@ -9,6 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+monikerRange: o365-germany
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -19,18 +20,17 @@ search.appverid:
 - BEA160
 ms.assetid: 8a5a4bbc-667a-4cac-8769-d8ac9015db4c
 description: Saiba mais sobre o Office 365 Alemanha.
-ms.openlocfilehash: d992d437e40baaa105ca407d40bb81ff84d9e3f3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2c63672865ac2c64bd9731df797202cf9cfdd9cd
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43623901"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208349"
 ---
-> [!NOTE]
-> O Office 365 Alemanha não está mais aceitando novos clientes ou implantando novos serviços. As novas regiões de nuvem na Alemanha, disponíveis no primeiro trimestre de 2020 para o Microsoft 365 e o Office 365, fornecerão a residência principal de dados do cliente na Alemanha, bem como a conectividade completa com a rede global de nuvem da Microsoft. 
->
-
 # <a name="learn-about-office-365-germany"></a>Saiba mais sobre o Office 365 Germany
+
+> [!NOTE]
+> O Office 365 Alemanha não está mais aceitando novos clientes ou implantando novos serviços. As novas regiões de nuvem na Alemanha, disponíveis no primeiro trimestre de 2020 para o Microsoft 365 e o Office 365, fornecerão a residência principal de dados do cliente na Alemanha, bem como a conectividade completa com a rede global de nuvem da Microsoft.
 
 Office 365 Alemanha foi uma opção diferenciada para os serviços do Office 365 disponíveis na Europa. Ele ajudou a atender às necessidades dos clientes mais regulamentados na Alemanha, na União Europeia (UE) e na Associação Européia (EFTA) ao fornecer nossos serviços de produtividade líderes do setor para trabalho digital, de data centers em alemão, com residências de dados na Alemanha e medidas de controle e acesso de dados estritos por meio de um modelo de confiança de dados exclusivo regido pela legislação alemã.
   

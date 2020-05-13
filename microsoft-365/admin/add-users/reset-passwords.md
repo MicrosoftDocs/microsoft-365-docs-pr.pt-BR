@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 'Saiba como redefinir a senha de um usuário na assinatura do Microsoft 365 for Business. '
-ms.openlocfilehash: 32d2d529ab4e2592556613b016231dbbd93458b3
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: 0cd9bfe2b4f60ed0150e95f35d1f24994724ca60
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173513"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208193"
 ---
 # <a name="reset-passwords"></a>Redefinir senha
 
@@ -79,13 +79,13 @@ Estas etapas são apenas para pessoas que usam um plano Microsoft 365 para empre
 
 Use estas etapas se você esqueceu sua senha, mas consegue entrar no Microsoft 365 porque, por exemplo, sua senha é salva no navegador: 
     
-1. Selecione seu nome (ícone) no canto superior direito >**informações pessoais**da **minha conta** > . 
+1. Selecione seu nome (ícone) no canto superior direito > **My Account**  >  **informações pessoais**da minha conta. 
           
 2. Em **detalhes do contato**, verifique se o seu **email alternativo** está correto e se você forneceu um número de telefone celular. Caso contrário, altere-as agora. 
         
 3. Sair: Selecione seu nome no canto superior direito (na imagem acima, mostrado como **Diane**) \> **sair**. 
         
-4. Agora entre novamente: digite \> **seu nome de** \> usuário e, em seguida, selecione **esqueceu a senha**. 
+4. Agora entre novamente: Digite seu nome de usuário \> **Next** \> e, em seguida, selecione **esqueceu a senha**. 
     
 5. Siga as etapas no Assistente para redefinir sua senha. Ele usa suas informações de contato alternativas para confirmar que você é a pessoa certa para redefinir sua senha. 
     
@@ -100,7 +100,7 @@ Se você esqueceu a senha e não consegue entrar:
 ## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>Redefinir todas as senhas de negócios para todas as pessoas em sua organização ao mesmo tempo
 <a name="bkmk_forgot"> </a>
 
-Estas etapas funcionam para uma empresa com dezenas de usuários. Se você tiver centenas ou milhares de usuários, confira a próxima seção sobre redefinições de senha em massa.
+Estas etapas funcionam para uma empresa com dezenas de usuários. Se você tiver centenas ou milhares de usuários, consulte a próxima seção sobre a redefinição de senhas em massa (máximo de 40 usuários por vez).
   
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
     

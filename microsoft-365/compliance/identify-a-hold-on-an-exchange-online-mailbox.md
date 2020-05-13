@@ -14,13 +14,13 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
-description: Saiba como identificar os diferentes tipos de retenção que podem ser colocados em uma caixa de correio do Microsoft 365. Esses tipos de isenções incluem retenção de litígio, bloqueios de descoberta eletrônica e políticas de retenção do Microsoft 365. Você também pode determinar se um usuário foi excluído de uma política de retenção em toda a organização
-ms.openlocfilehash: 232173b82033f7372ef54411a04f3ee891a42bbb
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+description: Saiba como identificar os diferentes tipos de retenção que podem ser colocados em uma caixa de correio do Microsoft 365. Esses tipos de isenções incluem retenção de litígio, bloqueios de descoberta eletrônica e políticas de retenção do Microsoft 365. Você também pode determinar se um usuário foi excluído de uma política de retenção em toda a organização.
+ms.openlocfilehash: 594b8550cdd418af9551c732b78091817da7bfc3
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047990"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208662"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Como identificar o tipo de retenção de uma caixa de correio do Exchange Online
 
@@ -30,7 +30,7 @@ O Microsoft 365 oferece várias maneiras em que sua organização pode impedir q
 
 - ** [Retenção de litígio](create-a-litigation-hold.md):** As isenções são aplicadas às caixas de correio do usuário no Exchange Online.
 
-- ** [bloqueio de descoberta eletrônica](ediscovery-cases.md#step-4-place-content-locations-on-hold):** Suspensões associadas a uma ocorrência de descoberta eletrônica no centro de conformidade e segurança. as suspensões de descoberta eletrônica podem ser aplicadas às caixas de correio do usuário e à caixa de correio correspondente dos grupos do Microsoft 365 e do Microsoft Teams.
+- ** [bloqueio de descoberta eletrônica](create-ediscovery-holds.md):** Suspensões que estão associadas a um caso de descoberta eletrônica principal no centro de conformidade e segurança. as suspensões de descoberta eletrônica podem ser aplicadas às caixas de correio do usuário e à caixa de correio correspondente dos grupos do Microsoft 365 e do Microsoft Teams.
 
 - ** [Bloqueio in-loco](https://docs.microsoft.com/Exchange/security-and-compliance/create-or-remove-in-place-holds):** As isenções são aplicadas às caixas de correio do usuário usando a ferramenta de bloqueio de & de descoberta eletrônica in-loco no centro de administração do Exchange no Exchange Online.
 
@@ -55,7 +55,7 @@ Você pode executar os dois cmdlets a seguir no PowerShell do Exchange Online pa
 
 - **Get-OrganizationConfig:** Use este cmdlet para obter os GUIDs de políticas de retenção em toda a organização.
 
-Para se conectar ao Exchange Online PowerShell, consulte [Conectar ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
 
 ### <a name="get-mailbox"></a>Get-Mailbox
 
@@ -73,11 +73,11 @@ A tabela a seguir descreve como identificar diferentes tipos de isenções com b
 
 |Tipo de bloqueio  |Valor de exemplo  |Como identificar a isenção  |
 |---------|---------|---------|
-|Retenção de litígio     |    `True`     |     A retenção de litígio está habilitada para uma caixa *LitigationHoldEnabled* de correio quando a propriedade `True`LitigationHoldEnabled é definida como.    |
-|retenção de descoberta eletrônica     |  `UniH7d895d48-7e23-4a8d-8346-533c3beac15d`       |   A *Propriedade InPlaceHolds* contém o GUID de qualquer isenção associada a uma ocorrência de descoberta eletrônica no centro de conformidade e segurança. É possível dizer que esse é um bloqueio de descoberta eletrônica porque o GUID `UniH` começa com o prefixo (que denota uma retenção unificada).      |
+|Retenção de litígio     |    `True`     |     A retenção de litígio está habilitada para uma caixa de correio quando a propriedade *LitigationHoldEnabled* é definida como `True` .    |
+|retenção de descoberta eletrônica     |  `UniH7d895d48-7e23-4a8d-8346-533c3beac15d`       |   A *Propriedade InPlaceHolds* contém o GUID de qualquer isenção associada a uma ocorrência de descoberta eletrônica no centro de conformidade e segurança. É possível dizer que esse é um bloqueio de descoberta eletrônica porque o GUID começa com o `UniH` prefixo (que denota uma retenção unificada).      |
 |Bloqueio In-loco     |     `c0ba3ce811b6432a8751430937152491` <br/> ou <br/> `cld9c0a984ca74b457fbe4504bf7d3e00de`  |     A propriedade *InPlaceHolds* contém o GUID do bloqueio in-loco colocado na caixa de correio. Você pode dizer que isso é um bloqueio in-loco, pois o GUID não começa com um prefixo ou começa com o `cld` prefixo.     |
-|Política de retenção da Microsoft 365 aplicada especificamente à caixa de correio     |    `mbxcdbbb86ce60342489bff371876e7f224:1` <br/> ou <br/> `skp127d7cf1076947929bf136b7a2a8c36f:3`     |     A propriedade InPlaceHolds contém GUIDs de qualquer política de retenção de local específica que é aplicada à caixa de correio. Você pode identificar as políticas de retenção porque o GUID começa `mbx` com o `skp` ou o prefixo. O `skp` prefixo indica que a política de retenção é aplicada às conversas do Skype for Business na caixa de correio do usuário.    |
-|Excluído de uma política de retenção da Microsoft 365 em toda a organização     |   `-mbxe9b52bf7ab3b46a286308ecb29624696`      |     Se uma caixa de correio for excluída de uma política de retenção da Microsoft 365 em toda a organização, o GUID da política de retenção para a qual a caixa de correio é excluída `-mbx` é exibida na propriedade InPlaceHolds e é identificado pelo prefixo.    |
+|Política de retenção da Microsoft 365 aplicada especificamente à caixa de correio     |    `mbxcdbbb86ce60342489bff371876e7f224:1` <br/> ou <br/> `skp127d7cf1076947929bf136b7a2a8c36f:3`     |     A propriedade InPlaceHolds contém GUIDs de qualquer política de retenção de local específica que é aplicada à caixa de correio. Você pode identificar as políticas de retenção porque o GUID começa com o `mbx` ou o `skp` prefixo. O `skp` prefixo indica que a política de retenção é aplicada às conversas do Skype for Business na caixa de correio do usuário.    |
+|Excluído de uma política de retenção da Microsoft 365 em toda a organização     |   `-mbxe9b52bf7ab3b46a286308ecb29624696`      |     Se uma caixa de correio for excluída de uma política de retenção da Microsoft 365 em toda a organização, o GUID da política de retenção para a qual a caixa de correio é excluída é exibida na propriedade InPlaceHolds e é identificado pelo `-mbx` prefixo.    |
 
 ### <a name="get-organizationconfig"></a>Get-OrganizationConfig
 Se a propriedade *InPlaceHolds* estiver vazia quando você executar o cmdlet **Get-Mailbox** , ainda poderá haver uma ou mais políticas de retenção do Microsoft 365 em toda a organização aplicadas à caixa de correio. Execute o seguinte comando no PowerShell do Exchange Online para obter uma lista de GUIDs para as políticas de retenção do Microsoft 365 em toda a organização.
@@ -94,8 +94,8 @@ A tabela a seguir descreve os diferentes tipos de bloqueios de toda a organizaç
 
 |Tipo de bloqueio  |Valor de exemplo  |Descrição  |
 |---------|---------|---------|
-|Políticas de retenção da Microsoft 365 aplicadas às caixas de correio do Exchange, pastas públicas do Exchange e chats do Microsoft Teams    |      `mbx7cfb30345d454ac0a989ab3041051209:2`   |   Políticas de retenção em toda a organização aplicadas às caixas de correio do Exchange, pastas públicas do Exchange e chats do 1xN no Microsoft Teams são identificadas `mbx` por GUIDs que começam com o prefixo. Observação os chats do 1xN são armazenados na caixa de correio dos participantes individuais do chat.      |
-|Política de retenção da Microsoft 365 aplicada a grupos de 365 da Microsoft e mensagens de canal do teams     |   `grp1a0a132ee8944501a4bb6a452ec31171:3`      |    Políticas de retenção em toda a organização aplicadas a grupos do Microsoft 365 e mensagens de canal no Microsoft Teams são identificadas por `grp` GUIDs que começam com o prefixo. Observação as mensagens do canal são armazenadas na caixa de correio de grupo associada a uma equipe da Microsoft.     |
+|Políticas de retenção da Microsoft 365 aplicadas às caixas de correio do Exchange, pastas públicas do Exchange e chats do Microsoft Teams    |      `mbx7cfb30345d454ac0a989ab3041051209:2`   |   Políticas de retenção em toda a organização aplicadas às caixas de correio do Exchange, pastas públicas do Exchange e chats do 1xN no Microsoft Teams são identificadas por GUIDs que começam com o `mbx` prefixo. Observação os chats do 1xN são armazenados na caixa de correio dos participantes individuais do chat.      |
+|Política de retenção da Microsoft 365 aplicada a grupos de 365 da Microsoft e mensagens de canal do teams     |   `grp1a0a132ee8944501a4bb6a452ec31171:3`      |    Políticas de retenção em toda a organização aplicadas a grupos do Microsoft 365 e mensagens de canal no Microsoft Teams são identificadas por GUIDs que começam com o `grp` prefixo. Observação as mensagens do canal são armazenadas na caixa de correio de grupo associada a uma equipe da Microsoft.     |
 
 Para obter mais políticas de retenção de informações aplicadas ao Microsoft Teams, consulte a seção "local da equipe" [visão geral das políticas de retenção](retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations).
 
@@ -235,9 +235,9 @@ Tenha em mente os seguintes pontos ao gerenciar uma caixa de correio em atraso d
 
 Após identificar as isenções aplicadas a uma caixa de correio, você pode executar tarefas como alterar a duração da retenção, remover temporariamente ou permanentemente a retenção ou excluir uma caixa de correio inativa de uma política de retenção do Microsoft 365. Para obter mais informações sobre a execução de tarefas relacionadas a isenções, consulte um dos seguintes tópicos:
 
-- Execute o comando [set-RetentionCompliancePolicy- \<AddExchangeLocationException User Mailbox>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancepolicy?view=exchange-ps) no PowerShell do centro de conformidade e segurança & para excluir uma caixa de correio de uma política de retenção da Microsoft 365 em toda a organização. Este comando só pode ser usado para políticas de retenção onde o valor da propriedade *ExchangeLocation* é `All`igual a.
+- Execute o comando [set-RetentionCompliancePolicy-AddExchangeLocationException \< user Mailbox>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancepolicy?view=exchange-ps) no PowerShell do centro de conformidade e segurança & para excluir uma caixa de correio de uma política de retenção da Microsoft 365 em toda a organização. Este comando só pode ser usado para políticas de retenção onde o valor da propriedade *ExchangeLocation* é igual a `All` .
 
-- Execute o [GUID de retenção Set- \<Mailbox-ExcludeFromOrgHolds sem prefixo ou sufixo>](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox?view=exchange-ps) comando no PowerShell do Exchange Online para excluir uma caixa de correio inativa de uma política de retenção do Microsoft 365 em toda a organização.
+- Execute o [GUID de retenção Set-Mailbox-ExcludeFromOrgHolds \< sem prefixo ou sufixo>](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox?view=exchange-ps) comando no PowerShell do Exchange Online para excluir uma caixa de correio inativa de uma política de retenção do Microsoft 365 em toda a organização.
 
 - [Alterar a duração de retenção de uma caixa de correio inativa](change-the-hold-duration-for-an-inactive-mailbox.md)
 

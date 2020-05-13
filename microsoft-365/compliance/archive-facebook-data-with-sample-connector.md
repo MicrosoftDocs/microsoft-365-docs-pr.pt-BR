@@ -16,14 +16,14 @@ ms.collection: M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
 description: Configure um conector para importar dados do Facebook para o Microsoft 365, de modo que você possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção.
-ms.openlocfilehash: a1a45b3558e8c5fb77fb1d04a1a38402000bbd1b
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e35e4cb8e0f16d3cc95b3f21ce6648bbe087733d
+ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035153"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210518"
 ---
-# <a name="set-up-a-connector-to-archive-facebook-data"></a>Configurar um conector para arquivar dados do Facebook
+# <a name="set-up-a-connector-to-archive-facebook-data-preview"></a>Configurar um conector para arquivar dados do Facebook (visualização)
 
 Use um conector no centro de conformidade da Microsoft 365 para importar e arquivar dados de páginas de negócios do Facebook para a Microsoft 365. Depois de configurar e configurar o conector, ele se conecta à página de negócios do Facebook (de acordo com o agendamento), converte o conteúdo de itens do Facebook em um formato de mensagem de email e, em seguida, importa esses itens para uma caixa de correio no Microsoft 365.
 
@@ -74,7 +74,7 @@ Nas instruções passo a passo para concluir esta etapa, você fornecerá as seg
 
 - Tenantid: a ID do locatário da sua organização do Microsoft 365 que você copiou depois de criar o aplicativo do Facebook Connector no Azure Active Directory na etapa 1.
 
-Após concluir esta etapa, certifique-se de copiar a URL do serviço de aplicativo do Azure https://fbconnector.azurewebsites.net)(por exemplo,. Você precisa usar essa URL para concluir a etapa 3, etapa 4 e etapa 5.
+Após concluir esta etapa, certifique-se de copiar a URL do serviço de aplicativo do Azure (por exemplo, https://fbconnector.azurewebsites.net) . Você precisa usar essa URL para concluir a etapa 3, etapa 4 e etapa 5.
 
 ## <a name="step-3-register-the-web-app-on-facebook"></a>Etapa 3: registrar o aplicativo Web no Facebook
 

@@ -2,10 +2,10 @@
 title: Envio de email para o Microsoft 365
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 04/09/2016
+ms.date: ''
 audience: ITPro
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -18,16 +18,16 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como um remetente externo, como você pode aumentar a capacidade de enviar emails para os usuários no Microsoft 365. Saiba também como relatar lixo eletrônico & tentativas de phishing como um usuário externo.
-ms.openlocfilehash: c1086088a92240be4bb7bbbd52077cecb1c54476
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: c464d09ddd5f6324c9b3e22e9cad6a613862c9a1
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035379"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209818"
 ---
 # <a name="sending-mail-to-microsoft-365"></a>Envio de email para o Microsoft 365
 
-Estes artigos ajudam os remetentes externos a melhorar sua reputação e aumentar a capacidade de entregar emails aos usuários no Office 365. Eles também fornecem algumas informações sobre como é possível relatar lixo eletrônico e tentativas de phishing, mesmo que você não seja um usuário da Microsoft 365.
+Estes artigos ajudam os remetentes externos a melhorar sua reputação e aumentar a capacidade de entregar emails aos usuários no Microsoft 365. Eles também fornecem algumas informações sobre como é possível relatar lixo eletrônico e tentativas de phishing, mesmo que você não seja um usuário da Microsoft 365.
 
 Se você não for um cliente, mas estiver tentando enviar emails para alguém em quem está, você está no lugar certo. Se você é um administrador e precisa de ajuda para combater spam, esta não é a seção correta para você. Em vez disso, vá para [proteção antispam e antimalware no Microsoft 365](anti-spam-and-anti-malware-protection.md).
 

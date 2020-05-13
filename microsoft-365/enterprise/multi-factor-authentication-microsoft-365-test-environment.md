@@ -15,12 +15,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Configurar a autenticação multifator usando mensagens de texto enviadas a um telefone inteligente no seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: b17c6b3b39bebaff2737ea5e9bb198beef00844c
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: ae8cab25a20cc75992eecc600219d9f1dd869b63
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153875"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213135"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>Autenticação multifator para seu ambiente de teste do Microsoft 365 Enterprise
 
@@ -28,7 +28,7 @@ ms.locfileid: "43153875"
 
 Para obter um nível adicional de segurança para entrar no Microsoft 365 ou qualquer serviço ou aplicativo que usa o locatário do Azure AD para sua assinatura, você pode habilitar a autenticação multifator do Azure, que requer mais do que apenas um nome de usuário e senha para verificar uma conta. 
 
-Com a autenticação multifator, os usuários precisam confirmar uma chamada telefônica, digitar um código de verificação enviado em uma mensagem de texto ou especificar uma senha de aplicativo em seus telefones inteligentes após inserir corretamente suas senhas. O acesso só será possível depois que esse segundo fator de autenticação for atendido. 
+Com a autenticação multifator, os usuários precisam confirmar uma chamada telefônica, digitar um código de verificação enviado em uma mensagem de texto ou verificar a autenticação com um aplicativo em seus dispositivos inteligentes após a inserção correta de suas senhas. O acesso só será possível depois que esse segundo fator de autenticação for atendido. 
   
 Este artigo descreve como habilitar e testar a autenticação baseada em mensagem de texto para uma conta de usuário específica.
   
@@ -45,7 +45,7 @@ Há duas fases para configurar a autenticação multifator para uma conta no seu
 > [!TIP]
 > Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia do Test Lab do Microsoft 365 Enterprise.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: Criar o ambiente de teste do Microsoft 365 Enterprise
+## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: criar o ambiente de teste do Microsoft 365 Enterprise
 
 Se você só quiser testar a autenticação multifator de forma leve com os requisitos mínimos, siga as instruções em [configuração básica leve](lightweight-base-configuration-microsoft-365-enterprise.md).
   
@@ -58,7 +58,7 @@ Se você quiser testar a autenticação multifator em uma empresa simulada, siga
 
 Habilite a autenticação multifator para a conta do usuário 2 com estas etapas:
   
-1. Abra uma instância separada e privada do navegador, vá para o centro de administração do Microsoft 365[https://portal.microsoft.com](https://portal.microsoft.com)() e entre com sua conta de administrador global.
+1. Abra uma instância separada e privada do navegador, vá para o centro de administração do Microsoft 365 ( [https://portal.microsoft.com](https://portal.microsoft.com) ) e entre com sua conta de administrador global.
     
 2. Na navegação à esquerda, clique em **Usuários > Usuários ativos**.
     
@@ -80,7 +80,7 @@ Conclua a configuração da conta do usuário 2 para usar uma mensagem de texto 
   
 1. Abra uma nova instância privada do navegador.
     
-2. Vá para o portal do Office 365[https://portal.office.com](https://portal.office.com)() e entre com o nome da conta e a senha do usuário 2.
+2. Vá para o portal do Office 365 ( [https://portal.office.com](https://portal.office.com) ) e entre com o nome da conta e a senha do usuário 2.
     
 3. Após entrar, você será solicitado a configurar a conta para obter mais informações. Clique em **Avançar**.
     
@@ -96,7 +96,7 @@ Conclua a configuração da conta do usuário 2 para usar uma mensagem de texto 
     
 6. Insira o código de verificação da mensagem de texto recebida no telefone inteligente e clique em **verificar**.
     
-7. Na página **etapa 3: manter seus aplicativos existentes** , registre a senha do aplicativo exibida para a conta do usuário 2 em um local seguro e clique em **concluído**.
+7. Na página **etapa 3: manter seus aplicativos existentes** , clique em **concluído**.
     
 8. Se esta é a primeira vez que você entrou com a conta de usuário 2, você é solicitado a alterar a senha. Digite a senha original e uma nova senha duas vezes e clique em **Atualizar senha e entrar**. Registre a nova senha em um local seguro.
     
@@ -121,7 +121,7 @@ Em seguida, crie um novo grupo chamado MFAUsers e adicione a ele 3 conta de usu�
 
 Em seguida, crie uma política de acesso condicional para exigir a autenticação multifator para os membros do grupo MFAUsers.
 
-1. Em uma nova guia do navegador, vá para [https://portal.azure.com](https://portal.azure.com).
+1. Em uma nova guia do navegador, vá para [https://portal.azure.com](https://portal.azure.com) .
 2. Clique em **Azure Active Directory > segurança > acesso condicional**.
 3. No painel **acesso condicional – políticas** , clique em **nova política**.
 4. No painel **novo** , digite **MFA para contas de usuário** em **nome**.

@@ -18,50 +18,32 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Este artigo fornece informações sobre como solucionar problemas com o envio de emails para as caixas de entrada no Microsoft 365 & práticas recomendadas para envio de email em massa para os clientes da Microsoft 365.
-ms.openlocfilehash: 849707ee8b703f13ac12ecb414a8ed9ea6421704
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 0d9c1646aa7491b3da458c7cb0ddeb908873153a
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036735"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208592"
 ---
-# <a name="troubleshooting-mail-sent-to-office-365"></a>Solução de problemas de email enviados para o Office 365
+# <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Solucionando problemas de email enviado para o Microsoft 365
 
 Este artigo fornece informações de solução de problemas para remetentes que estão enfrentando problemas ao tentar enviar emails para caixas de entrada no Microsoft 365 e práticas recomendadas para envio de emails em massa para clientes.
 
-## <a name="troubleshooting-common-problems-with-mail-delivery-to-office-365"></a>Solucionando problemas comuns com a entrega de emails para o Office 365
+## <a name="are-you-managing-your-ip-and-domains-sending-reputation"></a>Você está gerenciando sua reputação de envio de IP e de domínio?
 
-Escolha um desses problemas normalmente encontrados.
+As tecnologias de filtragem do EOP são projetadas para fornecer proteção antispam para o Microsoft 365, bem como outros produtos da Microsoft, como o Exchange Server. Também aproveitamos o SPF, DKIM e DMARC; tecnologias de autenticação de email que ajudam a resolver o problema de falsificação e phishing, verificando se o domínio que envia o email está autorizado a fazer isso. A filtragem EOP é influenciada por vários fatores relacionados ao IP de envio, domínio, autenticação, precisão da lista, taxas de reclamação, conteúdo e muito mais. Desses, um dos principais fatores para a condução da reputação de um remetente e sua capacidade de entregar emails é a taxa de reclamação de lixo eletrônico.
 
-- [Você está gerenciando sua reputação de envio de IP e de domínio?](#are-you-managing-your-ip-and-domains-sending-reputation)
-
-- [Você está enviando emails de novos endereços IP?](#are-you-sending-email-from-new-ip-addresses)
-
-- [Confirmar se o DNS está configurado corretamente](#confirm-that-your-dns-is-set-up-correctly)
-
-- [Não se anuncie como um IP não roteável](#ensure-that-you-do-not-advertise-yourself-as-a-non-routable-ip)
-
-- [Você recebeu uma notificação de falha na entrega (NDR) ao enviar emails para um usuário no Office 365](#you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365)
-
-- [Meu email Redirecionado na pasta lixo eletrônico do destinatário no EOP](#my-email-landed-in-the-recipients-junk-folder-in-eop)
-
-- [O tráfego do meu endereço IP é limitado por EOP](#traffic-from-my-ip-address-is-throttled-by-eop)
-
-### <a name="are-you-managing-your-ip-and-domains-sending-reputation"></a>Você está gerenciando sua reputação de envio de IP e de domínio?
-
-As tecnologias de filtragem do EOP são projetadas para fornecer proteções antispam para o Microsoft 365, bem como outros produtos da Microsoft, como o Exchange Server, o Microsoft Office Outlook e o Windows Live mail. Também aproveitamos o SPF, DKIM e DMARC; tecnologias de autenticação de email que ajudam a resolver o problema de falsificação e phishing, verificando se o domínio que envia o email está autorizado a fazer isso. A filtragem EOP é influenciada por vários fatores relacionados ao IP de envio, domínio, autenticação, precisão da lista, taxas de reclamação, conteúdo e muito mais. Desses, um dos principais fatores para a condução da reputação de um remetente e sua capacidade de entregar emails é a taxa de reclamação de lixo eletrônico.
-
-### <a name="are-you-sending-email-from-new-ip-addresses"></a>Você está enviando emails de novos endereços IP?
+## <a name="are-you-sending-email-from-new-ip-addresses"></a>Você está enviando emails de novos endereços IP?
 
 Os endereços IP não usados anteriormente para enviar emails normalmente não têm nenhuma reputação criada em nossos sistemas. Como resultado, os emails de novos IPs têm maior probabilidade de sofrer problemas de entrega. Depois que o IP tiver criado uma reputação de não enviar spam, o EOP geralmente permitirá uma melhor experiência de entrega de email.
 
 Os novos IPs que são adicionados para domínios autenticados em registros SPF existentes normalmente apresentam a vantagem adicional de herdar alguns dos domínios de envio do domínio. Se seu domínio tem uma boa reputação de envio, novos IPs podem ter um tempo de crescimento mais rápido. Um novo IP pode esperar ser totalmente enescalado dentro de algumas semanas ou antes, dependendo do volume, da precisão da lista e das taxas de reclamação de emails de lixo eletrônico.
 
-### <a name="confirm-that-your-dns-is-set-up-correctly"></a>Confirmar se o DNS está configurado corretamente
+## <a name="confirm-that-your-dns-is-set-up-correctly"></a>Confirmar se o DNS está configurado corretamente
 
 Para obter instruções sobre como criar e manter registros DNS, incluindo o registro MX exigido para roteamento de email, você precisará entrar em contato com o provedor de hospedagem DNS.
 
-### <a name="ensure-that-you-do-not-advertise-yourself-as-a-non-routable-ip"></a>Não se anuncie como um IP não roteável
+## <a name="ensure-that-you-do-not-advertise-yourself-as-a-non-routable-ip"></a>Não se anuncie como um IP não roteável
 
 Podemos não aceitar emails de remetentes que falham em uma pesquisa de DNS reverso. Em alguns casos, os remetentes legítimos se anunciam incorretamente como um IP que não é roteável pela Internet ao tentar abrir uma conexão com o EOP. Os endereços IP reservados para redes privadas (não roteáveis) incluem:
 
@@ -71,38 +53,23 @@ Podemos não aceitar emails de remetentes que falham em uma pesquisa de DNS reve
 
 - 172.16.0.0/11 (ou 172.16.0.0-172.31.255.255)
 
-### <a name="you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365"></a>Você recebeu uma notificação de falha na entrega (NDR) ao enviar emails para um usuário no Office 365
+## <a name="you-received-a-non-delivery-report-ndr-when-sending-email-to-a-user-in-office-365"></a>Você recebeu uma notificação de falha na entrega (NDR) ao enviar emails para um usuário no Office 365
 
 Alguns problemas de entrega são o resultado do endereço IP do remetente sendo bloqueado pela Microsoft ou porque a conta do usuário é identificada como remetente proibido devido à atividade de spam anterior. Se você achar que recebeu a notificação por erro, primeiro siga as instruções na mensagem de notificação de falha na entrega para resolver o problema.
 
 Para obter mais informações sobre o erro recebido, consulte a lista de códigos de erro em notificações de falha na [entrega de email no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online).
 
- Por exemplo, se você receber a seguinte notificação de falha na entrega, ela indicará que o endereço IP de envio foi bloqueado pela Microsoft.
+ Por exemplo, se você receber a seguinte notificação de falha na entrega, ela indica que o endereço IP de envio foi bloqueado pela Microsoft:
 
  `550 5.7.606-649 Access denied, banned sending IP [x.x.x.x]; To request removal from this list please visit https://sender.office.com/ and follow the directions.`
 
 Para solicitar a remoção dessa lista, você pode [usar o portal de remoção da lista para removê-lo da lista de remetentes bloqueados](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md).
 
-### <a name="my-email-landed-in-the-recipients-junk-folder-in-eop"></a>Meu email Redirecionado na pasta lixo eletrônico do destinatário no EOP
+## <a name="my-email-landed-in-the-recipients-junk-email-folder"></a>Meu email Redirecionado na pasta lixo eletrônico do destinatário
 
-Se uma mensagem foi identificada incorretamente como spam pelo EOP, você poderá trabalhar com o destinatário para enviar essa mensagem falsa positiva para a equipe de análise de spam da Microsoft, que avaliará e analisará a mensagem. Dependendo dos resultados da análise, as regras de filtro de conteúdo de spam de todo o serviço podem ser ajustadas para permitir a mensagem. Você usa email para enviar mensagens para a Microsoft que não devem ser classificadas como spam. Ao fazer isso, certifique-se de usar as etapas do seguinte procedimento.
+Se uma mensagem foi identificada incorretamente como spam pelo EOP, você poderá trabalhar com o destinatário para enviar essa mensagem falsa positiva para a equipe de análise de spam da Microsoft, que avaliará e analisará a mensagem. Para mais informações, confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
 
-### <a name="to-use-email-to-submit-false-positive-messages-to-the-microsoft-spam-analysis-team"></a>Para usar o email para enviar mensagens de falso positivo para a equipe de análise de spam da Microsoft
-
-1. Salve a mensagem que você deseja enviar como não spam.
-
-2. Crie uma nova mensagem em branco e anexe a ela a mensagem que não é spam.
-
-    Você pode anexar várias mensagens que não são spam, se necessário.
-
-3. Copie e cole a linha de assunto da mensagem original na linha de assunto da nova mensagem.
-
-    > [!IMPORTANT]
-    > Deixe o corpo da nova mensagem vazio.
-
-4. Envie a mensagem para [not_junk@office365.microsoft.com](mailto:not_junk@office365.microsoft.com).
-
-### <a name="traffic-from-my-ip-address-is-throttled-by-eop"></a>O tráfego do meu endereço IP é limitado por EOP
+## <a name="traffic-from-my-ip-address-is-throttled-by-eop"></a>O tráfego do meu endereço IP é limitado por EOP
 
 Se você receber uma notificação de falha na EOP que indica que seu endereço IP está sendo limitado por EOP, por exemplo:
 
@@ -110,7 +77,7 @@ Se você receber uma notificação de falha na EOP que indica que seu endereço 
 
 Você recebeu a notificação de falha na entrega porque a atividade suspeita foi detectada no endereço IP e foi temporariamente restringida enquanto está sendo avaliada. Se a suspeita for limpa através da avaliação, essa restrição será levantada em breve.
 
-### <a name="i-cant-receive-email-from-senders-in-office-365"></a>Não consigo receber emails de remetentes no Office 365
+## <a name="i-cant-receive-email-from-senders-in-microsoft-365"></a>Não consigo receber emails de remetentes no Microsoft 365
 
  Para receber mensagens de nossos usuários, certifique-se de que a sua rede permite conexões dos endereços IP que o EOP usa em nossos data centers. Confira mais informações em [endereços IP do Exchange Online Protection](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
@@ -118,7 +85,7 @@ Você recebeu a notificação de falha na entrega porque a atividade suspeita fo
 
 Se você costuma conduzir campanhas de email em massa para os usuários do Microsoft 365 e quiser garantir que seus emails cheguem de forma segura e oportuna, siga as dicas desta seção.
 
-### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>Verifique se o nome de: reflete quem está enviando a mensagem
+### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>Certifique-se de que o nome de deve refletir quem está enviando a mensagem
 
 O assunto deve ser um breve resumo do que a mensagem está sobre, e o corpo da mensagem deve indicar claramente e sucintamente o que a oferta, serviço ou produto está. Por exemplo:
 

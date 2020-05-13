@@ -1,5 +1,5 @@
 ---
-title: Usar regras de fluxo de email para filtrar emails em massa no Office 365
+title: Usar regras de fluxo de email para filtrar emails em massa
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,30 +14,34 @@ search.appverid:
 ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
-description: Os administradores podem aprender a usar regras de fluxo de emails no Exchange Online Protection (EOP) para filtragem de email em massa.
+description: Os administradores podem aprender a usar regras de fluxo de emails (regras de transporte) para identificar e filtrar emails em massa (emails cinza) na proteção do Exchange Online (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 43a10951a24ac76108fb0531f9e2c205c3fc9047
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: a31030ea2f844cdeb4bee68bf748a2ab8ca29dad
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034969"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213359"
 ---
-# <a name="use-mail-flow-rules-to-filter-bulk-email-in-office-365"></a>Usar regras de fluxo de email para filtrar emails em massa no Office 365
+# <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>Usar regras de fluxo de email para filtrar emails em massa no EOP
 
-Se você for um cliente Microsoft 365 com caixas de correio no Exchange Online ou um cliente autônomo do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP usa políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) para examinar mensagens de entrada para spam e emails em massa (também conhecido como email cinza). Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
+Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP usa políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) para examinar mensagens de entrada para spam e emails em massa (também conhecido como email cinza). Para obter mais informações, consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md).
 
-Se quiser mais opções para filtrar emails em massa, você poderá criar regras de fluxo de emails (também conhecidas como regras de transporte) para procurar padrões de texto ou frases que sejam frequentemente encontradas em emails em massa e marcar essas mensagens como spam. Para saber mais sobre emails em massa, confira [a diferença entre lixo eletrônico e email em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md) e [BCL (nível de reclamação em massa) no Office 365](bulk-complaint-level-values.md).
+Se quiser mais opções para filtrar emails em massa, você poderá criar regras de fluxo de emails (também conhecidas como regras de transporte) para procurar padrões de texto ou frases que sejam frequentemente encontradas em emails em massa e marcar essas mensagens como spam. Para saber mais sobre emails em massa, confira [a diferença entre lixo eletrônico e email em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md) e [BCL (nível de reclamação em massa) no EOP](bulk-complaint-level-values.md).
 
-Este tópico explica como criar essas regras de fluxo de emails no centro de administração do Exchange (Eat) e no PowerShell (Exchange Online PowerShell para clientes do Microsoft 365; PowerShell de proteção do Exchange Online para clientes autônomos do EOP).
+Este tópico explica como criar essas regras de fluxo de email no centro de administração do Exchange (Eat) e no PowerShell (Exchange Online PowerShell para organizações do Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio do Exchange Online).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você precisa receber permissões no Exchange Online antes de poder executar estes procedimentos. Especificamente, você precisa receber a função de **regras de transporte** , que é atribuída às funções de gerenciamento da **organização**, **Gerenciamento de conformidade**e gerenciamento de **registros** por padrão. Para saber mais, confira [Gerenciar Grupos de Funções do Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups).
+- Você precisa ter permissões para poder executar estes procedimentos:
 
-- Para abrir o Eat no Exchange Online, confira [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center).
+  - No Exchange Online, consulte o entrada "fluxo de email" em [permissões de recurso no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/feature-permissions).
+  
+  - Em EOP autônomo, você precisa da função de regras de transporte, que é atribuída às funções gerenciamento, ComplianceManagement e RecordsManagement por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
 
-- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell da Proteção do Exchange Online autônoma, confira [Conectar ao PowerShell da Proteção do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Para abrir o Eat no Exchange Online, confira [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center). Para abrir o Eat no EOP autônomo, confira [centro de administração do Exchange no EOP autônomo](exchange-admin-center-in-exchange-online-protection-eop.md).
+
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell do EOP autônomo, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - Para obter mais informações sobre regras de fluxo de emails no Exchange Online e EOP autônomos, consulte os seguintes tópicos:
 
@@ -57,7 +61,7 @@ Este tópico explica como criar essas regras de fluxo de emails no centro de adm
 
 1. No EAC, vá para **Fluxo de emails** \> **Regras**.
 
-2. Clique em **Adicionar** ![ícone](../../media/ITPro-EAC-AddIcon.png) de adição e selecione **criar uma nova regra**.
+2. Clique em **Adicionar** ![ ícone ](../../media/ITPro-EAC-AddIcon.png) de adição e selecione **criar uma nova regra**.
 
 3. Na página **nova regra** que é aberta, defina as seguintes configurações:
 
@@ -67,75 +71,52 @@ Este tópico explica como criar essas regras de fluxo de emails no centro de adm
 
    - **Aplique esta regra se**: Configure uma das seguintes configurações para procurar conteúdo em mensagens usando expressões regulares (Regex) ou palavras ou frases:
 
-     - **O assunto ou o assunto do corpo** \> **ou o corpo corresponde a estes padrões de texto**: na caixa de diálogo **especificar palavras ou expressões** que aparece, insira um dos seguintes valores](../../media/ITPro-EAC-AddIcon.png), clique em **Adicionar** ![ícone de adição e repita até inserir todos os valores.
+     - **O assunto ou corpo** \> o **assunto ou o corpo corresponde a estes padrões de texto**: na caixa de diálogo **especificar palavras ou frases** que aparece, insira um dos seguintes valores, clique em **Adicionar** ![ ícone de adição ](../../media/ITPro-EAC-AddIcon.png) e repita até inserir todos os valores.
 
        - `If you are unable to view the content of this email\, please`
-
        - `\>(safe )?unsubscribe( here)?\</a\>`
-
        - `If you do not wish to receive further communications like this\, please`
-
        - `\<img height\="?1"? width\="?1"? sr\c=.?http\://`
-
        - `To stop receiving these+emails\:http\://`
-
        - `To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)`
-
        - `no longer (wish )?(to )?(be sent|receive) w+ email`
-
        - `If you are unable to view the content of this email\, please click here`
-
        - `To ensure you receive (your daily deals|our e-?mails)\, add`
-
        - `If you no longer wish to receive these emails`
-
        - `to change your (subscription preferences|preferences or unsubscribe)`
-
        - `click (here to|the) unsubscribe`
 
-      Para editar uma entrada, selecione-a e **Edit** ![clique em Editar](../../media/ITPro-EAC-EditIcon.png)ícone de edição. Para remover uma entrada, selecione-a e **Remove** ![clique em Remover](../../media/ITPro-EAC-DeleteIcon.png)ícone Remover.
+      Para editar uma entrada, selecione-a e clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) . Para remover uma entrada, selecione-a e clique em **remover** ![ ícone Remover ](../../media/ITPro-EAC-DeleteIcon.png) .
 
        Quando tiver concluído, clique em **OK**.
 
-     - **O assunto ou o assunto do corpo** \> **ou o corpo inclui qualquer uma destas palavras**: na caixa de diálogo **especificar palavras ou frases** que aparece, insira um dos seguintes valores, clique](../../media/ITPro-EAC-AddIcon.png)em **Adicionar** ![ícone de adição e repita até inserir todos os valores.
+     - **O assunto ou corpo** \> o **assunto ou o corpo inclui qualquer uma destas palavras**: na caixa de diálogo **especificar palavras ou frases** que aparece, insira um dos seguintes valores, clique em **Adicionar** ![ ícone ](../../media/ITPro-EAC-AddIcon.png) de adição e repita até inserir todos os valores.
 
        - `to change your preferences or unsubscribe`
-
        - `Modify email preferences or unsubscribe`
-
        - `This is a promotional email`
-
        - `You are receiving this email because you requested a subscription`
-
        - `click here to unsubscribe`
-
        - `You have received this email because you are subscribed`
-
        - `If you no longer wish to receive our email newsletter`
-
        - `to unsubscribe from this newsletter`
-
        - `If you have trouble viewing this email`
-
        - `This is an advertisement`
-
        - `you would like to unsubscribe or change your`
-
        - `view this email as a webpage`
-
        - `You are receiving this email because you are subscribed`
 
-      Para editar uma entrada, selecione-a e **Edit** ![clique em Editar](../../media/ITPro-EAC-EditIcon.png)ícone de edição. Para remover uma entrada, selecione-a e **Remove** ![clique em Remover](../../media/ITPro-EAC-DeleteIcon.png)ícone Remover.
+      Para editar uma entrada, selecione-a e clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) . Para remover uma entrada, selecione-a e clique em **remover** ![ ícone Remover ](../../media/ITPro-EAC-DeleteIcon.png) .
 
        Quando tiver concluído, clique em **OK**.
 
-   - **Faça o seguinte**: selecione **modificar as propriedades** \> da mensagem **definem o nível de confiança de spam (SCL)**. Na caixa de diálogo **especificar SCL** que aparece, configure uma das seguintes configurações:
+   - **Faça o seguinte**: selecione **modificar as propriedades da mensagem** \> **definem o nível de confiança de spam (SCL)**. Na caixa de diálogo **especificar SCL** que aparece, configure uma das seguintes configurações:
 
      - Para marcar mensagens como **spam**, selecione **6**. A ação que você configurou para filtragem de **spam** verdicts em suas políticas antispam é aplicada às mensagens (o valor padrão é **mover mensagem para a pasta lixo eletrônico**).
 
      - Para marcar mensagens como **spam de alta confiança** , selecione **9**. A ação que você configurou para a filtragem de **spam de alta confiança** verdicts nas políticas antispam é aplicada às mensagens (o valor padrão é **mover mensagem para a pasta lixo eletrônico**).
 
-    Para obter mais informações sobre os valores de SCL, consulte [nível de confiança de spam (SCL) no Office 365](spam-confidence-levels.md).
+    Para obter mais informações sobre os valores de SCL, consulte [nível de confiança de spam (SCL) no EOP](spam-confidence-levels.md).
 
    Quando tiver terminado, clique em **salvar**
 
@@ -165,9 +146,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetro, consulte [New-Tr
 
 Para verificar se você configurou regras de fluxo de email para filtrar emails em massa, execute uma das seguintes etapas:
 
-- No Eat, vá para **regras** \> de fluxo \> de **emails** selecione \> a regra clique em](../../media/ITPro-EAC-EditIcon.png) **Editar** ![ícone de edição e verifique as configurações.
+- No Eat, vá para regras de **fluxo de emails** \> **Rules** \> Selecione a regra \> clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) e verifique as configurações.
 
-- No PowerShell, substitua \<o nome\> da regra pelo nome da regra e execute o seguinte comando para verificar as configurações:
+- No PowerShell, substitua o \< nome \> da regra pelo nome da regra e execute o seguinte comando para verificar as configurações:
 
   ```powershell
   Get-TransportRule -Identity "<Rule Name>" | Format-List

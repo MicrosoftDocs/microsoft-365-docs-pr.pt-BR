@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Obtenha uma visão geral dos recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: 3f8aa761207be61f78eb5f9b5140439c86455bf3
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d62d24a8f4cbd0541099ece91e46a23d3fbc786c
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035611"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208906"
 ---
 # <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-365"></a>Uma visão geral da investigação e resposta automatizadas (AIR) no Microsoft 365
 
@@ -50,7 +50,7 @@ Atualmente para o AIR, os alertas gerados a partir dos seguintes tipos de polít
 > [!NOTE]
 > Os alertas marcados com um asterisco (*) recebem uma severidade *informativa* nas respectivas políticas de alerta no centro de conformidade com segurança &, com notificações por email desativadas. As notificações por email podem ser ativadas por meio da [configuração da política de alerta](../../compliance/alert-policies.md#alert-policy-settings). Os alertas marcados com um hash (#) são geralmente alertas associados aos guias de visualização pública.
 
-Para exibir alertas, no centro de conformidade & segurança, escolha **alertas** > **exibir alertas**. Selecione um alerta para exibir seus detalhes e, em seguida, use o link **Exibir investigação** para ir para a [investigação](air-view-investigation-results.md#investigation-graph)correspondente.  
+Para exibir alertas, no centro de conformidade & segurança, escolha **alertas**  >  **exibir alertas**. Selecione um alerta para exibir seus detalhes e, em seguida, use o link **Exibir investigação** para ir para a [investigação](air-view-investigation-results.md#investigation-graph)correspondente.  
 
 > [!NOTE]
 > Os alertas informativos ficam ocultos no modo de exibição de alerta por padrão. Para vê-los, altere a filtragem de alerta para incluir alertas informativos.
@@ -68,6 +68,7 @@ Os guias de segurança que você receberá com o AIR são projetados para lidar 
 ### <a name="security-playbooks-are-rolling-out-in-phases"></a>Os guias de segurança estão distribuindo em fases
 
 Como parte do AIR, os guias de segurança são implantados em fases. Agora, a fase 1 está disponível e inclui vários guias estratégicos que fornecem recomendações para ações que os administradores de segurança podem revisar e aprovar:
+
 - Mensagem de phishing relatada pelo usuário
 - URL clique em alterar veredicto
 - Malware detectado após a entrega (malware ZAP)
@@ -76,6 +77,7 @@ Como parte do AIR, os guias de segurança são implantados em fases. Agora, a fa
 A fase 1 também inclui suporte para investigações de email disparadas pelo administrador (usando o [Explorador de ameaças](threat-explorer.md)).
 
 A fase 2 agora está em andamento com os seguintes guias estratégicos na **Visualização pública**, fornecendo recomendações para ações e administradores de segurança do auxiliar em problemas de investigação:
+
 - Usuário relatado como comprometido (visualização pública)
 
 Os guias estratégicos serão lançados à medida que forem concluídos. Visite o [mapa do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) para ver o que mais está planejado e disponível em breve.
@@ -83,6 +85,7 @@ Os guias estratégicos serão lançados à medida que forem concluídos. Visite 
 ### <a name="playbooks-include-investigation-and-recommendations"></a>Os guias estratégicos incluem investigação e recomendações
 
 No AIR, cada guia estratégico de segurança inclui: 
+
 - uma investigação raiz de entidades de email (arquivos, URLs, destinatários, endereços IP, etc.)
 - busca detalhada de emails semelhantes recebidos pela organização 
 - etapas seguidas para identificar e correlacionar outras ameaças potenciais e 
@@ -95,6 +98,7 @@ Cada etapa de alto nível inclui várias subetapas executadas para fornecer uma 
 Suponha que um usuário em sua organização receba um email que eles pensam ser uma tentativa de phishing. O usuário, treinado para relatar essas mensagens, usa o [suplemento de mensagem de relatório](enable-the-report-message-add-in.md) para enviá-la à Microsoft para análise. O envio também é enviado ao seu sistema e fica visível no Explorer, no modo de exibição de **envios** (conhecido anteriormente como modo de exibição **relatado pelo usuário** ). Além disso, a mensagem relatada pelo usuário agora dispara um alerta informativo baseado no sistema, que inicia automaticamente o manual de investigação.
 
 Durante a fase de investigação de raiz, vários aspectos do email são avaliados. Entre eles:
+
 - Uma determinação sobre o tipo de ameaça que ela pode ser;
 - Quem o enviou;
 - De onde o email foi enviado (infraestrutura de envio);
@@ -110,8 +114,8 @@ Em seguida, várias etapas de investigação e busca de ameaças são executadas
 - Mensagens de email semelhantes são identificadas por pesquisas de clusters de email.
 - O sinal é compartilhado com outras plataformas, como [o Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection).
 - É possível determinar se qualquer usuário clicou por links mal-intencionados em mensagens de email suspeitas.
-- Uma verificação é feita na proteção do Exchange Online ([EOP](exchange-online-protection-eop.md)) e no Office 365 Advanced Threat Protection ([ATP](office-365-atp.md)) para ver se há outras mensagens semelhantes relatadas pelos usuários.
-- Uma verificação é feita para ver se um usuário foi comprometido. Esta verificação utiliza sinais no Office 365, no [Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security)e no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory), correlacionando qualquer anomalia relacionada à atividade do usuário. 
+- Uma verificação é feita na proteção do Exchange Online ([EOP](exchange-online-protection-overview.md)) e no Office 365 Advanced Threat Protection ([ATP](office-365-atp.md)) para ver se há outras mensagens semelhantes relatadas pelos usuários.
+- Uma verificação é feita para ver se um usuário foi comprometido. Esta verificação utiliza sinais no Office 365, no [Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security)e no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory), correlacionando qualquer anomalia relacionada à atividade do usuário.
 
 Durante a fase de caça, riscos e ameaças são atribuídos a várias etapas de busca. 
 
@@ -136,4 +140,3 @@ Semelhante aos guias estratégicos acionados por um alerta, as investigações a
 - [Introdução ao uso do AIR](office-365-air.md)
 
 - [Visite o mapa do Microsoft 365 para ver o que está chegando em breve e distribuir](https://www.microsoft.com/microsoft-365/roadmap?filters=)
-

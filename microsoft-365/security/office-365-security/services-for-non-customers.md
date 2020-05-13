@@ -1,11 +1,11 @@
 ---
-title: Serviços para não clientes enviando emails para o Office 365
+title: Serviços para não clientes enviando emails para a Microsoft 365
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 5/2/2016
+ms.date: ''
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -16,16 +16,16 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: Para ajudar a manter a confiança do usuário no uso de email, a Microsoft colocou várias políticas e tecnologias para ajudar a proteger os usuários.
-ms.openlocfilehash: 2d8de601fd24f30c342768b8b27e44248f05b5fe
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3a3dc26d757de84f5abd46c85f3596db67d676ae
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638387"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208229"
 ---
-# <a name="services-for-non-customers-sending-mail-to-office-365"></a>Serviços para não clientes enviando emails para o Office 365
+# <a name="services-for-non-customers-sending-mail-to-microsoft-365"></a>Serviços para não clientes enviando emails para a Microsoft 365
 
-O abuso por email, lixo eletrônico e emails fraudulentos (phishing) continuam a sobrecarregar todo o ecossistema de email. Para ajudar a manter a confiança do usuário no uso de email, a Microsoft colocou várias políticas e tecnologias para ajudar a proteger os usuários. No entanto, a Microsoft reconhece que os emails legítimos não devem ser afetados negativamente. Portanto, estabelecemos um pacote de serviços para ajudar os remetentes a aprimorar a capacidade de entregar emails aos usuários da Microsoft 365, gerenciando proativamente sua reputação de envio.
+O abuso por email, lixo eletrônico e emails fraudulentos (phishing) continuam a sobrecarregar todo o ecossistema de email. Para ajudar a manter a confiança do usuário no uso de email, a Microsoft colocou várias políticas e tecnologias em vigor para ajudar a proteger os usuários. No entanto, a Microsoft reconhece que os emails legítimos não devem ser afetados negativamente. Portanto, estabelecemos um pacote de serviços para ajudar os remetentes a aprimorar a capacidade de entregar emails aos usuários da Microsoft 365, gerenciando proativamente sua reputação de envio.
 
 Esta visão geral fornece informações sobre os benefícios que fornecemos à sua organização, mesmo que você não seja um cliente.
 
@@ -33,14 +33,14 @@ Esta visão geral fornece informações sobre os benefícios que fornecemos à s
 
 |**Serviço**|**Benefícios**|
 |:-----|:-----|
-|Este conteúdo da ajuda online| Lhe  <br/>  Um ponto de partida para qualquer dúvida relacionada ao fornecimento de comunicações com usuários do EOP  <br/>  Inclui um guia online simples com nossas políticas e requisitos  <br/>  Uma visão geral dos filtros de lixo eletrônico e tecnologias de autenticação empregadas pela Microsoft|
+|Este conteúdo da ajuda online|Lhe <br/> Um ponto de partida para qualquer dúvida relacionada ao envio de comunicações para usuários do EOP. <br/><br/> O inclui um guia online simples com nossas políticas e requisitos. <br/><br/> Uma visão geral dos filtros de lixo eletrônico e tecnologias de autenticação empregadas pela Microsoft.|
 |[Suporte da Microsoft](#microsoft-support)|Fornece suporte a auto-ajuda e escalonamento para problemas de entrega.|
 |[Portal de deslista de IPS antispam](#anti-spam-ip-delist-portal)|Uma ferramenta para enviar a solicitação de deslistação de IP. Antes de enviar essa solicitação, é responsabilidade do remetente garantir que qualquer email proveniente do IP em questão não seja abusiva ou mal-intencionada.|
 |[Relatórios de abuso e spam para lixo eletrônico originado do Exchange Online](#abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online)|Mantém spam e outras mensagens indesejadas enviadas do Exchange Online e truncando a Internet e seu sistema de email.|
 
 ## <a name="microsoft-support"></a>Suporte da Microsoft
 
-A Microsoft oferece várias opções de suporte para pessoas com problemas de envio de email para caixas de entrada do Microsoft 365. Recomendamos que você:
+A Microsoft oferece várias opções de suporte para pessoas com problemas de envio de email para destinatários do Microsoft 365. Recomendamos que você:
 
 - Siga as instruções em qualquer notificação de falha na entrega que você receber.
 

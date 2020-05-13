@@ -13,14 +13,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores do Microsoft 365 podem aprender a se recuperar de um ataque de ransomware.
-ms.openlocfilehash: 49e14e92505f5241828a525aba82a2dc871e6784
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 51f5bb365fe707615444c1399479171aa72755e1
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634395"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208253"
 ---
-# <a name="recover-from-a-ransomware-attack-in-office-365"></a>Recuperar de um ataque de ransomware no Office 365
+# <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Recuperar de um ataque de ransomware no Microsoft 365
 
 Mesmo que você tenha cuidado para proteger sua organização, ainda pode ser vítima de um ataque de [ransomware](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) . O ransomware é grande negócio, e os ataques são sofisticados.
 
@@ -42,7 +42,7 @@ O ponto principal aqui é interromper a propagação da criptografia de dados pe
 
 Se você suspeita que o email é um destino, você deve desabilitar temporariamente o acesso do usuário às caixas de correio. O Exchange ActiveSync é usado por dispositivos móveis para sincronizar dados entre o dispositivo e a caixa de correio do Exchange Online.
 
-Para desabilitar o ActiveSync para uma caixa de correio, confira [como desabilitar o Exchange ActiveSync para usuários no Office 365](https://support.microsoft.com/help/2795303/how-to-disable-exchange-activesync-for-users-in-office-365).
+Para desabilitar o ActiveSync para uma caixa de correio, confira [como desabilitar o Exchange ActiveSync para usuários no Exchange Online](https://support.microsoft.com/help/2795303/how-to-disable-exchange-activesync-for-users-in-office-365).
 
 Para desabilitar outros tipos de acesso a uma caixa de correio, confira:
 
@@ -124,7 +124,7 @@ Se o seu país não estiver listado, pergunte às agências de cumprimento de le
 
 É possível relatar mensagens de phishing que contenham ransomware usando um dos vários métodos. Para mais informações, confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 - [Ransomware](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware)
 

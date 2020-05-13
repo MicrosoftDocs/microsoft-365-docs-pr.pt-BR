@@ -12,16 +12,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: A Microsoft fornece ajudar para a EOP através de uma variedade de lugares e métodos incluindo auto-suporte e suporte assistido.
-ms.openlocfilehash: 6fde3c6cf62f865a17f081c1892d6a5197b037f9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2ef6bacbce6f46a17abcceb98e40d20ed3ad5363
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638041"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209194"
 ---
 # <a name="help-and-support-for-eop"></a>Ajuda e suporte para EOP
 
-Os recursos de suporte técnico listados aqui ajudarão você a encontrar respostas caso você esteja encontrando dificuldades com a EOP Proteção do Exchange Online. A Microsoft fornece ajudar para a EOP através de uma variedade de lugares e métodos incluindo auto-suporte e suporte assistido.
+Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, os recursos de suporte técnico listados neste tópico irão ajudá-lo a encontrar respostas se você estiver tendo dificuldades com o EOP. A Microsoft fornece ajudar para a EOP através de uma variedade de lugares e métodos incluindo auto-suporte e suporte assistido.
 
 ## <a name="self-support-options"></a>Opções de auto-suporte
 
@@ -29,7 +29,7 @@ Ao fazer logon, o centro de administração do Microsoft 365 fornece informaçõ
 
 [Visão geral do produto para a Proteção do Exchange Online](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
-[Contatar o suporte para produtos empresariais – Ajuda para Administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)
+[Entre em contato com o suporte para produtos para empresas - ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)
 
 [Comunidade Microsoft 365](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
 

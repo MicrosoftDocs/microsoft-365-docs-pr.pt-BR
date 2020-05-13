@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: Criar uma política de arquivamento e exclusão no Microsoft 365 que move automaticamente itens para a caixa de correio de arquivo morto de um usuário.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d2dd6d95018742247655f085553ad6583f8843d
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d4c1bd1c993444c38596642bf974e734870c79d8
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034313"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208055"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização
 
@@ -68,7 +68,7 @@ A primeira etapa é habilitar a caixa de correio de arquivo morto para cada usu�
 2. Entre usando sua conta de administrador global.
     
     
-3. No centro de conformidade & segurança, vá para o **arquivo**de **governança** \> de informações.
+3. No centro de conformidade & segurança, vá para o arquivo de **governança de informações** \> **Archive**.
     
     Uma lista das caixas de correio em sua organização é exibida e se a caixa de correio de arquivo morto correspondente está habilitada ou desabilitada. 
     
@@ -83,7 +83,7 @@ A primeira etapa é habilitar a caixa de correio de arquivo morto para cada usu�
     
 6. Clique em **Sim** para fechar a mensagem de aviso e iniciar o processo para habilitar a caixa de correio de arquivo morto para cada caixa de correio selecionada. 
     
-7. Quando o processo estiver concluído, clique **Refresh** ![em atualizar](../media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) atualização para atualizar a lista na página **arquivo morto** . 
+7. Quando o processo estiver concluído, clique em **Atualizar** ![ atualização ](../media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) para atualizar a lista na página **arquivo morto** . 
     
     A caixa de correio de arquivo morto está habilitada para todos os usuários em sua organização.
     
@@ -109,7 +109,7 @@ Para criar novas marcas de retenção, você usará o centro de administração 
     
     ![A captura de tela mostra o centro de administração do Microsoft 365 com a opção centros de administração expandida e o Exchange selecionado.](../media/47399df2-0bc4-42e2-b183-07750a46bc68.png)
   
-3. No Eat, vá para **marcas de retenção** de **Gerenciamento** \> de conformidade
+3. No Eat, vá para **Compliance management** \> **marcas de retenção** de gerenciamento de conformidade
     
     É exibida uma lista das marcas de retenção da sua organização.
     
@@ -117,7 +117,7 @@ Para criar novas marcas de retenção, você usará o centro de administração 
   
 Primeiro, você criará uma marca de política padrão de arquivo morto personalizada (DPT) que moverá itens para a caixa de correio de arquivo morto após 3 anos. 
   
-1. Na página **marcas de retenção** , clique em Nova **marca**![novo](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)ícone e selecione **aplicada automaticamente à caixa de correio inteira (padrão)**. 
+1. Na página **marcas de retenção** , clique em Nova **marca** ![ novo ícone ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) e selecione **aplicada automaticamente à caixa de correio inteira (padrão)**. 
     
 2. Na página **nova marca aplicada automaticamente à caixa de correio inteira (padrão)** , preencha os seguintes campos: 
     
@@ -139,7 +139,7 @@ Primeiro, você criará uma marca de política padrão de arquivo morto personal
   
 Em seguida, você criará outro DPT personalizado, mas ele será uma política de exclusão que exclui permanentemente os itens após 7 anos.
   
-1. Na página **marcas de retenção** , clique em Nova **marca**![novo](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)ícone e selecione **aplicada automaticamente à caixa de correio inteira (padrão)**. 
+1. Na página **marcas de retenção** , clique em Nova **marca** ![ novo ícone ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) e selecione **aplicada automaticamente à caixa de correio inteira (padrão)**. 
     
 2. Na página **nova marca aplicada automaticamente à caixa de correio inteira (padrão)** , preencha os seguintes campos: 
     
@@ -161,7 +161,7 @@ Em seguida, você criará outro DPT personalizado, mas ele será uma política d
   
 A última marca de retenção que você criará é uma marca de política de retenção personalizada (RPT) para a pasta itens excluídos. Essa marca excluirá itens na pasta itens excluídos após 5 anos e fornecerá um período de recuperação quando os usuários puderem usar a ferramenta recuperar itens excluídos para recuperar um item.
   
-1. Na página **marcas de retenção** , clique em Nova **marca** ![novo](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)ícone e selecione **aplicada automaticamente a uma pasta padrão**. 
+1. Na página **marcas de retenção** , clique em Nova **marca** ![ novo ícone ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) e selecione **aplicada automaticamente a uma pasta padrão**. 
     
 2. Na página **nova marca aplicada automaticamente a uma pasta padrão** , preencha os seguintes campos: 
     
@@ -185,13 +185,13 @@ A última marca de retenção que você criará é uma marca de política de ret
 
 Após criar as marcas de retenção personalizadas, a próxima etapa é criar uma nova política de retenção e adicionar as marcas de retenção. Você adicionará as três marcas de retenção personalizadas que você criou na etapa 2 e as marcas internas que foram mencionadas na primeira seção. Na etapa 4, você atribuirá essa nova política de retenção a caixas de correio do usuário.
   
-1. No Eat, vá para **políticas de retenção**de **Gerenciamento** \> de conformidade.
+1. No Eat, vá para políticas de retenção de **Gerenciamento de conformidade** \> **Retention policies**.
     
-2. Na página **políticas de retenção** , clique em **novo** ![ícone](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)novo.
+2. Na página **políticas de retenção** , clique em **novo** ![ ícone novo ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) .
     
 3. Na caixa **nome** , digite um nome para a nova política de retenção; por exemplo, **política de arquivo morto e exclusão da Alpine Ski**. 
     
-4. Em **marcas de retenção**, **Add** ![clique em Adicionar](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif)novo ícone.
+4. Em **marcas de retenção**, clique em **Adicionar** ![ novo ícone ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) .
     
     É exibida uma lista das marcas de retenção em sua organização. Observação as marcas personalizadas que você criou na etapa 2 são exibidas.
     
@@ -230,7 +230,7 @@ Quando uma nova caixa de correio é criada, uma política de retenção chamada 
     
 7. Para verificar se a nova política de retenção foi atribuída às caixas de correio, você pode fazer o seguinte: selecione uma caixa de correio na página caixas de correio e clique em Editar. 
     
-1. Selecione uma caixa de correio na página **caixas de correio** e clique em **Editar** ![editar](../media/d7dc7e5f-17a1-4eb9-b42d-487db59e2e21.png). 
+1. Selecione uma caixa de correio na página **caixas de correio** e clique em **Editar** ![ Editar ](../media/d7dc7e5f-17a1-4eb9-b42d-487db59e2e21.png) . 
     
 2. Na página de propriedades da caixa de correio do usuário selecionado, clique em **recursos da caixa de correio**.
     
@@ -243,37 +243,10 @@ Após aplicar a nova política de retenção às caixas de correio na etapa 4, p
  **O que acontece quando você executa o assistente de pasta gerenciada?** Aplica as configurações da política de retenção inspecionando itens na caixa de correio e determinando se estão sujeitos à retenção. Em seguida, ele carimba os itens sujeitos à retenção com a marca de retenção apropriada e, em seguida, executa a ação de retenção especificada em itens além da idade da retenção. 
   
 Aqui estão as etapas para se conectar ao PowerShell do Exchange Online e, em seguida, executar o assistente de pasta gerenciada em todas as caixas de correio em sua organização.
+
+1. [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=517283).
   
-1. Em seu computador local, abra o Windows PowerShell e execute o comando a seguir.
-    
-    ```powershell
-    $UserCredential = Get-Credential
-    ```
-
-    Na caixa de diálogo **solicitação de credencial do Windows PowerShell** , digite o nome de usuário e a senha da sua conta de administrador global e clique em **OK**.
-    
-2. Execute o seguinte comando.
-    
-    ```powershell
-    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
-    ```
-
-3. Execute o seguinte comando.
-    
-    ```powershell
-    Import-PSSession $Session
-    ```
-
-4. Para verificar se você está conectado à sua organização do Exchange Online, execute o comando a seguir para obter uma lista de todas as caixas de correio de sua organização.
-    
-    ```powershell
-    Get-Mailbox
-    ```
-
-    > [!NOTE]
-    > Para obter mais informações ou se você tiver problemas para se conectar à sua organização do Exchange Online, confira [conectar-se ao PowerShell do Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=517283). 
-  
-5. Execute os dois comandos a seguir para iniciar o assistente de pasta gerenciada para todas as caixas de correio de usuário em sua organização.
+2. Execute os dois comandos a seguir para iniciar o assistente de pasta gerenciada para todas as caixas de correio de usuário em sua organização.
     
     ```powershell
     $Mailboxes = Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"}
@@ -289,7 +262,7 @@ Isso é tudo. Você configurou uma política de arquivamento e exclusão para a 
 
 Na etapa 4, você precisa atribuir a nova política de retenção a caixas de correio existentes. Mas você pode configurar o Exchange Online para que a nova política de retenção seja atribuída a novas caixas de correio criadas no futuro. Faça isso usando o PowerShell do Exchange Online para atualizar o plano de caixa de correio padrão da sua organização. Um *plano de caixa de correio* é um modelo que configura automaticamente as propriedades em novas caixas de correio.  Nesta etapa opcional, você pode substituir a política de retenção atual atribuída ao plano de caixa de correio (por padrão, a política padrão do MRM) com a política de retenção que você criou na etapa 3. Depois de atualizar o plano de caixa de correio, a nova política de retenção será atribuída a novas caixas de correio.
 
-1. [Conecte-se ao PowerShell do Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=517283) ou veja a etapa 5.
+1. [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=517283).
 
 2. Execute o comando a seguir para exibir informações sobre os planos de caixa de correio em sua organização.
 

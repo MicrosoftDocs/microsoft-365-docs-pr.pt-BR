@@ -17,25 +17,25 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba mais sobre como configurar a filtragem de conexão no Office 365 para permitir ou bloquear emails de servidores de email.
-ms.openlocfilehash: 0848e9a59df8c312891add29d14eec2dfed420df
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Os administradores podem aprender a configurar a filtragem de conexão na proteção do Exchange Online (EOP) para permitir ou bloquear emails de servidores de email.
+ms.openlocfilehash: 9b4f203f11e72b4459c9fa35d3e4fdca544cffbb
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035077"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209578"
 ---
 # <a name="configure-connection-filtering"></a>Configurar a filtragem da conexão
 
 Se você for um cliente Microsoft 365 com caixas de correio no Exchange Online ou um cliente autônomo do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, use a filtragem de conexão no EOP (especificamente a política de filtro de conexão padrão) para identificar servidores de email de origem bons ou defeituosos por seus endereços IP. Os principais componentes da política de filtro de conexão padrão são:
 
-- **Lista de permissões de IP**: ignorar a filtragem de spam para todas as mensagens de entrada dos servidores de email de origem que você especificar por endereço IP ou intervalo de endereços IP. Para cenários em que a filtragem de spam ainda pode ocorrer em mensagens dessas fontes, consulte os [cenários em que as mensagens de fontes na lista de IPs permitidos ainda serão filtradas](#scenarios-where-messages-from-sources-in-the-ip-allow-list-are-still-filtered) posteriormente neste tópico. Para obter mais informações sobre como a lista de IPs permitidos deve se encaixar em sua estratégia geral de remetentes confiáveis, consulte [criar listas de remetentes confiáveis no Office 365](create-safe-sender-lists-in-office-365.md).
+- **Lista de permissões de IP**: ignorar a filtragem de spam para todas as mensagens de entrada dos servidores de email de origem que você especificar por endereço IP ou intervalo de endereços IP. Para cenários em que a filtragem de spam ainda pode ocorrer em mensagens dessas fontes, consulte os [cenários em que as mensagens de fontes na lista de IPs permitidos ainda serão filtradas](#scenarios-where-messages-from-sources-in-the-ip-allow-list-are-still-filtered) posteriormente neste tópico. Para obter mais informações sobre como a lista de IPs permitidos deve se encaixar em sua estratégia geral de remetentes confiáveis, consulte [criar listas de remetentes seguros no EOP](create-safe-sender-lists-in-office-365.md).
 
-- **Lista de IPs bloqueados**: bloquear todas as mensagens de entrada dos servidores de email de origem que você especificar por endereço IP ou intervalo de endereços IP. As mensagens de entrada são rejeitadas, não são marcadas como spam e nenhuma filtragem adicional ocorre. Para obter mais informações sobre como a lista de bloqueios de IP deve se encaixar em sua estratégia geral de remetentes bloqueados, consulte [criar listas de remetentes bloqueados no Office 365](create-block-sender-lists-in-office-365.md).
+- **Lista de IPs bloqueados**: bloquear todas as mensagens de entrada dos servidores de email de origem que você especificar por endereço IP ou intervalo de endereços IP. As mensagens de entrada são rejeitadas, não são marcadas como spam e nenhuma filtragem adicional ocorre. Para obter mais informações sobre como a lista de bloqueios de IP deve se encaixar em sua estratégia de remetentes gerais bloqueados, consulte [criar listas de remetentes bloqueados no EOP](create-block-sender-lists-in-office-365.md).
 
 - **Lista segura**: a *lista segura* é uma lista de permissões dinâmicas no datacenter da Microsoft que não requer nenhuma configuração de cliente. A Microsoft identifica essas fontes de email confiáveis de assinaturas para várias listas de terceiros. Você habilita ou desabilita o uso da lista segura; Não é possível configurar os servidores de email de origem na lista de confiança. A filtragem de spam é ignorada nas mensagens de entrada dos servidores de email na lista de confiança.
 
-Este tópico descreve como configurar a política de filtro de conexão padrão no centro de conformidade & segurança ou no PowerShell (PowerShell do Exchange Online para clientes do Microsoft 365; PowerShell de proteção do Exchange Online para clientes autônomos do EOP). Para obter mais informações sobre como o EOP usa a filtragem de conexão faz parte das configurações antispam gerais da sua organização, consulte See [anti-spam Protection](anti-spam-protection.md).
+Este tópico descreve como configurar a política de filtro de conexão padrão no centro de conformidade e segurança & ou no PowerShell (PowerShell do Exchange Online para organizações do Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio do Exchange Online). Para obter mais informações sobre como o EOP usa a filtragem de conexão faz parte das configurações antispam gerais da sua organização, consulte See [anti-spam Protection](anti-spam-protection.md).
 
 > [!NOTE]
 > A lista de IPs permitidos, a lista segura e a lista de IPs bloqueados são uma parte de sua estratégia geral para permitir ou bloquear emails em sua organização. Para obter mais informações, consulte [criar listas de remetentes confiáveis](create-safe-sender-lists-in-office-365.md) e [criar listas de remetentes bloqueados](create-block-sender-lists-in-office-365.md).
@@ -56,9 +56,9 @@ Este tópico descreve como configurar a política de filtro de conexão padrão 
 
 ## <a name="use-the-security--compliance-center-to-modify-the-default-connection-filter-policy"></a>Usar o centro de conformidade de & de segurança para modificar a política de filtro de conexão padrão
 
-1. No centro de conformidade & segurança e vá para **anti-spam**da **política** \> de **Gerenciamento** \> de ameaças.
+1. No centro de conformidade & segurança e vá para **Threat management** \> **Policy** \> **anti-spam**da política de gerenciamento de ameaças.
 
-2. Na página **configurações antispam** , expanda política de **filtro de conexão** clicando ![em expandir ícone](../../media/scc-expand-icon.png)e, em seguida, clique em **Editar política**.
+2. Na página **configurações antispam** , expanda política de **filtro de conexão** clicando em ![ expandir ícone ](../../media/scc-expand-icon.png) e, em seguida, clique em **Editar política**.
 
 3. No submenu **padrão** que aparece, configure qualquer uma das seguintes configurações:
 
@@ -72,11 +72,11 @@ Este tópico descreve como configurar a política de filtro de conexão padrão 
 
      - IP CIDR: por exemplo, 192.168.0.1/25. Os valores válidos da máscara de rede são/24 a/32. Para ignorar a filtragem de spam para valores de máscara de IP CIDR/1 a/23, confira a seção [ignorar filtragem de spam para um IP CIDR fora da seção intervalo disponível](#skip-spam-filtering-for-a-cidr-ip-outside-of-the-available-range) mais adiante neste tópico.
 
-     Para adicionar o endereço IP ou o intervalo de endereços **Add** ![, clique em](../../media/ITPro-EAC-AddIcon.png)adicionar ícone de adição. Para remover uma entrada, selecione a entrada em **endereço IP permitido** e, em **Remove** ![seguida,](../../media/scc-remove-icon.png)clique em remover remoção. Quando concluir, clique em **Salvar**.
+     Para adicionar o endereço IP ou o intervalo de endereços, clique em **Adicionar** ![ ícone de adição ](../../media/ITPro-EAC-AddIcon.png) . Para remover uma entrada, selecione a entrada em **endereço IP permitido** e, em seguida, clique em **remover** ![ remoção ](../../media/scc-remove-icon.png) . Quando concluir, clique em **Salvar**.
 
    - **Lista de IPs bloqueados**: clique em **Editar**. No submenu da **lista de bloqueios de IP** exibido, insira um único IP, intervalo IP ou IP CIDR na caixa **endereço ou intervalo de endereços** , conforme descrito anteriormente na configuração da lista de permissões de **IP** .
 
-     Para adicionar o endereço IP ou o intervalo de endereços **Add** ![, clique em](../../media/ITPro-EAC-AddIcon.png)adicionar ícone de adição. Para remover uma entrada, selecione a entrada em **endereço IP bloqueado** e, em **Remove** ![seguida,](../../media/scc-remove-icon.png)clique em remover remoção. Quando concluir, clique em **Salvar**.
+     Para adicionar o endereço IP ou o intervalo de endereços, clique em **Adicionar** ![ ícone de adição ](../../media/ITPro-EAC-AddIcon.png) . Para remover uma entrada, selecione a entrada em **endereço IP bloqueado** e, em seguida, clique em **remover** ![ remoção ](../../media/scc-remove-icon.png) . Quando concluir, clique em **Salvar**.
 
    - **Ativar a lista segura**: habilitar ou desabilitar o uso da lista segura para identificar bons remetentes conhecidos que irão ignorar a filtragem de spam.
 
@@ -84,7 +84,7 @@ Este tópico descreve como configurar a política de filtro de conexão padrão 
 
 ## <a name="use-the-security--compliance-center-to-view-the-default-connection-filter-policy"></a>Usar o centro de conformidade de & de segurança para exibir a política de filtro de conexão padrão
 
-1. No centro de conformidade & segurança e vá para **anti-spam**da **política** \> de **Gerenciamento** \> de ameaças.
+1. No centro de conformidade & segurança e vá para **Threat management** \> **Policy** \> **anti-spam**da política de gerenciamento de ameaças.
 
 2. Na página **configurações antispam** , clique na lista suspensa ao lado da política padrão chamada **diretiva de filtro de conexão**.
 
@@ -108,11 +108,11 @@ Set-HostedConnectionFilterPolicy -Identity Default [-AdminDisplayName <"Optional
 
   - IP CIDR: por exemplo, 192.168.0.1/25. Os valores válidos da máscara de rede são/24 a/32.
 
-- Para *substituir* as entradas existentes pelos valores que você especificar, use a seguinte sintaxe: `IPAddressOrRange1,IPAddressOrRange2,...,IPAddressOrRangeN`.
+- Para *substituir* as entradas existentes pelos valores que você especificar, use a seguinte sintaxe: `IPAddressOrRange1,IPAddressOrRange2,...,IPAddressOrRangeN` .
 
-- Para *Adicionar ou remover* endereços IP ou intervalos de endereços sem afetar outras entradas existentes, use a seguinte sintaxe `@{Add="IPAddressOrRange1","IPAddressOrRange2",...,"IPAddressOrRangeN";Remove="IPAddressOrRange3","IPAddressOrRange4",...,"IPAddressOrRangeN"}`:.
+- Para *Adicionar ou remover* endereços IP ou intervalos de endereços sem afetar outras entradas existentes, use a seguinte sintaxe: `@{Add="IPAddressOrRange1","IPAddressOrRange2",...,"IPAddressOrRangeN";Remove="IPAddressOrRange3","IPAddressOrRange4",...,"IPAddressOrRangeN"}` .
 
-- Para esvaziar a lista de IPs permitidos ou a lista de IPS `$null`bloqueados, use o valor.
+- Para esvaziar a lista de IPs permitidos ou a lista de IPs bloqueados, use o valor `$null` .
 
 Este exemplo configura a lista de permissões de IP e a lista de IPs bloqueados com os endereços IP e intervalos de endereços especificados.
 
@@ -132,7 +132,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-Hosted
 
 Para verificar se você modificou com êxito a política de filtro de conexão padrão, execute uma das seguintes etapas:
 
-- No centro de conformidade & segurança, vá para **Threat management** \> **política** \> de gerenciamento de ameaças **anti-spam** \> clique na lista suspensa ao lado da **política de filtro de conexão (AlwaysOn**) e verifique as configurações.
+- No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** \> **anti-spam** \> clique na lista suspensa ao lado da **política de filtro de conexão (AlwaysOn**) e verifique as configurações.
 
 - No PowerShell do Exchange Online PowerShell ou do Exchange Online Protection autônomo, execute o seguinte comando e verifique as configurações:
 
@@ -152,9 +152,9 @@ Conforme descrito anteriormente neste tópico, você só pode usar um IP CIDR co
 
 Agora que você está totalmente ciente dos possíveis problemas, você pode criar uma regra de fluxo de email com as seguintes configurações (no mínimo) para garantir que as mensagens desses endereços IP ignorem a filtragem de spam:
 
-- Condição da regra **: aplique esta regra se** \> **o** \> **endereço IP do remetente estiver em qualquer um desses intervalos ou correspondências** \> exatas (Insira seu IP de CIDR com uma máscara de rede de/1 a/23).
+- Condição da regra: **aplique esta regra se** \> **o** \> **endereço IP do remetente estiver em qualquer um desses intervalos ou correspondências exatas** \> (Insira seu IP de CIDR com uma máscara de rede de/1 a/23).
 
-- Ação de regra: \> **modificar as propriedades de mensagem** **defina o nível de confiança de spam (SCL)** \> **ignorar filtragem de spam**.
+- Ação de regra: **modificar as propriedades de mensagem** \> **defina o nível de confiança de spam (SCL)** \> **ignorar filtragem de spam**.
 
 Você pode auditar a regra, testar a regra, ativar a regra durante um período de tempo específico e outras seleções. Recomendamos testar a regra por um período antes de aplicá-la. Para obter mais informações, consulte [Manage Mail Flow Rules in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
@@ -168,9 +168,9 @@ Por exemplo, o servidor de email de origem 192.168.1.25 envia emails dos domíni
 
 2. Configure uma regra de fluxo de emails com as seguintes configurações (no mínimo):
 
-   - Condição de regra **: aplique esta regra se** \> **o endereço IP do remetente** \> **estiver em qualquer um desses intervalos ou corresponder** \> exatamente a 192.168.1.25 (o mesmo endereço IP ou intervalo de endereços adicionado à lista de IPs permitidos na etapa anterior).
+   - Condição de regra: **aplique esta regra se** \> **o** \> **endereço IP do remetente estiver em qualquer um desses intervalos ou corresponder exatamente** \> a 192.168.1.25 (o mesmo endereço IP ou intervalo de endereços adicionado à lista de IPs permitidos na etapa anterior).
 
-   - Ação de regra \> : **modificar as propriedades da mensagem** **defina o nível de confiança de spam (SCL)** \> **0**.
+   - Ação de regra: **modificar as propriedades da mensagem** \> **defina o nível de confiança de spam (SCL)** \> **0**.
 
    - Exceção de regra: **o domínio do remetente** \> **é** \> fabrikam.com (somente o domínio ou domínios que você deseja ignorar a filtragem de spam).
 
@@ -184,12 +184,12 @@ As mensagens de um servidor de email na lista de IPs permitidos ainda estão suj
 
 Se você encontrar um desses cenários, poderá criar uma regra de fluxo de email com as seguintes configurações (no mínimo) para garantir que as mensagens dos endereços IP problemáticos ignorem a filtragem de spam:
 
-- Condição de regra **: aplique esta regra se** \> **o** \> **endereço IP do remetente estiver em qualquer um desses intervalos ou correspondências** \> exatas (seu endereço IP ou endereços).
+- Condição de regra: **aplique esta regra se** \> **o** \> **endereço IP do remetente estiver em qualquer um desses intervalos ou correspondências exatas** \> (seu endereço IP ou endereços).
 
-- Ação de regra: \> **modificar as propriedades de mensagem** **defina o nível de confiança de spam (SCL)** \> **ignorar filtragem de spam**.
+- Ação de regra: **modificar as propriedades de mensagem** \> **defina o nível de confiança de spam (SCL)** \> **ignorar filtragem de spam**.
 
-## <a name="new-to-office-365"></a>Começando a usar o Office 365?
+## <a name="new-to-microsoft-365"></a>Novo no Microsoft 365?
 
 ||
 |:-----|
-|![O ícone curto do LinkedIn Learning](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **New to Microsoft 365?** Descubra cursos de vídeo gratuitos para **Administradores e profissionais de ti**, trazidos para você pelo LinkedIn Learning.|
+|![O ícone curto do LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **New to Microsoft 365?** Descubra cursos de vídeo gratuitos para **Administradores e profissionais de ti**, trazidos para você pelo LinkedIn Learning.|

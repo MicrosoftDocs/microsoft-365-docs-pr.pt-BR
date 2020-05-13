@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 50557b0824999f0220af4d12b906b0274db4471e
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 117681bd4722615e870594e46d6896e9128d0d0c
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049610"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209218"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Configurar seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft 
 
@@ -72,51 +72,51 @@ Nesta fase, você será orientado a:
 >Se você já tiver uma assinatura existente do Office 365 ou do Azure Active Directory, poderá ignorar as etapas de criação do locatário de avaliação do Office 365 e5.
 
 1. Vá para o [portal de produto do Office 365 E5](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software?activetab=pivot%3aoverviewtab) e selecione **avaliação gratuita**.
-![Of_page de imagem](../../media/mtp-eval-9.png) <br>
+![Página de avaliação gratuita de imagem of_Office 365 e5](../../media/mtp-eval-9.png) <br>
   
 2. Conclua o registro de avaliação inserindo seu endereço de email (pessoal ou corporativo). Clique em **configurar conta**.
-![Of_page de imagem](../../media/mtp-eval-10.png) <br> 
+![Página de configuração de registro de avaliação 365 E5 de imagem of_Office](../../media/mtp-eval-10.png) <br> 
 
 3. Preencha seu nome, sobrenome, número de telefone comercial, nome da empresa, tamanho da empresa e país ou região.  
-<br>![Of_page de imagem](../../media/mtp-eval-11.png) <br>
+<br>![Imagem of_Office 365 E5 página de configuração de registro de avaliação para solicitar o nome, telefone e detalhes da empresa](../../media/mtp-eval-11.png) <br>
 >[!NOTE]
 >O país ou a região definida aqui determina a região do Data Center em que o Office 365 será hospedado.
   
 4. Escolha sua preferência de verificação: por meio de uma mensagem de texto ou chamada. Clique em **enviar código de verificação**. 
-![Of_page de imagem](../../media/mtp-eval-12.png) <br>
+![Imagem of_Office 365 E5 página de configuração de registro de avaliação solicitando preferência de verificação](../../media/mtp-eval-12.png) <br>
 
 5. Defina o nome de domínio personalizado para o seu locatário e clique em **Avançar**.
-<br>![Of_page de imagem](../../media/mtp-eval-13.png) <br>
+<br>![Imagem of_Office 365 E5 página de configuração de registro de avaliação, onde você pode configurar seu nome de domínio personalizado](../../media/mtp-eval-13.png) <br>
  
 6. Configure a primeira identidade que será um administrador global do locatário. Insira o **nome** e a **senha**. Clique em **inscrever-se**.
-![Of_page de imagem](../../media/mtp-eval-14.png) <br>
-c
+![Imagem of_Office 365 E5 página de configuração de registro de avaliação, onde você pode definir sua identidade comercial](../../media/mtp-eval-14.png) <br>
+
 7. Clique em **ir para configuração** para concluir o provisionamento do locatário de avaliação do Office 365 e5.
-<br>![Of_page de imagem](../../media/mtp-eval-15.png) <br>
+<br>![Imagem da página de configuração do registro de avaliação do Office 365 E5 solicitando o clique no botão configuração do Go](../../media/mtp-eval-15.png) <br>
 
 8. Conecte seu domínio corporativo ao locatário do Office 365. Opcion Escolha **conectar um domínio que você já possui** e digite o nome do seu domínio. Clique em **Avançar**.
-<br>![Of_page de imagem](../../media/mtp-eval-16.png) <br>
+<br>![Página de configuração de imagem of_Office 365 E5 onde você deve personalizar sua entrada e email](../../media/mtp-eval-16.png) <br>
  
 9. Será necessário adicionar um registro TXT ou MX para validar a propriedade do domínio. Depois de adicionar o registro TXT ou MX ao seu domínio, selecione **verificar**.
-<br>![Of_page de imagem](../../media/mtp-eval-17.png) <br>
+<br>![Página de imagem of_Office 365 E5 onde você deve adicionar um TXT do registro MX para verificar seu domínio](../../media/mtp-eval-17.png) <br>
  
 10. Opcion Criar mais contas de usuário para o locatário. Você pode ignorar essa etapa clicando em **Avançar**.
-![Of_page de imagem](../../media/mtp-eval-18.png) <br>
+![Página de configuração de imagem of_Office 365 E5 onde você pode adicionar mais usuários](../../media/mtp-eval-18.png) <br>
  
 11. Opcion Baixar aplicativos do Office. Clique em **Avançar** para ignorar esta etapa. 
-<br>![Of_page de imagem](../../media/mtp-eval-19.png) <br>
+<br>![Página de imagem of_Office 365 E5 onde você pode instalar seus aplicativos do Office](../../media/mtp-eval-19.png) <br>
 
 12. Opcion Migrar mensagens de email. Novamente, você pode ignorar esta etapa.
-<br>![Of_page de imagem](../../media/mtp-eval-20.png) <br>
+<br>![Image of_Office 365 E5 onde você pode definir se deseja migrar mensagens de email ou não](../../media/mtp-eval-20.png) <br>
  
 13. Escolha serviços online. Selecione **Exchange** e clique em **Avançar**. 
-<br>![Of_page de imagem](../../media/mtp-eval-21.png) <br>
+<br>![Image of_Office 365 E5 onde você pode escolher seus serviços online como o Exchange ou o gerenciamento de dispositivos do Mibile para o Office 365](../../media/mtp-eval-21.png) <br>
 
 14. Adicione registros MX, CNAME e TXT ao seu domínio. Quando concluído, selecione **verificar**.
-<br>![Of_page de imagem](../../media/mtp-eval-22.png) <br>
+<br>![Imagem of_Office 365 E5 aqui você pode adicionar seus registros DNS](../../media/mtp-eval-22.png) <br>
  
 15. Parabéns, você concluiu o provisionamento do seu locatário do Office 365.
-<br>![Of_page de imagem](../../media/mtp-eval-23.png) <br>
+<br>![Página de confirmação de conclusão da instalação da of_Office 365 e5](../../media/mtp-eval-23.png) <br>
 
 ## <a name="enable-microsoft-365-trial-subscription"></a>Habilitar a assinatura de avaliação do Microsoft 365
 
@@ -126,25 +126,25 @@ c
 1. No [centro de administração do Microsoft 365](https://admin.microsoft.com/), clique em **cobrança** e navegue até **serviços de compra**.
 
 2. Selecione **Microsoft 365 E5** e clique em **Iniciar avaliação gratuita**. 
-![Of_page de imagem](../../media/mtp-eval-24.png) <br>
+![Imagem of_Microsoft 365 E5 iniciar página de avaliação gratuita](../../media/mtp-eval-24.png) <br>
 
 3. Escolha sua preferência de verificação: por meio de uma mensagem de texto ou chamada. Depois de decidir, insira o número de telefone, selecione o **texto me** ou **telefonar para mim** , dependendo da seleção.
-![Of_page de imagem](../../media/mtp-eval-25.png) <br>
+![Imagem of_Microsoft 365 E5 iniciar página de avaliação gratuita solicitando detalhes do contato para enviar código para provar que você não é um robô](../../media/mtp-eval-25.png) <br>
  
 4. Insira o código de verificação e clique em **iniciar sua avaliação gratuita**. 
-<br>![Of_page de imagem](../../media/mtp-eval-26.png) <br>
+<br>![Imagem of_Microsoft 365 E5 iniciar página de avaliação gratuita onde você pode preencher o código de verificação o sistema enviado para provar que você não é um robô](../../media/mtp-eval-26.png) <br>
 
 5. Clique em **tentar agora** para confirmar sua avaliação do Microsoft 365 e5.
-<br>![Of_page de imagem](../../media/mtp-eval-27.png) <br>
+<br>![Imagem of_Microsoft 365 E5 iniciar página de avaliação gratuita onde você deve registrar o botão experimentar agora para iniciar](../../media/mtp-eval-27.png) <br>
  
-6. Vá para o **Centro** > **Users** > de administração do Microsoft 365 usuários**ativos**. Selecione sua conta de usuário, selecione **gerenciar licenças de produto**e troque a licença do Office 365 E5 para a **Microsoft 365 E5**. Clique em **Salvar**.
-![Of_page de imagem](../../media/mtp-eval-28.png) <br>
+6. Vá para o **centro de administração do Microsoft 365**  >  **usuários**  >  **ativos**. Selecione sua conta de usuário, selecione **gerenciar licenças de produto**e troque a licença do Office 365 E5 para a **Microsoft 365 E5**. Clique em **Salvar**.
+![Imagem of_Microsoft 365 página de centro de administração onde você pode selecionar a licença do Microsoft 365 e5](../../media/mtp-eval-28.png) <br>
  
 7. Selecione a conta de administrador global novamente e, em seguida, clique em **gerenciar nome de usuário**.
-<br>![Of_page de imagem](../../media/mtp-eval-29.png) <br>
+<br>![Imagem of_Microsoft 365 página de centro de administração onde você pode selecionar Account e gerenciar username](../../media/mtp-eval-29.png) <br>
 
 8. Opcion Altere o domínio de *onmicrosoft.com* para seu próprio domínio, dependendo do que você escolheu nas etapas anteriores. Clique em **Salvar alterações**.
-<br>![Of_page de imagem](../../media/mtp-eval-30.png) <br>
+<br>![Imagem of_Microsoft 365 página de centro de administração onde você pode alterar sua preferência de domínio](../../media/mtp-eval-30.png) <br>
 
 
 

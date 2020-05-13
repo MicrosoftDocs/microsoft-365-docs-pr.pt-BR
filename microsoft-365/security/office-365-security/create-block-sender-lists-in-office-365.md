@@ -12,17 +12,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150s
-description: Os administradores podem aprender sobre as opções disponíveis no Microsoft 365 e EOP para bloquear mensagens de entrada.
-ms.openlocfilehash: 626eff3a1ea28cc16b12acaaa2ba52f7d094a347
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Os administradores podem saber mais sobre as opções disponíveis e preferidas para bloquear mensagens de entrada no Exchange Online Protection (EOP).
+ms.openlocfilehash: d9db3d4ac123998e6ab4f108199b3aee852f95d6
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637683"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209542"
 ---
-# <a name="create-blocked-sender-lists"></a>Criar listas de remetentes bloqueados
+# <a name="create-blocked-sender-lists-in-eop"></a>Criar listas de remetentes bloqueados no EOP
 
-Se você for um cliente Microsoft 365 com caixas de correio no Exchange Online ou um cliente autônomo do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece várias maneiras de bloquear emails de remetentes indesejados. Essas opções incluem remetentes bloqueados do Outlook, listas de remetentes bloqueados ou listas de domínios bloqueados em políticas antispam, regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) e a lista de IPs bloqueados (filtragem de conexão). Coletivamente, você pode imaginar essas opções como _listas de remetentes bloqueados_.
+Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece várias maneiras de bloquear emails de remetentes indesejados. Essas opções incluem remetentes bloqueados do Outlook, listas de remetentes bloqueados ou listas de domínios bloqueados em políticas antispam, regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) e a lista de IPs bloqueados (filtragem de conexão). Coletivamente, você pode imaginar essas opções como _listas de remetentes bloqueados_.
 
 O melhor método para bloquear remetentes varia de acordo com o escopo do impacto. Para um único usuário, a solução certa pode ser remetentes bloqueados do Outlook. Para muitos usuários, uma das outras opções seria mais apropriada. As opções a seguir são classificadas pelo escopo de impacto e por amplitude. A lista vai de estreito a amplo, mas *Leia as especificações* de recomendações completas.
 
@@ -37,20 +37,20 @@ O melhor método para bloquear remetentes varia de acordo com o escopo do impact
 > [!NOTE]
 > Embora você possa usar as configurações de bloco em toda a organização para tratar de falsos negativos (spam perdido), você também deve enviar essas mensagens para a Microsoft para análise. O gerenciamento de falsos negativos usando listas de bloqueio aumenta significativamente a sobrecarga administrativa. Se você usar listas de bloqueio para desviar o spam perdido, precisará manter o tópico [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md) em mãos.
 
-Por outro lado, você também tem várias opções para sempre permitir emails de fontes específicas usando _listas de remetentes seguros_. Para obter mais informações, consulte [criar listas de remetentes seguros](create-safe-sender-lists-in-office-365.md).
+Por outro lado, você também tem várias opções para sempre permitir emails de fontes específicas usando _listas de remetentes seguros_. Para obter mais informações, confira [Criar listas de remetentes seguros](create-safe-sender-lists-in-office-365.md).
 
 ## <a name="use-outlook-blocked-senders"></a>Usar remetentes bloqueados do Outlook
 
 Quando apenas um pequeno número de usuários recebe emails indesejados, os usuários ou administradores podem adicionar os endereços de email do remetente à lista de remetentes bloqueados na caixa de correio. Para obter instruções, consulte [definir configurações de lixo eletrônico em caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md).
 
-Quando as mensagens são bloqueadas com êxito devido à lista de remetentes bloqueados de um usuário, o campo de cabeçalho **X-Forefront-antispam-Report** conterá o valor `SFV:BLK`.
+Quando as mensagens são bloqueadas com êxito devido à lista de remetentes bloqueados de um usuário, o campo de cabeçalho **X-Forefront-antispam-Report** conterá o valor `SFV:BLK` .
 
 > [!NOTE]
 > Se as mensagens indesejadas forem boletins informativos de uma fonte confiável e reconhecível, a cancelamento do email é outra opção para impedir que o usuário receba as mensagens.
 
 ## <a name="use-blocked-sender-lists-or-blocked-domain-lists"></a>Usar listas de remetentes bloqueados ou listas de domínios bloqueados
 
-Quando vários usuários são afetados, o escopo é mais largo, portanto, a melhor opção é bloquear listas de remetentes bloqueados ou listas de domínios bloqueados em políticas antispam. As mensagens de remetentes nas listas são marcadas como **spam**e a ação que você configurou para o filtro de **spam** veredicto é tomada na mensagem. Para obter mais informações, consulte [Configure anti-spam Policies](configure-your-spam-filter-policies.md).
+Quando vários usuários são afetados, o escopo é mais largo, portanto, a melhor opção é bloquear listas de remetentes bloqueados ou listas de domínios bloqueados em políticas antispam. As mensagens de remetentes nas listas são marcadas como **spam**e a ação que você configurou para o filtro de **spam** veredicto é tomada na mensagem. Para saber mais, confira [Configurar políticas anti-spam](configure-your-spam-filter-policies.md).
 
 O limite máximo para essas listas é de aproximadamente 1000 entradas.
 

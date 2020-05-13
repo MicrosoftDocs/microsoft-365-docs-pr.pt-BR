@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: 118e2a8ad4ff134a4529e3ffc95fa22cdb7cbdaf
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: 69b290dfb6d5a07ad0fd3b0b356a4b9f6d467613
+ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173481"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210567"
 ---
-# <a name="set-up-a-connector-to-import-hr-data"></a>Configurar um conector para importar dados de RH
+# <a name="set-up-a-connector-to-import-hr-data-preview"></a>Configurar um conector para importar dados de RH (visualização)
 
 Você pode configurar um conector de dados no centro de conformidade da Microsoft 365 para importar dados de recursos humanos (RH), como a data em que um funcionário enviou a demissão e a data do último dia do funcionário. Esses dados de RH podem ser usados pelas soluções de proteção de informações da Microsoft, como a nova [solução de gerenciamento de risco](insider-risk-management.md)interno, para ajudar a proteger sua organização contra atividades mal-intencionadas ou roubo de dados dentro da sua organização. A configuração de um conector de RH consiste na criação de um aplicativo no Azure Active Directory que é usado para autenticação por conector, a criação de arquivos de mapeamento CSV que contém seus dados de RH, a criação de um conector de dados no centro de conformidade e a execução de um script (em uma base agendada) que inclua os dados de RH no arquivo CSV para a nuvem da Microsoft. Em seguida, o conector de dados é usado como soluções de conformidade da Microsoft (como gerenciamento de risco do insider) para acessar os dados de RH que foram importados para sua organização do Microsoft 365.
 
@@ -64,8 +64,8 @@ A tabela a seguir descreve cada coluna no arquivo CSV:
 |**Nome da coluna**|**Descrição**|
 |:-----|:-----|
 | **EmailAddress** <br/> |Especifica o endereço de email do funcionário demitido.|
-| **TerminationDate** <br/> |Especifica a data em que o emprego da pessoa foi oficialmente encerrado em sua organização. Por exemplo, isso pode ser a data em que o funcionário deu seu aviso sobre a saída da sua organização. Essa data pode ser diferente da data do último dia de trabalho da pessoa. Você deve usar o seguinte formato de data `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm`:, que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
-|**LastWorkingDate**|Especifica o último dia de trabalho para o funcionário demitido. Você deve usar o seguinte formato de data `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm`:, que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
+| **TerminationDate** <br/> |Especifica a data em que o emprego da pessoa foi oficialmente encerrado em sua organização. Por exemplo, isso pode ser a data em que o funcionário deu seu aviso sobre a saída da sua organização. Essa data pode ser diferente da data do último dia de trabalho da pessoa. Você deve usar o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
+|**LastWorkingDate**|Especifica o último dia de trabalho para o funcionário demitido. Você deve usar o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
 |||
 
 Depois de criar o arquivo CSV com os dados de RH necessários, armazene-os no mesmo sistema que o script executado na etapa 4. Você também deve implementar uma estratégia de atualização para certificar-se de que o arquivo CSV sempre contenha as informações mais atuais para que seja o que você executar o script, os dados mais atuais de encerramento do funcionário serão carregados para a nuvem da Microsoft.
@@ -118,7 +118,7 @@ A última etapa na configuração de um conector de RH é executar um script de 
 
 4. Modifique o script de exemplo para sua organização, se necessário.
 
-5. Salve o arquivo de texto como um arquivo de script do Windows PowerShell usando um sufixo `.ps1`de nome de arquivo de; por exemplo, `HRConnector.ps1`.
+5. Salve o arquivo de texto como um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo `.ps1` ; por exemplo, `HRConnector.ps1` .
 
 6. Abra um prompt de comando no computador local e vá para o diretório onde você salvou o script.
 
@@ -199,7 +199,7 @@ Você pode fazer com que o aplicativo Agendador de tarefas do Windows execute o 
 
    a. Na lista suspensa **ação** , verifique se **Iniciar um programa** está selecionado.
 
-   b. Na caixa **programa/script** , clique em **procurar**e vá para o local a seguir e selecione-o para que o caminho seja exibido na caixa `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe`:.
+   b. Na caixa **programa/script** , clique em **procurar**e vá para o local a seguir e selecione-o para que o caminho seja exibido na caixa: `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe` .
 
    c. Na caixa **adicionar argumentos (opcional)** , Cole o mesmo comando de script executado na etapa 4. Por exemplo, `.\HRConnector.ps1 -tenantId "d5723623-11cf-4e2e-b5a5-01d1506273g9" -appId "c12823b7-b55a-4989-faba-02de41bb97c3" -appSecret "MNubVGbcQDkGCnn"  -jobId "e081f4f4-3831-48d6-7bb3-fcfab1581458" -csvFilePath "C:\Users\contosoadmin\Desktop\Data\employee_termination_data.csv"`
 

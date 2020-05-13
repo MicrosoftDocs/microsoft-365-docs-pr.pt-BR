@@ -1,5 +1,5 @@
 ---
-title: Como a Microsoft 365 valida o endereço de origem para impedir o phishing
+title: Como o EOP valida o endereço de para impedir o phishing
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,18 +16,18 @@ search.appverid:
 ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
-description: 'Para ajudar a evitar phishing, o Microsoft 365 e o Outlook.com agora exigem a conformidade RFC de: addresses.'
+description: Os administradores podem aprender sobre os tipos de endereços de email que são aceitos ou rejeitados pela proteção do Exchange Online (EOP) e o Outlook.com para ajudar a evitar phishing.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef361c7009cc8903ab2721d299412b7d44a4f87c
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: f16bb9b0af1ca5481437ef253c6d36dd519ff9e2
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034077"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209446"
 ---
-# <a name="how-microsoft-365-validates-the-from-address-to-prevent-phishing"></a>Como a Microsoft 365 valida o endereço de origem para impedir o phishing
+# <a name="how-eop-validates-the-from-address-to-prevent-phishing"></a>Como o EOP valida o endereço de para impedir o phishing
 
-As contas de email do Microsoft 365 recebem um número cada vez maior de ataques de phishing. Além de usar [endereços de email de remetente falsificados (forjados)](anti-spoofing-protection.md), os invasores freqüentemente usam valores no endereço de que violam os padrões da Internet. Para ajudar a evitar esse tipo de phishing, o Microsoft 365 e o Outlook.com agora exigem mensagens de entrada para incluir um endereço de conformidade da RFC, conforme descrito neste tópico. Essa imposição foi habilitada em novembro de 2017.
+Os ataques de phishing são uma ameaça constante para qualquer organização de email. Além de usar [endereços de email de remetente falsificados (forjados)](anti-spoofing-protection.md), os invasores freqüentemente usam valores no endereço de que violam os padrões da Internet. Para ajudar a evitar esse tipo de phishing, o Exchange Online Protection (EOP) e o Outlook.com agora exigem mensagens de entrada para incluir um endereço de conformidade da RFC, conforme descrito neste tópico. Essa imposição foi habilitada em novembro de 2017.
 
 **Observações**:
 
@@ -39,7 +39,7 @@ As contas de email do Microsoft 365 recebem um número cada vez maior de ataques
 
 Uma mensagem de email SMTP padrão consiste em um *envelope de mensagem* e um conteúdo de mensagem. O envelope da mensagem contém informações necessárias para transmitir e entregar a mensagem entre os servidores SMTP. O conteúdo da mensagem contém os campos de cabeçalho da mensagem (coletivamente chamados de *cabeçalho da mensagem*) e o corpo da mensagem. O envelope da mensagem é descrito em [rfc 5321](https://tools.ietf.org/html/rfc5321), e o cabeçalho da mensagem é descrito em [RFC 5322](https://tools.ietf.org/html/rfc5322). Os destinatários nunca veem o envelope de mensagem real porque é gerado pelo processo de transmissão de mensagens e, na verdade, não faz parte da mensagem.
 
-- O `5321.MailFrom` endereço (também conhecido como o endereço **de email de** remetente, o remetente P1 ou o remetente do envelope) é o endereço de email que é usado na transmissão SMTP da mensagem. Esse endereço de email geralmente é registrado no campo de cabeçalho de **retorno de caminho** no cabeçalho da mensagem (embora seja possível que o remetente designe um endereço de email de **devolução** diferente).
+- O `5321.MailFrom` Endereço (também conhecido como o endereço **de email de** remetente, o remetente P1 ou o remetente do envelope) é o endereço de email que é usado na transmissão SMTP da mensagem. Esse endereço de email geralmente é registrado no campo de cabeçalho de **retorno de caminho** no cabeçalho da mensagem (embora seja possível que o remetente designe um endereço de email de **devolução** diferente).
 
 - O `5322.From` (também conhecido como o endereço de ou o remetente P2) é o endereço de email no campo **de cabeçalho de** e é o endereço de email do remetente que é exibido em clientes de email. O endereço de é o foco dos requisitos neste tópico.
 
@@ -53,7 +53,7 @@ O endereço de é definido detalhadamente em várias RFCs (por exemplo, as seç�
   - Se o endereço de inclui um nome de exibição, o valor de EmailAddress deve ser colocado entre colchetes angulares (< >), conforme mostrado.
   - A Microsoft recomenda que você insira um espaço entre o nome de exibição e o endereço de email.
 
-- **EmailAddress**: um endereço de email usa o `local-part@domain`formato:
+- **EmailAddress**: um endereço de email usa o formato `local-part@domain` :
 
   - **parte local**: uma cadeia de caracteres que identifica a caixa de correio associada ao endereço. Esse valor é exclusivo no domínio. Geralmente, o nome de usuário ou o GUID do proprietário da caixa de correio é usado.
   - **Domain**: o FQDN (nome de domínio totalmente qualificado) do servidor de email que hospeda a caixa de correio identificada pela parte local do endereço de email.
@@ -104,7 +104,7 @@ Os seguintes endereços de email são inválidos:
 
 ## <a name="suppress-auto-replies-to-your-custom-domain"></a>Suprimir respostas automáticas para seu domínio personalizado
 
-Você não pode usar o `From: <>` valor para suprimir respostas automáticas. Em vez disso, você precisa configurar um registro MX nulo para seu domínio personalizado. As respostas automáticas (e todas as respostas) são supressamente suprimidas porque não há endereços publicados para os quais o servidor de resposta pode enviar mensagens.
+Você não pode usar o valor `From: <>` para suprimir respostas automáticas. Em vez disso, você precisa configurar um registro MX nulo para seu domínio personalizado. As respostas automáticas (e todas as respostas) são supressamente suprimidas porque não há endereços publicados para os quais o servidor de resposta pode enviar mensagens.
 
 - Escolha um domínio de email que não possa receber emails. Por exemplo, se seu domínio primário for contoso.com, você poderá escolher noreply.contoso.com.
 

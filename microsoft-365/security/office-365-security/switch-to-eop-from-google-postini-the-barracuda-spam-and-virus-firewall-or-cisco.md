@@ -14,12 +14,12 @@ ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
 ms.custom:
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá a alternar para o Exchange Online Protection (EOP) de um dispositivo de higiene de email local ou serviço de proteção baseado em nuvem.
-ms.openlocfilehash: 4bbd0b60d42b52d5c9343126f12059fcf1fc3d62
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d7b2cfbe84d1e03bcd549c5220f6063592962792
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035219"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209266"
 ---
 # <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Mudando para EOP da Google Postini, Firewall de Vírus ou Spam Barracuda ou Cisco IronPort
 
@@ -55,9 +55,9 @@ O melhor lugar para começar, se você estiver considerando uma implantação h�
 
 Quando você decide mudar para EOP, certifique-se de que você está considerando especialmente as seguintes áreas:
 
-- **Regras de filtragem personalizadas**: se você tiver regras de filtro ou de política de negócios personalizadas para detectar spam específico, recomendamos que você tente EOP com as configurações padrão para um período, antes de migrar suas regras. EOP offers enterprise-level spam protection with the default settings, it may turn out that you don't need to migrate some of your rules to EOP. Of course, if you have rules in place that enforce specific custom business policies, you can create those. [Regras de fluxo de email (regras de transporte) no Exchange Online Protection](mail-flow-rules-transport-rules-0.md) fornece instruções detalhadas para a criação de regras de fluxo de email no EOP.
+- **Regras de filtragem personalizadas**: se você tiver regras de filtro ou de política de negócios personalizadas para detectar spam específico, recomendamos que você tente EOP com as configurações padrão para um período de tempo antes de migrar suas regras. EOP offers enterprise-level spam protection with the default settings, it may turn out that you don't need to migrate some of your rules to EOP. Of course, if you have rules in place that enforce specific custom business policies, you can create those. [Regras de fluxo de email (regras de transporte) no Exchange Online Protection](mail-flow-rules-transport-rules-0.md) fornece instruções detalhadas para a criação de regras de fluxo de email no EOP.
 
-- Listas de **IPs permitidos e listas de bloqueios de IP**: se você tiver listas de permissões e listas de bloqueio por usuário, espere algum tempo para copiar as listas para o EOP como parte do processo de instalação. Para obter mais informações sobre listas de IPs permitidos e listas de bloqueios de IP, consulte [Configurar a política de filtro de conexão](configure-the-connection-filter-policy.md).
+- Listas de **IPs permitidos e listas de bloqueios de IP**: se você tiver listas de permissões e listas de bloqueio por usuário, espere algum tempo para copiar as listas para o EOP como parte do processo de instalação. Para obter mais informações sobre a lista de permissões de IP e a lista de IPs bloqueados, consulte [Configurar a política de filtro de conexão](configure-the-connection-filter-policy.md).
 
 - **Comunicação segura**: se você tiver um parceiro que exija mensagens criptografadas, recomendamos que você configure isso no centro de administração do Exchange. Para configurar este cenário, confira [set up Connectors for Secure Mail Flow with a Partner Organization](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner).
 
