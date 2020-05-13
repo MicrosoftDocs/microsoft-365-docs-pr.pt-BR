@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 7ac93507-0e38-4398-8bfe-9c1d123cb387
 description: 'Saiba mais sobre assinaturas e licenças no Microsoft 365 for Business e saiba quem pode atribuir licenças e o que acontece quando você atribui uma licença a alguém. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 1508daa6dae30c35a9517fceb81b0a4d2b4a7f58
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5178b25de6f66968f8a89c7b2c34ee466f8855bd
+ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635431"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44211433"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Entender assinaturas e licenças no Microsoft 365 for Business
 
@@ -37,7 +37,7 @@ Ao comprar uma assinatura para o Microsoft 365 for Business, você se inscreve e
 
 Ao comprar uma assinatura, você especifica o número de licenças que precisa, com base em quantas pessoas você tem em sua organização. Após a conclusão da compra, você cria contas para as pessoas e, em seguida, atribui uma licença para cada pessoa. Conforme suas necessidades organizacionais mudarem, você pode comprar mais licenças para acomodar novas pessoas ou reatribuir licenças a outros usuários quando alguém sair da sua organização. 
 
-Se você tiver mais de uma assinatura, poderá atribuir licenças a diferentes pessoas para cada assinatura. Por exemplo, todos os seus usuários podem ser atribuídos a todos os aplicativos e serviços do Microsoft 365 como parte de uma assinatura do Microsoft 365 Business Standard, enquanto um subconjunto de usuários também pode ser atribuído ao Visio online por meio de uma assinatura separada do Visio. 
+Se você tiver mais de uma assinatura, poderá atribuir licenças a pessoas diferentes para cada assinatura. Por exemplo, todos os seus usuários podem ser atribuídos a todos os aplicativos e serviços do Microsoft 365 como parte de uma assinatura do Microsoft 365 Business Standard, enquanto um subconjunto de usuários também pode ser atribuído ao Visio online por meio de uma assinatura separada do Visio. 
 
   
 ## <a name="find-out-who-can-assign-licenses"></a>Descobrir quem pode atribuir licenças
@@ -58,20 +58,20 @@ A tabela a seguir lista o que ocorrerá automaticamente quando você atribuir um
   
 |**Se a assinatura tiver este serviço**|**Isto acontecerá automaticamente**|
 |:-----|:-----|
-|Exchange Online  <br/> |Uma caixa de correio será criada para tal pessoa.  <br/> |
+|Exchange Online  <br/> |Uma caixa de correio será criada para tal pessoa.  <br/> Para saber mais sobre o SLA para a conclusão da tarefa, consulte ["Configurando..." mensagens no centro de administração do Microsoft 365](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center). |
 |SharePoint Online  <br/> |As permissões de edição para o site de equipe padrão do SharePoint Online serão atribuídas a essa pessoa.  <br/> |
 |Skype for Business Online  <br/> |A pessoa terá acesso aos recursos associados à licença.  <br/> |
-|Aplicativos da Microsoft 365 para empresas  <br/> |A pessoa poderá baixar o Microsoft Office em até cinco Macs ou PCs, cinco tablets e cinco smartphones.  <br/> |
+|Microsoft 365 Apps para empresas  <br/> |A pessoa poderá baixar o Microsoft Office em até cinco Macs ou PCs, cinco tablets e cinco smartphones.  <br/> |
    
 ## <a name="how-many-devices-can-people-install-office-on"></a>Em quantos dispositivos as pessoas podem instalar o Office?
 
 Se a sua assinatura incluir algum dos seguintes produtos, cada pessoa poderá instalar o Office em até cinco PCs ou Macs, cinco tablets e cinco telefones.
   
-- Microsoft 365 aplicativos para empresas
+- Microsoft 365 Apps para empresas
     
 - Microsoft 365 Business Standard
     
-- Aplicativos da Microsoft 365 para empresas
+- Microsoft 365 Apps para empresas
     
 - Office 365 Enterprise E3
     

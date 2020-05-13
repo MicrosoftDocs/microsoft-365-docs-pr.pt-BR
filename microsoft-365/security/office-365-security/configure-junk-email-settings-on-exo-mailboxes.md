@@ -16,22 +16,22 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online. Muitas dessas configurações estão disponíveis para usuários no Outlook ou no Outlook na Web.
-ms.openlocfilehash: 20112e23ff8bb62b96bdba4e86725c8566af3444
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: ea3727bcfa90229da64db96b531885383d2bf7ed
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066188"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44206623"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online
 
-As configurações antispam organizacionais do Exchange Online são controladas pela proteção do Exchange Online (EOP). Para obter mais informações, confira [Proteção antispam no Office 365](anti-spam-protection.md).
+Nas organizações do Microsoft 365 com caixas de correio no Exchange Online, as configurações antispam organizacionais são controladas pela proteção do Exchange Online (EOP). Para obter mais informações, consulte [proteção antispam no EOP](anti-spam-protection.md).
 
 No entanto, há também configurações antispam específicas que os administradores podem configurar em caixas de correio individuais no Exchange Online:
 
 - **Habilitar ou desabilitar a regra de lixo eletrônico**: a regra de lixo eletrônico é uma regra de caixa de entrada oculta chamada regra de lixo eletrônico habilitada por padrão em todas as caixas de correio. A regra de lixo eletrônico controla os seguintes recursos:
 
-  - **Mover mensagens para a pasta lixo eletrônico com base nas políticas**antispam: quando uma política antispam é configurada com a ação **mover mensagem para a pasta lixo eletrônico** para uma veredicto de filtragem de spam, a regra de filtro de lixo eletrônico move a mensagem para a pasta lixo eletrônico após a mensagem ser entregue à caixa de correio. Para obter mais informações sobre a filtragem de spam verdicts em políticas antispam, consulte [Configure anti-spam Policies in Office 365](configure-your-spam-filter-policies.md). Da mesma forma, se a limpeza automática (ZAP) detectar spam ou phishing em uma mensagem já entregue, a regra de filtro de lixo eletrônico move a mensagem para a pasta lixo eletrônico para **mover a mensagem para a pasta lixo eletrônico** filtragem spam veredicto ações. Para saber mais sobre ZAP, confira [exclusão automática de zero horas (zap)-proteção contra spam e malware no Office 365](zero-hour-auto-purge.md).
+  - **Mover mensagens para a pasta lixo eletrônico com base nas políticas**antispam: quando uma política antispam é configurada com a ação **mover mensagem para a pasta lixo eletrônico** para uma veredicto de filtragem de spam, a regra de filtro de lixo eletrônico move a mensagem para a pasta lixo eletrônico após a mensagem ser entregue à caixa de correio. Para obter mais informações sobre a filtragem de spam verdicts em políticas antispam, consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md). Da mesma forma, se a limpeza automática de zero horas (ZAP) determina que uma mensagem entregue é spam ou phishing, a regra de filtro de lixo eletrônico move a mensagem para a pasta lixo eletrônico para **mover a mensagem para a pasta lixo eletrônico** filtragem spam veredicto ações. Para obter mais informações sobre ZAP, confira [exclusão automática de zero horas (zap) no Exchange Online](zero-hour-auto-purge.md).
   
   - **Configurações de lixo eletrônico que os usuários configuram para si mesmos no Outlook ou no Outlook na Web**: o _conjunto_ de listas seguras é a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados em cada caixa de correio. As entradas nessas listas determinam se a regra de lixo eletrônico move a mensagem para a caixa de entrada ou para a pasta lixo eletrônico. Os usuários podem configurar a coleção de lista segura para sua própria caixa de correio no Outlook ou no Outlook na Web (anteriormente conhecido como Outlook Web App). Os administradores podem configurar a coleção de lista segura na caixa de correio de qualquer usuário.
 
@@ -43,7 +43,7 @@ Os administradores podem usar o PowerShell do Exchange Online para desabilitar, 
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você só pode usar o PowerShell do Exchange Online para executar estes procedimentos. Para se conectar ao Exchange Online PowerShell, consulte [Conectar ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+- Você só pode usar o PowerShell do Exchange Online para executar estes procedimentos. Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
 - Você precisa ter permissões para poder executar estes procedimentos. Especificamente, você precisará da função de **destinatários de email** (atribuída aos grupos de função **Gerenciamento da organização**, gerenciamento de **destinatários**e **destinatários de email personalizados** por padrão) ou à função **Opções do usuário** (atribuída aos grupos de funções Gerenciamento da **organização** e **suporte técnico** por padrão). Para adicionar usuários a grupos de funções no Exchange Online, confira [modificar grupos de função no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups). Observe que um usuário com permissões padrão pode executar esses mesmos procedimentos em suas próprias caixas de correio, desde que eles tenham [acesso ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
 
@@ -54,7 +54,7 @@ Os administradores podem usar o PowerShell do Exchange Online para desabilitar, 
 ## <a name="use-exchange-online-powershell-to-enable-or-disable-the-junk-email-rule-in-a-mailbox"></a>Usar o PowerShell do Exchange Online para habilitar ou desabilitar a regra de lixo eletrônico em uma caixa de correio
 
 > [!NOTE]
-> Você só pode usar o cmdlet **set-MailboxJunkEmailConfiguration** para desabilitar a regra de lixo eletrônico em uma caixa de correio aberta no Outlook (no modo cache do Exchange) ou no Outlook na Web. Se a caixa de correio não tiver sido aberta, você receberá `The Junk Email configuration couldn't be set. The user needs to sign in to Outlook Web App before they can modify their Safe Senders and Recipients or Blocked Senders lists.` o erro: se quiser suprimir esse erro para operações em massa, `-ErrorAction SlientlyContinue` você pode adicionar ao comando **set-MailboxJunkEmailConfiguration** .
+> Você só pode usar o cmdlet **set-MailboxJunkEmailConfiguration** para desabilitar a regra de lixo eletrônico em uma caixa de correio aberta no Outlook (no modo cache do Exchange) ou no Outlook na Web. Se a caixa de correio não tiver sido aberta, você receberá o erro: `The Junk Email configuration couldn't be set. The user needs to sign in to Outlook Web App before they can modify their Safe Senders and Recipients or Blocked Senders lists.` se quiser suprimir esse erro para operações em massa, você pode adicionar `-ErrorAction SlientlyContinue` ao comando **set-MailboxJunkEmailConfiguration** .
 
 Para habilitar ou desabilitar a regra de lixo eletrônico em uma caixa de correio, use a seguinte sintaxe:
 
@@ -78,7 +78,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-Mailbo
 
 > [!NOTE]
 > 
-> - Se o usuário nunca abriu a caixa de correio, você pode receber um erro ao executar o comando anterior. Para suprimir esse erro para operações em massa `-ErrorAction SlientlyContinue` , adicione ao comando **set-MailboxJunkEmailConfiguration** .
+> - Se o usuário nunca abriu a caixa de correio, você pode receber um erro ao executar o comando anterior. Para suprimir esse erro para operações em massa, adicione `-ErrorAction SlientlyContinue` ao comando **set-MailboxJunkEmailConfiguration** .
 > 
 > - Mesmo que você desabilite a regra de lixo eletrônico, o filtro de lixo eletrônico do Outlook (dependendo de como ela é configurada) também pode determinar se uma mensagem é spam e se pode mover mensagens para a caixa de entrada ou pasta de lixo eletrônico com base no seu próprio spam veredicto e a coleção SafeList na caixa de correio. Para obter mais informações, consulte a seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) neste tópico.
 
@@ -86,7 +86,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-Mailbo
 
 Para verificar se você ativou ou desabilitou com êxito a regra de lixo eletrônico em uma caixa de correio, use qualquer um dos seguintes procedimentos:
 
-- Substitua _ \<mailboxidentity pela\> _ pelo nome, alias ou endereço de email da caixa de correio e execute o seguinte comando para verificar o valor da propriedade **Enabled** :
+- Substitua _ \< mailboxidentity pela \> _ pelo nome, alias ou endereço de email da caixa de correio e execute o seguinte comando para verificar o valor da propriedade **Enabled** :
 
   ```PowerShell
   Get-MailboxJunkEmailConfiguration -Identity "<MailboxIdentity>" | Format-List Enabled
@@ -117,7 +117,7 @@ Para configurar a coleção de lista segura em uma caixa de correio, use a segui
 Set-MailboxJunkEmailConfiguration <MailboxIdentity> -BlockedSendersAndDomains <EmailAddressesOrDomains | $null> -ContactsTrusted <$true | $false> -TrustedListsOnly <$true | $false> -TrustedSendersAndDomains  <EmailAddresses | $null>
 ```
 
-Para inserir vários valores e substituir quaisquer entradas existentes para os parâmetros _BlockedSendersAndDomains_ e _TrustedSendersAndDomains_ , use a seguinte sintaxe: `"<Value1>","<Value2>"...`. Para adicionar ou remover um ou mais valores sem afetar outras entradas existentes, use a seguinte sintaxe:`@{Add="<Value1>","<Value2>"... ; Remove="<Value3>","<Value4>...}`
+Para inserir vários valores e substituir quaisquer entradas existentes para os parâmetros _BlockedSendersAndDomains_ e _TrustedSendersAndDomains_ , use a seguinte sintaxe: `"<Value1>","<Value2>"...` . Para adicionar ou remover um ou mais valores sem afetar outras entradas existentes, use a seguinte sintaxe:`@{Add="<Value1>","<Value2>"... ; Remove="<Value3>","<Value4>...}`
 
 Este exemplo configura as seguintes configurações para a coleção de lista segura na caixa de correio de Ori Epstein:
 
@@ -141,7 +141,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-Mailbo
 
 > [!NOTE]
 > 
-> - Se o usuário nunca abriu a caixa de correio, você pode receber um erro ao executar os comandos anteriores. Para suprimir esse erro para operações em massa `-ErrorAction SlientlyContinue` , adicione ao comando **set-MailboxJunkEmailConfiguration** .
+> - Se o usuário nunca abriu a caixa de correio, você pode receber um erro ao executar os comandos anteriores. Para suprimir esse erro para operações em massa, adicione `-ErrorAction SlientlyContinue` ao comando **set-MailboxJunkEmailConfiguration** .
 > 
 > - Mesmo se a regra de lixo eletrônico estiver desabilitada na caixa de correio, você ainda poderá configurar a coleção de listas seguras e o filtro de lixo eletrônico do Outlook poderá mover mensagens para a caixa de entrada ou para a pasta lixo eletrônico. Para obter mais informações, consulte a seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) neste tópico.
 > 
@@ -151,7 +151,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-Mailbo
 
 Para verificar se você configurou com êxito a coleção de lista segura em uma caixa de correio, use qualquer um dos seguintes procedimentos:
 
-- Substitua _ \<mailboxidentity pela\> _ pelo nome, alias ou endereço de email da caixa de correio e execute o seguinte comando para verificar os valores de propriedade:
+- Substitua _ \< mailboxidentity pela \> _ pelo nome, alias ou endereço de email da caixa de correio e execute o seguinte comando para verificar os valores de propriedade:
 
   ```PowerShell
   Get-MailboxJunkEmailConfiguration -Identity "<MailboxIdentity>" | Format-List trusted*,contacts*,blocked*
@@ -167,7 +167,7 @@ Para verificar se você configurou com êxito a coleção de lista segura em uma
 
 Para habilitar, desabilitar e configurar as definições de filtro de lixo eletrônico do lado do cliente disponíveis no Outlook, use a política de grupo. Para obter mais informações, consulte [arquivos de modelo administrativo (admx/adml) e ferramenta de personalização do Office para o Microsoft 365 aplicativos para Enterprise, office 2019 e office 2016](https://www.microsoft.com/download/details.aspx?id=49030).
 
-Quando o filtro de lixo eletrônico do Outlook está definido como o valor padrão **sem filtragem automática** nas **Opções**de **Opções** \> de **lixo** \> eletrônico **doméstica** \> , o Outlook não tenta classificar massages como spam, mas ainda usa a coleção de listas seguras (a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados) para mover mensagens para a pasta lixo eletrônico após a entrega. Para obter mais informações sobre essas configurações, consulte [visão geral do filtro de lixo eletrônico](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089).
+Quando o filtro de lixo eletrônico do Outlook está definido como o valor padrão **sem filtragem automática** nas opções de opções de lixo eletrônico **doméstica** \> **Junk** \> **Junk E-Mail Options** \> **Options**, o Outlook não tenta classificar massages como spam, mas ainda usa a coleção de listas seguras (a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados) para mover mensagens para a pasta lixo eletrônico após a entrega. Para obter mais informações sobre essas configurações, consulte [visão geral do filtro de lixo eletrônico](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089).
 
 Quando o filtro de lixo eletrônico do Outlook é definido como **baixo** ou **alto**, o filtro de lixo eletrônico do Outlook usa sua própria tecnologia de Filtro SmartScreen para identificar e mover spam para a pasta lixo eletrônico. Essa classificação de spam é separada do nível de confiança de spam (SCL) determinado pelo EOP. Na verdade, o Outlook ignora o SCL de EOP (a menos que EOP marcou a mensagem para ignorar a filtragem de spam) e usa seus próprios critérios para determinar se a mensagem é spam. Obviamente, é possível que o veredicto de spam do EOP e do Outlook seja o mesmo. Para obter mais informações sobre essas configurações, consulte [alterar o nível de proteção no filtro de lixo eletrônico](https://support.office.com/article/e89c12d8-9d61-4320-8c57-d982c8d52f6b).
 

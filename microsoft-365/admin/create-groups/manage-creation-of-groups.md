@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Saiba como controlar quais usuários podem criar grupos do Microsoft 365.
-ms.openlocfilehash: 5ecd48161a751a1558146236d48df13bb0662ad1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 55b3ec119e8c74982ce340c58f6b8da684c9ffa8
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630400"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208337"
 ---
 # <a name="manage-who-can-create-groups"></a>Gerenciar quem pode criar grupos
 
@@ -96,7 +96,7 @@ Os administradores nas funções listadas acima não precisam ser membros desse 
 > [!IMPORTANT]
 > Certifique-se de usar um **grupo de segurança** para restringir quem pode criar grupos. Se você tentar usar um grupo do Microsoft 365, os membros não poderão criar um grupo do SharePoint, pois ele verifica se há um grupo de segurança. 
     
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
 
 2. Clique em **Adicionar um grupo**.
 
@@ -120,13 +120,13 @@ Você deve usar a versão de visualização do [PowerShell do Azure Active Direc
 
 Copie o script abaixo para um editor de texto, como o bloco de notas, ou o [Windows PowerShell ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise).
 
-Substitua * \<SecurityGroupName\> * pelo nome do grupo de segurança que você criou. Por exemplo:
+Substitua * \< SecurityGroupName \> * pelo nome do grupo de segurança que você criou. Por exemplo:
 
 `$GroupName = "Group Creators"`
 
 Salve o arquivo como GroupCreators. ps1. 
 
-Na janela do PowerShell, navegue até o local onde você salvou o arquivo (digite "CD <FileLocation>").
+Na janela do PowerShell, navegue até o local onde você salvou o arquivo (digite "CD <FileLocation> ").
 
 Execute o script digitando:
 
@@ -173,6 +173,8 @@ Se no futuro você quiser alterar o grupo de segurança usado, poderá executar 
 Se você deseja desativar a restrição de criação de grupo e novamente permitir que todos os usuários criem grupos, defina $GroupName como "" e $AllowGroupCreation como "true" e execute novamente o script.
     
 ## <a name="step-4-verify-that-it-works"></a>Etapa 4: verificar se funciona
+
+As alterações podem levar trinta minutos ou mais para entrar em vigor. Você pode verificar as novas configurações fazendo o seguinte:
 
 1. Entre com uma conta de usuário de alguém que não deve ter a capacidade de criar grupos. Ou seja, eles não são membros do grupo de segurança que você criou ou de um administrador.
     
