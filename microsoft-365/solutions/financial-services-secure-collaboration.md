@@ -13,12 +13,12 @@ ms.custom: ''
 localization_priority: Priority
 description: Saiba como o Microsoft 365 ajuda os serviços financeiros a migrar para uma moderna plataforma de colaboração, ajudando a manter os dados e sistemas seguros e em conformidade com os regulamentos
 f1.keywords: NOCSH
-ms.openlocfilehash: affaf7ee6d9251003aec084d73b501212ebeda40
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 24177c6e878116b8d60d8f38be77d0b52141699a
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160454"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214691"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Considerações de segurança e conformidade essenciais para os mercados bancário e de capital dos EUA
 
@@ -216,7 +216,7 @@ Instituições financeiras gerenciam grandes quantidades de dados. E alguns per�
 - O que ocorre quando o período de retenção expira (excluir o documento, iniciar uma análise de disposição ou não tomar nenhuma ação)
 -  O que aciona o início do período de retenção (data de criação, data da última modificação, data rotulada ou evento) e marca o documento ou email como um registro (o que significa que não pode ser editado ou excluído)
 
-Os rótulos de retenção são publicados nos sites do SharePoint ou OneDrive, caixas de correio do Exchange e grupos do Microsoft 365. Os usuários podem aplicar os rótulos de retenção a documentos e emails manualmente. Os gerentes de registro podem usar a inteligência para aplicar os rótulos automaticamente. Os recursos inteligentes podem basear-se em [mais de noventa tipos de informações confidenciais internos](https://docs.microsoft.com/microsoft-365/compliance/what-the-sensitive-information-types-look-for?view=o365-worldwide) (como número de roteamento ABA, número de conta bancária nos EUA ou número de previdência social nos EUA). Eles também são personalizáveis com base em palavras-chave ou dados confidenciais encontrados em documentos ou emails, como números de cartão de crédito ou outras informações de identificação pessoal, ou com base nos metadados do SharePoint. Para dados que não são facilmente identificados através da correspondência de padrões manual ou automatizada, os classificadores treináveis podem ser usados para classificar documentos de maneira inteligente, com base nas técnicas de aprendizado de máquina.
+Os rótulos de retenção são publicados nos sites do SharePoint ou OneDrive, caixas de correio do Exchange e grupos do Microsoft 365. Os usuários podem aplicar os rótulos de retenção a documentos e emails manualmente. Os gerentes de registro podem usar a inteligência para aplicar os rótulos automaticamente. Os recursos inteligentes podem basear-se em [mais de noventa tipos de informações confidenciais internos](https://docs.microsoft.com/microsoft-365/compliance/content-search?view=o365-worldwide) (como número de roteamento ABA, número de conta bancária nos EUA ou número de previdência social nos EUA). Eles também são personalizáveis com base em palavras-chave ou dados confidenciais encontrados em documentos ou emails, como números de cartão de crédito ou outras informações de identificação pessoal, ou com base nos metadados do SharePoint. Para dados que não são facilmente identificados através da correspondência de padrões manual ou automatizada, os classificadores treináveis podem ser usados para classificar documentos de maneira inteligente, com base nas técnicas de aprendizado de máquina.
  
 A **Comissão de Títulos e Câmbio dos Estados Unidos (SEC)** exige que corretoras e outras instituições financeiras regulamentadas mantenham todas as comunicações relacionadas aos negócios. Esses requisitos se aplicam a muitos tipos de comunicação e dados, incluindo emails, documentos, mensagens instantâneas, faxes e muito mais. A **Regra 17a-4 da SEC** define os critérios que essas organizações devem atender para armazenar registros em um sistema de armazenamento eletrônico de dados. Em 2003, a SEC emitiu um comunicado que esclareceu esses requisitos. Ele incluiu os seguintes critérios:
 
