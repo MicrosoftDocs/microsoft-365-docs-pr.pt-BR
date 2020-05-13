@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Determine se o locatário e os usuários atendem aos requisitos, para que você possa usar a implantação centralizada para implantar os suplementos do Office.
-ms.openlocfilehash: 0fcdb9901c708842470f72106ab4eea20ff8b17e
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: bd1c9ca0a034494f6556f0badca66284c3d9e1de
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011718"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214247"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a implantação centralizada de suplementos funciona para a sua organização
 
@@ -32,7 +32,7 @@ A implantação centralizada é a maneira recomendada e mais rica de recursos pa
 A implantação centralizada oferece suporte a Windows, Mac, iOS, Android e aplicativos do Office Online.
 Pode levar até 12 horas para que um suplemento seja exibido para o cliente para todos os usuários.
   
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 A implantação centralizada de suplementos exige que os usuários estejam usando o Microsoft 365 aplicativos para empresas (e estejam conectados ao Office usando a respectiva ID organizacional) e tenham o Exchange Online e caixas de correio ativas do Exchange Online. Seu diretório de assinatura deve ser ou federado no Azure Active Directory.
 Você pode exibir requisitos específicos para o Office e o Exchange abaixo ou usar o [Verificador de compatibilidade de implantação centralizado](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker).
@@ -75,9 +75,9 @@ Para usar o Microsoft 365 aplicativos para empresas, um usuário deve ter uma co
 
 A maneira mais simples de detectar se um usuário tem o Microsoft 365 aplicativos para Enterprise instalado e o está usando recentemente é usar o relatório de ativações do Microsoft Office, que está disponível no centro de administração do Microsoft 365. O relatório fornece uma lista de todos os usuários que ativaram o Microsoft 365 aplicativos para empresas nos últimos sete dias, 30 dias, 90 dias ou 180 dias. Para fins de implantação centralizada, as ativações da área de trabalho para Windows ou Mac são as colunas importantes no relatório. É possível exportar o relatório para Excel. Para obter mais informações sobre o relatório, consulte [microsoft 365 Reports no centro de administração-ativações do Microsoft Office](../activity-reports/microsoft-office-activations.md).
   
-Se não quiser usar o relatório de ativações, você pode pedir a um usuário para abrir um aplicativo do Office, como o Word, em sua máquina e, em seguida, escolher **conta**de **arquivo** \> . Em **informações do produto**, você deve ver o **produto de assinatura** e **o Microsoft Microsoft 365 aplicativos para empresas**, conforme mostrado na imagem a seguir.
+Se não quiser usar o relatório de ativações, você pode pedir a um usuário para abrir um aplicativo do Office, como o Word, em sua máquina e, em seguida, escolher conta de **arquivo** \> **Account**. Em **informações do produto**, você deve ver o **produto de assinatura** e a **Microsoft 365 para empresas**, conforme mostrado na imagem a seguir.
 
-![Informações de produto em um aplicativo do Office](../../media/4bff2bb8-0690-4d22-ac1f-b8881807fa39.png)
+![Informações de produto em um aplicativo do Office](../../media/product-information-microsoft-365-enterprise.png)
   
 Para obter ajuda com os aplicativos do Microsoft 365 para empresas, consulte [dicas de solução de problemas para aplicativos da microsoft 365 para empresas](https://go.microsoft.com/fwlink/p/?linkid=846339).
 
@@ -108,7 +108,7 @@ Import-Module O365CompatibilityChecker
 ```powershell
 Invoke-CompatibilityCheck
 ```
-   que solicita *_TenantDomain_* (por exemplo, *TailspinToysIncorporated. onmicrosoft.</span> com*) e *_TenantAdmin_* credenciais (use suas credenciais de administrador global) e, em seguida, solicitações de consentimento.
+   que solicita *_TenantDomain_* (por exemplo, *TailspinToysIncorporated. onmicrosoft. </span> com*) e *_TenantAdmin_* credenciais (use suas credenciais de administrador global) e, em seguida, solicitações de consentimento.
     
 > [!NOTE]
 > O verificador pode ser concluído em minutos ou horas, dependendo da quantidade de usuários no locatário. 
@@ -161,7 +161,7 @@ Se você ou seus usuários encontrarem problemas ao carregar o suplemento durant
   
 |**Plataforma**|**Informações de depuração**|
 |:-----|:-----|
-|Office  <br/> | Registros de Charles/Fiddler  <br/>  ID do locatário ( [saiba como](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b.aspx))  <br/>  CorrelationID. Exibir a origem de uma das páginas do Office e procurar o valor de ID de correlação e enviá-lo ao suporte:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
+|Office  <br/> | Registros de Charles/Fiddler  <br/>  ID do locatário ( [saiba como](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id.aspx))  <br/>  CorrelationID. Exibir a origem de uma das páginas do Office e procurar o valor de ID de correlação e enviá-lo ao suporte:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
 |Clientes avançados (Windows, Mac)  <br/> | Registros de Charles/Fiddler  <br/>  Números de compilação do aplicativo cliente (preferencialmente como captura de tela de **arquivo/conta**)  <br/> |
    
 

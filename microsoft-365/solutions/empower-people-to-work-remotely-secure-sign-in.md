@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Exigir que seus funcionários remotos entrem com autenticação multifator (MFA).
-ms.openlocfilehash: 2cb16c78f7fb0b1f9f48559c61a6200d6adcf470
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: a0350be5cf75024fbefadb21ae56017bf64ca0d8
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166132"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213467"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Etapa 1. Aumentar a segurança de entrada para funcionários remotos com a MFA
 
@@ -55,9 +55,9 @@ Para obter mais informações, confira esta [visão geral dos padrões de segura
 
 As políticas de acesso condicional são um conjunto de regras que especificam as condições sob as quais as entradas são avaliadas e permitidas. Por exemplo, você pode criar uma política de acesso condicional que declare:
 
-- Se o nome da conta do usuário for para um usuário que for um administrador do Exchange, de usuário, de senha, de segurança, do Microsoft Office SharePoint Online ou global, exija a MFA antes de permitir o acesso.
+- Se o nome da conta de usuário for membro de um grupo para usuários a quem são atribuídas as funções de administrador do Exchange, de usuário, de senha, de segurança, do SharePoint ou global, exija a MFA antes de permitir o acesso.
 
-Essa política é mais fácil do que tentar lembrar de configurar contas de usuário individuais para a MFA quando elas são adicionadas ou removidas dessas funções de administrador.
+Essa política permite exigir a MFA com base na associação ao grupo, em vez de tentar configurar contas de usuário individuais para a MFA quando elas são atribuídas ou não a essas funções de administrador.
 
 Você também pode usar políticas de Acesso Condicional para recursos mais avançados, como exigir que a entrada seja feita a partir de um dispositivo compatível, como o seu laptop executando o Windows 10.
 
@@ -65,15 +65,15 @@ O Acesso Condicional requer o Microsoft Azure Active Directory Premium P1, inclu
 
 Para mais informações, confira esta [visão geral do Acesso Condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
 
-## <a name="azure-ad-identity-protection-policies"></a>Políticas da Azure Active Directory Identity Protection
+## <a name="azure-ad-identity-protection-support"></a>Suporte ao Azure AD Identity Protection
 
-As políticas da Azure Active Directory Identity Protection são regras que especificam as condições sob as quais as entradas são avaliadas e permitidas. Por exemplo, você pode criar uma política da Azure Active Directory Identity Protection que declare:
+Com o Azure AD Identity Protection, é possível criar uma política de acesso condicional adicional que declara:
 
-- Se o risco de entrada for determinado como médio ou alto, o usuário deverá usar a MFA para entrar.
+- Se o risco de entrada for determinado como médio ou alto, exija a MFA.
 
 A Azure Active Directory Identity Protection requer o Microsoft Azure Active Directory Premium P2, incluído no Microsoft 365 E5.
 
-Para obter mais informações, confira esta [visão geral da Azure Active Directory Identity Protection](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection).
+Para mais informações, confira [Acesso Condicional com base no risco](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk#require-mfa-medium-or-high-sign-in-risk-users).
 
 ## <a name="using-these-methods-together"></a>Usando esses métodos juntos
 
@@ -84,12 +84,12 @@ Lembre-se do seguinte:
 
 Se os padrões de segurança estiverem ativados, todos os novos usuários serão solicitados a fazer o registro da MFA e usar o aplicativo Microsoft Authenticator. 
 
-Esta tabela mostra os resultados da ativação da MFA com padrões de segurança, políticas de Acesso Condicional e configurações de conta por usuário.
+Esta tabela mostra os resultados da habilitação da MFA com padrões de segurança e políticas de Acesso Condicional.
 
-|| Habilitado | Desabilitado | Método de autenticação secundária |
+|| Habilitado | Desabilitado | Método de autenticação adicional |
 |:-------|:-----|:-------|:-------|
 | **Padrões de segurança**  | Não é possível usar políticas de Acesso Condicional | Pode usar políticas de Acesso Condicional | Aplicativo Microsoft Authenticator |
-| **Políticas de Acesso Condicional** | Se alguma delas estiver habilitada, você não poderá habilitar os padrões de segurança | Se nenhuma estiver habilitada, você poderá habilitar os padrões de segurança  | Especificado pelo usuário durante o registro da MFA  |
+| **Políticas de Acesso Condicional** | Se alguma delas estiver habilitada, você não poderá habilitar os padrões de segurança | Se todas estiverem desabilitadas, você poderá habilitar os padrões de segurança  | Especificado pelo usuário durante o registro da MFA  |
 ||||
 
 ## <a name="admin-training-and-technical-resources-for-mfa-and-identity"></a>Treinamento de administrador e recursos técnicos para MFA e identidade

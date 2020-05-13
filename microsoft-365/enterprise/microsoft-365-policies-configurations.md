@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: f336c9ef2957374223a8f0d7b64f892c87e1169d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0512d51f2789383c7612c3dbd97c0a77c2c4c7fa
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631544"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214657"
 ---
 # <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 
@@ -121,7 +121,7 @@ Esta orientação mostra como criar políticas recomendadas para impor o uso de 
 Esta orientação mostra como implementar um conjunto de políticas para proteger o acesso ao Office 365, incluindo o Exchange Online, o SharePoint Online e o OneDrive for Business. Além de implementar essas políticas, recomendamos que você também aumente o nível de proteção para o locatário usando estes recursos:
 
 - [Configure seu locatário para maior segurança](https://support.office.com/article/Configure-your-Office-365-tenant-for-increased-security-8d274fe3-db51-4107-ba64-865e7155b355): estas recomendações se aplicam à segurança de linha de base para seu locatário.
-- [Mapa de segurança da Microsoft 365: principais prioridades para os primeiros 30 dias, 90 dias e mais](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352): estas recomendações incluem registro em log, governança de dados, acesso de administrador e proteção contra ameaças.
+- [Mapa de segurança da Microsoft 365: principais prioridades para os primeiros 30 dias, 90 dias e mais](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap): estas recomendações incluem registro em log, governança de dados, acesso de administrador e proteção contra ameaças.
 
 
 ### <a name="windows-10-and-microsoft-365-apps-for-enterprise"></a>Aplicativos do Windows 10 e do Microsoft 365 para empresas
