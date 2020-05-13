@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a configurar a filtragem de conexão na proteção do Exchange Online (EOP) para permitir ou bloquear emails de servidores de email.
-ms.openlocfilehash: 9b4f203f11e72b4459c9fa35d3e4fdca544cffbb
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b9fd8c1b365f59647618e397a511873aae40146f
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209578"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213431"
 ---
 # <a name="configure-connection-filtering"></a>Configurar a filtragem da conexão
 
@@ -44,7 +44,7 @@ Este tópico descreve como configurar a política de filtro de conexão padrão 
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>.
 
-- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell da Proteção do Exchange Online autônoma, confira [Conectar ao PowerShell da Proteção do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell do EOP autônomo, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - Você precisa receber permissões para executar esses procedimentos. Para modificar a política de filtro de conexão padrão, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** . Para acesso somente leitura à política de filtro de conexão padrão, você precisa ser membro do grupo de função **leitor de segurança** . Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
@@ -90,7 +90,7 @@ Este tópico descreve como configurar a política de filtro de conexão padrão 
 
 3. As configurações de política são exibidas no menu suspenso que é aberto.
 
-## <a name="use-exchange-online-powershell-or-standalone-exchange-online-protection-powershell-to-modify-the-default-connection-filter-policy"></a>Usar o PowerShell do Exchange Online ou do Exchange Online Protection PowerShell para modificar a política de filtro de conexão padrão
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-modify-the-default-connection-filter-policy"></a>Usar o PowerShell do Exchange Online ou o PowerShell do EOP para modificar a política de filtro de conexão padrão
 
 Use a seguinte sintaxe:
 
@@ -134,7 +134,7 @@ Para verificar se você modificou com êxito a política de filtro de conexão p
 
 - No centro de conformidade & segurança, vá para política de **Gerenciamento de ameaças** \> **Policy** \> **anti-spam** \> clique na lista suspensa ao lado da **política de filtro de conexão (AlwaysOn**) e verifique as configurações.
 
-- No PowerShell do Exchange Online PowerShell ou do Exchange Online Protection autônomo, execute o seguinte comando e verifique as configurações:
+- No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, execute o seguinte comando e verifique as configurações:
 
   ```powershell
   Get-HostedConnectionFilterPolicy -Identity Default

@@ -14,12 +14,12 @@ ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 ms.custom:
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá como mover domínios e configurações de uma organização (locatário) do Microsoft Exchange Online Protection (EOP) para outro.
-ms.openlocfilehash: c57f8363093c2e1a9bfad5c34f62a0ca2c1ae689
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: e9e0bd0d18ad73c08f0bc5b487a46289f67e40ba
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208302"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213443"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a>Mover domínios e configurações de uma organização do EOP para outra
 
@@ -59,11 +59,11 @@ Para recriar a organização de origem na organização de destino, verifique se
   > [!NOTE]
   > O suporte de cmdlet para a exportação e importação do conjunto de regras de fluxo de emails atualmente só tem suporte para planos de assinatura do EOP Premium.
 
-A maneira mais fácil de coletar todas as suas configurações é usar o PowerShell. Para se conectar ao PowerShell do Exchange Online Protection, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+A maneira mais fácil de coletar todas as suas configurações é usar o PowerShell. Para se conectar ao PowerShell do EOP autônomo, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 Você pode coletar todas as suas configurações e exportá-las para um arquivo .xml que será importado para o locatário de destino. Em geral, você pode redirecionar a saída do cmdlet **Get** de cada configuração do cmdlet **Export-Clixml**, salvando as configurações em arquivos .xml, conforme mostrado no exemplo de código seguinte.
 
-No PowerShell do Exchange Online Protection, crie um diretório chamado exportar em um local que seja fácil de encontrar e mudar para esse diretório. Por exemplo:
+Em EOP autônomo do PowerShell, crie um diretório chamado exportar em um local que seja fácil de encontrar e mudar para esse diretório. Por exemplo:
 
 ```PowerShell
 mkdir C:\EOP\Export

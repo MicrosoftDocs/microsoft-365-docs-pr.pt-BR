@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: e4620938a5f7f63d7da09d60d701e81c3bbae0fa
-ms.sourcegitcommit: 758263ad484e00f5a561a47c8c22d5787af7671e
+ms.openlocfilehash: e77fe9c8340608afae3a308ee399809144f6308f
+ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44171000"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44211457"
 ---
 # <a name="data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações do Titular dos Dados para RGPD e CCPA
 
@@ -63,7 +63,7 @@ Para ajudar você a encontrar informações relevantes ao seu caso de uso, este 
 
 ### <a name="office-365-national-clouds"></a>Nuvens nacionais do Office 365
 
-Os serviços do Microsoft Office 365 também estão disponíveis nos seguintes ambientes de nuvem nacional: [Office 365 Germany](https://support.office.com/article/learn-about-office-365-germany-8a5a4bbc-667a-4cac-8769-d8ac9015db4c), [Office 365 operado pela 21Vianet (China)](https://support.office.com/article/Learn-about-Office-365-operated-by-21Vianet-A8AB5061-3346-4DA0-BB7C-5260822B53AE) e [Office 365 US Government](https://technet.microsoft.com/library/mt774581.aspx). A maioria das diretrizes para gerenciar solicitações de titulares de dados descritas neste artigo se aplica a esses ambientes de nuvem nacional. No entanto, devido à natureza isolada desses ambientes, há algumas exceções. Quando considerável para determinado subseção, essas exceções são destacadas em uma observação correspondente.
+Os serviços do Microsoft Office 365 também estão disponíveis nos seguintes ambientes de nuvem nacional: [Office 365 Germany](https://docs.microsoft.com/microsoft-365/admin/admin-overview/learn-about-office-365-germany), [Office 365 operado pela 21Vianet (China)](https://docs.microsoft.com/microsoft-365/admin/services-in-china/services-in-china) e [Office 365 US Government](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans). A maioria das diretrizes para gerenciar solicitações de titulares de dados descritas neste artigo se aplica a esses ambientes de nuvem nacional. No entanto, devido à natureza isolada desses ambientes, há algumas exceções. Quando considerável para determinado subseção, essas exceções são destacadas em uma observação correspondente.
 
 ### <a name="hybrid-deployments"></a>Implantações híbridas
 
@@ -111,7 +111,7 @@ A tabela a seguir lista os aplicativos do Office 365 que as pessoas usam para cr
 ||
 
 >[!NOTE]
->A ferramenta eDiscovery da pesquisa de conteúdo não está disponível no [Office 365 operado pela 21Vianet (China)](https://support.office.com/article/Learn-about-Office-365-operated-by-21Vianet-A8AB5061-3346-4DA0-BB7C-5260822B53AE). Isso significa que você não poderá usar essa ferramenta para pesquisar e exportar dados do cliente nos aplicativos do Office 365 mostrados na Tabela 1. No entanto, você pode usar a ferramenta de descoberta eletrônica local no Exchange Online para pesquisar conteúdo em caixas de correio de usuário. Você também pode usar o Centro de Descoberta Eletrônica no SharePoint Online para pesquisar conteúdo em sites do SharePoint e contas do OneDrive. Como alternativa, você pode pedir ao proprietário do documento para ajudá-lo a encontrar e fazer alterações ou exclusões no conteúdo ou exportá-lo, se necessário. Para mais informações, veja:</br><br> * [Criar uma pesquisa de Descoberta Eletrônica no local](https://technet.microsoft.com/library/dd353189(v=exchg.150).aspx)<br> * [Configurar um Centro de Descoberta Eletrônica no SharePoint Online](https://support.office.com/article/Set-up-an-eDiscovery-Center-in-SharePoint-Online-A18F8975-AA7F-43B4-A7D6-001D14744D8E)
+>A ferramenta eDiscovery da pesquisa de conteúdo não está disponível no [Office 365 operado pela 21Vianet (China)](https://docs.microsoft.com/microsoft-365/admin/services-in-china/services-in-china). Isso significa que você não poderá usar essa ferramenta para pesquisar e exportar dados do cliente nos aplicativos do Office 365 mostrados na Tabela 1. No entanto, você pode usar a ferramenta de descoberta eletrônica local no Exchange Online para pesquisar conteúdo em caixas de correio de usuário. Você também pode usar o Centro de Descoberta Eletrônica no SharePoint Online para pesquisar conteúdo em sites do SharePoint e contas do OneDrive. Como alternativa, você pode pedir ao proprietário do documento para ajudá-lo a encontrar e fazer alterações ou exclusões no conteúdo ou exportá-lo, se necessário. Para mais informações, veja:</br><br> * [Criar uma pesquisa de Descoberta Eletrônica no local](https://docs.microsoft.com/exchange/create-in-place-ediscovery-search-exchange-2013-help)<br> * [Configurar um Centro de Descoberta Eletrônica no SharePoint Online](https://support.office.com/article/Set-up-an-eDiscovery-Center-in-SharePoint-Online-A18F8975-AA7F-43B4-A7D6-001D14744D8E)
 
 ### <a name="using-content-search-to-find-personal-data"></a>Usar a Pesquisa de Conteúdo para encontrar dados pessoais
 
@@ -119,7 +119,7 @@ A primeira etapa ao responder a uma DSR é localizar os dados pessoais do titula
 
 Conforme mencionado anteriormente, a Microsoft estima que mais de 90% dos dados de uma organização sejam criados com aplicativos do Office, como Word e Excel. Isso significa que é possível usar a Pesquisa de Conteúdo no Centro de Conformidade e Segurança para pesquisar pela maioria dos dados relacionados a DSRs.
 
-Este guia pressupõe que você ou a pessoa que está pesquisando dados pessoais que possam ser responsivos a uma solicitação DSR esteja familiarizado ou tenha experiência em usar a ferramenta Pesquisa de Conteúdo no Centro de Conformidade e Segurança. Para obter as diretrizes gerais de como usar a Pesquisa de Conteúdo, confira [Pesquisa de Conteúdo no Office 365](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4). Certifique-se de que a pessoa que esteja fazendo as pesquisas tenha recebido as permissões necessárias no Centro de Conformidade e Segurança. Essa pessoa deve ser adicionada como membro do grupo de função Gerente de Descoberta Eletrônica no Centro de Conformidade e Segurança. Confira [Atribuir permissões de Descoberta Eletrônica no Centro de Conformidade e Segurança](https://support.office.com/article/Assign-eDiscovery-permissions-in-the-Office-365-Security-Compliance-Center-5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7). Considere a adição de outras pessoas da organização que estejam envolvidas na investigação de DSRs ao grupo de função Gerente de Descoberta Eletrônica, de modo que elas possam executar as ações necessárias na ferramenta Pesquisa de Conteúdo, como visualizar e exportar resultados da pesquisa. No entanto, a menos que você tenha configurado limites de conformidade (conforme descrito [aqui](#set-up-compliance-boundaries-to-limit-the-scope-of-content-searches)), esteja ciente de que um Gerente de Descoberta Eletrônica pode pesquisar todos os locais de conteúdo da organização, incluindo aqueles que podem não estar relacionados a uma investigação de DSR.
+Este guia pressupõe que você ou a pessoa que está pesquisando dados pessoais que possam ser responsivos a uma solicitação DSR esteja familiarizado ou tenha experiência em usar a ferramenta Pesquisa de Conteúdo no Centro de Conformidade e Segurança. Para obter as diretrizes gerais de como usar a Pesquisa de Conteúdo, confira [Pesquisa de Conteúdo no Office 365](https://docs.microsoft.com/microsoft-365/compliance/content-search). Certifique-se de que a pessoa que esteja fazendo as pesquisas tenha recebido as permissões necessárias no Centro de Conformidade e Segurança. Essa pessoa deve ser adicionada como membro do grupo de função Gerente de Descoberta Eletrônica no Centro de Conformidade e Segurança. Confira [Atribuir permissões de Descoberta Eletrônica no Centro de Conformidade e Segurança](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions). Considere a adição de outras pessoas da organização que estejam envolvidas na investigação de DSRs ao grupo de função Gerente de Descoberta Eletrônica, de modo que elas possam executar as ações necessárias na ferramenta Pesquisa de Conteúdo, como visualizar e exportar resultados da pesquisa. No entanto, a menos que você tenha configurado limites de conformidade (conforme descrito [aqui](#set-up-compliance-boundaries-to-limit-the-scope-of-content-searches)), esteja ciente de que um Gerente de Descoberta Eletrônica pode pesquisar todos os locais de conteúdo da organização, incluindo aqueles que podem não estar relacionados a uma investigação de DSR.
 
 Depois de encontrar os dados, você pode executar uma ação específica que atenda à solicitação feita pelo titular dos dados.
 
@@ -142,7 +142,7 @@ Você pode pesquisar os tipos de local de conteúdo a seguir com a ferramenta Pe
 
 - Comece pesquisando todos os locais de conteúdo da organização (o que pode ser feito em uma única pesquisa) para determinar rapidamente quais locais de conteúdo possuem itens que correspondem à sua consulta de pesquisa. Em seguida, você pode fazer uma nova pesquisa e limitar o escopo dela aos locais específicos que apresentam itens relevantes.
 - Use as estatísticas de pesquisa para identificar os principais locais que contêm itens que correspondem à sua consulta de pesquisa. Consulte [Exibir as estatísticas de palavra-chave para resultados de pesquisa de conteúdo](https://docs.microsoft.com/microsoft-365/compliance/view-keyword-statistics-for-content-search).
-- Pesquise no log de auditoria as atividades recentes de arquivos e pastas executadas pelo usuário que é o titular do DSR. Pesquisar o log de auditoria traz uma lista de registros de auditoria que contêm o nome e o local de recursos que o usuário interagiu recentemente.  Você pode usar essas informações para criar uma consulta de pesquisa de conteúdo. Confira [Pesquisar o log de auditoria no Centro de Conformidade e Segurança](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
+- Pesquise no log de auditoria as atividades recentes de arquivos e pastas executadas pelo usuário que é o titular do DSR. Pesquisar o log de auditoria traz uma lista de registros de auditoria que contêm o nome e o local de recursos que o usuário interagiu recentemente.  Você pode usar essas informações para criar uma consulta de pesquisa de conteúdo. Confira [Pesquisar o log de auditoria no Centro de Conformidade e Segurança](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 #### <a name="building-search-queries-to-find-personal-data"></a>Criar consultas de pesquisa para encontrar dados pessoais
 
@@ -167,7 +167,7 @@ A tabela a seguir lista algumas condições que podem ser usadas para limitar o 
 |**Condição**|**Descrição** |**Exemplo de valores de condição**|
 | Tipo de arquivo | A extensão de um documento ou arquivo. Use esta condição para pesquisar documentos e arquivos do Office criados por aplicativos do Office 365. Use essa condição ao pesquisar documentos em sites do SharePoint Online e em contas do OneDrive for Business.<br/>A propriedade do documento correspondente é o tipo de arquivo. <br/>Para obter uma lista completa das extensões de arquivo que podem ser pesquisadas, confira o artigo sobre extensões de nome de arquivo rastreadas e tipos de arquivo analisados padrão no SharePoint](https://technet.microsoft.com/library/jj219530.aspx).|&nbsp;&bull;&nbsp;&nbsp;csv — pesquisa arquivos CSV (valores separados por vírgula); os arquivos do Excel podem ser salvos no formato CSV e o arquivo CSV pode ser importado facilmente no Excel<br><br>&bull;&nbsp;&nbsp;docx —pesquisa arquivos do Word <br><br>&bull;&nbsp;&nbsp;mpp — pesquisa arquivos do Project<br/><br>&bull;&nbsp;&nbsp;one — pesquisa arquivos do OneNote <br><br>&bull;&nbsp;&nbsp;pdf — pesquisa arquivos salvos em um formato PDF <br><br>&bull;&nbsp;&nbsp;pptx — pesquisa arquivos do PowerPoint <br><br>&bull;&nbsp;&nbsp;xlxs — pesquisa arquivos do Excel <br><br>&bull;&nbsp;&nbsp;vsd — pesquisa arquivos do Visio <br><br>&bull;&nbsp;&nbsp;wmv — pesquisa arquivos do Windows Media <br>|
 | Tipo de mensagem | Tipo de mensagem de email para pesquisar. Use esta condição para pesquisar caixas de correio de contatos (Pessoas), tarefas de reuniões (Calendário) ou conversas do Skype for Business. A propriedade de email correspondente é *tipo*.|&bull;&nbsp;&nbsp;*contatos — pesquisa a lista Meus Contatos (Pessoas) de uma caixa de correio <br><br>&bull;&nbsp;&nbsp;* email — pesquisa mensagens de email <br><br>&bull;&nbsp;&nbsp;*im — pesquisa conversas do Skype for Business <br><br>&bull;&nbsp;&nbsp;* reuniões — pesquisa compromissos e solicitações de reunião (Calendário) <br><br>&bull;&nbsp;&nbsp;*tarefas — pesquisa a lista Minhas Tarefas (Tarefas); usar esse valor também retornará tarefas criadas no Microsoft To Do.<br>|
-| Marca de conformidade |O rótulo atribuído a uma mensagem de email ou um documento. Os rótulos são usados para classificar emails e documentos para governança de dados e imposição de regras de retenção com base na classificação definida pelo rótulo. Use essa condição para pesquisar itens que receberam um rótulo automática ou manualmente.<br/>Essa é uma condição útil para investigações de DSR porque sua organização pode estar usando rótulos para classificar conteúdos relacionados à privacidade dos dados ou que contenham dados pessoais ou informações confidenciais. Consulte a seção "Usando a Pesquisa de Conteúdo para encontrar todos os conteúdos com rótulos específicos aplicados" em [Visão geral dos rótulos no Office 365.](https://support.office.com/article/overview-of-labels-af398293-c69d-465e-a249-d74561552d30)|compliancetag="personal data"|
+| Marca de conformidade |O rótulo atribuído a uma mensagem de email ou um documento. Os rótulos são usados para classificar emails e documentos para governança de dados e imposição de regras de retenção com base na classificação definida pelo rótulo. Use essa condição para pesquisar itens que receberam um rótulo automática ou manualmente.<br/>Essa é uma condição útil para investigações de DSR porque sua organização pode estar usando rótulos para classificar conteúdos relacionados à privacidade dos dados ou que contenham dados pessoais ou informações confidenciais. Consulte a seção "Usando a Pesquisa de Conteúdo para encontrar todos os conteúdos com rótulos específicos aplicados" em [Visão geral dos rótulos no Office 365.](https://docs.microsoft.com/microsoft-365/compliance/labels)|compliancetag="personal data"|
 ||||
 
 Há muito mais condições de pesquisa e propriedades de documento ou email que você pode usar para criar consultas de pesquisa mais complexas. Veja a seção a seguir no tópico da Ajuda [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions) para obter mais informações.
@@ -222,23 +222,23 @@ Este exemplo retorna mensagens de email que contêm o número de identificação
 
 #### <a name="working-with-partially-indexed-items-in-content-search"></a>Trabalhar com itens parcialmente indexados na Pesquisa de Conteúdo
 
-Itens parcialmente indexados (também chamados de *itens não indexados*) são itens e documentos da caixa de correio do Exchange Online nos sites do SharePoint Online e OneDrive for Business que, por algum motivo, não foram indexados para pesquisa, o que significa que eles não podem ser pesquisados usando a Pesquisa de Conteúdo. A maioria das mensagens de email e dos documentos de site é indexada com êxito, pois eles se enquadram nos [limites de indexação do Office 365](https://support.office.com/article/limits-for-content-search-in-the-office-365-security-compliance-center-78fe3147-1979-4c41-83bb-aeccf244368d??).  Os motivos pelos quais as mensagens ou arquivos de email não são indexados para pesquisa incluem:
+Itens parcialmente indexados (também chamados de *itens não indexados*) são itens e documentos da caixa de correio do Exchange Online nos sites do SharePoint Online e OneDrive for Business que, por algum motivo, não foram indexados para pesquisa, o que significa que eles não podem ser pesquisados usando a Pesquisa de Conteúdo. A maioria das mensagens de email e dos documentos de site é indexada com êxito, pois eles se enquadram nos [limites de indexação do Office 365](https://docs.microsoft.com/microsoft-365/compliance/limits-for-content-search).  Os motivos pelos quais as mensagens ou arquivos de email não são indexados para pesquisa incluem:
 
-- O tipo de arquivo não é [reconhecido ou não tem suporte para indexação](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b??).  No entanto, às vezes o tipo de arquivo tem suporte para indexação, mas houve um erro de indexação com um arquivo específico.
+- O tipo de arquivo não é [reconhecido ou não tem suporte para indexação](https://docs.microsoft.com/microsoft-365/compliance/partially-indexed-items-in-content-search).  No entanto, às vezes o tipo de arquivo tem suporte para indexação, mas houve um erro de indexação com um arquivo específico.
 - As mensagens de email têm um arquivo anexado sem um manipulador válido, como um arquivo de imagem (essa é a causa mais comum de itens de email parcialmente indexados)
 - Os arquivos anexados às mensagens de email são muito grandes ou há muitos arquivos anexados
 
 É recomendável saber mais sobre itens parcialmente indexados para que você possa trabalhar com eles ao responder às solicitações DSR. Para obter mais informações, confira:
 
-- [Itens parcialmente indexados na Pesquisa de Conteúdo do Office 365](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b??)
-- [Investigar itens parcialmente indexados na Descoberta Eletrônica do Office 365](https://support.office.com/article/investigating-partially-indexed-items-in-office-365-ediscovery-4e8ff113-6361-41e2-915a-6338a7e2a1ed)
-- [Exportar itens não indexados](https://support.office.com/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278#unidexeditems)
+- [Itens parcialmente indexados na Pesquisa de Conteúdo do Office 365](https://docs.microsoft.com/microsoft-365/compliance/partially-indexed-items-in-content-search)
+- [Investigar itens parcialmente indexados na Descoberta Eletrônica do Office 365](https://docs.microsoft.com/microsoft-365/compliance/investigating-partially-indexed-items-in-ediscovery)
+- [Exportar itens não indexados](https://docs.microsoft.com/microsoft-365/compliance/export-search-results#unidexeditems)
 
 #### <a name="tips-for-working-with-partially-indexed-items"></a>Dicas para trabalhar com itens parcialmente indexados
 
 É possível que os dados responsivos a uma investigação de DSR estejam em um item parcialmente indexado. Aqui estão algumas sugestões para trabalhar com itens parcialmente indexados:
 
-- Depois de executar uma pesquisa, o número de itens parcialmente estimados é exibido nas estatísticas de pesquisa.  Essa estimativa não inclui itens parcialmente indexados no SharePoint Online e no OneDrive for Business. Exporte os relatórios para uma Pesquisa de Conteúdo a fim de obter informações sobre itens parcialmente indexados. O relatório **Unindexed Items.csv** contém informações sobre itens não indexados, incluindo o local do item, a URL, se o item estiver no SharePoint Online ou no OneDrive for Business, e a linha do assunto (para mensagens) ou o nome do documento. Para saber mais, confira [Exportar um relatório da Pesquisa de Conteúdo](https://support.office.com/article/Export-a-Content-Search-report-5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9).
+- Depois de executar uma pesquisa, o número de itens parcialmente estimados é exibido nas estatísticas de pesquisa.  Essa estimativa não inclui itens parcialmente indexados no SharePoint Online e no OneDrive for Business. Exporte os relatórios para uma Pesquisa de Conteúdo a fim de obter informações sobre itens parcialmente indexados. O relatório **Unindexed Items.csv** contém informações sobre itens não indexados, incluindo o local do item, a URL, se o item estiver no SharePoint Online ou no OneDrive for Business, e a linha do assunto (para mensagens) ou o nome do documento. Para saber mais, confira [Exportar um relatório da Pesquisa de Conteúdo](https://docs.microsoft.com/microsoft-365/compliance/export-a-content-search-report).
 
 - As estatísticas e a lista de itens parcialmente indexados que são retornadas com os resultados de uma Pesquisa de Conteúdo são todos os itens parcialmente indexados dos locais de conteúdo que são pesquisados.
 
@@ -246,11 +246,11 @@ Itens parcialmente indexados (também chamados de *itens não indexados*) são i
 
 ##### <a name="export-all-partially-indexed-items"></a>Exportar todos os itens parcialmente indexados
 
-Você exporta os resultados de uma pesquisa de conteúdo e os itens parcialmente indexados do local de conteúdo que foi pesquisado. Você também pode exportar somente os itens parcialmente indexados. Em seguida, você pode abri-los em seus aplicativos nativos e analisar o conteúdo. Você deve usar essa opção para exportar itens do SharePoint Online e do OneDrive for Business. Confira [Exportar os resultados da Pesquisa de Conteúdo do Centro de Conformidade e Segurança](https://support.office.com/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278).
+Você exporta os resultados de uma pesquisa de conteúdo e os itens parcialmente indexados do local de conteúdo que foi pesquisado. Você também pode exportar somente os itens parcialmente indexados. Em seguida, você pode abri-los em seus aplicativos nativos e analisar o conteúdo. Você deve usar essa opção para exportar itens do SharePoint Online e do OneDrive for Business. Confira [Exportar os resultados da Pesquisa de Conteúdo do Centro de Conformidade e Segurança](https://docs.microsoft.com/microsoft-365/compliance/export-search-results).
 
 ##### <a name="export-a-specific-set-of-partially-indexed-items-from-mailboxes"></a>Exportar um conjunto específico de itens parcialmente indexados das caixas de correio
 
-Em vez de exportar todos os itens de caixa de correio parcialmente indexados de uma pesquisa, você pode executar novamente uma Pesquisa de Conteúdo para procurar uma lista específica de itens parcialmente indexados e exportá-los. Você só pode fazer isso com itens de caixa de correios. Confira [Preparar um arquivo CSV para uma Pesquisa de Conteúdo direcionada no Office 365](https://support.office.com/article/prepare-a-csv-file-for-a-targeted-content-search-in-office-365-82c97bb4-2b64-4edc-804d-cedbda525d22). 
+Em vez de exportar todos os itens de caixa de correio parcialmente indexados de uma pesquisa, você pode executar novamente uma Pesquisa de Conteúdo para procurar uma lista específica de itens parcialmente indexados e exportá-los. Você só pode fazer isso com itens de caixa de correios. Confira [Preparar um arquivo CSV para uma Pesquisa de Conteúdo direcionada no Office 365](https://docs.microsoft.com/microsoft-365/compliance/csv-file-for-an-id-list-content-search). 
 
 ### <a name="next-steps"></a>Próximas etapas
 
@@ -270,9 +270,9 @@ As seções a seguir descrevem o que você deve ter em mente durante a pesquisa 
 
 Uma pessoa usando o Office Lens (um aplicativo de câmera compatível com dispositivos iOS, Android e Windows) pode fotografar quadros de comunicações, documentos impressos, cartões de visita, entre outras coisas com muito texto. O Office Lens usa tecnologia de reconhecimento óptico de caracteres que extrai o texto em uma imagem e o salva em um documento do Office, como Word, PowerPoint e OneNote ou em um arquivo PDF. Os usuários podem então carregar o arquivo que contém o texto da imagem na respectiva conta do OneDrive for Business no Office 365.  Isso significa que você pode usar a ferramenta Pesquisa de Conteúdo para pesquisar, acessar, excluir e exportar dados em arquivos que foram criados a partir de uma imagem do Office Lens. Para saber mais sobre o Office Lens, confira:
 
-- [Office Lens para iOS](https://support.office.com/article/Office-Lens-for-iOS-fbdca5f4-1b1b-4391-a931-dc1c2582397b)
+- [Office Lens para iOS](https://support.microsoft.com/pt-BR/office/microsoft-office-lens-for-ios-fbdca5f4-1b1b-4391-a931-dc1c2582397b)
 - [Office Lens para Android](https://support.office.com/article/Office-Lens-for-Android-ec124207-0049-4201-afaf-b5874a8e6f2b)
-- [Office Lens para Windows](https://support.office.com/article/Office-Lens-for-Windows-577ec09d-8da2-4029-8bb7-12f8114f472a)
+- [Office Lens para Windows](https://support.microsoft.com/pt-BR/office/office-lens-for-windows-577ec09d-8da2-4029-8bb7-12f8114f472a)
 
 #### <a name="onedrive-for-business-and-sharepoint-online-experience-settings"></a>Configurações de experiência do OneDrive for Business e SharePoint
 
@@ -306,7 +306,7 @@ Um administrador pode acessar e retificar propriedades de perfil no centro de ad
 
 Um administrador pode exportar todas as propriedades de Perfil de Usuário para um usuário usando o cmdlet **Export-SPOUserProfile** no PowerShell do SharePoint Online. Veja [Export-SPOUserProfile](https://docs.microsoft.com/powershell/module/sharepoint-online/export-spouserprofile?view=sharepoint-ps).
 
-Para saber mais sobre perfis de usuário, confira [Gerenciar perfis de usuário no Centro de administração do SharePoint](https://support.office.com/article/Manage-user-profiles-in-the-SharePoint-admin-center-494bec9c-6654-41f0-920f-f7f937ea9723).
+Para saber mais sobre perfis de usuário, confira [Gerenciar perfis de usuário no Centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/manage-user-profiles).
 
 ##### <a name="user-information-list-on-sharepoint-online-sites"></a>Lista de informações do usuário em sites do SharePoint Online
 
@@ -373,13 +373,13 @@ Veja a seguir as diretrizes específicas para pesquisar por um Bloco de Anotaç�
 
 #### <a name="microsoft-to-do"></a>Microsoft To Do
 
-As tarefas (chamadas de *tarefas pendentes*, que são salvas em *listas de tarefas*) no Microsoft To Do são salvas como tarefas na caixa de correio do Exchange Online de um usuário. Isso significa que você pode usar a ferramenta de Pesquisa de Conteúdo para pesquisar, acessar, excluir e exportar tarefas pendentes. Para obter mais informações, consulte [Configurar o Microsoft To Do](https://support.office.com/article/Set-up-Microsoft-To-Do-490c1a8c-2333-4952-8125-841afadb9620).
+As tarefas (chamadas de *tarefas pendentes*, que são salvas em *listas de tarefas*) no Microsoft To Do são salvas como tarefas na caixa de correio do Exchange Online de um usuário. Isso significa que você pode usar a ferramenta de Pesquisa de Conteúdo para pesquisar, acessar, excluir e exportar tarefas pendentes. Para obter mais informações, consulte [Configurar o Microsoft To Do](https://support.microsoft.com/pt-BR/office/set-up-microsoft-to-do-490c1a8c-2333-4952-8125-841afadb9620).
 
 #### <a name="skype-for-business"></a>Skype for Business
 
 Veja algumas informações adicionais sobre como acessar, exibir e exportar dados pessoais no Skype for Business.
 
-- Os arquivos anexados a uma reunião são mantidos na reunião real por 180 dias e depois disso ficam inacessíveis. Esses arquivos podem ser acessados pelos participantes da reunião, ingressando na reunião a partir da solicitação de reunião e visualizando ou baixando o arquivo anexado. Consulte a seção "Usar os anexos na reunião" em [Pré-carregar os anexos de uma reunião do Skype for Business](https://support.office.com/article/preload-attachments-for-a-skype-for-business-meeting-fd3d9f9d-b448-4754-b813-02e49393f251).
+- Os arquivos anexados a uma reunião são mantidos na reunião real por 180 dias e depois disso ficam inacessíveis. Esses arquivos podem ser acessados pelos participantes da reunião, ingressando na reunião a partir da solicitação de reunião e visualizando ou baixando o arquivo anexado. Consulte a seção "Usar os anexos na reunião" em [Pré-carregar os anexos de uma reunião do Skype for Business](https://support.microsoft.com/pt-BR/office/preload-attachments-for-a-skype-for-business-meeting-fd3d9f9d-b448-4754-b813-02e49393f251).
 - As conversas do Skype for Business são mantidas na pasta Histórico da Conversa nas caixas de correio do usuário. Você pode usar a Pesquisa de Conteúdo para pesquisar caixas de correio em busca de dados nas conversas do Skype.
 - Um titular de dados pode exportar seus contatos no Skype for Business. Para isso, ele clica com o botão direito do mouse em um grupo de contatos no Skype for Business e clica em **Copiar**. Em seguida, ele pode colar a lista de endereços de email em um documento do Word ou texto.
 - Se a caixa de correio do Exchange Online de um participante da reunião for colocada em Retenção de Litígio ou atribuída a uma política de retenção do Office 365, os arquivos anexados a uma reunião serão retidos na caixa de correio dos participantes. Você pode usar a Pesquisa de Conteúdo para pesquisar esses arquivos na caixa de correio do participante, se o período de retenção do arquivo não tiver expirado. Para obter mais informações sobre como reter arquivos, confira [Retenção de arquivos grandes anexados a uma reunião do Skype for Business](https://docs.microsoft.com/skypeforbusiness/set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting).
@@ -395,13 +395,13 @@ Ao oferecer uma cópia ao titular dos dados, talvez você tenha que remover ou r
 Existem duas maneiras de usar a ferramenta Pesquisa de Conteúdo para obter uma cópia de um documento ou item da caixa de correio que você encontrou após executar uma pesquisa.
 
 - Visualize os resultados da pesquisa e baixe uma cópia do documento ou item. Essa é uma boa maneira de baixar alguns itens ou arquivos.
-- Exporte os resultados da pesquisa e baixe uma cópia de todos os itens retornados pela pesquisa. Esse método é mais complexo, mas é uma boa maneira de baixar muitos itens que respondam à DSR. Relatórios úteis também são incluídos com os resultados da pesquisa exportados. Você pode usar esses relatórios para obter informações adicionais sobre cada item. O relatório **Results.csv** é útil, pois contém muitas informações sobre os itens exportados, como o local exato do item (por exemplo, a caixa de correio das mensagens de email, ou a URL para documentos ou listas localizados em sites do SharePoint Online e OneDrive for Business).  Essas informações ajudarão a identificar o proprietário do item, caso você precise contatá-lo durante o processo de investigação de DSR. Para saber mais sobre os relatórios que são incluídos na exportação dos resultados da pesquisa, confira [Exportar um relatório de Pesquisa de Conteúdo](https://support.office.com/article/Export-a-Content-Search-report-5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9). 
+- Exporte os resultados da pesquisa e baixe uma cópia de todos os itens retornados pela pesquisa. Esse método é mais complexo, mas é uma boa maneira de baixar muitos itens que respondam à DSR. Relatórios úteis também são incluídos com os resultados da pesquisa exportados. Você pode usar esses relatórios para obter informações adicionais sobre cada item. O relatório **Results.csv** é útil, pois contém muitas informações sobre os itens exportados, como o local exato do item (por exemplo, a caixa de correio das mensagens de email, ou a URL para documentos ou listas localizados em sites do SharePoint Online e OneDrive for Business).  Essas informações ajudarão a identificar o proprietário do item, caso você precise contatá-lo durante o processo de investigação de DSR. Para saber mais sobre os relatórios que são incluídos na exportação dos resultados da pesquisa, confira [Exportar um relatório de Pesquisa de Conteúdo](https://docs.microsoft.com/microsoft-365/compliance/export-a-content-search-report). 
 
 #### <a name="preview-and-download-items"></a>Visualizar e baixar itens
 
 Depois de executar uma nova pesquisa ou abrir uma pesquisa existente, é possível visualizar cada item que correspondeu à consulta de pesquisa a fim de verificar se ele está relacionado à DSR que você está investigando. Isso também inclui listas e páginas da Web do SharePoint que são retornadas nos resultados da pesquisa. Também é possível baixar o arquivo original se você tiver que fornecê-lo ao titular dos dados.  Em ambos os casos, você faz uma captura a tela para atender à solicitação do titular dos dados de obter as informações.
 
-Alguns tipos de itens não podem ser visualizados. Se um tipo de item ou arquivo não tiver suporte para visualização, existe a opção de baixar um item individual para o seu computador local, ou uma unidade de rede mapeada, ou outro local de rede. Você pode visualizar apenas [tipos de arquivo com suporte](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4).
+Alguns tipos de itens não podem ser visualizados. Se um tipo de item ou arquivo não tiver suporte para visualização, existe a opção de baixar um item individual para o seu computador local, ou uma unidade de rede mapeada, ou outro local de rede. Você pode visualizar apenas [tipos de arquivo com suporte](https://docs.microsoft.com/microsoft-365/compliance/content-search).
 
 Para visualizar e baixar itens:
 
@@ -410,7 +410,7 @@ Para visualizar e baixar itens:
 3. Clique em um item para exibi-lo.
 4. Clique em **Baixar arquivo original** para baixar o item no seu computador local. Você também terá que baixar itens que não podem ser visualizados.
 
-Para obter mais informações sobre como visualizar resultados da pesquisa, confira [Visualizar resultados da pesquisa](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4).
+Para obter mais informações sobre como visualizar resultados da pesquisa, confira [Visualizar resultados da pesquisa](https://docs.microsoft.com/microsoft-365/compliance/content-search).
 
 #### <a name="export-and-download-items"></a>Exportar e baixar itens
 
@@ -449,7 +449,7 @@ Para exportar e baixar itens:
 
 Quando o processo de exportação estiver concluído, você poderá acessar os arquivos no seu computador local onde eles foram baixados. Os resultados de uma pesquisa de conteúdo são baixados em uma pasta nomeada após a Pesquisa de Conteúdo. Os documentos de sites são copiados em uma subpasta chamada **SharePoint**. Os itens de caixa de correio são copiados na subpasta chamada **Exchange**.
 
-Para ver instruções passo a passo detalhadas, confira [Exportar resultados da Pesquisa de Conteúdo do Centro de Conformidade e Segurança](https://support.office.com/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278).
+Para ver instruções passo a passo detalhadas, confira [Exportar resultados da Pesquisa de Conteúdo do Centro de Conformidade e Segurança](https://docs.microsoft.com/microsoft-365/compliance/export-search-results).
 
 ### <a name="downloading-documents-and-lists-from-sharepoint-online-and-onedrive-for-business"></a>Baixar documentos e listas do SharePoint Online e OneDrive for Business
 
@@ -460,7 +460,7 @@ Outra maneira de exportar dados do SharePoint Online e OneDrive for Business é 
 
 Para algumas solicitações de exportação de DSR, pode ser conveniente permitir que o próprio titular dos dados baixe o conteúdo. Isso permite que ele acesse o site ou a pasta compartilhada do SharePoint Online e clique em **Sincronizar** para sincronizar todo o conteúdo na biblioteca de documentos ou nas pastas selecionadas. Consulte:
 
-- [Permitir que os usuários sincronizem arquivos do SharePoint com o novo cliente de sincronização do OneDrive](https://support.office.com/article/Enable-users-to-sync-SharePoint-files-with-the-new-OneDrive-sync-client-22e1f635-fb89-49e0-a176-edab26f69614)
+- [Permitir que os usuários sincronizem arquivos do SharePoint com o novo cliente de sincronização do OneDrive](https://docs.microsoft.com/sharepoint/let-users-use-new-onedrive-sync-client)
 - [Sincronizar arquivos do SharePoint com o novo cliente de sincronização do OneDrive](https://support.office.com/article/sync-sharepoint-files-with-the-new-onedrive-sync-client-6de9ede8-5b6e-4503-80b2-6190f3354a88)
 
 ## <a name="deleting-personal-data"></a>Excluir dados pessoais
@@ -496,12 +496,12 @@ Veja a seguir o processo detalhado para excluir documentos de sites.
 
 Confira os tópicos a seguir para ver os procedimentos detalhados.
 
-- [Excluir um arquivo, pasta ou link de uma biblioteca de documentos do SharePoint](https://support.office.com/article/Delete-a-file-folder-or-link-from-a-SharePoint-document-library-71f3c90a-0d24-4d80-8b66-f88234b79a52#ID0EAADAAA=Online)
-- [Excluir itens ou esvaziar a Lixeira de um site do SharePoint](https://support.office.com/article/delete-items-or-empty-the-recycle-bin-of-a-sharepoint-site-2e713599-d13e-40d6-96dc-66f0a366f74e#ID0EAADAAA=Online)
-- [Excluir itens da Lixeira do conjunto de sites](https://support.office.com/article/Delete-items-from-the-site-collection-Recycle-Bin-dd5c00c2-aef6-4458-9d04-80b185077653#ID0EAADAAA=Online)
-- Seção "Obter acesso aos documentos de OneDrive for Business do ex-funcionário" em [Obter acesso e fazer backup dos dados de um usuário antigo](https://support.office.com/article/get-access-to-and-back-up-a-former-user-s-data-a6f7f9ad-e3f5-43de-ade5-e5a0d7531604)
+- [Excluir um arquivo, pasta ou link de uma biblioteca de documentos do SharePoint](https://support.microsoft.com/pt-BR/office/delete-a-file-folder-or-link-from-a-sharepoint-document-library-71f3c90a-0d24-4d80-8b66-f88234b79a52)
+- [Excluir itens ou esvaziar a Lixeira de um site do SharePoint](https://support.microsoft.com/pt-BR/office/delete-items-or-empty-the-recycle-bin-of-a-sharepoint-site-2e713599-d13e-40d6-96dc-66f0a366f74e)
+- [Excluir itens da Lixeira do conjunto de sites](https://support.microsoft.com/pt-BR/office/delete-items-from-the-site-collection-recycle-bin-dd5c00c2-aef6-4458-9d04-80b185077653)
+- Seção "Obter acesso aos documentos de OneDrive for Business do ex-funcionário" em [Obter acesso e fazer backup dos dados de um usuário antigo](https://docs.microsoft.com/microsoft-365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data)
 - [Excluir arquivos ou pastas no OneDrive for Business](https://support.office.com/article/Delete-files-or-folders-in-OneDrive-21fe345a-e488-4fa7-932b-f053c1bebe8a)
-- [Excluir uma lista no SharePoint](https://support.office.com/article/delete-a-list-in-sharepoint-2a7bca5b-b8fd-4e5b-8f4b-2ac034f3070d#ID0EAADAAA=Online)
+- [Excluir uma lista no SharePoint](https://support.microsoft.com/pt-BR/office/delete-a-list-in-sharepoint-2a7bca5b-b8fd-4e5b-8f4b-2ac034f3070d)
 - [Excluir itens de lista no SharePoint Online](https://support.office.com/article/delete-list-items-in-sharepoint-online-db722233-4a38-4889-a6cf-4b33fe5c60c0)
 
 ### <a name="deleting-a-sharepoint-site"></a>Excluir um site do SharePoint
@@ -556,7 +556,7 @@ Veja a seguir uma visão geral rápida desse processo:
 1. Crie e execute uma Pesquisa de Conteúdo para encontrar os itens que deseja excluir da caixa de correio do usuário. Talvez você tenha que executar novamente a pesquisa a fim de limitar os resultados para que apenas os itens que você deseja excluir sejam retornados.
 2. Use o comando **New-ComplianceSearchAction** **-Purge** no PowerShell do Office 365 para excluir temporariamente os itens que são retornados pela Pesquisa de Conteúdo que foi criada na etapa anterior.
 
-Para obter instruções detalhadas, confira [Pesquisar e excluir mensagens de email em sua organização](https://support.office.com/article/Search-for-and-delete-email-messages-in-your-Office-365-organization-Admin-Help-3526fd06-b45f-445b-aed4-5ebd37b3762a).
+Para obter instruções detalhadas, confira [Pesquisar e excluir mensagens de email em sua organização](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization).
 
 #### <a name="hard-delete-mailbox-items"></a>Exclusão irreversível dos Itens de caixa de correio
 
@@ -568,7 +568,7 @@ Para obter instruções detalhadas, confira [Pesquisar e excluir mensagens](http
 
 Conforme explicado anteriormente, se você excluir irreversivelmente itens de uma caixa de correio em retenção, os itens não serão removidos da caixa de correio. Eles serão movidos para uma pasta oculta na pasta Itens Recuperáveis (a pasta **Limpezas**) e permanecerão nela até que o tempo de retenção do item expire ou até que a retenção seja removida da caixa de correio. Quando isso acontecer, os itens serão limpos do Office 365 na próxima vez que a caixa de correio for processada.
 
-Sua organização pode determinar que os itens que forem excluídos permanentemente quando o período de retenção expirar atendam aos requisitos de uma solicitação de exclusão de DSR. No entanto, se você determinar que os itens de caixa de correio devem ser imediatamente limpos do Office 365, será preciso remover a retenção da caixa de correio e, em seguida, excluir irreversivelmente os itens da caixa de correio. Para obter instruções detalhadas, confira [Excluir itens da pasta Itens recuperáveis das caixas de correio baseadas em nuvem em retenção](https://support.office.com/article/Delete-items-in-the-Recoverable-Items-folder-of-cloud-based-mailboxes-on-hold-Admin-Help-a85e1c87-a48e-4715-bfa9-d5275cde67b0).
+Sua organização pode determinar que os itens que forem excluídos permanentemente quando o período de retenção expirar atendam aos requisitos de uma solicitação de exclusão de DSR. No entanto, se você determinar que os itens de caixa de correio devem ser imediatamente limpos do Office 365, será preciso remover a retenção da caixa de correio e, em seguida, excluir irreversivelmente os itens da caixa de correio. Para obter instruções detalhadas, confira [Excluir itens da pasta Itens recuperáveis das caixas de correio baseadas em nuvem em retenção](https://docs.microsoft.com/microsoft-365/compliance/delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold).
 
 >[!NOTE]
 >Para excluir irreversivelmente os itens de caixa de correio a fim de atender a uma solicitação de exclusão de DSR seguindo o procedimento no tópico anterior, você pode ter que excluir temporariamente esses itens enquanto a caixa de correio ainda estiver em retenção para que eles sejam movidos para a pasta Itens Recuperáveis.
@@ -603,7 +603,7 @@ Veja a seguir o processo detalhado para excluir um usuário da sua organização
 
 1. Vá para o centro de administração ou portal do Azure e localize o usuário.
 
-2. Exclua o usuário. Quando você inicialmente exclui o usuário, a conta do usuário é enviada para a Lixeira. Nesse ponto, o usuário é excluído temporariamente. Na exclusão temporária, a conta é retida por 30 dias, o que permite restaurá-la. Após 30 dias, a conta é excluída de modo irreversível automaticamente. Para obter instruções específicas, confira [Excluir usuários do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/add-users-azure-active-directory).<br><br> Você também pode excluir temporariamente uma conta no centro de administração. Confira [Excluir um usuário da sua organização](https://support.office.com/article/Delete-a-user-from-your-organization-D5155593-3BAC-4D8D-9D8B-F4513A81479E). 
+2. Exclua o usuário. Quando você inicialmente exclui o usuário, a conta do usuário é enviada para a Lixeira. Nesse ponto, o usuário é excluído temporariamente. Na exclusão temporária, a conta é retida por 30 dias, o que permite restaurá-la. Após 30 dias, a conta é excluída de modo irreversível automaticamente. Para obter instruções específicas, confira [Excluir usuários do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/add-users-azure-active-directory).<br><br> Você também pode excluir temporariamente uma conta no centro de administração. Confira [Excluir um usuário da sua organização](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user). 
 
 3. Se não desejar aguardar 30 das para que a conta de usuário seja excluída irreversivelmente, você pode fazer essa exclusão irreversível de modo manual. Para fazer isso no portal do Azure, vá até a lista de usuários excluídos recentemente e exclua o usuário permanentemente. Nesse ponto, o usuário é excluído irreversivelmente. Para obter instruções, confira [Como excluir permanentemente um usuário excluído recentemente](https://docs.microsoft.com/azure/active-directory/active-directory-users-restore). 
 
@@ -645,7 +645,7 @@ As seções a seguir explicam como usar a funcionalidade no aplicativo do Micros
 
 Há várias maneiras de pesquisar registros em um banco de dados do Access que podem estar respondendo a uma solicitação de DSR. Para uma investigação de DSR, você pode procurar registros relacionados ao titular dos dados ou procurar registros que contêm dados específicos. Por exemplo, você pode pesquisar ou acessar um registro que corresponde ao titular dos dados. Ou então, pode procurar registros que contêm dados específicos, como dados pessoais sobre o titular dos dados. Para saber mais, confira:
 
-- [Localizar registros em um banco de dados do Access](https://support.office.com/article/find-records-in-an-access-database-705220b7-0255-4ef9-9349-6bd7442d1b7e) 
+- [Localizar registros em um banco de dados do Access](https://support.microsoft.com/pt-BR/office/find-records-in-an-access-database-705220b7-0255-4ef9-9349-6bd7442d1b7e) 
 - [Criar uma consulta de seleção simples](https://support.office.com/article/create-a-simple-select-query-de8b1c8d-14e9-4b25-8e22-70888d54de59)
 
 ##### <a name="access"></a>Access
@@ -654,18 +654,18 @@ Depois de localizar registros ou campos que são relevantes para a solicitação
 
 - [Introdução aos relatórios no Access](https://support.office.com/article/introduction-to-reports-in-access-e0869f59-7536-4d19-8e05-7158dcd3681c)
 - [Exportar dados para o Excel](https://support.office.com/article/export-data-to-excel-64e974e6-ae43-4301-a53e-20463655b1a9)
-- [Exportar dados para um documento do Word](https://support.office.com/article/export-access-data-to-a-word-document-6e954c8e-2243-4cb9-8544-607e5b7bfc12)
-- [Exportar dados para um arquivo de texto](https://support.office.com/article/export-data-to-a-text-file-f72dfc38-a8a0-4c5b-8c2c-bf2950814140)
+- [Exportar dados para um documento do Word](https://support.microsoft.com/pt-BR/office/export-access-data-to-a-word-document-6e954c8e-2243-4cb9-8544-607e5b7bfc12)
+- [Exportar dados para um arquivo de texto](https://support.microsoft.com/pt-BR/office/export-data-to-a-text-file-f72dfc38-a8a0-4c5b-8c2c-bf2950814140)
 
 ##### <a name="export"></a>Exportar
 
-Como explicado anteriormente, você pode exportar dados de um banco de dados do Access para formatos de arquivos diferentes. O formato de arquivos que você escolhe para a exportação pode ser determinado pela solicitação de DSR específica de um titular de dados. Confira [Importar e exportar](https://support.office.com/article/import-and-export-c060505b-d8ac-4499-8879-733e56c6106f) para obter uma lista de tópicos que descrevem como exportar dados do Access para diferentes formatos de arquivo.
+Como explicado anteriormente, você pode exportar dados de um banco de dados do Access para formatos de arquivos diferentes. O formato de arquivos que você escolhe para a exportação pode ser determinado pela solicitação de DSR específica de um titular de dados. Confira [Importar e exportar](https://support.microsoft.com/pt-BR/office/import-and-export-c060505b-d8ac-4499-8879-733e56c6106f) para obter uma lista de tópicos que descrevem como exportar dados do Access para diferentes formatos de arquivo.
 
 ##### <a name="delete"></a>Excluir
 
 Você pode excluir um registro inteiro ou apenas um campo de um banco de dados do Access. A maneira mais rápida de excluir um registro de um banco de dados do Access é abrir a tabela no modo Folha de dados, selecionar o registro (linha) ou apenas os dados em um campo que você deseja excluir e pressionar Excluir. Você também pode usar uma consulta de seleção que criou para localizar dados e convertê-la em uma consulta de exclusão.  Confira:
 
-- [Excluir um ou mais registros de um banco de dados](https://support.office.com/article/delete-one-or-more-records-from-a-database-002b850d-1efa-473d-9297-0994ce46c66a)
+- [Excluir um ou mais registros de um banco de dados](https://support.office.com/article/ways-to-add-edit-and-delete-records-5e90a80c-106d-4c55-996e-07d7200980ce)
 - [Criar e executar uma consulta exclusão](https://support.office.com/article/create-and-run-a-delete-query-6da65fe1-0fc7-4a64-8ef0-c052cd4c3ec5)
 
 ### <a name="business-apps-for-office-365"></a>Aplicativos para empresas do Office 365
@@ -914,7 +914,7 @@ A capacidade de um administrador de adicionar a si mesmo como um proprietário d
 
 - Licença de Plano 2 do Flow/PowerApps (paga ou versão de avaliação)
 
-- [Administrador global\ ](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504)
+- [Administrador global\ ](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles)
 
     ou
 
@@ -974,11 +974,11 @@ Os usuários do Forms podem acessar <https://forms.office.com> e selecionar **Me
 
 #### <a name="access"></a>Acessar
 
-Depois que os formulários relevantes forem encontrados, você poderá acessar as respostas ao formulário clicando na guia **Respostas**. Saiba mais sobre como [verificar os resultados do seu teste](https://support.office.com/article/c4a9b45c-d62f-4eb7-b5db-ad81892c7c07) ou [resultados do formulário](https://support.office.com/article/02859424-341d-406f-b32a-9a0fbaf357af).  Para revisar os resultados da resposta no Excel, selecione a guia **Respostas** e clique em **Abrir no Excel**.  Se você deseja enviar ao Titular dos Dados uma cópia do formulário, será possível fazer capturas de tela das perguntas e respostas relevantes que são mostradas no aplicativo em formato rich text ou enviar ao Titular dos Dados uma cópia dos resultados em Excel.  Se estiver usando o Excel e desejar compartilhar com o Titular dos Dados apenas as partes do resultado da pesquisa, você poderá excluir determinadas linhas ou colunas, ou redigir as seções restantes antes de compartilhar os resultados.  Como alternativa, você pode ir para **Compartilhar \> Obter um link para duplicar** (em Compartilhar como um modelo) para fornecer ao Titular dos Dados uma réplica do formulário inteiro.
+Depois que os formulários relevantes forem encontrados, você poderá acessar as respostas ao formulário clicando na guia **Respostas**. Saiba mais sobre como [verificar os resultados do seu teste](https://support.microsoft.com/pt-BR/office/check-and-share-your-quiz-results-c4a9b45c-d62f-4eb7-b5db-ad81892c7c07) ou [resultados do formulário](https://support.office.com/article/02859424-341d-406f-b32a-9a0fbaf357af).  Para revisar os resultados da resposta no Excel, selecione a guia **Respostas** e clique em **Abrir no Excel**.  Se você deseja enviar ao Titular dos Dados uma cópia do formulário, será possível fazer capturas de tela das perguntas e respostas relevantes que são mostradas no aplicativo em formato rich text ou enviar ao Titular dos Dados uma cópia dos resultados em Excel.  Se estiver usando o Excel e desejar compartilhar com o Titular dos Dados apenas as partes do resultado da pesquisa, você poderá excluir determinadas linhas ou colunas, ou redigir as seções restantes antes de compartilhar os resultados.  Como alternativa, você pode ir para **Compartilhar \> Obter um link para duplicar** (em Compartilhar como um modelo) para fornecer ao Titular dos Dados uma réplica do formulário inteiro.
 
 #### <a name="delete"></a>Excluir
 
-Qualquer pesquisa, teste, questionário ou sondagem pode ser excluído permanentemente por seu proprietário. Se desejar exercer o direito "esqueça-me" da DSR e excluir um formulário por inteiro, encontre o formulário na lista de formulários, selecione a série de pontos (reticências) no canto superior direito da janela de visualização do formulário e clique em **Excluir**. Depois que um formulário for excluído, ele não poderá ser recuperado. Para obter informações, confira [Excluir um formulário](https://support.office.com/article/delete-a-form-2207e468-ce1b-4c4a-a256-caf631d87af0).
+Qualquer pesquisa, teste, questionário ou sondagem pode ser excluído permanentemente por seu proprietário. Se desejar exercer o direito "esqueça-me" da DSR e excluir um formulário por inteiro, encontre o formulário na lista de formulários, selecione a série de pontos (reticências) no canto superior direito da janela de visualização do formulário e clique em **Excluir**. Depois que um formulário for excluído, ele não poderá ser recuperado. Para obter informações, confira [Excluir um formulário](https://support.microsoft.com/pt-BR/office/delete-a-form-2207e468-ce1b-4c4a-a256-caf631d87af0).
 
 #### <a name="export"></a>Exportar
 
@@ -1017,8 +1017,8 @@ Os usuários do Kaizala podem usar seu dispositivo móvel para ver o conteúdo d
 
 Quando os usuários em sua organização usam o Kaizala, dados de clientes são gerados e dados organizacionais podem ser gerados se o usuário faz parte de um grupo da organização. Os administradores podem exportar dados organizacionais do usuário por meio do portal de gerenciamento do Kaizala. Os usuários do Kaizala podem exportar seus dados privados do aplicativo móvel do Kaizala. Em ambos os casos, observe que os dados de uso de produtos e serviços também são exportados quando um administrador ou usuário exporta dados do Kaizala. Para saber mais, confira:
 
-- [Exportar ou excluir dados organizacionais do usuário no Kaizala](https://support.office.com/article/export-or-delete-a-user-s-organizational-data-in-kaizala-150ec214-a070-4e8a-8509-82f46d84bbb6)
-- [Exportar ou excluir seus dados no aplicativo móvel Kaizala](https://support.office.com/article/export-or-delete-your-data-in-the-kaizala-mobile-app-65f83dbc-4f10-4644-9b2d-9945c967684e)
+- [Exportar ou excluir dados organizacionais do usuário no Kaizala](https://docs.microsoft.com/office365/kaizala/export-or-delete-a-user-s-data)
+- [Exportar ou excluir seus dados no aplicativo móvel Kaizala](https://docs.microsoft.com/office365/kaizala/export-or-delete-your-data)
 
 #### <a name="delete"></a>Excluir
 
@@ -1028,8 +1028,8 @@ Para remover todos os dados privados do dispositivo móvel do usuário, o usuár
 
 Veja mais detalhes em:
 
-- [Exportar ou excluir dados organizacionais do usuário no Kaizala](https://support.office.com/article/export-or-delete-a-user-s-organizational-data-in-kaizala-150ec214-a070-4e8a-8509-82f46d84bbb6)
-- [Exportar ou excluir seus dados no aplicativo móvel Kaizala](https://support.office.com/article/export-or-delete-your-data-in-the-kaizala-mobile-app-65f83dbc-4f10-4644-9b2d-9945c967684e)
+- [Exportar ou excluir dados organizacionais do usuário no Kaizala](https://docs.microsoft.com/office365/kaizala/export-or-delete-a-user-s-data)
+- [Exportar ou excluir seus dados no aplicativo móvel Kaizala](https://docs.microsoft.com/office365/kaizala/export-or-delete-your-data)
 
 ### <a name="planner"></a>Planner
 
@@ -1037,7 +1037,7 @@ As seções a seguir explicam como usar a funcionalidade no aplicativo do Micros
 
 #### <a name="discover"></a>Descobrir
 
-Os planos do Planner são associados a um Grupo do Microsoft 365 e os arquivos desse grupo são armazenados em um site do SharePoint Online associado do grupo. Isso significa que você pode usar a Pesquisa de Conteúdo para encontrar arquivos do Planner pesquisando o site do Grupo do Microsoft 365. Para isso, você precisa ter a URL do Grupo do Microsoft 365. Confira [Pesquisar Grupos do Microsoft 365 e Microsoft Teams](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) no tópico de ajuda “Pesquisa de Conteúdo no Microsoft 365” para ver dicas de como obter informações sobre os Grupos do Office 365 que ajudem a pesquisar arquivos do Planner no site do SharePoint Online correspondente.
+Os planos do Planner são associados a um Grupo do Microsoft 365 e os arquivos desse grupo são armazenados em um site do SharePoint Online associado do grupo. Isso significa que você pode usar a Pesquisa de Conteúdo para encontrar arquivos do Planner pesquisando o site do Grupo do Microsoft 365. Para isso, você precisa ter a URL do Grupo do Microsoft 365. Confira [Pesquisar Grupos do Microsoft 365 e Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/content-search) no tópico de ajuda “Pesquisa de Conteúdo no Microsoft 365” para ver dicas de como obter informações sobre os Grupos do Office 365 que ajudem a pesquisar arquivos do Planner no site do SharePoint Online correspondente.
 
 #### <a name="access"></a>Acessar
 
@@ -1088,7 +1088,7 @@ O PowerApps é um serviço para criar aplicativos que podem ser compartilhados e
 Para ajudar a facilitar uma solicitação DSR relacionada ao PowerApps, você pode usar as operações de administração expostas no [Centro de Administração do PowerApps](https://admin.powerapps.com/) e [cmdlets do PowerShell de Administração do PowerApps](https://go.microsoft.com/fwlink/?linkid=871804).  Acessar estas ferramentas exigirá uma conta com as seguintes permissões:
 
 - Uma licença paga de Plano 2 do PowerApps ou uma licença de avaliação de Plano 2 do PowerApps. Você pode assinar uma licença de avaliação de avaliação de 30 dias [aqui](https://web.powerapps.com/trial). 
-- [Administrador global](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) ou
+- [Administrador global](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) ou
 - [Administrador global do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal)
 
 Para obter mais informações sobre como encontrar dados pessoais, confira [Descobrir dados pessoais do PowerApps](https://go.microsoft.com/fwlink/?linkid=871880).
@@ -1152,15 +1152,15 @@ Você pode usar o recurso de pesquisa no aplicativo para localizar um texto em u
 
 Depois de encontrar os dados, você pode fazer uma captura de tela ou copiar e colar em um arquivo de Word ou de texto e fornecer isso à entidade de dados. Você também pode salvar uma publicação como um arquivo PDF, XPS ou Word. Confira:
 
-  - [Salvar uma publicação como um documento do Word](https://support.office.com/article/save-a-publication-as-a-word-document-b5eaaae5-6f1b-48c1-bebc-44460376b693)
-  - [Salvar Como ou converter uma publicação para .pdf ou .xps usando o Publisher](https://support.office.com/article/657332d0-d2c2-464a-9870-e9b3d22e6469)
+  - [Salvar uma publicação como um documento do Word](https://support.microsoft.com/pt-BR/office/save-a-publication-as-a-word-document-b5eaaae5-6f1b-48c1-bebc-44460376b693)
+  - [Salvar Como ou converter uma publicação para .pdf ou .xps usando o Publisher](https://support.microsoft.com/pt-BR/office/save-as-or-convert-a-publication-to-pdf-or-xps-using-publisher-657332d0-d2c2-464a-9870-e9b3d22e6469)
 
 #### <a name="export"></a>Exportar
 
 Você pode fornecer uma entidade de dados com o arquivo do Publisher real ou como já explicado, você pode salvar uma publicação como um arquivo PDF, XPS ou Word. Confira:
 
-  - [Salvar uma publicação como um documento do Word](https://support.office.com/article/save-a-publication-as-a-word-document-b5eaaae5-6f1b-48c1-bebc-44460376b693)
-  - [Salvar Como ou converter uma publicação para .pdf ou .xps usando o Publisher](https://support.office.com/article/657332d0-d2c2-464a-9870-e9b3d22e6469)
+  - [Salvar uma publicação como um documento do Word](https://support.microsoft.com/pt-BR/office/save-a-publication-as-a-word-document-b5eaaae5-6f1b-48c1-bebc-44460376b693)
+  - [Salvar Como ou converter uma publicação para .pdf ou .xps usando o Publisher](https://support.microsoft.com/pt-BR/office/save-as-or-convert-a-publication-to-pdf-or-xps-using-publisher-657332d0-d2c2-464a-9870-e9b3d22e6469)
 
 #### <a name="delete"></a>Excluir
 
@@ -1223,7 +1223,7 @@ Os arquivos de quadro de comunicações (.wbx) são armazenados na conta do OneD
 
 Para acessar e transferir quadros de comunicações: 
 
-1. Dê a si mesmo acesso à conta do OneDrive for Business do usuário. Veja a seção "Obter acesso aos documentos do OneDrive for Business do ex-funcionário" em [Obter acesso e fazer backup dos dados de um ex-usuário](https://support.office.com/article/get-access-to-and-back-up-a-former-user-s-data-a6f7f9ad-e3f5-43de-ade5-e5a0d7531604).
+1. Dê a si mesmo acesso à conta do OneDrive for Business do usuário. Veja a seção "Obter acesso aos documentos do OneDrive for Business do ex-funcionário" em [Obter acesso e fazer backup dos dados de um ex-usuário](https://docs.microsoft.com/microsoft-365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data).
 2. Vá para a pasta Dados do Aplicativo do quadro de comunicações na conta do OneDrive for Business do usuário e copie os arquivos .wbx dos quadros de comunicações que você deseja transferir.
 3. Dê a si mesmo acesso à conta do OneDrive for Business do titular de dados e acesse a pasta Dados de Aplicativos do Quadro de Comunicações.
 4. Cole os arquivos .wbx que você copiou na etapa anterior.
@@ -1247,7 +1247,7 @@ Se você tiver obtido uma cópia de um quadro de comunicações, poderá export�
 
 Você pode dar a si mesmo acesso à conta do OneDrive for Business do usuário e excluir os quadros de comunicações.
 
-1. Dê a si mesmo acesso à conta do OneDrive for Business do titular de dados. Veja a seção "Obter acesso aos documentos de OneDrive for Business do ex-funcionário" em [Obter acesso e fazer backup dos dados de um ex-usuário](https://support.office.com/article/get-access-to-and-back-up-a-former-user-s-data-a6f7f9ad-e3f5-43de-ade5-e5a0d7531604)
+1. Dê a si mesmo acesso à conta do OneDrive for Business do titular de dados. Veja a seção "Obter acesso aos documentos de OneDrive for Business do ex-funcionário" em [Obter acesso e fazer backup dos dados de um ex-usuário](https://docs.microsoft.com/microsoft-365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data)
 2. Vá para a pasta Dados de Aplicativos do Whiteboard e exclua o conteúdo dessa pasta.
 
 #### <a name="whiteboard-for-pc-surface-hub-and-other-platforms"></a>Whiteboard para PC, Surface Hub e outras plataformas
@@ -1421,7 +1421,7 @@ Conforme explicado anteriormente, as licenças para todos os aplicativos do Offi
 
 ### <a name="preventing-users-from-accessing-their-onedrive-for-business-account"></a>Impedir os usuários de acessar a respectiva conta do OneDrive for Business
 
-A remoção da licença do SharePoint Online de um usuário não o impedirá de acessar a respectiva conta do OneDrive for Business se ela existir.  É preciso remover as permissões do usuário para a respectiva conta do OneDrive for Business.  Você pode fazer isso removendo o usuário como um proprietário do conjunto de sites de sua conta do OneDrive for Business. Especificamente, é preciso remover o usuário dos grupos Administradores de Conjunto de Sites em seu perfil de usuário. Confira a seção “Adicionar e remover administradores em uma conta do OneDrive for Business” em [Gerenciar perfis de usuário no Centro de Administração do SharePoint](https://support.office.com/article/Manage-user-profiles-in-the-SharePoint-admin-center-494bec9c-6654-41f0-920f-f7f937ea9723). 
+A remoção da licença do SharePoint Online de um usuário não o impedirá de acessar a respectiva conta do OneDrive for Business se ela existir.  É preciso remover as permissões do usuário para a respectiva conta do OneDrive for Business.  Você pode fazer isso removendo o usuário como um proprietário do conjunto de sites de sua conta do OneDrive for Business. Especificamente, é preciso remover o usuário dos grupos Administradores de Conjunto de Sites em seu perfil de usuário. Confira a seção “Adicionar e remover administradores em uma conta do OneDrive for Business” em [Gerenciar perfis de usuário no Centro de Administração do SharePoint](https://docs.microsoft.com/sharepoint/manage-user-profiles). 
 
 ### <a name="turning-off-an-office-365-service"></a>Desativar um serviço do Office 365
 

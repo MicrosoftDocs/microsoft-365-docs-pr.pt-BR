@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing avançadas disponíveis em organizações com a proteção avançada contra ameaças do Office 365 (Office 365 ATP).
-ms.openlocfilehash: efecd830db7ed10210605e31aa0ded2599de1b72
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 5b67fe1a39f577209d1f10688215722a67d5546a
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208882"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213455"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>Configurar políticas anti-phishing ATP
 
@@ -31,7 +31,7 @@ Você pode configurar as políticas de anti-phishing do ATP no centro de conform
 
 Para obter informações sobre como configurar o mais limitado em políticas anti-phishing que estão disponíveis em organizações do Exchange Online Protection (ou seja, Microsoft 365, organizações sem o Office 365 ATP), consulte [Configure anti-phishing Policies in EOP](configure-anti-phishing-policies-eop.md).
 
-## <a name="atp-anti-phishing-policies-in-the-security--compliance-center-vs-exchange-online-powershell"></a>Políticas de anti-phishing do ATP no centro de conformidade e segurança & vs do Exchange Online PowerShell
+## <a name="atp-anti-phishing-policies-in-the-security--compliance-center-vs-powershell"></a>Políticas de anti-phishing do ATP no centro de conformidade e segurança & vs PowerShell
 
 Os elementos básicos de uma política anti-phishing do ATP são:
 

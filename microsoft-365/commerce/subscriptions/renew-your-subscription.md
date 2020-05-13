@@ -8,7 +8,7 @@ manager: mnirkhe
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: 'Saiba como renovar sua assinatura do Microsoft 365 para empresas usando uma chave do produto e ative ou desative as cobranças recorrentes. '
-ms.openlocfilehash: 7bcd0fcc9d3984589ff7c05ec2c1b95afad22c29
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 992a3c2cb100f9153cae5cbd681f6f789a361935
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141073"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208423"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Renove o Microsoft 365 para empresas
 
