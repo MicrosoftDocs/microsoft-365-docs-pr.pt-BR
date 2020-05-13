@@ -247,15 +247,15 @@
       items:
         - name: Visão geral do arquivamento de dados de terceiros
           href: archiving-third-party-data.md
-        - name: Configurar um conector para arquivar dados do Facebook
+        - name: Arquivar dados do Facebook (visualização)
           href: archive-facebook-data-with-sample-connector.md
-        - name: Configurar um conector para arquivar dados do Twitter
+        - name: Arquivar dados do Twitter (visualização)
           href: archive-twitter-data-with-sample-connector.md
-        - name: Configurar um conector para arquivar dados do LinkedIn
+        - name: Arquivar dados do LinkedIn
           href: archive-linkedin-data.md
-        - name: Configurar um conector para arquivar dados do Instant Bloomberg
+        - name: Arquivar dados Instantâneos do Bloomberg
           href: archive-instant-bloomberg-data.md
-        - name: Configurar um conector para importar dados de RH
+        - name: Importar dados de RH (visualização)
           href: import-hr-data.md
         - name: Trabalhar com um parceiro para arquivar dados de terceiros
           href: work-with-partner-to-archive-third-party-data.md
