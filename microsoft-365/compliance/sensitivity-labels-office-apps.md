@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para a área de trabalho, aplicativos do Office para dispositivos móveis e aplicativos do Office para a Web. Descubra quais aplicativos dão suporte a rótulos de confidencialidade.
-ms.openlocfilehash: 5a5b793358364efdd725de5478318a8237d78ca8
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 39ab61a13af311339174c0e37a10f4637f51ba84
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208065"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213301"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -169,9 +169,9 @@ Caso contrário:
 
 Para usar o cliente de rotulagem interno do Office com o Office na Web para documentos no OneDrive for Business ou no SharePoint Online, certifique-se de que você tenha optado pela visualização para [habilitar os rótulos de confidencialidade dos arquivos do Office no SharePoint e no onedrive](sensitivity-labels-sharepoint-onedrive-files.md).
 
-## <a name="when-office-365-applies-content-marking-and-encryption"></a>Quando o Office 365 aplica a marcação e a criptografia de conteúdo
+## <a name="when-office-apps-apply-content-marking-and-encryption"></a>Quando os aplicativos do Office aplicam a marcação e a criptografia de conteúdo
 
-O Office 365 aplica a marcação e a criptografia de conteúdo com um rótulo de confidencialidade de forma diferente, dependendo do aplicativo usado.
+Os aplicativos do Office aplicam a marcação e a criptografia de conteúdo com um rótulo de confidencialidade de forma diferente, dependendo do aplicativo usado.
 
 | App | Marcação de conteúdo | Criptografia |
 | --- | --- | --- |
@@ -179,6 +179,22 @@ O Office 365 aplica a marcação e a criptografia de conteúdo com um rótulo de
 | Outlook para PC e Mac | Após o Exchange Online enviar o email | Imediatamente |
 | Outlook na Web, iOS e Android | Após o Exchange Online enviar o email | Após o Exchange Online enviar o email |
 |
+
+As soluções que aplicam rótulos de confidencialidade aos arquivos fora dos aplicativos do Office fazem isso aplicando os metadados de rótulo ao arquivo. Neste cenário, a marcação de conteúdo da configuração do rótulo não é inserida no arquivo, mas a criptografia é aplicada. 
+
+Quando esses arquivos são abertos em um aplicativo da área de trabalho do Office, as marcações de conteúdo são automaticamente aplicadas pelo cliente de rotulação unificado de proteção de informações do Azure. As marcações de conteúdo não são aplicadas automaticamente quando você usa rotulamento interno para aplicativos de área de trabalho, móveis ou Web.
+
+Os cenários que incluem a aplicação de um rótulo de confidencialidade fora dos aplicativos do Office incluem:
+
+- O scanner, o explorador de arquivos e o PowerShell do cliente de rotulação unificado de proteção de informações do Azure 
+
+- Diretivas de rotulação automática para o SharePoint e o OneDrive
+
+- Dados de rótulo e criptografados exportados do Power BI
+
+- Microsoft Cloud App Security
+
+Para esses cenários, usando seus aplicativos do Office, um usuário com rotulação interna pode aplicar as marcações de conteúdo do rótulo, removendo ou substituindo temporariamente o rótulo atual e reaplicando o rótulo original.
 
 ## <a name="end-user-documentation"></a>Documentação do usuário final
 

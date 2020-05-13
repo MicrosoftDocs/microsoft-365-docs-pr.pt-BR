@@ -2,8 +2,8 @@
 title: Proteção contra ameaças
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: msfttracyp
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: Admin
 ms.topic: hub-page
@@ -16,14 +16,14 @@ search.appverid:
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
-description: Saiba mais sobre a proteção contra ameaças do Office 365 e configure como usá-la para sua organização.
+description: Os administradores podem saber mais sobre a proteção contra ameaças no Microsoft 365 e configurar como usá-la para sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7bdc7d619f3c48318572116fbc52647a0858ec5e
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 3ed243d36866e9ebadf00a0247dd4545113788e8
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033885"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44206599"
 ---
 # <a name="protect-against-threats"></a>Proteção contra ameaças
 
@@ -32,7 +32,7 @@ O Microsoft 365 inclui vários recursos de proteção contra ameaças. Este é u
 > [!IMPORTANT]
 > **As configurações iniciais recomendadas são incluídas para cada tipo de política; no entanto, muitas opções estão disponíveis e você pode ajustar suas configurações para atender às necessidades específicas da sua organização**. Aguarde aproximadamente 30 minutos para que as políticas ou as alterações funcionem da mesma forma por meio do datacenter.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 ### <a name="subscriptions"></a>Assinaturas
 
@@ -61,13 +61,13 @@ Você deve receber uma função apropriada para configurar as políticas no [cen
 |Gerenciamento de Organização do Exchange Online|[Permissões no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>e<br> [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
 |
 
-Para saber mais, confira [permissões no centro &amp; de conformidade de segurança](permissions-in-the-security-and-compliance-center.md).
+Para saber mais, confira [permissões no &amp; centro de conformidade de segurança](permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="part-1---anti-malware-protection"></a>Parte 1-proteção Antimalware
 
 A [proteção Antimalware](anti-malware-protection.md) está disponível em assinaturas que incluem [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description).
 
-1. No [centro de conformidade & segurança](https://protection.office.com), escolha**anti-malware**de**política** > de **Gerenciamento** > de ameaças.
+1. No [centro de conformidade & segurança](https://protection.office.com), escolha **Threat management**  >  **Policy**  >  **anti-malware**de política de gerenciamento de ameaças.
 
 2. Clique duas vezes na política **padrão** e, em seguida, escolha **configurações**.
 
@@ -89,15 +89,15 @@ A proteção de horário de clique de URLs e arquivos mal-intencionados está di
 
 Para configurar [anexos de segurança ATP](atp-safe-attachments.md), você deve definir pelo menos uma política de anexos seguros de ATP.
 
-1. No [centro de conformidade & segurança](https://protection.office.com), escolha a**política** > de **Gerenciamento** > de ameaça**anexos seguros de ATP**.
+1. No [centro de conformidade & segurança](https://protection.office.com), escolha a política de **Gerenciamento de ameaça**  >  **Policy**  >  **anexos seguros de ATP**.
 
 2. Selecione a opção **ativar a ATP para SharePoint, onedrive e Microsoft Teams**.
 
-3. Na seção **proteger anexos de email** , clique no sinal de mais**+**().
+3. Na seção **proteger anexos de email** , clique no sinal de mais ( **+** ).
 
 4. Especifique as seguintes configurações:
 
-   - Na caixa **nome** , digite `Block malware`.
+   - Na caixa **nome** , digite `Block malware` .
 
    - Na seção resposta, escolha **Bloquear**.
 
@@ -115,17 +115,17 @@ Para saber mais, confira [configurar as políticas de anexos seguros do Microsof
 
 Para configurar [links de ATP seguros](atp-safe-links.md), revise e edite sua política padrão e adicione uma política para usuários específicos.
 
-1. No [centro de conformidade & segurança](https://protection.office.com), escolha **Threat management** > **política** > de gerenciamento de ameaça**links seguros de ATP**.
+1. No [centro de conformidade & segurança](https://protection.office.com), escolha política de **Gerenciamento de ameaça**  >  **Policy**  >  **links seguros de ATP**.
 
 2. Clique duas vezes na política **padrão** .
 
 3. Na seção **usar links seguros em** , selecione a opção **Microsoft 365 aplicativos para empresas, Office para IOS e Android**e clique em **salvar**.
 
-4. Na seção **políticas que se aplicam a destinatários específicos** , clique no sinal de**+** mais ().
+4. Na seção **políticas que se aplicam a destinatários específicos** , clique no sinal de mais ( **+** ).
 
 5. Especifique as seguintes configurações:
 
-   - Na caixa **nome** , digite um nome, como `Safe Links`.
+   - Na caixa **nome** , digite um nome, como `Safe Links` .
 
    - Na seção **Selecionar ação** , escolha **ativado**.
 
@@ -151,7 +151,7 @@ A [proteção contra phishing](anti-phishing-protection.md) está disponível em
 
 O procedimento a seguir descreve como configurar uma política anti-phishing do ATP. As etapas são semelhantes à configuração de uma política anti-phishing (sem ATP).
 
-1. No [centro de conformidade & segurança](https://protection.office.com), escolha**política** > de **Gerenciamento** > de ameaças**ATP anti-phishing**.
+1. No [centro de conformidade & segurança](https://protection.office.com), escolha política de **Gerenciamento de ameaças**  >  **Policy**  >  **ATP anti-phishing**.
 
 2. Clique em **política padrão**.
 
@@ -179,13 +179,13 @@ O procedimento a seguir descreve como configurar uma política anti-phishing do 
 
 5. Feche a página de configurações de política padrão.
 
-Para saber mais sobre suas opções de política anti-phishing, consulte [Configure ATP anti-phishing Policies in Office 365](configure-atp-anti-phishing-policies.md).
+Para saber mais sobre suas opções de política anti-phishing, consulte [Configure ATP anti-phishing Policies](configure-atp-anti-phishing-policies.md).
 
 ## <a name="part-4---anti-spam-protection"></a>Parte 4-proteção antispam
 
 A [proteção](anti-spam-protection.md) antispam está disponível em assinaturas que incluem [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description).
 
-1. No [centro de conformidade & segurança](https://protection.office.com), escolha**anti-spam**de**política** > de **Gerenciamento** > de ameaças.
+1. No [centro de conformidade & segurança](https://protection.office.com), escolha **Threat management**  >  **Policy**  >  **anti-spam**de política de gerenciamento de ameaças.
 
 2. Na guia **Personalizar** , ative **as configurações personalizadas** .
 
@@ -197,7 +197,7 @@ A [proteção](anti-spam-protection.md) antispam está disponível em assinatura
 
 4. Clique em **Salvar**.
 
-Para saber mais sobre suas opções de política antispam, consulte [Configure anti-spam Policies in Office 365](configure-your-spam-filter-policies.md).
+Para saber mais sobre suas opções de política antispam, consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md).
 
 ## <a name="part-5---additional-settings-to-configure"></a>Parte 5-configurações adicionais a serem definidas
 
