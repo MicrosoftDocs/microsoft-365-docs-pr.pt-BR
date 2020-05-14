@@ -124,38 +124,32 @@
                   items:
                     - name: Compreender o esquema
                       href: mtp/advanced-hunting-schema-tables.md
-                    - name: AlertInfo
-                      href: mtp/advanced-hunting-alertinfo-table.md
                     - name: AlertEvidence
                       href: mtp/advanced-hunting-alertevidence-table.md
-                    - name: AccountInfo
-                      href: mtp/advanced-hunting-accountinfo-table.md
-                    - name: EmailEvents
-                      href: mtp/advanced-hunting-emailevents-table.md
-                    - name: EmailAttachmentInfo
-                      href: mtp/advanced-hunting-emailattachmentinfo-table.md
-                    - name: EmailUrlInfo
-                      href: mtp/advanced-hunting-emailurlinfo-table.md
-                    - name: DeviceInfo
-                      href: mtp/advanced-hunting-deviceinfo-table.md
-                    - name: DeviceNetworkInfo
-                      href: mtp/advanced-hunting-devicenetworkinfo-table.md
-                    - name: DeviceProcessEvents
-                      href: mtp/advanced-hunting-deviceprocessevents-table.md
-                    - name: DeviceNetworkEvents
-                      href: mtp/advanced-hunting-devicenetworkevents-table.md
-                    - name: DeviceFileEvents
-                      href: mtp/advanced-hunting-devicefileevents-table.md
-                    - name: DeviceRegistryEvents
-                      href: mtp/advanced-hunting-deviceregistryevents-table.md
-                    - name: DeviceLogonEvents
-                      href: mtp/advanced-hunting-devicelogonevents-table.md
-                    - name: DeviceImageLoadEvents
-                      href: mtp/advanced-hunting-deviceimageloadevents-table.md
+                    - name: AlertInfo
+                      href: mtp/advanced-hunting-alertinfo-table.md
+                    - name: AppFileEvents
+                      href: mtp/advanced-hunting-appfileevents-table.md
                     - name: DeviceEvents
                       href: mtp/advanced-hunting-deviceevents-table.md
                     - name: DeviceFileCertificateInfo
                       href: mtp/advanced-hunting-devicefilecertificateinfo-table.md
+                    - name: DeviceFileEvents
+                      href: mtp/advanced-hunting-devicefileevents-table.md
+                    - name: DeviceImageLoadEvents
+                      href: mtp/advanced-hunting-deviceimageloadevents-table.md
+                    - name: DeviceInfo
+                      href: mtp/advanced-hunting-deviceinfo-table.md
+                    - name: DeviceLogonEvents
+                      href: mtp/advanced-hunting-devicelogonevents-table.md
+                    - name: DeviceNetworkEvents
+                      href: mtp/advanced-hunting-devicenetworkevents-table.md
+                    - name: DeviceNetworkInfo
+                      href: mtp/advanced-hunting-devicenetworkinfo-table.md
+                    - name: DeviceProcessEvents
+                      href: mtp/advanced-hunting-deviceprocessevents-table.md
+                    - name: DeviceRegistryEvents
+                      href: mtp/advanced-hunting-deviceregistryevents-table.md
                     - name: DeviceTvmSecureConfigurationAssessment
                       href: mtp/advanced-hunting-tvm-configassessment-table.md
                     - name: DeviceTvmSecureConfigurationAssessmentKB
@@ -164,8 +158,14 @@
                       href: mtp/advanced-hunting-tvm-softwareinventory-table.md
                     - name: DeviceTvmSoftwareVulnerabilitiesKB
                       href: mtp/advanced-hunting-tvm-softwarevulnerability-table.md
-                    - name: AppFileEvents
-                      href: mtp/advanced-hunting-appfileevents-table.md
+                    - name: EmailAttachmentInfo
+                      href: mtp/advanced-hunting-emailattachmentinfo-table.md
+                    - name: EmailEvents
+                      href: mtp/advanced-hunting-emailevents-table.md
+                    - name: EmailUrlInfo
+                      href: mtp/advanced-hunting-emailurlinfo-table.md
+                    - name: IdentityInfo
+                      href: mtp/advanced-hunting-identityinfo-table.md
                     - name: IdentityLogonEvents
                       href: mtp/advanced-hunting-identitylogonevents-table.md
                     - name: IdentityQueryEvents
@@ -207,7 +207,7 @@
                 - name: Definir fuso horário
                   href: mtp/mtp-time-zone.md
             - name: Exibir perfis de dispositivos
-              href: 'mtp:/device-profile.md'
+              href: mtp/device-profile.md
             - name: Faça comentários
               href: mtp/feedback.md
             - name: Gerenciar tíquetes pelo ServiceNow
@@ -375,15 +375,6 @@
                       href: ./office-365-security/download-existing-reports.md
                 - name: Exibir informações sobre arquivos mal-intencionados
                   href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
-            - name: O que é o EOP?
-              href: ./office-365-security/what-is-eop.md
-              items:
-                - name: Bloquear spam no EOP autônomo
-                  href: ./office-365-security/block-email-spam-in-EOPStandalone.md
-                - name: Proteger caixas de correio locais com o Exchange Online Protection
-                  href: ./office-365-security/protect-on-premises-mailboxes-with-exchange-online-protection.md
-                - name: Configurar o EOP avulso para enviar spam para a pasta Lixo Eletrônico
-                  href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
         - name: Proteção Avançada contra Ameaças
           href: ./office-365-security/office-365-atp.md
           items:
@@ -523,14 +514,17 @@
               items: null
             - name: Integração com o servidor SIEM
               href: ./office-365-security/siem-server-integration.md
-            - name: Proteção do Exchange Online
+            - name: Visão geral do Exchange Online Protection
               href: ./office-365-security/exchange-online-protection-overview.md
               items:
                 - name: Recursos EOP
                   href: ./office-365-security/eop-features.md
-                - name: Permissões de recurso no EOP
+                - name: Permissões no EOP autônomo
                   href: ./office-365-security/feature-permissions-in-eop.md
-                - name: Centro de administração do Exchange na Proteção do Exchange Online
+                  items:
+                    - name: Gerenciar grupos de funções no EOP autônomo
+                      href: ./office-365-security/manage-admin-role-group-permissions-in-eop.md
+                - name: Centro de administração do Exchange no EOP standalone
                   href: ./office-365-security/exchange-admin-center-in-exchange-online-protection-eop.md
                 - name: Configurar seu serviço EOP
                   href: ./office-365-security/set-up-your-eop-service.md
@@ -545,44 +539,38 @@
                       href: ./office-365-security/move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
                     - name: 'Mudando para EOP da Google Postini, Firewall de Vírus ou Spam Barracuda ou Cisco IronPort'
                       href: ./office-365-security/switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md
-                    - name: Mnsagens backscatter e EOP
+                    - name: Dispersão inversa no EOP
                       href: ./office-365-security/backscatter-messages-and-eop.md
-                - name: Política de mensagens e conformidade no EOP
-                  href: ./office-365-security/messaging-policy-and-compliance-in-eop.md
+                - name: Relatórios de auditoria na EOP autônomo
+                  href: ./office-365-security/auditing-reports-in-eop.md
                   items:
-                    - name: Relatórios de auditoria no EOP
-                      href: ./office-365-security/auditing-reports-in-eop.md
-                    - name: Executar um relatório de grupo de função de administrador no EOP
+                    - name: Executar um relatório de grupo de função de administrador no EOP autônomo
                       href: ./office-365-security/run-an-administrator-role-group-report-in-eop-eop.md
-                - name: Gerenciar destinatários e grupos com função administrativa no EOP
-                  href: ./office-365-security/manage-recipients-and-admin-role-groups-in-eop.md
+                    - name: Exibir o log de auditoria de administradores no EOP autônomo
+                      href: ./office-365-security/view-the-admin-audit-log-eop.md
+                - name: Gerenciar destinatários no EOP autônomo
+                  href: ./office-365-security/manage-recipients-in-eop.md
                   items:
-                    - name: Gerenciar destinatários no EOP
-                      href: ./office-365-security/manage-recipients-in-eop.md
-                    - name: Gerenciar usuários de email no EOP
+                    - name: Gerenciar usuários de e-mail no EOP autônomo
                       href: ./office-365-security/manage-mail-users-in-eop.md
-                    - name: Gerenciar grupos no EOP
+                    - name: Gerenciar grupos no EOP autônomo
                       href: ./office-365-security/manage-groups-in-eop.md
-                    - name: Gerenciar permissões do grupo de funções de administrador no EOP
-                      href: ./office-365-security/manage-admin-role-group-permissions-in-eop.md
-                - name: Fluxo de emails no EOP
+                - name: Fluxo de e-mails no EOP
                   href: ./office-365-security/mail-flow-in-eop.md
                   items:
-                    - name: Como ajudar a garantir que uma mensagem não seja marcada como spam
-                      href: ./office-365-security/how-to-help-ensure-that-a-message-isn-t-marked-as-spam.md
-                    - name: Regras de fluxo de emails (regras de transporte)
+                    - name: Regras de fluxo de e-mail (regras de transporte) no EOP autônomo
                       href: ./office-365-security/mail-flow-rules-transport-rules-0.md
-                    - name: Usar regras de fluxo para configurar a filtragem de email em massa
+                    - name: Usar regras de fluxo de e-mail para filtrar e-mails em massa no EOP
                       href: ./office-365-security/use-transport-rules-to-configure-bulk-email-filtering.md
-                    - name: Reduzindo ameaças de malware bloqueando o anexo do arquivo
+                    - name: Usar regras de fluxo de e-mail para bloquear mensagens com anexos executáveis no EOP
                       href: ./office-365-security/reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
-                    - name: Relatórios e rastreamento de mensagens
+                    - name: Relatório e rastreamento de mensagens no EOP autônomo
                       href: ./office-365-security/reporting-and-message-trace-in-exchange-online-protection.md
-                    - name: Inteligência de fluxo de emails no Office 365
+                    - name: Inteligência de fluxo de e-mails no EOP
                       href: ./office-365-security/mail-flow-intelligence-in-office-365.md
                 - name: Soluções de problemas e suporte para EOP
                   items:
-                    - name: Solução de problemas de email enviados para o Office 365
+                    - name: Solução de problemas de e-mail enviados para o Microsoft 365
                       href: ./office-365-security/troubleshooting-mail-sent-to-office-365.md
                     - name: Ajuda e suporte para EOP
                       href: ./office-365-security/help-and-support-for-eop.md
@@ -599,6 +587,10 @@
                       href: ./office-365-security/sending-mail-to-office-365.md
                     - name: Serviços para não clientes
                       href: ./office-365-security/services-for-non-customers.md
+                - name: Proteger caixas de correio locais na China com o EOP autônomo
+                  href: ./office-365-security/protect-on-premises-mailboxes-with-exchange-online-protection.md
+                - name: Configurar o EOP autônomo para enviar spam para a pasta Lixo Eletrônico
+                  href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
         - name: Recursos de segurança herdados
           items:
             - name: S/MIME
