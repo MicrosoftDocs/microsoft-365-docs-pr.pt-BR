@@ -2,8 +2,8 @@
 title: Cabeçalhos de mensagem antispam
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -16,16 +16,16 @@ ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os campos de cabeçalho que a proteção do Exchange Online adiciona às mensagens para fornecer informações sobre a mensagem e como ela foi processada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7f86b5ffa02b6f84c10ab2300f913b5f03726713
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: d63d173b90ffd868cfbeac212f2c9d5a6ee125c6
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173399"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208217"
 ---
-# <a name="anti-spam-message-headers"></a>Cabeçalhos de mensagem antispam
+# <a name="anti-spam-message-headers-in-microsoft-365"></a>Cabeçalhos de mensagens anti-spam no Office 365
 
-Ao examinar e-mails de entrada, a Proteção do Exchange Online insere o cabeçalho **X-Forefront-Antispam-Report**em cada mensagem. Os campos nesse cabeçalho podem ajudar os administradores fornecendo informações da mensagem e sobre como ela foi processada. Os campos no cabeçalho **X-Microsoft-Antispam** fornecem mais informações de e-mail em massa e phishing. Além desses dois cabeçalhos, a Proteção do Exchange Online também insere resultados de autenticação de e-mails para cada mensagem que ele processa no cabeçalho **Authentication-results**.
+No Microsoft 365, as organizações com caixas de correio no Exchange Online ou Proteção do Exchange Online autônomo (EOP) organizações sem caixas de correio do Exchange Online, o EOP examina e insere o cabeçalho **X-Forefront-Antispam-Report**em cada mensagem. Os campos nesse cabeçalho podem ajudar os administradores fornecendo informações da mensagem e sobre como ela foi processada. O cabeçalho **X-Microsoft-Antispam** fornece mais informações de e-mail em massa e phishing. Além desses dois cabeçalhos, a Proteção do Exchange Online também insere resultados de autenticação de e-mails para cada mensagem que ele processa no cabeçalho **Authentication-results**.
 
 Para saber mais sobre como exibir um cabeçalho de mensagem de email em vários clientes de email, confira [Exibir cabeçalhos de mensagens de Internet no Outlook](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c).
 

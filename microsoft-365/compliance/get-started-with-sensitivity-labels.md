@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: f024995f63af19efa410cdb02a1f8c8d110902eb
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: ab05b9226c244b1e6cdf1e552d32d4d9fc0d95d2
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140987"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208672"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -38,7 +38,7 @@ Quando estiver pronto para começar a proteger os dados da sua organização usa
 
 1. **Crie os rótulos.** Crie e nomeie seus rótulos de confidencialidade de acordo com a taxonomia de classificação da sua organização para diferentes níveis de confidencialidade de conteúdo. Use os nomes ou termos comuns que fazem sentido para os seus usuários. Se você ainda não tiver uma taxonomia estabelecida, considere começar com nomes de rótulos como Pessoal, Público, Geral, Confidencial e Altamente Confidencial. Em seguida, você pode usar sub-rótulos para agrupar rótulos similares por categoria. Ao criar um rótulo, use o texto de dica de ferramenta para ajudar os usuários a selecionar o rótulo apropriado.
     
-    Para obter orientações mais abrangentes sobre a definição de uma taxonomia de classificação, faça o download do artigo técnico "Classificação de dados e taxonomia de rótulos de confidencialidade", no [Portal de confiança do serviço](https://aka.ms/DataClassificationWhitepaper).
+    Para obter orientações mais abrangentes sobre a definição de uma taxonomia de classificação, faça o download do artigo técnico "Classificação de Dados e Taxonomia de Rótulos de Confidencialidade", no [Portal de Confiança do Serviço](https://aka.ms/DataClassificationWhitepaper).
 
 2. **Defina o que cada rótulo pode fazer.** Defina as configurações de proteção desejadas associadas a cada rótulo. Por exemplo, você pode desejar que o conteúdo menos confidencial (como um rótulo "Geral") tenha apenas um cabeçalho ou rodapé aplicado, e que o conteúdo mais confidencial (como um rótulo "Confidencial") tenha uma marca d'água, criptografia e proteção de ponto de extremidade aplicadas.
 
@@ -75,14 +75,14 @@ Use a seguinte documentação para oferecer suporte à implantação de rótulo 
 |----------------|---------------|
 |Criar e publicar rótulos de confidencialidade que ajudarão a proteger os dados da minha organização|[Criar e configurar rótulos de confidencialidade e suas políticas](create-sensitivity-labels.md)|
 |Criptografar documentos e emails com rótulos de confidencialidade e restringir quem pode acessá-los e como podem usar esse conteúdo |[Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia](encryption-sensitivity-labels.md)|
-|Habilitar recursos de colaboração no SharePoint (e OneDrive) para documentos rotulados com criptografia | [Habilitar rótulos de confidencialidade para arquivos do Office no Microsoft Office SharePoint Online e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
+|Habilite os rótulos de sensibilidade do Office na web, com suporte para coautoria, descoberta eletrônica, prevenção contra perda de dados, até mesmo quando os documentos são criptografados. | [Habilitar rótulos de confidencialidade para arquivos do Office no Microsoft Office SharePoint Online e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
 |Gerenciar rótulos de confidencialidade para aplicativos do Office para que o conteúdo seja rotulado como foi criado |[Usar rótulos de confidencialidade em aplicativos do Office](sensitivity-labels-office-apps.md)|
 |Aplicar rótulos de confidencialidade automaticamente a documentos e emails | [Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)|
 |Usar os rótulos de confidencialidade para proteger o conteúdo do Teams e do SharePoint |[Use rótulos de confidencialidade no Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md)|
 |Descobrir, rotular e proteger arquivos armazenados no repositório de dados locais |[Implantação do scanner da Proteção de Informações do Azure para classificar e proteger arquivos automaticamente](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
 |Descobrir, rotular e proteger arquivos armazenados no repositório da nuvem|[Descobrir, classificar, rotular e proteger dados regulamentados e confidenciais armazenados na nuvem](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |Aplicar e exibir rótulos de sensibilidade no Power BI e proteger relatórios baixados|[Proteção de dados no Power BI (visualização)](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|
-|Visualizar como os rótulos de confidencialidade estão sendo usados para relatar o status de implantação e ajustar a configuração de rótulo|[Exibição do uso do rótulo com análises de rótulo](label-analytics.md)|
+|Veja como e onde meus rótulos de confidencialidade estão sendo usados e faça um detalhamento para examinar o conteúdo rotulado|[Conheça seus dados - visão geral da classificação de dados (visualização)](data-classification-overview.md)|
 
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>Documentação do usuário final para rótulos de confidencialidade
