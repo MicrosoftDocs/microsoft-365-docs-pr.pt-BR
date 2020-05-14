@@ -7,12 +7,12 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.date: 02/06/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: cb138d14a35324840d78000b55a2f4376c3869b5
-ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
+ms.openlocfilehash: 99ae4fda67de060a5c4dd7c9cd0550f751706e86
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42400868"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222390"
 ---
 # <a name="microsoft-managed-desktop-device-services"></a>Serviços de dispositivo de área de trabalho gerenciado da Microsoft
 
@@ -33,9 +33,9 @@ Configuração do dispositivo    | Os dispositivos serão pré-configurados com 
 Para obter informações sobre substituição de dispositivos, atualizações e termos de suporte, consulte seu contrato com seu provedor de dispositivo e seus termos de garantia.
 
 Para obter informações sobre garantias e reparos de superfície:
+- [Centro de ajuda comercial](https://support.microsoft.com/hub/4339296/surface-for-business-help)
 - [Garantias, planos de serviço estendidos e termos e condições para o seu dispositivo](https://support.microsoft.com/help/4040687/info-about-warranties-extended-service-plans-and-terms-conditions)
-- [Garantia padrão de superfície](https://support.microsoft.com/help/4036296)
-- [Serviço de dispositivo e reparo](https://support.microsoft.com/devices)
+
 
 ## <a name="device-service-limitations"></a>Limitações do serviço de dispositivo
 

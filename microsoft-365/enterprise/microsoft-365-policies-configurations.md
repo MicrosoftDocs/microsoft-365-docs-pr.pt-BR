@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 0512d51f2789383c7612c3dbd97c0a77c2c4c7fa
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: 4ffc6a8771a93e0aea4583dce092109afe57175d
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214657"
+ms.locfileid: "44222322"
 ---
 # <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 
@@ -120,7 +120,7 @@ Esta orientação mostra como criar políticas recomendadas para impor o uso de 
 
 Esta orientação mostra como implementar um conjunto de políticas para proteger o acesso ao Office 365, incluindo o Exchange Online, o SharePoint Online e o OneDrive for Business. Além de implementar essas políticas, recomendamos que você também aumente o nível de proteção para o locatário usando estes recursos:
 
-- [Configure seu locatário para maior segurança](https://support.office.com/article/Configure-your-Office-365-tenant-for-increased-security-8d274fe3-db51-4107-ba64-865e7155b355): estas recomendações se aplicam à segurança de linha de base para seu locatário.
+- [Configure seu locatário para maior segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/tenant-wide-setup-for-increased-security): estas recomendações se aplicam à segurança de linha de base para seu locatário.
 - [Mapa de segurança da Microsoft 365: principais prioridades para os primeiros 30 dias, 90 dias e mais](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap): estas recomendações incluem registro em log, governança de dados, acesso de administrador e proteção contra ameaças.
 
 

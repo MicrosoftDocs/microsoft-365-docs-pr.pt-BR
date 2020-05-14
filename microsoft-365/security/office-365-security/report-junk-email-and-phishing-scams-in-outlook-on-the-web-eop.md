@@ -1,5 +1,5 @@
 ---
-title: RReport emails de lixo eletrônico e phishing no Outlook na Web
+title: Relatar emails de lixo eletrônico e phishing no Outlook na Web
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender sobre as opções internas de lixo eletrônico, não lixo eletrônico e relatório de email de phishing no Outlook na Web (Outlook Web App) no Exchange Online e como desabilitar essas opções de relatórios para os usuários.
-ms.openlocfilehash: 1ec226259ccb3dac9a01ee8d4c5fc635c0fc5702
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: dd4b23efa9e12a02ce69167712bc0466b3445c44
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206473"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224692"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-exchange-online"></a>Relatar emails de lixo eletrônico e phishing no Outlook na Web no Exchange Online
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados no Office 365
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6e818d05465f7b91268cc44c345c6699e8c6d0ed
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e18635b9b9d090dbc2808b5b8142b59ec1f29c6e
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034811"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224584"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Detectar e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados
 
@@ -137,7 +137,7 @@ Você precisará ter direitos de administrador global para executar o script por
 
 3. Abra uma instância do PowerShell como administrador e abra a pasta para a qual você salvou o script.
 
-4. Execute esta linha de comando do PowerShell `.\Get-AllTenantRulesAndForms.ps1`da seguinte maneira .\Get-AllTenantRulesAndForms.ps1
+4. Execute esta linha de comando do PowerShell da seguinte maneira `.\Get-AllTenantRulesAndForms.ps1` .\Get-AllTenantRulesAndForms.ps1
 
 #### <a name="interpreting-the-output"></a>Interpretação da saída
 
@@ -159,7 +159,7 @@ Se você encontrar evidências de qualquer um desses ataques, a correção será
 
 1. Identifique todos os dispositivos que o usuário usou com o Outlook. Todos eles precisarão ser limpos de possíveis malwares. Não permita que o usuário entre e use email até que todos os dispositivos sejam limpos.
 
-2. Siga as etapas em [excluir uma regra](https://support.office.com/article/2f0e7139-f696-4422-8498-44846db9067f) para cada dispositivo.
+2. Siga as etapas em [excluir uma regra](https://support.microsoft.com/en-us/office/delete-a-rule-2f0e7139-f696-4422-8498-44846db9067f) para cada dispositivo.
 
 3. Se não tiver certeza sobre a presença de outros tipos de malware, você poderá Formatar e reinstalar todos os softwares no dispositivo. Para dispositivos móveis, você pode seguir as etapas do fabricante para redefinir o dispositivo para a imagem de fábrica.
 

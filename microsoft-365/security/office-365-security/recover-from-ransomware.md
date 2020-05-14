@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores do Microsoft 365 podem aprender a se recuperar de um ataque de ransomware.
-ms.openlocfilehash: 51f5bb365fe707615444c1399479171aa72755e1
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 29afb66dd90be3917d576a7533900e21a91966c0
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208253"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224704"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Recuperar de um ataque de ransomware no Microsoft 365
 
@@ -124,7 +124,7 @@ Se o seu país não estiver listado, pergunte às agências de cumprimento de le
 
 É possível relatar mensagens de phishing que contenham ransomware usando um dos vários métodos. Para mais informações, confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
 - [Ransomware](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware)
 
@@ -132,7 +132,7 @@ Se o seu país não estiver listado, pergunte às agências de cumprimento de le
 
 - [Norsk Hydro responde a ataques de ransomware com transparência](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
 
-- [Detecção de ransomware e recuperação de seus arquivos no OneDrive](https://support.office.com/article/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
+- [Detecção de ransomware e recuperação de seus arquivos no OneDrive](https://support.microsoft.com/en-us/office/ransomware-detection-and-recovering-your-files-0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
 
 - [Relatório de inteligência de segurança da Microsoft](https://www.microsoft.com/securityinsights/)
 

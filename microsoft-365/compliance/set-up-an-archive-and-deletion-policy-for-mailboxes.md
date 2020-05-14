@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: Criar uma política de arquivamento e exclusão no Microsoft 365 que move automaticamente itens para a caixa de correio de arquivo morto de um usuário.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d4c1bd1c993444c38596642bf974e734870c79d8
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 5bc48b8192af3ca4edd591307e5945b9171cf665
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208055"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222522"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização
 
@@ -298,6 +298,6 @@ Na etapa 4, você precisa atribuir a nova política de retenção a caixas de co
     |Nunca excluir  <br/> |Essa marca impede que itens sejam excluídos por uma política de retenção.  <br/> |Interno  <br/> |PCs Essa marca pode ser aplicada pelos usuários.  <br/> |
     |Movimentação de 1 anos para arquivo pessoal  <br/> |Move itens para a caixa de correio de arquivo morto após 1 ano.  <br/> |Interno  <br/> |PCs Essa marca pode ser aplicada pelos usuários.  <br/> |
    
-    > <sup>\*</sup>Os usuários podem usar a ferramenta recuperar itens excluídos no Outlook e no Outlook na Web (anteriormente conhecido como Outlook Web App) para recuperar um item excluído dentro do período de retenção de itens excluídos, que por padrão é de 14 dias no Exchange Online. Um administrador pode usar o Windows PowerShell para aumentar o período de retenção de itens excluídos para no máximo 30 dias. Para obter mais informações, consulte: [recuperar itens excluídos no Outlook para Windows](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce) e [alterar o período de retenção de itens excluídos para uma caixa de correio no Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=286940)
+    > <sup>\*</sup>Os usuários podem usar a ferramenta recuperar itens excluídos no Outlook e no Outlook na Web (anteriormente conhecido como Outlook Web App) para recuperar um item excluído dentro do período de retenção de itens excluídos, que por padrão é de 14 dias no Exchange Online. Um administrador pode usar o Windows PowerShell para aumentar o período de retenção de itens excluídos para no máximo 30 dias. Para obter mais informações, consulte: [recuperar itens excluídos no Outlook para Windows](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce) e [alterar o período de retenção de itens excluídos para uma caixa de correio no Exchange Online](https://www.microsoft.com/?ref=go)
   
 - Usando os **itens recuperáveis 14 dias mover para arquivo morto** a marca de retenção ajuda a liberar espaço de armazenamento na pasta itens recuperáveis na caixa de correio principal do usuário. Isso é útil quando a caixa de correio de um usuário é colocada em espera, o que significa que nada é permanentemente excluído da caixa de correio do usuário. Sem mover itens para a caixa de correio de arquivo morto, é possível que a cota de armazenamento da pasta itens recuperáveis na caixa de correio principal seja atingida. Para obter mais informações sobre isso e como evitá-la, consulte [aumentar a cota de itens recuperáveis para caixas de correio em espera](https://go.microsoft.com/fwlink/p/?LinkId=786479).

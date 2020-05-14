@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode pesquisar conteúdo que possa ser relevante para uma caixa de descoberta eletrônica principal.
-ms.openlocfilehash: b8aa090094dc2699ee774a9b662da17fefde1188
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.openlocfilehash: d17a9d16643ec9077e02b5438597237b80f09af5
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551360"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224618"
 ---
 # <a name="search-for-content-in-a-core-ediscovery-case"></a>Pesquisar conteúdo em um caso de descoberta eletrônica principal
 
@@ -44,7 +44,7 @@ Para criar uma pesquisa de descoberta eletrônica principal:
 
     ![Nova pesquisa](../media/0e9954e7-c0ea-4e05-820b-e4b81dc5f81d.png)
   
-   a. Você pode especificar palavras-chave, propriedades de mensagem, como datas de envio e recebimento, ou propriedades do documento, como nomes de arquivo ou a data em que um documento foi alterado pela última vez. Você pode usar consultas mais complexas que usam um operador Boolean, como **e**, **ou**, **não**, **Near**ou **ONEAR**. Você também pode procurar informações confidenciais (por exemplo, números de seguridade social) em documentos ou pesquisar documentos que foram compartilhados externamente. Se você deixar a caixa de palavras-chave vazia, todo o conteúdo localizado nos locais de conteúdo especificado será incluído nos resultados da pesquisa.
+   a. Você pode especificar palavras-chave, propriedades de mensagem, como datas de envio e recebimento, ou propriedades do documento, como nomes de arquivo ou a data em que um documento foi alterado pela última vez. Você pode usar consultas mais complexas que usam um operador Boolean, como **e**, **ou**, **não**ou **Near**. Você também pode procurar informações confidenciais (por exemplo, números de seguridade social) em documentos ou pesquisar documentos que foram compartilhados externamente. Se você deixar a caixa de palavras-chave vazia, todo o conteúdo localizado nos locais de conteúdo especificado será incluído nos resultados da pesquisa.
 
    b. Você pode clicar na caixa de seleção **Mostrar lista de palavras-chave** e a palavra-chave tipo a em cada linha. Se você fizer isso, as palavras-chave em cada linha serão conectadas pelo operador **or** na consulta de pesquisa criada. Você pode inserir no máximo 20 palavras-chave na lista.
 

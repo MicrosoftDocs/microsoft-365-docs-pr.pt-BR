@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 239ce6eb-4e81-42db-bf86-a01362fed65c
 description: Saiba como usar o IRM do SharePoint Online por meio do Microsoft Azure Active Directory Rights Management Services (RMS) para proteger listas e bibliotecas de documentos do SharePoint.
-ms.openlocfilehash: c981ceefde2cedb5f6c8731fd9a5ad9318174120
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ab045c2319897a98bffd14f898dd254b06890bee
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634773"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222368"
 ---
 # <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>Set up Information Rights Management (IRM) in SharePoint admin center
 
@@ -40,7 +40,7 @@ Após ativar o serviço de gerenciamento de direitos, entre no centro de adminis
     
 2. Selecione o ícone do inicializador de aplicativos ![Ícone do inicializador de aplicativos do Office 365](../media/e5aee650-c566-4100-aaad-4cc2355d909f.png) no canto superior esquerdo e escolha **Administração** para abrir o Centro de administração do Office 365. (Se você não vir o bloco administrador, você não tem permissões de administrador em sua organização.) 
     
-3. No painel esquerdo, escolha **central** \> de administração **do SharePoint**.
+3. No painel esquerdo, escolha **central de administração** \> **do SharePoint**.
     
 4. No painel esquerdo, escolha **configurações**e, em seguida, escolha a **página Configurações clássicas**.
     
@@ -77,6 +77,6 @@ O SharePoint Online oferece suporte à criptografia dos seguintes tipos de arqui
 
 Depois de habilitar o IRM para o SharePoint Online, você pode começar a aplicar o gerenciamento de direitos às listas e bibliotecas. Para obter informações, consulte [aplicar o gerenciamento de direitos de informação a uma lista ou biblioteca](apply-irm-to-a-list-or-library.md).
   
-O novo cliente de sincronização do OneDrive para Windows agora oferece suporte à sincronização de bibliotecas de documentos do SharePoint protegidas por IRM e locais do OneDrive (desde que a configuração de IRM da biblioteca não esteja definida para expirar direitos de acesso de documento). Para obter mais informações ou para começar a implantar o novo cliente de sincronização, consulte [implantar o novo cliente de sincronização do onedrive para Windows](https://support.office.com/article/3f3a511c-30c6-404a-98bf-76f95c519668).
+O novo cliente de sincronização do OneDrive para Windows agora oferece suporte à sincronização de bibliotecas de documentos do SharePoint protegidas por IRM e locais do OneDrive (desde que a configuração de IRM da biblioteca não esteja definida para expirar direitos de acesso de documento). Para obter mais informações ou para começar a implantar o novo cliente de sincronização, consulte [implantar o novo cliente de sincronização do onedrive para Windows](https://docs.microsoft.com/onedrive/deploy-on-windows).
   
 [Início da página](#introduction)  

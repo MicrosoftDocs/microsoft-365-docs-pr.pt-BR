@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Saiba como controlar quais usuários podem criar grupos do Microsoft 365.
-ms.openlocfilehash: 55b3ec119e8c74982ce340c58f6b8da684c9ffa8
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 7a699a01687aec47fd39ce108c5a8c7a888afe65
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208337"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222378"
 ---
 # <a name="manage-who-can-create-groups"></a>Gerenciar quem pode criar grupos
 
@@ -154,7 +154,7 @@ $settingsCopy["EnableGroupCreation"] = $AllowGroupCreation
 
 if($GroupName)
 {
-    $settingsCopy["GroupCreationAllowedGroupId"] = (Get-AzureADGroup -SearchString $GroupName).objectid
+    $settingsCopy["GroupCreationAllowedGroupId"] = (Get-AzureADGroup -Filter "DisplayName eq '$GroupName'").objectId
 }
  else {
 $settingsCopy["GroupCreationAllowedGroupId"] = $GroupName

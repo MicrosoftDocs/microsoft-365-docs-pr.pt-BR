@@ -15,19 +15,19 @@ search.appverid:
 localization_priority: Normal
 ms.assetid: 7acd33ce-1ec8-49fb-b625-43bac7b58c5a
 description: 'Use o centro de conformidade de & de segurança para obter vários relatórios para sua organização do SharePoint Online e do Exchange Online, além de relatórios do Azure Active Directory.  '
-ms.openlocfilehash: 9134cf403c8452ea457983226be04ba139bf72e6
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 4783c3171f5f49dd50d6da8f5f4835ba243f7ab3
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943280"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214703"
 ---
 # <a name="reports-in-the-security--compliance-center"></a>Relatórios no Centro de Conformidade e Segurança
 
 Você pode usar a página **exibir relatórios** no centro de conformidade de & de segurança para acessar rapidamente relatórios de auditoria para suas organizações do SharePoint Online e do Exchange Online. Você também pode acessar os relatórios de entrada do usuário do Azure Active Directory (AD), relatórios de atividades do usuário e o log de auditoria do Azure AD na página **exibir relatórios** . Isso ocorre porque sua assinatura paga do Microsoft 365 inclui uma assinatura gratuita para o Microsoft Azure. Na primeira vez que tentar acessar esses relatórios do Azure, você precisará concluir um processo de registro de uma vez. 
   
 > [!TIP]
-> Para exibir relatórios adicionais sobre a atividade em sua organização, consulte [relatórios de atividades no centro de administração do Microsoft 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
+> Para exibir relatórios adicionais sobre a atividade em sua organização, consulte [relatórios de atividades no centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports). 
   
  **Antes de começar**
   

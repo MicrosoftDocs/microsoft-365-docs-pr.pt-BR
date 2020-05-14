@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: a8bdcbdd-9298-462f-b889-df26037a990c
 description: 'Habilite a caixa de correio de arquivo morto e ative o arquivamento de expansão automática para aumentar o tamanho da pasta itens recuperáveis para uma caixa de correio no Office 365. '
-ms.openlocfilehash: 37d0e783f3b3a5157fe4a7a9b7d512b09c05d32c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 884a03bc1693ec76cd3e80d85f62f4054e1d9911
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072910"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222704"
 ---
 # <a name="increase-the-recoverable-items-quota-for-mailboxes-on-hold"></a>Aumentar a cota de Itens Recuperáveis para caixas de correio em espera
 
@@ -78,7 +78,7 @@ A primeira etapa é criar uma marca de retenção personalizada (chamada de marc
     ```
 
     > [!TIP]
-    > Recomendamos que o período de retenção (definido pelo parâmetro _AgeLimitForRetention_ ) para os itens recuperáveis RPT seja o mesmo que o período de retenção de itens excluídos para as caixas de correio às quais o RPT será aplicado. Isso proporciona a um usuário todo o período de retenção de itens excluídos para recuperar itens excluídos antes que eles sejam movidos para a caixa de correio de arquivo morto. No exemplo anterior, o período de retenção foi configurado para 30 dias com base na suposição de que o período de retenção de itens excluídos para caixas de correio também é de 30 dias. Uma caixa de correio do Exchange Online é configurada, por padrão, para manter itens excluídos por 14 dias. Porém, você pode alterar essa configuração para até 30 dias. Para obter mais informações, consulte [alterar o período de retenção de itens excluídos para uma caixa de correio no Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=286940). 
+    > Recomendamos que o período de retenção (definido pelo parâmetro _AgeLimitForRetention_ ) para os itens recuperáveis RPT seja o mesmo que o período de retenção de itens excluídos para as caixas de correio às quais o RPT será aplicado. Isso proporciona a um usuário todo o período de retenção de itens excluídos para recuperar itens excluídos antes que eles sejam movidos para a caixa de correio de arquivo morto. No exemplo anterior, o período de retenção foi configurado para 30 dias com base na suposição de que o período de retenção de itens excluídos para caixas de correio também é de 30 dias. Uma caixa de correio do Exchange Online é configurada, por padrão, para manter itens excluídos por 14 dias. Porém, você pode alterar essa configuração para até 30 dias. Para obter mais informações, consulte [alterar o período de retenção de itens excluídos para uma caixa de correio no Exchange Online](https://www.microsoft.com/?ref=go). 
   
 ## <a name="step-2-create-a-new-retention-policy-for-mailboxes-on-hold"></a>Etapa 2: Criar uma nova política de retenção para caixas de correio em espera
 
@@ -96,11 +96,11 @@ Você pode usar o Eat ou o PowerShell do Exchange Online para criar uma polític
   
 ### <a name="use-the-eac-to-create-a-retention-policy"></a>Usar o EAC para criar uma política de retenção
   
-1. No Eat, vá para **políticas de retenção**de **Gerenciamento** \> de conformidade e clique em **Adicionar** ![ícone](../media/ITPro-EAC-AddIcon.gif)de adição.
+1. No Eat, vá para políticas de retenção de **Gerenciamento de conformidade** \> **Retention policies**e clique em **Adicionar** ![ ícone de adição ](../media/ITPro-EAC-AddIcon.gif) .
     
 2. Na página **Nova política de retenção**, em **Nome**, digite um nome que descreva o propósito da política de retenção, por exemplo, **MRM Policy for Mailboxes on Hold**.  
     
-3. Em **marcas de retenção**, **** ![clique em Adicionar](../media/ITPro-EAC-AddIcon.gif)ícone de adição.
+3. Em **marcas de retenção**, clique em **Adicionar** ![ ícone de adição ](../media/ITPro-EAC-AddIcon.gif) .
     
 4. Na lista de marcas de retenção, selecione o relatório de itens recuperáveis que você criou na Etapa 1 e clique em **Adicionar**.
     
@@ -139,7 +139,7 @@ A última etapa é aplicar a nova política de retenção que você criou na Eta
   
 1. Acesse **Destinatários** \> **Caixas de Correio**.
     
-2. No modo de exibição de lista, selecione a caixa de correio à qual você deseja aplicar a política de **** ![retenção e clique](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)em Editar ícone de edição.
+2. No modo de exibição de lista, selecione a caixa de correio à qual você deseja aplicar a política de retenção e clique em **Editar** ![ ícone de edição ](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) .
     
 3. Na página **Caixa de Correio do Usuário**, clique em **Recursos de caixa de correio**.
     
@@ -225,6 +225,6 @@ $MailboxesOnHold.DistinguishedName | Start-ManagedFolderAssistant
 
 ## <a name="more-information"></a>Mais informações
 
-- Após habilitar a caixa de correio de arquivo morto de um usuário, considere informar ao usuário que outros itens da sua caixa de correio (não apenas itens na pasta Itens Recuperáveis) podem ser movidos para a caixa de correio de arquivo morto. Isso ocorre porque a política padrão do MRM atribuída às caixas de correio do Exchange Online contém uma marca de retenção (chamada padrão de dois anos mover para o arquivo morto) que move itens para a caixa de correio de arquivo morto dois anos após a data em que o item foi entregue à caixa de correio ou criado pelo utilizador. Para obter mais informações, consulte [Default Retention Policy in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=746954)
+- Após habilitar a caixa de correio de arquivo morto de um usuário, considere informar ao usuário que outros itens da sua caixa de correio (não apenas itens na pasta Itens Recuperáveis) podem ser movidos para a caixa de correio de arquivo morto. Isso ocorre porque a política padrão do MRM atribuída às caixas de correio do Exchange Online contém uma marca de retenção (chamada padrão de dois anos mover para arquivo) que move itens para a caixa de correio de arquivo morto dois anos após a data em que o item foi entregue à caixa de correio ou criado pelo usuário. Para obter mais informações, consulte [Default Retention Policy in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=746954)
     
 - Após habilitar a caixa de correio de arquivo morto de um usuário, você também pode informar ao usuário que ele pode recuperar itens excluídos na pasta Itens Recuperáveis na caixa de correio de arquivo morto. Eles podem fazer isso no Outlook selecionando a pasta **itens excluídos** na caixa de correio de arquivo morto e, em seguida, clicando em **recuperar itens excluídos do servidor** na guia **página inicial** . Para obter mais informações sobre a recuperação de itens excluídos, consulte [recuperar itens excluídos no Outlook para Windows](https://go.microsoft.com/fwlink/p/?LinkId=624829). 

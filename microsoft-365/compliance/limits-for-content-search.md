@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
 description: 'Saiba mais sobre os limites em vigor para o recurso de pesquisa de conteúdo no centro de conformidade & segurança no Office 365, como o número máximo de pesquisas simultâneas. '
-ms.openlocfilehash: 6c2093bced166901a4442e9ab6593de2b64b785b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ef6feaf6da51a49278ccd387bda0041c081659a6
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632646"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224596"
 ---
 # <a name="limits-for-content-search-in-the-security--compliance-center"></a>Limites de pesquisa de conteúdo no centro de conformidade de & de segurança
 
@@ -49,12 +49,12 @@ A tabela a seguir lista os limites de pesquisa no centro de conformidade e segur
 |O número máximo de itens encontrados em todas as caixas de correio de pasta pública que são exibidas na página de visualização durante a visualização dos resultados da pesquisa de conteúdo.  <br/> |200  <br/> |
 |O número máximo de caixas de correio públicas que podem ser visualizadas para resultados de pesquisa. Se houver mais de 500 caixas de correio de pasta pública que contenham conteúdo que corresponda à consulta de pesquisa, somente as caixas de correio de pasta pública superior 500 com a maioria dos resultados da pesquisa estarão disponíveis para visualização.  <br/> |500  <br/> |
 |O número máximo de caracteres para a consulta de pesquisa (incluindo operadores e condições) para uma pesquisa de conteúdo.  <br/><br/> **Observação:** Esse limite entra em vigor depois que a consulta é expandida, o que significa que a consulta será expandida em relação a cada uma das palavras-chave. Por exemplo, se uma consulta de pesquisa tem 15 palavras-chave e parâmetros e condições adicionais, a consulta é expandida 15 vezes, cada uma com os outros parâmetros e condições na consulta. Portanto, mesmo que o número de caracteres na consulta de pesquisa possa estar abaixo do limite, é a consulta expandida que pode contribuir para exceder esse limite.  <br/> |**Caixas de correio:** 10.000  <br/> **Sites:** 4.000 ao pesquisar todos os Sites ou 2.000 ao Pesquisar até 20 sites <sup>1</sup> <br/> |
-|Número máximo de variantes retornadas ao usar um caractere curinga de prefixo para pesquisar uma frase exata em uma consulta de pesquisa ou ao usar um caractere curinga de prefixo e o operador booliano **Near** ou **ONEAR** .  <br/> |10.000 <sup>2</sup> <br/> |
-|O número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo, `time*` `one*`, ou `set*`.  <br/> |3D  <br/> |
+|Número máximo de variantes retornadas ao usar um curinga de prefixo para pesquisar uma frase exata em uma consulta de pesquisa ou ao usar um caractere curinga de prefixo e o operador booliano **próximo** .  <br/> |10.000 <sup>2</sup> <br/> |
+|O número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo, `time*` , `one*` ou `set*` .  <br/> |3   <br/> |
 |O número máximo de caixas de correio em uma pesquisa de conteúdo que você pode excluir itens em uma ação de "pesquisa e limpeza" (usando o comando **New-ComplianceSearchAction-Purge** ). Se a pesquisa de conteúdo para a qual você está fazendo uma ação de limpeza tiver mais caixas de correio de origem do que esse limite, a ação de limpeza falhará. Para obter mais informações sobre pesquisa e limpeza, confira [Pesquisar e excluir mensagens de email em sua organização](search-for-and-delete-messages-in-your-organization.md).  <br/> |50.000  <br/> |
    
 > [!NOTE]
-> <sup>1</sup> ao pesquisar os locais do SharePoint e do onedrive for Business, os caracteres nas URLs dos sites que estão sendo pesquisados são contados em relação a esse limite. <br/> <sup>2</sup> para consultas de não-frase (um valor de palavra-chave que não usa aspas duplas) usamos um índice de prefixo especial. Isso nos diz que uma palavra ocorre em um documento, mas não onde ele ocorre no documento. Para fazer uma consulta de frase (um valor de palavra-chave com aspas duplas), precisamos comparar a posição dentro do documento para as palavras da frase. Isso significa que não é possível usar o índice de prefixo para consultas de frase. Nesse caso, expandimos internamente a consulta com todas as palavras possíveis às quais o prefixo se expande; por exemplo, `"time*"` pode expandir para `"time OR timer OR times OR timex OR timeboxed OR …"`. 10.000 é o número máximo de variantes à qual a palavra pode ser expandida, e não o número de documentos que correspondem à consulta. Não há um limite superior para termos de não frase. 
+> <sup>1</sup> ao pesquisar os locais do SharePoint e do onedrive for Business, os caracteres nas URLs dos sites que estão sendo pesquisados são contados em relação a esse limite. <br/> <sup>2</sup> para consultas de não-frase (um valor de palavra-chave que não usa aspas duplas) usamos um índice de prefixo especial. Isso nos diz que uma palavra ocorre em um documento, mas não onde ele ocorre no documento. Para fazer uma consulta de frase (um valor de palavra-chave com aspas duplas), precisamos comparar a posição dentro do documento para as palavras da frase. Isso significa que não é possível usar o índice de prefixo para consultas de frase. Nesse caso, expandimos internamente a consulta com todas as palavras possíveis às quais o prefixo se expande; por exemplo, `"time*"` pode expandir para `"time OR timer OR times OR timex OR timeboxed OR …"` . 10.000 é o número máximo de variantes à qual a palavra pode ser expandida, e não o número de documentos que correspondem à consulta. Não há um limite superior para termos de não frase. 
   
 ## <a name="indexing-limits-for-email-messages"></a>Limites de indexação para mensagens de email
 
@@ -82,7 +82,7 @@ Há limites adicionais relacionados a diferentes aspectos da pesquisa de conteú
     
 - [Investigar itens parcialmente indexados na descoberta eletrônica](investigating-partially-indexed-items-in-ediscovery.md)
     
-- [Limites de pesquisa para o SharePoint Online](https://support.office.com/article/7c06e9ed-98b6-4304-a900-14773a8fa32f)
+- [Limites de pesquisa para o SharePoint Online](https://docs.microsoft.com/sharepoint/search-limits)
     
 Para obter informações sobre pesquisas de conteúdo, consulte:
   

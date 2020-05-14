@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 description: Assim como os recursos do centro de conformidade da Microsoft 365, nosso conteúdo da ajuda está sempre evoluindo. Estamos constantemente criando novos artigos, atualizando os existentes e fazendo alterações com base em seus comentários. Descubra o que é novo e atualizado este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b7edcf8c4c530c926d323fddbf795cd930efd649
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 6995413d6bbd068ac5e126351dc1a8fb761a0934
+ms.sourcegitcommit: ad789f1e7bf9c9dc0d45c731373e667a26ed30b1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036014"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221415"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Atualizações recentes para o conteúdo de conformidade do Microsoft 365
 
@@ -32,7 +32,122 @@ Assim como os recursos do centro de conformidade da Microsoft 365, nosso conteú
 > [!TIP]
 > Para se manter atualizado sobre as atualizações de recursos mais recentes no centro de conformidade do Microsoft 365, confira [o que há de novo no centro de conformidade da microsoft 365](whats-new.md).
 
+## <a name="march-2020"></a>Março de 2020
+
+### <a name="auditing"></a>Auditoria
+
+[Usar a auditoria avançada para investigar contas comprometidas](mailitemsaccessed-forensics-investigations.md) (novo)<br>Nova orientação sobre o uso da nova ação de auditoria de caixa de correio do *MailItemsAccessed* para investigações forenses.
+
+Várias atualizações para [Pesquisar o log de auditoria](search-the-audit-log-in-security-and-compliance.md), incluindo:
+- [Nova seção](search-the-audit-log-in-security-and-compliance.md#the-appsharepoint-user-in-audit-records) com detalhes sobre o usuário de ' app@sharepoint ' listado em registros de auditoria.
+- [Novas descrições](search-the-audit-log-in-security-and-compliance.md#quarantine-activities) das atividades de quarentena.
+- Na seção [atividade de administração do usuário](search-the-audit-log-in-security-and-compliance.md#user-administration-activities) , esclarece que o evento "alterar senha de usuário é disparado quando um usuário altera sua própria senha (via redefinição de senha de autoatendimento) e o evento" Redefinir senha de usuário "é disparado quando um administrador redefine a senha de um usuário.
+
+### <a name="auto-expanding-archive"></a>Arquivo morto de expansão automática
+
+[Visão geral do arquivamento ilimitado](unlimited-archiving.md#outlook-requirements-for-accessing-items-in-an-auto-expanded-archive)(atualizado)<br>Foi adicionado um esclarecimento de que não é possível excluir qualquer pasta no arquivo morto principal ou em um arquivo auxiliar, quando o arquivamento de expansão automática está habilitado em uma caixa de correio.
+
+### <a name="compliance-scorecompliance-manager"></a>Pontuação de conformidade/gerente de conformidade
+
+Todos os tópicos de [Pontuação de conformidade](compliance-score.md) e [gerente de conformidade](compliance-manager-overview.md) refletem atualizações para esses produtos lançados no início de abril (ainda estão na visualização pública). As principais atualizações incluem:
+- Processo simplificado para a criação e modificação de modelos
+- Controle e aviso de controle de versão para modelos e ações
+- Sincronização de ações comuns entre grupos
+- Suporte a idiomas agora estendido para chinês (simplificado), chinês (tradicional), francês, alemão, italiano, japonês, coreano, Português (Brasil), russo e espanhol
+
+### <a name="communication-compliance"></a>Conformidade em comunicações
+
+[Estudo de caso-Contoso configura rapidamente uma política de linguagem ofensiva para comunicações do Microsoft Teams, Exchange e Yammer](communication-compliance-case-study.md) (novas)<br>Um estudo de caso passo a passo para organizações de educação e pequenas empresas para ajudá-los a configurar rapidamente uma política de linguagem ofensiva. Mais solicitações de clientes à medida que as organizações aumentam para respostas COVID19.
+
+[Introdução à conformidade de comunicação](communication-compliance-configure.md) (atualizado)<br>Requisitos atualizados de licenciamento e permissões.
+
+### <a name="customer-key"></a>Chave de Cliente
+
+[Rolar ou girar uma chave do cliente ou uma chave de disponibilidade](customer-key-availability-key-roll.md) (atualizado)<br>Atualizações organizacionais que ajudam a esclarecer quais teclas você pode ou não rolar.
+
+[Saiba mais sobre a chave de disponibilidade da chave do cliente](customer-key-availability-key-understand.md) (atualizado)<br>Esclarecimento adicional sobre a arquitetura do Exchange Online para a chave do cliente.
+
+### <a name="data-loss-prevention"></a>Prevenção contra perda de dados
+
+[Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md) (atualizada)<br>Atualizado quanto tempo leva para os rótulos de retenção entrarem em vigor e as políticas de comportamento padrão sem alertas configurados.
+
+### <a name="ediscovery"></a>Descoberta eletrônica
+
+[Introdução à descoberta eletrônica avançada](get-started-with-advanced-ediscovery.md) (nova)<br>Fornece informações sobre requisitos de licenciamento e permissões, etapas para definir as configurações globais e criar um novo caso e uma explicação sobre o fluxo de trabalho de descoberta eletrônica avançada.
+
+[Aposentadoria de ferramentas de descoberta eletrônica herdadas](legacy-ediscovery-retirement.md) (atualizado)<br>As datas de aposentadoria foram movidas três meses devido à situação de integridade pública. O artigo atualizado cita as novas datas de aposentadoria.
+
+### <a name="insider-risk-management"></a>Gerenciamento de riscos internos
+
+[Introdução ao gerenciamento de risco do insider](insider-risk-management-configure.md) (atualizado)<br>Requisitos atualizados de licenciamento e permissões.
+
+[Definir políticas de barreira de informações](information-barriers-policies.md) (atualizadas)<br>O tempo e a velocidade de processamento esclarecidos precisam ser aplicados. Foram adicionados detalhes sobre como nenhuma política de catálogo de endereços deve ser realizada. Além disso, várias atualizações de código do PowerShell, incluindo o novo código para filtragem.
+
+[Barreiras de informação](information-barriers.md) (atualizado)<br>Correção de alguns links desfeitos e links e títulos atualizados do PDF. Por feedback do cliente, esclarece que as barreiras de informação só dão suporte a restrições bidirecionais. As restrições unidirecionais (como marketing podem se comunicar com o dia dos comerciantes, mas o dia dos comerciantes não podem se comunicar com o marketing) não é suportado.
+
+[Solucionando problemas de barreiras de informações](information-barriers-troubleshooting.md) (atualizado)<br>Foi adicionada a nova seção cenário de solução de problemas. Adicionado um link para as etapas de como reaplicar as barreiras de informação.
+
+### <a name="office-365-message-encryption"></a>Criptografia de Mensagem do Office 365
+
+[Gerenciar a criptografia de mensagem do Office 365](manage-office-365-message-encryption.md) (atualizado)<br>Atualizado para refletir que a função de forçar wrapper é um recurso padrão do OME, não um avançado. Reescreveu exemplos do PowerShell para excluir todas as referências à revogação e à expiração dos recursos avançados do OME.
+
+[Perguntas frequentes sobre criptografia de mensagem](ome-faq.md) (atualizado)<br>Esclarecido que somente o Outlook para a Web pode aplicar a criptografia ad-hoc. Da mesma forma, para todos os clientes do Outlook, mensagens e anexos PDF desprotegidos herdam a proteção do OME da política de prevenção de perda de dados (DLP) ou regra de fluxo de emails no Exchange Online.
+
+### <a name="privileged-access-management"></a>Gerenciamento de acesso privilegiado
+
+[Introdução ao gerenciamento de acesso privilegiado](privileged-access-management-configuration.md) (atualizado)<br>Requisitos atualizados de licenciamento e permissões.
+
+### <a name="pst-import"></a>Importação de PST
+
+[Perguntas frequentes sobre a importação de arquivos PST](faqimporting-pst-files-to-office-365.md) (atualizado)<br>Adicionadas Perguntas frequentes sobre como o processo de importação de PST trata itens de email duplicados.
+
+### <a name="retention"></a>Retenção
+
+[Visão geral das políticas de retenção](retention-policies.md) (atualizadas)<br>As alterações incluem:
+
+- Foram adicionados caminhos de conteúdo para políticas de retenção somente para retenção e exclusão (anteriormente, caminhos de conteúdo explicados apenas para reter e excluir).
+- [Seção atualizada](retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations) explicando que, para os locais do SharePoint, agora você especifica uma URL, em vez de escolher um site. Isso significa que você não precisa de permissões para acessar o site a fim de incluí-lo em uma política de retenção.
+
+### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
+
+[Saiba mais sobre rótulos de sensibilidade](sensitivity-labels.md) (atualizado)<br>Adicionou detalhes de substituição sobre o gerenciamento de etiquetas no portal do Azure, incluindo um link para [o aviso oficial](https://techcommunity.microsoft.com/t5/azure-information-protection/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
+
+[Introdução aos rótulos de confidencialidade](get-started-with-sensitivity-labels.md) (atualizado)<br>Foram adicionadas informações sobre a nova função leitor de rótulo de confidencialidade que é suportada inicialmente apenas para os cmdlets do PowerShell de rótulo.
+
+[Criar e configurar rótulos de sensibilidade e suas políticas](create-sensitivity-labels.md#removing-and-deleting-labels) (atualizado)<br>Foi adicionada a nova seção explica as conseqüências da remoção e exclusão de rótulos.
+
+[Usar rótulos de confidencialidade para proteger o conteúdo no Microsoft Teams, microsoft 365 Groups e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md) (atualizado)<br>As alterações incluem:
+
+- Foram removidas as instruções do Azure AD e vinculadas às [informações autoritativas do Azure ad](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
+- Atualizou a seção [como definir as configurações de site e de grupo ao criar ou editar rótulos de confidencialidade](sensitivity-labels-teams-groups-sites.md#how-to-configure-site-and-group-settings-when-you-create-or-edit-sensitivity-labels) com informações sobre a **privacidade da configuração de sites conectados ao grupo do Office 365** , que inclui a nova opção **nenhum** .
+- Adicionada uma observação descrevendo como somente os rótulos com configurações de site e de grupo estarão disponíveis para selecionar quando os usuários criarem equipes, grupos e sites. Essa funcionalidade está sendo implantada gradualmente nas organizações.
+
+[Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia](encryption-sensitivity-labels.md) (atualizado)<br>[Nova seção](encryption-sensitivity-labels.md#example-configurations-for-the-encryption-settings) com exemplos de configurações de criptografia para algumas das configurações usadas com mais frequência para proteger documentos e emails.
+
+[Aplicar um rótulo de confidencialidade ao conteúdo automaticamente](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps) (atualizado)<br>Explicação das diferenças de comportamento entre rotulação interna vs. o cliente de rotulação unificado de proteção de informações do Azure.
+
+[Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no onedrive](sensitivity-labels-sharepoint-onedrive-files.md) (atualizado)<br>As alterações incluem:
+
+- Esclarecida que a habilitação dessa visualização exibe o botão **sensibilidade** na faixa de opções do Office para a Web, além de oferecer suporte a documentos que são rotulados e criptografados.
+- Foram atualizadas as instruções para o Office 365 multigeográfico.
+- A lista de limitações tem uma nova entrada que inclui o que acontece quando um computador entra offline ou dormir, e se um rótulo é excluído.
+
+[Usar rótulos de confidencialidade nos aplicativos do Office](sensitivity-labels-office-apps.md) (atualizado)<br>As alterações incluem:
+
+- Moveu as informações de licenciamento para começar a usar [Rótulos de confidencialidade](get-started-with-sensitivity-labels.md).
+- [Nova seção](sensitivity-labels-office-apps.md#labeling-client-for-desktop-apps) explicando como, para usar rótulos criados em aplicativos de área de trabalho do Office, você deve usar uma edição de assinatura do Office em vez de edições autônomas.
+- As tabelas de aplicativos com suporte incluem o aplicativo do Office para iOS e Android e a configuração que permite que os usuários atribuam permissões para o Word, Excel e PowerPoint seja atualizada – agora lançando o canal mensal para Windows e Mac.  
+- [Nova seção](sensitivity-labels-office-apps.md#office-built-in-labeling-client-and-other-labeling-solutions) explicando como você pode usar a configuração da política de grupo para desabilitar o rotulamento interno, se estiver usando outras soluções de rotulação que você deseja manter usando para os computadores com Windows. 
+- Atualizou a seção [Opções de gerenciamento de direitos de informação (IRM) e rótulos de confidencialidade](sensitivity-labels-office-apps.md#information-rights-management-irm-options-and-sensitivity-labels) com a recomendação de usar rótulos que aplicam criptografia em vez de opções de IRM, com uma explicação de possíveis conseqüências quando as duas soluções de proteção são misturadas.
+
+### <a name="trainable-classifiers"></a>Classificadores estagiários
+
+[Introdução aos classificadores estagiários (visualização)](classifier-getting-started-with.md) (atualizado)<br>Foram adicionadas informações sobre como o modelo de linguagem ofensiva está sendo preterido. Também adicionada uma tabela listando os 25 idiomas de código principais usados no classificador interno do código-fonte.
+
 ## <a name="february-2020"></a>Fevereiro de 2020
+
+> [!NOTE]
+> Os artigos listados nos meses anteriores podem ter sido já atualizados, movidos ou excluídos. Como resultado, alguns dos detalhes abaixo podem estar desatualizados e os links podem ser desfeitos.
 
 ### <a name="auditing"></a>Auditoria
 

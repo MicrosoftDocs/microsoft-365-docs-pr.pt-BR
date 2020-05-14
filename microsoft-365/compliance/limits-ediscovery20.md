@@ -1,5 +1,5 @@
 ---
-title: Limites avançados de descoberta eletrônica
+title: Limites Descoberta Eletrônica Avançada
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre os limites em vigor para a solução de descoberta eletrônica avançada no Microsoft 365. Isso inclui limites de caso, limites de indexação e limites de pesquisa ao usar a ferramenta de pesquisa para coletar dados de caso.
-ms.openlocfilehash: b3e5dd1d80a60249ccc24d1af20f5e78f94f8421
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5fe14aec3be9de2ec614ecf3737387f08d2e7b88
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41585710"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224658"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Limites da Descoberta Eletrônica Avançada
 
@@ -60,11 +60,11 @@ Os limites descritos nesta seção estão relacionados ao uso da ferramenta de p
 |Número máximo de pesquisas que podem ser executadas ao mesmo tempo.  <br/> |Sem limite  <br/> | 
 |Número máximo de pesquisas que um único usuário pode iniciar ao mesmo tempo.  <br/> |10   <br/> | 
 |Número máximo de caracteres para uma consulta de pesquisa (incluindo operadores e condições).  <br/> |**Caixas de correio**: 10.000<br/>**Sites**: 4.000 ao pesquisar todos os Sites ou 2.000 ao Pesquisar até 20 sites <sup>2</sup> <br/> |
-|Número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo **,\* um** ou **conjunto\***. <br/> |3D  <br/> |  
-|Máximo de variantes retornadas ao usar curinga de prefixo para pesquisar uma frase exata ou ao usar um caractere curinga de prefixo e o operador booleano **Near** ou **ONEAR** .  <br/> |10.000 <sup>3</sup> <br/> |
+|Número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo **, \* um** ou **conjunto \* **. <br/> |3   <br/> |  
+|Máximo de variantes retornadas ao usar curinga de prefixo para pesquisar uma frase exata ou ao usar um caractere curinga de prefixo e o operador booleano **próximo** .  <br/> |10.000 <sup>3</sup> <br/> |
 |Número máximo de itens por caixa de correio do usuário que são exibidos na página de visualização para pesquisas. Os itens mais recentes são exibidos.   <br/> |100  <br/> |
-|Número máximo de itens de todas as caixas de correio exibidas na página de visualização para pesquisas.  <br/> |1,000  <br/> |
-|Número máximo de caixas de correio que podem ser visualizadas para resultados de pesquisa.  Se houver mais de 1000 caixas de correio que contenham itens que correspondam à consulta de pesquisa, somente as primeiras caixas de correio de 1.000 com a maioria dos resultados estarão disponíveis para visualização.<br/> |1,000  <br/> |
+|Número máximo de itens de todas as caixas de correio exibidas na página de visualização para pesquisas.  <br/> |1.000  <br/> |
+|Número máximo de caixas de correio que podem ser visualizadas para resultados de pesquisa.  Se houver mais de 1000 caixas de correio que contenham itens que correspondam à consulta de pesquisa, somente as primeiras caixas de correio de 1.000 com a maioria dos resultados estarão disponíveis para visualização.<br/> |1.000  <br/> |
 |Número máximo de itens de sites do SharePoint e do OneDrive for Business exibidos na página de visualização para pesquisas. Os itens mais recentes são exibidos.  <br/> |200  <br/> |
 |Número máximo de sites do SharePoint e do OneDrive for Business que podem ser visualizados nos resultados da pesquisa. Se houver mais de 200 sites que contenham itens que correspondam à consulta de pesquisa, somente os primeiros 200 sites com mais resultados estarão disponíveis para visualização.  <br/> |200  <br/> |
 |Número máximo de itens por caixa de correio de pasta pública exibida na página de visualização para pesquisas.  <br/> |100  <br/> |
@@ -92,6 +92,6 @@ Os limites descritos nesta seção estão relacionados ao uso da ferramenta de p
 > [!NOTE]
 > <sup>1</sup> qualquer item que exceda um limite de arquivo único aparecerá como um erro de processamento.<br/>
 > <sup>2</sup> ao pesquisar os locais do SharePoint e do onedrive for Business, os caracteres nas URLs dos sites que estão sendo pesquisados de acordo com esse limite.<br/>
-> <sup>3</sup> para consultas que não são de frase (um valor de palavra-chave que não usa aspas duplas) usamos um índice de prefixo especial. Isso nos diz que uma palavra ocorre em um documento, mas não onde ele ocorre no documento. Para fazer uma consulta de frase (um valor de palavra-chave com aspas duplas), precisamos comparar a posição dentro do documento para as palavras da frase. Isso significa que não é possível usar o índice de prefixo para consultas de frase. Nesse caso, expandimos internamente a consulta com todas as palavras possíveis às quais o prefixo se expande; por exemplo, **o\* tempo** pode ser expandido para **"tempo ou temporizador ou horários, ou para a caixa de entrada ou para o relógio ou..."**. O limite de 10.000 é o número máximo de variantes que a palavra pode expandir, e não o número de documentos que correspondem à consulta. Não há um limite superior para termos de não frase.<br/>
+> <sup>3</sup> para consultas que não são de frase (um valor de palavra-chave que não usa aspas duplas) usamos um índice de prefixo especial. Isso nos diz que uma palavra ocorre em um documento, mas não onde ele ocorre no documento. Para fazer uma consulta de frase (um valor de palavra-chave com aspas duplas), precisamos comparar a posição dentro do documento para as palavras da frase. Isso significa que não é possível usar o índice de prefixo para consultas de frase. Nesse caso, expandimos internamente a consulta com todas as palavras possíveis às quais o prefixo se expande; por exemplo, **o \* tempo** pode ser expandido para **"tempo ou temporizador ou horários, ou para a caixa de entrada ou para o relógio ou..."**. O limite de 10.000 é o número máximo de variantes que a palavra pode expandir, e não o número de documentos que correspondem à consulta. Não há um limite superior para termos de não frase.<br/>
 > <sup>4</sup> este limite se aplica ao download de documentos selecionados a partir de um conjunto de revisão. Ela não se aplica à exportação de documentos a partir de um conjunto de revisão. Para obter mais informações sobre como baixar e exportar documentos, consulte [exportar dados de caso na descoberta eletrônica avançada](exporting-data-ediscover20.md). <br/>
 

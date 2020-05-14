@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: e86fc991-0161-4f01-9c1c-d25e87733d06
 description: Com o Office 365, alguns recursos de criptografia são ativados por padrão; outros recursos podem ser configurados para atender a certos requisitos legais ou de conformidade.
-ms.openlocfilehash: bce7487f1cb57c04e262f068ea7e192808e43e8a
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 439ae3e848a521b143ab1ea67e3354ca21077f36
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943472"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222490"
 ---
 # <a name="set-up-encryption-in-office-365-enterprise"></a>Configure a criptografia no Office 365 Enterprise
 
@@ -34,7 +34,7 @@ Com o Office 365, vários recursos de criptografia estão disponíveis por padr�
 |**Cenário**|**Métodos de criptografia**|
 |:-----|:-----|
 |Os arquivos são salvos em computadores com Windows  <br/> |A criptografia no nível do computador pode ser feita usando o BitLocker em dispositivos Windows. Como administrador corporativo ou profissional de ti, você pode configurar isso usando o kit de ferramentas de implantação da Microsoft (MDT). Confira [Configurar o MDT for BitLocker](https://go.microsoft.com/fwlink/?linkid=849282).  <br/> |
-|Os arquivos são salvos em dispositivos móveis  <br/> |Alguns tipos de dispositivos móveis criptografam arquivos que são salvos nesses dispositivos por padrão. Com os [recursos do gerenciamento de dispositivo móvel interno para o Office 365](https://support.office.com/article/a1da44e5-7475-4992-be91-9ccec25905b0), você pode definir políticas que determinam se os dispositivos móveis devem acessar dados no Office 365. Por exemplo, você pode definir uma política que permita que apenas dispositivos que criptografam o conteúdo acessem os dados do Office 365. Consulte [criar e implantar políticas de segurança de dispositivos](https://support.office.com/article/d310f556-8bfb-497b-9bd7-fe3c36ea2fd6).  <br/> Para obter mais controle sobre como os dispositivos móveis interagem com o Office 365, você pode considerar a adição [do Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/setup-steps).  <br/> |
+|Os arquivos são salvos em dispositivos móveis  <br/> |Alguns tipos de dispositivos móveis criptografam arquivos que são salvos nesses dispositivos por padrão. Com os [recursos do gerenciamento de dispositivo móvel interno para o Office 365](https://support.microsoft.com/en-us/office/capabilities-of-built-in-mobile-device-management-for-microsoft-365-a1da44e5-7475-4992-be91-9ccec25905b0), você pode definir políticas que determinam se os dispositivos móveis devem acessar dados no Office 365. Por exemplo, você pode definir uma política que permita que apenas dispositivos que criptografam o conteúdo acessem os dados do Office 365. Consulte [criar e implantar políticas de segurança de dispositivos](https://support.microsoft.com/en-us/office/create-and-deploy-device-security-policies-d310f556-8bfb-497b-9bd7-fe3c36ea2fd6).  <br/> Para obter mais controle sobre como os dispositivos móveis interagem com o Office 365, você pode considerar a adição [do Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/setup-steps).  <br/> |
 |Você precisa de controle sobre as chaves de criptografia usadas para criptografar seus dados nos data centers da Microsoft  <br/> | Como administrador do Office 365, você pode controlar as chaves de criptografia da sua organização e, em seguida, configurar o Office 365 para usá-las para criptografar seus dados em repouso nos data centers da Microsoft.  <br/> [Criptografia de serviço com Chave de Cliente no Office 365](customer-key-overview.md) <br/> |
 |Pessoas estão se comunicando por email (Exchange Online)  <br/> | Como administrador do Exchange Online, você tem várias opções para configurar a criptografia de email. Entre eles:  <br/>  Usando a [criptografia de mensagem do Office 365 (ome)](set-up-new-message-encryption-capabilities.md) com o Azure Rights Management (Azure RMS) para permitir que as pessoas enviem mensagens criptografadas dentro ou fora da sua organização  <br/>  Usando [S/MIME para assinatura e criptografia de mensagens](https://aka.ms/c6dozg) para criptografar e assinar digitalmente mensagens de email  <br/>  Usando o TLS para [configurar conectores para fluxo de email seguro com outra organização](https://aka.ms/hs809p) <br/>  Consulte [criptografia de email no Office 365](https://aka.ms/hic3f7).  <br/> |
 |Os arquivos são acessados por sites de equipe ou bibliotecas de documentos (OneDrive for Business ou SharePoint Online)  <br/> |Quando as pessoas estão trabalhando com arquivos salvos no OneDrive for Business ou no SharePoint Online, as conexões TLS são usadas. Isso é feito automaticamente no Office 365. Consulte [criptografia de dados no onedrive for Business e no SharePoint Online](https://go.microsoft.com/fwlink/?linkid=526379).  <br/> |

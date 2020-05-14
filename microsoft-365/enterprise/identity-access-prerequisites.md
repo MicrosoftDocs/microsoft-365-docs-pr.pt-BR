@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 99a124ff57816481cde92dd79c3058a2e7b72d31
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: bfbb0481670b2f957bf240c261fcbafab96717b9
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625201"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222584"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Trabalho de pré-requisito para implementar as políticas de acesso de dispositivo e identidade
 
@@ -42,7 +42,7 @@ Antes de implementar as políticas recomendadas de identidade e acesso de dispos
 | **Preparar sua equipe de suporte**. Tenha um plano em vigor para os usuários que não podem concluir a MFA. Isso pode ser adicionado a um grupo de exclusão de política ou registrar novas informações da MFA para elas. Antes de fazer qualquer uma dessas alterações confidenciais de segurança, você precisa garantir que o usuário real está fazendo a solicitação. Exigir que os gerentes dos usuários ajudem na aprovação é uma etapa eficaz. | Sim | Sim | Sim | Sim |  
 | [Configurar o write-back de senha para o AD local](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started). O Write-back de senha permite ao Azure AD exigir que os usuários alterem suas senhas locais quando um comprometimento de conta de alto risco for detectado. Você pode habilitar esse recurso usando o Azure AD Connect de duas maneiras: habilite o **write-back de senha** na tela recursos opcionais do assistente de configuração do Azure ad Connect ou habilite-o por meio do Windows PowerShell. |   | Sim | Sim | Sim |
 | [Habilitar a proteção de identidade do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/identity-protection/enable). O Azure AD Identity Protection permite que você detecte possíveis vulnerabilidades que afetam as identidades da sua organização e configure uma política de correção automatizada para riscos de entrada baixa, média e alta e o risco do usuário.  | Sim | Sim | Sim | Sim |
-| **Habilitar a autenticação moderna** do [Exchange Online](https://support.office.com/article/Enable-or-disable-modern-authentication-in-Exchange-Online-58018196-f918-49cd-8238-56f57f38d662) e do [Skype for Business online](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx). A autenticação moderna é um pré-requisito para usar a MFA (autenticação multifator). A autenticação moderna está habilitada por padrão para clientes do Office 2016, SharePoint Online e OneDrive for Business. | Sim | Sim | Sim | Sim |
+| **Habilitar a autenticação moderna** do [Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) e do [Skype for Business online](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx). A autenticação moderna é um pré-requisito para usar a MFA (autenticação multifator). A autenticação moderna está habilitada por padrão para clientes do Office 2016, SharePoint Online e OneDrive for Business. | Sim | Sim | Sim | Sim |
 ||||||
 
 
@@ -69,7 +69,7 @@ Os seguintes clientes de email dão suporte a autenticação moderna e acesso co
 
 |Plataforma|Cliente|Versão/Notas|
 |:-------|:-----|:------------|
-|**Windows**|Outlook|2016, 2013 [habilitar a autenticação moderna](https://support.office.com/article/Enable-Modern-Authentication-for-Office-2013-on-Windows-devices-7dc1c01a-090f-4971-9677-f1b192d6c910), [atualizações necessárias](https://support.office.com/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|
+|**Windows**|Outlook|2016, 2013 [habilitar a autenticação moderna](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication), [atualizações necessárias](https://support.office.com/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|
 |**iOS**|Outlook para iOS|[Mais recente](https://itunes.apple.com/us/app/microsoft-outlook-email-and-calendar/id951937596?mt=8)|
 |**Android**|Outlook para Android|[Mais recente](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en)|
 |**macOS**|Outlook|2016|
@@ -82,16 +82,16 @@ Os clientes a seguir são recomendados quando uma política de documentos seguro
 
 |Plataforma|Word/Excel/PowerPoint|OneNote|Aplicativo OneDrive|Aplicativo do SharePoint|Cliente de sincronização do OneDrive|
 |:-------|:-----|:------------|:-------|:-------------|:-----|
-|Windows 7|Com suporte|Com suporte|N/D|N/D|Versão prévia<sup>*</sup>|
-|Windows 8.1|Com suporte|Com suporte|Não disponível|N/D|Versão prévia<sup>*</sup>|
+|Windows 7|Com suporte|Com suporte|Não disponível|Não disponível|Versão prévia<sup>*</sup>|
+|Windows 8.1|Com suporte|Com suporte|Não disponível|Não disponível|Versão prévia<sup>*</sup>|
 |Windows 10|Com suporte|Com suporte|Não disponível|Não disponível|Versão prévia<sup>*</sup>|
 |Windows Phone 10|Sem suporte|Sem suporte|Não Suportado|Não Suportado|Não Suportado|
 |Android|Com suporte|Com suporte|Com suporte|Com suporte|N/D|
 |iOS|Com suporte|Com suporte|Com suporte|Com suporte|N/D|
-|macOS|Visualização Pública|Visualização Pública|N/D|N/D|Sem suporte|
+|macOS|Visualização Pública|Visualização Pública|Não disponível|Não disponível|Sem suporte|
 |Linux|Sem suporte|Sem suporte|Sem suporte|Sem suporte|Sem suporte|
 
-<sup>*</sup>Saiba mais sobre como usar o acesso condicional com o [cliente de sincronização do onedrive](https://support.office.com/article/Azure-Active-Directory-conditional-access-with-the-OneDrive-sync-client-on-Windows-028d73d7-4b86-4ee0-8fb7-9a209434b04e).
+<sup>*</sup>Saiba mais sobre como usar o acesso condicional com o [cliente de sincronização do onedrive](https://docs.microsoft.com/onedrive/enable-conditional-access).
 
 ### <a name="microsoft-365-client-support"></a>Suporte ao cliente Microsoft 365
 Para obter mais informações sobre o suporte ao cliente, consulte os seguintes artigos:
@@ -114,7 +114,7 @@ Para obter mais informações, consulte [Baseline Security Policy for Azure ad a
 As recomendações adicionais incluem o seguinte:
 - Use o Azure AD Privileged Identity Management para reduzir o número de contas administrativas persistentes. Confira [começar a usar o PIM](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-getting-started). 
 - [Use o gerenciamento de acesso privilegiado no Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview) para proteger sua organização contra violações que podem usar contas de administrador privilegiadas existentes com acesso à posição para dados confidenciais ou acesso a definições de configuração crítica. 
-- Use as contas de administrador somente para administração. Os administradores devem ter uma conta de usuário separada para uso não administrativo regular e só usar a conta administrativa, quando necessário, para concluir uma tarefa associada à função de trabalho. As funções de [administrador do microsoft 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) têm muito mais privilégios do que os serviços do Microsoft 365.
+- Use as contas de administrador somente para administração. Os administradores devem ter uma conta de usuário separada para uso não administrativo regular e só usar a conta administrativa, quando necessário, para concluir uma tarefa associada à função de trabalho. As funções de [administrador do microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) têm muito mais privilégios do que os serviços do Microsoft 365.
 - Siga as práticas recomendadas para proteger contas privilegiadas no Azure AD, conforme descrito neste [artigo](https://docs.microsoft.com/azure/active-directory/admin-roles-best-practices).
 
 ## <a name="next-steps"></a>Próximas etapas

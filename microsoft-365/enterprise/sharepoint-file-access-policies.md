@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 2b0d015485196bc76e7de580c888892967fe5d05
-ms.sourcegitcommit: c079cc893cd1bd5d894b13814063a2f42238806e
+ms.openlocfilehash: 6429c3dee32087d6e82a427b2f374ec49bab5cac
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43035118"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222680"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Recomendações de política para proteger sites e arquivos do SharePoint
 
@@ -46,7 +46,7 @@ A tabela a seguir lista as políticas que você precisa analisar e atualizar ou 
 |Nível de Proteção|Políticas|Mais informações|
 |:---------------|:-------|:----------------|
 |**Baseline**|[Exigir MFA quando o risco de entrada for *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o SharePoint Online na atribuição de aplicativos de nuvem|
-|        |[Bloquear clientes que não oferecem suporte à autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Incluir o SharePoint Online na atribuição de aplicativos de nuvem|
+|        |[Bloquear clientes sem suporte para a autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Incluir o SharePoint Online na atribuição de aplicativos de nuvem|
 |        |[Aplicar políticas de proteção de dados do aplicativo](identity-access-policies.md#apply-app-data-protection-policies)|Certifique-se de que todos os aplicativos recomendados estão incluídos na lista de aplicativos. Certifique-se de atualizar a política para cada plataforma (iOS, Android, Windows)|
 |        |[Exigir PCs compatíveis](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Incluir o SharePoint Online na lista de aplicativos em nuvem|
 |        |[Usar restrições impostas pelo aplicativo no SharePoint Online](#use-app-enforced-restrictions-in-sharepoint-online)|Adicione essa nova política. Isso informa ao Azure AD para usar as configurações especificadas no SharePoint Online. Esta regra se aplica a todos os usuários, mas afeta apenas o acesso aos sites incluídos nas políticas de acesso do SharePoint Online|
@@ -60,7 +60,7 @@ A tabela a seguir lista as políticas que você precisa analisar e atualizar ou 
 
 Se você implementar controles de acesso no SharePoint Online, você deve criar essa política de acesso condicional no Azure AD para informar ao Azure AD para impor as políticas que você configurou no SharePoint Online. Essa regra se aplica a todos os usuários, mas afeta apenas o acesso aos sites especificados usando o PowerShell quando você cria os controles de acesso no SharePoint Online.
 
-Para configurar esta política, consulte "bloquear ou limitar o acesso a conjuntos de sites do SharePoint ou contas do OneDrive específicos" neste artigo: [controlar o acesso de dispositivos não gerenciados](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622).
+Para configurar esta política, consulte "bloquear ou limitar o acesso a conjuntos de sites do SharePoint ou contas do OneDrive específicos" neste artigo: [controlar o acesso de dispositivos não gerenciados](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices).
 
 ## <a name="sharepoint-online-access-control-policies"></a>Políticas de controle de acesso do SharePoint Online
 
@@ -69,7 +69,7 @@ A Microsoft recomenda que você proteja o conteúdo em sites do SharePoint com c
 - Sites confidenciais: permitir acesso somente para navegador. Isso impede que os usuários editem e baixem arquivos.
 - Sites altamente regulamentados: bloquear o acesso de dispositivos não gerenciados.
 
-Consulte "bloquear ou limitar o acesso a conjuntos de sites do SharePoint ou contas do OneDrive específicos" neste artigo: [controlar o acesso de dispositivos não gerenciados](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622).
+Consulte "bloquear ou limitar o acesso a conjuntos de sites do SharePoint ou contas do OneDrive específicos" neste artigo: [controlar o acesso de dispositivos não gerenciados](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices).
 
 ## <a name="how-these-policies-work-together"></a>Como essas políticas funcionam juntas
 

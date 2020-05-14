@@ -6,10 +6,10 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.openlocfilehash: b7054613ea9add542e2a4466c6feb6d911c99701
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.sourcegitcommit: ad789f1e7bf9c9dc0d45c731373e667a26ed30b1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
+ms.lasthandoff: 05/13/2020
 ms.locfileid: "43637859"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Descrição do serviço da Área de trabalho gerenciada da Microsoft

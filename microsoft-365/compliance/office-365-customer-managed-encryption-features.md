@@ -15,12 +15,12 @@ ms.collection: Strat_O365_Enterprise
 ms.custom:
 - seo-marvel-mar2020
 description: Neste artigo, você aprenderá sobre tecnologias de criptografia que podem ser gerenciadas e configuradas no Microsoft 365.
-ms.openlocfilehash: 3c7050ba0417473b4b387937336aae02c1eba778
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: a70f737d1af10622b093bddc682cc493396fff45
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033609"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214217"
 ---
 # <a name="customer-managed-encryption-features"></a>Recursos de criptografia gerenciada pelo cliente
 
@@ -56,11 +56,11 @@ A [Microsoft oferece suporte a S/MIME](https://blogs.technet.com/b/exchange/arch
 
 ## <a name="office-365-message-encryption"></a>Criptografia de Mensagem do Office 365
 
-A [criptografia de mensagens do Office 365](https://products.office.com/exchange/office-365-message-encryption) (ome) construída sobre a [proteção de informações do Azure](https://docs.microsoft.com/information-protection/understand-explore/what-is-information-protection) (AIP) permite que você envie emails criptografados e protegidos por direitos para qualquer pessoa. O OME atenua ameaças como ataques de toque e sem interrupções, e outras ameaças, como o acesso não garantido de dados por um usuário não autorizado que não tenha as permissões corretas. Fizemos investimentos que oferecem uma experiência de email mais simples, mais intuitiva e segura criada sobre a proteção de informações do Azure. Você pode proteger as mensagens enviadas do Microsoft 365 para qualquer pessoa dentro ou fora da sua organização. Essas mensagens podem ser exibidas em um conjunto variado de clientes de email usando qualquer identidade, incluindo o Azure Active Directory, a conta da Microsoft e o Google IDs. Para obter mais informações sobre como sua organização pode usar mensagens criptografadas, consulte [Office 365 Message Encryption](https://support.office.com/article/F87CB016-7876-4317-AE3C-9169B311FF8A).
+A [criptografia de mensagens do Office 365](https://products.office.com/exchange/office-365-message-encryption) (ome) construída sobre a [proteção de informações do Azure](https://docs.microsoft.com/information-protection/understand-explore/what-is-information-protection) (AIP) permite que você envie emails criptografados e protegidos por direitos para qualquer pessoa. O OME atenua ameaças como ataques de toque e sem interrupções, e outras ameaças, como o acesso não garantido de dados por um usuário não autorizado que não tenha as permissões corretas. Fizemos investimentos que oferecem uma experiência de email mais simples, mais intuitiva e segura criada sobre a proteção de informações do Azure. Você pode proteger as mensagens enviadas do Microsoft 365 para qualquer pessoa dentro ou fora da sua organização. Essas mensagens podem ser exibidas em um conjunto variado de clientes de email usando qualquer identidade, incluindo o Azure Active Directory, a conta da Microsoft e o Google IDs. Para obter mais informações sobre como sua organização pode usar mensagens criptografadas, consulte [Office 365 Message Encryption](https://docs.microsoft.com/microsoft-365/compliance/ome).
 
 ## <a name="transport-layer-security"></a>Protocolo TLS   
 
-Se quiser garantir uma comunicação segura com um parceiro, você pode usar conectores de entrada e de saída para fornecer segurança e integridade da mensagem. Você pode configurar o TLS de entrada e saída forçado em cada conector, usando um certificado. O uso de um canal SMTP criptografado pode evitar que os dados sejam roubados por meio de um ataque man-in-the-Middle. Para obter mais informações, consulte [como o Exchange Online usa o TLS para proteger conexões de email](https://support.office.com/article/How-Exchange-Online-uses-TLS-to-secure-email-connections-in-Office-365-4CDE0CDA-3430-4DC0-B489-F2C0736C929F).
+Se quiser garantir uma comunicação segura com um parceiro, você pode usar conectores de entrada e de saída para fornecer segurança e integridade da mensagem. Você pode configurar o TLS de entrada e saída forçado em cada conector, usando um certificado. O uso de um canal SMTP criptografado pode evitar que os dados sejam roubados por meio de um ataque man-in-the-Middle. Para obter mais informações, consulte [como o Exchange Online usa o TLS para proteger conexões de email](https://docs.microsoft.com/microsoft-365/compliance/exchange-online-uses-tls-to-secure-email-connections).
 
 ## <a name="domain-keys-identified-mail"></a>Chaves de domínio identificadas por email
 

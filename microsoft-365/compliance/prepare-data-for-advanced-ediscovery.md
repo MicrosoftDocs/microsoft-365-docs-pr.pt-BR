@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2fb94c23-1846-4a0e-994d-da6d02445f15
 description: 'Saiba como usar o centro de &amp; conformidade de segurança para preparar dados para análise com a descoberta eletrônica avançada. '
-ms.openlocfilehash: 25b500e88e53dfae9b8fa9d504a402f4e2f7ce12
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 31bf002c275b228de12b7ff9e39fabf7c72be74d
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208095"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214279"
 ---
 # <a name="prepare-data-for-advanced-ediscovery-classic"></a>Preparar dados para descoberta eletrônica avançada (clássico)
 
@@ -37,7 +37,7 @@ Para analisar dados com a descoberta eletrônica avançada, você pode usar os r
 Para obter as etapas detalhadas sobre como preparar resultados de pesquisa para análise na descoberta eletrônica avançada, consulte [preparar resultados de pesquisa para descoberta eletrônica avançada](prepare-search-results-for-advanced-ediscovery.md).
   
 > [!NOTE]
-> Se você tiver dados fora do Microsoft 365 e quiser importá-los para a Microsoft 365 para que você possa preparar e analisá-lo na descoberta eletrônica avançada, veja [visão geral da importação de arquivos pst para o Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/importing-pst-files-to-office-365) e [arquivamento de dados de terceiros](https://go.microsoft.com/fwlink/p/?linkid=716918). 
+> Se você tiver dados fora do Microsoft 365 e quiser importá-los para a Microsoft 365 para que você possa preparar e analisá-lo na descoberta eletrônica avançada, veja [visão geral da importação de arquivos pst para o Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/importing-pst-files-to-office-365) e [arquivamento de dados de terceiros](https://www.microsoft.com/?ref=go). 
   
 ## <a name="step-2-load-search-result-data-in-to-a-case-in-advanced-ediscovery"></a>Etapa 2: carregar dados de resultados de pesquisa em um caso na descoberta eletrônica avançada
 

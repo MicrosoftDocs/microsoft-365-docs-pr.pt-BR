@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: 'Saiba mais sobre itens não indexados no Exchange e no SharePoint que você pode incluir em uma pesquisa de conteúdo executada por meio do centro de conformidade de & de segurança. '
-ms.openlocfilehash: c44138c11c2703cda4accba9976c254a0b135d65
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 534f0014a448b4ef280586a724067f1a4f820693
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626675"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214207"
 ---
 # <a name="partially-indexed-items-in-content-search"></a>Itens parcialmente indexados na Pesquisa de Conteúdo
 
@@ -57,11 +57,11 @@ Determinados tipos de arquivos, como arquivos Bitmap ou MP3, não têm conteúdo
   
 Para obter uma lista de formatos de arquivo com suporte ou desabilitados, confira os tópicos a seguir:
   
-- **Exchange** - [Formatos de arquivo do Exchange indexados pela pesquisa do Exchange](https://go.microsoft.com/fwlink/p/?LinkID=386618)
+- **Exchange**  -  [Formatos de arquivo indexados pela pesquisa do Exchange](https://go.microsoft.com/fwlink/p/?LinkID=386618)
     
-- **Exchange** - [Get-SearchDocumentFormat](https://go.microsoft.com/fwlink/p/?LinkID=724037) do Exchange
+- **Exchange**  -  [Get-SearchDocumentFormat](https://go.microsoft.com/fwlink/p/?LinkID=724037)
     
-- **SharePoint** - [Extensões de nome de arquivo rastreado padrão do SharePoint e tipos de arquivo analisados no SharePoint](https://go.microsoft.com/fwlink/p/?LinkID=404033)
+- **SharePoint**  -  [Extensões de nome de arquivo rastreado padrão e tipos de arquivo analisados no SharePoint](https://go.microsoft.com/fwlink/p/?LinkID=404033)
     
 
   
@@ -112,7 +112,7 @@ Uma exceção a essa regra é quando você cria uma retenção baseada em consul
 
 A tabela a seguir descreve os limites de indexação que podem resultar em uma mensagem de email sendo retornada como um item parcialmente indexado em uma pesquisa de conteúdo no Office 365.
   
-Para obter uma lista de limites de indexação para documentos do SharePoint, confira [limites de pesquisa do SharePoint Online](https://support.office.com/article/7c06e9ed-98b6-4304-a900-14773a8fa32f).
+Para obter uma lista de limites de indexação para documentos do SharePoint, confira [limites de pesquisa do SharePoint Online](https://docs.microsoft.com/sharepoint/search-limits).
   
 |**Limite de indexação**|**Observações**|**Descrição**|
 |:-----|:-----|:-----|
