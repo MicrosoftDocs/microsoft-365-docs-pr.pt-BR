@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Configurar a proteção avançada contra ameaças do Office 365 e proteger dados confidenciais contra phishing, malware e outras ameaças.
-ms.openlocfilehash: 2dd75b20bf203b9b8f0cdefb2459c45d1d0ccec1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 748868b07ac8759a66bac3c6b4165509270426a6
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627117"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224462"
 ---
 # <a name="increase-threat-protection"></a>Aumente a proteção contra ameaças
 
@@ -34,7 +34,7 @@ Este artigo ajuda você a aumentar a proteção em sua assinatura do Microsoft 3
 
 Antes de começar, verifique sua pontuação segura do Office 365. A pontuação segura do Office 365 analisa a segurança da sua organização com base em suas atividades regulares e configurações de segurança e atribui uma pontuação. Comece anotando sua pontuação atual. Para aumentar sua pontuação, conclua as ações recomendadas neste artigo. O objetivo não é atingir a pontuação máxima, mas para estar ciente das oportunidades de proteger seu ambiente que não afete negativamente a produtividade dos seus usuários. 
 
-Para obter mais informações, consulte [Microsoft Secure Score](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score).
+Para obter mais informações, consulte [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score).
 
 ## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Aumentar o nível de proteção contra malware no email
 
@@ -42,7 +42,7 @@ O ambiente do Office 365 ou do Microsoft 365 inclui proteção contra malware. V
   
 1. Acesse [https://protection.office.com](https://protection.office.com) e entre com suas credenciais de conta de administrador. 
     
-2. No centro de &amp; conformidade de segurança, no painel de navegação esquerdo, **em gerenciamento de ameaças**, escolha **política** \> **anti-malware**.
+2. No centro de &amp; conformidade de segurança, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, escolha **política** \> **anti-malware**.
     
 3. Clique duas vezes na política padrão para editar a política em toda a empresa.
     
@@ -67,7 +67,7 @@ Além dos arquivos que você bloqueou na etapa anterior, é uma boa prática cri
 
 Para criar uma regra de transporte de emails:
   
-1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>em e escolha central de **Administração** \> do **Exchange**.
+1. Vá para o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> e escolha central de **Administração** do \> **Exchange**.
     
 2. Na categoria **fluxo de emails** , selecione **regras**.
     
@@ -99,7 +99,7 @@ Hackers que obtêm acesso à caixa de correio de um usuário podem roubar emails
   
 Para criar uma regra de transporte de email, Assista [a este vídeo curto](https://support.office.com/article/f9d693ba-5c78-47c0-b156-8e461e062aa7) ou siga estas etapas:
   
-1. No centro de administração do Microsoft 365, selecione Central de **Administração** \> do **Exchange**.
+1. No centro de administração do Microsoft 365, selecione Central de **Administração** do \> **Exchange**.
     
 2. Na categoria **fluxo de emails** , selecione **regras**.
     
@@ -147,10 +147,10 @@ Para criar uma política anti-phishing do ATP, Assista a [este vídeo de treinam
 |Descrição  <br/> |Garantir que a equipe mais importante e nosso domínio não estão sendo representados.  <br/> |
 |Adicionar usuários a proteger  <br/> |Selecione **+ Adicionar uma condição, o destinatário é**. Digite nomes de usuário ou insira o endereço de email do candidato, o gerente de campanha e outros membros importantes da equipe. Você pode adicionar até 20 endereços internos e externos que você deseja proteger da representação.  <br/> |
 |Adicionar domínios para proteger  <br/> |Selecione **+ Adicionar uma condição, o domínio do destinatário é**. Insira o domínio personalizado associado à sua assinatura do Microsoft 365, se você tiver definido um. Você pode inserir mais de um domínio.  <br/> |
-|Escolher ações  <br/> |Se o email for enviado por um usuário representado: escolha **redirecionar mensagem para outro endereço de email**e digite o endereço de email do administrador de segurança; por exemplo, *Ana<span><span>Maria @contoso. com*. Se o email for enviado por um domínio representado: escolha **Colocar mensagem em quarentena**.  <br/> |
+|Escolher ações  <br/> |Se o email for enviado por um usuário representado: escolha **redirecionar mensagem para outro endereço de email**e digite o endereço de email do administrador de segurança; por exemplo, *ana maria <span> <span> @contoso. com*. Se o email for enviado por um domínio representado: escolha **Colocar mensagem em quarentena**.  <br/> |
 |Inteligência da caixa de correio  <br/> |Por padrão, a caixa de correio é selecionada quando você cria uma nova política anti-phishing. Deixe essa configuração **Ativada** para obter melhores resultados.  <br/> |
 |Adicionar remetentes e domínios confiáveis  <br/> |Aqui você pode adicionar seu próprio domínio ou qualquer outro domínio confiável.  <br/> |
-|Aplicado a  <br/> |Selecione **O domínio do destinatário é**. Em **Qualquer um desses**, selecione **Escolher**. Selecione **+ Adicionar**. Marque a caixa de seleção ao lado do nome do domínio, por exemplo, *contoso.<span> com <span>*, na lista e selecione **Adicionar**. Selecione **Concluído**.  <br/> |
+|Aplicado a  <br/> |Selecione **O domínio do destinatário é**. Em **Qualquer um desses**, selecione **Escolher**. Selecione **+ Adicionar**. Marque a caixa de seleção ao lado do nome do domínio, por exemplo, *contoso. <span> <span> com*, na lista e selecione **Adicionar**. Selecione **Concluído**.  <br/> |
   
 ## <a name="protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>Proteger contra anexos e arquivos mal-intencionados com anexos seguros de ATP
 
@@ -158,7 +158,7 @@ Pessoas costumam enviar, receber e compartilhar anexos, como documentos, apresen
   
 Para criar uma política de anexo seguro ATP, Assista a [este breve vídeo](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)ou conclua as seguintes etapas:
   
-1. Vá até [https://protection.office.com](https://protection.office.com)e entre com sua conta de administrador. 
+1. Vá até [https://protection.office.com](https://protection.office.com) e entre com sua conta de administrador. 
     
 2. No centro de &amp; conformidade de segurança, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, escolha **política**.
     
@@ -195,7 +195,7 @@ Recomendamos que você faça o seguinte:
     
 Para configurar links de ATP seguros, Assista a [este vídeo de treinamento curto](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa)ou conclua as seguintes etapas:
   
-1. Vá até [https://protection.office.com](https://protection.office.com)e entre com sua conta de administrador. 
+1. Vá até [https://protection.office.com](https://protection.office.com) e entre com sua conta de administrador. 
     
 2. No centro de &amp; conformidade de segurança, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, escolha **política**.
     
