@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Use a ferramenta de Pesquisa de Conteúdo no Centro de Conformidade e segurança para pesquisar e exportar dados de chat do MicrosoftTeams (chamados de chat 1xN) para usuários locais em uma implantação híbrida do Exchange.
-ms.openlocfilehash: 7b05460bb41ff97c8571a96b38a8eebd50a206fd
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 488a08067a39ff4bab61696d5faf8b7c849b4ab8
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034565"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214595"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users"></a>Pesquisar caixas de correio baseadas em nuvem para usuários locais 
 
@@ -59,7 +59,7 @@ Inclua as seguintes informações ao enviar a solicitação para o suporte da Mi
   
 - O nome de domínio padrão da sua organização.
 
-- O nome do locatário e o ID do locatário da sua organização. Você pode encontrá-los no portal do Azure Active Directory (em **Gerenciar** \> **Propriedades**). Confira [Localizar sua ID de locatário do Microsoft 365](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b).
+- O nome do locatário e o ID do locatário da sua organização. Você pode encontrá-los no portal do Azure Active Directory (em **Gerenciar** \> **Propriedades**). Confira [Localizar sua ID de locatário do Microsoft 365](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).
 
 - O seguinte título ou a descrição de finalidade da solicitação de suporte: "Habilitar a pesquisa de conteúdo do aplicativo para usuários locais". Isso ajuda a rotear a solicitação para a equipe de engenharia de Descoberta eletrônica, o qual implementará a solicitação.
 

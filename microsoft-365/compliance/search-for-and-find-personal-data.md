@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Aprenda a pesquisar e encontrar dados pessoais sujeitos a Regulamentações Gerais de Proteção de Dados (RGPD) no Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 50c8db59cfd5e9a7de3da0dc696227e85dab1cee
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: e0d29697a28221b5ff998f5ce923c143bf7a0804
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208085"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214575"
 ---
 # <a name="search-for-and-find-personal-data"></a>Pesquisar e localizar dados pessoais
 
@@ -80,7 +80,7 @@ Começar a pesquisar dados pessoais usando os tipos de informações confidencia
 
 Este tópico inclui uma lista de alguns tipos de informações confidenciais que se aplicam a cidadãos na União Europeia. Verifique o centro de segurança ou centro de conformidade para novas adições que podem ajudar com a conformidade GDPR.
 
-Confira também este artigo: [Lista de tipos de informações confidenciais e para que serve cada um](https://support.office.com/article/What-the-sensitive-information-types-look-for-fd505979-76be-4d9f-b459-abef3fc9e86b).
+Confira também este artigo: [Lista de tipos de informações confidenciais e para que serve cada um](https://docs.microsoft.com/microsoft-365/compliance/content-search).
 
 Os tipos de informações confidenciais definem como o processo automatizado reconhecerá tipos específicos de informação, como números de contas bancárias, números de serviços de saúde e de cartões de crédito. Os tipos de informações confidenciais também são conhecidos como condições. Um tipo de informação confidencial se define por um padrão que pode ser identificado por uma expressão regular ou uma função. Além disso, podem-se usar evidências de comprovação como palavras-chave e somas de verificação para identificar um tipo de informação confidencial. Também se usa o nível de confiança e de proximidade no processo de avaliação.
 
@@ -111,7 +111,7 @@ No momento, os tipos de informações confidenciais não podem ser usados para l
 <p>SensitiveType:&quot;Número de passaporte francês&quot;</p>
 </blockquote>
 <p>Amplie a pesquisa para o SharePoint (inclui o OneDrive for Business). A sintaxe deve ser exata e não deve haver erros de digitação ou espaços extras.</p>
-<p>Confira <a href="https://support.office.com/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836">Criar uma consulta para localizar dados confidenciais armazenados em sites</a>.</p></td>
+<p>Confira <a href="https://docs.microsoft.com/microsoft-365/compliance/form-a-query-to-find-sensitive-data-stored-on-sites">Criar uma consulta para localizar dados confidenciais armazenados em sites</a>.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>Examinar os resultados de cada pesquisa</p></td>
@@ -218,4 +218,4 @@ Exemplos:
 
 Observação: "SensitiveType" diferencia maiúsculas e minúsculas, mas o restante da consulta não.
 
-Também é possível usar operadores e propriedades para ilustrar como você pode refinar suas consultas. Para obter mais informações e exemplos, confira [Criar uma consulta para localizar dados confidenciais armazenados em sites](https://support.office.com/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836).
+Também é possível usar operadores e propriedades para ilustrar como você pode refinar suas consultas. Para obter mais informações e exemplos, confira [Criar uma consulta para localizar dados confidenciais armazenados em sites](https://docs.microsoft.com/microsoft-365/compliance/form-a-query-to-find-sensitive-data-stored-on-sites).

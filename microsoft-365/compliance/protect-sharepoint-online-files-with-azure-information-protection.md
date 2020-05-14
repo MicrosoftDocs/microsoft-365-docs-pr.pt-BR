@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: 'Resumo: aplique a Proteção de Informações do Azure para proteger arquivos em um site de equipe altamente confidencial do SharePoint Online.'
-ms.openlocfilehash: 1c704689518da14bcabb56e81830b8456ebd2951
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f905f673efe050e07ad26728628bce05073a26b8
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632186"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214635"
 ---
 # <a name="protect-sharepoint-online-files-with-azure-information-protection"></a>Proteger arquivos do SharePoint Online com a Proteção de Informações do Azure
 
@@ -42,7 +42,7 @@ Usar a Proteção de Informações do Azure para arquivos no SharePoint Online n
 Algumas observações importantes sobre esta solução:
 - Quando a criptografia da Proteção de informações do Azure é aplicada aos arquivos armazenados no Office 365, o serviço não pode processar o conteúdo desses arquivos. Coautoria, descoberta eletrônica, pesquisa, Delve e outros recursos colaborativos não funcionam. As políticas de Prevenção contra perda de dados (DLP) podem funcionar apenas com os metadados (incluindo rótulos do Microsoft 365), mas não com o conteúdo desses arquivos (como números de cartão de crédito em arquivos).
 
-- Esta solução exige que um usuário selecione um rótulo que se aplica à proteção da Proteção de Informações do Azure. Se precisar de criptografia automática e da capacidade do SharePoint de indexar e examinar os arquivos, considere usar o Gerenciamento de Direitos de Informação (IRM) no SharePoint Online. Quando você configura uma biblioteca do SharePoint para o IRM, os arquivos são criptografados automaticamente quando são baixados para edição. O IRM do SharePoint inclui limitações que podem influenciar a sua decisão. Para saber mais, confira [Configurar o Gerenciamento de Direitos de Informação (IRM) no Centro de administração do SharePoint](https://support.office.com/article/Set-up-Information-Rights-Management-IRM-in-SharePoint-admin-center-239CE6EB-4E81-42DB-BF86-A01362FED65C).
+- Esta solução exige que um usuário selecione um rótulo que se aplica à proteção da Proteção de Informações do Azure. Se precisar de criptografia automática e da capacidade do SharePoint de indexar e examinar os arquivos, considere usar o Gerenciamento de Direitos de Informação (IRM) no SharePoint Online. Quando você configura uma biblioteca do SharePoint para o IRM, os arquivos são criptografados automaticamente quando são baixados para edição. O IRM do SharePoint inclui limitações que podem influenciar a sua decisão. Para saber mais, confira [Configurar o Gerenciamento de Direitos de Informação (IRM) no Centro de administração do SharePoint](https://docs.microsoft.com/microsoft-365/compliance/set-up-irm-in-sp-admin-center).
 
 ## <a name="admin-setup"></a>Configuração de administrador
 Primeiro, use as instruções em [Ativar o Azure RMS com o centro de administração do Microsoft 365](https://docs.microsoft.com/information-protection/deploy-use/activate-office365) da sua assinatura do Microsoft 365.

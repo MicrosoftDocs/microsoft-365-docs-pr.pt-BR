@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9564445f6b5a92479ba264947dbeaa109db76e14
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 196cbc0ebc05683315766b736dd9d5fc2d92afd2
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036214"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214565"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Proteção de informações para o RGPD com recursos do Microsoft 365
 
@@ -56,8 +56,8 @@ A Microsoft fornece uma configuração recomendada que você pode usar como pont
 
 A proteção contra ameaças está integrada a todos os serviços do Microsoft 365. Aqui estão alguns recursos para começar:
 
-- [Roteiro de segurança do Office 365: principais prioridades nos primeiros 30 dias, 90 dias e depois](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352). Esse roteiro contém recomendações para implementar os recursos. 
-- [Proteção contra ameaças do Office 365](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58). Saiba mais sobre medidas de proteção que você pode tomar na central de segurança do Microsoft 365.
+- [Roteiro de segurança do Office 365: principais prioridades nos primeiros 30 dias, 90 dias e depois](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap). Esse roteiro contém recomendações para implementar os recursos. 
+- [Proteção contra ameaças do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats). Saiba mais sobre medidas de proteção que você pode tomar na central de segurança do Microsoft 365.
 - [Proteção contra Ameaças do Windows](https://docs.microsoft.com/windows/security/threat-protection/). Saiba mais sobre a Proteção contra Ameaças do Windows Defender e outros recursos no Windows 10.
 
 ## <a name="learn-more"></a>Saiba mais
