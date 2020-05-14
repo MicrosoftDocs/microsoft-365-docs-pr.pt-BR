@@ -17,17 +17,17 @@ ms.collection:
 - Strat_O365_IP
 ms.custom: TopSMBIssues
 localization_priority: Priority
-description: Saiba como o Exchange Online e o Exchange Online Protection (EOP) no Microsoft 365 usam a autenticação de email (SPF, DKIM e DMARC) para ajudar a evitar falsificações, phishing e spam.
-ms.openlocfilehash: f3a3ea902cb0c4fede4fcfd919f0969765bc4a96
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Os Administradores podem saber como a Proteção do Exchange Online (EOP) usa a autenticação de e-mail (SPF, DKIM e DMARC) para ajudar a evitar falsificações, phishing e spam.
+ms.openlocfilehash: c79a75f1ae520a0c4f885c923b4a56cdb0f7fb87
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637551"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209494"
 ---
-# <a name="email-authentication-in-microsoft-365"></a>Autenticação de email no Microsoft 365
+# <a name="email-authentication-in-eop"></a>Autenticação de e-mail no EOP
 
-A autenticação de email (também conhecida como validação de email) é um grupo de padrões que tenta interromper a falsificação (mensagens de email de remetentes forjados). Nas organizações Microsoft 365 com caixas de correio do Exchange Online e organizações com Exchange Online Protection (EOP) autônomos, sem as caixas de correio do Exchange Online, o EOP usa os padrões para verificar os emails de entrada:
+A autenticação de email (também conhecida como validação de email) é um grupo de padrões que tenta interromper a falsificação (mensagens de email de remetentes forjados). Nas organizações Microsoft 365 com caixas de correio do Exchange Online e organizações com Exchange Online Protection (EOP) autônomos, organizações sem caixas de correio do Exchange Online, o EOP usa os padrões para verificar os e-mails de entrada:
 
 - [SPF](how-office-365-uses-spf-to-prevent-spoofing.md)
 

@@ -19,15 +19,15 @@ ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
 localization_priority: Priority
-description: Neste artigo, você aprenderá sobre a proteção antifalsificação no Microsoft 365, que protege contra ataques de phishing de domínios falso.
-ms.openlocfilehash: a5236161e1df6df1d007135c9ae700e87a06ccf0
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Os administradores podem saber mais sobre os recursos de anti-falsificação disponíveis na Proteção do Exchange Online (EOP), que podem ajudar a reduzir os ataques de phishing de remetentes e domínios falso.
+ms.openlocfilehash: c28f5cf18a8da3be06906eb1e6b118c856c40066
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034065"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209026"
 ---
-# <a name="anti-spoofing-protection"></a>Proteção antifalsificação
+# <a name="anti-spoofing-protection-in-eop"></a>Proteção antifalsificação no EOP
 
 Se você for um cliente do Microsoft 365 com caixas de correio no Exchange Online ou um cliente autônomo da Proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, o EOP incluirá recursos para ajudar a proteger sua organização contra remetentes falsificados (forjados).
 
@@ -37,11 +37,11 @@ As seguintes tecnologias antifalsificação estão disponíveis na EOP:
 
 - **Inteligência contra falsificação**: Revise as mensagens falsas dos remetentes em domínios internos e externos e permita ou bloqueie esses remetentes. Para obter mais informações, contra [Configurar a inteligência contra falsificação no Microsoft 365](learn-about-spoof-intelligence.md).
 
-- **Políticas antiphishing**: Na EOP, a política interna antiphishing permite ativar ou desativar a inteligência contra falsificação, ativar ou desativar a identificação de remetente não autenticado no Outlook e especificar a ação para remetentes falsificados bloqueados (mover para a pasta Lixo Eletrônico ou para a quarentena). As políticas antiphishing avançadas disponíveis na Proteção Avançada contra Ameaças do Office 365 (ATP) também contêm configurações contra usurpação de identidade (remetentes e domínios protegidos), configurações de inteligência da caixa de correio e limites ajustáveis de phishing avançados. Para obter mais informações, confira [Políticas antiphishing](set-up-anti-phishing-policies.md) no Microsoft 365.
+- **Políticas antiphishing**: Na EOP, a política interna antiphishing permite ativar ou desativar a inteligência contra falsificação, ativar ou desativar a identificação de remetente não autenticado no Outlook e especificar a ação para remetentes falsificados bloqueados (mover para a pasta Lixo Eletrônico ou para a quarentena). As políticas antiphishing avançadas disponíveis na Proteção Avançada contra Ameaças do Office 365 (Office 365 ATP) também contêm configurações contra usurpação de identidade (remetentes e domínios protegidos), configurações de inteligência da caixa de correio e limites ajustáveis de phishing avançados. Para obter mais informações, confira [Políticas antiphishing](set-up-anti-phishing-policies.md) no Microsoft 365.
 
 - **Autenticação de email**: Um componente integrante de qualquer esforço antifalsificação é o uso de autenticação de email (também conhecida como validação de email) pelos registros SPF, DKIM e DMARC no DNS. Você pode configurar esses registros para seus domínios, para que os sistemas de email de destino possam verificar a validade das mensagens que afirmam ser de remetentes em seus domínios. Para mensagens de entrada, o Microsoft 365 requer autenticação de email para domínios do remetente. Para obter mais informações, confira [Autenticação de email no Microsoft 365](email-validation-and-authentication.md).
 
-A tecnologia antifalsificação da Microsoft foi implantada originalmente apenas em organizações com a Proteção Avançada contra Ameaças (ATP) do Office 365. Em outubro de 2018, a proteção antifalsificação foi adicionada à EOP.
+A partir de outubro de 2018, a proteção anti-falsificação está disponível em EOP. Antes, a proteção antifalsificação estava disponível apenas em organizações com o Office 365 ATP.
 
 A EOP analisa e bloqueia mensagens que não podem ser autenticadas pela combinação de métodos padrão de autenticação de email e técnicas de reputação do remetente.
 

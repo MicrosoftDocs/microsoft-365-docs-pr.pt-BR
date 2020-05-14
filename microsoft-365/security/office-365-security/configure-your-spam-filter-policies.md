@@ -15,21 +15,21 @@ search.appverid:
 ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
-description: As configurações básicas de filtro de spam incluem a seleção da ação a ser realizada nas mensagens identificadas como spam.
-ms.openlocfilehash: 027cea45159131ebe4718dfb2209d8be15f8e355
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
+ms.openlocfilehash: 66266ac79f6f442c8551b9ec15d553d6fb074cdc
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637707"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209554"
 ---
-# <a name="configure-anti-spam-policies"></a>Configurar políticas antispam
+# <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
-Se você for um cliente do Microsoft 365 com caixas de correio do Exchange Online ou um cliente independente do Exchange Online Protection (EOP), sem as caixas de correio do Exchange Online, as mensagens de email de entrada serão automaticamente protegidas contra spam por EOP. A EOP usa políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) como parte da defesa geral da sua organização contra spams. Para obter mais informações, consulte [Proteção antispam](anti-spam-protection.md).
+Em organizações do Microsoft 365 com caixas de correio no Exchange Online ou um cliente independente do Exchange Online Protection (EOP), ou organizações sem as caixas de correio do Exchange Online, as mensagens de e-mail de entrada serão automaticamente protegidas contra spam por EOP. A EOP usa políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) como parte da defesa geral da sua organização contra spams. Para obter mais informações, consulte [Proteção antispam](anti-spam-protection.md).
 
 Os administradores podem visualizar, editar e configurar (mas não excluir) a política antispam padrão. Para maior granularidade, também é possível criar políticas antispam personalizadas aplicadas a determinados usuários, grupos ou domínios na sua organização. Políticas personalizadas sempre terão prioridade sobre a política padrão, mas você pode alterar a prioridade (ordem de execução) de suas políticas personalizadas.
 
-Você pode configurar políticas antispam no Centro de Conformidade e Segurança ou no Windows PowerShell (Exchange Online PowerShell para clientes do Microsoft 365; Exchange Online Protection PowerShell para clientes EOP autônomos).
+Você pode configurar políticas antispam no Centro de Conformidade e Segurança ou no PowerShell (o PowerShell do Exchange Online para organizações do Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell único para empresas que não têm caixas de correio do Exchange Online).
 
 ## <a name="anti-spam-policies-in-the-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>Políticas antispam no Centro de Conformidade e Segurança versus Exchange Online Windows PowerShell ou Exchange Online Protection WindowsPowerShell
 
@@ -120,9 +120,9 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
     |**Nenhuma ação**|||||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
     |
 
-    > <sup>1</sup> No Exchange Online, a mensagem será movida para a pasta Lixo Eletrônico se a regra de lixo eletrônico estiver habilitada na caixa de correio (ela é habilitada por padrão). Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).<br/>Em ambientes da EOP autônoma, em que a EOP protege as caixas de correio locais do Exchange, é preciso configurar regras de fluxo de email (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP, de modo que a regra do lixo eletrônico possa mover as mensagens para a pasta de Lixo Eletrônico. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).<br/><br/><sup>2</sup> Você pode usar este valor como uma condição nas regras de fluxo de email (também conhecidas como regras de transporte) para filtrar ou rotear a mensagem.
+    > <sup>1</sup> No Exchange Online, a mensagem será movida para a pasta Lixo Eletrônico se a regra de lixo eletrônico estiver habilitada na caixa de correio (ela é habilitada por padrão). Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md).<br/>Em ambientes da EOP autônoma, em que a EOP protege as caixas de correio locais do Exchange, é preciso configurar regras de fluxo de email (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP, de modo que a regra do lixo eletrônico possa mover as mensagens para a pasta de Lixo Eletrônico. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).<br/><br/><sup>2</sup> Você pode usar este valor como uma condição nas regras de fluxo de email (também conhecidas como regras de transporte) para filtrar ou rotear a mensagem.
 
-   - **Selecionar o limite**: especifica o BCL (nível de reclamação em massa) de uma mensagem que dispara a ação especificada para o veredito de filtragem de spam de **Email em massa** (maior que o valor especificado, não superior ou igual a ele). Um valor mais alto indica que a mensagem é menos desejável (é mais provável que a mensagem pareça um spam). O valor padrão é 7. Para obter mais informações, confira [BCL (nível de reclamação em massa) no Office 365](bulk-complaint-level-values.md) e [Qual é a diferença entre lixo eletrônico e email em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md).
+   - **Selecionar o limite**: especifica o BCL (nível de reclamação em massa) de uma mensagem que dispara a ação especificada para o veredito de filtragem de spam de **Email em massa** (maior que o valor especificado, não superior ou igual a ele). Um valor mais alto indica que a mensagem é menos desejável (é mais provável que a mensagem pareça um spam). O valor padrão é 7. Para obter mais informações, confira [BCL (Nível de reclamação em massa) no EOP](bulk-complaint-level-values.md) e [Qual é a diferença entre lixo eletrônico e e-mail em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md).
 
      Por padrão, a única configuração _MarkAsSpamBulkMail_ do PowerShell é `On` nas políticas antispam. Essa configuração afeta significativamente os resultados de um veredito de filtragem de **Email em massa**:
 
@@ -132,9 +132,9 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 
    - **Quarentena**: especifica por quanto tempo manter a mensagem em quarentena se você selecionar **Colocar mensagem em quarentena** como ação para um veredito de filtragem de spam. Após o período da quarentena, a mensagem será excluída. O valor padrão é de 30 dias. O valor válido é de 1 a 30 dias. Para obter informações sobre quarentena, confira os seguintes tópicos:
 
-     - [Quarentena no Office 365](quarantine-email-messages.md)
-     - [Gerenciar arquivos e mensagens em quarentena como administrador no Office 365](manage-quarantined-messages-and-files.md)
-     - [Localizar e liberar mensagens em quarentena como usuário no Office 365](find-and-release-quarantined-messages-as-a-user.md)
+     - [Mensagens em quarentena no EOP](quarantine-email-messages.md)
+     - [Gerenciar arquivos e mensagens em quarentena como administrador no EOP](manage-quarantined-messages-and-files.md)
+     - [Localizar e liberar mensagens em quarentena como usuário no EOP](find-and-release-quarantined-messages-as-a-user.md)
 
    - **Adicionar o texto do cabeçalho X**: esta caixa é obrigatória e só estará disponível se você tiver selecionado **Adicionar cabeçalho X** como a ação para o veredito de filtragem de spam. O valor especificado é o campo de cabeçalho *nome* adicionado ao cabeçalho da mensagem. O campo de cabeçalho *valor* é sempre `This message appears to be spam`.
 
@@ -148,7 +148,7 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 
    - **Redirecionar para este endereço de email**: esta caixa é obrigatória e só estará disponível se você selecionar **Redirecionar mensagem para o endereço de email** como a ação para um veredito de filtragem de spam. Digite o endereço de email para o qual você deseja enviar a mensagem. É possível inserir diversos valores separados por ponto e vírgula (;).
 
-   - **Dicas de Segurança**: por padrão, as Dicas de Segurança estão habilitadas, mas é possível desabilitá-las desmarcando a caixa de seleção **Ativado**. Para obter mais informações sobre as Dicas de Segurança, confira [Dicas de segurança em mensagens de email no Office 365](safety-tips-in-office-365.md).
+   - **Dicas de Segurança**: por padrão, as Dicas de Segurança estão habilitadas, mas é possível desabilitá-las desmarcando a caixa de seleção **Ativado**. Para obter mais informações sobre as Dicas de Segurança, confira [Dicas de segurança em mensagens de e-mail](safety-tips-in-office-365.md).
 
    Configurações de **Limpeza Automática Zero Hora**: a ZAP detecta e realiza ações em mensagens já enviadas a caixas de correio do Exchange Online. Para obter mais informações sobre a ZAP, confira [Limpeza Automática Zero Hora – proteção contra spam e malware](zero-hour-auto-purge.md).
 
@@ -159,7 +159,7 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 5. (Opcional) Expanda a seção **Listas de permissão** para configurar os remetentes de mensagens por endereço ou domínio de email que podem ignorar a filtragem de spam:
 
    > [!CAUTION]
-   > <ul><li>Pense bem antes de adicionar domínios aqui. Para obter mais informações, confira [Criar listas de remetentes seguros no Office 365](create-safe-sender-lists-in-office-365.md)</li><li>Nunca adicione domínios aceitos (domínios que pertencem a você) ou domínios comuns (por exemplo, microsoft.com ou office.com) à lista de domínios permitidos. Isso permitirá que invasores enviem emails que ignorem a filtragem de spam da sua organização.</li></ul>
+   > • Pense bem antes de adicionar domínios aqui. Para obter mais informações, confira [Criar listas de remetentes seguros no EOP](create-safe-sender-lists-in-office-365.md). <br/><br/> • Nunca adicione domínios aceitos (domínios que pertencem a você) ou domínios comuns (por exemplo, microsoft.com ou office.com) à lista de domínios permitidos. Isso permitirá que invasores enviem emails que ignorem a filtragem de spam da sua organização.
 
    - **Permitir remetente**: clique em **Editar**. No submenu **Lista de remetentes permitidos** exibido:
 
@@ -188,7 +188,7 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 6. (Opcional) Expanda a seção **Listas de bloqueios** para configurar os remetentes de mensagens por endereço ou domínio de email que sempre serão marcados como spam de alta confidencialidade:
 
    > [!NOTE]
-   > Bloquear manualmente os domínios não é perigoso, mas pode aumentar sua carga de trabalho administrativa. Para obter mais informações, confira [Criar listas de bloqueios de remetentes no Office 365](create-block-sender-lists-in-office-365.md)
+   > Bloquear manualmente os domínios não é perigoso, mas pode aumentar sua carga de trabalho administrativa. Para obter mais informações, confira [Criar listas de bloqueios de remetentes no EOP](create-block-sender-lists-in-office-365.md).
 
    - **Bloquear remetente**: clique em **Editar**. No submenu **Lista de remetentes bloqueados** exibido, siga estas etapas:
 
@@ -238,7 +238,7 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 
 8. A seção opcional **Propriedades de spam** contém configurações de ASF (filtragem de spam avançada) que estão desativadas por padrão. As configurações de ASF estão em processo de substituição, e a funcionalidade delas está sendo incorporada a outras partes da pilha de filtragem. Recomendamos deixar todas essas configurações de ASF desativadas em suas políticas antispam.
 
-   Para obter mais detalhes sobre essas configurações, confira [Configurações de filtragem de spam avançada no Office 365](advanced-spam-filtering-asf-options.md).
+   Para obter mais detalhes sobre essas configurações, confira [Configurações de filtragem de spam avançadas no EOP](advanced-spam-filtering-asf-options.md).
 
 9. (Obrigatório) Expanda a seção **Aplicada a** para identificar os destinatários internos aos quais a política se aplica.
 
@@ -246,7 +246,7 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 
     O mais fácil é clicar em **Adicionar uma condição** três vezes para ver todas as condições disponíveis. Clique em ![botão Remover](../../media/scc-remove-icon.png) para remover condições que você não queira configurar.
 
-    - **O domínio do destinatário é**: especifica os destinatários em um ou mais domínios aceitos configurados no Office 365. Clique na caixa **Adicionar uma marca** para ver e selecionar um domínio. Clique novamente na caixa **Adicionar uma marca** para selecionar domínios adicionais se mais de um domínio estiver disponível.
+    - **O domínio do destinatário é**: Especifica os destinatários em um ou mais domínios aceitos configurados na sua organização.  Clique na caixa **Adicionar uma marca** para ver e selecionar um domínio. Clique novamente na caixa **Adicionar uma marca** para selecionar domínios adicionais se mais de um domínio estiver disponível.
 
     - **O destinatário é**: especifica uma ou mais caixas de correio, usuários de email ou contatos de email em sua organização. Clique em **Adicionar uma marca** e comece a digitar para filtrar a lista. Clique novamente na caixa **Adicionar uma marca** para selecionar destinatários adicionais.
 
@@ -324,7 +324,7 @@ Para alterar a prioridade de uma política, mova a política para cima ou para b
 
 ### <a name="configure-end-user-spam-notifications"></a>Configurar as notificações de spam para usuário final
 
-Quando um veredito de filtragem de spam coloca uma mensagem em quarentena, é possível configurar as notificações de spam para usuário final de modo que os destinatários saibam o que houve com as mensagens que foram enviadas para eles. Para obter mais informações sobre essas notificações, confira [Notificações de spam para usuário final no Office 365](use-spam-notifications-to-release-and-report-quarantined-messages.md).
+Quando um veredito de filtragem de spam coloca uma mensagem em quarentena, é possível configurar as notificações de spam para usuário final de modo que os destinatários saibam o que houve com as mensagens que foram enviadas para eles. Para obter mais informações sobre essas notificações, confira [Notificações de spam para usuário final no EOP](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
 1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
 
