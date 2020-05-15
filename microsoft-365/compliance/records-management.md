@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com o gerenciamento de registros no Microsoft 365, você pode aplicar a agenda de retenção específica da sua organização em um plano de arquivo para gerenciar a retenção, a declaração de registros e o descarte no suporte de todo o ciclo de vida do conteúdo.
-ms.openlocfilehash: e4454ba5940d9a67d9f160d90d0a9db14563bcf7
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+ms.openlocfilehash: 261ae3286792dde540d9bf648c15e529863091ed
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43949244"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231864"
 ---
 # <a name="records-management-in-microsoft-365"></a>Gerenciamento de registros no Office 365
 
@@ -34,7 +34,7 @@ A solução de gerenciamento de registros é compatível com os seguintes elemen
 
 - **Migrar e gerenciar seu plano de retenção com o plano de arquivo** e usar o [gerenciador de planos de arquivo](file-plan-manager.md) para reunir seu plano de retenção existente ou criar um novo com os descritores de arquivo e expandir as hierarquias.
 
-- **Estabeleça políticas de retenção e exclusão**. Defina os períodos de [retenção](retention-policies.md#retaining-content-for-a-specific-period-of-time) e [disposição](retention-policies.md#deleting-content-thats-older-than-a-specific-age) com base em vários fatores, incluindo a data da última modificação ou criação.
+- **Estabeleça políticas de retenção e exclusão dentro do rótulo do registro**. Defina os períodos de [retenção](create-retention-policies.md#retaining-content-for-a-specific-period-of-time) e [disposição](create-retention-policies.md#deleting-content-thats-older-than-a-specific-age) com base em vários fatores, incluindo a data da última modificação ou criação.
 
 - **Acione a retenção baseada em eventos** com [retenção baseada em eventos](event-driven-retention.md).
 

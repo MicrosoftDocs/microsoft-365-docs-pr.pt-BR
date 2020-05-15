@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Um requisito para todas as soluções de proteção de informações da Microsoft: criar, configurar e publicar rótulos de confidencialidade para classificar e proteger os documentos e emails da sua organização.'
-ms.openlocfilehash: ea9b8d119f431079ff0558eddfae3caf0ec0fffb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 358b87fca010aa5e910337b0942df0b33ee38951
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635951"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232718"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Criar e configurar rótulos de confidencialidade e suas políticas
 
@@ -102,13 +102,12 @@ Settings=@(
 @{key=$Languages[0];Value=$DisplayNames[0];}
 @{key=$Languages[1];Value=$DisplayNames[1];}
 @{key=$Languages[2];Value=$DisplayNames[2];})}
-Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSettings -Depth 3 -Compress)
 $TooltipLocaleSettings = [PSCustomObject]@{LocaleKey='Tooltip';
 Settings=@(
 @{key=$Languages[0];Value=$Tooltips[0];}
 @{key=$Languages[1];Value=$Tooltips[1];}
 @{key=$Languages[2];Value=$Tooltips[2];})}
-Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $TooltipLocaleSettings -Depth 3 -Compress)
+Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSettings -Depth 3 -Compress),(ConvertTo-Json $TooltipLocaleSettings -Depth 3 -Compress)
 ```
 
 ## <a name="publish-sensitivity-labels-by-creating-a-label-policy"></a>Publicar rótulos de confidencialidade criando uma política de rótulo
