@@ -21,19 +21,19 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Saiba como configurar a opção de lançamento para novas atualizações de produtos e recursos no centro de administração do Microsoft 365.
-ms.openlocfilehash: fc931893e95ff053cd251b6c1b12bfdbaadf49ae
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 3a7a0562edef527718816bba6e67ea948cfad6b5
+ms.sourcegitcommit: 708857a82eab3d37da1dec027399b09bd306a5dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139644"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44249879"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>Configurar as opções de lançamento padrão ou direcionadas
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -48,7 +48,7 @@ Qualquer nova versão é testada e validada pela equipe de recursos e, em seguid
   
 ![Liberar toques de validação para o Microsoft 365](../../media/73611ed3-2d8c-4e7b-8074-9f03b239f9ed.png)
   
-Para atualizações significativas, os clientes do Office são inicialmente notificados pelo [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap). Como uma atualização está mais próxima de ser implantada, ela é comunicada através do seu [centro de mensagens do Microsoft 365](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter).
+Para atualizações significativas, os clientes são inicialmente notificados pelo [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap). Como uma atualização está mais próxima de ser implantada, ela é comunicada através do seu [centro de mensagens do Microsoft 365](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter).
 
 > [!NOTE]
 > Você precisa de uma conta do Microsoft 365 ou do Azure AD para acessar seu centro de mensagens por meio do [centro de administração](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center). O Microsoft 365 Home Plan Users não têm um centro de administração.
@@ -99,7 +99,7 @@ Você pode alterar como sua organização recebe as atualizações da Microsoft 
 > [!IMPORTANT]
 > Pode levar até 24 horas para que as alterações abaixo tenham efeito no Microsoft 365. Se você optar por cancelar o lançamento direcionado depois de ativá-lo, os usuários poderão perder o acesso aos recursos que ainda não chegaram ao lançamento padrão. 
   
-1. No centro de administração, vá para a **Settings** > **configuração**configurações e, na guia **perfil da organização** , escolha **preferências de versão**.
+1. No centro de administração, vá para a **Settings**  >  **configuração**configurações e, na guia **perfil da organização** , escolha **preferências de versão**.
 
 5. Para desabilitar o lançamento direcionado, selecione **versão padrão**e, em seguida, selecione **salvar alterações**. 
     
@@ -112,10 +112,6 @@ Você pode alterar como sua organização recebe as atualizações da Microsoft 
 9. Quando terminar de adicionar usuários, selecione **salvar alterações**.
 
 
-
-## <a name="get-the-targeted-release-version-of-office"></a>Obter a versão de lançamento direcionado do Office
-
-Para instalar um build de lançamento direcionado do Office, [siga estas etapas](https://support.office.com/article/4dd8ba40-73c0-4468-b778-c7b744d03ead). Isso lhe dará acesso antecipado aos novos recursos do Office 2016 para área de trabalho do Windows.
   
 ## <a name="learn-more"></a>Saiba mais
 
