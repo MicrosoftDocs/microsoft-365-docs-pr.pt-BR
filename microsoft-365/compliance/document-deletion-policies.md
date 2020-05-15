@@ -15,18 +15,18 @@ search.appverid:
 - MET150
 ms.assetid: 55e8d858-f278-482b-a198-2e62d6a2e6e5
 description: Sua organização pode ser necessária para reter documentos por um período de tempo por causa de conformidade, legal ou outras necessidades de negócios. No entanto, se sua organização mantém documentos mais do que o necessário, você cria um risco legal desnecessário. Com uma política de exclusão de documentos, você pode reduzir o risco de forma proativa, excluindo documentos em um site após um período específico de tempo — por exemplo, você pode excluir documentos nos sites dos usuários do OneDrive for Business cinco anos depois que os documentos foram criados.
-ms.openlocfilehash: fba7af2c58b373e51aed93ce9a353a45528bb9f9
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 63bf9e83bb6ef793359e35943cbfc6244ef5078c
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942994"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232086"
 ---
 # <a name="overview-of-document-deletion-policies"></a>Visão geral das políticas de exclusão de documentos
 
 > [!IMPORTANT]
-> Em frente, recomendamos que você use uma política de retenção ou rótulos criados no centro de conformidade da Microsoft 365, no centro de segurança da &amp; Microsoft 365 ou no centro de conformidade de segurança em vez de uma política de exclusão de documentos. As políticas de exclusão de documentos continuarão a funcionar lado a lado com políticas de retenção, mas se você precisar reter ou excluir conteúdo em qualquer lugar no Office 365, recomendamos que você use uma política de retenção. Para obter mais informações, consulte [usar uma política de retenção em vez desses recursos](retention-policies.md#use-a-retention-policy-instead-of-these-features).
-  
+> Em frente, recomendamos que você use uma política de retenção do centro de conformidade da Microsoft 365 em vez de uma política de exclusão de documentos. As políticas de exclusão de documentos continuarão a funcionar lado a lado com políticas de retenção, mas se você precisar reter ou excluir conteúdo em qualquer lugar no Office 365, recomendamos que você use uma política de retenção ou rótulos de retenção. Para obter mais informações, consulte [usar uma política de retenção em vez de recursos mais antigos](retention-policies.md#use-a-retention-policy-instead-of-older-features).
+
 Sua organização pode ser necessária para reter documentos por um período de tempo por causa de conformidade, legal ou outras necessidades de negócios. No entanto, se sua organização mantém documentos mais do que o necessário, você cria um risco legal desnecessário. Com uma política de exclusão de documentos, você pode reduzir o risco de forma proativa, excluindo documentos em um site após um período específico de tempo — por exemplo, você pode excluir documentos nos sites dos usuários do OneDrive for Business cinco anos depois que os documentos foram criados.
   
 As políticas de exclusão de documentos são poderosas, mas flexíveis — por exemplo, você pode:

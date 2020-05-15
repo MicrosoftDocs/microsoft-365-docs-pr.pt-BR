@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Saiba como identificar os diferentes tipos de retenção que podem ser colocados em uma caixa de correio do Microsoft 365. Esses tipos de isenções incluem retenção de litígio, bloqueios de descoberta eletrônica e políticas de retenção do Microsoft 365. Você também pode determinar se um usuário foi excluído de uma política de retenção em toda a organização.
-ms.openlocfilehash: 594b8550cdd418af9551c732b78091817da7bfc3
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 12d91d987af2ba11b2d9aa417dff92adb745fb03
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208662"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232066"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Como identificar o tipo de retenção de uma caixa de correio do Exchange Online
 
@@ -41,7 +41,8 @@ O Microsoft 365 oferece várias maneiras em que sua organização pode impedir q
     - **Políticas de retenção de local específico:** Essas são as políticas atribuídas aos locais de conteúdo de usuários específicos. Você usa o cmdlet **Get-Mailbox** no PowerShell do Exchange Online para obter informações sobre políticas de retenção atribuídas a caixas de correio específicas.
 
     - **Políticas de retenção em toda a organização:** Essas são as políticas atribuídas a todos os locais de conteúdo em sua organização. Você usa o cmdlet **Get-OrganizationConfig** no PowerShell do Exchange Online para obter informações sobre políticas de retenção em toda a organização.
-  Para obter mais informações, consulte a seção "aplicando uma política de retenção a uma organização inteira ou locais específicos" em [visão geral das políticas de retenção da Microsoft 365](retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations).
+    
+  Para obter mais informações, consulte [aplicando uma política de retenção a uma organização inteira ou a uma seção locais específicos](create-retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations) .
 
 - **[Rótulos de retenção do microsoft 365](labels.md):** se um usuário aplica um rótulo de retenção do Microsoft 365 (um que esteja configurado para reter conteúdo ou reter e excluir conteúdo) em *qualquer* pasta ou item na caixa de correio, uma retenção é colocada na caixa de correio como se a caixa de correio fosse colocada em retenção de litígio ou atribuída a uma política de retenção do Microsoft 365. Para obter mais informações, consulte o artigo [identificando caixas de correio em espera porque um rótulo de retenção foi aplicado a uma seção de pasta ou item](#identifying-mailboxes-on-hold-because-a-retention-label-has-been-applied-to-a-folder-or-item) neste artigo.
 
@@ -97,7 +98,7 @@ A tabela a seguir descreve os diferentes tipos de bloqueios de toda a organizaç
 |Políticas de retenção da Microsoft 365 aplicadas às caixas de correio do Exchange, pastas públicas do Exchange e chats do Microsoft Teams    |      `mbx7cfb30345d454ac0a989ab3041051209:2`   |   Políticas de retenção em toda a organização aplicadas às caixas de correio do Exchange, pastas públicas do Exchange e chats do 1xN no Microsoft Teams são identificadas por GUIDs que começam com o `mbx` prefixo. Observação os chats do 1xN são armazenados na caixa de correio dos participantes individuais do chat.      |
 |Política de retenção da Microsoft 365 aplicada a grupos de 365 da Microsoft e mensagens de canal do teams     |   `grp1a0a132ee8944501a4bb6a452ec31171:3`      |    Políticas de retenção em toda a organização aplicadas a grupos do Microsoft 365 e mensagens de canal no Microsoft Teams são identificadas por GUIDs que começam com o `grp` prefixo. Observação as mensagens do canal são armazenadas na caixa de correio de grupo associada a uma equipe da Microsoft.     |
 
-Para obter mais políticas de retenção de informações aplicadas ao Microsoft Teams, consulte a seção "local da equipe" [visão geral das políticas de retenção](retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations).
+Para obter mais políticas de retenção de informações aplicadas ao Microsoft Teams, consulte a seção "local da equipe" [visão geral das políticas de retenção](create-retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations).
 
 ### <a name="understanding-the-format-of-the-inplaceholds-value-for-retention-policies"></a>Noções básicas sobre o formato do valor InPlaceHolds para políticas de retenção
 
@@ -117,7 +118,7 @@ A tabela a seguir define as três ações de retenção possíveis:
 |**duas**    |    Indica que a política de retenção está configurada para reter itens. A política não excluirá itens depois que o período de retenção expirar.     |
 |**3D**     |   Indica que a política de retenção está configurada para reter itens e excluí-los depois que o período de retenção expira.      |
 
-Para obter mais informações sobre ações de retenção, consulte a seção "retendo conteúdo por um período específico de tempo" em [visão geral das políticas de retenção](retention-policies.md#retaining-content-for-a-specific-period-of-time).
+Para obter mais informações sobre ações de retenção, consulte a seção "retendo conteúdo por um período específico de tempo" em [visão geral das políticas de retenção](create-retention-policies.md#retaining-content-for-a-specific-period-of-time).
    
 ## <a name="step-2-use-the-guid-to-identify-the-hold"></a>Etapa 2: usar o GUID para identificar a isenção
 

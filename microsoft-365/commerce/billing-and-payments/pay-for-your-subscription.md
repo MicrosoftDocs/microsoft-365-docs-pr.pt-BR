@@ -24,19 +24,19 @@ description: Saiba quais opções de pagamento estão disponíveis para pagar su
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: 613bb0fcc776b65090ee66faf6dc0516987947b2
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: a1ee158079e30348c3b1f9f26ef0b62160bf9544
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140866"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232870"
 ---
 # <a name="pay-for-your-subscription"></a>Pagar por sua assinatura
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -58,7 +58,7 @@ Se você pagar com cartão de crédito e ele for recusado, você receberá um em
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 
 2. Localize a assinatura com o saldo pendente. Na seção de **Cobrança**, ao lado de **Assinatura tem um pagamento vencido**, selecione **Liquidar saldo**.
 
@@ -107,7 +107,7 @@ Se você paga sua assinatura por fatura, receberá um email informando que a fat
 Infelizmente, se a sua assinatura estiver configurada para que o pagamento seja por fatura, não poderemos aceitar pagamentos online diretamente. Entretanto, é possível [alterar a forma de pagamento para cartão de crédito](change-payment-method.md), e o valor será automaticamente debitado em seu cartão ou conta após cada período de serviço. Para o Azure, confira [Como alterar o cartão de crédito usado para pagar a assinatura do Azure](https://go.microsoft.com/fwlink/p/?LinkId=718057).
 
 > [!NOTE]
-> Ao alterar o pagamento para cartão de crédito, verifique se já pagou os saldos pendentes. Verifique seu demonstrativo para obter instruções e opções de pagamento. Para obter mais informações, confira [Entender sua fatura](understand-your-invoice2.md).
+> Ao alterar o pagamento para cartão de crédito, verifique se já pagou os saldos pendentes. Verifique seu demonstrativo para obter instruções e opções de pagamento. Para obter mais informações, consulte [entender sua fatura ou fatura](understand-your-invoice2.md).
 
 ### <a name="where-do-i-send-my-check-or-eft-payment"></a>Para onde eu envio o boleto ou o pagamento por transferência bancária?
 
@@ -312,4 +312,4 @@ Se seus motivos para ter escolhido fatura ou cartão de crédito mudarem, por ex
 
 [Adicionar, atualizar ou remover um cartão de crédito](add-update-or-remove-credit-card-or-bank-account.md)
 
-[Entender sua fatura](understand-your-invoice2.md)
+[Entender sua fatura ou fatura](understand-your-invoice2.md)

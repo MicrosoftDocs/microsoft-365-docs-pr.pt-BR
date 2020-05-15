@@ -13,16 +13,16 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Use as barreiras de informação para garantir a conformidade de comunicação usando o Microsoft Teams em sua organização.
-ms.openlocfilehash: c4b4b31de90e8c72c346da5574b8854492de19ba
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 341c4f54ac48cbebd17b8d9ded267091f098dcbd
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047991"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232004"
 ---
 # <a name="information-barriers"></a>Barreiras de informações
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Os serviços de nuvem da Microsoft incluem recursos avançados de comunicação e colaboração. Mas suponha que você deseja restringir as comunicações entre dois grupos para evitar um conflito de interesse de ocorrer em sua organização. Ou, talvez você queira restringir as comunicações entre determinadas pessoas dentro da sua organização para proteger informações internas. A Microsoft 365 permite a comunicação e a colaboração entre grupos e organizações, portanto, há uma maneira de restringir as comunicações entre grupos específicos de usuários quando necessário? Com as barreiras de informação, você pode! 
 
@@ -65,7 +65,7 @@ As barreiras de informação estão sendo lançadas agora e estão incluídas em
 - Microsoft 365 E5
 - Office 365 E5
 - Conformidade avançada do Office 365
-- Conformidade e proteção de informações do Microsoft 365 E5
+- Conformidade com o Microsoft 365 e5
 
 Para obter mais detalhes, consulte [soluções de conformidade](https://products.office.com/business/security-and-compliance/compliance-solutions).
 

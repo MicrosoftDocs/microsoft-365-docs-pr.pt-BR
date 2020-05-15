@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Saiba como fazer alterações no perfil da sua organização, como nome da organização, endereço, telefone, contato técnico e email.
-ms.openlocfilehash: d3871e683aed862cfe58e072035b75cc004b9ef6
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: cae24ebb6ad317767c7798b808f166024cd9d73a
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208169"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232894"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Alterar o endereço, o contato técnico e outras informações da organização
 
@@ -60,7 +60,7 @@ Para alterar outras informações na página de perfil de sua empresa:
 |**Field**  |**Descrição**  |
 |---------|---------|
 |Nome  <br/>   | O nome inserido aqui é o que os usuários verão nas seguintes páginas:  <br/>  Página de entrada: se seus usuários configuraram outras contas da Microsoft com seus endereços de email comercial e escolar, poderão ver o nome da organização na página de entrada. Isso os ajuda a distinguir entre a conta conta corporativa ou de estudante e outras contas, e possibilita identificar qual delas usar ao entrar.  <br/>  Link e página de perfil da organização: o link para o perfil da sua organização exibe o nome da organização.  <br/>  Navegação do Yammer: no Yammer, a navegação à esquerda usa o nome da organização como o nome da rede doméstica do Yammer.  <br/> Cliente de sincronização do OneDrive: o nome da organização é mostrado no explorador de arquivos no Windows e no localizador no Mac, os caminhos de arquivo, a central de atividades do OneDrive, a dica de ferramenta do ícone de nuvem do OneDrive e a janela Configurações do OneDrive. No momento, atualizar o nome da organização não o atualiza para clientes configurados. <br/> MS Teams: o alternador de organização no Teams exibe o nome da organização <br/>  |
-|Endereço, Cidade, Estado/província, Código postal  <br/>     | O endereço inserido aqui é o que você verá na sua fatura, em vendido para: o endereço vendido para em sua conta é igual ao endereço da sua organização na sua página de perfil (Confira [entender sua fatura para o Microsoft 365 for Business](../../commerce/billing-and-payments/understand-your-invoice2.md)).  <br/>        |
+|Endereço, Cidade, Estado/província, Código postal  <br/>     | O endereço inserido aqui é o que você verá na sua fatura, em vendido para: o endereço vendido para em sua conta é igual ao endereço da sua organização na sua página de perfil (consulte [entender sua fatura ou fatura para o Microsoft 365 for Business](../../commerce/billing-and-payments/understand-your-invoice2.md)).  <br/>        |
 |País ou região,  <br/>    | Este é o país ou a região em que a empresa está localizada. O país ou a região selecionado determina quais serviços estão disponíveis para você, a moeda de impostos e cobrança do seu país ou região e o local do data center mais próximo (veja [Restrições de licença do Microsoft Office](https://office.microsoft.com/redir/FX103037529)).  <br/>Observação: depois de selecionado, o país ou região não pode ser alterado. Se você deseja alterar a seleção, precisa cancelar sua assinatura e inscrever-se novamente. Para obter ajuda com esse processo, [entre em contato com o suporte](../contact-support-for-business-products.md).        |
 |Telefone  <br/>     | Este é o número principal para a sua empresa. Geralmente é o número da sede de sua empresa.  <br/>        |
 |Contato técnico  <br/> |Este é o endereço de email da pessoa técnica principal que administra sua assinatura do Microsoft 365. Esta é a pessoa que receberá comunicações sobre o status do serviço do Microsoft 365.  <br/> |

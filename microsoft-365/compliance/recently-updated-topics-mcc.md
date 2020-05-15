@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 description: Assim como os recursos do centro de conformidade da Microsoft 365, nosso conteúdo da ajuda está sempre evoluindo. Estamos constantemente criando novos artigos, atualizando os existentes e fazendo alterações com base em seus comentários. Descubra o que é novo e atualizado este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6995413d6bbd068ac5e126351dc1a8fb761a0934
-ms.sourcegitcommit: ad789f1e7bf9c9dc0d45c731373e667a26ed30b1
+ms.openlocfilehash: 750165aab3612e3edb6a56f69eebf0778e141fde
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221415"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231894"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Atualizações recentes para o conteúdo de conformidade do Microsoft 365
 
@@ -38,14 +38,14 @@ Assim como os recursos do centro de conformidade da Microsoft 365, nosso conteú
 
 [Usar a auditoria avançada para investigar contas comprometidas](mailitemsaccessed-forensics-investigations.md) (novo)<br>Nova orientação sobre o uso da nova ação de auditoria de caixa de correio do *MailItemsAccessed* para investigações forenses.
 
-Várias atualizações para [Pesquisar o log de auditoria](search-the-audit-log-in-security-and-compliance.md), incluindo:
+[Pesquisar o log de auditoria](search-the-audit-log-in-security-and-compliance.md) (atualizado)<br>As alterações incluem:
 - [Nova seção](search-the-audit-log-in-security-and-compliance.md#the-appsharepoint-user-in-audit-records) com detalhes sobre o usuário de ' app@sharepoint ' listado em registros de auditoria.
 - [Novas descrições](search-the-audit-log-in-security-and-compliance.md#quarantine-activities) das atividades de quarentena.
 - Na seção [atividade de administração do usuário](search-the-audit-log-in-security-and-compliance.md#user-administration-activities) , esclarece que o evento "alterar senha de usuário é disparado quando um usuário altera sua própria senha (via redefinição de senha de autoatendimento) e o evento" Redefinir senha de usuário "é disparado quando um administrador redefine a senha de um usuário.
 
 ### <a name="auto-expanding-archive"></a>Arquivo morto de expansão automática
 
-[Visão geral do arquivamento ilimitado](unlimited-archiving.md#outlook-requirements-for-accessing-items-in-an-auto-expanded-archive)(atualizado)<br>Foi adicionado um esclarecimento de que não é possível excluir qualquer pasta no arquivo morto principal ou em um arquivo auxiliar, quando o arquivamento de expansão automática está habilitado em uma caixa de correio.
+[Visão geral do arquivamento ilimitado](unlimited-archiving.md#outlook-requirements-for-accessing-items-in-an-auto-expanded-archive) (atualizado)<br>Foi adicionado um esclarecimento de que não é possível excluir qualquer pasta no arquivo morto principal ou em um arquivo auxiliar, quando o arquivamento de expansão automática está habilitado em uma caixa de correio.
 
 ### <a name="compliance-scorecompliance-manager"></a>Pontuação de conformidade/gerente de conformidade
 

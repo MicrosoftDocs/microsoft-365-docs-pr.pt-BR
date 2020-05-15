@@ -14,17 +14,17 @@ search.appverid:
 - SPO160
 ms.assetid: 41b2ed73-eb8d-4429-945e-a8197894585a
 description: As organizações frequentemente são obrigadas a manter documentos por um determinado período devido a regulamentações de conformidade, legais ou outras. No entanto, reter os documentos por mais tempo do que o necessário poderá expor a organização a riscos legais.
-ms.openlocfilehash: 5550f65e5b2ecb5dca775e1d851548913b8e8517
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 065cb3c278a4c859c46d7d1c13c1f1160822337b
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632256"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232106"
 ---
 # <a name="create-a-document-deletion-policy"></a>Criar uma política de exclusão de documentos
 
 > [!IMPORTANT]
-> Em frente, recomendamos que você use uma política de retenção ou rótulos de retenção criados no centro de conformidade da Microsoft 365, no centro de segurança &amp; da Microsoft 365 ou no centro de conformidade de segurança em vez de uma política de exclusão de documentos. As políticas de exclusão de documentos continuarão a funcionar lado a lado com políticas de retenção, mas se você precisar reter ou excluir conteúdo em qualquer lugar no Office 365, recomendamos que você use uma política de retenção. Para obter mais informações, consulte [usar uma política de retenção em vez desses recursos](retention-policies.md#use-a-retention-policy-instead-of-these-features). 
+> Em frente, recomendamos que você use uma política de retenção do centro de conformidade da Microsoft 365 em vez de uma política de exclusão de documentos. As políticas de exclusão de documentos continuarão a funcionar lado a lado com políticas de retenção, mas se você precisar reter ou excluir conteúdo em qualquer lugar no Office 365, recomendamos que você use uma política de retenção ou rótulos de retenção. Para obter mais informações, consulte [usar uma política de retenção em vez de recursos mais antigos](retention-policies.md#use-a-retention-policy-instead-of-older-features).
   
 As organizações frequentemente são obrigadas a manter documentos por um determinado período devido a regulamentações de conformidade, legais ou outras. No entanto, reter os documentos por mais tempo do que o necessário poderá expor a organização a riscos legais.
   
@@ -108,9 +108,9 @@ Além disso, as políticas e regras são ajustadas a um conjunto de sites espec�
   
 ## <a name="create-a-document-deletion-policy"></a>Criar uma política de exclusão de documentos
 
-1. No centro de conformidade &amp; do Office 365Security, navegue até **retenção**de **Gerenciamento** \> de dados. Em **excluir**, clique em **gerenciar políticas de exclusão de documentos do SharePoint Online e do onedrive for Business**. O Centro de Política de Exclusão de Documentos é exibido em uma nova guia do navegador.
+1. No centro de conformidade do Office 365Security &amp; , navegue até retenção de **Gerenciamento de dados** \> **Retention**. Em **excluir**, clique em **gerenciar políticas de exclusão de documentos do SharePoint Online e do onedrive for Business**. O Centro de Política de Exclusão de Documentos é exibido em uma nova guia do navegador.
     
-    Na primeira vez que você navegar do centro &amp; de conformidade de segurança para a central de políticas de exclusão de documentos, a central de políticas será criada automaticamente para você. Como alternativa, você pode criar manualmente a central de políticas [criando o conjunto de sites](https://go.microsoft.com/fwlink/p/?LinkID=404342) e escolhendo **central de políticas de conformidade** na guia **empresa** . 
+    Na primeira vez que você navegar do centro de conformidade de segurança &amp; para a central de políticas de exclusão de documentos, a central de políticas será criada automaticamente para você. Como alternativa, você pode criar manualmente a central de políticas [criando o conjunto de sites](https://go.microsoft.com/fwlink/p/?LinkID=404342) e escolhendo **central de políticas de conformidade** na guia **empresa** . 
     
 2. Escolha **políticas de exclusão**.
     
@@ -151,7 +151,7 @@ Atribuindo uma política a um modelo de conjunto de sites, você disponibiliza a
   
 É importante entender que o período de tempo especificado para uma política de exclusão de documentos significa o tempo desde que o documento foi criado ou modificado, não o tempo desde que a política foi atribuída. Quando você atribui uma política pela primeira vez, todos os documentos no site são avaliados, e são excluídos se atenderem aos critérios. Isto se aplica a todos os documentos existentes, e não somente aos novos documentos criados desde que a política foi atribuída.
   
-1. No centro de &amp; conformidade de segurança, navegue até **retenção**de **Gerenciamento** \> de dados. Em **excluir**, clique em **gerenciar políticas de exclusão de documentos do SharePoint Online e do onedrive for Business**. O Centro de Política de Exclusão de Documento é exibido em uma nova guia do navegador.
+1. No centro de &amp; conformidade de segurança, navegue até retenção de **Gerenciamento de dados** \> **Retention**. Em **excluir**, clique em **gerenciar políticas de exclusão de documentos do SharePoint Online e do onedrive for Business**. O Centro de Política de Exclusão de Documento é exibido em uma nova guia do navegador.
     
 2. Escolha **Atribuições de políticas para modelos**.
     
@@ -173,7 +173,7 @@ Atribuindo uma política a um modelo de conjunto de sites, você disponibiliza a
 5. Clique em **Salvar**.
     
     > [!NOTE]
-    > Cada modelo pode ter apenas um conjunto de políticas atribuído a ele. Se você vir um erro dizendo que este modelo já tem políticas atribuídas a ele, escolha **Cancelar** \> **atribuir ao conjunto de sites** no painel \> de navegação à esquerda selecione um conjunto de sites para exibir e gerenciar o conjunto de políticas que já estão atribuídas. 
+    > Cada modelo pode ter apenas um conjunto de políticas atribuído a ele. Se você vir um erro dizendo que este modelo já tem políticas atribuídas a ele, escolha **Cancelar** \> **atribuir ao conjunto de sites** no painel de navegação à esquerda \> Selecione um conjunto de sites para exibir e gerenciar o conjunto de políticas que já estão atribuídas. 
   
 6. Escolha **Gerenciar políticas atribuídas**, selecione as políticas que deseja atribuir e escolha se uma política será a padrão. Quando você definir uma política padrão, todos os sites atribuídos automaticamente à política terão a política ativa sem que seja exigida uma ação do proprietário do site.
     
@@ -193,7 +193,7 @@ Ao atribuir uma política a um conjunto de sites específico, você disponibiliz
   
 É importante entender que o período de tempo especificado para uma política de exclusão de documentos significa o tempo desde que o documento foi criado ou modificado, não o tempo desde que a política foi atribuída. Quando você atribui uma política pela primeira vez, todos os documentos no site são avaliados, e são excluídos se atenderem aos critérios. Isto se aplica a todos os documentos existentes, e não somente aos novos documentos criados desde que a política foi atribuída.
   
-1. No centro de &amp; conformidade de segurança, navegue até **retenção**de **Gerenciamento** \> de dados. Em **excluir**, escolha **gerenciar políticas de exclusão de documentos do SharePoint Online e do onedrive for Business**. O Centro de Política de Exclusão de Documentos é exibido em uma nova guia do navegador.
+1. No centro de &amp; conformidade de segurança, navegue até retenção de **Gerenciamento de dados** \> **Retention**. Em **excluir**, escolha **gerenciar políticas de exclusão de documentos do SharePoint Online e do onedrive for Business**. O Centro de Política de Exclusão de Documentos é exibido em uma nova guia do navegador.
     
 2. Escolha **Atribuições de políticas para conjuntos de sites**.
     
@@ -224,7 +224,7 @@ Ao atribuir uma política a um conjunto de sites específico, você disponibiliz
 
 Quando você excluir uma atribuição, as políticas atribuídas não se aplicarão mais a qualquer site do conjunto de sites ou do modelo de conjunto de sites.
   
-1. No centro de &amp; conformidade de segurança, navegue até **retenção**de **Gerenciamento** \> de dados. Em **excluir**, escolha **gerenciar políticas de exclusão de documentos do SharePoint Online e do onedrive for Business**. O Centro de Política de Exclusão de Documento é exibido em uma nova guia do navegador.
+1. No centro de &amp; conformidade de segurança, navegue até retenção de **Gerenciamento de dados** \> **Retention**. Em **excluir**, escolha **gerenciar políticas de exclusão de documentos do SharePoint Online e do onedrive for Business**. O Centro de Política de Exclusão de Documento é exibido em uma nova guia do navegador.
     
 2. Escolha uma destas opções **Atribuições de políticas para modelos** ou **Atribuições de políticas para conjuntos de sites**.
     
@@ -236,7 +236,7 @@ Quando você excluir uma atribuição, as políticas atribuídas não se aplicar
 
 Não é possível excluir uma política que está sendo usada. Antes de poder excluir uma política, primeiro é necessário excluir todas as atribuições de conjuntos de sites e modelos de conjunto de sites que incluam essa política: consulte a seção anterior.
   
-1. &amp; No centro \> de conformidade de segurança, escolha **retenção** de gerenciamento \> \> de **dados** , no painel de navegação à esquerda, em **excluir** \> **gerenciar políticas de exclusão de documentos para o SharePoint Online e o onedrive for Business**. O Centro de Política de Exclusão de Documentos é exibido em uma nova guia do navegador.
+1. No centro de conformidade de segurança, &amp; \> escolha **Data management** \> **retenção** de gerenciamento de dados, no painel de navegação à esquerda \> , em **excluir** \> **gerenciar políticas de exclusão de documentos para o SharePoint Online e o onedrive for Business**. O Centro de Política de Exclusão de Documentos é exibido em uma nova guia do navegador.
     
 2. Escolha * * políticas de exclusão * *.
     
@@ -244,7 +244,7 @@ Não é possível excluir uma política que está sendo usada. Antes de poder ex
   
 3. Selecione a política.
     
-4. Na guia \> **Items** \> itens da faixa de opções, **remova a política**.
+4. Na guia itens da faixa de opções, \> **Items** \> **remova a política**.
     
     ![Botão Remover Política na Faixa de Opções](../media/IP-Remove-Policy-button-on-Ribbon.png)
   

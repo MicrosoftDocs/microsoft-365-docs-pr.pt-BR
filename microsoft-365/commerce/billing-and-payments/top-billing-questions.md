@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 5480fc33-dd47-41e7-bcfb-b2533efdb92a
 description: 'Encontre respostas para suas principais perguntas de cobrança para a assinatura do Microsoft 365 for Business. '
-ms.openlocfilehash: 3a75f9a754bf4f983ac0aca02b380e55d80be4b9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5d5b705c8c283103c09dc13dd13b853ffb3b270b
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634987"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232800"
 ---
 # <a name="top-billing-questions-for-microsoft-365-for-business"></a>Principais perguntas sobre cobrança para o Microsoft 365 for Business
 
@@ -40,13 +40,13 @@ Se você não conseguir encontrar uma resposta para a sua pergunta ou se tiver u
   
 ::: moniker range="o365-worldwide"
 
-Se você precisar de ajuda para interpretar os encargos exibidos na sua cobrança ou entender os termos usados, confira [entender sua fatura](understand-your-invoice2.md).
+Se você precisar de ajuda para interpretar os encargos exibidos na sua cobrança ou entender os termos usados, confira [entender sua fatura ou fatura](understand-your-invoice2.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Se você precisar de ajuda para interpretar os encargos exibidos na sua cobrança ou entender os termos usados, confira [entender sua fatura](understand-your-invoice2.md).
+Se você precisar de ajuda para interpretar os encargos exibidos na sua cobrança ou entender os termos usados, confira [entender sua fatura ou fatura](understand-your-invoice2.md).
 
 ::: moniker-end
 
@@ -120,7 +120,7 @@ Sim, mas você precisará [chamar o suporte](../../admin/contact-support-for-bus
 
 Sim. Para obter sua instrução de cobrança como um anexo de email, use as seguintes etapas:
   
-1. No centro de administração do Microsoft 365, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">notificações de cobrança</a> ou selecione **notificações de cobrança**de **cobrança** \> .
+1. No centro de administração do Microsoft 365, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">notificações de cobrança</a> ou selecione notificações de cobrança de **cobrança** \> **Billing notifications**.
 
 2. Em **Deseja receber o demonstrativo como um anexo de email?**, alterne o botão para a posição **Ativado**.
 

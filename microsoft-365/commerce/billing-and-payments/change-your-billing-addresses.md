@@ -23,19 +23,19 @@ search.appverid:
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: Saiba como atualizar seus endereços de cobrança para o Microsoft 365 for Business. Você também pode atualizar o endereço de email usado para receber notificações de cobrança.
 ms.custom: okr_SMB
-ms.openlocfilehash: 09f4ef95c9f8ab3dcce3b3a2511c5e407539020e
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 87a9540218f7ef4bef48154930b62bddab7b54e8
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140918"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232882"
 ---
 # <a name="change-your-billing-addresses"></a>Alterar os endereços para cobrança
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -51,13 +51,13 @@ Na maioria dos casos, esses endereços são os mesmos. Se precisar alterar um ou
   
 ::: moniker range="o365-worldwide"
 
-Para saber mais sobre sua cobrança ou fatura, confira [exibir sua cobrança ou fatura](view-your-bill-or-invoice.md) e [entender sua fatura](understand-your-invoice2.md).
+Para saber mais sobre a cobrança ou fatura, confira [exibir sua cobrança ou](view-your-bill-or-invoice.md) fatura e [entender sua fatura ou fatura](understand-your-invoice2.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Para saber mais sobre sua cobrança ou fatura, confira [exibir sua cobrança ou fatura](view-your-bill-or-invoice.md) e [entender sua fatura](understand-your-invoice2.md).
+Para saber mais sobre sua cobrança ou fatura, confira [exibir sua cobrança ou fatura](view-your-bill-or-invoice.md) e [entender o Bill orinvoice](understand-your-invoice2.md).
 
 ::: moniker-end
 
@@ -70,7 +70,7 @@ Se você estiver usando o Office 365 operado pela 21Vianet na China, confira [ex
 
 ## <a name="change-your-sold-to-address"></a>Alterar o endereço do campo Vendido para
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">contas de cobrança</a> de **cobrança** \> .
+1. No centro de administração, vá para a **Billing** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">contas de cobrança</a> de cobrança.
 
 2. Selecione **Editar informações da conta de cobrança**.
 
@@ -80,7 +80,7 @@ Se você estiver usando o Office 365 operado pela 21Vianet na China, confira [ex
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">métodos de pagamento</a> de **cobrança** \> .
+1. No centro de administração, vá para a **Billing** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">métodos de pagamento</a> de cobrança.
 
 2. Selecione o cartão de crédito ou conta bancária que você deseja alterar.
 
@@ -128,7 +128,7 @@ Se você estiver usando o Office 365 operado pela 21Vianet na China, confira [ex
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 
 2. Encontre a assinatura que você deseja alterar. Na seção **configurações & ações** , selecione **Editar endereço de uso do serviço**.
 
@@ -192,7 +192,7 @@ Você também pode alterar o endereço de email alternativo de outros administra
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">notificações de cobrança</a> de **cobrança** \> .
+1. No centro de administração, vá para a **Billing** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">notificações de cobrança</a> de cobrança.
 
 ::: moniker-end
 
@@ -204,7 +204,7 @@ Você também pode alterar o endereço de email alternativo de outros administra
 
 [Exibir sua cobrança ou fatura](view-your-bill-or-invoice.md)
 
-[Entender sua fatura](understand-your-invoice2.md)
+[Entender sua fatura ou fatura](understand-your-invoice2.md)
 
 [Pagar sua assinatura](pay-for-your-subscription.md)
 

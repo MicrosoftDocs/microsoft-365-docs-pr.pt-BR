@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: 'Para administradores: excluir itens na pasta itens recuperáveis de um usuário para uma caixa de correio do Exchange Online, mesmo se essa caixa de correio for colocada em retenção legal. Essa é uma maneira eficaz de excluir dados que foram desfeitos acidentalmente no Microsoft 365.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e42249fb2ba7143c4c833193b31c72f0fb73137
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 223c589d191eef14662b7e19aa5ed113db9ff3b2
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035885"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232047"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>Excluir itens da pasta itens recuperáveis das caixas de correio baseadas em nuvem em manter ajuda do administrador
 
@@ -52,7 +52,7 @@ A pasta itens recuperáveis para uma caixa de correio do Exchange Online existe 
 
 - O procedimento descrito neste artigo não tem suporte para caixas de correio inativas. Isso ocorre porque não é possível reaplicar uma retenção (ou uma diretiva de retenção) a uma caixa de correio inativa após removê-la. Quando você remove uma retenção de uma caixa de correio inativa, ela é alterada para uma caixa de correio normal excluída por software e será excluída permanentemente da sua organização depois de ser processada pelo assistente de pasta gerenciada.
 
-- Você não pode executar esse procedimento para uma caixa de correio que foi atribuída a uma política de retenção que foi bloqueada com um bloqueio de preservação. Isso ocorre porque um bloqueio de preservação impede que você remova ou exclua a caixa de correio da política de retenção e desabilite o assistente de pasta gerenciada na caixa de correio. Para obter mais informações sobre as políticas de retenção de bloqueio, consulte [bloquear uma política de retenção](retention-policies.md#locking-a-retention-policy).
+- Você não pode executar esse procedimento para uma caixa de correio que foi atribuída a uma política de retenção que foi bloqueada com um bloqueio de preservação. Isso ocorre porque um bloqueio de preservação impede que você remova ou exclua a caixa de correio da política de retenção e desabilite o assistente de pasta gerenciada na caixa de correio. Para obter mais informações sobre o bloqueio de políticas de retenção, consulte [use preservação Lock para cumprir os requisitos normativos](retention-policies.md#use-preservation-lock-to-comply-with-regulatory-requirements).
 
 - Se uma caixa de correio não for colocada em espera (ou não tiver a recuperação de item único habilitada), você poderá excluir os itens da pasta itens recuperáveis. Para obter mais informações sobre como fazer isso, confira [Pesquisar e excluir mensagens de email em sua organização](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization).
   
@@ -194,13 +194,13 @@ Após identificar o bloqueio in-loco, você pode usar o centro de administraçã
   
  ### <a name="retention-policies-applied-to-specific-mailboxes"></a>Políticas de retenção aplicadas a caixas de correio específicas
   
-Execute o seguinte comando no [PowerShell do centro de conformidade e segurança &](https://go.microsoft.com/fwlink/?linkid=627084) para identificar a política de retenção aplicada à caixa de correio. Use o GUID (não incluindo o `mbx` prefixo `skp` ou) para a política de retenção que você identificou na etapa 1. 
+Execute o seguinte comando no [PowerShell do centro de conformidade e segurança &](https://go.microsoft.com/fwlink/?linkid=627084) para identificar a política de retenção aplicada à caixa de correio. Use o GUID (não incluindo o `mbx` `skp` prefixo ou) para a política de retenção que você identificou na etapa 1. 
 
 ```powershell
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 ```
 
-Depois de identificar a política de retenção, vá para a página **retenção** de **governança** \> de informações no centro de conformidade & segurança, edite a política de retenção que você identificou na etapa anterior e remova a caixa de correio da lista de destinatários que estão incluídos na política de retenção. 
+Depois de identificar a política de retenção, vá para a página retenção de **governança de informações** \> **Retention** no centro de conformidade & segurança, edite a política de retenção que você identificou na etapa anterior e remova a caixa de correio da lista de destinatários que estão incluídos na política de retenção. 
   
  ### <a name="organization-wide-retention-policies"></a>Políticas de retenção em toda a organização
   
@@ -210,7 +210,7 @@ Políticas de retenção em toda a organização e no Exchange são aplicadas a 
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 ```
 
-Após identificar as políticas de retenção em toda a organização, vá para a página **retenção** de **governança** \> de informações no centro de conformidade & segurança, edite cada política de retenção em toda a organização que você identificou na etapa anterior e adicione a caixa de correio à lista de destinatários excluídos. Isso removerá a caixa de correio do usuário da política de retenção. 
+Após identificar as políticas de retenção em toda a organização, vá para a página retenção de **governança de informações** \> **Retention** no centro de conformidade & segurança, edite cada política de retenção em toda a organização que você identificou na etapa anterior e adicione a caixa de correio à lista de destinatários excluídos. Isso removerá a caixa de correio do usuário da política de retenção. 
 
 ### <a name="retention-labels"></a>Rótulos de retenção
 
@@ -242,7 +242,7 @@ Get-ComplianceCase $CaseHold.CaseId | FL Name
 $CaseHold.Name
 ```
 
-Após identificar o nome do caso de descoberta eletrônica e a retenção, vá **para a** \> página **descoberta** eletrônica de descoberta eletrônica no centro de conformidade, abra o caso e remova a caixa de correio da isenção. Para obter mais informações sobre como identificar bloqueios de descoberta eletrônica, consulte a seção "isenções de descoberta eletrônica" em [como identificar o tipo de retenção colocado em uma caixa de correio do Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md#ediscovery-holds).
+Após identificar o nome do caso de descoberta eletrônica e a retenção, vá para a página descoberta eletrônica de **descoberta eletrônica** \> **eDiscovery** no centro de conformidade, abra o caso e remova a caixa de correio da isenção. Para obter mais informações sobre como identificar bloqueios de descoberta eletrônica, consulte a seção "isenções de descoberta eletrônica" em [como identificar o tipo de retenção colocado em uma caixa de correio do Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md#ediscovery-holds).
   
 ## <a name="step-4-remove-the-delay-hold-from-the-mailbox"></a>Etapa 4: remover o atraso no bloqueio da caixa de correio
 
@@ -345,15 +345,15 @@ Execute as seguintes etapas (na sequência especificada) no PowerShell do Exchan
     
     **Políticas de retenção aplicadas a caixas de correio específicas**
     
-    Use o centro de conformidade & segurança para adicionar a caixa de correio de volta à política de retenção. Vá para a página **retenção** de **governança** \> de informações no centro de conformidade & segurança, edite a política de retenção e adicione a caixa de correio de volta à lista de destinatários aos quais a política de retenção é aplicada. 
+    Use o centro de conformidade & segurança para adicionar a caixa de correio de volta à política de retenção. Vá para a página retenção de **governança de informações** \> **Retention** no centro de conformidade & segurança, edite a política de retenção e adicione a caixa de correio de volta à lista de destinatários aos quais a política de retenção é aplicada. 
     
     **Políticas de retenção em toda a organização**
     
-    Se você removeu uma política de retenção em toda a organização ou em todo o Exchange excluindo-a da política, use o centro de conformidade de & de segurança para remover a caixa de correio da lista de usuários excluídos. Vá para a página **retenção** de **governança** \> de informações no centro de conformidade & segurança, edite a política de retenção em toda a organização e remova a caixa de correio da lista de destinatários excluídos. Isso reaplicará a política de retenção à caixa de correio do usuário. 
+    Se você removeu uma política de retenção em toda a organização ou em todo o Exchange excluindo-a da política, use o centro de conformidade de & de segurança para remover a caixa de correio da lista de usuários excluídos. Vá para a página retenção de **governança de informações** \> **Retention** no centro de conformidade & segurança, edite a política de retenção em toda a organização e remova a caixa de correio da lista de destinatários excluídos. Isso reaplicará a política de retenção à caixa de correio do usuário. 
     
     **retenção de ocorrência de descoberta eletrônica**
     
-    Use o centro de conformidade & segurança para adicionar a caixa de correio de volta à retenção associada a um caso de descoberta eletrônica. Vá para a página **descoberta** eletrônica de descoberta **eletrônica** \> , abra o caso e adicione a caixa de correio de volta à isenção. 
+    Use o centro de conformidade & segurança para adicionar a caixa de correio de volta à retenção associada a um caso de descoberta eletrônica. Vá para a página descoberta eletrônica de descoberta **eletrônica** \> **eDiscovery** , abra o caso e adicione a caixa de correio de volta à isenção. 
     
 5. Execute o seguinte comando para permitir que o assistente de pasta gerenciada processe a caixa de correio novamente. Conforme mencionado anteriormente, recomendamos que você espere 24 horas após a reaplicação de uma política de retenção ou retenção (e verifique se ela está no lugar) antes de reabilitar o assistente de pasta gerenciada. 
 
@@ -379,10 +379,10 @@ Conforme explicado anteriormente, você tem que remover todas as políticas de r
   
 |**Tipo de bloqueio**|**Valor de Exemplo**|**Como identificar a isenção**|
 |:-----|:-----|:-----|
-|Retenção de litígio  <br/> | `True` <br/> |A propriedade *LitigationHoldEnabled* está definida como `True`.  <br/> |
+|Retenção de litígio  <br/> | `True` <br/> |A propriedade *LitigationHoldEnabled* está definida como `True` .  <br/> |
 |Bloqueio In-loco  <br/> | `c0ba3ce811b6432a8751430937152491` <br/> |A propriedade *InPlaceHolds* contém o GUID do bloqueio in-loco colocado na caixa de correio. É possível dizer que isso é um bloqueio in-loco porque o GUID não começa com um prefixo.  <br/> Você pode usar o `Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL` comando no PowerShell do Exchange Online para obter informações sobre o bloqueio in-loco da caixa de correio.  <br/> |
-| Políticas de retenção no centro de conformidade & segurança aplicado a caixas de correio específicas  <br/> | `mbxcdbbb86ce60342489bff371876e7f224` <br/> ou  <br/>  `skp127d7cf1076947929bf136b7a2a8c36f` <br/> |Quando você executa o cmdlet **Get-Mailbox** , a propriedade *INPLACEHOLDS* também contém GUIDs de políticas de retenção aplicadas à caixa de correio. Você pode identificar as políticas de retenção porque o GUID começa `mbx` com o prefixo. Se o GUID da política de retenção começar com o `skp` prefixo, isso indica que a política de retenção é aplicada às conversas do Skype for Business.  <br/> Para identificar a política de retenção aplicada à caixa de correio, execute o seguinte comando no PowerShell do centro de conformidade & segurança: <br/> <br/>`Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>Certifique-se de remover `mbx` o `skp` prefixo ou ao executar este comando.  <br/> |
-|Políticas de retenção em toda a organização no centro de conformidade e segurança &  <br/> |Nenhum valor  <br/> ou  <br/>  `-mbxe9b52bf7ab3b46a286308ecb29624696`(indica que a caixa de correio é excluída de uma política de toda a organização)  <br/> |Mesmo se a propriedade *InPlaceHolds* estiver vazia quando você executar o cmdlet **Get-Mailbox** , ainda poderá haver uma ou mais políticas de retenção em toda a organização aplicadas à caixa de correio.  <br/> Para verificar isso, você pode executar o `Get-OrganizationConfig | FL InPlaceHolds` comando no PowerShell do Exchange Online para obter uma lista dos GUIDs de políticas de retenção em toda a organização. O GUID para políticas de retenção em toda a organização aplicada às caixas de correio do `mbx` Exchange começa com o prefixo; por exemplo, `mbxa3056bb15562480fadb46ce523ff7b02`.  <br/> Para identificar a política de retenção em toda a organização que é aplicada à caixa de correio, execute o seguinte comando no PowerShell do centro de conformidade de segurança &: <br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>Se uma caixa de correio for excluída de uma política de retenção em toda a organização, o GUID da política de retenção será exibido na propriedade *InPlaceHolds* da caixa de correio do usuário quando você executar o cmdlet **Get-Mailbox** ; é identificado pelo prefixo `-mbx`; por exemplo,`-mbxe9b52bf7ab3b46a286308ecb29624696` <br/> |
-|retenção de caso de descoberta eletrônica no centro de conformidade de & de segurança  <br/> | `UniH7d895d48-7e23-4a8d-8346-533c3beac15d` <br/> |A propriedade *InPlaceHolds* também contém o GUID de qualquer isenção associada a uma ocorrência de descoberta eletrônica no centro de conformidade de & de segurança que possa ser colocado na caixa de correio. É possível dizer que esta é uma retenção de caso de descoberta eletrônica porque o `UniH` GUID começa com o prefixo.  <br/> Você pode usar o `Get-CaseHoldPolicy` cmdlet no PowerShell do centro de conformidade & de segurança para obter informações sobre a ocorrência de descoberta eletrônica à qual a retenção da caixa de correio está associada. Por exemplo, você pode executar o comando `Get-CaseHoldPolicy <hold GUID without prefix> | FL Name` para exibir o nome da retenção de caso que está na caixa de correio. Certifique-se de remover `UniH` o prefixo ao executar este comando.  <br/><br/> Para identificar a ocorrência de descoberta eletrônica à qual a retenção da caixa de correio está associada, execute os seguintes comandos:<br/><br/>`$CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>`<br/><br/>`Get-ComplianceCase $CaseHold.CaseId | FL Name`
+| Políticas de retenção no centro de conformidade & segurança aplicado a caixas de correio específicas  <br/> | `mbxcdbbb86ce60342489bff371876e7f224` <br/> ou  <br/>  `skp127d7cf1076947929bf136b7a2a8c36f` <br/> |Quando você executa o cmdlet **Get-Mailbox** , a propriedade *INPLACEHOLDS* também contém GUIDs de políticas de retenção aplicadas à caixa de correio. Você pode identificar as políticas de retenção porque o GUID começa com o `mbx` prefixo. Se o GUID da política de retenção começar com o `skp` prefixo, isso indica que a política de retenção é aplicada às conversas do Skype for Business.  <br/> Para identificar a política de retenção aplicada à caixa de correio, execute o seguinte comando no PowerShell do centro de conformidade & segurança: <br/> <br/>`Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>Certifique-se de remover `mbx` o `skp` prefixo ou ao executar este comando.  <br/> |
+|Políticas de retenção em toda a organização no centro de conformidade e segurança &  <br/> |Nenhum valor  <br/> ou  <br/>  `-mbxe9b52bf7ab3b46a286308ecb29624696`(indica que a caixa de correio é excluída de uma política de toda a organização)  <br/> |Mesmo se a propriedade *InPlaceHolds* estiver vazia quando você executar o cmdlet **Get-Mailbox** , ainda poderá haver uma ou mais políticas de retenção em toda a organização aplicadas à caixa de correio.  <br/> Para verificar isso, você pode executar o `Get-OrganizationConfig | FL InPlaceHolds` comando no PowerShell do Exchange Online para obter uma lista dos GUIDs de políticas de retenção em toda a organização. O GUID para políticas de retenção em toda a organização aplicada às caixas de correio do Exchange começa com o `mbx` prefixo; por exemplo, `mbxa3056bb15562480fadb46ce523ff7b02` .  <br/> Para identificar a política de retenção em toda a organização que é aplicada à caixa de correio, execute o seguinte comando no PowerShell do centro de conformidade de segurança &: <br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>Se uma caixa de correio for excluída de uma política de retenção em toda a organização, o GUID da política de retenção será exibido na propriedade *InPlaceHolds* da caixa de correio do usuário quando você executar o cmdlet **Get-Mailbox** ; é identificado pelo prefixo `-mbx` ; por exemplo,`-mbxe9b52bf7ab3b46a286308ecb29624696` <br/> |
+|retenção de caso de descoberta eletrônica no centro de conformidade de & de segurança  <br/> | `UniH7d895d48-7e23-4a8d-8346-533c3beac15d` <br/> |A propriedade *InPlaceHolds* também contém o GUID de qualquer isenção associada a uma ocorrência de descoberta eletrônica no centro de conformidade de & de segurança que possa ser colocado na caixa de correio. É possível dizer que esta é uma retenção de caso de descoberta eletrônica porque o GUID começa com o `UniH` prefixo.  <br/> Você pode usar o `Get-CaseHoldPolicy` cmdlet no PowerShell do centro de conformidade & de segurança para obter informações sobre a ocorrência de descoberta eletrônica à qual a retenção da caixa de correio está associada. Por exemplo, você pode executar o comando `Get-CaseHoldPolicy <hold GUID without prefix> | FL Name` para exibir o nome da retenção de caso que está na caixa de correio. Certifique-se de remover o `UniH` prefixo ao executar este comando.  <br/><br/> Para identificar a ocorrência de descoberta eletrônica à qual a retenção da caixa de correio está associada, execute os seguintes comandos:<br/><br/>`$CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>`<br/><br/>`Get-ComplianceCase $CaseHold.CaseId | FL Name`
 
 
