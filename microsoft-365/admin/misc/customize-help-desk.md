@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 9dd9b104-68f7-4d49-9a30-82561c7d79a3
 description: Criar um cartão de suporte técnico personalizado no centro de administração e adicionar informações de contato de suporte personalizado ao painel de ajuda.
-ms.openlocfilehash: 2a803e339eef23025e6323ee408c4c442c90951e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: dac276290f882aa1bd9f22eb6a3306f7869f4253
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627891"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262266"
 ---
 # <a name="add-customized-help-desk-info-to-the-help-pane"></a>Adicionar informações do suporte técnico personalizado ao painel de ajuda
 
@@ -40,7 +40,7 @@ Para criar um cartão de suporte técnico personalizado, você deve ser um admin
 ### <a name="create-the-custom-help-desk-card-in-the-admin-center"></a>Criar o cartão de suporte técnico personalizado no centro de administração
 <a name="BKMK_HelpDeskPreview"> </a>
 
-1. No centro de administração, vá**Settings** para a **Settings** > guia Configurações e escolha **informações do Help Desk** .
+1. No centro de administração, vá para a guia **configurações da**  >  **organização** e escolha **informações sobre o suporte técnico** .
     
 2. Na guia **perfil da organização** , escolha **blocos personalizados do inicializador de aplicativos**.
   

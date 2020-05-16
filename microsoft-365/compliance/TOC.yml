@@ -210,14 +210,14 @@
               href: set-up-azure-rms-for-previous-version-message-encryption.md
     - name: Configurar o IRM no centro de administração do SharePoint
       href: set-up-irm-in-sp-admin-center.md
-    - name: Entender a classificação de dados (visualização)
+    - name: Entender a classificação de dados
       href: data-classification-overview.md
       items:
-        - name: Introdução ao Gerenciador de conteúdo (visualização)
+        - name: 'Introdução ao gerenciador de conteúdo '
           href: data-classification-content-explorer.md
-        - name: Começar a usar o gerenciador de atividades (visualização)
+        - name: Começar a usar o gerenciador de atividades
           href: data-classification-activity-explorer.md
-        - name: Notas de versão de visualização pública de classificação de dados (visualização)
+        - name: Notas de versão de classificação de dados
           href: data-classification-pub-preview-relnotes.md
         - name: Introdução aos classificadores de treinamento (visualização)
           href: classifier-getting-started-with.md

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Saiba como alterar o tema padrão do Microsoft 365 e personalizá-lo para corresponder ao logotipo ou à cor da empresa. '
-ms.openlocfilehash: cfde26e2b7f6d74a59b7431091fbc3c2f6049ec6
-ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
+ms.openlocfilehash: 3674c26be50d622364a4dc077a85eaa974d71fcd
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44022115"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262324"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Personalizar o tema do Microsoft 365 para sua organização
 
@@ -34,7 +34,7 @@ Saiba como personalizar seu tema no centro de administração do Microsoft 365. 
   
 ## <a name="customize-your-theme-in-the-admin-center"></a>Personalizar seu tema no centro de administração
 
-1. No centro de administração, vá para as **Settings** \> **configurações**de configurações e, em seguida, escolha a guia **perfil da organização** .
+1. No centro de administração, vá para configurações **Settings** da \> **organização**configurações e, em seguida, escolha a guia **perfil da organização** .
 
 2. Na guia **perfil da organização** , escolha **temas personalizados**.
 

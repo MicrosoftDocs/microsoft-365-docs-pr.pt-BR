@@ -20,19 +20,19 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: 'Crie links rápidos para seus emails, documentos, aplicativos, sites do SharePoint, sites externos e outros recursos adicionando blocos personalizados ao inicializador de aplicativos. '
-ms.openlocfilehash: 2c0a1cbd2f7c605bc03a55787266c7a627f8e329
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: f099eabef7a22e9ebd8f20b23ccd3d8da142f07f
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139716"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262358"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Adicionar blocos personalizados ao inicializador de aplicativos
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -44,7 +44,7 @@ Você pode adicionar blocos personalizados ao inicializador de aplicativos, que 
   
 ## <a name="add-a-custom-tile-to-the-app-launcher"></a>Adicionar um bloco personalizado ao inicializador de aplicativos
 
-1. No centro de administração, vá para a **guia Configurações e escolha o** > **Settings** **perfil da organização** .
+1. No centro de administração, vá para as configurações de organização de **configurações**  >  **Org Settings** e escolha a guia **perfil da organização** .
     
 2. Na guia **perfil da organização** , escolha **blocos personalizados do inicializador de aplicativos**.
   
@@ -76,7 +76,7 @@ Agora, o bloco personalizado é exibido na guia **Tudo** do inicializador de apl
   
 ## <a name="edit-or-delete-a-custom-tile"></a>Edit or delete a custom tile
 
-1. No centro de administração, vá para a guia<a href="https://go.microsoft.com/fwlink/p/?linkid=2067339" target="_blank">perfil da organização</a> **configurações** > de **configurações** > .
+1. No centro de administração, vá para a **Settings**  >  **Org Settings**  >  guia**perfil da organização** configurações da org Settings </a> .
     
 2. Na página **perfil da organização** , ao lado de **Adicionar blocos personalizados para sua organização**, selecione **Editar**.
 
@@ -84,7 +84,7 @@ Agora, o bloco personalizado é exibido na guia **Tudo** do inicializador de apl
     
 4. Selecione **Atualizar** \> **Fechar**. 
     
-Para excluir um bloco personalizado, da janela **blocos personalizados** , selecione o bloco, selecione **remover** > **exclusão**de bloco. 
+Para excluir um bloco personalizado, da janela **blocos personalizados** , selecione o bloco, selecione **remover**  >  **exclusão**de bloco. 
   
 ## <a name="whats-next"></a>O que vem a seguir?
 

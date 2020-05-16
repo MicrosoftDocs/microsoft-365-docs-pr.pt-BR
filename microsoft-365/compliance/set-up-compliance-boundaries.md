@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Use limites de conformidade para criar limites lógicos dentro de uma organização que controla os locais de conteúdo do usuário que um gerente de descoberta eletrônica pode pesquisar. Os limites de conformidade usam filtragem de permissões de pesquisa (também chamados de filtros de segurança de conformidade) para controlar quais caixas de correio, sites do SharePoint e contas do OneDrive podem ser pesquisadas por usuários específicos.
-ms.openlocfilehash: 6bad8aaba9b9905966797c21abe211850bf805a3
-ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
+ms.openlocfilehash: da03f60be55b0ac6438adcc1648231e5b9798e56
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231844"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262564"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Configurar limites de conformidade para investigações de descoberta eletrônica
 
@@ -75,19 +75,20 @@ Embora mais atributos de usuário estejam disponíveis, particularmente para cai
   
 ## <a name="step-2-file-a-request-with-microsoft-support-to-synchronize-the-user-attribute-to-onedrive-accounts"></a>Etapa 2: arquivar uma solicitação com o suporte da Microsoft para sincronizar o atributo de usuário com as contas do OneDrive
 
-A próxima etapa é arquivar uma solicitação com o suporte da Microsoft para sincronizar o atributo do Azure Active Directory que você escolheu na etapa 1 para todas as contas do OneDrive em sua organização. Após essa sincronização ocorrer, o atributo (e seu valor) que você escolheu na etapa 1 será mapeado para uma propriedade gerenciada oculta no SharePoint nomeada `ComplianceAttribute` . Use este atributo para criar o filtro de permissões de pesquisa para o OneDrive na etapa 4.
+A próxima etapa é arquivar uma solicitação com o suporte da Microsoft para sincronizar o atributo do Azure Active Directory que você escolheu na etapa 1 para todas as contas do OneDrive em sua organização. Após essa sincronização ocorrer, o atributo (e seu valor) que você escolheu na etapa 1 será mapeado para uma propriedade gerenciada oculta chamada `ComplianceAttribute` . Use este atributo para criar o filtro de permissões de pesquisa para o OneDrive na etapa 4.
   
 Inclua as seguintes informações ao enviar a solicitação para o suporte da Microsoft:
   
 - O nome de domínio padrão da sua organização
-    
+
 - O nome do atributo do Azure Active Directory (da etapa 1)
-    
+
 - O seguinte título ou descrição da finalidade da solicitação de suporte: "habilitar a sincronização do OneDrive for Business com o Azure Active Directory para filtros de segurança de conformidade". Isso ajuda a rotear a solicitação para a equipe de engenharia de descoberta eletrônica que implementa a solicitação.
-    
+
 Após a alteração da engenharia ser feita e o atributo ser sincronizado com o OneDrive, o suporte da Microsoft lhe enviará o número de compilação que a alteração foi feita e uma data de implantação estimada. O processo de implantação geralmente leva de 4 a 6 semanas após o envio da solicitação de suporte.
   
- **Importante:** Você pode concluir a etapa 3 à etapa 5 antes de a alteração ser implantada. Mas a execução de pesquisas de conteúdo não retornará documentos de sites do OneDrive especificados no filtro permissões de pesquisa até que a alteração seja implantada. 
+> [!IMPORTANT]
+> Você pode concluir a etapa 3 até a etapa 5 antes que esta alteração de atributo seja implantada. Mas a execução de pesquisas de conteúdo não retornará documentos de sites do OneDrive especificados no filtro permissões de pesquisa até que a alteração seja implantada.
   
 ## <a name="step-3-create-a-role-group-for-each-agency"></a>Etapa 3: criar um grupo de função para cada agência
 

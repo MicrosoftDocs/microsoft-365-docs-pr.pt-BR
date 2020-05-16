@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Saiba como iniciar a coleta de dados para o seu locatário usando o aplicativo de modelo de análise de uso do Microsoft 365 no Power BI.
-ms.openlocfilehash: 386b64b1db15ba9f00450ac037a74bfc702e95ea
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 3c5e1a35b93b755b92710f0499599d849a6c251c
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140678"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262530"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Habilitar análise de uso do Microsoft 365
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -63,7 +63,7 @@ Consulte [sobre funções de administrador](../add-users/about-admin-roles.md) p
     
 2. Na página **uso** , localize o cartão de **análise de uso do Microsoft 365** e selecione **introdução**.
     
-3. No painel de relatórios que é aberto, defina **disponibilizar dados para a análise de uso do Microsoft 365 para o Power bi** **para** \> ao **salvar**. 
+3. No painel de relatórios que é aberto, defina **disponibilizar dados para a análise de uso do Microsoft 365 para o Power bi** **para ao** \> **salvar**. 
   
 Isso iniciará o processo de coleta de dados e será concluído em 2 a 48 horas, dependendo do tamanho do seu locatário. O botão **ir para Power bi** será habilitado (não mais cinza) quando a coleta de dados estiver concluída. 
     
@@ -75,7 +75,7 @@ Para iniciar o aplicativo de modelo, você deve ser um **administrador global**,
     
 2.  Quando chegar ao Power BI, entre. Selecione aplicativos->obter aplicativos no menu de navegação.    
   
-3. Na guia **aplicativos** , digite Microsoft 365 na caixa de pesquisa e selecione \> análise de **uso do Microsoft 365** **agora**.
+3. Na guia **aplicativos** , digite Microsoft 365 na caixa de pesquisa e selecione análise de **uso do Microsoft 365** \> **agora**.
 
     [![Selecionar obter agora](../../media/78102250-9874-4a32-8365-436f13560b52.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics)
     
@@ -83,9 +83,9 @@ Para iniciar o aplicativo de modelo, você deve ser um **administrador global**,
 
 5.  Clique em **explorar aplicativo** para exibir o aplicativo com dados de exemplo. Clique em **conectar** para conectar o aplicativo aos dados da sua organização.
 
-6.  Após clicar em **conectar**, na tela **conectar ao Microsoft 365 Usage Analytics** , digite a ID do locatário que você copiou na etapa (1 \> ) **Avançar**.
+6.  Após clicar em **conectar**, na tela **conectar ao Microsoft 365 Usage Analytics** , digite a ID do locatário que você copiou na etapa (1) \> **Avançar**.
     
-7. Na tela seguinte, selecione **oAuth2** como o **método** \> de autenticação **entrar**. Se você escolher qualquer outro método de autenticação, a conexão com o aplicativo de modelo irá falhar.
+7. Na tela seguinte, selecione **oAuth2** como o **método de autenticação** \> **entrar**. Se você escolher qualquer outro método de autenticação, a conexão com o aplicativo de modelo irá falhar.
     
     ![Choose oAuth2 as authentication method](../../media/ac85a360-c278-4c60-8aa3-68f4828f1d96.png)
   
@@ -97,7 +97,7 @@ Os agregados de nível do locatário estarão disponíveis em todos os relatóri
 
 Para tornar anônimos os dados coletados para todos os relatórios, você deve ser um administrador global. Isso ocultará as informações de identificação, como nomes de site, de grupo e de usuário em relatórios e no aplicativo de modelo.
   
-1. No **centro de administração** \> , vá para a guia **configurações**e, em **Serviços** , escolha **relatórios**.
+1. No centro de administração, vá para as **Settings** configurações da \> **organização**configurações e, na guia **Serviços** , escolha **relatórios**.
     
 2. Selecione **relatórios**e, em seguida, escolha **Exibir identificadores anônimos**. Essa configuração é aplicada tanto para os relatórios de uso quanto para o aplicativo de modelo.
   

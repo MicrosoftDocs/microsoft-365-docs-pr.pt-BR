@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 02/21/2020
+ms.date: 05/15/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4e6dfaa8a6a2a0157e9274c7b25dae6e7aed2395
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 83ae99a75e3c3aa8d109766418abcf0888b8cbf4
+ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036579"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44267162"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Novidades na ATP do Office 365
 
@@ -35,6 +35,10 @@ Este artigo lista os novos recursos da versão mais recente do Office 365 ATP. O
 > [!TIP]
 > Ainda não tem o Office 365 ATP? [Entre em contato com vendas para iniciar uma avaliação](https://go.microsoft.com/fwlink/p/?LinkId=518644).
 
+## <a name="marchapril-2020"></a>Março de abril de 2020
+
+- Agora, a capacidade de [lidar com contas de usuário comprometidas com investigação e resposta automatizadas](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) está disponível.
+
 ## <a name="januaryfebruary-2020"></a>Janeiro/fevereiro de 2020
 
 - [Disponibilidade geral de modos de exibição de campanha no Office 365 ATP](campaigns.md)
@@ -46,7 +50,7 @@ Este artigo lista os novos recursos da versão mais recente do Office 365 ATP. O
     - Avançado não filtra (são opções de filtragem avançadas que incluem o não contém, não inclui, etc.)
     - Filtros de tempo granulares (dia, hora, meia hora) 
 
-- O widget **incidentes** agora é o widget **central de ações** . (Para exibir seus widgets de segurança, no centro de conformidade de & de segurança, vá para**análise**de **Gerenciamento** > de ameaças.)
+- O widget **incidentes** agora é o widget **central de ações** . (Para exibir seus widgets de segurança, no centro de conformidade de & de segurança, vá para **Gerenciamento**  >  de ameaças **Revisão**.)
 
 - [Documentos seguros no Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(versão prévia)**
 

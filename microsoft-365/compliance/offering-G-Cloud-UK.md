@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cc6f2a8c52a5fc829a9f04c51f78cf7ea5c2f1e1
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: 5a8d0b95a0abb93eef352a442ff6c8203eda6e0e
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214495"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254174"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>Governo do Reino Unido-nuvem (G-Cloud)
 
@@ -41,15 +41,15 @@ Saiba mais sobre os benefícios do Reino Unido G-Cloud V6 na nuvem da Microsoft:
 
 Saiba como acelerar sua implantação do Reino Unido G-Cloud V6 com nosso plano de conformidade e segurança do Azure: [baixar as diretrizes de implementação de princípio de nuvem do Microsoft Azure Blueprint do Reino Unido](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=c3804aba-03a7-4d21-88ad-d9bbe5314a00&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_UK_G-Cloud_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure](https://aka.ms/AzureCompliance)
-- Cloud App Security
+- Microsoft Cloud App Security
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Serviço de nuvem do Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
+- Automatização de energia (anteriormente Microsoft Flow) o serviço de nuvem como um serviço autônomo ou como incluído em um plano ou pacote de marca do Office 365 ou Dynamics 365
 - Office 365: Exchange Online, SharePoint Online e Skype for Business Online
-- Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
+- Serviço em nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - Serviço em nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
@@ -105,7 +105,7 @@ Além dos datacenters UK, os serviços de nuvem da Microsoft têm data centers e
 
 **Como posso obter cópias dos relatórios do auditor?**
 
-O [Portal de Confiança do Serviço](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal) fornece relatórios de conformidade auditados de forma independente. Você pode usar o portal para solicitar relatórios de auditoria para que seus auditores possam comparar os resultados da Microsoft com seus próprios requisitos legais e normativos.
+O [Portal de Confiança de Serviços](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal) fornece relatórios de conformidade auditados de forma independente. Você pode usar o portal para solicitar relatórios de auditoria para que seus auditores possam comparar os resultados da Microsoft com seus próprios requisitos legais e normativos.
 
 ## <a name="resources"></a>Recursos
 
@@ -114,4 +114,4 @@ O [Portal de Confiança do Serviço](https://docs.microsoft.com/microsoft-365/co
 - [Princípios de segurança G-Cloud](https://aka.ms/UK-G-Cloud)
 - [Mercado digital](https://www.digitalmarketplace.service.gov.uk/)
 - [Microsoft Online Services](https://aka.ms/Online-Services-Terms)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

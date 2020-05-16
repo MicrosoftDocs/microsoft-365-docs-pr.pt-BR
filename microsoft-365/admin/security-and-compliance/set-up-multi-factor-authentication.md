@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Saiba como usar os padrões de segurança para configurar a autenticação multifator para os usuários.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 4c0df9198db8154c1aa748a68eff29dd9bf3bca1
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: c4ea6037b34d29f2d1e05e248e03e49ee6b06f56
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213005"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262370"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Configurar a autenticação multifator
   
@@ -79,7 +79,7 @@ Todos os aplicativos cliente do Office 2016 oferecem suporte à MFA por meio do 
 
 No entanto, você precisa certificar-se de que sua assinatura do Microsoft 365 está habilitada para ADAL ou autenticação moderna.
 
-1. Para habilitar a autenticação moderna, no [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=834822), selecione **Configurações**\>**Configurações** e na guia **Serviços**, escolha **Autenticação moderna** na lista.
+1. Para habilitar a autenticação moderna, no [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=834822), **Settings** selecione configurações da \> **organização** configurações e, em seguida, na guia **Serviços** , escolha **autenticação moderna** na lista.
 
 2. Marque a caixa **habilitar autenticação moderna (recomendada)** no painel **autenticação moderna** e, em seguida, escolha **salvar alterações**. 
 

@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Saiba como configurar a opção de lançamento para novas atualizações de produtos e recursos no centro de administração do Microsoft 365.
-ms.openlocfilehash: 3a7a0562edef527718816bba6e67ea948cfad6b5
-ms.sourcegitcommit: 708857a82eab3d37da1dec027399b09bd306a5dd
+ms.openlocfilehash: 2738cf7af32d2e15b0c2c790a241dabbb1f104bc
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/15/2020
-ms.locfileid: "44249879"
+ms.locfileid: "44262312"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>Configurar as opções de lançamento padrão ou direcionadas
 
@@ -99,7 +99,7 @@ Você pode alterar como sua organização recebe as atualizações da Microsoft 
 > [!IMPORTANT]
 > Pode levar até 24 horas para que as alterações abaixo tenham efeito no Microsoft 365. Se você optar por cancelar o lançamento direcionado depois de ativá-lo, os usuários poderão perder o acesso aos recursos que ainda não chegaram ao lançamento padrão. 
   
-1. No centro de administração, vá para a **Settings**  >  **configuração**configurações e, na guia **perfil da organização** , escolha **preferências de versão**.
+1. No centro de administração, vá para a **Settings**  >  **configuração org**Settings e, na guia **perfil da organização** , escolha **preferências de versão**.
 
 5. Para desabilitar o lançamento direcionado, selecione **versão padrão**e, em seguida, selecione **salvar alterações**. 
     
