@@ -11,12 +11,12 @@ metadata:
   ms.author: sirkkuw
   ms.date: 01/27/2020
   localization_priority: Priority
-  ms.openlocfilehash: fc4300d57f3a14a7f71b0ff61a3aedf4c54bbac6
-  ms.sourcegitcommit: a2dd93943f68362220b123e3e4b0f7b3facbdd03
+  ms.openlocfilehash: fadbb38cbf4174366993ec3c27b58b914173b2be
+  ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/30/2020
-  ms.locfileid: "43955308"
+  ms.lasthandoff: 05/15/2020
+  ms.locfileid: "44267130"
 landingContent:
 - title: Gerenciamento de usuários
   linkLists:
@@ -26,6 +26,8 @@ landingContent:
       url: add-users.md
     - text: Editar um usuário
       url: add-users.md
+    - text: Adicionar convidados a um grupo do Microsoft 365
+      url: ../create-groups/manage-guest-access-in-groups.md
     - text: Adicionar outro endereço de email
       url: ../email/add-another-email-alias-for-a-user.md
     - text: Criar uma caixa de correio compartilhada
