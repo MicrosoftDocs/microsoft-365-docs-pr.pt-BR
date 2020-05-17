@@ -28,7 +28,7 @@
       href: subscriptions/cancel-your-subscription.md
     - name: E se a minha assinatura expirar?
       href: subscriptions/what-if-my-subscription-expires.md
-    - name: Gerenciar aplicativos de terceiros
+    - name: Gerenciar assinaturas de aplicativos de terceiros
       href: manage-saas-apps.md
     - name: Gerenciar compras de autoatendimento (Usuários)
       href: subscriptions/manage-self-service-purchases-users.md
@@ -40,15 +40,15 @@
       href: licenses/buy-licenses.md
     - name: Atribuir licenças aos usuários
       href: ../admin/manage/assign-licenses-to-users.md
-    - name: Cancelar a atribuição de licenças dos usuários`
+    - name: Cancelar a atribuição de licenças de usuários
       href: ../admin/manage/remove-licenses-from-users.md
     - name: Entenda as assinaturas e licenças
       href: licenses/subscriptions-and-licenses.md
 - name: Contas e pagamentos
   items:
-    - name: Exibir a fatura
+    - name: Exibir sua conta ou fatura
       href: billing-and-payments/view-your-bill-or-invoice.md
-    - name: Entenda a sua fatura
+    - name: Entenda sua conta ou fatura
       href: billing-and-payments/understand-your-invoice.md
     - name: Gerenciar métodos de pagamento
       href: billing-and-payments/manage-payment-methods.md
@@ -62,7 +62,7 @@
       href: billing-and-payments/manage-billing-profiles.md
     - name: Alterar os endereços para cobrança
       href: billing-and-payments/change-your-billing-addresses.md
-    - name: Diretiva de serviços de pagamento 2 e Forte autenticação do cliente
+    - name: Saiba Mais sobre a Diretiva de Serviços de Pagamento 2 e a Autenticação Forte do cliente
       href: billing-and-payments/psd2.md
 - name: Contas de cobrança
   items:
@@ -70,7 +70,7 @@
       href: manage-billing-accounts.md
     - name: Associar um locatário à minha conta de cobrança
       href: 'https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business'
-- name: Gerenciar relacionamentos com meus parceiros
+- name: Gerencie relacionamentos com seus parceiros
   href: manage-partners.md
 - name: Fechar sua conta
   href: close-your-account.md
