@@ -410,6 +410,8 @@
                   href: ./office-365-security/air-view-investigation-results.md
                 - name: Revise e aprove (ou rejeite) as ações pendentes
                   href: ./office-365-security/air-review-approve-pending-completed-actions.md
+                - name: Resolver falsos positivos/negativos
+                  href: ./office-365-security/air-report-false-positives-negatives.md
                 - name: Integrar o AIR com uma solução personalizada ou uma solução de terceiros
                   href: ./office-365-security/air-custom-reporting.md
             - name: Detectar e endereçar rapidamente contas comprometidas de usuários
