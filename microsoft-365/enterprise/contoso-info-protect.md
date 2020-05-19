@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usa recursos de proteção de informações no Microsoft 365 Enterprise para proteger seus ativos digitais na nuvem.
-ms.openlocfilehash: 41873f14ac52000635508aca4728572556692cc4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 137e6ff499ba8fb119c696dba9337307876ee0c2
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625297"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268405"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Proteção de Informações da Contoso Corporation
 
@@ -65,15 +65,11 @@ A Contoso usou as seguintes etapas para preparar o Microsoft 365 Enterprise para
 
    A Contoso criou rótulos de confidencialidade para seus níveis de dados, com rótulos altamente regulamentados incluindo criptografia, permissões e marcas d'água.
 
-4. Criou sites protegidos do SharePoint para dados confidenciais e altamente regulamentados com permissões que bloqueiam o acesso
-
-   Os sites altamente regulados e confidenciais foram configurados como sites de equipe privados com restrições de permissões adicionais. Os sites confidenciais e altamente regulamentados do SharePoint também foram configurados com um rótulo de retenção correspondente. Os arquivos armazenados em sites altamente regulamentados do SharePoint são protegidos com o rótulo de confidencialidade Altamente Regulamentado. Para obter mais informações, confira ao cenário [Sites do SharePoint para dados altamente regulamentados](teams-sharepoint-online-sites-highly-regulated-data.md).
-
-5.  Moveu dados de sites do SharePoint e compartilhamentos de arquivos locais para seus novos sites do SharePoint
+4.  Moveu dados de sites do SharePoint e compartilhamentos de arquivos locais para seus novos sites do SharePoint
 
     Os arquivos migrados para os novos sites do SharePoint herdaram os rótulos de retenção padrão atribuídos ao site.
 
-6.  Treinou funcionários para usar os rótulos de confidencialidade para novos documentos, como interagir com a TI da Contoso ao criar novos sites do SharePoint e sempre armazenar ativos digitais em sites do SharePoint.
+5.  Treinou funcionários para usar os rótulos de confidencialidade para novos documentos, como interagir com a TI da Contoso ao criar novos sites do SharePoint e sempre armazenar ativos digitais em sites do SharePoint.
 
     Considerou a parte mais difícil da transição da proteção de informações para a nuvem. Era necessário que a TI e o gerenciamento da Contoso mudassem os maus hábitos de armazenamento de informações dos funcionários da organização para sempre rotular e armazenar seus ativos digitais na nuvem, evitando usar compartilhamentos de arquivos locais e nunca usar serviços de armazenamento em nuvem de terceiros ou unidades USB.
 

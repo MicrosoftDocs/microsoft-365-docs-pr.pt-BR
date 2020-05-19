@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: 'Resumo: Aplique rótulos de retenção e políticas de DLP (prevenção de perda de dados) aos sites de equipe do SharePoint Online com vários níveis de proteção de informações.'
-ms.openlocfilehash: ab9026fa4c00038abb166677277145c8129e33e2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b924b0d62d7c66a008739dfa12c0d1dd00deac9b
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081732"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262392"
 ---
 # <a name="protect-sharepoint-online-files-with-retention-labels-and-dlp"></a>Proteja arquivos do SharePoint Online com DLP e rótulos de retenção
 
@@ -216,6 +216,10 @@ Em seguida, use estas etapas para configurar uma política DLP que bloqueia os u
 Aqui está a configuração resultante para sites de equipe do SharePoint Online de alta confidencialidade.
   
 ![Política DLP para um site de equipe isolado do SharePoint Online usando o rótulo de retenção Altamente Confidencial](../media/f705d3d0-23c9-4333-8b70-ad3b91f835ea.png)
+
+### <a name="support-for-sensitivity-labels-is-coming"></a>O suporte para rótulos de confidencialidade estará disponível em breve
+
+No momento, você pode usar apenas um rótulo de retenção como uma condição, não um [rótulo de confidencialidade](sensitivity-labels.md). Estamos trabalhando no suporte para usar um rótulo de confidencialidade nesta condição.
   
 ## <a name="next-step"></a>Próxima etapa
 

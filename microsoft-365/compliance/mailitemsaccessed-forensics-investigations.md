@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Use a ação de auditoria da caixa de correio MailItemsAccessed para executar investigações de perícia das contas de usuários comprometidas.
-ms.openlocfilehash: 1fdedb983715ca9037a072a224abfae03cab3157
-ms.sourcegitcommit: 9d6f9fd271e83c00e92a5e0247fcc51fc2070c3c
+ms.openlocfilehash: 20c57f1d11af8fded15cc2fdf280414f7172ffd7
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42370751"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262574"
 ---
 # <a name="use-advanced-audit-to-investigate-compromised-accounts"></a>Usar a Auditoria Avançada para investigar contas comprometidas
 
@@ -95,7 +95,7 @@ Estas são as etapas para usar os registros de auditoria MailItemsAccessed para 
    **Log de auditoria unificada**
  
    ```powershell
-   Search-UnifiedAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -UserIds <user1,user2> -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '\*"IsThrottled","Value":"True"\*'} | FL
+   Search-UnifiedAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -UserIds <user1,user2> -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '*"IsThrottled","Value":"True"*'} | FL
    ```
 
    **Log de auditoria de caixa de correio**
@@ -111,7 +111,7 @@ Estas são as etapas para usar os registros de auditoria MailItemsAccessed para 
    **Log de auditoria unificada**
 
    ```powershell
-   Search-UnifiedAuditLog -StartDate 01/06/2020 -EndDate 02/20/2020 -UserIds <user1,user2> -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '\*"MailAccessType","Value":"Sync"\*'} | FL
+   Search-UnifiedAuditLog -StartDate 01/06/2020 -EndDate 02/20/2020 -UserIds <user1,user2> -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '*"MailAccessType","Value":"Sync"*'} | FL
    ```
 
    **Log de auditoria de caixa de correio**
@@ -139,7 +139,7 @@ Estas são as etapas para usar os registros de auditoria MailItemsAccessed para 
    **Log de auditoria unificada**
 
    ```powershell
-   Search-UnifiedAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -UserIds <user1,user2> -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '\*"MailAccessType","Value":"Bind"\*'} | FL
+   Search-UnifiedAuditLog -StartDate 01/06/2020 -EndDate 01/20/2020 -UserIds <user1,user2> -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '*"MailAccessType","Value":"Bind"*'} | FL
    ```
  
    **Log de auditoria de caixa de correio**

@@ -13,12 +13,12 @@ ms.collection:
 - SPO_Content
 ms.custom: ''
 description: Percorra o processo de planejamento, implantação e geração de valor do SharePoint para toda a sua organização.
-ms.openlocfilehash: ee2c5592015361a678785cb8e4aaad9074c5d804
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6b0483073a836f29b1faa5a30018848ef7b2df34
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636911"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268204"
 ---
 # <a name="deploy-sharepoint-and-onedrive-for-microsoft-365-enterprise"></a>Implantar o SharePoint e o OneDrive no Microsoft 365 Enterprise
 
@@ -67,10 +67,6 @@ Os seguintes pilares de negócios podem atender às necessidades da sua organiza
 Confira [Administrador do SharePoint](https://docs.microsoft.com/sharepoint/sharepoint-online) para encontrar recursos sobre como configurar o SharePoint para as suas necessidades.
 
 Uma maneira de perceber os benefícios do SharePoint é examinar como as pessoas, equipes, divisões ou toda a organização interagem hoje e, em seguida, localizar um cenário apropriado que ofereça maneira mais fáceis de armazenar e compartilhar os arquivos. O [Microsoft Teams](teams-workload.md) pode ser a melhor opção para alguns cenários.
-
-#### <a name="sharepoint-site-for-highly-regulated-data"></a>Site do SharePoint para dados altamente controlados
-
-Os dados altamente controlados estão sujeitos a normas regionais ou são os dados mais importantes de sua organização, como segredos comerciais, financeiros ou informações de recursos humanos e estratégias da organização. Você pode configurar um site do SharePoint para acesso restrito, classificação de dados, prevenção de perda de dados e criptografia para esse tipo de dados. Para obter detalhes, confira [Sites do Microsoft Teams e do SharePoint para dados altamente controlados](teams-sharepoint-online-sites-highly-regulated-data.md).
 
 #### <a name="result"></a>Resultado
 Uma lista de cenários do Microsoft Office SharePoint Online que atendem às necessidades da sua organização para armazenamento de documentos, gerenciamento de conteúdo, colaboração e segurança.
