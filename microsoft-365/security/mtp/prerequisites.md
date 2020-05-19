@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 66b3f7e446416b6252050e6f41a2b22d99d25767
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 71e7b532e046015dd64e51fd422d276433d65b3a
+ms.sourcegitcommit: 6ea9a910a8106a5f1aa589c55d166bfa67fd12a8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209230"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280529"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Pré-requisitos da proteção contra ameaças da Microsoft
 
@@ -79,8 +79,12 @@ Vá para o centro de administração do Microsoft 365 ([admin.Microsoft.com](htt
 ## <a name="browser-requirements"></a>Requisitos de navegador
 Acessar a proteção contra ameaças da Microsoft na central de segurança do Microsoft 365 usando o Microsoft Edge, o Internet Explorer 11 ou qualquer navegador da Web compatível com HTML 5.
 
-## <a name="us-gcc-and-gcc-high-availability"></a>Alta disponibilidade dos EUA e GCC
-Atualmente, a proteção contra ameaças da Microsoft não está disponível para clientes da nuvem da Comunidade do governo dos EUA (GCC) e a nuvem de comunidade do governo (GCC High). 
+## <a name="availability-to-us-gcc-gcc-high-and-other-us-government-institutions"></a>Disponibilidade para nós GCC, GCC alta e outras instituições governamentais americanas
+No momento, a proteção contra ameaças da Microsoft *não* está disponível para:
+- GCC (nuvem da Comunidade do governo dos EUA)
+- Nuvem de comunidade do governo dos EUA (GCC alta)
+- Departamento de defesa dos EUA
+- Todas as instituições governamentais dos EUA com licenças comerciais
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da Proteção contra Ameaças da Microsoft](microsoft-threat-protection.md)

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve como começar a usar a descoberta eletrônica principal no Microsoft 365. Depois de atribuir permissões de descoberta eletrônica e criar uma ocorrência, você pode adicionar membros, criar isenções de descoberta eletrônica e, em seguida, procurar e exportar dados relevantes à sua investigação.
-ms.openlocfilehash: c9c3d8c3832703e8dbbcf8b2c04a566af0f5eb6b
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 5faae81eb81ce8c69e3ae801d153c664ac152bda
+ms.sourcegitcommit: 6ea9a910a8106a5f1aa589c55d166bfa67fd12a8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943380"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280541"
 ---
 # <a name="get-started-with-core-ediscovery"></a>Introdução à Descoberta Eletrônica Central
 
@@ -42,11 +42,11 @@ O licenciamento da descoberta eletrônica principal requer a assinatura apropria
 
    OU
 
-  - Uma licença do Microsoft 365 E1 ou do Office 365 E1 com uma licença complementar de arquivamento do Exchange Online plano 2 ou do Exchange Online
+  - Licença do Office 365 E1 com uma licença complementar do Exchange Online Plan 2 ou Exchange Online Archiving
 
   E
 
-  - Uma licença do Microsoft 365 E1 ou do Office 365 E1 com uma licença complementar do SharePoint Online plano 2 ou do OneDrive for Business plano 2
+  - Licença do Office 365 E1 com uma licença complementar do SharePoint Online plano 2 ou do OneDrive for Business plano 2
   
   Para obter informações sobre como atribuir licenças, consulte [assign licenses to Users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
