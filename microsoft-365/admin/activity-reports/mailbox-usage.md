@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: beffbe01-ce2d-4614-9ae5-7898868e2729
 description: Saiba como obter o relatório de uso de caixa de correio para saber mais sobre as atividades dos usuários com uma caixa de correio de usuário.
-ms.openlocfilehash: 7453bf20949e04f07d74f6cf1df13e88de522b92
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: a866a586c9d36be03b39cb1c75be884eae3cb41b
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046922"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321988"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---mailbox-usage"></a>Relatórios da Microsoft 365 no centro de administração-uso da caixa de correio
 
@@ -37,7 +37,7 @@ O **relatório de uso da caixa de correio** fornece informações sobre os usuá
 1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 
     
-2. No menu suspenso **selecionar um relatório** , selecione **uso da caixa de correio**do **Exchange** \> .
+2. No menu suspenso **selecionar um relatório** , selecione uso da **Exchange** \> **caixa de correio**do Exchange.
   
 ## <a name="interpret-the-mailbox-usage-report"></a>Interpretar o relatório de uso da caixa de correio
 
@@ -48,7 +48,7 @@ Para ter uma noção do **uso da caixa de correio** da organização, analise os
 |1.  <br/> |O relatório **Uso da caixa de correio** pode ser consultado sobre tendências dos últimos 7, 30, 90 ou 180 dias. No entanto, se você selecionar um dia específico no relatório, a tabela mostrará dados de até 28 dias a partir da data atual (não a data em que o relatório foi gerado).  <br/> |
 |2.  <br/> |Os dados em cada relatório normalmente cobrem até as últimas 24 a 48 horas.  <br/> |
 |3.  <br/> |O gráfico "Caixa de correio" mostra o número total de caixas de correio do usuário na organização e o total das que estão ativas em um determinado dia do período de relatório. Uma caixa de correio de usuário é considerada ativa se tivesse uma mensagem enviar, ler, criar compromisso, enviar reunião, aceitar reunião, recusar reunião e cancelar atividade de reunião.  <br/> |
-|4.  <br/> |O gráfico **Armazenamento** mostra a quantidade de armazenamento em uso na organização. O gráfico de armazenamento não inclui caixas de correio de arquivo morto. Para obter mais informações sobre o arquivamento de expansão automática, consulte [Overview of Unlimited Archiving in Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/unlimited-archiving).<br/> |
+|4.  <br/> |O gráfico **Armazenamento** mostra a quantidade de armazenamento em uso na organização. O gráfico de armazenamento não inclui caixas de correio de arquivo morto. Para obter mais informações sobre o arquivamento de expansão automática, consulte [Overview of Unlimited Archiving in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/unlimited-archiving).<br/> |
 |5.  <br/> | O gráfico **Cota** mostra o número de caixas de correio do usuário em cada categoria de cota. Há quatro categorias de cota:  <br/>  Bom - Quantidade de usuários cujo armazenamento usado é inferior à cota de aviso de problema.  <br/>  Aviso - Quantidade de usuários cujo armazenamento usado é igual ou superior à cota de aviso de problema, mas é inferior à cota de proibição de envio.  <br/>  Não é possível enviar - Quantidade de usuários cujo armazenamento usado é igual ou superior à cota de proibição de envio, mas é inferior à cota de proibição de envio/recebimento.  <br/>  Não é possível enviar/receber - Quantidade de usuários cujo armazenamento usado é igual ou superior à cota de proibição de envio/recebimento.  <br/> |
 |6.  <br/> | No gráfico **Caixa de correio**, o eixo Y é o número de caixas de correio do usuário.  <br/>  No gráfico **Armazenamento**, o eixo Y é a quantidade de armazenamento em uso pelas caixas de correio do usuário da organização.  <br/>  No gráfico **Cota**, o eixo Y é o número de caixas de correio do usuário para cada cota de armazenamento.  <br/>  Nos gráficos "Caixa de correio" e "Armazenamento", o eixo X é o intervalo de datas escolhido para esse relatório específico.  <br/>  O eixo X no gráfico Cota é a categoria da cota.  <br/> |
 |7.  <br/> |Você pode filtrar gráficos que vê selecionando um item na legenda.  <br/> |

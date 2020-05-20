@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: ace04c61b8bb26661201b3a2616799f0dc4ea87e
-ms.sourcegitcommit: 9ffa2fd25776726475e10148940987fa076bbd91
+ms.openlocfilehash: 68e8f432008a6322921ef440878a1cca1354e196
+ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44162673"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44292469"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
@@ -118,7 +118,7 @@ Antes de configurar uma política, defina as seguintes configurações de risco 
     >Para receber alertas para atividades arriscadas definidas em suas políticas, você deve selecionar um ou mais indicadores.
 
 4. Na página **políticas de tempo de política** , selecione os [prazos de política](insider-risk-management-policies.md#policy-timeframes) para entrar em vigor para um usuário quando ele disparar uma correspondência para uma política de risco de insider.
-5. Na página **detecções inteligentes** , configure as detecções de [idiomas de anomalias e ofensivas](insider-risk-management-policies.md#intelligent-detections) para políticas de risco do insider.
+5. Na página **detecções inteligentes** , configure a detecção de [anomalias, a detecção de linguagem ofensiva e o nível de volume de alerta](insider-risk-management-policies.md#intelligent-detections) para políticas de risco do insider.
 6. Selecione **salvar** para habilitar essas configurações para suas políticas de risco do insider.
 
 ## <a name="step-5-required-create-an-insider-risk-management-policy"></a>Etapa 5 (obrigatório): criar uma política de gerenciamento de risco do insider
@@ -142,8 +142,8 @@ As políticas de gerenciamento de risco do insider incluem usuários atribuídos
     - **Tipo de informação confidencial**: selecione **Adicionar tipo de informações confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"número de conta bancária dos EUA"* e *"número do cartão de crédito"*.
     - **Rótulos de sensibilidade**: selecione **Adicionar rótulo de confidencialidade** e selecione os rótulos que você deseja priorizar. Por exemplo, *"confidencial"* e *"segredo"*.
 7. Selecione **Avançar** para continuar.
-8. Na página **indicadores de alerta** , você verá os indicadores definidos na página de > **indicadores** de **configurações de risco do insider**. Se você selecionou o modelo *vazamentos de dados* no início do assistente, deverá selecionar uma política de DLP na lista suspensa **política de DLP** .
-9. Na página **selecionar janela de monitoramento** , você verá as [condições da janela de monitoramento](insider-risk-management-policies.md#policy-timeframes) da política que na página períodos de tempo da**política** de configurações > de **risco do insider**. Se você tiver selecionado o modelo de política de *roubo de dados do funcionário* de cancelamento de parte, poderá marcar a caixa de seleção *verificar término da postagem de atividade* para detectar a atividade após a data de término importada do conector de RH da Microsoft 365.
+8. Na página **indicadores de alerta** , você verá os indicadores definidos na página de indicadores de **configurações de risco do insider**  >  **Indicators** . Se você selecionou o modelo *vazamentos de dados* no início do assistente, deverá selecionar uma política de DLP na lista suspensa **política de DLP** .
+9. Na página **selecionar janela de monitoramento** , você verá as [condições da janela de monitoramento](insider-risk-management-policies.md#policy-timeframes) da política que na página períodos de tempo da política de configurações de risco do **Insider**  >  **Policy timeframes** . Se você tiver selecionado o modelo de política de *roubo de dados do funcionário* de cancelamento de parte, poderá marcar a caixa de seleção *verificar término da postagem de atividade* para detectar a atividade após a data de término importada do conector de RH da Microsoft 365.
 10. Selecione **Avançar** para continuar.
 11. Na página **revisão** , revise as configurações escolhidas para a política. Selecione **Editar** para alterar qualquer um dos valores da política ou selecione **Enviar** para criar e ativar a política.
 

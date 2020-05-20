@@ -24,19 +24,19 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Siga esta lista de verificação para remover um funcionário do Microsoft 365 e dados seguros. '
-ms.openlocfilehash: d54a37575c0280ca9ad23fdd4a4b878286dde1ab
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: bfde2f55f12967e15213ecb12274a215c4190c93
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140588"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322082"
 ---
 # <a name="remove-a-former-employee"></a>Remover um ex-funcionário
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
   
@@ -135,7 +135,7 @@ Há duas maneiras de salvar o conteúdo da caixa de correio do ex-funcionário:
     
     As caixas de correio inativas não podem receber emails e não são exibidas no catálogo de endereços compartilhados da sua organização ou em outras listas.
     
-    Para saber como colocar uma retenção em uma caixa de correio, consulte [gerenciar caixas de correio inativas no Exchange Online](https://docs.microsoft.com/office365/securitycompliance/create-and-manage-inactive-mailboxes).
+    Para saber como colocar uma retenção em uma caixa de correio, consulte [gerenciar caixas de correio inativas no Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/create-and-manage-inactive-mailboxes).
     
 ## <a name="forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox"></a>Encaminhar o email do ex-funcionário a outro funcionário ou convertê-lo em uma caixa de correio compartilhada
 <a name="bkmk_forward"> </a>
@@ -218,7 +218,7 @@ Se o ex-funcionário tinha um telefone da organização, você pode usar o Centr
     
 4. Selecione o usuário e, em **dispositivos móveis**, selecione **Exibir detalhes**. 
     
-5. Na página **detalhes do dispositivo móvel** , em **dispositivos móveis**, selecione o dispositivo móvel, selecione **apagar dados**![apagar dispositivo](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png)e, em seguida, selecione **Bloquear**. 
+5. Na página **detalhes do dispositivo móvel** , em **dispositivos móveis**, selecione o dispositivo móvel, selecione **apagar dados** ![ apagar dispositivo ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) e, em seguida, selecione **Bloquear**. 
     
 6. Selecione **Salvar**. 
     
@@ -325,7 +325,7 @@ Quando você remove a licença, todos os dados do usuário são mantidos por 30 
 
 
 
-1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 
 
 ::: moniker-end

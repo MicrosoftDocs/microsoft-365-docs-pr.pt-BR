@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Este artigo fornece uma visão geral da descoberta eletrônica avançada no Microsoft 365, uma ferramenta para investigações internas e externas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fae09b33364f9ff57233ee25ccf40e4956dfd408
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 84fbf3bbdc4a4ee08901001f7898355e4c8b2705
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034901"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322036"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Visão geral da solução de descoberta eletrônica avançada no Microsoft 365
 
@@ -106,7 +106,3 @@ Use a guia **trabalhos** para monitorar processos de execução longa para taref
 ## <a name="configuring-case-settings"></a>Configurando as configurações de caso
 
 Use a guia **configurações** para definir as configurações em todo o caso. Isso inclui adicionar membros a um caso, fechar ou excluir uma ocorrência e definir as configurações de pesquisa e análise.
-
-## <a name="advanced-ediscovery-reports"></a>Relatórios de descoberta eletrônica avançada
-
-Você pode usar os relatórios de descoberta eletrônica avançada na home page para ajudar sua organização a controlar a atividade e o status em todos os casos de descoberta eletrônica avançada. O recurso relatórios de descoberta eletrônica avançada agrega informações sobre casos, responsáveis, fontes de dados e comunicações. Você pode filtrar os dados do relatório com base em vários critérios e exportar as informações agregadas para um arquivo CSV para análise adicional.  Para obter mais informações, consulte [relatórios de descoberta eletrônica avançados](advanced-ediscovery-reports.md).

@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d9025e4333c6d6ae40f894fc6bde195028871dab
-ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
+ms.openlocfilehash: 723b2584846b9d6ec01e7d4286a63d2dce0757ac
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44211445"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322166"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>O que está acontecendo na pontuação segura da Microsoft?
 
@@ -32,6 +32,4 @@ Para saber mais sobre as alterações recentes, confira [o que há de novo na po
 
 ## <a name="may-2020"></a>Maio de 2020
 
-### <a name="adding-additional-azure-advanced-threat-protection-improvement-actions-to-the-preview-release-and-new-iteration"></a>Adicionando ações avançadas aprimoradas de melhoria de proteção contra ameaças à versão prévia e à nova iteração
-
-- Habilitar recursos de segurança em relações de confiança do Active Directory
+Nenhuma alteração planejada no momento

@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6114642b5899e2708703e3c0d62cadde25296504
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 31844ee413f89992babd2b1917fcb89d20db6804
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632810"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322012"
 ---
 # <a name="compliance"></a>Conformidade
 
@@ -21,7 +21,7 @@ Quando você usa o Microsoft Managed desktop IT como serviço, a Microsoft forne
 
 A área de trabalho gerenciada da Microsoft obteve as seguintes certificações:
 
-- [Padrões de gerenciamento de segurança de informações ISO 27001](../../compliance/offering-ISO-27001.md)
+- [Padrões de gerenciamento de segurança de informações ISO 27001 (ISMS)](../../compliance/offering-ISO-27001.md)
 - [Sistema de gerenciamento de informações de privacidade ISO 27701 (PIMS)](../../compliance/offering-iso-27701.md)
 - [Código ISO 27017 de prática para controles de segurança de informações](../../compliance/offering-ISO-27017.md)
 - [Código de prática ISO 27018 para proteção de dados pessoais na nuvem](../../compliance/offering-ISO-27018.md)
@@ -38,7 +38,7 @@ A área de trabalho gerenciada da Microsoft obteve as seguintes certificações:
 Você pode encontrar informações relevantes, incluindo o controle e os requisitos técnicos, no [portal de confiança do serviço (STP)](https://servicetrust.microsoft.com/), o repositório central para obter informações sobre as ofertas de serviços em nuvem da Microsoft. Você pode baixar relatórios de auditor, certificados de conformidade e muito mais da seção [relatórios de auditoria](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) do STP.
 
 > [!NOTE]
-> Como o Microsoft Managed desktop é executado no Azure, alguns documentos relevantes têm nomes de arquivo como "Microsoft Azure, Dynamics 365 e outros serviços online". Nesses documentos, normalmente você pode encontrar a área de trabalho gerenciada da Microsoft na categoria "monitoramento + gerenciamento".
+> Como o Microsoft Managed desktop é executado no Azure, os documentos relevantes normalmente têm nomes de arquivo como "Microsoft Azure, Dynamics 365 e outros serviços online". Nesses documentos, normalmente você pode encontrar a área de trabalho gerenciada da Microsoft na categoria "monitoramento + gerenciamento".
 
 ## <a name="shared-responsibility"></a>Responsabilidade compartilhada
 

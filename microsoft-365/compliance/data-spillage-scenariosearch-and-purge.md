@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Use as ferramentas de descoberta eletrônica e de pesquisa para gerenciar e responder a um incidente de derramamento de dados em sua organização.
-ms.openlocfilehash: 708343992d2b8d51d9b10f89cd6b986de00423d6
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 4246460f2f7d7fdc41754fc2acd3125601bb5f79
+ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166052"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44292447"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>série de soluções de descoberta eletrônica: cenário de derramamento de dados-pesquisa e limpeza
 
@@ -90,7 +90,7 @@ Se uma licença do Office 365 E5 for atribuída a um ou usuário final, você po
 
 Quando encontrar uma mensagem de email que contenha dados derramados, verifique os destinatários da mensagem para determinar se ele foi compartilhado externamente. Para rastrear mais uma mensagem, você pode coletar informações do remetente e o intervalo de datas para que possa usar os logs de rastreamento de mensagens, que é descrito na [etapa 5](#step-5-use-message-trace-log-to-check-how-spilled-data-was-shared).
 
-Afer você verificou os resultados da pesquisa, talvez queira compartilhar suas descobertas com outras pessoas para uma revisão secundária. As pessoas que você atribuiu à caixa de entrada da etapa 1 podem revisar o conteúdo do caso em descoberta eletrônica avançada e descoberta eletrônica avançada e aprovar descobertas de caso. Também é possível gerar um relatório sem exportar o conteúdo real. Você também pode usar esse mesmo relatório como prova de exclusão, que é descrito na [etapa 8](#step-8-verify-provide-a-proof-of-deletion-and-audit).
+Depois de verificar os resultados da pesquisa, talvez você queira compartilhar suas descobertas com outras pessoas para uma revisão secundária. As pessoas que você atribuiu à caixa de entrada da etapa 1 podem revisar o conteúdo do caso em descoberta eletrônica avançada e descoberta eletrônica avançada e aprovar descobertas de caso. Também é possível gerar um relatório sem exportar o conteúdo real. Você também pode usar esse mesmo relatório como prova de exclusão, que é descrito na [etapa 8](#step-8-verify-provide-a-proof-of-deletion-and-audit).
   
  **Para gerar um relatório estatístico:**
   
@@ -157,14 +157,15 @@ Abra o relatório de Resumo de exportação que você baixou na [etapa 4](#step-
 Se a recuperação de item único estiver habilitada ou se uma caixa de correio for colocada em espera, uma mensagem permanentemente excluída (limpad) será mantida na pasta itens recuperáveis. Portanto, antes de poder limpar dados derramados, você precisa verificar as configurações de caixa de correio existentes e desabilitar a recuperação de item único e remover qualquer política de retenção ou bloqueio. Tenha em mente que você pode preparar uma caixa de correio de cada vez e, em seguida, executar o mesmo comando em caixas de correio diferentes ou criar um script do PowerShell para preparar várias caixas de correio ao mesmo tempo.
 
 - Consulte "etapa 1: coletar informações sobre a caixa de correio" em [excluir itens da pasta itens recuperáveis das caixas de correio baseadas em nuvem em espera](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-1-collect-information-about-the-mailbox) para obter instruções sobre como verificar se a recuperação de item único está habilitada ou se a caixa de correio está colocada em espera ou se ela está atribuída a uma política de retenção. 
-    
+
 - Consulte "etapa 2: preparar a caixa de correio" em [excluir itens da pasta itens recuperáveis das caixas de correio baseadas em nuvem em espera](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-2-prepare-the-mailbox) para obter instruções sobre como desabilitar a recuperação de item único. 
-    
+
 - Consulte "etapa 3: remover todas as isenções da caixa de correio" em [excluir itens da pasta itens recuperáveis das caixas de correio baseadas em nuvem em espera](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-3-remove-all-holds-from-the-mailbox) para obter instruções sobre como remover uma política de retenção ou bloqueio de uma caixa de correio. 
 
 - Consulte "etapa 4: remover o atraso na retenção da caixa de correio" em [excluir itens na pasta itens recuperáveis das caixas de correio baseadas em nuvem em espera](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-4-remove-the-delay-hold-from-the-mailbox) para obter instruções sobre como remover a espera de atraso que é colocada na caixa de correio após a remoção de qualquer tipo de retenção.
-    
- **Importante:** Consulte o gerenciamento de registros ou os departamentos legais antes de remover uma política de retenção ou bloqueio. Sua organização pode ter uma política que define se uma caixa de correio em espera ou um incidente de derramamento de dados tem prioridade. 
+
+> [!IMPORTANT]
+> Consulte o gerenciamento de registros ou os departamentos legais antes de remover uma política de retenção ou bloqueio. Sua organização pode ter uma política que define se uma caixa de correio em espera ou um incidente de derramamento de dados tem prioridade. 
   
 Certifique-se de reverter a caixa de correio para as configurações anteriores depois de verificar se os dados derramados foram excluídos permanentemente. Consulte os detalhes na [etapa 7](#step-7-permanently-delete-the-spilled-data).
 
@@ -173,6 +174,9 @@ Certifique-se de reverter a caixa de correio para as configurações anteriores 
 Usando os locais da caixa de correio que você coletou e preparou na etapa 6 e a consulta de pesquisa que foi criada e refinada na etapa 3 para localizar mensagens de email que contêm os dados derramados, você pode excluir permanentemente os dados derramados.  Conforme explicado anteriormente, para excluir mensagens, você precisa ser membro do grupo de função gerenciamento da organização ou ter a função de gerenciamento de pesquisa e limpeza atribuída. Para saber mais sobre como adicionar usuários a um grupo de função, confira [Atribuir permissões de Descoberta Eletrônica no Centro de Segurança e Conformidade](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions).
 
 Para excluir as mensagens derramadas, Confira as etapas 2 & 3 em [Pesquisar e excluir mensagens de email](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization)
+
+> [!IMPORTANT]
+> Os itens de email em um conjunto de revisão em um caso de descoberta eletrônica avançada não podem ser excluídos usando os procedimentos deste artigo. Isso ocorre porque os itens em um conjunto de revisão são cópias dos itens no serviço em tempo real que são copiados e armazenados em um local de armazenamento do Azure. Isso significa que eles não serão retornados por uma pesquisa de conteúdo criada na etapa 3. Para excluir itens em um conjunto de revisão, você deve excluir a ocorrência de descoberta eletrônica avançada que contém o conjunto de revisão. Para obter mais informações, consulte [fechar ou excluir uma ocorrência de descoberta eletrônica avançada](close-or-delete-case.md).
   
 ## <a name="step-8-verify-provide-a-proof-of-deletion-and-audit"></a>Etapa 8: verificar, fornecer uma prova de exclusão e auditoria
 

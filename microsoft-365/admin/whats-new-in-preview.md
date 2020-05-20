@@ -20,12 +20,12 @@ search.appverid:
 description: O centro de administração do Microsoft 365-Aprenda sobre os recursos que foram adicionados este mês.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 6dcfa1bac5fa9837f9882a575c3d5eaa6cf3be4f
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 6514456a16a6ee2079a1b93e053c21863809db24
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208146"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322130"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>O que há de novo no centro de administração do Microsoft 365
 
@@ -46,7 +46,7 @@ E se você estiver interessado no que há de novo em outros serviços de nuvem d
 
 - [Novidades no Exchange Online](https://go.microsoft.com/fwlink/?linkid=2119714)
 - [O que há de novo no Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
-- [O que há de novo no centro de conformidade da Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
+- [O que há de novo no centro de conformidade da Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/whats-new)
 - [O que há de novo no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 - [O que há de novo no centro de administração do Exchange](https://docs.microsoft.com/Exchange/whats-new)
 - [Atualizações do Office](https://docs.microsoft.com/OfficeUpdates/)

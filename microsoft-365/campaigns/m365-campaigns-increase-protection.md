@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Obter ajuda com o aumento do nível de proteção no Microsoft 365
-ms.openlocfilehash: d7ab554ae2f162260e978fe82d4a197cc0d84d02
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 39c79f438bd8018f2e70863225664c55e4bcd615
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633708"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322118"
 ---
 # <a name="increase-threat-protection"></a>Aumente a proteção contra ameaças
 
@@ -35,7 +35,7 @@ Este artigo ajuda você a aumentar a proteção em sua assinatura do Microsoft 3
 
 Antes de começar, verifique sua pontuação segura do Office 365. A pontuação segura do Office 365 analisa a segurança da sua organização com base em suas atividades regulares e configurações de segurança e atribui uma pontuação. Comece anotando sua pontuação atual. A realização das ações recomendadas neste artigo aumenta sua pontuação. O objetivo não é atingir a pontuação máxima, mas para estar ciente das oportunidades de proteger seu ambiente que não afete negativamente a produtividade dos seus usuários. 
 
-Para obter mais informações, consulte [Microsoft Secure Score](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score).
+Para obter mais informações, consulte [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score).
 
 
 ## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Aumentar o nível de proteção contra malware no email
@@ -44,7 +44,7 @@ O ambiente do Office 365 ou do Microsoft 365 inclui proteção contra malware, m
   
 1. Acesse [https://protection.office.com](https://protection.office.com) e entre com suas credenciais de conta de administrador. 
     
-2. No centro de &amp; conformidade de segurança, no painel de navegação esquerdo, **em gerenciamento de ameaças**, escolha **política** \> **anti-malware**.
+2. No centro de &amp; conformidade de segurança, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, escolha **política** \> **anti-malware**.
     
 3. Clique duas vezes na política padrão para editar a política em toda a empresa.
     
@@ -69,11 +69,11 @@ Além dos arquivos que você bloqueou na etapa anterior, também é recomendáve
 
 Para criar uma regra de transporte de emails:
   
-1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> em e escolha central de **Administração** \> do **Exchange**.
+1. Vá para o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> e escolha central de **Administração** do \> **Exchange**.
     
 2. Na categoria **fluxo de emails** , clique em **regras**.
     
-3. Clique **+** em e em **criar uma nova regra**.
+3. Clique em **+** e em **criar uma nova regra**.
     
 4. Clique em **mais opções** na parte inferior da caixa de diálogo para ver o conjunto completo de opções. 
     
@@ -103,11 +103,11 @@ Hackers que obtêm acesso à caixa de correio de um usuário podem roubar seus e
   
 Para criar uma regra de transporte de email, Assista [a este vídeo curto](https://support.office.com/article/f9d693ba-5c78-47c0-b156-8e461e062aa7) ou siga estas etapas:
   
-1. No centro de administração do Microsoft 365, clique em **centrais** \> de administração do **Exchange**.
+1. No centro de administração do Microsoft 365, clique em **centrais de administração** do \> **Exchange**.
     
 2. Na categoria **fluxo de emails** , clique em **regras**.
     
-3. Clique **+** em e em **criar uma nova regra**.
+3. Clique em **+** e em **criar uma nova regra**.
     
 4. Clique em **mais opções** na parte inferior da caixa de diálogo para ver o conjunto completo de opções. 
     
@@ -151,22 +151,22 @@ Para criar uma política anti-phishing do ATP, Assista a [este vídeo de treinam
 |Descrição  <br/> |Garantir que a equipe mais importante e nosso domínio não estão sendo representados.  <br/> |
 |Adicionar usuários a proteger  <br/> |Selecione **+ Adicionar uma condição, o destinatário é**. Digite nomes de usuário ou insira o endereço de email do candidato, o gerente de campanha e outros membros importantes da equipe. Você pode adicionar até 20 endereços internos e externos que você deseja proteger da representação.  <br/> |
 |Adicionar domínios para proteger  <br/> |Selecione **+ Adicionar uma condição, o domínio do destinatário é**. Insira o domínio personalizado associado à sua assinatura do Microsoft 365, se você tiver definido um. Você pode inserir mais de um domínio.  <br/> |
-|Escolher ações  <br/> |Se o email for enviado por um usuário representado: escolha **redirecionar mensagem para outro endereço de email**e digite o endereço de email do administrador de segurança; por exemplo, *Ana<span><span>Maria @contoso. com*.          Se o email for enviado por um domínio representado: escolha **Colocar mensagem em quarentena**.  <br/> |
+|Escolher ações  <br/> |Se o email for enviado por um usuário representado: escolha **redirecionar mensagem para outro endereço de email**e digite o endereço de email do administrador de segurança; por exemplo, *ana maria <span> <span> @contoso. com*.          Se o email for enviado por um domínio representado: escolha **Colocar mensagem em quarentena**.  <br/> |
 |Inteligência da caixa de correio  <br/> |Por padrão, a caixa de correio é selecionada quando você cria uma nova política anti-phishing. Deixe essa configuração **Ativada** para obter melhores resultados.  <br/> |
 |Adicionar remetentes e domínios confiáveis  <br/> |Aqui você pode adicionar seu próprio domínio ou qualquer outro domínio confiável.  <br/> |
-|Aplicado a  <br/> |Selecione **O domínio do destinatário é**. Em **Qualquer um desses**, selecione **Escolher**. Selecione **+ Adicionar**. Marque a caixa de seleção ao lado do nome do domínio, por exemplo, *contoso.<span> com <span>*, na lista e selecione **Adicionar**. Selecione **Concluído**.  <br/> |
+|Aplicado a  <br/> |Selecione **O domínio do destinatário é**. Em **Qualquer um desses**, selecione **Escolher**. Selecione **+ Adicionar**. Marque a caixa de seleção ao lado do nome do domínio, por exemplo, *contoso. <span> <span> com*, na lista e selecione **Adicionar**. Selecione **Concluído**.  <br/> |
    
 Para obter mais informações, consulte [set up Office 365 ATP anti-phishing Policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
   
 ## <a name="protect-against-malicious-attachments-files-and-links-with-advanced-threat-protection-atp"></a>Proteção contra anexos mal-intencionados, arquivos e links com a proteção avançada contra ameaças (ATP)
 
-![Faixa que aponta para https://aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)
+![Faixa que aponta para https://aka.ms/aboutM365preview .](../media/m365admincenterchanging.png)
 
-Primeiro, verifique se a nova visualização do centro de <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> administração está ativada no centro de administração. Ative a alternância ao lado do texto **o novo centro de administração**.
+Primeiro, verifique se <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> a nova visualização do centro de administração está ativada no centro de administração. Ative a alternância ao lado do texto **o novo centro de administração**.
 
    ![A nova visualização do centro de administração.](../media/previewon.png)
 
-Se você ainda não vir a página de **instalação** com cartões no seu locatário, consulte como concluir essas etapas no centro &amp; de conformidade de segurança. Confira [set up ATP Safe Attachments no centro de conformidade de & de segurança](#set-up-atp-safe-attachments-in-the-security--compliance-center) e [Configurar links de ATP seguros no centro de conformidade de & de segurança](#set-up-atp-safe-links-in-the-security--compliance-center).
+Se você ainda não vir a página de **instalação** com cartões no seu locatário, consulte como concluir essas etapas no centro de conformidade de segurança &amp; . Confira [set up ATP Safe Attachments no centro de conformidade de & de segurança](#set-up-atp-safe-attachments-in-the-security--compliance-center) e [Configurar links de ATP seguros no centro de conformidade de & de segurança](#set-up-atp-safe-links-in-the-security--compliance-center).
 
 1.  No painel de navegação esquerdo, escolha **configuração**.
 2. Na página **configuração** , escolha **Exibir** no cartão **aumentar a proteção contra ameaças avançadas** .</br></br>
@@ -239,7 +239,7 @@ Para modificar a política padrão:
     
 Para criar uma nova política direcionada para todos os destinatários em seu domínio:
   
-1. Na página de links seguros, em **políticas que se aplicam a toda a organização**, clique **+** em para criar uma nova política. 
+1. Na página de links seguros, em **políticas que se aplicam a toda a organização**, clique em **+** para criar uma nova política. 
     
 2. Aplicar as configurações listadas na tabela a seguir.
     
@@ -256,31 +256,31 @@ Para obter mais informações, consulte [Office 365 ATP Safe links](https://go.m
   
 ## <a name="turn-on-the-unified-audit-log"></a>Ativar o log de auditoria unificada
 
-Depois de ativar a pesquisa de log de auditoria no centro &amp; de conformidade de segurança, você pode manter o administrador e outras atividades do usuário no log e pesquisá-lo. 
+Depois de ativar a pesquisa de log de auditoria no centro de conformidade de segurança &amp; , você pode manter o administrador e outras atividades do usuário no log e pesquisá-lo. 
 
 Você deve receber a função de logs de auditoria no Exchange Online para ativar ou desativar a pesquisa de log de auditoria em sua assinatura do Microsoft 365. Por padrão, essa função é atribuída aos grupos de função gerenciamento de conformidade e gerenciamento da organização na página permissões no centro de administração do Exchange. Os administradores globais no Microsoft 365 são membros desse grupo por padrão.
 
-1. Para ativar a pesquisa de log de auditoria, vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> em e, em seguida, escolha **conformidade** em **centros de administração** no painel de navegação esquerdo. 
-2. Na página de **conformidade do Microsoft 365** , escolha **mais recursos**e, em seguida, **abra** no cartão centro de ** &amp; segurança do Office 365** .
+1. Para ativar a pesquisa de log de auditoria, vá para o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> e, em seguida, escolha **conformidade** em **centros de administração** no painel de navegação esquerdo. 
+2. Na página de **conformidade do Microsoft 365** , escolha **mais recursos**e, em seguida, **abra** no cartão ** &amp; centro de segurança do Office 365** .
 
     ![Escolha abrir nos carros de conformidade com segurança &.](../media/gotosecandcomp.png)
 3. Na página segurança e conformidade, escolha **Pesquisar** e, em seguida, **pesquisa log de auditoria**.
 1. Na parte superior da página **pesquisa de log de auditoria** , escolha **ativar a auditoria**.
 
-Após o recurso ser ativado, você pode pesquisar arquivos, pastas e muitas atividades. Para obter mais informações, consulte [Search the Audit Log](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
+Após o recurso ser ativado, você pode pesquisar arquivos, pastas e muitas atividades. Para obter mais informações, consulte [Search the Audit Log](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 ## <a name="tune-up-anonymous-sharing-settings-for-sharepoint-and-onedrive-files-and-folders"></a>Ajustar configurações de compartilhamento anônimo para arquivos e pastas do SharePoint e do OneDrive
 
 (altere o padrão de validade do link anônimo para 14 dias, altere o tipo de compartilhamento padrão para "pessoas específicas") Para alterar as configurações de compartilhamento do OneDrive e do SharePoint:
-1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> em e escolha **SharePoint** em **centros de administração** no painel de navegação esquerdo. 
-2. No centro de administração do SharePoint, vá para **compartilhamento**de **políticas** \> .
+1. Vá para o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> e escolha **SharePoint** em **centros de administração** no painel de navegação esquerdo. 
+2. No centro de administração do SharePoint, vá para compartilhamento de **políticas** \> **Sharing**.
 3. Na página **compartilhamento** , em **links de arquivo e pasta**, selecione **pessoas específicas**e, em **Configurações avançadas para links "qualquer pessoa"**, selecione **estes links devem expirar dentro de vários dias**e digite 14 (ou outro número de dias em que você deseja restringir o tempo de vida do link).
 
     ![Escolha pessoas específicas e defina o término do link como 14 dias.](../media/anyonelinks.png)
 
 ## <a name="activity-alerts"></a>Alertas de atividade
 
-Você pode usar os alertas de atividade para rastrear as atividades de administrador e de usuário e detectar incidentes de prevenção contra perda de dados e malware em sua organização. Sua assinatura inclui um conjunto de políticas padrão, mas você também pode criar itens personalizados. Para obter mais informações, consulte [políticas de alerta](https://docs.microsoft.com/office365/securitycompliance/alert-policies). Por exemplo, se você armazenar um arquivo importante no SharePoint que você não deseja que todos compartilhem externamente, você pode criar uma notificação que o alertará se alguém o compartilhar.
+Você pode usar os alertas de atividade para rastrear as atividades de administrador e de usuário e detectar incidentes de prevenção contra perda de dados e malware em sua organização. Sua assinatura inclui um conjunto de políticas padrão, mas você também pode criar itens personalizados. Para obter mais informações, consulte [políticas de alerta](https://docs.microsoft.com/microsoft-365/compliance/alert-policies). Por exemplo, se você armazenar um arquivo importante no SharePoint que você não deseja que todos compartilhem externamente, você pode criar uma notificação que o alertará se alguém o compartilhar.
 
 A figura a seguir mostra as políticas padrão incluídas no Microsoft 365. <br/><br/>
     ![Políticas de alerta padrão incluídas no Microsoft 365](../media/alertpolicies.png)
@@ -289,7 +289,7 @@ A figura a seguir mostra as políticas padrão incluídas no Microsoft 365. <br/
 
 Você pode impedir que as pessoas em sua organização compartilhem seus calendários ou também pode gerenciar o que eles podem compartilhar. Por exemplo, você pode restringir o compartilhamento somente para horários disponíveis/ocupados.
 
-1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> em e escolha **configurações** \> de **Serviços & suplementos**.
+1. Vá para o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> e escolha **configurações** de \> **Serviços & suplementos**.
 2. Na página **serviços & suplementos** , escolha **calendário**e escolha se as pessoas em sua organização podem compartilhar seus calendários com pessoas de fora que tenham o Office 365 ou Exchange, ou com qualquer pessoa. 
     Se você escolher a opção compartilhar com qualquer pessoa, você pode decidir também compartilhar apenas informações de disponibilidade.
 

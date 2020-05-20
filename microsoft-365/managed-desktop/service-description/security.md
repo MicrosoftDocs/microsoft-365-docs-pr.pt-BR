@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 6b18b0c681950c2bce75045aef70dd3d021b0fb9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 791a69433653de3960af6f8d8e1e9b23067dd6c0
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250431"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322000"
 ---
 # <a name="security-in-microsoft-managed-desktop"></a>Segurança na área de trabalho gerenciada da Microsoft
 
@@ -25,6 +25,7 @@ O Microsoft Managed desktop usa várias tecnologias da Microsoft para ajudar a p
 - [Segurança de rede](#network-security) – informações de VPN e configurações e soluções recomendadas do Microsoft Managed desktop
 - [Segurança de informações](#information-security) – serviços opcionais disponíveis para proteger ainda mais as informações confidenciais 
 
+Para obter informações sobre o armazenamento de dados, uso e práticas de segurança usadas pela área de trabalho gerenciada da Microsoft, baixe nosso White Paper em [https://aka.ms/mmd-data](https://aka.ms/mmd-data) .
 
 Para saber mais sobre a equipe de operações de segurança na área de trabalho gerenciada da Microsoft e como elas funcionam para fornecer segurança para seus dispositivos, confira o vídeo [Microsoft Managed Desktop Security Operations](https://www.microsoft.com/videoplayer/embed/RE4q6nP). 
 
@@ -48,7 +49,7 @@ O gerenciamento de identidades e acesso protege os ativos corporativos e os dado
 
 Serviço | Descrição
 --- | ---
-Autenticação biométrica |  O Windows Hello permite que os usuários façam logon usando sua face ou um PIN, tornando as senhas mais difíceis de esquecer ou roubar. Os clientes são responsáveis por implementar os pré-requisitos necessários para o Active Directory local para o uso desse serviço em uma configuração híbrida. Para obter mais informações, consulte [Windows Hello.](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello) 
+Autenticação biométrica |  O Windows Hello permite que os usuários entrem usando sua face ou um PIN, tornando as senhas mais difíceis de esquecer ou roubar. Os clientes são responsáveis por implementar os pré-requisitos necessários para o Active Directory local para o uso desse serviço em uma configuração híbrida. Para obter mais informações, consulte [Windows Hello.](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello) 
 Permissão de usuário padrão |  Para proteger o sistema e torná-lo mais seguro, as permissões de usuário padrão serão atribuídas ao usuário. Isso é atribuído como parte da experiência inicial da caixa do Windows AutoPilot.
 
 

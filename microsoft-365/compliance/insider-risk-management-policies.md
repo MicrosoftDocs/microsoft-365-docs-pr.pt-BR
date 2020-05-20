@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 4f52cb4ff6809bee7582e2c030fb782f6ac35fd8
-ms.sourcegitcommit: 9ffa2fd25776726475e10148940987fa076bbd91
+ms.openlocfilehash: be7b417f9127197bea96e79eab94c69b5c6e3fcb
+ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44162683"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44292490"
 ---
 # <a name="insider-risk-management-policies"></a>Políticas de gerenciamento de risco do insider
 
@@ -75,7 +75,7 @@ A proteção da privacidade dos usuários que têm correspondências de polític
 
 Os modelos de política de risco do insider definem o tipo de atividades de risco que você deseja detectar e investigar. Cada modelo de política é baseado em indicadores específicos que correspondem a atividades e alertas de risco específicos são acionados por políticas quando os usuários executam atividades relacionadas a esses indicadores. Em alguns casos, talvez você queira limitar os indicadores aplicados às políticas de risco do insider em sua organização. Você pode desativar os indicadores para áreas específicas desabilitando-os de todas as políticas de risco do insider.
 
-Para definir os indicadores habilitados em todas as políticas, navegue até > **indicadores** de **configurações de risco do insider**e selecione um ou mais indicadores. Os indicadores selecionados na página de configurações de **indicadores** não podem ser configurados individualmente ao criar ou editar uma política de risco Insider no assistente de política.
+Para definir os indicadores habilitados em todas as políticas, navegue até indicadores de **configurações de risco do insider**  >  **Indicators** e selecione um ou mais indicadores. Os indicadores selecionados na página de configurações de **indicadores** não podem ser configurados individualmente ao criar ou editar uma política de risco Insider no assistente de política.
 
 >[!IMPORTANT]
 >Para receber alertas para atividades arriscadas definidas em suas políticas, você deve selecionar um ou mais indicadores antes de configurar uma política de risco de insider.
@@ -89,7 +89,7 @@ Os cronogramas de política permitem definir períodos de revisão passados e fu
 
 ### <a name="intelligent-detections"></a>Detecções inteligentes
 
-As configurações inteligentes de detecção ajudam a refinar o modo como as detecções de atividades arriscadas são processadas para alertas. Em determinadas circunstâncias, talvez seja necessário definir tipos de arquivos a serem ignorados ou você deseja impor um nível de detecção de arquivos para ajudar a definir uma barra mínima para alertas. Ao usar políticas de linguagem ofensivas, talvez seja necessário aumentar ou diminuir a sensibilidade à detecção para controlar a quantidade de correspondências de política relatadas. Use estas configurações para controlar exclusões de tipo de arquivo, limites de volume de arquivo e sensibilidade à detecção de linguagem ofensiva.
+As configurações inteligentes de detecção ajudam a refinar o modo como as detecções de atividades arriscadas são processadas para alertas. Em determinadas circunstâncias, talvez seja necessário definir tipos de arquivos a serem ignorados ou você deseja impor um nível de detecção de arquivos para ajudar a definir uma barra mínima para alertas. Ao usar políticas de linguagem ofensivas, talvez seja necessário aumentar ou diminuir a sensibilidade à detecção para controlar a quantidade de correspondências de política relatadas. Use estas configurações para controlar o volume de alerta geral, as exclusões de tipo de arquivo, os limites de volume de arquivo e a confidencialidade da detecção de idioma ofensivo.
 
 #### <a name="anomaly-detections"></a>Detecções de anomalias
 
@@ -105,6 +105,14 @@ Para ajustar a sensibilidade do classificador de idiomas ofensivo para política
 - Baixo: o nível mais baixo de sensibilidade com a mais ampla variedade de idiomas de detecção e de **insuficiência**ofensivas. A probabilidade de falsos positivos para a correspondência de linguagem ofensiva é elevada.
 - **Médio**: o nível de sensibilidade de nível médio com um intervalo balanceado para detectar a linguagem e o inofensivos. A probabilidade de falsos positivos para a correspondência de linguagem ofensiva é média.
 - **Alta**: o nível mais alto de sensibilidade com um intervalo estreito para detectar a linguagem e o indutos ofensivos. A probabilidade de falsos positivos para a correspondência de linguagem ofensiva é baixa.
+
+#### <a name="alert-volume"></a>Volume do alerta
+
+As atividades do usuário detectadas pelas políticas de risco do insider recebem uma pontuação de risco específica, que, por sua vez, determina a severidade do alerta (baixa, média, alta). Por padrão, geraremos uma determinada quantidade de alertas de severidade Baixa, média e alta, mas você pode aumentar ou diminuir o volume para atender às suas necessidades. Para ajustar o volume de alertas de todas as políticas de gerenciamento de risco do Insider, escolha uma das seguintes configurações:
+
+- **Menos alertas**: você verá todos os alertas de alta gravidade, menos alertas de severidade médias e nenhuma severidade baixa. Isso significa que você pode perder alguns positivos verdadeiros.
+- **Volume padrão**: você verá todos os alertas de alta gravidade e uma quantidade equilibrada de alertas de severidade médio e baixa.
+- **Mais alertas**: você verá todos os alertas de severidade média e alta e os alertas de severidade mais baixos. Isso pode resultar em mais falsos positivos.
 
 ## <a name="create-a-new-policy"></a>Criar uma nova política
 
@@ -129,7 +137,7 @@ Conclua as seguintes etapas para criar uma nova política:
     - Tipo de informação confidencial: selecione **escolher tipos de informações confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"número de conta bancária dos EUA"* e *"número do cartão de crédito"*.
     - Rótulos de sensibilidade: selecione **escolher rótulos de sensibilidade** e selecione os rótulos que você deseja priorizar. Por exemplo, *"confidencial"* e *"segredo"*.
 7. Selecione **Avançar** para continuar.
-8. Na página **indicadores de alerta** , você verá os indicadores definidos na página de > **indicadores** de **configurações de risco do insider**. Se você selecionou o modelo *vazamentos de dados* no início do assistente, deverá selecionar uma política de DLP na lista suspensa **política de DLP** .
+8. Na página **indicadores de alerta** , você verá os indicadores definidos na página de indicadores de **configurações de risco do insider**  >  **Indicators** . Se você selecionou o modelo *vazamentos de dados* no início do assistente, deverá selecionar uma política de DLP na lista suspensa **política de DLP** .
 9. Na página **selecionar janela de monitoramento** , você verá as [condições da janela de monitoramento](insider-risk-management-policies.md#policy-timeframes) da política que você configurou nas configurações de risco do insider. Se você tiver selecionado o modelo de política de *roubo de dados do funcionário* de cancelamento de parte, poderá marcar a caixa de seleção *verificar término da postagem de atividade* para detectar a atividade após a data de término importada do conector de RH da Microsoft 365.
 10. Selecione **Avançar** para continuar.
 11. Na página **revisão** , revise as configurações escolhidas para a política. Selecione **Editar** para alterar qualquer um dos valores da política ou selecione **Enviar** para criar e ativar a política.
@@ -153,7 +161,7 @@ Conclua as seguintes etapas para gerenciar uma política existente:
     - Tipo de informação confidencial: selecione **escolher tipos de informações confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"número de conta bancária dos EUA"* e *"número do cartão de crédito"*.
     - Rótulos de sensibilidade: selecione **escolher rótulos de sensibilidade** e selecione os rótulos que você deseja priorizar. Por exemplo, *"confidencial"* e *"segredo"*.
 8. Selecione **Avançar** para continuar.
-9. Na página **indicadores de alerta** , você verá os indicadores definidos na página de > **indicadores** de **configurações de risco do insider**. Se você selecionou o modelo *vazamentos de dados* no início do assistente, deverá selecionar uma política de DLP na lista suspensa **política de DLP** .
+9. Na página **indicadores de alerta** , você verá os indicadores definidos na página de indicadores de **configurações de risco do insider**  >  **Indicators** . Se você selecionou o modelo *vazamentos de dados* no início do assistente, deverá selecionar uma política de DLP na lista suspensa **política de DLP** .
 10. Na página **selecionar janela de monitoramento** , você verá as [condições da janela de monitoramento](insider-risk-management-policies.md#policy-timeframes) da política que você configurou nas configurações de risco do insider. Se você tiver selecionado o modelo de política de *roubo de dados do funcionário* de cancelamento de parte, poderá marcar a caixa de seleção *verificar término da postagem de atividade* para detectar a atividade após a data de término importada do conector de RH da Microsoft 365.
 11. Na página **revisão** , revise as configurações escolhidas para a política. Selecione **Editar** para alterar qualquer um dos valores da política ou selecione **Enviar** para atualizar e ative as alterações na política.
 

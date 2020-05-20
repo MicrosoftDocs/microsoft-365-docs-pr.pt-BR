@@ -21,19 +21,19 @@ search.appverid:
 - GEA150
 ms.assetid: 9b497c85-d0a4-4735-80fa-d3565bc05bd1
 description: Saiba como remover licenças de contas de usuário.
-ms.openlocfilehash: 49d3b4b6786bc6ab66bc0416aac847ada592664d
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: d4ac823a7345cb4d04f599c5635248d6ce324257
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139632"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322024"
 ---
 # <a name="unassign-licenses-from-users"></a>Cancelar a atribuição de licenças de usuários
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -129,7 +129,7 @@ Quando você usa a página **licenças** para cancelar a atribuição de licenç
 
 4. No painel **Substituir produtos existentes**, escolha **Substituir atribuições de licenças de produtos existentes** \> **Avançar**.
 
-5. Na parte inferior do painel **substituir produtos existentes** , marque a caixa de seleção **remover todas as licenças de produtos dos usuários selecionados** e, em seguida, selecione **substituir** \> **Close** \> fechar **fechar**.
+5. Na parte inferior do painel **substituir produtos existentes** , marque a caixa de seleção **remover todas as licenças de produtos dos usuários selecionados** e, em seguida, selecione **substituir** \> **fechar** \> **fechar**.
 
 ::: moniker-end
 
@@ -143,7 +143,7 @@ Quando você usa a página **licenças** para cancelar a atribuição de licenç
 
 4. No painel **Substituir produtos existentes**, escolha **Substituir atribuições de licenças de produtos existentes** \> **Avançar**.
 
-5. Na parte inferior do painel **substituir produtos existentes** , marque a caixa de seleção **remover todas as licenças de produtos dos usuários selecionados** e, em seguida, selecione **substituir** \> **Close** \> fechar **fechar**.
+5. Na parte inferior do painel **substituir produtos existentes** , marque a caixa de seleção **remover todas as licenças de produtos dos usuários selecionados** e, em seguida, selecione **substituir** \> **fechar** \> **fechar**.
 
 ::: moniker-end
 
@@ -159,9 +159,9 @@ Quando você usa a página **licenças** para cancelar a atribuição de licenç
 
 - Observe que os arquivos salvos no OneDrive for Business não são excluídos, a menos que o usuário seja excluído do centro de administração do Microsoft 365 ou seja removido por meio da sincronização do Active Directory. Para obter mais informações, consulte [retenção e exclusão do onedrive](https://docs.microsoft.com/onedrive/retention-and-deletion).
 
-- Além disso, a caixa de correio do usuário não pode mais ser pesquisada usando uma ferramenta de descoberta eletrônica, como pesquisa de conteúdo ou descoberta eletrônica avançada, quando a licença é removida. Para obter mais informações, consulte a seção "pesquisando caixas de correio desconectadas ou deslicenciadas" na [pesquisa de conteúdo no Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/content-search#searching-disconnected-or-de-licensed-mailboxes).
+- Além disso, a caixa de correio do usuário não pode mais ser pesquisada usando uma ferramenta de descoberta eletrônica, como pesquisa de conteúdo ou descoberta eletrônica avançada, quando a licença é removida. Para obter mais informações, consulte a seção "pesquisando caixas de correio desconectadas ou deslicenciadas" na [pesquisa de conteúdo no Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/content-search#searching-disconnected-or-de-licensed-mailboxes).
 
-- Se você tiver uma assinatura corporativa, como o Office 365 Enterprise E3, o Exchange Online permite preservar os dados da caixa de correio de uma conta de usuário excluída usando [caixas de correio inativas](https://docs.microsoft.com/office365/securitycompliance/inactive-mailboxes-in-office-365). Para obter mais informações, consulte [criar e gerenciar caixas de correio inativas no Exchange Online](https://docs.microsoft.com/office365/securitycompliance/create-and-manage-inactive-mailboxes).
+- Se você tiver uma assinatura corporativa, como o Office 365 Enterprise E3, o Exchange Online permite preservar os dados da caixa de correio de uma conta de usuário excluída usando [caixas de correio inativas](https://docs.microsoft.com/microsoft-365/compliance/inactive-mailboxes-in-office-365). Para obter mais informações, consulte [criar e gerenciar caixas de correio inativas no Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/create-and-manage-inactive-mailboxes).
 
 - Para obter informações sobre como bloquear o acesso de um usuário aos dados do Microsoft 365 após a licença ter sido removida e como obter acesso aos dados posteriormente, confira [remover um funcionário antigo](../add-users/remove-former-employee.md).
 

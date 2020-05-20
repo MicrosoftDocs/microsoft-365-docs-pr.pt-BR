@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Administradores do Exchange Online gerenciam emails e caixas de correio da sua organização. Por exemplo, eles recuperam itens excluídos na caixa de correio de um usuário. '
-ms.openlocfilehash: e45d6a0e9f2151e03a300b1e36bf53b7c9f8ef68
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 984345dd92e9b9a6da3c803b77b663bd8299c62e
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618903"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322070"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Sobre a função de administrador do Exchange Online
 
@@ -37,7 +37,7 @@ Aqui estão algumas das principais tarefas que os usuários podem fazer quando s
   
 - [Recuperar itens excluídos na caixa de correio do usuário – Ajuda para Administradores](https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox)
     
-- [Configurar uma política de arquivo morto e exclusão para caixas de correio em sua organização](https://docs.microsoft.com/office365/securitycompliance/set-up-an-archive-and-deletion-policy-for-mailboxes).
+- [Configurar uma política de arquivo morto e exclusão para caixas de correio em sua organização](https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes).
     
 - Configurar recursos de caixa de correio, como a política de compartilhamento de caixa de correio: como os usuários podem compartilhar informações de calendário e contatos com outras pessoas fora da sua organização. 
     
@@ -45,7 +45,7 @@ Aqui estão algumas das principais tarefas que os usuários podem fazer quando s
     
 - [Criar uma caixa de correio compartilhada](../email/create-a-shared-mailbox.md) para que um grupo de pessoas possa monitorar e enviar emails de um endereço de email comum. 
     
-- [Proteção](https://docs.microsoft.com/office365/securitycompliance/anti-spam-protection) antispam de email e filtros de malware para a organização. 
+- [Proteção](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection) antispam de email e filtros de malware para a organização. 
     
 - Gerenciar grupos do Microsoft 365
     
