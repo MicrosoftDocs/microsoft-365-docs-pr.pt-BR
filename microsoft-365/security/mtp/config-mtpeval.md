@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 80b7e209f87d3612e753127f5d1a1b3c36304cc3
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: a41510deb8bad39e2f871babfbcb91a2e43f6dd8
+ms.sourcegitcommit: 56772bed89516cebc5eb370e292ccfbb4889cb38
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209292"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44330828"
 ---
 # <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-environment"></a>Configurar os pilares de proteção contra ameaças da Microsoft para seu ambiente de laboratório de avaliação
 
@@ -237,5 +237,14 @@ Clique em **Avançar**.
 16. Role para baixo e clique em **salvar preferências** para confirmar as novas integrações.
 <br>![Botão de preferências de of_Save de imagem que você precisa clicar](../../media/mtp-eval-72.png) <br>
 
+## <a name="turn-on-microsoft-threat-protection"></a>Habilitar a Proteção contra Ameaças da Microsoft
+1. Vá para a [central de segurança do Microsoft 365](https://security.microsoft.com/homepage). Navegue até **configurações** e selecione **proteção contra ameaças da Microsoft**.
+<br>![Captura de tela da opção de proteção contra ameaças de imagem of_Microsoft da página de configurações da central de segurança do Microsoft 365](../../media/mtp-eval-72b.png) <br>
+
+2. Marque a caixa de seleção **Ativar proteção contra ameaças da Microsoft** e clique em **salvar**.
+<br>![Captura de tela da opção de proteção contra ameaças de imagem of_Microsoft da página de configurações da central de segurança do Microsoft 365](../../media/mtp-eval-72c.png) <br>
+
+Parabéns! Você acabou de criar seu ambiente de laboratório de avaliação do Microsoft Threat Protection! Agora você pode simular um ataque e ver como os recursos de produtos cruzam detectar, criar alertas e responder automaticamente a um ataque sem arquivo em um ponto de extremidade.
+
 ## <a name="next-steps"></a>Próximas etapas
-[Ative a proteção contra ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable?view=o365-worldwide#start-using-the-service) e [gere um alerta de teste](generate-test-alert.md).
+[Gere um alerta de teste](generate-test-alert.md).

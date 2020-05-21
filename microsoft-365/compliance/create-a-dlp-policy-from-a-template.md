@@ -19,12 +19,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-mar2020
 description: Neste artigo, você aprenderá a criar políticas de DLP usando um dos modelos incluídos no Office 365.
-ms.openlocfilehash: be063c8ee8605db94fe3a68f7ca42b7135553f5e
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 612f6d0c9459c31087bafa5c498bd4767535e169
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035713"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327803"
 ---
 # <a name="create-a-dlp-policy-from-a-template"></a>Criar uma política DLP com base em um modelo
 
@@ -62,11 +62,11 @@ Neste exemplo, você criará uma política de DLP que identifica os dados PII do
     
 2. Entre usando sua conta de trabalho ou da escola. Agora você está no centro de &amp; conformidade de segurança.
     
-3. Na navegação \> à &amp; esquerda centro \> de conformidade de segurança \> **política** \> de **prevenção contra perda de dados** **+ criar uma política**.
+3. Na &amp; navegação à esquerda centro de conformidade de segurança \> política de \> **prevenção contra perda** \> **Policy** \> **de dados + criar uma política**.
     
     ![Botão criar uma política](../media/b1e48a08-92e2-47ca-abdc-4341694ddc7c.png)
   
-4. Escolha o modelo de política de DLP que protege os tipos de informações confidenciais que \> você precisa **seguir**.
+4. Escolha o modelo de política de DLP que protege os tipos de informações confidenciais que você precisa \> **seguir**.
     
     Neste exemplo, você selecionará dados de **privacidade** \> **de informações de identificação pessoal (PII) dos EUA** , porque já inclui a maioria dos tipos de informações confidenciais que você deseja proteger, você adicionará alguns mais tarde. 
     
@@ -80,7 +80,7 @@ Neste exemplo, você criará uma política de DLP que identifica os dados PII do
     
   - Escolha **todos os locais no Office 365** \> **em seguida**.
     
-  - Escolha **deixe-me escolher locais** \> específicos **em seguida**. Para este exemplo, escolha esta.
+  - Escolha **deixe-me escolher locais específicos** \> **em seguida**. Para este exemplo, escolha esta.
     
     Para incluir ou excluir um local inteiro, como todos os emails do Exchange ou todas as contas do OneDrive, altere ou desative o **status** desse local. 
     
@@ -90,7 +90,7 @@ Neste exemplo, você criará uma política de DLP que identifica os dados PII do
   
     Neste exemplo, para proteger as informações confidenciais armazenadas em todas as contas do OneDrive for Business, desative o **status** do **email do Exchange** e dos **sites do SharePoint**e deixe o **status** em **contas do onedrive**.
     
-7. Escolha **usar configurações** \> avançadas **próximo**.
+7. Escolha **usar configurações avançadas** \> **próximo**.
     
 8. Um modelo de política de DLP contém regras predefinidas com condições e ações que detectam e agem sobre tipos específicos de informações confidenciais. Você pode editar, excluir ou desativar qualquer uma das regras existentes ou adicionar novas. Quando terminar, clique em **Avançar**.
     
@@ -104,21 +104,21 @@ Neste exemplo, você criará uma política de DLP que identifica os dados PII do
     
     Para atender aos requisitos específicos da sua organização, talvez você queira tornar as regras mais fáceis de disparar, para que uma única ocorrência de informações confidenciais seja suficiente para bloquear o acesso de usuários externos. Depois de examinar essas regras, você entende que não precisa de regras de contagem baixa e alta — você precisa apenas de uma única regra que bloqueia o acesso se qualquer ocorrência de informações confidenciais for encontrada.
     
-    Portanto, você expande a regra chamada **baixo volume de conteúdo detectado pela regra de exclusão de PII** \> **Delete rule**dos EUA.
+    Portanto, você expande a regra chamada **baixo volume de conteúdo detectado pela regra de exclusão de PII dos EUA** \> **Delete rule**.
     
     ![Botão excluir regra](../media/bc36f7d2-0fae-4af1-92e8-95ba51077b12.png)
   
-9. Agora, neste exemplo, você precisa adicionar dois tipos de informações confidenciais (números de contas bancárias dos EUA e números de carteira de motorista dos EUA), permitir que as pessoas substituam uma regra e altere a contagem para qualquer ocorrência. Você pode fazer tudo isso editando uma regra, portanto, selecione **alto volume de conteúdo detectado** \> como **regra de edição**PII dos EUA.
+9. Agora, neste exemplo, você precisa adicionar dois tipos de informações confidenciais (números de contas bancárias dos EUA e números de carteira de motorista dos EUA), permitir que as pessoas substituam uma regra e altere a contagem para qualquer ocorrência. Você pode fazer tudo isso editando uma regra, portanto, selecione **alto volume de conteúdo detectado como regra de edição PII dos EUA** \> **Edit rule**.
     
     ![Botão Editar regra](../media/eaf54067-4945-4c98-8dd6-fb2c5d6de075.png)
   
-10. Para adicionar um tipo de informação confidencial, na **Conditions** seção \> condições, **adicione ou altere tipos**. Em seguida, **em Adicionar ou alterar tipos** \> , escolha **Adicionar** \> selecionar **número de conta bancária dos EUA** e número \> de carteira **de motorista dos EUA** **Adicionar** \> **concluído**.
+10. Para adicionar um tipo de informação confidencial, na seção **condições** , \> **adicione ou altere tipos**. Em seguida, em **Adicionar ou alterar tipos** , \> escolha **Adicionar** \> selecionar número de **conta bancária dos EUA** e número de carteira **de motorista dos EUA** \> **Adicionar** \> **concluído**.
     
     ![Opção para adicionar ou alterar tipos](../media/c6c3ae86-f7db-40a8-a6e4-db11692024be.png)
   
     ![Adicionar ou alterar painel de tipos](../media/fdbb96af-b914-4a6c-a97b-bbd014689965.png)
   
-11. Para alterar a contagem (o número de instâncias de informações confidenciais necessárias para acionar a regra), em **contagem** \> de instâncias, escolha o valor **mínimo** para cada tipo \> digite 1. A contagem mínima não pode estar vazia. A contagem máxima pode estar vazia; um valor **máximo** vazio é convertido em **qualquer**.
+11. Para alterar a contagem (o número de instâncias de informações confidenciais necessárias para acionar a regra), em **contagem de instâncias** , \> escolha o valor **mínimo** para cada tipo \> digite 1. A contagem mínima não pode estar vazia. A contagem máxima pode estar vazia; um valor **máximo** vazio é convertido em **qualquer**.
     
     Quando terminar, a contagem mínima de todos os tipos de informações confidenciais deverá ser **1** e a contagem máxima deverá ser **qualquer**. Em outras palavras, qualquer ocorrência desse tipo de informação confidencial atenderá a essa condição.
     
@@ -134,13 +134,13 @@ Neste exemplo, você criará uma política de DLP que identifica os dados PII do
   
 13. Na parte superior do editor de regras, altere o nome dessa regra a partir do **alto volume de conteúdo que detectou o PII dos EUA** para **qualquer conteúdo detectado com o PII dos EUA** , pois ele agora é disparado por qualquer ocorrência de seus tipos de informações confidenciais. 
     
-14. Na parte inferior do editor \> de regras, **salve**.
+14. Na parte inferior do editor de regras, \> **salve**.
     
-15. Revise as condições e ações para esta \> regra **em seguida**.
+15. Revise as condições e ações para esta regra \> **em seguida**.
     
     À direita, observe a opção de **status** da regra. Se você desativar uma política inteira, todas as regras contidas na política também serão desativadas. No entanto, você pode desativar uma regra específica sem desativar toda a política. Isso pode ser útil quando você precisar investigar uma regra que está gerando um grande número de falsos positivos. 
     
-16. Na próxima página, leia e entenda o seguinte e, em seguida, escolha se deseja ativar ou \> **testar primeiro a**regra.
+16. Na próxima página, leia e entenda o seguinte e, em seguida, escolha se deseja ativar ou testar primeiro a regra \> **Next**.
     
      Depois de criar as políticas de DLP, você deve considerar a implementação gradual delas para avaliar o impacto e testar a eficácia delas antes de as impor completamente. Por exemplo, você não deseja que uma nova política de DLP bloqueie acidentalmente o acesso a milhares de documentos que as pessoas precisam para realizar o trabalho. 
     
@@ -154,7 +154,7 @@ Neste exemplo, você criará uma política de DLP que identifica os dados PII do
     
     ![Opções para usar o modo de teste e ativar a política](../media/49fafaac-c6cb-41de-99c4-c43c3e380c3a.png)
   
-20. Revise suas configurações para esta \> política, escolha **criar**.
+20. Revise suas configurações para esta política, \> escolha **criar**.
     
 Depois de criar e ativar uma política de DLP, ela é implantada em qualquer fonte de conteúdo que ela inclui, como sites do SharePoint Online ou contas do OneDrive for Business, onde a política começa a impor automaticamente suas regras no conteúdo.
   
@@ -178,7 +178,7 @@ Eis aqui os diferentes status e o que eles significam.
 
 Você pode editar ou desativar uma política de DLP a qualquer momento. Desativar uma política desabilita todas as regras da política.
   
-Para editar ou desativar uma política de DLP, na página **Policy** \> política, selecione a política \> de **edição**de política.
+Para editar ou desativar uma política de DLP, na página **política** , \> Selecione a política de \> **edição**de política.
   
 ![Botão Editar política](../media/ce319e92-0519-44fe-9507-45a409eaefe4.png)
   
@@ -194,6 +194,6 @@ Além disso, você pode desativar cada regra individualmente editando a polític
     
 - [O que os modelos de política DLP incluem](what-the-dlp-policy-templates-include.md)
     
-- [Inventário de tipos de informações confidenciais](what-the-sensitive-information-types-look-for.md)
+- [Definições de entidade de tipo de informação confidencial](sensitive-information-type-entity-definitions.md)
     
 

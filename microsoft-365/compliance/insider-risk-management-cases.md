@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 7af3e54a13ceabf4acfaa2259ea0089854660721
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: 9959d41cf112c1ebcc88a8dd0335cae5a5537059
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804839"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327857"
 ---
 # <a name="insider-risk-management-cases"></a>Casos de gerenciamento de risco do insider
 
@@ -101,7 +101,7 @@ A guia **atividade do usuário** é uma das ferramentas mais poderosas para aná
 4. **Cronologia da atividade de risco**: o cronograma completo de todos os alertas de risco associados ao caso está listado, incluindo todos os detalhes disponíveis na bolha de alerta correspondente.
 5. **Ações de caso**: as opções para resolver o caso estão na barra de ferramentas ação de caso. Você pode resolver uma ocorrência, enviar um aviso por email ao funcionário ou escalonar o caso de uma investigação de dados ou de funcionário.
 
-### <a name="content-explorer"></a>Explorador de conteúdo
+### <a name="content-explorer"></a>Gerenciador de conteúdo
 
 A guia **Gerenciador de conteúdo** permite que analistas de risco e investigadores revisem cópias de todos os arquivos e mensagens de email individuais associados a alertas de risco. Por exemplo, se um alerta é criado quando um funcionário baixa centenas de arquivos do SharePoint Online para um dispositivo USB e a atividade dispara um alerta de política, todos os arquivos baixados para o alerta são capturados e copiados para o caso de gerenciamento de risco do insider das fontes de armazenamento originais.
 
@@ -172,7 +172,7 @@ Para escalonar uma ocorrência para uma investigação de funcionário:
 3. Na caixa **de diálogo escalar para investigação** , insira um nome para a nova investigação de funcionário. Se necessário, insira observações sobre o caso e selecione **escalonar**.
 5. Selecione **confirmar** para criar o caso de investigação de funcionário ou selecione **Cancelar** para fechar a caixa de diálogo sem criar um novo caso de investigação de funcionário.
 
-Após o caso de gerenciamento de risco do insider ser escalonado para um novo caso de investigação de funcionários, você pode examinar o novo caso**na área de** **descoberta eletrônica** > do centro de conformidade da Microsoft 365.
+Após o caso de gerenciamento de risco do insider ser escalonado para um novo caso de investigação de funcionários, você pode examinar o novo caso na área de **descoberta eletrônica**do  >  **Advanced** centro de conformidade da Microsoft 365.
 
 ### <a name="resolve-the-case"></a>Resolver o caso
 

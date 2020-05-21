@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador do Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras positivas e negativas. Depois que o classificador for treinado, você confirmará que os resultados são precisos. Em seguida, use-o para pesquisar o conteúdo da sua organização e classificá-lo para aplicar os rótulos de retenção ou confidencialidade ou incluí-lo em políticas de retenção ou prevenção de perda de dados (DLP).
-ms.openlocfilehash: edfa708077e273d9c644801f5461c880d87261b5
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: 99d1d9039ef70347515f80da73a487f40534d2e7
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292427"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327753"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>Introdução aos classificadores de treinamento (visualização)
 
@@ -34,7 +34,7 @@ Esse método requer ações e julgamento humana. Um administrador pode usar os r
 Esta categoria de mecanismos de classificação inclui localizar conteúdo por:
 
 - Palavras-chave ou valores de metadados (idioma de consulta de palavra-chave)
-- usando padrões identificados anteriormente de informações confidenciais, como segurança social, cartão de crédito ou números de contas bancárias [(tipos de informações confidenciais)](what-the-sensitive-information-types-look-for.md)
+- usando padrões identificados anteriormente de informações confidenciais, como segurança social, cartão de crédito ou números de contas bancárias [(definições de entidade de tipo de informação confidencial)](sensitive-information-type-entity-definitions.md)
 - Reconhecendo um item porque ele é uma variação em um modelo [(impressão digital de documentos)](document-fingerprinting.md)
 - usando a presença de cadeias de caracteres exatas [(correspondência exata de dados)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md). "
 
@@ -114,10 +114,10 @@ Criar e publicar um classificador treinado para uso em soluções de conformidad
 
 ## <a name="see-also"></a>Confira também
 
-- [rótulos de retenção](labels.md)
-- [políticas de retenção](retention-policies.md)
-- [prevenção de perda de dados (DLP)](data-loss-prevention-policies.md)
-- [rótulos de confidencialidade](sensitivity-labels.md)
-- [tipos de informações confidenciais](what-the-sensitive-information-types-look-for.md)
-- [impressão digital do documento](document-fingerprinting.md)
-- [correspondência de dados exata](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
+- [Rótulos de retenção](labels.md)
+- [Políticas de retenção](retention-policies.md)
+- [Data loss prevention (DLP)](data-loss-prevention-policies.md)
+- [Rótulos de confidencialidade ](sensitivity-labels.md)
+- [Definições de entidade de tipo de informação confidencial](sensitive-information-type-entity-definitions.md)
+- [Impressão digital do documento](document-fingerprinting.md)
+- [Correspondência de dados exata](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)

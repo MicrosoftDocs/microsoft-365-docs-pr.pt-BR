@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 791a69433653de3960af6f8d8e1e9b23067dd6c0
-ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
+ms.openlocfilehash: 1f86c904d3168eef84b4d48d8d578dd7a935267c
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44322000"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327721"
 ---
 # <a name="security-in-microsoft-managed-desktop"></a>Segurança na área de trabalho gerenciada da Microsoft
 
@@ -25,7 +25,7 @@ O Microsoft Managed desktop usa várias tecnologias da Microsoft para ajudar a p
 - [Segurança de rede](#network-security) – informações de VPN e configurações e soluções recomendadas do Microsoft Managed desktop
 - [Segurança de informações](#information-security) – serviços opcionais disponíveis para proteger ainda mais as informações confidenciais 
 
-Para obter informações sobre o armazenamento de dados, uso e práticas de segurança usadas pela área de trabalho gerenciada da Microsoft, baixe nosso White Paper em [https://aka.ms/mmd-data](https://aka.ms/mmd-data) .
+Para obter informações sobre armazenamento de dados, uso e práticas de segurança usadas pela área de trabalho gerenciada da Microsoft, baixe nosso White Paper em [https://aka.ms/mmd-data](https://aka.ms/mmd-data) .
 
 Para saber mais sobre a equipe de operações de segurança na área de trabalho gerenciada da Microsoft e como elas funcionam para fornecer segurança para seus dispositivos, confira o vídeo [Microsoft Managed Desktop Security Operations](https://www.microsoft.com/videoplayer/embed/RE4q6nP). 
 

@@ -1,0 +1,57 @@
+---
+title: Tabela DeviceTvmSoftwareVulnerabilitiesKB no esquema de busca avançada
+description: Saiba mais sobre as vulnerabilidades do software monitoradas pelo Gerenciamento de Ameaças e Vulnerabilidades na tabela DeviceTvmSoftwareVulnerabilitiesKB do esquema de busca avançada.
+keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, Search, Query, telemetria, esquema, referência, Kusto, tabela, coluna, tipo de dados, descrição, ameaça & gerenciamento de vulnerabilidades, TVM, gerenciamento de dispositivos, software, inventário, vulnerabilidades, CVE, CVSS, DeviceTvmSoftwareVulnerabilitiesKB
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: microsoft-365-enterprise
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+f1.keywords:
+- NOCSH
+ms.author: lomayor
+author: lomayor
+ms.localizationpriority: medium
+manager: dansimp
+audience: ITPro
+ms.collection: M365-security-compliance
+ms.topic: article
+ms.openlocfilehash: 378ffee34a24af225b1b6deebd7cc514c62e1926
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327933"
+---
+# <a name="devicetvmsoftwarevulnerabilitieskb"></a>DeviceTvmSoftwareVulnerabilitiesKB
+
+**Aplica-se a:**
+- Proteção contra Ameaças da Microsoft
+
+
+
+A tabela `DeviceTvmSoftwareVulnerabilitiesKB` no esquema de busca avançada contém a lista de vulnerabilidades que o [Gerenciamento de Ameaças e Vulnerabilidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)procura nos dispositivos.  Use esta referência para criar consultas quer retiram informações desta tabela.
+
+Para obter informações sobre outras tabelas no esquema de busca avançada, confira [a referência de busca avançada](advanced-hunting-schema-tables.md).
+
+| Nome da coluna | Tipo de dados | Descrição |
+|-------------|-----------|-------------|
+| `CveId` | string | Identificador exclusivo atribuído à vulnerabilidade de segurança sob o sistema Common Vulnerabilities and Exposures (CVE) |
+| `CvssScore` | string | Pontuação de gravidade atribuída à vulnerabilidade de segurança no Common Vulnerability Scoring System (CVSS) |
+| `IsExploitAvailable` | booliano | Indica se o código de exploração da vulnerabilidade está disponível publicamente |
+| `VulnerabilitySeverityLevel` | string | Nível de gravidade atribuído à vulnerabilidade de segurança com base na pontuação CVSS e fatores dinâmicos influenciados pelo cenário de ameaças |
+| `LastModifiedTime` | datetime | Data e hora em que o item ou os metadados relacionados foram modificados pela última vez |
+| `PublishedDate` | datetime | Data em que a vulnerabilidade foi divulgada ao público |
+| `VulnerabilityDescription` | string | Descrição da vulnerabilidade e riscos associados |
+| `AffectedSoftware` | string | Lista de todos os produtos de software afetados pela vulnerabilidade |
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+- [Buscar proativamente por ameaças](advanced-hunting-overview.md)
+- [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
+- [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
+- [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
+- [Compreender o esquema](advanced-hunting-schema-tables.md)
+- [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)
+- [Visão geral do Gerenciamento de Vulnerabilidades e Ameaças](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

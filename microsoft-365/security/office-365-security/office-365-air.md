@@ -16,12 +16,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Comece a usar os recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: 4e36e0fa07f825d3259ef9e42b802c81ae929470
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: c2020c3d46fcf17194e2560af53d9a26fca30629
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159402"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327825"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Introdução ao uso de investigação e resposta automatizadas (AIR) no Office 365
 
@@ -31,7 +31,7 @@ Este artigo descreve o [fluxo geral](#the-overall-flow-of-air) de ar, [como obte
 
 ## <a name="the-overall-flow-of-air"></a>O fluxo de ar geral
 
-Em um nível alto, um alerta é disparado e um guia de análise de segurança inicia e investigação automatizada, resultando em resultados e recomendações. Este é o fluxo de ar geral, passo a passo:
+Em um nível alto, um alerta é disparado e um guia de segurança inicia uma investigação automatizada, resultando em resultados e recomendações. Este é o fluxo de ar geral, passo a passo:
 
 1. Uma investigação automatizada é iniciada de uma das seguintes maneiras:
 

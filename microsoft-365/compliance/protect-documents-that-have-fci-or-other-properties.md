@@ -17,12 +17,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Muitas organizações já têm um processo para identificar e classificar informações confidenciais usando as propriedades de classificação no arquivo de classificação de infraestrutura (FCI) do Windows Server, as propriedades do documento no SharePoint ou as propriedades do documento aplicadas por um sistema de terceiros. Se isso descrever sua organização, você pode criar uma política de DLP que reconhece as propriedades que foram aplicadas a documentos pelo Windows Server FCI ou outro sistema, para que a política de DLP possa ser imposta em documentos do Office com FCI específico ou outros valores de propriedade.
-ms.openlocfilehash: e2b64412a6f35dc3f29fe538a849f84e764af156
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3fa28492ef4d19903797741795091561de3fa257
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632196"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327097"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>Criar uma política de DLP para proteger documentos com FCI ou outras propriedades
 
@@ -54,13 +54,13 @@ Primeiro você precisa carregar um documento com a propriedade à qual você des
 
 1. Acesse o centro de administração do Microsoft 365.
     
-2. No painel de navegação à esquerda, escolha **central** \> de administração **do SharePoint**. Agora você está no centro de administração do SharePoint.
+2. No painel de navegação à esquerda, escolha **central de administração** \> **do SharePoint**. Agora você está no centro de administração do SharePoint.
     
-3. No painel de navegação à esquerda, escolha **Pesquisar** \> na página \> **Administração da pesquisa** **gerenciar esquema de pesquisa**.
+3. No painel de navegação à esquerda, escolha **Pesquisar** \> na página **Administração da pesquisa** \> **gerenciar esquema de pesquisa**.
     
     ![página de administração de pesquisa no centro de administração do SharePoint](../media/6bcd3aec-d11a-4f8c-9987-8f35da14d80b.png)
   
-4. Na \> página **propriedades gerenciadas** **nova propriedade gerenciada**.
+4. Na página **propriedades gerenciadas** \> **nova propriedade gerenciada**.
     
     ![Página de propriedades gerenciadas com o botão Nova Propriedade Gerenciada realçado](../media/b161c764-414c-4037-83ed-503a49fb4410.png)
   
@@ -70,13 +70,13 @@ Primeiro você precisa carregar um documento com a propriedade à qual você des
     
 7. Em **Características principais**, selecione **Consultável** e **Recuperável**.
     
-8. \> Em **mapeamentos para propriedades rastreadas** , **adicione um mapeamento**.
+8. Em **mapeamentos para propriedades rastreadas** , \> **adicione um mapeamento**.
     
-9. Na caixa \> de diálogo **seleção de propriedade rastreada** , localize e selecione a propriedade rastreada que corresponde à propriedade FCI do Windows Server, ou outra propriedade que você usará em \> sua política de DLP **OK**.
+9. Na caixa de diálogo **seleção de propriedade rastreada** \> , localize e selecione a propriedade rastreada que corresponde à propriedade FCI do Windows Server, ou outra propriedade que você usará em sua política de DLP \> **OK**.
     
     ![caixa de diálogo de seleção da propriedade rastreada](../media/aeda1dce-1342-48bf-9594-a8e4f230e8aa.png)
   
-10. Na parte inferior da página \> , **OK**.
+10. Na parte inferior da página, \> **OK**.
     
 ## <a name="create-a-dlp-policy-that-uses-an-fci-property-or-other-property"></a>Criar uma política de DLP que usa uma propriedade FCI ou outra propriedade
 
@@ -94,11 +94,11 @@ Em seguida, ele cria uma política de DLP com duas regras que usam as **Propried
 
 Observe que as **Propriedades de documento de condição contêm qualquer um desses valores** temporariamente indisponíveis na interface do usuário do &amp; centro de conformidade de segurança, mas você ainda pode usar essa condição usando o PowerShell. Você pode usar os `New\Set\Get-DlpCompliancePolicy` cmdlets para trabalhar com uma política de DLP e usar os `New\Set\Get-DlpComplianceRule` cmdlets com o `ContentPropertyContainsWords` parâmetro para adicionar as propriedades de documento de condição que **contenham qualquer**um desses valores.
   
-Para obter mais informações sobre esses cmdlets, [consulte &amp; Security Compliance Center cmdlets](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409).
+Para obter mais informações sobre esses cmdlets, consulte [Security &amp; Compliance Center cmdlets](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409).
   
 1. [Conectar-se ao &amp; centro de conformidade de segurança usando o PowerShell remoto](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
     
-2. Crie a política usando `New-DlpCompliancePolicy`o.
+2. Crie a política usando o `New-DlpCompliancePolicy` .
 
 Veja a seguir um exemplo do PowerShell que cria uma política de DLP que se aplica a todos os locais.
 
@@ -106,7 +106,7 @@ Veja a seguir um exemplo do PowerShell que cria uma política de DLP que se apli
 New-DlpCompliancePolicy -Name FCI_PII_policy -ExchangeLocation All -SharePointLocation All -OneDriveLocation All -Mode Enable
 ```
 
-3. Crie as duas regras descritas acima usando `New-DlpComplianceRule`, onde uma regra é para o valor **baixo** e outra regra é para os valores **altos** e **moderados** . 
+3. Crie as duas regras descritas acima usando `New-DlpComplianceRule` , onde uma regra é para o valor **baixo** e outra regra é para os valores **altos** e **moderados** . 
     
     Veja a seguir um exemplo do PowerShell que cria essas duas regras. Observe que os pares nome/valor da propriedade são colocados entre aspas, e um nome de propriedade pode especificar vários valores separados por vírgulas sem espaços, como`"<Property1>:<Value1>,<Value2>","<Property2>:<Value3>,<Value4>"....`
 
@@ -135,9 +135,9 @@ Para saber mais, confira [Solicitar manualmente o rastreamento e a reindexação
   
 ### <a name="re-index-a-site-optional"></a>Reindexar um site (opcional)
 
-1. No site, escolha **configurações** (ícone de engrenagem no canto superior direito \> ) **configurações do site**.
+1. No site, escolha **configurações** (ícone de engrenagem no canto superior direito) \> **configurações do site**.
     
-2. Em **Pesquisar**, escolha o site de \> **reindexação** **de pesquisa e disponibilidade offline** .
+2. Em **Pesquisar**, escolha o site de reindexação **de pesquisa e disponibilidade offline** \> **Reindex site**.
     
 ## <a name="more-information"></a>Mais informações
 
@@ -149,4 +149,4 @@ Para saber mais, confira [Solicitar manualmente o rastreamento e a reindexação
     
 - [O que os modelos de política DLP incluem](what-the-dlp-policy-templates-include.md)
     
-- [Inventário de tipos de informações confidenciais](what-the-sensitive-information-types-look-for.md)
+- [Definições de entidade de tipo de informação confidencial](sensitive-information-type-entity-definitions.md)

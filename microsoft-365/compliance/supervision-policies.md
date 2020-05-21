@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft 365 Compliance
-ms.openlocfilehash: b0778cd05565057fde8982e791a75801d097046c
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 45dc5a3e9674ebdf9488d14813abf04fc81b6781
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034555"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327249"
 ---
 # <a name="supervision-policies"></a>Políticas de supervisão
 
@@ -139,7 +139,7 @@ Você tem a opção de incluir tipos de informações confidenciais como parte d
 - Privacidade
 - Tipo de informação personalizada
 
-Para saber mais sobre detalhes de informações confidenciais e os padrões incluídos nos tipos padrão, confira [quais tipos de informações confidenciais](what-the-sensitive-information-types-look-for.md)há.
+Para saber mais sobre detalhes de informações confidenciais e os padrões incluídos nos tipos padrão, confira [definições de entidade de tipo de informação confidencial](sensitive-information-type-entity-definitions.md).
 
 #### <a name="custom-keyword-dictionaries"></a>Dicionários de palavras-chave personalizados
 
@@ -213,7 +213,7 @@ Se quiser reduzir a quantidade de conteúdo a ser revisada, você poderá especi
 
 ### <a name="supervision-policy-dashboard"></a>Painel de política de supervisão
 
-Use o painel de políticas de supervisão para gerenciar os resultados da política de supervisão e para resolver itens pendentes. Este painel permite que os revisores exibam itens que precisam ser revisados, atuem em um item e analisem os resultados de itens previamente revisados e resolvidos para cada política de supervisão. Você pode acessar o painel de políticas de supervisão no centro de conformidade em **supervisão** > *da política* > personalizada**aberta**.
+Use o painel de políticas de supervisão para gerenciar os resultados da política de supervisão e para resolver itens pendentes. Este painel permite que os revisores exibam itens que precisam ser revisados, atuem em um item e analisem os resultados de itens previamente revisados e resolvidos para cada política de supervisão. Você pode acessar o painel de políticas de supervisão no centro de conformidade em **supervisão**  >  *da política personalizada*  >  **aberta**.
 
 #### <a name="dashboard-home"></a>Página inicial do painel
 
@@ -252,7 +252,7 @@ Use os relatórios de supervisão para ver a atividade de análise no nível de 
 ### <a name="view-the-supervision-report"></a>Exibir o relatório de supervisão
 
 1. Entre no [centro de conformidade](https://compliance.microsoft.com) com as credenciais de uma conta de administrador com permissões para exibir relatórios de supervisão.
-2. Vá para **painel** de **relatórios** \> ou **supervisão** para exibir o widget relatório de supervisão para obter um resumo da atividade atual de política de supervisão.
+2. Vá para painel de **relatórios** \> **Dashboard** ou **supervisão** para exibir o widget relatório de supervisão para obter um resumo da atividade atual de política de supervisão.
 3. Selecione o widget **supervisão** para abrir a página relatório detalhado.
 
 >[!NOTE]
@@ -283,13 +283,13 @@ Aqui está uma divisão dos valores exibidos na coluna **tipo de marca** .
 >[!NOTE]
 >As políticas de supervisão devem ser provisionadas antes de serem exibidas nos relatórios. Se as políticas forem excluídas, os dados históricos ainda serão exibidos. No entanto, eles são indicados como uma política não existente e a função de **exportação** não está disponível.
 
-## <a name="audit"></a>Faça
+## <a name="audit"></a>Auditoria
 
 Em alguns casos, você deve fornecer informações para auditores regulamentares ou de conformidade para provar a supervisão de atividades e comunicações de funcionários. Essas informações podem ser um resumo de todas as atividades de supervisão associadas a uma política definida ou a qualquer momento em que uma política de supervisão é alterada. As políticas de supervisão têm trilhas de auditoria internas para uma preparação completa para auditorias internas ou externas. Os históricos de auditoria detalhados de todas as ações monitoradas por suas políticas de supervisão oferecem prova de procedimentos de supervisão.
 
 As seguintes atividades de política de supervisão são auditadas e estão disponíveis nos logs de auditoria unificada:
 
-|**Atividades**|**Comandos associados**|
+|**Atividade**|**Comandos associados**|
 |:-----|:-----|
 | **Criar uma política** | [New-SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewpolicyv2) <br> [New-SupervisoryReviewRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule) |
 | **Editar uma política** | [Set-SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewpolicyv2) <br> [Set-SupervisoryReviewRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule) |

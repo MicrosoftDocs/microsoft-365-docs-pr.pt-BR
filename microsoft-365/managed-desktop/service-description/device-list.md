@@ -5,12 +5,12 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: d481a53da541b28975071a9dff6b7cdcc671345b
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: 034305eec75bd369752915084b2857ebea455aa0
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804797"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327919"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Dispositivos de área de trabalho gerenciada da Microsoft 
 
@@ -25,7 +25,7 @@ Para ser inscrito na área de trabalho gerenciada da Microsoft, um dispositivo d
 Os links para dispositivos aqui são apenas para referência. Se você quiser solicitar dispositivos, trabalhe com seus contatos de canal comercial para garantir que você escolha as configurações corretas. Nesta tabela, a *data de arquivamento* é a data na qual esses modelos estarão sujeitos à vida útil de serviço de área de trabalho gerenciada da Microsoft mais curta; todos os dispositivos que foram integrados após essa data não receberão um termo completo de três anos de suporte da área de trabalho gerenciada da Microsoft. Os dispositivos arquivados também estão listados em [dispositivos arquivados da área de trabalho gerenciada da Microsoft](archived-device-list.md). *Data de aposentadoria* é a data na qual esse modelo não terá mais suporte no Microsoft Managed desktop. Nessa data, todos os dispositivos registrados desse modelo serão removidos da área de trabalho gerenciada da Microsoft, não importa quando eles foram registrados.
 
 >[!NOTE]
->Os dispositivos podem ser adicionados a esta tabela a qualquer momento, mas forneceremos 90 dias de aviso para qualquer alteração que afete o arquivo morto ou a data de aposentadoria. Os dispositivos adicionados mais recentemente são marcados com **\***.
+>Os dispositivos podem ser adicionados a esta tabela a qualquer momento, mas forneceremos 90 dias de aviso para qualquer alteração que afete o arquivo morto ou a data de aposentadoria. Os dispositivos adicionados mais recentemente são marcados com **\*** .
 
 
 **Dispositivos de área de trabalho gerenciada da Microsoft**
@@ -60,13 +60,17 @@ Os links para dispositivos aqui são apenas para referência. Se você quiser so
 | [Surface pro 6](https://www.microsoft.com/p/surface-pro-6-for-business/8xjq3d3lrp0r/grf9?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 GB/Intel i5/8 GB de RAM | Nenhum | 16 de outubro de 2020 | 16 de outubro de 2023 |
 | **\*[Surface Pro 7](https://www.microsoft.com/en-us/surface/business/surface-pro-7)** | 128 GB/Intel i5/8 GB de RAM | Nenhum | 22 de outubro de 2021 | 22 de outubro de 2024 |
 
-
-
 Além disso, o dispositivo também deve atender a estes critérios:     
 
 - Ter uma imagem aprovada pela área de trabalho gerenciada pela Microsoft. Ao solicitar dispositivos, verifique se você especificou que eles estão sendo usados com a área de trabalho gerenciada da Microsoft.
 - Não concluiu a experiência de primeira execução do Windows.
 - Ser registrado com a área de trabalho gerenciada da Microsoft usando o recurso de [registro de dispositivo](https://aka.ms/mmddrhelp)
+
+>[!NOTE]
+>Dispositivos com um processador de 2,0 GHz ou mais rápido fornecerão uma experiência muito melhor para os usuários envolvidos nessas atividades:
+>- Usando videoconferência com o Microsoft Teams. Consulte [requisitos de hardware para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app) para obter detalhes.
+>-  Usar um dispositivo para várias cargas de trabalho diferentes.
+>- Usando vários monitores.
 
 **Ajuda adicional**
 

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: f6f83be060a376e843a4224add6e5815f0a7b6b3
-ms.sourcegitcommit: b57d597edbff5ab6cff8c2b04d27c15b0024776f
+ms.openlocfilehash: 7b46998f27bd620fe7ea4359b91f611cbf4c3d85
+ms.sourcegitcommit: 56772bed89516cebc5eb370e292ccfbb4889cb38
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997551"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44330751"
 ---
 # <a name="generate-a-test-alert-in-your-microsoft-threat-protection-evaluation-lab"></a>Gerar um alerta de teste em seu laboratório de avaliação de proteção contra ameaças da Microsoft  
 
@@ -33,3 +33,7 @@ Agora que você concluiu a instalação e a configuração do laboratório de av
 
 1. Faça logon nohttps://security.microsoft.com
 2. Na Home Page, procure uma **simulação**com título de bloco.  Revise o guia de orientações sobre as etapas para criar um incidente de teste no Microsoft Threat Protection.
+<br>![Imagem do cartão de simulação no painel de segurança do Microsoft 365](../../media/mtp-eval-73.png) <br>
+
+## <a name="next-steps"></a>Próximas etapas
+Navegue até o [centro de soluções e arquitetura da Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center?view=o365-worldwide) para obter orientação sobre como você deseja que suas soluções de segurança sejam implementadas em seu ambiente exclusivo.

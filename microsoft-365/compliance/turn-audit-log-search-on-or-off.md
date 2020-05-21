@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 description: Você pode ativar o recurso de pesquisa de log de auditoria no centro de conformidade de & de segurança. Se você mudar de ideia, poderá desativar se estiver desligado a qualquer momento. Quando a pesquisa de log de auditoria está desativada, os administradores não podem pesquisar o log de auditoria do Microsoft 365 para atividades de usuário e administrador em sua organização.
-ms.openlocfilehash: 6b5ea41ff9f40291e54f8cc9f6660d0f86367994
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f3d88f62f466d9c868dfc6addb5865e144f5223b
+ms.sourcegitcommit: 56772bed89516cebc5eb370e292ccfbb4889cb38
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633416"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44330785"
 ---
 # <a name="turn-audit-log-search-on-or-off"></a>Ativar ou desativar a pesquisa de log de auditoria
 
@@ -48,22 +48,24 @@ Você pode usar o centro de conformidade & segurança ou o PowerShell para ativa
   
 ### <a name="use-the-security--compliance-center-to-turn-on-audit-log-search"></a>Usar o centro de conformidade de & de segurança para ativar a pesquisa de log de auditoria
 
-1. No centro de conformidade & segurança, vá para pesquisa de **log de auditoria**de **pesquisa** \> .
-    
+1. [Vá para o centro de conformidade & segurança](https://protection.office.com) e entre.
+
+2. No centro de conformidade & segurança, vá para pesquisa de log de auditoria de **pesquisa** \> **Audit log search**.
+
    Uma faixa é exibida informando que a auditoria deve ser ativada para registrar a atividade do usuário e do administrador.
 
-2. Clique em **ativar a auditoria**.
-    
+3. Clique em **ativar a auditoria**.
+
     ![Clique em ativar auditoria](../media/39a9d35f-88d0-4bbe-a962-0be2f838e2bf.png)
   
     A faixa é atualizada para dizer que o log de auditoria está sendo preparado e que você pode pesquisar a atividade de usuário e administrador em algumas horas.
-    
+
 ### <a name="use-powershell-to-turn-on-audit-log-search"></a>Usar o PowerShell para ativar a pesquisa de log de auditoria
 
 1. [Conectar-se ao PowerShell do Exchange Online ](https://go.microsoft.com/fwlink/p/?LinkID=396554)
-    
+
 2. Execute o seguinte comando do PowerShell para ativar a pesquisa de log de auditoria no Office 365.
-    
+
     ```powershell
     Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true
     ```
@@ -75,15 +77,15 @@ Você pode usar o centro de conformidade & segurança ou o PowerShell para ativa
 Você precisa usar o PowerShell remoto conectado à sua organização do Exchange Online para desativar a pesquisa de log de auditoria. Semelhante à ativação da pesquisa de log de auditoria, você precisa ter atribuído a função de logs de auditoria no Exchange Online para desativar a pesquisa de log de auditoria.
   
 1. [Conectar-se ao PowerShell do Exchange Online ](https://go.microsoft.com/fwlink/p/?LinkID=396554)
-    
+
 2. Execute o seguinte comando do PowerShell para desativar a pesquisa de log de auditoria no Office 365.
-    
+
     ```powershell
     Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $false
     ```
 
 3. Após um tempo, verifique se a pesquisa de log de auditoria está desativada (desabilitada). Há duas maneiras de fazer isso:
-    
+
     - No PowerShell, execute o seguinte comando:
 
     ```powershell
@@ -91,7 +93,7 @@ Você precisa usar o PowerShell remoto conectado à sua organização do Exchang
     ```
 
       O valor da `False` propriedade _UnifiedAuditLogIngestionEnabled_ indica que a pesquisa de log de auditoria está desativada. 
-    
-    - No centro de conformidade & segurança, vá para pesquisa de **log de auditoria**de **pesquisa** \> .
-    
+
+    - No [centro de conformidade & segurança](https://protection.office.com), vá para pesquisa de log de auditoria de **pesquisa** \> **Audit log search**.
+
       Uma faixa é exibida dizendo que a auditoria deve ser ativada para registrar a atividade de usuário e administrador.

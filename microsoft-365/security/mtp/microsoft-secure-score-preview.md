@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 0a721311706faccbd7563520183c7f198298dddc
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: 4305d97d33439383989cf8c300522268727b1ae7
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173457"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327655"
 ---
 # <a name="microsoft-secure-score-preview"></a>Pontuação segura da Microsoft (visualização)
 
@@ -101,10 +101,13 @@ Para ajudá-lo a obter mais rapidamente as informações de que você precisa, a
 * Aplicativo (aplicativos de email e de nuvem, incluindo o Office 365 e o Microsoft Cloud app Security)
 * Infraestrutura (sem ações de melhoria por enquanto)
 
+>[!NOTE]
+>Na versão recente da Pontuação de segurança da Microsoft, foi lançado um modelo de Pontuação aprimorado que tornou a pontuação segura da Microsoft temporariamente incompatível com a pontuação segura de identidade e a API do Graph. [Exibir detalhes](microsoft-secure-score-preview.md#incompatibility-with-identity-secure-score-and-graph-api)
+
 Na página de visão geral de Pontuação segura da Microsoft, você pode ver como os pontos são divididos entre esses grupos e que pontos estão disponíveis. A página de visão geral também é o local para obter uma visão completa da pontuação total, tendência histórica de sua pontuação segura com comparações de benchmark e ações de melhoria priorizadas que podem ser tomadas para melhorar sua pontuação.
 
-![Home Page](../../media/secure-score/secure-score-homepage.png)
-de Pontuação segura*Figura 1: página de visão geral de Pontuação segura da Microsoft*
+![Home Page de Pontuação segura ](../../media/secure-score/secure-score-homepage.png)
+ *Figura 1: página de visão geral de Pontuação segura da Microsoft*
 
 ## <a name="take-action-to-improve-your-score"></a>Executar uma ação para melhorar sua pontuação
 
@@ -118,8 +121,8 @@ A classificação baseia-se no número de outros pontos restantes para atingir, 
 
 Quando você seleciona uma ação de aprimoramento específica, um submenu de página inteira aparece.  
 
-![Exemplo](../../media/secure-score/secure-score-improvement-action-details.png)
-de submenu de ação de melhoria*Figura 2: exemplo de submenu de ação de melhoria*
+![Exemplo de submenu de ação de melhoria ](../../media/secure-score/secure-score-improvement-action-details.png)
+ *Figura 2: exemplo de submenu de ação de melhoria*
 
 Para concluir a ação, você tem algumas opções:
 
@@ -175,6 +178,12 @@ A pontuação segura da Microsoft é um resumo numérico de sua postura de segur
 ## <a name="whats-new"></a>Quais são as novidades? 
 
 Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, confira [o que está acontecendo na pontuação segura da Microsoft?](microsoft-secure-score-whats-coming.md).
+
+### <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>Incompatibilidade com Pontuação segura de identidade e API de gráfico
+
+Na versão recente da Pontuação segura da Microsoft, um modelo de Pontuação aprimorado foi lançado. Essas alterações permitem uma visão mais flexível e precisa de sua postura de segurança. No entanto, essas atualizações tornaram a pontuação segura da Microsoft temporariamente incompatível com a pontuação segura de identidade e a API do Graph.
+
+No momento, a pontuação segura de identidade e a API do Graph adotarão o novo modelo de pontuação. Até lá, os clientes verão as diferenças nas pontuações relatadas pela pontuação segura da Microsoft, Pontuação segura de identidade e API do Graph. Lamentamos as inconveniências possíveis, e estamos trabalhando para garantir que essas experiências sejam mais compatíveis no futuro.
 
 ### <a name="april-2020"></a>Abril de 2020
 

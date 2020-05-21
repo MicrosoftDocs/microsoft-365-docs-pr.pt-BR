@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Saiba como alterar o tema padrão do Microsoft 365 e personalizá-lo para corresponder ao logotipo ou à cor da empresa. '
-ms.openlocfilehash: 3674c26be50d622364a4dc077a85eaa974d71fcd
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: dba7003f6624a2635976ac689d608a83e62de5c0
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262324"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327201"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Personalizar o tema do Microsoft 365 para sua organização
 
@@ -64,7 +64,7 @@ Saiba como personalizar seu tema no centro de administração do Microsoft 365. 
     
 4. Selecione **Salvar alterações**.
     
-Você verá seu novo tema no centro de administração imediatamente e após um pequeno atraso, você o verá no Microsoft 365, incluindo páginas no Outlook, SharePoint, [aplicativo móvel do SharePoint para IOS](https://support.office.com/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)e [aplicativo móvel do SharePoint para Android](https://support.office.com/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284). Para obter um exemplo de onde você pode personalizar as alterações de tema no centro de administração, consulte a imagem a seguir.
+Você verá seu novo tema no centro de administração imediatamente e, após um pequeno atraso, verá-o no Microsoft 365, incluindo páginas no Outlook, SharePoint, [aplicativo móvel do SharePoint para IOS](https://support.office.com/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)e [aplicativo móvel do SharePoint para Android](https://support.office.com/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284). Para obter um exemplo de onde você pode personalizar as alterações de tema no centro de administração, consulte a imagem a seguir.
 
 ![M365-admin-locatário-Theme-conceptual](../../media/m365-admin-tenant-theme-conceptual.png)
 

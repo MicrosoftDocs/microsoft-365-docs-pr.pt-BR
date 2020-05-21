@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: bfaead99bf439173cb353bc745488a5d0aee70c4
-ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
+ms.openlocfilehash: 6ca0edb1338c21f710ae493c8697b0c2740860ba
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44210520"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327595"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -124,7 +124,7 @@ Você tem a opção de incluir tipos de informações confidenciais como parte d
 - Privacidade
 - Tipo de informação personalizada
 
-Para saber mais sobre detalhes de informações confidenciais e os padrões incluídos nos tipos padrão, confira [quais tipos de informações confidenciais](what-the-sensitive-information-types-look-for.md)há.
+Para saber mais sobre detalhes de informações confidenciais e os padrões incluídos nos tipos padrão, confira [definições de entidade de tipo de informação confidencial](sensitive-information-type-entity-definitions.md).
 
 ### <a name="custom-keyword-dictionaries"></a>Dicionários de palavras-chave personalizados
 
