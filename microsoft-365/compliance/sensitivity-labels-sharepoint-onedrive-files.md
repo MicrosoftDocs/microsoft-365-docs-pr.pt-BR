@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: bb35d4ed287e87ba17780c0e7106b837beb9666a
-ms.sourcegitcommit: 758263ad484e00f5a561a47c8c22d5787af7671e
+ms.openlocfilehash: 62bc2b748cf004722f94a7231046930d78437603
+ms.sourcegitcommit: b18949de721c6eef3521d5f8286d9b926ad4aabe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44170910"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44342507"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
@@ -58,7 +58,7 @@ Assista ao vídeo a seguir (sem áudio) para ver os novos recursos em ação:
 
 Você sempre tem a opção de desabilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive ([recusar](#how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out) a qualquer momento.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Esses novos recursos funcionam somente com [Rótulos de confidencialidade](sensitivity-labels.md) . Se, no momento, você tiver rótulos de proteção de informações do Azure, primeiro migre-os para os rótulos de confidencialização para que você possa habilitar esses recursos para novos arquivos que você carregar. Para obter instruções, consulte [como migrar rótulos de proteção de informações do Azure para rótulos de sensibilidade unificada](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 
@@ -106,7 +106,7 @@ Essa opção é a maneira mais fácil de habilitar rótulos de confidencialidade
 
 O administrador global da sua organização tem permissões completas para criar e gerenciar todos os aspectos de rótulos de sensibilidade. Se você não estiver entrando como um administrador global do, confira [permissões necessárias para criar e gerenciar os rótulos de confidencialidade](get-started-with-sensitivity-labels.md#permissions-required-to-create-and-manage-sensitivity-labels).
 
-1. Entre no centro de [conformidade da Microsoft 365](https://compliance.microsoft.com/)e navegue até **soluções** > de**proteção de informações**
+1. Entre no centro de [conformidade da Microsoft 365](https://compliance.microsoft.com/)e navegue até **soluções**de  >  **proteção de informações**
     
     Se você não vir essa opção imediatamente, selecione primeiro **Mostrar tudo**. 
 
@@ -117,13 +117,13 @@ O administrador global da sua organização tem permissões completas para criar
     O comando é executado imediatamente e quando a página é atualizada da próxima vez, não é mais possível ver a mensagem ou o botão. 
 
 > [!NOTE]
-> Se você tiver o Office 365 multigeográfico, deverá usar o PowerShell para habilitar esses recursos para todos os locais geográficos. Veja mais detalhes na próxima seção.
+> Se você tiver o Microsoft 365 multigeográfico, deverá usar o PowerShell para habilitar esses recursos para todos os locais geográficos. Veja mais detalhes na próxima seção.
 
 ### <a name="use-powershell-to-enable-support-for-sensitivity-labels"></a>Usar o PowerShell para habilitar o suporte a rótulos de confidencialidade
 
 Como alternativa ao uso do centro de conformidade, é possível habilitar o suporte para rótulos de confidencialidade usando o cmdlet [set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps) do SharePoint Online PowerShell. 
 
-Se você tiver o Office 365 multigeográfico, deverá usar o PowerShell para habilitar esse suporte para todos os locais geográficos.
+Se você tiver o Microsoft 365 multigeográfico, deverá usar o PowerShell para habilitar esse suporte para todos os locais geográficos.
 
 #### <a name="prepare-the-sharepoint-online-management-shell"></a>Preparar o Shell de gerenciamento do SharePoint Online
 
@@ -149,16 +149,16 @@ Antes de executar o comando do PowerShell para habilitar os rótulos de confiden
 
 Para habilitar os novos recursos, use o cmdlet [set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps) com o parâmetro *EnableAIPIntegration* :
 
-1. Usando uma conta corporativa ou de estudante que tenha privilégios de administrador global ou de administrador do SharePoint no Office 365, conecte-se ao SharePoint. Veja como em [Introdução ao Shell de Gerenciamento do SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+1. Usando uma conta corporativa ou de estudante que tenha privilégios de administrador global ou de administrador do SharePoint no Microsoft 365, conecte-se ao SharePoint. Veja como em [Introdução ao Shell de Gerenciamento do SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
-    Observação: se você tiver o Office 365 multigeográfico, use o parâmetro-URL com [Connect-SPOService](https://docs.microsoft.com/powershell/module/sharepoint-online/connect-sposervice?view=sharepoint-ps)e ESPECIFIQUE a URL do site do centro de administração do SharePoint Online para um de seus locais geográficos.
+    Observação: se você tiver o Microsoft 365 multigeográfico, use o parâmetro-URL com [Connect-SPOService](https://docs.microsoft.com/powershell/module/sharepoint-online/connect-sposervice?view=sharepoint-ps)e ESPECIFIQUE a URL do site do centro de administração do SharePoint Online para um de seus locais geográficos.
 
 2. Execute o seguinte comando e pressione **Y** para confirmar:
 
     ```PowerShell
     Set-SPOTenant -EnableAIPIntegration $true  
     ```
-3. Para o Office 365 multigeo: Repita as etapas 1 e 2 para cada um dos locais geográficos restantes.
+3. Para o Microsoft 365 multigeo: Repita as etapas 1 e 2 para cada um dos locais geográficos restantes.
 
 ## <a name="schedule-roll-out-after-you-create-or-change-a-sensitivity-label"></a>Agendar a distribuição após criar ou alterar um rótulo de confidencialidade
 
@@ -182,7 +182,7 @@ Para desabilitar esses novos recursos, você deve usar o PowerShell. Usando o Sh
 Set-SPOTenant -EnableAIPIntegration $false
 ```
 
-Se você tiver o Office 365 multigeográfico, deverá executar este comando para cada um dos seus locais geográficos.
+Se você tiver o Microsoft 365 multigeográfico, deverá executar este comando para cada um dos seus locais geográficos.
 
 ## <a name="next-steps"></a>Próximas etapas
 

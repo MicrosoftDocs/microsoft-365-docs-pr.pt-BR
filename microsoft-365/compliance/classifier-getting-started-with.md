@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador do Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras positivas e negativas. Depois que o classificador for treinado, você confirmará que os resultados são precisos. Em seguida, use-o para pesquisar o conteúdo da sua organização e classificá-lo para aplicar os rótulos de retenção ou confidencialidade ou incluí-lo em políticas de retenção ou prevenção de perda de dados (DLP).
-ms.openlocfilehash: 99d1d9039ef70347515f80da73a487f40534d2e7
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: ba24bbe76bce5e3a41345c80616a57d3fb67a5fc
+ms.sourcegitcommit: 2fbcecaa60e9f551738b9235bd380af807a6681a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327753"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44339909"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>Introdução aos classificadores de treinamento (visualização)
 
@@ -33,10 +33,10 @@ Esse método requer ações e julgamento humana. Um administrador pode usar os r
 
 Esta categoria de mecanismos de classificação inclui localizar conteúdo por:
 
-- Palavras-chave ou valores de metadados (idioma de consulta de palavra-chave)
-- usando padrões identificados anteriormente de informações confidenciais, como segurança social, cartão de crédito ou números de contas bancárias [(definições de entidade de tipo de informação confidencial)](sensitive-information-type-entity-definitions.md)
-- Reconhecendo um item porque ele é uma variação em um modelo [(impressão digital de documentos)](document-fingerprinting.md)
-- usando a presença de cadeias de caracteres exatas [(correspondência exata de dados)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md). "
+- Palavras-chave ou valores de metadados (idioma de consulta de palavra-chave).
+- Usando padrões identificados anteriormente de informações confidenciais, como segurança social, cartão de crédito ou números de contas bancárias [(definições de entidade de tipo de informação confidencial)](sensitive-information-type-entity-definitions.md).
+- Reconhecendo um item porque ele é uma variação em um modelo [(impressão digital de documento)](document-fingerprinting.md).
+- Usando a presença de cadeias de caracteres exatas [(correspondência exata de dados)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md).
 
 Os rótulos de confidencialidade e retenção podem ser automaticamente aplicados para tornar o conteúdo disponível para uso em [políticas de retenção](retention-policies.md)e [prevenção contra perda de dados (DLP)](data-loss-prevention-policies.md) .
 
@@ -44,8 +44,10 @@ Os rótulos de confidencialidade e retenção podem ser automaticamente aplicado
 
 Esse método de classificação é especialmente adequado ao conteúdo que não é facilmente identificado pelos métodos de correspondência de padrões manuais ou automatizados. Esse método de classificação é mais sobre o treinamento de um classificador para identificar um item com base no que o item é, não por elementos que estão no item (correspondência de padrão). Um classificador aprende como identificar um tipo de conteúdo observando centenas de exemplos do conteúdo que você está interessado em classificar. Comece por alimentar exemplos de ti que são definitivamente na categoria. Depois de processar esses, você o testará dando um mix de exemplos de correspondência e de não correspondência. Em seguida, o classificador faz previsões como se um determinado item está na categoria que você está criando. Em seguida, você confirma seus resultados, classificando os positivos, negativos, falsos positivos e falsos negativos para ajudar a aumentar a precisão de suas previsões. Quando você publica o classificador treinado, ele classifica itens em locais como o SharePoint Online, o Exchange e o OneDrive e classifica o conteúdo.
 
-> [!IMPORTANT]
-> Tanto classificadores internos quanto classificadores estagiários estão disponíveis como uma condição para [aplicar automaticamente a política de rótulo de retenção com base em uma condição](labels.md#applying-a-retention-label-automatically-based-on-conditions) e [conformidade de comunicação](communication-compliance.md). Os rótulos de sensibilidade só podem usar classificadores internos como uma condição, consulte [aplicar um rótulo de confidencialidade ao conteúdo automaticamente](apply-sensitivity-label-automatically.md).
+### <a name="where-you-can-use-trainable-classifiers"></a>Onde você pode usar os classificadores estagiários
+Tanto classificadores internos quanto classificadores estagiários estão disponíveis como uma condição para [aplicar automaticamente a política de rótulo de retenção com base em uma condição](labels.md#applying-a-retention-label-automatically-based-on-conditions) e [conformidade de comunicação](communication-compliance-configure.md). 
+
+Os rótulos de confidencialidade podem usar classificadores internos e criados por conta própria como condições, consulte [aplicar um rótulo de confidencialidade ao conteúdo automaticamente](apply-sensitivity-label-automatically.md)e [rotulação automática para aplicativos do Office](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps).
 
 > [!IMPORTANT]
 > Os classificadores que podem ser treinados só funcionam com itens não criptografados e estão em inglês.
@@ -53,6 +55,18 @@ Esse método de classificação é especialmente adequado ao conteúdo que não 
 ### <a name="licensing-requirements"></a>Requisitos de licença
 
 Os classificadores estagiários são um recurso de conformidade do Microsoft 365 E5 ou e5. Você deve ter uma dessas assinaturas para usá-las.
+
+### <a name="pre-requisites"></a>Pré-requisitos
+
+Para acessar classificadores estagiários na interface do usuário: 
+- o administrador global precisa aceitar o locatário
+- A função de administrador de conformidade ou o administrador de dados de conformidade é necessário para treinar um classificador
+
+Você precisará de contas com essas permissões para usar classificadores que devem ser treinados nestes cenários:
+
+- Cenário de política de rótulo de retenção: RecordManagement e funções de gerenciamento de retenção 
+- Cenário de política de rótulo de confidencialidade: administrador de segurança, administrador de conformidade, administrador de dados de conformidade
+- Cenário de política de conformidade de comunicação: administração de gerenciamento de risco do Insider, administrador de análise de supervisão 
 
 ## <a name="types-of-classifiers"></a>Tipos de classificadores
 
@@ -113,6 +127,7 @@ Criar e publicar um classificador treinado para uso em soluções de conformidad
 ![classificador de fluxo de processo de estagiário](../media/classifier-trainable-classifier-flow.png)
 
 ## <a name="see-also"></a>Confira também
+
 
 - [Rótulos de retenção](labels.md)
 - [Políticas de retenção](retention-policies.md)
