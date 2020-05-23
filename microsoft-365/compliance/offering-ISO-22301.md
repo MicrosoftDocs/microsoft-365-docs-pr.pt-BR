@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 695471d51e391957a5dfea8770cb1928dd39ee86
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 64a43fc281e5074314ca2b272306a0733297d34e
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065906"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254430"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>Padrão de Gerenciamento de Continuidade dos Negócios ISO 22301:2012
 
 ## <a name="iso-22301-overview"></a>Visão geral da ISO 22301
 
-A ISO (International Organization for Standardization) é uma organização não governamental independente e a maior desenvolvedora de padrões internacionais voluntários do mundo. A ISO formou o comitê técnico de segurança social TC 223 para desenvolver padrões para a proteção da sociedade, incluindo organizações, no caso de catástrofes, como um desastre natural, um grande ataque terrorista ou o desligamento das redes de energia.
+A ISO (International Organization for Standardization) é uma organização não governamental independente e a maior desenvolvedora de padrões internacionais voluntários do mundo. A ISO formou o Comitê técnico da Segurança social TC 223 para desenvolver padrões para proteger a sociedade, incluindo organizações, se ocorrerem catástrofes como desastres naturais, grandes ataques terroristas ou o desligamento das redes elétricas.
 
 Publicada em 2012 pelo comitê técnico, a ISO 22301:2012 é o primeiro padrão internacional para sistemas de gerenciamento que ajudam a garantir a continuidade dos negócios. A ISO 22301 é o padrão Premium para continuidade dos negócios, e a certificação demonstra a conformidade com as práticas rigorosas para evitar, minimizar, responder e recuperar de um incidente com interrupções.
 
@@ -35,21 +35,24 @@ A Microsoft é o primeiro provedor de serviços de nuvem de grande escala a rece
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
-- [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
-- Segurança no Aplicativo na Nuvem
-- Genômico
-- Graph
+- [Azure, Azure Governamental e Azure Alemanha](https://aka.ms/AzureCompliance)
+- Segurança no aplicativo na nuvem da Microsoft
+- Dynamics 365, Dynamics 365 Government e Dynamics 365 Germany
+- Proteção avançada contra ameaças do Microsoft Defender
+- Microsoft Graph
+- Bot do Microsoft Healthcare
 - Intune
 - Área de Trabalho Gerenciada da Microsoft
-- Serviço de nuvem do Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
+- Serviço de nuvem do Power Automate (anteriormente Microsoft Flow) como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou Dynamics 365
 - [Office 365 comercial, governamental e educacional](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
-- Serviço em nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
+- Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
+- Power BI incorporado
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
-- [Azure e Certificado de registro da ISO 22301 do Azure](https://go.microsoft.com/fwlink/p/?linkid=2099078)
-- [Relatório de avaliação da ISO 22301 do Azure](https://go.microsoft.com/fwlink/p/?linkid=2099079)
+- [Azure, Dynamics 365 e Online Services: certificação ISO22301](https://aka.ms/azureiso22301cert)
+- [Azure, Dynamics 365 e Online Services: relatório de avaliação ISO22301](https://aka.ms/azureiso22301report)
 - [Certificado BSI 22301 do Microsoft Office 365](https://go.microsoft.com/fwlink/p/?linkid=2092109)
 - [Adendo estágio 2 da BSI 22301 do Microsoft Office 365](https://go.microsoft.com/fwlink/p/?linkid=2092209)
 - [Relatório estágio 2 da ISO 22301 do Office 365](https://go.microsoft.com/fwlink/p/?linkid=2092211)

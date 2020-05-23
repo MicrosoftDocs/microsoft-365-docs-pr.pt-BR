@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: ab05b9226c244b1e6cdf1e552d32d4d9fc0d95d2
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: c696c7b8b19b5c19ff3fcaf30029001604f791bf
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208672"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327129"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -40,7 +40,7 @@ Quando estiver pronto para começar a proteger os dados da sua organização usa
     
     Para obter orientações mais abrangentes sobre a definição de uma taxonomia de classificação, faça o download do artigo técnico "Classificação de Dados e Taxonomia de Rótulos de Confidencialidade", no [Portal de Confiança do Serviço](https://aka.ms/DataClassificationWhitepaper).
 
-2. **Defina o que cada rótulo pode fazer.** Defina as configurações de proteção desejadas associadas a cada rótulo. Por exemplo, você pode desejar que o conteúdo menos confidencial (como um rótulo "Geral") tenha apenas um cabeçalho ou rodapé aplicado, e que o conteúdo mais confidencial (como um rótulo "Confidencial") tenha uma marca d'água, criptografia e proteção de ponto de extremidade aplicadas.
+2. **Defina o que cada rótulo pode fazer.** Defina as configurações de proteção desejadas associadas a cada rótulo. Por exemplo, convém que o conteúdo de menor sensibilidade (como um rótulo "Geral") aplique apenas um cabeçalho ou rodapé, enquanto o conteúdo de maior sensibilidade (como um rótulo "Confidencial") deve ter marca d'água e criptografia.
 
 3. **Publique os rótulos.** Quando os rótulos de confidencialidade estiverem configurados, publique-os usando uma política de rótulo. Decida quais usuários e grupos devem ter os rótulos e quais configurações de política utilizar. Um único rótulo pode ser reutilizado; você o define uma vez e, em seguida, você pode incluí-lo em várias políticas de rótulo atribuídas a diferentes usuários. Por exemplo, você pode fazer o piloto dos rótulos de confidencialidade atribuindo uma política de rótulo a apenas alguns usuários. Em seguida, quando você estiver pronto para implantar os rótulos em toda a organização, poderá criar uma nova política de rótulos para seus rótulos e, desta vez, especificar todos os usuários.
 
@@ -82,15 +82,15 @@ Use a seguinte documentação para oferecer suporte à implantação de rótulo 
 |Descobrir, rotular e proteger arquivos armazenados no repositório de dados locais |[Implantação do scanner da Proteção de Informações do Azure para classificar e proteger arquivos automaticamente](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
 |Descobrir, rotular e proteger arquivos armazenados no repositório da nuvem|[Descobrir, classificar, rotular e proteger dados regulamentados e confidenciais armazenados na nuvem](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |Aplicar e exibir rótulos de sensibilidade no Power BI e proteger relatórios baixados|[Proteção de dados no Power BI (visualização)](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|
-|Veja como e onde meus rótulos de confidencialidade estão sendo usados e faça um detalhamento para examinar o conteúdo rotulado|[Conheça seus dados - visão geral da classificação de dados (visualização)](data-classification-overview.md)|
+|Monitorar e entender como os rótulos de sensibilidade estão sendo usados na minha organização|[Conhecer seus dados - visão geral da classificação de dados](data-classification-overview.md) <br /><br /> [Exibição do uso do rótulo com análises de rótulo](label-analytics.md)|
 
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>Documentação do usuário final para rótulos de confidencialidade
 
 A documentação mais eficaz do usuário final será orientação e instruções personalizadas que você fornecerá para os nomes de etiqueta e configurações que você escolher. No entanto, você pode usar os seguintes recursos para obter instruções básicas:   
 
-- [Aplicar rótulos de confidencialidade aos seus arquivos e email no Office](https://support.office.com/article/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
-    - [Problemas conhecidos em rótulos de confidencialidade no Office](https://support.office.com/pt-BR/article/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
+- [Aplicar rótulos de confidencialidade aos seus arquivos e email no Office](https://support.microsoft.com/pt-BR/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+    - [Problemas conhecidos em rótulos de confidencialidade no Office](https://support.microsoft.com/pt-BR/office/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
 
 - [Aplicar ou recomendar rótulos de confidencialidade automaticamente aos seus arquivos e emails no Office](https://support.office.com/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)
     - [Problemas conhecidos com a aplicação ou recomendação de rótulos de confidencialidade automática](https://support.office.com/article/known-issues-with-automatically-applying-or-recommending-sensitivity-labels-451698ae-311b-4d28-83aa-a839a66f6efc)

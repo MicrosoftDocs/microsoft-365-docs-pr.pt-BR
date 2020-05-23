@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 334e93a009e69b8c5ec6ec74edb486d0e2fd3dbb
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 6709f9edca2e1436bf1ea9be1a48dda596c2d0a4
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065946"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254450"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>Padrão de Segurança de Dados (DSS) da Indústria de Cartões de Pagamento (PCI)
 
@@ -40,9 +40,9 @@ Os clientes que desejam desenvolver um ambiente do titular do cartão ou um serv
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
 
 - [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
-- Segurança no aplicativo na nuvem
+- Segurança no aplicativo na nuvem da Microsoft
 - Serviço de nuvem do Flow como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365.
-- Graph
+- Microsoft Graph
 - Intune
 - [Proteção Avançada contra Ameaças do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou Dynamics 365

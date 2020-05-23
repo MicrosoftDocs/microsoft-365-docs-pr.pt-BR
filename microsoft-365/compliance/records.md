@@ -1,5 +1,5 @@
 ---
-title: Visão geral de registros
+title: Saiba mais sobre os registros
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -16,15 +16,15 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Para implementar uma estratégia de gerenciamento de registros na organização do Office 365 ou da Microsoft, use rótulos de retenção que declarem conteúdo como um registro. Em seguida, publique ou aplique automaticamente o rótulo de registro de retenção.
-ms.openlocfilehash: cfd9bbc30313a53c197476ab6b7345fdff1c0c35
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+description: Saiba mais sobre os registros para implementar uma estratégia de gerenciamento de registros na sua organização do Office 365 ou do Microsoft, use rótulos de retenção que declarem o conteúdo como um registro. Em seguida, publique ou aplique automaticamente o rótulo de registro de retenção.
+ms.openlocfilehash: 8dcb3b03dcd908da2a3133d52c1a70ae197eee99
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43949278"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231904"
 ---
-# <a name="overview-of-records"></a>Visão geral de registros
+# <a name="learn-about-records"></a>Saiba mais sobre os registros
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
@@ -38,7 +38,9 @@ Em um nível alto, declarar o conteúdo como um registro significa que:
 
 - Os registros são descartados após o término do período de retenção indicado
 
-Você pode usar [rótulos de retenção](labels.md) para classificar o conteúdo como um registro. Depois de criar rótulos de retenção que declaram registros, você pode [publicar](labels.md#how-retention-labels-work-with-retention-label-policies) esses rótulos (para que os usuários possam usá-los para classificar conteúdos como registros) ou [aplicar automaticamente esses rótulos](labels.md#applying-a-retention-label-automatically-based-on-conditions) ao conteúdo que você deseja classificar como um registro. Ao usar rótulos de retenção para declarar registros, você pode implementar uma estratégia gerenciamento de registros única e consistente no Office 365, enquanto outros recursos de gerenciamento de registros, como a Central de Registros, se aplicam apenas ao conteúdo do SharePoint Online.
+Você usa [rótulos de retenção](labels.md) para classificar o conteúdo como um registro. Depois de criar rótulos de retenção que declaram registros, você pode publicá-los para que os usuários possam aplicá-los ao conteúdo ou aplicar automaticamente esses rótulos ao conteúdo que quer classificar como registro. Para obter instruções, consulte [Criar, publicar e aplicar rótulos de retenção automaticamente ](create-retention-labels.md).
+
+Ao usar rótulos de retenção para declarar registros, você pode implementar uma estratégia única e consistente de gerenciamento de registros no ambiente do Microsoft 365.
 
 Lembre-se do seguinte sobre os registros:
 
@@ -60,27 +62,28 @@ Lembre-se do seguinte sobre os registros:
 
     Para saber mais sobre como aplicar rótulos de retenção às pastas do Sharepoint e do OneDrive, confira [Aplicando um rótulo de retenção padrão a todo o conteúdo de uma biblioteca, pasta ou de um conjunto de documentos do SharePoint](labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set).
 
-  - **Não é possível excluir registros**. Se um usuário tentar excluir um registro no Exchange, o item será movido para a pasta Itens Recuperáveis, conforme descrito em [Como uma política de retenção funciona com o conteúdo in-loco](retention-policies.md#content-in-mailboxes-and-public-folders).
+  - **Não é possível excluir registros**. Se um usuário tentar excluir um registro no Exchange, o item será movido para a pasta Itens recuperáveis, conforme descrito em [Como uma política de retenção funciona com os locais do Exchange](retention-policies-exchange.md#how-a-retention-policy-works-with-exchange-locations).
 
     Se um usuário tentar excluir um registro no SharePoint, verá um erro informando que o item não foi excluído e permanecerá na biblioteca.
 
     ![Mensagem informando que o item não foi excluído do SharePoint](../media/d0020726-1593-4a96-b07c-89b275e75c49.png)
 
-    Se um usuário tentar excluir um registro no OneDrive, o item é movido para a biblioteca de Retenção para Preservação, conforme descrito em [Como funciona a política de retenção com conteúdo in-loco](retention-policies.md#content-in-onedrive-accounts-and-sharepoint-sites).
+    Se um usuário tentar excluir um registro no OneDrive, o item será movido para a biblioteca Retenção para preservação, conforme descrito em [Como uma política de retenção funciona com o SharePoint e o OneDrive](retention-policies-sharepoint.md#how-a-retention-policy-works-with-sharepoint-and-onedrive).
 
   - **Os rótulos de registros não podem ser removidos.** Depois que um rótulo de registro é aplicado a um item, somente o administrador desse local (por exemplo, um administrador de conjunto de sites de um site do SharePoint) poderá remover esse rótulo de registro.
 
 ## <a name="using-retention-labels-to-declare-records"></a>Usando rótulos de retenção para declarar registros
 
-Quando você cria um rótulo de retenção, tem a opção de usar o rótulo de retenção para classificar o conteúdo como um registro. Para declarar o conteúdo como um registro, siga estas etapas:
+Ao criar um rótulo de retenção, você tem a opção de usar o rótulo de retenção para classificar o conteúdo como um registro:
 
-1. Criar uma política de retenção. No centro de conformidade do Microsoft 365, vá para **Gerenciamento de Registros** \> **Plano de Arquivo**. Na página **Planejamento de arquivos**, clique em **Criar um rótulo**.
+1. No centro de conformidade do Microsoft 365, vá para **Gerenciamento de Registros** \> **Plano de Arquivo**. Na página **Planejamento de arquivos**, clique em **Criar um rótulo**.
 
 2. Na página **Configurações de rótulo** no Assistente, escolha a opção para definir o rótulo de retenção para declarar o conteúdo como um registro.
     
    ![Clique em Usar rótulo para classificar o conteúdo como uma caixa de seleção de Registro](../media/recordversioning6.png)
 
 3. [Publicar](labels.md#how-retention-labels-work-with-retention-label-policies) ou [aplicar automaticamente](labels.md#applying-a-retention-label-automatically-based-on-conditions) o rótulo de retenção aos sites do SharePoint e/ou contas do OneDrive.
+
 
 ### <a name="applying-a-retention-label-to-content"></a>Aplicando um rótulo de retenção ao conteúdo
 

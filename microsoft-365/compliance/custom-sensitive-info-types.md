@@ -17,18 +17,18 @@ search.appverid:
 - MET150
 description: Obtenha uma visão geral dos tipos de informações confidenciais personalizados para a prevenção contra perda de dados (DLP), como o padrão principal, a proximidade de caractere e o nível de confiança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 621c7be728f772e113ef5cd65d5b79a2526ec7c5
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 6bd0d0d751a7ed03b645ae3d3fce83e3b7b04073
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035743"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327763"
 ---
 # <a name="custom-sensitive-information-types"></a>Tipos de informações confidenciais personalizadas
 
 ## <a name="overview"></a>Visão geral
 
-O Microsoft 365 inclui muitos tipos de informações confidenciais integrados que estão prontos para usar em sua organização, como para a [DLP (prevenção de perda de dados)](data-loss-prevention-policies.md) ou com o [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security). Os tipos de informações confidenciais integrados podem ajudar a identificar e proteger números de cartão de crédito, números de contas bancárias, números de passaporte e muito mais, com base em padrões definidos por uma expressão regular (regex) ou por uma função. Para saber mais, consulte [O que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md).
+O Microsoft 365 inclui muitos tipos de informações confidenciais integrados que estão prontos para usar em sua organização, como para a [DLP (prevenção de perda de dados)](data-loss-prevention-policies.md) ou com o [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security). Os tipos de informações confidenciais integrados podem ajudar a identificar e proteger números de cartão de crédito, números de contas bancárias, números de passaporte e muito mais, com base em padrões definidos por uma expressão regular (regex) ou por uma função. Para saber mais, consulte [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md).
 
 Mas e se você precisar identificar e proteger um tipo diferente de informações confidenciais, como IDs de funcionários ou números de projetos, usando um formato específico para sua organização? Para fazer isso, você pode criar um tipo de informação confidencial personalizado.
 

@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c4b5d58a006591da23d37aaeccf72cfccc6d1c43
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 3e8f83b943e83c37ecf13af1221c043d413bd6b5
+ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033969"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "44347826"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Faça buscas proativas por ameaças com a busca avançada da Proteção contra Ameaças da Microsoft
 
@@ -51,11 +51,19 @@ Recomendamos que você execute várias etapas para começar a trabalhar rapidame
 | **Otimizar consultas** | Saiba como criar consultas eficientes e que combinem dados de emails e dispositivos. | - [Práticas recomendadas de consulta](advanced-hunting-shared-queries.md) <br>- [Procurar por dispositivos e emails](advanced-hunting-best-practices.md) |
 | **Criar regras de detecção personalizadas** | Saiba como você pode usar consultas de busca avançada para disparar alertas e aplicar ações de resposta automaticamente. | - [Visão geral das detecções personalizadas](custom-detections-overview.md)<br>- [Regras de detecção personalizadas](custom-detection-rules.md) |
 
+## <a name="get-access"></a>Obter acesso
+Para usar a busca avançada ou outros recursos de [proteção contra ameaças da Microsoft](microsoft-threat-protection.md) , você precisa receber uma função apropriada no Azure AD. Observe que seu acesso aos dados do ponto de extremidade é influenciado pelas configurações de controle de acesso baseado em função no Microsoft defender ATP. [Ler sobre como gerenciar o acesso à proteção contra ameaças da Microsoft](mtp-permissions.md)
+
+## <a name="get-help-as-you-write-queries"></a>Obter ajuda durante a criação de consultas
+Aproveite as funcionalidades a seguir para escrever rapidamente as consultas:
+- **Sugestão** automática — à medida que você escreve consultas, a busca avançada fornece sugestões do IntelliSense. 
+- **Referência de esquema** — inclui a lista de tabelas e suas colunas ao lado da área de trabalho. Para saber mais, passe o mouse sobre um item. Clique duas vezes em um item para inseri-lo no editor de consultas.
+
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Trabalhar com os resultados da consulta](advanced-hunting-query-results.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
 - [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
-- [Entender o esquema](advanced-hunting-schema-tables.md)
+- [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)
 - [Visão geral de detecções personalizadas](custom-detections-overview.md)

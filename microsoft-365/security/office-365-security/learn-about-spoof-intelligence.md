@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre a inteligência de falsificação na proteção do Exchange Online (EOP), onde você pode permitir ou bloquear remetentes falsificados específicos.
-ms.openlocfilehash: 9cbbc263b05e68cc60de31eea35df7086ea15748
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: fb5193566ee359dfe2e5652707c1846280a45c33
+ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213335"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "44347838"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>Configurar o spoof Intelligence no EOP
 
@@ -56,7 +56,7 @@ Você pode gerenciar a inteligência de falsificação no centro de conformidade
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>. Para ir diretamente para a página **anti-phishing** , use <https://protection.office.com/antiphishing> .
 
-- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell do EOP autônomo, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - Você precisa receber permissões para executar esses procedimentos. Para modificar a política de inteligência de spoof ou habilitar ou desabilitar a inteligência de falsificação, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de **administrador de segurança** . Para acesso somente leitura à política de inteligência de falsificação, você precisa ser membro do grupo de função **leitor de segurança** . Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
@@ -137,7 +137,7 @@ Get-PhishFilterPolicy [-AllowedToSpoof <Yes | No | Partial>] [-ConfidenceLevel <
 Este exemplo retorna informações detalhadas sobre todos os remetentes que têm permissão para falsificar usuários em seus domínios.
 
 ```powershell
-Get-PhishFilter -AllowedToSpoof Yes -Detailed -SpoofType Internal
+Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
 ```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-phishfilterpolicy).
@@ -183,10 +183,10 @@ Para verificar se você configurou a inteligência de spoof com remetentes que s
 - No PowerShell, execute os seguintes comandos para exibir os remetentes que são permitidos e não podem ser falsificados:
 
   ```powershell
-  Get-PhishFilter -AllowedToSpoof Yes -SpoofType Internal
-  Get-PhishFilter -AllowedToSpoof No -SpoofType Internal
-  Get-PhishFilter -AllowedToSpoof Yes -SpoofType External
-  Get-PhishFilter -AllowedToSpoof No -SpoofType External
+  Get-PhishFilterPolicy -AllowedToSpoof Yes -SpoofType Internal
+  Get-PhishFilterPolicy -AllowedToSpoof No -SpoofType Internal
+  Get-PhishFilterPolicy -AllowedToSpoof Yes -SpoofType External
+  Get-PhishFilterPolicy -AllowedToSpoof No -SpoofType External
   ```
 
 - No PowerShell, execute o seguinte comando para exportar a lista de todos os remetentes falsificados para um arquivo CSV:

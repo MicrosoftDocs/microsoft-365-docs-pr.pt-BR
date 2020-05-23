@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1f44c46046fc107e8059cebda3388fcd775bd31e
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 329bb7c4662d6449d69c6dca9ad489bdd70a0d3f
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065686"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254224"
 ---
 # <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>Código de Conduta ISO/IEC 27017:2015 para Controles de Segurança de Informações
 
@@ -31,7 +31,7 @@ Esse padrão internacional fornece orientações adicionais de implementação e
 
 - Funções e responsabilidades compartilhadas em um ambiente de computação em nuvem
 - Remoção e devolução de ativos de clientes no serviço de nuvem ao término do contrato
-- Proteção e separação do ambiente virtual de um cliente dos de outros clientes
+- Proteção e separação do ambiente virtual de um cliente dos ambientes de outros clientes
 - Requisitos para fortalecimento das máquinas virtuais para atender a necessidades comerciais
 - Procedimentos para operações administrativas de um ambiente de computação em nuvem
 - Capacitação dos clientes para monitorar atividades relevantes em um ambiente de computação em nuvem
@@ -44,26 +44,28 @@ A ISO/IEC 27017 é única no que diz respeito a fornecer orientações para prov
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Azure, Azure Governamental e Azure Alemanha](https://aka.ms/AzureCompliance)
-- Cloud App Security
-- [Dynamics 365](https://aka.ms/d365-compliance-list)
-- Genomics
-- Graph
+- Segurança no aplicativo na nuvem da Microsoft
+- [Dynamics 365, Dynamics 365 e Dynamics 365 Germany](https://aka.ms/d365-compliance-list)
+- Proteção avançada contra ameaças do Microsoft Defender
+- Microsoft Graph
+- Bot do Microsoft Healthcare
 - Intune
 - Área de Trabalho Gerenciada da Microsoft
-- Serviço de nuvem do Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
+- Serviço de nuvem do Power Automate (anteriormente Microsoft Flow) como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou Dynamics 365
 - Office 365, Office 365 U.S. Government e Office 365 U.S. Government Defense e Office 365 Germany
 - Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
+- Power BI incorporado
+- Microsoft Stream
 - Confira uma [lista detalhada](https://go.microsoft.com/fwlink/p/?linkid=2077751) de serviços abrangidos pelo Office 365
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
 Os serviços de nuvem da Microsoft são auditados uma vez ao ano de acordo com o código de conduta da ISO/IEC 27017:2015 como parte do processo de certificação da ISO/IEC 27001:2013.
 
-- [Certificado ISO 27017 do Azure](https://go.microsoft.com/fwlink/p/?linkid=2078005)
-- [Relatório de avaliação da ISO 27017 do Azure](https://go.microsoft.com/fwlink/p/?linkid=2078010)
-- [Declaração de Aplicabilidade da ISO 27017 do Azure](https://aka.ms/azureiso27017StatementofApplicability)
-- [Relatório de Avaliação de Auditoria da ISO 27001, 27018 e 27017 do Office 365](https://aka.ms/o365isoreport)
+- [Certificado ISO 27017 do Azure](https://aka.ms/azureiso27017cert)
+- [Relatório de avaliação da ISO 27017 do Azure](https://aka.ms/azureiso27017report)
+- [Office 365: Relatório da avaliação de auditoria do ISO 27001, 27018, ISO 27017 e 27017](https://aka.ms/o365isoreport)
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

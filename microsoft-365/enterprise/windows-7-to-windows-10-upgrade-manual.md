@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Guia de atualização manual do Windows 7 para Windows 10.
-ms.openlocfilehash: ea1705a91baf6b0526e87bcf04529ab2668aa439
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3840a57e3672bdbe0f9fc3c785e20350646a0102
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086020"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222310"
 ---
 # <a name="windows-7-to-windows-10-manual-upgrade-step-by-step-guide"></a>Guia passo a passo de atualização manual do Windows 7 para Windows 10
 
@@ -110,6 +110,6 @@ A partir daqui, você pode iniciar o processo para voltar para o Windows 7. Depo
 
 ## <a name="moving-to-windows-10-on-a-new-pc"></a>Migrar para o Windows 10 em um novo computador
 
-Outra opção recomendada é mover para o Windows 10 em um novo computador. Se essa for a sua preferência, você pode transferir seus arquivos do computador antigo usando o backup do [OneDrive](https://support.office.com/article/b5e918be-0fd4-4095-98da-bceed57f8e0c?ocid=MoveToWindows10), o [Backup e a Restauração integrados ao Windows](https://support.microsoft.com/help/4469209?ocid=MoveToWindows10), o uso manual de um [dispositivo de armazenamento externo](https://support.microsoft.com/help/4465814/windows-7-move-files-off-pc-with-an-external-storage-device?ocid=MoveToWindows10) ou ferramentas como o [PCmover Express da Laplink](https://www.microsoft.com/windows/transfer-your-data). Com qualquer uma dessas opções, você ainda precisará reinstalar todos os aplicativos necessários que não estão incluídos no Windows 10. Para saber mais sobre as suas opções para mover-se manualmente de um PC existente com Windows 7 para um novo PC com Windows 10, consulte [Movendo para um PC com Windows 10](https://support.microsoft.com/help/4229823?ocid=MoveToWindows10) no Suporte do Windows.
+Outra opção recomendada é mover para o Windows 10 em um novo computador. Se essa for a sua preferência, você pode transferir seus arquivos do seu computador antigo usando o backup do [OneDrive](https://support.office.com/article/b5e918be-0fd4-4095-98da-bceed57f8e0c?ocid=MoveToWindows10), [Backup e Restauração incorporados ao Windows](https://support.microsoft.com/help/4469209?ocid=MoveToWindows10), usando manualmente um [dispositivo de armazenamento externo](https://support.microsoft.com/help/4465814/windows-7-move-files-off-pc-with-an-external-storage-device?ocid=MoveToWindows10)ou ferramentas como o PCmover Express da Laplink. Com qualquer uma dessas opções, você ainda precisará reinstalar todos os aplicativos necessários que não estão incluídos no Windows 10. Para saber mais sobre as suas opções para mover-se manualmente de um PC existente com Windows 7 para um novo PC com Windows 10, consulte [Movendo para um PC com Windows 10](https://support.microsoft.com/help/4229823?ocid=MoveToWindows10) no Suporte do Windows.
 
-## <a name="desktop-deployment-centerhttpsakamshowtoshift"></a>[Centro de Implantação do Computador](https://aka.ms/howtoshift)
+## <a name="desktop-deployment-center"></a>[Centro de Implantação do Computador](https://aka.ms/howtoshift)

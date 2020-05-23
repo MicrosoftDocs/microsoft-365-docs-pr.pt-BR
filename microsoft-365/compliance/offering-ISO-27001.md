@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: dfbb5ed43c5256109ccc0a137a3d144d084e573e
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: c02e27ccf6b4c1a1c03849d1f599acef43385668
+ms.sourcegitcommit: dbc9ff159ed41160d8883c8a9787eba50b45f50b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214237"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278454"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>Padrões de gerenciamento de segurança de informações ISO/IEC 27001:2013
 
@@ -35,28 +35,30 @@ A ISO/IEC 27001 é um padrão de segurança que especifica formalmente um ISMS (
 
 A aceitação internacional e a aplicabilidade da ISO/IEC 27001 são os principais motivos que fazem com que a certificação desse padrão esteja na vanguarda da abordagem da Microsoft para implementar e gerenciar a segurança das informações. A conquista da certificação ISO/IEC 27001 pela Microsoft indica seu compromisso em atender às promessas dos clientes do ponto de vista comercial de conformidade com a segurança. Atualmente, tanto o Azure Público quanto o Azure Alemanha são auditados uma vez por ano para conformidade com a ISO/IEC 27001 por um corpo de certificação credenciado por terceiros, oferecendo validação independente de que os controles de segurança estão em vigor e funcionando de forma eficaz.
 
-Saiba mais sobre os benefícios da ISO-Iec-27001 no Microsoft Cloud: [baixe o ISO/IEC 27001:2013](https://go.microsoft.com/fwlink/p/?linkid=2100068)
+Saiba mais sobre os benefícios da ISO/IEC 27001 no Microsoft Cloud: [Baixe a ISO/IEC 27001:2013](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Azure, Azure Governamental e Azure Alemanha](https://aka.ms/AzureCompliance)
-- Segurança no Aplicativo na Nuvem
-- [Dynamics 365 e Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
-- Genomics
-- Gráfico
-- Health Bot
+- Azure DevOps Services
+- Segurança no aplicativo na nuvem da Microsoft
+- Proteção avançada contra ameaças do Microsoft Defender
+- [Dynamics 365, Dynamics 365 governo e Dynamics 365 Germany](https://aka.ms/d365-compliance-list)
+- Microsoft Graph
+- Bot do Microsoft Healthcare
 - Intune
 - Área de Trabalho Gerenciada da Microsoft
-- Serviço de nuvem do Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
+- Serviço de nuvem do Power Automate (anteriormente Microsoft Flow) como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou Dynamics 365
 - [Office 365, Office 365 U.S. Government e Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - Office 365 Alemanha
 - Mapa do serviço do OMS
 - Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
+- Power BI incorporado
+- Agentes virtuais do Power
 - [Serviços Profissionais da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2100022)
-- Stream
-- Azure DevOps Services
-- Microsoft Defender ATP — Resposta e Detecção do Ponto de Extremidade, Investigação e Correção Automática, Classificação de Segurança
+- Microsoft Stream
+- Especialistas em ameaças da Microsoft
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
@@ -64,17 +66,11 @@ Ciclo de auditoria: os serviços de nuvem da Microsoft são auditados pelo menos
 
 ### <a name="azure"></a>Azure
 
-- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, Área de Trabalho Gerenciada da Microsoft, OMS Service Map, PowerApps, Power BI, Stream e Microsoft Datacenter — Certificados ISO 27001](https://go.microsoft.com/fwlink/p/?linkid=2078342)
+- [Azure, Dynamics 365 e Online Services: certificação ISO27001](https://aka.ms/azureiso27001cert)
 
 ### <a name="office-365"></a>Office 365
 
-- [Office 365 – Global e Alemanha ISO 27001 — Padrões de gerenciamento de segurança de informações — Certificado](https://aka.ms/o365iso27001cert)
-
-### <a name="dynamics-365"></a>Dynamics 365
-
-- [Dynamics 365 — (antigo Dynamics CRM) ISO 27001 — Padrões de gerenciamento de segurança de informações — Certificado](https://aka.ms/D365ISO27001Cert)
-- [Dynamics 365 — MDM (Microsoft Dynamics Marketing Service) ISO 27001 — Padrões de gerenciamento de segurança de informações — Certificado](https://aka.ms/d365mdm27001cert)
-- [Dynamics 365 — Microsoft Social Engagement Service ISO 27001 — Padrões de gerenciamento de segurança de informações — Certificado](https://aka.ms/d365siso27001cert)
+- [Office 365 – ISO 27001 Global e da Alemanha: Certificado dos padrões de gerenciamento de segurança de informações](https://aka.ms/o365iso27001cert)
 
 ### <a name="azure-devops-services"></a>Azure DevOps Services
 
@@ -84,36 +80,23 @@ Ciclo de auditoria: os serviços de nuvem da Microsoft são auditados pelo menos
 
 - [Serviços Profissionais da Microsoft](https://www.bsigroup.com/Our-services/Certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d601002%26company%3dMicrosoft&licencenumber=IS%20601002)
 
-### <a name="microsoft-defender-atp"></a>Microsoft Defender ATP
-
-- [Microsoft Defender ATP — Detecção e Resposta do Ponto de Extremidade, Investigação e Correção Automática, Classificação de Segurança — Certificado ISO 27001](https://aka.ms/windowsdefenderatpiso27001certificate)
-
 ## <a name="assessments-and-reports"></a>Avaliações e relatórios
 
 ### <a name="azure"></a>Azure
 
-- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, Área de Trabalho Gerenciada da Microsoft, OMS Service Map, PowerApps, Power BI, Stream e Microsoft Datacenter — Relatório de Avaliação de Auditoria ISO 27001 e 27018](https://go.microsoft.com/fwlink/p/?linkid=2078010)
-- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, OMS Service Map, PowerApps, Power BI, Stream e Microsoft Datacenter — SOA (Declaração de Aplicabilidade) ISO 27001 e 27018](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
+- [Azure, Dynamics 365 e serviços online: relatório de avaliação de auditoria ISO 27001, 27018 e 27701](https://aka.ms/azureiso27001report)
+- [Azure, Dynamics 365 e Online Services: Declaração de disponibilidade (SOA) ISO9001-1](https://aka.ms/Azureiso27001soa)
 
 ### <a name="office-365"></a>Office 365
 
-- [Office 365 — Relatório de Avaliação de Auditoria do ISO 27001, 27018 e 27017](https://aka.ms/o365isoreport)
-- [ISMS (Sistema de Gerenciamento de Segurança de Informações) do Office 365 — Declaração de Aplicabilidade para Segurança e Privacidade](https://aka.ms/o365isosoa)
-- [Office 365 — Alemanha ISO 27001, ISO 27017 e Relatório de Avaliação de Auditoria do ISO 27018](https://aka.ms/o365gerisoaudit)
-- [Relatório de Avaliação de Auditoria do Yammer do ISO 27001](https://aka.ms/yammeriso)
-
-### <a name="dynamics-365"></a>Dynamics 365
-
-- [Dynamics 365 — SOA (Declaração de Aplicabilidade) ISO 27001](https://aka.ms/d365isosoa)
+- [Office 365: Relatório da avaliação de auditoria do ISO 27001, 27018 e 27017](https://aka.ms/o365isoreport)
+- [Office 365: Sistema de gerenciamento de segurança de informações (ISMS) — Declaração de aplicabilidade para segurança e privacidade](https://aka.ms/o365isosoa)
+- [Office 365 Germany: Relatório da avaliação de auditoria do ISO 27001, 27017, e 27018](https://aka.ms/o365gerisoaudit)
+- [Yammer: Relatório da avaliação de auditoria do ISO27001](https://aka.ms/yammeriso)
 
 ### <a name="azure-devops-services"></a>Azure DevOps Services
 
 - [Certificado ISO 27001 do Azure DevOps Services IS 619017](https://www.bsigroup.com/Our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=company%3dVisual%2bStudio%2bTeam%2bServices&licencenumber=IS%20619017)
-
-### <a name="microsoft-defender-atp"></a>Microsoft Defender ATP
-
-- [Microsoft Defender ATP — Detecção e Resposta do Ponto de Extremidade, Investigação e Correção Automática, Classificação de Segurança — Relatório de Avaliação de Auditoria ISO 27001](https://aka.ms/windowsdefenderatpiso27001auditreport)
-- [Microsoft Defender ATP — Detecção e Resposta do Ponto de Extremidade, Investigação e Correção Automática, Classificação de Segurança — SOA 27001 e 27018](https://aka.ms/windowsdefenderatpiso27001SOA)
 
 [Ver relatórios de auditoria adicionais](https://aka.ms/auditreports)
 

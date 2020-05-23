@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A Cohasset Associates comprovou que, quando o Exchange Online e o Centro de Conformidade e Segurança são configurados conforme recomendado, eles atendem aos requisitos de armazenamento relevantes das normas 1.31(c)-(d) da CFTC, 4511 da FINRA e 17a-4 da SEC. A avaliação está disponível para baixar.
-ms.openlocfilehash: d2624dbc230bb0fb714ab1a5a66b91e70d301a9c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 4d494c519576ed86ed56a331a3440d9237270e33
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626417"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231834"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>Usar o Exchange Online e o Centro de Conformidade e Segurança para atender à norma 17a-4 da SEC
 
@@ -53,7 +53,7 @@ Os setores altamente regulamentados são sempre obrigados a armazenar comunicaç
 - Retido por um período de retenção obrigatório, que não pode ser reduzido, mas apenas aumentado.
 - Imutável, o que significa que não é possível substituir, apagar ou alterar o registro durante o período de retenção obrigatório.
 
-No Exchange Online, quando uma [política de retenção](retention-policies.md) é aplicada à caixa de correio do usuário, todo o conteúdo do usuário será retido com base nos critérios da política. Na verdade, se um usuário tentar excluir ou modificar um email, o programa manterá uma cópia do email em um local seguro e oculto na caixa de correio do usuário, antes que a alteração seja feita. As políticas de retenção podem garantir que uma organização retenha as comunicações eletrônicas, embora essas políticas sejam passíveis de modificação.
+No Exchange Online, quando uma [política de retenção](retention-policies.md) é aplicada à caixa de correio de um usuário, todo o conteúdo do usuário será retido com base nos critérios da política. De fato, se um usuário tentar excluir ou modificar um e-mail, uma cópia do e-mail antes que a alteração seja feita será preservada em um local seguro e oculto na caixa de correio do usuário. As políticas de retenção podem ajudar a garantir que uma organização retenha comunicações eletrônicas, mas essas políticas podem ser modificadas.
 
 Ao aplicar o Bloqueio de Preservação em uma política de retenção, a empresa garante que a política não seja modificada. De fato, após aplicar o Bloqueio de Preservação a uma política de retenção, as seguintes ações serão restritas:
 
@@ -65,7 +65,7 @@ O Bloqueio de Preservação pode ajudar na conformidade com os requisitos regula
 
 ## <a name="how-to-set-up-preservation-lock"></a>Como configurar o Bloqueio de Preservação
 
-É possível bloquear uma política de retenção usando o PowerShell. Para saber mais, confira [Como bloquear uma política de retenção](retention-policies.md#locking-a-retention-policy).
+Você pode bloquear uma política de retenção usando o PowerShell. Para obter mais informações, consulte [Use o Bloqueio de preservação para cumprir os requisitos regulamentares](retention-policies.md#use-preservation-lock-to-comply-with-regulatory-requirements).
 
 ## <a name="known-limitations"></a>Limitações conhecidas
 
@@ -75,4 +75,4 @@ No momento, há algumas limitações no Exchange Online:
 - As curtidas não são retidas para mensagens de canal e chat do Teams.
 
 > [!NOTE]
-> A auditoria em nível de item já está disponível para caixas de correio do grupo do Microsoft 365. Para saber mais, consulte [Gerenciar a auditoria da caixa de correio](enable-mailbox-auditing.md).
+> A auditoria no nível do item já está disponível para as caixas de correio de grupo do Microsoft 365. Para saber mais, consulte [Gerenciar a auditoria da caixa de correio](enable-mailbox-auditing.md).

@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: e77fe9c8340608afae3a308ee399809144f6308f
-ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
+ms.openlocfilehash: 7e6f821cdc8712b11638cbb905b01b82af68e5ad
+ms.sourcegitcommit: ad789f1e7bf9c9dc0d45c731373e667a26ed30b1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/13/2020
-ms.locfileid: "44211457"
+ms.locfileid: "44221425"
 ---
 # <a name="data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações do Titular dos Dados para RGPD e CCPA
 
@@ -35,7 +35,7 @@ O guia aborda como usar produtos, serviços e ferramentas administrativas do Off
 - **Descobrir** – use ferramentas de pesquisa e descoberta para localizar dados pessoais que possam ser a entidade de uma solicitação DSR. Após a coleta dos documentos que atendem à solicitação, você pode executar uma ou mais das ações de DSR a seguir para responder à solicitação. Como alternativa, você pode determinar que a solicitação não atende às diretrizes da sua organização para responder a DSRs.
 - **Acesso:** recupere dados pessoais que residem na nuvem da Microsoft e, se solicitado, faça uma cópia para disponibilizar para o titular dos dados.
 - **Retificação:** faça alterações ou implemente outras ações solicitadas nos dados pessoais, onde for possível.
-- **Restringir:** restrinja o processamento de dados pessoais, removendo licenças para vários serviços do Azure ou desativando os serviços desejados sempre que possível. Você também pode remover dados da nuvem da Microsoft e retê-los localmente ou em outro lugar.
+- **Restringir:** restrinja o processamento de dados pessoais, removendo licenças de vários serviços em nuvem da Microsoft ou desativando os serviços desejados sempre que possível. Você também pode remover dados da nuvem da Microsoft e retê-los localmente ou em outro lugar.
 - **Exclusão:** remova permanentemente os dados pessoais que residem na nuvem da Microsoft.
 - **Exportar/Receber (Portabilidade): ** forneça uma cópia eletrônica (em formato legível para computador) de dados pessoais ou informações pessoais para o titular dos dados. Os dados pessoais do CCPA são quaisquer informações relacionadas a uma pessoa, identificável ou não. Não há distinção entre as funções pública, privada ou de trabalho de uma pessoa. O termo definido "informações pessoais" se alinha aproximadamente aos "dados pessoais" do RGPD. No entanto, o CCPA também inclui dados da família e do domicílio. Para obter mais informações sobre o CCPA, confira a [Lei de Privacidade do Consumidor da Califórnia](offering-ccpa.md) e as [Perguntas Frequentes Sobre a Lei de Privacidade do Consumidor da Califórnia](ccpa-faq.md).
 
@@ -1192,7 +1192,7 @@ As seções a seguir explicam como usar a funcionalidade no aplicativo do Micros
 
 #### <a name="discover"></a>Descobrir
 
-O conteúdo criado usando o Sway (encontrado em [www.sway.com](https://www.sway.com)) pode ser visto apenas pelo proprietário e por aqueles que o autor deu permissão para exibir o Sway.  Confira [Configurações de privacidade no Sway](https://support.office.com/article/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217).  Para determinar se o Sway é um local onde provavelmente dados pessoais responsivos à sua DSR residem, você pode pedir ao Titular dos Dados e aos usuários organizacionais que provavelmente têm conteúdo gerado sobre o Titular dos Dados para pesquisar seus Sways e compartilhar com você rodos os Sways que provavelmente contêm dados pessoais responsivos à solicitação do Titular dos Dados. Para obter informações sobre como compartilhar um Sway, confira "Compartilhar um Sway da sua Conta Organizacional" no artigo [Compartilhar o Sway](https://support.office.com/article/share-your-sway-1cf853b8-ef7e-46b0-b704-003e58d28998).
+O conteúdo criado usando o Sway (encontrado em [www.sway.com](https://sway.office.com/)) pode ser visto apenas pelo proprietário e por aqueles que o autor deu permissão para exibir o Sway.  Confira [Configurações de privacidade no Sway](https://support.microsoft.com/pt-BR/office/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217).  Para determinar se o Sway é um local onde provavelmente dados pessoais responsivos à sua DSR residem, você pode pedir ao Titular dos Dados e aos usuários organizacionais que provavelmente têm conteúdo gerado sobre o Titular dos Dados para pesquisar seus Sways e compartilhar com você rodos os Sways que provavelmente contêm dados pessoais responsivos à solicitação do Titular dos Dados. Para obter informações sobre como compartilhar um Sway, confira "Compartilhar um Sway da sua Conta Organizacional" no artigo [Compartilhar o Sway](https://support.microsoft.com/pt-BR/office/share-your-sway-1cf853b8-ef7e-46b0-b704-003e58d28998).
 
 #### <a name="access"></a>Acessar
 
@@ -1200,7 +1200,7 @@ Se você encontrou dados pessoais em um Sway que deseja compartilhar com o Titul
 
 #### <a name="delete"></a>Excluir
 
-Para aprender como excluir um Sway, vá para a seção "Como excluo o meu Sway?", em [Configurações de privacidade do Sway](https://support.office.com/article/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217).
+Para aprender como excluir um Sway, vá para a seção "Como excluo o meu Sway?", em [Configurações de privacidade do Sway](https://support.microsoft.com/pt-BR/office/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217).
 
 #### <a name="export"></a>Exportar
 
@@ -1262,11 +1262,11 @@ As seções a seguir explicam como usar a funcionalidade no aplicativo do Micros
 
 #### <a name="discover"></a>Descobrir
 
-No centro de administração do Yammer, um administrador verificado pelo Yammer (administrador global ou administrador verificado configurado no Yammer) pode exportar dados pertencentes a um determinado usuário. A exportação inclui as mensagens e os arquivos postados e modificados pelo usuário e as informações sobre tópicos e grupos criados pelo usuário. Quando uma exportação de dados específica de usuário é executada, o administrador também recebe uma mensagem na caixa de entrada com os dados de atividade da conta do usuário se for de sua escolha. Para obter instruções detalhadas, confira [Yammer Enterprise: privacidade](https://support.office.com/article/enterprise-privacy-yammer-eae49f12-4661-4ba5-aa72-01248f0709bf).
+No centro de administração do Yammer, um administrador verificado pelo Yammer (administrador global ou administrador verificado configurado no Yammer) pode exportar dados pertencentes a um determinado usuário. A exportação inclui as mensagens e os arquivos postados e modificados pelo usuário e as informações sobre tópicos e grupos criados pelo usuário. Quando uma exportação de dados específica de usuário é executada, o administrador também recebe uma mensagem na caixa de entrada com os dados de atividade da conta do usuário se for de sua escolha. Para obter instruções detalhadas, confira [Yammer Enterprise: privacidade](https://docs.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise).
 
 As exportações específicas de usuário são para uma única rede, de modo que se o usuário estiver em uma rede externa do Yammer, o administrador deverá exportar dados para essa rede externa e para a rede doméstica.
 
-Para acessar dados não incluídos na exportação de dados, capturas de tela podem ser feitas para o perfil do usuário, configurações, associações de grupos, mensagens marcadas com indicador, usuários seguidos e tópicos seguidos. Os usuários ou administradores podem coletar essas informações. Para saber mais, confira [Yammer Enterprise: privacidade](https://support.office.com/article/enterprise-privacy-yammer-eae49f12-4661-4ba5-aa72-01248f0709bf). 
+Para acessar dados não incluídos na exportação de dados, capturas de tela podem ser feitas para o perfil do usuário, configurações, associações de grupos, mensagens marcadas com indicador, usuários seguidos e tópicos seguidos. Os usuários ou administradores podem coletar essas informações. Para saber mais, confira [Yammer Enterprise: privacidade](https://docs.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise). 
 
 #### <a name="access"></a>Access
 
@@ -1277,7 +1277,7 @@ A exportação de dados por usuário não inclui:
 - O perfil do usuário:
     - Se o usuário tiver uma identidade no Yammer, ele tem controle total de seu perfil. Para obter informações sobre como exibir e modificar o perfil, confira [Alterar meu perfil e configurações do Yammer](https://support.office.com/article/change-my-yammer-profile-and-settings-a3aeca0e-de34-4897-9b59-de6516542851).
     
-    - Se o usuário tiver uma identidade no Office 365, o perfil de usuário no Yammer será extraído automaticamente do Office 365, que obtém as informações de perfil do AAD (Azure Active Directory). Os usuários do Yammer podem alterar temporariamente os respectivos perfis no Yammer, mas essas alterações são substituídas quando há uma alteração no AAD, de modo que você deve exibir e alterar dados de diretório no AAD. Confira [Gerenciar usuários do Yammer em seu ciclo de vida do Office 365](https://support.office.com/article/Manage-Yammer-users-across-their-life-cycle-from-Office-365-6c4c8fff-6444-404a-bffc-f9da0bcc3039) e [Adicionar ou alterar informações de perfil de um usuário no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-users-profile-azure-portal).
+    - Se o usuário tiver uma identidade no Office 365, o perfil de usuário no Yammer será extraído automaticamente do Office 365, que obtém as informações de perfil do AAD (Azure Active Directory). Os usuários do Yammer podem alterar temporariamente os respectivos perfis no Yammer, mas essas alterações são substituídas quando há uma alteração no AAD, de modo que você deve exibir e alterar dados de diretório no AAD. Confira [Gerenciar usuários do Yammer em seu ciclo de vida do Office 365](https://docs.microsoft.com/yammer/manage-yammer-users/manage-users-across-their-lifecycle) e [Adicionar ou alterar informações de perfil de um usuário no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-users-profile-azure-portal).
 
 -   As configurações do usuário:
 
@@ -1288,7 +1288,7 @@ A exportação de dados por usuário não inclui:
 
 #### <a name="export"></a>Exportar
 
-Para obter instruções de como exportar dados, confira [Gerenciar solicitações de assuntos dados GDPR no Yammer Enterprise](https://support.office.com/article/enterprise-privacy-yammer-eae49f12-4661-4ba5-aa72-01248f0709bf). Você deve executar uma exportação por usuário para cada rede do Yammer da qual o usuário é um membro.
+Para obter instruções de como exportar dados, confira [Gerenciar solicitações de assuntos dados GDPR no Yammer Enterprise](https://docs.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise). Você deve executar uma exportação por usuário para cada rede do Yammer da qual o usuário é um membro.
 
 O Yammer tem configurações de retenção de dados que exclui os dados de modo temporário e irreversível quando um usuário exclui uma mensagem ou um arquivo. Se essa opção for definida como exclusão temporária, os dados que um usuário excluiu estarão incluídos na exportação. Se a configuração de retenção de dados do Yammer for definida como Exclusão Irreversível, as informações excluídas já não serão armazenadas no Yammer, então não estarão incluídas na exportação.
 
@@ -1301,7 +1301,7 @@ O Yammer permite que administradores verificados executem uma exclusão em confo
 
 Quando um usuário é excluído com a opção Apagar Usuário, a notificação é enviada para a caixa de entrada do Yammer de todos os administradores de rede e administradores verificados. A opção Apagar Usuário exclui um perfil do Yammer do usuário, mas não exclui seu perfil do Office 365 ou do Azure Active Directory.
 
-Para obter etapas detalhadas para remover um usuário, confira [Gerenciar solicitações de assunto de dados GDPR no Yammer Enterprise](https://support.office.com/article/enterprise-privacy-yammer-eae49f12-4661-4ba5-aa72-01248f0709bf).
+Para obter etapas detalhadas para remover um usuário, confira [Gerenciar solicitações de assunto de dados GDPR no Yammer Enterprise](https://docs.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise).
 
 ## <a name="responding-to-dsr-rectification-requests"></a>Responder às solicitações de retificação de DSR
 
@@ -1324,7 +1324,7 @@ Se não for viável para o proprietário dos dados implementar a solicitação d
 
 Para atribuir as permissões de administrador ou proprietário para um site do SharePoint Online de modo que você ou outra pessoa possa acessar e editar o documento, confira:
 
-- [Gerenciar administradores para um conjunto de sites](https://support.office.com/article/Manage-administrators-for-a-site-collection-9A7E46F9-3FC4-4297-955A-82CB292A5BE0)
+- [Gerenciar administradores para um conjunto de sites](https://docs.microsoft.com/sharepoint/manage-site-collection-administrators)
 
 - [Editar e gerenciar permissões para uma biblioteca ou lista do SharePoint](https://support.office.com/article/Edit-and-manage-permissions-for-a-SharePoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)
 
@@ -1342,7 +1342,7 @@ Um administrador global pode acessar a conta do OneDrive for Business de um usu�
 
 Um administrador global pode atribuir a si mesmo as permissões necessárias para abrir e editar (ou excluir) itens na caixa de correio de outro usuário, como se fosse o proprietário dela. Um administrador global também pode atribuir essas permissões a outro usuário. Especificamente, o administrador global precisa adicionar a permissão **Ler e gerenciar**, que é a permissão de Acesso Completo no Exchange Online. Para obter detalhes, confira:
 
-- [Conceder permissões de caixa de correio para outros usuários no Office 365](https://support.office.com/article/Give-mailbox-permissions-to-another-user-in-Office-365-Admin-Help-1DBCF12F-A9DE-4D1D-B0B3-A227F8A736D8)
+- [Conceder permissões de caixa de correio para outros usuários no Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user)
 - [Acessar a caixa de correio de terceiros](https://support.office.com/article/Access-another-person-s-mailbox-A909AD30-E413-40B5-A487-0EA70B763081)
 
 Se a caixa de correio do usuário foi colocada em retenção legal ou foi atribuída a uma política de retenção, todas as versões de uma caixa de correio serão retidas até que o período de retenção expire ou a retenção seja removida da caixa de correio. Isso significa que se um item de caixa de correio for alterado em resposta à solicitação de retificação de DSR, uma cópia do item original (antes da alteração ser feita) será retida e armazenada em uma pasta oculta na pasta Itens Recuperáveis da caixa de correio do usuário.
@@ -1359,7 +1359,7 @@ Os proprietários de dados ou administradores IT podem fazer alterações em doc
     3. Faça as revisões na cópia do documento no seu computador local.
     4. Carregue o arquivo revisado no local original do SharePoint Online.
 
-- Os dados nas listas do SharePoint podem ser editados. Confira [Adicionar, editar ou excluir itens de lista](https://support.office.com/article/add-edit-or-delete-list-items-a4b31f53-f044-470e-9823-4526594bacde).
+- Os dados nas listas do SharePoint podem ser editados. Confira [Adicionar, editar ou excluir itens de lista](https://support.microsoft.com/pt-BR/office/add-edit-or-delete-list-items-a4b31f53-f044-470e-9823-4526594bacde).
 
 Os administradores de TI também podem corrigir certas propriedades pessoais associadas a um documento:
 
@@ -1389,7 +1389,7 @@ Em dados que o usuário pode acessar por meio de seu perfil e pelas configuraç�
 - O perfil do usuário:
 
     - Se o usuário tiver uma identidade no Yammer, ele tem controle total de seu perfil. Para obter informações sobre como exibir e modificar o perfil, confira [Alterar meu perfil e configurações do Yammer](https://support.office.com/article/change-my-yammer-profile-and-settings-a3aeca0e-de34-4897-9b59-de6516542851).
-    - Se o usuário tiver uma identidade no Office 365, o perfil de usuário no Yammer será extraído automaticamente do Office 365, que obtém as informações de perfil do ADD (Azure Active Directory). Os usuários do Yammer podem alterar temporariamente os respectivos perfis no Yammer, mas essas alterações são substituídas quando há uma alteração no ADD, de modo que você deve exibir e alterar dados de diretório no ADD. O usuário precisa solicitar a atualização do ADD. Confira [Gerenciar usuários do Yammer em seu ciclo de vida do Office 365](https://support.office.com/article/Manage-Yammer-users-across-their-life-cycle-from-Office-365-6c4c8fff-6444-404a-bffc-f9da0bcc3039) e [Adicionar ou alterar informações de perfil de um usuário no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-users-profile-azure-portal). 
+    - Se o usuário tiver uma identidade no Office 365, o perfil de usuário no Yammer será extraído automaticamente do Office 365, que obtém as informações de perfil do ADD (Azure Active Directory). Os usuários do Yammer podem alterar temporariamente os respectivos perfis no Yammer, mas essas alterações são substituídas quando há uma alteração no ADD, de modo que você deve exibir e alterar dados de diretório no ADD. O usuário precisa solicitar a atualização do ADD. Confira [Gerenciar usuários do Yammer em seu ciclo de vida do Office 365](https://docs.microsoft.com/yammer/manage-yammer-users/manage-users-across-their-lifecycle) e [Adicionar ou alterar informações de perfil de um usuário no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-users-profile-azure-portal). 
 
 - As configurações do usuário:
 
@@ -1411,11 +1411,11 @@ Se, mais tarde, sua organização determinar que alguma restrição não se apli
 
 ### <a name="removing-the-license-for-an-office-365-application"></a>Remover a licença de um aplicativo do Office 365
 
-Conforme explicado anteriormente, as licenças para todos os aplicativos do Office 365 que estão incluídas na assinatura do Microsoft 365 para empresas da sua organização são atribuídas a todos os usuários por padrão. Se for necessário restringir o acesso a dados que estão sujeitos a uma DSR, um administrador de TI pode usar o portal de administração do Office 365 para desativar temporariamente a licença de um aplicativo do usuário. Se o usuário tentar usar esse aplicativo, ele receberá uma notificação de produto não licenciado ou uma mensagem informando que ele não tem mais acesso. Para obter detalhes, confira [Remover licenças de usuário no Office 365 para empresa](https://support.office.com/article/Remove-licenses-from-users-in-Office-365-for-business-9B497C85-D0A4-4735-80FA-D3565BC05BD1).
+Conforme explicado anteriormente, as licenças para todos os aplicativos do Office 365 que estão incluídas na assinatura do Microsoft 365 para empresas da sua organização são atribuídas a todos os usuários por padrão. Se for necessário restringir o acesso a dados que estão sujeitos a uma DSR, um administrador de TI pode usar o portal de administração do Office 365 para desativar temporariamente a licença de um aplicativo do usuário. Se o usuário tentar usar esse aplicativo, ele receberá uma notificação de produto não licenciado ou uma mensagem informando que ele não tem mais acesso. Para obter detalhes, confira [Remover licenças de usuário no Office 365 para empresa](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user).
 
 **Observações:**
 
-- Para restringir o acesso de um usuário ao Yammer, primeiramente, você deve [impor a identidade do Office 365 para um usuário do Yammer](https://support.office.com/article/Enforce-office-365-identity-for-Yammer-users-008f940b-6bec-47fc-bcc6-9c6133467562) e, em seguida, remover a licença do Yammer do usuário.
+- Para restringir o acesso de um usuário ao Yammer, primeiramente, você deve [impor a identidade do Office 365 para um usuário do Yammer](https://docs.microsoft.com/yammer/configure-your-yammer-network/enforce-office-365-identity) e, em seguida, remover a licença do Yammer do usuário.
 
 - Em cenários em que se aproveita o Power BI Embedded, é possível restringir o acesso ao aplicativo ISV (fornecedor independente de software) no qual o conteúdo está inserido.
 
@@ -1444,9 +1444,9 @@ Como a maioria dos documentos do Office está localizada em um site do SharePoin
 
     a. Exclua a cópia original do documento. Quando você exclui um documento de um site, ele é enviado à Lixeira do site (também chamada de *Lixeira de primeiro estágio*).
 
-    b. Vá para a Lixeira do site e exclua essa cópia do documento. Quando você exclui um documento da Lixeira do site, ele é enviado à Lixeira do conjunto de sites (também chamada de *Lixeira de segundo estágio*). Confira [Excluir um arquivo, uma pasta ou um link de uma biblioteca de documentos do SharePoint](https://support.office.com/article/Delete-a-file-folder-or-link-from-a-SharePoint-document-library-71f3c90a-0d24-4d80-8b66-f88234b79a52).
+    b. Vá para a Lixeira do site e exclua essa cópia do documento. Quando você exclui um documento da Lixeira do site, ele é enviado à Lixeira do conjunto de sites (também chamada de *Lixeira de segundo estágio*). Confira [Excluir um arquivo, uma pasta ou um link de uma biblioteca de documentos do SharePoint](https://support.microsoft.com/pt-BR/office/delete-a-file-folder-or-link-from-a-sharepoint-document-library-71f3c90a-0d24-4d80-8b66-f88234b79a52).
 
-    c. Vá para a Lixeira do conjunto de sites e exclua essa cópia do documento, o que a remove permanentemente do Office 365. Confira [Excluir itens da lixeira do conjunto de sites](https://support.office.com/article/Delete-items-from-the-site-collection-Recycle-Bin-dd5c00c2-aef6-4458-9d04-80b185077653).
+    c. Vá para a Lixeira do conjunto de sites e exclua essa cópia do documento, o que a remove permanentemente do Office 365. Confira [Excluir itens da lixeira do conjunto de sites](https://support.microsoft.com/pt-BR/office/delete-items-from-the-site-collection-recycle-bin-dd5c00c2-aef6-4458-9d04-80b185077653).
 
 4. Quando a restrição não se aplicar mais, a cópia do documento que foi armazenada no local poderá ser recarregada no site do Office 365.
 
@@ -1459,7 +1459,7 @@ Um administrador do SharePoint pode impedir temporariamente todos os usuários d
 
 ### <a name="preventing-a-user-from-signing-in-to-office-365"></a>Impedir um usuário de entrar no Office 365
 
-Um administrador de TI também pode impedir um usuário de entrar no Office 365, o que pode impedi-lo de acessar qualquer serviço online do Office 365 ou processar quaisquer dados armazenados no Office 365. Confira [Bloquear o acesso de um funcionário antigo aos dados do Office 365](https://support.office.com/article/Remove-a-former-employee-from-Office-365-44d96212-4d90-4027-9aa9-a95eddb367d1).
+Um administrador de TI também pode impedir um usuário de entrar no Office 365, o que pode impedi-lo de acessar qualquer serviço online do Office 365 ou processar quaisquer dados armazenados no Office 365. Confira [Bloquear o acesso de um funcionário antigo aos dados do Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/remove-former-employee).
 
 ## <a name="part-2-responding-to-dsrs-with-respect-to-insights-generated-by-office-365"></a>Parte 2: Responder às DSRs com relação aos insights gerados pelo Office 365
 
@@ -1507,7 +1507,7 @@ Os usuários podem modificar as seguintes informações no Delve:
 
 #### <a name="restrict"></a>Restringir
 
-Para restringir o processamento no Delve em sua organização, você pode desativar o Office Graph. Saiba mais [aqui](https://support.office.com/article/office-delve-for-office-365-admins-54f87a42-15a4-44b4-9df0-d36287d9531b#bkmk_delveonoff).
+Para restringir o processamento no Delve em sua organização, você pode desativar o Office Graph. Saiba mais [aqui](https://docs.microsoft.com/sharepoint/delve-for-office-365-admins).
 
 #### <a name="delete"></a>Excluir
 
@@ -1674,7 +1674,7 @@ Para ajudar a preparar a sua organização para assumir investigações de DSR u
 
 - Excluir ocorrências quando o processo de investigação quando o processo de investigação de DSR é concluído. Isso remove todas as pesquisas de conteúdo e exportará trabalhos associados à ocorrência.
 
-Para começar a usar os casos de DSR, confira [Gerenciar solicitações de titular de dados do RGPD com a ferramenta de casos de DSR no Centro de Conformidade e Segurança](https://support.office.com/article/manage-dsr-cases-in-the-office-365-security-compliance-center-ce9eb942-3589-42cb-88fd-1576ecb09c5c).
+Para começar a usar os casos de DSR, confira [Gerenciar solicitações de titular de dados do RGPD com a ferramenta de casos de DSR no Centro de Conformidade e Segurança](https://docs.microsoft.com/microsoft-365/compliance/manage-gdpr-data-subject-requests-with-the-dsr-case-tool).
 
 >[!IMPORTANT]
 >Um Administrador de Descoberta Eletrônica pode exibir e gerenciar todas as ocorrências de DSR em sua organização. Para obter informações sobre as diferentes funções relacionadas à Descoberta eletrônica, confira [Atribuir permissões da Descoberta Eletrônica a membros de ocorrência potenciais](https://docs.microsoft.com/Office365/SecurityCompliance/assign-ediscovery-permissions).
@@ -1700,7 +1700,7 @@ Veja a seguir uma visão geral de alto nível de como implementar Limites de Con
 
 6. Crie um filtro de permissões de pesquisa para cada limite de conformidade a fim de que os membros do grupo de função de administrador correspondente possam pesquisar apenas caixas de correio e sites de usuários dentro da agência/do limite de conformidade. O filtro de permissões de pesquisa permitirá que os membros do grupo de função correspondente pesquisem apenas os locais de conteúdo com valor do atributo de objeto de usuário que corresponda à agência/ao limite de conformidade.
 
-Para obter instruções passo a passo, confira [Configurar limites de conformidade para investigações de Descoberta Eletrônica no Office 365](https://support.office.com/article/1b45c82f-26c8-44fb-9f3b-b45436fe2271).
+Para obter instruções passo a passo, confira [Configurar limites de conformidade para investigações de Descoberta Eletrônica no Office 365](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries).
 
 ### <a name="use-the-audit-log-search-tool-in-dsr-investigations"></a>Usar a ferramenta de pesquisa do log de auditoria em investigações de DSR
 

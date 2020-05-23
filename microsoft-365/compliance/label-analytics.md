@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Depois de criar seus rótulos de retenção e rótulos de sensibilidade, você desejará ver como eles estão sendo usados em seu locatário. Com a análise do rótulo no centro de conformidade do Microsoft 365 e no centro de segurança do Microsoft 365, você pode exibir rapidamente os rótulos mais usados e onde foram aplicados.
-ms.openlocfilehash: 75eb86cb8671c81b80afc67b19d7c54830c4c401
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3905b868ec3815fd9bf63ca131a20ceb1034f2c7
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072254"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231984"
 ---
 # <a name="view-label-usage-with-label-analytics"></a>Exibição do uso do rótulo com análises de rótulo
 
@@ -99,5 +99,5 @@ Para exibir a análise do rótulo, você deve ter uma das seguintes funções no
 - Administrador de segurança
 - Leitor de segurança
 
-Além disso, observe que esses relatórios usam o Monitor do Azure para armazenar os dados em um espaço de trabalho de Análise de Log pertencente à sua organização. Portanto, o usuário deve ser adicionado como um leitor ao espaço de trabalho de monitoramento do Azure monitoramento que possui os dados, para saber mais, confira [Permissões necessárias para análise da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/reports-aip#permissions-required-for-azure-information-protection-analytics).
+Além disso, observe que esses relatórios usam o Monitor do Azure para armazenar os dados em um espaço de trabalho de Análise de Log pertencente à sua organização. Portanto, o usuário deve ser adicionado como leitor ao espaço de trabalho do Monitoramento do Azure que contém os dados - para obter mais informações, consulte [Permissões necessárias para a análise da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/reports-aip#permissions-required-for-azure-information-protection-analytics).
 

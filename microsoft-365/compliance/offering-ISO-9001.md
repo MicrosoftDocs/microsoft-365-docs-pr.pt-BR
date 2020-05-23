@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b2542f697edb28c4949b844ae32d606dba5e7a1c
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: 3f733f3baf0db4d01a78e7984f44b17a5d5584e7
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214299"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254304"
 ---
 # <a name="iso-90012015-quality-management-systems-standards"></a>Padrões dos Sistemas de Gestão da Qualidade ISO 9001:2015
 
@@ -31,23 +31,27 @@ A ISO 9001:2015 é uma norma internacional que estabelece os critérios de um si
 
 Uma empresa de auditoria de terceiros independente realizou uma rigorosa análise do Microsoft Azure e de vários serviços on-line da Microsoft da adesão aos princípios de gerenciamento de qualidade estabelecidos pela ISO 9001:2015. A certificação de terceiros disponível fornece confirmação independente de que o Azure e os serviços on-line cobertos da Microsoft atendem aos requisitos ISO 9001:2015.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
-- [Azure](https://aka.ms/AzureCompliance)
-- Segurança no aplicativo em nuvem
-- Genômico
-- Graph
+- [Azure, Azure Governamental e Azure Alemanha](https://aka.ms/AzureCompliance)
+- Segurança no aplicativo na nuvem da Microsoft
+- Dynamics 365, Dynamics 365 Government e Dynamics 365 Germany
+- Microsoft Graph
 - Intune
-- Área de Trabalho Gerenciada da Microsoft
-- Serviço de nuvem do Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
-- Serviço em nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
-- Serviço em nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
+- Proteção avançada contra ameaças do Microsoft Defender
+- Bot do Microsoft Healthcare
+- Área de trabalho gerenciada da Microsoft
+- Serviço de nuvem do Power Automate (anteriormente Microsoft Flow) como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou Dynamics 365
+- Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou Dynamics 365
+- Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
+- Power BI incorporado
+- Microsoft Stream
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
-- [Relatório de Avaliação ISO 9001 do Microsoft Azure FY19](https://go.microsoft.com/fwlink/p/?linkid=2077661)
-- [Certificado ISO 9001 do Microsoft Azure FY19](https://go.microsoft.com/fwlink/p/?linkid=2077747)
-- [Consulte os relatórios de auditoria adicionais](https://aka.ms/auditreports)
+- [Azure, Dynamics 365 e Online Services: certificação ISO9001](https://aka.ms/azureiso9001cert)
+- [Azure, Dynamics 365 e Online Services: relatório de avaliação ISO9001](https://aka.ms/azureiso9001report)
+- [Azure, Dynamics 365 e Online Services: Declaração de disponibilidade (SOA) ISO9001-1](https://aka.ms/azureiso9001soa)
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -61,7 +65,7 @@ O [Portal de Confiança de Serviços](https://docs.microsoft.com/microsoft-365/c
 
 **A Microsoft realiza testes anuais quanto a falhas de infraestrutura?**
 
-Sim. A avaliação anual da ISO 9001:2015 inclui o datacenter da infraestrutura física subjacente. [Examine o certificado](https://www.microsoft.com/?ref=aka) para visualizar os detalhes da cobertura.
+Sim. A avaliação anual da ISO 9001:2015 inclui o datacenter da infraestrutura física subjacente. [Examine o certificado](https://www.microsoft.com/?ref=aka) para obter os detalhes da cobertura.
 
 **Onde posso visualizar as informações de conformidade da Microsoft da ISO 9001:2015?**
 

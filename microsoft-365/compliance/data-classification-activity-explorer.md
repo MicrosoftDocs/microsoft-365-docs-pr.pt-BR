@@ -1,5 +1,5 @@
 ---
-title: Começar a usar o gerenciador de atividades (visualização)
+title: Começar a usar o gerenciador de atividades
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -16,20 +16,20 @@ search.appverid:
 - MOE150
 - MET150
 description: O explorador de atividade dá o toque final na funcionalidade do recurso de classificação de dados, permitindo que você veja e filtre as ações que os usuários estão executando no conteúdo rotulado.
-ms.openlocfilehash: 68304bc75d33c993db52895828ec49e3b5203a4c
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: 5cb6a8dbfa570b3b0e0d1ce39648d12050d2af81
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42929455"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327837"
 ---
-# <a name="get-started-with-activity-explorer-preview"></a>Começar a usar o gerenciador de atividades (visualização)
+# <a name="get-started-with-activity-explorer"></a>Começar a usar o gerenciador de atividades
 
 As guias visão geral de classificação de dados e explorador de conteúdo dão visibilidade ao conteúdo que foi descoberto e rotulado e mostra onde está esse conteúdo. O explorador de atividade arremata esse pacote de funcionalidade permitindo monitorar o que está sendo feito com o conteúdo rotulado. O explorador de atividades fornece um modo de exibição histórica.
 
 ![Visão geral da captura de tela do Explorador de atividades](../media/data-classification-activity-explorer-1.png)
 
-Você pode filtrar os dados de acordo com:
+Há mais de 30 filtros diferentes disponíveis para uso, alguns são:
 
 - intervalo de datas
 - tipo de atividade
@@ -37,48 +37,45 @@ Você pode filtrar os dados de acordo com:
 - usuário
 - rótulo de confidencialidade
 - rótulo de retenção
+- caminho do arquivo
+- Política de DLP
 
-
-Você pode exibir os dados como uma lista ou como um gráfico de barras.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Toda conta que acessa e usa o explorador de atividades deve ter uma licença atribuída a partir de uma destas assinaturas:
+Toda conta que acessa e usa a classificação de dados deve ter uma licença atribuída a partir de uma destas assinaturas:
 
 - Microsoft 365 (E5)
 - Office 365 (E5)
 - Complemento de Conformidade Avançada (E5)
 - Complemento Avançado de Inteligência contra Ameaças (E5)
 
+### <a name="permissions"></a>Permissões
+
+ Para obter acesso à guia do explorador de atividades, é necessário atribuir uma conta à participação em qualquer uma dessas funções ou grupos de funções.
+
+**Grupos de funções do Microsoft 365**
+
+- Administrador global
+- Administrador de conformidade
+- Administrador de segurança
+- Administrador de dados de conformidade
+
 ## <a name="activity-type"></a>Tipo de atividade
 
-O Microsoft 365 monitora e relata 12 tipos de atividades em todo o SharePoint Online, OneDrive e pontos de extremidade. Os pontos de extremidade são dispositivos de usuário que executam o Windows 10.
+O Microsoft 365 monitora e relata os tipos de atividades em todo o SharePoint Online e OneDrive como:
 
-- Arquivo foi criado
-- Arquivo foi modificado
-- Arquivo foi renomeado
-- Arquivo foi copiado para a nuvem
-- Arquivo foi acessado por aplicativo que não tem permissão de acesso
-- Arquivo foi impresso
-- Arquivo foi copiado para mídia removível
-- Arquivo copiado ser compartilhado na rede
-- Arquivo foi lido
-- Arquivo foi copiado para a área de transferência
-- Rótulo foi aplicado
-- Rótulo foi alterado (atualizado, regredido ou removido)
+- rótulo foi aplicado
+- rótulo alterado (atualizado, regredido ou removido)
+- simulação de rotulação automática
 
 O vantagem de ficar sabendo que ações estão sendo tomadas com o conteúdo rotulado como confidencial é que você pode verificar se os controles que você já colocou em ação, tais como as [políticas de prevenção de perda de dados](data-loss-prevention-policies.md) estão sendo eficazes ou não. Se elas não estiverem funcionando, ou se você descobrir algo inesperado, como um grande número de itens que foram rotulados `highly confidential` e regredidos `general`, você pode gerenciar suas diversas políticas e executar novas ações para restringir o comportamento indesejado.
 
-Depois de definir os filtros, você poderá:
-
-- Passe o mouse sobre um segmento do gráfico de barras para ver o número de itens que se encontram nessa categoria ![imagem do explorador de atividade ao passar o mouse](../media/data-classification-activity-explorer-hover-over-2.png)
-- exportar os dados
-- selecione um determinado item na lista e exiba os detalhes da ação no submenu
-
-![detalhes do submenu do explorador de atividade](../media/data-classification-activity-explorer-fly-out-3.png)
+> [!NOTE]
+> O explorador de atividades não monitora atualmente as atividades de retenção do Exchange Online.
 
 ## <a name="see-also"></a>Confira também
 - [Rótulos de confidencialidade](sensitivity-labels.md)
 - [Rótulos de retenção](labels.md)
-- [O que os tipos de informação confidencial procuram](what-the-sensitive-information-types-look-for.md)
+- [Definições da entidade por tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
 - [Visão geral de políticas de retenção](retention-policies.md)

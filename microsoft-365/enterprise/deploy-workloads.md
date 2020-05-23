@@ -1,8 +1,8 @@
 ---
-title: Cenários e cargas de trabalho do Microsoft 365 para empresas
+title: Microsoft 365 para cargas de trabalho corporativas
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/21/2019
+ms.date: 05/15/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,14 +12,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Integre os usuários de sua organização às cargas de trabalho de produtividade do Microsoft 365 para empresas.
-ms.openlocfilehash: 7767f01d87029c7fc641a65442a5171b0d03eab5
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 0e1658655c4b97a7e571d1ac09c4b2edcc6c82ce
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066210"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268264"
 ---
-# <a name="microsoft-365-for-enterprise-workloads-and-scenarios"></a>Cenários e cargas de trabalho do Microsoft 365 para empresas
+# <a name="microsoft-365-for-enterprise-workloads"></a>Microsoft 365 para cargas de trabalho corporativas
 
 Para aproveitar os benefícios da criatividade e do trabalho em equipe do Microsoft 365 para empresas, implante essas cargas de trabalho em sua infraestrutura de base:
 
@@ -29,31 +29,13 @@ Para aproveitar os benefícios da criatividade e do trabalho em equipe do Micros
 
 Confira o artigo [migração](migration-microsoft-365-enterprise-workload.md) para obter um roteiro para migrar toda a sua organização para o Microsoft 365 para empresas, o que inclui os produtos de cliente do Microsoft Office, produtos do Office Server local e os dispositivos da Microsoft baseados no Windows.
 
-Os cenários usam recursos e serviços do Microsoft 365 para empresas de forma integrada para atender às necessidades empresariais. 
+Aqui estão as cargas de trabalho no guia geral de implantação do Microsoft 365 para empresas:
 
-É necessário garantir que seus funcionários trabalhem de forma produtiva e segura quando não estão conectados diretamente à sua intranet. Confira o cenário [Capacitar funcionários remotos](empower-people-to-work-remotely.md) para obter um roteiro para implantar os elementos da infraestrutura e conduzir o usuário remoto na adoção das principais cargas de trabalho, como o Teams e o Exchange Online.
+![As cargas de trabalho no guia geral de implantação do Microsoft 365 para empresas](../media/deploy-workloads/m365-deploy-content-arch-workloads.png)
 
-Outra dessas necessidades é proteger dados altamente regulamentados armazenados no Microsoft 365. Os dados altamente regulamentados incluem ativos digitais:
+## <a name="foundation-infrastructure-prerequisites"></a>Pré-requisitos de infraestrutura da fundação
 
-- Sujeitos a regulamentações regionais.
-- Mais importantes de sua organização, como segredos comerciais, financeiros ou informações de recursos humanos e estratégias da organização.
-
-Para proteger esses dados contra ameaças internas e externas, confira:
-
-- [Teams para dados altamente controlados](secure-teams-highly-regulated-data-scenario.md)
-- [Sites do SharePoint para dados altamente regulamentados](teams-sharepoint-online-sites-highly-regulated-data.md). 
-
-Este cenário oferece orientações passo a passo sobre como configurar um site do SharePoint ou uma equipe do Microsoft Teams para armazenar com segurança seus dados mais importantes.
-
-Veja a seguir os cenários e cargas de trabalho no guia de implantação geral do Microsoft 365 para empresas:
-
-![Cenários e cargas de trabalho no guia de implantação geral do Microsoft 365 para empresas](media/deploy-workloads/m365-deploy-content-arch-workloads.png)
-
-Confira a [Biblioteca de Produtividade do Microsoft 365](https://aka.ms/productivitylibrary) https://aka.ms/productivitylibrary) para ver cenários adicionais. 
-
-## <a name="foundation-infrastructure-prerequisites"></a>Pré-requisitos da infraestrutura de base
-
-*Idealmente*, você deve implantar as cargas de trabalho e os cenários depois de configurar todas as fases da [infraestrutura de base](deploy-foundation-infrastructure.md). Isso garante que todas as camadas de base subjacentes estejam prontas para oferecer integração, segurança e a melhor experiência para seus usuários e dispositivos.
+*Idealmente*, você deve implantar cargas de trabalho depois de configurar todas as fases da [infraestrutura da fundação](deploy-foundation-infrastructure.md). Isso garante que todas as camadas de base subjacentes estejam prontas para oferecer integração, segurança e a melhor experiência para seus usuários e dispositivos.
 
 | Fase | Resultado |
 |:-------|:-----|

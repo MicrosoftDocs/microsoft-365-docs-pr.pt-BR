@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Correspondência Exata de Dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 525d58a37fe4bb254d06ce7a4fcb6e2a54344a79
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 42adeca60c97fa2a3877f04055725a99a453b032
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035793"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327773"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
 
@@ -494,7 +494,7 @@ Os tipos de informações confidenciais do EDM para os cenários a seguir estão
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Tipos de informações confidenciais integradas e o que procuram](what-the-sensitive-information-types-look-for.md)
+[Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
 
 [Tipos personalizados de informações confidenciais](custom-sensitive-info-types.md)
 

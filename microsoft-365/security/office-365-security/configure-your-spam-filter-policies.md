@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
-ms.openlocfilehash: 66266ac79f6f442c8551b9ec15d553d6fb074cdc
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 85517d5caeac900623c61ef8294b416ddbd97eb8
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209554"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213371"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
@@ -29,9 +29,9 @@ Em organizações do Microsoft 365 com caixas de correio no Exchange Online ou u
 
 Os administradores podem visualizar, editar e configurar (mas não excluir) a política antispam padrão. Para maior granularidade, também é possível criar políticas antispam personalizadas aplicadas a determinados usuários, grupos ou domínios na sua organização. Políticas personalizadas sempre terão prioridade sobre a política padrão, mas você pode alterar a prioridade (ordem de execução) de suas políticas personalizadas.
 
-Você pode configurar políticas antispam no Centro de Conformidade e Segurança ou no PowerShell (o PowerShell do Exchange Online para organizações do Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell único para empresas que não têm caixas de correio do Exchange Online).
+Você pode configurar políticas anti-spam no Centro de Conformidade e Segurança ou no PowerShell (organizações do Exchange Online PowerShell para Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio do Exchange Online).
 
-## <a name="anti-spam-policies-in-the-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>Políticas antispam no Centro de Conformidade e Segurança versus Exchange Online Windows PowerShell ou Exchange Online Protection WindowsPowerShell
+## <a name="anti-spam-policies-in-the-security--compliance-center-vs-powershell"></a>Use o Centro de conformidade e segurança para remover políticas antispam
 
 Os elementos básicos de uma política antispam na EOP são:
 
@@ -47,7 +47,7 @@ A diferença entre esses dois elementos não é óbvia quando você gerencia as 
 
 - Quando você remove uma política antispam do Centro de Conformidade e Segurança, a regra de filtro de spam e a política de filtro de spam associada são removidas.
 
-No PowerShell do Exchange Online ou no PowerShell da Proteção do Exchange Online autônoma, a diferença entre as políticas de filtro de spam e as regras de filtro de spam é aparente. Gerencie políticas de filtro de spam usando os cmdlets **\*-HostedContentFilterPolicy** e gerencie regras de filtro de spam usando os cmdlets **\*-HostedContentFilterRule**.
+No Exchange Online PowerShell ou no EOP PowerShell autônomo, a diferença entre políticas de filtro de spam e regras de filtro de spam é aparente. Gerencie políticas de filtro de spam usando os cmdlets **\*-HostedContentFilterPolicy** e gerencie regras de filtro de spam usando os cmdlets **\*-HostedContentFilterRule**.
 
 - No PowerShell, crie primeiro a política de filtro de spam, para depois criar a regra de filtro de spam que identifica a política à qual a regra se aplica.
 
@@ -71,7 +71,7 @@ Para aumentar a eficácia da filtragem de spam, crie políticas antispam persona
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>.
 
-- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell da Proteção do Exchange Online autônoma, confira [Conectar ao PowerShell da Proteção do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - Você precisa receber permissões para executar esses procedimentos. Para adicionar, modificar e excluir políticas antispam, você precisa ser membro dos grupos de funções **Gerenciamento da Organização** ou **Administrador de Segurança**. Para obter acesso apenas de leitura às políticas de spam, você precisa ser membro do grupo de função **Leitor de Segurança**. Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
@@ -363,7 +363,7 @@ Quando um veredito de filtragem de spam coloca uma mensagem em quarentena, é po
 
 Não é possível remover a política padrão.
 
-## <a name="use-exchange-online-powershell-or-exchange-online-protection-powershell-to-configure-anti-spam-policies"></a>Usar o PowerShell do Exchange Online ou o PowerShell da Proteção do Exchange Online para configurar políticas antispam
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies"></a>Use o Exchange Online PowerShell ou EOP PowerShell autônomo para configurar políticas anti-spam
 
 As seguintes configurações de política antispam só estão disponíveis no PowerShell:
 

@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: 'Para administradores: saiba como usar o carregamento de rede para importar arquivos PST em massa para as caixas de correio dos usuários no Microsoft 365.'
-ms.openlocfilehash: 1794452b0122cc2686c0af2df782b6209d502162
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9aeee6040b3b5a8505a09ffc696a14f515af0e43
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630498"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224502"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-microsoft-365"></a>Use o carregamento de rede para importar arquivos PST da sua organização para o Microsoft 365
 
@@ -85,6 +85,8 @@ Será preciso executar a Etapa 1 apenas uma vez para importar arquivos PST para 
     
     > [!TIP]
     > Para identificar o tamanho de recebimento da mensagem de uma caixa de correio, execute esse comando no Exchange Online PowerShell:  `Get-Mailbox <user mailbox> | FL MaxReceiveSize`.
+
+- Para obter uma visão geral de alto nível do processo de importação do PST, consulte [Como o processo de importação funciona](#how-the-import-process-works) neste artigo.
 
 ## <a name="step-1-copy-the-sas-url-and-install-azcopy"></a>Etapa 1: copiar a URL SAS e instalar o AzCopy
 
@@ -311,27 +313,7 @@ Depois de criar o trabalho de importação na Etapa 5, o Microsoft 365 analisa o
     
     O status do trabalho de importação é exibido na página **Importar arquivos PST**. Clique no ![Ícone Atualizar](../media/O365-MDM-Policy-RefreshIcon.gif) **Atualizar** para atualizar as informações de status exibidas na coluna**Status**.  Clique no trabalho de importação para exibir a página de status do submenu, que exibe informações de status sobre cada arquivo PST sendo importado.. 
 
-## <a name="how-the-import-process-works"></a>Como o processo de importação funciona
-  
-Você pode usar a opção de carregamento de rede e o serviço de importação do Office 365 para importar arquivos PST para as caixas de correio dos usuários. O carregamento de rede significa que você carrega os arquivos PST em uma área de armazenamento temporário na nuvem da Microsoft. Em seguida, o serviço de Importação do Office 365 copia os arquivos PST da área armazenamento para as caixas de correio do usuário de destino.
-  
-Esta é uma ilustração e uma descrição do processo de carregamento de rede para importar arquivos PST para caixas de correio no Office 365.
-  
-![Fluxo de trabalho do processo de carregamento de rede para importar arquivos PST para o Office 365](../media/9e05a19e-1e7a-4f1f-82df-9118f51588c4.png)
-  
-1. **Baixar a ferramenta de importação de PST e a chave para o local privado de armazenamento do Azure:** a primeira etapa é baixar a ferramenta de linha de comando do AzCopy e uma chave de acesso usada para carregar os arquivos PST em um local de armazenamento do Azure na nuvem da Microsoft. Você obtém isso na página **Importar** no Centro de Conformidade e Segurança. A chave SAS (chamada de chave de assinatura de acesso seguro) fornece as permissões necessárias para carregar arquivos PST para um local de armazenamento do Azure particular e seguro. Essa chave de acesso é exclusiva à sua organização e ajuda a impedir o acesso não autorizado aos seus arquivos PST depois que eles são carregados na nuvem da Microsoft. Observe que importar arquivos PST não exige que sua organização tenha uma assinatura separada do Azure. 
-    
-2. **Carregue os arquivos PST para o loca de armazenamento do Azure:** a próxima etapa é usar a ferramenta AzCopy. exe (baixada na etapa 1) para carregar e armazenar os arquivos PST em um local de armazenamento do Azure que resida no mesmo datacenter regional da Microsoft em que a sua organização está localizada. Para carregá-los, os arquivos PST que você deseja importar devem estar localizados em um compartilhamento de arquivos ou em um servidor de arquivos em sua organização.
-    
-    Observe que há uma etapa opcional que você pode executar para exibir a lista de arquivos PST após eles serem carregados para o local de armazenamento do Azure.
-    
-3. **Criar um arquivo de mapeamento de importação de PST** - Depois de carregar os arquivos PST para o local de armazenamento do Azure, a próxima etapa é criar um arquivo de valores separados por vírgula (CSV) que especifica para quais caixas de correio de usuário os arquivos PST serão importados, observe que um arquivo PST pode ser importado para caixa de correio principal do usuário ou para a caixa de correio de arquivo morto. O serviço de Importação do Office 365 usará as informações no arquivo CSV para importar os arquivos PST.
-    
-4. **Criar um trabalho de importação PST:** a próxima etapa é criar um trabalho de importação PST na página **Importar arquivos PST** no Centro de Conformidade e Segurança e enviar o arquivo de mapeamento de importação PST criado na etapa anterior. Depois de criar o trabalho de importação, o Microsoft 365 analisa os dados dos arquivos PST e oferece a oportunidade de definir filtros que controlam quais dados serão importados para as caixas de correio especificadas no arquivo de mapeamento de importação de PST. 
-    
-5. **Filtre os dados PST que serão importados para as caixas de correio:** depois que o trabalho de importação é criado e iniciado, o Microsoft 365 analisa os dados nos arquivos PST (de forma segura) identificando a idade dos itens e os diferentes tipos de mensagens incluídas nos arquivos PST. Quando esta análise for concluída e os dados estiverem prontos para importação, você terá a opção de importar todos os dados contidos nos arquivos PST ou cortar os dados que serão importados configurando filtros para controlar quais dados serão importados.
-    
-6. **Inicie o trabalho de importação de PST:** depois que o trabalho de importação é iniciado, o Microsoft 365 usa as informações do arquivo de mapeamento de importação PST para importar os arquivos PSTs do local de armazenamento do Azure para as caixas de correio de usuário. Informações de status sobre o trabalho de importação (incluindo informações sobre cada arquivo PST que está sendo importado) são exibidas na página **Importar arquivos PST** no Centro de Conformidade e Segurança. Quando o trabalho de importação for concluído, o status do trabalho será definido como **Concluído**. 
+
   
 ## <a name="more-information"></a>Mais informações
 
@@ -382,3 +364,25 @@ Esta é uma ilustração e uma descrição do processo de carregamento de rede p
    - Você pode configurar a retenção para que ela seja desativada em alguma data no futuro. Para fazer isso, execute o comando de **data *Set-Mailbox-EndDateForRetentionHold***. Por exemplo, supondo que a data de hoje seja 01º de junho de 2016 e você quer que a retenção seja desabilitada em 30 dias, execute o seguinte comando: **Set-Mailbox-EndDateForRetentionHold 7/1/2016**. Nesse cenário, você deixaria a propriedade **RetentionHoldEnabled** definida como *Verdadeira*. Para obter mais informações, consulte [Set-Mailbox](https://go.microsoft.com/fwlink/p/?LinkId=150317).
     
    - Você pode alterar as configurações da política de retenção atribuída à caixa de correio para que os itens mais antigos que foram importados não sejam excluídos ou movidos imediatamente para a caixa de correio de arquivo morto do usuário. Por exemplo, você pode aumentar o período de retenção para uma política de exclusão ou arquivamento atribuída à caixa de correio. Nesse cenário, você desabilitaria a retenção na caixa de correio depois de alterar as configurações da política de retenção. Para obter mais informações, consulte [Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização](set-up-an-archive-and-deletion-policy-for-mailboxes.md).
+
+### <a name="how-the-import-process-works"></a>Como o processo de importação funciona
+  
+Você pode usar a opção de carregamento de rede e o serviço de importação do Office 365 para importar arquivos PST para as caixas de correio dos usuários. O carregamento de rede significa que você carrega os arquivos PST em uma área de armazenamento temporário na nuvem da Microsoft. Em seguida, o serviço de Importação do Office 365 copia os arquivos PST da área armazenamento para as caixas de correio do usuário de destino.
+  
+Esta é uma ilustração e uma descrição do processo de carregamento de rede para importar arquivos PST para caixas de correio no Office 365.
+  
+![Fluxo de trabalho do processo de carregamento de rede para importar arquivos PST para o Office 365](../media/9e05a19e-1e7a-4f1f-82df-9118f51588c4.png)
+  
+1. **Baixar a ferramenta de importação de PST e a chave para o local privado de armazenamento do Azure:** a primeira etapa é baixar a ferramenta de linha de comando do AzCopy e uma chave de acesso usada para carregar os arquivos PST em um local de armazenamento do Azure na nuvem da Microsoft. Você obtém isso na página **Importar** no Centro de Conformidade e Segurança. A chave SAS (chamada de chave de assinatura de acesso seguro) fornece as permissões necessárias para carregar arquivos PST para um local de armazenamento do Azure particular e seguro. Essa chave de acesso é exclusiva à sua organização e ajuda a impedir o acesso não autorizado aos seus arquivos PST depois que eles são carregados na nuvem da Microsoft. Observe que importar arquivos PST não exige que sua organização tenha uma assinatura separada do Azure. 
+    
+2. **Carregue os arquivos PST para o loca de armazenamento do Azure:** a próxima etapa é usar a ferramenta AzCopy. exe (baixada na etapa 1) para carregar e armazenar os arquivos PST em um local de armazenamento do Azure que resida no mesmo datacenter regional da Microsoft em que a sua organização está localizada. Para carregá-los, os arquivos PST que você deseja importar devem estar localizados em um compartilhamento de arquivos ou em um servidor de arquivos em sua organização.
+    
+    Observe que há uma etapa opcional que você pode executar para exibir a lista de arquivos PST após eles serem carregados para o local de armazenamento do Azure.
+    
+3. **Criar um arquivo de mapeamento de importação de PST** - Depois de carregar os arquivos PST para o local de armazenamento do Azure, a próxima etapa é criar um arquivo de valores separados por vírgula (CSV) que especifica para quais caixas de correio de usuário os arquivos PST serão importados, observe que um arquivo PST pode ser importado para caixa de correio principal do usuário ou para a caixa de correio de arquivo morto. O serviço de Importação do Office 365 usará as informações no arquivo CSV para importar os arquivos PST.
+    
+4. **Criar um trabalho de importação PST:** a próxima etapa é criar um trabalho de importação PST na página **Importar arquivos PST** no Centro de Conformidade e Segurança e enviar o arquivo de mapeamento de importação PST criado na etapa anterior. Depois de criar o trabalho de importação, o Microsoft 365 analisa os dados dos arquivos PST e oferece a oportunidade de definir filtros que controlam quais dados serão importados para as caixas de correio especificadas no arquivo de mapeamento de importação de PST. 
+    
+5. **Filtre os dados PST que serão importados para as caixas de correio:** depois que o trabalho de importação é criado e iniciado, o Microsoft 365 analisa os dados nos arquivos PST (de forma segura) identificando a idade dos itens e os diferentes tipos de mensagens incluídas nos arquivos PST. Quando esta análise for concluída e os dados estiverem prontos para importação, você terá a opção de importar todos os dados contidos nos arquivos PST ou cortar os dados que serão importados configurando filtros para controlar quais dados serão importados.
+    
+6. **Inicie o trabalho de importação de PST:** depois que o trabalho de importação é iniciado, o Microsoft 365 usa as informações do arquivo de mapeamento de importação PST para importar os arquivos PSTs do local de armazenamento do Azure para as caixas de correio de usuário. Informações de status sobre o trabalho de importação (incluindo informações sobre cada arquivo PST que está sendo importado) são exibidas na página **Importar arquivos PST** no Centro de Conformidade e Segurança. Quando o trabalho de importação for concluído, o status do trabalho será definido como **Concluído**. 

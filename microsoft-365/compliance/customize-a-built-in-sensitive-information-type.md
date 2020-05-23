@@ -16,18 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Ao procurar informações confidenciais no conteúdo, você precisa descrevê-las no que é chamado de regra. A Prevenção contra perda de dados (DLP) inclui regras para os tipos de informação confidencial mais comuns que você pode usar imediatamente. Para usar essas regras, você precisa incluí-las em uma política. Se quiser ajustar essas regras internas para atender às necessidades específicas da sua organização, basta criar um tipo de informação confidencial personalizado. Este tópico mostra como personalizar o arquivo XML que contém a coleção de regras existente para detectar um intervalo maior de possíveis informações de cartão de crédito.
-ms.openlocfilehash: 4c61ab1a60b6259509d2928e22d31e447a996ec9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2aa552fb7a2623aaa7783063e82101a1993b9d1c
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595488"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327289"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>Personalizar um tipo de informação confidencial interno
 
 Ao procurar informações confidenciais no conteúdo, você precisa descrevê-las no que é chamado de *regra*. A Prevenção contra perda de dados (DLP) inclui regras para os tipos de informação confidencial mais comuns que você pode usar imediatamente. Para usar essas regras, você precisa incluí-las em uma política. Se quiser ajustar essas regras internas para atender às necessidades específicas da sua organização, basta criar um tipo de informação confidencial personalizado. Este tópico mostra como personalizar o arquivo XML que contém a coleção de regras existente para detectar um intervalo maior de possíveis informações de cartão de crédito. 
   
-Você pode aplicar este exemplo a outros tipos internos de informação confidencial. Confira uma lista de tipos de informação confidencial padrão e definições de XML em [O que se procura nos tipos de informação confidencial](what-the-sensitive-information-types-look-for.md). 
+Você pode pegar este exemplo e aplicá-lo a outros tipos internos de informações confidenciais. Para obter uma lista dos tipos de informações confidenciais padrão e das definições XML, consulte [Definições da entidade do tipo de informações confidenciais.](sensitive-information-type-entity-definitions.md). 
   
 ## <a name="export-the-xml-file-of-the-current-rules"></a>Exportar o arquivo XML das regras atuais
 
@@ -234,7 +234,7 @@ Estas são as definições dos termos encontrados durante este procedimento.
    
 ## <a name="for-more-information"></a>Para obter mais informações
 
-- [O que os tipos de informação confidencial procuram](what-the-sensitive-information-types-look-for.md)
+- [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
     
 - [Criar um tipo de informação confidencial personalizado](create-a-custom-sensitive-information-type.md)
     

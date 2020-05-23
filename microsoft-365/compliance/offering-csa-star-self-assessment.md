@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 03f80deca7ba9a65dd47ac814d15eb5a8f764f10
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 5abbfff81bd79e200eeaf0db680245ae8e449cb0
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066444"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254184"
 ---
 # <a name="cloud-security-alliance-csa-star-self-assessment"></a>Autoavaliação Star da Cloud Security Alliance (CSA)
 
@@ -68,7 +68,7 @@ Ela permite aos CSPs documentar a conformidade com as melhores práticas publica
 **Quais níveis de garantia STAR da CSA os serviços de nuvem comercial da Microsoft atingiram?**
 
 - **Nível 1**: **Autoavaliação STAR da CSA**: Azure, Dynamics 365 e Office 365. A autoavaliação é uma oferta de cortesia dos provedores de serviços de nuvem para documentar seus controles de segurança para ajudar os clientes a avaliarem a segurança do serviço.
-- **Nível 2**: **Certificação STAR da CSA**: Azure, Cloud App Security, Intune e Power BI. A Certificação STAR se baseia em obter a certificação ISO/IEC 27001 e os critérios de reunião especificados no CCM. Ele é concedido depois de uma rigorosa avaliação de terceiros sobre os controles e práticas de segurança de um provedor de serviços de nuvem.
+- **Nível 2**: **Certificação CSA STAR**: Azure, Segurança do aplicativo em nuvem da Microsoft, Intune e Power BI. A Certificação STAR se baseia em obter a certificação ISO/IEC 27001 e os critérios de reunião especificados no CCM. Ele é concedido depois de uma rigorosa avaliação de terceiros sobre os controles e práticas de segurança de um provedor de serviços de nuvem.
 - **Nível 2**: **Atestado STAR da CSA**: Azure e Intune. A CSA e os AICPA colaboraram para fornecer diretrizes para os CPAs usarem na realização de compromissos do SOC 2, usando critérios dos AICPA (Trust Service Principles, AT 101) e do CCM da CSA. O Atestado STAR se baseia nessas diretrizes e é concedido depois de rigorosas avaliações independentes de provedores em nuvem.
 
 ## <a name="resources"></a>Recursos

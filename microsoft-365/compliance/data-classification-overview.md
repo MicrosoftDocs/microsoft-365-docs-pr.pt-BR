@@ -1,5 +1,5 @@
 ---
-title: Introdução à classificação de dados (visualização)
+title: Começar a usar a classificação de dados
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -16,14 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 description: O painel de classificação de dados permite visualizar a quantidade de dados confidenciais encontrados e classificados em sua organização.
-ms.openlocfilehash: 15beb3c0716aeb780fb3bfed3b3a8fa74557574d
-ms.sourcegitcommit: fa6a1e432747e150df945050a3744b4408ceb2d9
+ms.openlocfilehash: eda58ea2d34713a5c2cef40bbc2aa21b9964ddab
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43957271"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327867"
 ---
-# <a name="know-your-data---data-classification-overview-preview"></a>Conheça seus dados - visão geral da classificação de dados (visualização)
+# <a name="know-your-data---data-classification-overview"></a>Conheça seus dados - visão geral da classificação de dados
 
 Como administrador de conformidade ou administrador do Microsoft 365, você pode avaliar e marcar o conteúdo da sua organização para controlar o seu destino, protegê-lo independentemente de onde ele estiver e garantir que ele seja preservado e excluído de acordo com as necessidades da sua organização. Isso é feito através da aplicação de [rótulos de confidencialidade](sensitivity-labels.md), [rótoulos de retenção](labels.md) classificação de tipos de informações confidenciais. Há várias maneiras de fazer a descoberta, a avaliação e a marcação, mas o resultado final é que você pode acabar tendo um número muito grande de documentos e emails marcados e classificados com um ou ambos os rótulos. Depois de criar seus rótulos de retenção e rótulos de confidencialidade, você vai querer saber como eles estão sendo usados em seu locatário e o que está sendo feito com esses itens. A página classificação de dados dá visibilidade ao corpo do conteúdo, especificamente:
 
@@ -33,11 +33,41 @@ Como administrador de conformidade ou administrador do Microsoft 365, você pode
 - um resumo das atividades que os usuários estão executando no conteúdo confidencial
 - os locais onde estão os seus dados confidenciais e retidos
 
+Você também gerencia esses recursos na página de classificação de dados:
+- [classificadores treináveis](classifier-getting-started-with.md)
+- [tipos de informações confidenciais](what-the-sensitive-information-types-look-for.md)
+
 Você pode encontrar a classificação de dados no **Centro de conformidade do Microsoft 365** ou no **Centro de segurança do Microsoft 365** > **Classificação**  >  ** Classificação de Dados**.
+
+Faça um tour em vídeo de nossos recursos de classificação de dados.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vx8x]
+
+A classificação de dados verificará seu conteúdo confidencial e conteúdo rotulado antes de criar quaisquer políticas. Isso se chama **gerenciamento de alterações zero**. Isso permite que você veja o impacto de que todos os rótulos de retenção e sensibilidade estão tendo no ambiente e capacitam você a começar a avaliar a proteção e as necessidades de políticas de governança.
+
+## <a name="prerequisites"></a>Pré-requisitos
+
+Toda conta que acessa e usa a classificação de dados deve ter uma licença atribuída a partir de uma destas assinaturas:
+
+- Microsoft 365 (E5)
+- Office 365 (E5)
+- Complemento de Conformidade Avançada (E5)
+- Complemento Avançado de Inteligência contra Ameaças (E5)
+
+### <a name="permissions"></a>Permissões
+
+ Para obter acesso à página de classificação de dados, é necessário atribuir uma associação a uma conta para uma dessas funções ou grupos de funções.
+
+**Grupos de funções do Microsoft 365**
+
+- Administrador global
+- Administrador de conformidade
+- Administrador de segurança
+- Administrador de dados de conformidade
 
 ## <a name="sensitive-information-types-used-most-in-your-content"></a>Tipos de informações confidenciais mais usados no seu conteúdo
 
-O Microsoft 365 vem com várias definições de tipos de informações confidenciais, tal como um item contendo um número de seguridade social ou um número de cartão de crédito. Para obter mais informações sobre os tipos de informações confidenciais, confira [O que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md).
+O Microsoft 365 vem com várias definições de tipos de informações confidenciais, tal como um item contendo um número de seguridade social ou um número de cartão de crédito. Para obter mais informações sobre os tipos de informações confidenciais, confira [Definições da entidade de tipo de informações confidenciais](sensitive-information-type-entity-definitions.md).
 
 O cartão do tipo de informações confidenciais mostra os principais tipos de informações confidenciais que foram encontrados e rotulados em toda a organização.
 
@@ -51,7 +81,7 @@ Para saber quantos itens estão em uma determinada categoria de classificação,
 > Se o cartão exibir a mensagem «não foram encontrados dados com informações confidenciais». Isso significa que não há nenhum item em sua organização que tenha sido classificado como sendo um tipo de informação confidencial ou nenhum item que tenha sido rastreado. Para começar a usar os rótulos, confira:
 >- [Rótulos de confidencialidade ](sensitivity-labels.md)
 >- [Rótulos de retenção](labels.md)
->- [O que os tipos de informação confidencial procuram](what-the-sensitive-information-types-look-for.md)
+>- [Definições da entidade por tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
 
 ## <a name="top-sensitivity-labels-applied-to-content"></a>Principais rótulos de confidencialidade aplicados ao conteúdo
 
@@ -106,5 +136,6 @@ O objetivo do relatório de classificação de dados é fornecer visibilidade so
 - [Exibir conteúdo rotulado (visualização)](data-classification-content-explorer.md)
 - [Rótulos de confidencialidade ](sensitivity-labels.md)
 - [Rótulos de retenção](labels.md)
-- [O que os tipos de informação confidencial procuram](what-the-sensitive-information-types-look-for.md)
+- [Definições da entidade por tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
 - [Visão geral de políticas de retenção](retention-policies.md)
+- [Introdução aos classificadores treináveis (visualização)](classifier-getting-started-with.md)

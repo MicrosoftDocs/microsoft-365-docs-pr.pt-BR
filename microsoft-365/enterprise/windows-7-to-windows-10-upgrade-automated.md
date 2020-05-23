@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Atualizações automatizadas do Windows 7 para o Windows 10 para grandes organizações
-ms.openlocfilehash: 575ffba84b2cd7b7cfe5267a35a9f36c75dbe306
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: c151c5488fdbc77dc2da7dd308bafb75b6bb5f22
+ms.sourcegitcommit: ad789f1e7bf9c9dc0d45c731373e667a26ed30b1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011546"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221393"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>Atualizações automáticas in-loco do Windows 7 para o Windows 10 para grandes organizações
 
@@ -90,7 +90,7 @@ A [opção de cache anterior](https://docs.microsoft.com/mem/configmgr/osd/deplo
 
 Sequências de tarefas anteriores ao cache combinadas com verificações de compatibilidade
 
-Além de economizar tempo para o download do pacote, você pode pré-testar o pacote de atualização e usar a instalação do Windows para avaliar se a atualização in-loco será bem-sucedida antes de executar a atualização do Windows. A seguinte sintaxe de linha de comando pode ser usada para executar silenciosamente uma verificação de compatibilidade e descobrir se a instalação do Windows avalia ou não o dispositivo como pronto para atualização.
+Além de economizar tempo para o download do pacote, você pode pré-testar o pacote de atualização e usar a instalação do Windows para avaliar se a atualização in-loco será bem-sucedida antes de executar a atualização do Windows. A seguinte sintaxe da linha de comando pode ser usada para executar silenciosamente uma verificação de compatibilidade e descobrir se a Instalação do Windows avalia ou não o dispositivo como pronto para ser atualizado: **Setup.EXE /Auto Upgrade /Quiet /NoReboot /Compat ScanOnly**
 
 Os logs serão enviados para o caminho de servidor definido e a instalação do Windows não será exibida para o usuário e feche sem a interação do usuário.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Você pode usar o recurso pesquisar e limpar do Centro de Segurança e Conformidade para pesquisar e excluir uma mensagem de e-mail de todas as caixas de correio da sua organização.
-ms.openlocfilehash: 69df11f00680aec2380ed5663761a29bc1fcfebc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: cec7229da0d6bef9af94dfc017794ece21aa0ac8
+ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626437"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44292437"
 ---
 # <a name="search-for-and-delete-email-messages"></a>Pesquisar e excluir mensagens de email
 
@@ -42,14 +42,16 @@ Você pode usar o recurso Pesquisa de Conteúdo para pesquisar e excluir uma men
 ## <a name="before-you-begin"></a>Antes de começar
 
 - Para criar e executar uma pesquisa de conteúdo, você precisa ser membro do grupo de funções **Gerente de Descoberta Eletrônica**ou então ter sido designado para a função de gerenciador de**Pesquisa de Conformidade**. Para excluir mensagens, você tem de ser membro do grupo de funções **Gerenciamento da Organização** ou ter sido designado para a função de gerenciamento **Pesquisar e Limpar**. Para saber mais sobre como adicionar usuários a um grupo de função, confira [Atribuir permissões de Descoberta Eletrônica no Centro de Segurança e Conformidade](assign-ediscovery-permissions.md).
-    
+
 - Você tem que usar o Centro de Segurança e Conformidade do PowerShell para excluir mensagens. Consulte a[Etapa 2](#step-2-connect-to-security--compliance-center-powershell) para obter instruções sobre como se conectar.
-    
+
 - Só é possível remover no máximo dez itens de cada vez por caixa de correio. Como o recurso de pesquisa e remoção de mensagens tem como objetivo ser uma ferramenta de resposta a incidentes, esse limite ajuda a garantir que as mensagens sejam rapidamente removidas das caixas de correio. Este recurso não tem como objetivo limpar as caixas de correio do usuário.
-    
+
 - O número máximo de caixas de correio em uma pesquisa de conteúdo na qual você pode excluir itens executando uma ação de pesquisar e limpar é de 50.000. Se a pesquisa de conteúdo (que você cria na [ Etapa 1](#step-1-create-a-content-search-to-find-the-message-to-delete)) tiver mais de 50.000 caixas de correio de origem, a ação limpar (que você vai criar na etapa 3) falhará. Confira a seção[Mais informações](#more-information) para obter uma dica de como executar uma operação Pesquisar e limpar em mais de 50.000 caixas de correio. 
-    
+
 - O procedimento neste artigo só pode ser usado para excluir itens nas caixas de correio e pastas públicas do Exchange Online. Não é possível usá-lo para excluir o conteúdo dos sites do SharePoint ou do OneDrive for Business.
+
+- Os itens de e-mail em um conjunto de revisões em um caso de Descoberta eletrônica avançada não podem ser excluídos usando os procedimentos deste artigo. Isso ocorre porque os itens de um conjunto de revisão são armazenados em um local de armazenamento do Azure e não no serviço em tempo real. Isso significa que eles não serão retornados pela pesquisa de conteúdo criada na Etapa 1. Para excluir itens em um conjunto de revisões, é necessário excluir o caso de Descoberta eletrônica avançada que contém o conjunto de revisões. Para obter mais informações, consulte [Fechar ou excluir um caso de descoberta eletrônica avançado](close-or-delete-case.md).
     
 ## <a name="step-1-create-a-content-search-to-find-the-message-to-delete"></a>Etapa 1: Criar uma Pesquisa de conteúdo para localizar a mensagem para exclusão
 

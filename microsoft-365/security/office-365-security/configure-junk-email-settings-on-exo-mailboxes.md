@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online. Muitas dessas configurações estão disponíveis para usuários no Outlook ou no Outlook na Web.
-ms.openlocfilehash: ea3727bcfa90229da64db96b531885383d2bf7ed
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 11c01c289ad00475cfa458d0585f377287c495b0
+ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206623"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "44347790"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online
 
@@ -40,6 +40,9 @@ Quando a regra de lixo eletrônico está habilitada na caixa de correio, o EOP �
  Quando a regra de lixo eletrônico está desabilitada na caixa de correio, o EOP não pode mover mensagens para a pasta lixo eletrônico com base na ação veredicto de filtragem de spam **mover mensagem para a pasta lixo eletrônico ou para** a coleção de lista segura na caixa de correio.
 
 Os administradores podem usar o PowerShell do Exchange Online para desabilitar, habilitar e exibir o status da regra de lixo eletrônico em caixas de correio. Os administradores também podem usar o PowerShell do Exchange Online para configurar entradas na coleção de lista segura em caixas de correio (a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados).
+
+> [!NOTE]
+> As mensagens de remetentes que os usuários adicionaram às suas próprias listas de remetentes confiáveis ignorarão a filtragem EOP (o SCL será-1). Para impedir que os usuários adicionem entradas à sua lista de remetentes confiáveis no Outlook, use a política de grupo, conforme mencionado na seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) , posteriormente neste tópico.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -165,7 +168,7 @@ Para verificar se você configurou com êxito a coleção de lista segura em uma
 
 ## <a name="about-junk-email-settings-in-outlook"></a>Sobre as configurações de lixo eletrônico no Outlook
 
-Para habilitar, desabilitar e configurar as definições de filtro de lixo eletrônico do lado do cliente disponíveis no Outlook, use a política de grupo. Para obter mais informações, consulte [arquivos de modelo administrativo (admx/adml) e ferramenta de personalização do Office para o Microsoft 365 aplicativos para Enterprise, office 2019 e office 2016](https://www.microsoft.com/download/details.aspx?id=49030).
+Para habilitar, desabilitar e configurar as definições de filtro de lixo eletrônico do lado do cliente disponíveis no Outlook, use a política de grupo. Para obter mais informações, consulte [arquivos de modelo administrativo (admx/adml) e ferramenta de personalização do Office para o Microsoft 365 aplicativos para Enterprise, office 2019 e office 2016](https://www.microsoft.com/download/details.aspx?id=49030) e [como implantar configurações de lixo eletrônico, como a lista de remetentes confiáveis, usando a política de grupo](https://support.microsoft.com/help/2252421/how-to-deploy-junk-email-settings-such-as-the-safe-senders-list-by-usi).
 
 Quando o filtro de lixo eletrônico do Outlook está definido como o valor padrão **sem filtragem automática** nas opções de opções de lixo eletrônico **doméstica** \> **Junk** \> **Junk E-Mail Options** \> **Options**, o Outlook não tenta classificar massages como spam, mas ainda usa a coleção de listas seguras (a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados) para mover mensagens para a pasta lixo eletrônico após a entrega. Para obter mais informações sobre essas configurações, consulte [visão geral do filtro de lixo eletrônico](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089).
 

@@ -27,18 +27,18 @@ ms.custom:
 - OKR_SMB_Videos
 ms.assetid: 2ae3ea58-4fce-4592-91d6-46e9ae3ec218
 description: Localize a sua fatura ou demonstrativo de cobrança no Centro de administração do Microsoft 365. Você também pode salvar e imprimir uma cópia da fatura.
-ms.openlocfilehash: 9a7f6f7c28d429135959fa2612dd24721e35366b
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 7425c0b49ff65fa0d5c777e3c7fdb7af99488a9d
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942860"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232776"
 ---
 # <a name="view-your-bill-or-invoice"></a>Exibir sua fatura
 
 Este artigo é destinado para pessoas que possuam uma assinatura do Microsoft 365 for Business. Você deve ser um administrador global ou administrador de cobrança para realizar as etapas descritas neste artigo.
   
-Se precisar de ajuda para interpretar as cobranças presentes na fatura, confira o passo a passo detalhado em [Entenda sua fatura](understand-your-invoice2.md).
+Se precisar de ajuda para interpretar as cobranças na sua fatura, consulte [Compreender sua conta ou fatura](understand-your-invoice2.md) para obter uma explicação detalhada.
   
  **Não é um administrador?** Contate o administrador de TI para obter ajuda. 
   

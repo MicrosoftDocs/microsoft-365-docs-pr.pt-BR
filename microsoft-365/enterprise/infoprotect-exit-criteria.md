@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Examinar os critérios da infraestrutura e dos serviços com base na proteção de informações a fim de garantir que sua configuração atenda aos requisitos do Microsoft 365 Enterprise.
-ms.openlocfilehash: c0b4ff6a0d289b8a8c63255d817ea455df00bf13
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 19f4fc4ae93c00e33a2f58d8c23582e6e49cf887
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631628"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268216"
 ---
 # <a name="information-protection-infrastructure-exit-criteria"></a>Critérios de saída da infraestrutura de proteção de informações
 
@@ -44,7 +44,7 @@ Se necessário, a [Etapa 1](infoprotect-define-sec-infoprotect-levels.md) pode a
 <a name="crit-infoprotect-step3"></a>
 ## <a name="required-increased-security-for-microsoft-365-is-configured"></a>Obrigatório: configuração de segurança aprimorada para Microsoft 365 
 
-Você definiu as seguintes configurações da [Segurança aprimorada do Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security):
+Você definiu as configurações a seguir para [segurança aprimorada do Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security):
 
 - Políticas de gerenciamento de ameaças na Central de segurança do Microsoft 365
 - Configurações adicionais para todos os locatários do Exchange Online
@@ -82,11 +82,11 @@ Seus dispositivos Windows 10 Enterprise registrados têm uma política do Intune
 Se necessário, a [Etapa 4](infoprotect-deploy-windows-information-protection.md) pode ajudá-lo a atender a esse requisito. 
 
 <a name="crit-infoprotect-step5"></a>
-## <a name="optional-data-loss-prevention-dlp-is-deployed"></a>Opcional: a Prevenção de perda de dados (DLP) está implementada
+## <a name="optional-data-loss-prevention-dlp-is-deployed"></a>Opcional: a Prevenção contra Perda de Dados (DLP) está implementada
 
 Você analisou, testou e depois lançou o conjunto de políticas de DLP - com locais e regras com condições e ações - que sua organização exige para proteger os clientes e outros tipos de dados privados e aderir aos regulamentos e requisitos do setor e regionais.
 
-Sua equipe de conformidade e segurança de dados está usando o painel Segurança e conformidade para monitorar incidentes da DLP.
+Sua equipe de conformidade e segurança de dados está usando o painel Segurança e Conformidade para monitorar incidentes da DLP.
 
 Se necessário, a [Etapa 5](infoprotect-data-loss-prevention.md) pode ajudá-lo a atender a esse requisito. 
 
@@ -116,4 +116,4 @@ Se necessário, a [Etapa 7](infoprotect-configure-privileged-access-management.m
 
 Sua infraestrutura de proteção de informações para o Microsoft 365 Enterprise usa níveis de segurança definidos, maior segurança para o Office 365, classificação usando tipos e rótulos de dados confidenciais, Proteção de Informações do Windows, Prevenção de Perda de Dados, criptografia de email e gerenciamento de acesso privilegiado.
 
-Se você está seguindo a implantação de ponta a ponta do Microsoft 365 Enterprise, você está pronto para fazer suas [cargas de trabalho e seus cenários](deploy-workloads.md) aproveitarem todos os recursos e configurações de sua infraestrutura de base.
+Se você estiver seguindo a implantação de ponta a ponta do Microsoft 365 Enterprise, já está pronto para fazer com que suas [cargas de trabalho](deploy-workloads.md) aproveitem todos os recursos e configurações da infraestrutura da sua fundação.

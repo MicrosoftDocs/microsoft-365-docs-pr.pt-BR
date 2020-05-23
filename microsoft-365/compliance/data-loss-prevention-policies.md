@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Com uma política de prevenção contra perda de dados (DLP) no Centro de Conformidade &amp; Segurança, você pode identificar, monitorar e proteger automaticamente as informações confidenciais no Office 365.
-ms.openlocfilehash: 68e81a83242ef4a1a099760044b5ccaec5bd91b7
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 705c105853a67d4bb006efbfd0f3d6150f5e7181
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630598"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327699"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Visão geral da prevenção contra perda de dados
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -289,7 +289,7 @@ Normalmente, você usa menos ações restritivas, como o envio de notificações
   
 ### <a name="match-accuracy"></a>Precisão de correspondência
 
-Conforme descrito acima, o tipo de informação confidencial é definido e detectado usando uma combinação de diferentes tipos de evidências. Em geral, um tipo de informação confidencial é definido por várias dessas combinações, chamadas padrões. Um padrão que requer menos evidências tem uma precisão de correspondência inferior (ou nível de confiança), enquanto um padrão que exige mais evidências tem uma maior precisão de correspondência (ou nível de confiança). Para saber mais sobre os padrões reais e níveis de confiança usados por todos os tipos de informações confidenciais, confira o artigo sobre [o que os tipos de informações confidenciais procuram](what-the-sensitive-information-types-look-for.md).
+Conforme descrito acima, o tipo de informação confidencial é definido e detectado usando uma combinação de diferentes tipos de evidências. Em geral, um tipo de informação confidencial é definido por várias dessas combinações, chamadas padrões. Um padrão que requer menos evidências tem uma precisão de correspondência inferior (ou nível de confiança), enquanto um padrão que exige mais evidências tem uma maior precisão de correspondência (ou nível de confiança). Para saber mais sobre os padrões reais e os níveis de confiança usados por todos os tipos de informações confidenciais, consulte [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md).
   
 Por exemplo, o tipo de informação confidencial chamado Número de Cartão de Crédito é definido por dois padrões:
   
@@ -332,7 +332,7 @@ Por essas razões, a orientação para a criação de regras com diferentes prec
 Ao usar um [rótulo de retenção](labels.md) criado e publicado anteriormente como condição em uma política DLP, há algumas coisas a serem observadas:
 
 - É preciso ter criado, publicado e aplicado o rótulo de retenção antes de tentar usá-lo como condição em uma política DLP.
-- Os rótulos de retenção podem levar até um dia para sincronizar e até sete dias para serem aplicados automaticamente após a criação e publicação. Para obter informações detalhadas, confira, [Quanto tempo demora para os rótulos de retenção entrarem em vigor](labels.md#how-long-it-takes-for-retention-labels-to-take-effect).
+- Os rótulos de retenção podem levar até um dia para sincronizar e até sete dias para serem aplicados automaticamente após a criação e publicação. Para obter informações detalhadas, confira, [Quanto tempo demora para os rótulos de retenção entrarem em vigor](create-retention-labels.md#how-long-it-takes-for-retention-labels-to-take-effect).
 - O uso de um rótulo de retenção em uma política ***só tem suporte para itens do SharePoint Online e OneDrive for Business***.
 
 
@@ -504,9 +504,13 @@ Os membros da sua equipe de conformidade que irão criar políticas DLP precisam
 1. Crie um grupo no Microsoft 365 e adicione os responsáveis pela conformidade.
     
 2. Criar um grupo de funções na página **Permissões** do Centro de Conformidade &amp; Segurança. 
+
+3. Ao criar o grupo de função, use a seção **Escolher funções** para adicionar a seguinte função ao Grupo de função: **Gerenciamento de conformidade DLP**.
     
-3. Adicione o grupo do Microsoft 365 ao grupo de função.
-    
+4. Use a seção **Escolher membros** para adicionar o grupo Microsoft 365 que você criou anteriormente ao grupo de função.
+
+Você também pode criar um grupo de função com privilégios de somente exibição às Políticas DLP e aos Relatórios DLP, concedendo a função **Gerenciamento de conformidade DLP somente exibição**.
+
 Para saber mais, consulte [Conceder aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
   
 Essas permissões são necessárias somente para criar e aplicar uma política de DLP. A imposição da política não exige acesso ao conteúdo.
@@ -539,7 +543,7 @@ No entanto, os relatórios DLP precisam extrair dados do Microsoft 365, incluind
     
 - [O que os modelos de política DLP incluem](what-the-dlp-policy-templates-include.md)
     
-- [O que os tipos de informação confidencial procuram](what-the-sensitive-information-types-look-for.md)
+- [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
     
 - [O que as funções DLP procuram](what-the-dlp-functions-look-for.md)
     

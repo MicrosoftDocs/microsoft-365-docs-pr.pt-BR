@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: seo-marvel-apr2020
 description: Entenda os recursos que você pode usar para implantar o Microsoft 365 para empresas na sua organização.
-ms.openlocfilehash: 0e588816cb2393af05b48900821d7aae92b6853d
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 42b193683a2e0c5efce73b62b00747b20baec05a
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44031421"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268322"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>Implantação do Microsoft 365 para empresas
 
@@ -55,7 +55,7 @@ Para implantar o Microsoft 365 para empresas sozinho, você pode:
 
 - Implantar a [infraestrutura de base](deploy-foundation-infrastructure.md) para segurança interna e integração para gerenciamento simplificado, que facilita a garantia de que o software do cliente seja atualizado com os aprimoramentos mais recentes de produtividade e segurança. 
  
-  A infraestrutura de base é organizada como uma série de fases numeradas que se complementam em direção a um ambiente que ofereça suporte para cargas de trabalhos e cenários do Microsoft 365 para empresas. 
+  A infra-estrutura básica é organizada como uma série de fases numeradas que se desenvolvem entre si e em direção a um ambiente que suporta o Microsoft 365 para cargas de trabalho corporativas. 
 
   **Se você é uma organização menor ou mais recente**, siga as fases em ordem para criar sua infraestrutura de forma metódica.
 
@@ -63,13 +63,13 @@ Para implantar o Microsoft 365 para empresas sozinho, você pode:
 
   **Se você é uma organização corporativa**, veja as fases como as camadas de infraestrutura de TI em vez de um caminho definido e determine qual é a melhor maneira de chegar à adesão eventual às exigências de cada camada em toda a sua organização.
 
-- Implantar as principais[cargas de trabalho e cenários](deploy-workloads.md) de produtividade acima de sua infraestrutura. Isso desbloqueia a criatividade e o trabalho em equipe em sua organização.
+- Implemente as principais [cargas de trabalho](deploy-workloads.md) de produtividade na parte superior da sua infraestrutura. Isso desbloqueia a criatividade e o trabalho em equipe em sua organização.
 
-Este é o relacionamento entre a infraestrutura de base, as cargas de trabalho e os cenários.
+Aqui está a relação entre a infraestrutura da fundação e as cargas de trabalho.
 
-![Este é o relacionamento entre a infraestrutura de base, as cargas de trabalho e os cenários.](../media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
+![A relação entre a infraestrutura da fundação e as cargas de trabalho](../media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
 
-As cargas de trabalho e os cenários operam acima da infraestrutura de base. Entretanto, você não precisa ter todas as fases da infraestrutura de base prontas para começar a usar cargas de trabalho para produtividade e colaboração.
+As cargas de trabalho operam sobre a parte superior da infraestrutura da fundação. Entretanto, você não precisa ter todas as fases da infraestrutura de base prontas para começar a usar cargas de trabalho para produtividade e colaboração.
 
 Comece sozinho em sua jornada de implantação de ponta a ponta [aqui](deploy-foundation-infrastructure.md).
 
@@ -125,10 +125,6 @@ Saiba como a Engenharia e Operações dos Principais Serviços (anteriormente Mi
 ### <a name="how-the-contoso-corporation-deployed-microsoft-365-for-enterprise"></a>Como a Contoso Corporation implantou o Microsoft 365 para empresas
 
 Contoso Corporation é uma corporação fictícia mas representante global do conglomerado de produção com sede em Paris, França. Consulte como a [Contoso implantou o Microsoft 365 para empresas](contoso-case-study.md) e abordou as principais decisões de design e detalhes de implementação da rede, identidade, Windows 10 Enterprise, Microsoft 365 Apps para empresas, gerenciamento de dispositivos móveis, proteção de informações e segurança. 
-
-## <a name="stay-current-with-deployment-content"></a>Mantenha-se atualizado com o conteúdo de implantação
-
-Para as alterações mais recentes no conteúdo, consulte [este artigo](microsoft-365-deploment-guide-changes.md).
 
 ## <a name="next-step"></a>Próxima etapa
 

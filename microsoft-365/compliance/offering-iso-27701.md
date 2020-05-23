@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e6d28d3095f0a08aa7c2bf66df3b32b2dc7bec86
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: 8a4f59a817e8ddd38ee8132e7028a3357d15d578
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222013"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254164"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>PIMS (Sistema de Gerenciamento de Informações de Privacidade) do ISO/IEC 27701
 
@@ -51,7 +51,7 @@ Vamos voltar para a nossa declaração inicial no cenário atual. Conforme mais 
 
 As organizações modernas envolvem transferências completas de dados com uma ampla rede de parceiros de negócios, incluindo organizações de parceiros ou controladores conjuntos, processadores como provedores de nuvem e subprocessadores, como fornecedores que oferecem suporte a esses mesmos processadores. Se você não estiver em conformidade com as regulamentações em qualquer parte desta rede, isso pode gerar problemas de conformidade em cascata na cadeia de fornecimento. Esse é o local onde a verificação de conformidade pode ser valiosa além da garantia oferecida pelos termos contratuais entre essas organizações. Como a economia global determina que a maioria dessas organizações está espalhada pelo mundo, é prático usar um padrão internacional do ISO para gerenciar a conformidade em toda a rede.
 
-Essa dependência na conformidade aumenta a importância da certificação para o padrão. Embora nem todas as empresas e organizações precisem obter essa certificação, a maioria delas se beneficiará de parceiros e fornecedores, principalmente quando há processamento de dados confidenciais ou de grande quantidade.
+Essa dependência na conformidade aumenta a importância da certificação para o padrão. Embora nem todas as empresas e organizações precisem obter essa certificação, a maioria se beneficiará de parceiros e fornecedores que o fazem, especialmente quando estão envolvidos volumes sensíveis ou altos de processamento de dados.
 
 ## <a name="building-blocks-of-the-standard"></a>Blocos de construção do padrão
 
@@ -65,12 +65,32 @@ Pontos principais no ISO/IEC 27001 e PIMS:
 
 ## <a name="what-should-your-organization-do-with-pims"></a>O que a sua organização deve fazer com o PIMS?
 
-Independentemente do tamanho da sua organização e se for uma controladora ou processadora, sua organização deve considerar a obtenção da certificação, seja para sua própria organização ou solicitando-a de fornecedores com base na suas necessidades de negócios. Isso se aplica principalmente a processadores, subprocessadores e controladores conjuntos que estejam processando dados pessoais confidenciais ou de grande quantidade. De qualquer forma, sua organização deve avaliar suas necessidades de negócios para determinar se a certificação para seus próprios produtos e serviços é adequada.
+Independentemente do tamanho da sua organização e se for uma controladora ou processadora, sua organização deve considerar a obtenção da certificação, seja para sua própria organização ou solicitando-a de fornecedores com base na suas necessidades de negócios. Isso se aplica principalmente a processadores, subprocessadores e controladores conjuntos que estejam processando dados pessoais confidenciais ou de grande quantidade. De qualquer forma, sua organização deve avaliar suas necessidades comerciais para determinar se a certificação para seus próprios produtos e serviços é adequada.
+
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
+
+- Azure, Azure Government e Azure Alemanha
+- Azure DevOps Services
+- Microsoft Cloud App Security
+- Dynamics 365, Dynamics 365 Government e Dynamics 365 Germany
+- Microsoft Graph
+- Bot do Microsoft Healthcare
+- Intune
+- Área de Trabalho Gerenciada da Microsoft
+- Power Automate (anteriormente Microsoft Flow) 
+- PowerApps
+- Power BI
+- Power BI incorporado
+- Agentes virtuais do Power
+- Microsoft Stream
+- Especialistas em ameaças da Microsoft
+- Proteção avançada contra ameaças do Windows Defender
+
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
 
-- [Certificação ISO/IEC 27701 do Azure](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0431b3f-7716-4332-9c26-44b58174bdaf&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports)
-- [Relatório de avaliação de ISO/IEC 27701 do Azure](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1abbb81e-f4ca-4436-bbdb-b196a672efda&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports)
+- [Azure, Dynamics 365 e Online Services: certificação ISO27701](https://aka.ms/azureiso27701cert)
+- [Azure, Dynamics 365 e Online Services: relatório de avaliação ISO27701](https://aka.ms/azureiso27701report)
 
 ## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Use a Pontuação de Conformidade da Microsoft para avaliar seu risco
 

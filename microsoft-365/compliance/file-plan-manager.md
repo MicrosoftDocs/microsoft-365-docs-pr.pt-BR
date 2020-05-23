@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: O gerenciador de planos de arquivo fornece recursos avançados de gerenciamento de políticas e rótulos de retenção, políticas de rótulos de retenção e oferece uma maneira integrada de percorrer a atividade de rótulos e de rótulo para conteúdo para todo o seu ciclo de vida de conteúdo, desde a criação à colaboração, declaração de registros, retenção e por fim, à disposição.
-ms.openlocfilehash: 78a012b4ecc3401a664fba5e270e7cd67a5dce49
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b3270538cf2a1454840f6beff4e52fda84fa0afe
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208115"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327679"
 ---
 # <a name="overview-of-file-plan-manager"></a>Visão geral do gerenciador de planos de arquivo
 
@@ -142,7 +142,7 @@ Para importar novos rótulos de retenção e modificar os rótulos de retenção
    |RetentionAction|String|Essa propriedade especifica qual ação executar após o valor especificado pela propriedade RetentionDuration expirar. Os valores válidos são:</br>**Excluir**: os itens anteriores ao valor especificado pela propriedade RetentionDuration são excluídos.</br>**Manter**: manter os itens da duração especificada pela propriedade RetentionDuration e, em seguida, não faça nada quando o período de duração expirar. </br>**Manter**: manter os itens da duração especificada pela propriedade RetentionDuration e os exclua quando o período de duração expirar.   |
    |RetentionDuration|String|Esta propriedade especifica o número de dias para reter o conteúdo. Os valores válidos são:</br>**Ilimitado**: os itens serão retidos indefinidamente. </br>***n***: um número inteiro positivo; por exemplo, **365**. 
    |RetentionType|String|Esta propriedade especifica se a duração da retenção é calculada a partir da data de criação do conteúdo, data do evento, data rotulada (marcada) ou data da última modificação. Os valores válidos são:</br>**CreationAgeInDays**</br>**EventAgeInDays**</br>**TaggedAgeInDays**</br>**ModificationAgeInDays** |
-   |ReviewerEmail|SmtpAddress|Quando esta propriedade é preenchida, uma revisão de disposição será acionada quando a duração da retenção expirar. Esta propriedade especifica o endereço de email de um revisor para as ações de retenção **Excluir** e **KeepAndDelete** . Você pode incluir o endereço de email de usuários individuais, grupos de distribuição ou segurança. Você pode especificar vários endereços de email separados por ponto e vírgula.|
+   |ReviewerEmail|SmtpAddress|Quando esta propriedade é preenchida, uma revisão de disposição será acionada quando a duração da retenção expirar. Essa propriedade especifica o endereço de e-mail de um revisor para as ações de retenção **KeepAndDelete**. Você pode incluir o endereço de email de usuários individuais, grupos de distribuição ou segurança. Você pode especificar vários endereços de email separados por ponto e vírgula.|
    |ReferenceId|String|Esta propriedade especifica o valor que é exibido no descritor de planos de arquivo **ID de referência**.| 
    |DepartmentName|String|Esta propriedade especifica o valor que é exibido no descritor de planos de arquivo **Função/departamento**.|
    |Categoria|String|Esta propriedade especifica o valor que é exibido no descritor de planos de arquivo **Categoria**.|

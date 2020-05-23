@@ -7,19 +7,19 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 1d4ca01e7b791dafc952b62a5f5dd59263b31546
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 8765d6ecd180d71d918a5feda8cd5089e7f561ee
+ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557549"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "44347814"
 ---
 # <a name="register-new-devices-yourself"></a>Registre novos dispositivos por conta própria
 
 A área de trabalho gerenciada da Microsoft pode funcionar com dispositivos novos ou você pode reutilizar os dispositivos que você já tem (o que exigirá que você os Insira novamente). Você pode registrar dispositivos usando a área de trabalho gerenciada da Microsoft no portal do Azure.
 
 > [!NOTE]
-> Trabalhar com um parceiro para obter dispositivos? Em caso afirmativo, você não precisa se preocupar em obter os hashes de hardware; Eles cuidarão disso para você. Certifique-se de que seu parceiro estabelece uma relação com você no [Partner Center](https://partner.microsoft.com/dashboard) e que inclui privilégios de administração delegada para o Active Directory do Azure e o Office 365. Seu parceiro pode saber mais na [ajuda da central de parceiros](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer). Depois que esse relacionamento for estabelecido, o seu parceiro simplesmente registrará dispositivos em seu nome, e nenhuma ação será necessária. Se você quiser ver os detalhes ou se o seu parceiro tiver dúvidas, confira [as etapas dos parceiros para registrar dispositivos](register-devices-partner.md). Depois que os dispositivos são registrados, você pode prosseguir com [a verificação da imagem](#check-the-image) e de [fornecer os dispositivos](#deliver-the-device) aos seus usuários.
+> Trabalhar com um parceiro para obter dispositivos? Em caso afirmativo, você não precisa se preocupar em obter os hashes de hardware; Eles cuidarão disso para você. Certifique-se de que seu parceiro estabelece uma relação com você no [Partner Center](https://partner.microsoft.com/dashboard). Seu parceiro pode saber mais na [ajuda da central de parceiros](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer). Depois que esse relacionamento for estabelecido, o seu parceiro simplesmente registrará dispositivos em seu nome, e nenhuma ação será necessária. Se você quiser ver os detalhes ou se o seu parceiro tiver dúvidas, confira [as etapas dos parceiros para registrar dispositivos](register-devices-partner.md). Depois que os dispositivos são registrados, você pode prosseguir com [a verificação da imagem](#check-the-image) e de [fornecer os dispositivos](#deliver-the-device) aos seus usuários.
 
 ## <a name="prepare-to-register-brand-new-devices"></a>Preparar-se para registrar dispositivos novos
 
@@ -53,7 +53,7 @@ A área de trabalho gerenciada da Microsoft identifica cada dispositivo exclusiv
 3. Sejam`Save-Script -Name Get-MMDRegistrationInfo -Path <pathToUsb>`
 4. Ative o dispositivo que você está registrando, mas *não inicie a experiência de instalação*. Se você iniciar acidentalmente a experiência de instalação, será necessário redefinir ou recriar a imagem do dispositivo.
 5. Insira a unidade USB e, em seguida, pressione SHIFT + F10.
-6. Abra um prompt do PowerShell com direitos administrativos e, em `cd <pathToUsb>`seguida, execute.
+6. Abra um prompt do PowerShell com direitos administrativos e, em seguida, execute `cd <pathToUsb>` .
 7. Sejam`Set-ExecutionPolicy -ExecutionPolicy Unrestricted`
 8. Sejam`.\Get-MMDRegistrationInfo -OutputFile <path>\hardwarehash.csv`
 9. Remova a unidade USB e desligue o dispositivo executando`shutdown -s -t 0`

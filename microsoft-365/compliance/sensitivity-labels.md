@@ -16,13 +16,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Use rótulos de sensibilidade da estrutura da Proteção de Informações da Microsoft para classificar e proteger os dados da sua organização, garantindo que a produtividade do usuário e sua capacidade de colaborar não sejam prejudicadas. Esses rótulos podem aplicar configurações de proteção que incluem marcações visuais de criptografia, como rodapés e marcas d'água.
-ms.openlocfilehash: 418a52a8a9798fa0e08a6a2d4951fe91e0685c1a
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+description: Use rótulos de sensibilidade da estrutura da Proteção de informações do Microsoft para classificar e proteger os dados da sua organização sem prejudicar a produtividade e a colaboração do usuário.
+ms.openlocfilehash: 76d6a57c02f2623b65287b5429c41728a07724bd
+ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213279"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44292539"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 

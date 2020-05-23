@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 778338220cf7897f8a557fb1e335062d3effeac5
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 6a66a5b6f6ad2480dfc3af212e7663ad3f869d10
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066414"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254314"
 ---
 # <a name="european-union-model-clauses"></a>Cláusulas Modelo da União Europeia
 
@@ -42,11 +42,11 @@ O grupo determinou que a implementação das disposições nos contratos da Micr
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Azure e Azure Governamental](https://aka.ms/AzureCompliance)
-- Cloud App Security
+- Segurança no aplicativo na nuvem da Microsoft
 - Serviços Profissionais da Microsoft: Premier e no Local para Azure, Dynamics 365, Intune e para clientes de médias empresas e corporativos do Microsoft 365 para empresas.
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune: Parte do serviço de nuvem do Produto Complementar do Intune e o Gerenciamento de Dispositivo Móvel para o Office 365
-- Serviço de nuvem Microsoft Flow como serviço autônomo ou incluído em um plano ou pacote do Office 365 ou Dynamics 365
+- Serviço de nuvem do Power Automate (anteriormente Microsoft Flow) como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou Dynamics 365
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou Dynamics 365
 - Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365

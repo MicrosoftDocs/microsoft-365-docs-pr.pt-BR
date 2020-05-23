@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/08/2019
+ms.date: 05/15/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Percorra as fases simplificadas da infraestrutura de base do Microsoft 365 para empresas para organizações não empresariais.
-ms.openlocfilehash: e1c747e5f4ab3e58adeaf91518512d8ece83d91b
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: caca093463e4a180f50c880a77fa18399103f069
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011894"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268380"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-for-non-enterprises"></a>Infraestrutura de base não empresarial do Microsoft 365 para empresas
 
@@ -438,4 +438,4 @@ Após a integração, cada funcionário deve ter:
 
 ## <a name="next-step"></a>Próxima etapa
 
-Implante suas [cargas de trabalho e cenários](deploy-workloads.md) e aproveite os recursos e a configuração de base do Microsoft 365 para empresas.
+Implante suas [cargas de trabalho](deploy-workloads.md) para aproveitar os recursos e a configuração da infraestrutura do Microsoft 365 para empresas.
