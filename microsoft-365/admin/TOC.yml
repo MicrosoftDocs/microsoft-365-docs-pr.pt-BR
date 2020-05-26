@@ -234,9 +234,11 @@
       items:
         - name: As 10 principais maneiras de proteger seus dados
           href: security-and-compliance/secure-your-business-data.md
+        - name: Autenticação multifator para Microsoft 365
+          href: security-and-compliance/multi-factor-authentication-microsoft-365.md
         - name: Configurar a autenticação multifator
           href: security-and-compliance/set-up-multi-factor-authentication.md
-        - name: Configurar a autenticação multifator (com o Office 2013)
+        - name: Habilitar a autenticação moderna para o Office 2013
           href: security-and-compliance/enable-modern-authentication.md
         - name: Classificação de segurança
           href: 'https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new'
