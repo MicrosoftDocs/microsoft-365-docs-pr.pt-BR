@@ -20,19 +20,24 @@ search.appverid:
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador do serviço abre tíquetes de suporte da Microsoft.
 ms.custom: okr_smb
-ms.openlocfilehash: 4e3cec5b2ff86b35d02f8963a584efdb272f2c5e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2f3b5fedf77c2f763f60c097b25101255d55ecaf
+ms.sourcegitcommit: 4ce28ad4d17d336106c1720d65349f19f9e90e04
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618915"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44294201"
 ---
-# <a name="about-admin-roles"></a>Sobre as funções de administrador
+# <a name="about-admin-roles"></a>Sobre funções de administrador
 
-Sua assinatura vem com um conjunto de funções de administrador que você pode atribuir aos usuários em sua organização. Cada função de administrador é mapeada para uma função de negócios comum da empresa e concede permissões para a realização de tarefas específicas nos centros de administração. Para saber mais, confira [Atribuir funções de administrador](assign-admin-roles.md)
+Sua assinatura do Microsoft 365 ou do Office 365 acompanha um conjunto de funções de administrador que você pode atribuir aos usuários em sua organização usando o Centro de administração do Microsoft 365. Cada função de administrador é mapeada para uma função de negócios comum da empresa e concede permissões para a realização de tarefas específicas nos centros de administração.
 
-> [!TIP] 
-> Procurando as descrições detalhadas das funções? Confira [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
+O Centro de administração do Microsoft 365 permite gerenciar as funções do Azure AD e do Microsoft Intune. No entanto, essas funções são um subconjunto das funções disponíveis no portal do Azure AD e no centro de administração do Intune.
+
+Procurando as descrições de função detalhadas do Azure AD? Confira [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
+
+Procurando as descrições de função detalhadas do Microsoft Intune? Confira [Controle de acesso baseado em função (RBAC) com o Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control).
+
+Para obter mais informações sobre como atribuir funções no Centro de administração do Microsoft 365, confira [Atribuir funções de administrador](assign-admin-roles.md).
 
 ## <a name="things-to-consider"></a>Coisas a considerar...
 
@@ -44,32 +49,21 @@ Como os administradores têm acesso a dados e arquivos confidenciais, recomendam
 | Atribuir a função *menos permissiva*    | Atribuir a função *menos permissiva* significa conceder aos administradores somente o acesso de que precisam para realizar o trabalho. Por exemplo, se você deseja que alguém redefina senhas de funcionários, não deve atribuir a função de administrador global ilimitado. Deve atribuir uma função de administrador limitada, como administrador de senha ou administrador de assistência técnica. Isso ajudará a manter seus dados seguros.                 |
 | Exija autenticação multifatorial para administradores                  |    Na verdade, é uma boa ideia solicitar a MFA de todos os seus usuários, mas os administradores certamente devem usar a MFA para entrar. A MFA permite que os usuários insiram um segundo método de identificação para verificar se eles são quem dizem que são. Os administradores podem ter acesso a vários dados de clientes e funcionários e, caso exija a MFA, mesmo que a senha do administrador tenha sido comprometida, a senha é inútil sem a segunda forma de identificação.  <br><br>Quando você ativa a MFA, da próxima vez que o usuário entrar, será necessário fornecer um endereço de e-mail alternativo e um número de telefone para a recuperação de conta.  <br> [Configurar autenticação multifatorial](../security-and-compliance/set-up-multi-factor-authentication.md)          |
 
-  
-## <a name="some-roles-are-missing-from-active-users--manage-admin-roles-where-did-they-go"></a>Algumas funções estão ausentes de Usuários ativos > Gerenciar funções de administrador. Para onde elas foram?
-Por padrão, vamos primeiro mostrar as funções que a maioria das organizações usa. Se você não conseguir encontrar uma função, vá para a parte inferior da lista e selecione **Ver mais funções**.
-
-## <a name="how-can-i-tell-which-permissions-are-assigned-to-me"></a>Como posso saber quais são as permissões atribuídas a mim?
 Se você receber uma mensagem no centro de administração informando que você não tem permissões para editar uma configuração ou página, é porque você recebeu uma função que não tem essa permissão.
 
-## <a name="what-about-the-azure-active-directory-roles"></a>E quanto às funções do Azure Active Directory? 
+## <a name="azure-ad-roles-available-in-the-microsoft-365-admin-center"></a>Funções do Azure AD disponíveis no Centro de administração do Microsoft 365
 
-O portal do Azure tem mais funções do que as disponíveis no centro de administração do Microsoft 365. If you have a large business, there might be roles in the Azure portal that meet your organizational needs.
-
-Para obter uma lista e uma descrição de todas as funções do Azure Active Directory, confira [Atribuir funções de administrador no Azure Activity Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
+O centro de administração do Microsoft 365 permite gerenciar mais de 30 funções do Azure AD. No entanto, essas funções são um subconjunto das funções disponíveis no portal do Azure. Se você tiver uma empresa de grande porte, pode haver funções no portal do Azure que atendem às suas necessidades organizacionais.
 
 Um usuário que recebe uma função de administrador terá as mesmas permissões em todos os serviços na nuvem para os quais a sua organização se inscreveu, independentemente de você atribuir a função no centro de administração do Office 365 ou no portal clássico do Azure ou usando o módulo do Azure AD para Windows PowerShell.
-  
-## <a name="roles-available-in-the-microsoft-365-admin-center"></a>Funções disponíveis no centro de administração do Microsoft 365
-
-O centro de administração do Microsoft 365 permite gerenciar mais de 30 funções do Azure AD. No entanto, essas funções são um subconjunto das funções disponíveis no portal do Azure.
 
 ::: moniker range="o365-worldwide"
 
-No centro de administração do, você pode acessar **Funções**e, em seguida, selecionar qualquer função para abrir seu painel de detalhes. Selecione a guia **Permissões** para exibir a lista detalhada do que os administradores com aquela função têm permissão para fazer.
+No Centro de administração do Microsoft 365, você pode acessar **Funções** e, em seguida, selecionar qualquer função para abrir seu painel de detalhes. Selecione a guia **Permissões** para exibir a lista detalhada do que os administradores com aquela função têm permissão para fazer. Marque a guia **Atribuir** ou **Administradores atribuídos** para adicionar usuários a funções.
 
 ::: moniker-end
 
-Provavelmente, você só precisará atribuir as funções a seguir em sua organização. "(Para obter informações detalhadas, incluindo os cmdlets associados a uma função, confira [Permissões de função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).)
+Provavelmente, você só precisará atribuir as funções a seguir em sua organização. Por padrão, vamos primeiro mostrar as funções que a maioria das organizações usa. Se você não conseguir encontrar uma função, vá para a parte inferior da lista e selecione **Ver mais funções**. "(Para obter informações detalhadas, incluindo os cmdlets associados a uma função, confira [Permissões de função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).)
 
 |Função do administrador     |Quem deve ser atribuído com esta função?  |
 |---------|---------|
@@ -84,7 +78,7 @@ Provavelmente, você só precisará atribuir as funções a seguir em sua organi
 |Administrador do serviço do Teams    |   Atribua a função de administrador do serviço do Teams aos usuários que precisam acessar e gerenciar o centro de administração do Teams. <br><br>Os administradores do serviço do Teams também podem: <br> - Gerenciar reuniões <br> - Gerenciar pontes de conferência <br> - Gerenciar todas as configurações de toda a organização, inclusive federação, atualizar equipes e configurações de cliente de equipes   |
 |Administrador de usuários     |    Atribua a função de administrador de usuários aos usuários que precisam fazer o seguinte para todos os usuários: <br> - Adicionar usuários ou grupos <br> - Atribuir licenças <br> - Gerenciar a maioria das propriedades dos usuários <br> - Criar e gerenciar exibições de usuário <br> - Atualizar políticas de expiração de senha <br> - Gerenciar solicitações de serviço <br> - Monitorar a integridade do serviço <br><br>  O administrador do usuário também pode realizar as seguintes ações para os usuários que não são administradores e para os usuários com as seguintes funções: leitor de diretório, emissor de convite, administrador de help desk, leitor de centro de mensagens, leitor de relatórios: <br> - Gerenciar nomes de usuários<br> - Excluir e restaurar usuários<br> - Redefinir senhas <br> - Forçar os usuários a sair <br> - Atualizar teclas de dispositivo (FIDO)   |
 
-### <a name="all-roles"></a>Todas as funções
+### <a name="all-azure-ad-roles"></a>Todas as funções do Azure AD
 
  Esta é uma lista de todas as funções disponíveis no centro de administração do Microsoft 365.
 
@@ -134,6 +128,17 @@ Provavelmente, você só precisará atribuir as funções a seguir em sua organi
 |Engenheiro de suporte de comunicações de equipes     |    Lê detalhes do registro de chamadas para todos os participantes da chamada para solucionar problemas de comunicação.     |
 |Especialista em suporte à comunicação de equipes     |    Lê os detalhes da chamada de usuário apenas para um usuário específico para solucionar problemas de comunicação.|
 |Administrador de usuários     |   Redefine senhas, cria e gerencia usuários e grupos, incluindo filtros, gerencia solicitações de serviço e monitora a integridade do serviço.|
+
+## <a name="microsoft-intune-roles-available-in-the-microsoft-365-admin-center"></a>Funções do Microsoft Intune disponíveis no Centro de administração do Microsoft 365
+
+|Função do administrador     |Quem deve ser atribuído com esta função?  |
+|---------|---------|
+|Gerente de aplicativos     |   Atribuir a função Gerente de aplicativos a usuários que gerenciam o ciclo de vida do aplicativo para aplicativos móveis, configuram aplicativos gerenciados por política e exibem informações sobre os dispositivos e perfis de configuração.  |
+|Operador de suporte técnico     |   Atribua a função de operador de suporte técnico a usuários que atribuem aplicativos e políticas a usuários e dispositivos. |
+|Administrador de função Intune    |   Atribua o administrador de função do Intune a usuários que podem atribuir permissões do Intune a outros administradores e podem gerenciar funções personalizadas e internas do Intune.   |
+|Gerente de Política e Perfil     |   Atribua a função Gerente de Política e Perfil aos usuários para gerenciar políticas de conformidade, perfis de configuração e registro da Apple.   |
+|Operador Somente Leitura     |   Atribua a função operador somente leitura para os usuários que só podem visualizar usuários, dispositivos, detalhes de registro e configurações.   |
+|Administrador escolar     |   Atribua a função de administrador escolar aos usuários para obter acesso total para gerenciar dispositivos Windows 10 e iOS, aplicativos e configurações no Intune for Education.   |
 
 ## <a name="delegated-administration-for-microsoft-partners"></a>Administração delegada para parceiros da Microsoft
 

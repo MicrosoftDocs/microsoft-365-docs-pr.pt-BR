@@ -14,12 +14,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: 409afed8ea927f1bdfc602264bbff7bce34e8533
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 216ec3853f1b55c7fb34de3a236f50094202bca5
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943330"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352461"
 ---
 # <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>Migrar pesquisas de descoberta eletrônica herdadas e isenções para o centro de conformidade da Microsoft 365
 
@@ -79,7 +79,7 @@ A saída desses dois comandos será semelhante à seguinte:
 ![Exemplo de saída do PowerShell usando Get-MailboxSearch para uma pesquisa individual](../media/MigrateLegacyeDiscovery2.png)
 
 > [!NOTE]
-> A duração do bloqueio in-loco neste exemplo está indefinida (*ItemHoldPeriod: Unlimited*). Isso é típico para cenários de descoberta eletrônica e investigação legal. Se a duração da retenção tiver um valor diferente de indefinido, o motivo provavelmente será que a retenção está sendo usada para reter o conteúdo em um cenário de retenção. Em vez de usar os cmdlets de descoberta eletrônica no PowerShell do centro de conformidade & de segurança para cenários de retenção, recomendamos que você use [New-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancepolicy) e [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule) para reter conteúdo. O resultado do uso desses cmdlets será semelhante ao uso de **New-CaseHoldPolicy** e **New-CaseHoldRule**, mas você poderá especificar um período de retenção e uma ação de retenção, como excluir o conteúdo depois que o período de retenção expirar. Além disso, usar os cmdlets de retenção não exige que você associe o bloqueio de retenção a uma ocorrência de descoberta eletrônica.
+> A duração do bloqueio in-loco neste exemplo está indefinida (*ItemHoldPeriod: Unlimited*). Isso é típico para cenários de descoberta eletrônica e investigação legal. Se a duração da retenção tiver um valor diferente de indefinido, o motivo provavelmente será que a retenção está sendo usada para reter o conteúdo em um cenário de retenção. Em vez de usar os cmdlets de descoberta eletrônica no PowerShell do centro de conformidade & de segurança para cenários de retenção, recomendamos que você use [New-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancepolicy) e [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule) para reter conteúdo. O resultado do uso desses cmdlets será semelhante ao uso de **New-CaseHoldPolicy** e **New-CaseHoldRule**, mas você poderá especificar um período de retenção e uma ação de retenção, como excluir o conteúdo depois que o período de retenção expirar. Além disso, usar os cmdlets de retenção não exige que você associe o bloqueio de retenção a uma ocorrência de descoberta eletrônica.
 
 ## <a name="step-4-create-a-case-in-the-microsoft-365-compliance-center"></a>Etapa 4: criar um caso no centro de conformidade da Microsoft 365
 
@@ -132,7 +132,7 @@ New-ComplianceSearch -Name $search.Name -ExchangeLocation $search.SourceMailboxe
 
 ## <a name="step-8-verify-the-case-hold-and-search-in-the-microsoft-365-compliance-center"></a>Etapa 8: verificar a ocorrência, a retenção e a pesquisa no centro de conformidade da Microsoft 365
 
-Para certificar-se de que tudo está configurado corretamente, vá para o centro de conformidade da [https://compliance.microsoft.com](https://compliance.microsoft.com)Microsoft 365 em e clique em **descoberta eletrônica > Core**.
+Para certificar-se de que tudo está configurado corretamente, vá para o centro de conformidade da Microsoft 365 em [https://compliance.microsoft.com](https://compliance.microsoft.com) e clique em **descoberta eletrônica > Core**.
 
 ![EDiscovery do centro de conformidade da Microsoft 365](../media/MigrateLegacyeDiscovery7.png)
 
@@ -156,18 +156,18 @@ Se você migrar uma pesquisa de descoberta eletrônica in-loco, mas não associ�
 
 - Para obter mais informações sobre os cmdlets do PowerShell usados no artigo, consulte:
 
-  - [Get-MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-mailboxsearch)
+  - [Get-MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/get-mailboxsearch)
   
-  - [New-ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/new-compliancecase)
+  - [New-ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/new-compliancecase)
 
-  - [New-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/new-caseholdpolicy)
+  - [New-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/new-caseholdpolicy)
   
-  - [New-CaseHoldRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/new-caseholdrule)
+  - [New-CaseHoldRule](https://docs.microsoft.com/powershell/module/exchange/new-caseholdrule)
 
-  - [Get-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdpolicy)
+  - [Get-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)
   
-  - [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearch)
+  - [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch)
 
-  - [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/start-compliancesearch)
+  - [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/start-compliancesearch)
 
 - Para obter mais informações sobre o centro de conformidade da Microsoft 365, consulte [visão geral do centro de conformidade da microsoft 365](microsoft-365-compliance-center.md).

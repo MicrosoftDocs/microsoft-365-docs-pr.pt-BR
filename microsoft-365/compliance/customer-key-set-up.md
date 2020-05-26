@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como configurar a chave do cliente para o Microsoft 365 para Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e arquivos do teams.
-ms.openlocfilehash: c9c02f697e04a5cd01ddce1546b6712091712025
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d9438b1578b5708e9b7740f001da3870c3616c39
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634193"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352268"
 ---
 # <a name="set-up-customer-key"></a>Configurar a chave do cliente
 
@@ -137,7 +137,7 @@ Antes de entrar em contato com a equipe do Microsoft 365, você deve executar as
 
 3. Entre em contato com a Microsoft para finalizar o processo. Para a equipe do SharePoint e do OneDrive for Business, entre em contato com [Spock@microsoft.com](mailto:spock@microsoft.com). Para o Exchange Online e o Skype for Business, entre em contato com a [exock@microsoft.com](mailto:exock@microsoft.com). Inclua o seguinte em seu email:
 
-   **Subject**: chave de cliente \<para *o nome de domínio totalmente qualificado do seu locatário*\>
+   **Subject**: chave de cliente para \< *o nome de domínio totalmente qualificado do seu locatário*\>
 
    **Corpo**: IDs de assinatura para as quais você deseja que o período de retenção obrigatório seja concluído.
    A saída de Get-AzProviderFeature para cada assinatura.
@@ -312,7 +312,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
 -OutputFile <filename.backup>
 ```
 
-Verifique se o arquivo de saída usa o `.backup`sufixo.
+Verifique se o arquivo de saída usa o sufixo `.backup` .
   
 O arquivo de saída resultante deste cmdlet é criptografado e não pode ser usado fora do Azure Key Vault. O backup pode ser restaurado somente para a assinatura do Azure a partir da qual o backup foi feito.
   
@@ -448,7 +448,7 @@ Atribua a DEP a uma caixa de correio usando o cmdlet Set-Mailbox. Depois de atri
 Set-Mailbox -Identity <MailboxIdParameter> -DataEncryptionPolicy <PolicyName>
 ```
 
-Onde *MailboxIdParameter* especifica uma caixa de correio. Para obter mais informações sobre o cmdlet Set-Mailbox, consulte [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox?view=exchange-ps).
+Onde *MailboxIdParameter* especifica uma caixa de correio. Para obter mais informações sobre o cmdlet Set-Mailbox, consulte [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox?view=exchange-ps).
   
 ### <a name="validate-mailbox-encryption"></a>Validar criptografia de caixa de correio
 

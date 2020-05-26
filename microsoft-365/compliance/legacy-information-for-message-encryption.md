@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 07/11/2019
+ms.date: 05/22/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ ms.assetid: 5986b9e1-c824-4f8f-9b7d-a2b0ae2a7fe9
 ms.collection:
 - M365-security-compliance
 description: Se você ainda não tiver movido sua organização para os novos recursos do OME, mas já tiver implantado o OME, as informações deste artigo se aplicam à sua organização. A Microsoft recomenda que você faça um plano para migrar para os novos recursos do OME assim que for razoável para sua organização. Para obter instruções, consulte Configurar novos recursos de criptografia de mensagem do Office 365 criados com base na proteção de informações do Azure. Se quiser saber mais sobre como os novos recursos funcionam primeiro, confira criptografia de mensagem do Office 365. O restante deste artigo refere-se ao comportamento OME antes do lançamento dos novos recursos do OME.
-ms.openlocfilehash: 9f9d4cdd9ee75becb6b7c7d9716b9fcb543c48d9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 00b42dfceaeac5b7e9e28263c56f9f7490644a3b
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632680"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351902"
 ---
 # <a name="legacy-information-for-office-365-message-encryption"></a>Informações herdadas de Criptografia de Mensagens do Office 365
 
@@ -108,7 +108,7 @@ O exemplo a seguir mostra um logotipo personalizado para a ContosoPharma no anex
   
 1. Conecte-se ao Exchange Online usando o PowerShell remoto, conforme descrito em [Connect to Exchange Online using Remote PowerShell](https://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx).
 
-2. Use o cmdlet Set-OMEConfiguration conforme descrito aqui: [set-OMEConfiguration](https://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b). Para remover as personalizações da marca da sua organização dos valores DisclaimerText, EmailText e PortalText, defina o valor como uma cadeia de caracteres vazia `""`,. Para todos os valores de imagem, como logotipo, defina o valor `"$null"`como.
+2. Use o cmdlet Set-OMEConfiguration conforme descrito aqui: [set-OMEConfiguration](https://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b). Para remover as personalizações da marca da sua organização dos valores DisclaimerText, EmailText e PortalText, defina o valor como uma cadeia de caracteres vazia, `""` . Para todos os valores de imagem, como logotipo, defina o valor como `"$null"` .
 
    **Opções de personalização de criptografia**
 
@@ -220,3 +220,9 @@ Não há um relatório que mostra se uma mensagem criptografada foi exibida, mas
  **P. O que a Microsoft faz com as informações que forneço por meio do Portal do OME e do aplicativo Visualizador do OME?**
   
 A [declaração de privacidade do portal de criptografia de mensagens do Office 365](https://privacy.microsoft.com/privacystatement) fornece informações detalhadas sobre o que a Microsoft faz e não faz com suas informações particulares.
+
+## <a name="what-do-i-do-if-i-dont-receive-the-one-time-pass-code-after-i-requested-it"></a>O que fazer se eu não receber o código de passagem única depois de solicitá-lo?
+
+Primeiro, verifique a pasta de lixo eletrônico ou spam em seu cliente de email. As configurações do DKIM e do DMARC para sua organização podem fazer com que esses emails terminem de ser filtrados como spam.
+
+Em seguida, verifique a quarentena no centro de conformidade de & de segurança. Muitas vezes, as mensagens que contêm um código de passagem única, especialmente as primeiras que sua organização recebe, terminam em quarentena.

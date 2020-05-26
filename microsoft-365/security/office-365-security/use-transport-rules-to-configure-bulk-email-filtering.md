@@ -16,16 +16,16 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a usar regras de fluxo de emails (regras de transporte) para identificar e filtrar emails em massa (emails cinza) na proteção do Exchange Online (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a31030ea2f844cdeb4bee68bf748a2ab8ca29dad
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: fa2c13aed1fd7f9c34872d05693f88577bbbc9c5
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213359"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352391"
 ---
-# <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>Usar regras de fluxo de email para filtrar emails em massa no EOP
+# <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>Usar regras de fluxo de e-mail para filtrar e-mails em massa no EOP
 
-Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP usa políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) para examinar mensagens de entrada para spam e emails em massa (também conhecido como email cinza). Para obter mais informações, consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md).
+Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP usa políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) para examinar mensagens de entrada para spam e emails em massa (também conhecido como email cinza). Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
 
 Se quiser mais opções para filtrar emails em massa, você poderá criar regras de fluxo de emails (também conhecidas como regras de transporte) para procurar padrões de texto ou frases que sejam frequentemente encontradas em emails em massa e marcar essas mensagens como spam. Para saber mais sobre emails em massa, confira [a diferença entre lixo eletrônico e email em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md) e [BCL (nível de reclamação em massa) no EOP](bulk-complaint-level-values.md).
 
@@ -41,7 +41,7 @@ Este tópico explica como criar essas regras de fluxo de email no centro de admi
 
 - Para abrir o Eat no Exchange Online, confira [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center). Para abrir o Eat no EOP autônomo, confira [centro de administração do Exchange no EOP autônomo](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell do EOP autônomo, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - Para obter mais informações sobre regras de fluxo de emails no Exchange Online e EOP autônomos, consulte os seguintes tópicos:
 
@@ -140,7 +140,7 @@ Este exemplo cria uma nova regra chamada "filtragem de email em massa-palavras" 
 New-TransportRule -Name "Bulk email filtering - Words" -SubjectOrBodyContainsWords "to change your preferences or unsubscribe","Modify email preferences or unsubscribe","This is a promotional email","You are receiving this email because you requested a subscription","click here to unsubscribe","You have received this email because you are subscribed","If you no longer wish to receive our email newsletter","to unsubscribe from this newsletter","If you have trouble viewing this email","This is an advertisement","you would like to unsubscribe or change your","view this email as a webpage","You are receiving this email because you are subscribed" -SetSCL 9
 ```
 
-Para obter informações detalhadas sobre sintaxe e parâmetro, consulte [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule).
+Para obter informações detalhadas sobre sintaxe e parâmetro, consulte [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/new-transportrule).
 
 ## <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
 

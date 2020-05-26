@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: O registro em log de auditoria de caixa de correio é ativado por padrão (também chamado de auditoria de caixa de correio padrão ou auditoria de caixa de correio ativada por padrão). Isso significa que determinadas ações executadas por proprietários, representantes e administradores de caixa de correio são automaticamente registradas em um log de auditoria de caixa de correio, onde você pode pesquisar atividades realizadas na caixa de correio.
-ms.openlocfilehash: 458e5c9797874f35e99c09edbc3ef45753132cba
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f25232dd30fe0fba0f4cc31acae3235012bb025a
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631726"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352104"
 ---
 # <a name="manage-mailbox-auditing"></a>Gerenciar a auditoria de caixa de correio
 
@@ -108,7 +108,7 @@ A tabela a seguir descreve as ações de caixa de correio disponíveis no log de
 |**ApplyRecord**|Um item é rotulado como um registro.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**Copy**|Uma mensagem foi copiada a outra pasta.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
 |**Create**|Um item foi criado na pasta calendário, contatos, anotações ou tarefas na caixa de correio (por exemplo, uma nova solicitação de reunião é criada). Criar, enviar ou receber uma mensagem não é auditada. Criar pastas de caixa de correio também não é uma ação auditada.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**Padrão**||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**Default**||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**FolderBind**|Uma pasta da caixa de correio foi acessada. Esta ação também é registrada quando o administrador ou representante abrem a caixa de correio.<br/><br/> **Observação**: os registros de auditoria das ações de associação de pasta executadas pelos representantes são consolidados. Um registro de auditoria é gerado para acesso a pastas individuais dentro de um período de 24 horas.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |**HardDelete**|Uma mensagem foi removida da pasta de Itens Recuperáveis.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**MailItemsAccessed**|Os dados de email são acessados por protocolos e clientes de email. Esse valor só está disponível para usuários de assinatura de complemento de conformidade E5 ou e5. Para obter detalhes, consulte [Access to crucial Events for investigações](advanced-audit.md#access-to-crucial-events-for-investigations).|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
@@ -122,7 +122,7 @@ A tabela a seguir descreve as ações de caixa de correio disponíveis no log de
 |**SendAs**|Uma mensagem foi enviada usando a permissão SendAs. Isto significa que outro usuário enviou a mensagem apesar de ter vindo do proprietário da caixa de correio.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||
 |**SendOnBehalf**|Uma mensagem foi enviada usando a permissão SendOnBehalf. Isto significa que outro usuário enviou a mensagem em nome do proprietário da caixa de correio. A mensagem indica ao destinatário em nome de quem a mensagem foi enviada e quem na verdade enviou a mensagem.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||
 |**SoftDelete**|Uma mensagem foi excluída permanentemente da pasta Itens Excluídos. Os itens excluídos temporariamente são movidos para a pasta Itens Recuperáveis.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
-|**Update**|Uma mensagem ou suas propriedades foram alteradas.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
+|**Atualização**|Uma mensagem ou suas propriedades foram alteradas.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**UpdateCalendarDelegation**|Uma delegação de calendário foi atribuída a uma caixa de correio. A delegação de calendário concede a outra pessoa na mesma organização permissões para gerenciar o calendário do proprietário da caixa de correio.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**UpdateComplianceTag**|Um rótulo de retenção diferente é aplicado a um item de email (um item pode ter apenas um rótulo de retenção atribuído a ele).|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**UpdateFolderPermissions**|Uma permissão da pasta foi alterada. As permissões de pasta controlam quais usuários da sua organização podem acessar as pastas em uma caixa de correio e as mensagens localizadas nessas pastas.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
@@ -147,19 +147,19 @@ Lembre-se de que um administrador com permissão de acesso completo para uma cai
 |**SendAs**|Uma mensagem foi enviada usando a permissão SendAs.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||
 |**SendOnBehalf**|Uma mensagem foi enviada usando a permissão SendOnBehalf. |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||
 |**SoftDelete**|Uma mensagem foi excluída permanentemente da pasta Itens Excluídos. Os itens excluídos temporariamente são movidos para a pasta Itens Recuperáveis.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
-|**Update**|Uma mensagem ou suas propriedades foram alteradas.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
+|**Atualização**|Uma mensagem ou suas propriedades foram alteradas.|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 
 ### <a name="verify-that-default-mailbox-actions-are-being-logged-for-each-logon-type"></a>Verifique se as ações de caixa de correio padrão estão sendo registradas para cada tipo de logon
 
 A auditoria de caixa de correio ativada por padrões adiciona uma nova propriedade *Defaultauditset* a todas as caixas de correio. O valor dessa propriedade indica se as ações de caixa de correio padrão (gerenciadas pela Microsoft) estão sendo auditadas na caixa de correio.
 
-Para exibir o valor em caixas de correio de usuário ou caixas de correio \<compartilhadas, substitua mailboxidentity pela\> pelo nome, alias, endereço de email ou nome de usuário principal (username) da caixa de correio e execute o seguinte comando no PowerShell do Exchange Online:
+Para exibir o valor em caixas de correio de usuário ou caixas de correio compartilhadas, substitua \< mailboxidentity pela \> pelo nome, alias, endereço de email ou nome de usuário principal (username) da caixa de correio e execute o seguinte comando no PowerShell do Exchange Online:
 
 ```PowerShell
 Get-Mailbox -Identity <MailboxIdentity> | Format-List DefaultAuditSet
 ```
 
-Para exibir o valor nas caixas de correio de grupo do Microsoft \<365\> , substitua mailboxidentity pela pelo nome, alias ou endereço de email da caixa de correio compartilhada e execute o seguinte comando no PowerShell do Exchange Online:
+Para exibir o valor nas caixas de correio de grupo do Microsoft 365, substitua \< mailboxidentity pela \> pelo nome, alias ou endereço de email da caixa de correio compartilhada e execute o seguinte comando no PowerShell do Exchange Online:
 
 ```PowerShell
 Get-Mailbox -Identity <MailboxIdentity> -GroupMailbox | Format-List DefaultAuditSet
@@ -177,7 +177,7 @@ Por exemplo, o valor `Owner` da propriedade *defaultauditset* em uma caixa de co
 
 - As ações de caixa de correio padrão para o proprietário da caixa de correio estão sendo auditadas.
 
-- As ações de caixa de correio auditadas para os `Delegate` tipos de logon e `Admin` foram alteradas das ações padrão.
+- As ações de caixa de correio auditadas para os `Delegate` `Admin` tipos de logon e foram alteradas das ações padrão.
 
 Um valor em branco para a propriedade *Defaultauditset* indica que as ações da caixa de correio para todos os três tipos de logon foram alteradas na caixa de correio do usuário ou em uma caixa de correio compartilhada.
 
@@ -185,7 +185,7 @@ Para obter mais informações, consulte a seção [alterar ou restaurar ações 
 
 ### <a name="display-the-mailbox-actions-that-are-being-logged-on-mailboxes"></a>Exibir as ações de caixa de correio que estão sendo registradas nas caixas de correio
 
-Para ver as ações de caixa de correio que estão sendo registradas no momento em caixas de correio de \<usuários\> ou caixas de correio compartilhadas, substitua mailboxidentity pela pelo nome, alias, endereço de email ou nome UPN da caixa de correio e execute um ou mais dos seguintes comandos no PowerShell do Exchange Online.
+Para ver as ações de caixa de correio que estão sendo registradas no momento em caixas de correio de usuários ou caixas de correio compartilhadas, substitua \< mailboxidentity pela \> pelo nome, alias, endereço de email ou nome UPN da caixa de correio e execute um ou mais dos seguintes comandos no PowerShell do Exchange Online.
 
 > [!NOTE]
 > Embora seja possível adicionar a `-GroupMailbox` opção para os seguintes comandos **Get-Mailbox** para caixas de correio de grupo do Microsoft 365, não acredite nos valores retornados. As ações de caixa de correio padrão e estáticas que são auditadas para caixas de correio de grupo do Microsoft 365 são descritas na seção [ações de caixa de correio para caixas de correio de grupo do microsoft 365](#mailbox-actions-for-microsoft-365-group-mailboxes) anteriormente neste tópico.
@@ -223,9 +223,9 @@ Você pode usar os parâmetros *AuditAdmin*, *AuditDelegate*ou *AuditOwner* no c
 
 Você pode usar dois métodos diferentes para especificar as ações da caixa de correio:
 
-- *Substitua* (substitua) as ações de caixa de correio existentes usando esta `action1,action2,...actionN`sintaxe:.
+- *Substitua* (substitua) as ações de caixa de correio existentes usando esta sintaxe: `action1,action2,...actionN` .
 
-- *Adicionar ou remover* ações de caixa de correio sem afetar outros valores existentes usando esta `@{Add="action1","action2",..."actionN"}` sintaxe `@{Remove="action1","action2",..."actionN"}`: ou.
+- *Adicionar ou remover* ações de caixa de correio sem afetar outros valores existentes usando esta sintaxe: `@{Add="action1","action2",..."actionN"}` ou `@{Remove="action1","action2",..."actionN"}` .
 
 Este exemplo altera as ações da caixa de correio de administrador da caixa de correio chamada "Gabriela Laureano" substituindo as ações padrão por SoftDelete e HardDelete.
 
@@ -323,7 +323,7 @@ No entanto, você ainda pode usar o cmdlet **Set-MailboxAuditBypassAssociation**
 
 - Ações de administrador executadas pelos usuários ignorados não são registradas.
 
-Para ignorar o log de auditoria de caixa de correio para \<um\> usuário específico, substitua mailboxidentity pela pelo nome, endereço de email, alias ou nome de usuário principal (username) do usuário e execute o seguinte comando:
+Para ignorar o log de auditoria de caixa de correio para um usuário específico, substitua \< mailboxidentity pela \> pelo nome, endereço de email, alias ou nome de usuário principal (username) do usuário e execute o seguinte comando:
 
 ```PowerShell
 Set-MailboxAuditBypassAssociation -Identity <MailboxIdentity> -AuditByPassEnabled $true
@@ -343,16 +343,16 @@ O valor **true** indica que o log de auditoria de caixa de correio é ignorado p
 
   Para recuperar entradas de log de auditoria de caixa de correio para usuários sem licenças e5, você pode:
 
-  - Habilite manualmente a auditoria de caixa de correio em caixas de correio individuais `Set-Mailbox -Identity <MailboxIdentity> -AuditEnabled $true`(execute o comando,). Depois de fazer isso, você pode usar pesquisas de log de auditoria no centro de conformidade & segurança ou por meio da API de atividade de gerenciamento do Office 365.
+  - Habilite manualmente a auditoria de caixa de correio em caixas de correio individuais (execute o comando, `Set-Mailbox -Identity <MailboxIdentity> -AuditEnabled $true` ). Depois de fazer isso, você pode usar pesquisas de log de auditoria no centro de conformidade & segurança ou por meio da API de atividade de gerenciamento do Office 365.
   
     > [!NOTE]
-    > Se a auditoria de caixa de correio já estiver habilitada na caixa de correio, mas as pesquisas não retornarem nenhum resultado, _AuditEnabled_ altere o valor `$false` do parâmetro AuditEnabled para `$true`e, em seguida, de volta para o.
+    > Se a auditoria de caixa de correio já estiver habilitada na caixa de correio, mas as pesquisas não retornarem nenhum resultado, altere o valor do parâmetro _AuditEnabled_ para `$false` e, em seguida, de volta para o `$true` .
   
   - Use os seguintes cmdlets no PowerShell do Exchange Online:
 
-    - [Search-MailboxAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog) para pesquisar o log de auditoria de caixa de correio para usuários específicos.
+    - [Search-MailboxAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-mailboxauditlog) para pesquisar o log de auditoria de caixa de correio para usuários específicos.
 
-    - [New-MailboxAuditLogSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/new-mailboxauditlogsearch) para pesquisar o log de auditoria de caixa de correio para usuários específicos e para que os resultados sejam enviados por email para destinatários especificados.
+    - [New-MailboxAuditLogSearch](https://docs.microsoft.com/powershell/module/exchange/new-mailboxauditlogsearch) para pesquisar o log de auditoria de caixa de correio para usuários específicos e para que os resultados sejam enviados por email para destinatários especificados.
 
   - Use o centro de administração do Exchange (Eat) no Exchange Online para executar as seguintes ações:
 
@@ -362,11 +362,11 @@ O valor **true** indica que o log de auditoria de caixa de correio é ignorado p
 
 - Por padrão, os registros de log de auditoria de caixa de correio são mantidos por 90 dias antes de serem excluídos. Você pode alterar o limite de idade para registros de log de auditoria usando o parâmetro *AuditLogAgeLimit* no cmdlet **Set-Mailbox** no PowerShell do Exchange Online. No entanto, aumentar esse valor não permite que você pesquise eventos com mais de 90 dias no log de auditoria.
 
-  Se você aumentar o limite de idade, será necessário usar o cmdlet [Search-MailboxAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog) no PowerShell do Exchange Online para pesquisar o log de auditoria de caixa de correio do usuário em registros com mais de 90 dias.
+  Se você aumentar o limite de idade, será necessário usar o cmdlet [Search-MailboxAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-mailboxauditlog) no PowerShell do Exchange Online para pesquisar o log de auditoria de caixa de correio do usuário em registros com mais de 90 dias.
 
 - Se você tiver alterado a propriedade *AuditLogAgeLimit* para uma caixa de correio antes de a auditoria da caixa de correio ativada por padrão para a organização, o limite de idade do log de auditoria existente da caixa de correio não será alterado. Em outras palavras, a auditoria de caixa de correio ativada por padrão não afeta o limite de idade atual para registros de auditoria de caixa de correio.
 
-- Para alterar o valor *AuditLogAgeLimit* em uma caixa de correio de grupo do Microsoft 365, você `-GroupMailbox` precisa incluir a opção no comando **Set-Mailbox** .
+- Para alterar o valor *AuditLogAgeLimit* em uma caixa de correio de grupo do Microsoft 365, você precisa incluir a `-GroupMailbox` opção no comando **Set-Mailbox** .
 
 - Os registros de log de auditoria de caixa de correio são armazenados em uma subpasta ( *auditorias*nomeadas) na pasta itens recuperáveis na caixa de correio de cada usuário. Considere os seguintes aspectos em relação aos registros de auditoria de caixa de correio e à pasta itens recuperáveis:
 

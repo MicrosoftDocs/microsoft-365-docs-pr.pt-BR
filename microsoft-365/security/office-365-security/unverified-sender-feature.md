@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Este artigo orientará você sobre como impedir que mensagens de phishing acessem sua caixa de correio, Outlook.com e Outlook na Web.
-ms.openlocfilehash: 2172a9890d629dd840c3e2e2591d78546899d17e
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.openlocfilehash: 9583161c9e64d6a24312565d68ae516a2be8606e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224867"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352449"
 ---
 # <a name="unverified-sender"></a>Remetente não verificado
 
@@ -50,7 +50,7 @@ Nem todas as mensagens que não são autenticadas são mal-intencionadas. No ent
 
 Se você for um cliente do Office 365, poderá gerenciar esse recurso através do centro de conformidade & segurança do Office 365.
 
-- No centro de conformidade & segurança, os administradores globais ou de segurança podem ativar ou desativar o recurso, através da proteção contra falsificação na política de anti-golpes. Além disso, você pode usar o cmdlet **set-AntiPhishPolicy** no PowerShell do Exchange Online. Para obter detalhes, consulte [proteção contra phishing no Office 365](anti-phishing-protection.md) e [set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy).
+- No centro de conformidade & segurança, os administradores globais ou de segurança podem ativar ou desativar o recurso, através da proteção contra falsificação na política de anti-golpes. Além disso, você pode usar o cmdlet **set-AntiPhishPolicy** no PowerShell do Exchange Online. Para obter detalhes, consulte [proteção contra phishing no Office 365](anti-phishing-protection.md) e [set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/set-antiphishpolicy).
 
     ![Edição de remetentes não autenticados na interface gráfica.](../../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 
@@ -58,7 +58,7 @@ Se você for um cliente do Office 365, poderá gerenciar esse recurso através d
 
   - Adicionar o par de domínios por meio da compreensão de inteligência de falsificação. Para obter detalhes, consulte [Walkthrough: spoof Intelligence percepção](walkthrough-spoof-intelligence-insight.md).
 
-  - Adicione o par de domínios por meio do cmdlet **set-PhishFilterPolicy** no PowerShell do Exchange Online. Para obter detalhes, consulte [set-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy) e [set up Office 365 ATP anti-phishing and anti-phishing Policies](set-up-anti-phishing-policies.md).
+  - Adicione o par de domínios por meio do cmdlet **set-PhishFilterPolicy** no PowerShell do Exchange Online. Para obter detalhes, consulte [set-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/set-phishfilterpolicy) e [set up Office 365 ATP anti-phishing and anti-phishing Policies](set-up-anti-phishing-policies.md).
 
 Além disso, não aplicamos o tratamento de remetentes não verificados se a mensagem foi entregue à caixa de entrada via regras de fluxo de emails (também conhecidas como regras de transporte) ou à lista de domínios seguros (políticas antispam).
 

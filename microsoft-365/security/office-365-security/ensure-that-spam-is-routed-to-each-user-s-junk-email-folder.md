@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a rotear spam para as pastas de lixo eletrônico do usuário em um ambiente híbrido do Exchange Online Protection.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5b4d16c864b25c4d47910f0dd69f0ed3e71a0de
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 1d5d83f8cfb994499be98eccf77b36d83e1f3d7c
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209470"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351958"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Configurar o EOP autônomo para fornecer spam para a pasta lixo eletrônico em ambientes híbridos
 
@@ -44,7 +44,7 @@ Para obter mais informações sobre esses valores de cabeçalho, consulte [anti-
 Este tópico descreve como criar essas regras de fluxo de emails do centro de administração do Exchange (Eat) e no Shell de gerenciamento do Exchange (Exchange PowerShell) na organização do Exchange local.
 
 > [!TIP]
-> Em vez de entregar as mensagens à pasta de lixo eletrônico do usuário local, você pode configurar políticas antispam no EOP para colocar mensagens de spam em quarentena no EOP. Para obter mais informações, consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md).
+> Em vez de entregar as mensagens à pasta de lixo eletrônico do usuário local, você pode configurar políticas antispam no EOP para colocar mensagens de spam em quarentena no EOP. Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -52,13 +52,13 @@ Este tópico descreve como criar essas regras de fluxo de emails do centro de ad
 
 - Se e quando uma mensagem for enviada para a pasta lixo eletrônico em uma organização local do Exchange é controlada por uma combinação das seguintes configurações:
 
-  - O valor do parâmetro _SCLJunkThreshold_ no cmdlet [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) no Shell de gerenciamento do Exchange. O valor padrão é 4, o que significa que um SCL de 5 ou superior deve entregar a mensagem para a pasta lixo eletrônico do usuário.
+  - O valor do parâmetro _SCLJunkThreshold_ no cmdlet [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) no Shell de gerenciamento do Exchange. O valor padrão é 4, o que significa que um SCL de 5 ou superior deve entregar a mensagem para a pasta lixo eletrônico do usuário.
 
-  - O valor do parâmetro _SCLJunkThreshold_ no cmdlet [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox) no Shell de gerenciamento do Exchange. O valor padrão é Blank ($null), o que significa que a configuração da organização é usada.
+  - O valor do parâmetro _SCLJunkThreshold_ no cmdlet [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox) no Shell de gerenciamento do Exchange. O valor padrão é Blank ($null), o que significa que a configuração da organização é usada.
 
   Para obter detalhes, consulte [Exchange spam nível de confiança (SCL)](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/scl).
 
-  - Se a regra de lixo eletrônico está habilitada na caixa de correio (o valor do parâmetro _Enabled_ é $true no cmdlet [set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration) no Shell de gerenciamento do Exchange). É a regra de lixo eletrônico que realmente move a mensagem para a pasta lixo eletrônico após a entrega. Por padrão, a regra de lixo eletrônico está habilitada nas caixas de correio. Para obter mais informações, consulte [Configurar configurações antispam do Exchange em caixas de correio](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings).
+  - Se a regra de lixo eletrônico está habilitada na caixa de correio (o valor do parâmetro _Enabled_ é $true no cmdlet [set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration) no Shell de gerenciamento do Exchange). É a regra de lixo eletrônico que realmente move a mensagem para a pasta lixo eletrônico após a entrega. Por padrão, a regra de lixo eletrônico está habilitada nas caixas de correio. Para obter mais informações, consulte [Configurar configurações antispam do Exchange em caixas de correio](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings).
   
 - Para abrir o Eat em um servidor Exchange, confira [centro de administração do Exchange no Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center). Para abrir o Shell de gerenciamento do Exchange, consulte [https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) .
 
@@ -126,7 +126,7 @@ New-TransportRule -Name "EOP SFV:SKS to SCL 6" -HeaderContainsMessageHeader "X-F
 New-TransportRule -Name "EOP SFV:SKB to SCL 6" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SFV:SKB" -SetSCL 6
 ```
 
-Para obter informações detalhadas sobre sintaxe e parâmetro, consulte [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule).
+Para obter informações detalhadas sobre sintaxe e parâmetro, consulte [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/new-transportrule).
 
 ## <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
 

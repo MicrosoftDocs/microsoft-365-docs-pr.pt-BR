@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: Os administradores podem saber como atribuir ou remover permissões no centro de administração do Exchange (Eat) na proteção do Exchange Online.
-ms.openlocfilehash: 3d7b709304f901c4adc41c67b0d6fe9c6ff382bf
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: ba2d053e1e75bd8867ebb9eb7f426cde92abd3e8
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209663"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352330"
 ---
-# <a name="manage-role-groups-in-standalone-eop"></a>Gerenciar grupos de função em EOP autônomos
+# <a name="manage-role-groups-in-standalone-eop"></a>Gerenciar grupos de funções no EOP autônomo
 
 Em organizações autônomas de proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, você pode usar o centro de administração do Exchange (Eat) para adicionar usuários aos grupos de função. A adição de um usuário a um grupo de funções permite que as permissões de administrador específicas sejam executadas. Você também pode remover usuários dos grupos de função.
 
@@ -135,7 +135,7 @@ Este exemplo retorna todos os grupos de função onde o usuário Julia é membro
 Get-RoleGroup -Filter "Members -eq 'CN=Julia,OU=contoso.onmicrosoft.com,OU=Microsoft Exchange Hosted Organizations,DC=NAMPR001,DC=PROD,DC=OUTLOOK,DC=COM'"
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Get-RoleGroup).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroup).
 
 ### <a name="use-standalone-eop-powershell-to-create-role-groups"></a>Usar o EOP autônomo do PowerShell para criar grupos de função
 
@@ -184,7 +184,7 @@ Ao criar um novo grupo de função, você pode definir todas as configurações 
      New-RoleGroup "Limited Organization Management" -Roles $RoleGroup.Roles -Members "Isabelle","Carter","Lukas"
      ```
 
-Para informações detalhadas de sintaxes e de parâmetros, [New-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/New-RoleGroup).
+Para informações detalhadas de sintaxes e de parâmetros, [New-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/New-RoleGroup).
 
 ### <a name="use-standalone-eop-powershell-modify-the-list-of-members-in-role-groups"></a>Usar EOP autônomo do PowerShell modificar a lista de membros nos grupos de função
 
@@ -214,7 +214,7 @@ Este exemplo adiciona Daigoro Akai e remove valeria Barrio da lista de membros n
 Update-RoleGroupMember -Identity "Help Desk" -Members @{Add="Daigoro Akai"; Remove="Valeria Barrios"}
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [Update-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Update-RoleGroupMember).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Update-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Update-RoleGroupMember).
 
 ### <a name="use-standalone-eop-powershell-to-remove-role-groups"></a>Usar EOP PowerShell autônomo para remover grupos de função
 
@@ -232,7 +232,7 @@ Este exemplo remove o grupo de funções Training Administrators.
 Remove-RoleGroup -Identity "Training Administrators"
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Remove-RoleGroup).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/Remove-RoleGroup).
 
 ### <a name="how-do-you-know-these-procedures-worked"></a>Como saber se esses procedimentos funcionaram?
 

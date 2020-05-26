@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Depois de configurar a chave do cliente, saiba como gerenciá-la restaurando as chaves do AKV e gerenciando as permissões e as políticas de criptografia de dados.
-ms.openlocfilehash: 4796fcef69e052725b635acb4170d73bb36de787
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: dbdbd61b4d06e183d8cc5461122e316b2b6b1797
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635597"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352198"
 ---
 # <a name="manage-customer-key"></a>Gerenciar chave do cliente
 
@@ -88,7 +88,7 @@ Para exibir uma lista de todos os DEPs que você criou para o Exchange Online e 
   Get-DataEncryptionPolicy
   ```
 
-  Para obter mais informações sobre o cmdlet Get-DataEncryptionPolicy, consulte [Get-DataEncryptionPolicy](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/get-dataencryptionpolicy?view=exchange-ps).
+  Para obter mais informações sobre o cmdlet Get-DataEncryptionPolicy, consulte [Get-DataEncryptionPolicy](https://docs.microsoft.com/powershell/module/exchange/get-dataencryptionpolicy?view=exchange-ps).
 
 ### <a name="assign-a-dep-before-you-migrate-a-mailbox-to-the-cloud"></a>Atribuir uma DEP antes de migrar uma caixa de correio para a nuvem
 
@@ -104,7 +104,7 @@ Para atribuir uma DEP a uma caixa de correio antes de migrá-la para o Office 36
   Set-MailUser -Identity <GeneralMailboxOrMailUserIdParameter> -DataEncryptionPolicy <DataEncryptionPolicyIdParameter>
   ```
 
-  Onde *GeneralMailboxOrMailUserIdParameter* especifica uma caixa de correio e *DATAENCRYPTIONPOLICYIDPARAMETER* é a ID da DEP. Para obter mais informações sobre o cmdlet Set-MailUser, consulte [Set-MailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-mailuser?view=exchange-ps).
+  Onde *GeneralMailboxOrMailUserIdParameter* especifica uma caixa de correio e *DATAENCRYPTIONPOLICYIDPARAMETER* é a ID da DEP. Para obter mais informações sobre o cmdlet Set-MailUser, consulte [Set-MailUser](https://docs.microsoft.com/powershell/module/exchange/set-mailuser?view=exchange-ps).
 
 ### <a name="determine-the-dep-assigned-to-a-mailbox"></a>Determinar a DEP atribuída a uma caixa de correio
 
@@ -116,7 +116,7 @@ Para determinar a DEP atribuída a uma caixa de correio, use o cmdlet Get-Mailbo
    Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl DataEncryptionPolicyID
    ```
 
-   Onde *GeneralMailboxOrMailUserIdParameter* especifica uma caixa de correio e DataEncryptionPolicyID retorna o GUID da DEP. Para obter mais informações sobre o cmdlet Get-MailboxStatistics, consulte [Get-MailboxStatistics](https://docs.microsoft.com/powershell/module/exchange/mailboxes/get-mailboxstatistics?view=exchange-ps).
+   Onde *GeneralMailboxOrMailUserIdParameter* especifica uma caixa de correio e DataEncryptionPolicyID retorna o GUID da DEP. Para obter mais informações sobre o cmdlet Get-MailboxStatistics, consulte [Get-MailboxStatistics](https://docs.microsoft.com/powershell/module/exchange/get-mailboxstatistics?view=exchange-ps).
   
 2. Execute o cmdlet Get-DataEncryptionPolicy para descobrir o nome amigável da DEP à qual a caixa de correio é atribuída.
   
@@ -148,7 +148,7 @@ O tempo para concluir movimentações de caixa de correio depende do tamanho da 
 New-MoveRequest <alias>
 ```
 
-Para obter mais informações sobre esse cmdlet, consulte [Get-MailboxStatistics](https://docs.microsoft.com/powershell/module/exchange/move-and-migration/new-moverequest?view=exchange-ps).
+Para obter mais informações sobre esse cmdlet, consulte [Get-MailboxStatistics](https://docs.microsoft.com/powershell/module/exchange/new-moverequest?view=exchange-ps).
 
 ### <a name="verify-encryption-completes-for-sharepointonlineonedriveforbusinessandteamsfiles"></a>Verificar se a criptografia é concluída para os arquivos do SharePoint Online, do OneDrive for Business e do teams
 
@@ -201,7 +201,7 @@ Para iniciar o caminho de limpeza de dados, conclua estas etapas:
 
 2. Usando uma conta corporativa ou de estudante que tenha privilégios de administrador global em sua organização, [Conecte-se ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
 
-3. Para cada DEP que contenha caixas de correio que você deseja excluir, execute o cmdlet [set-DataEncryptionPolicy](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/set-dataencryptionpolicy) da seguinte maneira.
+3. Para cada DEP que contenha caixas de correio que você deseja excluir, execute o cmdlet [set-DataEncryptionPolicy](https://docs.microsoft.com/powershell/module/exchange/set-dataencryptionpolicy) da seguinte maneira.
 
     ```powershell
     Set-DataEncryptionPolicy <Policy ID> -PermanentDataPurgeRequested -PermanentDataPurgeReason <Reason> -PermanentDataPurgeContact <ContactName>

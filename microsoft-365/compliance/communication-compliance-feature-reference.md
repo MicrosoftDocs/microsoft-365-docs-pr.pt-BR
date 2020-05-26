@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 6ca0edb1338c21f710ae493c8697b0c2740860ba
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: b524001f848a106ec2832c698b474cfce8ceb24b
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327595"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352075"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -294,7 +294,7 @@ Para exibir as atividades de política de conformidade de comunicação, selecio
 | **Operations** | As operações executadas na política. |
 | **AuditData** | Este campo é a principal fonte de dados para todas as atividades de política. Todas as atividades são registradas e separadas por delimitadores vírgulas. |
 
-Você também pode exibir as atividades de auditoria no log de auditoria unificada ou com o cmdlet [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) do PowerShell.
+Você também pode exibir as atividades de auditoria no log de auditoria unificada ou com o cmdlet [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) do PowerShell.
 
 Por exemplo, o exemplo a seguir retorna as atividades de todas as atividades de análise de supervisão (políticas e regras):
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Depois de exportar e baixar os resultados de uma pesquisa de log de auditoria para um arquivo CSV, você pode usar o recurso transformação JSON no editor do Power Query no Excel para dividir cada propriedade no objeto JSON na coluna AuditData em sua própria coluna. Isso pode ajudá-lo a localizar rapidamente os dados de auditoria específicos que você está procurando. Você também pode usar o PowerShell para pesquisar e exportar registros de log de auditoria.
-ms.openlocfilehash: c06fbe28a62cf04e1ffdd6ecf173d027e89b5074
-ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
+ms.openlocfilehash: 763a20a7da09007e54c0714b82b86ffe3586e501
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43799924"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352381"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>Exportar, configurar e exibir registros de log de auditoria
 
@@ -100,7 +100,7 @@ A próxima etapa é usar o recurso transformação JSON no editor do Power Query
 
 ## <a name="use-powershell-to-search-and-export-audit-log-records"></a>Usar o PowerShell para pesquisar e exportar registros de log de auditoria
 
-Em vez de usar a ferramenta de pesquisa de log de auditoria no centro de conformidade & segurança, você pode usar o cmdlet [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) no PowerShell do Exchange Online para exportar os resultados de uma pesquisa de log de auditoria para um arquivo CSV. Em seguida, você pode seguir o mesmo procedimento descrito na etapa 2 para formatar o log de auditoria usando o editor de consulta de alimentação. Uma vantagem de usar o cmdlet do PowerShell é que você pode pesquisar eventos de um serviço específico usando o parâmetro *RecordType* . Aqui estão alguns exemplos de como usar o PowerShell para exportar registros de auditoria para um arquivo CSV, para que você possa usar o editor de consulta de alimentação para transformar o objeto JSON na coluna **AuditData** , conforme descrito na etapa 2.
+Em vez de usar a ferramenta de pesquisa de log de auditoria no centro de conformidade & segurança, você pode usar o cmdlet [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) no PowerShell do Exchange Online para exportar os resultados de uma pesquisa de log de auditoria para um arquivo CSV. Em seguida, você pode seguir o mesmo procedimento descrito na etapa 2 para formatar o log de auditoria usando o editor de consulta de alimentação. Uma vantagem de usar o cmdlet do PowerShell é que você pode pesquisar eventos de um serviço específico usando o parâmetro *RecordType* . Aqui estão alguns exemplos de como usar o PowerShell para exportar registros de auditoria para um arquivo CSV, para que você possa usar o editor de consulta de alimentação para transformar o objeto JSON na coluna **AuditData** , conforme descrito na etapa 2.
 
 Neste exemplo, execute os seguintes comandos para retornar todos os registros relacionados às operações de compartilhamento do SharePoint.
 

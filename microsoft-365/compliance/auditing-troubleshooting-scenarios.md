@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como usar a ferramenta de pesquisa de log de auditoria do Office 365 para ajudar a solucionar problemas comuns de suporte para contas de email.
-ms.openlocfilehash: 64ddffab518fdf54dba1ffca87548a65037b8eb7
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e370a0220fcc42854d3cc570e175ab96845f7d4b
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034207"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351124"
 ---
 # <a name="search-the-audit-log-to-investigate-common-support-issues"></a>Pesquisar o log de auditoria para investigar problemas comuns de suporte
 
@@ -128,7 +128,7 @@ Se você determinar que o encaminhamento de emails não deve ser definido na cai
 Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null 
 ```
 
-Para obter mais informações sobre os parâmetros relacionados ao encaminhamento de emails, consulte o artigo [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox) .
+Para obter mais informações sobre os parâmetros relacionados ao encaminhamento de emails, consulte o artigo [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox) .
 
 ## <a name="determine-if-a-user-deleted-email-items"></a>Determinar se um usuário excluiu itens de email
 
@@ -192,9 +192,9 @@ Depois de executar a pesquisa, todos os registros de auditoria dessa atividade s
 
 a. No campo **ObjectID** , o nome completo da regra de caixa de entrada é exibido. Esse nome inclui o alias da caixa de correio do usuário (por exemplo, em inglês) e o nome da regra de caixa de entrada (por exemplo, "mover mensagens do administrador").
 
-b. No campo **parâmetros** , a condição da regra de caixa de entrada é exibida. Neste exemplo, a condição é especificada pelo parâmetro *from* . O valor definido para o parâmetro from indica que a regra de caixa *de* entrada atua no email enviado por admin@alpinehouse.onmicrosoft.com. Para obter uma lista completa dos parâmetros que podem ser usados para definir condições de regras de caixa de entrada, consulte o artigo [New-InboxRule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-inboxrule) .
+b. No campo **parâmetros** , a condição da regra de caixa de entrada é exibida. Neste exemplo, a condição é especificada pelo parâmetro *from* . O valor definido para o parâmetro from indica que a regra de caixa *de* entrada atua no email enviado por admin@alpinehouse.onmicrosoft.com. Para obter uma lista completa dos parâmetros que podem ser usados para definir condições de regras de caixa de entrada, consulte o artigo [New-InboxRule](https://docs.microsoft.com/powershell/module/exchange/new-inboxrule) .
 
-c. O parâmetro *MoveToFolder* especifica a ação para a regra de caixa de entrada. Neste exemplo, as mensagens recebidas de admin@alpinehouse.onmicrosoft.com são movidas para a pasta denominada *AdminSearch*. Consulte também o artigo [New-InboxRule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-inboxrule) para obter uma lista completa de parâmetros que podem ser usados para definir a ação de uma regra de caixa de entrada.
+c. O parâmetro *MoveToFolder* especifica a ação para a regra de caixa de entrada. Neste exemplo, as mensagens recebidas de admin@alpinehouse.onmicrosoft.com são movidas para a pasta denominada *AdminSearch*. Consulte também o artigo [New-InboxRule](https://docs.microsoft.com/powershell/module/exchange/new-inboxrule) para obter uma lista completa de parâmetros que podem ser usados para definir a ação de uma regra de caixa de entrada.
 
 d. O campo **userid** indica o usuário que criou a regra de caixa de entrada especificada no campo **ObjectID** . Esse usuário também é exibido na coluna **usuário** na página de resultados da pesquisa.
 
@@ -202,7 +202,7 @@ d. O campo **userid** indica o usuário que criou a regra de caixa de entrada es
 
 Ao revisar registros de auditoria no log de auditoria, você pode ver registros que indicam que um usuário externo foi autenticado pelo Azure Active Directory e fez logon com êxito na sua organização. Por exemplo, um administrador no contoso.onmicrosoft.com pode ver um registro de auditoria mostrando que um usuário de uma organização diferente (por exemplo, fabrikam.onmicrosoft.com) se conectou com êxito no contoso.onmicrosoft.com. Da mesma forma, você pode ver registros de auditoria que indicam aos usuários uma conta da Microsoft (MSA), como um Outlook.com ou Live.com, conectado com êxito à sua organização. Nessas situações, a atividade auditada é o **usuário conectado**. 
 
-Esse comportamento é devido ao design. Azure Active Directory (Azure AD), o serviço de diretório permite algo chamado *autenticação de passagem* quando um usuário externo tenta acessar um site do SharePoint ou um local do onedrive em sua organização. Quando o usuário externo tenta fazer isso, é solicitado a inserir suas credenciais. O Azure AD usa as credenciais para autenticar o usuário, o que significa que somente o Azure AD verifica se o usuário é quem diz ser. A indicação do logon bem-sucedido no registro de auditoria é o resultado do Azure AD autenticar o usuário. O logon bem-sucedido não significa que o usuário conseguiu acessar qualquer recurso ou executar qualquer outra ação em sua organização. Somente indica que o usuário foi autenticado pelo Azure AD. Para que um usuário de passagem acesse os recursos do SharePoint ou do OneDrive, um usuário da sua organização teria que compartilhar explicitamente um recurso com o usuário externo enviando-lhes um convite de compartilhamento ou um link de compartilhamento anônimo. 
+Este é o comportamento padrão. Azure Active Directory (Azure AD), o serviço de diretório permite algo chamado *autenticação de passagem* quando um usuário externo tenta acessar um site do SharePoint ou um local do onedrive em sua organização. Quando o usuário externo tenta fazer isso, é solicitado a inserir suas credenciais. O Azure AD usa as credenciais para autenticar o usuário, o que significa que somente o Azure AD verifica se o usuário é quem diz ser. A indicação do logon bem-sucedido no registro de auditoria é o resultado do Azure AD autenticar o usuário. O logon bem-sucedido não significa que o usuário conseguiu acessar qualquer recurso ou executar qualquer outra ação em sua organização. Somente indica que o usuário foi autenticado pelo Azure AD. Para que um usuário de passagem acesse os recursos do SharePoint ou do OneDrive, um usuário da sua organização teria que compartilhar explicitamente um recurso com o usuário externo enviando-lhes um convite de compartilhamento ou um link de compartilhamento anônimo. 
 
 > [!NOTE]
 > O Azure AD permite a autenticação de passagem somente para *aplicativos de terceiros*, como o SharePoint Online e o onedrive for Business. Não é permitido para outros aplicativos de terceiros.

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: Atribua as permissões necessárias para executar tarefas relacionadas à descoberta eletrônica usando o centro de conformidade do & de segurança.
-ms.openlocfilehash: dc7eb61a006b41e519c76e70c768b551ff5126b9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b56b2e59a7b3a40a4ea76c1172c3631198ddefe3
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631842"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351103"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Atribuir permissões de descoberta eletrônica no centro de conformidade & segurança
 
@@ -49,21 +49,21 @@ O grupo de função principal relacionado à descoberta eletrônica no centro de
 
 - Você precisa ser membro do grupo de função gerenciamento da organização ou receber a função de gerenciamento de função para atribuir permissões de descoberta eletrônica no centro de conformidade de & de segurança.
     
-- Você pode usar o cmdlet [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Add-RoleGroupMember) no centro de segurança & conformidade para adicionar um grupo de segurança habilitado para email como membro do subgrupo gerenciadores de descoberta eletrônica no grupo de funções Gerenciador de descoberta eletrônica. No entanto, não é possível adicionar um grupo de segurança habilitado para email ao subgrupo administradores de descoberta eletrônica. Para obter detalhes, consulte a seção [mais informações](#more-information) . 
+- Você pode usar o cmdlet [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember) no centro de segurança & conformidade para adicionar um grupo de segurança habilitado para email como membro do subgrupo gerenciadores de descoberta eletrônica no grupo de funções Gerenciador de descoberta eletrônica. No entanto, não é possível adicionar um grupo de segurança habilitado para email ao subgrupo administradores de descoberta eletrônica. Para obter detalhes, consulte a seção [mais informações](#more-information) . 
     
 ## <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Atribuir permissões de descoberta eletrônica no centro de conformidade & segurança
 
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Entre usando sua conta corporativa ou de estudante.
+2. Entre usando sua conta de trabalho ou da escola.
     
 3. No painel esquerdo do centro de segurança e conformidade, selecione **permissões**e marque a caixa de seleção ao lado de **Gerenciador de descoberta eletrônica**.
     
 4. Na página do submenu **Gerenciador de descoberta eletrônica** , siga um destes procedimentos com base nas permissões de descoberta eletrônica que você deseja atribuir. 
   
-    **Para tornar um usuário um gerente de descoberta eletrônica:** Ao lado de **Gerenciador de descoberta eletrônica**, selecione **Editar**. Na seção **escolher Gerenciador de descoberta eletrônica** , selecione o hiperlink **escolher Gerenciador de descoberta eletrônica** e ![selecione Adicionar](../media/ITPro-EAC-AddIcon.gif) ícone **Adicionar**. Selecione o usuário (ou usuários) que você deseja adicionar como um Gerenciador de descoberta eletrônica e selecione **Adicionar**. Quando terminar de adicionar usuários, selecione **concluído**. Em seguida, na página **edição escolha Gerenciador de descoberta eletrônica** , selecione **salvar** para salvar as alterações na associação do Gerenciador de descoberta eletrônica.
+    **Para tornar um usuário um gerente de descoberta eletrônica:** Ao lado de **Gerenciador de descoberta eletrônica**, selecione **Editar**. Na seção **escolher Gerenciador de descoberta eletrônica** , selecione o hiperlink **escolher Gerenciador de descoberta eletrônica** e selecione ![ Adicionar ícone ](../media/ITPro-EAC-AddIcon.gif) **Adicionar**. Selecione o usuário (ou usuários) que você deseja adicionar como um Gerenciador de descoberta eletrônica e selecione **Adicionar**. Quando terminar de adicionar usuários, selecione **concluído**. Em seguida, na página **edição escolha Gerenciador de descoberta eletrônica** , selecione **salvar** para salvar as alterações na associação do Gerenciador de descoberta eletrônica.
   
-    **Para tornar um usuário administrador de descoberta eletrônica:** Ao lado de **Gerenciador de descoberta eletrônica**, selecione **Editar**. Na seção **escolher administrador de descoberta eletrônica** , **em administradores de descoberta eletrônica**, selecione **escolher administrador de descoberta eletrônica**, selecione ![ **Editar**e, em seguida, selecione Adicionar ícone](../media/ITPro-EAC-AddIcon.gif) **Adicionar**. Selecione o usuário (ou usuários) que você deseja adicionar como **administrador de descoberta eletrônica**e, em seguida, **adicione**. Quando terminar de adicionar usuários, selecione **concluído**. Em seguida, na página **edição escolha administrador de descoberta eletrônica** , selecione **salvar** para salvar as alterações na associação do administrador de descoberta eletrônica.
+    **Para tornar um usuário administrador de descoberta eletrônica:** Ao lado de **Gerenciador de descoberta eletrônica**, selecione **Editar**. Na seção **escolher administrador de descoberta eletrônica** , em **Administradores de descoberta eletrônica**, selecione **escolher administrador de descoberta eletrônica**, selecione **editar**e, em seguida, selecione ![ Adicionar ícone ](../media/ITPro-EAC-AddIcon.gif) **Adicionar**. Selecione o usuário (ou usuários) que você deseja adicionar como **administrador de descoberta eletrônica**e, em seguida, **adicione**. Quando terminar de adicionar usuários, selecione **concluído**. Em seguida, na página **edição escolha administrador de descoberta eletrônica** , selecione **salvar** para salvar as alterações na associação do administrador de descoberta eletrônica.
       
 > [!NOTE]
 > Você também pode usar o cmdlet **Add-eDiscoveryCaseAdmin** para tornar um usuário um administrador de descoberta eletrônica. No entanto, o usuário deve ter a função de gerenciamento de casos atribuída para que você possa usar este cmdlet para torná-los um administrador de descoberta eletrônica. Para obter mais informações, consulte [Add-eDiscoveryCaseAdmin](https://go.microsoft.com/fwlink/p/?LinkID=798217). 
@@ -151,7 +151,7 @@ Essa função permite que os usuários realizem a remoção em massa de dados qu
   Add-RoleGroupMember "eDiscovery Manager" -Member <name of security group>
   ```
 
-    Não há suporte para grupos de distribuição do Exchange e grupos do Microsoft 365. Você deve usar um grupo de segurança habilitado para email, que pode ser criado no PowerShell do Exchange Online usando `New-DistributionGroup -Type Security` o comando. Você também pode criar um grupo de segurança habilitado para email (e adicionar membros) no centro de administração do Exchange ou no centro de administração do Microsoft 365. Pode levar até 60 minutos depois de criá-lo para que uma nova segurança habilitada para email esteja disponível para ser adicionada ao grupo de função gerentes de descoberta eletrônica. 
+    Não há suporte para grupos de distribuição do Exchange e grupos do Microsoft 365. Você deve usar um grupo de segurança habilitado para email, que pode ser criado no PowerShell do Exchange Online usando o `New-DistributionGroup -Type Security` comando. Você também pode criar um grupo de segurança habilitado para email (e adicionar membros) no centro de administração do Exchange ou no centro de administração do Microsoft 365. Pode levar até 60 minutos depois de criá-lo para que uma nova segurança habilitada para email esteja disponível para ser adicionada ao grupo de função gerentes de descoberta eletrônica. 
     
     Além disso, como declarado anteriormente, você não pode tornar um grupo de segurança habilitado para email em um administrador de descoberta eletrônica usando o cmdlet **Add-eDiscoveryCaseAdmin** no PowerShell do centro de conformidade e segurança &. Você só pode adicionar usuários individuais como administradores de descoberta eletrônica. 
     

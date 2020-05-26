@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: 'Para administradores: excluir itens na pasta itens recuperáveis de um usuário para uma caixa de correio do Exchange Online, mesmo se essa caixa de correio for colocada em retenção legal. Essa é uma maneira eficaz de excluir dados que foram desfeitos acidentalmente no Microsoft 365.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 223c589d191eef14662b7e19aa5ed113db9ff3b2
-ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
+ms.openlocfilehash: ce363d558e5ce1de600ccf34863cc6524841e78b
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232047"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352176"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>Excluir itens da pasta itens recuperáveis das caixas de correio baseadas em nuvem em manter ajuda do administrador
 
@@ -272,7 +272,7 @@ Você deve receber a função de retenção legal no Exchange Online para usar o
 
 ## <a name="step-5-delete-items-in-the-recoverable-items-folder"></a>Etapa 5: excluir itens na pasta itens recuperáveis
 
-Agora, você está pronto para excluir itens na pasta itens recuperáveis usando os cmdlets [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearch) e [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearchaction) no centro de conformidade de & de segurança. 
+Agora, você está pronto para excluir itens na pasta itens recuperáveis usando os cmdlets [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch) e [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearchaction) no centro de conformidade de & de segurança. 
 
 Para fazer isso, confira [Pesquisar e excluir mensagens de email](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization).
 

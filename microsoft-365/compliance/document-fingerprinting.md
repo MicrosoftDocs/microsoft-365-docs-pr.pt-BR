@@ -12,12 +12,12 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Os funcionários de TI em sua organização lidam com vários tipos de informações confidenciais em um dia comum. A Impressão Digital de Documento facilita a proteção dessas informações identificando formas padrão usadas em sua organização. Este tópico descreve os conceitos por trás da impressão digital de documento e como criar um usando o PowerShell.
-ms.openlocfilehash: 61fe5082b4808f153cc4092b429c0c5e6a54b110
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 37b5649e357f24993e41ae93db6737d980ce0c72
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074939"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352018"
 ---
 # <a name="document-fingerprinting"></a>Impressão Digital de Documento
 
@@ -65,7 +65,7 @@ A impressão digital de documento não detectará informações confidenciais no
 
 ## <a name="use-powershell-to-create-a-classification-rule-package-based-on-document-fingerprinting"></a>Usar o PowerShell para criar um pacote de regras de classificação com base na impressão digital de documento
 
-Observe que, no momento, você pode criar uma impressão digital de documento usando o &amp; PowerShell no centro de conformidade de segurança. Para se conectar, confira [conectar-se ao PowerShell do centro de conformidade do & de segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+Observe que, no momento, você pode criar uma impressão digital de documento usando o PowerShell no centro de conformidade de segurança &amp; . Para se conectar, confira [conectar-se ao PowerShell do centro de conformidade do & de segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
 A DLP usa pacotes de regras de classificação para detectar conteúdo confidencial. Para criar um pacote de regras de classificação com base em uma impressão digital de documento, use os cmdlets **New-DlpFingerprint** e **New-DlpSensitiveInformationType** . Como os resultados de **New-DlpFingerprint** não são armazenados fora da regra de classificação de dados, você sempre executa **New-DlpFingerprint** e **New-DlpSensitiveInformationType** ou **set-DlpSensitiveInformationType** na mesma sessão do PowerShell. Este exemplo cria uma nova impressão digital de documento baseada no arquivo CC:\My Documents\Contoso Employee Template.docx. Você armazena a nova impressão digital como uma variável para que possa usá-la com o cmdlet **New-DlpSensitiveInformationType** na mesma sessão do PowerShell.
   
@@ -84,7 +84,7 @@ New-DlpSensitiveInformationType -Name "Contoso Customer Confidential" -Fingerpri
 
 Agora você pode usar o cmdlet **Get-DlpSensitiveInformationType** para localizar todos os pacotes de regras de classificação de dados DLP e, neste exemplo, "confidencial do cliente da Contoso" é parte da lista pacotes de classificação de dados. 
   
-Por fim, adicione o pacote de regras de classificação de dados "contoso Customer Confidential" a uma política &amp; de DLP no centro de conformidade de segurança. Este exemplo adiciona uma regra a uma política de DLP existente chamada "ConfidentialPolicy".
+Por fim, adicione o pacote de regras de classificação de dados "contoso Customer Confidential" a uma política de DLP no centro de conformidade de segurança &amp; . Este exemplo adiciona uma regra a uma política de DLP existente chamada "ConfidentialPolicy".
 
 ```powershell
 New-DlpComplianceRule -Name "ContosoConfidentialRule" -Policy "ConfidentialPolicy" -ContentContainsSensitiveInformation @{Name="Contoso Customer Confidential"} -BlockAccess $True
@@ -100,8 +100,8 @@ A DLP agora detecta documentos que correspondem à impressão digital de documen
   
 Para obter informações sobre sintaxe e parâmetros, consulte:
 
-- [New-DlpFingerprint](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/New-DlpFingerprint)
-- [New-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/New-DlpSensitiveInformationType)
-- [Remove-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Remove-DlpSensitiveInformationType)
-- [Set-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Set-DlpSensitiveInformationType)
-- [Get-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpSensitiveInformationType)
+- [New-DlpFingerprint](https://docs.microsoft.com/powershell/module/exchange/New-DlpFingerprint)
+- [New-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/New-DlpSensitiveInformationType)
+- [Remove-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/Remove-DlpSensitiveInformationType)
+- [Set-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/Set-DlpSensitiveInformationType)
+- [Get-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/Get-DlpSensitiveInformationType)

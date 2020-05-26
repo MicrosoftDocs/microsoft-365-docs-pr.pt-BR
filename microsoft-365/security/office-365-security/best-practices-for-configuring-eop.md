@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Siga estas recomendações de práticas recomendadas para proteção autônoma do Exchange Online (EOP) a fim de configurar o sucesso e evitar erros de configuração comuns.
-ms.openlocfilehash: 157d6b76631336e3c6f6e5e669323266c17e015f
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: ade41b5343e19f75658f01e6c395c470e230b315
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209614"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351922"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Práticas recomendadas para configurar o EOP autônomo
 
@@ -53,7 +53,7 @@ Estas configurações abrangem uma variedade de recursos fora das políticas de 
 |[Conectividade POP para caixa de correio](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Desabilitado|Desabilitado||
 |Envio SMTP autenticado|Desabilitado|Desabilitado|O envio SMTP de cliente autenticado (também conhecido como Envio SMTP de cliente ou autenticação SMTP) é necessário para que clientes POP3 e IMAP4 enviem email.|
 |Conectividade do EWS à caixa de correio|Desabilitado|Desabilitado||
-|[Conectividade do PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)|Desabilitado|Desabilitado|Disponível para usuários de caixa de correio ou usuários de email (objetos de usuário retornados pelo cmdlet [Get-User](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-user) ).|
+|[Conectividade do PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)|Desabilitado|Desabilitado|Disponível para usuários de caixa de correio ou usuários de email (objetos de usuário retornados pelo cmdlet [Get-User](https://docs.microsoft.com/powershell/module/exchange/get-user) ).|
 |Usar a [inteligência de falsificação](learn-about-spoof-intelligence.md) para os remetentes da lista branca sempre que possível|Sim|Sim||
 |[Bloqueio de borda baseado em diretório (DBEB)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Habilitado|Habilitado|Tipo de domínio = autoritativo|
 |[Configurar a autenticação multifator para todas as contas de administrador](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)|Habilitado|Habilitado||

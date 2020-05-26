@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode criar uma retenção associada a uma caixa de descoberta eletrônica principal para preservar o conteúdo que pode ser relevante para uma investigação.
-ms.openlocfilehash: 6405dac51c34163f8eadb359d9c29f1aa81a1b82
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.openlocfilehash: c4f3b258fecde8b5a49a77585fe8f1d6cdfe2c11
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551362"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352248"
 ---
 # <a name="create-an-ediscovery-hold"></a>Criar uma retenção de Descoberta Eletrônica
 
@@ -63,7 +63,7 @@ Para criar uma retenção de descoberta eletrônica associada a um caso de desco
 
    b. **Locais de sites** -clique em **escolher sites** e clique em **escolher sites** novamente para especificar as contas do SharePoint e do onedrive para colocar em espera. Digite a URL de cada site que você deseja colocar em retenção. Você também pode adicionar a URL do site do SharePoint para uma equipe da Microsoft, um grupo do Office 365 ou um grupo do Yammer. Clique em **escolher**e em **concluído**.
   
-   c. **Pastas públicas do Exchange.** Mova o ![controle](../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) de alternância de alternância para a posição **All** para colocar todas as pastas públicas em sua organização do Exchange Online em espera. Você não pode escolher pastas públicas específicas para colocá-las em espera. Deixe a opção de alternância definida como **nenhuma** se você não quiser colocar uma retenção em pastas públicas.
+   c. **Pastas públicas do Exchange.** Mova o controle de alternância de alternância ![ ](../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) para a posição **All** para colocar todas as pastas públicas em sua organização do Exchange Online em espera. Você não pode escolher pastas públicas específicas para colocá-las em espera. Deixe a opção de alternância definida como **nenhuma** se você não quiser colocar uma retenção em pastas públicas.
 
 8. Quando você terminar de adicionar locais de conteúdo à isenção, clique em **Avançar**.
 
@@ -173,7 +173,7 @@ Lembre-se do seguinte ao colocar o Teams e os grupos do Office 365 em uma reten�
 Para coletar uma lista das URLs para os sites do OneDrive for Business em sua organização para que você possa adicioná-los a uma isenção ou a uma pesquisa associada a uma ocorrência de descoberta eletrônica, consulte [criar uma lista de todos os locais do onedrive em sua organização](https://docs.microsoft.com/onedrive/list-onedrive-urls). O script neste artigo cria um arquivo de texto que contém uma lista de todos os sites do OneDrive em sua organização. Para executar esse script, é necessário instalar e usar o Shell de Gerenciamento Online do SharePoint. Não se esqueça de acrescentar a URL do domínio MySite da organização para cada site do OneDrive que você deseja pesquisar. Este é o domínio que contém todos os seus OneDrive; por exemplo, `https://contoso-my.sharepoint.com`. Veja um exemplo de URL para o site do OneDrive de um usuário: `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
 
 > [!IMPORTANT]
-> A URL de uma conta do usuário do OneDrive inclui seu nome de princípio de usuário (por exemplo, `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com`). No caso raro que o UPN de uma pessoa seja alterado, a URL do OneDrive também será alterada para incorporar o novo UPN. Se a conta do OneDrive de um usuário fizer parte de um controle de descoberta eletrônica, o antigo e o respectivo UPN serão alterados, você precisará atualizar a retenção e será necessário atualizar a retenção e adicionar a nova URL do OneDrive do usuário e remover a antiga. Para saber mais, confira [Como as alterações de UPN afetam a URL do OneDrive](https://docs.microsoft.com/onedrive/upn-changes).
+> A URL de uma conta do usuário do OneDrive inclui seu nome de princípio de usuário (por exemplo, `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). No caso raro que o UPN de uma pessoa seja alterado, a URL do OneDrive também será alterada para incorporar o novo UPN. Se a conta do OneDrive de um usuário fizer parte de um controle de descoberta eletrônica, o antigo e o respectivo UPN serão alterados, você precisará atualizar a retenção e será necessário atualizar a retenção e adicionar a nova URL do OneDrive do usuário e remover a antiga. Para saber mais, confira [Como as alterações de UPN afetam a URL do OneDrive](https://docs.microsoft.com/onedrive/upn-changes).
 
 ## <a name="ediscovery-hold-limits"></a>limites de retenção de descoberta eletrônica
 
@@ -189,4 +189,4 @@ A tabela a seguir lista os limites de ocorrências de descoberta eletrônica e i
   |||
 
    > [!NOTE]
-   > <sup>1</sup> para exibir uma lista de mais de 1.000 casos, isenções, pesquisas ou exportações, você pode usar o cmdlet do PowerShell de segurança & conformidade do Office 365 correspondente:<br/> [Get-ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-compliancecase) <br/> [Get-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdpolicy)<br/> [Get-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearch)<br/> [Get-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearchaction)
+   > <sup>1</sup> para exibir uma lista de mais de 1.000 casos, isenções, pesquisas ou exportações, você pode usar o cmdlet do PowerShell de segurança & conformidade do Office 365 correspondente:<br/> [Get-ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/get-compliancecase) <br/> [Get-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)<br/> [Get-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch)<br/> [Get-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction)

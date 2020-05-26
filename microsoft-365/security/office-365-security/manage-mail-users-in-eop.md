@@ -1,5 +1,5 @@
 ---
-title: Gerenciar usuários de email no EOP autônomo
+title: Gerenciar usuários de e-mail no EOP autônomo
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: Saiba mais sobre como gerenciar usuários de email na proteção do Exchange Online (EOP), incluindo o uso da sincronização de diretórios, da Eat e do PowerShell para gerenciar usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e40465901747bcbd006d437fa527a9803aad1e24
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 0e8a4585a16b579c28de719181eed65b65ec6f4f
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208640"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352427"
 ---
-# <a name="manage-mail-users-in-standalone-eop"></a>Gerenciar usuários de email no EOP autônomo
+# <a name="manage-mail-users-in-standalone-eop"></a>Gerenciar usuários de e-mail no EOP autônomo
 
 Em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, os usuários de email são o tipo fundamental de conta de usuário. Um usuário de email tem credenciais de conta em sua organização autônoma do EOP e pode acessar recursos (permissões atribuídas). O endereço de email de um usuário de email é externo (por exemplo, em seu ambiente de email local).
 
@@ -35,7 +35,7 @@ Para organizações EOP autônomas com um pequeno número de usuários, você po
 
 - Para abrir o centro de administração do Exchange (Eat), confira [centro de administração do Exchange em EOP autônomo](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Para se conectar ao PowerShell do EOP autônomo, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - Ao criar usuários de email no EOP PowerShell, você pode encontrar limitação. Além disso, os cmdlets do EOP PowerShell usam um método de processamento em lotes que resulta em um atraso de propagação de alguns minutos antes que os resultados dos comandos fiquem visíveis.
 
@@ -149,7 +149,7 @@ Get-Recipient -Identity <MailUserIdentity> | Format-List
 Get-User -Identity <MailUserIdentity> | Format-List
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-Recipient](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) e [Get-User](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-user).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-Recipient](https://docs.microsoft.com/powershell/module/exchange/get-recipient) e [Get-User](https://docs.microsoft.com/powershell/module/exchange/get-user).
 
 ### <a name="use-standalone-eop-powershell-to-create-mail-users"></a>Usar o EOP autônomo do PowerShell para criar usuários de email
 
@@ -178,7 +178,7 @@ Este exemplo cria um usuário de email com as seguintes configurações:
 New-EOPMailUser -Name JeffreyZeng -MicrosoftOnlineServicesID jeffreyz@contoso.onmicrosoft.com -Password (ConvertTo-SecureString -String 'Pa$$word1' -AsPlainText -Force) -ExternalEmailAddress jeffreyz@tailspintoys.com -DisplayName "Jeffrey Zeng" -Alias jeffreyz -FirstName Jeffrey -LastName Zeng
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [New-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-eopmailuser).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [New-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/new-eopmailuser).
 
 ### <a name="use-standalone-eop-powershell-to-modify-mail-users"></a>Usar EOP PowerShell autônomo para modificar usuários de email
 
@@ -205,7 +205,7 @@ $Recip = Get-Recipient -RecipientType MailUser -ResultSize unlimited
 $Recip | foreach {Set-EOPUser -Identity $_.Alias -Company Contoso}
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [set-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-eopmailuser).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [set-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/set-eopmailuser).
 
 ### <a name="use-standalone-eop-powershell-to-remove-mail-users"></a>Usar o EOP PowerShell autônomo para remover usuários de email
 
@@ -221,7 +221,7 @@ Este exemplo remove o usuário de email de Jeffrey Martins.
 Remove-EOPMailUser -Identity "Jeffrey Zeng"
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/remove-eopmailuser).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/remove-eopmailuser).
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Como saber se esses procedimentos funcionaram?
 
@@ -255,7 +255,7 @@ No EOP autônomo, a sincronização de diretórios está disponível para client
 
 - A sincronização de diretório é recomendada para uso com os seguintes recursos:
 
-  - Listas **de remetentes seguros do Outlook e listas de remetentes bloqueados**: quando sincronizado com o serviço, essas listas terão precedência sobre a filtragem de spam no serviço. Isso permite que os usuários gerenciem sua própria lista de remetentes confiáveis e a lista de remetentes bloqueados com entradas de domínio e remetentes individuais. Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes).
+  - Listas **de remetentes seguros do Outlook e listas de remetentes bloqueados**: quando sincronizado com o serviço, essas listas terão precedência sobre a filtragem de spam no serviço. Isso permite que os usuários gerenciem sua própria lista de remetentes confiáveis e a lista de remetentes bloqueados com entradas de domínio e remetentes individuais. Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes).
 
   - **Bloqueio de borda baseado em diretório (DBEB)**: para obter mais informações sobre o DBEB, confira [usar o bloqueio de borda baseado em diretório para rejeitar mensagens enviadas a destinatários inválidos](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking).
 

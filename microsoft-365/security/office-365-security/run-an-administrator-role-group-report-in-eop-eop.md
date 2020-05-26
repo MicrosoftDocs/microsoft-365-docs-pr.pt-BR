@@ -1,5 +1,5 @@
 ---
-title: Executar um relatório de grupo de funções de administrador no EOP autônomo
+title: Executar um relatório de grupo de função de administrador no EOP autônomo
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,14 +14,14 @@ ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a executar um relatório de grupo de funções de administrador no proteção do Exchange Online (EOP) autônomo. Este relatório registra quando um administrador adiciona ou remove membros de grupos de funções de administrador, EOP registra cada ocorrência.
-ms.openlocfilehash: f5641e9900c786f976d05cdeeec148caab12a03d
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 39022892075b295a26645157941195b97897c690
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209170"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350934"
 ---
-# <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Executar um relatório de grupo de funções de administrador no EOP autônomo
+# <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Executar um relatório de grupo de função de administrador no EOP autônomo
 
 Em organizações autônomas de proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, quando um administrador adiciona ou remove membros dos grupos de função administrativa, o serviço registra cada ocorrência. Para obter mais informações sobre grupos de função em EOP autônomos, consulte [permissões no EOP autônomo](feature-permissions-in-eop.md).
 
@@ -115,7 +115,7 @@ Search-AdminAuditLog -StartDate 05/01/2018 -EndDate 10/03/2018 -ObjectID contoso
 
 Se as pesquisas retornarem muitas entradas de log, recomendamos que você use o procedimento fornecido em **usar o PowerShell do Exchange Online para pesquisar entradas de log de auditoria e enviar resultados para um destinatário** mais adiante neste tópico. O procedimento dessa seção envia um arquivo XML como anexo de email aos destinatários especificados, permitindo que você extraia com mais facilidade os dados em que está interessado.
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [Search-AdminAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-adminauditlog).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Search-AdminAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-adminauditlog).
 
 ### <a name="view-details-of-audit-log-entries"></a>Exibir detalhes de entradas de log de auditoria
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Correspondência Exata de Dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 42adeca60c97fa2a3877f04055725a99a453b032
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 681fb02e504c590610a0ed040756fd418f4221fd
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327773"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352258"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
 
@@ -502,7 +502,7 @@ Os tipos de informações confidenciais do EDM para os cenários a seguir estão
 
 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
 
-[New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/new-dlpedmschema?view=exchange-ps)
+[New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema?view=exchange-ps)
 
 ## <a name="feedback"></a>Feedback
 

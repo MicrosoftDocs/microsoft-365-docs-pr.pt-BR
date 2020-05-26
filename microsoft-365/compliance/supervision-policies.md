@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft 365 Compliance
-ms.openlocfilehash: 45dc5a3e9674ebdf9488d14813abf04fc81b6781
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 0729530537e1d01f2e58633bf67a968a6ae2717b
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327249"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352288"
 ---
 # <a name="supervision-policies"></a>Políticas de supervisão
 
@@ -291,11 +291,11 @@ As seguintes atividades de política de supervisão são auditadas e estão disp
 
 |**Atividade**|**Comandos associados**|
 |:-----|:-----|
-| **Criar uma política** | [New-SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewpolicyv2) <br> [New-SupervisoryReviewRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule) |
-| **Editar uma política** | [Set-SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewpolicyv2) <br> [Set-SupervisoryReviewRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule) |
-| **Excluir uma política** | [Remove-SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/remove-supervisoryreviewpolicyv2) |
+| **Criar uma política** | [New-SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/new-supervisoryreviewpolicyv2) <br> [New-SupervisoryReviewRule](https://docs.microsoft.com/powershell/module/exchange/new-supervisoryreviewrule) |
+| **Editar uma política** | [Set-SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/set-supervisoryreviewpolicyv2) <br> [Set-SupervisoryReviewRule](https://docs.microsoft.com/powershell/module/exchange/set-supervisoryreviewrule) |
+| **Excluir uma política** | [Remove-SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/remove-supervisoryreviewpolicyv2) |
 
-Exibir as atividades de auditoria no log de auditoria unificada ou com o cmdlet [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) do PowerShell.
+Exibir as atividades de auditoria no log de auditoria unificada ou com o cmdlet [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) do PowerShell.
 
 Por exemplo, o exemplo a seguir retorna as atividades para todas as atividades de análise de supervisão (políticas e regras) e lista informações detalhadas de cada:
 
@@ -309,7 +309,7 @@ Este exemplo retorna as atividades de atualização para suas políticas de conf
 Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeletedAuditData
 ```
 
-Além das informações fornecidas nos logs e relatórios de supervisão, você também pode usar o cmdlet [Get-SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/reporting/get-supervisoryreviewactivity?view=exchange-ps) do PowerShell para retornar uma listagem detalhada completa de todas as atividades de política de supervisão.
+Além das informações fornecidas nos logs e relatórios de supervisão, você também pode usar o cmdlet [Get-SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/get-supervisoryreviewactivity?view=exchange-ps) do PowerShell para retornar uma listagem detalhada completa de todas as atividades de política de supervisão.
 
 ## <a name="ready-to-get-started"></a>Pronto para começar?
 

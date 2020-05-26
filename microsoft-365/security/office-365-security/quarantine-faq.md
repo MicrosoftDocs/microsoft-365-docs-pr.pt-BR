@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem exibir perguntas frequentes e respostas sobre mensagens em quarentena na proteção do Exchange Online (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b2022a43f1dd89d47fdb4f3898f8f481419962c0
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: 0a231e363d5764465547ee1e80cc080c3d7c006c
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213099"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351090"
 ---
 # <a name="quarantined-messages-faq"></a>Perguntas frequentes sobre mensagens em quarentena
 
@@ -40,7 +40,7 @@ Somente os administradores podem gerenciar mensagens em quarentena para malware.
 
 ## <a name="how-do-i-quarantine-spam"></a>Como faço a quarentena de spam?
 
-Por padrão, as mensagens classificadas como spam ou email em massa por filtragem de spam são entregues na caixa de correio do usuário e são movidas para a pasta lixo eletrônico. Mas você pode criar e configurar políticas antispam para colocar em quarentena mensagens de email em massa ou spam. Para obter mais informações, consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md).
+Por padrão, as mensagens classificadas como spam ou email em massa por filtragem de spam são entregues na caixa de correio do usuário e são movidas para a pasta lixo eletrônico. Mas você pode criar e configurar políticas antispam para colocar em quarentena mensagens de email em massa ou spam. Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
 
 ## <a name="how-do-i-give-users-access-to-the-quarantine"></a>Como posso conceder aos usuários acesso à quarentena?
 
@@ -62,7 +62,7 @@ Depois que o período de tempo expira, as mensagens são excluídas e não são 
 
 No centro de conformidade & segurança, você pode selecionar e liberar até 100 mensagens de cada vez.
 
-Os administradores podem usar os cmdlets [Get-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-quarantinemessage) e [Release-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/release-quarantinemessage) no PowerShell do Exchange Online ou EOP PowerShell para encontrar e liberar mensagens em massa e para relatar falsos positivos em massa.
+Os administradores podem usar os cmdlets [Get-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/get-quarantinemessage) e [Release-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/release-quarantinemessage) no PowerShell do Exchange Online ou EOP PowerShell para encontrar e liberar mensagens em massa e para relatar falsos positivos em massa.
 
 ## <a name="are-wildcards-supported-when-searching-for-quarantined-messages-can-i-search-for-quarantined-messages-for-a-specific-domain"></a>Há suporte para curingas durante a pesquisa de mensagens em quarentena? Posso pesquisar mensagens em quarentena para um domínio específico?
 

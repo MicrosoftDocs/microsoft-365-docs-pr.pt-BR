@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 04/13/2020
+ms.date: 05/22/2020
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Tem uma pergunta sobre como funcionam os novos recursos de proteção de mensagens? Verifique se há uma resposta aqui.
-ms.openlocfilehash: 75b414aecfbe9d3952d7e3c5994946775d353a6f
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: f7c6de7eba9cb5e0f165b345b5c97e98cb96b870
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049516"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352074"
 ---
 # <a name="message-encryption-faq"></a>Perguntas frequentes sobre criptografia de mensagens
 
@@ -28,7 +28,7 @@ Tem uma pergunta sobre como funcionam os novos recursos de proteção de mensage
 ## <a name="what-is-office-365-message-encryption-ome"></a>O que é a criptografia de mensagem do Office 365 (OME)?
 
 O OME combina recursos de gerenciamento de direitos e criptografia de email. Os recursos de gerenciamento de direitos são compatíveis com a proteção de informações do Azure.
-  
+
 ## <a name="who-can-use-ome"></a>Quem pode usar o OME?
 
 Você pode usar os novos recursos para o OME sob as seguintes condições:
@@ -137,7 +137,7 @@ Sim. Use regras de fluxo de email no Exchange Online para criptografar automatic
 
 Os administradores podem configurar uma regra de fluxo de emails para remover a criptografia de emails de saída. Você não pode configurar uma regra para remover a criptografia de email de entrada.
 
-## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies-in-data-loss-prevention-dlp-through-the-security-amp-compliance-center"></a>Posso criptografar mensagens automaticamente Configurando políticas na prevenção de perda de dados (DLP) por &amp; meio do centro de conformidade de segurança?
+## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies-in-data-loss-prevention-dlp-through-the-security-amp-compliance-center"></a>Posso criptografar mensagens automaticamente Configurando políticas na prevenção de perda de dados (DLP) por meio do centro de conformidade de segurança &amp; ?
 
 Sim! Você pode configurar regras de fluxo de email no Exchange Online ou usando DLP no centro de &amp; conformidade de segurança.
   
@@ -185,3 +185,9 @@ Há duas limitações conhecidas no momento:
 - Só há suporte para o acesso fornecido pela atribuição direta do usuário à caixa de correio compartilhada. Não há suporte para atribuição por meio de um grupo de segurança habilitado para email.
 
 - Não é possível abrir anexos de emails recebidos em dispositivos móveis usando o Outlook Mobile.
+
+## <a name="what-do-i-do-if-i-dont-receive-the-one-time-pass-code-after-i-requested-it"></a>O que fazer se eu não receber o código de passagem única depois de solicitá-lo?
+
+Primeiro, verifique a pasta de lixo eletrônico ou spam em seu cliente de email. As configurações do DKIM e do DMARC para sua organização podem fazer com que esses emails terminem de ser filtrados como spam.
+
+Em seguida, verifique a quarentena no centro de conformidade de & de segurança. Muitas vezes, as mensagens que contêm um código de passagem única, especialmente as primeiras que sua organização recebe, terminam em quarentena.

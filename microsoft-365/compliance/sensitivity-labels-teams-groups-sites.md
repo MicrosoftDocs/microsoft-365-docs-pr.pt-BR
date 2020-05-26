@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: ff99489d933ee932c79fee8c655a46268eb8a6a4
-ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
+ms.openlocfilehash: 4bf640598b072064dcdec657b80182a58d430235
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44022139"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327269"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites-public-preview"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint (visualização pública)
 
@@ -79,17 +79,19 @@ Se precisar de ajuda para criar ou editar um rótulo de confidencialidade, confi
 
 Nesta nova página **Configurações de site e grupo**, defina as configurações:
 
-- **Privacidade dos sites de equipes conectadas ao grupo do Office 365**: A configuração padrão de **Nenhum - permite que o usuário escolha quem pode acessar o site** está sendo implementado no momento para os locatários. Mantenha essa configuração padrão quando desejar proteger o conteúdo no contêiner usando o rótulo de confidencialidade, mas ainda permita que os usuários configurem eles mesmos a privacidade.
+- **Privacidade dos sites de equipes conectados ao grupo do Office 365**: Manter a configuração padrão de **Público - qualquer pessoa em sua organização pode acessar o site **se você quiser que todos na sua organização acessem o site de equipe ou grupo no qual o rótulo foi aplicado.
     
-    Selecione **Pública** ou **Privada** para definir e bloquear a configuração de privacidade quando você aplicar esse rótulo ao contêiner. Escolha **Pública** se desejar que alguém da sua organização acesse o site de equipe ou grupo no qual esse rótulo é aplicado ou **Privada** se desejar que o acesso seja restrito apenas a membros aprovados em sua organização. 
+    Selecione **Particular** se desejar que o acesso seja restrito apenas a membros aprovados da sua organização.
     
-    A configuração **Pública** ou **Privada** substitui qualquer configuração de privacidade anterior que possa ser definida para a equipe ou grupo e bloqueia o valor da privacidade, para que ele possa ser alterado apenas removendo primeiramente o rótulo de confidencialidade do contêiner. Depois de remover o rótulo de confidencialidade, a configuração de privacidade do rótulo permanece e os usuários agora podem alterá-lo novamente.
+    Selecione **Nenhuma - permita que o usuário tenha acesso ao site** quando desejar proteger o conteúdo do contêiner usando o rótulo de confidencialidade, mas ainda permita que os usuários configurem a própria configuração de privacidade.
+    
+    Selecione **Pública** ou **Privada** para definir e bloquear a configuração de privacidade quando você aplicar esse rótulo ao contêiner. A configuração escolhida substituirá qualquer configuração de privacidade anterior que possa ser configurada para a equipe ou grupo, e bloqueará o valor de privacidade para que ele possa ser alterado apenas pela primeira vez pela remoção da etiqueta de confidencialidade do contêiner. Depois de remover o rótulo de confidencialidade, a configuração de privacidade do rótulo permanece e os usuários agora podem alterá-lo novamente.
 
 - **Acesso de usuários externos**: Controle se o proprietário do grupo pode [adicionar convidados ao grupo](/office365/admin/create-groups/manage-guest-access-in-groups).
 
 - **Dispositivos não gerenciados**: Para [dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices), permita acesso total, acesso somente Web ou bloqueio total de acesso. 
 
-![Guia configurações de site e grupo](../media/edit-sensitivity-label-site-group.png)
+![Guia configurações de site e grupo](../media/edit-sensitivity-label-site-group2.png)
 
 > [!IMPORTANT]
 > Somente essas configurações de site e grupo entrarão em vigor quando você aplicar um rótulo a uma equipe, grupo ou site. Outras configurações de rótulo, como criptografia e marcação de conteúdo, não são aplicadas ao conteúdo da equipe, grupo ou site.
@@ -131,7 +133,7 @@ Se você modificar ou excluir um rótulo de confidencialidade com as configuraç
 
 4. Se a etiqueta de confidencialidade não estiver visível, agora você pode modificá-la ou excluí-la com segurança. Se o rótulo ainda estiver visível, contate o [suporte da Microsoft](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
-## <a name="assign-sensitivity-labels-to-microsoft-365-groups"></a>Atribuir rótulos de confidencialidade aos Grupos do Microsoft 365
+## <a name="assign-sensitivity-labels-to-microsoft-365-groups"></a>Atribua rótulos de confidencialidade aos Grupos do Microsoft 365
 
 Agora você está pronto para aplicar os rótulos ou rótulos de confidencialidade aos grupos do Microsoft 365. Retorne à documentação do Azure AD para obter instruções:
 

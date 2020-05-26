@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: As políticas de retenção de log de auditoria fazem parte dos novos recursos Avançados de Auditoria no Microsoft 365. Uma política de retenção de log de auditoria permite especificar por quanto tempo reter os logs de auditoria em sua organização.
-ms.openlocfilehash: 25fbabd4c7524702a985616797b31730b14a2d8f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0b68eac3dde2f6802d5a5419f8f28b5df26e0a92
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636369"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351036"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Gerenciar políticas de retenção de log de auditoria
 
@@ -111,7 +111,7 @@ Veja outro exemplo de como criar uma política de retenção de log de auditoria
 New-UnifiedAuditLogRetentionPolicy -Name "SixMonth retention for admin logons" -RecordTypes AzureActiveDirectoryStsLogon -Operations UserLoggedIn -UserIds admin@contoso.onmicrosoft.com -RetentionDuration SixMonths -Priority 25
 ```
 
-Para saber mais, confira [New-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/new-unifiedauditlogretentionpolicy).
+Para saber mais, confira [New-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/new-unifiedauditlogretentionpolicy).
 
 ## <a name="view-audit-log-retention-policies"></a>Visualizar as políticas de retenção de log de auditoria
 
@@ -124,13 +124,13 @@ Get-UnifiedAuditLogRetentionPolicy | Sort-Object -Property Priority -Descending 
 > [!NOTE]
 > No momento, o cmdlet **Get-UnifiedAuditLogRetentionPolicy** não retorna a política de log de auditoria padrão da sua organização.
 
-Para saber mais, confira [Get-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/get-unifiedauditlogretentionpolicy).
+Para saber mais, confira [Get-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/get-unifiedauditlogretentionpolicy).
 
 ## <a name="more-information"></a>Mais informações
 
-- Use o cmdlet **Set-UnifiedAuditLogRetentionPolicy** no PowerShell do Centro de Conformidade e Segurança para modificar uma política de retenção de log de auditoria existente. Para saber mais, confira [Set-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/set-unifiedauditlogretentionpolicy).
+- Use o cmdlet **Set-UnifiedAuditLogRetentionPolicy** no PowerShell do Centro de Conformidade e Segurança para modificar uma política de retenção de log de auditoria existente. Para saber mais, confira [Set-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/set-unifiedauditlogretentionpolicy).
 
-- Use o cmdlet **Remove-UnifiedAuditLogRetentionPolicy** no PowerShell do Centro de Conformidade e Segurança para excluir uma política de retenção de log de auditoria. Pode levar até 30 minutos para a política ser completamente removida. Para saber mais, confira [Remove-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/remove-unifiedauditlogretentionpolicy).
+- Use o cmdlet **Remove-UnifiedAuditLogRetentionPolicy** no PowerShell do Centro de Conformidade e Segurança para excluir uma política de retenção de log de auditoria. Pode levar até 30 minutos para a política ser completamente removida. Para saber mais, confira [Remove-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-unifiedauditlogretentionpolicy).
 
 - Conforme dito anteriormente, os registros de auditoria para operações no Azure Active Directory, no Exchange e no SharePoint são mantidos por um ano. A tabela a seguir lista todos os tipos de registro (para cada um desses serviços) incluídos na política de retenção de log de auditoria padrão. Isso significa que os logs de auditoria para qualquer operação com esse tipo de registro são mantidos por um ano, a menos que uma política de retenção de log de auditoria personalizada tenha precedência sobre um tipo específico de registro, uma operação ou usuário. O valor de enumeração (que é exibido como o valor da propriedade RecordType em um registro de auditoria) para cada tipo de registro é mostrado entre parênteses.
 

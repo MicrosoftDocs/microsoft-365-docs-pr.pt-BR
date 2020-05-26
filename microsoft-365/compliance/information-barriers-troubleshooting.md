@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Use este artigo como um guia para solucionar problemas de barreiras de informações.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f73493f53937c38f33eeab9595ddb07ef4813c89
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 5aa45e3e9dea5ce413b2b0e62d825003bc24e20e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035027"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352320"
 ---
 # <a name="troubleshooting-information-barriers"></a>Solução de problemas de barreiras de informações
 
@@ -45,7 +45,7 @@ Determinar se os usuários são afetados por uma política de barreira de inform
 
     |Sintaxe  |Exemplo  |
     |---------|---------|
-    | `Get-InformationBarrierRecipientStatus -Identity` <p>Você pode usar qualquer valor de identidade que identifique exclusivamente cada destinatário, como nome, alias, nome diferenciado (DN), DN canônica, endereço de email ou GUID.     |`Get-InformationBarrierRecipientStatus -Identity meganb` <p>Neste exemplo, estamos usando um alias (*meganb*) para o parâmetro Identity. Este cmdlet retornará informações que indicam se o usuário é afetado por uma política de barreira de informações. (Procure * ExoPolicyId: \<GUID>.)         |
+    | `Get-InformationBarrierRecipientStatus -Identity` <p>Você pode usar qualquer valor de identidade que identifique exclusivamente cada destinatário, como nome, alias, nome diferenciado (DN), DN canônica, endereço de email ou GUID.     |`Get-InformationBarrierRecipientStatus -Identity meganb` <p>Neste exemplo, estamos usando um alias (*meganb*) para o parâmetro Identity. Este cmdlet retornará informações que indicam se o usuário é afetado por uma política de barreira de informações. (Procure * ExoPolicyId: \< GUID>.)         |
 
     **Se os usuários não estiverem incluídos nas políticas de barreira de informações, entre em contato com o suporte**. Caso contrário, prossiga para a próxima etapa.
 
@@ -57,7 +57,7 @@ Determinar se os usuários são afetados por uma política de barreira de inform
 
     Depois de executar o cmdlet, nos resultados, procure os valores **AssignedSegment**, **SegmentsAllowed**e **SegmentsBlocked** .
 
-    Por exemplo, depois de executar `Get-InformationBarrierPolicy` o cmdlet, vimos o seguinte em nossa lista de resultados:
+    Por exemplo, depois de executar o `Get-InformationBarrierPolicy` cmdlet, vimos o seguinte em nossa lista de resultados:
 
     ```powershell
         AssignedSegment      : Sales
@@ -74,7 +74,7 @@ Determinar se os usuários são afetados por uma política de barreira de inform
     |---------|---------|
     |`Get-OrganizationSegment`<p>Use este cmdlet com um parâmetro Identity.     |`Get-OrganizationSegment -Identity c96e0837-c232-4a8a-841e-ef45787d8fcd` <p>Neste exemplo, estamos obtendo informações sobre o segmento que tem GUID *c96e0837-c232-4a8a-841e-ef45787d8fcd*.         |
 
-    Revise os detalhes do segmento. Se necessário, [edite um segmento](information-barriers-edit-segments-policies.md#edit-a-segment)e, em seguida, use `Start-InformationBarrierPoliciesApplication` o cmdlet novamente.
+    Revise os detalhes do segmento. Se necessário, [edite um segmento](information-barriers-edit-segments-policies.md#edit-a-segment)e, em seguida, use o `Start-InformationBarrierPoliciesApplication` cmdlet novamente.
 
     **Se você ainda estiver tendo problemas com a política de barreira de informações, entre em contato com o suporte**.
 
@@ -155,7 +155,7 @@ Tenha em mente que quando você executa o cmdlet aplicativo de política, as pol
 
 ## <a name="issue-information-barrier-policies-are-not-being-applied-at-all"></a>Problema: as políticas de barreira de informações não estão sendo aplicadas
 
-Nesse caso, você definiu segmentos, definiu políticas de barreira de informações e tentou aplicar essas políticas. No entanto, ao executar `Get-InformationBarrierPoliciesApplicationStatus` o cmdlet, você pode ver que o aplicativo de política falhou.
+Nesse caso, você definiu segmentos, definiu políticas de barreira de informações e tentou aplicar essas políticas. No entanto, ao executar o `Get-InformationBarrierPoliciesApplicationStatus` cmdlet, você pode ver que o aplicativo de política falhou.
 
 ### <a name="what-to-do"></a>O que fazer
 
@@ -163,7 +163,7 @@ Certifique-se de que sua organização não tenha [diretivas de catálogo de end
 
 1. Conecte-se ao [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps). 
 
-2. Execute o cmdlet [Get-AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/email-addresses-and-address-books/get-addressbookpolicy?view=exchange-ps) e revise os resultados.
+2. Execute o cmdlet [Get-AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/get-addressbookpolicy?view=exchange-ps) e revise os resultados.
 
     |Resultados  |Próxima etapa  |
     |---------|---------|
@@ -189,13 +189,13 @@ Ao executar o `Get-InformationBarrierPoliciesApplicationStatus` cmdlet, procure 
 
 ### <a name="what-to-do"></a>O que fazer
 
-1. Pesquisar no log de auditoria para `<application guid>`. Você pode copiar esse código do PowerShell e modificá-lo para suas variáveis.
+1. Pesquisar no log de auditoria para `<application guid>` . Você pode copiar esse código do PowerShell e modificá-lo para suas variáveis.
 
 ```powershell
 $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDate <yyyy-mm-ddThh:mm:ss> -RecordType InformationBarrierPolicyApplication -ResultSize 1000 |?{$_.AuditData.Contains(<application guid>)} 
 ```
 
-2. Verifique a saída detalhada do log de auditoria para os valores dos campos `"UserId"` e `"ErrorDetails"` . Isso fornecerá o motivo da falha. Você pode copiar esse código do PowerShell e modificá-lo para suas variáveis.
+2. Verifique a saída detalhada do log de auditoria para os valores dos `"UserId"` campos e `"ErrorDetails"` . Isso fornecerá o motivo da falha. Você pode copiar esse código do PowerShell e modificá-lo para suas variáveis.
 
 ```powershell
    $DetailedLogs[1] |fl
@@ -206,7 +206,7 @@ $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDat
 > 
 >"ErrorDetails": "status: IBPolicyConflict. Erro: o segmento IB "Segment ID1" e o segmento IB "Segment ID2" tem conflito e não pode ser atribuído ao destinatário. 
 
-3. Normalmente, você verá que um usuário foi incluído em mais de um segmento. Você pode corrigir isso atualizando o `-UserGroupFilter` valor em `OrganizationSegments`.
+3. Normalmente, você verá que um usuário foi incluído em mais de um segmento. Você pode corrigir isso atualizando o `-UserGroupFilter` valor em `OrganizationSegments` .
 
 4. Reaplique as políticas de barreira de informações usando estes procedimentos [políticas de barreiras de informação](information-barriers-policies.md#part-3-apply-information-barrier-policies).
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: A Auditoria Avançada no Microsoft 365 fornece novos recursos de auditoria para ajudar sua organização com investigações forenses e de conformidade.
-ms.openlocfilehash: 6fb42e9df35fe025c5c5f292238217aebb4098c7
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 451eb2a10074081b6d688754002d4f2e9f50f4b1
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141039"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351688"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Auditoria Avançada no Microsoft 365
 
@@ -69,7 +69,7 @@ Para pesquisar registros de auditoria MailItemsAccessed, é possível pesquisar 
 
 ![Pesquisar ações MailItemsAccessed na ferramenta de pesquisa de log de auditoria](../media/MailItemsAccessedSCC1.png)
 
-Você também pode executar os comandos [Search-UnifiedAuditLog -Operations MailItemsAccessed](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) ou [Search-MailboxAuditLog -Operations MailItemsAccessed](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog) no PowerShell do Exchange Online.
+Você também pode executar os comandos [Search-UnifiedAuditLog -Operations MailItemsAccessed](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) ou [Search-MailboxAuditLog -Operations MailItemsAccessed](https://docs.microsoft.com/powershell/module/exchange/search-mailboxauditlog) no PowerShell do Exchange Online.
 
 ## <a name="high-bandwidth-access-to-the-office-365-management-activity-api"></a>Acesso de alta largura de banda à API da Atividade de Gerenciamento do Office 365
 

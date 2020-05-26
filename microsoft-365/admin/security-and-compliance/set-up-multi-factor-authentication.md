@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Saiba como configurar a autenticação multifator para sua organização.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 893a4ae535dfb781a4f77ee57c0ead40fda8454f
-ms.sourcegitcommit: 185d62f41f6b173894ba6e3e87b11b2b5d02db58
+ms.openlocfilehash: ca1a8bd47e2fa5bbd7b7aed396debefaad10ea5e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44340769"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351710"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Configurar a autenticação multifator
   
@@ -104,7 +104,7 @@ Se você estiver usando [políticas de acesso condicional da linha de base](http
 
 ### <a name="conditional-access-policies"></a>Políticas de Acesso Condicional
 
-Crie, configure ou habilite as políticas apropriadas que incluem o grupo de usuários que exigem MFA de entrada.
+Criar, configurar e habilitar as políticas apropriadas que incluem o grupo de usuários que exigem MFA de entrada.
 
 ### <a name="per-user-mfa-not-recommended"></a>MFA por usuário (não recomendado)
 

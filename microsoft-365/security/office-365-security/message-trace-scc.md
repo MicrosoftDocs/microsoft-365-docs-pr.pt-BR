@@ -11,23 +11,23 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: Os administradores podem usar o rastreamento de mensagens no centro de conformidade & segurança para descobrir o que aconteceu com as mensagens.
-ms.openlocfilehash: 22ae7293dfe85fe5354d21e690de6f060a931788
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: 816f81b2339c8edb1317dcf517c10d5b8325941d
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44212981"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352493"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O rastreamento de mensagens no centro de conformidade & de segurança segue as mensagens de email à medida que elas viajam pela sua organização do Exchange Online. Você pode determinar se uma mensagem foi recebida, rejeitada, adiada ou entregue pelo serviço. Também mostra as ações feitas na mensagem antes de ela chegar em seu status final.
 
 O rastreamento de mensagens no centro de conformidade & segurança aprimora o rastreamento de mensagem original que estava disponível no centro de administração do Exchange (Eat). Você pode usar as informações do rastreamento de mensagens para responder com eficiência às perguntas do usuário sobre o que aconteceu com as mensagens, solucionar problemas de fluxo de emails e validar as alterações na política.
 
 > [!NOTE]
-> • Para fazer um rastreamento de mensagens, você precisa ser membro dos grupos de função gerenciamento da organização, gerenciamento de conformidade ou suporte técnico. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md). <br/><br/>• O número máximo de mensagens exibidas nos resultados depende do tipo de relatório selecionado (consulte a seção [escolher tipo de relatório](#choose-report-type) para obter detalhes). O cmdlet [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/reporting/get-historicalsearch) no PowerShell do Exchange Online ou no PowerShell do EOP autônomo retorna todas as mensagens nos resultados.
+> • Para fazer um rastreamento de mensagens, você precisa ser membro dos grupos de função gerenciamento da organização, gerenciamento de conformidade ou suporte técnico. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md). <br/><br/>• O número máximo de mensagens exibidas nos resultados depende do tipo de relatório selecionado (consulte a seção [escolher tipo de relatório](#choose-report-type) para obter detalhes). O cmdlet [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/get-historicalsearch) no PowerShell do Exchange Online ou no PowerShell do EOP autônomo retorna todas as mensagens nos resultados.
 
 ## <a name="open-message-trace"></a>Abrir rastreamento de mensagens
 

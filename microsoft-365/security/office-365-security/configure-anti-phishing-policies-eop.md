@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing disponíveis nas organizações do Exchange Online Protection (EOP) com ou sem caixas de correio do Exchange Online.
-ms.openlocfilehash: 5c2e036c075072056e7783ca4dc5aeb1289d827a
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: b5ec72365c9b7446f4b6a4c32d96a89ca57efbe4
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213383"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352052"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Configurar políticas anti-phishing no EOP
 
@@ -67,7 +67,7 @@ Para aumentar a eficácia da proteção contra phishing, você pode criar polít
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página **anti-phishing** , use <https://protection.office.com/antiphishing> .
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **anti-phishing** , use <https://protection.office.com/antiphishing> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
@@ -75,7 +75,7 @@ Para aumentar a eficácia da proteção contra phishing, você pode criar polít
 
 - Você precisa receber permissões para executar esses procedimentos. Para adicionar, modificar e excluir políticas anti-phishing, você precisa ser membro dos grupos de função de gerenciamento da **organização** ou de **administrador de segurança** . Para acesso somente leitura às políticas anti-phishing, você precisa ser membro do grupo de função **leitor de segurança** . Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
-- Para poder criar e modificar políticas antispam no EOP autônomo, você precisa fazer algo que exija o _hidratação_ para o seu locatário. Por exemplo, no Eat, você pode ir para a guia **permissões** , selecionar um grupo de função existente, clicar em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) e remover uma função (que, por fim, será adicionada novamente). Se seu locatário nunca tiver sido alimentado, você receberá uma caixa de diálogo chamada **Atualizar configurações da organização** com uma barra de progresso que deve ser concluída com êxito. Para obter mais informações sobre o hidratação, consulte o cmdlet [Enable-OrganizationCustomization](https://docs.microsoft.com/powershell/module/exchange/organization/enable-organizationcustomization) (que não está disponível no EOP PowerShell autônomo ou no centro de conformidade & segurança).
+- Para poder criar e modificar políticas antispam no EOP autônomo, você precisa fazer algo que exija o _hidratação_ para o seu locatário. Por exemplo, no Eat, você pode ir para a guia **permissões** , selecionar um grupo de função existente, clicar em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) e remover uma função (que, por fim, será adicionada novamente). Se seu locatário nunca tiver sido alimentado, você receberá uma caixa de diálogo chamada **Atualizar configurações da organização** com uma barra de progresso que deve ser concluída com êxito. Para obter mais informações sobre o hidratação, consulte o cmdlet [Enable-OrganizationCustomization](https://docs.microsoft.com/powershell/module/exchange/enable-organizationcustomization) (que não está disponível no EOP PowerShell autônomo ou no centro de conformidade & segurança).
 
 - Para obter as configurações recomendadas para políticas anti-phishing, consulte [EOP default anti-phishing Policy Settings](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings).
 
@@ -109,7 +109,7 @@ Ao criar uma política anti-phishing, você só poderá especificar o nome da po
 
    - **O destinatário é**: especifica uma ou mais caixas de correio, usuários de email ou contatos de email em sua organização.
    - **O destinatário é um membro de**: especifica um ou mais grupos na sua organização.
-   - **O domínio do destinatário é**: especifica destinatários em um ou mais dos domínios aceitos configurados em sua organização.
+   - **O domínio do destinatário é**: Especifica os destinatários em um ou mais domínios aceitos configurados na sua organização. 
 
    Após selecionar a condição, uma lista suspensa correspondente aparecerá com uma **destas** caixas.
 
@@ -310,7 +310,7 @@ Este exemplo cria uma política de anti-phishing chamada quarentena de pesquisa 
 New-AntiPhishPolicy -Name "Monitor Policy" -AdminDisplayName "Research department policy" -AuthenticationFailAction Quarantine
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [New-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/New-AntiPhishPolicy).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [New-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishPolicy).
 
 #### <a name="step-2-use-powershell-to-create-an-anti-phish-rule"></a>Etapa 2: usar o PowerShell para criar uma regra anti-phishing
 
@@ -330,7 +330,7 @@ Este exemplo cria uma regra anti-phishing chamada departamento de pesquisa com a
 New-AntiPhishRule -Name "Research Department" -AntiPhishPolicy "Research Quarantine" -SentToMemberOf "Research Department"
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [New-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/New-AntiPhishRule).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [New-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishRule).
 
 ### <a name="use-powershell-to-view-anti-phish-policies"></a>Usar o PowerShell para exibir políticas antispam
 
@@ -352,7 +352,7 @@ Este exemplo retorna todos os valores de propriedade da política anti-Phish cha
 Get-AntiPhishPolicy -Identity "Executives"
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/Get-AntiPhishPolicy).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishPolicy).
 
 ### <a name="use-powershell-to-view-anti-phish-rules"></a>Usar o PowerShell para exibir regras de anti-golpe
 
@@ -384,7 +384,7 @@ Este exemplo retorna todos os valores de propriedade da regra anti-Phish chamada
 Get-AntiPhishRule -Identity "Contoso Executives"
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/Get-AntiPhishrule).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishrule).
 
 ### <a name="use-powershell-to-modify-anti-phish-policies"></a>Usar o PowerShell para modificar políticas antispam
 
@@ -400,7 +400,7 @@ Para modificar uma política de anti-phishing, use esta sintaxe:
 Set-AntiPhishPolicy -Identity "<PolicyName>" <Settings>
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/Set-AntiPhishPolicy).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Set-AntiPhishPolicy).
 
 ### <a name="use-powershell-to-modify-anti-phish-rules"></a>Usar o PowerShell para modificar as regras de anti-golpe
 
@@ -414,7 +414,7 @@ Para modificar uma regra anti-phishing, use esta sintaxe:
 Set-AntiPhishRule -Identity "<RuleName>" <Settings>
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [set-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishrule).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [set-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/set-antiphishrule).
 
 ### <a name="use-powershell-to-enable-or-disable-anti-phish-rules"></a>Usar o PowerShell para habilitar ou desabilitar regras de Phish
 
@@ -438,7 +438,7 @@ Este exemplo habilita a mesma regra.
 Enable-AntiPhishRule -Identity "Marketing Department"
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [Enable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/enable-AntiPhishrule) e [Disable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/disable-AntiPhishrule).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Enable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/enable-AntiPhishrule) e [Disable-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/disable-AntiPhishrule).
 
 ### <a name="use-powershell-to-set-the-priority-of-anti-phish-rules"></a>Usar o PowerShell para definir a prioridade de regras de Phish
 
@@ -478,7 +478,7 @@ Este exemplo remove a política de anti-golpe chamada departamento de marketing.
 Remove-AntiPhishPolicy -Identity "Marketing Department"
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/Remove-AntiPhishPolicy).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishPolicy).
 
 ### <a name="use-powershell-to-remove-anti-phish-rules"></a>Usar o PowerShell para remover regras de Phish
 
@@ -496,7 +496,7 @@ Este exemplo remove a regra anti-Phish chamada departamento de marketing.
 Remove-AntiPhishRule -Identity "Marketing Department"
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/Remove-AntiPhishRule).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishRule).
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Como saber se esses procedimentos funcionaram?
 

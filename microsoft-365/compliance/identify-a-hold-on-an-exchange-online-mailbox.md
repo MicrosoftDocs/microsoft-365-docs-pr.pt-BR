@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Saiba como identificar os diferentes tipos de retenção que podem ser colocados em uma caixa de correio do Microsoft 365. Esses tipos de isenções incluem retenção de litígio, bloqueios de descoberta eletrônica e políticas de retenção do Microsoft 365. Você também pode determinar se um usuário foi excluído de uma política de retenção em toda a organização.
-ms.openlocfilehash: 12d91d987af2ba11b2d9aa417dff92adb745fb03
-ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
+ms.openlocfilehash: 331fd37f48e42666ceb33a2a751b7d7a7a945e4b
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232066"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352310"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Como identificar o tipo de retenção de uma caixa de correio do Exchange Online
 
@@ -224,7 +224,7 @@ Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplie
 > [!TIP]
 > A melhor maneira de especificar uma caixa de correio inativa no comando anterior é usar seu nome distinto ou valor de GUID do Exchange. O uso de um desses valores ajuda a evitar a especificação acidental da caixa de correio errada. 
 
-Para obter mais informações sobre como usar esses parâmetros para gerenciar suspensões de atraso, consulte [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
+Para obter mais informações sobre como usar esses parâmetros para gerenciar suspensões de atraso, consulte [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox).
 
 Tenha em mente os seguintes pontos ao gerenciar uma caixa de correio em atraso de espera:
 
@@ -236,9 +236,9 @@ Tenha em mente os seguintes pontos ao gerenciar uma caixa de correio em atraso d
 
 Após identificar as isenções aplicadas a uma caixa de correio, você pode executar tarefas como alterar a duração da retenção, remover temporariamente ou permanentemente a retenção ou excluir uma caixa de correio inativa de uma política de retenção do Microsoft 365. Para obter mais informações sobre a execução de tarefas relacionadas a isenções, consulte um dos seguintes tópicos:
 
-- Execute o comando [set-RetentionCompliancePolicy-AddExchangeLocationException \< user Mailbox>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancepolicy?view=exchange-ps) no PowerShell do centro de conformidade e segurança & para excluir uma caixa de correio de uma política de retenção da Microsoft 365 em toda a organização. Este comando só pode ser usado para políticas de retenção onde o valor da propriedade *ExchangeLocation* é igual a `All` .
+- Execute o comando [set-RetentionCompliancePolicy-AddExchangeLocationException \< user Mailbox>](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy?view=exchange-ps) no PowerShell do centro de conformidade e segurança & para excluir uma caixa de correio de uma política de retenção da Microsoft 365 em toda a organização. Este comando só pode ser usado para políticas de retenção onde o valor da propriedade *ExchangeLocation* é igual a `All` .
 
-- Execute o [GUID de retenção Set-Mailbox-ExcludeFromOrgHolds \< sem prefixo ou sufixo>](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox?view=exchange-ps) comando no PowerShell do Exchange Online para excluir uma caixa de correio inativa de uma política de retenção do Microsoft 365 em toda a organização.
+- Execute o [GUID de retenção Set-Mailbox-ExcludeFromOrgHolds \< sem prefixo ou sufixo>](https://docs.microsoft.com/powershell/module/exchange/set-mailbox?view=exchange-ps) comando no PowerShell do Exchange Online para excluir uma caixa de correio inativa de uma política de retenção do Microsoft 365 em toda a organização.
 
 - [Alterar a duração de retenção de uma caixa de correio inativa](change-the-hold-duration-for-an-inactive-mailbox.md)
 

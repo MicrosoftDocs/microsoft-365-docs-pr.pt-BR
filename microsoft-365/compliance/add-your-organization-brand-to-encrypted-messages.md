@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Aplique a identidade visual da sua organização às mensagens de email criptografadas da sua organização e ao conteúdo do portal de criptografia.
-ms.openlocfilehash: fc2767c0b7ad67a53e081d60d18ac583b2b4c686
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 8d8e0a75a88cfe5dbcd5b1e6ed2c276e2edef904
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034387"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351732"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>Adicionar a marca da sua organização a suas mensagens criptografadas
 
@@ -63,9 +63,9 @@ Depois de criar os modelos, você pode aplicá-los a emails criptografados usand
 
 Você pode modificar vários recursos dentro de um modelo de identidade visual. Você pode modificar, mas não remover, o modelo padrão. Se você tiver criptografia de mensagem avançada, também poderá criar, modificar e remover modelos personalizados. Use o Windows PowerShell para trabalhar com um modelo de identidade visual por vez. Você precisará de uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização para usar esses cmdlets.
 
-- [Set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/set-omeconfiguration) -modifica o modelo de identidade visual padrão ou um modelo de identidade visual personalizado que você criou.
-- [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/new-omeconfiguration) -criar um novo modelo de identidade visual, somente criptografia de mensagem avançada.
-- [Remove-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/remove-omeconfiguration) -remove um modelo de identidade visual personalizado, somente criptografia de mensagem avançada. Não é possível excluir o modelo de identidade visual padrão.
+- [Set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-omeconfiguration) -modifica o modelo de identidade visual padrão ou um modelo de identidade visual personalizado que você criou.
+- [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) -criar um novo modelo de identidade visual, somente criptografia de mensagem avançada.
+- [Remove-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration) -remove um modelo de identidade visual personalizado, somente criptografia de mensagem avançada. Não é possível excluir o modelo de identidade visual padrão.
   
 ## <a name="modify-an-ome-branding-template"></a>Modificar um modelo de identidade visual do OME
 
@@ -73,7 +73,7 @@ Use o Windows PowerShell para modificar um modelo de identidade visual por vez. 
 
 1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
-2. Modifique o modelo usando o cmdlet Set-OMEConfiguration conforme descrito em [set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/Set-OMEConfiguration) ou use o gráfico e tabela a seguir para orientação.
+2. Modifique o modelo usando o cmdlet Set-OMEConfiguration conforme descrito em [set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration) ou use o gráfico e tabela a seguir para orientação.
 
 ![Partes de email personalizáveis](../media/ome-template-breakout.png)
 
@@ -92,13 +92,13 @@ Use o Windows PowerShell para modificar um modelo de identidade visual por vez. 
 
 ## <a name="create-an-ome-branding-template-advanced-message-encryption"></a>Criar um modelo de identidade visual do OME (criptografia de mensagem avançada)
 
-Se você tiver a criptografia de mensagem avançada do Office 365, poderá criar modelos de identidade visual personalizados para sua organização usando o cmdlet [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/new-omeconfiguration) . Depois de criar o modelo, modifique o modelo usando o cmdlet Set-OMEConfiguration, conforme descrito em Modify a [ome branding template](#modify-an-ome-branding-template). Você pode criar vários modelos.
+Se você tiver a criptografia de mensagem avançada do Office 365, poderá criar modelos de identidade visual personalizados para sua organização usando o cmdlet [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) . Depois de criar o modelo, modifique o modelo usando o cmdlet Set-OMEConfiguration, conforme descrito em Modify a [ome branding template](#modify-an-ome-branding-template). Você pode criar vários modelos.
 
 Para criar um novo modelo de identidade visual personalizado:
 
 1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
-2. Use o cmdlet [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/new-omeconfiguration) para criar um novo modelo.
+2. Use o cmdlet [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) para criar um novo modelo.
 
    ```powershell
    New-OMEConfiguration -Identity <OMEConfigurationIdParameter>
@@ -116,7 +116,7 @@ Para remover todas as modificações do modelo padrão, incluindo as personaliza
   
 1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
-2. Use o cmdlet **set-OMEConfiguration** conforme descrito em [set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/Set-OMEConfiguration). Para remover as personalizações da marca da sua organização dos valores DisclaimerText, EmailText e PortalText, defina o valor como uma cadeia de caracteres vazia `""`,. Para todos os valores de imagem, como logotipo, defina o valor `"$null"`como.
+2. Use o cmdlet **set-OMEConfiguration** conforme descrito em [set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration). Para remover as personalizações da marca da sua organização dos valores DisclaimerText, EmailText e PortalText, defina o valor como uma cadeia de caracteres vazia, `""` . Para todos os valores de imagem, como logotipo, defina o valor como `"$null"` .
 
    A tabela a seguir descreve os padrões de opção de personalização de criptografia.
 
@@ -149,7 +149,7 @@ Para remover um modelo de identidade visual personalizado:
    Remove-OMEConfiguration -Identity "Branding template 1"
    ```
 
-   Para obter mais informações, consulte [Remove-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/remove-omeconfiguration).
+   Para obter mais informações, consulte [Remove-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration).
 
 ## <a name="create-an-exchange-mail-flow-rule-that-applies-your-custom-branding-to-encrypted-emails"></a>Criar uma regra de fluxo de email do Exchange que aplica sua identidade visual personalizada a emails criptografados
 
@@ -165,9 +165,9 @@ Para obter informações sobre como criar uma regra de fluxo de email do Exchang
 
 2. Escolha o bloco **administrador** .
 
-3. No centro de administração do Microsoft 365, escolha central de **Administração** \> do **Exchange**.
+3. No centro de administração do Microsoft 365, escolha central de **Administração** do \> **Exchange**.
 
-4. No Eat, vá para **regras** de **fluxo** \> de email e selecione **novo** ![novo](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> ícone **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+4. No Eat, vá para regras de **fluxo de email** \> **Rules** e selecione **novo** ![ novo ícone ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 
 5. Em **nome**, digite um nome para a regra, como identidade visual do departamento de vendas.
 
@@ -177,7 +177,7 @@ Para obter informações sobre como criar uma regra de fluxo de email do Exchang
    - Emails criptografados enviados com uma determinada palavra-chave, como "externo" ou "parceiro"
    - Emails criptografados enviados para um domínio específico
 
-7. Em **faça o seguinte**, selecione **Modificar a segurança** > da mensagem**aplicar a identidade visual personalizada às mensagens do ome**. Em seguida, na lista suspensa, selecione um modelo de identidade visual daqueles criados ou modificados.
+7. Em **faça o seguinte**, selecione **Modificar a segurança da mensagem**  >  **aplicar a identidade visual personalizada às mensagens do ome**. Em seguida, na lista suspensa, selecione um modelo de identidade visual daqueles criados ou modificados.
 
 8. Opcion Se quiser que a regra de fluxo de emails aplique criptografia além da identidade visual personalizada, em **faça o seguinte**, selecione **Modificar a segurança da mensagem**e, em seguida, escolha **aplicar a criptografia de mensagens e a proteção de direitos do Office 365**. Selecione um modelo do RMS na lista, escolha **salvar**e, em seguida, escolha **OK**.
   

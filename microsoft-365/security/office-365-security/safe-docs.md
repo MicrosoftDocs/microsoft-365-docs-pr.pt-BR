@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre documentos seguros no Office 365 ATP.
-ms.openlocfilehash: 11c2736edee3dd1fcbc2560d5fa574def05a8f6e
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: f792b1acbdacfd29db5bbbf377f41396c35e3f17
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213111"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350946"
 ---
 # <a name="safe-documents-in-office-365-advanced-threat-protection"></a>Documentos Seguros na Proteção Avançada contra Ameaças do Office 365
 
@@ -32,7 +32,7 @@ Documentos seguros é um recurso da proteção avançada contra ameaças do Offi
 
 - No momento, documentos seguros estão disponíveis para visualização pública, disponível para os usuários que fazem parte do [programa Office Insider](https://insider.office.com/en-us/join) no ' canal mensal (direcionado) ' com o office versão 2002 (12527,20092) ou superior. Esse recurso está desativado por padrão e deverá ser habilitado pelo administrador de segurança.
 
-- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao PowerShell do EOP autônomo, confira [conectar-se ao PowerShell do Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - Você precisa ter permissões para poder executar os procedimentos deste tópico. Para habilitar e configurar documentos seguros, você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de administrador de **segurança** . Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
@@ -77,7 +77,7 @@ Este exemplo habilita documentos seguros para toda a organização e impede que 
 Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [set-AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-atppolicyforo365).
+Para informações detalhadas de sintaxes e de parâmetros, consulte [set-AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365).
 
 ### <a name="how-do-i-know-this-worked"></a>Como saber se funcionou?
 

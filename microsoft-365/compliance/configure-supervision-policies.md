@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Office 365 Compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9cbde149419320495e3848867846322733cb56f9
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 54ff4012767b156bc72289473e289fa4d93d1a2c
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033651"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352154"
 ---
 # <a name="configure-supervision-policies-in-office-365"></a>Configurar políticas de supervisão no Office 365
 
@@ -83,7 +83,7 @@ Quando você seleciona um grupo do Microsoft 365 para usuários supervisionados,
 
 Para gerenciar usuários supervisionados em grandes organizações corporativas, talvez seja necessário monitorar todos os usuários em grupos grandes. Você pode usar o PowerShell para configurar um grupo de distribuição para uma política de supervisão global para o grupo atribuído. Isso permite monitorar milhares de usuários com uma única política e manter a política de supervisão atualizada à medida que novos funcionários ingressam em sua organização.
 
-1. Crie um [grupo de distribuição](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-distributiongroup?view=exchange-ps) dedicado para sua política de supervisão global com as seguintes propriedades: Certifique-se de que esse grupo de distribuição não seja usado para outros fins ou outros serviços do Office 365.
+1. Crie um [grupo de distribuição](https://docs.microsoft.com/powershell/module/exchange/new-distributiongroup?view=exchange-ps) dedicado para sua política de supervisão global com as seguintes propriedades: Certifique-se de que esse grupo de distribuição não seja usado para outros fins ou outros serviços do Office 365.
 
     - **MemberDepartRestriction = Closed**. Garante que os usuários não possam se remover de um grupo de distribuição.
     - **MemberJoinRestriction = Closed**. Garante que os usuários não possam se adicionar ao grupo de distribuição.
@@ -136,9 +136,9 @@ Para fazer isso, você pode adicionar a si mesmo como um membro do grupo de fun�
 
 1. Entre [https://protection.office.com/permissions](https://protection.office.com/permissions) usando as credenciais de uma conta de administrador em sua organização.
 
-2. No centro de conformidade & segurança, vá para **permissões** e clique em Adicionar (**+**).
+2. No centro de conformidade & segurança, vá para **permissões** e clique em Adicionar ( **+** ).
 
-3. Na seção **funções** , clique em Adicionar (**+**) e role para baixo até **administrador de análise de supervisão**. Adicione esta função ao grupo de função.
+3. Na seção **funções** , clique em Adicionar ( **+** ) e role para baixo até **administrador de análise de supervisão**. Adicione esta função ao grupo de função.
 
 4. Na seção **Membros** , adicione as pessoas que você deseja gerenciar a supervisão de comunicação para sua organização.
 
@@ -158,7 +158,7 @@ Use um editor de texto (como o bloco de notas) para criar um arquivo que inclui 
 
 ### <a name="create-custom-sensitive-information-types"></a>Criar tipos de informações confidenciais personalizados
 
-1. Crie um novo tipo de informação confidencial e adicione seu dicionário personalizado no centro de conformidade & segurança. Navegue até **classificações** \> de **tipos de informações confidenciais** e siga as etapas no **Assistente novo tipo de informação confidencial**. Aqui você irá:
+1. Crie um novo tipo de informação confidencial e adicione seu dicionário personalizado no centro de conformidade & segurança. Navegue até **classificações** de \> **tipos de informações confidenciais** e siga as etapas no **Assistente novo tipo de informação confidencial**. Aqui você irá:
 
     - Definir um nome e uma descrição para o tipo de informações confidenciais
     - Definir os elementos de proximidade, nível de confiança e padrão primário
@@ -167,7 +167,7 @@ Use um editor de texto (como o bloco de notas) para criar um arquivo que inclui 
 
     Para obter informações mais detalhadas, consulte [criar um tipo de informação confidencial personalizado](create-a-custom-sensitive-information-type.md) e [criar um dicionário de palavras-chave](create-a-keyword-dictionary.md)
 
-    Depois que o dicionário personalizado/léxico é criado, você pode exibir as palavras-chave configuradas com o cmdlet [Get-DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpkeyworddictionary) ou adicionar e remover termos usando o cmdlet [set-DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/set-dlpkeyworddictionary) .
+    Depois que o dicionário personalizado/léxico é criado, você pode exibir as palavras-chave configuradas com o cmdlet [Get-DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/get-dlpkeyworddictionary) ou adicionar e remover termos usando o cmdlet [set-DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/set-dlpkeyworddictionary) .
 
 ## <a name="step-4-set-up-a-supervision-policy-required"></a>Etapa 4: configurar uma política de supervisão (obrigatório)
   
@@ -196,5 +196,5 @@ Depois de criar uma política de supervisão de comunicação, é uma boa ideia 
     >[!NOTE]
     >Os emails sujeitos às políticas definidas são processados quase em tempo real e podem ser testados imediatamente após a configuração da política. Os chats no Microsoft Teams podem levar até 24 horas para processar totalmente em uma política. 
 
-3. Faça logon no Microsoft 365 como um revisor designado na política de supervisão de comunicação. Navegue até a **supervisão** > da*política* > personalizada**aberta** para exibir o relatório da política.
+3. Faça logon no Microsoft 365 como um revisor designado na política de supervisão de comunicação. Navegue até a **supervisão**da  >  *política personalizada*  >  **aberta** para exibir o relatório da política.
 

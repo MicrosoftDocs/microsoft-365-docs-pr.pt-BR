@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Você pode usar o recurso pesquisar e limpar do Centro de Segurança e Conformidade para pesquisar e excluir uma mensagem de e-mail de todas as caixas de correio da sua organização.
-ms.openlocfilehash: cec7229da0d6bef9af94dfc017794ece21aa0ac8
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: 3be3b64d7745fe97aae6b2003e0adbcd6aa7d82e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292437"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352094"
 ---
 # <a name="search-for-and-delete-email-messages"></a>Pesquisar e excluir mensagens de email
 
@@ -61,9 +61,9 @@ A primeira etapa é criar e executar uma pesquisa de conteúdo a fim de localiza
     
 - [Consultas de palavra-chave para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md)
     
-- [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/New-ComplianceSearch)
+- [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/New-ComplianceSearch)
     
-- [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/Start-ComplianceSearch)
+- [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/Start-ComplianceSearch)
     
 > [!NOTE]
 > Os locais de conteúdo pesquisados na Pesquisa de Conteúdo que você criar nesta etapa não podem incluir sites do SharePoint ou do OneDrive for Business. Em uma pesquisa de conteúdo que será usada para mensagens de email, você somente pode incluir as caixas de correio e as pastas públicas. Se a pesquisa de conteúdo incluir sites, você receberá uma mensagem de erro na Etapa 3 quando executar o cmdlet **New-ComplianceSearchAction**. 
@@ -129,7 +129,7 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
 
 Quando você executa o comando anterior para excluir mensagens de forma temporária ou permanente, a pesquisa especificada pelo parâmetro *SearchName* é a Pesquisa de conteúdo que você criou na Etapa 1. 
   
-Para obter mais informações, consulte [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/New-ComplianceSearchAction).
+Para obter mais informações, consulte [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/New-ComplianceSearchAction).
 
 ## <a name="more-information"></a>Mais informações
 

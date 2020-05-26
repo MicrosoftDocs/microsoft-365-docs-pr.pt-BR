@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: Os usuários precisam receber permissões no centro de conformidade & segurança da Microsoft 365 antes de poderem gerenciar qualquer um dos seus recursos de segurança ou conformidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6071bb6260e0c0f524eb6e5d4e78c78fa8ff750
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 19358e3cca0c4d47338fe5fc72b671e36477ce7e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036663"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351946"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>Conceder aos usuários acesso ao Centro de Conformidade e Segurança
 
@@ -50,11 +50,11 @@ Para obter mais informações sobre as diferentes permissões que você pode dar
 
 3. No centro de conformidade & segurança, acesse **permissões**.
 
-4. Na lista, escolha o grupo de funções ao qual você deseja adicionar o usuário e clique em **Editar** ![ícone](../../media/O365-MDM-CreatePolicy-EditIcon.gif)de edição.
+4. Na lista, escolha o grupo de funções ao qual você deseja adicionar o usuário e clique em **Editar** ![ ícone de edição ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) .
 
-5. Na página de propriedades do grupo de funções, em **Membros**, clique em](../../media/ITPro-EAC-AddIcon.gif) **Adicionar**![ícone de adição e selecione o nome do usuário (ou usuários) que você deseja adicionar.
+5. Na página de propriedades do grupo de funções, em **Membros**, clique em **Adicionar** ![ ícone ](../../media/ITPro-EAC-AddIcon.gif) de adição e selecione o nome do usuário (ou usuários) que você deseja adicionar.
 
-6. Depois de selecionar todos os usuários que você deseja adicionar ao grupo de funções, clique em **Adicionar\> ** e em **OK**.
+6. Depois de selecionar todos os usuários que você deseja adicionar ao grupo de funções, clique em **Adicionar \> ** e em **OK**.
 
 7. Clique em **Salvar** para salvar as alterações feitas no grupo de funções.
 
@@ -82,7 +82,7 @@ Para obter mais informações sobre as diferentes permissões que você pode dar
 
    - _Member_ é a caixa de correio, grupo de segurança universal (USG) ou computador a ser adicionado ao grupo de funções. Você só pode especificar um membro por vez.
 
-Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Add-RoleGroupMember).
+Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember).
 
 ### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
 
@@ -92,4 +92,4 @@ Para verificar se você concedeu aos usuários acesso ao centro de conformidade 
 Get-RoleGroupMember -Identity "Organization Management"
 ```
 
-Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Get-RoleGroupMember).
+Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).

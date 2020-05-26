@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.assetid: 39db1659-0b12-4243-a21c-2614512dcb44
 description: Saiba como colocar uma caixa de correio em retenção de litígio, mantendo todo o conteúdo da caixa de correio durante uma investigação.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3ea5c07065788e342edcd0b5c70ef9dcaae48e16
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 8f4d95e1174c9070dd51f27ae9ab90c64bfeaafd
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035813"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351046"
 ---
 # <a name="create-a-litigation-hold"></a>Criar uma Retenção de Litígio
 
@@ -78,7 +78,7 @@ O comando anterior preserva os itens indefinidamente porque a duração da reten
 Set-Mailbox <username> -LitigationHoldEnabled $true -LitigationHoldDuration <number of days>
 ```
 
-Para obter mais informações, consulte [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
+Para obter mais informações, consulte [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox).
 
 ## <a name="how-does-litigation-hold-work"></a>Como funciona a retenção de litígio?
 

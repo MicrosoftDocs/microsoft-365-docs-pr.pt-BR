@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: O gerenciador de planos de arquivo fornece recursos avançados de gerenciamento de políticas e rótulos de retenção, políticas de rótulos de retenção e oferece uma maneira integrada de percorrer a atividade de rótulos e de rótulo para conteúdo para todo o seu ciclo de vida de conteúdo, desde a criação à colaboração, declaração de registros, retenção e por fim, à disposição.
-ms.openlocfilehash: b3270538cf2a1454840f6beff4e52fda84fa0afe
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: d47e0df05ec7dacbb2d0eaa9a7593183d5d0c557
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327679"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352134"
 ---
 # <a name="overview-of-file-plan-manager"></a>Visão geral do gerenciador de planos de arquivo
 
@@ -152,7 +152,7 @@ Para importar novos rótulos de retenção e modificar os rótulos de retenção
    |CitationUrl|String|Esta propriedade especifica o valor que é exibido no descritor de planos de arquivo **Tipo de autoria**.|
    |CitationJurisdiction|String|Esta propriedade especifica a jurisdição ou órgão que é exibida no descritor de plano **Provisão/citação**, por exemplo, "Comissão de Valores Mobiliários dos EUA (SEC)".|
    |Regulatório|String|Deixar em branco. Esta propriedade não é usada nesse momento.|
-   |EventType|String|Esta propriedade especifica a regra de retenção associada ao rótulo. É possível usar qualquer valor que identifique a regra com exclusividade. Por exemplo:</br>**Nome**</br>**Nome diferenciado (DN)**</br>**GUID** </br>Você pode usar o cmdlet [Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancerule?view=exchange-ps) para exibir as regras de retenção disponíveis. Observe que, se você exportar rótulos de uma organização, não poderá usar os valores da propriedade EventType dessa organização ao importar rótulos para uma organização diferente. Isso porque os valores de EventType são exclusivos de uma organização. |
+   |EventType|String|Esta propriedade especifica a regra de retenção associada ao rótulo. É possível usar qualquer valor que identifique a regra com exclusividade. Por exemplo:</br>**Nome**</br>**Nome diferenciado (DN)**</br>**GUID** </br>Você pode usar o cmdlet [Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancerule?view=exchange-ps) para exibir as regras de retenção disponíveis. Observe que, se você exportar rótulos de uma organização, não poderá usar os valores da propriedade EventType dessa organização ao importar rótulos para uma organização diferente. Isso porque os valores de EventType são exclusivos de uma organização. |
    |||
 
    Veja um exemplo do modelo que contém as informações sobre rótulos de retenção.

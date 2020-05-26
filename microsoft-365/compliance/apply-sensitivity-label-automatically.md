@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 7d31d77bdb08ce5ae7ef5580301b0432747da2a1
-ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+ms.openlocfilehash: 752a394b2e1c3d2219093f2342f597bdac38aee1
+ms.sourcegitcommit: 6ea9a910a8106a5f1aa589c55d166bfa67fd12a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952624"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280551"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -48,7 +48,7 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
 - **Rotulagem do lado do serviço quando o conteúdo já foi salvo (no SharePoint Online ou no OneDrive for Business) ou enviado por email (processado pelo Exchange Online)**: Use uma política de rotulação automática - atualmente no modo de visualização. 
     
     > [!NOTE]
-    > Veja o anúncio de visualização, [Anunciar a visualização pública de classificação automática com rótulos de confidencialidade nos serviços do Microsoft 365](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/announcing-public-preview-of-auto-classification-with/ba-p/1279961).
+    > Veja o comunicado de versão prévia, [Comunicando a versão prévia pública da classificação automática com rótulos de confidencialidade no Microsoft 365 Services](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/announcing-public-preview-of-auto-classification-with/ba-p/1279961) e o webinar [introdução à Rotulação Automática de Confidencialidade do SharePoint e OneDrive](https://aka.ms/SPOAutoLabelWebinar-Recording).
     
     Esse método é chamado de classificação automática com rótulos de confidencialidade. Você também pode ouvi-lo ser chamado de rotulagem automática de dados em repouso (documentos no SharePoint e OneDrive) e dados em trânsito (email enviado ou recebido pelo Exchange). No caso do Exchange, ele não inclui emails em repouso (caixas de correio). 
     
@@ -76,7 +76,7 @@ Use a tabela a seguir para ajudá-lo a identificar as diferenças no comportamen
 |:-----|:-----|:-----|:-----|
 |Dependência de aplicativos|Sim |Não |
 |Restringir por local|Não |Sim |
-|Condições: Classificadores de treinamento|Sim (visualização limitada) |Não |
+|Condições: Classificadores de treinamento|Sim |Não |
 |Condições: Opções de compartilhamento e opções adicionais para email|Não |Sim |
 |Recomendações, dica de ferramenta da política e substituições de usuário|Sim |Não |
 |Modo de simulação|Não |Sim |
@@ -104,16 +104,12 @@ Confira mais informações em rótulos de pai e sub-rótulos[Sub-rótulos (agrup
 
 A rotulagem automática nos aplicativos Office para Windows têm suporte no cliente de rotulagem unificada da Proteção de Informações do Azure.  Para rotulagem interna nos aplicativos do Office, esse recurso está [na visualização de alguns aplicativos](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps).
 
-As configurações de rotulagem automática para aplicativos do Office estão disponíveis quando você [cria ou edita um rótulo de confidencialidade](create-sensitivity-labels.md):
-
-![Opções de rotulagem automática para rótulos de confidencialidade](../media/sensitivity-labels-auto-labeling-options.png)
-
-Você pode optar por aplicar rótulos de confidencialidade ao conteúdo automaticamente quando esse conteúdo contém tipos específicos de informações confidenciais. Escolha em uma lista de tipos ou classificadores de informações confidenciais:
+As configurações de rotulagem automática para aplicativos do Office estão disponíveis quando você [cria ou edita um rótulo de confidencialidade](create-sensitivity-labels.md). Você pode optar por aplicar rótulos de confidencialidade ao conteúdo automaticamente quando informação confidencial for detectada. Escolha em uma lista de tipos ou classificadores treináveis de informações confidenciais:
 
 ![Condições de rótulos para rotulagem automática em aplicativos do Office](../media/sensitivity-labels-conditions.png)
 
 > [!NOTE]
-> Atualmente, a opção para **Classificadores** está em visualização limitada e exige que você envie um formulário à Microsoft para habilitar esse recurso para seu locatário. Para obter mais informações, confira a postagem do blog [Anunciar a rotulagem automática no Office Apps usando classificadores internos - Visualização limitada](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/announcing-automatic-labeling-in-office-apps-using-built-in/ba-p/1192889).
+> A opção para **Classificadores treináveis** está sendo implantada em locatários na visualização pública. Se você não puder vê-la, tente novamente em alguns dias.
 
 Quando esse rótulo de confidencialidade é aplicado automaticamente, o usuário vê uma notificação no aplicativo do Office. Por exemplo:
 
@@ -131,22 +127,25 @@ Além disso, você pode escolher se uma condição deve detectar todos os tipos 
 
 ![Opções de contagem de instâncias e precisão de correspondência](../media/Sensitivity-labels-instance-count-match-accuracy.png)
 
-### <a name="configuring-classifiers-for-a-label"></a>Configurar classificadores para um rótulo
+### <a name="configuring-trainable-classifiers-for-a-label"></a>Configurar classificadores treináveis para um rótulo
 
-Ao selecionar a opção **Classificadores**, selecione um ou mais dos classificadores internos:
+Ao selecionar a opção **Classificadores treináveis**, selecione um ou mais classificadores internos da Microsoft Corporation. Se você tiver criado seus próprios classificadores treináveis, eles também estão disponíveis para selecionar:
 
-![Opções para classificadores e rótulos de confidencialidade](../media/sensitivity-labels-classifers.png)
+![Opções para classificadores treináveis e rótulos de confidencialidade](../media/sensitivity-labels-classifers.png)
+
+> [!CAUTION]
+> Vamos substituir o classificador interno **Idioma Ofensivo** porque ele tem uma grande quantidade de falsos positivos. Não use esse classificador interno e se você estiver usando-o no momento, você deve migrar seus processos de negócios para fora dele. É recomendável usar os classificadores internos **Assédio Direcionado**, **Profanidade**e **Ameaças**.
 
 Para obter mais informações sobre os classificadores, confira [Introdução aos classificadores de treinamento (visualização)](classifier-getting-started-with.md).
 
 Durante o período de visualização, os seguintes aplicativos oferecem suporte a classificadores de rótulos de confidencialidade:
 
-- Os aplicativos de área de trabalho do Microsoft365 Apps para Grandes Empresas para Windows, do [Office Insider](https://office.com/insider):
+- Aplicativos do Microsoft 365 para empresas (antigo Office 365 ProPlus) para Windows, do [Office Insider](https://office.com/insider):
     - Word
     - Excel
     - PowerPoint
 
-- Office para aplicativos da Web, quando você [habilitou os rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)](sensitivity-labels-sharepoint-onedrive-files.md):
+- Office para aplicativos da Web, quando você [habilitou os rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md):
     - Word
     - Excel
     - PowerPoint
@@ -176,7 +175,7 @@ Específico para rotulagem interna:
 
 - Para obter os rótulos recomendados nas versões de área de trabalho do Word, o conteúdo confidencial que disparou a recomendação é sinalizado para que os usuários podem analisar e remover o conteúdo confidencial, em vez de aplicar o rótulo de confidencialidade recomendado.
 
-- Para saber mais sobre como esses rótulos são aplicados aos aplicativos do Office, capturas de tela de exemplo e como as informações confidenciais são detectadas, confira [Aplicar ou recomendar rótulos de confidencialidade automaticamente aos seus arquivos e emails no Office](https://support.office.com/en-us/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1).
+- Para saber mais sobre como esses rótulos são aplicados aos aplicativos do Office, capturas de tela de exemplo e como as informações confidenciais são detectadas, confira [Aplicar ou recomendar rótulos de confidencialidade automaticamente aos seus arquivos e emails no Office](https://support.office.com/pt-BR/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1).
 
 Específico para o cliente de rotulagem unificada da Proteção de Informações do Azure:
 
@@ -298,5 +297,5 @@ Você também pode ver os resultados da política de rotulagem automática usand
 - O **visualizador de conteúdo do Explorador de Conteúdo** permite que você veja o conteúdo do arquivo.
 
 > [!TIP]
-> Você também pode usar o explorador de conteúdo para identificar locais que possuem documentos não rotulados que contenham informações confidenciais. Usando essas informações, considere adicionar esses locais à política de rotulagem automática e inclua os tipos de informações confidenciais identificadas como regras.
+> Você também pode usar o gerenciador de conteúdo para identificar os locais que têm documentos com informações confidenciais, mas que não são rotulados. Usando essas informações, considere adicionar esses locais à política de rotulagem automática e inclua os tipos de informações confidenciais identificadas como regras.
 
