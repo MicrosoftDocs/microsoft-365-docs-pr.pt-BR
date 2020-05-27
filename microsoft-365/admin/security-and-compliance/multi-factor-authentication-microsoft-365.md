@@ -1,5 +1,5 @@
 ---
-title: Autenticação multifator para o Microsoft 365
+title: Autenticação multifator para Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -20,14 +20,14 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba mais sobre a autenticação multifator no Microsoft 365.
-ms.openlocfilehash: 128296b7dbc37ba5ebffb25a87bce589f8e5a904
-ms.sourcegitcommit: 185d62f41f6b173894ba6e3e87b11b2b5d02db58
+ms.openlocfilehash: eba9ae38dbc17a22abb5d5ef92b8cd30a827ae11
+ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44340817"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "44371447"
 ---
-# <a name="multi-factor-authentication-for-microsoft-365"></a>Autenticação multifator para o Microsoft 365
+# <a name="multi-factor-authentication-for-microsoft-365"></a>Autenticação multifator para Microsoft 365
 
 As senhas são o método mais comum de autenticar uma entrada em um computador ou serviço online, mas elas também são mais vulneráveis. As pessoas podem escolher senhas fáceis e usar as mesmas senhas para várias entradas em diferentes computadores e serviços.
 
@@ -151,17 +151,10 @@ Esta tabela mostra os resultados da ativação da MFA com padrões de segurança
 |:-------|:-----|:-------|:-------|
 | **Padrões de segurança** | Não é possível usar políticas de Acesso Condicional |   Pode usar políticas de Acesso Condicional | Aplicativo Microsoft Authenticator |
 | **Políticas de Acesso Condicional** |Se alguma delas estiver habilitada, você não poderá habilitar os padrões de segurança | Se todas estiverem desabilitadas, você poderá habilitar os padrões de segurança | Especificado pelo usuário durante o registro da MFA |
-| **Configuração de conta por usuário (não recomendado)** | Substituído por padrões de segurança e políticas de acesso condicional que exigem MFA | Substituído por padrões de segurança e políticas de acesso condicional | Especificado pelo usuário durante o registro da MFA|
+| **Configuração de conta por usuário (não recomendado)** | Substitui os padrões de segurança e as políticas de acesso condicional que exigem MFA em cada entrada | Substituído por padrões de segurança e políticas de acesso condicional | Especificado pelo usuário durante o registro da MFA|
 ||||
 
 Se os padrões de segurança estiverem habilitados, todos os novos usuários serão solicitados a registrar o registro MFA e o uso do aplicativo Microsoft Authenticator na próxima entrada.
-
-No entanto, se um usuário tiver um telefone mais antigo que possa receber mensagens de texto, mas não puder executar o aplicativo Microsoft Authenticator, você poderá habilitar a MFA nessa conta de usuário específica e fazer com que ela se registre usando o método de verificação adicional de código de texto com estas etapas:
-
-1. Desabilite os padrões de segurança no portal do Azure.
-2. Habilitar a MFA da conta de usuário no centro de administração do Microsoft 365.
-3. Faça o usuário entrar e registrar-se na MFA e o método de autenticação de código de texto.
-4. Ao concluir, habilitar padrões de segurança no portal do Azure
 
 ## <a name="ways-to-manage-mfa-settings"></a>Maneiras de gerenciar as configurações da MFA
 

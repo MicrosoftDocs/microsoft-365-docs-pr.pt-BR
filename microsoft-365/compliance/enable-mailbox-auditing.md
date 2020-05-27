@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: O registro em log de auditoria de caixa de correio é ativado por padrão (também chamado de auditoria de caixa de correio padrão ou auditoria de caixa de correio ativada por padrão). Isso significa que determinadas ações executadas por proprietários, representantes e administradores de caixa de correio são automaticamente registradas em um log de auditoria de caixa de correio, onde você pode pesquisar atividades realizadas na caixa de correio.
-ms.openlocfilehash: f25232dd30fe0fba0f4cc31acae3235012bb025a
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 03e32a11176530d26f33076331f8f6a2093e7200
+ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352104"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "44371425"
 ---
 # <a name="manage-mailbox-auditing"></a>Gerenciar a auditoria de caixa de correio
 
@@ -39,7 +39,8 @@ Estes são alguns benefícios da auditoria de caixa de correio ativada por padr�
 - Você tem uma política de auditoria de caixa de correio consistente em sua organização (pois você está auditando as mesmas ações para todas as caixas de correio).
 
 > [!NOTE]
->* Por padrão, o importante a ser lembrado sobre o lançamento da auditoria de caixa de correio é: não é necessário fazer nada para gerenciar a auditoria de caixa de correio. No entanto, para saber mais, personalizar a auditoria de caixa de correio nas configurações padrão ou desativá-la completamente, este tópico pode ajudá-lo. <br><br>* Por padrão, somente eventos de auditoria de caixa de correio para usuários do E5 estão disponíveis em pesquisas de log de auditoria no centro de conformidade & segurança ou por meio da API de atividade de gerenciamento do Office 365. Para obter mais informações, consulte a seção [mais informações](#more-information) neste tópico.
+>* Por padrão, o importante a ser lembrado sobre o lançamento da auditoria de caixa de correio é: não é necessário fazer nada para gerenciar a auditoria de caixa de correio. No entanto, para saber mais, personalizar a auditoria de caixa de correio nas configurações padrão ou desativá-la completamente, este tópico pode ajudá-lo.
+>- Por padrão, somente eventos de auditoria de caixa de correio para usuários do E5 estão disponíveis em pesquisas de log de auditoria no centro de conformidade & segurança ou por meio da API de atividade de gerenciamento do Office 365. Para obter mais informações, consulte a seção [mais informações](#more-information) neste tópico.
 
 ## <a name="verify-mailbox-auditing-on-by-default-is-turned-on"></a>Verificar se a auditoria de caixa de correio está ativada por padrão
 

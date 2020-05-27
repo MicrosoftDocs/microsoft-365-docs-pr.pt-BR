@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba mais sobre as etapas de configuração do 365 da Microsoft necessárias para configurar uma equipe para colaboração com convidados no Microsoft Teams.
-ms.openlocfilehash: dabcfa53e9ccf4b3ea136b5ab522619fe81ae738
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 6742409732e1ef9b466dae6854768c3843f33bd0
+ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160022"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "44371482"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Colaborar com convidados em uma equipe
 
@@ -44,10 +44,10 @@ Verifique as configurações de relações organizacionais para garantir que o c
 
 Para definir as configurações de relação organizacional
 
-1. Faça logon no Microsoft Azure em [https://portal.azure.com](https://portal.azure.com).
+1. Faça logon no Microsoft Azure em [https://portal.azure.com](https://portal.azure.com) .
 2. Na navegação à esquerda, clique em **Azure Active Directory**.
-3. No painel **visão geral** , clique em **relações organizacionais**.
-4. No painel **relações organizacionais** , clique em **configurações**.
+3. No painel **visão geral** , clique em **identidades externas**.
+4. No painel **identidades organizacionais** , clique em **configurações de colaboração externa**.
 5. Certifique-se de que **Administradores e usuários na função de convite de convidado podem convidar** e **os membros podem convidar** estão definidos como **Sim**.
 6. Caso tenha feito alterações, clique em **Salvar**.
 
@@ -161,12 +161,12 @@ Para definir configurações de compartilhamento no nível do site
 As configurações de compartilhamento de convidados agora estão configuradas para que você possa começar a adicionar usuários internos e convidados à sua equipe. 
 
 Para convidar usuários internos para uma equipe
-1. Na equipe, clique em **mais opções** (**\*\***) e, em seguida, clique em **Adicionar membro**.
+1. Na equipe, clique em **mais opções** ( **\*\*\*** ) e, em seguida, clique em **Adicionar membro**.
 2. Digite o nome da pessoa que você deseja convidar.
 3. Clique em **Adicionar**e, em seguida, clique em **fechar**.
 
 Para convidar convidados para uma equipe
-1. Na equipe, clique em **mais opções** (**\*\***) e, em seguida, clique em **Adicionar membro**.
+1. Na equipe, clique em **mais opções** ( **\*\*\*** ) e, em seguida, clique em **Adicionar membro**.
 2. Digite o endereço de email do convidado que você deseja convidar.
 3. Clique em **Editar informações de convidado**.
 4. Digite o nome completo do convidado e clique na marca de seleção.

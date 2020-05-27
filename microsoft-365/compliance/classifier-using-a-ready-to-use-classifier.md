@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A Microsoft 365 vem com uma série de classificadores internos que você pode usar para identificar e rotular o conteúdo em sua organização. Este tópico mostra como se preparar para usar esses classificadores.
-ms.openlocfilehash: 485ef8013c5a6656be9d0e025048154ec8b2f250
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: 2652df8d79b06d6614e2478843195e67de0a8ebb
+ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292417"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "44371403"
 ---
 # <a name="testing-built-in-classifiers-using-retention-labels-preview"></a>Testando classificadores internos usando rótulos de retenção (visualização)
 
@@ -33,18 +33,18 @@ Para obter mais informações sobre classificadores destreinados, confira introd
 A Microsoft 365 vem com cinco classificadores internos recomendados:
 
 > [!CAUTION]
-> Estamos preterindo o classificador interno de **idioma ofensivo** , pois ele está produzindo um grande número de falsos positivos. Não usá-lo e, se estiver usando, você deverá mover seus processos de negócios para fora dele. Recomendamos o uso de classificadores internos **contra ameaças**, **profanação**e **assédio** .
+> Vamos substituir o classificador interno **Idioma Ofensivo** porque ele tem uma grande quantidade de falsos positivos. Não usá-lo e, se estiver usando, você deverá mover seus processos de negócios para fora dele. Recomendamos o uso de classificadores internos **contra ameaças**, **profanação**e **assédio** .
 
 - **Currículos**: detecta itens que são contas de texto das qualificações pessoais, educacionais, profissionais, experiência de trabalho e outras informações de identificação pessoal de um candidato
 - **Código-fonte**: detecta itens que contêm um conjunto de instruções e instruções escritas nas principais linguagens de programação de computador usadas no github
 
-|nome do idioma|||||
-|---------|---------|---------|---------|---------|
-|Código|C        |C#       |C++     |Clojure  |
-|CoffeeScript|CSS     |Ir       |Haskell |HTML     |
-|Java     |JavaScript|Lua      |MATLAB   |Objective-C|
-|Perl     |PHP      |Python   |R        |Ruby     |
-|Scale    |Shell    |Swift    |Tex      |Script vim|
+  |nome do idioma|||||
+  |---------|---------|---------|---------|---------|
+  |Código|C        |Unidade #       |C++     |Clojure  |
+  |CoffeeScript|CSS     |Ir       |Haskell |HTML     |
+  |Java     |JavaScript|Lua      |MATLAB   |Objective-C|
+  |Perl     |PHP      |Python   |R        |Ruby     |
+  |Scale    |Shell    |Swift    |Tex      |Script vim|
 
 > [!NOTE]
 > O código-fonte é treinado para detectar quando a maior parte do texto é o código-fonte. Ele não detecta o texto do código-fonte que é intercalado com texto sem formatação.
@@ -60,8 +60,8 @@ A Microsoft 365 vem com cinco classificadores internos recomendados:
 
 1. Coletar itens de conteúdo de teste descartáveis que você sente que pertencem à categoria do classificador interno (correspondências positivas) e aqueles que não devem ser incluídos (correspondências negativas) na categoria que você está testando.
 
-> [!IMPORTANT]
-> Os itens de exemplo não devem ser criptografados e devem estar em inglês.
+   > [!IMPORTANT]
+   > Os itens de exemplo não devem ser criptografados e devem estar em inglês.
 
 2. Criar uma pasta dedicada do SharePoint Online; Aguarde pelo menos uma hora para a pasta a ser adicionada ao índice de pesquisa. Anote a URL da pasta.
 
@@ -79,7 +79,7 @@ A Microsoft 365 vem com cinco classificadores internos recomendados:
 
 9. Escolha `Apply label to content that matches a trainable classifier` .
 
-![selecionar classificador como uma condição](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png).
+   ![selecionar classificador como uma condição](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png)
 
 10. Escolha seu classificador na lista, neste caso`Source Code`
 
@@ -105,6 +105,6 @@ A Microsoft 365 vem com cinco classificadores internos recomendados:
 
 Confira também:
 
-- [Introdução aos classificadores de treinamento (visualização)](classifier-getting-started-with.md)
+- [Introdução aos classificadores treináveis (visualização)](classifier-getting-started-with.md)
 - [Visão geral de rótulos de retenção](labels.md)
 - [Aplicar automaticamente a política de rótulo de retenção com base em uma condição](labels.md#applying-a-retention-label-automatically-based-on-conditions)

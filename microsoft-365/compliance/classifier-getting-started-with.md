@@ -1,5 +1,5 @@
 ---
-title: Introdução aos classificadores de treinamento (visualização)
+title: Introdução aos classificadores treináveis (visualização)
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,14 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador do Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras positivas e negativas. Depois que o classificador for treinado, você confirmará que os resultados são precisos. Em seguida, use-o para pesquisar o conteúdo da sua organização e classificá-lo para aplicar os rótulos de retenção ou confidencialidade ou incluí-lo em políticas de retenção ou prevenção de perda de dados (DLP).
-ms.openlocfilehash: ba24bbe76bce5e3a41345c80616a57d3fb67a5fc
-ms.sourcegitcommit: 2fbcecaa60e9f551738b9235bd380af807a6681a
+ms.openlocfilehash: de52c8c7f96d2d3c0383f27b17bcc5162bb662c5
+ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44339909"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "44371459"
 ---
-# <a name="getting-started-with-trainable-classifiers-preview"></a>Introdução aos classificadores de treinamento (visualização)
+# <a name="getting-started-with-trainable-classifiers-preview"></a>Introdução aos classificadores treináveis (visualização)
 
 Classificar e rotular o conteúdo para que ele possa ser protegido e manipulado adequadamente é o local inicial da disciplina de proteção de informações. O Microsoft 365 tem três maneiras de classificar conteúdo.
 
@@ -80,18 +80,18 @@ Há classificadores internos e classificadores estagiários. Obter um classifica
 A Microsoft 365 vem com cinco classificadores internos recomendados:
 
 > [!CAUTION]
-> Estamos preterindo o classificador interno de **idioma ofensivo** , pois ele está produzindo um grande número de falsos positivos. Não usá-lo e, se estiver usando, você deverá mover seus processos de negócios para fora dele. Recomendamos o uso de classificadores internos **contra ameaças**, **profanação**e **assédio** .
+> Vamos substituir o classificador interno **Idioma Ofensivo** porque ele tem uma grande quantidade de falsos positivos. Não usá-lo e, se estiver usando, você deverá mover seus processos de negócios para fora dele. Recomendamos o uso de classificadores internos **contra ameaças**, **profanação**e **assédio** .
 
 - **Currículos**: detecta itens que são contas de texto das qualificações pessoais, educacionais, profissionais, experiência de trabalho e outras informações de identificação pessoal de um candidato
 - **Código-fonte**: detecta itens que contêm um conjunto de instruções e instruções escritas nas principais linguagens de programação de computador usadas no github
 
-|nome do idioma|||||
-|---------|---------|---------|---------|---------|
-|Código|C        |C#       |C++     |Clojure  |
-|CoffeeScript|CSS     |Ir       |Haskell |HTML     |
-|Java     |JavaScript|Lua      |MATLAB   |Objective-C|
-|Perl     |PHP      |Python   |R        |Ruby     |
-|Scale    |Shell    |Swift    |Tex      |Script vim|
+  |nome do idioma|||||
+  |---------|---------|---------|---------|---------|
+  |Código|C        |Unidade #       |C++     |Clojure  |
+  |CoffeeScript|CSS     |Ir       |Haskell |HTML     |
+  |Java     |JavaScript|Lua      |MATLAB   |Objective-C|
+  |Perl     |PHP      |Python   |R        |Ruby     |
+  |Scale    |Shell    |Swift    |Tex      |Script vim|
 
 > [!NOTE]
 > O código-fonte é treinado para detectar quando a maior parte do texto é o código-fonte. Ele não detecta o texto do código-fonte que é intercalado com texto sem formatação.
@@ -132,7 +132,7 @@ Criar e publicar um classificador treinado para uso em soluções de conformidad
 - [Rótulos de retenção](labels.md)
 - [Políticas de retenção](retention-policies.md)
 - [Data loss prevention (DLP)](data-loss-prevention-policies.md)
-- [Rótulos de confidencialidade ](sensitivity-labels.md)
-- [Definições de entidade de tipo de informação confidencial](sensitive-information-type-entity-definitions.md)
+- [Rótulos de confidencialidade](sensitivity-labels.md)
+- [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
 - [Impressão digital do documento](document-fingerprinting.md)
 - [Correspondência de dados exata](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
