@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Visão geral da pontuação da produtividade da Microsoft.
-ms.openlocfilehash: ae2d6188af6a0964dc7670adf0777c0bb3d77a77
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 52a520e36c6b121984aef650ffba1867f4d3e8c9
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942226"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399177"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Pontuação de produtividade da Microsoft (versão prévia)
 
@@ -82,7 +83,7 @@ Para exibir a pontuação de produtividade da sua organização, você deve ter 
 - Leitor global 
 - Leitor de relatórios 
 
-Você pode acessar a experiência da página inicial do Microsoft 365 admin em **relatórios** > de**produtividade**.
+Você pode acessar a experiência da página inicial do Microsoft 365 admin em **relatórios**de  >  **produtividade**.
 
 ## <a name="interpreting-productivity-score"></a>Interpretação da Pontuação de produtividade 
 

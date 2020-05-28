@@ -10,12 +10,13 @@ metadata:
   ms.author: sirkkuw
   ms.date: 04/16/2020
   localization_priority: Priority
-  ms.openlocfilehash: 0396ea8146e3e0d0419f6f1d9caeee9df7b86d59
-  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+  ms.custom: AdminSurgePortfolio
+  ms.openlocfilehash: 82575756389813a3ddec91fa2b278acee0d9eef1
+  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/30/2020
-  ms.locfileid: "43952661"
+  ms.lasthandoff: 05/27/2020
+  ms.locfileid: "44398889"
 landingContent:
 - title: Inscreva-se
   linkLists:

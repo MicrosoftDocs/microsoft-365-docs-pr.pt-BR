@@ -15,6 +15,7 @@ ms.collection:
 - Adm_NonTOC
 ms.custom:
 - MSB365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,12 +23,12 @@ search.appverid:
 ms.assetid: 932e3676-2491-49f0-9177-d893d2f5276e
 ROBOTS: NOINDEX
 description: Saiba como criar um arquivo CSV para o piloto automático no Microsoft 365 for Business.
-ms.openlocfilehash: c83862675db1372aa2cef27c727c04577b4cf5a3
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 030fb96e9e60c792fb685af57d34eacd6670645a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064646"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399357"
 ---
 # <a name="device-list-csv-file"></a>Arquivo CSV de lista de dispositivos
 

@@ -14,17 +14,18 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
 description: Saiba o que você precisa fazer para configurar seu Microsoft 365 para empresas.
-ms.openlocfilehash: d02e1aaf03449bd976b8db549274002b3ebb6ed6
-ms.sourcegitcommit: b458277f0a9937555bc6c5b3fb2a41613f7cc9a9
+ms.openlocfilehash: 7c329e8f4df5076a9f4826d18e8a82bcc7cd6dd8
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43794024"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398841"
 ---
 # <a name="plan-your-setup-of-microsoft-365-for-business"></a>Planejar a configuração do Microsoft 365 para empresas
 
@@ -49,7 +50,7 @@ O assistente de instalação orienta você durante a instalação dos aplicativo
 > [!NOTE]
 > Se você precisar [atribuir funções de administrador no Microsoft 365 for Business](../add-users/assign-admin-roles.md) aos usuários que você adicionar no assistente, poderá fazer isso mais tarde na página **usuários** . 
   
-Se você não concluir o assistente de instalação, poderá concluir as tarefas de configuração a qualquer momento da**configuração**do [Centro](https://go.microsoft.com/fwlink/p/?linkid=2024339) > de administração. Aqui você pode migrar emails e contatos de outro serviço de email, alterar o domínio de sua conta de administrador, gerenciar suas informações de cobrança, adicionar ou remover usuários, redefinir senhas e realizar outras funções de negócios. Para obter mais informações sobre as diferenças entre o assistente de instalação e a página de **configuração** , confira [diferenças entre o assistente de instalação do Microsoft 365 e a página de configuração](o365-setup-wizard-and-setup-page.md).
+Se você não concluir o assistente de instalação, poderá concluir as tarefas de configuração a qualquer momento da configuração do [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=2024339)  >  **Setup**. Aqui você pode migrar emails e contatos de outro serviço de email, alterar o domínio de sua conta de administrador, gerenciar suas informações de cobrança, adicionar ou remover usuários, redefinir senhas e realizar outras funções de negócios. Para obter mais informações sobre as diferenças entre o assistente de instalação e a página de **configuração** , confira [diferenças entre o assistente de instalação do Microsoft 365 e a página de configuração](o365-setup-wizard-and-setup-page.md).
 
 Se você tiver algum problema, fale conosco. [Estamos aqui para ajudar!](../contact-support-for-business-products.md)
   
@@ -93,7 +94,7 @@ Se você estiver planejando migrar de um serviço de email existente para o Micr
   
 Se você for usar o Microsoft 365 para o seu email:
   
-- Para mover seu endereço de email comercial (como *rob\@contoso.com*) de outro serviço de email para o Microsoft 365, você precisa direcionar seu email para que ele seja entregue em sua nova caixa de correio do Microsoft 365. Para fazer isso, selecione **migrar os dados dos seus usuários** na página de **configuração** , onde orientamos você pelas atualizações que você precisa fazer no seu host de domínio, passo a passo.
+- Para mover seu endereço de email comercial (como *rob \@ contoso.com*) de outro serviço de email para o Microsoft 365, você precisa direcionar seu email para que ele seja entregue em sua nova caixa de correio do Microsoft 365. Para fazer isso, selecione **migrar os dados dos seus usuários** na página de **configuração** , onde orientamos você pelas atualizações que você precisa fazer no seu host de domínio, passo a passo.
 
 - Depois de atualizar o host do seu domínio, as alterações normalmente entrarão em vigor em apenas uma ou duas horas. Mas esteja ciente de que às vezes pode levar até 72 horas para que as alterações sejam atualizadas na Internet.
 

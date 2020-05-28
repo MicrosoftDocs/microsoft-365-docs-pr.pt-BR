@@ -13,6 +13,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom:
+- AdminSurgePortfolio
+- okr_SMB
 search.appverid:
 - BCS160
 - MET150
@@ -20,13 +23,12 @@ search.appverid:
 - BEA160
 ms.assetid: 4f8712ff-9346-4c6c-bb63-a21ad7a62cbd
 description: Saiba mais sobre os programas de autoatendimento do Microsoft 365 de autoatendimento e disponíveis, como os aplicativos de alimentação da Microsoft, o Microsoft Flow e o Dynamics 365 para finanças.
-ms.custom: okr_SMB
-ms.openlocfilehash: 02d318fbafb6e062f9c3d1592cd6adc7f764fd56
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: d2d4d23eeb3ddeda0dc5b66acfe072a66f4ce267
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045262"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399285"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>Usando a inscrição de autoatendimento em sua organização
 
@@ -65,4 +67,4 @@ A seguir estão os programas autoatendimento disponíveis atualmente. Essa lista
 |**Minecraft Education Edition** <br/> |Usando o Minecraft como uma plataforma para o aprendizado, os educadores podem motivar e inspirar cada aluno a alcançar mais e Ignite uma paixão para o aprendizado. Ingresse em uma comunidade de educadores aprendendo a usar o Minecraft para desbloquear o potencial do aluno.  <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841480) <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841471) <br/> |
 |**Microsoft Stream** <br/> |Carregue e compartilhe vídeos em sua organização para melhorar a comunicação, a participação e o aprendizado.  <br/> |[Experiência do &amp; dia de inscrição 0](https://go.microsoft.com/fwlink/p/?linkid=841472) <br/> |[Microsoft Stream](https://go.microsoft.com/fwlink/p/?linkid=841473) <br/> |
 |**Power Automate** <br/> |A automatização de energia é um produto para ajudá-lo a configurar fluxos de trabalho automatizados entre seus aplicativos e serviços favoritos para sincronizar arquivos, obter notificações, coletar dados e muito mais.  <br/> |[Inscreva-se e entre para automatizar a alimentação](https://docs.microsoft.com/power-automate/sign-up-sign-in) <br/> |[Power Automate](https://go.microsoft.com/fwlink/p/?linkid=841465) <br/> |
-|**Agentes virtuais de alimentação** <br/> |Os agentes virtuais de alimentação capacitam o Teams a criar facilmente bots poderosos usando uma interface gráfica orientada e sem código, sem a necessidade de cientistas ou desenvolvedores de dados. Os agentes virtuais de alimentação resolvem muitos dos principais problemas com a criação de bot no setor atualmente. Ele elimina a lacuna entre os especialistas no assunto e as equipes de desenvolvimento que montam os bots, e a longa latência entre as equipes que reconhecem um problema e a atualização do bot para o endereçamento.  <br/> |[Detalhes de licenciamento e acesso](https://go.microsoft.com/fwlink/?linkid=2113708) <br/> |[Inscrever-se para agentes virtuais de alimentação](https://aka.ms/TryPVA) <br/> |
+|**Agentes virtuais do Power** <br/> |Os agentes virtuais de alimentação capacitam o Teams a criar facilmente bots poderosos usando uma interface gráfica orientada e sem código, sem a necessidade de cientistas ou desenvolvedores de dados. Os agentes virtuais de alimentação resolvem muitos dos principais problemas com a criação de bot no setor atualmente. Ele elimina a lacuna entre os especialistas no assunto e as equipes de desenvolvimento que montam os bots, e a longa latência entre as equipes que reconhecem um problema e a atualização do bot para o endereçamento.  <br/> |[Detalhes de licenciamento e acesso](https://go.microsoft.com/fwlink/?linkid=2113708) <br/> |[Inscrever-se para agentes virtuais de alimentação](https://aka.ms/TryPVA) <br/> |

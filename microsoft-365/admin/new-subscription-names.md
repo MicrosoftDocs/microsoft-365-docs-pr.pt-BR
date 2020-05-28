@@ -9,17 +9,18 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - Adm_O365
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - FRP150
 description: Saiba mais sobre os novos nomes de assinatura do Microsoft 365.
-ms.openlocfilehash: 35e7ecf4fad9903637a440e61de6604e932e7a68
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+ms.openlocfilehash: 42d1249b41d8f6025f63804374fa0287fdc680ce
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44223422"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399189"
 ---
 # <a name="office-365-is-now-microsoft-365"></a>O Office 365 agora é a Microsoft 365
 

@@ -17,14 +17,15 @@ search.appverid:
 - MOE150
 ms.custom:
 - fwlink 824861; CampaignID O365_Comm_SR_UpgradeOffice
+- AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Saiba como atualizar seus usuários para o cliente do Office mais recente.
-ms.openlocfilehash: 2140e246882d9d9b30481bc20b78142708408f88
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 22fe8e12e4aff4f9afe52e913ad57d37866dbb95
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011262"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398805"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Atualize seu Microsoft 365 for Business Users para o cliente Office mais recente
 
@@ -87,7 +88,7 @@ Alterne para uma assinatura que inclua o Office. Consulte [mudar para um plano d
 
 **Opção 2: comprar compras individuais, uma única vez do Office ou comprar o Office por meio de uma licença de volume**
 
- - Compre uma única compra única do Office. Confira [Office &amp; Home Business](https://products.office.com/home-and-business) ou [Office Professional](https://products.office.com/professional)
+ - Compre uma única compra única do Office. Confira [Office Home &amp; Business](https://products.office.com/home-and-business) ou [Office Professional](https://products.office.com/professional)
 
      OU
 

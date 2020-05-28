@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -20,12 +21,12 @@ search.appverid:
 ms.assetid: 6016b50e-2b6e-4164-b565-2fde401fda3a
 ROBOTS: NOINDEX
 description: Siga esta lista de verificação ao excluir a conta do Microsoft 365 de um usuário.
-ms.openlocfilehash: 822662e2e7900640663be8b637f6dc04984b79ae
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2fcd675bef7dbc5b38ee45b050dca5dacb4fd386
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627867"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399369"
 ---
 # <a name="quick-help-deleted-users-checklist"></a>Ajuda rápida: lista de verificação de usuários excluídos
 

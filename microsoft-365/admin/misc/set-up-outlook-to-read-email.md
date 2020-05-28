@@ -13,18 +13,19 @@ ms.custom:
 - Core_O365Admin_Migration
 - GSTips
 - MiniMaven
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 2e155154-bc66-48cc-8476-ab558c97115a
 description: Saiba como configurar uma conta de email no Outlook para Windows e Mac e sobre como instalar aplicativos do Office e acessar emails online.
-ms.openlocfilehash: 6f256a9b528c5ee51490007f388b8d3bd5a92f02
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 04d14c314fbcda4f8d0edff57a141a89688bec28
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627783"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399273"
 ---
 # <a name="set-up-outlook-to-read-email"></a>Configurar o Outlook para ler emails
 

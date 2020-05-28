@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
 description: Personalizar a página de entrada do Microsoft 365 usando o Azure Active Directory. Você pode adicionar uma ilustração, um logotipo e o texto à página de entrada.
-ms.openlocfilehash: daf5f9007a297615d04051d3364895053572343a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2f6df71a46e7510413601fe7dc00143280b4e6aa
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627625"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398937"
 ---
 # <a name="add-your-company-branding-to-the-sign-in-page"></a>Adicione a identidade visual da empresa à página de entrada
 

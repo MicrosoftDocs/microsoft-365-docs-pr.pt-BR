@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: af71764ce0379d6f5c0a2ec03357177cc24d3cb3
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 1680c330510eb465408b055d952a7674a7cd5881
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42359802"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398457"
 ---
 # <a name="contact-support-for-bosnia-and-herzegovnia"></a>Contatar o suporte para a Bósnia e Herzegovnia
 

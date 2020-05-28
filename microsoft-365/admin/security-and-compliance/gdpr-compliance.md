@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 211c5c90-9719-4d73-9ad9-1925bb80f5f6
 description: Saiba como a Microsoft 365 para empresas pode ajudá-lo com o processo de regulamentação geral de proteção de dados (RGPD).
-ms.openlocfilehash: a77de1b835e4cf6e312b8976a972ac10eb60e3b4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 066803e15fe107c8a20b61d9871b6807629f2a9f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627711"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399153"
 ---
 # <a name="gdpr-simplified-a-guide-for-your-small-business"></a>RGPD simplificado: um guia para sua pequena empresa
 
@@ -53,7 +54,7 @@ Você verá alguns termos chamados frequentemente no RGPD. É importante entende
   
 O RGPD afirma: "o processamento de dados pessoais deve ser projetado para atender ao Mankind". O RGPD espera atingir essa meta usando o consentimento ao processar dados pessoais. Isso pode ser o ato de perguntar aos seus clientes se eles desejam receber mensagens de email de sua empresa. Isso também significa que não há mais caixas de seleção de recusa no seu site quando você deseja usar dados para marketing. Você deve obter consentimento explícito usando um "Clear affirmative Act". Além disso, você precisará manter registros de quando um consentimento for obtido ou revogado.
   
- **Direitos das entidades de dados**
+ **Direitos de assunto de dados**
   
 O RGPD estabelece direitos de entidades de dados, o que significa que, com relação aos seus dados pessoais, clientes, funcionários, parceiros de negócios, clientes, contratados, estudantes, fornecedores e assim por diante têm o direito de:
   

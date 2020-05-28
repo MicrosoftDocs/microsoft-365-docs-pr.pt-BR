@@ -14,17 +14,18 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - BEA160
 description: Saiba a diferença entre o assistente de instalação e a página de configuração.
-ms.openlocfilehash: 41a87690282cdf2ff3d1514f9303776c0d2d33bf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: eecc86b1d2a23ea2940a68c9edee3e33a5f5339e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631798"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398853"
 ---
 # <a name="difference-between-the-setup-wizard-and-the-setup-page"></a>Diferença entre o assistente de instalação e a página de configuração
 

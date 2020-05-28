@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: Saiba como adicionar assinatura de email, isenção de responsabilidade legal ou declaração de divulgação a todas as mensagens de email que entram ou saem da sua organização.
-ms.openlocfilehash: affd091f951b81541214b4f98c414b5cd4675cd3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5149f6f4a0276cc1384f15a8134d1ede0b673b8c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631972"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398949"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Criar assinaturas e isenções para toda a organização
 
@@ -62,7 +63,7 @@ Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/
 
 ::: moniker-end
 
-1. Selecione o inicializador ![de aplicativos no ícone](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png)do inicializador de aplicativos e, em seguida, selecione **administrador**.
+1. Selecione o inicializador ![ de aplicativos no ícone do inicializador de aplicativos ](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) e, em seguida, selecione **administrador**.
    
     Não consegue encontrar o aplicativo que está procurando? No inicializador de aplicativos, selecione **todos os aplicativos** para ver uma lista alfabética dos aplicativos disponíveis para você. Nesse local, você pode pesquisar um aplicativo específico. 
     

@@ -13,6 +13,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
@@ -20,13 +23,12 @@ search.appverid:
 ms.assetid: 0dc55430-98d6-4cbe-ba69-1a4ad29a967d
 ROBOTS: NOINDEX
 description: 'Saiba mais sobre os tipos de usuários no centro de administração. '
-ms.custom: okr_smb
-ms.openlocfilehash: 152be955ffdb5526c974d3b0f4d19693cb29e948
-ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
+ms.openlocfilehash: 4e28715674360dbbed7ef398207e39e45b1fec81
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44155346"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399213"
 ---
 # <a name="quick-help-types-of-users"></a>Ajuda rápida: Tipos de usuários
 

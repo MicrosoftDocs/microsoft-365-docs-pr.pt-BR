@@ -14,25 +14,26 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - GEA150
 ms.assetid: c80a315a-af87-4996-94b9-fd2194f58a93
 description: Saiba como enviar sua solicitação de Fapiao para o sistema de gerenciamento da 21Vianet Fapiao depois de fazer um pagamento no Office 365 operado pela 21Vianet na China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 55629654599dd20b813708a148e3ce49f6b6cf88
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: c920f7497c50e7f961028624f9e3ca954a6108f3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140808"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399093"
 ---
 # <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>Solicitar um Fapiao para o Office 365 operado pela 21Vianet
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -138,7 +139,7 @@ Se você quiser alterar o título de Fapiao, envie o Fapiao de volta para nós e
     
 ### <a name="how-do-i-find-my-order-id"></a>Como faço para encontrar minha ID de pedido?
 
-1. No [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=850627), vá para a página **cobrança** \> de **contas & pagamentos** .
+1. No [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=850627), vá para a página **cobrança** de \> **contas & pagamentos** .
     
 2. Encontre a fatura desejada, selecione para exibir ou escolha baixar o PDF.
 

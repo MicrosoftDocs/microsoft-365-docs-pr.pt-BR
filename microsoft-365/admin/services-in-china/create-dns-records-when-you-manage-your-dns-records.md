@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - GEA150
@@ -20,12 +21,12 @@ ms.assetid: 0669bf14-414d-4f51-8231-6b710ce7980b
 ROBOTS: NOINDEX
 description: 'Saiba como criar registros DNS para o Office 365 operado pela 21Vianet ao gerenciar seus registros DNS. '
 monikerRange: o365-21vianet
-ms.openlocfilehash: f6ba0f891bbc207bf7d56c4527760a5c8caf90b0
-ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
+ms.openlocfilehash: 478f3d48a8d94d0a42d6501df8f0c32efc41e902
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44155392"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399069"
 ---
 # <a name="create-dns-records-for-office-365-when-you-manage-your-dns-records"></a>Criar registros DNS para o Office 365 ao gerenciar seus registros DNS
 

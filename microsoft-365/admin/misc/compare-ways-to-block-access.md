@@ -12,6 +12,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -19,12 +20,12 @@ search.appverid:
 ms.assetid: 5785d21d-1abd-4571-a04a-8cc5a65ca9b5
 ROBOTS: NOINDEX
 description: Saiba como bloquear o acesso ao Microsoft 365 quando um funcionário deixa sua organização.
-ms.openlocfilehash: 9383c970ea1c17d9116299d5788c8faf0ed0659f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b913655065d4c57322aee6dc04e53f7a35cf5760
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627927"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399429"
 ---
 # <a name="compare-ways-to-block-access"></a>Comparar maneiras de bloquear o acesso
 
