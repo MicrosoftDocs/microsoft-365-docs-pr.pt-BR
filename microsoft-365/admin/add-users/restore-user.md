@@ -15,6 +15,7 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,136 +23,136 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: Saiba como restaurar contas de usuário excluídas e todos os dados associados.
-ms.openlocfilehash: 7ac0805024ebf78075a66f77c99496675f20e497
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 27b3f4a0077b5ef0dcfaef1dbe5019a5d69652f2
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140562"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386992"
 ---
-# <a name="restore-a-user"></a><span data-ttu-id="5bef6-103">Restaurar um usuário</span><span class="sxs-lookup"><span data-stu-id="5bef6-103">Restore a user</span></span>
+# <a name="restore-a-user"></a><span data-ttu-id="595ab-103">Restaurar um usuário</span><span class="sxs-lookup"><span data-stu-id="595ab-103">Restore a user</span></span>
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> <span data-ttu-id="5bef6-104">O centro de administração está mudando.</span><span class="sxs-lookup"><span data-stu-id="5bef6-104">The admin center is changing.</span></span> <span data-ttu-id="5bef6-105">Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span><span class="sxs-lookup"><span data-stu-id="5bef6-105">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span></span>
+> <span data-ttu-id="595ab-104">O centro de administração está mudando.</span><span class="sxs-lookup"><span data-stu-id="595ab-104">The admin center is changing.</span></span> <span data-ttu-id="595ab-105">Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span><span class="sxs-lookup"><span data-stu-id="595ab-105">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span></span>
 
 ::: moniker-end
    
-<span data-ttu-id="5bef6-p102">Quando você restaura uma conta de usuário dentro de 30 dias após sua exclusão, nosso sistema restaura a conta e todos os dados associados a ela. O usuário pode entrar com a mesma conta corporativa ou de estudante. A caixa de correio será totalmente restaurada. Para saber até quando uma determinada conta de usuário poderá ser restaurada, [entre em contato conosco](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="5bef6-p102">When you restore a user account within 30 days after deleting it, the account and all associated data are restored. The user can sign in with the same work or school account. Their mailbox will be fully restored. To find out how much time remains before a specific user account can no longer be restored, [contact us](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="595ab-p102">Quando você restaura uma conta de usuário dentro de 30 dias após sua exclusão, nosso sistema restaura a conta e todos os dados associados a ela. O usuário pode entrar com a mesma conta corporativa ou de estudante. A caixa de correio será totalmente restaurada. Para saber até quando uma determinada conta de usuário poderá ser restaurada, [entre em contato conosco](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="595ab-p102">When you restore a user account within 30 days after deleting it, the account and all associated data are restored. The user can sign in with the same work or school account. Their mailbox will be fully restored. To find out how much time remains before a specific user account can no longer be restored, [contact us](../contact-support-for-business-products.md).</span></span>
   
-<span data-ttu-id="5bef6-110">Aqui estão algumas dicas:</span><span class="sxs-lookup"><span data-stu-id="5bef6-110">Here are a couple of tips:</span></span>
+<span data-ttu-id="595ab-110">Aqui estão algumas dicas:</span><span class="sxs-lookup"><span data-stu-id="595ab-110">Here are a couple of tips:</span></span>
   
-- <span data-ttu-id="5bef6-111">Certifique-se de que as licenças estão disponíveis para atribuir à conta.</span><span class="sxs-lookup"><span data-stu-id="5bef6-111">Make sure licenses are available to assign to the account.</span></span>
+- <span data-ttu-id="595ab-111">Certifique-se de que as licenças estão disponíveis para atribuir à conta.</span><span class="sxs-lookup"><span data-stu-id="595ab-111">Make sure licenses are available to assign to the account.</span></span>
     
-- <span data-ttu-id="5bef6-112">Se sua empresa usar o Active Directory, confira [Como solucionar problemas de contas de usuário excluídas no Office 365](https://support.microsoft.com/kb/2619308) para obter instruções sobre como restaurar uma conta de usuário.</span><span class="sxs-lookup"><span data-stu-id="5bef6-112">If your business uses Active Directory, see [How to troubleshoot deleted user accounts in Office 365](https://support.microsoft.com/kb/2619308) for instructions on restoring a user account.</span></span> 
+- <span data-ttu-id="595ab-112">Se sua empresa usar o Active Directory, confira [Como solucionar problemas de contas de usuário excluídas no Office 365](https://support.microsoft.com/kb/2619308) para obter instruções sobre como restaurar uma conta de usuário.</span><span class="sxs-lookup"><span data-stu-id="595ab-112">If your business uses Active Directory, see [How to troubleshoot deleted user accounts in Office 365](https://support.microsoft.com/kb/2619308) for instructions on restoring a user account.</span></span> 
     
-## <a name="restore-one-or-more-user-accounts"></a><span data-ttu-id="5bef6-113">Restaurar uma ou mais contas de usuário</span><span class="sxs-lookup"><span data-stu-id="5bef6-113">Restore one or more user accounts</span></span>
+## <a name="restore-one-or-more-user-accounts"></a><span data-ttu-id="595ab-113">Restaurar uma ou mais contas de usuário</span><span class="sxs-lookup"><span data-stu-id="595ab-113">Restore one or more user accounts</span></span>
 
-<span data-ttu-id="5bef6-114">Você deve ser um administrador global do Microsoft 365 ou administrador de gerenciamento de usuários para executar estas etapas.</span><span class="sxs-lookup"><span data-stu-id="5bef6-114">You must be a Microsoft 365 global admin or user management admin to do these steps.</span></span> 
+<span data-ttu-id="595ab-114">Você deve ser um administrador global do Microsoft 365 ou administrador de gerenciamento de usuários para executar estas etapas.</span><span class="sxs-lookup"><span data-stu-id="595ab-114">You must be a Microsoft 365 global admin or user management admin to do these steps.</span></span> 
   
  
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="5bef6-115">No centro de administração, vá **para a** \> página usuários <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">excluídos</a> usuários.</span><span class="sxs-lookup"><span data-stu-id="5bef6-115">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">Deleted users</a> page.</span></span>
+1. <span data-ttu-id="595ab-115">No centro de administração, vá **para a** \> página usuários <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">excluídos</a> usuários.</span><span class="sxs-lookup"><span data-stu-id="595ab-115">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">Deleted users</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="5bef6-116">Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=848041) **e selecione** \> usuários **excluídos**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-116">Go to the [admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), and then select **Users** \> **Deleted users**.</span></span>
+1. <span data-ttu-id="595ab-116">Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=848041) **e selecione usuários** \> **excluídos**.</span><span class="sxs-lookup"><span data-stu-id="595ab-116">Go to the [admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), and then select **Users** \> **Deleted users**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="5bef6-117">Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=850627) **e selecione** \> usuários **excluídos**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-117">Go to the [admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), and then select **Users** \> **Deleted users**.</span></span>
+1. <span data-ttu-id="595ab-117">Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=850627) **e selecione usuários** \> **excluídos**.</span><span class="sxs-lookup"><span data-stu-id="595ab-117">Go to the [admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), and then select **Users** \> **Deleted users**.</span></span>
 
 ::: moniker-end
 
-2. <span data-ttu-id="5bef6-118">Na página **usuários excluídos** , selecione os nomes dos usuários que você deseja restaurar e, em seguida, selecione **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-118">On the **Deleted users** page, select the names of the users who you want to restore, and then select **Restore**.</span></span>
+2. <span data-ttu-id="595ab-118">Na página **usuários excluídos** , selecione os nomes dos usuários que você deseja restaurar e, em seguida, selecione **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="595ab-118">On the **Deleted users** page, select the names of the users who you want to restore, and then select **Restore**.</span></span>
     
  
-3. <span data-ttu-id="5bef6-119">Siga as instruções para definir a senha e, em seguida, selecione **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-119">Follow the prompts to set their password, and then select **Restore**.</span></span>
+3. <span data-ttu-id="595ab-119">Siga as instruções para definir a senha e, em seguida, selecione **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="595ab-119">Follow the prompts to set their password, and then select **Restore**.</span></span>
     
-4. <span data-ttu-id="5bef6-120">Se o usuário for restaurado com êxito, selecione **Enviar email e fechar**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-120">If the user is successfully restored, select **Send email and close**.</span></span> <span data-ttu-id="5bef6-121">Se ocorrer um conflito de nome ou de endereço proxy, confira as instruções abaixo para saber como restaurar essas contas.</span><span class="sxs-lookup"><span data-stu-id="5bef6-121">If you encounter a name conflict or proxy address conflict, see the instructions below for how to restore those accounts.</span></span>
+4. <span data-ttu-id="595ab-120">Se o usuário for restaurado com êxito, selecione **Enviar email e fechar**.</span><span class="sxs-lookup"><span data-stu-id="595ab-120">If the user is successfully restored, select **Send email and close**.</span></span> <span data-ttu-id="595ab-121">Se ocorrer um conflito de nome ou de endereço proxy, confira as instruções abaixo para saber como restaurar essas contas.</span><span class="sxs-lookup"><span data-stu-id="595ab-121">If you encounter a name conflict or proxy address conflict, see the instructions below for how to restore those accounts.</span></span>
     
-<span data-ttu-id="5bef6-122">Depois de restaurar um usuário, certifique-se de notificá-los de que sua senha foi alterada e faça o acompanhamento deles.</span><span class="sxs-lookup"><span data-stu-id="5bef6-122">After you've restored a user, make sure you notify them that their password changed and you follow up with them.</span></span>
+<span data-ttu-id="595ab-122">Depois de restaurar um usuário, certifique-se de notificá-los de que sua senha foi alterada e faça o acompanhamento deles.</span><span class="sxs-lookup"><span data-stu-id="595ab-122">After you've restored a user, make sure you notify them that their password changed and you follow up with them.</span></span>
   
-## <a name="restore-a-user-that-has-a-user-name-conflict"></a><span data-ttu-id="5bef6-123">Restaurar um usuário com um conflito de nome de usuário</span><span class="sxs-lookup"><span data-stu-id="5bef6-123">Restore a user that has a user name conflict</span></span>
-<span data-ttu-id="5bef6-124"><a name="RestoreUserNameConflict"> </a></span><span class="sxs-lookup"><span data-stu-id="5bef6-124"><a name="RestoreUserNameConflict"> </a></span></span>
+## <a name="restore-a-user-that-has-a-user-name-conflict"></a><span data-ttu-id="595ab-123">Restaurar um usuário com um conflito de nome de usuário</span><span class="sxs-lookup"><span data-stu-id="595ab-123">Restore a user that has a user name conflict</span></span>
+<span data-ttu-id="595ab-124"><a name="RestoreUserNameConflict"> </a></span><span class="sxs-lookup"><span data-stu-id="595ab-124"><a name="RestoreUserNameConflict"> </a></span></span>
 
-<span data-ttu-id="5bef6-125">Um conflito de nome de usuário ocorre quando você exclui uma conta de usuário, cria uma nova conta com o mesmo nome de usuário (para o mesmo usuário ou outro com um nome semelhante) e, posteriormente, tenta restaurar a conta excluída.</span><span class="sxs-lookup"><span data-stu-id="5bef6-125">A user name conflict occurs when you delete a user account, create a new user account with the same user name (either for the same user or another user with a similar name), and later try to restore the deleted account.</span></span>
+<span data-ttu-id="595ab-125">Um conflito de nome de usuário ocorre quando você exclui uma conta de usuário, cria uma nova conta com o mesmo nome de usuário (para o mesmo usuário ou outro com um nome semelhante) e, posteriormente, tenta restaurar a conta excluída.</span><span class="sxs-lookup"><span data-stu-id="595ab-125">A user name conflict occurs when you delete a user account, create a new user account with the same user name (either for the same user or another user with a similar name), and later try to restore the deleted account.</span></span>
   
-<span data-ttu-id="5bef6-p104">Para resolver isso, você pode substituir a conta de usuário ativa por uma que esteja restaurando ou atribuir um nome de usuário diferente à conta que está restaurando para que não existam duas contas com o mesmo nome de usuário. Siga as seguintes etapas.</span><span class="sxs-lookup"><span data-stu-id="5bef6-p104">To fix this, replace the active user account with the one that you are restoring. Or, assign a different user name to the account that you are restoring so that there aren't two accounts with the same user name. Here are the steps.</span></span>
+<span data-ttu-id="595ab-p104">Para resolver isso, você pode substituir a conta de usuário ativa por uma que esteja restaurando ou atribuir um nome de usuário diferente à conta que está restaurando para que não existam duas contas com o mesmo nome de usuário. Siga as seguintes etapas.</span><span class="sxs-lookup"><span data-stu-id="595ab-p104">To fix this, replace the active user account with the one that you are restoring. Or, assign a different user name to the account that you are restoring so that there aren't two accounts with the same user name. Here are the steps.</span></span>
   
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="5bef6-129">No centro de administração, vá **para a** \> página usuários <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">excluídos</a> usuários.</span><span class="sxs-lookup"><span data-stu-id="5bef6-129">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">Deleted users</a> page.</span></span>
+1. <span data-ttu-id="595ab-129">No centro de administração, vá **para a** \> página usuários <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">excluídos</a> usuários.</span><span class="sxs-lookup"><span data-stu-id="595ab-129">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">Deleted users</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="5bef6-130">Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=848041) **e selecione** \> usuários **excluídos**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-130">Go to the [admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), and then select **Users** \> **Deleted users**.</span></span>
+1. <span data-ttu-id="595ab-130">Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=848041) **e selecione usuários** \> **excluídos**.</span><span class="sxs-lookup"><span data-stu-id="595ab-130">Go to the [admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), and then select **Users** \> **Deleted users**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="5bef6-131">Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=850627) **e selecione** \> usuários **excluídos**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-131">Go to the [admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), and then select **Users** \> **Deleted users**.</span></span>
+1. <span data-ttu-id="595ab-131">Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=850627) **e selecione usuários** \> **excluídos**.</span><span class="sxs-lookup"><span data-stu-id="595ab-131">Go to the [admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), and then select **Users** \> **Deleted users**.</span></span>
 
 ::: moniker-end
 
   
-2. <span data-ttu-id="5bef6-132">Na página **usuários excluídos** , selecione os nomes dos usuários que você deseja restaurar e, em seguida, selecione **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-132">On the **Deleted users** page, select the names of the users that you want to restore, and then select **Restore**.</span></span>
+2. <span data-ttu-id="595ab-132">Na página **usuários excluídos** , selecione os nomes dos usuários que você deseja restaurar e, em seguida, selecione **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="595ab-132">On the **Deleted users** page, select the names of the users that you want to restore, and then select **Restore**.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="5bef6-p105">Se houver falha na restauração de dois ou mais usuários, uma mensagem de erro o avisará que houve falha na operação de restauração para alguns usuários. Você pode exibir o log para ver se os usuários foram ou não restaurados e restaurar uma conta com falha de cada vez.</span><span class="sxs-lookup"><span data-stu-id="5bef6-p105">If two or more users fail to be restored, an error message advises you that the restore operation failed for some users. View the log to see which users were not restored, and then restore the failed accounts one at a time.</span></span> 
+    > <span data-ttu-id="595ab-p105">Se houver falha na restauração de dois ou mais usuários, uma mensagem de erro o avisará que houve falha na operação de restauração para alguns usuários. Você pode exibir o log para ver se os usuários foram ou não restaurados e restaurar uma conta com falha de cada vez.</span><span class="sxs-lookup"><span data-stu-id="595ab-p105">If two or more users fail to be restored, an error message advises you that the restore operation failed for some users. View the log to see which users were not restored, and then restore the failed accounts one at a time.</span></span> 
   
-3. <span data-ttu-id="5bef6-135">Siga as instruções para definir a senha e selecionar **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-135">Follow the prompts to set the password and select **Restore**.</span></span>
+3. <span data-ttu-id="595ab-135">Siga as instruções para definir a senha e selecionar **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="595ab-135">Follow the prompts to set the password and select **Restore**.</span></span>
     
-4. <span data-ttu-id="5bef6-p106">Uma mensagem aparece informando que ocorreu um problema ao restaurar a conta. Siga um destes procedimentos:</span><span class="sxs-lookup"><span data-stu-id="5bef6-p106">A message pops up that says there was a problem restoring the account. Do one of the following:</span></span>
+4. <span data-ttu-id="595ab-p106">Uma mensagem aparece informando que ocorreu um problema ao restaurar a conta. Siga um destes procedimentos:</span><span class="sxs-lookup"><span data-stu-id="595ab-p106">A message pops up that says there was a problem restoring the account. Do one of the following:</span></span>
     
-  - <span data-ttu-id="5bef6-p107">Cancele a restauração e renomeie o usuário ativo atual. Em seguida, tente restaurar novamente.</span><span class="sxs-lookup"><span data-stu-id="5bef6-p107">Cancel the restore and rename the current active user. Then attempt the restore again.</span></span>
+  - <span data-ttu-id="595ab-p107">Cancele a restauração e renomeie o usuário ativo atual. Em seguida, tente restaurar novamente.</span><span class="sxs-lookup"><span data-stu-id="595ab-p107">Cancel the restore and rename the current active user. Then attempt the restore again.</span></span>
     
-  - <span data-ttu-id="5bef6-140">OU digite um novo endereço de email principal para o usuário e selecione **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-140">OR, type a new primary email address for the user and select **Restore**.</span></span>
+  - <span data-ttu-id="595ab-140">OU digite um novo endereço de email principal para o usuário e selecione **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="595ab-140">OR, type a new primary email address for the user and select **Restore**.</span></span>
     
-5. <span data-ttu-id="5bef6-141">Examine os resultados e selecione **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-141">Review the results, and then select **Close**.</span></span>
+5. <span data-ttu-id="595ab-141">Examine os resultados e selecione **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="595ab-141">Review the results, and then select **Close**.</span></span>
     
-## <a name="restore-a-user-that-has-a-proxy-address-conflict"></a><span data-ttu-id="5bef6-142">Restaurar um usuário que tenha um conflito de endereço de proxy</span><span class="sxs-lookup"><span data-stu-id="5bef6-142">Restore a user that has a proxy address conflict</span></span>
+## <a name="restore-a-user-that-has-a-proxy-address-conflict"></a><span data-ttu-id="595ab-142">Restaurar um usuário que tenha um conflito de endereço de proxy</span><span class="sxs-lookup"><span data-stu-id="595ab-142">Restore a user that has a proxy address conflict</span></span>
 
-<span data-ttu-id="5bef6-p108">Um conflito de endereço proxy ocorre quando você exclui uma conta de usuário que contém um endereço proxy, atribui esse mesmo endereço proxy a outra conta e tenta restaurar a conta excluída. Para corrigir esse problema, siga as etapas a seguir.</span><span class="sxs-lookup"><span data-stu-id="5bef6-p108">A proxy address conflict occurs when you delete a user account that contains a proxy address, assign the same proxy address to another account, and then try to restore the deleted account. Follow the steps below to fix this issue.</span></span>
+<span data-ttu-id="595ab-p108">Um conflito de endereço proxy ocorre quando você exclui uma conta de usuário que contém um endereço proxy, atribui esse mesmo endereço proxy a outra conta e tenta restaurar a conta excluída. Para corrigir esse problema, siga as etapas a seguir.</span><span class="sxs-lookup"><span data-stu-id="595ab-p108">A proxy address conflict occurs when you delete a user account that contains a proxy address, assign the same proxy address to another account, and then try to restore the deleted account. Follow the steps below to fix this issue.</span></span>
   
-<span data-ttu-id="5bef6-145">Você deve ter [permissões de administrador](about-admin-roles.md) no Microsoft 365 para fazer isso.</span><span class="sxs-lookup"><span data-stu-id="5bef6-145">You must have [admin permissions](about-admin-roles.md) in Microsoft 365 to do this.</span></span> 
+<span data-ttu-id="595ab-145">Você deve ter [permissões de administrador](about-admin-roles.md) no Microsoft 365 para fazer isso.</span><span class="sxs-lookup"><span data-stu-id="595ab-145">You must have [admin permissions](about-admin-roles.md) in Microsoft 365 to do this.</span></span> 
   
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="5bef6-146">No centro de administração, vá **para a** \> página usuários <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">excluídos</a> usuários.</span><span class="sxs-lookup"><span data-stu-id="5bef6-146">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">Deleted users</a> page.</span></span>
+1. <span data-ttu-id="595ab-146">No centro de administração, vá **para a** \> página usuários <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">excluídos</a> usuários.</span><span class="sxs-lookup"><span data-stu-id="595ab-146">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2071581" target="_blank">Deleted users</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-<span data-ttu-id="5bef6-147">Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=848041) **e selecione** \> usuários **excluídos**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-147">Go to the [admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), and then select **Users** \> **Deleted users**.</span></span>
+<span data-ttu-id="595ab-147">Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=848041) **e selecione usuários** \> **excluídos**.</span><span class="sxs-lookup"><span data-stu-id="595ab-147">Go to the [admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), and then select **Users** \> **Deleted users**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="5bef6-148">Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=850627) **e selecione** \> usuários **excluídos**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-148">Go to the [admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), and then select **Users** \> **Deleted users**.</span></span>
+1. <span data-ttu-id="595ab-148">Vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=850627) **e selecione usuários** \> **excluídos**.</span><span class="sxs-lookup"><span data-stu-id="595ab-148">Go to the [admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), and then select **Users** \> **Deleted users**.</span></span>
 
 ::: moniker-end
 
-2. <span data-ttu-id="5bef6-149">Na página **Usuários excluídos**, selecione o usuário que você deseja restaurar e selecione **Restaurar**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-149">On the **Deleted users** page, select the user that you want to restore, and then select **Restore**.</span></span> 
+2. <span data-ttu-id="595ab-149">Na página **Usuários excluídos**, selecione o usuário que você deseja restaurar e selecione **Restaurar**.</span><span class="sxs-lookup"><span data-stu-id="595ab-149">On the **Deleted users** page, select the user that you want to restore, and then select **Restore**.</span></span> 
     
-3. <span data-ttu-id="5bef6-150">Na página **restaurar** , siga as instruções para definir a senha e selecionar **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-150">On the **Restore** page, follow the instructions to set the password and select **Restore**.</span></span> <span data-ttu-id="5bef6-151">Os endereços proxy conflitantes são automaticamente removidos do usuário que você está restaurando.</span><span class="sxs-lookup"><span data-stu-id="5bef6-151">Any conflicting proxy addresses are automatically removed from the user you are restoring.</span></span>
+3. <span data-ttu-id="595ab-150">Na página **restaurar** , siga as instruções para definir a senha e selecionar **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="595ab-150">On the **Restore** page, follow the instructions to set the password and select **Restore**.</span></span> <span data-ttu-id="595ab-151">Os endereços proxy conflitantes são automaticamente removidos do usuário que você está restaurando.</span><span class="sxs-lookup"><span data-stu-id="595ab-151">Any conflicting proxy addresses are automatically removed from the user you are restoring.</span></span>
     
-4. <span data-ttu-id="5bef6-152">Examine os resultados e selecione **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="5bef6-152">Review the results, and then select **Close**.</span></span>
+4. <span data-ttu-id="595ab-152">Examine os resultados e selecione **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="595ab-152">Review the results, and then select **Close**.</span></span>
 
-## <a name="related-articles"></a><span data-ttu-id="5bef6-153">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="5bef6-153">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="595ab-153">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="595ab-153">Related articles</span></span>
 
-[<span data-ttu-id="5bef6-154">Excluir um usuário</span><span class="sxs-lookup"><span data-stu-id="5bef6-154">Delete a user</span></span>](delete-a-user.md)
+[<span data-ttu-id="595ab-154">Excluir um usuário</span><span class="sxs-lookup"><span data-stu-id="595ab-154">Delete a user</span></span>](delete-a-user.md)
   
