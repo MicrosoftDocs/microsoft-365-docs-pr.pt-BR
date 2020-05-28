@@ -9,27 +9,28 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a937696849f12c3bf9173cec93d844484b6e7113
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f6225d3c4acb40e50b4aee4158c2e710ee6090b8
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250787"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401465"
 ---
-# <a name="payment-information-for-estonia"></a><span data-ttu-id="e5545-103">Informações de pagamento para a Estônia</span><span class="sxs-lookup"><span data-stu-id="e5545-103">Payment information for Estonia</span></span>
+# <a name="payment-information-for-estonia"></a><span data-ttu-id="68d06-103">Informações de pagamento para a Estônia</span><span class="sxs-lookup"><span data-stu-id="68d06-103">Payment information for Estonia</span></span>
 
-<span data-ttu-id="e5545-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="e5545-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="68d06-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="68d06-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="e5545-105">Pague apenas EUR e números de fatura de referência em sua remessa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="e5545-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="68d06-105">Pague apenas EUR e números de fatura de referência em sua remessa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="68d06-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="e5545-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="e5545-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="68d06-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="68d06-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="e5545-107">**Banco:** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="e5545-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="e5545-108">**Código Swift:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="e5545-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="e5545-109">**IBAN:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="e5545-109">**IBAN:** GB31CITI18500812207591</span></span>  
-<span data-ttu-id="e5545-110">**Código de classificação:** 185008</span><span class="sxs-lookup"><span data-stu-id="e5545-110">**SORT Code:** 185008</span></span>  
-<span data-ttu-id="e5545-111">**Número da conta:** 12207591</span><span class="sxs-lookup"><span data-stu-id="e5545-111">**Account Number:** 12207591</span></span>  
-<span data-ttu-id="e5545-112">**Nome da conta:** O</span><span class="sxs-lookup"><span data-stu-id="e5545-112">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="68d06-107">**Banco:** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="68d06-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="68d06-108">**Código Swift:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="68d06-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="68d06-109">**IBAN:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="68d06-109">**IBAN:** GB31CITI18500812207591</span></span>  
+<span data-ttu-id="68d06-110">**Código de classificação:** 185008</span><span class="sxs-lookup"><span data-stu-id="68d06-110">**SORT Code:** 185008</span></span>  
+<span data-ttu-id="68d06-111">**Número da conta:** 12207591</span><span class="sxs-lookup"><span data-stu-id="68d06-111">**Account Number:** 12207591</span></span>  
+<span data-ttu-id="68d06-112">**Nome da conta:** O</span><span class="sxs-lookup"><span data-stu-id="68d06-112">**Account Name:** MICROSOFT</span></span>  

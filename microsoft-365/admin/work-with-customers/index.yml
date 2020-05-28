@@ -10,12 +10,13 @@ metadata:
   ms.author: sirkkuw
   ms.date: 04/16/2020
   localization_priority: Priority
-  ms.openlocfilehash: 299b7fa4cb98f05a1f5a3248fad59d3e8ea414ed
-  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+  ms.custom: AdminSurgePortfolio
+  ms.openlocfilehash: fddd5668a4b0d11af80ad7ff0847efdcc0b42117
+  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/30/2020
-  ms.locfileid: "43952658"
+  ms.lasthandoff: 05/27/2020
+  ms.locfileid: "44401125"
 landingContent:
 - title: Trabalhar com clientes
   linkLists:
@@ -33,7 +34,7 @@ landingContent:
       url: https://support.office.com/article/928d1eef-61e2-49ec-b754-c2fe86b34824
     - text: Converse com funcionários e clientes
       url: https://support.office.com/article/65748808-a403-462c-a6e1-b169e5bc6c92
-    - text: Agendar uma reunião do teams com convidados
+    - text: Agendar uma reunião no Teams com convidados
       url: https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a
-    - text: Ingressar em uma reunião do teams com convidados
+    - text: Participe de uma reunião do Teams com convidados
       url: https://support.office.com/article/a120c282-063d-46b8-b973-851197ab75d8

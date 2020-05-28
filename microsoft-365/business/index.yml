@@ -8,15 +8,16 @@ metadata:
   ms.service: o365-administration
   ms.topic: hub-page
   ms.collection: collection
+  ms.custom: AdminSurgePortfolio
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 05b835c8c7ceb6a472710a9878f356de63c89e5f
-  ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+  ms.openlocfilehash: f3468cd51119a4e0d7ae07c188d2adc1266c2ac4
+  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/08/2020
-  ms.locfileid: "44165820"
+  ms.lasthandoff: 05/27/2020
+  ms.locfileid: "44400849"
 productDirectory:
   title: Trabalho remoto seguro com o Microsoft 365 Business Premium
   items:
@@ -38,7 +39,7 @@ conceptualContent:
     links:
     - url: microsoft-365-business-overview.md
       itemType: overview
-      text: Visão geral
+      text: Visão Geral
     - url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
       itemType: video
       text: Treinamento do Microsoft 365 Business Premium

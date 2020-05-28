@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Gerenciar email e calendários
+title: Gerenciar emails e calendários
 summary: Confira estes recursos para ajudar os administradores com tarefas comuns ou confira o painel de navegação à esquerda para obter uma lista completa.
 metadata:
-  title: Gerenciar email e calendários
+  title: Gerenciar emails e calendários
   description: Gerenciar configurações de email, grupos de distribuição, configurações de segurança e configurar caixas de correio compartilhadas
   ms.service: O365-administration
   ms.topic: landing-page
@@ -10,12 +10,13 @@ metadata:
   ms.author: sirkkuw
   ms.date: 04/16/2020
   localization_priority: Priority
-  ms.openlocfilehash: 65b0a249c5574ca149c0abe1e0ed879f649143fe
-  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+  ms.custom: AdminSurgePortfolio
+  ms.openlocfilehash: dd490fa2dd85189931e9917ba5c3ba60a2742b46
+  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/30/2020
-  ms.locfileid: "43952668"
+  ms.lasthandoff: 05/27/2020
+  ms.locfileid: "44400059"
 landingContent:
 - title: Gerenciar email
   linkLists:
@@ -23,7 +24,7 @@ landingContent:
     links:
     - text: Gerenciar configurações de email do usuário
       url: office-365-user-email-settings.md
-    - text: Sobre a colaboração de emails
+    - text: Sobre a colaboração por email
       url: email-collaboration.md
   - linkListType: how-to-guide
     links:
@@ -31,7 +32,7 @@ landingContent:
       url: add-another-email-alias-for-a-user.md
     - text: Usar seu domínio personalizado
       url: change-email-address.md
-    - text: Configurar o encaminhamento de email
+    - text: 'Configurar o encaminhamento de emails '
       url: configure-email-forwarding.md
     - text: Trabalhar com grupos de segurança
       url: create-edit-or-delete-a-security-group.md
