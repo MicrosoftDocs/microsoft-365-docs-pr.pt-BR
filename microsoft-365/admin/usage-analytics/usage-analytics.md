@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Obtenha uma visão geral de como sua organização está adotando os serviços do Microsoft 365 para se comunicar e colaborar.
-ms.openlocfilehash: 3e74160cc2e30dc9337e0203fd82ced98869faf7
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 6619205fb62cce3ba7c62c3df773f650dc125dac
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011754"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402017"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Análise de uso do Microsoft 365
 ---
@@ -51,29 +52,29 @@ Este resumo permite que você entenda rapidamente os padrões de uso no Office e
 
 ![Imagem do resumo executivo de uso do Microsoft 365.](../../media/office365usage-exec-summary.png)
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O relatório de visão geral do Microsoft 365 contém os seguintes relatórios. Você pode exibi-las escolhendo a guia na parte superior da página de relatório. Todos os valores do mês mostrados na seção superior do relatório referem-se ao último mês completo.
 
-- A **adoção** &ndash; oferece um resumo de todas as tendências de adoção. Use os relatórios desta seção para saber como os usuários adotaram o Microsoft 365, além de como o uso geral dos serviços individuais foi alterado mês a mês. Você pode ver como os usuários podem estar habilitados, quantas pessoas da sua organização estão usando ativamente o Microsoft 365, quantas estão retornando usuários e quantos estão usando o produto pela primeira vez.
+- **Adoção** &ndash; O oferece um resumo de todas as tendências de adoção. Use os relatórios desta seção para saber como os usuários adotaram o Microsoft 365, além de como o uso geral dos serviços individuais foi alterado mês a mês. Você pode ver como os usuários podem estar habilitados, quantas pessoas da sua organização estão usando ativamente o Microsoft 365, quantas estão retornando usuários e quantos estão usando o produto pela primeira vez.
 
-- O **uso** &ndash; oferece uma visão detalhada do volume de usuários ativos e das principais atividades de cada produto nos últimos 12 meses. Use os relatórios desta seção para saber como as pessoas em sua organização estão usando o Microsoft 365.
+- **Uso** &ndash; Oferece uma visão detalhada do volume de usuários ativos e das principais atividades de cada produto nos últimos 12 meses. Use os relatórios desta seção para saber como as pessoas em sua organização estão usando o Microsoft 365.
 
-- **Comunicação** &ndash; você pode ver rapidamente se as pessoas da sua organização preferem permanecer em contato usando as chamadas do Teams, Yammer, email ou Skype. Você pode observar se há turnos em padrões no uso de ferramentas de comunicação entre seus funcionários. 
+- **Comunicação** &ndash; Você pode ver rapidamente se as pessoas da sua organização preferem permanecer em contato usando as chamadas do Teams, Yammer, email ou Skype. Você pode observar se há turnos em padrões no uso de ferramentas de comunicação entre seus funcionários. 
 
-- **Colaboração** &ndash; Veja como as pessoas em sua organização usam o onedrive e o SharePoint para armazenar documentos e colaborar entre si e como essas tendências evoluem mês a mês. Você também pode ver quantos documentos são compartilhados interna ou externamente e quantos sites do SharePoint ou contas do OneDrive estão sendo usados ativamente, divididos por proprietários e outros colaboradores.
+- **Colaboração** &ndash; Veja como as pessoas em sua organização usam o OneDrive e o SharePoint para armazenar documentos e colaborar entre si e como essas tendências evoluem mês a mês. Você também pode ver quantos documentos são compartilhados interna ou externamente e quantos sites do SharePoint ou contas do OneDrive estão sendo usados ativamente, divididos por proprietários e outros colaboradores.
 
-- **Armazenamento** &ndash; Use este relatório para controlar o armazenamento em nuvem para caixas de correio, onedrive e sites do SharePoint.
+- **Armazenamento** &ndash; de Use este relatório para controlar o armazenamento em nuvem para caixas de correio, OneDrive e sites do SharePoint.
 
-- **Mobilidade** &ndash; rastreie quais clientes e dispositivos as pessoas usam para se conectarem a email, equipes, Skype ou Yammer.
+- **Mobilidade** &ndash; Controlar quais clientes e dispositivos as pessoas usam para se conectar ao email, às equipes, ao Skype ou ao Yammer.
 
 ## <a name="activation-and-licensing"></a>Ativação e licenciamento
 
 A página ativação e licença oferece relatórios sobre a ativação do Microsoft 365; ou seja, quantos usuários baixaram e ativaram os aplicativos do Office e quantas licenças foram atribuídas por sua organização. O valor de mês em direção à parte superior se refere ao mês atual e as métricas refletem os valores agregados do início do mês até a data atual.
 
-- Monitor de **ativação** &ndash; plano de serviço (por exemplo, aplicativos do Microsoft 365 para as ativações de Enterprise, Project e Visio) em sua organização. Cada pessoa com uma licença do Office pode instalar produtos em até cinco dispositivos. Você também pode usar relatórios nesta seção para ver os dispositivos nos quais as pessoas instalaram os aplicativos do Office. Observe que para ativar um plano, um usuário deve instalar o aplicativo e entrar com sua conta.
+- **Ativação** &ndash; Rastrear o plano de serviço (por exemplo, aplicativos do Microsoft 365 para ativações de Enterprise, Project e Visio) em sua organização. Cada pessoa com uma licença do Office pode instalar produtos em até cinco dispositivos. Você também pode usar relatórios nesta seção para ver os dispositivos nos quais as pessoas instalaram os aplicativos do Office. Observe que para ativar um plano, um usuário deve instalar o aplicativo e entrar com sua conta.
 
-- **Licenciamento** &ndash; este relatório contém uma visão geral dos tipos de licença, a contagem de usuários que foram atribuídos a cada tipo de licença e a distribuição de atribuição de licença para cada mês. O valor de mês em direção à parte superior se refere ao mês atual e as métricas refletem os valores agregados do início do mês até a data atual.
+- **Licenciamento** &ndash; Este relatório contém uma visão geral dos tipos de licença, a contagem de usuários que foram atribuídos a cada tipo de licença e a distribuição de atribuição de licença para cada mês. O valor de mês em direção à parte superior se refere ao mês atual e as métricas refletem os valores agregados do início do mês até a data atual.
 
 ## <a name="product-usage"></a>Uso do produto
 

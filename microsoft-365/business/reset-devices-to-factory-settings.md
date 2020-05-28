@@ -18,17 +18,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
 description: Saiba como usar o Microsoft 365 for Business para reconfigurar a fábrica dispositivos Windows 10 que você gerencia, revertendo-os às suas configurações originais na compra.
-ms.openlocfilehash: 7cf5619cb1b6f5f847690d723381614d4b7afc3c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 62585828274652e48b6c6d3654faa8c20fb4caba
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634783"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402757"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Restaurar dispositivos com o Windows 10 para as configurações de fábrica
 

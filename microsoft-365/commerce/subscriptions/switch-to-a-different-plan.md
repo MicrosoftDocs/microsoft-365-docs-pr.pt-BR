@@ -1,5 +1,5 @@
 ---
-title: Mudar para um plano diferente da Microsoft 365 para empresas
+title: Mudar para outro plano do Microsoft 365 for business
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -16,6 +16,7 @@ ms.collection:
 - commerce
 ms.custom:
 - SaRA
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -24,14 +25,14 @@ search.appverid:
 - GEA150
 ms.assetid: 73318661-8f33-478b-bcc7-fb8d69dbb22a
 description: Saiba como mudar para uma nova assinatura do Microsoft 365 for Business.
-ms.openlocfilehash: 8682ced4aab6fd1b0cbfc132527e977eabc59306
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: c1216f0eb5069610ea63ca1a81d90243d3ef111d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707494"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403181"
 ---
-# <a name="switch-to-a-different-microsoft-365-for-business-plan"></a>Mudar para um plano diferente da Microsoft 365 para empresas
+# <a name="switch-to-a-different-microsoft-365-for-business-plan"></a>Mudar para outro plano do Microsoft 365 for business
 
 Quando sua empresa mudar ou precisar de mais recursos, você poderá mudar de plano.  
 
@@ -67,7 +68,7 @@ Ao usar o botão **alternar planos** , você é orientado pelo processo de compr
 
 2. Selecione **alternar planos** para exibir a lista de novos planos que estão disponíveis.
 
-    [O botão Alternar planos não está lá](#the-switch-plans-button-isnt-there) | [não vejo o plano que](#i-dont-see-the-plan-i-want) desejo
+    [O botão mudar de plano não está lá](#the-switch-plans-button-isnt-there)  |  [Não vejo o plano que desejo](#i-dont-see-the-plan-i-want)
 
 3. Selecione um plano para ver o novo custo total por mês. Certifique-se de ler as **informações da chave**e selecione **Avançar** para fazer check-out.
 

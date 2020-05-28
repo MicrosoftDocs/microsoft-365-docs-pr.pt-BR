@@ -6,6 +6,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - seo-marvel-mar
+- AdminSurgePortfolio
 ms.author: jasgro
 ms.topic: article 
 ms.prod: microsoft-365-business
@@ -13,12 +14,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, transição de assinatura de CSP
 ms.date: 11/01/2017
-ms.openlocfilehash: da56ce5bc70dfed5a3e86c739ef3c940b4ac1511
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5fc532b4a59d8e94068e7e1bae99bf8edac75abb
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635055"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403421"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Fazer a transição de uma assinatura de CSP do Microsoft 365 Business
 

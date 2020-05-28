@@ -15,15 +15,17 @@ ms.collection:
 - Adm_TOC
 - commerce
 description: Saiba como atribuir licenças a grupos para uso com dispositivos.
-ms.custom: okr_SMB
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - MET150
-ms.openlocfilehash: 1a525117c25a2471ad696ef1447fd7e4ccb6bed0
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: ce3c8f7d669f2fe5d19c48d7a1fb1f224aaec7f4
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011180"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402865"
 ---
 # <a name="manage-licenses-for-devices"></a>Gerenciar licenças para dispositivos
 
@@ -41,7 +43,7 @@ Para começar, você cria um grupo no centro de administração do Azure Active 
 
 Ao atribuir licenças a um grupo, você atribui licenças a todos os dispositivos do grupo. Você só pode atribuir uma assinatura a um único grupo.
 
-1. No centro de administração do Microsoft 365, vá para a página<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de **cobrança** > .
+1. No centro de administração do Microsoft 365, vá para **Billing**a  >  página<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de cobrança.
 2. Na página **licenças** , escolha **Microsoft 365 aplicativos para educação (dispositivo)** ou **aplicativos da Microsoft 365 para empresas (dispositivo)**.
 3. Na próxima página, escolha uma assinatura e, em seguida, escolha **atribuir licenças**.
 4. No painel **atribuir licenças a um grupo** , comece a digitar o nome de um grupo e, em seguida, escolha-o nos resultados para adicioná-lo à lista.
@@ -51,7 +53,7 @@ Ao atribuir licenças a um grupo, você atribui licenças a todos os dispositivo
 
 Ao cancelar a atribuição de licenças de um grupo, você remove as licenças de todos os dispositivos do grupo. Todos os aplicativos e seus dados associados serão somente leitura.
 
-1. No centro de administração, vá para a página<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de **cobrança** > .
+1. No centro de administração, vá para a **Billing**  >  página<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de cobrança.
 2. Na página **licenças** , escolha **Microsoft 365 aplicativos para educação (dispositivo)** ou **aplicativos da Microsoft 365 para empresas (dispositivo)**.
 3. Na próxima página, escolha uma assinatura, escolha **mais ações**e, em seguida, escolha **cancelar a atribuição de licenças**.
 4. Na caixa de diálogo **cancelar a atribuição de licenças** , escolha **Cancelar atribuição**.

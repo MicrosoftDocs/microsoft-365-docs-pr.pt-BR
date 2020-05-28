@@ -13,24 +13,24 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
-ms.custom: ''
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Saiba como os perfis de cobrança dão suporte a faturas.
 keywords: Perfil de cobrança, faturas, encargos, encargos gerenciados
-ms.openlocfilehash: f93ca5af11ba416fecd13fcceffe75055a776553
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 64f0f6bf456b1251a2db49aa9c2f7473cb7c885b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140885"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401769"
 ---
 # <a name="manage-billing-profiles"></a>Gerenciar perfis de cobrança
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -38,11 +38,11 @@ Para clientes comerciais que compram produtos e serviços da Microsoft, os perfi
 
 Os perfis de cobrança incluem as seguintes informações:
 
-- Nome da **conta** &ndash; de cobrança da conta de cobrança à qual o perfil está relacionado
-- **Métodos** &ndash; de pagamento cartões de crédito ou débito, contas bancárias, cheque ou transferência de fio
-- Endereço de cobrança de **informações** &ndash; de contato e um nome de contato
-- Moeda **das configurações** &ndash; de fatura com base no país da conta de cobrança, um número de OC opcional e a opção de receber faturas como anexos de email
-- Permissões permissões que permitem alterar o perfil de cobrança, pagar contas ou usar a forma de pagamento no perfil de cobrança para fazer compras **Permissions** &ndash;
+- **Conta** &ndash; de cobrança Nome da conta de cobrança à qual o perfil está relacionado
+- **Métodos** &ndash; de pagamento Cartões de crédito ou débito, contas bancárias, cheque ou transferência de fio
+- **Informações** &ndash; de contato Endereço de cobrança e nome de contato
+- **Configurações** &ndash; de fatura Moeda com base no país da conta de cobrança, um número de OC opcional e a opção de receber faturas como anexos de email
+- **Permissões** &ndash; Permissões que permitem alterar o perfil de cobrança, pagar contas ou usar a forma de pagamento no perfil de cobrança para fazer compras
 
 Use perfis de cobrança para controlar suas compras e personalizar sua fatura. Uma fatura mensal é gerada para os produtos comprados com o perfil de cobrança. Você pode personalizar a fatura, como atualizar o número da ordem de compra e a preferência de fatura de email.
 

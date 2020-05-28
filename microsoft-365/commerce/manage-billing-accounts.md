@@ -11,16 +11,16 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
-ms.custom: ''
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Saiba mais sobre contas de cobrança e como gerenciá-las.
-ms.openlocfilehash: ce7b9d2a2cc35261c7e6e3f5547574ea9c49e658
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: 87cc861ab48b99106a3cbd50d8ded91205ffb0a2
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826262"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402601"
 ---
 # <a name="manage-billing-accounts"></a>Gerenciar contas de cobrança
 
@@ -66,15 +66,15 @@ Esta seção lista os endereços de envio associados à sua conta de cobrança. 
 
 Você pode fornecer a outras pessoas acesso à conta de cobrança no centro de administração do Microsoft 365 por meio de funções e permissões. Somente um proprietário de conta de cobrança pode conceder acesso a uma conta de cobrança. Você pode atribuir uma das seguintes funções aos usuários:
 
-- O **proprietário** &mdash; da conta de cobrança pode atribuir permissões, editar contas, assinar contratos e exibir contas.
-- O **colaborador** &mdash; da conta de cobrança pode editar contas, assinar contratos e exibir contas.
-- O **leitor** &mdash; de conta de cobrança pode exibir contas.
+- Proprietário da conta de **cobrança** &mdash; Pode atribuir permissões, editar contas, assinar contratos e exibir contas.
+- Contribuidor da conta de **cobrança** &mdash; Pode editar contas, assinar contratos e exibir contas.
+- Leitor de conta de **cobrança** &mdash; Pode exibir contas.
 
 > [!Note]
 > As funções de conta de cobrança só se aplicam às contas de cobrança e não se aplicam a outros cenários do centro de administração do Microsoft 365.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Informações sobre impostos](billing-and-payments/tax-information.md)
+[Informação de imposto](billing-and-payments/tax-information.md)
 
 [Gerenciar perfis de cobrança](billing-and-payments/manage-billing-profiles.md)

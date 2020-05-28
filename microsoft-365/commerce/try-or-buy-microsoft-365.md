@@ -14,24 +14,25 @@ ms.collection:
 - Adm_O365
 - commerce
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: Saiba como obter uma avaliação gratuita ou comprar uma assinatura para o Microsoft 365.
-ms.openlocfilehash: 19529192e2fa48ac081a84e9ad54669c3ef16791
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 28ec622d32c3218238edf9c171b1eb0566a93c60
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141049"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403133"
 ---
 # <a name="try-or-buy-a-microsoft-365-subscription"></a>Experimentar ou comprar uma assinatura do Microsoft 365
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -50,7 +51,7 @@ Quando você adiciona uma assinatura através do centro de administração, a no
 ::: moniker range="o365-worldwide"
 
 
-1. Entre no centro de administração [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339)em e vá para serviços de **compra**de **cobrança** \> .
+1. Entre no centro de administração em [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) e vá para serviços de compra de **cobrança** \> **Purchase services**.
 
 2. Na página **serviços de compra** , as assinaturas que estão disponíveis para sua organização estão listadas. Escolha o plano do Microsoft 365 que você deseja experimentar ou comprar.
 
@@ -79,7 +80,7 @@ Quando você adiciona uma assinatura através do centro de administração, a no
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-1. Entre no centro de administração [https://portal.office.de](https://go.microsoft.com/fwlink/?linkid=847686)em e vá para serviços de **compra**de **cobrança** \> .
+1. Entre no centro de administração em [https://portal.office.de](https://go.microsoft.com/fwlink/?linkid=847686) e vá para serviços de compra de **cobrança** \> **Purchase services**.
 
 2. Na página **serviços de compra** , as assinaturas que estão disponíveis para sua organização estão listadas. 
 
@@ -107,7 +108,7 @@ Quando você adiciona uma assinatura através do centro de administração, a no
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
-1. Entre no centro de administração [https://portal.partner.microsoftonline.cn](https://go.microsoft.com/fwlink/?linkid=850628)em e vá para serviços de **compra**de **cobrança** \> .
+1. Entre no centro de administração em [https://portal.partner.microsoftonline.cn](https://go.microsoft.com/fwlink/?linkid=850628) e vá para serviços de compra de **cobrança** \> **Purchase services**.
 
 2. Na página **serviços de compra** , as assinaturas que estão disponíveis para sua organização estão listadas. 
 

@@ -20,17 +20,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
 description: Saiba como os recursos de proteção no Microsoft 365 Business Premium mapeiam as configurações do Intune. A assinatura fornece a você uma licença para modificar as configurações do Intune.
-ms.openlocfilehash: 572d3364e465067536e8369b49404d3d1de1bb5b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ce75073f748f6005a843e31f7c38d06b38a3c706
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633234"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401569"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-premium-map-to-intune-settings"></a>Como os recursos de proteção no Microsoft 365 Business Premium mapeiam as configurações do Intune
 
@@ -44,7 +45,7 @@ Para encontrar a configuração do Intune, entre com suas credenciais de adminis
  > 
  > Uma assinatura do Microsoft 365 Business Premium oferece a você uma licença para modificar todas as configurações do Intune. Confira [introdução ao Intune para começar.](https://docs.microsoft.com/intune/introduction-intune)
   
-Selecione o nome da política desejado &mdash; por exemplo, política de aplicativo para &mdash; Android e, em seguida, escolha **configurações de política**.
+Selecione o nome da política desejado &mdash; por exemplo, política de aplicativo para Android &mdash; e, em seguida, escolha **configurações de política**.
   
 Em **Proteger arquivos de trabalho quando dispositivos forem perdidos ou roubados**
   
@@ -73,7 +74,7 @@ Em **Gerenciar como o usuário acessa arquivos do Office em dispositivos móveis
 
 A tabela a seguir fornece detalhes sobre como as configurações de política de aplicativos do Windows 10 são mapeadas para as configurações do Intune.
   
-Para encontrar a configuração do Intune, entre com suas credenciais de administrador do Microsoft 365 Business Premium e vá para [portal do Azure](https://portal.azure.com). Selecione **mais serviços**e o digite Intune no **filtro**. Selecione a **política de aplicativo**de **proteção** \> de aplicativos do Intune.
+Para encontrar a configuração do Intune, entre com suas credenciais de administrador do Microsoft 365 Business Premium e vá para [portal do Azure](https://portal.azure.com). Selecione **mais serviços**e o digite Intune no **filtro**. Selecione a política de aplicativo de **proteção de aplicativos do Intune** \> **App Policy**.
   
  > [!IMPORTANT]
  >
@@ -95,7 +96,7 @@ Para explorar as configurações disponíveis, selecione o nome da política des
 
 A tabela a seguir fornece detalhes sobre como as definições de configuração de dispositivo do Windows 10 são mapeadas para configurações do Intune.
   
-Para encontrar a configuração do Intune, entre com suas credenciais de administrador do Microsoft 365 Business Premium e vá [para Portal do Azure](https://portal.azure.com)e, em seguida, selecione **mais serviços**e digite o Intune no **filtro**, selecione **perfis**de **configuração** \> do dispositivo do **Intune** \> . Selecione **Política de dispositivo para Windows 10** \> **Propriedades** \> **Configurações**.
+Para encontrar a configuração do Intune, entre com suas credenciais de administrador do Microsoft 365 Business Premium e vá para [portal do Azure](https://portal.azure.com)e, em seguida, selecione **mais serviços**e digite o Intune no **filtro**, selecione perfis de configuração do dispositivo do **Intune** \> **Device configuration** \> **Profiles**. Selecione **Política de dispositivo para Windows 10** \> **Propriedades** \> **Configurações**.
   
 |**Configuração de política de dispositivo do Windows 10**|**Configuração(ões) do Intune**|
 |:-----|:-----|
@@ -103,9 +104,9 @@ Para encontrar a configuração do Intune, entre com suas credenciais de adminis
 |Ajudar a proteger PCs contra ameaças baseadas na Web no Microsoft Edge  <br/> |**SmartScreen** nas **Configurações do Navegador Microsoft Edge** é definido como **Obrigatório**.  <br/> |
 |Desligar a tela do dispositivo quando ele ficar ocioso (minutos)  <br/> |Máximo de minutos de inatividade até bloqueios de tela (minutos)  <br/> |
 |Permitir que os usuários baixem aplicativos da Microsoft Store  <br/> |Política de URI personalizado  <br/> |
-|Permitir que os usuários acessem a Cortana  <br/> |A **Cortana** **geral** \> é configurada para **Bloquear** no Intune quando definido como **desativado** no Microsoft 365 Business Premium.  <br/> |
+|Permitir que os usuários acessem a Cortana  <br/> |**Geral** \> A **Cortana** é configurada para **Bloquear** no Intune quando definido como **desativado** no Microsoft 365 Business Premium.  <br/> |
 |Permitir que os usuários recebam anúncios e dicas sobre o Windows da Microsoft  <br/> |**Destaque do Windows**, tudo bloqueado se for definido como **desativado** no Microsoft 365 Business Premium.  <br/> |
-|Manter dispositivos Windows 10 atualizados automaticamente  <br/> | Essa configuração está nas atualizações de serviço **do Microsoft Intune** \> **-Windows 10 toques de atualização**, escolha **Atualizar política para dispositivos Windows 10**e **configurações**de **Propriedades** \> .  <br/>  Quando a configuração do Microsoft 365 Business Premium estiver definida como **ativada**, todas as configurações a seguir serão definidas:  <br/> A **ramificação de serviço** é definida como **CB** (CBB quando ela é desativada no Microsoft 365 Business Premium).  <br/> **Atualizações de produtos Microsoft** é definida como **Permitir**.  <br/> **Drivers do Windows** é definida como **Permitir**.  <br/> **Comportamento de atualização automática** é definida como **Instalar automaticamente no horário de manutenção** com:  <br/> **Início após o expediente** é definida como **6h**.  <br/> **Término após o expediente** é definida como **22h**.  <br/> **Período de adiamento de atualização de qualidade (dias)** é definida como **0**.  <br/> **Período de adiamento de atualização de recursos (dias)** é definida como **0**.  <br/> **Modo de download de otimização de entrega** é definida como **HTTP combinado com emparelhamento atrás do mesmo NAT**.  <br/> |
+|Manter dispositivos Windows 10 atualizados automaticamente  <br/> | Essa configuração está nas atualizações de serviço **do Microsoft Intune** \> **-Windows 10 toques de atualização**, escolha **Atualizar política para dispositivos Windows 10**e configurações de **Propriedades** \> **Settings**.  <br/>  Quando a configuração do Microsoft 365 Business Premium estiver definida como **ativada**, todas as configurações a seguir serão definidas:  <br/> A **ramificação de serviço** é definida como **CB** (CBB quando ela é desativada no Microsoft 365 Business Premium).  <br/> **Atualizações de produtos Microsoft** é definida como **Permitir**.  <br/> **Drivers do Windows** é definida como **Permitir**.  <br/> **Comportamento de atualização automática** é definida como **Instalar automaticamente no horário de manutenção** com:  <br/> **Início após o expediente** é definida como **6h**.  <br/> **Término após o expediente** é definida como **22h**.  <br/> **Período de adiamento de atualização de qualidade (dias)** é definida como **0**.  <br/> **Período de adiamento de atualização de recursos (dias)** é definida como **0**.  <br/> **Modo de download de otimização de entrega** é definida como **HTTP combinado com emparelhamento atrás do mesmo NAT**.  <br/> |
 |||
    
 

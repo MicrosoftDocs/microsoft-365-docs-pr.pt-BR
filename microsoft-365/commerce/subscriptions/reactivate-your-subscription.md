@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - fwlink 874703
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -25,19 +26,19 @@ search.appverid:
 - GEA150
 ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
 description: Saiba como reativar sua assinatura quando ela expirar ou se a Microsoft a desabilitar ou se você a cancelar no meio.
-ms.openlocfilehash: d75ebb3b09ec8b72c60e829406c1341939a4e534
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 922646dc02cbe8ed2072920a92c5c818d9f682a9
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141093"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403229"
 ---
 # <a name="reactivate-your-subscription"></a>Reativar sua assinatura
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -47,7 +48,7 @@ Se sua assinatura expirar ou tiver sido desabilitada pela Microsoft ou se você 
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 
 2. Na página **seus produtos** , encontre a assinatura que você deseja reativar. Na seção **cobrança** , selecione **reativar**.
   

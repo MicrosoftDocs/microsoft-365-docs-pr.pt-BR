@@ -9,17 +9,18 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e50734f4eba003567cbc63294dd17a68d85ff681
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: c6414b01907c43db953213e48fb757f31f4e8829
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42355922"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401865"
 ---
-# <a name="contact-support-for-trinidad-amp-tobago"></a>Contatar o suporte para &amp; Trinidad Tobago
+# <a name="contact-support-for-trinidad-amp-tobago"></a>Contatar o suporte para Trinidad &amp; Tobago
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 

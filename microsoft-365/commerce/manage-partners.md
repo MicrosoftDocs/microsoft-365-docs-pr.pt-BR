@@ -11,30 +11,30 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
-ms.custom: ''
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Saiba como trabalhar com os fornecedores de soluções certificadas pela Microsoft (parceiros) para comprar e gerenciar produtos e serviços para sua organização ou escola.
 keywords: parceiro, provedor de soluções
-ms.openlocfilehash: 3ba5a62caf199bf1e111ecf921df0f21568d5257
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 752c9e0237bbdde7be996b5675848e948e866dce
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141202"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402589"
 ---
 # <a name="manage-partner-relationships"></a>Gerenciar relacionamentos de parceiros
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
 Você pode trabalhar com os fornecedores de soluções certificadas pela Microsoft (parceiros) para comprar e gerenciar produtos e serviços para sua organização ou escola. Há algumas etapas envolvidas na configuração das coisas.
 
-- Os administradores localizam e contatam um parceiro usando <a href="https://www.microsoft.com/en-us/solution-providers/home" target="_blank">https://www.microsoft.com/en-us/solution-providers/home</a>o formulário em.
+- Os administradores localizam e contatam um parceiro usando o formulário em <a href="https://www.microsoft.com/en-us/solution-providers/home" target="_blank">https://www.microsoft.com/en-us/solution-providers/home</a> .
 - Os parceiros enviam uma solicitação de email aos clientes para estabelecer uma relação de parceria.
 - Os clientes aceitam o convite no centro de administração do Microsoft 365 e começam a trabalhar com o parceiro.
 
@@ -90,7 +90,7 @@ Se você não quiser delegar privilégios de administrador para o parceiro, canc
 
 Se você delegar privilégios de administrador para um parceiro, poderá remover esses privilégios a qualquer momento. Remover privilégios de administrador não remove o relacionamento do parceiro. Eles ainda podem trabalhar com você, por exemplo, como revendedor.
 
-1. No centro de administração, vá para a página<a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">contas de cobrança</a> de **cobrança** > .
+1. No centro de administração, vá para a **Billing**  >  página<a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">contas de cobrança</a> de cobrança.
 2. Na página **contas de cobrança** , selecione a guia **relacionamentos de parceiros** .
 3. Selecione a linha que contém o nome do parceiro.
 4. Na página parceiro, selecione **remover funções de administrador**.
@@ -99,7 +99,7 @@ Se você delegar privilégios de administrador para um parceiro, poderá remover
 
 Se você decidir que não deseja mais trabalhar com um parceiro, poderá finalizar a relação. No entanto, você só pode excluir as relações nas quais o parceiro é um administrador delegado ou um supervisor. Para todos os outros tipos de parceiros, entre em contato com seu parceiro para finalizar a relação.
 
-1. No centro de administração, vá para a página<a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">contas de cobrança</a> de **cobrança** > .
+1. No centro de administração, vá para a **Billing**  >  página<a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">contas de cobrança</a> de cobrança.
 2. Na página **contas de cobrança** , selecione a guia **relacionamentos de parceiros** .
 3. Selecione a linha que contém o nome do parceiro.
 4. Na página detalhes do parceiro, selecione **excluir parceiro**.

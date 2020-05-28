@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,12 +23,12 @@ search.appverid:
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
 description: Alterne manualmente as assinaturas do Microsoft 365 para empresas comprando uma nova assinatura e garantindo que ambas as assinaturas estejam listadas e ativas.
-ms.openlocfilehash: f06e6a5f441286cbe048187eea39889772bb4e75
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 6d6f28dc45f1d5c8efc7202f1be718f8517cf12f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707506"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403193"
 ---
 # <a name="switch-microsoft-365-for-business-plans-manually"></a>Trocar manualmente os planos de negócios da Microsoft 365
 
@@ -137,13 +138,13 @@ As licenças para a assinatura atual serão removidas mais tarde; Você só paga
   
 5. Alterne a opção para a posição **desativado** para as licenças que este usuário não precisa mais.
 
-6. Na parte inferior do painel **licenças de produto** , selecione **atribuir** \> **Close** \> fechar **fechar**.
+6. Na parte inferior do painel **licenças de produto** , selecione **atribuir** \> **fechar** \> **fechar**.
 
 ### <a name="reassign-licenses-for-multiple-users-at-once"></a>Reatribuir licenças para vários usuários de uma só vez
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">usuários ativos</a> do **usuário** \> .
+1. No centro de administração, vá para a **Users** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">usuários ativos</a> do usuário.
 
 ::: moniker-end
 

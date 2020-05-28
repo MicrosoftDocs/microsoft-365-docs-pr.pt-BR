@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -23,12 +24,12 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: Compreenda os motivos pelos quais às vezes os planos de mudança precisa ser feito manualmente ou chamando o suporte.
-ms.openlocfilehash: 8b6c4069f2c7f0cfd86981c1001a7211aa298ff7
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 9f48ed56f230802ebd305d9b79e8ad694fadcc4c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943138"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403145"
 ---
 # <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Por que não posso mudar de plano de negócios da Microsoft 365?
 
@@ -41,18 +42,18 @@ Se você não vir o botão **mudar** de plano, seu plano não poderá ser altern
   
 ::: moniker range="o365-worldwide"
 
- **Precisa de mais alguma coisa?** [Comprar outra assinatura](../buy-another-subscription.md) | [cancelar as](cancel-your-subscription.md) | [assinaturas](../index.yml) | de assinatura e o[suporte de chamada](../../admin/contact-support-for-business-products.md) de cobrança
+ **Precisa de mais alguma coisa?** [Comprar outra assinatura](../buy-another-subscription.md)  |  [Cancelar sua assinatura](cancel-your-subscription.md)  |  [Assinaturas e cobrança](../index.yml)  |  [Suporte de chamada](../../admin/contact-support-for-business-products.md)
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- **Precisa de mais alguma coisa?** [Comprar outra assinatura](../buy-another-subscription.md) | [cancelar as](cancel-your-subscription.md) | [assinaturas](../index.yml) | de assinatura e o[suporte de chamada](../../admin/contact-support-for-business-products.md) de cobrança
+ **Precisa de mais alguma coisa?** [Comprar outra assinatura](../buy-another-subscription.md)  |  [Cancelar sua assinatura](cancel-your-subscription.md)  |  [Assinaturas e cobrança](../index.yml)  |  [Suporte de chamada](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- **Precisa de mais alguma coisa?** [Comprar ou experimentar assinaturas do Office 365 operado pela 21vianet](../../admin/services-in-china/buy-or-try-subscriptions.md) | [cancelar o suporte de](cancel-your-subscription.md) | [chamada](../../admin/contact-support-for-business-products.md) de assinatura
+ **Precisa de mais alguma coisa?** [Comprar ou experimentar assinaturas do Office 365 operado pela 21vianet](../../admin/services-in-china/buy-or-try-subscriptions.md)  |  [Cancelar sua assinatura](cancel-your-subscription.md)  |  [Suporte de chamada](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
@@ -83,19 +84,19 @@ Para usar o botão **Mudar de plano** para mudar de plano automaticamente, todos
 
 ::: moniker range="o365-worldwide"
 
-Para ver se há problemas de integridade do serviço ou de provisionamento, no centro de administração, vá para a <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">página integridade do serviço</a> ou selecione integridade do **serviço**de **integridade** \> .
+Para ver se há problemas de integridade do serviço ou de provisionamento, no centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">integridade do serviço</a> ou selecione integridade do serviço de **integridade** \> **Service health**.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Para ver se há problemas de integridade de serviço ou de provisionamento, no centro de administração do Microsoft 365, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=848042" target="_blank">integridade do serviço</a> ou selecione **integridade do serviço**de **integridade** \> .
+Para ver se há problemas de integridade de serviço ou de provisionamento, no centro de administração do Microsoft 365, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=848042" target="_blank">integridade do serviço</a> ou selecione integridade do serviço de **integridade** \> **Service health**.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Para ver se há problemas de integridade de serviço ou de provisionamento, no centro de administração do Microsoft 365, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=850629" target="_blank">integridade do serviço</a> ou selecione **integridade do serviço**de **integridade** \> .
+Para ver se há problemas de integridade de serviço ou de provisionamento, no centro de administração do Microsoft 365, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=850629" target="_blank">integridade do serviço</a> ou selecione integridade do serviço de **integridade** \> **Service health**.
 
 ::: moniker-end
 

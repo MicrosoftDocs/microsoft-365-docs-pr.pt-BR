@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Saiba o que acontece com seus dados quando sua assinatura do Microsoft 365 for Business expira, está desabilitada ou se você cancelar.
-ms.openlocfilehash: 363d8379bb2fa34e58a81892beadcebb9c6624f2
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: e1953f439577b9339b035968a63e8d1a6eddcd29
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165114"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403157"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>O que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 for Business termina?
 
@@ -40,9 +41,9 @@ Se sua assinatura terminar, pois ela expira ou porque você decide cancelar — 
 
 A tabela a seguir explica o que você pode esperar quando uma assinatura paga do Microsoft 365 for Business expira.
 
-| **Active**                                                             | **Expirado <br/>(30\*dias)**                                                | **Desabilitado <br/>(90\*dias)**                                               | **Desprovisionada**                                                                         |
+| **Active**                                                             | **Expirado <br/> (30 dias \* )**                                                | **Desabilitado <br/> (90 dias \* )**                                               | **Desprovisionada**                                                                         |
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| *Dados acessíveis a todos*                                               | *Dados acessíveis a todos*                                                     | *Dados acessíveis somente para administradores*                                             | **Dados excluídos<br/>o Azure Active Directory foi removido, se não estiver sendo usado por outros serviços** |
+| *Dados acessíveis a todos*                                               | *Dados acessíveis a todos*                                                     | *Dados acessíveis somente para administradores*                                             | **Dados excluídos o <br/> Azure Active Directory foi removido, se não estiver sendo usado por outros serviços** |
 | Os usuários têm acesso normal aos aplicativos do Microsoft 365, aos dados e ao Office  | Os usuários têm acesso normal ao Microsoft 365, arquivos e aplicativos              | Os usuários não podem acessar o Microsoft 365, arquivos ou aplicativos                        | Os usuários não podem acessar o Microsoft 365, arquivos ou aplicativos                                     |
 | Os administradores têm acesso normal ao Microsoft 365, aos dados e aos aplicativos do Office | Os administradores podem acessar o centro de administração                                           | Os administradores podem acessar o centro de administração, mas não podem atribuir licenças aos usuários       | Os administradores podem acessar o centro de administração para comprar e gerenciar outras assinaturas             |
 |                                                                        | Administradores globais ou de cobrança podem reativar a assinatura no centro de administração | Administradores globais ou de cobrança podem reativar a assinatura no centro de administração |                                                                                           |

@@ -23,17 +23,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba mais sobre o Microsoft 365 Business Premium, um serviço de assinatura que inclui os aplicativos de produtividade do Office e a proteção avançada para a sua empresa contra ameaças cibernéticas.
-ms.openlocfilehash: 14f6acdec79323d1dfff836ba945bb3c29059a3e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+ms.openlocfilehash: 61f4c34ade180717486ce889162947afe9be7ba6
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633214"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402245"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Visão geral do Microsoft 365 Business Premium
 

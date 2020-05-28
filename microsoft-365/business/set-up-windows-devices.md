@@ -20,17 +20,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: Saiba como configurar dispositivos Windows que executam o Windows 10 pro para usuários do Microsoft 365 Business Premium, permitindo o gerenciamento centralizado e os controles de segurança.
-ms.openlocfilehash: efe81a5547496f502232e1db2f3f092165475641
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ecd9f5aa348d29d34e77061657619c015b09c41a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635443"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402949"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Configurar dispositivos Windows para usuários do Microsoft 365 Business Premium
 
@@ -104,7 +105,7 @@ Se você carregou arquivos no OneDrive for Business, sincronize-os novamente. Se
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>Verifique se o dispositivo está conectado ao Azure AD
 
-Para verificar seu status de sincronização, na página **Acessar trabalho ou escola**, em **Configurações**, clique na área **Conectado a** _ \<organization name\> _ para expor os botões **Informações** e **Desconectar**. Clique em **Informações** para obter o status da sincronização. 
+Para verificar seu status de sincronização, na página **trabalho ou escola do Access** em **configurações**, clique na área **conectado a** _ \<organization name\> _ para expor as **informações** e **Desconectar**os botões. Clique em **Informações** para obter o status da sincronização. 
   
 Na página de status de sincronização, clique em Sincronização para obter as últimas políticas de gerenciamento de dispositivo móvel no PC.
   
@@ -128,4 +129,4 @@ Para configurar seus dispositivos móveis, consulte [configurar dispositivos mó
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Para saber mais sobre como configurar e usar o Microsoft 365 Business Premium
 
-[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

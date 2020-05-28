@@ -14,6 +14,9 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - commerce
+ms.custom:
+- AdminSurgePortfolio
+- okr_SMB
 search.appverid:
 - BCS160
 - MET150
@@ -21,13 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: fce1510d-9ea5-4aff-8752-1676ec7fede3
 description: Saiba como aplicar um código promocional à sua assinatura do Microsoft 365 para reduzir o preço e como solucionar problemas de código promocional em caso de erro.
-ms.custom: okr_SMB
-ms.openlocfilehash: 55ce4192a2b76fae841c7b5e2a5733c4d5c2769e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 791565e29d8456e6c3c2c90b88cb2c6612e2d2cc
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631852"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403109"
 ---
 # <a name="use-your-promo-code-to-reduce-price"></a>Use seu código promocional para reduzir o preço
 

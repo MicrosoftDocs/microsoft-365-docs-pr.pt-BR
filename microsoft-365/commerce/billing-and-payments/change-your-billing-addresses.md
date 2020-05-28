@@ -14,6 +14,9 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - commerce
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,13 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: Saiba como atualizar seus endereços de cobrança para o Microsoft 365 for Business. Você também pode atualizar o endereço de email usado para receber notificações de cobrança.
-ms.custom: okr_SMB
-ms.openlocfilehash: 87a9540218f7ef4bef48154930b62bddab7b54e8
-ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
+ms.openlocfilehash: 1985299d1ed4388ea8ffa0255935f1ee7c8ac3b7
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232882"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401793"
 ---
 # <a name="change-your-billing-addresses"></a>Alterar os endereços para cobrança
 
@@ -204,7 +206,7 @@ Você também pode alterar o endereço de email alternativo de outros administra
 
 [Exibir sua cobrança ou fatura](view-your-bill-or-invoice.md)
 
-[Entender sua fatura ou fatura](understand-your-invoice2.md)
+[Entenda sua conta ou fatura](understand-your-invoice2.md)
 
 [Pagar sua assinatura](pay-for-your-subscription.md)
 

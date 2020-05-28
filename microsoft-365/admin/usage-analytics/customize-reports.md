@@ -13,25 +13,26 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: Saiba como personalizar relatórios no navegador e no Power BI desktop.
-ms.openlocfilehash: 4f0c85802ecb5db9c57add2fa6dd561827e8fa22
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 121a9be4a83570b7fcf358c48bf558d3bc7c1131
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140704"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402925"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Personalizar os relatórios na análise de uso do Microsoft 365
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -49,7 +50,7 @@ Este exemplo mostra como modificar a guia de **ativação** dentro do relatório
   
 1. No relatório de **ativação/licenciamento** , clique na guia **ativação** .
     
-2. Insira o modo de edição clicando no botão **Editar** na parte superior através do ![botão mais página no botão Power bi](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) . 
+2. Insira o modo de edição clicando no botão **Editar** na parte superior através do ![ botão mais página no botão Power bi ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) . 
     
     ![Click Edit report on the top right navigation](../../media/e2c16663-1fbd-4d7f-887c-0cbb891d3b3d.png)
   
@@ -69,7 +70,7 @@ O exemplo a seguir mostra como criar um novo visual para rastrear novos usuário
   
 1. Vá para o relatório de **uso do produto** usando a barra de navegação esquerda e clique na guia do **Yammer** .
     
-2. Alterne para o modo de edição clicando ![no botão mais página no Power bi](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) e **Editar**. 
+2. Alterne para o modo de edição clicando no ![ botão mais página no Power bi ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) e **Editar**. 
     
 3. Na parte inferior da página, clique em ![O botão Adicionar página no Power BI](../../media/d3b8c117-17d4-4f53-b078-8fefc2155b24.png) para criar uma nova página.
   
@@ -95,7 +96,7 @@ O exemplo a seguir mostra como criar um novo visual para rastrear novos usuário
 
     ![Caixa de seleção selecionar Yammer](../../media/82e99730-0de9-42da-928a-76aab0c3e609.png)
   
-12. Logo abaixo da lista de visualizações, **clique no ícone Format** Icon ![Format no Power bi Visualizaions](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png).
+12. Logo abaixo da lista de visualizações, clique no ícone **Format** Icon ![ Format no Power bi Visualizaions ](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png) .
 
 13. Expanda o título e altere o valor do **Título do Texto** para **Usuários do Yammer pela primeira vez por mês**.
     
@@ -115,7 +116,7 @@ Você pode começar conectando-se diretamente com as APIs de relatório ODATA da
   
 1. Vá até **obter dados** \> **Outros** \> **Feed ODATA** \> **Conectar**.
     
-2. Na janela URL, digite "https://<i></i>Reports.Office.com/PBI/v1.0/\<tenantid\>"
+2. Na janela URL, digite "https:// <i></i> reports.Office.com/PBI/v1.0/ \<tenantid\> "
     
     **Observação:** As APIs de relatórios estão em visualização e estão sujeitas a alterações até que entrem em produção. 
   

@@ -20,6 +20,7 @@ ms.custom:
 - TopSMBIssues
 - MSStore_Link
 - okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -27,12 +28,12 @@ search.appverid:
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
 description: Adquira uma assinatura do Microsoft 365 for Business. Você pode comprar o mesmo tipo de assinatura que você tentou ou um plano diferente.
-ms.openlocfilehash: 48786ffc4bd0a8c5e8e13e0062b6db1dd5bed561
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: de141cb42b310bff6221d0bef6d923882dadadfd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045795"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402613"
 ---
 # <a name="buy-a-subscription-to-microsoft-365-for-business-from-your-free-trial"></a>Comprar uma assinatura para a Microsoft 365 para empresas a partir de sua avaliação gratuita
 
@@ -50,7 +51,7 @@ Você já experimentou o Microsoft 365 e agora está pronto para comprar. Você 
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 
 2. Na página **seus produtos** , encontre a assinatura que você deseja comprar. Na seção **licenças** , selecione **comprar assinatura**.
 
@@ -99,7 +100,7 @@ Se você adquirir um tipo diferente de assinatura do que a sua avaliação, ter�
 ::: moniker range="o365-worldwide"
 
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de **cobrança** \> .
+1. No centro de administração, vá para a **Billing** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de cobrança.
 
 2. Na página **comprar serviços** , selecione a assinatura que você deseja comprar e selecione **comprar**.
 

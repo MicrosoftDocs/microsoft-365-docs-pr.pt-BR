@@ -16,6 +16,7 @@ ms.collection:
 - commerce
 ms.custom:
 - SaRA
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -23,19 +24,19 @@ search.appverid:
 - BEA160
 - GEA150
 description: Saiba como atualizar para uma nova assinatura.
-ms.openlocfilehash: b0f79233e6a05c2838026093bb0027cd4789b01b
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 2a0dcff5b4326fc75b4e8e4154ee73e0ac17897d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141061"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403169"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Atualizar para um plano diferente
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -95,7 +96,7 @@ Para atualizar planos automaticamente, todos os seus usuários precisam ter lice
 
 #### <a name="you-cant-upgrade-subscriptions-right-now-because-this-subscription-isnt-fully-set-up-or-the-service-isnt-available"></a>Você não pode atualizar as assinaturas imediatamente porque essa assinatura não está totalmente configurada ou o serviço não está disponível.
 
-Por exemplo, se um dos serviços tiver um incidente, você não poderá atualizar até que todos os serviços estejam íntegros. Para ver se há problemas de integridade do serviço ou de provisionamento, no centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">integridade do serviço</a> de **integridade** \> .
+Por exemplo, se um dos serviços tiver um incidente, você não poderá atualizar até que todos os serviços estejam íntegros. Para ver se há problemas de integridade do serviço ou de provisionamento, no centro de administração, vá para a **Health** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">integridade do serviço</a> de integridade.
 
 Se você acha que um serviço não está totalmente provisionado ou que está com um problema de integridade, aguarde algumas horas para que o serviço fique disponível e tente novamente. Se você ainda tiver um problema, entre em contato com o [suporte](../../admin/contact-support-for-business-products.md).
 
@@ -133,7 +134,7 @@ Talvez você não veja planos na guia **atualização** porque o serviço está 
 
 #### <a name="the-plan-that-you-want-to-upgrade-to-isnt-a-supported-option"></a>O plano para o qual você deseja atualizar não é uma opção com suporte
 
-Quando você atualiza planos, os planos que estão disponíveis para atualização são exibidos com base nos serviços do seu plano atual. Você só pode atualizar para um plano que tenha os mesmos serviços relacionados a dados, como o Exchange Online ou o SharePoint Online, ou para uma versão superior deles. Isso garante que os usuários\'Don ' t percam dados relacionados a esses serviços durante a atualização.
+Quando você atualiza planos, os planos que estão disponíveis para atualização são exibidos com base nos serviços do seu plano atual. Você só pode atualizar para um plano que tenha os mesmos serviços relacionados a dados, como o Exchange Online ou o SharePoint Online, ou para uma versão superior deles. Isso garante que os usuários Don ' \' t percam dados relacionados a esses serviços durante a atualização.
 
 Se seu plano não estiver qualificado para atualizar planos automaticamente, talvez você possa [alterar os planos manualmente](change-plans-manually.md). Você também pode [ligar](../../admin/contact-support-for-business-products.md) para o suporte da ajuda.
 

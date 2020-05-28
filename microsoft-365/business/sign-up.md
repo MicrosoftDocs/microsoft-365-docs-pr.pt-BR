@@ -21,16 +21,17 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 description: Saiba o que o Microsoft 365 Business Premium inclui e obtenha orientações passo a passo sobre como inscrever-se no Microsoft 365 Business Premium.
-ms.openlocfilehash: 443363fa673a112ae13eb5b63308115724d9bd00
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 50662149ae2faa99c567080d5e914c3300ac3494
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635095"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401549"
 ---
 # <a name="sign-up-for-microsoft-365-business-premium"></a>Inscreva-se no Microsoft 365 Business Premium
 
@@ -88,7 +89,7 @@ Para se inscrever e comprar o Microsoft 365 para sua empresa, conclua as seguint
     3. Adicione seus detalhes de cartão de crédito. Se o endereço da sua empresa não corresponder ao seu endereço de cartão de crédito, também precisaremos do endereço da sua empresa. O endereço da sua empresa determina quais impostos você paga e quais serviços estão disponíveis. Para obter mais informações sobre os impostos, consulte [que imposto serei cobrado?](https://go.microsoft.com/fwlink/?linkid=2109701).
     4. Selecione **fazer pedido**. É necessário um curto período para que a Microsoft conclua a configuração de um novo plano.
 
-## <a name="whats-next"></a>E agora?
+## <a name="whats-next"></a>O que vem a seguir?
 
 Selecione **ir para configuração** para concluir outras etapas, como adicionar mais segurança para proteger sua empresa e baixar aplicativos do Office, como o Word e o Excel.
 
@@ -96,4 +97,4 @@ Para obter ajuda com a instalação, confira [Configurar](set-up.md).
 
 ## <a name="see-also"></a>Confira também
 
-[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

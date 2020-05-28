@@ -11,22 +11,23 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Os usuários podem aprender a gerenciar suas compras de autoatendimento.
-ms.openlocfilehash: 8f141f28c2f1241d19ed34ae234c3b122dd9d69c
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: e8cb319b482ef49090544916b5e76a02083ebf06
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141119"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403253"
 ---
 # <a name="manage-self-service-purchases-users"></a>Gerenciar compras de autoatendimento (Usuários)
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -37,11 +38,11 @@ Seu administrador tem um modo de exibição somente leitura em qualquer assinatu
 
 ## <a name="view-your-subscriptions"></a>Exibir suas assinaturas
 
-Você pode exibir uma lista de todas as assinaturas adquiridas por autoatendimento que você comprou. No centro de administração, vá para a página **cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+Você pode exibir uma lista de todas as assinaturas adquiridas por autoatendimento que você comprou. No centro de administração, vá para a página **cobrança**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 ## <a name="how-to-buy-more-or-reduce-licenses"></a>Como comprar mais ou reduzir licenças
 
-1. No centro de administração, vá para a página **cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, vá para a página **cobrança**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Encontre a assinatura para a qual você deseja comprar mais ou reduzir licenças.
 
@@ -54,7 +55,7 @@ Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105.
 
 ### <a name="to-assign-licenses"></a>Para atribuir licenças
 
-1. No centro de administração, vá para a página<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de **cobrança** > .
+1. No centro de administração, vá para a **Billing**  >  página<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de cobrança.
 
 2. Escolha a assinatura para a qual você deseja atribuir licenças.
 
@@ -69,7 +70,7 @@ Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105.
 
 ### <a name="to-unassign-licenses"></a>Para cancelar a atribuição de licenças
 
-1. No centro de administração, vá para a página<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de **cobrança** > .
+1. No centro de administração, vá para a **Billing**  >  página<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de cobrança.
 
 2. Escolha o produto para o qual você deseja cancelar a atribuição de licenças.
 
@@ -81,7 +82,7 @@ Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105.
 
 ## <a name="cancel-a-subscription"></a>Cancelar uma assinatura
 
-1. No centro de administração, vá para a página **cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, vá para a página **cobrança**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Encontre a assinatura que você deseja cancelar.
 
@@ -91,7 +92,7 @@ Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105.
 
 ## <a name="manage-your-payment-details"></a>Gerenciar os detalhes de pagamento
 
-1. No centro de administração, vá **para a página** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">perfis de cobrança</a> de faturas **& pagamentos** > .
+1. No centro de administração, vá para a página perfis de cobrança **de faturas**  >  **& pagamentos**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Billing profiles</a> .
 
 2. Selecione um perfil de cobrança na lista.
 
@@ -104,7 +105,7 @@ Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105.
 
 ### <a name="update-an-existing-payment-method"></a>Atualizar uma forma de pagamento existente
 
-1. No centro de administração, vá para a página **cobrança** > de<a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">contas & pagamentos</a> .
+1. No centro de administração, vá para a página **cobrança**de  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">contas & pagamentos</a> .
 
 2. Para editar um método de pagamento existente, escolha-o na lista.
 
@@ -114,7 +115,7 @@ Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105.
 
 ### <a name="add-a-new-payment-method"></a>Adicionar uma nova forma de pagamento
 
-1. No centro de administração, vá para a página **cobrança** > de<a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">contas & pagamentos</a> .
+1. No centro de administração, vá para a página **cobrança**de  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">contas & pagamentos</a> .
 
 2. Escolha **Adicionar um método de pagamento**.
 
@@ -122,7 +123,7 @@ Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105.
 
 ## <a name="view-your-invoices"></a>Exibir suas faturas
 
-1. No centro de administração, vá para a página **cobranças** > de faturas<a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& pagamentos</a> .
+1. No centro de administração, vá para a página **cobranças**de faturas  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& pagamentos</a> .
 
 2. Em **faturas** , selecione a fatura que você deseja exibir.
 

@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - commerce
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: Altere as assinaturas manualmente, comprando uma nova assinatura e garantindo que ambas as assinaturas estejam listadas e ativas.
-ms.openlocfilehash: fcaa3ebfd9d20fa50c9f37f3366aec9d4dd69103
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 20f5492a816c6c819456ac2ca4aa0f20da24eccd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046187"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403277"
 ---
 # <a name="change-plans-manually"></a>Alterar planos manualmente
 
@@ -53,12 +54,12 @@ OU
 
 **Adquira uma nova assinatura e licenças:** Siga as etapas em [comprar outra assinatura do Microsoft 365 for Business](../buy-another-subscription.md) para comprar uma nova assinatura.
 
-Certifique-se de comprar uma assinatura para a mesma organização em que os usuários estão agora. Por exemplo, verifique os endereços de email dos usuários que você deseja mover. Se seus endereços de email \@incluírem contoso.com, você deverá adquirir uma nova assinatura para o contoso.com.
+Certifique-se de comprar uma assinatura para a mesma organização em que os usuários estão agora. Por exemplo, verifique os endereços de email dos usuários que você deseja mover. Se seus endereços de email incluírem \@ contoso.com, você deverá adquirir uma nova assinatura para o contoso.com.
 Inclua uma licença para cada usuário que você deseja mover.
 
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>Etapa 3: verificar sua nova assinatura e licenças
 
-1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 
 2. **Verificar se as duas assinaturas estão listadas e ativas** A assinatura da qual você está migrando usuários e a assinatura à qual você está movendo usuários devem estar listadas em conjunto. Se a nova assinatura não estiver quando você verificar pela primeira vez, tente novamente mais tarde. Verifique se ambas as assinaturas estão ativas. [A nova assinatura não está listada ou não está ativa](#the-new-subscription-isnt-listed-or-isnt-active).
 

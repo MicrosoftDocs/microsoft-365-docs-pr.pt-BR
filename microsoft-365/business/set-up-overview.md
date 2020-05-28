@@ -21,17 +21,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Saiba mais sobre as etapas de configuração para o Microsoft 365 Business Premium, em assinatura, para adicionar um domínio e usuários, para configurar as políticas de segurança e muito mais.
-ms.openlocfilehash: 8b26d423d4f62ee8f9ea4a61eb8f7efa72ee26cb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 80243fac6ca2efcfca030b6ee1c1113c026a80ce
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633346"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402969"
 ---
 # <a name="overview-of-setup"></a>Visão geral da configuração
 
@@ -94,4 +95,4 @@ Ao ingressar em um dispositivo Windows 10 no Azure AD, as políticas definidas p
 
 ## <a name="see-also"></a>Confira também
 
-[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

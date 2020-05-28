@@ -17,16 +17,17 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 description: Configurar recursos de conformidade para evitar a perda de dados e ajudar a manter a segurança de informações confidenciais de seus clientes.
-ms.openlocfilehash: a3405207cd7d2d6565807ef0f3a51acbcb80409a
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 9b900367c22ec5bb5c2719af63049045ecd5e466
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165728"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402685"
 ---
 # <a name="set-up-compliance-features"></a>Configure os recursos de conformidade
 
@@ -46,7 +47,7 @@ A DLP vem com vários modelos de política prontos para uso para várias localid
     
 Para colocar uma caixa de correio em retenção de litígio, no centro de administração:
     
-1. No painel de navegação à esquerda, vá para usuários **ativos**do **usuário** \> .
+1. No painel de navegação à esquerda, vá para usuários ativos do **usuário** \> **Active users**.
     
 2. Selecione um usuário cuja caixa de correio você deseja colocar em retenção de litígio. No painel usuário, expanda **configurações de email**e ao lado de **mais configurações**, escolha **Editar propriedades do Exchange**.
     

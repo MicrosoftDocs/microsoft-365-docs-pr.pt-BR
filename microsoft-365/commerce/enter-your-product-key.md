@@ -22,13 +22,15 @@ search.appverid:
 ms.assetid: 0199dd39-7c46-4875-af9b-588df3a9afea
 ROBOTS: NOINDEX
 description: Saiba como resgatar uma chave de produto do Microsoft 365 Business Standard comprada em uma loja de varejo.
-ms.custom: okr_SMB
-ms.openlocfilehash: 9cabc3d3f132ef2e3e56c1209b632f1e10a8637e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
+ms.openlocfilehash: de0a45fe35a53d166eb8d587a6410f91b69e3288
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634903"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402161"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Insira sua chave do produto para o Microsoft 365 Business Standard
 
@@ -59,7 +61,7 @@ Se você comprou o Microsoft 365 Business Standard de uma loja de varejo, este a
 
 Para usar uma chave do produto (Product Key) para estender a data de expiração ou adicionar uma licença à sua assinatura atual do Microsoft 365 Business Standard, você precisa de uma chave nova e não usada para o mesmo plano do Microsoft 365. Inserir sua chave de produto do Microsoft 365 original não funcionará porque uma chave que já foi resgatada não pode ser usada novamente. Consulte [adicionar licenças ou estender uma assinatura paga para usar uma chave do produto (Product Key](licenses/add-licenses-using-product-key.md)).
 
-## <a name="whats-next"></a>E agora?
+## <a name="whats-next"></a>O que vem a seguir?
 
 Se você é novo no Microsoft 365 for Business, saiba como [Configurar o microsoft 365](../admin/setup/setup.md).
   

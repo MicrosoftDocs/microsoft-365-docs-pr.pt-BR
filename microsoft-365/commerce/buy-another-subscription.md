@@ -21,20 +21,22 @@ search.appverid:
 - BEA160
 ms.assetid: fab3b86c-3359-4042-8692-5d4dc7550b7c
 description: 'Saiba como comprar outra assinatura do Microsoft 365 for Business para sua organização quando você já tem uma assinatura. '
-ms.custom: okr_SMB
-ms.openlocfilehash: 63dc9554d1783f81615e52a83ad338368d482e93
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
+ms.openlocfilehash: ebadf9a019829080c145eec2f3f5d612473e91b3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141297"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402197"
 ---
 # <a name="buy-another-microsoft-365-for-business-subscription"></a>Comprar outra assinatura do Microsoft 365 for Business
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -49,7 +51,7 @@ Após adquirir uma nova assinatura, você precisará atribuir aos usuários que 
 ::: moniker range="o365-worldwide"
 
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de **cobrança** \> .
+1. No centro de administração, vá para a **Billing** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de cobrança.
 
 2. Na página **comprar serviços** , selecione a assinatura que você deseja comprar e selecione **comprar**.
 

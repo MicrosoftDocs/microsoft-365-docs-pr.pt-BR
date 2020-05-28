@@ -18,6 +18,7 @@ ms.custom:
 - TopSMBIssues
 - MSStore_Link
 - okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -26,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: Saiba como alterar a forma de pagamento para sua assinatura de negócios.
-ms.openlocfilehash: 195bdcd580663fe2cb9789562a52208753500a79
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: babc8911305fe009ad3b9dc49163a0525c6d0666
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045899"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401805"
 ---
 # <a name="change-your-payment-method"></a>Alterar sua forma de pagamento
 
@@ -113,7 +114,7 @@ Quando você muda de pagamento por fatura para pagamento com cartão de crédito
   
 Quando você altera a forma de pagamento de fatura para cartão de crédito ou conta bancária, criamos uma nova assinatura para você automaticamente, migramos seus usuários para a nova assinatura e desabilitamos sua assinatura antiga. Não se preocupe, pois o serviço não será interrompido para os usuários e todas as suas informações estarão disponíveis por meio da nova assinatura.
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">assinaturas</a> de **cobrança** \> .
+1. No centro de administração, vá para a **Billing** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">assinaturas</a> de cobrança.
 
 2. Encontre a assinatura que você deseja alterar. Na seção **detalhes de pagamento** , selecione **alterar detalhes de pagamento**.
   
@@ -177,7 +178,7 @@ Se nenhuma verificação de crédito for necessária, use as etapas a seguir par
 > [!NOTE]
 > A opção de pagamento por fatura só estará disponível se a sua assinatura estiver em um determinado valor (que varia de acordo com o local do serviço). Podemos solicitar uma verificação de crédito, em caso de pagamentos de valor superior por meio de fatura. Para saber mais, confira [o pagamento da sua assinatura](pay-for-your-subscription.md).
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">assinaturas</a> de **cobrança** \> .
+1. No centro de administração, vá para a **Billing** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">assinaturas</a> de cobrança.
 
 2. Encontre a assinatura que você deseja alterar. Na seção **método de pagamento** , selecione **alterar detalhes de pagamento**.
   
@@ -204,7 +205,7 @@ Você pode usar as etapas a seguir a qualquer momento para verificar a forma de 
 
 ### <a name="use-the-old-admin-center-to-verify-which-payment-method-is-configured"></a>Usar o centro de administração antigo para verificar qual método de pagamento está configurado
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">assinaturas</a> de **cobrança** \> .
+1. No centro de administração, vá para a **Billing** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">assinaturas</a> de cobrança.
 
 2. Encontre a assinatura que você deseja verificar. A forma de pagamento configurada para a assinatura aparece sob **método de pagamento**.
 
@@ -216,7 +217,7 @@ Você pode usar as etapas a seguir a qualquer momento para verificar a forma de 
 
 Você pode usar as etapas a seguir a qualquer momento para verificar a forma de pagamento configurada para uma assinatura específica.
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">assinaturas</a> de **cobrança** \> .
+1. No centro de administração, vá para a **Billing** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">assinaturas</a> de cobrança.
 
 2. Encontre a assinatura que você deseja verificar. A forma de pagamento configurada para a assinatura aparece sob **método de pagamento**.
 

@@ -17,17 +17,18 @@ ms.custom:
 - Core_O365Admin_Migration
 - MSB365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Valide as configurações de proteção de aplicativos do Microsoft 365 Business Premium em dispositivos Windows 10 e verifique se os usuários não podem copiar dados da empresa para arquivos pessoais ou aplicativos não gerenciados.
-ms.openlocfilehash: 20b2e43ae53486c046440ff1066d241ec9661888
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 589d2fc25cc1425a775523595881660cc03e152e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635735"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403381"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Validar as configurações de proteção de aplicativo em computadores Windows 10
 
@@ -37,11 +38,11 @@ Depois de [configurar políticas de proteção do aplicativo](protection-setting
   
  **Verificar configurações de conexão**
   
-1. Após entrar com as credenciais do Microsoft 365 Business Premium e se conectar ao Azure AD, conforme descrito em [configurar dispositivos Windows para usuários do Microsoft 365 Business Premium](set-up-windows-devices.md), vá para **configurações** \> **Accounts** \> do Windows **acesso às contas de trabalho ou escola**. Choose **Connected to \<tenant name\> Azure AD**, and then choose **Info**.
+1. Após entrar com as credenciais do Microsoft 365 Business Premium e se conectar ao Azure AD, conforme descrito em [configurar dispositivos Windows para usuários do Microsoft 365 Business Premium](set-up-windows-devices.md), vá para **configurações do Windows** \> **Accounts** \> **acesso às contas de trabalho ou escola**. Escolha **conectado ao \<tenant name\> Azure ad**e, em seguida, escolha **informações**.
     
     ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
-2. Na página **gerenciado pelo** \<nome\> do locatário, você pode ver as **informações de conexão** que incluem um **endereço de servidor de gerenciamento** como aquele mostrado na figura a seguir. 
+2. Na página **gerenciado por** \<tenant name\> , você pode ver as **informações de conexão** que incluem um **endereço de servidor de gerenciamento** como aquele mostrado na figura a seguir. 
     
     ![Managed by page shows connection info of the device manager URL.](../media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   
@@ -63,11 +64,11 @@ Depois de [configurar políticas de proteção do aplicativo](protection-setting
 
  **Verificar configurações de conexão**
   
-1. Em seu dispositivo pessoal do Windows 10 no qual você está conectado como um usuário local, vá **até configurações do Windows**e clique ou toque em **contas** \> de **trabalho ou escola do Access**.
+1. Em seu dispositivo pessoal do Windows 10 no qual você está conectado como um usuário local, vá até **configurações do Windows**e clique ou toque em **contas** de \> **trabalho ou escola do Access**.
     
 2. Em **Acessar trabalho ou escola**, escolha **Conectar**.
     
-3. Insira sua credencial do Microsoft 365 Business Premium na caixa **de** \> **diálogo Configurar uma conta corporativa ou de estudante** .
+3. Insira sua credencial do Microsoft 365 Business Premium na **caixa de diálogo Configurar uma conta corporativa ou de estudante** \> **Sign in**.
     
 4. Na página **Acessar trabalho ou escola**, escolha a **Conta corporativa ou de estudante** e escolha **Informações**.
     

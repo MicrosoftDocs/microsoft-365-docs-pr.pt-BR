@@ -8,16 +8,17 @@ manager: mnirkhe
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
+ms.custom: AdminSurgePortfolio
 ms.collection: Adm_Commerce_Pay
 localization_priority: Normal
 description: Saiba onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cce3a47075d53e5990499856ae5559b8e3e20e8e
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: ea45f6966583471153e934f510f054bb8ef368b2
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250824"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402493"
 ---
 # <a name="payment-information-for-azerbaijan"></a>Informações de pagamento para Azerbaijão
 

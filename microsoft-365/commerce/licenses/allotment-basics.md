@@ -9,19 +9,17 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: None
-search.appverid:
-- MET150
 ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - commerce
-ms.custom: ''
+ms.custom: AdminSurgePortfolio
 description: Saiba mais sobre o novo recurso de alocações.
-ms.openlocfilehash: e6fe91ee2c0e2de58b54e40eddba6d3066999e6d
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: c8c472fbf30bb898f9a10eca778ee7c668c8c388
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942170"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402409"
 ---
 # <a name="allotment-basics"></a>Noções básicas sobre alocação
 
@@ -51,4 +49,4 @@ Você deve ser um administrador global ou de licença para começar a usar uma a
 
 ## <a name="getting-started"></a>Introdução
 
-O recurso de alocações está disponível em uma visualização privada para apenas um pequeno número de clientes. Se você estiver interessado em ingressar, preencha este formulário: [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup).
+O recurso de alocações está disponível em uma visualização privada para apenas um pequeno número de clientes. Se você estiver interessado em ingressar, preencha este formulário: [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup) .

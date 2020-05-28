@@ -14,24 +14,25 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - SPO_Content
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: 'Saiba como a análise de uso se conecta a uma API e fornece tendências mensais de uso de vários serviços da Microsoft 365.  '
-ms.openlocfilehash: 2c39edd66bda19233a67c4623044ffc9e0e8046d
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 6b0b005e6e07e52731a84490a6df7c9ead614321
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011766"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402041"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Modelo de dados de análise de uso do Microsoft 365
 
 ## <a name="data-for-the-microsoft-365-usage-analytics-tables"></a>Dados das tabelas de análise de uso do Microsoft 365
 
-A análise de uso do Microsoft 365 conecta-se a uma API que expõe um modelo de dados multidimensionais. The APIs are in preview and can be accessed at `https://reports.office.com/pbi/v1.0/\<tenantid\>` (replace the \<tenant id\> with your tenant GUID). 
+A análise de uso do Microsoft 365 conecta-se a uma API que expõe um modelo de dados multidimensionais. As APIs estão em versão prévia e podem ser acessadas em `https://reports.office.com/pbi/v1.0/\<tenantid\>` (substitua o \<tenant id\> pelo GUID do locatário). 
   
 > [!NOTE]
 > Para obter mais informações, consulte [Working with microsoft 365 Usage reports in Microsoft Graph](https://go.microsoft.com/fwlink/p/?linkid=864336). 

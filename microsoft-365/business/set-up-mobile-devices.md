@@ -19,17 +19,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Instale o Office em um iPhone ou telefone Android, e seus arquivos de trabalho nos aplicativos do Office serão protegidos pela Microsoft 365 para empresas.
-ms.openlocfilehash: 1263a922ba41083511fec8030634ed6cfaf70f00
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e96e2edc0fc2bc25449d8f50239fa25179b345bd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632558"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402989"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Configurar dispositivos móveis para usuários do Microsoft 365 para empresas
 
@@ -59,7 +60,7 @@ Quando a instalação for concluída, toque no botão **Abrir** para abrir o Out
   
 ![Screenshot of Outlook with Get Started button](../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
-Insira seu endereço de email de trabalho **Add Email Account** na tela \> adicionar conta de email **e, em**seguida, insira \> **suas credenciais do**Microsoft 365 for Business.
+Insira seu endereço de email de trabalho na tela Adicionar conta de **email** e, \> **Add Account**em seguida, insira suas credenciais do Microsoft 365 for Business \> **Sign in**.
   
 ![Sign in to your work account](../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
@@ -87,7 +88,7 @@ Insira o Microsoft Outlook na caixa de pesquisa Google Play e toque em **instala
   
 ![Tap Open to open Outlook app](../media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
-No aplicativo Outlook, toque em **introdução**, adicione \> **sua conta de**email do Microsoft 365 para negócios e entre com as credenciais da sua organização.
+No aplicativo Outlook, toque em **introdução**, adicione sua conta de email do Microsoft 365 para negócios \> **Continue**e entre com as credenciais da sua organização.
   
 ![Sign in to your organizational account in Outlook](../media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
@@ -105,6 +106,6 @@ Abra o Outlook novamente e digite e confirme um PIN. O aplicativo Outlook agora 
 
 ## <a name="see-also"></a>Confira também
 
-[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
 
 ---

@@ -11,22 +11,23 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Os administradores podem aprender a gerenciar compras de autoatendimento feitas por usuários em sua organização.
-ms.openlocfilehash: 991dc87c40f41a6cbd2f1c08d4bc72bbb34d28f1
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 562e0e26d9ca7d10d71a46b8cf2d87c487c1b529
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141145"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403265"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Gerenciar compras de autoatendimento (Administrador)
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -36,7 +37,7 @@ Você também pode controlar se os usuários da sua organização podem fazer co
 
 ## <a name="view-self-service-subscriptions"></a>Exibir assinaturas de autoatendimento
 
-1. No centro de administração, vá para a página **cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, vá para a página **cobrança**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Ao lado de **refinar resultados**, no menu suspenso **tipo de conta** , escolha **autoatendimento**.
 
@@ -44,7 +45,7 @@ Você também pode controlar se os usuários da sua organização podem fazer co
 
 ## <a name="view-who-has-licenses-for-a-self-service-purchase-subscription"></a>Exibir quem possui licenças para uma assinatura de compra de autoatendimento
 
-1. No centro de administração, vá para a página<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de **cobrança** > .
+1. No centro de administração, vá para a **Billing**  >  página<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licenças</a> de cobrança.
 
 2. Escolha o ícone de filtro e, em seguida, escolha **autoatendimento**.
 
@@ -63,7 +64,7 @@ Você pode desabilitar ou habilitar compras de autoatendimento para usuários em
 
 Você pode usar o módulo do PowerShell do **MSCommerce** para:
 
-- Exibir o estado padrão do valor **AllowSelfServicePurchase** &mdash; do parâmetro AllowSelfServicePurchase se ele está habilitado ou desabilitado por produto
+- Exibir o estado padrão do valor **AllowSelfServicePurchase** do parâmetro AllowSelfServicePurchase &mdash; se ele está habilitado ou desabilitado por produto
 - Exibir uma lista de produtos aplicáveis e se a compra de autoatendimento está habilitada ou desabilitada
 - Exibir ou modificar a configuração atual de um produto específico para habilitá-lo ou desabilitá-lo
 
@@ -75,7 +76,7 @@ Você pode atribuir licenças existentes ou comprar assinaturas adicionais por m
 
 1. Entre no centro de <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Administração</a> com sua conta de administrador global ou de cobrança.
 
-2. Vá para a página de<a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de **cobrança** > .
+2. Vá para a **Billing**  >  página de<a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de cobrança.
 
 3. Localize e escolha o produto que você deseja comprar e escolha **comprar**.
 

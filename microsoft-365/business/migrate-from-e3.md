@@ -17,16 +17,17 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 description: Saiba como mover sua empresa para o Microsoft 365 Business Premium do Office 365 E3.
-ms.openlocfilehash: 0d23e293d599f5b9d6c829d101f2395d6ac21215
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 23d024ed7f18fe6a5f5dc9b59e3ad20069dc3e6a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633182"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402233"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migrando do Office 365 E3 para a Microsoft 365 Business Premium 
 
@@ -40,8 +41,8 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business Premium e o Off
 
 | Recurso    | Suporte no Microsoft 365 Business Premium    | Suporte no Office 365 E3 | 
 |:-------|:-----|:-----|
-| **Local**        | | | 
-| Aplicativos do Office<sup>1</sup>    | Microsoft 365 aplicativos para empresas    | Aplicativos da Microsoft 365 para empresas | 
+| **No local**        | | | 
+| Aplicativos do Office<sup>1</sup>    | Aplicativos do Microsoft 365 para empresas    | Microsoft 365 Apps para empresas | 
 | **Aplicativos de produtividade em nuvem**        | | | 
 | Exchange Online e Outlook    | limite de armazenamento de 50 GB por caixa de correio e arquivamento ilimitado do Exchange Online    | limite de armazenamento de 100 GB por caixa de correio e arquivamento ilimitado do Exchange Online | 
 | Teams    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído com o Office 365 E3](../media/check-mark.png) | 

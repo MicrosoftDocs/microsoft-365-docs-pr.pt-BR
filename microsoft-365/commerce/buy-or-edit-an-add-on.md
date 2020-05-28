@@ -21,20 +21,22 @@ search.appverid:
 - BEA160
 ms.assetid: 4e7b57d6-b93b-457d-aecd-0ea58bff07a6
 description: Saiba como adquirir um complemento para adicionar mais funcionalidades à sua assinatura do Microsoft 365 for Business. Você também pode atualizar e remover um complemento.
-ms.custom: okr_SMB
-ms.openlocfilehash: 60bc63d4db84667f00ab0bde95e8541f45a38df7
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
+ms.openlocfilehash: e22c4193fffa1d97334f61e789265e75d55d53a3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141285"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402185"
 ---
 # <a name="buy-or-edit-an-add-on"></a>Comprar ou editar um suplemento
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -44,7 +46,7 @@ Vários dos planos do Microsoft 365 para empresas têm complementos que você po
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de **cobrança** \> .
+1. No centro de administração, vá para a **Billing** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de cobrança.
 
 2. Na parte inferior da página de **serviços de compra** , selecione **Complementos**.
 
@@ -66,7 +68,7 @@ Vários dos planos do Microsoft 365 para empresas têm complementos que você po
 
 2. Na página **assinaturas** , selecione a assinatura para a qual você deseja comprar um complemento.
 
-3. No canto inferior esquerdo dos detalhes da assinatura **, selecione** \> Complementos **comprar Complementos**..
+3. No canto inferior esquerdo dos detalhes da assinatura **, selecione Complementos** \> **comprar Complementos**..
 
     ![Comprar Complementos link na página assinaturas do centro de administração do Microsoft 365.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
   
@@ -88,7 +90,7 @@ Vários dos planos do Microsoft 365 para empresas têm complementos que você po
 
 2. Na página **assinaturas** , selecione a assinatura para a qual você deseja comprar um complemento.
 
-3. No canto inferior esquerdo dos detalhes da assinatura **, selecione** \> Complementos **comprar Complementos**..
+3. No canto inferior esquerdo dos detalhes da assinatura **, selecione Complementos** \> **comprar Complementos**..
 
     ![Comprar Complementos link na página assinaturas do centro de administração do Microsoft 365.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
   
@@ -116,7 +118,7 @@ Complementos *autônomos* não estão vinculados a uma assinatura específica. O
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 
 2. Na página **seus produtos** , selecione a assinatura para a qual você deseja atualizar um complemento.
 
@@ -179,7 +181,7 @@ Complementos *autônomos* não estão vinculados a uma assinatura específica. O
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 
 2. Na página **seus produtos** , selecione a assinatura complementar que você deseja atualizar e selecione **Adicionar/remover licenças**.
 

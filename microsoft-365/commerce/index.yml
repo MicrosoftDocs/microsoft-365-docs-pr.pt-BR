@@ -7,17 +7,18 @@ metadata:
   ms.service: o365-administration
   ms.topic: landing-page
   ms.collection: commerce
+  ms.custom: AdminSurgePortfolio
   author: cmcatee-MSFT
   ms.author: cmcatee
   ms.date: 02/27/2020
   localization_priority: Normal
   search.appverid: MET150
-  ms.openlocfilehash: 99667701543ef02cb2f3ea8efb17ae30af2e72e3
-  ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
+  ms.openlocfilehash: 4f5634b720079f57a37f9b7079a8bece6cf150cd
+  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/14/2020
-  ms.locfileid: "44232764"
+  ms.lasthandoff: 05/27/2020
+  ms.locfileid: "44402137"
 landingContent:
 - title: Gerenciar contas e pagamentos
   linkLists:
@@ -27,7 +28,7 @@ landingContent:
       url: billing-and-payments/view-your-bill-or-invoice.md
     - text: Gerenciar métodos de pagamento
       url: billing-and-payments/manage-payment-methods.md
-    - text: Entender sua fatura ou fatura
+    - text: Entenda sua conta ou fatura
       url: billing-and-payments/understand-your-invoice.md
     - text: Gerenciar perfis de cobrança
       url: billing-and-payments/manage-billing-profiles.md

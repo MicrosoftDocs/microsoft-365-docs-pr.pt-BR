@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: a73632a1-62c8-4a13-8115-913773b30f93
 description: Saiba como solucionar problemas com o aplicativo de modelo de análise de uso do Microsoft 365.
-ms.openlocfilehash: 7164aa246a79a8d8c5aa50d995b53b6221003c01
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 4696dd0c5140cdc110781c226819fc64a90fae1b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212144"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402029"
 ---
 # <a name="troubleshooting-microsoft-365-usage-analytics"></a>Solucionando problemas de análise de uso do Microsoft 365
 
@@ -39,7 +40,7 @@ Explore a seguinte lista de mensagens de erro para obter ajuda com os problemas 
   
  **Causa:** Antes de poder se conectar ao aplicativo, você precisa inscrever-se nos dados do centro de administração do Microsoft 365. Se esta etapa não for executada primeiro, você não poderá se conectar ao aplicativo de modelo, mesmo que forneça sua ID de locatário do Microsoft 365. 
   
- **Para corrigir esse erro:** Para inscrever-se nos dados, acesse o \> **Centro** \> de <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Administração e localize</a> o bloco de análise de uso do Microsoft 365 na página principal do painel. Selecione o **botão introdução** **e,** em seguida, no painel **relatórios** que é aberto, ative a configuração **disponibilizar dados para análise de uso do Microsoft 365 para Power bi** .
+ **Para corrigir esse erro:** Para inscrever-se nos dados, acesse o centro de administração \> **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a> e localize o bloco de análise de uso do Microsoft 365 na página principal do painel. Selecione o **botão introdução** **e,** em seguida, no painel **relatórios** que é aberto, ative a configuração **disponibilizar dados para análise de uso do Microsoft 365 para Power bi** .
   
 ## <a name="we-are-processing-your-data"></a>Estamos processando seus dados
 
@@ -67,7 +68,7 @@ Explore a seguinte lista de mensagens de erro para obter ajuda com os problemas 
   
  **Causa:** A ID do locatário é um guid e tem que estar no formato xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. Se você inserir qualquer outra sequência na caixa de entrada do locatário, você receberá esse erro. 
   
- **Para corrigir esse erro:** Vá para \> o centro de administração de **relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">uso</a> e localize o bloco de análise de uso do Microsoft 365 na página de painel principal. A ID do locatário está listada no bloco. Você pode copiá-lo daqui e colá-lo na caixa de diálogo para se conectar ao aplicativo de modelo. 
+ **Para corrigir esse erro:** Vá para o centro de administração de \> **relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">uso</a> e localize o bloco de análise de uso do Microsoft 365 na página de painel principal. A ID do locatário está listada no bloco. Você pode copiá-lo daqui e colá-lo na caixa de diálogo para se conectar ao aplicativo de modelo. 
   
 ## <a name="the-tenant-id-you-provided-is-not-recognized-by-our-system"></a>A ID do locatário fornecida não é reconhecida pelo nosso sistema
 
@@ -77,7 +78,7 @@ Explore a seguinte lista de mensagens de erro para obter ajuda com os problemas 
   
  **Causa:** A ID do locatário fornecida não é válida ou não existe. 
   
- **Para corrigir esse erro:** Vá para \> o centro de administração de **relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">uso</a> e localize o bloco de análise de uso do Microsoft 365 na página de painel principal. A ID do locatário está listada no bloco. Você pode copiá-lo daqui e colá-lo na caixa de diálogo para se conectar ao aplicativo de modelo. 
+ **Para corrigir esse erro:** Vá para o centro de administração de \> **relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">uso</a> e localize o bloco de análise de uso do Microsoft 365 na página de painel principal. A ID do locatário está listada no bloco. Você pode copiá-lo daqui e colá-lo na caixa de diálogo para se conectar ao aplicativo de modelo. 
   
 ## <a name="please-re-enter-your-credentials-to-sign-in-to-power-bi-again"></a>Reinsira suas credenciais para fazer login no Power BI novamente
 

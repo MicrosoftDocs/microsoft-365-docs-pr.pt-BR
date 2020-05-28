@@ -18,17 +18,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Saiba mais sobre os recursos de segurança que acompanham o Microsoft 365 Business Premium para ajudar a proteger seus dados em PCs, telefones e tablets.
-ms.openlocfilehash: f6aef84afc76217161dee6b68d626128e0cc15b2
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 839b5481e27591e1762a0d8eb5623f279d6d22dd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165748"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402705"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Recursos de segurança e conformidade do Microsoft 365 Business Premium
 
@@ -118,7 +119,7 @@ Você pode gerenciar esses recursos no centro de &amp; conformidade de seguranç
   
 Sim, esses recursos estão disponíveis em todos os mercados onde o Microsoft 365 Business Premium é vendido.
   
-### <a name="how-do-i-find-the-security-amp-compliance-center"></a>Como localizar o centro de conformidade &amp; de segurança?
+### <a name="how-do-i-find-the-security-amp-compliance-center"></a>Como localizar o centro de conformidade de segurança &amp; ?
   
 1. [Entre no Microsoft 365 Business Premium](https://portal.microsoft.com/) usando suas credenciais de administrador. 
     
@@ -126,4 +127,4 @@ Sim, esses recursos estão disponíveis em todos os mercados onde o Microsoft 36
     
     ![No painel de navegação esquerdo do centro de administração do Microsoft 365, escolha centros de administração.](../media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
-3. Escolha **conformidade &amp; de segurança** para acessar o &amp; centro de conformidade de segurança.
+3. Escolha ** &amp; conformidade de segurança** para acessar o &amp; centro de conformidade de segurança.

@@ -19,17 +19,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Saiba como configurar políticas de acesso condicional para o Microsoft 365 Campaigns para adicionar mais segurança substancial.
-ms.openlocfilehash: 26fadecc69486d7931dac069d8f53061592f397f
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: d7c9cfee2ef00e4ebe231a28ccca185c10f53c6b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153757"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403009"
 ---
 # <a name="set-up-conditional-access-policies"></a>Configurar políticas de acesso condicional
 
@@ -38,10 +39,10 @@ As políticas de [acesso condicional](https://docs.microsoft.com/azure/active-di
 Essas políticas exigem que administradores e usuários insiram uma segunda forma de autenticação (chamada de autenticação multifator, ou MFA) quando determinadas condições são atendidas. Por exemplo, se um usuário estiver entrando em um país diferente, o logon poderá ser considerado arriscado e o usuário deverá fornecer uma forma adicional de autenticação. 
 
 No momento, as políticas de linha de base incluem o seguinte:
-- **Exigir MFA para administradores** &ndash; requer autenticação multifator para as funções de administrador mais privilegiadas, incluindo administrador global.
-- A **proteção** &ndash; do usuário final requer a autenticação multifator para usuários somente quando um logon é arriscado. 
-- **Bloquear autenticação** &ndash; herdada aplicativos cliente mais antigos e alguns aplicativos novos não usam protocolos de autenticação mais recentes e mais seguros. Esses aplicativos antigos podem ignorar as políticas de acesso condicional e obter acesso não autorizado ao seu ambiente. Esta política bloqueia o acesso de clientes que não dão suporte ao acesso condicional. 
-- **Exigir MFA para gerenciamento** &ndash; de serviços requer autenticação multifator para acessar ferramentas de gerenciamento, incluindo o portal do Azure (onde você configura as políticas de linha de base). 
+- **Exigir MFA para administradores** &ndash; Requer autenticação multifator para as funções de administrador mais privilegiadas, incluindo administrador global.
+- Proteção do usuário **final** &ndash; Requer autenticação multifator para usuários somente quando um logon é arriscado. 
+- **Bloquear autenticação** &ndash; herdada Aplicativos cliente mais antigos e alguns aplicativos novos não usam protocolos de autenticação mais recentes e mais seguros. Esses aplicativos antigos podem ignorar as políticas de acesso condicional e obter acesso não autorizado ao seu ambiente. Esta política bloqueia o acesso de clientes que não dão suporte ao acesso condicional. 
+- **Exigir MFA para gerenciamento** &ndash; de serviços Requer autenticação multifator para acessar ferramentas de gerenciamento, incluindo o portal do Azure (onde você configura as políticas de linha de base). 
 
 A Microsoft recomenda que você habilite todas essas políticas de linha de base. Depois que essas políticas forem habilitadas, os administradores e os usuários serão solicitados a registrar a autenticação de fator de vários grupos do Azure.
 
@@ -50,7 +51,7 @@ Para obter mais informações sobre essas políticas, consulte [o que são polí
 
 ## <a name="set-up-baseline-policies"></a>Configurar políticas de linha de base
 
-1. Vá para [portal do Azure](https://portal.azure.com)e navegue até **acesso condicional** **do Azure Active Directory** \> .
+1. Vá para [portal do Azure](https://portal.azure.com)e navegue até acesso **condicional do Azure Active Directory** \> **Conditional Access**.
     
     As políticas de linha de base são listadas na página. <br/> <br/>
     ![Página que lista as políticas de linha de base para acesso condicional.](../media/baslinepolicies.png)

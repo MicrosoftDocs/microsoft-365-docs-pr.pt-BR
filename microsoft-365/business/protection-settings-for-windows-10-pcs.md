@@ -17,17 +17,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Saiba mais sobre o padrão e outras configurações disponíveis no Microsoft 365 for Business para proteger dispositivos Windows 10.
-ms.openlocfilehash: 9096fb6a8fc790d9a9432578cfd8623f9cb69c7a
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 0403ea2c30221dd5693b7f3e9b4921ad175399a1
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011558"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402797"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Defina configurações de proteção de dispositivos para PCs com Windows 10
 
@@ -39,7 +40,7 @@ Assista a um vídeo sobre como proteger dispositivos Windows 10 com o Microsoft 
   
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. No painel de navegação esquerdo, escolha **Adicionar** **políticas** \> de **dispositivos** \> .
+2. No painel de navegação esquerdo, **Devices** escolha \> **Policies** \> **Adicionar**políticas de dispositivos.
   
 3. No painel **Adicionar política**, insira um nome exclusivo para essa política. 
     
@@ -63,7 +64,7 @@ Para obter mais informações, consulte [como os recursos de proteção no Micro
   
 |||
 |:-----|:-----|
-|Setting  <br/> |Descrição  <br/> |
+|Configuração  <br/> |Descrição  <br/> |
 |Ajudar a proteger PCs contra vírus e outras ameaças usando o Windows Defender Antivirus  <br/> |Exige que o Windows Defender Antivírus esteja ativado para proteger computadores contra os riscos de estar conectado à Internet.  <br/> |
 |Ajudar a proteger PCs contra ameaças baseadas na Web no Microsoft Edge  <br/> |Ativa as configurações do Microsoft Edge que ajudam a proteger os usuários contra sites e downloads mal-intencionados.  <br/> |
 |Usar regras que reduzem a superfície de ataque de dispositivos  <br/> |Quando ativada, a redução da superfície de ataque ajuda a bloquear ações e aplicativos normalmente usados por malware para infectar dispositivos. Esta configuração só estará disponível se o Windows Defender Antivírus for definido como ativado. Confira [Reduzir superfícies de ataque](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/exploit-protection) para saber mais.  <br/> |
