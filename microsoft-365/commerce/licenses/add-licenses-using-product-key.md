@@ -16,6 +16,7 @@ ms.collection:
 - Adm_NonTOC
 ms.custom:
 - TopSMBIssues
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -24,12 +25,12 @@ search.appverid:
 ms.assetid: 4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53
 ROBOTS: NOINDEX
 description: Saiba como adicionar licenças à sua assinatura.
-ms.openlocfilehash: 20e822d6124b3a4383df5308e7a5d47a34d49ed6
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 370ed833a1c7c5142c7725666885a945e1524b53
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045399"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44404005"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>Adicionar licenças ou estender uma assinatura paga usando uma chave do produto (Product Key)
 
@@ -42,7 +43,7 @@ As licenças pré-paga são emitidas como um código alfanumérico de 25 caracte
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 
 2. Encontre a assinatura à qual você deseja adicionar licenças. Na seção **licenças** , selecione **adicionar mais licenças**.
 
@@ -78,7 +79,7 @@ As licenças pré-paga são emitidas como um código alfanumérico de 25 caracte
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página de serviços de **cobrança** \>de <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">produtos &</a> .  
+1. No centro de administração, vá para a página de serviços de **cobrança** de \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">produtos &</a> .  
 
 2. Encontre a assinatura à qual você deseja adicionar licenças. Selecione a lista suspensa **mais ações** e, em seguida, escolha **renovar ou adicionar licença com token**.
 
@@ -99,7 +100,7 @@ As licenças pré-paga são emitidas como um código alfanumérico de 25 caracte
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 
 2. Encontre a assinatura que você deseja estender. Na seção **cobrança** , selecione **estender data de término**.
 

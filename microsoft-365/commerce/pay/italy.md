@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0ac87e51b905bc28a7bd62869f7721dfbe151181
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 9099d9ff680a566f29261384f18b3ada61513673
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250763"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44404497"
 ---
 # <a name="payment-information-for-italy"></a>Informações de pagamento para a Itália
 

@@ -10,14 +10,15 @@ ms.topic: reference
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 description: Saiba onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d5a243337c681284c78a84923bbac24055397655
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 114c84a791cf83c5cde99d01ec5b4480609e9277
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250794"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44404149"
 ---
 # <a name="payment-information-for-cte-divoire"></a>Informações de pagamento para Côte d' Ivoire
 

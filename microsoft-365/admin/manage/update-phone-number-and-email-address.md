@@ -13,25 +13,26 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: Atualize seu número de telefone e endereço de email do administrador no centro de administração. Você precisará dessas informações se quiser redefinir sua senha de administrador.
-ms.openlocfilehash: 6f4303cd637bfb87fc4d35ce49904cedf5bf7f0a
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: bd8ee28cbc7982ea5b057fecb34d362557a5d5a9
+ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139584"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407915"
 ---
 # <a name="update-your-admin-phone-number-and-email-address"></a>Atualizar seu número de telefone e endereço de email de administrador
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 Este artigo explica como você, o administrador, pode alterar o telefone comercial e o endereço de email no Microsoft 365.
@@ -44,7 +45,7 @@ Use a página **Informações pessoais** para alterar seu nome, o número de tel
   
 1. Navegue até o centro de administração do Microsoft 365.
 
-2. No cabeçalho, selecione o \> ícone do seu perfil **informações pessoais**de **minha conta** \> .
+2. No cabeçalho, selecione o ícone do seu perfil \> **My account** \> **informações pessoais**de minha conta.
 
 3. Na seção **detalhes do contato** , selecione Editar. Atualize seu endereço de email móvel, telefônico e alternativo. Certifique-se de usar algo diferente do seu endereço de email da Microsoft para seu endereço de email alternativo.
 
@@ -57,4 +58,4 @@ Para obter respostas para perguntas de cobrança, confira:
   
 - [Alterar seus endereços de cobrança para o Microsoft 365 for Business](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
-- [Adicionar, atualizar ou remover um cartão de crédito ou uma conta bancária no Microsoft 365 for Business](../../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
+- [Gerenciar métodos de pagamento](../../commerce/billing-and-payments/manage-payment-methods.md)

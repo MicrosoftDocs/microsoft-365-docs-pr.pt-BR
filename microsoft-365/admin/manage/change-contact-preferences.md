@@ -9,6 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -16,12 +17,12 @@ search.appverid:
 - GEA150
 ms.assetid: 6f70de1b-a64d-4498-bfbd-be8c83a9c0fc
 description: Atualize as informações de contato da sua organização e escolha as comunicações relacionadas ao produto Microsoft 365 que você deseja receber.
-ms.openlocfilehash: 4a667757990ec30f4514b094fd1592831601e679
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: afb69c52ba89c2a9e6ff7af014a74b0abfda4e5e
+ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628203"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407927"
 ---
 # <a name="change-your-contact-preferences-for-communications-from-microsoft"></a>Alterar suas preferências de contato para comunicações da Microsoft
 
@@ -42,7 +43,7 @@ Se você estiver procurando saber como alterar informações de perfil da empres
 4. Digite o telefone comercial, o celular comercial ou o email comercial onde você deseja receber essas comunicações.
     Você pode usar qualquer endereço de email, incluindo seu endereço de email da Microsoft, para receber essas comunicações. Se você não adicionar um endereço de email para preferências de contato, seu endereço de email alternativo (na página **Informações pessoais**) será usado.
 
-5. Selecione **Salvar**.
+5. Escolha **Salvar**.
   
 Para o Office 365 Enterprise, o Microsoft 365 Business Standard e o Microsoft 365 Business Basic, quando você se inscreveu pela primeira vez como administrador do Microsoft 365, dependendo do país ou da região dos usuários em sua organização, os usuários podem ser inscritos automaticamente para receber comunicações relacionadas ao produto.
   
@@ -50,4 +51,4 @@ Para obter respostas para perguntas de cobrança, confira:
   
 - [Alterar seus endereços de cobrança para o Microsoft 365 for Business](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
-- [Adicionar, atualizar ou remover um cartão de crédito ou uma conta bancária no Microsoft 365 for Business](../../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
+- [Gerenciar métodos de pagamento](../../commerce/billing-and-payments/manage-payment-methods.md)

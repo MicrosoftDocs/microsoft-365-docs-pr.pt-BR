@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - SaRA
 - okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -25,19 +26,19 @@ search.appverid:
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
 description: Saiba como adicionar e remover licenças da sua assinatura do Microsoft 365 for Business.
-ms.openlocfilehash: f8ae177052be325673af96d9535f25dfcdc93180
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: c4b2b30c9d444aad11ea4cd2faf8b2546e33c39c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141228"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44404017"
 ---
 # <a name="manage-subscription-licenses"></a>Gerencie licenças de assinatura
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -49,7 +50,7 @@ Você não pode remover uma licença de uma assinatura se ela estiver atribuída
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 
 2. Na página **seus produtos** , encontre a assinatura à qual você deseja adicionar ou remover licenças e selecione **Adicionar/remover licenças**.
 
@@ -93,7 +94,7 @@ Após adquirir novas licenças, certifique-se de [atribuir as licenças aos usu�
 
 Esta tabela descreve os motivos pelos quais o link **Adicionar/remover licenças** pode não estar disponível e o que você pode fazer sobre ele. 
 
-|Reason  |Descrição  |Solução  |
+|Motivo  |Descrição  |Solução  |
 |---------|---------|---------|
 |Uma verificação de crédito está pendente. |Se uma verificação de crédito estiver pendente, você verá a mensagem "Verificação de crédito pendente" e não poderá comprar licenças até que ela seja concluída.  | Verifique novamente mais tarde para ver se a verificação de crédito foi concluída. Geralmente, as verificações de crédito levam até dois dias úteis para serem concluídas.<br>Depois que a verificação de crédito for concluída, você deverá conferir o link **Adicionar/Remover licenças** na seção **Usuários**. Em caso afirmativo, vá para [gerenciar licenças de assinatura](#manage-subscription-licenses). |
 |Você ativou a assinatura usando uma chave do produto (Product Key).| Se a assinatura foi adquirida e ativada usando uma chave do produto (Product Key) de 25 caracteres, você verá o texto "Pré-paga".  |Confira [adicionar licenças a uma assinatura paga para usar uma chave do produto (Product Key](add-licenses-using-product-key.md)). |

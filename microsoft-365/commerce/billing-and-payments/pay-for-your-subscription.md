@@ -25,12 +25,12 @@ ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
-ms.openlocfilehash: 387cc4af038bea572a60176b2c2b400f410aa6ad
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: baf09d87f6229cb530c328d570fa70dc25729a11
+ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401757"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407951"
 ---
 # <a name="pay-for-your-subscription"></a>Pagar por sua assinatura
 
@@ -48,7 +48,7 @@ Ao configurar sua assinatura, você pode optar por pagar com cartão de crédito
 
 ## <a name="pay-by-credit-card-or-bank-account"></a>Pagar com um cartão de crédito
 
-Ao pagar com cartão de crédito, você será cobrado automaticamente pela sua assinatura no dia seguinte à data da fatura, até o final do período da assinatura. Você pode [atualizar suas informações de cartão de crédito](add-update-or-remove-credit-card-or-bank-account.md) sempre que precisar. Você também pode optar por [Receber uma cópia do seu demonstrativo por email](#receive-a-copy-of-your-billing-statement-in-email).
+Ao pagar com cartão de crédito, você será cobrado automaticamente pela sua assinatura no dia seguinte à data da fatura, até o final do período da assinatura. Você pode [gerenciar métodos de pagamento](manage-payment-methods.md) sempre que precisar. Você também pode optar por [Receber uma cópia do seu demonstrativo por email](#receive-a-copy-of-your-billing-statement-in-email).
 
 ### <a name="what-if-my-credit-card-was-declined-and-my-payment-is-past-due"></a>E se meu cartão de crédito for recusado e meu pagamento estiver vencido?
 
@@ -63,12 +63,12 @@ Se você pagar com cartão de crédito e ele for recusado, você receberá um em
 
 2. Localize a assinatura com o saldo pendente. Na seção de **Cobrança**, ao lado de **Assinatura tem um pagamento vencido**, selecione **Liquidar saldo**.
 
-3. Se você for o proprietário do cartão de crédito, poderá alterar a data de expiração do cartão, escolher um cartão diferente ou [adicionar um novo cartão](add-update-or-remove-credit-card-or-bank-account.md).
+3. Se você for o proprietário do cartão de crédito, poderá alterar a data de expiração do cartão, escolher um cartão diferente ou [adicionar um novo cartão](manage-payment-methods.md).
 
     > [!NOTE]
     > Ao usar o recurso **Liquidar saldo**, você será cobrado por todo o saldo pendente em sua conta, o que pode ser mais do que a quantia pendente exibida em outro lugar.
 
-4. Se você não for o proprietário do cartão de crédito, poderá escolher um cartão de crédito diferente ou [adicionar um novo cartão](add-update-or-remove-credit-card-or-bank-account.md).
+4. Se você não for o proprietário do cartão de crédito, poderá escolher um cartão de crédito diferente ou [adicionar um novo cartão](manage-payment-methods.md).
 
 5. Depois que você tiver atualizado as informações de cartão de crédito ou alterado o cartão usado para pagar pela assinatura, selecione **Salvar**.
 
@@ -80,12 +80,12 @@ Se você pagar com cartão de crédito e ele for recusado, você receberá um em
 
 2. Escolha a assinatura que você deseja alterar. Na seção **Minha fatura**, escolha **Pagar agora**.
 
-3. Se você for o proprietário do cartão de crédito, poderá alterar a data de expiração do cartão, escolher um cartão diferente ou [adicionar um novo cartão](add-update-or-remove-credit-card-or-bank-account.md).
+3. Se você for o proprietário do cartão de crédito, poderá alterar a data de expiração do cartão, escolher um cartão diferente ou [adicionar um novo cartão](manage-payment-methods.md).
 
     > [!NOTE]
     > Ao usar o recurso **Pagar agora**, você será cobrado por todo o saldo pendente em sua conta, o que pode ser mais do que a quantia pendente exibida em outro lugar.
 
-4. Se você não for o proprietário do cartão de crédito, poderá escolher um cartão de crédito diferente ou [adicionar um novo cartão](add-update-or-remove-credit-card-or-bank-account.md).
+4. Se você não for o proprietário do cartão de crédito, poderá escolher um cartão de crédito diferente ou [adicionar um novo cartão](manage-payment-methods.md).
 
 5. Depois que você tiver atualizado as informações de cartão de crédito ou alterado o cartão usado para pagar pela assinatura, escolha **Enviar**. Você verá uma mensagem de confirmação que diz: "Sua forma de pagamento foi atualizada e todos os encargos pendentes foram corrigidos. Obrigado."
 
@@ -311,6 +311,6 @@ Se seus motivos para ter escolhido fatura ou cartão de crédito mudarem, por ex
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Adicionar, atualizar ou remover um cartão de crédito](add-update-or-remove-credit-card-or-bank-account.md)
+[Gerenciar métodos de pagamento](manage-payment-methods.md)
 
 [Entenda sua conta ou fatura](understand-your-invoice2.md)

@@ -17,16 +17,16 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como criar regras de fluxo de emails (regras de transporte) para identificar mensagens e definir o nível de confiança de spam (SCL) das mensagens na proteção do Exchange Online.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9af154a9f71992597e111147b792cd5286e2ad3
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 223e676579c99eca7db641146d3a1b6bd22f9ca2
+ms.sourcegitcommit: 1f3101326e8a54b9bda4ba0324eae00fafcf5e7b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208556"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44405114"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages-in-eop"></a>Usar regras de fluxo de emails para definir o nível de confiança de spam (SCL) em mensagens no EOP
 
-Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP usa políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) para examinar mensagens de entrada para spam. Para obter mais informações, consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md).
+Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP usa políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) para examinar mensagens de entrada para spam. Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
 
 Se você deseja marcar mensagens específicas como spam antes que elas sejam verificadas por filtragem de spam ou marcar mensagens para que elas ignorem a filtragem de spam, você pode criar regras de fluxo de emails (também conhecidas como regras de transporte) para identificar as mensagens e definir o SCL (nível de confiança de spam). Para obter mais informações sobre o SCL, consulte [nível de confiança de spam (SCL) no EOP](spam-confidence-levels.md).
 
@@ -54,7 +54,7 @@ Se você deseja marcar mensagens específicas como spam antes que elas sejam ver
 
    - **Faça o seguinte**: selecione **modificar as propriedades da mensagem** \> **definem o nível de confiança de spam (SCL)**. Na caixa de diálogo **especificar SCL** exibida, configure um dos seguintes valores:
 
-   - **Ignorar filtragem de spam**: isso define o SCL como-1, o que significa que as mensagens irão ignorar a filtragem de spam.
+   - **Ignorar filtragem de spam**: as mensagens irão ignorar a filtragem de spam.
 
      > [!CAUTION]
      > Tenha muito cuidado para permitir que as mensagens ignorem a filtragem de spam. Os invasores podem usar essa vulnerabilidade para enviar phishing e outras mensagens mal-intencionadas para sua organização. As regras de fluxo de emails exigem mais do que apenas o domínio ou endereço de email do remetente. Para obter mais informações, consulte [criar listas de remetentes seguros no EOP](create-safe-sender-lists-in-office-365.md).

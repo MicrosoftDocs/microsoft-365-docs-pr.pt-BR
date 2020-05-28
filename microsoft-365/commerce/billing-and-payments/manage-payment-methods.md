@@ -17,18 +17,19 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 - BEA160
 description: Saiba como gerenciar seus métodos de pagamento no centro de administração do Microsoft 365.
-ms.openlocfilehash: d31da19c10eb61719ba813d271dbdcf573a5aff3
-ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
+ms.openlocfilehash: 0320f71180a5c2c127217ebf01854943409e6386
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44322154"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403673"
 ---
 # <a name="manage-payment-methods"></a>Gerenciar métodos de pagamento
 
@@ -70,7 +71,7 @@ A adição de um método de pagamento não associa nenhuma assinatura a ela. Par
 
 4. Insira as informações para o novo cartão ou conta bancária e, em seguida, selecione **Adicionar**.
 
-## <a name="update-payment-method-details"></a>Detalhes da atualização de método de pagamento
+## <a name="update-payment-method-details"></a>Atualizar detalhes de método de pagamento
 
 Você pode alterar o nome no cartão de crédito ou débito, no endereço de cobrança ou na data de vencimento de uma forma de pagamento existente. No entanto, não é possível alterar o número do cartão ou da conta. Se o número da conta tiver sido alterado, [substitua-o por outro método de pagamento](#replace-a-payment-method)e [exclua o antigo](#delete-a-payment-method).
 
@@ -86,9 +87,9 @@ Você pode alterar o nome no cartão de crédito ou débito, no endereço de cob
 1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > **Payment methods** .
 ::: moniker-end
 
-2. Selecione a linha do método de pagamento a ser atualizada. No painel direito, selecione **Editar**.
+2. Selecione a linha do método de pagamento a ser atualizado. No painel direito, selecione **Editar**.
 
-3. Atualize suas informações de método de pagamento, incluindo o nome no cartão de crédito ou débito, endereço de cobrança ou data de expiração e selecione **salvar**.
+3. Atualize suas informações de método de pagamento, inclusive o nome no cartão de crédito ou de débito, no endereço de cobrança ou na data de vencimento e selecione **Salvar**.
 
 ## <a name="replace-a-payment-method"></a>Substituir uma método de pagamento
 
@@ -108,19 +109,19 @@ Para alterar a forma de pagamento de uma única assinatura, confira [alterar um 
 1. No centro de administração, vá para a página métodos de pagamento **de faturas** > **& pagamentos** > **Payment methods** .
 ::: moniker-end
 
-2. Selecione a linha do método de pagamento a ser substituída. O painel direito lista todos os perfis de cobrança e assinaturas individuais que usam a forma de pagamento selecionada.
+2. Selecione a linha do método de pagamento a ser substituído. O painel direito lista todos os perfis de cobrança e assinaturas individuais que usam o método de pagamento selecionado.
 
-3. No painel direito, selecione **substituir método de pagamento para todos os itens**.
+3. No painel direito, marque **Substituir o método de pagamento para todos os itens**.
 
-4. Para usar um método de pagamento existente, escolha um na lista suspensa e selecione **substituir**.
+4. Para usar um método de pagamento existente, escolha um na lista suspensa e selecione **Substituir**.
     > [!NOTE]
-    > Se você tiver assinaturas associadas a um perfil de cobrança, só poderá usar um cartão de crédito ou débito para pagar por eles. Se você tiver contas bancárias listadas na página **métodos de pagamento** , elas não estarão disponíveis para seleção na lista suspensa.
+    > Se você tiver assinaturas associadas a um perfil de cobrança, só poderá usar um cartão de crédito ou débito para pagar por eles. Se você tiver contas bancárias listadas na página **Métodos de pagamento**, elas não estarão disponíveis para seleção na lista suspensa.
 
-5. Para adicionar um novo método de pagamento, selecione **Adicionar método de pagamento**.
+5. Para adicionar um novo método de pagamento, marque**Adicionar método de pagamento**.
 
-6. No painel **Adicionar um método de pagamento** , insira as informações da conta e, em seguida, selecione **salvar**. Você deve usar um método de pagamento do mesmo país do seu locatário.
+6. No painel **Adicionar um método de pagamento**, insira as informações da conta e, em seguida, selecione **Salvar**. Você deve usar um método de pagamento do mesmo país do seu locatário.
 
-7. A nova forma de pagamento já está selecionada na lista suspensa. Selecione **substituir**.
+7. O novo método de pagamento já está selecionado na lista suspensa. Selecione **Substituir**.
 
 ## <a name="change-a-payment-method-for-a-single-subscription"></a>Alterar um método de pagamento para uma única assinatura
 
@@ -198,11 +199,11 @@ Se um método de pagamento estiver anexado a qualquer assinatura ou perfil de co
     > [!NOTE]
     > Se você tiver assinaturas associadas a um perfil de cobrança, só poderá usar um cartão de crédito para pagar por elas. Se você tiver contas bancárias listadas na página **métodos de pagamento** , elas não estarão disponíveis para escolher na lista suspensa.
 
-5. Para adicionar um novo método de pagamento, selecione **Adicionar método de pagamento**.
+5. Para adicionar um novo método de pagamento, marque**Adicionar método de pagamento**.
 
 6. Escolha o tipo de método de pagamento que você deseja adicionar, insira as informações da conta e, em seguida, selecione **salvar**.
 
-7. A nova forma de pagamento já está selecionada na lista suspensa. Selecione **Avançar**.
+7. O novo método de pagamento já está selecionado na lista suspensa. Selecione **Avançar**.
 
 8. Selecione **Excluir**.
 

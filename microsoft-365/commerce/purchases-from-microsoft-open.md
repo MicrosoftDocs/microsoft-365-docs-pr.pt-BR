@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,12 +23,12 @@ search.appverid:
 ms.assetid: d7138188-086e-4a54-a155-11fa953c3930
 ROBOTS: NOINDEX
 description: Saiba como ativar, renovar ou adicionar licenças a uma assinatura do Microsoft 365 for Business.
-ms.openlocfilehash: 0f8233613f7929dad37167e7237be335d4e8f567
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 83b4ba3338db4351ef50af687d3632da83f45648
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165118"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44404677"
 ---
 # <a name="enter-your-product-key-purchased-from-microsoft-open"></a>Insira a chave do produto comprada da Microsoft Open
 
