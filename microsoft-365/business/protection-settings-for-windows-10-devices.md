@@ -22,18 +22,19 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: Saiba como criar uma política de gerenciamento de aplicativos e proteger arquivos de trabalho nos dispositivos do Windows 10 pessoais de seus usuários.
-ms.openlocfilehash: bbfb07302f2d77f7e66301723d176cf053f79cc1
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: c3e003205da30fa79069946960ef00e4195f0cbc
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561331"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386528"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Definir configurações de proteção de aplicativo para dispositivos Windows 10
 
@@ -43,7 +44,7 @@ Se seus usuários possuírem dispositivos pessoais do Windows 10 nos quais execu
   
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. No painel de navegação esquerdo, escolha **Adicionar** **políticas** \> de **dispositivos** \> .
+2. No painel de navegação esquerdo, **Devices** escolha \> **Policies** \> **Adicionar**políticas de dispositivos.
 
 3. No painel **Adicionar política**, insira um nome exclusivo para essa política. 
     

@@ -15,17 +15,18 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9cdfa29d-7681-4af2-a79d-3e72e7ab9778
 description: Adicione novos funcionários à Microsoft 365 for Business para email, Skype e aplicativos do Office.
-ms.openlocfilehash: f25f9445cba31942a58c656d8d7f212dc093024d
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 0df9ed292cd4d8010c779cb822b84f9916cf1928
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049492"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387304"
 ---
 # <a name="add-a-new-employee-to-microsoft-365"></a>Adicionar um novo funcionário ao Microsoft 365
 
@@ -63,7 +64,7 @@ Como eles ainda não terão acesso ao email, não envie as informações para es
 
 Assim como o Facebook, Amazon ou Gmail, seu funcionário entra em usar o Microsoft 365. Forneça as seguintes informações de entrada:
   
-- Entre em [https://www.office.com](https://www.office.com).
+- Entre em [https://www.office.com](https://www.office.com) .
     
 - Selecione **entrar**e digite a ID de usuário e a senha.
     
@@ -76,7 +77,7 @@ E aqui está uma referência rápida para ajudar a começar:
   
 |**Tarefa**|**Encontre os detalhes**|
 |:-----|:-----|
-|Entrar no Office  <br/> |Vá para [https://www.office.com](https://www.office.com), selecione **entrar**e insira sua ID de usuário e senha.  <br/> |
+|Entrar no Office  <br/> |Vá para [https://www.office.com](https://www.office.com) , selecione **entrar**e insira sua ID de usuário e senha.  <br/> |
 |Instale os aplicativos do Office no seu computador.  <br/><br/> |Quando você entra, a Home Page tem um link para baixar e instalar aplicativos como o Word e o Outlook.  Selecione **instalar o Office**.         Para obter instruções, consulte [como instalar o Office](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx).  <br/> |
 |Configure seu email no Outlook 2016.  <br/> |Depois que os aplicativos do Office estiverem instalados no computador, configure seu email. Para obter instruções, consulte [como configurar o Outlook](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx).  <br/> |
 |Configure o Skype for Business para que você possa se conectar com colegas de trabalho ou parceiros de negócios em sua empresa ou em todo o mundo. Você pode iniciar conversas com chamadas de mensagens instantâneas, voz ou vídeo.  <br/> |[Instale o Skype for Business em seu computador](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb.aspx).  <br/> <br/>Para saber como usar o Skype for Business, [Assista a um vídeo.](https://support.office.com/article/3a21eca4-434d-41f1-ab06-3d4a268573b7.aspx) <br/> <br/>Você configurou o Skype for Business para que seus funcionários possam entrar em contato com pessoas externas à sua empresa que estão usando o aplicativo gratuito do Skype? Caso contrário, informe o novo funcionário para que eles saibam o que esperar ao usar o Skype for Business.  <br/> |

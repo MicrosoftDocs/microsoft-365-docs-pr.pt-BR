@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: Saiba como permitir que os membros enviem email como um grupo do Microsoft 365 ou enviem email em nome de um grupo do Microsoft 365.
-ms.openlocfilehash: ce4527321468ee01864177fc1a607fab6a474481
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: a4d8cb65feab3fca69824adc8f7b4ef10e705d8c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049382"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44388132"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Permitir que os membros enviem como ou enviem em nome de um grupo
 
@@ -44,9 +45,9 @@ A permissão **enviar em nome** de permite que um usuário envie um email em nom
 
 Esta seção explica como permitir que os usuários enviem emails como um grupo no [centro de administração do Exchange](https://go.microsoft.com/fwlink/p/?linkid=2059104) (Eat) no Exchange Online.
   
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">centro de administração do Exchange</a>, vá para **grupos**de **destinatários** \> .
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">centro de administração do Exchange</a>, vá para grupos de **destinatários** \> **Groups**.
     
-2. Selecione **Editar**![ícone](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) de grupo no grupo para o qual você deseja permitir que os usuários enviem.   
+2. Selecione **Editar** ![ ícone de grupo ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) no grupo para o qual você deseja permitir que os usuários enviem.   
     
 3. Selecione **delegação de grupo**.
     
@@ -62,9 +63,9 @@ Esta seção explica como permitir que os usuários enviem emails como um grupo 
 
 Esta seção explica como permitir que os usuários enviem emails em nome de um grupo no centro de administração do Exchange (Eat) no Exchange Online.
   
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">centro de administração do Exchange</a>, vá para **grupos**de **destinatários** \> .
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">centro de administração do Exchange</a>, vá para grupos de **destinatários** \> **Groups**.
     
-2. Selecione **Editar** ![ícone](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) de grupo no grupo para o qual você deseja permitir que os usuários enviem. 
+2. Selecione **Editar** ![ ícone de grupo ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) no grupo para o qual você deseja permitir que os usuários enviem. 
     
 3. Selecione **delegação de grupo**.
     

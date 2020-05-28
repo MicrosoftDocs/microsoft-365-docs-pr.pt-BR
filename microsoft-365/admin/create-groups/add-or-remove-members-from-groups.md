@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -20,19 +21,19 @@ search.appverid:
 - BSA160
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Saiba como adicionar um membro a um grupo, remover membro do grupo e gerenciar o status do proprietário do grupo no centro de administração do Microsoft 365.
-ms.openlocfilehash: 96d9485821c27f2e9a4696401938da35a9996996
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 99f764c3fc0022a570af6f3dc232725025b4d32f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140550"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44388144"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Adicionar ou remover membros dos grupos do Microsoft 365 usando o centro de administração
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -45,7 +46,7 @@ No Microsoft 365, os membros do grupo normalmente criam seus próprios grupos, a
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .  
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .  
     
 2. Selecione um nome de grupo.
     
@@ -59,7 +60,7 @@ No Microsoft 365, os membros do grupo normalmente criam seus próprios grupos, a
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .  
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .  
     
 2. Selecione um nome de grupo.
     
@@ -73,7 +74,7 @@ No Microsoft 365, os membros do grupo normalmente criam seus próprios grupos, a
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .  
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .  
     
 2. Selecione um nome de grupo.
     
@@ -138,7 +139,7 @@ No Microsoft 365, os membros do grupo normalmente criam seus próprios grupos, a
  
 ::: moniker range="o365-worldwide"
  
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
     
 2. Selecione um nome de grupo.
     
@@ -152,7 +153,7 @@ No Microsoft 365, os membros do grupo normalmente criam seus próprios grupos, a
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
     
 2. Selecione um nome de grupo.
     
@@ -166,7 +167,7 @@ No Microsoft 365, os membros do grupo normalmente criam seus próprios grupos, a
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
     
 2. Selecione um nome de grupo.
     
@@ -186,7 +187,7 @@ Por padrão, a pessoa que criou o grupo é o proprietário dele. Muitas vezes, u
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
     
 2. Selecione um nome de grupo.
     
@@ -202,7 +203,7 @@ Por padrão, a pessoa que criou o grupo é o proprietário dele. Muitas vezes, u
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
     
 2. Selecione um nome de grupo.
 
@@ -218,7 +219,7 @@ Por padrão, a pessoa que criou o grupo é o proprietário dele. Muitas vezes, u
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
     
 2. Selecione um nome de grupo.
 
@@ -236,7 +237,7 @@ Por padrão, a pessoa que criou o grupo é o proprietário dele. Muitas vezes, u
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
     
 2. Selecione um nome de grupo.
     
@@ -250,7 +251,7 @@ Por padrão, a pessoa que criou o grupo é o proprietário dele. Muitas vezes, u
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
     
 2. Selecione um nome de grupo.
     
@@ -264,7 +265,7 @@ Por padrão, a pessoa que criou o grupo é o proprietário dele. Muitas vezes, u
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
     
 2. Selecione um nome de grupo.
     

@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Saiba como criar e excluir os grupos do Microsoft 365, adicionar e remover membros do grupo e personalizar como o grupo funciona.
-ms.openlocfilehash: a691f2363547c5bffb4c674d61cddde0cdb0266a
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 5e89c89c6b50e58f235877a61eaceaefe2bf6ee8
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049210"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44388012"
 ---
 # <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Criar um grupo no centro de administração do Microsoft 365
   

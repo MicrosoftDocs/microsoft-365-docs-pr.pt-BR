@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 4fe7f6ac-be8e-4b57-9e13-24ff889a4b28
 description: Saiba como usar filtros para criar, editar ou excluir o modo de exibição do usuário personalizado no Microsoft 365.
-ms.openlocfilehash: 94a9ad7de8bc8e0692d97fda56200cf668b1e5f8
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: faea21f0e5142d197cc2b90d6ade99490f9f88e3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617255"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387208"
 ---
 # <a name="create-edit-or-delete-a-custom-user-view-in-office-365"></a>Criar, editar ou excluir uma exibição de usuário personalizada no Office 365
 

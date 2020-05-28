@@ -18,6 +18,7 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
@@ -26,12 +27,12 @@ search.appverid:
 ms.assetid: 9b23c065-eef9-4bf7-acf5-127eb46d5e67
 ROBOTS: NOINDEX
 description: 'Entenda o que você precisa saber antes de passar pelo processo de inscrição do Office 365. '
-ms.openlocfilehash: 45f7603df814e2088506929d309266ef19ffc7ab
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2778dda03c517e176fbab044243306fb51355396
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43623889"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386752"
 ---
 # <a name="how-to-sign-up---admin-help"></a>Como inscrever-se na ajuda do administrador
 
@@ -146,4 +147,4 @@ Não é necessário cancelar a avaliação. Se você não comprar a assinatura d
 
 ## <a name="see-also"></a>Confira também
 
-[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

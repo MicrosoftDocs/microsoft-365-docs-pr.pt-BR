@@ -11,6 +11,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -18,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: c2ce12a2-934f-4dd4-ba65-49b02be4703d
 description: Saiba como obter o relatório de uso de aplicativos de email para saber mais sobre os aplicativos de email que se conectam ao Exchange Online e os usuários da versão do Outlook estão usando o.
-ms.openlocfilehash: 5bdd62d150cf103cd3c3520cf5a0c593dceb8e66
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 80f05e4b356655c859536a46868e7ffde7cdebdb
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046850"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387760"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-apps-usage"></a>Relatórios do Microsoft 365 no centro de administração-uso de aplicativos de email
 
@@ -37,7 +38,7 @@ O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividade
 1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 
     
-2. No menu suspenso **selecionar um relatório** , selecione o **uso do aplicativo de email**do **Exchange** \> .
+2. No menu suspenso **selecionar um relatório** , selecione o uso do aplicativo de email do **Exchange** \> **Email app usage**.
   
 ## <a name="interpret-the-email-apps-report"></a>Interpretar o relatório de aplicativos de email
 
@@ -53,7 +54,7 @@ Você pode obter uma visão da atividade aplicativos de email examinando os grá
 |4.  <br/> |O modo de exibição de **Aplicativos** mostra o número de usuários únicos por aplicativo no intervalo de tempo selecionado.  <br/> |
 |5.  <br/> |O modo de exibição de **versões** mostra o número de usuários exclusivos para cada versão do Outlook no Windows.  <br/> |
 |6.  <br/> | No gráfico **Usuários**, o eixo Y é a contagem total de usuários exclusivos conectados a um aplicativo em um dia do período do relatório.  <br/>  No gráfico **Usuários**, o eixo X é o número de usuários exclusivos que usaram o aplicativo nesse período do relatório.  <br/>  No gráfico **Aplicativos**, o eixo Y é a contagem total de usuários únicos que usaram um aplicativo específico durante o período do relatório.  <br/>  No gráfico **Aplicativos**, o eixo X é a lista de aplicativos em sua organização.  <br/>  No gráfico **Versões**, o eixo Y é a contagem total de usuários exclusivos usando uma versão específica da área de trabalho do Outlook. Se o relatório não puder resolver o número de versão do Outlook, a quantidade mostrará como Indeterminada.  <br/>  No gráfico **Versões**, o eixo X é a lista de aplicativos em sua organização.  <br/> |
-|7.  <br/> |Você pode filtrar a série que vê no gráfico por selectingan item na legenda. Por exemplo, no gráfico **usuários** , selecione **Mac mail** ou lista de clientes de email do **Outlook** ![. Selecione o cliente de email para obter mais dados de relatório no cliente.](../../media/19b9da1b-7b69-4a04-8527-38349f859e84.png) para ver apenas as informações relacionadas a cada um deles. Ao alterar essa seleção, as informações da tabela não mudam. Mac Mail, Outlook para Mac, Outlook Mobile, Outlook para área de trabalho e Outlook na Web são exemplos de aplicativos de email que talvez você tenha em sua organização.  <br/> |
+|7.  <br/> |Você pode filtrar a série que vê no gráfico por selectingan item na legenda. Por exemplo, no gráfico **usuários** , selecione **Mac mail** ou **Outlook** ![ lista de clientes de email do Outlook. Selecione o cliente de email para obter mais dados de relatório no cliente.](../../media/19b9da1b-7b69-4a04-8527-38349f859e84.png) para ver apenas as informações relacionadas a cada um deles. Ao alterar essa seleção, as informações da tabela não mudam. Mac Mail, Outlook para Mac, Outlook Mobile, Outlook para área de trabalho e Outlook na Web são exemplos de aplicativos de email que talvez você tenha em sua organização.  <br/> |
 |8.  <br/> | É possível que você não veja todos os itens da lista abaixo nas colunas até que os adicione.<br/> **Username** é o nome do proprietário do aplicativo de email.  <br/> A **data da última atividade** é a última data em que o usuário leu ou enviou uma mensagem de email.  <br/> **Mac mail**, **Outlook para Mac** e **Outlook**, **Outlook Mobile** e **Outlook na Web** são exemplos de aplicativos de email que talvez você tenha em sua organização.  <br/>  Se as políticas da organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar as configurações de privacidade para todos esses relatórios. Confira a seção **como ocultar detalhes de nível de usuário?** nos [relatórios de atividades no centro de administração do Microsoft 365](activity-reports.md).  <br/> |
 |9.  <br/> |Selecione **gerenciar colunas** para adicionar ou remover colunas do relatório.  <br/> ![Relatório de uso de aplicativos de email-escolher colunas](../../media/c17b2a5c-db41-474a-8334-0e5a621b2f16.png)|
 |10.  <br/> |Você também pode exportar os dados do relatório para um arquivo. csv do Excel, selecionando o link de **exportação** . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados.  <br/> |

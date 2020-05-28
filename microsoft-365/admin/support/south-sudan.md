@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 53b3c84918f605eb0b08a7556ecb7c78540b67d1
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 11f84bf9bb6ec37a92e26fa01272e40951ac4c95
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42356292"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386456"
 ---
 # <a name="contact-support-for-south-sudan"></a>Contatar o suporte para Sudão do Sul
 

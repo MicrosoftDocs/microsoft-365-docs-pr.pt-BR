@@ -15,23 +15,24 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 description: Você pode criar e usar um modelo para economizar tempo e padronizar as configurações ao adicionar vários usuários.
-ms.openlocfilehash: a39ad3df7928e45f7cb93a13c6ffc40111f2ee48
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 3173d28f27acdf1a084137d36cd71894e94e9547
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140647"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387220"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>Criar e usar um modelo para adicionar usuários
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -39,7 +40,7 @@ Você pode criar e usar um modelo para economizar tempo e padronizar as configur
 
 ## <a name="create-a-template"></a>Criar um modelo
 
-Os modelos são fáceis de&mdash;criar é possível selecionar **os** > **modelos de usuário****ativos** > dos usuários e, em seguida, selecionar **Adicionar um modelo** na lista suspensa ou adicionar um novo usuário e quando terminar, você terá a opção de salvar a entrada como um modelo.
+Os modelos são fáceis de criar &mdash; é possível selecionar **os**  >  **Active users**  >  **modelos de usuário**ativos dos usuários e, em seguida, selecionar **Adicionar um modelo** na lista suspensa ou adicionar um novo usuário e quando terminar, você terá a opção de salvar a entrada como um modelo.
 
 Quando você cria um modelo após adicionar um usuário, os valores escolhidos para as seguintes configurações são salvos no modelo:
 
@@ -68,12 +69,12 @@ Ao criar um modelo selecionando a opção **Adicionar um modelo** , você pode e
 
 Para usar um modelo existente para adicionar um usuário:
 
-1. No centro de administração, selecione usuários**ativos**do **usuário** > .
+1. No centro de administração, selecione usuários ativos do **usuário**  >  **Active users**.
 
 2. Selecione **modelos de usuário**e, em seguida, selecione um modelo na lista suspensa. (A lista conterá apenas os modelos criados, e não os criados por outros administradores.)
 
  > [!NOTE]
- > Você também pode usar um modelo para adicionar um usuário selecionando **modelos** > de usuário**gerenciar modelos**, selecionando um modelo e, em seguida, selecionando **usar modelo**.
+ > Você também pode usar um modelo para adicionar um usuário selecionando **modelos de usuário**  >  **gerenciar modelos**, selecionando um modelo e, em seguida, selecionando **usar modelo**.
 
 3. Siga as etapas para criar um usuário a partir do modelo selecionado.
 
@@ -84,7 +85,7 @@ Para usar um modelo existente para adicionar um usuário:
 
 Você pode excluir facilmente modelos que não são mais necessários e adicionar novos. Para excluir um modelo:
 
-1. No centro de administração, selecione usuários**ativos**do **usuário** > .
+1. No centro de administração, selecione usuários ativos do **usuário**  >  **Active users**.
 
 2. Selecione **modelos**e, em seguida, selecione **gerenciar modelos** na lista suspensa.
 

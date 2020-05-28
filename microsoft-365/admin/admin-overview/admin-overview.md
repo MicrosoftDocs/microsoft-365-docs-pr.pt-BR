@@ -1,5 +1,5 @@
 ---
-title: Visão geral do centro de administração
+title: Visão geral do Centro de administração
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -13,20 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: c7228a3e-061f-4575-b1ef-adf1d1669870
 description: 'Saiba mais sobre o centro de administração do Microsoft 365: como entrar, quem é seu administrador e assista a uma introdução de vídeo sobre ele.'
-ms.openlocfilehash: 79c43c0f918c8d4793b02bea08aa092e3a5ef421
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 84c8ef52c4cd3bf687a0849e1e3b1a25f9b31f4d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43623959"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386932"
 ---
-# <a name="admin-center-overview"></a>Visão geral do centro de administração 
+# <a name="admin-center-overview"></a>Visão geral do Centro de administração 
 
   
 Quando você compra um plano [de aplicativos do microsoft 365 para empresas](https://go.microsoft.com/fwlink/?linkid=856886) ou um [plano do Microsoft 365 para empresas](https://www.microsoft.com/microsoft-365/business), fornecemos uma conta especial com permissões de administrador. Essa conta é chamada de conta de administrador.
@@ -35,19 +36,19 @@ Com essa conta, você pode acessar o centro de administração do Microsoft 365 
   
 ::: moniker range="o365-worldwide"
 
- **Entre com sua conta de administrador em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.**
+ **Entre com sua conta de administrador em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .**
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-**Entre com sua conta de administrador no Office 365 Alemanha em <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>.**
+**Entre com sua conta de administrador no Office 365 Alemanha em <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a> .**
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-**Entre com sua conta de administrador no Office 365 operado pela 21Vianet <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>em.**
+**Entre com sua conta de administrador no Office 365 operado pela 21Vianet em <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a> .**
 
 ::: moniker-end
 

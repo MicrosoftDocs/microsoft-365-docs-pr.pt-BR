@@ -11,18 +11,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 - GEA150
 description: Saiba como obter um relatório de atividades do Microsoft Forms pro usando o painel de relatórios do Microsoft 365 no centro de administração do Microsoft 365.
-ms.openlocfilehash: b86fffe580e67e86999379cc3186465dcfc7fed8
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: df03f3f0300dcd923f43987ee786981b1653b1ce
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804812"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387700"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-pro-activity"></a>Relatórios do Microsoft 365 no centro de administração – atividade do Forms pro
 
@@ -38,7 +39,7 @@ Por exemplo, você pode entender a atividade de cada usuário licenciado para us
 1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 
     
-2. No menu suspenso **selecionar um relatório** , selecione **atividade**do **Forms pro** \> .
+2. No menu suspenso **selecionar um relatório** , selecione atividade do **Forms pro** \> **activity**.
 
 ## <a name="interpret-the-forms-activity-report"></a>Interpretar o relatório de atividades de formulários
 

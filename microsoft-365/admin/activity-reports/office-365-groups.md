@@ -11,6 +11,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -18,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: Obtenha um relatório do Microsoft 365 groups para saber mais sobre os grupos e suas atividades.
-ms.openlocfilehash: f1d1c333946f20ecfb76223d79a38e1a18783550
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: 5c89cc6b5b211cbba3414f61d6b15c0c62f54c73
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516848"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387556"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Relatórios do Microsoft 365 no centro de administração-Microsoft 365 grupos
 
@@ -37,7 +38,7 @@ O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividade
 1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 
     
-2. No menu suspenso **selecionar um relatório** , selecione **atividade de grupos** **do Office 365** \> .
+2. No menu suspenso **selecionar um relatório** , selecione atividade de **grupos do Office 365** \> **Groups activity**.
   
 ## <a name="interpret-the-groups-report"></a>Interpretar o relatório de grupos
 
@@ -54,9 +55,9 @@ Você pode obter uma visão da atividade de grupos examinando os gráficos de **
 |5.  <br/> |O modo de exibição **arquivos** mostra o número total e os arquivos ativos em todos os sites de grupo associados a um grupo.  <br/> |
 |6.  <br/> |O modo de exibição **Armazenamento** mostra o total de armazenamento usado em todos os sites do grupo e nas caixas de correio do grupo.  <br/> |
 |7.  <br/> | Na gráfico **Grupos**, o eixo Y é o número de grupos (que podem ser vistos como total versus ativos).  <br/>  No gráfico **atividade** , o eixo Y é o número de vezes que uma atividade foi realizada em grupos.  <br/>  No gráfico **Arquivos**, o eixo Y é o número total de arquivos ou de arquivos ativos.  <br/>  No gráfico **Armazenamento**, o eixo Y é o armazenamento total usado pelo site ou pela caixa de correio do grupo.  <br/>  O eixo X em todos os três gráficos é o intervalo de datas selecionado para esse relatório específico.  <br/> |
-|8.  <br/> |Você pode filtrar a série que vê no gráfico selecionando um item na legenda. Por exemplo, no gráfico **grupos** **, selecione total ou** total **ativo** ![e número ativo de grupos](../../media/8eebd496-5955-4419-8d53-5f3ba1ad1c88.png) para ver apenas as informações relacionadas a cada um. Ao alterar essa seleção, as informações da tabela não mudam.  <br/> |
+|8.  <br/> |Você pode filtrar a série que vê no gráfico selecionando um item na legenda. Por exemplo, no gráfico **grupos** **, selecione total** ou total **ativo** ![ e número ativo de grupos ](../../media/8eebd496-5955-4419-8d53-5f3ba1ad1c88.png) para ver apenas as informações relacionadas a cada um. Ao alterar essa seleção, as informações da tabela não mudam.  <br/> |
 |9.  <br/> | A lista de grupos mostrada é determinada pelo conjunto de todos os grupos que existiram (que não foram excluídos) no mais amplo período de relatório (180 dias). A contagem de atividades (conversas de email, postagens do Yammer e atividades de arquivo do SharePoint) varia de acordo com a seleção da data.  <br/> Observação: Talvez você não veja todos os itens da lista abaixo nas colunas até que os adicione.<br/>**Nome do grupo** é o nome do grupo.  <br/> **Excluídos** é o número de grupos que foram excluídos. Se o grupo for excluído, mas tiver atividades no período do relatório, elas serão exibidas na grade com esse sinalizador definido como true.  <br/> **Proprietário do grupo** é o nome do proprietário do grupo.  <br/> A **data da última atividade** é a última data em que uma mensagem foi recebida pelo grupo. Esta é a última data em que uma atividade aconteceu em uma conversa por email, Yammer ou Site.  <br/> **Tipo** é o tipo de grupo. Pode ser um grupo público ou particular.  <br/> **Membros** é o número de membros do grupo.  <br/> **Membros externos** é o número de usuários externos do grupo.  <br/> **Exchange** <br/> **Emails recebidos** é o número de mensagens recebidas pelo grupo.  <br/> **Total de itens da caixa de correio** é o número total de itens na caixa de correio do grupo.  <br/> **Armazenamento de caixa de correio usado** é o armazenamento usado pela caixa de correio do grupo.  <br/> **Arquivos do SharePoint** <br/> **Total de arquivos** é o número de arquivos armazenados nos sites de grupo do SharePoint.  <br/> **Arquivos ativos** é o número de arquivos no site de grupo do SharePoint que foram tratados (visualizados ou modificados, sincronizados, compartilhados interna ou externamente) durante o período do relatório.  <br/> **Armazenamento utilizado (MB) do site** é a quantidade de armazenamento em MB usado durante o período do relatório.  <br/> **Mensagens do Yammer** <br/> **Postadas** é o número de mensagens postadas no grupo do Yammer durante o período do relatório.  <br/> **Lidas** é o número de mensagens lidas no grupo do Yammer durante o período do relatório.  <br/> **Curtidas** é o número de mensagens curtidas no grupo do Yammer durante o período do relatório.  <br/>  Se as políticas da organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar as configurações de privacidade para todos esses relatórios. Confira a seção **como ocultar detalhes de nível de usuário?** nos [relatórios de atividades no centro de administração do Microsoft 365](activity-reports.md).  <br/> |
-|254  <br/> |Selecione ou toque em **mais** ![ações o Outlook OWA mais](../../media/80044eef-2368-4c7e-8d31-7155b029e0cf.png) ações ao lado de um título de coluna para adicionar ou remover colunas do relatório.  <br/> ![Relatório de grupos-escolher colunas](../../media/d7fb95d6-2a2e-4144-b80d-581223e48043.png)|
+|254  <br/> |Selecione ou toque em **mais** ações ![ o Outlook OWA mais ações ](../../media/80044eef-2368-4c7e-8d31-7155b029e0cf.png) ao lado de um título de coluna para adicionar ou remover colunas do relatório.  <br/> ![Relatório de grupos-escolher colunas](../../media/d7fb95d6-2a2e-4144-b80d-581223e48043.png)|
 |11  <br/> |Você também pode exportar os dados do relatório para um arquivo. csv do Excel selecionando o link de **exportação** . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados.  <br/> |
 |||
    

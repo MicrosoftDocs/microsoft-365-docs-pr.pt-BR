@@ -14,6 +14,9 @@ ms.collection:
 - Adm_O365
 - Adm_O365_Setup
 - Adm_TOC
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,13 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: Saiba como verificar quais assinaturas sua organização acessará a página assinaturas.
-ms.custom: okr_SMB
-ms.openlocfilehash: b855c533627aadf6117e6830d7484276003ea665
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 438d9932b2e0dcce0e75e0d979908cdab5979f13
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045207"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386740"
 ---
 # <a name="what-subscription-do-i-have"></a>Qual assinatura eu tenho?
 
@@ -40,7 +42,7 @@ Se você é um administrador, é possível verificar quais assinaturas sua organ
 > [!NOTE]
 > Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
-1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 
 2. Suas assinaturas são exibidas na página **produtos** , juntamente com o nome da assinatura, informações sobre a assinatura e seu status. Para ver uma exibição condensada, selecione **modo de exibição de tabela**.
 
@@ -48,7 +50,7 @@ Se você é um administrador, é possível verificar quais assinaturas sua organ
   
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">assinaturas</a> de **cobrança** \>.  
+1. No centro de administração, vá para a **Billing** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">assinaturas</a> de cobrança.  
 
 2. Se você tiver apenas uma assinatura, ela será exibida na página **Assinaturas**, junto com o nome da assinatura, as informações sobre a assinatura e seu status. Na captura de tela a seguir, você pode ver que eu tenho uma assinatura do Microsoft 365 Apps for Business.
 
@@ -67,7 +69,7 @@ Se você é um administrador, é possível verificar quais assinaturas sua organ
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">assinaturas</a> de **cobrança** \>.  
+1. No centro de administração, vá para a **Billing** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">assinaturas</a> de cobrança.  
 
 2. Se você tiver apenas uma assinatura, ela será exibida na página **Assinaturas**, junto com o nome da assinatura, as informações sobre a assinatura e seu status. Na captura de tela a seguir, você pode ver que eu tenho uma assinatura do Microsoft 365 Apps for Business.
 

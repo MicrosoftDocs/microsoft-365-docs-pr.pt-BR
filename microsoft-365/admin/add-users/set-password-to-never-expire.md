@@ -15,24 +15,25 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Saiba como definir que algumas senhas de usuário individuais nunca expirem, usando o Windows PowerShell.
-ms.openlocfilehash: 3d5d65f687a5ed02e0e20ff77482f7bef5b6b695
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: 6562a4092c47d9c4bf7bf294767e6050a3e0577a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173491"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386993"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Definir a senha de um usuário individual para nunca expirar
 
 ## <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
-1. No centro de administração, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">configurações</a> de **configurações** \> .
+1. No centro de administração, vá para a **Settings** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">configurações</a> de configurações.
 2. Na parte superior da página configurações, selecione **segurança & privacidade**.
 3. Selecione **Política de expiração de senha**. 
 4. Se as senhas estiverem definidas para nunca expirar, clique na caixa de seleção ao lado de **definir senhas de usuário para expirar após um número de dias**. Você terá a opção de especificar o número de dias até que as senhas expirem.
@@ -127,4 +128,4 @@ Execute um dos seguintes comandos:
     ```
 
 > [!WARNING]
-> As senhas definidas `-PasswordPolicies DisablePasswordExpiration` como idade ainda com base `pwdLastSet` no atributo. Se você definir as senhas do usuário para nunca expirar e, em seguida, 90 dias por diante, as senhas expirarão. Com base no `pwdLastSet` atributo, se você alterar a expiração `-PasswordPolicies None`para, todas as senhas com `pwdLastSet` mais de 90 dias exigirão que o usuário as altere na próxima vez que entrar. Essa alteração pode afetar um grande número de usuários.
+> As senhas definidas como `-PasswordPolicies DisablePasswordExpiration` idade ainda com base no `pwdLastSet` atributo. Se você definir as senhas do usuário para nunca expirar e, em seguida, 90 dias por diante, as senhas expirarão. Com base no `pwdLastSet` atributo, se você alterar a expiração para `-PasswordPolicies None` , todas as senhas com `pwdLastSet` mais de 90 dias exigirão que o usuário as altere na próxima vez que entrar. Essa alteração pode afetar um grande número de usuários.

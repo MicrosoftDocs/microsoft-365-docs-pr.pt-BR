@@ -11,6 +11,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -18,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 87c24ae2-82e0-4d1e-be01-c3bcc3f18c60
 description: Saiba como obter um relatório de ativação do Office para saber quais usuários ativaram a assinatura do Office e identifique os usuários que podem precisar de mais ajuda.
-ms.openlocfilehash: 632973c8d50dffd50725c46163e0af874c64b0c6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3b7d3e599d31377fb11a07623a53a3c75dced129
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621217"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387736"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-office-activations"></a>Relatórios do Microsoft 365 no centro de administração-ativações do Microsoft Office
 
@@ -39,7 +40,7 @@ O relatório Ativação do Office oferece uma visão de quais usuários têm a a
 1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 
     
-2. No menu suspenso **selecionar um relatório** , selecione as **ativações** **do Office 365** \> . 
+2. No menu suspenso **selecionar um relatório** , selecione as ativações **do Office 365** \> **Activations**. 
   
 ## <a name="interpret-the-office-activations-report"></a>Interpretação do relatório de ativações do Office
 
@@ -49,7 +50,7 @@ Você pode analisar as ativações do Office na sua organização olhando os gr�
   
 |||
 |:-----|:-----|
-|1  <br/> |O relatório Ativações do Office apresenta o estado atual dos dados de ativações de licença do Office [na data do relatório apresentado na parte superior direita do gráfico].  <br/> |
+|1   <br/> |O relatório Ativações do Office apresenta o estado atual dos dados de ativações de licença do Office [na data do relatório apresentado na parte superior direita do gráfico].  <br/> |
 |duas  <br/> |Os dados em cada relatório normalmente cobrem até as últimas 24 a 48 horas.  <br/> |
 |3D  <br/> |O gráfico **Ativações** mostra a contagem de ativações do Office em computadores e dispositivos.  <br/> |
 |4   <br/> |O gráfico **Usuários** mostra a contagem de usuários que estão habilitados e quais usuários ativaram a assinatura do Office em computadores e dispositivos.  <br/> |

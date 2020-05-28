@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MST160
@@ -20,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
 description: Saiba como criar uma política de nomenclatura para os grupos do Microsoft 365.
-ms.openlocfilehash: 2d8b016e0830f0d20ea6fb6227dd7789878bfc94
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 38b5bbed0c6e4c12af2f529568a53df329d9a933
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630438"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44388000"
 ---
 # <a name="groups-naming-policy"></a>Política de nomeação de grupos
 
@@ -38,7 +39,7 @@ A política de nomenclatura é aplicada a grupos criados em todas as cargas de t
 
 A política de nomeação de grupo consiste nos seguintes recursos:
 
-- **Política de nomenclatura de sufixo de prefixo**: você pode usar prefixos ou sufixos para definir a Convenção de nomenclatura de grupos (\_por exemplo\_: "minha engenharia de grupo dos EUA"). Os prefixos/sufixos podem ser cadeias de caracteres fixas ou atributos de usuário como [departamento] que serão substituídos com base no usuário que está criando o grupo.
+- **Política de nomenclatura de sufixo de prefixo**: você pode usar prefixos ou sufixos para definir a Convenção de nomenclatura de grupos (por exemplo: " \_ minha engenharia de grupo dos EUA \_ "). Os prefixos/sufixos podem ser cadeias de caracteres fixas ou atributos de usuário como [departamento] que serão substituídos com base no usuário que está criando o grupo.
 
 - **Palavras bloqueadas personalizadas**: você pode carregar um conjunto de palavras bloqueadas específicas para sua organização que seriam bloqueados em grupos criados por usuários. (Por exemplo: "CEO, folha de pagamento, RH").
 
@@ -54,7 +55,7 @@ Os prefixos e sufixos podem ser cadeias de caracteres fixas ou atributos de usu�
 
 ### <a name="fixed-strings"></a>Cadeias de caracteres fixas
 
-Você pode usar cadeias de caracteres curtas que podem ajudá-lo a diferenciar grupos na GAL e à navegação à esquerda das cargas de trabalho do grupo. Alguns dos sufixos de prefixos comuns são palavras-chave como\_"GRP Name"\#, "Name"\_, "Name"
+Você pode usar cadeias de caracteres curtas que podem ajudá-lo a diferenciar grupos na GAL e à navegação à esquerda das cargas de trabalho do grupo. Alguns dos sufixos de prefixos comuns são palavras-chave como "GRP \_ name", " \# name", " \_ name"
 
 ### <a name="attributes"></a>Atributos
 
@@ -80,7 +81,7 @@ Os atributos do Azure Active Directory (Azure AD) com suporte são [departamento
 
 - Os prefixos e sufixos podem conter caracteres especiais compatíveis com o nome do grupo e o alias do grupo. Quando os prefixos e sufixos contêm caracteres especiais que não são permitidos no alias do grupo, eles são aplicados apenas ao nome do grupo. Portanto, nesse caso, os prefixos e sufixos aplicados ao nome do grupo seriam diferentes dos que foram aplicados ao alias do grupo.
 
-- Se você estiver usando os grupos conectados do Yammer Microsoft 365, evite usar os seguintes caracteres em sua política de nomenclatura \#: \[@ \], \<,, \>, e. Se esses caracteres estiverem na política de nomenclatura, os usuários normais do Yammer não poderão criar grupos.
+- Se você estiver usando os grupos conectados do Yammer Microsoft 365, evite usar os seguintes caracteres em sua política de nomenclatura: @, \# , \[ , \] , \<, and \> . Se esses caracteres estiverem na política de nomenclatura, os usuários normais do Yammer não poderão criar grupos.
 
 ## <a name="custom-blocked-words"></a>Palavras bloqueadas personalizadas
 

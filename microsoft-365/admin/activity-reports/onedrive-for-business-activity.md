@@ -12,6 +12,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - SPO_Content
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 - ODB160
 ms.assetid: 8bbe4bf8-221b-46d6-99a5-2fb3c8ef9353
 description: Obter o relatório de uso do OneDrive para sua organização e conhecer a atividade de cada usuário do OneDrive, o número de arquivos compartilhados e o uso do armazenamento.
-ms.openlocfilehash: b94e5e34f7599cc372b506c2c365503ea1334685
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 9de2260049d901b401bd62a9e4d05191222b97a3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43047080"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387532"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-activity"></a>Relatórios do Microsoft 365 no centro de administração-atividade do OneDrive for Business
 
@@ -47,7 +48,7 @@ Se você quiser entender a quantidade de atividade que está ocorrendo em cada c
 1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 
     
-2. Na lista suspensa **selecionar um relatório** , selecione **atividade**do **onedrive** \> .
+2. Na lista suspensa **selecionar um relatório** , selecione atividade do **onedrive** \> **Activity**.
   
 ## <a name="interpret-the-onedrive-for-business-activity-report"></a>Interpretar o relatório de atividades do OneDrive for Business
 
@@ -64,7 +65,7 @@ Você pode examinar a atividade do OneDrive for Business nos modos de exibição
 |5.  <br/> | No gráfico **Arquivos**, o eixo Y é a quantidade de arquivos exclusivos que um usuário salvou, sincronizou, modificou ou compartilhou.  <br/>  No gráfico **Usuários**, o eixo Y é o número de usuários exclusivos que executaram interações de arquivo (salvar, sincronizar, modificar ou compartilhar) em uma conta do OneDrive.  <br/>  O eixo X em todos os gráficos é o intervalo de datas selecionado para esse relatório específico.  <br/> |
 |6.  <br/> |Você pode filtrar a série que vê no gráfico selecionando um item na legenda. Por exemplo, no gráfico **arquivos** , selecione **exibido ou editado** ou **sincronizado** para ver apenas as informações relacionadas a cada um. Ao alterar essa seleção, as informações da tabela não mudam.  <br/> |
 |7.  <br/> | A tabela mostra o detalhamento dos dados no nível do usuário. Você pode adicionar ou remover colunas da tabela.   <br/>  **Username** é o nome de usuário do proprietário da conta do onedrive.  <br/> **Data da Última Atividade (UTC)** é a data mais recente de execução de uma atividade de arquivo na conta do OneDrive no intervalo de datas selecionado. Para ver a atividade que ocorreu em uma data específica, selecione a data diretamente no gráfico.  <br/> ![Selecionar uma data específica no gráfico](../../media/29e54c4b-8dc2-4ed8-9367-1f66f2988fac.png)  <br/>  Isso filtrará a tabela para exibir os dados de atividade de arquivo somente para os usuários que realizaram a atividade nesse dia específico.  <br/> **Arquivos exibidos ou editados** é o número de arquivos carregados, baixados, modificados ou exibidos pelo usuário.  <br/> **Arquivos sincronizados** é a quantidade de arquivos que foram sincronizados de um dispositivo de usuário local para a conta do OneDrive.  <br/> **Arquivos compartilhados internamente** é o número de arquivos que foram compartilhados com usuários dentro da organização ou com usuários dentro de grupos (que podem incluir usuários externos).  <br/> **Arquivos compartilhados externamente** é a quantidade de arquivos que foram compartilhados com os usuários de fora da organização.  <br/> **Excluída** indica que a licença do usuário foi removida.  <br/> Observação: a atividade de um usuário excluído ainda será exibida em um relatório, contanto que ele ou ela tenha sido licenciado em algum momento durante o período de tempo selecionado. A coluna **Excluído** ajuda você a observar que o usuário pode não estar mais ativo, mas contribuiu com os dados no relatório.<br/>**Data de exclusão** é a data na qual a licença do usuário foi removida.  <br/> **Produto atribuído** são os produtos da Microsoft 365 que são licenciados para o usuário.  <br/>  Se as políticas da sua organização impedem você de exibir relatórios onde as informações do usuário são identificáveis, você pode alterar a configuração de privacidade de todos esses relatórios. Confira a seção **como ocultar detalhes de nível de usuário?** nos [relatórios de atividades no centro de administração do Microsoft 365](activity-reports.md).  <br/> |
-|8.  <br/> |Selecione o ícone ![ **gerenciar colunas** gerenciar colunas](../../media/13d2e536-de88-4db3-80c7-7a3a57298eb4.png) para adicionar ou remover colunas do relatório.  <br/> |
+|8.  <br/> |Selecione o ícone **gerenciar colunas** ![ gerenciar colunas ](../../media/13d2e536-de88-4db3-80c7-7a3a57298eb4.png) para adicionar ou remover colunas do relatório.  <br/> |
 |9.  <br/> |Você também pode exportar os dados do relatório para um arquivo. csv do Excel, selecionando o link de **exportação** . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados.  <br/> |
 |||
    

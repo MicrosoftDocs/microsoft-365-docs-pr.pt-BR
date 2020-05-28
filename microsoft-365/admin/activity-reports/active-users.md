@@ -11,6 +11,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -18,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: fc1cf1d0-cd84-43fd-adb7-a4c4dfa8112d
 description: Saiba como obter um relatório de usuários ativos usando o painel de relatórios do Microsoft 365 no centro de administração do Microsoft 365 e saiba quantas licenças de produto estão sendo usadas.
-ms.openlocfilehash: e865fa1ed68e7e68c103bf6abc66816b844d7b2d
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 7f32059f01163a2a499f1befb9f4e3c519973549
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046838"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387892"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---active-users"></a>Relatórios do Microsoft 365 no centro de administração-usuários ativos
 
@@ -38,7 +39,7 @@ Por exemplo, você pode usar o relatório de **Usuários Ativos** para descobrir
 
 1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 
-2. Selecione **usuários ativos** do **Office 365** \> na lista suspensa. 
+2. Selecione **Office 365** \> **usuários ativos** do Office 365 na lista suspensa. 
 
 ## <a name="interpret-the-active-users-report"></a>Interpretar o relatório Usuários Ativos
 
@@ -50,7 +51,7 @@ Por exemplo, você pode usar o relatório de **Usuários Ativos** para descobrir
 |3.  <br/> |O gráfico **Usuários Ativos** mostra usuários ativos diariamente no período de referência separados por produto.  <br/> O gráfico **Serviços** mostra a contagem de usuários por tipo de atividade e serviço.  <br/> |
 |4.  <br/> | No gráfico **Usuários Ativos**, o eixo X mostra o período de referência selecionado, e o eixo Y exibe o usuários ativos diariamente separados e classificados por cores pelo tipo de licença.  <br/>  No gráfico de atividades **Serviços**, o eixo X exibe os serviços individuais para os quais seus usuários estão autorizados no período de tempo determinado, e o eixo Y é o número de usuários por status da atividade, classificados por cores pelo status da atividade.  <br/> |
 |5.  <br/> |Você pode filtrar a série que vê no gráfico selecionando um item na legenda. Ao alterar essa seleção, as informações da tabela não mudam.  <br/> |
-|6.  <br/> |Você também pode exportar os dados do relatório para um arquivo. csv do Excel, selecionando a **exportação** ![exportar seus dados para um](../../media/816a224b-6ca7-4967-a135-4f6427f64dc8.JPG) link de arquivo do Excel. Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados.  <br/> |
+|6.  <br/> |Você também pode exportar os dados do relatório para um arquivo. csv do Excel, selecionando a **exportação** ![ exportar seus dados para um link de arquivo do Excel ](../../media/816a224b-6ca7-4967-a135-4f6427f64dc8.JPG) . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados.  <br/> |
 |7.  <br/> |Você pode alterar quais informações são exibidas na tabela com controles de coluna.  <br/> Se sua assinatura for operada pela 21Vianet, você não verá o Yammer. <br/> <br/> |
 |||
 

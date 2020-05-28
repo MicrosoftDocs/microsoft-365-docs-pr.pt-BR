@@ -11,18 +11,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 - GEA150
 description: Saiba como obter um relatório de uso de aplicativos do Microsoft 365 usando o painel de relatórios do Microsoft 365 no centro de administração do Microsoft 365.
-ms.openlocfilehash: eb8978c878b2356c8fe73cb0f9f0021b65fcc333
-ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+ms.openlocfilehash: bdf6863b47739e77355137f0bb559e7cc425d055
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43781434"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387652"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-apps-usage"></a>Relatórios do Microsoft 365 no centro de administração-uso de aplicativos da Microsoft 365
 
@@ -38,7 +39,7 @@ O painel de **relatórios** do Microsoft 365 mostra a visão geral das atividade
 
 1. No centro de administração do, vá para a página**Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 
- 2. No menu suspenso **selecionar um relatório** , selecione o uso **do Office 365** \> **Microsoft 365 aplicativos** .
+ 2. No menu suspenso **selecionar um relatório** , selecione o uso **do Office 365**   \>  **Microsoft 365 aplicativos** .
 
 ## <a name="interpret-the-microsoft-365-apps-usage-report"></a>Interpretar o relatório de uso do Microsoft 365 apps
 
@@ -52,7 +53,7 @@ Você pode obter uma visão da atividade de aplicativos do Microsoft 365 do usu�
  |2. <br/> |Os dados em cada relatório normalmente cobrem até as últimas 24 a 48 horas. <br/> |
  |3. <br/> |O modo de exibição **usuários** iew mostra a tendência no número de usuários ativos para cada aplicativo – Outlook, Word, Excel, PowerPoint, OneNote e Teams. "Usuários ativos" são aqueles que realizam qualquer ação intencional nesses aplicativos. <br/> |
  |4. <br/> |O modo de exibição **plataformas** mostra a tendência de usuários ativos em todos os aplicativos para cada plataforma – Windows, Mac, Web e celular. <br/> |
- |5.<br/>|No gráfico **usuários** , o eixo Y é o número de usuários ativos exclusivos para o respectivo aplicativo. No gráfico **plataformas** , o eixo Y é o número de usuários exclusivos para a respectiva plataforma. O eixo X em ambos os gráficos é a data em que um aplicativo foi usado em um determinado Platform. RM.<br/>|
+ |5.<br/>|No gráfico **usuários** , o eixo Y é o número de usuários ativos exclusivos para o respectivo aplicativo. No gráfico **plataformas**   , o eixo Y é o número de usuários exclusivos para a respectiva plataforma. O eixo X em ambos os gráficos é a data em que um aplicativo foi usado em um determinado Platform. RM.<br/>|
  6.<br/>|Você pode filtrar a série que vê no gráfico selecionando um item na legenda. Por exemplo, no gráfico **usuários** , selecione Outlook, Word, Excel, PowerPoint, onedrive ou Teams para ver apenas as informações relacionadas a cada uma delas. A alteração dessa seleção não altera as informações na tabela de grade abaixo dela.|
  |7.<br/>|A tabela mostra o detalhamento dos dados no nível do usuário. Você pode adicionar ou remover colunas da tabela. <br/><br/>**Username** é o endereço de email do usuário que realizou a atividade em aplicativos da Microsoft.<br><br/>**Data da última ativação (UTC)** é a última data em que o usuário ativou sua assinatura de aplicativos do Microsoft 365.<br/><br/>**Data da última atividade (UTC)** é a última data em que a atividade intencional foi realizada pelo usuário. Para ver a atividade que ocorreu em uma data específica, selecione a data diretamente no gráfico.<br/><br/>Seguintes colunas correspondentes a cada aplicativo que identifica se o usuário estava ativo naquele aplicativo no período selecionado:<br> <br>**Outlook** <br>**Word** <br>**Excel**<br>**PowerPoint** <br>**OneNote**<br><br> Seguintes colunas correspondentes a cada plataforma que identifica se o usuário estava ativo nessa plataforma para qualquer aplicativo (dentro do Microsoft 365 aplicativos) no período selecionado:<br><br>**Outlook (Windows)**<br>**Outlook (Mac)**<br>**Outlook (Web)** <br>**Outlook (celular)**<br> **Word (Windows)**<br> **Word (Mac)**<br> **Word (Web)**<br> **Word (celular)**<br> **Excel (Windows)**<br> **Excel (Mac)**<br> **Excel (Web)**<br> **Excel (celular)**<br> **PowerPoint (Windows)**<br> **PowerPoint (Mac)**<br>**PowerPoint (Web)**<br> **PowerPoint (móvel)**<br> **OneNote (Windows)**<br> **OneNote (Mac)**<br> **OneNote (Web)**<br>**OneNote (celular)**<br> **Teams (Windows)**<br> **Teams (Mac)**<br> **Teams (Web)**<br>**Teams (celular)** |
  |8.<br/>|Selecione o ícone **gerenciar colunas** para adicionar ou remover colunas do relatório.|

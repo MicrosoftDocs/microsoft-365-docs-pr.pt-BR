@@ -18,6 +18,7 @@ ms.custom:
 - okr_smb
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -26,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Saiba como atribuir funções de administrador a um usuário ou vários usuários em sua empresa para que eles possam executar tarefas específicas no centro de administração.
-ms.openlocfilehash: 7842714d7a57c7db9c3f0afe7e4b2e353137b66f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 86759a07221e93e211107dcbd41a6bee5e6ca9a4
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618783"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387232"
 ---
 # <a name="assign-admin-roles"></a>Atribuir funções de administrador
 
@@ -65,16 +66,16 @@ Você pode atribuir usuários a uma função de duas maneiras diferentes:
 
 ### <a name="assign-admin-roles-to-users-using-roles"></a>Atribuir funções de administrador a usuários usando funções
 
-1. No centro de administração, > vá até **funções funções para** exibir todas as funções de administrador disponíveis para sua organização. **Roles**
+1. No centro de administração, **vá até funções funções** > **Roles** para exibir todas as funções de administrador disponíveis para sua organização.
 2. Selecione a função de administrador à qual você deseja atribuir o usuário.
-3. Selecione **Administradores** > atribuídos **Adicionar**.
+3. Selecione **Administradores atribuídos** > **Adicionar**.
 4. Digite o nome de **exibição** do usuário ou o nome de **usuário**e, em seguida, selecione o usuário na lista de sugestões.
 5. Adicione vários usuários até que você tenha concluído.
 6. Selecione **salvar**e o usuário será adicionado à lista de administradores atribuídos.
 
 ### <a name="assign-a-user-to-an-admin-role-from-active-users"></a>Atribuir um usuário a uma função de administrador de usuários ativos
 
-1. No centro de administração, vá para a página [usuários ativos](https://go.microsoft.com/fwlink/p/?linkid=834822) do **usuário** > .
+1. No centro de administração, vá para **Users** a > página [usuários ativos](https://go.microsoft.com/fwlink/p/?linkid=834822) do usuário.
 
 2. Na página **usuários ativos** , selecione o usuário cuja função de administrador você deseja alterar. No painel de submenu, ao lado de **funções**, selecione **gerenciar funções**.
 

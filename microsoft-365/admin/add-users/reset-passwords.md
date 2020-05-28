@@ -18,6 +18,7 @@ ms.custom:
 - MSStore_Link
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -26,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 'Saiba como redefinir a senha de um usuário na assinatura do Microsoft 365 for Business. '
-ms.openlocfilehash: 0cd9bfe2b4f60ed0150e95f35d1f24994724ca60
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 44052ee0c795143d67d832f9528e3eea7232f1cb
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208193"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386968"
 ---
 # <a name="reset-passwords"></a>Redefinir senha
 

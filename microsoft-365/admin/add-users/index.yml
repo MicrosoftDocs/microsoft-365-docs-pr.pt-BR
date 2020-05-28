@@ -11,12 +11,13 @@ metadata:
   ms.author: sirkkuw
   ms.date: 01/27/2020
   localization_priority: Priority
-  ms.openlocfilehash: fadbb38cbf4174366993ec3c27b58b914173b2be
-  ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
+  ms.custom: AdminSurgePortfolio
+  ms.openlocfilehash: ef25bfee5bd6d7a1ea498fd026e520859414bcf7
+  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/15/2020
-  ms.locfileid: "44267130"
+  ms.lasthandoff: 05/27/2020
+  ms.locfileid: "44387100"
 landingContent:
 - title: Gerenciamento de usuários
   linkLists:
