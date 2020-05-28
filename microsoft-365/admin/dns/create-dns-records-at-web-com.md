@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em web.com para a Microsoft.
-ms.openlocfilehash: a7567688ad9935b30c0749cb7aeffdbe128506ef
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 2a9162c1ca6fc6a00e564e8f004768fac49bd3e3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048874"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400299"
 ---
 # <a name="create-dns-records-at-webcom-for-microsoft"></a>Criar registros DNS no web.com para Microsoft
 
@@ -87,7 +88,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
     |**Host**|**TTL**|**Texto**|
     |:-----|:-----|:----|
-    |@  <br/> |3600  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)    |
+    |@  <br/> |3600  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)    |
   
     
 5. Selecione **continuar**.
@@ -130,7 +131,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Prioridade**|**TTL**|**Servidor de email**|
     |:-----|:-----|:-----|
-    |1  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |3600  <br/> |*\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta da Microsoft.   [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md) |
+    |1   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |3600  <br/> |*\<domain-key\>*. mail.protection.outlook.com  <br/> **Observação:** Acesse sua *\<domain-key\>* conta da Microsoft.   [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md) |
    
 
 5. Selecione **Salvar**.
@@ -169,7 +170,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 6. Adicione cada um dos outros cinco registros CNAME.
 
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -187,7 +188,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Host**|**TTL**|**Texto**|
     |:-----|:-----|:-----|
-    |@  <br/> |3600  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.   |
+    |@  <br/> |3600  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.   |
 
  
 5. Selecione **continuar**.
@@ -214,8 +215,8 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
         
     |**Serviço**|**Protocolo**|**TTL**|**Prioridade**|**Espessura**|**Porta**|**Destino**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip |_tls |3600 | 100|1 |443 |sipfed.online.lync.com  |
-    |_sipfederationtls |_tcp |3600 |100 |1 |5061 | sipfed.online.lync.com |
+    |_sip |_tls |3600 | 100|1  |443 |sipfed.online.lync.com  |
+    |_sipfederationtls |_tcp |3600 |100 |1  |5061 | sipfed.online.lync.com |
 
   
 5. Adicione o outro registro SRV escolhendo os valores da segunda linha da tabela. 

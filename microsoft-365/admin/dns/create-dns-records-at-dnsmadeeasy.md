@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: e158b079-b054-4b7e-8e01-e55169ce18d7
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em DNSMadeEasy para a Microsoft.
-ms.openlocfilehash: d69a497c08ff905c28b923ebdb0e6fba6c5f82fa
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: db28ac0cb95bd86bc13a1a1ce47f273989aa4436
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049054"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400516"
 ---
 # <a name="create-dns-records-at-dnsmadeeasy-for-microsoft"></a>Criar registros DNS no DNSMadeEasy para Microsoft
 
@@ -55,7 +56,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
 2. Na página **console de gerenciamento** , na área **domínios atualizados recentemente** , selecione o domínio que você deseja atualizar. 
     
-3. Na página **DNS gerenciado** , na área **registros txt** , selecione o controle ( **+**) ( **Adicionar novo**).
+3. Na página **DNS gerenciado** , na área **registros txt** , selecione o **+** controle () ( **Adicionar novo**).
     
     (You may have to scroll down.)
     
@@ -64,7 +65,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     ||||
     |:-----|:-----|:-----|
     |**Nome** <br/> |**Valor** <br/> |**TTL** <br/> |
-    |(Deixe este campo vazio.)  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |1800  <br/> |
+    |(Deixe este campo vazio.)  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |1800  <br/> |
    
 5. Selecione **Enviar**.
     
@@ -109,7 +110,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome**|**Servidor**|**Nível de MX**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |(Deixe este campo vazio.)  <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> **Observação:** Obtenha a sua \<*chave-de-domínio*\> através da sua conta Microsoft. [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |1800  <br/> |
+    |(Deixe este campo vazio.)  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **This value MUST end with a period (.)** <br/> **Observação:** Acesse sua \<*domain-key*\> conta da Microsoft. [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |1800  <br/> |
    
     ![DNSMadeEasy-BP-configure-2-2](../../media/69b53af9-1eec-435c-8434-1b6058c1ec82.png)
   
@@ -166,7 +167,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     Repita esse processo até ter criado todos os cinco registros CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -186,7 +187,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome**|**Valor**|**TTL**|
     |:-----|:-----|:-----|
-    |(Deixe este campo vazio.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |1800  <br/> |
+    |(Deixe este campo vazio.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |1800  <br/> |
    
     ![DNSMadeEasy-BP-configure-4-2](../../media/b317bcb9-18c6-4609-a8f4-963823032669.png)
   
@@ -213,8 +214,8 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome**|**Prioridade**|**Espessura**|**Porta**|**Host**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip. _tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |1800  <br/> |
-    |_sipfederationtls. _tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |1800  <br/> |
+    |_sip. _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |1800  <br/> |
+    |_sipfederationtls. _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |1800  <br/> |
    
     ![DNSMadeEasy-BP-configure-5-2](../../media/e1155f94-575f-441a-9a61-d948391d42ca.png)
   

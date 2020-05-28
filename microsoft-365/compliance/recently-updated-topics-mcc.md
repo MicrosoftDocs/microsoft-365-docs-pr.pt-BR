@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 description: Assim como os recursos do centro de conformidade da Microsoft 365, nosso conteúdo da ajuda está sempre evoluindo. Estamos constantemente criando novos artigos, atualizando os existentes e fazendo alterações com base em seus comentários. Descubra o que é novo e atualizado este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 750165aab3612e3edb6a56f69eebf0778e141fde
-ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
+ms.openlocfilehash: 94a4025a0a30ce26175a1a598713721aaa835ee7
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231894"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401195"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Atualizações recentes para o conteúdo de conformidade do Microsoft 365
 
@@ -100,13 +100,6 @@ Todos os tópicos de [Pontuação de conformidade](compliance-score.md) e [geren
 ### <a name="pst-import"></a>Importação de PST
 
 [Perguntas frequentes sobre a importação de arquivos PST](faqimporting-pst-files-to-office-365.md) (atualizado)<br>Adicionadas Perguntas frequentes sobre como o processo de importação de PST trata itens de email duplicados.
-
-### <a name="retention"></a>Retenção
-
-[Visão geral das políticas de retenção](retention-policies.md) (atualizadas)<br>As alterações incluem:
-
-- Foram adicionados caminhos de conteúdo para políticas de retenção somente para retenção e exclusão (anteriormente, caminhos de conteúdo explicados apenas para reter e excluir).
-- [Seção atualizada](retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations) explicando que, para os locais do SharePoint, agora você especifica uma URL, em vez de escolher um site. Isso significa que você não precisa de permissões para acessar o site a fim de incluí-lo em uma política de retenção.
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 

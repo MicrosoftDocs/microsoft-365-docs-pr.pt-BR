@@ -15,18 +15,19 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: ec6f4bd8-5996-4505-ba68-afaf8a141fb9
 description: Saiba como trabalhar com os registradores de conexão de domínio habilitado e adicione seu domínio ao Microsoft 365.
-ms.openlocfilehash: 6a86783ca880f6cb4ea833e4c2b659de4da5e5c1
-ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
+ms.openlocfilehash: 70a30201d4b795c7458959b6b2eee14c9b3c7186
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43800006"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399951"
 ---
 # <a name="using-domain-connect"></a>Usando a conexão de domínio
 
@@ -41,7 +42,7 @@ No assistente, apenas confirmará que você é o proprietário do domínio e, em
   
 ## <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>Registradores de conexão de domínio que se integram ao Microsoft 365
 
-- [1&amp;1 IONOS](https://www.1and1.com/)
+- [1 &amp; 1 IONOS](https://www.1and1.com/)
 - [123Reg](https://www.123-reg.co.uk/)
 - [GoDaddy](https://www.godaddy.com/)
 - [WordPress](https://wordpress.com/)

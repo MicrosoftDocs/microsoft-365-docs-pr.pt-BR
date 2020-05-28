@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 55bd8c38-3316-48ae-a368-4959b2c1684e
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Register.com para a Microsoft.
-ms.openlocfilehash: 125baf224cc9f3f21746a2f802b17f2572b65316
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 7b2353b4b6832c9316e302ace4db948e2550a28f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048898"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400323"
 ---
 # <a name="create-dns-records-at-registercom-for-microsoft"></a>Criar registros DNS no Register.com para Microsoft
 
@@ -77,7 +78,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 0:44)](https://support.of
     |||
     |:-----|:-----|
     |**Host Name** <br/> |**TXT Record** <br/> |
-    |@  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
 7. Selecione **continuar**.
     
@@ -123,7 +124,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 3:32)](https://support.of
     
     |****Nome do host****|****Prioridade****|****Servidor de Email****|
     |:-----|:-----|:-----|
-    |@  <br/> |Alto  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/>  <br/>**Observação:** Obtenha a sua \<*chave-de-domínio*\> através da sua conta Microsoft. <br> [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |Alta  <br/> Para saber mais sobre prioridade, consulte [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/>  <br/>**Observação:** Acesse sua \<*domain-key*\> conta da Microsoft. <br> [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Copiar e colar o valor da tabela](../../media/a1a15a14-c3dc-45dc-adcd-90fdb3f7455d.png)
   
@@ -182,7 +183,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 4:23)](https://support.of
     
     ![Selecione continuar](../../media/3342b570-0633-49c5-9175-5cc8e4a67b53.png)
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -206,7 +207,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 5:12)](https://support.of
     
     |****Nome do Host****|****Registro TXT****|
     |:-----|:-----|
-    |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.  |
+    |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.  |
    
      ![Copiar e colar os valores da tabela](../../media/b1dc5036-c13c-4306-b1e3-5a38a74643b7.png)
   
@@ -243,8 +244,8 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 5:55)](https://support.of
     
     |****Serviço****|****Proto****|****Nome****|****Prioridade****|****Peso****|****Porta****|****Destino****|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |_tls  <br/> |@  <br/> |Alta  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/>  <br/> |
-    |_sipfederationtls  <br/> |_tcp  <br/> |@  <br/> |Alta  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/>  <br/> |
+    |_sip  <br/> |_tls  <br/> |@  <br/> |Alta  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/>  <br/> |
+    |_sipfederationtls  <br/> |_tcp  <br/> |@  <br/> |Alta  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/>  <br/> |
    
     ![Copiar e colar os valores da tabela](../../media/71304c81-5845-4a8f-b969-d9efc8721184.png)
   

@@ -15,18 +15,19 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Crie uma caixa de correio compartilhada para permitir que vários usuários da sua empresa compartilhem a responsabilidade de ler e responder a emails enviados para um endereço.
-ms.openlocfilehash: 35711e1a17a244a9f68ac88daf665f0328b293b4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: aac4966efca3dabc0edac1ceada96d2238cb266f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628898"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400095"
 ---
 # <a name="create-a-shared-mailbox"></a>Criar uma caixa de correio compartilhada 
 

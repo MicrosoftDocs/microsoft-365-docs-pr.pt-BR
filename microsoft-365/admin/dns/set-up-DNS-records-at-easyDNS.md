@@ -14,17 +14,18 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 446babfe-2e08-4cc2-bbfb-c05b854933ac
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em easyDNS para a Microsoft.
-ms.openlocfilehash: b7b29900108ab94f0fd99dcf3404cfa137ce92ff
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 24f477d240af936975141c53d382e114a24c0ac5
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631352"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400227"
 ---
 # <a name="create-dns-records-at-easydns-for-microsoft"></a>Criar registros DNS no easyDNS para Microsoft
 
@@ -54,7 +55,7 @@ Observação: os registros SRV não estão disponíveis no momento em todos os p
     
 7. Aguarde alguns minutos antes de continuar, para que o registro que você acabou de criar possa se propagar pela Internet e seja detectado pela Microsoft.
     
-8. Agora que você adicionou o registro no site do seu registrador de domínio, você voltará para a Microsoft e solicitará o registro.
+8. Agora que você adicionou o registro no site do seu registrador de domínios, retorne à Microsoft e solicite o registro.
     
 9. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
     
@@ -62,7 +63,7 @@ Observação: os registros SRV não estão disponíveis no momento em todos os p
     
 11. Na página **configuração** , selecione **Iniciar configuração.**
     
-12. Na página **Verificar domínio**, clique em **Verificar**. 
+12. Na página **Verificar domínio**, marque **Verificar**. 
     
 ## <a name="add-an-mx-record-to-route-email-to-microsoft"></a>Adicionar um registro MX para rotear emails para a Microsoft
 
@@ -76,7 +77,7 @@ Observação: os registros SRV não estão disponíveis no momento em todos os p
     
     |**EMAIL PARA A ZONA**|**SERVIDOR DE EMAIL**|**PREF**|
     |:-----|:-----|:-----|
-    |@  <br/> |\<Domain-Key\>. mail.Protection.Outlook.com (obter seu \<valor de chave\> de domínio na página domínios do centro de administração)  <br/> |,0  <br/> |
+    |@  <br/> |\<domain-key\>. mail.protection.outlook.com (obter seu \<domain-key\> valor na página domínios do centro de administração)  <br/> |,0  <br/> |
    
 2. Se você quiser salvar seus outros registros MX para fins de backup, copie-os para baixo em algum lugar. Antes de prosseguir, remova todos os outros registros MX aqui.
     
@@ -107,7 +108,7 @@ Observação: os registros SRV não estão disponíveis no momento em todos os p
     
 6. Verifique se o registro está correto e, em seguida, selecione **confirmar**. 
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 
 1. Vá para [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) e faça logon com suas credenciais. 
     
@@ -125,7 +126,7 @@ Observação: os registros SRV não estão disponíveis no momento em todos os p
     
 6. Verifique se o registro está correto e, em seguida, selecione **confirmar**. 
     
-## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Adicionar os dois registros SRV necessários para o Microsoft
+## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Adicionar os dois registros SRV necessários para a Microsoft
 
 Observação: os registros SRV não estão disponíveis no momento no easyDNS ' domínio mais nível de serviço. Talvez seja necessário atualizar para um nível de serviço superior com o easyDNS para adicionar registros SRV 
   
@@ -139,8 +140,8 @@ Observação: os registros SRV não estão disponíveis no momento no easyDNS ' 
     
     |**SERVIÇO**|**PROTOCOLO**|**HOST**|**PRI**|**WGT**|**PORTA**|**TARGET (deve terminar com um ".")**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |TLS  <br/> |@  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> |1800  <br/> |
-    |_sipfederationtls  <br/> |TCP  <br/> |@  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> |1800  <br/> |
+    |_sip  <br/> |TLS  <br/> |@  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> |1800  <br/> |
+    |_sipfederationtls  <br/> |TCP  <br/> |@  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> |1800  <br/> |
    
 5. Selecione **Avançar**. 
     

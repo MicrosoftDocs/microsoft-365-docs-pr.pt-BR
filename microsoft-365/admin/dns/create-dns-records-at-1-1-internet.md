@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5762c3ca-1de2-4999-bfe5-4c5e25a8957e
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em 1&1 IONOS para a Microsoft.
-ms.openlocfilehash: 1c32e15be8bfdf9ea29647af511d0f8ff0ac0b57
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 983fba73a6f82308d6d1bcf706ff93d72b98976c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049138"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400588"
 ---
 # <a name="create-dns-records-at-11-ionos-for-microsoft"></a>Criar registros DNS na 1&1 IONOS para Microsoft
 
@@ -66,7 +67,7 @@ Siga as etapas abaixo ou [assista ao vídeo (início em 0:42)](https://docs.micr
     ||||
     |:-----|:-----|:-----|
     |**Tipo** <br/> |**Prefixo** <br/> |**Valor do Nome** <br/> |
-    |TXT  <br/> |(Deixe este campo em branco)  <br/> |MS = ms *XXXXXXXX*  <br/> Observação: Este é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |TXT  <br/> |(Deixe este campo em branco)  <br/> |MS=ms *XXXXXXXX*  <br/> Observação: Este é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
 7. Selecione **Salvar**.
     
@@ -108,19 +109,19 @@ Siga as etapas abaixo ou [assista ao vídeo (início em 3:22)](https://docs.micr
     
 4. Na área **configurações de domínio** , selecione **Editar configurações de DNS**.
     
-5. Na seção **registros MX** , na área **trocador de mensagens (registro MX)** , selecione **outro servidor de email**.<br/>(You may have to scroll down.)<br/>![1&amp;1-BP-Configure-2-1](../../media/b0db72ae-9431-460f-ba7a-3268590b892e.png) <br/>
+5. Na seção **registros MX** , na área **trocador de mensagens (registro MX)** , selecione **outro servidor de email**.<br/>(You may have to scroll down.)<br/>![1 &amp; 1-BP-configure-2-1](../../media/b0db72ae-9431-460f-ba7a-3268590b892e.png) <br/>
   
-6. Se houver registros MX já listados, exclua-os selecionando o registro e pressionando a tecla **Delete** no teclado.<br/>(Se não houver nenhum registro MX já listado, continue na próxima etapa.)<br/>![1&amp;1-BP-Configure-2-2](../../media/4a39bac7-7310-481d-bda4-1dd5c220c60f.png)<br/>
+6. Se houver registros MX já listados, exclua-os selecionando o registro e pressionando a tecla **Delete** no teclado.<br/>(Se não houver nenhum registro MX já listado, continue na próxima etapa.)<br/>![1 &amp; 1-BP-configure-2-2](../../media/4a39bac7-7310-481d-bda4-1dd5c220c60f.png)<br/>
   
 7. Nas caixas do registro **MX 1**, digite ou copie e cole os valores da tabela a seguir. 
     
     |**MX 1**|**Prioridade**|
     |:-----|:-----|
-    | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/>  Observação: Obtenha sua \<chave\> de domínio de sua conta da Microsoft. [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | 
+    | *\<domain-key\>*. mail.protection.outlook.com  <br/>  Observação: acesse sua \<domain-key\> conta da Microsoft. [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | 
     
     ![1 e 1-configurar 2 e 3](../../media/3afb04d1-7bbf-4147-89ae-561e14ded26d.png)<br/>
   
-8. Selecione **Salvar**.<br/>(You may have to scroll down.)<br/>![1&amp;1-BP-Configure-2-4](../../media/355b3ba7-4d2b-45ed-aa17-ac4affb54fe3.png)
+8. Selecione **Salvar**.<br/>(You may have to scroll down.)<br/>![1 &amp; 1-BP-configure-2-4](../../media/355b3ba7-4d2b-45ed-aa17-ac4affb54fe3.png)
   
 9. Na caixa de diálogo **Editar configurações de DNS** , selecione **Sim**.<br/>![Selecionar Sim na caixa de diálogo Editar configurações de DNS](../../media/920cc95f-fedf-4da2-94a4-9cb41ed49bcf.png)
   
@@ -143,7 +144,7 @@ Siga as etapas abaixo ou [assista ao vídeo (início em 3:57)](https://docs.micr
     
 2. Selecione **gerenciar domínios**.
     
-3. Na página **centro de domínio** , localize o domínio que você deseja atualizar e, em seguida, selecione **gerenciar subdomínios**.<br/>![1&amp;1-BP-Configure-3-0](../../media/d570d03f-5c38-463d-809e-5bb9e4fb2777.png) <br/>Agora, você vai criar dois subdomínios e definir um valor **Alias** para cada um.<br/>(Isso é necessário porque 1&1 IONOS suporta apenas um registro CNAME de nível superior, mas a Microsoft requer vários registros CNAME.)<br/>Primeiro, você criará o subdomínio Descoberta Automática.
+3. Na página **centro de domínio** , localize o domínio que você deseja atualizar e, em seguida, selecione **gerenciar subdomínios**.<br/>![1 &amp; 1-BP-configure-3-0](../../media/d570d03f-5c38-463d-809e-5bb9e4fb2777.png) <br/>Agora, você vai criar dois subdomínios e definir um valor **Alias** para cada um.<br/>(Isso é necessário porque 1&1 IONOS suporta apenas um registro CNAME de nível superior, mas a Microsoft requer vários registros CNAME.)<br/>Primeiro, você criará o subdomínio Descoberta Automática.
     
 4. Na seção **visão geral de subdomínio** , selecione **criar subdomínio**.
     
@@ -155,15 +156,15 @@ Siga as etapas abaixo ou [assista ao vídeo (início em 3:57)](https://docs.micr
     |:-----|:-----|
     |descoberta automática  <br/> |autodiscover.outlook.com   | 
 
-    ![1&amp;1-BP-Configure-3-2](../../media/9be45113-ebaf-48e6-983c-a7e6ff9eea45.png)
+    ![1 &amp; 1-BP-configure-3-2](../../media/9be45113-ebaf-48e6-983c-a7e6ff9eea45.png)
   
-6. Selecione **criar subdomínio**.<br/>![1&amp;1-BP-Configure-3-3](../../media/1e7bc874-f174-4597-8c08-df611d16a74d.png)
+6. Selecione **criar subdomínio**.<br/>![1 &amp; 1-BP-configure-3-3](../../media/1e7bc874-f174-4597-8c08-df611d16a74d.png)
   
-7. Na seção **visão geral de subdomínio** , localize o subdomínio de **descoberta automática** que você acabou de criar e selecione o controle de **painel (v)** para esse subdomínio. <br/>![1&amp;1-BP-Configure-3-4](../../media/10e2e446-3e54-4fb2-8a29-8c442536cc31.png)
+7. Na seção **visão geral de subdomínio** , localize o subdomínio de **descoberta automática** que você acabou de criar e selecione o controle de **painel (v)** para esse subdomínio. <br/>![1 &amp; 1-BP-configure-3-4](../../media/10e2e446-3e54-4fb2-8a29-8c442536cc31.png)
   
-8. Na área **configurações de subdomínio** , selecione **Editar configurações de DNS**. <br/>![1&amp;1-BP-Configure-3-5](../../media/5c602118-b89b-4897-9faf-0736be8a6a0d.png)
+8. Na área **configurações de subdomínio** , selecione **Editar configurações de DNS**. <br/>![1 &amp; 1-BP-configure-3-5](../../media/5c602118-b89b-4897-9faf-0736be8a6a0d.png)
   
-9. Na seção **registros a/aaaa (endereços IP)** , na área **endereço IP (registro)** , selecione **CNAME**.<br/>![1&amp;1-BP-Configure-3-6](../../media/7f57f468-fbee-4440-a53d-3e334d8e5b71.png)
+9. Na seção **registros a/aaaa (endereços IP)** , na área **endereço IP (registro)** , selecione **CNAME**.<br/>![1 &amp; 1-BP-configure-3-6](../../media/7f57f468-fbee-4440-a53d-3e334d8e5b71.png)
   
 10. Na caixa **Alias:**, digite o copie e cole somente o valor **Alias** da tabela a seguir.<br/> 
     
@@ -171,11 +172,11 @@ Siga as etapas abaixo ou [assista ao vídeo (início em 3:57)](https://docs.micr
     |:-----|:-----|
     |descoberta automática  <br/> |autodiscover.outlook.com   |
 
-    ![1&amp;1-BP-Configure-3-7](../../media/afac3118-3337-4f99-98dd-a7ca930230ce.png)
+    ![1 &amp; 1-BP-configure-3-7](../../media/afac3118-3337-4f99-98dd-a7ca930230ce.png)
   
-11. Marque a caixa de seleção para a isenção de responsabilidade **Estou ciente**.<br/>![1&amp;1-BP-Configure-3-8-1](../../media/6c4cac1a-23f2-4ff3-b2d1-3dca908638d2.png)
+11. Marque a caixa de seleção para a isenção de responsabilidade **Estou ciente**.<br/>![1 &amp; 1-BP-configure-3-8-1](../../media/6c4cac1a-23f2-4ff3-b2d1-3dca908638d2.png)
   
-12. Selecione **Salvar**.<br/>![1&amp;1-BP-Configure-3-8-2](../../media/ea1dfc06-c175-4146-ab40-da4d162097e1.png)
+12. Selecione **Salvar**.<br/>![1 &amp; 1-BP-configure-3-8-2](../../media/ea1dfc06-c175-4146-ab40-da4d162097e1.png)
   
   
 ### <a name="additional-cname-records"></a>Registros CNAME adicionais
@@ -244,7 +245,7 @@ Os registros CNAME adicionais criados no procedimento a seguir habilitam os serv
 |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |
 |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
    
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 
 > [!IMPORTANT]
 > Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records). Para validar o registro SPF, você pode usar uma destas[ferramentas de validação de SPF](../setup/domains-faq.md). 
@@ -268,7 +269,7 @@ Siga as etapas abaixo ou [assista ao vídeo (início em 5:09)](https://docs.micr
     
     |**Tipo**|**Prefixo**|**Valor do Nome**|
     |:-----|:-----|:-----|
-    |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           | 
+    |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           | 
     
     ![Registro TXT](../../media/0b3ba3b4-64b9-4d68-9ee1-04eb3a17d4c5.png)
   
@@ -299,14 +300,14 @@ Siga as etapas abaixo ou [assista ao vídeo (início em 5:51)](https://docs.micr
     
     |**Tipo**|**Serviço**|**Protocolo**|**Nome**|**Host**|**Prioridade**|**Espessura**|**Porta**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV  <br/> |sip  <br/> |tls  <br/> |(Leave this field empty.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |1  <br/> |443  <br/> |3.600 (1 hora)  <br/> |
-    |SRV  <br/> |sipfederationtls  <br/> |tcp  <br/> |(Deixe este campo vazio.)  <br/> |sipfed.online.lync.com  <br/> |100  <br/> |1  <br/> |5061  <br/> |3.600 (1 hora)  <br/> |  
+    |SRV  <br/> |sip  <br/> |tls  <br/> |(Leave this field empty.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |1   <br/> |443  <br/> |3.600 (1 hora)  <br/> |
+    |SRV  <br/> |sipfederationtls  <br/> |tcp  <br/> |(Deixe este campo vazio.)  <br/> |sipfed.online.lync.com  <br/> |100  <br/> |1   <br/> |5061  <br/> |3.600 (1 hora)  <br/> |  
     
-    ![1&amp;1-BP-Configure-5-1](../../media/087e337d-926b-42ff-b11d-b449cfaed76c.png)
+    ![1 &amp; 1-BP-configure-5-1](../../media/087e337d-926b-42ff-b11d-b449cfaed76c.png)
   
-7. Selecione **Salvar**. <br/>![1&amp;1-BP-Configure-5-2](../../media/aa5f803d-fb24-48e0-976a-6759c5fd252c.png)
+7. Selecione **Salvar**. <br/>![1 &amp; 1-BP-configure-5-2](../../media/aa5f803d-fb24-48e0-976a-6759c5fd252c.png)
   
-8. Selecione **Salvar**. <br/>![1&amp;1-BP-Configure-5-3](../../media/097e7e95-4899-4878-b6e7-c3abd8193c52.png)
+8. Selecione **Salvar**. <br/>![1 &amp; 1-BP-configure-5-3](../../media/097e7e95-4899-4878-b6e7-c3abd8193c52.png)
   
 9. Na caixa de diálogo **Editar configurações de DNS** , selecione **Sim**. <br/>![Selecionar Sim na caixa de diálogo Editar configurações de DNS](../../media/920cc95f-fedf-4da2-94a4-9cb41ed49bcf.png)
   

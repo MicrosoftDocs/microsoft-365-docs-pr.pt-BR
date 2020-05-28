@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5176feef-36dc-4d84-842f-1f2b5a21ba96
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em OVH para a Microsoft.
-ms.openlocfilehash: 18ddcba9cdb4f45f624d32369db07b24f9a357cf
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: b462979a3ab1bcf769c78d15d9fd3ad03f307ef0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048910"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400335"
 ---
 # <a name="create-dns-records-at-ovh-for-microsoft"></a>Criar registros DNS no OVH para Microsoft
 
@@ -140,9 +141,9 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     > [!NOTE]
     > Por padrão, o OVH usa notação relativa para o destino, que adiciona o nome de domínio ao final do registro de destino. Para usar a notação absoluta em vez disso, adicione um ponto ao registro de destino conforme mostrado na tabela abaixo. 
   
-    |**Tipo de registro**|**Subdomínio**|**TTL**|**Prioridade**|**Destino**|
+    |**Tipo de registro**|**Subdomínio**|**TTL**|**Prioridade**|**Target**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(deixar em branco)  <br/> |3600 (segundos)  <br/> |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |\<Domain-Key\>. mail.Protection.Outlook.com.  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta da Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)  |
+    |MX  <br/> |(deixar em branco)  <br/> |3600 (segundos)  <br/> |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |\<domain-key\>. mail.protection.outlook.com.  <br/> **Observação:** Acesse sua *\<domain-key\>* conta da Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)  |
    
     ![OVH registro MX para email](../../media/6e2f5655-93e2-4620-8f19-c452e7edf8f0.png)
   
@@ -207,7 +208,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     Para cada registro, digite ou copie e cole os valores da próxima linha da tabela acima nas caixas desse registro.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
@@ -235,7 +236,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Tipo de registro**|**Subdomínio**|**TTL**|**Valor TXT**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |(deixar em branco)  <br/> |3600 (segundos)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
+    |TXT  <br/> |(deixar em branco)  <br/> |3600 (segundos)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
    
     ![OVH adicionar registro TXT para SPF](../../media/f50466e9-1557-4548-8a39-e98978a5ee2e.png)
   
@@ -274,10 +275,10 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     Nas caixas do novo registro, digite ou copie e cole os valores da primeira linha da tabela a seguir. Para atribuir um valor de TTL, escolha **personalizado** na lista suspensa e digite o valor na caixa de texto. 
     
-    |**Tipo de registro**|**Subdomínio**|**Prioridade**|**Espessura**|**Porta**|**TTL**|**Destino**|
+    |**Tipo de registro**|**Subdomínio**|**Prioridade**|**Espessura**|**Porta**|**TTL**|**Target**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (Serviço)  <br/> |_sip. _tls  <br/> |100  <br/> |1  <br/> |443  <br/> |3600 (segundos)  <br/> |sipdir.online.lync.com.  <br/> |
-    |SRV (Serviço)  <br/> |_sipfederationtls. _tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |3600 (segundos)  <br/> |sipfed.online.lync.com.  <br/> |
+    |SRV (Serviço)  <br/> |_sip. _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |3600 (segundos)  <br/> |sipdir.online.lync.com.  <br/> |
+    |SRV (Serviço)  <br/> |_sipfederationtls. _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |3600 (segundos)  <br/> |sipfed.online.lync.com.  <br/> |
        
     ![Registro SRV OVH](../../media/73956b9e-9e4f-40a5-803e-c4ead2f77fa6.png)
   

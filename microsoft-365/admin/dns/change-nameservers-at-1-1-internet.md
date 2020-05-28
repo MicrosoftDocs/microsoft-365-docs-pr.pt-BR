@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 31efc571-c8b9-46fb-b42d-203c2fb25289
 description: Saiba como você pode configurar o Office 365 operado pela 21Vianet para gerenciar seus registros DNS, quando 1&1 Internet é o provedor de Hospedagem de DNS.
-ms.openlocfilehash: 99ac40472d0afa0cb734b0e86a0f10d7904133e1
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: b63dc0664791eb4941513f701824b813d77e67bd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939399"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400696"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-11-ionos"></a>Alterar os nameservers para configurar o Microsoft 365 com 1&1 IONOS
 

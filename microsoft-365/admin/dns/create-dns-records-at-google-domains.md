@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 0db29490-2612-48bc-9b77-1862e7a41a8c
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Lync e outros serviços no Google Domains for Microsoft.
-ms.openlocfilehash: 6bfe32ba8f77adec97f4ab5ee40e92126be91f10
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: e6b1dd1eb90957a4e7fe22bd4b66ac87b2a51d09
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049006"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400444"
 ---
 # <a name="create-dns-records-at-google-domains-for-microsoft"></a>Criar registros DNS no Google Domains para Microsoft
 
@@ -65,7 +66,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     |||||
     |:-----|:-----|:-----|:-----|
     |**Nome** <br/> |**Tipo** <br/> |**TTL** <br/> |**Dados** <br/> |
-    |@  <br/> |TXT  <br/> |1H  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |TXT  <br/> |1H  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
 4. Clique em **Adicionar**.
     
@@ -119,11 +120,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome**|**Tipo**|**TTL**|**Dados**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1H  <br/> |0  *\<chave-de-domínio\>*  .mail.protection.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> O **0** é o valor de prioridade de MX. Adicione-o ao início do valor de MX, separado do restante do valor por um espaço.  <br/> **Observação:** Obtenha a sua \<*chave-de-domínio*\> através da sua conta Microsoft.  [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          Para saber mais sobre prioridade, consulte [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
+    |@  <br/> |MX  <br/> |1H  <br/> |0 *\<domain-key\>* . mail.Protection.Outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> O **0** é o valor de prioridade de MX. Adicione-o ao início do valor de MX, separado do restante do valor por um espaço.  <br/> **Observação:** Acesse sua \<*domain-key*\> conta da Microsoft.  [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          Para saber mais sobre prioridade, consulte [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
    
     ![Digitar ou colar valores na seção registros de recursos personalizados](../../media/b660ca9e-984d-449f-ae59-a65fe4e2c6bd.png)
   
-5. Selecione **Adicionar**.
+5. Clique em **Adicionar**.
     
     ![Selecione Adicionar](../../media/32f8f23c-0b80-48da-b08e-4e04052971af.png)
   
@@ -145,7 +146,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 ## <a name="add-the-five-cname-records-that-are-required-for-microsoft"></a>Adicionar os cinco registros CNAME necessários para o Microsoft
 
-1. Para começar, vá até a sua página [Google Domains] (https://domains.google.com/registrar) e entre.
+1. Para começar, vá até a sua página [Google Domains] ( https://domains.google.com/registrar) e entre.
     
 2. Na página **domínios** , na seção **domínio** , selecione **Configurar DNS** para o domínio que você deseja editar. 
     
@@ -163,11 +164,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     |sip  <br/> |CNAME  <br/> |1H  <br/> |sipdir.online.lync.com.  <br/> **This value MUST end with a period (.)** <br/> |
     |lyncdiscover  <br/> |CNAME  <br/> |1H  <br/> |webdir.online.lync.com.  <br/> **This value MUST end with a period (.)** <br/> |
     |enterpriseregistration  <br/> |CNAME  <br/> |1H  <br/> |enterpriseregistration.windows.net.  <br/> **This value MUST end with a period (.)** <br/> |
-    |enterpriseenrollment  <br/> |CNAME  <br/> |1H  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **This value MUST end with a period (.)** <br/> |
+    |enterpriseenrollment  <br/> |CNAME  <br/> |1H  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |
    
     ![Digitar ou colar valores na seção registros de recursos personalizados](../../media/cff9832a-6d57-421f-a183-55320974ed87.png)
   
-4. Selecione **Adicionar**.
+4. Clique em **Adicionar**.
     
     ![Selecione Adicionar](../../media/4a78080a-e0b2-4582-9696-3fe4fea41e91.png)
   
@@ -177,7 +178,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     Repita esse processo até ter criado todos os registros CNAME necessários.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 
 > [!IMPORTANT]
 > Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro SPF que inclua os dois conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
@@ -246,7 +247,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
    
     ![Digitar ou colar valores na seção registros de recursos personalizados](../../media/429d06a9-c0af-4961-b7d2-7a8dea6db37e.png)
   
-6. Selecione **Adicionar**.
+6. Clique em **Adicionar**.
     
     ![Selecione Adicionar](../../media/89df6efd-e641-4441-baa2-d9a890424569.png)
   

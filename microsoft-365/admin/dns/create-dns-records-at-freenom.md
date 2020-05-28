@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: d8ff45a2-19e3-413d-aa64-a9982bd6633c
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Freenom para a Microsoft.
-ms.openlocfilehash: 39963b5c0f5f3f82fe193160e8aa8ab03894cedd
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: f139c21915d6922c2f77281990dd09949d9db928
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049030"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400468"
 ---
 # <a name="create-dns-records-at-freenom-for-microsoft"></a>Criar registros DNS no Freenom para Microsoft
 
@@ -70,7 +71,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
   
 6. Nas caixas do novo registro, digite ou copie e cole os valores da seguinte tabela. 
     
-    |**Nome**|**Tipo**|**TTL**|**Destino**|
+    |**Nome**|**Tipo**|**TTL**|**Target**|
     |:-----|:-----|:-----|:-----|
     |(deixar em branco)  <br/> |TXT  <br/> |3600 (segundos)  <br/> |MS = msXXXXXXXX  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
@@ -137,9 +138,9 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 8. Nas caixas do novo registro, digite ou copie e cole os valores da primeira linha da tabela a seguir. 
     
-    |**Nome**|**Tipo**|**TTL**|**Destino**|**Prioridade**|
+    |**Nome**|**Tipo**|**TTL**|**Target**|**Prioridade**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(deixar em branco)  <br/> |Servidor de mensagens (MX)  <br/> |3600 (segundos)  <br/> |\<Domain-Key\>. mail.Protection.Outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta da Microsoft.   [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
+    |(deixar em branco)  <br/> |Servidor de mensagens (MX)  <br/> |3600 (segundos)  <br/> |\<domain-key\>. mail.protection.outlook.com  <br/> **Observação:** Acesse sua *\<domain-key\>* conta da Microsoft.   [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
    
    ![Registro MX Freenom](../../media/8896c4a9-b3dd-45ed-9916-f7da2715ba8c.png)
   
@@ -174,7 +175,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 6. Criar o primeiro registro CNAME. Nas caixas do novo registro, digite ou copie e cole os valores da primeira linha da tabela a seguir. 
     
-    |**Nome**|**Tipo de registro**|**TTL**|**Destino**|
+    |**Nome**|**Tipo de registro**|**TTL**|**Target**|
     |:-----|:-----|:-----|:-----|
     |autodiscover  <br/> |CNAME  <br/> |3600 (segundos)  <br/> |autodiscover.outlook.com  <br/> |
     |sip  <br/> |CNAME  <br/> |3600 (segundos)  <br/> |sipdir.online.lync.com  <br/> |
@@ -192,7 +193,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     Para cada registro, digite ou copie e cole os valores da próxima linha da tabela acima nas caixas desse registro.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
@@ -220,9 +221,9 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 6. In the boxes for the new record, type or copy and paste the following values. 
     
-    |**Name**|**Tipo de registro**|**TTL**|**Destino**|
+    |**Nome**|**Tipo de registro**|**TTL**|**Target**|
     |:-----|:-----|:-----|:-----|
-    |(deixar em branco)  <br/> |TXT  <br/> |3600 (segundos)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
+    |(deixar em branco)  <br/> |TXT  <br/> |3600 (segundos)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
    
     ![Freenom valores TXT para SPF](../../media/1b3b1199-9104-4ca1-acdb-786d139c21ac.png)
   

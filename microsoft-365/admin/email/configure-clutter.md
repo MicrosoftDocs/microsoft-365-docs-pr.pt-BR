@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
 description: 'Saiba como habilitar ou desabilitar o recurso de desordem para todos ou usuários específicos em sua organização, usando o Exchange PowerShell. '
-ms.openlocfilehash: 6ba1e3f2b6a8a516a2b55267ab22fb43613350e0
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: 069cf7569ebb3654e979100291f6754693b24def
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053831"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400131"
 ---
 # <a name="configure-clutter-for-your-organization"></a>Configurar resíduos para sua organização
 

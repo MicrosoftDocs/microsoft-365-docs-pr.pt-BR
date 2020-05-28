@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em DNS baseado em Windows para Microsoft.
-ms.openlocfilehash: 1aaf81dddf27911ad3562bec6f56fb34c64fd37d
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 8f65a397552813f22d4bde82f7fcd51c478d82bd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048838"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400239"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>Criar registros DNS para a Microsoft usando DNS baseado no Windows
 
@@ -38,21 +39,21 @@ Para começar, você precisa [localizar seus registros DNS no DNS baseado no Win
 Problemas com o fluxo de emails ou outros problemas após a adição de registros DNS, consulte [solucionar problemas após alterar seu nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="find-your-dns-records-in-windows-based-dns"></a>Localize seus registros DNS no DNS baseado no Windows
-<a name="BKMK_find_your_dns_1"> </a> Vá para a página que tem os registros DNS do seu domínio. Se você estiver trabalhando no Windows Server 2008, vá para **Iniciar** > **executar**. Se você estiver trabalhando no Windows Server 2012, pressione a tecla Windows e **r**. Digite **dnsmgmnt. msc**e, em seguida, selecione **OK**. No Gerenciador DNS, expanda ** \<nome\> \> do servidor DNS zonas de pesquisa direta  **. Selecionar seu domínio. Você está pronto para criar os registros DNS.
+<a name="BKMK_find_your_dns_1"> </a> Vá para a página que tem os registros DNS do seu domínio. Se você estiver trabalhando no Windows Server 2008, vá para **Iniciar**  >  **executar**. Se você estiver trabalhando no Windows Server 2012, pressione a tecla Windows e **r**. Digite **dnsmgmnt. msc**e, em seguida, selecione **OK**. No Gerenciador DNS, expanda ** \<DNS server name\> \> zonas de pesquisa direta  **. Selecionar seu domínio. Você está pronto para criar os registros DNS.
    
 ## <a name="add-mx-record"></a>Adicionar registro MX
 <a name="BKMK_add_MX"> </a>
 
 Adicionar um registro MX para que o email do seu domínio seja fornecido para a Microsoft.
-- O registro MX adicionado inclui um valor (o valor **Aponta para o endereço**) que pode ter esta aparência: \<MX token\>.mail.protection.outlook.com, onde \<MX token\> é um valor, como MSxxxxxxx. 
+- O registro MX que você adicionará inclui um valor (os **pontos para** o valor do endereço) que tem a seguinte aparência: \<MX token\> . mail.Protection.Outlook.com, onde \<MX token\> é um valor como MSxxxxxxx. 
 - Na linha MX na seção Exchange Online da página Adicionar registros DNS no Microsoft, copie o valor listado em pontos para endereço. Você usará esse valor no registro que está criando nesta tarefa. 
-- Na página Gerenciador DNS para o domínio, vá para **ação** > **servidor de mensagens (MX)**. Para localizar esta página para o domínio, confira [localizar seus registros DNS no DNS baseado no Windows](#find-your-dns-records-in-windows-based-dns).  
+- Na página Gerenciador DNS para o domínio, vá para **ação**  >  **servidor de mensagens (MX)**. Para localizar esta página para o domínio, confira [localizar seus registros DNS no DNS baseado no Windows](#find-your-dns-records-in-windows-based-dns).  
 - Na caixa de diálogo **novo registro de recurso** , verifique se os campos estão definidos com precisão para os seguintes valores: 
     - Nome do host:  
     - @Address: Cole o valor de pontos no endereço que você copiou da Microsoft aqui.  
     - Pref 
 - Selecione **salvar alterações**.
-- Remova qualquer registro MX obsoleto. Se você tiver registros MX antigos para este domínio que encaminhar emails para outro local, marque a caixa de seleção ao lado de cada registro antigo e selecione **excluir** > **OK**. 
+- Remova qualquer registro MX obsoleto. Se você tiver registros MX antigos para este domínio que encaminhar emails para outro local, marque a caixa de seleção ao lado de cada registro antigo e selecione **excluir**  >  **OK**. 
    
 ## <a name="add-cname-records"></a>Adicionar registros CNAME
 <a name="BKMK_add_CNAME"> </a>
@@ -62,7 +63,7 @@ Adicione os registros CNAME necessários para a Microsoft. Se houver registros C
 > [!IMPORTANT]
 > Se você tiver o gerenciamento de dispositivo móvel (MDM) para a Microsoft, deverá criar dois registros CNAME adicionais. Siga o procedimento que você usou para os outros quatro registros CNAME, mas forneça os valores da tabela a seguir. Se você não tiver o MDM, ignore esta etapa. 
 
-- Na página Gerenciador DNS para o domínio, vá para **ação** > **CNAME (CNAME)**.
+- Na página Gerenciador DNS para o domínio, vá para **ação**  >  **CNAME (CNAME)**.
 - Na caixa de diálogo **novo registro de recurso** , verifique se os campos estão definidos com precisão para os seguintes valores:  
     - Nome do host: descoberta automática
     - Tipo: 
@@ -106,7 +107,7 @@ Adicione o registro CNAME Enterpriseenrollment do MDM.
     - Endereço: enterpriseenrollment-s.manage.microsoft.com
 - Clique em **OK**.
    
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -183,7 +184,7 @@ Adicione um registro TXT.
 - Nome do host: @
 - Tipo: TXT
 - Endereço: Cole o valor de destino ou aponta para o endereço que você copiou da Microsoft aqui.  
-- Selecione **OK** > **concluído**.
+- Selecione **OK**  >  **concluído**.
 
 Verifique seu domínio no Microsoft.  
 > [!IMPORTANT]

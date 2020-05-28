@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: 'Saiba como converter uma caixa de correio privada em uma caixa de correio compartilhada que pode ser acessada por vários usuários. '
-ms.openlocfilehash: 51817001b02c1dd5dd0e82f5795ef1a3f66bf7c7
-ms.sourcegitcommit: 9ffa2fd25776726475e10148940987fa076bbd91
+ms.openlocfilehash: c4f71f12b430e239f5ea5791ba5b98a3109452b0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44162693"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400107"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>Converter uma caixa de correio do usuário em uma caixa de correio compartilhada
 

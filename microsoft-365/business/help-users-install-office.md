@@ -21,17 +21,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: Ajude os usuários a instalar os aplicativos do Office em dispositivos Windows 10 e a instalar facilmente o Office em computadores com Windows 10 a partir do centro de administração do Microsoft 365.
-ms.openlocfilehash: a7078ad6d7423900aefba47605cb2b2852856108
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 617942c08b1fb27e8e864906774b4120486e0bb3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627193"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400901"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>Ajudar os usuários a instalar o Office em dispositivos Windows 10
 
@@ -49,7 +50,7 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 
 ## <a name="manage-office-deployments"></a>Gerenciar as implantações do Office
 
-1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>em e entre com as credenciais de administrador global. 
+1. Vá para o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> e entre com as credenciais de administrador global. 
 
 2. Vá para **configuração** no painel de navegação esquerdo e, na página **configuração** , role para **aplicativos e atualizações**.
     > [!NOTE]
@@ -64,4 +65,4 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Para saber mais sobre como configurar e usar o Microsoft 365 Business Premium
 
-[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

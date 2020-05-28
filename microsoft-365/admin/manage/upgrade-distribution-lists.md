@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Saiba como atualizar uma ou várias listas de distribuição para grupos do Microsoft 365 no Outlook e como usar o PowerShell para atualizar várias listas de distribuição simultaneamente.
-ms.openlocfilehash: 993b0baf46b702322df64693f682e25b0240a0ab
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: cac0232b721c07ce8e07c7b101e0313eb9cd91df
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065664"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399489"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Atualizar listas de distribuição para grupos do Microsoft 365 no Outlook
 
@@ -38,7 +39,7 @@ Você deve ser um administrador global ou administrador do Exchange para atualiz
 
 1. Vá até o <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Centro de administração do Exchange</a>.
 
-2. No centro de administração do Exchange, vá para **grupos**de **destinatários** \> .<br/>Você verá um aviso indicando que você tem listas de distribuição (também chamadas de **grupos de distribuição** ) qualificadas para serem atualizadas para os grupos do Microsoft 365.<br/> ![Selecionar o botão introdução](../../media/8cf838b4-2644-401f-a366-08c1eea183eb.png)
+2. No centro de administração do Exchange, vá para grupos de **destinatários** \> **Groups**.<br/>Você verá um aviso indicando que você tem listas de distribuição (também chamadas de **grupos de distribuição** ) qualificadas para serem atualizadas para os grupos do Microsoft 365.<br/> ![Selecionar o botão introdução](../../media/8cf838b4-2644-401f-a366-08c1eea183eb.png)
 
 3. Selecione uma ou mais listas de distribuição (também chamadas de **grupo de distribuição** ) na página **grupos** .<br/>![Selecionar um grupo de distribuição](../../media/2c303433-d60b-4100-a6ae-5809b03a8cdb.png)
 
@@ -89,7 +90,7 @@ Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address
 \< DL SMTP address3\>, \< DL SMTP address 4\>
 ```
 
-Por exemplo, se você quiser atualizar cinco `dl1@contoso.com` DLS com endereço SMTP e `dl2@contoso.com`, `dl3@contoso.com` `dl4@contoso.com` e `dl5@contoso.com`, execute o seguinte comando:
+Por exemplo, se você quiser atualizar cinco DLS com endereço SMTP `dl1@contoso.com` e `dl2@contoso.com` , `dl3@contoso.com` `dl4@contoso.com` e `dl5@contoso.com` , execute o seguinte comando:
 
 `Upgrade-DistributionGroup -DlIdentities dl1@contoso.com, dl2@contoso.com, dl3@contoso.com, dl4@contoso.com, dl5@contoso.com`
 
@@ -98,7 +99,7 @@ Por exemplo, se você quiser atualizar cinco `dl1@contoso.com` DLS com endereço
 Há duas maneiras de atualizar todas as DLs qualificadas.
 
 > [!NOTE]
-> O cmdlet Upgrade-Distribution não recebe dados da pipeline, por esse motivo, é necessário usar o operador "ForEach-Object{}" para executar com êxito.
+> O cmdlet Upgrade-Distribution não recebe dados da pipeline, por esse motivo, é necessário usar o operador "ForEach-Object {} " para executar com êxito.
 
 1. Obtenha as DLs qualificadas no locatário e atualize-as usando o comando upgrade:
 

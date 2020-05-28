@@ -13,25 +13,26 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 286fcf0b-ffc7-4593-8073-d7a4a5dd2b45
 description: Saiba como exibir os relatórios usando guias de navegação e filtros.
-ms.openlocfilehash: dedcaf52a2b5e69d53f8c41494b5fd68ac1f248b
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 3a43d638d50c2e9415dde3bc7c547a7ba3b9d5bd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140666"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401477"
 ---
 # <a name="navigate-and-utilize-the-reports-in-microsoft-365-usage-analytics"></a>Navegar e utilizar os relatórios da análise de uso do Microsoft 365 
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 

@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 9b497c85-d0a4-4735-80fa-d3565bc05bd1
 description: Saiba como remover licenças de contas de usuário.
-ms.openlocfilehash: d4ac823a7345cb4d04f599c5635248d6ce324257
-ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
+ms.openlocfilehash: 7207509c8e20710abae53cb095f7cbedfdc3bd6b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44322024"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399675"
 ---
 # <a name="unassign-licenses-from-users"></a>Cancelar a atribuição de licenças de usuários
 

@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 7173c635-58b3-400f-95e0-97abe915565e
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em WiX para a Microsoft.
-ms.openlocfilehash: 6f88cc65ae19f747a9fc3740ea1578f30d18b5e2
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: b5fe216e65954bbcbdd9a1da223258a8362743ca
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048850"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400287"
 ---
 # <a name="create-dns-records-at-wix-for-microsoft"></a>Criar registros DNS no WiX para Microsoft
 
@@ -69,7 +70,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
 ||||
 |:-----|:-----|:-----|
 |**Host Name** <br/> |**Valor TXT** <br/> |**TTL** <br/> |
-|Preenchido automaticamente  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)|1 Hour <br/> |          |
+|Preenchido automaticamente  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)|1 Hour <br/> |          |
    
 5. Selecione o botão **salvar DNS** na parte superior do editor de DNS. 
     
@@ -109,7 +110,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
 |**Host Name**|**Aponta para**|**Prioridade**|**TTL**|
 |:-----|:-----|:-----|:-----|
-|Preenchido automaticamente <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta da Microsoft.   [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md) |,0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) | 1 Hour|
+|Preenchido automaticamente <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Observação:** Acesse sua *\<domain-key\>* conta da Microsoft.   [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md) |,0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) | 1 Hour|
    
 6. Se houver outros registros MX listados, exclua cada um deles. 
     
@@ -140,7 +141,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
 6. Aguarde alguns minutos antes de prosseguir para que o registro que você acabou de criar possa ser atualizado na Internet.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 <a name="BKMK_spf"> </a>
 
 > [!IMPORTANT]
@@ -156,7 +157,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
 |**Host Name**|**Valor TXT**|**TTL**|
 |:-----|:-----|:-----|
-|[deixe em branco]  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.<br/> |TXT  <br/> | 1 Hour |
+|[deixe em branco]  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.<br/> |TXT  <br/> | 1 Hour |
    
 5. Selecione o botão **salvar DNS** na parte superior do editor de DNS. 
     
@@ -175,8 +176,8 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
 |**Serviço**|**Protocolo**|**Nome**|**Espessura**|**Porta**|**Destino**|**Prioridade**|**TTL**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|sip  |tls  |Preenchido automaticamente |1  |443   |sipdir.online.lync.com |100 |1 Hour |
-|sipfed|tcp |Preenchido automaticamente|1 |5061 |sipfed.online.lync.com|100 | 1 Hour |
+|sip  |tls  |Preenchido automaticamente |1   |443   |sipdir.online.lync.com |100 |1 Hour |
+|sipfed|tcp |Preenchido automaticamente|1  |5061 |sipfed.online.lync.com|100 | 1 Hour |
    
 5. Selecione o botão **salvar DNS** na parte superior do editor de DNS. 
     

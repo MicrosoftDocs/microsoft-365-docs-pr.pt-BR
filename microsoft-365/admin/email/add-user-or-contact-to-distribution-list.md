@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
 description: Saiba como adicionar um usuário ou contato do Microsoft 365 a um grupo de distribuição. Por exemplo, você pode adicionar um funcionário, parceiro ou um fornecedor ao seu grupo de distribuição de email.
-ms.openlocfilehash: 0b1feacbd3e35adcdf96ae8c42aa330921a4b390
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 47b338a326c5c1152c8e14e13f01f9a36de1cb6f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629066"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400167"
 ---
 # <a name="add-a-user-or-contact-to-a-distribution-group"></a>Adicionar um usuário ou contato a um grupo de distribuição
 
@@ -37,7 +38,7 @@ Como administrador de uma organização, talvez seja necessário adicionar um de
 > [!NOTE]
 > Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
 
 2. Na página **grupos** , selecione o nome do grupo ao qual você deseja adicionar um contato.
 
@@ -53,7 +54,7 @@ Como administrador de uma organização, talvez seja necessário adicionar um de
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
     
 2. Na página **grupos** , selecione o grupo ao qual você deseja adicionar um contato.
     
@@ -71,7 +72,7 @@ Se você ainda não criou o [contato](../misc/contacts.md), faça isso primeiro 
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">a página grupos</a> de **grupos** \> .
+1. No centro de administração, vá para a página grupos de **grupos** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> .
     
 2. Na página **grupos** , selecione o grupo ao qual você deseja adicionar um contato.
     

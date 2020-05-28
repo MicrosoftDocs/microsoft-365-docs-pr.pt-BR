@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -20,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Saiba como definir uma política de expiração de senha para sua organização no centro de administração do Microsoft 365. '
-ms.openlocfilehash: b5836fb1a9bf7c1a9820214916f4c6158bc44852
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: a4d5f5240a6d4cca686b4809d05970b5e18b897f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139656"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399573"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 

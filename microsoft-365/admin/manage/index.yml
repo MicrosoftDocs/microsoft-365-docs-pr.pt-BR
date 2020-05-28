@@ -10,12 +10,13 @@ metadata:
   ms.author: sirkkuw
   ms.date: 04/16/2020
   localization_priority: Priority
-  ms.openlocfilehash: 7289f6a0b971db0f9b785f35c6bbae839ecae226
-  ms.sourcegitcommit: a2dd93943f68362220b123e3e4b0f7b3facbdd03
+  ms.custom: AdminSurgePortfolio
+  ms.openlocfilehash: b1a5bd2f50542a9c76c32da7465e80e371238560
+  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/30/2020
-  ms.locfileid: "43955320"
+  ms.lasthandoff: 05/27/2020
+  ms.locfileid: "44399747"
 landingContent:
 - title: Monitorar o status do nosso serviço
   linkLists:
@@ -31,7 +32,7 @@ landingContent:
       url: change-address-contact-and-more.md
     - text: Atualizar suas informações de contato de administrador
       url: update-phone-number-and-email-address.md
-    - text: Configurar opções de lançamento
+    - text: 'Configurar opções de versão  '
       url: release-options-in-office-365.md
 - title: Bloquear o acesso do usuário e fazer backup dos dados
   linkLists:
@@ -51,9 +52,9 @@ landingContent:
       url: ../setup/upgrade-users-to-latest-office-client.md
     - text: Personalizar o inicializador de aplicativos
       url: customize-the-app-launcher.md
-    - text: Requisitos para a implantação centralizada de suplementos
+    - text: Requisitos para implantação centralizada de suplementos
       url: centralized-deployment-of-add-ins.md
-    - text: Instalar e gerenciar suplementos usando a implantação centralizada
+    - text: Instalar e gerenciar suplementos usando a Implantação Centralizada
       url: manage-deployment-of-add-ins.md
 - title: Microsoft Teams
   linkLists:

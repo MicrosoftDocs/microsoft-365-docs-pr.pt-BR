@@ -14,17 +14,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 48b26596-9e5b-4e5a-a64f-7430eb2a1e45
 description: 'Saiba como se tornar o administrador e obter uma assinatura do Microsoft 365 para sua organização. '
-ms.openlocfilehash: ac18b40a1160d58e343df8196881769b7200d5a5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7d1e5673e6c995d007603d364b22ad81638d1782
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627951"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399453"
 ---
 # <a name="become-the-admin-and-purchase-microsoft-365-for-your-organization"></a>Tornar-se o administrador e comprar o Microsoft 365 para sua organização
 
@@ -78,7 +79,7 @@ A assinatura do Microsoft 365 para a qual sua organização é atualizada depend
 |Usando o bloco Administrador no inicializador de aplicativos  <br/> |Microsoft 365 Business Basic  <br/> |
 |Escolhendo **atualizar para o Microsoft 365 for Business** em reuniões do Skype  <br/> |Microsoft 365 Business Basic ou Microsoft 365 Business Standard  <br/> |
    
-## <a name="whats-next"></a>E agora?
+## <a name="whats-next"></a>O que vem a seguir?
 
 Agora que você é o administrador, convém fazer o seguinte:
   

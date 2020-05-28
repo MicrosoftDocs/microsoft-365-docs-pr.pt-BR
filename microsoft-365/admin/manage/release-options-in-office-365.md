@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Saiba como configurar a opção de lançamento para novas atualizações de produtos e recursos no centro de administração do Microsoft 365.
-ms.openlocfilehash: 2738cf7af32d2e15b0c2c790a241dabbb1f104bc
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: 4b26a3e95b11feb5c6a5894702b86e74f82bde03
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262312"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399687"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>Configurar as opções de lançamento padrão ou direcionadas
 

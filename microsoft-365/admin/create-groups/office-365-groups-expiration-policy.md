@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Saiba mais sobre as políticas de expiração de grupos do Microsoft 365.
-ms.openlocfilehash: 0cb67b87a542d021387365802bd5969f4c4332b8
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 00dfb09cdf4fe3f70344152444e7433c1de8a8c2
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064816"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400720"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Política de expiração de grupo do Microsoft 365
 
@@ -57,7 +58,7 @@ Os grupos que estão ativamente em uso são renovados automaticamente. Qualquer 
 
 ## <a name="how-to-set-the-expiration-policy"></a>Como definir a política de expiração
 
-Conforme observado acima, a expiração é desativada por padrão. Um administrador precisará habilitar a política de expiração e definir as propriedades para que ela entre em vigor. Para habilitá-lo, vá para a**expiração**dos**grupos** >  **do Azure Active Directory (AAD)** > . Aqui você pode definir o tempo de vida do grupo padrão e especificar até que ponto de antecedência você deseja que a primeira e a segunda notificações de expiração acessem o proprietário do grupo.
+Conforme observado acima, a expiração é desativada por padrão. Um administrador precisará habilitar a política de expiração e definir as propriedades para que ela entre em vigor. Para habilitá-lo, vá para a expiração dos grupos **do Azure Active Directory (AAD)**  >  **Groups**  >  **Expiration**. Aqui você pode definir o tempo de vida do grupo padrão e especificar até que ponto de antecedência você deseja que a primeira e a segunda notificações de expiração acessem o proprietário do grupo.
 
 O tempo de vida do grupo é especificado em dias e pode ser definido como 180, 365 ou como um valor personalizado que você especificar. O valor personalizado deve ser pelo menos 30 dias.
 

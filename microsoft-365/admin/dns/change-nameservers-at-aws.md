@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 0ddbe33c-81ea-4c02-8db9-e71d3810c0ec
 description: 'Saiba como você pode configurar a Microsoft para gerenciar seus registros DNS no Amazon Web Services (AWS). '
-ms.openlocfilehash: 6393ef3e0d9603f122685dd3e3904b653fda8c34
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6efe06400652783ffbc6732b5c6327067c5c484c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629990"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400672"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-amazon-web-services-aws"></a>Alterar os nameservers para configurar a Microsoft com serviços Web da Amazon (AWS)
 
@@ -36,7 +37,7 @@ Siga estas instruções se quiser que a Microsoft gerencie seus registros DNS pa
     
 ## <a name="add-a-txt-record-for-verification"></a>Adicionar um registro TXT para verificação
 
-Antes de usar seu domínio com a Microsoft, precisamos garantir que você o tenha. Sua capacidade de fazer logon em sua conta no registrador de domínios e criar o registro DNS comprova para a Microsoft que você é o proprietário do domínio.
+Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o proprietário dele. A capacidade de entrar na conta do seu registrador de domínios e criar o registro de DNS prova à Microsoft que você é o proprietário do domínio.
   
 > [!NOTE]
 > Esse registro é usado exclusivamente para confirmar se você é o proprietário do domínio; ele não afeta mais nada. É possível excluí-lo mais tarde, se desejar. 
@@ -59,7 +60,7 @@ Antes de usar seu domínio com a Microsoft, precisamos garantir que você o tenh
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Nome** <br/> |**Tipo** <br/> |**Alias** <br/> |**TTL (Segundos)** <br/> |**Valor** <br/> |**Política de Roteamento** <br/> |
-|(Deixe este campo vazio)  <br/> |TXT - Text  <br/> |Não  <br/> |300  <br/> |MS = ms *XXXXXXXX* <br/> **Observação**: esse é um exemplo. Use o seu **destino específico ou aponte para** o valor de endereço aqui, a partir da tabela. [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)  <br/>  |Simples <br/> |
+|(Deixe este campo vazio)  <br/> |TXT - Text  <br/> |Não  <br/> |300  <br/> |MS=ms *XXXXXXXX* <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)  <br/>  |Simples <br/> |
    
 6. Selecione **Criar**.
     
@@ -67,9 +68,9 @@ Antes de usar seu domínio com a Microsoft, precisamos garantir que você o tenh
     
 Agora que você adicionou o registro no site do seu registrador de domínio, você voltará para a Microsoft e solicitará uma pesquisa para o registro.
   
-Quando a Microsoft encontrar o registro TXT correto, seu domínio será verificado.
+Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verificado.
   
-1. No centro de administração da Microsoft, vá para a página de <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a> de **configurações** \> .
+1. No centro do administrador da Microsoft, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
 
     
 2. Na página **Domínios**, clique no domínio que você está verificando. 
@@ -79,7 +80,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio será verifica
 4. Na página **Verificar domínio**, clique em **Verificar**.
     
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você estiver tendo problemas com o fluxo de emails ou com outros problemas após adicionar registros DNS, consulte [Localizar e corrigir problemas após adicionar seu domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
+> Typically it takes about 15 minutes for DNS changes to take effect. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de e-mails ou de outro tipo após adicionar os registros DNS, consulte [Localizar e corrigir problemas ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>Alterar os registros de nameserver (NS) de seu domínio
 

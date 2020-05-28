@@ -21,18 +21,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 52089919-9a5e-475f-a49a-f65369487861
 description: 'Saiba mais sobre a configuração padrão e adição de políticas de gerenciamento de aplicativos para proteger os dados da empresa nos dispositivos móveis pessoais dos usuários. '
-ms.openlocfilehash: 838c218114938608c365cd632b5682df770f8308
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1d76b8fde6db4cf99d29fcfff000c20f0e7c18fe
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593567"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401273"
 ---
 # <a name="protect-work-files-on-devices"></a>Proteger arquivos de trabalho em dispositivos
 

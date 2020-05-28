@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em cloudflare para a Microsoft.
-ms.openlocfilehash: 36578d8eed2c5630a9ce5abfb355983a26028888
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 9b717ddedaf6435f6599f4f75cc0fa7c4e618d59
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049066"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400540"
 ---
 # <a name="create-dns-records-at-cloudflare-for-microsoft"></a>Criar registros DNS no cloudflare para Microsoft
 
@@ -87,7 +88,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
     |**Tipo**|**Nome**|**TTL automático**|**Conteúdo**|
     |:-----|:-----|:-----|:----|
-    |TXT  <br/> |@  <br/> |30 minutos  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)    |
+    |TXT  <br/> |@  <br/> |30 minutos  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)    |
   
     
 5. Selecione **Salvar**.
@@ -131,7 +132,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Tipo**|**Nome**|**Servidor de email**|**Prioridade**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |@  <br/> |*\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta do Microsoft 365.   [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md) |1  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/>|30 minutos  <br/> |
+    |MX  <br/> |@  <br/> |*\<domain-key\>*. mail.protection.outlook.com  <br/> **Observação:** Acesse sua *\<domain-key\>* conta do Microsoft 365.   [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md) |1   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/>|30 minutos  <br/> |
    
 
   
@@ -175,7 +176,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 7. Adicione cada um dos outros cinco registros CNAME.
 
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -193,7 +194,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Tipo**|**Nome**|**TTL**|**Conteúdo**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |@  <br/> |30 minutos  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.   |
+    |TXT  <br/> |@  <br/> |30 minutos  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.   |
 
  
 5. Selecione **Salvar**.
@@ -218,8 +219,8 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
         
     |**Tipo**|**Serviço**|**Protocolo**|**Nome**|**TTL**|**Prioridade**|**Espessura**|**Porta**|**Destino**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV|_sip |TLS |Use seu *domain_name*; por exemplo, contoso.com  |30 minutos | 100|1 |443 |sipfed.online.lync.com  |
-    |SRV|_sipfederationtls | TCP|Use seu *domain_name*; por exemplo, contoso.com   |30 minutos |100 |1 |5061 | sipfed.online.lync.com |
+    |SRV|_sip |TLS |Use seu *domain_name*; por exemplo, contoso.com  |30 minutos | 100|1  |443 |sipfed.online.lync.com  |
+    |SRV|_sipfederationtls | TCP|Use seu *domain_name*; por exemplo, contoso.com   |30 minutos |100 |1  |5061 | sipfed.online.lync.com |
 
   
 5. Selecione **Salvar**.

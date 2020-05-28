@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 657934ff-d9d2-4563-9ccf-ef4832a03a99
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Bluehost para a Microsoft.
-ms.openlocfilehash: c2aabd7a578ab792cfb341f67765fc3021038e44
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 7b241c4635ecc4a8092702f95d19df7ed94ce1cd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049090"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400552"
 ---
 # <a name="create-dns-records-at-bluehost-for-microsoft"></a>Criar registros DNS no Bluehost para Microsoft
 
@@ -61,7 +62,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     |||||
     |:-----|:-----|:-----|:-----|
     |**Host Record** <br/> |**TTL** <br/> |**Tipo** <br/> |**TXT Value** <br/> |
-    |@  <br/> |14400  <br/> |TXT  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |14400  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
 5. Selecione **adicionar registro**.
     
@@ -100,7 +101,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Host Record**|**TTL**|**Tipo**|**Aponta para**|**Prioridade**|
     |:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |14400  <br/> |MX  <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/>**Observação:** Obtenha a sua \<*chave-de-domínio*\> através da sua conta Microsoft. [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |,0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
+    |@  <br/> |14400  <br/> |MX  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/>**Observação:** Acesse sua \<*domain-key*\> conta da Microsoft. [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |,0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
    
    ![Escolha tipo na lista suspensa](../../media/70791420-d83c-4a5d-a46c-5cc3bc67f565.png)
   
@@ -168,7 +169,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     Repita esse processo até ter criado todos os seis registros CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -188,7 +189,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
         
     |**Host Record**|**TTL**|**Tipo**|**TXT Value**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |14400  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
+    |@  <br/> |14400  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
    
     ![Copiar o valor TXT](../../media/b2dabd7a-ee3d-4209-aa1e-0233eb8cf3b9.png)
   
@@ -215,8 +216,8 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Serviço**|**Protocolo**|**Host**|**TTL**|**Tipo**|**Prioridade**|**Espessura**|**Porta**|**Aponta para**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |_tls  <br/> |@  <br/> |14400  <br/> |SRV  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls  <br/> |_tcp  <br/> |@  <br/> |14400  <br/> |SRV  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip  <br/> |_tls  <br/> |@  <br/> |14400  <br/> |SRV  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls  <br/> |_tcp  <br/> |@  <br/> |14400  <br/> |SRV  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
     ![Copiar o valor do novo registro](../../media/e2911bca-c00b-4b8a-837f-f1d438c474c4.png)
   

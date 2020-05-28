@@ -17,6 +17,7 @@ ms.custom:
 - TopSMBIssues
 - SaRA
 - okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
@@ -24,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 997596b5-4173-4627-b915-36abac6786dc
 description: Saiba como atribuir licenças a usuários ou migrar usuários para uma nova assinatura.
-ms.openlocfilehash: 971141514f9117db69a2fbc8f91c2e42b329c33a
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: da4dc2478180716710552ac1d4b7b81d019a622f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139692"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399831"
 ---
 # <a name="assign-licenses-to-users"></a>Atribuir licenças aos usuários
 

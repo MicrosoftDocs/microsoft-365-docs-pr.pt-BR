@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -20,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: 'Crie links rápidos para seus emails, documentos, aplicativos, sites do SharePoint, sites externos e outros recursos adicionando blocos personalizados ao inicializador de aplicativos. '
-ms.openlocfilehash: f099eabef7a22e9ebd8f20b23ccd3d8da142f07f
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: cad78207c5d4025d385a7452fbe86df79a694067
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262358"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399771"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Adicionar blocos personalizados ao inicializador de aplicativos
 

@@ -12,17 +12,18 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - FRP150
 description: Saiba mais sobre o novo centro de administração do Microsoft 365.
-ms.openlocfilehash: 95453380fc693c4313debf5baaa96264d486385b
-ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+ms.openlocfilehash: 0eeebcd0c96b5f3741c01a2776391ceaa698a40e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952634"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399477"
 ---
 # <a name="about-the-new-microsoft-365-admin-center"></a>Sobre o novo centro de administração do Microsoft 365
 
@@ -30,7 +31,7 @@ ms.locfileid: "43952634"
 
 O novo centro de administração do Microsoft 365 é desenvolvido para equipes de ti como uma maneira simplificada de gerenciar seus serviços do Microsoft 365. O centro de administração oferece uma experiência personalizada com base nas necessidades exclusivas de sua função ou organização, aumenta a eficiência de tarefas diárias e fornece informações acionáveis que ajudam você a tomar decisões orientadas a dados para oferecer uma melhor experiência aos seus usuários.
 
-O centro de administração do Microsoft 365 é o ponto de entrada comum para todos os administradores do Microsoft 365 [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339)e pode ser acessado em. Os espaços de trabalho especializados, como segurança ou gerenciamento de dispositivos, permitem um controle mais granular. Para obter mais informações sobre como os centros de administração funcionarão juntos, confira [o artigo sobre os tipos específicos de funções de ti e outros espaços de trabalho, como segurança, gerenciamento de dispositivos ou Exchange?](#what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange) mais adiante neste artigo.
+O centro de administração do Microsoft 365 é o ponto de entrada comum para todos os administradores do Microsoft 365 e pode ser acessado em [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) . Os espaços de trabalho especializados, como segurança ou gerenciamento de dispositivos, permitem um controle mais granular. Para obter mais informações sobre como os centros de administração funcionarão juntos, confira [o artigo sobre os tipos específicos de funções de ti e outros espaços de trabalho, como segurança, gerenciamento de dispositivos ou Exchange?](#what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange) mais adiante neste artigo.
 
 ::: moniker-end
 
@@ -38,7 +39,7 @@ O centro de administração do Microsoft 365 é o ponto de entrada comum para to
 
 O novo centro de administração do Microsoft 365, que atualmente está em versão prévia, foi desenvolvido para o Microsoft Teams como uma maneira simplificada de gerenciar seus serviços do Microsoft 365. O centro de administração oferece uma experiência personalizada com base nas necessidades exclusivas de sua função ou organização, aumenta a eficiência de tarefas diárias e fornece informações acionáveis que ajudam você a tomar decisões orientadas a dados para oferecer uma melhor experiência aos seus usuários.
 
-O centro de administração do Microsoft 365 é o ponto de entrada comum para todos os administradores do Microsoft 365 e pode ser [https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage](https://go.microsoft.com/fwlink/p/?linkid=850627)acessado por meio de logon no. Além disso, os espaços de trabalho especializados, como o Azure Active Directory e o Exchange, permitem um controle mais granular. Você pode acessar os espaços de trabalho de especialista no painel de navegação do centro de administração do Microsoft 365.
+O centro de administração do Microsoft 365 é o ponto de entrada comum para todos os administradores do Microsoft 365 e pode ser acessado por meio de logon no [https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage](https://go.microsoft.com/fwlink/p/?linkid=850627) . Além disso, os espaços de trabalho especializados, como o Azure Active Directory e o Exchange, permitem um controle mais granular. Você pode acessar os espaços de trabalho de especialista no painel de navegação do centro de administração do Microsoft 365.
 
 ::: moniker-end
 
@@ -104,7 +105,7 @@ Sim. O novo centro de administração é totalmente funcional e tem todos os rec
 
 O Microsoft 365 é uma solução completa e inteligente que inclui o Office 365, Windows 10 e Enterprise Mobility + Security, que permite que todos sejam criativos e trabalhem juntos de forma segura. As seguintes assinaturas do Microsoft 365 estão disponíveis no centro de administração para experimentar ou comprar agora:
   
-- Microsoft 365 para empresas
+- Microsoft 365 for business
 - Microsoft 365 Enterprise E3
 - Microsoft 365 Enterprise E5
     
@@ -118,7 +119,7 @@ Você também pode fazer comentários de fora do centro de administração no no
 
 ## <a name="what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange"></a>E os tipos específicos de funções de ti e outros espaços de trabalho, como segurança, gerenciamento de dispositivos ou Exchange?
 
-O centro de administração do Microsoft 365 é o ponto de entrada comum para todas as equipes e funções que gerenciam o Microsoft 365. A experiência, as informações e os controles são adaptados e personalizáveis para cada administrador e função. Além disso, os espaços de trabalho especializados permitem um controle profundo e granular. Esses espaços de trabalho de especialistas incluem SharePoint &amp; , Teams Skype, Exchange, segurança, conformidade, gerenciamento de dispositivos e Active Directory do Azure. Você pode encontrar os espaços de trabalho de especialista no painel de navegação do centro de administração do [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339)Microsoft 365 em.
+O centro de administração do Microsoft 365 é o ponto de entrada comum para todas as equipes e funções que gerenciam o Microsoft 365. A experiência, as informações e os controles são adaptados e personalizáveis para cada administrador e função. Além disso, os espaços de trabalho especializados permitem um controle profundo e granular. Esses espaços de trabalho de especialistas incluem SharePoint, Teams &amp; Skype, Exchange, segurança, conformidade, gerenciamento de dispositivos e Active Directory do Azure. Você pode encontrar os espaços de trabalho de especialista no painel de navegação do centro de administração do Microsoft 365 em [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) .
   
 A atualização de todos os centros de administração para ter uma experiência coerente levará algum tempo, mas você pode saber mais sobre os centros de administração que já começamos a criar um.
   

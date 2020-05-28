@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Decida quais recursos e o conteúdo de suas novidades são exibidos ou ocultos dos usuários finais no Office What ' s New Management for Office Desktop apps.
-ms.openlocfilehash: 7399da493f8e6878a92dc13d92482d7ddece0ba3
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 0723823e76be2baf15273d23ad343d91bcec8d60
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011694"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399537"
 ---
 # <a name="show-or-hide-new-features-using-whats-new-management"></a>Mostrar ou ocultar novos recursos usando o Gerenciamento de Novidades
 

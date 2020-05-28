@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: Encontre como transferir dados manualmente entre duas contas do Microsoft 365 quando você alterou o plano ou o nome da empresa ou combinou várias assinaturas em uma.
-ms.openlocfilehash: 1eaaf48f445eb54ebf91b96924c39e9062eea4fb
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: 69476687915024accabdce2a603ebdd7e8b653af
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053735"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399867"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>Transferir dados manualmente entre duas contas
 
@@ -59,18 +60,18 @@ Se você estiver transferindo dados do Microsoft 365 para a Microsoft 365 Midsiz
   
 Para o Microsoft 365 Enterprise e o Microsoft 365 Midsize Business:
   
-|**Location**|**Objetivo**|
+|**Localização**|**Objetivo**|
 |:-----|:-----|
-|**Administração** \> de **configurações de serviço** **do Microsoft 365** \> <br/> |Selecione cada guia para configurações de email, sites, Lync, software do usuário, senhas, Comunidade, gerenciamento de direitos e dispositivos móveis.  <br/> |
-|**Administração** \> do **Exchange** <br/> | Configurações do Exchange Online  <br/> |
-|**Administração** \> **do SharePoint** <br/> | Configurações do SharePoint Online  <br/> |
-|**Administrador** \> **do Skype for Business** <br/> |Configurações adicionais do Skype for Business  <br/> |
+|**Administração** \> **Microsoft 365** \> **Configurações de serviço** <br/> |Selecione cada guia para configurações de email, sites, Lync, software do usuário, senhas, Comunidade, gerenciamento de direitos e dispositivos móveis.  <br/> |
+|**Administração** \> **Exchange** <br/> | Configurações do Exchange Online  <br/> |
+|**Administração** \> **SharePoint** <br/> | Configurações do SharePoint Online  <br/> |
+|**Administração** \> **Skype for Business** <br/> |Configurações adicionais do Skype for Business  <br/> |
 
 Para o Microsoft 365 Small Business
   
-|**Location**|**Objetivo**|
+|**Localização**|**Objetivo**|
 |:-----|:-----|
-|**Administração** \> **gerenciar configurações de toda a organização** <br/> |Configurações administrativas  <br/> |
+|**Administração** \> **Gerenciar configurações de toda a organização** <br/> |Configurações administrativas  <br/> |
 
 ## <a name="transfer-a-public-website-between-subscriptions"></a>Transferir um site público entre assinaturas
 

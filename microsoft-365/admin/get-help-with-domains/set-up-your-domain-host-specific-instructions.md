@@ -13,6 +13,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom:
+- okr_smb
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
@@ -20,13 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: ae950c9e-e8d9-4108-b0cb-449156998580
 description: Saiba como gerenciar seus próprios registros DNS ou deixar que a Microsoft gerencie seus registros DNS para você.
-ms.custom: okr_smb
-ms.openlocfilehash: ea3a62c048706f36cd7b1590851d8b372e0a1677
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1b82fd40556b1bf828f9f367aa1175f21723cc8c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628417"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399879"
 ---
 # <a name="set-up-your-domain-host-specific-instructions"></a>Configure seu domínio (instruções específicas do host)
 

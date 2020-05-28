@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: Saiba mais sobre os problemas que você tem ao configurar um domínio personalizado certificando-se de que os registros DNS estão configurados corretamente.
-ms.openlocfilehash: 457b9a0f76e66f121572064f359f120b770b65de
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: e3c66e10a673d840cfddad81a057739b6dfac721
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053711"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399939"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>Localizar e corrigir problemas após a adição do seu domínio ou de registros DNS
 
@@ -35,7 +36,7 @@ ms.locfileid: "44053711"
 Obter o seu domínio configurado para funcionar com o Microsoft 365 pode ser desafiador. É complicado trabalhar com o sistema DNS, e a configuração DNS do seu domínio afeta atividades comerciais importantes, como o email!
 
 > [!NOTE]
-> Você pode verificar se há problemas com seu domínio verificando seu status. Vá para **Configurar** > **domínios** e exibir as notificações na coluna **status** . Se você vir um problema, selecione mais ações (três pontos) e escolha **verificar integridade**. O painel que será aberto descreverá todos os problemas que ocorrem com o seu domínio.
+> Você pode verificar se há problemas com seu domínio verificando seu status. Vá para **Configurar**  >  **domínios** e exibir as notificações na coluna **status** . Se você vir um problema, selecione mais ações (três pontos) e escolha **verificar integridade**. O painel que será aberto descreverá todos os problemas que ocorrem com o seu domínio.
   
 ## <a name="whats-going-on"></a>O que está acontecendo?
 

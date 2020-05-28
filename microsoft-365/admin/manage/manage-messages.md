@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 97af2932-0868-4ccf-8f6b-21a94946c58a
 description: Saiba como gerenciar mensagens do centro de mensagens para ajudar no gerenciamento de alterações.
-ms.openlocfilehash: 95a4544dd99ebce793242532ae144f00c3b16fcb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 63c46b10913b3388c833470041da3695f0988327
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628143"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399711"
 ---
 # <a name="manage-messages-in-message-center"></a>Gerenciar mensagens no centro de mensagens
 
@@ -32,7 +33,7 @@ Postagens do centro de mensagens são comunicados importantes sobre recursos nov
   
 ## <a name="read-a-message"></a>Ler uma mensagem
 
-Para ir para o centro de mensagens, vá para [o centro de administração](https://go.microsoft.com/fwlink/p/?linkid=2024339)e selecione centro de**mensagens**de **saúde** > . 
+Para ir para o centro de mensagens, vá para o [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=2024339)e selecione centro de mensagens de **saúde**  >  **Message center**. 
 
 Selecione um título da mensagem para abri-lo no painel de leitura. Cada mensagem contém um resumo da alteração, uma declaração de como a alteração pode afetar você, informações sobre como você pode preparar sua organização para a alteração e (na maioria dos casos) um link de informações adicionais onde você pode saber mais. As informações adicionais continuam disponíveis, mesmo depois que uma mensagem expira.
 
@@ -111,7 +112,7 @@ Vê uma mensagem de que outra pessoa precisa agir? Você pode compartilhar o con
 
 1. Selecione a mensagem para abri-la.
 
-2. \> Escolha **obter** **um link** da barra de ações.
+2. Escolha **obter** \> **um link** da barra de ações.
 
 3. Permitir que a página da Web acesse a área de transferência. Um vínculo direto é copiado para a área de transferência.
 
@@ -123,7 +124,7 @@ Vê uma mensagem de que outra pessoa precisa agir? Você pode compartilhar o con
 
 1. Selecione a mensagem para abri-la.
 
-2. \> Escolha **obter** **um link** da barra de ações.
+2. Escolha **obter** \> **um link** da barra de ações.
 
 3. Permitir que a página da Web acesse a área de transferência. Um vínculo direto é copiado para a área de transferência.
 

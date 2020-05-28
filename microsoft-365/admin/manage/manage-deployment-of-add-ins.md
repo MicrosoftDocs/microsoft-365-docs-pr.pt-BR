@@ -13,25 +13,26 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como implantar suplementos para usuários e grupos em sua organização usando a implantação centralizada no centro de administração.
-ms.openlocfilehash: cb41d02d8075e94c788a9964e0a3ac69d8363ef4
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: e71afad19690d3a05dc5f06bc0718861cb22f12d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139704"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399723"
 ---
 # <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Gerenciar a implantação de suplementos no Centro de administração do Microsoft 365
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -67,7 +68,7 @@ Dependendo do tamanho do público-alvo, talvez você queira adicionar ou remover
 Antes de começar, confira [determinar se a implantação centralizada de suplementos funciona para sua organização](centralized-deployment-of-add-ins.md).
 
   
-1. No centro de administração, vá para a página **configurações** \> **de suplementos.**
+1. No centro de administração, vá para a página **configurações** \> **de suplementos** .
     
 2. Selecione **implantar suplemento** na parte superior da página. Na página Visão geral, selecione **Avançar**.
     
@@ -147,7 +148,7 @@ As atualizações para suplementos acontecem da seguinte maneira:
 
 Pós-implantação, os administradores também podem modificar o acesso do usuário a suplementos.
 
-1. No centro de administração, vá para a página **configurações** > de **&** de suplementos.
+1. No centro de administração, vá para a página **configurações**de  >  **&** de suplementos.
 
 2. Selecione o suplemento implantado.
 
@@ -277,7 +278,7 @@ Se o suplemento implantado não oferecer suporte a comandos de suplemento ou se 
 
 Você também pode excluir um suplemento implantado.
 
-1. No centro de administração, vá para a página **configurações** > de **&** de suplementos.
+1. No centro de administração, vá para a página **configurações**de  >  **&** de suplementos.
 
 2. Selecione o suplemento implantado.
 

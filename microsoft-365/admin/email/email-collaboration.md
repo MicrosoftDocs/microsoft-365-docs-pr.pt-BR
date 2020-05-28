@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -25,12 +26,12 @@ search.appverid:
 - SPB160
 ms.assetid: eb3e840f-ed60-4461-81f5-12381c132b89
 description: Saiba mais sobre os vários tipos de grupos e como usá-los com os vários recursos de colaboração do Microsoft 365.
-ms.openlocfilehash: b5b8030b1f16562007ac2786dca776db6482eecb
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: a646a5b2f65b952543fcac0ae2c96d2ec03ec543
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048790"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400071"
 ---
 # <a name="email-collaboration"></a>Colaboração por email
 

@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 1f2d08c9-2a88-4d2f-ae1f-e39f9e358b17
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em 123-reg.co.uk para a Microsoft.
-ms.openlocfilehash: 0c9a6a144a38398e7664f7f2bb317a96b627b640
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 3c188c7e9f2f9390aa45196d798e04441d33bcb0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049126"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400576"
 ---
 # <a name="create-dns-records-at-123-regcouk-for-microsoft"></a>Criar registros DNS no 123-reg.co.uk para Microsoft
 
@@ -62,7 +63,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     ||||
     |:-----|:-----|:-----|
     |**Nome do host** <br/> |**Tipo** <br/> |**Destination TXT/SPF** <br/> |
-    |@  <br/> |TXT/SPF  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |TXT/SPF  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
 6. Clique em **Adicionar**.
     
@@ -101,11 +102,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome do host**|**Tipo**|**Prioridade**|**MX de destino**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> **Observação:** Obtenha a sua \<chave-de-domínio\> através da sua conta Microsoft. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |MX  <br/> |1   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<domain-key\>*. mail.protection.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> **Observação:** Acesse sua \<domain-key\> conta da Microsoft. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Copiar e colar valores da tabela](../../media/65366165-85a6-4a39-b9a7-6c5f47fbe790.png)
   
-6. Selecione **Adicionar**.
+6. Clique em **Adicionar**.
     
     ![Selecione Adicionar](../../media/a8ae6c0c-4365-4137-af8a-6e003996e3d0.png)
   
@@ -140,7 +141,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
    
     ![Copiar e colar os valores da tabela](../../media/24bf388c-5f7f-4fc0-b4ec-4b17226b6246.png)
   
-6. Selecione **Adicionar**.
+6. Clique em **Adicionar**.
     
     ![Selecione Adicionar](../../media/825a9854-559d-4a22-90ac-5e7a0a54269a.png)
   
@@ -150,7 +151,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     Repita esse processo até ter criado todos os seis registros CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -170,11 +171,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome do host**|**Tipo**|**Destination TXT/SPF**|
     |:-----|:-----|:-----|
-    |@  <br/> |TXT/SPF  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
+    |@  <br/> |TXT/SPF  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
    
     ![123Reg-BP-configure-4-1](../../media/4697701c-eba0-4b03-8d75-4f7fc3bef94a.png)
   
-6. Selecione **Adicionar**.
+6. Clique em **Adicionar**.
     
     ![Selecione Adicionar](../../media/7906dd91-fd23-44c3-bb37-ef185655c6eb.png)
   
@@ -198,12 +199,12 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     ||||||
     |:-----|:-----|:-----|:-----|:-----|
     |Nome do host|Tipo|Prioridade|TTL|SRV de destino|
-    |_sip. _tls|SRV|100|3600|1 443 sipdir.online.lync.com. **This value MUST end with a period (.)**<br> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
-    |_sipfederationtls. _tcp|SRV|100|3600|1 5061 sipfed.online.lync.com. **This value MUST end with a period (.)** <br> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
+    |_sip. _tls|SRV|100|3600|1 443 sipdir.online.lync.com. **This value MUST end with a period (.)**<br> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
+    |_sipfederationtls. _tcp|SRV|100|3600|1 5061 sipfed.online.lync.com. **This value MUST end with a period (.)** <br> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
    
     ![Copiar e colar os valores da tabela](../../media/c1786b86-52ef-4dca-8b99-b479554fa531.png)
   
-6. Selecione **Adicionar**.
+6. Clique em **Adicionar**.
     
     ![Selecione Adicionar](../../media/5fd9d3a2-a8bb-466b-829f-b3a6e54b5104.png)
   

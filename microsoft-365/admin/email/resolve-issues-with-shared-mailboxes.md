@@ -15,17 +15,18 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Tente estas soluções se você tiver problemas com caixas de correio compartilhadas.
-ms.openlocfilehash: 52aac8ab6936dfeba2ae4b5b7a80c45029ec6105
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5d6de9ac66b11f0e50b259cdca0b1bb50b8326ee
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628742"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400011"
 ---
 # <a name="resolve-issues-with-shared-mailboxes"></a>Resolver problemas com caixas de correio compartilhadas
 
@@ -34,7 +35,7 @@ Se você vir mensagens de erro ao criar ou usar uma caixa de correio compartilha
 ## <a name="error-when-creating-shared-mailboxes"></a>Erro ao criar caixas de correio compartilhadas
 <a name="bkmk_Fix"> </a>
 
-Se você vir a mensagem de erro, **o endereço de proxy "SMTP: <nome\>da caixa de correio compartilhada" já estiver sendo usado pelos endereços proxy\<ou legacyExchangeDN de "nome>". Escolha outro endereço de proxy**, significa que você está tentando dar um nome à caixa de correio compartilhada que já está em uso. Por exemplo, digamos que você deseja nomear as caixas de correio compartilhadas como info@dominio1 e info@dominio2. Há duas maneiras de fazer isso:
+Se você vir a mensagem de erro, **o endereço de proxy "SMTP: <nome da caixa de correio compartilhada \> " já estiver sendo usado pelos endereços proxy ou legacyExchangeDN de " \<name> ". Escolha outro endereço de proxy**, significa que você está tentando dar um nome à caixa de correio compartilhada que já está em uso. Por exemplo, digamos que você deseja nomear as caixas de correio compartilhadas como info@dominio1 e info@dominio2. Há duas maneiras de fazer isso:
 
   - Use o Windows PowerShell. Confira esta postagem de blog para obter instruções: [criar caixas de correio compartilhadas com o mesmo alias em domínios diferentes](https://www.cogmotive.com/blog/office-365-tips/create-shared-mailboxes-with-same-alias-at-different-domains-in-office-365)
     

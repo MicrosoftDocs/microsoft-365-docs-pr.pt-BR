@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ee0f11f2fd3e8a2ab9af83ec6a821f67f9f9e62f
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 63813b31a8aa1b6b823f751c30c076f9213219c9
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42356202"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401173"
 ---
 # <a name="contact-support-for-st-helena"></a>Contatar o suporte para Santa Helena
 

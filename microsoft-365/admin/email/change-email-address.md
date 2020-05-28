@@ -16,6 +16,7 @@ ms.collection:
 - Adm_O365_Setup
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -24,19 +25,19 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: 'Altere seu endereço de email inicial para um endereço de email amigável, como o tom@fourthcoffee.com. Para fazer isso, você precisa comprar um nome de domínio e adicioná-lo ao Microsoft 365. '
-ms.openlocfilehash: 50739c01fda9528140870798324dd69a1c68abce
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: e1ac40fb38a207cc0f19f48ac4ab7c6f34ffbb35
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140495"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400155"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>Mudar seu endereço de email para usar seu domínio personalizado
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -84,7 +85,7 @@ Você deve ter uma conta de administrador global para executar estas etapas.
 
 ::: moniker-end 
 
-2. Vá para a página **Configurar** > **domínios** . 
+2. Vá para a página **Configurar**  >  **domínios** . 
 
 3. Na página **domínios** , selecione **Adicionar domínio**.
     

@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 7a2efd75-0771-4897-ba7b-082fe5bfa9da
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no Amazon Web Services (AWS) para Microsoft.
-ms.openlocfilehash: d75822feef5848575b8ec7fe09f834f67cdc6c55
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: fcc4da3a5841e9df2f6edabd540363fe70bb73ad
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049102"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400564"
 ---
 # <a name="create-dns-records-at-amazon-web-services-aws-for-microsoft"></a>Criar registros DNS no Amazon Web Services (AWS) para o Microsoft
 
@@ -66,7 +67,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     |||||||
     |:-----|:-----|:-----|:-----|:-----|:-----|
     |**Nome** <br/> |**Tipo** <br/> |**Alias** <br/> |**TTL (Segundos)** <br/> |**Valor** <br/> |**Política de Roteamento** <br/> |
-    |(Leave this field empty.)  <br/> |TXT - Text  <br/> |Não  <br/> |300  <br/> |MS = ms *XXXXXXXX*  <br/>**Observação**: esse é um exemplo. Use seu valor específico de **Destino ou Pontos de Endereçamento** aqui, retirado da tabela no Microsoft 365. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |Simples  <br/> |
+    |(Leave this field empty.)  <br/> |TXT - Text  <br/> |Não  <br/> |300  <br/> |MS=ms *XXXXXXXX*  <br/>**Observação**: esse é um exemplo. Use seu valor específico de **Destino ou Pontos de Endereçamento** aqui, retirado da tabela no Microsoft 365. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |Simples  <br/> |
    
 6. Selecione **Criar**.
     
@@ -105,7 +106,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome**|**Tipo**|**Alias**|**TTL (Segundos)**|**Valor**|**Política de Roteamento**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |(Deixe este campo vazio.)  <br/> |MX - Mail exchange  <br/> |Não  <br/> |300  <br/> |0  *\<domain-key\>*  .mail.protection.outlook.com.  <br/> O 0 é o valor de prioridade de MX. Adicione-o ao início do valor de MX, separado do restante do valor por um espaço.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> **Observação:** Obtenha sua \< *chave* \> de domínio de sua conta do Microsoft 365. [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Simples  <br/> |
+    |(Deixe este campo vazio.)  <br/> |MX - Mail exchange  <br/> |Não  <br/> |300  <br/> |0 *\<domain-key\>* . mail.Protection.Outlook.com.  <br/> O 0 é o valor de prioridade de MX. Adicione-o ao início do valor de MX, separado do restante do valor por um espaço.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> **Observação:** Acesse sua \<*domain-key*\> conta do Microsoft 365. [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Simples  <br/> |
        
     ![AWS-BP-configure-2-1](../../media/94a71ce7-1b3b-4b1a-9ad3-9592db133075.png)
   
@@ -167,7 +168,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     Repita esse processo até ter criado todos os cinco registros CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -187,7 +188,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Valor:**|
     |:-----|
-    |v=spf1 include:spf.protection.outlook.com -all  <br/> (As aspas necessárias para as instruções na tela são fornecidas automaticamente. Não é necessário inseri-las manualmente.)  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
+    |v=spf1 include:spf.protection.outlook.com -all  <br/> (As aspas necessárias para as instruções na tela são fornecidas automaticamente. Não é necessário inseri-las manualmente.)  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
    
     ![AWS-BP-configure-4-2](../../media/beb3c086-eaf8-4245-9860-18512a3ff72e.png)
   
@@ -214,8 +215,8 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome**|**Tipo**|**Alias**|**TTL (Segundos)**|**Valor**|**Política de Roteamento**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip. _tls|SRV - Localizador de serviço|Não|300|100 1 443 sipdir.online.lync.com. **Esse valor deve terminar com um ponto (.)**><br> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |Simples|
-    |_sipfederationtls. _tcp|SRV - Localizador de serviço|Não|300|100 1 5061 sipfed.online.lync.com. **This value MUST end with a period (.)**<br> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |Simples|
+    |_sip. _tls|SRV - Localizador de serviço|Não|300|100 1 443 sipdir.online.lync.com. **Esse valor deve terminar com um ponto (.)**><br> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |Simples|
+    |_sipfederationtls. _tcp|SRV - Localizador de serviço|Não|300|100 1 5061 sipfed.online.lync.com. **This value MUST end with a period (.)**<br> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |Simples|
    
     ![AWS-BP-configure-5-1](../../media/c3f841d3-6076-428f-bb04-e71cc5f392fa.png)
   

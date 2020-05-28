@@ -18,17 +18,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: Saiba como você pode mover seus arquivos de trabalho pessoal e arquivos confidenciais da empresa para o OneDrive for Business em apenas algumas etapas simples.
-ms.openlocfilehash: 4c41928ac51950a5a8c372ef0a170a76ff48ed2e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ec225eb43d79bebaa7035178d4d1751c58149e7a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633130"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401353"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Mover arquivos para o OneDrive for Business
 
@@ -53,4 +54,4 @@ Para transferir o perfil do usuário e arquivos importantes, você também pode 
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Para saber mais sobre como configurar e usar o Microsoft 365 for Business
 
-[Vídeos de treinamento do Microsoft 365 for Business](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

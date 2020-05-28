@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 004030b4-10ad-4026-96e7-011b6afc7e73
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Register365 para a Microsoft.
-ms.openlocfilehash: 056d4dbf923c49b0586ed556f1844cd3b29abe75
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: e580779ce674375564c1b3ab6123ef1b19f50be0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048886"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400311"
 ---
 # <a name="create-dns-records-at-register365-for-microsoft"></a>Criar registros DNS no Register365 para Microsoft
 
@@ -78,7 +79,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
     |**Nome do host**|**Tipo**|**Resultado**|
     |:-----|:-----|:-----|
-    |(Leave this field empty.)  <br/> |TXT  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |(Leave this field empty.)  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Inserindo valores na página Adicionar/modificar zona DNS](../../media/22326005-de95-464d-8e33-08ea31a89b2d.png)
   
@@ -130,7 +131,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome do host**|**Prioridade**|**Resultado**|
     |:-----|:-----|:-----|
-    |(Deixe este campo vazio.)  <br/> |1  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta da Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)     |
+    |(Deixe este campo vazio.)  <br/> |1   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Observação:** Acesse sua *\<domain-key\>* conta da Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)     |
    
     ![Inserindo valores na página Adicionar/modificar zona DNS](../../media/2d3645a8-9cb8-435e-b895-5535b6b1fffd.png)
   
@@ -185,7 +186,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Selecione salvar](../../media/8ded6428-af97-4fd8-9104-477fa22a5586.png)
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -211,7 +212,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome do host**|**Tipo**|**Resultado**|
     |:-----|:-----|:-----|
-    |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
+    |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
    
     ![Inserindo valores na página Adicionar/modificar zona DNS](../../media/33976398-da8a-439b-8e3d-534503b20ee0.png)
   
@@ -240,8 +241,8 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome**|**Prioridade**|**Espessura**|**Porta**|**Resultado**|
     |:-----|:-----|:-----|:-----|:-----|
-    |_sip. _tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls. _tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip. _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls. _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
     ![Inserindo valores na seção registros de serviço](../../media/56bb1813-90e2-40c8-98bf-750e2dc3f8b6.png)
   

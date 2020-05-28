@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: Saiba como verificar sua propriedade de email e domínio para assumir o controle de um locatário não gerenciado no Microsoft 365
-ms.openlocfilehash: 1772ba9929433c87603d4b9d7027419063fd2fca
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 4c2dcdb0f6c4f6b795d9579c8796e9668ed2ed05
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627939"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399441"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>Executar um administrador interno tomada
 
@@ -40,9 +41,9 @@ Se você é um administrador e deseja assumir o controle de um locatário não g
 > [!NOTE]
 > Se o autoatendimento estiver habilitado em seu locatário, os usuários poderão assinar serviços gratuitos, como o Power BI, por conta própria. Essas etapas pressupõem que uma assinatura de usuário de autoatendimento tenha criado o locatário não gerenciado que você deseja assumir como administrador. Na primeira etapa, você cria um contexto de usuário no locatário não gerenciado, usando o Power BI para ilustrar o caminho do tomada de administração.
 
-1. Para se inscrever no Power bi, vá para o [site do Power bi](https://powerbi.com) e selecione **iniciar liberação** > gratuita de**inicialização** (na caixa compartilhar com o Power bi pro). 
+1. Para se inscrever no Power bi, vá para o [site do Power bi](https://powerbi.com) e selecione **iniciar liberação**gratuita  >  de**inicialização** (na caixa compartilhar com o Power bi pro). 
 
-2. Inscreva-se em uma conta de usuário que usa o nome de domínio da `powerbiadmin@contoso.com`sua organização (como). Se sua conta já estiver em uso, entre usando sua senha atual.
+2. Inscreva-se em uma conta de usuário que usa o nome de domínio da sua organização (como `powerbiadmin@contoso.com` ). Se sua conta já estiver em uso, entre usando sua senha atual.
 
 3. Verifique seu email para o **código de verificação** e insira o código para validar seu endereço de email.
     

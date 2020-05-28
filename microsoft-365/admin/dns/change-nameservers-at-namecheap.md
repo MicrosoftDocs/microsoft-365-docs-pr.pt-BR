@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 84f467f6-28cf-40f0-94d0-a2a27ddfc2e7
 description: 'Saiba como configurar seu domínio personalizado da Microsoft com o Namecheap se quiser que a Microsoft gerencie seus registros DNS. '
-ms.openlocfilehash: 6fdec37e837c74666ada82af81d43faaa0a6d589
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 55fde3b0db960d78ad77c9f9189c5367de16c73f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629774"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400612"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-namecheap"></a>Alterar os nameservers para configurar o Microsoft com o Namecheap
 
@@ -69,7 +70,7 @@ Siga estas instruções se quiser que a Microsoft gerencie seus registros DNS pa
     
 |**Tipo**|**Host**|**Valor**|**TTL**|
 |:-----|:-----|:-----|:-----|
-|TXT  <br/> |@  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: Este é um exemplo. Use o seu **destino específico ou aponte para** o valor de endereço aqui, a partir da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |30 min  <br/> |
+|TXT  <br/> |@  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: Este é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |30 min  <br/> |
    
    ![Namecheap-BP-Verify-1-2](../../media/fe75c0fd-f85c-4bef-8068-edaf9779b7f1.png)
   
@@ -81,7 +82,7 @@ Siga estas instruções se quiser que a Microsoft gerencie seus registros DNS pa
     
 Agora que você adicionou o registro no site do seu registrador de domínio, você voltará para a Microsoft e solicitará uma pesquisa para o registro.
   
-Quando a Microsoft encontrar o registro TXT correto, seu domínio será verificado.
+Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verificado.
   
 1. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
 

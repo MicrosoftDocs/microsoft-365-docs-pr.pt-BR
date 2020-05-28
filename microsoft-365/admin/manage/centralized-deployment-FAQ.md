@@ -1,5 +1,5 @@
 ---
-title: Perguntas frequentes sobre Implantação Centralizada
+title: Perguntas frequentes sobre a Implantação centralizada
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -13,19 +13,20 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Revise as respostas para perguntas frequentes sobre a implantação centralizada no centro de administração do Microsoft 365.
-ms.openlocfilehash: c389ab07136b8a6e625db9ecfeff514a6899cd7d
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 0d0f2163982042f7b8f868a36f5cc115a17295a2
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011730"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399819"
 ---
-# <a name="centralized-deployment-faq"></a>Perguntas frequentes sobre Implantação Centralizada
+# <a name="centralized-deployment-faq"></a>Perguntas frequentes sobre a Implantação centralizada
 
 A implantação centralizada é a maneira recomendada para o administrador do Office 365 implantar suplementos do Office (Word, Excel, PowerPoint e Outlook) para usuários e grupos em uma organização, desde que a organização atenda a todos os requisitos para usar a implantação centralizada, conforme descrito neste artigo.   
   
@@ -35,7 +36,7 @@ A implantação centralizada de suplementos requer que os usuários estejam usan
  
 A implantação centralizada só é suportada para caixas de correio online. Ele não oferece suporte à implantação em caixas de correio locais do Exchange.
  
-Você pode usar o [Verificador de compatibilidade de implantação centralizada do Office 365](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker)para determinar se sua assinatura está qualificada. 
+Você pode usar o [Verificador de compatibilidade de implantação centralizada do Office 365](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker)   para determinar se sua assinatura está qualificada. 
   
 ## <a name="how-do-you-target-add-in-user-assignments-with-centralized-deployment"></a>Como você direciona as atribuições de usuário de suplemento com a implantação centralizada?  
 
@@ -59,7 +60,7 @@ Para obter mais informações sobre como gerenciar o acesso do usuário, consult
 
 Sim. A implantação centralizada oferece aos administradores a flexibilidade para escolher um dos três métodos de implantação para suplementos do Outlook durante a implantação do suplemento:
 
-**Fixo (padrão)**   o suplemento é implantado automaticamente para os usuários atribuídos e não pode removê-lo.  
+**Fixo (padrão)**   O suplemento é implantado automaticamente para os usuários atribuídos e não é possível removê-lo.  
  
 **Disponível** Os usuários podem instalar o suplemento no Outlook escolhendo Home > obter mais suplementos > administração gerenciada.   
  

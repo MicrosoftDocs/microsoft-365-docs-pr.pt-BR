@@ -20,12 +20,13 @@ search.appverid:
 description: O centro de administração do Microsoft 365-Aprenda sobre os recursos que foram adicionados este mês.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 6514456a16a6ee2079a1b93e053c21863809db24
-ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
+- AdminSurgePortfolio
+ms.openlocfilehash: 460eba757d9fa35e6031ca3382630a6bcd38c392
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44322130"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401137"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>O que há de novo no centro de administração do Microsoft 365
 
@@ -306,7 +307,7 @@ Há muitas alterações para funções no centro de administração, pois começ
 
 - **Favoritos** -você pode adicionar uma estrela às suas funções favoritas ou mais usadas, para que possa encontrá-las facilmente classificando a coluna ou criando um filtro.
 - **Usuários ativos**  >  **Manage Roles** -isso foi atualizado para alinhar-se às alterações nas funções. Da mesma forma que com a lista de funções, escopomos a lista padrão de funções para o mais útil, mas você pode ver todas as funções expandindo **Mostrar tudo por categoria**.
-- **Função leitor global** -você pediu! Você chegou! A função [leitor global](add-users/about-admin-roles.md#roles-available-in-the-microsoft-365-admin-center) !
+- **Função leitor global** -você pediu! Você chegou! A função [leitor global](add-users/about-admin-roles.md#azure-ad-roles-available-in-the-microsoft-365-admin-center) !
 
 ### <a name="report-an-issue"></a>Relatar um problema
 
@@ -464,7 +465,7 @@ Você pode ver um novo pop-up de recomendação em seu centro de administração
 - **Proteção de dispositivo do Intune** – se suas licenças incluem o Intune e detectamos que você não concluiu a configuração do Intune ou inscreveu seus dispositivos, recomendamos que você crie uma política do Intune para proteger os arquivos da sua organização quando os usuários os acessam de seus dispositivos móveis.
 - **Obter atualizações mensais dos recursos do Office** – obtemos comentários de nossos pequenos clientes que quando recebem atualizações mensais dos recursos do Office, seus usuários estão mais felizes. Portanto, se você é um negócio muito pequeno e você atualmente Obtém as atualizações de recursos do Office a cada seis meses, verá essa recomendação.
 
-**Settings** <br>
+**Configurações** <br>
 Quanto às configurações, há algumas alterações. Principalmente, apenas a atualização das configurações existentes para o novo estilo de centro de administração. À medida que estamos avançando e adicionamos novas configurações que você nunca viu antes, vamos começar a menciona-las aqui. E temos uma configuração completa para anunciar: **autenticação moderna**. Sim, há uma nova configuração para ativar a **autenticação moderna**! Para fazer o check-out, acesse serviços de **configurações**  >  **&** a  >  **autenticação moderna**dos suplementos.
 
 ## <a name="april-2019"></a>Abril de 2019

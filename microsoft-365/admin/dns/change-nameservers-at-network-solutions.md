@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: d4ba60f3-4e1c-4180-99bd-250b8955be2a
 description: 'Saiba como configurar seu domínio personalizado da Microsoft com soluções de rede se você quiser que a Microsoft gerencie seus registros DNS. '
-ms.openlocfilehash: 2b3b575943ebd95ffcbd34dd4578133fa7dd4f79
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 4a7c1eaab132b0ab41a62ba62d87956ccfafc014
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629750"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400600"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-network-solutions"></a>Alterar os nameservers para configurar o Microsoft com soluções de rede
 
@@ -36,7 +37,7 @@ Siga estas instruções se quiser que a Microsoft gerencie seus registros DNS pa
     
 ## <a name="add-a-txt-record-at-network-solutions-to-verify-that-you-own-the-domain"></a>Adicionar um registro TXT na Network Solutions para verificar o proprietário do domínio
 
-Antes de usar seu domínio com a Microsoft, precisamos garantir que você o tenha. Sua capacidade de fazer logon em sua conta no registrador de domínios e criar o registro DNS comprova para a Microsoft que você é o proprietário do domínio.
+Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o proprietário dele. A capacidade de entrar na conta do seu registrador de domínios e criar o registro de DNS prova à Microsoft que você é o proprietário do domínio.
   
 > [!NOTE]
 > Esse registro é usado exclusivamente para confirmar se você é o proprietário do domínio; ele não afeta mais nada. É possível excluí-lo mais tarde, se desejar. 
@@ -72,7 +73,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 0:47)](https://support.of
     
 |**Host**|**TTL**|**Texto**|
 |:-----|:-----|:-----|
-|@  <br/> (The system will change this value to **@ (None)** when you save the record.)  <br/> |3600  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: Este é um exemplo. Use o seu **destino específico ou aponte para** o valor de endereço aqui, na tabela no Microsoft 365.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)
+|@  <br/> (The system will change this value to **@ (None)** when you save the record.)  <br/> |3600  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: Este é um exemplo. Use seu valor específico de **Destino ou Pontos de Endereçamento** aqui, retirado da tabela no Microsoft 365.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)
    
     
    ![Digitar ou colar valores nas caixas do novo registro](../../media/8a76daab-b6ff-4c82-ba68-192b24fbb934.png)
@@ -87,11 +88,11 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 0:47)](https://support.of
   
 9. Aguarde alguns minutos antes de prosseguir para que o registro que você acabou de criar possa ser atualizado na Internet.
     
-Agora que você adicionou o registro no site do seu registrador de domínio, você voltará para o Microsoft 365 e solicitará que a Microsoft 365 procure o registro.
+Agora que você adicionou o registro no site do seu registrador de domínios, retorne ao Microsoft 365 e solicite que o Microsoft 365 procure o registro.
   
-Quando a Microsoft encontrar o registro TXT correto, seu domínio será verificado.
+Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verificado.
   
-1. No centro de administração da Microsoft, vá para a página de <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a> de **configurações** \> .
+1. No centro do administrador da Microsoft, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
 
     
 2. Na página **Domínios**, clique no domínio que você está verificando. 

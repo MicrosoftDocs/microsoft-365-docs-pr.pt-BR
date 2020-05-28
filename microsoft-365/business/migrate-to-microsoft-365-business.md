@@ -18,17 +18,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Saiba mais sobre a diferença entre o Microsoft 365 Business Standard e o Microsoft 365 Business Premium e como é possível atualizar para o Microsoft 365 Business Premium.
-ms.openlocfilehash: 20a4162f74a9cb0e943195a589fd2d964f773f48
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: bdab8165623170926b17efa4cae9408b78a2f5f5
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045971"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401373"
 ---
 # <a name="upgrade-to-microsoft-365-business-premium-from-microsoft-365-business-standard"></a>Atualização para o Microsoft 365 Business Premium da Microsoft 365 Business Standard
 
@@ -55,7 +56,7 @@ Adicionamos uma comparação lado a lado desses dois planos à [Descrição do s
 
 ## <a name="upgrade-to-microsoft-365-business-premium"></a>Atualização para o Microsoft 365 Business Premium
 
-1. Entre no centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+1. Entre no centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
 
 2. Vá para o painel de navegação e selecione **cobrança** \> **dos produtos**. Encontre sua assinatura atual e selecione-a para exibir os detalhes.
 

@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: 48e09394-2287-4b3c-9853-21eadf61277e
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no Netregistry para a Microsoft.
-ms.openlocfilehash: ed3e3bae232dcbb3c8e4eea3d1a3bc4dd0a88799
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: c4e81e92b9f86d0a2974e6f95e397f3584c9a01e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939150"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400359"
 ---
 # <a name="create-dns-records-at-netregistry-for-microsoft"></a>Criar registros DNS no Netregistry para Microsoft
 
@@ -137,7 +138,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome**|**TTL (SEG)**|**Exchange (aponta para o endereço ou valor)**|**O host está totalmente qualificado?**|**Preferência (prioridade)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(deixar em branco)  <br/> |3600 (segundos)  <br/> | *\<chave-do-domínio\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha sua * \<chave\> de domínio* de sua conta da Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)      |(marque a caixa de seleção)  <br/> |10   <br/> For more information about priority, see What is MX priority?  <br/> |
+    |(deixar em branco)  <br/> |3600 (segundos)  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Observação:** Acesse sua *\<domain-key\>* conta da Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)      |(marque a caixa de seleção)  <br/> |10   <br/> For more information about priority, see What is MX priority?  <br/> |
        
     ![Netregistry_MX_values](../../media/518b3da6-4055-4e2d-b5ce-44a0fee25419.png)
   
@@ -247,8 +248,8 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
     |**Tipo**|**Nome**|**TTL (SEG)**|**Prioridade**|**Espessura**|**Porta**|**Destino**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (serviço)  <br/> |_sip. _tls  <br/> |3600 (segundos)  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |SRV (serviço)  <br/> |_sipfederationtls. _tcp  <br/> |3600 (segundos)  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |SRV (serviço)  <br/> |_sip. _tls  <br/> |3600 (segundos)  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |SRV (serviço)  <br/> |_sipfederationtls. _tcp  <br/> |3600 (segundos)  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
        
     ![Netregistry_SRV_values](../../media/49292846-1598-4b8c-9940-db6e10675753.png)
   

@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a483282e6f67b513e62697e7c73ea1c979b45797
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: c9ee373b77d8b653ef514f3f7a531c69217ea108
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42251511"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400805"
 ---
 # <a name="payment-information-for-trinidad-and-tobago"></a>Informações de pagamento para Trinidad e Tobago
 

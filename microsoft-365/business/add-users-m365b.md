@@ -21,17 +21,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Conheça as etapas para adicionar facilmente novos usuários, proteger seus dispositivos e atribuir funções no Microsoft 365 Business Premium.
-ms.openlocfilehash: d57f7470d53a6c80e04872726c634f67f091fb0d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9d2efe62ed1c48df5c10a765b8d3499934e6aebd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627465"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401065"
 ---
 # <a name="add-more-users"></a>Adicionar mais usuários
 
@@ -46,7 +47,7 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 Para adicionar um usuário:
 
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
-2. No painel de navegação esquerdo, escolha usuários **ativos**do **usuário** \> .
+2. No painel de navegação esquerdo, escolha usuários ativos do **usuário** \> **Active users**.
 3. Na página **usuários ativos** , escolha **Adicionar um usuário**.
 4. No painel **novo usuário** , digite as informações necessárias. 
   
