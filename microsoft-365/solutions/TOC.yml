@@ -3,28 +3,28 @@
   displayName: Home
 - name: Ilustrações de solução e arquitetura
   items:
-    - name: Ilustrações de produtividade da Microsoft 365
+    - name: Ilustrações de produtividade do Microsoft 365
       href: productivity-illustrations.md
     - name: Modelos de arquitetura de nuvem da Microsoft
       href: cloud-architecture-models.md
 - name: Soluções do Microsoft 365 Foundation
   items:
-    - name: Visão geral
+    - name: Visão Geral
       href: foundation-solutions-overview.md
     - name: Capacite funcionários remotos com o Microsoft 365
       href: empower-people-to-work-remotely.md
       items:
-        - name: Etapa 1. Aumentar a segurança de entrada para funcionários remotos com a MFA
+        - name: Etapa 1. Aumentar a segurança de entrada
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: Etapa 2. Fornecer acesso remoto
           href: empower-people-to-work-remotely-remote-access.md
-        - name: 'Etapa 3. Implantar o gerenciamento de pontos de extremidade em seus dispositivos, PCs e outros pontos de extremidade'
+        - name: Etapa 3. Implantar o gerenciamento de pontos de extremidade
           href: empower-people-to-work-remotely-manage-endpoints.md
-        - name: Etapa 4. Implantar aplicativos e serviços de produtividade de trabalhador remoto
+        - name: Etapa 4. Implantar aplicativos e serviços de produtividade
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: Etapa 5. Criar locais de comunicação da crise COVID-19
+        - name: Etapa 5. Criar locais de comunicação
           href: empower-people-to-work-remotely-communication-venues.md
-        - name: Etapa 6. Treinar os funcionários remotos e responder a questões sobre o uso
+        - name: Etapa 6. Treinar funcionários remotos
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Configurar a colaboração segura com o Microsoft 365
       href: setup-secure-collaboration-with-teams.md
@@ -71,7 +71,7 @@
       href: deploy-threat-protection.md
 - name: Cenários e soluções de carga de trabalho
   items:
-    - name: Visão geral
+    - name: Visão Geral
       href: workload-solutions-scenarios-overview.md
     - name: Trabalho em equipe e colaboração
       items:
@@ -125,7 +125,7 @@
           href: team-security-isolation-dev-test.md
 - name: Orientação específica do setor
   items:
-    - name: Visão geral
+    - name: Visão Geral
       href: industry-specific-guidance-overview.md
     - name: Finanças
       items:
@@ -151,7 +151,7 @@
           href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
 - name: Princípios de design de arquitetura corporativa
   items:
-    - name: Visão geral
+    - name: Visão Geral
       href: design-principles.md
     - name: Para identificar e além disso
       href: identity-design-principles.md
