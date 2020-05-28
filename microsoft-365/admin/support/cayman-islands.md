@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4309e0b2b92dbf5c368102559929cf0fe94fabaf
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 29dde7d4216ca115ca9a5fcf493b54d508b8604e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42359562"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398301"
 ---
 # <a name="contact-support-for-cayman-islands"></a>Contatar o suporte para Ilhas Cayman
 

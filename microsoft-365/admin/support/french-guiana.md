@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fbb56a23ee188f1bc2cae15cb4547d28f18ab1b1
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 9a1cf363fa550c55e054e1839c6996e10474cc70
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42358882"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44397893"
 ---
 # <a name="contact-support-for-french-guiana"></a>Contatar o suporte para Guiana francesa
 
