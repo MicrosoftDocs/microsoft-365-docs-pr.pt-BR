@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode criar uma retenção associada a uma caixa de descoberta eletrônica principal para preservar o conteúdo que pode ser relevante para uma investigação.
-ms.openlocfilehash: c4f3b258fecde8b5a49a77585fe8f1d6cdfe2c11
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 41e5f21d36456eb39999afa71852b169de864356
+ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352248"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412850"
 ---
 # <a name="create-an-ediscovery-hold"></a>Criar uma retenção de Descoberta Eletrônica
 
@@ -113,7 +113,7 @@ Aqui estão alguns outros pontos a serem lembrados ao pesquisar locais em reten�
 
 - Se uma pesquisa estiver configurada para pesquisar locais em espera e você alterar um bloqueio de descoberta eletrônica no caso (adicionando ou removendo um local ou alterando uma consulta de retenção), a configuração de pesquisa será atualizada com essas alterações. No entanto, você precisa executar novamente a pesquisa após a alteração da retenção para atualizar os resultados da pesquisa.
 
-- Se várias isenções de descoberta eletrônica forem colocadas em um único local em um caso de descoberta eletrônica e você selecionar para pesquisar locais em espera, o número máximo de palavras-chave para essa consulta de pesquisa será de 500. Isso ocorre porque a pesquisa combina todas as retenções baseadas em consulta usando o operador **or** . Se houver mais de 500 palavras-chave nas consultas de retenção combinada e na consulta de pesquisa, todo o conteúdo da caixa de correio será pesquisado, e não apenas o conteúdo que corresponda às isenções de caso baseados em consulta. 
+- Se várias isenções de descoberta eletrônica forem colocadas em um único local em um caso de descoberta eletrônica e você selecionar para pesquisar locais em espera, o número máximo de palavras-chave para essa consulta de pesquisa será de 500. Isso ocorre porque a pesquisa combina todas as retenções baseadas em consulta usando o operador **or** . Se houver mais de 500 palavras-chave nas consultas de retenção combinada e na consulta de pesquisa, todo o conteúdo da caixa de correio será pesquisado, e não apenas o conteúdo que corresponda às isenções de caso baseados em consulta.
     
 - Se um controle de descoberta eletrônica tiver um status de **ativação**, você ainda poderá pesquisar os locais em espera enquanto a retenção estiver sendo ativada.
 
@@ -174,6 +174,26 @@ Para coletar uma lista das URLs para os sites do OneDrive for Business em sua or
 
 > [!IMPORTANT]
 > A URL de uma conta do usuário do OneDrive inclui seu nome de princípio de usuário (por exemplo, `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). No caso raro que o UPN de uma pessoa seja alterado, a URL do OneDrive também será alterada para incorporar o novo UPN. Se a conta do OneDrive de um usuário fizer parte de um controle de descoberta eletrônica, o antigo e o respectivo UPN serão alterados, você precisará atualizar a retenção e será necessário atualizar a retenção e adicionar a nova URL do OneDrive do usuário e remover a antiga. Para saber mais, confira [Como as alterações de UPN afetam a URL do OneDrive](https://docs.microsoft.com/onedrive/upn-changes).
+
+## <a name="removing-content-locations-from-an-ediscovery-hold"></a>Removendo locais de conteúdo de um bloqueio de descoberta eletrônica
+
+Depois que uma caixa de correio, um site do SharePoint ou uma conta do OneDrive for removido de uma descoberta eletrônica, uma *retenção de atraso* será aplicada. Isso significa que a remoção real da retenção está atrasada por 30 dias para evitar que os dados sejam excluídos permanentemente (removidos) de um local de conteúdo. Isso dá aos administradores uma oportunidade de Pesquisar ou recuperar conteúdo que será removido depois que uma retenção de descoberta eletrônica for removida. Os detalhes de como o atraso de espera funciona para caixas de correio e sites são diferentes.
+
+- **Caixas de correio:** Uma retenção de atraso é feita em uma caixa de correio na próxima vez que o assistente de pasta gerenciada processa a caixa de correio e detecta que uma retenção de descoberta eletrônica foi removida. Especificamente, uma retenção de atraso é aplicada a uma caixa de correio quando o assistente de pasta gerenciada define uma das seguintes propriedades de caixa de correio como **true**: 
+
+   - **DelayHoldApplied:** Essa propriedade se aplica a conteúdo relacionado a email (gerado por pessoas que usam o Outlook e o Outlook na Web) que está armazenado na caixa de correio de um usuário.
+
+   - **DelayReleaseHoldApplied:** Essa propriedade se aplica a conteúdo baseado em nuvem (gerado por aplicativos que não são do Outlook, como o Microsoft Teams, o Microsoft Forms e o Microsoft Yammer) que é armazenado na caixa de correio de um usuário. Os dados de nuvem gerados por um aplicativo da Microsoft geralmente são armazenados em uma pasta oculta da caixa de correio de um usuário.
+
+   Quando uma espera de atraso é colocada na caixa de correio (quando qualquer uma das propriedades anteriores é definida como **true**), a caixa de correio ainda é considerada em espera por uma duração de retenção ilimitada, como se a caixa de correio estivesse em retenção de litígio. Após 30 dias, o atraso esperado expira e o Microsoft 365 tentará automaticamente remover o atraso de espera (definindo a propriedade DelayHoldApplied ou DelayReleaseHoldApplied como **false**) para que a retenção seja removida. Após qualquer uma dessas propriedades ser definida como **false**, os itens correspondentes marcados para remoção serão removidos na próxima vez que a caixa de correio for processada pelo assistente de pasta gerenciada.
+
+   Para saber mais, confira [Gerenciar caixas de correios em retenção por atraso](identify-a-hold-on-an-exchange-online-mailbox.md#managing-mailboxes-on-delay-hold).
+
+- **Sites do SharePoint e do onedrive:** Qualquer conteúdo do SharePoint ou do OneDrive que esteja sendo mantido na biblioteca de retenção de preservação não é excluído durante o período de espera de atraso de 30 dias após a remoção de um site de uma descoberta eletrônica. Isso é semelhante ao que acontece quando um site é liberado de uma política de retenção. Além disso, você não pode excluir manualmente esse conteúdo na biblioteca de retenção de preservação durante o período de espera de 30 dias. 
+
+   Para obter mais informações, consulte [liberando uma política de retenção](retention-policies.md#releasing-a-retention-policy).
+
+Uma retenção de atraso também é aplicada aos locais de conteúdo em espera quando você fecha um caso de descoberta eletrônica principal, pois as isenções são desativadas quando um caso é fechado. Para obter mais informações sobre como fechar uma ocorrência, consulte [fechar, reabrir e excluir uma caixa de descoberta eletrônica principal](close-reopen-delete-core-ediscovery-cases.md).
 
 ## <a name="ediscovery-hold-limits"></a>limites de retenção de descoberta eletrônica
 

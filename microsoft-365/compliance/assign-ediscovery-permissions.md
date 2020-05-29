@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: Atribua as permissões necessárias para executar tarefas relacionadas à descoberta eletrônica usando o centro de conformidade do & de segurança.
-ms.openlocfilehash: 4c39dc3cd0d3c5d13d33330eca930e07227c38d3
-ms.sourcegitcommit: 17a45261926dde1a7cd24e0ac516cfc49e453806
+ms.openlocfilehash: 76ec07909fab35dfbead806befe2565f4e2054ae
+ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374400"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44411028"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Atribuir permissões de descoberta eletrônica no centro de conformidade & segurança
 
@@ -43,7 +43,7 @@ O grupo de função principal relacionado à descoberta eletrônica no centro de
   Consulte a seção [mais informações](#more-information) por razões pelas quais você pode querer administradores de descoberta eletrônica em sua organização.
 
 > [!NOTE]
-> Para analisar os dados de um usuário usando a descoberta eletrônica avançada, o usuário (o responsáveis dos dados) deve receber uma licença do Office 365 E5 ou do Microsoft e5. Como alternativa, os usuários com uma licença E1 ou E3 podem receber uma licença de complemento e5. Administradores, responsáveis pela conformidade ou pessoal legal que são atribuídos a casos como membros e usam a descoberta eletrônica avançada para coletar, exibir e analisar dados não precisam de uma licença e5. Para obter mais informações sobre licenciamento, consulte [diretrizes de licenciamento da Microsoft 365 para segurança & conformidade](https://aka.ms/complianceSD).
+> Para analisar os dados de um usuário usando a descoberta eletrônica avançada, o usuário (o responsáveis dos dados) deve receber uma licença do Office 365 E5 ou do Microsoft 365 e5. Como alternativa, os usuários com uma licença do Office 365 E1 ou do Office 365 ou do Microsoft 365 E3 podem ser atribuídos a uma licença de Microsoft 365 E5 Compliance ou Microsoft 365 eDiscovery and Audit Add-on. Administradores, responsáveis pela conformidade ou pessoal legal que são atribuídos a casos como membros e usam a descoberta eletrônica avançada para coletar, exibir e analisar dados não precisam de uma licença e5. Para obter mais informações sobre licenciamento de descoberta eletrônica avançada, confira [introdução à descoberta eletrônica avançada](get-started-with-advanced-ediscovery.md).
   
 ## <a name="before-you-begin"></a>Antes de começar
 

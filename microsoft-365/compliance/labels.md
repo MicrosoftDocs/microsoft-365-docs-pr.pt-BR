@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como os rótulos de retenção classificam os dados em toda organização para governança e impõem regras de retenção com base nessa classificação. Você também pode usar rótulos de retenção para implementar uma solução de gerenciamento de registros para Microsoft 365.
-ms.openlocfilehash: 54691f996f1b2e0759c4d8758df0044a32b9ffa9
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: fa24bacedf0e8bd3707fa9a6fd87fff81041e2e8
+ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327899"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44411038"
 ---
 # <a name="learn-about-retention-labels"></a>Saiba mais sobre rótulos de retenção
 
@@ -107,10 +107,6 @@ Para entender como e por que um rótulo de retenção é aplicado, em vez de out
 
 Um rótulo de retenção atribuído explicitamente tem precedência sobre um rótulo de retenção atribuído implicitamente. Para saber mais, confira a seção [Os princípios de retenção ou o que tem precedência](#the-principles-of-retention-or-what-takes-precedence) nesta página.
 
-Nos resultados, a propriedade `ELCLastSuccessTimeStamp` (UTC) mostra quando o sistema processou sua caixa de correio pela última vez. Se isso não tiver acontecido desde a hora em que você criou a política, os rótulos não serão exibidos. Para forçar o processamento, execute o  `Start-ManagedFolderAssistant -Identity <user>`.
-    
-Se os rótulos não estiverem aparecendo no Outlook na Web, e você achar que deveriam aparecer, limpe o cache do navegador (CTRL + F5).
-    
 ## <a name="retention-label-policies-and-locations"></a>Políticas de rótulo de retenção e locais
 
 É possível publicar tipos diferentes de rótulos de retenção em locais diferentes, dependendo do que o rótulo faz.
@@ -123,12 +119,12 @@ Se os rótulos não estiverem aparecendo no Outlook na Web, e você achar que de
    
 No Exchange, os rótulos de aplicação automática (para consultas e tipos de informações confidenciais) se aplicam somente às mensagens enviadas recentemente (dados em trânsito), não a todos os itens atualmente na caixa de correio (dados em repouso). Além disso, os rótulos de retenção de aplicação automática para tipos de informações confidenciais podem ser aplicados somente a todas as caixas de correio; você não pode selecionar as caixas de correio específicas.
   
-As pastas públicas do Exchange e o Skype não aceitam rótulos de retenção.
+As pastas públicas do Exchange, o Skype e os chats e mensagens de canal do Teams não oferecem suporte a rótulos de retenção.
 
 ## <a name="how-retention-labels-enforce-retention"></a>Como os rótulos de retenção impõem a retenção
 
-Os rótulos de retenção podem impor as mesmas ações de retenção que uma política de retenção: reter e excluir ou somente reter ou somente excluir. Você pode usar rótulos de retenção para implementar um plano de conteúdo sofisticado (ou um plano de arquivo). Para saber mais sobre o funcionamento da retenção, confira [Saiba mais sobre políticas de retenção](retention-policies.md).
-  
+Os rótulos de retenção podem impor as mesmas ações de retenção que uma política de retenção: reter e excluir ou somente reter ou somente excluir. Você pode usar rótulos de retenção para implementar um plano de arquivo sofisticado que identifique arquivos específicos para diferentes configurações de retenção. Para saber mais sobre o funcionamento da retenção, confira [Saiba mais sobre políticas de retenção](retention-policies.md).
+
 Além disso, um rótulo de retenção tem duas opções de retenção, disponíveis apenas em um rótulo, e não em uma política de retenção. Com um rótulo de retenção, você pode:
   
 - Disparar uma revisão de disposição ao fim do período de retenção, para que os documentos do SharePoint e do OneDrive sejam examinados antes de serem excluídos. Para saber mais, confira [Revisões de disposição](disposition.md#disposition-reviews).
@@ -136,6 +132,8 @@ Além disso, um rótulo de retenção tem duas opções de retenção, disponív
 - Iniciar o período de retenção a partir do momento de aplicação do rótulo no conteúdo, em vez da idade do conteúdo ou da última modificação. Esta opção se aplica apenas ao conteúdo em sites do SharePoint e contas do OneDrive. Para um mail do Exchange, o período de retenção sempre é baseado na data em que a mensagem foi enviada ou recebida, independentemente da opção que você escolher aqui.
     
 ![Configurações de retenção com opções específicas aos rótulos](../media/c49118c9-6279-4661-94db-deffa76e27ac.png)
+
+Outra importante diferença é que, quando você aplica um rótulo de retenção em vez de uma política de retenção aos arquivos no SharePoint, e o rótulo é configurado para reter conteúdo, os usuários não podem excluir o arquivo enquanto o período de retenção é imposto. Os usuários podem excluir o conteúdo quando o mesmo rótulo é aplicado aos arquivos no OneDrive e aos emails, a menos que o rótulo marque o conteúdo como um registro.
 
 ## <a name="where-published-retention-labels-can-appear-to-end-users"></a>Onde os rótulos de retenção publicados podem aparecer para os usuários finais
 
@@ -197,7 +195,7 @@ Após a aplicação de um rótulo de retenção a um item, será possível exibi
 ![Rótulo aplicado exibido no painel Detalhes](../media/d06e585e-29f7-4c8c-afef-629c97268b8e.png)
   
 Para o SharePoint, mas não no OneDrive, você pode criar um modo de exibição da biblioteca que contém a coluna **Rótulos** ou a coluna **Item é um registro**. Esse modo de exibição permite ver rapidamente os rótulos de retenção atribuídos a todos os itens e quais itens são registros. Observe, no entanto, que não é possível filtrar o modo de exibição pela coluna **Item é um registro**. Para obter instruções sobre como adicionar colunas, confira [Mostrar ou ocultar colunas em uma lista ou biblioteca](https://support.microsoft.com/pt-BR/office/show-or-hide-columns-in-a-list-or-library-b820db0d-9e3e-4ff9-8b8b-0b2dbefa87e2).
-  
+
 
 ### <a name="microsoft-365-groups"></a>Grupos do Microsoft 365
 
@@ -276,11 +274,12 @@ Ao criar um rótulo de retenção, você pode fazer isso sem ativar qualquer ret
   
 Por exemplo, você pode criar um rótulo de retenção chamado "Revisar depois" sem ações e, em seguida, aplicar automaticamente esse rótulo de retenção ao conteúdo com tipos de informações confidenciais ou conteúdo consultado.
   
-![Página de configurações de rótulo com retenção desativada](../media/17ce863b-a823-426e-aaad-83718465f762.png)
+![Página de configurações de rótulo com retenção desativada](../media/retention-label-retentionoff.png)
+
   
 ## <a name="using-retention-labels-for-records-management"></a>Usar rótulos de retenção para gerenciamento de registros
     
-Você pode usar os rótulos de retenção para declarar o conteúdo como um registro. Isso permite implementar uma estratégia de gerenciamento de registros única e consistente no Microsoft 365. Para mais informações, confira [Visão geral dos registros](records.md).
+Você pode usar os rótulos de retenção para declarar o conteúdo como um registro. Isso permite implementar uma estratégia de gerenciamento de registros única e consistente no Microsoft 365. Para saber mais, confira [Saiba mais sobre os registros](records.md).
   
 ## <a name="using-a-retention-label-as-a-condition-in-a-dlp-policy"></a>Usar um rótulo de retenção como condição em uma política DLP
 
@@ -359,7 +358,7 @@ Há vários outros recursos que já foram usados para reter ou excluir conteúdo
 
 - [Como configurar o gerenciamento de registros no local](https://support.office.com/article/7707a878-780c-4be6-9cb0-9718ecde050a) (retenção) 
     
-- [Introdução à Central de Registros](https://support.office.com/article/bae6ca5a-7b19-40e0-b433-e3613a747c2c) (Retenção) 
+- [Introdução à Central de Registros](https://support.office.com/article/bae6ca5a-7b19-40e0-b433-e3613a747c2c) (retenção) 
     
 - [Políticas de gerenciamento de informações](intro-to-info-mgmt-policies.md) (apenas exclusão) 
     

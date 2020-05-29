@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve como gerenciar as principais ocorrências de descoberta eletrônica. Isso inclui fechar uma ocorrência, reabrir uma ocorrência fechada e excluir uma ocorrência.
-ms.openlocfilehash: 45282486c2c3b1d00b99a1cda5968b3bb042f6c2
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 17b243a7207fd6927188b42e585101ff1d258b76
+ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208413"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412790"
 ---
 # <a name="close-reopen-and-delete-a-core-ediscovery-case"></a>Fechar, reabrir e excluir uma ocorrência de descoberta eletrônica principal
 
@@ -32,7 +32,7 @@ Este artigo descreve como fechar, reabrir e excluir casos de descoberta eletrôn
 
 Quando o caso ou investigação legal suportado por uma caixa de descoberta eletrônica principal é concluída, você pode fechar o caso. Veja o que acontece quando você fecha um caso:
   
-- Se o caso contiver qualquer local de conteúdo em retenção de descoberta eletrônica, essas isenções serão desativadas. Isso pode resultar na exclusão ou limpeza permanente do conteúdo, seja pelo usuário ou por um processo automatizado, como uma política de exclusão.
+- Se o caso contiver qualquer local de conteúdo em retenção de descoberta eletrônica, essas isenções serão desativadas. Depois que a retenção é desativada, um período de cortesia de 30 dias (chamado de *espera de atraso*) é aplicado aos locais de conteúdo que estavam em espera. Isso ajuda a evitar que o conteúdo seja imediatamente excluído e oferece aos administradores a oportunidade de Pesquisar e restaurar o conteúdo antes que ele possa ser excluído permanentemente após o período de espera de atraso expirar. Para obter mais informações, consulte [removendo locais de conteúdo de um controle de descoberta eletrônica](create-ediscovery-holds.md#removing-content-locations-from-an-ediscovery-hold).
 
 - O fechamento de um caso desativa apenas as suspensões que estão associadas a esse caso. Se outras isenções forem colocadas em um local de conteúdo (como uma retenção de litígio, uma política de retenção ou uma retenção de um caso de descoberta eletrônica diferente), essas isenções ainda serão mantidas.
 

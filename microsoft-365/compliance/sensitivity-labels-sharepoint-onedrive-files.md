@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: 62bc2b748cf004722f94a7231046930d78437603
-ms.sourcegitcommit: b18949de721c6eef3521d5f8286d9b926ad4aabe
+ms.openlocfilehash: 178359ae993e0db3ec5fd09cae0a13de351a3b94
+ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44342507"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44411008"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
@@ -57,6 +57,8 @@ Assista ao vídeo a seguir (sem áudio) para ver os novos recursos em ação:
 > [!VIDEO https://www.microsoft.com/videoplayer/embed//RE4ornZ]
 
 Você sempre tem a opção de desabilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive ([recusar](#how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out) a qualquer momento.
+
+Se você estiver protegendo documentos no SharePoint usando o gerenciamento de direitos de informação (IRM) do SharePoint, verifique a seção [Gerenciamento de direitos de informação (IRM) e rótulos de confidencialização do SharePoint](#sharepoint-information-rights-management-irm-and-sensitivity-labels) nesta página. 
 
 ## <a name="requirements"></a>Requirements
 
@@ -171,6 +173,26 @@ Recomendamos que você siga estas etapas:
 2. Aguarde pelo menos 24 horas após a publicação inicial. Verifique se o rótulo foi totalmente sincronizado.
 
 3. Publique o rótulo de forma mais ampla.
+
+## <a name="sharepoint-information-rights-management-irm-and-sensitivity-labels"></a>Gerenciamento de direitos de informação (IRM) e rótulos de confidencialidade do SharePoint
+
+O [Gerenciamento de direitos de informação (IRM) do SharePoint](set-up-irm-in-sp-admin-center.md) é uma tecnologia mais antiga para proteger arquivos na lista e no nível da biblioteca aplicando criptografia e restrições quando os arquivos são baixados. Essa tecnologia de proteção mais antiga foi projetada para impedir que usuários não autorizados Abram o arquivo enquanto ele está fora do SharePoint.
+
+Em comparação, os rótulos de confidencialidade fornecem as configurações de proteção de marcações visuais (cabeçalhos, rodapés, marcas d' água), além de criptografia. As configurações de criptografia dão suporte ao intervalo completo de [direitos de uso](https://docs.microsoft.com/azure/information-protection/configure-usage-rights) para restringir o que os usuários podem fazer com o conteúdo, e os mesmos rótulos de sensibilidade têm suporte para [vários cenários](get-started-with-sensitivity-labels.md#common-scenarios-for-sensitivity-labels). Usar o mesmo método de proteção com configurações consistentes entre cargas de trabalho e aplicativos resulta em uma estratégia de proteção consistente.
+
+No entanto, você pode usar as duas soluções de proteção juntas e o comportamento é o seguinte: 
+
+- Se você carregar um arquivo com um rótulo de confidencialidade que aplica criptografia, a criptografia não será removida para que esses arquivos, coautoria, eDiscovery, DLP e pesquisa não sejam suportados.
+
+- Se você rotular um arquivo usando o Office na Web, as configurações de criptografia do rótulo serão aplicadas. Para esses arquivos, a coautoria, a descoberta eletrônica, a DLP e a pesquisa são compatíveis.
+
+- Se você baixar um arquivo rotulado usando o Office na Web, o rótulo será mantido e todas as configurações de criptografia do rótulo serão aplicadas, e não as configurações de restrição de IRM.
+
+- Se você baixar um arquivo do Office ou PDF que não esteja criptografado com um rótulo de confidencialidade, as configurações de IRM serão aplicadas.
+
+- Se você tiver habilitado qualquer uma das configurações de biblioteca de IRM adicionais, o que inclui impedir que os usuários carreguem documentos que não dão suporte ao IRM, essas configurações serão impostas.
+
+Com esse comportamento, você pode ter certeza de que todos os arquivos do Office e do PDF estão protegidos contra o acesso não autorizado, mesmo que eles não sejam rotulados. No entanto, os arquivos rotulados que são carregados não se beneficiarão dos novos recursos.
 
 ## <a name="how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out"></a>Como desabilitar rótulos de confidencialidade para o SharePoint e o OneDrive (recusar)
 

@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba o que acontece quando uma investigação ou um caso jurídico suportado por um caso de descoberta eletrônica avançada é fechado ou excluído.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e64f5cc0483129396a28cbf657778001e5d372a7
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: be8d133a8215fc40c6d33025f9f4d1dee0f3b609
+ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292407"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412780"
 ---
 # <a name="close-or-delete-an-advanced-ediscovery-case"></a>Fechar ou excluir uma ocorrência de descoberta eletrônica avançada
 
@@ -32,7 +32,7 @@ Quando o caso ou investigação legal suportado por uma ocorrência de descobert
 
 Veja o que acontece quando você fecha uma caixa de descoberta eletrônica avançada:
 
-- Se o caso contiver qualquer local de conteúdo em espera, essas isenções serão desativadas. Isso pode resultar na exclusão ou limpeza permanente do conteúdo, seja pelo usuário ou por um processo automatizado, como uma política de exclusão.
+- Se o caso contiver qualquer local de conteúdo em espera, essas isenções serão desativadas. Depois que a retenção é desativada, um período de cortesia de 30 dias (chamado de *espera de atraso*) é aplicado aos locais de conteúdo que estavam em espera. Isso ajuda a evitar que o conteúdo seja imediatamente excluído e dá aos administradores uma oportunidade de Pesquisar ou recuperar conteúdo que será excluído permanentemente depois que o período de espera de atraso expirar. Para obter mais informações, consulte [removendo locais de conteúdo de um controle de descoberta eletrônica](create-ediscovery-holds.md#removing-content-locations-from-an-ediscovery-hold).
 
 - O fechamento de um caso desativa apenas as suspensões que estão associadas a esse caso. Se outras isenções forem mantidas em um local de conteúdo (como uma retenção de litígio, controle de descoberta eletrônica principal ou uma retenção de uma ocorrência de descoberta eletrônica avançada diferente), elas ainda serão mantidas.
 
