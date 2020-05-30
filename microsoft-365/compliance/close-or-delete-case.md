@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba o que acontece quando uma investigação ou um caso jurídico suportado por um caso de descoberta eletrônica avançada é fechado ou excluído.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: be8d133a8215fc40c6d33025f9f4d1dee0f3b609
-ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
+ms.openlocfilehash: ffdd93351325be0c4b5d6d8cdfb78e55b710c0be
+ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412780"
+ms.locfileid: "44419057"
 ---
 # <a name="close-or-delete-an-advanced-ediscovery-case"></a>Fechar ou excluir uma ocorrência de descoberta eletrônica avançada
 
@@ -56,7 +56,7 @@ Quando você reabre um caso de descoberta eletrônica avançada, qualquer bloque
 
 Para reabrir uma ocorrência fechada:
 
-1. Na página **descoberta eletrônica avançada** , selecione o caso que você deseja excluir.
+1. Na página **descoberta eletrônica avançada** , selecione o caso que você deseja reabrir.
 
 2. Na guia **configurações** , em **informações da ocorrência**, clique em **selecionar**.
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre os grupos do Microsoft 365.
-ms.openlocfilehash: 5260d811f23dd07e096e02214eafcf7f0a757ffd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: e677a5206a17f22900007fc4eeffc6e665186f8e
+ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400708"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44419131"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Visão geral dos Grupos do Microsoft 365 para administradores
 
@@ -84,12 +84,27 @@ O número máximo padrão de grupos do Microsoft 365 que uma organização pode 
 
 Gerenciar seus grupos do Microsoft 365 é mais eficaz quando você tem informações acionáveis sobre o uso de grupos. O centro de administração do Microsoft 365 tem uma ferramenta de relatório que pode permitir que você veja coisas como o uso de armazenamento, quantos grupos ativos você tem e até mesmo como seus usuários estão usando os grupos. Confira: [Microsoft 365 Reports no centro de administração](../activity-reports/office-365-groups.md) para obter mais informações.
 
+## <a name="sensitivity-labels"></a>Rótulos de confidencialidade
+
+Você pode criar rótulos de confidencialidade que os usuários em sua organização podem definir quando criarem um grupo do Microsoft 365. Com rótulos de sensibilidade, você pode configurar: 
+
+- Privacidade (pública ou privada)
+- Acesso de usuários externos
+- Acesso de dispositivo não gerenciado
+
+Por exemplo, você pode criar um rótulo chamado *altamente confidencial* e especificar que qualquer grupo criado com esse rótulo será privado e não permitirá usuários externos. Quando os usuários da sua organização selecionarem esse rótulo durante a criação do grupo, o grupo será definido como privado, e os membros do grupo não poderão adicionar usuários externos ao grupo.
+
+> [!IMPORTANT]
+> Se você estiver usando rótulos de classificação no momento, eles não estarão mais disponíveis aos usuários que criam grupos depois que os rótulos de sensibilidade estiverem habilitados. 
+
+Para obter informações sobre como criar, gerenciar e usar rótulos de sensibilidade, confira [usar rótulos de sensibilidade para proteger o conteúdo no Microsoft Teams, microsoft 365 Groups e sites do SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+
 ## <a name="which-microsoft-365-plans-include-groups"></a>Quais planos da Microsoft 365 incluem grupos?
 
 Qualquer assinatura do Microsoft 365 que tenha o Exchange Online e o SharePoint Online oferecerá suporte a grupos. Isso inclui os planos Business Essentials e Business Premium e os planos Enterprise E1, E3 e e5. O grupo assume o licenciamento da pessoa que cria o grupo (também conhecido como o "organizador" do grupo). Contanto que o organizador tenha a licença adequada para qualquer recurso que você deseja que o grupo tenha, essa licença será envidará para o grupo.
 
 > [!NOTE]
-> Para obter mais detalhes sobre as famílias de serviços e planos do Microsoft 365, consulte [microsoft 365 Plan Options](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
+> Para obter mais detalhes sobre as famílias de serviços e planos do Microsoft 365, consulte [microsoft 365 Plan Options](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options).
 
 Se você tiver um plano somente do Exchange, ainda poderá obter os recursos de caixa de entrada compartilhada e calendário compartilhado do grupo no Outlook, mas não obterá a biblioteca de documentos, o Planner ou qualquer um dos outros recursos.
 

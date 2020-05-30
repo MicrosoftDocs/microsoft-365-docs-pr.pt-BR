@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: d7ccd944-9698-41c7-a21b-677dc62973c4
 description: 'Saiba como acessar a Descoberta Eletrônica Avançada no Centro de Conformidade &amp; Segurança e como analisar o fluxo de trabalho típico para usar a Descoberta Eletrônica avançada.  '
-ms.openlocfilehash: 62c2ef316daafebeba6f91483277ea344039a271
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b824183c88e4bbf300c2e07c9e8802dfb704aadf
+ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632166"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412830"
 ---
 # <a name="quick-setup-advanced-ediscovery-classic"></a>Configuração rápida da Descoberta Eletrônica Avançada (clássica)
 
@@ -32,7 +32,6 @@ Esta seção de configuração mostra a um gerente de Descoberta Eletrônica do 
   
 ## <a name="accessing-a-case-in-advanced-ediscovery"></a>Como acessar um caso na Descoberta Eletrônica Avançada
 
-
 Você acessa a Descoberta Eletrônica Avançada no Centro de Conformidade e Segurança. Você precisa ser membro de um caso de Descoberta Eletrônica no Centro de Conformidade e Segurança para acessar o caso na Descoberta Eletrônica Avançada. Confira as instruções sobre como atribuir permissões de caso de Descoberta Eletrônica e adicionar usuários a um caso de Descoberta Eletrônica em [Gerenciar casos de Descoberta Eletrônica no Office 365](ediscovery-cases.md). 
   
 Para ir a um caso na Descoberta Eletrônica Avançada: 
@@ -41,15 +40,15 @@ Para ir a um caso na Descoberta Eletrônica Avançada:
     
 2. No Centro de Conformidade e Segurança, clique em **Pesquisa e investigação** \> **Descoberta Eletrônica** para exibir a lista de casos na sua organização. 
     
-3. Na página **Descoberta Eletrônica**, clique em **Abrir** ao lado do caso ao qual deseja ir na Descoberta Eletrônica Avançada. 
+3. Na página **Descoberta Eletrônica**, clique em **Abrir** ao lado do caso ao qual deseja ir na Descoberta Eletrônica Avançada.
     
-4. Na página **Início** do caso, clique em **Descoberta Eletrônica Avançada**.
+4. Na página **Início** do caso, clique em **Alternar para Avançar o eDiscovery**.
     
     A barra de progresso **Conectar-se à Descoberta Eletrônica Avançada** aparece. Quando você estiver conectado, o caso abrirá na Descoberta Eletrônica Avançada. 
     
 ## <a name="workflow"></a>Fluxo de trabalho
 
-O diagrama a seguir ilustra o fluxo de trabalho comum para gerenciar e usar os casos de Descoberta Eletrônica no Centro de Conformidade e Segurança e na Descoberta Eletrônica Avançada. 
+O diagrama a seguir ilustra o fluxo de trabalho comum para gerenciar e usar os casos de Descoberta Eletrônica no Centro de Conformidade e Segurança e na Descoberta Eletrônica Avançada.
   
 ![Diagrama que mostra o fluxo de trabalho da Descoberta Eletrônica Avançada com quatro fases de instalação, inclusive a configuração de usuários &amp; casos, identificação dos dados de caso, exportação e processamento, além das fases de análise e exportação para o computador local.](../media/76589ccc-789d-4581-b3a8-98d339b05979.png)
   

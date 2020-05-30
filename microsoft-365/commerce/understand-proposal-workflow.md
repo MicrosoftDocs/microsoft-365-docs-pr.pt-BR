@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre as propostas para ajudá-lo a comprar produtos e serviços da Microsoft.
 ROBOTS: NOINDEX
-ms.openlocfilehash: ded29a4eab3dd19d7ce3a1f60dff968e34b434a0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6de3f116b9266ad8f2d4d245cc0ac4b7422bbf4d
+ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403121"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44419107"
 ---
 # <a name="understand-the-proposal-workflow"></a>Entender o fluxo de trabalho de proposta
 
@@ -31,7 +31,7 @@ Um representante da Microsoft esboça uma proposta que contém os itens que voc�
 
 Após receber o email de notificação, siga o link para o site de proposta. Depois de entrar no site, você pode iniciar o processo de análise de proposta.
 
-## <a name="what-are-the-organization-prerequisites-to-buy-items-with-a-proposal"></a>Quais são os pré-requisitos da organização para comprar itens com uma proposta?
+## <a name="prerequisites-for-buying-items-with-a-proposal"></a>Pré-requisitos para comprar itens com uma proposta
 
 Para poder comprar itens para uma proposta, você deve ter uma conta de cobrança e um contrato com a Microsoft.
 
@@ -49,7 +49,7 @@ Para obter mais informações sobre contas de cobrança, consulte [gerenciar con
 
 O Microsoft Customer Agreement (MCA) permite que uma organização Compre produtos e serviços da Microsoft. Para obter mais informações, consulte [Microsoft Customer Agreement](https://www.microsoft.com/en-us/Licensing/how-to-buy/microsoft-customer-agreement).
 
-## <a name="what-permissions-do-i-need-to-sign-an-agreement-or-pay-for-items"></a>Quais permissões eu preciso para assinar um contrato ou pagar itens?
+## <a name="permissions-needed-to-sign-an-agreement-or-pay-for-items"></a>Permissões necessárias para assinar um contrato ou pagar itens
 
 Se você não tiver uma função atribuída na conta de cobrança, quando exibir a proposta, a função leitor básica será atribuída. Essa função permite que você visualize, mas não execute nenhuma ação, a proposta. Você deve ser atribuído ao proprietário da conta de cobrança ou à função de colaborador da conta de cobrança antes de poder assinar um contrato ou comprar produtos e serviços. O proprietário da conta de cobrança pode atribuir essa função a você.
 
@@ -59,7 +59,7 @@ Se esta for uma nova conta de cobrança, e ninguém tiver aceitado um contrato, 
 
 - É a pessoa nomeada na proposta \
     OU
-- Já é um administrador global do Azure Active Directory para a sua organização
+- Já é um [administrador global do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) para a sua organização
 
 ## <a name="what-is-the-overall-workflow"></a>O que é o fluxo de trabalho geral?
 
@@ -86,7 +86,6 @@ A tabela a seguir contém termos e definições que aparecem em sua proposta e n
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Conta de cobrança | Uma conta usada para gerenciar suas configurações de conta, faturas, métodos de pagamento e produtos. |
 | Perfil de cobrança | Informações sobre sua organização que permitem que você personalize quais itens estão incluídos na fatura e como você paga por suas faturas. O perfil de cobrança inclui o nome da conta de cobrança, os métodos de pagamento usados para o perfil de cobrança específico, as informações de contato, as configurações de fatura e permissões que permitem alterar o perfil de cobrança, pagar contas e comprar produtos e serviços. |
-| Termos de compra de afiliados do cliente (CAPT) | Um conjunto adicional de termos que permite que um associado de sua organização Compre produtos e serviços sem assinar um MCA separado. |
 | Contratos existentes | Qualquer contrato que sua organização já tenha em vigor com a Microsoft. Isso pode incluir, mas não está limitado a, um contrato corporativo, contrato de serviços & de produtos da Microsoft ou contrato de cliente da Microsoft. |
 | Microsoft Customer Agreement (MCA) | Um contrato que descreve os termos e condições da conta mantida por sua organização com a Microsoft. |
 | Representante da Microsoft | Um representante autorizado da Microsoft que prepara uma proposta para você e sua organização. |

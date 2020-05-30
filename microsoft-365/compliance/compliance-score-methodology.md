@@ -14,17 +14,17 @@ search.appverid:
 - MOE150
 - MET150
 description: Entenda como a pontuação de conformidade da Microsoft calcula uma pontuação personalizada com base nas ações tomadas para lidar com riscos e aprimorar a postura de conformidade.
-ms.openlocfilehash: 10e75be9541c4bd2b5a62d8bea46c45d213655e2
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: e1a13cee8086e158f3869a00384166366c0a63dc
+ms.sourcegitcommit: 436841236dc41390a3be9f8936d19d3d017fa35c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141576"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "44429186"
 ---
 # <a name="microsoft-compliance-score-preview-calculation"></a>Cálculo da Pontuação de conformidade da Microsoft (visualização)
 
 > [!IMPORTANT]
-> A pontuação de conformidade não expressa uma medida absoluta da conformidade organizacional com qualquer padrão ou regulamentação específico. Ele expressa a extensão para a qual você adotou controles que podem reduzir os riscos para dados pessoais e privacidade individual. As recomendações de Pontuação de conformidade e gerente de conformidade não devem ser interpretados como garantia de conformidade. Este serviço está atualmente em versão prévia e está sujeito aos termos e condições nos [termos dos serviços online](https://go.microsoft.com/fwlink/?linkid=2108910).
+> As recomendações da Pontuação de conformidade e do Gerente de conformidade não devem ser interpretadas como garantia de conformidade. Você pode avaliar e validar a eficácia dos controles de clientes por seu ambiente normativo. Esses serviços estão atualmente em versão prévia e sujeitos aos termos e condições nos [termos dos serviços online](https://go.microsoft.com/fwlink/?linkid=2108910). Confira também [orientações de licenciamento da Microsoft 365 para segurança e conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="overview"></a>Visão Geral
 
@@ -37,7 +37,7 @@ Os valores de Pontuação de conformidade exibidos para o controle são aplicado
 - **Status de implementação** igual a **implementação** **implementada** ou alternativa,
 - O **resultado do teste** é **passado**.
 
-A soma dos pontos obtidos por meio de ações de melhoria é a pontuação de controle. A soma de suas pontuações de controle é a pontuação de avaliação. A soma de suas pontuações de avaliação é a pontuação de conformidade geral
+A soma dos pontos obtidos por meio de ações de melhoria é a pontuação de controle. A soma de suas pontuações de controle é a pontuação de avaliação. A soma de suas pontuações de avaliação é a pontuação de conformidade geral.
 
 ## <a name="initial-score-based-on-microsoft-365-data-protection-baseline"></a>Pontuação inicial com base na linha de base de proteção de dados da Microsoft 365
   
@@ -83,8 +83,8 @@ Cada controle tem um valor atribuído em Pontuação de conformidade com base no
 | Obrigatórios preventivos | 27 |
 | Discricionários preventivos | 9  |
 | Detecção obrigatória | 3D |
-| Detecção arbitrária | 1 |
+| Detecção arbitrária | 1  |
 | Obrigatório corretivo | 3D |
-| Condicionalmente | 1 |
+| Condicionalmente | 1  |
   
 ![Valores de pontos de controles de Pontuação de conformidade](../media/compliance-score-controls-scoring.png "Valores de pontos de controles de Pontuação de conformidade")
