@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 752a394b2e1c3d2219093f2342f597bdac38aee1
-ms.sourcegitcommit: 6ea9a910a8106a5f1aa589c55d166bfa67fd12a8
+ms.openlocfilehash: 318ecd19d7dcfb4b80e1bdcec743057462c44b1b
+ms.sourcegitcommit: 3cd487476efe4138d1b42499fbffbbe4bacfe5b8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280551"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44408473"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -45,10 +45,7 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
     
     Para obter instruções de configuração, confira [Como configurar a rotulamento automática para aplicativos do Office](#how-to-configure-auto-labeling-for-office-apps) nesta página.
 
-- **Rotulagem do lado do serviço quando o conteúdo já foi salvo (no SharePoint Online ou no OneDrive for Business) ou enviado por email (processado pelo Exchange Online)**: Use uma política de rotulação automática - atualmente no modo de visualização. 
-    
-    > [!NOTE]
-    > Veja o comunicado de versão prévia, [Comunicando a versão prévia pública da classificação automática com rótulos de confidencialidade no Microsoft 365 Services](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/announcing-public-preview-of-auto-classification-with/ba-p/1279961) e o webinar [introdução à Rotulação Automática de Confidencialidade do SharePoint e OneDrive](https://aka.ms/SPOAutoLabelWebinar-Recording).
+- **Rotulagem do lado do serviço quando o conteúdo já foi salvo (no SharePoint ou no OneDrive) ou enviado por email (processado pelo Exchange Online)**: Use uma política de rotulação automática. 
     
     Esse método é chamado de classificação automática com rótulos de confidencialidade. Você também pode ouvi-lo ser chamado de rotulagem automática de dados em repouso (documentos no SharePoint e OneDrive) e dados em trânsito (email enviado ou recebido pelo Exchange). No caso do Exchange, ele não inclui emails em repouso (caixas de correio). 
     
@@ -60,6 +57,7 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
     - Máximo de 25.000 arquivos rotulados automaticamente (Word, PowerPoint ou Excel) em seu locatário por dia
     - Máximo de 10 conjuntos de sites em todas as políticas
     - Máximo de 10 políticas em seu locatário
+    - A data de modificação não é alterada como resultado das políticas de rotulamento automático — para o modo de simulação e quando os rótulos são aplicados
 
     Específico para rotulagem automática para o Exchange:
     - Diferentemente da rotulagem manual ou da rotulagem automática com aplicativos do Office, os anexos do Office também são verificados quanto às condições especificadas na política de rotulagem automática. Quando há uma correspondência, o email é rotulado, mas não o anexo.
@@ -186,12 +184,14 @@ Específico para o cliente de rotulagem unificada da Proteção de Informações
 - As informações confidenciais podem ser detectadas no corpo de texto, em documentos e emails, além de cabeçalhos e rodapés - mas não na linha de assunto ou nos anexos do email.
 
 ## <a name="how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange"></a>Como configurar as políticas de rotulagem automática para o SharePoint, OneDrive e Exchange
-> [!NOTE]
-> As políticas de rotulagem automática estão em visualização pública e estão sujeitas a alterações.
+
+Certifique-se de que você está ciente dos pré-requisitos antes de configurar as políticas de rotulação automática. 
 
 ### <a name="prerequisites-for-auto-labeling-policies"></a>Pré-requisitos para políticas de rotulagem automática
 
-- A auditoria do Microsoft 365 deve estar ativada no modo de simulação. Se você precisar ativar a auditoria ou não tiver certeza se a auditoria já está ativada, confira [Ativar ou desativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md).
+- Modo de simulação:
+    - A auditoria do Microsoft 365 deve ser ativada. Se você precisar ativar a auditoria ou não tiver certeza se a auditoria já está ativada, confira [Ativar ou desativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md).
+    - Para exibir os conteúdos de arquivo no modo de exibição de fonte (não há suporte para emails), você deve ter a função **Visualizador de Conteúdo do Gerenciador de Conteúdo** se não for um administrador global. Caso não tenha essa permissão, você não verá o painel de visualização ao selecionar um item da guia **Itens Correspondentes**.
 
 - Para rotular arquivos automaticamente no SharePoint e no OneDrive:
     - Você deve [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)](sensitivity-labels-sharepoint-onedrive-files.md)
@@ -236,9 +236,9 @@ Por fim, você pode usar o modo de simulação para fornecer uma aproximação d
     
     Se você não vir essa opção imediatamente, selecione primeiro **Mostrar tudo**.
 
-2. Selecione a guia de **rotulagem automática (visualização)**:
+2. Selecione a guia **Rotulamento automático**:
     
-    ![Guia de rotulagem automática (visualização)](../media/auto-labeling-tab.png)
+    ![Guia Rotulamento automático](../media/auto-labeling-tab.png)
     
 
 3. Selecione **+ Criar política**.
@@ -248,6 +248,12 @@ Por fim, você pode usar o modo de simulação para fornecer uma aproximação d
 5. Para a página **Nomear política de rotulagem automática**: Forneça um nome exclusivo e, opcionalmente, uma descrição para ajudar a identificar o rótulo, os locais e as condições automaticamente aplicados que identificam o conteúdo a ser rotulado.
 
 6. Para a página **Escolher os locais onde você deseja aplicar o rótulo**: Selecione e especifique os locais para Exchange, sites do SharePoint e OneDrive. Em seguida, selecione **Avançar**.
+    
+    Para o OneDrive, você deve especificar contas individuais. A URL do OneDrive de um usuário está no seguinte formato: `https://<tenant name>-my.sharepoint.com/personal/<user_name>_<tenant name>_com`
+    
+    Por exemplo, para um usuário no locatário contoso que tenha um nome de usuário "rsimone": `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`
+    
+    Para verificar a sintaxe do seu locatário e identificar URLs dos usuários, confira [Obter uma lista de todas as URLs de usuário do OneDrive em sua organização](https://docs.microsoft.com/onedrive/list-onedrive-urls).
 
 7. Para a página **Definir configurações de política**: Mantenha o padrão **Localizar conteúdo que contém** para definir regras que identificam o conteúdo a ser rotulado em todos os locais selecionados. Se você precisar de regras diferentes por local, selecione **Configurações avançadas**. Em seguida, selecione **Avançar**.
     
@@ -280,7 +286,7 @@ Por fim, você pode usar o modo de simulação para fornecer uma aproximação d
     
     Diferentemente da rotulagem automática para aplicativos do Office, não há opção de publicação separada. No entanto, como nos rótulos de publicação, aguarde até 24 horas para que a política de rotulagem automática seja replicada em toda a organização.
 
-Agora, na página **Proteção de informações**, na guia **Rotulagem automática (visualização)**, você verá a política de rotulagem automática na seção **Simulação** ou **Desativar**, dependendo se você optou por executá-la no modo de simulação ou não. Selecione a política para ver os detalhes da configuração e do status (por exemplo, a **Simulação da política ainda está sendo executada**). Para as políticas em modo de simulação, selecione a guia **Itens correspondentes** para ver quais emails ou documentos correspondem às regras que você especificou.
+Agora, na página **Proteção de informações**, na guia **Rotulagem automática**, você verá a política de rotulagem automática na seção **Simulação** ou **Desativar**, dependendo se você optou por executá-la no modo de simulação ou não. Selecione a política para ver os detalhes da configuração e do status (por exemplo, a **Simulação da política ainda está sendo executada**). Para as políticas em modo de simulação, selecione a guia **Itens correspondentes** para ver quais emails ou documentos correspondem às regras que você especificou.
 
 Você pode modificar sua política diretamente nesta interface:
 
