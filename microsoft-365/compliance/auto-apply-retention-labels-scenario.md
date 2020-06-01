@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este cenário de solução ilustra como gerenciar o ciclo de vida dos documentos relacionados a produtos armazenados no SharePoint Online usando rótulos de retenção. Isso é feito por meio do uso de metadados de documentos para classificar o conteúdo e especificamente aplicando automaticamente rótulos de retenção e configurando a retenção baseada em eventos.
-ms.openlocfilehash: 214384fcdf5099f71c36425102bb62866859f910
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9c8a7044dccdb60f8e579d6dcad64310d1dda0d5
+ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636389"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44419097"
 ---
 # <a name="manage-the-lifecycle-of-sharepoint-documents-with-retention-labels"></a>Gerencie o ciclo de vida dos documentos do SharePoint com rótulos de retenção
 
@@ -285,25 +285,25 @@ Para esse cenário, usamos o seguinte fluxo para disparar o evento:
 Para criar esse fluxo, inicie o a partir de um conector do SharePoint e selecione o disparador **Quando um item é criado ou modificado**. Especifique o endereço do site e o nome da lista e, em seguida, adicione uma condição baseada em quando o valor de coluna da lista **Em Produção**estiver definida como**Não** (ou igual a falso no cartão da condição). Em seguida, adicione uma ação com base no modelo interno HTTP. Use os valores da seção a seguir para configurar a ação HTTP. Você pode copiar os valores das propriedades URI e Body da tabela abaixo e, em seguida, colá-los no modelo.
 
 - **Method**: POST
-- **URI**: https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent
+- **URI**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
 - **Cabeçalhos**: Chave = content-type, valor = application/atom+xml
 - **Corpo**:
-
-```HTML
-<?xml version='1.0' encoding='utf-8' standalone='yes'>
-<entry xmlns:d='https://schemas.microsoft.com/ado/2007/08/dataservices' xmlns:m='https://schemas.microsoft.com/ado/2007/08/dataservices/metadata' xmlns='https://www.w3.org/2005/Atom'>
-<category scheme='https://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent'>
-<updated>9/9/2017 10:50:00 PM</updated>
-<content type='application/xml'>
-<m:properties>
-<d:Name>Cessation Production @{triggerBody()?['Product_x0020_Name']?['Value']}</d:Name>
-<d:EventType>Product Cessation&lt;</d:EventType>
-<d:SharePointAssetIdQuery>ProductName:&quot;@{triggerBody()?['Product_x0020_Name']?['Value']}<d:SharePointAssetIdQuery>
-<d:EventDateTime>@{formatDateTime(utcNow(),'yyyy-MM-dd')}</d:EventDateTime>
-</m:properties>
-</content&gt>
-</entry>
-```
+    
+    ```HTML
+    <?xml version='1.0' encoding='utf-8' standalone='yes'>
+    <entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices' xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata' xmlns='https://www.w3.org/2005/Atom'>
+    <category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent'>
+    <updated>9/9/2017 10:50:00 PM</updated>
+    <content type='application/xml'>
+    <m:properties>
+    <d:Name>Cessation Production @{triggerBody()?['Product_x0020_Name']?['Value']}</d:Name>
+    <d:EventType>Product Cessation&lt;</d:EventType>
+    <d:SharePointAssetIdQuery>ProductName:&quot;@{triggerBody()?['Product_x0020_Name']?['Value']}<d:SharePointAssetIdQuery>
+    <d:EventDateTime>@{formatDateTime(utcNow(),'yyyy-MM-dd')}</d:EventDateTime>
+    </m:properties>
+    </content&gt>
+    </entry>
+    ```
 
 A seção a seguir descreve os parâmetros na propriedade *Body* da ação que deve ser configurada especificamente para esse cenário.
 

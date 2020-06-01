@@ -23,23 +23,16 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Saiba como um administrador global pode alterar o endereço de e-mail e o nome de exibição de um usuário. '
-ms.openlocfilehash: 4325892a51c9d7a562b628a2bb89e6e1ff966e29
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b672476048354a8b086781d6d9c89a7aa42ccdd3
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387244"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432082"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Alterar o nome de exibição e o endereço de email de um usuário
 
 Talvez seja necessário alterar o endereço de email e o nome de exibição de uma pessoa se, por exemplo, ela se casar e mudar de sobrenome.
-
-::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
-
-::: moniker-end
 
 Assista a um vídeo curto sobre como alterar o endereço de e-mail de um usuário. <br><br>
 
