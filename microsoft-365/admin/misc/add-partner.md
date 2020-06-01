@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: Saiba como adicionar um parceiro de supervisor de assinatura como parceiro de registro no momento da compra da Microsoft 365, alterar o parceiro ou excluir um parceiro de uma assinatura.
-ms.openlocfilehash: fa9cd549c0af616776722f6d2be4ecb9ecac1bc7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4ab02e95c2a2330e95f8a54f717e38025d04714c
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399465"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432190"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Adicionar, mudar ou excluir um parceiro para assessoria de assinaturas
 
@@ -70,9 +70,6 @@ Como administrador do Office 365, você pode criar ou editar usuários, redefini
 
 ## <a name="add-a-partner-at-the-time-of-purchase"></a>Adicionar um parceiro na ocasião da compra
 
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
-
 1. No centro de administração, vá para a **Billing** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">serviços de compra</a> de cobrança.
     
 2. Selecione o produto que você deseja comprar e selecione **comprar**.
@@ -112,16 +109,13 @@ Siga as etapas na página provedores para pesquisar ou para obter correspondênc
 
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
-
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
     
 2. Se você tiver mais de uma assinatura, selecione a assinatura que deseja editar.
   
 3. Na página assinatura, selecione a guia **parceiro** e, em seguida, digite a ID de rede do parceiro para o parceiro que você está adicionando você pode obter a ID de parceiro da Microsoft do parceiro solicitando ao parceiro.
     
-4. Clique em **Adicionar**.
+4. Selecione **Adicionar**.
 
 ::: moniker-end
 
@@ -158,9 +152,6 @@ Para aceitar esta oferta
 ## <a name="change-the-partner-for-a-subscription"></a>Mudar de parceiro para uma assinatura
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
     
@@ -206,9 +197,6 @@ Para aceitar esta oferta
 ## <a name="delete-a-partner-from-a-subscription"></a>Excluir um parceiro de uma assinatura
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1.  No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
     

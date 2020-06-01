@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: 178359ae993e0db3ec5fd09cae0a13de351a3b94
-ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
+ms.openlocfilehash: c364c55888165b10de603fd4709e4f82b06f83cc
+ms.sourcegitcommit: 1b560ee45f3b0253fa5c410a4499373c1f92da9c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44411008"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432600"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
@@ -39,6 +39,8 @@ Quando você habilita rótulos de confidencialidade para arquivos do Office no S
 - Para o SharePoint remover a criptografia do arquivo no carregamento, o usuário que carrega o arquivo rotulado e criptografado deve ter direitos de uso para, pelo menos, exibir o arquivo. O SharePoint não removerá a criptografia de arquivos se o usuário não puder abri-lo fora do SharePoint.
 
 - Use o Office na Web (Word, Excel, PowerPoint) para abrir e editar arquivos do Office com rótulos de confidencialidade que aplicam criptografia. As permissões que foram atribuídas com a criptografia são aplicadas. Com o Word na Web, você também pode usar o rotulamento automático ao editar esses documentos.
+
+- Os usuários externos podem acessar documentos rotulados com criptografia usando contas de convidado. Para obter mais informações, consulte [suporte para usuários externos e conteúdo rotulado](sensitivity-labels-office-apps.md#support-for-external-users-and-labeled-content). 
 
 - O Office 365 eDiscovery oferece suporte à pesquisa de texto completo desses arquivos. As políticas de prevenção de perda de dados (DLP) abrangem conteúdo nesses arquivos.
 

@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Siga esta lista de verificação para remover um funcionário do Microsoft 365 e dados seguros. '
-ms.openlocfilehash: 293ad26645aa3b190c25271273b29ac6c4ec8ed0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 1b691d948576a3949d637d2de05b6f931844037c
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387040"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44431648"
 ---
 # <a name="remove-a-former-employee"></a>Remover um ex-funcionário
 
@@ -44,9 +44,6 @@ ms.locfileid: "44387040"
 ## <a name="sign-out-now"></a>Sair agora!
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 Assista a um pequeno vídeo sobre como remover um funcionário. <br><br>
 
@@ -156,9 +153,6 @@ Nesta etapa, você atribui o endereço de email do ex-funcionário para outro fu
 
 ::: moniker range="o365-worldwide"  
 
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
-
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 
 2. Selecione o nome do funcionário que você deseja bloquear e, em seguida, selecione a guia **email** .
@@ -234,9 +228,6 @@ Se o ex-funcionário tinha um telefone da organização, você pode usar o Centr
 
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
-
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 
 2. Selecione o nome do funcionário que você deseja bloquear e, sob o nome do usuário, selecione o símbolo para **bloquear este usuário**.
@@ -287,9 +278,6 @@ Portanto, você não continua pagando por uma licença depois que alguém deixa 
 Quando você remove a licença, todos os dados do usuário são mantidos por 30 dias. Você pode [acessar](get-access-to-and-back-up-a-former-user-s-data.md) os dados ou [restaurar](restore-user.md) a conta se o usuário retornar. Após 30 dias, todos os dados do usuário (exceto os documentos armazenados no SharePoint Online) são excluídos permanentemente do Microsoft 365 e não podem ser recuperados. 
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 
@@ -364,9 +352,6 @@ Depois de salvar e acessar todos os dados de usuário do ex-funcionário, você 
 Não exclua a conta se tiver configurado o encaminhamento de email ou se tiver convertido essa conta em uma caixa de correio compartilhada. Ambos precisam da conta para ancorar o encaminhamento ou a caixa de correio compartilhada.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 

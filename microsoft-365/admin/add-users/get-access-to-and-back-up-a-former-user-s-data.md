@@ -23,21 +23,14 @@ search.appverid:
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: Saiba como preservar os arquivos e emails de um funcionário quando a pessoa deixa sua organização.
-ms.openlocfilehash: 2bf32aa9e7a3dcc76ae2114240bff07d697ce29d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 13cc1117c52a45f4ec1389d2e8b9f0189f4730e1
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387196"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44431708"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>Obtenha acesso e faça backup dos dados de um usuário anterior
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
-
-::: moniker-end
 
 
 Quando um funcionário deixa sua organização, você provavelmente deseja acessar seus dados (documentos e emails) e examiná-los, fazer o backup ou dar a ele um novo funcionário.
@@ -50,9 +43,6 @@ Se você remover a licença de um usuário, mas não excluir a conta, poderá da
 Para preservar os arquivos do OneDrive de um usuário antigo, primeiro acesse seu OneDrive e mova os arquivos que você deseja manter. 
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.  
     
@@ -132,7 +122,7 @@ Como administrador global, você pode dar a si mesmo acesso ao conteúdo no OneD
 
 2. No painel esquerdo, selecione **central de administração** \> **do SharePoint**. (Talvez seja necessário selecionar **Mostrar tudo** para ver a lista de centros de administração.)
 
-3. Se aparecer o centro de administração do SharePoint clássico, selecione **Abrir agora**, na parte superior da página, para abrir o novo centro de administração do SharePoint.
+3. Se o centro de administração do SharePoint clássico aparecer, selecione **abrir agora** na parte superior da página para abrir o centro de administração do SharePoint.
 
 4. No painel esquerdo, selecione **mais recursos**.
 

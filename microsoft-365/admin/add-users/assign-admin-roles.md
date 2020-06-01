@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Saiba como atribuir funções de administrador a um usuário ou vários usuários em sua empresa para que eles possam executar tarefas específicas no centro de administração.
-ms.openlocfilehash: 86759a07221e93e211107dcbd41a6bee5e6ca9a4
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3dce88f8ea2aecc094eda7e88f2f6c03537e1fa5
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387232"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432094"
 ---
 # <a name="assign-admin-roles"></a>Atribuir funções de administrador
 
@@ -47,13 +47,6 @@ Assista a um pequeno vídeo sobre como adicionar um administrador.<br><br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
 Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
-
-::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
-
-::: moniker-end
 
 ## <a name="assign-admin-roles"></a>Atribuir funções de administrador 
 
@@ -99,7 +92,7 @@ Você pode atribuir usuários a uma função de duas maneiras diferentes:
 
 1. No centro de administração, vá para a página **Usuários** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
-2. Na página **usuários ativos** , selecione o usuário cuja função de administrador você deseja alterar. No painel de submenu, ao lado de **funções**, selecione **Editar**. 
+2. Na página **usuários ativos** , selecione o usuário cuja função de administrador você deseja alterar. No painel de submenu, ao lado de **funções**, selecione **Editar**.
 
     Se você não vir a opção **Editar** , não terá permissão para editar e não poderá atribuir funções de administrador a outras pessoas. Peça a um administrador global em sua empresa para atribuir funções para você. Em uma pequena empresa, o proprietário da empresa (a pessoa que comprou sua assinatura) é um administrador global. Em uma grande empresa, as principais pessoas no departamento de ti são administradores globais.
 
@@ -125,9 +118,10 @@ Você pode não ter as permissões corretas e, portanto, não tem acesso para at
 
 ## <a name="related-articles"></a>Artigos relacionados
 
+[Sobre as funções de administrador do Microsoft 365 ](about-admin-roles.md)
+
 [Atribuir funções a contas de usuário com o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)
 
 [Autorizar ou remover relacionamentos de parceiros](../misc/add-partner.md)
 
 [Adicionar um endereço de email alternativo usando o centro de administração do Exchange](https://docs.microsoft.com/Exchange/recipients/user-mailboxes/email-addresses?view=exchserver-2019#add-an-email-address-to-a-user-mailbox)
-

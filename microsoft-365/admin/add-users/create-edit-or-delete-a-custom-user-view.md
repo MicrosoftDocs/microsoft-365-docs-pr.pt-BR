@@ -20,23 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: 4fe7f6ac-be8e-4b57-9e13-24ff889a4b28
 description: Saiba como usar filtros para criar, editar ou excluir o modo de exibição do usuário personalizado no Microsoft 365.
-ms.openlocfilehash: faea21f0e5142d197cc2b90d6ade99490f9f88e3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 265aa1a7c22475710a12a93c2bfee0b7749f438b
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387208"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44431636"
 ---
 # <a name="create-edit-or-delete-a-custom-user-view-in-office-365"></a>Criar, editar ou excluir uma exibição de usuário personalizada no Office 365
 
 Se você for um administrador de gerenciamento global ou de usuário do Office 365, poderá criar modos de exibição de usuário personalizados para exibir um subconjunto específico de usuários. Esses modos de exibição são adicionais ao conjunto padrão de modos de exibição que acompanham o Office 365. Você pode criar, editar ou excluir modos de exibição de usuário personalizados, e os modos de exibição personalizados que você cria estão disponíveis para todos os administradores.
-
-::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
-
-::: moniker-end
   
 ## <a name="custom-user-views-in-the-admin-center"></a>Exibições de usuário personalizadas no centro de administração
 

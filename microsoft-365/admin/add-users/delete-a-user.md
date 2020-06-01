@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Saiba como excluir uma conta de usuário. Decida o que fazer com o email do usuário, o conteúdo do OneDrive e se deseja manter a licença do produto ou parar de pagar por ela.
-ms.openlocfilehash: 4102fe4ac297a1f426b3bf575e748a72b323ebb6
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 81243286b70985082f8b671d7e021735a76cffc4
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387184"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44431672"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Excluir um usuário da sua organização
   
@@ -67,13 +67,6 @@ Antes de começar, pense no que você deseja fazer com o conteúdo do usuário e
 |Active Directory  <br/> |Se a sua empresa usa o **Active Directory** sincronizado com o Azure AD, é necessário excluir a conta de usuário do Active Directory. Não é possível fazê-lo no Office 365. Para obter instruções, consulte [excluir uma conta de usuário](https://go.microsoft.com/fwlink/p/?linkid=841808).  <br/> |
    
 ### <a name="get-started"></a>Introdução
-
-::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
-
-::: moniker-end
 
 Como a experiência orientada percorre as etapas para excluir um usuário, veja aqui como começar.
 

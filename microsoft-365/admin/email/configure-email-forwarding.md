@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Configurar o encaminhamento de emails para uma ou mais contas de email usando o office365.
-ms.openlocfilehash: 72eca099f0c7e60efe8f616dfe23201cd46975cf
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3ce82d514e1342ac6110ca74106477e3cf7820cb
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400119"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432296"
 ---
 # <a name="configure-email-forwarding"></a>Configurar encaminhamento de email
 
@@ -52,9 +52,6 @@ Como administrador de uma organização, você pode ter requisitos da empresa pa
 Você deve ser um administrador do Exchange ou administrador global no Microsoft 365 para executar estas etapas. Para obter mais informações, consulte o tópico [sobre funções de administrador](../add-users/about-admin-roles.md).
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
     

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para a área de trabalho, aplicativos do Office para dispositivos móveis e aplicativos do Office para a Web. Descubra quais aplicativos dão suporte a rótulos de confidencialidade.
-ms.openlocfilehash: 2cff14f2de60136b35399225da7cb04bbf9e880c
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+ms.openlocfilehash: e8cb869e6883df99babfb8d20bf8130678e0f9da
+ms.sourcegitcommit: 1b560ee45f3b0253fa5c410a4499373c1f92da9c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222500"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432590"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -168,6 +168,34 @@ Caso contrário:
 ## <a name="support-for-sharepoint-and-onedrive-files-protected-by-sensitivity-labels"></a>Suporte para arquivos do SharePoint e do OneDrive protegidos por rótulos de confidencialidade
 
 Para usar o cliente de rotulagem interno do Office com o Office na Web para documentos no SharePoint ou no OneDrive, verifique se você [habilitou rótulos de confidencialidade para arquivos do Office no SharePoint e no onedrive](sensitivity-labels-sharepoint-onedrive-files.md).
+
+## <a name="support-for-external-users-and-labeled-content"></a>Suporte para usuários externos e conteúdo rotulado
+
+Quando você rotula um documento ou email, o rótulo é armazenado como metadados que incluem seu locatário e um GUID de rótulo. Quando um documento ou email rotulado é aberto por um aplicativo do Office que oferece suporte a rótulos de sensibilidade, esses metadados são lidos e somente se o usuário pertencer ao mesmo locatário, o rótulo será exibido em seus aplicativos. Por exemplo, para rotulamento interno para Word, PowerPoint e Excel, o nome do rótulo é exibido na barra de status. 
+
+Isso significa que, se você compartilhar documentos com outra organização que usa nomes de rótulo diferentes, cada organização poderá aplicar e ver seu próprio rótulo aplicado ao documento. No entanto, os seguintes elementos de um rótulo aplicado são visíveis para os usuários de fora da sua organização:
+
+- Marcações de conteúdo. Quando um rótulo aplica um cabeçalho, rodapé ou marca d' água, eles são adicionados diretamente ao conteúdo e permanecem visíveis até que alguém modifique ou exclua-os.
+
+- O nome e a descrição do modelo de proteção subjacente de um rótulo que aplicou a criptografia. Essas informações são exibidas em uma barra de mensagens na parte superior do documento, para fornecer informações sobre quem está autorizado a abrir o documento e seus direitos de uso desse documento.
+
+### <a name="sharing-encrypted-documents-with-external-users"></a>Compartilhamento de documentos criptografados com usuários externos
+
+Além de restringir o acesso aos usuários em sua própria organização, você pode estender o acesso a qualquer outro usuário que tenha uma conta no Azure Active Directory. Todos os aplicativos do Office e outros [aplicativos habilitados para RMS](https://docs.microsoft.com/azure/information-protection/requirements-applications#rms-enlightened-applications) podem abrir documentos criptografados após o usuário ter autenticado com êxito. 
+
+Se os usuários externos não tiverem uma conta no Azure Active Directory, você poderá criar uma conta de convidado para eles em seu locatário. Para o endereço de email, você pode especificar qualquer endereço de email que já esteja usando. Por exemplo, seu endereço do gmail. Essa conta de convidado também pode ser usada para acessar um documento compartilhado no SharePoint ou no OneDrive quando você tiver [habilitado rótulos de sensibilidade para arquivos do Office no SharePoint e no onedrive](sensitivity-labels-sharepoint-onedrive-files.md).
+
+Os usuários externos também podem usar e criar uma conta da Microsoft para documentos criptografados quando eles usam os aplicativos do Microsoft 365 no Windows. Esse recurso ainda não tem suporte para o MacOS, Android ou iOS. Por exemplo, alguém compartilha um documento criptografado com eles, e as configurações de criptografia especificam o endereço de email do gmail. Este usuário pode criar sua própria conta da Microsoft que usa o endereço de email do gmail. Depois, após entrar com essa conta, eles poderão abrir o documento e editá-lo, de acordo com as restrições de uso especificadas para esse usuário. Para obter um exemplo passo a passo desse cenário, consulte [abrindo e editando o documento protegido](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents#opening-and-editing-the-protected-document).
+
+> [!NOTE]
+> O endereço de email da conta da Microsoft deve corresponder ao endereço de email especificado para restringir o acesso às configurações de criptografia.
+
+Quando um usuário com uma conta da Microsoft abre um documento criptografado dessa forma, ele cria automaticamente uma conta de convidado para o locatário se já não existir uma conta de convidado com o mesmo nome. Quando a conta de convidado existe, ela pode ser usada para abrir documentos no SharePoint e no OneDrive usando um navegador (Office na Web), além de abrir documentos criptografados do aplicativo da área de trabalho do Windows. 
+
+No entanto, a conta de convidado automática não é criada imediatamente devido à latência de replicação. Se você especificar endereços de email pessoais como parte de suas configurações de criptografia de rótulo, recomendamos que você crie contas de convidados correspondentes no Azure Active Directory. Em seguida, permita que esses usuários saibam que eles devem usar essa conta para abrir um documento criptografado da sua organização.
+
+> [!TIP]
+> Como não é possível ter certeza de que os usuários externos usarão um aplicativo cliente do Office com suporte, o compartilhamento de links do SharePoint e do OneDrive após a criação de contas de convidados é um método mais confiável de suporte à colaboração segura com usuários externos.
 
 ## <a name="when-office-apps-apply-content-marking-and-encryption"></a>Quando os aplicativos do Office aplicam a marcação e a criptografia de conteúdo
 

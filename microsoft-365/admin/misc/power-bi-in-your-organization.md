@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: d7941332-8aec-4e5e-87e8-92073ce73dc5
 ROBOTS: NOINDEX
 description: Saiba mais sobre o Power BI e como os usuários em sua organização podem usar esse serviço Business Analytics.
-ms.openlocfilehash: cabe489915061a773c0faeb8687695f2672fe478
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 5a5e7516800b2010f79296d758aeaeef80194bfd
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399297"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432166"
 ---
 # <a name="power-bi-in-your-organization"></a>Power BI em sua organização
 
@@ -171,9 +171,6 @@ Para permitir que os usuários existentes se inscrevam no Power BI, execute o co
 Se um usuário se inscrever no Power BI, mas você não quiser mais que ele tenha acesso ao Power BI, será possível remover a licença do Power BI para esse usuário.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
   
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
     

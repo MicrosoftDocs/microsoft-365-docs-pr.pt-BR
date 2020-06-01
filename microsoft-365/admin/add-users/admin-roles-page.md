@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador do serviço abre tíquetes de suporte da Microsoft.
-ms.openlocfilehash: 1dde487ef9dc99b45263a21ce62d556249ada927
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f557d00e21659880a96e4cd1936ab40d4b5a2dec
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387268"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432106"
 ---
 # <a name="get-started-with-the-roles-page"></a>Introdução à página de funções
 
@@ -99,3 +99,9 @@ No centro de administração:
 :::image type="content" source="../../media/compare-roles-list.png" alt-text="Uma figura que mostra uma comparação de funções de administrador":::
 
 ::: moniker-end
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+[Sobre as funções de administrador do Microsoft 365 ](about-admin-roles.md)
+
+[Atribuir funções de administrador](assign-admin-roles.md)

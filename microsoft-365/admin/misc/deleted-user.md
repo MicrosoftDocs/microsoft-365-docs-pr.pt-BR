@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 481b460e-f799-4fac-9592-4d5c51bdcbd8
 ROBOTS: NOINDEX
 description: Saiba como excluir ou restaurar a conta do Microsoft 365 de um usuário.
-ms.openlocfilehash: 3b7e71aa11c153372c9b38c54e45397c5f840c2e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 13908a83ffa39369b2aea71e7212fd0d41488c44
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399381"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432178"
 ---
 # <a name="quick-help-deleted-user"></a>Ajuda rápida: Usuário excluído
 
@@ -35,9 +35,6 @@ Talvez você precise excluir um [usuário](../add-users/add-users.md) em sua org
 ## <a name="delete-a-user"></a>Excluir um usuário
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
   
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 

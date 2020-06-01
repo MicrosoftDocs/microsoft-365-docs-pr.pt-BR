@@ -1,5 +1,5 @@
 ---
-title: Sobre o novo centro de administração do Microsoft 365
+title: Sobre o centro de administração do Microsoft 365
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -17,19 +17,19 @@ search.appverid:
 - MET150
 - MOE150
 - FRP150
-description: Saiba mais sobre o novo centro de administração do Microsoft 365.
-ms.openlocfilehash: 0eeebcd0c96b5f3741c01a2776391ceaa698a40e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Saiba mais sobre o centro de administração do Microsoft 365.
+ms.openlocfilehash: 267a7fe56cbd71734664f085846c8b5a1356cccd
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399477"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432202"
 ---
-# <a name="about-the-new-microsoft-365-admin-center"></a>Sobre o novo centro de administração do Microsoft 365
+# <a name="about-the-microsoft-365-admin-center"></a>Sobre o centro de administração do Microsoft 365
 
 ::: moniker range="o365-worldwide"
 
-O novo centro de administração do Microsoft 365 é desenvolvido para equipes de ti como uma maneira simplificada de gerenciar seus serviços do Microsoft 365. O centro de administração oferece uma experiência personalizada com base nas necessidades exclusivas de sua função ou organização, aumenta a eficiência de tarefas diárias e fornece informações acionáveis que ajudam você a tomar decisões orientadas a dados para oferecer uma melhor experiência aos seus usuários.
+O centro de administração do Microsoft 365 é desenvolvido para equipes de ti como uma maneira simplificada de gerenciar seus serviços do Microsoft 365. O centro de administração oferece uma experiência personalizada com base nas necessidades exclusivas de sua função ou organização, aumenta a eficiência de tarefas diárias e fornece informações acionáveis que ajudam você a tomar decisões orientadas a dados para oferecer uma melhor experiência aos seus usuários.
 
 O centro de administração do Microsoft 365 é o ponto de entrada comum para todos os administradores do Microsoft 365 e pode ser acessado em [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) . Os espaços de trabalho especializados, como segurança ou gerenciamento de dispositivos, permitem um controle mais granular. Para obter mais informações sobre como os centros de administração funcionarão juntos, confira [o artigo sobre os tipos específicos de funções de ti e outros espaços de trabalho, como segurança, gerenciamento de dispositivos ou Exchange?](#what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange) mais adiante neste artigo.
 
@@ -37,7 +37,7 @@ O centro de administração do Microsoft 365 é o ponto de entrada comum para to
 
 ::: moniker range="o365-21vianet"
 
-O novo centro de administração do Microsoft 365, que atualmente está em versão prévia, foi desenvolvido para o Microsoft Teams como uma maneira simplificada de gerenciar seus serviços do Microsoft 365. O centro de administração oferece uma experiência personalizada com base nas necessidades exclusivas de sua função ou organização, aumenta a eficiência de tarefas diárias e fornece informações acionáveis que ajudam você a tomar decisões orientadas a dados para oferecer uma melhor experiência aos seus usuários.
+O centro de administração do Microsoft 365 é desenvolvido para equipes de ti como uma maneira simplificada de gerenciar seus serviços do Microsoft 365. O centro de administração oferece uma experiência personalizada com base nas necessidades exclusivas de sua função ou organização, aumenta a eficiência de tarefas diárias e fornece informações acionáveis que ajudam você a tomar decisões orientadas a dados para oferecer uma melhor experiência aos seus usuários.
 
 O centro de administração do Microsoft 365 é o ponto de entrada comum para todos os administradores do Microsoft 365 e pode ser acessado por meio de logon no [https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage](https://go.microsoft.com/fwlink/p/?linkid=850627) . Além disso, os espaços de trabalho especializados, como o Azure Active Directory e o Exchange, permitem um controle mais granular. Você pode acessar os espaços de trabalho de especialista no painel de navegação do centro de administração do Microsoft 365.
 
@@ -45,14 +45,11 @@ O centro de administração do Microsoft 365 é o ponto de entrada comum para to
 
 ::: moniker range="o365-worldwide"
 
-À medida que novos recursos são disponibilizados no centro de administração do Microsoft 365, você poderá optar pelo novo centro de administração e compartilhar seus comentários com a Microsoft para que possamos continuar aprimorar a experiência de administração. Se você optar por, não haverá impacto para os seus usuários e você poderá voltar para o centro de administração antigo a qualquer momento.
-[O que há de novo no novo centro de administração do Microsoft 365](whats-new-in-preview.md).
+À medida que novos recursos são disponibilizados no centro de administração do Microsoft 365, você poderá optar pelo centro de administração e compartilhar seus comentários com a Microsoft para que possamos continuar aprimorar a experiência de administração. Se você optar por, não haverá impacto para os seus usuários e você poderá voltar para o centro de administração antigo a qualquer momento.
+[O que há de novo no centro de administração do Microsoft 365](whats-new-in-preview.md).
   
 > [!NOTE]
-> Os administradores de versão direcionada terão o primeiro acesso aos novos recursos. Novos recursos serão distribuídos para todos os administradores. Isso significa que você pode não ver o novo centro de administração ou pode parecer diferente do que está descrito nos artigos de ajuda. Para ser um dos primeiros a ver os novos recursos, confira participar do novo centro de administração, abaixo. 
-    
-## <a name="participate-in-the-new-admin-center"></a>Participar do novo centro de administração
-Adoraríamos que você participasse do novo centro de administração do Microsoft 365 para que você possa se preparar para mudar e nos enviar comentários.
+> Os administradores de versão direcionada terão o primeiro acesso aos novos recursos. Novos recursos serão distribuídos para todos os administradores. Isso significa que você pode não ver o centro de administração ou pode parecer diferente do que está descrito nos artigos de ajuda. Para ser um dos primeiros a ver novos recursos, confira participar no centro de administração, abaixo. 
 
 ### <a name="turn-on-targeted-release"></a>Ativar lançamento direcionado
 
@@ -64,18 +61,9 @@ Adoraríamos que você participasse do novo centro de administração do Microso
     
 3. Selecione **lançamento direcionado para todos** ou **lançamento direcionado para usuários selecionados**. Se você escolher lançamento direcionado para usuários selecionados, certifique-se de adicionar sua conta de administrador (e de qualquer outro administrador da organização que queira participar) à lista de usuários selecionados.
     
-### <a name="switch-to-the-new-admin-center-and-back-again"></a>Alterne para o novo centro de administração e volte novamente
+### <a name="admin-center-feedback"></a>Feedback do centro de administração
 
-- Quando o novo centro de administração do Microsoft 365 estiver disponível para você, você poderá optar por selecionar o botão **Experimente o novo centro de administração** , localizado na parte superior da Home Page. Se você sair do centro de administração, vamos lembrar sua seleção e você entrará novamente no novo centro de administração. <br/><br/>![O novo centro de administração alterna para o centro de administração antigo](../media/admin-center-toggle-off.png) 
-  
-- Volte para o centro de administração antigo da página inicial, desativando a **opção de desativar**. <br/><br/>![A nova ativação do centro de administração está ativada](../media/admin-center-toggle-on.png)
-
-Enquanto estiver no novo centro de administração, você poderá fornecer comentários da Microsoft sobre sua experiência selecionando **enviar comentários** ao lado do botão **precisa de ajuda?** na parte inferior de cada página. Diga-nos o que você gosta e o que poderíamos fazer melhor. Além disso, você pode receber pesquisas de pop-up de tempo para fazer perguntas sobre suas impressões gerais ou uma experiência específica que foi lançada recentemente. Você também pode fazer comentários no final deste artigo selecionando **estas informações foram úteis?**
-  
-Se você deseja ser um pioneiro no novo centro de administração, precisará ativar o lançamento direcionado e, em seguida, quando o novo centro de administração estiver disponível, você poderá alternar para ele para fazer o check-out e fornecer comentários.
-  
-> [!NOTE]
-> O acesso ao novo centro de Administração será implantado em todos os administradores do Microsoft 365. Os administradores que estão no grupo de lançamento direcionado em sua organização receberão primeiro o novo centro de administração. Estar no lançamento direcionado não garante que você verá a opção de alternância imediatamente, mas você a receberá mais cedo do que as no lançamento padrão. 
+No centro de administração, você pode fornecer comentários da Microsoft sobre sua experiência selecionando **enviar comentários** ao lado do botão **precisa de ajuda?** na parte inferior de cada página. Diga-nos o que você gosta e o que poderíamos fazer melhor. Além disso, você pode receber pesquisas de pop-up de tempo para fazer perguntas sobre suas impressões gerais ou uma experiência específica que foi lançada recentemente. Você também pode fazer comentários no final deste artigo selecionando **estas informações foram úteis?**
   
 ::: moniker-end
 

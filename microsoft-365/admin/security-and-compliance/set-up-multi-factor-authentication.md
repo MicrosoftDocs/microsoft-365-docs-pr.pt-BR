@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Saiba como configurar a autenticação multifator para sua organização.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 2b4ac2b5950d2641254742e03f054f3e4c886833
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c84c66cc051363fbc582abfb5521f922440b6801
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399117"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432374"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Configurar a autenticação multifator
   
@@ -42,7 +42,8 @@ Antes de começar, determine se essas condições especiais se aplicam a você e
 
 ## <a name="step-1-decide-on-the-method-of-requiring-your-users-to-use-mfa"></a>Etapa 1: decida o método de exigir que seus usuários usem a MFA
 
-Há três maneiras de exigir que os usuários utilizem a MFA para entradas. Confira [suporte da MFA no Microsoft 365](multi-factor-authentication-microsoft-365.md) para obter os detalhes.
+> [!NOTE]
+> Você deve ser um administrador global para configurar ou modificar a MFA. Há três maneiras de exigir que os usuários utilizem a MFA para entradas. Confira [suporte da MFA no Microsoft 365](multi-factor-authentication-microsoft-365.md) para obter os detalhes.
 
 - Padrões de segurança (recomendado para pequenas empresas)
 

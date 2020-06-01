@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Saiba como remover um domínio antigo do Microsoft 365 e mover usuários e grupos para outro domínio.
-ms.openlocfilehash: c5e629f0d683c6dc3e18b1278027ac3a88cc834b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fdf0b9db2c23632a213e860bd54097c1d453cf55
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399891"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432386"
 ---
 # <a name="remove-a-domain"></a>Excluir um domínio
 
@@ -47,9 +47,6 @@ Você está removendo seu domínio porque deseja adicioná-lo a um plano de assi
 #### <a name="move-users"></a>Mover usuários
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração</a>.
 
@@ -100,9 +97,6 @@ Será preciso fazer o mesmo para você, caso esteja no domínio que deseja remov
 #### <a name="move-yourself"></a>Mover-se
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>.
 

@@ -20,19 +20,19 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: Obtenha uma visão geral do centro de mensagens do Microsoft 365 e sua função no gerenciamento de alterações.
-ms.openlocfilehash: 509c379beffaa4be8bb9cfcd7277ef6beb147bf3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c0d23280f5657d656e778c358dfe6349e16db9c3
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399699"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432248"
 ---
 # <a name="message-center"></a>Centro de mensagens
 
 
 Para acompanhar as alterações futuras, incluindo recursos novos e alterados, manutenção planejada ou outros comunicados importantes, vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2070717" target="_blank">centro de mensagens</a>. É aí que lançamos comunicados oficiais que permitem que você realize uma abordagem proativa para o gerenciamento de alterações. Cada postagem oferece uma visão geral de alto nível de uma alteração planejada e como ela pode afetar seus usuários e links para obter informações mais detalhadas para ajudá-lo a se preparar.
   
-Para abrir o centro de mensagens, primeiro certifique-se de que você selecionou a opção **Experimente o novo centro de administração** e ative a página inicial do centro de administração e, em seguida:
+Para abrir o centro de mensagens:
 
 ::: moniker range="o365-worldwide"
 
@@ -62,7 +62,7 @@ Você também pode usar o [aplicativo de administração do Microsoft 365](https
 |Quem pode exibir postagens no centro de mensagens?  <br/> |A maioria dos usuários que foram atribuídos a qualquer função de administrador no Microsoft 365 pode exibir postagens do centro de mensagens. [Aqui está uma lista](#admin-roles-that-dont-have-access-to-the-message-center) de funções de administrador que não têm acesso ao centro de mensagens. Você também pode atribuir a função leitor do centro de mensagens aos usuários que devem ser capazes de ler e compartilhar postagens do centro de mensagens sem ter outros privilégios de administrador.<br/><br/> Além disso, você pode atribuir a função leitor de privacidade do centro de mensagens às pessoas que devem ver notificações sobre segurança e informações de privacidade relevantes para a sua organização. Consulte [about admin Roles](../add-users/about-admin-roles.md) para saber mais sobre o que cada função de administrador pode fazer. <br/><br/>A maioria das postagens do centro de mensagens pode ser compartilhada por email com usuários que não são administradores e que talvez precisem agir. Essa opção não está disponível para postagens de privacidade de dados que o leitor de privacidade do centro de mensagens exibe. <br/> |
 |Essa é a única maneira como a Microsoft irá comunicar as alterações do Microsoft 365?  <br/> |Não, há várias maneiras de comunicarmos as alterações no Microsoft 365. O centro de mensagens é a principal maneira pela qual comunicamos o tempo de alterações individuais. Consulte [permanecer na parte superior das alterações da Microsoft 365](stay-on-top-of-updates.md) para obter informações sobre recursos adicionais.  <br/> |
 |Como posso ver as postagens no meu idioma?  <br/> |As postagens do centro de mensagens são escritas em inglês apenas devido ao cronograma das informações que estamos enviando, mas você pode controlar se, por padrão, as postagens são mostradas em inglês ou se foram automaticamente traduzidas por máquina para o seu idioma preferido. E, independentemente do modo de exibição padrão escolhido, você pode optar por postar Postagens de máquina para qualquer idioma que oferecemos suporte. Consulte [tradução de idioma para postagens do centro de mensagens](language-translation-for-message-center-posts.md) para obter mais detalhes.  <br/> |
-|Posso visualizar as alterações ou os recursos antes que eles sejam revertidos para minha organização?  <br/> |Às vezes. Algumas alterações e novos recursos podem ser visualizados ao optar pelo programa de lançamento direcionado. Para aceitar, no centro de administração, acesse preferências de versão do perfil da organização de **configurações**  >  **Organization profile**  >  **Release preferences**. (No novo centro de administração, talvez seja necessário selecionar **Mostrar tudo** na parte inferior do painel de navegação esquerdo para ver **as configurações**.) Você pode escolher lançamento direcionado para toda a sua organização ou apenas para usuários selecionados. Confira [Opções de lançamento padrão ou direcionado no Microsoft 365](release-options-in-office-365.md) para obter mais informações sobre o programa.  <br/> |
+|Posso visualizar as alterações ou os recursos antes que eles sejam revertidos para minha organização?  <br/> |Às vezes. Algumas alterações e novos recursos podem ser visualizados ao optar pelo programa de lançamento direcionado. Para aceitar, no centro de administração, acesse preferências de versão do perfil da organização de **configurações**  >  **Organization profile**  >  **Release preferences**. (No centro de administração, talvez seja necessário selecionar **Mostrar tudo** na parte inferior do painel de navegação esquerdo para ver **as configurações**.) Você pode escolher lançamento direcionado para toda a sua organização ou apenas para usuários selecionados. Confira [Opções de lançamento padrão ou direcionado no Microsoft 365](release-options-in-office-365.md) para obter mais informações sobre o programa.  <br/> |
 |Posso descobrir a data exata em que uma alteração estará disponível para minha organização?  <br/> |Infelizmente, não é possível informar a data exata em que uma alteração será feita na sua organização. Em nossa mensagem do centro de mensagens, forneceremos tantas informações quantas o tempo de lançamento, com base em nosso nível de confiança. Entendemos que você deseja que seja mais específico no momento das versões, e estamos trabalhando para melhorar o nível de detalhes.  <br/> |
 |Essas mensagens são específicas para minha organização?  <br/> |Nossa melhor maneira de verificar se você só vê as postagens do centro de mensagens que afetam sua organização. O Microsoft 365 Roadmap inclui todos os recursos que estamos trabalhando e saindo, mas nem todos esses recursos se aplicam a todas as organizações. Por exemplo, se um recurso for distribuído apenas para instituições educacionais, direcionaremos a postagem do centro de mensagens somente para essas organizações.  <br/> |
 |É possível que as postagens do centro de mensagens sejam enviadas por email?  <br/> |Sim! Você pode optar por enviar um resumo semanal por email para você e até dois endereços de email. Se você precisar ter o resumo para mais de duas pessoas, envie para um grupo do Microsoft 365 ou lista de distribuição. O resumo semanal enviado por email é ativado por padrão. Se você não estiver obtendo seus resumos semanais, confira a pasta spam. Consulte a seção [preferências](#preferences) deste artigo para obter mais informações sobre como configurar o resumo semanal.  <br/> |
@@ -128,9 +128,6 @@ Se a administração for distribuída em sua organização, talvez você não qu
 - Definir preferências de email para receber um resumo semanal de todas as mensagens, emails apenas para as principais atualizações e emails para mensagens de privacidade de dados.  
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. Selecione **Editar preferências** na parte superior do centro de mensagens.
 

@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: Saiba como alterar a forma de pagamento para sua assinatura de negócios.
-ms.openlocfilehash: 7350546da14ebd68182e158c0d15cdfb727f5718
-ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
+ms.openlocfilehash: 41cf16397c4b3d2341721e741c6b293005971909
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407963"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432410"
 ---
 # <a name="change-your-payment-method"></a>Alterar sua forma de pagamento
 
@@ -202,12 +202,6 @@ Você pode usar as etapas a seguir a qualquer momento para verificar a forma de 
 1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> .
 
 2. Encontre a assinatura que você deseja verificar. A forma de pagamento configurada para a assinatura aparece na seção **cobrança** .
-
-### <a name="use-the-old-admin-center-to-verify-which-payment-method-is-configured"></a>Usar o centro de administração antigo para verificar qual método de pagamento está configurado
-
-1. No centro de administração, vá para a **Billing** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">assinaturas</a> de cobrança.
-
-2. Encontre a assinatura que você deseja verificar. A forma de pagamento configurada para a assinatura aparece sob **método de pagamento**.
 
 ::: moniker-end
 

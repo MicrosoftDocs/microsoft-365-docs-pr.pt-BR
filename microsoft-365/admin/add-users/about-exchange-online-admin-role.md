@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Administradores do Exchange Online gerenciam emails e caixas de correio da sua organização. Por exemplo, eles recuperam itens excluídos na caixa de correio de um usuário. '
-ms.openlocfilehash: cf7bd2a7856017ccf4f17f71ad1845b56b004a10
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6d5596bd572d6fa5d43c79c34f174528fbfb3f1d
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387412"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432130"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Sobre a função de administrador do Exchange Online
 
@@ -56,9 +56,10 @@ Se você tiver uma organização de grande porte, o administrador do Exchange po
   
  Por exemplo, o administrador do Exchange pode atribuir alguém ao grupo de função de gerenciamento de descoberta para que eles possam realizar pesquisas de caixas de correio para dados que atendam a certos critérios. Para saber mais, confira [permissões no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) e [gerenciar grupos de função](https://docs.microsoft.com/exchange/manage-role-groups-exchange-2013-help).
   
-## <a name="learn-about-other-admin-roles"></a>Saiba mais sobre outras funções de administrador
-    
+## <a name="learn-about-other-admin-role"></a>Saiba mais sobre outras funções de administrador
+
+- [Sobre as funções de administrador do Microsoft 365 ](about-admin-roles.md)
+
 - [Sobre a função de administrador do SharePoint Online](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)
-    
+
 - [Sobre a função de administrador do Skype for Business](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online)
-    

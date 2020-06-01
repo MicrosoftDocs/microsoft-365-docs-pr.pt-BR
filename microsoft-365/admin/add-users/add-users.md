@@ -25,21 +25,18 @@ search.appverid:
 - GEA150
 ms.assetid: 1970f7d6-03b5-442f-b385-5880b9c256ec
 description: Saiba como adicionar usuários ao Microsoft 365, um de cada vez ou vários usuários ao mesmo tempo a partir de um arquivo CSV.
-ms.openlocfilehash: 1b63f09bf34f5ca54be83eedfac9188251578a05
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: af4fead3112a678b1ee7eacb087dddc40ed43d36
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387256"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432118"
 ---
 # <a name="add-users-individually-or-in-bulk"></a>Adicionar usuários individualmente ou em massa
 
 As pessoas da sua equipe precisam de uma conta de usuário antes de entrarem e acessar [o Microsoft 365 for Business](https://go.microsoft.com/fwlink/?LinkID=519395). A maneira mais fácil de adicionar contas de usuário é adicionar uma de cada vez no centro de administração do Microsoft 365. Após executar esta etapa, seus usuários terão licenças do Microsoft 365, credenciais de entrada e caixas de correio do Microsoft 365.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 

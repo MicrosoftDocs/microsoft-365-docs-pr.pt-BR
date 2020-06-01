@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Saiba como você pode redefinir suas senhas usando a ferramenta de redefinição de senha autoatendimento.
-ms.openlocfilehash: 5c30d1da20998fb7e9681431173070ba57e1b090
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 21bcbbbd5ef2167b04b8da6db437c528b5fab0c5
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387028"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44431696"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Permitir que os usuários redefinam as próprias senhas
 
@@ -37,19 +37,19 @@ Obter Crushed com pessoas solicitando que você redefina suas senhas? Como o Mic
   
 Aqui estão algumas coisas que você precisa saber:
   
-- Você obtém redefinição de senha de autoatendimento para usuários em nuvem **gratuitamente** com qualquer plano pago de negócios, educação ou sem fins lucrativos da Microsoft 365. Ele não funciona com a avaliação da Microsoft 365. 
-    
-- Ela usa o Azure. Você obterá automaticamente esse recurso no Azure **gratuitamente** quando realizar essas etapas. Não haverá custos para habilitar a redefinição de senha de autoatendimento se você não usar outros recursos do Azure. 
-    
-- **Se você estiver usando um Active Directory local**, os dois pontos acima não se aplicam. Em vez disso, você pode configurar isso, mas **requer uma assinatura paga do Azure ad Premium**. 
+- Você obtém redefinição de senha de autoatendimento para usuários em nuvem **gratuitamente** com qualquer plano pago de negócios, educação ou sem fins lucrativos da Microsoft 365. Ele não funciona com a avaliação da Microsoft 365.
+
+- Ela usa o Azure. Você obterá automaticamente esse recurso no Azure **gratuitamente** quando realizar essas etapas. Não haverá custos para habilitar a redefinição de senha de autoatendimento se você não usar outros recursos do Azure.
+
+- **Se você estiver usando um Active Directory local**, os dois pontos acima não se aplicam. Em vez disso, você pode configurar isso, mas **requer uma assinatura paga do Azure ad Premium**.
 
 Assista a um pequeno vídeo sobre como permitir que os usuários redefinam suas próprias senhas. <br><br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S]
 
 Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-## <a name="let-people-reset-their-own-passwords"></a>Permitir que as pessoas redefinam suas próprias senhas 
+## <a name="let-people-reset-their-own-passwords"></a>Permitir que as pessoas redefinam suas próprias senhas
 
 Estas etapas habilitam a redefinição de senhas de autoatendimento para todas as pessoas da empresa.
   
@@ -70,7 +70,6 @@ Estas etapas habilitam a redefinição de senhas de autoatendimento para todas a
 
 ::: moniker-end
 
-   
 2. Na parte superior da página configurações, selecione **segurança & privacidade**.
   
 3. Selecione **redefinição de senha de autoatendimento**.
