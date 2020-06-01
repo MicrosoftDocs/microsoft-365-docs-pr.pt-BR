@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Com os rótulos de retenção, você pode basear um período de retenção no momento que um tipo específico de evento ocorre. O evento dispara o início do período de retenção, e todo o conteúdo com um rótulo de retenção aplicado para esse tipo de evento recebe as ações de retenção do rótulo. A retenção controlada por eventos é usada como parte de um processo de gerenciamento de registros.
-ms.openlocfilehash: 00bc5b44a23dfd08eb56fd7b1f6577bf8411003d
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: 100381d87c51a8ef403a88f19159235081c2a8df
+ms.sourcegitcommit: 330e9baf02b5bc220d61f777c2338814459626ec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053879"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44385018"
 ---
 # <a name="overview-of-event-driven-retention"></a>Visão geral da retenção controlada por eventos
 
@@ -108,13 +108,16 @@ Observe que após escolher um tipo de evento e criar o rótulo de retenção, o 
   
 ![Opções para criar ou escolher um tipo de evento](../media/8b7afe79-72cb-462e-81d4-b5ddbe899dbc.png)
   
-### <a name="step-3-publish-the-event-based-retention-labels"></a>Etapa 3: publicar os rótulos de retenção baseado em eventos
+### <a name="step-3-publish-or-auto-apply-the-event-based-retention-labels"></a>Etapa 3: publicar ou aplicar automaticamente os rótulos de retenção com base em eventos
 
-Publique seus rótulos de retenção baseados em eventos, para que possam ser aplicados manualmente ao conteúdo. Não é possível selecionar um rótulo de retenção baseado em evento para uma política de aplicação automática. 
+Assim como qualquer rótulo, você precisa [publicar ou aplicar automaticamente](create-retention-labels.md)um rótulo com base em eventos, para que ele seja aplicado manual ou automaticamente ao conteúdo.
 
-Para publicar seus rótulos de retenção baseados em eventos, vá para a página **Classificação** > **Rótulos de retenção**.
-  
-![Opções para publicar ou aplicar automaticamente um rótulo](../media/options-to-publish-auto-apply-retention-label.png)
+> [!NOTE]
+> Se você selecionar um rótulo de retenção voltada para a aba**Plano de arquivo** > ** de Gerenciamento de Registros**ou de **Rótulos de dados de Governança ** > **** o botão**aplicar rótulo automaticamente** não estará disponível.
+> 
+> Em vez disso, use a **Aplicar um rótulo automaticamente**, acima da lista de rótulos ou políticas, de um dos seguintes locais:
+> - Aba de políticas de**Gerenciamento de registros** > **de Rótulo **
+> - Aba de Rótulos de**Governança de dados ** > **** ou aba de **políticas**
 
 ### <a name="step-4-enter-an-asset-id"></a>Etapa 4: Inserir uma ID de ativo
 
@@ -144,7 +147,7 @@ Ao criar o evento, escolha o mesmo tipo de evento usado pelo rótulo de retenç�
 
 Agora, restrinja o escopo do conteúdo especificando as IDs de ativo para o conteúdo do SharePoint e do OneDrive ou palavras-chave para conteúdo do Exchange. Para IDs de ativo, a retenção será imposta somente no conteúdo com o par de propriedade:valor especificado. Se uma ID de ativo não for inserida, **todo o conteúdo** com rótulos desse tipo de evento receberá a mesma data de retenção. 
   
-Compreenda que a ID de ativo é simplesmente outra propriedade de documento no SharePoint e no OneDrive for Business. Se você estiver usando a propriedade ID de ativo, digite ComplianceAssetID:\<valor\> na caixa de IDs de ativo mostrada abaixo.
+Compreenda que a ID de Ativos é simplesmente outra propriedade do documento no SharePoint e no OneDrive for Business. Se você estiver usando a propriedade de ID de ativos, digite ComplianceAssetID: \<value\>na caixa para IDs de ativos mostrada abaixo.
   
 Talvez sua organização tenha aplicado outras propriedades e IDs aos documentos relacionados a esse tipo de evento. Por exemplo, se você precisar detectar os registros de um produto específico, a ID poderá ser uma combinação de sua propriedade personalizada, ProductID, e o valor "XYZ". Nesse caso, você digitaria ProductID:XYZ na caixa de IDs de ativo mostrada abaixo.
   
@@ -162,7 +165,7 @@ Ao criar uma pesquisa de conteúdo:
   
 - Para localizar todo o conteúdo com um rótulo de retenção específico, escolha a condição **Marca de conformidade** e, em seguida, insira o nome completo do rótulo ou parte dele e use um caractere curinga. 
     
-- Para localizar todo o conteúdo com uma ID de ativo específica, insira a propriedade **ComplianceAssetID** e um valor, por exemplo, ComplianceAssetID:\<valor\>. 
+- Para localizar todo o conteúdo com uma ID de ativo específica, insira a propriedade **ComplianceAssetID** e um valor, por exemplo, ComplianceAssetID:\<value\> 
     
 Para saber mais, veja [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md).
   
