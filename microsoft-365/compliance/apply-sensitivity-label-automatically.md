@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 318ecd19d7dcfb4b80e1bdcec743057462c44b1b
-ms.sourcegitcommit: 3cd487476efe4138d1b42499fbffbbe4bacfe5b8
+ms.openlocfilehash: 795803b79a60c7fb8ce6154c61730d10baabdce1
+ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44408473"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44419077"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -105,9 +105,6 @@ A rotulagem automática nos aplicativos Office para Windows têm suporte no clie
 As configurações de rotulagem automática para aplicativos do Office estão disponíveis quando você [cria ou edita um rótulo de confidencialidade](create-sensitivity-labels.md). Você pode optar por aplicar rótulos de confidencialidade ao conteúdo automaticamente quando informação confidencial for detectada. Escolha em uma lista de tipos ou classificadores treináveis de informações confidenciais:
 
 ![Condições de rótulos para rotulagem automática em aplicativos do Office](../media/sensitivity-labels-conditions.png)
-
-> [!NOTE]
-> A opção para **Classificadores treináveis** está sendo implantada em locatários na visualização pública. Se você não puder vê-la, tente novamente em alguns dias.
 
 Quando esse rótulo de confidencialidade é aplicado automaticamente, o usuário vê uma notificação no aplicativo do Office. Por exemplo:
 
