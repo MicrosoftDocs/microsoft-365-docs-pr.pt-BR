@@ -24,16 +24,16 @@ search.appverid:
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: Descubra como usar o Microsoft 365 for Business para remover dados da empresa que seus usuários têm em seus dispositivos ou PCs Windows.
-ms.openlocfilehash: 42784149fcf6b850e7d0483c17dd605e7ecb7cf0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3a2faf0c5617b5d1e6beccf1e457f8b483820604
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402777"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470818"
 ---
 # <a name="remove-company-data-from-devices"></a>Remover dados da empresa de dispositivos
 
-[![Rótulo para informar que o centro de administração está mudando e você pode encontrar mais detalhes em aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+Este artigo se aplica ao Microsoft 365 Business Premium.
 
 ## <a name="remove-company-data"></a>Remova dados da empresa
 

@@ -23,14 +23,16 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Saiba mais sobre o padrão e outras configurações disponíveis no Microsoft 365 for Business para proteger dispositivos Windows 10.
-ms.openlocfilehash: 0403ea2c30221dd5693b7f3e9b4921ad175399a1
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: af3f58ba13a1011e65be45337c63ff714bfdaf0c
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402797"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470838"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Defina configurações de proteção de dispositivos para PCs com Windows 10
+
+Este artigo se aplica ao Microsoft 365 Business Premium.
 
 ## <a name="secure-windows-10-devices"></a>Proteger dispositivos Windows 10
 

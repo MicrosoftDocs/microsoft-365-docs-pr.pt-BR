@@ -1,5 +1,5 @@
 ---
-title: Ativar ou desativar o recurso Aplicativos Integrados
+title: Gerenciando o consentimento do usuário para aplicativos no Microsoft 365
 f1.keywords:
 - CSH
 ms.author: kwekua
@@ -19,42 +19,34 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
-description: Saiba mais sobre os aplicativos integrados e como ativá-los para permitir que aplicativos de terceiros acessem as informações do Microsoft 365 dos usuários.
-ms.openlocfilehash: 070150662daeefb2a4d02c7e0940dfd242bd4b5f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Saiba mais sobre o consentimento do usuário para os aplicativos e como ativá-los para permitir que aplicativos de terceiros acessem as informações do Microsoft 365.
+ms.openlocfilehash: df81d2cf3e1d796e462d2b9240b8288273ed5372
+ms.sourcegitcommit: ff1af42b036bfdf75729db8c78f10cf4642616ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399333"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44477167"
 ---
-# <a name="turning-integrated-apps-on-or-off"></a>Ativar ou desativar o recurso Aplicativos Integrados
+# <a name="managing-user-consent-to-apps-in-microsoft-365"></a>Gerenciando o consentimento do usuário para aplicativos no Microsoft 365
 
-Quando o aplicativos integrados está ativado, os usuários em sua organização podem permitir que aplicativos de terceiros acessem suas informações do Microsoft 365. Por exemplo, quando alguém usa um aplicativo de terceiros, esse aplicativo pode solicitar permissão para acessar o calendário e editar arquivos que estão em uma pasta do OneDrive.
+Essa configuração controla se os usuários podem dar esse consentimento aos aplicativos que usam o OpenID Connect e OAuth 2,0 para entrar e solicitar o acesso aos dados. Um aplicativo pode ser criado de dentro de sua própria organização ou pode vir de outra organização do Office 365 ou de terceiros.
 
-## <a name="turning-integrated-apps-on-or-off"></a>Ativar ou desativar o recurso Aplicativos Integrados
+Se você ativar essa configuração, esses aplicativos solicitarão aos usuários permissão para acessar os dados da sua organização, e os usuários poderão escolher se desejam permiti-lo. Se você desativar essa configuração, os administradores deverão dar o consentimento para esses aplicativos antes que os usuários possam usá-los. Nesse caso, considere configurar um fluxo de trabalho de consentimento de administrador no portal do Azure para que os usuários possam enviar uma solicitação de aprovação de administrador para usar qualquer aplicativo bloqueado.
+
+Um usuário pode fornecer acesso somente aos aplicativos que ele possua e que acessam suas informações do Office 365. Não é possível permitir que um aplicativo acesse quaisquer outras informações do usuário.
+
+## <a name="turning-user-consent-on-or-off"></a>Ativar ou desativar o consentimento do usuário
 <a name="__toc379982114"> </a>
 
-Veja aqui como ativar ou desativar o recurso Aplicativos Integrados.
+Confira aqui como ativar ou desativar o consentimento do usuário para aplicativos.
 
-1. No centro de administração do Microsoft 365, vá para a página Configurações de **configurações** \> **Settings** , \> guia **Serviços** e, em seguida, selecione **aplicativos integrados**.
+1. No centro de administração, vá para a página **configurações** do \> **org**Settings  >  [Services](https://go.microsoft.com/fwlink/p/?linkid=2053743) e selecione **consentimento do usuário para aplicativos**.
 
-2. Na página **aplicativos integrados** , selecione a opção para ativar ou desativar aplicativos integrados.
+2. Na página **consentimento do usuário para aplicativos** , selecione a opção para ativar ou desativar aplicativos integrados.
 
-## <a name="more-info-on-integrated-apps"></a>Obter mais informações sobre Aplicativos Integrados
+## <a name="more-info"></a>Mais informações
 <a name="__toc379982114"> </a>
 
-Um aplicativo integrado pode ser criado de dentro de sua própria organização ou pode vir de outra organização ou de terceiros.
+Para saber mais sobre como definir suas configurações de consentimento no Azure Active Directory, leia [Configurar o fluxo de trabalho de consentimento do administrador](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-admin-consent-workflow).
 
-Quando o recurso Aplicativos Integrados está ativado e um aplicativo é usado, o aplicativo solicita permissão para definir o nível de acesso necessário ao acessar as informações do usuário. Um usuário pode fornecer acesso somente aos aplicativos proprietários que acessam suas informações da Microsoft 365. Não é possível permitir que um aplicativo acesse quaisquer outras informações do usuário.
-
-Há dois tipos de permissões que são usadas ao usar aplicativos integrados no Microsoft 365: permissões de usuário e permissões de administrador. Por exemplo, quando sua organização está habilitada para Aplicativos Integrados e um usuário usa um aplicativo de terceiros, o aplicativo pode solicitar a permissão do usuário para ler os detalhes do perfil do usuário, editar ou excluir seus arquivos, ler itens contidos em conjuntos de sites e enviar emails em nome desse usuário.
-
-![Permissões de usuário de aplicativos integrados](../../media/bb9a6cf8-da39-4ac0-9e40-cde03a81c121.gif)
-
-Se um administrador registrar um aplicativo para todos os usuários em uma organização, ele deverá ter permissão para permitir que o aplicativo acesse informações e recursos na organização. Depois disso, quando outros usuários na organização usarem esse aplicativo, não será pedida a sua permissão. Quando um administrador registra um aplicativo, esse administrador precisa ter certeza de que ele confia no fornecedor daquele aplicativo. Para obter mais detalhes sobre como registrar um aplicativo, consulte [Adicionar, Atualizar e Remover um Aplicativo](https://go.microsoft.com/fwlink/p/?LinkID=518600).
-
-![Permissões de administrador de aplicativos integrados](../../media/e24aa504-bf10-446c-a9d5-45a6f2655187.gif)
-
-Se o recurso Aplicativos Integrados estiver desativado, os aplicativos que já foram instalados e têm permissão para acessar informações não serão desinstalados, e as permissões não serão removidas. Mesmo com o recurso Aplicativos Integrados desativado, administradores ainda podem registrar aplicativos para disponibilizá-los aos usuários e permitir que esses aplicativos acessem as informações do usuário. Para detalhes sobre como remover um aplicativo registrado e suas permissões, consulte [Adicionar, Atualizar e Remover um Aplicativo](https://go.microsoft.com/fwlink/?LinkID=518600&amp;clcid=0x409).
-
-
+Para saber mais sobre como gerenciar o consentimento do usuário para aplicativos, leia o [Gerenciamento de consentimento para aplicativos e avaliar solicitações de consentimento](https://docs.microsoft.com/azure/active-directory/manage-apps/manage-consent-requests).

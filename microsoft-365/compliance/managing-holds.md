@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como colocar suspensões em responsáveis e suas fontes de dados para preservar o conteúdo relevante para o caso de descoberta eletrônica avançada.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8789889a243bad15f1c29c0bd392d7273574b62c
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 9f540877626d01652912038d69a83598af55ba1d
+ms.sourcegitcommit: ff1af42b036bfdf75729db8c78f10cf4642616ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034119"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44477157"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Gerenciar isenções na descoberta eletrônica avançada
 
@@ -40,7 +40,7 @@ Para exibir a política de retenção de responsáveis:
    
 2. Vá para a guia **responsáveis** para adicionar os responsáveis dentro do seu caso. Para saber como adicionar e colocar os responsáveis em espera dentro de um caso de descoberta eletrônica avançada, confira [Adicionar responsáveis a uma ocorrência de descoberta eletrônica avançada](add-custodians-to-case.md). Se você já tiver adicionado os responsáveis e os colocou em espera, vá para a etapa 3.
    
-3. Vá para a guia **isenções** e clique **em\<CustodianHold holdid>**.
+3. Vá até a guia **isenções** e clique **em \<HoldId> CustodianHold**.
    
 4. Na página do menu suspenso, você pode ver estatísticas de retenção da política. Você também pode executar ações como aplicar uma consulta à sua retenção baseada em responsáveis. Para obter mais informações sobre como criar uma consulta de retenção e usar condições, consulte [keyword queries and Search Conditions for Content Search](keyword-queries-and-search-conditions.md).
  
@@ -80,7 +80,7 @@ Para criar uma isenção não custodial para um caso de descoberta eletrônica a
      Consulte a seção **perguntas frequentes** para obter dicas sobre como colocar os grupos do Microsoft 365 e o Microsoft Teams em espera.
 
     > [!NOTE]
-    > A URL de uma conta do usuário do OneDrive inclui seu nome de princípio de usuário (por exemplo, `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com`). No caso raro que o UPN de uma pessoa seja alterado, a URL do OneDrive também será alterada para incorporar o novo UPN. Se a conta do OneDrive de um usuário fizer parte de uma retenção não custodial e seu UPN for alterado, você precisará atualizar a isenção e apontar para a nova URL do OneDrive. Para saber mais, confira [Como as alterações de UPN afetam a URL do OneDrive](https://docs.microsoft.com/onedrive/upn-changes).
+    > A URL de uma conta do usuário do OneDrive inclui o nome principal do usuário (por exemplo, `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). No caso raro que o UPN de uma pessoa seja alterado, a URL do OneDrive também será alterada para incorporar o novo UPN. Se a conta do OneDrive de um usuário fizer parte de uma retenção não custodial e seu UPN for alterado, você precisará atualizar a isenção e apontar para a nova URL do OneDrive. Para saber mais, confira [Como as alterações de UPN afetam a URL do OneDrive](https://docs.microsoft.com/onedrive/upn-changes).
 
      c. **Pastas públicas do Exchange** -mova o comutador alternar para a posição All para colocar todas as pastas públicas em sua organização do Exchange Online em espera. Observe que você não pode escolher pastas públicas específicas para colocar em espera. Deixe a opção de alternância definida como **nenhuma** se você não quiser colocar uma retenção em pastas públicas.
 

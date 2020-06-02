@@ -27,14 +27,16 @@ search.appverid:
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
 description: Para proteger os dados da empresa nos dispositivos pessoais dos usuários, use as políticas que direcionam dispositivos e grupos de segurança específicos.
-ms.openlocfilehash: 2407db3309ed0967daa6eef9da14a702079d0487
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 18bf29d82b8020d31fec681b2114af86f52cad9c
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400881"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44471150"
 ---
 # <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a>Como as políticas no Microsoft 365 for Business protegem os dados da empresa
+
+Este artigo se aplica ao Microsoft 365 Business Premium.
 
 As políticas criadas são específicas para o tipo de dispositivo e podem ser aplicadas a grupos de usuários específicos. Isso significa que você pode criar uma política que se aplique aos executivos e outra que se aplique a todas as outras pessoas.
   
