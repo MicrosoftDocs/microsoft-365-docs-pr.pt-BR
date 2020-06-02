@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 795803b79a60c7fb8ce6154c61730d10baabdce1
-ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
+ms.openlocfilehash: bfbebf78664cdce34d224c5cc4b24ed6a9ad0646
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44419077"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470658"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -191,7 +191,7 @@ Certifique-se de que você está ciente dos pré-requisitos antes de configurar 
     - Para exibir os conteúdos de arquivo no modo de exibição de fonte (não há suporte para emails), você deve ter a função **Visualizador de Conteúdo do Gerenciador de Conteúdo** se não for um administrador global. Caso não tenha essa permissão, você não verá o painel de visualização ao selecionar um item da guia **Itens Correspondentes**.
 
 - Para rotular arquivos automaticamente no SharePoint e no OneDrive:
-    - Você deve [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)](sensitivity-labels-sharepoint-onedrive-files.md)
+    - Você deve [habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive ](sensitivity-labels-sharepoint-onedrive-files.md).
     - No momento em que a política de rotulagem automática é executada, o arquivo não deve estar aberto por outro processo ou usuário.
 
 - Se você planeja usar [tipos de informações confidenciais personalizadas](custom-sensitive-info-types.md), em vez de tipos de confidencialidade interna: 

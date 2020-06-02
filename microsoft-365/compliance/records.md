@@ -16,35 +16,35 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Saiba mais sobre os registros para implementar uma estratégia de gerenciamento de registros na sua organização do Office 365 ou do Microsoft, use rótulos de retenção que declarem o conteúdo como um registro. Em seguida, publique ou aplique automaticamente o rótulo de registro de retenção.
-ms.openlocfilehash: 8dcb3b03dcd908da2a3133d52c1a70ae197eee99
-ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
+description: Saiba mais sobre os registros para ajudá-lo na implementação de uma solução de gerenciamento de registros no Microsoft 365.
+ms.openlocfilehash: 6807f8b8f76b2bc85835edf0d4402b98ea217037
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231904"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470576"
 ---
 # <a name="learn-about-records"></a>Saiba mais sobre os registros
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-O gerenciamento de registros no Microsoft 365 ajuda a organização a cumprir suas políticas corporativas, obrigações legais e regulatórias, reduzindo o risco e a responsabilidade legal.
+O gerenciamento de registros no Microsoft 365 ajuda a organização a cumprir políticas corporativas, e obrigações legais ou regulamentares, além de reduzir riscos e responsabilidades legais.
 
-Em um nível alto, declarar o conteúdo como um registro significa que:
+Quando o conteúdo é marcado como um registro:
 
-- O item se torna imutável (um registro não pode ser modificado ou excluído)
+- O item se torna imutável, o que significa que ele não poderá ser modificado ou excluído.
 
-- Atividades adicionais sobre o item são registradas
+- Atividades adicionais sobre o item são registradas.
 
-- Os registros são descartados após o término do período de retenção indicado
+- Você tem prova de disposição quando eles são excluídos no final do período de retenção.
 
-Você usa [rótulos de retenção](labels.md) para classificar o conteúdo como um registro. Depois de criar rótulos de retenção que declaram registros, você pode publicá-los para que os usuários possam aplicá-los ao conteúdo ou aplicar automaticamente esses rótulos ao conteúdo que quer classificar como registro. Para obter instruções, consulte [Criar, publicar e aplicar rótulos de retenção automaticamente ](create-retention-labels.md).
+Você usa [rótulos de retenção](labels.md) para marcar conteúdos como registros. Depois de criar rótulos de retenção que declaram registros, é possível publicá-los para que usuários e administradores possam aplicá-los ao conteúdo manualmente, ou automaticamente ao conteúdo que deseja classificar como registro. Para obter instruções, consulte [Criar, publicar e aplicar rótulos de retenção automaticamente ](create-retention-labels.md).
 
 Ao usar rótulos de retenção para declarar registros, você pode implementar uma estratégia única e consistente de gerenciamento de registros no ambiente do Microsoft 365.
 
 Lembre-se do seguinte sobre os registros:
 
-  - **Os registros são imutáveis.** Um rótulo de retenção que declara o conteúdo como um registro pode ser aplicado ao conteúdo do Exchange, além do SharePoint e do OneDrive for Business. No entanto, o [controle de versão do registro](#record-versioning) está disponível apenas no SharePoint e OneDrive, e não no Exchange.
+  - **Os registros são imutáveis.** Um rótulo de retenção que classifica o conteúdo como um registro pode ser aplicado ao conteúdo do Exchange, além do SharePoint e do OneDrive. No entanto, o [controle de versão do registro](#record-versioning) está disponível apenas no SharePoint e OneDrive, e não no Exchange.
 
     No Exchange, o conteúdo rotulado como registro é imutável até sua exclusão final. Quando um item do Exchange é rotulado como um registro, ocorren quatro coisas:
 
@@ -74,7 +74,7 @@ Lembre-se do seguinte sobre os registros:
 
 ## <a name="using-retention-labels-to-declare-records"></a>Usando rótulos de retenção para declarar registros
 
-Ao criar um rótulo de retenção, você tem a opção de usar o rótulo de retenção para classificar o conteúdo como um registro:
+Ao criar um rótulo de retenção, você tem a opção de usá-lo para classificar o conteúdo como um registro:
 
 1. No centro de conformidade do Microsoft 365, vá para **Gerenciamento de Registros** \> **Plano de Arquivo**. Na página **Planejamento de arquivos**, clique em **Criar um rótulo**.
 
@@ -96,9 +96,9 @@ Veja aqui como fica quando um rótulo de registro é aplicado a um documento em 
 
 ## <a name="record-versioning"></a>Controle de versão do registro
 
-Uma parte essencial do gerenciamento de registros é a capacidade de declarar um documento como um registro e ter esse registro imutável. Ao mesmo tempo, a imutabilidade do registro impede a colaboração no documento, caso seja necessário criar versões subsequentes. Por exemplo, você pode declarar um contrato de vendas como um registro, mas precisa atualizar o contrato com novos termos e declarar a versão mais recente como um novo registro enquanto ainda mantém a versão do registro anterior. Para esses tipos de cenários, o SharePoint Online e o OneDrive for Business agora oferecem suporte ao *controle de versão do registro*. Não há suporte para pastas de bloco de anotações do OneNote.
+Uma parte essencial do gerenciamento de registros é a capacidade de declarar um documento como um registro e ter esse registro imutável. Ao mesmo tempo, a imutabilidade do registro impede a colaboração no documento, caso seja necessário criar versões subsequentes. Por exemplo, você pode declarar um contrato de vendas como um registro, mas precisa atualizar o contrato com novos termos e declarar a versão mais recente como um novo registro enquanto ainda mantém a versão do registro anterior. Para esses tipos de cenários, o SharePoint e o OneDrive oferecem suporte ao *controle de versão do registro*. As pastas do bloco de anotações do OneNote não oferecem suporte ao controle de versão do registro.
 
-Para usar o controle de versão do registro, a primeira etapa é usar o centro de conformidade do Microsoft 365 para criar e publicar rótulos de retenção que declarem registros a todos os sites do SharePoint e/ou contas do OneDrive, ou publicá-los em sites específicos do SharePoint e/ou contas do OneDrive. A próxima etapa é aplicar um rótulo de registro de retenção publicado a um documento. Quando isto estiver concluído, uma propriedade do documento, chamada *Status do registro*, será exibida ao lado do rótulo de retenção e o status inicial do registro será **Bloqueado**. Nesse momento, você poderá fazer as seguintes ações:
+Para usar o controle de versão do registro, a primeira etapa é usar o Centro de conformidade do Microsoft 365 para criar rótulos de retenção que declarem registros e que os publiquem em todos os sites do SharePoint e contas do OneDrive, ou publicá-los em sites específicos do SharePoint ou contas do OneDrive. A próxima etapa é aplicar um rótulo de registro de retenção publicado a um documento. Quando isso acontece, uma propriedade do documento, chamada *Status do registro*, será exibida ao lado do rótulo de retenção e o status inicial do registro será **Bloqueado**. Nesse momento, você poderá fazer as seguintes ações:
 
   - **Editar e declarar continuamente versões individuais do documento como registros, desbloqueando e bloqueando a propriedade de Status do registro.** Somente as versões declaradas como registros são mantidas quando a propriedade de **Status do registro** é configurada como **Bloqueado**. Isso reduz o risco de manter versões e cópias desnecessárias do documento.
 
@@ -106,13 +106,12 @@ Para usar o controle de versão do registro, a primeira etapa é usar o centro d
 
   - **Manter um documento perene que contenha todas as versões.** Por padrão, cada documento do SharePoint e do OneDrive têm um histórico de versão disponível no menu do item. Nesse histórico de versão, você pode ver facilmente quais versões são registros e exibir esses documentos.
 
-O controle de versão do registro está disponível automaticamente para qualquer documento que tenha um rótulo de retenção que declare o item como um registro. Quando um usuário exibe as propriedades do documento através do painel de detalhes, eles alternam o **Status do registro** de **Bloqueado** para **Desbloqueado**. Esse único clique cria um registro na pasta Registros na biblioteca de Retenção para Preservação, onde reside pelo restante do período de retenção. Enquanto o documento estiver desbloqueado, qualquer usuário com permissões poderá editar o arquivo. No entanto, os usuários não podem excluir o arquivo, porque ele é considerado um registro declarado. Depois de fazer as alterações necessárias, o usuário poderá alternar o **Status do registro** de **Desbloqueado** para **Bloqueado**, para que o documento seja novamente declarado um registro e não possa ser editado.
+O controle de versão do registro está disponível automaticamente para qualquer documento que tenha um rótulo de retenção que declare o item como um registro. Quando um usuário exibe as propriedades do documento através do painel de detalhes, eles alternam o **Status do registro** de **Bloqueado** para **Desbloqueado**. Esse único clique cria um registro na pasta Registros na biblioteca de Retenção para Preservação, onde reside pelo restante do período de retenção. 
+
+Enquanto o documento estiver desbloqueado, qualquer usuário com permissões poderá editar o arquivo. No entanto, os usuários não podem excluir o arquivo, porque ele é considerado um registro. Depois de fazer as alterações necessárias, o usuário poderá alternar o **Status do registro** de **Desbloqueado** para **Bloqueado**, para que o documento seja novamente declarado um registro e não possa ser editado.
 <br/><br/>
 
 ![Propriedade do status do registro no documento marcado como um registro](../media/recordversioning8.png)
-
-> [!NOTE]
-> O controle de versão do registro requer uma licença do Office 365 Enterprise E5 para cada usuário que tenha permissão para editar o conteúdo que foi declarado como um registro em um site do SharePoint ou em uma conta do OneDrive. Os usuários que têm acesso somente leitura não precisam desta licença.
 
 ### <a name="locking-and-unlocking-a-record"></a>Bloqueando e desbloqueando um registro
 
@@ -165,3 +164,7 @@ As ações de bloqueio e desbloqueio de registros são registradas no log de aud
 ![Pesquisar o log de auditoria para eventos de controle de versão do registro](../media/recordversioning13.png)
 
 Para obter mais informações sobre a pesquisa desses eventos, confira a seção "Atividades de arquivo e página" em [Pesquisar o log de auditoria no Centro de Conformidade e Segurança](search-the-audit-log-in-security-and-compliance.md#file-and-page-activities).
+
+## <a name="next-steps"></a>Próximas etapas
+
+Para obter instruções sobre como criar e publicar os rótulos de retenção que contêm a configuração para marcar o conteúdo como um registro, confira [Criar, publicar e aplicar automaticamente rótulos de retenção](create-retention-labels.md).

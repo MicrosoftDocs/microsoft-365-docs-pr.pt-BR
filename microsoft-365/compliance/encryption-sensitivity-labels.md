@@ -14,14 +14,14 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Quando você cria um rótulo de confidencialidade, pode restringir o acesso ao conteúdo ao qual o rótulo será aplicado. Rótulos de confidencialidade podem usar criptografia para proteger o conteúdo.
+description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 551223196e5870034cf7c3f69145a7b622932a99
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 78e3fcecd1253229ea9b5ab88147bafe16b85727
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166032"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470668"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia 
 
@@ -38,7 +38,7 @@ Quando um documento ou email é criptografado, o acesso ao conteúdo é restrito
 
 - Pode ser descriptografado apenas por usuários autorizados pelas configurações de criptografia do rótulo.
 - Permanece criptografado independentemente de onde esteja, dentro ou fora da sua organização, mesmo se o arquivo for renomeado.
-- Fique criptografado tanto em repouso (por exemplo, em uma conta do OneDrive) quanto em trânsito (por exemplo, um email enviado).
+- É criptografado tanto em repouso (por exemplo, em uma conta do OneDrive) quanto em trânsito (por exemplo, emails sendo enviados pela Internet).
 
 Por fim, como administrador, quando você configura um rótulo de confidencialidade para aplicar criptografia, há duas opções a escolher:
 
@@ -359,7 +359,7 @@ Use essa configuração somente quando não precisar restringir quem pode abrir 
 
 Criptografar seus documentos e emails mais confidenciais ajuda a garantir que somente pessoas autorizadas possam acessar esses dados. No entanto, há algumas coisas a se considerar:
 
-- Se sua organização ainda não [habilitou os rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive (visualização pública)](sensitivity-labels-sharepoint-onedrive-files.md):
+- Se sua organização ainda não [habilitou rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md):
     
     - Pesquisa, Descoberta Eletrônica e Delve não funcionarão em arquivos criptografados. 
     - Políticas de DEL funcionam com metadados dos arquivos criptografados (incluindo informações dos rótulos de retenção), mas não com o conteúdo desses arquivos (como números de cartão de crédito em arquivos).

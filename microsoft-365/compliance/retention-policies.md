@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Use uma política de retenção para decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra condições específicas.'
-ms.openlocfilehash: b91b4be724c3d664cdd237fc01596372a2a6bdcc
-ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
+ms.openlocfilehash: cf38eecaeaf23371c370ad07e723177e3770c7ba
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412810"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432332"
 ---
 # <a name="learn-about-retention-policies"></a>Saiba mais sobre políticas de retenção
 
@@ -178,8 +178,12 @@ Você pode encontrar quaisquer políticas de preservação configuradas na pági
 
 ## <a name="related-information"></a>Informações relacionadas
 
-- [Criar e configurar políticas de retenção](create-retention-policies.md)
 - [Saiba mais sobre rótulos de retenção](labels.md)
 - [Limites do SharePoint Online](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 - [Limites e especificações para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams) 
 - [Cumprir com a Regra 17a-4 da SEC](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
+
+## <a name="next-steps"></a>Próximas etapas
+
+Se você estiver pronto para criar políticas de retenção, confira [Criar e configurar políticas de retenção](create-retention-policies.md).
+

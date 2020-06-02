@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: a69b71ec364eae4258960c3b33876f0df9530611
-ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
+ms.openlocfilehash: 88b9ad0ea97ff035491f6e2d2ec2ec57b2b8d796
+ms.sourcegitcommit: 1b560ee45f3b0253fa5c410a4499373c1f92da9c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44411018"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432610"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -78,7 +78,7 @@ Use a seguinte documentação para oferecer suporte à implantação de rótulo 
 |Usar os rótulos de confidencialidade para proteger o conteúdo do Teams e do SharePoint |[Use rótulos de confidencialidade no Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md)|
 |Descobrir, rotular e proteger arquivos armazenados no repositório de dados locais |[Implantação do scanner da Proteção de Informações do Azure para classificar e proteger arquivos automaticamente](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
 |Descobrir, rotular e proteger arquivos armazenados no repositório da nuvem|[Descobrir, classificar, rotular e proteger dados regulamentados e confidenciais armazenados na nuvem](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
-|Aplicar e exibir rótulos de sensibilidade no Power BI e proteger relatórios baixados|[Proteção de dados no Power BI (visualização)](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|
+|Aplicar e exibir rótulos de sensibilidade no Power BI e proteger relatórios baixados|[Proteção de dados no Power BI](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|
 |Monitorar e entender como os rótulos de sensibilidade estão sendo usados na minha organização|[Conhecer seus dados - visão geral da classificação de dados](data-classification-overview.md) <br /><br /> [Exibição do uso do rótulo com análises de rótulo](label-analytics.md)|
 
 
