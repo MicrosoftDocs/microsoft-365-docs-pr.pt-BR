@@ -283,7 +283,7 @@
                   items:
                     - name: Configurar a filtragem de spam de saída
                       href: ./office-365-security/configure-the-outbound-spam-policy.md
-                    - name: Pool de entrega de alto risco para mensagens de saída
+                    - name: Pool de entrega de saída
                       href: ./office-365-security/high-risk-delivery-pool-for-outbound-messages.md
                     - name: Remover usuários bloqueados do portal Usuários restritos
                       href: ./office-365-security/removing-user-from-restricted-users-portal-after-spam.md
