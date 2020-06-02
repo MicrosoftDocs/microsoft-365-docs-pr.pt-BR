@@ -11,12 +11,12 @@ metadata:
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 82575756389813a3ddec91fa2b278acee0d9eef1
-  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+  ms.openlocfilehash: 6c8dea517cf2550d6781a027f9522ee2e051b209
+  ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/27/2020
-  ms.locfileid: "44398889"
+  ms.lasthandoff: 06/01/2020
+  ms.locfileid: "44471295"
 landingContent:
 - title: Inscreva-se
   linkLists:
@@ -40,10 +40,14 @@ landingContent:
       url: plan-your-setup.md
   - linkListType: how-to-guide
     links:
+    - text: Configurar o Microsoft Business Basic
+      url: setup-business-basic.md
     - text: Configurar o Microsoft Business Standard
-      url: setup.md
+      url: setup-business-standard.md
     - text: Configurar o Microsoft Business Premium
       url: ../../business/set-up.md
+    - text: Configurar aplicativos da Microsoft para empresas
+      url: setup-apps-for-business.md
 - title: Concluir a configuração
   linkLists:
   - linkListType: how-to-guide
