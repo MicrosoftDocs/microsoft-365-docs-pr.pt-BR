@@ -17,17 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 3509bc5031ed83785c2b0de4c0711d04f5d5ac56
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 2ed89a676525b91f6b0923cf39be5b014638e93e
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327008"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515838"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Compreender o esquema de busca avançada
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
+
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 O [esquema de busca avançada](advanced-hunting-overview.md) é formado por várias tabelas que fornecem informações sobre o evento ou informações sobre computadores e entidades. Para criar efetivamente consultas que abrangem várias tabelas, é necessário entender as tabelas e as colunas no esquema de busca avançado.
 
@@ -56,7 +58,8 @@ A referência a seguir lista todas as tabelas no esquema. Cada nome de tabela se
 | **[DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md)** | Base de dados de conhecimento de vulnerabilidades divulgadas publicamente, incluindo se o código de exploração está disponível publicamente |
 | **[EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md)** | Informações sobre arquivos anexados a emails |
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | Eventos de email da Microsoft 365, incluindo a entrega de email e eventos de bloqueio |
-| **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Informações sobre URLs nos emails do Microsoft 365 |
+| **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | Eventos de segurança que ocorrem após a entrega após a Microsoft 365 ter entregue os emails para a caixa de correio de destinatário |
+| **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Informações sobre URLs em emails |
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Informações de conta de várias fontes, incluindo o Azure Active Directory |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Eventos de autenticação registrados pelo Active Directory e outros serviços online da Microsoft |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Atividades de consulta executadas em objetos do Active Directory, como usuários, grupos, dispositivos e domínios |

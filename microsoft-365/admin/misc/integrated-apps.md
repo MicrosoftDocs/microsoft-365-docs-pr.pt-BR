@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: Saiba mais sobre o consentimento do usuário para os aplicativos e como ativá-los para permitir que aplicativos de terceiros acessem as informações do Microsoft 365.
-ms.openlocfilehash: df81d2cf3e1d796e462d2b9240b8288273ed5372
-ms.sourcegitcommit: ff1af42b036bfdf75729db8c78f10cf4642616ac
+ms.openlocfilehash: 955ae9e58c14dbb8012a440ef6c336f44b0760a4
+ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44477167"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44498312"
 ---
 # <a name="managing-user-consent-to-apps-in-microsoft-365"></a>Gerenciando o consentimento do usuário para aplicativos no Microsoft 365
 
@@ -42,7 +42,7 @@ Confira aqui como ativar ou desativar o consentimento do usuário para aplicativ
 
 1. No centro de administração, vá para a página **configurações** do \> **org**Settings  >  [Services](https://go.microsoft.com/fwlink/p/?linkid=2053743) e selecione **consentimento do usuário para aplicativos**.
 
-2. Na página **consentimento do usuário para aplicativos** , selecione a opção para ativar ou desativar aplicativos integrados.
+2. Na página **consentimento do usuário para aplicativos** , selecione a opção para ativar ou desativar o consentimento do usuário.
 
 ## <a name="more-info"></a>Mais informações
 <a name="__toc379982114"> </a>

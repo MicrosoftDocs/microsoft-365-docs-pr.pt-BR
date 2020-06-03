@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: a41510deb8bad39e2f871babfbcb91a2e43f6dd8
-ms.sourcegitcommit: 56772bed89516cebc5eb370e292ccfbb4889cb38
+ms.openlocfilehash: be92bfe8fc4f544f0554f99d147bfc90bf569d57
+ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44330828"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44498454"
 ---
 # <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-environment"></a>Configurar os pilares de proteção contra ameaças da Microsoft para seu ambiente de laboratório de avaliação
 
@@ -67,7 +67,7 @@ A proteção contra ameaças da Microsoft consiste em quatro pilares. Embora um 
 Esta seção orientará você a configurar:
 -   Proteção Avançada contra Ameaças do Office 365
 -   Proteção Avançada contra Ameaças do Azure 
--   Microsoft Cloud App Security
+-   Segurança no aplicativo na nuvem da Microsoft
 -   Proteção avançada contra ameaças do Microsoft Defender
 
 
@@ -238,6 +238,9 @@ Clique em **Avançar**.
 <br>![Botão de preferências de of_Save de imagem que você precisa clicar](../../media/mtp-eval-72.png) <br>
 
 ## <a name="turn-on-microsoft-threat-protection"></a>Habilitar a Proteção contra Ameaças da Microsoft
+>[!NOTE]
+>A partir de 1º de junho de 2020, a Microsoft habilita automaticamente os recursos de proteção contra ameaças da Microsoft para todos os locatários qualificados. Confira este [artigo da comunidade técnica da Microsoft sobre a qualificação de licença](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/microsoft-threat-protection-will-automatically-turn-on-for/ba-p/1345426) para obter detalhes. 
+<br>
 1. Vá para a [central de segurança do Microsoft 365](https://security.microsoft.com/homepage). Navegue até **configurações** e selecione **proteção contra ameaças da Microsoft**.
 <br>![Captura de tela da opção de proteção contra ameaças de imagem of_Microsoft da página de configurações da central de segurança do Microsoft 365](../../media/mtp-eval-72b.png) <br>
 

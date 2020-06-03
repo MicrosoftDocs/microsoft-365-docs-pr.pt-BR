@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online. Muitas dessas configurações estão disponíveis para usuários no Outlook ou no Outlook na Web.
-ms.openlocfilehash: 72b2680cb16e9d8d0f33ee3ec8a080206c68bf97
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 40364db9d4af9e093d8f2f74ee3c0f0373b1671a
+ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352505"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44498658"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online
 
@@ -42,7 +42,7 @@ Quando a regra de lixo eletrônico está habilitada na caixa de correio, o EOP �
 Os administradores podem usar o PowerShell do Exchange Online para desabilitar, habilitar e exibir o status da regra de lixo eletrônico em caixas de correio. Os administradores também podem usar o PowerShell do Exchange Online para configurar entradas na coleção de lista segura em caixas de correio (a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados).
 
 > [!NOTE]
-> As mensagens de remetentes que os usuários adicionaram às suas próprias listas de remetentes confiáveis ignorarão a filtragem EOP (o SCL será-1). Para impedir que os usuários adicionem entradas à sua lista de remetentes confiáveis no Outlook, use a política de grupo, conforme mencionado na seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) , posteriormente neste tópico.
+> As mensagens de remetentes que os usuários adicionaram às suas próprias listas de remetentes confiáveis irão ignorar a filtragem de conexão como parte do EOP (o SCL é-1). Para impedir que os usuários adicionem entradas à sua lista de remetentes confiáveis no Outlook, use a política de grupo, conforme mencionado na seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) , posteriormente neste tópico. A filtragem de política, filtragem de conteúdo e verificações de proteção avançada contra ameaças (ATP) ainda serão aplicadas às mensagens.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -89,7 +89,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-Mailbo
 
 Para verificar se você ativou ou desabilitou com êxito a regra de lixo eletrônico em uma caixa de correio, use qualquer um dos seguintes procedimentos:
 
-- Substitua _ \< mailboxidentity pela \> _ pelo nome, alias ou endereço de email da caixa de correio e execute o seguinte comando para verificar o valor da propriedade **Enabled** :
+- Substitua _\<MailboxIdentity\>_ pelo nome, alias ou endereço de email da caixa de correio e execute o seguinte comando para verificar o valor da propriedade **Enabled** :
 
   ```PowerShell
   Get-MailboxJunkEmailConfiguration -Identity "<MailboxIdentity>" | Format-List Enabled
@@ -154,7 +154,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-Mailbo
 
 Para verificar se você configurou com êxito a coleção de lista segura em uma caixa de correio, use qualquer um dos seguintes procedimentos:
 
-- Substitua _ \< mailboxidentity pela \> _ pelo nome, alias ou endereço de email da caixa de correio e execute o seguinte comando para verificar os valores de propriedade:
+- Substitua _\<MailboxIdentity\>_ pelo nome, alias ou endereço de email da caixa de correio e execute o seguinte comando para verificar os valores de propriedade:
 
   ```PowerShell
   Get-MailboxJunkEmailConfiguration -Identity "<MailboxIdentity>" | Format-List trusted*,contacts*,blocked*

@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: be7b417f9127197bea96e79eab94c69b5c6e3fcb
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: eff935eb39884d9003b64b5be952c8e8e73b286a
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292490"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515874"
 ---
 # <a name="insider-risk-management-policies"></a>Políticas de gerenciamento de risco do insider
 
@@ -49,12 +49,27 @@ Quando os funcionários saem da sua organização, há indicadores de risco espe
 
 ### <a name="data-leaks"></a>Vazamentos de dados
 
-A proteção de dados e a prevenção de vazamentos de dados é um desafio constante para a maioria das organizações, especialmente com o rápido aumento de novos dados criados por funcionários, dispositivos e serviços. Os funcionários são capacitados a criar, armazenar e compartilhar informações entre serviços e dispositivos que tornam o gerenciamento de vazamentos de dados cada vez mais complexo e difícil. Os vazamentos de dados podem incluir o compartilhamento acidental de informações fora de sua organização ou roubo de dados com más intenções. Este modelo prioriza a detecção em tempo real de downloads suspeitos de dados do SharePoint Online, compartilhamento de arquivos e pastas, cópia de arquivos para dispositivos portáteis, como unidades USB, impressão de arquivos e cópia de dados para serviços de armazenamento e mensagens na nuvem pessoal.
+A proteção de dados e a prevenção de vazamentos de dados é um desafio constante para a maioria das organizações, especialmente com o rápido aumento de novos dados criados por funcionários, dispositivos e serviços. Os funcionários são capacitados a criar, armazenar e compartilhar informações entre serviços e dispositivos que tornam o gerenciamento de vazamentos de dados cada vez mais complexo e difícil. Os vazamentos de dados podem incluir o compartilhamento acidental de informações fora de sua organização ou roubo de dados com más intenções. Em conjunto com uma política de prevenção de perda de dados (DLP) atribuída, esse modelo prioriza a detecção em tempo real de downloads suspeitos de dados do SharePoint Online, compartilhamento de arquivos e pastas, cópia de arquivos para dispositivos portáteis, como unidades USB, impressão de arquivos e cópia de dados para serviços de armazenamento e mensagens na nuvem pessoal.
 
->[!IMPORTANT]
->Ao usar esse modelo, você deve configurar pelo menos uma política de prevenção de perda de dados (DLP) para definir informações confidenciais em sua organização. Certifique-se de que a configuração **relatórios de incidentes** na política de DLP para gerenciamento de risco do insider usada com este modelo está configurada para alertas de nível de severidade *alto* . Os alertas de gerenciamento de risco do insider não serão gerados de políticas DLP com o conjunto de campos **relatórios de incidentes** em *baixo* ou *médio*.
->
->Consulte o tópico [criar, testar e ajustar uma política de DLP](create-test-tune-dlp-policy.md) para obter orientações passo a passo para configurar as políticas de DLP para sua organização.
+Ao usar o modelo de **vazamentos de dados** , você deve atribuir uma política de DLP para acionar indicadores na política de risco do insider para alertas de alta gravidade em sua organização. Sempre que um alerta de alta gravidade é gerado por uma regra de política de DLP é adicionada ao log de auditoria do Office 365, as políticas de risco do insider criadas com esse modelo examinam automaticamente o alerta de DLP de alta gravidade. Se o alerta contiver um usuário de escopo definido na política de risco Insider, o alerta será processado pela política de risco Insider como um novo alerta e receberá uma severidade de risco e uma pontuação de risco do insider. Este alerta pode ser avaliado como parte do fluxo de trabalho de gerenciamento de risco do insider e adicionado a um caso de gerenciamento de risco do Insider, se necessário.
+
+Ao criar ou modificar políticas de DLP para uso com políticas de gerenciamento de risco do Insider, considere as seguintes diretrizes:
+
+- Priorizar eventos de exfiltration de dados e ser seletivo ao atribuir configurações de **relatórios de incidentes** como *alto* ao configurar regras em suas políticas de DLP. Por exemplo, o envio de documentos confidenciais por email para um concorrente conhecido deve *ser um evento* de nível de alerta exfiltration. A atribuição de excesso no nível *alto* nas configurações de **relatórios de incidentes** em outras regras de política de DLP pode aumentar o ruído no fluxo de trabalho de alerta de gerenciamento de risco do insider e dificultar a avaliação adequada desses alertas. Por exemplo, a atribuição de *altos* níveis de alerta ao bloqueio de atividades nas políticas de DLP torna mais desafiador avaliar o comportamento e as atividades do usuário verdadeiramente arriscados.
+- Verifique se você entendeu e configurou corretamente os usuários no escopo nas políticas de gerenciamento de risco do DLP e do insider. Somente os usuários definidos como dentro do escopo para políticas de gerenciamento de risco do insider usando o modelo de **vazamentos de dados** terão alertas de política de DLP de alta gravidade processados. Além disso, somente usuários definidos como dentro do escopo em uma regra para um alerta de DLP de alta gravidade serão examinados pela política de gerenciamento de risco do insider para fins de avaliação. É importante que você não configure de forma desconhecida os usuários no escopo em suas políticas de risco do DLP e do insider de uma maneira conflitante.
+
+     Por exemplo, se suas regras de política de DLP têm o escopo para apenas os usuários da equipe de vendas e a política de risco do insider criada a partir do modelo de **vazamentos de dados** tiver definido todos os usuários como dentro do escopo, a política de risco do insider só processará alertas de DLP de alta gravidade para os usuários da equipe de vendas. A política de risco Insider não receberá alertas de DLP de alta prioridade para que os usuários processem que não estejam definidos nas regras de DLP neste exemplo. Por outro lado, se sua política de gerenciamento de risco do insider criada a partir do modelo de **vazamentos de dados** tiver escopo somente para os usuários da equipe de vendas e a política de DLP atribuída estiver delimitada a todos os usuários, a política de risco de insider só processará alertas de DLP de alta gravidade para membros da equipe de vendas. A política de gerenciamento de risco do insider ignorará alertas de DLP de alta gravidade para todos os usuários que não estão na equipe de vendas.
+
+- Certifique-se de que a configuração de regra **relatórios de incidentes** na política de DLP usada para este modelo de gerenciamento de risco do insider está configurada para alertas de *alto* nível O nível de severidade *alto* é o indicador de acionamento e os alertas de gerenciamento de risco do insider não serão gerados de regras nas políticas de DLP com o conjunto de campos **relatórios de incidentes** em *baixo* ou *médio*.
+
+    ![Configuração de alerta de política DLP](../media/insider-risk-DLP-policy-high-severity.png)
+
+     >[!NOTE]
+     >Ao criar uma nova política de DLP usando os modelos internos, você precisará selecionar a opção **criar ou personalizar regras de DLP avançadas** para definir a configuração de **relatórios de incidentes** para o nível de severidade *alto* .
+
+Cada política de gerenciamento de risco do insider criada a partir do modelo de **vazamentos de dados** pode ter apenas uma política de DLP atribuída. Se você tiver mais de uma política de DLP que gostaria de ter alertas de alta gravidade processados por uma política de gerenciamento de risco do Insider, será necessário criar uma política de gerenciamento de risco do insider separada por política de DLP.
+
+Consulte o tópico [criar, testar e ajustar uma política de DLP](create-test-tune-dlp-policy.md) para obter orientações passo a passo para configurar as políticas de DLP para sua organização.
 
 ### <a name="offensive-language-in-email"></a>Idioma ofensivo no email
 
@@ -66,7 +81,7 @@ As configurações de risco do insider são aplicadas a todas as políticas de g
 
 ### <a name="privacy"></a>Privacidade
 
-A proteção da privacidade dos usuários que têm correspondências de política é importante e pode ajudar a promover o Objectivity em análises de investigação e análise de dados para alertas de risco do insider. Para usuários com correspondências de política de risco do Insider, você pode escolher uma das seguintes configurações:
+A proteção da privacidade dos usuários que têm correspondências de política é importante e pode ajudar a promover o Objectivity em análises de investigação e análise de dados para alertas de risco do insider. Para usuários com uma política de risco de insider correspondência, você pode escolher uma das seguintes configurações:
 
 - **Mostrar versões anonimato de nomes de**usuário: os nomes de usuários são anônimos para impedir que administradores, investigadores de dados e revisores vejam quem está associado a alertas de política. Por exemplo, um "Taylor de cortesia" do usuário apareceria com um pseudonym aleatório, como "AnonIS8-988" em todas as áreas da experiência de gerenciamento de risco do insider. A escolha dessa configuração anonymizes todos os usuários com correspondências de política atuais e anteriores e se aplicam a todas as políticas. As informações de perfil de usuário no alerta de risco do insider e os detalhes do caso não estarão disponíveis quando essa opção for escolhida. No entanto, os nomes de usuário são exibidos ao adicionar novos usuários às políticas existentes ou ao atribuir usuários a novas políticas. Se você optar por desativar essa configuração, os nomes de usuário serão exibidos para todos os usuários que têm correspondências de política atuais ou antigas.
 - **Não mostrar versões anonimato de nomes de usernames**: os nomes de usernames são exibidos para todas as correspondências de política atuais e anteriores para alertas e casos. As informações de perfil de usuário (o nome, título, alias e organização ou departamento) são exibidas para o usuário para todos os alertas e casos de gerenciamento de risco do insider.
@@ -110,9 +125,9 @@ Para ajustar a sensibilidade do classificador de idiomas ofensivo para política
 
 As atividades do usuário detectadas pelas políticas de risco do insider recebem uma pontuação de risco específica, que, por sua vez, determina a severidade do alerta (baixa, média, alta). Por padrão, geraremos uma determinada quantidade de alertas de severidade Baixa, média e alta, mas você pode aumentar ou diminuir o volume para atender às suas necessidades. Para ajustar o volume de alertas de todas as políticas de gerenciamento de risco do Insider, escolha uma das seguintes configurações:
 
-- **Menos alertas**: você verá todos os alertas de alta gravidade, menos alertas de severidade médias e nenhuma severidade baixa. Isso significa que você pode perder alguns positivos verdadeiros.
+- **Menos alertas**: você verá todos os alertas de alta gravidade, menos alertas de severidade médias e nenhuma severidade baixa. Esse nível de configuração significa que você pode perder alguns verdadeiros positivos.
 - **Volume padrão**: você verá todos os alertas de alta gravidade e uma quantidade equilibrada de alertas de severidade médio e baixa.
-- **Mais alertas**: você verá todos os alertas de severidade média e alta e os alertas de severidade mais baixos. Isso pode resultar em mais falsos positivos.
+- **Mais alertas**: você verá todos os alertas de severidade média e alta e os alertas de severidade mais baixos. Esse nível de configuração pode resultar em mais falsos positivos.
 
 ## <a name="create-a-new-policy"></a>Criar uma nova política
 

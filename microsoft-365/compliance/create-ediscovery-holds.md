@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode criar uma retenção associada a uma caixa de descoberta eletrônica principal para preservar o conteúdo que pode ser relevante para uma investigação.
-ms.openlocfilehash: 8993a3e88ab7513713086499a316c92fdb7509cb
-ms.sourcegitcommit: ff1af42b036bfdf75729db8c78f10cf4642616ac
+ms.openlocfilehash: 4ec9ff37a49f783afc25835ca91208608ab4733a
+ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44477191"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44498324"
 ---
 # <a name="create-an-ediscovery-hold"></a>Criar uma retenção de Descoberta Eletrônica
 
@@ -32,12 +32,9 @@ Após criar uma retenção de descoberta eletrônica, pode levar até 24 horas p
 
 Ao criar uma isenção, você tem as seguintes opções para escopo o conteúdo que é preservado nos locais de conteúdo especificado:
   
-- Você cria uma retenção infinita onde todo o conteúdo é colocado em espera. Como alternativa, você pode criar uma isenção baseada em consulta, onde apenas o conteúdo que corresponde a uma consulta de pesquisa é colocado em espera.
+- Você cria uma retenção infinita onde todo o conteúdo nos locais especificados é colocado em espera. Como alternativa, você pode criar uma isenção baseada em consulta, onde apenas o conteúdo dos locais especificados que corresponde a uma consulta de pesquisa é colocado em espera.
 
-- Você pode especificar um intervalo de datas para preservar somente o conteúdo que foi enviado, recebido ou criado dentro desse intervalo de datas. Como alternativa, você pode manter todo o conteúdo independentemente de quando ele foi enviado, recebido ou criado.
-
-> [!NOTE]
-> Você pode ter um máximo de 10.000 de descoberta eletrônica em todos os casos de descoberta eletrônica principal em sua organização.
+- Você pode especificar um intervalo de datas para preservar somente o conteúdo que foi enviado, recebido ou criado dentro desse intervalo de datas. Como alternativa, você pode armazenar todo o conteúdo em locais específicos independentemente de quando ele foi enviado, recebido ou criado.
   
 ## <a name="how-to-create-an-ediscovery-hold"></a>Como criar uma retenção de descoberta eletrônica
 
@@ -64,6 +61,9 @@ Para criar uma retenção de descoberta eletrônica associada a um caso de desco
    b. **Locais de sites** -clique em **escolher sites** e clique em **escolher sites** novamente para especificar as contas do SharePoint e do onedrive para colocar em espera. Digite a URL de cada site que você deseja colocar em retenção. Você também pode adicionar a URL do site do SharePoint para uma equipe da Microsoft, um grupo do Office 365 ou um grupo do Yammer. Clique em **escolher**e em **concluído**.
   
    c. **Pastas públicas do Exchange.** Mova o controle de alternância de alternância ![ ](../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) para a posição **All** para colocar todas as pastas públicas em sua organização do Exchange Online em espera. Você não pode escolher pastas públicas específicas para colocá-las em espera. Deixe a opção de alternância definida como **nenhuma** se você não quiser colocar uma retenção em pastas públicas.
+
+   > [!NOTE]
+   > Você deve adicionar pelo menos um local de conteúdo à isenção. Caso contrário, os estáticas de retenção de descoberta eletrônica mostrarão que nenhum item está em espera.
 
 8. Quando você terminar de adicionar locais de conteúdo à isenção, clique em **Avançar**.
 

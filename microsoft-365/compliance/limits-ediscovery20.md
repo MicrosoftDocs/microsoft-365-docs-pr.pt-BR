@@ -14,26 +14,26 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre os limites em vigor para a solução de descoberta eletrônica avançada no Microsoft 365. Isso inclui limites de caso, limites de indexação e limites de pesquisa ao usar a ferramenta de pesquisa para coletar dados de caso.
-ms.openlocfilehash: 5fe14aec3be9de2ec614ecf3737387f08d2e7b88
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.openlocfilehash: babc05cc5c74f435f0be6fbc8eafd80f09a77b75
+ms.sourcegitcommit: 33be6075fcc89d4c0a48fa7e59f3b3ebc605d9f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224658"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44520143"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Limites da Descoberta Eletrônica Avançada
 
 Este artigo descreve os limites da solução de descoberta eletrônica avançada no Microsoft 365.
 
-## <a name="case-limits"></a>Limites de caso
+## <a name="case-and-review-set-limits"></a>Casos e revisões definidas limites
 
-A tabela a seguir lista os limites para casos na descoberta eletrônica avançada.
+A tabela a seguir lista os limites de casos e os conjuntos de revisão na descoberta eletrônica avançada.
 
 |**Descrição do limite**|**Limite**|
 |:-----|:-----|
 |Número total de documentos que podem ser adicionados a um caso (para todos os conjuntos de revisão em um caso).  <br/> |1 milhão  <br/> |
-|Tamanho total do arquivo por conjunto de carga.  <br/> |100 GB  <br/> |
-|Quantidade total de dados carregados em um caso por dia.<br/> |2 TB <br/> |
+|Tamanho total do arquivo por conjunto de carga. Isso inclui carregar não-Office 365 em um conjunto de revisão.  <br/> |100 GB  <br/> |
+|Quantidade total de dados carregados em todos os conjuntos de revisão na organização por dia.<br/> |2 TB <br/> |
 |Número máximo de conjuntos de cargas por caso.  <br/> |15  <br/> |
 |Número máximo de conjuntos de revisão por caso.  <br/> |508 <br/> |
 |||
@@ -60,7 +60,7 @@ Os limites descritos nesta seção estão relacionados ao uso da ferramenta de p
 |Número máximo de pesquisas que podem ser executadas ao mesmo tempo.  <br/> |Sem limite  <br/> | 
 |Número máximo de pesquisas que um único usuário pode iniciar ao mesmo tempo.  <br/> |10   <br/> | 
 |Número máximo de caracteres para uma consulta de pesquisa (incluindo operadores e condições).  <br/> |**Caixas de correio**: 10.000<br/>**Sites**: 4.000 ao pesquisar todos os Sites ou 2.000 ao Pesquisar até 20 sites <sup>2</sup> <br/> |
-|Número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo **, \* um** ou **conjunto \* **. <br/> |3   <br/> |  
+|Número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo **, \* um** ou **conjunto \* **. <br/> |3D  <br/> |  
 |Máximo de variantes retornadas ao usar curinga de prefixo para pesquisar uma frase exata ou ao usar um caractere curinga de prefixo e o operador booleano **próximo** .  <br/> |10.000 <sup>3</sup> <br/> |
 |Número máximo de itens por caixa de correio do usuário que são exibidos na página de visualização para pesquisas. Os itens mais recentes são exibidos.   <br/> |100  <br/> |
 |Número máximo de itens de todas as caixas de correio exibidas na página de visualização para pesquisas.  <br/> |1.000  <br/> |

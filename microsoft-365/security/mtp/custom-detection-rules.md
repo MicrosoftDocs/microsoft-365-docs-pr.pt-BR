@@ -17,19 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: cdfc23f34d90c9d725ec6fb314728553a987c025
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 1a84c568d1411cf21c23e59cabad955c40c18ac6
+ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034859"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44498358"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Criar e gerenciar regras de detecções personalizadas
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Regras de detecção personalizadas criadas a partir de consultas de [busca avançada](advanced-hunting-overview.md) permitem monitorar proativamente vários eventos e Estados do sistema, incluindo a suspeita de falha na atividade e os pontos de extremidade configurados incorretamente. Você pode defini-los para executar em intervalos regulares, gerar alertas e realizar ações de resposta sempre que houver correspondências.
 
@@ -43,8 +41,8 @@ Para gerenciar detecções personalizadas, você precisa ter uma destas funçõe
 
 Para gerenciar as permissões necessárias, um **administrador global** pode fazer o seguinte:
 
-- Atribua a função de **administrador de segurança** ou **operador de segurança** no [centro de administração do Microsoft 365](https://admin.microsoft.com/) em **funções** > **administrador de segurança**.
-- Verifique as configurações RBAC do Microsoft defender ATP [na central de segurança do Microsoft defender](https://securitycenter.windows.com/) em**funções**de**permissões** > de **configurações** > . Selecione a função correspondente para atribuir a permissão **gerenciar configurações de segurança** .
+- Atribua a função de **administrador de segurança** ou **operador de segurança** no centro de [Administração do Microsoft 365](https://admin.microsoft.com/) em **funções**  >  **administrador de segurança**.
+- Verifique as configurações RBAC do Microsoft defender ATP na [central de segurança do Microsoft defender](https://securitycenter.windows.com/) em funções de permissões de **configurações**  >  **Permissions**  >  **Roles**. Selecione a função correspondente para atribuir a permissão **gerenciar configurações de segurança** .
 
 > [!NOTE]
 > Para gerenciar detecções personalizadas, os **operadores de segurança** precisarão da permissão **gerenciar configurações de segurança** no Microsoft defender ATP se o RBAC estiver ativado.
@@ -66,7 +64,9 @@ Para criar uma regra de detecção personalizada, a consulta deve retornar as se
     - `SenderFromAddress`(remetente de envelope ou endereço do caminho de retorno)
     - `SenderMailFromAddress`(endereço do remetente exibido pelo cliente de email)
     - `RecipientObjectId`
+    - `AccountObjectId`
     - `AccountSid`
+    - `AccountUpn`
     - `InitiatingProcessAccountSid`
     - `InitiatingProcessAccountUpn`
     - `InitiatingProcessAccountObjectId`
@@ -75,15 +75,14 @@ Para criar uma regra de detecção personalizada, a consulta deve retornar as se
 
 Consultas simples, como as que não usam o `project` operador or `summarize` para personalizar ou agregar resultados, normalmente retornam essas colunas comuns.
 
-Há várias maneiras de garantir que consultas mais complexas retornem essas colunas. Por exemplo, se você preferir agregar e contar por entidade em uma coluna como `DeviceId`, você ainda pode retornar `Timestamp` ao obtê-lo do evento mais recente envolvendo cada exclusivo. `DeviceId`
+Há várias maneiras de garantir que consultas mais complexas retornem essas colunas. Por exemplo, se você preferir agregar e contar por entidade em uma coluna como `DeviceId` , você ainda pode retornar ao `Timestamp` obtê-lo do evento mais recente envolvendo cada exclusivo `DeviceId` .
 
-A consulta de exemplo abaixo conta o número de máquinas exclusivas (`DeviceId`) com detecções de antivírus e usa essa contagem para localizar apenas as máquinas com mais de cinco detecções. Para retornar o mais `Timestamp`recente, ele usa `summarize` o operador com `arg_max` a função.
+A consulta de exemplo abaixo conta o número de dispositivos exclusivos ( `DeviceId` ) com detecções de antivírus e usa essa contagem para localizar apenas os dispositivos com mais de cinco detecções. Para retornar o mais recente `Timestamp` , ele usa o `summarize` operador com a `arg_max` função.
 
 ```kusto
 DeviceEvents
-| where Timestamp > ago(7d)
 | where ActionType == "AntivirusDetection"
-| summarize Timestamp = max(Timestamp), count() by DeviceId
+| summarize Timestamp = max(Timestamp), count() by DeviceId, SHA1, InitiatingProcessAccountObjectId 
 | where count_ > 5
 ```
 ### <a name="2-create-new-rule-and-provide-alert-details"></a>2. Crie uma nova regra e forneça detalhes do alerta.
@@ -95,7 +94,7 @@ Com a consulta no editor de consultas, selecione **criar regra de detecção** e
 - **Título do alerta** — título exibido com alertas disparados pela regra
 - **Severidade** — risco potencial do componente ou atividade identificado pela regra
 - **Categoria** — componente de ameaça ou atividade identificada pela regra
-- **Mitre ATT&Reck Techniques** — uma ou mais técnicas de ataque identificadas pela regra conforme documentadas na [estrutura Mitre ATT&CK](https://attack.mitre.org/)
+- **Mitre ATT&Reck Techniques** — uma ou mais técnicas de ataque identificadas pela regra conforme documentadas na [estrutura Mitre ATT&CK](https://attack.mitre.org/). Esta seção não se aplica e está oculta para determinadas categorias de alerta, incluindo malware, ransomware, atividade suspeita e software indesejado
 - **Descrição** — mais informações sobre o componente ou atividade identificada pela regra 
 - **Ações recomendadas** — ações adicionais que os respondentes podem executar em resposta a um alerta
 
@@ -110,22 +109,26 @@ Quando salvo, uma regra de detecção personalizada nova ou editada é executada
 Selecione a frequência que corresponde à aparência que você deseja monitorar as detecções e considere a capacidade da sua organização para responder aos alertas.
 
 ### <a name="3-choose-the-impacted-entities"></a>3. escolha as entidades impactadas.
-Identifique as colunas nos resultados de consulta onde você espera encontrar a entidade principal afetada ou afetada. Por exemplo, uma consulta pode retornar endereços de`SenderFromAddress` remetente `SenderMailFromAddress`(ou) e`RecipientEmailAddress`destinatário (). Identificar quais dessas colunas representam a principal entidade afetada ajuda o serviço a agregar alertas relevantes, correlacionar incidentes e ações de resposta de destino.
+Identifique as colunas nos resultados de consulta onde você espera encontrar a entidade principal afetada ou afetada. Por exemplo, uma consulta pode retornar endereços de remetente ( `SenderFromAddress` ou `SenderMailFromAddress` ) e destinatário ( `RecipientEmailAddress` ). Identificar quais dessas colunas representam a principal entidade afetada ajuda o serviço a agregar alertas relevantes, correlacionar incidentes e ações de resposta de destino.
 
 Você pode selecionar apenas uma coluna para cada tipo de entidade (caixa de correio, usuário ou dispositivo). As colunas que não são retornadas pela consulta não podem ser selecionadas.
 
-### <a name="4-specify-actions-on-files-or-machines"></a>4. Especifique ações em arquivos ou máquinas.
-Sua regra de detecção personalizada pode executar automaticamente ações em arquivos ou máquinas que são retornadas pela consulta.
+### <a name="4-specify-actions"></a>4. Especifique ações.
+Sua regra de detecção personalizada pode realizar ações automaticamente em dispositivos, arquivos ou usuários retornados pela consulta.
 
-#### <a name="actions-on-machines"></a>Ações em máquinas
-Essas ações são aplicadas às máquinas na `DeviceId` coluna dos resultados da consulta:
-- **Isolate Machine** — usa o Microsoft defender ATP para aplicar o isolamento completo da rede, impedindo o computador de se conectar a qualquer aplicativo ou serviço. [Saiba mais sobre o isolamento de máquina ATP do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-machines-from-the-network)
-- **Coletar pacote de investigação** — coleta informações de máquina em um arquivo zip. [Saiba mais sobre o pacote de investigação ATP do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-machines)
-- **Executar verificação antivírus** — realiza uma verificação completa do Windows Defender antivírus na máquina
-- **Iniciar investigação** — inicia uma [investigação automatizada](mtp-autoir.md) no computador
+#### <a name="actions-on-devices"></a>Ações em dispositivos
+Essas ações são aplicadas a dispositivos na `DeviceId` coluna dos resultados da consulta:
+- **Isolate Device** — usa o Microsoft defender ATP para aplicar o isolamento completo da rede, impedindo o dispositivo de se conectar a qualquer aplicativo ou serviço. [Saiba mais sobre o isolamento de máquina ATP do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-machines-from-the-network)
+- **Coletar pacote de investigação** — coleta informações de dispositivo em um arquivo zip. [Saiba mais sobre o pacote de investigação ATP do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-machines)
+- **Executar verificação antivírus** — realiza uma verificação completa do Windows Defender antivírus no dispositivo
+- **Iniciar investigação** — inicia uma [investigação automatizada](mtp-autoir.md) no dispositivo
+- **Restringir a execução do aplicativo** — define restrições no dispositivo para permitir que somente os arquivos assinados com um certificado emitido pela Microsoft sejam executados. [Saiba mais sobre as restrições de aplicativo com o Microsoft defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#restrict-app-execution)
 
 #### <a name="actions-on-files"></a>Ações em arquivos
-Quando selecionada, a ação de **arquivo de quarentena** é executada nos arquivos da `SHA1`coluna `InitiatingProcessSHA1`, `SHA256`, ou `InitiatingProcessSHA256` dos resultados da consulta. Esta ação exclui o arquivo de seu local atual e coloca uma cópia em quarentena.
+Quando selecionado, você pode optar por aplicar a ação de **arquivo de quarentena** nos arquivos na `SHA1` coluna,, `InitiatingProcessSHA1` ou nos `SHA256` `InitiatingProcessSHA256` resultados da consulta. Esta ação exclui o arquivo de seu local atual e coloca uma cópia em quarentena.
+
+#### <a name="actions-on-users"></a>Ações em usuários
+Quando selecionada, a ação **Marcar usuário como comprometido** é executada nos usuários na `AccountObjectId` `InitiatingProcessAccountObjectId` coluna,, ou nos `RecipientObjectId` resultados da consulta. Esta ação define o nível de risco dos usuários como "alto" no Azure Active Directory, disparando [as políticas de proteção de identidade](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)correspondentes.
 
 > [!NOTE]
 > A ação de permissão ou bloqueio para regras de detecção personalizada atualmente não é suportada no Microsoft Threat Protection.
@@ -148,7 +151,7 @@ Você pode exibir a lista de regras de detecção personalizadas existentes, ver
 
 ### <a name="view-existing-rules"></a>Exibir regras existentes
 
-Para exibir todas as regras de detecção personalizadas existentes, navegue até **buscar** > **detecções personalizadas**. A página lista todas as regras com as seguintes informações de execução:
+Para exibir todas as regras de detecção personalizadas existentes, navegue até **buscar**  >  **detecções personalizadas**. A página lista todas as regras com as seguintes informações de execução:
 
 - **Última execução** — quando uma regra foi executada pela última vez para verificar correspondências de consulta e gerar alertas
 - **Status da última execução** — se uma regra foi executada com êxito
@@ -157,7 +160,7 @@ Para exibir todas as regras de detecção personalizadas existentes, navegue at�
 
 ### <a name="view-rule-details-modify-rule-and-run-rule"></a>Exibir detalhes da regra, modificar regra e executar regra
 
-Para exibir informações abrangentes sobre uma regra de detecção personalizada, selecione o nome da regra na lista de regras em**detecções personalizadas**de **busca** > . Isso abre uma página sobre a regra de detecção personalizada com informações gerais sobre a regra, incluindo os detalhes do alerta, o status de execução e o escopo. Também fornece a lista de alertas disparados e ações disparadas.
+Para exibir informações abrangentes sobre uma regra de detecção personalizada, selecione o nome da regra na lista de regras **Hunting**em  >  **detecções personalizadas**de busca. Isso abre uma página sobre a regra de detecção personalizada com informações gerais sobre a regra, incluindo os detalhes do alerta, o status de execução e o escopo. Também fornece a lista de alertas disparados e ações disparadas.
 
 ![Página de detalhes da regra de detecção personalizada](../../media/custom-detection-details.png)<br>
 *Detalhes da regra de detecção personalizada*
@@ -167,19 +170,19 @@ Você também pode executar as seguintes ações na regra nesta página:
 - **Executar** — execute a regra imediatamente. Isso também redefine o intervalo para a próxima execução.
 - **Editar** — modificar a regra sem alterar a consulta
 - **Modificar consulta** — editar a consulta em busca avançada
-- **Ativar**desativar, habilitar a regra ou impedir que ela seja executada**Turn off**  / 
+- **Ativar o**  /  **Desativar** — habilitar a regra ou impedir que ela seja executada
 - **Excluir** — desativar a regra e removê-la
 
 ### <a name="view-and-manage-triggered-alerts"></a>Exibir e gerenciar alertas disparados
 
-Na tela detalhes da regra (**busca** > de**detecções** > personalizadas **[nome da regra]**), acesse **alertas** disparados para exibir a lista de alertas gerados por correspondências com a regra. Selecione um alerta para exibir informações detalhadas sobre esse alerta e realizar as seguintes ações no alerta:
+Na tela detalhes da regra (**busca**de  >  **detecções personalizadas**  >  **[nome da regra]**), acesse **alertas** disparados para exibir a lista de alertas gerados por correspondências com a regra. Selecione um alerta para exibir informações detalhadas sobre esse alerta e realizar as seguintes ações no alerta:
 
 - Gerenciar o alerta definindo seu status e classificação (alerta verdadeiro ou falso)
 - Vincular o alerta a um incidente
 - Executar a consulta que disparou o alerta na busca avançada
 
 ### <a name="review-actions"></a>Ações de revisão
-Na tela detalhes da regra (**busca** > de**detecções** > personalizadas **[nome da regra]**), vá para **ações** disparadas para exibir a lista de ações executadas com base em correspondências com a regra.
+Na tela detalhes da regra (**busca**de  >  **detecções personalizadas**  >  **[nome da regra]**), vá para **ações** disparadas para exibir a lista de ações executadas com base em correspondências com a regra.
 
 >[!TIP]
 >Para exibir rapidamente as informações e executar ações em um item em uma tabela, use a coluna seleção [&#10003;] à esquerda da tabela.

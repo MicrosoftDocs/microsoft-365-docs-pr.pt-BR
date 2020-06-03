@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 2dd67af62a400f3e217f146e6d0ee213d74ad99a
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: 837232550ca392a364b9842f64a1c3f0d790a502
+ms.sourcegitcommit: 33be6075fcc89d4c0a48fa7e59f3b3ebc605d9f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262402"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44520153"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Como relatar falsos positivos/negativos em recursos de investigação e resposta automatizados
 
@@ -34,7 +34,7 @@ ms.locfileid: "44262402"
 Os [recursos de investigação e resposta automatizados (Air) do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office) perdem ou detectou erroneamente algo? Há etapas que você pode executar para corrigi-lo. Você pode:
 - [Relatar um falso positivo/negativo para a Microsoft](#report-a-false-positivenegative-to-microsoft-for-analysis);
 - [Ajustar seus alertas](#adjust-an-alert-to-prevent-false-positives-from-recurring) (se necessário); e 
-- [Desfazer ações de correção que foram tomadas nos dispositivos](#undo-a-remediation-action). 
+- [Desfazer ações de correção que foram tomadas](#undo-a-remediation-action). 
 
 Use este artigo como uma guia. 
 
@@ -71,7 +71,7 @@ Com o Gerenciador de ameaças, a equipe de operações de segurança pode encont
 
 Na central de ações, você pode ver ações de correção que foram tomadas e possivelmente desfazer a ação.
 
-1. Vá para [https://protection.office.com](https://protection.office.com) e entre. Isso leva você para o centro de conformidade de & de segurança.
+1. Vá para [https://protection.office.com](https://protection.office.com) e entre. Isso leva você para o centro de conformidade & segurança.
 
 2. Vá para investigações de **Gerenciamento de ameaças**  >  **Investigations**.
 

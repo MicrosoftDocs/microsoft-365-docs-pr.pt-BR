@@ -11,12 +11,12 @@ metadata:
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: b1a5bd2f50542a9c76c32da7465e80e371238560
-  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+  ms.openlocfilehash: 99441695ad069ffe15f5347991d9dd65976eb23e
+  ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/27/2020
-  ms.locfileid: "44399747"
+  ms.lasthandoff: 06/02/2020
+  ms.locfileid: "44498264"
 landingContent:
 - title: Monitorar o status do nosso serviço
   linkLists:
@@ -34,6 +34,8 @@ landingContent:
       url: update-phone-number-and-email-address.md
     - text: 'Configurar opções de versão  '
       url: release-options-in-office-365.md
+    - text: Mostrar ou ocultar novos recursos
+      url: show-hide-new-features.md
 - title: Bloquear o acesso do usuário e fazer backup dos dados
   linkLists:
   - linkListType: how-to-guide

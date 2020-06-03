@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c4facaac82ff8486c0c3a846e4f577c7888a3161
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: b0703aa14bee3d14d1c3ff4fe46ea9d72de73ce2
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43503978"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515862"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Recursos de prévia da proteção contra ameaças da Microsoft
 
@@ -48,7 +48,7 @@ Ative a configuração de experiência de visualização para estar entre o prim
 2. Selecione **proteção contra ameaças da Microsoft**.
 
 
-3. Selecionar **recursos** > **de visualização ative os recursos de visualização**. 
+3. Selecionar **recursos**  >  **de visualização ative os recursos de visualização**. 
 
 3. Selecione **Salvar**.
 
@@ -57,6 +57,8 @@ Você saberá que os recursos de visualização estão ativados ao ver que a cai
 ## <a name="preview-features"></a>Visualização prévia de recursos
 Os seguintes recursos e aprimoramentos estão disponíveis atualmente na visualização:
 
-- **[Detecções personalizadas](custom-detections-overview.md)** — use as consultas de busca avançada para criar regras que pesquisem automaticamente a atividade de violação e outros itens de interesse em intervalos regulares. As correspondências com as consultas disparam alertas e as ações de resposta especificadas.
-
 - **[Tabelas de identidade e aplicativo](advanced-hunting-schema-tables.md)** — obtenha visibilidade em eventos de autenticação, consultas do Active Directory e atividades relacionadas a aplicativos com as tabelas [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)e [AppFileEvents](advanced-hunting-appfileevents-table.md) no esquema de caça avançada.
+
+- **[Tabela EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** — Use esta tabela para criar consultas de [busca avançada](advanced-hunting-overview.md) que verificam ações executadas nos emails depois de serem entregues às caixas de correio de destinatários.
+
+- **[Função fileprofile ()](advanced-hunting-fileprofile-function.md)** — use em suas consultas de [busca avançada](advanced-hunting-overview.md) para incorporar informações de arquivo abrangentes.

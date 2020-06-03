@@ -19,12 +19,12 @@ ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 ms.custom:
 - seo-marvel-apr2020
 description: Crie políticas de alerta no centro de segurança e conformidade no Office 365 e no Microsoft 365 para monitorar possíveis ameaças, perda de dados e problemas de permissões.
-ms.openlocfilehash: 92f7146c40bbcbd93eb36e43a4dff9c8a807c403
-ms.sourcegitcommit: 436841236dc41390a3be9f8936d19d3d017fa35c
+ms.openlocfilehash: 48c187d7456f4b0a8e1da7558b7813fc2a8dc9f7
+ms.sourcegitcommit: 33be6075fcc89d4c0a48fa7e59f3b3ebc605d9f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "44429207"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44520165"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>Políticas de alerta no centro de conformidade e segurança
 
@@ -42,6 +42,9 @@ Veja aqui uma rápida visão geral de como as políticas de alerta funcionam e o
 ![Visão geral de como as políticas de alerta funcionam](../media/e02a622d-b429-448b-8107-dd1a4770b4e0.png)
 
 1. Um administrador de sua organização cria, configura e ativa uma política de alerta usando a página **políticas de alerta** no centro de conformidade e segurança. Você também pode criar políticas de alerta usando o cmdlet **New-ProtectionAlert** no PowerShell do centro de conformidade e segurança &. Para criar políticas de alerta, você precisa receber a função Gerenciar alertas ou a função de configuração da organização no centro de segurança e conformidade.
+
+   > [!NOTE]
+   > É necessário até 24 horas após a criação ou atualização de uma política de alerta antes que os alertas possam ser disparados pela política. Isso ocorre porque a política deve ser sincronizada com o mecanismo de detecção de alerta.
 
 2. Um usuário realiza uma atividade que corresponde às condições de uma política de alerta. No caso de ataques de malware, mensagens de email infectadas enviadas para os usuários em sua organização disparam um alerta.
 
@@ -81,9 +84,9 @@ Uma política de alerta consiste nas configurações e condições a seguir.
 
   - Governança de informações
 
-  - Fluxo de mensagens
+  - Fluxo de emails
 
-  - Permissions
+  - Permissões
 
   - Gerenciamento de ameaças
 
@@ -112,12 +115,12 @@ A tabela também indica o plano do governo dos EUA do Office 365 Enterprise e do
 |**Resultado do envio do administrador concluído**|Gera um alerta quando um [envio de administrador](../security/office-365-security/admin-submission.md) conclui a verificação da entidade enviada. Um alerta será disparado toda vez que um resultado de nova verificação for renderizado de um envio de administrador. Esses alertas destinam-se a lembrá-lo de [revisar os resultados de](https://protection.office.com/reportsubmission)envios anteriores, enviar mensagens relatadas pelo usuário para obter a verificação mais recente da política e reexaminar o verdicts e ajudá-lo a determinar se as políticas de filtragem em sua organização estão tendo o impacto desejado. Essa política tem uma configuração de **baixa** gravidade.|Gerenciamento de ameaças|E1/F1, E3 ou e5|
 |**Criação de regra de encaminhamento/redirecionamento**|Gera um alerta quando alguém em sua organização cria uma regra de caixa de entrada para a caixa de correio que encaminha ou redireciona mensagens para outra conta de email. Esta política controla apenas as regras de caixa de entrada que são criadas usando o Outlook na Web (anteriormente conhecido como Outlook Web App) ou o PowerShell do Exchange Online. Essa política tem uma configuração de **baixa** gravidade. Para obter mais informações sobre como usar regras de caixa de entrada para encaminhar e redirecionar emails no Outlook na Web, confira [usar regras no Outlook na Web para encaminhar automaticamente as mensagens para outra conta](https://support.office.com/article/1433e3a0-7fb0-4999-b536-50e05cb67fed).|Gerenciamento de ameaças|E1/F1/G1, E3/G3 ou E5/G5|
 |**pesquisa de descoberta eletrônica iniciada ou exportada**|Gera um alerta quando alguém usa a ferramenta de pesquisa de conteúdo no centro de segurança e conformidade. Um alerta é disparado quando as seguintes atividades de pesquisa de conteúdo são executadas: <br/><br/>* Uma pesquisa de conteúdo foi iniciada<br/>* Os resultados de uma pesquisa de conteúdo são exportados<br/>* Um relatório de pesquisa de conteúdo é exportado<br/><br/>Os alertas também são acionados quando as atividades de pesquisa de conteúdo anteriores são realizadas em associação a uma ocorrência de descoberta eletrônica. Essa política tem uma configuração de severidade **média** . Para obter mais informações sobre as atividades de pesquisa de conteúdo, consulte [Search for eDiscovery Activities no log de auditoria](search-for-ediscovery-activities-in-the-audit-log.md#ediscovery-activities).|Gerenciamento de ameaças|E1/F1/G1, E3/G3 ou E5/G5|
-|**Elevação do privilégio de administrador do Exchange**|Gera um alerta quando alguém recebe permissões administrativas na sua organização do Exchange Online. Por exemplo, quando um usuário é adicionado ao grupo de função gerenciamento da organização no Exchange Online. Essa política tem uma configuração de **baixa** gravidade.|Permissions|E1/F1/G1, E3/G3 ou E5/G5|
+|**Elevação do privilégio de administrador do Exchange**|Gera um alerta quando alguém recebe permissões administrativas na sua organização do Exchange Online. Por exemplo, quando um usuário é adicionado ao grupo de função gerenciamento da organização no Exchange Online. Essa política tem uma configuração de **baixa** gravidade.|Permissões|E1/F1/G1, E3/G3 ou E5/G5|
 |**Mensagens de email contendo malware removidos após a entrega**|Gera um alerta quando qualquer mensagem que contenha malware é entregue às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectadas das caixas de correio do Exchange Online usando a [limpeza automática de zero hora](../security/office-365-security/zero-hour-auto-purge.md). Essa política tem uma configuração de severidade **informativa** e dispara automaticamente a [investigação e a resposta automatizadas no Office 365](https://www.microsoft.com/?ref=go).|Gerenciamento de ameaças|Licença de complemento do Microsoft E5/G5 ou do Office 365 ATP P2|
 |**Mensagens de email que contêm URLs de phishing removidos após a entrega**|Gera um alerta quando qualquer mensagem que contenha Phish é entregue às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectadas das caixas de correio do Exchange Online usando a [limpeza automática de zero hora](../security/office-365-security/zero-hour-auto-purge.md). Essa política tem uma configuração de severidade **informativa** e dispara automaticamente a [investigação e a resposta automatizadas no Office 365](https://www.microsoft.com/?ref=go).|Gerenciamento de ameaças|Licença de complemento do Microsoft E5/G5 ou do Office 365 ATP P2|
 |**Email relatado por usuário como malware ou phishing**|Gera um alerta quando os usuários na sua organização relatam mensagens como email de phishing usando o suplemento de mensagem de relatório. Essa política tem uma configuração de severidade **informativa** . Para obter mais informações sobre esse suplemento, confira [usar o suplemento de mensagem de relatório](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2). Para os clientes do Office 365 ATP P2, e5, G5, este alerta dispara automaticamente a [investigação e a resposta automatizadas no Office 365](https://www.microsoft.com/?ref=go).|Gerenciamento de ameaças|E1/F1/G1, E3/G3 ou E5/G5|
 |**Limite de envio de email excedido**|Gera um alerta quando alguém em sua organização enviou mais emails do que o permitido pela política de spam de saída. Isso geralmente é uma indicação de que o usuário está enviando muito email ou que a conta pode estar comprometida. Essa política tem uma configuração de severidade **média** . Se você receber um alerta gerado por essa política de alerta, é uma boa ideia [verificar se a conta de usuário está comprometida](../security/office-365-security/responding-to-a-compromised-email-account.md).|Gerenciamento de ameaças|E1/F1/G1, E3/G3 ou E5/G5|
-|**As mensagens foram atrasadas**|Gera um alerta quando a Microsoft não pode entregar mensagens de email para sua organização local ou um servidor parceiro usando um conector. Quando isso acontece, a mensagem é enfileirada no Office 365. Este alerta é disparado quando há 2.000 mensagens ou mais que foram enfileiradas por mais de uma hora. Essa política tem uma configuração de **alta** gravidade.|Fluxo de mensagens|E1/F1/G1, E3/G3 ou E5/G5|
+|**As mensagens foram atrasadas**|Gera um alerta quando a Microsoft não pode entregar mensagens de email para sua organização local ou um servidor parceiro usando um conector. Quando isso acontece, a mensagem é enfileirada no Office 365. Este alerta é disparado quando há 2.000 mensagens ou mais que foram enfileiradas por mais de uma hora. Essa política tem uma configuração de **alta** gravidade.|Fluxo de emails|E1/F1/G1, E3/G3 ou E5/G5|
 |**Campanha de malware detectada após a entrega**|Gera um alerta quando um número excepcionalmente grande de mensagens contendo malware é entregue às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectadas das caixas de correio do Exchange Online. Essa política tem uma configuração de **alta** gravidade.|Gerenciamento de ameaças|Licença de complemento do Microsoft E5/G5 ou do Office 365 ATP P2|
 |**Campanha de malware detectada e bloqueada**|Gera um alerta quando alguém tentava enviar um número excepcionalmente grande de mensagens de email contendo um determinado tipo de malware para os usuários em sua organização. Se esse evento ocorrer, as mensagens infectadas são bloqueadas pela Microsoft e não são entregues a caixas de correio. Essa política tem uma configuração de **baixa** gravidade.|Gerenciamento de ameaças|Licença de complemento do Microsoft E5/G5 ou do Office 365 ATP P2|
 |**Campanha de malware detectada no SharePoint e no OneDrive**|Gera um alerta quando um volume excepcionalmente alto de malware ou vírus é detectado em arquivos localizados em sites do SharePoint ou em contas do OneDrive em sua organização. Essa política tem uma configuração de **alta** gravidade.|Gerenciamento de ameaças|Licença de complemento do Microsoft E5/G5 ou do Office 365 ATP P2|
@@ -180,6 +183,12 @@ A captura de tela a seguir mostra um alerta com quatro eventos agregados. A list
 
 ![Exemplo de agregação de alerta](../media/AggregatedAlertExample.png)
 
+Considere os seguintes aspectos em relação à agregação de alertas:
+
+- Alertas acionados por **uma URL possivelmente mal-intencionada o clique em a política de** [alerta padrão](#default-alert-policies) foi detectada não é agregada. Isso ocorre porque os alertas acionados por essa política são exclusivos para cada usuário e mensagem de email.
+
+- No momento, a propriedade de alerta **contagem de ocorrências** não indica o número de eventos agregados para todas as políticas de alerta. Para alertas disparados por essas políticas de alerta, você pode exibir os eventos agregados clicando em **Exibir lista de mensagens** ou **Exibir atividade** no alerta. Estamos trabalhando para tornar o número de eventos agregados listado na propriedade de alerta **contagem de ocorrências** disponível para todas as políticas de alerta.
+
 ## <a name="rbac-permissions-required-to-view-alerts"></a>Permissões de RBAC necessárias para exibir alertas
 
 As permissões de controle de acesso baseado em função (RBAC) atribuídas aos usuários em sua organização determinam quais alertas um usuário pode ver na página **exibir alertas** . Como isso é feito? As funções de gerenciamento atribuídas aos usuários (com base em sua associação em grupos de função no centro de conformidade & segurança) determinam quais categorias de alerta um usuário pode ver na página **exibir alertas** . Aqui estão alguns exemplos:
@@ -196,7 +205,7 @@ A tabela a seguir lista as funções necessárias para exibir alertas das seis c
 
 Para ver a qual categoria uma política de alerta padrão é atribuída, confira a tabela na seção [políticas de alerta padrão](#default-alert-policies) .
 
-|&nbsp;|Governança de informações|Prevenção contra perda de dados|Fluxo de mensagens|Permissions|Gerenciamento de ameaças|Outros|
+|&nbsp;|Governança de informações|Prevenção contra perda de dados|Fluxo de emails|Permissões|Gerenciamento de ameaças|Outros|
 |:---------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 |Logs de auditoria|||||||
 |Gerenciamento de casos|||||||
@@ -205,7 +214,7 @@ Para ver a qual categoria uma política de alerta padrão é atribuída, confira
 |Gerenciamento de dispositivo|||||||
 |Gerenciamento de descarte|||||||
 |Gerenciamento de conformidade de DLP||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||||
-|Exportar|||||||
+|Exportação|||||||
 |Retenção|||||||
 |Gerenciar Alertas||||||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |Configuração da organização||||||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|

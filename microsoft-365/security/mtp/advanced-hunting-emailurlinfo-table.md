@@ -17,19 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 46849aa81da5a615a5dff7c5e2ac28566443d3ee
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 47486f34f9926d83e52ba206f63d3e85286527dc
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633514"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515814"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
-
-
 
 A tabela `EmailUrlInfo` no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre URLs em emails e anexos processados na ATP do Office 365. Use esta referência para criar consultas que retornam informações desta tabela.
 

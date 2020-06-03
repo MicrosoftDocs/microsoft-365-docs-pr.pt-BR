@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 68e8f432008a6322921ef440878a1cca1354e196
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: e8c8783a570fe1b747ba8d2cf07f7d7f6f2fe39f
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292469"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515758"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
@@ -95,14 +95,17 @@ Consulte o tópico [configurar um conector para importar dados de RH](import-hr-
 
 ### <a name="configure-data-loss-prevention-dlp-policies"></a>Configurar políticas de DLP (prevenção contra perda de dados)
 
-O gerenciamento de riscos do insider suporta o uso de políticas DLP para ajudar a identificar a exposição intencional ou acidental de informações confidenciais a partes indesejadas. Ao configurar uma política de gerenciamento de risco do insider com o modelo de *vazamento de dados* , você precisa atribuir uma política de DLP específica à política.
+O gerenciamento de riscos do insider suporta o uso de políticas de DLP para ajudar a identificar a exposição intencional ou acidental de informações confidenciais a partes indesejadas para alertas DLP de nível de alta severidade. Ao configurar uma política de gerenciamento de risco do insider com o modelo de **vazamento de dados** , você deve atribuir uma política de DLP específica à política.
 
-Esta política ajuda a direcionar os indicadores de gerenciamento de risco do insider para alertas de DLP de alta gravidade para informações confidenciais e é uma parte importante da configuração da cobertura de gerenciamento de risco completo em sua organização. Se você configurar mais de uma política de DLP para sua organização, será necessário atribuir uma política de gerenciamento de risco Insider por política DLP.
-
-Consulte o tópico [criar, testar e ajustar uma política de DLP](create-test-tune-dlp-policy.md) para obter orientações passo a passo para configurar as políticas de DLP para sua organização. Após configurar uma política de DLP, retorne a estas etapas de configuração.
+Esta política ajuda a direcionar os indicadores de gerenciamento de risco do insider para alertas de DLP de alta gravidade para informações confidenciais e é uma parte importante da configuração da cobertura de gerenciamento de risco completo em sua organização. Para obter mais informações sobre o gerenciamento de risco do insider e as considerações de planejamento e integração de políticas de DLP, consulte [Insider Management Policies](insider-risk-management-policies.md#data-leaks)
 
 >[!IMPORTANT]
->Certifique-se de que a configuração **relatórios de incidentes** na política de DLP para gerenciamento de risco do insider usada com este modelo está configurada para alertas de nível de severidade *alto* . Os alertas de gerenciamento de risco do insider não serão gerados de políticas DLP com o conjunto de campos **relatórios de incidentes** em *baixo* ou *médio*.
+>Verifique se você concluiu o seguinte:
+>
+>- Você entende e configurou corretamente os usuários no escopo nas políticas de gerenciamento de risco do DLP e do insider para produzir a cobertura de política que você espera.
+>- Certifique-se de que a configuração **relatórios de incidentes** na política de DLP para gerenciamento de risco do insider usada com este modelo está configurada para alertas de nível de severidade *alto* . Os alertas de gerenciamento de risco do insider não serão gerados de políticas DLP com o conjunto de campos **relatórios de incidentes** em *baixo* ou *médio*.
+
+Consulte o tópico [criar, testar e ajustar uma política de DLP](create-test-tune-dlp-policy.md) para obter orientações passo a passo para configurar as políticas de DLP para sua organização. Após configurar uma política de DLP, retorne a estas etapas de configuração.
 
 ## <a name="step-4-required-configure-insider-risk-settings"></a>Etapa 4 (obrigatório): definir configurações de risco do insider
 
