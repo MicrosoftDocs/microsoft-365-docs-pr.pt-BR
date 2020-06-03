@@ -1,0 +1,64 @@
+---
+title: Tabela EmailPostDeliveryEvents no esquema de busca avançada
+description: Saiba mais sobre as ações de envio realizadas nos emails do Microsoft 365 na tabela EmailPostDeliveryEvents do esquema de busca avançada
+keywords: caça avançada, busca de ameaças, caça de ameaças da CyberSource, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, tabela, coluna, tipo de dados, descrição, EmailPostDeliveryEvents, ID da mensagem de rede, remetente, destinatário, ID de anexo, nome do anexo
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: microsoft-365-enterprise
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+f1.keywords:
+- NOCSH
+ms.author: lomayor
+author: lomayor
+ms.localizationpriority: medium
+manager: dansimp
+audience: ITPro
+ms.collection: M365-security-compliance
+ms.topic: article
+ms.openlocfilehash: f4b34abdbfcbd6c3a2f142001a3d486485c86fcd
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515906"
+---
+# <a name="emailpostdeliveryevents"></a><span data-ttu-id="b36b2-104">EmailPostDeliveryEvents</span><span class="sxs-lookup"><span data-stu-id="b36b2-104">EmailPostDeliveryEvents</span></span>
+
+<span data-ttu-id="b36b2-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="b36b2-105">**Applies to:**</span></span>
+- <span data-ttu-id="b36b2-106">Proteção contra Ameaças da Microsoft</span><span class="sxs-lookup"><span data-stu-id="b36b2-106">Microsoft Threat Protection</span></span>
+
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
+<span data-ttu-id="b36b2-107">A `EmailPostDeliveryEvents` tabela no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre as ações de envio realizadas em mensagens de email processadas pelo Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="b36b2-107">The `EmailPostDeliveryEvents` table in the [advanced hunting](advanced-hunting-overview.md) schema contains information about post-delivery actions taken on email messages processed by Microsoft 365.</span></span> <span data-ttu-id="b36b2-108">Use essa referência para criar consultas que retornam informações dessa tabela.</span><span class="sxs-lookup"><span data-stu-id="b36b2-108">Use this reference to construct queries that return information from this table.</span></span>
+
+<span data-ttu-id="b36b2-109">Para obter mais informações sobre mensagens de email individuais, você também pode usar o [`EmailEvents`](advanced-hunting-emailevents-table.md) , o [`EmailAttachmentInfo`](advanced-hunting-emailattachmentinfo-table.md) e as [`EmailUrlInfo`](advanced-hunting-emailurlinfo-table.md) tabelas.</span><span class="sxs-lookup"><span data-stu-id="b36b2-109">To get more information about individual email messages, you can also use the [`EmailEvents`](advanced-hunting-emailevents-table.md), [`EmailAttachmentInfo`](advanced-hunting-emailattachmentinfo-table.md), and the [`EmailUrlInfo`](advanced-hunting-emailurlinfo-table.md) tables.</span></span> <span data-ttu-id="b36b2-110">Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).</span><span class="sxs-lookup"><span data-stu-id="b36b2-110">For information on other tables in the advanced hunting schema, [see the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
+
+| <span data-ttu-id="b36b2-111">Nome da coluna</span><span class="sxs-lookup"><span data-stu-id="b36b2-111">Column name</span></span> | <span data-ttu-id="b36b2-112">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="b36b2-112">Data type</span></span> | <span data-ttu-id="b36b2-113">Descrição</span><span class="sxs-lookup"><span data-stu-id="b36b2-113">Description</span></span> |
+|-------------|-----------|-------------|
+| `Timestamp` | <span data-ttu-id="b36b2-114">datetime</span><span class="sxs-lookup"><span data-stu-id="b36b2-114">datetime</span></span> | <span data-ttu-id="b36b2-115">A data e a hora em que o evento foi gravado</span><span class="sxs-lookup"><span data-stu-id="b36b2-115">Date and time when the event was recorded</span></span> |
+| `EventId` | <span data-ttu-id="b36b2-116">string</span><span class="sxs-lookup"><span data-stu-id="b36b2-116">string</span></span> | <span data-ttu-id="b36b2-117">Identificador exclusivo do evento</span><span class="sxs-lookup"><span data-stu-id="b36b2-117">Unique identifier for the event</span></span> |
+| `NetworkMessageId` | <span data-ttu-id="b36b2-118">string</span><span class="sxs-lookup"><span data-stu-id="b36b2-118">string</span></span> | <span data-ttu-id="b36b2-119">Identificador exclusivo do email, gerado pelo Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="b36b2-119">Unique identifier for the email, generated by Microsoft 365</span></span> |
+| `InternetMessageId` | <span data-ttu-id="b36b2-120">string</span><span class="sxs-lookup"><span data-stu-id="b36b2-120">string</span></span> | <span data-ttu-id="b36b2-121">Identificador público do email definido pelo seu sistema de envio</span><span class="sxs-lookup"><span data-stu-id="b36b2-121">Public-facing identifier for the email that is set by the sending email system</span></span> |
+| `Action` | <span data-ttu-id="b36b2-122">string</span><span class="sxs-lookup"><span data-stu-id="b36b2-122">string</span></span> | <span data-ttu-id="b36b2-123">Ação tomada na entidade</span><span class="sxs-lookup"><span data-stu-id="b36b2-123">Action taken on the entity</span></span> |
+| `ActionType` | <span data-ttu-id="b36b2-124">string</span><span class="sxs-lookup"><span data-stu-id="b36b2-124">string</span></span> | <span data-ttu-id="b36b2-125">Tipo de atividade que disparou o evento: correção manual, "phishing ZAP, malware ZAP"</span><span class="sxs-lookup"><span data-stu-id="b36b2-125">Type of activity that triggered the event: Manual remediation, Phish ZAP, Malware ZAP</span></span> |
+| `ActionTrigger` | <span data-ttu-id="b36b2-126">string</span><span class="sxs-lookup"><span data-stu-id="b36b2-126">string</span></span> | <span data-ttu-id="b36b2-127">Indica se uma ação foi disparada por um administrador (manualmente ou por meio da aprovação de uma ação automática pendente) ou por algum mecanismo especial, como uma entrega de ZAP ou dinâmica</span><span class="sxs-lookup"><span data-stu-id="b36b2-127">Indicates whether an action was triggered by an administrator (manually or through approval of a pending automated action), or by some special mechanism, such as a ZAP or Dynamic Delivery</span></span> |
+| `ActionResult` | <span data-ttu-id="b36b2-128">string</span><span class="sxs-lookup"><span data-stu-id="b36b2-128">string</span></span> | <span data-ttu-id="b36b2-129">Resultado da ação</span><span class="sxs-lookup"><span data-stu-id="b36b2-129">Result of the action</span></span> |
+| `RecipientEmailAddress` | <span data-ttu-id="b36b2-130">string</span><span class="sxs-lookup"><span data-stu-id="b36b2-130">string</span></span> | <span data-ttu-id="b36b2-131">Endereço de email do destinatário ou endereço de email do destinatário após a expansão da lista de distribuição</span><span class="sxs-lookup"><span data-stu-id="b36b2-131">Email address of the recipient, or email address of the recipient after distribution list expansion</span></span> |
+| `DeliveryLocation` | <span data-ttu-id="b36b2-132">cadeia de caracteres</span><span class="sxs-lookup"><span data-stu-id="b36b2-132">string</span></span> | <span data-ttu-id="b36b2-133">Local onde o email foi entregue: Caixa de Entrada/Pasta, Local/Externo, Tratado como Lixo Eletrônico, Quarentena, Falha, Descartado, Itens excluídos</span><span class="sxs-lookup"><span data-stu-id="b36b2-133">Location where the email was delivered: Inbox/Folder, On-premises/External, Junk, Quarantine, Failed, Dropped, Deleted items</span></span> |
+
+## <a name="supported-event-types"></a><span data-ttu-id="b36b2-134">Tipos de eventos com suporte</span><span class="sxs-lookup"><span data-stu-id="b36b2-134">Supported event types</span></span>
+<span data-ttu-id="b36b2-135">Esta tabela captura eventos com os seguintes `ActionType` valores:</span><span class="sxs-lookup"><span data-stu-id="b36b2-135">This table captures events with the following `ActionType` values:</span></span>
+
+- <span data-ttu-id="b36b2-136">**Correção manual** – um administrador executou uma ação manualmente em uma mensagem de email após sua entrega à caixa de correio do usuário.</span><span class="sxs-lookup"><span data-stu-id="b36b2-136">**Manual remediation** – An administrator manually took action on an email message after it was delivered to the user mailbox.</span></span> <span data-ttu-id="b36b2-137">Isso inclui ações realizadas manualmente por meio do [Explorador de ameaças](../office-365-security/threat-explorer.md) ou aprovações de [ações de investigação e resposta (ar) automatizadas](mtp-autoir-actions.md).</span><span class="sxs-lookup"><span data-stu-id="b36b2-137">This includes actions taken manually through [Threat Explorer](../office-365-security/threat-explorer.md) or approvals of [automated investigation and response (AIR) actions](mtp-autoir-actions.md).</span></span>
+- <span data-ttu-id="b36b2-138">**Phish zap** – o [descarte automático de zero horas (zap)](../office-365-security/zero-hour-auto-purge.md) executou uma ação em um email de phishing após a entrega.</span><span class="sxs-lookup"><span data-stu-id="b36b2-138">**Phish ZAP** – [Zero-hour auto purge (ZAP)](../office-365-security/zero-hour-auto-purge.md) took action on a phishing email after delivery.</span></span>
+- <span data-ttu-id="b36b2-139">**Malware zap** – o descarte automático de zero horas (zap) executou uma ação em uma mensagem de email encontrada contendo malware após a entrega.</span><span class="sxs-lookup"><span data-stu-id="b36b2-139">**Malware ZAP** – Zero-hour auto purge (ZAP) took action on an email message found containing malware after delivery.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="b36b2-140">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="b36b2-140">Related topics</span></span>
+- [<span data-ttu-id="b36b2-141">Buscar proativamente por ameaças</span><span class="sxs-lookup"><span data-stu-id="b36b2-141">Proactively hunt for threats</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="b36b2-142">Aprender a linguagem de consulta</span><span class="sxs-lookup"><span data-stu-id="b36b2-142">Learn the query language</span></span>](advanced-hunting-query-language.md)
+- [<span data-ttu-id="b36b2-143">Usar consultas compartilhadas</span><span class="sxs-lookup"><span data-stu-id="b36b2-143">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
+- [<span data-ttu-id="b36b2-144">Buscar por ameaças em dispositivos e emails</span><span class="sxs-lookup"><span data-stu-id="b36b2-144">Hunt for threats across devices and emails</span></span>](advanced-hunting-query-emails-devices.md)
+- [<span data-ttu-id="b36b2-145">Compreender o esquema</span><span class="sxs-lookup"><span data-stu-id="b36b2-145">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
+- [<span data-ttu-id="b36b2-146">Aplicar práticas recomendadas de consulta</span><span class="sxs-lookup"><span data-stu-id="b36b2-146">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
