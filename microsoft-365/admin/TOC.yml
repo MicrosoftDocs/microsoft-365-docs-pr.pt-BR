@@ -218,6 +218,8 @@
           href: manage/manage-messages.md
         - name: 'Configurar opções de versão  '
           href: manage/release-options-in-office-365.md
+        - name: Mostrar ou ocultar novos recursos
+          href: manage/show-hide-new-features.md
         - name: Análise de uso do Power BI
           items:
             - name: Sobre a análise de uso
