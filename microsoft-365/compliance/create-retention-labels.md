@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Instruções para criar, publicar e aplicar automaticamente rótulos de retenção para reter o que você precisa, excluir o que não é necessário e declarar um item como um registro no seu ambiente do Office 365.
-ms.openlocfilehash: 65319baa0fd238ebdc403307fb8bb91a59d87cd6
-ms.sourcegitcommit: 3cd487476efe4138d1b42499fbffbbe4bacfe5b8
+ms.openlocfilehash: a3ba321c9eae91bf701646a45271d3edcbc8dccc
+ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44408463"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44545953"
 ---
 # <a name="create-publish-and-auto-apply-retention-labels"></a>Criar, publicar ou aplicar automaticamente rótulos de retenção
 
@@ -56,13 +56,13 @@ Essas permissões só serão necessárias para criar e aplicar rótulos de reten
 
 2. Siga as instruções do assistente. Se você estiver usando o gerenciamento de registros:
     
-    - Para saber mais sobre os descritores de plano de arquivo, confira [Visão geral do gerenciador de planos de arquivo](file-plan-manager.md)
+    - Para saber mais sobre os descritores de plano de arquivo, confira [Usar o plano de arquivo para gerenciar os rótulos de retenção](file-plan-manager.md)
     
     - Para usar o rótulo de retenção para declarar conteúdo como um registro, ative a caixa de seleção **Usar rótulo para classificar o conteúdo como um "Registro"**.
 
 3. Repita essas etapas para criar mais rótulos.
 
-Para editar um rótulo existente, selecione-o e depois selecione **Editar rótulo**. Isso inicia o mesmo assistente, que permite alterar as descrições e configurações do rótulo na etapa 2.
+Para editar um rótulo existente, selecione-o e, em seguida, selecione **Editar rótulo** para começar o mesmo assistente que permite alterar as descrições de rótulo e as [configurações qualificadas](#updating-retention-labels-and-their-policies) na etapa 2. Como alternativa, selecione qualquer uma das opções **Editar** para ir diretamente para a página relevante e fazer sua atualização.
 
 ## <a name="publish-retention-labels-by-creating-a-retention-label-policy"></a>Publicar rótulos de retenção criando uma política de rótulo de retenção
 
@@ -81,6 +81,8 @@ Publique seus rótulos de retenção, para que possam ser aplicados manualmente 
 2. Siga as instruções do assistente.
     
     Para obter informações sobre os locais suportados pelos rótulos de retenção, confira a seção[Rótulos e locais de retenção](labels.md#retention-label-policies-and-locations). 
+
+Para editar uma política de rótulo de retenção existente, selecione-a e, em seguida, selecione **Editar política** para começar o mesmo assistente que permite alterar as descrições da política e as [configurações qualificadas](#updating-retention-labels-and-their-policies) na etapa 2. Como alternativa, selecione qualquer uma das opções **Editar** para ir diretamente para a página relevante e fazer sua atualização.
 
 ## <a name="auto-apply-a-retention-label"></a>Aplicação automática de um rótulo de retenção
 
@@ -101,6 +103,8 @@ Aplique automaticamente um rótulo de retenção, com base nas condições que v
     Para saber mais sobre como configurar condições que aplicam automaticamente o rótulo de retenção, confira o [Configurar condições para a aplicação automática de rótulos de retenção](#configuring-conditions-for-auto-apply-retention-labels) nesta página.
     
     Para obter informações sobre os locais suportados pelos rótulos de retenção, confira a seção[Rótulos e locais de retenção](labels.md#retention-label-policies-and-locations).
+
+Para editar uma política de rótulo de aplicação automática existente, selecione-a e, em seguida, selecione **Editar política** para começar o mesmo assistente que permite alterar as descrições da política e as [configurações qualificadas](#updating-retention-labels-and-their-policies) na etapa 2. Como alternativa, selecione qualquer uma das opções **Editar** para ir diretamente para a página relevante e fazer sua atualização.
 
 
 ## <a name="configuring-conditions-for-auto-apply-retention-labels"></a>Configurar condições para a aplicação automática de rótulos de retenção
@@ -218,6 +222,10 @@ Se os rótulos não estiverem aparecendo no Outlook na Web, e você achar que de
 ## <a name="updating-retention-labels-and-their-policies"></a>Atualizar rótulos de retenção e suas políticas
 
 Se você editar um rótulo de retenção, política de rótulo de retenção ou política de aplicação automática e o rótulo de retenção já estiver aplicado ao conteúdo, as configurações atualizadas serão aplicadas automaticamente a esse conteúdo, além do conteúdo recentemente rotulado.
+
+Algumas configurações não podem ser alteradas depois que o rótulo ou política é criado e salvo, que incluem:
+- As configurações de retenção, exceto o período de retenção, a menos que você tenha configurado o rótulo para reter ou excluir o conteúdo com base em quando ele foi criado.
+- A opção para classificar como um registro.
 
 ## <a name="find-the-powershell-cmdlets-for-retention-labels"></a>Localizar os cmdlets do Windows PowerShell para rótulos de retenção
 
