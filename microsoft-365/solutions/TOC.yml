@@ -12,8 +12,9 @@
     - name: Visão Geral
       href: foundation-solutions-overview.md
     - name: Capacite funcionários remotos com o Microsoft 365
-      href: empower-people-to-work-remotely.md
       items:
+        - name: Visão Geral
+          href: empower-people-to-work-remotely.md
         - name: Etapa 1. Aumentar a segurança de entrada
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: Etapa 2. Fornecer acesso remoto

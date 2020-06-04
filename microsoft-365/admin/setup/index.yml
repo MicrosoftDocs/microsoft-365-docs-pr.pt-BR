@@ -11,12 +11,12 @@ metadata:
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 6c8dea517cf2550d6781a027f9522ee2e051b209
-  ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+  ms.openlocfilehash: 78178db0f24cb9e1420de2010bf1e15c88f38d9e
+  ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 06/01/2020
-  ms.locfileid: "44471295"
+  ms.lasthandoff: 06/03/2020
+  ms.locfileid: "44545910"
 landingContent:
 - title: Inscreva-se
   linkLists:
@@ -66,3 +66,5 @@ landingContent:
       url: https://support.office.com/article/d1ad9f23-0fa3-4cf1-bf26-ff35336fd343
     - text: Treinar usuários
       url: https://support.office.com/office-training-center
+    - text: Conectar PCs ao Microsoft 365 Business Premium
+      url: https://support.office.com/article/cd5716f6-05de-430b-ac94-662d5ee71d07
