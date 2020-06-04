@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 description: Os administradores podem saber mais sobre as opções disponíveis e preferidas para bloquear mensagens de entrada no Exchange Online Protection (EOP).
-ms.openlocfilehash: d9db3d4ac123998e6ab4f108199b3aee852f95d6
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 2862fa4a33a31eac9c61f94aa929133d2dc69fc8
+ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209542"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44545895"
 ---
 # <a name="create-blocked-sender-lists-in-eop"></a>Criar listas de remetentes bloqueados no EOP
 
@@ -38,6 +38,18 @@ O melhor método para bloquear remetentes varia de acordo com o escopo do impact
 > Embora você possa usar as configurações de bloco em toda a organização para tratar de falsos negativos (spam perdido), você também deve enviar essas mensagens para a Microsoft para análise. O gerenciamento de falsos negativos usando listas de bloqueio aumenta significativamente a sobrecarga administrativa. Se você usar listas de bloqueio para desviar o spam perdido, precisará manter o tópico [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md) em mãos.
 
 Por outro lado, você também tem várias opções para sempre permitir emails de fontes específicas usando _listas de remetentes seguros_. Para obter mais informações, confira [Criar listas de remetentes seguros](create-safe-sender-lists-in-office-365.md).
+
+## <a name="email-message-basics"></a>Noções básicas sobre mensagens de email
+
+Uma mensagem de email SMTP padrão consiste em um *envelope de mensagem* e um conteúdo de mensagem. O envelope da mensagem contém informações necessárias para transmitir e entregar a mensagem entre os servidores SMTP. O conteúdo da mensagem contém os campos de cabeçalho da mensagem (coletivamente chamados de *cabeçalho da mensagem*) e o corpo da mensagem. O envelope da mensagem é descrito em RFC 5321, e o cabeçalho da mensagem é descrito em RFC 5322. Os destinatários nunca veem o envelope de mensagem real porque é gerado pelo processo de transmissão de mensagens e, na verdade, não faz parte da mensagem.
+
+- O `5321.MailFrom` Endereço (também conhecido como o endereço **de email de** remetente, o remetente P1 ou o remetente do envelope) é o endereço de email que é usado na transmissão SMTP da mensagem. Esse endereço de email geralmente é registrado no campo de cabeçalho de **retorno de caminho** no cabeçalho da mensagem (embora seja possível que o remetente designe um endereço de email de **devolução** diferente). Se a mensagem não puder ser entregue, ela é o destinatário da notificação de falha na entrega (também conhecida como notificação de falha na entrega ou mensagem de devolução).
+
+- O `5322.From` (também conhecido como o endereço **de** ou o remetente P2) é o endereço de email no campo **de cabeçalho de** e é o endereço de email do remetente que é exibido em clientes de email.
+
+Frequentemente, os `5321.MailFrom` `5322.From` endereços e são iguais (comunicação pessoa a pessoa). No entanto, quando o email é enviado em nome de outra pessoa, os endereços podem ser diferentes.
+
+Listas de remetentes bloqueados e listas de domínios bloqueados em políticas antispam no EOP inspecionar os `5321.MailFrom` `5322.From` endereços e. Os remetentes bloqueados do Outlook usam apenas o `5322.From` endereço.
 
 ## <a name="use-outlook-blocked-senders"></a>Usar remetentes bloqueados do Outlook
 

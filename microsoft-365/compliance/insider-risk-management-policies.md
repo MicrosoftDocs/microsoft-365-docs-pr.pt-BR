@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: eff935eb39884d9003b64b5be952c8e8e73b286a
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: 827cffde0ff719d133830e10e958f04fe70fc9d6
+ms.sourcegitcommit: 416a4b87bfd7e5aff80194b59b2776f054aa8eb5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515874"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44534923"
 ---
 # <a name="insider-risk-management-policies"></a>Políticas de gerenciamento de risco do insider
 
@@ -67,7 +67,7 @@ Ao criar ou modificar políticas de DLP para uso com políticas de gerenciamento
      >[!NOTE]
      >Ao criar uma nova política de DLP usando os modelos internos, você precisará selecionar a opção **criar ou personalizar regras de DLP avançadas** para definir a configuração de **relatórios de incidentes** para o nível de severidade *alto* .
 
-Cada política de gerenciamento de risco do insider criada a partir do modelo de **vazamentos de dados** pode ter apenas uma política de DLP atribuída. Se você tiver mais de uma política de DLP que gostaria de ter alertas de alta gravidade processados por uma política de gerenciamento de risco do Insider, será necessário criar uma política de gerenciamento de risco do insider separada por política de DLP.
+Cada política de gerenciamento de risco do insider criada a partir do modelo de **vazamentos de dados** pode ter apenas uma política de DLP atribuída. Considere a criação de uma política de DLP dedicada que combine as diferentes atividades que você deseja detectar e atuar como indicadores de acionamento para políticas de risco de insider que usam o modelo de **vazamento de dados** .
 
 Consulte o tópico [criar, testar e ajustar uma política de DLP](create-test-tune-dlp-policy.md) para obter orientações passo a passo para configurar as políticas de DLP para sua organização.
 

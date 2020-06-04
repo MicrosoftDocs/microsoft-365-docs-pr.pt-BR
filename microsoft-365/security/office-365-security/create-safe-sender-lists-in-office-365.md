@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre as opções disponíveis e preferidas para permitir mensagens de entrada no Exchange Online Protection (EOP).
-ms.openlocfilehash: 3ef05c919a86bc3458cceb2a2bc73522e16e4bb1
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: c9f444483afea82db1fbbe3b5be98751d42c2f5e
+ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209530"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44545941"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Criar listas de remetentes seguros no EOP
 
@@ -39,7 +39,7 @@ As regras de fluxo de emails permitem maior flexibilidade para garantir que apen
 > [!IMPORTANT]
 > • Tenha cuidado para monitorar atentamente *todas as* exceções que você deseja filtrar usando as listas de remetentes seguros. <br/><br/> • Embora você possa usar listas de remetentes confiáveis para ajudar com falsos positivos (bons emails marcados como spam), considere o uso de listas de remetentes seguros como uma solução temporária que deve ser evitada se possível. Não recomendamos o gerenciamento de falsos positivos usando as listas de remetentes seguros, pois as exceções à filtragem de spam podem abrir sua organização para falsificar e outros ataques. Se você insistir em usar listas de remetentes confiáveis para gerenciar falsos positivos, precisará estar atento e manter o tópico [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md) em mãos. <br/><br/> • Para permitir que um domínio envie emails não autenticados (ignora a proteção contra falsificação), mas não ignore verificações antispam e antimalware, você pode adicioná-lo à [lista de remetentes confiáveis do AllowedToSpoof](walkthrough-spoof-intelligence-insight.md) <br/><br/> • O EOP e o Outlook inspecionam Propriedades de mensagens diferentes para determinar o remetente da mensagem. Para obter mais informações, consulte a seção [Considerações sobre email em massa](#considerations-for-bulk-email) , posteriormente neste tópico.
 
-Por outro lado, você também tem várias opções para bloquear emails de fontes específicas usando _listas de remetentes bloqueados_. Para obter mais informações, consulte [criar listas de remetentes bloqueados no EOP](create-block-sender-lists-in-office-365.md).
+Por outro lado, você também tem várias opções para bloquear emails de fontes específicas usando _listas de remetentes bloqueados_. Para obter mais informações, confira [Criar listas de bloqueios de remetentes no EOP](create-block-sender-lists-in-office-365.md).
 
 ## <a name="recommended-use-mail-flow-rules"></a>Recomenda Usar regras de fluxo de email
 
@@ -66,13 +66,13 @@ O exemplo a seguir supõe que você precisa de emails do contoso.com para ignora
 
    - **O remetente** \> **é interno/externo** \> **Fora da organização**: essa condição é implícita, mas é possível usá-la para considerar os servidores de email locais que podem não estar configurados corretamente.
 
-   - **O assunto ou corpo** \> **assunto ou corpo inclui qualquer uma destas palavras** \> \<palavras-chave \> : se você pode restringir ainda mais as mensagens por palavras-chave ou frases na linha de assunto ou no corpo da mensagem, você pode usar essas palavras como uma condição.
+   - **O assunto ou corpo** \> **assunto ou corpo inclui qualquer uma destas palavras** \> \<keywords\>: Se você pode restringir ainda mais as mensagens por palavras-chave ou frases na linha de assunto ou no corpo da mensagem, você pode usar essas palavras como uma condição.
 
 4. **Ação**: Configure ambas as ações na regra:
 
    a. **Modificar as propriedades** \> da mensagem **definir o nível de confiança de spam (SCL)** \> **Ignorar a filtragem de spam**.
 
-   b. **Um cabeçalho** \> de mensagem **inclui qualquer uma destas palavras** \> **Nome**do cabeçalho \< : \> **valor do cabeçalho**CustomHeaderName: \< CustomHeaderValue \> .
+   b. **Um cabeçalho** \> de mensagem **inclui qualquer uma destas palavras** \> **Nome do cabeçalho**: \<CustomHeaderName\> **valor do cabeçalho**: \<CustomHeaderValue\> .
 
       Por exemplo, `X-ETR: Bypass spam filtering for authenticated sender 'contoso.com'`. Se você tiver mais de um domínio na regra, você pode personalizar o texto do cabeçalho conforme apropriado.
 
@@ -103,7 +103,7 @@ Se você não pode usar regras de fluxo de emails conforme descrito anteriorment
 
 ## <a name="use-allowed-sender-lists-or-allowed-domain-lists"></a>Usar listas de remetentes permitidos ou listas de domínios permitidos
 
-A opção menos desejável é usar a lista de remetentes permitidos ou a lista de domínios permitidos em políticas antispam. *Se possível* , você deve evitar essa opção, pois os remetentes ignoram todas as proteções de spam, falsificação e phishing, e autenticação de remetente (SPF, DKIM, DMARC). Este método é melhor usado apenas para teste temporário. As etapas detalhadas podem ser encontradas em [Configurar políticas antispam no tópico EOP](configure-your-spam-filter-policies.md) .
+A opção menos desejável é usar a lista de remetentes permitidos ou a lista de domínios permitidos em políticas antispam. *Se possível* , você deve evitar essa opção, pois os remetentes ignoram todas as proteções de spam, falsificação e phishing, e autenticação de remetente (SPF, DKIM, DMARC). Esse método é melhor usado apenas para testes temporários. As etapas detalhadas podem ser encontradas em [Configurar políticas antispam no tópico EOP](configure-your-spam-filter-policies.md) .
 
 O limite máximo para essas listas é de aproximadamente 1000 entradas; no entanto, você poderá inserir 30 entradas no Portal. Você deve usar o PowerShell para adicionar mais de 30 entradas.
 
@@ -118,7 +118,7 @@ Uma mensagem de email SMTP padrão consiste em um *envelope de mensagem* e um co
 
 - O `5322.From` (também conhecido como o endereço **de** ou o remetente P2) é o endereço de email no campo **de cabeçalho de** e é o endereço de email do remetente que é exibido em clientes de email.
 
-Frequentemente, os `5321.MailFrom` `5322.From` endereços e são iguais (comunicação pessoa a pessoa). No entanto, quando o email é enviado em nome de outra pessoa, os endereços são frequentemente diferentes. Isso geralmente acontece com mais frequência para mensagens de email em massa.
+Frequentemente, os `5321.MailFrom` `5322.From` endereços e são iguais (comunicação pessoa a pessoa). No entanto, quando o email é enviado em nome de outra pessoa, os endereços podem ser diferentes. Isso acontece com mais frequência para mensagens de email em massa.
 
 Por exemplo, suponha que as companhias aéreas Yonder azuis contratam a viagem da Margie para enviar seu anúncio de email. A mensagem recebida na caixa de entrada tem as seguintes propriedades:
 

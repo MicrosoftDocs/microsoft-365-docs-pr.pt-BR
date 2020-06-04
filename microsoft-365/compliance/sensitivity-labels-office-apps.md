@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para a área de trabalho, aplicativos do Office para dispositivos móveis e aplicativos do Office para a Web. Descubra quais aplicativos dão suporte a rótulos de confidencialidade.
-ms.openlocfilehash: e8cb869e6883df99babfb8d20bf8130678e0f9da
-ms.sourcegitcommit: 1b560ee45f3b0253fa5c410a4499373c1f92da9c
+ms.openlocfilehash: 9fca3af2c53c57bbc010c5e95976cbde9ddcbbdc
+ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432590"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44545907"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -185,7 +185,7 @@ Além de restringir o acesso aos usuários em sua própria organização, você 
 
 Se os usuários externos não tiverem uma conta no Azure Active Directory, você poderá criar uma conta de convidado para eles em seu locatário. Para o endereço de email, você pode especificar qualquer endereço de email que já esteja usando. Por exemplo, seu endereço do gmail. Essa conta de convidado também pode ser usada para acessar um documento compartilhado no SharePoint ou no OneDrive quando você tiver [habilitado rótulos de sensibilidade para arquivos do Office no SharePoint e no onedrive](sensitivity-labels-sharepoint-onedrive-files.md).
 
-Os usuários externos também podem usar e criar uma conta da Microsoft para documentos criptografados quando eles usam os aplicativos do Microsoft 365 no Windows. Esse recurso ainda não tem suporte para o MacOS, Android ou iOS. Por exemplo, alguém compartilha um documento criptografado com eles, e as configurações de criptografia especificam o endereço de email do gmail. Este usuário pode criar sua própria conta da Microsoft que usa o endereço de email do gmail. Depois, após entrar com essa conta, eles poderão abrir o documento e editá-lo, de acordo com as restrições de uso especificadas para esse usuário. Para obter um exemplo passo a passo desse cenário, consulte [abrindo e editando o documento protegido](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents#opening-and-editing-the-protected-document).
+Os usuários externos também podem usar e criar uma conta da Microsoft para documentos criptografados quando usam o Microsoft 365 aplicativos ([aplicativos formais do Office 365](https://docs.microsoft.com/deployoffice/name-change)) no Windows. Esse recurso ainda não tem suporte para o MacOS, Android ou iOS. Por exemplo, alguém compartilha um documento criptografado com eles, e as configurações de criptografia especificam o endereço de email do gmail. Este usuário pode criar sua própria conta da Microsoft que usa o endereço de email do gmail. Depois, após entrar com essa conta, eles poderão abrir o documento e editá-lo, de acordo com as restrições de uso especificadas para esse usuário. Para obter um exemplo passo a passo desse cenário, consulte [abrindo e editando o documento protegido](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents#opening-and-editing-the-protected-document).
 
 > [!NOTE]
 > O endereço de email da conta da Microsoft deve corresponder ao endereço de email especificado para restringir o acesso às configurações de criptografia.

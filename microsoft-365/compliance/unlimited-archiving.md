@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 37cdbb02-a24a-4093-8bdb-2a7f0b3a19ee
 description: Saiba mais sobre o arquivamento de expansão automática, que fornece armazenamento de arquivo ilimitado para caixas de correio do Exchange Online.
-ms.openlocfilehash: 584502092e04822a91bf6d04c77daa277ed70547
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f2d9e645badd98ea9a1d14dec22e291c8ad7de63
+ms.sourcegitcommit: 416a4b87bfd7e5aff80194b59b2776f054aa8eb5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633396"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44534913"
 ---
 # <a name="overview-of-unlimited-archiving"></a>Visão geral de arquivamento ilimitado
 
@@ -57,7 +57,7 @@ Veja aqui uma rápida visão geral do processo.
 
 ## <a name="what-gets-moved-to-the-additional-archive-storage-space"></a>O que é movido para o espaço de armazenamento de arquivo adicional?
 
-Para fazer uso eficiente do armazenamento de arquivo morto de expansão automática, as pastas podem ser movidas. O Microsoft 365 determina quais pastas serão movidas quando o armazenamento adicional é adicionado ao arquivo morto. Às vezes, quando uma pasta é movida, uma ou mais subpastas são criadas automaticamente e os itens da pasta original são distribuídos para essas pastas para facilitar o processo de movimentação. Ao exibir a parte de arquivo morto da lista de pastas no Outlook, essas subpastas são exibidas na pasta original.  A Convenção de nomenclatura que o Microsoft 365 usa para nomear essas subpastas é ** \<o nome\>da pasta _yyyy (criado no Mmm dd, yyyy h_mm)**, em que:
+Para fazer uso eficiente do armazenamento de arquivo morto de expansão automática, as pastas podem ser movidas. O Microsoft 365 determina quais pastas serão movidas quando o armazenamento adicional é adicionado ao arquivo morto. Às vezes, quando uma pasta é movida, uma ou mais subpastas são criadas automaticamente e os itens da pasta original são distribuídos para essas pastas para facilitar o processo de movimentação. Ao exibir a parte de arquivo morto da lista de pastas no Outlook, essas subpastas são exibidas na pasta original.  A Convenção de nomenclatura que o Microsoft 365 usa para nomear essas subpastas é ** \<folder name\> _Yyyy (criada em Mmm dd, yyyy h_mm)**, em que:
 
 - **yyyy** é o ano em que as mensagens na pasta foram recebidas.
 
@@ -90,7 +90,7 @@ Aqui estão alguns pontos a considerar ao usar o Outlook ou o Outlook na Web par
 
 - Você pode acessar qualquer pasta na caixa de correio de arquivo morto, incluindo aquelas que foram movidas para a área de armazenamento expandida automaticamente.
 
-- Você pode pesquisar itens que foram movidos para uma área de armazenamento adicional somente pesquisando a própria pasta. Isso significa que você precisa selecionar a pasta de arquivo morto na lista de pastas para selecionar a opção **pasta atual** como o escopo de pesquisa. Da mesma forma, se uma pasta em uma área de armazenamento expandida contiver subpastas, você terá que pesquisar cada subpasta separadamente.
+- A pesquisa do arquivamento expandido automático só está disponível na área de trabalho do Outlook a partir do insider Build 16.0.12716.10000. A pesquisa está disponível no Outlook para a Web. Semelhante ao arquivo morto online, você pode pesquisar itens que foram movidos para uma área de armazenamento adicional somente pesquisando a própria pasta. Isso significa que você precisa selecionar a pasta de arquivo morto na lista de pastas para selecionar a opção **pasta atual** como o escopo de pesquisa. Da mesma forma, se uma pasta em uma área de armazenamento expandida contiver subpastas, você terá que pesquisar cada subpasta separadamente.
 
 - As contagens de itens no Outlook e nas contagens de leitura/não leitura (no Outlook e no Outlook na Web) em um arquivo morto expandido automaticamente podem não ser precisas.
 
