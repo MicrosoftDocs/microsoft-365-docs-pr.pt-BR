@@ -16,22 +16,25 @@ search.appverid:
 - MET150
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: Use a ferramenta de descoberta eletrônica de pesquisa de conteúdo para pesquisar itens importados para caixas de correio no Microsoft 365 de uma fonte de dados de terceiros. Você pode criar uma consulta para pesquisar todos os itens importados ou criar uma consulta para Pesquisar tipos de dados específicos de terceiros. Este artigo lista os valores que podem ser usados em uma consulta de palavra-chave para pesquisar os tipos de dados de terceiros que podem ser importados para o Microsoft 365.
-ms.openlocfilehash: e7e48f5231bccc988ad853202603defd17fd58f4
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: ab693ff8e2283e201b9d573e68f4bdfb9f859749
+ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942964"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44564964"
 ---
-# <a name="use-content-search-to-search-third-party-imported-data"></a>Usar a pesquisa de conteúdo para pesquisar dados importados de terceiros
+# <a name="use-content-search-to-search-third-party-data-imported-by-a-custom-partner-connector"></a>Usar a pesquisa de conteúdo para pesquisar dados de terceiros importados por um conector de parceiro personalizado
 
-Você pode usar a [ferramenta de descoberta eletrônica de pesquisa de conteúdo](content-search.md) no centro de conformidade de & de segurança para pesquisar itens importados para caixas de correio no Microsoft 365 de uma fonte de dados de terceiros. Você pode criar uma consulta para pesquisar todos os itens importados de dados de terceiros ou pode criar uma consulta para pesquisar itens de dados de terceiros específicos. Além disso, você também pode criar uma política de retenção baseada em consulta ou um controle de descoberta eletrônica baseado em consulta para preservar dados de terceiros. 
+Você pode usar a [ferramenta de descoberta eletrônica de pesquisa de conteúdo](content-search.md) no centro de conformidade de & de segurança para pesquisar itens importados para caixas de correio no Microsoft 365 de uma fonte de dados de terceiros. Você pode criar uma consulta para pesquisar todos os itens importados de dados de terceiros ou pode criar uma consulta para pesquisar itens de dados de terceiros específicos. Além disso, você também pode criar uma política de retenção baseada em consulta ou um controle de descoberta eletrônica baseado em consulta para preservar dados de terceiros.
   
-Para obter mais informações sobre como importar dados de terceiros e uma lista dos tipos de dados de terceiros que podem ser importados para o Microsoft 365, consulte [trabalhar com um parceiro para arquivar dados de terceiros no Office 365](work-with-partner-to-archive-third-party-data.md). 
+Para obter mais informações sobre como trabalhar com um parceiro para importar dados de terceiros e uma lista dos tipos de dados de terceiros que podem ser importados para o Microsoft 365, consulte [trabalhar com um parceiro para arquivar dados de terceiros no Office 365](work-with-partner-to-archive-third-party-data.md).
+
+> [!IMPORTANT]
+> As orientações deste artigo se aplicam apenas a dados de terceiros que foram importados por um conector de parceiro personalizado. Este artigo não se aplica a dados de terceiros que são importados usando os [conectores de dados de terceiros](archiving-third-party-data.md#third-party-data-connectors) no centro de conformidade da Microsoft.
   
 ## <a name="creating-a-query-to-search-all-third-party-data"></a>Criar uma consulta para pesquisar todos os dados de terceiros
 
-Para pesquisar (ou colocar em espera) qualquer tipo de dados de terceiros que você importou para o Office 365, você pode usar `kind:externaldata` o par propriedade-valor de mensagem na caixa palavra-chave para uma pesquisa de conteúdo ou ao criar uma retenção baseada em consulta. Por exemplo, para pesquisar itens importados de qualquer fonte de dados de terceiros e contenham a palavra "contoso" na propriedade Subject do item importado, você usaria a seguinte consulta: 
+Para pesquisar (ou colocar em espera) qualquer tipo de dados de terceiros que você importou para o Office 365, você pode usar o `kind:externaldata` par propriedade-valor de mensagem na caixa palavra-chave para uma pesquisa de conteúdo ou ao criar uma retenção baseada em consulta. Por exemplo, para pesquisar itens importados de qualquer fonte de dados de terceiros e contenham a palavra "contoso" na propriedade Subject do item importado, você usaria a seguinte consulta: 
   
 ```powershell
 kind:externaldata AND subject:contoso
@@ -55,7 +58,7 @@ Por exemplo, para pesquisar dados do Facebook que contenham a palavra "contoso" 
 itemclass:ipm.externaldata.Facebook* AND subject:contoso
 ```
 
-A tabela a seguir lista os tipos de dados de terceiros que podem ser pesquisados e o valor a ser usado `itemclass:` para a propriedade Message para pesquisar especificamente o tipo de dados de terceiros. A sintaxe da consulta não diferencia maiúsculas de minúsculas. 
+A tabela a seguir lista os tipos de dados de terceiros que podem ser pesquisados e o valor a ser usado para a `itemclass:` Propriedade Message para pesquisar especificamente o tipo de dados de terceiros. A sintaxe da consulta não diferencia maiúsculas de minúsculas. 
   
 |**Tipo de dados de terceiros**|**Valor da `itemclass:` Propriedade**|
 |:-----|:-----|
@@ -81,7 +84,7 @@ A tabela a seguir lista os tipos de dados de terceiros que podem ser pesquisados
 |Bloomberg Mail  <br/> | `ipm.externaldata.BloombergMail*` <br/> |
 |Mensagens do Bloomberg  <br/> | `ipm.externaldata.BloombergMessaging*` <br/> |
 |Caixa  <br/> | `ipm.externaldata.Box*` <br/> |
-|Servidor de &amp; presença de im da Cisco  <br/> | `ipm.externaldata.Jabber.IM` <br/> |
+|Servidor de presença de IM da Cisco &amp;  <br/> | `ipm.externaldata.Jabber.IM` <br/> |
 |Cisco Jabber  <br/> | `ipm.externaldata.Jabber*` <br/> |
 |CipherCloud for Salesforce Chatter  <br/> | `ipm.externaldata.Chatter.Post` <br/>  `ipm.externaldata.Chatter.Comment` <br/> |
 |Conexão Direta  <br/> | `ipm.externaldata.DirectConnect*` <br/> |

@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - FRP150
 description: Saiba mais sobre o centro de administração do Microsoft 365.
-ms.openlocfilehash: 267a7fe56cbd71734664f085846c8b5a1356cccd
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 720130f01000e1f8845d2fa28dbc2d278a258ebf
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432202"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560418"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Sobre o centro de administração do Microsoft 365
 
@@ -54,8 +54,6 @@ O centro de administração do Microsoft 365 é o ponto de entrada comum para to
 ### <a name="turn-on-targeted-release"></a>Ativar lançamento direcionado
 
 1. Entre em [admin.Microsoft.com](https://admin.microsoft.com), vá para o painel de navegação e selecione **configurações** \> **perfil da organização**.
-
-1. Entre em [Portal.Partner.microsoftonline.cn](https://go.microsoft.com/fwlink/p/?linkid=513813), vá para o painel de navegação e selecione **configurações** \> **perfil da organização**.
 
 2. Vá para o cartão de **preferências de lançamento** e, em seguida, selecione **Editar**. 
     
