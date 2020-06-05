@@ -16,16 +16,16 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: Use o novo painel de segurança para analisar o status de proteção contra ameaças do Office 365 e exibir e agir em alertas de segurança.
-ms.openlocfilehash: d750c0055a9a55f573e4b920166284f6d95ae70f
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: c18c25fcb35661ae8703a98ca0e83cdddc0a9f2e
+ms.sourcegitcommit: 86705d15231c987be2fcf5a295b9b6239fc46077
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208031"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44566711"
 ---
 # <a name="security-dashboard"></a>Painel de segurança
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O [centro de conformidade & segurança](../../compliance/go-to-the-securitycompliance-center.md) permite que sua organização gerencie a proteção e a conformidade dos dados. Supondo que você tenha as permissões necessárias, o painel de segurança permite que você revise o status da proteção contra ameaças, bem como o modo de exibição e agir nos alertas de segurança.
 
@@ -47,11 +47,12 @@ O widget Resumo de gerenciamento de ameaças informa rapidamente como sua organi
 ![Painel de segurança-widget Resumo de gerenciamento de ameaças](../../media/SecDash-ThreatMgmtSummary.png)
 
 As informações que você verá no Resumo de gerenciamento de ameaças depende do que a assinatura inclui. A tabela a seguir descreve quais informações estão incluídas para o Office 365 E3 e o Office 365 e5.
-|||
+
+
+|Office 365 E3 |Office 365 E5 |
 |---|---|
-|**Office 365 E3**|**Office 365 E5**|
 |Mensagens de malware bloqueadas<br/>Mensagens de phishing bloqueadas<br>Mensagens relatadas por usuários<br><br><br><br>|Mensagens de malware bloqueadas<br>Mensagens de phishing bloqueadas<br>Mensagens relatadas por usuários<br>Malware de dia zero bloqueado<br>Mensagens de phishing avançadas detectadas<br>URLs mal-intencionadas bloqueadas|
-|
+
 
 Para exibir ou acessar o widget Resumo de gerenciamento de ameaças, você deve ter permissões para exibir relatórios de proteção avançada contra ameaças. Para saber mais, veja [quais permissões são necessárias para exibir os relatórios ATP?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports).
 
@@ -63,12 +64,10 @@ O widget status de proteção contra ameaças mostra a eficácia da proteção c
 
 Os detalhes dependem de sua assinatura do Microsoft 365 incluir o [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) com ou sem o [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP).
 
-|||
+|Se sua assinatura incluir...|Você verá estes detalhes|
 |---|---|
-|**Se sua assinatura incluir...**|**Você verá estes detalhes**|
 |EOP mas não Office 365 ATP|Email mal-intencionado detectado e bloqueado pelo EOP.<br><br> Consulte [relatório de status de proteção contra ameaças (EOP)](view-email-security-reports.md#threat-protection-status-report).|
 |Office 365 ATP|Conteúdo mal-intencionado e email mal-intencionado detectados e bloqueados pelo EOP e pelo Office 365 ATP<br><br>Contagem agregada de mensagens de email exclusivas com conteúdo mal-intencionado bloqueado pelo Mecanismo Antimalware, [limpeza automática de zero horas](zero-hour-auto-purge.md)e recursos ATP (incluindo [links seguros](atp-safe-links.md), [anexos seguros](atp-safe-attachments.md)e [anti-phishing](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)).<br><br>Consulte [relatório de status de proteção contra ameaças (ATP)](view-reports-for-atp.md#threat-protection-status-report).|
-|
 
 Para exibir ou acessar o widget status de proteção contra ameaças, você deve ter permissões para exibir relatórios de proteção avançada contra ameaças. Para saber mais, veja [quais permissões são necessárias para exibir os relatórios ATP?](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports).
 
@@ -80,14 +79,13 @@ O widget global Weekly detecções de ameaças mostra quantas ameaças foram det
 
 As métricas são calculadas conforme descrito na tabela a seguir:
 
-|||
+|Indicador|Como é calculado |
 |---|---|
-|**Indicador**|**Como é calculado**|
 |Mensagens verificadas|Número de mensagens de email verificadas multiplicadas pelo número de destinatários|
 |Ameaças interrompidas|Número de mensagens de email identificadas como contendo malware multiplicado pelo número de destinatários|
 |Bloqueado por [ATP](office-365-atp.md)|Número de mensagens de email bloqueadas por ATP multiplicado pelo número de destinatários|
 |Removido após a entrega|Número de mensagens removidas por [limpeza automática de zero hora](zero-hour-auto-purge.md) multiplicado pelo número de destinatários|
-|
+
 
 ## <a name="malware"></a>Malware
 
@@ -105,9 +103,9 @@ Por exemplo, você pode ver que as mensagens de email de phishing estão sendo e
 
 ## <a name="threat-investigation-and-response"></a>Investigação e resposta a ameaças
 
-Se a assinatura de sua organização incluir o [plano de proteção avançada contra ameaças do Office 365](office-365-ti.md), o painel de segurança tem uma seção que inclui investigação avançada de ameaças e ferramentas de resposta. A equipe de segurança da sua organização pode usar as informações desta seção para entender campanhas emergentes, investigar ameaças e gerenciar incidentes.
+Se a assinatura de sua organização incluir o [plano de proteção avançada contra ameaças do Office 365](office-365-ti.md), o painel de segurança tem uma seção que inclui investigação avançada de ameaças e ferramentas de resposta. Essas ferramentas incluem [investigação automatizada e recursos de resposta](automated-investigation-response-office.md). A investigação e a resposta automatizadas podem ser úteis em cenários como [endereçar contas de usuário comprometidas rapidamente](address-compromised-users-quickly.md).
 
-![A inteligência de ameaças ajuda você a entender ataques direcionados a sua organização](../../media/threatintelwidget.png)
+Para saber mais, confira [introdução ao uso de investigação e resposta automatizadas (Air) no Office 365](office-365-air.md).
 
 ## <a name="trends"></a>Tendências
 

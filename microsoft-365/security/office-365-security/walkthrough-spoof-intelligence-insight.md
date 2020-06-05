@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender como a compreensão da inteligência de falsificação funciona, incluindo como determinar rapidamente quais remetentes estão enviando legitimamente emails não autenticados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4a71b885926d742f86a5a0c86443a5f5ba23b8a6
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 1b97d36c3434e7410f4cb3d19ef8eaee6f37e601
+ms.sourcegitcommit: 86705d15231c987be2fcf5a295b9b6239fc46077
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208459"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44566699"
 ---
 # <a name="walkthrough---atp-spoof-intelligence-insight-in-microsoft-365"></a>Walkthrough-visão geral da inteligência de fraudes ATP no Microsoft 365
 
@@ -35,7 +35,7 @@ Este passo a passo é um dos vários para o centro de conformidade de & de segur
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página do **painel de segurança** , use <https://protection.office.com/searchandinvestigation/dashboard> .
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página do **painel de segurança** , use <https://protection.office.com/searchandinvestigation/dashboard> .
 
   Você pode exibir a percepção de inteligência de falsificação de mais de um painel no centro de conformidade & segurança. Independentemente de qual painel você está vendo, a percepção fornece os mesmos detalhes e permite que você realize rapidamente as mesmas tarefas.
 
@@ -102,9 +102,3 @@ Por exemplo, se você adicionar o seguinte par de domínios à lista de permiss�
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Proteção contra falsificação no Microsoft 365](anti-spoofing-protection.md)
-
-[Passo a passo – de um painel para um insight](from-a-dashboard-to-an-insight.md)
-
-[Passo a passo – De um relatório detalhado para um insight](from-a-detailed-report-to-an-insight.md)
-
-[Passo a passo – de um insight para um relatório detalhado](from-an-insight-to-a-detailed-report.md)
