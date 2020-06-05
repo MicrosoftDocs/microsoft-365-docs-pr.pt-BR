@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como os rótulos de retenção classificam os dados em toda organização para governança e impõem regras de retenção com base nessa classificação. Você também pode usar rótulos de retenção para implementar uma solução de gerenciamento de registros para Microsoft 365.
-ms.openlocfilehash: 4291e32760a585be7610612b81cc54ecfcf0863e
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: ab2e1baf553a386009d55e43efdf75b796cc1ffd
+ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432238"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44545963"
 ---
 # <a name="learn-about-retention-labels"></a>Saiba mais sobre rótulos de retenção
 
@@ -129,7 +129,9 @@ Além disso, um rótulo de retenção tem duas opções de retenção, disponív
   
 - Disparar uma revisão de disposição ao fim do período de retenção, para que os documentos do SharePoint e do OneDrive sejam examinados antes de serem excluídos. Para saber mais, confira [Revisões de disposição](disposition.md#disposition-reviews).
     
-- Iniciar o período de retenção a partir do momento de aplicação do rótulo no conteúdo, em vez da idade do conteúdo ou da última modificação. Esta opção se aplica apenas ao conteúdo em sites do SharePoint e contas do OneDrive. Para um mail do Exchange, o período de retenção sempre é baseado na data em que a mensagem foi enviada ou recebida, independentemente da opção que você escolher aqui.
+- Iniciar o período de retenção a partir do momento de aplicação do rótulo no conteúdo, em vez da idade do conteúdo ou da última modificação. Quando você usa esta opção:
+    - Esta opção se aplica apenas ao conteúdo nos sites do SharePoint e contas do OneDrive. Para o e-mail do Exchange, o período de retenção é sempre baseado na data em que a mensagem foi enviada ou recebida.
+    - Você não pode alterar o período de retenção depois que o rótulo for salvo.
     
 ![Configurações de retenção com opções específicas aos rótulos](../media/c49118c9-6279-4661-94db-deffa76e27ac.png)
 
