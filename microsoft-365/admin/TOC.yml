@@ -26,6 +26,10 @@
           href: setup/migrate-email-and-contacts-admin.md
         - name: Instalar os aplicativos do Office
           href: setup/install-applications.md
+        - name: Configurar dispositivos do Windows
+          href: ../business/set-up-windows-devices.md
+        - name: Configurar dispositivos móveis
+          href: ../business/set-up-mobile-devices.md
         - name: Implantar o Teams
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
         - name: Treinamento do aplicativo para todos
@@ -38,6 +42,14 @@
           href: setup/customize-your-organization-theme.md
         - name: Saiba mais sobre o Office 365 Germany
           href: admin-overview/learn-about-office-365-germany.md
+        - name: Acessar usuários e recursos locais
+          items:
+            - name: Sincronizar os usuários do domínio com o Microsoft 365
+              href: ../business/manage-domain-users.md
+            - name: Habilite o gerenciamento dos dispositivos do Windows 10 ingressados no domínio
+              href: ../business/manage-windows-devices.md
+            - name: Acesse os recursos de um dispositivo associado ao Azure AD
+              href: ../business/access-resources.md
     - name: Visão geral do Centro de administração do Microsoft 365
       items:
         - name: Visão geral do Centro de administração
@@ -274,6 +286,8 @@
           href: ../business/reset-devices-to-factory-settings.md
         - name: Mapeie os recursos de proteção das configurações do Intune
           href: ../business/map-protection-features-to-intune-settings.md
+        - name: Estados do dispositivo
+          href: ../business/device-states.md
         - name: Configurações de proteção dos aplicativos para Android e iOS
           href: ../business/app-protection-settings-for-android-and-ios.md
           items:
@@ -286,6 +300,16 @@
               href: ../business/validate-settings-on-windows-10-pcs.md
         - name: Configurações de proteção de aplicativos em computadores com Windows 10
           href: ../business/protection-settings-for-windows-10-devices.md
+        - name: Autopilot
+          items:
+            - name: Adicione o perfil e dispositivos do Autopilot
+              href: ../business/add-autopilot-devices-and-profile.md
+            - name: Crie e edite os perfis do AutoPilot
+              href: ../business/create-and-edit-autopilot-profiles.md
+            - name: Crie e edite os dispositivos do AutoPilot
+              href: ../business/create-and-edit-autopilot-devices.md
+            - name: Configurações do perfil do AutoPilot
+              href: ../business/autopilot-profile-settings.md
     - name: Trabalhar com clientes
       href: work-with-customers/index.yml
       items:
