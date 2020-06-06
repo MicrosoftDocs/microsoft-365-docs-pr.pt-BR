@@ -249,17 +249,19 @@
           href: archiving-third-party-data.md
         - name: Arquivar dados do Facebook (visualização)
           href: archive-facebook-data-with-sample-connector.md
-        - name: Arquivar dados do Twitter (visualização)
-          href: archive-twitter-data-with-sample-connector.md
-        - name: Arquivar dados do LinkedIn
-          href: archive-linkedin-data.md
-        - name: Arquivar dados Instantâneos do Bloomberg
-          href: archive-instant-bloomberg-data.md
         - name: Importar dados de RH (visualização)
           href: import-hr-data.md
+        - name: Arquivar dados Instantâneos do Bloomberg
+          href: archive-instant-bloomberg-data.md
+        - name: Arquivar dados do LinkedIn
+          href: archive-linkedin-data.md
+        - name: Arquivar dados do Twitter (visualização)
+          href: archive-twitter-data-with-sample-connector.md
         - name: Trabalhar com um parceiro para arquivar dados de terceiros
           href: work-with-partner-to-archive-third-party-data.md
-    - name: Armazenar dados
+        - name: Pesquisar dados de terceiros
+          href: use-content-search-to-search-third-party-data-that-was-imported.md
+    - name: Armazenar dados de caixa de correio
       items:
         - name: Habilitar caixas de correio de arquivamento
           href: enable-archive-mailboxes.md
@@ -388,8 +390,6 @@
               href: bulk-edit-content-searches.md
             - name: Preparar um arquivo CSV para uma pesquisa de lista de IDs
               href: csv-file-for-an-id-list-content-search.md
-            - name: Pesquisar dados de terceiros
-              href: use-content-search-to-search-third-party-data-that-was-imported.md
             - name: Verificar se há erros na sua consulta
               href: check-your-content-search-query-for-errors.md
             - name: Solucionar problemas comuns de Descoberta Eletrônica
