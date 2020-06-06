@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 05/27/2020
+ms.date: 06/03/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Configure a infraestrutura de segurança e serviços que permita aos seus funcionários trabalharem remotamente em qualquer lugar e a qualquer momento.
-ms.openlocfilehash: ce287cdf5bcbd0283252b08c035dc954044a9c0e
-ms.sourcegitcommit: 416a4b87bfd7e5aff80194b59b2776f054aa8eb5
+ms.openlocfilehash: 763c8e745eb54897c1df88ecb5a9064987ed5a13
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44534946"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560454"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Capacite funcionários remotos com o Microsoft 365
 
@@ -38,6 +38,16 @@ O trabalho remoto, também conhecido como teletrabalho, pode abranger um espectr
 - Alguns funcionários que trabalham remotamente em tempo integral.
 - Uma organização totalmente remota na qual não há nenhum escritório e todos os funcionários são remotos.
 
+Em qualquer lugar do mundo e a qualquer momento, os funcionários remotos devem poder acessar:
+
+- Recursos da organização, como os oferecidos por centros de dados de aplicativos locais.
+- Serviços e dados em nuvem na sua assinatura do Microsoft 365, como Teams, Exchange Online, SharePoint e OneDrive.
+
+Para uma experiência de entrada perfeita, as contas de usuários dos Serviços de Domínio do Active Directory (AD DS) devem ser sincronizados com o Azure Active Directory (Azure AD). Para proteger os dispositivos com Windows 10, eles devem ser registrados no Intune. Veja a seguir uma visão geral da infraestrutura.
+
+![A infraestrutura básica para funcionários remotos com o Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-basic-infrastructure.png)
+
+
 Para dar suporte a funcionários remotos, por exemplo, em resposta à crise COVID-19, uma combinação de recursos no Microsoft 365 permite aos funcionários remotos colaborar de forma ativa, como por exemplo:
 
 - Reuniões online e sessões de chat.
@@ -51,27 +61,25 @@ Para segurança forte, o Microsoft 365 inclui:
 - Permissões para definir quem pode fazer o que com os arquivos.
 - Recursos de segurança abrangentes para proteger dispositivos Windows 10.
 
-Para atender a esses critérios para funcionários remotos, use os seguintes recursos do Microsoft 365:
+Para atender a esses critérios para funcionários remotos, use as seguintes capacidades e recursos do Microsoft 365.
 
-- Identidade do usuário e segurança de entrada
-  - Contas de usuário do Azure Active Directory (Azure AD) com autenticação multifator (MFA)
-  - Uma política de Acesso Condicional para exigir MFA para entradas potencialmente perigosas (Microsoft 365 E5)
-- Plataformas de colaboração
-  - Microsoft Teams, SharePoint e OneDrive, com os quais funcionários remotos podem agendar e participar de reuniões online e trabalhar nos mesmos documentos ao mesmo tempo
-- Acesso protegido aos recursos
-  - Grupos e permissões para o Teams, sites do SharePoint e o OneDrive, para que somente usuários autenticados e permitidos tenham acesso
-- Proteção contra divulgação não autorizada de arquivos
-  - Rótulos de sensibilidade para criptografia e permissões que viajam com arquivos
-- Gerenciamento e segurança de dispositivos com o Microsoft Intune
-  - Registro de dispositivos gerenciados
-  - Configurações de aplicativo para dispositivos pessoais
-  - Políticas de dispositivos e aplicativos
-- Aplicativos de produtividade para dispositivos
-  - Aplicativos Microsoft 365 (Word, PowerPoint, Excel) para experiências colaborativas com Teams, SharePoint e OneDrive 
-- Windows 10 Enterprise
-  - Recursos de segurança internos para proteção contra ataques cibernéticos e prevenção de vazamento de dados
-- Acesso a aplicativos e servidores locais
-  - Conexões VPN (rede virtual privada), proxy do aplicativo Azure AD ou VPN ponto a site do Azure
+| Capcidade ou recurso | Descrição | Licenças |
+|:-------|:-----|:-------|
+| MFA imposta com padrões de segurança   | Proteja-se contra os dispositivos e identidades comprometidos exigindo uma segunda forma de autenticação para as entradas. O padrão de segurança exige MFA para todas as contas de usuário.   | Microsoft 365 E3 e e5 |
+| MFA imposta com Acesso Condicional| Exija MFA com base nas propriedades da entrada com políticas de Acesso Condicional.    | Microsoft 365 E3 e e5 | 
+| MFA imposta com Acesso Condicional baseado em risco   | Exija a MFA com base no risco do logon do usuário com a Proteção Avançada contra Ameaças do Azure. | Microsoft 365 E5 ou E3 com as licenças do Azure AD Premium P2 | 
+| Redefinição de Senha por autoatendimento (SSPR)    | Permita que os usuários redefinam ou desbloqueiem suas contas ou senhas.  | Microsoft 365 E3 e e5 |
+| Proxy do Aplicativo Azure AD    | Forneça acesso remoto seguro para aplicativos baseados na web hospedados em servidores da intranet.   | Exige uma assinatura paga do Azure paga |
+| VPN de Ponto a Site do Azure   | Criar uma conexão segura do dispositivo de um trabalhador remoto para sua intranet por meio de uma rede virtual do Azure.   | Exige uma assinatura paga do Azure paga |
+| Área de Trabalho Virtual do Windows   | Suporte a funcionários remotos que só podem usar seus dispositivos pessoais e não gerenciados com as áreas de trabalho virtuais que estão sendo executadas no Azure. | Exige uma assinatura paga do Azure paga |
+| Serviços de Área de Trabalho Remota (RDS) | Permitir que os funcionários se conectem a computadores baseados no Windows na intranet. | Microsoft 365 E3 e e5 | 
+| Gateway dos Serviços de Área de Trabalho Remota   | Criptografe comunicações e impeça que os hosts RDS sejam expostos diretamente à Internet. | Exige licenças separadas do Windows Server |
+| Microsoft Intune | Gerenciar dispositivos e aplicativos.   | Microsoft 365 E3 e e5 | 
+| Gerenciador de Configurações | Gerenciar instalações, atualizações e configurações de software em seus dispositivos | Exige licenças separadas do Configuration Manager |
+| Análise de Área de Trabalho | Determine a prontidão de atualização dos seus clientes Windows.   | Exige licenças separadas do Configuration Manager |
+| Windows Autopilot | Configure e configure novamente os novos dispositivos com Windows 10 para uso produtivo.   | Microsoft 365 E3 e e5 |
+| Microsoft Teams, Exchange Online, SharePoint Online e OneDrive, Microsoft 365 Apps, Microsoft Power Platform, Yammer, Power Apps | Criar, comunicar e colaborar. | Microsoft 365 E3 e e5 |
+||||
 
 Use estas etapas para proteger e otimizar o acesso aos servidores, dados e serviços na nuvem da sua organização e habilitar a produtividade máxima do trabalho.
 
