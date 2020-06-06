@@ -81,7 +81,7 @@
         - name: Soluções de telefonia
           items:
             - name: Escolha sua solução
-              href: 'https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: Estudo de caso para a corporação multinacional
               href: null
         - name: Colaboração de arquivos no SharePoint com o Microsoft 365
@@ -89,7 +89,7 @@
         - name: Planejar uma intranet inteligente do SharePoint
           href: 'https://docs.microsoft.com/sharepoint/plan-intranet?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Guia do OneDrive para empresas
-          href: 'https://docs.microsoft.com/en-us/onedrive/plan-onedrive-enterprise?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/onedrive/plan-onedrive-enterprise?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Segurança
       items:
         - name: Principais tarefas de equipes de segurança para dar suporte ao trabalho de casa
@@ -158,6 +158,8 @@
       href: identity-design-principles.md
     - name: Obstáculos de segurança que você pode sailr
       href: security-design-principles.md
+    - name: Rede (para a nuvem)
+      href: networking-design-principles.md
 - name: Recursos de implantação do Microsoft 365
   items:
     - name: Implantar o Microsoft 365

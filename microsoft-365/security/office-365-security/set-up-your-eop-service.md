@@ -14,12 +14,12 @@ ms.custom:
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: Os administradores podem saber como configurar o proteção do Exchange Online (EOP) autônomo para proteger ambientes de email locais.
-ms.openlocfilehash: bf762eabcfebf34ca8cb8d37935ffac011228df0
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b50ec7e2bca3765bb81e165b74596155da1f7940
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209794"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588059"
 ---
 # <a name="set-up-your-standalone-eop-service"></a>Configurar seu serviço EOP autônomo
 
@@ -43,12 +43,12 @@ Este tópico explica como configurar o proteção do Exchange Online autônomo (
 
 ## <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>Etapa 1: usar o centro de administração do Microsoft 365 para adicionar e verificar seu domínio
 
-1. No [centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center), vá para **configuração** para adicionar seu domínio ao serviço.
+1. No [centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/admin-overview/about-the-admin-center), vá para **configuração** para adicionar seu domínio ao serviço.
 
 2. Siga as etapas para adicionar os registros DNS aplicáveis ao seu provedor de hospedagem de DNS, a fim de verificar a propriedade do domínio.
 
 > [!TIP]
-> [Adicionar um domínio ao office 365](https://docs.microsoft.com/office365/admin/setup/add-domain) e [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) são recursos úteis para fazer referência à medida que você adiciona seu domínio ao serviço e configura o DNS.
+> [Adicionar um domínio ao office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) e [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Office 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) são recursos úteis para fazer referência à medida que você adiciona seu domínio ao serviço e configura o DNS.
 
 ## <a name="step-2-add-recipients-and-optionally-enable-dbeb"></a>Etapa 2: Adicionar destinatários e, opcionalmente, habilitar o DBEB
 
@@ -77,7 +77,7 @@ Se não quiser mover mensagens para a pasta de lixo eletrônico de cada usuário
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Etapa 6: usar o centro de administração do Microsoft 365 para apontar o seu registro MX para o EOP
 
-Siga as etapas de configuração do domínio para atualizar seu registro MX para o seu domínio, de forma que seus emails de entrada fluam pelo EOP. Certifique-se de apontar seu registro MX diretamente para a EOP em vez de ter um serviço de filtragem de terceiros relacionado ao email para a EOP. Para saber mais, você pode consultar novamente [Criar registros DNS para o Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
+Siga as etapas de configuração do domínio para atualizar seu registro MX para o seu domínio, de forma que seus emails de entrada fluam pelo EOP. Certifique-se de apontar seu registro MX diretamente para a EOP em vez de ter um serviço de filtragem de terceiros relacionado ao email para a EOP. Para saber mais, você pode consultar novamente [Criar registros DNS para o Office 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
 > [!NOTE]
 > Se for necessário apontar o seu registro MX para outro servidor ou serviço que esteja na frente do EOP, confira [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).

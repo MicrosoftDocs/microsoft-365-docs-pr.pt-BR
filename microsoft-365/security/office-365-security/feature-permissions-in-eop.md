@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 34674847-a6b7-4a7e-9eaa-b64f22bc150d
 description: Saiba mais sobre a permissão necessária para tarefas na proteção do Exchange Online autônoma
-ms.openlocfilehash: 0138bd4716d831a33fa4b5a0fbdce0f154d62776
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 0c3074789e439c3923667d37446733665fa79d88
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208859"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588247"
 ---
-# <a name="permissions-in-standalone-eop"></a>Permissões em EOP autônomos
+# <a name="permissions-in-standalone-eop"></a>Permissões no EOP autônomo
 
 Proteção autônoma do Exchange Online (EOP) sem caixas de correio do Exchange Online usa o modelo de permissões RBAC (controle de acesso baseado em função) para conceder permissões facilmente aos seus administradores. Você pode usar os recursos de permissão em EOP autônomos para colocar sua nova organização em funcionamento rapidamente.
 
@@ -134,7 +134,7 @@ A tabela a seguir lista as funções do Microsoft 365 e os grupos de funções d
 |Leitor de segurança|SecurityReader|
 |
 
-Outras funções do Microsoft 365 não têm um grupo de função EOP correspondente e não concederão permissões administrativas no EOP. Para obter mais informações sobre a atribuição de uma função 365 da Microsoft a um usuário, consulte [assign admin Roles](https://docs.microsoft.com/office365/admin/add-users/assign-admin-roles).
+Outras funções do Microsoft 365 não têm um grupo de função EOP correspondente e não concederão permissões administrativas no EOP. Para obter mais informações sobre a atribuição de uma função 365 da Microsoft a um usuário, consulte [assign admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles).
 
 Os usuários podem receber direitos administrativos no EOP sem adicioná-los às funções do Microsoft 365. Para fazer isso, adicione o usuário como membro de um grupo de função EOP. O usuário receberá permissões no EOP, mas não obterá permissões em outras cargas de trabalho do Microsoft 365.
 
@@ -144,7 +144,7 @@ Para verificar se você copiou um grupo de funções com êxito, execute uma das
 
 - No Eat, vá para funções de administrador de **permissões** \> **Admin Roles**e verifique se o grupo de função está listado (ou não listado). Selecione o grupo de funções e verifique as configurações no painel de detalhes ou clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) para verificar as configurações.
 
-- No PowerShell do Exchange Online, substitua o nome \< \> do grupo de função pelo nome do grupo de função e execute o seguinte comando para verificar se o grupo de função existe (ou não existe) e verifique as configurações:
+- No PowerShell do Exchange Online, substitua o \<Role Group Name\> nome do grupo de função e execute o seguinte comando para verificar se o grupo de função existe (ou não existe) e verifique as configurações:
 
     ```PowerShell
     Get-RoleGroup -Identity "<Role Group Name>" | Format-List

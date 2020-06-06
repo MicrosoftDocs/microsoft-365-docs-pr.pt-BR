@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir o consentimento ilícito conceder ataque no Microsoft Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7ba6c521c814e4ea44c2dc29ccdad8143d166d4
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 0e775112809fc25e562686761c69471dad6cac1d
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034823"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587491"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>Detectar e corrigir concessões de consentimento ilícito
 
@@ -158,7 +158,7 @@ Após identificar um aplicativo com permissões ilícita, você tem várias mane
 
 - Você também pode desabilitar a entrada para a conta afetada, o que, por sua vez, desabilitará o acesso do aplicativo aos dados dessa conta. Isso não é ideal para a produtividade do usuário final, mas se você estiver trabalhando para limitar o impacto rapidamente, pode ser uma remediação de curto prazo viável.
 
-- Você pode desativar aplicativos integrados para sua locação. Esta é uma etapa drástica que desabilita a capacidade de os usuários finais concederem o consentimento por todo o locatário. Isso impede que os usuários conceda acidentalmente acesso a um aplicativo mal-intencionado. Isso não é altamente recomendado, pois ele prejudica seriamente a capacidade dos usuários de ser produtiva com aplicativos de terceiros. Você pode fazer isso seguindo as etapas em [ativando ou desativando aplicativos integrados](https://docs.microsoft.com/office365/admin/misc/integrated-apps).
+- Você pode desativar aplicativos integrados para sua locação. Esta é uma etapa drástica que desabilita a capacidade de os usuários finais concederem o consentimento por todo o locatário. Isso impede que os usuários conceda acidentalmente acesso a um aplicativo mal-intencionado. Isso não é altamente recomendado, pois ele prejudica seriamente a capacidade dos usuários de ser produtiva com aplicativos de terceiros. Você pode fazer isso seguindo as etapas em [ativando ou desativando aplicativos integrados](https://docs.microsoft.com/microsoft-365/admin/misc/integrated-apps).
 
 ## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Proteja o Microsoft 365 como um profissional de segurança cibernética
 

@@ -14,12 +14,12 @@ ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 ms.custom:
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá sobre relatórios e ferramentas de solução de problemas disponíveis para os administradores do Microsoft Exchange Online Protection (EOP).
-ms.openlocfilehash: af41f1d3b6ccc7632b392f58c36344239200f915
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b33d343d9b7f02e32619031d3ecf72ad12f891fd
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206437"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588163"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Relatórios e rastreamento de mensagens no EOP
 
@@ -37,13 +37,13 @@ Nas organizações do Microsoft 365 com caixas de correio em organizações do E
 
 Veja os seguintes recursos para obter mais informações:
 
-- [Relatórios do Microsoft 365 no centro de administração-Microsoft 365 grupos](https://docs.microsoft.com/office365/admin/activity-reports/office-365-groups)
+- [Relatórios do Microsoft 365 no centro de administração-Microsoft 365 grupos](https://docs.microsoft.com/microsoft-365/admin/activity-reports/office-365-groups)
 
-- [Relatórios do Microsoft 365 no centro de administração-atividade de email](https://docs.microsoft.com/office365/admin/activity-reports/email-activity)
+- [Relatórios do Microsoft 365 no centro de administração-atividade de email](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-activity)
 
-- [Relatórios do Microsoft 365 no centro de administração-uso de aplicativos de email](https://docs.microsoft.com/office365/admin/activity-reports/email-apps-usage)
+- [Relatórios do Microsoft 365 no centro de administração-uso de aplicativos de email](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-apps-usage)
 
-- [Relatórios da Microsoft 365 no centro de administração-uso da caixa de correio](https://docs.microsoft.com/office365/admin/activity-reports/mailbox-usage)
+- [Relatórios da Microsoft 365 no centro de administração-uso da caixa de correio](https://docs.microsoft.com/microsoft-365/admin/activity-reports/mailbox-usage)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Relatórios de segurança & conformidade no centro de administração do Microsoft 365
 

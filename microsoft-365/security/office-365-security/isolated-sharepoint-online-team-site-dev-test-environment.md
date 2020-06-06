@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: 'Resumo: Configure um site de equipe do SharePoint Online isolado do restante da organização no seu ambiente de desenvolvimento/teste do Microsoft 365.'
-ms.openlocfilehash: 2a1c728f5cbc1d622bb46ffd7532f1103a7995d3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 07f3ae349f20fd4498e7809955cf0407d8c31d8c
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634117"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588023"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>Site de equipe do SharePoint Online isolado no seu ambiente de desenvolvimento/teste
 
@@ -56,9 +56,9 @@ Há três fases para configurar um site de equipe do SharePoint Online isolado e
 
 ## <a name="phase-1-build-out-your-lightweight-or-simulated-enterprise-microsoft-365-devtest-environment"></a>Fase 1: desenvolver seu ambiente de desenvolvimento/teste empresarial leve ou simulado da Microsoft 365
 
-Se você só quiser criar um site de equipe isolado do SharePoint Online de forma leve com os requisitos mínimos, siga as instruções nas fases 2 e 3 do [ambiente de desenvolvimento/teste do Microsoft 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment).
+Se você só quiser criar um site de equipe isolado do SharePoint Online de forma leve com os requisitos mínimos, siga as instruções nas fases 2 e 3 da [configuração básica leve](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise).
 
-Se você quiser criar um site de equipe do SharePoint Online isolado em uma configuração empresarial simulada, siga as instruções em [DirSync para seu ambiente de desenvolvimento/teste do Microsoft 365](https://docs.microsoft.com/office365/enterprise/dirsync-for-your-office-365-dev-test-environment).
+Se você quiser criar um site de equipe do SharePoint Online isolado em uma configuração empresarial simulada, siga as instruções em [sincronização de hash de senha para seu ambiente de teste do Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/password-hash-sync-m365-ent-test-environment).
 
 > [!NOTE]
 > A criação de um site do SharePoint Online isolado não exige o ambiente de desenvolvimento/teste corporativo simulado, que inclui uma intranet simulada conectada à Internet e a sincronização de diretórios para uma floresta dos serviços de domínio Active Directory (AD DS). Ele é fornecido aqui como uma opção para que você possa testar um site do SharePoint Online isolado e fazer testes com ele em um ambiente que representa uma organização comum.
@@ -148,7 +148,7 @@ A Figura 1 mostra os grupos de acesso e sua associação.
 
 Para criar um site de equipe do SharePoint Online para o projeto x, faça o seguinte:
 
-1. Usando um navegador no computador local (configuração leve) ou em CLIENT1 (configuração corporativa simulada), entre no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)) usando sua conta de administrador global.
+1. Usando um navegador no computador local (configuração leve) ou em CLIENT1 (configuração corporativa simulada), entre no centro de administração do Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ) usando sua conta de administrador global.
 
 2. Na lista de blocos, clique em **SharePoint**.
 
@@ -216,7 +216,7 @@ Agora, vamos demonstrar o acesso usando a conta de usuário do designer de clien
 
 2. Clique no nome do administrador global e clique em **Sair**.
 
-3. Entre no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)) usando o nome da conta do designer líder e sua senha.
+3. Entre no centro de administração do Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ) usando o nome da conta do designer líder e sua senha.
 
 4. Na lista de blocos, clique em **SharePoint**.
 
@@ -246,7 +246,7 @@ Agora, vamos demonstrar o acesso usando a conta de usuário do designer de clien
 
 Agora, vamos demonstrar o acesso usando a conta de usuário do VP de desenvolvimento:
 
-1. Entre no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)) usando o nome da conta de VP de desenvolvimento e sua senha.
+1. Entre no centro de administração do Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ) usando o nome da conta de VP de desenvolvimento e sua senha.
 
 2. Na lista de blocos, clique em **SharePoint**.
 
@@ -262,7 +262,7 @@ Agora, vamos demonstrar o acesso usando a conta de usuário do VP de desenvolvim
 
 Agora vamos demonstrar o acesso a uma conta de usuário que não tem permissões:
 
-1. Entre no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)) usando o nome da conta do usuário 3 e sua senha.
+1. Entre no centro de administração do Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ) usando o nome da conta do usuário 3 e sua senha.
 
 2. Na lista de blocos, clique em **SharePoint**.
 
@@ -288,12 +288,8 @@ Quando estiver pronto para implantar um site de equipe do SharePoint Online isol
 
 [Guias do Laboratório de Teste (TLGs) para adoção de nuvem](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
 
-[O ambiente de desenvolvimento/teste de configuração base](https://docs.microsoft.com/office365/enterprise/base-configuration-dev-test-environment) 
+[A configuração base de empresa simulada](https://docs.microsoft.com/microsoft-365/enterprise/simulated-ent-base-configuration-microsoft-365-enterprise)
 
-[Ambiente de desenvolvimento/teste do Microsoft 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)
+[A configuração de base leve](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)
 
 [Adoção da nuvem e de soluções híbridas](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
-
-
-
-

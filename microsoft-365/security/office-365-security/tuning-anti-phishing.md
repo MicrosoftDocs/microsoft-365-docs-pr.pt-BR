@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Os administradores podem aprender a identificar os motivos por que e como uma mensagem de phishing recebeu no Microsoft 365 e o que fazer para evitar mais mensagens de phishing no futuro.
-ms.openlocfilehash: a9b7a58f32fd14c157d72e8f91a1f1b8bfe3aedc
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b7a68eb3ab3cf7dbb7156059416cca04d80bb3a8
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208580"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588435"
 ---
 # <a name="tune-anti-phishing-protection"></a>Ajustar a proteção contra phishing
 
@@ -75,4 +75,4 @@ Especificamente, você deve verificar o campo de cabeçalho **X-Forefront-antisp
 
 - A MFA (autenticação multifator) é uma boa maneira de evitar contas comprometidas. Você deve considerar fortemente habilitar a MFA para todos os seus usuários. Para obter uma abordagem em fases, comece habilitando a MFA para seus usuários mais confidenciais (administradores, executivos, etc.) antes de habilitar a MFA para todos. Para obter instruções, consulte [Configurar a autenticação multifator](../../admin/security-and-compliance/set-up-multi-factor-authentication.md).
 
-- As regras de encaminhamento para destinatários externos costumam ser usadas por invasores para extrair dados. Use as informações **revisar regras de encaminhamento de caixa de correio** na [Pontuação segura da Microsoft](../mtp/microsoft-secure-score.md) para localizar e até mesmo impedir o encaminhamento de regras para destinatários externos. Para obter mais informações, consulte [mitigating Client external Forwarding Rules with Secure Score](https://blogs.technet.microsoft.com/office365security/mitigating-client-external-forwarding-rules-with-secure-score/).
+- As regras de encaminhamento para destinatários externos costumam ser usadas por invasores para extrair dados. Use as informações **revisar regras de encaminhamento de caixa de correio** na [Pontuação segura da Microsoft](../mtp/microsoft-secure-score.md) para localizar e até mesmo impedir o encaminhamento de regras para destinatários externos. Para obter mais informações, consulte [mitigating Client external Forwarding Rules with Secure Score](https://docs.microsoft.com/archive/blogs/office365security/mitigating-client-external-forwarding-rules-with-secure-score).

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem exibir perguntas frequentes e respostas sobre a proteção contra spam no Exchange Online Protection (EOP).
-ms.openlocfilehash: 69d9e72e3be53f0ddd5bc5771493564f364bef54
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 11c80a4cb93cf0c37ffbdf917e238960dd8fea80
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209638"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588035"
 ---
 # <a name="anti-spam-protection-faq"></a>Perguntas frequentes sobre a proteção antispam
 
@@ -137,7 +137,7 @@ As diretrizes apresentadas abaixo são as práticas recomendas para o envio de m
 
   [Configure o SPF para ajudar a evitar falsificações](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
-  [Perguntas frequentes sobre domínios](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
+  [Perguntas frequentes sobre domínios](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
 
 - **Assinatura de email com DKIM, assinar com canonização relaxada.**
 

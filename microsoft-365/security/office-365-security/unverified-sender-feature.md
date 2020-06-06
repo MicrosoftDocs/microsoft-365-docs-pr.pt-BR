@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Este artigo orientará você sobre como impedir que mensagens de phishing acessem sua caixa de correio, Outlook.com e Outlook na Web.
-ms.openlocfilehash: 9583161c9e64d6a24312565d68ae516a2be8606e
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: b49cc27685f62f5fb5d123a8a7aa4e51e0065e64
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352449"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588331"
 ---
 # <a name="unverified-sender"></a>Remetente não verificado
 
@@ -86,8 +86,8 @@ Não necessariamente. O Office 365 pode ter outras propriedades dentro da mensag
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Ajudar a proteger sua conta de email do Outlook.com](https://support.microsoft.com/en-us/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
+[Ajudar a proteger sua conta de email do Outlook.com](https://support.microsoft.com/office/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
 
 [Lidar com phishing ou falsificação no Outlook.com](https://support.office.com/article/0d882ea5-eedc-4bed-aebc-079ffa1105a3)
 
-[Filtrar lixo eletrônico e spam no Outlook na Web](https://support.office.com/article/db786e79-54e2-40cc-904f-d89d57b7f41d)
+[Filtrar lixo eletrônico e spam no Outlook na Web](https://support.microsoft.com/office/db786e79-54e2-40cc-904f-d89d57b7f41d)

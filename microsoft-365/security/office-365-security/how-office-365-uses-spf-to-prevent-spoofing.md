@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como a Microsoft 365 usa o registro TXT da SPF (Sender Policy Framework) no DNS para garantir que os sistemas de email de destino confiem em mensagens enviadas de seu domínio personalizado.
-ms.openlocfilehash: 5d09047b51f191947c13a3e6ca64b5cb30d3f6a0
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: a86087f510dca328bb5b56af6fd4802f1f42a454
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036384"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587479"
 ---
 # <a name="how-microsoft-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Como o Microsoft 365 usa SPF (Sender Policy Framework) para evitar falsificação
 
@@ -51,11 +51,11 @@ Cada registro TXT SPF contém três partes: a instrução de que ele é um regis
 
 Observe a sintaxe básica de uma regra de SPF:
 
-v=spf1 \<IP\> \<regra de aplicação\>
+v = spf1 \<IP\>\<enforcement rule\>
 
 Por exemplo, digamos que exista a seguinte regra de SPF para contoso.com:
 
-v=spf1 \<endereço IP 1\> \<endereço IP 2\> \<endereço IP 3\> \<regra de aplicação\>
+v = spf1 \<IP address #1\> \<IP address #2\> \<IP address #3\>\<enforcement rule\>
 
 Neste exemplo, a regra de SPF instrui o servidor de email de recebimento a apenas aceitar emails desses endereços IP para o domínio contoso.com:
 
@@ -131,7 +131,7 @@ Se você tiver uma implantação híbrida (ou seja, você tem algumas caixas de 
 
 Use as informações de sintaxe neste artigo para formular o registro TXT SPF do seu domínio personalizado. Apesar de haver outras opções de sintaxe que não são mencionadas aqui, essas são as opções mais usadas. Após formular seu registro, atualize-o no seu registrador de domínios.
 
-Para obter informações sobre os domínios que você precisará incluir no Microsoft 365, consulte [registros DNS externos necessários para o SPF](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records). Use as [instruções passo a passo](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) para atualizar registros TXT SPF para o seu registrador de domínios.
+Para obter informações sobre os domínios que você precisará incluir no Microsoft 365, consulte [registros DNS externos necessários para o SPF](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records). Use as [instruções passo a passo](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) para atualizar registros TXT SPF para o seu registrador de domínios.
 
 ### <a name="spf-txt-record-syntax-for-microsoft-365"></a>Sintaxe do registro TXT SPF para o Microsoft 365
 <a name="SPFSyntaxO365"> </a>
@@ -248,6 +248,6 @@ Você pode usar nslookup para visualizar seus registros DNS, incluindo seu regis
 ## <a name="for-more-information"></a>Para obter mais informações
 <a name="SPFTroubleshoot"> </a>
 
-Precisa de ajuda para adicionar o registro TXT SPF? Leia o artigo [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Microsoft 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) para obter informações detalhadas sobre o uso da estrutura de política de remetente com seu domínio personalizado no Microsoft 365. [Cabeçalhos de mensagens antispam](anti-spam-message-headers.md) inclui os campos de sintaxe e de cabeçalho usados pelo Microsoft 365 para verificações de SPF.
+Precisa de ajuda para adicionar o registro TXT SPF? Leia o artigo [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) para obter informações detalhadas sobre o uso da estrutura de política de remetente com seu domínio personalizado no Microsoft 365. [Cabeçalhos de mensagens antispam](anti-spam-message-headers.md) inclui os campos de sintaxe e de cabeçalho usados pelo Microsoft 365 para verificações de SPF.
 
 

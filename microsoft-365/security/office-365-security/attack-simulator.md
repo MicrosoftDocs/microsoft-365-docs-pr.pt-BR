@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como usar o simulador de ataques para executar ataques simulados de phishing e senha em sua organização do plano 2 do Microsoft 365 E5 ou ATP.
-ms.openlocfilehash: e2c6859291e4a25e56dd8dd20a8ecc5962310680
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 166a8ab9f6ef08ca089bc8924b686e392e870526
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035853"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587563"
 ---
 # <a name="attack-simulator-in-atp"></a>Simulador de ataque em ATP
 
@@ -39,7 +39,7 @@ ms.locfileid: "44035853"
 
 - Você precisa ser membro dos grupos de função de **Gerenciamento da organização** ou de administrador de **segurança** . Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
-- Sua conta precisa ser configurada para a MFA (autenticação multifator) para criar e gerenciar campanhas no simulador de ataques. Para obter instruções, consulte [Configurar a autenticação multifator](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication).
+- Sua conta precisa ser configurada para a MFA (autenticação multifator) para criar e gerenciar campanhas no simulador de ataques. Para obter instruções, consulte [Configurar a autenticação multifator](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication).
 
 Para que um ataque seja iniciado com êxito, certifique-se de que a conta que você está usando para executar ataques simulados esteja usando a autenticação multifator. Além disso, você deve ser um administrador global ou um administrador de segurança. (Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).)
 
@@ -55,7 +55,7 @@ Para que um ataque seja iniciado com êxito, certifique-se de que a conta que vo
 
 No simulador de ataques, dois tipos diferentes de campanhas de phishing de Spear estão disponíveis:
 
-- A [autenticação multifator/acesso condicional](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) está ativada, por pelo menos a conta de administrador global e os administradores de segurança que usarão o simulador de ataques. (Idealmente, a autenticação multifator/acesso condicional está ativada para todos os usuários da sua organização.)
+- A [autenticação multifator/acesso condicional](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication) está ativada, por pelo menos a conta de administrador global e os administradores de segurança que usarão o simulador de ataques. (Idealmente, a autenticação multifator/acesso condicional está ativada para todos os usuários da sua organização.)
 
   - Uma página padrão que explica isso era um teste apenas e fornece dicas para reconhecer mensagens de phishing.
 
@@ -63,7 +63,7 @@ No simulador de ataques, dois tipos diferentes de campanhas de phishing de Spear
 
   - Uma página personalizada (URL) que você especificar.
 
-- **Spear phishing (anexo)**: o ataque tenta convencer os destinatários a abrir um anexo. docx ou. pdf na mensagem. O anexo contém o mesmo conteúdo do link phishing padrão, mas a primeira sentença começa com "\<nome\>de exibição, você está vendo esta mensagem como uma mensagem de email recente que você abriu...".
+- **Spear phishing (anexo)**: o ataque tenta convencer os destinatários a abrir um anexo. docx ou. pdf na mensagem. O anexo contém o mesmo conteúdo do link phishing padrão, mas a primeira sentença começa com " \<Display Name\> , você está vendo esta mensagem como uma mensagem de email recente que você abriu...".
 
 > [!NOTE]
 > Atualmente, as campanhas de spear phishing no simulador de ataques não expiram.
@@ -142,9 +142,9 @@ Se você for usar um dos modelos internos ou criar a mensagem de email diretamen
 
 2. Na página **simular ataques** , faça uma das seguintes seleções com base no tipo de campanha que você deseja criar:
 
-   - Na seção **spear phishing (coleta de credenciais)** , clique em **Iniciar ataque** ou clique em **detalhes** \> do ataque de **lançamento**.
+   - Na seção **spear phishing (coleta de credenciais)** , clique em **Iniciar ataque** ou clique em **detalhes do ataque** de \> **lançamento**.
 
-   - Na seção **spear phishing (anexo)** , clique em **Iniciar ataque** ou clique em **detalhes** \> do ataque de **lançamento**.
+   - Na seção **spear phishing (anexo)** , clique em **Iniciar ataque** ou clique em **detalhes do ataque** de \> **lançamento**.
 
 3. O assistente para **configurar ataques de phishing** é iniciado em um novo submenu. Na etapa **Iniciar** , execute uma das seguintes etapas:
 
@@ -239,9 +239,9 @@ No simulador de ataques, dois tipos diferentes de campanhas de ataque por senha 
 
 2. Na página **simular ataques** , faça uma das seguintes seleções com base no tipo de campanha que você deseja criar:
 
-   - Na seção **senha de força bruta (ataque de dicionário)** , clique em **Iniciar ataque** ou clique em **detalhes** \> do ataque de **lançamento**.
+   - Na seção **senha de força bruta (ataque de dicionário)** , clique em **Iniciar ataque** ou clique em **detalhes do ataque** de \> **lançamento**.
 
-   - na seção **ataque de irrigação de senha** , clique em **Iniciar ataque** ou em **detalhes** \> de **lançamento**de ataques.
+   - na seção **ataque de irrigação de senha** , clique em **Iniciar ataque** ou em detalhes de lançamento de **ataques** \> **Launch Attack**.
 
 3. O assistente **Configurar ataque de senha** é iniciado em um novo submenu. Na etapa **Iniciar** , digite um nome de exibição exclusivo para a campanha e clique em **Avançar**.
 
@@ -291,7 +291,7 @@ As informações a seguir estão disponíveis na página de **detalhes do ataque
 
 - **Tentativas bem-sucedidas**: o número de usuários que clicaram no link **e** inseriram suas credenciais (*qualquer* nome de usuário e de senha).
 
-- **Taxa de êxito geral**: uma porcentagem calculada por **tentativas** / bem-sucedidas**total dos usuários direcionados**.
+- **Taxa de êxito geral**: uma porcentagem calculada por **tentativas bem-sucedidas**  /  **total dos usuários direcionados**.
 
 - **Clique mais rápido**: quanto tempo levava o primeiro usuário a clicar no link depois que você iniciou a campanha.
 
@@ -331,7 +331,7 @@ As informações a seguir estão disponíveis na página de **detalhes do ataque
 
 - **Tentativas bem-sucedidas**: o número de usuários que abriram ou baixaram e abriram o anexo (a visualização não conta).
 
-- **Taxa de êxito geral**: uma porcentagem calculada por **tentativas** / bem-sucedidas**total dos usuários direcionados**.
+- **Taxa de êxito geral**: uma porcentagem calculada por **tentativas bem-sucedidas**  /  **total dos usuários direcionados**.
 
 - **Tempo de abertura do anexo mais rápido**: quanto tempo levava o primeiro usuário a abrir o anexo depois que você iniciou a campanha.
 
@@ -349,7 +349,7 @@ As informações a seguir estão disponíveis na página de **detalhes do ataque
 
 - **Tentativas bem-sucedidas**: o número de usuários que foram encontrados usando uma das senhas especificadas.
 
-- **Taxa de êxito geral**: uma porcentagem calculada por **tentativas** / bem-sucedidas**total dos usuários direcionados**.
+- **Taxa de êxito geral**: uma porcentagem calculada por **tentativas bem-sucedidas**  /  **total dos usuários direcionados**.
 
 - A seção **usuários comprometidos** lista os endereços de email dos usuários afetados. Você pode clicar em **Exportar** para exportar os resultados para um arquivo CSV.
 
@@ -363,4 +363,4 @@ As informações a seguir estão disponíveis na página de **detalhes do ataque
 
 - **Tentativas bem-sucedidas**: o número de usuários que foram encontrados usando a senha especificada.
 
-- **Taxa de êxito geral**: uma porcentagem calculada por **tentativas** / bem-sucedidas**total dos usuários direcionados**.
+- **Taxa de êxito geral**: uma porcentagem calculada por **tentativas bem-sucedidas**  /  **total dos usuários direcionados**.

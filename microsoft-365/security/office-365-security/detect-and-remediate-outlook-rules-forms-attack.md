@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados no Office 365
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b892a72c2016222d34df8c58fcda20d2d2b9ba74
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: bc71a358170cdda86d16096c56b9d9660bf6a5be
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351970"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588259"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Detectar e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados
 
@@ -165,7 +165,7 @@ Se você encontrar evidências de qualquer um desses ataques, a correção será
 
 4. Instale as versões mais recentes do Outlook. Lembre-se de que a versão atual do Outlook bloqueia os dois tipos desse ataque por padrão.
 
-5. Após a remoção de todas as cópias offline da caixa de correio, redefina a senha do usuário (use uma de alta qualidade) e siga as etapas em [Configurar a autenticação multifator para os usuários](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) , se a MFA ainda não tiver sido habilitada. Isso garante que as credenciais do usuário não sejam expostas por outros meios (como phishing ou reutilização de senha).
+5. Após a remoção de todas as cópias offline da caixa de correio, redefina a senha do usuário (use uma de alta qualidade) e siga as etapas em [Configurar a autenticação multifator para os usuários](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication) , se a MFA ainda não tiver sido habilitada. Isso garante que as credenciais do usuário não sejam expostas por outros meios (como phishing ou reutilização de senha).
 
 ### <a name="using-powershell"></a>Usando o PowerShell
 
@@ -193,7 +193,7 @@ Há dois cmdlets do PowerShell remoto que você pode usar para remover ou desabi
 
 As regras e os exploits de formulários são usados apenas por um invasor depois que eles roubam ou violaram uma das contas do usuário. Portanto, a primeira etapa para impedir o uso dessas explorações em relação à sua organização é proteger agressivamente suas contas de usuário. Algumas das maneiras mais comuns pelas quais as contas são violadas são por meio de ataques de fraude de [senha](https://www.dabcc.com/microsoft-defending-against-password-spray-attacks/) ou phishing.
 
-A melhor maneira de proteger suas contas de usuário e, especialmente as contas de administrador, é [Configurar a autenticação multifator para os usuários](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication). Você também deve:
+A melhor maneira de proteger suas contas de usuário e, especialmente as contas de administrador, é [Configurar a autenticação multifator para os usuários](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication). Você também deve:
 
 - Monitorar como suas contas de usuário são [acessadas e usadas](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports). Não é possível impedir a violação inicial, mas você diminuirá a duração e o impacto da violação detectando-a antes. Você pode usar essas [políticas de segurança do aplicativo nuvem do Office 365](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) para monitorar suas contas e alertar sobre atividades incomuns:
 

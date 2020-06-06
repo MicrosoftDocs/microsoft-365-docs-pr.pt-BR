@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: A Microsoft fornece ajudar para a EOP através de uma variedade de lugares e métodos incluindo auto-suporte e suporte assistido.
-ms.openlocfilehash: 2ef6bacbce6f46a17abcceb98e40d20ed3ad5363
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 277c48a8ac9503681eb695fba3697ddd16e49b88
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209194"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588235"
 ---
 # <a name="help-and-support-for-eop"></a>Ajuda e suporte para EOP
 
@@ -29,7 +29,7 @@ Ao fazer logon, o centro de administração do Microsoft 365 fornece informaçõ
 
 [Visão geral do produto para a Proteção do Exchange Online](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
-[Entre em contato com o suporte para produtos para empresas - ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)
+[Entre em contato com o suporte para produtos para empresas - ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 [Comunidade Microsoft 365](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
 

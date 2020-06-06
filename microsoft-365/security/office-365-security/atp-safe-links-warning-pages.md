@@ -16,17 +16,17 @@ ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 ms.collection:
 - M365-security-compliance
 description: Obtenha uma visão geral das páginas de aviso que você pode ver quando a proteção avançada contra ameaças do Office 365 está no trabalho.
-ms.openlocfilehash: f061d4a35b1c77721464fe2cc5ac4a85ca4bd16e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 00052c7212f9f469ca94d83ed53851b65904fd8e
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635981"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588283"
 ---
 # <a name="atp-safe-links-warning-pages"></a>Páginas de aviso de Links seguros da ATP
 
 > [!IMPORTANT]
-> Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](office-365-atp.md). Se você estiver usando o Outlook.com, a família Microsoft 365 ou o Microsoft 365 Personal e estiver procurando informações sobre links seguros no Outlook, consulte [Advanced Outlook.com Security](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](office-365-atp.md). Se você estiver usando o Outlook.com, a família Microsoft 365 ou o Microsoft 365 Personal e estiver procurando informações sobre links seguros no Outlook, consulte [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 A [proteção avançada contra ameaças do Office 365](office-365-atp.md) (ATP) ajuda a proteger sua organização contra tentativas de phishing e malware por meio de recursos, como [links seguros de ATP](atp-safe-links.md), [anexos seguros de ATP](atp-safe-attachments.md)e proteção contra [phishing](anti-phishing-protection.md). Quando a proteção está no local, os links (URLs) em mensagens de email e documentos do Office são verificados. Se uma URL for identificada como suspeita ou mal-intencionada, você poderá ter impedido de abrir a URL quando clicar nela. Em vez de ir diretamente para o site, você pode ver uma página de aviso.
 

@@ -14,12 +14,12 @@ ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a executar um relatório de grupo de funções de administrador no proteção do Exchange Online (EOP) autônomo. Este relatório registra quando um administrador adiciona ou remove membros de grupos de funções de administrador, EOP registra cada ocorrência.
-ms.openlocfilehash: 39022892075b295a26645157941195b97897c690
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 0c504460657a153aad7d3dd065c81007a68ba916
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350934"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587359"
 ---
 # <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Executar um relatório de grupo de função de administrador no EOP autônomo
 
@@ -74,7 +74,7 @@ Nesse exemplo, a conta de usuário Administrador fez as seguintes alterações:
 
 ## <a name="use-standalone-exchange-online-powershell-to-search-for-audit-log-entries"></a>Usar o PowerShell autônomo do Exchange Online para pesquisar entradas de log de auditoria
 
-Você pode usar o PowerShell do Exchange Online para pesquisar entradas de log de auditoria que atendam aos critérios especificados. Para obter uma lista de critérios de pesquisa, consulte [Log de auditoria de administrador](https://technet.microsoft.com/library/22b17eb8-d8ee-4599-b202-d6a7928c20d9.aspx). Este procedimento usa o cmdlet **Search-AdminAuditLog** e exibe os resultados da pesquisa no PowerShell do Exchange Online. Ele pode ser usado quando você precisa retornar um conjunto de resultados que exceda os limites definidos no cmdlet **New-AdminAuditLogSearch** ou nos Relatórios de Auditoria do EAC.
+Você pode usar o PowerShell do Exchange Online para pesquisar entradas de log de auditoria que atendam aos critérios especificados. Para obter uma lista de critérios de pesquisa, consulte [Search-AdminAuditLog search criteria](https://docs.microsoft.com/Exchange/policy-and-compliance/admin-audit-logging/admin-audit-logging#search-adminauditlog-cmdlet). Este procedimento usa o cmdlet **Search-AdminAuditLog** e exibe os resultados da pesquisa no PowerShell do Exchange Online. Ele pode ser usado quando você precisa retornar um conjunto de resultados que exceda os limites definidos no cmdlet **New-AdminAuditLogSearch** ou nos Relatórios de Auditoria do EAC.
 
 Para pesquisar no log de auditoria pelos critérios especificados, use a sintaxe a seguir.
 
@@ -119,7 +119,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Search-Adm
 
 ### <a name="view-details-of-audit-log-entries"></a>Exibir detalhes de entradas de log de auditoria
 
-O cmdlet **Search-AdminAuditLog** retorna os campos descritos na seção "Conteúdo do log de auditoria" de [Log de auditoria de administrador](https://technet.microsoft.com/library/22b17eb8-d8ee-4599-b202-d6a7928c20d9.aspx). Desses campos retornados pelo cmdlet, dois campos, **CmdletParameters** e **ModifiedProperties**, contêm informações adicionais que não podem ser exibidas por padrão.
+O cmdlet **Search-AdminAuditLog** retorna os campos descritos no [conteúdo do log de auditoria](https://docs.microsoft.com/Exchange/policy-and-compliance/admin-audit-logging/admin-audit-logging#audit-log-contents). Desses campos retornados pelo cmdlet, dois campos, **CmdletParameters** e **ModifiedProperties**, contêm informações adicionais que não podem ser exibidas por padrão.
 
 Para exibir o conteúdo dos campos **CmdletParameters** e **ModifiedProperties**, siga as etapas na sequência. Ou você pode usar o procedimento em **usar o Exchange Online PowerShell para pesquisar entradas de log de auditoria e enviar resultados para um destinatário** posteriormente neste tópico para criar um arquivo XML.
 

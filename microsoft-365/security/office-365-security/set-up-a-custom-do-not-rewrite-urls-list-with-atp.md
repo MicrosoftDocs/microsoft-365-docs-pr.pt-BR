@@ -19,17 +19,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como configurar URLs bloqueadas personalizadas para usuários e não reescrever lista de URLs para um grupo de usuários nas políticas de links seguros de ATP do Office 365.
-ms.openlocfilehash: d7bd6c7d4c3dccfb4a16b2b2f172f8f75123692e
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: c75f468aa98c8fa9e45cd596c62a7509310fdca5
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046299"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588127"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>Configurar uma lista personalizada de URLs do não Rewrite usando links seguros de ATP
 
 > [!IMPORTANT]
-> Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](office-365-atp.md). Se você for um usuário doméstico que procura informações sobre links seguros no Outlook, consulte [Advanced Outlook.com Security](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](office-365-atp.md). Se você for um usuário doméstico que procura informações sobre links seguros no Outlook, consulte [Advanced Outlook.com Security](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 Com a [proteção avançada contra ameaças do Office 365](office-365-atp.md) (ATP), sua organização pode ter um [URL bloqueado personalizado](set-up-a-custom-blocked-urls-list-atp.md), de modo que, quando as pessoas clicam em endereços da Web (URLs) em mensagens de email ou determinados documentos do Office, eles são impedidos de ir para essas URLs. Sua organização também pode ter listas personalizadas de "não reescrever" para grupos específicos em sua organização. Uma lista "não reconfigurar" permite que algumas pessoas visitem URLs que, de outra forma, são bloqueadas por [links de ATP seguros no Office 365](atp-safe-links.md).
 
@@ -43,9 +43,9 @@ Para editar (ou definir) políticas ATP, você deve ter uma função apropriada 
 
 |Role  |Onde/como a atribuição  |
 |---------|---------|
-|administrador global |Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para saber mais.)         |
-|Administrador de Segurança |Centro de administração do Azure Active[https://aad.portal.azure.com](https://aad.portal.azure.com)Directory ()|
-|Gerenciamento de Organização do Exchange Online |Centro de administração do[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)Exchange () <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)) |
+|administrador global |Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para saber mais.)         |
+|Administrador de Segurança |Centro de administração do Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
+|Gerenciamento de Organização do Exchange Online |Centro de administração do Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)) |
 
 > [!TIP]
 > Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
@@ -54,9 +54,9 @@ Para editar (ou definir) políticas ATP, você deve ter uma função apropriada 
 
 1. Acesse [https://protection.office.com](https://protection.office.com) e entre com sua conta corporativa ou de estudante.
 
-2. Na navegação à esquerda, em **links seguros**da **política** \> de **Gerenciamento** \> de ameaças.
+2. Na navegação à esquerda, em **Threat management** \> **Policy** \> **links seguros**da política de gerenciamento de ameaças.
 
-3. Na seção **políticas que se aplicam a destinatários específicos** , escolha **novo** (o botão novo é semelhante a um sinal **+** de adição ()) para criar uma nova política. (Como alternativa, você pode editar uma política existente.)<br/>![Escolha novo para adicionar uma política de links seguros para destinatários de email específicos](../../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
+3. Na seção **políticas que se aplicam a destinatários específicos** , escolha **novo** (o botão novo é semelhante a um sinal de adição ( **+** )) para criar uma nova política. (Como alternativa, você pode editar uma política existente.)<br/>![Escolha novo para adicionar uma política de links seguros para destinatários de email específicos](../../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
 
 4. Especifique um nome e uma descrição para a política.
 
@@ -73,15 +73,15 @@ Para editar (ou definir) políticas ATP, você deve ter uma função apropriada 
 
 - Qualquer URL especificada na lista "não reescrever" será excluída da verificação de links seguros de ATP para os destinatários que você especificar.
 
-- Se você já tiver uma lista de URLs na lista de "não reescrever", verifique se a lista e adicione caracteres curinga conforme apropriado. Por exemplo, se a sua lista existente tem uma entrada `https://contoso.com/a` como e você deseja incluir subcaminhos como `https://contoso.com/a/b` em sua política, adicione um curinga à sua entrada para que ele se `https://contoso.com/a/*`pareça.
+- Se você já tiver uma lista de URLs na lista de "não reescrever", verifique se a lista e adicione caracteres curinga conforme apropriado. Por exemplo, se a sua lista existente tem uma entrada como `https://contoso.com/a` e você deseja incluir subcaminhos como `https://contoso.com/a/b` em sua política, adicione um curinga à sua entrada para que ele se pareça `https://contoso.com/a/*` .
 
-- Ao especificar uma lista "não reconfigurar" para uma política de links seguros de ATP, você pode incluir até três asteriscos curinga (\*). Curingas (\*) são usados para incluir explicitamente prefixos ou subdomínios. A entrada `contoso.com` não é igual a `*.contoso.com/*`, pois `*.contoso.com/*` permite que as pessoas visitem subdomínios e caminhos no domínio especificado.
+- Ao especificar uma lista "não reconfigurar" para uma política de links seguros de ATP, você pode incluir até três asteriscos curinga ( \* ). Curingas ( \* ) são usados para incluir explicitamente prefixos ou subdomínios. A entrada `contoso.com` não é igual a `*.contoso.com/*` , pois `*.contoso.com/*` permite que as pessoas visitem subdomínios e caminhos no domínio especificado.
 
 A tabela a seguir lista exemplos do que você pode inserir e o efeito que essas entradas têm.
 
 |**Entrada de exemplo**|**O que ele faz**|
 |:-----|:-----|
-|`contoso.com`|Permite que os destinatários visitem um `https://contoso.com` site como, mas não subdomínios ou caminhos.|
-|`*.contoso.com/*`|Permite que os destinatários visitem um domínio, subdomínios e caminhos, como `https://www.contoso.com`, `https://www.contoso.com` `https://maps.contoso.com`, ou `https://www.contoso.com/a`. <br/><br/> Essa entrada é inerentemente melhor do `*contoso.com*`que porque não inclui sites potencialmente fraudulentos, como `https://www.falsecontoso.com` ou`https://www.false.contoso.completelyfalse.com`|
-|`https://contoso.com/a`|Permite que destinatários específicos visitem um site `https://contoso.com/a`como, mas não subcaminhos como`https://contoso.com/a/b`|
-|`https://contoso.com/a/*`|Permite que destinatários específicos visitem um site `https://contoso.com/a` como e subcaminhos como`https://contoso.com/a/b`|
+|`contoso.com`|Permite que os destinatários visitem um site como `https://contoso.com` , mas não subdomínios ou caminhos.|
+|`*.contoso.com/*`|Permite que os destinatários visitem um domínio, subdomínios e caminhos, como `https://www.contoso.com` , `https://www.contoso.com` , `https://maps.contoso.com` ou `https://www.contoso.com/a` . <br/><br/> Essa entrada é inerentemente melhor do que `*contoso.com*` porque não inclui sites potencialmente fraudulentos, como `https://www.falsecontoso.com` ou`https://www.false.contoso.completelyfalse.com`|
+|`https://contoso.com/a`|Permite que destinatários específicos visitem um site como `https://contoso.com/a` , mas não subcaminhos como`https://contoso.com/a/b`|
+|`https://contoso.com/a/*`|Permite que destinatários específicos visitem um site como `https://contoso.com/a` e subcaminhos como`https://contoso.com/a/b`|
