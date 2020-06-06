@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 06/03/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Use o Microsoft Endpoint Manager para gerenciar seus dispositivos, PCs e outros pontos de extremidade.
-ms.openlocfilehash: 388ac2b7f9f4a31d33c1f4551e215b2b32c8f85f
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: c7149295c24e5339e87db55998ec48fe9f0e9a93
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160793"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560488"
 ---
 # <a name="step-3-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Etapa 3. Implantar o gerenciamento de pontos de extremidade em seus dispositivos, PCs e outros pontos de extremidade
 
@@ -66,7 +66,9 @@ Para obter mais informações, confira a [visão geral do Windows Autopilot](htt
 
 ## <a name="admin-technical-resources-for-endpoint-management"></a>Recursos técnicos de administração para o gerenciamento de pontos de extremidade
 
-- [Registrar dispositivos gerenciados para segurança, aproveitar as configurações de aplicativos para dispositivos não gerenciados e usar políticas de dispositivos e aplicativos](https://docs.microsoft.com/microsoft-365/enterprise/mobility-infrastructure)
+- [Vídeo da parte 3 sobre o gerenciamento de dispositivos Windows 10 para funcionários remotos](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security)
+- [Vídeo da parte 5 sobre o gerenciamento de áreas de trabalho e navegadores do usuário para funcionários remotos](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security)
+- [Implantar uma infraestrutura de mobilidade para o Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/mobility-infrastructure)
 - [Como registrar diferentes tipos de dispositivos para gerenciamento de dispositivos móveis (MDM)](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment)
 - [Como educar seus usuários finais sobre o Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/end-user-educate)
  
