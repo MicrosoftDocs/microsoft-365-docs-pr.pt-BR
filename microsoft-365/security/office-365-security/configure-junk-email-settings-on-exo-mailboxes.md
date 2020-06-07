@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online. Muitas dessas configurações estão disponíveis para usuários no Outlook ou no Outlook na Web.
-ms.openlocfilehash: 40364db9d4af9e093d8f2f74ee3c0f0373b1671a
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: a0b2bce985c642a2069d51cbd3103b6fd044ff17
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44498658"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588447"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online
 
@@ -32,7 +32,7 @@ No entanto, há também configurações antispam específicas que os administrad
 - **Habilitar ou desabilitar a regra de lixo eletrônico**: a regra de lixo eletrônico é uma regra de caixa de entrada oculta chamada regra de lixo eletrônico habilitada por padrão em todas as caixas de correio. A regra de lixo eletrônico controla os seguintes recursos:
 
   - **Mover mensagens para a pasta lixo eletrônico com base nas políticas**antispam: quando uma política antispam é configurada com a ação **mover mensagem para a pasta lixo eletrônico** para uma veredicto de filtragem de spam, a regra de filtro de lixo eletrônico move a mensagem para a pasta lixo eletrônico após a mensagem ser entregue à caixa de correio. Para obter mais informações sobre a filtragem de spam verdicts em políticas antispam, consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md). Da mesma forma, se a limpeza automática de zero horas (ZAP) determina que uma mensagem entregue é spam ou phishing, a regra de filtro de lixo eletrônico move a mensagem para a pasta lixo eletrônico para **mover a mensagem para a pasta lixo eletrônico** filtragem spam veredicto ações. Para obter mais informações sobre ZAP, confira [exclusão automática de zero horas (zap) no Exchange Online](zero-hour-auto-purge.md).
-  
+
   - **Configurações de lixo eletrônico que os usuários configuram para si mesmos no Outlook ou no Outlook na Web**: o _conjunto_ de listas seguras é a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados em cada caixa de correio. As entradas nessas listas determinam se a regra de lixo eletrônico move a mensagem para a caixa de entrada ou para a pasta lixo eletrônico. Os usuários podem configurar a coleção de lista segura para sua própria caixa de correio no Outlook ou no Outlook na Web (anteriormente conhecido como Outlook Web App). Os administradores podem configurar a coleção de lista segura na caixa de correio de qualquer usuário.
 
 Quando a regra de lixo eletrônico está habilitada na caixa de correio, o EOP é capaz de mover mensagens para a pasta lixo eletrônico com base na ação de filtro de spam veredicto **mover mensagem para a pasta lixo** eletrônico ou para a lista de remetentes bloqueados na caixa de correio e impedir que mensagens sejam entregues à pasta lixo eletrônico (com base na lista de remetentes confiáveis na caixa de correio)
@@ -148,7 +148,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-Mailbo
 > 
 > - Mesmo se a regra de lixo eletrônico estiver desabilitada na caixa de correio, você ainda poderá configurar a coleção de listas seguras e o filtro de lixo eletrônico do Outlook poderá mover mensagens para a caixa de entrada ou para a pasta lixo eletrônico. Para obter mais informações, consulte a seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) neste tópico.
 > 
-> - O filtro de lixo eletrônico do Outlook tem configurações de coleção de listas seguras adicionais (por exemplo, **adicionar automaticamente pessoas que eu email à lista de remetentes confiáveis**). Para obter mais informações, consulte [usar filtros de lixo eletrônico para controlar quais mensagens você vê](https://support.office.com/article/274ae301-5db2-4aad-be21-25413cede077).
+> - O filtro de lixo eletrônico do Outlook tem configurações de coleção de listas seguras adicionais (por exemplo, **adicionar automaticamente pessoas que eu email à lista de remetentes confiáveis**). Para obter mais informações, consulte [usar filtros de lixo eletrônico para controlar quais mensagens você vê](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077).
 
 ### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
 
@@ -197,7 +197,7 @@ A coleção SafeList (a lista de remetentes confiáveis, a lista de destinatári
   - 500 total de entradas na lista de remetentes bloqueados e domínios bloqueados.
 
   Quando o limite de entrada 1024 é atingido, acontece o seguinte:
-  
+
   - A lista para de aceitar entradas no PowerShell e no Outlook na Web, mas nenhum erro é exibido.
 
     Os usuários do Outlook podem continuar a adicionar mais de 1024 entradas até atingirem o limite do Outlook de 510 KB. O Outlook pode usar essas entradas adicionais, contanto que um filtro do EOP não bloqueie a mensagem antes da entrega à caixa de correio (regras de fluxo de email, anti-falsificação, etc.).
@@ -208,7 +208,7 @@ A coleção SafeList (a lista de remetentes confiáveis, a lista de destinatári
   2. A lista de remetentes confiáveis e a lista de destinatários seguros são combinadas, desduplicadas e classificadas alfabeticamente sempre que uma alteração é feita para as primeiras 1024 entradas.
 
   As primeiras entradas 1024 são usadas, e as informações relevantes são carimbadas nos cabeçalhos da mensagem.
-  
+
   As entradas sobre 1024 que não foram sincronizadas com o Azure AD são processadas pelo Outlook (não pelo Outlook na Web) e nenhuma informação é carimbada nos cabeçalhos da mensagem.
 
 Como você pode ver, habilitar a configuração de **email de confiança de meus contatos** reduz o número de remetentes confiáveis e destinatários seguros que podem ser sincronizados. Se isso for um problema, recomendamos usar a política de grupo para desativar esse recurso:
