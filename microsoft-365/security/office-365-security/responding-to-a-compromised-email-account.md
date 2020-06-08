@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Aprenda como reconhecer e responder a uma conta de e-mail comprometida no Microsoft 365.
-ms.openlocfilehash: f53d38c6e34e555542e0c655d7e7d24ca3c9c978
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: adf1ded6fb88cc26e96840dc2a8bfe20300205dc
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033825"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588211"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Responder a uma conta de email comprometida
 
@@ -87,7 +87,7 @@ Você deve realizar todas as etapas a seguir para recuperar o acesso à sua cont
 > [!WARNING]
 > Não envie a nova senha para o usuário pretendido por email, pois o invasor ainda terá acesso à caixa de correio neste momento.
 
-1. Siga os procedimentos para redefinir uma senha corporativa dos Aplicativos do Microsoft 365 de outra pessoa em [Redefinir senhas corporativas dos Aplicativos do Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/reset-passwords)
+1. Siga os procedimentos para redefinir uma senha corporativa dos Aplicativos do Microsoft 365 de outra pessoa em [Redefinir senhas corporativas dos Aplicativos do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords)
 
 **Observações**:
 
@@ -98,7 +98,7 @@ Você deve realizar todas as etapas a seguir para recuperar o acesso à sua cont
 - Se a sua identidade local for federada com o Microsoft 365, será necessário alterar sua senha no local e, em seguida, notificar o administrador sobre o comprometimento.
 
 > [!TIP]
-> É altamente recomendável que você ative a Autenticação Multifator (MFA) para evitar comprometimentos, especialmente para contas com privilégios administrativos.  É possível saber mais sobre o MFA[aqui ](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication).
+> É altamente recomendável que você ative a Autenticação Multifator (MFA) para evitar comprometimentos, especialmente para contas com privilégios administrativos.  É possível saber mais sobre o MFA[aqui ](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication).
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>Etapa 2 Remover endereços de encaminhamento de email suspeitos
 
@@ -202,4 +202,4 @@ Sua assinatura do Microsoft 365 vem com um poderoso conjunto de recursos de segu
 
 - [Comissão de Valores Mobiliários - Fraude de "Phishing"](https://www.sec.gov/investor/pubs/phishing.htm)
 
-- Para denunciar emails de spam diretamente ao seu administrador e à Microsoft [Use o suplemento Reportar mensagem](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
+- Para denunciar emails de spam diretamente ao seu administrador e à Microsoft [Use o suplemento Reportar mensagem](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)

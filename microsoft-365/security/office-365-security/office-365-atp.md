@@ -17,17 +17,17 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: A Proteção Avançada contra Ameaças do Office 365 inclui anexos seguros, links seguros, ferramentas antiphishing avançadas, ferramentas de relatório e recursos de inteligência de ameaças.
-ms.openlocfilehash: 993939027962bd51ad4fdc3381c1e7d8ea4eddd4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f0d256a1d181b482516c7be55bca240a55dec567
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634527"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588175"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Proteção Avançada contra Ameaças do Office 365
 
 > [!IMPORTANT]
-> Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). Se você estiver usando o Outlook.com, Microsoft 365 Family ou Microsoft 365 Personal, e estiver procurando por informações sobre links ou anexos seguros no Outlook, confira [Segurança avançada do Outlook.com para assinantes do Microsoft 365](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Este artigo destina-se aos clientes corporativos que têm a [Proteção Avançada contra Ameaças do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). Se você estiver usando o Outlook.com, Microsoft 365 Family ou Microsoft 365 Personal, e estiver procurando por informações sobre links ou anexos seguros no Outlook, confira [Segurança avançada do Outlook.com para assinantes do Microsoft 365](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 ## <a name="overview"></a>Visão geral
 
@@ -112,7 +112,7 @@ Para acessar os recursos de ATP no Centro de Segurança e Conformidade, você de
 
 |Função ou grupo de funções|Recursos para saber mais|
 |---------|---------|
-|administrador global (pode ser atribuído no Azure Active Directory ou no Centro de Conformidade e Segurança) |[Sobre as funções de administrador do Microsoft 365 ](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
+|administrador global (pode ser atribuído no Azure Active Directory ou no Centro de Conformidade e Segurança) |[Sobre as funções de administrador do Microsoft 365 ](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
 |O Administrador de Segurança (pode ser atribuído tanto no Azure Active Directory quanto no Centro de Conformidade e Segurança) |[Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[Permissões no Centro de Segurança e Conformidade](permissions-in-the-security-and-compliance-center.md)|
 |Gerenciamento de Organização do Exchange Online (atribuído no Exchange Online)|[Permissões no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)<br><br> [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
 |Pesquisar e Remover (isso só é atribuído no Centro de Conformidade e Segurança) |[Permissões no Centro de Conformidade e Segurança] permissions-in-the-security-and-compliance-center.md|
