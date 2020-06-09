@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a rotear spam para as pastas de lixo eletrônico do usuário em um ambiente híbrido do Exchange Online Protection.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d5d83f8cfb994499be98eccf77b36d83e1f3d7c
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: dcfee309e532256a71511c3f6de019b22f5db093
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351958"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617049"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Configurar o EOP autônomo para fornecer spam para a pasta lixo eletrônico em ambientes híbridos
 
@@ -60,7 +60,7 @@ Este tópico descreve como criar essas regras de fluxo de emails do centro de ad
 
   - Se a regra de lixo eletrônico está habilitada na caixa de correio (o valor do parâmetro _Enabled_ é $true no cmdlet [set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration) no Shell de gerenciamento do Exchange). É a regra de lixo eletrônico que realmente move a mensagem para a pasta lixo eletrônico após a entrega. Por padrão, a regra de lixo eletrônico está habilitada nas caixas de correio. Para obter mais informações, consulte [Configurar configurações antispam do Exchange em caixas de correio](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings).
   
-- Para abrir o Eat em um servidor Exchange, confira [centro de administração do Exchange no Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center). Para abrir o Shell de gerenciamento do Exchange, consulte [https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) .
+- Para abrir o Eat em um servidor Exchange, confira [centro de administração do Exchange no Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center). Para abrir o Shell de gerenciamento do Exchange, consulte [https://docs.microsoft.com/powershell/exchange/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/open-the-exchange-management-shell) .
 
 - Para obter mais informações sobre regras de fluxo de emails no Exchange local, consulte os seguintes tópicos:
 
@@ -134,7 +134,7 @@ Para verificar se você configurou com êxito o EOP autônomo para entregar spam
 
 - No Eat, vá para regras de **fluxo de emails** \> **Rules**, selecione a regra e clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) para verificar as configurações.
 
-- No Shell de gerenciamento do Exchange, substitua \< RuleName \> pelo nome da regra de fluxo de emails e regra o comando a seguir para verificar as configurações:
+- No Shell de gerenciamento do Exchange, substitua \<RuleName\> o nome da regra de fluxo de emails e regra o comando a seguir para verificar as configurações:
 
   ```powershell
   Get-TransportRule -Identity "<RuleName>" | Format-List

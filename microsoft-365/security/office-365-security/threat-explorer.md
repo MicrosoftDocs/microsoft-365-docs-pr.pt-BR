@@ -15,14 +15,14 @@ search.appverid:
 ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
-description: Saiba como usar o Explorer e as detecções em tempo real no centro &amp; de conformidade de segurança para investigar e responder a ameaças com eficácia e eficiência.
+description: Saiba como usar o Explorer e as detecções em tempo real no centro de conformidade de segurança &amp; para investigar e responder a ameaças com eficácia e eficiência.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7d540b52a403e43be06fc731590d183d5edfa7f9
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 1aaff0662e549de3ea27db01df02ff34d192a96d
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036747"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44613439"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
@@ -36,7 +36,7 @@ Se sua organização tem a [proteção avançada contra ameaças do office 365](
 
 Com o Explorer (ou detecções em tempo real), você tem um relatório poderoso que permite que sua equipe de operações de segurança investigue e responda às ameaças de forma eficaz e eficiente. O relatório é semelhante à seguinte imagem:
 
-![Vá para o Gerenciador \> de gerenciamento de ameaças](../../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
+![Vá para o Gerenciador de gerenciamento de ameaças \>](../../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
 
 Com esse relatório, você pode:
 
@@ -103,13 +103,13 @@ Para mais informações sobre a investigação de mensagens de email mal-intenci
 
 Além disso, agora você poderá exportar relatórios para cliques de URL para o Microsoft Excel a fim de exibir a ID da mensagem de rede e o clique em veredicto, tornando a tarefa de compreensão onde sua URL clica em tráfego originado mais facilmente. Veja como funciona. A partir do gerenciamento de ameaças no Office 365 Quick-Launch, clique nesta cadeia:
 
-**Explorer** \> **Exibir Phish** \> **Clicks** cliques \> **principais URLs ou URL principais cliques** \> **clique em qualquer registro para abrir o submenu URL**
+**Explorer** \> **Exibir Phish** \> **Clica em** \> **Principais URLs ou principais cliques** \> de URL **Clique em qualquer registro para abrir o submenu URL**
 
 Ao clicar em uma URL na lista, você verá um novo botão de exportação no painel de saída. Use este botão para mover dados para uma planilha do Excel para facilitar o relatório.
 
 Você pode obter o mesmo local no relatório de detecções em tempo real da seguinte maneira:
 
-**Gerenciador** \> **de detecções** \> em tempo real **Exibir** \> **URLs** \> de phishing **principais URLs ou principais cliques** \> **clique em qualquer registro para abrir o submenu** \> URL **navegue até a guia cliques.**
+**Explorer** \> Detecções em tempo **real** \> **Exibir Phish** \> **URLs** \> **Principais URLs ou principais cliques** \> **Clique em qualquer registro para abrir o submenu URL** \> **Navegue até a guia cliques.**
 
 > [!TIP]
 > Mapeamento de ID de mensagem de rede o clique em voltar para emails específicos quando você pesquisa pelo Explorer ou ferramentas de terceiros associadas via ID de mensagem de rede. A pesquisa da ID da mensagem de rede fornecerá aos administradores o email específico associado a um clique. Na exportação, a identificação de correlação da ID da mensagem de rede realiza uma análise mais rápida e eficiente.
@@ -120,13 +120,13 @@ Você pode obter o mesmo local no relatório de detecções em tempo real da seg
 
 Suponha que você queira ver o malware detectado no email, pela tecnologia Microsoft 365. Para fazer isso, use o [>](threat-explorer-views.md#email--malware) modo de exibição de malware de email do Explorer (ou detecções em tempo real).
 
-1. No centro de conformidade e segurança &[https://protection.office.com](https://protection.office.com)(), escolha**Gerenciador** de **Gerenciamento** > de ameaças (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
+1. No centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ), escolha Gerenciador de **Gerenciamento de ameaças**  >  **Explorer** (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
 
-2. No menu **Exibir** , escolha**malware**de **email** > .
+2. No menu **Exibir** , escolha malware de **email**  >  **Malware**.
 
    ![Menu Exibir para Explorer](../../media/ExplorerViewEmailMalwareMenu.png)
 
-3. Clique em **remetente**e escolha**tecnologia de detecção** **básica** > .
+3. Clique em **remetente**e escolha tecnologia **Basic**de  >  **detecção**básica.
 
    Agora, suas tecnologias de detecção estão disponíveis como filtros para o relatório.
 
@@ -144,13 +144,13 @@ Suponha que você queira ver as tentativas de phishing por meio de URLs no email
 
 Para examinar as URLs de phishing em mensagens e clicar em URLs nas mensagens de phishing, use a exibição de [Email > Phish](threat-explorer-views.md#email--phish) do Explorer (ou detecções em tempo real).
 
-1. No centro de conformidade e segurança &[https://protection.office.com](https://protection.office.com)(), escolha**Gerenciador** de **Gerenciamento** > de ameaças (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
+1. No centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ), escolha Gerenciador de **Gerenciamento de ameaças**  >  **Explorer** (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
 
-2. No menu **Exibir** , escolha**phishing**de **email** > .
+2. No menu **Exibir** , escolha phishing de **email**  >  **Phish**.
 
    ![Menu Exibir para Explorer](../../media/ExplorerViewEmailPhishMenu.png)
 
-3. Clique em **remetente**e, em seguida, escolha **URLs** > **clique em veredicto**.
+3. Clique em **remetente**e, em seguida, escolha **URLs**  >  **clique em veredicto**.
 
 4. Selecione uma ou mais opções, como **bloqueado** e **substituído**e, em seguida, clique no botão **Atualizar** que está na mesma linha que as opções para aplicar esse filtro. (Não atualize a janela do navegador.)
 
@@ -175,13 +175,13 @@ Para examinar as URLs de phishing em mensagens e clicar em URLs nas mensagens de
 
 Suponha que você queira ver as mensagens de email que os usuários em sua organização relataram como lixo eletrônico, não lixo eletrônico ou phishing usando o [suplemento de mensagem de relatório para Outlook e Outlook na Web](enable-the-report-message-add-in.md). Para fazer isso, use a exibição de [Email > envios](threat-explorer-views.md#email--submissions) do Explorer (ou detecções em tempo real).
 
-1. No centro de conformidade e segurança &[https://protection.office.com](https://protection.office.com)(), escolha**Gerenciador** de **Gerenciamento** > de ameaças (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
+1. No centro de conformidade e segurança & ( [https://protection.office.com](https://protection.office.com) ), escolha Gerenciador de **Gerenciamento de ameaças**  >  **Explorer** (ou **detecções em tempo real**). (Este exemplo usa o Explorer.)
 
-2. No menu **Exibir** , escolha**envios**de **email** > .
+2. No menu **Exibir** , escolha **Email**  >  **envios**de email.
 
    ![Menu Exibir para Explorer](../../media/explorer-view-menu-email-user-reported.png)
 
-3. Clique em **remetente**e, em seguida, escolha**tipo de relatório** **básico** > .
+3. Clique em **remetente**e, em seguida, escolha tipo de **Basic**  >  **relatório**básico.
 
 4. Selecione uma opção, como **Phish**, e clique no botão **Atualizar** .
 
@@ -216,13 +216,13 @@ Você deve ter o [Office 365 ATP](office-365-atp.md) para obter as detecções d
 
 Para exibir e usar as detecções do Explorer ou em tempo real, você deve ter as permissões apropriadas, como aquelas concedidas a um administrador de segurança ou leitor de segurança.
 
-- Para o centro &amp; de conformidade de segurança, você deve ter uma das seguintes funções atribuídas:
+- Para o centro de conformidade de segurança &amp; , você deve ter uma das seguintes funções atribuídas:
 
   - Gerenciamento de Organização
-  - Administrador de segurança (pode ser atribuído no centro[https://aad.portal.azure.com](https://aad.portal.azure.com)de administração do Azure Active Directory)
+  - Administrador de segurança (pode ser atribuído no centro de administração do Azure Active Directory [https://aad.portal.azure.com](https://aad.portal.azure.com) )
   - Leitor de segurança
 
-- Para o Exchange Online, você deve ter uma das seguintes funções atribuídas no centro de administração do Exchange[https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)() ou com cmdlets do PowerShell (Confira [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)):
+- Para o Exchange Online, você deve ter uma das seguintes funções atribuídas no centro de administração do Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) ou com cmdlets do PowerShell (Confira [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)):
 
   - Gerenciamento de Organização
   - Gerenciamento de Organização Somente para Exibição

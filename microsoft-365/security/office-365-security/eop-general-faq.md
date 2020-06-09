@@ -14,12 +14,12 @@ ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 ms.custom:
 - seo-marvel-apr2020
 description: Obtenha respostas para as perguntas gerais mais comuns sobre o serviço de filtragem de email hospedado na nuvem do EOP (Exchange Online Protection).
-ms.openlocfilehash: 02aa7175e95cf706ed13268035953400af2485a7
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 0908fd5cf3a799f5a253122efac2b4d56d80ee76
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206657"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617025"
 ---
 # <a name="eop-general-faq"></a>Perguntas frequentes gerais sobre o EOP
 
@@ -89,4 +89,4 @@ Sim. Para obter mais informações sobre limites no EOP, consulte [Limites do Ex
 
 ## <a name="does-eop-support-powershell"></a>O EOP dá suporte ao PowerShell?
 
-Sim, a funcionalidade completa do EOP está disponível por meio do PowerShell: Exchange Online PowerShell para organizações com caixas de correio do Exchange Online; EOP PowerShell autônomo para organizações EOP autônomas. Para obter mais informações, consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell) and [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/exchange-online-protection-powershell).
+Sim, a funcionalidade completa do EOP está disponível por meio do PowerShell: Exchange Online PowerShell para organizações com caixas de correio do Exchange Online; EOP PowerShell autônomo para organizações EOP autônomas. Para obter mais informações, consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell) and [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell).

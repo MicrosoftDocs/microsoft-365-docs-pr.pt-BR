@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: A tabela a seguir fornece uma lista dos recursos que estão disponíveis no serviço de filtragem de email hospedado da Proteção do Exchange Online (EOP).
-ms.openlocfilehash: fc9a13ce7a2fc8782ed260ce0ce64aec456a4d51
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: 820f635e679be9d579ba94fc3288830dc6996a0e
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213419"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617037"
 ---
 # <a name="eop-features"></a>Recursos EOP
 
@@ -78,7 +78,7 @@ A tabela a seguir fornece uma lista dos recursos que estão disponíveis no serv
 |Administração com base na Web|Os administradores podem gerenciar o serviço no centro de administração do Exchange (Eat), que é suportado em idiomas 60. Para obter mais informações, consulte [centro de administração do Exchange em EOP autônomo](exchange-admin-center-in-exchange-online-protection-eop.md).|
 |Sincronização de diretório|A sincronização de diretório está disponível por meio do Ferramenta de Sincronização do Microsoft Azure Active Directory. Para saber mais, veja a seção «Usar a sincronização de diretório para gerenciar usuários de email» em [Gerenciar usuários de email no EOP](manage-mail-users-in-eop.md).  |
 |Bloqueio de borda baseado em diretório (DBEB)|O recurso DBEB permite rejeitar mensagens de destinatários inválidos no perímetro da rede do serviço. O DBEB permite que os administradores adicionem destinatários habilitados para email ao Microsoft 365 e Bloqueiem todas as mensagens enviadas para endereços de email que não estão presentes no Microsoft 365. Para obter mais informações sobre como configurar o DBEB, consulte [usar o bloqueio de borda baseado em diretório para rejeitar mensagens enviadas a destinatários inválidos](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking).|
-|PowerShell|A funcionalidade completa do EOP está disponível no PowerShell autônomo do EOP. Para obter mais informações, consulte [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/exchange-online-protection-powershell).|
+|PowerShell|A funcionalidade completa do EOP está disponível no PowerShell autônomo do EOP. Para obter mais informações, consulte [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell).|
 |**Criação de relatórios e registro em log**||
 |Rastreamento de mensagens|Os administradores podem seguir mensagens de email à medida que eles passam pelo serviço. Você pode determinar se uma mensagem de email direcionada foi recebida, rejeitada, adiada ou entregue pelo serviço. Isso permite responder com eficiências às perguntas dos usuários, solucionar problemas de fluxo de emails, validar alterações nas políticas e diminuir a necessidade de entrar em contato com o suporte técnico para solicitar assistência. Para obter mais informações, consulte [Rastreamento de mensagens no Centro de conformidade e segurança](message-trace-scc.md).|
 |Relatórios com base na Web|Os relatórios de proteção de email no centro de conformidade de & de segurança fornecem dados de mensagens. Por exemplo, você pode monitorar o quanto spam e malware está sendo detectado ou com que frequência suas regras de fluxo de emails estão sendo atendidas. Com esses relatórios interativos, você pode obter rapidamente um relatório visual de dados resumidos e obter detalhes sobre mensagens individuais de até 90 dias. Para obter mais informações, consulte [usar relatórios de proteção de email para exibir dados sobre detecções de malware, spam e regras](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports).|

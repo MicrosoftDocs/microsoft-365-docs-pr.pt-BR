@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os relatórios inteligentes e insights disponíveis no centro de segurança e conformidade e como usá-los para exibir e explorar dados e realizar ações rápidas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3646c38f56852d18fe7f2a79c82c059f6d0bca21
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: fc969dd9bbcbe049f4fcd065ef9caed51c52fac6
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588151"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617303"
 ---
 # <a name="smart-reports-and-insights-in-the-security-amp-compliance-center"></a>Relatórios inteligentes e insights no centro de &amp; conformidade de segurança
 
@@ -54,11 +54,6 @@ Uma ampla variedade de relatórios estão disponíveis no centro de &amp; confor
 |**Log de auditoria** <br/> Informações sobre as atividades, usuários, arquivos ou pastas do Microsoft 365 e muito mais  <br/> |No centro de &amp; conformidade de segurança, vá **para &amp; investigação de pesquisa** \> **pesquisa de log de auditoria** <br/> |[Pesquisar o log de auditoria no centro de conformidade de segurança &amp;](../../compliance/search-the-audit-log-in-security-and-compliance.md) <br/> |
 |**Relatórios de conformidade** <br/> Relatórios FedRAMP, governança, relatórios de risco e conformidade, relatórios de gerenciamento de segurança da Informação ISO e relatórios Service Organization Controls de auditoria e análise.  <br/> |No centro de &amp; conformidade de segurança, vá **Service assurance** para \> **relatórios de conformidade** de garantia de serviço <br/> |[Planejar a conformidade de segurança &amp; no Office 365](../../compliance/plan-for-security-and-compliance.md) <br/> |
   
-## <a name="next-steps"></a>Próximas etapas
-
-Agora que você tem uma visão geral de relatórios e insights, sua próxima etapa é aprender a personalizar, gerenciar e baixar relatórios. Confira os seguintes artigos:
-  
-
     
 ## <a name="related-topics"></a>Tópicos relacionados
 

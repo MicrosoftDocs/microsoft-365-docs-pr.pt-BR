@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: Saiba mais sobre como gerenciar usuários de email na proteção do Exchange Online (EOP), incluindo o uso da sincronização de diretórios, da Eat e do PowerShell para gerenciar usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e8a4585a16b579c28de719181eed65b65ec6f4f
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: d82170499bcfa6465164ca2644eea43c2558ad18
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352427"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616829"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>Gerenciar usuários de e-mail no EOP autônomo
 
@@ -35,7 +35,7 @@ Para organizações EOP autônomas com um pequeno número de usuários, você po
 
 - Para abrir o centro de administração do Exchange (Eat), confira [centro de administração do Exchange em EOP autônomo](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Ao criar usuários de email no EOP PowerShell, você pode encontrar limitação. Além disso, os cmdlets do EOP PowerShell usam um método de processamento em lotes que resulta em um atraso de propagação de alguns minutos antes que os resultados dos comandos fiquem visíveis.
 
@@ -100,7 +100,7 @@ Use a guia **geral** para exibir ou alterar as informações básicas sobre o us
 
 Use a guia **informações de contato** para exibir ou alterar as informações de contato do usuário. As informações nesta página são exibidas no catálogo de endereços.
 
-- **123**
+- **Street**
 - **Cidade**
 - **Estado/Província**
 - **CEP/código postal**
@@ -139,7 +139,7 @@ Para retornar uma lista resumida de todos os usuários de email do EOP PowerShel
 Get-Recipient -RecipientType MailUser -ResultSize unlimited
 ```
 
-Para exibir informações detalhadas sobre um usuário de email específico, substitua \< MailUserIdentity \> pelo nome, alias ou nome da conta do usuário de email e execute os seguintes comandos:
+Para exibir informações detalhadas sobre um usuário de email específico, substitua \<MailUserIdentity\> o nome, o alias ou o nome da conta do usuário de email e execute os seguintes comandos:
 
 ```powershell
 Get-Recipient -Identity <MailUserIdentity> | Format-List
@@ -209,7 +209,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-EOPMai
 
 ### <a name="use-standalone-eop-powershell-to-remove-mail-users"></a>Usar o EOP PowerShell autônomo para remover usuários de email
 
-Para remover usuários de email do EOP PowerShell autônomo, substitua \< MailUserIdentity \> pelo nome, alias ou nome da conta do usuário de email e execute o seguinte comando:
+Para remover usuários de email do EOP PowerShell autônomo, substitua \<MailUserIdentity\> o nome, o alias ou o nome da conta do usuário de email e execute o seguinte comando:
 
 ```PowerShell
 Remove-EOPMailUser -Identity <MailUserIdentity\>
@@ -235,7 +235,7 @@ Para verificar se você criou, modificou ou removeu com êxito os usuários de e
   Get-Recipient -RecipientType MailUser -ResultSize unlimited
   ```
 
-- Substitua \< MailUserIdentity \> pelo nome, alias ou nome da conta do usuário de email e execute os seguintes comandos para verificar as configurações:
+- Substitua \<MailUserIdentity\> pelo nome, alias ou nome da conta do usuário de email e execute os seguintes comandos para verificar as configurações:
 
   ```powershell
   Get-Recipient -Identity <MailUserIdentity> | Format-List

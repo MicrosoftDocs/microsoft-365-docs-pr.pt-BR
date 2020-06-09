@@ -1,5 +1,5 @@
 ---
-title: Centro de administração do Exchange no EOP autônomo
+title: Centro de administração do Exchange no EOP standalone
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,14 +16,14 @@ ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre a interface de gerenciamento da Web no proteção autônoma do Exchange Online (EOP).
-ms.openlocfilehash: 378754f2565604236f7ac33e471d1f991238d304
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 777597489e54c642220cb42f0c686b675101897f
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209701"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616993"
 ---
-# <a name="exchange-admin-center-in-standalone-eop"></a>Centro de administração do Exchange no EOP autônomo
+# <a name="exchange-admin-center-in-standalone-eop"></a>Centro de administração do Exchange no EOP standalone
 
 O centro de administração do Exchange (Eat) é um console de gerenciamento baseado na Web para o proteção do Exchange Online (EOP) autônomo.
 
@@ -70,7 +70,7 @@ Este é o primeiro nível de navegação para a maioria das tarefas que você ex
 
 - **Fluxo de email**: aqui você gerenciará as regras de fluxo de emails (também conhecidas como regras de transporte), domínios aceitos e conectores, bem como onde você pode ir para executar o rastreamento de mensagens.
 
-- **Híbrido**: Este é o local onde você pode executar o [Assistente de configuração híbrida](https://docs.microsoft.com/Exchange/hybrid-configuration-wizard)e onde é possível instalar o [módulo do PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell).
+- **Híbrido**: Este é o local onde você pode executar o [Assistente de configuração híbrida](https://docs.microsoft.com/Exchange/hybrid-configuration-wizard)e onde é possível instalar o [módulo do PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell).
 
 ### <a name="tabs"></a>Guias
 
@@ -159,7 +159,7 @@ Os seguintes idiomas têm suporte e estão disponíveis para o Eat no EOP autôn
 
 - Francês
 
-- Galego
+- Galician
 
 - Alemão
 

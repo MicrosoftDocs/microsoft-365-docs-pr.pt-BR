@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: c364c55888165b10de603fd4709e4f82b06f83cc
-ms.sourcegitcommit: 1b560ee45f3b0253fa5c410a4499373c1f92da9c
+ms.openlocfilehash: 0ad4381d4a4004d89dd35aa59098f26d8f12dd56
+ms.sourcegitcommit: bc17d4b2197dd60cdff7c9349bbe19eeaac85ac2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432600"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44604306"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
@@ -62,7 +62,7 @@ Você sempre tem a opção de desabilitar rótulos de confidencialidade para arq
 
 Se você estiver protegendo documentos no SharePoint usando o gerenciamento de direitos de informação (IRM) do SharePoint, verifique a seção [Gerenciamento de direitos de informação (IRM) e rótulos de confidencialização do SharePoint](#sharepoint-information-rights-management-irm-and-sensitivity-labels) nesta página. 
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Esses novos recursos funcionam somente com [Rótulos de confidencialidade](sensitivity-labels.md) . Se, no momento, você tiver rótulos de proteção de informações do Azure, primeiro migre-os para os rótulos de confidencialização para que você possa habilitar esses recursos para novos arquivos que você carregar. Para obter instruções, consulte [como migrar rótulos de proteção de informações do Azure para rótulos de sensibilidade unificada](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 
@@ -195,6 +195,35 @@ No entanto, você pode usar as duas soluções de proteção juntas e o comporta
 - Se você tiver habilitado qualquer uma das configurações de biblioteca de IRM adicionais, o que inclui impedir que os usuários carreguem documentos que não dão suporte ao IRM, essas configurações serão impostas.
 
 Com esse comportamento, você pode ter certeza de que todos os arquivos do Office e do PDF estão protegidos contra o acesso não autorizado, mesmo que eles não sejam rotulados. No entanto, os arquivos rotulados que são carregados não se beneficiarão dos novos recursos.
+
+## <a name="search-for-documents-by-sensitivity-label"></a>Pesquisar documentos por rótulo de confidencialidade
+
+Use a propriedade gerenciada **InformationProtectionLabelId** para localizar todos os documentos no SharePoint ou no onedrive que tenham um rótulo de confidencialidade específico. Use a seguinte sintaxe:`InformationProtectionLabelId:<GUID>`
+
+Por exemplo, para pesquisar todos os documentos que tenham sido rotulados como "confidencial" e que o rótulo tenha um GUID de "8faca7b8-8d20-48A3-8ea2-0f96310a848e", na caixa de pesquisa, digite:
+
+`InformationProtectionLabelId: 8faca7b8-8d20-48a3-8ea2-0f96310a848e`
+
+Para obter os GUIDs de seus rótulos de confidencialidade, use o cmdlet [Get-Label](https://docs.microsoft.com/powershell/module/exchange/get-label?view=exchange-ps) :
+    
+1. Primeiro, [conecte-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell). 
+    
+    Por exemplo, em uma sessão do PowerShell que você executa como administrador, entre com uma conta de administrador global:
+    
+    ```powershell
+    Set-ExecutionPolicy RemoteSigned
+    $UserCredential = Get-Credential
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+    Import-PSSession $Session -DisableNameChecking
+    ```
+
+2. Em seguida, execute o seguinte comando:
+    
+    ```powershell
+    Get-Label |ft Name, Guid
+    ```
+
+Para obter mais informações sobre como usar propriedades gerenciadas, consulte [gerenciar o esquema de pesquisa no SharePoint](https://docs.microsoft.com/sharepoint/manage-search-schema).
 
 ## <a name="how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out"></a>Como desabilitar rótulos de confidencialidade para o SharePoint e o OneDrive (recusar)
 

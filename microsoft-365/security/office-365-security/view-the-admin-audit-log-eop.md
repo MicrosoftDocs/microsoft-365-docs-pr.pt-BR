@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: Os administradores podem aprender a exibir e pesquisar o log de auditoria do administrador no Exchange Online Protection (EOP) autônomo.
-ms.openlocfilehash: b3f2f2601be1ce6e2120b60d23f617ae4e174e08
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: e8c12f622c4dc382b11d03424e45c33e3afe3cbf
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351856"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44613319"
 ---
 # <a name="view-the-admin-audit-log-in-standalone-eop"></a>Exibir o log de auditoria de administradores no EOP autônomo
 
@@ -32,7 +32,7 @@ O log de auditoria de administrador registra ações específicas, com base nos 
 
 - Para abrir o centro de administração do Exchange, confira [centro de administração do Exchange em EOP autônomo](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Você precisa receber permissões para executar esses procedimentos. Especificamente, você precisa da função logs de auditoria ou de logs de auditoria somente para exibição, que são atribuídos aos grupos de função ComplianceManagement, gerenciamento (administradores globais) e SecurityAdministrator por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
 
@@ -86,7 +86,7 @@ Search-AdminAuditLog [-Cmdlets <Cmdlet1,Cmdlet2,...CmdletN>] [-Parameters <Param
 
   - Especificar o valor de data/hora em UTC: por exemplo, "2016-05-06 14:30:00Z".
 
-  - Especifique o valor de data/hora como uma fórmula que converte a data/hora em seu fuso horário local em UTC: por exemplo, `(Get-Date "5/6/2016 9:30 AM").ToUniversalTime()` . Para mais informações, consulte [Get-Date](https://go.microsoft.com/fwlink/p/?LinkID=113313).
+  - Especifique o valor de data/hora como uma fórmula que converte a data/hora em seu fuso horário local em UTC: por exemplo, `(Get-Date "5/6/2016 9:30 AM").ToUniversalTime()` . Para mais informações, consulte [Get-Date](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/get-date).
 
 - Por padrão, o cmdlet retorna um máximo de 1.000 entradas de log. Use o parâmetro _resultize_ para especificar até 250.000 entradas de log. Ou use o valor `Unlimited` para retornar todas as entradas.
 

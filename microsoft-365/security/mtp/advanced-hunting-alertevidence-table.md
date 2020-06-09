@@ -1,7 +1,7 @@
 ---
 title: Tabela AlertEvidence no esquema de busca avançada
 description: Saiba mais sobre arquivo, endereço de rede, usuário ou informações de dispositivo associadas a alertas gerados na tabela AlertEvidence do esquema de busca avançada
-keywords: caça avançada, busca de ameaças, busca de ameaças da CyberSource, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, tabela, coluna, tipo de dados, descrição, AlertInfo, alerta, entidades, evidência, arquivo, endereço IP, dispositivo, máquina, usuário, conta
+keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, tabela, coluna, tipo de dados, descrição, AlertInfo, alerta, entidades, evidência, arquivo, endereço IP, dispositivo, máquina, usuário, conta
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 1a58d1e5db2ea8689d4909e6e9c47b08a6e94d34
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: da6e84725aa391e4cb6056fadd327fdba2436214
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42929066"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617081"
 ---
 # <a name="alertevidence"></a>AlertEvidence
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
 
-A `AlertEvidence` tabela no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre várias entidades (arquivos, endereços IP, URLs, usuários ou dispositivos) associados a alertas do Microsoft Defender ATP, Office 365 ATP, Microsoft Cloud app Security e Azure ATP. Use essa referência para criar consultas que retornam informações dessa tabela.
+A `AlertEvidence` tabela no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre várias entidades (arquivos, endereços IP, URLs, usuários ou dispositivos) associados a alertas do Microsoft defender ATP, Office 365 ATP, Microsoft Cloud app Security e Azure ATP. Use essa referência para criar consultas que retornam informações dessa tabela.
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 
@@ -40,8 +40,8 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `EntityType` | string | Tipo de objeto, como um arquivo, um processo, um dispositivo ou um usuário |
 | `EvidenceRole` | string | Como a entidade está envolvida em um alerta, indicando se é impactada ou se é meramente relacionada |
 | `SHA1` | string | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
-| `SHA256` | string | SHA-256 do arquivo ao qual a ação gravada foi aplicada. Este campo geralmente não é preenchido: Use a coluna SHA1 quando disponível. |
-| `RemoteIP` | cadeia de caracteres | Endereço IP que estava sendo conectado ao |
+| `SHA256` | string | SHA-256 do arquivo ao qual a ação gravada foi aplicada. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
+| `RemoteIP` | string | Endereço IP que estava sendo conectado ao |
 | `RemoteUrl` | string | URL ou FQDN (nome de domínio totalmente qualificado) que estava sendo conectado à |
 | `AccountName` | cadeia de caracteres | Nome de usuário da conta |
 | `AccountDomain` | string | Domínio da conta |
