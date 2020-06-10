@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: 'Resumo: Crie assinaturas de teste do Office 365 e Enterprise Mobility + Security (EMS) com usuários e grupos para um ambiente de desenvolvimento/teste de campanha política.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 14722ab96230ecb8acaf4476d6ca70c47de2ffdd
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d1cd4812cdb8a58062d7c64e73049c080f8b906f
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035101"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588459"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Defina grupos e usuários para um ambiente de desenvolvimento/teste de uma campanha política
 
@@ -35,7 +35,7 @@ Use as instruções deste artigo para criar um ambiente de desenvolvimento/de te
 
 Nesta fase, você deve obter assinaturas de avaliação do Office 365 E5 e do Enterprise Mobility + Security (EMS) E5 para uma organização fictícia que representa uma campanha política.
 
-Primeiro, siga as instruções na **Fase 2** do [ambiente de desenvolvimento/de teste do Office 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment).
+Primeiro, siga as instruções em **Fase 2** de [A configuração de base leve](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise).
 
 Em seguida, inscreva-se para a assinatura de avaliação do EMS E5 e adicione-o à mesma organização da assinatura de avaliação da sua empresa.
 

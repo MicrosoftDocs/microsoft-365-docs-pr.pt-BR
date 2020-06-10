@@ -1,5 +1,5 @@
 ---
-title: Solicitações do Titular dos Dados no RGPD e CCPA
+title: Solicitações do Titular dos Dados do Office 365 no RGPD e CCPA
 description: Entenda os direitos do usuário de acordo com o RGPD e CCPA e como o Office 365 ajuda as empresas a encontrar dados e a agir sobre eles em resposta às DSRs.
 keywords: Office 365, DSR, Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD, CCPA
 localization_priority: Priority
@@ -15,14 +15,14 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 7e6f821cdc8712b11638cbb905b01b82af68e5ad
-ms.sourcegitcommit: ad789f1e7bf9c9dc0d45c731373e667a26ed30b1
+ms.openlocfilehash: bedce9c71e18749d6a394af17788e07ce79c2820
+ms.sourcegitcommit: a418195dc11e6251ae37e788c102bbaa7087e44e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221425"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44579266"
 ---
-# <a name="data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações do Titular dos Dados para RGPD e CCPA
+# <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados do Office 365 para o GDPR e o CCPA
 
 ## <a name="introduction-to-dsrs"></a>Introdução às DSRs
 
@@ -1130,7 +1130,7 @@ As seções a seguir explicam como usar a funcionalidade no aplicativo do Micros
 Você pode usar a Pesquisa de Conteúdo para pesquisar o site do SharePoint Online que está associado a um projeto (quando um projeto é criado pela primeira vez, há uma opção para criar um site do SharePoint Online associado); a Pesquisa de Conteúdo não pesquisa os dados em um projeto real no Project Online, somente o site associado. De qualquer forma, a Pesquisa de Conteúdo pesquisa metadados sobre projetos (como pessoas mencionadas no assunto). No entanto, isso pode ajudá-lo a encontrar (e acessar) o projeto que contém os dados relacionados à DSR.
 
 >[!TIP]
->A URL do conjunto de sites na organização onde os sites associados aos projetos estão é **https://\<sua organização\>.sharepoint.com/sites/pwa**; por exemplo, **https://contoso.sharepoint.com/pwa**. Você pode usar esse conjunto de sites específico como o local da sua pesquisa de conteúdo e, em seguida, o nome do projeto na consulta de pesquisa. Além disso, um administrador de TI pode usar a página Conjuntos de Sites no Centro de administração do SharePoint para obter uma lista de conjuntos de sites PWA na organização.
+>A URL do conjunto de sites na organização onde os sites associados aos projetos estão é **https://\<your org\>.sharepoint.com/sites/pwa**; por exemplo, **https://contoso.sharepoint.com/pwa**. Você pode usar esse conjunto de sites específico como o local da sua pesquisa de conteúdo e, em seguida, o nome do projeto na consulta de pesquisa. Além disso, um administrador de TI pode usar a página Conjuntos de Sites no Centro de Administração do SharePoint Online para obter uma lista de conjuntos de sites PWA na organização.
 
 #### <a name="delete"></a>Excluir
 
@@ -1382,7 +1382,7 @@ Depois que essas alterações são feitas, você poderá aproveitar os recursos 
 
 Para mensagens, um usuário pode editar uma determinada mensagem de modo a retificar qualquer imprecisão. Ele pode solicitar uma lista de todas as respectivas mensagens a um administrador verificado do Yammer e clicar em um link do arquivo para revisar cada mensagem.
 
-Para arquivos, um usuário pode editar um determinado arquivo de modo a retificar qualquer imprecisão. Ele pode solicitar uma lista de todos os arquivos que postou a um administrador verificado do Yammer e acessar os arquivos no Yammer. Os arquivos que são exportados na pasta Arquivos podem ser exibidos pesquisando o arquivo por número. Por exemplo, para um arquivo chamado 12345678.ppx na exportação, use a caixa Pesquisar no Yammer para procurar 1235678.ppx. Ou, vá para <strong>https://www.yammer.com/\<network\_name\>/\#/files/\<file\_number\></strong>; por exemplo, <strong>https://www.yammer.com/contosomkt.onmicrosoft.com/\#/files/12345678</strong>.
+Para arquivos, um usuário pode editar um determinado arquivo de modo a retificar imprecisões. Eles podem solicitar uma lista de todos os arquivos publicados por um administrador verificado do Yammer e acessar os arquivos no mesmo. Os arquivos exportados para a pasta Arquivos podem ser visualizados ao pesquisá-los pelo número. Por exemplo, para um arquivo chamado 12345678.ppx na exportação, use a caixa Pesquisar no Yammer para buscar 1235678.ppx. Ou vá para <strong>https://www.yammer.com/\<network\_name\>/\#/files/\<file\_number\></strong>; por exemplo, <strong>https://www.yammer.com/contosomkt.onmicrosoft.com/\#/files/12345678</strong>.
 
 Em dados que o usuário pode acessar por meio de seu perfil e pelas configurações, ele pode fazer todas as alterações necessárias.
 
@@ -1581,24 +1581,62 @@ Não há suporte para a capacidade de restringir ou corrigir dados nos logs gera
 
 ### <a name="accessing-and-exporting-system-generated-logs"></a>Acessar e exportar logs gerados pelo sistema
 
-O “direito de portabilidade de dados” permite que uma entidade de dados solicite uma cópia de seus dados pessoais em formato eletrônico (que é um “formato estruturado, comumente usado, legível por máquina e interoperável”) que pode ser transmitido para outro controlador de dados. O Azure dá suporte a isso ao habilitar a sua organização a exportar dados no formato nativo JSON para o contêiner de armazenamento especificado do Azure.
+O administrador de locatários é a única pessoa em sua organização que pode acessar os logs gerados pelo sistema associados ao uso de serviços e aplicativos do Office 365 por um usuário específico. Os dados recuperados de uma solicitação de exportação serão fornecidos em um formato legível para computador e serão fornecidos em arquivos que permitem ao usuário saber quais serviços são associados aos dados. Conforme observado acima, os dados recuperados não incluirão dados que possam comprometer a segurança ou estabilidade do serviço.
+
+Para acessar e exportar logs gerados pelo sistema:
+
+1. Acesse o portal do Azure e selecione **Todos os serviços**.
+2. Digite política no filtro e, em seguida, selecione **Política**.
+3. Na folha **Política**, selecione **Privacidade do usuário**, selecione **Gerenciar Solicitações de Usuário**e selecione **Adicionar solicitação de exportação**.
+4. Preencha a **Solicitação de exportação de dados**:
+
+    - **Usuário**. Digite o endereço de email do usuário do Azure Active Directory que solicitou a exportação.
+    - **Assinatura**. Selecione a conta que você usa para informar o uso de recursos e cobrar por serviços. Essa também é a localização da sua conta de armazenamento do Azure.
+    - **Conta de armazenamento**. Selecione a localização de seu Armazenamento do Microsoft Azure (Blob). Para saber mais, confira a Introdução ao Armazenamento do Microsoft Azure: armazenamento de Blob.
+    - **Contêiner**. Crie um novo contêiner (ou selecione um existente) como o local de armazenamento para os dados de privacidade exportados do usuário.
+
+5. Selecione **Criar**.
+
+A solicitação de exportação entra no status **Pendente**. Você pode exibir o status do relatório em **Privacidade do usuário** > **Folha de visão geral**.
 
 >[!IMPORTANT]
->Você deve ser um administrador de locatários para exportar dados de usuário do locatário.
+>Como os dados pessoais podem vir de vários sistemas, é possível que o processo de exportação possa levar até um mês para ser concluído.
 
-#### <a name="azure-active-directory"></a>Azure Active Directory
+### <a name="notify-about-exporting-or-deleting-issues"></a>Notificar problemas de exportação ou exclusão
 
-Em relação aos dados do cliente, a Microsoft oferece um portal e experiências internas do produto que proporcionam ao administrador de locatários do cliente corporativo a capacidade de gerenciar solicitações de exportação de informações de identificação de um usuário final.
+Se você tiver problemas ao exportar ou excluir dados do Portal do Azure, acesse a folha **Ajuda + Suporte** do portal do Azure e envie um novo tíquete em **Gerenciamento de Assinaturas** > **Outra Solicitação de Segurança e Conformidade** > **Solicitações GDPR e Folha de Privacidade**.
 
-#### <a name="service-specific-interfaces"></a>Interfaces específicas do serviço
+>[!NOTE]
+ >Ao exportar dados do portal do Azure, os dados gerados pelo sistema para alguns aplicativos não serão exportados. Para exportar dados para esses aplicativos, confira [Etapas adicionais para exportar dados de log gerados pelo sistema](https://docs.microsoft.com/microsoft-365/compliance/gdpr-system-generated-log-data).
 
-A Microsoft oferece a capacidade de descobrir os dados dos clientes diretamente por APIs (interfaces de programação de aplicativos) preexistentes ou por IUs (interfaces de usuário) para serviços específicos. Os detalhes são descritos na documentação de referência dos respectivos serviços e descrevem as operações aplicáveis de CRUD (criar, ler, atualizar e excluir).
+A seguir há um resumo do acesso e da exportação de logs de gerados pelo sistema:
+
+- **Quanto tempo leva para que uma solicitação de exportação usando o portal do Azure seja concluída?**: Isso pode depender de vários fatores. Geralmente, ela deve ser concluída em um ou dois dias, mas pode levar até 30 dias.
+- **Em qual formato a saída estará?**: A saída será estruturada em arquivos legíveis por máquina, como XML, CSV ou JSON.
+- **Quem tem acesso ao portal do Azure para enviar solicitações de acesso aos dados gerados pelo sistema?**: Os administradores globais do Office 365 têm acesso ao portal do Azure.
+- **Quais dados são retornados pelos resultados da exportação?**: Os resultados contêm logs gerados pelo sistema armazenados pela Microsoft. Os dados exportados vão abranger vários serviços Microsoft, incluindo o Office 365, o Azure e o Dynamics. Os resultados não incluem dados que possam comprometer a segurança ou estabilidade do serviço.
+- **Como os dados são retornados ao usuário?**: Os dados serão exportados para o local de armazenamento do Azure da organização; caberá aos administradores em sua organização determinar como eles exibirão/retornarão esses dados aos usuários.
+- **Como serão os dados de log gerados pelo sistema?**: A seguir um exemplo, onde os dados estão no formato JSON:
+
+    ```JSON
+    [{
+    "DateTime": "2017-04-28T12:09:29-07:00",
+    "AppName": "SharePoint",
+    "Action": "OpenFile",
+    "IP": "154.192.13.131",
+    "DevicePlatform": "Windows 1.0.1607"
+    }]
+    ```
+
+Os dados de uso de produtos e serviços para alguns serviços mais frequentemente usados da Microsoft, como Exchange Online, SharePoint Online, Skype for Business, Yammer e Grupos do Office 365, também podem ser recuperados pesquisando o log de auditoria do Office 365 no Centro de Conformidade e Segurança.  Para saber mais, confira [Usar a ferramenta de pesquisa de log de auditoria do Office 365 nas investigações de DSR](#use-the-audit-log-search-tool-in-dsr-investigations) no Apêndice A. Usar o log de auditoria pode ser interessante para você, pois é possível atribuir permissões a outras pessoas na sua organização (como o responsável pela conformidade) para pesquisar o log de auditoria a fim de acessar esses dados.
 
 ### <a name="deleting-system-generated-logs"></a>Excluir os logs gerados pelo sistema
 
 Para excluir logs gerados pelo sistema recuperados por meio de uma solicitação de acesso, você deve remover o usuário do serviço e excluir permanentemente sua conta do Azure Active Directory. Para obter instruções sobre como excluir permanentemente um usuário, confira a seção [Excluir um usuário](#deleting-a-user) deste guia. É importante observar que excluir permanentemente uma conta de usuário é um processo irreversível após iniciado.
 
-Excluir permanentemente uma conta de usuário remove os dados do usuário dos logs gerados pelo sistema, exceto dados que possam comprometer a segurança ou estabilidade do serviço, para quase todos os serviços do Office 365 em 30 dias. A exceção é quando a exclusão permanente da conta de usuário leva mais de 30 dias no Exchange Online. Dada a natureza crítica do conteúdo do Exchange Online e para impedir a perda acidental de dados. O sistema foi intencionalmente projetado para colocar os dados em um estado de retenção por até 60 dias depois que uma conta de usuário for permanentemente excluída. Para excluir permanentemente os dados do Exchange Online de um usuário em um prazo de 30 dias, exclua permanentemente a conta do usuário no Azure Active Directory, contate o [suporte da Microsoft](https://support.microsoft.com/) e solicite que os dados do Exchange Online do usuário sejam manualmente removidos do processo de exclusão agendado.  Para saber mais, confira [Remover dados do Exchange Online](#removing-exchange-online-data), que foi explicado anteriormente neste guia
+Excluir permanentemente uma conta de usuário remove os dados do usuário dos logs gerados pelo sistema, exceto dados que possam comprometer a segurança ou estabilidade do serviço, para quase todos os serviços do Office 365 em 30 dias. 
+
+Uma exceção a esse período de 30 dias é quando a exclusão permanente da conta de usuário no Exchange Online leva mais tempo do que isso. Isso ocorre devido à natureza crítica do conteúdo do Exchange Online e para evitar a perda acidental de dados. O Exchange Online foi intencionalmente projetado para colocar os dados em um estado de retenção por até 60 dias após a exclusão permanente de uma conta de usuário. Para excluir permanentemente os dados do Exchange Online de um usuário em um prazo de 30 dias, exclua permanentemente a conta do usuário no Azure Active Directory, contate o [suporte da Microsoft](https://support.microsoft.com/) e solicite que os dados do Exchange Online do usuário sejam manualmente removidos do processo de exclusão agendado.  Para saber mais, confira [Remover dados do Exchange Online](#removing-exchange-online-data), que foi explicado anteriormente neste guia
 
 Excluir uma conta de usuário não removerá logs gerados pelo sistema para o Yammer e Kaizala. Para remover os dados desses aplicativos, siga um destes procedimentos:
 
@@ -1607,11 +1645,11 @@ Excluir uma conta de usuário não removerá logs gerados pelo sistema para o Ya
 
 #### <a name="national-clouds"></a>Nuvens nacionais
 
-Um administrador de TI global precisará fazer o seguinte para excluir logs gerados pelo sistema nestas nuvens nacionais:
+Um administrador de TI global precisa fazer o seguinte para exportar logs gerados pelo sistema nestas nuvens nacionais:
 
-- Office 365 Germany: quando a conta de usuário for excluída permanentemente, os logs gerados pelo sistema também serão excluídos. 
-- Office 365 US Government: envie uma solicitação ao Suporte da Microsoft por meio do [portal de administração do Office 365](https://portal.office365.us).
-- Office 365 operado pela 21Vianet (China): envie uma solicitação ao Suporte da Microsoft por meio do portal de administração do Office 365 nesta [URL](https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage). Vá para **Comércio** e selecione **Assinatura** -> **Privacidade** -> **RGPD** e insira as informações necessárias.
+- **Office 365 Germany**: siga as etapas acima.
+- **Office 365 US Government**: [acesse o portal de administração do Office 365](https://portal.office365.us) e envie uma solicitação ao Suporte da Microsoft.
+- **Office 365 operado pela 21Vianet (China)**: [Vá para o portal de administração do Office 365 operado pela 21Vianet](https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage) e acesse **Comércio** > **Assinatura** > **** Privacidade > **GDPR** e insira as informações necessárias.
 
 ## <a name="part-4-additional-resources-to-assist-you-with-dsrs"></a>Parte 4: Recursos adicionais para ajudar com as DSRs
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de sensibilidade da estrutura da Proteção de informações do Microsoft para classificar e proteger os dados da sua organização sem prejudicar a produtividade e a colaboração do usuário.
-ms.openlocfilehash: 76d6a57c02f2623b65287b5429c41728a07724bd
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: 26b916f2a6aa86131da6f0bf9250291bad85dd74
+ms.sourcegitcommit: 57afde60f81499f58a9dce13649361c62f2b5a01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292539"
+ms.lasthandoff: 06/06/2020
+ms.locfileid: "44590922"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -163,7 +163,7 @@ Com uma política de rótulos, você pode:
 
 Depois de criar um política de rótulo que atribui rótulos de confidencialidade a usuários e grupos, aguarde 24 horas para que esses usuários vejam os rótulos em seus aplicativos do Office.
 
-Não há limite para o número de rótulos de confidencialidade que você pode criar e publicar, com uma exceção: se o rótulo aplicar criptografia, haverá no máximo 500 rótulos. No entanto, como prática recomendada para diminuir as despesas gerais do administrador e reduzir a complexidade para seus usuários, tente manter o número mínimo de rótulos. As implantações de palavras reais provaram que a eficácia é reduzida quando os usuários têm mais de cinco rótulos principais e mais de cinco sub-rótulos por rótulo principal.
+Não há limite para o número de rótulos de confidencialidade que você pode criar e publicar, com uma exceção: se o rótulo aplicar criptografia, o máximo que pode ser criado é de 500 rótulos. No entanto, como prática recomendada para diminuir as despesas gerais do administrador e reduzir a complexidade para seus usuários, tente manter o número mínimo de rótulos. As implantações de palavras reais provaram que a eficácia é reduzida quando os usuários têm mais de cinco rótulos principais e mais de cinco sub-rótulos por rótulo principal.
 
 ### <a name="label-policy-priority-order-matters"></a>Prioridade das políticas de rótulos (a ordem é importante)
 
