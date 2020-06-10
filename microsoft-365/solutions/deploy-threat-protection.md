@@ -13,12 +13,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 92a2cc7603a1a49be5ee72fc7b6d132ce46e38d7
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: ee3acf0729920f1ab4fdaa3fb79b2b541a7a608b
+ms.sourcegitcommit: a3ec91423c352cd5fbf79b46ccd9c169455a03ba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160865"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44664593"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Implantar recursos de proteção contra ameaças no Microsoft 365
 
@@ -83,8 +83,8 @@ A MFA ( [autenticação multifator](https://docs.microsoft.com/azure/active-dire
 A Microsoft testou e recomenda um conjunto específico de acesso condicional e políticas relacionadas para proteger o acesso a todos os aplicativos SaaS, especialmente o Microsoft 365. As políticas são recomendadas para proteção de linha de base, confidencial e altamente regulamentada. Comece implementando as políticas de proteção de linha de base. 
 
 
-[![Políticas comuns para configurar a identidade e o acesso](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
-ao dispositivo[consulte uma versão maior desta imagem](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
+[ ![ Políticas comuns para configurar a identidade e o acesso ao dispositivo](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png) 
+ [consulte uma versão maior desta imagem](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
 
 ### <a name="to-implement-baseline-protection-for-microsoft-365"></a>Para implementar a proteção de linha de base para o Microsoft 365
 
@@ -206,7 +206,7 @@ A [proteção avançada contra ameaças do Microsoft defender](https://docs.micr
 
 ## <a name="step-7-monitor-status-and-take-actions"></a>Etapa 7: monitorar o status e realizar ações
 
-Após configurar e implantar seus serviços e recursos de proteção contra ameaças, a próxima etapa é monitorar as detecções de ameaças e tomar as medidas apropriadas. O melhor ponto de partida é o centro de segurança do[https://security.microsoft.com](https://security.microsoft.com)Microsoft 365 (), onde você pode monitorar e gerenciar a segurança em suas identidades, dados, dispositivos, aplicativos e infraestrutura da Microsoft. 
+Após configurar e implantar seus serviços e recursos de proteção contra ameaças, a próxima etapa é monitorar as detecções de ameaças e tomar as medidas apropriadas. O melhor ponto de partida é o centro de segurança do Microsoft 365 ( [https://security.microsoft.com](https://security.microsoft.com) ), onde você pode monitorar e gerenciar a segurança em suas identidades, dados, dispositivos, aplicativos e infraestrutura da Microsoft. 
 
 :::image type="content" source="../media/solutions-architecture-center/m365-security-center.png" alt-text="Centro de segurança do Microsoft 365":::
 
@@ -245,5 +245,5 @@ Além desta orientação, a Microsoft recomenda que os usuários executem as aç
 - Habilitar recursos de segurança nos PCs com Windows 10 e Mac (para dispositivos não gerenciados)
     
 A Microsoft também recomenda que os usuários protejam suas contas de email pessoais executando as ações recomendadas nos seguintes artigos:
-- [Ajudar a proteger sua conta de email do Outlook.com](https://support.microsoft.com/en-us/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
+- [Ajudar a proteger sua conta de email do Outlook.com](https://support.microsoft.com/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
 - [Proteger sua conta do Gmail com a verificação em duas etapas](https://go.microsoft.com/fwlink/?linkid=2015688&amp;clcid=0x409)

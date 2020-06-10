@@ -13,12 +13,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: f0c80cee878f845aa26a984e8374a911a6da120d
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 55cb2e396b4e557a9fc6de2bba4a90b962137d7b
+ms.sourcegitcommit: a3ec91423c352cd5fbf79b46ccd9c169455a03ba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159974"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44664533"
 ---
 # <a name="microsoft-365-solution-and-architecture-center"></a>Centro de soluções e arquitetura da Microsoft 365
 
@@ -29,12 +29,13 @@ Este centro de soluções e arquitetura reúne as orientações técnicas de que
 - [Capacite funcionários remotos com o Microsoft 365](empower-people-to-work-remotely.md)
 - [Configurar a colaboração segura com o Microsoft 365](setup-secure-collaboration-with-teams.md)
 - [Implantar a proteção contra ameaças no Microsoft 365](deploy-threat-protection.md)
+- [Implantar a proteção de informações para regulamentações de privacidade de dados](information-protection-deploy.md)
 
-![objetos](https://docs.microsoft.com/office/media/icons/objects-blue.png) da **[solução de carga de trabalho e orientações de cenário](workload-solutions-scenarios-overview.md)** esses cenários e soluções ajudam a realizar um objetivo específico de negócios. Você pode adicioná-los às soluções fundamentais para adicionar recursos ao seu ambiente.
+![objetos da ](https://docs.microsoft.com/office/media/icons/objects-blue.png) **[solução de carga de trabalho e orientações de cenário](workload-solutions-scenarios-overview.md)** esses cenários e soluções ajudam a realizar um objetivo específico de negócios. Você pode adicioná-los às soluções fundamentais para adicionar recursos ao seu ambiente.
 
-![Símbolos](https://docs.microsoft.com/office/media/icons/cloud-architecture2.png) de regra e de nuvem a **[solução e as ilustrações de arquitetura](productivity-illustrations.md)** ou baixe estas ilustrações para entender os recursos do Microsoft 365 e a arquitetura dos serviços de nuvem do Microsoft 365.
+![Símbolos de regra e de nuvem ](https://docs.microsoft.com/office/media/icons/cloud-architecture2.png) a **[solução e as ilustrações de arquitetura](productivity-illustrations.md)** ou baixe estas ilustrações para entender os recursos do Microsoft 365 e a arquitetura dos serviços de nuvem do Microsoft 365.
 
-![Práticas recomendadas](https://docs.microsoft.com/office/media/icons/best-practices-blue.png) faixa **[de opções específicas do setor](industry-specific-guidance-overview.md)** encontre as práticas recomendadas para o seu setor: Finanças, saúde e educação.
+![Práticas recomendadas faixa ](https://docs.microsoft.com/office/media/icons/best-practices-blue.png) **[de opções específicas do setor](industry-specific-guidance-overview.md)** encontre as práticas recomendadas para o seu setor: Finanças, saúde e educação.
 
-![Layout/navegação](https://docs.microsoft.com/office/media/icons/layout-navigation-blue.png) os **[princípios de design](design-principles.md)** entendem os principais princípios que você precisa para entender as arquiteturas de rede, identidade, segurança e multinacionais.
+![Layout/navegação os ](https://docs.microsoft.com/office/media/icons/layout-navigation-blue.png) **[princípios de design](design-principles.md)** entendem os principais princípios que você precisa para entender as arquiteturas de rede, identidade, segurança e multinacionais.
 
