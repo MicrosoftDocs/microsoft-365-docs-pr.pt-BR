@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Saiba como você pode redefinir suas senhas usando a ferramenta de redefinição de senha autoatendimento.
-ms.openlocfilehash: 21bcbbbd5ef2167b04b8da6db437c528b5fab0c5
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 40f094489a1981302e97043b019e8c90a52ffc55
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431696"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678677"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Permitir que os usuários redefinam as próprias senhas
 
@@ -54,7 +54,8 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 Estas etapas habilitam a redefinição de senhas de autoatendimento para todas as pessoas da empresa.
   
 ::: moniker range="o365-worldwide"
-1. No centro de administração, vá para a **Settings** \> página <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">configurações</a> de configurações.
+
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração</a>, vá para a página Configurações da organização de **configurações** > **Org settings** .
 
 ::: moniker-end
 
@@ -70,13 +71,17 @@ Estas etapas habilitam a redefinição de senhas de autoatendimento para todas a
 
 ::: moniker-end
 
-2. Na parte superior da página configurações, selecione **segurança & privacidade**.
+2. Na parte superior da página **configurações da organização** , selecione a guia **privacidade & segurança** .
   
 3. Selecione **redefinição de senha de autoatendimento**.
+
+4. Em **redefinição de senha de autoatendimento**, selecione **ir para o portal do Azure para ativar a redefinição de senha de autoatendimento**.
+
+5. No painel de navegação esquerdo, selecione **usuários**e, em seguida, em **usuários | Página todos os usuários** , selecione **redefinição de senha**.
   
-4. Na página Propriedades, selecione **tudo** para habilitá-lo para todas as pessoas em sua empresa e, em seguida, selecione **salvar**.
+6. Na página **Propriedades** , selecione **tudo** para habilitá-lo para todas as pessoas em sua empresa e, em seguida, selecione **salvar**.
   
-5. Quando seus usuários entrarem, eles serão solicitados a inserir informações de contato adicionais que os ajudarão a redefinir sua senha no futuro.
+7. Quando seus usuários entrarem, eles serão solicitados a inserir informações de contato adicionais que os ajudarão a redefinir sua senha no futuro.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a eliminação de conteúdo, se você usar uma revisão de disposição ou se o conteúdo é excluído automaticamente de acordo com as configurações que você configurou.
-ms.openlocfilehash: 07790175d56db9b82610b4882070a54ddce3d0c2
-ms.sourcegitcommit: 8a15038a6ac16f41f6b90af52e367f888104cec9
+ms.openlocfilehash: 8936289ccf42fa50b78b611c46742710cd035727
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44156886"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678987"
 ---
 # <a name="disposition-of-content"></a>Disposição do conteúdo
 
@@ -35,7 +35,7 @@ Para gerenciar revisões de disposição e confirmar que os registros foram excl
 
 ### <a name="permissions-for-disposition"></a>Permissões para descarte
 
-Para acessar com êxito a guia **disposição** no centro de conformidade da Microsoft 365, você deve ser membro da função de **Gerenciamento de descarte** e da função de logs de **auditoria somente para exibição** . Recomendamos criar um novo grupo de função chamado **revisores de disposição**e adicionar essas duas funções a esse grupo de função. 
+Para acessar com êxito a guia **disposição** no centro de conformidade da Microsoft 365, você deve ser membro da função de **Gerenciamento de descarte** e da função de logs de **auditoria somente para exibição** . Recomendamos criar um novo grupo de função chamado **revisores de disposição**e adicionar essas duas funções a esse grupo de função. Mesmo que você seja um usuário de **administrador global** , será necessário fazer parte da função de **Gerenciamento de descarte** para acessar a guia disposição.
 
 Específico para a função de **logs de auditoria somente para exibição** :
 
@@ -43,7 +43,7 @@ Específico para a função de **logs de auditoria somente para exibição** :
 
 - Os grupos do Microsoft 365 ([anteriormente Office 365 grupos](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)) não têm suporte para essa função. Em vez disso, atribua caixas de correio de usuário, usuários de email ou grupos de segurança habilitados para email.
 
-Para obter instruções para conceder aos usuários a função de **Gerenciamento de descarte** e criar sua nova função de **revisores de disposição** , consulte [dar aos &amp; usuários acesso ao centro de conformidade de segurança do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
+Para obter instruções para conceder aos usuários a função de **Gerenciamento de descarte** e criar sua nova função de **revisores de disposição** , consulte [dar aos usuários acesso ao &amp; centro de conformidade de segurança do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
 
 ### <a name="enable-auditing"></a>Habilitar a auditoria
 

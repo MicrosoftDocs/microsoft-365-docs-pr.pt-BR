@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a rotear spam para as pastas de lixo eletrônico do usuário em um ambiente híbrido do Exchange Online Protection.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dcfee309e532256a71511c3f6de019b22f5db093
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 5d8ba6aae599ee4dd327bd1ec82b46e8f3ee3ca8
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617049"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679115"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Configurar o EOP autônomo para fornecer spam para a pasta lixo eletrônico em ambientes híbridos
 
@@ -60,7 +60,7 @@ Este tópico descreve como criar essas regras de fluxo de emails do centro de ad
 
   - Se a regra de lixo eletrônico está habilitada na caixa de correio (o valor do parâmetro _Enabled_ é $true no cmdlet [set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration) no Shell de gerenciamento do Exchange). É a regra de lixo eletrônico que realmente move a mensagem para a pasta lixo eletrônico após a entrega. Por padrão, a regra de lixo eletrônico está habilitada nas caixas de correio. Para obter mais informações, consulte [Configurar configurações antispam do Exchange em caixas de correio](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings).
   
-- Para abrir o Eat em um servidor Exchange, confira [centro de administração do Exchange no Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center). Para abrir o Shell de gerenciamento do Exchange, consulte [https://docs.microsoft.com/powershell/exchange/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/open-the-exchange-management-shell) .
+- Para abrir o Eat em um servidor Exchange, confira [centro de administração do Exchange no Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center). Para abrir o Shell de gerenciamento do Exchange, confira [abrir o Shell de gerenciamento do Exchange](https://docs.microsoft.com/powershell/exchange/open-the-exchange-management-shell).
 
 - Para obter mais informações sobre regras de fluxo de emails no Exchange local, consulte os seguintes tópicos:
 

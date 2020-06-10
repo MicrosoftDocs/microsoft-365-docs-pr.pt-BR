@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 description: Você pode criar uma caixa de correio inativa no Microsoft 365 aplicando uma política de retenção ou bloqueio à caixa de correio e, em seguida, excluindo a conta de usuário correspondente. Os itens em uma caixa de correio inativa são mantidos pela duração da política de retenção ou retenção aplicada a ele antes de ser tornado inativo. Para excluir permanentemente uma caixa de correio inativa, apenas remova a política de retenção ou bloqueio.
-ms.openlocfilehash: bf8539ad8cfdd0170d17b490e7cfeaee8e0bd789
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 76205e0f0504d647f4968afcf9ae2f75b2664a01
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166082"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679095"
 ---
 # <a name="create-and-manage-inactive-mailboxes"></a>Criar e gerenciar caixas de correio inativas
 
@@ -75,9 +75,9 @@ Para exibir uma lista das caixas de correio inativas em sua organização:
   
 1. Vá para [https://protection.office.com](https://protection.office.com) e entre usando as credenciais de uma conta de administrador em sua organização. 
     
-2. Clique em**retenção**de **governança** > de informações.
+2. Clique em retenção de **governança de informações**  >  **Retention**.
     
-3. Na página **retenção** , clique em **mais**![elipses](../media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif)de barra de navegação e clique em **caixas de correio inativas**.
+3. Na página **retenção** , clique em **mais** ![ elipses de barra ](../media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif) de navegação e clique em **caixas de correio inativas**.
     
     ![Na página retenção, clique em mais e em caixas de correio inativas para exibir uma lista de caixas de correio inativas](../media/761bd90c-3e37-48f9-b1b9-479e90fea267.png)
   
@@ -91,7 +91,7 @@ Como alternativa, você pode executar o seguinte comando no PowerShell do Exchan
  Get-Mailbox -InactiveMailboxOnly | FT DisplayName,PrimarySMTPAddress,WhenSoftDeleted
 ```
 
-Você pode clicar ![em exportar ícone](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) de resultados de pesquisa **Exportar** para exibir ou baixar um arquivo CSV que contém informações adicionais sobre as caixas de correio inativas em sua organização. 
+Você pode clicar em ![ Exportar ícone de resultados de pesquisa ](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **Exportar** para exibir ou baixar um arquivo CSV que contém informações adicionais sobre as caixas de correio inativas em sua organização. 
   
 Você também pode executar o seguinte comando para exportar a lista de caixas de correio inativas e outras informações para um arquivo CSV. Neste exemplo, o arquivo CSV é criado no diretório atual.
 
@@ -112,7 +112,7 @@ Você pode acessar o conteúdo da caixa de correio inativa usando a ferramenta d
     
 Eis alguns pontos a serem levados em consideração durante a pesquisa de caixas de correio inativas.
   
-- Se uma pesquisa de conteúdo incluir uma caixa de correio de usuário e essa caixa de correio for desativada, a pesquisa de conteúdo continuará a Pesquisar a caixa de correio inativa quando você executar novamente a pesquisa após ela se tornar inativa.
+- Se uma pesquisa de conteúdo incluir uma caixa de correio de usuário e a caixa de correio for desativada, a pesquisa de conteúdo continuará a Pesquisar a caixa de correio inativa quando você executar novamente a pesquisa após ela se tornar inativa.
     
 - Em alguns casos, um usuário pode ter uma caixa de correio ativa e uma caixa de correio inativa que tenha o mesmo endereço SMTP. Nesse caso, somente a caixa de correio específica que você selecionar como um local para uma pesquisa de conteúdo será pesquisada. Em outras palavras, se você adicionar a caixa de correio de um usuário a uma pesquisa, não poderá supor que as suas caixas de correio ativas e inativas serão pesquisadas; somente a caixa de correio que você adicionar explicitamente à pesquisa será pesquisada.
     

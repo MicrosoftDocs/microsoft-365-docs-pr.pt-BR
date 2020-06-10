@@ -24,16 +24,16 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Use o centro de administração para configurar sua organização na nuvem e gerenciar usuários e assinaturas. Comece acessando a conta com permissões de administrador.
-ms.openlocfilehash: c5f061e8ffd8f545965483d8d318debea708bf2c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 77799599dfd93525efe101f7dea02c5fc8408bbf
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386956"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678643"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Sobre o centro de administração do Microsoft 365
 
-**Se você comprou um plano do Microsoft 365 for Business e tem permissões de administrador, você tem acesso ao centro de administração**. Este artigo é para você!
+**Se você comprou um plano do Microsoft 365 para empresas e tem permissões de administrador, você tem acesso ao centro de administração**. Este artigo é para você!
 
 **Se você for um usuário ou tiver um plano de família do Microsoft 365, você não tem um centro de administração.** Para configurar o Microsoft 365, vá para [baixar e instalar ou reinstalar o microsoft 365 ou o Office 2019 em um PC ou Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx).
 
@@ -75,7 +75,7 @@ Aqui estão os recursos e configurações que você encontrará na navegação e
   
 |**Menu**|**Para que serve**|
 |-----|-----|
-|**Página Inicial** <br/> |Essa é a página de chegada no novo centro de administração. Você verá onde gerenciar usuários, cobrança, integridade do serviço e relatórios.  <br/> |
+|**Página Inicial** <br/> |Esta é a página de aterrissagem no centro de administração. Você verá onde gerenciar usuários, cobrança, integridade do serviço e relatórios.  <br/> |
 |**Usuários** <br/> |Crie e gerencie usuários em sua organização, como funcionários ou alunos. Você também pode definir o nível de permissão deles ou redefinir suas senhas.  <br/> |
 |**Grupos** <br/> |Criar e gerenciar grupos em sua organização, como um grupo do Microsoft 365, grupo de distribuição, grupo de segurança ou caixa de correio compartilhada. Saiba como [criar](../create-groups/create-groups.md) e [gerenciar](../create-groups/manage-groups.md) grupos.  <br/> |
 |**Resources** <br/> |Crie e gerencie recursos, como um conjunto de sites do SharePoint. Saiba como [criar conjuntos de sites](https://docs.microsoft.com/sharepoint/create-site-collection).  <br/> |

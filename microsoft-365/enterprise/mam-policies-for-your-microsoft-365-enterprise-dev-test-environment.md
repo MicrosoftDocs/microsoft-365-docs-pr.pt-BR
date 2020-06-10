@@ -14,12 +14,12 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Use este guia de laboratório de teste para adicionar políticas de conformidade de dispositivo do Intune ao seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 4324ccca761e504812edc210ee6b6abdc484b670
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5ef39310ff74e5d5a38e8a5dd8c7ca24a126af58
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631580"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679021"
 ---
 # <a name="device-compliance-policies-for-your-microsoft-365-enterprise-test-environment"></a>Políticas de conformidade de dispositivo para seu ambiente de teste do Microsoft 365 Enterprise
 
@@ -46,9 +46,9 @@ Se você quiser configurar as políticas de MAM em uma empresa simulada, siga as
 
 Nesta fase, você cria uma política de conformidade de dispositivo para dispositivos Windows 10.
   
-1. Vá para o portal do Office 365 em[https://portal.office.com](https://portal.office.com)() e entre na sua assinatura de laboratório de teste do Office 365 com sua conta de administrador global.
+1. Vá para o portal do Office 365 em ( [https://portal.office.com](https://portal.office.com) ) e entre na sua assinatura de laboratório de teste do Office 365 com sua conta de administrador global.
     
-2. Em uma nova guia do navegador, abra o portal do Azure em [https://portal.azure.com](https://portal.azure.com).
+2. Em uma nova guia do navegador, abra o portal do Azure em [https://portal.azure.com](https://portal.azure.com) .
 
 3. Na guia portal do Azure no navegador, digite **Intune** na caixa de pesquisa e clique em **Intune**.
     
@@ -87,7 +87,7 @@ Clique em OK.
 
 20. No painel **Adicionar aplicativo** , selecione **configurações de pacote de aplicativos**.
 
-21. Em **canal de atualização**, selecione **semestral**e clique em **OK**.
+21. Em **canal de atualização**, selecione **Enterprise semestral**e clique em **OK**.
 
 22. No painel **Adicionar aplicativo** , clique em **Adicionar**.
 

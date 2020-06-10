@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 1fbd74e8-7a60-4157-afe8-fe79f05d2038
 description: Saiba mais sobre como reter o conteúdo de caixa de correio para funcionários antigos ao transformar a caixa de correio em uma caixa de correio inativa. Você pode fazer isso colocando a caixa de correio em retenção de litígio ou aplicando uma política de retenção da Microsoft 365 à caixa de correio e, em seguida, removendo a conta do Microsoft 365 correspondente.
-ms.openlocfilehash: 1e6851d628af861982d0447f6b592d4b1aa8bba5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ab89f8a7262dcd4197c52275558d95f8053d2c9b
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637923"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679045"
 ---
 # <a name="overview-of-inactive-mailboxes"></a>Visão geral de caixas de correio inativas
 
@@ -44,10 +44,10 @@ Além da retenção de litígio, o uso do novo recurso de política de retençã
   
 - Ela deve ser configurada para reter conteúdo ou reter e, em seguida, excluir conteúdo. Se uma política de retenção estiver configurada apenas para excluir conteúdo, uma caixa de correio à qual a política é aplicada não se tornará inativa quando a caixa de correio for excluída.
 
-- Ele deve ser aplicadas a caixas de correio do Exchange ou locais de Skype for Business (porque o conteúdo relacionado à Skype é armazenado na caixa de correio do usuário). 
-    
-- Pode ser baseado em consulta para que ele mantém somente os itens que correspondem a uma consulta de pesquisa. 
-    
+- Ele deve ser aplicadas a caixas de correio do Exchange ou locais de Skype for Business (porque o conteúdo relacionado à Skype é armazenado na caixa de correio do usuário).
+  
+- Pode ser baseado em consulta para que ele mantém somente os itens que correspondem a uma consulta de pesquisa.
+
 Para obter mais informações sobre a configuração de políticas de retenção, consulte [Overview of Retention Policies](retention-policies.md).
   
 Se você usar uma política de retenção para criar uma caixa de correio inativa, a Microsoft 365 continuará processando a política de retenção na caixa de correio inativa. Isso significa que se a política de retenção é configurada para manter e excluir conteúdo, itens serão movidos para a pasta itens recuperáveis quando a duração da retenção expira e eventualmente removidos da caixa de correio inativa. Se a política de retenção não estiver configurada para itens excluídos, os itens que não foram excluídos permanentemente pelo usuário (antes de a caixa de correio ter sido tornado inativa) não serão movidos para a pasta itens recuperáveis e serão retidos indefinidamente após a caixa de correio se tornar inativa. 
@@ -55,9 +55,9 @@ Se você usar uma política de retenção para criar uma caixa de correio inativ
 Você pode considerar a criação de uma política de retenção do Microsoft 365 especificamente para caixas de correio inativas. Aqui estão alguns motivos para fazer isso e coisas em mente.
   
 - Você pode configurar a política de retenção para reter somente desde que o necessário para atender aos requisitos da sua organização para ex-funcionários de conteúdo de caixa de correio.
-    
+
 - É uma boa maneira de identificar caixas de correio inativas porque a política de retenção só será aplicada a caixas de correio inativas.
-    
+
 - Você pode identificar rapidamente a política de retenção atribuída às caixas de correio inativas em sua organização. Isso facilita a alteração das configurações de retenção (ou exclusão), se necessário. Isso também facilitará a exclusão permanente de uma caixa de correio inativa, pois você poderá removê-la da política usando o centro de conformidade do & de segurança. Caso contrário, você terá que usar o PowerShell do Exchange Online para remover uma retenção de litígio de uma caixa de correio inativa ou usar o PowerShell de segurança & o centro de conformidade para excluir uma caixa de correio inativa de uma política de retenção da Microsoft 365 em toda a organização.
     
 - Se você criar uma política de retenção do Microsoft 365 especificamente para caixas de correio inativas, poderá adicionar um máximo de 1.000 caixas de correio à política. Se você for uma organização de grande porte, talvez seja necessário criar mais de uma política de retenção da Microsoft 365 para usar para caixas de correio inativas.
@@ -108,13 +108,16 @@ A tabela a seguir resume o processo para tornar uma caixa de correio inativa par
 
 Depois de fazer uma caixa de correio inativas, você pode executar várias tarefas de gerenciamento em caixas de correio inativas.
   
-- **Alterar a duração da retenção de uma caixa de correio inativa** Depois que uma caixa de correio for desativada, você poderá alterar a duração da retenção de litígio ou a política de retenção do Microsoft 365 aplicada à caixa de correio inativa. Para obter os procedimentos passo a passo, consulte [alterar a duração da retenção de uma caixa de correio inativa](change-the-hold-duration-for-an-inactive-mailbox.md).
+- **Alterar a duração da retenção de uma caixa de correio inativa.** Depois que uma caixa de correio for desativada, você poderá alterar a duração da retenção de litígio ou a política de retenção do Microsoft 365 aplicada à caixa de correio inativa. Para obter os procedimentos passo a passo, consulte [alterar a duração da retenção de uma caixa de correio inativa](change-the-hold-duration-for-an-inactive-mailbox.md).
 
   > [!NOTE]
   > Você não pode aplicar outras políticas de retenção a uma caixa de correio inativa. Você só pode alterar a duração da retenção de uma política de retenção existente aplicada à caixa de correio inativa.
     
-- **Recuperar uma caixa de correio inativa** Se um antigo funcionário (ou um funcionário em uma licença de ausência) retorna à sua organização, ou se um novo funcionário é contratado para assumir as responsabilidades de trabalho do funcionário anterior, você pode recuperar o conteúdo da caixa de correio inativa. Ao recuperar uma caixa de correio inativa, a caixa de correio é convertida em uma nova caixa de correio, o conteúdo e a estrutura de pastas da caixa de correio inativa são mantidos e a caixa de correio é vinculada a uma nova conta de usuário. Após sua recuperação, a caixa de correio inativa deixa de existir. Para obter os procedimentos passo a passo e informações sobre o que acontece quando você recupera uma caixa de correio inativa, consulte [recuperar uma caixa de correio inativa](recover-an-inactive-mailbox.md).
+- **Recuperar uma caixa de correio inativa.** Se um antigo funcionário (ou um funcionário em uma licença de ausência) retornar à sua organização, ou se um novo funcionário for contratado para tomar as responsabilidades do cargo do funcionário anterior, você poderá recuperar o conteúdo da caixa de correio inativa. Ao recuperar uma caixa de correio inativa, a caixa de correio é convertida em uma nova caixa de correio, o conteúdo e a estrutura de pastas da caixa de correio inativa são mantidos e a caixa de correio é vinculada a uma nova conta de usuário. Após sua recuperação, a caixa de correio inativa deixa de existir. Para obter os procedimentos passo a passo e informações sobre o que acontece quando você recupera uma caixa de correio inativa, consulte [recuperar uma caixa de correio inativa](recover-an-inactive-mailbox.md).
+
+  > [!NOTE]
+  > Se você recuperar uma caixa de correio inativa que foi atribuída a uma política de retenção com bloqueio de preservação (chamada de *política de retenção bloqueada*), a caixa de correio recuperada será atribuída à mesma política de retenção bloqueada. Se você recuperar uma caixa de correio inativa que foi atribuída a uma política de retenção sem bloqueio de preservação, a caixa de correio recuperada será removida da política de retenção desbloqueada. No entanto, a retenção de litígio está habilitada na caixa de correio recuperada para impedir a exclusão de conteúdo de caixa de correio com base em todas as políticas de retenção de toda a organização que excluem conteúdo mais antigo que uma idade específica.
+
+- **Restaurar uma caixa de correio inativa.** Se outro funcionário tomar as responsabilidades de trabalho de um funcionário antigo ou se outra pessoa precisar acessar o conteúdo da caixa de correio inativa, você poderá restaurar (ou mesclar) o conteúdo da caixa de correio inativa para uma caixa de correio existente. Quando você restaura uma caixa de correio inativa, o conteúdo é copiado para outra caixa de correio. A caixa de correio inativa é mantida e permanece uma caixa de correio inativa. A caixa de correio inativa ainda pode ser pesquisada usando ferramentas de descoberta eletrônica, seu conteúdo pode ser restaurado para outra caixa de correio e pode ser recuperado ou excluído mais tarde. Para obter os procedimentos passo a passo, consulte [restaurar uma caixa de correio inativa](restore-an-inactive-mailbox.md).
     
-- **Restaurar uma caixa de correio inativa** Se outro funcionário leva as responsabilidades de trabalho de um funcionário anterior, ou se outra pessoa precisa acessar o conteúdo da caixa de correio inativa, você poderá restaurar (ou direta) o conteúdo da caixa de correio inativa para uma caixa de correio existente. Quando você restaura uma caixa de correio inativa, o conteúdo é copiado para outra caixa de correio. A caixa de correio inativa é mantida e permanece uma caixa de correio inativa. A caixa de correio inativa ainda pode ser pesquisada usando ferramentas de descoberta eletrônica, seu conteúdo pode ser restaurado para outra caixa de correio e pode ser recuperado ou excluído mais tarde. Para obter os procedimentos passo a passo, consulte [restaurar uma caixa de correio inativa](restore-an-inactive-mailbox.md).
-    
-- **Excluir uma caixa de correio inativa** Quando você não precisa mais reter o conteúdo de uma caixa de correio inativa, é possível excluí-la permanentemente removendo todas as políticas de retenção ou de retenções da Microsoft 365 aplicadas à caixa de correio inativa. Se uma caixa de correio foi feita inativa mais de 30 dias atrás, ele será marcado para exclusão permanente depois de remover o bloqueio. Se a caixa de correio foi feita inativa nos últimos 30 dias, você pode torná-la ativa novamente após remover a política de retenção ou de espera. Para obter os procedimentos passo a passo, consulte [excluir uma caixa de correio inativa](delete-an-inactive-mailbox.md).
+- **Excluir uma caixa de correio inativa.** Quando você não precisa mais reter o conteúdo de uma caixa de correio inativa, é possível excluí-la permanentemente removendo todas as políticas de retenção ou de retenções da Microsoft 365 aplicadas à caixa de correio inativa. Se uma caixa de correio foi feita inativa mais de 30 dias atrás, ele será marcado para exclusão permanente depois de remover o bloqueio. Se a caixa de correio foi feita inativa nos últimos 30 dias, você pode torná-la ativa novamente após remover a política de retenção ou de espera. Para obter os procedimentos passo a passo, consulte [excluir uma caixa de correio inativa](delete-an-inactive-mailbox.md).

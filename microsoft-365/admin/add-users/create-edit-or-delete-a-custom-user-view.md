@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: 4fe7f6ac-be8e-4b57-9e13-24ff889a4b28
 description: Saiba como usar filtros para criar, editar ou excluir o modo de exibição do usuário personalizado no Microsoft 365.
-ms.openlocfilehash: 265aa1a7c22475710a12a93c2bfee0b7749f438b
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 598a167b9845f763ddab57d3c5ba36e431aa751c
+ms.sourcegitcommit: a3ec91423c352cd5fbf79b46ccd9c169455a03ba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431636"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44664569"
 ---
-# <a name="create-edit-or-delete-a-custom-user-view-in-office-365"></a>Criar, editar ou excluir uma exibição de usuário personalizada no Office 365
+# <a name="create-edit-or-delete-a-custom-user-view"></a>Criar, editar ou excluir uma exibição personalizada do usuário
 
-Se você for um administrador de gerenciamento global ou de usuário do Office 365, poderá criar modos de exibição de usuário personalizados para exibir um subconjunto específico de usuários. Esses modos de exibição são adicionais ao conjunto padrão de modos de exibição que acompanham o Office 365. Você pode criar, editar ou excluir modos de exibição de usuário personalizados, e os modos de exibição personalizados que você cria estão disponíveis para todos os administradores.
+Se você é um administrador de gerenciamento global ou de usuário de uma assinatura do Microsoft 365 for Business, você pode criar modos de exibição de usuário personalizados para exibir um subconjunto específico de usuários. Esses modos de exibição são adicionais ao conjunto padrão de modos de exibição. Você pode criar, editar ou excluir modos de exibição de usuário personalizados, e os modos de exibição personalizados que você cria estão disponíveis para todos os administradores.
   
 ## <a name="custom-user-views-in-the-admin-center"></a>Exibições de usuário personalizadas no centro de administração
 
@@ -98,7 +98,7 @@ Você também pode filtrar por detalhes adicionais de perfil de usuário usados 
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+1. No centro de administração, vá para usuários ativos do **usuário** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a>.
     
 2. Na página **usuários ativos** , selecione **filtros** e selecione **novo filtro**.
   
@@ -108,7 +108,7 @@ Você também pode filtrar por detalhes adicionais de perfil de usuário usados 
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.  
+1. No centro de administração, vá para usuários ativos do **usuário** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a>.  
 
 2. Na página **usuários ativos** , selecione **modos** de exibição e selecione **Adicionar modo de exibição personalizado**.
   
@@ -119,7 +119,7 @@ Você também pode filtrar por detalhes adicionais de perfil de usuário usados 
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>. 
+1. No centro de administração, vá para usuários ativos do **usuário** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a>. 
 
 2. Na página **usuários ativos** , selecione **modos** de exibição e selecione **Adicionar modo de exibição personalizado**.
   
@@ -132,7 +132,7 @@ Você também pode filtrar por detalhes adicionais de perfil de usuário usados 
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+1. No centro de administração, vá para usuários ativos do **usuário** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a>.
     
 2. Na página **usuários ativos** , selecione **filtro**, selecione o filtro que você deseja alterar e, em seguida, selecione **Editar Filtro**. 
     
@@ -145,7 +145,7 @@ Você também pode filtrar por detalhes adicionais de perfil de usuário usados 
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.  
+1. No centro de administração, vá para usuários ativos do **usuário** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a>.  
 
 2. Na página **usuários ativos** , selecione **modos**de exibição, selecione o filtro que você deseja alterar e, em seguida, selecione **Editar este modo de exibição**. 
     
@@ -158,7 +158,7 @@ Você também pode filtrar por detalhes adicionais de perfil de usuário usados 
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>. 
+1. No centro de administração, vá para usuários ativos do **usuário** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a>. 
 
 2. Na página **usuários ativos** , selecione **modos**de exibição, selecione o filtro que você deseja alterar e, em seguida, selecione **Editar este modo de exibição**. 
     
