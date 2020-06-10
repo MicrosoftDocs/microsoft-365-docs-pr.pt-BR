@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a remover usuários do portal Usuários restritos no Office 365. Os usuários são adicionados ao portal Usuários restritos para enviar spam de saída, geralmente como resultado de um comprometimento da conta.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9865b409be6bce14b84a9175e8f17cdad58befe
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: b9e28550c67e20466b18b17d8b49fb1b68997cc4
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351002"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617357"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Remover usuários bloqueados do portal Usuários restritos no Office 365
 
@@ -40,7 +40,7 @@ Os administradores podem remover usuários do portal Remetentes restritos no Cen
 
 - Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página **Usuários restritos**, use <https://protection.office.com/restrictedusers>.
 
-- Para se conectar ao Exchange Online PowerShell, consulte [Conectar ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+- Para se conectar ao Exchange Online PowerShell, consulte [Conectar ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 - Você precisa receber permissões para executar esses procedimentos. Para remover usuários do portal do Usuários restritos, você precisa ser membro dos grupos de funções **Gerenciamento da organização** ou **Administrador de segurança**. Para obter acesso apenas de leitura no portal Usuários restritos, você precisa ser membro do grupo de função **Leitor de segurança**. Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
@@ -96,7 +96,7 @@ Para visualizar esta lista de usuários que estão impedidos de enviar e-mails, 
 Get-BlockedSenderAddress
 ```
 
-Para visualizar detalhes de um usuário específico, substitua \<emailaddress\> pelo endereço de e-mails e execute o seguinte comando:
+Para exibir detalhes de um usuário específico, substitua o \<emailaddress\> pelo seu endereço de email e execute o seguinte comando:
 
 ```powershell
 Get-BlockedSenderAddress -SenderAddress <emailaddress>
@@ -104,7 +104,7 @@ Get-BlockedSenderAddress -SenderAddress <emailaddress>
 
 Para obter mais informações detalhadas de sintaxe e parâmetro, consulte [Get-BlockedSenderAddress](https://docs.microsoft.com/powershell/module/exchange/get-blockedsenderaddress).
 
-Para remover detalhes de um Usuário restrito, substitua \<emailaddress\> pelo endereço de e-mails e execute o seguinte comando:
+Para remover um usuário da lista de Usuários Restritos, substitua o \<emailaddress\>pelo seu endereço de email e execute o seguinte comando:
 
 ```powershell
 Remove-BlockedSenderAddress -SenderAddress <emailaddress>

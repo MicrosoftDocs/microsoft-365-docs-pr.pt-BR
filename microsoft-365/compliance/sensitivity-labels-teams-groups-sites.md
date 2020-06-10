@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: 8717f6dc9f86ed8d0d9bab378588d70e2854e8e7
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: ead28675a24b0364b89948fe582277862eaab3b8
+ms.sourcegitcommit: e9cb10d0d617742a5040d7c09d1d36fd1ee25e5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352483"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44649400"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites-public-preview"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint (visualização pública)
 
@@ -89,7 +89,7 @@ Nesta nova página **Configurações de site e grupo**, defina as configuraçõe
 
 - **Acesso de usuários externos**: Controle se o proprietário do grupo pode [adicionar convidados ao grupo](/office365/admin/create-groups/manage-guest-access-in-groups).
 
-- **Dispositivos não gerenciados**: Para [dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices), permita acesso total, acesso somente Web ou bloqueio total de acesso. 
+- **Dispositivos não gerenciados**: Para [dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices), permita acesso total, acesso somente Web ou bloqueio total de acesso. Se você definiu essa configuração no nível do locatário ou em um site específico, a configuração especificada aqui será aplicada apenas se for mais restritiva.
 
 ![Guia configurações de site e grupo](../media/edit-sensitivity-label-site-group2.png)
 

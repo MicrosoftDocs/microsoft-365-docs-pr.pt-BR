@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
-ms.openlocfilehash: 9ce3ad0bfa7b50dfd5dfa5b5e2a35e6d70600e46
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 74e33fe394802050ced64c5c3d9e41dcbd2550f0
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351982"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616521"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
@@ -71,7 +71,7 @@ Para aumentar a eficácia da filtragem de spam, crie políticas antispam persona
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>.
 
-- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Você precisa receber permissões para executar esses procedimentos. Para adicionar, modificar e excluir políticas antispam, você precisa ser membro dos grupos de funções **Gerenciamento da Organização** ou **Administrador de Segurança**. Para obter acesso apenas de leitura às políticas de spam, você precisa ser membro do grupo de função **Leitor de Segurança**. Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
@@ -242,7 +242,7 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 
 9. (Obrigatório) Expanda a seção **Aplicada a** para identificar os destinatários internos aos quais a política se aplica.
 
-    Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores com a mesma condição ou exceção usam a lógica OU (por exemplo, _\<destinatário1\>_ ou _\<destinatário2\>_). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<destinatário1\>_ e _\<membro do grupo 1\>_).
+    Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_).
 
     O mais fácil é clicar em **Adicionar uma condição** três vezes para ver todas as condições disponíveis. Clique em ![botão Remover](../../media/scc-remove-icon.png) para remover condições que você não queira configurar.
 
@@ -336,7 +336,7 @@ Quando um veredito de filtragem de spam coloca uma mensagem em quarentena, é po
 
 3. Nos detalhes da política expandida, clique em **Configurar as notificações de spam para usuário final**.
 
-4. Na caixa de diálogo **\<Nome da Política\>** que é aberta, defina as seguintes configurações:
+4. Na caixa de diálogo **\<Policy Name\>** que se abre, defina as seguintes configurações:
 
    - **Habilitar as notificações de spam para usuário final**: selecione a caixa de seleção para habilitar as notificações. Desmarque a caixa de seleção para desabilitar as notificações.
 
@@ -391,7 +391,7 @@ A criação de uma política antispam no PowerShell é um processo de duas etapa
 
   - Crie a nova política como desabilitada (_Habilitada_ `$false` no cmdlet **New-HostedContentFilterRule**).
 
-  - Defina a prioridade da política durante a criação (_Prioridade_ _\<Número\>_) no cmdlet **New-HostedContentFilterRule**).
+  - Defina a prioridade da política durante a criação (_Prioridade__\<Number\>_) no cmdlet **New-HostedContentFilterRule**).
 
 - Uma nova política de filtro de spam criada no PowerShell não ficará visível no Centro de Conformidade e Segurança até você atribua a política a uma regra de filtro de spam.
 
