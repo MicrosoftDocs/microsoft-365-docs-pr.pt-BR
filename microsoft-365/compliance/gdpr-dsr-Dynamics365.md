@@ -18,12 +18,12 @@ hideEdit: true
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: ec598816158068445f3f662bbdd6ea7c7edafd82
-ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
+ms.openlocfilehash: e8a13821aaec16f66546f78be69394222ad5d41c
+ms.sourcegitcommit: a418195dc11e6251ae37e788c102bbaa7087e44e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44043322"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44579186"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de entidades de dados do Dynamics 365 para o RGPD e CCPA
 
@@ -242,12 +242,9 @@ A tabela a seguir resume como acessar e exportar os logs gerados pelo sistema:
 |**Como os dados são retornados ao usuário?**| Os dados serão exportados para o local de armazenamento do Azure da sua organização. Caberá aos administradores da sua organização determinar como eles mostrarão/retornarão esses dados para os usuários. |
 |**Qual será a aparência dos dados nos logs gerados pelo sistema?**| Exemplo de um registro de log gerado pelo sistema no formato JSON: <br><br> "DateTime": "2017-04-28T12:09:29-07:00", <br> "AppName": "SharePoint", <br> "Action": "OpenFile", <br> "IP": "154.192.13.131", <br> "DevicePlatform": "Windows 1.0.1607" |
 
-> [!NOTE]
-> Alguns recursos não permitirão a exportação ou a exclusão de logs gerados pelo sistema com informações pessoais para manter a integridade dessas informações por motivos de segurança e auditoria.
-
 ### <a name="deleting-system-generated-logs"></a>Excluir os logs gerados pelo sistema
 
-Para excluir logs gerados pelo sistema recuperados por meio de uma solicitação de acesso, você deve remover o usuário do serviço e excluir permanentemente a conta do Azure Active Directory. É importante observar que, após iniciar a exclusão permanente de uma conta de usuário, esta ação é irreversível. Excluir permanentemente uma conta de usuário removerá os dados do usuário de logs gerados pelo sistema de quase todos os serviços do Dynamics 365 dentro de 30 dias.
+Para excluir logs gerados pelo sistema recuperados por meio de uma solicitação de acesso, você deve remover o usuário do serviço e excluir permanentemente a conta do Azure Active Directory. Para obter instruções sobre como excluir permanentemente um usuário, confira a seção [Etapa 5: Excluir](gdpr-dsr-azure.md#step-5-delete) no tópico Solicitações do Titular dos Dados do Azure. É importante observar que, após iniciar a exclusão permanente de uma conta de usuário, esta ação será irreversível. Excluir permanentemente uma conta de usuário remove os dados do usuário dos logs gerados pelo sistema, exceto dados que possam comprometer a segurança ou estabilidade do serviço, para quase todos os serviços do Dynamics 365 em 30 dias.
 
 ## <a name="learn-more"></a>Saiba mais
 
