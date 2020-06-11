@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: 0b1342d61ab4ab1fedde63271082c577211f6595
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 4cf727cd7d232baac13f44e008a509934f55d895
+ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209806"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689273"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -114,7 +114,7 @@ As configurações de política a seguir estão disponíveis apenas em política
 
 - **Aplicado a**: identifica destinatários internos aos quais a política anti-phishing do ATP se aplica. Esse valor é necessário em políticas personalizadas e não está disponível na política padrão (a política padrão se aplica a todos os destinatários).
 
-    Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores com a mesma condição ou exceção usam a lógica OU (por exemplo, _\<destinatário1\>_ ou _\<destinatário2\>_). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<destinatário1\>_ e _\<membro do grupo 1\>_).
+    Só é possível usar uma condição ou exceção uma vez; contudo, você pode especificar vários valores para a condição ou exceção. Vários valores da mesma condição ou exceção usam a lógica OU (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_). Para diferentes condições ou exceções, use a lógica E (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_).
 
   - O **destinatário é**: uma ou mais caixas de correio, usuários de email ou contatos de email em sua organização.
   - **O destinatário é um membro de**: um ou mais grupos em sua organização.
@@ -128,7 +128,7 @@ As configurações de política a seguir estão disponíveis apenas em política
 
 ### <a name="impersonation-settings-in-atp-anti-phishing-policies"></a>Configurações de representação nas políticas anti-phishing da ATP
 
-A representação é onde o remetente ou o domínio de email do remetente em uma mensagem é muito semelhante a um remetente real ou domínio:
+A representação é onde o remetente ou o domínio de email do remetente em uma mensagem é semelhante a um remetente ou domínio real:
 
 - Um exemplo de representação do domínio contoso.com é ćóntoso.com.
 
@@ -144,7 +144,7 @@ As configurações de representação a seguir estão disponíveis apenas em pol
 
 - **Domínios para proteger**: impedir que os domínios especificados sejam representados. Por exemplo, todos os domínios que você possui ([domínios aceitos](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)) ou domínios específicos (domínios que você possui ou domínios de parceiros). Essa lista de domínios protegidos é diferente da lista de domínios aos quais a política se aplica na configuração **aplica** -se a.
 
-  Por exemplo, você especifica tailspintoys.com como um domínio protegido em uma política que se aplica aos membros do grupo chamado executivos. Mensagens de entrada enviadas para os membros do grupo executivos onde o tailspintoys.com de onde é representado será acionado pela política (a ação que você configurou para domínios representados).
+  Por exemplo, você especifica tailspintoys.com como um domínio protegido em uma política que se aplica aos membros do grupo chamado executivos. As mensagens de entrada enviadas para membros do grupo executivos onde o tailspintoys.com é representado serão acionadas pela política (a ação que você configura para domínios representados).
 
 - **Ações para usuários ou domínios protegidos**: escolha a ação a ser realizada em mensagens de entrada que contenham tentativas de representação em relação aos usuários protegidos e domínios protegidos na política. Você pode especificar ações diferentes para representação de usuários protegidos vs. representação de domínios protegidos:
 

@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: 'Saiba como a análise de uso se conecta a uma API e fornece tendências mensais de uso de vários serviços da Microsoft 365.  '
-ms.openlocfilehash: 6b0b005e6e07e52731a84490a6df7c9ead614321
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 28dc51f76ac2e6bba00ecea853bc79419500508d
+ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402041"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44695086"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Modelo de dados de análise de uso do Microsoft 365
 
@@ -43,16 +43,16 @@ Esta API fornece informações sobre a tendência mensal de uso dos vários serv
 
 |**Nome da tabela**|**Informações na tabela**|**Intervalo de datas**|
 |:-----|:-----|:-----|
-|Uso de Produtos do Locatário  <br/> |Contém os totais mensais de usuários habilitados e ativos, usuários retidos mensalmente, usuários iniciantes e usuários ativos cumulativos.  <br/> |Contém dados agregados mensalmente por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
+|Uso de Produtos do Locatário  <br/> |Contém os totais mensais de habilitados, usuários ativos, usuários do mês a mês retidos, usuários de primeira vez e os usuários ativos cumulativos.  <br/> |Contém dados agregados mensalmente por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
 |Atividade de Produtos do Locatário  <br/> |Contém os totais mensais de atividade e a contagem de usuários ativos para várias atividades nos produtos.  <br/> Veja [definição de usuário ativo](active-user-in-usage-reports.md) para saber mais sobre as atividades em um produto que são retornadas nesta tabela de dados.  <br/> |Contém dados agregados mensalmente por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
-|Licenças do Office do Locatário  <br/> |Contém dados sobre o número de assinaturas do Microsoft Office atribuídas aos usuários  <br/> |Contém os dados de estado de fim de mês por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
-|Uso da Caixa de Correio do Locatário  <br/> |Contém dados sobre a caixa de correio do usuário, em termos de contagem total da caixa de correio e como o armazenamento é usado.  <br/> |Contém os dados de estado de fim de mês por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
+|Licenças do Office do Locatário  <br/> |Contém dados sobre o número de assinaturas do Microsoft Office atribuídas aos usuários  <br/> |Contém dados de estado de fim do mês para um período de 12 meses sem interrupção, incluindo o mês parcial atual.  <br/> |
+|Uso da Caixa de Correio do Locatário  <br/> |Contém dados sobre a caixa de correio do usuário, em termos de contagem total da caixa de correio e como o armazenamento é usado.  <br/> |Contém dados de estado de fim do mês para um período de 12 meses sem interrupção, incluindo o mês parcial atual.  <br/> |
 |Uso do Cliente do Locatário  <br/> |Contém os dados sobre o número de usuários que usam ativamente clientes/dispositivos específicos para conectarem-se ao Exchange Online, ao Skype for Business e ao Yammer.  <br/> |Contém dados agregados mensalmente por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
-|Uso Online do SharePoint do Locatário  <br/> |Contém dados sobre os sites do SharePoint, incluindo sites de Equipe ou de Grupo, como o número total de sites, o número de documentos no site, o número de arquivos por tipo de atividade e armazenamento usado.  <br/> |Contém os dados de estado de fim de mês por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
-|Uso do OneDrive for Business do Locatário  <br/> |Contém dados sobre as contas do OneDrive, como o número de contas, o número de documentos em OneDrives, o armazenamento usado, a contagem de arquivos por tipo de atividade.  <br/> |Contém os dados de estado de fim de mês por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
-|Uso de grupos do Microsoft 365  <br/> |Contém dados sobre o uso de grupos do Microsoft 365, incluindo a caixa de correio, o SharePoint e o Yammer.  <br/> |Contém os dados de estado de fim de mês por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
-|Ativação do Office do Locatário  <br/> |Contém dados sobre o número de ativações de assinatura do Office, contagem de ativação por dispositivo (Android/iOS/Mac/PC), ativações por plano de serviço, por exemplo, Microsoft 365 Apps for Enterprise, Visio, Project.  <br/> |Contém os dados de estado de fim de mês por um período de 12 meses sem interrupção, incluindo o mês parcial corrente.  <br/> |
-|Estado do Usuário  <br/> |Contém metadados sobre os usuários, incluindo o nome de exibição do usuário, os produtos atribuídos, o local, o departamento, o título, a empresa. Esses dados referem-se aos usuários que receberam uma licença durante o último mês completo. Todos os usuários são exclusivamente representados por uma id de usuário.  <br/> |Esses dados referem-se aos usuários que tinham uma licença atribuída durante o último mês completo.  <br/> |
+|Uso Online do SharePoint do Locatário  <br/> |Contém dados sobre os sites do SharePoint, incluindo sites de Equipe ou de Grupo, como o número total de sites, o número de documentos no site, o número de arquivos por tipo de atividade e armazenamento usado.  <br/> |Contém dados de estado de fim do mês para um período de 12 meses sem interrupção, incluindo o mês parcial atual.  <br/> |
+|Uso do OneDrive for Business do Locatário  <br/> |Contém dados sobre as contas do OneDrive, como o número de contas, o número de documentos em OneDrives, o armazenamento usado, a contagem de arquivos por tipo de atividade.  <br/> |Contém dados de estado de fim do mês para um período de 12 meses sem interrupção, incluindo o mês parcial atual.  <br/> |
+|Uso de grupos do Microsoft 365  <br/> |Contém dados sobre o uso de grupos do Microsoft 365, incluindo a caixa de correio, o SharePoint e o Yammer.  <br/> |Contém dados de estado de fim do mês para um período de 12 meses sem interrupção, incluindo o mês parcial atual.  <br/> |
+|Ativação do Office do Locatário  <br/> |Contém dados sobre o número de ativações de assinatura do Office, contagem de ativação por dispositivo (Android/iOS/Mac/PC), ativações por plano de serviço, por exemplo, Microsoft 365 Apps for Enterprise, Visio, Project.  <br/> |Contém dados de estado de fim do mês para um período de 12 meses sem interrupção, incluindo o mês parcial atual.  <br/> |
+|Estado do Usuário  <br/> |Contém metadados sobre os usuários, incluindo o nome de exibição do usuário, os produtos atribuídos, o local, o departamento, o título, a empresa. Esses dados referem-se aos usuários que receberam uma licença durante o último mês completo. Cada usuário é representado exclusivamente por uma ID de usuário.  <br/> |Esses dados referem-se aos usuários que tinham uma licença atribuída durante o último mês completo.  <br/> |
 |Atividade do Usuário  <br/> |Contém informações de nível de cada usuário sobre as atividades executadas por usuários licenciados.  <br/> Veja [definição de usuário ativo](active-user-in-usage-reports.md) para saber mais sobre as atividades em um produto que são retornadas nesta tabela de dados.  <br/> |Esses dados referem-se aos usuários que executaram uma atividade em qualquer um dos serviços durante o último mês completo.  <br/> |
    
 Expanda as seções a seguir para ver as informações detalhadas de cada tabela de dados.
@@ -63,7 +63,7 @@ Essa tabela fornece detalhes ao nível de usuário sobre todos os usuários que 
   
 |**Nome da coluna**|**Descrição da coluna**|
 |:-----|:-----|
-|UserId  <br/> |Id de usuário exclusiva que representa um usuário e permite o ingresso com outras tabelas de dados dentro do conjunto de dados.  <br/> |
+|UserId  <br/> |ID de usuário exclusivo que representa um usuário e permite ingressar com outras tabelas de dados dentro do conjunto de dados.  <br/> |
 |Período de tempo  <br/> |Valor do mês para o qual esta tabela tem dados.  <br/> |
 |UPN  <br/> |Nome UPN, identifica exclusivamente o usuário para que possa ingressar com outras fontes de dados externas.  <br/> |
 |DisplayName  <br/> |Nome de exibição do usuário.  <br/> |
@@ -143,7 +143,7 @@ Essa tabela contém dados sobre cada usuário que tinha uma atividade em qualque
    
 ### <a name="data-table---tenant-product-usage"></a>Tabela de dados - Uso de Produto do Locatário
 
-Esta tabela fornece dados de adoção mês a mês em termos de habilitação, ativos, retorno e usuários da primeira vez para cada produto no Microsoft 365. O valor da Microsoft 365 representa o uso ativo em qualquer um dos produtos.
+Esta tabela fornece dados de adoção mês a mês em termos de habilitação, ativos, retorno e usuários de primeira vez para cada produto no Microsoft 365. O valor da Microsoft 365 representa o uso ativo em qualquer um dos produtos.
   
 |**Nome da coluna**|**Descrição da coluna**|
 |:-----|:-----|
@@ -153,7 +153,7 @@ Esta tabela fornece dados de adoção mês a mês em termos de habilitação, at
 |ActiveUsers  <br/> |Número de usuários que executaram uma atividade intencional no produto para o valor do período de tempo.  <br/> Um usuário é contado como ativo para um produto em um mês específico se ele tiver executado uma das principais atividades no produto. As principais atividades estão disponíveis na tabela **Atividade de produtos do locatário**.  <br/> |
 |CumulativeActiveUsers  <br/> |Número de usuários que estão habilitados para usar um produto e que usaram o produto até o mês-prazo pelo menos uma vez desde o início da coleta de dados no novo sistema de uso.  <br/> |
 |MoMReturningUsers  <br/> |Número de usuários que estão ativos no mês-prazo e que também estavam ativos no mês anterior.  <br/> |
-|FirstTimeUsers  <br/> |Número de usuários que ficaram ativos no prazo pela primeira vez desde a coleta de dados, no novo sistema de uso.  <br/> Um usuário é contado como usuário iniciante em um mês específico se detectarmos sua atividade pela primeira vez desde o início do conjunto de dados neste novo sistema de relatórios. Uma vez contado como o usuário pela primeira vez, mesmo que esse usuário tenha uma grande diferença em suas atividades, elas nunca serão contadas novamente como o usuário da primeira vez  <br/> |
+|FirstTimeUsers  <br/> |Número de usuários que ficaram ativos no prazo pela primeira vez desde a coleta de dados, no novo sistema de uso.  <br/> Um usuário é contado como usuário iniciante em um mês específico se detectarmos sua atividade pela primeira vez desde o início do conjunto de dados neste novo sistema de relatórios. Uma vez contado como um usuário de primeira vez, mesmo que esse usuário tenha uma grande diferença em suas atividades, elas nunca serão contadas novamente como um usuário de primeira vez  <br/> |
 |Data do Conteúdo  <br/> |Se o prazo mostrar o mês atual, esse valor representará a última data do mês atual para o qual os dados estão disponíveis.  <br/> Se o prazo mostrar o mês anterior, esse valor representará a última data do mês do prazo.  <br/> |
    
 ### <a name="data-table---tenant-product-activity"></a>Tabela de dados - Atividade de Produto do Locatário
@@ -191,7 +191,7 @@ Essa tabela consiste em dados de resumo em todos os usuários licenciados do Exc
    
 ### <a name="data-table---tenant-client-usage"></a>Tabela de dados - Uso do Cliente do Locatário
 
-Essa tabela fornece dados de resumo mensal sobre os clientes que os usuários estão usando para conectarem-se ao Exchange Online, ao Skype for Business e ao Yammer. Esta tabela ainda não tem dados de uso de cliente para o SharePoint Online e o OneDrive for Business.
+Esta tabela fornece dados de resumo mensal sobre os clientes que os usuários estão usando para se conectar ao Exchange Online, Skype for Business e Yammer. Esta tabela ainda não tem dados de uso de cliente para o SharePoint Online e o OneDrive for Business.
   
 |**Nome da coluna**|**Descrição da coluna**|
 |:-----|:-----|
