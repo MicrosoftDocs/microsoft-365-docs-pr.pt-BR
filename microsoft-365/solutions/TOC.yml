@@ -70,6 +70,22 @@
               href: microsoft-365-guest-settings.md
     - name: Implantar proteção contra ameaças no Microsoft 365
       href: deploy-threat-protection.md
+    - name: Implantar a proteção de informações para os regulamentos de privacidade de dados
+      items:
+        - name: Visão Geral
+          href: information-protection-deploy.md
+        - name: Planejar
+          href: information-protection-deploy-assess.md
+        - name: Controlar
+          href: information-protection-deploy-compliance.md
+        - name: Impedir
+          href: information-protection-deploy-identity-device-threat.md
+        - name: Proteger
+          href: information-protection-deploy-protect-information.md
+        - name: Reter
+          href: information-protection-deploy-govern.md
+        - name: Investigar
+          href: information-protection-deploy-monitor-respond.md
 - name: Soluções e cenários de carga de trabalho
   items:
     - name: Visão Geral

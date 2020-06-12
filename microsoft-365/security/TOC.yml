@@ -130,6 +130,8 @@
                   href: mtp/advanced-hunting-shared-queries.md
                 - name: Caça a dispositivos e emails
                   href: mtp/advanced-hunting-query-emails-devices.md
+                - name: Ir à caça
+                  href: mtp/advanced-hunting-go-hunt.md
                 - name: Esquema de dados
                   items:
                     - name: Compreender o esquema
