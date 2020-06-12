@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a eliminação de conteúdo, se você usar uma revisão de disposição ou se o conteúdo é excluído automaticamente de acordo com as configurações que você configurou.
-ms.openlocfilehash: 8936289ccf42fa50b78b611c46742710cd035727
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 56eed956e4488932b7bf0f29eb3810964b8cb425
+ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678987"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702555"
 ---
 # <a name="disposition-of-content"></a>Disposição do conteúdo
 
@@ -35,7 +35,10 @@ Para gerenciar revisões de disposição e confirmar que os registros foram excl
 
 ### <a name="permissions-for-disposition"></a>Permissões para descarte
 
-Para acessar com êxito a guia **disposição** no centro de conformidade da Microsoft 365, você deve ser membro da função de **Gerenciamento de descarte** e da função de logs de **auditoria somente para exibição** . Recomendamos criar um novo grupo de função chamado **revisores de disposição**e adicionar essas duas funções a esse grupo de função. Mesmo que você seja um usuário de **administrador global** , será necessário fazer parte da função de **Gerenciamento de descarte** para acessar a guia disposição.
+Para acessar com êxito a guia de **descarte** no centro de conformidade do Microsoft 365, os usuários devem ter a função de **Gerenciamento de descarte** e a função de **logs de auditoria somente para exibição** . Embora o Conselho padrão seja adicionar usuários aos grupos de função padrão, neste caso, recomendamos que você crie um novo grupo de função chamado **revisores de disposição** que tenha essas duas funções e adicione usuários a esse grupo, conforme necessário. Um único grupo de função para descarte reduz a sobrecarga da administração e torna mais fácil para os usuários ter as permissões combinadas de que precisam.
+
+> [!NOTE]
+> Até mesmo um administrador global precisa receber a função de **Gerenciamento de descarte** . Portanto, se os administradores globais precisarem acessar a guia disposição, eles como membros do grupo de funções **revisores de descarte** . 
 
 Específico para a função de **logs de auditoria somente para exibição** :
 

@@ -15,12 +15,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Saiba mais sobre as configurações de compartilhamento de convidados disponíveis no Microsoft 365 que podem afetar o compartilhamento com pessoas de fora da sua organização.
-ms.openlocfilehash: a1c734adfe72d5eff5f18e67116544fd63eb854a
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 35a1a20e65eccddcb1117f9def09bd4fdfc7f161
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160130"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679139"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Referência de configurações de compartilhamento de convidados do Microsoft 365
 
@@ -195,7 +195,7 @@ Se quer limitar quem pode compartilhar com os convidados no SharePoint e no OneD
 |Permitir que somente os usuários em grupos de segurança selecionados compartilhem com usuários externos autenticados|Desabilitado|Quando está **Habilitado**, somente as pessoas dos grupos de segurança especificados podem compartilhar com usuários externos. Somente links de *Pessoas específicas* estão disponíveis. *Qualquer pessoa* compartilhando está efetivamente desabilito a não ser que **Permitir que apenas usuários dos grupos de segurança selecionados compartilhem com usuários externos autenticados e usem links anônimos** também esteja **Habilitado**.|
 |Permitir que apenas os usuários dos grupos de segurança selecionados compartilhem com usuários externos autenticados e usem links anônimos.|Desabilitado|Quando está **Habilitado**, somente as pessoas dos grupos de segurança especificados podem compartilhar com convidados. Os links *Qualquer pessoa* e *Pessoas específicas* estão disponíveis.|
 
-Essas duas configurações podem ser usadas ao mesmo tempo. Se um usuário tiver um grupo de segurança especificado para as duas configurações, o nível de permissão maior prevalecerá (*Qualquer pessoa* mais *Usuário específico*).
+Essas duas configurações podem ser usadas ao mesmo tempo. Se um usuário tiver um grupo de segurança especificado para as duas configurações, o nível de permissão maior prevalecerá (*Qualquer pessoa* mais *Usuário específico*). Os grupos de segurança aninhados têm suporte.
 
 ## <a name="sharepoint-site-level"></a>SharePoint (nível do site)
 
