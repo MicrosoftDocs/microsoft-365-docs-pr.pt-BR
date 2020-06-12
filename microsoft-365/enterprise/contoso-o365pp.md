@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda como a Contoso usa o Microsoft Endpoint Configuration Manager para implantar o Microsoft 365 Apps para Grandes Empresas.
-ms.openlocfilehash: 2ff05a079d83389ed94445fc011b9f7902c6de56
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 4a36e33a6f2ef6df880864dd852f0f63056946e6
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011882"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679033"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Implantação do Microsoft 365 Apps for enterprise para Contoso
 
@@ -53,10 +53,10 @@ Em vez de gerenciar as atualizações do Office com o Gerenciador de Configuraç
 
 A Contoso seguiu a mesma abordagem de duas etapas para as atualizações de recursos que eles usavam para implantar o Office: os dispositivos no grupo piloto recebiam as atualizações de recursos quatro meses antes do que os dispositivos no restante da organização (o grupo amplo). Para habilitar isso no Office, a Contoso usou dois [canais de atualização](https://docs.microsoft.com/DeployOffice/overview-update-channels) recomendados: 
 
-- Canal semestral (direcionado) para atualizações para o grupo piloto 
-- Canal semestral para atualizações para o grupo amplo. 
+- Canal Empresarial Semestral (Visualização) para atualizações do grupo piloto 
+- Canal Empresarial Semestral para atualizações para o grupo amplo. 
 
-Como o canal semestral (direcionado) lança uma versão do Microsoft 365 Apps for enterprise quatro meses antes do canal semestral, a Contoso tem tempo para validar as atualizações sem precisar gerenciá-las. 
+Como o Canal Empresarial Semestral (Visualização) lança uma versão do Microsoft 365 Apps para Grandes Empresas quatro meses antes do Canal Empresarial Semestral, a Contoso tem tempo para validar as atualizações sem precisar gerenciá-las. 
 
 ## <a name="deployment-process"></a>Processo de implantação
 
@@ -65,7 +65,7 @@ Para concluir a implantação do Office, a Contoso implementou o seguinte proces
 1. Antes de implantar, eles usavam o Readiness Toolkit para testar seus aplicativos e suplementos do Office para avaliar a compatibilidade com o Microsoft 365 Apps for enterprise.
 2. No Gerenciador de Configurações, a Contoso habilitou cache par nos dispositivos clientes, o que ajudou com a capacidade limitada de rede durante a implantação para dispositivos clientes em locais remotos. 
 3. Eles definiram dois grupos de implantação como conjuntos de dispositivos no Gerenciador de Configurações: um grupo piloto e um grupo amplo. O grupo piloto, que incluía um pequeno conjunto de dispositivos representativos em toda a organização, foi usado para fazer outros testes de aplicativos, suplementos e hardware com o Windows 10 Enterprise e o Microsoft 365 Apps for enterprise. 
-4. Eles criaram pacotes de implantação para o Office usando o painel de gerenciamento de clientes do Office e o Assistente de instalação do Office 365, que fazem parte do console do Gerenciador de Configurações. Eles criaram dois pacotes do Microsoft 365 Apps for enterprise, um para o grupo piloto no canal semestral (direcionado) e outro para o grupo amplo no canal semestral. 
+4. Eles criaram pacotes de implantação do Office usando o painel de gerenciamento de cliente do Office e o assistente de instalação do Office 365, que fazem parte do console do Gerenciador de Configurações. Eles criaram dois aplicativos para Microsoft 365 Apps para pacotes empresariais, um para o grupo piloto no Canal Empresarial Semestral (Visualização) e um para o grupo amplo no Canal Empresarial Semestral. 
 5. Como parte da cada pacote do Office, eles incluíram pacotes de idiomas de inglês, francês e alemão. Se um dispositivo exigia um idioma que não estava incluído no pacote do Office, ele era automaticamente baixado da Rede de Distribuição de Conteúdo (CDN) do Office.
 6. Eles usaram o recurso interno no pacote do Office para remover automaticamente todas as versões existentes do MSI do Office antes de instalar o Microsoft 365 Apps for enterprise.
 7. No Gerenciador de Configurações, eles implantaram os pacotes do Windows e do Office em pontos de distribuição em toda a rede e executaram as sequências de tarefas de implantação do Gerenciador de Configurações para implantar o pacote piloto do Microsoft 365 Apps for enterprise no grupo piloto.
