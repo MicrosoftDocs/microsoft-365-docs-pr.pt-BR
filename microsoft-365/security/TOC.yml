@@ -67,7 +67,7 @@
               href: mtp/prepare-mtpeval.md
             - name: Configurar
               href: mtp/setup-mtpeval.md
-            - name: Configurar terminais integrados
+            - name: Configurar e entrar
               href: mtp/config-mtpeval.md
             - name: Habilitar a Proteção contra Ameaças da Microsoft
               href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#turn-on-microsoft-threat-protection'
@@ -82,7 +82,7 @@
                   href: mtp/prepare-mtpeval.md
                 - name: Configurar
                   href: mtp/setup-mtpeval.md
-                - name: Configurar terminais integrados
+                - name: Configurar e entrar
                   href: mtp/config-mtpeval.md
                 - name: Habilitar a Proteção contra Ameaças da Microsoft
                   href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#turn-on-microsoft-threat-protection'
