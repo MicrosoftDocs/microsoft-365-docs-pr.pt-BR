@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: bfbebf78664cdce34d224c5cc4b24ed6a9ad0646
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 6521bd9c23d8596adb8c86b73a82c3e8aecb85fb
+ms.sourcegitcommit: 03da5464943ef4b9a51644601a229897955dcbb2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470658"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44658350"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -135,7 +135,7 @@ Para obter mais informações sobre os classificadores, confira [Introdução ao
 
 Durante o período de visualização, os seguintes aplicativos oferecem suporte a classificadores de rótulos de confidencialidade:
 
-- Aplicativos do Microsoft 365 para empresas (antigo Office 365 ProPlus) para Windows, do [Office Insider](https://office.com/insider):
+- Aplicativos do Microsoft 365 para empresas ([antigo Office 365 ProPlus](https://docs.microsoft.com/deployoffice/name-change)) para Windows, do [Canal Beta](https://office.com/insider)([Antigo Office Insider](https://docs.microsoft.com/deployoffice/update-channels-changes)):
     - Word
     - Excel
     - PowerPoint

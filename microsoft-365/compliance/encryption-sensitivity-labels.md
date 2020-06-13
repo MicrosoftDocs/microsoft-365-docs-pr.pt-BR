@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 78e3fcecd1253229ea9b5ab88147bafe16b85727
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 35dfc642aee2e4d602aeb4bc1ea689dbc2589735
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470668"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678977"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia 
 
@@ -349,7 +349,7 @@ Use essa configuração somente quando não precisar restringir quem pode abrir 
 
 5. Selecione **Escolher permissões em existentes ou personalizadas**.
 
-6. No painel **Escolher permissões em existentes ou personalizadas**, marque a caixa suspensa, selecione as permissões de **Visualizador** desejadas e, em seguida, selecione **Salvar**.
+6. No painel **Escolher permissões em existentes ou personalizadas**, marque a caixa suspensa, selecione as permissões que quer, e selecione**Salvar**.
 
 7. De volta ao painel **Atribuir permissões**, selecione **Salvar**.
 

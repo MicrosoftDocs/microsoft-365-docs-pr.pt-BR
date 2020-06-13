@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Com uma política de prevenção contra perda de dados (DLP) no Centro de Conformidade &amp; Segurança, você pode identificar, monitorar e proteger automaticamente as informações confidenciais no Office 365.
-ms.openlocfilehash: 4328855a4a7332c452d7e2832e1b924c16652f8b
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 3f4cabab120f418e4c410a1e1f052868ad453f67
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351846"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679065"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Visão geral da prevenção contra perda de dados
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -116,8 +116,8 @@ As condições disponíveis agora podem determinar se:
     
 - O conteúdo é compartilhado com pessoas de fora ou de dentro da sua organização.
 
-> [!NOTE]
-> Os usuários que têm contas não convidadas no Active Directory ou no locatário do Azure Active Directory de uma organização são considerados como pessoas dentro da organização.
+  > [!NOTE]
+  > Os usuários que têm contas não convidadas no Active Directory ou no locatário do Azure Active Directory de uma organização são considerados como pessoas dentro da organização.
     
 #### <a name="types-of-sensitive-information"></a>Tipos de informações confidenciais
 
@@ -127,13 +127,13 @@ Uma política DLP ajuda a proteger informações confidenciais, que são definid
   
 Quando uma política DLP procura por um tipo de informação confidencial, como um número de cartão de crédito, ela não procura simplesmente por um número de 16 dígitos. Cada tipo de informação confidencial é definido e detectado usando uma combinação de:
   
-- Palavras-chave
+- Palavras-chave.
     
-- Funções internas para validar as somas de verificação ou a composição
+- Funções internas para validar as somas de verificação ou a composição.
     
-- Avaliação de expressões regulares para localizar correspondências padrão
+- Avaliação de expressões regulares para localizar correspondências padrão.
     
-- Análise de outros conteúdos
+- Análise de outros conteúdos.
     
 Isso ajuda a detecção de DLP a alcançar um alto grau de precisão, reduzindo o número de falsos positivos que pode interromper o trabalho das pessoas.
   
@@ -145,13 +145,19 @@ Quando o conteúdo corresponde a uma condição em uma regra, você pode aplicar
   
 Com as ações agora disponíveis, você pode:
   
-- **Restringir o acesso ao conteúdo** Para o conteúdo do site, isso significa que as permissões para o documento são restritas a todos exceto o administrador principal do conjunto de sites, o proprietário do documento e a pessoa que modificou o documento pela última vez. Essas pessoas podem remover as informações confidenciais do documento ou executar outras ações corretivas. Quando o documento estiver em conformidade, as permissões originais serão restauradas automaticamente. Quando o acesso a um documento é bloqueado, o documento é exibido com um ícone de dica de política especial na biblioteca do site. 
+- **Restringir o acesso ao conteúdo** Dependendo das suas necessidades, você pode restringir o acesso ao conteúdo de três maneiras:
+
+  1. Restringir o acesso ao conteúdo para todos.
+  2. Restringir o acesso ao conteúdo para pessoas de fora da organização.
+  3. Restringir o acesso a "Qualquer pessoa com o link".
+
+  Para conteúdo de site, significa que as permissões para o documento são restritas a todos, exceto o administrador principal do conjunto de sites, o proprietário do documento e a pessoa que modificou o documento pela última vez. Essas pessoas podem remover as informações confidenciais do documento ou executar outras ações corretivas. Quando o documento estiver em conformidade, as permissões originais serão restauradas automaticamente. Quando o acesso a um documento é bloqueado, o documento é exibido com um ícone de dica de política especial na biblioteca do site. 
     
-    ![A dica de política mostrando acesso ao documento está bloqueada](../media/b6cefed3-d212-43d7-8534-4b92b26ebd50.png)
+  ![A dica de política mostrando acesso ao documento está bloqueada](../media/b6cefed3-d212-43d7-8534-4b92b26ebd50.png)
   
-    Para conteúdo de email, essa ação bloqueia o envio da mensagem. Dependendo de como a regra DLP estiver configurada, o remetente verá uma notificação de falha na entrega (se a regra usar uma notificação) ou uma dica de política e/ou notificação por email.
+  Para conteúdo de email, essa ação bloqueia o envio da mensagem. Dependendo de como a regra DLP estiver configurada, o remetente verá uma notificação de falha na entrega (se a regra usar uma notificação) ou uma dica de política e/ou notificação por email.
     
-    ![Aviso de que destinatários não autorizados devem ser removidos da mensagem](../media/302f9994-912d-41e7-861f-8a4539b3c285.png)
+  ![Aviso de que destinatários não autorizados devem ser removidos da mensagem](../media/302f9994-912d-41e7-861f-8a4539b3c285.png)
   
 #### <a name="user-notifications-and-user-overrides"></a>Notificações e substituições do usuário
 
@@ -335,15 +341,14 @@ Ao usar um [rótulo de retenção](labels.md) criado e publicado anteriormente c
 - Os rótulos de retenção podem levar até um dia para sincronizar e até sete dias para serem aplicados automaticamente após a criação e publicação. Para obter informações detalhadas, confira, [Quanto tempo demora para os rótulos de retenção entrarem em vigor](create-retention-labels.md#how-long-it-takes-for-retention-labels-to-take-effect).
 - O uso de um rótulo de retenção em uma política ***só tem suporte para itens do SharePoint Online e OneDrive for Business***.
 
+  ![Rótulos como uma condição](../media/5b1752b4-a129-4a88-b010-8dcf8a38bb09.png)
 
-![Rótulos como uma condição](../media/5b1752b4-a129-4a88-b010-8dcf8a38bb09.png)
+  Talvez você queira usar um rótulo de retenção em uma política DLP se tiver itens que estão sob retenção e descarte, e também aplicar outros controles a eles, por exemplo:
 
-Talvez você queira usar um rótulo de retenção em uma política DLP se tiver itens que estão sob retenção e descarte, e também aplicar outros controles a eles, por exemplo:
+  - Você publicou um rótulo de retenção denominado **ano fiscal 2018**, que quando aplicado aos documentos fiscais de 2018 armazenados no SharePoint, os retém por dez anos e só após esse prazo os descarta. Use também uma política DLP para impedir que itens sejam compartilhados fora da organização.
 
-- Você publicou um rótulo de retenção denominado **ano fiscal 2018**, que quando aplicado aos documentos fiscais de 2018 armazenados no SharePoint, os retém por dez anos e só após esse prazo os descarta. Use também uma política DLP para impedir que itens sejam compartilhados fora da organização.
-
-> [!IMPORTANT]
-> Você receberá a seguinte mensagem de erro se especificar um rótulo de retenção como uma condição em uma política DLP e também incluir o Exchange e/ou Teams como um local: **"não há suporte para a proteção de conteúdo rotulado em mensagens de email e equipes. Remova a etiqueta a seguir ou desative o Exchange e o Teams como um local."** Isso ocorre porque o transporte do Exchange não avalia os metadados do rótulo durante o envio e a entrega da mensagem. 
+  > [!IMPORTANT]
+  > Você receberá a seguinte mensagem de erro se especificar um rótulo de retenção como uma condição em uma política DLP e também incluir o Exchange e/ou Teams como um local: **"não há suporte para a proteção de conteúdo rotulado em mensagens de email e equipes. Remova a etiqueta a seguir ou desative o Exchange e o Teams como um local."** Isso ocorre porque o transporte do Exchange não avalia os metadados do rótulo durante o envio e a entrega da mensagem. 
 
 ### <a name="support-for-sensitivity-labels-is-coming"></a>O suporte para rótulos de confidencialidade estará disponível em breve
 
@@ -449,15 +454,15 @@ A DLP detecta informações confidenciais usando análise profunda de conteúdo 
 
 Após criar uma política de DLP no Centro de Segurança &amp; Conformidade, ela é armazenada em um repositório central de políticas e sincronizada com várias fontes de conteúdo, incluindo:
   
-- Exchange Online, e de lá para o Outlook na Web e o Outlook
+- Exchange Online, e de lá para o Outlook na Web e o Outlook.
     
-- Sites do OneDrive for Business
+- Sites do OneDrive for Business.
     
-- Sites do SharePoint Online
+- Sites do SharePoint Online.
     
 - Programas da área de trabalho do Office (Excel, PowerPoint e Word)
 
-- Mensagens de canais e de chats do Microsoft Teams
+- Mensagens de canais e de chats do Microsoft Teams.
     
 Após a sincronização da política com os locais corretos, ela começa avaliar o conteúdo e aplicar as ações.
 <!-- what is the time delay for first deployment of a policy and what is the sync schedule? -->
@@ -519,13 +524,13 @@ Essas permissões são necessárias somente para criar e aplicar uma política d
 
 Para usar a maioria dos cmdlets do Centro de Conformidade &amp; Segurança, você precisa:
   
-1. [Conectar-se ao Centro de Conformidade &amp; Segurança do Office 365 usando o PowerShell Remoto](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
+1. [Conectar-se ao Centro de Conformidade &amp; e Segurança do Office 365 usando o PowerShell Remoto](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
     
-2. Usar qualquer um destes [cmdlets policy-and-compliance-dlp](https://docs.microsoft.com/powershell/module/exchange/export-dlppolicycollection?view=exchange-ps)
+2. Usar qualquer um destes [policy-and-compliance-dlp cmdlets](https://docs.microsoft.com/powershell/module/exchange/export-dlppolicycollection?view=exchange-ps).
     
 No entanto, os relatórios DLP precisam extrair dados do Microsoft 365, incluindo o Exchange Online. Por esse motivo, **os cmdlets para os relatórios DLP estão disponíveis no Exchange Online Powershell, e não no Centro de Conformidade &amp; Segurança do Powershell**. Portanto, para usar os cmdlets para os relatórios DLP, você precisa:
   
-1. [Conectar-se ao Exchange Online usando o PowerShell Remoto](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)
+1. [Conecte-se ao Exchange Online usando o PowerShell remoto](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
     
 2. Usar qualquer um destes cmdlets para os relatórios DLP:
     
