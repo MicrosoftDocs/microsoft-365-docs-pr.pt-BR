@@ -28,9 +28,10 @@
         - name: Etapa 6. Treinar trabalhadores remotos
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Configurar a colaboração segura com o Microsoft 365
-      href: setup-secure-collaboration-with-teams.md
       items:
-        - name: Três camadas de proteção com o Microsoft Teams
+        - name: Visão Geral
+          href: setup-secure-collaboration-with-teams.md
+        - name: Etapa 1. Configurar três camadas de proteção com o Microsoft Teams
           items:
             - name: Visão geral de três camadas de proteção
               href: configure-teams-three-tiers-protection.md
@@ -42,7 +43,7 @@
               href: configure-teams-highly-sensitive-protection.md
             - name: Configurar uma equipe com isolamento de segurança
               href: secure-teams-security-isolation.md
-        - name: Configurar o compartilhamento externo
+        - name: Etapa 2. Configurar o compartilhamento externo
           items:
             - name: Visão geral do compartilhamento externo
               href: collaborate-with-people-outside-your-organization.md
@@ -69,7 +70,11 @@
             - name: Referência de compartilhamento externo
               href: microsoft-365-guest-settings.md
     - name: Implantar proteção contra ameaças no Microsoft 365
-      href: deploy-threat-protection.md
+      items:
+        - name: Visão Geral
+          href: deploy-threat-protection.md
+        - name: Etapas para implantar a proteção contra ameaças
+          href: deploy-threat-protection-configure.md
     - name: Implantar a proteção de informações para os regulamentos de privacidade de dados
       items:
         - name: Visão Geral
