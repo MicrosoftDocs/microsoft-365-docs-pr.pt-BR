@@ -472,6 +472,8 @@
               href: retry-failed-content-search.md
             - name: Usar o Microsoft Edge para baixar os resultados da pesquisa
               href: configure-edge-to-export-search-results.md
+            - name: Procurar atividades de Descoberta Eletrônica no log de auditoria
+              href: search-for-ediscovery-activities-in-the-audit-log.md
     - name: Descoberta Eletrônica Avançada
       items:
         - name: Visão Geral a Descoberta Eletrônica Avançada
@@ -587,6 +589,8 @@
               href: permissions-filtering-for-content-search.md
             - name: Configurar limites de conformidade
               href: set-up-compliance-boundaries.md
+            - name: Procurar atividades de Descoberta Eletrônica no log de auditoria
+              href: search-for-ediscovery-activities-in-the-audit-log.md
             - name: Solucionar problemas do AzCopy
               href: troubleshooting-azcopy.md
     - name: Descoberta Eletrônica Avançada (clássica)
