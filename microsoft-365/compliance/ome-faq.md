@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Tem uma pergunta sobre como funcionam os novos recursos de proteção de mensagens? Verifique se há uma resposta aqui.
-ms.openlocfilehash: f7c6de7eba9cb5e0f165b345b5c97e98cb96b870
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: d3dcc91f1e1e93293218e18109cebae2190d337b
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352074"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717150"
 ---
 # <a name="message-encryption-faq"></a>Perguntas frequentes sobre criptografia de mensagens
 
@@ -120,6 +120,11 @@ Para habilitar a criptografia para anexos em PDF, execute o seguinte comando no 
 ```powershell
 Set-IRMConfiguration -EnablePdfEncryption $true
 ```
+
+A criptografia de PDF permite proteger documentos PDF confidenciais por meio de comunicação segura ou colaboração segura. Para todos os clientes do Outlook, mensagens e anexos PDF desprotegidos herdam a proteção do OME da política de prevenção contra perda de dados (DLP) ou regra de fluxo de emails no Exchange Online. Além disso, se um usuário do Outlook anexar um documento do PDF desprotegido e aplica proteção à mensagem, a mensagem herdará a proteção da mensagem. Os usuários só podem abrir os anexos criptografados em aplicativos que dão suporte a PDFs protegidos (por exemplo, o portal do OME e o Visualizador de proteção de informações do Azure).
+
+> [!IMPORTANT]
+> O cliente da área de trabalho do Outlook não dá suporte à criptografia PDF.
 
 ## <a name="are-onedrive-for-business-attachments-supported"></a>Há suporte para anexos do OneDrive for Business?
 

@@ -16,22 +16,24 @@ search.appverid:
 - MET150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: Saiba como pesquisar o log de auditoria em busca de eventos registrados quando os administradores de conformidade realizam pesquisa de conteúdo e tarefas de caixa de descoberta eletrônica no centro de conformidade de & de segurança.
-ms.openlocfilehash: f575953fb2d48ac996e443589ff312743d93d424
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: e7ed3ddf16d22750449d3211d96800334676e519
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943650"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726516"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>Procurar atividades de descoberta eletrônica no log de auditoria
 
-A pesquisa de conteúdo e as atividades relacionadas à descoberta eletrônica realizadas no centro de conformidade do & de segurança ou executando os cmdlets do PowerShell correspondentes são registradas no log de auditoria. Os eventos são registrados quando administradores ou gerentes de descoberta eletrônica (ou qualquer permissão de descoberta eletrônica atribuída pelo usuário) realizam a pesquisa de conteúdo e as principais tarefas de descoberta eletrônica principais no centro de conformidade de & de segurança:
+A pesquisa de conteúdo e as atividades relacionadas à descoberta eletrônica (para a descoberta eletrônica principal e a descoberta eletrônica avançada) executadas no centro de conformidade & segurança ou executando os cmdlets do PowerShell correspondentes são registradas no log de auditoria. Os eventos são registrados quando administradores ou gerentes de descoberta eletrônica (ou qualquer permissão de descoberta eletrônica atribuída pelo usuário) realizam a pesquisa de conteúdo e as principais tarefas de descoberta eletrônica principais no centro de conformidade de & de segurança:
   
-- Criar e gerenciar casos de Descoberta Eletrônica
+- Criar e gerenciar casos de descoberta eletrônica avançada e principal
 
 - Criar, iniciar e editar pesquisas de conteúdo
 
 - Executar ações de pesquisa de conteúdo, como visualização, exportação e exclusão de resultados de pesquisa
+
+- Gerenciando os responsáveis e os conjuntos de revisão na descoberta eletrônica avançada
 
 - Configurar a filtragem de permissões para pesquisa de conteúdo
 
@@ -47,31 +49,33 @@ Para obter mais informações sobre como pesquisar o log de auditoria, as permis
 No momento, você precisa fazer algumas coisas específicas para exibir atividades de descoberta eletrônica no log de auditoria. Veja como.
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
-    
+
 2. Entre usando sua conta de trabalho ou da escola.
-    
+
 3. No painel esquerdo, clique em **Pesquisar**e, em seguida, clique em **pesquisa de log de auditoria**.
-    
-4. Na lista suspensa **atividades** , em **atividades de descoberta eletrônica**, clique em uma ou mais atividades a serem pesquisadas. Ou você pode clicar em **atividades de descoberta eletrônica** para pesquisar todas as atividades relacionadas à descoberta eletrônica. 
-    
+
+4. Na lista suspensa **atividades** , em **atividades de descoberta eletrônica** ou em **atividades de descoberta eletrônica avançada**, clique em uma ou mais atividades a serem pesquisadas.
+
     > [!NOTE]
-    > A lista suspensa atividades também inclui um grupo de atividades denominadas **atividades de cmdlet de descoberta eletrônica** que retornarão registros do log de auditoria de cmdlet. 
+    > A lista suspensa **atividades** também inclui um grupo de atividades denominadas **atividades de cmdlet de descoberta eletrônica** que retornarão registros do log de auditoria de cmdlet.
   
-5.  Selecione um intervalo de data e hora para exibir eventos de descoberta eletrônica que ocorreram dentro desse período. 
-    
-6. Na caixa **usuários** , selecione um ou mais usuários para exibir os resultados da pesquisa. Deixe esta caixa em branco para retornar entradas para todos os usuários. 
-    
-7. Clique em **Pesquisar** para executar a pesquisa usando seus critérios de pesquisa.  
-    
+5. Selecione um intervalo de data e hora para exibir eventos de descoberta eletrônica que ocorreram dentro desse período. 
+
+6. Na caixa **usuários** , selecione um ou mais usuários para exibir os resultados da pesquisa. Deixe esta caixa em branco para retornar entradas para todos os usuários.
+
+7. Clique em **Pesquisar** para executar a pesquisa usando seus critérios de pesquisa. 
+
 8. Depois que os resultados da pesquisa são exibidos, você pode clicar em **filtrar resultados** para filtrar ou classificar os registros de atividade resultantes. Infelizmente, não é possível usar a filtragem para excluir explicitamente determinadas atividades. 
-    
+
 9. Para exibir detalhes sobre uma atividade, clique no registro da atividade na lista de resultados da pesquisa. 
-    
-    É exibida uma página de saída de **detalhes** que contém as propriedades detalhadas do registro de eventos. Para exibir detalhes adicionais, clique em **mais informações**. Para obter uma descrição dessas propriedades, consulte a seção [propriedades detalhadas para atividades de descoberta eletrônica](#detailed-properties-for-ediscovery-activities) . 
+
+    É exibida uma página de saída de **detalhes** que contém as propriedades detalhadas do registro de eventos. Para exibir detalhes adicionais, clique em **mais informações**. Para obter uma descrição dessas propriedades, consulte a seção [propriedades detalhadas para atividades de descoberta eletrônica](#detailed-properties-for-ediscovery-activities) .
+
+10. Se quiser, você pode exportar os resultados da pesquisa de log de auditoria para um arquivo CSV e, em seguida, usar o recurso de consulta de energia do Excel para formatar e filtrar esses registros. Para saber mais, confira [Exportar, configurar e exibir registros de log de auditoria](export-view-audit-log-records.md).
 
 ## <a name="ediscovery-activities"></a>Atividades de Descoberta Eletrônica
 
-A tabela a seguir descreve as atividades de pesquisa de conteúdo e de descoberta eletrônica principais que são registradas quando um administrador ou gerente de descoberta eletrônica realiza uma atividade relacionada à descoberta eletrônica usando o centro de conformidade do & de segurança ou executando o cmdlet correspondente no PowerShell do centro de conformidade & segurança. 
+A tabela a seguir descreve as atividades de pesquisa de conteúdo e de descoberta eletrônica principais que são registradas quando um administrador ou gerente de descoberta eletrônica realiza uma atividade relacionada à descoberta eletrônica usando o centro de conformidade do & de segurança ou executando o cmdlet correspondente no PowerShell do centro de conformidade & segurança. Observe também que algumas atividades realizadas em avançado serão retornadas quando você pesquisar atividades nesta lista.
   
 > [!NOTE]
 > As atividades de descoberta eletrônica descritas nesta seção fornecem informações semelhantes às atividades de cmdlet de descoberta eletrônica descritas na próxima seção. Recomendamos que você use as atividades de descoberta eletrônica descritas nesta seção, pois elas aparecerão nos resultados da pesquisa de log de auditoria em 30 minutos. É necessário até 24 horas para que as atividades do cmdlet de descoberta eletrônica apareçam nos resultados da pesquisa de log de auditoria. 
@@ -85,9 +89,9 @@ A tabela a seguir descreve as atividades de pesquisa de conteúdo e de descobert
 |Associação de ocorrência de descoberta eletrônica alterada  <br/> |CaseMemberUpdated  <br/> |Update-ComplianceCaseMember  <br/> |A lista de membros de um caso de descoberta eletrônica foi alterada. Essa atividade é registrada quando todos os membros são substituídos por um grupo de novos usuários. Se um único membro for adicionado ou removido, a operação CaseMemberAdded ou CaseMemberRemoved será registrada.  <br/> |
 |Filtro de permissões de pesquisa alterado  <br/> |SearchPermissionUpdated  <br/> |Set-ComplianceSecurityFilter  <br/> |Um filtro de permissões de pesquisa foi alterado.  <br/> |
 |Consulta de pesquisa de retenção de caso de descoberta eletrônica alterada  <br/> |HoldUpdated  <br/> |Set-CaseHoldRule  <br/> |Um bloqueio baseado em consulta associado a um caso de descoberta eletrônica foi alterado. As alterações possíveis incluem a edição da consulta ou do intervalo de datas de uma retenção baseada em consulta.  <br/> |
-|Item de visualização de pesquisa de conteúdo baixado  <br/> |PreviewItemDownloaded  <br/> |Não disponível  <br/> |Um usuário baixou um item para seu computador local (clicando no link **baixar item original** ) ao visualizar os resultados da pesquisa.  <br/> |
-|Item de visualização de pesquisa de conteúdo listado  <br/> |PreviewItemListed  <br/> |Não disponível  <br/> |Um usuário clicou em **Visualizar resultados da pesquisa** para exibir a página Visualizar resultados da pesquisa, que lista até 1000 itens dos resultados de uma pesquisa de conteúdo.  <br/> |
-|Item de visualização de pesquisa de conteúdo exibido  <br/> |PreviewItemRendered  <br/> |Não disponível  <br/> |Um gerente de descoberta eletrônica exibiu um item clicando nele ao visualizar os resultados da pesquisa.  <br/> |
+|Item de visualização de pesquisa de conteúdo baixado  <br/> |PreviewItemDownloaded  <br/> |N/D  <br/> |Um usuário baixou um item para seu computador local (clicando no link **baixar item original** ) ao visualizar os resultados da pesquisa.  <br/> |
+|Item de visualização de pesquisa de conteúdo listado  <br/> |PreviewItemListed  <br/> |N/D  <br/> |Um usuário clicou em **Visualizar resultados da pesquisa** para exibir a página Visualizar resultados da pesquisa, que lista até 1000 itens dos resultados de uma pesquisa de conteúdo.  <br/> |
+|Item de visualização de pesquisa de conteúdo exibido  <br/> |PreviewItemRendered  <br/> |N/D  <br/> |Um gerente de descoberta eletrônica exibiu um item clicando nele ao visualizar os resultados da pesquisa.  <br/> |
 |Pesquisa de conteúdo criada  <br/> |SearchCreated  <br/> |New-ComplianceSearch  <br/> |Uma nova pesquisa de conteúdo foi criada.  <br/> |
 |Administrador de descoberta eletrônica criado  <br/> |CaseAdminAdded  <br/> |Add-eDiscoveryCaseAdmin  <br/> |Um usuário foi adicionado como um administrador de descoberta eletrônica na organização.  <br/> |
 |Ocorrência de descoberta eletrônica criada  <br/> |CaseAdded  <br/> |New-ComplianceCase  <br/> |Um caso de descoberta eletrônica foi criado. Quando um caso é criado, você só precisa dar um nome a ele. Outras tarefas relacionadas a maiúsculas e minúsculas, como a adição de membros, a criação de isenções e a criação de pesquisas de conteúdo associadas ao caso de eventos adicionais serem registrados.  <br/> |
@@ -98,8 +102,8 @@ A tabela a seguir descreve as atividades de pesquisa de conteúdo e de descobert
 |Caso de descoberta eletrônica excluída  <br/> |CaseRemoved  <br/> |Remove-ComplianceCase  <br/> |Uma ocorrência de descoberta eletrônica foi excluída. Qualquer isenção associada ao caso deve ser removido para que o caso possa ser excluído.  <br/> |
 |Filtro de permissões de pesquisa excluído  <br/> |SearchPermissionRemoved  <br/> |Remove-ComplianceSecurityFilter  <br/> |Um filtro de permissões de pesquisa foi excluído.  <br/> |
 |Consulta de pesquisa de retenção de caso de descoberta eletrônica excluída  <br/> |HoldRemoved  <br/> |Remove-CaseHoldRule  <br/> |Um bloqueio baseado em consulta associado a um caso de descoberta eletrônica foi excluído. Remover a consulta da retenção geralmente é o resultado da exclusão de uma isenção. Quando uma consulta de bloqueio ou retenção é excluída, os locais de conteúdo que estavam em retenção são lançados.  <br/> |
-|Exportação baixa de pesquisa de conteúdo  <br/> |SearchExportDownloaded  <br/> |Não disponível  <br/> |Um usuário baixou os resultados de uma pesquisa de conteúdo para o computador local. Uma **exportação iniciada da atividade de pesquisa de conteúdo** deve ser iniciada para que os resultados da pesquisa possam ser baixados.  <br/> |
-|Resultados visualizados da pesquisa de conteúdo  <br/> |SearchPreviewed  <br/> |Não disponível  <br/> |Um usuário visualize os resultados de uma pesquisa de conteúdo.  <br/> |
+|Exportação baixa de pesquisa de conteúdo  <br/> |SearchExportDownloaded  <br/> |N/D  <br/> |Um usuário baixou os resultados de uma pesquisa de conteúdo para o computador local. Uma **exportação iniciada da atividade de pesquisa de conteúdo** deve ser iniciada para que os resultados da pesquisa possam ser baixados.  <br/> |
+|Resultados visualizados da pesquisa de conteúdo  <br/> |SearchPreviewed  <br/> |N/D  <br/> |Um usuário visualize os resultados de uma pesquisa de conteúdo.  <br/> |
 |Resultados excluídos da pesquisa de conteúdo  <br/> |SearchResultsPurged  <br/> |New-ComplianceSearchAction  <br/> |Um usuário limpou os resultados de uma pesquisa de conteúdo executando o comando **New-ComplianceSearchAction-Purge** .  <br/> |
 |Análise de pesquisa de conteúdo removida  <br/> |RemovedSearchResultsSentToZoom  <br/> |Remove-ComplianceSearchAction  <br/> |Uma ação de preparação de pesquisa de conteúdo (para preparar os resultados da pesquisa para descoberta eletrônica avançada) foi excluída. Se a ação de preparação tiver menos de duas semanas, os resultados da pesquisa que foram preparados para descoberta eletrônica avançada foram excluídos da área de armazenamento do Microsoft Azure. Se a ação de preparação tiver mais de duas semanas, esse evento indicará que somente a ação de preparação correspondente foi excluída.  <br/> |
 |Exportação de pesquisa de conteúdo removida  <br/> |RemovedSearchExported  <br/> |Remove-ComplianceSearchAction  <br/> |Uma ação de exportação de pesquisa de conteúdo foi excluída. Se a ação de exportação tiver menos de duas semanas, os resultados da pesquisa que foram carregados para a área de armazenamento do Microsoft Azure foram excluídos. Se a ação de exportação tiver mais de duas semanas, esse evento indicará que somente a ação de exportação correspondente foi excluída.  <br/> |
@@ -118,9 +122,40 @@ A tabela a seguir descreve as atividades de pesquisa de conteúdo e de descobert
 |(nenhum)|ViewedSearchPreviewed|Get-ComplianceSearchAction-Preview|Um usuário visualiza os resultados de uma pesquisa de conteúdo no centro de conformidade e segurança ou executando o cmdlet.|
 |||||
   
+## <a name="advanced-ediscovery-activities"></a>Atividades de Descoberta Eletrônica Avançada
+
+A tabela a seguir descreve as atividades de descoberta eletrônica avançadas registradas no log de auditoria. Essas atividades (além das atividades de descoberta eletrônica relevantes podem ser usadas para ajudá-lo a acompanhar a progressão da atividade em um caso de descoberta eletrônica avançada.
+
+|**Nome amigável**|**Operação**|**Descrição**|
+|:-----|:-----|:-----|
+|Adicionar dados a outro conjunto de revisão|AddWorkingSetQueryToWorkingSet|O usuário adicionou documentos de uma revisão definida para outro conjunto de revisão.|
+|Dados adicionados ao conjunto de revisão|AddQueryToWorkingSet|O usuário adicionou os resultados da pesquisa de uma pesquisa de conteúdo associada a um caso de Descoberta Eletrônica Avançada a um conjunto de revisão.|
+|Dados que não são da Microsoft 365 adicionados ao conjunto de revisão|AddNonOffice365DataToWorkingSet|Usuário adicionou dados que não são da Microsoft 365 a um conjunto de revisão.|
+|Documentos remedidos adicionados ao conjunto de revisão|AddRemediatedData|O usuário carrega documentos com erros de indexação corrigidos em um conjunto de revisão.|
+|Dados analisados no conjunto de revisão|RunAlgo|O usuário realizou a análise nos documentos em um conjunto de revisão.|
+|Documento com anotações no conjunto de revisão|AnnotateDocument|O usuário anota um documento em um conjunto de revisão. As anotações incluem a redação de conteúdo em um documento.|
+|Conjuntos de carga comparados|LoadComparisonJob|O usuário comparou dois conjuntos de carga diferentes em um conjunto de revisão. Um conjunto de carga é quando os dados de uma pesquisa de conteúdo que estão associados ao caso são adicionados a um conjunto de revisão.|
+|Documentos redigidos convertidos em PDF|BurnJob|O usuário converteu todos os documentos redigidos em uma revisão definida como arquivos PDF.|
+|Conjunto de revisão criado|CreateWorkingSet|O usuário criou um conjunto de revisão.|
+|Pesquisa de conjunto de revisão criada|CreateWorkingSetSearch|O usuário criou uma consulta de pesquisa que procura os documentos em um conjunto de revisão.|
+|Marca criada|CreateTag|O usuário criou um grupo de marcas em um conjunto de revisão. Um grupo de marcas pode conter uma ou mais marcas filho. Essas marcas são usadas para marcar documentos no conjunto de revisão.|
+|Pesquisa do conjunto de revisão excluído|DeleteWorkingSetSearch|O usuário excluiu uma consulta de pesquisa em um conjunto de revisão.|
+|Marca excluída|DeleteTag|O usuário excluiu um grupo de marcas em um conjunto de revisão.|
+|Documento baixado|DownloadDocument|O usuário baixou um documento de um conjunto de revisão.|
+|Marca editada|UpdateTag|O usuário alterou uma marca em um conjunto de revisão.|
+|Documentos exportados do conjunto de revisão|ExportJob|O usuário exporta documentos de um conjunto de revisão.|
+|Configuração de caso modificado|UpdateCaseSettings|O usuário modifica as configurações de uma ocorrência. As configurações da ocorrência incluem informações sobre o caso, permissões de acesso e configurações que controlam o comportamento da pesquisa e da análise.|
+|Pesquisa do conjunto de revisão modificada|UpdateWorkingSetSearch|O usuário editou uma consulta de pesquisa em um conjunto de revisão.|
+|Pesquisa do conjunto de revisão vizualizada|PreviewWorkingSetSearch|O usuário visualizou os resultados de uma consulta de pesquisa em um conjunto de revisão.|
+|Documentos de erro corrigidos|ErrorRemediationJob|O usuário corrige os arquivos que contêm erros de indexação.|
+|Documento marcado|TagFiles|O usuário marca um documento em um conjunto de revisão.|
+|Resultados marcados de uma consulta|TagJob|O usuário marca todos os documentos que correspondem aos critérios da consulta de pesquisa em um conjunto de revisão.|
+|Documento exibido no conjunto de revisão|ViewDocument|O usuário visualiza um documento em um conjunto de revisão.|
+|||
+
 ## <a name="ediscovery-cmdlet-activities"></a>atividades de cmdlet de descoberta eletrônica
 
-A tabela a seguir lista os registros de log de auditoria de cmdlet que são registrados quando um administrador ou usuário realiza uma atividade relacionada à descoberta eletrônica usando o centro de conformidade do & de segurança ou executando o cmdlet correspondente no PowerShell remoto conectado ao centro de conformidade & segurança da sua organização. As informações detalhadas no registro de log de auditoria são diferentes para as atividades de cmdlet listadas nesta tabela e as atividades de descoberta eletrônica descritas na seção anterior. 
+A tabela a seguir lista os registros de log de auditoria de cmdlet que são registrados quando um administrador ou usuário realiza uma atividade relacionada à descoberta eletrônica usando o centro de conformidade do & de segurança ou executando o cmdlet correspondente no PowerShell remoto conectado ao centro de conformidade & segurança da sua organização. As informações detalhadas no registro de log de auditoria são diferentes para as atividades de cmdlet listadas nesta tabela e as atividades de descoberta eletrônica descritas na seção anterior.
   
 Conforme mencionado anteriormente, é necessário até 24 horas para atividades de cmdlet de descoberta eletrônica serem exibidas nos resultados de pesquisa do log de auditoria.
   

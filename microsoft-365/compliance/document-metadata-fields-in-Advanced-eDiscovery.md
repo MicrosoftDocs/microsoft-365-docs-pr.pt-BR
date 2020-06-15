@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo define os campos de metadados para documentos em uma revisão configurada em um caso de descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: f53a754fce482ddc0944d84059b1e346e93f5067
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 19a8b4968ea4b1d82cd6a9e9278530e6c155ef3f
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42941233"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726451"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Campos de metadados de documentos na descoberta eletrônica avançada
 
@@ -44,8 +44,8 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 |Nomes de anexos|Attachmentnames|Attachment_Names|Lista de nomes de anexos.|
 |Pontuação de privilégio de cliente advogado|AttorneyClientPrivilegeScore||Advogado-Pontuação de conteúdo do modelo de privilégio do cliente.|
 |Autor|Autor|Doc_authors|Autor dos metadados do documento.|
-|BCC|Cco|Email_bcc|Campo Cco para tipos de mensagem. Format é **DisplayName \<SmtpAddress>**.|
-|CC|Cc|Email_cc|Campo CC para tipos de mensagem. Format é **DisplayName \<SmtpAddress>**.|
+|BCC|Cco|Email_bcc|Campo Cco para tipos de mensagem. O formato **é \<SMTPAddress> DisplayName **.|
+|CC|Cc|Email_cc|Campo CC para tipos de mensagem. O formato **é \<SMTPAddress> DisplayName **.|
 |Rótulos de conformidade|ComplianceLabels|Compliance_labels|[Rótulos de retenção](labels.md) aplicados ao conteúdo no Office 365.|
 |Caminho composto|CompoundPath|Compound_path|Caminho legível humana que descreve a fonte do item.|
 |Content|Conteúdo||Texto extraído do item.|
@@ -55,7 +55,7 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 |Índice de conversa||Conversation_index|Índice de conversa da mensagem.|
 |Hora do PDF da conversa|ConversationPdfTime||Data em que a versão do PDF da conversa foi criada.|
 |Tempo de gravação da redação da conversa|ConversationRedactionBurnTime||Data em que a versão do PDF da conversa foi criada para o chat.|
-|Data de criação do documento|Createdtime|Doc_date_created|Criar data a partir de metadados de documento.|
+|Data de criação do documento|CreatedTime|Doc_date_created|Criar data a partir de metadados de documento.|
 |Custodian|Custodian|Custodian|Nome dos responsáveis com os quais o item foi associado.|
 |Data|Data|Data|Data é um campo computado que depende do tipo de arquivo.<br /><br />Email: data de envio<br />Anexos de email: data da última modificação do documento; se não estiver disponível, a data de envio do pai<br />Documentos incorporados: data da última modificação do documento; Se não estiver disponível, a data da última modificação do pai<br />Documentos do SPO (inclui anexos modernos): data da última modificação do SharePoint; Se não estiver disponível, a data da última modificação dos documentos<br />Documentos que não são do Office 365: data da última modificação<br />Reuniões: data de início da reunião<br />Caixa postal: data de envio<br />IM: data de envio|
 |Outros caminhos|Dedupedcompoundpath|Deduped_compound_path|Lista de caminhos compostos de documentos que são duplicatas exatas (email: com base no conteúdo, documentos: com base no hash).|
@@ -103,17 +103,18 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 |Classe de item|ItemClass|Item_class|Classe de item fornecida pelo Exchange Server; por exemplo, **IPM. Observação**|
 |Last modified date|LastModifiedDate|Doc_date_modified|Data da última modificação dos metadados do documento.|
 |ID de carregamento|Loadid|Load_ID|A ID do conjunto de carga no qual o item foi adicionado a um conjunto de revisão.|
-|Local|Local|Local|Cadeia de caracteres que indica o tipo de local de onde os documentos foram originados.<br /><br />**Dados importados** de dados que não sejam do Office 365<br />**Teams** -Microsoft Teams<br />Caixas **de correio do Exchange-** Exchange<br />**SharePoint** -sites do SharePoint<br />**Onedrive** -contas do onedrive|
+|Location|Location|Location|Cadeia de caracteres que indica o tipo de local de onde os documentos foram originados.<br /><br />**Dados importados** de dados que não sejam do Office 365<br />**Teams** -Microsoft Teams<br />Caixas **de correio do Exchange-** Exchange<br />**SharePoint** -sites do SharePoint<br />**Onedrive** -contas do onedrive|
 |Nome do local|LocationName|Location_name|Cadeia de caracteres que identifica a origem do item. Para o Exchange, este será o endereço SMTP da caixa de correio; para o SharePoint e o OneDrive, a URL do conjunto de sites.|
 |Marcado como representante|MarkAsRepresentative||Um documento de cada conjunto de duplicatas exatas é marcado como representante.|
 |Marcado como o problema de caso anterior à marca 1 *||Marked_as_pre_tagged_Case_issue_1|Marcado como problema de caso de marca 1 de relevância.|
 |Marcado como problema de caso de propagação 1 *||Marked_as_seed_Case_issue_1|Marcado como o problema de caso de propagação 1 de relevância.|
 |Data de término da reunião|MeetingEndDate|Meeting_end_date|Data de término da reunião para reuniões.|
 |Data de início da reunião|MeetingStartDate|Meeting_start_date|Data de início da reunião para reuniões.|
-|Tipo de mensagem|MessageKind|Message_kind|O tipo de mensagem a ser pesquisada. Valores possíveis: ** <br /> <br />contatos <br />de <br />email <br />externaldata <br />faxes <br />registros <br />de mensagens <br /> <br />instantâneas reuniões microsoftteams** (retorna itens de chats, reuniões e chamadas no Microsoft Teams) ** <br />notas <br />postagens <br />rssfeeds <br />caixa de correio de tarefas <br />**| 
+|Tipo de mensagem|MessageKind|Message_kind|O tipo de mensagem a ser pesquisada. Valores possíveis: ** <br /> <br /> contatos <br /> de <br /> email <br /> externaldata <br /> faxes <br /> registros de mensagens instantâneas <br /> <br /> reuniões <br /> microsoftteams** (retorna itens de chats, reuniões e chamadas no Microsoft Teams) ** <br /> notas <br /> postagens <br /> rssfeeds <br /> caixa de <br /> correio de tarefas**| 
 |Extensão nativa|NativeExtension|Native_extension|Extensão nativa do item.|
 |Nome do arquivo nativo|NativeFileName|Native_file_name|Nome do arquivo nativo do item.|
-|NativeMD5||Native_MD5|Hash MD5 do fluxo de arquivos.|
+|NativeMD5||Native_MD5|Hash MD5 (valor de hash de 128 bits) do fluxo de arquivo.|
+|NativeSHA256||Native_SHA_256|Hash SHA256 (valor de hash de 256 bits) do fluxo de arquivos.|
 |Classificação ND/ET: excluindo anexos|NdEtSortExclAttach|ND_ET_sort_excl_attach|Concatenação do conjunto de threads de email (ET) definido e conjunto Near-Duplicate (ND). Este campo é usado para classificação eficiente no momento da revisão. Um **D** é prefixado para conjuntos de ND e um **E** é prefixado para conjuntos et.|
 |Classificação ND/ET: incluindo anexos|NdEtSortInclAttach|ND_ET_sort_incl_attach|Concatenação de um conjunto de threads de email (ET) definido e conjunto Near-Duplicate (ND). Este campo é usado para classificação eficiente no momento da revisão. Um **D** é prefixado para conjuntos de ND e um **E** é prefixado para conjuntos et. Cada item de email em um conjunto ET é seguido pelos seus anexos apropriados.|
 |A pontuação de relevância normalizada problema de caso 1||Normalized_relevance_score_case_issue_1|Pontuação de relevância normalizada o problema de caso 1 de relevância.|
@@ -142,20 +143,20 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 |Pontuação de relevância|RelevanceScore||Pontuação de relevância de um documento com base na relevância.|
 |Marca de relevância|RelevanceTag||Pontuação de relevância de um documento com base na relevância.|
 |ID do representante|Representativo||Identificador numérico de cada conjunto de duplicatas exatas.|
-|Remetente|Remetente|Email_sender|Campo remetente (de) para tipos de mensagem. Format é **DisplayName \<SmtpAddress>**.|
+|Sender|Sender|Email_sender|Campo remetente (de) para tipos de mensagem. O formato **é \<SmtpAddress> DisplayName **.|
 |Remetente/autor|SenderAuthor||Campo calculado composto pelo remetente ou autor do item.|
 |Domínio do remetente|SenderDomain|Email_sender_domain|Domínio do remetente.|
 |Sent|Sent|Email_date_sent|Data de envio da mensagem.|
 |Definir ordem: inclusivo primeiro|SetOrderInclusivesFirst|Set_order_inclusives_first|Campo de classificação-email e anexos: deordem cronológica; Documents: pivot First, then por Pontuação de similaridade decrescente.|
 |SimilarityPercent||Similarity_percent|Indica a aparência de um documento para a tabela dinâmica do conjunto próximo duplicado.|
-|Tamanho do arquivo nativo|Tamanho|Native_size|Número de bytes do item nativo.|
-|Assunto|Assunto|Email_subject|Assunto da mensagem.|
+|Tamanho do arquivo nativo|Size|Native_size|Número de bytes do item nativo.|
+|Subject|Subject|Email_subject|Assunto da mensagem.|
 |Assunto/título|SubjectTitle||Campo calculado composto pelo assunto ou título do item.|
 |Marcado por problema de caso 1||Tagged_by_Case_issue_1|Usuário que marcou este documento para o problema de caso 1, em relevância.|
 |Marcas|Marcas|Marcas|Marcas aplicadas em um conjunto de revisão.|
 |Lista de temas|Themelist|Themes_list|Lista de temas conforme calculado para análise.|
-|Cargo|Cargo|Doc_title|Título dos metadados do documento.|
-|To|To|Email_to|Campo para para tipos de mensagem. Format é **DisplayName\<SmtpAddress>**|
+|Title|Title|Doc_title|Título dos metadados do documento.|
+|To|To|Email_to|Campo para para tipos de mensagem. O formato **é \<SmtpAddress> DisplayName**|
 |Exclusivo no conjunto de emails|UniqueInEmailSet||**False** se houver uma duplicata do anexo em seu conjunto de emails.|
 |Foi corrigido|WasRemediated|Was_Remediated|**True** se o item foi corrigido, caso contrário, **false**.|
 |Contagem de palavras|WordCount|Word_count|Número de palavras no item.|

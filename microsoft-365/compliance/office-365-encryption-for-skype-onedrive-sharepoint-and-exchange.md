@@ -16,16 +16,15 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - SPO_Content
-description: Neste artigo, encontre uma descrição da criptografia do Office 365 para Skype, OneDrive, SharePoint e Exchange Online.
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9e250f3fe63875f2f1d65f2765e114f212e72f35
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: 'Resumo: uma descrição da criptografia para o Skype, o OneDrive, o SharePoint, o Microsoft Teams e o Exchange Online.'
+ms.openlocfilehash: fc369d167d5aa35507f9509fc1b92294e16f75d9
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44031391"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717332"
 ---
-# <a name="encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>Criptografia para Skype for Business, OneDrive for Business, SharePoint Online e Exchange Online
+# <a name="encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-microsoft-teams-and-exchange-online"></a>Criptografia para o Skype for Business, OneDrive for Business, SharePoint Online, Microsoft Teams e Exchange Online
 
 O Microsoft 365 é um ambiente altamente seguro que oferece proteção abrangente em várias camadas: segurança física do Data Center, segurança da rede, segurança do acesso, segurança do aplicativo e segurança dos dados.
 
@@ -87,3 +86,32 @@ O Exchange Online usa o BitLocker para todos os dados de caixa de correio, e a c
 Além do serviço de criptografia, a Microsoft 365 oferece suporte à chave do cliente, que é criada na parte superior da criptografia de serviço. A chave do cliente é uma opção de chave gerenciada pela Microsoft para a criptografia de serviço do Exchange Online que também está no mapa da Microsoft. Esse método de criptografia oferece maior proteção não contratada pelo BitLocker, pois fornece separação de administradores de servidor e chaves criptográficas necessárias para a descriptografia de dados, e como a criptografia é aplicada diretamente aos dados (em comparação com o BitLocker, que aplica criptografia no volume do disco lógico), os dados do cliente copiados de um servidor do Exchange permanecem criptografados.
 
 O escopo para a criptografia de serviço do Exchange Online é dados do cliente armazenados em repouso no Exchange Online. (O Skype for Business armazena quase todo o conteúdo gerado pelo usuário dentro da caixa de correio do Exchange Online do usuário e, portanto, herda o recurso de criptografia de serviço do Exchange Online.)
+
+
+## <a name="microsoft-teams"></a>Microsoft Teams
+
+O Microsoft Teams usa TLS e MTLS para criptografar mensagens instantâneas. Todo o tráfego de servidor para servidor requer MTLS, independentemente de o tráfego ter sido confinado na rede interna ou cruzar o perímetro da rede interna.
+
+Esta tabela resume os protocolos usados pelo Teams.
+
+***Criptografia de tráfego***
+
+|||
+|:-----|:-----|
+|**Tipo de tráfego**|**Criptografado por**|
+|Servidor para servidor|MTLS|
+|Cliente para servidor (ex. mensagens instantâneas e presença)|TLS|
+|Fluxos de mídia (ex. compartilhamento de áudio e vídeo da mídia)|TLS|
+|Compartilhamento de mídia de áudio e vídeo|SRTP/TLS|
+|Sinalização|TLS|
+|||
+
+#### <a name="media-encryption"></a>Criptografia da mídia
+
+O tráfego de mídia é criptografado usando SRTP, um perfil de protocolo RTP que fornece confidencialidade, autenticação e proteção contra ataque de repetição para o tráfego RTP. O SRTP usa uma chave de sessão gerada usando um gerador de números aleatórios seguro e é trocada usando o canal TLS de sinalização. O tráfego de mídia cliente-para-cliente é negociado através de uma conexão de cliente para servidor, mas é criptografado usando o SRTP ao passar de cliente para cliente diretamente.
+
+O Microsoft Teams usa um token baseado em credenciais para acesso seguro a retransmissões de mídia por vez. As retransmissores de mídia trocam o token através de um canal protegido por TLS.
+
+#### <a name="fips"></a>FIPS
+
+O Microsoft Teams usa algoritmos compatíveis com FIPS (Federal Information Processing Standard) para trocas de chave de criptografia. Para obter mais informações sobre a implementação do FIPS, consulte a [publicação 140-2 do FIPS (Federal Information Processing Standard)](https://docs.microsoft.com/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide).

@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
 description: Com a criptografia de mensagem do Office 365, sua organização pode enviar e receber mensagens de email criptografadas entre pessoas dentro e fora da sua organização. A criptografia de mensagens de email ajuda a garantir que somente os destinatários pretendidos possam exibir o conteúdo da mensagem.
-ms.openlocfilehash: e4210feb2f510507a1d930ffed6ac784566951b5
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: f5ce3103a6fc8c9f025d657408814a954cf0a13e
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214227"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717322"
 ---
 # <a name="message-encryption"></a>Criptografia de mensagem
 
@@ -33,9 +33,6 @@ Com a criptografia de mensagem do Office 365, sua organização pode enviar e re
 ## <a name="how-office-365-message-encryption-works"></a>Como funciona a criptografia de mensagens do Office 365
 
 O restante deste artigo se aplica aos novos recursos do OME.
-
-> [!NOTE]
-> Representantes com permissões de acesso total a uma caixa de correio podem ler mensagens criptografadas que são enviadas para a caixa de correio.
 
 A criptografia de mensagem do Office 365 é um serviço online desenvolvido no Microsoft Azure Rights Management (Azure RMS), que faz parte da proteção de informações do Azure. Isso inclui políticas de criptografia, identidade e autorização para ajudar a proteger seu email. Você pode criptografar mensagens usando modelos de gerenciamento de direitos, a [opção não encaminhar](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)e a [opção somente criptografia](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails).
 

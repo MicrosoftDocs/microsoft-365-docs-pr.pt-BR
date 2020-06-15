@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Com o Office 365, seu conteúdo é criptografado em repouso e em trânsito com a criptografia, protocolos e tecnologias mais fortes disponíveis. Obtenha uma visão geral da criptografia no Office 365.
-ms.openlocfilehash: 16b7786097690af6a2dbb558582a7cf88e605bec
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 2b1f2927b5d6daeb5e83aae2521d96e329e77c43
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166002"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717224"
 ---
 # <a name="encryption"></a>Criptografia
 
@@ -54,6 +54,7 @@ Com o Office 365, várias camadas e tipos de criptografia funcionam juntos para 
 |Arquivos em um dispositivo. Esses arquivos podem incluir mensagens de email salvas em uma pasta, documentos do Office salvos em um computador, Tablet ou telefone ou dados salvos na nuvem da Microsoft.  <br/> |BitLocker nos datacenters da Microsoft. O BitLocker também pode ser usado em máquinas clientes, como computadores e tablets do Windows  <br/> Gerenciador de chaves distribuídas (DKM) nos datacenters da Microsoft  <br/> Chave do cliente para o Microsoft 365  <br/> |[Centro de ti do Windows: BitLocker](https://docs.microsoft.com/windows/device-security/bitlocker/bitlocker-overview) <br/> [Centro de confiança da Microsoft: criptografia](https://www.microsoft.com/TrustCenter/Security/Encryption) <br/> [Série de controles de segurança na nuvem: Criptografando dados em repouso](https://blogs.microsoft.com/microsoftsecure/2015/09/10/cloud-security-controls-series-encrypting-data-at-rest) <br/> [Como o Exchange Online protege seus segredos de email](exchange-online-secures-email-secrets.md) <br/> [Criptografia de serviço com a chave do cliente](customer-key-overview.md) <br/> |
 |Arquivos em trânsito entre usuários. Esses arquivos podem incluir documentos do Office ou itens de lista do SharePoint compartilhados entre usuários.  <br/> |TLS para arquivos em trânsito  <br/> |[Criptografia de dados no OneDrive for Business e no SharePoint Online](data-encryption-in-odb-and-spo.md) <br/> [Skype for Business Online: segurança e arquivamento](https://technet.microsoft.com/library/skype-for-business-online-security-and-archiving.aspx) <br/> |
 |Email em trânsito entre destinatários. Este email inclui email hospedado pelo Exchange Online.  <br/> |Criptografia de mensagem do Office 365 com o Azure Rights Management, S/MIME e TLS para email em trânsito  <br/> |[Criptografia de Mensagens do Office 365 (OME)](ome.md) <br/> [Criptografia de email no Office 365](email-encryption.md) <br/> [Como o Exchange Online usa o TLS para proteger conexões de email no Office 365](exchange-online-uses-tls-to-secure-email-connections.md) <br/> |
+|Chats, mensagens e arquivos em trânsito entre destinatários usando o Microsoft Teams. <br/> |O Microsoft Teams usa TLS e MTLS para criptografar mensagens instantâneas. O tráfego de mídia é criptografado usando o protocolo SRTP (Secure RTP). O Microsoft Teams usa algoritmos compatíveis com FIPS (Federal Information Processing Standard) para trocas de chave de criptografia. <br/> |[Criptografia para o Teams](https://docs.microsoft.com/microsoftteams/teams-security-guide#encryption-for-teams) <br/> |
 
 ## <a name="what-if-i-need-more-control-over-encryption-to-meet-security-and-compliance-requirements"></a>E se eu precisar de mais controle sobre a criptografia para atender aos requisitos de segurança e conformidade?
 
@@ -78,6 +79,7 @@ Para saber mais, confira os seguintes recursos:
 |Trabalhar com mensagens criptografadas em um dispositivo móvel  <br/> |[Exibir mensagens criptografadas no seu dispositivo Android](https://support.office.com/article/83d60f17-2305-407a-a762-7d518401fdeb) <br/> [Exibir mensagens criptografadas no seu iPhone ou iPad](https://support.microsoft.com/en-us/office/view-protected-messages-on-your-iphone-or-ipad-4d631321-0d26-4bcc-a483-d294dd0b1caf) <br/> |
 |Criptografar um documento usando a proteção por senha  <br/><br/>  A proteção por senha não é suportada em um navegador. Use versões de área de trabalho do Word, Excel e PowerPoint para proteção por senha. |[Adicionar ou remover proteção em seu documento, pasta de trabalho ou apresentação](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) <br/> Escolha uma seção **Adicionar proteção** e, em seguida, confira **criptografar com senha**.  |
 |Remover a criptografia de um documento  <br/> |[Adicionar ou remover proteção em seu documento, pasta de trabalho ou apresentação](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) <br/> Escolha uma seção **remover proteção** e, em seguida, consulte **remover criptografia de senha**.  |
+
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Depois de configurar a chave do cliente, saiba como gerenciá-la restaurando as chaves do AKV e gerenciando as permissões e as políticas de criptografia de dados.
-ms.openlocfilehash: dbdbd61b4d06e183d8cc5461122e316b2b6b1797
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 21c1fedce1ebc09e6c33b74a1b2c035c90988e12
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352198"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717302"
 ---
 # <a name="manage-customer-key"></a>Gerenciar chave do cliente
 
@@ -142,13 +142,7 @@ Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl IsEnc
 
 A Propriedade IsEncrypted retornará um valor **true** se a caixa de correio for criptografada e um valor **false** se a caixa de correio não estiver criptografada.
 
-O tempo para concluir movimentações de caixa de correio depende do tamanho da caixa de correio. Se a chave do cliente não tiver criptografado completamente a caixa de correio após 72 horas a partir do momento em que você atribuir uma nova DEP, inicie uma movimentação de caixa de correio. Para fazer isso, use o cmdlet New-MoveRequest e forneça o alias da caixa de correio. Por exemplo:
-  
-```powershell
-New-MoveRequest <alias>
-```
-
-Para obter mais informações sobre esse cmdlet, consulte [Get-MailboxStatistics](https://docs.microsoft.com/powershell/module/exchange/new-moverequest?view=exchange-ps).
+O tempo para concluir movimentações de caixa de correio depende do tamanho da caixa de correio. Se a chave do cliente não tiver criptografado completamente a caixa de correio após 72 horas a partir do momento em que você atribuir uma nova DEP, contate o suporte da Microsoft para obter ajuda. O cmdlet New-MoveRequest não está mais disponível para movimentações de caixa de correio locais. Consulte [este anúncio](https://techcommunity.microsoft.com/t5/exchange-team-blog/disabling-new-moverequest-for-local-mailbox-moves/bc-p/1332141) para obter mais informações.
 
 ### <a name="verify-encryption-completes-for-sharepointonlineonedriveforbusinessandteamsfiles"></a>Verificar se a criptografia é concluída para os arquivos do SharePoint Online, do OneDrive for Business e do teams
 

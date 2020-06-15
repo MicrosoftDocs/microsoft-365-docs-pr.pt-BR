@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 3cef513d6b89634e16e0a0b4516f403cf1a794af
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 5bda1556b5726c6e94a6860c7c57f3f7082f2f5e
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208393"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717312"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>Investigar e corrigir alertas de conformidade em comunicações
 
@@ -70,7 +70,7 @@ Para obter uma lista completa dos filtros e detalhes do campo, consulte [Filters
 
 ### <a name="using-near-and-exact-duplicate-analysis"></a>Usando a análise de duplicatas próxima e exata
 
-As políticas de conformidade de comunicação verificam e agrupam automaticamente duplicatas de mensagens próximas e exatas sem nenhuma etapa de configuração adicional. Este modo de exibição permite corrigir rapidamente mensagens semelhantes, um por um ou um grupo, reduzindo a carga de investigação de mensagens para revisores. Como duplicatas são detectadas, os controles **próximos duplicatas** e/ou **Exact duplicatas** são exibidos na barra de ferramentas ação de correção.
+As políticas de conformidade de comunicação verificam e agrupam automaticamente duplicatas de mensagens próximas e exatas sem nenhuma etapa de configuração adicional. Este modo de exibição permite corrigir rapidamente mensagens semelhantes, um por um ou um grupo, reduzindo a carga de investigação de mensagens para revisores. Como duplicatas são detectadas, os controles **próximos duplicatas** e/ou **Exact duplicatas** são exibidos na barra de ferramentas ação de correção. Este modo de exibição não estará disponível se não forem encontradas duplicatas ou não.
 
 #### <a name="to-remediate-duplicates"></a>Para corrigir duplicatas
 
