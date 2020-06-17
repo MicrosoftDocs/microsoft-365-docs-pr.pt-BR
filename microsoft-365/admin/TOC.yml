@@ -22,14 +22,14 @@
               href: setup/setup-apps-for-business.md
         - name: Explorar a Página de configuração e o assistente
           href: setup/o365-setup-wizard-and-setup-page.md
-        - name: Migrar seus dados
-          href: setup/migrate-email-and-contacts-admin.md
         - name: Instalar os aplicativos do Office
           href: setup/install-applications.md
         - name: Configurar dispositivos do Windows
           href: ../business/set-up-windows-devices.md
         - name: Configurar dispositivos móveis
           href: ../business/set-up-mobile-devices.md
+        - name: Migrar seus dados para o Microsoft 365
+          href: setup/migrate-email-and-contacts-admin.md
         - name: Implantar o Teams
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
         - name: Treinamento do aplicativo para todos
@@ -117,6 +117,8 @@
               href: add-users/resend-user-password.md
             - name: Criar um modelo para adicionar usuários
               href: add-users/create-and-use-a-template-to-add-users.md
+            - name: Atualizar os usuários para os aplicativos mais recentes do Office
+              href: setup/upgrade-users-to-latest-office-client.md
         - name: Grupos
           items:
             - name: Visão geral dos grupos
@@ -154,6 +156,8 @@
           href: email/add-another-email-alias-for-a-user.md
         - name: Usar seu domínio personalizado
           href: email/change-email-address.md
+        - name: Migrar email e contatos para o Microsoft 365
+          href: setup/migrate-email-and-contacts-admin.md
         - name: Criar assinaturas e avisos de isenção de responsabilidade
           href: setup/create-signatures-and-disclaimers.md
         - name: 'Criar, editar ou excluir um grupo de segurança'
@@ -204,8 +208,6 @@
     - name: Gerenciar seus dados e serviços
       href: manage/index.yml
       items:
-        - name: Atualizar sua organização para os aplicativos mais recentes
-          href: setup/upgrade-users-to-latest-office-client.md
         - name: Monitorar a atividade do usuário usando relatórios
           href: activity-reports/activity-reports.md
         - name: Alterar as informações de contato da sua organização
@@ -313,9 +315,9 @@
     - name: Trabalhar com clientes
       href: work-with-customers/index.yml
       items:
-        - name: Compartilhar sites e arquivos externamente
+        - name: Compartilhar sites e arquivos com convidados
           href: manage/share-sites-with-external-users.md
-        - name: Compartilhar calendários com usuários convidados
+        - name: Compartilhar calendários com convidados
           href: manage/share-calendars-with-external-users.md
         - name: Criar uma equipe com convidados
           href: 'https://support.office.com/article/11fbb083-52ee-434d-8c6e-63711fdafac7'
