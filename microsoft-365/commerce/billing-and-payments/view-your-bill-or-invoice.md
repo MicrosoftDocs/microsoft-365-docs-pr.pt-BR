@@ -25,18 +25,19 @@ ms.custom:
 - BEA160
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 ms.assetid: 2ae3ea58-4fce-4592-91d6-46e9ae3ec218
 description: Localize a sua fatura ou demonstrativo de cobrança no Centro de administração do Microsoft 365. Você também pode salvar e imprimir uma cópia da fatura.
-ms.openlocfilehash: 7425c0b49ff65fa0d5c777e3c7fdb7af99488a9d
-ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
+ms.openlocfilehash: d034e59e80af6396867282f3e7c23179c332c251
+ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232776"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407939"
 ---
 # <a name="view-your-bill-or-invoice"></a>Exibir sua fatura
 
-Este artigo é destinado para pessoas que possuam uma assinatura do Microsoft 365 for Business. Você deve ser um administrador global ou administrador de cobrança para realizar as etapas descritas neste artigo.
+This article is for people who have a Microsoft 365 for business subscription. You must be a global admin or billing admin to do the steps described in this article.
   
 Se precisar de ajuda para interpretar as cobranças na sua fatura, consulte [Compreender sua conta ou fatura](understand-your-invoice2.md) para obter uma explicação detalhada.
   
@@ -89,6 +90,6 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 
 [Pagar por fatura, cartão de crédito ou débito em conta](pay-for-your-subscription.md)
   
-[Adicionar, atualizar ou remover um cartão de crédito](add-update-or-remove-credit-card-or-bank-account.md)
+[Gerenciar métodos de pagamento](manage-payment-methods.md)
 
 [Opções de pagamento do Minecraft: Education Edition](https://go.microsoft.com/fwlink/p/?linkid=838761)

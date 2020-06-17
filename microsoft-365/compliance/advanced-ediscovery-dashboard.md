@@ -15,15 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 65a0e6dc2857a51b10d1fa3b6674ccf24dbc4799
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Use o painel avançado de descoberta eletrônica para conjuntos de análise para analisar rapidamente seus corpus para identificar tendências ou estatísticas importantes que ajudarão você a desenvolver sua estratégia de análise.
+ms.openlocfilehash: 36f30689047eec7ff2c2c49c6b0d54f1a60470e4
+ms.sourcegitcommit: 956dd3f87adb4e6173517550a662c3bacc2d2d79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080058"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44741701"
 ---
-# <a name="advanced-ediscovery-dashboard-for-review-sets-preview"></a>Painel de descoberta eletrônica avançado para conjuntos de revisão (visualização)
+# <a name="advanced-ediscovery-dashboard-for-review-sets"></a>Painel de descoberta eletrônica avançado para conjuntos de análise
 
 Para alguns casos na descoberta eletrônica avançada, você pode ter um grande volume de documentos e mensagens de email que precisam ser revisados. Antes de iniciar o processo de revisão, talvez você queira analisar rapidamente seu corpus para identificar tendências ou estatísticas importantes que ajudarão você a desenvolver sua estratégia de análise. Para fazer isso, você pode usar o painel de descoberta eletrônica avançado para conjuntos de revisão para analisar rapidamente seus corpus.
 

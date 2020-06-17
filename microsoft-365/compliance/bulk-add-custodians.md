@@ -15,15 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
-description: ''
-ms.openlocfilehash: 9331e45619f549ea31adcfdd9316eea20e43efef
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+description: Use a ferramenta de adição em massa para adicionar rapidamente vários responsáveis e suas fontes de dados associadas a um caso na descoberta eletrônica avançada.
+ms.openlocfilehash: 921d4a1616d97f2adde7e40baa5c73f607c849b6
+ms.sourcegitcommit: 956dd3f87adb4e6173517550a662c3bacc2d2d79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432434"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44741636"
 ---
-# <a name="bulk-add-custodians-to-an-advanced-ediscovery-case-preview"></a>Adicionar os responsáveis em massa a um caso de descoberta eletrônica avançada (visualização)
+# <a name="bulk-add-custodians-to-an-advanced-ediscovery-case"></a>Adicionar os responsáveis em massa a um caso de descoberta eletrônica avançada
 
 Para casos de descoberta eletrônica avançada que envolvem muitos responsáveis, você pode importar vários responsáveis de uma só vez por um arquivo CSV que contém todas as informações necessárias para adicioná-los a um caso.
 

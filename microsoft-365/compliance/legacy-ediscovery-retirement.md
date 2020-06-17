@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: A descoberta eletrônica in-loco e o bloqueio in-loco (e os cmdlets do PowerShell correspondentes) no Exchange Online serão removidos no primeiro semestre de 2020. O cmdlet Search-Mailbox e o eDiscovery avançado v 1.0 também estão sendo desativados no mesmo período de tempo.
-ms.openlocfilehash: 547b58bebf4ade04bc9c1992ed7f0f518924341f
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 8b428b0d90442c937e08d4dc9ca23fb345553178
+ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351912"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761681"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Baixa das ferramentas de Descoberta Eletrônica herdadas
 
@@ -222,7 +222,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 </tr>
 <tr class="odd">
 <td>Copiar os resultados da pesquisa para uma caixa de correio de descoberta</td>
-<td>Nenhum</td>
+<td>Nenhuma</td>
 <td>Não há substituição direta para essa funcionalidade, pois ela não fornece acesso a todos os serviços do Microsoft 365. Consulte as seguintes perguntas frequentes abaixo para obter soluções alternativas.</td>
 </tr>
   <tr class=even>
@@ -289,14 +289,6 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 </td>
 </tr>
 <tr class="even">
-<td>Limpar mensagens de uma caixa de correio</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch?view=exchange-ps"><span class="underline">*-ComplianceSearch</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction?view=exchange-ps"><span class="underline">*-ComplianceSearchAction</span></a></p>
-<p></p></td>
-<td><p>Os cmdlets do ComplianceSearch e do ComplianceSearchAction funcionam juntos para ajudá-lo a Pesquisar e limpar o conteúdo. Você pode criar e executar uma pesquisa com os cmdlets <strong>New-ComplianceSearch</strong> e <strong>New-ComplianceSearch</strong> e, em seguida, pode limpar o conteúdo usando o comando <strong>New-ComplianceSearchAction-purga-PurgeType</strong> . Para obter mais informações, consulte <a href="https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization"><span class="underline">Search for and Delete messages</span></a>.</p>
-</td>
-</tr>
-<tr class="odd">
 <td>Excluir email em massa de uma caixa de correio</td>
 <td><p><a href="https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes?view=o365-worldwide"><span class="underline">Configurar uma política de arquivamento e exclusão para caixas de correio</span></a></p>
 <p></p></td>
@@ -307,6 +299,24 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <td>Copiar os resultados da pesquisa para uma caixa de correio de descoberta</td>
 <td> </td>
 <td>Não há substituição direta para essa funcionalidade, pois ela não fornece acesso a todos os serviços do Microsoft 365. Consulte as perguntas frequentes na seção <strong>cmdlets *-MailboxSearch</strong> para obter soluções alternativas. </td>
+</tr>
+<tr class=odd>
+  <td>Copiar mensagens de uma caixa de correio para uma caixa de correio diferente</td>
+  <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Atribuir permissões a uma caixa de correio</a></td>
+  <td>Para dar a uma pessoa acesso ao email de outro usuário (como quando um funcionário deixa sua organização e você precisa conceder acesso a outra pessoa para o email do usuário anterior), recomendamos que você atribua a essa pessoa permissões para acessar a caixa de correio do funcionário anterior. Portanto, em vez de copiar itens de caixa de correio para outra caixa de correio de usuário ou para uma caixa de correio compartilhada, basta atribuir uma permissão de usuário para acessar a caixa de correio</td>
+</tr>
+<tr class=even>
+  <td>Limpar mensagens de uma caixa de correio</td>
+<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch?view=exchange-ps"><span class="underline">*-ComplianceSearch</span></a></p>
+<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction?view=exchange-ps"><span class="underline">*-ComplianceSearchAction</span></a></p>
+<p></p></td>
+<td><p>Os cmdlets do ComplianceSearch e do ComplianceSearchAction funcionam juntos para ajudá-lo a Pesquisar e limpar o conteúdo. Você pode criar e executar uma pesquisa com os cmdlets <strong>New-ComplianceSearch</strong> e <strong>New-ComplianceSearch</strong> e, em seguida, pode limpar o conteúdo usando o comando <strong>New-ComplianceSearchAction-purga-PurgeType</strong> . Para obter mais informações, consulte <a href="https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization"><span class="underline">Search for and Delete messages</span></a>.</p>
+</td>
+</tr>
+<tr class="odd"> 
+<td>Limpar mensagens de uma caixa de correio</td>
+<td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Atribuir permissões a uma caixa de correio</a></td>
+<td>Para limpar mensagens de uma caixa de correio, atribua permissões de administrador para acessar a caixa de correio do funcionário. As mensagens podem ser excluídas e recicladas conforme necessário aproveitando as funcionalidades internas de pesquisa e visualização no Outlook.</td>
 </tr>
 </tbody>
 </table>
