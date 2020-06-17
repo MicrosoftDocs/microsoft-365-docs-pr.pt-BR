@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Instruções para criar, publicar e aplicar automaticamente rótulos de retenção para reter o que você precisa, excluir o que não é necessário e declarar um item como um registro no seu ambiente do Office 365.
-ms.openlocfilehash: a3ba321c9eae91bf701646a45271d3edcbc8dccc
-ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
+ms.openlocfilehash: 035038c90179354e0497813326b1fdad01693bec
+ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44545953"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761647"
 ---
 # <a name="create-publish-and-auto-apply-retention-labels"></a>Criar, publicar ou aplicar automaticamente rótulos de retenção
 
@@ -40,7 +40,7 @@ Os membros da sua equipe de conformidade que criarão rótulos de retenção pre
   
 Para saber mais, consulte [Dar aos usuários acesso ao &amp;Centro de Conformidade](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md) e Segurança do Office 365.
   
-Essas permissões só serão necessárias para criar e aplicar rótulos de retenção. A imposição da política não exige acesso ao conteúdo.
+These permissions are required only to create and apply retention labels and a label policy. Policy enforcement does not require access to the content.
 
 ## <a name="create-and-configure-retention-labels"></a>Criar e configurar rótulos de retenção
 
@@ -127,11 +127,11 @@ Ao criar rótulos de retenção de aplicação automática para informações co
   
 ![Modelos de política com tipos de informações confidenciais](../media/dafd87d4-c7bb-439a-ac7b-193c018f98a5.png)
   
-Depois de selecionar um modelo de política, você pode adicionar ou remover quaisquer tipos de informações confidenciais, e pode alterar a contagem de instâncias e a precisão de correspondência. No exemplo mostrado aqui, um rótulo de retenção será aplicado automaticamente apenas quando:
+After you select a policy template, you can add or remove any types of sensitive information, and you can change the instance count and match accuracy. In the example shown here, a retention label will be auto-applied only when:
   
-- O conteúdo tiver entre uma e nove instâncias de qualquer um destes três tipos de informações confidenciais. Você pode excluir o valor **max** para que mude para **any**.
+- The content contains between 1 and 9 instances of any of these three sensitive information types. You can delete the **max** value so that it changes to **any**.
     
-- O tipo de informação confidencial detectado tiver uma precisão de correspondência (ou nível de confiança) de pelo menos 75. Muitos tipos de informações confidenciais são definidos com vários padrões, em que um padrão de precisão de correspondência superior exige mais evidências para ser encontrado (como palavras-chave, datas ou endereços), enquanto um padrão de precisão de correspondência inferior exige menos evidências. Resumindo, quanto menor a precisão de correspondência **min**, mais fácil será para o conteúdo atender à condição. 
+- The type of sensitive information that's detected has a match accuracy (or confidence level) of at least 75. Many sensitive information types are defined with multiple patterns, where a pattern with a higher match accuracy requires more evidence to be found (such as keywords, dates, or addresses), while a pattern with a lower match accuracy requires less evidence. Simply put, the lower the **min** match accuracy, the easier it is for content to match the condition. 
     
 Para saber mais sobre essas opções, confira [Como ajustar as regras para facilitar ou dificultar a correspondência](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match).
     
@@ -139,13 +139,13 @@ Para saber mais sobre essas opções, confira [Como ajustar as regras para facil
   
 ### <a name="auto-apply-labels-to-content-with-keywords-or-searchable-properties"></a>Aplicar rótulos automaticamente a conteúdos com palavras-chave ou propriedades pesquisáveis
 
-Você pode aplicar automaticamente os rótulos ao conteúdo que atenda a certas condições. As condições disponíveis agora dão suporte à aplicação de um rótulo a conteúdos que incluem palavras ou frases específicas, ou valores de propriedades pesquisáveis. Você pode refinar a consulta usando os operadores de pesquisa AND, OR e NOT.
+You can auto-apply labels to content that satisfies certain conditions. The conditions now available support applying a label to content that contains specific words, phrases, or values of searchable properties. You can refine your query by using search operators like AND, OR, and NOT.
 
 Para saber mais sobre sintaxe de consulta, confira:
 
 - [Referência de sintaxe da Linguagem de Consulta de Palavra-chave (KQL)](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 
-Rótulos baseados em consultas usam o índice de pesquisa para identificar conteúdos. Para saber mais sobre propriedades pesquisáveis válidas, confira:
+Query-based labels use the search index to identify content. For more information on valid searchable properties, see:
 
 - [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md)
 - [Visão geral de propriedades rastreadas e gerenciadas no SharePoint Server](https://docs.microsoft.com/SharePoint/technical-reference/crawled-and-managed-properties-overview)
@@ -184,13 +184,15 @@ Quando você publica ou aplica rótulos de retenção automaticamente, eles não
     
 ### <a name="published-retention-labels"></a>Rótulos de retenção publicados
 
-Se você publicar rótulos de retenção no SharePoint ou no OneDrive, talvez demore um dia para que esses rótulos de retenção apareçam para os usuários finais. Além disso, se você publicar os rótulos de retenção no Exchange, talvez demore 7 dias para que eles apareçam para os usuários finais, e a caixa de correio deles deve conter pelo menos 10 MB de dados.
+If you publish retention labels to SharePoint or OneDrive, those labels  typically appear for end users to select within one day. However, allow up to seven days. If you publish retention labels to Exchange, it can take up to seven days for those retention labels to appear for end users, and the mailbox must contain at least 10 MB of data.
+
+Por exemplo:
   
 ![Diagrama de quando os rótulos manuais entram em vigor](../media/b19f3a10-f625-45bf-9a53-dd14df02ae7c.png)
   
 ### <a name="auto-apply-retention-labels"></a>Aplicação automática de rótulos de retenção
 
-Se você aplicar automaticamente rótulos de retenção a conteúdos que se encaixem em condições específicas, poderá levar sete dias para que os rótulos de retenção sejam aplicados a todo o conteúdo existente que se encaixe nas condições.
+Se você aplicar automaticamente rótulos de retenção a conteúdos com condições específicas, poderá levar sete dias para que os rótulos de retenção sejam aplicados a todo o conteúdo que se encaixe nas condições.
   
 ![Diagrama de quando a aplicação automática de rótulos entra em vigor](../media/b8c00657-477a-4ade-b914-e643ef97a10d.png)
   
@@ -211,29 +213,28 @@ No Exchange Online, os rótulos são disponibilizados para os usuários finais p
    ```
 
    ```powershell
-   $xmlprops.Properties.MailboxTable.Property | ? {$_.Name -like "ELC*"}
-   ```
+   $xmlprops.Properties.MailboxTable.Property | ? {$_.Name -like "ELC*"}   ```
 
-Nos resultados, a propriedade `ELCLastSuccessTimeStamp` (UTC) mostra quando o sistema processou sua caixa de correio pela última vez. Se isso não tiver acontecido desde a hora em que você criou a política, os rótulos não serão exibidos. Para forçar o processamento, execute o  `Start-ManagedFolderAssistant -Identity <user>`.
+In the results, the `ELCLastSuccessTimeStamp` (UTC) property shows when the system last processed your mailbox. If it has not happened since the time you created the policy, the labels are not going to appear. To force processing, run  `Start-ManagedFolderAssistant -Identity <user>`.
     
-Se os rótulos não estiverem aparecendo no Outlook na Web, e você achar que deveriam aparecer, limpe o cache do navegador (CTRL + F5).
+If labels aren't appearing in Outlook on the web and you think they should be, make sure to clear the cache in your browser (CTRL+F5).
     
 
-## <a name="updating-retention-labels-and-their-policies"></a>Atualizar rótulos de retenção e suas políticas
+## Updating retention labels and their policies
 
-Se você editar um rótulo de retenção, política de rótulo de retenção ou política de aplicação automática e o rótulo de retenção já estiver aplicado ao conteúdo, as configurações atualizadas serão aplicadas automaticamente a esse conteúdo, além do conteúdo recentemente rotulado.
+When you edit a retention label, retention label policy, or auto-apply policy, and the retention label or policy is already applied to content, your updated settings will automatically be applied to this content in addition to content that's newly identified.
 
-Algumas configurações não podem ser alteradas depois que o rótulo ou política é criado e salvo, que incluem:
-- As configurações de retenção, exceto o período de retenção, a menos que você tenha configurado o rótulo para reter ou excluir o conteúdo com base em quando ele foi criado.
-- A opção para classificar como um registro.
+Some settings can't be changed after the label or policy is created and saved, which include:
+- The retention settings except the retention period, unless you've configured the label to retain or delete the content based on when it was created.
+- The option to classify as a record.
 
-## <a name="find-the-powershell-cmdlets-for-retention-labels"></a>Localizar os cmdlets do Windows PowerShell para rótulos de retenção
+## Find the PowerShell cmdlets for retention labels
 
-Para usar os cmdlets de rótulos de retenção:
+To use the retention label cmdlets:
   
-1. [Conecte-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
+1. [Connect to the Office 365 Security & Compliance Center Powershell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
     
-2. Use esses cmdlets do Centro de Conformidade e Segurança do Office 365
+2. Use these Office 365 Security & Compliance Center cmdlets:
     
     - [Get-ComplianceTag](https://docs.microsoft.com/powershell/module/exchange/get-compliancetag)
     

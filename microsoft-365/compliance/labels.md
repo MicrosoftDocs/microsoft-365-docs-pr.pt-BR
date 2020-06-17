@@ -16,19 +16,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Saiba como os rótulos de retenção classificam os dados em toda organização para governança e impõem regras de retenção com base nessa classificação. Você também pode usar rótulos de retenção para implementar uma solução de gerenciamento de registros para Microsoft 365.
-ms.openlocfilehash: ab2e1baf553a386009d55e43efdf75b796cc1ffd
-ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
+description: Learn how retention labels classify data across your organization for governance, and enforce retention rules based on that classification. You can also use retention labels to implement a records management solution for Microsoft 365.
+ms.openlocfilehash: 90039930d94de238a784cc4f8cea6463ff4e49b3
+ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44545963"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761691"
 ---
 # <a name="learn-about-retention-labels"></a>Saiba mais sobre rótulos de retenção
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-Provavelmente, há em sua organização tipos de conteúdo diferentes que exigem ações diferentes para atender às normas do setor e às políticas internas. Por exemplo, você pode ter:
+Across your organization, you probably have different types of content that require different actions taken on them in order to comply with industry regulations and internal policies. For example, you might have:
   
 - Formulários fiscais que precisam ser **mantidos** por um período mínimo. 
     
@@ -38,11 +38,11 @@ Provavelmente, há em sua organização tipos de conteúdo diferentes que exigem
     
 - Vistos de trabalho que devem ser **marcados como um registro** para que não possam ser editados ou excluídos. 
     
-Em todos esses casos, os rótulos de retenção podem ajudar você a executar as ações certas no conteúdo certo. Com os rótulos de retenção, você pode classificar os dados em toda a organização para prover governança e impor regras de retenção com base nessa classificação.
+In all of these cases, retention labels can help you take the right actions on the right content. With retention labels, you can classify data across your organization for governance, and enforce retention rules based on that classification.
   
 Com os rótulos de retenção, você pode:
   
-- **Permitir que pessoas na sua organização apliquem um rótulo de retenção manualmente** ao conteúdo no Outlook na Web, Outlook 2010 e posterior, OneDrive, SharePoint e Grupos do Microsoft 365. Os usuários geralmente sabem melhor o tipo de conteúdo com o qual estão trabalhando; portanto, podem classificá-lo e aplicar a política apropriada. 
+- **Enable people in your organization to apply a retention label manually** to content in Outlook on the web, Outlook 2010 and later, OneDrive, SharePoint, and Microsoft 365 Groups. Users often know best what type of content they're working with, so they can classify it and have the appropriate policy applied. 
     
 - **Aplique automaticamente os rótulos de retenção ao conteúdo** que corresponder a condições específicas, por exemplo, quando o conteúdo apresenta: 
     
@@ -62,7 +62,9 @@ Com os rótulos de retenção, você pode:
 
 - **Aplique um rótulo de retenção padrão a uma biblioteca de documentos** no SharePoint, de modo que todos os documentos que são armazenados naquele local herdem o rótulo de retenção padrão.
 
-Além disso, os rótulos de retenção são compatíveis com o [gerenciamento de registros](records-management.md) de emails e documentos em todos os aplicativos e serviços da Microsoft 365. Você pode usar um rótulo de retenção para classificar o conteúdo como um registro. Quando isso acontece, o rótulo não pode ser alterado nem removido, e o conteúdo não pode ser editado nem excluído. 
+Além disso, os rótulos de retenção são compatíveis com o [gerenciamento de registros](records-management.md) de emails e documentos em todos os aplicativos e serviços da Microsoft 365. Você pode usar um rótulo de retenção para classificar o conteúdo como um registro. Quando isso acontece e o conteúdo permanece no Microsoft 365, o rótulo não pode ser alterado nem removido, e o conteúdo não pode ser editado nem excluído. 
+
+Os rótulos de retenção, diferentemente dos [rótulos de sensibilidade](sensitivity-labels.md), não persistirão se o conteúdo for transferido fora do Microsoft 365.
 
 Não há limite para o número de rótulos de retenção com suporte para um locatário. No entanto, 10.000 é o número máximo de políticas com suporte para um locatário, incluindo as políticas que aplicam os rótulos (políticas de rótulo de retenção e políticas de retenção automática), bem como políticas de retenção.
 
@@ -125,7 +127,7 @@ As pastas públicas do Exchange, o Skype e os chats e mensagens de canal do Team
 
 Os rótulos de retenção podem impor as mesmas ações de retenção que uma política de retenção: reter e excluir ou somente reter ou somente excluir. Você pode usar rótulos de retenção para implementar um plano de arquivo sofisticado que identifique arquivos específicos para diferentes configurações de retenção. Para saber mais sobre o funcionamento da retenção, confira [Saiba mais sobre políticas de retenção](retention-policies.md).
 
-Além disso, um rótulo de retenção tem duas opções de retenção, disponíveis apenas em um rótulo, e não em uma política de retenção. Com um rótulo de retenção, você pode:
+In addition, a retention label has two retention options that are available only in a retention label and not in a retention policy. With a retention label, you can:
   
 - Disparar uma revisão de disposição ao fim do período de retenção, para que os documentos do SharePoint e do OneDrive sejam examinados antes de serem excluídos. Para saber mais, confira [Revisões de disposição](disposition.md#disposition-reviews).
     
@@ -178,7 +180,7 @@ Para rotular um item no Outlook na Web, clique com o botão direito no item \> *
   
 ![Atribuir um menu de política no Outlook na Web](../media/146a23cf-e478-4595-b2e8-f707fc4e6ea3.png)
   
-Após a aplicação do rótulo de retenção, você poderá exibir esse rótulo e a ação necessária na parte superior do item. Se um email for classificado e tiver um período de retenção associado, você poderá saber rapidamente quando o email expirará.
+After the retention label is applied, you can view that retention label and what action it takes at the top of the item. If an email is classified and has an associated retention period, you can know at a glance when the email will expire.
   
 ![Rótulo atribuído ao email no Outlook na Web](../media/16f6c91b-5eab-4574-9d13-6d12be00a783.png)
   
@@ -285,30 +287,30 @@ Você pode usar os rótulos de retenção para declarar o conteúdo como um regi
   
 ## <a name="using-a-retention-label-as-a-condition-in-a-dlp-policy"></a>Usar um rótulo de retenção como condição em uma política DLP
 
-Um rótulo de retenção pode impor ações de retenção ao conteúdo. Além disso, você pode usar um rótulo de retenção como uma condição em uma política DLP (prevenção contra perda de dados). Isso significa que uma política DLP pode impor ações de proteção, como restringir o acesso, no conteúdo que inclui um rótulo específico. 
+A retention label can enforce retention actions on content. In addition, you can use a retention label as a condition in a data loss prevention (DLP) policy, and the DLP policy can enforce other actions, such as restricting access, on content that contains a specific label. 
   
 Para saber mais, confira [Usar um rótulo de retenção como condição em uma política DLP](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy).
   
 
 ## <a name="the-principles-of-retention-or-what-takes-precedence"></a>Os princípios de retenção ou o que tem precedência?
 
-É possível ou até mesmo provável que o conteúdo tenha várias políticas de retenção aplicadas a ele, cada uma com uma ação diferente (manter, excluir ou ambas) e o período de retenção. O que tem precedência? No nível mais alto, esteja certo de que o conteúdo retido por uma política não pode ser excluído permanentemente por outra política.
+It's possible or even likely that content might have several retention policies applied to it, each with a different action (retain, delete, or both) and retention period. What takes precedence? At the highest level, rest assured that content being retained by one policy can't be permanently deleted by another policy.
   
 ![Diagrama dos princípios de retenção](../media/1693d6ec-b340-4805-9da3-89aa41bc6afb.png)
   
 Para entender como os rótulos diferentes são aplicados ao conteúdo, lembre-se destes princípios de retenção:
   
-1. **A retenção prevalece sobre a exclusão.** Suponha que uma política de retenção diga para excluir o email do Exchange após três anos, mas outra diga para manter o email do Exchange por cinco anos e depois excluí-lo. Qualquer conteúdo que tiver três anos será excluído e ocultado dos usuários, mas ainda será mantido na pasta Itens Recuperáveis até que o conteúdo atinja cinco anos, quando ele será permanentemente excluído. 
+1. **Retention wins over deletion.** Suppose that one retention policy says to delete Exchange email after three years, but another retention policy says to retain Exchange email for five years and then delete it. Any content that reaches three years old will be deleted and hidden from the users' view, but still retained in the Recoverable Items folder until the content reaches five years old, when it will be permanently deleted. 
     
-2. **O período de retenção mais longo prevalece.** Se o conteúdo estiver sujeito a várias políticas que retêm o conteúdo, ele será mantido até o final do período de retenção mais longo. 
+2. **The longest retention period wins.** If content's subject to multiple policies that retain content, it will be retained until the end of the longest retention period. 
     
-3. **A inclusão explícita prevalece sobre a inclusão implícita.** Isso significa que: 
+3. **Explicit inclusion wins over implicit inclusion.** This means: 
     
     1. Se um rótulo de retenção com configurações de retenção for atribuído manualmente por um usuário a um item, como um email do Exchange ou documento do OneDrive, esse rótulo de retenção terá precedência sobre uma política atribuída no nível do site ou da caixa de correio e um rótulo de retenção padrão atribuído pelo biblioteca de documentos. Por exemplo, se o rótulo de retenção explícito diz manter por 10 anos, mas a política de retenção atribuída ao site diz reter por apenas cinco anos, o rótulo de retenção tem precedência. Os rótulos de retenção de aplicação automática são considerados implícitos, não explícitos, pois são aplicados automaticamente pelo Microsoft 365.
     
     2. Se uma política de retenção incluir um local específico, como a caixa de correio de um usuário específico ou conta OneDrive, essa política terá precedência sobre outra política de retenção que se aplica a caixas de correio de todos os usuários ou contas do OneDrive, mas não incluirá especificamente essa caixa de correio do usuário.
     
-4. **O período de exclusão mais curto tem precedência.** Da mesma forma, se o conteúdo estiver sujeito a várias políticas que excluem o conteúdo (sem retenção), ele será excluído ao fim do período de retenção mais curto. 
+4. **The shortest deletion period wins.** Similarly, if content's subject to multiple policies that delete content (with no retention), it will be deleted at the end of the shortest retention period. 
     
 Entenda que os princípios de retenção funcionam como um fluxo de desempate de cima para baixo: se as regras aplicadas por todas as políticas ou rótulos forem as mesmas em um nível, o fluxo se moverá para baixo até o próximo nível para determinar a precedência para a qual a regra será aplicada.
   
