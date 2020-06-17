@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: db937347dd397628e0cfaae67b8c923f9433ca13
-ms.sourcegitcommit: e9cb10d0d617742a5040d7c09d1d36fd1ee25e5d
+ms.openlocfilehash: 2fbb54cadaa1681ace4e04dade4fd5a0784360eb
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44649390"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739055"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -42,7 +42,7 @@ Quando estiver pronto para começar a proteger os dados da sua organização usa
 
 2. **Defina o que cada rótulo pode fazer.** Defina as configurações de proteção desejadas associadas a cada rótulo. Por exemplo, convém que o conteúdo de menor sensibilidade (como um rótulo "Geral") aplique apenas um cabeçalho ou rodapé, enquanto o conteúdo de maior sensibilidade (como um rótulo "Confidencial") deve ter marca d'água e criptografia.
 
-3. **Publique os rótulos.** Quando os rótulos de confidencialidade estiverem configurados, publique-os usando uma política de rótulo. Decida quais usuários e grupos devem ter os rótulos e quais configurações de política utilizar. Um único rótulo pode ser reutilizado; você o define uma vez e, em seguida, você pode incluí-lo em várias políticas de rótulo atribuídas a diferentes usuários. Por exemplo, você pode fazer o piloto dos rótulos de confidencialidade atribuindo uma política de rótulo a apenas alguns usuários. Em seguida, quando você estiver pronto para implantar os rótulos em toda a organização, poderá criar uma nova política de rótulos para seus rótulos e, desta vez, especificar todos os usuários.
+3. **Publique os rótulos.** Quando os rótulos de confidencialidade estiverem configurados, publique-os usando uma política de rótulo. Decida quais usuários e grupos devem ter os rótulos e quais configurações de política utilizar. Um único rótulo pode ser reutilizado. Você o define uma vez e pode incluí-lo em várias políticas de rótulos atribuídas a diferentes usuários. Por exemplo, você pode fazer o piloto dos rótulos de confidencialidade atribuindo uma política de rótulo a apenas alguns usuários. Em seguida, quando você estiver pronto para implantar os rótulos em toda a organização, poderá criar uma nova política de rótulos para seus rótulos e, desta vez, especificar todos os usuários.
 
 O fluxo básico para a implantação e a aplicação de rótulos de sensibilidade:
 
@@ -64,17 +64,24 @@ Como alternativa, você pode criar um novo grupo de funções e adicionar as fun
 
 Essas permissões são necessárias somente para criar e configurar os rótulos de confidencialidade e suas políticas de rótulos. Eles não são necessários para aplicar os rótulos em aplicativos ou serviços. Se forem necessárias permissões adicionais para as configurações específicas relacionadas aos rótulos de sensibilidade, essas permissões serão listadas nas suas respectivas instruções de documentação.
 
+## <a name="deployment-strategy-for-sensitivity-labels"></a>Estratégia de implementação para rótulos de sensibilidade
+
+Uma estratégia bem-sucedida para implantar rótulos de sensibilidade para uma organização é criar uma equipe de trabalho virtual que identifique e gerencie os requisitos técnicos e de negócios, os testes de verificação, os pontos de verificação internos e as aprovações, além da implantação final para o ambiente de produção.
+
+Usando a tabela na próxima seção, recomendamos identificar um ou dois cenários mais importantes que mostram as suas exigências de negócios mais impactantes. Após a implantação desses cenários, volte para a lista para identificar as próximas prioridades para implantação.
+
+Você pode encontrar mais diretrizes de implantação geral na guia de aceleração de implantação e proteção de informações da Microsoft 365 disponível para download. Para obter mais informações, confira a postagem do blog, [guia de aceleração de implantação e proteção de informações da Microsoft](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-information-protection-and-compliance-deployment/ba-p/1403493).
+
 ## <a name="common-scenarios-for-sensitivity-labels"></a>Cenários comuns para rótulos de confidencialidade
 
-Use a seguinte documentação para oferecer suporte à implantação de rótulo de confidencialidade:
+Todos os cenários requerem que você[crie e configure rótulos de confidencialidade e suas políticas](create-sensitivity-labels.md).
 
 |Eu quero...|Documentação|
 |----------------|---------------|
-|Criar e publicar rótulos de confidencialidade que ajudarão a proteger os dados da minha organização|[Criar e configurar rótulos de confidencialidade e suas políticas](create-sensitivity-labels.md)|
+|Gerenciar rótulos de confidencialidade para aplicativos do Office para que o conteúdo seja rotulado como foi criado |[Usar rótulos de confidencialidade em aplicativos do Office](sensitivity-labels-office-apps.md)|
 |Permitir que os usuários rotulem e protejam arquivos de computadores com Windows usando aplicativos do Office, Explorador de Arquivos e PowerShell|[Cliente de rotulagem unificada da Proteção de Informações do Azure para Windows](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)|
 |Criptografar documentos e emails com rótulos de confidencialidade e restringir quem pode acessá-los e como podem usar esse conteúdo |[Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia](encryption-sensitivity-labels.md)|
-|Habilite os rótulos de sensibilidade do Office na web, com suporte para coautoria, descoberta eletrônica, prevenção contra perda de dados, até mesmo quando os documentos são criptografados. | [Habilitar rótulos de confidencialidade para arquivos do Office no Microsoft Office SharePoint Online e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
-|Gerenciar rótulos de confidencialidade para aplicativos do Office para que o conteúdo seja rotulado como foi criado |[Usar rótulos de confidencialidade em aplicativos do Office](sensitivity-labels-office-apps.md)|
+|Habilite os rótulos de sensibilidade do Office na web, com suporte para coautoria, descoberta eletrônica, prevenção contra perda de dados—até mesmo quando os documentos são criptografados | [Habilitar rótulos de confidencialidade para arquivos do Office no Microsoft Office SharePoint Online e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
 |Aplicar rótulos de confidencialidade automaticamente a documentos e emails | [Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)|
 |Usar os rótulos de confidencialidade para proteger o conteúdo do Teams e do SharePoint |[Use rótulos de confidencialidade no Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md)|
 |Descobrir, rotular e proteger arquivos armazenados no repositório de dados locais |[Implantação do scanner da Proteção de Informações do Azure para classificar e proteger arquivos automaticamente](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
