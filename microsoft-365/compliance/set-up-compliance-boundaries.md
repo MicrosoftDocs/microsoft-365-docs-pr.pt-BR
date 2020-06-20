@@ -17,13 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
-description: Use limites de conformidade para criar limites lógicos dentro de uma organização que controla os locais de conteúdo do usuário que um gerente de descoberta eletrônica pode pesquisar. Os limites de conformidade usam filtragem de permissões de pesquisa (também chamados de filtros de segurança de conformidade) para controlar quais caixas de correio, sites do SharePoint e contas do OneDrive podem ser pesquisadas por usuários específicos.
-ms.openlocfilehash: da03f60be55b0ac6438adcc1648231e5b9798e56
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+description: Saiba como usar limites de conformidade para criar limites lógicos que controlam os locais de conteúdo do usuário que um gerente de descoberta eletrônica pode pesquisar no Microsoft 365.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5d0c1741d46882c3ad623aa1d0529939ede3687f
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262564"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819201"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Configurar limites de conformidade para investigações de descoberta eletrônica
 
@@ -264,11 +265,11 @@ O Gerenciador de descoberta eletrônica pode adicionar parâmetros à consulta d
   
  **O que acontece se o valor do atributo usado como atributo de conformidade em um filtro de permissões de pesquisa for alterado?**
   
-É necessário até três dias para um filtro de permissões de pesquisa para impor o limite de conformidade se o valor do atributo usado no filtro for alterado. Por exemplo, no cenário da Contoso, vamos supor que um usuário na quarta agência de café seja transferido para a Agência Coho Winery. Como resultado, o valor do atributo **Department** no objeto user é alterado de *fourthcoffee* para *CohoWinery*. Nessa situação, a quarta-Discovery e os investidores de café receberão os resultados de pesquisa desse usuário por até três dias após o atributo ser alterado. Da mesma forma, os gerentes e investigadores de descoberta eletrônica Coho recebem resultados de pesquisa para o usuário. 
+É necessário até três dias para um filtro de permissões de pesquisa para impor o limite de conformidade se o valor do atributo usado no filtro for alterado. Por exemplo, no cenário da Contoso, vamos supor que um usuário na quarta agência de café seja transferido para a Agência Coho Winery. Como resultado, o valor do atributo **Department** no objeto user é alterado de *fourthcoffee* para *CohoWinery*. Nessa situação, a quarta-Discovery e os investidores de café receberão os resultados de pesquisa desse usuário por até três dias após o atributo ser alterado. Da mesma forma, os gerentes e investigadores de descoberta eletrônica Coho recebem resultados de pesquisa para o usuário.
   
  **Um gerente de descoberta eletrônica pode ver o conteúdo de dois limites de conformidade separados?**
   
-Sim. Isso pode ser feito adicionando o usuário aos grupos de função que têm visibilidade para ambas as agências.
+Sim, isso pode ser feito ao pesquisar caixas de correio do Exchange adicionando o Gerenciador de descoberta eletrônica aos grupos de função que têm visibilidade para ambas as agências. No entanto, ao pesquisar sites do SharePoint e contas do OneDrive, um gerente de descoberta eletrônica pode pesquisar conteúdo em diferentes limites de conformidade somente se as agências estiverem na mesma região ou localização geográfica. **Observação:** Essa limitação para sites não se aplica à descoberta eletrônica avançada porque a pesquisa de conteúdo no SharePoint e no OneDrive não é associada a localização geográfica.
   
  **Os filtros de permissões de pesquisa funcionam para isenções de caso de descoberta eletrônica, políticas de retenção do Microsoft 365 ou DLP?**
   
