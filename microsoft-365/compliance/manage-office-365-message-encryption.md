@@ -16,13 +16,15 @@ ms.assetid: 09f6737e-f03f-4bc8-8281-e46d24ee2a74
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-description: Após concluir a configuração do Office 365 Message Encryption (OME), você pode personalizar a configuração de sua implantação de várias maneiras. Por exemplo, você pode configurar se deseja habilitar códigos de passagem única, exibir o botão proteger no Outlook na Web e muito mais. As tarefas deste artigo descrevem como.
-ms.openlocfilehash: 25cb5cebda48432afdc670a6dab0a5229167df15
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.custom:
+- seo-marvel-apr2020
+description: Após concluir a configuração do Office 365 Message Encryption (OME), saiba como personalizar sua implantação de várias maneiras.
+ms.openlocfilehash: 83fa620852ea9b2e0cd50d50b6715742658b7239
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165972"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815428"
 ---
 # <a name="manage-office-365-message-encryption"></a>Gerenciar a Criptografia de Mensagens do Office 365
 
@@ -191,9 +193,9 @@ Você pode usar modelos de identidade visual personalizados para forçar os dest
 
    - `mail flow rule name`é o nome que você deseja usar para a nova regra de fluxo de emails.
 
-   - `option name`é `Encrypt` ou `Do Not Forward`.
+   - `option name`é `Encrypt` ou `Do Not Forward` .
 
-   - `template name`é o nome que você deu ao modelo de identidade visual personalizado, `OME Configuration`por exemplo.
+   - `template name`é o nome que você deu ao modelo de identidade visual personalizado, por exemplo `OME Configuration` .
 
    Para criptografar todos os emails externos com o modelo "configuração do OME" e aplicar a opção somente criptografia:
 

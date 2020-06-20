@@ -12,19 +12,19 @@ ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
 localization_priority: Normal
-search.appverid:
-- MET150
-description: Essa recomendação orientada por informações ajuda sua organização a manter o conteúdo confidencial seguro quando ele é armazenado e compartilhado no Microsoft 365, informando quando há uma lacuna possível na cobertura da política de DLP. Você verá essa recomendação na home page do centro de conformidade de &amp; segurança, se seus documentos contiverem qualquer um dos cinco tipos de informações confidenciais mais comuns, mas não estiverem protegidos por uma política de DLP.
-ms.openlocfilehash: 504a85b07f348c45c9925cc2e6ee24b1d8a48656
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como criar e editar a política de prevenção de perda de dados (DLP) recomendada para sua organização.
+ms.openlocfilehash: 9588eabe5dbe2b1e60eaeb6a45eb95cc327383aa
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943370"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817630"
 ---
 # <a name="get-started-with-dlp-policy-recommendations"></a>Introdução às recomendações de política DLP
 
-Essa recomendação orientada por informações ajuda sua organização a manter o conteúdo confidencial seguro quando ele é armazenado e compartilhado no Microsoft 365, informando quando há uma lacuna possível na cobertura da política de DLP. Você verá essa recomendação na **Home** Page do centro de conformidade de &amp; segurança, se seus documentos contiverem qualquer um dos cinco tipos de informações confidenciais mais comuns, mas não estiverem protegidos por uma política de prevenção de perda de dados (DLP). 
+Essa recomendação orientada por informações ajuda sua organização a manter o conteúdo confidencial seguro quando ele é armazenado e compartilhado no Microsoft 365, informando quando há uma lacuna possível na cobertura da política de DLP. Você verá essa recomendação na **Home** Page do centro de conformidade de segurança &amp; , se seus documentos contiverem qualquer um dos cinco tipos de informações confidenciais mais comuns, mas não estiverem protegidos por uma política de prevenção de perda de dados (DLP). 
   
 Você pode usar esse widget para criar rapidamente uma política de DLP personalizada com apenas um clique ou dois, e depois de criar essa política de DLP, ela é totalmente personalizável. Observe que, se você não vir a recomendação primeiro, tente clicar **+ mais** na parte inferior da seção **recomendada para você** . 
   
@@ -38,7 +38,7 @@ Para ajudar a proteger as informações confidenciais, esta política de DLP:
   
 - Detecta quando o conteúdo no Exchange, SharePoint e OneDrive que contém um dos tipos desprotegidos de informações confidenciais é compartilhado com pessoas de fora da organização.
     
-- Gera relatórios de atividade detalhados para que você possa rastrear coisas como quem compartilhou o conteúdo com pessoas de fora da sua organização e quando eles faziam. Você pode usar os [relatórios de DLP](view-the-dlp-reports.md) e [dados de log de auditoria](search-the-audit-log-in-security-and-compliance.md) (onde a **atividade** = **DLP**) para ver essas informações.
+- Gera relatórios de atividade detalhados para que você possa rastrear coisas como quem compartilhou o conteúdo com pessoas de fora da sua organização e quando eles faziam. Você pode usar os [relatórios de DLP](view-the-dlp-reports.md) e [dados de log de auditoria](search-the-audit-log-in-security-and-compliance.md) (onde a **atividade**  =  **DLP**) para ver essas informações.
     
 Você também pode optar por ter a política de DLP:
   
@@ -62,7 +62,7 @@ Por padrão, a política é chamada de **política recomendada pelo sistema para
   
 ## <a name="when-the-widget-does-and-does-not-appear"></a>Quando o widget não aparece
 
-O widget chamado **informações confidenciais desprotegidas** aparece na seção **recomendada para você** da **Home** Page do centro de conformidade de &amp; segurança. 
+O widget chamado **informações confidenciais desprotegidas** aparece na seção **recomendada para você** da **Home** Page do centro de conformidade de segurança &amp; . 
   
 Este widget aparece somente quando:
   

@@ -18,19 +18,21 @@ search.appverid:
 ms.assetid: 63a0b501-ba59-44b7-a35c-999f3be057b2
 ms.collection:
 - M365-security-compliance
-description: Uma política de gerenciamento de informações é um conjunto de regras aplicáveis a um tipo de conteúdo. As políticas de gerenciamento de informações permitem que as organizações controlem e rastreiem o tempo em que um documento é retido ou quais ações os usuários podem realizar com esse conteúdo, dentre outras coisas. Essas políticas podem ajudar as organizações a cumprir regulamentações legais ou governamentais, ou podem simplesmente impor processos comerciais internos.
-ms.openlocfilehash: 7f977090b147eca427fcd2e4b536821890493950
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como usar as políticas de gerenciamento de informações para controlar e controlar coisas como o tempo de retenção do conteúdo ou as ações que os usuários podem realizar com esse conteúdo.
+ms.openlocfilehash: dfb1aeb3dbd3a2b17f18bbd03d5f4d3e198e4c47
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072663"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815508"
 ---
 # <a name="introduction-to-information-management-policies"></a>Introdução às políticas de gerenciamento de informações
 
 Uma política de gerenciamento de informações é um conjunto de regras aplicáveis a um tipo de conteúdo. As políticas de gerenciamento de informações permitem que as organizações controlem e rastreiem o tempo em que um documento é retido ou quais ações os usuários podem realizar com esse conteúdo, dentre outras coisas. Essas políticas podem ajudar as organizações a cumprir regulamentações legais ou governamentais, ou podem simplesmente impor processos comerciais internos. 
   
-Por exemplo, uma organização que deve seguir normas governamentais que exijam que eles demonstrem "controles adequados" de seus demonstrativos financeiros podem criar uma ou mais políticas de gerenciamento de informações que auditam ações específicas na criação e processo de aprovação para todos os documentos relacionados a arquivamentos financeiros.
+Por exemplo, uma organização que deve seguir normas governamentais que exijam que eles demonstrem "controles adequados" de seus demonstrativos financeiros podem criar uma ou mais políticas de gerenciamento de informações que auditam ações específicas no processo de criação e aprovação para todos os documentos relacionados a arquivamentos financeiros.
   
 Para obter informações sobre como fazer, confira [criar e aplicar políticas de gerenciamento de informações](create-info-mgmt-policies.md).
   
@@ -76,6 +78,6 @@ Você pode criar uma política de gerenciamento de informações para uma lista 
   
 Para controlar quais políticas são usadas em um conjunto de sites, os administradores de conjunto de sites podem desabilitar a capacidade de definir recursos de política diretamente em uma lista ou biblioteca. Quando essa restrição estiver em vigor, os usuários que gerenciam listas ou bibliotecas são limitados a selecionar políticas na lista de políticas de conjunto de sites.
   
-[Uma política de gerenciamento de informações é um conjunto de regras para um tipo de conteúdo. As políticas de gerenciamento de informações permitem que as organizações controlem e controlem coisas como o tempo de retenção de conteúdo ou as ações que os usuários podem realizar com esse conteúdo. As políticas de gerenciamento de informações podem ajudar as organizações a cumprir normas legais ou governamentais, ou podem simplesmente impor processos comerciais internos. Por exemplo, uma organização que deve seguir normas governamentais que exijam que eles demonstrem "controles adequados" de seus demonstrativos financeiros podem criar uma ou mais políticas de gerenciamento de informações que auditam ações específicas na criação e processo de aprovação para todos os documentos relacionados a arquivamentos financeiros. Para obter informações sobre como fazer, confira criar e aplicar políticas de gerenciamento de informações.](intro-to-info-mgmt-policies.md#__top)
+[Uma política de gerenciamento de informações é um conjunto de regras para um tipo de conteúdo. As políticas de gerenciamento de informações permitem que as organizações controlem e controlem coisas como o tempo de retenção de conteúdo ou as ações que os usuários podem realizar com esse conteúdo. As políticas de gerenciamento de informações podem ajudar as organizações a cumprir normas legais ou governamentais, ou podem simplesmente impor processos comerciais internos. Por exemplo, uma organização que deve seguir normas governamentais que exijam que eles demonstrem "controles adequados" de seus demonstrativos financeiros podem criar uma ou mais políticas de gerenciamento de informações que auditam ações específicas no processo de criação e aprovação para todos os documentos relacionados a arquivamentos financeiros. Para obter informações sobre como fazer, confira criar e aplicar políticas de gerenciamento de informações.](intro-to-info-mgmt-policies.md#__top)
   
 

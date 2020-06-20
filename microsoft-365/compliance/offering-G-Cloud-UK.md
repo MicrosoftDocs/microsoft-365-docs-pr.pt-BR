@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5a8d0b95a0abb93eef352a442ff6c8203eda6e0e
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: 814b04583724b9ab8e6bcb570d51d24467755064
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254174"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773762"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>Governo do Reino Unido-nuvem (G-Cloud)
 
@@ -37,19 +37,17 @@ Todos os anos, a Microsoft prepara a documentação e envia evidências para ate
 
 O compromisso dos serviços da Microsoft para o mercado digital significa que agências e parceiros governamentais do Reino Unido podem usar os serviços no escopo para armazenar e processar dados governamentais oficiais do Reino Unido, a maioria dos dados do governo. Além disso, há agora mais de 450 parceiros da Microsoft incluídos na nuvem G que são revendedores dos serviços de nuvem da Microsoft. Eles podem declarar diretamente a conformidade de serviços no escopo com os 14 princípios em seus próprios aplicativos. Os clientes e parceiros, no entanto, precisarão alcançar sua própria conformidade para qualquer componente que não esteja incluído no atestado e determinação de conformidade para os serviços de nuvem da Microsoft.
 
-Saiba mais sobre os benefícios do Reino Unido G-Cloud V6 na nuvem da Microsoft: [baixar o documento de plano de fundo do Reino Unido G-Cloud V6](https://aka.ms/uk-g-cloud_backgrounder)
-
 Saiba como acelerar sua implantação do Reino Unido G-Cloud V6 com nosso plano de conformidade e segurança do Azure: [baixar as diretrizes de implementação de princípio de nuvem do Microsoft Azure Blueprint do Reino Unido](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=c3804aba-03a7-4d21-88ad-d9bbe5314a00&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_UK_G-Cloud_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços em nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Azure](https://aka.ms/AzureCompliance)
-- Microsoft Cloud App Security
+- Segurança no aplicativo na nuvem da Microsoft
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Automatização de energia (anteriormente Microsoft Flow) o serviço de nuvem como um serviço autônomo ou como incluído em um plano ou pacote de marca do Office 365 ou Dynamics 365
+- Serviço de nuvem do Power Automate (anteriormente Microsoft Flow) como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou Dynamics 365
 - Office 365: Exchange Online, SharePoint Online e Skype for Business Online
-- Serviço em nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
+- Serviço de nuvem do PowerApps como um serviço autônomo ou incluído em um plano ou pacote do Office 365 ou do Dynamics 365
 - Serviço em nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
 
 ## <a name="audits-reports-and-certificates"></a>Auditorias, relatórios e certificados
@@ -105,7 +103,7 @@ Além dos datacenters UK, os serviços de nuvem da Microsoft têm data centers e
 
 **Como posso obter cópias dos relatórios do auditor?**
 
-O [Portal de Confiança de Serviços](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal) fornece relatórios de conformidade auditados de forma independente. Você pode usar o portal para solicitar relatórios de auditoria para que seus auditores possam comparar os resultados da Microsoft com seus próprios requisitos legais e normativos.
+O [Portal de Confiança do Serviço](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal) fornece relatórios de conformidade auditados de forma independente. Você pode usar o portal para solicitar relatórios de auditoria para que seus auditores possam comparar os resultados da Microsoft com seus próprios requisitos legais e normativos.
 
 ## <a name="resources"></a>Recursos
 

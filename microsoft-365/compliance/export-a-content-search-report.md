@@ -21,12 +21,13 @@ search.appverid:
 - MET150
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: Em vez de exportar os resultados reais de uma pesquisa de conteúdo no centro de conformidade & segurança no Office 365, você pode exportar um relatório de resultados de pesquisa. O relatório contém um resumo dos resultados da pesquisa e um documento com informações detalhadas sobre cada item que seria exportado.
-ms.openlocfilehash: 63acc8701973519f959ced9822333e893e6fd863
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 25525a0670f31a7e962fb72f6d1559381e8b33cd
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43615925"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817770"
 ---
 # <a name="export-a-content-search-report"></a>Exportar um relatório de Pesquisa de Conteúdo
 
@@ -34,11 +35,11 @@ Em vez de exportar o conjunto completo de resultados de pesquisa de uma pesquisa
   
 Quando você exporta um relatório, ele é baixado para uma pasta que tem o mesmo nome da pesquisa de conteúdo, mas que é acrescentado com *_ReportsOnly*. Por exemplo, se a pesquisa de conteúdo for chamada de *ContosoCase0815*, o relatório será baixado para uma pasta chamada *ContosoCase0815_ReportsOnly*. Para obter uma lista de documentos incluídos no relatório, confira o [que está incluído no relatório](#whats-included-in-the-report).
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="assign-roles-and-check-system-requirements"></a>Atribuir funções e verificar requisitos do sistema
 
-- Para exportar um relatório de pesquisa de conteúdo, você precisa ter a função de gerenciamento de pesquisa de conformidade no centro de conformidade de segurança &. Essa função é atribuída ao Gerenciador de descoberta eletrônica interno e aos grupos de função de gerenciamento da organização. Ela não é atribuída por padrão ao grupo de funções Gerenciamento da Organização. Para obter mais informações, confira [Atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
-    
-- Quando você exporta um relatório, os dados são temporariamente armazenados em uma área de armazenamento exclusiva do Azure na nuvem da Microsoft antes de ele ser baixado para o computador local. Certifique-se de que sua organização possa se conectar ao ponto de extremidade no Azure, que é ** \*. blob.Core.Windows.net** (o caractere curinga representa um identificador exclusivo para sua exportação). Os dados dos resultados da pesquisa são excluídos da área de armazenamento do Azure duas semanas após sua criação. 
+- Para exportar um relatório de pesquisa de conteúdo, você precisa ter a função de gerenciamento de pesquisa de conformidade no centro de conformidade de segurança &. Essa função é atribuída por padrão ao Gerenciador de descoberta eletrônica interno e aos grupos de função de gerenciamento da organização. Para obter mais informações, confira [Atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
+
+- Quando você exporta um relatório, os dados são temporariamente armazenados em uma área de armazenamento exclusiva do Azure na nuvem da Microsoft antes de ele ser baixado para o computador local. Certifique-se de que sua organização possa se conectar ao ponto de extremidade no Azure, que é ** \* . blob.Core.Windows.net** (o caractere curinga representa um identificador exclusivo para sua exportação). Os dados dos resultados da pesquisa são excluídos da área de armazenamento do Azure duas semanas após sua criação. 
     
 - O computador que você usa para exportar os resultados da pesquisa devem atender aos seguintes requisitos de sistema:
     
@@ -72,7 +73,7 @@ A primeira etapa é preparar o relatório para download para a exportação do s
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Entre usando sua conta corporativa ou de estudante.
+2. Entre usando sua conta de trabalho ou da escola.
     
 3. No painel esquerdo do centro de conformidade & segurança, clique em **Search** \> **pesquisa de conteúdo**de pesquisa.
     
@@ -100,7 +101,7 @@ A primeira etapa é preparar o relatório para download para a exportação do s
     O relatório de resultados de pesquisa está preparado para download, o que significa que os documentos de relatório serão carregados para a área de armazenamento do Azure na nuvem da Microsoft. Quando o relatório estiver pronto para download, o link de **relatório de download** será exibido em **Exportar relatório para um computador** no painel de detalhes. 
     
 > [!NOTE]
-> Você também pode exportar um relatório para uma pesquisa de conteúdo associada a uma ocorrência de descoberta eletrônica. Para fazer isso, **vá para** \> **descoberta eletrônica**eletrônica, selecione um caso e clique em **Editar** ![ícone](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)de edição. Na página **pesquisas** , selecione uma pesquisa e clique em **Exportar** ![o ícone](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) \> resultados da pesquisa exportar **um relatório**. 
+> Você também pode exportar um relatório para uma pesquisa de conteúdo associada a uma ocorrência de descoberta eletrônica. Para fazer isso, **vá para** \> **descoberta eletrônica**eletrônica, selecione um caso e clique em **Editar** ![ ícone de edição ](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) . Na página **pesquisas** , selecione uma pesquisa e clique em **Exportar** ![ o ícone resultados da pesquisa exportar ](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) \> **um relatório**. 
   
 ## <a name="step-2-download-the-report"></a>Etapa 2: baixar o relatório
 
@@ -138,7 +139,7 @@ A próxima etapa é baixar o relatório da área de armazenamento do Azure para 
     A **Ferramenta de Exportação de Descoberta Eletrônica** exibe informações de status sobre o processo de exportação, incluindo uma estimativa do número (e tamanho) dos itens restantes a serem baixados. Quando o processo de exportação estiver concluído, você poderá acessar os arquivos no local onde foram baixados. 
     
 > [!NOTE]
-> Você pode baixar o relatório para uma pesquisa de conteúdo associada a uma ocorrência de descoberta eletrônica. Para fazer isso, **vá para** \> **descoberta eletrônica**eletrônica, selecione um caso e clique em **Editar** ![ícone](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)de edição. Na página **Exportar** , selecione uma exportação de relatório e clique em **baixar relatório** no painel de detalhes. 
+> Você pode baixar o relatório para uma pesquisa de conteúdo associada a uma ocorrência de descoberta eletrônica. Para fazer isso, **vá para** \> **descoberta eletrônica**eletrônica, selecione um caso e clique em **Editar** ![ ícone de edição ](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) . Na página **Exportar** , selecione uma exportação de relatório e clique em **baixar relatório** no painel de detalhes. 
   
 ## <a name="whats-included-in-the-report"></a>O que está incluído no relatório
 

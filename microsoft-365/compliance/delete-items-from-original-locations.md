@@ -18,12 +18,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo descreve como usar a nova ferramenta de investigações de dados (visualização) no centro de conformidade & segurança para excluir itens de seus locais originais.
-ms.openlocfilehash: 4ad450fbbfac838ba536b19ec54eb83a4fb5d597
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 0787944791fea65dfc940b1067abe1bad8097dcd
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630518"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817880"
 ---
 # <a name="delete-items-from-their-original-location-preview"></a>Excluir itens de seu local original (versão prévia)
 
@@ -31,7 +32,7 @@ O recurso para excluir itens de seu local original está em visualização.
 
 Usando investigações de dados, você pode excluir itens de seus locais originais. Isso significa que você pode excluir itens de caixas de correio do Exchange, sites do SharePoint e contas do OneDrive em sua organização. Como você coletou itens como evidência, você tem cópias dos itens retidos no conjunto de evidências para investigar mais ou manter como referência.
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-delete-items"></a>Antes de excluir itens
 
 - Para excluir itens, você precisa ter a função de **pesquisa e limpeza** no centro de conformidade de segurança &. Essa função é atribuída por padrão ao grupo de função interno do investigador de dados.
 

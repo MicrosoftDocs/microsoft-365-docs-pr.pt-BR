@@ -19,12 +19,13 @@ search.appverid:
 - MET150
 ms.assetid: 1adffc35-38e5-4f7d-8495-8e0e8721f377
 description: Use filtragem de permissões de pesquisa de conteúdo para permitir que um gerente de descoberta eletrônica pesquise somente um subconjunto de caixas de correio e sites em sua organização.
-ms.openlocfilehash: 9628548b3cb2f6af5bedf7895a8714822731361f
-ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 06fabfd1132166e2439c9790b50b0dbcb5bdca2c
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "44347780"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818770"
 ---
 # <a name="configure-permissions-filtering-for-content-search"></a>Configurar permissões de filtragem para a Pesquisa de Conteúdo
 
@@ -42,7 +43,7 @@ A filtragem de permissões de pesquisa é suportada pelo recurso de pesquisa de 
 
 [Remove-ComplianceSecurityFilter](#remove-compliancesecurityfilter)
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="requirements-to-configure-permissions-filtering"></a>Requisitos para configurar a filtragem de permissões
 
 - Para executar os cmdlets de filtro de segurança de conformidade, você precisa ser membro do grupo de função gerenciamento da organização no centro de conformidade do & de segurança. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](../security/office-365-security/permissions-in-the-security-and-compliance-center.md).
     
@@ -58,7 +59,7 @@ A filtragem de permissões de pesquisa é suportada pelo recurso de pesquisa de 
     
 ## <a name="connect-to-the-security--compliance-center-and-exchange-online-in-a-single-remote-powershell-session"></a>Conectar-se ao centro de conformidade & segurança e ao Exchange Online em uma única sessão remota do PowerShell
 
-1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo **. ps1**. Por exemplo, você pode salvá-lo em um arquivo chamado **ConnectEXO-CC. ps1**.
+1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo **. ps1**. Por exemplo, você pode salvá-lo em um arquivo chamado **ConnectEXO-CC.ps1**.
     
     ```powershell
     $UserCredential = Get-Credential
@@ -79,7 +80,7 @@ Como saber se funcionou? Depois de executar o script, os cmdlets do centro de co
   
 Caso você receba erros, verifique os seguintes requisitos:
   
-- Um problema comum é uma senha incorreta. Execute as duas etapas novamente e preste muita atenção ao nome de usuário e à senha inseridos na Etapa 1.
+- A common problem is an incorrect password. Run the two steps again and pay close attention to the user name and password you enter in Step 1.
     
 - Verifique se sua conta tem permissão para acessar o centro de conformidade de & de segurança. Para obter detalhes, consulte [conceder aos usuários acesso ao centro de conformidade de & de segurança](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
     
@@ -149,7 +150,7 @@ Este exemplo permite que os usuários do viniciusm e do clarab pesquisem apenas 
 New-ComplianceSecurityFilter -FilterName MarketingFilter  -Users donh,suzanf -Filters "Mailbox_CustomAttribute1  -eq 'Marketing'" -Action Search
 ```
 
-Este exemplo permite que os membros do grupo de função "Gerentes de Descoberta dos EUA" executem todas as ações de pesquisa de conteúdo apenas em caixas de correio nos Estados Unidos. O filtro usa o código de país numérico de três dígitos para os Estados Unidos da ISO 3166-1.
+This example allows members of the "US Discovery Managers" role group to perform all Content Search actions only on mailboxes in the United States. This filter contains the three-digit numeric country code for the United States from ISO 3166-1.
   
 ```powershell
 New-ComplianceSecurityFilter -FilterName USDiscoveryManagers  -Users "US Discovery Managers" -Filters "Mailbox_CountryCode  -eq '840'" -Action All

@@ -15,17 +15,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Os tipos de informações confidenciais procuram um padrão específico e o corroboratem, garantindo a formatação adequada, aplicando as somas de verificação e procurando palavras-chave relevantes ou outras informações. Algumas dessas funcionalidades são realizadas por funções internas. Este tópico explica o que essas funções procuram, para ajudar você a entender como funcionam os tipos de informações confidenciais predefinidas.
-ms.openlocfilehash: 710cd371cbf67a03d75a928baab4b63587cdcfc1
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba o que as funções de prevenção de perda de dados (DLP) procuram para ajudá-lo a entender como os tipos de informações confidenciais predefinidos funcionam.
+ms.openlocfilehash: 838277b2e30696cd00cfc30df49c1d5a29149d92
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327743"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819271"
 ---
 # <a name="what-the-dlp-functions-look-for"></a>O que as funções DLP procuram
 
-A política DLP inclui tipos de informação confidencial, como números de cartão de crédito e de cartão de débito da UE (União Europeia), que estão prontos para uso em suas políticas DLP. Esses tipos de informação confidencial procuram por um padrão específico e o confirmam, garantindo a formatação adequada, impondo as somas de verificação e procurando palavras-chave relevantes ou outras informações. Algumas dessas funcionalidades são realizadas por funções internas. Por exemplo, o tipo de informação confidencial de Número de Cartão de Crédito usa uma função para procurar datas formatadas como uma data de expiração, para ajudar a corroborar que um número é um número de cartão de crédito.
+Data loss prevention (DLP) includes sensitive information types, such as Credit Card Number and EU Debit Card Number, which are ready for you to use in your DLP policies. These sensitive information types look for a specific pattern and corroborate it by ensuring proper formatting, enforcing checksums, and looking for relevant keywords or other information. Some of this functionality is performed by internal functions. For example, the Credit Card Number sensitive information type uses a function to look for dates formatted like an expiration date, to help corroborate that a number is a credit card number.
   
 Este tópico explica o que essas funções procuram, para ajudar você a entender como funcionam os tipos de informações confidenciais predefinidas. Para mais informações, consulte [definições de entidade de tipo de informação confidencial](sensitive-information-type-entity-definitions.md)
   
@@ -51,7 +53,7 @@ Exemplos:
     
 Nomes de meses aceitos:
   
-- Inglês
+- English
     
   - Janeiro, fevereiro, março, abril, maio, junho de julho, agosto, setembro, outubro, novembro de dezembro
     
@@ -59,7 +61,7 @@ Nomes de meses aceitos:
     
 ## <a name="func_eu_date"></a>Func_eu_date
 
-Essa função procura uma data no formato comumente usado na UE (e na maioria dos lugares fora dos Estados Unidos). Isso inclui os formatos de "dia/mês/ano", "dia-mês-ano" e "dia mês ano". Os nomes ou as abreviações de meses não diferenciam maiúsculas de minúsculas.
+This function looks for a date in the format commonly used in the E.U. (and most places outside the U.S.). This includes the formats "day/month/year", "day-month-year", and "day month year". The names or abbreviations of months are not case sensitive.
   
 Exemplos:
   
@@ -79,31 +81,31 @@ Exemplos:
     
 Nomes de meses aceitos:
   
-- Inglês
+- English
     
   - Janeiro, fevereiro, março, abril, maio, junho de julho, agosto, setembro, outubro, novembro de dezembro
     
   - Jan. Fev. mar. abr. Maio de 1º de julho de agosto de setembro. Dec.
     
-- Holandês
+- Dutch
     
   - januari, februari, maart, April, mei, juni, juli, augustus, September, ocktober, October, November, December
     
   - Jan fevereiro de maart de abril de Mei jun jul setembro de agosto de dezembro de Okt de Nov
     
-- Francês
+- French
     
   - Janvier, Février, Mars, Avril, Mai, Juin Juillet, Août, Septembre, outubro, Novembre, décembre
     
   - janv. févr. Mars Avril Mai Juin Juil. Août set. Outubro. Nov. déc.
     
-- Alemão
+- German
     
   - jänuar, februar, März, abril, Mai, Juni Juli, agosto, setembro, Oktober, novembro de Dezember
     
   - Jan./Jän. Fev. März abr. Mai Juni Juli ago. set. Okt. Nov. dez.
     
-- Italiano
+- Italian
     
   - gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre
     
@@ -115,7 +117,7 @@ Nomes de meses aceitos:
     
   - Jan fev mar abr mai jun jul atrás Set out nov dez
     
-- Espanhol
+- Spanish
     
   - enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre
     
@@ -177,7 +179,7 @@ Exemplos:
     
 Nomes de meses aceitos:
   
-- Holandês
+- Dutch
     
   - januari, februari, maart, April, mei, juni, juli, augustus, September, ocktober, October, November, December
     
@@ -209,7 +211,7 @@ Os seguintes formatos dão suporte a AA ou AAAA:
     
 Nomes de meses aceitos:
   
-- Inglês
+- English
     
   - Janeiro, fevereiro, março, abril, maio, junho de julho, agosto, setembro, outubro, novembro de dezembro
     
@@ -217,7 +219,7 @@ Nomes de meses aceitos:
     
 ## <a name="func_us_address"></a>Func_us_address
 
-Essa função procura por um nome ou sigla de estado dos EUA seguida de um CEP válido, como são usados em endereços postais. O CEP deve ser um dos CEPs corretos associados ao nome ou sigla do estado americano. O nome do estado americano e o CEP não podem ser separados por pontos ou letras.
+This function looks for a U.S. state name or postal abbreviation followed by a valid zip code, just as they are used in postal addresses. The zip code must be one of the correct zip codes associated with the U.S. state name or abbreviation. The U.S. state name and zip code cannot be separated by punctuation or letters.
   
 Exemplos:
   

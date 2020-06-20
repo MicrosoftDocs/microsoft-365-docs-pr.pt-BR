@@ -15,14 +15,14 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-description: Com os recursos avançados de criptografia de mensagens do Office 365 na parte superior da criptografia de mensagens do Office 365 (OME), você pode estender sua segurança de email Configurando uma data de validade por emails por meio de um modelo personalizado com marca.
+description: Use a criptografia de mensagem avançada do Office 365 para estender sua segurança de email Configurando uma data de expiração em emails por meio de um modelo personalizado com marca.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f555e707cb377033c3bf643785e18b9203be0560
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e929ce1d948a83a98cca6fa35a65b80a2fc9ef15
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036054"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818684"
 ---
 # <a name="set-an-expiration-date-for-email-encrypted-by-office-365-advanced-message-encryption"></a>Definir uma data de vencimento para o email criptografado pela Criptografia de Mensagem Avançada do Office 365
 

@@ -13,15 +13,14 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
-ms.custom:
-- seo-marvel-apr2020
-description: Configure um conector para importar dados do LinkedIn para a Microsoft 365, de modo que você possa usar ferramentas de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção.
-ms.openlocfilehash: 7d88d366ea19be7d158a04edc7d7fb11dca7bab9
-ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
+ms.custom: seo-marvel-apr2020
+description: Saiba como os administradores podem configurar & usar um conector nativo para importar dados de uma página da empresa do LinkedIn para o Microsoft 365.
+ms.openlocfilehash: c7801dc7ab00f1193b05a50ae10ee67d78e11065
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44043342"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818440"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data"></a>Configurar um conector para arquivar dados do LinkedIn
 
@@ -29,7 +28,7 @@ Use um conector no centro de conformidade da Microsoft 365 para importar e arqui
 
 Depois que os dados da página da empresa do LinkedIn são armazenados em uma caixa de correio, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, pesquisa de conteúdo, arquivamento in-loco, auditoria e políticas de retenção da Microsoft 365 para dados do LinkedIn. Por exemplo, você pode pesquisar esses itens usando a pesquisa de conteúdo ou associar a caixa de correio de armazenamento a um funcionário em uma caixa de descoberta eletrônica avançada. A criação de um conector para importar e arquivar dados do LinkedIn no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
 
-## <a name="before-you--begin"></a>Antes de começar
+## <a name="give-consent-assign-roles-and-verify-credentials"></a>Conceder consentimento, atribuir funções e verificar credenciais
 
 - Sua organização deve dar o consentimento para permitir que o serviço de importação do Office 365 acesse dados de caixa de correio em sua organização. Para concordar com essa solicitação, [acesse a página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), entre com as credenciais de um administrador global do Microsoft 365 e aceite a solicitação.
 
@@ -39,7 +38,7 @@ Depois que os dados da página da empresa do LinkedIn são armazenados em uma ca
 
 ## <a name="create-a-linkedin-connector"></a>Criar um conector do LinkedIn
 
-1. Vá para <https://compliance.microsoft.com> e clique em **conectores** > de dados**páginas da empresa do LinkedIn**.
+1. Vá para <https://compliance.microsoft.com> e clique em **conectores de dados**  >  **páginas da empresa do LinkedIn**.
 
 2. Na página produtos **da empresa do LinkedIn** , clique em **Adicionar conector**.
 

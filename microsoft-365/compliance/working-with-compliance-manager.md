@@ -13,13 +13,15 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: O gerente de conformidade da Microsoft é uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho. Use-o para controlar, atribuir e verificar atividades de conformidade regulatória relacionadas a produtos da Microsoft.
-ms.openlocfilehash: 2e67114c4b59fbb676c45995c08b9e4faa05e55b
-ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como usar o Gerenciador de conformidade para rastrear, atribuir e verificar atividades de conformidade regulatória relacionadas a produtos da Microsoft.
+ms.openlocfilehash: fe7b04fe7687bc91e6f96fb2c3994a6536cec314
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43790658"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817078"
 ---
 # <a name="working-with-microsoft-compliance-manager-preview"></a>Trabalhando com o Microsoft Compliance Manager (versão prévia)
 
@@ -149,7 +151,7 @@ Selecione **Gerenciamento de locatário** no canto superior direito da tela para
 
 As dimensões são conjuntos de metadados que fornecem informações sobre um modelo, uma avaliação ou um item de ação. As dimensões usam o conceito de chaves e valores, onde a chave de dimensão representa uma propriedade e o valor de dimensão representa valores válidos para a propriedade. Por exemplo, no Gerenciador de conformidade há três tipos de ações. Eles são definidos por uma chave de dimensão dos valores de finalidade e de dimensão de **ação** de **prevenção**, **detecção**e **correção**.
 
-### <a name="owners"></a>Proprietários
+### <a name="owners"></a>Owners
 
 Os proprietários são usados para identificar a pessoa responsável por cada controle. Todos os controles internos são de propriedade da Microsoft, de clientes ou de ambos. Você pode criar valores personalizados para proprietários que podem ser usados para especificar responsabilidades mais granulares em sua organização. Por exemplo, você pode criar proprietários que representam grupos específicos, equipes ou unidades de negócios dentro de sua organização.
 

@@ -16,17 +16,19 @@ search.appverid:
 ms.assetid: e0ada764-6422-4b44-9472-513bed04837b
 ms.collection:
 - M365-security-compliance
-description: Antes de criar a primeira política de DLP (prevenção contra perda de dados), a DLP está ajudando a proteger suas informações confidenciais com uma política padrão. Essa política padrão e sua recomendação (mostrado abaixo) ajudam a manter seu conteúdo confidencial seguro, notificando-o quando emails ou documentos contendo um número de cartão de crédito foram compartilhados com alguém de fora da sua organização.
-ms.openlocfilehash: d24848e5956a6e8927307d3102f4ce31f1187bfd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como usar o relatório para refinar a política de DLP (prevenção de perda de dados) padrão da sua organização.
+ms.openlocfilehash: 7c8f0460f9cd02ee3d26197965f5ea74737ac833
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637825"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817610"
 ---
 # <a name="get-started-with-the-default-dlp-policy"></a>Introdução à política DLP padrão
 
-Antes de criar a primeira política de DLP (prevenção contra perda de dados), a DLP está ajudando a proteger suas informações confidenciais com uma política padrão. Essa política padrão e sua recomendação (mostrado abaixo) ajudam a manter seu conteúdo confidencial seguro, notificando-o quando emails ou documentos contendo um número de cartão de crédito foram compartilhados com alguém de fora da sua organização. Você verá essa recomendação na **Home** Page do centro de conformidade de &amp; segurança. 
+Antes de criar a primeira política de DLP (prevenção contra perda de dados), a DLP está ajudando a proteger suas informações confidenciais com uma política padrão. Essa política padrão e sua recomendação (mostrado abaixo) ajudam a manter seu conteúdo confidencial seguro, notificando-o quando emails ou documentos contendo um número de cartão de crédito foram compartilhados com alguém de fora da sua organização. Você verá essa recomendação na **Home** Page do centro de conformidade de segurança &amp; . 
   
 Você pode usar esse widget para exibir rapidamente quando e quantas informações confidenciais foram compartilhadas e, em seguida, refinar a política de DLP padrão em apenas um clique ou dois. Você também pode editar a política de DLP padrão a qualquer momento, pois ela é totalmente personalizável. Observe que, se você não vir a recomendação primeiro, tente clicar **+ mais** na parte inferior da seção **recomendada para você** . 
   
@@ -44,7 +46,7 @@ Para ajudar a proteger as informações confidenciais, a política de DLP padrã
     
 - Mostra uma dica de política e envia uma notificação por email aos usuários quando eles tentam compartilhar essas informações confidenciais com pessoas de fora da sua organização. Para obter mais informações sobre essas opções, consulte [enviar notificações por email e mostrar dicas de política para políticas de DLP](use-notifications-and-policy-tips.md).
     
-- Gera relatórios de atividade detalhados para que você possa rastrear coisas como quem compartilhou o conteúdo com pessoas de fora da sua organização e quando eles faziam. Você pode usar os [relatórios de DLP](view-the-dlp-reports.md) e [dados de log de auditoria](search-the-audit-log-in-security-and-compliance.md) (onde a **atividade** = **DLP**) para ver essas informações.
+- Gera relatórios de atividade detalhados para que você possa rastrear coisas como quem compartilhou o conteúdo com pessoas de fora da sua organização e quando eles faziam. Você pode usar os [relatórios de DLP](view-the-dlp-reports.md) e [dados de log de auditoria](search-the-audit-log-in-security-and-compliance.md) (onde a **atividade**  =  **DLP**) para ver essas informações.
     
 Para refinar rapidamente a política de DLP padrão, você pode optar por fazê-la:
   
@@ -70,7 +72,7 @@ Essa política é totalmente personalizável, o mesmo que qualquer política de 
   
 ## <a name="when-the-widget-does-and-does-not-appear"></a>Quando o widget não aparece
 
-O widget chamado **proteger mais conteúdo compartilhado** aparece na seção **recomendado para você** da **Home** Page do centro de conformidade de &amp; segurança. 
+O widget chamado **proteger mais conteúdo compartilhado** aparece na seção **recomendado para você** da **Home** Page do centro de conformidade de segurança &amp; . 
   
 Este widget aparece somente quando:
   

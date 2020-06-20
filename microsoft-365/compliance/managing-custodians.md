@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: A ferramenta de gerenciamento de responsáveis em descoberta eletrônica avançada permite que você gerencie o fluxo de trabalho em torno da identificação, preservação e coleta de dados associados às pessoas de interesse em um caso jurídico.
-ms.openlocfilehash: fbd348c842cb3c4bb7284c14ae2504b83fd0b117
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como usar a ferramenta de gerenciamento de responsáveis em descoberta eletrônica avançada para gerenciar dados de um caso jurídico.
+ms.openlocfilehash: 400793a6779cef5b1e823f40fa08cc1e05f93f15
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551232"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815488"
 ---
 # <a name="work-with-custodians-in-advanced-ediscovery"></a>Trabalhar com os responsáveis na descoberta eletrônica avançada
 

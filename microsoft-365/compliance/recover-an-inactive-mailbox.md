@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
-description: 'Se um antigo funcionário retornar à sua organização ou se um novo funcionário for contratado para assumir as responsabilidades de trabalho de um funcionário de parte, você poderá recuperar o conteúdo da caixa de correio inativa no Office 365. Ao recuperar uma caixa de correio inativa, ela é convertida em uma nova caixa de correio que contém o conteúdo da caixa de correio inativa. '
-ms.openlocfilehash: 63d71d2f6e23af55d94f006e772f35747c83d59c
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.custom: seo-marvel-apr2020
+description: Saiba como recuperar o conteúdo de uma caixa de correio inativa no Office 365 convertendo-o em uma nova caixa de correio que contém o conteúdo da caixa de correio inativa.
+ms.openlocfilehash: e5ac5a5e5e9e73d118ea1872bf36476ee1e1965a
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678967"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818941"
 ---
 # <a name="recover-an-inactive-mailbox"></a>Recuperar uma caixa de correio inativa
 
@@ -33,7 +34,7 @@ Uma caixa de correio inativa (que é um tipo de caixa de correio excluída por s
 
 Consulte a seção [mais informações](#more-information) para obter mais detalhes sobre as diferenças entre a recuperação e restauração de uma caixa de correio inativa e para uma descrição do que acontece quando uma caixa de correio inativa é recuperada.
   
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="requirements-to-recover-an-inactive-mailbox"></a>Requisitos para recuperar uma caixa de correio inativa
 
 - Você precisa usar o PowerShell do Exchange Online para recuperar uma caixa de correio inativa. Você não pode usar o Centro de Administração do Exchange (EAC). Para obter instruções detalhadas, consulte [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=396554).
     

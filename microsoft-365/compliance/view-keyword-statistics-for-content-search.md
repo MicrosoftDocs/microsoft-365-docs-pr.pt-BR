@@ -15,17 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 9701a024-c52e-43f0-b545-9a53478aec04
-description: Use o recurso estatísticas de pesquisa para exibir e comparar as estatísticas de várias pesquisas de conteúdo no centro de conformidade e segurança &. Você também pode configurar a lista de palavras-chave ao criar ou editar uma consulta de pesquisa para obter estatísticas aprimoradas que mostrem quantos itens corresponderam a cada palavra-chave ou frase de palavra-chave.
-ms.openlocfilehash: 07a13ab2f183cfa9349f827cf410e417c0944869
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Saiba como usar o recurso estatísticas de pesquisa para exibir e comparar as estatísticas de várias pesquisas de conteúdo no centro de conformidade e segurança &.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 30cc893d041819ac1fa2e24c6ecf6178677686b2
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634119"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819031"
 ---
 # <a name="view-keyword-statistics-for-content-search-results"></a>Exibir as estatísticas de palavras-chave para resultados da Pesquisa de Conteúdo
 
-Depois de criar e executar uma pesquisa de conteúdo, você pode exibir estatísticas sobre os resultados estimados da pesquisa. Isso inclui um resumo dos resultados da pesquisa (semelhante ao resumo dos resultados de pesquisa estimados exibidos no painel de detalhes), as estatísticas de consulta, como o número de locais de conteúdo com itens que correspondem à consulta de pesquisa e o nome dos locais de conteúdo que possuem os itens mais coincidentes. Você poderá exibir as estatísticas de uma ou mais pesquisas de conteúdo. Isso permite que você compare rapidamente os resultados de várias pesquisas e tome decisões sobre a eficácia de suas consultas de pesquisa.
+Depois de criar e executar uma pesquisa de conteúdo, você pode exibir estatísticas sobre os resultados estimados da pesquisa. Isso inclui um resumo dos resultados da pesquisa (semelhante ao resumo dos resultados de pesquisa estimados exibidos no painel de detalhes), as estatísticas de consulta, como o número de locais de conteúdo com itens que correspondem à consulta de pesquisa e o nome dos locais de conteúdo que têm os itens mais coincidentes. Você poderá exibir as estatísticas de uma ou mais pesquisas de conteúdo. Isso permite que você compare rapidamente os resultados de várias pesquisas e tome decisões sobre a eficácia de suas consultas de pesquisa.
   
 Além disso, você pode configurar as pesquisas novas e existentes para retornar as estatísticas de cada palavra-chave em uma consulta de pesquisa. Isso permite que você compare o número de resultados para cada palavra-chave em uma consulta e compare as estatísticas de palavra-chave de várias pesquisas.
   
@@ -37,7 +38,7 @@ Para exibir estatísticas para pesquisas de conteúdo:
   
 1. No centro de conformidade & segurança, vá para **Search** \> **pesquisa de conteúdo**de pesquisa.
     
-2. Na lista de pesquisas, selecione uma ou mais pesquisas e, em seguida, clique em **Pesquisar**![estatísticas da](../media/9bf56d43-25bf-4f53-a4be-f4d55102310c.png)pesquisa de estatísticas.
+2. Na lista de pesquisas, selecione uma ou mais pesquisas e, em seguida, clique em Pesquisar estatísticas da pesquisa de **estatísticas** ![ ](../media/9bf56d43-25bf-4f53-a4be-f4d55102310c.png) .
     
     ![Selecionar várias pesquisas e clicar em estatísticas de pesquisa](../media/1195c6c3-2e00-469d-8c29-85c1c7ebe6c7.png)
   
@@ -73,7 +74,7 @@ Para exibir estatísticas para pesquisas de conteúdo:
     
     d. Esta coluna contém a consulta de pesquisa real que é executada pela ferramenta de pesquisa de conteúdo. Observe que a ferramenta adiciona automaticamente alguns componentes adicionais à consulta que você criou. 
 
-    - Quando você procura todo o conteúdo nas caixas de correio (não especificando nenhuma palavra-chave), a consulta de palavras-chave `size>=0` real é para que todos os itens sejam retornados. 
+    - Quando você procura todo o conteúdo nas caixas de correio (não especificando nenhuma palavra-chave), a consulta de palavras-chave real é `size>=0` para que todos os itens sejam retornados. 
     
      - Quando você pesquisa sites do SharePoint Online e do OneDrive for Business, os dois componentes a seguir são adicionados:
     
@@ -109,7 +110,7 @@ Para criar uma lista de palavras-chave e exibir estatísticas de palavras-chave 
   
 1. No centro de conformidade & segurança, vá para **Search** \> **pesquisa de conteúdo**de pesquisa.
     
-2. Na lista de pesquisas de conteúdo, clique em uma pesquisa e, em seguida **Edit** ![, clique em](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)editar ícone de edição.
+2. Na lista de pesquisas de conteúdo, clique em uma pesquisa e, em seguida, clique em **Editar** ![ ícone de edição ](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) .
     
 3. Clique em **consulta** e faça o seguinte: 
     
@@ -121,7 +122,7 @@ Para criar uma lista de palavras-chave e exibir estatísticas de palavras-chave 
     
 4. Após adicionar as palavras-chave que você deseja pesquisar e obter as estatísticas, clique em **Pesquisar** para executar a pesquisa revisada. 
     
-5. Quando a pesquisa estiver concluída, selecione-a na lista de pesquisas e, em seguida **Search statistics** ![, clique no botão](../media/9bf56d43-25bf-4f53-a4be-f4d55102310c.png)Pesquisar estatísticas da pesquisa de estatísticas. Você também pode exibir e comparar as estatísticas de palavras-chave para várias pesquisas.
+5. Quando a pesquisa estiver concluída, selecione-a na lista de pesquisas e, em seguida, clique no botão Pesquisar estatísticas da pesquisa de **estatísticas** ![ ](../media/9bf56d43-25bf-4f53-a4be-f4d55102310c.png) . Você também pode exibir e comparar as estatísticas de palavras-chave para várias pesquisas.
     
 6. Na página **Estatísticas de pesquisa** , clique em **consulta** para exibir as estatísticas de palavra-chave das pesquisas selecionadas. 
     

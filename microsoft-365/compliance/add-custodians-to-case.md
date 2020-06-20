@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como usar a ferramenta de gerenciamento de responsáveis interna na descoberta eletrônica avançada para coordenar seus fluxos de trabalho e identificar fontes de dados relevantes em um caso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0c85fb080faeeafd5909c033bc95ef14efc2c45
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: adf5df3bba1956ab1bb658590c1fcf9d4f5a814d
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034685"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818608"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>Adicionar responsáveis a uma ocorrência de descoberta eletrônica avançada
 
@@ -32,7 +32,7 @@ Use o fluxo de trabalho a seguir para adicionar e gerenciar os responsáveis em 
 
 ![Guia gerenciamento de responsáveis](../media/CustodianMgtPage.png)
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="make-sure-you-have-the-necessary-permissions"></a>Verifique se você tem as permissões necessárias
 
 Para adicionar os responsáveis a um caso, você deve ser membro do grupo de função Gerenciador de descoberta eletrônica. Isso fornecerá as permissões necessárias para adicionar os responsáveis a um caso e colocará uma retenção nas fontes de dados do custodial.
 

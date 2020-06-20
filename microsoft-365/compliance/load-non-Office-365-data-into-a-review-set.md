@@ -17,18 +17,18 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como importar dados que não são da Microsoft 365 para uma análise definida para análise em um caso de descoberta eletrônica avançada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ed4a26ea1dd68b9198cce67ce0f97580ed4b2a99
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: f9b506edc55da1916ae908eaa7ca619ba7300f87
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034419"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815458"
 ---
 # <a name="load-non-microsoft-365-data-into-a-review-set"></a>Carregar dados que não sejam da Microsoft 365 em um conjunto de revisão
 
 Nem todos os documentos que você precisa analisar na descoberta eletrônica avançada estão localizados no Microsoft 365. Com o recurso de importação de dados não-Microsoft 365 na descoberta eletrônica avançada, você pode carregar documentos que não estão localizados no Microsoft 365 em um conjunto de revisão. Este artigo mostra como trazer documentos que não são da Microsoft 365 para a descoberta eletrônica avançada para análise.
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="requirements-to-upload-non-office-365-content"></a>Requisitos para carregar conteúdo não-Office 365
 
 O uso do recurso de upload que não é da Microsoft 365 descrito neste artigo requer que você tenha o seguinte:
 

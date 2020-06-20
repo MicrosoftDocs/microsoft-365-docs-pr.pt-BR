@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c4c8f689-9d52-4e80-ae4b-1411ee9efc43
-description: Saiba como configurar o registro do Windows para aumentar a taxa de transferência de dados ao baixar os resultados da pesquisa e dados de pesquisa do centro de conformidade e segurança & e descoberta eletrônica avançada.
-ms.openlocfilehash: a5e08f2fe7d8840cfe8f176080c90b8b40d16af6
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como configurar o registro do Windows para aumentar a taxa de transferência de dados ao baixar os resultados da pesquisa e os dados.
+ms.openlocfilehash: a68a616d2dced4a3dd70580e1b258c95a0b5e39e
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943350"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817670"
 ---
 # <a name="increase-the-download-speed-when-exporting-ediscovery-search-results"></a>Aumentar a velocidade de download ao exportar os resultados da pesquisa de descoberta eletrônica
 
@@ -60,11 +62,11 @@ Execute o procedimento a seguir no computador que você usará para baixar os re
   
 ## <a name="more-information"></a>Mais informações
 
-- Uma nova chave de registro é criada na primeira vez que você executa o arquivo. reg que você criou neste procedimento. Em seguida `DownloadConcurrency` , a configuração do registro será editada sempre que você alterar e executar novamente o arquivo. reg Edit. 
+- Uma nova chave de registro é criada na primeira vez que você executa o arquivo. reg que você criou neste procedimento. Em seguida, a `DownloadConcurrency` configuração do registro será editada sempre que você alterar e executar novamente o arquivo. reg Edit. 
     
-- A ferramenta de exportação de descoberta eletrônica usa o [utilitário AzCopy do Azure](https://go.microsoft.com/fwlink/?linkid=849949) para baixar dados de pesquisa do centro de conformidade & segurança ou da descoberta eletrônica avançada. Definir a `DownloadConcurrency` configuração do registro é semelhante a usar o parâmetro **/NC** ao executar o utilitário AzCopy. Portanto, a configuração do `"DownloadConcurrency=24"` registro de teria o mesmo efeito que usar o valor do `/NC:24` parâmetro de com o utilitário AzCopy. 
+- A ferramenta de exportação de descoberta eletrônica usa o [utilitário AzCopy do Azure](https://go.microsoft.com/fwlink/?linkid=849949) para baixar dados de pesquisa do centro de conformidade & segurança ou da descoberta eletrônica avançada. Definir a `DownloadConcurrency` configuração do registro é semelhante a usar o parâmetro **/NC** ao executar o utilitário AzCopy. Portanto, a configuração do registro de `"DownloadConcurrency=24"` teria o mesmo efeito que usar o valor do parâmetro de `/NC:24` com o utilitário AzCopy. 
     
-- Se você parar um download de exportação que está em andamento e reiniciá-lo (tentando baixar os resultados da pesquisa novamente), a ferramenta de exportação de descoberta eletrônica tentará retomar o mesmo download. Portanto, se você iniciar um download, interrompa-o e, em seguida `DownloadConcurrency` , altere a configuração do registro, o download provavelmente falhará se você reiniciá-lo (clicando em **baixar resultados exportados**). Isso ocorre porque a ferramenta de exportação tentará retomar o download anterior usando configurações que não são válidas, pois você alterou a configuração do registro.
+- Se você parar um download de exportação que está em andamento e reiniciá-lo (tentando baixar os resultados da pesquisa novamente), a ferramenta de exportação de descoberta eletrônica tentará retomar o mesmo download. Portanto, se você iniciar um download, interrompa-o e, em seguida, altere a `DownloadConcurrency` configuração do registro, o download provavelmente falhará se você reiniciá-lo (clicando em **baixar resultados exportados**). Isso ocorre porque a ferramenta de exportação tentará retomar o download anterior usando configurações que não são válidas, pois você alterou a configuração do registro.
     
     Portanto, depois de alterar a `DownloadConcurrency` configuração do registro, certifique-se de reiniciar o trabalho de exportação (clicando em **reiniciar exportação**) no centro de conformidade de & de segurança. Em seguida, você pode baixar os resultados exportados. Para obter mais informações sobre como exportar dados e resultados de pesquisa, consulte:
     

@@ -16,23 +16,24 @@ search.appverid:
 - MET150
 ms.assetid: f6cd6588-f6b6-424a-a9ab-3782b842faee
 description: 'Revise as etapas para configurar opções para o processo de análise na descoberta eletrônica avançada, incluindo duplicatas, threads de email e temas.  '
-ms.openlocfilehash: 5f50e2863398679d1381c66009ff1daec40623f9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 091eb75bea0312e5a06cc60ca915612efc820e6e
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631258"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819221"
 ---
 # <a name="set-analyze-options-in-advanced-ediscovery-classic"></a>Definir opções de análise na descoberta eletrônica avançada (clássica)
 
 > [!NOTE]
-> A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 Em descoberta eletrônica avançada, defina as opções de análise antes de executar Analyze.
   
 ## <a name="set-analyze-options"></a>Definir opções de análise
 
-Abra \> **a configuração**de **análise de preparação \> ** . A janela a seguir é exibida.
+Abra a configuração de ** \> análise de preparação** \> **Setup**. A janela a seguir é exibida.
   
 ![Definir Opções de Análise](../media/c3ec7a92-8484-4812-b98c-aa3eb740e5b7.png)
   
@@ -55,7 +56,7 @@ Abra \> **a configuração**de **análise de preparação \> ** . A janela a seg
   
 1. Para exibir, adicionar ou editar temas sugeridos, clique em **Modificar**.
     
-2. No painel **temas sugeridos** , clique no ícone **Adicionar** ![ícone](../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) de adição para adicionar um tema. No painel **Adicionar tema sugerido** , adicione as palavras, separadas por vírgulas. 
+2. No painel **temas sugeridos** , clique no ícone **Adicionar** ![ ícone de adição ](../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) para adicionar um tema. No painel **Adicionar tema sugerido** , adicione as palavras, separadas por vírgulas. 
     
 3. Em **número de temas**, selecione um valor para determinar o número de temas que a descoberta eletrônica avançada tentará gerar para essas palavras (o padrão é 1 tema).
     
@@ -76,7 +77,7 @@ Você também pode [definir ignorar texto](set-ignore-text-in-advanced-ediscover
   
 Após definir essas opções, clique em **analisar** para executar. [Exibir resultados da análise](view-analyze-results-in-advanced-ediscovery.md) são exibidos. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="related-topics"></a>Tópicos relacionados
 
 [Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   

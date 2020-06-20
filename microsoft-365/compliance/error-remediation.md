@@ -16,13 +16,15 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Saiba como usar a correção de erros para corrigir problemas de dados em investigações de dados (prévia) que podem impedir o processamento adequado de conteúdo.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c833ce9ae93f5395e06ee3dbde54ff4a8d5d4a00
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
+ms.openlocfilehash: fe77f918a7471bf36df7727f890ea043976e44db
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035113"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817810"
 ---
 # <a name="error-remediation-when-processing-data-for-an-investigation"></a>Correção de erro ao processar dados de uma investigação
 
@@ -57,7 +59,7 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em casos de in
     >Recomendamos que você use um caminho de arquivo local em vez de um caminho de rede remoto para obter o desempenho ideal.
 
     > [!NOTE]
-    > Se você ainda não instalou o AzCopy, você pode instalá-lo daqui:https://docs.microsoft.com/azure/storage/common/storage-use-azcopy
+    > Se você ainda não instalou o AzCopy, vá para [introdução ao AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy) para instalá-lo.
 
 6. Copie o comando predefinido clicando em **copiar para área de transferência**. Inicie um prompt de comando do Windows, Cole o comando e pressione **Enter**.  
 
@@ -71,7 +73,7 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em casos de in
 7. Depois de baixar os arquivos, você pode corrigi-los com uma ferramenta apropriada. Para arquivos protegidos por senha, há várias ferramentas de quebra de senha que você pode usar. Se você souber as senhas dos arquivos, poderá abri-las e remover a proteção por senha.
     
    > [!NOTE]
-    > É importante que você mantenha a estrutura de diretório e os nomes de arquivo dos arquivos corrigidos. Os nomes de caminho dos arquivos e pastas baixados possibilitam a Associação dos arquivos corrigidos aos arquivos originais.  Se a estrutura de diretório ou os nomes de arquivo forem alterados, você receberá o `Cannot apply Error Remediation to the current Evidenceset`seguinte erro:.
+    > É importante que você mantenha a estrutura de diretório e os nomes de arquivo dos arquivos corrigidos. Os nomes de caminho dos arquivos e pastas baixados possibilitam a Associação dos arquivos corrigidos aos arquivos originais.  Se a estrutura de diretório ou os nomes de arquivo forem alterados, você receberá o seguinte erro: `Cannot apply Error Remediation to the current Evidenceset` .
 
 8. Agora, retorne a investigações de dados (visualização) e clique em **Avançar: carregar arquivos**.  Isso passará para a próxima etapa, onde você pode agora carregar os arquivos.
 
@@ -81,7 +83,7 @@ Use o fluxo de trabalho a seguir para corrigir arquivos com erros em casos de in
 
 10. Cole o comando em um prompt de comando do Windows e pressione **Enter** para carregar os arquivos.
 
-    ![ff2ff691-629f-4065-9b37-5333f937daf6. png](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
+    ![ff2ff691-629f-4065-9b37-5333f937daf6.png](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
 
 11. Por fim, retorne a investigações de dados (visualização) e clique em **Avançar: processar arquivos**.
 

@@ -14,18 +14,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: dce7a700-3b6e-435f-88ba-e4b82c0f2b26
-description: 'Obtenha uma visão geral do processo de análise, que permite definir parâmetros, opções de execução e exibir resultados em descoberta eletrônica avançada. '
-ms.openlocfilehash: 5acd9071477856aa81774efe48d3290c92eb4599
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 'Obtenha uma visão geral do processo de análise, que permite definir parâmetros, opções de execução e exibir resultados, no Microsoft 365 Advanced eDiscovery. '
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: a5a3dc8d9bb6568545bbe0868a673fd0090f12e8
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637055"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818480"
 ---
 # <a name="analyze-case-data-with-advanced-ediscovery-classic"></a>Analisar dados de caso com descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
-> A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 O processo de **preparação** \> de **análise** na descoberta eletrônica avançada aplica a seguinte funcionalidade aos arquivos incluídos: 
   
@@ -43,7 +44,7 @@ O processo de **preparação** \> de **análise** na descoberta eletrônica avan
     
 Antes de executar Analyze, defina os critérios para seleção e processamento de arquivos, incluindo quais arquivos carregados serão analisados e o tipo de análise para o qual cada tipo de arquivo será enviado. 
   
-## <a name="see-also"></a>Também consulte
+## <a name="additional-resources-for-advanced-ediscovery-classic-analysis"></a>Recursos adicionais para análise de descoberta eletrônica avançada (clássico)
 
 [Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   

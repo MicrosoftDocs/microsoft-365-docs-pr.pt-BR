@@ -17,13 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
-description: Use a pesquisa de conteúdo no centro de conformidade de & de segurança para realizar coleções direcionadas. Uma coleção direcionada significa que você tem certeza de que os itens que respondem a um caso ou itens privilegiados estão localizados em uma caixa de correio ou pasta de site específica. Use o script neste artigo para obter a ID da pasta ou o caminho das pastas de caixa de correio ou de site específicas que você deseja pesquisar.
-ms.openlocfilehash: 4808dad8faed99ac15c4f9828ad1759e2f1179fc
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom: seo-marvel-apr2020
+description: Use a pesquisa de conteúdo no centro de conformidade de & de segurança para realizar coleções direcionadas, que garantem que os itens estejam localizados em uma caixa de correio ou pasta de site específica.
+ms.openlocfilehash: fb7f900e8deaef6946d1ed8ea109d42207a882b3
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942974"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819101"
 ---
 # <a name="use-content-search-for-targeted-collections"></a>Usar a Pesquisa de Conteúdo para determinadas coleções
 
@@ -32,7 +33,7 @@ O recurso de pesquisa de conteúdo no &amp; centro de conformidade de segurança
 > [!NOTE]
 > Para retornar conteúdo localizado em uma pasta em um site do SharePoint ou do OneDrive for Business, o script neste tópico usa a propriedade gerenciada DocumentLink em vez da propriedade Path. A propriedade DocumentLink é mais robusta que a propriedade Path porque ela retornará todo o conteúdo de uma pasta, enquanto a propriedade Path não retornará alguns arquivos de mídia.
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-use-content-search"></a>Antes de usar a pesquisa de conteúdo
 
 - Você precisa ser membro do grupo de função Gerenciador de descoberta eletrônica no centro de &amp; conformidade de segurança para executar o script na etapa 1. Para obter mais informações, confira [Atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
     
@@ -66,7 +67,7 @@ O script executado nesta primeira etapa retornará uma lista de pastas de caixa 
     
 Para exibir uma lista de pastas de caixa de correio ou nomes de site documentlink (caminho):
   
-1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo. ps1; por exemplo, `GetFolderSearchParameters.ps1`.
+1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo. ps1; por exemplo, `GetFolderSearchParameters.ps1` .
     
   ```powershell
   #########################################################################################################
@@ -192,7 +193,7 @@ Para exibir uma lista de pastas de caixa de correio ou nomes de site documentlin
     O script exibe uma lista de pastas de caixa de correio ou pastas de site para o usuário especificado. Deixe essa janela aberta para que você possa copiar uma ID de pasta ou um nome de documentlink e colá-lo em uma consulta de pesquisa na etapa 2.
     
     > [!TIP]
-    > Em vez de exibir uma lista de pastas na tela do computador, você pode redirecionar a saída do script para um arquivo de texto. Esse arquivo será salvo na pasta em que o script está localizado. Por exemplo, para redirecionar a saída do script para um arquivo de texto, execute o seguinte comando `.\GetFolderSearchParameters.ps1 > StacigFolderIds.txt` na etapa 3: depois você pode copiar uma ID de pasta ou documentlink do arquivo para usar em uma consulta de pesquisa.
+    > Em vez de exibir uma lista de pastas na tela do computador, você pode redirecionar a saída do script para um arquivo de texto. Esse arquivo será salvo na pasta em que o script está localizado. Por exemplo, para redirecionar a saída do script para um arquivo de texto, execute o seguinte comando na etapa 3: `.\GetFolderSearchParameters.ps1 > StacigFolderIds.txt` depois você pode copiar uma ID de pasta ou documentlink do arquivo para usar em uma consulta de pesquisa.
   
 ### <a name="script-output-for-mailbox-folders"></a>Saída de script para pastas de caixa de correio
 
@@ -209,7 +210,7 @@ O exemplo na etapa 2 mostra a consulta usada para pesquisar a subpasta de limpez
   
 ### <a name="script-output-for-site-folders"></a>Saída de script para pastas de site
 
-Se você estiver obtendo o caminho da propriedade **documentlink** de sites do SharePoint ou do onedrive for Business, o script se conecta ao centro de conformidade de & de segurança usando o PowerShell remoto, cria uma nova pesquisa de conteúdo que pesquisa o site para pastas e, em seguida, exibe uma lista das pastas localizadas no site especificado. O script exibe o nome de cada pasta e adiciona o prefixo de **documentlink** à URL da pasta. Como a propriedade **documentlink** é uma propriedade pesquisável, você usará `documentlink:<path>` o par propriedade: valor em uma consulta de pesquisa na etapa 2 para pesquisar essa pasta. O script exibe um máximo de 200 pastas de site. Se houver mais de 200 pastas de site, as mais recentes serão exibidas.
+Se você estiver obtendo o caminho da propriedade **documentlink** de sites do SharePoint ou do onedrive for Business, o script se conecta ao centro de conformidade de & de segurança usando o PowerShell remoto, cria uma nova pesquisa de conteúdo que pesquisa o site para pastas e, em seguida, exibe uma lista das pastas localizadas no site especificado. O script exibe o nome de cada pasta e adiciona o prefixo de **documentlink** à URL da pasta. Como a propriedade **documentlink** é uma propriedade pesquisável, você usará o `documentlink:<path>` par propriedade: valor em uma consulta de pesquisa na etapa 2 para pesquisar essa pasta. O script exibe um máximo de 200 pastas de site. Se houver mais de 200 pastas de site, as mais recentes serão exibidas.
   
 Veja um exemplo de saída retornada pelo script para pastas de site.
   
@@ -217,13 +218,13 @@ Veja um exemplo de saída retornada pelo script para pastas de site.
   
 ## <a name="step-2-use-a-folder-id-or-documentlink-to-perform-a-targeted-collection"></a>Etapa 2: usar uma ID de pasta ou documentlink para executar uma coleção direcionada
 
-Após executar o script para coletar uma lista de IDs de pasta ou documentlinks para um usuário específico, a próxima etapa para acessar o centro de conformidade de & de segurança e criar uma nova pesquisa de conteúdo para pesquisar uma pasta específica. Você usará o `folderid:<folderid>` par `documentlink:<path>` propriedade ou: valor na consulta de pesquisa que você configurou na caixa palavra-chave de pesquisa de conteúdo (ou como o valor para o parâmetro *ContentMatchQuery* se você usar o cmdlet **New-ComplianceSearch** ). Você pode combinar a `folderid` propriedade `documentlink` ou com outros parâmetros de pesquisa ou condições de pesquisa. Se você incluir apenas a `folderid` propriedade `documentlink` ou na consulta, a pesquisa retornará todos os itens localizados na pasta especificada. 
+Após executar o script para coletar uma lista de IDs de pasta ou documentlinks para um usuário específico, a próxima etapa para acessar o centro de conformidade de & de segurança e criar uma nova pesquisa de conteúdo para pesquisar uma pasta específica. Você usará o `folderid:<folderid>` `documentlink:<path>` par propriedade ou: valor na consulta de pesquisa que você configurou na caixa palavra-chave de pesquisa de conteúdo (ou como o valor para o parâmetro *ContentMatchQuery* se você usar o cmdlet **New-ComplianceSearch** ). Você pode combinar a `folderid` `documentlink` propriedade ou com outros parâmetros de pesquisa ou condições de pesquisa. Se você incluir apenas a `folderid` `documentlink` propriedade ou na consulta, a pesquisa retornará todos os itens localizados na pasta especificada. 
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
 2. Entre usando a conta e as credenciais que você usou para executar o script na etapa 1.
     
-3. No painel esquerdo do centro de conformidade & segurança, clique em **Search** \> **pesquisa de conteúdo**de pesquisa e clique em **novo** ![ícone](../media/O365-MDM-CreatePolicy-AddIcon.gif)de adição.
+3. No painel esquerdo do centro de conformidade & segurança, clique em **Search** \> **pesquisa de conteúdo**de pesquisa e clique em **novo** ![ ícone de adição ](../media/O365-MDM-CreatePolicy-AddIcon.gif) .
     
 4. Na página **Nova pesquisa**, digite um nome para a Pesquisa de Conteúdo. O nome deve ser exclusivo em sua organização. 
     
@@ -237,9 +238,9 @@ Após executar o script para coletar uma lista de IDs de pasta ou documentlinks 
     
 6. Clique em **Avançar**.
     
-7. Na caixa palavra-chave da página **o que você deseja procurar** , Cole o ou `folderid:<folderid>` `documentlink:<path>` o valor retornado pelo script na etapa 1. 
+7. Na caixa palavra-chave da página **o que você deseja procurar** , Cole o `folderid:<folderid>` ou o `documentlink:<path>` valor retornado pelo script na etapa 1. 
     
-    Por exemplo, a consulta na captura de tela a seguir pesquisará qualquer item na subpasta de limpezas na pasta itens recuperáveis do usuário (o valor `folderid` da propriedade da subpasta de limpezas é mostrado na captura de tela na etapa 1):
+    Por exemplo, a consulta na captura de tela a seguir pesquisará qualquer item na subpasta de limpezas na pasta itens recuperáveis do usuário (o valor da `folderid` propriedade da subpasta de limpezas é mostrado na captura de tela na etapa 1):
     
     ![Cole o FolderId ou documentlink na caixa palavra-chave da consulta de pesquisa](../media/84057516-b663-48a4-a78f-8032a8f8da80.png)
   
@@ -247,7 +248,7 @@ Após executar o script para coletar uma lista de IDs de pasta ou documentlinks 
   
 ### <a name="examples-of-search-queries-for-targeted-collections"></a>Exemplos de consultas de pesquisa para coleções direcionadas
 
-Aqui estão alguns exemplos de como usar `folderid` as `documentlink` Propriedades e em uma consulta de pesquisa para executar uma coleção direcionada. Observe que os espaços reservados são usados `folderid:<folderid>` para `documentlink:<path>` o e economizar espaço. 
+Aqui estão alguns exemplos de como usar `folderid` as `documentlink` Propriedades e em uma consulta de pesquisa para executar uma coleção direcionada. Observe que os espaços reservados são usados para o `folderid:<folderid>` e `documentlink:<path>` economizar espaço. 
   
 - Este exemplo pesquisa três pastas de caixa de correio diferentes. Você pode usar sintaxe de consulta semelhante para pesquisar as pastas ocultas em uma pasta de itens recuperáveis de um usuário.
     
@@ -281,8 +282,8 @@ Tenha em mente os seguintes pontos ao usar o script neste artigo para executar c
     
 - Este script retorna apenas as informações da pasta da caixa de correio principal do usuário. Ele não retorna informações sobre pastas na caixa de correio de arquivo morto do usuário.
     
-- Ao pesquisar pastas de caixa de correio, somente a pasta especificada ( `folderid` identificado por sua propriedade) será pesquisada; as subpastas não serão pesquisadas. Para pesquisar subpastas, você precisa usar a ID de pasta para a subpasta que você deseja pesquisar. 
+- Ao pesquisar pastas de caixa de correio, somente a pasta especificada (identificada por sua `folderid` Propriedade) será pesquisada; as subpastas não serão pesquisadas. Para pesquisar subpastas, você precisa usar a ID de pasta para a subpasta que você deseja pesquisar. 
     
-- Ao pesquisar pastas de site, a pasta (identificado por `documentlink` sua propriedade) e todas as subpastas serão pesquisadas. 
+- Ao pesquisar pastas de site, a pasta (identificado por sua `documentlink` Propriedade) e todas as subpastas serão pesquisadas. 
     
-- Ao exportar os resultados de uma pesquisa na qual você só especificou `folderid` a propriedade na consulta de pesquisa, você pode escolher a primeira opção de exportação, "todos os itens, exceto aqueles que têm um formato não reconhecido, são criptografados ou não foram indexados por outros motivos". Todos os itens na pasta sempre serão exportados, independentemente do status de indexação, porque a ID da pasta é sempre indexada.
+- Ao exportar os resultados de uma pesquisa na qual você só especificou a `folderid` Propriedade na consulta de pesquisa, você pode escolher a primeira opção de exportação, "todos os itens, exceto aqueles que têm um formato não reconhecido, são criptografados ou não foram indexados por outros motivos". Todos os itens na pasta sempre serão exportados, independentemente do status de indexação, porque a ID da pasta é sempre indexada.

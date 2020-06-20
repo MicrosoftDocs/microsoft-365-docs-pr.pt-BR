@@ -17,14 +17,14 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
-description: O RGPD fornece aos seus dados pessoais direitos específicos da UE (chamados de dados). esses direitos incluem a obtenção de cópias dele, a solicitação de alterações, a restrição do processamento dele, a exclusão ou o recebimento de um formato eletrônico. Uma solicitação formal por um assunto de dados para realizar uma ação em seus dados pessoais é chamada de solicitação de entidade de dados ou DSR. Você pode usar casos de DSR no centro de conformidade no Office 365 e no Microsoft 365 para gerenciar as investigações de DSR da sua organização.
+description: Saiba como gerenciar solicitações de entidades de dados do RGPD (regulamento geral de proteção de dados) da UE com a ferramenta de ocorrência de DSR.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f3be609ae1245b20b39d26fe60444e6e54f171d3
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 79d4ff2fb7a83f5c094b4d4f74e68918c2bd5fff
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035865"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815448"
 ---
 # <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-security--compliance-center"></a>Gerenciar solicitações de entidades de dados do RGPD com a ferramenta de casos DSR no centro de conformidade & segurança
 
@@ -90,7 +90,7 @@ A próxima etapa é criar um caso DSR. Ao criar um caso, você pode optar por in
   
 1. Acesse [https://protection.office.com](https://protection.office.com) e entre usando sua conta corporativa ou de estudante. 
     
-2. No centro de conformidade & segurança, clique em **solicitações de assunto de dados**de privacidade ![](../media/ITPro-EAC-AddIcon.gif) \> de **dados** e clique em Adicionar ícone **novo caso de DSR**.
+2. No centro de conformidade & segurança, clique **Data privacy** em \> **solicitações de assunto de dados**de privacidade de dados e clique em ![ Adicionar ícone ](../media/ITPro-EAC-AddIcon.gif) **novo caso de DSR**.
     
 3. Na página **novo** submenu de caso em DSR, dê um nome ao caso, digite uma descrição opcional e clique em **Avançar**. O nome da ocorrência deve ser exclusivo na sua organização.
     
@@ -149,7 +149,7 @@ participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
 
  **Para executar a pesquisa interna por um caso de DSR:**
   
-1. No centro de conformidade & segurança, clique em **solicitações de assunto de dados**de privacidade \> de **dados** e clique em **abrir** ao lado do caso de DSR que você criou na etapa 2. 
+1. No centro de conformidade & segurança, clique **Data privacy** em \> **solicitações de assunto de dados**de privacidade de dados e clique em **abrir** ao lado do caso de DSR que você criou na etapa 2. 
     
     Clique na guia **Pesquisar** na parte superior da página e, em seguida, clique na caixa de seleção ao lado da pesquisa interna que foi criada quando você criou o caso de DSR. A pesquisa tem o mesmo nome que o caso DSR. 
     
@@ -192,11 +192,11 @@ O computador que você usa para exportar dados precisa atender aos seguintes req
   
  **Para exportar dados da pesquisa interna em um caso DSR:**
   
-1. No centro de conformidade & segurança, clique em **solicitações de assunto de dados**de privacidade \> de **dados** e clique em **abrir** ao lado do caso de DSR do qual você deseja exportar dados. 
+1. No centro de conformidade & segurança, clique em solicitações de assunto de dados de **privacidade de dados** \> **Data subject requests**e clique em **abrir** ao lado do caso de DSR do qual você deseja exportar dados. 
     
 2. Clique na guia **Pesquisar** na parte superior da página e, em seguida, clique na caixa de seleção ao lado da pesquisa interna que foi criada quando você criou o caso de DSR. Ou clique em outra pesquisa para exportar dados dessa pesquisa. 
     
-3. Na página de submenu de pesquisa ![, clique em exportar](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) ícone de resultados de pesquisa **mais**e selecione **Exportar resultados** na lista suspensa. 
+3. Na página de submenu de pesquisa, clique em ![ Exportar ícone de resultados de pesquisa ](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **mais**e selecione **Exportar resultados** na lista suspensa. 
     
 4. Na página **Exportar resultados** , selecione as opções recomendadas a seguir para solicitações de exportação de DSR. 
     
@@ -206,7 +206,7 @@ O computador que você usa para exportar dados precisa atender aos seguintes req
     
     b. Em **exportar conteúdo do Exchange como**, selecione a terceira opção, **um arquivo PST contendo todas as mensagens em uma única pasta**. Como alguns dos resultados podem ser para itens originados na caixa de correio de outro usuário, essa opção apenas lista o item em uma única pasta sem indicar a caixa de correio real e é a melhor opção para usar quando você elimina a duplicação dos resultados, conforme recomendado no próximo item. Essa opção também permite que o assunto dos dados revise itens em ordem cronológica (os itens são classificados por data de envio) sem precisar navegar na estrutura de pastas da caixa de correio original de cada item.
     
-    c. Selecione **habilitar opção de eliminação de duplicação** para excluir mensagens de email duplicadas. Recomendamos esta opção porque a pesquisa interna pesquisa todas as caixas de correio em sua organização. Portanto, se várias cópias da mesma mensagem forem encontradas nas caixas de correio que foram pesquisadas, essa opção significará que apenas uma cópia de uma mensagem será exportada. Essa opção, juntas, a exportação de mensagens em um arquivo PST em uma única pasta, resulta na melhor experiência do usuário para solicitações de exportação de DSR. O relatório de exportação Results. csv lista todos os locais onde as mensagens duplicadas foram encontradas.
+    c. Selecione **habilitar opção de eliminação de duplicação** para excluir mensagens de email duplicadas. Recomendamos esta opção porque a pesquisa interna pesquisa todas as caixas de correio em sua organização. Portanto, se várias cópias da mesma mensagem forem encontradas nas caixas de correio que foram pesquisadas, essa opção significará que apenas uma cópia de uma mensagem será exportada. Essa opção, juntas, a exportação de mensagens em um arquivo PST em uma única pasta, resulta na melhor experiência do usuário para solicitações de exportação de DSR. O relatório de exportação Results.csv lista todos os locais onde as mensagens duplicadas foram encontradas.
     
     Opcionalmente, você pode selecionar a opção **incluir versões para documentos do SharePoint** para exportar todas as versões dos documentos do SharePoint e do onedrive. Isso exige que o controle de versão esteja ativado para bibliotecas de documentos. Essa opção ajuda a garantir que todos os dados relevantes sejam exportados.
     
@@ -220,7 +220,7 @@ O computador que você usa para exportar dados precisa atender aos seguintes req
     
 8. Em **Exportar chave**, clique em **Copiar para a área de transferência**. Você pode usar essa chave na etapa 11 para baixar os resultados da pesquisa.
     
-9. Clique ![em exportar resultados de](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) pesquisa ícone **baixar resultados** na parte superior da página de submenu exportar. 
+9. Clique em ![ Exportar resultados de pesquisa ícone ](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **baixar resultados** na parte superior da página de submenu exportar. 
     
 10. Na janela pop-up na parte inferior da página, clique em **abrir** para abrir a **ferramenta de exportação de descoberta eletrônica**. A **ferramenta de exportação de descoberta eletrônica** será instalada na primeira vez que você baixar os resultados da pesquisa. 
     
@@ -243,11 +243,11 @@ Depois de executar a pesquisa interna, você pode revisá-la para restringir o e
   
 Veja a seguir alguns exemplos de condições que você pode adicionar à consulta de pesquisa interna de um caso DSR. O nome da propriedade real usada em uma consulta de pesquisa é mostrado entre parênteses.
   
-- **Tipo de arquivo `filetype`()** – especifica a extensão de um documento ou arquivo. Use esta condição para pesquisar documentos e arquivos criados por aplicativos específicos do Office, como o Word, o Excel e o OneNote. 
+- **Tipo de arquivo ( `filetype` )** – especifica a extensão de um documento ou arquivo. Use esta condição para pesquisar documentos e arquivos criados por aplicativos específicos do Office, como o Word, o Excel e o OneNote. 
     
-- **Tipo de mensagem `kind`()** – especifica o tipo de item de email a ser pesquisado. Por exemplo, você pode usar a sintaxe `kind:email OR kind:im` para retornar somente mensagens de email e conversas do Skype for Business ou bate-papos um-para-um no Microsoft Teams. 
+- **Tipo de mensagem ( `kind` )** – especifica o tipo de item de email a ser pesquisado. Por exemplo, você pode usar a sintaxe `kind:email OR kind:im` para retornar somente mensagens de email e conversas do Skype for Business ou bate-papos um-para-um no Microsoft Teams. 
     
-- **Marca de conformidade`compliancetag`()** – especifica um rótulo atribuído a uma mensagem de email ou um documento. Essa condição retorna itens que são classificados com um rótulo específico. Os rótulos são usados para classificar emails e documentos para governança de dados e aplicar regras de retenção com base na classificação definida pelo rótulo. Essa é uma condição útil para investigações de DSR porque sua organização pode estar usando rótulos para classificar conteúdo relacionado à privacidade de dados ou que contém dados pessoais ou informações confidenciais. Para o valor dessa condição, use o nome completo do rótulo ou a primeira parte do nome do rótulo com um caractere curinga. Para obter mais informações, consulte [visão geral dos rótulos no Office 365](labels.md).
+- **Marca de conformidade ( `compliancetag` )** – especifica um rótulo atribuído a uma mensagem de email ou um documento. Essa condição retorna itens que são classificados com um rótulo específico. Os rótulos são usados para classificar emails e documentos para governança de dados e aplicar regras de retenção com base na classificação definida pelo rótulo. Essa é uma condição útil para investigações de DSR porque sua organização pode estar usando rótulos para classificar conteúdo relacionado à privacidade de dados ou que contém dados pessoais ou informações confidenciais. Para o valor dessa condição, use o nome completo do rótulo ou a primeira parte do nome do rótulo com um caractere curinga. Para obter mais informações, consulte [visão geral dos rótulos no Office 365](labels.md).
     
 Para obter uma lista e descrição de todas as condições disponíveis na ferramenta de casos DSR, consulte [Search Conditions](keyword-queries-and-search-conditions.md#search-conditions) no artigo "consultas de palavra-chave e condições de pesquisa para pesquisa de conteúdo". 
   
@@ -303,9 +303,9 @@ Quando você exporta dados do serviço de roaming do Office, os dados são salvo
    
  **Para pesquisar e exportar dados de serviço de roaming do Office:**
   
-1. No centro de conformidade & segurança, clique em **solicitações de entidades de dados**de privacidade \> de **dados** e clique em **abrir** ao lado do caso de DSR para o requerente de dados para o qual você deseja exportar os dados de uso. 
+1. No centro de conformidade & segurança, clique **Data privacy** em \> **solicitações de entidades de dados**de privacidade de dados e clique em **abrir** ao lado do caso de DSR para o requerente de dados para o qual você deseja exportar os dados de uso. 
     
-2. Clique na guia **Pesquisar** na parte superior da página e, em seguida, ![clique em](../media/ITPro-EAC-AddIcon.gif) adicionar **pesquisa orientada**a ícone.
+2. Clique na guia **Pesquisar** na parte superior da página e, em seguida, clique em ![ Adicionar ](../media/ITPro-EAC-AddIcon.gif) **pesquisa orientada**a ícone.
     
 3. Clique em **Cancelar** na página **nomear sua pesquisa** . 
     
@@ -327,9 +327,9 @@ Quando você exporta dados do serviço de roaming do Office, os dados são salvo
     
  **Para exportar os dados do serviço de roaming do Office:**
   
-1. Quando a pesquisa criada na etapa anterior estiver concluída, clique na guia **Pesquisar** na parte superior da página e, em seguida, clique na caixa de seleção ao lado da pesquisa. Talvez seja necessário clicar em ![atualizar](../media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) **atualização** para exibir a pesquisa. 
+1. Quando a pesquisa criada na etapa anterior estiver concluída, clique na guia **Pesquisar** na parte superior da página e, em seguida, clique na caixa de seleção ao lado da pesquisa. Talvez seja necessário clicar em ![ Atualizar ](../media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) **atualização** para exibir a pesquisa. 
     
-2. Na página de submenu de pesquisa ![, clique em exportar](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) ícone de resultados de pesquisa **mais**e selecione **Exportar resultados** na lista suspensa. 
+2. Na página de submenu de pesquisa, clique em ![ Exportar ícone de resultados de pesquisa ](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **mais**e selecione **Exportar resultados** na lista suspensa. 
     
 3. Na página **Exportar resultados** , selecione as opções recomendadas para exportar os dados de uso. 
     
@@ -351,7 +351,7 @@ Quando você exporta dados do serviço de roaming do Office, os dados são salvo
     
 7. Em **Exportar chave**, clique em **Copiar para a área de transferência**. Use essa chave na etapa 10 para baixar os resultados da pesquisa.
     
-8. Clique ![em exportar resultados de](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) pesquisa ícone **baixar resultados** na parte superior da página de submenu exportar. 
+8. Clique em ![ Exportar resultados de pesquisa ícone ](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **baixar resultados** na parte superior da página de submenu exportar. 
     
 9. Na janela pop-up na parte inferior da página, clique em **abrir** para abrir a **ferramenta de exportação de descoberta eletrônica**. A **ferramenta de exportação de descoberta eletrônica** será instalada na primeira vez que você baixar os resultados da pesquisa. 
     

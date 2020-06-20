@@ -13,13 +13,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 2c956776-0016-4be6-b4cd-133a237f4a9e
-description: Você pode configurar o IRM do Exchange Online para usar o AD RMS (Active Directory Rights Management Service) local, se necessário, para atender aos requisitos da sua organização. Isso não é comum. Se você não tiver um requisito para usar o AD RMS, use a criptografia de mensagem do Office.
-ms.openlocfilehash: fa4d950ac52e48ac4fc554dff7e9fb800a8017d1
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como configurar o IRM do Exchange Online para usar o AD RMS (Active Directory Rights Management Service) local para atender aos requisitos da sua organização.
+ms.openlocfilehash: be53b54328c2c1e08e51a84b7251e23c3e7468c3
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165982"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815438"
 ---
 # <a name="exchange-online-mail-encryption-with-ad-rms"></a>Criptografia de email do Exchange Online com AD RMS
 

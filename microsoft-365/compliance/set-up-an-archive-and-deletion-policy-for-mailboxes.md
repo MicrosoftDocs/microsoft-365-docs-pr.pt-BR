@@ -19,14 +19,14 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
-description: Criar uma política de arquivamento e exclusão no Microsoft 365 que move automaticamente itens para a caixa de correio de arquivo morto de um usuário.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5bc48b8192af3ca4edd591307e5945b9171cf665
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+description: Saiba como criar uma política de arquivamento e exclusão no Microsoft 365 que move automaticamente itens para a caixa de correio de arquivo morto de um usuário.
+ms.openlocfilehash: e5f35938241608a247c625e8411821572d75b18e
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222522"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819211"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização
 
@@ -48,7 +48,7 @@ As etapas deste artigo definirão uma política de arquivamento e de retenção 
     
 Você pode seguir algumas ou todas as etapas deste artigo para configurar uma política de arquivo morto e exclusão para caixas de correio em sua própria organização. Recomendamos que você teste esse processo em algumas caixas de correio antes de implementá-lo em todas as caixas de correio da sua organização.
   
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-set-up-an-archive-and-deletion-policy"></a>Antes de configurar uma política de arquivo morto e exclusão
 
 - Você deve ser um administrador global em sua organização para executar as etapas neste tópico. 
     

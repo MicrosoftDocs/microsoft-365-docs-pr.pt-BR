@@ -16,13 +16,15 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Saiba como selecionar documentos de um conjunto de análise e trabalhar com eles individualmente em outro conjunto em um caso de descoberta eletrônica avançada.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 636e76b1740cfa07254e4c56165cfafa8f1fad5a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
+ms.openlocfilehash: 433e59629ec40dbdf66b8daf6437ce84e41a3a33
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034675"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818598"
 ---
 # <a name="add-data-to-a-review-set-from-another-review-set"></a>Adicionar dados a um conjunto de revisão de outro conjunto de revisão
 
@@ -30,9 +32,9 @@ Em alguns casos, pode ser necessário selecionar documentos de um conjunto de an
 
 Siga o fluxo de trabalho neste artigo para adicionar conteúdo de um conjunto de análise para outro.
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="create-a-review-set"></a>Criar um conjunto de revisão
 
-Antes de começar, você precisará criar uma nova revisão configurada para adicionar os dados a.  Um novo conjunto de revisão pode ser adicionado à guia **conjuntos de revisão** da ocorrência. Para obter mais informações, consulte [criar um conjunto de revisão](managing-review-sets.md#create-a-review-set).
+Antes de começar, você precisará criar um conjunto de revisão para adicionar os dados a.  Um novo conjunto de revisão pode ser adicionado à guia **conjuntos de revisão** da ocorrência. Para obter mais informações, consulte [criar um conjunto de revisão](managing-review-sets.md#create-a-review-set).
 
 ## <a name="step-1-identify-content-to-add-to-another-review-set"></a>Etapa 1: identificar o conteúdo a ser adicionado a outro conjunto de revisão
 

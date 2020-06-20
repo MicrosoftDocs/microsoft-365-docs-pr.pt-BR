@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Uma lista de tipos de arquivo com suporte no eDiscovery avançado da Microsoft 365. Isso inclui uma lista dos tipos de arquivo de imagem suportados pela funcionalidade de OCR na descoberta eletrônica avançada.
-ms.openlocfilehash: 562b39664dd29ff3cf738e0d3ded7cc2f0cbb21c
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Uma lista de tipos de arquivo com suporte no Microsoft 365 Advanced eDiscovery, incluindo tipos de arquivos de imagem suportados pela funcionalidade de OCR na descoberta eletrônica avançada.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e7c1840642dcc572da8e23bcdde3b7759746b209
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634629"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819151"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery"></a>Tipos de arquivo com suporte na descoberta eletrônica avançada
 
@@ -56,7 +57,7 @@ A descoberta eletrônica avançada oferece suporte a vários tipos de arquivo pa
 | application/x-Msaccess | Sim | Sim | Sim | Não | Não | . mdb |
 ||||||||
 
-## <a name="email"></a>Email
+## <a name="email"></a>E-mail
 
 | Tipo MIME | Identificação de arquivo | Extração de metadados | Extração de texto | Visualizador nativo | Visualizador de anotações | Extensões possíveis |
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |
@@ -113,7 +114,7 @@ A descoberta eletrônica avançada oferece suporte a vários tipos de arquivo pa
 
 | Tipo MIME | Identificação de arquivo | Extração de metadados | Extração de texto | Visualizador nativo | Visualizador de anotações | Extensões possíveis |
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |
-| aplicativo/OneNote | Sim | Sim | Sim | Sim | Não | . um |
+| aplicativo/OneNote | Sim | Sim | Sim | Sim | Não | .one |
 ||||||||
 
 ## <a name="microsoft-powerpoint"></a>Microsoft PowerPoint
@@ -154,7 +155,7 @@ A descoberta eletrônica avançada oferece suporte a vários tipos de arquivo pa
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |
 | application/msword | Sim | Sim | Sim | Sim | Sim | . dat;. doc |
 | Application/RTF | Sim | Sim | Sim | Sim | Sim | . doc;. rtf |
-| application/vnd. MS-Word. Document. macroenabled. 12 | Sim | Sim | Sim | Sim | Sim | .docm |
+| Application/vnd.ms-word.document. macroenabled. 12 | Sim | Sim | Sim | Sim | Sim | .docm |
 | application/vnd. MS-Word. Template. macroenabled. 12 | Sim | Sim | Sim | Sim | Sim | . dotm |
 | application/vnd.openxmlformats-officedocument.wordprocessingml.document | Sim | Sim | Sim | Sim | Sim | . docx |
 | application/vnd. openxmlformats-officeDocument. WordprocessingML. Template | Sim | Sim | Sim | Sim | Sim | . dotx |

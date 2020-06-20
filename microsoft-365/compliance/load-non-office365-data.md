@@ -16,19 +16,21 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Saiba como usar o recurso de importação de conteúdo não-Office 365 para carregar documentos que não sejam do Office 365 em evidências em uma investigação de dados.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 499b1074b9a1e2026804eab2ac958fe7392e98ea
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
+ms.openlocfilehash: 9bfebc6aad9bc37d7d78ec4a0d50e6de967ac7d1
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034409"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815478"
 ---
 # <a name="load-non-microsoft-365-data-into-evidence"></a>Carregar dados que não sejam da Microsoft 365 em evidências
 
 Nem todos os documentos que você pode precisar analisar em uma investigação de dados estarão localizados no Microsoft 365. Com o recurso de importação de conteúdo não-Microsoft 365, você pode carregar documentos que não estão no Microsoft 365 em evidência para que eles possam ser analisados em uma investigação de dados.
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="requirements-to-upload-non-office-365-content"></a>Requisitos para carregar conteúdo não-Office 365
 
 O uso do recurso carregar não Microsoft 365, conforme descrito neste procedimento, requer que você tenha:
 
@@ -42,7 +44,7 @@ O uso do recurso carregar não Microsoft 365, conforme descrito neste procedimen
 
 - Uma conta que seja um Gerenciador de descoberta eletrônica ou ferramentas de armazenamento do Microsoft Azure administrador instaladas em um computador que tenha acesso à estrutura de pasta de conteúdo não-Microsoft 365.
 
-- Instale o AzCopy, que pode ser feito aqui:https://docs.microsoft.com/azure/storage/common/storage-use-azcopy
+- Instale o AzCopy, que você pode fazer da introdução [ao AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy).
 
 ## <a name="upload-non-microsoft-365-content-in-to-a-data-investigation"></a>Carregar conteúdo não-Microsoft 365 em uma investigação de dados
 

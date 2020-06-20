@@ -19,13 +19,14 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Aplique a identidade visual da sua organização às mensagens de email criptografadas da sua organização e ao conteúdo do portal de criptografia.
-ms.openlocfilehash: 86636b319151a96e9ec827f85cc943282c30f63c
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+- seo-marvel-jun2020
+description: Saiba como os administradores globais do Office 365 podem aplicar a identidade visual da sua organização a mensagens de email criptografadas & conteúdo do portal de criptografia.
+ms.openlocfilehash: 6ec13a9d986019e6eb91d1b7a395f1c6199fe12a
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679105"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818654"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>Adicionar a marca da sua organização a suas mensagens criptografadas
 

@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
-description: Se um novo funcionário ou outro usuário precisar acessar o conteúdo de uma caixa de correio inativa no Office 365, você poderá restaurar (ou mesclar) o conteúdo da caixa de correio inativa para uma caixa de correio existente.
-ms.openlocfilehash: b3cc574b96f616debec38a2b69406bf20dabf7b9
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+description: Saiba como restaurar (ou mesclar) o conteúdo de uma caixa de correio inativa para uma caixa de correio existente no Office 365.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 8ae3927aaaba64711cdcc3362399b109f228cb12
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678957"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818931"
 ---
 # <a name="restore-an-inactive-mailbox"></a>Restaurar uma caixa de correio inativa
 
@@ -33,7 +34,7 @@ Uma caixa de correio inativa (que é um tipo de caixa de correio excluída por s
 
 Consulte a seção **mais informações** neste artigo para obter mais detalhes sobre as diferenças entre a restauração e a recuperação de uma caixa de correio inativa.
   
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="requirements-to-restore-an-inactive-mailbox"></a>Requisitos para restaurar uma caixa de correio inativa
 
 - Você precisa usar o PowerShell do Exchange Online para restaurar uma caixa de correio inativa. Você não pode usar o Centro de Administração do Exchange (EAC). Para obter instruções detalhadas, consulte [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=396554).
 

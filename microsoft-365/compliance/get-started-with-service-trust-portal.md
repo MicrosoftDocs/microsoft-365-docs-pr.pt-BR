@@ -11,15 +11,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MET150
 mscollection: M365-security-compliance
-ms.custom: Adm_O365
+ms.custom:
+- Adm_O365
+- seo-marvel-apr2020
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
-description: Para os relatórios de conformidade normativa do Microsoft 365, Azure e Dynamics 365 online, para ver auditorias de terceiros, descubra como a Microsoft mantém a segurança dos dados dos clientes e como é possível ser compatível com ISO, HIPAA, NIST, FINRA, RGPD e FedRAMP quando você usa esses serviços online.
-ms.openlocfilehash: 837ab06a0b4cf058586cff31c462884833da5871
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba como acessar e usar o Microsoft Service Trust portal para ajudar nas práticas de segurança, privacidade e conformidade.
+ms.openlocfilehash: 0866a32087e61bb8af3ea9d7d4c61ea463864067
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632442"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817620"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Introdução ao portal de confiança do serviço Microsoft
 
@@ -122,7 +124,7 @@ Vá para **mais > administrador** para acessar funções administrativas que est
 
 - **Configurações de privacidade do usuário:** Esta página permite exportar um relatório que contém as atribuições de item de ação no Gerenciador de conformidade para um usuário específico. Você também pode reatribuir todos os itens de ação a um usuário diferente e remover qualquer item de ação atribuído do usuário especificado. Para obter mais informações, consulte [configurações de privacidade do usuário](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#user-privacy-settings).
 
-### <a name="search"></a>Pesquisa
+### <a name="search"></a>Search
 
 Clique na lupa no canto superior direito da página do portal de confiança do serviço para expandir a caixa, insira seus termos de pesquisa e pressione **Enter**. A página de **pesquisa** é exibida, com o termo de pesquisa exibido na caixa de pesquisa e os resultados da pesquisa listados abaixo.
   
@@ -163,7 +165,7 @@ O portal de confiança do serviço permite que você visualize o conteúdo da p�
   
 ![Portal de Confiança do Serviço – opções de conteúdo localizado](../media/b50c677e-a886-4267-9eca-915d880ead7a.png)
   
-## <a name="feedback"></a>Comentários
+## <a name="feedback"></a>Feedback
 
 Podemos ajudá-lo com perguntas sobre o portal de confiança do serviço ou os erros que você enfrenta ao usar o Portal. Você também pode entrar em contato conosco com perguntas e comentários sobre relatórios de conformidade do portal de confiança do serviço e recursos de confiança usando o link feedback na parte inferior das páginas do STP.
   

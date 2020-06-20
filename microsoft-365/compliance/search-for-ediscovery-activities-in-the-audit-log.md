@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
-description: Saiba como pesquisar o log de auditoria em busca de eventos registrados quando os administradores de conformidade realizam pesquisa de conteúdo e tarefas de caixa de descoberta eletrônica no centro de conformidade de & de segurança.
-ms.openlocfilehash: e7ed3ddf16d22750449d3211d96800334676e519
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+description: Saiba quais eventos são registrados quando os usuários atribuíram permissões de descoberta eletrônica realizam pesquisa de conteúdo e tarefas principais de descoberta eletrônica no centro de conformidade de & de segurança.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 671fdebd75dfdaaf09deebf320b9fe4cfab0ca1c
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726516"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818870"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>Procurar atividades de descoberta eletrônica no log de auditoria
 

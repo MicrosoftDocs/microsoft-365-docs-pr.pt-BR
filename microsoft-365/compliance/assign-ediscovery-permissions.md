@@ -17,12 +17,13 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: Atribua as permissões necessárias para executar tarefas relacionadas à descoberta eletrônica usando o centro de conformidade do & de segurança.
-ms.openlocfilehash: 76ec07909fab35dfbead806befe2565f4e2054ae
-ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b5c2cf20d3f417429c6e3793c23c299b860b28fa
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44411028"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818430"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>Atribuir permissões de descoberta eletrônica no centro de conformidade & segurança
 
@@ -45,7 +46,7 @@ O grupo de função principal relacionado à descoberta eletrônica no centro de
 > [!NOTE]
 > Para analisar os dados de um usuário usando a descoberta eletrônica avançada, o usuário (o responsáveis dos dados) deve receber uma licença do Office 365 E5 ou do Microsoft 365 e5. Como alternativa, os usuários com uma licença do Office 365 E1 ou do Office 365 ou do Microsoft 365 E3 podem ser atribuídos a uma licença de Microsoft 365 E5 Compliance ou Microsoft 365 eDiscovery and Audit Add-on. Administradores, responsáveis pela conformidade ou pessoal legal que são atribuídos a casos como membros e usam a descoberta eletrônica avançada para coletar, exibir e analisar dados não precisam de uma licença e5. Para obter mais informações sobre licenciamento de descoberta eletrônica avançada, confira [introdução à descoberta eletrônica avançada](get-started-with-advanced-ediscovery.md).
   
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="confirm-your-roles"></a>Confirmar suas funções
 
 - Você precisa ser membro do grupo de função gerenciamento da organização ou receber a função de gerenciamento de função para atribuir permissões de descoberta eletrônica no centro de conformidade de & de segurança.
     
@@ -82,7 +83,7 @@ A tabela a seguir lista as funções RBAC relacionadas à descoberta eletrônica
 |Custodian <br/> | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
 |Exportar <br/> | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
 |Retenção <br/>  |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
-|Visualização <br/>  | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
+|Preview <br/>  | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
 |Revisão <br/>  | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |
 |Descriptografia do RMS <br/>  ||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |||
 |Pesquisa e limpeza <br/> | <br/> | <br/> |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> | <br/> | 
@@ -138,7 +139,7 @@ Para obter mais informações sobre isenções, consulte:
 
 - [Criar uma retenção na descoberta eletrônica avançada](add-custodians-to-case.md#step-4-place-custodians-on-hold)
 
-### <a name="preview"></a>Visualização
+### <a name="preview"></a>Preview
 
 Essa função permite que os usuários exibam uma lista de itens que foram retornados de uma pesquisa de conteúdo. Eles também podem abrir e exibir cada item da lista para exibir seu conteúdo.
 

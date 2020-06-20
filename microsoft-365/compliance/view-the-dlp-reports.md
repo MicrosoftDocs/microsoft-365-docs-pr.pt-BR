@@ -15,17 +15,18 @@ localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
-description: Com os relatórios de DLP no Office 365, você pode exibir rapidamente o número de correspondências de política de DLP, substituições ou falsos positivos; Veja se eles estão em tendência de cima ou para baixo ao longo do tempo; filtrar o relatório de formas diferentes; e exiba detalhes adicionais selecionando um ponto em uma linha no gráfico.
-ms.openlocfilehash: 6ff8237b1471f10aff3abc40715af7fe538a211c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+description: Use os relatórios de DLP no Office 365 para exibir o número de correspondências de política de DLP, substituições ou falsos positivos e ver se elas estão se esvidas para cima ou para baixo ao longo do tempo.
+ms.openlocfilehash: 1ddcd60dc9314779ade2f7ceae02d336f902e483
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626287"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818991"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>Exibir os relatórios de prevenção contra perda de dados
 
-Após criar as políticas de prevenção de perda de dados (DLP), convém verificar se estão funcionando conforme o esperado e ajudando você a se manter em conformidade. Com os relatórios de DLP no centro &amp; de conformidade de segurança, você pode exibir rapidamente:
+Após criar as políticas de prevenção de perda de dados (DLP), convém verificar se estão funcionando conforme o esperado e ajudando você a se manter em conformidade. Com os relatórios de DLP no centro de conformidade de segurança &amp; , você pode exibir rapidamente:
   
 - **Correspondências de política DLP** Este relatório mostra a contagem de correspondências de política de DLP ao longo do tempo. Você pode filtrar o relatório por data, local, política ou ação. Você pode usar este relatório para: 
     
@@ -57,7 +58,7 @@ Após criar as políticas de prevenção de perda de dados (DLP), convém verifi
     
 Todos os relatórios DLP podem mostrar dados do período de tempo de quatro meses mais recente. Os dados mais recentes podem levar até 24 horas para serem exibidos nos relatórios.
   
-Você &amp; pode encontrar esses relatórios no **painel** **relatórios** \> do centro \> de conformidade de segurança.
+Você pode encontrar esses relatórios no &amp; \> **painel relatórios** do centro de conformidade de segurança \> **Dashboard**.
   
 ![Relatório de correspondências de política DLP](../media/117d20c9-d379-403f-ad68-1f5cd6c4e5cf.png)
   
@@ -89,7 +90,7 @@ Para usar a maioria dos cmdlets do Centro de Conformidade &amp; Segurança, voc�
   
 1. [Conectar-se ao &amp; centro de conformidade de segurança usando o PowerShell remoto](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
     
-2. Use qualquer um desses [cmdlets do centro de &amp; conformidade de segurança](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)
+2. Use qualquer um desses [ &amp; cmdlets do centro de conformidade de segurança](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)
     
 No entanto, os relatórios DLP precisam extrair dados do Office 365, incluindo o Exchange Online. Por esse motivo, os cmdlets dos relatórios DLP estão disponíveis no PowerShell do Exchange Online, e não no &amp; PowerShell do centro de conformidade de segurança. Portanto, para usar os cmdlets para os relatórios DLP, você precisa:
   

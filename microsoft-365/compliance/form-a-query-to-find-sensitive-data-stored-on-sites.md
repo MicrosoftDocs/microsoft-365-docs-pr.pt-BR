@@ -16,13 +16,13 @@ localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
-description: Com a prevenção de perda de dados (DLP) no SharePoint Online, você pode descobrir documentos que contêm dados confidenciais em todo o locatário. Após descobrir os documentos, você pode trabalhar com os proprietários do documento para proteger os dados. Este tópico pode ajudá-lo a formar uma consulta para procurar dados confidenciais.
-ms.openlocfilehash: 78f7f07bf6b2fbb0781f4bda8716b84399eef561
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+description: Use o DLP (prevenção contra perda de dados) no SharePoint Online para descobrir documentos que contêm dados confidenciais em todo o locatário.
+ms.openlocfilehash: b6a0943aa4e71b61c5f430034d9e445462eebde7
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327909"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817700"
 ---
 # <a name="form-a-query-to-find-sensitive-data-stored-on-sites"></a>Criar uma consulta para encontrar dados confidenciais armazenados em sites
 
@@ -33,7 +33,7 @@ Os usuários armazenam frequentemente dados confidenciais em seus sites, como n�
   
 ## <a name="forming-a-basic-dlp-query"></a>Criando uma consulta básica de DLP
 
-Uma consulta básica de DLP é composta por três partes: SensitiveType, intervalo de contagem, e intervalo de confiança. Conforme ilustrado no gráfico a seguir, **sensitivetype: " \< Type \> "** é necessário, e o intervalo** | \< \> de contagem** e o intervalo** | \< \> de confiança** são opcionais. 
+Uma consulta básica de DLP é composta por três partes: SensitiveType, intervalo de contagem, e intervalo de confiança. Conforme ilustrado no gráfico a seguir, **sensitivetype: " \<type\> "** é obrigatório, e ambos **|\<count range\>** e **|\<confidence range\>** são opcionais. 
   
 ![Consulta de exemplo dividida em necessária e opcional](../media/DLP-query-example-text.png)
   
@@ -88,7 +88,7 @@ Nem todas as consultas são criadas da mesma forma. A tabela a seguir fornece ex
    
 ## <a name="for-more-information"></a>Para obter mais informações
 
-- [Definições de entidade de tipo de informação confidencial](sensitive-information-type-entity-definitions.md)
+- [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
 - [Executar uma Pesquisa de Conteúdo](content-search.md)
 - [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md)
   

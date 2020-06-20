@@ -17,18 +17,16 @@ ms.collection:
 - Strat_O365_Enterprise
 description: Saiba mais sobre a criptografia disponível no Azure, como a criptografia de disco do Azure
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d5d334c56228a372d7e389bd5d0eff9859184d5b
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 57581f7ca1f4cb605aa2617f73dd1e4b04bd129c
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033629"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818850"
 ---
 # <a name="encryption-in-azure"></a>Criptografia no Azure
 
 Garantias tecnológicas no Azure, como comunicações criptografadas e processos operacionais, ajudam a manter seus dados seguros. Você também tem a flexibilidade para implementar recursos de criptografia adicionais e gerenciar suas próprias chaves criptográficas. Independentemente da configuração do cliente, a Microsoft aplica criptografia para proteger os dados do cliente no Azure. A Microsoft também permite que você controle seus dados hospedados no Azure por meio de uma variedade de tecnologias avançadas para criptografar, controlar e gerenciar chaves criptográficas e controlar e auditar o acesso aos dados. Além disso, o armazenamento do Azure fornece um conjunto abrangente de recursos de segurança que, juntos, permitem que os desenvolvedores criem aplicativos seguros.
-
-## <a name="introduction"></a>Introdução
 
 O Azure oferece muitos mecanismos para proteger os dados à medida que ele se move de um local para outro. A Microsoft usa o TLS para proteger os dados quando está viajando entre os serviços de nuvem e os clientes. Os data centers da Microsoft negociam uma conexão TLS com sistemas clientes que se conectam aos serviços do Azure. O sigilo total na transferência (PFS) protege as conexões entre os sistemas clientes e os serviços de nuvem da Microsoft por chaves exclusivas. As conexões também usam comprimentos de chave de criptografia de 2.048 bits baseados em RSA. Essa combinação torna difícil para alguém interceptar e acessar os dados que estão em trânsito.
 

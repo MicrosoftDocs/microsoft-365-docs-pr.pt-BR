@@ -13,13 +13,15 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Saiba mais sobre os limites em vigor para a solução de descoberta eletrônica avançada no Microsoft 365. Isso inclui limites de caso, limites de indexação e limites de pesquisa ao usar a ferramenta de pesquisa para coletar dados de caso.
-ms.openlocfilehash: babc05cc5c74f435f0be6fbc8eafd80f09a77b75
-ms.sourcegitcommit: 33be6075fcc89d4c0a48fa7e59f3b3ebc605d9f3
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba mais sobre os limites de caso, limites de indexação e limites de pesquisa em vigor para a solução de descoberta eletrônica avançada no Microsoft 365.
+ms.openlocfilehash: 67e53a484878b0ea4ddde29d77297a3d9b2fd7cd
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44520143"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817088"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Limites da Descoberta Eletrônica Avançada
 

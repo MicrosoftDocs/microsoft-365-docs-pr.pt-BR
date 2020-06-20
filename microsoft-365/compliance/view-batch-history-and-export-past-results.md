@@ -16,17 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: 35d52b41-75ab-4144-9edf-31e11453bd5d
 description: 'Saiba como exibir informações detalhadas para as sessões de lote de exportação selecionadas e como desfazer a última sessão de exportação na descoberta eletrônica avançada.  '
-ms.openlocfilehash: 356b0b61288b466da38bc640f9aad636ee654da2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 498cd5d0fbeea4902a0992e8210666884a308f72
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626347"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819051"
 ---
 # <a name="view-batch-history-and-export-past-results-in-advanced-ediscovery-classic"></a>Exibir histórico de lote e exportar resultados passados em descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
-> A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 A seção a seguir descreve as opções adicionais para a exibição em lotes e a exportação de dados na descoberta eletrônica avançada. 
   
@@ -34,7 +35,7 @@ A seção a seguir descreve as opções adicionais para a exibição em lotes e 
 
 A caixa de diálogo Exportar histórico fornece informações detalhadas sobre as sessões de lote de exportação selecionadas e também oferece a capacidade de desfazer a última sessão.
   
-1. Em **Configurar \> exportação**, selecione o nome do lote na lista suspensa **Exportar lote** . 
+1. Em ** \> Configurar exportação**, selecione o nome do lote na lista suspensa **Exportar lote** . 
     
 2. À direita do nome do lote de exportação, selecione o ícone do **histórico de lotes** : 
     
@@ -46,9 +47,9 @@ A caixa de diálogo Exportar histórico fornece informações detalhadas sobre a
   
 3. Se for necessário reverter uma sessão anterior, clique em **desfazer última sessão**. A reversão pode ser executada várias vezes, o que cancela a última sessão.
     
-4. Se você deseja baixar dados a qualquer momento de uma sessão de lote de exportação previamente executada, clique **Download** no ícone ![download de download do histórico](../media/de69b920-a6ac-4ddb-b93e-e1cc5888e6c4.gif) de lotes para exportação ao lado do lote de exportação desejado a ser exportado. 
+4. Se você deseja baixar dados a qualquer momento de uma sessão de lote de exportação previamente executada, clique no ícone **Download** de download do ![ histórico de lotes ](../media/de69b920-a6ac-4ddb-b93e-e1cc5888e6c4.gif) para exportação ao lado do lote de exportação desejado a ser exportado. 
     
-5. Quando a caixa de diálogo **assinatura de acesso compartilhado** for exibida, clique em **copiar para área de transferência** para copiar os dados da sessão de exportação para a máquina local e clique em **Fechar**. A caixa &amp; de diálogo **ferramenta de exportação de descoberta eletrônica** do centro de conformidade de segurança é exibida. 
+5. Quando a caixa de diálogo **assinatura de acesso compartilhado** for exibida, clique em **copiar para área de transferência** para copiar os dados da sessão de exportação para a máquina local e clique em **Fechar**. A &amp; caixa de diálogo **ferramenta de exportação de descoberta eletrônica** do centro de conformidade de segurança é exibida. 
     
     ![Diálogo Exportar Descoberta Eletrônica](../media/01f79d2d-6da0-45e6-9c6f-ab12347572cb.gif)
   
@@ -60,7 +61,7 @@ A caixa de diálogo Exportar histórico fornece informações detalhadas sobre a
     
 3. Clique em **Iniciar**. Os arquivos de exportação são baixados para a máquina local. 
     
-## <a name="see-also"></a>Também consulte
+## <a name="related-topics"></a>Tópicos relacionados
 
 [Descoberta Eletrônica Avançada (clássica)](office-365-advanced-ediscovery.md)
   

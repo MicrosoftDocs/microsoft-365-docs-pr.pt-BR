@@ -18,13 +18,14 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 'Uma dica de política é uma notificação ou um aviso que aparece quando alguém está trabalhando com conteúdo que está em conflito com uma política de DLP. Você pode usar notificações por email e dicas de política para aumentar a conscientização e ajudar a ensinar as pessoas sobre as políticas da sua organização. Você também pode conceder às pessoas a opção de substituir a política, para que elas não sejam bloqueadas se tiverem uma necessidade comercial válida ou se a política estiver detectando um falso positivo. '
-ms.openlocfilehash: 6c9175045f7a93cab03acff891454536c8b5b7a0
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.custom: seo-marvel-apr2020
+description: Saiba como adicionar uma dica de política a uma política de prevenção de perda de dados (DLP) para notificar um usuário de que eles estão trabalhando com conteúdo que está em conflito com uma política de DLP.
+ms.openlocfilehash: a36d1de9a24136943b41f12fe7f12a44d9df59f1
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327259"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819301"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>Enviar notificações por email e mostrar dicas para políticas de DLP
 
@@ -91,7 +92,7 @@ Ao criar uma política de DLP, você pode habilitar as **notificações do usuá
 
 Para cada regra de uma política de DLP, você pode:
   
-- Enviar a notificação para as pessoas que você escolher. Essas pessoas podem incluir o proprietário do conteúdo, a pessoa que modificou o conteúdo pela última vez, o proprietário do site em que o conteúdo está armazenado ou um usuário específico.
+- Send the notification to the people you choose. These people can include the owner of the content, the person who last modified the content, the owner of the site where the content is stored, or a specific user.
     
 - Personalizar o texto que está incluído na notificação usando HTML ou tokens. Confira a seção abaixo para mais informações.
     
@@ -106,13 +107,13 @@ As notificações têm uma linha de assunto que começa com a ação executada, 
   
 ![Mensagem de notificação](../media/35813d40-5fd8-425f-9624-55655e74fa6b.png)
   
-Por padrão, as notificações exibem um texto semelhante ao seguinte para um item em um site. O texto de notificação é configurado separadamente para cada regra, para que o texto exibido seja diferente dependendo da regra que for correspondida.
+By default, notifications display text similar to the following for an item on a site. The notification text is configured separately for each rule, so the text that's displayed differs depending on which rule is matched.
 
 |**Se a regra de política de DLP fizer isso...**|**Em seguida, a notificação padrão para documentos do SharePoint ou do OneDrive for Business diz isso...**|**Em seguida, a notificação padrão para mensagens do Outlook diz isso...**|
 |:-----|:-----|:-----|
 |Envia uma notificação, mas não permite substituição  <br/> |Este item está em conflito com uma política de sua organização.  <br/> |Sua mensagem de email está em conflito com uma política da sua organização.  <br/> |
 |Bloqueia o acesso, envia uma notificação e permite a substituição  <br/> |Este item está em conflito com uma política de sua organização. Se você não resolver esse conflito, o acesso a esse arquivo poderá ser bloqueado.  <br/> |Sua mensagem de email está em conflito com uma política da sua organização. A mensagem não foi entregue a todos os destinatários.  <br/> |
-|Bloqueia o acesso e envia uma notificação  <br/> |Este item está em conflito com uma política de sua organização. O acesso a este item está bloqueado para todos, exceto seu proprietário, o último modificador e o administrador de conjunto de site principal.  <br/> |Sua mensagem de email está em conflito com uma política da sua organização. A mensagem não foi entregue a todos os destinatários.  <br/> |
+|Bloqueia o acesso e envia uma notificação  <br/> |This item conflicts with a policy in your organization. Access to this item is blocked for everyone except its owner, last modifier, and the primary site collection administrator.  <br/> |Sua mensagem de email está em conflito com uma política da sua organização. A mensagem não foi entregue a todos os destinatários.  <br/> |
    
 ### <a name="custom-email-notification"></a>Notificação de email personalizada
 
@@ -138,17 +139,17 @@ Para cada regra de uma política de DLP, você pode configurar as dicas de polí
     
   - Exigir que a pessoa insira uma justificativa comercial para substituir a política. Essas informações são registradas e você pode exibi-las nos relatórios DLP na seção **relatórios** do centro de &amp; conformidade de segurança. 
     
-  - Permitir que a pessoa relate falsos positivos e substitua a política de DLP. Essas informações também são registradas em log para fins de relatório, para que você possa usar falsos positivos para ajustar suas regras.
+  - Allow the person to report a false positive and override the DLP policy. This information is also logged for reporting, so that you can use false positives to fine tune your rules.
     
 ![Opções de dica de política](../media/0d2f2c68-028a-4900-afe6-1d9fce5303ef.png)
   
 Por exemplo, você pode ter uma política de DLP aplicada a sites do OneDrive for Business que detecta informações de identificação pessoal (PII) e esta política tem três regras:
   
-1. Primeira regra: Se menos de cinco instâncias dessas informações confidenciais forem detectadas em um documento e o documento for compartilhado com pessoas de dentro da organização, a ação **Enviar uma notificação** exibe uma dica de política. Para obter dicas de política, nenhuma opção de substituição é necessária porque essa regra está simplesmente notificando as pessoas e não bloqueando o acesso. 
+1. First rule: If fewer than five instances of this sensitive information are detected in a document, and the document is shared with people inside the organization, the **Send a notification** action displays a policy tip. For policy tips, no override options are necessary because this rule is simply notifying people and not blocking access. 
     
 2. Segunda regra: Se mais do que cinco instâncias dessas informações confidenciais forem detectadas em um documento e o documento for compartilhado com pessoas dentro da organização, a ação **Revogar acesso ao conteúdo** restringe as permissões para o arquivo e a ação **Enviar uma notificação** permite que as pessoas substituam as ações nesta regra, fornecendo uma justificativa de negócios. Às vezes, os negócios da sua organização exigem que pessoas internas compartilhem dados de PII e você não deseja que sua política de DLP bloqueie esse trabalho. 
     
-3. Terceira regra: Se mais do que cinco instâncias dessas informações confidenciais forem detectadas em um documento e o documento for compartilhado com pessoas de fora organização, a ação **Revogar acesso ao conteúdo** restringe as permissões para o arquivo e a ação **Enviar uma notificação** não permite que as pessoas substituam as ações nesta regra, porque as informações são compartilhadas externamente. Sob nenhuma circunstância deve-se permitir que as pessoas em sua organização compartilhem dados de PII fora da organização. 
+3. Third rule: If greater than five instances of this sensitive information are detected in a document, and the document is shared with people outside the organization, the **Block access to content** action restricts the permissions for the file, and the **Send a notification** action does not allow people to override the actions in this rule because the information is shared externally. Under no circumstances should people in your organization be allowed to share PII data outside the organization. 
     
 Veja aqui alguns pontos para entender sobre o uso de uma dica de política para substituir uma regra:
   
@@ -176,17 +177,17 @@ A dica de política lista os problemas com o conteúdo e se as dicas de polític
   
 ![Dica de política com opção para substituir](../media/e250bff9-41d5-4ce4-82ea-1dc2d043fab1.png)
   
-As políticas de DLP são sincronizadas para sites e o conteúdo é avaliado em comparação com elas de forma periódica e assíncrona, portanto, pode haver um pequeno atraso entre a hora em que você criar a política de DLP e a hora em que você começar a receber dicas de política. Pode haver um atraso semelhante ao resolver ou substituir uma dica de política em relação a quando o ícone do documento no site desaparece.
+DLP policies are synced to sites and contented is evaluated against them periodically and asynchronously, so there may be a short delay between the time you create the DLP policy and the time you begin to see policy tips. There may be a similar delay from when you resolve or override a policy tip to when the icon on the document on the site goes away.
   
 ### <a name="default-text-for-policy-tips-on-sites"></a>Texto padrão para dicas de política em sites
 
-Por padrão, as dicas de política exibem um texto semelhante ao seguinte para um item em um site. O texto de notificação é configurado separadamente para cada regra, para que o texto exibido seja diferente dependendo da regra que for correspondida.
+By default, policy tips display text similar to the following for an item on a site. The notification text is configured separately for each rule, so the text that's displayed differs depending on which rule is matched.
 
 |**Se a regra de política de DLP fizer isso...**|**Em seguida, a dica de política padrão diz isso...**|
 |:-----|:-----|
 |Envia uma notificação, mas não permite substituição  <br/> |Este item está em conflito com uma política de sua organização.  <br/> |
 |Bloqueia o acesso, envia uma notificação e permite a substituição  <br/> |Este item está em conflito com uma política de sua organização. Se você não resolver esse conflito, o acesso a esse arquivo poderá ser bloqueado.  <br/> |
-|Bloqueia o acesso e envia uma notificação  <br/> |Este item está em conflito com uma política de sua organização. O acesso a este item está bloqueado para todos, exceto seu proprietário, o último modificador e o administrador de conjunto de site principal.  <br/> |
+|Bloqueia o acesso e envia uma notificação  <br/> |This item conflicts with a policy in your organization. Access to this item is blocked for everyone except its owner, last modifier, and the primary site collection administrator.  <br/> |
    
 ### <a name="custom-text-for-policy-tips-on-sites"></a>Texto personalizado para dicas de política em sites
 
@@ -265,7 +266,7 @@ Em cada um desses programas da área de trabalho do Office, as pessoas podem opt
   
 ### <a name="default-text-for-policy-tips-in-excel-2016-powerpoint-2016-and-word-2016"></a>Texto padrão para dicas de política no Excel 2016, PowerPoint 2016 e Word 2016
 
-Por padrão, as dicas de política exibem texto semelhante ao seguinte no modo de exibição de Backstage e de Barra de mensagem de um documento aberto. O texto de notificação é configurado separadamente para cada regra, para que o texto exibido seja diferente dependendo da regra que for correspondida.
+By default, policy tips display text similar to the following on the Message Bar and Backstage view of an open document. The notification text is configured separately for each rule, so the text that's displayed differs depending on which rule is matched.
 
 |**Se a regra de política de DLP fizer isso...**|**Em seguida, a dica de política padrão diz isso...**|
 |:-----|:-----|
@@ -287,4 +288,4 @@ Você pode personalizar o texto para dicas de política separadamente da notific
     
 - [O que os modelos de política DLP incluem](what-the-dlp-policy-templates-include.md)
     
-- [Definições de entidade de tipo de informação confidencial](sensitive-information-type-entity-definitions.md)
+- [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)

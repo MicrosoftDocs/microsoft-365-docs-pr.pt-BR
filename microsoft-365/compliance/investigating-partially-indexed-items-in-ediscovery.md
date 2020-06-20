@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
-description: Itens parcialmente indexados (também chamadas de itens não indexados) são itens de caixa de correio do Exchange e documentos em sites do SharePoint e do OneDrive que, por algum motivo, não foram completamente indexados para pesquisa de conteúdo. Neste artigo, você pode aprender por que os itens não podem ser indexados para pesquisa e são retornados como itens parcialmente indexados, identificar erros de pesquisa para itens parcialmente indexados e usar um script do PowerShell para determinar a exposição da sua organização a itens de email parcialmente indexados.
-ms.openlocfilehash: 0053ec5b03f5d32af1a39be94474c05f74ec3234
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como gerenciar itens parcialmente indexados (ou não indexados) do Exchange, SharePoint e OneDrive em sua organização.
+ms.openlocfilehash: ed85a9351aad340c5840b6b9b9ea6e55833ed527
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942124"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817520"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>Investigar itens parcialmente indexados na descoberta eletrônica
 
@@ -80,9 +82,9 @@ Em casos em que você precisa examinar itens parcialmente para validar que eles 
   
 ![Escolha a segunda ou terceira opção para exportar itens parcialmente indexados](../media/624a62b4-78f7-4329-ab5d-e62e3b369885.png)
   
-Quando você exporta resultados de pesquisa de conteúdo ou um relatório de pesquisa de conteúdo usando uma destas opções, a exportação inclui um relatório chamado itens não indexados. csv. Este relatório inclui a maioria das mesmas informações que o arquivo ResultsLog. csv; no entanto, o arquivo items. CSV não indexado também inclui dois campos relacionados a itens parcialmente indexados: **marcas de erro** e **Propriedades de erro**. Esses campos contêm informações sobre o erro de indexação para cada item parcialmente indexado. O uso das informações nesses dois campos pode ajudá-lo a determinar se o erro de indexação para um determinado impacto em sua investigação. Se isso acontecer, você poderá executar uma pesquisa de conteúdo direcionado e recuperar e exportar mensagens de email específicas e documentos do SharePoint ou do OneDrive para que possa examiná-las para determinar se elas são relevantes para a investigação. Para obter instruções passo a passo, consulte [preparar um arquivo CSV para uma pesquisa de conteúdo direcionado no Office 365](csv-file-for-an-id-list-content-search.md).
+Quando você exporta resultados de pesquisa de conteúdo ou um relatório de pesquisa de conteúdo usando uma destas opções, a exportação inclui um relatório chamado Items.csv não indexado. Este relatório inclui a maioria das mesmas informações que o arquivo de ResultsLog.csv; no entanto, o arquivo Items.csv não indexado também inclui dois campos relacionados a itens parcialmente indexados: **marcas de erro** e **Propriedades de erro**. Esses campos contêm informações sobre o erro de indexação para cada item parcialmente indexado. O uso das informações nesses dois campos pode ajudá-lo a determinar se o erro de indexação para um determinado impacto em sua investigação. Se isso acontecer, você poderá executar uma pesquisa de conteúdo direcionado e recuperar e exportar mensagens de email específicas e documentos do SharePoint ou do OneDrive para que possa examiná-las para determinar se elas são relevantes para a investigação. Para obter instruções passo a passo, consulte [preparar um arquivo CSV para uma pesquisa de conteúdo direcionado no Office 365](csv-file-for-an-id-list-content-search.md).
   
- **Observação:** O arquivo items. CSV não indexado também contém campos chamados de **tipo de erro** e **mensagem de erro**. Estes são campos herdados que contêm informações semelhantes às informações nos campos marcas de **erro** e **Propriedades de erro** , mas com informações menos detalhadas. Você pode ignorar com segurança esses campos herdados. 
+ **Observação:** O arquivo Items.csv não indexado também contém campos chamados de **tipo de erro** e mensagem de **erro**. Estes são campos herdados que contêm informações semelhantes às informações nos campos marcas de **erro** e **Propriedades de erro** , mas com informações menos detalhadas. Você pode ignorar com segurança esses campos herdados. 
   
 ## <a name="errors-related-to-partially-indexed-items"></a>Erros relacionados a itens parcialmente indexados
 
@@ -93,7 +95,7 @@ Marcas de erro são comparadas de duas partes de informação, o erro e o tipo d
 ```
 
    
- `parseroutputsize`é o erro e `xls` é o tipo de arquivo do arquivo no qual o erro ocorreu. Nos casos em que o tipo de arquivo não foi reconhecido ou o tipo de arquivo não se aplica ao erro, você verá `noformat` o valor no lugar do tipo de arquivo. 
+ `parseroutputsize`é o erro e `xls` é o tipo de arquivo do arquivo no qual o erro ocorreu. Nos casos em que o tipo de arquivo não foi reconhecido ou o tipo de arquivo não se aplica ao erro, você verá o valor `noformat` no lugar do tipo de arquivo. 
   
 Veja a seguir uma lista de erros de indexação e uma descrição da possível causa do erro.
   
@@ -116,13 +118,13 @@ Veja a seguir uma lista de erros de indexação e uma descrição da possível c
 | `retrieverrms` <br/> |O recuperador de conteúdo falhou ao decodificar uma mensagem protegida por RMS.  <br/> |
 | `wordbreakertruncated` <br/> |Muitas palavras foram identificadas no documento durante a indexação. Processamento da propriedade parado ao atingir o limite, e a propriedade será truncada.  <br/> |
    
-Os campos de erro descrevem quais campos são afetados pelo erro de processamento listado no campo marcas de erro. Se você estiver pesquisando uma propriedade como `subject` ou `participants`, os erros no corpo da mensagem não afetarão os resultados da pesquisa. Isso pode ser útil ao determinar exatamente quais itens parcialmente indexados você talvez precise investigar.
+Os campos de erro descrevem quais campos são afetados pelo erro de processamento listado no campo marcas de erro. Se você estiver pesquisando uma propriedade como `subject` ou `participants` , os erros no corpo da mensagem não afetarão os resultados da pesquisa. Isso pode ser útil ao determinar exatamente quais itens parcialmente indexados você talvez precise investigar.
   
 ## <a name="using-a-powershell-script-to-determine-your-organizations-exposure-to-partially-indexed-email-items"></a>Usando um script do PowerShell para determinar a exposição da sua organização a itens de email parcialmente indexados
 
 As etapas a seguir mostram como executar um script do PowerShell que pesquisa todos os itens em todas as caixas de correio do Exchange e, em seguida, gera um relatório sobre a taxa da organização de itens de email parcialmente indexados (por contagem e por tamanho) e exibe o número de itens (e o tipo de arquivo) para cada erro de indexação que ocorre. Use as descrições de marcas de erro na seção anterior para identificar o erro de indexação.
   
-1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo. ps1; por exemplo, `PartiallyIndexedItems.ps1`.
+1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo. ps1; por exemplo, `PartiallyIndexedItems.ps1` .
 
 ```powershell
   write-host "**************************************************"

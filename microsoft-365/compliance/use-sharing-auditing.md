@@ -19,13 +19,14 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
-description: 'O compartilhamento é uma atividade importante no SharePoint Online e no OneDrive for Business. Agora, os administradores podem usar a auditoria de compartilhamento no log de auditoria para identificar recursos compartilhados com usuários fora da sua organização. '
-ms.openlocfilehash: 63b56831dc5409cc92a0c4a2f4bf002cd268a878
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: O administrador pode aprender a usar a auditoria de compartilhamento no log de auditoria do Microsoft 365 para identificar recursos compartilhados com usuários fora da sua organização.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d26a8022f8d59aeb56a03c50ae546777c882ef7a
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626377"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819291"
 ---
 # <a name="use-sharing-auditing-in-the-audit-log"></a>Usar a auditoria de compartilhamento no log de auditoria
 
@@ -97,7 +98,7 @@ A primeira etapa é Pesquisar o log de auditoria para eventos de compartilhament
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Entre usando sua conta corporativa ou de estudante.
+2. Entre usando sua conta de trabalho ou da escola.
     
 3. No painel esquerdo do Centro de Conformidade e Segurança, clique em **Pesquisar**  > **Pesquisa de log de auditoria**.
     
@@ -152,4 +153,4 @@ Depois de seguir as instruções da etapa anterior para preparar o arquivo CSV u
     Agora o Excel exibe as linhas para o compartilhamento de eventos e onde o usuário de destino está fora da sua organização, porque usuários externos são identificados pelo valor **TargetUserOrGroupType: Guest**. 
   
 > [!TIP]
-> Para os registros de auditoria exibidos, a coluna **ObjectID** identifica o recurso que foi compartilhado com o usuário de destino; por exemplo `ObjectId:https:\/\/contoso-my.sharepoint.com\/personal\/sarad_contoso_com\/Documents\/Southwater Proposal.docx`.
+> Para os registros de auditoria exibidos, a coluna **ObjectID** identifica o recurso que foi compartilhado com o usuário de destino; por exemplo `ObjectId:https:\/\/contoso-my.sharepoint.com\/personal\/sarad_contoso_com\/Documents\/Southwater Proposal.docx` .

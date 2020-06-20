@@ -21,12 +21,13 @@ search.appverid:
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 'Exporte os resultados da pesquisa de uma pesquisa de conteúdo no centro de conformidade de & de segurança para um computador local. Os resultados de email são exportados como arquivos PST. O conteúdo de sites do SharePoint e do OneDrive for Business são exportados como documentos nativos do Office. '
-ms.openlocfilehash: 3b9997b11763d91357e53d12ef70ffb025a04d74
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6fda7c103b90664fc6c31c3f0436b6d360468537
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43615985"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817750"
 ---
 # <a name="export-content-search-results"></a>Exportar os resultados da Pesquisa de Conteúdo
 
@@ -36,7 +37,7 @@ Quaisquer mensagens de email criptografadas por RMS incluídas nos resultados de
   
 Exportar os resultados de uma pesquisa de conteúdo envolve preparar os resultados e, em seguida, baixá-los para um computador local.
   
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-export-content-search-results"></a>Antes de exportar os resultados da pesquisa de conteúdo
 
 - Para exportar os resultados da pesquisa, você precisa ter a função de gerenciamento de exportação no centro de conformidade de segurança &. Essa função é atribuída ao grupo de função do Gerente de Descoberta Eletrônica interno. Ela não é atribuída por padrão ao grupo de funções Gerenciamento da Organização. Para obter mais informações, confira [Atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
     
@@ -60,15 +61,15 @@ Exportar os resultados de uma pesquisa de conteúdo envolve preparar os resultad
     
 - Ao baixar os resultados da pesquisa (descritos na etapa 2), você pode aumentar a velocidade de download Configurando uma configuração do registro do Windows no computador que você usa para exportar os resultados da pesquisa. Para obter mais informações, consulte [aumentar a velocidade de download ao exportar resultados de pesquisa de descoberta eletrônica do Office 365](increase-download-speeds-when-exporting-ediscovery-results.md).
     
-- Quando você exporta os resultados da pesquisa, os dados são temporariamente armazenados em um local de armazenamento do Azure fornecido pela Microsoft na nuvem da Microsoft antes de ele ser baixado para seu computador local. Certifique-se de que sua organização possa se conectar ao ponto de extremidade no Azure, que é ** \*. blob.Core.Windows.net** (o caractere curinga representa um identificador exclusivo para sua exportação). Os dados dos resultados da pesquisa são excluídos do local de armazenamento do Azure duas semanas após sua criação. 
+- Quando você exporta os resultados da pesquisa, os dados são temporariamente armazenados em um local de armazenamento do Azure fornecido pela Microsoft na nuvem da Microsoft antes de ele ser baixado para seu computador local. Certifique-se de que sua organização possa se conectar ao ponto de extremidade no Azure, que é ** \* . blob.Core.Windows.net** (o caractere curinga representa um identificador exclusivo para sua exportação). Os dados dos resultados da pesquisa são excluídos do local de armazenamento do Azure duas semanas após sua criação. 
     
-- Se sua organização usa um servidor proxy para se comunicar com a Internet, você precisa definir as configurações do servidor proxy no computador que você usa para exportar os resultados da pesquisa (para que a ferramenta exportar possa ser autenticada pelo seu servidor proxy). Para fazer isso, abra o arquivo *Machine. config* no local que corresponde à sua versão do Windows. 
+- Se sua organização usa um servidor proxy para se comunicar com a Internet, você precisa definir as configurações do servidor proxy no computador que você usa para exportar os resultados da pesquisa (para que a ferramenta exportar possa ser autenticada pelo seu servidor proxy). Para fazer isso, abra o arquivo *machine.config* no local que corresponde à sua versão do Windows. 
     
   - **32 bits:**`%windir%\Microsoft.NET\Framework\[version]\Config\machine.config`
     
   - **64 bits:**`%windir%\Microsoft.NET\Framework64\[version]\Config\machine.config`
     
-    Adicione as seguintes linhas ao arquivo *Machine. config* em algum lugar entre `<configuration>` as `</configuration>` marcas e. Certifique-se de `ProxyServer` substituir `Port` e com os valores corretos para sua organização; por exemplo, `proxy01.contoso.com:80` . 
+    Adicione as seguintes linhas ao arquivo de *machine.config* em algum lugar entre as `<configuration>` `</configuration>` marcas e. Certifique-se de substituir `ProxyServer` e `Port` com os valores corretos para sua organização; por exemplo, `proxy01.contoso.com:80` . 
     
     ```text
     <system.net>
@@ -87,7 +88,7 @@ A primeira etapa é preparar os resultados da pesquisa para a exportação. Ao p
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
     
-2. Entre usando sua conta corporativa ou de estudante.
+2. Entre usando sua conta de trabalho ou da escola.
     
 3. No painel esquerdo do centro de conformidade & segurança, clique em **Search** \> **pesquisa de conteúdo**de pesquisa.
     
@@ -96,7 +97,7 @@ A primeira etapa é preparar os resultados da pesquisa para a exportação. Ao p
 5. No painel de detalhes, em **Exportar resultados para um computador**, clique em **Iniciar exportação**.
     
     > [!NOTE]
-    > Se os resultados de uma pesquisa tiverem mais de 7 dias, você precisará atualizá-los. Se isso acontecer, cancele a exportação, clique em **Atualizar resultados de pesquisa** no painel de detalhes para a pesquisa selecionada e inicie a exportação novamente após os resultados serem atualizados.  
+    > If the results for a search are older than 7 days, you are prompted to update the search results. If this happens, cancel the export, click **Update search results** in the details pane for the selected search, and then start the export again after the results are updated. 
   
 6. Na página **exportar os resultados da pesquisa** , em **Opções de saída**, escolha uma das seguintes opções:
     
@@ -123,7 +124,7 @@ A primeira etapa é preparar os resultados da pesquisa para a exportação. Ao p
   
 8. Clique na caixa de seleção **habilitar eliminação de duplicação** para excluir mensagens duplicadas. Essa opção será exibida somente se as fontes de conteúdo da pesquisa incluírem caixas de correio do Exchange ou pastas públicas. 
     
-    Se você selecionar essa opção, somente uma cópia de uma mensagem será exportada, mesmo se várias cópias da mesma mensagem forem encontradas nas caixas de correio que foram pesquisadas. O relatório de resultados de exportação (Results. csv) conterá uma linha para cada cópia de uma mensagem duplicada para que você possa identificar as caixas de correio (ou pastas públicas) que contenham uma cópia da mensagem duplicada. Para obter mais informações sobre a eliminação de duplicação e como os itens duplicados são identificados, consulte [desduplicação nos resultados da pesquisa de descoberta eletrônica](de-duplication-in-ediscovery-search-results.md).
+    Se você selecionar essa opção, somente uma cópia de uma mensagem será exportada, mesmo se várias cópias da mesma mensagem forem encontradas nas caixas de correio que foram pesquisadas. O relatório de resultados de exportação (Results.csv) conterá uma linha para cada cópia de uma mensagem duplicada para que você possa identificar as caixas de correio (ou pastas públicas) que contenham uma cópia da mensagem duplicada. Para obter mais informações sobre a eliminação de duplicação e como os itens duplicados são identificados, consulte [desduplicação nos resultados da pesquisa de descoberta eletrônica](de-duplication-in-ediscovery-search-results.md).
     
 9. Clique na caixa de seleção **incluir versões para documentos do SharePoint** para exportar todas as versões dos documentos do SharePoint. Essa opção será exibida somente se as fontes de conteúdo da pesquisa incluírem sites do SharePoint ou do OneDrive for Business. 
     
@@ -248,7 +249,7 @@ Veja mais informações sobre como exportar resultados de pesquisa.
     
   - **Erros e avisos** Contém erros e avisos para arquivos encontrados durante a exportação. Consulte a coluna detalhes do erro para obter informações específicas sobre cada erro ou aviso individual. 
     
-  - **Itens ignorados** Quando você exporta resultados de pesquisa de sites do SharePoint e do OneDrive for Business, a exportação normalmente inclui um relatório de itens ignorados (SkippedItems. csv). Os itens citados neste relatório normalmente são itens que não serão baixados, como uma pasta ou um conjunto de documentos. A não exportação desses tipos de itens é por design. Para outros itens que foram ignorados, o campo "tipo de erro" e "detalhes do erro" no relatório de itens ignorados mostra o motivo pelo qual o item foi ignorado e não foi baixado com os outros resultados da pesquisa. 
+  - **Itens ignorados** Quando você exporta resultados de pesquisa de sites do SharePoint e do OneDrive for Business, a exportação normalmente inclui um relatório de itens ignorados (SkippedItems.csv). Os itens citados neste relatório normalmente são itens que não serão baixados, como uma pasta ou um conjunto de documentos. A não exportação desses tipos de itens é por design. Para outros itens que foram ignorados, o campo "tipo de erro" e "detalhes do erro" no relatório de itens ignorados mostra o motivo pelo qual o item foi ignorado e não foi baixado com os outros resultados da pesquisa. 
     
   - **Log de rastreamento** Contém informações detalhadas de registro sobre o processo de exportação e pode ajudar a descobrir problemas durante a exportação. 
     
@@ -282,13 +283,13 @@ Veja mais informações sobre como exportar resultados de pesquisa.
     
     Se você optar por exportar itens parcialmente indexados, os itens de caixa de correio parcialmente indexados serão exportados em um arquivo PST separado, independentemente da opção que você escolher em **exportar o conteúdo do Exchange como**.
 
-- Se itens parcialmente indexados forem retornados nos resultados da pesquisa (porque outras propriedades de itens parcialmente indexados corresponderam aos critérios de pesquisa), esses parcialmente indexados serão exportados com os resultados de pesquisa regulares. Portanto, se você optar por exportar itens indexados e itens parcialmente indexados (selecionando **todos os itens, incluindo aqueles que têm formato não reconhecido, estiverem criptografados ou não foram indexados por outros motivos** : a opção Exportar), os itens parcialmente indexados exportados com os resultados regulares serão listados no relatório Results. csv. Eles não serão listados no relatório de itens não indexados. csv.
+- Se itens parcialmente indexados forem retornados nos resultados da pesquisa (porque outras propriedades de itens parcialmente indexados corresponderam aos critérios de pesquisa), esses parcialmente indexados serão exportados com os resultados de pesquisa regulares. Portanto, se você optar por exportar itens indexados e itens parcialmente indexados (selecionando **todos os itens, incluindo aqueles que têm formato não reconhecido, estiverem criptografados ou não foram indexados por outros motivos:** a opção de exportação), os itens parcialmente indexados exportados com os resultados regulares serão listados no relatório de Results.csv. Eles não serão listados no relatório de items.csv não indexado.
     
  ### <a name="exporting-individual-messages-or-pst-files"></a>Exportando mensagens individuais ou arquivos PST
   
 - Se o nome do caminho do arquivo de uma mensagem exceder o limite máximo de caracteres para o Windows, o nome do caminho do arquivo será truncado. Mas o nome do caminho do arquivo original será listado no manifesto e no ResultsLog.
     
-- Como explicado anteriormente, os resultados da pesquisa de email são exportados para uma pasta no sistema de arquivos. O caminho da pasta para mensagens individuais replicaria o caminho da pasta na caixa de correio do usuário. Por exemplo, para uma pesquisa chamada "ContosoCase101" mensagens na caixa de entrada de um usuário estaria localizada no caminho `~ContosoCase101\\<date of export\Exchange\user@contoso.com (Primary)\Top of Information Store\Inbox`da pasta. 
+- Como explicado anteriormente, os resultados da pesquisa de email são exportados para uma pasta no sistema de arquivos. O caminho da pasta para mensagens individuais replicaria o caminho da pasta na caixa de correio do usuário. Por exemplo, para uma pesquisa chamada "ContosoCase101" mensagens na caixa de entrada de um usuário estaria localizada no caminho da pasta `~ContosoCase101\\<date of export\Exchange\user@contoso.com (Primary)\Top of Information Store\Inbox` . 
     
 - Se você optar por exportar mensagens de email em um arquivo PST que contenha todas as mensagens em uma única pasta, uma pasta **itens excluídos** e **pastas de pesquisa** serão incluídas no nível superior da pasta PST. Essas pastas estão vazias. 
   
@@ -310,7 +311,7 @@ Veja mais informações sobre como exportar resultados de pesquisa.
   
  ### <a name="filenames-of-exported-items"></a>Nomes de itens exportados
   
-- Há um limite de 260 caracteres (imposto pelo sistema operacional) para o nome do caminho completo de mensagens de email e documentos de site exportados para o computador local. O nome do caminho completo para itens exportados inclui o local original do item e o local da pasta no computador local em que os resultados da pesquisa são baixados. Por exemplo, se você especificar para baixar os resultados da pesquisa `C:\Users\Admin\Desktop\SearchResults` para na ferramenta de exportação de descoberta eletrônica, o nome de caminho completo de um item `C:\Users\Admin\Desktop\SearchResults\ContentSearch1\03.15.2017-1242PM\Exchange\sarad@contoso.com (Primary)\Top of Information Store\Inbox\Insider trading investigation.msg`de email baixado seria.
+- Há um limite de 260 caracteres (imposto pelo sistema operacional) para o nome do caminho completo de mensagens de email e documentos de site exportados para o computador local. O nome do caminho completo para itens exportados inclui o local original do item e o local da pasta no computador local em que os resultados da pesquisa são baixados. Por exemplo, se você especificar para baixar os resultados da pesquisa para `C:\Users\Admin\Desktop\SearchResults` na ferramenta de exportação de descoberta eletrônica, o nome de caminho completo de um item de email baixado seria `C:\Users\Admin\Desktop\SearchResults\ContentSearch1\03.15.2017-1242PM\Exchange\sarad@contoso.com (Primary)\Top of Information Store\Inbox\Insider trading investigation.msg` .
     
     Se o limite de 260 caracteres for excedido, o nome do caminho completo de um item será truncado.
     
@@ -318,11 +319,11 @@ Veja mais informações sobre como exportar resultados de pesquisa.
     
   - Se o nome do caminho completo ainda estiver muito longo depois de encurtar o nome do arquivo, o item será movido de seu local atual para a pasta pai. Se o nome do caminho ainda for muito longo, o processo será repetido: encurte o nome do arquivo e, se necessário, mova novamente para a pasta pai. Esse processo é repetido até que o nome de caminho completo esteja sob o limite de 260 caracteres.
     
-  - Se já existir um nome de caminho completo truncado, um número de versão será adicionado ao final do nome de arquivo; por exemplo, `statusmessage(2).msg`.
+  - Se já existir um nome de caminho completo truncado, um número de versão será adicionado ao final do nome de arquivo; por exemplo, `statusmessage(2).msg` .
     
-    Para ajudar a reduzir esse problema, considere baixar os resultados da pesquisa para um local com um nome de caminho curto; por exemplo, baixar resultados de pesquisa para uma pasta `C:\Results` chamada adicionaria menos caracteres aos nomes de caminho dos itens exportados do que baixá- `C:\Users\Admin\Desktop\Results`los para uma pasta chamada.
+    Para ajudar a reduzir esse problema, considere baixar os resultados da pesquisa para um local com um nome de caminho curto; por exemplo, baixar resultados de pesquisa para uma pasta chamada `C:\Results` adicionaria menos caracteres aos nomes de caminho dos itens exportados do que baixá-los para uma pasta chamada `C:\Users\Admin\Desktop\Results` .
     
-- Quando você exporta documentos de site, também é possível que o nome de arquivo original de um documento seja modificado. Isso acontece especificamente para documentos que foram excluídos de um site do SharePoint ou do OneDrive for Business que foi colocado em espera. Depois que um documento que está em um site que está em espera é excluído, o documento excluído é automaticamente movido para a biblioteca de retenção de preservação para o site (que foi criado quando o site foi colocado em espera). Quando o documento excluído é movido para a biblioteca de retenção de preservação, uma ID gerada aleatoriamente e exclusiva é acrescentada ao nome de arquivo original do documento. Por exemplo, se o nome de arquivo de um `FY2017Budget.xlsx` documento é e esse documento é excluído e movido posteriormente para a biblioteca de retenção de preservação, o nome de arquivo do documento que é movido para a biblioteca de retenção `FY2017Budget_DEAF727D-0478-4A7F-87DE-5487F033C81A2000-07-05T10-37-55.xlsx`de preservação é modificado para algo como. Se um documento na biblioteca de retenção de preservação corresponder à consulta de uma pesquisa de conteúdo e você exportar os resultados dessa pesquisa, o arquivo exportado terá o nome de arquivo modificado; Neste exemplo, o nome de arquivo do documento exportado `FY2017Budget_DEAF727D-0478-4A7F-87DE-5487F033C81A2000-07-05T10-37-55.xlsx`seria.
+- Quando você exporta documentos de site, também é possível que o nome de arquivo original de um documento seja modificado. Isso acontece especificamente para documentos que foram excluídos de um site do SharePoint ou do OneDrive for Business que foi colocado em espera. Depois que um documento que está em um site que está em espera é excluído, o documento excluído é automaticamente movido para a biblioteca de retenção de preservação para o site (que foi criado quando o site foi colocado em espera). Quando o documento excluído é movido para a biblioteca de retenção de preservação, uma ID gerada aleatoriamente e exclusiva é acrescentada ao nome de arquivo original do documento. Por exemplo, se o nome de arquivo de um documento é `FY2017Budget.xlsx` e esse documento é excluído e movido posteriormente para a biblioteca de retenção de preservação, o nome de arquivo do documento que é movido para a biblioteca de retenção de preservação é modificado para algo como `FY2017Budget_DEAF727D-0478-4A7F-87DE-5487F033C81A2000-07-05T10-37-55.xlsx` . Se um documento na biblioteca de retenção de preservação corresponder à consulta de uma pesquisa de conteúdo e você exportar os resultados dessa pesquisa, o arquivo exportado terá o nome de arquivo modificado; Neste exemplo, o nome de arquivo do documento exportado seria `FY2017Budget_DEAF727D-0478-4A7F-87DE-5487F033C81A2000-07-05T10-37-55.xlsx` .
     
     Quando um documento em um site que está em espera é modificado (e o controle de versão da biblioteca de documentos no site foi habilitado), uma cópia do arquivo é criada automaticamente na biblioteca de retenção de preservação. Nesse caso, uma ID gerada aleatoriamente e exclusiva também é acrescentada ao nome de arquivo do documento que foi copiado para a biblioteca de retenção de preservação.
     

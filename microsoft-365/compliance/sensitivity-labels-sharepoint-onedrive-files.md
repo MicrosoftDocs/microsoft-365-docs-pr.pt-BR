@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: d12cb6d83ef343b0dc192d2515da7670cd159be2
-ms.sourcegitcommit: 92f641cad63379bf16417854a43b16b48a71a30a
+ms.openlocfilehash: ee6f89db7758140ac8e4c2752d8a2883cc0990db
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724789"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780714"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
@@ -184,7 +184,7 @@ Em comparação, os rótulos de confidencialidade fornecem as configurações de
 
 No entanto, você pode usar as duas soluções de proteção juntas e o comportamento é o seguinte: 
 
-- Se você carregar um arquivo com um rótulo de confidencialidade que aplica criptografia, a criptografia não será removida para que esses arquivos, coautoria, eDiscovery, DLP e pesquisa não sejam suportados.
+- Se você carregar um arquivo com um rótulo de confidencialidade que aplica criptografia, o SharePoint não poderá processar esse arquivo para que a coautoria, a descoberta eletrônica, a DLP e a pesquisa não funcionem para esse arquivo.
 
 - Se você rotular um arquivo usando o Office na Web, as configurações de criptografia do rótulo serão aplicadas. Para esses arquivos, a coautoria, a descoberta eletrônica, a DLP e a pesquisa são compatíveis.
 

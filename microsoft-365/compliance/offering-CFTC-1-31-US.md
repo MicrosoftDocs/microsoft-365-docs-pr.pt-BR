@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 08f912492d1874b940156e3a6165f9476add7711
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 4615b20fbd90af6e2ee7acad31f87d0021edb485
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065846"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773742"
 ---
 # <a name="commodity-futures-trading-commission-cftc-rule-131c-d-united-states"></a>Comissão de negócios de futuro de mercadorias (CFTC) de regra 1.31 (c-d) Estados Unidos
 
@@ -41,11 +41,11 @@ Para avaliar a conformidade do Azure com a regra do CFTC 1.31 (c-d), a Microsoft
 
 ### <a name="microsoft-office-365"></a>Microsoft Office 365
 
-Para avaliar a compatibilidade do Office 365 com a regra do CFTC 1.31 (c-d), a Microsoft contratou uma importante empresa de advocacia independente especializada em problemas de regulamentação, Covington &ndo o nó LLP. No relatório resultante, [arquivando no Microsoft Office 365, a retenção de dados e a conformidade com a regra 17a-4](https://go.microsoft.com/fwlink/?linkid=830440), Covington validado que o [Office 365 com bloqueio de preservação](https://docs.microsoft.com/office365/securitycompliance/retention-policies#locking-a-retention-policy) inclui recursos de arquivamento que permitem aos clientes regulamentados armazenar dados de uma maneira que os ajuda a cumprir os requisitos do CFTC para a retenção de registros.
+Para avaliar a compatibilidade do Office 365 com a regra do CFTC 1.31 (c-d), a Microsoft contratou uma importante empresa de advocacia independente especializada em problemas de regulamentação, Covington &ndo o nó LLP. No relatório resultante, [arquivando no Microsoft Office 365, a retenção de dados e a conformidade com a regra 17a-4](https://go.microsoft.com/fwlink/?linkid=830440), Covington validado que o [Office 365 com bloqueio de preservação](retention-policies.md) inclui recursos de arquivamento que permitem aos clientes regulamentados armazenar dados de uma maneira que os ajuda a cumprir os requisitos do CFTC para a retenção de registros.
 
 O arquivamento no Office 365 ajuda a preservar uma ampla variedade de dados, incluindo email, caixa postal, documentos compartilhados, mensagens instantâneas e dados de terceiros. Em particular, o arquivamento no Office 365 permite que os clientes definam políticas de retenção de mensagens globais ou detalhadas para armazenar dados por um período definido e além de um formato não regravável e não apagável.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no escopo da Microsoft
+## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Office 365](https://aka.ms/o365-compliance-framework)
@@ -59,8 +59,8 @@ O arquivamento no Office 365 ajuda a preservar uma ampla variedade de dados, inc
 ## <a name="how-to-implement"></a>Como implementar
 
 - [Regulamentação de serviços financeiros](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): mapa de conformidade dos principais princípios normativos dos EUA para computação em nuvem e serviços online da Microsoft.
-- [Guia de Conformidade & Avaliação de Risco ](https://aka.ms/RiskGovernanceGuide): Cria um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador.
-- [Casos de uso financeiro](https://docs.microsoft.com/azure/industry/financial/): Visões gerais de uso, tutoriais e outros recursos para criar soluções Azure para serviços financeiros.
+- [Guia de conformidade e avaliação de risco](https://aka.ms/RiskGovernanceGuide): cria um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador.
+- [Casos de uso financeiro](https://docs.microsoft.com/azure/industry/financial/): usa visões gerais, tutoriais e outros recursos para criar soluções do Azure para serviços financeiros.
 
 ## <a name="resources"></a>Recursos
 
@@ -70,4 +70,4 @@ O arquivamento no Office 365 ajuda a preservar uma ampla variedade de dados, inc
 - [Ferramenta de Avaliação de Risco na Nuvem de Serviços Financeiros do Azure](https://aka.ms/FFIEC-CSDT)
 - [Políticas de retenção do Microsoft Office 365](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
 - [Blog dos Serviços Financeiros da Microsoft](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
-- [Conformidade no Centro de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

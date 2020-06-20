@@ -17,13 +17,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
-description: Você tem a opção de cancelar a duplicação de resultados de pesquisa de descoberta eletrônica que são exportados para que apenas uma cópia de uma mensagem de email seja exportada, embora várias instâncias da mesma mensagem possam ter sido encontradas em caixas de correio diferentes.
-ms.openlocfilehash: 6a63783efd76d6e598d3f00dd8a683317c261d2d
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como eliminar resultados de pesquisa de descoberta eletrônica duplicados para que apenas uma cópia de uma mensagem de email seja exportada.
+ms.openlocfilehash: 046ef1e40e293e511672d5a95c6f5248b49d13a2
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166042"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817910"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>Deduplicação nos resultados de pesquisa de Descoberta Eletrônica
 
@@ -41,17 +43,17 @@ as ferramentas de descoberta eletrônica usam uma combinação das seguintes pro
 
 - **BodyTagInfo** -esta é uma propriedade interna do repositório do Exchange. O valor dessa propriedade é calculado com a verificação de vários atributos no corpo da mensagem. Essa propriedade é usada para identificar as diferenças no corpo das mensagens. 
 
-Durante o processo de exportação de descoberta eletrônica, essas três propriedades são comparadas a cada mensagem que corresponde aos critérios de pesquisa. Se essas propriedades forem idênticas para duas (ou mais) mensagens, essas mensagens serão determinadas como duplicatas e o resultado será que apenas uma cópia da mensagem será exportada se a eliminação de duplicação estiver habilitada. A mensagem exportada é conhecida como "item de origem". As informações sobre mensagens duplicadas são incluídas nos relatórios **Results. csv** e **manifest. xml** que estão incluídos nos resultados de pesquisa exportados. No arquivo **Results. csv** , uma mensagem duplicada é identificada por ter um valor na coluna **duplicar para item** . O valor desta coluna corresponde ao valor na coluna de **identidade do item** para a mensagem que foi exportada. 
+Durante o processo de exportação de descoberta eletrônica, essas três propriedades são comparadas a cada mensagem que corresponde aos critérios de pesquisa. Se essas propriedades forem idênticas para duas (ou mais) mensagens, essas mensagens serão determinadas como duplicatas e o resultado será que apenas uma cópia da mensagem será exportada se a eliminação de duplicação estiver habilitada. A mensagem exportada é conhecida como "item de origem". As informações sobre mensagens duplicadas são incluídas no **Results.csv** e **Manifest.xml** relatórios incluídos nos resultados de pesquisa exportados. No arquivo **Results.csv** , uma mensagem duplicada é identificada por ter um valor na coluna **duplicar para item** . O valor desta coluna corresponde ao valor na coluna de **identidade do item** para a mensagem que foi exportada. 
   
-Os gráficos a seguir mostram como as mensagens duplicadas são exibidas nos relatórios **Results. csv** e **manifest. xml** exportados com os resultados da pesquisa. Esses relatórios não incluem as propriedades de email descritas anteriormente, que são usadas no algoritmo de eliminação de duplicação. Em vez disso, os relatórios incluem a propriedade de **identidade de item** atribuída a itens pelo repositório do Exchange. 
+Os gráficos a seguir mostram como as mensagens duplicadas são exibidas no **Results.csv** e **Manifest.xml** relatórios que são exportados com os resultados da pesquisa. Esses relatórios não incluem as propriedades de email descritas anteriormente, que são usadas no algoritmo de eliminação de duplicação. Em vez disso, os relatórios incluem a propriedade de **identidade de item** atribuída a itens pelo repositório do Exchange. 
   
- ### <a name="resultscsv-report-viewed-in-excel"></a>Relatório Results. csv (exibido no Excel)
+ ### <a name="resultscsv-report-viewed-in-excel"></a>Relatório de Results.csv (exibido no Excel)
   
-![Exibindo informações sobre itens duplicados no relatório Results. csv](../media/e3d64004-3b91-4cba-b6f3-934b46cbdcdb.png)
+![Exibindo informações sobre itens duplicados no relatório de Results.csv](../media/e3d64004-3b91-4cba-b6f3-934b46cbdcdb.png)
   
- ### <a name="manifestxml-report-viewed-in-excel"></a>Relatório manifest. XML (exibido no Excel)
+ ### <a name="manifestxml-report-viewed-in-excel"></a>Relatório de Manifest.xml (exibido no Excel)
   
-![Exibindo informações sobre itens duplicados no relatório manifest. xml](../media/69aa4786-9883-46ff-bcae-b35e0daf4a6d.png)
+![Exibindo informações sobre itens duplicados no relatório de Manifest.xml](../media/69aa4786-9883-46ff-bcae-b35e0daf4a6d.png)
   
 Além disso, outras propriedades de mensagens duplicadas são incluídas nos relatórios de exportação. Isso inclui a caixa de correio na qual a mensagem duplicada está localizada, se a mensagem foi enviada a um grupo de distribuição e se a mensagem era CC ou Cco para outro usuário.
   

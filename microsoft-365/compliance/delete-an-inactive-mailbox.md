@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: f5caf497-5e8d-4b7a-bfff-d02942f38150
-description: Quando não for mais necessário preservar o conteúdo de uma caixa de correio inativa do Microsoft 365, você poderá excluir permanentemente a caixa de correio inativa, removendo a isenção. Após a remoção da isenção, a caixa de correio inativa é marcada para exclusão e é excluída permanentemente após ser processada.
-ms.openlocfilehash: fafedd1ccf78c3e763c9e02dc37c594d8f2c9785
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Quando não for mais necessário preservar o conteúdo de uma caixa de correio inativa do Microsoft 365, você poderá excluir permanentemente a caixa de correio inativa.
+ms.openlocfilehash: 05357ce1b3e10394854844f15ec6a18c1c427d5b
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630528"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817890"
 ---
 # <a name="delete-an-inactive-mailbox"></a>Excluir uma caixa de correio inativa
 
@@ -32,7 +34,7 @@ Uma caixa de correio inativa é usada para preservar emails de um ex-funcionári
   
 Consulte a seção [mais informações](#more-information) para obter uma descrição do que acontece depois que as retenções são removidas de uma caixa de correio inativa.
   
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-delete-an-inactive-mailbox"></a>Antes de excluir uma caixa de correio inativa
 
 - Você precisa usar o PowerShell do Exchange Online para remover uma retenção de litígio de uma caixa de correio inativa. Você não pode usar o Centro de Administração do Exchange (EAC). Para obter instruções detalhadas, consulte [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=396554). Você pode usar o PowerShell do Exchange Online ou o Eat para remover um bloqueio in-loco de uma caixa de correio inativa. 
     
@@ -105,13 +107,13 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
    Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
    ```
 
-2. No Eat, vá para **Gerenciamento** \> **de conformidade e descoberta eletrônica &amp; in-loco**.
+2. No Eat, vá para **Gerenciamento de conformidade** e \> **descoberta eletrônica in &amp; -loco**.
     
-3. Selecione o bloqueio in-loco que você deseja excluir e, em seguida **Edit** ![, clique em](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)editar ícone de edição.
+3. Selecione o bloqueio in-loco que você deseja excluir e, em seguida, clique em **Editar** ![ ícone de edição ](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) .
     
-4. Na página Propriedades **de retenção de &amp; descoberta eletrônica in-loco** , clique **em bloqueio in-loco**, desmarque a caixa **fazer o conteúdo que corresponde à consulta de pesquisa em caixas de correio selecionadas em retenção** e clique em **salvar**.
+4. Na página Propriedades **de &amp; retenção de descoberta eletrônica in-loco** , clique **em bloqueio in-loco**, desmarque a caixa **fazer o conteúdo que corresponde à consulta de pesquisa em caixas de correio selecionadas em retenção** e clique em **salvar**.
     
-5. Na página **bloqueio de descoberta eletrônica &amp; in-loco** , selecione o bloqueio in-loco novamente e clique em **excluir**![excluir ícone](../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png).
+5. Na página ** &amp; bloqueio de descoberta eletrônica in-loco** , selecione o bloqueio in-loco novamente e clique em **excluir** ![ excluir ícone ](../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png) .
     
 6. No aviso, clique em **Sim** para excluir o bloqueio in-loco. 
     
@@ -143,13 +145,13 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
    Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
    ```
 
-2. No Eat, vá para **Gerenciamento** \> **de conformidade e descoberta eletrônica &amp; in-loco**.
+2. No Eat, vá para **Gerenciamento de conformidade** e \> **descoberta eletrônica in &amp; -loco**.
     
-3. Selecione o bloqueio in-loco que é colocado na caixa de correio inativa e, em **Edit** ![seguida, clique](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)em Editar ícone de edição.
+3. Selecione o bloqueio in-loco que é colocado na caixa de correio inativa e, em seguida, clique em **Editar** ![ ícone de edição ](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) .
     
-4. Na página Propriedades **de retenção de &amp; descoberta eletrônica in-loco** , clique em **fontes**.
+4. Na página Propriedades **de &amp; retenção de descoberta eletrônica in-loco** , clique em **fontes**.
     
-5. Na lista de caixas de correio de origem, clique no nome da caixa de correio inativa que você deseja remover e clique em **remover**![remover](../media/adf01106-cc79-475c-8673-065371c1897b.gif).
+5. Na lista de caixas de correio de origem, clique no nome da caixa de correio inativa que você deseja remover e clique em **remover** ![ Remover ](../media/adf01106-cc79-475c-8673-065371c1897b.gif) .
     
 6. Clique em **Salvar** para salvar a alteração. Uma mensagem é exibida dizendo que a operação foi concluída com êxito. 
     

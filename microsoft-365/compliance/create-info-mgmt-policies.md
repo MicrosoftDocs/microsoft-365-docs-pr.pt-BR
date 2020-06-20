@@ -19,13 +19,15 @@ ms.assetid: 8ccac9e4-3a50-49fa-a95b-d186032a6ee3
 ms.collection:
 - M365-security-compliance
 - SPO_Content
-description: As políticas de gerenciamento de informações permitem que sua organização controle o tempo de retenção de conteúdo, para auditar o que as pessoas fazem com o conteúdo e adicionar códigos de barras ou rótulos a documentos. Uma política pode ajudar a garantir a conformidade com normas legais e governamentais ou processos corporativos internos. Como administrador, você pode configurar uma política para controlar como controlar documentos e quanto tempo manter documentos.
-ms.openlocfilehash: eabbd2d6292de621b4c8e14d6d491f27b8fb24f1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como configurar uma política de gerenciamento de informações para controlar por quanto tempo as informações são mantidas e controlar quem está usando as informações.
+ms.openlocfilehash: 2519f039e7495d01a828aee564ce1a6caf41342d
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42077500"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817990"
 ---
 # <a name="create-and-apply-information-management-policies"></a>Criar e aplicar políticas de gerenciamento de informações
 
@@ -46,15 +48,15 @@ Confira mais informações em [introdução às políticas de gerenciamento de i
 
 Para garantir que uma política de informações seja aplicada a todos os documentos de um determinado tipo dentro de um conjunto de sites, considere a criação da política no nível do conjunto de sites e, posteriormente, aplique a política aos tipos de conteúdo. Eles são chamados de políticas de conjunto de sites. 
   
-1. No botão \> **configurações**![de home page do conjunto de sites do SharePoint 2016, na barra de título.](../media/1c22d2d8-39e0-4930-82c6-c3eee44211d3.png) \> **Configurações do site**.
+1. No botão Configurações de home page do conjunto de sites \> **Settings** ![ do SharePoint 2016, na barra de título.](../media/1c22d2d8-39e0-4930-82c6-c3eee44211d3.png) \> **Configurações do site**.
     
     Em um site conectado ao grupo do SharePoint, clique em **configurações**, em **conteúdo do site**e em **configurações do site**. 
     
-2. Na página Configurações do site, em **modelos de política de tipo de conteúdo**da administração \> do conjunto de **sites** . 
+2. Na página Configurações do site, em modelos de política de tipo de conteúdo da administração do conjunto de **sites** \> **Content Type Policy Templates**. 
   
 ![Link do modelo de política de tipo de conteúdo na página Definições do site](../media/26d3466a-23ec-443f-88f0-2aaff38e992b.png)
   
-3. Na página \> políticas **criar**. 
+3. Na página políticas \> **criar**. 
     
 4. Insira um nome e uma descrição para a política e, em seguida, escreva uma breve declaração de política que explica aos usuários a finalidade da política.
     
@@ -69,11 +71,11 @@ A adição de uma política de gerenciamento de informações a um tipo de conte
   
  Você também pode adicionar uma política de gerenciamento de informações a um tipo de conteúdo específico às listas. Isso tem o efeito de aplicar a política somente aos itens dessa lista que estão usando o tipo de conteúdo. 
   
-1. No botão \> **configurações**![de home page do conjunto de sites do SharePoint 2016, na barra de título.](../media/1c22d2d8-39e0-4930-82c6-c3eee44211d3.png) \> **Configurações do site**.
+1. No botão Configurações de home page do conjunto de sites \> **Settings** ![ do SharePoint 2016, na barra de título.](../media/1c22d2d8-39e0-4930-82c6-c3eee44211d3.png) \> **Configurações do site**.
     
     Em um site conectado ao grupo do SharePoint, clique em **configurações**, em **conteúdo do site**e em **configurações do site**. 
     
-2. Na página Configurações do site, em **tipos de conteúdo de site**de galerias \> do **Web designer** .
+2. Na página Configurações do site, em tipos de conteúdo de site de **galerias do Web designer** \> **Site content types**.
   
 ![Link tipos de conteúdo do site na página Configurações do site](../media/6f6fa51f-15d7-4782-b06f-a7b36e874cd3.png)
   
@@ -114,7 +116,7 @@ A adição de uma política de gerenciamento de informações a um tipo de conte
     
     Para habilitar códigos de barras
     
-||||||1. * * *|**Na página Editar política, em **códigos de barras** \> , **habilite códigos de barras**.**|
+||||||1. * * *|**Na página Editar política, em **códigos de barras** , \> **habilite códigos de barras**.**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 ||||||**2.** <br/> |Para solicitar que os usuários insiram esses códigos de barras em documentos, escolha **avisar os usuários para inserir um código de barras antes de salvar ou imprimir**.  <br/> |
 ||||||**3.** <br/> |Escolha **OK** para aplicar o recurso de código de barras à política.  <br/> |
@@ -128,7 +130,7 @@ A adição de uma política de gerenciamento de informações a um tipo de conte
 ||||||**1.**|* * Para exigir que os usuários adicionem um rótulo a um documento, escolha **avisar os usuários para inserir um rótulo antes de salvar ou imprimir**.  <br/> > [!NOTE]> se quiser que os rótulos sejam opcionais, não marque essa caixa de seleção.        **|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 ||||||2.  <br/> |Para bloquear um rótulo de modo que ele não possa ser alterado depois de inserido, escolha **impedir alterações nos rótulos depois de adicionados**.  <br/>  Essa configuração impede que o texto do rótulo seja atualizado depois que o rótulo tiver sido inserido em um item de um aplicativo cliente, como Word, Excel ou PowerPoint. Se você quiser que o rótulo seja adicionado quando as propriedades desse documento ou item forem atualizadas, não marque essa caixa de seleção.  <br/> |
-||||||3.  <br/> |Na caixa formato do rótulo, insira o texto do rótulo como você deseja que ele seja exibido. Os rótulos podem conter até 10 referências de coluna, cada um deles pode ter até 255 caracteres de comprimento. Para criar o formato do rótulo, faça o seguinte:  <br/> Digite os nomes das colunas que você deseja incluir no rótulo na ordem em que você deseja que eles apareçam. Coloque os nomes das colunas entre chaves ({}), conforme mostrado no exemplo da página Editar política.  <br/> Digite palavras para identificar as colunas fora dos colchetes, conforme mostrado no exemplo da página Editar política.  <br/> |
+||||||3.  <br/> |Na caixa formato do rótulo, insira o texto do rótulo como você deseja que ele seja exibido. Os rótulos podem conter até 10 referências de coluna, cada um deles pode ter até 255 caracteres de comprimento. Para criar o formato do rótulo, faça o seguinte:  <br/> Digite os nomes das colunas que você deseja incluir no rótulo na ordem em que você deseja que eles apareçam. Coloque os nomes das colunas entre chaves ( {} ), conforme mostrado no exemplo da página Editar política.  <br/> Digite palavras para identificar as colunas fora dos colchetes, conforme mostrado no exemplo da página Editar política.  <br/> |
 ||||||4.  <br/> |Para adicionar uma quebra de linha, insira **\n** onde você deseja que a quebra de linha apareça.  <br/> |
 ||||||5.  <br/> |Selecione o tamanho e o estilo da fonte que você deseja e especifique se deseja posicionar o rótulo à esquerda, centralizar ou à direita no documento.  <br/>  Selecione uma fonte e um estilo disponíveis nos computadores dos usuários. O tamanho da fonte afeta a quantidade de texto que pode ser exibida no rótulo.  <br/> |
 ||||||6.  <br/> |Insira a altura e a largura do rótulo. A altura e a largura podem ter de.50 a 63,5 cm. O texto do rótulo sempre é centralizado verticalmente na imagem.  <br/> |
@@ -155,11 +157,11 @@ Você precisa de pelo menos a permissão gerenciar listas para alterar as config
   
 1. Navegue até a lista ou biblioteca para a qual você deseja especificar uma política de gerenciamento de informações. 
     
-2. Na faixa de opções, escolha as **configurações** da biblioteca \> de guias de **biblioteca** ou de **lista** ou **configurações de lista**.
+2. Na faixa de opções, escolha as configurações da biblioteca de guias de **biblioteca** ou de **lista** \> **Library Settings** ou **configurações de lista**.
     
     No SharePoint Online, clique em **configurações** e, em seguida, clique em configurações da **lista** ou **configurações da biblioteca**. 
     
-3. Em **permissões e configurações de política de gerenciamento de informações de gerenciamento** \> ****.
+3. Em **permissões e** \> **configurações de política de gerenciamento de informações**de gerenciamento.
   
 ![Link de políticas de gerenciamento de informações na página de configurações da biblioteca de documentos](../media/9fa6d366-6aab-49e1-a05c-898ac6f536e6.png)
   
@@ -202,11 +204,11 @@ Se as políticas de gerenciamento de informações já tiverem sido criadas para
   
 1. Navegue até a lista ou biblioteca que contém o tipo de conteúdo ao qual você deseja aplicar uma política.
     
-2. Na faixa de opções, escolha as **configurações** da biblioteca \> de guias de **biblioteca** ou de **lista** ou **configurações de lista**.
+2. Na faixa de opções, escolha as configurações da biblioteca de guias de **biblioteca** ou de **lista** \> **Library Settings** ou **configurações de lista**.
     
     No SharePoint Online, clique em **configurações** e, em seguida, clique em configurações da **lista** ou **configurações da biblioteca**. 
     
-3. Em **permissões e configurações de política de gerenciamento de informações de gerenciamento** \> ****.
+3. Em **permissões e** \> **configurações de política de gerenciamento de informações**de gerenciamento.
   
 ![Link de políticas de gerenciamento de informações na página de configurações da biblioteca de documentos](../media/9fa6d366-6aab-49e1-a05c-898ac6f536e6.png)
   
@@ -237,11 +239,11 @@ Você pode definir uma política de gerenciamento de informações e, em seguida
 ### <a name="export-a-policy"></a>Exportar uma política
 <a name="__toc260646790"> </a>
 
-1. Na home page do conjunto de sites, escolha **configurações**![pequenas de configurações de engrenagem que tomaram o lugar das configurações do site. ](../media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) **site.** \>
+1. Na home page do conjunto de sites, escolha **configurações** ![ pequenas configurações de engrenagem que levaram o local das configurações do site. ](../media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) \> **configurações do site**.
     
     Em um site conectado ao grupo do SharePoint, clique em **configurações**, em **conteúdo do site**e em **configurações do site**. 
     
-2. Na página Configurações do site, em **modelos de política de tipo de conteúdo**da administração \> do conjunto de **sites** . 
+2. Na página Configurações do site, em modelos de política de tipo de conteúdo da administração do conjunto de **sites** \> **Content Type Policy Templates**. 
   
 ![Link do modelo de política de tipo de conteúdo na página Definições do site](../media/26d3466a-23ec-443f-88f0-2aaff38e992b.png)
   
@@ -256,17 +258,17 @@ Você pode definir uma política de gerenciamento de informações e, em seguida
 
 A importação de uma política de gerenciamento de informações permite que você a aplique a vários tipos de conteúdo no site ou nível de lista em um determinado conjunto de sites. Os benefícios de fazer isso são duplos: não é necessário redefinir e aplicar a política em cada tipo de conteúdo, e você pode gerenciar mais facilmente as modificações de política fazendo alterações na política em apenas um local.
   
-1. Na home page do conjunto de sites ao qual você deseja aplicar a política, escolha **configurações**![pequenas engrenagens que levaram o local das configurações do site. ](../media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) **site.** \>
+1. Na home page do conjunto de sites ao qual você deseja aplicar a política, escolha **configurações** ![ pequenas engrenagem de configurações que levaram o local das configurações do site. ](../media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) \> **Site Settings**
     
     Em um site conectado ao grupo do SharePoint, clique em **configurações**, em **conteúdo do site**e em **configurações do site**. 
     
-2. Na página Configurações do site, em **modelos de política de tipo de conteúdo**da administração \> do conjunto de **sites** .
+2. Na página Configurações do site, em modelos de política de tipo de conteúdo da administração do conjunto de **sites** \> **Content Type Policy Templates**.
     
-3. Na página \> políticas, **importe** \> **procurar** para localizar o arquivo XML da política. 
+3. Na página políticas, \> **importe** \> **procurar** para localizar o arquivo XML da política. 
     
 4. Selecione o arquivo XML no qual a política foi salva \> **aberta**. 
     
-5. Na \> **página Importar** política de conjunto de sites para adicionar a política ao conjunto de sites. 
+5. Na página Importar política de conjunto de sites \> **Import** para adicionar a política ao conjunto de sites. 
     
 A política importada agora pode ser aplicada a um ou vários tipos de conteúdo no nível do site ou da lista. 
   

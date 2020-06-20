@@ -18,18 +18,19 @@ search.appverid:
 - MET150
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: 'Para administradores: saiba como habilitar o arquivamento de expansão automática, que fornece aos usuários um armazenamento ilimitado para suas caixas de correio do Exchange Online. Você pode habilitar o arquivamento de expansão automática para toda a sua organização ou apenas para usuários específicos.'
-ms.openlocfilehash: cb63aa79365d17692dbedf1829f76fb91e965d8d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 8d550e562e8226d586a9538f9f366e3283ad0437
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631706"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817820"
 ---
 # <a name="enable-unlimited-archiving--admin-help"></a>Habilitar arquivamento ilimitado — ajuda do administrador
 
 Você pode usar o recurso de arquivamento de expansão automática do Exchange Online para habilitar o espaço de armazenamento ilimitado para caixas de correio de arquivo morto. Quando o arquivamento de expansão automática está ativado, o espaço de armazenamento adicional é automaticamente adicionado à caixa de correio de arquivo morto de um usuário quando se aproxima do limite de armazenamento. O resultado é a capacidade de armazenamento de caixa de correio ilimitada. Você pode ativar o arquivamento de expansão automática para todos em sua organização ou apenas para usuários específicos. Para obter mais informações sobre o arquivamento de expansão automática, consulte [Overview of Unlimited Archiving in Office 365](unlimited-archiving.md).
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-enable-auto-expanding-archiving"></a>Antes de habilitar o arquivamento de expansão automática
 
 - Você deve ser um administrador global em sua organização ou um membro do grupo de função gerenciamento da organização em sua organização do Exchange Online para habilitar o arquivamento de expansão automática para toda a sua organização ou para usuários específicos. Como alternativa, você precisa ser um membro de um grupo de função atribuído à função de destinatários de email para habilitar o arquivamento de expansão automática para usuários específicos.
     
@@ -98,9 +99,9 @@ Um valor `True` indica que o arquivamento de expansão automática está habilit
   
 Tenha em mente as seguintes coisas depois de habilitar o arquivamento de expansão automática:
   
-- Se você executar o comando **Set-OrganizationConfig-AutoExpandingArchive** para habilitar o arquivamento de expansão automática para sua organização, não será necessário executar o **Enable-Mailbox-AutoExpandingArchive** em caixas de correio individuais. A execução do cmdlet **Set-OrganizationConfig** para habilitar o arquivamento de expansão automática para a sua organização não altera a propriedade *AutoExpandingArchiveEnabled* nas caixas `True`de correio do usuário.
+- Se você executar o comando **Set-OrganizationConfig-AutoExpandingArchive** para habilitar o arquivamento de expansão automática para sua organização, não será necessário executar o **Enable-Mailbox-AutoExpandingArchive** em caixas de correio individuais. A execução do cmdlet **Set-OrganizationConfig** para habilitar o arquivamento de expansão automática para a sua organização não altera a propriedade *AutoExpandingArchiveEnabled* nas caixas de correio do usuário `True` .
     
-- Da mesma forma, os valores das propriedades de caixa de correio *ArchiveQuota* e *ArchiveWarningQuota* não são alterados quando você habilita o arquivamento de expansão automática. Na verdade, quando você habilita o arquivamento de expansão automática para uma caixa de correio *AutoExpandingArchiveEnabled* de usuário e a propriedade `True`AutoExpandingArchiveEnabled é definida como, as propriedades *ArchiveQuota* e *ArchiveWarningQuota* são ignoradas. Veja um exemplo dessas propriedades de caixa de correio após o arquivamento de expansão automática estar habilitado para a caixa de correio de um usuário. 
+- Da mesma forma, os valores das propriedades de caixa de correio *ArchiveQuota* e *ArchiveWarningQuota* não são alterados quando você habilita o arquivamento de expansão automática. Na verdade, quando você habilita o arquivamento de expansão automática para uma caixa de correio de usuário e a propriedade *AutoExpandingArchiveEnabled* é definida como `True` , as propriedades *ArchiveQuota* e *ArchiveWarningQuota* são ignoradas. Veja um exemplo dessas propriedades de caixa de correio após o arquivamento de expansão automática estar habilitado para a caixa de correio de um usuário. 
     
     ![As propriedades ArchiveQuota e ArchiveWarningQuota são ignoradas após você habilitar o arquivamento de expansão automática](../media/6a1c1b69-5c4c-4267-aac8-53577667f03e.png)
 

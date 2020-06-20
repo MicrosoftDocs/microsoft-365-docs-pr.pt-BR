@@ -19,12 +19,13 @@ search.appverid:
 - MET150
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
 description: Saiba como preparar os resultados de uma pesquisa de conteúdo no centro de conformidade de & de segurança para análise adicional com a ferramenta de descoberta eletrônica avançada.
-ms.openlocfilehash: 14bc98dc9cca656e23fc76f00c6adc975bb61c5e
-ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c0f1540e9745351269e019ea95399ce5c636d8b3
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412840"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818760"
 ---
 # <a name="prepare-search-results-for-advanced-ediscovery-classic"></a>Preparar resultados de pesquisa para a Descoberta Eletrônica Avançada (clássico)
 
@@ -51,7 +52,7 @@ Depois que uma pesquisa associada a uma ocorrência de descoberta eletrônica no
     
 - **Exportando dados para aplicativos de revisão** -você pode exportar dados de descoberta eletrônica avançada e do Microsoft 365 depois de concluir a análise e reduzir o conjunto de dados. O pacote de exportação inclui um arquivo CSV que contém as propriedades do conteúdo exportado e dos metadados da análise. Esse pacote de exportação pode ser importado para um aplicativo de análise de descoberta eletrônica. 
     
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="get-licenses-and-permissions"></a>Obter licenças e permissões
 
 - Para analisar os dados de um usuário usando a descoberta eletrônica avançada, o usuário (o responsáveis dos dados) deve receber uma licença do Office 365 e5. Como alternativa, os usuários com uma licença do Office 365 E1 ou E3 podem receber uma licença autônoma de descoberta eletrônica avançada. Administradores e gerentes de conformidade atribuídos aos casos e usar a descoberta eletrônica avançada para analisar os dados não precisam de uma licença e5. 
     
@@ -98,7 +99,7 @@ Quando a preparação é concluída, a próxima etapa é usar a descoberta eletr
     
 2. Clique em **abrir** ao lado do caso para o qual você deseja carregar dados na descoberta eletrônica avançada. 
     
-3. Na **Home** Page do caso, clique em **alternar para descoberta eletrônica avançada**. 
+3. Na página **Início** do caso, clique em **Alternar para Avançar o eDiscovery**. 
     
     ![Clique em alternar para descoberta eletrônica avançada para abrir o caso na descoberta eletrônica avançada](../media/8e34ba23-62e3-4e68-a530-b6ece39b54be.png)
   

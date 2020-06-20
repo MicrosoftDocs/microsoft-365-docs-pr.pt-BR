@@ -15,17 +15,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 82c97bb4-2b64-4edc-804d-cedbda525d22
-description: Use o arquivo Results. csv ou itens não indexados. csv de uma pesquisa de conteúdo existente para criar uma pesquisa de lista de ID que retorna mensagens de email específicas. Pesquisas de lista de ID normalmente são usadas para retornar itens de caixa de correio parcialmente indexados.
-ms.openlocfilehash: f3b815f2268121e9adc47de2c24a4e23b44adce5
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom:
+- seo-marvel-apr2020
+description: Use arquivos CSV de uma pesquisa de conteúdo existente para criar uma pesquisa de lista de ID que retorne mensagens de email específicas.
+ms.openlocfilehash: 7b63a78d34306cf3afcef49276e584bc816c107f
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942884"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817970"
 ---
 # <a name="prepare-a-csv-file-for-an-id-list-content-search"></a>Preparar um arquivo CSV para uma lista de IDs de Pesquisa de Conteúdo
 
-Você pode pesquisar mensagens de email de caixa de correio específicas e outros itens de caixa de correio usando uma lista de IDs do Exchange. Para criar uma pesquisa de lista de ID (formalmente chamada de pesquisa direcionada), você envia um arquivo CSV (valor separado por vírgula) que identifica os itens de caixa de correio específicos para pesquisa. Para este arquivo CSV, você usa o arquivo **Results. csv** ou o arquivo **Items. CSV não indexado** que são incluídos quando você exporta os resultados da pesquisa de conteúdo ou exporta um relatório de pesquisa de conteúdo de e a pesquisa de conteúdo existente. Em seguida, edite um desses arquivos para indicar os itens específicos que serão pesquisados e, em seguida, crie uma nova lista de ID pesquisa e envie o arquivo CSV.
+Você pode pesquisar mensagens de email de caixa de correio específicas e outros itens de caixa de correio usando uma lista de IDs do Exchange. Para criar uma pesquisa de lista de ID (formalmente chamada de pesquisa direcionada), você envia um arquivo CSV (valor separado por vírgula) que identifica os itens de caixa de correio específicos para pesquisa. Para este arquivo CSV, você usa o arquivo **Results.csv** ou o arquivo **Items.csvnão indexado** que é incluído quando você exporta os resultados da pesquisa de conteúdo ou exporta um relatório de pesquisa de conteúdo da pesquisa de conteúdo existente. Em seguida, edite um desses arquivos para indicar os itens específicos que serão pesquisados e, em seguida, crie uma nova lista de ID pesquisa e envie o arquivo CSV.
 
 Veja uma rápida visão geral do processo de criação de uma pesquisa de lista de ID.
 
@@ -37,14 +39,14 @@ Veja uma rápida visão geral do processo de criação de uma pesquisa de lista 
 
     - [Exportar um relatório da Pesquisa de Conteúdo](export-a-content-search-report.md)
 
-3. Edite o arquivo **Results. csv** ou os **itens não indexados. csv** e identifique os itens de caixa de correio específicos que você deseja incluir na pesquisa de lista de ID. Consulte as [instruções](#prepare-the-csv-file-for-an-id-list-search) para preparar um arquivo CSV para uma pesquisa de lista de ID.
+3. Edite o arquivo **Results.csv** ou o **Items.csvnão indexado** e identifique os itens de caixa de correio específicos que você deseja incluir na pesquisa de lista de ID. Consulte as [instruções](#prepare-the-csv-file-for-an-id-list-search) para preparar um arquivo CSV para uma pesquisa de lista de ID.
 
 4. Crie uma nova pesquisa de lista de ID (consulte as [instruções](#create-an-id-list-search)) e envie o arquivo CSV que você preparou. A consulta de pesquisa criada só pesquisará os itens selecionados no arquivo CSV.
 
 > [!NOTE]
 > Pesquisas de lista de ID têm suporte apenas para itens de caixa de correio. Você não pode pesquisar documentos do SharePoint e do OneDrive em uma pesquisa de lista de ID.
 
- **Por que criar uma pesquisa de lista de ID?** Se você não conseguir determinar se um item está respondendo a uma solicitação de descoberta eletrônica com base nos metadados nos arquivos **Results. csv** ou **Items. CSV não indexados** , você pode usar uma pesquisa de lista de ID para localizar, Visualizar e exportar esse item para determinar se ele está respondendo ao caso que você está investigando. Pesquisas de lista de ID normalmente são usadas para pesquisar e retornar um conjunto específico de itens não indexados.
+ **Por que criar uma pesquisa de lista de ID?** Se você não conseguir determinar se um item está respondendo a uma solicitação de descoberta eletrônica com base nos metadados dos arquivos de Items.csv**Results.csv** ou não **indexado** , você poderá usar uma pesquisa de lista de ID para localizar, Visualizar e exportar esse item para determinar se ele é responsivo ao caso que você está investigando. Pesquisas de lista de ID normalmente são usadas para pesquisar e retornar um conjunto específico de itens não indexados.
 
 ## <a name="prepare-the-csv-file-for-an-id-list-search"></a>Preparar o arquivo CSV para uma pesquisa de lista de ID
 
@@ -52,7 +54,7 @@ Depois de exportar os resultados de pesquisa ou o relatório de uma pesquisa de 
 
 Observe que você pode usar um arquivo CSV de uma pesquisa que incluiu sites do SharePoint e contas do OneDrive, mas *só* pode selecionar itens de caixa de correio para uma pesquisa de lista de ID. Se você selecionar um documento no SharePoint ou no OneDrive, o arquivo CSV apresentará falha na validação quando você criar uma pesquisa de lista de ID.
 
-1. Abra o arquivo **Results. csv** ou **itens não indexados. csv** no Excel.
+1. Abra o arquivo de Items.csv**Results.csv** ou não **indexado** no Excel.
 
 2. Na coluna **selecionado** , digite **Sim** na célula que corresponde ao item que você deseja pesquisar. Repita essa etapa para cada item que você deseja pesquisar.
 
@@ -80,7 +82,7 @@ A próxima etapa é criar uma nova pesquisa de conteúdo de lista de ID e enviar
 
 1. No centro de conformidade & segurança, vá para **Search** \> **pesquisa de conteúdo**de pesquisa.
 
-2. Na página de **pesquisa** , clique na seta ao lado ![de adicionar](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) ícone **nova pesquisa**e, em seguida, clique em **Pesquisar por lista de ID**.
+2. Na página de **pesquisa** , clique na seta ao lado de ![ Adicionar ícone ](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **nova pesquisa**e, em seguida, clique em **Pesquisar por lista de ID**.
 
     ![Clique em Pesquisar pela lista de IDs na nova lista suspensa de pesquisa](../media/e65f9942-09b2-4127-865e-e64029a590df.png)
 

@@ -17,18 +17,18 @@ search.appverid:
 ms.assetid: ''
 description: Use a ferramenta de gerenciamento de descoberta eletrônica avançada para acessar e Pesquisar facilmente a atividade em seus responsáveis.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 84da57c8f2115c18543d4f38fd84f2c4eccb46d5
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 29aee2498b21cc4535ffa82f91fdba05125c4d18
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034293"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819041"
 ---
 # <a name="view-custodian-audit-activity"></a>Exibir atividade de auditoria de responsáveis
 
 Precisa descobrir se um usuário visualizou um documento específico ou apagou um item de sua caixa de correio? A descoberta eletrônica avançada agora está integrada à ferramenta de pesquisa de log de auditoria existente no centro de conformidade do & de segurança. Usando essa experiência incorporada, você pode usar a ferramenta de gerenciamento de descoberta eletrônica avançada para facilitar sua investigação, acessando e pesquisando facilmente a atividade dos responsáveis em seu caso.
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="get-permissions"></a>Obter permissões
 
 É preciso atribuir a função Logs de Auditoria Somente para Exibição ou Logs de Auditoria do Exchange Online para pesquisar o log de auditoria. Por padrão, essas funções são atribuídas aos grupos de funções Gerenciamento de Conformidade e Gerenciamento de Organização na página Permissões do centro de administração do Exchange. Para permitir que um usuário pesquise o log de auditoria de descoberta eletrônica avançado com o nível mínimo de privilégios, você pode criar um grupo de função personalizado no Exchange Online, adicionar os logs de auditoria somente para exibição ou a função logs de auditoria e, em seguida, adicionar o usuário como membro do novo grupo de funções. Para saber mais, confira Gerenciar Grupos de Funções do Exchange Online.
 

@@ -1,5 +1,5 @@
 ---
-title: Excluir itens na pasta caixa de correio de nuvem em suspender itens recuperáveis-ajuda do administrador
+title: Excluir itens na pasta caixa de correio na nuvem em manter itens recuperáveis
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,14 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
-description: 'Para administradores: excluir itens na pasta itens recuperáveis de um usuário para uma caixa de correio do Exchange Online, mesmo se essa caixa de correio for colocada em retenção legal. Essa é uma maneira eficaz de excluir dados que foram desfeitos acidentalmente no Microsoft 365.'
+description: Saiba como excluir itens na pasta itens recuperáveis de um usuário para uma caixa de correio do Exchange Online, mesmo se essa caixa de correio for colocada em retenção legal.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ce363d558e5ce1de600ccf34863cc6524841e78b
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 2d7babf231efba31a6f4cb1638d98669a9b938f9
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352176"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817870"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>Excluir itens da pasta itens recuperáveis das caixas de correio baseadas em nuvem em manter ajuda do administrador
 
@@ -46,7 +46,7 @@ A pasta itens recuperáveis para uma caixa de correio do Exchange Online existe 
 > [!CAUTION]
 > Os procedimentos descritos neste artigo resultarão na exclusão permanente de dados (removidos) de uma caixa de correio do Exchange Online. Isso significa que as mensagens excluídas da pasta itens recuperáveis não podem ser recuperadas e não estarão disponíveis para descoberta legal ou outros fins de conformidade. Se você deseja excluir mensagens de uma caixa de correio que é colocada em espera como parte de uma retenção de litígio, bloqueio in-loco, retenção de descoberta eletrônica ou política de retenção criada no centro de segurança e conformidade, consulte seu gerenciamento de registros ou departamentos legais antes de remover a retenção. Sua organização pode ter uma política que define se uma caixa de correio em espera ou um incidente de derramamento de dados tem prioridade. 
   
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-delete-items"></a>Antes de excluir itens
 
 - Para criar e executar uma pesquisa de conteúdo, você precisa ser membro do grupo de funções Gerente de Descoberta Eletrônica ou receber a função de gerenciamento de Pesquisa de Conformidade. Para excluir mensagens, você precisa ser membro do grupo de funções Gerenciamento da Organização ou receber a função de gerenciamento Pesquisa e Limpar. Para saber mais sobre como adicionar usuários a um grupo de função, confira [Atribuir permissões de Descoberta Eletrônica no Centro de Segurança e Conformidade](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions).
 

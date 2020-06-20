@@ -18,13 +18,14 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
-description: Você pode ativar o recurso de pesquisa de log de auditoria no centro de conformidade de & de segurança. Se você mudar de ideia, poderá desativar se estiver desligado a qualquer momento. Quando a pesquisa de log de auditoria está desativada, os administradores não podem pesquisar o log de auditoria do Microsoft 365 para atividades de usuário e administrador em sua organização.
-ms.openlocfilehash: f3d88f62f466d9c868dfc6addb5865e144f5223b
-ms.sourcegitcommit: 56772bed89516cebc5eb370e292ccfbb4889cb38
+ms.custom: seo-marvel-apr2020
+description: Como ativar ou desativar o recurso de pesquisa de log de auditoria no centro de conformidade do & de segurança para habilitar ou desabilitar a capacidade dos administradores de Pesquisar o log de auditoria.
+ms.openlocfilehash: 4571c90c4fa680acd8925e83e32ffcf07de7d626
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44330785"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819131"
 ---
 # <a name="turn-audit-log-search-on-or-off"></a>Ativar ou desativar a pesquisa de log de auditoria
 
@@ -33,7 +34,7 @@ Você (ou outro administrador) deve ativar o log de auditoria antes de começar 
 > [!IMPORTANT]
 > Se você desativar a pesquisa de log de auditoria no Microsoft 365, não será possível usar a API da atividade de gerenciamento do Office 365 ou o Azure Sentinel para acessar os dados de auditoria da sua organização. Desativando a pesquisa de log de auditoria seguindo as etapas deste artigo significa que nenhum resultado será retornado quando você pesquisar o log de auditoria usando o centro de conformidade de & de segurança ou quando executar o cmdlet **Search-UnifiedAuditLog** no PowerShell do Exchange Online. Isso também significa que os logs de auditoria não estarão disponíveis por meio da API de atividade de gerenciamento do Office 365 ou do Azure Sentinel.
   
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-turn-audit-log-search-on-or-off"></a>Antes de ativar ou desativar a pesquisa de log de auditoria
 
 - Você precisa receber a função de logs de auditoria no Exchange Online para ativar ou desativar a pesquisa de log de auditoria na sua organização do Microsoft 365. Por padrão, essa função é atribuída aos grupos de função gerenciamento de conformidade e gerenciamento da organização na página **permissões** no centro de administração do Exchange. Os administradores globais no Microsoft 365 são membros do grupo de funções Gerenciamento da organização no Exchange Online. 
     
