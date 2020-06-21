@@ -16,18 +16,20 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Esta solução informa o que os ataques de cybersecurity mais comuns podem parecer no Microsoft 365 e como respondê-los
-ms.openlocfilehash: 4c5713a0689dae07fe5300c04754d77912f53976
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+ms.openlocfilehash: c6f5087799a0e3a06d0849f99e9911cf77260e1b
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634503"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818790"
 ---
 # <a name="security-incident-response"></a>Resposta de incidente de segurança
 
  **Resumo:** Esta solução informa quais são os indicadores para os ataques mais comuns do cybersecurity no Office 365, como confirmar positivamente qualquer ataque e como respondê-lo.
 
-## <a name="overview"></a>Visão geral
+## <a name="learn-how-to-respond-to-cyberattacks"></a>Saiba como responder a cyberattacks
 
 Nem todos os cyberattacks podem ser frustrados. Os invasores estão constantemente procurando novas fraquezas em sua estratégia defensiva ou estão explorando os antigos. Saber como reconhecer um ataque permite que você responda com mais rapidez, o que reduz a duração do incidente de segurança.
 
@@ -55,9 +57,9 @@ Confira aqui mensalmente quando mais artigos forem adicionados com o tempo.
 
 - [Responder a uma Conta de Email Comprometida no Office 365](responding-to-a-compromised-email-account.md)
 
-## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Proteger o Microsoft 365 como um cybersecurity pro
+## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Proteja o Microsoft 365 como um profissional de segurança cibernética
 
-Sua assinatura do Microsoft 365 vem com um conjunto poderoso de recursos de segurança que você pode usar para proteger seus dados e seus usuários.  Use o [mapa de segurança da Microsoft 365-principais prioridades para os primeiros 30 dias, 90 dias e além](security-roadmap.md) de implementar as práticas recomendadas da Microsoft para proteger sua organização do Microsoft 365.
+Sua assinatura do Microsoft 365 vem com um poderoso conjunto de recursos de segurança que você pode usar para proteger seus dados e seus usuários.  Use o [mapa de segurança da Microsoft 365-principais prioridades para os primeiros 30 dias, 90 dias e além](security-roadmap.md) de implementar as práticas recomendadas da Microsoft para proteger sua organização do Microsoft 365.
 
 - Tarefas a realizar nos primeiros 30 dias.  Estas têm efeito imediato e baixo impacto para seus usuários.
 

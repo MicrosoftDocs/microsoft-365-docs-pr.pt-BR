@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
 description: Faça backup do conteúdo do Outlook, do OneDrive, do Yammer e do SharePoint antes de mudar o Microsoft 365 Plans.
-ms.openlocfilehash: b7a29912416bd659f2e0dd40c7aa6b9f6309676e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9acc97f65bb5b471cb992d7f01cd299192b74a52
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403613"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818526"
 ---
 # <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Fazer backup dos dados antes de mudar o Microsoft 365 para planos de negócios
 
@@ -35,13 +35,13 @@ Se um usuário for alternado para outra assinatura que tenha menos serviços rel
   
 ## <a name="save-a-copy-of-outlook-information"></a>Salvar uma cópia das informações do Outlook
 
-Se os usuários tiverem o Outlook, eles poderão [exportar ou fazer backup de email, contatos e calendário para um arquivo. pst do Outlook](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91) antes de seu plano ser comutado.
+Se os usuários tiverem o Outlook, eles poderão [exportar ou fazer backup de email, contatos e calendário para um arquivo. pst do Outlook](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91) antes de seu plano ser comutado.
   
-Após a conclusão da opção para o novo plano, os usuários podem [importar email, contatos e calendário de um arquivo. pst do Outlook](https://support.office.com/article/431a8e9a-f99f-4d5f-ae48-ded54b3440ac).
+Após a conclusão da opção para o novo plano, os usuários podem [importar email, contatos e calendário de um arquivo. pst do Outlook](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac).
   
 ## <a name="save-files-stored-in-onedrive-for-business"></a>Salvar arquivos armazenados no OneDrive for Business
 
-Antes de ser alternado para uma assinatura diferente, os usuários podem [baixar arquivos e pastas do onedrive ou do SharePoint](https://support.office.com/article/5c7397b7-19c7-4893-84fe-d02e8fa5df05) para um local diferente, como uma pasta no disco rígido do computador ou um compartilhamento de arquivos na rede da organização.
+Antes de ser alternado para uma assinatura diferente, os usuários podem [baixar arquivos e pastas do onedrive ou do SharePoint](https://support.microsoft.com/office/5c7397b7-19c7-4893-84fe-d02e8fa5df05) para um local diferente, como uma pasta no disco rígido do computador ou um compartilhamento de arquivos na rede da organização.
   
 ## <a name="save-yammer-information"></a>Salvar informações do Yammer
 

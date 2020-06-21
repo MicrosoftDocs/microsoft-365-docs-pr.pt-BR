@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba como se inscrever para uma assinatura de avaliação do Microsoft 365 for Business.
-ms.openlocfilehash: 968ab3c8bf7b377eba1aafb3fbc710eb4d36dad7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b14cf3ede622d54a95eb5cec3b67eec230ea8793
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402829"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818538"
 ---
 # <a name="sign-up-for-a-trial-subscription"></a>Inscreva-se para uma assinatura de avaliação
 
@@ -53,4 +53,4 @@ Se você decidir cancelar a avaliação antes do término do período de avalia�
 
 ## <a name="see-also"></a>Confira também
 
-[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 Business ](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -10,13 +10,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
+ms.custom:
+- seo-marvel-apr2020
 description: Os administradores podem aprender sobre as informações de loop de email no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: d17c698cf66be56b6a08fa5efc2aaff78aaece07
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 80767a265734c542db8e24cf58d0a1c0df469780
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082802"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819311"
 ---
 # <a name="mail-loop-insight"></a>Insight de loop de email
 
@@ -28,6 +30,6 @@ Você pode clicar em **Exibir detalhes** para ver os detalhes em um painel de su
 
 ![Painel de submenu depois de clicar em Exibir detalhes em uma percepção de um loop de mal-formado no painel de fluxo de emails](../../media/f7e21300-c62f-41ec-853f-4a2775cd8aa7.png)
 
-## <a name="see-also"></a>Confira também
+## <a name="related-topics"></a>Tópicos relacionados
 
 Para obter mais informações sobre outros insights de fluxo de email no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).

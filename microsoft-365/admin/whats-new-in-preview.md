@@ -21,12 +21,12 @@ description: O centro de administração do Microsoft 365-Aprenda sobre os recur
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 4e4d47b054b5c6371bb62a3fe0f52c08b0997498
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: d0c32c7f7ac3b2824cd48c0e10085e3d59a16c69
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44587575"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780702"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>O que há de novo no centro de administração do Microsoft 365
 
@@ -153,19 +153,19 @@ Temos duas atualizações para grupos este mês:
 
 #### <a name="for-your-users"></a>Para seus usuários
 
-- [Agendar uma reunião](https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a)
-- [Ingressar em uma reunião do teams](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
-- [Criar uma equipe de toda a organização](https://support.office.com/article/create-a-company-wide-team-037bb27a-bcc9-48fe-8d72-44d9482420a3)
-- [Criar uma equipe com convidados](https://support.office.com/article/create-a-team-with-guests-11fbb083-52ee-434d-8c6e-63711fdafac7)
-- [Ingressar em uma equipe como convidado](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [Criar um endereço de email do grupo](https://support.office.com/article/create-a-company-email-address-ded875f9-a9de-437f-b559-2ae4f235bb2b)
+- [Agendar uma reunião](https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a)
+- [Ingressar em uma reunião do teams](https://support.microsoft.com/office/078e9868-f1aa-4414-8bb9-ee88e9236ee4)
+- [Criar uma equipe de toda a organização](https://support.microsoft.com/office/037bb27a-bcc9-48fe-8d72-44d9482420a3)
+- [Criar uma equipe com convidados](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7)
+- [Ingressar em uma equipe como convidado](https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824)
+- [Criar um endereço de email do grupo](https://support.microsoft.com/office/ded875f9-a9de-437f-b559-2ae4f235bb2b)
 
 #### <a name="for-admins-and-business-owners"></a>Para administradores e proprietários de negócios
 
-- [Capacitar sua pequena empresa com trabalho remoto](https://support.office.com/article/empower-your-small-business-with-remote-work-9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
-- [Executando uma pequena empresa remota](https://support.office.com/article/sign-up-for-a-microsoft-subscription-9ac1a0f1-789b-4143-b954-5821d5d89298)
-- [Inscreva-se no Microsoft Business Basic](https://support.office.com/article/sign-up-for-a-microsoft-subscription-9ac1a0f1-789b-4143-b954-5821d5d89298)
-- [Configurando a entrada de dois fatores](https://support.office.com/article/sign-up-for-a-microsoft-subscription-9ac1a0f1-789b-4143-b954-5821d5d89298)
+- [Capacitar sua pequena empresa com trabalho remoto](https://support.microsoft.com/office/9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
+- [Executando uma pequena empresa remota](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
+- [Inscreva-se no Microsoft Business Basic](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
+- [Configurando a entrada de dois fatores](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
 
 ## <a name="march-2020"></a>Março de 2020
 
@@ -227,7 +227,7 @@ Recebemos muitos comentários de parceiros e administradores sobre os desafios d
 
 Isso é literalmente!!!
 
-### <a name="groups"></a>Groups
+### <a name="groups"></a>Grupos
 
 Há algumas alterações na área de grupos deste mês:
 
@@ -276,12 +276,12 @@ A lista de caixas de correio de recursos foi atualizada para o novo estilo. No c
 
 Confira o treinamento de administrador do Small Business que lançamos em janeiro:
 
-- [Criar seu site de negócios](https://support.office.com/article/3325d50e-d131-403c-a278-7f3296fe33a9)
-- [Encontre respostas e ajuda](https://support.office.com/article/7f681212-c649-4a3e-a43b-32b1d1e58988)
-- [Obter ajuda ou suporte](https://support.office.com/article/18948a4c-3eb1-4b30-b1bc-a4cc29eb7655)
-- [Excluir um usuário](https://support.office.com/article/6bcdad7b-732a-4260-997a-8c176bc3d9d6)
-- [Escolha uma assinatura da Microsoft](https://support.office.com/article/b9f7c78e-430f-4117-89ec-2eeb1dced2ca)
-- [Visão geral da segurança do Microsoft 365 para empresas](https://support.office.com/article/3274b159-a825-46d7-9421-7d6e209389d1)
+- [Criar seu site de negócios](https://support.microsoft.com/office/3325d50e-d131-403c-a278-7f3296fe33a9)
+- [Encontre respostas e ajuda](https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988)
+- [Obter ajuda ou suporte](https://support.microsoft.com/office/18948a4c-3eb1-4b30-b1bc-a4cc29eb7655)
+- [Excluir um usuário](https://support.microsoft.com/office/6bcdad7b-732a-4260-997a-8c176bc3d9d6)
+- [Escolha uma assinatura da Microsoft](https://support.microsoft.com/office/b9f7c78e-430f-4117-89ec-2eeb1dced2ca)
+- [Visão geral da segurança do Microsoft 365 para empresas](https://support.microsoft.com/office/3274b159-a825-46d7-9421-7d6e209389d1)
 
 ## <a name="november-and-december-2019"></a>Novembro e dezembro de 2019
 

@@ -10,13 +10,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
+ms.custom:
+- seo-marvel-apr2020
 description: Os administradores podem saber mais sobre a correção do domínio do remetente no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: a416b4d15ff52a611f00a88de8440c749ff08ad3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c4cf4a87ad770325ca6ad2f0b87ac8ce52c345c2
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635167"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818826"
 ---
 # <a name="fix-sender-domain-insight"></a>Insight de correção de domínio do remetente
 
@@ -28,7 +30,7 @@ O Microsoft 365 requer mensagens de envio de ambientes de email locais internos 
 
 - Na configuração, uma das seguintes instruções é verdadeira:
 
-  - O domínio de email do remetente está registrado em sua organização. Para obter mais informações, consulte adicionar domínios no Office 365.
+  - O domínio de email do remetente está registrado em sua organização. Para obter mais informações, consulte Adicionar domínios no Office 365.
 
   - Seu servidor de email local está configurado para usar um certificado de envio de email para o Microsoft 365, o certificado contém ou corresponde exatamente a um nome de domínio que você registrou no Microsoft 365 e criou um conector baseado em certificado no Microsoft 365 com esse domínio. 
 
@@ -46,6 +48,6 @@ Você verá o conector de entrada usado para entregar as mensagens ao Office 365
 
 ![Exibir IDs de mensagem de exemplo na solução corrigir domínio do remetente](../../media/sender-domain-view-sample-message-ids.png)
 
-## <a name="see-also"></a>Confira também
+## <a name="related-topics"></a>Tópicos relacionados
 
 Para obter mais informações sobre outros insights de fluxo de email no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).

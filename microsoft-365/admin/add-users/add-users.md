@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1970f7d6-03b5-442f-b385-5880b9c256ec
 description: Saiba como adicionar usuários ao Microsoft 365, um de cada vez ou vários usuários ao mesmo tempo a partir de um arquivo CSV.
-ms.openlocfilehash: af4fead3112a678b1ee7eacb087dddc40ed43d36
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: af160b78317171bec98dcfa3d5877b53560f75a2
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432118"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780656"
 ---
 # <a name="add-users-individually-or-in-bulk"></a>Adicionar usuários individualmente ou em massa
 
@@ -80,11 +80,11 @@ As pessoas da sua equipe precisam de uma conta de usuário antes de entrarem e a
     
 - **Senha** Use a senha gerada automaticamente ou expanda para especificar uma senha forte para o usuário. 
     
-    Os usuários devem alterar as respectivas senhas após 90 dias. Além disso, você pode optar por **Permitir que esse usuário altere a senha quando entrar pela primeira vez**.
+    They'll need to change their password after 90 days. Or you can choose to **Make this user change their password when they first sign in**.
     
 - **Funções** Expanda, caso precise tornar esse usuário um administrador. 
     
-- **Licenças de produto** Expanda esta seção e escolha a licença apropriada. Caso não haja licenças disponíveis, você pode comprar mais licenças e adicionar usuários. 
+- **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses. 
 
 ::: moniker-end
 
@@ -105,11 +105,11 @@ As pessoas da sua equipe precisam de uma conta de usuário antes de entrarem e a
     
 - **Senha** Use a senha gerada automaticamente ou expanda para especificar uma senha forte para o usuário. 
     
-    Os usuários devem alterar as respectivas senhas após 90 dias. Além disso, você pode optar por **Permitir que esse usuário altere a senha quando entrar pela primeira vez**.
+    They'll need to change their password after 90 days. Or you can choose to **Make this user change their password when they first sign in**.
     
 - **Funções** Expanda, caso precise tornar esse usuário um administrador. 
     
-- **Licenças de produto** Expanda esta seção e escolha a licença apropriada. Caso não haja licenças disponíveis, você pode comprar mais licenças e adicionar usuários. 
+- **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses. 
 
 ::: moniker-end 
   
@@ -124,7 +124,7 @@ Depois de adicionar usuários, você receberá uma notificação por email da eq
   
 ## <a name="next-steps"></a>Próximas etapas
 
-Compartilhe o [Guia de início rápido do funcionário](https://support.office.com/article/b9700090-ce64-4046-ab92-ce8488a7bc0f.aspx) com seus novos usuários para definir alguns pontos, como o [Office em um PC ou Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx) e os [Aplicativos móveis do Office](https://support.office.com/article/7dabb6cb-0046-40b6-81fe-767e0b1f014f.aspx).
+Compartilhe o [Guia de início rápido do funcionário](https://support.microsoft.com/office/b9700090-ce64-4046-ab92-ce8488a7bc0f) com seus novos usuários para definir alguns pontos, como o [Office em um PC ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) e os [Aplicativos móveis do Office](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f).
   
 ## <a name="need-help"></a>Precisa de ajuda?
 
@@ -144,6 +144,8 @@ Para adicionar vários usuários ao mesmo tempo, siga essas etapas:
 - **Migrar do Exchange?** [Maneiras de migrar várias contas de email para o Office 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration). Ao migrar várias caixas de correio para o Microsoft 365 usando a substituição, a transferência ou um método híbrido do Exchange, você adicionará usuários automaticamente como parte da migração. A migração somente adiciona as contas de usuário. Você precisará atribuir licenças aos usuários para que eles possam usar emails e outros aplicativos do Office.
 
 ## <a name="related-articles"></a>Artigos relacionados
+
+[Atribuir licenças a usuários](../manage/assign-licenses-to-users.md)
 
 [Adicionar um novo funcionário ao Microsoft 365](add-new-employee.md)
 

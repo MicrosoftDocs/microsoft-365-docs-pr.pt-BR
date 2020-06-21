@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Saiba como gerenciar os grupos do Microsoft 365, incluindo a adição de adicionar ou remover membros do grupo, editar o endereço de email, o nome do grupo ou a descrição e personalizar como o grupo funciona.
-ms.openlocfilehash: 332d0dce46b94a3b69169183afb0c75ec537af8c
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: ba88e35713e889ca85a264b1da1d34d9e1e30671
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049198"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780644"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Gerenciar um grupo no centro de administração do Microsoft 365
 
@@ -128,7 +128,7 @@ Os membros do grupo podem optar por receber esses emails escolhendo parar de seg
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para **a página grupos** de **grupos** \> e selecione o grupo que você deseja alterar.
+1. No centro de administração, vá para a página grupos de **grupos** \> **Groups** e selecione o grupo que você deseja alterar.
 
 2. Ao lado de **nome**, selecione **Editar**.
 
@@ -140,7 +140,7 @@ Os membros do grupo podem optar por receber esses emails escolhendo parar de seg
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para **a página grupos** de **grupos** \> e selecione o grupo que você deseja alterar.
+1. No centro de administração, vá para a página grupos de **grupos** \> **Groups** e selecione o grupo que você deseja alterar.
 
 2. Ao lado de **nome**, selecione **Editar**.
 
@@ -194,7 +194,7 @@ Essa opção é ótima se você deseja ter um endereço de email da empresa, com
 
 [Criar um grupo do Microsoft 365](create-groups.md)
 
-[Gerenciar o acesso de convidados aos grupos do Microsoft 365](https://support.office.com/article/adding-guests-to-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)
+[Gerenciar o acesso de convidados aos grupos do Microsoft 365](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
 [Escolha o domínio a ser usado ao criar grupos do Microsoft 365](choose-domain-to-create-groups.md)
 

@@ -17,16 +17,14 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como você pode manter sua organização segura de arquivos mal-intencionados usando anexos seguros de ATP para o Office 365.
-ms.openlocfilehash: a0d5923ccac525b23aa2ef6b45936524f0a7b483
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: f4f355d4def1f108a72854c3796e0e9373cb5ef1
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036651"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819395"
 ---
 # <a name="how-atp-safe-attachments-works"></a>Como funcionam os Anexos Seguros da ATP
-
-## <a name="how-it-works"></a>Como funciona
 
 O recurso de anexos seguros de ATP verifica anexos de email de pessoas em sua organização. Quando uma política de anexos seguros de ATP está implementada e alguém abordado por essa política exibe seus emails no Office 365, seus anexos de email são verificados e as ações apropriadas são tomadas, com base nas suas políticas de anexos seguros de ATP. Dependendo de como suas políticas estiverem definidas, as pessoas poderão continuar a trabalhar sem ter sido sabendo que foram enviadas arquivos mal-intencionados.
   

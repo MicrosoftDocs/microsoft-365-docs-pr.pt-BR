@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba como configurar o Microsoft 365 para colaboração com pessoas de fora da sua organização.
-ms.openlocfilehash: 5d85b164133d235dce410cd6cbda778588fd093a
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 4d5be2d560017978d08bf9f5b06c9e2011606c6d
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160010"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819407"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Colaborar com pessoas de fora da sua organização
 
@@ -57,7 +57,7 @@ Quando você estiver trabalhando em um projeto grande que envolve muitos convida
 
 Se alguns dos recursos de compartilhamento no Microsoft 365 estão em conflito com suas políticas de governança, confira [limitar o compartilhamento no microsoft 365](microsoft-365-limit-sharing.md) para saber mais sobre as opções para limitar o compartilhamento.
 
-## <a name="see-also"></a>Confira também
+## <a name="related-topics"></a>Tópicos relacionados
 
 [Introdução à colaboração de arquivos no Microsoft 365](https://docs.microsoft.com/sharepoint/intro-to-file-collaboration)
 

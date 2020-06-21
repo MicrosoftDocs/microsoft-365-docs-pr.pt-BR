@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados no Office 365
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5d8c4495715ef29e1d9b70b993d1216e80461cf7
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: f9b5551b8cbda85ac3940bc8f43ec2d7b7eccdb1
+ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613379"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44811045"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Detectar e corrigir as regras do Outlook e os ataques de injeção de formulários personalizados
 
@@ -95,13 +95,13 @@ Você pode usar um destes dois métodos para confirmar o ataque:
 
 - Examine manualmente as regras e os formulários para cada caixa de correio usando o cliente do Outlook. Esse método é completo, mas você só pode verificar o usuário de caixa de correio de cada vez, o que pode ser muito demorado se você tiver muitos usuários para verificar. Também pode resultar em uma violação do computador a partir do qual você está executando a verificação.
 
-- Use o script do PowerShell [Get-AllTenantRulesAndForms. ps1](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1) para despejar automaticamente todas as regras de encaminhamento de email e formulários personalizados para todos os usuários em sua locação. Esse é o método mais rápido e mais seguro com a menor quantidade de sobrecarga.
+- Use o [Get-AllTenantRulesAndForms.ps1](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1) script do PowerShell para despejar automaticamente todas as regras de encaminhamento de email e formulários personalizados para todos os usuários em sua locação. Esse é o método mais rápido e mais seguro com a menor quantidade de sobrecarga.
 
 ### <a name="confirm-the-rules-attack-using-the-outlook-client"></a>Confirmar o ataque de regras usando o cliente Outlook
 
 1. Abra o cliente do Outlook dos usuários como o usuário. Talvez o usuário precise da ajuda para examinar as regras em suas caixas de correio.
 
-2. Consulte [gerenciar mensagens de email usando](https://support.office.com/article/c24f5dea-9465-4df4-ad17-a50704d66c59) o artigo de regras para obter os procedimentos sobre como abrir a interface de regras no Outlook.
+2. Consulte [gerenciar mensagens de email usando](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59) o artigo de regras para obter os procedimentos sobre como abrir a interface de regras no Outlook.
 
 3. Procure regras que o usuário não criou ou regras ou regras inesperadas com nomes suspeitos.
 
@@ -113,7 +113,7 @@ Você pode usar um destes dois métodos para confirmar o ataque:
 
 1. Abra o cliente do Outlook do usuário como o usuário.
 
-2. Siga as etapas em, [mostrar a guia desenvolvedor](https://support.office.com/article/e1192344-5e56-4d45-931b-e5fd9bea2d45) da versão dos usuários do Outlook.
+2. Siga as etapas em, [mostrar a guia desenvolvedor](https://support.microsoft.com/office/e1192344-5e56-4d45-931b-e5fd9bea2d45) da versão dos usuários do Outlook.
 
 3. Abra a guia desenvolvedor agora visível no Outlook e clique em **criar um formulário**.
 
@@ -125,7 +125,7 @@ Você pode usar um destes dois métodos para confirmar o ataque:
 
 ### <a name="steps-to-confirm-the-rules-and-forms-attack-using-powershell"></a>Etapas para confirmar as regras e o ataque de formulários usando o PowerShell
 
-A maneira mais simples de verificar uma regra ou um ataque de formulários personalizados é executar o script do PowerShell [Get-AllTenantRulesAndForms. ps1](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1) . Esse script se conecta a todas as caixas de correio em seu locatário e despeja todas as regras e formulários em dois arquivos. csv.
+A maneira mais simples de verificar uma regra ou um ataque de formulários personalizados é executar o [Get-AllTenantRulesAndForms.ps1](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1) script do PowerShell. Esse script se conecta a todas as caixas de correio em seu locatário e despeja todas as regras e formulários em dois arquivos. csv.
 
 #### <a name="pre-requisites"></a>Pré-requisitos
 
@@ -133,11 +133,11 @@ Você precisará ter direitos de administrador global para executar o script por
 
 1. Entre na máquina que você executará o script com direitos de administrador local.
 
-2. Baixe ou copie o script Get-AllTenantRulesAndForms. ps1 do GitHub para uma pasta a partir da qual será executado. O script criará dois arquivos com carimbo de data para esta pasta, MailboxFormsExport-yyyy-mm-dd. csv e MailboxRulesExport-yyyy-mm-dd. csv.
+2. Baixe ou copie o script Get-AllTenantRulesAndForms.ps1 do GitHub para uma pasta a partir da qual será executado. O script criará dois arquivos com carimbo de data para esta pasta, MailboxFormsExport-yyyy-mm-dd.csv e MailboxRulesExport-yyyy-mm-dd.csv.
 
 3. Abra uma instância do PowerShell como administrador e abra a pasta para a qual você salvou o script.
 
-4. Execute esta linha de comando do PowerShell da seguinte maneira `.\Get-AllTenantRulesAndForms.ps1` .\Get-AllTenantRulesAndForms.ps1
+4. Execute esta linha de comando do PowerShell da seguinte maneira `.\Get-AllTenantRulesAndForms.ps1`.\Get-AllTenantRulesAndForms.ps1
 
 #### <a name="interpreting-the-output"></a>Interpretação da saída
 
@@ -159,7 +159,7 @@ Se você encontrar evidências de qualquer um desses ataques, a correção será
 
 1. Identifique todos os dispositivos que o usuário usou com o Outlook. Todos eles precisarão ser limpos de possíveis malwares. Não permita que o usuário entre e use email até que todos os dispositivos sejam limpos.
 
-2. Siga as etapas em [excluir uma regra](https://support.microsoft.com/en-us/office/delete-a-rule-2f0e7139-f696-4422-8498-44846db9067f) para cada dispositivo.
+2. Siga as etapas em [excluir uma regra](https://support.microsoft.com/office/2f0e7139-f696-4422-8498-44846db9067f) para cada dispositivo.
 
 3. Se não tiver certeza sobre a presença de outros tipos de malware, você poderá Formatar e reinstalar todos os softwares no dispositivo. Para dispositivos móveis, você pode seguir as etapas do fabricante para redefinir o dispositivo para a imagem de fábrica.
 
@@ -177,7 +177,7 @@ Há dois cmdlets do PowerShell remoto que você pode usar para remover ou desabi
 
 2. Se você deseja remover completamente uma única regra, várias regras ou todas as regras de uma caixa de correio, use o cmdlet [Remove-InboxRule](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule) .
 
-3. Se você deseja manter a regra e seu conteúdo para uma investigação adicional, use o cmdlet [Disable-InboxRule](https:https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule/library/dd298120(v=exchg.160).aspx) .
+3. Se você deseja manter a regra e seu conteúdo para uma investigação adicional, use o cmdlet [Disable-InboxRule](https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule) .
 
 #### <a name="steps-for-mailboxes-in-exchange-online"></a>Etapas para caixas de correio no Exchange Online
 
@@ -185,7 +185,7 @@ Há dois cmdlets do PowerShell remoto que você pode usar para remover ou desabi
 
 2. Se você deseja remover completamente uma única regra, várias regras ou todas as regras de uma caixa de correio, use o cmdlet [Remove-inbox Rule](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule) .
 
-3. Se você deseja manter a regra e seu conteúdo para uma investigação adicional, use o cmdlet [Disable-InboxRule](https:https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule/library/dd298120(v=exchg.160).aspx) .
+3. Se você deseja manter a regra e seu conteúdo para uma investigação adicional, use o cmdlet [Disable-InboxRule](https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule) .
 
 ## <a name="how-to-minimize-future-attacks"></a>Como minimizar ataques futuros
 
@@ -207,7 +207,7 @@ A melhor maneira de proteger suas contas de usuário e, especialmente as contas 
 
 ### <a name="second-keep-your-outlook-clients-current"></a>Segundo: Mantenha seus clientes do Outlook atualizados
 
-Versões totalmente atualizadas e corrigidas do Outlook 2013 e 2016 desabilite a ação de regra/formulário "Iniciar aplicativo" por padrão. Isso garantirá que, mesmo que um invasor viole a conta, as ações de regra e formulário serão bloqueadas. Você pode instalar as atualizações e os patches de segurança mais recentes seguindo as etapas em [instalar atualizações do Office](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5).
+Versões totalmente atualizadas e corrigidas do Outlook 2013 e 2016 desabilite a ação de regra/formulário "Iniciar aplicativo" por padrão. Isso garantirá que, mesmo que um invasor viole a conta, as ações de regra e formulário serão bloqueadas. Você pode instalar as atualizações e os patches de segurança mais recentes seguindo as etapas em [instalar atualizações do Office](https://support.microsoft.com/office/2ab296f3-7f03-43a2-8e50-46de917611c5).
 
 Veja a seguir as versões de patch para os clientes do Outlook 2013 e 2016:
 
@@ -225,7 +225,7 @@ Para obter mais informações sobre os patches de segurança individuais, consul
 
 Observe que, mesmo com os patches e atualizações instalados, é possível que um invasor altere a configuração da máquina local para reabilitar o comportamento de "Iniciar aplicativo". Você pode usar o [gerenciamento avançado de política de grupo](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm/) para monitorar e impor políticas de máquina local em seus clientes.
 
-Você pode ver se "Iniciar aplicativo" foi habilitado novamente por meio de uma substituição no registro usando as informações em [como exibir o registro do sistema usando as versões de 64 bits do Windows](https://support.microsoft.com/help/305097/how-to-view-the-system-registry-by-using-64-bit-versions-of-windows). Verifique estas subchaves:
+Você pode ver se "Iniciar aplicativo" foi habilitado novamente por meio de uma substituição no registro usando as informações em [como exibir o registro do sistema usando as versões de 64 bits do Windows](https://support.microsoft.com/help/305097). Verifique estas subchaves:
 
 - **Outlook 2016**:`HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Security\`
 

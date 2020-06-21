@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: d7138188-086e-4a54-a155-11fa953c3930
 ROBOTS: NOINDEX
 description: Saiba como ativar, renovar ou adicionar licenças a uma assinatura do Microsoft 365 for Business.
-ms.openlocfilehash: 83b4ba3338db4351ef50af687d3632da83f45648
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f0e8de1546c5efdde907209e98f9ee5d710ab2c2
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44404677"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818550"
 ---
 # <a name="enter-your-product-key-purchased-from-microsoft-open"></a>Insira a chave do produto comprada da Microsoft Open
 
@@ -38,7 +38,7 @@ Se você comprou o Microsoft 365 for Business em um [programa de licença aberta
   
  **Precisa de mais alguma coisa?**
  
- **Para obter ajuda com o Microsoft 365 Home, ou pessoal**, consulte [usando chaves de produto com o Office](https://support.office.com/article/12a5763a-d45c-4685-8c95-a44500213759.aspx).
+ **Para obter ajuda com o Microsoft 365 Home, ou pessoal**, consulte [usando chaves de produto com o Office](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx).
   
  **Para obter ajuda com o Microsoft 365 Business Standard comprado de uma loja de varejo**, consulte [Insira a chave do produto comprada em uma loja de varejo](enter-your-product-key.md). 
   
@@ -64,7 +64,7 @@ Se você é novo no Microsoft 365 for Business, saiba como [Configurar o microso
 
 Confira esta lista de erros e soluções comuns: [problemas com a chave do produto?](product-key-errors-and-solutions.md)
   
-Se for um parceiro, confira [Parceiros: usar uma chave do produto para configurar uma assinatura de cliente](https://support.microsoft.com/en-us/office/partners-use-a-product-key-to-set-up-a-customer-subscription-cf22c50f-95c9-4fa2-b959-c264de256d40).
+Se for um parceiro, confira [Parceiros: usar uma chave do produto para configurar uma assinatura de cliente](https://support.microsoft.com/office/cf22c50f-95c9-4fa2-b959-c264de256d40).
   
 Se for um cliente de licenciamento por volume, pode saber mais visitando [Recursos e treinamento do Centro de Serviços de Licenciamento por Volume da Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=618103).
   

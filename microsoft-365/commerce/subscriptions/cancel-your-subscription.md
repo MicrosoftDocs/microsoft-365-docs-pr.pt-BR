@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Saiba como cancelar sua assinatura de avaliação do Microsoft 365 for Business ou pago.
-ms.openlocfilehash: 863bb9c5cd6a6c9468715f02df6b40e91859ca27
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3f60792446b468aaa5c85d03ab761fd75e607b8b
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403289"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818514"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
@@ -101,7 +101,7 @@ Se você cancelar uma assinatura antes do fim do seu termo, a assinatura se move
   
 - **Acesso de administrador** Os administradores ainda podem entrar e acessar o centro de administração e comprar outras assinaturas conforme necessário. Como administrador global ou de cobrança, você tem 90 dias para [reativar a assinatura](reactivate-your-subscription.md) com todos os dados intactos.
 
-- **Acesso de usuário** Os usuários não poderão usar serviços como o OneDrive for Business ou acessar dados do cliente, como email ou documentos, em sites de equipe. Os aplicativos Office, como o Word e Excel entrarão em um modo de funcionalidade reduzida de somente leitura e exibirão [notificações de Produto não Licenciado](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx).
+- **Acesso de usuário** Os usuários não poderão usar serviços como o OneDrive for Business ou acessar dados do cliente, como email ou documentos, em sites de equipe. Os aplicativos Office, como o Word e Excel entrarão em um modo de funcionalidade reduzida de somente leitura e exibirão [notificações de Produto não Licenciado](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx).
 
 Para saber mais, veja [o que acontece com meus dados e acesso quando minha assinatura termina?](what-if-my-subscription-expires.md)
 
@@ -138,13 +138,13 @@ Para obter mais informações, consulte [como a Microsoft 365 gerencia meus regi
 
 Quando o cancelamento se tornar efetivo, seus usuários perderão o acesso aos seus dados. Antes de cancelar a assinatura, Salve seus arquivos do OneDrive for Business ou do SharePoint Online em outro local. Todos os dados do cliente que você deixar atrás poderão ser excluídos após 30 dias, e não serão excluídos depois de 180 dias após o cancelamento.
 
-- Para migrar emails, contatos, tarefas e informações de calendário para outra conta, confira [Exportar ou fazer backup dos emails, dos contatos e do calendário para um arquivo .pst do Outlook](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
+- Para migrar emails, contatos, tarefas e informações de calendário para outra conta, confira [Exportar ou fazer backup dos emails, dos contatos e do calendário para um arquivo .pst do Outlook](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
 
 - Para salvar uma biblioteca de documentos ou conteúdo de lista (como contatos) de um ambiente do SharePoint Online (OneDrive for Business ou sites de equipe) em compartilhamentos de arquivo ou em um computador local, confira [Migração manual do conteúdo do SharePoint Online](https://support.microsoft.com/kb/2783484).
 
 ### <a name="uninstall-office-optional"></a>Desinstalar o Office (opcional)
 
-Se você cancelou sua assinatura e não moveu os usuários para uma assinatura diferente que inclui o Microsoft 365, o Microsoft 365 é executado no modo de funcionalidade reduzida. Quando isso acontece, os usuários só podem ler e imprimir documentos, e os aplicativos do Microsoft 365 exibem [notificações de produtos não licenciados](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx). Para evitar confusão, peça aos seus usuários para [desinstalar o Office](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) de seus computadores.
+Se você cancelou sua assinatura e não moveu os usuários para uma assinatura diferente que inclui o Microsoft 365, o Microsoft 365 é executado no modo de funcionalidade reduzida. Quando isso acontece, os usuários só podem ler e imprimir documentos, e os aplicativos do Microsoft 365 exibem [notificações de produtos não licenciados](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx). Para evitar confusão, peça aos seus usuários para [desinstalar o Office](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) de seus computadores.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

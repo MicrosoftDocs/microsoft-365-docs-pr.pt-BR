@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 73318661-8f33-478b-bcc7-fb8d69dbb22a
 description: Saiba como mudar para uma nova assinatura do Microsoft 365 for Business.
-ms.openlocfilehash: c1216f0eb5069610ea63ca1a81d90243d3ef111d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 299de3618046d7bbf4f9e852f9c623bc02638715
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403181"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818630"
 ---
 # <a name="switch-to-a-different-microsoft-365-for-business-plan"></a>Mudar para outro plano do Microsoft 365 for business
 
@@ -41,7 +41,7 @@ A maneira mais fácil de mudar de plano é usar o botão **mudar de planos** no 
 
 **Precisa de mais alguma coisa?**
 - [Cancelar sua assinatura](cancel-your-subscription.md)
-- [Atualizar a família Microsoft 365 para uma assinatura de negócios](https://support.office.com/article/9322ffb8-a35d-4407-8ebe-ed6ea0859b9f.aspx)
+- [Atualizar a família Microsoft 365 para uma assinatura de negócios](https://support.microsoft.com/office/9322ffb8-a35d-4407-8ebe-ed6ea0859b9f.aspx)
 - [Contate o Suporte da Microsoft](../../admin/contact-support-for-business-products.md)
 
 ## <a name="use-the-switch-plans-button"></a>Use o botão mudar de plano

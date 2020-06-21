@@ -27,12 +27,12 @@ search.appverid:
 ms.assetid: 9b23c065-eef9-4bf7-acf5-127eb46d5e67
 ROBOTS: NOINDEX
 description: 'Entenda o que você precisa saber antes de passar pelo processo de inscrição do Office 365. '
-ms.openlocfilehash: 3b3212eeb5e95d4be24029a78f9af4d1b02931ce
-ms.sourcegitcommit: a418195dc11e6251ae37e788c102bbaa7087e44e
+ms.openlocfilehash: dd374cd12f4e3a041869d17157e7198445f99e69
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44579164"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780512"
 ---
 # <a name="how-to-sign-up---admin-help"></a>Como inscrever-se na ajuda do administrador
 
@@ -70,7 +70,7 @@ Assista a um pequeno vídeo sobre como escolher um plano Microsoft 365 para empr
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
-Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Precisa de ajuda para escolher? Os consultores de vendas estão disponíveis para responder às suas perguntas. Basta ir para [comparar todos os produtos](https://products.office.com/compare-all-microsoft-office-products?tab=2) e escolher uma das opções de suporte de contato listadas no lado esquerdo da página.
   
@@ -115,9 +115,9 @@ Não é necessário cancelar a avaliação. Se você não comprar a assinatura d
 
 - **As informações de endereço e de contato para sua assinatura:**
 
-  - O **país/região** onde os serviços serão usados. **Não** será possível alterá-lo mais tarde, mesmo durante o processo de inscrição; será necessário iniciar novamente o assistente de inscrição.
+  - **Country** where the services will be used. You **won't** be able to change this later, even during the sign up process; you'll have to re-start the sign up wizard.
 
-  - O **Email** e o **número de telefone** para que possamos entrar em contato, caso seja necessário tratar sobre sua assinatura. Por exemplo, se você esquecer sua senha, poderemos usar essas informações para lhe enviar uma senha temporária. Também poderemos enviar suas informações de cobrança para o endereço de email que você especificar.
+  - **Email** and **phone number** so we can contact you if needed about your subscription. For example, if you forget your password, we would use this information to send you a temporary one. We also send your billing information to the email address you specify.
 
     > [!NOTE]
     > O endereço de email inserido aqui é diferente do seu endereço de email do Microsoft 365 (seu nome de logon, abaixo). Recomendamos que você use um endereço de email adequado para receber emails comerciais, pois é aqui que você receberá as informações de cobrança.
@@ -137,4 +137,4 @@ Não é necessário cancelar a avaliação. Se você não comprar a assinatura d
 
 ## <a name="see-also"></a>Confira também
 
-[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 Business ](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -19,17 +19,17 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as configurações e filtros antispam que ajudarão a evitar spam na proteção do Exchange Online (EOP).
-ms.openlocfilehash: d7c58fd4751bc7d92d5dfa3cadcfb7b24a3fc465
-ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
+ms.openlocfilehash: ce673a4bee64dfbc84f870f9cf4871e9ac32a71c
+ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44211411"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44800102"
 ---
 # <a name="anti-spam-protection-in-eop"></a>Proteção antispam no EOP
 
 > [!NOTE]
-> Este tópico destina-se a administradores. Para os tópicos do usuário final, confira [visão geral do filtro de lixo eletrônico](https://support.Microsoft.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) e [saiba mais sobre lixo eletrônico e phishing](https://support.Microsoft.com/article/86c1d76f-4d5a-4967-9647-35665dc17c31).
+> Este tópico destina-se a administradores. Para os tópicos do usuário final, confira [visão geral do filtro de lixo eletrônico](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) e [saiba mais sobre lixo eletrônico e phishing](https://support.microsoft.com/office/86c1d76f-4d5a-4967-9647-35665dc17c31).
 
 Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, as mensagens de email são automaticamente protegidas contra spam (lixo eletrônico) por EOP.
 
@@ -83,7 +83,7 @@ Veja a seguir algumas práticas recomendadas que se aplicam a qualquer um dos ce
 
 ### <a name="prevent-the-delivery-of-spam-to-the-inbox"></a>Impedir a entrega de spam para a caixa de entrada
 
-- **Verifique suas configurações de organização**: Tome as configurações que permitem que as mensagens ignorem a filtragem de spam (por exemplo, se você adicionar seu próprio domínio à lista de domínios permitidos em políticas antispam). Para nossas configurações recomendadas, consulte [configurações recomendadas para o EOP e o Microsoft 365 ATP Security](recommended-settings-for-eop-and-office365-atp.md) e [criar listas de remetentes seguros](create-safe-sender-lists-in-office-365.md).
+- **Verifique suas configurações de organização**: Tome as configurações que permitem que as mensagens ignorem a filtragem de spam (por exemplo, se você adicionar seu próprio domínio à lista de domínios permitidos em políticas antispam). Para nossas configurações recomendadas, consulte [configurações recomendadas para o EOP e o Office 365 ATP Security](recommended-settings-for-eop-and-office365-atp.md) e [criar listas de remetentes seguros](create-safe-sender-lists-in-office-365.md).
 
 - **Verifique se a regra de lixo eletrônico está habilitada na caixa de correio do usuário**: ela está habilitada por padrão, mas se estiver desabilitada, as mensagens marcadas como lixo eletrônico não poderão ser movidas para a pasta lixo eletrônico. Para obter mais informações, consulte [Configurar definições de lixo eletrônico em caixas de correio do Exchange Online no Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
 

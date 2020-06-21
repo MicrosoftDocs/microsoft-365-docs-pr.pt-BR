@@ -18,16 +18,16 @@ ms.collection:
 - M365-security-compliance
 description: Ao configurar as políticas de anexos seguros de ATP, você escolhe a entrega dinâmica para evitar atrasos de mensagens e permite que as pessoas visualizem os anexos que estão sendo examinados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c30803efd2dafedd6d988de5374f08bd61f7d2a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: b22112617ecba191c7ee8d7daab0de3cde1bf8c3
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034787"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819347"
 ---
 # <a name="dynamic-delivery-and-previewing-with-atp-safe-attachments"></a>Entrega dinâmica e visualização com anexos seguros de ATP
 
-## <a name="overview"></a>Visão geral
+## <a name="basic-features-of-dynamic-delivery"></a>Recursos básicos de entrega dinâmica
 
 A entrega dinâmica é uma opção que pode ser selecionada para [anexos seguros de ATP](atp-safe-attachments.md). Leia este artigo para saber mais sobre a entrega dinâmica e recursos de visualização de anexos nos [anexos seguros de ATP no Office 365](atp-safe-attachments.md).
 
@@ -80,7 +80,7 @@ Há determinados cenários em que a entrega dinâmica não é suportada. Elas in
 
 - Uma pasta de pesquisa de caixa de correio do usuário que está em um estado de erro
 
-- Ambientes nos quais um administrador do Exchange Online habilitou o Exclaimer. Para resolver isso, confira [mensagens com anexos não são entregues quando a entrega dinâmica e o Exclaimer da ATP são usados](https://support.microsoft.com/help/4014438/messages-with-attachments-are-not-delivered-when-atp-dynamic-delivery)
+- Ambientes nos quais um administrador do Exchange Online habilitou o Exclaimer. Para resolver isso, confira [mensagens com anexos não são entregues quando a entrega dinâmica e o Exclaimer da ATP são usados](https://support.microsoft.com/help/4014438)
 
 - Mensagens criptografadas com [S/MIME (Secure/Multipurpose Internet Mail Extensions)](s-mime-for-message-signing-and-encryption.md))
 

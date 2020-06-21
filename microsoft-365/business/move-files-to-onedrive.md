@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: Saiba como você pode mover seus arquivos de trabalho pessoal e arquivos confidenciais da empresa para o OneDrive for Business em apenas algumas etapas simples.
-ms.openlocfilehash: ec225eb43d79bebaa7035178d4d1751c58149e7a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 561c9dee1080a50dea695f136df10be8e5d52959
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401353"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785903"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Mover arquivos para o OneDrive for Business
 
@@ -37,7 +37,7 @@ Assista a um pequeno vídeo sobre como mover arquivos para o OneDrive for Busine
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
-Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 
 ## <a name="move-files-to-onedrive-for-business"></a>Mover arquivos para o OneDrive for Business
@@ -50,8 +50,8 @@ Se um usuário tiver um computador com muitos arquivos pessoais, você deve prim
     
 3. Escolha **Carregar**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png) na barra de menus e navegue até os arquivos que você deseja salvar. 
     
-Para transferir o perfil do usuário e arquivos importantes, você também pode usar uma ferramenta de terceiros, como o ForensiT. Você também deve carregar os arquivos resultantes na OneDrive for Business.
+To transfer the user profile and important files, you can also use a third-party tool, such as ForensiT. You should upload the resulting files in OneDrive for Business also.
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Para saber mais sobre como configurar e usar o Microsoft 365 for Business
 
-[Vídeos de treinamento do Microsoft 365 Business ](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 Business ](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

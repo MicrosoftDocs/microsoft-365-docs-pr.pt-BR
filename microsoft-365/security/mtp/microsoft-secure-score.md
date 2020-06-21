@@ -17,12 +17,15 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 383ef5a0ff61b861bd72dc08d7b974ef98592fcc
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
+ms.openlocfilehash: a7097bfc9fb4c15408672171b27d577ddfaa9bd5
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173387"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818562"
 ---
 # <a name="microsoft-secure-score-previous-iteration"></a>Pontuação segura da Microsoft (iteração anterior)
 
@@ -43,7 +46,7 @@ As organizações obtêm acesso a visualizações robustas de métricas e tendê
 
 Além disso, você pode acessar suas recomendações e pontuações por meio da [API do Microsoft Graph](https://www.microsoft.com/security/partnerships/graph-security-api). Saiba mais sobre o [tipo de recurso de Pontuação segura](https://go.microsoft.com/fwlink/?linkid=2092996).
 
-## <a name="how-it-works"></a>Como funciona
+## <a name="how-your-secure-score-is-calculated"></a>Como a pontuação segura é calculada
 
 Você receberá pontos para configurar os recursos de segurança recomendados, executar tarefas relacionadas à segurança (como exibir relatórios) ou abordar a ação de aperfeiçoamento com um aplicativo ou software de terceiros. Algumas ações de melhoria só dão pontos quando estão totalmente concluídas, e algumas fornecem pontos parciais se forem concluídas para alguns dispositivos ou usuários.
 
@@ -102,8 +105,8 @@ Para ajudá-lo a obter mais rapidamente as informações de que você precisa, a
 
 Na página de visão geral de Pontuação segura da Microsoft, você pode ver como os pontos são divididos entre esses grupos e que pontos estão disponíveis. A página de visão geral também é o local para obter uma visão completa da pontuação total, tendência histórica de sua pontuação segura com comparações de benchmark e ações de melhoria priorizadas que podem ser tomadas para melhorar sua pontuação.
 
-![Home Page](../../media/secure-score/homepage-original.png)
-de Pontuação segura*Figura 1: página de visão geral de Pontuação segura da Microsoft*
+![Home Page de Pontuação segura ](../../media/secure-score/homepage-original.png)
+ *Figura 1: página de visão geral de Pontuação segura da Microsoft*
 
 ## <a name="take-action-to-improve-your-score"></a>Executar uma ação para melhorar sua pontuação
 

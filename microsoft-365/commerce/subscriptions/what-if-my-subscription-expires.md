@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Saiba o que acontece com seus dados quando sua assinatura do Microsoft 365 for Business expira, está desabilitada ou se você cancelar.
-ms.openlocfilehash: e1953f439577b9339b035968a63e8d1a6eddcd29
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c50c8ca2e9f6342cc127c7a1b42575515fd36329
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403157"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818618"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>O que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 for Business termina?
 
@@ -57,13 +57,13 @@ A tabela a seguir explica o que você pode esperar quando uma assinatura paga do
 
 Enquanto uma assinatura estiver ativa, você e seus usuários finais terão acesso normal aos seus dados, serviços como email e OneDrive for Business e aplicativos do Office. Como administrador, você receberá uma série de notificações por email e no centro de administração à medida que sua assinatura se aproximar da data de vencimento.
   
-Antes que a assinatura realmente alcance sua data de expiração, você tem algumas opções:
+Antes que a assinatura expire, você tem as seguintes opções:
 
 ::: moniker range="o365-worldwide"
   
 - **Habilitar cobrança recorrente para a assinatura.**
 
-  - Se a **cobrança recorrente** já estiver ativada, não será necessário realizar qualquer ação. Sua assinatura será cobrada automaticamente e você será cobrado por um ano ou mês adicional, dependendo da sua frequência de pagamento atual. Se, por qualquer motivo, você tiver desativado a **cobrança recorrente** , sempre será possível [ativar novamente a cobrança recorrente](renew-your-subscription.md).
+  - Se a **cobrança recorrente** já estiver ativada, não será necessário realizar qualquer ação. Sua assinatura será renovada automaticamente na data de término do prazo e será cobrado um ano ou mês adicional, dependendo da sua frequência de pagamento atual. Se, por qualquer motivo, você tiver desativado a **cobrança recorrente** , sempre será possível [ativar novamente a cobrança recorrente](renew-your-subscription.md).
 
   - Se você comprou o Microsoft 365 Apps for Business com um cartão pré-pago, é possível [ativar a cobrança recorrente](renew-your-subscription.md) para sua assinatura.
 
@@ -87,7 +87,7 @@ Antes que a assinatura realmente alcance sua data de expiração, você tem algu
   
 - **Gerenciar cobrança recorrente da assinatura.**
 
-  - Se a **cobrança recorrente** já estiver ativada, não será necessário realizar qualquer ação. Sua assinatura será cobrada automaticamente e você será cobrado por um ano ou mês adicional, dependendo da sua frequência de pagamento atual. Se, por qualquer motivo, você tiver desativado a **cobrança recorrente** , sempre será possível [ativar novamente a cobrança recorrente](renew-your-subscription.md).
+  - Se a **cobrança recorrente** já estiver ativada, não será necessário realizar qualquer ação. Sua assinatura será renovada automaticamente na data de término do prazo e será cobrado um ano ou mês adicional, dependendo da sua frequência de pagamento atual. Se, por qualquer motivo, você tiver desativado a **cobrança recorrente** , sempre será possível [ativar novamente a cobrança recorrente](renew-your-subscription.md).
 
   - Se você comprou o Microsoft 365 Apps for Business com um cartão pré-pago, é possível [ativar a cobrança recorrente](renew-your-subscription.md) para sua assinatura.
 
@@ -109,7 +109,7 @@ Antes que a assinatura realmente alcance sua data de expiração, você tem algu
 
 ::: moniker range="o365-21vianet"
   
-- **Renove a assinatura.** Se a **cobrança recorrente** já estiver ativada, não será necessário realizar qualquer ação. Sua assinatura será cobrada automaticamente e você será cobrado por um ano ou mês adicional, dependendo da sua frequência de pagamento atual. Se, por qualquer motivo, você tiver desativado a **cobrança recorrente** , sempre será possível [ativar novamente a cobrança recorrente](renew-your-subscription.md).
+- **Renove a assinatura.** Se a **cobrança recorrente** já estiver ativada, não será necessário realizar qualquer ação. Sua assinatura será renovada automaticamente na data de término do prazo e será cobrado um ano ou mês adicional, dependendo da sua frequência de pagamento atual. Se, por qualquer motivo, você tiver desativado a **cobrança recorrente** , sempre será possível [ativar novamente a cobrança recorrente](renew-your-subscription.md).
 
 - **Deixe a assinatura expirar.** Se você estiver pagando por cartão de crédito ou fatura e não quiser continuar sua assinatura, [desative a cobrança recorrente](renew-your-subscription.md). Sua assinatura expirará em sua data de expiração e você poderá ignorar todas as notificações de email relacionadas.
 
@@ -168,7 +168,7 @@ Como administrador, você ainda tem acesso ao centro de administração. Não se
 
 ::: moniker range="o365-worldwide"
 
-Nesse estado, seu acesso diminui significativamente. Os usuários não podem entrar nem acessar serviços como email ou SharePoint Online. Os aplicativos do Office eventualmente são movidos para um modo de funcionalidade somente leitura e reduzido e exibem [notificações de produtos não licenciados](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx). Você ainda pode entrar e acessar o centro de administração, mas não pode atribuir licenças aos usuários. Os dados do cliente, incluindo todos os dados do usuário, emails e arquivos em sites de equipe, estão disponíveis apenas para você e outros administradores.
+Nesse estado, seu acesso diminui significativamente. Os usuários não podem entrar nem acessar serviços como email ou SharePoint Online. Os aplicativos do Office eventualmente são movidos para um modo de funcionalidade somente leitura e reduzido e exibem [notificações de produtos não licenciados](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx). Você ainda pode entrar e acessar o centro de administração, mas não pode atribuir licenças aos usuários. Os dados do cliente, incluindo todos os dados do usuário, emails e arquivos em sites de equipe, estão disponíveis apenas para você e outros administradores.
 
 ::: moniker-end
 
@@ -216,7 +216,7 @@ Veja o que esperar para você e seus usuários se cancelar uma assinatura.
   
 - **Acesso de administrador** Os administradores ainda podem entrar e acessar o centro de administração e comprar outras assinaturas conforme necessário. Como administrador global ou de cobrança, você tem 90 dias para [reativar a assinatura](reactivate-your-subscription.md) com todos os dados intactos.
 
-- **Acesso de usuário** Os usuários não poderão usar serviços como o OneDrive for Business ou acessar dados do cliente, por exemplo, emails ou documentos em sites de equipe. Os aplicativos Office, como o Word e Excel entrarão em um modo de funcionalidade reduzida de somente leitura e exibirão [notificações de Produto não Licenciado](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx).
+- **Acesso de usuário** Os usuários não poderão usar serviços como o OneDrive for Business ou acessar dados do cliente, por exemplo, emails ou documentos em sites de equipe. Os aplicativos Office, como o Word e Excel entrarão em um modo de funcionalidade reduzida de somente leitura e exibirão [notificações de Produto não Licenciado](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx).
 
 Para saber como cancelar, confira [cancelar sua assinatura](cancel-your-subscription.md).
   

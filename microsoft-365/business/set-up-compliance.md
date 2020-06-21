@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Configurar recursos de conformidade para evitar a perda de dados e ajudar a manter a segurança de informações confidenciais de seus clientes.
-ms.openlocfilehash: 9b900367c22ec5bb5c2719af63049045ecd5e466
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 18886ff3a0ba5e99e63c70ef083d7a69c75bac91
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402685"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785823"
 ---
 # <a name="set-up-compliance-features"></a>Configure os recursos de conformidade
 
@@ -61,7 +61,7 @@ Para colocar uma caixa de correio em retenção de litígio, no centro de admini
 
 Os rótulos de confidencialidade vêm com o plano 1 do Windows Information Protection (AIP) e ajudam você a classificar e, opcionalmente, proteger seus documentos e emails, aplicando rótulos. Os rótulos podem ser aplicados automaticamente por administradores que definem regras e condições, manualmente por usuários ou usando uma combinação em que os usuários recebem recomendações.
 
-Para configurar rótulos de sensibilidade, exiba o vídeo [criar e gerenciar rótulos de confidencialidade](https://support.office.com/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) .
+Para configurar rótulos de sensibilidade, exiba o vídeo [criar e gerenciar rótulos de confidencialidade](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) .
 
 
 
@@ -69,7 +69,7 @@ Para configurar rótulos de sensibilidade, exiba o vídeo [criar e gerenciar ró
 
 Para instalar manualmente o cliente AIP:
 
-1. Baixe o **AzinfoProtection_UL. exe** do [centro de download da Microsoft](https://www.microsoft.com/download/details.aspx?id=53018).
+1. Baixe **AzinfoProtection_UL.exe** do [centro de download da Microsoft](https://www.microsoft.com/download/details.aspx?id=53018).
  
 2. Você pode verificar se a instalação funcionou exibindo um documento do Word e certificando-se de que a opção de **sensibilidade** esteja disponível na guia **página inicial** .
 <br/>![Menu suspenso proteção de guia em um documento do Word.](../media/word-sensitivity.png)

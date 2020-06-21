@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
 description: Saiba mais sobre os requisitos para configurar sua organização com o Microsoft 365 for Business e proteger dados de trabalho nos dispositivos dos seus usuários.
-ms.openlocfilehash: 1bfa2b2d2ceba68d39da9c65560e67a6602e6cfa
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 237825d2c2683bb6e71ae2fd31f8a25b1aa85ff7
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470958"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785883"
 ---
 # <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>Pré-requisitos para a proteção de dados em dispositivos com o Microsoft 365 for Business
 
@@ -41,7 +41,7 @@ A primeira etapa para configurar sua organização com o Microsoft 365 for Busin
     
     [Atualizar dispositivos Windows para a Atualização do Windows Pro para Criadores](upgrade-to-windows-pro-creators-update.md)
     
-    Se você estiver executando o Windows 10 Home, deverá **comprar** o Windows 10 pro. Consulte [atualizar o Windows 10 Home para o Windows 10 pro](https://support.office.com/article/0aee10c1-4d34-43ee-a325-579c6c2df90e?ui=en-US&rs=en-US&ad=US) para obter instruções. 
+    Se você estiver executando o Windows 10 Home, deverá **comprar** o Windows 10 pro. Consulte [atualizar o Windows 10 Home para o Windows 10 pro](https://support.microsoft.com/office/0aee10c1-4d34-43ee-a325-579c6c2df90e) para obter instruções. 
     
 - Remova dispositivos das soluções de gerenciamento móvel (ferro móvel, relógio de Watch e assim por diante). Você inscreverá todas as pessoas em sua organização no Microsoft 365 for Business Mobile Management.
     

@@ -19,13 +19,14 @@ ms.collection:
 - SPO_Content
 ms.custom:
 - seo-marvel-apr2020
+- seo-marvel-jun2020
 description: Saiba mais sobre a proteção avançada contra ameaças do Office 365 para arquivos no SharePoint Online, OneDrive for Business e Microsoft Teams.
-ms.openlocfilehash: 90e84f0a4393e5097fb59b93693862a21d6d9f2f
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e4a711d6554ffcb8e291d5b2154120d078995e94
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44031443"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815404"
 ---
 # <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>ATP para SharePoint, OneDrive e Microsoft Teams
 
@@ -33,7 +34,7 @@ ms.locfileid: "44031443"
 
 As pessoas costumam compartilhar arquivos e colaborar usando o SharePoint, o OneDrive e o Microsoft Teams. Com a [proteção avançada contra ameaças do Office 365](office-365-atp.md) (ATP), sua organização pode colaborar de forma mais segura. A ATP ajuda a detectar e bloquear arquivos identificados como mal-intencionados em sites de equipe e bibliotecas de documentos.
 
-## <a name="how-it-works"></a>Como funciona
+## <a name="how-office-365-atp-operates"></a>Como o Office 365 ATP Opera
 
 Quando um arquivo no SharePoint Online, OneDrive for Business e Microsoft Teams é identificado como mal-intencionado, a ATP se integra diretamente aos repositórios de arquivos para bloquear esse arquivo. A imagem a seguir mostra um exemplo de um arquivo mal-intencionado detectado em uma biblioteca.
 
@@ -63,11 +64,11 @@ Para saber mais, confira [Office 365 ATP para SharePoint, OneDrive e Microsoft T
 
 ## <a name="quarantine-in-atp-for-sharepoint-online-onedrive-for-business-and-microsoft-teams"></a>Quarentena no ATP para SharePoint Online, OneDrive for Business e Microsoft Teams
 
- A partir do final de maio [quarantine](quarantine-email-messages.md) de 2018, os recursos de &amp; quarentena no centro de conformidade de segurança estão sendo estendidos para ATP para SharePoint Online, onedrive for Business e Microsoft Teams.
+ A partir do final de maio de 2018, os recursos de [quarentena](quarantine-email-messages.md) no centro de conformidade de segurança &amp; estão sendo estendidos para ATP para SharePoint Online, onedrive for Business e Microsoft Teams.
 
-Quando um arquivo no SharePoint Online, no OneDrive for Business ou no Microsoft Teams é identificado como mal-intencionado, além de a ATP impedindo que o arquivo seja aberto ou compartilhado, esse arquivo é incluído em uma lista de itens em quarentena. (No centro de &amp; conformidade de segurança, vá para **Gerenciamento** \> de ameaças **revisar** \> **quarentena** e filtrar **arquivos**.)
+Quando um arquivo no SharePoint Online, no OneDrive for Business ou no Microsoft Teams é identificado como mal-intencionado, além de a ATP impedindo que o arquivo seja aberto ou compartilhado, esse arquivo é incluído em uma lista de itens em quarentena. (Na segurança &amp; Centro de conformidade, vá para **Gerenciamento de ameaças** \> **revisar** \> **quarentena** e filtrar **arquivos**.)
 
-Se você fizer parte da equipe de segurança do Microsoft 365 for Business da sua organização e tiver as [permissões necessárias atribuídas &amp; no centro de conformidade de segurança](permissions-in-the-security-and-compliance-center.md), poderá baixar, liberar, relatar e excluir arquivos detectados como mal-intencionados por ATP da quarentena.
+Se você fizer parte da equipe de segurança do Microsoft 365 for Business da sua organização e tiver as [permissões necessárias atribuídas no &amp; centro de conformidade de segurança](permissions-in-the-security-and-compliance-center.md), poderá baixar, liberar, relatar e excluir arquivos detectados como mal-intencionados por ATP da quarentena.
 
 - **Liberar e relatar** um arquivo Remove o bloco ATP no arquivo no respectivo site de equipe ou biblioteca de documentos do SharePoint, onedrive ou Microsoft Teams. Os usuários podem abrir, compartilhar e baixar o arquivo. E, quando a opção **Enviar relatório para a Microsoft** for selecionada, o arquivo será relatado como falso positivo para a Microsoft.
 
