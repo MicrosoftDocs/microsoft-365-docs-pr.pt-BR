@@ -13,17 +13,23 @@ metadata:
   ms.date: 11/08/2019
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 56353a336c3f8383b93ab63898e4879276b0108d
-  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+  ms.openlocfilehash: 9d8104660c4686b2240c292509a499a25308d9f6
+  ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/27/2020
-  ms.locfileid: "44399843"
+  ms.lasthandoff: 06/18/2020
+  ms.locfileid: "44799954"
 highlightedContent:
   items:
   - title: O Office 365 agora é o Microsoft 365!
     itemType: whats-new
     url: new-subscription-names.md
+  - title: O que há de novo no centro de administração do Microsoft 365!
+    itemType: whats-new
+    url: whats-new-in-preview.md
+  - title: Mantenha-se atualizado com as alterações da Microsoft 365
+    itemType: how-to-guide
+    url: manage/stay-on-top-of-updates.md
 productDirectory:
   title: Introdução
   summary: Configure sua assinatura e email, adicione usuários e instale aplicativos.
@@ -43,7 +49,7 @@ productDirectory:
   - title: Treinar usuários
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
     summary: Ajudar os usuários em sua organização a saber como armazenar e compartilhar arquivos e usar aplicativos do Office.
-    url: https://support.office.com/office-training-center
+    url: https://support.microsoft.com/training
 additionalContent:
   sections:
   - title: Gerenciar
