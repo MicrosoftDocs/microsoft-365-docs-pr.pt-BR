@@ -12,12 +12,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: f3468cd51119a4e0d7ae07c188d2adc1266c2ac4
-  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+  ms.openlocfilehash: fe849499da31b3be4ab52144d1a39f8a1bc7a212
+  ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/27/2020
-  ms.locfileid: "44400849"
+  ms.lasthandoff: 06/18/2020
+  ms.locfileid: "44786185"
 productDirectory:
   title: Trabalho remoto seguro com o Microsoft 365 Business Premium
   items:
@@ -40,7 +40,7 @@ conceptualContent:
     - url: microsoft-365-business-overview.md
       itemType: overview
       text: Visão Geral
-    - url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
+    - url: https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
       itemType: video
       text: Treinamento do Microsoft 365 Business Premium
     - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
@@ -63,7 +63,7 @@ conceptualContent:
     - url: https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start
       itemType: video
       text: 3. Configurar o Teams
-    - url: https://support.office.com/article/4d2a1b69-6d8c-45d1-88e0-6676a8efa5f1
+    - url: https://support.microsoft.com/office/4d2a1b69-6d8c-45d1-88e0-6676a8efa5f1
       itemType: get-started
       text: 4. Instalar o Office
   - title: Recursos para parceiros (somente em inglês)
@@ -119,13 +119,13 @@ conceptualContent:
     - url: https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies
       itemType: overview
       text: Prevenção contra Perda de Dados
-    - url: https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980
+    - url: https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980
       itemType: how-to-guide
       text: Enviar e-mail criptografado
     - url: https://docs.microsoft.com/microsoft-365/business/set-up-compliance#set-up-email-retention-with-exchange-online-archiving
       itemType: how-to-guide
       text: Configurar a retenção de e-mail
-    - url: https://support.office.com/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9
+    - url: https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9
       itemType: video
       text: Criar e usar rótulos de confidencialidade
     footerLink:
@@ -176,7 +176,7 @@ conceptualContent:
     - url: https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog
       itemType: whats-new
       text: Announcements
-    - url: https://support.office.com/article/7f681212-c649-4a3e-a43b-32b1d1e58988
+    - url: https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988
       itemType: video
       text: Obtenha ajuda
     - url: https://techcommunity.microsoft.com/t5/Microsoft-365-Business/bd-p/Microsoft365business

@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como configurar URLs bloqueadas personalizadas para usuários e não reescrever lista de URLs para um grupo de usuários nas políticas de links seguros de ATP do Office 365.
-ms.openlocfilehash: f4e7067c9edc9bbe2965311a7c203cb16f242f49
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 183291ef5b43248c5ff3d4e63b03a170416119bf
+ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617237"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702531"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>Configurar uma lista personalizada de URLs do não Rewrite usando links seguros de ATP
 
@@ -73,13 +73,15 @@ Para editar (ou definir) políticas ATP, você deve ter uma função apropriada 
 
 - Qualquer URL especificada na lista "não reescrever" será excluída da verificação de links seguros de ATP para os destinatários que você especificar.
 
+- Considere adicionar URLs internas comumente usadas à lista "não reescrever" para melhorar a experiência do usuário. Por exemplo, se você tiver serviços locais, como o Skype for Business ou o SharePoint, poderá adicionar suas URLs à lista para excluí-los da verificação.
+
 - Se você já tiver uma lista de URLs na lista de "não reescrever", verifique se a lista e adicione caracteres curinga conforme apropriado. Por exemplo, se a sua lista existente tem uma entrada como `https://contoso.com/a` e você deseja incluir subcaminhos como `https://contoso.com/a/b` em sua política, adicione um curinga à sua entrada para que ele se pareça `https://contoso.com/a/*` .
 
-- Ao especificar uma lista "não reconfigurar" para uma política de links seguros de ATP, você pode incluir até três asteriscos curinga ( \* ). Curingas ( \* ) são usados para incluir explicitamente prefixos ou subdomínios. A entrada `contoso.com` não é igual a `*.contoso.com/*` , pois `*.contoso.com/*` permite que as pessoas visitem subdomínios e caminhos no domínio especificado.
+- Ao especificar uma lista "não reconfigurar" para uma política de links seguros de ATP, você pode incluir até três curingas ( \* ). Os curingas incluem explicitamente prefixos ou subdomínios. Por exemplo, a entrada `contoso.com` não é igual a `*.contoso.com/*` , pois `*.contoso.com/*` permite que as pessoas visitem subdomínios e caminhos no domínio especificado.
 
 A tabela a seguir lista exemplos do que você pode inserir e o efeito que essas entradas têm.
 
-|**Entrada de exemplo**|**O que ele faz**|
+|Entrada de exemplo|O que ele faz|
 |:-----|:-----|
 |`contoso.com`|Permite que os destinatários visitem um site como `https://contoso.com` , mas não subdomínios ou caminhos.|
 |`*.contoso.com/*`|Permite que os destinatários visitem um domínio, subdomínios e caminhos, como `https://www.contoso.com` , `https://www.contoso.com` , `https://maps.contoso.com` ou `https://www.contoso.com/a` . <br/><br/> Essa entrada é inerentemente melhor do que `*contoso.com*` porque não inclui sites potencialmente fraudulentos, como `https://www.falsecontoso.com` ou`https://www.false.contoso.completelyfalse.com`|

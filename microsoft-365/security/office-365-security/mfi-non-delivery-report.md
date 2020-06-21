@@ -10,13 +10,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
+ms.custom:
+- seo-marvel-apr2020
 description: Os administradores podem saber mais sobre o relatório de falha na entrega no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 2ea15237900abd3d73634a9aa744b59ef7bce5ee
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: eddecd1de5675797837aed84a892c43ba36c4c56
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082663"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819504"
 ---
 # <a name="non-delivery-report"></a>Notificação de falha na entrega
 
@@ -32,6 +34,6 @@ Ao selecionar uma linha na tabela para exibir os detalhes do NDR específico, vo
 
 ![Selecionar uma linha na tabela de detalhes na notificação de falha na entrega](../../media/non-delivery-report-details-table-select-row.png)
 
-## <a name="see-also"></a>Confira também
+## <a name="related-topics"></a>Tópicos relacionados
 
 Para obter mais informações sobre outros insights de fluxo de email no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).

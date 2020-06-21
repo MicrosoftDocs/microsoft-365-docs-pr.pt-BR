@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Siga estas recomendações de práticas recomendadas para proteção autônoma do Exchange Online (EOP) a fim de configurar o sucesso e evitar erros de configuração comuns.
-ms.openlocfilehash: a2ef5d20a79a15e4b1965d352ed0603ac0783121
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: e5e87883e9c8aad21552ebf306a9716f14532884
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616717"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739092"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Práticas recomendadas para configurar o EOP autônomo
 
@@ -54,7 +54,7 @@ Estas configurações abrangem uma variedade de recursos fora das políticas de 
 |Envio SMTP autenticado|Desabilitado|Desabilitado|O envio SMTP de cliente autenticado (também conhecido como Envio SMTP de cliente ou autenticação SMTP) é necessário para que clientes POP3 e IMAP4 enviem email.|
 |Conectividade do EWS à caixa de correio|Desabilitado|Desabilitado||
 |[Conectividade do PowerShell](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)|Desabilitado|Desabilitado|Disponível para usuários de caixa de correio ou usuários de email (objetos de usuário retornados pelo cmdlet [Get-User](https://docs.microsoft.com/powershell/module/exchange/get-user) ).|
-|Usar a [inteligência de falsificação](learn-about-spoof-intelligence.md) para os remetentes da lista branca sempre que possível|Sim|Sim||
+|Usar o [spoof Intelligence](learn-about-spoof-intelligence.md) para adicionar remetentes à sua lista de permissões|Sim|Sim||
 |[Bloqueio de borda baseado em diretório (DBEB)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Habilitado|Habilitado|Tipo de domínio = autoritativo|
 |[Configurar a autenticação multifator para todas as contas de administrador](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)|Habilitado|Habilitado||
 |
@@ -71,7 +71,7 @@ Para ajudar a melhorar a filtragem de spam no serviço para todos, você deve re
 
 Criar regras de fluxo de emails (também conhecidas como regras de transporte) ou filtros personalizados para atender às suas necessidades de negócios.
 
-Ao implementar uma nova regra à produção, selecione um dos modos de teste primeiro para ver o efeito da regra. Quando tiver a certeza de que a regra está funcionando da maneira pretendida, altere o modo de regra para **Forçar**.
+When you deploy a new rule to production, select one of the test modes first to see the effect of the rule. Once you are satisfied that the rule is working in the manner intended, change the rule mode to **Enforce**.
 
 Ao implementar novas regras, considere adicionar outras ações de **Gerar Relatório de Incidente** para monitorar a regra em ação.
 

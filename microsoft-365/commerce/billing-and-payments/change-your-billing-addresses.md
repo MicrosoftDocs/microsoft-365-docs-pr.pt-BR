@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: Saiba como atualizar seus endereços de cobrança para o Microsoft 365 for Business. Você também pode atualizar o endereço de email usado para receber notificações de cobrança.
-ms.openlocfilehash: 1985299d1ed4388ea8ffa0255935f1ee7c8ac3b7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6b2da1e947362db432bf036d9799ddef89526030
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401793"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817024"
 ---
 # <a name="change-your-billing-addresses"></a>Alterar os endereços para cobrança
 
@@ -47,9 +47,9 @@ Sua cobrança ou fatura contém três endereços:
 
 - **Endereço para cobrança** O endereço do departamento de cobrança, normalmente, é o mesmo endereço descrito no campo **Vendido para**.
 
-- **Endereço de uso do serviço** O endereço no qual o serviço está sendo usado, normalmente, é o mesmo endereço descrito no campo **Vendido para**. Caso a organização tenha usuários remotos ou vários escritórios, use o endereço em que a maioria dos usuários está localizada.
+- **Service Usage Address** The address where the service is being used, usually the same as the **Sold-To** address. If your organization has remote users or multiple offices, use the address where the majority of your users are located.
 
-Na maioria dos casos, esses endereços são os mesmos. Se precisar alterar um ou mais dos endereços, é possível fazê-lo. Você pode também fornecer um endereço de email alternativo para receber notificações de cobrança e alterar o endereço de email alternativo para outros administradores.
+In most cases, these addresses are the same. If you need to change one or more of the addresses, you can do that. You can also provide an alternate email address to receive billing notifications, and change the alternate email address for other admins.
   
 ::: moniker range="o365-worldwide"
 
@@ -166,7 +166,7 @@ Se você estiver usando o Office 365 operado pela 21Vianet na China, confira [ex
 
 Por padrão, as notificações de cobrança da sua organização são enviadas para o endereço de email da Microsoft e o endereço de email alternativo de cada administrador global e de cobrança em sua organização. Para alterar o endereço de email alternativo, os administradores devem atualizar suas informações de perfil.
   
-1. Entre no Microsoft 365 com sua conta corporativa ou de estudante como um administrador global. [Saiba como entrar](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Entre no Microsoft 365 com sua conta corporativa ou de estudante como um administrador global. [Saiba como entrar](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
 2. Selecione o **ícone usuário**e, em seguida, selecione **minha conta**.
   
