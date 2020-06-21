@@ -11,30 +11,30 @@ metadata:
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: fddd5668a4b0d11af80ad7ff0847efdcc0b42117
-  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+  ms.openlocfilehash: 80aea7aef92cd584df0c35b0d14ec71e0ad738b7
+  ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/27/2020
-  ms.locfileid: "44401125"
+  ms.lasthandoff: 06/18/2020
+  ms.locfileid: "44785455"
 landingContent:
 - title: Trabalhar com clientes
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Compartilhar sites e arquivos externamente
+    - text: Compartilhar sites e arquivos com convidados
       url: ../manage/share-sites-with-external-users.md
-    - text: Compartilhar calendários com usuários convidados
+    - text: Compartilhar calendários com convidados
       url: ../manage/share-calendars-with-external-users.md
   - linkListType: video
     links:
     - text: Criar uma equipe com convidados
-      url: https://support.office.com/article/11fbb083-52ee-434d-8c6e-63711fdafac7
+      url: https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7
     - text: Ingressar em uma equipe como convidado
-      url: https://support.office.com/article/928d1eef-61e2-49ec-b754-c2fe86b34824
+      url: https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824
     - text: Converse com funcionários e clientes
-      url: https://support.office.com/article/65748808-a403-462c-a6e1-b169e5bc6c92
-    - text: Agendar uma reunião no Teams com convidados
-      url: https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a
+      url: https://support.microsoft.com/office/65748808-a403-462c-a6e1-b169e5bc6c92
+    - text: Agendar uma reunião do teams com usuários convidados
+      url: https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a
     - text: Participe de uma reunião do Teams com convidados
-      url: https://support.office.com/article/a120c282-063d-46b8-b973-851197ab75d8
+      url: https://support.microsoft.com/office/a120c282-063d-46b8-b973-851197ab75d8
