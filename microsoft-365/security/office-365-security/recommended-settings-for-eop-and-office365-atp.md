@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Quais são as práticas recomendadas para as configurações de segurança do Exchange Online Protection (EOP) e da proteção avançada contra ameaças (ATP)? Quais são as recomendações atuais para a proteção padrão? O que deve ser usado se você deseja ser mais estrito? E quais são os extras obtidos se você também usa a proteção avançada contra ameaças (ATP)?
-ms.openlocfilehash: 922457d231681bc4643ea1805fc6060de3abcb65
-ms.sourcegitcommit: b18949de721c6eef3521d5f8286d9b926ad4aabe
+ms.openlocfilehash: 15bd63a35b4279efc634115bbdb5248cdd5038db
+ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44342527"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761701"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Configurações recomendadas para o EOP e a segurança ATP do Office 365
 
@@ -95,6 +95,8 @@ Recomendamos que você **desative essas configurações de** ASF para os níveis
 
 Para criar e configurar políticas de spam de saída, confira [Configure Outbound spam Filtering in Office 365](configure-the-outbound-spam-policy.md).
 
+Para obter mais informações sobre os limites de envio padrão no serviço, consulte [enviando limites](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-1)
+
 |||||
 |---|---|---|---|
 |**Nome do recurso de segurança**|**Standard**|**Impede**|**Comment**|
@@ -152,9 +154,9 @@ Para obter mais informações sobre essas configurações, consulte [configuraç
 |||||
 |---|---|---|---|
 |**Nome do recurso de segurança**|**Standard**|**Impede**|**Comment**|
-|Usuários protegidos: **Adicionar usuários para proteger** <br/><br/> _EnableTargetedUserProtection_ <br/><br/> _TargetedUsersToProtect_|Habilitado <br/><br/> `$true` <br/><br/> \<lista de usuários\>|Habilitado <br/><br/> `$true` <br/><br/> \<lista de usuários\>|Depende da sua organização, mas recomendamos adicionar usuários em funções principais. Internamente, esses podem ser o CEO, CFO e outros líderes seniores. Externamente, elas podem incluir membros do Conselho ou seu Conselho de diretores.|
+|Usuários protegidos: **Adicionar usuários para proteger** <br/><br/> _EnableTargetedUserProtection_ <br/><br/> _TargetedUsersToProtect_|Habilitado <br/><br/> `$true` <br/><br/> \<list of users\>|Habilitado <br/><br/> `$true` <br/><br/> \<list of users\>|Depende da sua organização, mas recomendamos adicionar usuários em funções principais. Internamente, esses podem ser o CEO, CFO e outros líderes seniores. Externamente, elas podem incluir membros do Conselho ou seu Conselho de diretores.|
 |Domínios protegidos: **incluir automaticamente os domínios que eu sou proprietário** <br/><br/> _EnableOrganizationDomainsProtection_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`||
-|Domínios protegidos: **incluir domínios personalizados** <br/><br/> _EnableTargetedDomainsProtection_ <br/><br/> _TargetedDomainsToProtect_|Habilitado <br/><br/> `$true` <br/><br/> \<lista de domínios\>|Habilitado <br/><br/> `$true` <br/><br/> \<lista de domínios\>|Depende da sua organização, mas recomendamos a adição de domínios com os quais você não é proprietário.|
+|Domínios protegidos: **incluir domínios personalizados** <br/><br/> _EnableTargetedDomainsProtection_ <br/><br/> _TargetedDomainsToProtect_|Habilitado <br/><br/> `$true` <br/><br/> \<list of domains\>|Habilitado <br/><br/> `$true` <br/><br/> \<list of domains\>|Depende da sua organização, mas recomendamos a adição de domínios com os quais você não é proprietário.|
 |Usuários protegidos: **se o email for enviado por um usuário representado** <br/><br/> _TargetedUserProtectionAction_|**Colocar a mensagem em quarentena** <br/><br/> `Quarantine`|**Colocar a mensagem em quarentena** <br/><br/> `Quarantine`||
 |Domínios protegidos: **se o email for enviado por um domínio representado** <br/><br/> _TargetedUserProtectionAction_|**Colocar a mensagem em quarentena** <br/><br/> `Quarantine`|**Colocar a mensagem em quarentena** <br/><br/> `Quarantine`||
 |**Mostrar dica para usuários representados** <br/><br/> _EnableSimilarUsersSafetyTips_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`||

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Saiba como criar, editar ou excluir um grupo de segurança.
-ms.openlocfilehash: 49fe9b941564f26268045f6e57af329900476b90
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: c7c8d57037d972cd89dad45358dc5a7aa3fb86e8
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432272"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780236"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Criar, editar ou excluir um grupo de segurança no centro de administração do Microsoft 365
 
@@ -41,7 +41,7 @@ Na página Microsoft 365 **groups** , você pode criar grupos de contas de usuá
 Você também pode usar [Grupos do Exchange Online e do SharePoint Online](#groups-in-exchange-online-and-sharepoint-online) para enviar email ou atribuir permissões a um grupo de usuários e [Grupos do Exchange Online e do SharePoint Online](#groups-in-exchange-online-and-sharepoint-online) para conceder aos usuários direitos e acesso a sites e conjuntos de sites. 
   
 > [!IMPORTANT]
->  Planejando usar caixas de correio de sites? Todos os usuários adicionados a um site do SharePoint por meio de um grupo de segurança, em vez de individualmente, podem usar a caixa de correio do site no SharePoint. Esses usuários não poderão acessar a caixa de correio do site no Outlook. Para obter mais informações, consulte [usar os grupos do Microsoft 365 em vez de caixas de correio de site](https://support.office.com/article/737d6b1f-67cc-41fe-8db8-f2d09dd1673b.aspx). 
+>  Planejando usar caixas de correio de sites? Todos os usuários adicionados a um site do SharePoint por meio de um grupo de segurança, em vez de individualmente, podem usar a caixa de correio do site no SharePoint. Esses usuários não poderão acessar a caixa de correio do site no Outlook. Para obter mais informações, consulte [usar os grupos do Microsoft 365 em vez de caixas de correio de site](https://support.microsoft.com/office/737d6b1f-67cc-41fe-8db8-f2d09dd1673b). 
   
 ## <a name="manage-security-groups-in-the-admin-center"></a>Gerenciar grupos de segurança no centro de administração
 

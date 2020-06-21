@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e155154-bc66-48cc-8476-ab558c97115a
 description: Saiba como configurar uma conta de email no Outlook para Windows e Mac e sobre como instalar aplicativos do Office e acessar emails online.
-ms.openlocfilehash: 04d14c314fbcda4f8d0edff57a141a89688bec28
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: e17e532afca0a552b7e0e2565cd34e9dda256421
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399273"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779984"
 ---
 # <a name="set-up-outlook-to-read-email"></a>Configurar o Outlook para ler emails
 
@@ -39,7 +39,7 @@ Na primeira vez que você abrir o Outlook, um assistente de conta automática se
     
 2. Na página **configuração automática de conta** , insira seu nome, endereço de email e senha e, em seguida, escolha **próximo** \> **término**.
     
-Leia o [artigo completo](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx).
+Leia o [artigo completo](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b).
   
 ## <a name="how-do-i-install-the-office-apps-including-outlook"></a>Como instalo os aplicativos do Office, incluindo o Outlook?
 
@@ -59,7 +59,7 @@ Na primeira vez em que você abrir o aplicativo Outlook, configure my inbox Wiza
     
 3. Na página **Insira as informações da conta do Exchange** , insira seu nome, endereço de email e senha e selecione **adicionar conta**.
     
-Leia o [artigo completo](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx#PickTab=Outlook_for_Mac). 
+Leia o [artigo completo](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac). 
   
 ## <a name="how-do-i-access-my-mail-online"></a>Como faço para acessar meu email online?
 

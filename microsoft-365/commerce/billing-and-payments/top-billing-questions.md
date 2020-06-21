@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 5480fc33-dd47-41e7-bcfb-b2533efdb92a
 description: 'Encontre respostas para suas principais perguntas de cobrança para a assinatura do Microsoft 365 for Business. '
-ms.openlocfilehash: 04e2a24ced149e67899608237bdde67eac3f8bad
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: a2c25c82587752493dea6e3110e69f7075ed7b09
+ms.sourcegitcommit: 956dd3f87adb4e6173517550a662c3bacc2d2d79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400756"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44741682"
 ---
 # <a name="top-billing-questions-for-microsoft-365-for-business"></a>Principais perguntas sobre cobrança para o Microsoft 365 for Business
 
@@ -121,7 +121,7 @@ Sim, mas você precisará [chamar o suporte](../../admin/contact-support-for-bus
 
 Sim. Para obter sua instrução de cobrança como um anexo de email, use as seguintes etapas:
   
-1. No centro de administração do Microsoft 365, vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">notificações de cobrança</a> ou selecione notificações de cobrança de **cobrança** \> **Billing notifications**.
+1. No centro de administração do Microsoft 365, vá para **Billing** a \> página notificações de <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">cobrança</a> de cobrança.
 
 2. Em **Deseja receber o demonstrativo como um anexo de email?**, alterne o botão para a posição **Ativado**.
 
@@ -200,9 +200,10 @@ Você pode [aplicar o status de isenção de imposto](tax-information.md#apply-f
 
 ::: moniker range="o365-worldwide"
 
-1. Na página <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Bills</a> , selecione um intervalo de datas de fatura.
-  
-2. Para imprimir ou salvar uma cópia em PDF da lista, selecione **baixar PDF de fatura**e, em seguida, imprimir o PDF.
+1. No centro de administração, vá para a página página de contas **de faturas** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& pagamentos</a> .
+2. Na guia **faturas** , elege um intervalo de datas da fatura.
+3. Selecione a fatura que você deseja exibir.
+4. Para imprimir ou salvar uma cópia em PDF da lista, selecione **baixar PDF**e, em seguida, imprima o PDF.
 
 Para saber mais, confira [exibir sua cobrança ou fatura](view-your-bill-or-invoice.md).
 

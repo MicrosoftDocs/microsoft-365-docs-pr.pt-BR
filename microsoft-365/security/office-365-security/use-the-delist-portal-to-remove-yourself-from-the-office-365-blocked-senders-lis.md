@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá a usar o portal de remoção da lista para ser removido da lista de remetentes bloqueados do Microsoft 365.
-ms.openlocfilehash: 239d30fec4d904af353731974435d377801be6c7
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 2d9dbba12740e62305e1bcfd193175659be34026
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208532"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739236"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>Use o portal de remoção da lista para ser removido da lista de remetentes bloqueados
 
@@ -43,7 +43,7 @@ em que  _IP address_ é o endereço IP do computador no qual o servidor de email
 
 1. Em um navegador da Web, acesse [https://sender.office.com](https://sender.office.com).
 
-2. Siga as instruções descritas na página. Certifique-se de usar o endereço de email ao qual a mensagem de erro foi enviada e o endereço IP que é especificado na mensagem de erro. Você só pode inserir um endereço de email e um endereço IP por visita.
+2. Follow the instructions on the page. Ensure that you use the email address to which the error message was sent, and the IP address that is specified in the error message. You can only enter one email address and one IP address per visit.
 
 3. Clique em **Enviar**.
 
@@ -60,4 +60,4 @@ em que  _IP address_ é o endereço IP do computador no qual o servidor de email
     > [!NOTE]
     > Pode levar até 24 horas ou os resultados podem variar muito antes de as restrições serem removidas.
 
-Confira [criar listas de remetentes seguros no EOP](create-safe-sender-lists-in-office-365.md) e [proteção contra spam de saída no EOP](outbound-spam-controls.md) para evitar que o IP seja removido.
+Consulte [criar listas de remetentes seguros no EOP](create-safe-sender-lists-in-office-365.md) e [proteção contra spam de saída no EOP](outbound-spam-controls.md) para impedir que um IP seja bloqueado.

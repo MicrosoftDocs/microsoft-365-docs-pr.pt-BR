@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Saiba como alterar o tema padrão do Microsoft 365 e personalizá-lo para corresponder ao logotipo ou à cor da empresa. '
-ms.openlocfilehash: 034e5cff726ea97397d5eee1592265ae3452209b
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: f3ba6021205289426ee78f16c7d0678e4b81ef75
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678609"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779852"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Personalizar o tema do Microsoft 365 para sua organização
 
@@ -67,7 +67,7 @@ Como administrador de sua assinatura do Microsoft 365 for Business, você pode a
     
 4. Selecione **Salvar alterações**.
     
-Você pode ver seu novo tema no centro de administração imediatamente. Após um pequeno atraso, você pode vê-lo no Microsoft 365, incluindo em páginas no Outlook, SharePoint, [aplicativo móvel do SharePoint para IOS](https://support.office.com/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)e [aplicativo móvel do SharePoint para Android](https://support.office.com/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284).
+Você pode ver seu novo tema no centro de administração imediatamente. Após um pequeno atraso, você pode vê-lo no Microsoft 365, incluindo em páginas no Outlook, SharePoint, [aplicativo móvel do SharePoint para IOS](https://support.microsoft.com/office/339402ce-16bb-4c97-9475-0c5375ccef7a)e [aplicativo móvel do SharePoint para Android](https://support.microsoft.com/office/d875654b-fb0a-4dbe-a17a-a676cf936284).
 
 É possível remover as cores ou o ícone personalizado a qualquer momento. Basta retornar à página do tema e selecionar **remover temas personalizados**.
   

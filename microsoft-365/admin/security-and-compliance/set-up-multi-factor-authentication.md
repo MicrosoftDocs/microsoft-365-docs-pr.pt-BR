@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Saiba como configurar a autenticação multifator para sua organização.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 9218e81aaf016c379c6ba8c7ae846a2a2132cf35
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: a8e84746a577b95307d325047f0822e8eb3786f0
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515802"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779936"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Configurar a autenticação multifator
   
@@ -80,10 +80,10 @@ Trabalhe com seus usuários pilotos para resolver dúvidas e problemas para se p
 Use notificações por email, cartazes de corredor, reuniões de equipe ou treinamento formal para garantir que seus funcionários compreendam:
 
 - Por que a MFA é necessária para os logins
-- [Como se registrar para o método de verificação adicional](https://support.office.com/article/set-up-your-microsoft-365-sign-in-for-multi-factor-authentication-ace1d096-61e5-449b-a875-58eb3d74de14?ui=en-US&rs=en-001&ad=US)
-- [Como entrar após o registro](https://support.office.com/article/sign-in-to-microsoft-365-with-multi-factor-authentication-2b856342-170a-438e-9a4f-3c092394d3cb)
-- [Como alterar o método de verificação adicional](https://support.office.com/article/change-how-you-do-additional-verification-956ec8d0-7081-4518-a701-f8414cc20831)
-- [Como lidar com situações como um novo telefone inteligente](https://support.office.com/article/fix-common-problems-with-multi-factor-authentication-6951be76-af50-49a4-847f-21391eaa59f2)
+- [Como se registrar para o método de verificação adicional](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14)
+- [Como entrar após o registro](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
+- [Como alterar o método de verificação adicional](https://support.microsoft.com/office/956ec8d0-7081-4518-a701-f8414cc20831)
+- [Como lidar com situações como um novo telefone inteligente](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2)
 
 Mais importante, certifique-se de que seus funcionários entendam ***quando o requisito da MFA será imposto*** para que ele não seja surpresa.
 
@@ -120,6 +120,6 @@ Habilitar contas de usuário para MFA correspondente à sua distribuição.
 
 À medida que seus funcionários se registram e começam a entrar com a MFA, certifique-se de que seus especialistas de ti, departamento de ti ou helpdesk podem responder perguntas e resolver problemas rapidamente.
 
-Confira este artigo para obter [informações sobre como solucionar problemas de entradas MFA](https://support.office.com/article/fix-common-problems-with-multi-factor-authentication-6951be76-af50-49a4-847f-21391eaa59f2). 
+Confira este artigo para obter [informações sobre como solucionar problemas de entradas MFA](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2). 
 
 

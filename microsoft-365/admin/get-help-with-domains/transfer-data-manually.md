@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: Encontre como transferir dados manualmente entre duas contas do Microsoft 365 quando você alterou o plano ou o nome da empresa ou combinou várias assinaturas em uma.
-ms.openlocfilehash: 69476687915024accabdce2a603ebdd7e8b653af
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6e64872ad7e145b63eb71d89ea2d69e5d8697eb6
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399867"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780164"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>Transferir dados manualmente entre duas contas
 
@@ -60,7 +60,7 @@ Se você estiver transferindo dados do Microsoft 365 para a Microsoft 365 Midsiz
   
 Para o Microsoft 365 Enterprise e o Microsoft 365 Midsize Business:
   
-|**Localização**|**Objetivo**|
+|**Location**|**Objetivo**|
 |:-----|:-----|
 |**Administração** \> **Microsoft 365** \> **Configurações de serviço** <br/> |Selecione cada guia para configurações de email, sites, Lync, software do usuário, senhas, Comunidade, gerenciamento de direitos e dispositivos móveis.  <br/> |
 |**Administração** \> **Exchange** <br/> | Configurações do Exchange Online  <br/> |
@@ -69,7 +69,7 @@ Para o Microsoft 365 Enterprise e o Microsoft 365 Midsize Business:
 
 Para o Microsoft 365 Small Business
   
-|**Localização**|**Objetivo**|
+|**Location**|**Objetivo**|
 |:-----|:-----|
 |**Administração** \> **Gerenciar configurações de toda a organização** <br/> |Configurações administrativas  <br/> |
 
@@ -91,9 +91,9 @@ Há várias maneiras de salvar ou transferir dados de site de equipe:
   
 - Você pode salvar o site antigo como um modelo e importar o modelo para o novo site.
 
-- Para transferir documentos, primeiro recrie manualmente sua hierarquia no novo site. Em seguida, você pode abrir os dois sites de equipe do SharePoint ao mesmo tempo, abrir as bibliotecas de documentos com o Windows Explorer e copiar e colar os documentos. Veja [vídeo: copiar ou mover arquivos de biblioteca usando abrir com Explorer](https://support.office.com/article/where-to-store-files-c7c20284-bc94-47f4-9728-d28e9daf0790).
+- Para transferir documentos, primeiro recrie manualmente sua hierarquia no novo site. Em seguida, você pode abrir os dois sites de equipe do SharePoint ao mesmo tempo, abrir as bibliotecas de documentos com o Windows Explorer e copiar e colar os documentos. Veja [vídeo: copiar ou mover arquivos de biblioteca usando abrir com Explorer](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790).
 
-- Para transferir dados de lista, salve um [modelo de lista](https://support.microsoft.com/en-us/office/manage-list-templates-c3884ad1-bc49-44b8-b3d6-3bc6a01eb393)e use o modelo salvo para recriar a lista no novo site.
+- Para transferir dados de lista, salve um [modelo de lista](https://support.microsoft.com/office/c3884ad1-bc49-44b8-b3d6-3bc6a01eb393)e use o modelo salvo para recriar a lista no novo site.
 
 - Para salvar um conteúdo de lista ou biblioteca de documentos de um ambiente do SharePoint Online (OneDrive for Business ou sites de equipe) em compartilhamentos de arquivos ou em um computador local, confira [informações sobre a migração manual do conteúdo do SharePoint Online](https://support.microsoft.com/kb/2783484).
 
@@ -101,8 +101,8 @@ Há várias maneiras de salvar ou transferir dados de site de equipe:
 
 ### <a name="email"></a>Email:
 
-Solicitar que os usuários [movam seus emails, contatos, tarefas e informações de calendário](https://support.office.com/article/0996ece3-57c6-49bc-977b-0d1892e2aacc.aspx) após a configuração da nova assinatura. Eles podem acessar seus emails antigos usando o nome de usuário inicial, como sue@contoso.onmicrosoft.com.
+Solicitar que os usuários [movam seus emails, contatos, tarefas e informações de calendário](https://support.microsoft.com/office/0996ece3-57c6-49bc-977b-0d1892e2aacc) após a configuração da nova assinatura. Eles podem acessar seus emails antigos usando o nome de usuário inicial, como sue@contoso.onmicrosoft.com.
   
 ### <a name="onedrive-for-business-data"></a>Dados do OneDrive for Business:
 
-Peça aos usuários para copiar/sincronizar [o conteúdo do onedrive for Business para seu computador](https://support.office.com/article/59b1de2b-519e-4d3a-8f45-51647cf291cd.aspx)e adicioná-lo novamente à nova assinatura.
+Peça aos usuários para copiar/sincronizar [o conteúdo do onedrive for Business para seu computador](https://support.microsoft.com/office/59b1de2b-519e-4d3a-8f45-51647cf291cd)e adicioná-lo novamente à nova assinatura.

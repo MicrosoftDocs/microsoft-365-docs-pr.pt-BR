@@ -1,5 +1,5 @@
 ---
-title: Compartilhar sites e arquivos externamente
+title: Compartilhar sites e arquivos com convidados
 f1.keywords: NOCSH
 ms.author: twerner
 author: twernermsft
@@ -21,14 +21,14 @@ search.appverid:
 ms.assetid: 89502322-bfbb-43d6-9207-4030f8ce26e0
 ROBOTS: NOINDEX
 description: 'Saiba como compartilhar sites e arquivos com pessoas de fora da organização. '
-ms.openlocfilehash: 6990b4ffe45af1a591c72e36c1348d1e804e829b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 79760f662ec68d2ac9089586fd9cbf38b0bd9897
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399549"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780044"
 ---
-# <a name="share-sites-and-files-externally"></a>Compartilhar sites e arquivos externamente
+# <a name="share-sites-and-files-with-guest-users"></a>Compartilhar sites e arquivos com convidados
 
 ::: moniker range="o365-21vianet"
 
@@ -62,7 +62,7 @@ As respostas para essas perguntas ajudarão você a planejar a sua estratégia d
 |Compartilhar um documento, mas não exigir autenticação.  <br/> |Compartilhe um link para um documento não sensível ou não confidencial com pessoas fora da sua organização, para que elas possam visualizá-lo ou atualizá-lo com comentários. Essas pessoas não precisam de acesso ao conteúdo do site.  <br/> |
    
 > [!IMPORTANT]
-> Quando você desabilita o compartilhamento externo, as pessoas de fora da organização que atualmente têm acesso não terão mais acesso. Se, posteriormente, você ativar novamente o compartilhamento externo, o acesso será restaurado para essas pessoas. Para impedir que um usuário acesse um conteúdo compartilhado, [remova-o do grupo Microsoft 365](/office365/admin/create-groups/add-or-remove-members-from-groups), remova suas permissões do site ou [pare de compartilhar o arquivo ou pasta com eles](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323). 
+> Quando você desabilita o compartilhamento externo, as pessoas de fora da organização que atualmente têm acesso não terão mais acesso. Se, posteriormente, você ativar novamente o compartilhamento externo, o acesso será restaurado para essas pessoas. Para impedir que um usuário acesse um conteúdo compartilhado, [remova-o do grupo Microsoft 365](/office365/admin/create-groups/add-or-remove-members-from-groups), remova suas permissões do site ou [pare de compartilhar o arquivo ou pasta com eles](https://support.microsoft.com/office/0a36470f-d7fe-40a0-bd74-0ac6c1e13323). 
   
 ## <a name="enable-external-sharing-at-the-organization-level"></a>Habilitar o compartilhamento externo no nível da organização
 

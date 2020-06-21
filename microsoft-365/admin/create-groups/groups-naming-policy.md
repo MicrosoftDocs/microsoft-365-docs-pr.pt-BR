@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
 description: Saiba como criar uma política de nomenclatura para os grupos do Microsoft 365.
-ms.openlocfilehash: 38b5bbed0c6e4c12af2f529568a53df329d9a933
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ae216d0d8f3319e9633d300d785b4a8c31702798
+ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388000"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702543"
 ---
 # <a name="groups-naming-policy"></a>Política de nomeação de grupos
 
@@ -80,6 +80,9 @@ Os atributos do Azure Active Directory (Azure AD) com suporte são [departamento
 - Durante a criação da política, o comprimento total de cadeias de caracteres e sufixos é restrito a 53 caracteres.
 
 - Os prefixos e sufixos podem conter caracteres especiais compatíveis com o nome do grupo e o alias do grupo. Quando os prefixos e sufixos contêm caracteres especiais que não são permitidos no alias do grupo, eles são aplicados apenas ao nome do grupo. Portanto, nesse caso, os prefixos e sufixos aplicados ao nome do grupo seriam diferentes dos que foram aplicados ao alias do grupo.
+
+  > [!NOTE]
+  > Um ponto (.) ou um hífen (-) é permitido em qualquer lugar no nome do grupo, exceto no início ou no final do nome. Um sublinhado (_) é permitido em qualquer lugar no nome do grupo, incluindo no início ou no final do nome.
 
 - Se você estiver usando os grupos conectados do Yammer Microsoft 365, evite usar os seguintes caracteres em sua política de nomenclatura: @, \# , \[ , \] , \<, and \> . Se esses caracteres estiverem na política de nomenclatura, os usuários normais do Yammer não poderão criar grupos.
 

@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1062115d-e312-482a-bb5a-765235990f41
 ROBOTS: NOINDEX
 description: Saiba como mover dados para a sua nova identidade de negócios.
-ms.openlocfilehash: 03a8ff6b3cfab43d80401a10825a1c274e278ed9
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ebbb680baf36386d7f2dafae61fb262bf0220e69
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399321"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779996"
 ---
 # <a name="move-email-and-data-to-microsoft-365-business-standard"></a>Mover emails e dados para o Microsoft 365 Business Standard
 
@@ -57,24 +57,24 @@ Se você quiser mover alguns de seus dados pessoais para sua nova identidade de 
 4. Selecione **carregar** para copiar os arquivos do disco rígido onde você copiou seus arquivos do onedrive. 
   
     > [!NOTE]
-    >  Você pode carregar arquivos individuais e grupos de arquivos (por exemplo, todos os arquivos em uma determinada pasta) ao mesmo tempo, mas não pode copiar uma pasta para o OneDrive for Business. Em vez disso, você precisará criar a estrutura de pastas desejada no OneDrive for Business. >  Se quiser copiar arquivos para uma pasta que você criou na etapa 4, abra essa pasta antes de carregar os arquivos. Caso contrário, os arquivos serão carregados para a pasta raiz. Você também pode mover os arquivos entre pastas no OneDrive for Business depois de carregá-los. 
+    >  You can upload individual files and groups of files (such as all files in a particular folder) at one time but you cannot copy a folder to OneDrive for Business. Instead, you'll need to create the folder structure you want on OneDrive for business. >  If you want to copy files to a folder that you created in step 4, open that folder before you upload the files. Otherwise, the files will be uploaded to the root folder. You can also move your files between folders in OneDrive for Business after you've uploaded them. 
   
 ## <a name="outlookemail"></a>[Outlook/Email](#tab/Outlook)
   
  **Exportar informações do Outlook 2013 para um arquivo de dados do Outlook**
-1. Antes de criar seu arquivo de dados do Outlook (.pst), a conta da qual você deseja exportar informações do Outlook já deve ter sido adicionada à versão de área de trabalho do Outlook. Para saber mais sobre como adicionar uma conta ao Outlook 2013 ou superior, confira [Configurar email no Outlook (para Windows)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) ou [Configurar email no Outlook for Mac 2011](https://support.microsoft.com/en-us/office/set-up-email-in-mac-os-x-mail-de372dc4-9648-4044-a76c-e8a60e178d54).
+1. Before you can create your Outlook data file (.pst), the account that you want to export Outlook information from must already be added to the desktop version of Outlook. For information about how to add an account to Outlook 2013 or higher, see [Set up email in Outlook (for Windows)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) or [Set up email in Outlook for Mac 2011](https://support.microsoft.com/office/de372dc4-9648-4044-a76c-e8a60e178d54).
     
-2. Cada usuário precisa concluir as etapas em [Exportar ou fazer o backup de emails, contatos e calendários para um arquivo .pst do Outlook](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
+2. Cada usuário precisa concluir as etapas em [Exportar ou fazer o backup de emails, contatos e calendários para um arquivo .pst do Outlook](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91).
     
  **Configurar sua nova conta de email no Outlook**
 1. Cada usuário precisa configurar sua nova conta de email que acompanha a assinatura do Microsoft 365 for Business. Para isso, eles precisam do endereço da nova conta de email. A conta de email de cada usuário é igual ao nome de usuário usado para entrar no Microsoft 365 para empresas. Se parecerá com laura@contoso.onmicrosoft.com ou henrique@contoso.com.
     
-2. Peça a cada usuário para adicionar sua conta de email ao Outlook. Para saber como, confira [Configurar email no Outlook (para Windows)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) ou [Configurar email no Outlook for Mac 2011](https://support.microsoft.com/en-us/office/set-up-email-in-mac-os-x-mail-de372dc4-9648-4044-a76c-e8a60e178d54).
+2. Ask each user to add their email account to Outlook. To learn how, see [Set up email in Outlook (for Windows)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) or [Set up email in Outlook for Mac 2011](https://support.microsoft.com/office/de372dc4-9648-4044-a76c-e8a60e178d54).
     
  **Importar informações do arquivo de dados do Outlook**
 1. Isso mescla o email, o calendário, as tarefas e os contatos armazenados no arquivo PST na sua conta de email do Microsoft 365 for Business.
     
-2. Para importar as informações armazenadas no arquivo PST para sua conta de email do Microsoft 365 for Business, faça com que cada usuário conclua as etapas em [importar email, contatos e calendário de um arquivo. pst do Outlook](https://support.office.com/article/431a8e9a-f99f-4d5f-ae48-ded54b3440ac.aspx).
+2. Para importar as informações armazenadas no arquivo PST para sua conta de email do Microsoft 365 for Business, faça com que cada usuário conclua as etapas em [importar email, contatos e calendário de um arquivo. pst do Outlook](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac).
     
 ---
 

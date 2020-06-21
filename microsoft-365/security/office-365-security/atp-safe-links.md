@@ -25,12 +25,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Neste artigo, você aprenderá a usar os links seguros para proteger sua organização contra phishing e outros ataques.
-ms.openlocfilehash: 5cd5e1331bb16b27cd036d20458355448ee32ae2
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 07ec9611a2dca7dff7daf3726b94b0aec638b17c
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616761"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754743"
 ---
 # <a name="atp-safe-links"></a>Links seguros da ATP
 
@@ -47,7 +47,7 @@ Depois que as políticas de links seguros de ATP estiverem vigentes, administrad
 
 ## <a name="how-to-get-atp-safe-links-protection"></a>Como obter proteção de links de segurança ATP
 
-**Primeiro, certifique-se de que sua assinatura inclua a [proteção avançada contra ameaças do Office 365](office-365-atp.md) ** Plano 1 ou plano 2. O Office 365 ATP está incluído em inscrições, como [o microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [o Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business), o Office 365 Enterprise E5, o Office 365 Education a5, etc. Se sua organização tiver uma assinatura do Microsoft 365 que não inclua o Office 365 ATP, você poderá comprar ATP como um complemento. Para saber mais, veja os seguintes recursos:
+**Primeiro, certifique-se de que sua assinatura inclua a [proteção avançada contra ameaças do Office 365](office-365-atp.md) ** Plano 1 ou plano 2. O Office 365 ATP está incluído em inscrições, como [o microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/enterprise/home), [o Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business), o Office 365 Enterprise e5, o Office 365 Education a5, etc. Se sua organização tiver uma assinatura do Microsoft 365 que não inclua o Office 365 ATP, você poderá comprar ATP como um complemento. Para saber mais, veja os seguintes recursos: 
 
 - [Preços e planos para proteção avançada contra ameaças do Office 365](https://products.office.com/exchange/advance-threat-protection)
 
@@ -59,7 +59,7 @@ Depois que as políticas de links seguros de ATP estiverem vigentes, administrad
 
 - Os aplicativos cliente do Microsoft 365 estão configurados para usar a autenticação moderna (isso é para proteção de links de segurança ATP em documentos do Office). (Consulte [autenticação moderna do Office 2016](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016).)
 
-- Os usuários entraram usando sua conta corporativa ou de estudante. (Consulte [entrar no Office ou no office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426).)
+- Os usuários entraram usando sua conta corporativa ou de estudante. (Consulte [entrar no Office](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426).)
 
 - O email da sua organização passa pela proteção do Exchange Online.
 
@@ -81,7 +81,7 @@ Após as políticas de links seguros de ATP serem aplicadas, a equipe de seguran
 
 A tabela a seguir descreve alguns exemplos de cenários em que a proteção de links de segurança ATP pode ou não estar em vigor. (Em todos esses casos, supomos que a organização tem o Office 365 Enterprise e5.)
 
-|**Cenário de exemplo**|**A proteção de links de segurança ATP é aplicada neste caso?**|
+|Cenário de exemplo|A proteção de links de segurança ATP é aplicada neste caso?|
 |:-----|:-----|
 |Jean é membro de um grupo que tem políticas de links seguros de ATP abrangendo URLs em email e documentos do Office. Jean abre uma apresentação do PowerPoint que alguém enviou e, em seguida, clica em uma URL na apresentação.|Sim. As políticas de links seguros de ATP definidas aplicam-se ao grupo de Jean, emails de Jean e documentos do Word, Excel, PowerPoint ou Visio que Jean abre, contanto que Jean esteja conectado e usando o Microsoft 365 aplicativos para empresas em dispositivos Windows, iOS ou Android.|
 |Na organização de Carla, nenhum administrador global ou de segurança definiu nenhuma política de links seguros de ATP ainda. Chris recebe um email que contém uma URL para um site mal-intencionado. Carla não está ciente de que a URL é mal-intencionada e clica no link.|Não. A política padrão que cobre URLs para todas as pessoas na organização deve ser definida para que a proteção seja estabelecida.|

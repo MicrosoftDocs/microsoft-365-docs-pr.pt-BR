@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 description: Saiba como os perfis de cobrança dão suporte a faturas.
 keywords: Perfil de cobrança, faturas, encargos, encargos gerenciados
-ms.openlocfilehash: 64f0f6bf456b1251a2db49aa9c2f7473cb7c885b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 2979909e3b916cc4bc8704f32a821b13fa6090e0
+ms.sourcegitcommit: 956dd3f87adb4e6173517550a662c3bacc2d2d79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401769"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44741706"
 ---
 # <a name="manage-billing-profiles"></a>Gerenciar perfis de cobrança
 
@@ -61,7 +61,7 @@ As funções em perfis de cobrança têm permissões para controlar compras e ex
 
 ## <a name="view-billing-profiles"></a>Exibir perfis de cobrança
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Faturas e pagamentos</a>.
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Faturas e pagamentos</a>.
 
 2. Escolha **perfis de cobrança**e, em seguida, escolha um perfil de cobrança na lista.
 

@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 35c24153bdacbdc0d07d65b508e66878bd0045e4
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: e0e5c003ed78b78c5f259eae7e08478d523b5b12
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43029823"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773782"
 ---
 # <a name="device-configuration"></a>Configuração do dispositivo
 
@@ -33,7 +33,7 @@ Esta tabela destaca as políticas padrão que são aplicadas a todos os disposit
 
 Política | Descrição
 --- | ---
-Linha de base de segurança | A [linha de base de segurança da Microsoft](https://docs.microsoft.com/windows/device-security/windows-security-baselines) para MDM é configurada para todos os dispositivos de área de trabalho gerenciado Essa linha de base é a configuração padrão da indústria. Ele é lançado publicamente, bem testado e revisado pelos especialistas de segurança da Microsoft para manter os dispositivos e aplicativos de área de trabalho gerenciada da Microsoft seguros no local de trabalho moderno. <br><br>Para reduzir as ameaças no panorama de ameaças à segurança em constante evolução, a linha de base de segurança da Microsoft será atualizada e implantada em dispositivos de área de trabalho gerenciada da Microsoft com cada atualização de recurso do Windows 10.<br><br>Para obter mais informações, consulte [Security Baseline for Windows 10](https://blogs.technet.microsoft.com/secguide/2017/10/18/security-baseline-for-windows-10-fall-creators-update-v1709-final/).
+Linha de base de segurança | A [linha de base de segurança da Microsoft](https://docs.microsoft.com/windows/device-security/windows-security-baselines) para MDM é configurada para todos os dispositivos de área de trabalho gerenciado Essa linha de base é a configuração padrão da indústria. Ele é lançado publicamente, bem testado e revisado pelos especialistas de segurança da Microsoft para manter os dispositivos e aplicativos de área de trabalho gerenciada da Microsoft seguros no local de trabalho moderno. <br><br>Para reduzir as ameaças no panorama de ameaças à segurança em constante evolução, a linha de base de segurança da Microsoft será atualizada e implantada em dispositivos de área de trabalho gerenciada da Microsoft com cada atualização de recurso do Windows 10.<br><br>Para obter mais informações, consulte [linhas de base de segurança do Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines).
 Modelo de segurança recomendado para área de trabalho gerenciada da Microsoft | Um conjunto de alterações recomendadas à linha de base de segurança que otimizam a experiência do usuário.  Essas alterações são documentadas no [adendo de segurança](#security-addendum). As atualizações para o adendo de política ocorrem em uma base conforme necessário.  
 Implantação de atualização | Use o Windows Update para empresas para executar a implantação gradual de atualizações de software. Os administradores de ti não podem modificar as configurações das diretivas de grupo de implantação. Para obter mais informações sobre a implantação baseada em grupo, consulte [como as atualizações são tratadas na área de trabalho gerenciada da Microsoft](updates.md).
 Conexões limitadas | Por padrão, as atualizações em conexões limitadas (como redes LTE) estão desativadas, embora cada usuário possa ativar o recurso de forma independente em **configurações > atualizações > opções avançadas**. Se você deseja permitir que todos os usuários habilitem atualizações em conexões limitadas, [envie uma solicitação de alteração](../working-with-managed-desktop/admin-support.md), o que ativará essa configuração para todos os dispositivos.

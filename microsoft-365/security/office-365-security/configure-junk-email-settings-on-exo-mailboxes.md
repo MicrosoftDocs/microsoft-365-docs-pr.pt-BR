@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online. Muitas dessas configurações estão disponíveis para usuários no Outlook ou no Outlook na Web.
-ms.openlocfilehash: d5eaadc6d177acf91ea4d9d149c92a4de6cc8dd3
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 4e40e3fa2186022a64c8ccdf66f62db24b9f9794
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616629"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755255"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online
 
@@ -44,7 +44,7 @@ Os administradores podem usar o PowerShell do Exchange Online para desabilitar, 
 > [!NOTE]
 > As mensagens de remetentes que os usuários adicionaram às suas próprias listas de remetentes confiáveis irão ignorar a filtragem de conexão como parte do EOP (o SCL é-1). Para impedir que os usuários adicionem entradas à sua lista de remetentes confiáveis no Outlook, use a política de grupo, conforme mencionado na seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) , posteriormente neste tópico. A filtragem de política, filtragem de conteúdo e verificações de proteção avançada contra ameaças (ATP) ainda serão aplicadas às mensagens.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Você só pode usar o PowerShell do Exchange Online para executar estes procedimentos. Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -110,7 +110,7 @@ A coleção de lista segura em uma caixa de correio inclui a lista de remetentes
 
 <sup>\*</sup>**Observações**:
 
-- No Exchange Online, **as entradas de domínio** na lista de remetentes confiáveis ou no parâmetro _TrustedSendersAndDomains_ não são reconhecidas, portanto, somente use endereços de email. Em EOP autônomos com sincronização de diretório, as entradas de domínio não são sincronizadas por padrão, mas você pode habilitar a sincronização para domínios. Para obter mais informações, consulte [KB3019657](https://support.microsoft.com/help/3019657/domains-on-the-outlook-safe-senders-list-aren-t-recognized-by-exchange).
+- No Exchange Online, **as entradas de domínio** na lista de remetentes confiáveis ou no parâmetro _TrustedSendersAndDomains_ não são reconhecidas, portanto, somente use endereços de email. Em EOP autônomos com sincronização de diretório, as entradas de domínio não são sincronizadas por padrão, mas você pode habilitar a sincronização para domínios. Para obter mais informações, consulte [KB3019657](https://support.microsoft.com/help/3019657).
 
 - Você não pode modificar diretamente a lista de destinatários confiáveis usando o cmdlet **set-MailboxJunkEmailConfiguration** (o parâmetro _TrustedRecipientsAndDomains_ não funciona). Você modifica a lista de remetentes confiáveis, e essas alterações são sincronizadas com a lista de destinatários confiáveis.
 
@@ -168,11 +168,11 @@ Para verificar se você configurou com êxito a coleção de lista segura em uma
 
 ## <a name="about-junk-email-settings-in-outlook"></a>Sobre as configurações de lixo eletrônico no Outlook
 
-Para habilitar, desabilitar e configurar as definições de filtro de lixo eletrônico do lado do cliente disponíveis no Outlook, use a política de grupo. Para obter mais informações, consulte [arquivos de modelo administrativo (admx/adml) e ferramenta de personalização do Office para o Microsoft 365 aplicativos para Enterprise, office 2019 e office 2016](https://www.microsoft.com/download/details.aspx?id=49030) e [como implantar configurações de lixo eletrônico, como a lista de remetentes confiáveis, usando a política de grupo](https://support.microsoft.com/help/2252421/how-to-deploy-junk-email-settings-such-as-the-safe-senders-list-by-usi).
+Para habilitar, desabilitar e configurar as definições de filtro de lixo eletrônico do lado do cliente disponíveis no Outlook, use a política de grupo. Para obter mais informações, consulte [arquivos de modelo administrativo (admx/adml) e ferramenta de personalização do Office para o Microsoft 365 aplicativos para Enterprise, office 2019 e office 2016](https://www.microsoft.com/download/details.aspx?id=49030) e [como implantar configurações de lixo eletrônico, como a lista de remetentes confiáveis, usando a política de grupo](https://support.microsoft.com/help/2252421).
 
-Quando o filtro de lixo eletrônico do Outlook está definido como o valor padrão **sem filtragem automática** nas opções de opções de lixo eletrônico **doméstica** \> **Junk** \> **Junk E-Mail Options** \> **Options**, o Outlook não tenta classificar massages como spam, mas ainda usa a coleção de listas seguras (a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados) para mover mensagens para a pasta lixo eletrônico após a entrega. Para obter mais informações sobre essas configurações, consulte [visão geral do filtro de lixo eletrônico](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089).
+Quando o filtro de lixo eletrônico do Outlook está definido como o valor padrão **sem filtragem automática** nas opções de opções de lixo eletrônico **doméstica** \> **Junk** \> **Junk E-Mail Options** \> **Options**, o Outlook não tenta classificar massages como spam, mas ainda usa a coleção de listas seguras (a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados) para mover mensagens para a pasta lixo eletrônico após a entrega. Para obter mais informações sobre essas configurações, consulte [visão geral do filtro de lixo eletrônico](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089).
 
-Quando o filtro de lixo eletrônico do Outlook é definido como **baixo** ou **alto**, o filtro de lixo eletrônico do Outlook usa sua própria tecnologia de Filtro SmartScreen para identificar e mover spam para a pasta lixo eletrônico. Essa classificação de spam é separada do nível de confiança de spam (SCL) determinado pelo EOP. Na verdade, o Outlook ignora o SCL de EOP (a menos que EOP marcou a mensagem para ignorar a filtragem de spam) e usa seus próprios critérios para determinar se a mensagem é spam. Obviamente, é possível que o veredicto de spam do EOP e do Outlook seja o mesmo. Para obter mais informações sobre essas configurações, consulte [alterar o nível de proteção no filtro de lixo eletrônico](https://support.office.com/article/e89c12d8-9d61-4320-8c57-d982c8d52f6b).
+Quando o filtro de lixo eletrônico do Outlook é definido como **baixo** ou **alto**, o filtro de lixo eletrônico do Outlook usa sua própria tecnologia de Filtro SmartScreen para identificar e mover spam para a pasta lixo eletrônico. Essa classificação de spam é separada do nível de confiança de spam (SCL) determinado pelo EOP. Na verdade, o Outlook ignora o SCL de EOP (a menos que EOP marcou a mensagem para ignorar a filtragem de spam) e usa seus próprios critérios para determinar se a mensagem é spam. Obviamente, é possível que o veredicto de spam do EOP e do Outlook seja o mesmo. Para obter mais informações sobre essas configurações, consulte [alterar o nível de proteção no filtro de lixo eletrônico](https://support.microsoft.com/office/e89c12d8-9d61-4320-8c57-d982c8d52f6b).
 
 > [!NOTE]
 > Em novembro de 2016, a Microsoft parou de produzir atualizações de definição de spam para os filtros SmartScreen no Exchange e no Outlook. As definições existentes de spam do SmartScreen foram deixadas no local, mas sua eficácia provavelmente será prejudicada ao longo do tempo. Para obter mais informações, consulte [Substituição do suporte para SmartScreen no Outlook e no Exchange](https://techcommunity.microsoft.com/t5/exchange-team-blog/deprecating-support-for-smartscreen-in-outlook-and-exchange/ba-p/605332).
@@ -189,7 +189,7 @@ A coleção SafeList (a lista de remetentes confiáveis, a lista de destinatári
 
   > Não é possível adicionar/não é possível adicionar as listas de lixo eletrônico do servidor. Você está acima do tamanho permitido no servidor. O filtro de lixo eletrônico no servidor será desabilitado até que as listas de lixo eletrônico tenham sido reduzidas para o tamanho permitido pelo servidor.
 
-  Para obter mais informações sobre esse limite e como Alterá-lo, consulte [KB2669081](https://support.microsoft.com/help/2669081/outlook-error-indicates-that-you-are-over-the-junk-e-mail-list-limit).
+  Para obter mais informações sobre esse limite e como Alterá-lo, consulte [KB2669081](https://support.microsoft.com/help/2669081).
 
 - O conjunto de listas seguras sincronizadas no EOP tem os seguintes limites de sincronização:
 

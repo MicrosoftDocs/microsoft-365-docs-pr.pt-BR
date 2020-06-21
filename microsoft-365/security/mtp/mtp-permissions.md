@@ -19,19 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 110bbe6fe48932217c9bdc009d175161fe9226cd
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: f747737fc94241ca5f65ad9881715f517d5fbe3c
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235190"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773834"
 ---
 # <a name="manage-access-to-microsoft-threat-protection"></a>Gerenciar o acesso à Proteção contra Ameaças da Microsoft
 
 **Aplica-se a:**
 - Proteção contra Ameaças da Microsoft
-
-
 
 Contas atribuídas às seguintes funções do Azure Active Directory (AD) podem acessar a funcionalidade e os dados da Proteção contra Ameaças da Microsoft:
 - Administrador global

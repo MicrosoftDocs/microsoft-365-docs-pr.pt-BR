@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Saiba mais sobre o Office 365 operado pela 21Vianet que foi projetado para atender às necessidades de serviços de nuvem seguros, confiáveis e escalonáveis na China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: f18dd909cedb69e509d6da69e45940337cda8c17
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 7c8459c8c3da67ac4cc80ac2912e368f23cd8e10
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399009"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779912"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Office 365 operado pela 21Vianet
 
@@ -57,10 +57,10 @@ Se quiser saber como começar a usar os serviços gerais do Office 365, confira 
 |:-----|:-----|
 |Domínios personalizados  <br/> |Os administradores podem criar e/ou usar domínios personalizados registrados por meio de provedores de domínio específicos para chinês. Se você não tiver um domínio personalizado, você pode [comprar um nome de domínio](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/buy-a-domain-name) de um registrador de nome de domínio. Se você já tiver um, [encontre seu registrador de domínios ou provedor de Hospedagem de DNS](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-your-domain-registrar).  <br/> Além disso, se você criar um site público usando o serviço do Office 365 SharePoint Online, a política de conformidade da Internet da China requer que você obtenha um número do provedor de conteúdo da Internet (ICP).  **Observação:** A validação automática para palavras não permitidas em nomes de domínio personalizados não está disponível.           |
 |Assinaturas, cobranças e suporte técnico  <br/> |Fornecido pela 21Vianet. Para obter informações sobre como entrar em contato com o suporte, consulte [entrar em contato com o suporte do Office 365 para empresas](../contact-support-for-business-products.md).  <br/> |
-|Redefinição de senha por autoatendimento  <br/> |Disponível apenas para administradores. Para obter mais informações, consulte [alterar ou redefinir sua senha no Office 365 operado pela 21vianet](https://support.microsoft.com/en-us/office/change-or-reset-your-password-in-microsoft-365-operated-by-21vianet-d8eb5b62-9d0e-4267-a9bf-2aa491ee6d0b).  <br/> |
+|Redefinição de senha por autoatendimento  <br/> |Disponível apenas para administradores. Para obter mais informações, consulte [alterar ou redefinir sua senha no Microsoft 365 operado pela 21vianet](https://support.microsoft.com/office/d8eb5b62-9d0e-4267-a9bf-2aa491ee6d0b).  <br/> |
 |Segurança, privacidade, conformidade e detalhes sobre níveis de suporte  <br/> |Fornecido pela 21Vianet.  <br/> |
-|Configuração da área de trabalho do Office  <br/> |A configuração da área de trabalho do Office não está disponível para o Office 2010 e o Office 2007. No entanto, os administradores podem [configurar os aplicativos de área de trabalho atuais do Office para trabalhar com o Office 365](https://support.office.com/article/85646aba-7e6c-4e24-a047-8fd9ce4f9d2e).  <br/> |
-|Suporte móvel e de dispositivo\*  <br/> | Em breve, estão os seguintes recursos móveis:  <br/>  Gerenciamento de dispositivo móvel (MDM)  <br/>  O BlackBerry Business Cloud Services (BBCS) não está disponível, mas você pode usar os dispositivos do Exchange ActiveSync ou uma oferta da Research in Motion (RIM, a solução de email sem fio BlackBerry) para executar o BlackBerry Enterprise Server (BES).  <br/>  Para obter mais informações sobre suporte a dispositivos móveis, consulte [configurar e gerenciar o acesso móvel para seus usuários](https://support.microsoft.com/en-us/office/set-up-and-manage-mobile-access-for-your-users-01fff219-4492-40f2-82d3-fd2ffc0ad802).  <br/> |
+|Configuração da área de trabalho do Office  <br/> |A configuração da área de trabalho do Office não está disponível para o Office 2010 e o Office 2007. No entanto, os administradores podem [configurar os aplicativos de área de trabalho atuais do Office para trabalhar com o Office 365](https://support.microsoft.com/office/85646aba-7e6c-4e24-a047-8fd9ce4f9d2e).  <br/> |
+|Suporte móvel e de dispositivo\*  <br/> | Em breve, estão os seguintes recursos móveis:  <br/>  Gerenciamento de dispositivo móvel (MDM)  <br/>  O BlackBerry Business Cloud Services (BBCS) não está disponível, mas você pode usar os dispositivos do Exchange ActiveSync ou uma oferta da Research in Motion (RIM, a solução de email sem fio BlackBerry) para executar o BlackBerry Enterprise Server (BES).  <br/>  Para obter mais informações sobre suporte a dispositivos móveis, consulte [configurar e gerenciar o acesso móvel para seus usuários](https://support.microsoft.com/office/01fff219-4492-40f2-82d3-fd2ffc0ad802).  <br/> |
 |Office Lens  <br/> |Indisponível.  <br/> |
 |Microsoft Planner  <br/> |Em breve.  <br/> |
 |Microsoft Teams  <br/> |Indisponível.  <br/> |
@@ -74,7 +74,7 @@ Se quiser saber como começar a usar os serviços gerais do Office 365, confira 
 
 |||
 |:-----|:-----|
-|Compartilhar um documento, uma biblioteca ou um site por email com alguém fora da sua organização  <br/> |Esse recurso está disponível, mas desativado por padrão ao usá-lo pode tornar arquivos compartilhados acessíveis fora do seu país. Os administradores têm a capacidade de habilitar esse recurso, mas recebem uma mensagem de aviso indicando que isso pode fazer com que os arquivos compartilhados possam ser acessados de fora do país de origem. Os usuários que tentarem compartilhar com alguém fora da organização também receberão um aviso. Para obter mais informações, consulte [compartilhar arquivos ou pastas do SharePoint no Office 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c.aspx).  <br/> |
+|Compartilhar um documento, uma biblioteca ou um site por email com alguém fora da sua organização  <br/> |Esse recurso está disponível, mas desativado por padrão ao usá-lo pode tornar arquivos compartilhados acessíveis fora do seu país. Os administradores têm a capacidade de habilitar esse recurso, mas recebem uma mensagem de aviso indicando que isso pode fazer com que os arquivos compartilhados possam ser acessados de fora do país de origem. Os usuários que tentarem compartilhar com alguém fora da organização também receberão um aviso. Para obter mais informações, consulte [compartilhar arquivos ou pastas do SharePoint no Office 365](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).  <br/> |
 |Serviços do Access  <br/> |O Access 2013 tem suporte, mas a adição de novos aplicativos do Access pode não estar disponível, pois esse recurso será removido do Office 365 e do SharePoint Online. A criação de novos aplicativos Web baseados em acesso e bancos de dados de acesso à Web no Office 365 e no SharePoint Online deixará de iniciar em junho de 2017 e de todos os bancos de dados Web e aplicativos Web restantes por abril de 2018. Além disso, a funcionalidade do Access 2010 não é suportada e a tentativa de usar um banco de dados do Access 2010 resultará em erros e possíveis perdas de dados.  <br/> |
 |Microsoft PowerApps  <br/> |Em breve.  <br/> |
 |Gerenciamento de Direitos de Informação (IRM)  <br/> |A capacidade de definir recursos de IRM para o SharePoint para sua organização estará disponível em breve.  <br/> |
@@ -99,7 +99,7 @@ Se quiser saber como começar a usar os serviços gerais do Office 365, confira 
 |Compartilhar seu calendário  <br/> |O compartilhamento de calendário entre caixas de correio locais e do Exchange Online está disponível.  <br/> |
 |Compartilhamento de contatos  <br/> |Em breve.  <br/> |
 |Controle de mensagens  <br/> |Em breve.  <br/> |
-|Aplicativos  <br/> |Em breve.  <br/> |
+|Apps  <br/> |Em breve.  <br/> |
 |Recurso locais  <br/> |Este recurso mostra mapas de endereços no email; Como pode permitir dados fora do seu país, ele não está disponível.  <br/> |
 |Contas Conectadas  <br/> |A conexão a outras contas como o hotmail (Outlook.com) estará disponível em breve.  <br/> |
    
@@ -108,12 +108,12 @@ Se quiser saber como começar a usar os serviços gerais do Office 365, confira 
  Novo com o Exchange 2013 atualização cumulativa 5 (CU5), as implantações híbridas de destaque completo entre as organizações do Exchange 2013 local e os serviços do Office 365 agora são suportadas. Aproveitando novos aprimoramentos no assistente de configuração híbrida, o Exchange 2013 CU5 oferece suporte aos seguintes recursos híbridos entre suas organizações locais e do Exchange Online:  
 
 - Roteamento de email seguro entre organizações locais e do Exchange online. 
-- Roteamento de mensagens com um namespace de domínio compartilhado. Por exemplo, as organizações locais e do Exchange Online usam o domínio de SMTP @contoso.com. 
+- Mail routing with a shared domain namespace. For example, both on-premises and Exchange Online organizations use the @contoso.com SMTP domain. 
 - Uma GAL (lista de endereços global) unificada, também chamada de "catálogo de endereços compartilhado".  
 - Compartilhamento de disponibilidade e calendário entre a organização local e o Exchange.  
-- Controle centralizado do fluxo de email de entrada e saída. É possível configurar todas as mensagens de entrada e saída do Exchange Online de forma que elas sejam roteadas através da organização local do Exchange. 
+- Centralized control of inbound and outbound mail flow. You can configure all inbound and outbound Exchange Online messages to be routed through the on-premises Exchange organization. 
 - Uma única URL do Office Outlook Web App para as organizações locais e do Exchange Online.  
-- A capacidade de mover caixas de correio locais existentes para a organização do Exchange Online. Se necessário, caixas de correio do Exchange Online também podem ser movidas de volta à organização local, se necessário.  
+- The ability to move existing on-premises mailboxes to the Exchange Online organization. Exchange Online mailboxes can also be moved back to the on-premises organization if needed.  
 - Gerenciamento centralizado de caixa de correio usando o Centro de Administração do Exchange (EAC).  
 - Dicas de correio, suporte para foto de HD para contatos do Outlook e pesquisa em várias caixas de correio entre organizações locais e do Exchange Online. 
 - O arquivamento de mensagens em nuvem para caixas de correio do Exchange local. 
@@ -129,11 +129,11 @@ Para organizações que executam versões antigas ou mistas do Exchange Server, 
 | 2013 SP1  <br/> | 2013 SP1  <br/> | Sim  <br/> | Todos  <br/> |
 | Misto 2013 SP1/2010 SP3  <br/> | 2013 CU5  <br/> | Sim  <br/> | All, exceto descoberta eletrônica/arquivamento in-loco, acesso ao OWA (consulte a tabela abaixo)  <br/> |
 | Misto 2013 SP1/2010 SP3  <br/> | 2013 SP1  <br/> | Sim  <br/> | Somente disponibilidade configurada manualmente  <br/> |
-| 2010 SP3  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhum  <br/> |
+| 2010 SP3  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhuma  <br/> |
 | 2007  <br/> | 2013 CU5  <br/> | Sim  <br/> | Somente disponibilidade  <br/> |
-| 2007  <br/> | 2013 SP1 ou 2010 SP3No  <br/> | N/A  <br/> | Sem suporte  <br/> |
-| 2003  <br/> | 2013 SP1/CU5  <br/> | N/A  <br/> | Sem suporte  <br/> |
-| 2003  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhum  <br/> |
+| 2007  <br/> | 2013 SP1 ou 2010 SP3No  <br/> | N/D  <br/> | Sem suporte  <br/> |
+| 2003  <br/> | 2013 SP1/CU5  <br/> | N/D  <br/> | Sem suporte  <br/> |
+| 2003  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhuma  <br/> |
 
    
 > [!IMPORTANT]
@@ -165,7 +165,7 @@ Para saber mais sobre como configurar uma implantação híbrida com os locatár
 - [Criar uma implantação híbrida com o assistente de configuração híbrida](https://go.microsoft.com/fwlink/?LinkId=506767)
 
 > [!IMPORTANT]
->  O [Assistente de implantação do Exchange Server](https://go.microsoft.com/fwlink/?LinkId=506768) é uma ferramenta gratuita baseada na Web que ajuda você a configurar uma implantação híbrida entre sua organização local e o Office 365, ou para migrar completamente para o Office 365. A ferramenta faz algumas perguntas simples e, com base nas respostas, cria uma lista de verificação personalizada com instruções para configurar sua implantação híbrida. É altamente recomendável usar o assistente de implantação para configurar uma implantação híbrida. > para organizações que não desejam atualizar ou adicionar servidores do Exchange 2013 CU5, as organizações do Exchange 2013 SP1 podem configurar o compartilhamento de disponibilidade de calendário compartilhado entre suas organizações locais e do Exchange Online. Para configurar este recurso de implantação híbrida, confira [configurando recursos de implantação híbrida do Exchange com o Office 365 operado pela 21vianet](https://support.office.com/article/26e7cc26-c980-4cc5-a082-c333de544b6d). 
+>  O [Assistente de implantação do Exchange Server](https://go.microsoft.com/fwlink/?LinkId=506768) é uma ferramenta gratuita baseada na Web que ajuda você a configurar uma implantação híbrida entre sua organização local e o Office 365, ou para migrar completamente para o Office 365. A ferramenta faz algumas perguntas simples e, com base nas respostas, cria uma lista de verificação personalizada com instruções para configurar sua implantação híbrida. É altamente recomendável usar o assistente de implantação para configurar uma implantação híbrida. > para organizações que não desejam atualizar ou adicionar servidores do Exchange 2013 CU5, as organizações do Exchange 2013 SP1 podem configurar o compartilhamento de disponibilidade de calendário compartilhado entre suas organizações locais e do Exchange Online. Para configurar este recurso de implantação híbrida, confira [configurando recursos de implantação híbrida do Exchange com o Office 365 operado pela 21vianet](https://support.microsoft.com/office/26e7cc26-c980-4cc5-a082-c333de544b6d). 
 
 |||  
 |---|---|
@@ -187,7 +187,7 @@ Compartilhamento de dados de contato do Exchange em dispositivos móveis da Appl
 
 |||
 |:-----|:-----|
-|Gerenciar conta (de dentro do cliente do Office)  <br/> |Esse recurso, e outros como os destinados a acessar o portal do Office 365, apontam atualmente para o portal do Office 365 em todo o mundo e você não pode entrar com sua conta do Office 365 operado pela 21Vianet. Este é um problema conhecido que está sendo corrigido. Enquanto isso, você pode usar a URL https://portal.partner.microsoftonline.cn/ para entrar em sua conta e gerenciar as definições desse local. Para obter mais informações, consulte [Manage Your Office 365 Pro Plus Account for office 365 operated by 21vianet](https://support.office.com/article/fbe473d3-69de-4d0c-aecb-b9c2d0d45bc8.aspx).  <br/> |
+|Gerenciar conta (de dentro do cliente do Office)  <br/> |Esse recurso, e outros como os destinados a acessar o portal do Office 365, apontam atualmente para o portal do Office 365 em todo o mundo e você não pode entrar com sua conta do Office 365 operado pela 21Vianet. Este é um problema conhecido que está sendo corrigido. Enquanto isso, você pode usar a URL https://portal.partner.microsoftonline.cn/ para entrar em sua conta e gerenciar as definições desse local. Para obter mais informações, consulte [Manage Your Microsoft 365 aplicativos for Enterprise Account for Office 365 operated by 21vianet](https://support.microsoft.com/office/fbe473d3-69de-4d0c-aecb-b9c2d0d45bc8).  <br/> |
    
 ## <a name="onenote"></a>OneNote
 
@@ -197,7 +197,7 @@ Compartilhamento de dados de contato do Exchange em dispositivos móveis da Appl
 |Integração do painel de pesquisa aos serviços do Bing  <br/> |Indisponível.  <br/> |
 |Verificador de acessibilidade  <br/> |Indisponível.  <br/> |
 |Bloco de anotações de classe  <br/> |Indisponível.  <br/> |
-|Formulários  <br/> |Indisponível.  <br/> |
+|Forms  <br/> |Indisponível.  <br/> |
 |Leitura avançada  <br/> |Indisponível.  <br/> |
 |Inserir imagem online  <br/> |Indisponível.  <br/> |
 |Detalhes da reunião  <br/> |Indisponível.  <br/> |
@@ -213,7 +213,7 @@ Compartilhamento de dados de contato do Exchange em dispositivos móveis da Appl
 |:-----|:-----|
 |Provedores de domínio para suporte ao Skype for Business  <br/> |Você precisará registrar seu domínio com um provedor de domínio específico de chinês que ofereça suporte a registros SRV. Para obter mais informações sobre como registrar domínios, consulte [localizar seu registrador de domínio ou provedor de Hospedagem de DNS](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-your-domain-registrar).  <br/> |
 |Conferência discada (a capacidade de adicionar acesso telefônico a reuniões para usuários que não conseguem acessar um computador)  <br/> |Você pode ver opções no Skype for Business e no centro de administração do Skype for Business para conferência de discagem e provedores, mas esses recursos ainda não estão disponíveis. Eles serão disponibilizados em breve.  <br/> |
-|Ajuda da área de trabalho do Skype for Business  <br/> |Você pode encontrar ajuda para o Skype for Business Desktop [aqui](https://support.office.com/article/6ae5853c-f0fd-4710-aecf-f46def8377ad.aspx). No entanto, a ajuda do desktop não está disponível no produto, a menos que você esteja usando o Office Clique para executar.  <br/> |
+|Ajuda da área de trabalho do Skype for Business  <br/> |Você pode encontrar ajuda para o Skype for Business Desktop [aqui](https://support.microsoft.com/office/6ae5853c-f0fd-4710-aecf-f46def8377ad). No entanto, a ajuda do desktop não está disponível no produto, a menos que você esteja usando o Office Clique para executar.  <br/> |
 |Lync 2010  <br/> |Indisponível.  <br/> |
 |Capacidade de participar de uma reunião do seu calendário quando você está usando um dispositivo baseado em Samsung com Google Chrome  <br/> |Em breve. Enquanto isso, você pode abrir o Skype for Business, ir para o modo de exibição reuniões e participar da reunião.  <br/> |
 |Dispositivos de telefone de mesa como o Polycom, o ares e o Tanjay  <br/> |Indisponível.  <br/> |

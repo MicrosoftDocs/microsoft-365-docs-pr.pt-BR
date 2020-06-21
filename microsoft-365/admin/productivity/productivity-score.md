@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Visão geral da pontuação da produtividade da Microsoft.
-ms.openlocfilehash: 52a520e36c6b121984aef650ffba1867f4d3e8c9
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: cf8747f38442c0dbef6178dc2cbd4ce32d59c5c6
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399177"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754791"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Pontuação de produtividade da Microsoft (versão prévia)
 
@@ -134,6 +134,22 @@ A principal visão da comunicação é a freqüência com que as pessoas em sua 
 A principal percepção para mobilidade é o número de pessoas que acessam arquivos e usam email e bate-papo em várias plataformas. A capacidade de trabalhar a partir de qualquer local em qualquer dispositivo que ele escolha seja importante para pessoas com funções de vendas, gerentes seniores, consultores e outros que precisam trabalhar fora do escritório para serem produtivos. Os aprimoramentos desses funcionários têm um grande impacto. 
 
 Medimos a porcentagem e o número absoluto de pessoas que usavam pelo menos um aplicativo de produtividade da Microsoft 365 em duas ou mais plataformas, incluindo desktops, móveis e Web. Os aplicativos de produtividade que medemos são Outlook, Teams, Word, Excel, PowerPoint, OneNote, Yammer e Skype. As pessoas devem ter aplicativos da Microsoft 365 para licenças Enterprise, Exchange, Yammer, Skype ou Teams a serem medidos. 
+
+## <a name="business-continuity-special-report"></a>Relatório especial de continuidade de negócios
+
+O relatório de continuidade de negócios é um relatório de inteligência de trabalho em tempo limitado disponível para todos os clientes da Microsoft 365 para ajudá-los a guiar suas organizações durante esse tempo desafiador.  
+
+Este relatório ajuda os líderes de negócios a entender: 
+
+- Como a colaboração e a comunicação são afetadas pela mudança para o trabalho remoto. 
+
+- O impacto no equilíbrio de vida útil como as pessoas se ajustam para trabalhar de casa. 
+
+- Se as pessoas estiverem usando reuniões com eficiência e como estão 
+
+[Saiba mais sobre o relatório de continuidade de negócios](https://aka.ms/bcrps)
+
+[Saiba mais sobre o Microsoft Graph](https://docs.microsoft.com/graph/)
 
 ## <a name="we-want-to-hear-from-you"></a>Queremos ouvir sua opinião
 

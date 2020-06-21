@@ -20,19 +20,19 @@ search.appverid:
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
 description: 'Saiba como habilitar ou desabilitar o recurso de desordem para todos ou usuários específicos em sua organização, usando o Exchange PowerShell. '
-ms.openlocfilehash: 069cf7569ebb3654e979100291f6754693b24def
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 67267b0865dfcfd6c0ba66d59ce1d0d111d59325
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400131"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780272"
 ---
 # <a name="configure-clutter-for-your-organization"></a>Configurar resíduos para sua organização
 
 > [!TIP]
 > A [caixa de entrada destaques](../setup/configure-focused-inbox.md) vai substituir resíduos. Saiba mais: [Atualizar na caixa de entrada destaques e nos nossos planos de email secundário](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448)
   
-Como administrador, você pode ter que gerenciar o recurso de desordem no Microsoft 365. Para ativar/desativar o recurso de aglomeração para usuários em sua organização, você deve usar o Exchange PowerShell. (As pessoas podem ativá-la/desligar usando estas instruções: [desative/desobstruída no Outlook](https://support.office.com/article/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c.aspx).) 
+Como administrador, você pode ter que gerenciar o recurso de desordem no Microsoft 365. Para ativar/desativar o recurso de aglomeração para usuários em sua organização, você deve usar o Exchange PowerShell. (As pessoas podem ativá-la/desligar usando estas instruções: [desative/desobstruída no Outlook](https://support.microsoft.com/office/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c).
   
 Confira [usando o PowerShell com o Exchange Online](https://go.microsoft.com/fwlink/?LinkID=402831) e [Conecte-se ao PowerShell do Exchange Online](https://go.microsoft.com/fwlink/?LinkID=722415) para obter detalhes sobre como usar o Exchange PowerShell. Você precisa ter uma conta que tenha pelo menos a função Administrador de serviços do Exchange e a capacidade de se conectar ao Exchange Online com o PowerShell. 
   
@@ -99,10 +99,10 @@ Como administrador, você pode reabilitar resíduos usando o Exchange PowerShell
 ## <a name="related-articles"></a>Artigos relacionados
 <a name="bkmk_onoff"> </a>
 
-[Usar email secundário para classificar mensagens de baixa prioridade no Outlook](https://support.office.com/article/use-clutter-to-sort-low-priority-messages-in-outlook-7b50c5db-7704-4e55-8a1b-dfc7bf1eafa0)
+[Usar email secundário para classificar mensagens de baixa prioridade no Outlook](https://support.microsoft.com/office/7b50c5db-7704-4e55-8a1b-dfc7bf1eafa0)
     
-[Usar email secundário para classificar mensagens de baixa prioridade no OWA](https://support.office.com/article/fe4d64ca-bf73-48f1-91b4-9a659e008bce.aspx)
+[Usar email secundário para classificar mensagens de baixa prioridade no OWA](https://support.microsoft.com/office/fe4d64ca-bf73-48f1-91b4-9a659e008bce)
     
-[Desligar resíduos no Outlook](https://support.office.com/article/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c.aspx)
+[Desligar resíduos no Outlook](https://support.microsoft.com/office/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c)
     
 

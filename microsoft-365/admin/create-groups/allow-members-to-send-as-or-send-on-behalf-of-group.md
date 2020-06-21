@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: Saiba como permitir que os membros enviem email como um grupo do Microsoft 365 ou enviem email em nome de um grupo do Microsoft 365.
-ms.openlocfilehash: a4d8cb65feab3fca69824adc8f7b4ef10e705d8c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3a93dda83b10d7c38c8c6e7d8fd484b37df565d0
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388132"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780464"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Permitir que os membros enviem como ou enviem em nome de um grupo
 
@@ -39,7 +39,7 @@ A permissão **enviar em nome** de permite que um usuário envie um email em nom
 > Você pode configurar **Enviar como** ou **enviar em nome** de um determinado usuário, mas não ambos. Se você configurar ambos, o padrão será **Enviar como**.
 
 > [!TIP]
-> Consulte [Enviar email de ou em nome de um grupo do Microsoft 365](https://support.office.com/article/0f4964af-aec6-484b-a65c-0434df8cdb6b.aspx) para saber como usar o Outlook e o Outlook na Web para enviar emails de um grupo.
+> Consulte [Enviar email de ou em nome de um grupo do Microsoft 365](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b) para saber como usar o Outlook e o Outlook na Web para enviar emails de um grupo.
     
 ## <a name="allow-members-to-send-email-as-a-group"></a>Permitir que os membros enviem email como um grupo
 
@@ -79,7 +79,7 @@ Esta seção explica como permitir que os usuários enviem emails em nome de um 
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Saiba mais sobre os grupos do Microsoft 365](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[Saiba mais sobre os grupos do Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 [Add-RecipientPermission](https://go.microsoft.com/fwlink/p/?LinkId=723960)
 

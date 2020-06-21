@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Os administradores podem aprender a identificar os motivos por que e como uma mensagem de phishing recebeu no Microsoft 365 e o que fazer para evitar mais mensagens de phishing no futuro.
-ms.openlocfilehash: b7a68eb3ab3cf7dbb7156059416cca04d80bb3a8
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: ac416da714e30491f679e22909010a8c02fac843
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588435"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755047"
 ---
 # <a name="tune-anti-phishing-protection"></a>Ajustar a proteção contra phishing
 
@@ -51,17 +51,21 @@ Especificamente, você deve verificar o campo de cabeçalho **X-Forefront-antisp
 
 - Mensalmente, execute a [Pontuação segura](../mtp/microsoft-secure-score.md) para avaliar as configurações de segurança da sua organização.
 
-- Revise periodicamente o [relatório de inteligência de falsificação](learn-about-spoof-intelligence.md) e [Configure spoof Intelligence](set-up-anti-phishing-policies.md#spoof-settings) para **colocar em quarentena** mensagens suspeitas em vez de entregá-las à pasta lixo eletrônico do usuário.
+- Para mensagens que terminam em quarentena por engano, ou para mensagens permitidas pelo, recomendamos que você pesquise essas mensagens no [Gerenciador de ameaças e nas detecções em tempo real](threat-explorer.md). Você pode pesquisar por remetente, destinatário ou ID da mensagem. Após localizar a mensagem, acesse os detalhes clicando no assunto. Para uma mensagem em quarentena, procure ver o que é a "tecnologia de detecção", para que você possa usar o método apropriado para substituir. Para obter uma mensagem permitida, procure ver qual política permitiu a mensagem. 
+
+- Emails falsificados são marcados como phishing na ATP. Às vezes, a falsificação é benigna e, às vezes, os usuários não a querem colocar em quarentena. Para minimizar o impacto para os usuários, revise periodicamente o [relatório de inteligência de falsificação](learn-about-spoof-intelligence.md). Depois de revisar e fazer as substituições necessárias, você pode ter certeza de [Configurar a inteligência de falsificação](set-up-anti-phishing-policies.md#spoof-settings) para **colocar em quarentena** mensagens suspeitas em vez de entregá-las na pasta lixo eletrônico do usuário.
+
+- Você pode repetir a etapa acima para representação (domínio ou usuário). O relatório de representação é encontrado **Threat Management** em \> **Dashboard** \> **insights**do painel de gerenciamento de ameaças.
 
 - Revise periodicamente o [relatório de status de proteção contra ameaças](view-reports-for-atp.md#threat-protection-status-report).
 
-- Alguns clientes acidentalmente permitem mensagens de phishing por meio da colocação de seus próprios domínios na lista permitir remetente ou permitir domínio em políticas antispam. Se você optar por fazer isso, você deve usar muito cuidado. Embora essa configuração permita algumas mensagens legítimas, também permitirá mensagens mal-intencionadas que normalmente serão bloqueadas pelos filtros spam e/ou phishing.
+- Alguns clientes acidentalmente permitem mensagens de phishing por meio da colocação de seus próprios domínios na lista permitir remetente ou permitir domínio em políticas antispam. Embora essa configuração permita algumas mensagens legítimas, também permitirá mensagens mal-intencionadas que normalmente serão bloqueadas pelos filtros spam e/ou phishing. Em vez de permitir o domínio, você deve corrigir o problema subjacente.
 
   A melhor maneira de lidar com mensagens legítimas bloqueadas pelo Microsoft 365 (falsos positivos) que envolvem remetentes em seu domínio é configurar completamente e completamente os registros SPF, DKIM e DMARC no DNS para _todos os_ seus domínios de email:
 
   - Verifique se o registro SPF identifica _todas as_ fontes de email para remetentes em seu domínio (não esqueça de serviços de terceiros!).
 
-  - Use a falha de hardware ( \- ) para garantir que os remetentes não autorizados sejam rejeitados por sistemas de email configurados para fazer isso. Você pode usar a [inteligência de falsificação](learn-about-spoof-intelligence.md) para ajudar a identificar remetentes que estejam usando seu domínio para que você possa incluir remetentes de terceiros autorizados em seu registro SPF.
+  - Use a falha de hardware ( \- tudo) para garantir que os remetentes não autorizados sejam rejeitados por sistemas de email configurados para fazer isso. Você pode usar a [inteligência de falsificação](learn-about-spoof-intelligence.md) para ajudar a identificar remetentes que estejam usando seu domínio para que você possa incluir remetentes de terceiros autorizados em seu registro SPF.
 
   Para obter instruções de configuração, consulte:
   
@@ -72,6 +76,8 @@ Especificamente, você deve verificar o campo de cabeçalho **X-Forefront-antisp
   - [Usar DMARC para validar emails](use-dmarc-to-validate-email.md)
 
 - Sempre que possível, recomendamos que você envie emails para seu domínio diretamente para o Microsoft 365. Em outras palavras, aponte o registro MX do seu domínio do Microsoft 365 para a Microsoft 365. O proteção do Exchange Online (EOP) é capaz de fornecer a melhor proteção para seus usuários de nuvem quando seus emails são entregues diretamente no Microsoft 365. Se você precisar usar um sistema de higiene de email de terceiros na frente do EOP, use a filtragem avançada para conectores. Para obter instruções, consulte [filtragem avançada para conectores no Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
+
+- Os usuários devem [relatar mensagens](enable-the-report-message-add-in.md) à Microsoft, que podem treinar nosso sistema. Os administradores também devem aproveitar os recursos de [envio de administrador](admin-submission.md) .
 
 - A MFA (autenticação multifator) é uma boa maneira de evitar contas comprometidas. Você deve considerar fortemente habilitar a MFA para todos os seus usuários. Para obter uma abordagem em fases, comece habilitando a MFA para seus usuários mais confidenciais (administradores, executivos, etc.) antes de habilitar a MFA para todos. Para obter instruções, consulte [Configurar a autenticação multifator](../../admin/security-and-compliance/set-up-multi-factor-authentication.md).
 

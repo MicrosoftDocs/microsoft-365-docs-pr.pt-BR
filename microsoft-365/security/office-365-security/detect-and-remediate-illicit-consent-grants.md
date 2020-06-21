@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir o consentimento ilícito conceder ataque no Microsoft Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e775112809fc25e562686761c69471dad6cac1d
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: a324c4427046480fe81f58fc810f020c87247032
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44587491"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726806"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>Detectar e corrigir concessões de consentimento ilícito
 
@@ -30,7 +30,7 @@ ms.locfileid: "44587491"
 
 ## <a name="what-is-the-illicit-consent-grant-attack-in-office-365"></a>O que é o ataque de concessão de consentimento ilícito no Office 365?
 
-Em um ataque de concessão de consentimento ilícito, o invasor cria um aplicativo registrado pelo Azure que solicita acesso a dados, como informações de contato, email ou documentos. O invasor, então, vaza um usuário final para conceder a ele o consentimento de acessar seus dados através de um ataque de phishing ou injetando código ilícito em um site confiável. Depois que o aplicativo ilícito tiver sido concedido, ele terá acesso de nível de conta aos dados sem a necessidade de uma conta organizacional. Etapas de correção normais, como redefinir senhas para contas violadas ou exigir a autenticação multifator (MFA) em contas, não são eficazes contra esse tipo de ataque, já que são aplicativos de terceiros e são externos à organização. 
+Em um ataque de concessão de consentimento ilícito, o invasor cria um aplicativo registrado pelo Azure que solicita acesso a dados, como informações de contato, email ou documentos. O invasor, então, vaza um usuário final para conceder a ele o consentimento de acessar seus dados através de um ataque de phishing ou injetando código ilícito em um site confiável. Depois que o aplicativo ilícito tiver sido concedido, ele terá acesso de nível de conta aos dados sem a necessidade de uma conta organizacional. Etapas de correção normais, como redefinir senhas para contas violadas ou exigir a autenticação multifator (MFA) em contas, não são eficazes contra esse tipo de ataque, já que são aplicativos de terceiros e são externos à organização.
 
 Esses ataques aproveitam um modelo de interação que pressupõe que a entidade que está chamando as informações é automação e não é um homem.
 
@@ -43,18 +43,21 @@ Você precisa pesquisar o **log de auditoria** para encontrar sinais, também ch
 
 ### <a name="steps-for-finding-signs-of-this-attack"></a>Etapas para encontrar sinais desse ataque
 
-1. Abra o **centro de conformidade & segurança** no locatário.
+1. Abra o **centro de conformidade & segurança** em <https://protection.office.com> .
 
 2. Navegue até **pesquisa** e selecione **pesquisa de log de auditoria**.
 
-3. Pesquisa (todas as atividades e todos os usuários) e insira a data de início e a data de término, se necessário, e clique em **Pesquisar**. 
+3. Pesquisa (todas as atividades e todos os usuários) e insira a data de início e a data de término, se necessário, e clique em **Pesquisar**.
 
 4. Clique em **filtrar resultados** e digite consentimento para o aplicativo no campo **atividade** .
 
 5. Clique no resultado para ver os detalhes da atividade. Clique em **mais informações** para obter detalhes da atividade. Verifique se IsAdminContent está definido como true.
 
 > [!NOTE]
-> Pode levar de 30 minutos até 24 horas para que a entrada do log de auditoria correspondente seja exibida nos resultados da pesquisa após a ocorrência de um evento. <br/><br/> O período de tempo que um registro de auditoria é mantido e pesquisável no log de auditoria depende de sua assinatura do Microsoft 365 e, especificamente, do tipo da licença atribuída a um usuário específico. Para obter mais informações, consulte [log de auditoria](../../compliance/search-the-audit-log-in-security-and-compliance.md).
+> 
+> Pode levar de 30 minutos até 24 horas para que a entrada do log de auditoria correspondente seja exibida nos resultados da pesquisa após a ocorrência de um evento.
+> 
+> O período de tempo que um registro de auditoria é mantido e pesquisável no log de auditoria depende de sua assinatura do Microsoft 365 e, especificamente, do tipo da licença atribuída a um usuário específico. Para obter mais informações, consulte [log de auditoria](../../compliance/search-the-audit-log-in-security-and-compliance.md).
 > 
 > Se esse valor for true, ele indicará que alguém com acesso de administrador global pode ter concedido acesso amplo aos dados. Se isso for inesperado, execute etapas para [confirmar um ataque](#how-to-confirm-an-attack).
 
@@ -94,7 +97,7 @@ Peça aos usuários para https://myapps.microsoft.com revisar e examinar o acess
 
 ### <a name="steps-for-doing-this-with-powershell"></a>Etapas para fazer isso com o PowerShell
 
-A maneira mais simples de verificar o consentimento ilícito de concessão é executar o [Get-AzureADPSPermissions. ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09), que irá despejar todos os subsídios de consentimento OAuth e aplicativos OAuth para todos os usuários em sua locação em um arquivo. csv.
+A maneira mais simples de verificar o invasor de concessão de consentimento ilícito é executar [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09), que irá despejar todas as autorizações de consentimento OAuth e aplicativos OAuth para todos os usuários em sua locação em um arquivo. csv.
 
 #### <a name="pre-requisites"></a>Pré-requisitos
 
@@ -109,7 +112,7 @@ A maneira mais simples de verificar o consentimento ilícito de concessão é ex
 
 1. Entre no computador em que você executará o script com direitos de administrador local.
 
-2. Baixe ou copie o script [Get-AzureADPSPermissions. ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) do GitHub para uma pasta a partir da qual você executará o script. Essa será a mesma pasta para a qual o arquivo de saída "Permissions. csv" será gravado.
+2. Baixe ou copie o script [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) do GitHub para uma pasta a partir da qual você executará o script. Essa será a mesma pasta para a qual o arquivo de "permissions.csv" de saída será gravado.
 
 3. Abra uma instância do PowerShell como administrador e abra a pasta para a qual você salvou o script.
 
@@ -121,7 +124,7 @@ A maneira mais simples de verificar o consentimento ilícito de concessão é ex
    Get-AzureADPSPermissions.ps1 | Export-csv -Path "Permissions.csv" -NoTypeInformation
    ```
 
-O script produz um arquivo chamado Permissions. csv. Siga estas etapas para procurar por subsídios de permissão de aplicativo ilícitos:
+O script produz um arquivo chamado Permissions.csv. Siga estas etapas para procurar por subsídios de permissão de aplicativo ilícitos:
 
 1. Na coluna resenttype (coluna G), procure o valor "multiprincípios". A permissão de entidades de segurança permite que o aplicativo cliente acesse o conteúdo de todos os usuários na locação. Os aplicativos nativos da Microsoft 365 precisam que essa permissão funcione corretamente. Todo aplicativo não-Microsoft com essa permissão deve ser revisado com cuidado.
 

@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Determine se o locatário e os usuários atendem aos requisitos, para que você possa usar a implantação centralizada para implantar os suplementos do Office.
-ms.openlocfilehash: db5a9669464a9c4cb150dee119d8c0bcc2dc9833
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4b9ca7213f36440114d39ef491fe934f13ca96ea
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399807"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717268"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a implantação centralizada de suplementos funciona para a sua organização
 
 A implantação centralizada é a maneira recomendada e mais rica de recursos para a maioria dos clientes implantar suplementos do Office para usuários e grupos dentro da sua organização. Se você for um administrador, use este guia para determinar se o locatário e os usuários atendem aos requisitos para que você possa usar a implantação centralizada.
-A implantação centralizada oferece suporte a Windows, Mac, iOS, Android e aplicativos do Office Online.
-Pode levar até 12 horas para que um suplemento seja exibido para o cliente para todos os usuários.
+A implantação centralizada oferece suporte a três plataformas de área de trabalho Windows, Mac e aplicativos do Office Online. A implantação centralizada também é compatível com iOS e Android (somente suplementos do Outlook Mobile).
+Pode levar até 24 horas para que um suplemento seja exibido para o cliente para todos os usuários.
   
 ## <a name="requirements"></a>Requirements
 
@@ -87,7 +87,7 @@ Para obter ajuda com os aplicativos do Microsoft 365 para empresas, consulte [di
 
 O Microsoft Exchange armazena os manifestos do suplemento no locatário da sua organização. Os suplementos de implantação de administrador e os usuários que recebem esses suplementos devem estar em uma versão do Exchange Online que oferece suporte à autenticação OAuth.
   
-Fale com o administrador do Exchange da sua organização para saber qual configuração está sendo usada. Para verificar a conectividade por usuário do OAuth, use o cmdlet do PowerShell [Test-OAuthConnectivity](https://go.microsoft.com/fwlink/p/?linkid=846351). 
+Check with your organization's Exchange admin to find out which configuration is in use. OAuth connectivity per user can be verified by using the [Test-OAuthConnectivity](https://go.microsoft.com/fwlink/p/?linkid=846351) PowerShell cmdlet. 
 
 
 ### <a name="centralized-deployment-compatibility-checker"></a>Verificador de compatibilidade de implantação centralizado
@@ -96,7 +96,7 @@ Usando o verificador de compatibilidade de implantação centralizado, você pod
   
 #### <a name="run-the-compatibility-checker"></a>Executar o verificador de compatibilidade
   
-1. Inicie uma janela do PowerShell. exe com privilégios elevados.
+1. Iniciar uma janela de PowerShell.exe elevado.
     
 2. Execute o seguinte comando:
 
@@ -139,7 +139,7 @@ O recurso de implantação centralizada atualmente oferece suporte à maioria do
   
 A implantação centralizada oferece suporte a atribuições para usuários individuais, grupos e todos no locatário. A Implantação Centralizada é compatível com usuários em grupos de nível superior ou grupos sem grupos-pai, mas não é compatível com usuários em grupos aninhados ou grupos com grupos-pai.
    
-Examine o exemplo a seguir em que Sara, Maria Eduarda e o grupo do Departamento de Vendas são atribuídos a um suplemento. Como o Departamento de Vendas da Costa Oeste é um grupo aninhado, Humberto e Fábio não estão atribuídos a um suplemento.
+Take a look at the following example where Sandra, Sheila, and the Sales Department group are assigned to an add-in. Because the West Coast Sales Department is a nested group, Bert and Fred aren't assigned to an add-in.
   
 ![Diagrama do departamento de vendas](../../media/683094bb-1160-4cce-810d-26ef7264c592.png)
 
@@ -150,11 +150,11 @@ A maneira mais fácil de detectar se um grupo contém grupos aninhados é exibir
   
 ![Guia Membros do cartão de visita do Outlook](../../media/d9db88c4-d752-426c-a480-b11a5b3adcd6.png)
   
-É possível fazer a consulta inversa resolvendo o grupo para ver se ele é membro de algum grupo. No exemplo abaixo, na guia **Associação** do cartão de visita do Outlook, é possível ver que o Subgrupo 1 é membro do Grupo de Teste. 
+You can do the opposite query by resolving the group to see if it's a member of any group. In the example below, you can see under the **Membership** tab of the Outlook contact card that Sub Group 1 is a member of the Test Group. 
   
 ![Guia Membros do cartão de visita do Outlook](../../media/a9f9b6ab-9c19-4822-9e3d-414ca068c42f.png)
   
-Se preferir, use a API do Graph do Azure Active Directory para executar consultas para localizar a lista de grupos dentro de um grupo. Para saber mais, veja [Operações em grupos | Referência da API do Graph](https://go.microsoft.com/fwlink/p/?linkid=846342).
+Alternately, you can use the Azure Active Directory Graph API to run queries to find the list of groups within a group. For more information, see [Operations on groups | Graph API reference](https://go.microsoft.com/fwlink/p/?linkid=846342).
   
 ### <a name="contacting-microsoft-for-support"></a>Entrar em contato com a Microsoft para obter suporte
 

@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Proteja seus emails e dados de negócios contra ameaças da Cyber, incluindo ransomware, phishing e anexos mal-intencionados. '
-ms.openlocfilehash: 9a9b6c01d979f4a5bb055f907dc0292a33f40993
-ms.sourcegitcommit: 1f3101326e8a54b9bda4ba0324eae00fafcf5e7b
+ms.openlocfilehash: 79ff8642170a5e45f67d95d7993632fd66252208
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44405174"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779948"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>As 10 maneiras principais de proteger os planos do Microsoft 365 for Business
 
@@ -64,7 +64,7 @@ Antes de começar, verifique sua pontuação de segurança do [microsoft 365](ht
 O uso da autenticação multifator é uma das maneiras mais fáceis e eficazes de aumentar a segurança da sua organização. É mais fácil do que parece, quando você faz logon, a autenticação multifator significa que você digitará um código de seu telefone para obter acesso ao Microsoft 365. Isso pode impedir que hackers assumam o controle se souberem sua senha. A autenticação multifator também é chamada de verificação em duas etapas. As pessoas podem adicionar a verificação em duas etapas à maioria das contas com facilidade, por exemplo, às contas do Google ou do Microsoft. Confira aqui como [Adicionar a verificação em duas etapas à sua conta pessoal da Microsoft](https://go.microsoft.com/fwlink/?linkid=2016403&amp;clcid=0x409).
   
 Para empresas que usam o Microsoft 365, adicione uma configuração que exija que os usuários façam logon usando a autenticação multifator. Quando você fizer essa alteração, os usuários serão solicitados a configurar seu telefone para a autenticação de dois fatores na próxima vez em que fizerem logon.
-Para ver um vídeo de treinamento sobre como configurar a MFA e como os usuários concluem a configuração, consulte [set up MFA](https://support.office.com/article/e12187b8-216a-4490-9e3b-df34a06fb787) and [User set up](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225).
+Para ver um vídeo de treinamento sobre como configurar a MFA e como os usuários concluem a configuração, consulte [set up MFA](https://support.microsoft.com/office/e12187b8-216a-4490-9e3b-df34a06fb787) and [User set up](https://support.microsoft.com/office/a32541df-079c-420d-9395-9d59354f7225).
   
 Para configurar a autenticação multifator:
 
@@ -79,7 +79,7 @@ Para configurar a autenticação multifator:
 5. Na janela pop-up, escolha **habilitar autenticação multifator**.
 
 
-Após configurar a autenticação multifator da sua organização, os usuários precisarão configurar a verificação em duas etapas em seus dispositivos. Para obter mais informações, consulte [Configurar a verificação em duas etapas para o Microsoft 365](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14).
+Após configurar a autenticação multifator da sua organização, os usuários precisarão configurar a verificação em duas etapas em seus dispositivos. Para obter mais informações, consulte [Configurar a verificação em duas etapas para o Microsoft 365](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14).
   
 Para obter detalhes completos e recomendações completas, consulte [Configurar a autenticação multifator para usuários](set-up-multi-factor-authentication.md).
   
@@ -88,7 +88,7 @@ Para obter detalhes completos e recomendações completas, consulte [Configurar 
 
 O [manual de campanha](https://go.microsoft.com/fwlink/?linkid=2015598&amp;clcid=0x409) da Harvard Kennedy School cybersecurity fornece orientações excelentes sobre o estabelecimento de uma grande cultura de reconhecimento de segurança em sua organização, incluindo o treinamento de usuários para identificar ataques de phishing. 
   
-Além desta orientação, a Microsoft recomenda que os usuários executem as ações descritas neste artigo: [proteja sua conta e seus dispositivos contra hackers e malware](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx). Essas ações incluem:
+Além desta orientação, a Microsoft recomenda que os usuários executem as ações descritas neste artigo: [proteja sua conta e seus dispositivos contra hackers e malware](https://support.microsoft.com/office/066d6216-a56b-4f90-9af3-b3a1e9a327d6). Essas ações incluem:
   
 - Usando senhas fortes
     
@@ -98,7 +98,7 @@ Além desta orientação, a Microsoft recomenda que os usuários executem as aç
     
 A Microsoft também recomenda que os usuários protejam suas contas de email pessoais executando as ações recomendadas nos seguintes artigos:
   
-- [Ajudar a proteger sua conta de email do Outlook.com](https://support.microsoft.com/en-us/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
+- [Ajudar a proteger sua conta de email do Outlook.com](https://support.microsoft.com/office/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
     
 - [Proteger sua conta do Gmail com a verificação em duas etapas](https://go.microsoft.com/fwlink/?linkid=2015688&amp;clcid=0x409)
     
@@ -116,7 +116,7 @@ As contas administrativas que você usa para administrar seu ambiente do Microso
 ## <a name="4-raise-the-level-of-protection-against-malware-in-mail"></a>4: elevar o nível de proteção contra malware no email
 <a name="malware"> </a>
 
-Seu ambiente do Microsoft 365 inclui proteção contra malware, mas você pode aumentar essa proteção, bloqueando anexos com tipos de arquivo comumente usados para malware. Para resumir a proteção contra malware em email, veja um [pequeno vídeo de treinamento](https://support.office.com/article/02b5783a-eea0-42e8-8856-62440718c3f0)ou conclua as seguintes etapas:
+Seu ambiente do Microsoft 365 inclui proteção contra malware, mas você pode aumentar essa proteção, bloqueando anexos com tipos de arquivo comumente usados para malware. Para resumir a proteção contra malware em email, veja um [pequeno vídeo de treinamento](https://support.microsoft.com/office/02b5783a-eea0-42e8-8856-62440718c3f0)ou conclua as seguintes etapas:
   
 1. Acesse [https://protection.office.com](https://protection.office.com) e entre com suas credenciais de conta de administrador. 
     
@@ -143,7 +143,7 @@ Você pode se proteger contra o ransomware criando uma ou mais regras de fluxo d
     
 - Bloquear tipos de arquivo que podem conter ransomware ou outro código mal-intencionado. Começaremos com uma lista comum de executáveis (listados na tabela abaixo). Se sua organização usa qualquer um desses tipos de executáveis e você espera que eles sejam enviados por email, adicione-os à regra anterior (avisar os usuários).
     
-Para criar uma regra de transporte de email, exiba um [vídeo de treinamento curto](https://support.office.com/article/a9ecca03-42a6-4867-b9fd-38e3f6bb06ad)ou conclua as seguintes etapas:
+Para criar uma regra de transporte de email, exiba um [vídeo de treinamento curto](https://support.microsoft.com/office/a9ecca03-42a6-4867-b9fd-38e3f6bb06ad)ou conclua as seguintes etapas:
   
 1. Vá até o <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Centro de administração do Exchange</a>.
 
@@ -172,7 +172,7 @@ Para saber mais, confira:
   
 - [Como lidar com o ransomware](https://go.microsoft.com/fwlink/?linkid=2016501&amp;clcid=0x409)
     
-- [Restaurar o OneDrive](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15.aspx)
+- [Restaurar o OneDrive](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15)
     
 ## <a name="6-stop-auto-forwarding-for-email"></a>6: parar o encaminhamento automático para email
 <a name="forwarding"> </a>
@@ -231,7 +231,7 @@ Se o destinatário tiver o Outlook 2013 ou o Outlook 2016 e uma conta de email d
   
 Se o destinatário estiver usando outro cliente de email ou conta de email, como o Gmail ou o Yahoo, ele verá um link que permite que eles entrem em ler a mensagem de email ou solicitar uma senha de uso único para exibir a mensagem em um navegador da Web. Se os usuários não estiverem recebendo o email, peça que eles confiram a pasta spam ou lixo eletrônico. 
   
-Para obter mais informações, consulte [enviar, exibir e responder a mensagens criptografadas no Outlook para PC](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980).
+Para obter mais informações, consulte [enviar, exibir e responder a mensagens criptografadas no Outlook para PC](https://support.microsoft.com/office/eaa43495-9bbb-4fca-922a-df90dee51980).
   
 ## <a name="8-protect-your-email-from-phishing-attacks"></a>8. proteger seu email contra ataques de phishing
 <a name="phishing"> </a>
@@ -242,7 +242,7 @@ Recomendamos que você comece a usar essa proteção criando uma política para 
   
 ![Criar uma política anti-phishing do ATP](../../media/security-and-compliance-center.png)
   
-Para criar uma política anti-phishing do ATP, exiba um [vídeo de treinamento curto](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c)ou conclua as seguintes etapas:
+Para criar uma política anti-phishing do ATP, exiba um [vídeo de treinamento curto](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)ou conclua as seguintes etapas:
   
 1. Acesse [https://protection.office.com](https://protection.office.com). 
     
@@ -276,7 +276,7 @@ Para obter mais informações, consulte [set up Office 365 ATP anti-phishing Pol
 
 Pessoas costumam enviar, receber e compartilhar anexos, como documentos, apresentações, planilhas e muito mais. Nem sempre é fácil dizer se um anexo é seguro ou mal-intencionado apenas olhando uma mensagem de email. O Office 365 proteção avançada contra ameaças inclui proteção de anexo seguro de ATP, mas essa proteção não é ativada por padrão. Recomendamos que você crie uma nova regra para começar a usar essa proteção. Esta proteção estende-se aos arquivos no SharePoint, no OneDrive e no Microsoft Teams.
   
-Para criar uma política de anexo seguro de ATP, veja um [breve vídeo de treinamento](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)ou Complete as seguintes etapas:
+Para criar uma política de anexo seguro de ATP, veja um [breve vídeo de treinamento](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)ou Complete as seguintes etapas:
   
 1. Acesse [https://protection.office.com](https://protection.office.com) e entre com sua conta de administrador. 
     
@@ -315,7 +315,7 @@ Recomendamos que você faça o seguinte:
     
 - Adicione uma nova política direcionada a todos os destinatários em seu domínio.
     
-Para obter links seguros de ATP, exiba um [vídeo de treinamento curto](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa)ou conclua as seguintes etapas:
+Para obter links seguros de ATP, exiba um [vídeo de treinamento curto](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)ou conclua as seguintes etapas:
   
 1. Acesse [https://protection.office.com](https://protection.office.com) e entre com sua conta de administrador. 
     

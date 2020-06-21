@@ -20,22 +20,22 @@ search.appverid:
 - MOE150
 ms.assetid: 48b26596-9e5b-4e5a-a64f-7430eb2a1e45
 description: 'Saiba como se tornar o administrador e obter uma assinatura do Microsoft 365 para sua organização. '
-ms.openlocfilehash: 7d1e5673e6c995d007603d364b22ad81638d1782
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 5ecfde457cc04e28ef544701fe623a53a8e610b1
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399453"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780032"
 ---
 # <a name="become-the-admin-and-purchase-microsoft-365-for-your-organization"></a>Tornar-se o administrador e comprar o Microsoft 365 para sua organização
 
 A Microsoft facilita para as pessoas da sua organização se inscreverem e usarem ferramentas de produtividade e serviços sem terem que esperar que o departamento de TI faça a implantação formal.
   
-Sua organização pode permitir que as pessoas continuem a usar esses serviços "como são". Mas, se as pessoas se inscreveram para o Reuniões do Skype como um desses serviços, você pode destacar um administrador para atualizar e obter uma solução de reunião mais completa com o Skype for Business e os aplicativos do Office, espaço de armazenamento e compartilhamento, e muito mais.
+Your organization can let people continue to use these services "as is." But if people signed up for Skype Meetings as one of those services, you can assign an admin to upgrade and get a more complete meeting solution with Skype for Business and Office applications, file storage and sharing, and more.
   
 ## <a name="why-become-the-admin-and-buy-microsoft-365-for-your-organization"></a>Por que se tornar o administrador e comprar o Microsoft 365 para sua organização?
 
-Quando um funcionário se inscreve para o Reuniões do Skype com uma conta corporativa, ele não pode gerenciar o serviço. E ele recebe somente os recursos mais básicos: reuniões ilimitadas, mas apenas com no máximo dez participantes (após 60 dias, o número máximo de participantes é três). 
+When an employee signs up for Skype Meetings with their work account, they can't manage the service. And they get only the most basic features: they can have unlimited meetings but only with 10 or fewer participants (after 60 days, the maximum participants is three people). 
   
 Quando você configura um administrador para o serviço e adquire o Microsoft 365 para seus usuários, eles obtêm recursos mais avançados. E você obtém a capacidade de gerenciar os serviços, permitindo impor políticas e adicionar novos usuários.
   
@@ -87,7 +87,7 @@ Agora que você é o administrador, convém fazer o seguinte:
 |:-----|:-----|
 |Adicionar ou remover licenças  <br/> |Você pode [adicionar mais licenças](../../commerce/licenses/buy-licenses.md) para usuários que não estão usando o Microsoft 365 ainda ou [remover licenças de usuários](../manage/remove-licenses-from-users.md) que não deseja usar a assinatura do Microsoft 365 da sua organização.  <br/> |
 |Entre em contato com outras pessoas que já se inscreveram  <br/> |Chegue aos outros usuários e informe-os de que você está gerenciando sua assinatura do Microsoft 365 e que eles foram atualizados. [Siga estas etapas](../add-users/add-users.md) para ver uma lista de **Usuários Ativos** e os endereços de email.  <br/> |
-|Começar a usar o Microsoft 365  <br/> |Visite a [Central de informações do Office 365](https://support.office.com/learn/office365-for-business) e aprenda a entrar, verificar emails, compartilhar documentos e muito mais. Você e seus usuários podem usar este site para começar a usar o Microsoft 365.  <br/> |
+|Começar a usar o Microsoft 365  <br/> |Visite a [Central de informações do Office 365](https://support.microsoft.com/training) e aprenda a entrar, verificar emails, compartilhar documentos e muito mais. Você e seus usuários podem usar este site para começar a usar o Microsoft 365.  <br/> |
 |Gerenciar sua assinatura do Microsoft 365  <br/> |Visite [o centro de ajuda de administração do Microsoft 365](../admin-home.md) e aprenda tarefas administrativas comuns, como adicionar e remover usuários, redefinir senhas e configurar dispositivos móveis.  <br/> |
 
 ## <a name="still-need-help"></a>Ainda precisa de ajuda?

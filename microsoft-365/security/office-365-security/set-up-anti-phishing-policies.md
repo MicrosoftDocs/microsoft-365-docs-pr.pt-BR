@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: 4cf727cd7d232baac13f44e008a509934f55d895
-ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
+ms.openlocfilehash: a61123e3d90a4125bf5a8303654973e1b478fc4c
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689273"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754659"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -95,7 +95,7 @@ As seguintes configurações de spoof estão disponíveis em políticas anti-phi
     - Para o ponto de interrogação na foto, SPF ou DKIM do remetente são os mais importantes.
     - Para a marca via, confirme se o domínio na assinatura DKIM ou o endereço **de email from** corresponde (ou é um subdomínio de) no endereço de.
 
-  Para obter mais informações, consulte [identificar mensagens suspeitas no Outlook.com e no Outlook na Web](https://support.office.com/article/3d44102b-6ce3-4f7c-a359-b623bec82206)
+  Para obter mais informações, consulte [identificar mensagens suspeitas no Outlook.com e no Outlook na Web](https://support.microsoft.com/office/3d44102b-6ce3-4f7c-a359-b623bec82206)
 
 ## <a name="exclusive-settings-in-atp-anti-phishing-policies"></a>Configurações exclusivas nas políticas anti-phishing da ATP
 

@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
 description: Gerenciar um site de equipe isolado do SharePoint Online, adicionar novos usuários e grupos, remover usuários e grupos e criar uma subpasta documentos com permissões personalizadas.
-ms.openlocfilehash: 05e3cf742482d34c158e14253eed9d1b99c82995
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 43329aa72b3729200007441ce73838a7d6a60f55
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036627"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755373"
 ---
 # <a name="manage-an-isolated-sharepoint-online-team-site"></a>Gerenciar um site de equipe do SharePoint Online isolado
 
@@ -150,7 +150,7 @@ Em alguns casos, um subconjunto das pessoas que trabalham dentro do site isolado
   
 Para criar uma subpasta documentos com permissões personalizadas, faça o seguinte:
   
-1. Entre em uma conta que é membro do grupo de acesso de administradores para o site. Para obter ajuda, consulte [Como entrar no Microsoft 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Entre em uma conta que é membro do grupo de acesso de administradores para o site. Para obter ajuda, consulte [Como entrar no Microsoft 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. Vá para o site de equipe isolado e clique em **documentos**.
     
@@ -168,9 +168,9 @@ Para criar uma subpasta documentos com permissões personalizadas, faça o segui
     
 9. Clique em **conceder permissões > compartilhado com > avançado**.
     
-10. Na página permissões, clique em ** \<nome do site> membros da lista**.
+10. Na página permissões, clique em ** \<site name> Membros na lista**.
     
-11. Na página ** \<nome do site> Membros** , selecione a marca de seleção ao lado do grupo de acesso de membros do site, clique em **ações**, clique em **remover usuários do grupo**e clique em **OK**.
+11. Na página ** \<site name> Membros** , selecione a marca de seleção ao lado do grupo de acesso de membros do site, clique em **ações**, clique em **remover usuários do grupo**e clique em **OK**.
     
 12. Para adicionar membros específicos a essa subpasta, clique em **novo > adicionar usuários**.
     
@@ -178,9 +178,9 @@ Para criar uma subpasta documentos com permissões personalizadas, faça o segui
     
 14. Atualize a página da Web para ver os novos resultados.
     
-15. Em **grupos** na navegação à esquerda, clique no grupo ** \<nome do site> visitantes** e use as etapas 11-14 para especificar o conjunto de contas de usuário que podem exibir os arquivos na subpasta (conforme necessário).
+15. Em **grupos** no painel de navegação à esquerda, clique no grupo ** \<site name> visitantes** e use as etapas 11-14 para especificar o conjunto de contas de usuário que podem exibir os arquivos na subpasta (conforme necessário).
     
-16. Em **grupos** na navegação à esquerda, clique no grupo ** \<nome do site> proprietários** e use as etapas 11-14 para especificar o conjunto de contas de usuário que podem administrar as permissões na subpasta (conforme necessário).
+16. Em **grupos** no painel de navegação à esquerda, clique no grupo ** \<site name> proprietários** e use as etapas 11-14 para especificar o conjunto de contas de usuário que podem administrar as permissões na subpasta (conforme necessário).
     
 17. Feche a guia **pessoas e grupos** no navegador.
     

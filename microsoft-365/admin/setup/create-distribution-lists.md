@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b1ffe755-59e5-4369-826d-825f145a8400
 description: Envie um email para um grupo de pessoas sem ter que digitar o nome de um destinatário individual criando distribuição (lista).
-ms.openlocfilehash: cf06d408363a71e43f1a850bf108d667a141af3a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: eaa1051c83f64a6a20d3f27eb17f2a0fef5f2b12
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398961"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779888"
 ---
 # <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Criar grupos de distribuição no centro de administração do Microsoft 365
   
@@ -69,7 +69,7 @@ Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/
     
 6. Para adicionar usuários ao grupo de distribuição, consulte [Adicionar um usuário ou contato a um grupo de distribuição](../email/add-user-or-contact-to-distribution-list.md).
     
-Confira como usar o grupo no Outlook 2016 e no Outlook na Web no tópico [usar grupos de contatos (anteriormente listas de distribuição) no Outlook](https://support.office.com/article/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39.aspx) . 
+Confira como usar o grupo no Outlook 2016 e no Outlook na Web no tópico [usar grupos de contatos (anteriormente listas de distribuição) no Outlook](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39) . 
   
 Confira [problemas no grupo de distribuição](https://docs.microsoft.com/office365/troubleshoot/groups/distribution-list-issues) para obter ajuda com problemas no grupo de distribuição. 
   

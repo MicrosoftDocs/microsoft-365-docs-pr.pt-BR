@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como implantar suplementos para usuários e grupos em sua organização usando a implantação centralizada no centro de administração.
-ms.openlocfilehash: 9d6a3da00445dd5cde26c80fe63edd81f745ce63
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 25a4cd4147f6388cdbd8982eb10624e7b7e8f6cb
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678631"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780116"
 ---
 # <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Gerenciar a implantação de suplementos no Centro de administração do Microsoft 365
 
@@ -36,7 +36,7 @@ ms.locfileid: "44678631"
 
 ::: moniker-end
 
-Os suplementos do Office ajudam você a personalizar seus documentos e simplificar a forma como você acessa as informações na Web (Confira [começar a usar o suplemento do Office](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx)). Como administrador, você pode implantar suplementos do Office para os usuários em sua organização. Você pode fazer isso usando o recurso de implantação centralizado no centro de administração do Microsoft 365.
+Os suplementos do Office ajudam você a personalizar seus documentos e simplificar a forma como você acessa as informações na Web (Confira [começar a usar o suplemento do Office](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)). Como administrador, você pode implantar suplementos do Office para os usuários em sua organização. Você pode fazer isso usando o recurso de implantação centralizado no centro de administração do Microsoft 365.
   
 A implantação centralizada é a maneira recomendada e mais rica de recursos para a maioria dos administradores implantar suplementos para usuários e grupos em uma organização. Para obter mais informações sobre como determinar se sua organização pode dar suporte à implantação centralizada, consulte [determinar se a implantação centralizada de suplementos funciona para sua organização](centralized-deployment-of-add-ins.md).
   
@@ -83,7 +83,7 @@ Antes de começar, confira [determinar se a implantação centralizada de suplem
 7. Um tique verde será exibido quando o suplemento tiver sido implantado. Você pode seguir as instruções na página para testar se o suplemento foi implantado com êxito.
 
 > [!NOTE]
-> Talvez os usuários precisem reiniciar o Office para ver o ícone do suplemento exibido na faixa de opções do aplicativo. Os suplementos do Outlook podem levar até 12 horas para serem exibidos nas faixas de opções dos usuários.
+> Talvez os usuários precisem reiniciar o Office para ver o ícone do suplemento exibido na faixa de opções do aplicativo. Os suplementos do Outlook podem levar até 24 horas para serem exibidos nas faixas de opções dos usuários.
     
 8. Quando terminar, selecione **Avançar**. Se você implantou para si mesmo, é possível selecionar **alterar quem tem acesso ao suplemento** para implantar para mais usuários.
 
@@ -97,7 +97,7 @@ Se você implantou o suplemento para membros da sua organização que não é a 
 
 Os administradores podem atribuir um suplemento a todos ou a usuários e grupos específicos. Cada opção tem implicações:
   
-- **Todos**: como o nome sugere, essa opção atribui o suplemento a todos os usuários no locatário. Use essa opção com cautela e apenas para suplementos que sejam realmente universais para a sua organização. 
+- **Everyone**: As the name implies, this option assigns the add-in to every user in the tenant. Use this option sparingly and only for add-ins that are truly universal to your organization. 
     
 - **Usuários**: se você atribuir um suplemento a um usuário individual, para implantar o suplemento em um novo usuário, será necessário primeiro adicionar esse usuário. O mesmo se aplica à remoção de usuários. 
     
@@ -224,7 +224,7 @@ Ser compatível com o RGPD para menores que você precisa para garantir que uma 
 |Office 2016 para Windows  <br/> |16.0.4672.1000  <br/> |
 |Office 2013 para Windows  <br/> |15.0.5023.1000  <br/> |
 |Office 2016 para Mac  <br/> |16.11.18020200  <br/> |
-|Office para a Web  <br/> |Não disponível  <br/> |
+|Office para a Web  <br/> |N/D  <br/> |
    
  **Para o Outlook**: 
   
@@ -236,7 +236,7 @@ Ser compatível com o RGPD para menores que você precisa para garantir que uma 
 |Office 2016 para Mac  <br/> |16.0.9318.1000  <br/> |
 |Outlook Mobile para iOS  <br/> |2.75.0  <br/> |
 |Outlook Mobile para Android  <br/> |2.2.145  <br/> |
-|Outlook.com  <br/> |Não disponível  <br/> |
+|Outlook.com  <br/> |N/D  <br/> |
    
  **Requisitos do Office 2013**
   
@@ -252,7 +252,7 @@ O Word, o Excel e o PowerPoint 2013 para Windows oferecerão suporte às mesmas 
     
 ## <a name="end-user-experience-with-add-ins"></a>Experiência do usuário final com suplementos
 
-Agora que você implantou o suplemento, os usuários finais podem começar a usá-lo em seus aplicativos do Office (Confira [começar a usar o suplemento do Office](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx)). O suplemento será exibido em todas as plataformas compatíveis com o suplemento.
+Agora que você implantou o suplemento, os usuários finais podem começar a usá-lo em seus aplicativos do Office (Confira [começar a usar o suplemento do Office](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)). O suplemento será exibido em todas as plataformas compatíveis com o suplemento.
   
 Se o suplemento suportar comandos de suplemento, os comandos serão exibidos na faixa de opções do Office. No exemplo a seguir, a **citação de pesquisa** de comando aparece para o suplemento de **citações** . 
 

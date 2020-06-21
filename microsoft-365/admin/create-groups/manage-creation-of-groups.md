@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Saiba como controlar quais usuários podem criar grupos do Microsoft 365.
-ms.openlocfilehash: f3de4ac0856f1281151e6d1c686d90559a5e8544
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b64e7ac96c5a0e38583d00f8a61bd47c5304cf45
+ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387988"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761669"
 ---
 # <a name="manage-who-can-create-groups"></a>Gerenciar quem pode criar grupos
 
@@ -45,14 +45,12 @@ Este artigo explica como desabilitar a capacidade de criar grupos em todos os se
 - Microsoft Teams
 
 - Microsoft Stream
-    
-- StaffHub
-    
+
 - Planner
     
 - PowerBI
 
-- Roteiro
+- Projeto para a Web e o mapa
     
 Você pode restringir a criação de grupos do Microsoft 365 aos membros de um determinado grupo de segurança. Para configurar isso, use o Windows PowerShell. Este artigo orienta você pelas etapas necessárias.
   
@@ -125,7 +123,7 @@ Substitua *\<SecurityGroupName\>* pelo nome do grupo de segurança que você cri
 
 `$GroupName = "Group Creators"`
 
-Salve o arquivo como GroupCreators. ps1. 
+Salve o arquivo como GroupCreators.ps1. 
 
 Na janela do PowerShell, navegue até o local onde você salvou o arquivo (digite "CD <FileLocation> ").
 
@@ -173,7 +171,7 @@ Se no futuro você quiser alterar o grupo de segurança usado, poderá executar 
 
 Se você deseja desativar a restrição de criação de grupo e novamente permitir que todos os usuários criem grupos, defina $GroupName como "" e $AllowGroupCreation como "true" e execute novamente o script.
     
-## <a name="step-4-verify-that-it-works"></a>Etapa 4: verificar se funciona
+## <a name="step-3-verify-that-it-works"></a>Etapa 3: Verifique se funciona
 
 As alterações podem levar trinta minutos ou mais para entrar em vigor. Você pode verificar as novas configurações fazendo o seguinte:
 

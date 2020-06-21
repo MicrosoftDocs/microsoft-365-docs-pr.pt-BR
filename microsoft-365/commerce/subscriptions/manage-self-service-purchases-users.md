@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Os usuários podem aprender a gerenciar suas compras de autoatendimento.
-ms.openlocfilehash: e8cb319b482ef49090544916b5e76a02083ebf06
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 7513fc67ab80bcffe6e6159bb13db207be16d0e9
+ms.sourcegitcommit: 956dd3f87adb4e6173517550a662c3bacc2d2d79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403253"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44741663"
 ---
 # <a name="manage-self-service-purchases-users"></a>Gerenciar compras de autoatendimento (Usuários)
 
@@ -105,9 +105,9 @@ Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105.
 
 ### <a name="update-an-existing-payment-method"></a>Atualizar uma forma de pagamento existente
 
-1. No centro de administração, vá para a página **cobrança**de  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">contas & pagamentos</a> .
+1. No centro de administração, vá para a página **cobrança**de  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">contas & pagamentos</a> .
 
-2. Para editar um método de pagamento existente, escolha-o na lista.
+2. Na guia **métodos de pagamento** , escolha um método de pagamento existente na lista.
 
 3. No painel direito, escolha **Editar**. Você pode alterar o código de segurança, a data de vencimento, o nome do cartão e o endereço.
 
@@ -115,20 +115,20 @@ Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105.
 
 ### <a name="add-a-new-payment-method"></a>Adicionar uma nova forma de pagamento
 
-1. No centro de administração, vá para a página **cobrança**de  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">contas & pagamentos</a> .
+1. No centro de administração, vá para a página **cobrança**de  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">contas & pagamentos</a> .
 
-2. Escolha **Adicionar um método de pagamento**.
+2. Na guia **métodos de pagamento** , escolha **Adicionar um método de pagamento**.
 
 3. No painel **Adicionar um método de pagamento** , insira as informações para o novo método de pagamento e, em seguida, escolha **Adicionar**.
 
 ## <a name="view-your-invoices"></a>Exibir suas faturas
 
-1. No centro de administração, vá para a página **cobranças**de faturas  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& pagamentos</a> .
+1. No centro de administração, vá para a página **cobranças**de faturas  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& pagamentos</a> .
 
-2. Em **faturas** , selecione a fatura que você deseja exibir.
+2. Na guia **faturas** , selecione a fatura que você deseja exibir. Se nenhuma fatura estiver visível, altere os **últimos 3 meses** para os **últimos seis meses** ou **especifique um intervalo de datas**.
 
 ## <a name="need-help-contact-us"></a>Precisa de ajuda? Entre em contato conosco.
 
 Para perguntas comuns sobre compras de autoatendimento, consulte [perguntas frequentes sobre compras de autoatendimento](self-service-purchase-faq.md).
 
-Se você tiver dúvidas ou precisar de ajuda com compras de autoatendimento, [entre em contato com o suporte](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+Se você tiver dúvidas ou precisar de ajuda com compras de autoatendimento, [entre em contato com o suporte](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).

@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: Use este guia de implantação passo a passo para criar e configurar um site de equipe do SharePoint Online isolado no Microsoft Office 365.
-ms.openlocfilehash: 772a9e5ea08871857a70cc840e377046d459a314
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 05fdbcfff792805708bfe0b8027e955d54a1ec6f
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036446"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755219"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>Implantar um site de equipe do SharePoint Online isolado
 
@@ -161,7 +161,7 @@ Nesta fase, você cria o site do SharePoint Online isolado e configura as permis
   
 Primeiro, crie o site de equipe do SharePoint Online com estas etapas.
   
-1. Entre no centro de administração do Microsoft 365 com uma conta que também será usada para administrar o site de equipe do SharePoint Online (um administrador do SharePoint Online). Para obter ajuda, consulte [Onde entrar no Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Entre no centro de administração do Microsoft 365 com uma conta que também será usada para administrar o site de equipe do SharePoint Online (um administrador do SharePoint Online). Para obter ajuda, consulte [Onde entrar no Office 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
 2. No centro de administração do Microsoft 365, em **centros de administração**, clique em **SharePoint**.
 
@@ -191,7 +191,7 @@ Em seguida, no novo site de equipe do SharePoint Online, configure as permissõe
     
 6. No painel **permissões** , clique em **configurações de permissões avançadas**.
     
-7. Na guia **permissões** do navegador, clique em ** \<nome do site> Membros** na lista.
+7. Na guia **permissões** do navegador, clique em ** \<site name> Membros** na lista.
     
 8. Em **Pessoas e Grupos**, clique em **Novo**.
     
@@ -199,7 +199,7 @@ Em seguida, no novo site de equipe do SharePoint Online, configure as permissõe
     
 10. Clique no botão Voltar de seu navegador.
     
-11. Clique em ** \<nome do site> proprietários** da lista.
+11. Clique em ** \<site name> proprietários** na lista.
     
 12. Em **Pessoas e Grupos**, clique em **Novo**.
     
@@ -207,7 +207,7 @@ Em seguida, no novo site de equipe do SharePoint Online, configure as permissõe
     
 14. Clique no botão Voltar de seu navegador.
     
-15. Clique em ** \<nome do site> visitantes** na lista.
+15. Clique em ** \<site name> visitantes** na lista.
     
 16. Em **Pessoas e Grupos**, clique em **Novo**.
     
@@ -217,11 +217,11 @@ Em seguida, no novo site de equipe do SharePoint Online, configure as permissõe
     
 Os resultados dessas configurações de permissão são:
   
-- O grupo ** \<nome do site> proprietários** do SharePoint contém o grupo de acesso de administradores de site, em que todos os membros têm o nível de permissão **controle total** .
+- O grupo ** \<site name> proprietários** do SharePoint contém o grupo de acesso de administradores de site, em que todos os membros têm o nível de permissão **controle total** .
     
-- O ** \<nome do site>** grupo de membros do SharePoint contém o grupo de acesso de membros do site, em que todos os membros têm o nível de permissão **Editar** .
+- O grupo ** \<site name> Membros** do SharePoint contém o grupo de acesso de membros do site, em que todos os membros têm o nível de permissão **Editar** .
     
-- O ** \<nome do site> grupo visitantes** do SharePoint contém o grupo de acesso visualizadores do site, em que todos os membros têm o nível de permissão de **leitura** .
+- O grupo ** \<site name> visitantes** do SharePoint contém o grupo de acesso visualizadores de sites, em que todos os membros têm o nível de permissão de **leitura** .
     
 - A capacidade de os membros de convidar outros membros ou de não membros solicitarem o acesso está desabilitada.
     

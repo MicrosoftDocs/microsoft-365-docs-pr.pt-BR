@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Decida quais recursos e o conteúdo de suas novidades são exibidos ou ocultos dos usuários finais no Office What ' s New Management for Office Desktop apps.
-ms.openlocfilehash: d4d4ff24896555a4af0ae4a936840c9935d73813
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 7b9522a901078d6e235e295c184fec65c251338b
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678597"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717170"
 ---
 # <a name="show-or-hide-new-features-using-whats-new-management"></a>Mostrar ou ocultar novos recursos usando o Gerenciamento de Novidades
 
@@ -60,7 +60,8 @@ Novos recursos aparecem no Office o que há de novo gerenciamento com base neste
 |:-----|:-----|:-----|
 |**Canal** <br/> |**Na visualização de gerenciamento** <br/> |**Executar ação** <br/> |
 |**Current** <br/> |15 do mês  <br/> |1-3 semanas antes da versão mensal <br/> |
-|**Empresa semestral (visualização)** <br/> |1º de setembro e 1 de março <br/> | duas semanas antes da versão principal que traz novos recursos
+|**Empresarial Mensal** <br/> |primeiro dia do mês  <br/> |duas semanas antes da versão principal que traz novos recursos |
+|**Empresa semestral (visualização)** <br/> |1º de setembro e 1 de março <br/> | duas semanas antes da versão principal que traz novos recursos|
 |**Empresarial semestral** <br/> |1º de Janeiro e 1 de julho <br/> | duas semanas antes da versão principal que traz novos recursos<br/> |
 
 Para obter mais informações sobre cronogramas de atualização de canal, consulte [Update History for Microsoft 365 apps (listado por Date)](https://docs.microsoft.com/officeupdates/update-history-microsoft365-apps-by-date).

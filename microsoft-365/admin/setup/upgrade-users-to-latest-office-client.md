@@ -20,12 +20,12 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Saiba como atualizar seus usuários para o cliente do Office mais recente.
-ms.openlocfilehash: 22fe8e12e4aff4f9afe52e913ad57d37866dbb95
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fb2513b2112dd8427222d43d14184895df3b594b
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398805"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44778872"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Atualize seu Microsoft 365 for Business Users para o cliente Office mais recente
 
@@ -45,7 +45,7 @@ Confira o [roteiro de fim do suporte do Office 2010](https://docs.microsoft.com/
   
  Se você é o administrador responsável pela assinatura do Microsoft 365 for Business em sua organização, você está no lugar certo. Os administradores normalmente são responsáveis por tarefas como gerenciamento de usuários, redefinição de senhas, gerenciamento de instalações do Office e adição ou remoção de licenças.
 
- Se você não for um administrador e tiver um produto [da família Microsoft 365](https://support.office.com/article/28cbc8cf-1332-4f04-9123-9b660abb629e.aspx#BKMK_OfficePlans) , consulte [como](https://support.office.com/article/ee68f6cf-422f-464a-82ec-385f65391350.aspx) faço para atualizar o Office para obter informações sobre como atualizar sua versão de uso inicial do Office.
+ Se você não for um administrador e tiver um produto [da família Microsoft 365](https://support.microsoft.com/office/28cbc8cf-1332-4f04-9123-9b660abb629e#BKMK_OfficePlans) , consulte [como](https://support.microsoft.com/office/ee68f6cf-422f-464a-82ec-385f65391350) faço para atualizar o Office para obter informações sobre como atualizar sua versão de uso inicial do Office.
 
 ## <a name="get-ready-to-upgrade"></a>Prepare-se para atualizar
 
@@ -102,9 +102,9 @@ Recomendamos que você tenha suplementos de terceiros, entre em contato com o fa
 
 ### <a name="select-the-version-of-office-you-want-to-uninstall"></a>Selecione a versão do Office que você deseja desinstalar
 
-- [De um computador](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx)
+- [De um computador](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8)
 
-- [De um Mac](https://support.office.com/article/eefa1199-5b58-43af-8a3d-b73dc1a8cae3.aspx)
+- [De um Mac](https://support.microsoft.com/office/eefa1199-5b58-43af-8a3d-b73dc1a8cae3)
   
 ### <a name="known-issues-trying-to-reinstall-older-versions-of-office-after-an-uninstall"></a>Problemas conhecidos ao tentar reinstalar versões mais antigas do Office após uma desinstalação
 
@@ -114,7 +114,7 @@ Recomendamos que você tenha suplementos de terceiros, entre em contato com o fa
 
  **Assinaturas sem suporte** Se sua cópia do Office foi obtida por meio de assinaturas descontinuadas, como o Office 365 Small Business Premium ou o Office 365 porte médio, você não poderá instalar uma versão mais antiga do Office, a menos que tenha a chave de produto que acompanha a sua assinatura.
 
-Se preferir instalar sua versão anterior do Office lado a lado com a versão mais recente, você poderá ver uma lista de versões em que isso é suportado, [instalar e usar versões diferentes do Office no mesmo computador](https://support.office.com/article/6ebb44ce-18a3-43f9-a187-b78c513788bf.aspx). Uma instalação lado a lado pode ser a escolha certa para você, se, por exemplo, você tiver instalado suplementos de terceiros que esteja usando com a versão mais antiga do Office e ainda não tiver certeza de que eles são compatíveis com a versão mais recente.
+Se preferir instalar sua versão anterior do Office lado a lado com a versão mais recente, você poderá ver uma lista de versões em que isso é suportado, [instalar e usar versões diferentes do Office no mesmo computador](https://support.microsoft.com/office/6ebb44ce-18a3-43f9-a187-b78c513788bf). Uma instalação lado a lado pode ser a escolha certa para você, se, por exemplo, você tiver instalado suplementos de terceiros que esteja usando com a versão mais antiga do Office e ainda não tiver certeza de que eles são compatíveis com a versão mais recente.
 
 ## <a name="step-4---assign-office-licenses-to-users"></a>Etapa 4: atribuir licenças do Office aos usuários
 
@@ -122,7 +122,7 @@ Se você ainda não tiver feito isso, atribua licenças a qualquer usuário em s
   
 ## <a name="step-5---install-office"></a>Etapa 5: instalar o Office
 
-Depois de verificar se os usuários que você deseja atualizar têm licenças, a etapa final é instalar o Office, confira [baixar e instalar ou reinstalar o Office em seu PC ou Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx).
+Depois de verificar se os usuários que você deseja atualizar têm licenças, a etapa final é instalar o Office, confira [baixar e instalar ou reinstalar o Office em seu PC ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658).
   
 > [!TIP]
 > Se você não quiser que seus usuários instalem o Office, consulte [Manage software download Settings in Office 365](https://docs.microsoft.com/DeployOffice/manage-software-download-settings-office-365). Você pode usar a [ferramenta de implantação do Office](https://docs.microsoft.com/DeployOffice/overview-office-deployment-tool) para baixar o software do Office para sua rede local e implantar o Office usando o método de implantação de software que você usa normalmente.

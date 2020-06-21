@@ -1,5 +1,5 @@
 ---
-title: Configurar uma caixa de correio compartilhada
+title: Definir configurações de caixa de correio compartilhada
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,14 +21,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Depois de criar uma caixa de correio compartilhada, convém definir algumas configurações para seus usuários, como encaminhamento de email e respostas automáticas. Posteriormente, talvez você queira alterar outras configurações, como os membros ou o nome da caixa de correio.
-ms.openlocfilehash: 7c88ffa3276f40ea983f9060658f4e4091e36280
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3bde856f4db80192f5ed058a18c7942aa6a724b2
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400143"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739207"
 ---
-# <a name="configure-a-shared-mailbox"></a>Configurar uma caixa de correio compartilhada
+# <a name="configure-shared-mailbox-settings"></a>Definir configurações de caixa de correio compartilhada
 
 Depois de [criar uma caixa de correio compartilhada](create-a-shared-mailbox.md), convém definir algumas configurações para os usuários de caixa de correio, como encaminhamento de email e respostas automáticas. Posteriormente, talvez você queira alterar outras configurações, como o nome da caixa de correio, membros ou permissões de membro. 
 
@@ -118,7 +118,7 @@ Você não precisa atribuir uma licença à caixa de correio compartilhada para 
 
 ## <a name="allow-everyone-to-see-the-sent-email-the-replies"></a>Permitir que todos vejam os Emails enviados (as respostas)
 
-Por padrão, as mensagens enviadas da caixa de correio compartilhada não são salvas na sua pasta Itens enviados. Em vez disso, elas são salvas na pasta Itens enviados da pessoa que enviou a mensagem.
+By default, messages sent from the shared mailbox aren't saved to the Sent Items folder of the shared mailbox. Instead, they are saved to the Sent Items folder of the person who sent the message.
 
 Se quiser permitir que todos vejam os emails enviados, no centro de administração, edite as configurações da caixa de correio compartilhada e selecione Editar **itens enviados** \> **Edit**.
 

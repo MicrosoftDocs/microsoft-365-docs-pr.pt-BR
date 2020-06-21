@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá sobre o recurso de anexos seguros de ATP para o Office 365 e como obter o recurso para sua assinatura.
-ms.openlocfilehash: 36993454a128d23ba388c24321a249f3be40d3d6
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 77842596b460e2d96ccde79e9c8c6ef3d1f8985a
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616773"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754755"
 ---
 # <a name="atp-safe-attachments"></a>Anexos Seguros da ATP
 
@@ -41,7 +41,7 @@ Em seguida, verifique se as políticas de anexos seguros de ATP estão definidas
 
 - As políticas de anexos seguros de ATP estão configuradas. (Confira [Configurar políticas de anexos seguros de ATP no Office 365](set-up-atp-safe-attachments-policies.md).)
 
-- Os usuários entraram usando sua conta corporativa ou de estudante. (Consulte [entrar no Office ou no office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426).)
+- Os usuários entraram usando sua conta corporativa ou de estudante. (Consulte [entrar no Office](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426).)
 
 Para definir (ou editar) políticas ATP, você deve ter uma função apropriada atribuída. Alguns exemplos são descritos na tabela a seguir:
 

@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: Saiba mais sobre domínios encontrando respostas para suas perguntas em perguntas frequentes.
-ms.openlocfilehash: c82d5d01d64ad01f68d0c1ba73860511aa1718aa
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: a52513130f9bbbf7c4cd25d4c4827e833700d992
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398901"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739159"
 ---
 # <a name="domains-faq"></a>Perguntas frequentes sobre domínios
 
@@ -439,7 +439,7 @@ Você pode, mas há limitações:
     
 4. Opcionalmente, desbloqueie o servidor de email existente
     
-    1. O Office 365 usa o proteção do Exchange Online (EOP) para proteção contra spam. Se o EOP detectar um alto volume de spam sendo encaminhado pelo servidor de email atual, ele poderá bloqueá-lo, o que impediria o encaminhamento de trabalho. Se você estiver confiante com a proteção contra spam que seu outro provedor de email usa, poderá listar seus servidores no Office 365. No entanto, isso também permitirá que qualquer spam que chega ao servidor original seja enviado às caixas de correio do Office 365, e você não poderá avaliar como o Office 365 impede spam.
+    1. O Office 365 usa o proteção do Exchange Online (EOP) para proteção contra spam. Se o EOP detectar um alto volume de spam sendo encaminhado pelo servidor de email atual, ele poderá bloqueá-lo, o que impediria o encaminhamento de trabalho. Se você estiver confiante com a proteção contra spam que seu outro provedor de email usa, você pode adicionar o servidor a uma lista de permissões no Office 365. No entanto, isso também permitirá que qualquer spam que chega ao servidor original seja enviado às caixas de correio do Office 365, e você não poderá avaliar como o Office 365 impede spam.
     
     2. Vá para o centro de administração do Exchange (Eat).
         

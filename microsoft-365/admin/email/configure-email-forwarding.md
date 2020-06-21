@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Configurar o encaminhamento de emails para uma ou mais contas de email usando o office365.
-ms.openlocfilehash: 3ce82d514e1342ac6110ca74106477e3cf7820cb
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: f6c177ba37cf2b8ce3966732adbe8428d9b6179e
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432296"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780248"
 ---
 # <a name="configure-email-forwarding"></a>Configurar encaminhamento de email
 
@@ -61,7 +61,7 @@ Você deve ser um administrador do Exchange ou administrador global no Microsoft
   
 4. Na página encaminhamento de email, selecione **encaminhar todos os emails enviados para esta caixa de correio**, insira o endereço de encaminhamento e escolha se deseja manter uma cópia dos emails encaminhados. Se você não vir essa opção, certifique-se de que uma licença é atribuída à conta de usuário. Selecione **Salvar alterações**.
     
-    **Para encaminhar para vários endereços de email**, você pode solicitar ao usuário que configure uma regra no Outlook para encaminhar para os endereços. Para saber mais, confira [usar regras para encaminhar mensagens automaticamente](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746). 
+    **Para encaminhar para vários endereços de email**, você pode solicitar ao usuário que configure uma regra no Outlook para encaminhar para os endereços. Para saber mais, confira [usar regras para encaminhar mensagens automaticamente](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746). 
     
      Ou, no centro de administração, [crie um grupo de distribuição](../setup/create-distribution-lists.md), [adicione os endereços a ele](add-user-or-contact-to-distribution-list.md)e configure o encaminhamento para apontar para a DL usando as instruções neste artigo.
     
@@ -79,7 +79,7 @@ Você deve ser um administrador do Exchange ou administrador global no Microsoft
 
 4. Na página encaminhamento de email, **defina a opção Ativar, digite**o endereço de encaminhamento e escolha se deseja manter uma cópia dos emails encaminhados. Se você não vir essa opção, certifique-se de que uma licença é atribuída à conta de usuário. Selecione **Salvar**.
     
-    **Para encaminhar para vários endereços de email**, você pode solicitar ao usuário que configure uma regra no Outlook para encaminhar para os endereços. Para saber mais, confira [usar regras para encaminhar mensagens automaticamente](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746). 
+    **Para encaminhar para vários endereços de email**, você pode solicitar ao usuário que configure uma regra no Outlook para encaminhar para os endereços. Para saber mais, confira [usar regras para encaminhar mensagens automaticamente](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746). 
     
      Ou, no centro de administração, [crie um grupo de distribuição](../setup/create-distribution-lists.md), [adicione os endereços a ele](add-user-or-contact-to-distribution-list.md)e configure o encaminhamento para apontar para a DL usando as instruções neste artigo.
     
@@ -97,7 +97,7 @@ Você deve ser um administrador do Exchange ou administrador global no Microsoft
 
 4. Na página encaminhamento de email, **defina a opção Ativar, digite**o endereço de encaminhamento e escolha se deseja manter uma cópia dos emails encaminhados. Se você não vir essa opção, certifique-se de que uma licença é atribuída à conta de usuário. Selecione **Salvar**.
     
-    **Para encaminhar para vários endereços de email**, você pode solicitar ao usuário que configure uma regra no Outlook para encaminhar para os endereços. Para saber mais, confira [usar regras para encaminhar mensagens automaticamente](https://support.office.com/article/use-rules-to-automatically-forward-messages-45aa9664-4911-4f96-9663-ece42816d746). 
+    **Para encaminhar para vários endereços de email**, você pode solicitar ao usuário que configure uma regra no Outlook para encaminhar para os endereços. Para saber mais, confira [usar regras para encaminhar mensagens automaticamente](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746). 
     
      Ou, no centro de administração, [crie um grupo de distribuição](../setup/create-distribution-lists.md), [adicione os endereços a ele](add-user-or-contact-to-distribution-list.md)e configure o encaminhamento para apontar para a DL usando as instruções neste artigo.
     

@@ -21,12 +21,12 @@ search.appverid:
 - BSA160
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Saiba como adicionar um membro a um grupo, remover membro do grupo e gerenciar o status do proprietário do grupo no centro de administração do Microsoft 365.
-ms.openlocfilehash: 7a223d6387ca7d261d959c6803a484bc29cdd4b1
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: f873d4f4a20804ada3222178b59c4e1cc8ddb6fb
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431588"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780476"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Adicionar ou remover membros dos grupos do Microsoft 365 usando o centro de administração
 
@@ -37,10 +37,10 @@ ms.locfileid: "44431588"
 
 ::: moniker-end
 
-No Microsoft 365, os membros do grupo normalmente criam seus próprios grupos, adicionam-se a grupos que desejam participar ou são convidados por proprietários de grupo. Se a propriedade de grupo for alterada ou se você determinar que um membro deve ser adicionado ou removido, como administrador, você também pode fazer essa alteração. Somente um administrador global, administrador do Exchange, administrador de grupos ou administrador de usuários pode fazer essas alterações. [O que é um grupo do Microsoft 365?](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
+No Microsoft 365, os membros do grupo normalmente criam seus próprios grupos, adicionam-se a grupos que desejam participar ou são convidados por proprietários de grupo. Se a propriedade de grupo for alterada ou se você determinar que um membro deve ser adicionado ou removido, como administrador, você também pode fazer essa alteração. Somente um administrador global, administrador do Exchange, administrador de grupos ou administrador de usuários pode fazer essas alterações. [O que é um grupo do Microsoft 365?](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 > [!TIP]
-> Se você não for um administrador, poderá [Adicionar ou remover membros usando o Outlook](https://support.office.com/article/3b650f4a-5c9b-4f94-a1bb-0cca4b1091de.aspx).
+> Se você não for um administrador, poderá [Adicionar ou remover membros usando o Outlook](https://support.microsoft.com/office/3b650f4a-5c9b-4f94-a1bb-0cca4b1091de).
   
 ## <a name="add-a-member-to-a-group-in-the-admin-center"></a>Adicionar um membro a um grupo no centro de administração
 
@@ -179,7 +179,7 @@ No Microsoft 365, os membros do grupo normalmente criam seus próprios grupos, a
 
 ## <a name="manage-group-owner-status"></a>Gerenciar o status do proprietário do grupo
 
-Por padrão, a pessoa que criou o grupo é o proprietário dele. Muitas vezes, um grupo pode ter vários proprietários, para dar suporte de backup ou por outros motivos. Os membros podem ser promovidos ao status de proprietários, e os proprietários podem ser rebaixados ao status de membros.
+By default, the person who created the group is the group owner. Often a group will have multiple owners for backup support or other reasons. Members can be promoted to owner status and owners can be demoted to member status.
   
 ### <a name="promote-a-member-to-owner-status-in-the-admin-center"></a>Promover um membro ao status do proprietário no centro de administração
 
@@ -281,13 +281,13 @@ Por padrão, a pessoa que criou o grupo é o proprietário dele. Muitas vezes, u
 
 - Para adicionar centenas ou milhares de usuários a grupos, use o [Add-UnifiedGroupLinks](https://go.microsoft.com/fwlink/p/?LinkId=616191).
 
-- [Atribuir um novo proprietário a um grupo órfão](https://support.microsoft.com/en-us/office/assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)
+- [Atribuir um novo proprietário a um grupo órfão](https://support.microsoft.com/office/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
 ## <a name="articles-about-managing-groups"></a>Artigos sobre o gerenciamento de grupos
 
 - [Atualizar listas de distribuição para grupos do Microsoft 365 no Outlook](../manage/upgrade-distribution-lists.md)
 
-- [Por que você deve atualizar suas listas de distribuição para grupos no Outlook](https://support.microsoft.com/en-us/office/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
+- [Por que você deve atualizar suas listas de distribuição para grupos no Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
 
 - [Gerenciar o acesso de convidados nos grupos do Microsoft 365](manage-guest-access-in-groups.md)
 

@@ -24,23 +24,20 @@ search.appverid:
 - BEA160
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: Saiba como verificar quais assinaturas sua organização acessará a página assinaturas.
-ms.openlocfilehash: 438d9932b2e0dcce0e75e0d979908cdab5979f13
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fff76f1a9ac127d061460767a41941f4daf2ea32
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386740"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780500"
 ---
 # <a name="what-subscription-do-i-have"></a>Qual assinatura eu tenho?
 
 Se você é um administrador, é possível verificar quais assinaturas sua organização acessará o centro de administração.
   
- **Não é um administrador?** Veja [o que é o produto ou a licença do Microsoft 365 for Business?](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx)
+ **Não é um administrador?** Veja [o que é o produto ou a licença do Microsoft 365 for Business?](https://support.microsoft.com/office/f8ab5e25-bf3f-4a47-b264-174b1ee925fd)
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 
@@ -56,7 +53,7 @@ Se você é um administrador, é possível verificar quais assinaturas sua organ
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
-3. Se tiver várias assinaturas, você verá uma coluna ao lado das informações detalhadas da assinatura que lista as assinaturas compradas e as assinaturas de avaliação. Por padrão, a assinatura na parte superior da lista é selecionada automaticamente, e as informações detalhadas dessa assinatura são mostradas.
+3. If you have multiple subscriptions, you'll see a column next to the detailed subscription information that lists the subscriptions that have been purchased, as well as any trial subscriptions. By default, the subscription at the top of the list is automatically selected, and the detailed information for that subscription is shown.
 
     Se você tiver várias assinaturas, escolha aquela para a qual você deseja ver informações detalhadas. O cartão da assinatura será atualizado com informações sobre essa assinatura.
 
@@ -75,7 +72,7 @@ Se você é um administrador, é possível verificar quais assinaturas sua organ
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
-3. Se tiver várias assinaturas, você verá uma coluna ao lado das informações detalhadas da assinatura que lista as assinaturas compradas e as assinaturas de avaliação. Por padrão, a assinatura na parte superior da lista é selecionada automaticamente, e as informações detalhadas dessa assinatura são mostradas.
+3. If you have multiple subscriptions, you'll see a column next to the detailed subscription information that lists the subscriptions that have been purchased, as well as any trial subscriptions. By default, the subscription at the top of the list is automatically selected, and the detailed information for that subscription is shown.
 
     Se você tiver várias assinaturas, escolha aquela para a qual você deseja ver informações detalhadas. O cartão da assinatura será atualizado com informações sobre essa assinatura.
 

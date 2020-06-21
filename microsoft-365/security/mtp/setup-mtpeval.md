@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 117681bd4722615e870594e46d6896e9128d0d0c
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 6cba773d0c4bea259db151d5a8f1d8e03954a045
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209218"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717290"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Configurar seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft 
 
@@ -110,7 +110,7 @@ Nesta fase, você será orientado a:
 <br>![Image of_Office 365 E5 onde você pode definir se deseja migrar mensagens de email ou não](../../media/mtp-eval-20.png) <br>
  
 13. Escolha serviços online. Selecione **Exchange** e clique em **Avançar**. 
-<br>![Image of_Office 365 E5 onde você pode escolher seus serviços online como o Exchange ou o gerenciamento de dispositivos do Mibile para o Office 365](../../media/mtp-eval-21.png) <br>
+<br>![Imagem of_Office 365 E5 onde você pode escolher seus serviços online](../../media/mtp-eval-21.png) <br>
 
 14. Adicione registros MX, CNAME e TXT ao seu domínio. Quando concluído, selecione **verificar**.
 <br>![Imagem of_Office 365 E5 aqui você pode adicionar seus registros DNS](../../media/mtp-eval-22.png) <br>
@@ -149,4 +149,6 @@ Nesta fase, você será orientado a:
 
 
 ## <a name="next-step"></a>Próxima etapa
-||| |:-------|:-----| config-onboard. png) <br>[Fase 3: configurar & integrada](config-mtpeval.md) | Configure cada pilar de proteção contra ameaças da Microsoft para seu ambiente de laboratório de avaliação de proteção contra ameaças da Microsoft e integração dos seus pontos de extremidade.
+|||
+|:-------|:-----|
+|![Fase 3: configurar o & integrado](../../media/config-onboard.png) <br>[Fase 3: configurar o & integrado](config-mtpeval.md) | Configure cada pilar de proteção contra ameaças da Microsoft para o laboratório de avaliação de proteção contra ameaças da Microsoft e integração dos seus pontos de extremidade.

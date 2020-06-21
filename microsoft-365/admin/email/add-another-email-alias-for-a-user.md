@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Saiba como você pode ter mais de um endereço de email, chamado alias de email, associado à sua conta do Microsoft 365 for Business. '
-ms.openlocfilehash: bab4ace6d497bac8892a29c76b6f2d05c4fa018f
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: c0e71ef150ccf592ea4f808a5e6609e1675767a4
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432320"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780284"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Adicionar outro alias de email para um usuário
 
@@ -162,7 +162,7 @@ Se você comprou a assinatura da GoDaddy ou de outro parceiro, vá até o respec
   
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Enviar email de um endereço diferente](https://support.office.com/article/ccba89cb-141c-4a36-8c56-6d16a8556d2e.aspx)
+[Enviar email de um endereço diferente](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e)
 
 [Alterar um nome de usuário e endereço de email](../add-users/change-a-user-name-and-email-address.md)
   

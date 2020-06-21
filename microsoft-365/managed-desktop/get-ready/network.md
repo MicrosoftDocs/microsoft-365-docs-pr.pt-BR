@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f70f997b1f3b2ef47cfc647178c1836893bc3e66
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a1cf21fdd53ca90218370fb9c87547c64e867cd8
+ms.sourcegitcommit: bad47f9c69025d76d1e161519640cf7e238bd3b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632834"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735509"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Configuração de rede para a área de trabalho gerenciada da Microsoft
 
@@ -53,8 +53,8 @@ Há URLs de vários produtos da Microsoft que precisam estar na lista de permiss
 
 Serviço da Microsoft | Origem da documentação-URLs necessárias na lista de permissões
 --- | ---
-Windows 10 Enterprise incluindo Windows Update para empresas | [Gerenciar pontos de extremidade de conexão para o Windows 10, versão 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Gerenciar pontos de extremidade de conexão para o Windows 10, versão 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)<br><br>[Gerenciar pontos de extremidade de conexão para o Windows 10, versão 1903](https://docs.microsoft.com/windows/privacy/manage-windows-1903-endpoints)<br><br>time.windows.com
-Otimização de entrega | [Configurar a otimização de entrega para as atualizações do Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
+Windows 10 Enterprise incluindo Windows Update para empresas | [Gerenciar pontos de extremidade de conexão para o Windows 10, versão 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Gerenciar pontos de extremidade de conexão para o Windows 10, versão 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)<br><br>[Gerenciar pontos de extremidade de conexão para o Windows 10, versão 1903](https://docs.microsoft.com/windows/privacy/manage-windows-1903-endpoints)<br><br>[Gerenciar pontos de extremidade de conexão para o Windows 10, versão 2004](https://docs.microsoft.com/windows/privacy/manage-windows-2004-endpoints)<br><br>time.windows.com
+Otimização da Entrega | [Configurar a otimização de entrega para as atualizações do Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
 Microsoft 365 | [Intervalos de endereço IP e URL do Microsoft 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
 Azure Active Directory | Requisitos [de porta e protocolos de identidade híbrida](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) e [serviços de domínio do](https://aka.ms/AA26ygm) Active Directory e Active Directory 
 Microsoft Intune | [Requisitos de configuração de rede do Intune](https://docs.microsoft.com/intune/network-bandwidth-use)<br>[Pontos de extremidade de rede para o Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/intune-endpoints)

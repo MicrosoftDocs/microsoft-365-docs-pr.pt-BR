@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: e64ceac2-ae62-4d29-a9ee-6aab9870ae2b
 ROBOTS: NOINDEX
 description: Saiba como criar contatos no centro de administração e gerenciar sua lista de endereços global.
-ms.openlocfilehash: 8abf16fd3332e4ba5789545d54d2a7a99232032d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ecbeb508519fa20e70e9768874d7be57aa2be481
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399417"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780008"
 ---
 # <a name="quick-help-contacts"></a>Ajuda rápida: Contatos
 
@@ -42,7 +42,7 @@ Se você precisar de contatos compartilhados que todos em sua organização poss
   
 ## <a name="how-are-these-contacts-different-from-my-contacts"></a>Como esses contatos são diferentes dos Meus contatos?
 
-Meus contatos são contatos que você cria para si mesmo e seus usuários criam para eles mesmos, mas outros não podem ver. Os contatos criados no Centro de administração são contatos para a organização e todas as pessoas podem vê-los para além dos seus. Para saber mais, confira [visão geral de pessoas-Outlook Web App](https://support.microsoft.com/en-us/office/people-overview-outlook-web-app-5fe173cf-e620-4f62-9bf6-da5041f651bf).
+Meus contatos são contatos que você cria para si mesmo e seus usuários criam para eles mesmos, mas outros não podem ver. Os contatos criados no Centro de administração são contatos para a organização e todas as pessoas podem vê-los para além dos seus. Para saber mais, confira [visão geral de pessoas-Outlook Web App](https://support.microsoft.com/office/5fe173cf-e620-4f62-9bf6-da5041f651bf).
   
 ## <a name="how-does-everyone-get-to-the-contacts-i-created-in-the-admin-center"></a>Como todos podem acessar os contatos que eu criei no Centro de administração?
 

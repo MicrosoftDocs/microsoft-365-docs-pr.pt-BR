@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 f1.keywords: NOCSH
 description: Saiba como configurar o Microsoft Teams para proteger seus dados com base em sua confidencialidade
-ms.openlocfilehash: 8704c3a0a271c247652d611e963ff1d26308dcdb
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 8978c8602a00dd9c7caecc30ea4746a01680a236
+ms.sourcegitcommit: 92f641cad63379bf16417854a43b16b48a71a30a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159462"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724797"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Configurar a colaboração segura com o Microsoft 365
 
@@ -57,7 +57,16 @@ As informações que são fundamentais para o sucesso da sua organização ou t�
 
 Para todos os cenários citados acima, você pode usar o Microsoft Teams para armazenar, compartilhar e colaborar com as informações. 
 
-## <a name="using-teams-for-all-kinds-of-data"></a>Usando o Microsoft Teams para todos os tipos de dados
+Para configurar o Collabration seguro, você usa estas funcionalidades e recursos da Microsoft 365.
+
+| Produto ou componente | Capcidade ou recurso | Licenças |
+|:-------|:-----|:-------|
+| Proteção Avançada contra Ameaças do Office 365 | Anexos seguros de ATP para SPO, OneDrive e Teams; Documentos seguros de ATP; Links seguros de ATP para o Teams    | Microsoft 365 E1, E3 e e5 |
+| SharePoint    | Políticas de compartilhamento de arquivos e sites, permissões de compartilhamento de site, links de compartilhamento, solicitações de acesso, configurações de compartilhamento de convidado de site | Microsoft 365 E1, E3 e e5 |
+| Microsoft Teams   | Acesso de convidados, equipes privadas, canais privados | Microsoft 365 E1, E3 e e5 |
+| Conformidade com o Microsoft 365  | Rótulos de confidencialidade    | Microsoft 365 E3 e e5 |
+
+### <a name="using-teams-for-all-kinds-of-data"></a>Usando o Microsoft Teams para todos os tipos de dados
 
 Para gerenciar o acesso a informações com diferentes sensitivities, desenvolvemos [três níveis diferentes de proteção para o Microsoft Teams](configure-teams-three-tiers-protection.md). Você pode personalizar qualquer uma dessas camadas para atender melhor às necessidades ou à sua empresa. 
 
@@ -91,7 +100,7 @@ Comece com a camada da linha de base e, em seguida, adicione equipes que usam as
 
 Se você tiver um projeto altamente confidencial que exija proteção adicional do compartilhamento, mesmo dentro da sua organização, você pode configurar uma equipe que usa seu próprio rótulo de confidencialidade para criptografar arquivos, de modo que somente os membros da equipe possam lê-los. Confira [Configurar uma equipe com isolamento de segurança](secure-teams-security-isolation.md) para obter detalhes.
 
-## <a name="sharing-with-people-outside-your-organization"></a>Compartilhamento com pessoas de fora da sua organização
+### <a name="sharing-with-people-outside-your-organization"></a>Compartilhamento com pessoas de fora da sua organização
 
 Talvez você precise [compartilhar informações de qualquer sensibilidade com pessoas de fora da sua organização](collaborate-with-people-outside-your-organization.md). Isso pode variar de compartilhar um único documento com uma única pessoa para colaborar em um projeto importante com uma organização de parceiro de grande porte ou freelanceres de todo o mundo. No Microsoft 365, esta faixa de compartilhamento externo pode ser feita facilmente e com as proteções apropriadas para ajudar a proteger suas informações confidenciais.
 
@@ -105,9 +114,15 @@ Dependendo da sensibilidade das informações que estão sendo compartilhadas, v
 
 - [Práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados](best-practices-anonymous-sharing.md)
 - [Limitar a exposição acidental a arquivos ao compartilhar arquivos com pessoas de fora da sua organização](share-limit-accidental-exposure.md)
-- [Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
+- [Criar um ambiente seguro de compartilhamento de convidados](create-secure-guest-sharing-environment.md)
 
 Se você tiver um projeto importante com uma organização parceira, poderá usar o gerenciamento de qualificação do Azure para gerenciar os convidados dessa organização em uma equipe que você configurou para o projeto. Consulte [criar uma extranet B2B com convidados gerenciados](b2b-extranet.md) para obter detalhes.
+
+## <a name="deploy-the-secure-collaboration-solution"></a>Implantar a solução de colaboração segura
+
+Quando estiver pronto para implantar essa solução, continue com estas etapas:
+1. Configure as [três camadas diferentes de proteção para o Microsoft Teams](configure-teams-three-tiers-protection.md).
+2. Definir configurações para [compartilhar informações de qualquer sensibilidade com pessoas de fora da sua organização](collaborate-with-people-outside-your-organization.md).
 
 ## <a name="see-also"></a>Confira também
 
