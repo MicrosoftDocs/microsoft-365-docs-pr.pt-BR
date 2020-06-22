@@ -230,7 +230,7 @@
               href: mtp/feedback.md
             - name: Gerenciar tíquetes pelo ServiceNow
               href: ./mtp/tickets.md
-    - name: Segurança do Microsoft 365
+    - name: Proteção Avançada contra Ameaças do Office 365
       items:
         - name: Introdução
           items:
