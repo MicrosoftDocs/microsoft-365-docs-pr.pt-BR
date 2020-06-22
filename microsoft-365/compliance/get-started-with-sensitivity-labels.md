@@ -70,18 +70,18 @@ Uma estratégia bem-sucedida para implantar rótulos de sensibilidade para uma o
 
 Usando a tabela na próxima seção, recomendamos identificar um ou dois cenários mais importantes que mostram as suas exigências de negócios mais impactantes. Após a implantação desses cenários, volte para a lista para identificar as próximas prioridades para implantação.
 
-Você pode encontrar mais diretrizes de implantação geral na guia de aceleração de implantação e proteção de informações da Microsoft 365 disponível para download. Para obter mais informações, confira a postagem do blog, [guia de aceleração de implantação e proteção de informações da Microsoft](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-information-protection-and-compliance-deployment/ba-p/1403493).
+Você pode encontrar mais diretrizes de implantação geral na guia de aceleração de implantação e proteção de informações da Microsoft 365 disponível para download. Para obter mais informações, confira a postagem do blog, [Guia de aceleração de implantação e proteção de informações da Microsoft](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-information-protection-and-compliance-deployment/ba-p/1403493).
 
 ## <a name="common-scenarios-for-sensitivity-labels"></a>Cenários comuns para rótulos de confidencialidade
 
-Todos os cenários requerem que você[crie e configure rótulos de confidencialidade e suas políticas](create-sensitivity-labels.md).
+Todos os cenários requerem que você [crie e configure rótulos de confidencialidade e suas políticas](create-sensitivity-labels.md).
 
 |Eu quero...|Documentação|
 |----------------|---------------|
 |Gerenciar rótulos de confidencialidade para aplicativos do Office para que o conteúdo seja rotulado como foi criado |[Usar rótulos de confidencialidade em aplicativos do Office](sensitivity-labels-office-apps.md)|
 |Permitir que os usuários rotulem e protejam arquivos de computadores com Windows usando aplicativos do Office, Explorador de Arquivos e PowerShell|[Cliente de rotulagem unificada da Proteção de Informações do Azure para Windows](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)|
 |Criptografar documentos e emails com rótulos de confidencialidade e restringir quem pode acessá-los e como podem usar esse conteúdo |[Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia](encryption-sensitivity-labels.md)|
-|Habilite os rótulos de sensibilidade do Office na web, com suporte para coautoria, descoberta eletrônica, prevenção contra perda de dados—até mesmo quando os documentos são criptografados | [Habilitar rótulos de confidencialidade para arquivos do Office no Microsoft Office SharePoint Online e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
+|Habilite os rótulos de sensibilidade do Office na web, com suporte para coautoria, descoberta eletrônica, prevenção contra perda de dados — até mesmo quando os documentos são criptografados | [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
 |Aplicar rótulos de confidencialidade automaticamente a documentos e emails | [Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)|
 |Usar os rótulos de confidencialidade para proteger o conteúdo do Teams e do SharePoint |[Use rótulos de confidencialidade no Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md)|
 |Descobrir, rotular e proteger arquivos armazenados no repositório de dados locais |[Implantação do scanner da Proteção de Informações do Azure para classificar e proteger arquivos automaticamente](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|

@@ -117,7 +117,7 @@
               href: add-users/resend-user-password.md
             - name: Criar um modelo para adicionar usuários
               href: add-users/create-and-use-a-template-to-add-users.md
-            - name: Atualizar os usuários para os aplicativos mais recentes do Office
+            - name: Atualizar os usuários para os aplicativos mais recentes
               href: setup/upgrade-users-to-latest-office-client.md
         - name: Grupos
           items:
