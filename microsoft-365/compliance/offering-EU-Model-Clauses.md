@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6a66a5b6f6ad2480dfc3af212e7663ad3f869d10
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: 9d678ca5ee9b8a8ebf4feadfb27826caa533967e
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254314"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773858"
 ---
 # <a name="european-union-model-clauses"></a>Cláusulas Modelo da União Europeia
 
@@ -86,7 +86,7 @@ Você pode inserir um contrato como o [Termos de Serviços Online](https://aka.m
 - [Diretiva de Proteção de Dados da UE](https://aka.ms/EU-DPD)
 - [comité Europeu para a Proteção de Dados](https://edpb.europa.eu/)
 - [Perguntas frequentes sobre as Cláusulas Modelo da UE para Dynamics 365 e Office 365](https://products.office.com/business/office-365-trust-center-eu-model-clauses-faq)
-- [Defesa de Privacidade da Microsoft e dos EUA-UE.](https://go.microsoft.com/fwlink/p/?linkid=2099701)
+- [Defesa de Privacidade da Microsoft e dos EUA-UE.](offering-eu-us-privacy-shield.md)
 - [Estrutura de Conformidade do Hub de Controles Comuns da Microsoft](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Termos de Serviços Online da Microsoft](https://aka.ms/Online-Services-Terms)
 - [Conformidade na Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)

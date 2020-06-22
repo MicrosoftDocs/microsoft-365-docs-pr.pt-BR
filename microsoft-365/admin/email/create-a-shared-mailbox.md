@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Crie uma caixa de correio compartilhada para permitir que vários usuários da sua empresa compartilhem a responsabilidade de ler e responder a emails enviados para um endereço.
-ms.openlocfilehash: 331f5f320f9b57ee503734f57ed8d804e9ad04e3
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 3ffe24cc263c6f58899b3c293793aa231132e411
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432284"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780260"
 ---
 # <a name="create-a-shared-mailbox"></a>Criar uma caixa de correio compartilhada 
 
@@ -138,15 +138,15 @@ O mapeamento automático é definido na caixa de correio do usuário, não na ca
 
 Para saber mais sobre caixas de correio compartilhadas no Outlook, confira:
 
-- <a href="https://support.office.com/article/d94a8e9e-21f1-4240-808b-de9c9c088afd.aspx" target="_blank">Abrir e usar uma caixa de correio no Outlook</a>
+- <a href="https://support.microsoft.com/office/d94a8e9e-21f1-4240-808b-de9c9c088afd" target="_blank">Abrir e usar uma caixa de correio no Outlook</a>
 
-- <a href="https://support.office.com/article/98b5a90d-4e38-415d-a030-f09a4cd28207.aspx" target="_blank">Adicionar uma caixa de correio compartilhada ao Outlook na Web</a>
+- <a href="https://support.microsoft.com/office/98b5a90d-4e38-415d-a030-f09a4cd28207" target="_blank">Adicionar uma caixa de correio compartilhada ao Outlook na Web</a>
 
-- <a href="https://support.office.com/article/f866242c-81b2-472e-8776-6c49c5473c9f" target="_blank">Adicionar uma caixa de correio compartilhada ao Outlook Mobile</a>
+- <a href="https://support.microsoft.com/office/f866242c-81b2-472e-8776-6c49c5473c9f" target="_blank">Adicionar uma caixa de correio compartilhada ao Outlook Mobile</a>
 
-- <a href="https://support.office.com/article/6ecc39c5-5577-4a1d-b18c-bbdc92972cb2.aspx" target="_blank">Abrir uma pasta compartilhada ou caixa de correio no Outlook para Mac</a>
+- <a href="https://support.microsoft.com/office/6ecc39c5-5577-4a1d-b18c-bbdc92972cb2" target="_blank">Abrir uma pasta compartilhada ou caixa de correio no Outlook para Mac</a>
 
-- <a href="https://support.office.com/article/b0963400-2a51-4c64-afc7-b816d737d164.aspx" target="_blank">Adicionar regras para uma caixa de correio compartilhada</a>
+- <a href="https://support.microsoft.com/office/b0963400-2a51-4c64-afc7-b816d737d164" target="_blank">Adicionar regras para uma caixa de correio compartilhada</a>
 
 
 ## <a name="use-a-shared-mailbox-on-a-mobile-device-phone-or-tablet"></a>Usar uma caixa de correio compartilhada no dispositivo móvel (telefone ou tablet)
@@ -154,11 +154,11 @@ Para saber mais sobre caixas de correio compartilhadas no Outlook, confira:
 Você pode acessar uma caixa de correio compartilhada em um dispositivo móvel de duas maneiras:
 - Adicione a caixa de correio compartilhada no <a href="https://apps.apple.com/us/app/microsoft-outlook/id951937596" target="_blank">aplicativo Outlook para iOS</a> ou no <a href="https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en_US" target="_blank">aplicativo móvel Outlook para Android</a>. 
     
-    Para obter instruções, confira <a href="https://support.office.com/article/f866242c-81b2-472e-8776-6c49c5473c9f" target="_blank">Adicionar uma caixa de correio compartilhada ao Outlook Mobile</a>.
+    Para obter instruções, confira <a href="https://support.microsoft.com/office/f866242c-81b2-472e-8776-6c49c5473c9f" target="_blank">Adicionar uma caixa de correio compartilhada ao Outlook Mobile</a>.
 
 - Abra seu navegador, entre e vá para o Outlook na Web. Em Outlook na Web, você poderá acessar a caixa de correio compartilhada.
 
-    Para obter instruções, confira <a href="https://support.office.com/article/98b5a90d-4e38-415d-a030-f09a4cd28207.aspx" target="_blank">Adicionar uma caixa de correio compartilhada ao Outlook na Web</a>.
+    Para obter instruções, confira <a href="https://support.microsoft.com/office/98b5a90d-4e38-415d-a030-f09a4cd28207" target="_blank">Adicionar uma caixa de correio compartilhada ao Outlook na Web</a>.
 
 ## <a name="use-the-shared-calendar"></a>Usar o calendário compartilhado
 

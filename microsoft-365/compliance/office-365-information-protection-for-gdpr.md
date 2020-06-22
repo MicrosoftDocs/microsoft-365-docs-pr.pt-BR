@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 description: Esta solução demonstra como proteger dados confidenciais armazenados nos serviços do Office 365 usando o Regulamento Geral de Proteção de Dados (RGPD) como exemplo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c054042b74896e40369b2415282620f0878cf7b8
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e087447f7462e44d01c96245caeaae86dd2b8620
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44031433"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818694"
 ---
 # <a name="information-protection-for-gdpr"></a>Proteção de Informações para GDPR
 
  **Resumo:** esta solução demonstra como proteger dados confidenciais armazenados nos serviços do Office 365.
   
-Esta solução inclui recomendações prescritivas para descoberta, classificação, proteção e monitoramento de dados pessoais. Ela usa o GDRP (Regulamento Geral sobre a Proteção de Dados) como exemplo, mas é possível aplicar o mesmo processo a fim de a cumprir os requisitos de vários outros regulamentos.
+This solution includes prescriptive recommendations for discovering, classifying, protecting, and monitoring personal data. This solution uses General Data Protection Regulation (GDPR) as an example, but you can apply the same process to achieve compliance with many other regulations.
 
 [![Imagem em miniatura do cartaz da Proteção de Informações do Office 365 para GDRP](../media/InfoProtectGDPR-Poster/o365infoprotectforgdpr-thumb.png)](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.pdf).
 
@@ -37,6 +37,6 @@ Esta solução inclui recomendações prescritivas para descoberta, classificaç
   
 Para saber mais sobre como executar solicitações de entidades de dados para o RGPD, confira [Solicitações de entidades de dados do Office 365 para o RGPD](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365). 
 
-## <a name="see-also"></a>Confira também
+## <a name="related-topics"></a>Tópicos relacionados
   
 [Diretrizes de segurança da Microsoft para campanhas políticas, instituições sem fins lucrativos e outras organizações do Agile](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o)

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7a43011a1d81c014526b1dd9178d051162e96acd
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 16502ba54268e708d7c420a1329b1f2683726198
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065956"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773732"
 ---
 # <a name="office-of-the-superintendent-of-financial-institutions-osfi-canada"></a>Escritório do Superintendente de Instituições Financeiras (OSFI), Canadá
 
@@ -69,8 +69,7 @@ Sim, mas apenas se o acordo de terceirização envolve terceirização de ativid
 
 ## <a name="resources"></a>Recursos
 
-- [ Microsoft e as Leis de Privacidade do Canadá](https://aka.ms/CanadianPrivacyLaws-Compliance)
-- [ Programa de Conformidade dos Serviços Financeiros da Microsoft](https://aka.ms/FSCP-Print)
+- [Programa de Conformidade para Serviços Financeiros da Microsoft](https://aka.ms/FSCP-Print)
 - [ serviços corporativos de nuvem e serviços financeiros da Microsoft ](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
 - [conformidade dos serviços financeiros no Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Ferramenta de Avaliação de Risco na Nuvem de Serviços Financeiros do Azure](https://aka.ms/FFIEC-CSDT)

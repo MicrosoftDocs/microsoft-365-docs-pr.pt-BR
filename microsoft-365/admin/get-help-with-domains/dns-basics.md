@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Aprenda sobre domínios e seus registros DNS associados para ajudá-lo a gerenciar seus domínios.
-ms.openlocfilehash: 9e86aed070023963635319cdd9fdb6a8ccca4c23
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3a3a03c408d480b5d4678fde25c8830e063b1310
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399963"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780176"
 ---
 # <a name="dns-basics"></a>Noções básicas do DNS
 
@@ -155,7 +155,7 @@ Por que o arquivo de zona do seu domínio pode estar em outro lugar além do seu
 Adicionar um domínio personalizado, como fourthcoffee.com ao Office 365 permite que você use um endereço de email e uma identificação de usuário mais curtos e familiares com o serviço. Você [receberá um domínio para usar](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) ao se inscrever em uma conta do Office 365, mas ele inclui o domínio “onmicrosoft.com”. Muitas pessoas preferem adicionar o domínio de suas organizações ou empresas quando planejam usar o Office 365 para emails. 
   
 > [!NOTE]
-> Se você quer apenas baixar e usar aplicativos da Microsoft, como Outlook ou Word, não precisa adicionar um domínio: [Instalar o Office no seu computador ou Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx). 
+> Se você quer apenas baixar e usar aplicativos da Microsoft, como Outlook ou Word, não precisa adicionar um domínio: [Instalar o Office no seu computador ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658). 
   
 É possível usar seu nome de domínio no Office 365 com seu email, site público e endereço do sistema de mensagens instantâneas.
   
@@ -174,7 +174,7 @@ Adicionar um domínio personalizado, como fourthcoffee.com ao Office 365 permite
 Adicionar um domínio personalizado, como fourthcoffee.com ao Office 365 permite que você use um endereço de email e uma identificação de usuário mais curtos e familiares com o serviço. Você [receberá um domínio para usar](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) ao se inscrever em uma conta do Office 365, mas ele inclui o domínio “onmicrosoft.com”. Muitas pessoas preferem adicionar o domínio de suas organizações ou empresas quando planejam usar o Office 365 para emails. 
   
 > [!NOTE]
-> Você não precisa adicionar um domínio se deseja apenas baixar e usar os aplicativos do Office 365, como o Outlook ou o Word: [Instalar o Office no seu PC ou Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx). 
+> Você não precisa adicionar um domínio se deseja apenas baixar e usar os aplicativos do Office 365, como o Outlook ou o Word: [Instalar o Office no seu PC ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658). 
   
 É possível usar seu nome de domínio no Office 365 com seu email, site público e endereço do sistema de mensagens instantâneas.
   

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: 'Saiba como oferecer ao usuário o direito de acessar a caixa de correio de outro usuário. Isso dará ao usuário o direito de ler e enviar emails da caixa de correio do outro usuário. '
-ms.openlocfilehash: 3fb920fb6f15a2ca48c5676e9b25afd1aa5263f1
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: dafe0f8c8f7d65b2721b70f6c132d179c461a89b
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431660"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780596"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>Conceder permissões de caixa de correio para outro usuário - Ajuda para administradores
 
@@ -37,11 +37,11 @@ Se você estiver procurando informações sobre como criar e gerenciar caixas de
     
 ## <a name="looking-to-set-up-mailbox-permissions"></a>Deseja configurar permissões de caixa de correio?
 
-Com as permissões da caixa de correio, você dá acesso de leitura/gravação de uma caixa de correio a outro usuário. Os artigos a seguir ajudam você a configurar e usar esse recurso:
+Mailbox permissions allow you to give read/write access to a mailbox to another user. The articles below might give you the help you need to set up and use this feature:
   
  **Configurando as permissões:**
   
-a primeira etapa para configurar permissões é decidir quais ações você deseja permitir que o outro usuário realize em determinada caixa de correio. Você pode permitir que um usuário leia os emails na caixa de correio, envie emails em nome de outro usuário e envie emails como se eles fossem enviados por essa caixa de correio. Confira os seguintes artigos sobre a configuração de cada tipo de permissão:
+The first step to setting up permissions is deciding which actions you want to allow the other user to take in the given mailbox. You can allow a user to read emails from the mailbox, send emails on behalf of another user, and send emails as if they were sent from that mailbox. Refer to the following articles on how to set up each type of permissions:
   
 - [Ler emails da caixa de correio de outro usuário](give-mailbox-permissions-to-another-user.md#read-email-in-another-users-mailbox)
     
@@ -55,7 +55,7 @@ depois de configurar as permissões, pode levar até 60 minutos para que as alte
   
  **Como usá-la após as permissões serem definidas:**
   
-depois de receber o acesso, existem algumas maneiras diferentes de acessar uma caixa de correio. Encontre ajuda neste artigo: [Acessar a caixa de correio de outra pessoa](https://support.office.com/article/Access-another-person-s-mailbox-A909AD30-E413-40B5-A487-0EA70B763081.aspx)
+There are a few different ways you can access a mailbox once you've been given access. For help on this, refer to this article: [Access another person's mailbox](https://support.microsoft.com/office/A909AD30-E413-40B5-A487-0EA70B763081)
   
 ## <a name="send-email-from-another-users-mailbox"></a>Enviar emails da caixa de correio de outro usuário
 
@@ -200,8 +200,8 @@ depois de receber o acesso, existem algumas maneiras diferentes de acessar uma c
 ## <a name="send-and-read-from-outlook-and-outlook-on-the-web-for-business"></a>Enviar e ler pelo Outlook e pelo Outlook na Web para empresas
 
 
-Deseja saber como enviar emails da caixa de correio de outro usuário? Confira os seguintes tópicos:
+Want to know how to send email from another user's mailbox? Check out the following topics:
   
-- [Gerenciar o email e os itens de calendário de outra pessoa](https://support.office.com/article/afb79d6b-2967-43b9-a944-a6b953190af5.aspx)
+- [Gerenciar o email e os itens de calendário de outra pessoa](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5)
     
-- [Enviar emails de outra pessoa ou grupo](https://support.office.com/article/0f4964af-aec6-484b-a65c-0434df8cdb6b.aspx)
+- [Enviar emails de outra pessoa ou grupo](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b)
