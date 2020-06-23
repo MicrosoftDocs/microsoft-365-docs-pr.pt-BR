@@ -92,7 +92,9 @@
           items:
             - name: Microsoft Project e Microsoft Visio
               href: get-started/project-visio.md
-    - name: Trabalhe com a Área de trabalho gerenciada da Microsoft
+            - name: Novos aplicativos Microsoft Edge
+              href: get-started/edge-browser-app.md
+    - name: Trabalhe com a Área de Trabalho Gerenciada da Microsoft
       href: working-with-managed-desktop/index.md
       items:
         - name: Trabalhe com percepções
