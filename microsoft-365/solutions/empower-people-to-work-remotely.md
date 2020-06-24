@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 06/03/2020
+ms.date: 06/08/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,51 +17,39 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Configure a infraestrutura de segurança e serviços que permita aos seus funcionários trabalharem remotamente em qualquer lugar e a qualquer momento.
-ms.openlocfilehash: 763c8e745eb54897c1df88ecb5a9064987ed5a13
-ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
+ms.openlocfilehash: 94e90e0839815ca8045731f809e50d08622700f4
+ms.sourcegitcommit: 92f641cad63379bf16417854a43b16b48a71a30a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44560454"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724826"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Capacite funcionários remotos com o Microsoft 365
 
-Sua empresa talvez precise habilitar seus funcionários a ter acesso seguro às informações, ferramentas e recursos da organização, no local e na nuvem de sua organização, a partir de suas casas. Permitir que os funcionários trabalhem fora do escritório sem obstáculos e com segurança é importante para várias organizações para:
+Sua empresa talvez precise habilitar seus funcionários a ter acesso seguro às informações, ferramentas e recursos da organização, no local e na nuvem de sua organização, a partir de suas casas. Permitir que os funcionários trabalhem fora do escritório é importante para várias organizações para:
 
 - Economizar espaço no escritório.
 - Contratar e reter funcionários que não estão dispostos a ser realocados.
 - Reduza o deslocamento dos funcionários, deixando-os com mais tempo para serem produtivos e para atividades de redução de estresse fora do trabalho.
 
-O trabalho remoto, também conhecido como teletrabalho, pode abranger um espectro que inclui:
+O Microsoft 365 tem os recursos para permitir que seus funcionários trabalhem remotamente.
 
-- Funcionários que estão ocasionalmente fora do escritório para conferências ou reuniões com clientes.
-- Alguns funcionários que trabalham remotamente em tempo integral.
-- Uma organização totalmente remota na qual não há nenhum escritório e todos os funcionários são remotos.
+![Capacite funcionários remotos com o Microsoft 365](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
 
-Em qualquer lugar do mundo e a qualquer momento, os funcionários remotos devem poder acessar:
 
-- Recursos da organização, como os oferecidos por centros de dados de aplicativos locais.
-- Serviços e dados em nuvem na sua assinatura do Microsoft 365, como Teams, Exchange Online, SharePoint e OneDrive.
+| | |
+|:-------|:-----|
+| Conectado | De qualquer lugar do mundo e a qualquer momento, os funcionários remotos podem acessar: <ul><li>Serviços e dados baseados em nuvem na sua assinatura do Microsoft 365. </li><li>Recursos da organização, como os oferecidos por centros de dados de aplicativos locais.</li></ul> |
+| Seguro | Os logins são protegidos com autenticação multifator (MFA) e os recursos de segurança internos do Microsoft 365 e do Windows 10 protegem contra malwares, ataques maliciosos e perda de dados. |
+| Gerenciado | Os dispositivos dos seus trabalhadores remotos podem ser gerenciados na nuvem com configurações de segurança, aplicativos permitidos e exigir conformidade com a integridade do sistema. |
+| Colaborativo e produtivo | Seus funcionários remotos podem ser tão produtivos quanto locais, de uma maneira altamente colaborativa com: <ul><li>Reuniões on-line e sessões de bate-papo com o Teams. </li><li>Áreas de trabalho compartilhadas para armazenamento de arquivos baseados em nuvem com acessibilidade global e colaboração em tempo real com o SharePoint e o OneDrive. </li><li>Tarefas e fluxos de trabalho compartilhados para dividir o trabalho e realizar as tarefas. </li></ul> |
+|||
 
-Para uma experiência de entrada perfeita, as contas de usuários dos Serviços de Domínio do Active Directory (AD DS) devem ser sincronizados com o Azure Active Directory (Azure AD). Para proteger os dispositivos com Windows 10, eles devem ser registrados no Intune. Veja a seguir uma visão geral da infraestrutura.
+Para uma experiência perfeita de entrada, suas contas de usuário dos Serviços de domínio do Active Directory (AD DS) locais devem ser sincronizadas com o Azure Active Directory (Azure AD). Para proteger os dispositivos com Windows 10, eles devem ser registrados no Intune. Veja a seguir uma visão geral da infraestrutura.
 
 ![A infraestrutura básica para funcionários remotos com o Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-basic-infrastructure.png)
 
-
-Para dar suporte a funcionários remotos, por exemplo, em resposta à crise COVID-19, uma combinação de recursos no Microsoft 365 permite aos funcionários remotos colaborar de forma ativa, como por exemplo:
-
-- Reuniões online e sessões de chat.
-- Espaços de trabalho compartilhados para armazenamento de arquivos na nuvem com acessibilidade global e colaboração em tempo real.
-- Tarefas e fluxos de trabalho compartilhados para dividir o trabalho e realizar as tarefas.
-
-Para segurança forte, o Microsoft 365 inclui:
-
-- Requisitos de autenticação imposta, detecção e resposta a entradas de alto risco e bloqueio de aplicativos selecionados e dispositivos que não estejam em conformidade.
-- Conexões criptografadas e ativos digitais na nuvem.
-- Permissões para definir quem pode fazer o que com os arquivos.
-- Recursos de segurança abrangentes para proteger dispositivos Windows 10.
-
-Para atender a esses critérios para funcionários remotos, use as seguintes capacidades e recursos do Microsoft 365.
+Para atender aos critérios para trabalhadores remotos, use esses recursos e funcionalidades do Microsoft 365.
 
 | Capcidade ou recurso | Descrição | Licenças |
 |:-------|:-----|:-------|
