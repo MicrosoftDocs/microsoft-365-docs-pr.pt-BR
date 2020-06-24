@@ -24,18 +24,20 @@ description: 'Saiba mais sobre assinaturas e licenças no Microsoft 365 for Busi
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: 5ed1925fd51dd1798d4c6ab275494fde01535177
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f83b2069bd1b4c86e2198252a54ed2e8e5c55a04
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402397"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844675"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Entender assinaturas e licenças no Microsoft 365 for Business
 
 Este artigo explica a relação entre assinaturas e licenças e fornece informações adicionais sobre [quem pode atribuir licenças](#find-out-who-can-assign-licenses), [noções básicas sobre o que acontece quando você atribui uma licença a alguém](#understand-what-happens-when-you-assign-a-license-to-someone)e quantos [dispositivos as pessoas podem instalar o Office](#how-many-devices-can-people-install-office-on). Também inclui links para [noções básicas sobre licenças para caixas de correio que não são de usuário](#understand-licenses-for-non-user-mailboxes)e [artigos sobre como gerenciar licenças](#articles-about-managing-licenses).
   
 Ao comprar uma assinatura para o Microsoft 365 for Business, você se inscreve em um conjunto de aplicativos e serviços que você paga por meio de uma base mensal ou anual. Os aplicativos e serviços que você recebe como parte da sua assinatura dependem do produto que você comprou, como o Microsoft 365 Apps for Business ou o Microsoft 365 Business Standard. Você pode revisar o que vem com cada produto na [página comprar o Microsoft 365](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1). 
+
+Você pode examinar diferentes opções de licenciamento disponíveis no [Microsoft 365 para empresas de pequeno e médio](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb) porte
 
 Ao comprar uma assinatura, você especifica o número de licenças que precisa, com base em quantas pessoas você tem em sua organização. Após a conclusão da compra, você cria contas para as pessoas e, em seguida, atribui uma licença para cada pessoa. Conforme suas necessidades organizacionais mudarem, você pode comprar mais licenças para acomodar novas pessoas ou reatribuir licenças a outros usuários quando alguém sair da sua organização. 
 
@@ -44,7 +46,7 @@ Se você tiver mais de uma assinatura, poderá atribuir licenças a pessoas dife
   
 ## <a name="find-out-who-can-assign-licenses"></a>Descobrir quem pode atribuir licenças
 
-Diferentes tipos de administradores podem trabalhar com licenças de diferentes formas, dependendo de suas funções. A tabela a seguir lista as opções mais comuns. Para obter uma lista completa de funções e privilégios de administradores, confira [Sobre as funções de administrador](../../admin/add-users/about-admin-roles.md).
+Different types of admins can work with licenses in different ways, depending on their roles. The following table lists the most common options. For a complete list of admin roles and privileges, see [About admin roles](../../admin/add-users/about-admin-roles.md).
   
 |**Função do administrador**|**Atribuir uma licença**|**Remover uma licença**|**Comprar mais licenças**|**Excluir uma conta**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -63,7 +65,7 @@ A tabela a seguir lista o que ocorrerá automaticamente quando você atribuir um
 |Exchange Online  <br/> |Uma caixa de correio será criada para tal pessoa.  <br/> Para saber mais sobre o SLA para a conclusão da tarefa, consulte ["Configurando..." mensagens no centro de administração do Microsoft 365](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center). |
 |SharePoint Online  <br/> |As permissões de edição para o site de equipe padrão do SharePoint Online serão atribuídas a essa pessoa.  <br/> |
 |Skype for Business Online  <br/> |A pessoa terá acesso aos recursos associados à licença.  <br/> |
-|Microsoft 365 Apps para empresas  <br/> |A pessoa poderá baixar o Microsoft Office em até cinco Macs ou PCs, cinco tablets e cinco smartphones.  <br/> |
+|Microsoft 365 Apps para Grandes Empresas  <br/> |A pessoa poderá baixar o Microsoft Office em até cinco Macs ou PCs, cinco tablets e cinco smartphones.  <br/> |
    
 ## <a name="how-many-devices-can-people-install-office-on"></a>Em quantos dispositivos as pessoas podem instalar o Office?
 
@@ -81,7 +83,7 @@ Se a sua assinatura incluir algum dos seguintes produtos, cada pessoa poderá in
     
 ## <a name="understand-licenses-for-non-user-mailboxes"></a>Noções básicas sobre licenças para caixas de correio de não usuário
 
-Você não precisa atribuir licenças para caixas de correio compartilhadas, a não ser que elas excedam suas cotas de armazenamento de 50 GB (gigabytes). Para saber mais sobre caixas de correio de não usuários, confira os seguintes artigos:
+You don't need to assign licenses to resource mailboxes, room mailboxes, and shared mailboxes, except when they are over their storage quota of 50 gigabytes (GB). For more about non-user mailboxes, see the following articles:
   
 - [Criar uma caixa de correio compartilhada](../../admin/email/create-a-shared-mailbox.md)
     

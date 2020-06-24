@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre documentos seguros no Microsoft 365 E5 ou Microsoft 365 E5 Security.
-ms.openlocfilehash: 1861671df5cfa9dab4b57d5fb53af8712a2a64ce
-ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
+ms.openlocfilehash: c574e28a01dc961d898638184afe9ece90e31133
+ms.sourcegitcommit: aa7f7350d1342ff9713bb840b2cc96d1a4234ef4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44811057"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44835341"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Documentos seguros no Microsoft 365 e5
 
@@ -28,9 +28,9 @@ Documentos seguros é um recurso no Microsoft 365 E5 ou no Microsoft 365 E5 segu
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
-- Este recurso está disponível apenas para usuários com a licença de segurança do Microsoft 365 E5 ou Microsoft 365 e5.
+- Agora, os documentos seguros estão disponíveis para usuários com o Office versão 2004 (12730. x) ou mais. Esse recurso está desativado por padrão e deverá ser habilitado pelo administrador de segurança.
 
-- No momento, documentos seguros estão disponíveis para visualização pública, disponível para os usuários que fazem parte do [programa Office Insider](https://insider.office.com/join) no canal atual (visualização) com o office versão 2002 (12527,20092) ou superior. Esse recurso está desativado por padrão e deverá ser habilitado pelo administrador de segurança.
+- Este recurso está disponível apenas para usuários com a licença de segurança do *microsoft 365 E5* ou *do Microsoft 365 E5* (não incluída nos planos ATP do Office 365).
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -40,7 +40,7 @@ Documentos seguros é um recurso no Microsoft 365 E5 ou no Microsoft 365 E5 segu
 
 Para mantê-lo protegido, documentos seguros enviam arquivos para a nuvem de [proteção avançada contra ameaças do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) para análise.
 
-- Detalhes sobre como a proteção de thread avançada do Microsoft defender lida com seus dados pode ser encontrada [aqui](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+- Detalhes sobre como a proteção avançada contra ameaças do Microsoft defender lida com seus dados pode ser encontrada [aqui](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
 - Além das diretrizes acima, os arquivos enviados por documentos seguros não são mantidos no defender além do tempo necessário para análise, que normalmente é menor que 24 horas
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Usar o centro de conformidade de & de segurança para configurar documentos seguros
@@ -51,7 +51,7 @@ Para mantê-lo protegido, documentos seguros enviam arquivos para a nuvem de [pr
 
 3. Na seção **ajudar as pessoas a permanecerem seguras ao confiar em um arquivo para abrir fora do modo de exibição protegido em aplicativos do Office** , configure qualquer uma das seguintes configurações:
 
-   - **Ative documentos seguros para clientes do Office (os arquivos também serão enviados para a nuvem da Microsoft para análises profundas)**
+   - **Ativar documentos seguros para clientes do Office**
 
    - **Permitir que as pessoas cliquem no modo de exibição protegido, mesmo se os documentos seguros identificam o arquivo como mal-intencionado**: Recomendamos que você não habilite essa opção.
 
@@ -64,7 +64,7 @@ Para mantê-lo protegido, documentos seguros enviam arquivos para a nuvem de [pr
 Use a seguinte sintaxe:
 
 ```powershell
-Set-AtpPolicyForO365 -EnableSafeDocs <$true|$false> -AllowSafeDocsOpen <$true|$false>
+Set-AtpPolicyForO365 -EnableSafeDocs <$true | $false> -AllowSafeDocsOpen <$true | $false>
 ```
 
 - O parâmetro _EnableSafeDocs_ habilita ou desabilita documentos seguros para toda a organização.

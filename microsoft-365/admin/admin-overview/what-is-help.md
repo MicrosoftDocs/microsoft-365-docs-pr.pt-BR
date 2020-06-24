@@ -3,11 +3,10 @@ title: Como obter ajuda no centro de administração do Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-layout: LandingPage
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: landing-page
+ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -22,12 +21,12 @@ search.appverid:
 - GEA150
 ROBOTS: NOINDEX
 description: Saiba mais sobre as maneiras como você pode obter ajuda usando o centro de administração do Microsoft 365.
-ms.openlocfilehash: eea5e58ba571cebd7d73202fa8f6c01ba06b8e44
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b10eb75e1a7d02c384c915ad814dddc9f3c6954f
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386764"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844711"
 ---
 <!-- The following is just placeholder text from Madhura's mail. We need to add images/examples of each -->
 
@@ -35,66 +34,11 @@ ms.locfileid: "44386764"
 
 Se você é um administrador, o [admin.Microsoft.com](https://admin.microsoft.com) é o local para gerenciar e aproveitar ao máximo a sua assinatura do Microsoft 365. Às vezes, você pode não encontrar a tarefa certa, precisa de mais contexto antes de embarcar em um fluxo de tarefas ou simplesmente não ter certeza sobre o escopo e o impacto de suas ações como um administrador. Para cobrir essas situações, fornecemos ajuda moderna e assistência inteligente em todo o centro de administração do Microsoft 365 das seguintes maneiras:
 
-<ul class="panelContent cardsW">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <a href="what-is-help.md">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../../media/what-is-help/M365_WhatisHelp_IntegratedHelp.png" alt="Integrated help" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Ajuda integrada</h3>
-                            <p>Ajuda no centro de administração</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <a href="what-is-help.md#modern-self-help-powered-by-ai">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../../media/what-is-help/M365_WhatisHelp_IntelligentAssistance.png" alt="Intelligent assistance" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Assistência inteligente</h3>
-                            <p>Auto-ajuda alimentada pelo AI</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <a href="what-is-help.md#guides-and-articles">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../../media/what-is-help/M365_WhatisHelp_ArticlesGuides.png" alt="Guides and articles" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Guias e artigos</h3>
-                            <p>Conteúdo abrangente na Web</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
- 
+* **Ajuda integrada** -ajuda no centro de administração
+
+* **Assistência inteligente** -auto-ajuda voltada para o ai
+
+* **Guias e artigos** – conteúdo abrangente na Web
 
 ## <a name="integrated-help"></a>Ajuda integrada
 

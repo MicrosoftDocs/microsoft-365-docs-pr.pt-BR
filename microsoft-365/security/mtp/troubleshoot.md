@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: bbc7d5d434765b94b0b2707605be2edfbbc8e423
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: e19e5758f4d42799c96ecec51fd6295e3da19f9b
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661977"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844913"
 ---
 # <a name="troubleshoot-microsoft-threat-protection-service-issues"></a>À procura de soluções para os problemas de serviço da Proteção contra Ameaças da Microsoft
 
@@ -44,12 +44,7 @@ Se você tiver o Azure ATP implantado em seu ambiente, mas não estiver vendo os
 
 Para obter mais informações, consulte [ integração da ATP do Azure](https://docs.microsoft.com/cloud-app-security/aatp-integration).
 
-## <a name="is-microsoft-threat-protection-available-for-us-government-community-cloud-gcc-or-gcc-high"></a>A Proteção contra Ameaças da Microsoft está disponível para a nuvem governamental de comunidade dos EUA (GCC) ou para a GCC High (de alta confidencialidade)?
-No momento, ela não está disponível.
-
 ## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Onde está a página de configurações para ativar o serviço?
 Para ativar a proteção contra ameaças da Microsoft, acesse **configurações** do painel de navegação na central de segurança do Microsoft 365. Esse item de navegação só será visível se você tiver as [permissões e as licenças de pré-requisito](mtp-enable.md#check-license-eligibility-and-required-permissions).
-
-## <a name="can-i-use-an-add-on-instead-of-the-required-e5-licenses"></a>Posso usar um complemento em vez das licenças E5 necessárias?
-No momento, não há Complementos para a proteção contra ameaças da Microsoft. [Confira requisitos de licenciamento](prerequisites.md) 
+ 
 

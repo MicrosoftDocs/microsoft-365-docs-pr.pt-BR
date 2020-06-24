@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Siga esta lista de verificação para remover um funcionário do Microsoft 365 e dados seguros. '
-ms.openlocfilehash: adf5c683828b30a978199145fa2c54f17d1b6b37
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 51fd26835cd74fa8403437397d37395fcf1c7301
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780572"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844853"
 ---
 # <a name="remove-a-former-employee"></a>Remover um ex-funcionário
 
@@ -51,7 +51,7 @@ Assista a um pequeno vídeo sobre como remover um funcionário. <br><br>
 
 Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-Para remover um funcionário:
+Para impedir que um funcionário faça logon:
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 

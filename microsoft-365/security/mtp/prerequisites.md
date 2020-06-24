@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f63c59403e84e79d1a4a5cf2b8a5544f5646781c
-ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
+ms.openlocfilehash: c64adf870d3669b983e11093196f59c82b1f59e0
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773846"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844901"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Pré-requisitos da proteção contra ameaças da Microsoft
 
@@ -43,7 +43,7 @@ Qualquer uma dessas licenças oferece acesso aos recursos de proteção contra a
 - Office 365 E5 ou a5
 - Proteção avançada contra ameaças do Microsoft Defender
 - Proteção Avançada contra Ameaças do Azure 
-- Microsoft Cloud App Security
+- Segurança no aplicativo na nuvem da Microsoft
 - Proteção contra Ameaças do Office 365 Advanced (Plano 2)
 
 > [!NOTE]
@@ -60,7 +60,7 @@ Vá para o centro de administração do Microsoft 365 ([admin.Microsoft.com](htt
 > Você precisa ser atribuído à função de **administrador de cobrança** ou **leitor global** [no Azure ad](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) para poder ver as informações de licença. Se tiver problemas de acesso, entre em contato com um administrador global.
 
 ## <a name="required-permissions"></a>Permissões obrigatórias
-Para obter a lista de funções necessárias e como o acesso a dados é regulamentado, leia sobre o [Gerenciamento de acesso à proteção contra ameaças da Microsoft](mtp-permissions.md).
+Você deve ser um **administrador global** ou um **administrador de segurança** no Azure Active Directory para ativar a proteção contra ameaças da Microsoft. Para obter a lista de funções necessárias para usar a proteção contra ameaças da Microsoft e informações sobre como o acesso a dados é regulamentado, leia sobre o [Gerenciamento de acesso à proteção contra ameaças da Microsoft](mtp-permissions.md).
 
 ## <a name="browser-requirements"></a>Requisitos de navegador
 Acessar a proteção contra ameaças da Microsoft na central de segurança do Microsoft 365 usando o Microsoft Edge, o Internet Explorer 11 ou qualquer navegador da Web compatível com HTML 5.

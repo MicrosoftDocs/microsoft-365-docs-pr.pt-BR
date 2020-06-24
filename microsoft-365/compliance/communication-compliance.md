@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 49b5491cb67f447bf8cca1d88aab807c1bf30624
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: d99a2f9a840c3410ad63cb2fb49b64e208e01bb8
+ms.sourcegitcommit: a4a01a0d7600972a41ee6bfac0df282f2ccc9bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208383"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44859031"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Conformidade com comunicações no Microsoft 365
 
@@ -131,7 +131,7 @@ Você pode escolher entre os seguintes modelos de política no centro de conform
 
 Nesta etapa, você tem uma visão mais profunda dos problemas detectados como correspondentes às políticas de conformidade de comunicação. Esta etapa inclui as seguintes ações disponíveis no centro de conformidade da Microsoft 365:
 
-- **Alertas**: quando uma mensagem corresponde a uma condição de política, um alerta é gerado automaticamente. Para cada alerta, você pode ver o status, a gravidade, o tempo detectado e se um caso é atribuído e seu status. Novos alertas são exibidos na home page de conformidade de comunicação e na página **alertas** e são listados em ordem de gravidade.
+- **Alertas**: quando uma mensagem corresponde a uma condição de política, um alerta é gerado automaticamente. Para cada alerta, você pode ver o status, a gravidade, o tempo detectado e se uma caixa de descoberta eletrônica avançada é atribuída e seu status. Novos alertas são exibidos na home page de conformidade de comunicação e na página **alertas** e são listados em ordem de gravidade.
 - **Gerenciamento de problemas**: para cada alerta, você pode tomar medidas investigativas para ajudar a corrigir o problema detectado na mensagem
 - **Revisão de documentos**: durante a investigação de um problema, você pode usar vários modos de exibição da mensagem para ajudar a avaliar corretamente o problema detectado. Os modos de exibição incluem um resumo de conversa, somente texto, anotações e detalhes da conversa de comunicação.
 - **Revisão do histórico de atividades do usuário**: exibir o histórico de atividades de mensagens do usuário e ações de correção, como notificações e escalonamentos passados, para correspondências de política.
@@ -146,7 +146,7 @@ A próxima etapa é corrigir problemas de conformidade de comunicação que voc�
 - **Notificar o usuário**: frequentemente, os usuários violam acidentalmente ou inadvertidamente uma política de conformidade de comunicação. Você pode usar o recurso Notify para fornecer um aviso de aviso ao usuário e resolver o problema.
 - **Escalonar para outro revisor**: às vezes, o revisor inicial de um problema precisa de entrada de outros revisores para ajudar a resolver o incidente. Você pode escalonar facilmente os problemas de mensagem para revisores em outras áreas da organização como parte do processo de resolução.
 - **Mark como um falso positivo**: as mensagens detectadas incorretamente como correspondências de políticas de conformidade irão, ocasionalmente, passar para o processo de revisão. Você pode marcar esses tipos de alerta como falsos positivos e resolver automaticamente o problema.
-- **Criar uma ocorrência**: nas situações mais sérias, talvez seja necessário compartilhar informações de conformidade de comunicação com outros revisores em sua organização. A conformidade com comunicação é totalmente integrada a outros recursos de conformidade da Microsoft 365 para ajudá-lo com a resolução de riscos de ponta a ponta. O escalonamento de um caso para investigação permite transferir dados e gerenciamento do caso para descoberta eletrônica avançada no Microsoft 365. A descoberta eletrônica avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar o conteúdo que responde às investigações internas e externas da sua organização. Ele permite que as equipes jurídicas gerenciem todo o fluxo de trabalho de notificação de retenção legal. Para saber mais sobre casos de descoberta eletrônica avançada, confira [visão geral da descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md).
+- **Escalonar para investigação**: nas situações mais sérias, talvez seja necessário compartilhar informações de conformidade de comunicação com outros revisores em sua organização. A conformidade com comunicação é totalmente integrada a outros recursos de conformidade da Microsoft 365 para ajudá-lo com a resolução de riscos de ponta a ponta. O escalonamento de um caso para investigação permite transferir dados e gerenciamento do caso para descoberta eletrônica avançada no Microsoft 365. A descoberta eletrônica avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar o conteúdo que responde às investigações internas e externas da sua organização. Ele permite que as equipes jurídicas gerenciem todo o fluxo de trabalho de notificação de retenção legal. Para saber mais sobre casos de descoberta eletrônica avançada, confira [visão geral da descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md).
 
 ### <a name="monitor"></a>Monitorar
 

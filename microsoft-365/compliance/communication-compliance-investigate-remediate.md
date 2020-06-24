@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 5bda1556b5726c6e94a6860c7c57f3f7082f2f5e
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: ef4ec85e6e242cd825d3b789d15d77adfc378d19
+ms.sourcegitcommit: a4a01a0d7600972a41ee6bfac0df282f2ccc9bd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717312"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44859041"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>Investigar e corrigir alertas de conformidade em comunicações
 
@@ -116,6 +116,6 @@ Não importa onde você comece a revisar os alertas ou a filtragem que você con
     - **Marcar como**: marcar a mensagem como *compatível*, *não compatível*ou como *questionável* , pois ela se relaciona com as políticas e os padrões da sua organização. A adição de marcas e comentários de marcação pode ajudá-lo a enfiltrar alertas de política para escalonamento ou como parte de outros processos de revisão internos. Após a conclusão da marcação, você também pode optar por resolver a mensagem para movê-la para fora da fila de revisão pendente.
     - **Notificar**: você pode usar o controle **Notify** para atribuir um modelo de aviso personalizado ao alerta e enviar um aviso de aviso ao usuário. Escolha o modelo de aviso apropriado e selecione **Enviar para enviar** por email um lembrete para o funcionário que enviou a mensagem e para resolver o problema.
     - **Escalonar**: usando o controle **escalonar** , você pode escolher quem mais em sua organização deve revisar a mensagem. Escolha em uma lista de revisores configurados na política de conformidade de comunicação para enviar uma notificação por email solicitando uma revisão adicional do alerta de mensagem. O revisor selecionado pode usar um link na notificação por email para ir diretamente para os itens escalonados a eles para revisão.
-    - **Criar uma ocorrência**: usando o controle **criar um caso** , você pode criar um novo [caso de descoberta eletrônica avançada](overview-ediscovery-20.md) para mensagens simples ou múltiplas. Você fornecerá um nome e anotações para o novo caso e o usuário que enviou a mensagem que corresponde à política será automaticamente atribuído como o responsável da ocorrência. Você não precisa de nenhuma permissão adicional para gerenciar o caso. Criar uma ocorrência não resolve ou cria uma nova marca para a mensagem.
+    - **Escalonar para investigação**: usando o **escalonamento para controle de investigação** , você pode criar um novo [caso de descoberta eletrônica avançada](overview-ediscovery-20.md) para mensagens simples ou múltiplas. Você fornecerá um nome e anotações para o novo caso e o usuário que enviou a mensagem que corresponde à política será automaticamente atribuído como o responsável da ocorrência. Você não precisa de nenhuma permissão adicional para gerenciar o caso. Criar uma ocorrência não resolve ou cria uma nova marca para a mensagem. Você pode selecionar um total de 100 mensagens ao criar um caso de descoberta eletrônica avançada durante o processo de correção. As mensagens em todos os canais de comunicação monitorados pela conformidade com comunicações têm suporte. Por exemplo, você pode selecionar 50 chats do Microsoft Teams, 25 mensagens de email do Exchange Online e 25 mensagens do Yammer ao abrir um novo caso de descoberta eletrônica avançada para um usuário.
 
 4. **Determinar se os detalhes da mensagem devem ser arquivados fora da conformidade de comunicação**: os detalhes da mensagem podem ser exportados ou baixados se você precisar arquivar as mensagens em uma solução de armazenamento separada. Selecionar o controle de **Download** automaticamente adiciona mensagens selecionadas a um. ZIP arquivo que pode ser salvo no armazenamento fora do Microsoft 365.

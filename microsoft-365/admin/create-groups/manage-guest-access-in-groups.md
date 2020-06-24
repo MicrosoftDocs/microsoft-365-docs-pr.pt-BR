@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Saiba como adicionar convidados a um grupo do Microsoft 365, exibir usuários convidados e usar o PowerShell para controlar o acesso de convidados.
-ms.openlocfilehash: fe72f5e831215730a1ac79bcce2296d53b969c9c
-ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
+ms.openlocfilehash: 0322bd269f1c5637627461d136b40f6af4fc9540
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761657"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854241"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Gerenciar o acesso de convidados nos grupos do Microsoft 365
 
@@ -47,7 +47,7 @@ O acesso de convidados em grupos é geralmente usado como parte de um cenário m
 
 Se quiser habilitar ou desabilitar o acesso de convidados em grupos, você pode fazer isso no centro de administração do Microsoft 365.
 
-1. No centro de administração, vá para configurações **Settings** da \> **organização** configurações e, na guia **Serviços** , selecione **grupos do Microsoft 365**.
+1. No centro de administração, vá para **Mostrar todas** as \> **Settings** \> **configurações da organização** configurações e, na guia **Serviços** , selecione **Microsoft 365 grupos**.
   
 2. Na página de **grupos do Microsoft 365** , escolha se você deseja permitir que as pessoas de fora de sua organização acessem os recursos do grupo ou permitir que os proprietários de grupos adicionem pessoas de fora da sua organização a grupos.
 

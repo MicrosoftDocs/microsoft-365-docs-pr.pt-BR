@@ -16,12 +16,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Determine as regulamentações de privacidade de dados, os cenários relevantes, a prontidão e os tipos de informações confidenciais que estão no seu ambiente Microsoft 365.
-ms.openlocfilehash: 532a6764cd1d21eb5eb0402c3451e320d306dc03
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: f8d8fd0b5e6d8876dead566a50408cb2e7419386
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695180"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854347"
 ---
 # <a name="assess-data-privacy-risks-and-identify-sensitive-items-with-microsoft-365"></a>Avaliar os riscos de privacidade de dados e identificar itens confidenciais com o Microsoft 365
 
@@ -59,7 +59,7 @@ Para referência futura nos artigos desta solução geral, esta tabela fornece e
 
 | Normas | Artigo/seção | Trecho | Categorias de controle técnico aplicáveis |
 |:-------|:-----|:-------|:-------|
-| RGPD | Artigo 5 (1) (f) | Os dados pessoais devem ser processados de forma a garantir a segurança adequada dos dados pessoais, incluindo proteção contra processamento não autorizado ou não ilegal e contra perda acidental, destruição ou danos, usando medidas técnicas ou organizacionais apropriadas ("integridade e confidencialidade".  |  Todos os <br> Identity <br> Dispositivo <br> Proteção contra Ameaças <br> Proteger informações <br> Informações de controle <br> Descobrir e responder |
+| RGPD | Artigo 5 (1) (f) | Os dados pessoais devem ser processados de forma a garantir a segurança adequada dos dados pessoais, incluindo proteção contra processamento não autorizado ou não ilegal e contra perda acidental, destruição ou danos, usando medidas técnicas ou organizacionais apropriadas ("integridade e confidencialidade".  |  Todos os <br> Identidade <br> Dispositivo <br> Proteção contra Ameaças <br> Proteger informações <br> Informações de controle <br> Descobrir e responder |
 |  | Artigo (32) (1) (a) | Levando em consideração o estado da arte, os custos de implementação e a natureza, o escopo, o contexto e a finalidade do processamento, bem como o risco de variar a probabilidade e a gravidade dos direitos e das liberdades de pessoas naturais, o controlador e o processador devem implementar medidas técnicas e organizacionais apropriadas para garantir um nível de segurança apropriado para o risco , incluindo alia conforme apropriado: (a) o pseudônimos e a criptografia de dados pessoais. | Proteger informações |
 |  | Artigo (13) (2) (a) | "... o controlador deve, no momento em que os dados pessoais são obtidos, fornecem os dados sujeitos às seguintes informações adicionais necessárias para garantir o processamento justo e transparente: (a) o período para o qual os dados pessoais serão armazenados ou, se isso não for possível, os critérios usados para determinar esse período. | Informações de controle |
 |  | Artigo (15) (1) (e) | O assunto dos dados deverá ter o direito de obter da confirmação do controlador se os dados pessoais ou não estiverem sendo processados ou não. e onde esse é o caso, acesse os dados pessoais e as seguintes informações: (e) a existência do direito de solicitar a retificação do controlador ou o apagamento de dados pessoais ou a restrição de processamento de dados pessoais referentes ao assunto ou ao objeto de dados para esse processamento | Descobrir e responder |
@@ -133,7 +133,7 @@ Também é importante considerar os seguintes desafios de conformidade de privac
 
 ### <a name="employee-data-required-to-carry-out-day-to-day-business-functions"></a>Dados de funcionários necessários para realizar funções de negócios diárias
 
-As organizações por natureza precisam coletar dados sobre funcionários para fins de identidade e RH eletrônicos, sujeitos ao que eles concordam em seus contratos de funcionário. Contanto que uma pessoa trabalhe para uma empresa, isso normalmente não é um problema. A organização pode querer colocar mecanismos in-loco para evitar que atores mal-intencionados exfiltrating ou vazar dados pessoais de funcionários. 
+As organizações por natureza precisam coletar dados sobre funcionários para fins de identidade e RH eletrônicos, sujeitos ao que eles concordam em seus contratos de funcionário. Contanto que uma pessoa trabalhe para uma empresa, isso normalmente não é um problema. A organização pode querer colocar mecanismos in-loco para evitar que atores mal-intencionados exfiltration ou vazar dados pessoais de funcionários. 
 
 Se uma pessoa deixa uma empresa, as organizações geralmente têm processos, procedimentos, e retenção e exclusão agendamentos para remover contas de usuário, encerrar caixas de correio e unidades pessoais e alterar o status do funcionário em itens como sistemas de recursos humanos. Para situações em que o litígio está envolvido, um funcionário ou outra parte de uma investigação legal pode ter razões válidas para obter informações sobre dados pessoais armazenados nos sistemas da organização. Em algumas ocasiões, essa parte pode solicitar que esses dados sejam removidos ou anônimos. 
 
@@ -151,7 +151,7 @@ Normalmente, os contratos com clientes externos, parceiros e outras entidades co
 
 ### <a name="data-the-organization-has-about-consumers-who-provide-information-to-online-services-that-the-organization-manages-in-the-b2c-scenario"></a>Dados a organização tem sobre os consumidores que fornecem informações aos serviços online que a organização gerencia no cenário B2C
 
-Essa categoria é o que a maioria das pessoas pensa para a privacidade dos dados, devido a muitas instâncias públicas de vazamento de dados do cliente. Isso pode ser intencional, como um terceiro sob contrato para o provedor ou não intencional, como vazadas por um ator mal-intencionado. A proteção de dados do cliente é uma das principais razões pelas quais a União Européia e outros agiram dessas regulamentações. Regulamentações de privacidade de dados como o RGPD e o CCPA exigem que você faça o planejamento de:
+Essa categoria é o que a maioria das pessoas pensa para a privacidade dos dados, devido a muitas instâncias públicas de vazamento de dados do cliente. Isso pode ser intencional, como um terceiro sob contrato para o provedor ou não intencional, como exfiltration por um ator mal-intencionado. A proteção de dados do cliente é uma das principais razões pelas quais a União Européia e outros agiram dessas regulamentações. Regulamentações de privacidade de dados como o RGPD e o CCPA exigem que você faça o planejamento de:
 
 - Listas de verificação de [planos de ação](../compliance/gdpr-action-plan.md) e [preparação de responsabilidade](../compliance/gdpr-arc-office365.md)
 - [Avaliações do impacto sobre a proteção dos dados](../compliance/gdpr-data-protection-impact-assessments.md)
@@ -181,7 +181,7 @@ A avaliação do RGPD consiste em estas seções:
 | | |
 |:-------|:-----|
 | Gestão | <ol><li>A política de privacidade afirma explicitamente quais informações de dados estão sendo processadas? </li><li>Você executa regularmente as avaliações de impacto de privacidade (PIAs)? </li><li> Você usa uma ferramenta para gerenciar informações pessoais (PI)? </li><li> Você tem autoridade legal para realizar negócios usando dados de PI em qualquer indivíduo específico? Você controla o consentimento dos dados? </li><li> Você controla, implementa e gerencia os controles de auditoria? Você monitora os vazamentos de dados? </li></ol>|
-| Notificação de exclusão & | <ol><li>Você fornece instruções explícitas sobre como os dados dos usuários podem ser acessados? </li><li> Você tem processos documentados em vigor para lidar com o consentimento de recusa? </li><li>   Você tem um processo de exclusão automatizada para dados? </li><li>   Você tem um processo para validar a identidade ao participar de um cliente? </li></ol>|
+| Exclusão e notificação | <ol><li>Você fornece instruções explícitas sobre como os dados dos usuários podem ser acessados? </li><li> Você tem processos documentados em vigor para lidar com o consentimento de recusa? </li><li> Você tem um processo de exclusão automatizada para dados? </li><li>   Você tem um processo para validar a identidade ao participar de um cliente? </li></ol>|
 | Mitigação de risco e segurança de informações | <ol><li>Você usa ferramentas para verificar dados não estruturados? </li><li>Todos os servidores estão atualizados e você utiliza firewalls para protegê-los? </li><li>Você executa backups regulares de seus servidores? </li><li>Você monitora ativamente os vazamentos de dados? </li><li>Você criptografa seus dados em repouso e em transmissão? </li></ol>|
 | Gerenciamento de políticas | <ol><li>Como gerenciar suas regras corporativas de associação (BCRs)? </li><li>Você controla o consentimento dos dados? </li><li> Em uma escala de 1 a 5, 5 sendo completamente cobertas, seus contratos cobrem as classificações de dados e os requisitos de manuseio? </li><li>Você tem e testa regularmente um plano de resposta a incidentes? </li><li>Qual política você usa para gerenciar o acesso? </li></ol>|
 |||
@@ -190,7 +190,7 @@ A avaliação do RGPD consiste em estas seções:
 
 Esta etapa envolve a identificação de determinados tipos de informações confidenciais que estão sujeitos a controles normativos específicos, bem como a ocorrência deles no seu ambiente do Microsoft 365. 
 
-Localizar conteúdo em seu ambiente contendo pessoal pode ser uma tarefa formidável, anteriormente envolvendo uma combinação de usar a pesquisa de conformidade, eDiscovery, Advanced eDiscovery DLP e auditoria. 
+Localizar conteúdo em seu ambiente contendo pessoal pode ser uma tarefa formidável, anteriormente envolvendo uma combinação de usar a pesquisa de conformidade, eDiscovery, descoberta eletrônica avançada, DLP e auditoria. 
 
 Com a nova solução de **classificação de dados** no centro de administração de conformidade da Microsoft, isso ficou muito mais fácil com o recurso de [Gerenciador de conteúdo](../compliance/data-classification-content-explorer.md) , que funciona com tipos de informações confidenciais internas ou personalizadas, incluindo aqueles relacionados a dados pessoais.
  
@@ -212,7 +212,7 @@ Consulte estes artigos para obter mais informações:
 - [Personalizar tipos de informações confidenciais](../compliance/custom-sensitive-info-types.md)
 - [Criar um tipo personalizado de informação confidencial no Centro de Conformidade e Segurança](../compliance/create-a-custom-sensitive-information-type.md)
 - [Crie um tipo personalizado de informação confidencial no PowerShell do Centro de Conformidade e Segurança](../compliance/create-a-custom-sensitive-information-type-in-scc-powershell.md)
-- [Criar tipos de informações confidenciais personalizados com classificação com base na correspondência exata de dados](../compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
+- [Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match](../compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
 
 ### <a name="content-explorer"></a>Gerenciador de conteúdo
 

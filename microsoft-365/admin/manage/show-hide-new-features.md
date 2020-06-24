@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Decida quais recursos e o conteúdo de suas novidades são exibidos ou ocultos dos usuários finais no Office What ' s New Management for Office Desktop apps.
-ms.openlocfilehash: 7b9522a901078d6e235e295c184fec65c251338b
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 9f63da1870253c9023fa1e2e169bae22435807e4
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717170"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844723"
 ---
 # <a name="show-or-hide-new-features-using-whats-new-management"></a>Mostrar ou ocultar novos recursos usando o Gerenciamento de Novidades
 
@@ -42,13 +42,9 @@ O Office What ' s New Management está disponível no centro de administração 
 Os administradores podem visualizar o conteúdo novidades de um canal e gerenciar o lançamento do conteúdo usando o gerenciamento de novidades do Office.
 
 1. No centro de administração do Microsoft 365, em **configurações**, escolha **configurações da organização**.
-
 2. Na guia **Serviços** , escolha **Gerenciamento de novidades do Office**.
-
 3. Selecione um ou mais recursos para exibir o nome do recurso, uma breve descrição, o aplicativo e a versão de lançamento de cada recurso no painel flutuante.
-
 4. Escolha **ocultar de usuários** ou **mostrar para usuários**.  
-
     O status **mostrado por padrão** indica que as informações do recurso são mostradas por padrão para os usuários até que o administrador defina o status de um recurso como **oculto** ou **mostrado**.  
 
     > [!NOTE]
@@ -65,6 +61,13 @@ Novos recursos aparecem no Office o que há de novo gerenciamento com base neste
 |**Empresarial semestral** <br/> |1º de Janeiro e 1 de julho <br/> | duas semanas antes da versão principal que traz novos recursos<br/> |
 
 Para obter mais informações sobre cronogramas de atualização de canal, consulte [Update History for Microsoft 365 apps (listado por Date)](https://docs.microsoft.com/officeupdates/update-history-microsoft365-apps-by-date).
+
+## <a name="add-office-whats-new-management-card-to-the-admin-center-home-page"></a>Adicionar o cartão de gerenciamento do Office What ' s New à Home Page do centro de administração
+
+1. Na página de administração do Microsoft 365, escolha Adicionar cartão na parte superior da página
+2. Localize o **que há de novo nos aplicativos do Office** na lista e escolha-o.
+3. Quando o cartão estiver em nossa página inicial, você poderá escolher **gerenciar** para [Mostrar ou ocultar os recursos](#show-or-hide-new-features) da organização do yor. 
+
 
 ## <a name="related-articles"></a>Artigos relacionados
 

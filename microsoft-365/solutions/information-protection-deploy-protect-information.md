@@ -16,12 +16,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Implantar os recursos de segurança e conformidade do Microsoft 365 e proteger suas informações pessoais.
-ms.openlocfilehash: 5a6cc6645be6cad4d901922c0a257d2175c85341
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: 2ec8d280d650606921becb6120546b52253620f4
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695144"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844687"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Proteger informações sujeitas à regulamentação de privacidade de dados
 
@@ -283,11 +283,8 @@ Depois que esses elementos forem determinados, você poderá usar tipos de infor
 
 ![Exemplo de rótulos de confidencialidade trabalhando com DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
 
-<!--
+[Veja uma versão maior desta imagem](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
 
-[See a larger version of this image](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
-
--->
 Aqui estão alguns cenários de proteção de dados usando os rótulos de DLP e sensibilidade, conforme mostrado na figura.
 
 | Cenário | Processo |

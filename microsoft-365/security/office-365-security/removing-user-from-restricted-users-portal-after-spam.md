@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a remover usuários do portal Usuários restritos no Office 365. Os usuários são adicionados ao portal Usuários restritos para enviar spam de saída, geralmente como resultado de um comprometimento da conta.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b9e28550c67e20466b18b17d8b49fb1b68997cc4
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 43312ee6eff9b56ac4faf8173666a1ba79b9e067
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617357"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726734"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Remover usuários bloqueados do portal Usuários restritos no Office 365
 
@@ -40,9 +40,19 @@ Os administradores podem remover usuários do portal Remetentes restritos no Cen
 
 - Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página **Usuários restritos**, use <https://protection.office.com/restrictedusers>.
 
-- Para se conectar ao Exchange Online PowerShell, consulte [Conectar ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Você precisa receber permissões para executar esses procedimentos. Para remover usuários do portal do Usuários restritos, você precisa ser membro dos grupos de funções **Gerenciamento da organização** ou **Administrador de segurança**. Para obter acesso apenas de leitura no portal Usuários restritos, você precisa ser membro do grupo de função **Leitor de segurança**. Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
+- Você precisa ter permissões atribuídas antes de poder executar os procedimentos neste tópico:
+
+  - Para remover usuários do portal Usuários restritos, você precisa ser membro de um dos seguintes grupos de funções:
+
+    - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+    - **Gerenciamento de organizações** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+
+  - Para acesso somente leitura ao portal Usuários restritos, você precisa ser membro de um dos seguintes grupos de funções:
+
+    - **Leitor de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+    - **Gerenciamento da organização Somente visualização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - Um remetente que exceder os limites de e-mail de saída é um indicador de uma conta comprometida. Antes de remover o usuário do portal Usuários Restritos, siga as etapas necessárias para recuperar o controle da sua conta. Para obter mais informações, consulte [Responder a uma conta de e-mail comprometida no Office 365.](responding-to-a-compromised-email-account.md).
 
