@@ -14,19 +14,20 @@ localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
-description: Nos relatórios de governança de dados do Centro de Conformidade &amp; Segurança, você pode visualizar rapidamente se os rótulos estão sendo aplicados ao conteúdo como pretendido.
-ms.openlocfilehash: dbfa8b698a4f09a8307f3bbec38555193237a48c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Com os relatórios de controle de dados no Centro de conformidade e segurança, você pode ver rapidamente se seus rótulos estão sendo aplicados ao conteúdo conforme desejado.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: a4d0fb70774dfb03dc0bc674edf09c092d8b498f
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626297"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819001"
 ---
 # <a name="view-the-data-governance-reports"></a>Exibir os relatórios de governança de dados
 
-Depois de criar rótulos, convém verificar se eles estão sendo aplicados ao conteúdo como pretendido. Com os relatórios de governança de dados no Centro de Conformidade &amp; Segurança, você pode exibir rapidamente:
+After you create your labels, you'll want to verify that they're being applied to content as you intended. With the data governance reports in the Security &amp; Compliance Center, you can quickly view:
   
-- **Cinco principais rótulos** Este relatório mostra a contagem dos cinco principais rótulos aplicados ao conteúdo. Clique neste relatório para exibir uma lista de todos os rótulos aplicados recentemente ao conteúdo. Você pode ver a contagem, o local, como foi aplicado, as ações de retenção, se é um registro e o tipo de disposição do rótulo. 
+- **Top 5 labels** This report shows the count of the top 5 labels that have been applied to content. Click this report to view a list of all labels that have been recently applied to content. You can see each label's count, location, how it was applied, its retention actions, whether it's a record, and its disposition type. 
     
 - **Aplicação manual versus automática** Este relatório mostra a contagem de todo o conteúdo rotulado manualmente ou automaticamente e a porcentagem de conteúdo que foi rotulada manualmente versus a que foi rotulada automaticamente. 
     
@@ -40,7 +41,7 @@ Você pode encontrar esses relatórios no Centro de Conformidade &amp; Seguranç
   
 ![Gráfico mostrando tendências de rótulo nos últimos 90 dias](../media/0cc06c18-d3b1-4984-8374-47655fb38dd2.png)
   
-Você pode filtrar os relatórios de governança de dados por data (até 90 dias) e o local (Exchange, SharePoint e OneDrive for Business). Os dados mais recentes podem levar até 24 horas para aparecer nos relatórios.
+You can filter the data governance reports by date (up to 90 days) and location (Exchange, SharePoint, and OneDrive for Business). The most recent data can take up to 24 hours to appear in the reports.
   
 ![Filtros para relatórios de governança de dados](../media/77e60284-edf3-42d7-aee7-f72b2568f722.png)
   

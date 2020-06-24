@@ -18,13 +18,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
-description: Use o Centro de Conformidade e Segurança no Office 365 para permitir que as caixas de correio de arquivo morto ofereçam suporte à retenção de mensagens, à descoberta eletrônica e aos requisitos de retenção da sua organização.
-ms.openlocfilehash: f544e739bc28b2383492baec5465be1502a08d0d
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.custom: seo-marvel-apr2020
+description: Aprenda a usar o Centro de segurança e conformidade no Office 365 para habilitar caixas de correio de arquivo morto para dar suporte aos requisitos de retenção de mensagens, descoberta eletrônica e retenção de mensagens da sua organização.
+ms.openlocfilehash: d3f8cc292419cce258b750b77c1f1802accd5f21
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166012"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817840"
 ---
 # <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a>Ative as caixas de correio de arquivo morto no Centro de Conformidade e Segurança
   
@@ -33,7 +34,7 @@ O arquivamento no Office 365 (também chamado de arquivamento in-loco) fornece a
 > [!NOTE]
 > O recurso de arquivamento de expansão automática no Office 365 fornece armazenamento adicional em caixas de correio de arquivos. Quando o arquivamento de expansão automática está ativado e a cota de armazenamento inicial na caixa de correio de arquivo morto de um usuário é atingida, o Office 365 adiciona automaticamente mais espaço de armazenamento. Isso significa que os usuários não ficarão sem espaço de armazenamento na caixa de correio, e você não precisará gerenciar nada depois de habilitar inicialmente a caixa de correio de arquivo morto e ativar o arquivamento de expansão automática para sua organização. Confira mais informações em [Visão geral do arquivamento ilimitado no Office 365](unlimited-archiving.md). 
   
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="get-the-necessary-permissions"></a>Obtenha as permissões necessárias
 
 Você precisa ter atribuída a função de Destinatários de Email no Exchange Online para habilitar ou desabilitar caixas de correio de arquivo morto. Por padrão, essa função é atribuída aos grupos de funções de Gerenciamento de Destinatários e Gerenciamento de Organização na página **Permissões** no centro de administração do Exchange. Se você não vir a página **Arquivo** na seção Centro de Conformidade e Segurança, peça ao administrador para atribuir as permissões necessárias. 
   

@@ -15,13 +15,15 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Depois de criar seus rótulos de retenção e rótulos de sensibilidade, você desejará ver como eles estão sendo usados em seu locatário. Com a análise do rótulo no centro de conformidade do Microsoft 365 e no centro de segurança do Microsoft 365, você pode exibir rapidamente os rótulos mais usados e onde foram aplicados.
-ms.openlocfilehash: 3905b868ec3815fd9bf63ca131a20ceb1034f2c7
-ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
+ms.custom:
+- seo-marvel-apr2020
+description: Saiba como ver rapidamente quais rótulos de retenção e de sensibilidade são mais usados e onde estão sendo aplicados.
+ms.openlocfilehash: 89ccdce54b0d7e6146260037b8dcb085631b408e
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231984"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817500"
 ---
 # <a name="view-label-usage-with-label-analytics"></a>Exibição do uso do rótulo com análises de rótulo
 
