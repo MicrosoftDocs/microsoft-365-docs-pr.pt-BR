@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Aprenda como reconhecer e responder a uma conta de e-mail comprometida no Microsoft 365.
-ms.openlocfilehash: adf1ded6fb88cc26e96840dc2a8bfe20300205dc
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 8a7bb98432529bfca70764314d251810d3cdb2a4
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588211"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819480"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Responder a uma conta de email comprometida
 
@@ -98,7 +98,7 @@ Você deve realizar todas as etapas a seguir para recuperar o acesso à sua cont
 - Se a sua identidade local for federada com o Microsoft 365, será necessário alterar sua senha no local e, em seguida, notificar o administrador sobre o comprometimento.
 
 > [!TIP]
-> É altamente recomendável que você ative a Autenticação Multifator (MFA) para evitar comprometimentos, especialmente para contas com privilégios administrativos.  É possível saber mais sobre o MFA[aqui ](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication).
+> É altamente recomendável que você ative a Autenticação Multifator (MFA) para evitar comprometimentos, especialmente para contas com privilégios administrativos.  Para saber mais sobre o MFA, acesse [Configurar autenticação de multifatores]((https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication).
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>Etapa 2 Remover endereços de encaminhamento de email suspeitos
 

@@ -18,16 +18,15 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização. '
-ms.openlocfilehash: 7602042c0bd8fb46b497bdf0fc16bb6b02809074
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 83eb4c453b3a11cb037e62e43525199fa247c3f5
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726532"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818981"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
-
-## <a name="introduction"></a>Introdução
 
 Precisa descobrir se um usuário visualizou um documento específico ou apagou um item de sua caixa de correio? Em caso afirmativo, você pode usar o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização. Por que usar um log de auditoria unificada? Porque você pode procurar os seguintes tipos de [atividades de usuários e administradores ](#audited-activities)no Office 365:
 
@@ -65,7 +64,7 @@ Precisa descobrir se um usuário visualizou um documento específico ou apagou u
 
 - Atividade de usuários e administradores dos rótulos de sensibilidade de sites que usam o SharePoint Online ou o Microsoft Teams
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="requirements-to-search-the-audit-log"></a>Requisitos para pesquisar o log de auditoria
 
 Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
 
@@ -916,7 +915,7 @@ Consulte a seção [Atividades auditadas](#audited-activities) neste artigo para
 
 **Quanto tempo leva para um registro de auditoria estar disponível após um evento ter ocorrido?**
 
-A maioria dos dados de auditoria está disponível em 30 minutos, mas pode levar até 24 horas após a ocorrência de um evento para que a entrada do log de auditoria correspondente seja exibida nos resultados da pesquisa. Veja a tabela na seção [Antes de começar](#before-you-begin) deste artigo, que mostra o tempo necessário para que os eventos nos diferentes serviços estejam disponíveis.
+A maioria dos dados de auditoria está disponível em 30 minutos, mas pode levar até 24 horas após a ocorrência de um evento para que a entrada do log de auditoria correspondente seja exibida nos resultados da pesquisa. Consulte a tabela na seção [Requisitos para pesquisar o log de auditoria](#requirements-to-search-the-audit-log) deste artigo que exibe o tempo necessário dos eventos em diferentes serviços disponíveis.
 
 **Por quanto tempo os registros de auditoria são mantidos?**
 
@@ -932,7 +931,7 @@ Não. Estas são as duas únicas maneiras de obter dados do serviço de auditori
 
 **Preciso habilitar individualmente a auditoria em cada serviço para o qual quero capturar os logs de auditoria?**
 
-Na maioria dos serviços, a auditoria está habilitada por padrão, depois de ativar a auditoria para a sua organização (conforme descrito na seção [Antes de começar](#before-you-begin) deste artigo).
+Na maioria dos serviços, a auditoria é habilitada por padrão depois que você ativa a auditoria pela sua organização, (conforme descrito na seção [Requisitos para pesquisar o log de auditoria](#requirements-to-search-the-audit-log) neste artigo).
 
 **O serviço de auditoria oferece suporte para a duplicação de registros?**
 

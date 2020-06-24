@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao SharePoint e ao OneDrive.
-ms.openlocfilehash: f3c7d805309a86f05cdea8769693ec6de9c1bf51
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: f8fe11d48996cc0365d5f3164883641715e6940b
+ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292489"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44800026"
 ---
 # <a name="learn-about-retention-policies-for-sharepoint-and-onedrive"></a>Saiba mais sobre as políticas de retenção do SharePoint e do OneDrive
 
@@ -36,7 +36,7 @@ Uma política de retenção é aplicada no nível de um conjunto de site. Quando
   
 Caso uma pessoa tente alterar ou excluir o conteúdo de um site que esteja sujeito à política de retenção, primeiro a política verificará se o conteúdo foi alterado desde a aplicação da política. Se essa for a primeira alteração desde que a política foi aplicada, a política de retenção copiará o conteúdo na Biblioteca de Retenção para Preservação e, então, permitirá que a pessoa altere ou exclua o conteúdo original. Qualquer conteúdo do conjunto de sites poderá ser copiado para a Biblioteca de Retenção para Preservação, mesmo se o conteúdo não corresponder à consulta usada pela política de retenção.
   
-Um trabalho do temporizador limpa periodicamente a Biblioteca de Retenção para Preservação. Esta tarefa compara todo o conteúdo da Biblioteca de Retenção para Preservação para todas as consultas usadas pelas políticas de retenção no site. O conteúdo anterior ao período de retenção configurado é excluído da Biblioteca de Retenção para Preservação e do local original, se ainda estiver lá. Esse trabalho do temporizador é executado a cada 7 dias, o que significa que pode levar até 7 dias para o conteúdo ser excluído.
+Um trabalho do temporizador limpa periodicamente a Biblioteca de Retenção para Preservação. Esta tarefa compara todo o conteúdo da Biblioteca de Retenção para Preservação para todas as consultas usadas pelas políticas de retenção no site. O conteúdo anterior ao período de retenção configurado é excluído da Biblioteca de Retenção para Preservação e do local original, se ainda estiver lá. Este trabalho temporizado é executado a cada sete dias, o que significa que pode levar até sete dias para que o conteúdo seja apagado.
   
 Esse comportamento se aplica ao conteúdo que existe quando a política de retenção é aplicada. Além disso, qualquer conteúdo novo criado ou adicionado ao conjunto de sites depois que ele tiver sido incluído na política será retido após a exclusão. Entretanto, o novo conteúdo não será copiado para a Biblioteca de Retenção para Preservação na primeira vez em que for editado, somente quando for excluído. Para manter todas as versões de um arquivo, você deve ativar o [controle de versão](#how-a-retention-policy-works-with-document-versions-in-a-site-collection).
   
@@ -53,7 +53,7 @@ Quando a política de retenção for reter e excluir:
     > [!NOTE]
     > Para ajudar a evitar a perda de dados acidental, não excluímos mais permanentemente o conteúdo da biblioteca de Retenção para Preservação. Em vez disso, excluímos permanentemente somente o conteúdo da lixeira, portanto, todo o conteúdo da Biblioteca de Retenção para Preservação agora passará pela lixeira de segundo estágio.
     
-2. **Se o conteúdo não for modificado ou excluído** durante o período de retenção, o trabalho do temporizador move o conteúdo para a lixeira de primeiro estágio no final do período de retenção. Se um usuário excluir o conteúdo da lixeira ou esvaziá-la (processo também conhecido como limpeza), o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras de primeiro e de segundo estágio. Após os 93 dias, o documento será excluído permanentemente de onde estiver, seja na Lixeira de primeiro ou de segundo estágio. Como a lixeira não está indexada, ela não está disponível para pesquisa. Como resultado, uma pesquisa de descoberta eletrônica não encontra conteúdos da lixeira para colocar uma retenção.
+2. **Se o conteúdo não for modificado ou excluído** durante o período de retenção, o trabalho do temporizador move o conteúdo para a lixeira de primeiro estágio no final do período de retenção. Se um usuário excluir o conteúdo da lixeira ou esvaziá-la (processo também conhecido como limpeza), o documento será movido para a lixeira de segundo estágio. Um período de retenção de 93 dias abrange as lixeiras do primeiro e do segundo estágio. No final de 93 dias, o documento é excluído permanentemente de onde estiver, na Lixeira de primeiro ou de segundo estágio. Como a lixeira não está indexada, ela não está disponível para pesquisa. Como resultado, uma pesquisa de descoberta eletrônica não encontra conteúdos da lixeira para colocar uma retenção.
 
 Quando a política de retenção for reter somente ou excluir somente, os caminhos de conteúdo serão variações de reter e excluir:
 
@@ -75,9 +75,9 @@ O controle de versão é um recurso de todas as bibliotecas de documentos no Sha
   
 Uma política de retenção mantém todas as versões de um documento em um conjunto de sites do SharePoint ou em uma conta do OneDrive. Quando um documento sujeito a uma política de retenção ou bloqueio for editado pela primeira vez, uma versão do documento original será copiada na Biblioteca de Retenção para Preservação. Quando um documento sujeito a uma política de retenção ou de bloqueio for excluído, todas as versões serão copiadas para a Biblioteca de Retenção para Preservação se o controle de versão estiver habilitado. Cada versão de um documento na Biblioteca de Retenção para Preservação existe como um item separado com seu próprio período de retenção:
   
-- Se a política de retenção se basear em quando o conteúdo foi criado, cada versão terá a mesma data de expiração do documento original. O documento original e suas versões expirarão ao mesmo tempo.
+- If the retention policy is based on when the content was created, each version has the same expiration date as the original document. The original document and its versions all expire at the same time.
     
-- Se a política de retenção estiver baseada na data da última modificação do conteúdo, cada versão terá sua própria data de expiração com base em quando o documento original foi modificado para criar essa versão. Os documentos originais e suas versões expirarão de maneira independente entre si.
+- If the retention policy is based on when the content was last modified, each version has its own expiration date based on when the original document was modified to create that version. The original documents and its versions expire independently of each other.
 
 > [!NOTE]
 > As versões preservadas dos documentos do SharePoint e do OneDrive não são pesquisáveis por ferramentas de Descoberta Eletrônica.
@@ -100,13 +100,9 @@ Na página do assistente **Escolha locais**, selecione uma das seguintes opçõe
 
 - **Aplicar política apenas ao conteúdo em emails do Exchange, pastas públicas, Grupos do Office 365, documentos do OneDrive e do SharePoint**
 
-- **Deixe-me escolher locais específicos** > **Sites do SharePoint** ou **Contas do OneDrive**
+- **Deixe-me escolher locais específicos** > **sites do SharePoint**, **contas do OneDrive**e **grupos do Office 365**.
 
-### <a name="sharepoint-locations"></a>Locais do SharePoint  
-
-A política de retenção pode reter conteúdo em sites de comunicação do SharePoint, sites de equipe que não estão conectados por grupos do Office 365 e sites clássicos. Os sites de equipes conectados por grupos do Office 365 não têm suporte com esta opção, em vez disso, use os locais de **grupos do Office 365**. 
-
-Caso especifique sites que não têm suporte, eles serão ignorados pela política de retenção. 
+Quando você escolhe o local **Sites do SharePoint**, a política de retenção pode reter o conteúdo nos sites de comunicação do SharePoint, sites de equipes que não estão conectados por grupos do Office 365 e sites clássicos. Os sites de equipes conectados por grupos do Office 365 não possuem suporte com essa opção e, em vez disso, use a **Grupos do Office 365** local que se aplicam ao conteúdo na caixa de correio do grupo, sites e arquivos. 
 
 Ao especificar os locais para os sites do SharePoint, não será preciso ter permissões para acessar o site e nenhuma validação será feita ao especificar a URL na página **Editar locais**. No entanto, os sites devem ser indexados e os especificados por você, serão verificados no final do assistente. 
 

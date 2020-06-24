@@ -16,19 +16,20 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 'Use uma política de retenção para decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra condições específicas.'
-ms.openlocfilehash: 377c5e1f21938204123de298e620a3d0d2bb9755
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+description: Aprenda mais sobre o uso de uma política de retenção para reter ou excluir conteúdo e como aplicar uma única política à organização ou a locais ou usuários específicos.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ffd7b644f33e7f432c62c182e2d69e07c8bce730
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695134"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818921"
 ---
 # <a name="learn-about-retention-policies"></a>Saiba mais sobre políticas de retenção
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-Para a maioria das organizações, o volume e a complexidade dos dados aumentam diariamente, como emails, documentos, mensagens instantâneas e muito mais. O gerenciamento ou controle efetivo dessas informações é importante porque você precisa:
+For most organizations, the volume and complexity of their data is increasing daily—email, documents, instant messages, and more. Effectively managing or governing this information is important because you need to:
   
 - **Estar em conformidade de forma proativa com as regulamentações do setor e as políticas internas** que exigem a retenção do conteúdo por um período mínimo de tempo, por exemplo, a lei Sarbanes-Oxley, que pode exigir que você guarde determinados tipos de conteúdo por sete anos. 
     
@@ -36,7 +37,7 @@ Para a maioria das organizações, o volume e a complexidade dos dados aumentam 
     
 - **Ajudar a sua organização a compartilhar conhecimento de maneira eficaz e ser mais ágil** garantindo que seus usuários trabalhem apenas com conteúdo atual e relevante para eles. 
     
-Uma política de retenção pode ajudá-lo a atingir todos esses objetivos. O gerenciamento de conteúdo normalmente requer duas ações:
+A retention policy can help you achieve all of these goals. Managing content commonly requires two actions:
   
 - **Reter** conteúdo para que ele não seja excluído permanentemente antes do fim do período de retenção. 
     
@@ -50,7 +51,7 @@ Com uma política de retenção, você pode:
     
 - Aplicar uma política a todo o conteúdo ou ao conteúdo que atende condições específicas, por exemplo, como palavras-chave ou [tipos de informações confidenciais](what-the-sensitive-information-types-look-for.md).
     
-Quando o conteúdo está sujeito a uma política de retenção, as pessoas podem continuar editando e trabalhando com o conteúdo como de costume. O conteúdo é retido no local, em seu local original. Mas se alguém edita ou exclui um conteúdo sujeito à política de retenção, uma cópia do conteúdo original é salva em um local seguro, no qual será retida enquanto a política estiver em vigor. Para obter mais informações, confira a seção [Como funciona uma política de retenção com conteúdo in-loco](#how-a-retention-policy-works-with-content-in-place) nesta página
+When content is subject to a retention policy, people can continue to edit and work with the content as if nothing's changed. The content is retained in place, in its original location. But if someone edits or deletes content that's subject to the retention policy, a copy of the original content is saved to a secure location where it's retained while the retention policy for that content is in effect. For more information, see the [How a retention policy works with content in place](#how-a-retention-policy-works-with-content-in-place) section on this page
   
 Além disso, algumas organizações devem estar em conformidade com as regulamentações, como a Regra 17a-4 da Securities and Exchange Commission (SEC). Essa regulamentação exige que, após a ativação de uma política de retenção, ela não possa ser desativada ou tornada menos restritiva. Para atender a esse requisito, você pode usar o **Bloqueio de Preservação**. Após uma política de retenção ser bloqueada, ninguém (incluindo o administrador) poderá desativar a política de retenção ou torná-la menos restritiva. Para obter mais informações, confira a seção [Usar o Bloqueio de Preservação para atender aos requisitos regulamentares](#use-preservation-lock-to-comply-with-regulatory-requirements) nesta página.
 

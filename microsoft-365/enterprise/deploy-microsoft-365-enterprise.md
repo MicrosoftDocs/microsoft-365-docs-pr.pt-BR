@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: seo-marvel-apr2020
 description: Entenda os recursos que você pode usar para implantar o Microsoft 365 para empresas na sua organização.
-ms.openlocfilehash: 42b193683a2e0c5efce73b62b00747b20baec05a
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
+ms.openlocfilehash: c076a3f96c7943d9e37c2d5bd7d6ce17d27ca3d6
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268322"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819323"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>Implantação do Microsoft 365 para empresas
 
@@ -59,7 +59,7 @@ Para implantar o Microsoft 365 para empresas sozinho, você pode:
 
   **Se você é uma organização menor ou mais recente**, siga as fases em ordem para criar sua infraestrutura de forma metódica.
 
-  Entretanto, você pode implantar fases ou as porções de fases desta infraestrutura em qualquer ordem conforme necessário, [uma após a outra ou em paralelo](deployment-strategies-microsoft-365-enterprise.md), para se integrar à sua infraestrutura atual, encaixar-se com seus planos e recursos de TI e atender às suas necessidades de negócios. Para uma implantação não empresarial simplificada, clique [aqui](deploy-foundation-infrastructure-non-enterprises.md).
+  Entretanto, você pode implantar fases ou as porções de fases desta infraestrutura em qualquer ordem conforme necessário, [uma após a outra ou em paralelo](deployment-strategies-microsoft-365-enterprise.md), para se integrar à sua infraestrutura atual, encaixar-se com seus planos e recursos de TI e atender às suas necessidades de negócios. Para uma implantação simplificada para não empresas, acesse [infraestrutura de fundação para não empresas](deploy-foundation-infrastructure-non-enterprises.md).
 
   **Se você é uma organização corporativa**, veja as fases como as camadas de infraestrutura de TI em vez de um caminho definido e determine qual é a melhor maneira de chegar à adesão eventual às exigências de cada camada em toda a sua organização.
 
@@ -71,7 +71,7 @@ Aqui está a relação entre a infraestrutura da fundação e as cargas de traba
 
 As cargas de trabalho operam sobre a parte superior da infraestrutura da fundação. Entretanto, você não precisa ter todas as fases da infraestrutura de base prontas para começar a usar cargas de trabalho para produtividade e colaboração.
 
-Comece sozinho em sua jornada de implantação de ponta a ponta [aqui](deploy-foundation-infrastructure.md).
+Inicie sua jornada de implantação de ponta a ponta no [Infraestrutura de base do Microsoft 365 para empresas](deploy-foundation-infrastructure.md).
 
 ## <a name="take-a-test-drive"></a>Faça um test drive
 

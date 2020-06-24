@@ -16,13 +16,14 @@ search.appverid:
 - MST160
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
-description: Use a ferramenta de Pesquisa de Conteúdo no Centro de Conformidade e segurança para pesquisar e exportar dados de chat do MicrosoftTeams (chamados de chat 1xN) para usuários locais em uma implantação híbrida do Exchange.
-ms.openlocfilehash: ab523c0d2d334d3d2366711e241b3bafa2e0002f
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+description: Use a ferramenta Pesquisa de conteúdo no Centro de conformidade e segurança para procurar e exportar dados de bate-papo do Teams para usuários locais em uma implantação híbrida do Exchange.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 159c9c674feca4b01618289b194dd162c9020d59
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352114"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818880"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users"></a>Pesquisar caixas de correio baseadas em nuvem para usuários locais 
 
