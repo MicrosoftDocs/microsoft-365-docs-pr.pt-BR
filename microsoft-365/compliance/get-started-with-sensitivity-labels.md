@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: 2fbb54cadaa1681ace4e04dade4fd5a0784360eb
-ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
+ms.openlocfilehash: d68ba3b4ee1c0de8fa5262c3b59e8f53ebc2d3d2
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44739055"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844653"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -58,9 +58,11 @@ Para visualizar as opções de licenciamento dos seus usuários para se benefici
 
 Os membros da sua equipe de conformidade que forem criar rótulos de confidencialidade precisam de permissões no Centro de conformidade do Microsoft 365, Centro de segurança do Microsoft 365 ou Centro de Conformidade e Segurança. 
 
-Por padrão, seu administrador de locatário tem acesso a esses centros de administração e poderá fornecer acesso aos agentes de conformidade e a outras pessoas sem fornecer a eles todas as permissões de um administrador de locatários. Para permitir que se delegue esse acesso limitado de administrador, vá para a página **Permissões** de um desses centros de administração e, em seguida, adicione membros ao grupo de funções **administrador de conformidade de dados**, **administrador de conformidade** ou ** administrator de segurança**.
+Por padrão, os administradores globais de locatários têm acesso a esses centros de administração e podem conceder acesso a agentes de conformidade e a outras pessoas, sem fornecer a eles todas as permissões de um administrador de locatários. Para esse acesso delegado de administrador limitado, adicione usuários ao grupo de funções **Administrador de Dados de Conformidade**, **Administrador de Conformidade** ou **Administrador de Segurança**. 
 
-Como alternativa, você pode criar um novo grupo de funções e adicionar as funções **administrador de rótulo de confidencialidade** ou **configuração da organização** a esse grupo. Para uma função somente leitura, use **Leitor de rótulos de sensibilidade**. Para obter instruções, consulte [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
+Como alternativa às funções padrão, você pode criar um novo grupo de funções e adicionar as funções **Administrador de Rótulo de Confidencialidade** ou **Configuração da Organização** a esse grupo. Para uma função somente leitura, use **Leitor de rótulos de sensibilidade**. 
+
+Para obter instruções sobre como adicionar usuários às funções padrão ou criar seus próprios grupos de funções, confira [Conceder aos usuários acesso ao Centro de Segurança e Conformidade do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
 
 Essas permissões são necessárias somente para criar e configurar os rótulos de confidencialidade e suas políticas de rótulos. Eles não são necessários para aplicar os rótulos em aplicativos ou serviços. Se forem necessárias permissões adicionais para as configurações específicas relacionadas aos rótulos de sensibilidade, essas permissões serão listadas nas suas respectivas instruções de documentação.
 

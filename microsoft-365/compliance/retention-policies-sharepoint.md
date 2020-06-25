@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao SharePoint e ao OneDrive.
-ms.openlocfilehash: f8fe11d48996cc0365d5f3164883641715e6940b
-ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
+ms.openlocfilehash: 59237e59b607baa2227140c957be5876c5910754
+ms.sourcegitcommit: e3900c818877c2cdcd227917ec975c03e828c7ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44800026"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44861178"
 ---
 # <a name="learn-about-retention-policies-for-sharepoint-and-onedrive"></a>Saiba mais sobre as políticas de retenção do SharePoint e do OneDrive
 
@@ -96,7 +96,7 @@ Se um usuário sair da organização, quaisquer arquivos sujeitos a uma polític
 
 Confira [Criar e configurar políticas de retenção](create-retention-policies.md).
 
-Na página do assistente **Escolha locais**, selecione uma das seguintes opções:
+Siga as instruções para [Criar e configurar políticas de retenção](create-retention-policies.md) e, na página **Escolher locais** do assistente, escolha uma das seguintes opções:
 
 - **Aplicar política apenas ao conteúdo em emails do Exchange, pastas públicas, Grupos do Office 365, documentos do OneDrive e do SharePoint**
 
