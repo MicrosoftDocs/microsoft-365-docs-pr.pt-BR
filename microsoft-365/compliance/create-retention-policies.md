@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Use uma política de retenção para decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra determinadas condições.'
-ms.openlocfilehash: 35c93ed6ee942f9553e196d3f15634e53c0bf25d
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 12b0c15186a27a1583403214a657367c1dd3b1a9
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352228"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844747"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -34,7 +34,7 @@ Para saber mais sobre o funcionamento das políticas de retenção, confira [Sai
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Os membros de sua equipe de conformidade que criarão e gerenciarão políticas de retenção precisam de permissões para o [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/). Por padrão, o administrador de locatário terá acesso a esse local e pode dar acesso a outras pessoas e aos responsáveis pela conformidade, sem lhes dar todas as permissões de um administrador de locatários. Para fazer isso, recomendamos que você acesse a página **Permissões** do [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/), edite a função **Administrador de Conformidade** e adicione membros a esse grupo de função. 
+Os membros de sua equipe de conformidade que criarão e gerenciarão políticas de retenção precisam de permissões para o [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/). Por padrão, o administrador de locatário (administrador global) terá acesso a esse local e pode dar acesso a outras pessoas e aos responsáveis pela conformidade, sem lhes dar todas as permissões de um administrador de locatários. Para fazer isso, recomendamos que você adicione usuários ao grupo de função de administrador **Administrador de Conformidade**. Para obter instruções, confira [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
 
 Essas permissões são necessárias somente para criar e aplicar uma política de retenção. A pessoa que configura a política de retenção não exige acesso ao conteúdo.
 
@@ -66,7 +66,7 @@ Quando você tiver mais de uma política de retenção, confira [Os princípios 
 
 Para manter ou excluir o conteúdo de um grupo do Microsoft 365 (antigo grupo do Office 365), selecione o local **Grupos do Office 365**, ao escolher locais para sua política de retenção. Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Além disso, embora o local **E-mail do Exchange** permita inicialmente especificar uma caixa de correio de grupo a ser incluída ou excluída, ao tentar salvar a política de retenção, você recebe um erro indicando que "RemoteGroupMailbox" não é uma seleção válida para o local do Exchange.
 
-Uma política de retenção aplicada a um grupo do Microsoft 365 inclui a caixa de correio do grupo e um site. Uma política de retenção aplicada a um grupo do Microsoft 365 protege os recursos criados por um grupo do Microsoft 365, que inclui o Microsoft Teams.
+Uma política de retenção aplicada a um grupo do Microsoft 365 inclui a caixa de correio e o site do grupo. Uma política de retenção aplicada a um grupo do Microsoft 365 protege os recursos criados por um grupo do Microsoft 365, que inclui o Microsoft Teams.
 
 ### <a name="configuration-information-for-skype-for-business"></a>Informações de configuração do Skype for Business
 
@@ -78,7 +78,7 @@ Ao selecionar **escolher usuários**, você pode incluir rapidamente todos os us
   
 ![Página Escolher usuários do Skype](../media/f1742493-741a-4142-a564-d7d41ab0236a.png)
   
-Observe que o **Histórico da Conversa**, uma pasta no Outlook, é um recurso que não tem nada a ver com o arquivamento do Skype. **Histórico da Conversa** pode ser desativado pelo usuário final, mas o arquivamento para o Skype é feito armazenando-se uma cópia das conversas do Skype em uma pasta oculta que é inacessível ao usuário, mas disponível para Descoberta Eletrônica.
+Note that **Conversation History**, a folder in Outlook, is a feature that has nothing to do with Skype archiving. **Conversation History** can be turned off by the end user, but archiving for Skype is done by storing a copy of Skype conversations in a hidden folder that is inaccessible to the user but available to eDiscovery.
 
 
 ## <a name="settings-for-retaining-and-deleting-content"></a>Configurações de retenção e exclusão de conteúdo
@@ -113,7 +113,7 @@ Se sua política de retenção excluir conteúdo, será importante entender que 
   
 Por exemplo, suponha que você crie uma política de retenção que exclui o conteúdo depois de três anos e, em seguida, atribui essa política a todas as contas do OneDrive, que incluem uma grande quantidade de conteúdo criado há quatro ou cinco anos. Nesse caso, uma boa parcela do conteúdo será excluída logo depois que a política de retenção for atribuída pela primeira vez. Por esse motivo, é importante compreender que uma política de retenção que exclui conteúdo pode ter um impacto considerável sobre o seu conteúdo. 
   
-Portanto, quando atribuir uma política de retenção a um conjunto de sites pela primeira vez, primeiro considere a idade do conteúdo e de que modo a política poderá afetá-los. Você também poderá informar os usuários sobre a nova política antes de atribuí-la, para que eles tenham tempo de avaliar o possível impacto. Observe esse aviso que é exibido quando você revisa as configurações da política de retenção antes de criá-la.
+Therefore, before you assign a retention policy to a site collection for the first time, you should first consider the age of the existing content and how the policy may impact that content. You may also want to communicate the new policy to your users before assigning it, to give them time to assess the possible impact. Note this warning that appears when you review the settings for your retention policy just before creating it.
   
 ![Aviso sobre exclusão de conteúdo](../media/59c26b19-3628-4cc1-9a73-a05127a8e81b.png)
   
@@ -135,7 +135,7 @@ A retenção com base em consulta usa o índice de pesquisa para identificar con
   
 ### <a name="identify-content-that-contains-sensitive-information"></a>Identificar conteúdo com informações confidenciais
 
-Você também pode aplicar uma política de retenção apenas ao conteúdo que inclui [tipos específicos de informações confidenciais](what-the-sensitive-information-types-look-for.md). Por exemplo, você pode optar por aplicar exigências de retenção exclusivas somente ao conteúdo com informações de identificação pessoal (PII) como números de identificação de contribuinte, números de CPF ou números de passaporte.
+You can also apply a retention policy only to content that contains [specific types of sensitive information](what-the-sensitive-information-types-look-for.md). For example, you can choose to apply unique retention requirements only to content that contains personally identifiable information (PII) such as taxpayer identification numbers, social security numbers, or passport numbers.
   
 ![Página Tipos de informações confidenciais](../media/8b104819-d185-4d58-b6b3-d06e82686a05.png)
   
@@ -229,7 +229,7 @@ Para usar os cmdlets de políticas de retenção:
 
 ## <a name="lock-a-retention-policy-by-using-powershell"></a>Bloquear uma política de retenção usando o Windows PowerShell
 
-Você deve usar o Windows PowerShell se precisar usar o [Bloqueio de Preservação](retention-policies.md#use-preservation-lock-to-comply-with-regulatory-requirements) para atender aos requisitos regulamentares.
+Você deve usar o Windows PowerShell se precisar usar o [Bloqueio de Preservação](retention-policies.md#use-preservation-lock-to-comply-with-regulatory-requirements) para atender aos requisitos normativos.
 
 1. [Conecte-se ao Windows PowerShell do Centro de Segurança e Conformidade do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 
