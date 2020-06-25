@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
-ms.openlocfilehash: 74e33fe394802050ced64c5c3d9e41dcbd2550f0
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 191f0492293738a9bce486226ca7d87d947a3f65
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616521"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726827"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
@@ -73,7 +73,17 @@ Para aumentar a eficácia da filtragem de spam, crie políticas antispam persona
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa receber permissões para executar esses procedimentos. Para adicionar, modificar e excluir políticas antispam, você precisa ser membro dos grupos de funções **Gerenciamento da Organização** ou **Administrador de Segurança**. Para obter acesso apenas de leitura às políticas de spam, você precisa ser membro do grupo de função **Leitor de Segurança**. Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
+- Você precisa ter permissões atribuídas antes de poder executar os procedimentos neste tópico:
+
+  - Para adicionar, modificar e excluir políticas anti-spam, você precisa ser membro de um dos seguintes grupos de funções:
+
+    - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+    - **Gerenciamento de organizações** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+
+  - Para acesso somente leitura às políticas anti-spam, você precisa ser membro de um dos seguintes grupos de funções:
+
+    - **Leitor de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+    - **Gerenciamento da organização Somente visualização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - Para ver as configurações recomendadas para políticas antimalware, confira [Configurações de política antispam da EOP](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings).
 

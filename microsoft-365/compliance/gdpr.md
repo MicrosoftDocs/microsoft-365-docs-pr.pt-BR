@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fb89a24e48dbdadd9a1af863cb8c44ded46435b1
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 5d1e6730d215fcef6bd0cad6244c82b960ed39ce
+ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036204"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44800016"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Resumo do Regulamento Geral sobre a Proteção de Dados
 
@@ -125,7 +125,7 @@ O RGPD exige que um DPIA inclua:
 Segundo o GDPR, como controlador, é necessário que você realize DPIAs antes de práticas de processamento de dados que provavelmente resultarão em um alto risco aos direitos e às liberdades dos indivíduos, em particular, o processamento com o uso de novas tecnologias. O GDPR fornece a seguinte lista não exaustiva de casos em que DPIAs devem ser realizadas:
 
 - Processamento automatizado para fins de criação de perfis e atividades semelhantes que tenham efeitos legais ou que, de modo semelhante, afetem significativamente os titulares dos dados;  
-- Processamento em grande escala de categorias especiais de dados pessoais – dados reveladores de origem racial ou étnica, opinião política e semelhantes – ou de dados relacionados a condenações e delitos penais;  
+- Processamento em grande escala de categorias especiais de dados pessoais - dados que revelam origem racial ou étnica, opinião política e similares - ou de dados relacionados a condenações e ofensas criminais;  
 - Monitoramento sistemático de uma área de acesso público em grande escala.  
 
 O RGPD também exige que você consulte sua Autoridade de Proteção de Dados (DPA) antes de iniciar qualquer processamento caso não consiga identificar processos suficientes para minimizar os altos riscos aos titulares dos dados.
@@ -294,8 +294,7 @@ Os dados pessoais são quaisquer informações relacionadas a uma pessoa, identi
 - Número de contribuinte
 - Endereço comercial
 - Números de cartão de crédito/débito
-- Postagens em mídia social
-- Postagens em mídia social
+- Postagens em redes sociais
 - Endereço IP (região da UE)
 - Dados de localização/GPS
 - Cookies

@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Neste artigo, você aprenderá sobre as opções disponíveis para criar um ambiente de compartilhamento de convidados seguro no Microsoft 365.
-ms.openlocfilehash: b567be8df8d0b9dc96400627c6607560fefd9c39
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 9997fee5c12b54642304270e379cd09ca75b5033
+ms.sourcegitcommit: 5e8901e7e571f20ede04f460bd3e7077dda004ca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159474"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874889"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Criar um ambiente de compartilhamento de convidados seguro
 
@@ -40,7 +40,7 @@ Esse cenário inclui:
 
 Algumas das opções discutidas neste artigo exigem que os convidados tenham uma conta do Azure Active Directory. Para garantir que os convidados sejam incluídos no diretório ao compartilhar arquivos e pastas com eles, use a [integração do SharePoint e do OneDrive com a Visualização B2B do Azure AD](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).
 
-Observe que não vamos discutir a habilitação das configurações de compartilhamento de convidados neste artigo. Confira [Colaborar com pessoas de fora da sua organização](https://docs.microsoft.com/Office365/Enterprise/collaborate-with-people-outside-your-organization) para obter detalhes sobre como habilitar o compartilhamento de convidados para diferentes cenários.
+Observe que não vamos discutir a habilitação das configurações de compartilhamento de convidados neste artigo. Confira [Colaborar com pessoas de fora da sua organização](collaborate-with-people-outside-your-organization.md) para obter detalhes sobre como habilitar o compartilhamento de convidados para diferentes cenários.
 
 ## <a name="set-up-multi-factor-authentication-for-guests"></a>Configurar a autenticação multifator para convidados
 

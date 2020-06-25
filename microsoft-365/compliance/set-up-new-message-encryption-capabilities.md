@@ -16,13 +16,14 @@ ms.assetid: 7ff0c040-b25c-4378-9904-b1b50210d00e
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-description: Novos recursos de criptografia de mensagens do Office 365 criados no topo da proteção de informações do Azure, sua organização pode usar comunicações de email protegidas com pessoas dentro e fora da sua organização. Os novos recursos do OME funcionam com outras organizações, Outlook.com, Gmail e outros serviços de email.
-ms.openlocfilehash: 95ac1528c59dc3f59e0d0e923d78ffb7138456d5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Aprenda sobre os novos recursos de criptografia das mensagens do Office 365 que permitem a comunicação protegida por e-mail com pessoas dentro e fora da organização.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6d6e37da7456cfbb0b7cbf8d986b54615aca60f0
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635463"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819181"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>Configurar recursos de criptografia de nova mensagem
 

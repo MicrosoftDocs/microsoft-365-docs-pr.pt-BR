@@ -28,12 +28,12 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: 2ae3ea58-4fce-4592-91d6-46e9ae3ec218
 description: Localize a sua fatura ou demonstrativo de cobrança no Centro de administração do Microsoft 365. Você também pode salvar e imprimir uma cópia da fatura.
-ms.openlocfilehash: d034e59e80af6396867282f3e7c23179c332c251
-ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
+ms.openlocfilehash: 7360f2bb73f78450143d5f1428ae90aa5bc0e0a1
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407939"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44816992"
 ---
 # <a name="view-your-bill-or-invoice"></a>Exibir sua fatura
 
@@ -49,13 +49,13 @@ Se precisar de ajuda para interpretar as cobranças na sua fatura, consulte [Com
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGmo] 
 
-Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
 ## <a name="view-a-bill-or-invoice"></a>Exibir uma fatura
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Faturas e pagamentos</a>.
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Faturas e pagamentos</a>.
 
 ::: moniker-end
 
@@ -71,21 +71,20 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 
 ::: moniker-end
 
-2. Selecione um intervalo de datas na lista suspensa e escolha o pedido que você deseja exibir.
+2. Na guia **Faturas**, selecione um período na lista suspensa e escolha a ordem que quer visualizar.
 
 3. Na página de resumo, você pode ver o seguinte:
 
-  - O saldo total, o valor atual devido, a data de vencimento do pagamento, o valor do último pagamento e a data em que foi recebido.
+    - O saldo total, o valor atual devido, a data de vencimento do pagamento, o valor do último pagamento e a data em que foi recebido.
 
-  - Instruções de pagamento.
+    - Instruções de pagamento.
 
-  - Um registro das últimas datas de pagamento e os valores pagos.
+    - Um registro das últimas datas de pagamento e os valores pagos.
 
-  - A data de criação e o número do pedido.
+    - A data de criação e o número do pedido.
 
 4. Para imprimir ou salvar uma cópia da fatura em PDF, selecione **Baixar PDF**.
 
-  
 ## <a name="related-articles"></a>Artigos relacionados
 
 [Pagar por fatura, cartão de crédito ou débito em conta](pay-for-your-subscription.md)
