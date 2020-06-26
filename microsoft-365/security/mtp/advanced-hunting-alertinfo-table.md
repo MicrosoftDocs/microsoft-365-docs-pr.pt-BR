@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: e4d7ec213a4b4d1108c06784fb5e6675c79429c1
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: a1290ee415073a9cb3948bc4b0cc6bb3ae13285b
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42929511"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899012"
 ---
 # <a name="alertinfo"></a>AlertInfo
 
@@ -31,7 +31,7 @@ ms.locfileid: "42929511"
 
 
 
-A `AlertInfo` tabela no esquema de [caça avançada](advanced-hunting-overview.md) contém informações sobre os alertas do Microsoft Defender ATP, Office 365 ATP, Microsoft Cloud app Security e Azure ATP. Use essa referência para criar consultas que retornam informações dessa tabela.
+A `AlertInfo` tabela no esquema de [caça avançada](advanced-hunting-overview.md) contém informações sobre os alertas do Microsoft defender ATP, Office 365 ATP, Microsoft Cloud app Security e Azure ATP. Use essa referência para criar consultas que retornam informações dessa tabela.
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 
@@ -47,7 +47,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `AttackTechniques` | string | MITRE ATT&as técnicas de Enck associadas à atividade que disparou o alerta |
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Buscar proativamente por ameaças](advanced-hunting-overview.md)
+- [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
 - [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)

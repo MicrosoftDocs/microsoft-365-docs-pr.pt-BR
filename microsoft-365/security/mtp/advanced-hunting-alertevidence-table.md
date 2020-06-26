@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: da6e84725aa391e4cb6056fadd327fdba2436214
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: a0f2ae36752a4415da7c1bc39ce35bd7f744a764
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617081"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899346"
 ---
 # <a name="alertevidence"></a>AlertEvidence
 
@@ -53,7 +53,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `AdditionalFields` | string | Informações adicionais sobre o evento no formato de matriz JSON |
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Buscar proativamente por ameaças](advanced-hunting-overview.md)
+- [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
 - [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)

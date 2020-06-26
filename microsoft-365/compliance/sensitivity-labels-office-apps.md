@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para área de trabalho, celular e Web e quais aplicativos dão suporte a rótulos de confidencialidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d2d1486aaed7ee3be308a847d9fd3ae19585f52d
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 5fe30390b6eb59ce9c959fc478c2c10e3a71c450
+ms.sourcegitcommit: 92a6595b482396f44675c22221500703a5649dab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819251"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44879285"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -55,7 +55,7 @@ Para iOS e Android: onde eles têm uma versão mínima listada, o recurso de ró
 |Funcionalidade                                                                                                        |Windows Desktop |Área de trabalho Mac |iOS    |Android      |Web                                                         |
 |------------------------------------------------------------------------------------------------------------------|----------------|------------|-------|-------------|------------------------------------------------------------|
 |[Aplicar, alterar ou remover manualmente o rótulo](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[Aplicar um rótulo padrão](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | Implementando                                                        |
+|[Aplicar um rótulo padrão](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md)                                                        |
 |[Exigir uma justificativa para alterar um rótulo](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Fornecer ajuda para um link para uma página de ajuda personalizada](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Marcar o conteúdo](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [Sim-aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
@@ -224,7 +224,7 @@ Os cenários que incluem a aplicação de um rótulo de confidencialidade fora d
 
 - Dados de rótulo e criptografados exportados do Power BI
 
-- Microsoft Cloud App Security
+- Segurança no aplicativo na nuvem da Microsoft
 
 Para esses cenários, usando seus aplicativos do Office, um usuário com rotulação interna pode aplicar as marcações de conteúdo do rótulo, removendo ou substituindo temporariamente o rótulo atual e reaplicando o rótulo original.
 

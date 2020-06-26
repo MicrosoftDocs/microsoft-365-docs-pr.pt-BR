@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 2ed89a676525b91f6b0923cf39be5b014638e93e
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: 032368e35cdfc991df4c01643e49cee538549f39
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515838"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899358"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Compreender o esquema de busca avançada
 
@@ -63,9 +63,6 @@ A referência a seguir lista todas as tabelas no esquema. Cada nome de tabela se
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Informações de conta de várias fontes, incluindo o Azure Active Directory |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Eventos de autenticação registrados pelo Active Directory e outros serviços online da Microsoft |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Atividades de consulta executadas em objetos do Active Directory, como usuários, grupos, dispositivos e domínios |
-
-
-
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da caça avançada](advanced-hunting-overview.md)

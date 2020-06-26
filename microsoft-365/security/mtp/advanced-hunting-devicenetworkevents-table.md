@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 3be6523372edcda520e05545c87385c0e1a42044
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: d5d666bef07c6ae8c5a43b641a8e7f6a11f5457a
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617113"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899250"
 ---
 # <a name="devicenetworkevents"></a>DeviceNetworkEvents
 
@@ -69,7 +69,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `AppGuardContainerId` | string | Identificador para o contêiner virtualizado usado pelo Application Guard para isolar a atividade do navegador |
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Buscar proativamente por ameaças](advanced-hunting-overview.md)
+- [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
 - [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)

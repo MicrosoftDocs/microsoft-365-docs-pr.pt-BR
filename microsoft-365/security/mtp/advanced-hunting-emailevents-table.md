@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: be86f446e05952f7e88dc32e12a6a0d05e380afd
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: eefd6848e5ae0ddb077db576d55aaf9555e33729
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515850"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44898988"
 ---
 # <a name="emailevents"></a>EmailEvents
 
@@ -65,7 +65,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `EmailLanguage` | cadeia de caracteres | Idioma detectado do conteúdo do email |
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Buscar proativamente por ameaças](advanced-hunting-overview.md)
+- [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
 - [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)

@@ -1,7 +1,7 @@
 ---
 title: Tabela DeviceInfo no esquema de busca avançada
 description: Saiba mais sobre o sistema operacional, o nome do computador e outras informações do computador na tabela DeviceInfo do esquema de busca avançada
-keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, tabela, coluna, tipo de dados, descrição, machineinfo, DeviceInfo, dispositivo, máquina, so, plataforma , os usuários
+keywords: caça avançada, busca de ameaças, caça à Cyber Threat, proteção de ameaças da Microsoft, Microsoft 365, MTP, M365, pesquisa, consulta, telemetria, referência de esquema, Kusto, tabela, coluna, tipo de dados, descrição, machineinfo, DeviceInfo, dispositivo, máquina, sistema operacional, plataforma, usuários
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 71bd9e9ff1dfb17e4a9266d9ee351799e18888c9
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 526e210a472862593f2652e9b2b21957702c48f0
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235020"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899274"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -38,22 +38,22 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `DeviceId` | cadeia de caracteres | Identificador exclusivo da máquina no serviço |
+| `DeviceId` | string | Identificador exclusivo da máquina no serviço |
 | `DeviceName` | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) da máquina |
 | `ClientVersion` | cadeia de caracteres | Versão do agente de ponto de extremidade ou do sensor em execução no computador |
-| `PublicIP` | cadeia de caracteres | Endereço IP público usado pela máquina integrada para se conectar ao serviço do Microsoft defender ATP. Esse pode ser o endereço IP da máquina, um dispositivo NAT ou um proxy |
+| `PublicIP` | string | Endereço IP público usado pela máquina integrada para se conectar ao serviço do Microsoft defender ATP. Esse pode ser o endereço IP da máquina, um dispositivo NAT ou um proxy |
 | `OSArchitecture` | string | Arquitetura do sistema operacional em execução no computador. |
 | `OSPlatform` | string | Plataforma do sistema operacional em execução no computador. Isso indica sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7 |
-| `OSBuild` | cadeia de caracteres | Versão de compilação do sistema operacional em execução no computador |
+| `OSBuild` | string | Versão de compilação do sistema operacional em execução no computador |
 | `IsAzureADJoined` | booliano | Indicador booliano de que o computador ingressou no Azure Active Directory |
-| `LoggedOnUsers` | cadeia de caracteres | Lista de todos os usuários que são registrados no computador no momento do evento no formato de matriz JSON |
-| `RegistryDeviceTag` | cadeia de caracteres | Marca de máquina adicionada por meio do registro |
+| `LoggedOnUsers` | string | Lista de todos os usuários que são registrados no computador no momento do evento no formato de matriz JSON |
+| `RegistryDeviceTag` | string | Marca de máquina adicionada por meio do registro |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, esta coluna deve ser usada em conjunto com as colunas DeviceName e timestamp |
-| `OSVersion` | cadeia de caracteres | Versão do sistema operacional em execução no computador. |
-| `MachineGroup` | cadeia de caracteres | Grupo de computadores da máquina. Esse grupo é usado pelo controle de acesso baseado em função para determinar o acesso ao computador |
+| `OSVersion` | string | Versão do sistema operacional em execução no computador. |
+| `MachineGroup` | string | Grupo de computadores da máquina. Esse grupo é usado pelo controle de acesso baseado em função para determinar o acesso ao computador |
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Buscar proativamente por ameaças](advanced-hunting-overview.md)
+- [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
 - [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
