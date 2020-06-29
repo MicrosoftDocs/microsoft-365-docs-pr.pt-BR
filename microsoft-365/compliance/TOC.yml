@@ -34,7 +34,7 @@
           href: insider-risk-management-cases.md
         - name: Revisar os dados com o explorador de conteúdo de riscos internos
           href: insider-risk-management-content-explorer.md
-        - name: Adicionar usuários a políticas de riscos internos
+        - name: Gerenciar o fluxo de trabalho com o painel usuários
           href: insider-risk-management-users.md
         - name: Criar modelos de aviso de riscos internos
           href: insider-risk-management-notices.md
