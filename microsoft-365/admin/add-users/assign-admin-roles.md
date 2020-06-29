@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Saiba como atribuir funções de administrador a um usuário ou vários usuários em sua empresa para que eles possam executar tarefas específicas no centro de administração.
-ms.openlocfilehash: 59fc2211051aa4f122462186753e7f626715722f
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: cd50faf5db5e674e865e0913cae14a68a202bd1f
+ms.sourcegitcommit: 2e9e309ec09e5275ac6b3b425fba48a9ffce8eb2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780632"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44900771"
 ---
 # <a name="assign-admin-roles"></a>Atribuir funções de administrador
 
@@ -46,7 +46,7 @@ Assista a um pequeno vídeo sobre como adicionar um administrador.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
-Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="assign-admin-roles"></a>Atribuir funções de administrador 
 
@@ -110,9 +110,9 @@ Use as instruções a seguir para atribuir funções a dezenas de usuários.
 ::: moniker range="o365-worldwide"
 
 
-## <a name="didnt-work-for-you"></a>Não funcionou?
+## <a name="check-your-permissions"></a>Verificar suas permissões
 
-Você pode não ter as permissões corretas e, portanto, não tem acesso para atribuir funções de administrador a outros usuários. Peça a outro administrador para atribuir funções de administrador para você.
+Você pode não ter as permissões corretas para atribuir funções de administrador a outros usuários. Verifique se você tem as permissões corretas ou peça a outro administrador para atribuir funções para você.
 
 ::: moniker-end
 
@@ -120,8 +120,8 @@ Você pode não ter as permissões corretas e, portanto, não tem acesso para at
 
 [Sobre as funções de administrador do Microsoft 365 ](about-admin-roles.md)
 
+[Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)
+
 [Atribuir funções a contas de usuário com o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)
 
 [Autorizar ou remover relacionamentos de parceiros](../misc/add-partner.md)
-
-[Adicionar um endereço de email alternativo usando o centro de administração do Exchange](https://docs.microsoft.com/Exchange/recipients/user-mailboxes/email-addresses?view=exchserver-2019#add-an-email-address-to-a-user-mailbox)

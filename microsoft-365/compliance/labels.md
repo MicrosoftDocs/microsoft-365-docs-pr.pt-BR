@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Aprenda sobre os rótulos de retenção que regem seus dados, mantendo o que você quer, excluindo o que não quiser e marcando o conteúdo como um registro.
-ms.openlocfilehash: b7797c55c95845b35fc3d67275bf64920fa59574
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: dc6048fed07f6312d192cde5260b180605e3d4f2
+ms.sourcegitcommit: 92a6595b482396f44675c22221500703a5649dab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817436"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44879295"
 ---
 # <a name="learn-about-retention-labels"></a>Saiba mais sobre rótulos de retenção
 
@@ -347,9 +347,9 @@ Depois de publicar ou aplicar automaticamente seus rótulos de retenção, conv�
 
 Depois que os rótulos de retenção são atribuídos ao conteúdo, seja por usuários ou aplicados automaticamente, você pode usar a pesquisa de conteúdo para encontrar todo o conteúdo classificado com um rótulo de retenção específico.
   
-Ao criar uma pesquisa de conteúdo, escolha a condição **Marca de conformidade** e, em seguida, insira o nome do rótulo de retenção completo ou parte dele e use um caractere curinga. Para saber mais, veja [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md).
+Ao criar uma pesquisa de conteúdo, escolha a condição **Rótulo de conformidade** e, em seguida, insira o nome do rótulo de retenção completo ou parte dele e use um caractere curinga. Para saber mais, veja [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md).
   
-![Condição de Marca de Conformidade](../media/82d6af16-59f8-462f-babb-c894b2917018.png)
+![Condição de rótulo de conformidade](../media/compliance-label-condition.png)
   
 ## <a name="use-retention-labels-instead-of-older-features"></a>Usar rótulos de retenção em vez de recursos mais antigos
 

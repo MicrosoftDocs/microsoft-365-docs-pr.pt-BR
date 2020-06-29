@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 827cffde0ff719d133830e10e958f04fe70fc9d6
-ms.sourcegitcommit: 416a4b87bfd7e5aff80194b59b2776f054aa8eb5
+ms.openlocfilehash: a69c90580db9b33196fd1eb3797a42b8db056fcd
+ms.sourcegitcommit: 2e9e309ec09e5275ac6b3b425fba48a9ffce8eb2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44534923"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44900815"
 ---
 # <a name="insider-risk-management-policies"></a>Políticas de gerenciamento de risco do insider
 
@@ -88,12 +88,19 @@ A proteção da privacidade dos usuários que têm correspondências de polític
 
 ### <a name="indicators"></a>Indicadores
 
-Os modelos de política de risco do insider definem o tipo de atividades de risco que você deseja detectar e investigar. Cada modelo de política é baseado em indicadores específicos que correspondem a atividades e alertas de risco específicos são acionados por políticas quando os usuários executam atividades relacionadas a esses indicadores. Em alguns casos, talvez você queira limitar os indicadores aplicados às políticas de risco do insider em sua organização. Você pode desativar os indicadores para áreas específicas desabilitando-os de todas as políticas de risco do insider.
+Os modelos de política de risco do insider definem o tipo de atividades de risco que você deseja detectar e investigar. Cada modelo de política é baseado em indicadores específicos que correspondem a gatilhos e atividades de risco específicos. Todos os indicadores estão desabilitados por padrão e você deve selecionar um ou mais indicadores de política antes de configurar uma política de gerenciamento de risco do insider. 
 
-Para definir os indicadores habilitados em todas as políticas, navegue até indicadores de **configurações de risco do insider**  >  **Indicators** e selecione um ou mais indicadores. Os indicadores selecionados na página de configurações de **indicadores** não podem ser configurados individualmente ao criar ou editar uma política de risco Insider no assistente de política.
+Os alertas são acionados por políticas quando os usuários executam atividades relacionadas a indicadores de política que atendem a um limite obrigatório. O gerenciamento de riscos do insider usa dois tipos de indicadores:
 
->[!IMPORTANT]
->Para receber alertas para atividades arriscadas definidas em suas políticas, você deve selecionar um ou mais indicadores antes de configurar uma política de risco de insider.
+- **Indicadores de acionamento**: indicadores que determinam se um usuário está ativo para uma política de gerenciamento de risco do insider. Se um usuário é adicionado a uma política de gerenciamento de risco do insider que usa indicadores de acionamento, mas não tem uma atividade de indicador de disparo, a atividade do usuário não é avaliada pela política. Por exemplo, o usuário A é adicionado a uma política criada a partir do modelo de política de *roubo de dados do funcionário de parte* e o conector de política e RH estão configurados corretamente. Até que o usuário A tenha uma data de término relatada pelo conector de RH, as atividades do usuário A não são avaliadas por essa política de gerenciamento de risco do insider. Outro exemplo de um indicador de disparo é se um usuário está dentro do escopo para um alerta de política de DLP de *alta* gravidade.
+- **Indicadores de política de risco do insider**: indicadores incluídos nas políticas de gerenciamento de risco do insider usados para determinar a pontuação de risco de um usuário no escopo. Estes indicadores de política são ativados somente depois que um indicador de disparo ocorre para um usuário. Alguns exemplos de indicadores de política de risco do insider são quando um usuário copia dados para os serviços de armazenamento em nuvem pessoal ou dispositivos de armazenamento portátil, ou se um usuário compartilha arquivos e pastas internos com partes externas não autorizadas.
+
+Em alguns casos, talvez você queira limitar os indicadores de política de risco do insider aplicados às políticas de risco do insider em sua organização. Você pode desativar os indicadores de política para áreas específicas desabilitando-os de todas as políticas de risco do insider. Os indicadores de disparo não podem ser modificados para modelos de política de risco do insider.
+
+Para definir os indicadores de política de risco do insider habilitados em todas as políticas de riscos Insider, navegue até indicadores de **configurações de risco**do insider  >  **Indicators** e selecione um ou mais indicadores de política. Os indicadores selecionados na página de configurações de indicadores não podem ser configurados individualmente ao criar ou editar uma política de risco Insider no assistente de política.
+
+>[!NOTE]
+>Pode levar várias horas para que novos usuários adicionados manualmente apareçam no **painel usuários**. As atividades dos últimos 90 dias para esses usuários podem levar até 24 horas para serem exibidas. Para exibir as atividades de usuários adicionados manualmente, selecione o usuário no **painel usuários** e abra a guia **atividade do usuário** no painel de detalhes.
 
 ### <a name="policy-timeframes"></a>Cronogramas de política
 
