@@ -2,10 +2,10 @@
 title: Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: msfttracyp
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 01/16/2020
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -18,120 +18,364 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dfee1fa2c6e515bfc10ed7a633584c54763fdec4
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 226f147dec7795ce6f8314a04218eab84e609218
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819456"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44937004"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
 
-Vários relatórios estão disponíveis no [centro de conformidade & segurança](https://protection.office.com) para ajudá-lo a ver como os recursos de segurança de email, como os recursos antispam, Antimalware e de criptografia no Microsoft 365 estão protegendo sua organização. Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-these-reports), poderá exibir esses relatórios no centro de conformidade & de segurança acessando **Reports** o \> **painel**relatórios.
+Vários relatórios estão disponíveis no [centro de conformidade & segurança](https://protection.office.com) para ajudá-lo a ver como os recursos de segurança de email, como os recursos antispam, Antimalware e de criptografia no Microsoft 365 estão protegendo sua organização. Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-these-reports), poderá exibir esses relatórios no centro de conformidade & de segurança acessando **Reports** o \> **painel**relatórios. Para ir diretamente para o painel relatórios, abra <https://protection.office.com/insightdashboard> .
 
 ![Painel de relatórios no centro de conformidade & segurança](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
-Os relatórios de segurança de email incluem o seguinte:
-
-- [Relatório de proteção contra ameaças de URL](#url-threat-protection-report-new) (**novo!**)
-- [Relatório de usuários comprometidos](#compromised-users-report)
-- [Relatório de criptografia](#encryption-report)
-- [Relatório de Status da Proteção contra Ameaças](#threat-protection-status-report)
-- [Relatório de detecções de malware](#malware-detections-report)
-- [Relatório de malware superior](#top-malware-report)
-- [Relatório de principais remetentes e destinatários](#top-senders-and-recipients-report)
-- [Relatório de detecções falsas](#spoof-detections-report)
-- [Relatório de detecções de spam](#spam-detections-report)
-- [Relatório de email enviado e recebido](#sent-and-received-email-report)
-- [Relatório de mensagens relatadas pelo usuário](#user-reported-messages-report)
-
-## <a name="url-threat-protection-report-new"></a>Relatório de proteção contra ameaças de URL (**novo!**)
-
-O relatório de proteção contra ameaças de URL está disponível para qualquer pessoa com:
-
-- Uma proteção do Exchange Online *e* um complemento de proteção avançada contra ameaças (plano 1 *ou* plano 2)
-- Uma assinatura do Microsoft 365 e5
-
-Este é um relatório de ' clique centralizado ' que tem dois modos de exibição agregados.
-
-1. O primeiro modo de exibição é por *ação de proteção de clique de URL*, que se concentra em mostrar o número de cliques de URL por usuários no locatário e o resultado do clique. Um clique aqui indica que o usuário clicou através da página de bloqueio para o site mal-intencionado (isso pode ser desabilitado pelo administrador dentro de uma política de links seguros).
-
-2. O segundo modo de exibição é *URL clique em aplicativos*, que mostra o número de URLs em diferentes aplicativos que dão suporte a links seguros hoje, como em um cliente de email ou no Microsoft Word. Os dados em modos de exibição agregados são atualizados uma vez a cada quatro horas.
-
-A tabela de detalhes do relatório de proteção contra ameaças de URL fornece uma visualização quase em tempo real de todos os cliques que acontecem no locatário, e inclui informações investigativas, como *nome de usuário*, *URL*, a ID da *mensagem de rede* (se a URL foi clicada em um email) e outras informações valiosas para investigações e análises.
-
-Por padrão, o relatório mostra apenas os dados sobre os cliques de URLs que foram bloqueados por links seguros, mas também é possível ver as informações de todos os cliques de URL na caixa de seleção selecionar *URLs permitidas* nos filtros.
-
-Este relatório não terá dados de cliques de usuários em que a política de links seguros aplicada tenha a opção *não rastrear os cliques do usuário* selecionada.
-
-![Gráfico do relatório de proteção contra ameaças de URL em ação.](../../media/tp-URLThreatProRpt1.PNG)
-
 ## <a name="compromised-users-report"></a>Relatório de usuários comprometidos
 
-Este relatório, disponível para qualquer pessoa com proteção do Exchange Online, mostra o número de contas de usuário marcadas como usuários suspeitos ou restritos, dados particularmente úteis como contas Insira um dos Estados que indicam que a conta de usuário pode ser problemática ou até mesmo comprometida. Com o uso frequente, o relatório de usuário comprometido pode apontar picos e até mesmo tendências, em contas marcadas em Estados suspeitos ou restritos, fornecendo evidências, pode haver um problema com a segurança e o benefício do seu locatário.
+O relatório **usuários comprometidos** mostra o número de contas de usuário que foram marcadas como **suspeitas** ou **restritas** nos últimos sete dias. As contas em um desses Estados são problemáticas ou até mesmo comprometidas. Com o uso frequente, você pode usar o relatório para identificar picos e até mesmo tendências, em contas suspeitas ou restritas. Para obter mais informações sobre usuários comprometidos, consulte [responder a uma conta de email comprometida](responding-to-a-compromised-email-account.md).
 
-![O relatório de usuários comprometidos como aparece no Microsoft 365.](../../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
+O modo de exibição de agregação mostra os dados dos últimos 90 dias e o modo de exibição de detalhes mostra os dados dos últimos 30 dias.
+
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **usuários comprometidos**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=CompromisedUsers> .
+
+Você pode filtrar tanto o gráfico quanto a tabela detalhes clicando em **filtros** e selecionando um ou mais dos seguintes valores:
+
+- **Data de início** e **data de término**
+
+- **Suspeito**: a conta de usuário enviou emails suspeitos e está correndo o risco de ser restrito a enviar emails.
+
+- **Restricted**: a conta de usuário foi restrita ao envio de emails devido a padrões altamente suspeitos.
+
+![O relatório de usuários comprometidos como aparece no Microsoft 365](../../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
+
+Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detalhes:
+
+- **Hora de criação**
+- **ID de usuário**
+- **Action**
+
+Para voltar para o modo de exibição de relatório, clique em **Exibir relatório**.
 
 ## <a name="encryption-report"></a>Relatório de criptografia
 
-O **relatório de criptografia** mostra informações sobre as mensagens de email que foram criptografadas, seja por meio das políticas da sua organização ou por meio de controles de usuário final. A equipe de segurança da sua organização pode usar informações neste relatório para identificar padrões e aplicar proativamente ou ajustar políticas para mensagens de email confidenciais.
+O **relatório de criptografia** está disponível em EOP (inscrições com caixas de correio no Exchange Online ou EOP autônomo sem caixas de correio do Exchange Online). A equipe de segurança da sua organização pode usar informações neste relatório para identificar padrões e aplicar proativamente ou ajustar políticas para mensagens de email confidenciais. Por exemplo:
 
-Para exibir esse relatório, no centro de conformidade & de segurança, vá **Reports** para relatório de criptografia de \> **painel** de relatórios \> **Encryption report**.
+- Se você vir um grande número de mensagens de email criptografadas por usuários, talvez queira adicionar uma política de criptografia para automatizar a criptografia para determinados casos de uso. Para obter mais informações, consulte [definir regras de fluxo de email para criptografar mensagens de email no Microsoft 365](../../compliance/define-mail-flow-rules-to-encrypt-email.md).
 
-![Relatório de criptografia](../../media/encryptionreport-defaultview.png)
+- Se você tiver vários modelos de criptografia disponíveis, mas nenhum estiver usando, você poderá explorar se os usuários precisam de treinamento de recurso.
 
-Quando o relatório for aberto pela primeira vez, você verá dados sobre os métodos de criptografia usados em mensagens de email dos últimos sete (7) dias. Você pode alterar o intervalo de datas e os detalhes que são exibidos no relatório clicando em **filtros** no canto superior direito da tela.
+O modo de exibição agregado permite a filtragem dos últimos 90 dias, enquanto o modo de exibição de detalhes permite filtragem por 10 dias.
 
-![Filtros de relatório de criptografia](../../media/encryptionreport-filters.png)
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **relatório de criptografia**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=EncryptionReport> .
 
-Você também pode usar o menu **dividir por** para exibir dados por modelo de criptografia (ou método).
+Para saber mais sobre criptografia, confira [criptografia de email no Microsoft 365](../../compliance/email-encryption.md).
 
-![Método ou modelo de criptografia](../../media/encryptionreport-breakdownby.png)
+### <a name="report-view-for-the-encryption-report"></a>Exibição de relatório para o relatório de criptografia
 
-E você pode usar o menu **exibir dados por** para alterar o modo de exibição para ver as contagens de mensagens criptografadas para os cinco domínios de destinatários principais.
+Você pode usar os seguintes filtros no gráfico:
 
-![Dados de exibição do relatório de criptografia por menu](../../media/encryptionreport-viewdataby.png)
+- **Exibir dados por: relatório de criptografia de mensagens** e **dividir por: método**de criptografia: os seguintes métodos de criptografia estão disponíveis:
 
-Com a flexibilidade do novo relatório de criptografia, você pode exibir tendências e tomar as ações apropriadas. Por exemplo, se você vir um grande número de mensagens de email criptografadas por usuários, talvez queira adicionar uma política de criptografia para automatizar a criptografia para determinados casos de uso. (Para obter ajuda com isso, consulte [definir regras de fluxo de email para criptografar mensagens de email no Microsoft 365](../../compliance/define-mail-flow-rules-to-encrypt-email.md).) Como outro exemplo, se você tiver vários modelos de criptografia disponíveis, mas nenhum estiver usando, você poderá explorar se os usuários precisam de treinamento para esse recurso.
+  - **Criptografia por usuário**
+  - **Criptografia por política**
 
-Use este relatório permite que a equipe de segurança e conformidade da sua organização monitore a forma como a criptografia de mensagens está sendo usada e se as ações serão necessárias. Para saber mais sobre criptografia, confira [criptografia de email no Microsoft 365](../../compliance/email-encryption.md).
+  Se você clicar em **filtros**, poderá modificar o gráfico com os seguintes filtros:
 
-## <a name="threat-protection-status-report"></a>Relatório de Status da Proteção contra Ameaças
+  - **Data de início** e **data de término**
+  - Método de criptografia.
+  - Modelo de criptografia.
 
-O relatório de **status de proteção contra ameaças** é um relatório inteligente que mostra emails mal-intencionados que foram detectados e bloqueados pela proteção do Exchange Online. Este relatório é útil para exibir emails identificados como malware ou uma tentativa de phishing ao longo do tempo (até 90 dias) e permite que administradores de segurança identifiquem tendências ou determinem se as políticas precisam de ajustes.
+- **Exibir dados por: relatório de criptografia de mensagens** e **dividir por: modelo**de criptografia: os seguintes métodos de criptografia estão disponíveis:
 
-> [!NOTE]
-> Um relatório de status de proteção contra ameaças está disponível para clientes que tenham o [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) ou o [Exchange Online Protection](exchange-online-protection-overview.md) (EOP); no entanto, as informações exibidas no relatório de status de proteção contra ameaças para clientes ATP provavelmente conterão dados diferentes do que os clientes do EOP podem ver. Por exemplo, os clientes do EOP podem exibir informações sobre malware detectado no email, mas não informações sobre [arquivos mal-intencionados detectados no SharePoint Online, no onedrive ou no Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams), um recurso específico de ATP. ([Saiba mais sobre os relatórios de ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp).)
+  - **Não encaminhar**
+  - **Criptografar apenas**
+  - **OME anterior**
+  - **Personalizados**
 
-Para exibir esse relatório, no [centro de conformidade & segurança](https://protection.office.com), vá para **Reports** \> **painel** relatórios \> **status de proteção contra ameaças**.
+  Se você clicar em **filtros**, poderá modificar o gráfico com os seguintes filtros:
+
+  - **Data de início** e **data de término**
+  - Método de criptografia
+  - Modelo de criptografia
+
+- **Exibir dados por: 5 principais domínios de destinatário**: este modo de exibição mostra um gráfico de pizza com contagens de mensagens enviadas para os cinco domínios de destinatários principais.
+
+  Se você clicar em **filtros**, poderá selecionar uma **data de início** e uma **data de término**.
+
+### <a name="details-table-view-for-the-encryption-report"></a>Exibição da tabela de detalhes para o relatório de criptografia
+
+Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dependem do gráfico que você estava observando:
+
+- **Dividir em: método de criptografia** ou **dividir por: modelo de criptografia**: as seguintes informações são mostradas:
+
+  - **Date**
+  - **Endereço do remetente**.
+  - **Modelo de criptografia**
+  - **Método de criptografia**
+  - **Endereço do destinatário**
+  - **Assunto**
+
+- **Exibir dados por: cinco domínios principais de destinatários**:
+
+  - **Date**
+  - **Domínio do destinatário**
+  - **Contagem de mensagem**
+  
+Se você clicar em **filtros** em um modo de exibição de tabela de detalhes, poderá modificar os resultados com os seguintes filtros:
+
+- **Data de início** e **data de término**
+- Método de criptografia
+- Modelo de criptografia
+
+Para voltar para o modo de exibição de relatório, clique em **Exibir relatório**.
+
+## <a name="mailflow-status-report"></a>Relatório de status do fluxo
+
+O **relatório de status do fluxo** contém informações sobre malware, spam, phishing e mensagens bloqueadas de borda. Para obter mais detalhes, consulte [fluxo status Report](view-mail-flow-reports.md#mailflow-status-report).
+
+## <a name="malware-detection-in-email-report"></a>Detecção de malware no relatório de email
+
+O relatório **detecções de malware no email** mostra informações sobre detecções de malware em mensagens de email de entrada e saída (malware detectado pelo Exchange Online Protection ou EOP). Para obter mais informações sobre proteção contra malware no EOP, consulte [Anti-Malware Protection in EOP](anti-malware-protection.md).
+
+ O filtro de exibição agregada permite 90 dias, enquanto o filtro da tabela detalhes permite apenas 10 dias.
+
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **detecções de malware no email**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=MalwareDetections> .
+
+![Detecções de malware no widget de email no painel relatórios](../../media/malware-detections-widget.png)
+
+Você pode filtrar tanto o gráfico quanto a tabela detalhes clicando em **filtros** e selecionando:
+
+- **Data de início** e **data de término**
+- **Entrada**
+- **Saída**
+
+![Exibição de relatório no relatório de detecção de malware no email](../../media/malware-detections-report-view.png)
+
+Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detalhes:
+
+- **Date**
+- **Endereço do remetente**.
+- **Endereço do destinatário**
+- **ID da mensagem**
+- **Assunto**
+- **Filename**
+- **Nome do malware**
+
+Para voltar para o modo de exibição de relatório, clique em **Exibir relatório**.
+
+## <a name="sent-and-received-email-report"></a>Relatório de email enviado e recebido
+
+O relatório de **email enviado e recebido** contém informações sobre malware, spam, regras de fluxo de emails (também conhecidas como regras de transporte) e detecções de malware avançadas após o email entrar no serviço. Para obter mais informações, consulte [envio e recebimento de email Report](view-mail-flow-reports.md#sent-and-received-email-report).
+
+## <a name="spam-detections-report"></a>Relatório de detecções de spam
+
+O relatório **detecções de spam** mostra mensagens de email de spam que foram bloqueadas pelo EOP. As mensagens são contadas individualmente, e não por destinatário. Por exemplo, se a mesma mensagem de spam tiver sido enviada para 100 destinatários em sua organização, ela contará como uma mensagem.
+
+O modo de exibição agregado permite filtragem de 90 dias, enquanto a tabela detalhes permite a filtragem de 10 dias.
+
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **detecções de spam**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=SpamDetections> .
+
+![Widget detecções de spam no painel relatórios](../../media/spam-detections-widget.png)
+
+Para obter mais informações sobre proteção antispam, consulte [proteção antispam no EOP](anti-spam-protection.md).
+
+### <a name="report-view-for-the-spam-detections-report"></a>Exibição de relatório para o relatório de detecções de spam
+
+Os gráficos a seguir estão disponíveis no modo de exibição de relatório:
+
+- **Dividir por: ação**: os seguintes tipos de eventos são mostrados:
+
+  - **Conteúdo de spam filtrado**
+  - **Bloqueio de IP de spam**
+  - **Bloco de envelope de spam**
+  - **Filtro de DBEB de spam**: bloqueio de borda baseado em diretório (DBEB)
+
+  Ao passar o mouse sobre um dia (ponto de dados) no gráfico, você pode ver quantos itens foram bloqueados naquele dia, bem como os itens que foram categorizados.
+
+  ![Exibição de ação no modo de exibição de relatório no relatório de detecções de spam](../../media/spam-detections-report-action-view.png)
+
+- Dividido **por: direção**: as seguintes direções são exibidas:
+
+  - **Entrada**
+  - **Saída**
+
+Se você clicar em **filtros** em um modo de exibição de relatório, poderá modificar os resultados com os seguintes filtros:
+
+- **Data de início** e **data de término**
+- Valores de direção
+- Valores de tipo de evento
+
+### <a name="details-table-view-for-the-spam-detections-report"></a>Exibição da tabela de detalhes para o relatório de detecções de spam
+
+Se você clicar em **Exibir tabela de detalhes** em qualquer modo de exibição de relatório, as seguintes informações serão exibidas:
+
+- **Date**
+- **Endereço do remetente**.
+- **Endereço do destinatário**
+- **Tipo de evento**
+- **Action**
+- **Assunto**
+
+Se você clicar em **filtros** em uma tabela de detalhes, poderá modificar os resultados com os seguintes filtros:
+
+- **Data de início** e **data de término**
+- Valores de direção
+- Valores de tipo de evento
+
+Para voltar para o modo de exibição de relatório, clique em **Exibir relatório**.
+
+## <a name="spoof-detections-report"></a>Relatório de detecções falsas
+
+O relatório de **detecções falsas** mostra quantas mensagens de email de falsificação foram detectadas, e dessas, quais foram consideradas "boas" (emails falsos realizados por motivos de negócios legítimos). Para obter mais informações sobre falsificação, consulte [proteção contra falsificação no EOP](anti-spoofing-protection.md).
+
+O modo de exibição de agregação do relatório permite 90 dias de filtragem, enquanto o modo de exibição de detalhes permite apenas dez dias de filtragem.
+
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **detecções falsas**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=SpoofMailReport> .
+
+![Widget detecções de spoof no painel relatórios](../../media/spoof-detections-widget.png)
+
+Ao passar o mouse sobre um dia (ponto de dados) no gráfico, você pode ver quantas mensagens de email de falsificação vieram.
+
+Você pode filtrar tanto o gráfico quanto a tabela detalhes clicando em **filtros** e selecionando um ou mais dos seguintes valores:
+
+- **Data de início** e **data de término**
+
+- **Boa mensagem**
+
+- **Detectado como spam**
+
+![Exibição de relatório no relatório de detecções de spoof](../../media/spoof-detections-report-view.png)
+
+Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detalhes:
+
+- **Date**
+- **Remetente falsificado**
+- **Remetente verdadeiro**
+- **IP do remetente**
+- **Action**
+- **Contagem de mensagem**
+
+Para voltar para o modo de exibição de relatório, clique em **Exibir relatório**.
+
+## <a name="threat-protection-status-report"></a>Relatório de status de proteção contra ameaças
+
+O relatório de **status de proteção contra ameaças** está disponível no EOP e no Office 365 ATP; no entanto, os relatórios contêm dados diferentes. Por exemplo, os clientes do EOP podem exibir informações sobre malware detectado no email, mas não informações sobre [arquivos mal-intencionados detectados no SharePoint Online, no onedrive ou no Microsoft Teams](atp-for-spo-odb-and-teams.md). Para obter mais informações sobre os relatórios de ATP do Office 365, consulte [View Reports for Office 365 Advanced Threat Protection](view-reports-for-atp.md).
+
+Este é um relatório inteligente que mostra emails mal-intencionados que foram detectados e bloqueados, e permite que os administradores de segurança identifiquem tendências ou determine se as políticas da organização precisam de ajuste.
+
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **status de proteção contra ameaças**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ATPV2AggregateReport> .
 
 ![Relatório de Status da Proteção contra Ameaças](../../media/0ff86e12-c2b2-4d89-92a5-cefb054dc070.png)
 
-Quando você abre o relatório de status de proteção contra ameaças pela primeira vez, o relatório mostra os dados dos últimos sete dias por padrão; no entanto, você pode clicar em **filtros** e alterar o intervalo de datas para até 90 dias de detalhes. (Se estiver usando uma assinatura de avaliação, você poderá estar limitado a 30 dias de dados.)
+Por padrão, o gráfico mostra os dados dos últimos 7 dias. Se você clicar em **filtros**, poderá selecionar um intervalo de data de 90 dias (as assinaturas de avaliação podem ser limitadas a 30 dias). O modo de exibição tabela de detalhes permite a filtragem por 30 dias.
 
-Este relatório é útil para ver a eficácia e o impacto dos recursos de [proteção do Exchange Online](https://docs.microsoft.com/microsoft-365/security/office-365-security/eop-features)da sua organização e para tendência de longo prazo.
+### <a name="report-view-for-the-threat-protection-status-report"></a>Exibição de relatório para o relatório de status de proteção contra ameaças
 
-![Filtros de relatório de status de proteção contra ameaças](../../media/ab6b6b8d-e97a-4c3a-8fb1-c4940dcb7a07.png)
+Os seguintes modos de exibição estão disponíveis:
 
-Você também pode escolher se deseja exibir dados para emails identificados como mal-intencionados, emails identificados como tentativas de phishing ou emails identificados como contendo malware.
+- **Exibir dados por: visão geral**: as seguintes informações de detecção são exibidas:
 
-![Opções de exibição do relatório de status de proteção contra ameaças](../../media/d429ecd7-cb7a-4c99-8d27-79a2832cf467.png)
+  - **Malware de email**
+  - **Phishing de email**
+  - **Malware de conteúdo**
 
-## <a name="malware-detections-report"></a>Relatório de detecções de malware
+- **Exibir dados por: conteúdo \> Malware**: as seguintes informações são mostradas:
 
-O relatório de **detecções de malware** mostra quantas mensagens de entrada e saída foram detectadas como contendo malware para sua organização.
+  - **Mecanismo Antimalware**
+  - **Arquivo acionamento**
 
-Para exibir esse relatório, no [centro de conformidade & segurança](https://protection.office.com), vá para **relatórios** de \> malware de **painel** de relatórios \> **Malware Detections**.
+- **Divida por: tecnologia de detecção** e **exibir dados por: \> Phish de email**: as informações a seguir são exibidas:
 
-![Exemplo de relatório de detecções de malware](../../media/a1ba61a3-565a-46d6-b0d5-6a6cff6b31d7.png)
+  - **Reputação da URL gerada por ATP**<sup>\*</sup>
+  - **Filtro de phishing avançado**<sup>\*</sup>
+  - **Antifalsificação: falha de DMARC**
+  - **Anti-falsificação: dentro da organização**
+  - **Antifalsificação: domínio externo**
+  - **Representação da marca**<sup>\*</sup>
+  - **Representação de domínio**<sup>\*</sup>
+  - **Reputação da URL do EOP**
+  - **Filtro de phishing geral**
+  - **Outros**
+  - **Phish de phishing**<sup>\*\*</sup>
+  - **URL acionamento**<sup>\*\*</sup>
+  - **Representação de usuário**<sup>\*</sup>
 
-Semelhante a outros relatórios, como o [relatório de status de proteção contra ameaças](#threat-protection-status-report), o relatório exibe dados dos últimos sete dias por padrão. No entanto, você pode escolher **filtros** para alterar o intervalo de datas.
+- **Divida por: tecnologia de detecção** e **exibir dados por: \> malware de email**: as informações a seguir são exibidas:
+
+  - **Reputação de arquivo gerado por ATP**<sup>\*\*</sup>
+  - **Mecanismo Antimalware**
+  - **Bloco de tipo de arquivo de política Antimalware**
+  - **Arquivo acionamento**<sup>\*\*</sup>
+  - **Reputação de arquivos mal-intencionados**
+  - * * Malware ZAP * * * *<sup>\*\*</sup>
+  - **Outros**
+
+- **Divida por: tipo de política** e **exibir dados por: \> Phish de emails** ou **exibir dados por: \> malware de email**: as seguintes informações são mostradas:
+
+  - **Anti-malware**<sup>\*\*</sup>
+  - **Anexo seguro**<sup>\*\*</sup>
+  - **Anti-Phish**
+  - **Antispam**
+  - **Regra de fluxo de emails** (também conhecida como regra de transporte)
+  - **Outros**
+
+- **Dividir em: status de entrega** e **exibir dados por: \> Phish de emails** ou **exibir dados por: \> malware de email**: as informações a seguir são exibidas:
+
+  - **Falha na entrega**
+  - **Abandonado**
+  - **Encaminhadas**
+  - **Caixa de correio hospedada: pasta personalizada**
+  - **Caixa de correio hospedada: itens excluídos**
+  - **Caixa de correio hospedada: caixa de entrada**
+  - **Caixa de correio hospedada: lixo eletrônico**
+  - **Servidor local: entregue**
+  - **Quarentena**
+
+<sup>\*</sup>Somente ATP do Office 365
+
+<sup>\*\*</sup>A limpeza automática de zero horas (ZAP) não está disponível no EOP autônomo (funciona apenas em caixas de correio do Exchange Online).
+
+Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
+
+- **Data de início** e **data de término**
+- Valor de detecção
+- **Protegido por** (somente o Office 365 ATP): **ATP** ou **EOP**. Observe que essa propriedade filtrável não está disponível em **exibir dados por: \> malware de conteúdo**.
+
+### <a name="details-table-view-for-the-threat-protection-status-report"></a>Exibição da tabela de detalhes para o relatório de status de proteção contra ameaças
+
+Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dependem do gráfico que você estava observando:
+
+- **Exibir dados por: conteúdo \> Malware**:
+
+- **Date**
+- **Location**
+- **Direcionado por**
+- **Nome do malware**
+
+- **Exibir dados por: visão geral**: não há botão **Exibir tabela detalhes** disponível.
+
+- Todos os outros gráficos:
+
+  - **Date**
+  - **Assunto**
+  - **Sender**
+  - **Destinatários**
+  - **Direcionado por**
+  - **Status de entrega**
+  - **Origem de comprometimento**
+
+Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
+
+- **Data de início** e **data de término**
+- Valor de detecção
+- **Protegido por** (somente o Office 365 ATP): **ATP** ou **EOP**. Observe que essa propriedade filtrável não está disponível em **exibir dados por: \> malware de conteúdo**.
 
 ## <a name="top-malware-report"></a>Relatório de malware superior
 
-O relatório de **malware superior** mostra os vários tipos de malware detectados pelo [Exchange Online](https://docs.microsoft.com/microsoft-365/security/office-365-security/eop-features).
+O relatório de **malware superior** mostra os vários tipos de malware detectados pelo [EOP](eop-features.md).
 
-Para exibir esse relatório, no [centro de conformidade & segurança](https://protection.office.com), vá para painel de **relatórios** de \> **Dashboard** \> **malware superior**.
+Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **malware superior**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=TopMalwaret> .
 
 ![Malware EOP superior](../../media/763330b3-f56e-4ba4-b0bb-051500ae950a.png)
 
@@ -141,75 +385,68 @@ Clique (ou toque) no relatório para abri-lo em uma nova janela do navegador, on
 
 ![Este relatório mostra o malware superior detectado para sua organização](../../media/3fded224-fb31-4713-86f2-8afce5ce2991.png)
 
-Abaixo do gráfico, você verá uma lista de malware detectado e quantas mensagens foram detectadas como tendo esse malware.
+Abaixo do gráfico, você verá uma lista de malware detectado e quantas mensagens foram detectadas como tendo esse malware. Observe que o modo de exibição de agregação permite filtragem de 90 dias.
 
-## <a name="top-senders-and-recipients-report"></a>Relatório de principais remetentes e destinatários
+## <a name="url-threat-protection-report"></a>Relatório de proteção contra ameaças de URL
 
-O relatório de **remetentes e destinatários principais** é um gráfico de pizza mostrando seus principais remetentes de email.
+O widget para este relatório é chamado de **relatório de proteção de URL** no painel relatórios e só está disponível na proteção avançada contra ameaças do Office 365 (ATP). Especificamente:
 
-Para exibir esse relatório, no [centro de conformidade & segurança](https://protection.office.com), vá para painel de **relatórios** \> **Dashboard** \> **principais remetentes e destinatários**.
+- Uma assinatura do Microsoft 365 e5.
+- Um complemento avançado de proteção contra ameaças (plano 1 *ou* plano 2) para qualquer outra assinatura que inclua o Exchange Online Protection (EOP).
 
-![Para exibir esse relatório, no centro de conformidade & segurança, vá para painel de relatórios \> \> principais remetentes e destinatários](../../media/b5506b5c-2420-4a5a-9ea3-d654294ac838.png)
+Para ir diretamente para o relatório de **proteção contra ameaças de URL** , abra <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
 
-Ao passar o mouse sobre uma fatia no gráfico de pizza, você pode ver uma contagem de mensagens enviadas ou recebidas.
+> [!NOTE]
+> Este relatório não terá clique em dados de usuários em que a política de links seguros aplicada tenha a opção **não rastrear os cliques do usuário** selecionada.
 
-Clique (ou toque) no relatório para abri-lo em uma nova janela do navegador, onde você pode obter uma visão mais detalhada do relatório.
+![Gráfico do relatório de proteção contra ameaças de URL em ação.](../../media/tp-URLThreatProRpt1.PNG)
 
-Use a lista **Mostrar dados de** para escolher se deseja exibir dados para os remetentes principais, receptores, destinatários de spam e destinatários de malware. Você também pode ver quem recebeu o malware que foi detectado pela [proteção do Exchange Online](exchange-online-protection-overview.md).
+### <a name="report-view-for-the-url-threat-protection-report"></a>Exibição de relatório para o relatório de proteção contra ameaças de URL
 
-![Use a lista Mostrar dados para exibir informações específicas](../../media/bd91449f-7d42-4749-8666-7b44044049b8.png)
+O relatório de **proteção contra ameaças de URL** tem duas exibições agregadas que são atualizadas uma vez a cada quatro horas que mostram dados dos últimos 90 dias:
 
-Abaixo do gráfico, você verá quem os principais remetentes ou destinatários de emails foram, juntamente com uma contagem de mensagens enviadas ou recebidas pelo período de tempo especificado.
+- **URL clique em ação de proteção**: mostra o número de cliques de URL por usuários na organização e os resultados do clique:
 
-## <a name="spoof-detections-report"></a>Relatório de detecções falsas
+  - **Blocked**
+  - **Bloqueado e clicado**
+  - **Clicado durante a verificação**
 
-O relatório de **detecções falsas** mostra quantas mensagens de email de falsificação foram detectadas, e dessas, quais foram consideradas "boas" (emails falsos realizados por motivos de negócios legítimos).
+  Um clique indica que o usuário clicou através da página de bloqueio para o site mal-intencionado (os administradores podem desabilitar o clique em políticas de links seguros).
 
-Para exibir esse relatório, no [centro de conformidade & segurança](https://protection.office.com), vá para **relatório** de \> **Dashboard** \> **falsificação**de painel de relatórios.
+  Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
 
-![No centro de conformidade & segurança, vá para o \> painel relatórios \> email de spoof](../../media/0427e85c-9e40-4225-a0f0-e21a4e8b0e44.png)
+  - **Data de início** e **data de término**
+  - O disponível clique em ações de proteção, mais o valor **permitido** para ver informações de todos os cliques de URL (não apenas cliques bloqueados).
 
-Ao passar o mouse sobre um dia no gráfico, você pode ver quantas mensagens de email de falsificação foram recebidas.
+- **URL clique por aplicativo**: mostra o número de cliques de URL por aplicativos que dão suporte a links seguros de ATP do Office 365:
 
-Clique (ou toque) no relatório para abri-lo em uma nova janela do navegador, onde você pode obter uma visão mais detalhada do relatório. Para saber mais sobre proteção contra falsificação, confira [proteção contra falsificação no Microsoft 365](anti-spoofing-protection.md).
+  - **Cliente de email**
+  - **PowerPoint**
+  - **Word**
+  - **Excel**
+  - **OneNote**
+  - **Visio**
+  - **Teams**
+  - **Outros**
 
-## <a name="spam-detections-report"></a>Relatório de detecções de spam
+  Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
 
-O relatório **detecções de spam** mostra todo o conteúdo de spam bloqueado pelo Exchange Online. As mensagens são contadas por mensagem e não por destinatário. Por exemplo, se uma mensagem de email foi enviada a 100 destinatários em sua organização, ela será contada como uma mensagem.
+  - **Data de início** e **data de término**
+  - Os aplicativos disponíveis.
 
-Para exibir esse relatório, no [centro de conformidade & segurança](https://protection.office.com), vá para **relatórios** de \> spam do **painel** de relatórios \> **Spam Detections**.
+### <a name="details-table-view-for-the-threat-protection-report"></a>Exibição da tabela de detalhes para o relatório de proteção contra ameaças
 
-![Para exibir esse relatório, no centro de conformidade & segurança, vá para \> painel relatórios \> EOP detecções de spam](../../media/028cff3c-79ce-4ec0-8f0f-ec32ac28243a.png)
+Se você clicar em **Exibir tabela de detalhes**, o relatório fornecerá uma visão quase em tempo real de todos os cliques que acontecerem na organização pelos últimos 7 dias com os seguintes detalhes:
 
-Ao passar o mouse sobre um dia no gráfico, você pode ver quantos itens foram bloqueados naquele dia, bem como os itens são categorizados. Por exemplo, você pode ver quantas mensagens de spam foram filtradas e quantos itens vieram de um endereço IP bloqueado.
+- **Horário de clique**
+- **Usuário**
+- **URL**
+- **Action**
+- **App**
 
-Clique (ou toque) no relatório para abri-lo em uma nova janela do navegador, onde você pode obter uma visão mais detalhada do relatório.
+Se você clicar em **filtros** no modo de exibição tabela de detalhes, poderá filtrar pelos mesmos critérios do modo de exibição relatório e também por **domínios** ou **destinatários** separados por vírgulas.
 
-![O relatório de detecções de spam informa quantas mensagens de spam foram bloqueadas ou filtradas](../../media/370ec67d-eb30-4863-bfcf-68a41be02295.png)
-
-Abaixo do gráfico, você verá uma lista de itens de spam que foram detectados. Selecione um item para exibir informações adicionais, como se o item de spam era de entrada ou de saída, sua ID de mensagem e seu destinatário. Para saber mais sobre proteção antispam, confira [proteção antispam de email do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection).
-
-## <a name="sent-and-received-email-report"></a>Relatório de email enviado e recebido
-
-O relatório de **email enviado e recebido** é um relatório inteligente que mostra informações sobre emails de entrada e saída, incluindo detecções de spam, malware e email identificados como "bom".
-
-Para exibir esse relatório, no [centro de conformidade & segurança](https://protection.office.com), vá para o painel **relatórios** \> **Dashboard** \> **enviado e recebido emails**.
-
-![Para exibir esse relatório, no centro de conformidade & segurança, vá para o \> painel relatórios \> enviado e recebido email](../../media/0e710ed0-1b0e-4dac-8796-94a01a710f3a.png)
-
-Ao passar o mouse sobre um dia no gráfico, você pode ver quantas mensagens vieram e como essas mensagens são categorizadas. Por exemplo, você pode ver quantas mensagens foram detectadas como contendo malware e quantas foram identificadas como spam.
-
-Clique (ou toque) no relatório para abri-lo em uma nova janela do navegador, onde você pode obter uma visão mais detalhada do relatório.
-
-Você pode usar a lista **dividir por** para exibir informações por tipo ou por direção (entrada e saída).
-
-![Use a lista dividir por para exibir informações por tipo ou direção](../../media/a5b30c94-d75f-4bfc-851a-cb155685b177.png)
-
-Abaixo do gráfico, você verá uma lista de categorias de email, como **GoodMail**, **SpamContentFiltered**e assim por diante. Selecione uma categoria para exibir informações adicionais, como ações que foram tomadas para malware e se o email era de entrada ou saída.
-
-![Este relatório informa sobre o anti-malware, antispam e outras detecções de mensagens](../../media/9ea4b606-f27a-46ee-97a7-be018e2b839c.png)
-
-Para saber mais sobre inteligência de email, consulte [inteligência de fluxo de email no Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/mail-flow-intelligence-in-office-365).
+Para voltar para o modo de exibição relatórios, clique em **Exibir relatório**.
 
 ## <a name="user-reported-messages-report"></a>Relatório de mensagens relatadas pelo usuário
 
@@ -232,28 +469,26 @@ Para exibir esse relatório, no [centro de conformidade & segurança](https://pr
 
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>Quais permissões são necessárias para exibir esses relatórios?
 
-Para exibir e usar os relatórios descritos neste artigo, **você deve ter uma função apropriada atribuída para o centro de conformidade & segurança e o centro de administração do Exchange**.
+Para exibir e usar os relatórios, você precisa ser membro do grupo de função especificado no centro de conformidade e segurança & **e** no Exchange Online.
 
-- Para o centro de conformidade & segurança, você deve ter uma das seguintes funções atribuídas:
+- No centro de conformidade & segurança, você precisa ser membro de um dos seguintes grupos de função:
 
-  – Gerenciamento de organização-administrador de segurança (pode ser atribuído no centro de administração do Azure Active Directory [https://aad.portal.azure.com](https://aad.portal.azure.com) )-leitor de segurança
+  – Gerenciamento de organização-administrador de segurança (você também pode fazer isso no [centro de administração do Azure Active Directory](https://aad.portal.azure.com) -leitor de segurança
 
-- Para o Exchange Online, você deve ter uma das seguintes funções atribuídas no centro de administração do Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) ou com cmdlets do PowerShell (Confira [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)):
+  Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center).
 
-  – Gerenciamento da organização – gerenciamento da organização somente para exibição-somente para exibição-Gerenciamento de conformidade
+- No Exchange Online, você precisa ser membro de um dos grupos de função a seguir:
 
-Para saber mais, confira os seguintes recursos:
+  – Gerenciamento de organização – gerenciamento de organização somente de exibição-somente os destinatários do gerenciamento de conformidade
 
-- [Permissões no Centro de Segurança e Conformidade](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)
- 
-- [Permissões de recursos no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
+Para obter mais informações, consulte [permissões no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo) e [gerenciar grupos de função no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups).
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>E se os relatórios não estiverem mostrando dados?
 
-Se você não estiver vendo dados nos seus relatórios, verifique se as suas políticas estão configuradas corretamente. Para saber mais, confira [proteção contra ameaças no Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats).
+Se você não estiver vendo dados nos seus relatórios, verifique se as suas políticas estão configuradas corretamente. Para saber mais, confira [proteção contra ameaças](protect-against-threats.md).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Proteção antispam de email da Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection)
+[Proteção antispam e antimalware no EOP](anti-spam-and-anti-malware-protection.md)
 
-[Relatórios e insights no centro de conformidade e segurança &](https://docs.microsoft.com/microsoft-365/security/office-365-security/reports-and-insights-in-security-and-compliance)
+[Relatórios inteligentes e insights no Centro de Conformidade e Segurança](reports-and-insights-in-security-and-compliance.md)

@@ -14,18 +14,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 383809de-7f5e-4a1d-9098-c525f67b7a9a
-description: 'Saiba mais sobre as configurações de rótulos, módulos cruzados e locatários que você pode definir no nível do caso na descoberta eletrônica avançada.  '
-ms.openlocfilehash: b4092c7fd60b9ae82e4f97edcfa7f4aaf60ac622
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba mais sobre as configurações de rótulos, módulos cruzados e locatários que você pode definir no nível do caso na descoberta eletrônica avançada.
+ms.openlocfilehash: 6b0030e30e5e3a4f4c77fbcb5fcbd75bf63c1ea8
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630558"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936418"
 ---
 # <a name="define-case-and-tenant-settings-in-advanced-ediscovery-classic"></a>Definir configurações de caso e de locatário em descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
-> A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 As configurações de caixa de descoberta eletrônica avançada e locatário são descritas neste tópico.
   
@@ -44,7 +44,7 @@ As configurações de módulo cruzado a seguir são opções de caixa que se apl
     
 - Nome de exibição do arquivo: identificador de arquivo que será exibido em toda a descoberta eletrônica avançada para identificar o arquivo, como uma alternativa para o nome de exibição de descoberta eletrônica avançada do título/caminho do arquivo ou assunto do email.
     
-1. Abra **configurações e utilitários** clicando no ícone **engrenagem** . Abra **configurações e utilitários \> caixa de** guia \> configurações do **módulo cruzado**. 
+1. Abra **configurações e utilitários** clicando no ícone **engrenagem** . Abra **configurações e utilitários \> caixa de guia Configurações** do \> **módulo cruzado**. 
     
 2. Selecione na **página padrão após** as opções de logon: 
     
@@ -68,7 +68,7 @@ O log de eventos fornece metadados sobre o processamento de descoberta eletrôni
   
 1. Abra **configurações e utilitários** clicando no ícone **engrenagem** . 
     
-2. Na guia **configurações do locatário \> configurações e utilitários** , selecione **log de eventos**. Os dados do log de eventos são exibidos.
+2. Na guia ** \> configurações do locatário configurações e utilitários** , selecione **log de eventos**. Os dados do log de eventos são exibidos.
     
   - Para filtrar a saída de log por um caso, selecione o caso na lista **ocorrências** . 
     
@@ -76,7 +76,7 @@ O log de eventos fornece metadados sobre o processamento de descoberta eletrôni
     
   - Para modificar a ordem das colunas, clique e arraste o cabeçalho da coluna.
     
-  - Para mover entre páginas de log, **\>** clique **\<** e ícones. 
+  - Para mover entre páginas de log, clique **\>** e **\<** ícones. 
     
 ### <a name="system-information"></a>Informações do sistema
 
@@ -84,7 +84,7 @@ As informações de sistema de versão de descoberta eletrônica avançada e tar
   
 1. Abra **configurações e utilitários** clicando no ícone **engrenagem** . 
     
-2. Na guia **configurações do locatário \> configurações e utilitários** , selecione **informações do sistema**. As informações de versão são exibidas.
+2. Na guia ** \> configurações do locatário configurações e utilitários** , selecione **informações do sistema**. As informações de versão são exibidas.
     
 A exibição pode ser atualizada clicando no ícone **Atualizar** abaixo das informações do locatário. 
   

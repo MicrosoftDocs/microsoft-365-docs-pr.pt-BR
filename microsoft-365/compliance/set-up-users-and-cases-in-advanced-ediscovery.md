@@ -14,14 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 60ffd80b-4376-419d-b6e4-a72029b9907c
-description: 'Saiba como configurar funções de usuário, criar ocorrências e atribuir usuários a casos na descoberta eletrônica avançada.  '
+description: Saiba como configurar funções de usuário, criar ocorrências e atribuir usuários a casos na descoberta eletrônica avançada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6cfc8e313816c0c01512dd0d4b71f1dbbd6e6505
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 8e24354960b517815bef3cf498822d6ce9fd9dbe
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819171"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936738"
 ---
 # <a name="set-up-users-and-cases-in-advanced-ediscovery-classic"></a>Configurar usuários e casos na descoberta eletrônica avançada (clássico)
 
@@ -36,7 +36,7 @@ Antes de configurar casos e usuários na descoberta eletrônica avançada, é ne
   
 - Para analisar os dados de um usuário usando a descoberta eletrônica avançada, o usuário (o responsáveis dos dados) deve receber uma licença do Office 365 e5. Como alternativa, os usuários com uma licença do Office 365 E1 ou E3 podem receber uma licença autônoma de descoberta eletrônica avançada. Administradores e gerentes de conformidade atribuídos aos casos e usar a descoberta eletrônica avançada para analisar os dados não precisam de uma licença e5. 
     
-- Você precisa ser membro do grupo de função Gerenciador de descoberta eletrônica no centro de &amp; conformidade de segurança para criar um caso de descoberta eletrônica e adicionar membros a ela. Para se adicionar ao grupo de funções Gerenciador de descoberta eletrônica no centro de conformidade de segurança &amp; , você precisa ser um administrador global em sua organização. Se você não for um administrador global, será necessário pedir a um administrador global para adicioná-lo ao grupo de funções Gerenciador de descoberta eletrônica. Para saber mais, confira:
+- Você precisa ser membro do grupo de função Gerenciador de descoberta eletrônica no centro de &amp; conformidade de segurança para criar um caso de descoberta eletrônica e adicionar membros a ela. Para se adicionar ao grupo de funções Gerenciador de descoberta eletrônica no centro de conformidade de segurança &amp; , você precisa ser um administrador global em sua organização. Se você não for um administrador global, será necessário pedir a um administrador global para adicioná-lo ao grupo de funções Gerenciador de descoberta eletrônica. Para saber mais, veja:
     
   - [Permissões no centro de conformidade de segurança do Microsoft 365 &amp;](~/security/office-365-security/protect-against-threats.md)
     

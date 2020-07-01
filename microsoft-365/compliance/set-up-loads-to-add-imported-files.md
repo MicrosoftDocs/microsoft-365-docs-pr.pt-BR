@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0e0a9d04-294f-4f54-8bf1-b32d81345126
-description: 'Revise as etapas para adicionar arquivos importados à última carga definida ou ao lote de arquivos antes de realizar o treinamento de relevância na descoberta eletrônica avançada.  '
-ms.openlocfilehash: 7914013d21cfd7bba0e474a0e8d831bcfad0239d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Revise as etapas para adicionar arquivos importados à última carga definida ou ao lote de arquivos antes de realizar o treinamento de relevância na descoberta eletrônica avançada.
+ms.openlocfilehash: fc05111d9193a935158b4b00a14717877ae148a7
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636289"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936812"
 ---
 # <a name="set-up-loads-to-add-imported-files-in-advanced-ediscovery-classic"></a>Configurar carregamentos para adicionar arquivos importados na descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
-> A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 Na descoberta eletrônica avançada, uma carga é um novo lote de arquivos adicionados a um caso. Por padrão, uma carga é definida e todos os arquivos importados são adicionados a ela. Antes de realizar o treinamento de relevância, os arquivos importados devem ser adicionados à carga. 
   
@@ -40,7 +40,7 @@ Considere as seguintes situações:
 
 Todos os arquivos importados devem ser adicionados a uma carga a ser processada na descoberta eletrônica avançada. Arquivos importados são adicionados à última carga definida. Se você importar arquivos adicionais mais tarde, eles também devem ser adicionados à carga.
   
-1. Na guia **configuração \> de relevância de relevância** , selecione **cargas**.
+1. Na guia ** \> configuração de relevância de relevância** , selecione **cargas**.
     
     ![Guia Cargas de Configuração de Relevância](../media/278aac7f-655f-462f-852a-6baa5d818768.png)
   
@@ -61,7 +61,7 @@ Agora, os arquivos podem ser processados na relevância avançada da descoberta 
 
 Se alterar o nome da carga, é recomendável usar um nome que seja significativo para o caso.
   
-1. Na guia **configuração \> de relevância de relevância** , selecione **cargas**.
+1. Na guia ** \> configuração de relevância de relevância** , selecione **cargas**.
     
 2. Na lista de **Gerenciamento de cargas** , selecione uma carga e clique no ícone **Editar** . A janela Editar carregar é exibida. 
     
@@ -95,9 +95,9 @@ As cargas sem interrupção e a funcionalidade de atualização variam da seguin
   
 ## <a name="adding-a-new-file-load-using-catch-up-and-rolling-loads"></a>Adicionando uma nova carga de arquivos usando cargas de captura e de rolagem
 
-1. Na guia **configuração \> de relevância de relevância** , selecione **cargas**.
+1. Na guia ** \> configuração de relevância de relevância** , selecione **cargas**.
     
-2. Em **Gerenciamento de cargas**, clique **+** no ícone para adicionar uma carga. Uma mensagem de confirmação é exibida. 
+2. Em **Gerenciamento de cargas**, clique no **+** ícone para adicionar uma carga. Uma mensagem de confirmação é exibida. 
     
 3. Clique em **Sim** para continuar. A caixa de diálogo **Adicionar novo carregamento** é exibida. 
     
@@ -116,7 +116,7 @@ As cargas sem interrupção e a funcionalidade de atualização variam da seguin
     
     Em seguida, você pode marcar arquivos e executar uma operação de cálculo. A marcação permite que a relevância determine se as cargas são similares ou distintas e permite que você continue trabalhando no novo conjunto de arquivos.
     
-7. Após o conjunto de atualização ser revisado, exiba o **controle de relevância \> ** para os resultados de pesquisa. 
+7. Após o conjunto de atualização ser revisado, exiba o ** \> controle de relevância** para os resultados de pesquisa. 
     
 1. Se a nova carga de arquivos foi adicionada durante o treinamento de relevância (o que significa que o problema ainda não passou no cálculo em lote), o **treinamento de continuação** é a próxima etapa, independentemente dos resultados de atualização. 
     

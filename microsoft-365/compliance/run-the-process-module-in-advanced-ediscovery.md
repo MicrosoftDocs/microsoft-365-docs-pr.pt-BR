@@ -15,20 +15,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: dbc1e251-0596-443b-ac9b-f398ba955b73
-description: 'Saiba mais sobre as diretrizes para preparar arquivos de caso de dados para análise com descoberta eletrônica avançada.  '
-ms.openlocfilehash: c0c0b8c3477f8c3fdbe0437659a88f14fbcad1cd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba mais sobre as diretrizes para preparar arquivos de caso de dados para análise com descoberta eletrônica avançada.
+ms.openlocfilehash: 5130bea7da8922fd7e98d07696ffde3930d2ce41
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626457"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936194"
 ---
 # <a name="run-the-process-module-in-advanced-ediscovery-classic"></a>Executar o módulo de processo na descoberta eletrônica avançada (clássico)
 
-Os arquivos de caso são carregados na descoberta eletrônica avançada durante o **processo**de **preparação** \> . 
+Os arquivos de caso são carregados na descoberta eletrônica avançada durante o processo de **preparação** \> **Process**. 
   
 > [!NOTE]
-> A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 ## <a name="guidelines-preparing-data-for-advanced-ediscovery"></a>Diretrizes: preparando dados para descoberta eletrônica avançada
 
@@ -42,7 +42,7 @@ Os arquivos de caso são carregados na descoberta eletrônica avançada durante 
     
 - **Nome e tipo de arquivo**:
     
-  - A descoberta eletrônica avançada pode processar arquivos de vários formatos e extrair arquivos nativos carregados em um formato padrão, \*como. TXT, HTML ou. XML. O processamento de arquivos de texto é mais rápido do que os arquivos nativos. Arquivos de texto extraídos são armazenados na pasta de casos.
+  - A descoberta eletrônica avançada pode processar arquivos de vários formatos e extrair arquivos nativos carregados em um formato padrão, como \* . TXT, HTML ou. XML. O processamento de arquivos de texto é mais rápido do que os arquivos nativos. Arquivos de texto extraídos são armazenados na pasta de casos.
     
   - Não carregue arquivos que não podem ser extraídos, como arquivos do sistema ou imagens gráficas. Esses arquivos podem atrasar o processamento.
     

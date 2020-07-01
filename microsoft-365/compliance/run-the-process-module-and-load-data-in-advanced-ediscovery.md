@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c87bb0e5-301c-4d1d-958e-aabeb7990f44
-description: 'Saiba como usar o centro de &amp; conformidade de segurança para acessar a descoberta eletrônica avançada e executar o módulo de processo para um caso.  '
+description: Saiba como usar o centro de &amp; conformidade de segurança para acessar a descoberta eletrônica avançada e executar o módulo de processo para um caso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 47614e8bc25a376f9b51068c151a71e025e2f264
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 011a8448c36ac9f4726f13471c548b7bb2427000
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818900"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936154"
 ---
 # <a name="run-the-process-module-and-load-data-in-advanced-ediscovery-classic"></a>Executar o módulo de processo e carregar dados na descoberta eletrônica avançada (clássico)
 

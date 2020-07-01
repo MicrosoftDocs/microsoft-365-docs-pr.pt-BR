@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 3ab1e2c3-28cf-4bf5-b0a8-c0222f32bdf5
-description: 'Saiba como exibir e interpretar o status de treinamento de relevância e os resultados para problemas de caso em descoberta eletrônica avançada.  '
-ms.openlocfilehash: 7cf75607743ce752f8b23e286afc4681a1798a1f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba como exibir e interpretar o status de treinamento de relevância e os resultados para problemas de caso em descoberta eletrônica avançada.
+ms.openlocfilehash: bf1fe2fc6c0f3ff80fd7e53d55149a61009e2b32
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636614"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936214"
 ---
 # <a name="track-relevance-analysis-in-advanced-ediscovery-classic"></a>Rastrear a análise de relevância na descoberta eletrônica avançada (clássica)
 
 > [!NOTE]
-> A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 Na descoberta eletrônica avançada, a guia controle de relevância exibe a validade calculada do treinamento de relevância executado na guia marca e indica a próxima etapa a ser tomada em relevância do processo de treinamento iterativo. 
   
@@ -72,7 +72,7 @@ O cálculo de lote é executado como a próxima etapa após o treinamento ter si
   
 Quando há mais de um problema, o cálculo do lote é feito por questão. Durante o cálculo do lote, o andamento é monitorado durante o processamento de todos os arquivos. 
   
-Aqui, a próxima etapa recomendada é "nenhum", que indica que nenhum treinamento adicional de relevância iterativa é necessário neste ponto. A fase seguinte é a **de \> relevância-decisão** . 
+Aqui, a próxima etapa recomendada é "nenhum", que indica que nenhum treinamento adicional de relevância iterativa é necessário neste ponto. A fase seguinte é a de **relevância- \> decisão** . 
   
 Se você deseja importar novos arquivos após o cálculo de lote, o administrador pode adicionar os arquivos importados a uma nova carga.
   
@@ -84,9 +84,9 @@ Se você deseja importar novos arquivos após o cálculo de lote, o administrado
 Se houver inconsistências na marcação de arquivos, ela poderá afetar a análise. O processo de consistência de marcação de descoberta eletrônica avançada pode ser usado quando os resultados não são ideais ou a consistência está em dúvida. Uma lista de possíveis arquivos marcados inconsistentes é retornada, e eles podem ser revisados e remarcados, conforme necessário.
   
 > [!NOTE]
-> Após sete ou mais rodadas de treinamento após a avaliação, a consistência de marcação pode ser visualizada no **andamento do treinamento**de **resultados** \> detalhados do **problema** \> de **controle** \> de **relevância** \> . Essa análise é feita para um problema de cada vez. 
+> Após sete ou mais rodadas de treinamento após a avaliação, a consistência de marcação **Relevance** pode ser visualizada no andamento do \> **Track** \> **Issue** \> treinamento de **resultados detalhados** do problema de controle \> **Training progress**de relevância. Essa análise é feita para um problema de cada vez. 
   
-1. No **controle \> de relevância**, expanda a linha de um problema.
+1. No ** \> controle de relevância**, expanda a linha de um problema.
     
 2. À direita da **próxima etapa**, clique em **Modificar**.
     
@@ -98,7 +98,7 @@ Se houver inconsistências na marcação de arquivos, ela poderá afetar a anál
     
 ## <a name="viewing-and-using-relevance-results"></a>Exibindo e usando resultados de relevância
 
-Na guia **controle \> de relevância** , expanda a linha de um problema e ao lado de **resultados detalhados**, clique em **Exibir**. Os painéis de resultados detalhados são exibidos, conforme mostrado e descrito abaixo.
+Na guia ** \> controle de relevância** , expanda a linha de um problema e ao lado de **resultados detalhados**, clique em **Exibir**. Os painéis de resultados detalhados são exibidos, conforme mostrado e descrito abaixo.
   
 ![Resultados detalhado do treinamento de relevância](../media/495c04a9-ed1e-4355-8cab-c14270ca2bbb.png)
   
@@ -108,7 +108,7 @@ Na guia **controle \> de relevância** , expanda a linha de um problema e ao lad
   
 ![Resumo de marcação de controle de relevância](../media/0ec906fc-bc84-4245-a964-fb3ca37891db.png)
   
-### <a name="keywords"></a>Palavras-chave
+### <a name="keywords"></a>Keywords
 
 Uma palavra-chave é uma cadeia de caracteres exclusiva, palavra, frase ou sequência de palavras em um arquivo identificado por uma descoberta eletrônica avançada como um indicador significativo do fato de um arquivo ser relevante. A palavra-chave "include" da lista de colunas e os pesos em arquivos marcados como relevantes e as colunas "exclude" lista palavras-chave e pesos em arquivos marcados como não relevantes.
   
@@ -133,7 +133,7 @@ O painel **andamento do treinamento** inclui um gráfico de progresso de treinam
  **Gráfico de progresso do treinamento**: mostra o grau de estabilidade de treinamento de relevância após vários ciclos de treinamento de relevância em comparação ao valor de medida F. À medida que mudamos da esquerda para a direita no gráfico, o intervalo de confiança diminui e é usado, juntamente com a medida F, por uma relevância avançada de descoberta eletrônica para determinar a estabilidade quando os resultados de treinamento de relevância são otimizados.
   
 > [!NOTE]
-> A relevância usa F2, uma métrica de c-Measure onde a recuperação recebe duas vezes mais peso que a precisão. Para casos com grande riqueza (mais de 25%), a relevância usa F1 (taxa de 1:1). A taxa de medida de F pode ser configurada em **Configurações avançadas**de **configuração** \> de relevância. 
+> A relevância usa F2, uma métrica de c-Measure onde a recuperação recebe duas vezes mais peso que a precisão. Para casos com grande riqueza (mais de 25%), a relevância usa F1 (taxa de 1:1). A taxa de medida de F pode ser configurada em **Relevance setup** \> **Configurações avançadas**de configuração de relevância. 
   
 ### <a name="batch-calculation-results"></a>Resultados do cálculo em lote
 

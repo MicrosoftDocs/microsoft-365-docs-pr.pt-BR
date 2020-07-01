@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Encontre e use relatórios para a proteção avançada contra ameaças do Office 365 no centro de conformidade de segurança &amp; .
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3e6f6e3f2fd5820f280ab47f3ffdde11bd9da72e
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: c71bef11e574593d821b992f3a5037dbf127d5d2
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613355"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936990"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Exibir relatórios para a proteção avançada contra ameaças do Office 365
 
@@ -51,9 +51,9 @@ Filtros e divisões das informações permitem categorizações mais granulares 
 
 |||
 |---|---|
-|Por tipo de detecção|Qual política ajudou a atrair essas ameaças?|
+|Por tipo de política|Qual política ajudou a atrair essas ameaças?|
 |Por tecnologia de detecção|Qual tecnologia subjacente da Microsoft capturou a ameaça?|
-|Por status de entrega|O que aconteceu com as mensagens de email detectadas como ameaças?|
+|Por status de entrega|Qual era o status de entrega final de mensagens de email detectadas como ameaças?|
 |
 
 > [!TIP]
@@ -65,7 +65,8 @@ Esses modos de exibição oferecem a opção de exportação, por meio de um cli
 
 ![Este gráfico mostra a exportação como uma opção no menu para o modo de exibição de malware, diretamente entre criar agendamento e relatório de solicitação.](../../media/tp-threatProtectStatRpt-BreakDownByExport.png)
 
-**Observação**: o número máximo de entradas que podem ser exportadas para **phishing** e **Malware** está apenas abaixo de 10000. Se você exportar um modo de exibição, somente as entradas 10000 mais recentes serão exportadas.
+> [!NOTE]
+> O número máximo de entradas que podem ser exportadas para **phishing** e **malware** está apenas abaixo de 10000. Se você exportar um modo de exibição, somente as entradas 10000 mais recentes serão exportadas. Nos dados exportados, a coluna _contagem de mensagens_ representa o número de mensagens detectadas pelo tipo de política e tecnologia de detecção.    
 
 Os modos de exibição de visão geral e email exibirão informações em horas de processamento, e não em 24 horas (demanda re. velocidades maiores aqui foram um sinal claro)!
 
@@ -80,7 +81,7 @@ Para obter o status detalhado de um dia, passe o mouse sobre o gráfico.
 
 ![Dados de status de proteção de ameaças ATP por um dia](../../media/d5c2c6ad-c002-4985-a032-c866e46fdea8.png)
 
-Por padrão, o relatório de status de proteção contra ameaças mostra os dados dos últimos sete dias. No entanto, você pode escolher **filtros** e alterar o intervalo de datas para exibir dados de até 90 dias. (Se estiver usando uma assinatura de avaliação, você poderá estar limitado a 30 dias de dados.)
+Por padrão, o relatório de status de proteção contra ameaças mostra os dados dos últimos sete dias. No entanto, você pode escolher **filtros** e alterar o intervalo de datas para exibir dados de até 90 dias para o modo de exibição agregado e 30 dias para o modo de exibição de detalhes. (Se estiver usando uma assinatura de avaliação, você poderá estar limitado a 30 dias de dados.)
 
 ![Filtros de status de proteção contra ameaças ATP](../../media/4f703369-642b-402b-9758-b9c828283410.png)
 
@@ -111,7 +112,7 @@ Para exibir esse relatório, no [centro de &amp; conformidade de segurança](htt
 
 ![Relatório de Tipos de Arquivo ATP](../../media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
   
-Ao passar o mouse sobre um determinado dia, você pode ver a divisão de tipos de arquivos mal-intencionados que foram detectados por [anexos seguros de ATP](atp-safe-attachments.md) e [ &amp; proteção Antimalware anti-spam](anti-spam-and-anti-malware-protection.md).
+Ao passar o mouse sobre um determinado dia, você pode ver a divisão de tipos de arquivos mal-intencionados que foram detectados por [anexos seguros de ATP](atp-safe-attachments.md) e [ &amp; proteção Antimalware anti-spam](anti-spam-and-anti-malware-protection.md). O modo de exibição de agregação do relatório permite 90 dias de filtragem, enquanto o modo de exibição de detalhes permite apenas dez dias de filtragem. 
   
 ![Dados de relatório de tipos de arquivo ATP por um dia](../../media/10d18428-699a-41d2-a73e-be3a8214ada1.png)
 

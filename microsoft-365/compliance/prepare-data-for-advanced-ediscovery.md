@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2fb94c23-1846-4a0e-994d-da6d02445f15
-description: 'Saiba como usar o centro de &amp; conformidade de segurança para preparar dados para análise com a descoberta eletrônica avançada. '
-ms.openlocfilehash: cf6ace4f88aa18790495b79ed3aa22ebeda75545
-ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
+description: Saiba como usar o centro de &amp; conformidade de segurança para preparar dados para análise com a descoberta eletrônica avançada.
+ms.openlocfilehash: 3c9d237a3a9c04a443730143998324a7831f2998
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412820"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936326"
 ---
 # <a name="prepare-data-for-advanced-ediscovery-classic"></a>Preparar dados para descoberta eletrônica avançada (clássico)
 
@@ -51,7 +51,7 @@ Após preparar os resultados da pesquisa no &amp; centro de conformidade de segu
     
 4. Clique em **abrir** ao lado do caso para o qual você deseja carregar dados na descoberta eletrônica avançada. 
     
-5. Na **Home** Page do caso, clique em **alternar para descoberta eletrônica avançada**. 
+5. Na página **Início** do caso, clique em **Alternar para Avançar o eDiscovery**. 
     
     ![Clique em alternar para descoberta eletrônica avançada para abrir o caso na descoberta eletrônica avançada](../media/8e34ba23-62e3-4e68-a530-b6ece39b54be.png)
   

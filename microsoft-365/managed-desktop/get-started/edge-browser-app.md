@@ -1,17 +1,17 @@
 ---
-title: Novo aplicativo do Microsoft Edge
+title: Novo Microsoft Edge
 description: ''
 keywords: navegador, área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 0602d7c6afef6190578268c78994b43ac60d0d2f
-ms.sourcegitcommit: 3119b2246001ba06af8264508785352dfb894166
+ms.openlocfilehash: d11fd8f29e3232472f9457ba1fc288a5084429e9
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44820671"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936132"
 ---
 # <a name="new-microsoft-edge-app"></a>Novo aplicativo do Microsoft Edge
 

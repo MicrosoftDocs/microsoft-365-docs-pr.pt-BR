@@ -14,14 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c3198d1c-51b4-4280-87c5-269b47246d33
-description: 'Entenda as diretrizes para exportar dados de ocorrência de descoberta eletrônica e resultados para revisão usando o processo de exportação na descoberta eletrônica avançada.  '
+description: Entenda as diretrizes para exportar dados de ocorrência de descoberta eletrônica e resultados para revisão usando o processo de exportação na descoberta eletrônica avançada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 88be4a96720aee2392b6e0972919997f8634054b
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: ef717ca82962417856c65cae605c445971b27256
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817760"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936408"
 ---
 # <a name="export-case-data-in-advanced-ediscovery-classic"></a>Exportar dados de caso na descoberta eletrônica avançada (clássico)
 

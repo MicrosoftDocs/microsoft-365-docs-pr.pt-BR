@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 description: Assim como os recursos do centro de conformidade da Microsoft 365, nosso conteúdo da ajuda está sempre evoluindo. Descubra o que é novo e atualizado este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3bba8d0bbd68c6d28d72bcf32abdc798d7125250
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: b3305a2d6fe2d25730b6d39891723675e7243f50
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818961"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936144"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Atualizações recentes para o conteúdo de conformidade do Microsoft 365
 
@@ -112,7 +112,7 @@ Todos os tópicos de [Pontuação de conformidade](compliance-score.md) e [geren
 [Usar rótulos de confidencialidade para proteger o conteúdo no Microsoft Teams, microsoft 365 Groups e sites do SharePoint (visualização pública)](sensitivity-labels-teams-groups-sites.md) (atualizado)<br>As alterações incluem:
 
 - Foram removidas as instruções do Azure AD e vinculadas às [informações autoritativas do Azure ad](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
-- Atualizou a seção [como definir as configurações de site e de grupo ao criar ou editar rótulos de confidencialidade](sensitivity-labels-teams-groups-sites.md#how-to-configure-site-and-group-settings-when-you-create-or-edit-sensitivity-labels) com informações sobre a **privacidade da configuração de sites conectados ao grupo do Office 365** , que inclui a nova opção **nenhum** .
+- Atualização da seção [como configurar definições de site e de grupo](sensitivity-labels-teams-groups-sites.md#how-to-configure-site-and-group-settings) com informações sobre a **privacidade da configuração de sites de equipes conectadas ao grupo do Office 365** , que inclui a nova opção **nenhum** .
 - Adicionada uma observação descrevendo como somente os rótulos com configurações de site e de grupo estarão disponíveis para selecionar quando os usuários criarem equipes, grupos e sites. Essa funcionalidade está sendo implantada gradualmente nas organizações.
 
 [Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia](encryption-sensitivity-labels.md) (atualizado)<br>[Nova seção](encryption-sensitivity-labels.md#example-configurations-for-the-encryption-settings) com exemplos de configurações de criptografia para algumas das configurações usadas com mais frequência para proteger documentos e emails.

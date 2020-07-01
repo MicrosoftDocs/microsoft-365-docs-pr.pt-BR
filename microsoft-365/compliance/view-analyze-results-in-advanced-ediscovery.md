@@ -15,24 +15,24 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
-description: 'Entenda onde exibir os resultados do processo de análise na descoberta eletrônica avançada, incluindo as definições das opções de tarefa exibidas.  '
-ms.openlocfilehash: 09bb682e753730a4c01581e71f05b5b8ef3d4779
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Entenda onde exibir os resultados do processo de análise na descoberta eletrônica avançada, incluindo as definições das opções de tarefa exibidas.
+ms.openlocfilehash: 24a4b0685ec5dc82aff0b1f0de81080a62e49776
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626357"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936944"
 ---
 # <a name="view-analyze-results-in-advanced-ediscovery-classic"></a>Exibir resultados de análise na descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
-> A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 Na descoberta eletrônica avançada, o andamento e os resultados do processo de análise podem ser exibidos em uma variedade de exibições, conforme descrito abaixo.
   
 ## <a name="view-analyze-task-status"></a>Exibir o status da tarefa de análise
 
-Em **preparar \> o \> status \> da tarefa de análise de resultados**, o status é exibido durante e após analisar a execução do processo. 
+Em **preparar \> o \> status da \> tarefa de análise de resultados**, o status é exibido durante e após analisar a execução do processo. 
   
 ![Status de tarefa de análise](../media/d0372978-ce08-4f4e-a1fc-aa918ae44364.png)
   

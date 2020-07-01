@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 4d4cb381-4c9a-4165-a455-609d525c7a88
-description: 'Revisar como o valor de similaridade do documento, o nível mínimo de aparência de dois arquivos a serem considerados quase duplicados, funciona na descoberta eletrônica avançada. '
+description: Revisar como o valor de similaridade do documento, o nível mínimo de aparência de dois arquivos a serem considerados quase duplicados, funciona na descoberta eletrônica avançada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83c68eca8fba1ee8672f02f315585161c9abf2e3
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 939e9ad6cb193e2019fe84f1e0d3482eebac721c
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819121"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936636"
 ---
 # <a name="understand-document-similarity-in-advanced-ediscovery-classic"></a>Entender a similaridade de documentos na descoberta eletrônica avançada (clássica)
 

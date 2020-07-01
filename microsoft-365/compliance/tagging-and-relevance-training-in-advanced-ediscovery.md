@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
-description: 'Conheça as etapas para marcar e, em seguida, trabalhar com um exemplo de treinamento de 40 arquivos durante o estágio de treinamento de relevância de descoberta eletrônica avançada.  '
-ms.openlocfilehash: 8d03061401cab2014d33e9e3238af42a4d01738a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Conheça as etapas para marcar e, em seguida, trabalhar com um exemplo de treinamento de 40 arquivos durante o estágio de treinamento de relevância de descoberta eletrônica avançada.
+ms.openlocfilehash: 56ce30754e04d4a2adcf854093e603f93be5ae36
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636259"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936667"
 ---
 # <a name="tagging-and-relevance-training-in-advanced-ediscovery-classic"></a>Treinamento de marcação e relevância na descoberta eletrônica avançada (clássico)
 
 > [!NOTE]
-> A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 Este tópico descreve o procedimento para trabalhar com o módulo de treinamento de relevância de descoberta eletrônica avançada. 
   
@@ -34,7 +34,7 @@ Após a conclusão da avaliação na descoberta eletrônica avançada, e você i
   
 ## <a name="performing-relevance-training"></a>Realizando treinamento de relevância
 
-1. Na guia **marca \> de relevância** , o painel de marcação é exibido por padrão no painel esquerdo e os arquivos de exemplo são exibidos, um de cada vez para marcação. 
+1. Na guia ** \> marca de relevância** , o painel de marcação é exibido por padrão no painel esquerdo e os arquivos de exemplo são exibidos, um de cada vez para marcação. 
     
     ![Painel Marca de Relevância](../media/0cf19ab4-b427-4a7f-8749-0f4ed9afaf58.png)
   
@@ -54,7 +54,7 @@ Após a conclusão da avaliação na descoberta eletrônica avançada, e você i
    
   - Quando houver vários problemas para um arquivo, depois de marcar um problema, a seleção será movida para o próximo problema (se houver algum). 
     
-  - Palavras-chave que foram definidas pelo administrador ou gerente de caso ao realçar palavras-chave (palavras \> -chave de configuração de relevância realçadas), serão exibidas (em cores especificadas) para ajudar a identificar arquivos relevantes durante a marcação. Se uma palavra-chave tiver um sublinhado duplo, poderá ser clicado para exibir uma dica de ferramenta com a descrição da palavra-chave. 
+  - Palavras-chave que foram definidas pelo administrador ou gerente de caso ao realçar palavras-chave (palavras-chave de configuração de relevância \> realçadas), serão exibidas (em cores especificadas) para ajudar a identificar arquivos relevantes durante a marcação. Se uma palavra-chave tiver um sublinhado duplo, poderá ser clicado para exibir uma dica de ferramenta com a descrição da palavra-chave. 
     
     Opcionalmente, na guia **marca** , clique em **configurações de marca** para definir as seguintes opções: 
     
@@ -78,7 +78,7 @@ Após a conclusão da avaliação na descoberta eletrônica avançada, e você i
 
 A lista arquivos de amostra permite exibir uma lista dos arquivos em um exemplo de treinamento e realizar várias ações em um ou mais arquivos. Na guia **Relevance** \> **marca** de relevância, o painel esquerdo **arquivos de exemplo** exibe uma lista de arquivos de amostra para processamento com processos de avaliação, treinamento, acompanhamento e inconsistências. 
   
-1. Na guia **marca \> de relevância** , selecione os arquivos de exemplo na lista suspensa painel esquerdo. Os arquivos de exemplo estão listados no painel esquerdo. 
+1. Na guia ** \> marca de relevância** , selecione os arquivos de exemplo na lista suspensa painel esquerdo. Os arquivos de exemplo estão listados no painel esquerdo. 
     
     ![Lista de arquivos de exemplo de Marca de Relevância](../media/fd058bdd-645a-4af1-a1eb-bff08581cb18.png)
   

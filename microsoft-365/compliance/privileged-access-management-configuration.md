@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: Use este artigo para saber mais sobre como habilitar e configurar o gerenciamento de acesso privilegiado no Office 365.
-ms.openlocfilehash: cbb38c2edff0c85e24855e3f6a1613ad8a92043e
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 4bae6d311b3447534165ee803d7094e5797a9b1c
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036416"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936316"
 ---
 # <a name="get-started-with-privileged-access-management"></a>Introdução ao gerenciamento de acesso privilegiado
 
@@ -81,7 +81,7 @@ Depois que a aprovação for concedida, o usuário solicitante poderá executar 
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando as credenciais de uma conta de administrador em sua organização.
 
-2. No centro de administração, vá para **grupos** > **Adicionar um grupo**.
+2. No centro de administração, vá para **grupos**  >  **Adicionar um grupo**.
 
 3. Selecione **grupo de segurança habilitado para email** e preencha os **campos nome**, endereço de **email do grupo**e **Descrição** do novo grupo.
 
@@ -99,7 +99,7 @@ Depois que a aprovação for concedida, o usuário solicitante poderá executar 
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando as credenciais de uma conta de administrador em sua organização.
 
-2. No centro de administração, vá até **configurações > configurações > segurança &** > **acesso privilegiado**privacidade.
+2. No centro de administração, acesse **configurações**  >  **org**Settings  >  **Security & Privacy**  >  **Privileged Access**.
 
 3. Habilite o controle **exigir aprovações para tarefas privilegiadas** .
 
@@ -134,7 +134,7 @@ Você pode criar e configurar até 30 políticas de acesso privilegiado para sua
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando as credenciais de uma conta de administrador em sua organização.
 
-2. No centro de administração, vá até **configurações** > de**segurança & privacidade** > **privilegiada**.
+2. No centro de administração, acesse **configurações**  >  **org**Settings  >  **Security & Privacy**  >  **Privileged Access**.
 
 3. Selecione **gerenciar políticas e solicitações de acesso**.
 
@@ -180,7 +180,7 @@ As solicitações de acesso privilegiado são válidas por até 24 horas após o
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando suas credenciais.
 
-2. No centro de administração, vá até **configurações** > de**segurança & privacidade** > **privilegiada**.
+2. No centro de administração, acesse **configurações**  >  **org**Settings  >  **Security & Privacy**  >  **Privileged Access**.
 
 3. Selecione **gerenciar políticas e solicitações de acesso**.
 
@@ -220,7 +220,7 @@ Após a criação de uma solicitação de aprovação, o status da solicitação
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) com suas credenciais.
 
-2. No centro de administração, vá até **configurações** > de**segurança & privacidade** > **privilegiada**.
+2. No centro de administração, acesse **configurações**  >  **org**Settings  >  **Security & Privacy**  >  **Privileged Access**.
 
 3. Selecione **gerenciar políticas e solicitações de acesso**.
 
@@ -248,7 +248,7 @@ Quando uma solicitação de aprovação é criada, os membros do grupo de aprova
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) com suas credenciais.
 
-2. No centro de administração, vá até **configurações** > de**segurança & privacidade** > **privilegiada**.
+2. No centro de administração, acesse **configurações**  >  **org**Settings  >  **Security & Privacy**  >  **Privileged Access**.
 
 3. Selecione **gerenciar políticas e solicitações de acesso**.
 
@@ -290,7 +290,7 @@ Se ele não for mais necessário em sua organização, você poderá excluir uma
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando as credenciais de uma conta de administrador em sua organização.
 
-2. No centro de administração, vá até **configurações** > de**segurança & privacidade** > **privilegiada**.
+2. No centro de administração, acesse **configurações**  >  **org**Settings  >  **Security & Privacy**  >  **Privileged Access**.
 
 3. Selecione **gerenciar políticas e solicitações de acesso**.
 
@@ -316,7 +316,7 @@ Se necessário, você pode desabilitar o gerenciamento de acesso privilegiado pa
 
 1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) com as credenciais de uma conta de administrador em sua organização.
 
-2. No centro de administração, vá até **configurações** > de**segurança & privacidade** > **privilegiada**.
+2. No centro de administração, acesse **configurações**  >  **org**Settings  >  **Security & Privacy**  >  **Privileged Access**.
 
 3. Habilitar as **aprovações de controle de acesso privilegiado** .
 

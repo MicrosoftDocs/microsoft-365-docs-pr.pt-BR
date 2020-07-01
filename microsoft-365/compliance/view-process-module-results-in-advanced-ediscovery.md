@@ -15,24 +15,24 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c6f016cb-409f-4ae9-911c-1395cf0c86ea
-description: 'Saiba mais sobre como localizar os resultados de um módulo de processo executado na descoberta eletrônica avançada, incluindo o status da tarefa e o resumo do processo.  '
-ms.openlocfilehash: b7b88ed291236330c87c96d24fa6f1c22fb3d773
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba mais sobre como localizar os resultados de um módulo de processo executado na descoberta eletrônica avançada, incluindo o status da tarefa e o resumo do processo.
+ms.openlocfilehash: 26ef87c762fc5c77f2374978bf4a425940dd5f37
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626307"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936164"
 ---
 # <a name="view-process-module-results-in-advanced-ediscovery-classic"></a>Exibir resultados do módulo de processo na descoberta eletrônica avançada (clássico)
 
-Depois que o **processo** de **preparação** \> é iniciado, você pode exibir o progresso e os resultados. 
+Depois **Prepare** \> que o **processo** de preparação é iniciado, você pode exibir o progresso e os resultados. 
   
 > [!NOTE]
-> A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 ## <a name="process-task-status"></a>Status da tarefa de processo
 
-Nos **resultados**do **processo** \> de **preparação** \> , a página mostra o status atual (se o processo estiver em execução no momento) ou o status da tarefa de status do último processo, conforme mostrado no exemplo a seguir.
+Nos resultados do processo de **preparação** \> **Process** \> **Results**, a página mostra o status atual (se o processo estiver em execução no momento) ou o status da tarefa de status do último processo, conforme mostrado no exemplo a seguir.
   
 ![Status da tarefa do módulo de processamento](../media/9430f9e7-a4dd-47c7-ac2e-2c6a60fc948b.png)
   
@@ -64,7 +64,7 @@ Status da tarefa: exibido após a conclusão da tarefa. Enquanto as tarefas est�
   
 ## <a name="process-summary"></a>Resumo do processo
 
-No resumo \> do \> processo \> de preparação dos resultados do processo, uma divisão dos resultados do arquivo carregado é exibida de acordo com o processamento de arquivos bem-sucedido e resultados de erros.
+No \> \> Resumo do processo de preparação dos resultados do processo \> , uma divisão dos resultados do arquivo carregado é exibida de acordo com o processamento de arquivos bem-sucedido e resultados de erros.
   
 Os painéis apresentam uma exibição gráfica das estatísticas de arquivo importadas, da seguinte maneira:
   
@@ -104,7 +104,7 @@ A barra direita, processada, inclui:
     
 ## <a name="last-process-errors"></a>Erros do último processo
 
-Em preparar \> resultados \> \> do processo últimos erros de processo, os detalhes dos erros na última sessão ou ação executada são exibidos.
+Em preparar \> \> resultados \> do processo últimos erros de processo, os detalhes dos erros na última sessão ou ação executada são exibidos.
   
 ![Erros do módulo de processamento](../media/4771d0f4-4217-445a-9ba4-8b6541c5ad09.png)
   

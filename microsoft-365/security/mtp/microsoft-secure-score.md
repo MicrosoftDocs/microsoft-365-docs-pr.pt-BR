@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 44ba7a1c877580f31ca858f7fefcc502e0bb8beb
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 23938dc78c498af76267233c8ad38dd909d56400
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844619"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936624"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -56,6 +56,19 @@ Cada ação de melhoria vale 10 pontos ou menos. A maioria é classificada de fo
 ### <a name="products-included-in-secure-score"></a>Produtos incluídos na pontuação segura
 
 No momento, há recomendações para o Microsoft 365 (incluindo o Exchange Online), o Azure AD, o Microsoft defender ATP, o Azure ATP e o Cloud app Security. As recomendações para outros produtos de segurança serão disponibilizadas em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por terceiros ou como atenuação alternativa.
+
+### <a name="security-defaults"></a>Padrões de segurança
+
+A pontuação segura da Microsoft atualiza as ações de aperfeiçoamento para suportar os [padrões de segurança no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults), o que facilita a proteção da organização com configurações de segurança pré-configuradas para ataques comuns.
+
+Se você ativar os padrões de segurança, receberá pontos completos para as seguintes ações de aprimoramento:
+
+- Garantir que todos os usuários possam concluir a autenticação multifator para acesso seguro (9 pontos)
+- Exigir MFA para funções administrativas (10 pontos)
+- Habilitar política para bloquear autenticação herdada (7 pontos)
+
+>[!IMPORTANT]
+>Os padrões de segurança incluem recursos de segurança que oferecem segurança semelhante às ações de aperfeiçoamento "política de risco de entrada" e "política de risco de usuário". Em vez de configurar essas políticas na parte superior dos padrões de segurança, recomendamos atualizar seus status para "resolvido por meio de atenuação alternativa".
 
 ## <a name="required-permissions"></a>Permissões obrigatórias
 

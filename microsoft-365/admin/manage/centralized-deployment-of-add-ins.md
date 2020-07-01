@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Determine se o locatário e os usuários atendem aos requisitos, para que você possa usar a implantação centralizada para implantar os suplementos do Office.
-ms.openlocfilehash: 4b9ca7213f36440114d39ef491fe934f13ca96ea
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 4ad2f504c26fcc1f01c958bebf448718500a95b7
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717268"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936438"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a implantação centralizada de suplementos funciona para a sua organização
 
@@ -40,16 +40,12 @@ Você pode exibir requisitos específicos para o Office e o Exchange abaixo ou u
 
 A Implantação Centralizada não é compatível com:
   
-- Suplementos que visam o Word, Excel ou o PowerPoint no Office 2013
-    
+- Suplementos que visam o Word, Excel ou o PowerPoint no Office 2013 
 - Um serviço de diretório local
-    
+- Implantação de suplemento em uma caixa de correio local do Exchange
 - Implantação de suplemento no SharePoint  
-
 - Aplicativos do teams
-   
 - Implantação de suplementos do COM (Component Object Model) ou VSTO (Visual Studio Tools para Office)
-    
 - Implantações do Microsoft 365 que não incluem o Exchange, como os aplicativos do Microsoft 365 para empresas
 
 ### <a name="office-requirements"></a>Requisitos do Office

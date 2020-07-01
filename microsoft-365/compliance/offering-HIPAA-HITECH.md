@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 47343d3e4ae3224556cc22874687da4bea864e8a
-ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
+ms.openlocfilehash: 825d8bac0d20534310864801b1d8eaef32c9b417
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773712"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936346"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>O Health Insurance Portability and Accountability (HIPAA) & funciona
 
@@ -98,7 +98,7 @@ O [Portal de Confiança do Serviço](https://www.microsoft.com/trustcenter/STP/d
 
 Para ajudar os clientes nessa tarefa, a Microsoft publicou estes guias:
 
-- *Orientações de implementação de decreto HIPAA/alta tecnologia* para [Azure](https://aka.ms/azurehipaaguidance) e [Dynamics 365 e Office 365](https://go.microsoft.com/fwlink/?LinkID=257510). Escrito para os órgãos de privacidade, segurança e conformidade e outros responsáveis pela implementação de decreto HIPAA e de alta tecnologia, elas descrevem as etapas concretas que sua organização pode realizar para manter a conformidade.
+- *Orientações de implementação de decreto HIPAA/alta tecnologia* para [Azure](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/) e [Dynamics 365 e Office 365](https://go.microsoft.com/fwlink/?LinkID=257510). Escrito para os órgãos de privacidade, segurança e conformidade e outros responsáveis pela implementação de decreto HIPAA e de alta tecnologia, elas descrevem as etapas concretas que sua organização pode realizar para manter a conformidade.
 - O [Guia prático para projetar soluções de integridade seguras usando o Microsoft Azure](https://aka.ms/azureindustrysecurity) ajuda a entender melhor o que é necessário para adotar um serviço de nuvem de forma segura.
 - [Atender aos requisitos de segurança e privacidade da HIPAA no Microsoft Cloud](https://smb.blob.core.windows.net/smbproduction/Content/Microsoft_Cloud_Healthcare_HIPAA_Security_Privacy.pdf) oferece uma breve visão geral dos requisitos normativos. Ele também fornece uma análise detalhada de como os serviços de nuvem da Microsoft foram criados com metodologias que mapeiam esses requisitos e orientações sobre como criar soluções prontas para conformidade.
 

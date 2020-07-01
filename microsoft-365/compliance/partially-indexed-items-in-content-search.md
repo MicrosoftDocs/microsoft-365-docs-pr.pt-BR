@@ -20,13 +20,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
-description: 'Saiba mais sobre itens não indexados no Exchange e no SharePoint que você pode incluir em uma pesquisa de conteúdo executada por meio do centro de conformidade de & de segurança. '
-ms.openlocfilehash: 534f0014a448b4ef280586a724067f1a4f820693
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+description: Saiba mais sobre itens não indexados no Exchange e no SharePoint que você pode incluir em uma pesquisa de conteúdo executada por meio do centro de conformidade de & de segurança.
+ms.openlocfilehash: 587f887a7ecd8e7393b2f6852a070dd040ff1bda
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214207"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936336"
 ---
 # <a name="partially-indexed-items-in-content-search"></a>Itens parcialmente indexados na Pesquisa de Conteúdo
 

@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 66ca9993-75f4-4724-aea2-5a0719b660c1
-description: 'Saiba mais sobre os utilitários em descoberta eletrônica avançada, incluindo log de caso, dados claros, erros de processo, modificação de relevância e análise de transparência.  '
-ms.openlocfilehash: d4495920110916fdd5b07201d50080605ba177b1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Saiba mais sobre os utilitários em descoberta eletrônica avançada, incluindo log de caso, dados claros, erros de processo, modificação de relevância e análise de transparência.
+ms.openlocfilehash: 4283bc7bea509c8a01fb45c433964230a5256f8a
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633386"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936614"
 ---
 # <a name="use-advanced-ediscovery-classic-utilities"></a>Usar utilitários da Descoberta Eletrônica Avançada (clássica)
 
 > [!NOTE]
-> A Descoberta Eletrônica Avançada exige um Office 365 E3, com um complemento de Conformidade Avançada ou uma assinatura do E5 para sua organização. Se você não tiver esse plano e quiser tentar a Descoberta Eletrônica Avançada, poderá [Inscrever-se para uma avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 Os utilitários que são exibidos e estão disponíveis na descoberta eletrônica avançada dependem de contexto e funções de usuário.
   
@@ -38,7 +38,7 @@ O arquivo de log também pode ser baixado no computador do cliente. A opção de
   
 1. Na barra de menus, clique no ícone **engrenagem** . 
     
-2. Na guia **utilitários de configurações \> e utilitários** , selecione **a configuração \> de log de caso**.
+2. Na guia ** \> utilitários de configurações e utilitários** , selecione ** \> a configuração de log de caso**.
     
 3. Selecione o **nível de log** da seguinte maneira: 
     
@@ -57,7 +57,7 @@ Se for necessário excluir ou reinicializar os dados da ocorrência, a instânci
   
 1. Na barra de menus, clique no ícone **engrenagem** . 
     
-2. Na guia **utilitários de configurações \> e utilitários** , selecione **limpar configuração \> de dados**.
+2. Na guia ** \> utilitários de configurações e utilitários** , selecione **limpar \> configuração de dados**.
     
 3. Selecione uma opção para que as informações sejam inicializadas:
     
@@ -77,7 +77,7 @@ Esta seção descreve como ignorar ou reverter uma amostra de relevância.
   
 1. Na barra de menus, clique no ícone **engrenagem** . 
     
-2. Na guia **utilitários de configurações \> e utilitários** , selecione **Modificar relevância**.
+2. Na guia ** \> utilitários de configurações e utilitários** , selecione **Modificar relevância**.
     
 3. Selecione dentre as opções: 
     
@@ -99,7 +99,7 @@ Em um cenário de caso de vários problemas, um relatório de análise de transp
   
 1. Na barra de menus, clique no ícone **engrenagem** . 
     
-2. Na guia **utilitários de configurações \> e utilitários** , selecione **configuração de \> análise de transparência**.
+2. Na guia ** \> utilitários de configurações e utilitários** , selecione ** \> configuração de análise de transparência**.
     
 3. Em * * ID de arquivo * *, insira a ID de arquivo do arquivo a ser processado.
     
