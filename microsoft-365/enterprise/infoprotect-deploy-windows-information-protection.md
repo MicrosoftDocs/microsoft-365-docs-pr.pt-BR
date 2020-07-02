@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Compreender e implantar a Proteção de Informações do Windows no Microsoft 365.
-ms.openlocfilehash: 66c9e10772edb0782096ba120858e895684255b2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c7b76ef28d41810d6e9e45e98adb7a94cf8ae2f4
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631640"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005717"
 ---
 # <a name="step-4-configure-windows-information-protection"></a>Etapa 4: configurar a Proteção de Informações do Windows
 
@@ -37,11 +37,14 @@ No Microsoft 365 Enterprise, o WIP é uma combinação do Windows 10 Enterprise 
 Para implantar o WIP na sua organização com o Microsoft 365 Enterprise:
 
 1. Inscreva seus dispositivos do Windows no Intune. Você deveria ter feito isso na [Fase 5: Gerenciamento de Dispositivos Móveis](mobility-infrastructure.md).
-2. Crie uma [política do Intune para WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure).
-  - Certifique-se de que você tenha preenchido sua lista de aplicativos protegidos.
-  - Escolha o seu nível de proteção WIP.
 
-Você também pode usar o WIP com o [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-sccm). 
+2. Crie uma [política do Intune para WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure).
+
+   -    Certifique-se de que você tenha preenchido sua lista de aplicativos protegidos.
+  
+   - Escolha o seu nível de proteção WIP.
+
+Você também pode usar o WIP com o [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-configmgr). 
 
 Veja [Práticas recomendadas de WIP]( https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/guidance-and-best-practices-wip) para mais informações.
 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entender e configurar várias maneiras para classificar os dados em sua organização.
-ms.openlocfilehash: e8c40ca4c419edc2d59a060dfd4fe8918cf4e784
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 57d4c692630826f371ea825d86fc64b959b71df2
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633469"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005805"
 ---
 # <a name="step-2-configure-classification-for-your-environment"></a>Etapa 2: Configurar classificações de ambiente
 
@@ -92,7 +92,7 @@ Veja mais informações na [Biblioteca de documentação de Proteção de Inform
 
 Rótulos existentes de Proteção de Informações do Azure funcionam perfeitamente com rótulos de confidencialidade. Por exemplo, você pode manter seus rótulos existentes de Proteção de Informações do Azure e os rótulos que são aplicados aos documentos e email.
 
-Se você tem tanto os rótulos de confidencialidade como os rótulos de Proteção de Informações do Azure, você deve [migrar seus rótulos de Proteção de Informações do Azure para rótulos de confidencialidade](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels#how-sensitivity-labels-work-with-existing-azure-information-protection-labels).
+Se você tem tanto os rótulos de confidencialidade como os rótulos de Proteção de Informações do Azure, você deve [migrar seus rótulos de Proteção de Informações do Azure para rótulos de confidencialidade](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels#sensitivity-labels-and-azure-information-protection).
 
 ## <a name="example-classification-for-gdpr"></a>Exemplo: Classificação para GDPR
 

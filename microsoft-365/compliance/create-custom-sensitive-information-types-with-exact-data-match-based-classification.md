@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Correspondência Exata de Dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e6574d59fef98e026da31a21dab9189d2af4581e
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: b29ff790dbfafb281325879904fe5bfa71fdcf17
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818000"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45023332"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
 
@@ -469,7 +469,7 @@ Os tipos de informações confidenciais do EDM para os cenários a seguir estão
 
 5. Na guia **Escolher locais** , clique em **Escolher locais específicos**e, em seguida, clique em **Próximo**.
 
-6. Na coluna **Status** , escolha **email do Exchange, contas do OneDrive, mensagem de canal e chat do Teams** e, em seguida, escolha **Próximo**. (Observação: atualmente, o EDM não é compatível com sites do SharePoint e a política de DLP não irá detectar arquivos no SharePoint para EDM)
+6. Na coluna **Status** , escolha **email do Exchange, contas do OneDrive, mensagem de canal e chat do Teams** e, em seguida, escolha **Próximo**.
 
 7. Na guia **Configurações de política** , escolha **Usar configurações avançadas**e, em seguida, clique em **Próximo**.
 
@@ -506,7 +506,3 @@ Os tipos de informações confidenciais do EDM para os cenários a seguir estão
 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
 
 [New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema?view=exchange-ps)
-
-## <a name="feedback"></a>Feedback
-
-Os comentários do GitHub estão habilitados, mas não é possível adicionar problemas no site público.

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Adicione contas de usuários e grupos diretamente na nuvem ou sincronizando-as com o diretório local.
-ms.openlocfilehash: 324d4662f868a4a92693b43c6bc0f75c11f20519
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 2a54044737f5b924bd619d5a6c7c72091dc7a0d1
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633099"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005829"
 ---
 # <a name="step-4-add-your-user-accounts"></a>Fase 4: adicionar suas contas de usuário
 
@@ -49,12 +49,12 @@ O Azure AD Connect é a ferramenta da Microsoft com suporte que guia você pela 
 1. O Azure AD Connect em execução em um servidor sonda o AD DS para mudanças em contas, grupos e contatos.
 2. O Azure AD Connect envia essas mudanças para o locatário do Azure AD para a sua assinatura do Microsoft 365.
 
-A primeira decisão em sua solução de identidade híbrida é o requisito de autenticação. As alternativas a seguir são opções:
+The first decision in your hybrid identity solution is your authentication requirement. The following options are options:
 
-- Com a **autenticação gerenciada**, o Azure AD lida com o processo de autenticação do login do usuário. Há dois métodos de autenticação gerenciada: 
+- With **managed authentication**, Azure AD handles the authentication process for user sign-in. There are two methods for managed authentication: 
     - **Sincronização de hash de senha (PHS)** [Recomendado e obrigatório para alguns recursos premium]. Esta é a forma mais simples de habilitar a autenticação para objetos de diretório locais no Azure AD. O Azure AD Connect extrai a senha especificada como hash do AD DS, realiza o processamento de segurança adicional no hash de senha e a sincroniza com o Azure AD. Para obter mais informações, consulte [Implementar a sincronização de senha com a sincronização do Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization).
     - A **Autenticação de passagem (PTA)** fornece uma solução de validação de senha simples para os serviços baseados no Azure AD. PTA usa um agente em execução em um ou mais servidores locais para validar as autenticações de usuário diretamente com seu AD DS local. Para saber mais, confira [Entrada do usuário com autenticação de passagem do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication).
-- Com a **autenticação federada**, o processo de autenticação é redirecionado para outro provedor de identidade por meio de um servidor de federação de identidade, como os Serviços de Federação do Active Directory (AD FS) para o login de um usuário. O provedor de identidade pode fornecer métodos de autenticação adicionais, como a autenticação baseada em cartão inteligente. Para saber mais, confira [Escolhendo o método de autenticação correto para sua solução de identidade híbrida do Azure Active Directory](https://docs.microsoft.com/azure/security/azure-ad-choose-authn).
+- With **federated authentication**, the authentication process is redirected to another identity provider through an identity federation server, such as Active Directory Federation Services (AD FS), for a user’s sign-in. The identity provider can provide additional authentication methods, such as smartcard-based authentication. For more information, see [Choosing the right authentication method for your Azure Active Directory hybrid identity solution](https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn).
 
 Assista a este vídeo para ter uma visão geral dos modelos de identidade e autenticação do Microsoft 365 Enterprise.
 
@@ -116,7 +116,7 @@ O write-back de senha é necessário para o uso por completo das capacidades de 
 Para obter mais informações e instruções de configuração, consulte o artigo sobre o [Azure AD SSPR com o write-back de senha](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-writeback).
 
 >[!Note]
->Atualize para a versão mais recente do Azure AD Connect a fim de garantir a melhor experiência possível e o acesso a novos recursos à medida que são lançados. Para saber mais, consulte as informações sobre a [instalação personalizada do Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-get-started-custom).
+>Upgrade to the latest version of Azure AD Connect to ensure the best possible experience and new features as they are released. For more information, see [Custom installation of Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-get-started-custom).
 >
 
 |||
