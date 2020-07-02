@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao SharePoint e ao OneDrive.
-ms.openlocfilehash: cae0016f705757341934d1ad7e6eec331e81642c
-ms.sourcegitcommit: aab8b94ea8a9d4f7c6b911d6dc5cde70722e00e5
+ms.openlocfilehash: e7a265d39b3cca2ffb9c403cf2c87f287a9325b2
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44869863"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016242"
 ---
 # <a name="learn-about-retention-policies-for-sharepoint-and-onedrive"></a>Saiba mais sobre as políticas de retenção do SharePoint e do OneDrive
 
@@ -82,7 +82,7 @@ Uma política de retenção mantém todas as versões de um documento em um conj
 > [!NOTE]
 > As versões preservadas dos documentos do SharePoint e do OneDrive não são pesquisáveis por ferramentas de Descoberta Eletrônica.
 
-### <a name="when-a-user-leaves-the-organization"></a>Quando um usuário sair da organização 
+## <a name="when-a-user-leaves-the-organization"></a>Quando um usuário sair da organização 
 
 **SharePoint**:
 
