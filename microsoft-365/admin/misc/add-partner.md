@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: Saiba como adicionar um parceiro de supervisor de assinatura como parceiro de registro no momento da compra da Microsoft 365, alterar o parceiro ou excluir um parceiro de uma assinatura.
-ms.openlocfilehash: 4ab02e95c2a2330e95f8a54f717e38025d04714c
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 07e0d47d45f20e206fb8ca4c5ff5e81785bc74b9
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432190"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005681"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Adicionar, mudar ou excluir um parceiro para assessoria de assinaturas
 
@@ -56,7 +56,7 @@ Um parceiro autorizado da Microsoft que atua como parceiro para assessoria de as
 
 ::: moniker range="o365-germany"
 
-O parceiro escolhido depende dos serviços do Office 365 em uso e do país ou região onde você irá usar esses serviços. Se estiver adicionando um parceiro ou mudando de parceiro para a sua assinatura, primeiro será necessário solicitar e obter a ID de Parceiro Microsoft desse parceiro.
+The partner you choose depends on the Office 365 services you use and the country or region where you'll use those services. If you are adding a partner, or changing the partner for your subscription, first you need to get the partner's Microsoft Partner ID by asking the partner for it.
 
 ::: moniker-end
 
@@ -79,7 +79,7 @@ Siga as etapas na página provedores para pesquisar ou para obter correspondênc
     
 4. Se você já tiver um parceiro, na segunda etapa do assistente de check-out, no painel direito, em informações do parceiro, selecione **Adicionar**.
 
-5. Digite a ID de Parceiro Microsoft do parceiro que você está adicionando. Para obtê-la, contate o parceiro.
+5. Type the Microsoft Partner ID for the partner you're adding. You can get the partner's Microsoft Partner ID by asking the partner for it.
 
 6. Conclua o restante do assistente para finalizar a compra das suas assinaturas. 
     
@@ -98,7 +98,7 @@ Siga as etapas na página provedores para pesquisar ou para obter correspondênc
     
 4. Se você já tiver um parceiro, na segunda etapa do assistente de check-out, no painel direito, em informações do parceiro, selecione **Adicionar**.
 
-5. Digite a ID de Parceiro Microsoft do parceiro que você está adicionando. Para obtê-la, contate o parceiro.
+5. Type the Microsoft Partner ID for the partner you're adding. You can get the partner's Microsoft Partner ID by asking the partner for it.
 
 6. Conclua o restante do assistente para finalizar a compra das suas assinaturas. 
     
@@ -127,7 +127,7 @@ Siga as etapas na página provedores para pesquisar ou para obter correspondênc
   
 3. À direita, sob o custo da assinatura, escolha **mais ações** > **Adicionar parceiro de registro**.
 
-4. Digite a ID de parceiro da Microsoft para o parceiro que você está adicionando e selecione **Verificar ID** e, em seguida, **Enviar**. Peça a ID ao parceiro.
+4. Type the Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.
 
 5. A ID do parceiro é exibida na página **Assinaturas**.
     
@@ -159,7 +159,7 @@ Para aceitar esta oferta
     
 3. Em **ID de Parceiro**, selecione **Editar parceiro de registro**.
   
-4. Digite a nova ID de parceiro da Microsoft para o parceiro que você está adicionando e selecione **Verificar ID** e, em seguida, **Enviar**. Peça a ID ao parceiro.
+4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.
   
 ::: moniker-end
 
@@ -171,7 +171,7 @@ Para aceitar esta oferta
     
 3. Em **ID de Parceiro**, selecione **Editar parceiro de registro**.
   
-4. Digite a nova ID de parceiro da Microsoft para o parceiro que você está adicionando e selecione **Verificar ID** e, em seguida, **Enviar**. Peça a ID ao parceiro.   
+4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.   
 
 ::: moniker-end
 
@@ -183,7 +183,7 @@ Para aceitar esta oferta
     
 3. Em **ID de Parceiro**, selecione **Editar parceiro de registro**.
   
-4. Digite a nova ID de parceiro da Microsoft para o parceiro que você está adicionando e selecione **Verificar ID** e, em seguida, **Enviar**. Peça a ID ao parceiro.   
+4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.   
 
 ::: moniker-end
 
@@ -255,7 +255,7 @@ Se você estiver removendo um relacionamento de revendedor, a opção **excluir*
 
 Você não pode remover um relação de revendedor.
   
-Se você estiver removendo um relacionamento de revendedor, a opção **excluir** estará acinzentada, e você precisará solicitar que seu parceiro de revendedor siga estas instruções: [remover um relacionamento de revendedor com parceiro](https://docs.microsoft.com/partner-center/remove-a-relationship).
+Você precisará solicitar que seu parceiro revendedor siga estas instruções: [Remova uma relação de revendedor com parceiro](https://docs.microsoft.com/partner-center/remove-a-relationship).
   
 ::: moniker-end
 

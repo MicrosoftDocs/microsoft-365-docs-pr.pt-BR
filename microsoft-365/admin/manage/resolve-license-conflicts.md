@@ -12,7 +12,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
+- Adm_NonTOC
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 796f7eda-b1f8-479a-adee-bd9226ca47ec
 description: Saiba como resolver conflitos de licença com sua assinatura do Microsoft 365 for Business.
-ms.openlocfilehash: 05efe9e75b051ece900ba9defe047f1244b713a9
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 2270fd3ad831ec0ad92ac4eddec5f08a1d07f8be
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399663"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45015966"
 ---
 # <a name="resolve-license-conflicts"></a>Resolver conflitos de licença
 
@@ -59,7 +59,6 @@ Recomendamos que você compre as licenças necessárias para a sua assinatura an
 
 ::: moniker-end
 
-
 2. Verifique a coluna de **Status** para obter informações sobre o conflito. Se houver um conflito, você verá uma mensagem de aviso, dizendo que um ou mais usuários precisam de uma licença válida.
 
     > [!NOTE]
@@ -69,7 +68,7 @@ Recomendamos que você compre as licenças necessárias para a sua assinatura an
 
 Você pode resolver conflitos de licença [comprando mais licenças](../../commerce/licenses/buy-licenses.md) ou [removendo licenças de usuários que não precisam mais delas](remove-licenses-from-users.md). Opcionalmente, você pode [excluir uma conta de usuário para liberar uma licença](../add-users/delete-a-user.md).
   
-## <a name="related-articles"></a>Artigos relacionados 
+## <a name="related-articles"></a>Artigos relacionados
 
 [Atribuir licenças a usuários](assign-licenses-to-users.md)
   

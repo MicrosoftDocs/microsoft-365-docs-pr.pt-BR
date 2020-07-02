@@ -21,12 +21,12 @@ description: O centro de administração do Microsoft 365-Aprenda sobre os recur
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: d0c32c7f7ac3b2824cd48c0e10085e3d59a16c69
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 0bb0955e08c187ae7b425228f435566bcd8e01d7
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780702"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45015988"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>O que há de novo no centro de administração do Microsoft 365
 
@@ -349,7 +349,7 @@ Há muitas alterações para funções no centro de administração, pois começ
 
 - **Favoritos** -você pode adicionar uma estrela às suas funções favoritas ou mais usadas, para que possa encontrá-las facilmente classificando a coluna ou criando um filtro.
 - **Usuários ativos**  >  **Manage Roles** -isso foi atualizado para alinhar-se às alterações nas funções. Da mesma forma que com a lista de funções, escopomos a lista padrão de funções para o mais útil, mas você pode ver todas as funções expandindo **Mostrar tudo por categoria**.
-- **Função leitor global** -você pediu! Você chegou! A função [leitor global](add-users/about-admin-roles.md#azure-ad-roles-available-in-the-microsoft-365-admin-center) !
+- **Função leitor global** -você pediu! Você chegou! A função [leitor global](add-users/about-admin-roles.md) !
 
 ### <a name="report-an-issue"></a>Relatar um problema
 
@@ -403,7 +403,7 @@ Há uma atualização para outro dos nossos assistentes de instalação inicial:
 Temos algumas atualizações para cobrança e assinaturas neste mês:
 
 - Assinaturas baseadas em dispositivo: você pode atribuir ou cancelar a atribuição **de licenças do microsoft 365 Apps for Education (Device)** a dispositivos no centro de administração do Microsoft 365. **O Microsoft 365 Apps for Education (dispositivo)** é uma licença complementar que lhe permitirá atribuir uma licença a um dispositivo. Vá para **cobrança**de  >  **seus produtos** para encontrar e comprar a licença.
-- Gerenciamento de licença baseado em usuário: atualizamos o modo como você atribui licenças aos usuários ativos de **usuários**  >  **Active users** para o novo estilo. Para saber mais, confira:
+- Gerenciamento de licença baseado em usuário: atualizamos o modo como você atribui licenças aos usuários ativos de **usuários**  >  **Active users** para o novo estilo. Para saber mais, veja:
   - [Atribuir licenças a usuários](manage/assign-licenses-to-users.md)
   - [Cancelar licenças de usuários](manage/remove-licenses-from-users.md)
 

@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre as opções disponíveis e preferidas para permitir mensagens de entrada no Exchange Online Protection (EOP).
-ms.openlocfilehash: c9f444483afea82db1fbbe3b5be98751d42c2f5e
-ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
+ms.openlocfilehash: 9ca1fc3911dd3417304d0d1de6923408373bc33c
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44545941"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005853"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Criar listas de remetentes seguros no EOP
 
@@ -126,7 +126,7 @@ Por exemplo, suponha que as companhias aéreas Yonder azuis contratam a viagem d
 
 - O `5322.From` endereço é blueyonder@news.blueyonderairlines.com, que é o que você verá no Outlook.
 
-Listas de remetentes seguros e listas de domínios seguros em políticas antispam no EOP inspecionar `5321.MailFrom` os `5322.From` endereços e. Os remetentes confiáveis do Outlook usam apenas o `5322.From` endereço.
+Listas de remetentes seguros e listas de domínios seguros em políticas antispam no EOP inspecionar apenas os `5322.From` endereços, isso é semelhante aos remetentes confiáveis do Outlook que usam o `5322.From` endereço.
 
 Para impedir que esta mensagem seja filtrada, você pode executar as seguintes etapas:
 

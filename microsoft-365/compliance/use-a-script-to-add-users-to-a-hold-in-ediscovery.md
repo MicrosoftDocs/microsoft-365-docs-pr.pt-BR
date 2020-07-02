@@ -1,11 +1,11 @@
 ---
-title: Use um script para adicionar usuários a uma retenção em caso de descoberta eletrônica no centro de conformidade & segurança
+title: Use um script para adicionar usuários a uma retenção em um caso de descoberta eletrônica principal no centro de conformidade & segurança
 f1.keywords:
 - NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 1/23/2017
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -20,18 +20,18 @@ search.appverid:
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 ms.custom: seo-marvel-apr2020
 description: Saiba como executar um script para adicionar caixas de correio & sites do OneDrive for Business a um novo bloqueio associado a uma ocorrência de descoberta eletrônica no centro de conformidade & de segurança.
-ms.openlocfilehash: ff309bcc01bec5d67abbb0c9a0619a10ccebebac
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: cfa7e176c3974d51fbcc87866c1482277d6010e1
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819111"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016304"
 ---
-# <a name="use-a-script-to-add-users-to-a-hold-in-an-ediscovery-case-in-the-security--compliance-center"></a>Use um script para adicionar usuários a uma retenção em caso de descoberta eletrônica no centro de conformidade & segurança
+# <a name="use-a-script-to-add-users-to-a-hold-in-a-core-ediscovery-case"></a>Usar um script para adicionar usuários a uma retenção em um caso de descoberta eletrônica principal
 
-O centro de conformidade do & de segurança fornece muitos cmdlets do Windows PowerShell que permitem automatizar tarefas demoradas relacionadas à criação e ao gerenciamento de ocorrências de descoberta eletrônica. Atualmente, usar a ferramenta de ocorrência de descoberta eletrônica no centro de conformidade do & de segurança para colocar um grande número de locais de conteúdo dos responsáveis em espera leva tempo e preparação. Por exemplo, antes de criar uma retenção, você precisa coletar a URL de cada site do OneDrive for Business que deseja colocar em espera. Em seguida, para cada usuário que você deseja colocar em espera, adicione a caixa de correio e o site do OneDrive for Business à isenção. Em versões futuras do centro de conformidade com segurança &, isso será mais fácil. Até lá, você pode usar o script neste artigo para automatizar esse processo.
+O centro de conformidade do & de segurança fornece cmdlets do PowerShell que permitem automatizar tarefas demoradas relacionadas à criação e ao gerenciamento de ocorrências de descoberta eletrônica. Atualmente, usar a ferramenta de ocorrência de descoberta eletrônica no centro de conformidade do & de segurança para colocar um grande número de locais de conteúdo dos responsáveis em espera leva tempo e preparação. Por exemplo, antes de criar uma retenção, você precisa coletar a URL de cada site do OneDrive for Business que deseja colocar em espera. Em seguida, para cada usuário que você deseja colocar em espera, adicione a caixa de correio e o site do OneDrive for Business à isenção. Em versões futuras do centro de conformidade com segurança &, isso será mais fácil. Até lá, você pode usar o script neste artigo para automatizar esse processo.
   
-O script solicita o nome do domínio meusite da sua organização (por exemplo, **contoso** na URL https://contoso-my.sharepoint.com) , o nome de um caso de descoberta eletrônica existente, o nome da nova retenção associada ao caso, uma lista de endereços de email dos usuários que você deseja colocar em espera e uma consulta de pesquisa a ser usada se você quiser criar uma retenção baseada em consulta. Em seguida, o script Obtém a URL do site do OneDrive for Business para cada usuário na lista, cria a nova isenção e, em seguida, adiciona a caixa de correio e o site do OneDrive for Business para cada usuário na lista à isenção. O script também gera arquivos de log que contêm informações sobre a nova isenção. 
+O script solicita o nome do domínio meusite da sua organização (por exemplo, **contoso** na URL https://contoso-my.sharepoint.com) , o nome de um caso de descoberta eletrônica existente, o nome da nova retenção associada ao caso, uma lista de endereços de email dos usuários que você deseja colocar em espera e uma consulta de pesquisa a ser usada se você quiser criar uma retenção baseada em consulta. Em seguida, o script Obtém a URL do site do OneDrive for Business para cada usuário na lista, cria a nova isenção e, em seguida, adiciona a caixa de correio e o site do OneDrive for Business para cada usuário na lista à isenção. O script também gera arquivos de log que contêm informações sobre a nova isenção.
   
 Estas são as etapas para fazer isso:
   
@@ -43,16 +43,16 @@ Estas são as etapas para fazer isso:
   
 ## <a name="before-you-add-users-to-a-hold"></a>Antes de adicionar usuários a uma isenção
 
-- Você precisa ser membro do grupo de função Gerenciador de descoberta eletrônica no centro de conformidade & segurança e um administrador global do SharePoint Online para executar o script na etapa 3. Para obter mais informações, consulte [atribuir permissões de descoberta eletrônica no centro de conformidade & segurança do Office 365](assign-ediscovery-permissions.md).
-    
-- Um máximo de 1.000 caixas de correio e 100 sites pode ser adicionado a uma retenção associada a uma ocorrência de descoberta eletrônica no centro de conformidade de & de segurança. Supondo que cada usuário que você deseja colocar em espera tenha um site do OneDrive for Business, você pode adicionar no máximo 100 usuários a uma isenção usando o script neste artigo. 
-    
+- Você precisa ser membro do grupo de função Gerenciador de descoberta eletrônica no centro de conformidade & segurança e administrador do SharePoint Online para executar o script na etapa 3. Para obter mais informações, consulte [atribuir permissões de descoberta eletrônica no centro de conformidade & segurança do Office 365](assign-ediscovery-permissions.md).
+
+- Um máximo de 1.000 caixas de correio e 100 sites pode ser adicionado a uma retenção associada a uma ocorrência de descoberta eletrônica no centro de conformidade de & de segurança. Supondo que cada usuário que você deseja colocar em espera tenha um site do OneDrive for Business, você pode adicionar no máximo 100 usuários a uma isenção usando o script neste artigo.
+
 - Certifique-se de salvar a lista de usuários que você criou na etapa 2 e o script na etapa 3 para a mesma pasta. Isso facilitará a execução do script.
-    
+
 - O script adiciona a lista de usuários a uma nova retenção associada a um caso existente. Verifique se o caso para o qual você deseja associar a retenção foi criado antes de executar o script.
-    
+
 - O script inclui o tratamento de erros mínimo. Seu objetivo principal é colocar rápida e facilmente a caixa de correio e o site do OneDrive for Business de cada usuário em espera.
-    
+
 - The sample scripts provided in this topic aren't supported under any Microsoft standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Microsoft further disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you. In no event shall Microsoft, its authors, or anyone else involved in the creation, production, or delivery of the scripts be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss) arising out of the use of or inability to use the sample scripts or documentation, even if Microsoft has been advised of the possibility of such damages.
 
 ## <a name="step-1-install-the-sharepoint-online-management-shell"></a>Etapa 1: Instalar o Shell de gerenciamento do SharePoint Online
@@ -77,18 +77,18 @@ Depois de executar esse comando, abra o arquivo de texto e remova o cabeçalho q
 
 Quando você executar o script nesta etapa, ele solicitará as seguintes informações. Certifique-se de ter essas informações prontas antes de executar o script.
   
-- **Suas credenciais de usuário** -o script usará suas credenciais para se conectar ao centro de conformidade do & de segurança com o PowerShell remoto. Ele também usará essas credenciais para acessar o SharePoint Online para obter as URLs do OneDrive for Business para a lista de usuários.
-    
-- **Nome do seu domínio meusite** -o domínio MeuSite é o domínio que contém todos os sites do onedrive for Business em sua organização. Por exemplo, se a URL do seu domínio meusite for **https://contoso-my.sharepoint.com** , você deve inserir `contoso` quando o script solicitar o nome do seu domínio meusite. 
-    
-- **Nome do caso** -o nome de um caso existente. O script criará uma nova retenção associada a esse caso.
-    
-- **Nome do bloqueio** -o nome da retenção que o script criará e associará ao caso especificado.
-    
-- **Consulta de pesquisa para retenção baseada em consulta** -você pode criar um bloqueio baseado em consulta para que apenas o conteúdo que atende aos critérios de pesquisa especificados seja colocado em espera. Para colocar todo o conteúdo em espera, basta pressionar **Enter** quando for solicitada uma consulta de pesquisa. 
-    
-- **Se o script deve ou não ser ativado** , você pode fazer com que o script ative a retenção depois que ele é criado ou você pode fazer com que o script crie o bloqueio sem habilitá-lo. Se você não tiver o script ativado na isenção, você poderá ativá-lo mais tarde no centro de conformidade & segurança ou executando os seguintes comandos do PowerShell: 
-    
+- **Suas credenciais de usuário:** O script usará suas credenciais para se conectar ao centro de conformidade de & de segurança com o PowerShell remoto. Ele também usará essas credenciais para acessar o SharePoint Online para obter as URLs do OneDrive for Business para a lista de usuários.
+
+- **Nome do seu domínio do meusite:** O domínio MeuSite é o domínio que contém todos os sites do OneDrive for Business em sua organização. Por exemplo, se a URL do seu domínio meusite for **https://contoso-my.sharepoint.com** , você deve inserir `contoso` quando o script solicitar o nome do seu domínio meusite.
+
+- **Nome do caso:** O nome de um caso existente. O script criará uma nova retenção associada a esse caso.
+
+- **Nome da retenção:** O nome da retenção que o script criará e associará ao caso especificado.
+
+- **Consulta de pesquisa para uma retenção baseada em consulta:** Você pode criar um bloqueio baseado em consulta para que somente o conteúdo que atende aos critérios de pesquisa especificados seja colocado em espera. Para colocar todo o conteúdo em espera, basta pressionar **Enter** quando for solicitada uma consulta de pesquisa.
+
+- **Se a retenção deve ou não ser ativada:** Você pode fazer com que o script ative o bloqueio após sua criação ou você pode fazer com que o script crie o bloqueio sem habilitá-lo. Se você não tiver o script ativado na isenção, você poderá ativá-lo mais tarde no centro de conformidade & segurança ou executando os seguintes comandos do PowerShell:
+
   ```powershell
   Set-CaseHoldPolicy -Identity <name of the hold> -Enabled $true
   ```
@@ -98,11 +98,11 @@ Quando você executar o script nesta etapa, ele solicitará as seguintes informa
   ```
 
 - **Nome do arquivo de texto com a lista de usuários** : o nome do arquivo de texto da etapa 2 que contém a lista de usuários a serem adicionados à isenção. Se esse arquivo estiver localizado na mesma pasta que o script, basta digitar o nome do arquivo (por exemplo, HoldUsers.txt). Se o arquivo de texto estiver em outra pasta, digite o nome de caminho completo do arquivo.
-    
+
 Após coletar as informações que o script solicitará, a etapa final será executar o script para criar o novo bloqueio e adicionar usuários a ele.
   
-1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo. ps1; por exemplo, `AddUsersToHold.ps1` .
-    
+1. Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo de `.ps1` . Por exemplo, `AddUsersToHold.ps1`.
+
   ```powershell
   #script begin
   " " 
@@ -277,23 +277,23 @@ Após coletar as informações que o script solicitará, a etapa final será exe
   ```
 
 2. No computador local, abra o Windows PowerShell e vá para a pasta onde você salvou o script.
-    
+
 3. Executar o script; por exemplo:
-    
+
       ```powershell
     .\AddUsersToHold.ps1
       ```
 
 4. Insira as informações que o script solicitará para você.
-    
-    O script se conecta ao PowerShell do centro de conformidade & segurança e, em seguida, cria o novo bloqueio no caso de descoberta eletrônica e adiciona as caixas de correio e o OneDrive for Business para os usuários na lista. Você pode ir para o caso na página **descoberta eletrônica** no centro de conformidade de & de segurança para exibir o novo bloqueio. 
-    
+
+   O script se conecta ao PowerShell do centro de conformidade & segurança e, em seguida, cria o novo bloqueio no caso de descoberta eletrônica e adiciona as caixas de correio e o OneDrive for Business para os usuários na lista. Você pode ir para o caso na página **descoberta eletrônica** no centro de conformidade de & de segurança para exibir o novo bloqueio. 
+
 Após a conclusão da execução do script, ele cria os seguintes arquivos de log e os salva na pasta em que o script está localizado.
   
-- **LocationsOnHold.txt** -contém uma lista de caixas de correio e sites do onedrive for Business que o script colocou com êxito em espera.
-    
-- **LocationsNotOnHold.txt** -contém uma lista de caixas de correio e sites do onedrive for Business que o script não localizou em espera. Se um usuário tiver uma caixa de correio, mas não um site do OneDrive for Business, o usuário será incluído na lista de sites do OneDrive for Business que não foram colocados em espera.
-    
-- **GetCaseHoldPolicy.txt** -contém a saída do cmdlet **Get-CaseHoldPolicy** para a nova isenção, que o script executou após a criação da nova isenção. As informações retornadas por este cmdlet incluem uma lista de usuários cujas caixas de correio e sites do OneDrive for Business foram colocados em espera e se a retenção está habilitada ou desabilitada. 
-    
-- **GetCaseHoldRule.txt** -contém a saída do cmdlet **Get-CaseHoldRule** para a nova isenção, que o script executou após a criação da nova isenção. As informações retornadas por esse cmdlet incluirão a consulta de pesquisa se você tiver usado o script para criar uma retenção baseada em consulta. 
+- **LocationsOnHold.txt:** Contém uma lista de caixas de correio e sites do OneDrive for Business que o script colocou com êxito em espera.
+
+- **LocationsNotOnHold.txt:** Contém uma lista de caixas de correio e sites do OneDrive for Business que o script não localizou em espera. Se um usuário tiver uma caixa de correio, mas não um site do OneDrive for Business, o usuário será incluído na lista de sites do OneDrive for Business que não foram colocados em espera.
+
+- **GetCaseHoldPolicy.txt:** Contém a saída do cmdlet **Get-CaseHoldPolicy** para a nova isenção, que o script executou após a criação da nova isenção. As informações retornadas por este cmdlet incluem uma lista de usuários cujas caixas de correio e sites do OneDrive for Business foram colocados em espera e se a retenção está habilitada ou desabilitada. 
+
+- **GetCaseHoldRule.txt:** Contém a saída do cmdlet **Get-CaseHoldRule** para a nova isenção, que o script executou após a criação da nova isenção. As informações retornadas por esse cmdlet incluirão a consulta de pesquisa se você tiver usado o script para criar uma retenção baseada em consulta.

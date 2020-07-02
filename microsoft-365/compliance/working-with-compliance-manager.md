@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como usar o Gerenciador de conformidade para rastrear, atribuir e verificar atividades de conformidade regulatória relacionadas a produtos da Microsoft.
-ms.openlocfilehash: fe7b04fe7687bc91e6f96fb2c3994a6536cec314
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: e12250c6f78759b2298bfb5ebba6ae79918a0fd9
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817078"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45023388"
 ---
 # <a name="working-with-microsoft-compliance-manager-preview"></a>Trabalhando com o Microsoft Compliance Manager (versão prévia)
 
@@ -41,7 +41,10 @@ O Gerenciador de conformidade pode ser acessado pelo portal de confiança do ser
 
 ## <a name="administration"></a>Administração
 
-Há funções administrativas específicas que só estão disponíveis para o administrador global e só são visíveis quando você está conectado com uma conta de administrador global. O administrador global pode atribuir permissões de usuário e ativar atualizações automáticas de Pontuação de segurança.
+Há funções administrativas específicas que só estão disponíveis para o administrador global e só são visíveis quando você está conectado com uma conta de administrador global. O administrador global pode:
+- [Atribuir funções de usuário](#assigning-compliance-manager-roles-to-users)
+- [Ativar e desativar atualizações automáticas de Pontuação segura](#controlling-automatic-secure-score-updates)
+- [Definir configurações de privacidade do usuário](#configuring-user-privacy-settings)
   
 ### <a name="assigning-compliance-manager-roles-to-users"></a>Atribuir funções do Gerenciador de Conformidade aos usuários
 
@@ -94,6 +97,92 @@ Se você escolher **definir por ação,** siga estas etapas adicionais para ativ
 8. Selecione **salvar.** A monitoração contínua de Pontuação segura agora está ativada para essa ação.
 
 **Observação:** Somente o administrador global pode ativar ou desativar as atualizações automáticas para todas as ações. O administrador do Gerenciador de conformidade pode ativar atualizações automáticas para ações individuais, mas não para todas as ações globalmente.
+
+### <a name="configuring-user-privacy-settings"></a>Definindo configurações de privacidade do usuário
+
+Determinadas regulamentações exigem que uma organização seja capaz de excluir dados de histórico do usuário. Para habilitar isso, as funções de **configurações de privacidade do usuário** permitem que os administradores:
+  
+- [Procurar um usuário](#search-for-a-user)
+
+- [Exportar um relatório do histórico de dados da conta](#export-a-report-of-account-data-history)
+
+- [Reatribuir os itens de ação](#reassign-action-items)
+
+- [Excluir o histórico de dados do usuário](#delete-user-data-history)
+    
+![Administrador do Gerenciador de Conformidade – funções de Configurações de Privacidade do Usuário](../media/067d6c6a-712a-4dc2-9b99-de2fa4417dc3.png)
+  
+#### <a name="search-for-a-user"></a>Procurar um usuário
+
+Para procurar uma conta de usuário:
+  
+1. Insira o endereço de email do usuário digitando o alias (isto é, a informação que fica à esquerda do símbolo @) e escolhendo o nome do domínio clicando na lista de sufixos de domínios à direita. Se sua organização tiver vários domínios registrados, você poderá verificar novamente o sufixo de nome de domínio do endereço de email para garantir que ele está correto.
+    
+2. Quando o nome de usuário for inserido corretamente, selecione **Pesquisar**.
+    
+3. Se a conta do usuário não for encontrada, a mensagem de erro "usuário não encontrado" será exibida na página. Verifique as informações do endereço de email do usuário, faça as correções necessárias e selecione **Pesquisar** para tentar novamente.
+    
+4. Se a conta de usuário for encontrada, o texto do botão mudará de **Pesquisar** para **Limpar**, o que indica que a conta de usuário retornada é o contexto operacional para as funções adicionais que serão exibidas abaixo e que a execução dessas funções será aplicada a essa conta de usuário.
+    
+5. Para limpar os resultados da pesquisa e pesquisar um usuário diferente, selecione **limpar**.
+    
+#### <a name="export-a-report-of-account-data-history"></a>Exportar um relatório do histórico de dados da conta
+
+Depois de identificar a conta do usuário, convém gerar um relatório das dependências vinculadas a essa conta. Essa informação permite reatribuir itens de ação abertos ou garantir o acesso a evidências carregadas anteriormente.
+  
+ Para gerar e exportar um relatório:
+  
+1. Selecione **Exportar** para gerar e baixar um relatório dos itens de ação de controle do Gerenciador de conformidade atribuídos atualmente à conta de usuário retornada e a lista de documentos carregados por esse usuário. Se não houver ações atribuídas ou documentos carregados, uma mensagem de erro exibirá "sem dados para este usuário."
+
+2. O relatório é baixado no plano de fundo da janela ativa do navegador. Se você não vir um pop up de download, confira o histórico de download do seu navegador.
+
+3. Abra o documento para verificar os dados do relatório.
+
+> [!NOTE]
+> This is not a historical report that retains and displays state changes to action item assignment history. The generated report is a snapshot of the control action items assigned at the time that the report is run (date and time stamp written into the report). For instance, any subsequent reassignment of action items will result in different snapshot report data if this report is generated again for the same user.
+  
+#### <a name="reassign-action-items"></a>Reatribuir os itens de ação
+
+This function enables an organization to remove any active or outstanding dependencies on the user account by reassigning all action item ownership (which includes both active and completed action items) from the returned user account to a new user selected below. This action does not change document upload history for the returned user account.
+  
+ Para reatribuir itens de ação para outro usuário:
+  
+1. Clique na caixa de entrada para procurar e selecionar outro usuário na organização para o qual os itens de ação do usuário retornado devem ser atribuídos.
+    
+2. Selecione **Substituir** para reatribuir todos os itens de ação de controle do usuário retornado ao usuário recém-selecionado.
+    
+3. Uma caixa de diálogo de confirmação é exibida informando que "isso reatribuirá todos os itens de ação de controle do usuário atual para o usuário selecionado. Não é possível desfazer a ação. Tem certeza de que deseja continuar?
+    
+4. Para continuar, selecione **OK**; caso contrário, selecione **Cancelar**.
+    
+> [!NOTE]
+> All action items (both active and completed) will be assigned to the newly selected user. However, this action does not affect the document upload history; any documents uploaded by the previously assigned user will still show the date/time and name of the previously assigned user. 
+  
+Changing the document upload history to remove the previously assigned user will have to be done as a manual process. In that case, the administrator will need to:
+  
+1. Abrir o relatório de exportação baixado anteriormente.
+  
+2. Identificar e navegar até o item de ação de controle desejado.
+  
+3. Selecione **gerenciar documentos** para navegar até o repositório de evidências desse controle.
+  
+4. Baixar o documento.
+  
+5. Excluir o documento no repositório de evidências.
+  
+6. Re-carregar o documento. O documento agora terá uma nova data de upload, hora e "carregado por" nome de usuário.
+  
+#### <a name="delete-user-data-history"></a>Excluir o histórico de dados do usuário
+
+This sets control action items to 'unassigned' for all action items assigned to the returned user. This also sets uploaded by value to 'user removed' for any documents uploaded by the returned user
+  
+ Para excluir o item de ação de conta de usuário e o histórico de carregamento de documento:
+  
+1. Selecione **Excluir**.
+
+2. Uma caixa de diálogo de confirmação é exibida: "isso removerá todas as atribuições de item de ação de controle e o histórico de carregamento de documentos do usuário selecionado. Não é possível desfazer a ação. Tem certeza de que deseja continuar?
+    
+3. Para continuar, selecione **OK**; caso contrário, selecione **Cancelar**.
 
 ## <a name="groups"></a>Grupos
 
@@ -196,6 +285,9 @@ Qualquer ação que não é suportada pela integração de Pontuação segura po
 ## <a name="assessments"></a>Avaliações
 
 Esta seção explica como exibir e trabalhar com suas avaliações, incluindo como adicionar novos, exportá-los, copiar informações de avaliações existentes e mantê-los atualizados por meio de controle de versão.
+
+> [!NOTE]
+> Agora você pode criar avaliações na pontuação de conformidade. [Exibir orientações e instruções](compliance-score-assessments.md).
 
 ### <a name="view-an-assessment-and-action-details"></a>Exibir uma avaliação e detalhes de ação
   
@@ -408,13 +500,16 @@ O painel exibe cada modelo, juntamente com a certificação e o produto associad
 
 Há três maneiras de trabalhar com modelos para criar avaliações:
 
-1. Use um dos modelos pré-configurados fornecidos pela Microsoft.
-2. Personalizar um modelo pré-configurado com suas próprias ações e controles por meio do processo de extensão.
+1. Use um dos modelos pronto para usar fornecido pela Microsoft.
+2. Personalizar um modelo pronto para usar com suas próprias ações e controles por meio do processo de extensão.
 3. Crie seu próprio modelo e importe-o para o Gerenciador de conformidade.
 
-#### <a name="use-a-microsoft-pre-configured-template"></a>Usar um modelo pré-configurado da Microsoft
+> [!NOTE]
+> Quando você carrega um modelo no Gerenciador de conformidade, ele deve ser aprovado por dois usuários que mantêm uma função de administrador antes de ser publicado e disponível para uso.
 
-Os modelos pré-configurados estão disponíveis no painel de **modelos** . Exibir a [lista atual de modelos](compliance-manager-overview.md#templates), que é atualizada sempre que um novo modelo está disponível.
+#### <a name="use-a-ready-to-use-template"></a>Usar um modelo pronto para usar
+
+Os modelos prontos para usar estão disponíveis no painel de **modelos** . Exibir a [lista atual de modelos](compliance-score-templates.md), que é atualizada sempre que um novo modelo está disponível.
 
 #### <a name="customize-a-template-through-the-extension-process"></a>Personalizar um modelo por meio do processo de extensão
 
@@ -423,21 +518,23 @@ Os modelos pré-configurados estão disponíveis no painel de **modelos** . Exib
 3. Selecione o modelo que você deseja estender no menu suspenso.
 4. Se você ainda não tiver formatado seus dados de modelo no Excel, selecione o link no painel de submenus para baixar um arquivo do Excel. Preencha a planilha de acordo com as instruções de [importação de dados do modelo com o Excel](#import-template-data-with-excel) e salve-o em sua unidade local.
 5. Importe os dados do modelo personalizado selecionando **procurar** para carregar o arquivo do Excel.
-6. Selecione **Adicionar ao painel**. Em seguida, você verá o novo modelo adicionado ao painel **modelos** .
+6. Selecione **Adicionar ao painel**.
+7. As alterações no modelo exigem a aprovação de dois usuários que retêm uma função de administrador. Esses usuários recebem uma notificação das atualizações de modelo. Uma das alterações são aprovadas por dois administradores, você verá seu modelo atualizado no painel **modelos** .
 
 #### <a name="create-your-own-template-and-import-it-into-compliance-manager"></a>Criar seu próprio modelo e importá-lo para o Gerenciador de conformidade
 
 1. Abra o painel de **modelos** e selecione **+ Adicionar modelo**.
 2. No painel do menu suspenso modelo, selecione **criar um novo modelo**.
 3. Importe os dados do modelo selecionando **procurar** para carregar o arquivo do Excel que contém os dados (consulte [importar dados de modelo com o Excel](#import-template-data-with-excel) abaixo).
-4. Selecione **Adicionar ao painel**. Em seguida, você verá o novo modelo adicionado ao painel **modelos** .
+4. Selecione **Adicionar ao painel**.
+5. O novo modelo requer a aprovação de dois usuários que contenham uma função de administrador. Esses usuários recebem uma notificação de que um novo modelo está pronto para aprovação. Um modelo é aprovado por dois administradores, você verá o novo modelo no painel **modelos** .
 
 #### <a name="import-template-data-with-excel"></a>Importar dados de modelo com o Excel
 
 Para modificar um modelo ou criar seu próprio modelo, você usará uma [planilha do Excel](https://go.microsoft.com/fwlink/?linkid=2124865) para capturar os dados necessários e carregá-los no Gerenciador de conformidade. Este modelo de planilha tem um formato e esquema específicos que deve ser usado ou não será importado para o Gerenciador de conformidade.
 
 > [!IMPORTANT]
-> Se você já criou ou personalizou modelos no Gerenciador de conformidade, **esse processo foi atualizado** como parte da versão de abril de 2020 do gerente de conformidade (visualização). **Revise esta seção com cuidado.**
+> Se você já criou ou personalizou modelos no Gerenciador de conformidade, **esse processo foi atualizado recentemente. Revise esta seção com cuidado.**
 
 A planilha contém quatro guias, três das quais são necessárias:
 
@@ -496,7 +593,7 @@ A guia **ações** é necessária.  Ele designa ações da sua organização e n
 
 - **actionDescription**: forneça uma descrição da ação. Você pode aplicar formatação, como texto em negrito e hiperlinks. Este é um campo obrigatório.
 
-- **Dimension-propósito de ação**: Este é um campo opcional. Se você incluir, o cabeçalho deve incluir o prefixo "Dimension-". Qualquer dimensão que você incluir aqui será usada como [filtros na pontuação de conformidade](compliance-score-setup.md#filtering-your-dashboard-view) e aparecerá na [página de detalhes de ações de melhoria na pontuação de conformidade](working-with-compliance-score.md#view-your-improvement-actions).
+- **Dimension-propósito de ação**: Este é um campo opcional. Se você incluir, o cabeçalho deve incluir o prefixo "Dimension-". Qualquer dimensão que você incluir aqui será usada como [filtros na pontuação de conformidade](compliance-score-setup.md#filtering-your-dashboard-view) e aparecerá na página de detalhes de ações de melhoria na pontuação de conformidade.
 
 ##### <a name="dimensions-tab"></a>Guia dimensões
 

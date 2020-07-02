@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: c2ce12a2-934f-4dd4-ba65-49b02be4703d
 description: Saiba como obter o relatório de uso de aplicativos de email para saber mais sobre os aplicativos de email que se conectam ao Exchange Online e os usuários da versão do Outlook estão usando o.
-ms.openlocfilehash: 80f05e4b356655c859536a46868e7ffde7cdebdb
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: bfd8a911652283685486202203d0302479a8270e
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387760"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005740"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-apps-usage"></a>Relatórios do Microsoft 365 no centro de administração-uso de aplicativos de email
 
@@ -53,11 +53,10 @@ Você pode obter uma visão da atividade aplicativos de email examinando os grá
 |3.  <br/> |O modo de exibição **Usuários** mostra o número de usuários exclusivos conectados ao Exchange Online usando qualquer aplicativo de email.  <br/> |
 |4.  <br/> |O modo de exibição de **Aplicativos** mostra o número de usuários únicos por aplicativo no intervalo de tempo selecionado.  <br/> |
 |5.  <br/> |O modo de exibição de **versões** mostra o número de usuários exclusivos para cada versão do Outlook no Windows.  <br/> |
-|6.  <br/> | No gráfico **Usuários**, o eixo Y é a contagem total de usuários exclusivos conectados a um aplicativo em um dia do período do relatório.  <br/>  No gráfico **Usuários**, o eixo X é o número de usuários exclusivos que usaram o aplicativo nesse período do relatório.  <br/>  No gráfico **Aplicativos**, o eixo Y é a contagem total de usuários únicos que usaram um aplicativo específico durante o período do relatório.  <br/>  No gráfico **Aplicativos**, o eixo X é a lista de aplicativos em sua organização.  <br/>  No gráfico **Versões**, o eixo Y é a contagem total de usuários exclusivos usando uma versão específica da área de trabalho do Outlook. Se o relatório não puder resolver o número de versão do Outlook, a quantidade mostrará como Indeterminada.  <br/>  No gráfico **Versões**, o eixo X é a lista de aplicativos em sua organização.  <br/> |
-|7.  <br/> |Você pode filtrar a série que vê no gráfico por selectingan item na legenda. Por exemplo, no gráfico **usuários** , selecione **Mac mail** ou **Outlook** ![ lista de clientes de email do Outlook. Selecione o cliente de email para obter mais dados de relatório no cliente.](../../media/19b9da1b-7b69-4a04-8527-38349f859e84.png) para ver apenas as informações relacionadas a cada um deles. Ao alterar essa seleção, as informações da tabela não mudam. Mac Mail, Outlook para Mac, Outlook Mobile, Outlook para área de trabalho e Outlook na Web são exemplos de aplicativos de email que talvez você tenha em sua organização.  <br/> |
+|6.  <br/> | No gráfico **Usuários**, o eixo Y é a contagem total de usuários exclusivos conectados a um aplicativo em um dia do período do relatório.  <br/>  No gráfico **Usuários**, o eixo X é o número de usuários exclusivos que usaram o aplicativo nesse período do relatório.  <br/>  No gráfico **Aplicativos**, o eixo Y é a contagem total de usuários únicos que usaram um aplicativo específico durante o período do relatório.  <br/>  No gráfico **Aplicativos**, o eixo X é a lista de aplicativos em sua organização.  <br/>  No gráfico **Versões**, o eixo Y é a contagem total de usuários exclusivos usando uma versão específica da área de trabalho do Outlook. Se o relatório não puder resolver o número de versão do Outlook, a quantidade será mostrada como **indeterminada**.  <br/>  No gráfico **Versões**, o eixo X é a lista de aplicativos em sua organização.  <br/> |
+|7.  <br/> |Você pode filtrar a série que vê no gráfico selecionando um item na legenda. Por exemplo, no gráfico **usuários** , selecione **Mac mail** ou **Outlook** ![ lista de clientes de email do Outlook. Selecione o cliente de email para obter mais dados de relatório no cliente.](../../media/19b9da1b-7b69-4a04-8527-38349f859e84.png) para ver apenas as informações relacionadas a cada um deles. Ao alterar essa seleção, as informações da tabela não mudam. Mac Mail, Outlook para Mac, Outlook Mobile, Outlook para área de trabalho e Outlook na Web são exemplos de aplicativos de email que talvez você tenha em sua organização.  <br/> |
 |8.  <br/> | É possível que você não veja todos os itens da lista abaixo nas colunas até que os adicione.<br/> **Username** é o nome do proprietário do aplicativo de email.  <br/> A **data da última atividade** é a última data em que o usuário leu ou enviou uma mensagem de email.  <br/> **Mac mail**, **Outlook para Mac** e **Outlook**, **Outlook Mobile** e **Outlook na Web** são exemplos de aplicativos de email que talvez você tenha em sua organização.  <br/>  Se as políticas da organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar as configurações de privacidade para todos esses relatórios. Confira a seção **como ocultar detalhes de nível de usuário?** nos [relatórios de atividades no centro de administração do Microsoft 365](activity-reports.md).  <br/> |
-|9.  <br/> |Selecione **gerenciar colunas** para adicionar ou remover colunas do relatório.  <br/> ![Relatório de uso de aplicativos de email-escolher colunas](../../media/c17b2a5c-db41-474a-8334-0e5a621b2f16.png)|
+|9.  <br/> |Selecione **gerenciar colunas** para adicionar ou remover colunas do relatório.  <br/> ![Relatório de uso de aplicativos de email-escolher colunas](../../media/82008680-cd28ab00-9686-11ea-8692-b3d72117c20b.png)|
 |10.  <br/> |Você também pode exportar os dados do relatório para um arquivo. csv do Excel, selecionando o link de **exportação** . Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados.  <br/> |
 |||
    
-

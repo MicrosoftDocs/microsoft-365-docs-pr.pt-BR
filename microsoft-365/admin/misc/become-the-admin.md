@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: Saiba como verificar sua propriedade de email e domínio para assumir o controle de um locatário não gerenciado no Microsoft 365
-ms.openlocfilehash: 4c2dcdb0f6c4f6b795d9579c8796e9668ed2ed05
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 1eb54a6c34c9700bda09a660c71d2b1222fcdb8c
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399441"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022152"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>Executar um administrador interno tomada
 
@@ -64,7 +64,7 @@ Se você é um administrador e deseja assumir o controle de um locatário não g
 4. Após adicionar o registro TXT ao seu site de registrador, retorne ao assistente e selecione **OK, adicionei o registro**.
     
 > [!NOTE]
-> A realização do locatário de sombra não afetará nenhuma informação ou serviço existente. No entanto, se qualquer usuário no domínio se inscrever em serviços que exijam uma licença, você será solicitado a comprar licenças para eles como parte da função de administrador. Você pode adicionar ou remover licenças quando o processo de instalação administrativa estiver concluído. 
+> A realização do locatário de sombra não afetará nenhuma informação ou serviço existente. No entanto, se qualquer usuário no domínio se inscrever em serviços que exijam uma licença, você será solicitado a comprar licenças para eles como parte da função de administrador. Você pode comprar ou remover licenças quando o processo de instalação administrativa estiver concluído.
   
 ## <a name="related-articles"></a>Artigos relacionados
 

@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 23938dc78c498af76267233c8ad38dd909d56400
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 57e18d68f6f33482fec3880b56ccad52c719a6d9
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936624"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45023398"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -203,6 +203,31 @@ No momento, a pontuação segura de identidade e a API do Graph adotarão o novo
 * Filtrar, marcar, Pesquisar e agrupar suas ações de aperfeiçoamento
 * Gerenciar em direção às suas metas futuras usando pontuações de Pontuação e ações planejadas
 * E muito mais!
+
+### <a name="june-2020"></a>Junho de 2020
+
+#### <a name="removed-improvement-action-for-microsoft-defender-advanced-threat-protection"></a>Ação de aprimoramento removida para a proteção avançada contra ameaças do Microsoft defender
+
+* Ativar as regras de redução da superfície de ataque
+
+#### <a name="added-improvement-actions-for-microsoft-defender-advanced-threat-protection"></a>Foram adicionadas ações de melhoria para a proteção avançada contra ameaças do Microsoft defender
+
+* Bloquear o Adobe Reader de criar processos filhos
+* Usar proteção avançada contra ransomware
+* Bloquear todos os aplicativos do Office para criar processos filhos
+* Impedir que aplicativos do Office criem conteúdo executável
+* Bloquear JavaScript ou VBScript de iniciar conteúdo executável baixado
+* Bloquear a execução de scripts potencialmente ofuscados
+* Bloquear conteúdo executável de cliente de email e webmail
+* Bloquear o aplicativo de comunicação do Office para criar processos filhos
+* Bloquear processos não confiáveis e não assinados executados no USB
+* Bloquear persistência por meio de assinatura de evento WMI
+* Bloquear aplicativos do Office de injetar código em outros processos
+* Bloquear a execução de arquivos executáveis, a menos que eles atendam a um critério de lista de predominância, idade ou confiável
+* Bloquear criações de processo provenientes de comandos do PSExec e WMI
+* Bloquear o furto de credenciais do subsistema de autoridade de segurança local do Windows (lsass.exe)
+* Bloquear chamadas de API Win32 de macros do Office
+
 
 ## <a name="we-want-to-hear-from-you"></a>Queremos ouvir sua opinião
 

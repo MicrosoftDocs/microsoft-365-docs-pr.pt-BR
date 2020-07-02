@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre o gerente de conformidade da Microsoft, uma ferramenta de avaliação de riscos gratuita baseada em fluxo de trabalho no portal de confiança do serviço Microsoft.
-ms.openlocfilehash: 79f3145e2512bfb174339ef2cde9a2594b116004
-ms.sourcegitcommit: 56772bed89516cebc5eb370e292ccfbb4889cb38
+ms.openlocfilehash: 514ee0e032e378c407713254d5d11fcd41a8d91c
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44330741"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016124"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Gerente de conformidade da Microsoft (versão prévia)
 
@@ -31,7 +31,7 @@ ms.locfileid: "44330741"
 
 **Neste artigo**: Leia este artigo para saber qual gerente de conformidade é e entenda seus componentes principais.
 
-**Saiba mais sobre as atualizações**: publicamos várias atualizações no lançamento da versão pública de abril de 2020. Visite as [notas de versão do Gerenciador de conformidade](compliance-manager-release-notes.md) para ver o que há de novo e problemas conhecidos.
+**Saiba mais sobre as atualizações**: visite as [notas de versão do Gerenciador de conformidade](compliance-manager-release-notes.md) para ver o que há de novo e problemas conhecidos.
 
 ## <a name="what-is-compliance-manager"></a>O que é gerente de conformidade
 
@@ -53,7 +53,7 @@ Com o gerente de conformidade, sua organização pode:
 
 A [Pontuação de conformidade da Microsoft (versão prévia)](compliance-score.md) é um recurso do centro de conformidade da Microsoft 365 que oferece uma visão de nível superior para a postura de conformidade da sua organização. Ele calcula uma pontuação baseada em risco medindo seu progresso em ações de conclusão que ajudam a reduzir os riscos relacionados à proteção de dados e aos padrões normativos. Saber sua pontuação geral de conformidade ajuda sua organização a entender e gerenciar a conformidade. Entenda [como a pontuação de conformidade é calculada](compliance-score-methodology.md).
 
-O Gerenciador de conformidade compartilha o mesmo backend com pontuação de conformidade. Durante a fase de visualização pública para ambas as ferramentas, o Gerenciador de conformidade é onde você gerenciará as avaliações e as implementações de controle personalizado. Saiba mais sobre a [relação entre a pontuação de conformidade e o gerente de conformidade](compliance-score-release-notes.md#compliance-score-relationship-to-compliance-manager).
+O Gerenciador de conformidade compartilha o mesmo backend com pontuação de conformidade. Durante a fase de visualização pública para ambas as ferramentas, o Gerenciador de conformidade é onde você gerenciará as implementações de controle personalizado. Saiba mais sobre a [relação entre a pontuação de conformidade e o gerente de conformidade](compliance-score-release-notes.md#compliance-score-relationship-to-compliance-manager).
 
 ## <a name="compliance-manager-components"></a>Componentes do Gerenciador de conformidade
 

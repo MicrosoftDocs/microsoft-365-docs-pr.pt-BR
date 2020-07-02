@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 48ff6d6f5cac0991895c40cae90ca31657cfedff
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 39fbc934dabcb3b0b24bd0b861be8db14b6e0c35
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844877"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45023376"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>O que está acontecendo na pontuação segura da Microsoft?
 
@@ -30,26 +30,11 @@ Para tornar a [Pontuação segura da Microsoft](microsoft-secure-score.md) um me
 
 Para saber mais sobre as alterações recentes, confira [o que há de novo na pontuação segura da Microsoft?](microsoft-secure-score.md#whats-new)
 
-## <a name="june-2020"></a>Junho de 2020
+## <a name="july-2020"></a>Julho de 2020
 
-### <a name="remove-improvement-action-for-microsoft-defender-advanced-threat-protection"></a>Remover ação de melhoria para a proteção avançada contra ameaças do Microsoft defender
+### <a name="add-improvement-actions-for-azure-advanced-threat-protection"></a>Adicionar ações de melhoria para a proteção avançada contra ameaças do Azure
 
-* Ativar as regras de redução da superfície de ataque
-
-### <a name="add-improvement-actions-for-microsoft-defender-advanced-threat-protection"></a>Adicionar ações de melhoria para a proteção avançada contra ameaças do Microsoft defender
-
-* Bloquear o Adobe Reader de criar processos filhos
-* Usar proteção avançada contra ransomware
-* Bloquear todos os aplicativos do Office para criar processos filhos
-* Impedir que aplicativos do Office criem conteúdo executável
-* Bloquear JavaScript ou VBScript de iniciar conteúdo executável baixado
-* Bloquear a execução de scripts potencialmente ofuscados
-* Bloquear conteúdo executável de cliente de email e webmail
-* Bloquear o aplicativo de comunicação do Office para criar processos filhos
-* Bloquear processos não confiáveis e não assinados executados no USB
-* Bloquear persistência por meio de assinatura de evento WMI
-* Bloquear aplicativos do Office de injetar código em outros processos
-* Bloquear a execução de arquivos executáveis, a menos que eles atendam a um critério de lista de predominância, idade ou confiável
-* Bloquear criações de processo provenientes de comandos do PSExec e WMI
-* Bloquear o furto de credenciais do subsistema de autoridade de segurança local do Windows (lsass.exe)
-* Bloquear chamadas de API Win32 de macros do Office
+- Caminhos de movimento laterais arriscados
+- Atributos de conta não seguros
+- Habilitar recursos de segurança em relações de confiança do Active Directory
+- Remover atributos de histórico de SID não seguros das entidades

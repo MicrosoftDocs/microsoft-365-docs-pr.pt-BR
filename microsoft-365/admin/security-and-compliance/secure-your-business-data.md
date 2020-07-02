@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Proteja seus emails e dados de negócios contra ameaças da Cyber, incluindo ransomware, phishing e anexos mal-intencionados. '
-ms.openlocfilehash: 79ff8642170a5e45f67d95d7993632fd66252208
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 12a8d036a043cfdd162b5aa47e1d6d5023a42c81
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779948"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005625"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>As 10 maneiras principais de proteger os planos do Microsoft 365 for Business
 
@@ -44,8 +44,8 @@ A Microsoft recomenda que você conclua as tarefas listadas na tabela a seguir q
 ||**Tarefa**|**Microsoft 365 Business Standard**|**Microsoft 365 Business Premium**|
 |:-----|:-----|:-----|:-----|
 |1   <br/> |[Configurar autenticação multifatorial](secure-your-business-data.md#setup) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|duas  <br/> |[Treinar os usuários](secure-your-business-data.md#train) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|3D  <br/> |[Usar contas de administrador dedicadas](secure-your-business-data.md#admin) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|2   <br/> |[Treinar os usuários](secure-your-business-data.md#train) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|3   <br/> |[Usar contas de administrador dedicadas](secure-your-business-data.md#admin) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |4   <br/> |[Aumentar o nível de proteção contra malware no email](secure-your-business-data.md#malware) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |5   <br/> |[Proteção contra ransomware](secure-your-business-data.md#ransomware) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |6   <br/> |[Parar o encaminhamento automático para email](secure-your-business-data.md#forwarding) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
@@ -168,7 +168,7 @@ Para criar uma regra de transporte de email, exiba um [vídeo de treinamento cur
 > [!TIP]
 > Você também pode adicionar os arquivos que deseja bloquear à lista Antimalware na [etapa 4](#4-raise-the-level-of-protection-against-malware-in-mail).
 
-Para saber mais, confira:
+Para saber mais, veja:
   
 - [Como lidar com o ransomware](https://go.microsoft.com/fwlink/?linkid=2016501&amp;clcid=0x409)
     
@@ -325,15 +325,17 @@ Para obter links seguros de ATP, exiba um [vídeo de treinamento curto](https://
     
 Para modificar a política padrão:
   
-1. Na página de links seguros, em **políticas que se aplicam a toda a organização**, selecione a política **padrão** . 
+1. Na página de links seguros, em **políticas que se aplicam a toda a organização**, clique duas vezes na política **padrão** . 
     
-2. Em **configurações que se aplicam ao conteúdo exceto email**, selecione **Microsoft 365 aplicativos para empresas, Office para IOS e Android**.
+2. Em **configurações que se aplicam ao conteúdo no Office 365**, insira uma URL a ser bloqueada, como _example.com_e selecione **+** .
+
+3. Em **configurações que se aplicam ao conteúdo exceto email**, selecione **aplicativos do Office 365**, não **rastreie quando os usuários clicam em links seguros**e **não permitem que os usuários cliquem em links seguros para a URL original**.
     
-3. Selecione **Salvar**. 
+4. Selecione **Salvar**. 
     
 Para criar uma nova política direcionada para todos os destinatários em seu domínio:
   
-1. Na página de links seguros, em **políticas que se aplicam a toda a organização**, selecione **+** para criar uma nova política. 
+1. Na página de links seguros, em **políticas que se aplicam a destinatários específicos**, selecione **+** para criar uma nova política. 
     
 2. Aplicar as configurações listadas na tabela a seguir.
     
@@ -343,7 +345,7 @@ Para criar uma nova política direcionada para todos os destinatários em seu do
 |:-----|:-----|
 |Nome  <br/> |Política de links seguros para todos os destinatários no domínio  <br/> |
 |Selecione a ação para URLs possivelmente mal-intencionadas desconhecidas em mensagens  <br/> |Selecione as **URLs que serão reconfiguradas e verificadas em relação a uma lista de links mal-intencionados conhecidos quando o usuário clicar no link**.  <br/> |
-|Usar anexos seguros para examinar Conteúdo baixável  <br/> |Selecione essa caixa.  <br/> |
+|Aplicar verificação de URL em tempo real para links suspeitos e links que apontam para arquivos  <br/> |Selecione essa caixa.  <br/> |
 |Aplicado a  <br/> |O domínio do destinatário é. . . Selecione seu domínio.  <br/> |
 |
    

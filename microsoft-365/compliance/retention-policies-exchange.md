@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre o comportamento de retenção que se aplica especificamente aos emails do Exchange e às pastas públicas do Exchange.
-ms.openlocfilehash: db39ab0f1eca1cc03dd0bbb5ffb500658695247a
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: e19e790c23c5e61748f38fb22f96d2347acb144e
+ms.sourcegitcommit: 5e8901e7e571f20ede04f460bd3e7077dda004ca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292529"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874879"
 ---
 # <a name="learn-about-retention-policies-for-exchange"></a>Saiba mais sobre as políticas de retenção do Exchange
 
@@ -34,13 +34,13 @@ Para os email, calendário e outros itens de um usuário, uma política de reten
 
 Para uma pasta pública, uma política de retenção é aplicada ao nível da pasta, não ao nível da caixa de correio. 
 
-Tanto uma caixa de correio quanto uma pasta pública usam a pasta Itens Recuperáveis para reter itens. Somente as pessoas às quais foram atribuídas permissões de Descoberta Eletrônica podem exibir itens na pasta Itens Recuperáveis de outro usuário.
+Tanto uma caixa de correio quanto uma pasta pública usam a [pasta Itens Recuperáveis](https://docs.microsoft.com/exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder) para reter itens. Somente as pessoas às quais foram atribuídas permissões de Descoberta Eletrônica podem exibir itens na pasta Itens Recuperáveis de outro usuário.
   
-Quando alguém exclui uma mensagem em uma pasta diferente da pasta Itens Excluídos, por padrão, a mensagem é movida para a pasta Itens Excluídos. Quando alguém exclui um item na pasta Itens Excluídos, a mensagem é movida para a pasta Itens Recuperáveis. Entretanto, um usuário pode excluir um item de forma reversível (SHIFT+DELETE) em qualquer pasta, o que ignora a pasta Itens Excluídos e move o item diretamente para a pasta Itens Recuperáveis.
+Quando alguém exclui uma mensagem em uma pasta diferente da pasta Itens Excluídos, por padrão, a mensagem é movida para a pasta Itens Excluídos. Quando alguém exclui um item na pasta Itens Excluídos, a mensagem é movida para a pasta Itens Recuperáveis. Entretanto, um usuário pode excluir um item de forma reversível (Shift+Delete) em qualquer pasta, o que evita que ele vá pasta Itens Excluídos e o move diretamente para a pasta Itens Recuperáveis.
   
 Quando você aplica uma política de retenção a um local do Exchange, um trabalho de temporizador avalia periodicamente os itens na pasta Itens Recuperáveis. Quando um item não corresponde às regras de pelo menos uma política de retenção, ele é excluído permanentemente (chamado também de exclusão forçada) da pasta Itens Recuperáveis.
 
-O trabalho de temporizador pode levar até 7 dias para ser executado e o local do Exchange deve conter pelo menos 10 MB.
+O trabalho do temporizador pode levar até sete dias para ser executado e o local da Bolsa deve conter pelo menos 10 MB
   
 Quando um usuário tenta alterar propriedades de um item de caixa de correio, como assunto, corpo, anexos, remetentes e destinatários, ou a data de envio ou de recebimento de uma mensagem, uma cópia do item original é salva na pasta Itens Recuperáveis antes da confirmação da alteração. Essa ação acontecerá para todas as alterações subsequentes. No final do período de retenção, as cópias na pasta Itens Recuperáveis são excluídas permanentemente.
 
@@ -72,20 +72,20 @@ Quando as configurações forem reter somente ou excluir somente, os caminhos de
 
 Usando o PowerShell, você pode excluir tipos específicos de itens do Exchange a partir de uma política de retenção. Por exemplo, você pode excluir mensagens de caixa postal, conversas de mensagens instantâneas e outros conteúdos do Skype for Business Online nas caixas de correio. Você também pode excluir o calendário, anotações e itens de tarefas. Esse recurso está disponível apenas no Windows PowerShell; não está disponível na interface de usuário quando você cria uma política de retenção usando o assistente no Centro de Conformidade do Microsoft 365.
   
-Para excluir os tipos selecionados para itens do Exchange em uma política de retenção, use o parâmetro `ExcludedItemClasses` com os cmdlets `New-RetentionComplianceRule` e `Set-RetentionComplianceRule`.
+Para excluir os tipos selecionados para itens do Exchange em uma política de retenção, use o parâmetro `ExcludedItemClasses` com os cmdlets [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule) e  [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule).
 
+Para usar os cmdlets de políticas de retenção, você dever primeiro [conectar-se com o Centro de Segurança e Conformidade do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps).
 
 ### <a name="when-a-user-leaves-the-organization"></a>Quando um usuário sair da organização 
 
-Se um usuário sair da organização e a caixa de correio dele estiver incluída em uma política de retenção, essa caixa de correio se tornará inativa quando a conta do Office 365 do usuário for excluída. O conteúdo de uma caixa de correio inativa ainda está sujeito a qualquer política de retenção que tenha sido aplicada a essa caixa antes dela se tornar inativa, e ele fica disponível para uma pesquisa de descoberta eletrônica. Para saber mais, confira [Caixas de correio inativas no Exchange Online](inactive-mailboxes-in-office-365.md). 
+Se um usuário deixar sua organização e a caixa de correio do usuário for incluída em uma política de retenção, ela se tornará uma caixa de correio inativa quando a conta do Microsoft 365 do usuário for excluída. O conteúdo de uma caixa de correio inativa ainda está sujeito a qualquer política de retenção que tenha sido aplicada a essa caixa antes dela se tornar inativa, e ele fica disponível para uma pesquisa de descoberta eletrônica. Para saber mais, confira [Caixas de correio inativas no Exchange Online](inactive-mailboxes-in-office-365.md). 
 
 ## <a name="how-to-configure-a-retention-policy-for-exchange"></a>Como configurar uma política de retenção para o Exchange
 
-Confira [Criar e configurar políticas de retenção](create-retention-policies.md).
-
-Na página do assistente **Escolha locais**, selecione uma das seguintes opções:
+Siga as instruções para [Criar e configurar políticas de retenção](create-retention-policies.md) e, na página **Escolher locais** do assistente, escolha uma das seguintes opções:
 
 - **Aplicar política apenas ao conteúdo em emails do Exchange, pastas públicas, Grupos do Office 365, documentos do OneDrive e do SharePoint**
 
-- **Deixe-me escolher locais específicos** > **E-mails do Exchange** e as **pastas públicas do Exchange**
+- **Deixe-me escolher locais espec[ificos** > **E-mail do Exchange**, **Pastas públicas do Exchange**, e **Grupos do Office 365**.
 
+Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Para manter o conteúdo nessas caixas de correio, selecione o local **Grupos do Office 365**.

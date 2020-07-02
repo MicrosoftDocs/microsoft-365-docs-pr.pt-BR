@@ -16,12 +16,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Saiba como usar o Complance Score e o gerente de conformidade para melhorar seu nível de proteção para dados pessoais.
-ms.openlocfilehash: 0d95c663030cf63fb83dfd40c7f3605c1c0b6f8f
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: 4a45f24d66d08c2c0f17d75d897f523ef074936c
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695168"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016362"
 ---
 # <a name="use-compliance-score-and-compliance-manager-to-manage-improvement-actions"></a>Usar Pontuação de conformidade e gerente de conformidade para gerenciar ações de melhoria
 
@@ -109,7 +109,7 @@ Você também pode adicionar um novo modelo personalizado para sua organização
 
 ## <a name="compliance-score"></a>Pontuação de Conformidade
 
-Depois que as especificações de avaliação e análise são realizadas no gerente de conformidade, agora você pode ir para a ferramenta [Pontuação de conformidade](../compliance/working-with-compliance-score.md) e examinar a pontuação e os dados mais detalhadamente, incluindo a área de controle.
+Depois que as especificações de avaliação e análise são realizadas no gerente de conformidade, agora você pode ir para a ferramenta [Pontuação de conformidade](../compliance/compliance-score.md) e examinar a pontuação e os dados mais detalhadamente, incluindo a área de controle.
 
 A ferramenta de Pontuação de conformidade no centro de administração de conformidade da Microsoft 365 fornece várias abordagens para analisar e filtrar os dados de conformidade obtidos do Gerenciador de conformidade e vários serviços da Microsoft 365. Essa ferramenta é atualizada automaticamente quando várias definições de configuração são implementadas e compartilha sinais com a pontuação segura da Microsoft para que várias ações de melhorias sejam exibidas em ambas as pontuações. 
  
@@ -141,7 +141,7 @@ Aqui estão algumas dicas importantes para o uso da Pontuação de conformidade 
 
 - Cada regulamentação de privacidade de dados tem uma combinação de controles técnicos, especificações de documentação e requisitos operacionais, de processo e de relatórios. Todos eles aparecem nas ações de melhoria. 
 
-- Este artigo se concentra em um subconjunto dos controles técnicos especificados para a privacidade dos dados no gerente de conformidade e na pontuação de conformidade. Consulte a ferramenta e a [documentação](../compliance/working-with-compliance-score.md) do Gerenciador de conformidade para obter mais informações sobre controles administrativos não técnicos.
+- Este artigo se concentra em um subconjunto dos controles técnicos especificados para a privacidade dos dados no gerente de conformidade e na pontuação de conformidade. Consulte a ferramenta e a [documentação](../compliance/compliance-score.md) do Gerenciador de conformidade para obter mais informações sobre controles administrativos não técnicos.
 
 - Para focalizar o modo de exibição de ações de aperfeiçoamento para a sua área de interesse, você pode filtrar por tipo de ação na guia **soluções** no administrador de Pontuação de conformidade.
 

@@ -1,5 +1,5 @@
 ---
-title: Adicionar usuários individualmente ou em massa
+title: Adicionar usuários e atribuir licenças
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -11,147 +11,108 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- Adm_O365
 - Adm_O365_Setup
 - Adm_O365_TOC
 ms.custom:
-- MSStore_Link
 - okr_smb
 - AdminSurgePortfolio
+- manage_licenses
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- GEA150
-ms.assetid: 1970f7d6-03b5-442f-b385-5880b9c256ec
-description: Saiba como adicionar usuários ao Microsoft 365, um de cada vez ou vários usuários ao mesmo tempo a partir de um arquivo CSV.
-ms.openlocfilehash: af160b78317171bec98dcfa3d5877b53560f75a2
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: Saiba como adicionar usuários e atribuir licenças ao Microsoft 365 ao mesmo tempo.
+ms.date: 07/01/2020
+ms.openlocfilehash: 016c98fc93bfa1a92274a5b991cf8adbd1131bc9
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780656"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45015882"
 ---
-# <a name="add-users-individually-or-in-bulk"></a>Adicionar usuários individualmente ou em massa
+# <a name="add-users-and-assign-licenses-at-the-same-time"></a>Adicionar usuários e atribuir licenças ao mesmo tempo
 
-As pessoas da sua equipe precisam de uma conta de usuário antes de entrarem e acessar [o Microsoft 365 for Business](https://go.microsoft.com/fwlink/?LinkID=519395). A maneira mais fácil de adicionar contas de usuário é adicionar uma de cada vez no centro de administração do Microsoft 365. Após executar esta etapa, seus usuários terão licenças do Microsoft 365, credenciais de entrada e caixas de correio do Microsoft 365.
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
+
+As pessoas da sua equipe precisam de uma conta de usuário antes de entrarem e acessar [o Microsoft 365 for Business](https://go.microsoft.com/fwlink/?LinkID=519395). A maneira mais fácil de adicionar contas de usuário é adicionar uma de cada vez no centro de administração do Microsoft 365. Após executar esta etapa, os usuários terão licenças do Microsoft 365, credenciais de entrada e caixas de correio do Microsoft 365.
+
+## <a name="before-you-begin"></a>Antes de começar
+
+Você deve ser um administrador global, de licença ou de usuário para adicionar usuários e atribuir licenças. Para obter mais informações, consulte [sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+
+## <a name="watch-add-users-in-the-admin-center"></a>Watch: adicionar usuários no centro de administração
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfN?autoplay=false]
+
+> [!NOTE]
+> As etapas usadas no vídeo mostram um ponto de partida diferente para a adição de usuários, mas as etapas restantes são as mesmas do procedimento a seguir.
+
+## <a name="add-users-one-at-a-time"></a>Adicionar usuários um de cada vez
 
 ::: moniker range="o365-worldwide"
 
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
-
 2. Vá para **Users** > **usuários ativos**do usuários e selecione **Adicionar um usuário**.
-   
-3. No painel **Configurar o básico** , preencha as seguintes informações e selecione **Avançar**. 
-  
-- **Nome** Preencha o primeiro, o último, o nome para exibição e o nome de usuário. 
-    
-- **Domínio** Por exemplo, se o nome de usuário do usuário for Jakob, e seu domínio for contoso.com, ele entrará na digitação de jakob@contoso.com. 
-    
-- **Configurações de senha** Escolha a senha gerada automaticamente ou crie sua própria senha forte para o usuário. 
-    
-    - Os usuários devem alterar as respectivas senhas após 90 dias. Ou você pode optar por **exigir que esse usuário altere a senha quando entrar pela primeira vez**.
-    
-    - Escolha se você deseja enviar a senha no email quando o usuário tiver sido adicionado. 
-    
-4. No painel **atribuir licenças de produtos** , selecione o local e a licença apropriada para o usuário. Caso não haja licenças disponíveis, você pode comprar mais licenças e adicionar usuários. Selecione **Avançar**.
-
-5. Na página **configurações opcionais** , expanda **funções** se quiser tornar esse usuário um administrador e expanda **informações de perfil** se quiser adicionar mais informações sobre o usuário. 
-
-6. Selecione **Avançar**, revise as configurações do novo usuário, faça as alterações desejadas e selecione **concluir adição**. 
+3. No painel **Configurar o** básico, preencha as informações básicas do usuário e selecione **Avançar**.
+    - **Nome** Preencha o nome e o sobrenome, o nome para exibição e o nome de usuário.
+    - **Domínio** Escolha o domínio da conta do usuário. Por exemplo, se o nome de usuário do usuário for Jakob e o domínio for contoso.com, ele entrará usando o jakob@contoso.com.
+    - **Configurações de senha** Escolha usar a senha gerada automaticamente ou para criar sua própria senha forte para o usuário.
+    - O usuário deve alterar a senha após 90 dias. Ou você pode optar por **exigir que esse usuário altere a senha quando entrar pela primeira vez**.
+    - Escolha se você deseja enviar a senha no email quando o usuário for adicionado.
+4. No painel **atribuir licenças de produtos** , selecione o local e a licença apropriada para o usuário. Caso não haja licenças disponíveis, você pode comprar mais licenças e adicionar usuários. Expanda **aplicativos** e marque ou desmarque aplicativos para limitar os aplicativos para os quais o usuário tem uma licença. Selecione **Avançar**.
+5. No painel **configurações opcionais** , expanda **funções** para tornar esse usuário um administrador. Expanda **informações de perfil** para adicionar informações adicionais sobre o usuário.
+6. Selecione **Avançar**, revise as configurações do novo usuário, faça as alterações desejadas e, em seguida, selecione **concluir adição**e **Fechar**.
 
 ::: moniker-end
-
 
 ::: moniker range="o365-germany"
 
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.
-
 2. Vá para **Users** > **usuários ativos**do usuários e selecione **Adicionar um usuário**.
-   
-  
-   No painel **novo usuário** , preencha as informações a seguir. Selecione **Adicionar** quando terminar. 
-  
-- **Nome** Preencha o nome, o sobrenome, o nome para exibição e o nome de usuário. 
-    
-- **Domínio** Por exemplo, se o nome de usuário do usuário for Jakob, e seu domínio for contoso.com, ele entrará na digitação de jakob@contoso.com. 
-    
-- **Informações de contato** Expanda para preencher um número de telefone celular, endereço e assim por diante. 
-    
-- **Senha** Use a senha gerada automaticamente ou expanda para especificar uma senha forte para o usuário. 
-    
-    They'll need to change their password after 90 days. Or you can choose to **Make this user change their password when they first sign in**.
-    
-- **Funções** Expanda, caso precise tornar esse usuário um administrador. 
-    
-- **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses. 
+3. No painel **novo usuário** , preencha as informações a seguir. Quando tiver terminado, selecione **Adicionar**.
+    - **Nome** Preencha o nome, o sobrenome, o nome para exibição e o nome de usuário.
+    - **Domínio** Por exemplo, se o nome de usuário do usuário for Jakob e o domínio for contoso.com, ele entrará na digitação de jakob@contoso.com.
+    - **Informações de contato** Expanda para preencher um número de telefone celular, endereço e assim por diante.
+    - **Senha** Use a senha gerada automaticamente ou expanda para especificar uma senha forte para o usuário. Eles devem alterar a senha após 90 dias. Além disso, você pode optar por **Permitir que esse usuário altere a senha quando entrar pela primeira vez**.
+    - **Funções** Expanda, caso precise tornar esse usuário um administrador.
+    - **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>.
-
 2. Vá para **Users** > **usuários ativos**do usuários e selecione **Adicionar um usuário**.
-   
-  
-   No painel **novo usuário** , preencha as informações a seguir. Selecione **Adicionar** quando terminar. 
-  
-- **Nome** Preencha o nome, o sobrenome, o nome para exibição e o nome de usuário. 
-    
-- **Domínio** Por exemplo, se o nome de usuário do usuário for Jakob, e seu domínio for contoso.com, ele entrará na digitação de jakob@contoso.com. 
-    
-- **Informações de contato** Expanda para preencher um número de telefone celular, endereço e assim por diante. 
-    
-- **Senha** Use a senha gerada automaticamente ou expanda para especificar uma senha forte para o usuário. 
-    
-    They'll need to change their password after 90 days. Or you can choose to **Make this user change their password when they first sign in**.
-    
-- **Funções** Expanda, caso precise tornar esse usuário um administrador. 
-    
-- **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses. 
+3. No painel **novo usuário** , preencha as informações a seguir. Quando tiver terminado, selecione **Adicionar**.
+    - **Nome** Preencha o nome, o sobrenome, o nome para exibição e o nome de usuário.
+    - **Domínio** Por exemplo, se o nome de usuário do usuário for Jakob e o domínio for contoso.com, ele entrará na digitação de jakob@contoso.com.
+    - **Informações de contato** Expanda para preencher um número de telefone celular, endereço e assim por diante.
+    - **Senha** Use a senha gerada automaticamente ou expanda para especificar uma senha forte para o usuário. Eles devem alterar a senha após 90 dias. Além disso, você pode optar por **Permitir que esse usuário altere a senha quando entrar pela primeira vez**.
+    - **Funções** Expanda, caso precise tornar esse usuário um administrador.
+    - **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses.
 
-::: moniker-end 
-  
-Depois de adicionar usuários, você receberá uma notificação por email da equipe do Microsoft Online Services. O email conterá a ID de usuário e a senha da pessoa para que eles possam entrar no Microsoft 365. Você precisa informar ao novo usuário sobre suas informações de entrada do Microsoft 365. Use seu processo normal para comunicar as novas senhas.
+::: moniker-end
 
-> [!NOTE]
->Se você criar usuários migrando caixas de correio, será necessário ativar as contas de usuário atribuindo licenças. Se você não atribuir uma licença a um usuário, a caixa de correio será desabilitada após um período de carência de 30 dias. Confira como [atribuir licenças aos usuários](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) usando o centro de administração do Microsoft 365.
+## <a name="add-multiple-users-at-the-same-time"></a>Adicionar vários usuários ao mesmo tempo
 
-### <a name="video-add-and-manage-users-in-the-admin-center"></a>Vídeo: Adicionar e gerenciar usuários no centro de administração
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfN?autoplay=false]
-  
-## <a name="next-steps"></a>Próximas etapas
-
-Compartilhe o [Guia de início rápido do funcionário](https://support.microsoft.com/office/b9700090-ce64-4046-ab92-ce8488a7bc0f) com seus novos usuários para definir alguns pontos, como o [Office em um PC ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) e os [Aplicativos móveis do Office](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f).
-  
-## <a name="need-help"></a>Precisa de ajuda?
-
-[Entre em contato com o suporte da Microsoft 365 para empresas](../contact-support-for-business-products.md).  
-
-## <a name="have-hundreds-or-thousands-of-users-to-add"></a>Você tem centenas ou milhares de usuários para adicionar?
-
-
-Para adicionar vários usuários ao mesmo tempo, siga essas etapas:
+Você pode usar qualquer um dos seguintes métodos para adicionar vários usuários ao mesmo tempo:
   
 - **Usar uma planilha para adicionar pessoas em massa.** Confira [adicionar vários usuários ao mesmo tempo](https://docs.microsoft.com/office365/enterprise/add-several-users-at-the-same-time).
-    
 - **Automatize a adição de contas e a atribuição de licenças.** Confira [criar contas de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/create-user-accounts-with-office-365-powershell). Escolha este método se já estiver familiarizado com o uso dos cmdlets do Windows PowerShell.
-    
-- **Usando o ActiveDirectory?** [Configurar a sincronização de diretório para o Office 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization). Use a ferramenta Azure AD Connect para replicar as contas de usuário do Active Directory (e outros objetos do Active Directory) no Office 365. A sincronização só adiciona as contas de usuário. Você precisará atribuir licenças aos usuários sincronizados antes que eles possam usar o email e outros aplicativos do Office.
-    
-- **Migrar do Exchange?** [Maneiras de migrar várias contas de email para o Office 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration). Ao migrar várias caixas de correio para o Microsoft 365 usando a substituição, a transferência ou um método híbrido do Exchange, você adicionará usuários automaticamente como parte da migração. A migração somente adiciona as contas de usuário. Você precisará atribuir licenças aos usuários para que eles possam usar emails e outros aplicativos do Office.
+- **Usando o ActiveDirectory?** [Configurar a sincronização de diretório para o Office 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization). Use a ferramenta Azure AD Connect para replicar as contas de usuário do Active Directory (e outros objetos do Active Directory) no Microsoft 365. A sincronização só adiciona as contas de usuário. Você deve atribuir licenças aos usuários sincronizados antes que eles possam usar emails e outros aplicativos do Office.
+- **Migrar do Exchange?** Confira [maneiras de migrar várias contas de email para o Office 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration). Ao migrar várias caixas de correio para o Microsoft 365 usando a substituição, a transferência ou um método híbrido do Exchange, você adiciona automaticamente usuários como parte da migração. A migração somente adiciona as contas de usuário. Você deve atribuir licenças aos usuários antes que eles possam usar email e outros aplicativos do Office. Se você não atribuir uma licença a um usuário, a caixa de correio será desabilitada depois de um período de cortesia de 30 dias. Saiba como [atribuir licenças aos usuários](../manage/assign-licenses-to-users.md) no centro de administração do Microsoft 365.
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="next-steps"></a>Próximas etapas
 
-[Atribuir licenças a usuários](../manage/assign-licenses-to-users.md)
+Após adicionar um usuário, você receberá uma notificação por email da Microsoft. O email contém a ID de usuário e a senha da pessoa para que eles possam entrar no Microsoft 365. Use seu processo normal para comunicar as novas senhas. Compartilhar o [Guia de início rápido do funcionário](https://support.microsoft.com/office/b9700090-ce64-4046-ab92-ce8488a7bc0f) com seus novos usuários para configurar coisas, como [baixar e instalar os aplicativos do Office em um PC ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) e como [configurar aplicativos e email do Office em um dispositivo móvel](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f).
 
-[Adicionar um novo funcionário ao Microsoft 365](add-new-employee.md)
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Excluir um usuário da sua organização](delete-a-user.md)
-
-[Restaurar um usuário no Microsoft 365](restore-user.md)
-
-[Adicionar vários usuários ao mesmo tempo para o Microsoft 365](https://docs.microsoft.com/office365/enterprise/add-several-users-at-the-same-time)
-
+[Adicionar um novo funcionário à Microsoft 365](add-new-employee.md) (artigo) \
+[Adicione vários usuários ao mesmo tempo para o Microsoft 365](https://docs.microsoft.com/office365/enterprise/add-several-users-at-the-same-time) (artigo) \
+[Restaurar um usuário no Microsoft 365](restore-user.md) (artigo) \
+[Atribuir licenças aos usuários](../manage/assign-licenses-to-users.md) (artigo) \
+[Excluir um usuário da sua organização](delete-a-user.md) (artigo)

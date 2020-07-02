@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 97af2932-0868-4ccf-8f6b-21a94946c58a
 description: Saiba como gerenciar mensagens do centro de mensagens para ajudar no gerenciamento de alterações.
-ms.openlocfilehash: 95d1e4eb7bdf411ea1fed7ccfb58224860f889e5
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: c415120a86b0c095df8ba9cbb4130abda1f6596b
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432260"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005817"
 ---
 # <a name="manage-messages-in-message-center"></a>Gerenciar mensagens no centro de mensagens
 
@@ -157,19 +157,19 @@ Qualquer mensagem no centro de mensagens que não lido aparecerá em negrito. A 
 
 ::: moniker-end
 
-## <a name="dismiss-and-restore"></a>Descartar e restaurar
+## <a name="archive-and-restore"></a>Arquivar e restaurar
 
-Se você vir uma mensagem que não diz respeito a você, ou talvez já tenha funcionado, é possível descartar a mensagem para removê-la da exibição do centro de mensagens. O modo de exibição que você vê no centro de mensagens é específico para a sua conta de usuário, por isso não afetará outros administradores.
+Se você vir uma mensagem que não diz respeito a você, ou talvez já tenha atuada nela, você pode arquivar a mensagem para removê-la da exibição do centro de mensagens. O modo de exibição que você vê no centro de mensagens é específico para a sua conta de usuário, portanto, o arquivamento do seu modo de exibição não afeta outros administradores.
 
 ::: moniker range="o365-worldwide"
 
-- Na página principal do centro de mensagens, selecione uma mensagem e, em seguida, selecione **descartar** acima da lista de mensagens.
+- Na página principal do centro de mensagens, selecione uma mensagem e, em seguida, selecione **arquivar** acima da lista de mensagens.
 
-- Abra a mensagem e, em seguida, selecione **descartar** na parte inferior da mensagem.
+- Abra a mensagem e, em seguida, selecione **arquivo morto** na parte inferior da mensagem.
 
-Precisa obter uma mensagem descartada de volta? Não há problema.
+Precisa obter uma mensagem arquivada de volta? Não há problema.
   
-1. Selecione a guia **mensagens dispensadas** na parte superior do centro de mensagens. Uma lista de mensagens ignoradas é exibida. 
+1. Selecione a guia **mensagens arquivadas** na parte superior do centro de mensagens. Uma lista de mensagens arquivadas é exibida. 
 
 2. Selecione a mensagem, selecione **restaurar**e a mensagem será restaurada para mensagens ativas.
 
@@ -177,15 +177,15 @@ Precisa obter uma mensagem descartada de volta? Não há problema.
 
 ::: moniker range="o365-germany"
 
-Há duas maneiras de descartar uma mensagem.
+Há duas maneiras de arquivar uma mensagem.
   
 - Selecione o X que aparece à direita da ID da mensagem. A mensagem é removida da sua lista. Ou
 
-- Abra a mensagem e, em seguida, selecione **descartar** na parte superior da mensagem.
+- Abra a mensagem e, em seguida, selecione **arquivo morto** na parte superior da mensagem.
 
 Precisa obter uma mensagem descartada de volta? Não há problema.
   
-1. Selecione o filtro **mensagens descartadas** no menu suspenso **modos de exibição** . Uma lista de mensagens ignoradas é exibida.
+1. Selecione o filtro **mensagens arquivadas** no menu suspenso **modos de exibição** . Uma lista de mensagens arquivadas é exibida.
 
 2. Selecione **restaurar** à direita da ID da mensagem e a mensagem será restaurada para mensagens ativas.
 
@@ -193,15 +193,15 @@ Precisa obter uma mensagem descartada de volta? Não há problema.
 
 ::: moniker range="o365-21vianet"
 
-Há duas maneiras de descartar uma mensagem.
+Há duas maneiras de arquivar uma mensagem.
   
 - Selecione o X que aparece à direita da ID da mensagem. A mensagem é removida da sua lista. Ou
 
-- Abra a mensagem e, em seguida, selecione **descartar** na parte superior da mensagem.
+- Abra a mensagem e, em seguida, selecione **arquivo morto** na parte superior da mensagem.
 
-Precisa obter uma mensagem descartada de volta? Não há problema.
+Precisa obter uma mensagem arquivada de volta? Não há problema.
   
-1. Selecione o filtro **mensagens descartadas** no menu suspenso **modos de exibição** . Uma lista de mensagens ignoradas é exibida.
+1. Selecione o filtro **mensagens arquivadas** no menu suspenso **modos de exibição** . Uma lista de mensagens arquivadas é exibida.
 
 2. Selecione **restaurar** à direita da ID da mensagem e a mensagem será restaurada para mensagens ativas.
 

@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba mais sobre o Microsoft 365 for Business, como configurá-lo e como preparar os dispositivos e os computadores dos usuários para garantir que eles estejam protegidos pela Microsoft 365 para empresas.
-ms.openlocfilehash: 48a103333e101d545d562e7f2e9dd7329686f107
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: 08a956cc7e68bbba74d29bafaab77065be1321ce
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786145"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022108"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Introdução ao Microsoft 365 for Business
 
@@ -84,7 +84,7 @@ Entre no [centro de administração do Microsoft 365](https://portal.office.com/
     
     - Use o assistente de sincronização de diretórios para sincronizar seus usuários com a nuvem. Siga as etapas em [Configurar a sincronização de diretório para o Microsoft 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) para concluir esse processo. Após sincronizar seus usuários com a nuvem, você terá que desativar a [sincronização de diretório do Office 365](https://docs.microsoft.com/office365/enterprise/turn-off-directory-synchronization).
     
-    Você também precisará conceder a cada usuário uma licença para a Microsoft 365 para empresas. Você pode fazer isso no [Assistente de configuração](set-up.md) ou pode [atribuir licenças aos usuários no Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
+    Você também precisará conceder a cada usuário uma licença para a Microsoft 365 para empresas. Você pode fazer isso no [Assistente de configuração](set-up.md) ou pode [atribuir licenças aos usuários](../admin/manage/assign-licenses-to-users.md).
     
 ### <a name="2-prepare-mobile-devices"></a>2: preparar dispositivos móveis
 
@@ -107,7 +107,7 @@ Se você mantiver um Active Directory local que contenha alguns recursos locais 
     
 - Como um administrador do Microsoft 365 para empresas, você tem acesso à nossa equipe de suporte ao cliente: ** [contatar o suporte para produtos de negócios-ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)**
     
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 [Documentação e recursos do Microsoft 365 for Business](https://go.microsoft.com/fwlink/p/?linkid=853701)
   

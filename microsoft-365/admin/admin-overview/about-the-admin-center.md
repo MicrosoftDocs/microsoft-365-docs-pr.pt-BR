@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Use o centro de administração para configurar sua organização na nuvem e gerenciar usuários e assinaturas. Comece acessando a conta com permissões de administrador.
-ms.openlocfilehash: 9295d16f19ebaabdd9960331f1d875f436156b79
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: e4b1570afd8572df31af970fb168b6d22deee979
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780548"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022176"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Sobre o centro de administração do Microsoft 365
 
@@ -89,7 +89,7 @@ Aqui estão os recursos e configurações que você encontrará na navegação e
    
 ## <a name="common-tasks-in-the-admin-center"></a>Tarefas comuns no centro de administração
 
-- Gerenciar usuários: [Adicionar usuários individualmente](../add-users/add-users.md), [Excluir ou restaurar usuários](../add-users/delete-a-user.md) ou [Redefinir senha de um usuário](../add-users/reset-passwords.md).
+- Gerenciar usuários: [Adicionar usuários e atribuir licenças ao mesmo tempo](../add-users/add-users.md), [excluir ou restaurar usuários](../add-users/delete-a-user.md)ou [redefinir a senha de um usuário](../add-users/reset-passwords.md).
 
 - Obtenha ajuda sobre cobrança: [Cobrança](../../commerce/index.yml)
 

@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
 description: Neste artigo, você aprenderá como personalizar, organizar e gerenciar seu site de equipe para armazenamento e compartilhamento de arquivos.
-ms.openlocfilehash: 5eb95ffc1ec687920b4499a9876ce3186e678062
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: e7c3364332a127b5a398d3b08843ea7dd04679b5
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779864"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022164"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>Personalizar seu site de equipe para armazenamento e compartilhamento de arquivos
 
@@ -104,7 +104,7 @@ Ao gerenciar seu site de equipe, talvez seja necessário adicionar ou remover us
   
 Assista a um vídeo sobre grupos com [entender e gerenciar grupos](https://support.microsoft.com/office/9c1037b7-de0b-41cd-b8f0-79a95aac854d). 
   
-Para adicionar usuários a um grupo do Microsoft 365, confira [Adicionar usuários individualmente ou em massa ao Microsoft 365-ajuda para administradores](../add-users/add-users.md).
+Para adicionar usuários a um grupo do Microsoft 365, confira [Adicionar usuários e atribuir licenças ao mesmo tempo](../add-users/add-users.md).
   
 Saiba como lidar com solicitações de acesso com a [configuração e o gerenciamento de solicitações de acesso](https://support.microsoft.com/office/94B26E0B-2822-49D4-929A-8455698654B3).
   

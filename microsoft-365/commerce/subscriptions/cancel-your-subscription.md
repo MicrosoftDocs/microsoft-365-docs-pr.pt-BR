@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Saiba como cancelar sua assinatura de avaliação do Microsoft 365 for Business ou pago.
-ms.openlocfilehash: 3f60792446b468aaa5c85d03ab761fd75e607b8b
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: da9a86973c271fce8a9552cfc0ce1b287f7debc8
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818514"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45023364"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
@@ -144,10 +144,12 @@ Quando o cancelamento se tornar efetivo, seus usuários perderão o acesso aos s
 
 ### <a name="uninstall-office-optional"></a>Desinstalar o Office (opcional)
 
-Se você cancelou sua assinatura e não moveu os usuários para uma assinatura diferente que inclui o Microsoft 365, o Microsoft 365 é executado no modo de funcionalidade reduzida. Quando isso acontece, os usuários só podem ler e imprimir documentos, e os aplicativos do Microsoft 365 exibem [notificações de produtos não licenciados](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx). Para evitar confusão, peça aos seus usuários para [desinstalar o Office](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) de seus computadores.
+Se você cancelou sua assinatura e não [moveu os usuários para uma assinatura diferente](move-users-different-subscription.md) que inclui o Microsoft 365, o Microsoft 365 é executado no modo de funcionalidade reduzida. Quando isso acontece, os usuários só podem ler e imprimir documentos, e os aplicativos do Microsoft 365 exibem [notificações de produtos não licenciados](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx). Para evitar confusão, peça aos seus usuários para [desinstalar o Office](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) de seus computadores.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
 [Renovar sua assinatura](renew-your-subscription.md)
 
 [Reativar sua assinatura](reactivate-your-subscription.md)
+
+[Migrar os usuários para outra assinatura](move-users-different-subscription.md)

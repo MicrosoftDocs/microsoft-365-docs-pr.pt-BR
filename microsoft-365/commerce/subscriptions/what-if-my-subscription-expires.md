@@ -23,21 +23,24 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Saiba o que acontece com seus dados quando sua assinatura do Microsoft 365 for Business expira, está desabilitada ou se você cancelar.
-ms.openlocfilehash: c50c8ca2e9f6342cc127c7a1b42575515fd36329
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 2852d2fc301d71131a0adb1c277974e2303dd395
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818618"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016072"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>O que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 for Business termina?
 
 Se sua assinatura terminar, pois ela expira ou porque você decide cancelar — seu acesso aos serviços do Microsoft 365, aplicativos e dados do cliente passam por vários Estados antes que a assinatura seja totalmente desativada ou *desprovisionada*. Se você estiver ciente desse progresso, você ficará mais preparado para retornar sua assinatura para um estado ativo antes que seja muito tarde ou, se você sair do Microsoft 365, faça backup dos seus dados antes que ele seja excluído.
+
+Leia as informações importantes antes de entrar em contato com o [suporte do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).
   
-## <a name="microsoft-365-for-business-subscription-lifecycle"></a>Microsoft 365 for Business: ciclo de vida de assinatura
+## <a name="what-happens-to-data-when-a-subscription-expires"></a>O que acontece com os dados quando uma assinatura expira? 
+
 - Se sua assinatura expirar, ela passará pelos seguintes estágios: expirado/desabilitado/desprovisionado. O estágio expirado é iniciado imediatamente após a assinatura atingir sua data de término.
 - Se você desativar a cobrança recorrente em sua assinatura anual, ela passará pelos mesmos estágios de uma assinatura expirada. O primeiro estágio começa é o aniversário da assinatura anual, não começando na data em que você desativou a configuração de cobrança recorrente da assinatura.
-- Se você cancelar sua assinatura mensal, ela será desabilitada imediatamente (na data de cancelamento). Isso significa que seus usuários perderão o acesso aos ativos do Microsoft 365 imediatamente e apenas os administradores terão acesso aos dados pelos próximos 90 dias.
+- Se você cancelar sua assinatura mensal, ela será desabilitada imediatamente (na data de cancelamento). Isso significa que seus usuários perderão o acesso aos ativos do Microsoft 365 imediatamente e apenas os administradores terão acesso aos dados nos próximos 90 dias.
 
 A tabela a seguir explica o que você pode esperar quando uma assinatura paga do Microsoft 365 for Business expira.
 
@@ -52,6 +55,21 @@ A tabela a seguir explica o que você pode esperar quando uma assinatura paga do
   
 > [!NOTE]
 > **O que é "dados do cliente"?** Os dados do cliente, conforme definido nos [termos do Microsoft Online Service](https://go.microsoft.com/fwlink/p/?LinkId=613649), referem-se a todos os dados, incluindo todos os arquivos de texto, som ou imagem fornecidos à Microsoft por, ou em nome de, o cliente através do uso do Microsoft 365 Services do cliente. Para saber mais sobre a proteção de dados do cliente, confira o [introdução ao portal de confiança do serviço Microsoft](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal).
+
+## <a name="what-happens-if-i-cancel-a-subscription"></a>O que acontece se eu cancelar uma assinatura?
+
+Se você cancelar sua assinatura antes da data de término do termo, a assinatura ignorará o estado expirado e passará diretamente para o estado desabilitado, que é 90 dias para a maioria das assinaturas, na maioria dos países e regiões. Recomendamos que você [faça o backup de seus dados](back-up-data-before-switching-plans.md) antes de cancelar, mas como um administrador, você ainda pode acessar e fazer o backup de dados da sua organização enquanto ele estiver no estado desabilitado. Todos os dados do cliente que você deixar atrás poderão ser excluídos após 90 dias, e não serão excluídos depois de 180 dias após o cancelamento.
+  
+Veja o que esperar para você e seus usuários se cancelar uma assinatura.
+  
+- **Acesso de administrador** Os administradores ainda podem entrar e acessar o centro de administração e comprar outras assinaturas conforme necessário. Como administrador global ou de cobrança, você tem 90 dias para [reativar a assinatura](reactivate-your-subscription.md) com todos os dados intactos.
+
+- **Acesso de usuário** Os usuários não poderão usar serviços como o OneDrive for Business ou acessar dados do cliente, por exemplo, emails ou documentos em sites de equipe. Os aplicativos Office, como o Word e Excel entrarão em um modo de funcionalidade reduzida de somente leitura e exibirão [notificações de Produto não Licenciado](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx).
+
+Para saber como cancelar, confira [cancelar sua assinatura](cancel-your-subscription.md).
+  
+> [!IMPORTANT]
+> Se quiser que seus dados de assinatura sejam excluídos antes que o período normal desabilitado seja superior, você pode [fechar sua conta](../close-your-account.md).
   
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>Quais são as minhas opções se minha assinatura estiver prestes a expirar?
 
@@ -63,7 +81,7 @@ Antes que a assinatura expire, você tem as seguintes opções:
   
 - **Habilitar cobrança recorrente para a assinatura.**
 
-  - Se a **cobrança recorrente** já estiver ativada, não será necessário realizar qualquer ação. Sua assinatura será renovada automaticamente na data de término do prazo e será cobrado um ano ou mês adicional, dependendo da sua frequência de pagamento atual. Se, por qualquer motivo, você tiver desativado a **cobrança recorrente** , sempre será possível [ativar novamente a cobrança recorrente](renew-your-subscription.md).
+  - Se a **cobrança recorrente** já estiver ativada, não será necessário realizar qualquer ação. Sua assinatura é cobrada automaticamente e você é cobrado por um ano ou mês adicional, dependendo da sua frequência de pagamento atual. Se, por qualquer motivo, você tiver desativado a **cobrança recorrente** , sempre será possível [ativar novamente a cobrança recorrente](renew-your-subscription.md).
 
   - Se você comprou o Microsoft 365 Apps for Business com um cartão pré-pago, é possível [ativar a cobrança recorrente](renew-your-subscription.md) para sua assinatura.
 
@@ -73,7 +91,7 @@ Antes que a assinatura expire, você tem as seguintes opções:
 
 - **Deixe a assinatura expirar.**
 
-  - Se você estiver pagando por cartão de crédito ou fatura e não quiser continuar sua assinatura, [desative a cobrança recorrente](renew-your-subscription.md). Sua assinatura expirará em sua data de expiração e você poderá ignorar todas as notificações de email relacionadas.
+  - Se você estiver pagando por cartão de crédito ou fatura e não quiser continuar sua assinatura, [desative a cobrança recorrente](renew-your-subscription.md). Sua assinatura termina em sua data de expiração e você pode ignorar todas as notificações de email relacionadas.
 
   - Se você for um cliente de licenciamento de volume aberto que trabalha com um parceiro, poderá deixar sua assinatura expirar não realizando nenhuma ação.
 
@@ -144,7 +162,7 @@ Veja aqui o que você pode esperar quando sua assinatura estiver em cada Estado.
 
 Nesse estado, os usuários têm acesso normal ao portal do Microsoft 365, aos aplicativos do Office e a serviços como o email e o SharePoint Online.
   
-Como administrador, você ainda tem acesso ao centro de administração. Não se preocupe: os administradores globais ou de cobrança podem [reativar a assinatura](reactivate-your-subscription.md) e continuar usando o Microsoft 365. Se você não reativar, certifique-se de [fazer backup dos dados](back-up-data-before-switching-plans.md).
+Como administrador, você ainda tem acesso ao centro de administração. Não se preocupe: os administradores globais ou de cobrança podem [reativar a assinatura](reactivate-your-subscription.md) e continuar usando o Microsoft 365. Se você não reativar, [faça backup dos dados](back-up-data-before-switching-plans.md).
   
 ### <a name="state-disabled"></a>Estado: desabilitado
   
@@ -172,13 +190,13 @@ Nesse estado, seu acesso diminui significativamente. Os usuários não podem ent
 
 ::: moniker-end
 
-Como administrador global ou de cobrança, você pode [reativar a assinatura](reactivate-your-subscription.md) e continuar usando o Microsoft 365 com todos os dados do cliente intactos. Se você optar por não reativar, certifique-se de [fazer backup dos dados](back-up-data-before-switching-plans.md).
+Como administrador global ou de cobrança, você pode [reativar a assinatura](reactivate-your-subscription.md) e continuar usando o Microsoft 365 com todos os dados do cliente intactos. Se você optar por não reativar, [faça backup dos dados](back-up-data-before-switching-plans.md).
 
 ### <a name="state-deprovisioned"></a>Estado: desprovisionado
   
  **O que esperar:** Se você não reativar sua assinatura enquanto ela estiver em cortesia ou estiver desabilitada, a assinatura será desprovisionada.
   
-Administradores e usuários não têm mais acesso aos serviços ou aplicativos do Office que vieram com a assinatura. Todos os dados do cliente, de dados de usuários para documentos e emails, são excluídos permanentemente e não podem ser recuperados de nenhuma forma.
+Administradores e usuários não têm mais acesso aos serviços ou aplicativos do Office que vieram com a assinatura. Todos os dados do cliente, de dados de usuários para documentos e emails, são excluídos permanentemente e não são recuperáveis.
   
 Neste ponto, não é possível reativar a assinatura. No entanto, como administrador global ou de cobrança, você ainda pode acessar o centro de administração para gerenciar outras assinaturas ou comprar novas assinaturas para atender às suas necessidades de negócios.
   
@@ -204,24 +222,17 @@ Quando a avaliação terminar, você não poderá continuar usando o Microsoft 3
 
 ::: moniker-end
 
-- **Estenda a avaliação.** Precisa de mais tempo para avaliar o Microsoft 365? Em alguns casos, você poderá [estender a avaliação](../extend-your-trial.md).
+- **Estenda a avaliação.** Precisa de mais tempo para avaliar o Microsoft 365? Em alguns casos, você pode [estender a avaliação](../extend-your-trial.md).
 
-- **Cancele a avaliação ou deixe-a expirar.** Se você decidir não comprar o Microsoft 365, poderá deixar que sua avaliação expire ou [cancelá-la](cancel-your-subscription.md). Certifique-se de fazer backup de todos os dados que você deseja manter. Logo após o período de cortesia de 30 dias, as informações e os dados da conta de avaliação são apagados permanentemente.
-
-## <a name="what-happens-if-i-cancel-a-subscription"></a>O que acontece se eu cancelar uma assinatura?
-
-Se você cancelar sua assinatura antes da data de término do termo, a assinatura ignorará o estado expirado e passará diretamente para o estado desabilitado, que é 90 dias para a maioria das assinaturas, na maioria dos países e regiões. Recomendamos que você [faça o backup de seus dados](back-up-data-before-switching-plans.md) antes de cancelar, mas como um administrador, você ainda pode acessar e fazer o backup de dados da sua organização enquanto ele estiver no estado desabilitado. Todos os dados do cliente que você deixar atrás poderão ser excluídos após 90 dias, e não serão excluídos depois de 180 dias após o cancelamento.
-  
-Veja o que esperar para você e seus usuários se cancelar uma assinatura.
-  
-- **Acesso de administrador** Os administradores ainda podem entrar e acessar o centro de administração e comprar outras assinaturas conforme necessário. Como administrador global ou de cobrança, você tem 90 dias para [reativar a assinatura](reactivate-your-subscription.md) com todos os dados intactos.
-
-- **Acesso de usuário** Os usuários não poderão usar serviços como o OneDrive for Business ou acessar dados do cliente, por exemplo, emails ou documentos em sites de equipe. Os aplicativos Office, como o Word e Excel entrarão em um modo de funcionalidade reduzida de somente leitura e exibirão [notificações de Produto não Licenciado](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx).
-
-Para saber como cancelar, confira [cancelar sua assinatura](cancel-your-subscription.md).
-  
-> [!IMPORTANT]
-> Se quiser que seus dados de assinatura sejam excluídos antes que o período normal desabilitado seja superior, você pode [fechar sua conta](../close-your-account.md).
+- **Cancele a avaliação ou deixe-a expirar.** Se você decidir não comprar o Microsoft 365, poderá deixar que sua avaliação expire ou [cancelá-la](cancel-your-subscription.md). Faça backup de todos os dados que você deseja manter. Logo após o período de cortesia de 30 dias, as informações e os dados da conta de avaliação são apagados permanentemente.
 
 > [!NOTE]
 > As informações nesta página estão sujeitas ao [aviso de isenção de responsabilidade e alteração da política da Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=613651). Retorne a este site periodicamente para revisar as alterações.
+
+## <a name="related-articles"></a>Artigos relacionados 
+
+[Cancelar sua assinatura](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/cancel-your-subscription)
+
+[Renove o Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/renew-your-subscription)
+
+[Reativar sua assinatura](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/reactivate-your-subscription)

@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 0dc55430-98d6-4cbe-ba69-1a4ad29a967d
 ROBOTS: NOINDEX
 description: 'Saiba mais sobre os tipos de usuários no centro de administração. '
-ms.openlocfilehash: 4e28715674360dbbed7ef398207e39e45b1fec81
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b0b0638ee9fb258cfd84bafdc1c09ab691a1d060
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399213"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022198"
 ---
 # <a name="quick-help-types-of-users"></a>Ajuda rápida: Tipos de usuários
 
@@ -46,12 +46,12 @@ Na página **usuários ativos** no centro de administração do Microsoft 365, �
 |Administradores globais  <br/> |Esses usuários têm acesso a todos os recursos administrativos. A pessoa que se inscreve no Microsoft 365 se torna um administrador global, mas você pode ter mais de um se desejar. Os administradores globais são os únicos que podem atribuir funções de administrador a outras pessoas.  <br/> |
 |Administradores de senha  <br/> |Esses usuários podem redefinir senhas, gerenciar solicitações de serviço e monitorar a integridade do serviço em seu nome.  <br/> |
 |Administradores de serviço  <br/> |Esses usuários podem gerenciar solicitações de serviço e monitorar a integridade do serviço em seu nome.  <br/> |
-|Administradores de gerenciamento do usuário  <br/> |Esses usuários podem redefinir senhas, monitorar a integridade do serviço, gerenciar contas de usuários, grupos de usuários e solicitações de serviços. Não podem excluir um administrador global, criar outras funções de administrador ou redefinir senhas de administradores de cobrança, globais e do serviço.  <br/> |
+|Administradores de gerenciamento do usuário  <br/> |These users can reset passwords, monitor service health, manage user accounts, user groups, and service requests. They can't delete a global admin, create other admin roles, or reset passwords for billing, global, and service admins.  <br/> |
 |Adicionar filtro personalizado  <br/> |Com essa opção, você pode criar um filtro personalizado para exibir somente determinados tipos de usuários de sua preferência, como quais usuários estão no plano de aplicativos do Microsoft 365 para empresas. [Ajuda rápida: filtrar usuários](https://docs.microsoft.com/microsoft-365/admin/add-users/create-edit-or-delete-a-custom-user-view).  <br/> |
    
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Adicionar usuários no Microsoft 365](../add-users/add-users.md)
+[Adicionar usuários e atribuir licenças ao mesmo tempo](../add-users/add-users.md)
     
 [Atribuir licenças aos usuários no Microsoft 365 for Business](../manage/assign-licenses-to-users.md)
     

@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os dados produzidos por aplicativos baseados em nuvem no Microsoft 365 são armazenados ou associados à caixa de correio do Exchange Online de um usuário.
-ms.openlocfilehash: 946ad069a57e411c20d9b0a723d28dc03a4b094f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: dc8588008194b5ea9e414efd1354d835e6bb7a63
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626277"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016294"
 ---
 # <a name="content-stored-in-exchange-online-mailboxes"></a>Conteúdo armazenado em caixas de correio do Exchange Online
 
@@ -32,7 +32,7 @@ A tabela a seguir lista os aplicativos que armazenam ou associam dados com uma c
 
 |Aplicativo Microsoft 365|Descrição|
 |:---------|:---------|
-|Forms|Formulários (armazenados como um arquivo PDF) e respostas a um formulário (armazenado em um arquivo CSV) são anexados a mensagens de email e armazenadas em uma pasta oculta na caixa de correio do usuário que criou o formulário. Quando você exporta conteúdo de formulários em um arquivo PST, esses dados estão localizados na pasta **ApplicationDataRoot** em uma subpasta chamada com o seguinte identificado globalmente exclusivo (GUID): **c9a559d2-7aab-4f13-a6ed-e7e9c52aec87**.|
+|Forms|Formulários e respostas a um formulário são armazenados em arquivos anexados a mensagens de email e armazenados em uma pasta oculta na caixa de correio do usuário que criou o formulário. Os formulários criados antes de abril de 2020 são armazenados como um arquivo PDF. Formulários criados após 2020 são armazenados como um arquivo JSON.  As respostas a um formulário são armazenadas em um arquivo CSV. Quando você exporta conteúdo de formulários em um arquivo PST, esses dados estão localizados na pasta **ApplicationDataRoot** em uma subpasta chamada com o seguinte identificado globalmente exclusivo (GUID): **c9a559d2-7aab-4f13-a6ed-e7e9c52aec87**.|
 |Grupos do Microsoft 365|Mensagens de email, itens de calendário, contatos (pessoas), anotações e tarefas são armazenados na caixa de correio associada a um grupo do Microsoft 365.|
 |Outlook/Exchange Online|Mensagens de email, itens de calendário, contatos (pessoas), anotações e tarefas são armazenados na caixa de correio de um usuário.|
 |Pessoas|Contatos no aplicativo pessoas (que são os mesmos contatos que aqueles acessíveis no Outlook) são armazenados na caixa de correio de um usuário.|
