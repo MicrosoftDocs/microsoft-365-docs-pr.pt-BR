@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: 709d4414ebb01081172aff932899146c06d05a19
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
+ms.openlocfilehash: 869f457ddb64e5d828dcb5f1244ba779f889e8c9
+ms.sourcegitcommit: e3900c818877c2cdcd227917ec975c03e828c7ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268265"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44861158"
 ---
 # <a name="learn-about-retention-policies-for-microsoft-teams"></a>Saiba mais sobre as políticas de retenção para o Microsoft Teams
 
@@ -77,7 +77,7 @@ No entanto, se o histórico de chats estiver ativado para o Skype for Business e
 
 ## <a name="files-in-teams"></a>Arquivos no Teams.
 
-No Teams, os arquivos compartilhados no chat são armazenados na conta do OneDrive do usuário que compartilhou o arquivo. Os arquivos carregados nos canais são armazenados no site do SharePoint usado pela equipe. Isso significa que, para manter ou excluir arquivos no Teams, você deve configurar uma ou mais políticas de retenção que se apliquem a **contas do OneDrive** e **sites do SharePoint** além das políticas de retenção configuradas para o Teams. Para saber mais sobre como funcionam as políticas de retenção para esses locais, confira [Saiba mais sobre as políticas de retenção do SharePoint e do OneDrive](retention-policies-sharepoint.md).
+No Teams, os arquivos compartilhados no chat são armazenados na conta do OneDrive do usuário que compartilhou o arquivo. Os arquivos carregados nos canais são armazenados no site do SharePoint usado pela equipe. Isso significa que para reter ou excluir arquivos no Teams, você deve configurar uma ou mais políticas de retenção que se aplicam ao OneDrive e SharePoint, além de quaisquer políticas de retenção configuradas para o Teams. Para saber mais sobre como funcionam as políticas de retenção para esses locais, confira [Saiba mais sobre as políticas de retenção do SharePoint e do OneDrive](retention-policies-sharepoint.md).
 
 > [!NOTE]
 > Uma política de retenção que inclui mensagens de canal do Teams ou chats do Teams só pode incluir locais do Teams. Para manter ou excluir esses arquivos no Teams, você deve criar uma política de retenção separada.
@@ -98,6 +98,12 @@ Quando usuários externos são incluídos em uma reunião hospedada por sua orga
 
 - Se um usuário externo ingressar na reunião usando uma conta do Microsoft 365 de outra organização, suas políticas de retenção não podem excluir as mensagens para esse usuário porque elas são armazenadas na caixa de correio desse usuário em outro locatário. No entanto, as políticas de retenção podem excluir mensagens para os seus usuários.
 
+
+## <a name="when-a-user-leaves-the-organization"></a>Quando um usuário sair da organização 
+
+Se um usuário deixar sua organização e a conta do Office 365 for excluída, as mensagens de bate-papo sujeitas a retenção serão armazenadas em uma caixa de correio inativa. As mensagens de bate-papo permanecem sujeitas a qualquer política de retenção que foi colocada no usuário antes da sua caixa de correio ser desativada, e o conteúdo fica disponível para uma pesquisa de descoberta eletrônica. Para obter mais informações, consulte [Caixas de correio inativas no Exchange Online](inactive-mailboxes-in-office-365.md). 
+
+Se o usuário tiver armazenado os arquivos no Teams, consulte a [seção equivalente](retention-policies-sharepoint.md#when-a-user-leaves-the-organization) do SharePoint e do OneDrive.
 
 ## <a name="limitations"></a>Limitações
 
@@ -123,12 +129,9 @@ Estamos trabalhando continuamente para otimizar a funcionalidade de retenção n
     
     - Ao **Escolher usuários** para o local **Chats do Teams**, você poderá ver convidados e usuários sem caixa de correio. As políticas de retenção não são projetadas para esses usuários, portanto, não os selecione.
 
-
 ## <a name="how-to-configure-a-retention-policy-for-microsoft-teams"></a>Como configurar uma política de retenção para o Microsoft Teams
 
-Confira [Criar e configurar políticas de retenção](create-retention-policies.md).
-
-Na página do assistente **Escolha locais**, selecione as seguintes opções:
+Siga as instruções para [Criar e configurar políticas de retenção](create-retention-policies.md) e, na página **Escolher locais** do assistente, escolha uma das seguintes opções:
 
 - **Deixe-me escolher locais específicos** > **mensagens de canal do Teams** e **chats do Teams**
 

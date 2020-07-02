@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao SharePoint e ao OneDrive.
-ms.openlocfilehash: 59237e59b607baa2227140c957be5876c5910754
-ms.sourcegitcommit: e3900c818877c2cdcd227917ec975c03e828c7ea
+ms.openlocfilehash: cae0016f705757341934d1ad7e6eec331e81642c
+ms.sourcegitcommit: aab8b94ea8a9d4f7c6b911d6dc5cde70722e00e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/24/2020
-ms.locfileid: "44861178"
+ms.locfileid: "44869863"
 ---
 # <a name="learn-about-retention-policies-for-sharepoint-and-onedrive"></a>Saiba mais sobre as políticas de retenção do SharePoint e do OneDrive
 
@@ -93,8 +93,6 @@ Quando um usuário sai organização, qualquer conteúdo criado por ele não ser
 Se um usuário sair da organização, quaisquer arquivos sujeitos a uma política de retenção ou que tenham rótulos de retenção permanecerão pela duração da política ou do rótulo.  Durante esse período, todo o acesso à compartilhamentos continua a funcionar. Quando o período de retenção expira, o conteúdo é movido para a Lixeira de Conjuntos de Sites e não pode ser acessado por ninguém, exceto pelo administrador. Se um documento for marcado por uma política de retenção como um registro, ele não será excluído até que o período de retenção termine, após o qual o conteúdo será permanentemente excluído. 
 
 ## <a name="how-to-configure-a-retention-policy-for-sharepoint-and-onedrive"></a>Como configurar uma política de retenção para o SharePoint e o OneDrive
-
-Confira [Criar e configurar políticas de retenção](create-retention-policies.md).
 
 Siga as instruções para [Criar e configurar políticas de retenção](create-retention-policies.md) e, na página **Escolher locais** do assistente, escolha uma das seguintes opções:
 
