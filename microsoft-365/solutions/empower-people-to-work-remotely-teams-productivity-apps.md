@@ -1,5 +1,5 @@
 ---
-title: Etapa 4. Implantar aplicativos e serviços de produtividade de trabalhador remoto
+title: Etapa 5. Implantar aplicativos e serviços de produtividade de trabalhador remoto
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -17,14 +17,14 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Permita que seus usuários sejam produtivos com o Teams, Exchange, Microsoft Office SharePoint Online e outros serviços do Microsoft 365.
-ms.openlocfilehash: 1c621ae797f32cd5b98af4c1eb7a341d0f976938
-ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
+ms.openlocfilehash: 274780d2b9ea4310eb2cd8c9114bb61c326d33fe
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44560442"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005957"
 ---
-# <a name="step-4-deploy-remote-worker-productivity-apps-and-services"></a>Etapa 4. Implantar aplicativos e serviços de produtividade de trabalhador remoto
+# <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Etapa 5. Implantar aplicativos e serviços de produtividade de trabalhador remoto
 
 Para serem produtivas, as pessoas precisam se comunicar e colaborar umas com as outras. Elas precisam se reunir, conversar por voz e texto, criar novos conteúdos e compartilhar informações e arquivos, trocar emails e gerenciar calendários e tarefas. O Microsoft 365 fornece serviços baseados em nuvem para todas estas funções importantes:
 
@@ -90,9 +90,9 @@ Confira [este artigo](https://docs.microsoft.com/deployoffice/deployment-guide-m
 
 ## <a name="user-training-resources-for-productivity-apps-and-services"></a>Recursos de treinamento de usuários para aplicativos e serviços de produtividade
 
-- [Treinar seus usuários no Office e Office 365](https://support.office.com/article/train-your-users-on-office-and-microsoft-365-7cba3c97-7f19-46ed-a1c6-763971a26c2)
+- [Treinar seus usuários no Office e Microsoft 365](https://support.microsoft.com/office/train-your-users-on-office-and-microsoft-365-7cba3c97-7f19-46ed-a1c6-763971a26c27)
 - [Usar o Office para a Web](https://support.microsoft.com/office/get-started-with-office-for-the-web-in-microsoft-365-5622c7c9-721d-4b3d-8cb9-a7276c2470e5)
 
 ## <a name="next-step"></a>Próxima etapa
 
-Prossiga com a [Etapa 5](empower-people-to-work-remotely-communication-venues.md) para criar locais de comunicação adicionais que atendem aos seus funcionários remotos.
+Prossiga para a [Etapa 6](empower-people-to-work-remotely-train-monitor-usage.md) para treinar seus usuários e monitorar o sucesso deles.

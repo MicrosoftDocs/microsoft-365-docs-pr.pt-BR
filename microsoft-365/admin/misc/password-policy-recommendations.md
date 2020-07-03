@@ -19,18 +19,20 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Aprenda a tornar a sua organização mais segura contra ataques de senha e por que você deve bloquear senhas comuns e habilitar a autenticação multifator baseada em risco.
-ms.openlocfilehash: b4437f2af409fa3040894a1b0f802140df169635
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 1d6e399acb83751ec6a45eb0c811dedec394127e
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399309"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45015918"
 ---
 # <a name="password-policy-recommendations"></a>Recomendações de política de senha
  
 Como administrador de uma organização, você é responsável por definir a política de senha para usuários em sua organização. Definir a política de senha pode ser complicado e confuso, e este artigo fornece recomendações para tornar a sua organização mais segura contra ataques de senha.
   
 Para determinar a frequência com que as senhas do Microsoft 365 expiram em sua organização, confira [Definir política de expiração de senha para o Office 365](../manage/set-password-expiration-policy.md).
+
+Para obter mais informações sobre senhas do Microsoft 365, confira estes [artigos relacionados](#related-articles).
   
 ## <a name="understanding-password-recommendations"></a>Compreendendo as recomendações de senha
 
@@ -131,3 +133,13 @@ A autenticação multifatorial baseada em risco garante que, quando o sistema de
 - [As piores Senhas do 2015](https://go.microsoft.com/fwlink/p/?linkid=861020)
 
 - [Baixar arquivos da Web](https://go.microsoft.com/fwlink/p/?linkid=861029)
+
+## <a name="related-articles"></a>Artigos relacionados
+
+[Redefinir senhas](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords)
+
+[Definir senha de um usuário individual para nunca expirar](https://docs.microsoft.com/microsoft-365/admin/add-users/set-password-to-never-expire)
+
+[Permitir que os usuários redefinam as próprias senhas](https://docs.microsoft.com/microsoft-365/admin/add-users/let-users-reset-passwords)
+
+[Reenviar a senha de um usuário – ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/add-users/resend-user-password)

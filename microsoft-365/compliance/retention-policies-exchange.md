@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre o comportamento de retenção que se aplica especificamente aos emails do Exchange e às pastas públicas do Exchange.
-ms.openlocfilehash: e19e790c23c5e61748f38fb22f96d2347acb144e
-ms.sourcegitcommit: 5e8901e7e571f20ede04f460bd3e7077dda004ca
+ms.openlocfilehash: 2ecf709c8b2bdd166cd64024ef332a2e0b26b7be
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874879"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016274"
 ---
 # <a name="learn-about-retention-policies-for-exchange"></a>Saiba mais sobre as políticas de retenção do Exchange
 
@@ -70,13 +70,13 @@ Quando as configurações forem reter somente ou excluir somente, os caminhos de
 
 ## <a name="excluding-specific-types-of-exchange-items-from-a-retention-policy"></a>Como excluir tipos específicos de itens do Exchange de uma política de retenção
 
-Usando o PowerShell, você pode excluir tipos específicos de itens do Exchange a partir de uma política de retenção. Por exemplo, você pode excluir mensagens de caixa postal, conversas de mensagens instantâneas e outros conteúdos do Skype for Business Online nas caixas de correio. Você também pode excluir o calendário, anotações e itens de tarefas. Esse recurso está disponível apenas no Windows PowerShell; não está disponível na interface de usuário quando você cria uma política de retenção usando o assistente no Centro de Conformidade do Microsoft 365.
+Usando o Windows PowerShell, você pode excluir tipos específicos de itens do Exchange a partir de uma política de retenção quando as configurações de retenção são para reter somente. Por exemplo, você pode excluir mensagens de caixa postal, conversas de mensagens instantâneas e outros conteúdos do Skype for Business Online nas caixas de correio. Você também pode excluir o calendário, anotações e itens de tarefas. Esse recurso está disponível apenas no Windows PowerShell; não está disponível na interface de usuário quando você cria uma política de retenção usando o assistente no Centro de Conformidade do Microsoft 365.
   
 Para excluir os tipos selecionados para itens do Exchange em uma política de retenção, use o parâmetro `ExcludedItemClasses` com os cmdlets [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule) e  [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule).
 
 Para usar os cmdlets de políticas de retenção, você dever primeiro [conectar-se com o Centro de Segurança e Conformidade do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps).
 
-### <a name="when-a-user-leaves-the-organization"></a>Quando um usuário sair da organização 
+## <a name="when-a-user-leaves-the-organization"></a>Quando um usuário sair da organização 
 
 Se um usuário deixar sua organização e a caixa de correio do usuário for incluída em uma política de retenção, ela se tornará uma caixa de correio inativa quando a conta do Microsoft 365 do usuário for excluída. O conteúdo de uma caixa de correio inativa ainda está sujeito a qualquer política de retenção que tenha sido aplicada a essa caixa antes dela se tornar inativa, e ele fica disponível para uma pesquisa de descoberta eletrônica. Para saber mais, confira [Caixas de correio inativas no Exchange Online](inactive-mailboxes-in-office-365.md). 
 

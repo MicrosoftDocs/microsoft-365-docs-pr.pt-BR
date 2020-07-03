@@ -16,17 +16,17 @@ search.appverid:
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: Aprenda a usar o Gerenciamento de conformidade no Portal do Microsoft Service Trust para satisfazer as exigências regulatórias e de proteção de dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 071da43244f2afae3df29ec84ae98713ed0dc2d7
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: aedadc682bd45f363f1e97599383dd901c3eae7f
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44815592"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016252"
 ---
 # <a name="microsoft-compliance-manager-classic"></a>Gerenciador de conformidade da Microsoft (Clássico)
 
 > [!NOTE]
-> Esta documentação descreve uma versão anterior deste produto. Os usuários são aconselhados a não usar esta versão do Gerenciador de Conformidade e, em vez disso, a usar a [Pontuação de Conformidade da Microsoft](compliance-score.md).
+> Esta documentação descreve uma versão anterior deste produto. Os usuários *são fortemente desencorajados a usar esta versão do Gerenciador de conformidade*. **Se você estiver usando a versão de visualização atual do Gerenciador de conformidade, confira a documentação do [Gerenciador de conformidade (visualização)](working-with-compliance-manager.md).**
 
  *O Gerenciador de Conformidade não está disponível no Office 365 operado pela 21Vianet, Office 365 Germany, Office 365 US Government Community High (GCC High) ou Office 365 Department of Defense.*
   
@@ -227,7 +227,7 @@ Ao avaliar cada controle usando esses fatores, determinamos a essência do contr
   
  **Ameaça**
   
-||||
+|<br>|<br>|<br>|
 |:-----|:-----|:-----|
 ||**Obrigatório** <br/> |**Opcional** <br/> |
 |**Preventivo** <br/> |Alto risco  <br/> |Médio risco  <br/> |
@@ -244,7 +244,7 @@ Ameaça refere-se a qualquer coisa que represente um risco ao padrão fundamenta
     
 A failure of any of these characteristics is considered a compromise of the system as a whole. Threats can come from both internal and external sources, and an actor's intent can be accidental or malicious. These factors are estimated in a threat matrix that assigns threat levels of either High, Moderate, or Low to each combination of scenarios.
 
-||**Interno**<br/>||**Externo**<br/>||||
+|<br>|**Interno**<br/>|<br>|**Externo**<br/>|<br>|<br>|<br>|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 ||*Mal-intencionado*<br/>|*Acidental*<br/>|*Mal-intencionado*<br/>|*Acidental*<br/>|||
 |**Confidencialidade**<br/>|(A, M ou B)  <br/> |(A, M ou B)  <br/> |(A, M ou B)  <br/> |(A, M ou B)|
