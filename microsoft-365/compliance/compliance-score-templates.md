@@ -14,18 +14,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Revise todos os modelos que estão prontos para uso para a configuração de avaliações na pontuação de conformidade da Microsoft (visualização).
-ms.openlocfilehash: 4bb4bd95bb9df98f081b2e7a60ae21a86dfdc048
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 9e40527b44bc5b9a7a926a32f6e5d107c257b7b7
+ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016560"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "45035616"
 ---
 # <a name="compliance-score-preview-templates"></a>Modelos de Pontuação de conformidade (visualização)
 
 ## <a name="templates-overview"></a>Visão geral de modelos
 
-A pontuação de conformidade fornece um conjunto abrangente de **modelos para a criação de avaliações**. Esses modelos podem ajudar sua organização a cumprir os requisitos nacionais, regionais e específicos do setor que regem a coleta e o uso de dados. Novos modelos são adicionados à medida que as regulamentações são aplicadas e atualizadas.
+A [Pontuação de conformidade](compliance-score.md) fornece um conjunto abrangente de **modelos para a criação de avaliações**. Esses modelos podem ajudar sua organização a cumprir os requisitos nacionais, regionais e específicos do setor que regem a coleta e o uso de dados. Novos modelos são adicionados à medida que as regulamentações são aplicadas e atualizadas.
 
 Você pode modificar qualquer um dos modelos abaixo para atender às necessidades da sua organização. Você também pode criar uma avaliação personalizada criando seu próprio modelo. 
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como o SharePoint Online detecta vírus em arquivos que os usuários carregam e impedem que os usuários baixem ou sincronizem os arquivos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6a47f52a30f90d7a19cc01dc9e14eb9b534ec244
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 60d696769ea402e6e2d0e52a1f6633e7962b8329
+ms.sourcegitcommit: f2275d2fbc17a8b5b5da723c7353d3f36c6fb2a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034945"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45029603"
 ---
 # <a name="virus-detection-in-sharepoint-online"></a>Detecção de vírus no SharePoint Online
 
@@ -62,4 +62,10 @@ Veja o que acontece:
 
 ## <a name="what-happens-when-the-onedrive-sync-client-tries-to-sync-an-infected-file"></a>O que acontece quando o cliente de sincronização do OneDrive tenta sincronizar um arquivo infectado?
 
-Se os usuários sincronizam arquivos com o novo cliente de sincronização do OneDrive (OneDrive. exe) ou o cliente de sincronização anterior do OneDrive for Business (Groove. exe), se um arquivo contiver um vírus, o cliente de sincronização não o baixará. O cliente de sincronização exibirá uma notificação informando que o arquivo não pode ser sincronizado.
+Se os usuários sincronizam arquivos com o novo cliente de sincronização do OneDrive (OneDrive.exe) ou com o cliente de sincronização anterior do OneDrive for Business (Groove.exe), se um arquivo contiver um vírus, o cliente de sincronização não o baixará. O cliente de sincronização exibirá uma notificação informando que o arquivo não pode ser sincronizado.
+
+## <a name="more-information"></a>Mais informações
+
+Confira [proteção contra ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide#requirements) e [ative a ATP para SharePoint, onedrive e Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/turn-on-atp-for-spo-odb-and-teams?view=o365-worldwide) para obter mais informações sobre como configurar o antivírus do SharePoint Online.
+
+

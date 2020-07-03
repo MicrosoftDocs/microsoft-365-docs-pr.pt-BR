@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Use a ferramenta de gerenciamento de descoberta eletrônica avançada para acessar e Pesquisar facilmente a atividade em seus responsáveis.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 29aee2498b21cc4535ffa82f91fdba05125c4d18
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: f9e96d0b5dd3bf42dbba56a6e1be91014485ce98
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819041"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024761"
 ---
 # <a name="view-custodian-audit-activity"></a>Exibir atividade de auditoria de responsáveis
 
@@ -39,9 +39,9 @@ Precisa descobrir se um usuário visualizou um documento específico ou apagou u
 
 1. Vá para **descoberta eletrônica > descoberta eletrônica avançada** e abra o caso.
   
-2. Clique na guia **responsáveis** .
+2. Clique na guia **fontes** .
   
-3. Selecione um dos responsáveis na lista e clique em **Exibir atividade de responsáveis** na página do menu suspenso.
+3. Na página **responsáveis** , selecione um Objectna lista e clique em **Exibir atividade de responsáveis** na página do menu suspenso.
 
     A página de pesquisa de atividades do responsáveis é exibida. Observação os responsáveis que você selecionou na etapa anterior são exibidos na caixa suspensa **responsáveis** . Você pode selecionar diferentes responsáveis na caixa suspensa, mas só pode pesquisar atividades de um único membro por vez.
 
@@ -49,15 +49,15 @@ Precisa descobrir se um usuário visualizou um documento específico ou apagou u
    
 4. Configure os seguintes critérios de pesquisa: 
       
-   a. **Atividades** -clique na lista suspensa para exibir as atividades que você pode pesquisar. Depois de executar a pesquisa, somente os registros de auditoria das atividades selecionadas são exibidos. Selecionar **Mostrar resultados de todas as atividades** exibirá os resultados de todas as atividades realizadas pelos responsáveis que correspondam aos outros critérios de pesquisa.
+   1. **Atividades** -clique na lista suspensa para exibir as atividades que você pode pesquisar. Depois de executar a pesquisa, somente os registros de auditoria das atividades selecionadas são exibidos. Selecionar **Mostrar resultados de todas as atividades** exibirá os resultados de todas as atividades realizadas pelos responsáveis que correspondam aos outros critérios de pesquisa.
 
       ![Lista de atividades](../media/CustodianActivityAudit.PNG)
       
-      b. **Data de início e data de término** -selecione um intervalo de data e hora para exibir os eventos que ocorreram dentro desse período. Os últimos sete dias são selecionados por padrão. A data e a hora são apresentadas no formato UTC (Tempo Universal Coordenado). O intervalo de datas máximo que você pode especificar é um ano.
+   1. **Data de início e data de término** -selecione um intervalo de data e hora para exibir os eventos que ocorreram dentro desse período. Os últimos sete dias são selecionados por padrão. A data e a hora são apresentadas no formato UTC (Tempo Universal Coordenado). O intervalo de datas máximo que você pode especificar é um ano.
       
-      c. **Responsáveis** – clique nesta caixa e selecione um ou mais responsáveis para exibir os resultados da pesquisa. Os registros de auditoria da atividade selecionada executada pelos usuários selecionados nesta caixa são exibidos na lista de resultados.
+   1. **Responsáveis** – clique nesta caixa e selecione um ou mais responsáveis para exibir os resultados da pesquisa. Os registros de auditoria da atividade selecionada executada pelos usuários selecionados nesta caixa são exibidos na lista de resultados.
       
-   5. Clique em   ![Botão Pesquisar](../media/SearchButton.PNG)  para executar a pesquisa usando seus critérios de pesquisa. Os resultados da pesquisa são carregados e após alguns momentos em que são exibidos em resultados na página de pesquisa de atividades do responsáveis. 
+5. Clique em ![Botão Pesquisar](../media/SearchButton.PNG)  para executar a pesquisa usando seus critérios de pesquisa. Os resultados da pesquisa são carregados e após alguns momentos em que são exibidos em resultados na página de pesquisa de atividades do responsáveis. 
 
 ## <a name="step-2-view-the-audit-log-search-results"></a>Etapa 2: exibir os resultados da pesquisa de log de auditoria
 

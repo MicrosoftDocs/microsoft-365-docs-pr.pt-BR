@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Agora, você pode aplicar políticas de DLP a chats e canais do Microsoft Teams. Leia este artigo para saber mais sobre como ele funciona.
-ms.openlocfilehash: 2e65800f747b4e6eae4e19e9da92ad2589ac0d4e
-ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
+ms.openlocfilehash: 58a96cea3a45fb640b06e09debd35dd005b15a32
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "44347850"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024721"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Prevenção de perda de dados e Microsoft Teams
 
@@ -113,8 +113,8 @@ Para realizar essa tarefa, você deve receber uma função que tenha permissões
 
 5. Na guia **escolher locais** , mantenha a configuração padrão de todos os locais ou selecione **deixe-me escolher locais específicos**e, em seguida, escolha **Avançar**.<br/>Se você escolher locais específicos, selecione-os para a política de DLP e, em seguida, escolha **Avançar**.<br/>![Locais de política de DLP](../media/dlp-teams-selectlocationsnewpolicy.png)<br/>
     > [!NOTE]
-    > Se você quiser garantir que os documentos que contêm informações confidenciais não sejam compartilhados inadequadamente, verifique se os **sites do SharePoint** e as **contas do onedrive** estão ativados, junto com **as mensagens de chat e de canal do teams**.
-    > Os canais no Microsoft Teams são fortemente dependentes da funcionalidade do Exchange Online. Verifique se o local de **email do Exchange** também está habilitado para as políticas que devem ser aplicadas ao conteúdo dos canais.  
+    > Se você quiser garantir que documentos que contenham informações confidenciais não sejam compartilhados inadequadamente no Microsoft Teams, certifique-se de que os **sites do SharePoint** e as **contas do onedrive** estejam ativados, junto com **as mensagens de chat e de canal do teams**.
+
 <br/>
 
 6. Na guia **configurações de política** , em **Personalizar o tipo de conteúdo que você deseja proteger**, mantenha as configurações simples padrão ou escolha **usar configurações avançadas**e, em seguida, escolha **Avançar**. Se você escolher configurações avançadas, você pode criar ou editar regras para sua política. (Para obter ajuda com isso, consulte [configurações simples vs. configurações avançadas](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings).)

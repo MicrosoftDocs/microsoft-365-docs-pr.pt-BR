@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use a ferramenta de adição em massa para adicionar rapidamente vários responsáveis e suas fontes de dados associadas a um caso na descoberta eletrônica avançada.
-ms.openlocfilehash: 921d4a1616d97f2adde7e40baa5c73f607c849b6
-ms.sourcegitcommit: 956dd3f87adb4e6173517550a662c3bacc2d2d79
+ms.openlocfilehash: ab9626be01814fa95a959141433b431df9bf7724
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44741636"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024661"
 ---
 # <a name="bulk-add-custodians-to-an-advanced-ediscovery-case"></a>Adicionar os responsáveis em massa a um caso de descoberta eletrônica avançada
 
@@ -37,7 +37,8 @@ Para casos de descoberta eletrônica avançada que envolvem muitos responsáveis
 
 4. Adicione as informações do custodial ao arquivo CSV e salve-o no computador local. Consulte a próxima seção para obter informações sobre as propriedades no arquivo CSV.
 
-5. Na guia **fontes** , clique em **importar os responsáveis** novamente. 
+5. Na guia **fontes** , clique em **importar os responsáveis** novamente.
+
 6. Na página de submenu, clique em **procurar** e carregar o arquivo CSV.
 
    Após o carregamento do arquivo CSV, um trabalho do BulkAddCustodian é criado e exibido na guia **trabalhos** . O trabalho valida os responsáveis e suas fontes de dados correspondentes e os adiciona à guia **responsáveis** na página de **fontes** do caso.

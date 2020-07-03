@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Saiba mais sobre os vários certificados, tecnologias e pacotes de criptografia TLS usados para criptografia no Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 298d73551b5eb3d7ad7121075b086ee4630562f4
-ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
+ms.openlocfilehash: 91fa21fff12c429032af6468ff3024acfc6ca2ab
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44739110"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024537"
 ---
 # <a name="technical-reference-details-about-encryption"></a>Detalhes técnicos de referência sobre criptografia
 
@@ -56,10 +56,9 @@ Desde 31 de outubro de 2018, o Office 365 não oferece mais suporte a TLS 1,0 e 
 
 Isso não significa que o Office 365 bloqueará as conexões TLS 1,0 e 1,1.
 
-O TLS 1,0 e o TLS 1,1 foram oficialmente preteridos nessas datas.
+Embora originalmente definimos uma data de 1º de junho de 2020 para TLS 1,0 e TLS 1,1 de substituição para ambientes do mundo e GCC, essa data não é mais válida. Isso se deve ao COVID-19. Quando tivermos uma nova data para essa substituição, iremos publicá-la aqui. 
 
-- 1º de junho de 2020 nos ambientes do mundo e do GCC.
-- 15 de janeiro de 2020 nos ambientes GCC High e DoD.
+Para ambientes GCC de alta e DoD, o canprovação oficial ocorreu em 15 de janeiro de 2020.
 
 Você deve certificar-se de que todas as combinações de servidor de cliente e de servidor do navegador usem o TLS 1,2 e os pacotes de codificação modernos para manter uma conexão segura com o Office 365 e os serviços do Microsoft 365. Você poderá ter que atualizar certas combinações de cliente-servidor e navegador-servidor. Para obter informações sobre como isso impacta, consulte [preparando-se para o uso obrigatório de TLS 1,2 no Office 365](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365).
   

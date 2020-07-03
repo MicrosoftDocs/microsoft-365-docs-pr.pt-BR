@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Projetar a pontuação de conformidade da Microsoft criando Avaliações para ajudá-lo a gerenciar a conformidade da sua organização.
-ms.openlocfilehash: 45a5e76aa4f6581146ded510f75d772c202751ee
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: 8b27267461e226a6db2173158d2d35238c0d5a5e
+ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023304"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "45035626"
 ---
 # <a name="customize-compliance-score-preview-with-assessments"></a>Personalizar a pontuação de conformidade (visualização) com avaliações
 
@@ -35,7 +35,7 @@ Todas as avaliações estão listadas na página avaliações. [Saiba mais](comp
 
 ## <a name="data-protection-baseline-default-assessment"></a>Avaliação padrão da linha de base da proteção de dados
 
-Para começar, a Microsoft fornece uma avaliação **padrão** em Pontuação de conformidade para você que contém a linha de base de proteção de dados do Microsoft 365. Essa linha de base é um conjunto de controles que inclui normas e padrões fundamentais para proteção de dados e governança de dados gerais. Essa linha de base desenha elementos primariamente da NIST CSF (National Institute of Standards and Technology cybersecurity Framework) e ISO (International Organization for Standardization), bem como do FedRAMP (programa de gerenciamento de riscos e autorização federal) e RGPD (regulamentação geral de proteção de dados da União Europeia).
+Para começar, a Microsoft fornece uma avaliação **padrão** em Pontuação de conformidade que contém a linha de base de proteção de dados do Microsoft 365. Essa linha de base é um conjunto de controles que inclui normas e padrões fundamentais para proteção de dados e governança de dados gerais. Essa linha de base desenha elementos primariamente da NIST CSF (National Institute of Standards and Technology cybersecurity Framework) e ISO (International Organization for Standardization), bem como do FedRAMP (programa de gerenciamento de riscos e autorização federal) e RGPD (regulamentação geral de proteção de dados da União Europeia).
 
 Essa avaliação é usada para calcular sua pontuação inicial na primeira vez que você chegar à pontuação de conformidade, antes de configurar qualquer outra avaliação. A pontuação de conformidade coleta os sinais iniciais de suas soluções da Microsoft 365. Você verá rapidamente como sua organização está realizando em relação aos principais padrões e regulamentos de proteção de dados e veja as ações sugeridas de melhoria a serem tomadas.
 
@@ -46,7 +46,7 @@ Como cada organização tem necessidades específicas, a pontuação de conformi
 Há três maneiras de configurar avaliações:
 
 1. Escolha uma avaliação pronto para usar.
-2. Modificar o modelo de uma avaliação para atender às suas necessidades.
+2. Modificar o [modelo de uma avaliação](compliance-score-templates.md) para atender às suas necessidades.
 3. Crie sua própria avaliação personalizada.
 
 Os usuários devem conter uma função de administrador global, administrador de conformidade, administrador de dados de conformidade ou administrador de segurança para criar ou modificar avaliações. Saiba mais sobre [funções e permissões](compliance-score-setup.md#set-user-permissions-and-assign-roles).

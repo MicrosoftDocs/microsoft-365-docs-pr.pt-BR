@@ -17,16 +17,16 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como exibir detalhes, editar e em massa editar a lista de responsáveis em uma ocorrência de descoberta eletrônica avançada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 895383f72259fa5e46a46df35925bcc73f62e3a5
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 95b7a7dbec5656a1ac0692ed465eb5a99d7ca11a
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034173"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024801"
 ---
 # <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>Gerenciar os responsáveis em uma ocorrência de descoberta eletrônica avançada
 
-A guia responsáveis em descoberta eletrônica avançada contém uma lista de todos os responsáveis que foram adicionados ao caso. Depois de adicionar os responsáveis a um caso, os detalhes sobre cada um são coletados automaticamente do Azure Active Directory e são exibidos na descoberta eletrônica avançada.
+A página responsáveis na guia **fontes** em uma ocorrência de descoberta eletrônica avançada contém uma lista de todos os responsáveis que foram adicionados ao caso. Depois de adicionar os responsáveis a um caso, os detalhes sobre cada um são coletados automaticamente do Azure Active Directory e são exibidos na descoberta eletrônica avançada.
 
 ![Gerenciar responsáveis](../media/CustodianDetails.PNG)
 
@@ -79,9 +79,9 @@ Para atualizar as fontes de dados associadas a um responsáveis:
 
 1. Vá para **descoberta eletrônica > descoberta eletrônica avançada** e abra o caso.
   
-2. Clique na guia **responsáveis** .
+2. Clique na guia **fontes** .
   
-3. Selecione um responsáveis na lista e clique em **Editar** na página do menu suspenso.
+3. Na página **responsáveis** , selecione um responsáveis na lista e clique em **Editar** na página do menu suspenso.
 
     ![Editar fontes de dados](../media/EditCustodianDataSource.PNG)
   
@@ -103,15 +103,17 @@ Para acionar o processo de reindexação para lidar com itens parcialmente index
 
 1. Vá para **descoberta eletrônica > descoberta eletrônica avançada** e abra o caso.
 
-2. Clique na **guia responsáveis**e selecione um dos responsáveis cujos dados devem ser reindexados. 
+2. Clique na guia **fontes** .
 
-3. Na página do menu suspenso, clique em **Atualizar índice**.
+3. Na página **responsáveis** , selecione os responsáveis cujos dados devem ser reindexados.
+
+4. Na página do menu suspenso, clique em **Atualizar índice**.
 
    Uma caixa de diálogo é exibida informando que o trabalho de índice foi criado.
 
 A reindexação dos dados dos responsáveis é um processo de execução demorada; o trabalho correspondente criado é chamado **de reindexação dos dados dos responsáveis**. Você pode acompanhar o progresso na guia **trabalhos** ou na guia **responsáveis** monitorando o status na coluna **status do trabalho de indexação** .
 
-Para saber mais, confira:
+Para saber mais, veja:
 
 - [Trabalhar com erros de processamento](processing-data-for-case.md)
 
@@ -127,9 +129,9 @@ Para liberar um responsáveis:
 
 1. Vá para **descoberta eletrônica > descoberta eletrônica avançada** e abra o caso.
 
-2.    Vá para a guia **responsáveis** .
+2. Clique na guia **fontes** .
 
-3.    Clique na **guia responsáveis**e selecione os responsáveis que estão sendo liberados do caso.
+3. Na página **responsáveis** e selecione os responsáveis que estão sendo liberados do caso.
 
 4. Na página do menu suspenso, clique em **liberar responsáveis**.
 

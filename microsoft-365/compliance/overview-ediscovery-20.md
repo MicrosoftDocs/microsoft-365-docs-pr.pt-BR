@@ -17,19 +17,19 @@ search.appverid:
 ms.assetid: ''
 description: Este artigo fornece uma visão geral da descoberta eletrônica avançada no Microsoft 365, uma ferramenta para investigações internas e externas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84fbf3bbdc4a4ee08901001f7898355e4c8b2705
-ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
+ms.openlocfilehash: 5adf2a62aad5e7da476c2713fa18f9e8b6ab9329
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44322036"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024781"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Visão geral da solução de descoberta eletrônica avançada no Microsoft 365
 
 A solução de descoberta eletrônica avançada no Microsoft 365 baseia-se nos recursos de descoberta eletrônica e análise existentes no Office 365. Essa nova solução, chamada de *descoberta eletrônica avançada*, fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar conteúdo que responde às investigações internas e externas da sua organização. Também permite que as equipes jurídicas gerenciem todo o fluxo de trabalho de notificação de retenção legal para se comunicarem com os responsáveis envolvidos em um caso. 
 
 > [!NOTE]
-> A descoberta eletrônica avançada requer uma assinatura empresarial do Office 365 ou do Microsoft 365 e5. Para obter mais detalhes sobre licenciamento de descoberta eletrônica avançada, consulte [o guia de licenciamento do Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-ediscovery).
+> A descoberta eletrônica avançada requer uma assinatura empresarial do Office 365 ou do Microsoft 365 e5. Para obter mais informações sobre licenciamento de descoberta eletrônica avançada, consulte [o guia de licenciamento do Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-ediscovery).
 
 ## <a name="alignment-with-edrm"></a>Alinhamento com EDRM
 
@@ -59,13 +59,13 @@ Em um nível alto, veja como a descoberta eletrônica avançada é compatível c
 
 As seções a seguir descrevem cada etapa no fluxo de trabalho interno na descoberta eletrônica avançada. A captura de tela a seguir mostra a guia **página inicial** de uma ocorrência chamada *responsabilidade do produto 2019002*. Observação as guias de fluxo de trabalho na parte superior da página são sequenciadas para alinhar-se com o processo EDRM. 
 
-Para obter mais informações sobre o fluxo de trabalho de ponta a ponta na descoberta eletrônica avançada, consulte este [vídeo da Microsoft mecânica](https://go.microsoft.com/fwlink/?linkid=2066133). 
+Para obter mais informações sobre o fluxo de trabalho de ponta a ponta na descoberta eletrônica avançada, consulte este [vídeo da Microsoft mecânica](https://go.microsoft.com/fwlink/?linkid=2066133).
 
 ![Guias em descoberta eletrônica avançada seguem o fluxo de trabalho do EDRM](../media/aedisco-homepage-1.png)
 
-## <a name="managing-custodians"></a>Gerenciando os responsáveis
+## <a name="managing-custodians-and-non-custodial-data-sources"></a>Gerenciando os responsáveis e as fontes de dados não custodial
 
-Use a guia **responsáveis** para adicionar e gerenciar as pessoas que você identificou como pessoas de interesse no caso. Ao adicionar os responsáveis, você pode executar rapidamente ações relacionadas a responsáveis, como colocar um controle legal nas fontes de dados do Object, comunicar-se com os responsáveis e Pesquisar fontes de dados do mesmo para coletar conteúdo relevante para o caso. À medida que o caso avança, é fácil adicionar novos responsáveis ou liberar responsáveis da ocorrência. Para obter mais informações, consulte [trabalhar com os responsáveis na descoberta eletrônica avançada](managing-custodians.md).
+Use a guia **fontes** para adicionar e gerenciar as pessoas que você identificou como pessoas de interesse no caso e outras fontes de dados que podem não estar associadas a um. Ao adicionar qualificações ou fontes de dados não-custodial, você pode rapidamente realizar ações como colocar um bloqueio legal em fontes de dados não-custodial, comunicar-se com os responsáveis e Pesquisar fontes de dados de usuários não custodial para coletar conteúdo relevante para o caso. À medida que o caso avança, é fácil adicionar novos responsáveis ou fontes de dados não custodial ou liberá-los do caso. Para obter mais informações, consulte [trabalhar com os responsáveis na descoberta eletrônica avançada](managing-custodians.md).
 
 ## <a name="managing-legal-hold-notifications"></a>Gerenciando notificações de retenção legal
 
@@ -85,7 +85,7 @@ Use a guia **pesquisas** para criar pesquisas a fim de Pesquisar as fontes de da
 
 ## <a name="reviewing-and-analyzing-case-data"></a>Revisando e analisando dados de caso
 
-Use a guia **conjuntos de revisão** para analisar e analisar o conteúdo que você coletou do sistema em tempo real e adicionado a um conjunto de revisão. Um *conjunto de revisão* é uma coleção estática desses dados (em outras palavras, uma cópia offline de dados) de dados do custodial (e, se aplicável, dados não custodial) que você coletou na fase anterior do fluxo de trabalho de descoberta eletrônica. Quando você adiciona resultados de pesquisa a um conjunto de revisão, um processo é disparado que extrai arquivos de contêineres, extrai metadados e extrai texto. Quando esse processo é concluído, o sistema cria um novo índice de todos os dados coletados de responsáveis e os adiciona ao conjunto de revisão. Depois que os dados são adicionados ao conjunto de revisão, você pode executar mais consultas para restringir os dados de caso, exibir dados como texto ou no formato de arquivo nativo, e anotar, redigir e marcar documentos no conjunto de revisão. Você também pode executar análises avançadas, como identificar duplicação de documentos, threads de email e temas. Após a remoção dos dados para o que for relevante para o caso, você pode baixar documentos diretamente ou exportá-los junto com metadados, anotações e marcas de arquivo. Para saber mais, confira:
+Use a guia **conjuntos de revisão** para analisar e analisar o conteúdo que você coletou do sistema em tempo real e adicionado a um conjunto de revisão. Um *conjunto de revisão* é uma coleção estática desses dados (em outras palavras, uma cópia offline de dados) de dados do custodial (e, se aplicável, dados não custodial) que você coletou na fase anterior do fluxo de trabalho de descoberta eletrônica. Quando você adiciona resultados de pesquisa a um conjunto de revisão, um processo é disparado que extrai arquivos de contêineres, extrai metadados e extrai texto. Quando esse processo é concluído, o sistema cria um novo índice de todos os dados coletados de responsáveis e os adiciona ao conjunto de revisão. Depois que os dados são adicionados ao conjunto de revisão, você pode executar mais consultas para restringir os dados de caso, exibir dados como texto ou no formato de arquivo nativo, e anotar, redigir e marcar documentos no conjunto de revisão. Você também pode executar análises avançadas, como identificar duplicação de documentos, threads de email e temas. Após a remoção dos dados para o que for relevante para o caso, você pode baixar documentos diretamente ou exportá-los junto com metadados, anotações e marcas de arquivo. Para saber mais, veja:
 
 - [Exibir documentos em um conjunto de revisão](view-documents-in-review-set.md)
 

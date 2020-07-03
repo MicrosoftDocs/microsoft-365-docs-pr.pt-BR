@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: Entenda como a pontuação de conformidade da Microsoft calcula uma pontuação personalizada com base nas ações tomadas para lidar com riscos e aprimorar a postura de conformidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 552f2f85c4659ec24bc717d41c71733764d898ed
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: 69b631dc355ff497d0f6042e0cce6aff3d70e557
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023242"
+ms.locfileid: "45024671"
 ---
 # <a name="compliance-score-preview-calculation"></a>Cálculo da Pontuação de conformidade (visualização)
 
@@ -74,7 +74,7 @@ As ações são atribuídas a um valor de pontuação com base no fato de serem 
 
  - As **ações obrigatórias** não podem ser ignoradas intencionalmente ou acidentalmente. Um exemplo é uma política de senha gerenciada centralmente que define os requisitos de tamanho, complexidade e validade da senha. Os usuários devem seguir estes requisitos para acessar o sistema.
   
- - **Ações discricionárias** dependem de usuários para entender a política e agir de acordo. Por exemplo, uma política que exija que os usuários bloqueiem seu computador quando deixam de ser um controle discricionário, pois ele se baseia no usuário.
+ - **Ações discricionárias** dependem de usuários para entender a política e agir de acordo. Por exemplo, uma política que exige que os usuários bloqueiem o computador quando deixam de ser uma ação arbitrária, pois ele se baseia no usuário.
   
 ### <a name="preventative-detective-and-corrective-actions"></a>Ações preventivas, de detecção e corretivas
   

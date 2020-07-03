@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como colocar suspensões em responsáveis e suas fontes de dados para preservar o conteúdo relevante para o caso de descoberta eletrônica avançada.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9f540877626d01652912038d69a83598af55ba1d
-ms.sourcegitcommit: ff1af42b036bfdf75729db8c78f10cf4642616ac
+ms.openlocfilehash: f56d12b6d69e56e85f0e7ad37fbf65746a1cff23
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44477157"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024731"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Gerenciar isenções na descoberta eletrônica avançada
 
@@ -37,13 +37,13 @@ Em alguns casos, você pode ter um conjunto de responsáveis que você identific
 Para exibir a política de retenção de responsáveis:
 
 1. No centro de conformidade da Microsoft 365, clique em **descoberta eletrônica > avançado** para exibir a lista de casos em sua organização.
-   
-2. Vá para a guia **responsáveis** para adicionar os responsáveis dentro do seu caso. Para saber como adicionar e colocar os responsáveis em espera dentro de um caso de descoberta eletrônica avançada, confira [Adicionar responsáveis a uma ocorrência de descoberta eletrônica avançada](add-custodians-to-case.md). Se você já tiver adicionado os responsáveis e os colocou em espera, vá para a etapa 3.
-   
+
+2. Vá para a guia **fontes** para adicionar os responsáveis dentro do seu caso. Para saber como adicionar e colocar os responsáveis em espera dentro de um caso de descoberta eletrônica avançada, confira [adicionar os responsáveis a um caso](add-custodians-to-case.md). Se você já tiver adicionado os responsáveis e os colocou em espera, vá para a etapa 3.
+
 3. Vá até a guia **isenções** e clique **em \<HoldId> CustodianHold**.
-   
+
 4. Na página do menu suspenso, você pode ver estatísticas de retenção da política. Você também pode executar ações como aplicar uma consulta à sua retenção baseada em responsáveis. Para obter mais informações sobre como criar uma consulta de retenção e usar condições, consulte [keyword queries and Search Conditions for Content Search](keyword-queries-and-search-conditions.md).
- 
+
 ## <a name="manage-non-custodial-holds"></a>Gerenciar suspensões não custodial
 
 Ao criar uma isenção, você tem as seguintes opções para fazer o escopo do conteúdo mantido nos locais de conteúdo especificado:
@@ -70,19 +70,19 @@ Para criar uma isenção não custodial para um caso de descoberta eletrônica a
   
 8. Escolha os locais de conteúdo que você deseja colocar em espera. Você pode colocar caixas de correio, sites e pastas públicas em espera.
 
-   a. **Email do Exchange** -clique em **escolher usuários, grupos ou equipes** e, em seguida, clique em **escolher usuários, grupos ou equipes** novamente para especificar as caixas de correio a serem colocadas em espera. Use a caixa de pesquisa para localizar caixas de correio de usuários e grupos de distribuição (para colocar uma retenção nas caixas de correio dos membros do grupo) para colocar em espera. Você também pode colocar uma retenção na caixa de correio associada para um grupo do Microsoft 365 ou uma equipe da Microsoft. Marque a caixa de seleção usuário, grupo, equipe, clique em **escolher**e em **concluído**.
+   1. **Email do Exchange** -clique em **escolher usuários, grupos ou equipes** e, em seguida, clique em **escolher usuários, grupos ou equipes** novamente para especificar as caixas de correio a serem colocadas em espera. Use a caixa de pesquisa para localizar caixas de correio de usuários e grupos de distribuição (para colocar uma retenção nas caixas de correio dos membros do grupo) para colocar em espera. Você também pode colocar uma retenção na caixa de correio associada para um grupo do Microsoft 365 ou uma equipe da Microsoft. Marque a caixa de seleção usuário, grupo, equipe, clique em **escolher**e em **concluído**.
  
-    > [!NOTE]
-    > Ao clicar em **escolher usuários, grupos ou equipes** para especificar as caixas de correio que serão colocadas em espera, o seletor de caixa de correio exibido estará vazio. Isso foi desenvolvido para melhorar o desempenho. Para adicionar pessoas a esta lista, digite um nome (no mínimo 3 caracteres) na caixa de pesquisa.
+      > [!NOTE]
+      > Ao clicar em **escolher usuários, grupos ou equipes** para especificar as caixas de correio que serão colocadas em espera, o seletor de caixa de correio exibido estará vazio. Isso foi desenvolvido para melhorar o desempenho. Para adicionar pessoas a esta lista, digite um nome (no mínimo 3 caracteres) na caixa de pesquisa.
 
-    b. **Sites do SharePoint** -clique em **escolher sites** e, em seguida, clique em **escolher sites** novamente para especificar o SharePoint e os sites do onedrive for Business para colocar em espera. Digite a URL de cada site que você deseja colocar em retenção. Você também pode adicionar a URL do site do SharePoint para um grupo do Microsoft 365 ou uma equipe da Microsoft. Clique em **escolher**e em **concluído**.
+   1. **Sites do SharePoint** -clique em **escolher sites** e, em seguida, clique em **escolher sites** novamente para especificar o SharePoint e os sites do onedrive for Business para colocar em espera. Digite a URL de cada site que você deseja colocar em retenção. Você também pode adicionar a URL do site do SharePoint para um grupo do Microsoft 365 ou uma equipe da Microsoft. Clique em **escolher**e em **concluído**.
     
-     Consulte a seção **perguntas frequentes** para obter dicas sobre como colocar os grupos do Microsoft 365 e o Microsoft Teams em espera.
+      Consulte a seção **perguntas frequentes** para obter dicas sobre como colocar os grupos do Microsoft 365 e o Microsoft Teams em espera.
 
-    > [!NOTE]
-    > A URL de uma conta do usuário do OneDrive inclui o nome principal do usuário (por exemplo, `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). No caso raro que o UPN de uma pessoa seja alterado, a URL do OneDrive também será alterada para incorporar o novo UPN. Se a conta do OneDrive de um usuário fizer parte de uma retenção não custodial e seu UPN for alterado, você precisará atualizar a isenção e apontar para a nova URL do OneDrive. Para saber mais, confira [Como as alterações de UPN afetam a URL do OneDrive](https://docs.microsoft.com/onedrive/upn-changes).
+      > [!NOTE]
+      > A URL de uma conta do usuário do OneDrive inclui o nome principal do usuário (por exemplo, `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). No caso raro que o UPN de uma pessoa seja alterado, a URL do OneDrive também será alterada para incorporar o novo UPN. Se a conta do OneDrive de um usuário fizer parte de uma retenção não custodial e seu UPN for alterado, você precisará atualizar a isenção e apontar para a nova URL do OneDrive. Para saber mais, confira [Como as alterações de UPN afetam a URL do OneDrive](https://docs.microsoft.com/onedrive/upn-changes).
 
-     c. **Pastas públicas do Exchange** -mova o comutador alternar para a posição All para colocar todas as pastas públicas em sua organização do Exchange Online em espera. Observe que você não pode escolher pastas públicas específicas para colocar em espera. Deixe a opção de alternância definida como **nenhuma** se você não quiser colocar uma retenção em pastas públicas.
+   1. **Pastas públicas do Exchange** -mova o comutador alternar para a posição All para colocar todas as pastas públicas em sua organização do Exchange Online em espera. Observe que você não pode escolher pastas públicas específicas para colocar em espera. Deixe a opção de alternância definida como **nenhuma** se você não quiser colocar uma retenção em pastas públicas.
 
 9. Quando você terminar de adicionar locais de conteúdo à isenção, clique em **Avançar**.
   
@@ -126,7 +126,7 @@ O Microsoft Teams é desenvolvido em grupos do Office 365. Portanto, colocá-los
   - Execute o cmdlet **Get-unificado** no Exchange Online para exibir as propriedades de um grupo do Microsoft 365 ou Microsoft Team. Essa é uma boa maneira de obter a URL do site que está associado a um grupo do Microsoft 365 ou a uma equipe da Microsoft. Por exemplo, o comando abaixo exibe as propriedades selecionadas para um grupo do Microsoft 365 chamado de Equipe de Liderança Sênior:
 
 
-    ```text
+    ```console
     Get-UnifiedGroup "Senior Leadership Team" | FL DisplayName,Alias,PrimarySmtpAddress,SharePointSiteUrl
     DisplayName            : Senior Leadership Team
     Alias                  : seniorleadershipteam

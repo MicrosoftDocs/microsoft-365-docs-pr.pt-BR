@@ -14,21 +14,21 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: 'Resumo: entenda a resiliência de dados no Microsoft Office 365.'
-ms.openlocfilehash: e69d35f08070e1fe092ca8a9b4aef6d179711121
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 4759cfda13ab5044ddf5980d7e61004e9e7626fa
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717342"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024771"
 ---
 # <a name="service-encryption"></a>Criptografia de serviço
 
 Além de usar a criptografia no nível do volume, o Exchange Online, o Skype for Business, o SharePoint Online e o OneDrive for Business também usam a criptografia de serviço para criptografar os dados do cliente. A criptografia de serviço permite duas opções de gerenciamento de chave:
 
-## <a name="microsoft-managed-keys"></a>Chaves gerenciadas pela Microsoft: 
+## <a name="microsoft-managed-keys"></a>Chaves gerenciadas pela Microsoft
 A Microsoft gerencia todas as chaves criptográficas, incluindo as chaves raiz para a criptografia de serviço. Essa opção está atualmente disponível no SharePoint Online e no OneDrive for Business. Essa opção está sendo distribuída no momento para o Exchange Online. As chaves gerenciadas pela Microsoft fornecem criptografia de serviço padrão, a menos que você decida usar a chave do cliente. Se, mais tarde, você optar por parar de usar a chave do cliente sem seguir o caminho de limpeza de dados, seus dados permanecerão criptografados usando as chaves gerenciadas pela Microsoft. Seus dados são sempre criptografados no nível padrão no mínimo. 
 
-## <a name="customer-key"></a>Chave do cliente: 
+## <a name="customer-key"></a>Chave de Cliente
 Você fornece chaves raiz usadas com a criptografia de serviço e gerencia essas chaves usando o Azure Key Vault. A Microsoft gerencia todas as outras chaves. Essa opção é chamada de chave do cliente e está disponível atualmente para o Exchange Online, o SharePoint Online e o OneDrive for Business. (Conhecido anteriormente como criptografia avançada com o BYOK. Consulte [aprimorando a transparência e o controle para clientes do Office 365](https://blogs.office.com/2015/04/21/enhancing-transparency-and-control-for-office-365-customers/) para o anúncio original.
 
 A criptografia de serviço oferece vários benefícios. Por exemplo, chave de cliente:

@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Saiba como definir políticas para barreiras de informações no Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 88ff728f00709707233b97586d1220ead76eca8c
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: a9f8635f65867eb9d9543cc23b984f181030a7f9
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817540"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024691"
 ---
 # <a name="define-information-barrier-policies"></a>Definir políticas de barreira de informações
 
@@ -161,7 +161,7 @@ Além de definir os segmentos usando "igual a" ou "não é igual a", você pode 
 |---------|---------|
 |`New-OrganizationSegment -Name "LocalFTE" -UserGroupFilter "Location -eq 'Local'" -and "Position -ne 'Temporary'"` |<p>Neste exemplo, definimos um segmento chamado *LocalFTE* que inclui pessoas que estão localizadas localmente e cujas posições não estão listadas como *temporárias*.    |
  |`New-OrganizationSegment -Name "Segment1" -UserGroupFilter "MemberOf -eq 'group1@contoso.com'' -and MemberOf -ne 'group3@contoso.com'"`|  <p>Neste exemplo, definimos um segmento chamado *Segment1* que inclui pessoas que são membros de group1@contoso.com e não membros de Group3@contoso.com.
-|`New-OrganizationSegment -Name "Segment2" -UserGroupFilter "MemberOf -eq 'group2@contoso.com'' -or MemberOf -ne 'group3@contoso.com'"` | Neste exemplo, definimos um segmento chamado *Segment2* que inclui pessoas que são membros de group2@contoso.com e não membros de Group3@contoso.com.
+|`New-OrganizationSegment -Name "Segment2" -UserGroupFilter "MemberOf -eq 'group2@contoso.com' -or MemberOf -ne 'group3@contoso.com'"` | Neste exemplo, definimos um segmento chamado *Segment2* que inclui pessoas que são membros de group2@contoso.com e não membros de Group3@contoso.com.
 |`New-OrganizationSegment -Name "Segment1and2" -UserGroupFilter "(MemberOf -eq 'group1@contoso.com' -or MemberOf -eq 'group2@contoso.com') -and MemberOf -ne 'group3@contoso.com'"`|  Neste exemplo, definimos um segmento chamado *Segment1and2* que inclui membros de pessoas de group1@contoso.com e group2@contoso.com e não membros de Group3@contoso.com.
 
 

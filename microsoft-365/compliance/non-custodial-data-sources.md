@@ -14,14 +14,13 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
-description: Você pode adicionar fontes de dados não-custodial a um caso de descoberta eletrônica avançada e colocar uma retenção na fonte de dados. As fontes de dados não custodial são indexadas novamente, de forma que qualquer conteúdo considerado parcialmente indexado é reprocessado para torná-la totalmente e rapidamente pesquisável.
-ms.openlocfilehash: 618d39bfb7be6cd260c88cdf4c57501747f440f1
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+description: Você pode adicionar fontes de dados não-custodial a um caso de descoberta eletrônica avançada e colocar uma retenção na fonte de dados. As fontes de dados não-custodial são reindexada, de forma que qualquer conteúdo considerado parcialmente indexado é reprocessado para torná-la totalmente e rapidamente pesquisável.
+ms.openlocfilehash: 2009a8cc82dc9407e9871409e85cdcd321ea9bb0
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695493"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024741"
 ---
 # <a name="add-non-custodial-data-sources-to-an-advanced-ediscovery-case"></a>Adicionar fontes de dados não custodial a uma ocorrência de descoberta eletrônica avançada
 
@@ -47,7 +46,7 @@ Siga estas etapas para adicionar e gerenciar fontes de dados não custodial em u
 
    Cada fonte de dados não-custodial adicionada é listada na página **fontes de dados** .
 
-   Além disso, um trabalho chamado *reindexação de dados não-custodial* é criado e exibido na guia **trabalhos** do caso. Depois que o trabalho é criado, o processo de indexação avançada em iniciado e as fontes de dados são re-indexado.
+   Além disso, um trabalho chamado *reindexação de dados não-custodial* é criado e exibido na guia **trabalhos** do caso. Depois que o trabalho é criado, o processo de indexação avançada em iniciado e as fontes de dados são reindexados.
 
 ## <a name="managing-the-hold-on-non-custodial-data-sources"></a>Gerenciando a espera em fontes de dados não-custodial
 

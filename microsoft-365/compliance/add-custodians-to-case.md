@@ -17,55 +17,54 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como usar a ferramenta de gerenciamento de responsáveis interna na descoberta eletrônica avançada para coordenar seus fluxos de trabalho e identificar fontes de dados relevantes em um caso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: adf5df3bba1956ab1bb658590c1fcf9d4f5a814d
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 5b64bb288e94c345cc373b0d800bc0349895f7d3
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818608"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024701"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>Adicionar responsáveis a uma ocorrência de descoberta eletrônica avançada
 
 Use a ferramenta interna de gerenciamento de responsáveis em descoberta eletrônica avançada para coordenar seus fluxos de trabalho em torno do gerenciamento de responsáveis e pela identificação de fontes de dados relevantes, custodial, associadas a um caso. Quando você adiciona um profissional, o sistema pode identificar e colocar automaticamente uma retenção em sua caixa de correio do Exchange e na conta do OneDrive for Business. Durante o processo de descoberta de sua investigação, você também pode identificar outras fontes de dados (como caixas de correio, sites ou equipes) que um objectacessou ou contribuiu. Nessa situação, você pode usar a ferramenta de gerenciamento de responsáveis para associar essas fontes de dados a um determinado funcionário. Depois de adicionar os responsáveis a um caso e associar outra fonte de dados a eles, você pode preservar rapidamente os dados e Pesquisar os dados do custodial.
 
-Use o fluxo de trabalho a seguir para adicionar e gerenciar os responsáveis em casos de descoberta eletrônica avançada. 
+Use o fluxo de trabalho a seguir para adicionar e gerenciar os responsáveis em casos de descoberta eletrônica avançada.
 
-![Guia gerenciamento de responsáveis](../media/CustodianMgtPage.png)
+![Guia fontes na caixa de descoberta eletrônica avançada](../media/AeD-Sources-Tab.png)
 
 ## <a name="make-sure-you-have-the-necessary-permissions"></a>Verifique se você tem as permissões necessárias
 
 Para adicionar os responsáveis a um caso, você deve ser membro do grupo de função Gerenciador de descoberta eletrônica. Isso fornecerá as permissões necessárias para adicionar os responsáveis a um caso e colocará uma retenção nas fontes de dados do custodial.
-
 
 ## <a name="step-1-add-potential-custodians"></a>Etapa 1: Adicionar possíveis responsáveis
 
 A primeira etapa é identificar e adicionar os responsáveis à ocorrência.
 
 1. Na home page de **descoberta eletrônica avançada** , clique na ocorrência à qual você deseja adicionar os responsáveis. 
- 
-2. Clique na guia **responsáveis** e, em seguida, clique em **+ Adicionar responsáveis**.
+
+2. Clique na guia **fontes** e, em seguida, clique em **Adicionar responsáveis**.
 
 3. Encontre os responsáveis a adicionar à ocorrência. Digite a primeira parte do nome de uma pessoa para exibir os usuários do Azure Active Directory da sua organização. Quando encontrar a pessoa correta, clique em seu nome para adicioná-la à lista.
 
    ![Identificar possíveis responsáveis](../media/AddCustodianStep1.png)
- 
+
 4. Depois de adicionar todos os responsáveis relevantes, clique em **Avançar** para selecionar as fontes de dados principais dos responsáveis.
   
 ## <a name="step-2-select-custodian-data-sources"></a>Etapa 2: selecionar fontes de dados de responsáveis
 
 Após adicionar os responsáveis, a ferramenta de responsáveis ajudará você a identificar as fontes de dados principais pertencentes a cada um dos responsáveis. Esses locais de dados são a caixa de correio do Exchange e a conta do OneDrive. 
 
-Para identificar as fontes de dados de responsáveis: 
+Para identificar as fontes de dados de responsáveis:
 
 1. Para selecionar a caixa de correio do Exchange para todos os responsáveis, marque a caixa de seleção **Exchange** na parte superior da coluna. Em seguida, você pode desmarcar a caixa de seleção de qualquer determinado membro para remover uma caixa de correio como um local do custodial. Como alternativa, você pode deixar a caixa de seleção **Exchange** na parte superior da coluna desmarcada e, em seguida, marcar a caixa de seleção para os responsáveis individuais. 
- 
+
    ![Selecionar fontes de dados do custodial](../media/AddCustodianStep2.png)
- 
+
 2. Repita a mesma coisa para as contas do OneDrives dos responsáveis. 
 
     Depois que você seleciona as fontes de dados do responsáveis, o sistema tenta automaticamente identificar e verificar essas fontes de dados e, em seguida, as adiciona à caixa como fontes de dados associadas aos responsáveis.
- 
-4. Clique em **Avançar** para iniciar a associação de fontes de dados adicionais aos responsáveis no caso.
+
+3. Clique em **Avançar** para iniciar a associação de fontes de dados adicionais aos responsáveis no caso.
 
 ## <a name="step-3-associate-additional-data-sources-to-a-custodian"></a>Etapa 3: associar fontes de dados adicionais a um funcionário
 
@@ -101,8 +100,8 @@ Depois de finalizar os responsáveis e as fontes de dados a serem adicionados ao
 
 Para colocar os responsáveis e as fontes de dados em retenção:
 
-1. Na página **colocar um bloqueio nos responsáveis selecionados** , marque a caixa de seleção **reter** na parte superior da coluna para colocar todos os responsáveis em espera. Você pode desmarcar a caixa de seleção para que todos os responsáveis específicos sejam removidos da isenção. Como alternativa, você pode deixar a caixa de seleção **reter** na parte superior da coluna desmarcada e, em seguida, marcar a caixa de seleção para os responsáveis individuais. 
- 
+1. Na página **colocar um bloqueio nos responsáveis selecionados** , marque a caixa de seleção **reter** na parte superior da coluna para colocar todos os responsáveis em espera. Você pode desmarcar a caixa de seleção para que todos os responsáveis específicos sejam removidos da isenção. Como alternativa, você pode deixar a caixa de seleção **reter** na parte superior da coluna desmarcada e, em seguida, marcar a caixa de seleção para os responsáveis individuais.
+
    ![Colocar suspensões](../media/AddCustodianStep5.PNG)
 
 2. Verifique as seleções de retenção de responsáveis e, em seguida, clique em **concluir**.
@@ -114,4 +113,3 @@ Depois que um Objectfor colocado em espera, uma política de retenção de respo
 1. Na **Home** Page do caso, clique na guia **isenções** e, em seguida, clique em **CustodianHold-GUID**,  
 
 2. Na página do menu suspenso, clique em **Editar retenção** para exibir todas as fontes de dados do responsáveis que são colocadas em espera.
-
