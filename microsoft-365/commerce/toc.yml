@@ -36,12 +36,14 @@
       href: subscriptions/manage-self-service-purchases-admins.md
 - name: Gerenciar licenças
   items:
-    - name: Gerencie licenças de assinatura
+    - name: Comprar ou remover licenças de assinatura
       href: licenses/buy-licenses.md
     - name: Atribuir licenças aos usuários
       href: ../admin/manage/assign-licenses-to-users.md
     - name: Cancelar a atribuição de licenças de usuários
       href: ../admin/manage/remove-licenses-from-users.md
+    - name: Migrar usuários para uma assinatura diferente
+      href: subscriptions/move-users-different-subscription.md
     - name: Entenda as assinaturas e licenças
       href: licenses/subscriptions-and-licenses.md
 - name: Contas e pagamentos
