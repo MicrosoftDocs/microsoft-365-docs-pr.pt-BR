@@ -217,7 +217,7 @@
               href: mtp/feedback.md
             - name: Gerenciar tíquetes pelo ServiceNow
               href: ./mtp/tickets.md
-    - name: Proteção Avançada contra Ameaças do Office 365
+    - name: Segurança do Office 365
       items:
         - name: Introdução
           items:
@@ -366,7 +366,7 @@
               href: ./office-365-security/security-dashboard.md
             - name: Exibir informações sobre arquivos mal-intencionados
               href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
-        - name: Proteção Avançada contra Ameaças
+        - name: Proteção Avançada contra Ameaças do Office 365
           href: ./office-365-security/office-365-atp.md
           items:
             - name: Veja as novidades
