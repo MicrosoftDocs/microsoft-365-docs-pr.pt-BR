@@ -809,28 +809,28 @@
   items:
     - name: Portal de Confiança do Serviço da Microsoft
       href: get-started-with-service-trust-portal.md
-    - name: Pontuação de Conformidade e Gerenciador de Conformidade
+    - name: Pontuação de Conformidade e Gerenciador de Conformidade (visualização)
       items:
-        - name: Pontuação de Conformidade (Visualização)
+        - name: Pontuação de Conformidade (visualização)
           href: compliance-score.md
-        - name: Configurar a Pontuação de Conformidade (Visualização)
+        - name: Configurar a Pontuação de Conformidade
           href: compliance-score-setup.md
-        - name: Trabalhando com a Pontuação de Conformidade (Visualização)
-          href: working-with-compliance-score.md
-        - name: Cálculo da Pontuação de Conformidade (Visualização)
+        - name: Personalizar a Pontuação de Conformidade com avaliações
+          href: compliance-score-assessments.md
+        - name: Atribuir e executar trabalho com ações de melhoria
+          href: compliance-score-improvement-actions.md
+        - name: Como a pontuação é calculada
           href: compliance-score-methodology.md
-        - name: Notas de versão da Pontuação de Conformidade (Visualização)
-          href: compliance-score-release-notes.md
-        - name: Perguntas e respostas da Pontuação de Conformidade (Visualização)
+        - name: Perguntas frequentes (FAQ)
           href: compliance-score-faq.md
-        - name: Gerenciador de Conformidade (Visualização)
+        - name: Gerenciador de Conformidade (visualização)
           href: compliance-manager-overview.md
           items:
-            - name: Novidades do Gerenciador de Conformidade (Visualização)
+            - name: Novidades do Gerenciador de Conformidade (visualização)
               href: compliance-manager-release-notes.md
-            - name: Trabalhar com o Gerenciador de Conformidade (Visualização)
+            - name: Trabalhar com o Gerenciador de conformidade (visualização)
               href: working-with-compliance-manager.md
-            - name: Gerenciador de Conformidade (Clássico)
+            - name: Gerenciador de Conformidade (clássico)
               href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: Ferramenta de solicitação de dados RGPD do indivíduo
       href: manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md
