@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/20/2019
+ms.date: 05/26/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -20,18 +20,18 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 65a6d687-a16a-4415-9fd5-011ba9c5fd80
 description: 'Resumo: configure a autenticação federada para o seu ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: b0aa967570c3d12554cdb273a8b39b8931af1fbd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: efe2e196b95feff2aab1577f8e5d3ee29b5e39ba
+ms.sourcegitcommit: 330e9baf02b5bc220d61f777c2338814459626ec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634093"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44385057"
 ---
 # <a name="federated-identity-for-your-microsoft-365-test-environment"></a>Identidade federada para o seu ambiente de teste do Microsoft 365
 
 *Este Guia de Laboratório de Testes pode ser usado para ambientes de teste corporativo do Microsoft 365 Enterprise e do Office 365.*
 
-O Microsoft 365 suporta a identidade federada. Isto significa que em vez de executar a validação das credenciais em si, o Microsoft 365 remete o utilizador de ligação a um servidor de autenticação federado que o Microsoft 365 confia. Se as credenciais do usuário estiverem corretas, o servidor de autenticação federado emite um token de segurança que, por sua vez, o cliente envia ao Microsoft 365 como prova de autenticação. A identidade federada permite o descarregamento e a ampliação da autenticação para uma inscrição no Microsoft 365 e cenários avançados de autenticação e segurança.
+Microsoft 365 supports federated identity. This means that instead of performing the validation of credentials itself, Microsoft 365 refers the connecting user to a federated authentication server that Microsoft 365 trusts. If the user's credentials are correct, the federated authentication server issues a security token that the client then sends to Microsoft 365 as proof of authentication. Federated identity allows for the offloading and scaling up of authentication for a Microsoft 365 subscription and advanced authentication and security scenarios.
   
 Este artigo descreve como você pode configurar a autenticação federada para o seu ambiente de teste do Microsoft 365 ou Office 365, resultando no seguinte:
 
@@ -41,7 +41,7 @@ Esta configuração consiste em:
   
 - Uma assinatura de avaliação ou de produção do Microsoft 365 E5 ou Office 365 E5.
     
-- Uma intranet simplificada da organização, conectada à Internet, consistindo em cinco máquinas virtuais na sub-rede de uma rede virtual Azure (DC1, APP1, CLIENT1, ADFS1 e PROXY1). O Azure AD Connect é executado no APP1 para sincronizar a lista de contas no domínio do Active Directory Domain Services ao Office 365. O PROXY1 recebe as solicitações de autenticação de entrada. O ADFS1 valida as credenciais com o DC1 e emite tokens de segurança.
+- A simplified organization intranet connected to the Internet, consisting of five virtual machines on a subnet of an Azure virtual network (DC1, APP1, CLIENT1, ADFS1, and PROXY1). Azure AD Connect runs on APP1 to synchronize the list of accounts in the Active Directory Domain Services domain to Office 365. PROXY1 receives the incoming authentication requests. ADFS1 validates credentials with DC1 and issues security tokens.
     
 Há cinco etapas para configurar esse ambiente de teste:
   
@@ -60,7 +60,7 @@ Há cinco etapas para configurar esse ambiente de teste:
   
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Fase 1: configurar a sincronização de hash de senha do ambiente de teste do Microsoft 365
 
-Siga as instruções em [sincronização de hash de senha para o Microsoft 365](password-hash-sync-m365-ent-test-environment.md). Aqui está a configuração resultante.
+Follow the instructions in [password hash synchronization for Microsoft 365](password-hash-sync-m365-ent-test-environment.md). Here is your resulting configuration.
   
 ![Empresa simulada com ambiente de teste de sincronização de hash de senha](../media/federated-identity-for-your-office-365-dev-test-environment/federated-tlg-phase1.png)
   
@@ -141,7 +141,7 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 > [!NOTE]
 > Um endereço IP estático público é atribuído ao PROXY1 porque você cria um registro DNS público que aponta para ele e não deverá ser alterado ao reiniciar a máquina virtual do PROXY1. 
   
-Em seguida, adicione uma regra ao grupo de segurança de rede para a sub-rede da CorpNet para permitir o tráfego de entrada não solicitada da Internet para o endereço IP particular do PROXY1 e da porta 443 de TCP. Execute esses comandos no prompt de comando do Azure PowerShell no computador local.
+Next, add a rule to the network security group for the CorpNet subnet to allow unsolicited inbound traffic from the Internet to PROXY1's private IP address and TCP port 443. Run these commands at the Azure PowerShell command prompt on your local computer.
   
 ```powershell
 $rgName="<the resource group name of your Base Configuration>"
@@ -166,7 +166,7 @@ Exiba o endereço IP público do PROXY1 com estes comandos do Azure PowerShell n
 Write-Host (Get-AzPublicIpaddress -Name "PROXY1-PIP" -ResourceGroup $rgName).IPAddress
 ```
 
-Em seguida, trabalhe com seu provedor de DNS público e crie um novo registro público de DNS A para **fs.testlab.** \<seu nome de domínio DNS> que resolve o endereço IP exibido pelo comando **Write-Host**. De agora em diante, o **fs.testlab.** \<seu nome de domínio DNS> é conhecido como o *FQDN do serviço de federação*.
+Next, work with your public DNS provider and create a new public DNS A record for **fs.testlab.**\<your DNS domain name> that resolves to the IP address displayed by the **Write-Host** command. The **fs.testlab.**\<your DNS domain name> is hereafter referred to as the  *federation service FQDN*.
   
 Em seguida, use o [portal do Azure](https://portal.azure.com) para se conectar à máquina virtual DC1 usando as credenciais CORP\\Usuário1 e execute este comando em um prompt de comando do Windows PowerShell de nível de administrador:
   
@@ -191,9 +191,9 @@ Depois crie a conta de serviço do AD FS usando esse comando no prompt de comand
 ```powershell
 New-ADUser -SamAccountName ADFS-Service -AccountPassword (read-host "Set user password" -assecurestring) -name "ADFS-Service" -enabled $true -PasswordNeverExpires $true -ChangePasswordAtLogon $false
 ```
-Observe que esse comando solicita que você forneça a senha da conta. Escolha uma senha forte e anote-a em um local seguro. Você precisará dela neste fase e na fase 5.
+Note that this command prompts you to supply the account password. Choose a strong password and record it in a secured location. You will need it for this phase and Phase 5.
   
-Use o [portal do Azure](https://portal.azure.com) para se conectar à máquina virtual ADFS1 usando as credenciais CORP\\Usuário1. Abra um prompt de comando do Windows PowerShell de nível de administrador no ADFS1, preencha o FQDN de serviço de Federação e execute estes comandos para criar um certificado autoassinado:
+Use the [Azure portal](https://portal.azure.com) to connect to the ADFS1 virtual machine using the CORP\\User1 credentials. Open an administrator-level Windows PowerShell command prompt on ADFS1, fill in your federation service FQDN, and then run these commands to create a self-signed certificate:
   
 ```powershell
 $fedServiceFQDN="<federation service FQDN>"
@@ -230,7 +230,7 @@ Em seguida, use estas etapas para salvar o novo certificado autoassinado como um
     
 13. Na página **Arquivo a Ser Exportado**, clique em **Avançar**.
     
-14. Na página **Concluindo o Assistente para Exportação de Certificados**, clique em **Concluir** e, quando solicitado, clique em **OK**.
+14. On the **Completing the Certificate Export Wizard** page, click **Finish**. When prompted, click **OK**.
     
 Depois instale o serviço do AD FS usando esse comando no prompt de comando do Windows PowerShell em ADFS1:
   
@@ -278,7 +278,7 @@ Em seguida, configure o serviço do AD FS com estas etapas:
     
 No [portal do Azure](https://portal.azure.com), conecte-se ao PROXY1 com as credenciais da conta CORP\\Usuário1.
   
-Em seguida, use estas etapas para instalar o certificado autoassinado e configurar o PROXY1.
+Em seguida, use estas etapas para instalar o certificado autoassinado em **ambos PROXY1 e APP1**.
   
 1. Clique em **Iniciar**, digite **mmc.exe** e pressione **Enter**.
     
@@ -387,13 +387,13 @@ Para demonstrar que a autenticação federada está funcionando, faça o seguint
   
 1. Abra uma nova instância privada no navegador do computador local e acesse [https://admin.microsoft.com](https://admin.microsoft.com).
     
-2. Como credenciais de entrada, digite **usuário1@**\<domínio criado na Fase 1 >. 
+2. Para as credenciais de entrada, digite **user1@**\<the domain created in Phase 1>. 
     
-    Por exemplo, se seu domínio de teste for **testlab.contoso.com**, digite usuário1@testlab.contoso.com. Pressione a tecla TAB ou deixe que o Microsoft 365 o redirecione automaticamente.
+    For example, if your test domain is **testlab.contoso.com**, you would type "user1@testlab.contoso.com". Press TAB or allow Microsoft 365 to automatically redirect you.
     
-    Agora você deverá ver a página **Sua conexão não é particular** porque você instalou o certificado autoassinado em ADFS1 que seu computador desktop não consegue validar. Em uma implantação de produção com autenticação federada, será necessário usar um certificado de autoridade de certificação confiável e os usuários não verão esta página.
+    You should now see a **Your connection is not private** page. You are seeing this because you installed a self-signed certificate on ADFS1 that your desktop computer cannot validate. In a production deployment of federated authentication, you would use a certificate from a trusted certification authority and your users would not see this page.
     
-3. Na página **Sua conexão não é particular**, clique em **Avançado** e em **Vá para \<FQDN do seu serviço de federação>**. 
+3. Na página **Sua conexão não é privada**, clique em **Avançado** e depois clique em**Vá para \<your federation service FQDN>**. 
     
 4. Na página com o nome da sua organização fictícia, entre com o seguinte:
     
@@ -403,7 +403,7 @@ Para demonstrar que a autenticação federada está funcionando, faça o seguint
     
     Você verá a **home page do Microsoft Office**.
     
-Esse procedimento demonstra que sua assinatura de avaliação está federada com o domínio AD DS corp.contoso.com hospedado no DC1. Aqui estão os conceitos básicos do processo de autenticação:
+This procedure demonstrates that your trial subscription is federated with the AD DS corp.contoso.com domain hosted on DC1. Here are the basics of the authentication process:
   
 1. Quando você usa o domínio federado criado na Fase 1 no nome da conta de login, o Microsoft 365 redireciona o navegador para o seu serviço de federação FQDN e PROXY1.
     
@@ -417,7 +417,7 @@ Esse procedimento demonstra que sua assinatura de avaliação está federada com
     
 6. O Microsoft 365 valida que o token de segurança foi criado pelo ADFS1 e permite o acesso.
     
-Sua assinatura de avaliação já está configurada com autenticação federada. Você pode usar esse ambiente de desenvolvimento/teste dos cenários de autenticação avançados.
+Your trial subscription is now configured with federated authentication. You can use this dev/test environment for advanced authentication scenarios.
   
 ## <a name="next-step"></a>Próxima etapa
 
