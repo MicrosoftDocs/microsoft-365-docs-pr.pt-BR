@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 05/27/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Garanta que seus funcionários remotos possam acessar recursos locais ao otimizar o acesso aos serviços em nuvem do Microsoft 365.
-ms.openlocfilehash: 363f2a5edb43d294be5a8ecfe0fd02964dd8b945
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 199dc6aa33134cfa0f9ac311d037a934c12ba3b9
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160745"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844973"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>Etapa 2. Fornecer acesso remoto a aplicativos e serviços locais
 
@@ -70,7 +70,11 @@ Estes são os componentes do Proxy de Aplicativo do Microsoft Azure Active Direc
 
 ![Componentes do Proxy de Aplicativo do Microsoft Azure Active Directory](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-application-proxy.png)
 
-Para obter mais informações, confira esta [visão geral do Proxy de Aplicativo do Microsoft Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy).
+Para obter mais informações, confira este [Visão geral sobre o Proxy do aplicativo Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy) e o vídeo da [Parte 3 sobre como usar o](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security)Proxy do aplicativo Azure Active Directory.
+
+>[!Note]
+>O Proxy do aplicativo Azure Active Directory não está incluído na assinatura do Microsoft 365. Você deve pagar por uso com uma assinatura separada do Azure.
+>
 
 ## <a name="deploy-remote-access-when-not-all-your-apps-are-web-apps"></a>Implantar o acesso remoto quando nem todos os seus aplicativos são aplicativos Web
 
@@ -82,13 +86,32 @@ Uma conexão VPN P2S cria uma conexão segura do dispositivo de um trabalhador r
 
 Para mais informações, confira esta [visão geral da VPN P2S](https://docs.microsoft.com/azure/vpn-gateway/point-to-site-about).
 
+>[!Note]
+>O Azure P2P VPN não está incluído na assinatura do Microsoft 365. Você deve pagar por uso com uma assinatura separada do Azure.
+>
+
 ## <a name="deploy-windows-virtual-desktop-to-provide-remote-access-for-remote-workers-using-personal-devices"></a>Implantar a Área de Trabalho Virtual do Windows para fornecer acesso remoto a trabalhadores remotos usando dispositivos pessoais 
 
-Para oferecer suporte a trabalhadores remotos que podem usar somente dispositivos pessoais e não gerenciados, use a Área de Trabalho Virtual do Windows no Azure para criar e alocar áreas de trabalho virtuais para seus usuários usarem em casa.
+Para oferecer suporte a trabalhadores remotos que podem usar somente dispositivos pessoais e não gerenciados, use a Área de Trabalho Virtual do Windows no Azure para criar e alocar áreas de trabalho virtuais para seus usuários usarem em casa. Os computadores virtualizados podem funcionar da mesma forma que os computadores conectados à sua organização.
 
-Os computadores virtualizados podem funcionar da mesma forma que os computadores conectados à sua organização.
+![Componentes da Área de Trabalho Virtual do Windows do Azure](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-windows-virtual-desktop.png)
 
-Para obter mais informações, confira esta [visão geral da Área de Trabalho Virtual do Windows](https://docs.microsoft.com/azure/virtual-desktop/overview).
+Para saber mais, confira: 
+
+- [Esta visão geral da Área de Trabalho Virtual do Windows](https://docs.microsoft.com/azure/virtual-desktop/overview).
+- [O vídeo da parte 2 sobre o uso da Área de Trabalho Virtual do Windows para funcionários remotos](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity).
+
+>[!Note]
+>A Área de Trabalho Virtual do Windows não está incluída na assinatura do Microsoft 365. Você deve pagar por uso com uma assinatura separada do Azure.
+>
+
+## <a name="protect-your-remote-desktop-services-connections-with-the-remote-desktop-services-gateway"></a>Proteja seus serviços de Área de trabalho remota com o Gateway dos serviços de área de trabalho remota.
+
+Se você estiver usando os Serviços de Área de Trabalho Remota da Microsoft (RDS) para permitir que os funcionários se conectem a computadores baseados no Windows em sua rede local, você deve usar um Gateway dos serviços de área de trabalho remota da Microsoft em sua rede Microsoft Edge. O gateway usa o protocolo SSL (Secure Sockets Layer) para criptografar as comunicações e impede que o sistema que hospeda o RDS seja exposto diretamente à Internet.
+
+![Conexões dos Serviços de Área de trabalho remota com o Gateway dos serviços de área de trabalho remota.](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-remote-desktop.png)
+
+Confira [este artigo](https://www.microsoft.com/security/blog/2020/04/16/security-guidance-remote-desktop-adoption/) para saber mais.
 
 ## <a name="admin-technical-resources-for-remote-access"></a>Recursos técnicos do administrador para acesso remoto
 
@@ -105,8 +128,9 @@ Após a implantação de uma solução de acesso remoto para seus trabalhadores 
 | Não existe uma solução VPN de acesso remoto instalada e você precisa de acesso remoto somente a aplicativos locais baseados na Web | Você configurou o Proxy de Aplicativo do Azure. |
 | Não existe uma solução VPN de acesso remoto instalada e você precisa acessar aplicativos locais, alguns dos quais não são baseados na Web | Você configurou a VPN P2S do Azure. |
 | Trabalhadores remotos estão usando seus dispositivos pessoais em casa | Você configurou a Área de Trabalho Virtual do Windows. |
+| Os funcionários remotos estão usando as conexões de RDS para os sistemas locais | Você implantou um Gateway dos Serviços de área de trabalho remota na rede Microsoft Edge. |
 |||
 
 ## <a name="next-step"></a>Próxima etapa
 
-Continue na [Etapa 3](empower-people-to-work-remotely-manage-endpoints.md) para gerenciar seus dispositivos, computadores e outros pontos de extremidade.
+Prossiga com a [etapa 3](empower-people-to-work-remotely-security-compliance.md) para implantar o Centro de segurança do Microsoft 365 e serviços de conformidade para proteger seus aplicativos, dados e dispositivos.
