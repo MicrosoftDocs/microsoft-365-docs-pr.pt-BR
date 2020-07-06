@@ -17,21 +17,20 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como usar o Explorer e as detecções em tempo real no centro de conformidade de segurança &amp; para investigar e responder a ameaças com eficácia e eficiência.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1aaff0662e549de3ea27db01df02ff34d192a96d
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: cf932db30feb3210b8980b95e666972cd3436dd0
+ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613439"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45039494"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
 Se sua organização tem a [proteção avançada contra ameaças do office 365](office-365-atp.md) (Office 365 ATP) e você tem as [permissões necessárias](#required-licenses-and-permissions), você tem as detecções do **Explorer** ou do **tempo real** (anteriormente conhecida como *relatórios em tempo real* , [consulte What ' s New](#new-features-in-threat-explorer-and-real-time-detections)!). No centro de conformidade & segurança, vá para **Gerenciamento de ameaças**e escolha as detecções do **Explorer** _ou_ **em tempo real**.
 
-|||
+| Com o plano ATP 2, você vê: | Com o plano ATP 1, você vê: |
 |---|---|
-|**Com o plano ATP 2, você vê:**|**Com o plano ATP 1, você vê:**|
-|![Explorador de ameaças](../../media/threatmgmt-explorer.png)|![Detecção em tempo real](../../media/threatmgmt-realtimedetections.png)|
+|![Explorador de ameaças](../../media/threatmgmt-explorer.png)|![Detecções em tempo real](../../media/threatmgmt-realtimedetections.png)|
 |
 
 Com o Explorer (ou detecções em tempo real), você tem um relatório poderoso que permite que sua equipe de operações de segurança investigue e responda às ameaças de forma eficaz e eficiente. O relatório é semelhante à seguinte imagem:
@@ -44,6 +43,43 @@ Com esse relatório, você pode:
 - [Exibir dados sobre URLs de phishing e clicar em veredicto](#view-data-about-phishing-urls-and-click-verdict)
 - [Iniciar um processo de investigação e resposta automatizado de um modo de exibição no Explorer](#start-automated-investigation-and-response) (apenas plano ATP 2)
 - ... [Investigue emails mal-intencionados e muito mais](#more-ways-to-use-explorer-or-real-time-detections)!
+
+## <a name="experience-improvements-to-threat-explorer-and-real-time-detections"></a>Aprimoramentos de experiência para o explorador de ameaças e detecções em tempo real
+
+Como parte do aprimoramento do processo de caça, fizemos algumas atualizações no Gerenciador de ameaças e nas detecções em tempo real. Eles são aprimoramentos de "experiência", com o objetivo de tornar a experiência de busca mais consistente. Essas alterações são descritas abaixo: 
+
+- [Melhorias de fuso horário](#timezone-improvements)
+- [Atualização no processo de atualização](#update-in-the-refresh-process)
+- [Detalhamento de gráfico para adicionar a filtros](#chart-drilldown-to-add-to-filters)
+- [Atualizações de informações do produto](#in-product-information-updates)
+
+### <a name="timezone-improvements"></a>Melhorias de fuso horário 
+
+Mostraremos o fuso horário dos registros de email no portal, bem como os dados exportados. O fuso horário ficará visível em experiências como grade de email, submenu de detalhes, linha do tempo de email e emails semelhantes, para que o fuso horário do conjunto de resultados seja claro para o usuário. 
+
+![Exibir fuso horário no Explorer](../media/TimezoneImprovements.png)
+
+### <a name="update-in-the-refresh-process"></a>Atualização no processo de atualização 
+
+Ouvimos comentários em relação à confusão com a atualização automática (por exemplo, para data, assim que você alterar a data, a página seria atualizada) e a atualização manual (para outros filtros). Da mesma forma, remover filtros leva à atualização automática, isso causa situações em que alterar os diferentes filtros enquanto modifica a consulta pode causar experiências de pesquisa inconsistentes. Para resolver isso, estamos migrando para um mecanismo de filtragem manual.
+A partir de um ponto de vista da experiência, o usuário pode aplicar e remover o intervalo diferente de filtros (do conjunto de filtros e data) e pressionar o botão atualizar para filtrar os resultados depois que eles forem feitos com a definição da consulta. O botão atualizar também foi atualizado para chamá-lo com clareza na tela. Também atualizamos as dicas de ferramentas e a documentação do produto em torno dessa alteração. 
+
+![Clique em atualizar para filtrar resultados](../media/ManualRefresh.png)
+
+### <a name="chart-drilldown-to-add-to-filters"></a>Detalhamento de gráfico para adicionar a filtros
+
+Agora, você poderá clicar nos valores de legenda do gráfico para adicionar esse valor como um filtro. Observe que você ainda terá que clicar no botão atualizar para filtrar os resultados como parte da alteração descrita acima.
+
+![Análise de gráficos para filtrar](../media/ChartDrilldown.png)
+
+### <a name="in-product-information-updates"></a>Atualizações de informações do produto 
+
+Você também deve ver detalhes adicionais no produto. Por exemplo, o número total de resultados de pesquisa dentro da grade (veja abaixo), bem como melhorias em relação a rótulos, mensagens de erro e dicas de ferramentas, para fornecer mais informações sobre filtros, experiência de pesquisa e conjunto de resultados. 
+
+![Exibir informações no produto](../media/ProductInfo.png)
+
+
+## <a name="new-features-in-real-time-detections"></a>Novos recursos em detecções em tempo real
 
 ## <a name="new-features-in-threat-explorer-and-real-time-detections"></a>Novos recursos no Gerenciador de ameaças e detecções em tempo real
 
@@ -68,20 +104,22 @@ Como isso é feito? O status de entrega agora é dividido em duas colunas:
 
 A ação de entrega é a ação realizada em um email devido a políticas ou detecções existentes. Veja a seguir as possíveis ações que um email pode executar:
 
-|||||
+|Gerados  |Lixo eletrônico  |Blocked  |Devido  |
+|---------|---------|---------|---------|
+|O email foi entregue à caixa de entrada ou pasta de um usuário, e o usuário pode acessá-lo diretamente.    | O email foi enviado à pasta de lixo eletrônico ou à pasta excluída do usuário, e o usuário tem acesso a emails nessas pastas.       | Todos os emails colocados em quarentena, que falharam ou foram descartados. Isso é completamente inacessível pelo usuário!     | Qualquer email onde anexos mal-intencionados são substituídos por arquivos. txt que indicam que o anexo era mal-intencionado.     |
+    
+
+| Gerados | Lixo eletrônico | Blocked | Devido |
 |---|---|---|---|
-|**Gerados**|**Lixo eletrônico**|**Blocked**|**Devido**|
 |O email foi entregue na caixa de entrada do usuário ou em outra pasta, e o usuário pode acessá-lo diretamente.| O email foi enviado para a pasta de lixo eletrônico do usuário ou para a pasta excluída e o usuário tem acesso a mensagens de email nessas pastas.| Qualquer mensagem de email em quarentena, que falhou ou foi interrompida, e não pode ser acessada pelo usuário.| Quaisquer mensagens de email em que anexos mal-intencionados foram substituídos por arquivos. txt que indicam que os anexos foram mal-intencionados.|
 |
 
 E aqui está o que o usuário pode ver e o que eles não podem:
 
-|||
+| Acessível para os usuários finais | Inacessível para os usuários finais |
 |---|---|
-|**Acessível para os usuários finais**|**Inacessível para os usuários finais**|
 |Gerados|Blocked|
 |Lixo eletrônico|Devido|
-|
 
 O local de entrega mostra os resultados das políticas e detecções que executam post-Delivery. Ele está vinculado a uma ação de entrega. Este campo foi adicionado para dar informações sobre a ação tomada quando um email de problema é encontrado. Estes são os possíveis valores de local de entrega:
 
@@ -114,7 +152,7 @@ Você pode obter o mesmo local no relatório de detecções em tempo real da seg
 > [!TIP]
 > Mapeamento de ID de mensagem de rede o clique em voltar para emails específicos quando você pesquisa pelo Explorer ou ferramentas de terceiros associadas via ID de mensagem de rede. A pesquisa da ID da mensagem de rede fornecerá aos administradores o email específico associado a um clique. Na exportação, a identificação de correlação da ID da mensagem de rede realiza uma análise mais rápida e eficiente.
 
-![tp_ExportClickResultAndNetworkID. png](../../media/tp_ExportClickResultAndNetworkID.png)
+![tp_ExportClickResultAndNetworkID.png](../../media/tp_ExportClickResultAndNetworkID.png)
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>Confira malware detectado em email por tecnologia
 
@@ -205,6 +243,7 @@ Além dos cenários descritos neste artigo, você tem muito mais opções de rel
 - [Localizar e investigar emails mal-intencionados entregues](investigate-malicious-email-that-was-delivered.md)
 - [Exibir arquivos mal-intencionados detectados no SharePoint Online, no OneDrive e no Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
 - [Obter uma visão geral dos modos de exibição no explorador de ameaças (e detecções em tempo real)](threat-explorer-views.md)
+- [Investigação e resposta automatizadas na Proteção contra Ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 
@@ -242,3 +281,4 @@ Para saber mais sobre funções e permissões, confira os seguintes recursos:
 - Mais recursos de filtragem e ações disponíveis estão incluídos no **Explorador de ameaças**.
 
 Para obter mais detalhes, consulte a [Descrição do serviço do Office 365 ATP: disponibilidade de recursos nos planos de proteção avançada contra ameaças (ATP)](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+

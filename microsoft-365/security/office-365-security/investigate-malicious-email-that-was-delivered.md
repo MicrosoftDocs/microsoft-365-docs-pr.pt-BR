@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como usar os recursos de investigação e resposta contra ameaças para encontrar e investigar emails mal-intencionados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 917534670485327de73f62852af3d8010fd49e40
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 0ac44ab06aaff1618df2dfc1485d15a68458f385
+ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034251"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45039407"
 ---
 # <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Investigue e corrija emails mal-intencionados que foram entregues no Office 365
 
@@ -39,7 +39,7 @@ Verifique se os seguintes requisitos são atendidos:
     
 - Sua organização tem políticas definidas para antispam, anti-malware, anti-phishing e assim por diante. Confira [proteção contra ameaças no Office 365](protect-against-threats.md).
     
-- Você é um administrador global ou tem o administrador de segurança ou a função de pesquisa e limpeza atribuída no centro de conformidade &amp; de segurança. Consulte [permissões no centro de &amp; conformidade de segurança](permissions-in-the-security-and-compliance-center.md). Para algumas ações, você também deve ter uma nova função de visualização atribuída. 
+- Você é um administrador global ou tem o administrador de segurança ou a função de pesquisa e limpeza atribuída no centro de conformidade de segurança &amp; . Consulte [permissões no centro de &amp; conformidade de segurança](permissions-in-the-security-and-compliance-center.md). Para algumas ações, você também deve ter uma nova função de visualização atribuída. 
 
 #### <a name="preview-role-permissions"></a>Visualizar permissões de função
 
@@ -49,10 +49,10 @@ Para executar determinadas ações, como exibir cabeçalhos de mensagens ou baix
 |---------|---------|---------|
 |Usar o explorador de ameaças (e detecções em tempo real) para analisar ameaças     |Administrador Global <br> Administrador de Segurança <br> Leitor de segurança     | Não   |
 |Usar o explorador de ameaças (e detecções em tempo real) para exibir cabeçalhos para mensagens de email, bem como para visualizar e baixar mensagens de email em quarentena    |Administrador Global <br> Administrador de Segurança <br>Leitor de segurança   |       Não  |
-|Usar o explorador de ameaças para exibir cabeçalhos e baixar mensagens de email entregues a caixas de correio     |Administrador Global <br>Administrador de Segurança <br> Leitor de segurança <br> Visualização   |   Sim      |
+|Usar o explorador de ameaças para exibir cabeçalhos e baixar mensagens de email entregues a caixas de correio     |Administrador Global <br>Administrador de Segurança <br> Leitor de segurança <br> Preview   |   Sim      |
 
 > [!NOTE]
-> *Preview* é uma função e não um grupo de função; a função Preview deve ser adicionada a um grupo de função existente para o Office 365. A função de administrador global é atribuída ao centro de administração do[https://admin.microsoft.com](https://admin.microsoft.com)Microsoft 365 (), e as funções do administrador de segurança e do leitor de segurança são atribuídas no centro[https://protection.office.com](https://protection.office.com)de conformidade do & de segurança. Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
+> *Preview* é uma função e não um grupo de função; a função Preview deve ser adicionada a um grupo de função existente para o Office 365. A função de administrador global é atribuída ao centro de administração do Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ), e as funções do administrador de segurança e do leitor de segurança são atribuídas no centro de conformidade do & de segurança [https://protection.office.com](https://protection.office.com) . Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="find-and-delete-suspicious-email-that-was-delivered"></a>Localizar e excluir emails suspeitos que foram entregues
 
@@ -61,9 +61,9 @@ O Gerenciador de ameaças é um poderoso relatório que pode atender a vários p
 > [!NOTE]
 > Pesquisas padrão no Explorer não incluem atualmente itens zapped.  Isso se aplica a todos os modos de exibição, por exemplo, malware ou phishing. Para incluir itens do zapped, você precisa adicionar uma "ação de entrega" definida para incluir "removido por ZAP". Se você incluir todas as opções, verá todos os resultados da ação de entrega, incluindo os itens do zapped.
 
-1. **Navegue até Gerenciador de ameaças**: Vá [https://protection.office.com](https://protection.office.com) para e entre usando sua conta corporativa ou de estudante para o Office 365. Isso leva você para o centro &amp; de conformidade de segurança.
+1. **Navegue até Gerenciador de ameaças**: Vá para [https://protection.office.com](https://protection.office.com) e entre usando sua conta corporativa ou de estudante para o Office 365. Isso leva você para o centro de conformidade de segurança &amp; .
 
-2. No início rápido da navegação à esquerda, escolha **Threat management** \> **Gerenciador**de gerenciamento de ameaças.
+2. No início rápido da navegação à esquerda, escolha Gerenciador de **Gerenciamento de ameaças** \> **Explorer**.
 
     ![Explorer com ação de entrega e campos de local de entrega.](../../media/ThreatExFields.PNG)
 
@@ -88,7 +88,7 @@ O Gerenciador de ameaças é um poderoso relatório que pode atender a vários p
 
 5. **Filtros avançados**: com esses filtros, você pode criar consultas complexas e filtrar seu conjunto de dados. Clicar em *filtros avançados* abre um submenu com opções.
 
-   A filtragem avançada é uma ótima adição aos recursos de pesquisa. Um Boolean **não** filtrado foi introduzido no *destinatário*, *remetente* e *domínio do remetente* para permitir que os administradores investiguem excluindo valores. Essa opção aparece em o parâmetro Selection não *contém nenhum de*. **Não** permitirá que os administradores excluam caixas de correio de alerta, as caixas de correio de resposta padrão de suas investigações e sejam úteis para casos em que os administradores pesquisam um assunto específico (Subject = "attention"), onde o destinatário pode ser definido como *nenhum de defaultMail@contoso.com*. Este é um valor exato de pesquisa.
+   A filtragem avançada é uma ótima adição aos recursos de pesquisa. Um Boolean **não** filtrado foi introduzido no *destinatário*, *remetente* e *domínio do remetente* para permitir que os administradores investiguem excluindo valores. Essa opção aparece em o parâmetro Selection não *contém nenhum de*. **Não** permitirá que os administradores excluam as caixas de correio de alerta, as caixas de correio de resposta padrão de suas investigações e sejam úteis para casos em que os administradores pesquisam um assunto específico (Subject = "attention"), onde o destinatário pode ser definido como *nenhum de defaultmail \@ contoso.com*. Este é um valor exato de pesquisa.
 
    ![Os destinatários-' contém nenhum de ' filtro avançado '.](../../media/tp-InvestigateMalEmail-AdvancedFilter.png)
 
