@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/20/2020
+ms.date: 06/22/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,11 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Exigir que seus funcionários remotos entrem com autenticação multifator (MFA).
-ms.openlocfilehash: 142f4d42715ae53e411f045f4df09471b7ba63da
-ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
-ms.translationtype: HT
+ms.openlocfilehash: 57febcb68b09ffcbbb1694100b31d7d75158d872
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44560406"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844949"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Etapa 1. Aumentar a segurança de entrada para funcionários remotos com a MFA
 
@@ -95,6 +94,10 @@ Esta tabela mostra os resultados da habilitação da MFA com padrões de seguran
 ## <a name="let-your-users-reset-their-own-passwords"></a>Permitir que os usuários redefinam suas próprias senhas
 
 O Autoatendimento de Redefinição de Senha (SSPR) permite que os usuários redefinam suas próprias senhas, sem afetar a equipe de TI. Os usuários podem redefinir suas senhas rapidamente a qualquer momento e em qualquer lugar. Assista [este vídeo](https://go.microsoft.com/fwlink/?linkid=2128524) para configurar o SSPR.
+
+## <a name="sign-in-to-saas-apps-with-azure-ad"></a>Entrar em aplicativos SaaS com o Azure AD
+
+Além de fornecer autenticação na nuvem aos usuários, o Azure AD também pode ser a maneira central de proteger todos os seus aplicativos, seja no local, na nuvem da Microsoft ou em outra nuvem. Ao [integrar seus aplicativos no Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/plan-an-application-integration), você pode fazer com que funcionários remotos descubram os aplicativos de que precisam e se conectarem com segurança.
 
 ## <a name="admin-technical-resources-for-mfa-and-identity"></a>Treinamento de administrador e recursos técnicos para MFA e identidade
 

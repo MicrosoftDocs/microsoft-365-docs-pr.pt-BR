@@ -22,12 +22,11 @@ ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba mais sobre as propriedades de email e de arquivo que você pode pesquisar no centro de conformidade & segurança do Office 365.
-ms.openlocfilehash: 9fa68257519860311ffe330eed23bd95468856c4
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
-ms.translationtype: MT
+ms.openlocfilehash: 89d3f0c25694f8f3c89fbc27ee857c58cc5937fd
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817510"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049799"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo
 
@@ -87,7 +86,7 @@ Para obter uma lista completa das propriedades do SharePoint que podem ser pesqu
 |:-----|:-----|:-----|:-----|
 |Autor|O campo de autor de documentos do Office, que persiste se um documento é copiado. Por exemplo, se um usuário cria um documento e o email para alguém que o carrega para o SharePoint, o documento ainda manterá o autor original. Certifique-se de usar o nome de exibição do usuário para esta propriedade.|`author:"Garth Fort"`|Todos os documentos criados por Paulo Araújo.|
 |ContentType|O tipo de conteúdo do SharePoint de um item, como item, documento ou vídeo.|`contenttype:document`|Todos os documentos seriam ser retornados.|
-|Criado em|A data em que um item foi criado.|`created\>=06/01/2016`|Todos os itens criados em ou após 1º de junho de 2016.|
+|Criado em|A data em que um item foi criado.|`created>=06/01/2016`|Todos os itens criados em ou após 1º de junho de 2016.|
 |CreatedBy|A pessoa que criou ou carregou um item. Certifique-se de usar o nome de exibição do usuário para esta propriedade.|`createdby:"Garth Fort"`|Todos os itens criados ou carregados por Paulo Araújo.|
 |DetectedLanguage|O idioma de um item.|`detectedlanguage:english`|Todos os itens em inglês.|
 |DocumentLink|O caminho (URL) de uma pasta específica em um site do SharePoint ou do OneDrive for Business. Se você usar essa propriedade, certifique-se de Pesquisar o site no qual a pasta especificada está localizada.  <br/> Para retornar itens localizados em subpastas da pasta que você especificou para a propriedade documentlink, você precisa adicionar/ \* à URL da pasta especificada; por exemplo,`documentlink: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/>Para obter mais informações sobre como Pesquisar a propriedade documentlink e usar um script para obter as URLs do documentlink para pastas em um site específico, consulte [usar a pesquisa de conteúdo para coleções direcionadas](use-content-search-for-targeted-collections.md).|`documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Private"`  <br/> `documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Shared with Everyone/*" AND filename:confidential`|O primeiro exemplo retorna todos os itens na pasta especificada do OneDrive for Business. O segundo exemplo retorna documentos na pasta de site especificada (e todas as subpastas) que contenham a palavra "confidencial" no nome do arquivo.|
@@ -146,7 +145,7 @@ Para obter mais informações sobre como criar consultas usando a `SensitiveType
 
 Operadores de pesquisa booleanos, como **e**, **ou**, e **não**, ajudam você a definir pesquisas mais precisas, incluindo ou excluindo palavras específicas na consulta de pesquisa. Outras técnicas, como o uso de operadores de propriedade (como \> = ou..), aspas, parênteses e curingas, ajudam a refinar uma consulta de pesquisa. A tabela a seguir lista os operadores que você pode usar para restringir ou ampliar os resultados de pesquisa. 
   
-|**Operator**|**Usage**|**Descrição**|
+|**Operator**|**Uso**|**Descrição**|
 |:-----|:-----|:-----|
 |E|palavra-chave1 AND palavra-chave2|Retorna itens que incluem todas as palavras-chave ou expressões especificadas `property:value` . Por exemplo, `from:"Ann Beebe" AND subject:northwind` retorna todas as mensagens enviadas por Ana Beebe que continham a palavra Northwind na linha de assunto. <sup>duas</sup>|
 |+|palavra + palavra-chave2 + keyword3|Retorna itens que contêm *um* `keyword2` ou `keyword3` *e* que também contêm `keyword1` .   Portanto, este exemplo é equivalente à consulta `(keyword2 OR keyword3) AND keyword1` .  <br/> A consulta `keyword1 + keyword2` (com um espaço após o **+** símbolo) não é o mesmo que usar o operador **and** . Essa consulta seria equivalente a `"keyword1 + keyword2"` e retornar itens com a fase exata `"keyword1 + keyword2"` .|

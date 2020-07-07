@@ -17,12 +17,11 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 250d19a09d79fc5fd8c69f2ebd24abadc642fafc
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
-ms.translationtype: MT
+ms.openlocfilehash: 26b376fe3e804a3ebaa478e484807bea4c33d38b
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005841"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049685"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Conhecer a linguagem de consulta de busca avançada
 
@@ -151,7 +150,16 @@ Os dados em tabelas de caça avançada geralmente são classificados nos seguint
 ## <a name="get-help-as-you-write-queries"></a>Obter ajuda durante a criação de consultas
 Aproveite as funcionalidades a seguir para escrever rapidamente as consultas:
 - **Sugestão** automática — à medida que você escreve consultas, a busca avançada fornece sugestões do IntelliSense. 
-- **Referência de esquema** — inclui a lista de tabelas e suas colunas ao lado da área de trabalho. Para saber mais, passe o mouse sobre um item. Clique duas vezes em um item para inseri-lo no editor de consultas.
+- **Árvore de esquema** — uma representação de esquema que inclui a lista de tabelas e suas colunas é fornecida ao lado da área de trabalho. Para saber mais, passe o mouse sobre um item. Clique duas vezes em um item para inseri-lo no editor de consultas.
+- **[Referência de esquema](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** : referência no portal com descrições de tabela e coluna, bem como tipos de eventos suportados ( `ActionType` valores) e consultas de exemplo
+
+## <a name="work-with-multiple-queries-in-the-editor"></a>Trabalhar com várias consultas no editor
+O editor de consultas pode servir como o bloco de rascunhos para testar várias consultas. Para usar várias consultas:
+
+- Separe cada consulta com uma linha vazia.
+- Coloque o cursor em qualquer parte de uma consulta para selecionar a consulta antes de executá-la. A consulta selecionada será executada apenas. Para executar outra consulta, mova o cursor de acordo e selecione **Executar consulta**.
+
+![Imagem do editor de consultas com várias consultas](../../media/mtp-ah/ah-multi-query.png)
 
 ## <a name="use-sample-queries"></a>Use consultas de amostra
 

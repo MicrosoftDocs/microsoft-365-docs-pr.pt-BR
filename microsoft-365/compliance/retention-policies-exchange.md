@@ -17,12 +17,11 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre o comportamento de retenção que se aplica especificamente aos emails do Exchange e às pastas públicas do Exchange.
-ms.openlocfilehash: 2ecf709c8b2bdd166cd64024ef332a2e0b26b7be
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
-ms.translationtype: HT
+ms.openlocfilehash: aa4142db2114b2b58cc391429f1389c6b9fad52d
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016274"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049889"
 ---
 # <a name="learn-about-retention-policies-for-exchange"></a>Saiba mais sobre as políticas de retenção do Exchange
 
@@ -51,7 +50,7 @@ Quando as configurações de retenção são reter e excluir:
 ![Diagrama de fluxo de retenção em emails e pastas públicas](../media/88f174cc-bbf4-4305-93d7-0515f496c8f9.png)
 
 1. **Se o item for modificado ou excluído permanentemente** pelo usuário (usando SHIFT+DELETE ou excluído de Itens Excluídos) durante o período de retenção: ele será movido (ou copiado, no caso de uma edição) para a pasta Itens Recuperáveis. Lá, um trabalho de temporizador é executado periodicamente e identifica itens cujo período de retenção expirou, que então são permanentemente excluídos em até 14 dias após o fim do período de retenção. Observe que 14 dias é a configuração padrão, podendo ser estendida para até 30 dias.
-    
+
 2. **Se o item não for modificado ou excluído** durante o período de retenção: o mesmo processo será executado periodicamente em todas as pastas na caixa de correio, identificando itens cujo período de retenção expirou. Esses itens são então permanentemente excluídos em até 14 dias após o fim do período de retenção. Observe que 14 dias é a configuração padrão, podendo ser estendida para até 30 dias. 
 
 Quando as configurações forem reter somente ou excluir somente, os caminhos de conteúdo serão variações de reter e excluir:

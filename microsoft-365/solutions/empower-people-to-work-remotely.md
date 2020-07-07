@@ -17,12 +17,11 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Configure a infraestrutura de segurança e serviços que permita aos seus funcionários trabalharem remotamente em qualquer lugar e a qualquer momento.
-ms.openlocfilehash: 94e90e0839815ca8045731f809e50d08622700f4
-ms.sourcegitcommit: 92f641cad63379bf16417854a43b16b48a71a30a
-ms.translationtype: HT
+ms.openlocfilehash: d4dded6c08e665a2756c45659f179e8252fcacc1
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724826"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844865"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Capacite funcionários remotos com o Microsoft 365
 
@@ -73,9 +72,9 @@ Use estas etapas para proteger e otimizar o acesso aos servidores, dados e servi
 
 1. [Aumentar a segurança de entrada com a MFA](empower-people-to-work-remotely-secure-sign-in.md)
 2. [Fornecer acesso remoto a aplicativos e serviços e aplicativos locais](empower-people-to-work-remotely-remote-access.md)
-3. [Implantar o gerenciamento de pontos de extremidade em seus dispositivos, PCs e outros pontos de extremidade](empower-people-to-work-remotely-manage-endpoints.md)
-4. [Implantar aplicativos e serviços de produtividade de trabalhador remoto](empower-people-to-work-remotely-teams-productivity-apps.md)
-5. [Criar locais de comunicação](empower-people-to-work-remotely-communication-venues.md)
+3. [Implantar serviços de segurança e conformidade](empower-people-to-work-remotely-security-compliance.md)
+4. [Implantar o gerenciamento de pontos de extremidade em seus dispositivos, PCs e outros pontos de extremidade](empower-people-to-work-remotely-manage-endpoints.md)
+5. [Implantar aplicativos e serviços de produtividade de trabalhador remoto](empower-people-to-work-remotely-teams-productivity-apps.md)
 6. [Treinar os funcionários remotos e responder a questões sobre o uso](empower-people-to-work-remotely-train-monitor-usage.md)
 
 ![As etapas para capacitar funcionários remotos com o Microsoft 365](../media/empower-people-to-work-remotely/remote-workers-step-grid.png)

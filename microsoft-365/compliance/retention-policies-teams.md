@@ -19,7 +19,6 @@ search.appverid:
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
 ms.openlocfilehash: 869f457ddb64e5d828dcb5f1244ba779f889e8c9
 ms.sourcegitcommit: e3900c818877c2cdcd227917ec975c03e828c7ea
-ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/24/2020
 ms.locfileid: "44861158"

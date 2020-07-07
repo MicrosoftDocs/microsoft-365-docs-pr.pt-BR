@@ -22,12 +22,11 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Saiba como cancelar sua assinatura de avaliação do Microsoft 365 for Business ou pago.
-ms.openlocfilehash: da9a86973c271fce8a9552cfc0ce1b287f7debc8
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
-ms.translationtype: MT
+ms.openlocfilehash: 746060596010fd80816e19dece093d91fe850c30
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023364"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049743"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
@@ -132,7 +131,7 @@ Se você alterou seus registros de nameserver (NS) para a Microsoft 365 quando c
 
 Se você não alterou os registros NS quando configurou seu domínio, quando você alterar o registro MX, seus emails começarão a ir para o novo endereço imediatamente.
 
-Para obter mais informações, consulte [como a Microsoft 365 gerencia meus registros DNS?](../../admin/setup/domains-faq.md#how-does-office-365-manage-my-dns-records). Para alterar seus registros NS, confira [remover um domínio](../../admin/get-help-with-domains/remove-a-domain.md).
+Para alterar seus registros NS, confira [remover um domínio](../../admin/get-help-with-domains/remove-a-domain.md).
 
 ### <a name="save-your-data"></a>Salvar seus dados
 
@@ -152,4 +151,4 @@ Se você cancelou sua assinatura e não [moveu os usuários para uma assinatura 
 
 [Reativar sua assinatura](reactivate-your-subscription.md)
 
-[Migrar os usuários para outra assinatura](move-users-different-subscription.md)
+[Migrar usuários para uma assinatura diferente](move-users-different-subscription.md)
