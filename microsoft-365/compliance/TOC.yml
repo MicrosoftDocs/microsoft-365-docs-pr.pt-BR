@@ -161,6 +161,10 @@
       href: technical-reference-details-about-encryption.md
     - name: TLS 1.0 e 1.1 substituição para o Office 365
       href: tls-1.0-and-1.1-deprecation-for-office-365.md
+    - name: Substituição do TLS 1.0 e 1.1no Office 365 GCC High e DoD
+      href: tls-1-2-in-office-365-gcc.md
+    - name: TLS 1.2 no Office 365
+      href: prepare-tls-1.2-in-office-365.md
     - name: Chave de Cliente
       items:
         - name: Criptografia de serviço com Chave de Cliente no Office 365
@@ -488,15 +492,19 @@
           href: overview-ediscovery-20.md
         - name: Introdução à Descoberta Eletrônica Avançada
           href: get-started-with-advanced-ediscovery.md
-        - name: Trabalhar com custodiantes
+        - name: Trabalhar com os usuários e fontes de dados que não são custodial
           href: managing-custodians.md
           items:
             - name: Adicionar custodiantes a uma ocorrência
               href: add-custodians-to-case.md
+            - name: Adição em massa de custodiantes a uma ocorrência
+              href: bulk-add-custodians.md
             - name: Gerenciar custodiantes
               href: manage-new-custodians.md
             - name: Exibir a atividade custodiante
               href: view-custodian-activity.md
+            - name: Adicionar fontes de dados não custodial a uma ocorrência
+              href: non-custodial-data-sources.md
         - name: Trabalhar com comunicações
           href: managing-custodian-communications.md
           items:

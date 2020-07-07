@@ -115,6 +115,8 @@
                   href: mtp/advanced-hunting-overview.md
                 - name: Aprender a linguagem de consulta
                   href: mtp/advanced-hunting-query-language.md
+                - name: Aplicar práticas recomendadas de consulta
+                  href: mtp/advanced-hunting-best-practices.md
                 - name: Trabalhar com os resultados da consulta
                   href: mtp/advanced-hunting-query-results.md
                 - name: Usar consultas compartilhadas
@@ -179,8 +181,6 @@
                   items:
                     - name: FileProfile()
                       href: mtp/advanced-hunting-fileprofile-function.md
-                - name: Aplicar práticas recomendadas de consulta
-                  href: mtp/advanced-hunting-best-practices.md
                 - name: Detecções personalizadas
                   items:
                     - name: Visão geral de detecções personalizadas
