@@ -21,12 +21,11 @@ search.appverid:
 - GEA150
 ms.assetid: 28343f3a-dcee-41b6-9b97-5b0f4999b7ef
 description: Comece a usar seu próprio domínio para email, sites e contas no Office 365. Saiba mais sobre domínios, faça alterações em seu domínio, integre emails e sites, e obtenha ferramentas e dicas.
-ms.openlocfilehash: 1d3e7fb12f497d512693b8289f072106173356bb
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
-ms.translationtype: MT
+ms.openlocfilehash: 5586744707580bee18e179a35a5ffd042ebe7579
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399915"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049673"
 ---
 # <a name="get-help-with-office-365-domains"></a>Obter ajuda com domínios do Office 365
 
@@ -158,7 +157,6 @@ Use esses recursos para obter uma introdução ao uso de seu próprio domínio p
                             <p><a href="information-for-dns-records.md">Coletar as informações necessárias para criar registros DNS</a></p>
                             <p><a href="find-your-domain-registrar.md">Localizar o registrador de domínio</a></p>
                             <p><a href="buy-a-domain-name.md">Comprar um nome de domínio</a></p>
-                            <p><a href="../setup/domains-faq.md#how-to-set-up-an-office-365-pilot">Configurar um piloto com o seu domínio personalizado para algumas pessoas em sua empresa</a></p>
                             <p><a href="domain-connect.md">Adicionar rapidamente um domínio do GoDaddy ao Office 365</a></p>
                             <p>Obter ajuda passo a passo para <a href="create-dns-records-at-any-dns-hosting-provider.md">adicionar os registros DNS necessários aos serviços do Office 365</a></p>
                             <p><a href="https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization">Como preparar um domínio não roteável (por exemplo, domínio .local) para a sincronização de diretórios</a></p>
@@ -208,8 +206,7 @@ Use esses recursos para obter uma introdução ao uso de seu próprio domínio p
                         <h3>Fazer alterações</h3>
                             <p><a href="find-and-fix-issues.md">Localizar e corrigir problemas após alterar seu nome de domínio ou registros DNS</a></p>
                             <p><a href="../dns/add-or-edit-custom-dns-records.md">Adicionar ou editar registros DNS personalizados no Office 365</a></p>
-                            <p><a href="../setup/domains-faq.md#can-i-add-custom-subdomains-or-multiple-domains-to-office-365">Adicionar subdomínios personalizados ou vários domínios ao Office 365</a></p>
-                            <p><a href="../setup/domains-faq.md#how-do-i-change-how-my-dns-records-are-managed-in-office-365">Alterar a forma como o Office 365 gerencia o DNS do seu domínio</a></p>
+                            <p><a href="../setup/domains-faq.md#can-i-add-custom-subdomains-or-multiple-domains-to-microsoft-365">Adicionar subdomínios personalizados ou vários domínios no Microsoft 365</a></p>
                             <p><a href="remove-a-domain.md">Remover um domínio</a></p>
                             <p><a href="https://docs.microsoft.com/office365/enterprise/office-365-integration">Use o seu domínio a fim de integrá-lo ao email local, por exemplo, usando os serviços de diretório</a></p>
                             <p><a href="../contact-support-for-business-products.md">Mais perguntas? Ligue para o suporte ou abra um tíquete de suporte</a></p>
