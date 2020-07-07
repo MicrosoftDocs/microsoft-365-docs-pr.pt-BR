@@ -11,243 +11,161 @@ ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
 - M365-subscription-management
-- Adm_O365
 - Adm_TOC
+- commerce
 ms.custom:
 - TopSMBIssues
 - SaRA
 - okr_SMB
 - AdminSurgePortfolio
+- manage_licenses
 search.appverid:
 - MET150
-- MOE150
-- BEA160
-- GEA150
-ms.assetid: 997596b5-4173-4627-b915-36abac6786dc
-description: Saiba como atribuir licenças a usuários ou migrar usuários para uma nova assinatura.
-ms.openlocfilehash: da4dc2478180716710552ac1d4b7b81d019a622f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
-ms.translationtype: HT
+description: Aprenda a atribuir licenças aos usuários.
+ms.date: 07/01/2020
+ms.openlocfilehash: 648a3433bf5c2bd9bb96abb90335f56ee4fb6bee
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399831"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45015942"
 ---
-# <a name="assign-licenses-to-users"></a><span data-ttu-id="3e79a-103">Atribuir licenças aos usuários</span><span class="sxs-lookup"><span data-stu-id="3e79a-103">Assign licenses to users</span></span>
+# <a name="assign-licenses-to-users"></a><span data-ttu-id="2cb8e-103">Atribuir licenças aos usuários</span><span class="sxs-lookup"><span data-stu-id="2cb8e-103">Assign licenses to users</span></span>
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> <span data-ttu-id="3e79a-104">O centro de administração está mudando.</span><span class="sxs-lookup"><span data-stu-id="3e79a-104">The admin center is changing.</span></span> <span data-ttu-id="3e79a-105">Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span><span class="sxs-lookup"><span data-stu-id="3e79a-105">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span></span>
+> <span data-ttu-id="2cb8e-104">O centro de administração está mudando.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-104">The admin center is changing.</span></span> <span data-ttu-id="2cb8e-105">Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span><span class="sxs-lookup"><span data-stu-id="2cb8e-105">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-<span data-ttu-id="3e79a-106">Você pode atribuir licenças a usuários na página **Usuários ativos**ou na página **Licenças**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-106">You can assign licenses to users on either the **Active users** page, or on the **Licenses** page.</span></span> <span data-ttu-id="3e79a-107">O método a ser usado dependerá se você deseja atribuir licenças de produto a usuários específicos ou atribuir licenças de usuários a produtos específicos.</span><span class="sxs-lookup"><span data-stu-id="3e79a-107">Which method you use depends on whether you want to assign product licenses to specific users, or assign users licenses to specific products.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="3e79a-108">Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page.</span><span class="sxs-lookup"><span data-stu-id="3e79a-108">If you're not using the new Microsoft 365 admin center, you can turn it on by selecting the **Try the new admin center** toggle located at the top of the Home page.</span></span>
-
-## <a name="assign-licenses-to-users-on-the-licenses-page"></a><span data-ttu-id="3e79a-109">Atribuir licenças a usuários na página Licenças</span><span class="sxs-lookup"><span data-stu-id="3e79a-109">Assign licenses to users on the Licenses page</span></span>
-
-<span data-ttu-id="3e79a-110">Quando você usa a página **Licenças** para atribuir licenças, atribui licenças de um produto específico para até 20 usuários.</span><span class="sxs-lookup"><span data-stu-id="3e79a-110">When you use the **Licenses** page to assign licenses, you assign licenses for a specific product to up to 20 users.</span></span> <span data-ttu-id="3e79a-111">Na página **Licenças**, você vê uma lista de todos os produtos para os quais tem assinaturas, juntamente com o número total de licenças para cada produto, quantas licenças estão atribuídas e quantas estão disponíveis.</span><span class="sxs-lookup"><span data-stu-id="3e79a-111">On the **Licenses** page, you see a list of all the products you have subscriptions for, together with the total number of licenses for each product, how many licenses are assigned, and how many are available.</span></span>
-
-1. <span data-ttu-id="3e79a-112">No centro de administração, vá para a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Assinaturas</a>.</span><span class="sxs-lookup"><span data-stu-id="3e79a-112">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a>  page.</span></span>
-2. <span data-ttu-id="3e79a-113">Selecione um produto para o qual você deseja atribuir licenças.</span><span class="sxs-lookup"><span data-stu-id="3e79a-113">Select a product for which you want to assign licenses.</span></span>
-3. <span data-ttu-id="3e79a-114">Selecione **Atribuir licenças**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-114">Select **Assign licenses**.</span></span>
-4. <span data-ttu-id="3e79a-115">No painel **Atribuir licenças a usuários**, comece a digitar um nome e, em seguida, selecione-o nos resultados para adicioná-lo à lista.</span><span class="sxs-lookup"><span data-stu-id="3e79a-115">In the **Assign licenses to users** pane, begin typing a name, and then choose it from the results to add it to the list.</span></span> <span data-ttu-id="3e79a-116">É possível selecionar até 20 usuários de cada vez.</span><span class="sxs-lookup"><span data-stu-id="3e79a-116">You can add up to 20 users at a time.</span></span>
-5. <span data-ttu-id="3e79a-117">Selecione **Ativar ou desativar os aplicativos e serviços** para atribuir ou remover o acesso a itens específicos.</span><span class="sxs-lookup"><span data-stu-id="3e79a-117">Select **Turn apps and services on or off** to assign or remove access to specific items.</span></span>
-6. <span data-ttu-id="3e79a-118">Quando tiver terminado, clique em **Atribuir**e depois em **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-118">When you're finished, select **Assign**, then select **Close**.</span></span>
-
-<span data-ttu-id="3e79a-119">Se houver um conflito, uma mensagem é exibida, informa qual é o problema e como corrigi-lo.</span><span class="sxs-lookup"><span data-stu-id="3e79a-119">If there's a conflict, a message displays, tells you what the problem is, and how to fix it.</span></span> <span data-ttu-id="3e79a-120">Por exemplo, se você selecionou licenças que contêm serviços conflitantes, a mensagem de erro indicará revisar os serviços incluídos em cada licença e tentar novamente.</span><span class="sxs-lookup"><span data-stu-id="3e79a-120">For example, if you selected licenses that contain conflicting services, the error message says to review the services included with each license and try again.</span></span>
-
-<span data-ttu-id="3e79a-121">Para alterar os aplicativos e serviços aos quais o usuário tem acesso:</span><span class="sxs-lookup"><span data-stu-id="3e79a-121">To change the apps and services a user has access to:</span></span>
-
-1. <span data-ttu-id="3e79a-122">Selecione a linha que contém o usuário.</span><span class="sxs-lookup"><span data-stu-id="3e79a-122">Select the row that contains the user.</span></span>
-2. <span data-ttu-id="3e79a-123">No painel direito, marque ou desmarque os aplicativos e serviços aos quais você deseja conceder acesso ou remover o acesso.</span><span class="sxs-lookup"><span data-stu-id="3e79a-123">In the right pane, select or deselect the apps and services that you want to give access to or remove access from.</span></span>
-3. <span data-ttu-id="3e79a-124">Quando tiver terminado, selecione**Salvar**, e então selecione **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-124">When you're finished, select **Save**, then select **Close**.</span></span>
+<span data-ttu-id="2cb8e-106">Você pode atribuir licenças a usuários na página **Usuários ativos**ou na página **Licenças**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-106">You can assign licenses to users on either the **Active users** page, or on the **Licenses** page.</span></span> <span data-ttu-id="2cb8e-107">O método usado depende de você querer atribuir licenças do produto a usuários específicos ou atribuir licenças de usuários a um produto específico.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-107">The method you use depends on whether you want to assign product licenses to specific users or assign users licenses to a specific product.</span></span>
 
 ::: moniker-end
 
-## <a name="assign-licenses-to-multiple-users-on-the-active-users-page"></a><span data-ttu-id="3e79a-125">Atribuir licenças a vários usuários na página Usuários ativos</span><span class="sxs-lookup"><span data-stu-id="3e79a-125">Assign licenses to multiple users on the Active users page</span></span>
+<span data-ttu-id="2cb8e-108">[Aprenda como adicionar um usuário e atribuir uma licença ao mesmo tempo](../add-users/add-users.md).</span><span class="sxs-lookup"><span data-stu-id="2cb8e-108">[Learn how to add a user and assign a license at the same time](../add-users/add-users.md).</span></span>
+
+## <a name="before-you-begin"></a><span data-ttu-id="2cb8e-109">Antes de começar</span><span class="sxs-lookup"><span data-stu-id="2cb8e-109">Before you begin</span></span>
+
+- <span data-ttu-id="2cb8e-110">Você deve ser um administrador global, de licença ou de usuário para atribuir licenças.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-110">You must be a Global, License, or User admin to assign licenses.</span></span> <span data-ttu-id="2cb8e-111">Para obter mais informações, consulte [Sobre as funções de administrador do Microsoft 365](../add-users/about-admin-roles.md).</span><span class="sxs-lookup"><span data-stu-id="2cb8e-111">For more information, see [About Microsoft 365 admin roles](../add-users/about-admin-roles.md).</span></span>
+- <span data-ttu-id="2cb8e-112">Você pode [atribuir licenças às contas de usuários com o Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=850410).</span><span class="sxs-lookup"><span data-stu-id="2cb8e-112">You can [assign licenses to user accounts with Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=850410).</span></span>
+- <span data-ttu-id="2cb8e-113">Para obter mais instruções do licenciamento baseado em grupo, consulte [Atribuir licenças a usuários por membro de grupo no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign).</span><span class="sxs-lookup"><span data-stu-id="2cb8e-113">To use group-based licensing, see [Assign licenses to users by group membership in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)</span></span>
+- <span data-ttu-id="2cb8e-114">Alguns serviços, como o Sway, são atribuídos automaticamente aos usuários e não precisam ser atribuídos individualmente.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-114">Some services, like Sway, are automatically assigned to users, and don't need to be assigned individually.</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="3e79a-126">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="3e79a-126">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
+## <a name="use-the-licenses-page-to-assign-licenses-to-users"></a><span data-ttu-id="2cb8e-115">Use a página Licenças para atribuir licenças aos usuários</span><span class="sxs-lookup"><span data-stu-id="2cb8e-115">Use the Licenses page to assign licenses to users</span></span>
 
-2. <span data-ttu-id="3e79a-127">Selecione as caixas ao lado dos nomes dos usuários a quem você deseja atribuir licenças.</span><span class="sxs-lookup"><span data-stu-id="3e79a-127">Select the circles next to the names of the users you want to assign licenses to.</span></span>
+<span data-ttu-id="2cb8e-116">Ao usar a página **Licenças** para atribuir licenças, você atribui licenças de um produto específico para até 20 usuários.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-116">When you use the **Licenses** page to assign licenses, you assign licenses for a specific product to up to 20 users.</span></span> <span data-ttu-id="2cb8e-117">Na página **Licenças**, você verá uma lista de todos os produtos que você possui assinaturas.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-117">On the **Licenses** page, you see a list of all the products that you have subscriptions for.</span></span> <span data-ttu-id="2cb8e-118">Você também verá o número total de licenças de cada produto, quantas licenças são atribuídas e quantas estão disponíveis.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-118">You also see the total number of licenses for each product, how many licenses are assigned, and how many are available.</span></span>
 
-3. <span data-ttu-id="3e79a-128">Na parte superior, selecione **mais opções (...)**, em seguida, selecione **Gerenciar licenças de produtos**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-128">At the top, select **More options (...)**, then select **Manage product licenses**.</span></span>
+1. <span data-ttu-id="2cb8e-119">No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a>.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-119">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.</span></span>
+2. <span data-ttu-id="2cb8e-120">Selecione um produto.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-120">Select a product.</span></span>
+3. <span data-ttu-id="2cb8e-121">Na página de detalhes do produto, selecione **Atribuir licenças**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-121">On the product details page, select **Assign licenses**.</span></span>
+4. <span data-ttu-id="2cb8e-122">No painel **Atribuir licenças a usuários**, comece a digitar um nome e, em seguida, selecione-o nos resultados para adicioná-lo à lista.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-122">In the **Assign licenses to users** pane, begin typing a name, and then choose it from the results to add it to the list.</span></span> <span data-ttu-id="2cb8e-123">É possível selecionar até 20 usuários de cada vez.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-123">You can add up to 20 users at a time.</span></span>
+5. <span data-ttu-id="2cb8e-124">Selecione **Ativar ou desativar os aplicativos e serviços** para atribuir ou remover o acesso a itens específicos.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-124">Select **Turn apps and services on or off** to assign or remove access to specific items.</span></span>
+6. <span data-ttu-id="2cb8e-125">Quando tiver terminado, clique em **Atribuir**e depois em **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-125">When you're finished, select **Assign**, then select **Close**.</span></span>
 
-4. <span data-ttu-id="3e79a-129">No painel **Gerenciar licenças de produtos**, selecione **Adicionar a atribuições de licença de produto existentes** \> **.Avançar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-129">In the **Manage product licenses** pane, select **Add to existing product license assignments** \> **Next**.</span></span>
+<span data-ttu-id="2cb8e-126">Se houver um conflito, será exibida uma mensagem informando qual é o problema e como corrigi-lo.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-126">If there's a conflict, a message displays, tells you what the problem is, and tells you how to fix it.</span></span> <span data-ttu-id="2cb8e-127">Por exemplo, se você selecionou licenças que contêm serviços conflitantes, a mensagem de erro indicará revisar os serviços incluídos em cada licença e tentar novamente.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-127">For example, if you selected licenses that contain conflicting services, the error message says to review the services included with each license and try again.</span></span>
 
-5. <span data-ttu-id="3e79a-130">No painel **Adicionar a produtos existentes**, alterne o botão para a posição **Ativado** nas licenças que você deseja que os usuários selecionados tenham.</span><span class="sxs-lookup"><span data-stu-id="3e79a-130">In the **Add to existing products** pane, switch the toggle to the **On** position for the license that you want the selected users to have.</span></span>
+## <a name="change-the-apps-and-services-a-user-has-access-to"></a><span data-ttu-id="2cb8e-128">Para alterar os aplicativos e serviços que o usuário tem acesso:</span><span class="sxs-lookup"><span data-stu-id="2cb8e-128">Change the apps and services a user has access to</span></span>
 
-    <span data-ttu-id="3e79a-131">Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário.</span><span class="sxs-lookup"><span data-stu-id="3e79a-131">By default, all services associated with those licenses are automatically assigned to the users.</span></span> <span data-ttu-id="3e79a-132">Você pode limitar quais serviços estão disponíveis para os usuários.</span><span class="sxs-lookup"><span data-stu-id="3e79a-132">You can limit which services are available to the users.</span></span> <span data-ttu-id="3e79a-133">Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.</span><span class="sxs-lookup"><span data-stu-id="3e79a-133">Switch the toggles to the **Off** position for the services that you don't want the users to have.</span></span>
+1. <span data-ttu-id="2cb8e-129">No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a>.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-129">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.</span></span>
+2. <span data-ttu-id="2cb8e-130">Na página **Licenças**, selecione a linha de um usuário específico.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-130">On the **Licenses** page, select the row for a specific user.</span></span>
+3. <span data-ttu-id="2cb8e-131">No painel direito, marque ou desmarque os aplicativos e serviços aos quais você deseja conceder acesso ou remover o acesso.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-131">In the right pane, select or deselect the apps and services that you want to give access to or remove access from.</span></span>
+4. <span data-ttu-id="2cb8e-132">Quando tiver terminado, selecione**Salvar**, e então selecione **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-132">When you're finished, select **Save**, then select **Close**.</span></span>
 
-6. <span data-ttu-id="3e79a-134">Na parte inferior do painel, selecione **Adicionar** \> **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-134">At the bottom of the pane, select **Add** \> **Close**.</span></span>  
+::: moniker-end
+
+::: moniker range="o365-worldwide"
+
+## <a name="use-the-active-users-page-to-assign-licenses"></a><span data-ttu-id="2cb8e-133">Use a página Usuários ativos para atribuir licenças</span><span class="sxs-lookup"><span data-stu-id="2cb8e-133">Use the Active users page to assign licenses</span></span>
+
+<span data-ttu-id="2cb8e-134">Ao usar a página **Usuários ativos** para atribuir licenças, você atribui licenças de usuários a produtos.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-134">When you use the **Active users** page to assign licenses, you assign users licenses to products.</span></span>
+
+### <a name="assign-licenses-to-multiple-users"></a><span data-ttu-id="2cb8e-135">Atribuir licenças a vários usuários</span><span class="sxs-lookup"><span data-stu-id="2cb8e-135">Assign licenses to multiple users</span></span>
+
+1. <span data-ttu-id="2cb8e-136">No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-136">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
+2. <span data-ttu-id="2cb8e-137">Selecione os círculos ao lado dos nomes dos usuários aos quais você quer atribuir licenças.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-137">Select the circles next to the names of the users that you want to assign licenses to.</span></span>
+3. <span data-ttu-id="2cb8e-138">Na parte superior, selecione **mais opções (...)**, em seguida, selecione **Gerenciar licenças de produtos**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-138">At the top, select **More options (...)**, then select **Manage product licenses**.</span></span>
+4. <span data-ttu-id="2cb8e-139">No painel **Gerenciar licenças de produtos**, selecione **Adicionar a atribuições de licença de produto existentes** \> **.Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-139">In the **Manage product licenses** pane, select **Add to existing product license assignments** \> **Next**.</span></span>
+5. <span data-ttu-id="2cb8e-140">No painel **Adicionar a produtos existentes**, alterne o botão para a posição **Ativado** nas licenças que você quer que os usuários selecionados tenham.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-140">In the **Add to existing products** pane, switch the toggle to the **On** position for the license that you want the selected users to have.</span></span>\
+    <span data-ttu-id="2cb8e-141">Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-141">By default, all services associated with those licenses are automatically assigned to the users.</span></span> <span data-ttu-id="2cb8e-142">Você pode limitar quais serviços estão disponíveis para os usuários.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-142">You can limit which services are available to the users.</span></span> <span data-ttu-id="2cb8e-143">Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-143">Switch the toggles to the **Off** position for the services that you don't want the users to have.</span></span>
+6. <span data-ttu-id="2cb8e-144">Na parte inferior do painel, selecione **Adicionar** \> **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-144">At the bottom of the pane, select **Add** \> **Close**.</span></span>  
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="3e79a-135">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="3e79a-135">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>
+## <a name="assign-licenses-to-multiple-users"></a><span data-ttu-id="2cb8e-145">Atribuir licenças a vários usuários</span><span class="sxs-lookup"><span data-stu-id="2cb8e-145">Assign licenses to multiple users</span></span>
 
-2. <span data-ttu-id="3e79a-136">Selecione as caixas ao lado dos nomes dos usuários a quem você deseja atribuir licenças.</span><span class="sxs-lookup"><span data-stu-id="3e79a-136">Select the boxes next to the names of the users you want to assign licenses to.</span></span>
-
-3. <span data-ttu-id="3e79a-137">No painel **Ações em massa**, escolha **Editar licenças de produto**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-137">In the **Bulk actions** pane, select **Edit product licenses**.</span></span>
-
-4. <span data-ttu-id="3e79a-138">No painel **Atribuir produtos**, selecione **Adicionar a atribuições de licença de produto existentes** \> **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-138">In the **Assign products** pane, select **Add to existing product license assignments** \> **Next**.</span></span>
-
-5. <span data-ttu-id="3e79a-139">Alterne o botão para a posição **Ativado** nas licenças que você deseja que os usuários selecionados tenham.</span><span class="sxs-lookup"><span data-stu-id="3e79a-139">Switch the toggle to the **On** position for the licenses that you want the selected users to have.</span></span>
-
-    <span data-ttu-id="3e79a-140">Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário.</span><span class="sxs-lookup"><span data-stu-id="3e79a-140">By default, all services associated with those licenses are automatically assigned to the users.</span></span> <span data-ttu-id="3e79a-141">Você pode limitar quais serviços estão disponíveis para os usuários.</span><span class="sxs-lookup"><span data-stu-id="3e79a-141">You can limit which services are available to the users.</span></span> <span data-ttu-id="3e79a-142">Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.</span><span class="sxs-lookup"><span data-stu-id="3e79a-142">Switch the toggles to the **Off** position for the services that you don't want the users to have.</span></span>
-
-6. <span data-ttu-id="3e79a-143">Na parte inferior do painel **Adicionar a produtos existentes**, selecione **Adicionar** \> **Fechar**\> **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-143">At the bottom of the **Add to existing products** pane, select **Add** \> **Close** \> **Close**.</span></span>
+1. <span data-ttu-id="2cb8e-146">No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-146">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>
+2. <span data-ttu-id="2cb8e-147">Selecione as caixas ao lado dos nomes dos usuários aos quais você quer atribuir licenças.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-147">Select the boxes next to the names of the users that you want to assign licenses to.</span></span>
+3. <span data-ttu-id="2cb8e-148">No painel **Ações em massa**, escolha **Editar licenças de produto**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-148">In the **Bulk actions** pane, select **Edit product licenses**.</span></span>
+4. <span data-ttu-id="2cb8e-149">No painel **Atribuir produtos**, selecione **Adicionar a atribuições de licença de produto existentes** \> **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-149">In the **Assign products** pane, select **Add to existing product license assignments** \> **Next**.</span></span>
+5. <span data-ttu-id="2cb8e-150">Alterne para a posição **Ativado** das licenças que você quer que os usuários selecionados tenham.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-150">Switch the toggle to the **On** position for the licenses that you want the selected users to have.</span></span>\
+    <span data-ttu-id="2cb8e-151">Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-151">By default, all services associated with those licenses are automatically assigned to the users.</span></span> <span data-ttu-id="2cb8e-152">Você pode limitar quais serviços estão disponíveis para os usuários.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-152">You can limit which services are available to the users.</span></span> <span data-ttu-id="2cb8e-153">Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-153">Switch the toggles to the **Off** position for the services that you don't want the users to have.</span></span>
+6. <span data-ttu-id="2cb8e-154">Na parte inferior do painel **Adicionar a produtos existentes**, selecione **Adicionar** \> **Fechar**\> **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-154">At the bottom of the **Add to existing products** pane, select **Add** \> **Close** \> **Close**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="3e79a-144">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="3e79a-144">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span>
+## <a name="assign-licenses-to-multiple-users"></a><span data-ttu-id="2cb8e-155">Atribuir licenças a vários usuários</span><span class="sxs-lookup"><span data-stu-id="2cb8e-155">Assign licenses to multiple users</span></span>
 
-2. <span data-ttu-id="3e79a-145">Selecione as caixas ao lado dos nomes dos usuários a quem você deseja atribuir licenças.</span><span class="sxs-lookup"><span data-stu-id="3e79a-145">Select the boxes next to the names of the users you want to assign licenses to.</span></span>
-
-3. <span data-ttu-id="3e79a-146">No painel **Ações em massa**, escolha **Editar licenças de produto**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-146">In the **Bulk actions** pane, select **Edit product licenses**.</span></span>
-
-4. <span data-ttu-id="3e79a-147">No painel **Atribuir produtos**, selecione **Adicionar a atribuições de licença de produto existentes** \> **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-147">In the **Assign products** pane, select **Add to existing product license assignments** \> **Next**.</span></span>
-
-5. <span data-ttu-id="3e79a-148">Alterne o botão para a posição **Ativado** nas licenças que você deseja que os usuários selecionados tenham.</span><span class="sxs-lookup"><span data-stu-id="3e79a-148">Switch the toggle to the **On** position for the licenses that you want the selected users to have.</span></span>
-
-    <span data-ttu-id="3e79a-149">Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário.</span><span class="sxs-lookup"><span data-stu-id="3e79a-149">By default, all services associated with those licenses are automatically assigned to the users.</span></span> <span data-ttu-id="3e79a-150">Você pode limitar quais serviços estão disponíveis para os usuários.</span><span class="sxs-lookup"><span data-stu-id="3e79a-150">You can limit which services are available to the users.</span></span> <span data-ttu-id="3e79a-151">Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.</span><span class="sxs-lookup"><span data-stu-id="3e79a-151">Switch the toggles to the **Off** position for the services that you don't want the users to have.</span></span>
-
-6. <span data-ttu-id="3e79a-152">Na parte inferior do painel **Adicionar a produtos existentes**, selecione **Adicionar** \> **Fechar**\> **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-152">At the bottom of the **Add to existing products** pane, select **Add** \> **Close** \> **Close**.</span></span>
+1. <span data-ttu-id="2cb8e-156">No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-156">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span>
+2. <span data-ttu-id="2cb8e-157">Selecione as caixas ao lado dos nomes dos usuários aos quais você quer atribuir licenças.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-157">Select the boxes next to the names of the users that you want to assign licenses to.</span></span>
+3. <span data-ttu-id="2cb8e-158">No painel **Ações em massa**, escolha **Editar licenças de produto**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-158">In the **Bulk actions** pane, select **Edit product licenses**.</span></span>
+4. <span data-ttu-id="2cb8e-159">No painel **Atribuir produtos**, selecione **Adicionar a atribuições de licença de produto existentes** \> **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-159">In the **Assign products** pane, select **Add to existing product license assignments** \> **Next**.</span></span>
+5. <span data-ttu-id="2cb8e-160">Alterne para a posição **Ativado** das licenças que você quer que os usuários selecionados tenham.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-160">Switch the toggle to the **On** position for the licenses that you want the selected users to have.</span></span>\
+    <span data-ttu-id="2cb8e-161">Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-161">By default, all services associated with those licenses are automatically assigned to the users.</span></span> <span data-ttu-id="2cb8e-162">Você pode limitar quais serviços estão disponíveis para os usuários.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-162">You can limit which services are available to the users.</span></span> <span data-ttu-id="2cb8e-163">Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-163">Switch the toggles to the **Off** position for the services that you don't want the users to have.</span></span>
+6. <span data-ttu-id="2cb8e-164">Na parte inferior do painel **Adicionar a produtos existentes**, selecione **Adicionar** \> **Fechar**\> **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-164">At the bottom of the **Add to existing products** pane, select **Add** \> **Close** \> **Close**.</span></span>
 
 ::: moniker-end
 
-
-## <a name="assign-licenses-to-one-user-on-the-active-users-page"></a><span data-ttu-id="3e79a-153">Atribuir licenças a um usuário na página Usuários ativos</span><span class="sxs-lookup"><span data-stu-id="3e79a-153">Assign licenses to one user on the Active users page</span></span>
-
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="3e79a-154">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="3e79a-154">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
+### <a name="assign-licenses-to-one-user"></a><span data-ttu-id="2cb8e-165">Atribuir licenças a um usuário</span><span class="sxs-lookup"><span data-stu-id="2cb8e-165">Assign licenses to one user</span></span>
 
-2. <span data-ttu-id="3e79a-155">Na página **Usuários ativos**, marque a caixa do nome do usuário para o qual você deseja atribuir uma licença.</span><span class="sxs-lookup"><span data-stu-id="3e79a-155">On the **Active Users** page, select the row of the user you want to assign a license to.</span></span>
-
-3. <span data-ttu-id="3e79a-156">No painel direito, selecione **Licenças e Aplicativos**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-156">In the right pane, select **Licenses and Apps**.</span></span>
-
-4. <span data-ttu-id="3e79a-157">Expanda a seção **Licenças**, marque as caixas das licenças que você deseja atribuir e, em seguida, selecione **salvar alterações**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-157">Expand the **Licenses** section, select the boxes for the licenses that you want to assign, then select **Save changes**.</span></span>
+1. <span data-ttu-id="2cb8e-166">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-166">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
+2. <span data-ttu-id="2cb8e-167">Selecione a linha do usuário ao qual você quer atribuir uma licença.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-167">Select the row of the user that you want to assign a license to.</span></span>
+3. <span data-ttu-id="2cb8e-168">No painel direito, selecione **Licenças e Aplicativos**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-168">In the right pane, select **Licenses and Apps**.</span></span>
+4. <span data-ttu-id="2cb8e-169">Expanda a seção **Licenças**, marque as caixas das licenças que você deseja atribuir e, em seguida, selecione **salvar alterações**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-169">Expand the **Licenses** section, select the boxes for the licenses that you want to assign, then select **Save changes**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="3e79a-158">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="3e79a-158">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>
+## <a name="assign-licenses-to-one-user"></a><span data-ttu-id="2cb8e-170">Atribuir licenças a um usuário</span><span class="sxs-lookup"><span data-stu-id="2cb8e-170">Assign licenses to one user</span></span>
 
-2. <span data-ttu-id="3e79a-159">Marque a caixa ao lado do nome do usuário a quem deseja atribuir uma licença.</span><span class="sxs-lookup"><span data-stu-id="3e79a-159">Select the box next to the name of the user you want to assign a license to.</span></span>
-
-3. <span data-ttu-id="3e79a-160">No painel direito na linha **Licenças de produto**, escolha **Editar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-160">In the right pane, in the **Product licenses** row, select **Edit**.</span></span>
-
-4. <span data-ttu-id="3e79a-161">No painel **Licenças de produto**, alterne o botão para a posição **Ativado** na licença que você deseja atribuir ao usuário.</span><span class="sxs-lookup"><span data-stu-id="3e79a-161">In the **Product licenses** pane, switch the toggle to the **On** position for the license that you want to assign to this user.</span></span>
-
-    <span data-ttu-id="3e79a-162">Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário.</span><span class="sxs-lookup"><span data-stu-id="3e79a-162">By default, all services associated with that license are automatically assigned to the user.</span></span> <span data-ttu-id="3e79a-163">Você pode limitar quais serviços estão disponíveis para os usuários.</span><span class="sxs-lookup"><span data-stu-id="3e79a-163">You can limit which services are available to the user.</span></span> <span data-ttu-id="3e79a-164">Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.</span><span class="sxs-lookup"><span data-stu-id="3e79a-164">Switch the toggles to the **Off** position for the services that you don't want that user to have.</span></span>
-
-5. <span data-ttu-id="3e79a-165">Na parte inferior do painel **Licenças de produto**, escolha **Salvar** \> **Fechar** \> **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-165">At the bottom of the **Product licenses** pane, select **Save** \> **Close** \> **Close**.</span></span>
+1. <span data-ttu-id="2cb8e-171">No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-171">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>
+2. <span data-ttu-id="2cb8e-172">Selecione a caixa ao lado do nome do usuário ao qual você quer atribuir uma licença.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-172">Select the box next to the name of the user that you want to assign a license to.</span></span>
+3. <span data-ttu-id="2cb8e-173">No painel direito, na linha **Licenças do produto**, clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-173">In the right pane, in the **Product licenses** row, select **Edit**.</span></span>
+4. <span data-ttu-id="2cb8e-174">No painel **Licenças do produto**, alterne o botão para a posição **Ativado** na licença que você quer atribuir ao usuário.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-174">In the **Product licenses** pane, switch the toggle to the **On** position for the license that you want to assign to this user.\</span></span>
+    <span data-ttu-id="2cb8e-175">Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-175">By default, all services associated with that license are automatically assigned to the user.</span></span> <span data-ttu-id="2cb8e-176">Você pode limitar quais serviços estão disponíveis para os usuários.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-176">You can limit which services are available to the user.</span></span> <span data-ttu-id="2cb8e-177">Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-177">Switch the toggles to the **Off** position for the services that you don't want that user to have.</span></span>
+5. <span data-ttu-id="2cb8e-178">Na parte inferior do painel **Licenças de produto**, escolha **Salvar** \> **Fechar** \> **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-178">At the bottom of the **Product licenses** pane, select **Save** \> **Close** \> **Close**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="3e79a-166">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="3e79a-166">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span>
+## <a name="assign-licenses-to-one-user"></a><span data-ttu-id="2cb8e-179">Atribuir licenças a um usuário</span><span class="sxs-lookup"><span data-stu-id="2cb8e-179">Assign licenses to one user</span></span>
 
-2. <span data-ttu-id="3e79a-167">Marque a caixa ao lado do nome do usuário a quem deseja atribuir uma licença.</span><span class="sxs-lookup"><span data-stu-id="3e79a-167">Select the box next to the name of the user you want to assign a license to.</span></span>
-
-3. <span data-ttu-id="3e79a-168">No painel direito na linha **Licenças de produto**, escolha **Editar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-168">In the right pane, in the **Product licenses** row, select **Edit**.</span></span>
-
-4. <span data-ttu-id="3e79a-169">No painel **Licenças de produto**, alterne o botão para a posição **Ativado** na licença que você deseja atribuir ao usuário.</span><span class="sxs-lookup"><span data-stu-id="3e79a-169">In the **Product licenses** pane, switch the toggle to the **On** position for the license that you want to assign to this user.</span></span>
-
-    <span data-ttu-id="3e79a-170">Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário.</span><span class="sxs-lookup"><span data-stu-id="3e79a-170">By default, all services associated with that license are automatically assigned to the user.</span></span> <span data-ttu-id="3e79a-171">Você pode limitar quais serviços estão disponíveis para os usuários.</span><span class="sxs-lookup"><span data-stu-id="3e79a-171">You can limit which services are available to the user.</span></span> <span data-ttu-id="3e79a-172">Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.</span><span class="sxs-lookup"><span data-stu-id="3e79a-172">Switch the toggles to the **Off** position for the services that you don't want that user to have.</span></span>
-
-5. <span data-ttu-id="3e79a-173">Na parte inferior do painel **Licenças de produto**, escolha **Salvar** \> **Fechar** \> **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-173">At the bottom of the **Product licenses** pane, select **Save** \> **Close** \> **Close**.</span></span>
+1. <span data-ttu-id="2cb8e-180">No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-180">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span>
+2. <span data-ttu-id="2cb8e-181">Selecione a caixa ao lado do nome do usuário ao qual você quer atribuir uma licença.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-181">Select the box next to the name of the user that you want to assign a license to.</span></span>
+3. <span data-ttu-id="2cb8e-182">No painel direito, na linha **Licenças do produto**, clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-182">In the right pane, in the **Product licenses** row, select **Edit**.</span></span>
+4. <span data-ttu-id="2cb8e-183">No painel **Licenças do produto**, alterne o botão para a posição **Ativado** na licença que você quer atribuir ao usuário.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-183">In the **Product licenses** pane, switch the toggle to the **On** position for the license that you want to assign to this user.\</span></span>
+    <span data-ttu-id="2cb8e-184">Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-184">By default, all services associated with that license are automatically assigned to the user.</span></span> <span data-ttu-id="2cb8e-185">Você pode limitar quais serviços estão disponíveis para os usuários.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-185">You can limit which services are available to the user.</span></span> <span data-ttu-id="2cb8e-186">Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-186">Switch the toggles to the **Off** position for the services that you don't want that user to have.</span></span>
+5. <span data-ttu-id="2cb8e-187">Na parte inferior do painel **Licenças de produto**, escolha **Salvar** \> **Fechar** \> **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="2cb8e-187">At the bottom of the **Product licenses** pane, select **Save** \> **Close** \> **Close**.</span></span>
 
 ::: moniker-end
 
-## <a name="move-users-to-a-different-subscription"></a><span data-ttu-id="3e79a-174">Migrar os usuários para outra assinatura</span><span class="sxs-lookup"><span data-stu-id="3e79a-174">Move users to a different subscription</span></span>
+## <a name="next-steps"></a><span data-ttu-id="2cb8e-188">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="2cb8e-188">Next steps</span></span>
 
-<span data-ttu-id="3e79a-175">Se você tem mais de uma assinatura e tem usuários que já têm uma licença para uma assinatura, mas deseja migrá-los para outra assinatura, é possível substituir a licença existente por outra.</span><span class="sxs-lookup"><span data-stu-id="3e79a-175">If you have more than one subscription, and you have users who already have a license for one subscription, but you want to move them to another subscription, you can replace their existing license with a different one.</span></span>
+<span data-ttu-id="2cb8e-189">Se os usuários ainda não tiverem os aplicativos do Office instalados, você poderá compartilhar a [Guia de início rápido dos funcionários](https://support.microsoft.com/office/b9700090-ce64-4046-ab92-ce8488a7bc0f) com os usuários para configurar coisas, do tipo [como baixar e instalar o Microsoft 365 ou o Office 2019 em um computador ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) e [como configurar aplicativos do Office e e-mails em um dispositivo móvel](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f).</span><span class="sxs-lookup"><span data-stu-id="2cb8e-189">If your users don't yet have the Office apps installed, you can share the [Employee quick start guide](https://support.microsoft.com/office/b9700090-ce64-4046-ab92-ce8488a7bc0f) with your users to set up things, like [how to download and install Microsoft 365 or Office 2019 on a PC or Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) and [how to set up Office apps and email on a mobile device](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f).</span></span>
 
-::: moniker range="o365-worldwide"
+## <a name="related-content"></a><span data-ttu-id="2cb8e-190">Conteúdo relacionado</span><span class="sxs-lookup"><span data-stu-id="2cb8e-190">Related content</span></span>
 
-1. <span data-ttu-id="3e79a-176">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="3e79a-176">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
-
-2. <span data-ttu-id="3e79a-177">Selecione as caixas ao lado dos nomes dos usuários para os quais você deseja substituir as licenças existentes.</span><span class="sxs-lookup"><span data-stu-id="3e79a-177">Select the circles next to the names of the users you want to replace existing licenses for.</span></span>
-
-3. <span data-ttu-id="3e79a-178">Na parte superior, selecione **mais opções (...)**, em seguida, selecione **Gerenciar licenças de produtos**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-178">At the top, select **More options (...)**, then select **Manage product licenses**.</span></span>
-
-4. <span data-ttu-id="3e79a-179">No painel **Gerenciar licenças de produtos**, selecione **Substituir atribuições de licença de produto existentes** \> **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-179">In the **Manage product licenses** pane, select **Replace existing product license assignments** \> **Next**.</span></span>
-
-5. <span data-ttu-id="3e79a-180">Alterne o botão para a posição **Ativado** nas licenças que você deseja atribuir aos usuários.</span><span class="sxs-lookup"><span data-stu-id="3e79a-180">Switch the toggle to the **On** position for the licenses that you want to assign to these users.</span></span>
-
-    <span data-ttu-id="3e79a-181">Você pode limitar quais serviços estão disponíveis para os usuários.</span><span class="sxs-lookup"><span data-stu-id="3e79a-181">You can limit which services are available to the users.</span></span> <span data-ttu-id="3e79a-182">Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.</span><span class="sxs-lookup"><span data-stu-id="3e79a-182">Switch the toggles to the **Off** position for the services that you don't want those users to have.</span></span> <span data-ttu-id="3e79a-183">Atribuições de licença para os usuários selecionados que tenham sido feitas anteriormente serão removidas. </span><span class="sxs-lookup"><span data-stu-id="3e79a-183">Any previous license assignments for the selected users are removed.</span></span>
-
-6. <span data-ttu-id="3e79a-184">Na parte inferior do painel **Substituir produtos existentes**, selecione **Substituir** \> **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-184">At the bottom of the **Replace existing products** pane, select **Replace** \> **Close**.</span></span>
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. <span data-ttu-id="3e79a-185">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="3e79a-185">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>
-
-2. <span data-ttu-id="3e79a-186">Selecione as caixas ao lado dos nomes dos usuários de que você deseja substituir as licenças existentes.</span><span class="sxs-lookup"><span data-stu-id="3e79a-186">Select the boxes next to the names of the users you want to replace existing licenses for.</span></span>
-
-3. <span data-ttu-id="3e79a-187">No painel **Ações em massa**, escolha **Editar licenças de produto**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-187">In the **Bulk actions** pane, select **Edit product licenses**.</span></span>
-
-4. <span data-ttu-id="3e79a-188">No painel **Atribuir produtos**, selecione **Substituir atribuições de licença de produto existentes** \> **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-188">In the **Assign products** pane, select **Replace existing product license assignments** \> **Next**.</span></span>
-
-5. <span data-ttu-id="3e79a-189">Alterne o botão para a posição **Ativado** nas licenças que você deseja atribuir aos usuários.</span><span class="sxs-lookup"><span data-stu-id="3e79a-189">Switch the toggle to the **On** position for the licenses that you want to assign to these users.</span></span>
-
-    <span data-ttu-id="3e79a-190">Você pode limitar quais serviços estão disponíveis para os usuários.</span><span class="sxs-lookup"><span data-stu-id="3e79a-190">You can limit which services are available to the users.</span></span> <span data-ttu-id="3e79a-191">Alterne o botão para a posição **Desativado** para os serviços que você não deseja que os usuários tenham.</span><span class="sxs-lookup"><span data-stu-id="3e79a-191">Switch the toggles to the **Off** position for the services that you don't want that users to have.</span></span> <span data-ttu-id="3e79a-192">Atribuições de licença para os usuários selecionados que tenham sido feitas anteriormente serão removidas. </span><span class="sxs-lookup"><span data-stu-id="3e79a-192">Any previous license assignments for the selected users are removed.</span></span>
-
-6. <span data-ttu-id="3e79a-193">Na parte inferior do painel **Substituir produtos existentes**, selecione \*\*Substituir \*\* \> **Fechar** \> **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-193">At the bottom of the **Replace existing products** pane, select **Replace** \> **Close** \> **Close**.</span></span>
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. <span data-ttu-id="3e79a-194">No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.</span><span class="sxs-lookup"><span data-stu-id="3e79a-194">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span>
-
-2. <span data-ttu-id="3e79a-195">Selecione as caixas ao lado dos nomes dos usuários de que você deseja substituir as licenças existentes.</span><span class="sxs-lookup"><span data-stu-id="3e79a-195">Select the boxes next to the names of the users you want to replace existing licenses for.</span></span>
-
-3. <span data-ttu-id="3e79a-196">No painel **Ações em massa**, escolha **Editar licenças de produto**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-196">In the **Bulk actions** pane, select **Edit product licenses**.</span></span>
-
-4. <span data-ttu-id="3e79a-197">No painel **Atribuir produtos**, selecione **Substituir atribuições de licença de produto existentes** \> **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-197">In the **Assign products** pane, select **Replace existing product license assignments** \> **Next**.</span></span>
-
-5. <span data-ttu-id="3e79a-198">Alterne o botão para a posição **Ativado** nas licenças que você deseja atribuir aos usuários.</span><span class="sxs-lookup"><span data-stu-id="3e79a-198">Switch the toggle to the **On** position for the licenses that you want to assign to these users.</span></span>
-
-    <span data-ttu-id="3e79a-199">Você pode limitar quais serviços estão disponíveis para os usuários.</span><span class="sxs-lookup"><span data-stu-id="3e79a-199">You can limit which services are available to the users.</span></span> <span data-ttu-id="3e79a-200">Alterne o botão para a posição **Desativado** para os serviços que você não deseja que os usuários tenham.</span><span class="sxs-lookup"><span data-stu-id="3e79a-200">Switch the toggles to the **Off** position for the services that you don't want that users to have.</span></span> <span data-ttu-id="3e79a-201">Atribuições de licença para os usuários selecionados que tenham sido feitas anteriormente serão removidas. </span><span class="sxs-lookup"><span data-stu-id="3e79a-201">Any previous license assignments for the selected users are removed.</span></span>
-
-6. <span data-ttu-id="3e79a-202">Na parte inferior do painel **Substituir produtos existentes**, selecione \*\*Substituir \*\* \> **Fechar** \> **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="3e79a-202">At the bottom of the **Replace existing products** pane, select **Replace** \> **Close** \> **Close**.</span></span>
-
-::: moniker-end
-
-## <a name="what-you-need-to-know-about-assigning-licenses-to-users"></a><span data-ttu-id="3e79a-203">O que você precisa saber sobre a atribuição de licenças a usuários </span><span class="sxs-lookup"><span data-stu-id="3e79a-203">What you need to know about assigning licenses to users</span></span>
-
-- <span data-ttu-id="3e79a-204">Você precisa ser um Administrador global, um Administrador de cobrança ou um Administrador de gerenciamento de usuários. Para obter mais informações, consulte [Sobre as funções de administrador do Microsoft 365](../add-users/about-admin-roles.md).</span><span class="sxs-lookup"><span data-stu-id="3e79a-204">You must be a Global admin, Billing admin, License admin, or User management admin. For more information, see [About Microsoft 365 admin roles](../add-users/about-admin-roles.md).</span></span>
-
-- <span data-ttu-id="3e79a-205">Você pode [atribuir licenças a contas de usuário com o Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=850410).</span><span class="sxs-lookup"><span data-stu-id="3e79a-205">You can [assign licenses to user accounts with Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=850410).</span></span>
-
-- <span data-ttu-id="3e79a-p114">Siga estas etapas para adicionar uma licença a uma conta de usuário existente. [Saiba como adicionar uma conta de usuário e atribuir uma licença ao mesmo tempo](../add-users/add-users.md)</span><span class="sxs-lookup"><span data-stu-id="3e79a-p114">Use these steps to add a license to an existing user account. [Learn how to add a user account and assign a license at the same time](../add-users/add-users.md)</span></span>
-
-- <span data-ttu-id="3e79a-208">Alguns serviços, como o Sway, são atribuídos automaticamente aos usuários e não precisam ser atribuídos individualmente.</span><span class="sxs-lookup"><span data-stu-id="3e79a-208">Some services, like Sway, are automatically assigned to users, and don't need to be assigned individually.</span></span>
-
-## <a name="related-articles"></a><span data-ttu-id="3e79a-209">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="3e79a-209">Related articles</span></span>
-
-[<span data-ttu-id="3e79a-210">Entenda as assinaturas e licenças</span><span class="sxs-lookup"><span data-stu-id="3e79a-210">Understand subscriptions and licenses</span></span>](../../commerce/licenses/subscriptions-and-licenses.md)
-
-[<span data-ttu-id="3e79a-211">Resolver conflitos de licença no Microsoft 365 for business</span><span class="sxs-lookup"><span data-stu-id="3e79a-211">Resolve license conflicts in Microsoft 365 for business</span></span>](resolve-license-conflicts.md)
-
-[<span data-ttu-id="3e79a-212">Remover licenças de usuários</span><span class="sxs-lookup"><span data-stu-id="3e79a-212">Remove licenses from users</span></span>](remove-licenses-from-users.md)
-
-[<span data-ttu-id="3e79a-213">Remover licenças da sua assinatura</span><span class="sxs-lookup"><span data-stu-id="3e79a-213">Remove licenses from your subscription</span></span>](../../commerce/licenses/remove-licenses-from-subscription.md)
-
-[<span data-ttu-id="3e79a-214">Comprar licenças para sua assinatura</span><span class="sxs-lookup"><span data-stu-id="3e79a-214">Buy licenses for your subscription</span></span>](../../commerce/licenses/buy-licenses.md)
+<span data-ttu-id="2cb8e-191">[Compreender assinaturas e licenças](../../commerce/licenses/subscriptions-and-licenses.md) (artigo)</span><span class="sxs-lookup"><span data-stu-id="2cb8e-191">[Understand subscriptions and licenses](../../commerce/licenses/subscriptions-and-licenses.md) (article)</span></span>\
+<span data-ttu-id="2cb8e-192">[Cancelar a atribuição de licenças de usuários](remove-licenses-from-users.md) (artigo)</span><span class="sxs-lookup"><span data-stu-id="2cb8e-192">[Unassign licenses from users](remove-licenses-from-users.md) (article)</span></span>\
+<span data-ttu-id="2cb8e-193">[Compre ou remova licenças da sua assinatura](../../commerce/licenses/buy-licenses.md) (artigo)</span><span class="sxs-lookup"><span data-stu-id="2cb8e-193">[Buy or remove licenses for your subscription](../../commerce/licenses/buy-licenses.md) (article)</span></span>
