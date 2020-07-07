@@ -15,12 +15,11 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: 633e54dc2b3c83d0d6778176318512b03bd073a8
-ms.sourcegitcommit: aab8b94ea8a9d4f7c6b911d6dc5cde70722e00e5
-ms.translationtype: HT
+ms.openlocfilehash: 7090a9fcc279f9bedc5f86b43952a12e988069e1
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44869851"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049911"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Office e do Windows
 
@@ -52,12 +51,13 @@ Além disso, o laboratório foi projetado para ser conectado aos testes do:
 
 ## <a name="step-by-step-labs"></a>Laboratórios passo a passo
 
-Detalhados guias de laboratório o conduzem por vários cenários de implantação e gerenciamento. Os laboratórios foram atualizados para as versões mais recentes do Intune e do Configuration Manager (versão 1910). 
+Detalhados guias de laboratório o conduzem por vários cenários de implantação e gerenciamento. Os laboratórios foram atualizados para as versões mais recentes do Intune e do Configuration Manager. 
 
 ### <a name="device-and-app-readiness"></a>Preparação de dispositivos e aplicativos
 
   - Análise de Área de Trabalho
   - NOVO! Implantar e atualizar o novo Microsoft Edge 
+  - NOVO! Instalar e configurar o Gateway de Gerenciamento de Nuvem (CMG) 
   - Modo do Internet Explorer 
   - Application Guard 
 
@@ -91,7 +91,8 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
   - Windows Defender Application Guard
   - Windows Defender Exploit Guard
   - Controle de Aplicativos do Windows Defender
-  - Proteção Avançada Contra Ameaças do Windows Defender
+  - Proteção avançada contra ameaças do Windows Defender
+  - NOVO! Segurança do ponto de extremidade 
 
 ### <a name="os-deployment-and-feature-updates"></a>Implantação de Sistema Operacional e Atualizações de Recursos
 
@@ -105,6 +106,8 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
   - Gerenciar atualizações do Windows usando a Política de Grupo
   - Manutenção do Windows 10 com o Configuration Manager e o Intune
   - Manutenção do Microsoft 365 Apps para Grandes Empresas com o Gerenciador de Configurações
+  - NOVO! Atualizações do Office com o Configuration Manager Intune
+  - NOVO! Instalar o Microsoft Teams 
 
 ### <a name="new-windows-virtual-desktop"></a>NOVO! Área de Trabalho Virtual do Windows
   - Área de trabalho virtual do Windows: preparar, implantar, otimizar 

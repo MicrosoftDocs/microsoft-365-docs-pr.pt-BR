@@ -17,16 +17,15 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Use os serviços de segurança e conformidade do Microsoft 365 para proteger seus aplicativos, dados e dispositivos para funcionários remotos.
-ms.openlocfilehash: f1c6f509477b4f4523951a64e6b4298753a1519d
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
-ms.translationtype: HT
+ms.openlocfilehash: d8419c00bc4d8b99d9456abafbd5869ca26f4556
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005989"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049855"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>Etapa 3: implantar segurança e conformidade para funcionários remotos
 
-Para funcionários remotos, alguns dos quais nunca vêm ao escritório ou vêm muito raramente, a segurança e a conformidade são uma parte importante da solução. Todas as comunicações ocorrem pela Internet, em vez de serem confinadas a uma intranet organizacional. 
+Para funcionários remotos, alguns dos quais nunca vão ao escritório ou vão raramente, a segurança e a conformidade são uma parte importante da solução. Todas as comunicações ocorrem pela Internet, em vez de serem confinadas a uma intranet organizacional. 
 
 Há algo que você e seus funcionários podem fazer para se manterem produtivos, ao mesmo tempo que reduz o risco de segurança cibernética e mantém a conformidade com suas políticas internas e normas de dados.
 
@@ -47,7 +46,7 @@ Proteja seus aplicativos e dados com estes recursos de segurança do Microsoft 3
 
 | Capcidade ou recurso | Descrição | Licenças |
 |:-------|:-----|:-------|
-| Proteção Avançada contra Ameaças do Office (ATP) | Proteja seus aplicativos e dados da Microsoft 365— como mensagens de email, documentos do Office e ferramentas de colaboração—de um ataque. <br><br> O ATP do Office coleta e analisa sinais de seus aplicativos para detecção, investigação e correção de riscos de segurança e salvaguarda a sua organização contra ameaças maliciosas, representadas por mensagens de email, links (URLs) e ferramentas de colaboração. | Microsoft 365 E3 e E5 | 
+| Proteção Avançada contra Ameaças do Office 365 (ATP) | Proteja seus aplicativos e dados da Microsoft 365— como mensagens de email, documentos do Office e ferramentas de colaboração—de um ataque. <br><br> O ATP do Office coleta e analisa sinais de seus aplicativos para detecção, investigação e correção de riscos de segurança e salvaguarda a sua organização contra ameaças maliciosas, representadas por mensagens de email, links (URLs) e ferramentas de colaboração. | Microsoft 365 E3 e E5 | 
 | Proteção contra malware | O Windows Defender Antivirus e o Windows Device Guard fornecem proteção contra malware baseada em dispositivo. <br><br> O SharePoint online examina automaticamente os carregamentos de arquivos para malwares conhecidos. ‎<br><br> A proteção do Exchange Online (EOP) protege as caixas de correio na nuvem. | Microsoft 365 E3 e E5 |
 | Microsoft Defender ATP | Proteja os dispositivos da sua organização contra violações de dados e ameaças cibernéticas e detecte, investigue e responda a ameaças avançadas. | Microsoft 365 E5 |
 | Microsoft Cloud App Security | Proteja os serviços baseados em nuvem—tanto o Microsoft 365 quanto outros aplicativos SaaS — contra ataque. | Licença do Microsoft 365 E5 ou licença individual do Microsoft Cloud App Security |

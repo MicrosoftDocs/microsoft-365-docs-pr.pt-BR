@@ -20,12 +20,11 @@ description: Aprenda a verificar seu domínio e criar registros DNS em qualquer 
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: a9809dda90bc9eb4a8241f94f48f7f7842df9af9
-ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
-ms.translationtype: HT
+ms.openlocfilehash: d3a9e3787afc30b33122edf91c1cf9e3dd84b847
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44419119"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049661"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>Adicionar registros DNS para conectar seu domínio
 
@@ -127,7 +126,7 @@ Verifique se os campos estão definidos para os seguintes valores para cada:
 
 Salve o registro.
 
-#### <a name="srv-record-feild-restrictions-and-workarounds"></a>Restrições e soluções alternativas para campos de registro SRV
+#### <a name="srv-record-field-restrictions-and-workarounds"></a>Restrições e soluções alternativas para campos de registro SRV
 Alguns provedores de hospedagem impõem restrições aos valores dos campos dentro de registros SRV. Aqui estão algumas soluções alternativas comuns para essas restrições.
 
 ##### <a name="name"></a>Nome

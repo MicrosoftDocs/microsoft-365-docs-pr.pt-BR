@@ -17,11 +17,11 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: 869f457ddb64e5d828dcb5f1244ba779f889e8c9
-ms.sourcegitcommit: e3900c818877c2cdcd227917ec975c03e828c7ea
+ms.openlocfilehash: ead16cf4d89b5dbea2fee4a6669f537a0338984e
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44861158"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049845"
 ---
 # <a name="learn-about-retention-policies-for-microsoft-teams"></a>Saiba mais sobre as políticas de retenção para o Microsoft Teams
 
@@ -53,7 +53,7 @@ Quando a política de retenção for reter e excluir:
 > [!NOTE]
 > As mensagens na pasta SubstrateHolds são pesquisáveis por ferramentas de descoberta eletrônica. Após a exclusão permanente de uma mensagem, ela não será exibida em uma pesquisa de descoberta eletrônica.
 
-Quando a política de retenção for reter somente ou excluir somente, os caminhos de conteúdo serão variações de reter e excluir:
+Quando a política de retenção é somente retenção ou somente exclusão, os caminhos de conteúdo serão variações de reter e excluir.
 
 ### <a name="content-paths-for-retain-only-retention-policy"></a>Caminhos de conteúdo para a política de retenção reter somente
 
@@ -61,7 +61,7 @@ Quando a política de retenção for reter somente ou excluir somente, os caminh
 
 2. **Se o item não for modificado ou excluído** durante o período de retenção: nada acontece antes e depois do período de retenção; o item permanecerá no local original.
 
-#### <a name="content-paths-for-delete-only-retention-policy"></a>Caminhos de conteúdo para a política de retenção somente excluir
+### <a name="content-paths-for-delete-only-retention-policy"></a>Caminhos de conteúdo para a política de retenção somente excluir
 
 1. **Se a mensagem não for excluída** durante o período de retenção: no final do período de retenção, a mensagem será movida para a pasta SubstrateHolds. 
 
@@ -97,7 +97,6 @@ Quando usuários externos são incluídos em uma reunião hospedada por sua orga
 
 - Se um usuário externo ingressar na reunião usando uma conta do Microsoft 365 de outra organização, suas políticas de retenção não podem excluir as mensagens para esse usuário porque elas são armazenadas na caixa de correio desse usuário em outro locatário. No entanto, as políticas de retenção podem excluir mensagens para os seus usuários.
 
-
 ## <a name="when-a-user-leaves-the-organization"></a>Quando um usuário sair da organização 
 
 Se um usuário deixar sua organização e a conta do Office 365 for excluída, as mensagens de bate-papo sujeitas a retenção serão armazenadas em uma caixa de correio inativa. As mensagens de bate-papo permanecem sujeitas a qualquer política de retenção que foi colocada no usuário antes da sua caixa de correio ser desativada, e o conteúdo fica disponível para uma pesquisa de descoberta eletrônica. Para obter mais informações, consulte [Caixas de correio inativas no Exchange Online](inactive-mailboxes-in-office-365.md). 
@@ -108,11 +107,11 @@ Se o usuário tiver armazenado os arquivos no Teams, consulte a [seção equival
 
 Estamos trabalhando continuamente para otimizar a funcionalidade de retenção no Teams. Enquanto isso, estas são algumas limitações a considerar:
   
-- **O Teams exige uma política de retenção independente**. Ao criar uma política de retenção e ativar os locais do Teams, todos os demais locais são desativados. Uma política de retenção que inclui o Teams só pode incluí-lo e nenhum outro local. 
-    
-- **O Teams não está incluído em uma política no âmbito de toda a organização**. Se criar uma política no âmbito da organização, o Teams não estará incluído, porque ele exige uma política de retenção independente. 
-    
-- **O Teams não é compatível com retenção avançada.** Ao criar uma política de retenção, se você escolher as [Configurações avançadas para identificar conteúdo que atende a determinadas condições](create-retention-policies.md#advanced-settings-to-identify-content-that-meets-specific-conditions), os locais do Teams não estarão disponíveis. Atualmente, a retenção no Teams se aplica a todo o conteúdo de chat e de mensagem de canal quando você seleciona esses locais. 
+- **O Teams exige uma política de retenção independente**. Ao criar uma política de retenção e ativar os locais do Teams, todos os demais locais são desativados. Uma política de retenção que inclui o Teams só pode incluí-lo e nenhum outro local.
+
+- **O Teams não está incluído em uma política no âmbito de toda a organização**. Se criar uma política no âmbito da organização, o Teams não estará incluído, porque ele exige uma política de retenção independente.
+
+- **O Teams não é compatível com retenção avançada.** Ao criar uma política de retenção, se você escolher as [Configurações avançadas para identificar conteúdo que atende a determinadas condições](create-retention-policies.md#advanced-settings-to-identify-content-that-meets-specific-conditions), os locais do Teams não estarão disponíveis. Atualmente, a retenção no Teams se aplica a todo o conteúdo de chat e de mensagem de canal quando você seleciona esses locais.
 
 - **As mensagens do Teams em canais privados não são incluídas quando você configura uma política de retenção para mensagens de canal do Teams**. Em vez disso, as mensagens de canais privados são incluídas para os usuários como conversas em grupo com a opção **chats do Teams**. 
     
@@ -123,7 +122,7 @@ Estamos trabalhando continuamente para otimizar a funcionalidade de retenção n
 
 - **Problema de exibição incorreto no Outlook**. Se você criar políticas de retenção para os locais do Skype ou Teams, uma dessas políticas será exibida como a política de pasta padrão quando um usuário exibir as propriedades de uma pasta de caixa de correio no cliente da área de trabalho do Outlook. Esse é um problema de exibição incorreta no Outlook e [um problema conhecido](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies). O que deve ser exibido como a política de pasta padrão é a política de retenção da caixa de correio aplicada à pasta. A política de retenção do Skype ou Teams não é aplicada à caixa de correio do usuário.
 
-- **Problemas de configuração **: 
+- **Problemas de configuração **:
     - Ao selecionar **Escolher equipes** para a linha de localização**mensagens de canal do Teams**, você pode ver outros grupos do Office 365 que não são equipes. Não selecione esses grupos.
     
     - Ao **Escolher usuários** para o local **Chats do Teams**, você poderá ver convidados e usuários sem caixa de correio. As políticas de retenção não são projetadas para esses usuários, portanto, não os selecione.
