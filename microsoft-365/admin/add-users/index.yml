@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Gerenciar usuários e grupos
-summary: Confira estes recursos para ajudar os administradores com tarefas comuns ou confira o painel de navegação à esquerda para obter uma lista completa.
+summary: Confira esses recursos para ajudar administradores com tarefas comuns ou confira o painel de navegação à esquerda para obter uma lista completa.
 metadata:
   title: Gerenciar usuários e grupos
   description: Gerenciar senhas, adicionar e remover usuários, configurar grupos e gerenciar licenças
@@ -14,7 +14,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 25b100e8f685c94d3dccc290e8f80b25e24a6d9b
   ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: pt-BR
   ms.lasthandoff: 06/18/2020
   ms.locfileid: "44785467"
@@ -27,7 +27,7 @@ landingContent:
       url: add-users.md
     - text: Editar um usuário
       url: add-users.md
-    - text: Adicionar convidados a um grupo do Microsoft 365
+    - text: Adicionar usuários convidados a um grupo do Microsoft 365
       url: ../create-groups/manage-guest-access-in-groups.md
     - text: Adicionar outro endereço de email
       url: ../email/add-another-email-alias-for-a-user.md
@@ -41,7 +41,7 @@ landingContent:
       url: about-guest-users.md
     - text: Usar seu domínio personalizado
       url: ../email/change-email-address.md
-    - text: Atualizar os usuários para os aplicativos mais recentes do Office
+    - text: Atualizar os usuários para os aplicativos mais recentes
       url: ../setup/upgrade-users-to-latest-office-client.md
 - title: Gerenciamento de grupos
   linkLists:
@@ -51,9 +51,9 @@ landingContent:
       url: ../create-groups/create-groups.md
     - text: Adicionar membros
       url: ../create-groups/add-or-remove-members-from-groups.md
-    - text: Restaurar ou recuperar um grupo excluído
+    - text: Restaure ou recupere um grupo excluído
       url: ../create-groups/restore-deleted-group.md
-    - text: Gerenciar o acesso de convidados em grupos
+    - text: Gerenciar o acesso do convidado em grupos
       url: ../create-groups/manage-guest-access-in-groups.md
 - title: Gerenciar senhas
   linkLists:
@@ -65,7 +65,7 @@ landingContent:
       url: set-password-to-never-expire.md
     - text: Permitir que os usuários redefinam as próprias senhas
       url: let-users-reset-passwords.md
-    - text: Definir a política de expiração de senha para sua organização
+    - text: Definir a política de expiração de senha
       url: ../manage/set-password-expiration-policy.md
     - text: Redefinir senha de administrador
       url: reset-passwords.md#reset-my-admin-password

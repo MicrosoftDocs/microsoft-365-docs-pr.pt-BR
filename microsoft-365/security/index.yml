@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: f97f9b3eed2ec9eed95b1f4ec57a3b055d8c4925
   ms.sourcegitcommit: b57d597edbff5ab6cff8c2b04d27c15b0024776f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: pt-BR
   ms.lasthandoff: 05/01/2020
   ms.locfileid: "43997521"
@@ -32,13 +32,13 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Avaliar a proteção contra ameaças da Microsoft
+    - text: Avaliar Proteção contra Ameaças da Microsoft
       url: mtp/mtp-evaluation.md
-- title: Proteger sua força de obra remota
+- title: Proteja sua força de trabalho remota
   linkLists:
   - linkListType: get-started
     links:
-    - text: Proteger sua força de obra remota
+    - text: Proteja sua força de trabalho remota
       url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
 - title: Azure ATP
   linkLists:
