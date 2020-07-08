@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Trabalhar com clientes
-summary: Confira estes recursos para ajudar os administradores com tarefas comuns ou confira o painel de navegação à esquerda para obter uma lista completa.
+summary: Confira esses recursos para ajudar administradores com tarefas comuns ou confira o painel de navegação à esquerda para obter uma lista completa.
 metadata:
   title: Trabalhar com clientes
-  description: Compartilhar documentos e usar o Microsoft Teams para colaboração e reunião
+  description: Compartilhe documentos e use o Teams para colaboração e reunião.
   ms.service: O365-administration
   ms.topic: landing-page
   author: sirkkuw
@@ -13,7 +13,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 80aea7aef92cd584df0c35b0d14ec71e0ad738b7
   ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: pt-BR
   ms.lasthandoff: 06/18/2020
   ms.locfileid: "44785455"
@@ -30,11 +30,11 @@ landingContent:
     links:
     - text: Criar uma equipe com convidados
       url: https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7
-    - text: Ingressar em uma equipe como convidado
+    - text: Participe de uma equipe como convidado
       url: https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824
     - text: Converse com funcionários e clientes
       url: https://support.microsoft.com/office/65748808-a403-462c-a6e1-b169e5bc6c92
-    - text: Agendar uma reunião do teams com usuários convidados
+    - text: Agendar uma reunião no Teams com convidados
       url: https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a
     - text: Participe de uma reunião do Teams com convidados
       url: https://support.microsoft.com/office/a120c282-063d-46b8-b973-851197ab75d8
