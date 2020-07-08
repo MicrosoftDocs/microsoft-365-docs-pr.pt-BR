@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Saiba como um administrador global pode alterar o endereço de e-mail e o nome de exibição de um usuário. '
-ms.openlocfilehash: 0c94114a50ce369ffb809e8f41060994f635a36c
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: fedc1532bfec246392180d386a6960dbb08bd137
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936522"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079708"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Alterar o nome de exibição e o endereço de email de um usuário
 
@@ -50,7 +50,7 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
     
 2. Selecione o nome do usuário e, em seguida, na guia **Conta** selecione **Gerenciar nome de usuário**.
     
-3. Na primeira caixa, digite a primeira parte do novo endereço de email. Se você adicionou seu próprio domínio ao Office 365, escolha o domínio para o novo alias de email usando a lista suspensa. 
+3. Na primeira caixa, digite a primeira parte do novo endereço de email. Se você adicionou seu próprio domínio ao Microsoft 365, escolha o domínio para o novo alias de email usando a lista suspensa. 
 
 4. Selecione **Salvar alterações**.
 
@@ -63,7 +63,7 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
 
 2. Selecione o usuário. No painel de atalho, ao lado de **Nome de usuário/ E-mail**, selecione **Editar**.
 
-3. Na primeira caixa, digite a primeira parte do novo endereço de email. Se você adicionou seu próprio domínio ao Office 365, será possível escolher o domínio para o novo alias de email usando a lista suspensa.
+3. Na primeira caixa, digite a primeira parte do novo endereço de email. Se você adicionou seu próprio domínio ao Microsoft 365, é possível escolher o domínio para o novo alias de email usando a lista suspensa.
 
 4. Selecione **Salvar**.
 
@@ -75,7 +75,7 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
 
 2. Selecione o usuário. No painel de atalho, ao lado de **Nome de usuário/ E-mail**, selecione **Editar**.
 
-3. Na primeira caixa, digite a primeira parte do novo endereço de email. Se você adicionou seu próprio domínio ao Office 365, será possível escolher o domínio para o novo alias de email usando a lista suspensa.
+3. Na primeira caixa, digite a primeira parte do novo endereço de email. Se você adicionou seu próprio domínio ao Microsoft 365, é possível escolher o domínio para o novo alias de email usando a lista suspensa.
 
 4. Selecione **Salvar**.
 
@@ -93,7 +93,7 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
 
 3. Escolha **Definir como Principal** para o endereço de e-mail que quer configurar como o principal para aquela pessoa. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Office 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
     
     Além disso, você só verá essa opção se for um administrador global. Se não vir a opção, você não possui as permissões necessárias para alterar o nome e endereço de email principal do usuário.
   
@@ -121,7 +121,7 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
 
 3. Escolha **Definir como Principal** para o endereço de e-mail que quer configurar como o principal para aquela pessoa. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Office 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
     
     Além disso, você só verá essa opção se for um administrador global. Se não vir a opção, você não possui as permissões necessárias para alterar o nome e endereço de email principal do usuário.
   
@@ -131,7 +131,7 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
  
   - Essa alteração pode demorar um pouco para entrar em vigor.
   
-  - What their new username is. They'll need it to sign in to Office 365.
+  - What their new username is. They'll need it to sign in to Microsoft 365.
     
   - Se ele estiver usando o Skype for Business Online, informe que ela deverá reagendar todas as reuniões do Skype for Business Online que organizou e que será preciso pedir aos contatos externos que atualizem as antigas informações de contato.
 
@@ -149,7 +149,7 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
 
 3. Escolha **Definir como Principal** para o endereço de e-mail que quer configurar como o principal para aquela pessoa. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Office 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
     
     Além disso, você só verá essa opção se for um administrador global. Se não vir a opção, você não possui as permissões necessárias para alterar o nome e endereço de email principal do usuário.
   
@@ -159,7 +159,7 @@ Você terá de ser um [administrador global ](about-admin-roles.md) para executa
  
   - Essa alteração pode demorar um pouco para entrar em vigor.
   
-  - What their new username is. They'll need it to sign in to Office 365.
+  - What their new username is. They'll need it to sign in to Microsoft 365.
     
   - Se ele estiver usando o Skype for Business Online, informe que ela deverá reagendar todas as reuniões do Skype for Business Online que organizou e que será preciso pedir aos contatos externos que atualizem as antigas informações de contato.
 
@@ -234,7 +234,7 @@ Some people might continue to send email to the person's old email address and d
 
 If they are using Exchange Online or if their account is linked with your organization's on-premises Exchange environment, you might see this error when you try to change a username and email address: "This user is synchronized with your local Active Directory. Some details can be edited only through your local Active Directory."
   
-This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it cannot be modified or removed in Office 365. You can subsequently change the username in the Active Directory, but it doesn't change the MOERA and you may run into issues displaying the newly changed name in the Global Address List. 
+This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it cannot be modified or removed in Microsoft 365. You can subsequently change the username in the Active Directory, but it doesn't change the MOERA and you may run into issues displaying the newly changed name in the Global Address List. 
   
 Para corrigir isso, faça logon no [Módulo Azure Active Directory para PowerShell]( https://go.microsoft.com/fwlink/?LinkId=823193) com suas credenciais de administrador do Microsoft 365. e use a seguinte sintaxe: 
   
