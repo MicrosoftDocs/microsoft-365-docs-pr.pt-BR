@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Gerenciar emails e calendários
-summary: Confira estes recursos para ajudar os administradores com tarefas comuns ou confira o painel de navegação à esquerda para obter uma lista completa.
+summary: Confira esses recursos para ajudar administradores com tarefas comuns ou confira o painel de navegação à esquerda para obter uma lista completa.
 metadata:
   title: Gerenciar emails e calendários
-  description: Gerenciar configurações de email, grupos de distribuição, configurações de segurança e configurar caixas de correio compartilhadas
+  description: Gerencie as configurações de email, grupos de distribuição, configurações de segurança e configure caixas de correio compartilhadas.
   ms.service: O365-administration
   ms.topic: landing-page
   author: sirkkuw
@@ -13,16 +13,16 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: c35874ec774b0e8753b0bfacb2dd795a4f000188
   ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: pt-BR
   ms.lasthandoff: 06/17/2020
   ms.locfileid: "44780212"
 landingContent:
-- title: Gerenciar email
+- title: Gerenciar e-mail
   linkLists:
   - linkListType: overview
     links:
-    - text: Gerenciar configurações de email do usuário
+    - text: Configurações de email do usuário
       url: office-365-user-email-settings.md
     - text: Sobre a colaboração por email
       url: email-collaboration.md
@@ -42,7 +42,7 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Definir configurações de caixa de correio compartilhada
+    - text: Configurar caixa de correio compartilhada
       url: configure-a-shared-mailbox.md
     - text: Converter uma caixa de correio do usuário em uma caixa de correio compartilhada
       url: convert-user-mailbox-to-shared-mailbox.md
@@ -54,19 +54,19 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Gerenciar seu calendário e contatos no Outlook
+    - text: Gerenciar calendário e contatos no outlook
       url: https://support.microsoft.com/office/631a182a-21e0-4e41-8fa2-0d83e55da02d
   - linkListType: video
     links:
-    - text: Criar um calendário compartilhado
+    - text: Criar calendário compartilhado
       url: https://support.microsoft.com/office/8385667b-d758-4489-a53f-f542dd01e6ff
-- title: Solucionar problemas de conexão e de entrega dos e-mails
+- title: Solucionar problemas de conexão e de entrega dos emails
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Localizar e corrigir problemas de entrega de e-mails
+    - text: Localizar e corrigir problemas de entrega dos emails
       url: https://docs.microsoft.com/exchange/troubleshoot/mail-delivery/email-delivery-issues
-    - text: Corrigir e localizar problemas após adicionar o domínio ou registros DNS
+    - text: Localizar e corrigir problemas após a adição do seu domínio ou de registros DNS
       url: ../get-help-with-domains/find-and-fix-issues.md
     - text: Recuperar emails excluídos em uma caixa de correio de usuário
       url: https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox

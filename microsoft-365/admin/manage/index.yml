@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Gerenciar seus dados e serviço
-summary: Confira estes recursos para ajudar os administradores com tarefas comuns ou confira o painel de navegação à esquerda para obter uma lista completa.
+title: Gerenciar seus dados e serviços
+summary: Confira esses recursos para ajudar administradores com tarefas comuns ou confira o painel de navegação à esquerda para obter uma lista completa.
 metadata:
-  title: Gerenciar seus dados e serviço
+  title: Gerenciar seus dados e serviços
   description: Monitore o status do serviço, faça backup dos dados, instale suplementos e atualize para os aplicativos mais recentes
   ms.service: O365-administration
   ms.topic: landing-page
@@ -13,7 +13,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 3aba9a081fadb85a3c052d0b11d6ff49dbffa0ca
   ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: pt-BR
   ms.lasthandoff: 06/17/2020
   ms.locfileid: "44780092"
@@ -36,13 +36,13 @@ landingContent:
       url: release-options-in-office-365.md
     - text: Mostrar ou ocultar novos recursos
       url: show-hide-new-features.md
-- title: Bloquear o acesso do usuário e fazer backup dos dados
+- title: Bloquear o acesso do usuário e fazer o backup dos dados
   linkLists:
   - linkListType: how-to-guide
     links:
     - text: Acessar e fazer backup dos dados de um usuário anterior
       url: ../add-users/get-access-to-and-back-up-a-former-user-s-data.md
-    - text: Configurar a retenção de email (Microsoft 365 Business Premium)
+    - text: Configurar a retenção de emails (Microsoft 365 Business Premium)
       url: ../../business/set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
     - text: Remover dados da empresa de dispositivos (Microsoft 365 Business Premium)
       url: ../../business/remove-company-data.md
@@ -50,7 +50,7 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Atualizar os usuários para os aplicativos mais recentes do Office
+    - text: Atualizar os usuários para os aplicativos mais recentes
       url: ../setup/upgrade-users-to-latest-office-client.md
     - text: Personalizar o inicializador de aplicativos
       url: customize-the-app-launcher.md
@@ -64,23 +64,23 @@ landingContent:
     links:
     - text: Documentação de administração do Microsoft Teams
       url: https://docs.microsoft.com/en-us/microsoftteams/
-    - text: Usar o Outlook e o Microsoft Teams juntos
+    - text: Usar o Outlook e o Teams juntos
       url: https://support.microsoft.com/office/9bc459c4-ce13-479b-b88b-b8ae49092732
   - linkListType: learn
     links:
-    - text: Treinamento do Microsoft Teams
+    - text: Treinamento para o Microsoft Teams
       url: https://support.microsoft.com/office/4f108e54-240b-4351-8084-b1089f0d21d7
 - title: OneDrive e SharePoint
   linkLists:
   - linkListType: overview
     links:
-    - text: Documentação do SharePoint para profissionais de ti e administradores
+    - text: Documentação do SharePoint para profissionais de TI e administradores
       url: https://docs.microsoft.com/sharepoint/
-    - text: Documentação do OneDrive para profissionais de ti e administradores
+    - text: Documentação do OneDrive para profissionais de TI e administradores
       url: https://docs.microsoft.com/onedrive/
   - linkListType: how-to-guide
     links:
     - text: Gerenciar o compartilhamento no OneDrive e no SharePoint
       url: https://docs.microsoft.com/onedrive/manage-sharing
-    - text: Criar e gerenciar sites.
+    - text: Criar e gerenciar sites
       url: https://docs.microsoft.com/sharepoint/manage-sites-in-new-admin-center
