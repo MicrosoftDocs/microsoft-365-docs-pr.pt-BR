@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Saiba como você pode ter mais de um endereço de email, chamado alias de email, associado à sua conta do Microsoft 365 for Business. '
-ms.openlocfilehash: c0e71ef150ccf592ea4f808a5e6609e1675767a4
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 030d8022a8503f6b383d03b0dd97720f66d8f2f6
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780284"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080010"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Adicionar outro alias de email para um usuário
 
@@ -59,7 +59,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
   
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 
 2. Na página **usuários ativos** , selecione o usuário > **gerenciar aliases de email**. Você não verá essa opção se a pessoa não tiver uma licença atribuída a elas. 
     
@@ -73,12 +73,12 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     > Se você comprou a assinatura da GoDaddy ou de outro parceiro, vá até o respectivo console de gerenciamento para definir o novo alias como principal. 
   
     > [!TIP]
-    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Adicionar um domínio ao Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). 
+    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Adicionar um domínio ao Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). 
   
      
 5. Quando terminar, escolha **salvar alterações**.
     
-6. Aguarde 24 horas para que os novos aliases sejam populados em todo o Office 365.
+6. Aguarde 24 horas para que os novos aliases sejam preenchidos no Microsoft 365.
     
     O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal do Eliza Hoffman, o Eliza@NodPublishers.com e o alias, Sales@NodPublishers.com, vão para a caixa de entrada de Eliza.
     
@@ -89,7 +89,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
 
 ::: moniker range="o365-germany"
     
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>. 
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>. 
     
     
 2. Na página **Usuários ativos**, selecione o nome da pessoa que você deseja editar.
@@ -99,17 +99,17 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     > [!Important] 
     > Se você receber a mensagem de erro "**não é possível localizar um parâmetro que corresponda ao nome de parâmetro" EmailAddresses**", significa que está demorando muito mais para concluir a configuração do seu locatário ou do seu domínio personalizado, se você tiver adicionado um pouco mais. O processo de configuração pode levar até quatro horas para ser concluído. Aguarde um pouco até ele terminar e tente novamente. Se o problema persistir, peça ao Suporte para fazer uma sincronização completa para você.
 
-4. Na caixa de texto em **alias**, digite a primeira parte do novo alias de email. Se você adicionou seu próprio domínio ao Office 365, será possível escolher o domínio para o novo alias de email usando a lista suspensa. Em seguida, selecione **OK**.
+4. Na caixa de texto em **alias**, digite a primeira parte do novo alias de email. Se você adicionou seu próprio domínio ao Microsoft 365, é possível escolher o domínio para o novo alias de email usando a lista suspensa. Em seguida, selecione **OK**.
 
     > [!IMPORTANT]
     > Se você comprou a assinatura da GoDaddy ou de outro parceiro, vá até o respectivo console de gerenciamento para definir o novo alias como principal. 
   
     > [!TIP]
-    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Adicionar um domínio ao Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). 
+    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Adicionar um domínio ao Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). 
 
-5. Quando terminar, selecione **salvar**.
+5. Quando terminar, selecione**Salvar**.
 
-6. Aguarde 24 horas para que os novos aliases sejam populados em todo o Office 365. 
+6. Aguarde 24 horas para que os novos aliases sejam preenchidos no Microsoft 365. 
     
     O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal do Eliza Hoffman, o Eliza@NodPublishers.com e o alias, Sales@NodPublishers.com, vão para a caixa de entrada de Eliza.
     
@@ -120,7 +120,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>. 
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>. 
 
     
 2. Na página **Usuários ativos**, selecione o nome da pessoa que você deseja editar.
@@ -130,17 +130,17 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     > [!Important] 
     > Se você receber a mensagem de erro "**não é possível localizar um parâmetro que corresponda ao nome de parâmetro" EmailAddresses**", significa que está demorando muito mais para concluir a configuração do seu locatário ou do seu domínio personalizado, se você tiver adicionado um pouco mais. O processo de configuração pode levar até quatro horas para ser concluído. Aguarde um pouco até ele terminar e tente novamente. Se o problema persistir, peça ao Suporte para fazer uma sincronização completa para você.
 
-4. Na caixa de texto em **alias**, digite a primeira parte do novo alias de email. Se você adicionou seu próprio domínio ao Office 365, será possível escolher o domínio para o novo alias de email usando a lista suspensa. Em seguida, selecione **OK**.
+4. Na caixa de texto em **alias**, digite a primeira parte do novo alias de email. Se você adicionou seu próprio domínio ao Microsoft 365, é possível escolher o domínio para o novo alias de email usando a lista suspensa. Em seguida, selecione **OK**.
 
     > [!IMPORTANT]
     > Se você comprou a assinatura da GoDaddy ou de outro parceiro, vá até o respectivo console de gerenciamento para definir o novo alias como principal. 
   
     > [!TIP]
-    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Adicionar um domínio ao Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). 
+    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Adicionar um domínio ao Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). 
 
-5. Quando terminar, selecione **salvar**.
+5. Quando terminar, selecione**Salvar**.
 
-6. Aguarde 24 horas para que os novos aliases sejam populados em todo o Office 365. 
+6. Aguarde 24 horas para que os novos aliases sejam preenchidos no Microsoft 365. 
     
     O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal do Eliza Hoffman, o Eliza@NodPublishers.com e o alias, Sales@NodPublishers.com, vão para a caixa de entrada de Eliza.
     

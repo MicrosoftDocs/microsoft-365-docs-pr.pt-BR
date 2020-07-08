@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Descubra as etapas de configuração para o Microsoft 365 Business Premium, incluindo a adição de um domínio e usuários, a configuração de políticas de segurança e muito mais.
-ms.openlocfilehash: 89186fbd00e47385f0320c45f7fc44c258742aa3
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: efa7934ece0dfeac3c4b20daa37da6f1160901e7
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785695"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079804"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Configurar o Microsoft 365 Business Premium no assistente de configuração
 
@@ -49,61 +49,61 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 
 Ao comprar o Microsoft 365 Business Premium, você tem a opção de usar um domínio de sua propriedade ou comprar um durante a [inscrição](sign-up.md).
 
-- Se você comprou um novo domínio ao se inscrever, seu domínio está configurado e você pode mover para [Adicionar usuários e atribuir licenças](#add-users-and-assign-licenses).
+- Se você comprou um novo domínio quando se inscreveu, seu domínio está configurado e você pode passar para [Adicionar usuários e atribuir licenças](#add-users-and-assign-licenses).
 
-### <a name="add-your-domain-to-personalize-sign-in"></a>Adicionar seu domínio para personalizar a entrada
+### <a name="add-your-domain-to-personalize-sign-in"></a>Adicione seu domínio para personalizar o login
 
-1. Entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando suas credenciais de administrador global. 
+1. Acesse [Centro de administração do Microsoft 365](https://admin.microsoft.com) usando as credenciais de administrador global. 
 
-2. Escolha **ir para a configuração** para iniciar o assistente.
+2. Clique em **Ir para a Configuração** pra iniciar o assistente.
 
     ![Selecione ir para a configuração.](../media/gotosetupinadmincenter.png)
 
-3. Na página **instalar aplicativos do Office** , você pode, opcionalmente, instalar os aplicativos no seu próprio computador.
+3. Na página **Instalar aplicativos do Office**, você pode, opcionalmente, instalar os aplicativos no seu próprio computador.
     
-4. Na etapa **Adicionar domínio** , insira o nome de domínio que você deseja usar (como contoso.com).
+4. Na etapa **Adicionar domínio**, digite o nome do domínio que você deseja usar (como contoso.com).
 
     > [!IMPORTANT]
-    > Se você comprou um domínio durante a inscrição, não verá a etapa **Adicionar um domínio** . Em vez disso, vá para [Adicionar usuários](#add-users-and-assign-licenses) .
+    > Se você comprou um domínio durante a inscrição, não verá a etapa **Adicionar um domínio** aqui. Em vez disso, acesse [Adicionar usuários](#add-users-and-assign-licenses).
 
     ![Captura de tela da página personalizar sua sessão de entrada.](../media/adddomain.png)
 
     
-4. Siga as etapas no Assistente para [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) que verifica se você é o proprietário do domínio. Se você souber seu host de domínio, consulte também as [instruções específicas do host](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+4. Siga as etapas no Assistente para [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Microsoft 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) que verifica se você é o proprietário do domínio. Se você conhece o host do seu domínio, também consulte as [instruções específicas do organizador](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
 
-    Se o seu provedor de hospedagem for o GoDaddy ou outro host habilitado com o [domínio Connect](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), o processo será fácil e você será solicitado a entrar novamente e permitir que a Microsoft autentique em seu nome.
+    Se o seu provedor de hospedagem for GoDaddy ou outro host habilitado com [conexão ao domínio](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), o processo será fácil e será pedido que você entre automaticamente e deixe a Microsoft autenticar em seu nome.
 
-    ![Na página Confirmar acesso do GoDaddy, selecione autorizar.](../media/godaddyauth.png)
+    ![Na página Confirmar Acesso do GoDaddy, selecione Autorizar.](../media/godaddyauth.png)
 
 ### <a name="add-users-and-assign-licenses"></a>Adicionar usuários e atribuir licenças
 
-Você pode adicionar usuários no assistente, mas você também pode [Adicionar usuários posteriormente](add-users-m365b.md) no centro de administração. Além disso, se você tiver um controlador de domínio local, poderá adicionar usuários com o [Azure ad Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express).
+Você pode adicionar usuários no assistente, mas também pode [adicionar usuários posteriormente](add-users-m365b.md) no centro de administração. Além disso, se você tiver um controlador de domínio local, poderá adicionar usuários com [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express).
 
-#### <a name="add-users-in-the-wizard"></a>Adicionar usuários no assistente
+#### <a name="add-users-in-the-wizard"></a>Adicionar usuários ao assistente
 
 Todos os usuários adicionados ao assistente recebem automaticamente uma licença do Microsoft 365 Business Premium.
 
 ![Captura de tela da página Adicionar novos usuários no assistente](../media/addnewuserspage.png)
 
-1. Se sua assinatura do Microsoft 365 Business Premium tiver usuários existentes (por exemplo, se você usou o Azure AD Connect), você terá uma opção para atribuir licenças a eles agora. Adicione licenças para eles também.
+1. Se sua assinatura do Microsoft 365 Business Premium tiver usuários existentes (por exemplo, se você usou o Azure AD Connect), você terá uma opção para atribuir licenças a eles agora. Também adicione licenças para eles.
 
-2. Depois de adicionar os usuários, você também terá uma opção de compartilhar credenciais com os novos usuários que você adicionou. Você pode optar por imprimi-las, enviá-las por email ou baixá-las.
+2. Depois de adicionar os usuários, você também terá a opção de compartilhar credenciais com os novos usuários adicionados. Você pode optar por imprimi-las, enviá-las por email ou baixá-las.
 
 ### <a name="connect-your-domain"></a>Conectar seu domínio
 
 > [!NOTE]
-> Se você optar por usar o domínio. onmicrosoft ou usado o Azure AD Connect para configurar usuários, esta etapa não será exibida.
+> Se você optou por usar o domínio .onmicrosoft ou usou o Azure AD Connect para configurar usuários, não verá esta etapa.
   
 Para configurar serviços, você deve atualizar alguns registros no registrador de domínios ou no host DNS.
   
-1. O assistente de configuração normalmente detecta o registrador e proporciona um link para as instruções passo a passo para atualizar seus registros NS no site do registrador. Caso contrário, [altere os nameservers para configurar o Office 365 com qualquer registrador de domínio](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar). 
+1. O assistente de configuração normalmente detecta o registrador e proporciona um link para as instruções passo a passo para atualizar seus registros NS no site do registrador. Caso contrário, [altere os nameservers para configurar o Microsoft 365 com qualquer registrador de domínio](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar). 
 
-    - Se você tiver registros DNS existentes, por exemplo, um site existente, mas seu host DNS estiver habilitado para [conexão de domínio](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), escolha **adicionar registros para mim**. Na página **escolha seus serviços online** , aceite todos os padrões e escolha **Avançar**e escolha **autorizar** na página do seu host DNS.
-    - Se você tiver registros DNS existentes com outros hosts DNS (não habilitados para conexão de domínio), será necessário gerenciar seus próprios registros DNS para garantir que os serviços existentes permaneçam conectados. Confira [noções básicas sobre domínios](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) para obter mais informações.
+    - Se você possui registros DNS existentes, por exemplo, um site existente, mas seu host DNS está ativado para [conexão com o domínio](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), clique em **Adicionar registros para mim**. Na página **Escolha seus serviços on-line**, aceite todos os padrões, clique em **Avançar**e clique em **Autorizar** na página do organizador DNS.
+    - Se você possui registros DNS existentes com outros organizadores DNS (não habilitados para conexão ao domínio), convém gerenciar seus próprios registros DNS para garantir que os serviços existentes fiquem conectados. Consulte [noções básicas de domínio](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) para obter mais informações.
 
         ![Página ativar registros.](../media/activaterecords.png)
 
-2. Siga as etapas do assistente e email e outros serviços serão configurados para você.
+2. Siga as etapas no assistente e o e-mail e outros serviços serão configurados para você.
 
 ### <a name="protect-your-organization"></a>Proteger sua organização 
 

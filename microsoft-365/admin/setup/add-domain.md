@@ -1,5 +1,5 @@
 ---
-title: Adicionar um domínio ao Office 365
+title: Adicionar um domínio ao Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -25,13 +25,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
-description: Adicione seu domínio ao Office 365 no centro de administração do Microsoft 365 adicionando um registro DNS no seu host DNS. O assistente de instalação orienta você durante o processo.
-ms.openlocfilehash: b5ad21174c0a2ebb3466072ef43fb1ba284d3b59
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Adicione seu domínio ao Microsoft 365 no centro de administração do Microsoft 365 adicionando um registro DNS no seu host DNS. O assistente de instalação orienta você durante o processo.
+ms.openlocfilehash: ccebd7dd5e78663b7fd1d5318b17dfbc09bd8fb0
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398985"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079720"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Adicionar um domínio ao Microsoft 365
 
@@ -94,7 +94,7 @@ ms.locfileid: "44398985"
     1. Escolha **adicionar os registros DNS para mim** se quiser que o Office configure o DNS automaticamente. 
     
   
-    2. Escolha **eu mesmo adicionará os registros DNS** se você quiser anexar apenas serviços específicos do Office 365 ao seu domínio ou se quiser ignorar isso por enquanto e fazer isso mais tarde. **Escolha essa opção se você souber exatamente o que está fazendo:**
+    2. Escolha **eu mesmo adicionarei os registros DNS** se você quiser anexar apenas serviços específicos da Microsoft 365 ao seu domínio ou se quiser ignorar isso por enquanto e fazer isso mais tarde. **Escolha essa opção se você souber exatamente o que está fazendo:**
     
 7. Se você optar por *adicionar registros DNS por conta própria* , selecione **Avançar** e verá uma página com todos os registros que você precisa adicionar ao site de registradores para configurar seu domínio. 
     
@@ -149,7 +149,7 @@ No assistente, apenas confirmará que você é o proprietário do domínio e, em
 
 ### <a name="what-happens-to-my-email-and-website"></a>O que acontece com meus emails e sites?
 
-Depois que você concluir a instalação, o registro MX do seu domínio será atualizado para apontar para o Microsoft 365 e todos os emails do seu domínio serão iniciados no Microsoft 365. Verifique se você adicionou usuários e configurou caixas de correio no Office 365 para todos aqueles que recebem emails em seu domínio!
+Depois que você concluir a instalação, o registro MX do seu domínio será atualizado para apontar para o Microsoft 365 e todos os emails do seu domínio serão iniciados no Microsoft 365. Verifique se você adicionou usuários e configurou caixas de correio no Microsoft 365 para todas as pessoas que recebem emails no seu domínio!
   
 Se você tiver um site que usa com a empresa, ele continuará funcionando onde está. As etapas de configuração de conexão de domínio não afetam o site.
 
@@ -159,7 +159,7 @@ Se você tiver um site que usa com a empresa, ele continuará funcionando onde e
 
 [O que é um domínio?](../get-help-with-domains/what-is-a-domain.md)
 
-[Comprar um nome de domínio no Office 365](../get-help-with-domains/buy-a-domain-name.md)
+[Comprar um nome de domínio no Microsoft 365](../get-help-with-domains/buy-a-domain-name.md)
 
 [Configurar seu domínio (instruções específicas do host)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md)
 

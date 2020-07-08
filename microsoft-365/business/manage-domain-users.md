@@ -1,5 +1,5 @@
 ---
-title: Sincronizar usuários do domínio com o Microsoft 365
+title: Sincronizar os usuários do domínio com o Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -23,18 +23,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Sincronizar usuários controlados pelo domínio com o Microsoft 365 for Business.
-ms.openlocfilehash: a22e567fa99456b35742fcf40c07193c96c83cf0
-ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
+ms.openlocfilehash: af9cb7c9b2b639edc2375679a73ab41c4cf6de71
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44565682"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080054"
 ---
-# <a name="synchronize-domain-users-to-microsoft-365"></a>Sincronizar usuários do domínio com o Microsoft 365
+# <a name="synchronize-domain-users-to-microsoft-365"></a>Sincronizar os usuários do domínio com o Microsoft 365
 
 ## <a name="1-prepare-for-directory-synchronization"></a>1. preparar para a sincronização de diretório 
 
-Antes de sincronizar os usuários e computadores do domínio do Active Directory local, examine [preparar a sincronização de diretório para o Office 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). Em particular:
+Antes de sincronizar os usuários e computadores do domínio do Active Directory local, revise [preparar para a sincronização de diretório para o Microsoft 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). Em particular:
 
    - Verifique se não há duplicatas no diretório para os seguintes atributos: **mail**, **proxyAddresses**e **userPrincipalName**. Esses valores devem ser exclusivos e qualquer duplicatas deve ser removida.
    
@@ -59,7 +59,7 @@ Para sincronizar os usuários, grupos e contatos do Active Directory local para 
  5. Siga as etapas do assistente para baixar o Azure AD Connect e usá-lo para sincronizar seus usuários de domínio controlado com o Microsoft 365.
 
 
-Confira [Configurar a sincronização de diretórios para o Office 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) para saber mais.
+Confira [Configurar a sincronização de diretórios para o Microsoft 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) para saber mais.
 
 Ao configurar suas opções para o Azure AD Connect, recomendamos que você habilite a **sincronização de senha**, o **logon único contínuo**e o recurso **write-back de senha** , que também é suportado no Microsoft 365 for Business.
 

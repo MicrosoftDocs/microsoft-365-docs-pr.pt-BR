@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ec6f4bd8-5996-4505-ba68-afaf8a141fb9
 description: Saiba como trabalhar com os registradores de conexão de domínio habilitado e adicione seu domínio ao Microsoft 365.
-ms.openlocfilehash: 70a30201d4b795c7458959b6b2eee14c9b3c7186
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fb3f9315ed8ae056cadd2fd6a83f13f6713347f3
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399951"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079974"
 ---
 # <a name="using-domain-connect"></a>Usando a conexão de domínio
 
@@ -54,6 +54,6 @@ No assistente, apenas confirmará que você é o proprietário do domínio e, em
 
 ## <a name="what-happens-to-my-email-and-website"></a>O que acontece com meus emails e sites?
 
-Depois que você concluir a instalação, o registro MX do seu domínio será atualizado para apontar para o Microsoft 365 e todos os emails do seu domínio serão iniciados no Microsoft 365. Verifique se você adicionou usuários e configurou caixas de correio no Office 365 para todos aqueles que recebem emails em seu domínio!
+Depois que você concluir a instalação, o registro MX do seu domínio será atualizado para apontar para o Microsoft 365 e todos os emails do seu domínio serão iniciados no Microsoft 365. Verifique se você adicionou usuários e configurou caixas de correio no Microsoft 365 para todas as pessoas que recebem emails no seu domínio!
   
 Se você tiver um site que usa com a empresa, ele continuará funcionando onde está. As etapas de configuração de conexão de domínio não afetam o site.

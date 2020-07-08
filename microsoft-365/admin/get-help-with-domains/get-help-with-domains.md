@@ -1,5 +1,5 @@
 ---
-title: Obter ajuda com domínios do Office 365
+title: Obter ajuda com os domínios do Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,16 +20,17 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 28343f3a-dcee-41b6-9b97-5b0f4999b7ef
-description: Comece a usar seu próprio domínio para email, sites e contas no Office 365. Saiba mais sobre domínios, faça alterações em seu domínio, integre emails e sites, e obtenha ferramentas e dicas.
-ms.openlocfilehash: 5586744707580bee18e179a35a5ffd042ebe7579
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+description: Comece a usar seu próprio domínio para emails, sites e contas no Microsoft 365. Saiba mais sobre domínios, faça alterações em seu domínio, integre emails e sites, e obtenha ferramentas e dicas.
+ms.openlocfilehash: e29afe52d0efa8fbec831ff1ea3459322b2d3a22
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049673"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079744"
 ---
-# <a name="get-help-with-office-365-domains"></a>Obter ajuda com domínios do Office 365
+# <a name="get-help-with-microsoft-365-domains"></a>Obter ajuda com os domínios do Microsoft 365
 
-Use esses recursos para obter uma introdução ao uso de seu próprio domínio para emails, sites e contas no Office 365. 
+Use estes recursos para começar a usar seu próprio domínio para emails, sites e contas no Microsoft 365. 
  
 <ul class="panelContent cardsFTitle">
     <li>
@@ -43,7 +44,7 @@ Use esses recursos para obter uma introdução ao uso de seu próprio domínio p
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Adicionar os seus usuários e o seu domínio ao Office 365</h3>
+                        <h3>Adicionar seus usuários e domínio ao Microsoft 365</h3>
                     </div>
                 </div>
             </div>
@@ -79,7 +80,7 @@ Use esses recursos para obter uma introdução ao uso de seu próprio domínio p
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Adicionar rapidamente um domínio do GoDaddy ao Office 365</h3>
+                        <h3>Adicionar rapidamente um domínio do GoDaddy ao Microsoft 365</h3>
                     </div>
                 </div>
             </div>
@@ -140,8 +141,8 @@ Use esses recursos para obter uma introdução ao uso de seu próprio domínio p
                             <p><a href="dns-basics.md">Introdução a domínios e DNS</a></p>
                             <p><a href="../setup/domains-faq.md?#why-do-i-have-an-onmicrosoftcom-domain">Saiba mais sobre o seu domínio onmicrosoft inicial</a></p>
                             <p><a href="../setup/add-domain.md">Como a adição de um domínio ou a alteração dos registros de DNS afeta o email atual</a></p>
-                            <p><a href="../setup/domains-faq.md">Funcionamento do gerenciamento de DNS no Office 365</a></p>
-                            <p><a href="https://go.microsoft.com/fwlink/p/?LinkId=402693">Ler a descrição do serviço do Office 365 para domínios</a></p>
+                            <p><a href="../setup/domains-faq.md">Como o gerenciamento de DNS funciona no Microsoft 365</a></p>
+                            <p><a href="https://go.microsoft.com/fwlink/p/?LinkId=402693">Ler a descrição de serviço 365 da Microsoft para domínios</a></p>
                     </div>
                 </div>
             </div>
@@ -157,8 +158,8 @@ Use esses recursos para obter uma introdução ao uso de seu próprio domínio p
                             <p><a href="information-for-dns-records.md">Coletar as informações necessárias para criar registros DNS</a></p>
                             <p><a href="find-your-domain-registrar.md">Localizar o registrador de domínio</a></p>
                             <p><a href="buy-a-domain-name.md">Comprar um nome de domínio</a></p>
-                            <p><a href="domain-connect.md">Adicionar rapidamente um domínio do GoDaddy ao Office 365</a></p>
-                            <p>Obter ajuda passo a passo para <a href="create-dns-records-at-any-dns-hosting-provider.md">adicionar os registros DNS necessários aos serviços do Office 365</a></p>
+                            <p><a href="domain-connect.md">Adicionar rapidamente um domínio do GoDaddy ao Microsoft 365</a></p>
+                            <p>Obter ajuda passo a passo para <a href="create-dns-records-at-any-dns-hosting-provider.md">adicionar os registros DNS necessários para os serviços do Microsoft 365</a></p>
                             <p><a href="https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization">Como preparar um domínio não roteável (por exemplo, domínio .local) para a sincronização de diretórios</a></p>
                             <p><a href="../setup/domains-faq.md">Perguntas frequentes sobre domínios</a></p>
                     </div>
@@ -171,12 +172,12 @@ Use esses recursos para obter uma introdução ao uso de seu próprio domínio p
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Criar registros de DNS para o Office 365</h3>
+                        <h3>Criar registros DNS para o Microsoft 365</h3>
                             <p><a href="../dns/create-dns-records-at-godaddy.md">Criar registros DNS no GoDaddy</a></p>
                             <p><a href="../dns/create-dns-records-at-1-1-internet.md">Criar registros DNS em 1&1 IONOS</a></p>
                             <p><a href="../dns/create-dns-records-at-network-solutions.md">Criar registros DNS em soluções de rede</a></p>
                             <p><b>Ajuda para muitos outros fornecedores populares:</b></p> 
-                            <P><a href="create-dns-records-at-any-dns-hosting-provider.md">Criar registros DNS para o Office 365 ao gerenciar seus registros DNS</a></p>
+                            <P><a href="create-dns-records-at-any-dns-hosting-provider.md">Criar registros DNS para o Microsoft 365 ao gerenciar seus registros DNS</a></p>
                     </div>
                 </div>
             </div>
@@ -187,12 +188,12 @@ Use esses recursos para obter uma introdução ao uso de seu próprio domínio p
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Alterar os servidores de nomes para o Office 365</h3>
-                            <p><a href="../dns/change-nameservers-at-1-1-internet.md">Alterar os nameservers para configurar o Office 365 com 1&1 IONOS</a></p>
-                            <p><a href="../dns/change-nameservers-at-network-solutions.md">Alterar os servidores de nomes para configurar o Office 365 com o Network Solutions</a></p>
-                            <p><a href="domain-connect.md">Adicionar rapidamente um domínio do GoDaddy ao Office 365</a></p>
+                        <h3>Alterar os nameservers para o Microsoft 365</h3>
+                            <p><a href="../dns/change-nameservers-at-1-1-internet.md">Alterar os nameservers para configurar o Microsoft 365 com 1&1 IONOS</a></p>
+                            <p><a href="../dns/change-nameservers-at-network-solutions.md">Alterar os nameservers para configurar o Microsoft 365 com soluções de rede</a></p>
+                            <p><a href="domain-connect.md">Adicionar rapidamente um domínio do GoDaddy ao Microsoft 365</a></p>
                             <p><b>Ajuda para muitos registradores de domínio mais populares:</b></P> 
-                            <p><a href="../get-help-with-domains/set-up-your-domain-host-specific-instructions.md">Alterar os nameservers para o Office 365 para que os registros sejam configurados para você</a></p>
+                            <p><a href="../get-help-with-domains/set-up-your-domain-host-specific-instructions.md">Alterar os nameservers para o Microsoft 365 para que os registros sejam configurados para você</a></p>
                     </div>
                 </div>
             </div>
@@ -205,10 +206,10 @@ Use esses recursos para obter uma introdução ao uso de seu próprio domínio p
                     <div class="cardText">
                         <h3>Fazer alterações</h3>
                             <p><a href="find-and-fix-issues.md">Localizar e corrigir problemas após alterar seu nome de domínio ou registros DNS</a></p>
-                            <p><a href="../dns/add-or-edit-custom-dns-records.md">Adicionar ou editar registros DNS personalizados no Office 365</a></p>
+                            <p><a href="../dns/add-or-edit-custom-dns-records.md">Adicionar ou editar registros DNS personalizados no Microsoft 365</a></p>
                             <p><a href="../setup/domains-faq.md#can-i-add-custom-subdomains-or-multiple-domains-to-microsoft-365">Adicionar subdomínios personalizados ou vários domínios no Microsoft 365</a></p>
-                            <p><a href="remove-a-domain.md">Remover um domínio</a></p>
-                            <p><a href="https://docs.microsoft.com/office365/enterprise/office-365-integration">Use o seu domínio a fim de integrá-lo ao email local, por exemplo, usando os serviços de diretório</a></p>
+                            <p><a href="remove-a-domain.md">Excluir um domínio</a></p>
+                            <p><a href="https://docs.microsoft.com/office365/enterprise/office-365-integration">Integração do Microsoft 365 com ambientes locais</a></p>
                             <p><a href="../contact-support-for-business-products.md">Mais perguntas? Ligue para o suporte ou abra um tíquete de suporte</a></p>
                     </div>
                 </div>
@@ -221,7 +222,7 @@ Use esses recursos para obter uma introdução ao uso de seu próprio domínio p
                 <div class="card">
                     <div class="cardText">
                         <h3>Mais vídeos</h3>
-                            <p><a href="../dns/create-dns-records-at-godaddy.md">Configurar um domínio do GoDaddy no Office 365</a></p>
+                            <p><a href="../dns/create-dns-records-at-godaddy.md">Configurar um domínio do GoDaddy no Microsoft 365</a></p>
                     </div>
                 </div>
             </div>

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 03083fdf-bc52-409a-b2ac-2a5f5c308fa0
 description: Este artigo fornece informações sobre como gerenciar as configurações dos seus usuários.
-ms.openlocfilehash: 5fa8674b8e188605ba3f6339fd6384c37630c917
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: ca57d536794ffde4865ec86f34c8dc644ff3c1f1
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780200"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079998"
 ---
 # <a name="user-email-settings"></a>Configurações de e-mail do usuário
 
@@ -44,4 +44,4 @@ Esta tabela explica as várias configurações de e-mail que você pode alterar 
 
 > [!NOTE]
 >
-> <sup>1</sup> Você só pode gerenciar aplicativos de e-mail para caixas de correio hospedadas totalmente no Office 365. Você não pode usar esse recurso para gerenciar aplicativos de e-mails das caixas de correio hospedadas no local.
+> <sup>1</sup> Você só pode gerenciar aplicativos de email para caixas de correio hospedadas totalmente no Microsoft 365. Você não pode usar esse recurso para gerenciar aplicativos de e-mails das caixas de correio hospedadas no local.

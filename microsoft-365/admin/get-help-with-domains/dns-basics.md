@@ -22,11 +22,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Aprenda sobre domínios e seus registros DNS associados para ajudá-lo a gerenciar seus domínios.
-ms.openlocfilehash: 2fc581968a4cec3c6e9b5c51f717a8cfa78cd6a3
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: a69f6a34585f7ff033a30e10254f29b89d978d3e
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049649"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079986"
 ---
 # <a name="dns-basics"></a>Noções básicas do DNS
 
@@ -144,7 +145,7 @@ Por que o arquivo de zona do seu domínio pode estar em outro lugar além do seu
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
-## <a name="why-add-a-domain-in-office-365"></a>Por que adicionar um domínio no Office 365?
+## <a name="why-add-a-domain-in-microsoft-365"></a>Por que adicionar um domínio no Microsoft 365?
 
 
 Adicionar um domínio personalizado, como fourthcoffee.com ao Microsoft 365 permite que você use um endereço de email e uma ID de usuário mais curtos e familiares no serviço.  Você [receberá um domínio para usar](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) ao se inscrever em uma conta do Microsoft 365, mas ele inclui “onmicrosoft.com.” Muitas pessoas preferem adicionar o domínios de suas organizações ou empresas quando planejam usar o Microsoft 365 para emails. 

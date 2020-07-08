@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba como enviar emails criptografados usando o Outlook.
-ms.openlocfilehash: 5318fbe045c909e3b7f81d195a8e6b4d5eb96dc1
-ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
+ms.openlocfilehash: b9d5d32b61c49dcffaab83fb13e46d32f2166552
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44322142"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080022"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>Criptografar ou rotular seus emails confidenciais
 
@@ -52,7 +52,7 @@ Se você deseja criptografar uma mensagem que não atende a uma regra predefinid
 
 ## <a name="admin-settings"></a>Configurações de administrador
 
-Você pode aprender tudo sobre como configurar a criptografia de email em [criptografia de email no Office 365](https://docs.microsoft.com/microsoft-365/compliance/email-encryption).
+Você pode aprender tudo sobre como configurar a criptografia de email em [criptografia de email no Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/email-encryption).
 
 ### <a name="automatically-encrypt-email-messages"></a>Criptografar mensagens de email automaticamente
 
@@ -60,11 +60,11 @@ Os administradores podem criar regras de fluxo de email para proteger automatica
 
 Você cria regras de fluxo de email para criptografar mensagens de email com os novos recursos de criptografia de mensagens do Office 365 (OME). Definir regras de fluxo de email para acionar a criptografia de mensagens com os novos recursos do OME usando o centro de administração do Exchange (Eat). 
 
-1. Em um navegador da Web, usando uma conta corporativa ou de estudante que recebeu permissões de administrador global, entre no Office 365. 
+1. Em um navegador da Web, usando uma conta corporativa ou de estudante que recebeu permissões de administrador global, entre. 
 2. Escolha o bloco administrador. 
 3. No centro de administração, escolha **centros de administração > Exchange**. 
 
-Para obter mais informações, consulte [definir regras de fluxo de email para criptografar mensagens de email no Office 365](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).
+Para obter mais informações, consulte [definir regras de fluxo de emails para criptografar mensagens de email](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).
 
 ### <a name="brand-your-encryption-messages"></a>Marcar suas mensagens de criptografia
 

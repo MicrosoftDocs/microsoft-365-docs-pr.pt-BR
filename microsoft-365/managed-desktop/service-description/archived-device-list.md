@@ -8,12 +8,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: e49c2271bd7005c674447cd59d5ccf7439cf4710
-ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
+ms.openlocfilehash: ca6bc91ebf300afe47326985cc923d929b2cd412
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44418873"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080076"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Dispositivos arquivados do Microsoft Managed desktop
 
@@ -35,12 +35,14 @@ Para ser inscrito na área de trabalho gerenciada da Microsoft, um dispositivo d
 
 | Modelo  | Especificações mínimas  | Requisitos adicionais   | Data de aposentadoria |
 |---------|---------|---------|---------|
+| Dell Precision 3530| 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | **22 de maio de 2023** |
 | Dell Latitude 5490| 256 GB/Intel i5/8 GB de RAM | Câmera de infravermelho necessária | **9 de janeiro de 2023** |
 | Dell Latitude 7390 7390 2-in-1/7490 | 256 GB/Intel i5/8 GB de RAM   | Câmera de infravermelho necessária | **9 de janeiro de 2023** |
 |HP EliteBook 830/840/850 G5| 128 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho ou sensor de impressão digital necessário  | **15 de fevereiro de 2023** |
 |HP elite X2 1013 G3| 256 GB/Intel i5/8 GB de RAM | SKU com 5VS03AV, câmera de infravermelho necessária |**14 de maio de 2023** |
 |HP EliteBook X360 1030 G3| 256 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho necessária |**14 de maio de 2023** |
 |HP EliteBook X360 1040 G5| 256 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho necessária | **23 de outubro de 2023** |
+|HP ProBook X360 440 G1| 128 GB/Intel i3/8 GB de RAM | SKU com 5VS04AV, câmera de infravermelho ou leitor de impressão digital necessário | **6 de junho de 2023** |
 |Livro de superfície 2| 256 GB/Intel i5/8 GB de RAM | Nenhum | **16 de novembro de 2022** |
 |Ir para a superfície| 128 GB/Intel 4415Y/8GB de RAM | Nenhum | **2 de agosto de 2023** |
 |Laptop de superfície| 256 GB/Intel i5/8 GB de RAM | Nenhum | **20 de maio de 2022** |

@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Saiba mais sobre o Office 365 operado pela 21Vianet que foi projetado para atender às necessidades de serviços de nuvem seguros, confiáveis e escalonáveis na China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 7c8459c8c3da67ac4cc80ac2912e368f23cd8e10
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 133df44635927d185e72c7981953e07162d458a9
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44779912"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079732"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Office 365 operado pela 21Vianet
 
@@ -57,7 +57,7 @@ Se quiser saber como começar a usar os serviços gerais do Office 365, confira 
 |:-----|:-----|
 |Domínios personalizados  <br/> |Os administradores podem criar e/ou usar domínios personalizados registrados por meio de provedores de domínio específicos para chinês. Se você não tiver um domínio personalizado, você pode [comprar um nome de domínio](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/buy-a-domain-name) de um registrador de nome de domínio. Se você já tiver um, [encontre seu registrador de domínios ou provedor de Hospedagem de DNS](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-your-domain-registrar).  <br/> Além disso, se você criar um site público usando o serviço do Office 365 SharePoint Online, a política de conformidade da Internet da China requer que você obtenha um número do provedor de conteúdo da Internet (ICP).  **Observação:** A validação automática para palavras não permitidas em nomes de domínio personalizados não está disponível.           |
 |Assinaturas, cobranças e suporte técnico  <br/> |Fornecido pela 21Vianet. Para obter informações sobre como entrar em contato com o suporte, consulte [entrar em contato com o suporte do Office 365 para empresas](../contact-support-for-business-products.md).  <br/> |
-|Redefinição de senha por autoatendimento  <br/> |Disponível apenas para administradores. Para obter mais informações, consulte [alterar ou redefinir sua senha no Microsoft 365 operado pela 21vianet](https://support.microsoft.com/office/d8eb5b62-9d0e-4267-a9bf-2aa491ee6d0b).  <br/> |
+|Redefinição de senha por autoatendimento  <br/> |Disponível apenas para administradores. Para obter mais informações, consulte [alterar ou redefinir sua senha no Office 365 operado pela 21vianet](https://support.microsoft.com/office/d8eb5b62-9d0e-4267-a9bf-2aa491ee6d0b).  <br/> |
 |Segurança, privacidade, conformidade e detalhes sobre níveis de suporte  <br/> |Fornecido pela 21Vianet.  <br/> |
 |Configuração da área de trabalho do Office  <br/> |A configuração da área de trabalho do Office não está disponível para o Office 2010 e o Office 2007. No entanto, os administradores podem [configurar os aplicativos de área de trabalho atuais do Office para trabalhar com o Office 365](https://support.microsoft.com/office/85646aba-7e6c-4e24-a047-8fd9ce4f9d2e).  <br/> |
 |Suporte móvel e de dispositivo\*  <br/> | Em breve, estão os seguintes recursos móveis:  <br/>  Gerenciamento de dispositivo móvel (MDM)  <br/>  O BlackBerry Business Cloud Services (BBCS) não está disponível, mas você pode usar os dispositivos do Exchange ActiveSync ou uma oferta da Research in Motion (RIM, a solução de email sem fio BlackBerry) para executar o BlackBerry Enterprise Server (BES).  <br/>  Para obter mais informações sobre suporte a dispositivos móveis, consulte [configurar e gerenciar o acesso móvel para seus usuários](https://support.microsoft.com/office/01fff219-4492-40f2-82d3-fd2ffc0ad802).  <br/> |
@@ -129,11 +129,11 @@ Para organizações que executam versões antigas ou mistas do Exchange Server, 
 | 2013 SP1  <br/> | 2013 SP1  <br/> | Sim  <br/> | Todos  <br/> |
 | Misto 2013 SP1/2010 SP3  <br/> | 2013 CU5  <br/> | Sim  <br/> | All, exceto descoberta eletrônica/arquivamento in-loco, acesso ao OWA (consulte a tabela abaixo)  <br/> |
 | Misto 2013 SP1/2010 SP3  <br/> | 2013 SP1  <br/> | Sim  <br/> | Somente disponibilidade configurada manualmente  <br/> |
-| 2010 SP3  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhuma  <br/> |
+| 2010 SP3  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhum  <br/> |
 | 2007  <br/> | 2013 CU5  <br/> | Sim  <br/> | Somente disponibilidade  <br/> |
 | 2007  <br/> | 2013 SP1 ou 2010 SP3No  <br/> | N/D  <br/> | Sem suporte  <br/> |
 | 2003  <br/> | 2013 SP1/CU5  <br/> | N/D  <br/> | Sem suporte  <br/> |
-| 2003  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhuma  <br/> |
+| 2003  <br/> | 2010 SP3  <br/> | Não  <br/> | Nenhum  <br/> |
 
    
 > [!IMPORTANT]
@@ -197,7 +197,7 @@ Compartilhamento de dados de contato do Exchange em dispositivos móveis da Appl
 |Integração do painel de pesquisa aos serviços do Bing  <br/> |Indisponível.  <br/> |
 |Verificador de acessibilidade  <br/> |Indisponível.  <br/> |
 |Bloco de anotações de classe  <br/> |Indisponível.  <br/> |
-|Forms  <br/> |Indisponível.  <br/> |
+|Formulários  <br/> |Indisponível.  <br/> |
 |Leitura avançada  <br/> |Indisponível.  <br/> |
 |Inserir imagem online  <br/> |Indisponível.  <br/> |
 |Detalhes da reunião  <br/> |Indisponível.  <br/> |
