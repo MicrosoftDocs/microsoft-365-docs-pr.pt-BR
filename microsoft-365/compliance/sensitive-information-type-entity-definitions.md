@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: A prevenção de perda de dados (DLP) no centro de conformidade de segurança &amp; inclui 80 tipos de informações confidenciais que estão prontos para uso nas suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo.
-ms.openlocfilehash: a91459652d785f6536cb50e381ab139057a3eae8
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: 5bccbd73806a261cdbd795f200b6b459b536a97e
+ms.sourcegitcommit: c51dd4c659f763ae46c188d3fae90aab8d1d7e88
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024639"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45084130"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definições da entidade de tipo de informações confidenciais 
 
@@ -534,6 +534,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - withholding tax
 - individual tax return
 - tax file number
+- tfn
 
 #### <a name="keyword_number_exclusions"></a>Keyword_number_exclusions
 

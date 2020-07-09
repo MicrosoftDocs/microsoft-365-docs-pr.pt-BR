@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Correção de ameaças
 appliesto:
 - Microsoft Threat Protection
-ms.openlocfilehash: 6c05eac80c6de546a30f9abe29360178bcbcfcf8
-ms.sourcegitcommit: dc5de2064706137256307f100b8dc61e9797bd1c
+ms.openlocfilehash: eb86c0b8e5368a42daa1002de5ac361613037090
+ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45068151"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086686"
 ---
 # <a name="remediate-malicious-email-that-was-delivered-in-office-365"></a>Corrigir emails mal-intencionados que foram entregues no Office 365
 
@@ -77,8 +77,6 @@ A central de ações mostra todas as ações de correção dos últimos 30 dias.
 Cada item de correção pode ser aberto para exibir detalhes sobre ele. Quando um item de correção é aberto, ele mostra detalhes básicos de correção, o nome de correção, a data de criação, a descrição, a severidade da ameaça e o status. Ele também mostra duas guias. 
 
 1. **Guia envio de email**: Este é o número de emails enviados pelo Gerenciador de ameaças ou investigações automatizadas a serem corrigidos. Esses emails podem ser:
-
-:::image type="content" source="../../../media/tp-RemediationArticle5.png" alt-text="A central de ações com ameaças acionáveis e não acionáveis.":::
 
 **Acionável**: os emails nos seguintes locais de caixa de correio na nuvem podem ser afetados e movidos, ou seja, qualquer email dentro da categoria remediable pode ser movido de um local para outro:
   - Caixa de Entrada 

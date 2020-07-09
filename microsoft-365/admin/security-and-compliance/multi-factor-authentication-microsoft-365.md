@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba mais sobre a autenticação multifator no Microsoft 365.
-ms.openlocfilehash: e8ba304d145ca7227eea074556ff6efccd751ecf
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 71a61c51d2813880cad782d132679fa413ada987
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399141"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083581"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Autenticação multifator para Microsoft 365
 
@@ -75,7 +75,7 @@ Os padrões de segurança garantem que todas as organizações tenham um nível 
 
 Habilite ou desabilite os padrões de segurança no painel de **Propriedades** do Azure AD no portal do Azure.
 
-![](../../media/multi-factor-authentication-microsoft-365/security-defaults-mfa.png)
+![Imagem da página de propriedades do diretório.](../../media/multi-factor-authentication-microsoft-365/security-defaults-mfa.png)
 
 Você pode usar os padrões de segurança com qualquer plano do Microsoft 365.
 
@@ -93,12 +93,12 @@ Você também pode usar as políticas de acesso condicional para recursos mais a
 
 Configure as políticas de acesso condicional do painel de **segurança** para o Azure AD no portal do Azure.
 
-![](../../media/multi-factor-authentication-microsoft-365/conditional-access-mfa.png)
+![Picure da opção de menu para acesso condicional](../../media/multi-factor-authentication-microsoft-365/conditional-access-mfa.png)
 
 Você pode usar políticas de acesso condicional com:
 
 - Microsoft 365 Business Premium
-- Microsoft 365 E3 e e5
+- Microsoft 365 E3 e E5
 - Licenças do Azure AD Premium P1 e do Azure AD Premium P2 
 
 Para pequenas empresas com o Microsoft 365 Business Premium, você pode facilmente usar as políticas de acesso condicional com as seguintes etapas:
@@ -123,7 +123,7 @@ As empresas devem usar [políticas de acesso condicional comuns](https://docs.mi
 
 Para mais informações, confira esta [visão geral do Acesso Condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
 
-### <a name="azure-ad-identity-protection"></a>Azure AD Identity Protection
+### <a name="azure-ad-identity-protection"></a>Proteção de Identidade do Azure AD
 
 Com o Azure AD Identity Protection, você pode criar uma política de acesso condicional adicional para [exigir a MFA quando o risco de entrada for médio ou alto](https://docs.microsoft.com/microsoft-365/enterprise/identity-access-policies#require-mfa-based-on-sign-in-risk).
 
@@ -140,7 +140,7 @@ Você deve usar os padrões de segurança ou as políticas de acesso condicional
 
 Habilite a MFA para contas de usuário individuais no painel de **usuário ativo** do centro de administração do Microsoft 365.
 
-![](../../media/multi-factor-authentication-microsoft-365/per-user-mfa.png)
+![Imagem da opção de autenticação multifator na página usuários ativos](../../media/multi-factor-authentication-microsoft-365/per-user-mfa.png)
 
 Após a habilitação, na próxima vez que o usuário entrar, ele será solicitado a registrar a MFA e a escolher e testar o método de verificação adicional.
 

@@ -1,5 +1,5 @@
 ---
-title: Planejar a conformidade &amp; de segurança
+title: Planejar a conformidade de segurança &amp;
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -17,14 +17,14 @@ ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: Esta página de aterrissagem fornece links e planejamento de informações de segurança e conformidade no Office 365.
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0f3bb6499de2ddd6fb613834b98e46d453d739a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e4eae4dddb90983b811e0856a09dae79af83d226
+ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034891"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086652"
 ---
-# <a name="plan-for-security-amp-compliance"></a>Planejar a conformidade &amp; de segurança
+# <a name="plan-for-security-amp-compliance"></a>Planejar a conformidade de segurança &amp;
 
 O gerenciamento de segurança e conformidade é uma parceria. Você é responsável por proteger seus dados, identidades e dispositivos, enquanto a Microsoft protege rigorosamente os serviços do Microsoft 365. Você pode usar o Microsoft 365 e o Enterprise Mobility + Security (EMS) juntos para ajudá-lo a obter o nível de proteção apropriado para sua organização.
   
@@ -32,7 +32,7 @@ O gerenciamento de segurança e conformidade é uma parceria. Você é responsá
 
 Orientar-se para os recursos de proteção de informações no pôster de proteção de informações para o Office 365. 
   
-[PDF](https://download.microsoft.com/download/2/3/D/23D91386-8349-4F7A-9470-FD5AED861F16/MSFT_cloud_architecture_informationprotection.pdf) | [Visio](https://download.microsoft.com/download/2/3/D/23D91386-8349-4F7A-9470-FD5AED861F16/MSFT_cloud_architecture_informationprotection.vsd)
+[Implantar a proteção de informações para regulamentações de privacidade de dados com o Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/information-protection-deploy?view=o365-worldwide)
   
 ## <a name="step-2-check-your-secure-score"></a>Etapa 2: verificar sua pontuação segura
 
@@ -56,15 +56,15 @@ Analisar e planejar os recursos de proteção de arquivos organizados por três 
   
 [PDF](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
   
-## <a name="step-5-leverage-the-microsoft-365-security-amp-compliance-center"></a>Etapa 5: aproveitar o centro de conformidade &amp; de segurança do Microsoft 365
+## <a name="step-5-leverage-the-microsoft-365-security-amp-compliance-center"></a>Etapa 5: aproveitar o centro de conformidade de segurança do Microsoft 365 &amp;
 
-O centro &amp; de conformidade de segurança oferece uma visão única dos controles que você usará para gerenciar o espectro de segurança da Microsoft 365, incluindo gerenciamento de ameaças, governança de dados e pesquisa e investigação. 
+O &amp; centro de conformidade de segurança oferece uma visão única dos controles que você usará para gerenciar o espectro de segurança da Microsoft 365, incluindo gerenciamento de ameaças, governança de dados e pesquisa e investigação. 
   
-- [Vá para o centro &amp; de conformidade de segurança](go-to-the-securitycompliance-center.md)
+- [Vá para o centro de conformidade de segurança &amp;](go-to-the-securitycompliance-center.md)
     
 - [Permissões no centro de &amp; conformidade de segurança](~/security/office-365-security/protect-against-threats.md)
     
-- [Conceder aos usuários acesso ao centro &amp; de conformidade de segurança](~/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
+- [Conceder aos usuários acesso ao centro de conformidade de segurança &amp;](~/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
     
 ## <a name="step-6-use-end-to-end-security-scenarios-as-starting-points"></a>Etapa 6: usar cenários de segurança de ponta a ponta como pontos de partida
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Revise as respostas para perguntas frequentes sobre a implantação centralizada no centro de administração do Microsoft 365.
-ms.openlocfilehash: 0d0f2163982042f7b8f868a36f5cc115a17295a2
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 2d9a3c6f2cfe9418cc83cbd0f29537e5533c4257
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399819"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083557"
 ---
 # <a name="centralized-deployment-faq"></a>Perguntas frequentes sobre a Implantação centralizada
 
@@ -36,7 +36,7 @@ A implantação centralizada de suplementos requer que os usuários estejam usan
  
 A implantação centralizada só é suportada para caixas de correio online. Ele não oferece suporte à implantação em caixas de correio locais do Exchange.
  
-Você pode usar o [Verificador de compatibilidade de implantação centralizada do Office 365](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker)   para determinar se sua assinatura está qualificada. 
+Você pode usar o [Verificador de compatibilidade de implantação centralizado](centralized-deployment-of-add-ins.md#centralized-deployment-compatibility-checker)   para determinar se sua assinatura está qualificada. 
   
 ## <a name="how-do-you-target-add-in-user-assignments-with-centralized-deployment"></a>Como você direciona as atribuições de usuário de suplemento com a implantação centralizada?  
 

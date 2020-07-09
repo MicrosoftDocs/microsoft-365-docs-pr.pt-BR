@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Saiba como atualizar uma ou várias listas de distribuição para grupos do Microsoft 365 no Outlook e como usar o PowerShell para atualizar várias listas de distribuição simultaneamente.
-ms.openlocfilehash: f5748c293d18943c94c3610c0e3c5c33848eb521
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: a1fb974be4838ebe98c2c55fe8694e89e27d636e
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780020"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083569"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Atualizar listas de distribuição para grupos do Microsoft 365 no Outlook
 
@@ -71,11 +71,15 @@ Se você tiver experiência com o uso do PowerShell, convém ir até esta rota e
 
 Para atualizar um único DL, execute o seguinte comando:
 
-`Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>`
+```PowerShell
+Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>`
+```
 
 Por exemplo, se você quiser atualizar uma DLs com o endereço SMTP dl1@contoso.com, execute o seguinte comando:
 
-`Upgrade-DistributionGroup -DlIdentities dl1@contoso.com`
+```PowerShell
+Upgrade-DistributionGroup -DlIdentities dl1@contoso.com`
+```
 
 > [!NOTE]
 > Você também pode atualizar uma única lista de distribuição para um grupo do Microsoft 365 usando o cmdlet [New-unificado](https://go.microsoft.com/fwlink/?LinkID=786379) do PowerShell
@@ -84,9 +88,8 @@ Por exemplo, se você quiser atualizar uma DLs com o endereço SMTP dl1@contoso.
 
 Você também pode passar várias DLs como um lote e atualizá-las juntas:
 
-```
+```PowerShell
 Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address2\>,
-
 \< DL SMTP address3\>, \< DL SMTP address 4\>
 ```
 
@@ -103,7 +106,7 @@ Há duas maneiras de atualizar todas as DLs qualificadas.
 
 1. Obtenha as DLs qualificadas no locatário e atualize-as usando o comando upgrade:
 
-```
+```PowerShell
 Get-EligibleDistributionGroupForMigration | Foreach-Object{
     Upgrade-DistributionGroup -DlIdentities $_.PrimarySMTPAddress
 }
@@ -111,7 +114,7 @@ Get-EligibleDistributionGroupForMigration | Foreach-Object{
 
 2. Obtenha a lista de todas as DLs e atualize somente a DLs qualificada:
 
-```
+```PowerShell
 Get-DistributionGroup| Foreach-Object{
     Upgrade-DistributionGroup -DlIdentities $_.PrimarySMTPAddress
 }

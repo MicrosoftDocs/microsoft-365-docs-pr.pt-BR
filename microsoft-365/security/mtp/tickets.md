@@ -1,7 +1,7 @@
 ---
-title: Criar e acompanhar tíquetes por meio do ServiceNow
-description: Saiba como criar e acompanhar tíquetes no ServiceNow do centro de segurança do Microsoft 365.
-keywords: segurança, Microsoft 365, M365, Pontuação segura, central de segurança, ServiceNow, tíquetes, tarefas
+title: Integre as permissões do ServiceNow no centro de segurança e centro de conformidade do Microsoft 365
+description: Saiba como criar e acompanhar tíquetes no ServiceNow no centro de segurança e centro de conformidade do Microsoft 365.
+keywords: segurança, Microsoft 365, M365, conformidade, centro de conformidade, central de segurança, ServiceNow, tíquetes, tarefas, NEVEr, conexão
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -19,22 +19,27 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: 6070878d6cf0efd8a85d05ff6ef89ee49baf4144
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d258bf3ec4c04eafd22e850329ca925b4c974e94
+ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034183"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086662"
 ---
-# <a name="manage-tickets-through-servicenow"></a>Gerenciar tíquetes pelo ServiceNow
+# <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>Integre as permissões do ServiceNow no centro de segurança e centro de conformidade do Microsoft 365
 
-O ServiceNow é uma plataforma de computação em nuvem popular que ajuda as empresas a gerenciar fluxos de trabalho digitais para operações corporativas. A plataforma atual tem fluxos de trabalho de ti, fluxos de trabalho de funcionários e fluxos de trabalho de cliente. A Microsoft fez uma parceria com o ServiceNow para tornar mais fácil para os administradores de ti gerenciar suas permissões e tarefas em ambas as plataformas. [Saiba mais sobre o ServiceNow](https://www.servicenow.com/)
+[!include[Prerelease information](../includes/prerelease.md)]
 
-A central de segurança do Microsoft 365 agora é aprimorada com a capacidade de criar e controlar de forma nativa as permissões no ServiceNow. Administradores de segurança podem enviar uma ação de melhoria de [Pontuação segura da Microsoft](microsoft-secure-score.md) diretamente para o ServiceNow e criar uma permissão. As permissões de gerenciamento de incidentes e de alterações podem ser criadas. Eles podem ser rastreados na home page do centro de segurança da Microsoft e o ServiceNow.
+O ServiceNow é uma plataforma de computação em nuvem popular que ajuda as empresas a gerenciar fluxos de trabalho digitais para operações corporativas. A plataforma atual tem fluxos de trabalho de ti, fluxos de trabalho de funcionários e fluxos de trabalho de cliente. [Saiba mais sobre o ServiceNow](https://www.servicenow.com/)
+
+A Microsoft fez uma parceria com o ServiceNow para tornar mais fácil para os administradores de ti gerenciar suas permissões e tarefas em ambas as plataformas. O centro de [segurança do microsoft 365](overview-security-center.md) e o [centro de conformidade da Microsoft 365](https://docs.microsoft.commicrosoft-365/compliance/microsoft-365-compliance-center) estão sendo aprimorados com a capacidade de criar e controlar de forma nativa as permissões no ServiceNow.
+
+- [**Gerenciar tíquetes do ServiceNow na central de segurança**](tickets-security-center.md)
+- **Gerenciar tíquetes do ServiceNow no centro de conformidade** (em breve)
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Ter acesso à central de segurança do Microsoft 365 e uma instância do ServiceNow com:  
+Ter acesso ao centro de segurança ou ao centro de conformidade do Microsoft 365 e a uma instância do ServiceNow com:  
 
 * Kingston ou versão superior
 * Ter credenciais do administrador HI
@@ -44,55 +49,26 @@ O ServiceNow recomenda que os usuários mantenham as configurações padrão em 
 
 ## <a name="data-exchange"></a>Troca de dados
 
-Quando você conecta o centro de segurança do Microsoft 365 ao ServiceNow, a Microsoft recebe os seguintes dados adicionais:
+Quando você conecta o centro de segurança ou o centro de conformidade do Microsoft 365 ao ServiceNow, a Microsoft recebe os seguintes dados adicionais:
 
 * Nome da instância do ServiceNow
 * ID do cliente do ServiceNow
 * Segredo do cliente do ServiceNow
 * Tokens de atualização & Access
 
-Quando você cria uma permissão do ServiceNow no centro de segurança do Microsoft 365, os dados a seguir são enviados para o ServiceNow:
+Quando você cria uma permissão do ServiceNow no centro de segurança ou centro de conformidade do Microsoft 365, os dados a seguir são enviados para o ServiceNow:
 
 * ID de usuário que inicia a criação de tíquete
 * Nome da tarefa
 * Descrição da tarefa
-* Prioridade
+* Priority
 * Data de conclusão
 * Fonte de recomendação (recomendação do usuário ou recomendação da Microsoft)
 * Categoria de recomendação (dispositivos, dados, aplicativos, identidade, infraestrutura)
 
-## <a name="connect-microsoft-365-security-center-to-servicenow"></a>Conectar a central de segurança do Microsoft 365 ao ServiceNow
+## <a name="connect-to-servicenow"></a>Conectar-se ao ServiceNow
 
-Navegue até a home page do centro de segurança do Microsoft 365 para ver o cartão de conexão do ServiceNow.
-
-![Você usa o ServiceNow](../../media/do-you-use-servicenow-250.png)
-
-Selecione "conectar ao ServiceNow" para ir para a página de configuração do ServiceNow. Siga as instruções para autorizar o aplicativo conector 365 da Microsoft.
-
-> [!NOTE]
-> Antes de autorizar a conexão entre o centro de segurança do Microsoft 365 e o ServiceNow, certifique-se de usar o logon e a senha de usuário de integração que você criou nas etapas de instalação. Não use suas credenciais pessoais.
-
-Após ter seguido as orientações e autorizar a conexão, veja o status da conexão na página conexão da central de segurança do Microsoft 365 e na experiência do aplicativo do Microsoft 365 Ticketing Connector. Agora, você está pronto para começar a criar tarefas!
-
-## <a name="create-a-task-and-share-it-to-servicenow"></a>Criar uma tarefa e compartilhá-la para o ServiceNow
-
-Depois que a integração é configurada, crie tarefas do ServiceNow com base em ações específicas de melhoria da Pontuação segura da Microsoft. Vá para qualquer ação de melhoria na pontuação segura no portal da central de segurança do Microsoft 365 e selecione o ícone "compartilhar". Uma das opções de DropDown é o ServiceNow.
-
-![Compartilhamento do ServiceNow em Pontuação segura](../../media/servicenow-share.png)
-
-Uma tarefa é gerada onde você pode definir a prioridade e editar o nome, a descrição ou a data de conclusão. Após todos os campos obrigatórios serem preenchidos, envie a tarefa para o ServiceNow.
-
-A tarefa está visível no ServiceNow como uma solicitação de alteração de configuração e segurança do Microsoft 365.
-
-## <a name="track-tickets"></a>Controlar ingressos
-
-Depois que o gerenciamento de alterações e as permissões de gerenciamento de incidentes tiverem sido criados, eles serão exibidos em cartões na home page do centro de segurança do Microsoft 365. A partir desses cartões, você pode criar um tíquete, exibir todos os tíquetes ou gerenciar a configuração do ServiceNow.
-
-![Tíquetes de gerenciamento de alterações do ServiceNow](../../media/change-management-375.png)  ![Tíquetes de gerenciamento de incidentes do ServiceNow](../../media/incident-management-375.png)
-
-Para reprovisionar ou gerenciar sua integração do ServiceNow no centro de segurança do Microsoft 365, selecione **gerenciar a configuração do servicenow** em qualquer um dos cartões. A partir daí, remova a conexão atual do ServiceNow e personalize os nomes de estado de tíquete.
-
-Com as permissões do ServiceNow visíveis no centro de segurança do Microsoft 365, suas tarefas residem em um local onde elas podem ser rastreadas e aplicadas junto com seus outros itens do painel de segurança.
+Vá para [criar e acompanhar tíquetes do ServiceNow no centro de segurança do Microsoft 365](tickets-security-center.md) para saber como se conectar ao ServiceNow. A conexão com o centro de conformidade da Microsoft 365 estará disponível em breve.
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
@@ -152,5 +128,8 @@ Se você habilitou a filtragem de IP, talvez seja necessário permitir explicita
 
 ### <a name="installation-is-complete-but-dont-see-tickets-and-cant-share"></a>A instalação está concluída, mas não vê tíquetes e não pode ser compartilhada
 
-Se as etapas de instalação e configuração tiverem sido concluídas, mas você não vir os cartões do ServiceNow na Home Page e não puder compartilhar o ServiceNow pela pontuação segura da Microsoft, verifique o status da página de https://security.microsoft.com/ticketProvisioningprovisionamento em. Selecione **autorizar** e retornar para a página inicial. Os cartões devem ser exibidos.
+Se as etapas de instalação e configuração tiverem sido concluídas, mas você não vir os cartões do ServiceNow na Home Page e não puder compartilhar o ServiceNow pela pontuação segura da Microsoft, verifique o status da página de provisionamento em https://security.microsoft.com/ticketProvisioning . Selecione **autorizar** e retornar para a página inicial. Os cartões devem ser exibidos.
 
+## <a name="resources"></a>Recursos
+
+- [Gerenciar tíquetes do ServiceNow na central de segurança](tickets-security-center.md)
