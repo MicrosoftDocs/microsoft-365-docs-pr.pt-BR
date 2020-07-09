@@ -17,21 +17,24 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre o comportamento de retenção que se aplica especificamente aos emails do Exchange e às pastas públicas do Exchange.
-ms.openlocfilehash: aa4142db2114b2b58cc391429f1389c6b9fad52d
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: 57f0bf7737522b0435b076fee46edd1736efd856
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049889"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080088"
 ---
 # <a name="learn-about-retention-policies-for-exchange"></a>Saiba mais sobre as políticas de retenção do Exchange
 
 As informações contidas neste artigo complementam [Saiba mais sobre as políticas de retenção](retention-policies.md) porque são informações específicas para o Exchange.
 
-## <a name="how-a-retention-policy-works-with-exchange-locations"></a>Como funciona uma política de retenção com locais do Exchange
+## <a name="how-a-retention-policy-works-with-exchange"></a>Como funciona uma política de retenção do Exchange
 
-Para os email, calendário e outros itens de um usuário, uma política de retenção é aplicada no nível de uma caixa de correio.
+Para os emails, calendário e outros itens de caixa de correio de um usuário, uma política de retenção é aplicada no nível de uma caixa de correio.
 
-Para uma pasta pública, uma política de retenção é aplicada ao nível da pasta, não ao nível da caixa de correio. 
+Para pastas públicas, uma política de retenção é aplicada a todas as pastas públicas, não no nível de pasta ou caixa de correio.
+
+Ao configurar uma política de retenção para esses locais, os itens de email a seguir são incluídos: mensagens de email (inclui rascunhos) com todos os anexos, tarefas e itens de calendário quando eles têm uma data de término e anotações. Os contatos, as tarefas e os itens de calendário que não têm uma data de término não são incluídos. Os outros itens armazenados em uma caixa de correio, como as mensagens salvas no Skype e no Teams, estão incluídos na política de retenção separada.
 
 Tanto uma caixa de correio quanto uma pasta pública usam a [pasta Itens Recuperáveis](https://docs.microsoft.com/exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder) para reter itens. Somente as pessoas às quais foram atribuídas permissões de Descoberta Eletrônica podem exibir itens na pasta Itens Recuperáveis de outro usuário.
   

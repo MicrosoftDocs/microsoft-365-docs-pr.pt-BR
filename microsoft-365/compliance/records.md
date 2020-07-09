@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre os registros para ajudá-lo na implementação de uma solução de gerenciamento de registros no Microsoft 365.
-ms.openlocfilehash: 6807f8b8f76b2bc85835edf0d4402b98ea217037
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 35d1becad78cdb01402ba50ba44b277f8c511567
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470576"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080098"
 ---
 # <a name="learn-about-records"></a>Saiba mais sobre os registros
 
@@ -62,7 +62,7 @@ Lembre-se do seguinte sobre os registros:
 
     Para saber mais sobre como aplicar rótulos de retenção às pastas do Sharepoint e do OneDrive, confira [Aplicando um rótulo de retenção padrão a todo o conteúdo de uma biblioteca, pasta ou de um conjunto de documentos do SharePoint](labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set).
 
-  - **Não é possível excluir registros**. Se um usuário tentar excluir um registro no Exchange, o item será movido para a pasta Itens recuperáveis, conforme descrito em [Como uma política de retenção funciona com os locais do Exchange](retention-policies-exchange.md#how-a-retention-policy-works-with-exchange-locations).
+  - **Não é possível excluir registros**. Se um usuário tentar excluir um registro no Exchange, o item será movido para a pasta Itens recuperáveis, conforme descrito em [Como uma política de retenção funciona no Exchange](retention-policies-exchange.md#how-a-retention-policy-works-with-exchange).
 
     Se um usuário tentar excluir um registro no SharePoint, verá um erro informando que o item não foi excluído e permanecerá na biblioteca.
 
