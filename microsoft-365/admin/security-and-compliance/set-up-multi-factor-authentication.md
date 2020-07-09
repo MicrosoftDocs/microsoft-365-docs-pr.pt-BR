@@ -8,7 +8,7 @@ manager: mnirkhe
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Saiba como configurar a autenticação multifator para a sua organização.
 monikerRange: o365-worldwide
-ms.openlocfilehash: b0fd16fc74319c88a6f91bf56ac96346915c35ac
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: 56ca51e77b2ba4fa370a2814a7be9df1393c29dc
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049755"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083533"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Configurar a autenticação multifator
   
