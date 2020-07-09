@@ -1,13 +1,13 @@
 ---
-title: O Microsoft é um direito de desktop gerenciado para você
+title: A Área de Trabalho Gerenciada da Microsoft é o melhor para você
 description: ''
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.openlocfilehash: 0df3f6d2636a277bdca12e7d76279c4c58c9f1d4
 ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/02/2020
 ms.locfileid: "44011906"
@@ -15,93 +15,93 @@ ms.locfileid: "44011906"
 # <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de Trabalho Gerenciada da Microsoft?
 
 
-O Microsoft Managed desktop é um serviço baseado em nuvem que reúne [o microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview) (incluindo o [Windows 10](https://docs.microsoft.com/windows/windows-10/) enterprise e o [Office 365 Enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)) e adicionando estes recursos:
+A Área de Trabalho Gerenciada da Microsoft é um serviço baseado em nuvem que reúne [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview) (incluindo [Windows 10](https://docs.microsoft.com/windows/windows-10/) Enterprise e [Office 365 Enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)) e adicionando estes recursos:
 
-- Implantação de dispositivos de usuário final
-- Gerenciamento e operações de serviços de ti
+- Implantação de dispositivos para o usuário final
+- Gerenciamento e operações de serviços de TI
 - Monitoramento e resposta de segurança
 - Suporte ao usuário final
 
-A área de trabalho gerenciada da Microsoft oferece uma solução para vários dos desafios enfrentados pelas empresas e suas pessoas hoje:
-- A transição para o mundo ágil do software como um serviço é assustadora.
-- Os usuários finais querem uma experiência de trabalho habilitada e conectada.
-- Muitos processos atuais de gerenciamento e segurança de ti estão desatualizados, com intensa duração e custo.
-- As empresas querem se concentrar em o que as torna com êxito, em vez de manter a infraestrutura digital.
+A Área de Trabalho Gerenciada da Microsoft oferece uma solução para vários dos desafios das empresas e seus funcionários:
+- A transição para o mundo ágil do software como um serviço é assustador.
+- Os usuários finais querem uma experiência de trabalho capacitada e conectada.
+- Muitos processos atuais de segurança e gerenciamento de TI estão desatualizados, exigem muito tempo e são caros.
+- As empresas querem se concentrar no que as torna bem-sucedidas, em vez de manter a infraestrutura digital.
 
-Seus usuários finais desfrutarão das versões mais recentes do Windows 10 e dos aplicativos do Microsoft 365 para aplicativos corporativos (e mais, além de mais), usando dispositivos e software que são organizados e rigorosamente testados para melhorar o desempenho e a confiabilidade. Além disso, você nunca precisará se preocupar em manter qualquer um dos softwares atualizados, pois isso acontece automaticamente, seguindo uma sequência de distribuição cuidadosa que é monitorada a cada etapa do caminho. E os dispositivos registrados são monitorados 24x7 em busca de problemas técnicos e de segurança, portanto, se algo der errado, a ajuda estará no caminho.
+Os usuários finais apreciarão as versões mais recentes dos aplicativos do Windows 10 e do aplicativos do Microsoft 365 Apps para Grandes Empresas (e mais além) usando dispositivos e software que são organizados e rigorosamente testados para melhorar o desempenho e a confiabilidade. Além disso, você nunca precisará se preocupar em manter algum software atualizado porque isso acontece automaticamente, seguindo uma sequência de distribuição cuidadosa que é monitorada todas as etapas do processo. Os dispositivos registrados são monitorados 24 horas por dia, 7 dias por semana, para resolver problemas técnicos e de segurança.
 
 
-## <a name="unique-to-microsoft-managed-desktop"></a>Exclusivo para a área de trabalho gerenciada da Microsoft
+## <a name="unique-to-microsoft-managed-desktop"></a>Exclusivo para a Área de Trabalho Gerenciada da Microsoft
 
-Claro que não há nada que impeça você de obter e gerenciar seus próprios dispositivos e implantações do Microsoft 365. Então, o que o Microsoft Managed desktop oferece além disso?
+Claro, não há nada impedindo você de obter e gerenciar seus próprios dispositivos e implantações do Microsoft 365. Então, o que a Área de Trabalho Gerenciada da Microsoft oferece além disso?
 
-Nossas políticas e a linha de base de segurança oferecem aos seus usuários finais esses benefícios:
+Nossas políticas e linha de base de segurança oferecem aos seus usuários finais esses benefícios:
 
-- Tempos de inicialização para dispositivos de área de trabalho gerenciada da Microsoft sobre um quarto como longo.
-- Pelo menos duas vezes a duração da bateria
-- Cerca de um terço de falhas de dispositivos por ano
-- Mobilidade de dispositivos por meio de [roaming de estado corporativo](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview), permitindo que os usuários tenham a mesma experiência, não importa qual dispositivo entrar
+- Tempo de inicialização 75% menor para dispositivos de Área de Trabalho Gerenciada da Microsoft.
+- Pelo menos o dobro de vida útil da bateria
+- Cerca de um terço das falhas de dispositivos por ano
+- Mobilidade de dispositivos por meio [Enterprise State Roaming](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview), permitindo que os usuários tenham a mesma experiência, não importa em qual dispositivo entrar
 
-Os seus administradores de ti se beneficiam dos seguintes recursos:
+Os administradores de TI se beneficiam dos seguintes recursos:
 
-- Os painéis do insights o mantêm constantemente atualizado quanto ao uso, confiabilidade, integridade do dispositivo e outros dados em dispositivos e usuários
-- Cerca de *um décimo* da quantidade de tempo necessária para atualizar 95% dos dispositivos
-- Mais tempo para se concentrar em outras atividades de administração de ti, graças ao [Gerenciamento de dispositivos](#device-management) fornecido pelo serviço.
-- Melhor conscientização do desempenho do dispositivo e do aplicativo e aviso antecipado de problemas de segurança do [monitoramento de dispositivos](#device-monitoring).
+- O painel do Insights o mantém constantemente atualizado sobre uso, confiabilidade, integridade do dispositivo e outros dados em dispositivos e usuários
+- Cerca de *um décimo* do tempo necessário para atualizar 95% dos dispositivos
+- Mais tempo para se concentrar em outras atividades de administração de TI, graças ao [gerenciamento de dispositivos](#device-management) fornecidos pelo serviço.
+- Melhor reconhecimento de desempenho de dispositivos e aplicativos e aviso antecipado de problemas de segurança por meio do [monitoramento de dispositivos](#device-monitoring).
 
 ## <a name="device-management"></a>Gerenciamento de dispositivo
-A área de trabalho gerenciada da Microsoft assume o fardo de gerenciar dispositivos registrados e o software da Microsoft que eles utilizam.
+A Área de Trabalho Gerenciada da Microsoft assume o trabalho de gerenciar dispositivos registrados e o software da Microsoft que eles usam.
 
-- **Hardware:** Em vez de seu departamento de ti ter de Pesquisar e testar dispositivos (e seus drivers), dispositivos específicos são cuidadosamente testados pela área de trabalho gerenciada da Microsoft, resultando em uma [lista organizada de dispositivos](../service-description/device-list.md) que atendem aos requisitos de desempenho de nível empresarial e têm a garantia de trabalhar com o serviço. Você pode obter os próprios dispositivos (ou trabalhar com um parceiro) ou reutilizar os dispositivos já existentes, contanto que eles estejam na lista aprovada. O registro de dispositivos é fácil e direto, e antes de ser implantado, você também pode [Personalizar](../working-with-managed-desktop/config-setting-overview.md) determinados aspectos da experiência do dispositivo para seus usuários finais.
-- **Atualizações:** A área de trabalho gerenciada da Microsoft configura e gerencia todos os aspectos de [grupos de implantação](../service-description/updates.md) para atualizações de recursos e qualidade do Windows 10, Drivers, firmware, definições de antivírus e aplicativos do Microsoft 365 para atualizações empresariais. Isso inclui testes e verificações abrangentes de todas as atualizações, garantindo que os dispositivos registrados estejam sempre atualizados e minimizando as interrupções, liberando seu departamento de ti da tarefa em andamento.
-- **Aplicativos:** Como parte do Microsoft 365 Enterprise, a Microsoft fornece (e gerencia) vários aplicativos fundamentais da Microsoft para você. Mas você provavelmente também tem outros aplicativos necessários para sua empresa. Em vez de seu departamento de ti ter que testar, empacotar e implantar esses aplicativos, a Microsoft ajuda você a implantá-los e pode ajudar com o [aplicativo de área de trabalho garantir](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure) , se necessário. Saiba mais em [aplicativos na área de trabalho gerenciada da Microsoft](../get-ready/apps.md).
+- **Hardware:** Ao invés de seu departamento de TI ter que pesquisar e testar dispositivos (e seus drivers), dispositivos específicos são cuidadosamente testados pela Área de Trabalho Gerenciada da Microsoft, o que resulta em uma [lista de dispositivos](../service-description/device-list.md) organizada que atende aos requisitos de desempenho de nível empresarial e tem a garantia de que eles funcionem com o serviço. Você pode obter os dispositivos por conta própria (ou trabalhar com um parceiro) ou reutilizar dispositivos já existentes, desde que eles estejam na lista aprovada. O registro de dispositivos é fácil e rápido e, antes que eles sejam implantados, você também pode [personalizar](../working-with-managed-desktop/config-setting-overview.md) determinados aspectos da experiência de dispositivos para os usuários finais.
+- **Atualizações:** A Área de Trabalho Gerenciada da Microsoft configura e gerencia todos os aspectos de [grupos de implantação](../service-description/updates.md) para as atualizações de recursos e qualidade do Windows 10, drivers, firmware, definições de antivírus e atualizações do Microsoft 365 Apps para Grandes Empresas. Isso inclui os testes abrangentes e a verificação de todas as atualizações, o que garante que os dispositivos registrados estejam sempre atualizados e minimize as interrupções, liberando o seu departamento de TI por toda a tarefa.
+- **Aplicativos:** Como parte do Microsoft 365 Enterprise, a Microsoft fornece (e gerencia) vários aplicativos essenciais da Microsoft para você. Mas você provavelmente também tem outros aplicativos necessários para a sua empresa. Em vez de seu departamento de TI precisar testar, criar e implantar esses aplicativos, a Microsoft ajuda você a implementá-los e pode ajudar a [Garantia de Aplicativo da Área de Trabalho](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure), se necessário. Saiba mais em [Aplicativos da Área de Trabalho Gerenciada da Microsoft](../get-ready/apps.md).
 
 
-## <a name="device-monitoring"></a>Monitoramento de dispositivos
+## <a name="device-monitoring"></a>Monitoramento de dispositivo
 
-Ajudamos a manter a segurança de seus dispositivos com um centro de operações de segurança dedicado que monitora seus dispositivos e usa dados de ameaças exclusivas que a Microsoft analisa a cada mês. Esses recursos de segurança são incorporados em vez de serem adicionados ao mais tarde.
+Ajudamos a manter a segurança dos seus dispositivos com um centro de operações de segurança dedicado que monitora seus dispositivos e usa dados das ameaças únicas que a Microsoft analisa mensalmente. Esses recursos de segurança são integrados, em vez de adicionados mais tarde.
 
-Também monitoramos a integridade do dispositivo e fornecemos informações sobre o desempenho do dispositivo. Saiba mais em [operações e monitoramento de área de trabalho gerenciada da Microsoft](../service-description/operations-and-monitoring.md)
+Além disso, monitoramos a integridade do dispositivo e fornecemos percepções sobre o desempenho do dispositivo. Saiba mais em [Operação e monitoramento da Área de Trabalho Gerenciada da Microsoft](../service-description/operations-and-monitoring.md)
 
 
 ## <a name="need-more-details"></a>Precisa de mais detalhes?
-Para saber mais sobre o valor da área de trabalho gerenciada da Microsoft, incluindo histórias de clientes, consulte [área de trabalho gerenciada da Microsoft](https://aka.ms/mmd). Grandes lugares para começar a usar mais são o [roteiro](https://aka.ms/AA6jiam), um [estudo de caso de impacto econômico total da Forrester](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/intro/downloads/forrester-tei-study.pdf)e um [Resumo de uma página para](https://aka.ms/AA6ob3h)download. Você pode encontrar as últimas notícias no [blog](https://aka.ms/AA6l2dd)da área de trabalho gerenciada da Microsoft.
+Para saber mais sobre o valor da Área de Trabalho Gerenciada da Microsoft, incluindo histórias de clientes, confira [Área de Trabalho Gerenciada da Microsoft](https://aka.ms/mmd). Os melhores lugares para começar a aprender mais são [Roteiro](https://aka.ms/AA6jiam), um [estudo de caso da Forrester Total Economic Impact](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/intro/downloads/forrester-tei-study.pdf) e um [resumo de uma página](https://aka.ms/AA6ob3h) que pode ser baixado. Você pode encontrar as últimas notícias no [blog](https://aka.ms/AA6l2dd) da Área de Trabalho Gerenciada da Microsoft.
 
-Se a área de trabalho gerenciada da Microsoft parecer correta para a sua organização, você pode aprofundar-se na documentação adicional que explica mais sobre o serviço, como preparar sua organização para se inscrever, como começar a usar o serviço e realizar operações em andamento, incluindo como você e seus usuários finais podem obter a ajuda facilmente, se necessário. Se você já está pronto para entrar, comece entrando em contato com sua [equipe de conta local](https://pages.email.office.com/contactmmd/).
+Se a Área de Trabalho Gerenciada da Microsoft parecer correta para a sua organização, você poderá se aprofundar na documentação adicional que explica mais sobre o serviço, como preparar a sua organização para se inscrever, como começar a usar o serviço e as operações em andamento, inclusive como você e seus usuários finais poderão obter ajuda facilmente, se necessário. Se você já está pronto para aderir, primeiro entre em contato com a sua [equipe de conta local](https://pages.email.office.com/contactmmd/).
 
-**Mais visão geral e plano de fundo** Principalmente para tomadores de decisões técnicas e de negócios, esses tópicos detalham a divisão de funções e responsabilidades entre sua organização e a Microsoft, mais sobre as tecnologias usadas no Microsoft Managed desktop e como o serviço se encaixa em uma estratégia mais ampla como parte da estrutura ITIL.
+**Mais visão geral e informações de plano de fundo** primariamente para os tomadores de decisões técnicas e de negócios, esses tópicos detalham a divisão de funções e responsabilidades entre a sua organização e a Microsoft, mais informações sobre as tecnologias usadas na Área de Trabalho Gerenciada da Microsoft e como o serviço se encaixa em uma estratégia mais ampla como parte da estrutura ITIL.
 
-- [Funções e responsabilidades de área de trabalho gerenciada da Microsoft](roles-and-responsibilities.md)
-- [Tecnologias de área de trabalho gerenciada da Microsoft](technologies.md)
-- [Área de Trabalho e ITIL Gerenciados da Microsoft](../MMD-and-ITSM.md)
+- [Funções e responsabilidades da Área de Trabalho Gerenciada da Microsoft](roles-and-responsibilities.md)
+- [Tecnologias de Área de Trabalho Gerenciada da Microsoft](technologies.md)
+- [ITIL e Área de Trabalho Gerenciada da Microsoft](../MMD-and-ITSM.md)
 - [Conformidade](compliance.md)
 - [Descrição do serviço da Área de Trabalho Gerenciada da Microsoft](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/)
 
-**Prepare-se para registro** Estes tópicos descrevem as etapas que você precisará realizar em sua organização para se preparar para o registro, incluindo a verificação de que o ambiente atende aos principais pré-requisitos, a configuração de redes, a configuração de certificados e a preparação de seus aplicativos.
+**Prepare-se para o registro** estes tópicos descrevem as etapas necessárias para a sua organização se preparar para o registro, incluindo a verificação de que seu ambiente atende aos principais pré-requisitos, configuração de redes, configuração de certificados e preparação de aplicativos.
 
 - [Pré-requisitos da Área de Trabalho Gerenciada da Microsoft](../get-ready/prerequisites.md)
-- [Configuração de rede para a área de trabalho gerenciada da Microsoft](../get-ready/network.md)
+- [Configuração de rede na Área de Trabalho Gerenciada da Microsoft](../get-ready/network.md)
 - [Preparar o acesso aos recursos locais da Área de Trabalho Gerenciada da Microsoft](../get-ready/authentication.md)
 - [Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft](../get-ready/mapped-drives.md)
 - [Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft](../get-ready/certs-wifi-lan.md)
-- [Aplicativos na área de trabalho gerenciada da Microsoft](../get-ready/apps.md)
+- [Aplicativos na Área de Trabalho Gerenciada da Microsoft](../get-ready/apps.md)
 
-**Introdução** Quando você estiver pronto para se inscrever, esta seção inclui as etapas a serem seguidas para realmente participar do serviço, obter e configurar dispositivos, preparar seus usuários finais e implantar aplicativos.
+**Iniciar** Uma vez que você esteja pronto para se inscrever, esta seção inclui as etapas a seguir para realmente entrar no serviço, obter e configurar dispositivos, preparar seus usuários finais e implantar aplicativos.
 
 - [Adicionar e verificar contatos do administrador no portal de Administração](../get-started/add-admin-contacts.md)
 - [Ajustar o acesso condicional](../get-started/conditional-access.md)
 - [Atribuir licenças](../get-started/assign-licenses.md)
-- [Instalar o portal da empresa do Intune em dispositivos](../get-started/company-portal.md)
-- [Habilitar Roaming de Estado da Empresa](../get-started/enterprise-state-roaming.md)
-- [Configurar dispositivos de área de trabalho gerenciada da Microsoft](../get-started/set-up-devices.md)
+- [Instalar o Portal da Empresa do Intune em dispositivos](../get-started/company-portal.md)
+- [Habilitar Enterprise State Roaming](../get-started/enterprise-state-roaming.md)
+- [Configurar dispositivos de Área de Trabalho Gerenciada da Microsoft](../get-started/set-up-devices.md)
 - [Preparar usuários para o uso dos dispositivos](../get-started/get-started-devices.md)
 - [Implantar aplicativos em dispositivos](../get-started/deploy-apps.md)
 
-**Trabalhando com a área de trabalho gerenciada da Microsoft** Esta seção inclui informações sobre sua vida útil diária com o serviço, por exemplo, como os administradores de ti podem obter suporte, se necessário, como os usuários finais têm suporte, Gerenciando seus aplicativos depois de implantados e como trabalhar com as configurações personalizáveis nos dispositivos.
+**Trabalhando com a Área de Trabalho Gerenciada da Microsoft** Esta seção inclui informações sobre o seu cotidiano com o serviço, como os administradores de TI podem obter suporte, se necessário, como os usuários finais recebem suporte, gerenciando os aplicativos depois de implantadas e como trabalhar com as configurações personalizáveis nos dispositivos.
 
-- [Suporte de administrador para área de trabalho gerenciada da Microsoft](../working-with-managed-desktop/admin-support.md)
-- [Obtendo ajuda para usuários finais](../working-with-managed-desktop/end-user-support.md)
-- [Configurações configuráveis-Microsoft Managed desktop](../working-with-managed-desktop/config-setting-overview.md)
+- [Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](../working-with-managed-desktop/admin-support.md)
+- [Obter ajuda para usuários finais](../working-with-managed-desktop/end-user-support.md)
+- [Configurações que podem ser alteradas – Área de Trabalho Gerenciada da Microsoft](../working-with-managed-desktop/config-setting-overview.md)
 
 
 
