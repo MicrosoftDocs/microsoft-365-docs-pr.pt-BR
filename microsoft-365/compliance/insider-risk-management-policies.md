@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: a69c90580db9b33196fd1eb3797a42b8db056fcd
-ms.sourcegitcommit: 2e9e309ec09e5275ac6b3b425fba48a9ffce8eb2
+ms.openlocfilehash: 79f6273f747d518dd9c44f4a57fa0a48daed81d2
+ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44900815"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45091927"
 ---
 # <a name="insider-risk-management-policies"></a>Políticas de gerenciamento de risco do insider
 
@@ -42,14 +42,14 @@ Os modelos de gerenciamento de risco do insider são condições de política pr
 
 ### <a name="departing-employee-data-theft"></a>Como a parte do roubo de dados do funcionário
 
-Quando os funcionários saem da sua organização, há indicadores de risco específicos geralmente associados ao roubo de dados por parte dos funcionários. Este modelo de política prioriza esses indicadores e focaliza a detecção e os alertas nessa área de risco. O roubo de dados para os funcionários de parte pode incluir o download de arquivos do SharePoint Online, a cópia de arquivos para dispositivos portáteis, como unidades USB, impressão de arquivos e cópia de dados para serviços de armazenamento e mensagens na nuvem pessoal próximo de suas datas de demissão e término de emprego. Este modelo prioriza os indicadores de risco relacionados a essas atividades e como eles se correlacionam com o status de emprego do funcionário.
+Quando os funcionários saem da sua organização, há indicadores de risco específicos geralmente associados ao roubo de dados por parte dos funcionários. Este modelo de política prioriza esses indicadores e focaliza a detecção e os alertas nessa área de risco. O roubo de dados para os funcionários de parte pode incluir o download de arquivos do SharePoint Online, a impressão de arquivos e a cópia de dados para serviços de armazenamento e mensagens na nuvem pessoal próximo de suas datas de demissão e término de emprego. Este modelo prioriza os indicadores de risco relacionados a essas atividades e como eles se correlacionam com o status de emprego do funcionário.
 
 >[!IMPORTANT]
 >Ao usar esse modelo, você deve configurar um conector de RH da Microsoft 365 para importar periodicamente informações de data de demissão e de término para os funcionários de sua organização. Consulte o tópico [importar dados com o conector de RH](import-hr-data.md) para obter orientações passo a passo para configurar o Microsoft 365 HR Connector para sua organização.
 
 ### <a name="data-leaks"></a>Vazamentos de dados
 
-A proteção de dados e a prevenção de vazamentos de dados é um desafio constante para a maioria das organizações, especialmente com o rápido aumento de novos dados criados por funcionários, dispositivos e serviços. Os funcionários são capacitados a criar, armazenar e compartilhar informações entre serviços e dispositivos que tornam o gerenciamento de vazamentos de dados cada vez mais complexo e difícil. Os vazamentos de dados podem incluir o compartilhamento acidental de informações fora de sua organização ou roubo de dados com más intenções. Em conjunto com uma política de prevenção de perda de dados (DLP) atribuída, esse modelo prioriza a detecção em tempo real de downloads suspeitos de dados do SharePoint Online, compartilhamento de arquivos e pastas, cópia de arquivos para dispositivos portáteis, como unidades USB, impressão de arquivos e cópia de dados para serviços de armazenamento e mensagens na nuvem pessoal.
+A proteção de dados e a prevenção de vazamentos de dados é um desafio constante para a maioria das organizações, especialmente com o rápido aumento de novos dados criados por funcionários, dispositivos e serviços. Os funcionários são capacitados a criar, armazenar e compartilhar informações entre serviços e dispositivos que tornam o gerenciamento de vazamentos de dados cada vez mais complexo e difícil. Os vazamentos de dados podem incluir o compartilhamento acidental de informações fora de sua organização ou roubo de dados com más intenções. Em conjunto com uma política de prevenção de perda de dados (DLP) atribuída, esse modelo prioriza a detecção em tempo real de downloads suspeitos de dados do SharePoint Online, compartilhamento de arquivos e pastas, impressão de arquivos e cópia de dados para serviços de armazenamento e mensagens de nuvem pessoal.
 
 Ao usar o modelo de **vazamentos de dados** , você deve atribuir uma política de DLP para acionar indicadores na política de risco do insider para alertas de alta gravidade em sua organização. Sempre que um alerta de alta gravidade é gerado por uma regra de política de DLP é adicionada ao log de auditoria do Office 365, as políticas de risco do insider criadas com esse modelo examinam automaticamente o alerta de DLP de alta gravidade. Se o alerta contiver um usuário de escopo definido na política de risco Insider, o alerta será processado pela política de risco Insider como um novo alerta e receberá uma severidade de risco e uma pontuação de risco do insider. Este alerta pode ser avaliado como parte do fluxo de trabalho de gerenciamento de risco do insider e adicionado a um caso de gerenciamento de risco do Insider, se necessário.
 

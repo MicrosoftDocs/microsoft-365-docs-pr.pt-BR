@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d11fd8f29e3232472f9457ba1fc288a5084429e9
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: f4bc5f85b21148c5a923ca1fc18879a193191c4b
+ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936132"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45094781"
 ---
 # <a name="new-microsoft-edge-app"></a>Novo aplicativo do Microsoft Edge
 
@@ -86,7 +86,7 @@ Não recomendamos desabilitar essa configuração, pois isso permitirá que os u
 
 **Valor padrão:** Deficiência
 
-Não é recomendável usar o flash por causa dos riscos de segurança associados. Se você ainda tiver processos que dependem do flash, defina a política **[PluginsAllowedForUrls](https://docs.microsoft.com/deployedge/microsoft-edge-policies#pluginsallowedforurls)** para habilitar o flash para sites que precisam dele. Se o não puder manter uma lista de sites permitidos para usar o flash, arquivo uma solicitação de alteração para alterar o valor para **clique para reproduzir**, o que permite que os usuários escolham quando for apropriado executar o flash.
+Não é recomendável usar o flash por causa dos riscos de segurança associados. Se você ainda tiver processos que dependem do flash, defina a política **[PluginsAllowedForUrls](https://docs.microsoft.com/deployedge/microsoft-edge-policies#pluginsallowedforurls)** para habilitar o flash para sites que precisam dele. Se você não puder manter uma lista de sites permitidos para usar o flash, execute uma solicitação de alteração para alterar o valor para **clique em reproduzir**, o que permite que os usuários escolham quando for apropriado executar o flash.
 
 ### <a name="password-manager"></a>Gerenciador de senhas
 

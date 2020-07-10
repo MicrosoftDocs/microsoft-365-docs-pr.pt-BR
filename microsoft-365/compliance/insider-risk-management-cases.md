@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 9959d41cf112c1ebcc88a8dd0335cae5a5537059
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: d4c2ed423743bb0f7a9c4550421c5266cc5d08b0
+ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327857"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45091947"
 ---
 # <a name="insider-risk-management-cases"></a>Casos de gerenciamento de risco do insider
 
@@ -103,7 +103,7 @@ A guia **atividade do usuário** é uma das ferramentas mais poderosas para aná
 
 ### <a name="content-explorer"></a>Gerenciador de conteúdo
 
-A guia **Gerenciador de conteúdo** permite que analistas de risco e investigadores revisem cópias de todos os arquivos e mensagens de email individuais associados a alertas de risco. Por exemplo, se um alerta é criado quando um funcionário baixa centenas de arquivos do SharePoint Online para um dispositivo USB e a atividade dispara um alerta de política, todos os arquivos baixados para o alerta são capturados e copiados para o caso de gerenciamento de risco do insider das fontes de armazenamento originais.
+A guia **Gerenciador de conteúdo** permite que analistas de risco e investigadores revisem cópias de todos os arquivos e mensagens de email individuais associados a alertas de risco. Por exemplo, se um alerta é criado quando um funcionário baixa centenas de arquivos do SharePoint Online e a atividade dispara um alerta de política, todos os arquivos baixados para o alerta são capturados e copiados para o caso de gerenciamento de risco do insider das fontes de armazenamento originais.
 
 O Gerenciador de conteúdo é uma poderosa ferramenta com recursos básicos e avançados de pesquisa e filtragem. Para saber mais sobre como usar o Gerenciador de conteúdo, confira [Insider Risk Management Content Explorer](insider-risk-management-content-explorer.md).
 

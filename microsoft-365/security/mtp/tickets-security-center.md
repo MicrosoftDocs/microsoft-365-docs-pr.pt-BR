@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: 48512cf2fff802509ebaa14ca69d3ca02908902e
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.openlocfilehash: 16ee37b1c7bf33c902db35af2d29744f42830ea7
+ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45087906"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45094829"
 ---
 # <a name="create-and-track-servicenow-tickets-in-the-microsoft-365-security-center"></a>Criar e acompanhar tíquetes do ServiceNow no centro de segurança do Microsoft 365
 
@@ -54,9 +54,7 @@ Saiba mais sobre os erros comuns que você pode encontrar no processo de conexã
 
 ## <a name="create-a-task-and-share-it-to-servicenow"></a>Criar uma tarefa e compartilhá-la para o ServiceNow
 
-Depois que a integração é configurada, crie tarefas do ServiceNow com base em ações específicas de melhoria da Pontuação segura da Microsoft. Vá para qualquer ação de melhoria na pontuação segura no portal da central de segurança do Microsoft 365 e selecione o ícone "compartilhar". Uma das opções de DropDown é o ServiceNow.
-
-![Compartilhamento do ServiceNow em Pontuação segura](../../media/servicenow-share.png)
+Depois que a integração é configurada, crie tarefas do ServiceNow com base em ações específicas de melhoria da [Pontuação segura da Microsoft](microsoft-secure-score.md) . Vá para qualquer ação de melhoria na pontuação segura no portal da central de segurança do Microsoft 365 e selecione **compartilhar**. Uma das opções de DropDown é o ServiceNow.
 
 Uma tarefa é gerada onde você pode definir a prioridade e editar o nome, a descrição ou a data de conclusão. Após todos os campos obrigatórios serem preenchidos, envie a tarefa para o ServiceNow.
 

@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-mar2020
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: Neste artigo, você aprenderá a criar, testar e ajustar uma política de DLP de acordo com suas necessidades organizacionais.
-ms.openlocfilehash: 9f5f1b1f84ba44dbf52366d30b0e26bbf310e9fe
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 3405fc99f4d12715972b1fd18a9c20dd9334382b
+ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352218"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45092001"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>Criar, testar e ajustar uma política DLP
 
-A DLP (prevenção contra perda de dados) é um recurso de conformidade projetado para ajudar sua organização a impedir a exposição intencional ou acidental de informações confidenciais a partes indesejadas. O DLP tem suas raízes no Exchange Server e no Exchange Online e também se aplica ao SharePoint Online e ao OneDrive for Business.
+A prevenção de perda de dados (DLP) é um recurso de conformidade projetado para ajudar a sua organização a impedir a involuntária ou a exposição acidental de informações confidenciais a partes indesejadas. O DLP tem suas raízes no Exchange Server e no Exchange Online e também se aplica ao SharePoint Online e ao OneDrive for Business.
 
 A DLP usa um mecanismo de análise de conteúdo para examinar o conteúdo de mensagens e arquivos de email, procurando informações confidenciais, como números de cartões de crédito e PII (informações de identificação pessoal). As informações confidenciais normalmente não devem ser enviadas por email ou incluídas em documentos, sem realizar etapas adicionais, como criptografar a mensagem de email ou os arquivos. Usando DLP, você pode detectar informações confidenciais e tomar ações como:
 
