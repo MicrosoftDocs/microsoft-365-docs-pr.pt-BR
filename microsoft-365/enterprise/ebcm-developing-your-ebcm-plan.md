@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aspectos a considerar ao desenvolver seu plano de continuidade de negócios com reconhecimento na nuvem.
-ms.openlocfilehash: f8518a96461d33093b9d736f890f6166dc6b3c97
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 35aa5fb74b8281a089ef0b58998cd297507cc46f
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601088"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083500"
 ---
 # <a name="developing-your-continuity-plan"></a>Desenvolvendo seu plano de continuidade
 
@@ -80,6 +80,8 @@ Aqui está um exemplo de análise de dependência (DA) da qual você pode começ
 
 Depois de criar o inventário de seus processos de negócios e ter mapeado relações para outro processo e tecnologias, você precisará criar cenários de validação para todos os processos. Basicamente, descubra como você vai validar seus planos de continuidade de processos de negócios. É provável que algumas pessoas sejam mais importantes, e você desejará priorizá-las.
 Não se esqueça de que o treinamento regular dos funcionários sobre a resposta a incidentes e as medidas de continuidade será importante quando o plano for estabelecido. As revisões pós-incidente devem ser usadas para aprimorar suas estratégias de resiliência, incorporando o aprendizado de cada validação ou teste.
+
+![validação de capacidade visio](../media/ebcm/capability-validation-visio.png)
 
 ## <a name="incident-coordination-and-communication"></a>Coordenação e comunicação de incidentes
 

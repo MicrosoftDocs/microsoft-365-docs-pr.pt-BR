@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Use uma política de retenção para decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra determinadas condições.'
-ms.openlocfilehash: 12b0c15186a27a1583403214a657367c1dd3b1a9
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: ab6a61e0cedfd91d642823f0c459a5a1699df000
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844747"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083613"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -52,7 +52,7 @@ Essas permissões são necessárias somente para criar e aplicar uma política d
     
     Para o Microsoft Teams: 
     - Você deve selecionar a opção para escolher locais específicos, se desejar excluir ou reter as mensagens do canal do Teams ou chats do Teams. Quando você seleciona uma dessas opções como locais, os outros locais são excluídos automaticamente porque uma política de retenção que inclui esses dados do Teams não pode incluir outros locais. 
-    - Observe que, para **mensagens de canal do Teams**, estão incluídas mensagens de canais padrão, mas não de [canais privados](https://docs.microsoft.com/microsoftteams/private-channels). Mensagens de canais privados são incluídas para usuários como chats em grupo quando você seleciona o local dos **chats do Teams**.
+    - Observe que, para **mensagens de canal do Teams**, estão incluídas mensagens de canais padrão, mas não de [canais privados](https://docs.microsoft.com/microsoftteams/private-channels). No momento canais privados não são suportados pelas políticas de retenção.
     
     Para obter mais informações sobre como escolher entre uma política de retenção para a organização ou para locais específicos, confira [ Aplicar uma política de retenção a uma organização inteira ou locais específicos](#applying-a-retention-policy-to-an-entire-organization-or-specific-locations) nesta página.
     
@@ -206,7 +206,7 @@ Geralmente, essa atualização é bastante rápida, mas pode levar vários dias.
 
 Para usar os cmdlets de políticas de retenção:
   
-1. [Conecte-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
+1. [Conecte-se ao Centro de Segurança e Conformidade do Office 365 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
     
 2. Use esses cmdlets do Centro de Conformidade e Segurança do Office 365
     
@@ -238,9 +238,11 @@ Você deve usar o Windows PowerShell se precisar usar o [Bloqueio de Preservaç�
     ![Lista de políticas de retenção no Windows PowerShell](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
     
 3. Coloque um Bloqueio de Preservação em uma política de retenção, execute `Set-RetentionCompliancePolicy` com o parâmetro `RestrictiveRetention` definido como verdadeiro. Por exemplo:
-    
-        Set-RetentionCompliancePolicy -Identity "<Name of Policy>" – RestrictiveRetention $true
-    
+
+   ```powershell
+   Set-RetentionCompliancePolicy -Identity "<Name of Policy>" – RestrictiveRetention $true
+   ```
+   
     ![Parâmetro RestrictiveRetention no PowerShell](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
     
     Depois de executar esse cmdlet, escolha **Sim para Todos**:

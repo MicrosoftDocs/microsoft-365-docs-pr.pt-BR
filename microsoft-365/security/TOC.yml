@@ -215,8 +215,12 @@
               href: mtp/device-profile.md
             - name: Faça comentários
               href: mtp/feedback.md
-            - name: Gerenciar tíquetes pelo ServiceNow
-              href: ./mtp/tickets.md
+            - name: Criar ingressos e tarefas do ServiceNow
+              items:
+                - name: Visão geral de integração do ServiceNow
+                  href: ./mtp/tickets.md
+                - name: Bilhetes do ServiceNow na central de segurança
+                  href: ./mtp/tickets-security-center.md
     - name: Segurança do Office 365
       items:
         - name: Introdução

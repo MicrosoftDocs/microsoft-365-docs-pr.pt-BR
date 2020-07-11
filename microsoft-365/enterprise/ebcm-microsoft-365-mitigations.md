@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Alguns exemplos de mitigações para cenários de incidentes de serviço do Microsoft 365.
-ms.openlocfilehash: ea9804d4f22a11ea9ffcda9d9939d70574c2e87e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e5313464a45be679eaee6c4d06ca000e63c1010c
+ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601058"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086628"
 ---
 # <a name="service-incident-mitigation-strategies"></a>Estratégias de mitigação de incidentes de serviço
 
@@ -36,6 +36,7 @@ Aqui estão algumas estratégias e cenários que mostram como minimizar o impact
 |Os telefones VoIP são usados como um método secundário de comunicação.|Implemente telefones que não sejam VoIP e que possam executar chamadas PSTN, especialmente para centros de operações de rede e serviço durante incidentes. Adicione os telefones celulares dos funcionários ao diretório da empresa para permitir o contato com funcionários essenciais.|
 |É possível utilizar o OneDrive for Business no armazenamento de arquivos e na produtividade do usuário. Os [Arquivos Sob Demanda](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/OneDrive-Files-On-Demand-For-The-Enterprise/ba-p/117234) estão configurados para liberar espaço nas unidades locais de usuários.|As políticas para sincronização de grupos de suprimentos do OneDrive permitem que os administradores exijam a sincronização local de conteúdo específico ou a liberação de espaço quando necessário. Para reduzir o risco da inacessibilidade de documentos, configure essa política para sincronizar documentos críticos no local. Treine os usuários para aplicar manualmente a configuração "sempre manter neste dispositivo" no caso de documentos importantes.|
 |A comunicação de interrupções de negócios com clientes e fornecedores depende do Exchange Online.|É possível usar as redes sociais públicas de terceiros como uma alternativa no caso de comunicações em massa.
+|A arquitetura híbrida no local, como o ADFS ou a Autenticação de Passagem, falha causando a interrupção da capacidade dos usuários de se autenticarem em serviços de nuvem.|Configure [Sincronização de Hash de Senha](https://docs.microsoft.com/azure/active-directory/authentication/concept-resilient-controls#deploy-password-hash-sync-even-if-you-are-federated-or-use-pass-through-authentication), juntamente com seus serviços de autenticação híbrida, como um mecanismo de autenticação secundário baseado na nuvem para evitar a interrupção de entrada durante a interrupção. [Confira Criar uma Estratégia de Gerenciamento de Controle de Acesso Resistente com o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-resilient-controls) para saber mais sobre a criação de arquiteturas de controle de acesso e autenticação flexíveis.|  
 
 ## <a name="leveraging-mobile-app-access"></a>Aproveitando o acesso de aplicativos móveis
 
