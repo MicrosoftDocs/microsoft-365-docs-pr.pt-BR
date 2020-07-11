@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Visão geral da pontuação da produtividade da Microsoft.
-ms.openlocfilehash: cf8747f38442c0dbef6178dc2cbd4ce32d59c5c6
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: a93ceef3833e1e55f6e3bb979fd93aa3d90ded37
+ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754791"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45101642"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Pontuação de produtividade da Microsoft (versão prévia)
 
@@ -145,7 +145,7 @@ Este relatório ajuda os líderes de negócios a entender:
 
 - O impacto no equilíbrio de vida útil como as pessoas se ajustam para trabalhar de casa. 
 
-- Se as pessoas estiverem usando reuniões com eficiência e como estão 
+- Se as reuniões remotas oferecerem suporte à tomada de decisão eficaz.
 
 [Saiba mais sobre o relatório de continuidade de negócios](https://aka.ms/bcrps)
 

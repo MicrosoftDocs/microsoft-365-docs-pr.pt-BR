@@ -1,5 +1,5 @@
 ---
-title: Registrar dispositivos existentes sozinho
+title: Registre dispositivos existentes por conta própria
 description: Registrar os dispositivos reutilizados que você já pode ter para que eles possam ser gerenciados pelo Microsoft Managed desktop
 ms.prod: w10
 author: jaimeo
@@ -7,21 +7,21 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: a971d8dc413e7794aa48c0b39cc0f42e511739ed
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: abe9e63eb4fcd31993bd26822dc445ff0e48e369
+ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250441"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45101480"
 ---
-# <a name="register-existing-devices-yourself"></a>Registrar dispositivos existentes sozinho
+# <a name="register-existing-devices-yourself"></a>Registre dispositivos existentes por conta própria
 
 >[!NOTE]
 >Este tópico descreve as etapas para reutilizar os dispositivos que você já tem e registrá-los na área de trabalho gerenciada da Microsoft. Se você estiver trabalhando com dispositivos novos, siga as etapas em [registrar novos dispositivos na área de trabalho gerenciada da Microsoft](register-devices-self.md) em seu lugar.
 
 O processo para parceiros está documentado em [etapas para que os parceiros registrem dispositivos](register-devices-partner.md).
 
-A área de trabalho gerenciada da Microsoft pode funcionar com dispositivos novos ou você pode reutilizar os dispositivos que você já tem (o que exigirá que você os Insira novamente). Você pode registrar dispositivos usando a área de trabalho gerenciada da Microsoft no portal do Azure.
+A área de trabalho gerenciada da Microsoft pode funcionar com dispositivos novos ou você pode reutilizar os dispositivos que você já tem (o que exigirá que você os Insira novamente). Você pode registrar dispositivos usando o portal de administração de área de trabalho gerenciada da Microsoft.
 
 ## <a name="prepare-to-register-existing-devices"></a>Preparar-se para registrar dispositivos existentes
 
@@ -43,7 +43,7 @@ A área de trabalho gerenciada da Microsoft identifica cada dispositivo exclusiv
 - Executar um script do Windows PowerShell, usando o [Active Directory](#active-directory-powershell-script-method) ou [manualmente](#manual-powershell-script-method) em cada dispositivo, e coletar os resultados em um arquivo.
 - Inicie cada dispositivo, mas não conclua a experiência de instalação do Windows, e [colete os hashes em uma unidade flash removível](#flash-drive-method).
 
-#### <a name="configuration-manager"></a>Configuration Manager
+#### <a name="configuration-manager"></a>Gerenciador de Configurações
 
 Você pode usar o Microsoft Endpoint Configuration Manager para coletar os hashes de hardware de dispositivos existentes que você deseja registrar com a área de trabalho gerenciada da Microsoft.
 
@@ -98,7 +98,7 @@ FROM   Fn_rbac_gs_computer_system(@UserSIDs) comp
     - Modelo 
     - Serial_Number 
     - HardwareHash
-7. Selecione **OK**.
+7. Clique em **OK**.
 
 **Em seguida, defina a exibição do relatório e crie o relatório** seguindo estas etapas:
 
@@ -124,12 +124,12 @@ FROM   Fn_rbac_gs_computer_system(@UserSIDs) comp
 > [!IMPORTANT]
 > A consulta no Gerenciador de configurações não permite espaços em nomes de coluna exportados; é por isso que as etapas tinham que inserir "Serial_Number" e "HardwareHash". Agora que você tem o arquivo CSV exportado, você deve editar os cabeçalhos de relatório para ler o *número de série* e o *hash de hardware* , conforme mostrado aqui antes de prosseguir com o registro do dispositivo.
 
-Agora você pode prosseguir para [registrar dispositivos usando o portal do Azure](#register-devices-by-using-the-azure-portal).
+Agora você pode prosseguir para [registrar dispositivos usando o portal de administração](#register-devices-by-using-the-admin-portal).
 
 
 #### <a name="active-directory-powershell-script-method"></a>Método de script do PowerShell do Active Directory
 
-Em um ambiente do Active Directory, você pode usar `Get-MMDRegistrationInfo` o cmdlet do PowerShell para coletar remotamente as informações de dispositivos nos grupos do Active Directory usando o WinRM. Você também pode usar o `Get-AD Computer` cmdlet e obter resultados filtrados para um determinado nome de modelo de hardware incluído no catálogo. Para fazer isso, primeiro confirme esses pré-requisitos e prossiga com as etapas:
+Em um ambiente do Active Directory, você pode usar o `Get-MMDRegistrationInfo` cmdlet do PowerShell para coletar remotamente as informações de dispositivos nos grupos do Active Directory usando o WinRM. Você também pode usar o `Get-AD Computer` cmdlet e obter resultados filtrados para um determinado nome de modelo de hardware incluído no catálogo. Para fazer isso, primeiro confirme esses pré-requisitos e prossiga com as etapas:
 
 - O WinRM está habilitado.
 - Os dispositivos que você deseja registrar estão ativos na rede (ou seja, eles não são desconectados ou desativados).
@@ -168,7 +168,7 @@ Agora você pode prosseguir para [registrar dispositivos](#register-devices).
 3. Sejam`Save-Script -Name Get-MMDRegistrationInfo -Path <pathToUsb>`
 4. Ative o dispositivo que você está registrando, mas *não inicie a experiência de instalação*. Se você iniciar acidentalmente a experiência de instalação, será necessário redefinir ou recriar a imagem do dispositivo.
 5. Insira a unidade USB e, em seguida, pressione SHIFT + F10.
-6. Abra um prompt do PowerShell com direitos administrativos e, em `cd <pathToUsb>`seguida, execute.
+6. Abra um prompt do PowerShell com direitos administrativos e, em seguida, execute `cd <pathToUsb>` .
 7. Sejam`Set-ExecutionPolicy -ExecutionPolicy Unrestricted`
 8. Sejam`.\Get-MMDRegistrationInfo -OutputFile <path>\hardwarehash.csv`
 9. Remova a unidade USB e desligue o dispositivo executando`shutdown -s -t 0`
@@ -206,9 +206,9 @@ O arquivo precisa incluir exatamente os **mesmos títulos de coluna** do exemplo
 >[!NOTE]
 >Se você esquecer de alterar qualquer um dos dados de exemplo, o registro falhará.
 
-#### <a name="register-devices-by-using-the-azure-portal"></a>Registrar dispositivos usando o portal do Azure
+#### <a name="register-devices-by-using-the-admin-portal"></a>Registrar dispositivos usando o portal de administração
 
-No [portal do Azure](https://aka.ms/mmdportal)de área de trabalho gerenciada da Microsoft, selecione **dispositivos** no painel de navegação esquerdo. Selecione **+ registrar dispositivos**; o funcionamento é aberto:
+No [portal de administração](https://aka.ms/mmdportal)de área de trabalho gerenciada da Microsoft, selecione **dispositivos** no painel de navegação esquerdo. Selecione **+ registrar dispositivos**; o funcionamento é aberto:
 
 [![Entrada após selecionar registrar dispositivos, listando dispositivos com colunas para usuários atribuídos, número de série, status, data do último-observado e idade](../../media/register-devices-flyin-sterile.png)](../../media/register-devices-flyin-sterile.png)
 
@@ -227,7 +227,7 @@ Siga estas etapas:
 
 Você pode monitorar o progresso do registro de dispositivo na página principal **de dispositivos de área de trabalho gerenciados da Microsoft** . Os Estados possíveis relatados incluem:
 
-| Estado | Descrição |
+| State | Descrição |
 |---------------|-------------|
 | Registro pendente | O registro ainda não foi feito. Verifique novamente mais tarde. |
 | Falha no registro | Não foi possível concluir o registro. Consulte [Solucionando problemas de registro de dispositivo](#troubleshooting-device-registration) para obter mais informações. |

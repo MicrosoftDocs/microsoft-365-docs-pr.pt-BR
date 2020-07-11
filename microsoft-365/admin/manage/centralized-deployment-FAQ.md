@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Revise as respostas para perguntas frequentes sobre a implantação centralizada no centro de administração do Microsoft 365.
-ms.openlocfilehash: 2d9a3c6f2cfe9418cc83cbd0f29537e5533c4257
-ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
+ms.openlocfilehash: b1b5ccbb5373bf5d536208efdfe487bc0c872f25
+ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083557"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "45102879"
 ---
 # <a name="centralized-deployment-faq"></a>Perguntas frequentes sobre a Implantação centralizada
 
@@ -35,7 +35,7 @@ A implantação centralizada é a maneira recomendada para o administrador do Of
 A implantação centralizada de suplementos requer que os usuários estejam usando o Microsoft 365 aplicativos para empresas (e estejam conectados ao Office usando suas credenciais de login organizacionais) e tenham caixas de correio do Exchange Online. O diretório de assinatura deve estar no Azure Active Directory ou federado a ele.  
  
 A implantação centralizada só é suportada para caixas de correio online. Ele não oferece suporte à implantação em caixas de correio locais do Exchange.
- 
+
 Você pode usar o [Verificador de compatibilidade de implantação centralizado](centralized-deployment-of-add-ins.md#centralized-deployment-compatibility-checker)   para determinar se sua assinatura está qualificada. 
   
 ## <a name="how-do-you-target-add-in-user-assignments-with-centralized-deployment"></a>Como você direciona as atribuições de usuário de suplemento com a implantação centralizada?  
@@ -54,7 +54,9 @@ Pode levar até 24 horas para que um suplemento seja exibido para todos os usuá
 
 Para facilitar a implantação de suplementos para usuários, grupos ou para toda a sua organização, recomendamos que os administradores usem a implantação centralizada.
 
-Para obter mais informações sobre como gerenciar o acesso do usuário, consulte </br>[Impedir downloads de suplementos desativando a Office Store em todos os clientes (exceto Outlook)](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide#prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook) e </br>[Especifique os administradores e usuários que podem instalar e gerenciar suplementos para o Outlook](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins?redirectedfrom=MSDN).
+Para obter mais informações sobre como gerenciar o acesso do usuário, consulte:
+ - [Impedir downloads de suplementos desativando a Office Store em todos os clientes (exceto Outlook)](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook)
+ - [Especificar os administradores e usuários que podem instalar e gerenciar aplicativos para o Outlook](https://docs.microsoft.com/Exchange/specify-who-can-install-and-manage-add-ins-2013-help)
 
 ## <a name="will-centralized-deployment-provide-admins-the-flexibility-to-choose-the-deployment-method-for-outlook-add-ins"></a>A implantação centralizada oferece aos administradores a flexibilidade para escolher o método de implantação para os suplementos do Outlook?  
 
@@ -62,7 +64,7 @@ Sim. A implantação centralizada oferece aos administradores a flexibilidade pa
 
 **Fixo (padrão)**   O suplemento é implantado automaticamente para os usuários atribuídos e não é possível removê-lo.  
  
-**Disponível** Os usuários podem instalar o suplemento no Outlook escolhendo Home > obter mais suplementos > administração gerenciada.   
+**Disponível** Os usuários podem instalar o suplemento no Outlook escolhendo **Home > obter mais suplementos > administração gerenciada**.
  
 **Opcional** O suplemento é implantado automaticamente para os usuários atribuídos, mas eles podem optar por removê-lo.  
     
@@ -70,19 +72,19 @@ Sim. A implantação centralizada oferece aos administradores a flexibilidade pa
 
 Sim. Os administradores podem carregar um novo arquivo de manifesto para dar suporte às alterações de metadados para suplementos LOB implantados pelo administrador. O suplemento é atualizado na próxima vez que os aplicativos do Office são iniciados. O aplicativo Web pode mudar a qualquer momento.  
  
-Para obter mais informações, consulte [suplemento de linha de negócios](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide#security-of-office-add-ins).  
+Para obter mais informações, consulte [suplemento de linha de negócios](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#more-about-office-add-ins-security).  
 
 ## <a name="can-admins-turn-off-add-ins"></a>Os administradores podem desativar os suplementos?  
 
 Sim. Os administradores podem ativar ou desativar os suplementos implantados para todos os usuários do centro de administração da Microsoft.
 
-Para mais informações, confira [Estados de suplementos](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide#add-in-states).  
+Para mais informações, confira [Estados de suplementos](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#add-in-states).  
 
 ##  <a name="can-admins-delete-or-remove-add-ins"></a>Os administradores podem excluir ou remover suplementos?
 
 Sim. Os administradores podem excluir os suplementos implantados para todos os usuários do centro de administração da Microsoft.
 
-Para obter mais informações, consulte [excluir o suplemento](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide#delete-the-add-in). 
+Para obter mais informações, consulte [excluir um suplemento](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#delete-an-add-in). 
   
 ## <a name="can-admins-deploy-paid-add-ins-from-the-office-store-using-centralized-deployment"></a>Os administradores podem implantar os suplementos pagos da Office Store usando a implantação centralizada? 
 

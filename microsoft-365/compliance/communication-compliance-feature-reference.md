@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 844ae00b1881851dc50c68329a999263c09bdbed
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 017946c08bb1c44f31bbcb87b3ce46571ab8b480
+ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936780"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45101602"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -92,10 +92,8 @@ Você deve registrar uma solicitação com o suporte da Microsoft para permitir 
 - **Fontes de terceiros**: você pode verificar comunicações de fontes de terceiros para dados importados em caixas de correio em sua organização do Microsoft 365. Os conectores dão suporte aos seguintes recursos de terceiros:
 
     - [Bloomberg instantâneo](archive-instant-bloomberg-data.md)
-    - [Facebook](archive-facebook-data-with-sample-connector.md)
-    - [LinkedIn](archive-linkedin-data.md)
-    - [Twitter](archive-twitter-data-with-sample-connector.md)
-    - [Conector de dados personalizado](archiving-third-party-data.md)
+    - [Mensagem do Bloomberg](archive-bloomberg-message-data.md)
+    - [Chat de gelo](archive-icechat-data.md)
 
 Você deve configurar um conector de terceiros para sua organização do Microsoft 365 antes de poder atribuir o conector a uma política de conformidade de comunicação. A seção de **fontes de terceiros** do assistente de política de conformidade de comunicação só exibe os conectores de terceiros atualmente configurados.
 
@@ -155,7 +153,7 @@ Para obter informações sobre classificadores no Microsoft 365, consulte [class
 ### <a name="conditional-settings"></a>Configurações condicionais
 <a name="ConditionalSettings"> </a>
 
-As condições escolhidas para a política se aplicam às comunicações de emails e fontes de terceiros em sua organização (como no Facebook ou no DropBox).
+As condições escolhidas para a política se aplicam às comunicações de emails e fontes de terceiros em sua organização (como do Bloomberg ou do DropBox).
 
 A tabela a seguir explica mais sobre cada condição.
   

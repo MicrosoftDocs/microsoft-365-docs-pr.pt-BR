@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6fbaa0b57c888f5eaf90a2a30d1850a145c33a80
-ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
+ms.openlocfilehash: 26dfa8ec046122dce28582fb3d7b395843572a88
+ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "45035676"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "45102896"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
 
@@ -38,6 +38,8 @@ Vários relatórios estão disponíveis no [centro de conformidade & segurança]
 
 O relatório **usuários comprometidos** mostra o número de contas de usuário que foram marcadas como **suspeitas** ou **restritas** nos últimos sete dias. As contas em um desses Estados são problemáticas ou até mesmo comprometidas. Com o uso frequente, você pode usar o relatório para identificar picos e até mesmo tendências, em contas suspeitas ou restritas. Para obter mais informações sobre usuários comprometidos, consulte [responder a uma conta de email comprometida](responding-to-a-compromised-email-account.md).
 
+![Widget usuários comprometidos no painel relatórios](../../media/compromised-users-report-widget.png)
+
 O modo de exibição de agregação mostra os dados dos últimos 90 dias e o modo de exibição de detalhes mostra os dados dos últimos 30 dias.
 
 Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **usuários comprometidos**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=CompromisedUsers> .
@@ -50,7 +52,7 @@ Você pode filtrar tanto o gráfico quanto a tabela detalhes clicando em **filtr
 
 - **Restricted**: a conta de usuário foi restrita ao envio de emails devido a padrões altamente suspeitos.
 
-![O relatório de usuários comprometidos como aparece no Microsoft 365](../../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
+![Exibição de relatório no relatório de usuários comprometidos](../../media/compromised-users-report-activity-view.png)
 
 Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detalhes:
 
