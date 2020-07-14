@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Use uma política de retenção para decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra determinadas condições.'
-ms.openlocfilehash: ab6a61e0cedfd91d642823f0c459a5a1699df000
-ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
+ms.openlocfilehash: b509c1581f3b4120e9cf70e7603e56da86126539
+ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083613"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45091991"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -135,7 +135,7 @@ A retenção com base em consulta usa o índice de pesquisa para identificar con
   
 ### <a name="identify-content-that-contains-sensitive-information"></a>Identificar conteúdo com informações confidenciais
 
-You can also apply a retention policy only to content that contains [specific types of sensitive information](what-the-sensitive-information-types-look-for.md). For example, you can choose to apply unique retention requirements only to content that contains personally identifiable information (PII) such as taxpayer identification numbers, social security numbers, or passport numbers.
+You can also apply a retention policy only to content that contains [specific types of sensitive information](what-the-sensitive-information-types-look-for.md). For example, you can choose to apply unique retention requirements only to content that contains personal information, such as taxpayer identification numbers, social security numbers, or passport numbers.
   
 ![Página Tipos de informações confidenciais](../media/8b104819-d185-4d58-b6b3-d06e82686a05.png)
   
@@ -235,7 +235,7 @@ Você deve usar o Windows PowerShell se precisar usar o [Bloqueio de Preservaç�
 
 2. Liste suas políticas de retenção e encontre o nome da política que você quer bloquear executando `Get-RetentionCompliancePolicy`.
     
-    ![Lista de políticas de retenção no Windows PowerShell](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
+   ![Lista de políticas de retenção no Windows PowerShell](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
     
 3. Coloque um Bloqueio de Preservação em uma política de retenção, execute `Set-RetentionCompliancePolicy` com o parâmetro `RestrictiveRetention` definido como verdadeiro. Por exemplo:
 
@@ -243,15 +243,17 @@ Você deve usar o Windows PowerShell se precisar usar o [Bloqueio de Preservaç�
    Set-RetentionCompliancePolicy -Identity "<Name of Policy>" – RestrictiveRetention $true
    ```
    
-    ![Parâmetro RestrictiveRetention no PowerShell](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
+   ![Parâmetro RestrictiveRetention no PowerShell](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
     
-    Depois de executar esse cmdlet, escolha **Sim para Todos**:
+   Depois de executar esse cmdlet, escolha **Sim para Todos**:
     
-    ![Solicitar confirmação que deseja bloquear uma política de retenção no PowerShell](../media/retention-policy-preservation-lock-confirmation-prompt.PNG)
+   ![Solicitar confirmação que deseja bloquear uma política de retenção no PowerShell](../media/retention-policy-preservation-lock-confirmation-prompt.PNG)
 
 O Bloqueio de Preservação agora está localizado na política de retenção. Se executar `Get-RetentionCompliancePolicy`, o parâmetro `RestrictiveRetention` é definido como verdadeiro. Por exemplo:
 
-`Get-RetentionCompliancePolicy -Identity "<Name of Policy>" |Fl`
+```powershell
+Get-RetentionCompliancePolicy -Identity "<Name of Policy>" |Fl
+```
 
 ![Bloquear a política com todos os parâmetros mostrados no PowerShell](../media/retention-policy-preservation-lock-locked-policy.PNG)
   

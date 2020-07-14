@@ -222,8 +222,10 @@
           href: setup/upgrade-users-to-latest-office-client.md
         - name: Requisitos para implantação centralizada de suplementos
           href: manage/centralized-deployment-of-add-ins.md
-        - name: Instalar e gerenciar suplementos usando a Implantação Centralizada
+        - name: Implantar suplementos no centro de administração
           href: manage/manage-deployment-of-add-ins.md
+        - name: Gerenciar suplementos no centro de administração
+          href: manage/manage-addins-in-the-admin-center.md
         - name: Perguntas frequentes sobre a Implantação centralizada
           href: manage/centralized-deployment-faq.md
         - name: Encontrar um parceiro ou um revendedor
@@ -294,12 +296,12 @@
           href: ../business/device-states.md
         - name: Configurações de proteção de aplicativos em computadores com Windows 10
           href: ../business/protection-settings-for-windows-10-devices.md
-        - name: Configurações de proteção dos aplicativos para Android e iOS
+        - name: Definir configurações de proteção dos aplicativos para Android e iOS
           href: ../business/app-protection-settings-for-android-and-ios.md
           items:
-            - name: Valide as configurações em Android ou iOS
+            - name: Valide as configurações no Android ou iOS
               href: ../business/validate-settings-on-android-or-ios.md
-        - name: Configurações de proteção de dispositivos em computadores com Windows 10
+        - name: Defina configurações de proteção de dispositivos para PCs com Windows 10
           href: ../business/protection-settings-for-windows-10-pcs.md
           items:
             - name: "Valide as configurações em computadores com Windows\_10"
