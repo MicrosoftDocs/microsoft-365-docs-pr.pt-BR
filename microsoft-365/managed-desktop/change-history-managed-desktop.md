@@ -10,25 +10,51 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 9d7d33d3936d6fef21deb67c6b23f95c2f4bf24a
-ms.sourcegitcommit: 8edad75338cf74712ca1ab5d6631b9b52ff54410
+ms.openlocfilehash: 1402cd8c03baa233ece1051a0ab9d7dc3b96b965
+ms.sourcegitcommit: ada2f1c6ca79177cae975d887107ff8884358e8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43115997"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "45107594"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da Área e trabalho gerenciada da Microsoft
 
 Este artigo lista artigos novos e atualizados na [documentação da área de trabalho gerenciada da Microsoft](index.yml). Os artigos "atualizados" são aqueles que tiveram inclusões de material ou correções, correções secundárias, como correção de erros de digitação, estilo ou formatação não estão listadas. Você sempre pode exibir o histórico de confirmações específicas (incluindo detalhes de qualquer alteração) visitando o [repositório no GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+## <a name="june-2020"></a>Junho de 2020
+Artigo novo ou alterado | Descrição
+--- | ---
+[Novo aplicativo do Microsoft Edge](get-started/edge-browser-app.md) | Novo artigo
+[Configuração do dispositivo](service-description/device-policies.md) | Artigo atualizado
+
+
+
+## <a name="may-2020"></a>Maio de 2020
+Artigo novo ou alterado | Descrição
+--- | ---
+[Obter ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
+[Etapas para registrar dispositivos de Parceiros](get-started/register-devices-partner.md) | Artigo atualizado
+[Dispositivos de área de trabalho gerenciada da Microsoft](service-description/device-list.md) | Artigo atualizado
+[Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Artigo atualizado
+
+
+
+
+
+## <a name="april-2020"></a>Abril de 2020
+Artigo novo ou alterado | Descrição
+--- | ---
+[Conformidade](intro/compliance.md) | Novo artigo
+[Idiomas e regiões compatíveis com o Microsoft Managed desktop](service-description/regions-languages.md) | Artigo atualizado
+
+
 
 ## <a name="march-2020"></a>Março de 2020
 Artigo novo ou alterado | Descrição
 --- | ---
 [Etapas para registrar dispositivos de Parceiros](get-started/register-devices-partner.md)| Artigo atualizado
 [Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Artigo atualizado
-[Preparar recursos de impressão para a área de trabalho gerenciada da Microsoft](get-ready/printing.md) | Novo artigo
-
-
+[Preparar recursos de impressão da Área de Trabalho Gerenciada da Microsoft](get-ready/printing.md) | Novo artigo
 
 
 ## <a name="february-2020"></a>Fevereiro de 2020
@@ -53,7 +79,7 @@ Artigo novo ou alterado | Descrição
 ## <a name="december-2019"></a>Dezembro de 2019
 Artigo novo ou alterado | Descrição
 --- | ---
-[Suporte de administrador para área de trabalho gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
+[Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
 [Dispositivos de área de trabalho gerenciada da Microsoft](service-description/device-list.md) | Artigo atualizado
 [Dispositivos arquivados do Microsoft Managed desktop](service-description/archived-device-list.md) | Artigo atualizado
 
@@ -76,8 +102,8 @@ Artigo novo ou alterado | Descrição
 Artigo novo ou alterado | Descrição
 --- | ---
 [Exceções para o plano de serviço](service-description/customizing.md) | Novo artigo
-[Obtendo ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
-[Suporte de administrador para área de trabalho gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
+[Obter ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
+[Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
 [Mudanças de serviço e comunicação](service-description/servicechanges.md) | Novo artigo
 [Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Artigo atualizado
 [Registrar dispositivos existentes sozinho](get-started/register-reused-devices-self.md) | Artigo atualizado
@@ -89,13 +115,13 @@ Artigo novo ou alterado | Descrição
 ## <a name="september-2019"></a>Setembro de 2019
 Artigo novo ou alterado | Descrição
 --- | ---
-[Tecnologias de área de trabalho gerenciada da Microsoft](intro/technologies.md) | Artigo atualizado
-[Obtendo ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
+[Tecnologias de Área de Trabalho Gerenciada da Microsoft](intro/technologies.md) | Artigo atualizado
+[Obter ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
 [Dispositivos de área de trabalho gerenciada da Microsoft](service-description/device-list.md) | Artigo atualizado
 [Implantar e acompanhar configurações configuráveis-Microsoft Managed desktop](working-with-managed-desktop/config-setting-deploy.md) | Artigo atualizado
-[Suporte de administrador para área de trabalho gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
+[Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
 [Pré-requisitos da Área de Trabalho Gerenciada da Microsoft](get-ready/prerequisites.md) | Artigo atualizado
-[Configurar dispositivos de área de trabalho gerenciada da Microsoft](get-started/set-up-devices.md) | Novo artigo
+[Configurar dispositivos de Área de Trabalho Gerenciada da Microsoft](get-started/set-up-devices.md) | Novo artigo
 [Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Artigo atualizado
 [Registrar dispositivos existentes sozinho](get-started/register-reused-devices-self.md) | Novo artigo
 [Como as atualizações são tratadas na área de trabalho gerenciada da Microsoft](service-description/updates.md) | Artigo atualizado
@@ -104,10 +130,10 @@ Artigo novo ou alterado | Descrição
 Artigo novo ou alterado | Descrição
 --- | ---
 [Trabalhar com Serviços de Consultoria da Microsoft](get-ready/apps-mcs.md) | Artigo atualizado
-[Suporte de administrador para área de trabalho gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
-[Obtendo ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
+[Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
+[Obter ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
 [Pré-requisitos da Área de Trabalho Gerenciada da Microsoft](get-ready/prerequisites.md) | Artigo atualizado
-[Tecnologias de área de trabalho gerenciada da Microsoft](intro/technologies.md) | Artigo atualizado
+[Tecnologias de Área de Trabalho Gerenciada da Microsoft](intro/technologies.md) | Artigo atualizado
 
 
 
@@ -115,16 +141,16 @@ Artigo novo ou alterado | Descrição
 Artigo novo ou alterado | Descrição
 --- | ---
 [Trabalhar com Serviços de Consultoria da Microsoft](get-ready/apps-mcs.md) | Artigo atualizado
-[Área de Trabalho e ITIL Gerenciados da Microsoft](MMD-and-ITSM.md) | Novo artigo
+[ITIL e Área de Trabalho Gerenciada da Microsoft](MMD-and-ITSM.md) | Novo artigo
 [Configuração do dispositivo](service-description/device-policies.md) | Artigo atualizado
 
 
 ## <a name="june-2019"></a>Junho de 2019
 Artigo novo ou alterado | Descrição
 --- | ---
-[Aplicativos na área de trabalho gerenciada da Microsoft](get-ready/apps.md) | Artigo atualizado
+[Aplicativos na Área de Trabalho Gerenciada da Microsoft](get-ready/apps.md) | Artigo atualizado
 [Trabalhar com Serviços de Consultoria da Microsoft](get-ready/apps-mcs.md) | Novo artigo
-[Funções e responsabilidades de área de trabalho gerenciada da Microsoft](intro/roles-and-responsibilities.md) | Artigo atualizado
+[Funções e responsabilidades da Área de Trabalho Gerenciada da Microsoft](intro/roles-and-responsibilities.md) | Artigo atualizado
 [Ciclo de vida do produto do Microsoft Managed desktop](service-description/device-lifecycle.md) | Novo artigo
 
 
@@ -138,7 +164,7 @@ Artigo novo ou alterado | Descrição
 [Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft](get-ready/mapped-drives.md) | Novo artigo
 [Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft](get-ready/certs-wifi-lan.md) | Novo artigo
 [Ordenar dispositivos de área de trabalho gerenciada da Microsoft](get-started/devices.md) | Artigo atualizado
-[Obtendo ajuda para usuários finais](working-with-managed-desktop/end-user-support.md)
+[Obter ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Novo artigo
 
 ## <a name="april-2019"></a>Abril de 2019
 Artigo novo ou alterado | Descrição
@@ -169,13 +195,13 @@ Artigo novo ou alterado | Descrição
 Artigo novo ou alterado | Descrição
 --- | ---
 [Implantar aplicativos para dispositivos de área de trabalho gerenciada da Microsoft](get-started/deploy-apps.md) | Novo artigo.
-[Gerenciar aplicativos para a área de trabalho gerenciada da Microsoft](working-with-managed-desktop/manage-apps.md) | Atualizado com informações sobre como atualizar ou reverter para uma versão do previoius de aplicativos de linha de negócios. 
+[Gerenciar aplicativos para a área de trabalho gerenciada da Microsoft](working-with-managed-desktop/manage-apps.md) | Atualizado com informações sobre como atualizar ou reverter para uma versão anterior de aplicativos de linha de negócios. 
 
 ## <a name="december-2018"></a>Dezembro de 2018
 Artigo novo ou alterado | Descrição
 --- | ---
 [Operações e monitoramento para a área de trabalho gerenciada da Microsoft](service-description/operations-and-monitoring.md) | Adição da tabela de saldo de responsabilidade e de outras tabelas atualizadas.
-[Suporte de administrador para área de trabalho gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Tipos de suporte atualizados, explicações de gravidade e detalhes adicionais.
+[Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Tipos de suporte atualizados, explicações de gravidade e detalhes adicionais.
 
 ## <a name="november-2018"></a>Novembro de 2018
 
