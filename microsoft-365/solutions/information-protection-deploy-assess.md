@@ -5,7 +5,7 @@ author: brendacarter
 f1.keywords:
 - NOCSH
 manager: laurawi
-ms.date: 06/09/2020
+ms.date: 07/13/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Determine as regulamentações de privacidade de dados, os cenários relevantes, a prontidão e os tipos de informações confidenciais que estão no seu ambiente Microsoft 365.
-ms.openlocfilehash: f8d8fd0b5e6d8876dead566a50408cb2e7419386
-ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
+ms.openlocfilehash: 0cfa9f8a22810027e1a31ce2ace8b42f26ef9eb2
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854347"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126587"
 ---
 # <a name="assess-data-privacy-risks-and-identify-sensitive-items-with-microsoft-365"></a>Avaliar os riscos de privacidade de dados e identificar itens confidenciais com o Microsoft 365
 
@@ -98,6 +98,8 @@ Os dados também são movidos ao longo do tempo enquanto são processados, refin
 Para lidar com as regulamentações de privacidade de dados, não é possível contar com noções gerais de onde você acha que os dados pessoais podem existir, agora ou no futuro. As leis de privacidade de dados exigem que as organizações comprovem que eles sabem onde os dados pessoais estão sempre em andamento. Isso torna importante obter um instantâneo inicial de todas as fontes de dados para possível armazenamento de informações pessoais, incluindo seu ambiente do Microsoft 365 e estabelecer mecanismos para monitoramento e detecção contínuas.
 
 Se você ainda não tiver avaliado a preparação geral e o risco associados às normas de privacidade de dados, use a estrutura de 3 etapas a seguir para começar. 
+
+![Etapas para avaliar a preparação e o risco gerais associados às normas de privacidade dos dados](../media/information-protection-deploy-assess/information-protection-deploy-assess-grid.png)
 
 >[!Note]
 >Este artigo e seu conteúdo não são destinados ao local de serviços de consultoria jurídica. Ele apenas fornece algumas orientações básicas e links para ferramentas que podem ser de assistência nos estágios iniciais de sua avaliação.
@@ -178,7 +180,7 @@ As organizações que estão sujeitas a outras regulamentações de privacidade 
 
 A avaliação do RGPD consiste em estas seções:
 
-| | |
+| Seção | Descrição |
 |:-------|:-----|
 | Gestão | <ol><li>A política de privacidade afirma explicitamente quais informações de dados estão sendo processadas? </li><li>Você executa regularmente as avaliações de impacto de privacidade (PIAs)? </li><li> Você usa uma ferramenta para gerenciar informações pessoais (PI)? </li><li> Você tem autoridade legal para realizar negócios usando dados de PI em qualquer indivíduo específico? Você controla o consentimento dos dados? </li><li> Você controla, implementa e gerencia os controles de auditoria? Você monitora os vazamentos de dados? </li></ol>|
 | Exclusão e notificação | <ol><li>Você fornece instruções explícitas sobre como os dados dos usuários podem ser acessados? </li><li> Você tem processos documentados em vigor para lidar com o consentimento de recusa? </li><li> Você tem um processo de exclusão automatizada para dados? </li><li>   Você tem um processo para validar a identidade ao participar de um cliente? </li></ol>|
@@ -212,7 +214,7 @@ Consulte estes artigos para obter mais informações:
 - [Personalizar tipos de informações confidenciais](../compliance/custom-sensitive-info-types.md)
 - [Criar um tipo personalizado de informação confidencial no Centro de Conformidade e Segurança](../compliance/create-a-custom-sensitive-information-type.md)
 - [Crie um tipo personalizado de informação confidencial no PowerShell do Centro de Conformidade e Segurança](../compliance/create-a-custom-sensitive-information-type-in-scc-powershell.md)
-- [Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match](../compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
+- [Criar tipos de informações confidenciais personalizados com classificação com base na correspondência exata de dados](../compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
 
 ### <a name="content-explorer"></a>Gerenciador de conteúdo
 

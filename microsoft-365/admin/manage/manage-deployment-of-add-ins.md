@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como implantar suplementos para usuários e grupos em sua organização usando a implantação centralizada no centro de administração.
-ms.openlocfilehash: 51db2bf7b618bddf2c6de417b7f5e53c91a64a1b
-ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
+ms.openlocfilehash: 4e9a3a4b7182bfd452c63abd03836623dc77260c
+ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "45102855"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138239"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Implantar suplementos no centro de administração
 
@@ -116,9 +116,9 @@ Os suplementos do Office combinam um arquivo de manifesto XML que contém alguns
     
 - Ler e gravar dados de e para o documento de um usuário para fornecer valor a esse usuário.
     
-Para obter mais informações sobre os tipos e recursos dos suplementos do Office, confira [visão geral da plataforma](https://go.microsoft.com/fwlink/p/?linkid=846362)de suplementos do Office, especialmente a seção "Anatomia de um suplemento do Office."
+Para obter mais informações sobre os tipos e recursos dos suplementos do Office, confira [visão geral da plataforma](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)de suplementos do Office, especialmente a seção "Anatomia de um suplemento do Office."
   
-Para interagir com o documento do usuário, o suplemento precisa declarar a permissão necessária no manifesto. Um modelo de permissões de acesso à API JavaScript de cinco níveis fornece a base para privacidade e segurança para usuários de suplementos do painel de tarefas. A maioria dos suplementos na Office Store são de nível ReadWriteDocument com quase todos os suplementos que suportam pelo menos o nível de ReadDocument. Para obter mais informações sobre os níveis de permissão, consulte [solicitando permissões para uso da API em suplementos de conteúdo e de painel de tarefas](https://go.microsoft.com/fwlink/p/?linkid=848863).
+Para interagir com o documento do usuário, o suplemento precisa declarar a permissão necessária no manifesto. Um modelo de permissões de acesso à API JavaScript de cinco níveis fornece a base para privacidade e segurança para usuários de suplementos do painel de tarefas. A maioria dos suplementos na Office Store são de nível ReadWriteDocument com quase todos os suplementos que suportam pelo menos o nível de ReadDocument. Para obter mais informações sobre os níveis de permissão, consulte [solicitando permissões para uso da API em suplementos de conteúdo e de painel de tarefas](https://docs.microsoft.com/office/dev/add-ins/develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins).
   
 Ao atualizar um manifesto, as alterações típicas são o ícone e o texto de um suplemento. Ocasionalmente, os comandos de suplemento são alterados. No entanto, as permissões do suplemento não são alteradas. O aplicativo Web em que todo o código e a lógica para o suplemento é executado pode mudar a qualquer momento, que é a natureza dos aplicativos Web.
   
@@ -133,9 +133,9 @@ As atualizações para suplementos acontecem da seguinte maneira:
   
 ## <a name="learn-more"></a>Saiba mais
 
-Criar e compilar suplementos [do Office](https://go.microsoft.com/fwlink/p/?linkid=846362)
-
 [Gerenciar suplementos no centro de administração](manage-addins-in-the-admin-center.md)
+
+[Criação de suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins-fundamentals).
 
 [Menores e aquisição de suplementos da loja](minors-and-acquiring-addins-from-the-store.md)
   

@@ -16,12 +16,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Implantar os recursos de segurança e conformidade do Microsoft 365 e proteger suas informações pessoais.
-ms.openlocfilehash: 2ec8d280d650606921becb6120546b52253620f4
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 99ac0f9e29c161ffa26362976f83584c9b168026
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844687"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126439"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Proteger informações sujeitas à regulamentação de privacidade de dados
 
@@ -33,6 +33,8 @@ Esses controles estão nas seguintes áreas de solução:
 - Prevenção de perda de dados (DLP)
 - Criptografia de mensagem do Office (OME)
 - Controles de acesso a equipes e sites
+
+![Serviços essenciais para proteger informações pessoais sujeitas à regulamentação de privacidade de dados](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-grid.png)
 
 >[!Note]
 >Esta solução descreve os recursos de segurança e conformidade para proteger as informações que estão sujeitas às normas de privacidade dos dados. Para obter uma lista completa dos recursos de segurança no Microsoft 365, consulte a [documentação de segurança do microsoft 365](https://docs.microsoft.com/microsoft-365/security/). Para obter uma lista completa dos recursos de conformidade no Microsoft 365, consulte a [documentação de conformidade da microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/).
@@ -106,10 +108,10 @@ Conclua essas atividades antes de implementar qualquer um dos recursos baseados 
 
    - Proteção de Informações do Azure
 
-      O esquema de identificação de confidencialidade atual pode precisar ser reconciliado com qualquer implementação de rotulação de [proteção de informações do Azure](../compliance/sensitivity-labels.md#sensitivity-labels-and-azure-information-protection) existente.
+      O esquema de rótulo de confidencialidade atual pode precisar ser reconciliado com qualquer implementação de rotulação de [proteção de informações do Azure](../compliance/sensitivity-labels.md#sensitivity-labels-and-azure-information-protection) existente.
    - OME
 
-      Se você estiver planejando usar rotulação de confidencialidade moderna para proteção de email e métodos de criptografia de email existentes, como o OME, eles podem coexistir, mas você deve compreender os cenários em que devem ser aplicados. Confira [recursos de criptografia de mensagens do Office 365 (ome)](#office-365-message-encryption-ome-new-capabilities), que inclui uma tabela que comparam a proteção moderna do tipo rótulo rótulo de confidencial com a proteção baseada no ome.
+      Se você estiver planejando usar o rótulo de confidencialidade moderna para proteção de email e métodos de criptografia de email existentes, como o OME, eles podem coexistir, mas você deve entender os cenários em que devem ser aplicados. Confira [recursos de criptografia de mensagens do Office 365 (ome)](#office-365-message-encryption-ome-new-capabilities), que inclui uma tabela que comparam a proteção moderna do tipo rótulo rótulo de confidencial com a proteção baseada no ome.
 
 3. Planejar a integração com um esquema mais amplo de proteção de informações. Na parte superior da coexistência com o OME, os rótulos de confidencialidade atuais podem ser usados em recursos do lado do cliente, como o Microsoft 365 Data Loss Prevention (DLP) e o Microsoft Cloud app Security. Consulte [Rótulos de sensibilidade e o Microsoft Cloud app Security](../compliance/sensitivity-labels.md#sensitivity-labels-and-microsoft-cloud-app-security) para atingir seus objetivos de proteção de informações relacionados à privacidade de dados.
 
@@ -174,7 +176,7 @@ A capacidade de aplicar rótulos de confidencialidade automaticamente ao conteú
 - Você não precisa depender dos usuários para classificar corretamente o conteúdo.
 - Os usuários não precisam mais conhecer as suas políticas. Em vez disso, eles podem se concentrar no próprio trabalho.
 
-Rotular automaticamente é compatível com a recomendação de um rótulo para os usuários, bem como a aplicação automática de um rótulo. Mas em ambos os casos, o usuário decide se aceita ou rejeita o rótulo, para ajudar a garantir a rotulagem correta do conteúdo.
+O rotulamento automático oferece suporte à recomendação de um rótulo para os usuários, bem como à aplicação automática de um rótulo. Mas em ambos os casos, o usuário decide se aceita ou rejeita o rótulo, para ajudar a garantir a rotulagem correta do conteúdo.
 
 Essa rotulagem do lado do cliente possui um atraso mínimo para os documentos, pois o rótulo pode ser aplicado mesmo antes de o documento ser salvo. No entanto, nem todos os aplicativos cliente oferecem suporte à rotulagem automática. Esse recurso tem suporte do cliente de rotulação unificada de proteção de informações do Azure e [de algumas versões dos aplicativos do Office](../compliance/sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps).
 
@@ -279,7 +281,7 @@ Os rótulos de confidencialidade podem trabalhar em conjunto com a DLP para forn
 3. Uma estratégia geral para lidar com requisitos e proteger e controlar os hotspots de privacidade de dados é estabelecida.
 4. Um plano de ação em fases para lidar com a estratégia de controle de privacidade de dados é colocado em vigor.
 
-Depois que esses elementos forem determinados, você poderá usar tipos de informações confidenciais, sua taxonomia de identificação de confidencialidade e políticas de DLP juntas. Esta figura mostra um exemplo.
+Depois que esses elementos forem determinados, você poderá usar tipos de informações confidenciais, sua taxonomia de rótulo de confidencialidade e políticas de DLP juntas. Esta figura mostra um exemplo.
 
 ![Exemplo de rótulos de confidencialidade trabalhando com DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
 
@@ -319,7 +321,7 @@ Os rótulos de OME e sensibilidade aplicados ao email com criptografia têm algu
 | Partes externas <br> Comunicar-se e colaborar com segurança com qualquer usuário externo/de consumidor | Sim – predefinir destinatários no rótulo | Recomendação – proteção just-in-time baseada em destinatários |
 | Parceiros internos +, com validade/revogação <br> Controlar o acesso de emails e de conteúdo com usuários internos e parceiros confiáveis com expiração e revogação | Recomendável proteção totalmente personalizada com duração de acesso, o usuário pode rastrear e revogar manualmente os arquivos | Não – sem revogação ou expiração para email interno |
 | Partes externas com validade/revogação <br> Controlar o acesso de emails e de conteúdo com usuários externos/do consumidor com expiração e revogação | Sim – o usuário pode rastrear arquivos manualmente | Recomendável (E5) – o administrador pode revogar emails do centro de conformidade & segurança |
-| Rotular automaticamente <br> A organização deseja proteger automaticamente emails/anexos com conteúdo confidencial específico e/ou destinatários específicos | Recomendável (E5)-rotulamento automático nos clientes do Exchange e do Outlook, aumenta as regras de fluxo de email e a política de DLP | Sim-regras de fluxo de email e política de DLP com somente criptografia ou não encaminhar proteção |
+| Rotulação automática <br> A organização deseja proteger automaticamente emails/anexos com conteúdo confidencial específico e/ou destinatários específicos | Recomendável (E5)-rotulamento automático nos clientes do Exchange e do Outlook, aumenta as regras de fluxo de email e a política de DLP | Sim-regras de fluxo de email e política de DLP com somente criptografia ou não encaminhar proteção |
 ||||
 
 Também haverá diferenças em experiências de usuário final e de administrador entre esses dois métodos.

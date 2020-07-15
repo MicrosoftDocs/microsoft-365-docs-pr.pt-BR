@@ -5,7 +5,7 @@ author: brendacarter
 f1.keywords:
 - NOCSH
 manager: laurawi
-ms.date: 06/09/2020
+ms.date: 07/13/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -15,19 +15,21 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365solutions
 ms.custom: ''
-description: Saiba como usar o Complance Score e o gerente de conformidade para melhorar seu nível de proteção para dados pessoais.
-ms.openlocfilehash: 4a45f24d66d08c2c0f17d75d897f523ef074936c
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+description: Saiba como usar a pontuação de conformidade e o Gerenciador de conformidade para melhorar seu nível de proteção para dados pessoais.
+ms.openlocfilehash: d3730f7a91876befc05f749497540fbe9abe9641
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016362"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126542"
 ---
 # <a name="use-compliance-score-and-compliance-manager-to-manage-improvement-actions"></a>Usar Pontuação de conformidade e gerente de conformidade para gerenciar ações de melhoria
 
 A pontuação de conformidade da Microsoft e o gerente de conformidade podem ser usados em conjunto para gerenciar melhorias relacionadas a regulamentações de privacidade de dados, como a regulamentação geral de proteção de dados da União Européia [(rgpd)](../compliance/gdpr.md), a [Califórnia Consumer Protection Act CCPA)](../compliance/ccpa-faq.md), HIPAA-alta (lei de privacidade do atendimento aos EUA) e o LGPD (lei de proteção de dados) do Brasil. 
 
 Este artigo fornece orientações sobre o uso dessas ferramentas para fins de privacidade de dados.
+
+![Pontuação de conformidade e gerente de conformidade para gerenciar ações de melhoria](../media/information-protection-deploy-compliance/information-protection-deploy-compliance-grid.png)
 
 >[!Note]
 >As ações do cliente fornecidas no gerente de conformidade são recomendações. Você pode avaliar a eficácia dessas recomendações em seus ambientes regulatórios antes da implementação. As recomendações do Gerenciador de conformidade não devem ser interpretadas como garantia de conformidade.
