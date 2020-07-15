@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: A descoberta eletrônica in-loco e o bloqueio in-loco (e os cmdlets do PowerShell correspondentes) no Exchange Online serão removidos no primeiro semestre de 2020. O cmdlet Search-Mailbox e o eDiscovery avançado v 1.0 também estão sendo desativados no mesmo período de tempo.
-ms.openlocfilehash: 8b428b0d90442c937e08d4dc9ca23fb345553178
-ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
+ms.openlocfilehash: 12de88fe3c9de7806b12bd610e0dbeeb404524ca
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761681"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126938"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Baixa das ferramentas de Descoberta Eletrônica herdadas
 
@@ -124,7 +124,7 @@ A tabela a seguir descreve outras ferramentas que você pode usar para substitui
 <p>Aplicar políticas a locais de conteúdo específicos, como Exchange Online, SharePoint Online, OneDrive for Business, Skype for Business, Microsoft Teams e grupos do Office 365</p></li>
 <li>
 <p>Aplicando políticas a usuários específicos</p></li></ul>
-<p>Para obter mais informações, consulte <a href="https://docs.microsoft.com/microsoft-365/compliance/retention-policies">visão geral das políticas de retenção</a>.</td>
+<p>Para obter mais informações, consulte <a href="https://docs.microsoft.com/microsoft-365/compliance/retention-policies">saiba mais sobre políticas de retenção e rótulos de retenção</a>.</td>
 </tr>
 <tr class="odd">
 <td>Copiar os resultados da pesquisa de email para uma caixa de correio de descoberta para revisão</td><td>Revisar conjuntos no eDiscovery v 2.0 avançado</td>

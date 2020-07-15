@@ -20,12 +20,12 @@ ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 ms.custom:
 - seo-marvel-apr2020
 description: Depois que uma caixa de correio do Office 365 é desativada, altere a duração da política de retenção de bloqueio ou do Office 365 atribuída à caixa de correio inativa.
-ms.openlocfilehash: 113a3af38d83eabef2e3022f47952c2db70f47a9
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 675e6eb36f762a50c3caafce07d09fda9ba9d98e
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818400"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126372"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox"></a>Alterar a duração do bloqueio para uma caixa de correio inativa
 
@@ -60,9 +60,6 @@ Get-Mailbox -InactiveMailboxOnly | FL DisplayName,Name,IsInactiveMailbox,Litigat
 
 O valor de **true** para a propriedade **LitigationHoldEnabled** indica que a caixa de correio inativa está em retenção de litígio. Se um bloqueio in-loco, um bloqueio de descoberta eletrônica ou uma política de retenção do Microsoft 365 for colocado em uma caixa de correio inativa, um GUID para a política de retenção ou bloqueio será exibido como o valor da propriedade **InPlaceHolds** . Por exemplo, veja a seguir os resultados de cinco caixas de correio inativas. 
   
-||
-|:-----|
-|
 ```text
 DisplayName           : Ann Beebe
 Name                  : annb
@@ -110,7 +107,7 @@ A tabela a seguir identifica os cinco tipos de retenção diferentes que foram u
 |Carol Olson  <br/> |Política de retenção do Microsoft 365 no centro de conformidade & segurança aplicado a caixas de correio específicas  <br/> |A propriedade *InPlaceHolds* contém o GUID da política de retenção da Microsoft 365 que é aplicada à caixa de correio inativa. Você pode dizer que esta é uma política de retenção que se aplica a caixas de correio específicas porque o GUID começa com o `mbx` prefixo. Se o GUID da política de retenção aplicada à caixa de correio inativa começou com o `skp` prefixo, ele indicaria que a política de retenção é aplicada às conversas do Skype for Business.  <br/><br/> Para identificar a política de retenção da Microsoft 365 que é aplicada à caixa de correio inativa, execute o seguinte comando no PowerShell do centro de conformidade de segurança &.<br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name` <br/><br/>Certifique-se de remover `mbx` o `skp` prefixo ou ao executar este comando.  <br/> |
 |Abraham McMahon  <br/> |retenção de caso de descoberta eletrônica no centro de conformidade de & de segurança  <br/> |A propriedade *InPlaceHolds* contém o GUID da retenção de ocorrência de descoberta eletrônica que é colocada na caixa de correio inativa. É possível dizer que esta é uma retenção de caso de descoberta eletrônica porque o GUID começa com o `UniH` prefixo.  <br/> Você pode usar o `Get-CaseHoldPolicy` cmdlet em segurança & o PowerShell do centro de conformidade para obter informações sobre a ocorrência de descoberta eletrônica à qual a retenção está associada à caixa de correio inativa. Por exemplo, você pode executar o comando `Get-CaseHoldPolicy <hold GUID without prefix> | FL Name` para exibir o nome da retenção de caso que está na caixa de correio inativa. Certifique-se de remover o `UniH` prefixo ao executar este comando.  <br/><br/> Para identificar a ocorrência de descoberta eletrônica à qual a retenção está associada à caixa de correio inativa, execute os seguintes comandos.  <br/><br/> `$CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>`<br/><br/> `Get-ComplianceCase $CaseHold.CaseId | FL Name`<br/><br/><br/> **Observação:** Não recomendamos o uso de bloqueios de descoberta eletrônica para caixas de correio inativas. That's because eDiscovery cases are intended for specific, time-bound cases related to a legal issue. Em algum momento, um caso jurídico provavelmente será encerrado e as suspensões associadas ao caso serão removidas e o caso de descoberta eletrônica será fechado (ou excluído). Na verdade, se uma retenção colocada em uma caixa de correio inativa estiver associada a uma ocorrência de descoberta eletrônica e a retenção for liberada ou se a ocorrência de descoberta eletrônica estiver fechada ou excluída, a caixa de correio inativa será excluída permanentemente. 
 
-Para obter mais informações sobre as políticas de retenção do Microsoft 365, consulte [visão geral das políticas de retenção](retention-policies.md).
+Para obter mais informações sobre as políticas de retenção da Microsoft 365, consulte [saiba mais sobre políticas de retenção e rótulos de retenção](retention.md).
   
 ## <a name="step-2-change-the-hold-duration-for-an-inactive-mailbox"></a>Etapa 2: alterar a duração da retenção de uma caixa de correio inativa
 

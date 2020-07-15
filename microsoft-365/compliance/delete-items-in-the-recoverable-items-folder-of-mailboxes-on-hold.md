@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: Saiba como excluir itens na pasta itens recuperáveis de um usuário para uma caixa de correio do Exchange Online, mesmo se essa caixa de correio for colocada em retenção legal.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d7babf231efba31a6f4cb1638d98669a9b938f9
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 9b4338784602826694b4683f3d000391592547a8
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817870"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127018"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>Excluir itens da pasta itens recuperáveis das caixas de correio baseadas em nuvem em manter ajuda do administrador
 
@@ -52,7 +52,7 @@ A pasta itens recuperáveis para uma caixa de correio do Exchange Online existe 
 
 - O procedimento descrito neste artigo não tem suporte para caixas de correio inativas. Isso ocorre porque não é possível reaplicar uma retenção (ou uma diretiva de retenção) a uma caixa de correio inativa após removê-la. Quando você remove uma retenção de uma caixa de correio inativa, ela é alterada para uma caixa de correio normal excluída por software e será excluída permanentemente da sua organização depois de ser processada pelo assistente de pasta gerenciada.
 
-- Você não pode executar esse procedimento para uma caixa de correio que foi atribuída a uma política de retenção que foi bloqueada com um bloqueio de preservação. Isso ocorre porque um bloqueio de preservação impede que você remova ou exclua a caixa de correio da política de retenção e desabilite o assistente de pasta gerenciada na caixa de correio. Para obter mais informações sobre o bloqueio de políticas de retenção, consulte [use preservação Lock para cumprir os requisitos normativos](retention-policies.md#use-preservation-lock-to-comply-with-regulatory-requirements).
+- Você não pode executar esse procedimento para uma caixa de correio que foi atribuída a uma política de retenção que foi bloqueada com um bloqueio de preservação. Isso ocorre porque um bloqueio de preservação impede que você remova ou exclua a caixa de correio da política de retenção e desabilite o assistente de pasta gerenciada na caixa de correio. Para obter mais informações sobre o bloqueio de políticas de retenção, consulte [use preservação Lock para cumprir os requisitos normativos](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements).
 
 - Se uma caixa de correio não for colocada em espera (ou não tiver a recuperação de item único habilitada), você poderá excluir os itens da pasta itens recuperáveis. Para obter mais informações sobre como fazer isso, confira [Pesquisar e excluir mensagens de email em sua organização](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization).
   
@@ -224,7 +224,7 @@ Get-Mailbox <username> |FL ComplianceTagHoldApplied
 
 Após identificar que uma caixa de correio está em espera porque um rótulo de retenção é aplicado a uma pasta ou item, você pode usar a ferramenta de pesquisa de conteúdo no centro de segurança e conformidade para pesquisar itens rotulados usando a condição de pesquisa ComplianceTag. Para obter mais informações, consulte a seção "condições de pesquisa" em [consultas de palavra-chave e condições de pesquisa para pesquisa de conteúdo](keyword-queries-and-search-conditions.md#conditions-for-common-properties).
 
-Para saber mais sobre rótulos, confira [Visão geral dos rótulos](labels.md).
+Para obter mais informações sobre rótulos, consulte [saiba mais sobre políticas de retenção e rótulos de retenção](retention.md).
 
  ### <a name="ediscovery-holds"></a>bloqueios de descoberta eletrônica
   

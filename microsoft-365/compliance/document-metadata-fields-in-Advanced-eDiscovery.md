@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo define os campos de metadados para documentos em uma revisão configurada em um caso de descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: 19a8b4968ea4b1d82cd6a9e9278530e6c155ef3f
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+ms.openlocfilehash: e419cb14d1b0adbebd6d45aaa5120933b060bdf9
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726451"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126948"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Campos de metadados de documentos na descoberta eletrônica avançada
 
@@ -46,7 +46,7 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 |Autor|Autor|Doc_authors|Autor dos metadados do documento.|
 |BCC|Cco|Email_bcc|Campo Cco para tipos de mensagem. O formato **é \<SMTPAddress> DisplayName **.|
 |CC|Cc|Email_cc|Campo CC para tipos de mensagem. O formato **é \<SMTPAddress> DisplayName **.|
-|Rótulos de conformidade|ComplianceLabels|Compliance_labels|[Rótulos de retenção](labels.md) aplicados ao conteúdo no Office 365.|
+|Rótulos de conformidade|ComplianceLabels|Compliance_labels|[Rótulos de retenção](retention.md) aplicados ao conteúdo no Office 365.|
 |Caminho composto|CompoundPath|Compound_path|Caminho legível humana que descreve a fonte do item.|
 |Content|Conteúdo||Texto extraído do item.|
 |Corpo da conversa|Corpo da conversa||Corpo da conversa do item.|
@@ -103,7 +103,7 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 |Classe de item|ItemClass|Item_class|Classe de item fornecida pelo Exchange Server; por exemplo, **IPM. Observação**|
 |Last modified date|LastModifiedDate|Doc_date_modified|Data da última modificação dos metadados do documento.|
 |ID de carregamento|Loadid|Load_ID|A ID do conjunto de carga no qual o item foi adicionado a um conjunto de revisão.|
-|Location|Location|Location|Cadeia de caracteres que indica o tipo de local de onde os documentos foram originados.<br /><br />**Dados importados** de dados que não sejam do Office 365<br />**Teams** -Microsoft Teams<br />Caixas **de correio do Exchange-** Exchange<br />**SharePoint** -sites do SharePoint<br />**Onedrive** -contas do onedrive|
+|Local|Local|Local|Cadeia de caracteres que indica o tipo de local de onde os documentos foram originados.<br /><br />**Dados importados** de dados que não sejam do Office 365<br />**Teams** -Microsoft Teams<br />Caixas **de correio do Exchange-** Exchange<br />**SharePoint** -sites do SharePoint<br />**Onedrive** -contas do onedrive|
 |Nome do local|LocationName|Location_name|Cadeia de caracteres que identifica a origem do item. Para o Exchange, este será o endereço SMTP da caixa de correio; para o SharePoint e o OneDrive, a URL do conjunto de sites.|
 |Marcado como representante|MarkAsRepresentative||Um documento de cada conjunto de duplicatas exatas é marcado como representante.|
 |Marcado como o problema de caso anterior à marca 1 *||Marked_as_pre_tagged_Case_issue_1|Marcado como problema de caso de marca 1 de relevância.|

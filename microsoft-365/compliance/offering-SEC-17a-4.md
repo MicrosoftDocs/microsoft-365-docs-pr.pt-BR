@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 89456de1ec4ef170d85d7bd9c6b210d8bdb39f28
-ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
+ms.openlocfilehash: 63a7c4f7385ec3d782ff030374ba344406c6d094
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773722"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126660"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>Valores de Securities e Exchange Commission (seg) 17a-4 (f) Estados Unidos
 
@@ -40,7 +40,7 @@ O armazenamento de blob imutável do Microsoft Azure com bloqueio de política e
 Para avaliar o Azure e o Office 365 conformidade com a norma SEC 17a-4 (f), a Microsoft manteve uma empresa de avaliação independente especializada em gerenciamento de registros e governança de informações, Cohasset Associates. No relatório resultante de:
 
 - **Azure**: [avaliação de conformidade da SEC 17a-4 (f): armazenamento do Microsoft Azure](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports), Cohasset validado que o [armazenamento de blob imutável do Azure](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage) com a opção de bloqueio de política, quando usado para manter BLOBs baseados em tempo em um formato não apagável e não-regravável (Worm), atende aos requisitos de armazenamento imutáveis da regra SEC. Cada blob (registro) é protegido contra modificação, substituição ou exclusão até que o período de retenção necessário tenha expirado e todas as isenções legais associadas tenham sido liberadas. Fornecedores de software e parceiros com cargas de trabalho confidenciais agora podem confiar no armazenamento de BLOBs imutáveis do Azure como uma solução de nuvem do Onestop para retenção de registros e armazenamento imutável. As instituições financeiras agora podem criar seus próprios aplicativos aproveitando esses recursos, enquanto permanecem em conformidade.
-- **Office 365**: [use o Exchange Online para estar em conformidade com a SEC 17a-4](https://docs.microsoft.com/office365/securitycompliance/use-exchange-online-to-comply-with-sec-rule-17a-4), Cohasset validada [que o Office 365 com bloqueio de preservação](retention-policies.md) inclui recursos de arquivamento que permitem aos clientes regulamentados, incluindo os revendedores, armazenar dados de forma que os ajudem a cumprir os requisitos da SEC para retenção de registros. As políticas de retenção no Office 365 ajudam a preservar uma ampla variedade de dados, incluindo emails, caixa postal, documentos compartilhados, mensagens instantâneas e dados de terceiros. Em particular, o arquivamento no Office 365 permite que os clientes definam políticas globais ou granulares de retenção de mensagens para armazenar dados por um período definido e além de um formato não-regravável, não apagável.
+- **Office 365**: [use o Exchange Online para estar em conformidade com a SEC 17a-4](https://docs.microsoft.com/office365/securitycompliance/use-exchange-online-to-comply-with-sec-rule-17a-4), Cohasset validada [que o Office 365 com bloqueio de preservação](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements) inclui recursos de arquivamento que permitem aos clientes regulamentados, incluindo os revendedores, armazenar dados de forma que os ajudem a cumprir os requisitos da SEC para retenção de registros. As políticas de retenção no Office 365 ajudam a preservar uma ampla variedade de dados, incluindo emails, caixa postal, documentos compartilhados, mensagens instantâneas e dados de terceiros. Em particular, o arquivamento no Office 365 permite que os clientes definam políticas globais ou granulares de retenção de mensagens para armazenar dados por um período definido e além de um formato não-regravável, não apagável.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Serviços de nuvem no Escopo da Microsoft 
 

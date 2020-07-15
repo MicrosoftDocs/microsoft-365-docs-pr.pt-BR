@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 10/12/2018
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,17 +15,17 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a8bdcbdd-9298-462f-b889-df26037a990c
-description: 'Habilite a caixa de correio de arquivo morto e ative o arquivamento de expansão automática para aumentar o tamanho da pasta itens recuperáveis para uma caixa de correio no Office 365. '
-ms.openlocfilehash: 884a03bc1693ec76cd3e80d85f62f4054e1d9911
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+description: Habilite a caixa de correio de arquivo morto e ative o arquivamento de expansão automática para aumentar o tamanho da pasta itens recuperáveis para uma caixa de correio no Microsoft 365.
+ms.openlocfilehash: 3c2ac29fe650d03db7e5d4d1282b870eaece447c
+ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222704"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138263"
 ---
 # <a name="increase-the-recoverable-items-quota-for-mailboxes-on-hold"></a>Aumentar a cota de Itens Recuperáveis para caixas de correio em espera
 
-A política de retenção padrão, chamada política padrão do MRM, que é aplicada automaticamente às novas caixas de correio no Exchange Online contém uma marca de retenção denominada itens recuperáveis 14 dias mover para o arquivo morto. Essa marca de retenção move itens da pasta itens recuperáveis na caixa de correio principal do usuário para a pasta itens recuperáveis na caixa de correio de arquivo morto do usuário depois que o período de retenção de 14 dias expira para um item. Para que isso aconteça, a caixa de correio de arquivo morto do usuário deve estar habilitada. Se a caixa de correio de arquivo morto não estiver habilitada, nenhuma ação será executada, o que significa que os itens na pasta itens recuperáveis de uma caixa de correio em espera não serão movidos para a caixa de correio de arquivo morto após o período de retenção de 14 dias expirar. Como nada é excluído de uma caixa de correio em espera, é possível que a cota de armazenamento da pasta itens recuperáveis possa ser excedida, especialmente se a caixa de correio de arquivo morto do usuário não estiver habilitada. 
+A política de retenção padrão do Exchange, denominada *política de MRM padrão*, que é aplicada automaticamente às novas caixas de correio no Exchange Online contém uma marca de retenção denominada itens recuperáveis 14 dias para o arquivo morto. Essa marca de retenção move itens da pasta itens recuperáveis na caixa de correio principal do usuário para a pasta itens recuperáveis na caixa de correio de arquivo morto do usuário depois que o período de retenção de 14 dias expira para um item. Para que isso aconteça, a caixa de correio de arquivo morto do usuário deve estar habilitada. Se a caixa de correio de arquivo morto não estiver habilitada, nenhuma ação será executada, o que significa que os itens na pasta itens recuperáveis de uma caixa de correio em espera não serão movidos para a caixa de correio de arquivo morto após o período de retenção de 14 dias expirar. Como nada é excluído de uma caixa de correio em espera, é possível que a cota de armazenamento da pasta itens recuperáveis possa ser excedida, especialmente se a caixa de correio de arquivo morto do usuário não estiver habilitada. 
   
 Para ajudar a reduzir a chance de exceder esse limite, a cota de armazenamento da pasta itens recuperáveis é aumentada automaticamente de 30 GB para 100 GB quando uma retenção é colocada em uma caixa de correio no Exchange Online. Se a caixa de correio de arquivo morto estiver habilitada, a cota de armazenamento da pasta Itens Recuperáveis na caixa de correio de arquivo morto também aumentará de 30 GB para 100 GB. Se o recurso de arquivamento de expansão automática no Exchange Online estiver habilitado, a cota de armazenamento da pasta itens recuperáveis no arquivo morto do usuário será ilimitada.
   
@@ -42,20 +42,20 @@ Para ajudar a reduzir a chance de exceder esse limite, a cota de armazenamento d
   
 Quando a cota de armazenamento da pasta Itens Recuperáveis na caixa de correio principal de uma caixa de correio em espera está quase atingindo o limite, você pode fazer o seguinte:
   
-- **Habilitar a caixa de correio de arquivo morto e ativar o arquivamento de expansão automática** -você pode habilitar uma capacidade de armazenamento ilimitada para a pasta itens recuperáveis, simplesmente habilitando a caixa de correio de arquivo morto e, em seguida, ativando o recurso de arquivamento de expansão automática no Exchange Online. Isso resulta em 110 GB para a pasta itens recuperáveis na caixa de correio principal e uma quantidade ilimitada de capacidade de armazenamento para a pasta itens recuperáveis no arquivo morto do usuário. Confira como: [habilitar caixas de correio de arquivo morto no centro de conformidade de & de segurança](enable-archive-mailboxes.md) e [habilitar o arquivamento ilimitado no Office 365](enable-unlimited-archiving.md).
+- **Habilite a caixa de correio de arquivo morto e ative o arquivamento de expansão automática.** Você pode habilitar uma capacidade de armazenamento ilimitada para a pasta itens recuperáveis, simplesmente habilitando a caixa de correio de arquivo morto e, em seguida, ativando o recurso de arquivamento de expansão automática no Exchange Online. Isso resulta em 110 GB para a pasta itens recuperáveis na caixa de correio principal e uma quantidade ilimitada de capacidade de armazenamento para a pasta itens recuperáveis no arquivo morto do usuário. Confira como: [habilitar caixas de correio de arquivo morto no centro de conformidade de & de segurança](enable-archive-mailboxes.md) e [habilitar o arquivamento ilimitado no Office 365](enable-unlimited-archiving.md).
     
     > [!NOTE]
     > Após habilitar o arquivamento para uma caixa de correio que está prestes a exceder a cota de armazenamento da pasta Itens Recuperáveis, convém executar o Assistente de Pasta Gerenciada para disparar manualmente o assistente para processar a caixa de correio, de modo que os itens expirados sejam movidos para a pasta Itens Recuperáveis na caixa de correio de arquivo morto. Confira as instruções na [Etapa 4](#optional-step-4-run-the-managed-folder-assistant-to-apply-the-new-retention-settings). Os demais itens na caixa de correio do usuário podem ser movidos para a nova caixa de correio de arquivo morto. Considere a possibilidade de informar ao usuário que isso pode acontecer depois que você habilitar a caixa de correio de arquivo morto. 
   
-- **Criar uma política de retenção personalizada para caixas de correio em retenção** , além de habilitar a caixa de correio de arquivo morto e o arquivamento de expansão automática para caixas de correio em retenção de litígio ou bloqueio in-loco, você também pode querer criar uma política de retenção personalizada para caixas de correio em espera. Isso permite aplicar uma política de retenção para caixas de correio em espera diferente da Política de MRM Padrão que é aplicada às caixas de correio que não estão em espera. Isso permite aplicar marcas de retenção projetadas especificamente para caixas de correio em espera. Isso inclui a criação de uma nova marca de retenção para a pasta Itens Recuperáveis. 
+- **Criar uma política de retenção personalizada do Exchange para caixas de correio em espera.** Além de habilitar a caixa de correio de arquivo morto e o arquivamento de expansão automática para caixas de correio em retenção de litígio ou bloqueio in-loco, você também pode querer criar uma política de retenção personalizada do Exchange para caixas de correio em espera. Isso permite aplicar uma política de retenção a caixas de correio em espera que seja diferente da política padrão do MRM aplicada às caixas de correio que não estão em espera e permite que você aplique marcas de retenção que foram projetadas para caixas de correio em espera. Isso inclui a criação de uma nova marca de retenção para a pasta Itens Recuperáveis. 
     
-O restante deste tópico descreve os procedimentos passo a passo para criar uma política de retenção personalizada para caixas de correio em espera.
+O restante deste tópico descreve os procedimentos passo a passo para criar uma política de retenção personalizada do Exchange para caixas de correio em espera.
   
 [Etapa 1: criar uma marca de retenção personalizada para a pasta Itens Recuperáveis](#step-1-create-a-custom-retention-tag-for-the-recoverable-items-folder)
 
-[[Etapa 2: criar uma nova política de retenção para caixas de correio em espera](#step-2-create-a-new-retention-policy-for-mailboxes-on-hold)
+[Etapa 2: criar uma nova política de retenção do Exchange para caixas de correio em espera](#step-2-create-a-new-exchange-retention-policy-for-mailboxes-on-hold)
 
-[Etapa 3: aplicar a nova política de retenção a caixas de correio em espera](#step-3-apply-the-new-retention-policy-to-mailboxes-on-hold)
+[Etapa 3: aplicar a nova política de retenção do Exchange às caixas de correio em espera](#step-3-apply-the-new-exchange-retention-policy-to-mailboxes-on-hold)
 
 [(Opcional) Etapa 4: executar o Assistente de Pasta Gerenciada para aplicar as novas configurações de retenção](#optional-step-4-run-the-managed-folder-assistant-to-apply-the-new-retention-settings)
   
@@ -71,7 +71,7 @@ A primeira etapa é criar uma marca de retenção personalizada (chamada de marc
     New-RetentionPolicyTag -Name <Name of RPT> -Type RecoverableItems -AgeLimitForRetention <Number of days> -RetentionAction MoveToArchive
     ```
 
-    Por exemplo, o comando a seguir cria um relatório para a pasta Itens Recuperáveis denominado "Itens Recuperáveis para caixas de correio em retenção: 30 dias", com um período de retenção de 30 dias. Isso significa que depois que um item estiver na pasta Itens Recuperáveis por 30 dias, ele será movido para a pasta Itens Recuperáveis na caixa de correio de arquivo morto do usuário.
+    Por exemplo, o comando a seguir cria um relatório para a pasta itens recuperáveis chamada "itens recuperáveis 30 dias para caixas de correio em espera", com um período de retenção de 30 dias. Isso significa que depois que um item estiver na pasta Itens Recuperáveis por 30 dias, ele será movido para a pasta Itens Recuperáveis na caixa de correio de arquivo morto do usuário.
     
     ```powershell
     New-RetentionPolicyTag -Name "Recoverable Items 30 days for mailboxes on hold" -Type RecoverableItems -AgeLimitForRetention 30 -RetentionAction MoveToArchive
@@ -80,11 +80,11 @@ A primeira etapa é criar uma marca de retenção personalizada (chamada de marc
     > [!TIP]
     > Recomendamos que o período de retenção (definido pelo parâmetro _AgeLimitForRetention_ ) para os itens recuperáveis RPT seja o mesmo que o período de retenção de itens excluídos para as caixas de correio às quais o RPT será aplicado. Isso proporciona a um usuário todo o período de retenção de itens excluídos para recuperar itens excluídos antes que eles sejam movidos para a caixa de correio de arquivo morto. No exemplo anterior, o período de retenção foi configurado para 30 dias com base na suposição de que o período de retenção de itens excluídos para caixas de correio também é de 30 dias. Uma caixa de correio do Exchange Online é configurada, por padrão, para manter itens excluídos por 14 dias. Porém, você pode alterar essa configuração para até 30 dias. Para obter mais informações, consulte [alterar o período de retenção de itens excluídos para uma caixa de correio no Exchange Online](https://www.microsoft.com/?ref=go). 
   
-## <a name="step-2-create-a-new-retention-policy-for-mailboxes-on-hold"></a>Etapa 2: Criar uma nova política de retenção para caixas de correio em espera
+## <a name="step-2-create-a-new-exchange-retention-policy-for-mailboxes-on-hold"></a>Etapa 2: criar uma nova política de retenção do Exchange para caixas de correio em espera
 
-A próxima etapa é criar uma nova política de retenção e adicionar marcas de retenção a ela, inclusive o RPT de Itens Recuperáveis que você criou na Etapa 1. Essa nova política será aplicada às caixas de correio em espera na próxima etapa.  
+The next step is to create a new retention policy and add retention tags to it, including the Recoverable Items RPT that you created in Step 1. This new policy will be applied to mailboxes on hold in the next step. 
   
-Antes de criar a nova política de retenção, determine as marcas de retenção adicionais que você deseja adicionar. Confira a lista das marcas de retenção adicionadas à política MRM Padrão e informações sobre como criar novas marcas de retenção em:
+Before you create the new retention policy, determine the additional retention tags that you want to add. For a list of the retention tags that are added to the Default MRM Policy and for information about creating new retention tags, see the following:
   
 - [Política de Retenção Padrão no Exchange Online ](https://go.microsoft.com/fwlink/p/?LinkId=746954)
     
@@ -106,7 +106,7 @@ Você pode usar o Eat ou o PowerShell do Exchange Online para criar uma polític
     
     ![Selecione a marca de retenção personalizada Itens Recuperáveis](../media/eb49866b-bdef-4fcd-a6d9-01607c01249b.png)
   
-5. Selecione marcas de retenção adicionais para adicionar à política de retenção. Por exemplo, convém adicionar as mesmas marcas que são incluídas na Política de MRM Padrão.
+5. Select additional retention tags to add to the retention policy. For example, you might want to add the same tags that are included in the Default MRM Policy.
     
 6. Quando terminar de adicionar marcas de retenção, clique em **OK**.
     
@@ -131,13 +131,13 @@ Por exemplo, o comando a seguir cria a política de retenção e as marcas de re
 New-RetentionPolicy "MRM Policy for Mailboxes on Hold"  -RetentionPolicyTagLinks "Recoverable Items 30 days for mailboxes on hold","1 Month Delete","1 Week Delete","1 Year Delete","5 Year Delete","6 Month Delete","Default 2 year move to archive","Junk Email","Never Delete","Personal 1 year move to archive","Personal 5 year move to archive"
 ```
 
-## <a name="step-3-apply-the-new-retention-policy-to-mailboxes-on-hold"></a>Etapa 3: Aplicar a nova política de retenção a caixas de correio em espera
+## <a name="step-3-apply-the-new-exchange-retention-policy-to-mailboxes-on-hold"></a>Etapa 3: aplicar a nova política de retenção do Exchange às caixas de correio em espera
 
 A última etapa é aplicar a nova política de retenção que você criou na Etapa 2 a caixas de correio em espera na sua organização. Você pode usar o Eat ou o PowerShell do Exchange Online para aplicar a política de retenção a uma única caixa de correio ou a várias caixas de correio. 
   
 ### <a name="use-the-eac-to-apply-the-new-retention-policy"></a>Usar o EAC para aplicar a nova política de retenção
   
-1. Acesse **Destinatários** \> **Caixas de Correio**.
+1. Vá para **Recipients**  >  **caixas de correio**de destinatários.
     
 2. No modo de exibição de lista, selecione a caixa de correio à qual você deseja aplicar a política de retenção e clique em **Editar** ![ ícone de edição ](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) .
     
@@ -147,7 +147,7 @@ A última etapa é aplicar a nova política de retenção que você criou na Eta
     
 Você também pode usar o EAC para aplicar a política de retenção a várias caixas de correio.
   
-1. Acesse **Destinatários** \> **Caixas de Correio**.
+1. Vá para **Recipients**  >  **caixas de correio**de destinatários.
     
 2. No modo de exibição de lista, use as teclas Shift ou Ctrl, para selecionar várias caixas de correio.
     
@@ -205,7 +205,7 @@ Get-Mailbox -ResultSize unlimited | Where-Object {$_.InPlaceHolds -ne $null} | F
 
 ## <a name="optional-step-4-run-the-managed-folder-assistant-to-apply-the-new-retention-settings"></a>(Opcional) Etapa 4: Executar o Assistente de Pasta Gerenciada para aplicar as novas configurações de retenção
 
-Depois de aplicar a nova política de retenção às caixas de correio em espera, pode levar até 7 dias no Exchange Online para que o assistente de pasta gerenciada processe essas caixas de correio usando as configurações da nova política de retenção. Em vez de esperar pela execução do Assistente de Pasta Gerenciada, você pode usar o cmdlet **Start-ManagedFolderAssistant** para disparar manualmente o assistente para processar as caixas de correio às quais você aplicou a nova política de retenção. 
+Após aplicar a nova política de retenção do Exchange às caixas de correio em espera, pode levar até 7 dias no Exchange Online para que o assistente de pasta gerenciada processe essas caixas de correio usando as configurações da nova política de retenção. Em vez de esperar pela execução do Assistente de Pasta Gerenciada, você pode usar o cmdlet **Start-ManagedFolderAssistant** para disparar manualmente o assistente para processar as caixas de correio às quais você aplicou a nova política de retenção. 
   
 Execute o comando a seguir para iniciar o Assistente de Pasta Gerenciada para caixa de correio de Clara Barbosa.
   

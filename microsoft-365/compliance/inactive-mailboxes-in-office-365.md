@@ -20,12 +20,12 @@ ms.assetid: 1fbd74e8-7a60-4157-afe8-fe79f05d2038
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como reter o conteúdo de caixa de correio para funcionários antigos ao transformar a caixa de correio em uma caixa de correio inativa.
-ms.openlocfilehash: d7805ad24adcad61841866e11cd25942aef6e70b
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: baa2daebe65142743df95762a3dcd780d5069c7f
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817570"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126742"
 ---
 # <a name="overview-of-inactive-mailboxes"></a>Visão geral de caixas de correio inativas
 
@@ -50,7 +50,7 @@ Além da retenção de litígio, o uso do novo recurso de política de retençã
   
 - Pode ser baseado em consulta para que ele mantém somente os itens que correspondem a uma consulta de pesquisa.
 
-Para obter mais informações sobre a configuração de políticas de retenção, consulte [Overview of Retention Policies](retention-policies.md).
+Para obter mais informações sobre políticas de retenção, consulte [saiba mais sobre políticas de retenção e rótulos de retenção](retention.md).
   
 Se você usar uma política de retenção para criar uma caixa de correio inativa, a Microsoft 365 continuará processando a política de retenção na caixa de correio inativa. Isso significa que se a política de retenção é configurada para manter e excluir conteúdo, itens serão movidos para a pasta itens recuperáveis quando a duração da retenção expira e eventualmente removidos da caixa de correio inativa. Se a política de retenção não estiver configurada para itens excluídos, os itens que não foram excluídos permanentemente pelo usuário (antes de a caixa de correio ter sido tornado inativa) não serão movidos para a pasta itens recuperáveis e serão retidos indefinidamente após a caixa de correio se tornar inativa. 
   
@@ -75,9 +75,9 @@ Para obter mais informações sobre ocorrências de descoberta eletrônica e ise
 
 ## <a name="inactive-mailboxes-and-labels"></a>Caixas de correio inativas e rótulos
 
-Os rótulos ajudam a classificar dados de email em sua organização para governança e a impor regras de retenção com base nessa classificação. Um rótulo pode ser aplicado a um item de email manualmente por usuários ou automaticamente por administradores e um item de email só pode ter um rótulo único atribuído a ele. Se um único item de email na caixa de correio de um usuário tiver um rótulo atribuído a ele (e ele estiver configurado para reter ou reter e excluir o item) e a caixa de correio ou a conta do usuário for excluída, a caixa de correio se tornará uma caixa de correio inativa. Semelhante ao isenções casos de eDiscovery, não recomendamos o uso de rótulos para tornar uma caixa de correio inativa. Em vez disso, recomendamos que você use uma retenção de litígio ou uma política de retenção. No caso de rótulos, você pode não perceber que um rótulo foi aplicado a um item de email e, em seguida, tornar uma caixa de correio inativa inativa ao excluir a conta do usuário. 
+Os rótulos de retenção ajudam a classificar dados de email em sua organização para governança e a impor regras de retenção com base nessa classificação. Um rótulo de retenção pode ser aplicado a um item de email manualmente por usuários ou automaticamente por administradores, e um item de email só pode ter um rótulo único atribuído a ele. Se um único item de email na caixa de correio de um usuário tiver um rótulo atribuído a ele (e ele estiver configurado para reter ou reter e excluir o item) e a caixa de correio ou a conta do usuário for excluída, a caixa de correio se tornará uma caixa de correio inativa. Semelhante às isenções de ocorrências de descoberta eletrônica, não recomendamos o uso de rótulos de retenção para tornar uma caixa de correio inativa. Em vez disso, recomendamos que você use uma retenção de litígio ou uma política de retenção. No caso de rótulos de retenção, você pode não perceber que um rótulo de retenção foi aplicado a um item de email e, em seguida, tornar uma caixa de correio inativa inativa ao excluir a conta do usuário. 
   
-Para obter mais informações sobre rótulos, consulte [Visão geral dos rótulos no Office 365](labels.md).
+Para obter mais informações sobre políticas de retenção e rótulos de retenção, consulte [saiba mais sobre políticas de retenção e rótulos de retenção no Office 365](retention.md).
   
 ## <a name="inactive-mailboxes-and-auto-expanding-archives"></a>Caixas de correio inativas e arquivos de expansão automática
 

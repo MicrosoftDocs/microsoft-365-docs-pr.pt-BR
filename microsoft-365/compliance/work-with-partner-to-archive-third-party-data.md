@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como configurar um conector personalizado para importar dados de terceiros de fontes de dados como o Salesforce, o Yahoo Messenger ou o Yammer.
-ms.openlocfilehash: f76ceda12bf48d26454a47e4b0b5d6ad42fbe55d
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: c3b824909ae1243e2dd1f12b799e53d00d9615ca
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817036"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126650"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data"></a>Trabalhar com um parceiro para arquivar dados de terceiros
 
@@ -499,7 +499,7 @@ Aqui estão as etapas para criar e configurar uma caixa de correio de dados de t
     
       - [Colocar uma caixa de correio em Retenção de Litígio](https://go.microsoft.com/fwlink/p/?LinkId=404420)
     
-      - [Visão geral de políticas de retenção](retention-policies.md)
+      - [Saiba mais sobre políticas de retenção e rótulos de retenção](retention.md)
     
     - Habilitar o log de auditoria de caixa de correio para proprietário, representante e acesso de administrador à caixa de correio de dados de terceiros; consulte [habilitar a auditoria de caixa de correio](enable-mailbox-auditing.md). Isso permite que você faça a auditoria de todas as atividades realizadas por qualquer usuário que tenha acesso à caixa de correio de dados de terceiros.
 
@@ -513,7 +513,7 @@ A próxima etapa é configurar as caixas de correio do usuário para oferecer su
     
     - [Colocar uma caixa de correio em Retenção de Litígio](https://go.microsoft.com/fwlink/p/?LinkId=404420)
     
-    - [Visão geral de políticas de retenção](retention-policies.md)
+    - [Saiba mais sobre políticas de retenção e rótulos de retenção](retention.md)
     
     Conforme mencionado anteriormente, quando você coloca as caixas de correio em retenção, é possível definir uma duração para a retenção dos itens da fonte de dados de terceiros, ou você pode optar por reter itens indefinidamente.
 

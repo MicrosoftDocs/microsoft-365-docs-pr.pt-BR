@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode criar uma retenção associada a uma caixa de descoberta eletrônica principal para preservar o conteúdo que pode ser relevante para uma investigação.
-ms.openlocfilehash: 4ec9ff37a49f783afc25835ca91208608ab4733a
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: b3a213e499a71356999367deff930ea9a04945df
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44498324"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127518"
 ---
 # <a name="create-an-ediscovery-hold"></a>Criar uma retenção de Descoberta Eletrônica
 
@@ -67,7 +67,7 @@ Para criar uma retenção de descoberta eletrônica associada a um caso de desco
 
 8. Quando você terminar de adicionar locais de conteúdo à isenção, clique em **Avançar**.
 
-9. Para criar uma retenção baseada em consulta com condições, conclua o seguinte. Caso contrário, para preservar todo o conteúdo dos locais de conteúdo especificados, clique em **Avançar**
+9. Para criar uma retenção baseada em consulta com condições, conclua o seguinte. Caso contrário, para preservar todo o conteúdo nos locais de conteúdo especificado, clique em **Avançar**.
 
     ![Criar uma retenção baseada em consulta com condições](../media/d587b58e-d05c-4ac0-b0fe-09019e4f1063.png)
   
@@ -80,6 +80,14 @@ Para criar uma retenção de descoberta eletrônica associada a um caso de desco
 10. Depois de configurar um bloqueio baseado em consulta, clique em **Avançar**.
 
 11. Revise suas configurações (e edite-as se necessário) e clique em **criar esta isenção**.
+
+## <a name="query-based-holds-placed-on-site-documents"></a>Suspensões baseadas em consulta colocadas em documentos de site
+
+Tenha em mente os seguintes pontos ao colocar uma descoberta eletrônica baseada em consulta em documentos localizados em sites do SharePoint:
+
+- Inicialmente, uma retenção baseada em consulta preserva todos os documentos em um site por um curto período de tempo após serem excluídos. Isso significa que, quando um documento é excluído, ele será movido para a biblioteca de retenção de preservação, mesmo se não corresponder aos critérios da retenção baseada em consulta. No entanto, os documentos excluídos que não correspondem a uma retenção baseada em consulta serão removidos por um trabalho de timer que processa a biblioteca de retenção de preservação. O trabalho de timer é executado periodicamente e compara todos os documentos na biblioteca de retenção de preservação com suas isenções de descoberta eletrônica baseada em consulta (e outros tipos de bloqueios e políticas de retenção). O trabalho de timer exclui os documentos que não correspondem a uma retenção baseada em consulta e preserva os documentos que fazem.
+
+- As suspensões baseadas em consulta não devem ser usadas para realizar preservação direcionada, como preservar documentos em uma pasta ou site específico ou usando outros critérios de bloqueio baseados em local. Isso pode ter resultados indesejados. Recomendamos o uso de critérios de retenção sem local, como palavras-chave, intervalos de datas ou outras propriedades de documento para preservar documentos de site.
 
 ## <a name="ediscovery-hold-statistics"></a>Estatísticas de retenção de descoberta eletrônica
 
@@ -114,7 +122,7 @@ Aqui estão alguns outros pontos a serem lembrados ao pesquisar locais em reten�
 - Se uma pesquisa estiver configurada para pesquisar locais em espera e você alterar um bloqueio de descoberta eletrônica no caso (adicionando ou removendo um local ou alterando uma consulta de retenção), a configuração de pesquisa será atualizada com essas alterações. No entanto, você precisa executar novamente a pesquisa após a alteração da retenção para atualizar os resultados da pesquisa.
 
 - Se várias isenções de descoberta eletrônica forem colocadas em um único local em um caso de descoberta eletrônica e você selecionar para pesquisar locais em espera, o número máximo de palavras-chave para essa consulta de pesquisa será de 500. Isso ocorre porque a pesquisa combina todas as retenções baseadas em consulta usando o operador **or** . Se houver mais de 500 palavras-chave nas consultas de retenção combinada e na consulta de pesquisa, todo o conteúdo da caixa de correio será pesquisado, e não apenas o conteúdo que corresponda às isenções de caso baseados em consulta.
-    
+
 - Se um controle de descoberta eletrônica tiver um status de **ativação**, você ainda poderá pesquisar os locais em espera enquanto a retenção estiver sendo ativada.
 
 ## <a name="preserve-content-in-microsoft-teams"></a>Preservar conteúdo no Microsoft Teams
@@ -131,7 +139,7 @@ Para obter mais informações sobre como preservar o conteúdo de equipes, consu
 > Em uma organização baseada em nuvem, os usuários que participam de conversas que fazem parte da lista de bate-papo no Microsoft Teams devem ter uma caixa de correio do Exchange Online para manter conversas de chat quando a caixa de correio é colocada em retenção de descoberta eletrônica. Isso ocorre porque as conversas que fazem parte da lista de chat são armazenadas nas caixas de correio baseadas em nuvem dos participantes do chat. Se um participante de chat não tiver uma caixa de correio do Exchange Online, você não poderá preservar essas conversas de chat. Por exemplo, em uma implantação híbrida do Exchange, os usuários com uma caixa de correio local podem ser capazes de participar de conversas que fazem parte da lista de chat no Microsoft Teams. Mas nesse caso, o conteúdo dessas conversas não pode ser preservado, pois esses usuários não possuem caixas de correio baseadas em nuvem que podem ser colocadas em espera.
   
 Cada equipe ou canal de equipe também contém um wiki para anotações e colaboração. O conteúdo Wiki é salvo automaticamente em um arquivo com um formato .mht. Esse arquivo é armazenado na biblioteca de documentos de Dados do Wiki do Teams no site do SharePoint da equipe. Você pode preservar o conteúdo do wiki adicionando o site do SharePoint da equipe a um bloqueio de descoberta eletrônica.
-    
+
 > [!NOTE]
 > A capacidade de preservar o conteúdo do wiki para uma equipe ou um canal de equipe (quando você coloca o site do SharePoint da equipe em espera) foi lançado em 22 de junho de 2017. Se um site de equipe estiver em espera, o conteúdo wiki será retido a partir dessa data. No entanto, se um site de equipe estiver em espera e o conteúdo wiki tiver sido excluído antes de 22 de junho de 2017, o conteúdo wiki não foi preservado.
 
@@ -159,8 +167,8 @@ Lembre-se do seguinte ao colocar o Teams e os grupos do Office 365 em uma reten�
   
 - Quando a caixa de correio de um usuário é pesquisada, qualquer equipe ou grupo do Office 365 do qual o usuário é membro não será pesquisado. Da mesma forma, quando você coloca uma equipe ou um grupo do Office 365 em retenção de descoberta eletrônica, somente a caixa de correio de grupo e o site de grupo são colocados em espera. As caixas de correio e os sites do OneDrive for Business de membros do grupo não são colocados em espera, a menos que você os adicione explicitamente ao bloqueio de descoberta eletrônica. Portanto, se você tiver que colocar uma equipe ou um grupo do Office 365 em espera por um motivo legal, considere adicionar as caixas de correio e as contas do OneDrive de membros da equipe ou do grupo na mesma isenção.
 
-- Para obter uma lista dos membros de um grupo Team ou Office 365, você pode exibir as propriedades na página **grupos** no centro de administração do Microsoft 365. Como alternativa, execute o comando a seguir no PowerShell do Exchange Online: 
-    
+- Para obter uma lista dos membros de um grupo Team ou Office 365, você pode exibir as propriedades na página **grupos** no centro de administração do Microsoft 365. Como alternativa, execute o comando a seguir no PowerShell do Exchange Online:
+
     ```powershell
     Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress
     ```
@@ -179,7 +187,7 @@ Para coletar uma lista das URLs para os sites do OneDrive for Business em sua or
 
 Depois que uma caixa de correio, um site do SharePoint ou uma conta do OneDrive for removido de uma descoberta eletrônica, uma *retenção de atraso* será aplicada. Isso significa que a remoção real da retenção está atrasada por 30 dias para evitar que os dados sejam excluídos permanentemente (removidos) de um local de conteúdo. Isso dá aos administradores uma oportunidade de Pesquisar ou recuperar conteúdo que será removido depois que uma retenção de descoberta eletrônica for removida. Os detalhes de como o atraso de espera funciona para caixas de correio e sites são diferentes.
 
-- **Caixas de correio:** Uma retenção de atraso é feita em uma caixa de correio na próxima vez que o assistente de pasta gerenciada processa a caixa de correio e detecta que uma retenção de descoberta eletrônica foi removida. Especificamente, uma retenção de atraso é aplicada a uma caixa de correio quando o assistente de pasta gerenciada define uma das seguintes propriedades de caixa de correio como **true**: 
+- **Caixas de correio:** Uma retenção de atraso é feita em uma caixa de correio na próxima vez que o assistente de pasta gerenciada processa a caixa de correio e detecta que uma retenção de descoberta eletrônica foi removida. Especificamente, uma retenção de atraso é aplicada a uma caixa de correio quando o assistente de pasta gerenciada define uma das seguintes propriedades de caixa de correio como **true**:
 
    - **DelayHoldApplied:** Essa propriedade se aplica a conteúdo relacionado a email (gerado por pessoas que usam o Outlook e o Outlook na Web) que está armazenado na caixa de correio de um usuário.
 
@@ -191,14 +199,14 @@ Depois que uma caixa de correio, um site do SharePoint ou uma conta do OneDrive 
 
 - **Sites do SharePoint e do onedrive:** Qualquer conteúdo do SharePoint ou do OneDrive que esteja sendo mantido na biblioteca de retenção de preservação não é excluído durante o período de espera de atraso de 30 dias após a remoção de um site de uma descoberta eletrônica. Isso é semelhante ao que acontece quando um site é liberado de uma política de retenção. Além disso, você não pode excluir manualmente esse conteúdo na biblioteca de retenção de preservação durante o período de espera de 30 dias. 
 
-   Para obter mais informações, consulte [liberando uma política de retenção](retention-policies.md#releasing-a-retention-policy).
+   Para obter mais informações, consulte [liberando uma política de retenção](retention.md#releasing-a-retention-policy).
 
 Uma retenção de atraso também é aplicada aos locais de conteúdo em espera quando você fecha um caso de descoberta eletrônica principal, pois as isenções são desativadas quando um caso é fechado. Para obter mais informações sobre como fechar uma ocorrência, consulte [fechar, reabrir e excluir uma caixa de descoberta eletrônica principal](close-reopen-delete-core-ediscovery-cases.md).
 
 ## <a name="ediscovery-hold-limits"></a>limites de retenção de descoberta eletrônica
 
 A tabela a seguir lista os limites de ocorrências de descoberta eletrônica e isenções de caso.
-    
+
   |**Descrição do limite**|**Limite**|
   |:-----|:-----|
   |Número máximo de casos para uma organização  <br/> |Sem limite  <br/> |

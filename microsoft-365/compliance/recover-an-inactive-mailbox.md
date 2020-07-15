@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
 ms.custom: seo-marvel-apr2020
 description: Saiba como recuperar o conteúdo de uma caixa de correio inativa no Office 365 convertendo-o em uma nova caixa de correio que contém o conteúdo da caixa de correio inativa.
-ms.openlocfilehash: e5ac5a5e5e9e73d118ea1872bf36476ee1e1965a
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 077355d31c3159b4970b00ee9c461d6a77cd3cf7
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818941"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127458"
 ---
 # <a name="recover-an-inactive-mailbox"></a>Recuperar uma caixa de correio inativa
 
@@ -81,7 +81,7 @@ Após recuperar uma caixa de correio inativa, uma nova conta de usuário também
   
      - **Bloqueio in-loco** Bloqueios in-loco são removidos da caixa de correio recuperada. Isso significa que a caixa de correio recuperada é removida como uma caixa de correio de origem de qualquer bloqueio in-loco ou pesquisa de descoberta eletrônica in-loco.
      
-     - **Política de retenção do Microsoft 365 com bloqueio de preservação.** Se a caixa de correio inativa tiver sido atribuída a uma política de retenção com bloqueio de preservação (chamada de *política de retenção bloqueada*), a caixa de correio recuperada será atribuída à mesma política de retenção bloqueada. Para obter mais informações sobre políticas de retenção bloqueadas, consulte [saiba mais sobre políticas de retenção](retention-policies.md#use-preservation-lock-to-comply-with-regulatory-requirements).
+     - **Política de retenção do Microsoft 365 com bloqueio de preservação.** Se a caixa de correio inativa tiver sido atribuída a uma política de retenção com bloqueio de preservação (chamada de *política de retenção bloqueada*), a caixa de correio recuperada será atribuída à mesma política de retenção bloqueada. Para obter mais informações sobre políticas de retenção bloqueadas, consulte [use preservação Lock para cumprir os requisitos normativos](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements).
   
      - **Política de retenção do Microsoft 365 sem bloqueio de preservação.** A caixa de correio inativa é removida de qualquer política de retenção do Microsoft 365 desbloqueada que foi aplicada a ela. No entanto, a retenção de litígio está habilitada na caixa de correio recuperada para impedir a exclusão de conteúdo de caixa de correio com base em todas as políticas de retenção de toda a organização que excluem conteúdo mais antigo que uma idade específica. Você pode manter a retenção de litígio ou removê-la. Para obter mais informações, consulte [criar uma retenção de litígio](create-a-litigation-hold.md).
 

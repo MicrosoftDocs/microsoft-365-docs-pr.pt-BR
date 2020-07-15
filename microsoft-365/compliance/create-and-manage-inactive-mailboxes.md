@@ -20,12 +20,12 @@ ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como manter o conteúdo de caixas de correio excluídas usando o recurso de caixas de correio inativas no Office 365.
-ms.openlocfilehash: c2a17a4ce4bf8fb175382fb236bbad6c1bbf2336
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: 286c1b363f7ceae42d7eaef13635ccf037bb4b21
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023354"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127538"
 ---
 # <a name="create-and-manage-inactive-mailboxes"></a>Criar e gerenciar caixas de correio inativas
 
@@ -42,7 +42,7 @@ O Microsoft 365 permite que você mantenha o conteúdo de caixas de correio excl
 
 - Se uma retenção de litígio ou uma política de retenção (que é configurada para reter ou reter e excluir conteúdo) não for aplicada a uma caixa de correio antes de ser excluída, o conteúdo da caixa de correio não será mantido ou detectável. No entanto, a caixa de correio excluída pode ser recuperada em até 30 dias após a exclusão, mas a caixa de correio e seu conteúdo serão excluídos permanentemente após 30 dias, se não for recuperado.
 
-- Para obter mais informações sobre retenção de litígio, consulte [bloqueio in-loco e retenção de litígio](https://go.microsoft.com/fwlink/p/?LinkId=846124). Para obter mais informações sobre políticas de retenção, consulte [visão geral das políticas de retenção no Microsoft 365](retention-policies.md).
+- Para obter mais informações sobre retenção de litígio, consulte [bloqueio in-loco e retenção de litígio](https://go.microsoft.com/fwlink/p/?LinkId=846124). Para obter mais informações sobre políticas de retenção, consulte [saiba mais sobre políticas de retenção e rótulos de retenção](retention.md).
   
 ## <a name="create-an-inactive-mailbox"></a>Criar uma caixa de correio inativa
 
@@ -58,7 +58,7 @@ Para obter os procedimentos passo a passo para colocar uma caixa de correio em r
   
 - [Colocar uma caixa de correio em Retenção de Litígio](https://go.microsoft.com/fwlink/?linkid=856286)
     
-- [Visão geral das políticas de retenção no Office 365](retention-policies.md)
+- [Saiba mais sobre políticas de retenção e rótulos de retenção no Office 365](retention.md)
     
 > [!NOTE]
 > Para retenções de litígio e políticas de retenção, você pode criar uma retenção indefinida ou em uma retenção baseada em tempo. Em um bloqueio indefinido, o conteúdo da caixa de correio inativa será mantido para sempre ou até que a retenção seja removida ou até que a duração da retenção seja alterada. Após a remoção ou não da política de retenção (supondo que a caixa de correio tenha sido excluída há mais de 30 dias), a caixa de correio inativa será marcada para exclusão permanente e o conteúdo da caixa de correio não será mais mantido ou detectável. Em uma política de retenção ou bloqueio com base em tempo, especifique a duração da retenção. Essa duração é aplicada a cada item e é calculada a partir da data em que o item foi recebido ou criado. Após a expiração de um item de caixa de correio, e esse item é movido para ou localizado na pasta itens recuperáveis da caixa de correio inativa, o item é excluído permanentemente (removido) da caixa de correio inativa após o período de retenção do item excluído expirar. 

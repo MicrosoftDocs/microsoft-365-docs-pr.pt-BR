@@ -19,12 +19,12 @@ ms.collection:
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
 description: Saiba como gerenciar solicitações de entidades de dados do RGPD (regulamento geral de proteção de dados) da UE com a ferramenta de ocorrência de DSR.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79d4ff2fb7a83f5c094b4d4f74e68918c2bd5fff
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 3327618a1a297bb6d4afbbe45baa709f0638ee39
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44815448"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126772"
 ---
 # <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-security--compliance-center"></a>Gerenciar solicitações de entidades de dados do RGPD com a ferramenta de casos DSR no centro de conformidade & segurança
 
@@ -247,7 +247,7 @@ Veja a seguir alguns exemplos de condições que você pode adicionar à consult
     
 - **Tipo de mensagem ( `kind` )** – especifica o tipo de item de email a ser pesquisado. Por exemplo, você pode usar a sintaxe `kind:email OR kind:im` para retornar somente mensagens de email e conversas do Skype for Business ou bate-papos um-para-um no Microsoft Teams. 
     
-- **Marca de conformidade ( `compliancetag` )** – especifica um rótulo atribuído a uma mensagem de email ou um documento. Essa condição retorna itens que são classificados com um rótulo específico. Os rótulos são usados para classificar emails e documentos para governança de dados e aplicar regras de retenção com base na classificação definida pelo rótulo. Essa é uma condição útil para investigações de DSR porque sua organização pode estar usando rótulos para classificar conteúdo relacionado à privacidade de dados ou que contém dados pessoais ou informações confidenciais. Para o valor dessa condição, use o nome completo do rótulo ou a primeira parte do nome do rótulo com um caractere curinga. Para obter mais informações, consulte [visão geral dos rótulos no Office 365](labels.md).
+- **Marca de conformidade ( `compliancetag` )** – especifica um rótulo atribuído a uma mensagem de email ou um documento. Essa condição retorna itens que são classificados com um rótulo específico. Os rótulos são usados para classificar emails e documentos para governança de dados e aplicar regras de retenção com base na classificação definida pelo rótulo. Essa é uma condição útil para investigações de DSR porque sua organização pode estar usando rótulos para classificar conteúdo relacionado à privacidade de dados ou que contém dados pessoais ou informações confidenciais. Para o valor dessa condição, use o nome completo do rótulo ou a primeira parte do nome do rótulo com um caractere curinga. Para obter mais informações, consulte [saiba mais sobre políticas de retenção e rótulos de retenção no Office 365](retention.md).
     
 Para obter uma lista e descrição de todas as condições disponíveis na ferramenta de casos DSR, consulte [Search Conditions](keyword-queries-and-search-conditions.md#search-conditions) no artigo "consultas de palavra-chave e condições de pesquisa para pesquisa de conteúdo". 
   

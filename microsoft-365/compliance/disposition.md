@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a eliminação de conteúdo, se você usar uma revisão de disposição ou se o conteúdo é excluído automaticamente de acordo com as configurações que você configurou.
-ms.openlocfilehash: 56eed956e4488932b7bf0f29eb3810964b8cb425
-ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
+ms.openlocfilehash: 5c8c8c4e99edbc32bbca4b3efbe79325f53a3380
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702555"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127008"
 ---
 # <a name="disposition-of-content"></a>Disposição do conteúdo
 
@@ -86,11 +86,11 @@ Ao selecionar a página **Exibir todas as reposições pendentes**, você será 
 
 ### <a name="workflow-for-a-disposition-review"></a>Fluxo de trabalho para uma análise de disposição
 
-Este é o fluxo de trabalho básico para uma revisão de disposição quando um rótulo de retenção é publicado e, em seguida, aplicado manualmente por um usuário. Como alternativa, um rótulo de retenção configurado para uma revisão de disposição pode ser aplicado automaticamente ao conteúdo.
+O diagrama a seguir mostra o fluxo de trabalho básico para uma revisão de disposição quando um rótulo de retenção é publicado e, em seguida, aplicado manualmente por um usuário. Como alternativa, um rótulo de retenção configurado para uma revisão de disposição pode ser aplicado automaticamente ao conteúdo.
   
 ![Gráfico mostrando o fluxo de como o descarte funciona](../media/5fb3f33a-cb53-468c-becc-6dda0ec52778.png)
   
-O disparo de uma revisão de disposição no final do período de retenção é uma opção de configuração que está disponível apenas com um [rótulo de retenção](labels.md). Essa opção não está disponível em uma política de retenção.
+O disparo de uma revisão de disposição no final do período de retenção é uma opção de configuração que está disponível apenas com um rótulo de retenção. Essa opção não está disponível para uma política de retenção. Para obter mais informações sobre essas duas soluções de retenção, consulte [saiba mais sobre políticas de retenção e rótulos de retenção](retention.md).
   
 ![Configurações de retenção para um rótulo](../media/a16dd202-8862-40ac-80ff-6fee974de5da.png)
  
@@ -119,7 +119,7 @@ Todas as ações de disposição podem ser auditadas e o texto de justificativa 
   
 ### <a name="how-long-until-disposed-content-is-permanently-deleted"></a>Quanto tempo até o conteúdo Descartado é excluído permanentemente
 
-O conteúdo que está aguardando uma análise de disposição é excluído somente depois que um revisor escolhe excluir permanentemente o conteúdo. Quando o revisor escolhe essa opção, o conteúdo do site do SharePoint ou da conta do OneDrive fica qualificado para o processo de limpeza padrão descrito em [como uma política de retenção funciona com o conteúdo](retention-policies.md#how-a-retention-policy-works-with-content-in-place)in-loco.
+O conteúdo que está aguardando uma análise de disposição é excluído somente depois que um revisor escolhe excluir permanentemente o conteúdo. Quando o revisor escolhe essa opção, o conteúdo do site do SharePoint ou da conta do OneDrive fica qualificado para o processo de limpeza padrão descrito em [como as configurações de retenção funcionam com o conteúdo](retention.md#how-retention-settings-work-with-content-in-place)in-loco.
 
 ## <a name="disposition-of-records"></a>Disposição de registros
 

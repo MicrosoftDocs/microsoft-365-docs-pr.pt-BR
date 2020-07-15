@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: 69b290dfb6d5a07ad0fd3b0b356a4b9f6d467613
-ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
+ms.openlocfilehash: 7578b0e6c53d85c0216dbb4b82a2ab4e0f5aac87
+ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44210567"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138297"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-preview"></a>Configurar um conector para importar dados de RH (visualização)
 
@@ -72,7 +72,7 @@ Depois de criar o arquivo CSV com os dados de RH necessários, armazene-os no me
 
 ## <a name="step-3-create-the-hr-connector"></a>Etapa 3: criar o conector de RH
 
-A próxima etapa é criar um conector de RH no centro de conformidade da Microsoft 365. Depois de executar o script na etapa 4, o conector de RH que você cria receberá os dados de RH do arquivo CSV para sua organização do Microsoft 365. Nesta etapa, certifique-se de copiar o JobId que é gerado quando você cria o conector. Você usará o JobId quando executar o script.
+A próxima etapa é criar um conector de RH no centro de conformidade da Microsoft 365. Depois de executar o script na etapa 4, o conector de RH que você cria receberá os dados de RH do arquivo CSV para sua organização do Microsoft 365. Nesta etapa, certifique-se de copiar o ID do trabalho que é gerado quando você cria o conector. Você usará a ID do trabalho ao executar o script.
 
 1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e clique em **conectores de dados** no painel de navegação esquerdo.
 
@@ -92,13 +92,19 @@ A próxima etapa é criar um conector de RH no centro de conformidade da Microso
 
 6. Na página **revisão** , revise suas configurações e clique em **concluir** para criar o conector.
 
-   Uma página de status é exibida para confirmar que o conector foi criado. Esta página também contém a ID do trabalho. Você precisará dessa ID de trabalho para executar o script na próxima etapa. Você pode copiá-lo dessa página ou da página do menu de atalho para o conector.
+   Uma página de status é exibida para confirmar que o conector foi criado. Esta página contém duas coisas importantes que você precisa para concluir a próxima etapa para executar o script de exemplo para carregar seus dados de RH.
+
+   ![Consultar a página com ID do trabalho e vincular ao GitHub para obter o script de exemplo](../media/HRConnector_Confirmation.png)
+
+   a. **ID de trabalho.** Você precisará dessa ID de trabalho para executar o script na próxima etapa. Você pode copiá-lo desta página ou da página do submenu conector.
+   
+   b. **Link para script de amostra.** Clique no link **aqui** para ir para o site do GitHub para acessar o script de exemplo (o link abre uma nova janela). Mantenha essa janela aberta para que você possa copiar o script na etapa 4. Como alternativa, você pode indicar o destino ou copiar a URL para que possa acessá-la novamente na etapa 4. Este link também está disponível na página do submenu conector.
 
 7. Clique em **Concluído**.
-   
+
    O novo conector é exibido na lista na guia **conectores** . 
 
-8. Clique no conector de RH que você acabou de criar para exibir a página de submenu, que contém propriedades e outras informações sobre o conector. 
+8. Clique no conector de RH que você acabou de criar para exibir a página de submenu, que contém propriedades e outras informações sobre o conector.
 
    ![Página de menu do novo conector de RH](../media/HRConnectorWizard7.png)
 
@@ -110,9 +116,9 @@ A próxima etapa é criar um conector de RH no centro de conformidade da Microso
 
 A última etapa na configuração de um conector de RH é executar um script de exemplo que irá carregar os dados de RH no arquivo CSV (que você criou na etapa 2) para a nuvem da Microsoft. Especificamente, o script carrega os dados para o conector de RH. Depois de executar o script, o conector de RH que você criou na etapa 3 importa os dados de RH para a sua organização do Microsoft 365, onde pode ser acessado por outras ferramentas de conformidade, como a solução de gerenciamento de risco do insider. Depois de executar o script, considere agendar uma tarefa para executá-la automaticamente, de modo que os dados de encerramento de funcionários mais atuais sejam carregados para a nuvem da Microsoft. Confira [agendar o script para ser executado automaticamente](#optional-step-6-schedule-the-script-to-run-automatically).
 
-1. Vá para [este site do GitHub](https://github.com/microsoft/m365-hrconnector-sample-scripts/blob/master/upload_termination_records.ps1) para acessar o script de exemplo.
+1. Vá para a janela que você deixou de abrir da etapa anterior para acessar o site do GitHub com o script de exemplo. Como alternativa, abra o site marcado ou use a URL que você copiou.
 
-2. Clique no botão **RAW** para exibir o script no modo de exibição de texto
+2. Clique no botão **RAW** para exibir o script no modo de exibição de texto.
 
 3. Copie todas as linhas no script de exemplo e salve-as em um arquivo de texto.
 
@@ -132,7 +138,7 @@ A última etapa na configuração de um conector de RH é executar um script de 
 
    |**Parâmetro**|**Descrição**
    |:-----|:-----|:-----|
-   |`tenantId`|Esta é a ID da sua organização do Microsoft 365 que você obteve na etapa 1. Você também pode obter o tenantid para sua organização na folha **visão geral** no centro de administração do Azure AD. Isso é usado para identificar sua organização.|
+   |`tenantId`|Esta é a ID da sua organização do Microsoft 365 que você obteve na etapa 1. Você também pode obter a ID do locatário para sua organização na folha **visão geral** no centro de administração do Azure AD. Isso é usado para identificar sua organização.|
    |`appId` |Esta é a ID do aplicativo AAD para o aplicativo que você criou no Azure AD na etapa 1. Isso é usado pelo Azure AD para autenticação quando o script tenta acessar sua organização do Microsoft 365. | 
    |`appSecret`|Este é o segredo do aplicativo AAD para o aplicativo que você criou no Azure AD na etapa 1. Isso também é usado para autenticação.|
    |`jobId`|Esta é a ID do trabalho do conector de RH que você criou na etapa 3. Isso é usado para associar os dados de RH que são carregados para a nuvem da Microsoft com o conector de RH.|
@@ -161,7 +167,7 @@ Depois de criar o conector de RH e executar o script para carregar seus dados de
 
    ![Arquivo de log do conector de RH exibe linhas de número do arquivo CSV que foram carregadas](../media/HRConnectorLogFile.png)
 
-   O campo **RecordsSaved** indica o número de linhas no arquivo CSV que foram carregadas. Por exemplo, se o arquivo CSV contiver quatro linhas, o valor dos campos **RecordsSaved** será 4, se o script tiver carregado com êxito todas as linhas no arquivo CSV.
+   O `RecordsSaved` campo indica o número de linhas no arquivo CSV que foram carregadas. Por exemplo, se o arquivo CSV contiver quatro linhas, o valor dos `RecordsSaved` campos será 4, se o script tiver carregado com êxito todas as linhas no arquivo CSV.
 
 Se você não tiver executado o script na etapa 4, um link para baixar o script será exibido em **última importação**. Você pode baixar o script e seguir as etapas na etapa 4 para executá-lo.
 

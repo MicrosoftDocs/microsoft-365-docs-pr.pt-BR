@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 description: Assim como os recursos do centro de conformidade da Microsoft 365, nosso conteúdo da ajuda está sempre evoluindo. Descubra o que é novo e atualizado este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fca455540ed3b01af3b9b4d2a6cd1053535f75b7
-ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
+ms.openlocfilehash: 3060cadb5752d8420667105113e23e235ab6f306
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "45035636"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127508"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Atualizações recentes para o conteúdo de conformidade do Microsoft 365
 
@@ -202,7 +202,7 @@ Atualizado os artigos a seguir para dar suporte à versão oficial do gerenciame
 
 ### <a name="records-management"></a>Gerenciamento de registros
 
-[Visão geral de rótulos de retenção](labels.md) (atualizado)<br>A seção para a aplicação de um rótulo de retenção com base em condições agora inclui a opção de usar classificadores estagiários.
+[Visão geral de rótulos de retenção](retention.md) (atualizado)<br>A seção para a aplicação de um rótulo de retenção com base em condições agora inclui a opção de usar classificadores estagiários.
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 

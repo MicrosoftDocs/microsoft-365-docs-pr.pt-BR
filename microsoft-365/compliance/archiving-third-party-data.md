@@ -20,12 +20,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como importar dados de terceiros de plataformas de mídia social, plataformas de mensagens instantâneas e plataformas de colaboração de documentos para caixas de correio do Microsoft 365.
-ms.openlocfilehash: a8dc69e7e4c7061e048fe49d1e51fd8867654454
-ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
+ms.openlocfilehash: da6b412796bbfc4d5c0d5ed177335e6f3fba9f87
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45101632"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126626"
 ---
 # <a name="archive-third-party-data"></a>Arquivar dados de terceiros
 
@@ -73,7 +73,7 @@ As três principais ferramentas de descoberta eletrônica no Microsoft 365 são 
 
 ### <a name="retention-policies"></a>Políticas de retenção
 
-É possível aplicar uma [política de retenção](retention-policies.md) a caixas de correio de usuário para manter e excluir dados de terceiros (e outros conteúdos de caixa de correio) após o período de retenção expirar. Você também pode usar as políticas de retenção para excluir os dados de terceiros de uma determinada idade ou acionar uma revisão de disposição quando o período de retenção expirar.
+É possível aplicar uma [política de retenção](retention.md) a caixas de correio de usuário para manter e excluir dados de terceiros (e outros conteúdos de caixa de correio) após o período de retenção expirar. Você também pode usar as políticas de retenção para excluir os dados de terceiros de uma determinada idade ou acionar uma revisão de disposição quando o período de retenção expirar.
 
 ### <a name="records-management"></a>Gerenciamento de registros
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Estamos adicionando novos recursos para o centro de conformidade da Microsoft 365. Descubra o que temos para este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5dc55fe38b588cd2a9b6c67d3f651e7c52df0664
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 2a48a47c631b0fd3c7e785d98b7221a0c3550c79
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817056"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126904"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>O que há de novo no centro de conformidade da Microsoft 365
 
@@ -171,15 +171,15 @@ Se você estiver usando o centro de conformidade de & de segurança do Office 36
 |Prevenção contra perda de dados|Prevenção contra perda de dados <br/> https://protection.office.com/datalossprevention |Prevenção contra perda de dados <br/> https://compliance.microsoft.com/datalossprevention |[Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)|
 |Solicitações de titular dos dados |Data Privacy > solicitações de entidades de dados <br/> https://protection.office.com/dsrcases |Solicitações de titular dos dados <br/> https://compliance.microsoft.com/datasubjectrequest |[Gerenciar solicitações de entidades de dados do RGPD com a ferramenta de ocorrência de DSR](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)|
 |Descoberta eletrônica|descoberta eletrônica > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |Centro de > de descoberta eletrônica <br/> https://compliance.microsoft.com/classicediscovery |[Gerenciar casos de Descoberta Eletrônica](ediscovery-cases.md) |
-|Eventos|Eventos de gerenciamento de > de registros <br/> https://protection.office.com/events |Guia de eventos de gerenciamento de registros > <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[Visão geral da retenção controlada por eventos](event-driven-retention.md)|
-|Plano de arquivos|Gerenciamento de registros > plano de arquivo <br/> https://protection.office.com/fileplan |Gerenciamento de registros > guia plano de arquivo <br/> https://compliance.microsoft.com/recordsmanagement?viewid=fileplan |[Usar o plano de arquivos para gerenciar rótulos de retenção](file-plan-manager.md)|
+|Eventos|Eventos de gerenciamento de > de registros <br/> https://protection.office.com/events |Guia de eventos de gerenciamento de registros > <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[Iniciar retenção quando ocorre um evento](event-driven-retention.md)|
+|Plano de arquivos|Gerenciamento de registros > plano de arquivo <br/> https://protection.office.com/fileplan |Gerenciamento de registros > guia plano de arquivo <br/> https://compliance.microsoft.com/recordsmanagement?viewid=fileplan |[Usar o plano de arquivos para gerenciar os rótulos de retenção](file-plan-manager.md)|
 |Importar arquivos PST|Governança de informações > importar arquivos PST <br/> https://protection.office.com/importV2 |Guia importar > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[Visão geral da importação dos arquivos PST da sua organização](importing-pst-files-to-office-365.md)|
 |Explorador de atividade de rótulo|Gerenciador de atividade de > de governança de informações <br/> https://protection.office.com/labelexplorer |Classificação de dados > guia Explorador de atividade <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[Exibir atividade do seu conteúdo rotulado (visualização)](data-classification-activity-explorer.md)|
-|Rótulos de retenção e políticas de rótulo |Guias de > de classificação > rótulos e políticas de rótulo <br/> https://protection.office.com/retentionlabels |Guias de controle de > rótulos e políticas de rótulo <br/> https://compliance.microsoft.com/informationgovernance?viewid=labels <br/> https://compliance.microsoft.com/informationgovernance?viewid=labelpolicies | [Visão geral de rótulos de retenção](labels.md)|
-|Políticas de retenção|Retenção de > de governança de informações <br/> https://protection.office.com/retention |Guia de retenção de > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[Visão geral de políticas de retenção](retention-policies.md)|
+|Rótulos de retenção e políticas de rótulo |Guias de > de classificação > rótulos e políticas de rótulo <br/> https://protection.office.com/retentionlabels |Guias de controle de > rótulos e políticas de rótulo <br/> https://compliance.microsoft.com/informationgovernance?viewid=labels <br/> https://compliance.microsoft.com/informationgovernance?viewid=labelpolicies | [Visão geral de rótulos de retenção](retention.md)|
+|Políticas de retenção|Retenção de > de governança de informações <br/> https://protection.office.com/retention |Guia de retenção de > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[Saiba mais sobre políticas de retenção e rótulos de retenção](retention.md)|
 |Tipos de informações confidenciais|Classificação > tipos de informações confidenciais <br/> https://protection.office.com/sensitivetypes |Guia tipos de informações confidenciais > classificação de dados <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)|
 |Rótulos de confidencialidade e políticas de rótulo|Rótulos de classificação > de sensibilidade > rótulos e políticas de rótulo <br/> https://protection.office.com/sensitivity |Guias de proteção de informações > rótulos e políticas de rótulo <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabelpolicies |[Saiba mais sobre rótulos de confidencialidade](sensitivity-labels.md) |
-|Garantia do serviço|Garantia do serviço <br/> https://protection.office.com/serviceassurance/dashboard |No momento, os recursos de garantia de serviço só podem ser acessados no centro de conformidade & segurança do Office 365. |[Garantia de serviço no centro de conformidade & segurança](service-assurance.md)|
+|Garantia do serviço|Garantia do serviço <br/> https://protection.office.com/serviceassurance/dashboard |No momento, os recursos de garantia de serviço só podem ser acessados no centro de conformidade & segurança do Office 365. |[Garantia de serviço no Centro de Conformidade e Segurança](service-assurance.md)|
 |Supervisão|Supervisão <br/> https://protection.office.com/supervisoryreviewv2 |Conformidade em comunicações <br/> https://compliance.microsoft.com/supervisoryreview |[Conformidade de comunicação no Microsoft 365 (versão prévia)](communication-compliance.md) |
 
 ## <a name="september-2019"></a>Setembro de 2019

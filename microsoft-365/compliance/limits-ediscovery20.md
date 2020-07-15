@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba mais sobre os limites de caso, limites de indexação e limites de pesquisa em vigor para a solução de descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: 67e53a484878b0ea4ddde29d77297a3d9b2fd7cd
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 4f8222abaea0e8920e48f2f7b506d9477e93bc84
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817088"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126864"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Limites da Descoberta Eletrônica Avançada
 
@@ -33,8 +33,8 @@ A tabela a seguir lista os limites de casos e os conjuntos de revisão na descob
 
 |**Descrição do limite**|**Limite**|
 |:-----|:-----|
-|Número total de documentos que podem ser adicionados a um caso (para todos os conjuntos de revisão em um caso).  <br/> |1 milhão  <br/> |
-|Tamanho total do arquivo por conjunto de carga. Isso inclui carregar não-Office 365 em um conjunto de revisão.  <br/> |100 GB  <br/> |
+|Número total de documentos que podem ser adicionados a um caso (para todos os conjuntos de revisão em um caso).  <br/> |3 milhões <br/> |
+|Tamanho total do arquivo por conjunto de carga. Isso inclui carregar não-Office 365 em um conjunto de revisão.  <br/> |300 GB <br/> |
 |Quantidade total de dados carregados em todos os conjuntos de revisão na organização por dia.<br/> |2 TB <br/> |
 |Número máximo de conjuntos de cargas por caso.  <br/> |15  <br/> |
 |Número máximo de conjuntos de revisão por caso.  <br/> |508 <br/> |
@@ -62,7 +62,7 @@ Os limites descritos nesta seção estão relacionados ao uso da ferramenta de p
 |Número máximo de pesquisas que podem ser executadas ao mesmo tempo.  <br/> |Sem limite  <br/> | 
 |Número máximo de pesquisas que um único usuário pode iniciar ao mesmo tempo.  <br/> |10   <br/> | 
 |Número máximo de caracteres para uma consulta de pesquisa (incluindo operadores e condições).  <br/> |**Caixas de correio**: 10.000<br/>**Sites**: 4.000 ao pesquisar todos os Sites ou 2.000 ao Pesquisar até 20 sites <sup>2</sup> <br/> |
-|Número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo **, \* um** ou **conjunto \* **. <br/> |3D  <br/> |  
+|Número mínimo de caracteres alfabéticos para curingas de prefixo; por exemplo **, \* um** ou **conjunto \* **. <br/> |3   <br/> |  
 |Máximo de variantes retornadas ao usar curinga de prefixo para pesquisar uma frase exata ou ao usar um caractere curinga de prefixo e o operador booleano **próximo** .  <br/> |10.000 <sup>3</sup> <br/> |
 |Número máximo de itens por caixa de correio do usuário que são exibidos na página de visualização para pesquisas. Os itens mais recentes são exibidos.   <br/> |100  <br/> |
 |Número máximo de itens de todas as caixas de correio exibidas na página de visualização para pesquisas.  <br/> |1.000  <br/> |

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 ms.custom: seo-marvel-apr2020
 description: O administrador pode aprender como importar arquivos PST em massa para caixas de correio do Microsoft 365 copiando arquivos PST para um disco rígido e, em seguida, enviando-os para a Microsoft.
-ms.openlocfilehash: dd97b4734fafbd6126d58997f4fd70eff43d082a
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: e94a59b19271af275f74a08355a017533f8ef45d
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819081"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127338"
 ---
 # <a name="use-drive-shipping-to-import-your-organizations-pst-files"></a>Usar o envio de unidade para importar arquivos PST da sua organização
 
@@ -460,7 +460,7 @@ Para instalar o Gerenciador de Armazenamento do Azure e se conectar à sua área
     
   - Usar as [ferramentas de descoberta eletrônica](search-for-content.md) da Microsoft para pesquisar os dados. 
     
-  - Aplicar [as políticas de retenção da Microsoft 365](retention-policies.md) para controlar o tempo de retenção dos dados e a ação a ser tomada depois que o período de retenção expira. 
+  - Aplicar [as políticas de retenção da Microsoft 365](retention.md) para controlar o tempo de retenção dos dados e a ação a ser tomada depois que o período de retenção expira. 
     
   - Pesquise o [log de auditoria](search-the-audit-log-in-security-and-compliance.md) em busca de eventos relacionados a esses dados. 
     

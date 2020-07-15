@@ -12,12 +12,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: Saiba mais sobre tarefas que ajudarão você a começar a usar rapidamente a conformidade no Microsoft 365.
-ms.openlocfilehash: 87dfa73c52473b0695c496826572ab9b5180dfca
-ms.sourcegitcommit: 92bd1631a2bb6df8683aa6da45a116090b338bb1
+ms.openlocfilehash: a946d4711111089ba6074b2c264b8edd36a01315
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44732475"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126610"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Tarefas rápidas para introdução à conformidade com o Microsoft 365
 
@@ -83,7 +83,7 @@ Para obter uma orientação passo a passo para configurar e usar rótulos de sen
 
 ## <a name="task-7-configure-a-retention-policy"></a>Tarefa 7: configurar uma política de retenção
 
-Uma [política de retenção](retention-policies.md) permite que você decida de forma proativa se deseja reter o conteúdo, excluir conteúdo ou ambos – reter e excluir o conteúdo no final de um período de retenção especificado. Essas ações podem ser necessárias para cumprir as políticas internas e regulamentações do setor, além de reduzir o risco no caso de litígio ou uma violação de segurança.
+Uma [política de retenção](retention.md) permite que você decida de forma proativa se deseja reter o conteúdo, excluir conteúdo ou ambos – reter e excluir o conteúdo no final de um período de retenção especificado. Essas ações podem ser necessárias para cumprir as políticas internas e regulamentações do setor, além de reduzir o risco no caso de litígio ou uma violação de segurança.
 
 Quando o conteúdo está sujeito a uma política de retenção, as pessoas podem continuar a editar e trabalhar com o conteúdo como se nada fosse alterado. O conteúdo é mantido no lugar, em seu local original. Mas, se alguém editar ou excluir o conteúdo que está sujeito à política de retenção, uma cópia do conteúdo original será salva em um local seguro, onde será mantida enquanto a política de retenção desse conteúdo estiver em vigor.
 
@@ -107,11 +107,15 @@ Agora que você configurou as noções básicas para o gerenciamento de conformi
 
 ### <a name="configure-retention-labels"></a>Configurar rótulos de retenção
 
-Enquanto as políticas de retenção são aplicadas no nível do contêiner para locais como sites do SharePoint e caixas de correio do Exchange, os [Rótulos de retenção](labels.md) permitem um direcionamento mais específico para suas políticas de retenção e exclusão. Por exemplo, no nível do documento ou da mensagem de email que os usuários finais podem aplicar manualmente, além do aplicativo automático pelos administradores. Você também pode aplicar um rótulo de retenção a uma biblioteca de documentos, pasta ou conjunto de documentos no SharePoint, para que todos os documentos armazenados nesse local herdem o rótulo de retenção padrão.
+Enquanto as políticas de retenção são aplicadas no nível do contêiner para locais como sites do SharePoint e caixas de correio do Exchange, os [Rótulos de retenção](retention.md#retention-labels) permitem um direcionamento mais específico para suas políticas de retenção e exclusão. Por exemplo, no nível do documento ou da mensagem de email que os usuários finais podem aplicar manualmente, além do aplicativo automático pelos administradores. Você também pode aplicar um rótulo de retenção a uma biblioteca de documentos, pasta ou conjunto de documentos no SharePoint, para que todos os documentos armazenados nesse local herdem o rótulo de retenção padrão.
 
 Além disso, os rótulos de retenção suportam o [Gerenciamento de registros](records-management.md) para marcar o conteúdo como um registro. Quando isso acontece, o rótulo não pode ser alterado nem removido, e o conteúdo não pode ser editado nem excluído. Essas restrições podem ser necessárias para ajudar sua organização a cumprir os requisitos normativos.
 
-Para obter uma orientação passo a passo para criar e publicar rótulos de retenção, confira [criar, publicar e aplicar automaticamente rótulos de retenção](create-retention-labels.md). Para obter informações sobre licenciamento de gerenciamento de registros, consulte [diretrizes de licenciamento do Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management).
+Para obter uma orientação passo a passo para criar e publicar rótulos de retenção, consulte as orientações a seguir:
+- [Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)
+- [Aplicar um rótulo de retenção ao conteúdo automaticamente](apply-retention-labels-automatically.md)
+
+Para obter informações sobre licenciamento de gerenciamento de registros, consulte [diretrizes de licenciamento do Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management).
 
 ### <a name="identify-and-define-sensitive-information-types"></a>Identificar e definir tipos de informações confidenciais
 

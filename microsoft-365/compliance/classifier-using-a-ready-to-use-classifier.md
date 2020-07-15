@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A Microsoft 365 vem com uma série de classificadores internos que você pode usar para identificar e rotular o conteúdo em sua organização. Este tópico mostra como se preparar para usar esses classificadores.
-ms.openlocfilehash: 2652df8d79b06d6614e2478843195e67de0a8ebb
-ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
+ms.openlocfilehash: 82155b1dee9ab04dad593ce9ec2da97d3e796e99
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "44371403"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126310"
 ---
 # <a name="testing-built-in-classifiers-using-retention-labels-preview"></a>Testando classificadores internos usando rótulos de retenção (visualização)
 
@@ -40,7 +40,7 @@ A Microsoft 365 vem com cinco classificadores internos recomendados:
 
   |nome do idioma|||||
   |---------|---------|---------|---------|---------|
-  |Código|C        |Unidade #       |C++     |Clojure  |
+  |Código|C        |C#       |C++     |Clojure  |
   |CoffeeScript|CSS     |Ir       |Haskell |HTML     |
   |Java     |JavaScript|Lua      |MATLAB   |Objective-C|
   |Perl     |PHP      |Python   |R        |Ruby     |
@@ -71,9 +71,9 @@ A Microsoft 365 vem com cinco classificadores internos recomendados:
 
 5. Escolha `Choose a label to auto-apply` .
 
-6. Escolha `Create new labels` e crie um rótulo para uso apenas com este teste. Ao fazer isso, deixe `Retention` definido para `off` . Você não deseja ativar nenhuma retenção ou outras ações. Nesse caso, você usará o rótulo de retenção simplesmente como um rótulo de texto, sem impor qualquer ação. Por exemplo, você pode criar um rótulo de retenção chamado "teste de classificador SourceCode" sem ações e, em seguida, aplicar automaticamente esse rótulo de retenção ao conteúdo que tenha classificador de código-fonte como uma condição. Para saber mais sobre a criação de rótulos de retenção, confira [visão geral dos rótulos de retenção](labels.md).
+6. Escolha `Create new labels` e crie um rótulo para uso apenas com este teste. Ao fazer isso, deixe `Retention` definido para `off` . Você não deseja ativar nenhuma retenção ou outras ações. Nesse caso, você usará o rótulo de retenção simplesmente como um rótulo de texto, sem impor qualquer ação. Por exemplo, você pode criar um rótulo de retenção chamado "teste de classificador SourceCode" sem ações e, em seguida, aplicar automaticamente esse rótulo de retenção ao conteúdo que tenha classificador de código-fonte como uma condição. Para saber mais sobre os rótulos de retenção, consulte [saiba mais sobre políticas de retenção e rótulos de retenção](retention.md).
   
-7. Escolha `Auto-apply a label` e, em seguida `Choose a label to auto-apply` . Para saber mais sobre como usar a condição com base em aplicar automaticamente um rótulo, confira [aplicar automaticamente a política de rótulo de retenção com base em uma condição](labels.md#applying-a-retention-label-automatically-based-on-conditions).
+7. Escolha `Auto-apply a label` e, em seguida `Choose a label to auto-apply` . Para saber mais sobre como usar a chamada automática baseada em condição, confira a [configuração de condições para aplicar automaticamente rótulos de retenção](apply-retention-labels-automatically.md#configuring-conditions-for-auto-apply-retention-labels).
 
 8. Escolha seu rótulo de teste na lista e escolha `Next` .
 
@@ -106,5 +106,5 @@ A Microsoft 365 vem com cinco classificadores internos recomendados:
 Confira também:
 
 - [Introdução aos classificadores treináveis (visualização)](classifier-getting-started-with.md)
-- [Visão geral de rótulos de retenção](labels.md)
-- [Aplicar automaticamente a política de rótulo de retenção com base em uma condição](labels.md#applying-a-retention-label-automatically-based-on-conditions)
+- [Saiba mais sobre políticas de retenção e rótulos de retenção](retention.md)
+- [Aplicar automaticamente um rótulo de retenção para reter ou excluir conteúdo](apply-retention-labels-automatically.md)

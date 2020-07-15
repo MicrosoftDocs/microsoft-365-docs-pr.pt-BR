@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: af2e5986530ae6b1eb558ed3389f0927d5f912e9
-ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
+ms.openlocfilehash: 328aa52473fbb8b51ad580379c103e3759c2bff6
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773752"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126692"
 ---
 # <a name="financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>Regra de autoridade de regulamentação do setor financeiro (FINRA) 4511 (c) Estados Unidos
 
@@ -47,7 +47,7 @@ Os fornecedores de software e parceiros com cargas de trabalho confidenciais ago
 
 ## <a name="microsoft-office-365"></a>Microsoft Office 365
 
-Para avaliar a conformidade do Office 365 com a regra do FINRA 4511 (c), a Microsoft manteve uma importante empresa de advocacia independente especializada em problemas de regulamentação, Covington &ndo o nó LLP. No relatório resultante, arquivando no Microsoft Office 365, a retenção de dados e a conformidade com a regra 17a-4, Covington validado que o [Office 365 com bloqueio de preservação](retention-policies.md) inclui recursos de arquivamento que permitem aos clientes regulamentados, incluindo os corretores, armazenar dados de forma que eles estejam em conformidade com os requisitos do FINRA para a retenção de registros.
+Para avaliar a conformidade do Office 365 com a regra do FINRA 4511 (c), a Microsoft manteve uma importante empresa de advocacia independente especializada em problemas de regulamentação, Covington &ndo o nó LLP. No relatório resultante, arquivando no Microsoft Office 365, a retenção de dados e a conformidade com a regra 17a-4, Covington validado que o [Office 365 com bloqueio de preservação](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements) inclui recursos de arquivamento que permitem aos clientes regulamentados, incluindo os corretores, armazenar dados de forma que eles estejam em conformidade com os requisitos do FINRA para a retenção de registros.
 
 O arquivamento no Office 365 ajuda a preservar uma ampla variedade de dados, incluindo email, caixa postal, documentos compartilhados, mensagens instantâneas e dados de terceiros. Em particular, o arquivamento no Office 365 permite que os clientes definam políticas de retenção de mensagens globais ou detalhadas para armazenar dados por um período definido e além de um formato não regravável e não apagável.
 
@@ -69,7 +69,7 @@ O arquivamento no Office 365 ajuda a preservar uma ampla variedade de dados, inc
 ## <a name="how-to-implement"></a>Como implementar
 
 - **Regulamentação de serviços financeiros**: mapa de conformidade dos principais princípios normativos dos EUA para computação em nuvem e serviços online da Microsoft. [Saiba mais](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
-- **Guia de conformidade e avaliação de risco**: cria um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador. [Saiba mais](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+- **Guia de Conformidade e Avaliação de Risco **: crie um modelo de governança para a avaliação de risco dos serviços de nuvem da Microsoft e notificações do regulador. [Saiba mais](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 - **Casos de uso financeiro**: usa visões gerais, tutoriais e outros recursos para criar soluções do Azure para serviços financeiros. [Saiba mais](https://docs.microsoft.com/azure/industry/financial/)
 
 ## <a name="resources"></a>Recursos
