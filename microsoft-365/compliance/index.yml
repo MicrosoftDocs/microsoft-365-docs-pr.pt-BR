@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: 7346a0d1abf0f8b643716d138efaaa269f35a2c5
-  ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+  ms.openlocfilehash: 3a69c7f428fdc39a9611a2a1f3a875d59afce6b7
+  ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 06/19/2020
-  ms.locfileid: "44817550"
+  ms.lasthandoff: 07/14/2020
+  ms.locfileid: "45126382"
 landingContent:
 - title: Gerenciar a proteção de informações
   linkLists:
@@ -39,9 +39,9 @@ landingContent:
   - linkListType: overview
     links:
     - text: Rótulos de retenção
-      url: labels.md
+      url: retention.md
     - text: Políticas de retenção
-      url: retention-policies.md
+      url: retention.md
     - text: Gerenciamento de registros
       url: records-management.md
     - text: Gerente de planejamento de arquivos
