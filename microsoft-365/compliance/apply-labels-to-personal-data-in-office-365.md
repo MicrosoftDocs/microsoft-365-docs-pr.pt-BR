@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 description: Aprenda a usar os rótulos do Office como parte do plano de proteção Geral de Proteção de Dados (GDPR).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 42cfc73433a7087f0f5dd62f2da9b27b5a3cf48d
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: a7bea2abeaec7a858b3cfc693603c46c0f2a416a
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165254"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126812"
 ---
 # <a name="apply-labels-to-personal-data"></a>Aplicar rótulos a dados pessoais
 
  Use este tópico se você estiver usando rótulos de classificação como parte do seu plano de proteção GDPR. 
 
-Se você estiver usando rótulos para proteção de dados pessoais no Microsoft 365, recomendamos que você comece com [rótulos de retenção](labels.md). Com os rótulos de retenção, você pode:
+Se você estiver usando rótulos para proteção de dados pessoais no Microsoft 365, recomendamos que você comece com [rótulos de retenção](retention.md#retention-labels). Com os rótulos de retenção, você pode:
 - Use o Advanced Data Governance para aplicar automaticamente rótulos com base em tipos de informações confidenciais ou outros critérios.
 - Use rótulos de retenção com a prevenção de perda de dados para aplicar a proteção. 
 - Usar rótulos com Pesquisa de Conteúdo e Descoberta Eletrônica. 

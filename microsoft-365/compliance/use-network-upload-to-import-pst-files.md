@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: 'Para administradores: saiba como usar o carregamento de rede para importar arquivos PST em massa para as caixas de correio dos usuários no Microsoft 365.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d35a6c77379c528d10510c1959df53c8d81a989
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: b7c8621859d04f44b58719a86b4c159f8379b961
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819061"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127328"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-microsoft-365"></a>Use o carregamento de rede para importar arquivos PST da sua organização para o Microsoft 365
 
@@ -206,7 +206,7 @@ Depois de carregar os arquivos PST no local de armazenamento do Azure para a sua
   
 1. [Baixar uma cópia do arquivo de mapeamento para importação de PST](https://go.microsoft.com/fwlink/p/?LinkId=544717).
 
-2. Open or save the CSV file to your local computer. The following example shows a completed PST Import mapping file (opened in NotePad). It's much easier to use Microsoft Excel to edit the CSV file.
+2. Abrir ou salvar o arquivo CSV no computador local. O exemplo a seguir mostra um arquivo de mapeamento para Importação de PST concluído (aberto no Bloco de notas). É muito mais fácil usar o Microsoft Excel para editar o arquivo CSV.
 
     ```text
     Workload,FilePath,Name,Mailbox,IsArchive,TargetRootFolder,ContentCodePage,SPFileContainer,SPManifestContainer,SPSiteUrl
@@ -336,7 +336,7 @@ Depois de criar o trabalho de importação na Etapa 5, o Microsoft 365 analisa o
     
   - Usar as ferramentas de [Descoberta Eletrônica](search-for-content.md) da Microsoft para pesquisar os dados que você importou. 
     
-  - Usar [as políticas de retenção do Microsoft 365](retention-policies.md) para controlar quanto tempo os dados importados serão mantidos e qual ação deve ser realizada após o término do período de retenção. 
+  - Usar [as políticas de retenção do Microsoft 365](retention.md) para controlar quanto tempo os dados importados serão mantidos e qual ação deve ser realizada após o término do período de retenção. 
     
   - Pesquisar [o log de auditoria](search-the-audit-log-in-security-and-compliance.md) para eventos relacionados à caixa de correio que afetem os dados que você importou. 
     
