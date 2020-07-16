@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A Microsoft 365 vem com uma série de classificadores internos que você pode usar para identificar e rotular o conteúdo em sua organização. Este tópico mostra como se preparar para usar esses classificadores.
-ms.openlocfilehash: 82155b1dee9ab04dad593ce9ec2da97d3e796e99
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 1d645cc79075c41ce94b0f9b4fc347450a8df8c6
+ms.sourcegitcommit: 9af890ef1b1c95bfc7cc52f7f4e395b62dc5263f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126310"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45146215"
 ---
 # <a name="testing-built-in-classifiers-using-retention-labels-preview"></a>Testando classificadores internos usando rótulos de retenção (visualização)
 
@@ -38,7 +38,7 @@ A Microsoft 365 vem com cinco classificadores internos recomendados:
 - **Currículos**: detecta itens que são contas de texto das qualificações pessoais, educacionais, profissionais, experiência de trabalho e outras informações de identificação pessoal de um candidato
 - **Código-fonte**: detecta itens que contêm um conjunto de instruções e instruções escritas nas principais linguagens de programação de computador usadas no github
 
-  |nome do idioma|||||
+  |**Nome do idioma**|||||
   |---------|---------|---------|---------|---------|
   |Código|C        |C#       |C++     |Clojure  |
   |CoffeeScript|CSS     |Ir       |Haskell |HTML     |
@@ -106,5 +106,5 @@ A Microsoft 365 vem com cinco classificadores internos recomendados:
 Confira também:
 
 - [Introdução aos classificadores treináveis (visualização)](classifier-getting-started-with.md)
-- [Saiba mais sobre políticas de retenção e rótulos de retenção](retention.md)
+- [Saiba mais sobre as políticas de retenção e rótulos de retenção](retention.md)
 - [Aplicar automaticamente um rótulo de retenção para reter ou excluir conteúdo](apply-retention-labels-automatically.md)

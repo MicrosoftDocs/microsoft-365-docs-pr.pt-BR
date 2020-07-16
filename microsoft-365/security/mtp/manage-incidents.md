@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b8f7e3bbb6d2348c3f19e8df251d700d8adf8e33
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: f711cc2ff38f15dfd22097e37a1dec42719eb5aa
+ms.sourcegitcommit: 94f2f8e3e6bc3946d8b3cf798b3eb77a49ffd12a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235080"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45148109"
 ---
 # <a name="manage-incidents-in-microsoft-threat-protection"></a>Gerenciar incidentes na Proteção contra Ameaças da Microsoft
 
@@ -44,7 +44,16 @@ Em casos em que, durante uma investigação, você deseje migrar os alertas de u
 
 ## <a name="edit-incident-name"></a>Editar o nome do incidente
 Por padrão, um número é atribuído a um incidente. Você pode modificar o nome do incidente para um melhor alinhamento à sua convenção de nomenclatura preferencial.
- 
+
+> [!TIP]
+> Para obter visibilidade adicional de modo geral, a nomenclatura automática de incidentes, atualmente em visualização pública, gera nomes de incidentes com base em atributos de alerta, como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente.
+>
+> Por exemplo: *incidente de vários estágios em vários pontos de extremidade relatados por várias fontes.*
+>
+> Incidentes que existiam antes da distribuição da nomeação automática de incidentes não terão o nome alterado.
+>
+> Saiba mais sobre como [ativar os recursos de visualização](preview.md#turn-on-preview-features).
+
 ## <a name="assign-incidents"></a>Atribuir incidentes
 Caso um incidente ainda não tenha sido atribuído, você poderá selecionar **Atribuir a mim** para atribuir o incidente a si mesmo. Ao fazer isso, você assume a propriedade não apenas do incidente, como também de todos os alertas associados a ele.
 
@@ -68,4 +77,3 @@ Os comentários adicionados aparecem instantaneamente no painel.
 
 ## <a name="add-incident-tags"></a>Adicionar marcas de incidente
 Você pode adicionar marcas personalizadas a um incidente, por exemplo, para sinalizar um grupo de incidentes com características semelhantes. Posteriormente, você pode filtrar a fila incidentes, buscando todos os incidentes que contenham uma marca específica.
-

@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ef10eede38128bbf9b23537d860113b71f603089
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: d827484a440b291bccd45b58e977fbcb280680f2
+ms.sourcegitcommit: 94f2f8e3e6bc3946d8b3cf798b3eb77a49ffd12a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235120"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45148131"
 ---
 # <a name="prioritize-incidents-in-microsoft-threat-protection"></a>Priorizar Incidentes na Proteção contra Ameaças da Microsoft
 
@@ -43,7 +43,16 @@ A **Fila de incidentes** exibe um conjunto de incidentes sinalizados de vários 
 
 Por padrão, a fila no centro de segurança do Microsoft 365 exibe os incidentes vistos nos últimos 30 dias, com o incidente mais recente exibido na parte superior da lista, ajudando a visualizar os incidentes mais recentes primeiro.
 
-A fila de incidentes expõe colunas personalizáveis que fornecem visibilidade de diferentes características do incidente ou das entidades contidas, ajudando a tomar uma decisão embasada sobre a priorização de incidentes a serem tratados. 
+A fila de incidentes expõe colunas personalizáveis que fornecem visibilidade de diferentes características do incidente ou das entidades contidas, ajudando a tomar uma decisão embasada sobre a priorização de incidentes a serem tratados.
+
+Para obter visibilidade adicional de modo geral, a nomenclatura automática de incidentes, atualmente em visualização pública, gera nomes de incidentes com base em atributos de alerta, como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente.
+
+Por exemplo: *incidente de vários estágios em vários pontos de extremidade relatados por várias fontes.*
+
+> [!NOTE]
+> Incidentes que existiam antes da distribuição da nomeação automática de incidentes não terão o nome alterado.
+
+Saiba mais sobre como [ativar os recursos de visualização](preview.md#turn-on-preview-features).
 
 A fila de incidentes também expõe várias opções de filtragem que, quando aplicadas, permitem a escolha de executar uma visão geral de todos os incidentes existentes em seu ambiente ou de se concentrar em um cenário ou ameaça específica. A aplicação de filtros na fila de incidentes pode ajudar a determinar qual incidente exige atenção imediata. 
 

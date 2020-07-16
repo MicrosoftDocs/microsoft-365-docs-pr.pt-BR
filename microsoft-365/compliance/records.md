@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre os registros para ajudá-lo na implementação de uma solução de gerenciamento de registros no Microsoft 365.
-ms.openlocfilehash: 35d1becad78cdb01402ba50ba44b277f8c511567
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: aa5952b26549f9ba9b1c584eb55e203fd53c50e5
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080098"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127498"
 ---
 # <a name="learn-about-records"></a>Saiba mais sobre os registros
 
@@ -38,7 +38,7 @@ Quando o conteúdo é marcado como um registro:
 
 - Você tem prova de disposição quando eles são excluídos no final do período de retenção.
 
-Você usa [rótulos de retenção](labels.md) para marcar conteúdos como registros. Depois de criar rótulos de retenção que declaram registros, é possível publicá-los para que usuários e administradores possam aplicá-los ao conteúdo manualmente, ou automaticamente ao conteúdo que deseja classificar como registro. Para obter instruções, consulte [Criar, publicar e aplicar rótulos de retenção automaticamente ](create-retention-labels.md).
+Você usa [rótulos de retenção](retention.md#retention-labels) para marcar conteúdos como registros. Depois de criar rótulos de retenção que declaram registros, é possível publicá-los para que usuários e administradores possam aplicá-los ao conteúdo manualmente, ou automaticamente ao conteúdo que deseja classificar como registro.
 
 Ao usar rótulos de retenção para declarar registros, você pode implementar uma estratégia única e consistente de gerenciamento de registros no ambiente do Microsoft 365.
 
@@ -60,15 +60,15 @@ Lembre-se do seguinte sobre os registros:
 
     Além disso, caso altere o rótulo de registro aplicado a uma pasta (do SharePoint e do OneDrive) para um rótulo de retenção que não declare conteúdo como um registro, os itens da pasta manterão o rótulo de registro existente.
 
-    Para saber mais sobre como aplicar rótulos de retenção às pastas do Sharepoint e do OneDrive, confira [Aplicando um rótulo de retenção padrão a todo o conteúdo de uma biblioteca, pasta ou de um conjunto de documentos do SharePoint](labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set).
+    Para saber mais sobre como aplicar rótulos de retenção às pastas do Sharepoint e do OneDrive, confira [Aplicando um rótulo de retenção padrão a todo o conteúdo de uma biblioteca, pasta ou de um conjunto de documentos do SharePoint](create-apply-retention-labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set).
 
-  - **Não é possível excluir registros**. Se um usuário tentar excluir um registro no Exchange, o item será movido para a pasta Itens recuperáveis, conforme descrito em [Como uma política de retenção funciona no Exchange](retention-policies-exchange.md#how-a-retention-policy-works-with-exchange).
+  - **Não é possível excluir registros**. Se um usuário tentar excluir um registro no Exchange, o item será movido para a pasta Itens recuperáveis, conforme descrito em [Como a retenção funciona no Exchange](retention-policies-exchange.md#how-retention-works-for-exchange).
 
     Se um usuário tentar excluir um registro no SharePoint, verá um erro informando que o item não foi excluído e permanecerá na biblioteca.
 
     ![Mensagem informando que o item não foi excluído do SharePoint](../media/d0020726-1593-4a96-b07c-89b275e75c49.png)
 
-    Se um usuário tentar excluir um registro no OneDrive, o item será movido para a biblioteca Retenção para preservação, conforme descrito em [Como uma política de retenção funciona com o SharePoint e o OneDrive](retention-policies-sharepoint.md#how-a-retention-policy-works-with-sharepoint-and-onedrive).
+    Se um usuário tentar excluir um registro no OneDrive, o item será movido para a biblioteca Retenção para preservação, conforme descrito em [Como funciona a retenção com o Microsoft Office SharePoint Online e o OneDrive](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive).
 
   - **Os rótulos de registros não podem ser removidos.** Depois que um rótulo de registro é aplicado a um item, somente o administrador desse local (por exemplo, um administrador de conjunto de sites de um site do SharePoint) poderá remover esse rótulo de registro.
 
@@ -82,7 +82,11 @@ Ao criar um rótulo de retenção, você tem a opção de usá-lo para classific
     
    ![Clique em Usar rótulo para classificar o conteúdo como uma caixa de seleção de Registro](../media/recordversioning6.png)
 
-3. [Publicar](labels.md#how-retention-labels-work-with-retention-label-policies) ou [aplicar automaticamente](labels.md#applying-a-retention-label-automatically-based-on-conditions) o rótulo de retenção aos sites do SharePoint e/ou contas do OneDrive.
+3. Aplicar o rótulo de retenção aos sites do Microsoft Office SharePoint Online e contas do OneDrive:
+    
+    - [Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)
+    
+    - [Aplicar um rótulo de retenção automaticamente ao conteúdo](apply-retention-labels-automatically.md)
 
 
 ### <a name="applying-a-retention-label-to-content"></a>Aplicando um rótulo de retenção ao conteúdo
@@ -167,4 +171,6 @@ Para obter mais informações sobre a pesquisa desses eventos, confira a seção
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Para obter instruções sobre como criar e publicar os rótulos de retenção que contêm a configuração para marcar o conteúdo como um registro, confira [Criar, publicar e aplicar automaticamente rótulos de retenção](create-retention-labels.md).
+Se você ainda não tiver rótulos de retenção para usar o gerenciamento de registros, confira [Introdução aos rótulos de retenção e políticas de retenção](get-started-with-retention.md).
+
+Para assistir vídeos sobre como configurar e usar o gerenciamento de registros, confira o artigo [Seleções de governança de dados no YouTube](https://go.microsoft.com/fwlink/?linkid=867039).

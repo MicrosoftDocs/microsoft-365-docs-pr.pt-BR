@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda a identificar, monitorar e proteger automaticamente as informações confidenciais da sua organização no Office 365.
-ms.openlocfilehash: 93d0eaf882569b6645c98699f83ad19a25af4864
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 8d507a32a6f36555eabfa0216febdb167ad4241c
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817940"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127528"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Visão geral da prevenção contra perda de dados
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -337,11 +337,11 @@ Por essas razões, a orientação para a criação de regras com diferentes prec
     
 ## <a name="using-a-retention-label-as-a-condition-in-a-dlp-policy"></a>Usar um rótulo de retenção como condição em uma política DLP
 
-Ao usar um [rótulo de retenção](labels.md) criado e publicado anteriormente como condição em uma política DLP, há algumas coisas a serem observadas:
+Ao usar um [rótulo de retenção](retention.md#retention-labels) criado e publicado anteriormente como condição em uma política DLP, há algumas coisas a serem observadas:
 
-- É preciso ter criado, publicado e aplicado o rótulo de retenção antes de tentar usá-lo como condição em uma política DLP.
-- Os rótulos de retenção podem levar até um dia para sincronizar e até sete dias para serem aplicados automaticamente após a criação e publicação. Para obter informações detalhadas, confira, [Quanto tempo demora para os rótulos de retenção entrarem em vigor](create-retention-labels.md#how-long-it-takes-for-retention-labels-to-take-effect).
-- O uso de um rótulo de retenção em uma política ***só tem suporte para itens do SharePoint Online e OneDrive for Business***.
+- O rótulo de retenção deve ser criado e publicado antes de tentar usá-lo como condição em uma política DLP.
+- Os rótulos de retenção publicados podem levar de um a sete dias para sincronização. Para obter mais informações, confira [Quando os rótulos de retenção se tornam disponíveis para aplicar](create-apply-retention-labels.md#when-retention-labels-become-available-to-apply) para rótulos de retenção publicados em uma política de retenção e [Quanto tempo leva para os rótulos de retenção entrarem em vigor](apply-retention-labels-automatically.md#how-long-it-takes-for-retention-labels-to-take-effect) para os rótulos de retenção que são publicados automaticamente.
+- O uso de um rótulo de retenção em uma política **só tem suporte para itens do Microsoft Office SharePoint Online e OneDrive***.
 
   ![Rótulos como uma condição](../media/5b1752b4-a129-4a88-b010-8dcf8a38bb09.png)
 
@@ -360,7 +360,7 @@ No momento, você pode usar apenas um rótulo de retenção como uma condição,
 
 Diversos recursos podem ser aplicados ao conteúdo com informações confidenciais:
   
-- Um [rótulo de retenção](labels.md#applying-a-retention-label-automatically-based-on-conditions) e uma [política de retenção](retention-policies.md) podem impor ações de **retenção** nesse conteúdo. 
+- Um [rótulo de retenção e uma política de retenção](retention.md) podem impor ações de **retenção** nesse conteúdo. 
     
 - Uma política de DLP pode impor ações de **proteção** nesse conteúdo. E antes de aplicar essas ações, uma política de DLP pode exigir que outras condições sejam atendidas além do conteúdo que contém um rótulo. 
     

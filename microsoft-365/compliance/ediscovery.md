@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 143b3ab8-8cb0-4036-a5fc-6536d837bfce
 description: A Microsoft 365 oferece várias ferramentas de descoberta eletrônica diferentes que você pode usar para pesquisar e manter o conteúdo encontrado em locais diferentes, como caixas de correio do Exchange, sites do SharePoint e do OneDrive for Business, Microsoft 365 grupos e conversas do Skype for Business.
-ms.openlocfilehash: 4d373f2d5e6c0c64fcce6e0ef097e28f0950cb39
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 2f18d3a9559293e071b7060f0e4a01a7352097c1
+ms.sourcegitcommit: 94f2f8e3e6bc3946d8b3cf798b3eb77a49ffd12a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943426"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45148121"
 ---
 # <a name="ediscovery-in-microsoft-365"></a>Descoberta eletrônica no Microsoft 365
 
@@ -88,3 +88,7 @@ A solução de descoberta eletrônica avançada no Microsoft 365 (também chamad
 |[Analisar dados em um conjunto de revisão](analyzing-data-in-review-set.md)|Saiba mais sobre a execução da análise nos documentos em um conjunto de revisão. Os resultados da análise em execução incluem detecção de duplicação próxima, segmentação de email e identificação de temas.|
 |[Exportar dados de ocorrência](exporting-data-ediscover20.md)|Saiba mais sobre como exportar dados de um caso para revisão externa.|
 |||
+
+## <a name="roadmap"></a>Roteiro
+
+Para ver quais recursos de descoberta eletrônica foram iniciados, estão saindo ou em desenvolvimento, visite o [Microsoft 365 Roadmap](https://aka.ms/eDiscoRoadMap).
