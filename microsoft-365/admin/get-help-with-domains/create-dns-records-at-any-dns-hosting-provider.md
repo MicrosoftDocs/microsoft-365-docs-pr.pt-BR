@@ -20,11 +20,12 @@ description: Aprenda a verificar seu domínio e criar registros DNS em qualquer 
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: d3a9e3787afc30b33122edf91c1cf9e3dd84b847
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: 01bcffe37d9c38d91eff25d9df58f848f4ee1a82
+ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049661"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138251"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>Adicionar registros DNS para conectar seu domínio
 
@@ -36,7 +37,9 @@ Se você não adicionar um domínio, as pessoas da sua organização usarão o d
 
 [Verifique as perguntas frequentes sobre domínios](../setup/domains-faq.md) se você não encontrar o que está procurando abaixo.
 
-## <a name="step-1-add-a-txt-record-to-verify-you-own-the-domain"></a>Etapa 1: adicionar um registro TXT para verificar se você é proprietário do domínio
+## <a name="step-1-add-a-txt-or-mx-record-to-verify-you-own-the-domain"></a>Etapa 1: adicionar um registro TXT ou MX para verificar se você é proprietário do domínio
+
+### <a name="recommended-verify-with-a-txt-record"></a>Recomendado: verificar com um registro TXT
 
 Primeiro, você precisa provar que é o proprietário do domínio que deseja adicionar ao Microsoft 365.
 
@@ -55,6 +58,25 @@ Exemplo:
 
 Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verificado.
 
+### <a name="verify-with-an-mx-record"></a>Verificar com um registro MX
+
+Se seu registrador não for compatível com a adição de registros TXT, é possível verificar adicionando um registro MX.
+
+1. Entre no [Centro de administração do Microsoft 365](https://admin.microsoft.com/) e selecione **Mostrar tudo > ****Configurações** > **Domínios**.
+2. Em uma nova janela ou guia do navegador, entre no seu provedor de hospedagem de DNS e, em seguida, localize o local em que você gerencia suas configurações de DNS (por exemplo, Configurações de Arquivo de Zona, Gerenciar Domínios, Gerenciador de Domínio, Gerenciador de DNS).
+3. Vá para a página do Gerenciador DNS do seu provedor e adicione o registro MX indicado no centro de administração ao seu domínio.
+
+A **Prioridade** do registro MX deve ser o maior de todos os registros MX existentes do domínio. Caso contrário, isso pode interferir no envio e recebimento de emails. Você deve excluir esses registros assim que a verificação de domínio concluir.
+
+Verifique se os campos estão definidos para os seguintes valores:
+
+- Tipo de Registro: `MX`
+- Prioridade: definir para o maior valor disponível, geralmente `0`.
+- Nome do Host: `@`
+- Pontos de endereçamento: copie o valor do centro de administração e cole-o aqui.
+- TTL: `3600‎` (ou seu provedor padrão)
+
+Quando a Microsoft encontrar o registro MX correto, seu domínio será verificado.
 
 ## <a name="step-2-add-dns-records-to-connect-microsoft-services"></a>Etapa 2: adicionar registros DNS para conectar os serviços Microsoft
 

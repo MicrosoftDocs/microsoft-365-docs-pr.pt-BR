@@ -62,9 +62,11 @@
           items:
             - name: Trabalhar com Serviços de consultoria da Microsoft
               href: get-ready/apps-MCS.md
-    - name: Introdução à Área de trabalho gerenciada da Microsoft
+    - name: Introdução à Área de Trabalho Gerenciada da Microsoft
       href: get-started/index.md
       items:
+        - name: Acesse o portal do Administrador
+          href: get-started/access-admin-portal.md
         - name: Adicione e verifique contatos do administrador no portal do Administrador
           href: get-started/add-admin-contacts.md
         - name: Ajuste o acesso condicional

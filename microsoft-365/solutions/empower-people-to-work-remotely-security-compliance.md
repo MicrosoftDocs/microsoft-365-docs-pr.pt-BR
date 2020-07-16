@@ -17,11 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Use os serviços de segurança e conformidade do Microsoft 365 para proteger seus aplicativos, dados e dispositivos para funcionários remotos.
-ms.openlocfilehash: d8419c00bc4d8b99d9456abafbd5869ca26f4556
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: 5ba60a04cf6717f8f9261ed72336445c8d7876bc
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049855"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127068"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>Etapa 3: implantar segurança e conformidade para funcionários remotos
 
@@ -53,6 +54,8 @@ Proteja seus aplicativos e dados com estes recursos de segurança do Microsoft 3
 | Proteção de Identidade do Azure AD  | Automatize a detecção e correção de riscos baseados em identidade. <br><br>Crie políticas de acesso condicional com base em risco para exigir a autenticação multifator (MFA) para entradas arriscadas. | Microsoft 365 E5 ou E3 com as licenças do Azure AD Premium P2 |
 ||||
 
+Para saber mais, veja [Tarefas rápidas de introdução à conformidade do Microsoft 365](../compliance/compliance-quick-tasks.md).
+
 ## <a name="compliance"></a>Conformidade
 
 Cumpra os requisitos normativos ou políticas internas com estes recursos de conformidade do Microsoft 365.
@@ -63,10 +66,12 @@ Cumpra os requisitos normativos ou políticas internas com estes recursos de con
 | Proteção contra Perda de Dados (DLP)  | Detectar, avisar e bloquear compartilhamento arriscado, inadvertido ou impróprio, como o compartilhamento de dados com informações pessoais, interna e externamente. | Microsoft 365 E3 e E5 | 
 | Controle de Aplicativos de Acesso Condicional | Impeça que dados confidenciais sejam baixados em dispositivos pessoais dos usuários. | Microsoft 365 E3 e E5 |
 | Rótulos e políticas de retenção de dados | Implemente controles de governança de informações, como por quanto tempo manter os dados e os requisitos sobre o armazenamento de dados pessoais dos clientes, para estar em conformidade com as políticas da sua organização ou com as regulamentações de dados. | Microsoft 365 E3 e E5 |
-| Criptografia de email | Envie e receba mensagens de email criptografadas entre as pessoas dentro e fora da sua organização que contenham dados regulados, como dados pessoais de clientes. | Microsoft 365 E3 e E5 |
+| Criptografia de Mensagem do Office (OME) | Envie e receba mensagens de email criptografadas entre as pessoas dentro e fora da sua organização que contenham dados regulados, como dados pessoais de clientes. | Microsoft 365 E3 e E5 |
 | Gerente de Conformidade | Gerencie as atividades de conformidade regulatória relacionadas aos serviços de nuvem da Microsoft com esta ferramenta de avaliação de risco baseada em fluxo de trabalho no Portal de Confiança do Serviço da Microsoft. | Microsoft 365 E3 e E5 |
 | Pontuação de Conformidade (visualização) | Veja uma pontuação geral da configuração de conformidade atual e recomendações para melhorá-la no Centro de Conformidade do Microsoft 365. | Microsoft 365 E3 e E5 |
 ||||
+
+Confira [As 12 principais tarefas para as equipes de segurança dar suporte ao trabalho em casa](../security/top-security-tasks-for-remote-work.md).
 
 ## <a name="results-of-step-3"></a>Resultados da Etapa 3
 
