@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O explorador de conteúdo permite que se veja nativamente os itens rotulados.
-ms.openlocfilehash: 731ae51a02e4a6fbd35b5be7c0bf083c814ddfd3
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: e5041f82d22b62e8b343c62136251e2c69ca9e47
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327847"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127038"
 ---
 # <a name="get-started-with-content-explorer"></a>Introdução ao gerenciador de conteúdo
 
@@ -92,7 +92,7 @@ Os rótulos de confidencialidade devem ser habilitados para arquivos que estão 
 
 ### <a name="retention-labels"></a>Rótulos de retenção
 
-Um [rótulo de retenção](labels.md) permite definir por quanto tempo um item rotulado será mantido e as etapas a serem seguidas antes de excluí-lo. Ele pode ser aplicado manualmente ou automaticamente através de políticas. Eles podem ajudar a sua organização a se manter em conformidade com as determinações regulamentares e legais.
+Um [rótulo de retenção](retention.md) permite definir por quanto tempo um item rotulado será mantido e as etapas a serem seguidas antes de excluí-lo. Ele pode ser aplicado manualmente ou automaticamente através de políticas. Eles podem ajudar a sua organização a se manter em conformidade com as determinações regulamentares e legais.
 
 ### <a name="how-to-use-content-explorer"></a>Como usar o explorador de conteúdo
 
@@ -139,8 +139,7 @@ Você pode pesquisar em:
 
 ## <a name="see-also"></a>Confira também
 
-- [Rótulos de confidencialidade](sensitivity-labels.md)
-- [Rótulos de retenção](labels.md)
+- [Saiba mais sobre rótulos de confidencialidade](sensitivity-labels.md)
+- [Saiba mais sobre as políticas de retenção e rótulos de retenção](retention.md)
 - [Tipo de entidade de informações confidenciais definitions.md](sensitive-information-type-entity-definitions.md)
-- [Visão geral de políticas de retenção](retention-policies.md)
 - [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)

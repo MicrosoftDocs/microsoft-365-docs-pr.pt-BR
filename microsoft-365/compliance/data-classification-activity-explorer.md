@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O explorador de atividade dá o toque final na funcionalidade do recurso de classificação de dados, permitindo que você veja e filtre as ações que os usuários estão executando no conteúdo rotulado.
-ms.openlocfilehash: 5cb6a8dbfa570b3b0e0d1ce39648d12050d2af81
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 63ecb84c0ae658b0fd3463dba10d56059352910b
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327837"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126640"
 ---
 # <a name="get-started-with-activity-explorer"></a>Começar a usar o gerenciador de atividades
 
@@ -75,7 +75,7 @@ O vantagem de ficar sabendo que ações estão sendo tomadas com o conteúdo rot
 > O explorador de atividades não monitora atualmente as atividades de retenção do Exchange Online.
 
 ## <a name="see-also"></a>Confira também
-- [Rótulos de confidencialidade](sensitivity-labels.md)
-- [Rótulos de retenção](labels.md)
-- [Definições da entidade por tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
-- [Visão geral de políticas de retenção](retention-policies.md)
+- [Saiba mais sobre rótulos de confidencialidade](sensitivity-labels.md)
+- [Saiba mais sobre as políticas de retenção e os rótulos de retenção](retention.md)
+- [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
+

@@ -17,11 +17,12 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: O plano de arquivos oferece recursos avançados de gerenciamento dos rótulos de retenção.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 85160a859469a5c2dcb1aec8100eed6e25bd7597
-ms.sourcegitcommit: 5e8901e7e571f20ede04f460bd3e7077dda004ca
+ms.openlocfilehash: 96150005421f6c2e28183c6e4417edd64b80a814
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874901"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126874"
 ---
 # <a name="use-file-plan-to-manage-retention-labels"></a>Usar o plano de arquivos para gerenciar os rótulos de retenção
 
@@ -41,7 +42,7 @@ O plano de arquivos pode ser usado em todos os rótulos de retenção, mesmo se 
 
 ![Página de plano de arquivos](../media/compliance-file-plan.png)
 
-Para obter informações sobre quais são os rótulos de retenção e sobre como usá-los, confira [Saiba mais sobre os rótulos de retenção](labels.md).
+Para obter informações sobre quais são os rótulos de retenção e sobre como usá-los, confira [Saiba mais sobre as políticas e rótulos de retenção](retention.md).
 
 ## <a name="accessing-file-plan"></a>Acessar o plano de arquivos
 
@@ -181,4 +182,6 @@ Quando a importação estiver concluída, é possível adicionar os rótulos de 
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Para obter mais informações sobre como criar e editar rótulos de retenção e suas políticas, veja [Criar, publicar e aplicar rótulos de retenção automaticamente](create-retention-labels.md).
+Para obter mais informações sobre como criar e editar rótulos de retenção e suas políticas, veja a seguinte orientação:
+- [Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)
+- [Aplicar um rótulo de retenção automaticamente ao conteúdo](apply-retention-labels-automatically.md)

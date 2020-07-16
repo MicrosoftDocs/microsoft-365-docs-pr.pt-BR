@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Notas de versão para a classificação de dados.
-ms.openlocfilehash: bbef6729680db2c9a6aec4caa9036ec23fad6949
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 71d8e8e4fffddc4c9373a2bdd37d4509337ec231
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327594"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127136"
 ---
 # <a name="data-classification-release-notes"></a>Notas de versão de classificação de dados
 
@@ -48,6 +48,6 @@ Ouvimos seus comentários sobre a integração do OneDrive durante nosso program
 - [Introdução à classificação de dados (visualização)](data-classification-overview.md)
 - [Exibir atividade do rótulo (visualização)](data-classification-activity-explorer.md)
 - [Exibir conteúdo rotulado (visualização)](data-classification-content-explorer.md)
-- [Rótulos de confidencialidade ](sensitivity-labels.md)
-- [Rótulos de retenção](labels.md)
-- [Definições da entidade por tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
+- [Saiba mais sobre rótulos de confidencialidade](sensitivity-labels.md)
+- [Saiba mais sobre as políticas de retenção e os rótulos de retenção](retention.md)
+- [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)

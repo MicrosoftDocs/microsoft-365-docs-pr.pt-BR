@@ -20,17 +20,18 @@ description: Use rótulos de sensibilidade da estrutura Microsoft Information Pr
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: d15152257f9be222420d63ed53a5921c74dc184f
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: d5b8e3c540c133ce4e04a434d03ef4bdb16b6f32
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936790"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127358"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-To get their work done, people in your organization collaborate with others both inside and outside the organization. This means that content no longer stays behind a firewall—it can roam everywhere, across devices, apps, and services. And when it roams, you want it to do so in a secure, protected way that meets your organization's business and compliance policies.
+Para realizar o trabalho, as pessoas da sua organização colaboram com outras pessoas dentro e fora da organização. Isso significa que o conteúdo não fica mais atrás de um firewall, ele pode circular em qualquer lugar, em dispositivos, aplicativos e serviços. E quando estiver em roaming, você quer fazê-lo de uma maneira segura e protegida que atenda às políticas de negócios e conformidade da sua organização.
 
 Os rótulos de sensibilidade da estrutura da Proteção de Informações da Microsoft permitem classificar e proteger os dados da sua organização, garantindo que a produtividade do usuário e sua capacidade de colaborar não sejam prejudicadas.
 
@@ -47,7 +48,7 @@ Para aplicar rótulos de confidencialidade, os usuários devem entrar no Office 
 
 Você pode usar rótulos de confidencialidade para:
   
-- **Enforce protection settings such as encryption or watermarks on labeled content.** For example, your users can apply a Confidential label to a document or email, and that label can encrypt the content and apply a Confidential watermark.
+- **Impor configurações de proteção, como criptografia ou marcas d'água no conteúdo rotulado. **Por exemplo, os usuários podem aplicar um rótulo confidencial a um documento ou email, e esse rótulo pode criptografar o conteúdo e aplicar uma marca d'água confidencial.
 
 - **Proteja o conteúdo nos aplicativos do Office em diferentes plataformas e dispositivos.** Para obter uma lista de aplicativos com suporte, confira [Uso de rótulos de confidencialidade nos aplicativos do Office](sensitivity-labels-office-apps.md).
 
@@ -63,7 +64,7 @@ Em todos esses casos, os rótulos de confidencialidade no Microsoft 365 podem aj
 
 Quando você atribui um rótulo de sensibilidade a um documento ou e-mail, isso é como um carimbo aplicado ao conteúdo, qual seja:
 
-- **Customizable.** You can create categories for different levels of sensitive content in your organization, such as Personal, Public, General, Confidential, and Highly Confidential.
+- **Personalizável.** Você pode criar categorias para diferentes níveis de conteúdo confidencial em sua organização, como Pessoal, Público, Geral, Confidencial e Altamente Confidencial.
 
 - **Texto não criptografado.** Como o rótulo é armazenado em texto não criptografado nos metadados do conteúdo, aplicativos e serviços de terceiros podem lê-lo e aplicar suas próprias ações de proteção, se necessário.
 
@@ -71,7 +72,7 @@ Quando você atribui um rótulo de sensibilidade a um documento ou e-mail, isso 
 
 Em aplicativos do Office, um rótulo de confidencialidade simplesmente aparece como uma marca em um email ou documento.
 
-Each item of content can have a single sensitivity label applied to it. An item can have both a single sensitivity label and a single [retention label](labels.md) applied to it.
+Cada item de conteúdo pode ter um único rótulo de confidencialidade aplicado a ele. Um item pode ter tanto um rótulo de confidencialidade único quanto um [rótulo de retenção](retention.md#retention-labels) único aplicado a ele.
 
 > [!div class="mx-imgBorder"]
 > ![Rótulo de confidencialidade aplicado a um email](../media/Sensitivity-label-on-email.png)
@@ -180,7 +181,7 @@ Se você não estiver vendo a configuração de política de rótulo ou rótulo 
 
 ![Opções de movimentação na página de políticas de rótulos de confidencialidade](../media/sensitivity-label-policy-priority.png)
 
-Se você usa rótulos de confidencialidade e rótulos de retenção, é importante lembrar que a prioridade é importante em políticas de rótulo de confidencialidade, mas não em [políticas de rótulo de retenção](labels.md#the-principles-of-retention-or-what-takes-precedence).
+Se você usa rótulos de confidencialidade e rótulos de retenção, é importante lembrar que a prioridade é importante em políticas de rótulo de confidencialidade, mas não em [rótulo de retenção](retention.md#the-principles-of-retention-or-what-takes-precedence).
 
 ## <a name="sensitivity-labels-and-azure-information-protection"></a>Rótulos de confidencialidade e Proteção de Informações do Azure
 
