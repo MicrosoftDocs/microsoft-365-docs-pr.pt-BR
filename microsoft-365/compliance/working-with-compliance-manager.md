@@ -139,11 +139,11 @@ Depois de identificar a conta do usuário, convém gerar um relatório das depen
 3. Abra o documento para verificar os dados do relatório.
 
 > [!NOTE]
-> This is not a historical report that retains and displays state changes to action item assignment history. The generated report is a snapshot of the control action items assigned at the time that the report is run (date and time stamp written into the report). For instance, any subsequent reassignment of action items will result in different snapshot report data if this report is generated again for the same user.
+> Este não é um relatório histórico que retêm e exibe as alterações de estado no histórico de atribuições de itens de ação. O relatório gerado é um instantâneo dos itens de ação de controle atribuídos no momento em que o relatório é executado (carimbo de data e hora gravado no relatório). Por exemplo, qualquer reatribuição subsequente de itens de ação resultará em dados de relatório de captura instantânea diferentes se esse relatório for gerado novamente para o mesmo usuário.
   
 #### <a name="reassign-action-items"></a>Reatribuir os itens de ação
 
-This function enables an organization to remove any active or outstanding dependencies on the user account by reassigning all action item ownership (which includes both active and completed action items) from the returned user account to a new user selected below. This action does not change document upload history for the returned user account.
+Esta função permite que uma organização remova quaisquer dependências ativas ou pendentes da conta do usuário, reatribuindo todas as propriedades de item de ação (o que inclui os itens de ação ativos e concluídos) da conta de usuário retornada para um novo usuário selecionado abaixo. Essa ação não altera o histórico de carregamento do documento para a conta de usuário retornada.
   
  Para reatribuir itens de ação para outro usuário:
   
@@ -156,9 +156,9 @@ This function enables an organization to remove any active or outstanding depend
 4. Para continuar, selecione **OK**; caso contrário, selecione **Cancelar**.
     
 > [!NOTE]
-> All action items (both active and completed) will be assigned to the newly selected user. However, this action does not affect the document upload history; any documents uploaded by the previously assigned user will still show the date/time and name of the previously assigned user. 
+> Todos os itens de ação (ativos e concluídos) serão atribuídos ao usuário recém-selecionado. No entanto, essa ação não afetará o histórico de carregamento do documento, todos os documentos carregados pelo usuário atribuído previamente ainda exibirão a data/hora e nome do usuário atribuído anteriormente. 
   
-Changing the document upload history to remove the previously assigned user will have to be done as a manual process. In that case, the administrator will need to:
+Alterar o histórico de carregamento do documento para remover o usuário atribuído previamente precisará ser realizado como um processo manual. Nesse caso, o administrador precisará:
   
 1. Abrir o relatório de exportação baixado anteriormente.
   
@@ -174,7 +174,7 @@ Changing the document upload history to remove the previously assigned user will
   
 #### <a name="delete-user-data-history"></a>Excluir o histórico de dados do usuário
 
-This sets control action items to 'unassigned' for all action items assigned to the returned user. This also sets uploaded by value to 'user removed' for any documents uploaded by the returned user
+Isso configura os itens de ação de controle como "Não atribuídos" para todos os itens de ação atribuídos ao usuário retornado. Isso também configura o Carregado por com valor "usuário removeu" para todos os documentos carregados pelo usuário retornado
   
  Para excluir o item de ação de conta de usuário e o histórico de carregamento de documento:
   

@@ -18,15 +18,16 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização. '
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf008ed20e1dd56061004f63a24124488487af17
-ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
+ms.openlocfilehash: 7602042c0bd8fb46b497bdf0fc16bb6b02809074
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "45035656"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726532"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
+
+## <a name="introduction"></a>Introdução
 
 Precisa descobrir se um usuário visualizou um documento específico ou apagou um item de sua caixa de correio? Em caso afirmativo, você pode usar o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização. Por que usar um log de auditoria unificada? Porque você pode procurar os seguintes tipos de [atividades de usuários e administradores ](#audited-activities)no Office 365:
 
@@ -64,7 +65,7 @@ Precisa descobrir se um usuário visualizou um documento específico ou apagou u
 
 - Atividade de usuários e administradores dos rótulos de sensibilidade de sites que usam o SharePoint Online ou o Microsoft Teams
 
-## <a name="requirements-to-search-the-audit-log"></a>Requisitos para pesquisar o log de auditoria
+## <a name="before-you-begin"></a>Antes de começar
 
 Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
 
@@ -335,7 +336,7 @@ A tabela a seguir descreve as atividades de arquivo e página do SharePoint Onli
 |Rótulos de política de conformidade excluídos|ComplianceRecordDelete|Um documento que foi classificado como um registro foi excluído. Um documento é considerado um registro quando uma etiqueta de retenção que classifica o conteúdo como um registro é aplicada ao documento.|
 |Incompatibilidade de confidencialidade em documento detectada|DocumentSensitivityMismatchDetected|O usuário carrega um documento em um site protegido com um rótulo de sensibilidade e o documento possui um rótulo de sensibilidade de prioridade mais alta que o rótulo de sensibilidade aplicado ao site. Por exemplo, um documento chamado Confidencial é carregado em um site chamado Geral. <br/><br/> Esse evento não é acionado se o documento tiver um rótulo de sensibilidade de prioridade mais baixo que o rótulo de sensibilidade aplicado ao site. Por exemplo, um documento chamado Geral é carregado em um site chamado Confidencial. Para obter mais informações sobre a prioridade dos rótulos de sensibilidade, consulte [Prioridade de rótulo (questões do pedido)](sensitivity-labels.md#label-priority-order-matters).|
 |Malware detectado no arquivo|FileMalwareDetected|O mecanismo de antivírus do SharePoint detecta malwares em um arquivo.|
-|Check-out de arquivo descartado|FileCheckOutDiscarded|User discards (or undoes) a checked out file. That means any changes they made to the file when it was checked out are discarded, and not saved to the version of the document in the document library.|
+|Check-out de arquivo descartado|FileCheckOutDiscarded|O usuário descarta (ou desfaz) um arquivo em check-out. Isso significa que todas as alterações que ele tiver feito nesse arquivo durante o estado de check-out serão descartados, e não salvas na versão do documento localizada na biblioteca de documentos.|
 |Arquivo baixado|FileDownloaded|O usuário baixa um documento de um site.|
 |Arquivo modificado|FileModified|O usuário ou a conta do sistema modifica o conteúdo ou as propriedades de um documento em um site.|
 |(nenhum)|FileModifiedExtended|Isso está relacionado à atividade "Arquivo modificado" (FileModified). Um evento FileModifiedExtended é registrado em log quando a mesma pessoa modifica continuamente um arquivo por um longo período (até 3 horas). <br/><br/> O propósito de registrar eventos FileModifiedExtended em log é reduzir o número de eventos FileModified registrados quando um arquivo é modificado continuamente. Isso ajuda a reduzir o ruído de vários registros de FileModified para o que é essencialmente a mesma atividade do usuário e permite que você se concentre no evento FileModified inicial (e mais importante).|
@@ -368,7 +369,7 @@ Aqui estão alguns outros cenários em que app@sharepoint pode ser identificado 
 
 - Recursos de conformidade. Quando um administrador implementa recursos de conformidade, como políticas de retenção, bloqueios de Descoberta Eletrônica e aplicação automática de rótulos de confidencialidade.
 
-Neste e em outros cenários, você também notará que vários registros de auditoria com o usuário especificado como app@sharepoint foram criados dentro de um período de tempo muito curto, geralmente dentro de alguns segundos. Isso também indica que provavelmente eles foram disparados pela mesma tarefa iniciada pelo usuário. Além disso, os campos ApplicationDisplayName e EventData no registro de auditoria podem ajudar a identificar o cenário ou aplicativo que acionou o evento.
+Neste e em outros cenários, você também observará que vários registros de auditoria com o usuário especificado como app@sharepoint foram criados dentro de um período de tempo muito curto, geralmente dentro de alguns segundos. Isso também indica que provavelmente eles foram disparados pela mesma tarefa iniciada pelo usuário. Além disso, os campos ApplicationDisplayName e EventData no registro de auditoria podem ajudar a identificar o cenário ou aplicativo que acionou o evento.
 
 ### <a name="folder-activities"></a>Atividades de pasta
 
@@ -479,7 +480,7 @@ A tabela a seguir lista os eventos relacionados para atribuir permissões no Sha
 |Grupo excluído|GroupRemoved|O usuário exclui um grupo de um site.|
 |Configuração da solicitação de acesso modificada|WebRequestAccessModified|As configurações de solicitação de acesso foram modificadas em um site.|
 |Configuração “Membros Podem Compartilhar" modificado|WebMembersCanShareModified|A configuração **Membros Podem Compartilhar** foi modificada em um site.|
-|Nível de permissão modificado em um conjunto de sites|PermissionLevelModified|Um nível de permissão foi alterado em um conjunto de sites.|
+|Nível de permissão modificado no conjunto de sites|PermissionLevelModified|Um nível de permissão foi alterado em um conjunto de sites.|
 |Permissões de site modificadas|SitePermissionsModified|O proprietário ou administrador do site (ou a conta do sistema) altera o nível de permissão que é atribuído a um grupo em um site. Essa atividade também será registrada se todas as permissões forem removidas de um grupo. <br/><br/> **OBSERVAÇÃO**: Esta operação foi preterida no SharePoint Online. Para localizar os eventos relacionados, você pode procurar outras atividades relacionadas à permissão, como **Administrador do conjunto de sites adicionado**, **Usuário ou grupo adicionado ao grupo do SharePoint**, **Usuário permitido para criar grupo**, **Grupo criado**, e **Grupo excluído.**|
 |Nível de permissão removido do conjunto de sites|PermissionLevelRemoved|Um nível de permissão foi removido de um conjunto de sites.|
 |Administrador de conjunto de sites removido|SiteCollectionAdminRemoved|O proprietário ou administrador do conjunto de sites remove uma pessoa como administrador de conjunto de sites para um site. Essa atividade também será registrada quando um administrador remover a si mesmo da lista de administradores de conjunto de sites para a conta do usuário do OneDrive (editando o perfil de usuário no centro de administração do SharePoint).  Para retornar essa atividade nos resultados de pesquisa do log de auditoria, é preciso procurar todas as atividades.|
@@ -499,7 +500,7 @@ A tabela a seguir lista os eventos decorrentes de tarefas de administração de 
 |Agente de usuário isento adicionado|ExemptUserAgentSet|Um administrador global ou do SharePoint adicionou um agente de usuário à lista de agentes de usuário isentos no centro de administração do SharePoint.|
 |Administrador de localização geográfica adicionado|GeoAdminAdded|Um administrador global ou do SharePoint adicionou um usuário como um administrador geográfico de um local.|
 |Usuário com permissão para criar grupos|AllowGroupCreationSet|O proprietário ou administrador do site adiciona um nível de permissão a um site, que permite que um usuário com essa permissão crie um grupo para esse site.|
-|Movimentação geográfica do site cancelada|SiteGeoMoveCancelled|Um administrador global ou do SharePoint cancela com êxito uma movimentação geográfica do site do SharePoint ou do OneDrive. O recurso do Modelo Multigeográfico permite que uma organização abranja várias áreas geográficas do datacenter da Microsoft, chamadas geos. Para obter mais informações, confira [Funcionalidades multigeográficas do Onedrive e do SharePoint Online](https://go.microsoft.com/fwlink/?linkid=860840).|
+|Movimento geográfico do site cancelado|SiteGeoMoveCancelled|Um administrador global ou do SharePoint cancela com êxito uma movimentação geográfica do site do SharePoint ou do OneDrive. O recurso do Modelo Multigeográfico permite que uma organização abranja várias áreas geográficas do datacenter da Microsoft, chamadas geos. Para obter mais informações, confira [Funcionalidades multigeográficas do Onedrive e do SharePoint Online](https://go.microsoft.com/fwlink/?linkid=860840).|
 |Política de compartilhamento alterada|SharingPolicyChanged|Um administrador global ou do SharePoint alterou uma política de compartilhamento do SharePoint usando o portal de administração do Microsoft 365, o portal de administração do SharePoint ou o Shell de Gerenciamento do SharePoint Online. Qualquer alteração nas configurações da política de compartilhamento na sua organização será registrada. A política que foi alterada é identificada no campo **ModifiedProperties** nas propriedades detalhadas do registro de evento.|
 |Política de acesso a dispositivo alterada|DeviceAccessPolicyChanged|Um administrador global ou do SharePoint alterou a política de dispositivos não gerenciados para sua organização. Esta política controla o acesso ao SharePoint, OneDrive e ao Microsoft 365 de dispositivos que não estão associados à sua organização. Configurar esta política requer uma assinatura do Enterprise Mobility + Security. Para obter informações, consulte [Controlar o acesso de dispositivos gerenciados](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices).|
 |Agentes de usuário isentos alterados|CustomizeExemptUsers|Um administrador global ou do SharePoint personalizou a lista de agentes de usuário isentos no centro de administração do SharePoint. Você pode especificar quais agentes de usuário devem ficar isentos de receber uma página da Web inteira para indexar. Isso significa que, quando um agente do usuário que você especificou como isento encontrar um formulário do InfoPath, o formulário será retornado como um arquivo XML em vez de uma página da Web completa. Isso torna a indexação de formulários do InfoPath mais rápida.|
@@ -704,7 +705,34 @@ O Workplace Analytics fornece informação de como os grupos colaboram em sua or
 
 ### <a name="microsoft-teams-activities"></a>Atividades do Microsoft Teams
 
-Você pode pesquisar o log de auditoria das atividades de usuários e de administradores no Microsoft Teams. O Teams é um espaço de trabalho centralizado em chat no Office 365. Ele reúne as conversas, reuniões, arquivos e anotações da equipe em um único lugar. Para obter descrições das atividades do Teams, confira [Pesquisar o log de auditoria de eventos no Microsoft Teams](https://docs.microsoft.com/microsoftteams/audit-log-events#teams-activities).
+A tabela a seguir lista as atividades de usuários e de administradores no Microsoft Teams que estejam conectados ao log de auditoria. O Microsoft Teams é um espaço de trabalho centralizado em chat no Office 365. Ele reúne as conversas, reuniões, arquivos e anotações da equipe em um único lugar. Para obter mais informações e links para os tópicos da Ajuda, confira:
+
+- [Perguntas frequentes sobre o Microsoft Teams – Ajuda para Administradores](https://docs.microsoft.com/MicrosoftTeams/teams-overview)
+
+- [Ajuda do Microsoft Teams](https://support.office.com/teams)
+
+|**Nome amigável**|**Operação**|**Descrição**|
+|:-----|:-----|:-----|
+|Bot adicionado à equipe|BotAddedToTeam|Um usuário adiciona um bot a uma equipe.|
+|Canal adicionado|ChannelAdded|Um usuário adiciona um canal a uma equipe.|
+|Conector adicionado|ConnectorAdded|Um usuário adiciona um conector a um canal.|
+|Membros adicionados|MemberAdded|O proprietário de uma equipe adiciona membros a uma equipe, canal ou chat em grupo.|
+|Guia adicionada|TabAdded|Um usuário adiciona uma guia a um canal.|
+|Configuração de canal alterada|ChannelSettingChanged|A operação ChannelSettingChanged é registrada em log quando as seguintes atividades são realizadas por um membro da equipe. Para cada uma dessas atividades, uma descrição da configuração que foi alterada (mostrada entre parênteses abaixo) é exibida na coluna **Item** nos resultados da pesquisa do log de auditoria. <br/><br/>• Altera o nome de um canal de equipe (**Nome do canal**). <br/><br/>• Altera a descrição de um canal de equipe (**Descrição do canal**).|
+|Configuração da organização alterada|TeamsTenantSettingChanged|A operação TeamsTenantSettingChanged é registrada em log quando as seguintes atividades são executadas por um administrador global (usando o centro de administração do Microsoft 365). Observe que essas atividades afetam as configurações do Microsoft Teams em toda a organização. Para obter mais informações, confira [Configurações do administrador para Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365). <br/> Para cada uma dessas atividades, uma descrição da configuração que foi alterada (mostrada entre parênteses abaixo) é exibida na coluna **Item** nos resultados da pesquisa do log de auditoria. <br/><br/>• Habilita ou desabilita o Microsoft Teams da organização (**Microsoft Teams**). <br/><br/>• Habilita ou desabilita a interoperabilidade entre o Microsoft Teams e o Skype for Business da organização (**Interoperabilidade do Skype for Business**). <br/><br/>• Habilita ou desabilita o modo de exibição de organograma em clientes do Microsoft Teams (Modo de exibição de organograma **). <br/><br/>• Habilita ou desabilita a capacidade dos membros da equipe de agendar reuniões particulares (** Agendamento de reunião particular **). <br/><br/>• Habilita ou desabilita a capacidade dos membros da equipe de agendar reuniões de canal (Agendamento de reunião de canal**). <br/><br/>• Habilita ou desabilita a chamada de vídeo em reuniões do Teams (vídeo para reuniões do Skype **). <br/><br/>• Habilita ou desabilita o compartilhamento de tela nas reuniões da organização do Microsoft Teams (** Compartilhamento de tela das reuniões do Skype **). <br/><br/>• Ativa ou desativa a capacidade de adicionar imagens animadas (chamadas Giphys) a conversas do Teams (Imagens animadas**). <br/><br/>• Altera a configuração de classificação de conteúdo da organização (**Classificação de conteúdo**). A classificação de conteúdo restringe o tipo de imagem animada que pode ser exibido em conversas. <br/><br/>• Habilita ou desabilita a capacidade dos membros da equipe de adicionar imagens personalizáveis (chamadas memes personalizados) da Internet a conversas da equipe (Imagens personalizáveis da Internet **). <br/><br/>• Habilita ou desabilita a capacidade dos membros da equipe de adicionar imagens editáveis (chamadas adesivos) a conversas da equipe (** Imagens editáveis **).<br/><br/>• Habilita ou desabilita a capacidade dos membros da equipe de usar bots em chats e canais do Microsoft Teams (bots de toda a organização). <br/><br/>• Habilita bots específicos para o Microsoft Teams. Isso não inclui o T-bot, que é o bot de ajuda do Teams, que está disponível quando os bots estão habilitados na organização (** bots individuais **). <br/><br/>• Habilita ou desabilita a capacidade dos membros da equipe de adicionar extensões ou guias (** Extensões ou guias **). <br/><br/>• Habilita ou desabilita o carregamento lateral de bots proprietários do Microsoft Teams (** Carregamento lateral dos bots **). <br/><br/>• Habilita ou desabilita a capacidade dos usuários de enviar mensagens de email para um canal do Microsoft Teams (** Email do canal**).|
+|Função de membros alterada na equipe|MemberRoleChanged|Um proprietário altera a função dos membros de uma equipe. Os valores a seguir indicam o tipo de função atribuída ao usuário. <br/><br/> **1** – Indica a função de Proprietário.<br/>**2** – Indica a função de Membro. <br/>**3** – Indica a função de Convidado. <br/><br/> A propriedade Membros inclui também o nome da sua organização e o endereço de email do membro.|
+|Configuração da equipe alterada|TeamSettingChanged|A operação ChannelSettingChanged é registrada em log quando as seguintes atividades são realizadas por um proprietário da equipe. Para cada uma dessas atividades, uma descrição da configuração que foi alterada (mostrada entre parênteses abaixo) é exibida na coluna **Item** nos resultados da pesquisa do log de auditoria. <br/><br/>• Altera o tipo de acesso para uma equipe. As equipes podem ser definidas como Públicas ou Particulares (**Tipo de acesso de equipe**). Quando uma equipe é particular (a configuração padrão), os usuários podem acessá-la apenas por convite. Quando uma equipe é pública, ela fica visível para qualquer pessoa. <br/><br/>• Altera a classificação das informações de uma equipe (**Classificação da equipe**). <br/> Por exemplo, os dados da equipe podem ser classificados como alto impacto sobre os negócios, médio impacto sobre os negócios ou baixo impacto sobre os negócios.<br/><br/>• Altera o nome de uma equipe (**Nome da equipe**). <br/><br/>• Altera a descrição da equipe (Descrição da equipe**). <br/><br/>• Alterações feitas em qualquer uma das configurações da equipe. Um proprietário da equipe pode acessar essas configurações em um cliente do Teams, clicando com o botão direito do mouse em uma equipe, clicando em **Gerenciar equipe** e, em seguida, clicando na guia **Configurações**. Para essas atividades, o nome da configuração que foi alterada é exibido na coluna **Item** nos resultados da pesquisa do log de auditoria.|
+|Equipe criada|TeamCreated|O usuário cria uma equipe.|
+|Canal excluído|ChannelDeleted|Um usuário exclui um canal de uma equipe.|
+|Equipe excluída|TeamDeleted|Um proprietário de equipe exclui uma equipe.|
+|Bot removido da equipe|BotRemovedFromTeam|Um usuário remove um bot de uma equipe.|
+|Conector removido|ConnectorRemoved|Um usuário remove um conector de um canal.|
+|Membros removidos|MemberRemoved|O proprietário de uma equipe remove membros de uma equipe, canal ou chat em grupo.|
+|Guia removida|TabRemoved|Um usuário remove uma guia de um canal.|
+|Conector atualizado|ConnectorUpdated|Um usuário modificou um conector em um canal.|
+|Guia atualizada|TabUpdated|Usuário modificou uma guia no canal.|
+|Usuário entrou nas Equipes|TeamsSessionStarted|Um usuário entra em um cliente do Microsoft Teams. Este evento não captura as atividades de atualização de token.|
+||||
 
 ### <a name="microsoft-teams-healthcare-activities"></a>Atividades do Microsoft Teams Healthcare
 
@@ -716,7 +744,7 @@ Para obter uma descrição das atividades do aplicativos Patients, confira [Logs
 
 ### <a name="microsoft-teams-shifts-activities"></a>Atividades de Turnos do Microsoft Teams
 
-Se sua organização estiver usando o aplicativo Turnos no Microsoft Teams, você poderá pesquisar o log de auditoria por atividades relacionadas ao uso do aplicativo Turnos. Se o seu ambiente estiver configurado para oferecer suporte ao aplicativo Turnos, um grupo de atividades adicionais para essas atividades estará disponível na lista de seleção **Atividades**.
+Se sua organização estiver usando o aplicativo Turnos no Microsoft Teams, você poderá pesquisar no log de auditoria por atividades relacionadas ao uso do aplicativo Turnos. Se o seu ambiente estiver configurado para oferecer suporte ao aplicativo Turnos, um grupo de atividades adicionais para essas atividades estará disponível na lista seletora **Atividades**.
 
 Para obter uma descrição das atividades do aplicativo Turnos, confira [Pesquisar eventos no log de auditoria no Microsoft Teams](https://docs.microsoft.com/microsoftteams/audit-log-events#shifts-in-teams-activities).
 
@@ -786,7 +814,7 @@ A tabela a seguir lista as atividades de usuários e administradores no Microsof
 Onde indicado abaixo nas descrições, algumas operações contêm parâmetros adicionais de atividade.
 
 > [!NOTE]
-> Se uma atividade do Forms for realizada por um coautor ou um respondente anônimo, ela será registrada um pouco diferente. Para saber mais, confira a seção [Atividades do Forms realizadas por coautores e respondentes anônimos](#forms-activities-performed-by-coauthors-and-anonymous-responders).
+> Se uma atividade do Forms for realizada por um coautor ou um respondente anônimo, ela será registrada um pouco diferente. Para saber mais, confira a seção [Atividades do Forms realizadas por coautores e respondentes anônimos](#forms-activities-performed-by-co-authors-and-anonymous-responders).
 
 |**Nome amigável**|**Operação**|**Descrição**|
 |:-----|:-----|:-----|
@@ -819,7 +847,7 @@ Onde indicado abaixo nas descrições, algumas operações contêm parâmetros a
 |Resposta enviada |SubmitResponse|Um usuário envia uma resposta a um formulário. <br><br>A propriedade IsInternalForm:boolean indica se o respondente é da mesma organização que o proprietário do formulário.|
 ||||
 
-#### <a name="forms-activities-performed-by-coauthors-and-anonymous-responders"></a>Atividades do Forms realizadas por coautores e respondentes anônimos
+#### <a name="forms-activities-performed-by-co-authors-and-anonymous-responders"></a>Atividades do Forms realizadas por coautores e respondentes anônimos
 
 O Forms oferece suporte à colaboração quando os formulários estão sendo projetados e ao analisar as respostas. Um colaborador de formulário é conhecido como um *coautor*. Os coautores podem fazer tudo o que um proprietário de formulário pode fazer, exceto excluir ou mover um formulário. O Forms também permite criar um formulário que pode ser respondido anonimamente. Isso significa que o respondente não precisa estar conectado à sua organização para responder a um formulário. 
 
@@ -827,9 +855,9 @@ A tabela a seguir descreve as atividades e informações de auditoria no registr
 
 |**Tipo de atividade**|**Usuário interno ou externo**|**ID de usuário que está conectado**|**Organização conectada**|**Tipo de usuário do Forms**|
 |:-----|:-----|:-----|:-----|:-----|
-|Atividades de coautoria|Interno|UPN|Organização do proprietário do formulário|Coautor|
-|Atividades de coautoria|Externo|UPN<br>|Organização da coautoria<br>|Coautor|
-|Atividades de coautoria|Externo|`urn:forms:coauthor#a0b1c2d3@forms.office.com`<br>(A segunda parte da ID é um hash, que será diferente para usuários diferentes)|Organização do proprietário do formulário<br>|Coautor|
+|Atividades de coautoria|Interno|UPN|Organização do proprietário do formulário|Coautoria|
+|Atividades de coautoria|Externo|UPN<br>|Organização do coautor<br>|Coautoria|
+|Atividades de coautoria|Externo|`urn:forms:coauthor#a0b1c2d3@forms.office.com`<br>(A segunda parte da ID é um hash, que será diferente para usuários diferentes)|Organização do proprietário do formulário<br>|Coautoria|
 |Atividades de resposta|Externo|UPN<br>|Organização do respondente<br>|Respondente|
 |Atividades de resposta|Externo|`urn:forms:external#a0b1c2d3@forms.office.com`<br>(A segunda parte da ID do usuário é um hash, que será diferente para usuários diferentes)|Organização do proprietário do formulário|Respondente|
 |Atividades de resposta|Anônimo|`urn:forms:anonymous#a0b1c2d3@forms.office.com`<br>(A segunda parte da ID do usuário é um hash, que será diferente para usuários diferentes)|Organização do proprietário do formulário|Respondente|
@@ -888,7 +916,7 @@ Consulte a seção [Atividades auditadas](#audited-activities) neste artigo para
 
 **Quanto tempo leva para um registro de auditoria estar disponível após um evento ter ocorrido?**
 
-A maioria dos dados de auditoria está disponível em 30 minutos, mas pode levar até 24 horas após a ocorrência de um evento para que a entrada do log de auditoria correspondente seja exibida nos resultados da pesquisa. Consulte a tabela na seção [Requisitos para pesquisar o log de auditoria](#requirements-to-search-the-audit-log) deste artigo que exibe o tempo necessário dos eventos em diferentes serviços disponíveis.
+A maioria dos dados de auditoria está disponível em 30 minutos, mas pode levar até 24 horas após a ocorrência de um evento para que a entrada do log de auditoria correspondente seja exibida nos resultados da pesquisa. Veja a tabela na seção [Antes de começar](#before-you-begin) deste artigo, que mostra o tempo necessário para que os eventos nos diferentes serviços estejam disponíveis.
 
 **Por quanto tempo os registros de auditoria são mantidos?**
 
@@ -904,7 +932,7 @@ Não. Estas são as duas únicas maneiras de obter dados do serviço de auditori
 
 **Preciso habilitar individualmente a auditoria em cada serviço para o qual quero capturar os logs de auditoria?**
 
-Na maioria dos serviços, a auditoria é habilitada por padrão depois que você ativa a auditoria pela sua organização, (conforme descrito na seção [Requisitos para pesquisar o log de auditoria](#requirements-to-search-the-audit-log) neste artigo).
+Na maioria dos serviços, a auditoria está habilitada por padrão, depois de ativar a auditoria para a sua organização (conforme descrito na seção [Antes de começar](#before-you-begin) deste artigo).
 
 **O serviço de auditoria oferece suporte para a duplicação de registros?**
 

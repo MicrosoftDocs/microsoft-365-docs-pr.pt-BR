@@ -75,7 +75,7 @@ Para obter uma orientação passo a passo para configurar o gerenciamento de ace
 
 ## <a name="task-6-classify-and-protect-sensitive-data"></a>Tarefa 6: classificar e proteger dados confidenciais
 
-To get their work done, people in your organization collaborate with others both inside and outside the organization. This means that content no longer stays behind a firewall—it can roam everywhere, across devices, apps, and services. And when it roams, you want it to do so in a secure, protected way that meets your organization's business and compliance policies.
+Para realizar o trabalho, as pessoas da sua organização colaboram com outras pessoas dentro e fora da organização. Isso significa que o conteúdo não fica mais atrás de um firewall, ele pode circular em qualquer lugar, em dispositivos, aplicativos e serviços. E quando estiver em roaming, você quer fazê-lo de uma maneira segura e protegida que atenda às políticas de negócios e conformidade da sua organização.
 
 Os [Rótulos de confidencialidade](sensitivity-labels.md) permitem que você classifique e proteja os dados da sua organização, ao mesmo tempo em que a produtividade do usuário e sua capacidade de colaborar não é prejudicada. Use rótulos de confidencialidade para impor restrições de criptografia e uso aplicar marcas visuais e proteger informações entre plataformas e dispositivos, no local e na nuvem.
 

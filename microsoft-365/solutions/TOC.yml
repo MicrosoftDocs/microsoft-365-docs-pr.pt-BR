@@ -19,12 +19,12 @@
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: Etapa 2. Fornecer acesso remoto
           href: empower-people-to-work-remotely-remote-access.md
-        - name: Etapa 3. Implantar segurança e conformidade
-          href: empower-people-to-work-remotely-security-compliance.md
-        - name: Etapa 4. Implantar o gerenciamento de ponto de extremidade
+        - name: Etapa 3. Implantar o gerenciamento de ponto de extremidade
           href: empower-people-to-work-remotely-manage-endpoints.md
-        - name: Etapa 5. Implantar aplicativos e serviços de produtividade
+        - name: Etapa 4. Implantar aplicativos e serviços de produtividade
           href: empower-people-to-work-remotely-teams-productivity-apps.md
+        - name: Etapa 5. Criar locais de comunicação
+          href: empower-people-to-work-remotely-communication-venues.md
         - name: Etapa 6. Treinar trabalhadores remotos
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Configurar a colaboração segura com o Microsoft 365
@@ -139,8 +139,6 @@
           href: contoso-case-study-solutions.md
         - name: Equipe isolada para um projeto confidencial
           href: contoso-team-for-top-secret-project.md
-        - name: Migração de voz no Teams
-          href: 'https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Guias de Laboratório de Teste
       items:
         - name: Guias de Laboratório de Teste para soluções e cenários

@@ -51,7 +51,7 @@ A ilustração e a descrição a seguir explicam como funciona o processo de imp
     
 3. O conector de parceiro se conecta ao serviço do Azure no Microsoft 365 usando o serviço Web do Exchange (EWS) por meio de um ponto de extremidade conhecido.
     
-4. Items are imported into the mailbox of a specific user or into a "catch-all" third-party data mailbox. Whether an item is imported into a specific user mailbox or to the third-party data mailbox is based on the following criteria:
+4. Os itens são importados para a caixa de correio de um usuário específico ou para uma caixa de correio de dados de terceiros "pega-tudo". Os critérios a seguir definem se um item será importado para a caixa de correio de um usuário específico ou para a caixa de correio de dados de terceiros:
     
    1. **Itens que têm uma ID de usuário que corresponde a uma conta de usuário:** Se o conector de parceiro puder mapear a ID de usuário do item da fonte de dados de terceiros para uma ID de usuário específica no Office 365, o item será copiado para a pasta **limpezas** na pasta itens recuperáveis do usuário. Os usuários não podem acessar os itens na pasta Remoções. No entanto, você pode usar as ferramentas de descoberta eletrônica para pesquisar itens na pasta expurgações.
     

@@ -32,7 +32,7 @@ ms.locfileid: "44779876"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Criar assinaturas e isenções para toda a organização
 
- You can add an email signature, legal disclaimer, or disclosure statement to the email messages that enter or leave your organization. You can set it up to apply to all incoming and outgoing messages as shown below. Or you can apply it to certain messages like those containing specific words or text patterns.
+ Você pode adicionar uma assinatura de email, isenção de responsabilidade ou política de divulgação às mensagens de email que entram ou saem de sua organização. É possível configurar essa mensagem para que ela se aplique a todos os emails enviados e recebidos, conforme é mostrado abaixo. Também é possível aplicá-la a determinados emails, por exemplo, aqueles que contêm palavras ou padrões de texto específicos.
 
  Assista a um pequeno vídeo sobre como criar uma assinatura de email em toda a empresa. <br><br>
   
@@ -89,7 +89,7 @@ Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/
 
 9. Selecione **selecionar um** e escolha **quebrar** como uma opção de fallback. Em seguida, clique em **OK**. Isso significa que, se não for possível adicionar a isenção de responsabilidade devido a criptografia ou outra configuração de email, ela será quebrada automaticamente em um envelope de mensagem.
     
-10. Leave **Audit this rule with severity level** selected. Then choose **Low**, **Medium**, or **High** to be used in the message log. 
+10. Deixe **Auditar esta regra com o nível de severidade** selecionado. Em seguida, escolha **Baixo**, **Médio** ou **Alto** para uso no registro de mensagens. 
     
 11. Escolha **Impor** para ativar a isenção de responsabilidade imediatamente, a menos que você queira testá-la primeiro. 
     
