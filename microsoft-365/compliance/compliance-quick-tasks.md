@@ -12,12 +12,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: Saiba mais sobre tarefas que ajudarão você a começar a usar rapidamente a conformidade no Microsoft 365.
-ms.openlocfilehash: a946d4711111089ba6074b2c264b8edd36a01315
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 26d10840382d044e8126745daec32948571a1be9
+ms.sourcegitcommit: e891c7c25f351f10f250af3f483f68594976ddc9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126610"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45153684"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Tarefas rápidas para introdução à conformidade com o Microsoft 365
 
@@ -101,6 +101,34 @@ O modelo de política de *informações confidenciais* predefinido ajuda você a
 
 Para obter uma orientação passo a passo para planejar e configurar a conformidade de comunicação, consulte [Plan for Communication Compliance](communication-compliance-plan.md) e [introdução à conformidade de comunicação](communication-compliance-configure.md). Para obter informações sobre licenciamento de conformidade de comunicação, confira [diretrizes de licenciamento da Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#communication-compliance).
 
+## <a name="task-9-see-whats-happening-with-your-sensitive-items"></a>Tarefa 9: ver o que está acontecendo com seus itens confidenciais
+
+Os rótulos de confidencialidade, os tipos de informações confidenciais, os rótulos de retenção e as políticas e os classificadores treináveis podem ser usados para classificar e rotular itens confidenciais no Exchange, no SharePoint e no OneDrive, conforme visto nas tarefas anteriores. A última etapa da sua jornada de tarefa rápida é ver quais itens foram rotulados e quais ações seus usuários estão levando nesses itens confidenciais. o [Gerenciador de conteúdo](data-classification-content-explorer.md) e o explorador de [atividade](data-classification-activity-explorer.md) oferecem essa visibilidade.
+
+### <a name="content-explorer"></a>Explorador de conteúdo
+ O Gerenciador de conteúdo permite que você visualize, em seu formato nativo, todos os itens que foram classificados como um tipo de informação confidencial ou pertencentes a uma determinada classificação por um classificador treinado, bem como todos os itens que têm sensibilidade ou rótulo de retenção aplicado.
+
+Para obter uma orientação passo a passo sobre como usar o Gerenciador de conteúdo, confira [conhecer a visão geral dos dados-data classificação](data-classification-overview.md)e começar o [Explorador de conteúdo](data-classification-content-explorer.md).
+
+### <a name="activity-explorer"></a>Explorador de atividade
+O Gerenciador de atividades ajuda você a monitorar o que está sendo feito com seus itens confidenciais classificados e rotulados em:
+- SharePoint
+- Exchange
+- OneDrive
+
+Há mais de 30 filtros diferentes disponíveis para uso, alguns são:
+
+- intervalo de datas
+- tipo de atividade
+- localização
+- usuário
+- rótulo de confidencialidade
+- rótulo de retenção
+- caminho do arquivo
+- Política de DLP
+
+Para obter uma orientação passo a passo para usar o explorador de atividade, confira [introdução ao explorador de atividade](data-classification-activity-explorer.md).
+
 ## <a name="next-steps"></a>Próximas etapas
 
 Agora que você configurou as noções básicas para o gerenciamento de conformidade da sua organização, considere as seguintes soluções de conformidade no Microsoft 365 para ajudá-lo a proteger informações confidenciais e a detectar e a lidar com riscos adicionais Insider.
@@ -113,7 +141,7 @@ Além disso, os rótulos de retenção suportam o [Gerenciamento de registros](r
 
 Para obter uma orientação passo a passo para criar e publicar rótulos de retenção, consulte as orientações a seguir:
 - [Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)
-- [Aplicar um rótulo de retenção ao conteúdo automaticamente](apply-retention-labels-automatically.md)
+- [Aplicar um rótulo de retenção automaticamente ao conteúdo](apply-retention-labels-automatically.md)
 
 Para obter informações sobre licenciamento de gerenciamento de registros, consulte [diretrizes de licenciamento do Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management).
 
@@ -125,7 +153,7 @@ Para obter uma orientação passo a passo para definir tipos de informações co
 
 ### <a name="prevent-data-loss"></a>Evitar a perda de dados
 
-[As políticas de prevenção contra perda de dados (DLP)](data-loss-prevention-policies.md) permitem identificar, monitorar e proteger automaticamente as informações confidenciais em sua organização do Microsoft 365. Use políticas de DLP para identificar informações confidenciais nos serviços da Microsoft, impedir o compartilhamento acidental de informações confidenciais e ajudar os usuários a aprender a manter a conformidade sem interromper o fluxo de trabalho.
+[As políticas de prevenção contra perda de dados (DLP)](data-loss-prevention-policies.md) permitem identificar, monitorar e proteger automaticamente as informações confidenciais em sua organização do Microsoft 365. Use políticas de DLP para identificar itens confidenciais nos serviços da Microsoft, impedir o compartilhamento acidental de itens confidenciais e ajudar os usuários a aprender a manter a conformidade sem interromper o fluxo de trabalho.
 
 Para obter uma orientação passo a passo para configurar políticas de DLP, confira introdução [às recomendações de política de DLP](get-started-with-dlp-policy-recommendations.md) e comece [a usar a política de DLP padrão](get-started-with-the-default-dlp-policy.md). Para obter informações sobre licenciamento de gerenciamento de perda de dados, confira [diretrizes de licenciamento da Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#office-365-data-loss-prevention-for-exchange-online-sharepoint-online-and-onedrive-for-business).
 

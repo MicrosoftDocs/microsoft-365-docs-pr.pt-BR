@@ -1,35 +1,33 @@
 ---
 title: Substituição de TLS 1,0 e 1,1 no Office 365 GCC High e DoD
 description: Discute como a Microsoft está movendo a data para a qual o suporte do TLS 1,1 e 1,0 nos ambientes GCC High e DoD no Office 365 e se prepara para usar o TLS 1,2.
-author: simonxjx
-manager: dcscontentpm
+author: workshay
+manager: laurawi
 localization_priority: Normal
 search.appverid:
 - MET150
 audience: ITPro
-ms.service: O365-seccomp
+ms.collection: M365-security-compliance
+ms.service: information-protection
 ms.topic: article
-ms.author: v-six
-ms.reviewer: lobrion
+ms.reviewer: krowley
+ms.author: shmehta
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: f61c0a809c4666981ee0f2d67eea21474b83a675
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: 76e9b203e58ba7fa23942ea42810456e3bee377d
+ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024811"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158876"
 ---
 # <a name="deprecating-tls-10-and-11-in-office-365-gcc-high-and-dod"></a>Substituição de TLS 1,0 e 1,1 no Office 365 GCC High e DoD
 
-> [!IMPORTANT]
-> O mundo está no meio de uma pandemia, e nós da Microsoft estamos cientes do impacto para nossos clientes e parceiros. Para aliviar a carga de nossos clientes comerciais, suspendemos temporariamente qualquer imposição de preterimento do TLS 1.0 e 1.1. Uma atualização será enviada em uma linha do tempo revisada após a crise atual se estabilizar. (Este artigo é revisado para refletir a mudança.)
-
 ## <a name="summary"></a>Resumo
 
-Para estar em conformidade com os padrões de conformidade mais recentes para o programa de gerenciamento de riscos e autorização (FedRAMP), estamos migrando para substituir as versões 1,1 e 1,0 do protocolo de segurança de camada de transporte (TLS) do Microsoft Office 365 para ambientes GCC High e DoD. Essa alteração foi anunciada anteriormente pelo suporte da Microsoft em [preparação para o uso obrigatório do TLS 1,2 no Office 365](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365).
+Para estar em conformidade com os padrões de conformidade mais recentes para o programa de gerenciamento de riscos e autorização (FedRAMP), estamos reprovando as versões 1,1 e 1,0 do protocolo de segurança da camada de transporte (TLS) do Microsoft Office 365 para os ambientes GCC High e DoD. Essa alteração foi anunciada anteriormente pelo suporte da Microsoft em [preparação para o uso obrigatório do TLS 1,2 no Office 365](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365).
 
-Entendemos que a segurança de seus dados é importante, e estamos comprometidos com a transparência das alterações que podem afetar o uso do serviço.
+A segurança de seus dados é importante, e temos o compromisso de transparência das alterações que podem afetar o uso do serviço.
 
 Embora a [implementação do Microsoft TLS 1,0](https://support.microsoft.com/help/3117336) não tenha vulnerabilidades de segurança conhecidas, continuamos a confirmar os padrões de conformidade do FedRAMP. Portanto, preteriremos o TLS 1,1 e 1,0 no Office 365 em ambientes GCC High e DoD, a partir de 15 de janeiro de 2020. Para obter informações sobre como remover as dependências de TLS 1,1 e 1,0, consulte o White Paper a seguir:
 
