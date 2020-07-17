@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Com o gerenciamento de registros no Microsoft 365, você pode aplicar seus agendamentos de retenção em um plano de arquivo que gerencia a retenção, a declaração e a disposição dos registros.
-ms.openlocfilehash: 48705ac6d0c271ca2646de7c058a340ee3f736ae
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 0179f208f10921293c164516b26440f5bd043517
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818951"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127478"
 ---
 # <a name="records-management-in-microsoft-365"></a>Gerenciamento de registros no Office 365
 
@@ -33,11 +33,11 @@ Organizações de todos os tipos exigem uma solução de gerenciamento de regist
 
 O gerenciamento de registros no Microsoft 365 fornece os seguintes recursos:
 
-- **Conteúdo do rótulo como um registro**. Crie e publique rótulos de retenção que marquem o conteúdo como um [registro](records.md) que possa ser aplicado por usuários finais ou [aplicados automaticamente](labels.md#applying-a-retention-label-automatically-based-on-conditions) identificando informações confidenciais, palavras-chave ou tipos de conteúdo.
+- **Conteúdo do rótulo como um registro**. Crie e publique rótulos de retenção que marquem o conteúdo como um [registro](records.md) que possa ser aplicado por usuários finais ou [aplicados automaticamente](apply-retention-labels-automatically.md) identificando informações confidenciais, palavras-chave ou tipos de conteúdo.
 
 - **Migre e gerencie seus requisitos de retenção com um planejamento de arquivo**. Usando um [plano de arquivo](file-plan-manager.md), é possível introduzir um plano de retenção existente no Microsoft 365 ou criar um novo para os recursos de gerenciamento aprimorados.
 
-- **Estabeleça políticas de retenção e exclusão no rótulo do registro**. Defina os períodos de [retenção](create-retention-policies.md#retaining-content-for-a-specific-period-of-time) e [disposição](create-retention-policies.md#deleting-content-thats-older-than-a-specific-age) com base em vários fatores, incluindo a data da última modificação ou criação.
+- **Defina as configurações de retenção e exclusão com o rótulo de retenção**. Defina os períodos de retenção e ações com base em vários fatores, incluindo a data da última modificação ou criação.
 
 - **Acione a retenção baseada em eventos** com [retenção baseada em eventos](event-driven-retention.md).
 
@@ -48,6 +48,10 @@ O gerenciamento de registros no Microsoft 365 fornece os seguintes recursos:
 - **Defina permissões** específicas para as funções do Gerenciador de registros em [sua organização para que](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)ele tenha o acesso certo.
 
 Com a solução de gerenciamento de registros no Microsoft 365, você pode incorporar as agendas de retenção da sua organização ao plano de arquivo para gerenciar a retenção, a declaração de registros e o descarte para apoiar todo o ciclo de vida do seu conteúdo.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+Confira a [gravação do webinar ](https://aka.ms/MIPC/Video-RecordsManagementWebinar) e as [Perguntas frequentes](https://aka.ms/MIPC/Blog-RecordsManagementWebinar) sobre gerenciamento de registros.
 
 ## <a name="next-steps"></a>Próximas etapas
 

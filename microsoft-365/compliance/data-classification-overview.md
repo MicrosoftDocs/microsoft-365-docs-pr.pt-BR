@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: O painel de classificação de dados permite visualizar a quantidade de dados confidenciais encontrados e classificados em sua organização.
-ms.openlocfilehash: eda58ea2d34713a5c2cef40bbc2aa21b9964ddab
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: a9c7a275a0f3f2db7d931be5af77b00291cdad83
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327867"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127216"
 ---
 # <a name="know-your-data---data-classification-overview"></a>Conheça seus dados - visão geral da classificação de dados
 
-Como administrador de conformidade ou administrador do Microsoft 365, você pode avaliar e marcar o conteúdo da sua organização para controlar o seu destino, protegê-lo independentemente de onde ele estiver e garantir que ele seja preservado e excluído de acordo com as necessidades da sua organização. Isso é feito através da aplicação de [rótulos de confidencialidade](sensitivity-labels.md), [rótoulos de retenção](labels.md) classificação de tipos de informações confidenciais. Há várias maneiras de fazer a descoberta, a avaliação e a marcação, mas o resultado final é que você pode acabar tendo um número muito grande de documentos e emails marcados e classificados com um ou ambos os rótulos. Depois de criar seus rótulos de retenção e rótulos de confidencialidade, você vai querer saber como eles estão sendo usados em seu locatário e o que está sendo feito com esses itens. A página classificação de dados dá visibilidade ao corpo do conteúdo, especificamente:
+Como administrador de conformidade ou administrador do Microsoft 365, você pode avaliar e marcar o conteúdo da sua organização para controlar o seu destino, protegê-lo independentemente de onde ele estiver e garantir que ele seja preservado e excluído de acordo com as necessidades da sua organização. Isso é feito através da aplicação de [rótulos de confidencialidade](sensitivity-labels.md), [rótoulos de retenção](retention.md#retention-labels) classificação de tipos de informações confidenciais. Há várias maneiras de fazer a descoberta, a avaliação e a marcação, mas o resultado final é que você pode acabar tendo um número muito grande de documentos e emails marcados e classificados com um ou ambos os rótulos. Depois de criar seus rótulos de retenção e rótulos de confidencialidade, você vai querer saber como eles estão sendo usados em seu locatário e o que está sendo feito com esses itens. A página classificação de dados dá visibilidade ao corpo do conteúdo, especificamente:
 
 - o número de itens que foram classificados como um tipo de informação confidencial e quais são essas classificações
 - os principais rótulos de confidencialidade aplicados tanto no Microsoft 365 quanto na Proteção de Informações do Azure
@@ -79,9 +79,9 @@ Para saber quantos itens estão em uma determinada categoria de classificação,
 
 > [!NOTE]
 > Se o cartão exibir a mensagem «não foram encontrados dados com informações confidenciais». Isso significa que não há nenhum item em sua organização que tenha sido classificado como sendo um tipo de informação confidencial ou nenhum item que tenha sido rastreado. Para começar a usar os rótulos, confira:
->- [Rótulos de confidencialidade ](sensitivity-labels.md)
->- [Rótulos de retenção](labels.md)
->- [Definições da entidade por tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
+>- [Introdução ao rótulos de confidencialidade](get-started-with-sensitivity-labels.md)
+>- [Introdução às políticas de retenção e rótulos de retenção](get-started-with-retention.md)
+>- [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
 
 ## <a name="top-sensitivity-labels-applied-to-content"></a>Principais rótulos de confidencialidade aplicados ao conteúdo
 
@@ -104,7 +104,7 @@ O cartão de identificação de confidencialidade mostra o número de itens (ema
 
 ## <a name="top-retention-labels-applied-to-content"></a>Principais rótulos de retenção aplicados ao conteúdo
 
-Os rótulos de retenção são usados para manejar a disposição do conteúdo de sua organização. Quando aplicados, eles podem ser usados para controlar quanto tempo um documento será mantido antes da exclusão, se ele deve ser revisado antes da exclusão, quando o período de retenção expira ou se ele deve ser marcado como um registro que nunca pode ser excluído. Para mais informações, confira a [Visão geral dos rótulos de retenção](labels.md).
+Os rótulos de retenção são usados para manejar a disposição do conteúdo de sua organização. Quando aplicados, eles podem ser usados para controlar quanto tempo um documento será mantido antes da exclusão, se ele deve ser revisado antes da exclusão, quando o período de retenção expira ou se ele deve ser marcado como um registro que nunca pode ser excluído. Para obter mais informações, consulte [Saiba mais sobre políticas e rótulos de retenção](retention.md).
 
 O cartão dos principais rótulos de retenção aplicados mostra quantos itens têm um determinado rótulo de retenção.
 
@@ -112,7 +112,7 @@ O cartão dos principais rótulos de retenção aplicados mostra quantos itens t
 
 > [!NOTE]
 > Se este cartão exibir a mensagem "Nenhum rótulo de retenção detectado", isso significa que você não criou ou publicou qualquer rótulo de retenção ou que nenhum conteúdo teve qualquer rótulo de retenção aplicado.   Para começar a usar os rótulos de retenção, confira:
->- [Visão geral de rótulos de retenção](labels.md)
+>- [Introdução às políticas de retenção e rótulos de retenção](get-started-with-retention.md)
 
 ## <a name="top-activities-detected"></a>Atividades detectadas mais comuns
 
@@ -134,8 +134,7 @@ O objetivo do relatório de classificação de dados é fornecer visibilidade so
 
 - [Exibir atividade do rótulo (visualização)](data-classification-activity-explorer.md)
 - [Exibir conteúdo rotulado (visualização)](data-classification-content-explorer.md)
-- [Rótulos de confidencialidade ](sensitivity-labels.md)
-- [Rótulos de retenção](labels.md)
-- [Definições da entidade por tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
-- [Visão geral de políticas de retenção](retention-policies.md)
+- [Saiba mais sobre rótulos de confidencialidade](sensitivity-labels.md)
+- [Saiba mais sobre as políticas de retenção e os rótulos de retenção](retention.md)
+- [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
 - [Introdução aos classificadores treináveis (visualização)](classifier-getting-started-with.md)
