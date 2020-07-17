@@ -27,7 +27,7 @@ ms.locfileid: "44817650"
 ---
 # <a name="intune-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de Entidades de Dados para o RGPD e CCPA
 
-The European Union [General Data Protection Regulation (GDPR)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) gives rights to people (known in the regulation as *data subjects*) to manage the personal data that has been collected by an employer or other type of agency or organization (known as the *data controller* or just *controller*). Personal data is defined very broadly under the GDPR as any data that relates to an identified or identifiable natural person. The GDPR gives data subjects specific rights to their personal data; these rights include obtaining copies of personal data, requesting corrections to it, restricting the processing of it, deleting it, or receiving it in an electronic format so it can be moved to another controller. A formal request by a data subject to a controller to take an action on their personal data is called a *Data Subject Request* or DSR.
+O Regulamento Geral [de Proteção de Dados da União Europeia (GDPR)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) concede direitos às pessoas (conhecidas no regulamento como *titulares de dados*) para gerenciarem os dados pessoais coletados por um empregador ou outro tipo de agência ou organização (conhecido como *controlador de dados* ou apenas *controlador*). Os dados pessoais são definidos de maneira muito ampla, sob o GDPR, assim como qualquer dado relacionado à uma pessoa física identificada ou identificável. O GDPR concede aos titulares de dados direitos específicos sobre seus dados pessoais; esses direitos incluem obter cópias dos dados pessoais, solicitar correções, restringir o processamento, excluí-los ou recebê-los em formato eletrônico para que possam ser movidos para outro controlador. Uma solicitação formal de um titular de dados a um controlador para executar uma ação em seus dados pessoais é chamada de *Solicitação de titular de dados* ou DSR.
 
 Da mesma forma, a Lei de Privacidade do Consumidor da Califórnia (CCPA), fornece direitos e obrigações de privacidade aos consumidores da Califórnia, incluindo direitos semelhantes aos Direitos do Titular dos Dados do GDPR, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais.  O CCPA também fornece certas divulgações, proteções contra discriminação ao eleger direitos de exercício e requisitos de "aceitação/recusa" para determinadas transferências de dados classificadas como "vendas". As vendas são amplamente definidas para incluir o compartilhamento de dados para uma consideração valiosa. Para obter mais informações sobre o CCPA, confira a [Lei de Privacidade do Consumidor da Califórnia](offering-ccpa.md) e as [Perguntas Frequentes Sobre a Lei de Privacidade do Consumidor da Califórnia](ccpa-faq.md).
 
@@ -61,29 +61,29 @@ Este guia consiste em duas partes:
 
 ### <a name="understanding-dsrs-for-azure-active-directory-and-microsoft-intune"></a>Noções básicas sobre DSRs para Azure Active Directory e Microsoft Intune
 
-When considering services provided to enterprise customers, execution of DSRs must always be understood within the context of a specific Azure Active Directory (AAD) tenant. Notably, DSRs are always executed within a given AAD tenant. If a user is participating in multiple tenants, it is important to emphasize that a given DSR is *only* executed within the context of the specific tenant the request was received within. This is critical to understand as it means the execution of a DSR by one enterprise customer **will not** impact the data of an adjacent enterprise customer.
+Ao considerar serviços fornecidos para clientes empresariais, a execução de DSRs sempre deve ser compreendida no contexto de um locatário específico do Azure Active Directory (AAD). As DSRs sempre são executadas em um determinado locatário do AAD. Se um usuário fizer parte de vários locatários, é importante enfatizar que uma determinada DSR é executada *apenas* no contexto do locatário específico no qual a solicitação foi recebida. É essencial entender que isso significa que a execução da DSR por um cliente corporativo **não** afeta os dados de um cliente corporativo adjacente.
 
-The same also applies for Microsoft Intune provided to an enterprise customer: execution of a DSR against an Intune account *associated with an AAD tenant* **will only** pertain to data within the tenant. In addition, it is important to understand the following when handling Intune accounts within a tenant:
+O mesmo também se aplica ao Microsoft Intune fornecido a um cliente corporativo: execução de um DSR em uma conta do Intune *associada a um locatário do AAD* **se refere apenas** aos dados dentro do locatário. Além disso, é importante compreender o seguinte ao lidar com a contas do Intune em um locatário:
 
-- If an Intune user creates an Azure subscription, the subscription will be handled as if it were an AAD tenant. Consequently, DSRs are scoped within the tenant as described above.
-- If an Azure subscription created via an Intune account is deleted, **it will not affect** the actual Intune account. Again, as noted above, DSRs executing within the Azure subscription are limited to the scope of the tenant itself.
+- Se um usuário do Intune criar uma assinatura do Azure, a assinatura será tratada como se fosse um locatário do AAD. Consequentemente, o escopo dessas DSRs está no locatário, como descrito acima.
+- Se for excluída uma assinatura do Azure criada por uma conta do Intune, **isso não afetará** a conta do Intune em si. Novamente, como mencionado acima, os DSRs em execução em assinaturas do Azure são limitadas ao escopo do locatário em si.
 
-DSRs against an Intune account itself, **outside a given tenant**, are executed via the Consumer Privacy Dashboard. Please refer to the Windows Data Subject Request Guide for further details.
+Os DSRs em relação à própria conta do Intune, **fora de um determinado locatário**, são executados por meio do Painel de Privacidade do Cliente. Consulte o Guia de Solicitações de Titulares de Dados do Windows para saber mais.
 
 ## <a name="part-1-dsr-guide-for-customer-data"></a>Parte 1: Guia DSR para dados de clientes
 
 ### <a name="executing-dsrs-against-customer-data"></a>Executar os DSRs em relação aos dados de cliente
 
-Microsoft provides the ability to access, delete, and export certain Customer Data through the Azure Portal and also directly via pre-existing application programming interfaces (APIs) or user interfaces (UIs) for specific services (also referred to as *in-product experiences*). Details regarding such in-product experiences are described in the respective services' reference documentation.
+A Microsoft fornece a capacidade de acessar, excluir e exportar determinados Dados do cliente através do Portal do Azure e também diretamente através de APIs (interfaces de programação de aplicativos) preexistentes ou interfaces de usuário (UIs) para serviços específicos (também chamados de *experiências no produto*). Detalhes sobre essas experiências no produto estão descritos na documentação de referência dos respectivos serviços.
 
 >[!IMPORTANT]  
->Services supporting in-product DSRs require direct usage of the service's application programming interface (API) or user interface (UI), describing applicable CRUD (create, read, update, delete) operations. Consequently, execution of DSRs within a given service must be done in addition to execution of a DSR within the Azure Portal in order to complete a full request for a given data subject. Please refer to specific services' reference documentation for further details.
+>Os serviços que suportam DSRs no produto requerem o uso direto da API (Interface de Programação de Aplicativos) do serviço ou da Interface do usuário (UI), descrevendo as operações CRUD aplicáveis (criar, ler, atualizar, excluir). Consequentemente, a execução de DSRs em um determinado serviço deve ser feita além da execução de um DSR no Portal do Azure para concluir uma solicitação total para um determinado titular de dados. Consulte a documentação de referência de serviços específicos para obter mais detalhes.
 
 ### <a name="step-1-discover"></a>Etapa 1: Descoberta
 
-The first step in responding to a DSR is to find the personal data that is the subject of the request. This first step - finding and reviewing the personal data at issue - will help you determine whether a DSR meets your organization's requirements for honoring or declining a DSR. For example, after finding and reviewing the personal data at issue, you may determine the request doesn't meet your organization's requirements because doing so may adversely affect the rights and freedoms of others.
+A primeira etapa para responder a um DSR é encontrar os dados pessoais que são o assunto da solicitação. Esta primeira etapa - encontrar e revisar os dados pessoais em questão - o ajudará a determinar se um DSR atende aos requisitos da sua organização para honrar ou recusar um DSR. Por exemplo, depois de encontrar e revisar os dados pessoais em questão, você pode determinar que a solicitação não atende aos requisitos da sua organização, pois isso pode afetar adversamente os direitos e liberdades de outras pessoas.
 
-After you find the data, you can then perform the specific action to satisfy the request by the data subject. For details, see the following:
+Depois de encontrar os dados, você pode executar uma ação específica que atenda à solicitação feita pelo titular dos dados. Para obter detalhes, confira o seguinte:
 
 - [Conjunto de dados](https://docs.microsoft.com/intune/privacy-data-collect)
 - [Armazenamento e processamento de dados](https://docs.microsoft.com/intune/privacy-data-store-process)
@@ -91,7 +91,7 @@ After you find the data, you can then perform the specific action to satisfy the
 
 ### <a name="step-2-access"></a>Etapa 2: Acesso
 
-After you've found Customer Data containing personal data that is potentially responsive to a DSR, it is up to you and your organization to decide which data to provide to the data subject. You can provide them with a copy of the actual document, an appropriately redacted version, or a screenshot of the portions you have deemed appropriate to share. For each of these responses to an access request, you will have to retrieve a copy of the document or other item that contains the responsive data.
+Depois de encontrar os Dados do cliente que contêm dados pessoais que são potencialmente responsivos a um DSR, você e sua organização decidem quais dados devem fornecer ao titular dos dados. Você pode fornecer-lhes uma cópia do documento real, uma versão adequadamente editada ou uma captura de tela das partes que você considera adequadas de serem compartilhadas. Para cada uma dessas respostas à uma solicitação de acesso, você precisará recuperar uma cópia do documento ou outro item que contenha os dados responsivos.
 
 Ao oferecer uma cópia ao titular dos dados, talvez você tenha que remover ou redigir informações pessoais sobre outros titulares de dados e quaisquer informações confidenciais.
 
@@ -107,9 +107,9 @@ O Microsoft Intune fornece a capacidade de [descobrir os Dados dos Clientes](#st
 
 ### <a name="step-3-rectify"></a>Etapa 3: Retificação
 
-If a data subject has asked you to rectify the personal data that resides in your organization's data, you and your organization will have to determine whether it's appropriate to honor the request. Rectifying the data may include taking actions such as editing, redacting, or removing personal data from a document or other type or item.
+Se um titular de dados solicitar que você retifique os dados pessoais que residem nos dados da sua organização, você e sua organização terão que determinar se é apropriado atender à solicitação. A retificação dos dados pode incluir ações como editar, redigir ou remover dados pessoais de um documento ou outro tipo ou item.
 
-As a data processor, Microsoft does not offer the ability to correct system-generated logs as it reflects factual activities and constitutes a historical record of events within Microsoft services. With respect to Intune, admins can't update device or app specific information. If an end user wants to correct any personal data (like the device name), they must do so directly on their device. Such changes are synchronized the next time they connect to Intune.
+Como processador de dados, a Microsoft não oferece a capacidade de corrigir logs gerados pelo sistema, pois reflete atividades factuais e constitui um registro histórico de eventos nos serviços da Microsoft. Com relação ao Intune, os administradores não podem atualizar informações específicas do dispositivo ou aplicativo. Se um usuário final quiser corrigir quaisquer dados pessoais (como o nome do dispositivo), deverá fazê-lo diretamente no dispositivo. Essas alterações são sincronizadas na próxima vez que se conectarem ao Intune.
 
 ### <a name="step-4-restrict"></a>Etapa 4: Restrição
 
@@ -117,11 +117,11 @@ Os entidades de dados podem solicitar que você restrinja o processamento de seu
 
 ### <a name="step-5-delete"></a>Etapa 5: Exclusão
 
-The "right to erasure" by the removal of personal data from an organization's Customer Data is a key protection in the GDPR. Removing personal data includes removing all personal data and system-generated logs, except audit log information. For details, see [Delete end user personal data](https://docs.microsoft.com/intune/privacy-data-audit-export-delete#delete-end-user-personal-data).
+O "direito de apagar" pela remoção de dados pessoais dos Dados do cliente de uma organização é uma proteção essencial no GDPR. A remoção de dados pessoais inclui a remoção de todos os dados pessoais e logs gerados pelo sistema, exceto as informações do log de auditoria. Para mais detalhes, consulte [Excluir dados pessoais do usuário final](https://docs.microsoft.com/intune/privacy-data-audit-export-delete#delete-end-user-personal-data).
 
 ## <a name="part-2-system-generated-logs"></a>Parte 2: Logs gerados pelo sistema
 
-Audit logs provide tenant admins with a record of activities that generate a change in Microsoft Intune. Audit logs are available for many manage activities and typically create, update (edit), delete, and assign actions. Remote tasks that generate audit events can also be reviewed. These audit logs may contain personal data from users whose devices are enrolled in Intune. Admins can't delete audit logs. For details, see [Audit personal data](https://docs.microsoft.com/intune/privacy-data-audit-export-delete#audit-personal-data).
+Os logs de auditoria dão aos administradores de locatário um registro de atividades que geram uma alteração no Microsoft Intune. Os Logs de Auditoria disponíveis para várias atividades de gerenciamento e normalmente criam, atualizam (editam), excluem e atribuem ações. Também é possível revisar tarefas remotas que geram eventos de auditoria. Esses logs de auditoria podem conter dados pessoais de usuários cujos dispositivos estão registrados no Intune. Os administradores não podem excluir os logs de auditoria. Para saber mais, confira [Auditoria de dados pessoais](https://docs.microsoft.com/intune/privacy-data-audit-export-delete#audit-personal-data).
 
 ## <a name="notify-about-exporting-or-deleting-issues"></a>Notificar problemas de exportação ou exclusão
 

@@ -67,7 +67,7 @@ No caso de um novo dispositivo que executa a Atualização do Windows 10 Pro par
     
 3. Conclua a configuração do dispositivo Windows 10.
     
-   Once you're done, the user will be connected to your organization's Azure AD. See [Verify the device is connected to Azure AD](#verify-the-device-is-connected-to-azure-ad) to make sure. 
+   Quando terminar, o usuário será conectado ao Azure AD de sua organização. Para garantir a conexão, confira [Verifique se o dispositivo está conectado ao Azure AD](#verify-the-device-is-connected-to-azure-ad). 
   
 ### <a name="for-a-device-already-set-up-and-running-windows-10-pro"></a>Para um dispositivo já configurado executando o Windows 10 Pro
 
@@ -97,7 +97,7 @@ No caso de um novo dispositivo que executa a Atualização do Windows 10 Pro par
   
 6. Na página **Verifique se esta é sua organização** , verifique se as informações estão corretas e clique em **ingressar**.
   
-   On the **You're all set!** page, click **Done**.
+   Na página **Tudo pronto!**, clique em **Concluído**.
   
    ![On the Make sure this is your organization screen, click Join](../media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   

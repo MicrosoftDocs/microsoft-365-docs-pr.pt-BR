@@ -62,7 +62,7 @@ A tabela a seguir lista o que ocorrerá automaticamente quando você atribuir um
 
 ## <a name="understand-licenses-for-non-user-mailboxes"></a>Noções básicas sobre licenças para caixas de correio de não usuário
 
-You don't need to assign licenses to resource mailboxes, room mailboxes, and shared mailboxes, except when they are over their storage quota of 50 gigabytes (GB). For more about non-user mailboxes, see the following articles:
+Você não precisa atribuir licenças para caixas de correio compartilhadas, a não ser que elas excedam suas cotas de armazenamento de 50 GB (gigabytes). Para saber mais sobre caixas de correio de não usuários, confira os seguintes artigos:
   
 - [Criar uma caixa de correio compartilhada](../../admin/email/create-a-shared-mailbox.md)
 - [Remover uma licença de uma caixa de correio compartilhada](../../admin/email/remove-license-from-shared-mailbox.md)
@@ -72,7 +72,7 @@ You don't need to assign licenses to resource mailboxes, room mailboxes, and sha
 
 ## <a name="who-can-assign-licenses"></a>Quem pode atribuir licenças?
 
-Different types of admins can work with licenses in different ways, depending on their roles. The following table lists the most common options. For a complete list of admin roles and privileges, see [About admin roles](../../admin/add-users/about-admin-roles.md).
+Diferentes tipos de administradores podem trabalhar com licenças de diferentes formas, dependendo de suas funções. A tabela a seguir lista as opções mais comuns. Para obter uma lista completa de funções e privilégios de administradores, confira [Sobre as funções de administrador](../../admin/add-users/about-admin-roles.md).
   
 |**Função do administrador**|**Atribuir uma licença**|**Cancelar a atribuição de uma licença**|**Comprar mais licenças**|**Excluir uma conta**|
 |:-----|:-----|:-----|:-----|:-----|

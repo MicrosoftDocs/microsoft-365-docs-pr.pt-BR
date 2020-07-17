@@ -91,7 +91,7 @@ Sim. Os metadados da mensagem original não são alterados durante o processo de
   
  **Há um limite para o número de níveis em uma hierarquia de pastas de um arquivo PST que quero importar para uma caixa de correio?**
   
-Yes. You can't import a PST file that has 300 or more levels of nested folders.
+Sim. Não é possível importar um arquivo PST com 300 ou mais níveis de pastas aninhadas.
   
  **Posso usar o carregamento de rede para importar arquivos PST para uma caixa de correio inativa no Office 365?**
   
@@ -152,7 +152,7 @@ Você pode enviar no máximo 10 discos rígidos para um único trabalho de impor
   
  **Após o envio do meu disco rígido, quanto tempo ele leva para chegar ao data center da Microsoft?**
   
-That depends on a few things, such as your proximity to the Microsoft data center and what kind of shipping option you used to ship your hard drive (such as, next-day delivery, two-day delivery, or ground-delivery). With most shippers, you can use the tracking number to track the status of your delivery.
+Isso depende de alguns pontos, como da sua proximidade com o data center da Microsoft e com o tipo de opção de envio utilizada para enviar o seu disco rígido (como, entrega no próximo dia, entrega em dois dias ou entrega em tempo normal). Com a maioria das transportadoras, é possível usar o número de rastreamento para acompanhar o status da entrega.
   
  **Depois que meu disco rígido chegar ao data center da Microsoft, quanto tempo será necessário para carregar meus arquivos PST para o Azure?**
   
@@ -190,7 +190,7 @@ Sim. Os metadados da mensagem original não são alterados durante o processo de
   
  **Há um limite para o número de níveis em uma hierarquia de pastas de um arquivo PST que quero importar para uma caixa de correio?**
   
-Yes. You can't import a PST file that has 300 or more levels of nested folders.
+Sim. Não é possível importar um arquivo PST com 300 ou mais níveis de pastas aninhadas.
   
  **Posso usar o envio de unidade para importar arquivos PST para uma caixa de correio inativa no Microsoft 365?**
   
@@ -206,19 +206,19 @@ Não. Não é possível importar arquivos PST para pastas públicas.
   
  **A Microsoft pode apagar meu disco rígido antes de enviá-lo de volta para mim?**
   
-No, Microsoft can't wipe hard drives before shipping them back to customers. Hard drives are returned to you in the same state they were in when they were received by Microsoft.
+Não, a Microsoft não pode apagar discos rígidos antes de enviá-los de volta aos clientes. Os discos rígidos são devolvidos no mesmo estado em que estavam quando foram recebidos pela Microsoft.
   
  **A Microsoft pode destruir meu disco rígido em vez de enviá-lo de volta para mim?**
   
-No, Microsoft can't destroy your hard drive. Hard drives are returned to you in the same state they were in when they were received by Microsoft.
+Não, a Microsoft não pode destruir seu disco rígido. Os discos rígidos são devolvidos no mesmo estado em que estavam quando foram recebidos pela Microsoft.
   
  **Quais serviços de entrega têm suporte para a remessa de devolução?**
   
-If you're a customer in the United States or Europe, Microsoft uses FedEx to return your hard drive. For all other regions, Microsoft uses DHL.
+Se você estiver nos Estados Unidos ou na Europa, a Microsoft utilizará a FedEx para a devolução do seu disco rígido. Para todas as demais regiões, a Microsoft utilizará a DHL.
   
  **Quais são os custos da remessa de devolução?**
   
-Return shipping costs vary, depending on your proximity to the Microsoft data center that you shipped your hard drive to. Microsoft will bill your FedEx or DHL account to return your hard drive. The cost of return shipping is your responsibility.
+Os custos da remessa de devolução variam, dependendo da sua proximidade em relação ao data center da Microsoft para o qual você enviou o seu disco rígido. A Microsoft cobrará o valor cobrado pela FedEx ou DHL para a devolução do seu disco rígido. O custo para a remessa de devolução é de sua responsabilidade.
   
  ** Posso usar um serviço de entrega personalizado, como a Remessa Personalizada da FedEx, para enviar meu disco rígido à Microsoft? **
   
@@ -226,4 +226,4 @@ Sim.
   
  **Se eu tiver que enviar meu disco rígido para outro país, há algo que precise ser feito?**
   
-The hard drive that you ship to Microsoft might have to cross international borders. If this is the case, you're responsible for ensuring that the hard drive and the data it contains are imported and/or exported in accordance with the applicable laws. Before shipping a hard drive, check with your advisors to verify that your drive and data can legally be shipped to the specified Microsoft data center. This will help to ensure that it reaches Microsoft in a timely manner.
+O disco rígido que você enviará para a Microsoft terá talvez que cruzar fronteiras internacionais. Se esse for o caso, você é responsável por garantir que o disco rígido e os dados contidos nele sejam importados e/ou exportados de acordo com a legislação aplicável. Antes de enviar um disco rígido, verifique com seu consultores se a unidade e os dados podem ser legalmente enviados para o centro de dados especificado da Microsoft. Isso ajudará a garantir que ele chegue à Microsoft em tempo hábil.

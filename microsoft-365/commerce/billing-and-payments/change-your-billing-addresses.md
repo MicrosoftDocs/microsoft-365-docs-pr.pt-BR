@@ -47,9 +47,9 @@ Sua cobrança ou fatura contém três endereços:
 
 - **Endereço para cobrança** O endereço do departamento de cobrança, normalmente, é o mesmo endereço descrito no campo **Vendido para**.
 
-- **Service Usage Address** The address where the service is being used, usually the same as the **Sold-To** address. If your organization has remote users or multiple offices, use the address where the majority of your users are located.
+- **Endereço de uso do serviço** O endereço no qual o serviço está sendo usado, normalmente, é o mesmo endereço descrito no campo **Vendido para**. Caso a organização tenha usuários remotos ou vários escritórios, use o endereço em que a maioria dos usuários está localizada.
 
-In most cases, these addresses are the same. If you need to change one or more of the addresses, you can do that. You can also provide an alternate email address to receive billing notifications, and change the alternate email address for other admins.
+Na maioria dos casos, esses endereços são os mesmos. Se precisar alterar um ou mais dos endereços, é possível fazê-lo. Você pode também fornecer um endereço de email alternativo para receber notificações de cobrança e alterar o endereço de email alternativo para outros administradores.
   
 ::: moniker range="o365-worldwide"
 

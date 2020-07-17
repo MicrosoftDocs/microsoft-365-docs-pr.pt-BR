@@ -21,6 +21,7 @@ ms.custom:
 description: A Proteção Avançada contra Ameaças do Office 365 inclui anexos seguros, links seguros, ferramentas antiphishing avançadas, ferramentas de relatório e recursos de inteligência de ameaças.
 ms.openlocfilehash: ffde9288338f14ea23fa39990ccd9363c7fd2a84
 ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/06/2020
 ms.locfileid: "45039373"

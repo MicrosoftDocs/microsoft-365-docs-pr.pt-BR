@@ -17,6 +17,7 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.openlocfilehash: 8a435b220343bd0353f2e0ef85ddf856ebf3e8aa
 ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/07/2020
 ms.locfileid: "45049935"

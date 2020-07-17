@@ -32,7 +32,7 @@ Esta seção de configuração mostra a um gerente de Descoberta Eletrônica do 
   
 ## <a name="accessing-a-case-in-advanced-ediscovery"></a>Como acessar um caso na Descoberta Eletrônica Avançada
 
-You access Advanced eDiscovery from the Security &amp; Compliance Center. You have to be a member of an eDiscovery case in the Security &amp; Compliance Center to access the case in Advanced eDiscovery. For instructions about assigning eDiscovery case permissions and adding users to an eDiscovery case, see [Manage eDiscovery cases in Office 365](ediscovery-cases.md). 
+Você acessa a Descoberta Eletrônica Avançada no Centro de Conformidade e Segurança. Você precisa ser membro de um caso de Descoberta Eletrônica no Centro de Conformidade e Segurança para acessar o caso na Descoberta Eletrônica Avançada. Confira as instruções sobre como atribuir permissões de caso de Descoberta Eletrônica e adicionar usuários a um caso de Descoberta Eletrônica em [Gerenciar casos de Descoberta Eletrônica no Office 365](ediscovery-cases.md). 
   
 Para ir a um caso na Descoberta Eletrônica Avançada: 
   
@@ -44,7 +44,7 @@ Para ir a um caso na Descoberta Eletrônica Avançada:
     
 4. Na página **Início** do caso, clique em **Alternar para Avançar o eDiscovery**.
     
-    The **Connecting to Advanced eDiscovery** progress bar is displayed. When you're connected, the case is opened in Advanced eDiscovery. 
+    A barra de progresso **Conectar-se à Descoberta Eletrônica Avançada** aparece. Quando você estiver conectado, o caso abrirá na Descoberta Eletrônica Avançada. 
     
 ## <a name="workflow"></a>Fluxo de trabalho
 
@@ -52,15 +52,15 @@ O diagrama a seguir ilustra o fluxo de trabalho comum para gerenciar e usar os c
   
 ![Diagrama que mostra o fluxo de trabalho da Descoberta Eletrônica Avançada com quatro fases de instalação, inclusive a configuração de usuários &amp; casos, identificação dos dados de caso, exportação e processamento, além das fases de análise e exportação para o computador local.](../media/76589ccc-789d-4581-b3a8-98d339b05979.png)
   
-This setup section describes the first four steps in the workflow. For a description of the other steps in the workflow, see the following.
+Esta seção de configuração descreve as quatro primeiras etapas do fluxo de trabalho. Confira a descrição das etapas do fluxo de trabalho a seguir.
   
 ## <a name="analyze"></a>Análise
 
-[Analyzing case data](analyze-case-data-with-advanced-ediscovery.md) Identifies and organizes the files by various parameters, enables the use of Themes, and displays the results. Analyze functionality can be customized by the user in order to achieve enhanced results. 
+[Analisar dados de casos](analyze-case-data-with-advanced-ediscovery.md) Identifica e organiza os arquivos por vários parâmetros, habilita o uso de temas e exibe os resultados. A funcionalidade de análise pode ser personalizada pelo usuário com a finalidade de obter resultados aprimorados. 
   
 ## <a name="relevance-setup-and-relevance"></a>Configuração da relevância e relevância
 
-[Relevance Setup](manage-relevance-setup-in-advanced-ediscovery.md) and [Using the Relevance module](use-relevance-in-advanced-ediscovery.md) Enables assessment and relevance training based on a random sample of files and uses them to apply decisions to the predictive coding process. Calculates and displays interim results while monitoring statistical validity of the process. Displays the results to facilitate in making review decisions. 
+[Configuração de relevância](manage-relevance-setup-in-advanced-ediscovery.md) e [Uso do módulo de relevância](use-relevance-in-advanced-ediscovery.md) Permite avaliação e treinamento de relevância com base em uma amostra aleatória de arquivos e os usa para aplicar decisões ao processo de codificação preditiva. Calcula e exibe os resultados provisórios enquanto monitora a validade estatística do processo. Exibe os resultados para facilitar a tomada de decisões da análise. 
   
 ## <a name="export"></a>Exportação
 

@@ -115,9 +115,9 @@ Não é necessário cancelar a avaliação. Se você não comprar a assinatura d
 
 - **As informações de endereço e de contato para sua assinatura:**
 
-  - **Country** where the services will be used. You **won't** be able to change this later, even during the sign up process; you'll have to re-start the sign up wizard.
+  - O **país/região** onde os serviços serão usados. **Não** será possível alterá-lo mais tarde, mesmo durante o processo de inscrição; será necessário iniciar novamente o assistente de inscrição.
 
-  - **Email** and **phone number** so we can contact you if needed about your subscription. For example, if you forget your password, we would use this information to send you a temporary one. We also send your billing information to the email address you specify.
+  - O **Email** e o **número de telefone** para que possamos entrar em contato, caso seja necessário tratar sobre sua assinatura. Por exemplo, se você esquecer sua senha, poderemos usar essas informações para lhe enviar uma senha temporária. Também poderemos enviar suas informações de cobrança para o endereço de email que você especificar.
 
     > [!NOTE]
     > O endereço de email inserido aqui é diferente do seu endereço de email do Microsoft 365 (seu nome de logon, abaixo). Recomendamos que você use um endereço de email adequado para receber emails comerciais, pois é aqui que você receberá as informações de cobrança.

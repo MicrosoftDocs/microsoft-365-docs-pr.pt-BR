@@ -24,6 +24,7 @@ ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Saiba como cancelar sua assinatura de avaliação do Microsoft 365 for Business ou pago.
 ms.openlocfilehash: 746060596010fd80816e19dece093d91fe850c30
 ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/07/2020
 ms.locfileid: "45049743"

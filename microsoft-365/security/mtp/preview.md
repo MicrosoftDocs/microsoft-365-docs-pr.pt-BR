@@ -21,6 +21,7 @@ search.appverid:
 - MET150
 ms.openlocfilehash: 45bc42e825c55ca228b13e8d308f9a1384301d07
 ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/06/2020
 ms.locfileid: "45048262"

@@ -19,6 +19,7 @@ ms.custom: ''
 description: Exigir que seus funcionários remotos entrem com autenticação multifator (MFA).
 ms.openlocfilehash: 57febcb68b09ffcbbb1694100b31d7d75158d872
 ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/23/2020
 ms.locfileid: "44844949"

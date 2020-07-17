@@ -44,7 +44,7 @@ Há duas fases para configurar esse ambiente de teste:
   
 ## <a name="phase-1-create-the-microsoft-365-simulated-enterprise-test-environment"></a>Fase 1 – Criar o ambiente de teste corporativo simulado do Microsoft 365
 
-Follow the instructions in [simulated enterprise base configuration for Microsoft 365](simulated-ent-base-configuration-microsoft-365-enterprise.md). Here is your resulting configuration.
+Siga as instruções da [configuração base corporativa simulada do Microsoft 365](simulated-ent-base-configuration-microsoft-365-enterprise.md). Aqui está a configuração resultante.
   
 ![A configuração base corporativa simulada](../media/password-hash-sync-m365-ent-test-environment/Phase1.png)
   

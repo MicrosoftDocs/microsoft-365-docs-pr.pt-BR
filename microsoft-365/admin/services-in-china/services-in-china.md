@@ -108,12 +108,12 @@ Se quiser saber como começar a usar os serviços gerais do Office 365, confira 
  Novo com o Exchange 2013 atualização cumulativa 5 (CU5), as implantações híbridas de destaque completo entre as organizações do Exchange 2013 local e os serviços do Office 365 agora são suportadas. Aproveitando novos aprimoramentos no assistente de configuração híbrida, o Exchange 2013 CU5 oferece suporte aos seguintes recursos híbridos entre suas organizações locais e do Exchange Online:  
 
 - Roteamento de email seguro entre organizações locais e do Exchange online. 
-- Mail routing with a shared domain namespace. For example, both on-premises and Exchange Online organizations use the @contoso.com SMTP domain. 
+- Roteamento de mensagens com um namespace de domínio compartilhado. Por exemplo, as organizações locais e do Exchange Online usam o domínio de SMTP @contoso.com. 
 - Uma GAL (lista de endereços global) unificada, também chamada de "catálogo de endereços compartilhado".  
 - Compartilhamento de disponibilidade e calendário entre a organização local e o Exchange.  
-- Centralized control of inbound and outbound mail flow. You can configure all inbound and outbound Exchange Online messages to be routed through the on-premises Exchange organization. 
+- Controle centralizado do fluxo de email de entrada e saída. É possível configurar todas as mensagens de entrada e saída do Exchange Online de forma que elas sejam roteadas através da organização local do Exchange. 
 - Uma única URL do Office Outlook Web App para as organizações locais e do Exchange Online.  
-- The ability to move existing on-premises mailboxes to the Exchange Online organization. Exchange Online mailboxes can also be moved back to the on-premises organization if needed.  
+- A capacidade de mover caixas de correio locais existentes para a organização do Exchange Online. Se necessário, caixas de correio do Exchange Online também podem ser movidas de volta à organização local, se necessário.  
 - Gerenciamento centralizado de caixa de correio usando o Centro de Administração do Exchange (EAC).  
 - Dicas de correio, suporte para foto de HD para contatos do Outlook e pesquisa em várias caixas de correio entre organizações locais e do Exchange Online. 
 - O arquivamento de mensagens em nuvem para caixas de correio do Exchange local. 

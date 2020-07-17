@@ -78,7 +78,7 @@ Você deve ser um administrador global, de licença ou de usuário para adiciona
     - **Informações de contato** Expanda para preencher um número de telefone celular, endereço e assim por diante.
     - **Senha** Use a senha gerada automaticamente ou expanda para especificar uma senha forte para o usuário. Eles devem alterar a senha após 90 dias. Além disso, você pode optar por **Permitir que esse usuário altere a senha quando entrar pela primeira vez**.
     - **Funções** Expanda, caso precise tornar esse usuário um administrador.
-    - **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses.
+    - **Licenças de produto** Expanda esta seção e escolha a licença apropriada. Caso não haja licenças disponíveis, você pode comprar mais licenças e adicionar usuários.
 
 ::: moniker-end
 
@@ -92,7 +92,7 @@ Você deve ser um administrador global, de licença ou de usuário para adiciona
     - **Informações de contato** Expanda para preencher um número de telefone celular, endereço e assim por diante.
     - **Senha** Use a senha gerada automaticamente ou expanda para especificar uma senha forte para o usuário. Eles devem alterar a senha após 90 dias. Além disso, você pode optar por **Permitir que esse usuário altere a senha quando entrar pela primeira vez**.
     - **Funções** Expanda, caso precise tornar esse usuário um administrador.
-    - **Product licenses** Expand this section and select the appropriate license. If you don't have any licenses available, you can still add a user and buy additional licenses.
+    - **Licenças de produto** Expanda esta seção e escolha a licença apropriada. Caso não haja licenças disponíveis, você pode comprar mais licenças e adicionar usuários.
 
 ::: moniker-end
 

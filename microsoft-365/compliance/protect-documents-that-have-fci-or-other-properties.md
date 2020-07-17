@@ -34,7 +34,7 @@ No Microsoft 365, você pode usar uma política de prevenção de perda de dados
   
 Por exemplo, sua organização pode usar o FCI do Windows Server para identificar documentos com informações de identificação pessoal (PII), como cadastros de pessoas físicas e, em seguida, classificar o documento, definindo a propriedade **Informações de Identificação Pessoal** como **Alta**, **Moderada**, **Baixa**, **Pública** ou **Não PII** com base no tipo e número de ocorrências de PII localizadas no documento. No Microsoft 365, você pode criar uma política de DLP que identifica documentos que tenham essa propriedade definida como valores específicos, como **alto** e **médio**, e, em seguida, executa uma ação como bloquear o acesso a esses arquivos. A mesma política pode ter outra regra que executa uma ação diferente se a propriedade for definida como **Baixa**, como o envio de uma notificação por email. Dessa forma, a DLP se integra ao Windows Server FCI e pode ajudar a proteger os documentos do Office carregados ou compartilhados para o Microsoft 365 a partir de servidores de arquivos baseados no Windows Server.
   
-A DLP policy simply looks for a specific property name/value pair. Any document property can be used, as long as the property has a corresponding managed property for SharePoint search. For example, a SharePoint site collection might use a content type named **Trip Report** with a required field named **Customer**. Whenever a person creates a trip report, they must enter the customer name. This property name/value pair can also be used in a DLP policy — for example, if you want a rule that blocks access to the document for external users when the **Customer** field contains **Contoso**.
+Uma política de DLP simplesmente procura por um par de nome/valor de propriedade específico. Qualquer propriedade de documento pode ser usada, contanto que a propriedade tenha uma propriedade gerenciada correspondente para a pesquisa do SharePoint. Por exemplo, um conjunto de sites do SharePoint pode usar um tipo de conteúdo chamado **Relatório de viagem** com um campo obrigatório chamado **Cliente**. Sempre que uma pessoa criar um relatório de viagem, ela deve digitar o nome do cliente. Esse par de nome/valor de propriedade também pode ser usado em uma política de DLP — por exemplo, se você desejar que uma regra que bloqueia o acesso ao documento para usuários externos quando o campo **Cliente** contiver **Contoso**.
   
 Observe que, se você quiser aplicar sua política de DLP ao conteúdo com rótulos do Microsoft 365, você não deve seguir as etapas aqui. Em vez disso, saiba como [usar um rótulo de retenção como uma condição em uma política de DLP](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy).
   
@@ -42,7 +42,7 @@ Observe que, se você quiser aplicar sua política de DLP ao conteúdo com rótu
 
 Antes de usar uma propriedade de FCI do Windows Server ou outra propriedade em uma política de DLP, você precisa criar uma propriedade gerenciada no centro de administração do SharePoint. Veja por quê.
   
-In SharePoint Online and OneDrive for Business, the search index is built up by crawling the content on your sites. The crawler picks up content and metadata from the documents in the form of crawled properties. The search schema helps the crawler decide what content and metadata to pick up. Examples of metadata are the author and the title of a document. However, to get the content and metadata from the documents into the search index, the crawled properties must be mapped to managed properties. Only managed properties are kept in the index. For example, a crawled property related to author is mapped to a managed property related to author.
+Exemplos
   
 Isso é importante porque o DLP usa o rastreador de pesquisa para identificar e classificar informações confidenciais em seus sites e, em seguida, armazenar essas informações confidenciais em uma parte segura do índice de pesquisa. Quando você carregar um documento no Office 365, o SharePoint cria automaticamente propriedades rastreadas com base nas propriedades do documento. Mas, para usar uma FCI ou outra propriedade em uma política de DLP, essa propriedade rastreada precisa ser mapeada para uma propriedade gerenciada para que o conteúdo com essa propriedade seja mantido no índice.
   
@@ -66,7 +66,7 @@ Primeiro você precisa carregar um documento com a propriedade à qual você des
     
     ![Página de propriedades gerenciadas com o botão Nova Propriedade Gerenciada realçado](../media/b161c764-414c-4037-83ed-503a49fb4410.png)
   
-5. Enter a name and description for the property. This name is what will appear in your DLP policies.
+5. Insira um nome e uma descrição para a propriedade. Esse nome é o que aparecerá em suas políticas de DLP.
     
 6. Para **Tipo**, escolha **Texto**. 
     
@@ -128,7 +128,7 @@ Uma regra bloqueia o acesso ao conteúdo em que a propriedade **Informações de
 
 Executar as etapas nas seções anteriores criará uma política de DLP que detectará rapidamente o conteúdo com essa propriedade, mas somente se o conteúdo for carregado recentemente (para que o conteúdo seja indexado) ou se esse conteúdo for antigo, mas apenas editado (para que o conteúdo seja indexado novamente).
   
-To detect content with that property everywhere, you may want to manually request that your library, site, or site collection be re-indexed, so that the DLP policy is aware of all the content with that property. In SharePoint Online, content is automatically crawled based on a defined crawl schedule. The crawler picks up content that has changed since the last crawl and updates the index. If you need your DLP policy to protect content before the next scheduled crawl, you can take these steps.
+Para detectar o conteúdo com essa propriedade em todos os lugares, convém solicitar manualmente que sua biblioteca, site ou conjunto de sites seja reindexado, para que a política de DLP esteja ciente de todo o conteúdo com essa propriedade. No SharePoint Online, o conteúdo é rastreado automaticamente com base em um agendamento de rastreamento definido. O rastreador seleciona o conteúdo que foi alterado desde o último rastreamento e atualiza o índice. Se você precisar de sua política de DLP para proteger o conteúdo antes do próximo rastreamento agendado, você pode executar estas etapas.
   
 > [!CAUTION]
 > A reindexação de um site pode gerar uma grande carga no sistema de pesquisa. Não reindexe o site, a menos que o cenário o exija absolutamente. 

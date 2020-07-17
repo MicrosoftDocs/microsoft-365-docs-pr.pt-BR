@@ -82,9 +82,9 @@ A primeira etapa é criar uma marca de retenção personalizada (chamada de marc
   
 ## <a name="step-2-create-a-new-exchange-retention-policy-for-mailboxes-on-hold"></a>Etapa 2: criar uma nova política de retenção do Exchange para caixas de correio em espera
 
-The next step is to create a new retention policy and add retention tags to it, including the Recoverable Items RPT that you created in Step 1. This new policy will be applied to mailboxes on hold in the next step. 
+A próxima etapa é criar uma nova política de retenção e adicionar marcas de retenção a ela, inclusive o RPT de Itens Recuperáveis que você criou na Etapa 1. Essa nova política será aplicada às caixas de correio em espera na próxima etapa.  
   
-Before you create the new retention policy, determine the additional retention tags that you want to add. For a list of the retention tags that are added to the Default MRM Policy and for information about creating new retention tags, see the following:
+Antes de criar a nova política de retenção, determine as marcas de retenção adicionais que você deseja adicionar. Confira a lista das marcas de retenção adicionadas à política MRM Padrão e informações sobre como criar novas marcas de retenção em:
   
 - [Política de Retenção Padrão no Exchange Online ](https://go.microsoft.com/fwlink/p/?LinkId=746954)
     
@@ -106,7 +106,7 @@ Você pode usar o Eat ou o PowerShell do Exchange Online para criar uma polític
     
     ![Selecione a marca de retenção personalizada Itens Recuperáveis](../media/eb49866b-bdef-4fcd-a6d9-01607c01249b.png)
   
-5. Select additional retention tags to add to the retention policy. For example, you might want to add the same tags that are included in the Default MRM Policy.
+5. Selecione marcas de retenção adicionais para adicionar à política de retenção. Por exemplo, convém adicionar as mesmas marcas que são incluídas na Política de MRM Padrão.
     
 6. Quando terminar de adicionar marcas de retenção, clique em **OK**.
     

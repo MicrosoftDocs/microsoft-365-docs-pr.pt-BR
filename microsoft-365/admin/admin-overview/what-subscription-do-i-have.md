@@ -53,7 +53,7 @@ Se você é um administrador, é possível verificar quais assinaturas sua organ
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
-3. If you have multiple subscriptions, you'll see a column next to the detailed subscription information that lists the subscriptions that have been purchased, as well as any trial subscriptions. By default, the subscription at the top of the list is automatically selected, and the detailed information for that subscription is shown.
+3. Se tiver várias assinaturas, você verá uma coluna ao lado das informações detalhadas da assinatura que lista as assinaturas compradas e as assinaturas de avaliação. Por padrão, a assinatura na parte superior da lista é selecionada automaticamente, e as informações detalhadas dessa assinatura são mostradas.
 
     Se você tiver várias assinaturas, escolha aquela para a qual você deseja ver informações detalhadas. O cartão da assinatura será atualizado com informações sobre essa assinatura.
 
@@ -72,7 +72,7 @@ Se você é um administrador, é possível verificar quais assinaturas sua organ
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
-3. If you have multiple subscriptions, you'll see a column next to the detailed subscription information that lists the subscriptions that have been purchased, as well as any trial subscriptions. By default, the subscription at the top of the list is automatically selected, and the detailed information for that subscription is shown.
+3. Se tiver várias assinaturas, você verá uma coluna ao lado das informações detalhadas da assinatura que lista as assinaturas compradas e as assinaturas de avaliação. Por padrão, a assinatura na parte superior da lista é selecionada automaticamente, e as informações detalhadas dessa assinatura são mostradas.
 
     Se você tiver várias assinaturas, escolha aquela para a qual você deseja ver informações detalhadas. O cartão da assinatura será atualizado com informações sobre essa assinatura.
 

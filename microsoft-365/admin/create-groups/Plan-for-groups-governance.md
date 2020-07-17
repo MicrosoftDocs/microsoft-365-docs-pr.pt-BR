@@ -152,7 +152,7 @@ Se você tiver excluído um grupo do Microsoft 365, por padrão, ele será manti
 |![DESC de imagem](../../media/next_steps.png)|Próximas etapas|<ul><li>Comunicar e publicar as políticas de exclusão e restauração para informar os usuários sobre o comportamento que podem esperar </li><li> Documente seus requisitos de organização para o monitoramento de grupos excluídos.</li><li>Planeje a implementação desses requisitos como parte da distribuição de seus grupos.</li></ul>|
 
 > [!Important]
->During the "soft-delete" period if a user tries to access the site they will get a 403 forbidden message. After this period if the user tries to access the site they will get a 404 not found message.
+>Durante o período de "exclusão temporária", se um usuário tentar acessar, verá uma mensagem 403 Proibido. Após esse período, se o usuário tentar acessar o site, verá uma mensagem 404 Não Encontrado.
 
 #### <a name="resources"></a>*Recursos*
 - [Restaurar um grupo do Microsoft 365 excluído](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group?ui=en-US&rs=en-001&ad=US)

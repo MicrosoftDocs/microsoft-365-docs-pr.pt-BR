@@ -19,6 +19,7 @@ ms.custom: ''
 description: Configure a infraestrutura de segurança e serviços que permita aos seus funcionários trabalharem remotamente em qualquer lugar e a qualquer momento.
 ms.openlocfilehash: d4dded6c08e665a2756c45659f179e8252fcacc1
 ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/23/2020
 ms.locfileid: "44844865"

@@ -138,7 +138,7 @@ Você também pode usar o centro de administração do Exchange para importar e-
   
 ### <a name="use-a-public-website"></a>Usar um site público
 
-Microsoft 365 doesn't include a public website for your business. If you want to set one up, consider using a Microsoft partner, such as GoDaddy or WIX.
+O Microsoft 365 não inclui um site público para a sua empresa. Se quiser configurar um, considere usar um parceiro da Microsoft, como o GoDaddy ou o WIX.
   
 1. No Centro de Administração, vá para **Recursos** e selecione**Site público**.
 

@@ -36,7 +36,7 @@ ms.locfileid: "44909259"
 
 Mensal ou anualmente (dependendo da opção que você escolheu ao comprar sua assinatura), você receberá um email informando que seu novo demonstrativo de cobrança está disponível no centro de administração. [Saiba como encontrar e exibir a sua fatura](view-your-bill-or-invoice.md).
   
-Your invoice contains two pages. Page 1 is the invoice summary, and contains general information about the invoice, order, amount due, how to make a payment, and how to contact support.
+A fatura contém duas páginas. A página 1 contém o resumo e informações gerais sobre a fatura, o pedido, o valor devido, a forma de pagamento e como contatar o suporte.
   
 ![Page 1 of a sample invoice.](../../media/b2f2cf85-a005-4f8a-a7b7-bea231372025.png)
   
@@ -62,7 +62,7 @@ Caso faça mais de um pedido, você receberá uma fatura para cada pedido.
   
 ## <a name="invoice-field-glossary"></a>Glossário de Campos da Fatura
 
-The following table describes the fields you might see on your invoice. Some fields listed here might not appear in your invoice, depending on whether you pay by invoice or by credit card or bank account.
+A tabela a seguir descreve os campos exibidos na fatura. Alguns campos listados aqui podem não ser exibidos na fatura, dependendo da opção pelo pagamento por fatura, cartão de crédito ou débito em conta.
   
 > [!NOTE]
 > O pagamento por meio de conta bancária não está disponível em alguns países ou regiões.
@@ -70,30 +70,30 @@ The following table describes the fields you might see on your invoice. Some fie
 |**Nome**|**Descrição**|
 |:-----|:-----|
 |Preço anual|As assinaturas são cobradas mensalmente ou anualmente. Se você escolher cobrança anual durante a compra da assinatura, o preço anual da licença será refletido na fatura. Caso pretenda alterar a frequência de cobrança, cancele a assinatura e compre-a novamente com a nova frequência de cobrança.|
-|Período de Cobrança|Billing Period is the time period since the last invoice date. Service Period is the time period during which you are charged to use the service.|
+|Período de Cobrança|Um período de cobrança é o período de tempo decorrido desde a data da última fatura. Um Período de Serviço é o período de tempo durante o qual você é cobrado por usar o serviço.|
 |Enviar Cobrança para|Este é o endereço do seu departamento de cobrança e é geralmente o mesmo que o endereço vendido para. Para atualizar seu endereço de cobrança, confira [alterar seus endereços de cobrança](change-your-billing-addresses.md).|
-|Encargos|Page 1 of your invoice summarizes all charges for the invoice Billing Period. Page 2 shows the detailed charges for each subscription.|
-|Cheque|If you pay by invoice and check payment is offered in your country, the bottom of page 1 includes information about where to send your payment. Please reference the invoice number on your check.|
-|Créditos|Page 1 of your invoice summarizes all credits for the invoice Billing Period. Page 2 shows the detailed credits for each subscription.|
-|Número da OC do Cliente|Your Purchase Order (PO) number. If you update the PO number, future invoices will include it. [Change your purchase order number](#change-your-purchase-order-number). <br/> **Observação** Não é possível adicionar um número de OC a uma fatura existente.           |
-|Dias|Each billing transaction is associated with a Service Period. The Days column indicates the number of days in that service period.|
-|Descontos|Page 1 of your invoice summarizes all discounts for the invoice Billing Period. Page 2 shows the detailed discounts for each subscription.|
-|Data de Vencimento|The date when payment is due for the invoice. If your subscription is paid with a credit card or bank account, we will charge your credit card or banking account the day after the Invoice Date. <br/> **Observação** O pagamento por conta bancária não está disponível em alguns países ou regiões.           |
+|Encargos|A página 1 mostra um resumo de todos os encargos para o Período de Cobrança da fatura. A página 2 mostra os encargos detalhados de cada assinatura.|
+|Cheque|Se pagar por fatura e a opção de pagamento em cheque estiver disponível em seu país, você verá informações sobre o endereço de envio do pagamento na parte inferior da página 1. Faça referência ao número da fatura no cheque.|
+|Créditos|A página 1 mostra um resumo de todos os créditos referentes ao Período de Cobrança da fatura. A página 2 mostra os créditos detalhados de cada assinatura.|
+|Número da OC do Cliente|O número da OC (ordem de compra). Quando você atualizar o número da OC, as próximas faturas vão inclui-lo. [Mudar o número da OC](#change-your-purchase-order-number).  <br/> **Observação** Não é possível adicionar um número de OC a uma fatura existente.           |
+|Dias|Cada transação de cobrança está associada a um Período de Serviço. A coluna Dias indica o número de dias neste período de serviço.|
+|Descontos|A página 1 mostra um resumo de todos os descontos referentes ao Período de Cobrança da fatura. A página 2 mostra os descontos detalhados de cada assinatura.|
+|Data de Vencimento|A data de vencimento do pagamento da fatura. Quando a assinatura é paga com cartão de crédito ou por débito em conta, cobramos essa forma de pagamento no dia seguinte à data da fatura.<br/> **Observação** O pagamento por conta bancária não está disponível em alguns países ou regiões.           |
 |Transferência Eletrônica de Fundos|Se você escolher "fatura" como o método de pagamento de assinatura, a página 1 conterá as informações de conta bancária da Microsoft para pagamentos eletrônicos (Wire, ACH, SEPA, etc.). Normalmente, seu banco terá um campo de referência que deverá ser preenchido ao enviar um pagamento. Faça referência ao número da fatura exibido nesse campo.|
 |Total Geral|Esta linha inclui os totais de todas as colunas de Encargos, Descontos, Créditos, Subtotal, Impostos e Total para todas as assinaturas listadas na fatura.|
-|Data da fatura|The date the invoice was created. The invoice date is the day after the end of your Billing Period. For example, if your Billing Period is Jan 15 - Feb 14, your Invoice Date is Feb 15.|
-|Número da Fatura|The unique number assigned to your invoice. Please reference the Invoice Number with your payment.|
+|Data da fatura|A data de criação da fatura. A data da fatura é o dia posterior ao término do Período de Cobrança. Por exemplo, se o Período de Cobrança for de 15 de janeiro a 14 de fevereiro, a Data da Fatura será 15 de fevereiro.|
+|Número da Fatura|O número exclusivo atribuído à fatura. Faça referência ao Número da Fatura no pagamento.|
 |Preço Mensal|As assinaturas são cobradas mensalmente ou anualmente. Se você escolher cobrança mensal durante a compra da assinatura, o preço mensal da licença será refletido na fatura. Caso pretenda alterar a frequência de cobrança, cancele a assinatura e compre-a novamente com a nova frequência de cobrança.|
-|Número do Pedido|Every time you buy a new subscription, an order is created. Every month, you'll receive an invoice for each order.|
-|Instruções de Pagamento|If you pay by credit card, you'll see "Do not pay - charged to credit card on file." If you pay by invoice, you'll see instructions for paying by Electronic Funds Transfer (EFT) and check (if applicable).|
-|Condições de Pagamento|The number of days from the Invoice Date when payment is due. The standard is 30 days.|
-|Produto|On page 1 of your invoice, "Online Services" is the generic term used to describe your subscriptions. On page 2 , you'll see the individual subscription names.|
+|Número do Pedido|Sempre que você compra uma nova assinatura, nosso sistema cria um pedido. Você recebe uma fatura mensal para cada pedido.|
+|Instruções de Pagamento|Se pagar com cartão de crédito, você verá a informação "Não pagar - cobrado do cartão de crédito registrado." Se pagar por fatura, você verá as instruções para pagamento por TEF (Transferência Eletrônica de Fundos) e por cheque, quando aplicável.|
+|Condições de Pagamento|O número de dias para o vencimento, a partir da Data da Fatura. O prazo padrão é de 30 dias.|
+|Produto|Na página 1, usamos o termo genérico "Serviços Online" para descrever as assinaturas. Na página 2, você verá os nomes individuais das assinaturas.|
 |Qtd.|A quantidade de licenças compradas durante o Período de Serviço.|
-|Período de Serviço|Service Period is the time period during which you are charged to use the service. A Billing Period is the time period since the last invoice date.|
+|Período de Serviço|Um Período de Serviço é o período de tempo durante o qual você é cobrado por usar o serviço. Um Período de Cobrança é o período de tempo decorrido desde a última data da fatura.|
 |Endereço de Uso do Serviço|O endereço no qual o serviço está sendo usado normalmente é o mesmo endereço descrito no campo Vendido para. Para atualizar seu endereço de uso do serviço, confira [alterar seus endereços de cobrança](change-your-billing-addresses.md).|
-|Vendido Para|Your company name and address. To update this information, see [Change your organization's address, technical contact email, and other information](../../admin/manage/change-address-contact-and-more.md).|
+|Vendido Para|O nome e o endereço de sua empresa. Para atualizar essa informação, confira o artigo [Alterar o endereço, o email de contato técnico e outras informações da organização](../../admin/manage/change-address-contact-and-more.md).  |
 |Total|Cada assinatura descrita na fatura tem uma linha de Subtotal distinta para todas as colunas de Encargos, Descontos, Créditos, Subtotal, Impostos e Total.|
-|Imposto|Page 1 of your invoice shows the total tax. Page 2 shows the tax rate applied, and the total tax amount for each line item. If your invoice contains taxes and your company is tax exempt, please [contact support](../../admin/contact-support-for-business-products.md).|
+|Imposto|A página 1 mostra o total de impostos da fatura. A página 2 mostra a taxa de imposto aplicada e o valor total de impostos de cada item da linha. Caso sua empresa traga a isenção de impostos na fatura, [fale com o suporte](../../admin/contact-support-for-business-products.md).  |
 |Total|O valor devido para o Período de Cobrança da fatura.|
 
 ## <a name="change-your-purchase-order-number"></a>Mudar o número da OC
@@ -101,7 +101,7 @@ The following table describes the fields you might see on your invoice. Some fie
 Se paga por fatura, você pode adicionar ou alterar o número da OC (ordem de compra) da sua assinatura.
   
 > [!NOTE]
-> You can't add a PO number to an existing invoice. The PO number will appear on all future invoices.
+> Nosso sistema não permite adicionar um número de OC em uma fatura existente. O número da OC será exibido em todas as faturas seguintes.
 
 ::: moniker range="o365-worldwide"
 
