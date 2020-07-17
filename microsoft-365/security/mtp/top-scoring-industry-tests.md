@@ -1,7 +1,7 @@
 ---
-title: Pontuação superior em testes de indústria (AV-TEST, comparações AV, SE laboratórios do MITRE ATT&CK)
+title: Pontuação superior nos testes do setor-proteção contra ameaças da Microsoft
 ms.reviewer: ''
-description: O Microsoft defender ATP Obtém consistentemente altos resultados em testes independentes. Exibir as últimas pontuações e análises.
+description: Exibir as pontuações e a análise mais recentes da proteção contra ameaças da Microsoft, que obtém consistentemente altos resultados em testes independentes (AV-TEST, comparativos AV, SE laboratórios MITRE ATT&CK). Exibir as últimas pontuações e análises.
 keywords: Microsoft Defender Antivirus, Windows Defender Antivirus, revisões de AV, teste de antivírus, teste de AV, pontuações de AV mais recentes, pontuações de detecção, testes de produtos de segurança, testes do setor de segurança, testes de antivírus do setor, melhores antivírus, AV-Test, AV-comparations, SE Labs, MITRE ATT&CK, Endpoint Protection Platform, EPP, detecção de ponto de extremidade e resposta, EDR, Windows 10, Microsoft Defender Antivirus, WDAV, MDATP, proteção contra ameaças da Microsoft, classificação, êxito
 ms.prod: w10
 ms.mktglfcycl: secure
@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 6a3263154794ef8638c5c3c96709b61e67b9ec5a
-ms.sourcegitcommit: 7f765670cb6970fdf7ddbad464ed3f8fe704bfaf
+ms.openlocfilehash: 279376288f28e99d5881e5e482470407111c4add
+ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "44909271"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158864"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Pontuação superior nos testes do setor
 
