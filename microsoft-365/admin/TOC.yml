@@ -33,7 +33,7 @@
         - name: Implantar o Teams
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
         - name: Treinamento do aplicativo para todos
-          href: 'https://support.office.com/office-training-center'
+          href: 'https://support.microsoft.com/training'
         - name: Qual assinatura eu tenho?
           href: admin-overview/what-subscription-do-i-have.md
         - name: Personalizar a página de entrada
@@ -93,12 +93,12 @@
               href: manage/assign-licenses-to-users.md
             - name: Atribuir funções de administrador
               href: add-users/assign-admin-roles.md
+            - name: Cancelar a atribuição de licenças de usuários
+              href: manage/remove-licenses-from-users.md
+            - name: Usuários convidados
+              href: add-users/about-guest-users.md
             - name: Adicionar usuários convidados a um grupo do Microsoft 365
               href: create-groups/manage-guest-access-in-groups.md
-            - name: Remover licenças de usuários
-              href: manage/remove-licenses-from-users.md
-            - name: Resolver conflitos de licença
-              href: manage/resolve-license-conflicts.md
             - name: Alterar o nome de exibição e o endereço de email de um usuário
               href: add-users/change-a-user-name-and-email-address.md
             - name: Remover um ex-funcionário
@@ -170,7 +170,7 @@
               href: email/about-shared-mailboxes.md
             - name: Criar uma caixa de correio compartilhada
               href: email/create-a-shared-mailbox.md
-            - name: Configurar uma caixa de correio compartilhada
+            - name: Configurar caixa de correio compartilhada
               href: email/configure-a-shared-mailbox.md
             - name: Converter uma caixa de correio do usuário em uma caixa de correio compartilhada
               href: email/convert-user-mailbox-to-shared-mailbox.md
@@ -218,10 +218,14 @@
           href: manage/set-password-expiration-policy.md
         - name: Personalizar o inicializador de aplicativos
           href: manage/customize-the-app-launcher.md
+        - name: Atualizar os usuários para os aplicativos mais recentes
+          href: setup/upgrade-users-to-latest-office-client.md
         - name: Requisitos para implantação centralizada de suplementos
           href: manage/centralized-deployment-of-add-ins.md
-        - name: Instalar e gerenciar suplementos usando a Implantação Centralizada
+        - name: Implantar suplementos no centro de administração
           href: manage/manage-deployment-of-add-ins.md
+        - name: Gerenciar suplementos no centro de administração
+          href: manage/manage-addins-in-the-admin-center.md
         - name: Perguntas frequentes sobre a Implantação centralizada
           href: manage/centralized-deployment-faq.md
         - name: Encontrar um parceiro ou um revendedor
@@ -292,12 +296,12 @@
           href: ../business/device-states.md
         - name: Configurações de proteção de aplicativos em computadores com Windows 10
           href: ../business/protection-settings-for-windows-10-devices.md
-        - name: Configurações de proteção dos aplicativos para Android e iOS
+        - name: Definir configurações de proteção dos aplicativos para Android e iOS
           href: ../business/app-protection-settings-for-android-and-ios.md
           items:
-            - name: Valide as configurações em Android ou iOS
+            - name: Valide as configurações no Android ou iOS
               href: ../business/validate-settings-on-android-or-ios.md
-        - name: Configurações de proteção de dispositivos em computadores com Windows 10
+        - name: Defina configurações de proteção de dispositivos para PCs com Windows 10
           href: ../business/protection-settings-for-windows-10-pcs.md
           items:
             - name: "Valide as configurações em computadores com Windows\_10"
@@ -320,11 +324,11 @@
         - name: Compartilhar calendários com convidados
           href: manage/share-calendars-with-external-users.md
         - name: Criar uma equipe com convidados
-          href: 'https://support.office.com/article/11fbb083-52ee-434d-8c6e-63711fdafac7'
+          href: 'https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7'
         - name: Agendar uma reunião no Teams com convidados
-          href: 'https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a?ui=en-US&rs=en-US&ad=US'
+          href: 'https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a'
         - name: Participe de uma reunião do Teams com convidados
-          href: 'https://support.office.com/article/a120c282-063d-46b8-b973-851197ab75d8?ui=en-US&rs=en-US&ad=US'
+          href: 'https://support.microsoft.com/office/a120c282-063d-46b8-b973-851197ab75d8'
     - name: Solução de problemas
       href: 'https://docs.microsoft.com/office/troubleshoot/'
     - name: Contatar o suporte
