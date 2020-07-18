@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 06/08/2020
+ms.date: 07/14/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Configure a infraestrutura de segurança e serviços que permita aos seus funcionários trabalharem remotamente em qualquer lugar e a qualquer momento.
-ms.openlocfilehash: d4dded6c08e665a2756c45659f179e8252fcacc1
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 58915d80d9eb81009632971bbfc84a7b681e125e
+ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844865"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158886"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Capacite funcionários remotos com o Microsoft 365
 
@@ -66,8 +66,14 @@ Para atender aos critérios para trabalhadores remotos, use esses recursos e fun
 | Gerenciador de Configurações | Gerenciar instalações, atualizações e configurações de software em seus dispositivos | Exige licenças separadas do Configuration Manager |
 | Análise de Área de Trabalho | Determine a prontidão de atualização dos seus clientes Windows.   | Exige licenças separadas do Configuration Manager |
 | Windows Autopilot | Configure e configure novamente os novos dispositivos com Windows 10 para uso produtivo.   | Microsoft 365 E3 e e5 |
-| Microsoft Teams, Exchange Online, SharePoint Online e OneDrive, Microsoft 365 Apps, Microsoft Power Platform, Yammer, Power Apps | Criar, comunicar e colaborar. | Microsoft 365 E3 e e5 |
+| Microsoft Teams, Exchange Online, SharePoint Online e OneDrive, Microsoft 365 Apps, Microsoft Power Platform, Yammer, Power Apps | Criar, comunicar e colaborar. | Microsoft 365 E3 e E5 |
 ||||
+
+<a name="poster"></a> Para obter um resumo de 2 páginas desse cenário, consulte o pôster [Capacitar trabalhadores remotos](../downloads/empower-remote-workers.pdf).
+
+[![Pôster Capacitar trabalhadores remotos](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf)
+
+Também é possível descarregar este pôster nos formatos [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf) ou [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pptx) e imprimi-lo em papel tamanho carta, legal, ou tabloide (11 x 17).
 
 Use estas etapas para proteger e otimizar o acesso aos servidores, dados e serviços na nuvem da sua organização e habilitar a produtividade máxima do trabalho.
 
