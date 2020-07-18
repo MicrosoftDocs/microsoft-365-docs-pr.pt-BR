@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como obter o relatório de atividades do usuário do Microsoft Teams e obtenha informações sobre a atividade do teams em sua organização.
-ms.openlocfilehash: 6c4f8a2ae9e6e88a17b65e61547e03583d116fbd
-ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
+ms.openlocfilehash: 734a4dfd62160c2f4d29b8faffb3268a1962fe4f
+ms.sourcegitcommit: a50260b7c5be7374e8e2bea19cc08406ef51ac47
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158840"
+ms.locfileid: "45167336"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity--preview"></a>Relatórios do Microsoft 365 no centro de administração-atividade de usuário do Microsoft Teams-visualização
 
@@ -51,9 +51,9 @@ Você pode exibir a atividade do usuário no relatório do preview Teams escolhe
 |Total de reuniões   <br/> |O número de reuniões online nas quais o usuário participou durante o período de tempo especificado.  <br/> |
 |chamadas 1:1   <br/> | O número de chamadas 1:1 que o usuário participou durante o período de tempo especificado.  <br/> |
 |Data da última atividade (UTC)  <br/> |A última data em que o usuário participou em uma atividade do Microsoft Teams.<br/> |
-|Reuniões participos do adhoc   <br/> | O número de reuniões adhoc nas quais o usuário participou durante o período de tempo especificado.  <br/> |
-|As reuniões organizadas como AdHoc <br/> |O número de reuniões adhoc que o usuário organizou durante o período de tempo especificado. <br/>|
+|Reuniões participos do adhoc   <br/> | O número de reuniões não agendadas no calendário em que o usuário participou durante o período de tempo especificado.  <br/> |
+|As reuniões organizadas como AdHoc <br/> |O número de reuniões não agendadas no calendário que o usuário organizou durante o período de tempo especificado. <br/>|
 |Reuniões organizadas agendadas  <br/> |O número de reuniões agendadas que um usuário organizou durante o período de tempo especificado.  <br/> |
 |É licenciado |Selecionado se o usuário está licenciado para usar o Microsoft Teams.|
-|Outra atividade|O número de outras atividades de equipe pelo usuário. |
+|Outra atividade|O usuário é considerado ativo, mas tem um valor zero para as mensagens de chat, 1:1 chamadas, mensagens de canal, reuniões totais e reuniões organizadas. Os exemplos de ações são quando o cliente do Microsoft Teams é ativado para o primeiro plano, as ações foram executadas na área de mensagem de redação, as notificações exibidas no cliente Microsoft Teams, foram mostradas no cliente Microsoft Teams, etc. |
 |||

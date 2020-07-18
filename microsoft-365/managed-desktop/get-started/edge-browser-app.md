@@ -4,14 +4,18 @@ description: ''
 keywords: navegador, área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
+manager: laurawi
+audience: ITpro
+ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f4bc5f85b21148c5a923ca1fc18879a193191c4b
-ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
+ms.openlocfilehash: 916ddaea2bc91c56944d4561771c1e807447d604
+ms.sourcegitcommit: 63887d742c59cc660fc85537b335e98a9dc66fbe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45094781"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "45170666"
 ---
 # <a name="new-microsoft-edge-app"></a>Novo aplicativo do Microsoft Edge
 
@@ -38,7 +42,7 @@ A linha de base de segurança do Microsoft Edge nos dispositivos de área de tra
 #### <a name="extension-installation-blocklist"></a>Bloqueio de instalação de extensão
 **Valor padrão:** Todos os
 
-O Microsoft Managed desktop define essa política para impedir que as extensões Chrome sejam instaladas em pontos de extremidade gerenciados. Há risksassociated conhecidos com o modelo de extensão Chromium, incluindo proteção contra perda de dados, privacidade e outros riscos que podem comprometer os dispositivos. 
+O Microsoft Managed desktop define essa política para impedir que as extensões Chrome sejam instaladas em pontos de extremidade gerenciados. Há sassociated de risco conhecidos com o modelo de extensão Chromium, incluindo proteção contra perda de dados, privacidade e outros riscos que podem comprometer os dispositivos. 
 
 #### <a name="allow-user-level-native-messaging-hosts-installed-without-admin-permissions"></a>Permitir hosts de mensagens nativas no nível do usuário (instalado sem permissões de administrador)
 
@@ -119,7 +123,7 @@ Com essa política aplicada, a experiência de primeira execução ignorará a s
 
 ## <a name="settings-you-manage"></a>Configurações que você gerencia
 
-Você pode implantar qualquer configuração de borda do Microsft não descrita anteriormente usando o perfil de modelos administrativos no Microsoft Intune. Para obter detalhes, consulte [configurar as configurações de política do Microsoft Edge com o Microsoft Intune](https://docs.microsoft.com/deployedge/configure-edge-with-intune). Se você deseja avaliar uma política que não está incluída atualmente nos modelos administrativos do Microsoft Edge no Intune, é possível usar configurações personalizadas para dispositivos Windows 10 no Intune.
+Você pode implantar qualquer configuração do Microsoft Edge não descrita anteriormente usando o perfil de modelos administrativos no Microsoft Intune. Para obter detalhes, consulte [configurar as configurações de política do Microsoft Edge com o Microsoft Intune](https://docs.microsoft.com/deployedge/configure-edge-with-intune). Se você deseja avaliar uma política que não está incluída atualmente nos modelos administrativos do Microsoft Edge no Intune, é possível usar configurações personalizadas para dispositivos Windows 10 no Intune.
 
 ### <a name="enabling-specific-chrome-extensions"></a>Habilitar extensões Chrome específicas
 
