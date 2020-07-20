@@ -38,6 +38,8 @@
           href: service-description/operations-and-monitoring.md
         - name: Requisitos do aplicativo
           href: service-description/mmd-app-requirements.md
+        - name: Controle da aplicação
+          href: service-description/app-control.md
         - name: Mudanças de serviço e comunicação
           href: service-description/servicechanges.md
         - name: Exceções ao plano de serviço
@@ -89,6 +91,8 @@
               href: get-started/register-reused-devices-self.md
         - name: Prepare usuários para usarem os dispositivos
           href: get-started/get-started-devices.md
+        - name: Introdução ao controle de aplicativos
+          href: get-started/get-started-app-control.md
         - name: Implante os aplicativos
           href: get-started/deploy-apps.md
           items:
@@ -116,6 +120,8 @@
           href: working-with-managed-desktop/end-user-support.md
         - name: Gerenciar aplicativos
           href: working-with-managed-desktop/manage-apps.md
+        - name: Trabalhar com o controle de aplicativo
+          href: working-with-managed-desktop/work-with-app-control.md
         - name: Configurações configuráveis
           href: working-with-managed-desktop/config-setting-overview.md
           items:
