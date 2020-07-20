@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Neste artigo, você aprenderá sobre as opções disponíveis para criar um ambiente de compartilhamento de convidados seguro no Microsoft 365.
-ms.openlocfilehash: 9997fee5c12b54642304270e379cd09ca75b5033
-ms.sourcegitcommit: 5e8901e7e571f20ede04f460bd3e7077dda004ca
+ms.openlocfilehash: 4d7c036cccade88bfcd013fe4b31bf4cd02b7b34
+ms.sourcegitcommit: a50260b7c5be7374e8e2bea19cc08406ef51ac47
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874889"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45167360"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Criar um ambiente de compartilhamento de convidados seguro
 
@@ -53,10 +53,12 @@ Configurar a autenticação multifator para convidados
 2. Na folha **Acesso condicional – Políticas**, clique em **Nova Política**.
 3. No campo **Nome**, digite *MFA de Convidado*.
 4. Em **Atribuições**, clique em **Usuários e grupos**.
-5. Na folha **Usuários e Grupos**, selecione **Selecionar usuários e grupos**, clique na caixa de seleção **Todos os usuários e convidados externos** e, em seguida, clique em **Concluído**.
-4. Em **Controles de acesso**, clique em **	Conceder**.
-5. Na folha **Conceder**, marque a caixa de seleção **Exigir autenticação multifator**, e, em seguida, clique em **Selecionar**.
-6. Na folha **Novo**, em **Habilitar política**, clique em **Ativar** e, em seguida, clique em **Criar**.
+5. Na lâmina **Usuários e grupos**, selecione **Selecionar usuários e grupos**, marque a caixa de seleção **Todos os convidados e usuários externos**.
+6. Em **Atribuições**, clique em **Aplicativos de nuvem ou ações**.
+7. Na lâmina **Aplicativos de nuvem ou ações**, selecione **Todos os aplicativos de nuvem** na guia **Incluir**.
+8. Em **Controles de acesso**, clique em **Conceder**.
+9. Na folha **Conceder**, marque a caixa de seleção **Exigir autenticação multifator**, e, em seguida, clique em **Selecionar**.
+10. Na folha **Novo**, em **Habilitar política**, clique em **Ativar** e, em seguida, clique em **Criar**.
 
 Agora, o convidado será solicitado a se inscrever na autenticação multifator para que possam acessar conteúdo, sites ou equipes compartilhados.
 

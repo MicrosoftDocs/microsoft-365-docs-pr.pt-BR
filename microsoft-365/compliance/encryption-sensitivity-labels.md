@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 35dfc642aee2e4d602aeb4bc1ea689dbc2589735
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 5bf859cd5abe0dcb36c02c8355cbfa58418b3138
+ms.sourcegitcommit: e891c7c25f351f10f250af3f483f68594976ddc9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678977"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45153694"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia 
 
@@ -166,7 +166,7 @@ Quando você atribui permissões, pode escolher:
     > [!NOTE]
     > Se você especificar um domínio de uma organização que usa o Azure AD, não será possível restringir o acesso a esse domínio específico. Em vez disso, todos os domínios verificados no Azure AD são incluídos automaticamente para o locatário que possui o nome de domínio especificado por você.
 
-Quando você escolhe todos os membros locatários e pesquisa o diretório, os usuários ou grupos devem ter um endereço de email.
+Quando você escolhe todos os usuários e grupos em sua organização ou procura o diretório, os usuários ou grupos devem ter um endereço de email.
 
 Como prática recomendada, use grupos em vez de usuários. Essa estratégia mantém a configuração mais simples.
 
@@ -216,9 +216,9 @@ Você pode usar essas opções para permitir que os usuários atribuam permissõ
 
 - No Word, no PowerPoint e no Excel, um usuário deve selecionar suas próprias permissões para usuários, grupos ou organizações específicos. 
     > [!NOTE]
-    > Essa opção para o Word, o PowerPoint e o Excel têm suporte no cliente de rotulagem unificada da Proteção de Informações do Azure.  Para aplicativos que usam rotulagem interna, o suporte está atualmente na [visualização do Windows e do Mac](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-word-excel-and-powerpoint). 
+    > Essa opção para o Word, o PowerPoint e o Excel têm suporte no cliente de rotulagem unificada da Proteção de Informações do Azure.  Para aplicativos que usam rótulos internos, [verificar quais aplicativos os oferecem suporte](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-word-excel-and-powerpoint).
     > 
-    > Se essa opção estiver selecionada, mas não for compatível com o aplicativo de um usuário, o rótulo não será exibido para o usuário ou (está sendo implantado atualmente na visualização do iOS e Android); o rótulo será exibido por consistência, mas não poderá ser aplicado com uma mensagem de explicação aos usuários.
+    > Se essa opção estiver selecionada, mas não for compatível com o aplicativo de um usuário, esse rótulo não será exibido para o usuário, ou o rótulo exibirá por consistência, mas não poderá ser aplicado a uma mensagem de explicação aos usuários.
 
 Quando houver suporte para as opções, use a tabela a seguir para identificar quais usuários verão o rótulo de confidencialidade:
 
@@ -297,13 +297,13 @@ Esse rótulo não é adequado para emails.
 
 4. Selecione **Atribuir permissões**.
 
-3. No painel **Atribuir permissões**, selecione **Adicionar esses endereços de email ou domínios**.
+3. No painel **Atribuir permissões**, selecione **Adicionar esses endereços de email ou domínios específicos**.
 
 4. Na caixa de texto, insira o nome de um domínio da outra organização, por exemplo, **fabrikam.com**. Em seguida, selecione **OK**.
 
-5. Selecione **Escolher permissões em existentes ou personalizadas**.
+5. Clique em **Selecionar permissões**.
 
-6. No painel **Escolher permissões em existentes ou personalizadas**, marque a caixa suspensa, selecione **Visualizador** e, em seguida, selecione **Salvar**.
+6. No painel **Escolher permissões**, marque a caixa suspensa, selecione **Visualizador** e, em seguida, selecione **Salvar**.
 
 6. De volta ao painel **Atribuir permissões**, selecione **Salvar**.
 
@@ -318,13 +318,13 @@ Os novos usuários que você adicionar poderão abrir documentos e emails que j�
 
 2. Selecione **Atribuir permissões**.
 
-3. No painel **Atribuir permissões**, selecione **Adicionar esses endereços de email ou domínios**.
+3. No painel **Atribuir permissões**, selecione **Adicionar esses endereços de email ou domínios específicos**.
 
 4. Na caixa de texto, insira o endereço de email do primeiro usuário (ou grupo) a ser adicionado e, em seguida, selecione **Adicionar**.
 
-5. Selecione **Escolher permissões em existentes ou personalizadas**.
+5. Clique em **Selecionar permissões**.
 
-6. No painel **Escolher permissões em existentes ou personalizadas**, selecione as permissões para esse usuário (ou grupo) e, em seguida, selecione **Salvar**.
+6. No painel **Escolher permissões**, selecione as permissões para esse usuário (ou grupo) e, em seguida, selecione **Salvar**.
 
 7. Volte para o painel **Atribuir permissões**, repita as etapas de 3 a 6 para cada usuário (ou grupo) que você deseja adicionar a esse rótulo. Em seguida, clique em **Salvar**.
 
@@ -345,11 +345,11 @@ Use essa configuração somente quando não precisar restringir quem pode abrir 
 
 4. No painel **Atribuir permissões**, selecione **Adicionar todos os usuários autenticados**. 
     
-    Para **Usuários e grupos**, você vê **AuthenticatedUsers** adicionado automaticamente. Você não pode alterar esse valor, só excluí-lo, o que cancela a seleção **Adicionar todos os usuários autenticados**.
+    Para **Usuários e grupos**, você vê **Usuários autenticados** adicionado automaticamente. Você não pode alterar esse valor, só excluí-lo, o que cancela a seleção **Adicionar todos os usuários autenticados**.
 
-5. Selecione **Escolher permissões em existentes ou personalizadas**.
+5. Clique em **Selecionar permissões**.
 
-6. No painel **Escolher permissões em existentes ou personalizadas**, marque a caixa suspensa, selecione as permissões que quer, e selecione**Salvar**.
+6. No painel **Escolher permissões**, marque a caixa suspensa, selecione as permissões que você quer, e selecione**Salvar**.
 
 7. De volta ao painel **Atribuir permissões**, selecione **Salvar**.
 
