@@ -12,22 +12,24 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: e48b18ee905bc8589ad3fd6145630b436603ae15
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: dee4ed05f4210530dddeff8ac62ee3f39903abca
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327045"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45199811"
 ---
 # <a name="insider-risk-management-content-explorer"></a>Gerenciador de conteúdo de gerenciamento de risco do insider
 
-O Gerenciador de conteúdo do insider Management permite que os usuários tenham a função de **investigadores de gerenciamento de risco do insider** para examinar o contexto e detalhes das comunicações capturadas em alertas. Para todos os alertas, as cópias de dados e arquivos de mensagens são arquivadas como um instantâneo no momento dos itens, mantendo os arquivos e mensagens originais nas fontes de armazenamento. A cópia de dados e mensagens é transparente para o funcionário associado ao alerta e ao proprietário do conteúdo. As configurações de permissão e os direitos de acesso dos dados são mantidos para o conteúdo copiado e as mensagens e os analistas de risco e os investigadores precisam dessas permissões e direitos se precisarem abrir e exibir os arquivos. Cada arquivo e mensagem recebe automaticamente uma ID de arquivo exclusiva no caso de gerenciamento de risco do insider para fins de gerenciamento.
+O Gerenciador de conteúdo do insider Management permite que os usuários tenham a função de **investigadores de gerenciamento de risco do insider** para examinar o contexto e detalhes das comunicações capturadas em alertas. Para todos os alertas, as cópias de dados e arquivos de mensagens são arquivadas como um instantâneo no momento dos itens, mantendo os arquivos e mensagens originais nas fontes de armazenamento. A cópia de dados e mensagens é transparente para o usuário associado ao alerta e ao proprietário do conteúdo. As configurações de permissão e os direitos de acesso dos dados são mantidos para o conteúdo copiado e as mensagens e os analistas de risco e os investigadores precisam dessas permissões e direitos se precisarem abrir e exibir os arquivos. Cada arquivo e mensagem recebe automaticamente uma ID de arquivo exclusiva no caso de gerenciamento de risco do insider para fins de gerenciamento. Os documentos associados às atividades do indicador de dispositivo não estão incluídos no explorador de conteúdo.
+
+![Gerenciador de conteúdo de gerenciamento de risco do insider](../media/insider-risk-content-explorer.png)
 
 ## <a name="column-options"></a>Opções de coluna
 
 Para tornar mais fácil para os analistas e investigadores de risco analisar os dados capturados e as mensagens e revisar o contexto para o caso, várias ferramentas de filtragem e classificação estão incluídas no Gerenciador de conteúdo. Para classificação básica, as colunas de **classe** de **Data** e arquivo dão suporte à classificação usando os títulos de coluna no painel de fila de conteúdo. Outras colunas de fila estão disponíveis para adicionar ao modo de exibição para fornecer pivôs diferentes nos arquivos e mensagens.
 
-Para adicionar ou remover cabeçalhos de coluna para a fila de conteúdo, use o controle **Editar colunas** e selecione uma das opções de coluna a seguir. Essas colunas são mapeadas para as condições de propriedade comuns, de email e de documento compatíveis com o Gerenciador de conteúdo e listadas posteriormente neste tópico.
+Para adicionar ou remover cabeçalhos de coluna para a fila de conteúdo, use o controle **Editar colunas** e selecione uma das opções de coluna a seguir. Essas colunas são mapeadas para as condições de propriedade comuns, de email e de documento compatíveis com o Gerenciador de conteúdo e listadas posteriormente neste artigo.
 
 | **Opção de coluna** | **Descrição** |
 |:------------------|:----------------|
@@ -41,10 +43,10 @@ Para adicionar ou remover cabeçalhos de coluna para a fila de conteúdo, use o 
 | **Date** | Para email, a data em que a mensagem foi recebida por um destinatário ou enviada pelo remetente. Para documentos, a data em que um documento foi modificado pela última vez. |
 | **Tema dominante** | Tema dominante conforme calculado para a análise. |
 | **ID do conjunto de emails** | ID de grupo para todas as mensagens no mesmo conjunto de email. |
-| **ID da família** | Grupos de ID de família juntos todos os itens; para email, isso inclui a mensagem e todos os anexos; para documentos, isso inclui o documento e todos os itens incorporados. |
+| **ID da família** | Grupos de ID de família juntos todos os itens; para email, esta coluna inclui a mensagem e todos os anexos; para documentos, essa coluna inclui o documento e todos os itens incorporados. |
 | **Classe de arquivo** | Para conteúdo do SharePoint e do OneDrive: **Document**; para o conteúdo do Exchange: * * email ou **anexo**. |
 | **ID de arquivo** | Identificador de documento exclusivo no caso. |
-| **Ícone de tipo de arquivo** | A extensão de um arquivo; por exemplo, docx, One, pptx ou xlsx. Essa propriedade é igual à propriedade de site FileExtension. |
+| **Ícone de tipo de arquivo** | A extensão de um arquivo; por exemplo, docx, One, pptx ou xlsx. Este campo é a mesma propriedade que a propriedade de site ExtensãoDeArquivo. |
 | **ID** | O identificador de GUID para o arquivo. |
 | **ID Imutável** | ID imutável, conforme armazenado no Office 365. |
 | **Tipo inclusivo** | Tipo inclusivo calculado para análise: **0** -não inclusivo; **1** -inclusive; **2** – menos inclusivo; cópia **3** incluindo. |
@@ -53,12 +55,12 @@ Para adicionar ou remover cabeçalhos de coluna para a fila de conteúdo, use o 
 | **Tipo de mensagem** | O tipo de mensagem de email a ser pesquisada. Valores possíveis: contatos, Docs, email, dados externos, faxes, mensagens instantâneas, diários, reuniões, Microsoft Teams (retorna itens de chats, reuniões e chamadas no Microsoft Teams), observações, postagens, rssfeeds, tarefas, caixa postal |
 | **Participante** | Lista de todos os participantes de uma mensagem; por exemplo, remetente, para, CC, Cco. |
 | **ID da tabela dinâmica** | A ID de uma tabela dinâmica. |
-| **Received** | A data em que uma mensagem de email foi recebida pelo destinatário. Essa propriedade é igual à propriedade de email Received. |
+| **Received** | A data em que uma mensagem de email foi recebida pelo destinatário. Esse campo é a mesma propriedade que o email recebido. |
 | **Destinatários** | Todos os campos de destinatários em uma mensagem de email. Esses campos são para, CC e Cco. |
 | **ID do representante** | Identificador numérico de cada conjunto de duplicatas exatas. |
 | **Sender** | O remetente de uma mensagem de email. |
 | **Remetente/autor** | Para email, a pessoa que enviou uma mensagem. Para documentos, a pessoa citada no campo autor de documentos do Office. Você pode digitar mais de um nome, separado por vírgulas. Dois ou mais valores são logicamente conectadas pelo operador OR. |
-| **Sent** | A data em que uma mensagem de email foi enviada pelo remetente. Essa propriedade é igual à propriedade de email Sent. |
+| **Sent** | A data em que uma mensagem de email foi enviada pelo remetente. Este campo é a mesma propriedade da propriedade email enviado. |
 | **Tamanho** | Para emails e documentos, o tamanho do item (em bytes). |
 | **Assunto** | O texto na linha de assunto de uma mensagem de email. |
 | **Assunto/título** | Para email, o texto na linha de assunto de uma mensagem. Para documentos, o título do documento. Como explicado anteriormente, a propriedade Title é Metadata especificado em documentos do Microsoft Office. Você pode digitar o nome de mais de um assunto/título, separados por vírgulas. Dois ou mais valores são logicamente conectadas pelo operador OR. |
@@ -68,7 +70,7 @@ Para adicionar ou remover cabeçalhos de coluna para a fila de conteúdo, use o 
 
 ## <a name="advanced-search-conditions"></a>Condições de pesquisa avançada
 
-Você pode adicionar condições de pesquisa para restringir o escopo de uma pesquisa e retornar um conjunto de resultados mais refinado. Cada condição adiciona uma cláusula à consulta de pesquisa que é criada e executada quando você inicia a pesquisa. Uma condição é conectada logicamente à consulta de palavra-chave (especificada na caixa palavra-chave) por um operador lógico (que é representado como c:c) que é semelhante em funcionalidade ao operador AND. Isso significa que os itens precisam satisfazer a consulta de palavra-chave e uma ou mais condições a serem incluídas nos resultados da pesquisa. É assim que as condições ajudam a restringir os resultados.
+Você pode adicionar condições de pesquisa para restringir o escopo de uma pesquisa e retornar um conjunto de resultados mais refinado. Cada condição adiciona uma cláusula à consulta de pesquisa que é criada e executada quando você inicia a pesquisa. Uma condição é conectada logicamente à consulta de palavra-chave (especificada na caixa palavra-chave) por um operador lógico (que é representado como c:c) que é semelhante em funcionalidade ao operador AND. Isso significa que os itens precisam satisfazer a consulta de palavra-chave e uma ou mais condições a serem incluídas nos resultados da pesquisa. Essa funcionalidade é como as condições ajudam a restringir os resultados.
 
 Para ferramentas de filtro e pesquisa avançadas, expanda o painel de **filtro** no lado esquerdo da fila de conteúdo. Selecione o botão **Adicionar uma condição** para abrir a lista de condições:
 
@@ -125,7 +127,7 @@ A tabela a seguir lista as condições de propriedade da mensagem de email dispo
 | **Participante** | Todos os campos de pessoas em uma mensagem de email. Esses campos são de, para, CC e Cco. |
 | **Received** | A data em que uma mensagem de email foi recebida pelo destinatário. |
 | **Domínios de destinatário** | Lista de todos os domínios de destinatários de uma mensagem. |
-| **Sender** | Campo remetente (de) para tipos de mensagem.  Format é **DisplayName \< smtpAddress>**. |
+| **Sender** | Campo remetente (de) para tipos de mensagem.  O formato **é \<SmtpAddress> DisplayName **. |
 | **Domínio do remetente** | Domínio do remetente. |
 | **Assunto** | O texto na linha de assunto de uma mensagem de email.  <br/> **Observação:** Quando você usa a propriedade Subject em uma consulta, a pesquisa retorna todas as mensagens nas quais a linha de assunto contém o texto que você está pesquisando. Em outras palavras, a consulta não retorna apenas as mensagens que têm uma correspondência exata. Por exemplo, se você procurar `subject:"Quarterly Financials"` , seus resultados incluirão mensagens com o assunto "Finanças Trimestralmente 2018". |
 | **To** | O campo Para de uma mensagem de email. |
@@ -145,7 +147,7 @@ A tabela a seguir lista as condições de propriedade dos documentos disponívei
 | **Hora da criação** | A hora em que o arquivo ou a mensagem de email foi criada. |
 | **Custodian** | Nome dos responsáveis com os quais o item foi associado. |
 | **Tema dominante** | Tema dominante conforme calculado para a análise. |
-| **ID da família** | Grupos de ID de família juntos todos os itens; para email, isso inclui a mensagem e todos os anexos; para documentos, isso inclui o documento e todos os itens incorporados. |
+| **ID da família** | Grupos de ID de família juntos todos os itens; para email, este campo inclui a mensagem e todos os anexos; para documentos, este campo inclui o documento e todos os itens incorporados. |
 | **Classe de arquivo** | Para conteúdo do SharePoint e do OneDrive: **Document**; para o conteúdo do Exchange: * * email ou **anexo**. |
 | **Tipos de arquivo** | A extensão de um arquivo; por exemplo, docx, One, pptx ou xlsx. |
 | **Tem participante advogado** | True quando pelo menos um dos participantes é encontrado na lista advogado; caso contrário, o valor será false. |
@@ -154,7 +156,7 @@ A tabela a seguir lista as condições de propriedade dos documentos disponívei
 | **Classe de item** | Classe de item fornecida pelo Exchange Server; por exemplo, **IPM. Observação** |
 | **Última modificação** | A data em que um documento foi alterado pela última vez. |
 | **ID de carregamento** | ID de carregamento, no qual o item foi carregado em um conjunto de revisão. |
-| **Nome do local** | Cadeia de caracteres que identifica a origem do item.  Para o Exchange, esse será o endereço SMTP da caixa de correio. Para o SharePoint e o OneDrive, a URL para o conjunto de sites. |
+| **Nome do local** | Cadeia de caracteres que identifica a origem do item.  Para o Exchange, este campo será o endereço SMTP da caixa de correio. Para o SharePoint e o OneDrive, a URL para o conjunto de sites. |
 | **Marcado como representante** | Um documento de cada conjunto de duplicatas exatas é marcado como representante. |
 | **Extensão de arquivo nativo** | Extensão nativa do item. |
 | **Nome do arquivo nativo** | Nome do arquivo nativo do item. |

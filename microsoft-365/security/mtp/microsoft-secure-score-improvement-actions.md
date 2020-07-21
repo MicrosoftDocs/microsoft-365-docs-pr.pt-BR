@@ -1,5 +1,5 @@
 ---
-title: Obter visibilidade de sua postura de segurança por meio da Pontuação segura da Microsoft
+title: Avaliar a postura de segurança por meio da Pontuação segura da Microsoft
 description: Descreve como realizar ações para melhorar sua pontuação segura da Microsoft na central de segurança do Microsoft 365.
 keywords: segurança, malware, Microsoft 365, M365, Pontuação segura, central de segurança, ações de melhoria
 ms.prod: microsoft-365-enterprise
@@ -20,14 +20,14 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 0ae1a196f11f383c1d3f9fd2056d5d19e7cdd6da
-ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
+ms.openlocfilehash: 469056bbae4627e0b013bfc0f2e965586fd15175
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45095011"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45200057"
 ---
-# <a name="gain-visibility-into-your-security-posture-through-microsoft-secure-score"></a>Obter visibilidade de sua postura de segurança por meio da Pontuação segura da Microsoft
+# <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Avaliar a postura de segurança com a pontuação segura da Microsoft
 
 A pontuação segura da Microsoft é uma medida da postura de segurança de uma organização, com um número maior indicando ações mais aprimoradas. Ele pode ser encontrado no https://security.microsoft.com/securescore na [central de segurança do Microsoft 365](overview-security-center.md).
 
@@ -40,7 +40,7 @@ Para ajudá-lo a obter mais rapidamente as informações de que você precisa, a
 * Infraestrutura (sem ações de melhoria por enquanto)
 
 >[!NOTE]
->Na versão recente da Pontuação de segurança da Microsoft, foi lançado um modelo de Pontuação aprimorado que tornou a pontuação segura da Microsoft temporariamente incompatível com a pontuação segura de identidade e a API do Graph. [Exibir detalhes](microsoft-secure-score.md#incompatibility-with-identity-secure-score-and-graph-api)
+>Na versão recente da Pontuação de segurança da Microsoft, foi lançado um modelo de Pontuação aprimorado que tornou a pontuação segura da Microsoft temporariamente incompatível com a pontuação segura de identidade e a API do Graph. [Exibir detalhes](microsoft-secure-score-whats-new.md)
 
 Na página de visão geral de Pontuação segura da Microsoft, você pode ver como os pontos são divididos entre esses grupos e que pontos estão disponíveis. A página de visão geral também é o local para obter uma visão completa da pontuação total, tendência histórica de sua pontuação segura com comparações de benchmark e ações de melhoria priorizadas que podem ser tomadas para melhorar sua pontuação.
 
@@ -121,3 +121,4 @@ Se você tiver problemas, informe-nos por postagem na Comunidade de [segurança,
 - [Visão geral da Pontuação segura da Microsoft](microsoft-secure-score.md)
 - [Acompanhar o histórico de Pontuação segura da Microsoft e atingir as metas](microsoft-secure-score-history-metrics-trends.md)
 - [O que estar por vir.](microsoft-secure-score-whats-coming.md)
+- [Novidades](microsoft-secure-score-whats-new.md)

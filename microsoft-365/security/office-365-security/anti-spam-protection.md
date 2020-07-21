@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as configurações e filtros antispam que ajudarão a evitar spam na proteção do Exchange Online (EOP).
-ms.openlocfilehash: ce673a4bee64dfbc84f870f9cf4871e9ac32a71c
-ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
+ms.openlocfilehash: 74ffe22ffea07350245f6fed18d09b52f96c8351
+ms.sourcegitcommit: e6bf1af2d5cf54c3fcc3fa916abe268fc96bdd4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44800102"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45189556"
 ---
 # <a name="anti-spam-protection-in-eop"></a>Proteção antispam no EOP
 
@@ -36,6 +36,9 @@ Nas organizações do Microsoft 365 com caixas de correio em organizações do E
 O mapa de segurança de email da Microsoft envolve uma abordagem de vários produtos sem correspondência. A tecnologia antispam e anti-phishing do EOP é aplicada em nossas plataformas de email para fornecer aos usuários as últimas ferramentas antispam e anti-phishing e as inovações em toda a rede. O objetivo do EOP é oferecer um serviço de email abrangente e útil que ajuda a detectar e proteger os usuários contra lixo eletrônico, ameaças de email fraudulentas (phishing) e malware.
 
 Como o uso de email cresceu, isso tem abuso de email. O lixo eletrônico não monitorado pode obstruir as caixas de entrada e redes, impactar a satisfação do usuário e dificultar a eficácia de comunicações de email legítimas. É por isso que a Microsoft continua a investir em tecnologias antispam. Em suma, ele começa com a contém e filtra o lixo eletrônico.
+
+> [!TIP]
+> As seguintes tecnologias antispam são úteis quando você deseja permitir ou bloquear mensagens com base no envelope da mensagem (por exemplo, o domínio do remetente ou o endereço IP de origem da mensagem). Para permitir ou bloquear mensagens com base na carga (por exemplo, URLs na mensagem ou arquivos anexados), você deve usar o [portal de lista de permissões/bloqueios de locatários](tenant-allow-block-list.md).
 
 ## <a name="anti-spam-technologies-in-eop"></a>Tecnologias antispam no EOP
 

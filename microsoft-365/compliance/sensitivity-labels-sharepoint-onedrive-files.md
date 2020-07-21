@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: ee6f89db7758140ac8e4c2752d8a2883cc0990db
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 8530e3d82fd670eedde9a874b0a87a0bad523fe5
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780714"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45199521"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
@@ -164,17 +164,18 @@ Para habilitar os novos recursos, use o cmdlet [set-SPOTenant](https://docs.micr
     ```
 3. Para o Microsoft 365 multigeo: Repita as etapas 1 e 2 para cada um dos locais geográficos restantes.
 
-## <a name="schedule-roll-out-after-you-create-or-change-a-sensitivity-label"></a>Agendar a distribuição após criar ou alterar um rótulo de confidencialidade
+## <a name="publishing-and-changing-sensitivity-labels"></a>Publicar e alterar rótulos de sensibilidade
 
-Após criar ou alterar um rótulo de confidencialidade no centro de conformidade do Microsoft 365, publique-o em estágios. Se você publicar rótulos que não estão totalmente sincronizados, quando os usuários aplicam os rótulos aos arquivos e os carregam no SharePoint, os arquivos não podem ser abertos nas versões Web dos aplicativos do Office. A pesquisa e a descoberta eletrônica também não funcionam para os arquivos.
+Ao usar rótulos de confidencialidade com o SharePoint e o OneDrive, tenha em mente que você precisa permitir o tempo de replicação quando publicar novos rótulos de sensibilidade ou atualizar rótulos de sensibilidade existentes. Isso é especialmente importante para novos rótulos que aplicam criptografia.
 
-Recomendamos que você siga estas etapas:
+Por exemplo: você cria e publica um novo rótulo de confidencialidade que aplica criptografia e rapidamente aparece no aplicativo de área de trabalho de um usuário. O usuário aplica esse rótulo a um documento e, em seguida, o carrega no SharePoint ou no OneDrive. Se a replicação de rótulo não for concluída para o serviço, os novos recursos não serão aplicados a esse documento durante o carregamento. Como resultado, o documento não será retornado na pesquisa ou na descoberta eletrônica e o documento não poderá ser aberto no Office para a Web.
 
-1. Publicar o rótulo de confidencialidade novo ou modificado somente para uma ou duas pessoas.
+- As seguintes alterações são replicadas dentro de um horário: rótulos de confidencialidade novos e excluídos e configurações de política de rótulo de confidencialidade que incluem quais rótulos estão na política.
 
-2. Aguarde pelo menos 24 horas após a publicação inicial. Verifique se o rótulo foi totalmente sincronizado.
+- As seguintes alterações são replicadas dentro de 24 horas: alterações nas configurações de rótulo de confidencialidade para rótulos existentes.
 
-3. Publique o rótulo de forma mais ampla.
+Como o atraso de replicação agora é de apenas uma hora para novos rótulos de sensibilidade, você provavelmente não executará no cenário no exemplo. Mas, como uma salvaguarda, recomendamos publicar novos rótulos para apenas alguns usuários de teste primeiro, aguardar por uma hora e, em seguida, verificar o comportamento do rótulo no SharePoint e no OneDrive. Como etapa final, torne o rótulo disponível para mais usuários adicionando mais usuários à política de rótulo existente ou adicione o rótulo a uma política de rótulo existente para seus usuários padrão. No momento em que os usuários padrão veem o rótulo, ele já foi sincronizado com o SharePoint e o OneDrive.
+
 
 ## <a name="sharepoint-information-rights-management-irm-and-sensitivity-labels"></a>Gerenciamento de direitos de informação (IRM) e rótulos de confidencialidade do SharePoint
 

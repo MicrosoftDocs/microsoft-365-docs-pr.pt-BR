@@ -12,18 +12,18 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: c2b1a229bad5bc82f61227bd5a273af1aefb3481
-ms.sourcegitcommit: 2e9e309ec09e5275ac6b3b425fba48a9ffce8eb2
+ms.openlocfilehash: 0997ecc83ad7f97d1fb7273bcac8b026f6432091
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44900805"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45199501"
 ---
 # <a name="insider-risk-management-users-dashboard"></a>Painel usuários de gerenciamento de risco do insider
 
 O **painel usuários** é uma ferramenta importante no fluxo de trabalho de gerenciamento de risco do insider e ajuda os investigadores e analistas a ter uma compreensão mais completa das atividades de risco. Esse painel oferece modos de exibição e recursos de gerenciamento para atender às necessidades administrativas entre as políticas de gerenciamento de risco do insider e gerenciamento de casos de gerenciamento do insider.
 
-Após os usuários serem adicionados às políticas de gerenciamento de risco do Insider, os processos em segundo plano estão avaliando automaticamente as atividades do usuário para [acionar indicadores](insider-risk-management-policies.md#indicators). Depois que os indicadores de disparo estiverem presentes, as atividades do usuário receberão pontuações de risco. Algumas dessas atividades podem resultar em um alerta de risco Insider, mas algumas atividades podem não atender a um nível mínimo de Pontuação de risco e um alerta de risco de insider não será criado. O **painel usuários** permite exibir os usuários com esses tipos de indicadores e pontuações de risco, bem como os usuários que têm alertas de risco do Active Insider.
+Após os usuários serem adicionados às políticas de gerenciamento de risco do Insider, os processos em segundo plano estão avaliando automaticamente as atividades do usuário para [acionar indicadores](insider-risk-management-settings.md#indicators). Depois que os indicadores de disparo estiverem presentes, as atividades do usuário receberão pontuações de risco. Algumas dessas atividades podem resultar em um alerta de risco Insider, mas algumas atividades podem não atender a um nível mínimo de Pontuação de risco e um alerta de risco de insider não será criado. O **painel usuários** permite exibir os usuários com esses tipos de indicadores e pontuações de risco, bem como os usuários que têm alertas de risco do Active Insider.
 
 Além disso, pode haver situações em que você precisa adicionar usuários temporariamente às políticas de risco do insider após um evento incomum ser relatado fora do fluxo de trabalho de gerenciamento de risco do insider. O **painel usuários** permite que você adicione manualmente um usuário a uma política de risco do insider por um período específico e ignore o requisito para que um usuário tenha um indicador de acionamento. Esses usuários são sempre exibidos no painel usuários quando atribuídos ativamente a uma política.
 
@@ -39,7 +39,7 @@ O **painel usuários** exibe automaticamente todos os usuários com alertas de p
 
 ## <a name="dashboard-users-with-triggering-indicators"></a>Usuários do painel com indicadores de disparo
 
-O **painel usuários** exibe automaticamente todos os usuários com indicadores de acionamento, mas que não têm uma pontuação de risco de atividade que criaria uma atividade de risco de insider. Por exemplo, um usuário com uma data de demissão relatada é exibido porque esse evento é um indicador de acionamento, mas não é uma atividade que tem uma pontuação de risco. As atividades desses usuários são exibidas selecionando o usuário no **painel usuários** e navegando até a guia **atividade do usuário** .
+O **painel usuários** exibe automaticamente todos os usuários com indicadores de acionamento, mas que não têm uma pontuação de risco de atividade que criaria um alerta de risco de insider. Por exemplo, um usuário com uma data de demissão relatada é exibido porque esse evento é um indicador de acionamento, mas não é uma atividade com uma pontuação de risco. As atividades desses usuários são exibidas selecionando o usuário no **painel usuários** e navegando até a guia **atividade do usuário** .
 
 ## <a name="dashboard-users-added-temporarily-to-policies"></a>Usuários do painel adicionados temporariamente às políticas
 

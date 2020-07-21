@@ -12,20 +12,20 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 0618eb6b68f5753ea6af2469e3487eabfe566450
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: 7b7b6e15528d91a59575e2cfda5808106df7d61b
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292479"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45199695"
 ---
 # <a name="insider-risk-management-alerts"></a>Alertas de gerenciamento de risco do insider
 
-Alertas de gerenciamento de risco do insider são gerados automaticamente pelos indicadores de risco definidos nas políticas de gerenciamento de risco do insider Esses alertas fornecem aos analistas de conformidade e investigadores uma visão de todos os status do risco atual e permitem que sua organização faça a triagem e execute ações para riscos descobertos. Por padrão, as políticas geram uma determinada quantidade de alertas de severidade Baixa, média e alta, mas você pode [aumentar ou diminuir o volume de alerta](insider-risk-management-policies.md#alert-volume) para atender às suas necessidades.
+Alertas de gerenciamento de risco do insider são gerados automaticamente pelos indicadores de risco definidos nas políticas de gerenciamento de risco do insider Esses alertas fornecem aos analistas de conformidade e investigadores uma visão de todos os status do risco atual e permitem que sua organização faça a triagem e execute ações para riscos descobertos. Por padrão, as políticas geram uma determinada quantidade de alertas de severidade Baixa, média e alta, mas você pode [aumentar ou diminuir o volume de alerta](insider-risk-management-settings.md#alert-volume) para atender às suas necessidades. Além disso, você pode configurar o [limite de alerta para indicadores de política](insider-risk-management-settings.md#indicator-level-settings-preview) ao criar uma nova política com o assistente de política.
 
 ## <a name="alert-dashboard"></a>Painel de alerta
 
-O painel de **alerta** de risco do insider permite que você visualize e execute ações em alertas gerados por políticas de risco do insider. Cada widget de relatório exibe informações dos últimos 30 dias.
+O painel de **alerta** de risco do insider permite que você visualize e atue em alertas gerados por políticas de risco do insider. Cada widget de relatório exibe informações dos últimos 30 dias.
 
 - **Alertas a serem revisados**: o número total de alertas que precisam de revisão e análise estão listados, incluindo uma divisão por severidade de alerta.
 - **Abrir alertas nos últimos 30 dias**: o número total de alertas criados por uma política corresponde aos últimos 30 dias, classificados por níveis de severidade de alerta alto, médio e baixo.
@@ -48,17 +48,17 @@ Você pode filtrar alertas em um dos seguintes status:
 - **Requer revisão**: um novo alerta em que as ações de triagem ainda não foram realizadas.
 - **Resolvido**: um alerta que faz parte de uma ocorrência fechada e resolvida.
 
-As pontuações de risco de alerta são calculados automaticamente de vários atributos de atividade de risco. Esses atributos incluem o tipo de atividade de risco, o número e a frequência da ocorrência da atividade, o histórico da atividade de risco do usuário e a adição de riscos de atividade que podem aumentar a gravidade da atividade. A pontuação de risco de alerta orienta a atribuição programática de um nível de severidade de risco para cada alerta e não pode ser personalizada. Se os alertas permanecerem não-triagem e as atividades de risco continuarem a ser acumuladas para o alerta, o nível de severidade pode aumentar. Os analistas e investigadores de risco podem usar a severidade de risco de alerta para ajudar a fazer a triagem de alertas de acordo com as políticas e os padrões de risco da sua organização.
+As pontuações de risco de alerta são calculados automaticamente de vários indicadores de atividade de risco. Esses indicadores incluem o tipo de atividade de risco, o número e a frequência da ocorrência da atividade, o histórico da atividade de risco do usuário e a adição de riscos de atividade que podem aumentar a gravidade da atividade. A pontuação de risco de alerta orienta a atribuição programática de um nível de severidade de risco para cada alerta e não pode ser personalizada. Se os alertas permanecerem não-triagem e as atividades de risco continuarem a ser acumuladas para o alerta, o nível de severidade pode aumentar. Os analistas e investigadores de risco podem usar a severidade de risco de alerta para ajudar a fazer a triagem de alertas de acordo com as políticas e os padrões de risco da sua organização.
 
 Os níveis de severidade de risco de alerta são:
 
-- **Alta gravidade**: a atividade e os indicadores para o alerta representam um risco significativo. As atividades de risco associadas são sérias, repetitivas e corelacionáveis de alta para outros fatores de risco significativos.
-- **Severidade média**: a atividade e os indicadores para o alerta representam um risco moderado. As atividades de risco associadas são moderadas, freqüentes e têm alguma correlação com outros fatores de risco.
-- **Severidade Baixa**: a atividade e os indicadores para o alerta representam um risco menor. As atividades de risco associadas são secundárias, mais frequentes e não corelacionadas a outros fatores de risco significativos.
+- **Alta gravidade**: as atividades e os indicadores para o alerta representam um risco significativo. As atividades de risco associadas são sérias, repetitivas e corelacionáveis de alta para outros fatores de risco significativos.
+- **Severidade média**: as atividades e os indicadores para o alerta representam um risco moderado. As atividades de risco associadas são moderadas, freqüentes e têm alguma correlação com outros fatores de risco.
+- **Severidade Baixa**: as atividades e os indicadores para o alerta representam um risco menor. As atividades de risco associadas são secundárias, mais frequentes e não corelacionadas a outros fatores de risco significativos.
 
 ## <a name="filter-alerts"></a>Alertas de filtro
 
-Dependendo do número e do tipo de políticas de gerenciamento de risco do insider ativos em sua organização, a análise de uma grande fila de alertas pode ser desafiadora. O uso de filtros de alerta pode ajudar os analistas e investigadores a classificarem alertas por vários atributos. Para filtrar alertas no painel alertas, selecione o controle **filtro** . Você pode filtrar alertas por um ou mais atributos:
+Dependendo do número e do tipo de políticas de gerenciamento de risco do insider ativos em sua organização, a análise de uma grande fila de alertas pode ser desafiadora. O uso de filtros de alerta pode ajudar os analistas e investigadores a classificarem alertas por vários atributos. Para filtrar alertas no **painel alertas**, selecione o controle **filtro** . Você pode filtrar alertas por um ou mais atributos:
 
 - **Status**: selecione um ou mais valores de status para filtrar a lista de alerta. As opções são *confirmadas*, *ignoradas*, *Revisas*e *resolvidas*.
 - **Severidade**: selecione um ou mais níveis de severidade de risco de alerta para filtrar a lista de alerta. As opções são *alta*, *média*e *baixa*.
@@ -81,15 +81,15 @@ Para fazer a triagem de um alerta de risco do Insider, conclua as seguintes etap
         - **Tempo detectado**: o período de tempo desde que o alerta foi gerado.
         - **Correspondências de política**: as políticas que geraram o alerta estão listadas. Cada política é listada como um link para os detalhes da política.
         - **Severidade**: o nível atual de gravidade do risco de alerta, listado como *alto*, *médio*ou *baixo*. O nível de severidade pode aumentar ou diminuir com o tempo se o alerta não for diminuído.
-        - **Caso**: se confirmado, o caso gerado a partir do alerta é listado. Para novos alertas, o campo Case tem um valor *None* .
-    - **Atividade do usuário**: essa guia exibe o histórico de atividades do usuário associado ao alerta. Este histórico inclui outros alertas e atividades de eventos relacionados a indicadores de risco definidos no modelo atribuído à política para este alerta. Este histórico permite que analistas de risco e investigadores impeçam o fato de qualquer comportamento arriscado passado para o funcionário como parte do processo de triagem.
-    - **Perfil de usuário**: essa guia exibe as informações gerais sobre o funcionário atribuído ao alerta.
-    - **Confirmar e criar caso**: visível em todas as guias, use este botão para confirmar e criar um novo caso. Isso altera automaticamente o status do alerta para *confirmado*.
-    - **Ignorar**: visível em todas as guias, use este botão para ignorar o alerta. Isso altera o status do alerta para *resolvido*.
+        - **Caso**: se confirmado, o caso gerado a partir do alerta é listado. Para novos alertas, o campo **Case** exibe *nenhum*.
+    - **Atividade do usuário**: essa guia exibe o histórico de atividades do usuário associado ao alerta. Este histórico inclui outros alertas e atividades relacionadas a indicadores de risco definidos no modelo atribuído à política para este alerta. Este histórico permite que analistas de risco e investigadores impeçam o fato de qualquer comportamento arriscado passado para o funcionário como parte do processo de triagem.
+    - **Perfil de usuário**: essa guia exibe as informações gerais sobre o funcionário atribuído ao alerta. Se a anonimato estiver habilitada, os campos nome de usuário, endereço de email, alias e organização serão anônimos.
+    - **Confirmar e criar caso**: visível em todas as guias, use este botão para confirmar e criar um novo caso. Essa ação altera automaticamente o status do alerta para *confirmado*.
+    - **Ignorar alerta**: visível em todas as guias, use este botão para ignorar o alerta. Esta ação altera o status do alerta para *resolvido*.
 
 ## <a name="create-a-case-for-an-alert"></a>Criar uma ocorrência para um alerta
 
-Após um alerta ser revisado e expirar, você pode criar um novo caso para investigar ainda mais a atividade de risco. Para criar uma ocorrência para um alerta, siga estas etapas:
+Como o alerta é revisado e expirado, você pode criar um novo caso para investigar ainda mais a atividade de risco. Para criar uma ocorrência para um alerta, siga estas etapas:
 
 1. No [centro de conformidade da Microsoft 365](https://compliance.microsoft.com), vá para gerenciamento de **risco do insider** e selecione a guia **alertas** .
 2. No **painel alertas**, selecione o alerta que você deseja confirmar e crie um novo caso para o.
