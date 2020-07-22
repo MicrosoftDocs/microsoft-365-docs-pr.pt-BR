@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 64197133386748695fbef5a33c09022ae41f75d3
-ms.sourcegitcommit: 5f980a9eb5aca61cf3662ef0bc65dec215e21656
+ms.openlocfilehash: 0ee31ef55c78457ee2b9d3db7b702ada2f55a639
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "45185987"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204954"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Pontuação superior nos testes do setor
 
@@ -100,6 +100,8 @@ O SE Labs testa uma variedade de soluções usadas por produtos e serviços para
 ## <a name="endpoint-detection--response"></a>Resposta de detecção de ponto de extremidade &
 
 Os recursos [de detecção e resposta](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response) do Microsoft defender ATP fornecem detecções de ataques avançados quase em tempo real e acionáveis. Os analistas de segurança podem priorizar alertas de maneira eficaz, obter visibilidade de todo o escopo de uma violação e executar ações de resposta para remediar ameaças.
+
+Os recursos do EDR e do Endpoint Protection do Microsoft defender ATP receberam resultados positivos de publicações e testes da indústria. O [SC Labs avaliou ferramentas de segurança de pontos de extremidade](https://www.scmagazine.com/home/reviews/sc-product-reviews-endpoint-security/) em junho de 2020 e deu o Microsoft Defender ATP [5/5 estrelas](https://www.scmagazine.com/review/microsoft-defender-advanced-threat-protection/). Eles também chamaram a capacidade do Microsoft defender ATP de proteger organizações contra o panorama de ameaças modernas usando um conjunto completo de recursos de segurança e identificaram a solução de segurança do ponto de extremidade como holística e unificada. Eles também confirmaram a convergência do Endpoint Protection com a funcionalidade de detecção e resposta de ponto de extremidade, porque a cadeia de ataques agora é totalmente coberta pelas soluções.
 
 ### <a name="mitre-industry-leading-optics-and-detection-capabilities"></a>MITRE: recursos ópticos e de detecção líderes do setor
 

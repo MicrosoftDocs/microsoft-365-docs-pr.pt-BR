@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Saiba como adicionar convidados a um grupo do Microsoft 365, exibir usuários convidados e usar o PowerShell para controlar o acesso de convidados.
-ms.openlocfilehash: 0322bd269f1c5637627461d136b40f6af4fc9540
-ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
+ms.openlocfilehash: a56d9599824ac1436c6f875661bcd573c1f6b1ca
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854241"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204738"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Gerenciar o acesso de convidados nos grupos do Microsoft 365
 
@@ -114,7 +114,7 @@ Para obter mais informações, consulte [permitir ou bloquear convites para usu�
 
 ## <a name="add-guests-to-the-global-address-list"></a>Adicionar convidados à lista de endereços global
 
-Por padrão, os convidados não estão visíveis na lista de endereços global do Exchange. Use as etapas listadas abaixo para tornar um convidado visível na lista de endereços global.
+Por padrão, os convidados não estão visíveis na lista de endereços global do Exchange. Use as etapas listadas abaixo para tornar um convidado visível na lista de endereços global. Certifique-se de que o convidado está visível no centro de administração do Exchange Online. Os novos convidados podem demorar um pouco para aparecer depois de adicionados.
 
 Encontre o ObjectID do usuário convidado executando:
 

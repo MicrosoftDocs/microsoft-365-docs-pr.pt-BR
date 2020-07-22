@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: da3b331d4f607aa0961e275db9444aadbec4fcf2
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 663dc2a3de676fa2daeab3d9621254e956d42fc4
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899334"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204750"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -36,18 +36,28 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `ActionType` | string | Tipo de atividade que disparou o evento |
-| `Application` | string | Aplicativo que executou a ação gravada |
-| `FileName` | string | Nome do arquivo ao qual a ação gravada foi aplicada |
-| `FolderPath` | string | Pasta que contém o arquivo para o qual a ação registrada foi aplicada |
-| `PreviousFileName` | string | O nome original do arquivo que foi renomeado como resultado da ação |
-| `AccountName` | string | Nome de usuário da conta |
-| `AccountDomain` | string | Domínio da conta |
-| `AccountUpn` | string | Nome principal do usuário (UPN) da conta |
-| `AccountObjectId` | string | Identificador exclusivo da conta no Azure AD |
-| `AccountDisplayName` | string | Nome do usuário da conta exibido no catálogo de endereços. Normalmente, uma combinação de um determinado nome ou primeiro, um início do meio e um sobrenome ou sobrenome. |
-| `IPAddress` | string | Endereço IP atribuído ao ponto de extremidade e usado durante as comunicações de rede relacionadas |
-| `Location` | string | Cidade, país ou outra localização geográfica associada ao evento |
+| `ActionType` | cadeia de caracteres | Tipo de atividade que disparou o evento |
+| `Application` | cadeia de caracteres | Aplicativo que executou a ação gravada |
+| `FileName` | cadeia de caracteres | Nome do arquivo ao qual a ação gravada foi aplicada |
+| `FolderPath` | cadeia de caracteres | Pasta que contém o arquivo para o qual a ação registrada foi aplicada |
+| `PreviousFileName` | cadeia de caracteres | O nome original do arquivo que foi renomeado como resultado da ação |
+| `PreviousFolderPath` | cadeia de caracteres | Pasta original contendo o arquivo antes da aplicação da ação gravada |
+| `Protocol` | cadeia de caracteres | Protocolo de rede usado |
+| `AccountName` | cadeia de caracteres | Nome de usuário da conta |
+| `AccountDomain` | cadeia de caracteres | Domínio da conta |
+| `AccountUpn` | cadeia de caracteres | Nome principal do usuário (UPN) da conta |
+| `AccountObjectId` | cadeia de caracteres | Identificador exclusivo da conta no Azure AD |
+| `AccountDisplayName` | cadeia de caracteres | Nome do usuário da conta exibido no catálogo de endereços. Normalmente, uma combinação de um determinado nome ou primeiro, um início do meio e um sobrenome ou sobrenome. |
+| `DeviceName` | cadeia de caracteres | FQDN (nome de domínio totalmente qualificado) do dispositivo |
+| `DeviceType` | cadeia de caracteres | Tipo de dispositivo | 
+| `OSPlatform` | cadeia de caracteres | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. |
+| `IPAddress` | cadeia de caracteres | Endereço IP atribuído ao ponto de extremidade e usado durante as comunicações de rede relacionadas |
+| `DestinationDeviceName` | cadeia de caracteres | Nome do dispositivo que executa o aplicativo de servidor que processou a ação registrada |
+| `DestinationIPAddress` | cadeia de caracteres | Endereço IP do dispositivo que está executando o aplicativo de servidor que processou a ação registrada |
+| `Location` | cadeia de caracteres | Cidade, país ou outra localização geográfica associada ao evento |
+| `Isp` | cadeia de caracteres | Provedor de serviços de Internet (ISP) associado ao endereço IP do ponto de extremidade |
+| `ReportId` | long | Identificador exclusivo do evento |
+| `AdditionalFields` | cadeia de caracteres | Informações adicionais sobre a entidade ou o evento |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da caça avançada](advanced-hunting-overview.md)

@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 7ab2b0ddaa7bc1c8ed4109affb2ef5ff11a7420b
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: a31ee6de305cf9226a8b605f75bb71406f78fd70
+ms.sourcegitcommit: fe20f5ed07f38786c63df0f73659ca472e69e478
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200188"
+ms.locfileid: "45201417"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>Introdução às configurações de gerenciamento de risco do insider
 
@@ -74,7 +74,7 @@ Por exemplo, você decide habilitar os indicadores do SharePoint nas configuraç
 
 ![Configurações do indicador personalizado de gerenciamento de risco do insider](../media/insider-risk-custom-indicators.png)
 
-- Para o primeiro nível de evento diário, você define o limite em *10 ou mais eventos por dia* para um impacto menor na pontuação de risco dos eventos, *20 ou mais eventos por dia* para um impacto médio na pontuação de risco*dos eventos e* *30 ou mais eventos por dia* um impacto maior na pontuação de risco dos eventos. Essas configurações significam efetivamente:
+Para o primeiro nível de evento diário, você define o limite em *10 ou mais eventos por dia* para um impacto menor na pontuação de risco dos eventos, *20 ou mais eventos por dia* para um impacto médio na pontuação de risco dos eventos e *30 ou mais eventos por dia* um impacto maior na pontuação de risco dos eventos. Essas configurações significam efetivamente:
 
 - Se houver 1-9 eventos do SharePoint que ocorrem após o evento de acionamento, as pontuações de risco são impactados minimamente e tendem a não gerar um alerta.
 - Se houver 10-19 eventos do SharePoint que ocorrem após um evento de acionamento, a pontuação de risco será inerentemente inferior, e os níveis de severidade de alerta tendem a estar em um nível baixo.

@@ -14,12 +14,12 @@ ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como o Exchange Online Protection (EOP) pode ajudar a proteger sua organização de email local em ambientes autônomos e híbridos.
-ms.openlocfilehash: a3f71ea5366224465cdaf3922c6c467fcb49f3cc
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 37b38df9e94bee93202be02c01a220afa9470b8a
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616981"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204798"
 ---
 # <a name="exchange-online-protection-overview"></a>Visão geral do Exchange Online Protection
 
@@ -61,7 +61,13 @@ EOP realiza balanceamento de carga entre data centers, mas apenas dentro de uma 
 
 - No Pacífico Asiático (Ásia), todas as caixas de correio do Exchange Online estão localizadas em datacenters da Ásia e as mensagens são roteadas atualmente através de datacenters da Ásia para filtragem do EOP.
 
-- Nas Américas, todas as caixas de correio do Exchange Online estão localizadas em datacenters dos EUA, com a exceção da América do Sul onde os datacenters no Brasil e no Chile são usados e no Canadá em que os datacenters do Canadá são usados. Todas as mensagens de email, incluindo mensagens para clientes na América do Sul e Canadá, são roteadas através de datacenters locais para filtragem do EOP; o email em quarentena é armazenado no datacenter onde o locatário está localizado.
+- Nas Américas, os serviços são distribuídos nos seguintes locais:
+
+  - América do Sul: as caixas de correio do Exchange Online estão localizadas em datacenters no Brasil e no Chile. Todas as mensagens são roteadas através de datacenters locais para filtragem do EOP. As mensagens em quarentena são armazenadas no datacenter onde o locatário está localizado.
+
+  - Canadá: as caixas de correio do Exchange Online estão localizadas em datacenters no Canadá. Todas as mensagens são roteadas através de datacenters locais para filtragem do EOP. As mensagens em quarentena são armazenadas no datacenter onde o locatário está localizado.
+
+  - Estados Unidos: caixas de correio do Exchange Online estão localizadas em datacenters dos EUA. Todas as mensagens são roteadas através de datacenters locais para filtragem do EOP. As mensagens em quarentena são armazenadas no datacenter onde o locatário está localizado.
 
 - Para a Nuvem de Comunidade Governamental (GCC), todas as caixas de correio do Exchange Online localizadas em data centers dos EUA e todas as mensagens são roteadas através de data centers dos EUA para filtragem do EOP.
 

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a exibir, criar, modificar e excluir políticas de spam de saída na proteção do Exchange Online (EOP).
-ms.openlocfilehash: 7102f858e0293f2a55fe68a55d4dc2cf3ab38a33
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: 9f70deeb371278fa397e5186b4c770f776abff32
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024577"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204846"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Configurar a filtragem de spam de saída no EOP
 
@@ -136,26 +136,10 @@ Criar uma política de spam de saída personalizada no centro de conformidade de
 
    - **Notificar pessoas específicas se um remetente estiver bloqueado devido ao envio de spam de saída**:
 
-     > [!NOTE]
-     > A [política de alerta](../../compliance/alert-policies.md) padrão chamada **usuário Restricted do envio de emails** já envia notificações por email para os membros do grupo **TenantAdmins** (**administradores globais**) quando os usuários são bloqueados devido a exceder os limites na seção **limites de destinatários** . Recomendamos que você use a política de alerta em vez da configuração da política de spam de saída para notificar os administradores e outros usuários. Para obter instruções, consulte [verificar as configurações de alerta para usuários restritos](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users). <br/><br/> Essa configuração só funciona na política de spam de saída padrão. Não funciona em políticas personalizadas de spam de saída que você cria.
-
-     Para habilitar essa configuração:
-
-     a. Marque a caixa de seleção para habilitar a configuração.
-
-     b. Clique em **adicionar pessoas**. No submenu **Adicionar ou remover destinatários** que aparece:
-
-     c. Insira o endereço de email do remetente. Você pode especificar vários endereços de email separados por ponto-e-vírgula (;) ou um destinatário por linha.
-
-     d. Click ![Ícone Adicionar](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) para adicionar os destinatários.
-
-        Repita essas etapas quantas vezes for necessário.
-
-        Os destinatários adicionados aparecem na seção **lista de destinatários** do submenu. Para excluir um destinatário, clique no ![ botão Remover ](../../media/scc-remove-icon.png) .
-
-     e. Quando concluir, clique em **Salvar**.
-
-     Para desabilitar essa configuração, desmarque a caixa de seleção.
+     > [!IMPORTANT]
+     > Essa configuração está no processo de ser preterido das políticas de spam de saída.
+     > 
+     > A [política de alerta](../../compliance/alert-policies.md) padrão chamada **usuário Restricted do envio de emails** já envia notificações por email para os membros do grupo **TenantAdmins** (**administradores globais**) quando os usuários são bloqueados devido a exceder os limites na seção **limites de destinatários** . É **altamente recomendável que você use a política de alerta em vez da configuração da política de spam de saída para notificar os administradores e outros usuários**. Para obter instruções, consulte [verificar as configurações de alerta para usuários restritos](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users).
 
 5. Opcion Expanda a seção **limites de destinatário** para configurar os limites e as ações para mensagens de email de saída suspeitas:
 
@@ -188,12 +172,12 @@ Criar uma política de spam de saída personalizada no centro de conformidade de
 6. Opcion Expanda a seção de **encaminhamento automático** para configurar controles sobre como o encaminhamento automático por usuários é controlado.
 
    > [!NOTE]
-   > Essas configurações só são aplicáveis às caixas de correio baseadas em nuvem.
-   
+   > Essas configurações se aplicam apenas às caixas de correio baseadas em nuvem.
+
    - **Encaminhamento automático**
   
       Selecione uma das opções para controlar como o encaminhamento automático é manipulado.
-    
+
       - **Automática**: configuração padrão que permite que o sistema controle o encaminhamento automático com o encaminhamento automático desabilitado por padrão.
       - **Ativado: o**encaminhamento externo está habilitado dentro da política sem restrição.
       - **Off**: o encaminhamento externo está desabilitado e será bloqueado
@@ -523,7 +507,7 @@ Remove-HostedOutboundSpamFilterRule -Identity "Marketing Department"
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/remove-hostedoutboundspamfilterrule).
 
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 [Remover usuários bloqueados do portal Usuários restritos](removing-user-from-restricted-users-portal-after-spam.md)
 

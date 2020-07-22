@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: e19a5528a4ccc250c981ab21d7644783ad1b0b8b
-ms.sourcegitcommit: c51dd4c659f763ae46c188d3fae90aab8d1d7e88
+ms.openlocfilehash: fca4889167dd7eb5f57d4980c4b033e0903209eb
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45084150"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204930"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Novidades da Proteção contra Ameaças da Microsoft
 
@@ -30,6 +30,10 @@ RSS feed: seja notificado quando esta página for atualizada copiando e colando 
 ```http
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+Threat+Protection%22&locale=en-us
 ```
+## <a name="july-2020"></a>Julho de 2020
+- [Função fileprofile ()](advanced-hunting-fileprofile-function.md) <br> Use essa função em suas consultas de [busca avançada](advanced-hunting-overview.md) para enriquecer os resultados com informações de arquivo abrangentes.
+- [Identidade e tabelas de aplicativos](advanced-hunting-schema-tables.md)<br> Obtenha visibilidade em eventos de autenticação, consultas do Active Directory e atividades relacionadas a aplicativos com as tabelas [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)e [AppFileEvents](advanced-hunting-appfileevents-table.md) no esquema de caça avançada.
+
 ## <a name="june-2020"></a>Junho de 2020
 - Feed do Twitter <br> Obtenha a pesquisa de segurança mais recente, inteligência de ameaças, notícias sobre produtos e muito mais-direito dentro do painel.
 - [Tabela de esquema EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md) <br> Incorporar informações sobre ações de envio realizadas em mensagens de email em suas consultas de busca avançadas.

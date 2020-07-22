@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: 8530e3d82fd670eedde9a874b0a87a0bad523fe5
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: a6826be5cccf89d3b2e48e0e37df9a9263e4a8a7
+ms.sourcegitcommit: fe20f5ed07f38786c63df0f73659ca472e69e478
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199521"
+ms.locfileid: "45201505"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
@@ -30,7 +30,7 @@ ms.locfileid: "45199521"
 
 Antes de habilitar os rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive, você não pode aplicar seus [Rótulos de confidencialidade](sensitivity-labels.md) no Office na Web. Você não vê o botão **sensibilidade** na faixa de opções ou o nome do rótulo aplicado na barra de status. Além disso, se você usar aplicativos de área de trabalho para rotular seus arquivos e salvá-los no SharePoint ou no OneDrive, o serviço não poderá processar o conteúdo desses arquivos se o rótulo estiver aplicado. A coautoria, eDiscovery, prevenção de perda de dados, pesquisa e outros recursos colaborativos não funcionará nessas circunstâncias.
 
-Quando você habilita rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive, todos esses recursos são habilitados. Além de exibir rótulos de confidencialidade aos usuários, para arquivos novos e alterados que tenham um rótulo de sensibilidade aplicado que inclua criptografia com uma chave baseada na nuvem:
+Quando você habilita rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive, todos esses recursos são habilitados. Além de exibir rótulos de confidencialidade aos usuários, para arquivos novos e alterados que têm um rótulo de confidencialidade aplicado que inclui criptografia com uma chave baseada na nuvem (e não usa [criptografia de chave dupla](double-key-encryption.md)):
 
 - Para arquivos do Word, Excel e PowerPoint, o SharePoint reconhece o rótulo e agora é capaz de processar o conteúdo do arquivo criptografado.
 
@@ -45,7 +45,7 @@ Quando você habilita rótulos de confidencialidade para arquivos do Office no S
 - O Office 365 eDiscovery oferece suporte à pesquisa de texto completo desses arquivos. As políticas de prevenção de perda de dados (DLP) dão suporte ao conteúdo nesses arquivos.
 
 > [!NOTE]
-> Se a criptografia não tiver sido aplicada com uma chave baseada na nuvem, mas uma chave local, uma topologia de gerenciamento de chave freqüentemente chamada de "conter sua própria chave" (HYOK), o comportamento do SharePoint para processamento do conteúdo do arquivo não será alterado.
+> Se a criptografia tiver sido aplicada com a chave local, uma topologia de gerenciamento de chave freqüentemente mencionada como "conter sua própria chave" (HYOK) ou usando a [criptografia de chave dupla](double-key-encryption.md), o comportamento do SharePoint para processar o conteúdo do arquivo não será alterado.
 >
 > O comportamento do SharePoint também não é alterado para arquivos criptografados e rotulados existentes no SharePoint. Para que esses arquivos se beneficiem dos novos recursos, eles devem ser baixados e carregados ou editados depois que você executar o comando para habilitar rótulos de confidencialidade para o SharePoint e o OneDrive. O SharePoint pode então processar esses arquivos. Por exemplo, eles serão retornados em resultados de pesquisa e de descoberta eletrônica.
 
@@ -62,7 +62,7 @@ Você sempre tem a opção de desabilitar rótulos de confidencialidade para arq
 
 Se você estiver protegendo documentos no SharePoint usando o gerenciamento de direitos de informação (IRM) do SharePoint, verifique a seção [Gerenciamento de direitos de informação (IRM) e rótulos de confidencialização do SharePoint](#sharepoint-information-rights-management-irm-and-sensitivity-labels) nesta página. 
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Esses novos recursos funcionam somente com [Rótulos de confidencialidade](sensitivity-labels.md) . Se, no momento, você tiver rótulos de proteção de informações do Azure, primeiro migre-os para os rótulos de confidencialização para que você possa habilitar esses recursos para novos arquivos que você carregar. Para obter instruções, consulte [como migrar rótulos de proteção de informações do Azure para rótulos de sensibilidade unificada](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 
@@ -70,15 +70,16 @@ Use o aplicativo de sincronização do OneDrive versão 19.002.0121.0008 ou post
 
 ## <a name="limitations"></a>Limitações
 
-- O SharePoint não aplica automaticamente rótulos de sensibilidade a arquivos existentes que você já criptografou usando rótulos de proteção de informações do Azure. Em vez disso, para fazer com que os recursos funcionem após habilitar os rótulos de confidencialidade dos arquivos do Office no SharePoint e no OneDrive, conclua estas tarefas:
+- O SharePoint não aplica automaticamente rótulos de sensibilidade a arquivos existentes que você já criptografou usando rótulos de proteção de informações do Azure. Em vez disso, para que os recursos funcionem depois de habilitar os rótulos de confidencialidade dos arquivos do Office no SharePoint e no OneDrive, conclua estas tarefas:
     
     1. Certifique-se [de ter migrado os rótulos de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) para os rótulos de confidencialidade e [publicá-los](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) no centro de conformidade do Microsoft 365 ou no centro de administração de rótulo equivalente.
     
     2. Baixe os arquivos e carregue-os no SharePoint.
 
-- O SharePoint não pode processar arquivos criptografados quando o rótulo que aplicou a criptografia tem uma das seguintes [configurações de criptografia](encryption-sensitivity-labels.md#configure-encryption-settings):
+- O SharePoint não pode processar arquivos criptografados quando o rótulo que aplicou a criptografia tem qualquer uma das seguintes [configurações de criptografia](encryption-sensitivity-labels.md#configure-encryption-settings):
     - **Permitir que os usuários atribuam permissões quando aplicarem o rótulo** e a caixa de seleção **no Word, PowerPoint e Excel, solicitar que os usuários especifiquem permissões** está selecionado. Essa configuração às vezes é chamada de "permissões definidas pelo usuário".
     - O **acesso do usuário ao conteúdo expira** é definido como um valor diferente de **nunca**.
+    - A **chave dupla de criptografia** está selecionada.
     
     Para rótulos com qualquer uma dessas configurações de criptografia, os rótulos não são exibidos aos usuários no Office na Web. Além disso, os novos recursos não podem ser usados com documentos rotulados que já possuem essas configurações de criptografia. Por exemplo, esses documentos não serão retornados nos resultados da pesquisa, mesmo que sejam atualizados.
 
@@ -96,6 +97,7 @@ Use o aplicativo de sincronização do OneDrive versão 19.002.0121.0008 ou post
 
 - Documentos que foram criptografados das seguintes maneiras não podem ser abertos no Office na Web:
     - Criptografia que usa uma chave local ("conter sua própria chave" ou HYOK)
+    - Criptografia que foi aplicada usando a [criptografia de chave dupla](double-key-encryption.md) 
     - Criptografia que foi aplicada independentemente de um rótulo, por exemplo, aplicando diretamente um modelo de proteção de gerenciamento de direitos.
 
 - Se você excluir um rótulo que tenha sido aplicado a um documento no SharePoint, em vez de remover o rótulo da política de rótulo aplicável, o documento quando baixado não será rotulado nem criptografado. Em comparação, se o documento rotulado estiver armazenado fora do SharePoint, o documento permanecerá criptografado se o rótulo for excluído. Observe que, embora você possa excluir rótulos durante uma fase de teste, é muito raro excluir um rótulo em um ambiente de produção.
