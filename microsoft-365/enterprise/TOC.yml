@@ -88,6 +88,11 @@
           href: deployment-strategies-microsoft-365-enterprise.md
         - name: Implantar com infraestrutura existente
           href: deploy-with-existing-infrastructure.md
+        - name: Exemplo de configurações de canal de implantação e atualização
+          href: deploy-update-channels-examples.md
+          items:
+            - name: Implantação abrangente das versões mais recentes
+              href: deploy-update-channels-examples-rapid-deploy.md
         - name: Implantar para não corporações
           href: deploy-foundation-infrastructure-non-enterprises.md
     - name: Implantar cargas de trabalho
