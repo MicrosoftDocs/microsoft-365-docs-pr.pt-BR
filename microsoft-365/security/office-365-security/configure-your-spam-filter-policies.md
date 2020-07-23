@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
-ms.openlocfilehash: 191f0492293738a9bce486226ca7d87d947a3f65
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+ms.openlocfilehash: c129ca73da516a5b4c420136abf0b5068e19e195
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726827"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204858"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
@@ -352,12 +352,12 @@ Quando um veredito de filtragem de spam coloca uma mensagem em quarentena, é po
 
    - **Enviar notificações de spam para usuário final a cada (dias)**: selecione a frequência de envio das notificações. O valor padrão é de 3 dias. Você pode inserir de 1 a 15 dias.
 
-     Há três ciclos de notificação de spam para o usuário final dentro de um período de 24 horas que se iniciam nos seguintes horários: 01:00 UTC, 08:00 UTC e 16:00 UTC. 
+     Há três ciclos de notificação de spam para o usuário final dentro de um período de 24 horas que se iniciam nos seguintes horários: 01:00 UTC, 08:00 UTC e 16:00 UTC.
 
      > [!NOTE]
      > Se perdermos uma notificação durante um ciclo anterior, um ciclo subsequente gerará a notificação. Isso pode dar a impressão da ocorrência de várias notificações dentro do mesmo dia.
 
-   - **Idioma da notificação**: clique no menu suspenso selecionar um idioma disponível na lista. O valor padrão é **Padrão**, o que significa que as notificações de quarentena para usuário final usam o idioma padrão da organização do EOP.
+   - **Idioma da notificação**: clique no menu suspenso selecionar um idioma disponível na lista. O valor padrão é **Padrão**, o que significa o idioma padrão da organização baseada na nuvem.
 
    Quando concluir, clique em **Salvar**.
 

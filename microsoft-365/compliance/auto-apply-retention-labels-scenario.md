@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este cenário de solução ilustra como gerenciar o ciclo de vida dos documentos relacionados a produtos armazenados no SharePoint Online usando rótulos de retenção. Isso é feito por meio do uso de metadados de documentos para classificar o conteúdo e especificamente aplicando automaticamente rótulos de retenção e configurando a retenção baseada em eventos.
-ms.openlocfilehash: 8edd7ea1b64a5f7bf499892dcd32b945307c9668
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: a2e7a3887f9402cecb70ec60d4ff4e47f6a55ee9
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126472"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45199844"
 ---
 # <a name="manage-the-lifecycle-of-sharepoint-documents-with-retention-labels"></a>Gerencie o ciclo de vida dos documentos do SharePoint com rótulos de retenção
 
@@ -112,7 +112,7 @@ Aqui está o [plano de arquivo](file-plan-manager.md) para a etiqueta de retenç
 
 - **Descritores de plano de arquivo:** (para simplificar o cenário, nenhum descritor de arquivo é fornecido)
 
-A captura de tela a seguir mostra as configurações quando você cria o[rótulo de retenção](retention.md#retention-labels) Especificação do Produto no centro de segurança e conformidade. Você pode criar o tipo de evento **Cessação do Produto** ao criar o rótulo de retenção. Veja as instruções a seguir.
+A captura de tela a seguir mostra as configurações quando você cria o[rótulo de retenção](retention.md#retention-labels) Especificação do Produto no centro de conformidade do Microsoft 365. Você pode criar o tipo de evento **Cessação do Produto** ao criar o rótulo de retenção. Veja as instruções a seguir.
 
 ![Configurações de retenção para rótulo de Especificação do Produto](../media/SPRetention5.png)
 
@@ -181,7 +181,7 @@ Para obter mais informações sobre propriedades rastreadas e gerenciadas, consu
 
 KQL não pode usar propriedades rastreadas em consultas de pesquisa. É preciso usar uma propriedade gerenciada. Em um cenário de pesquisa normal, criamos uma propriedade gerenciada e a mapeamos para a propriedade rastreada necessária. No entanto, para aplicar automaticamente os rótulos de retenção, só é possível especificar na KQL as propriedades gerenciadas predefinidas e não as propriedades gerenciadas personalizadas. É possível usar um conjunto de propriedades gerenciadas predefinidas já criadas no sistema para a cadeia RefinableString00 a RefinableString199. Para obter uma lista completa, confira [Propriedades gerenciadas padrão não usadas ](https://docs.microsoft.com/sharepoint/manage-search-schema#default-unused-managed-properties). Essas propriedades gerenciadas padrão costumam ser usadas para definir refinadores de pesquisa.
 
-Para a consulta KQL trabalhar e aplicar automaticamente o rótulo de retenção correto ao conteúdo de documento do produto, mapeamos as propriedades rastreadas **ows\_doc\_x0020\_Type** e **ows\_\_Status** para duas propriedades gerenciadas refináveis. Em nosso ambiente de teste para esse cenário, **RefinableString00** e **RefinableString01** não estão sendo usadas. Nós determinamos isso analisando as **Propriedades Gerenciadas**em **Gerenciar Esquema de Pesquisa** no centro de administração do SharePont.
+Para a consulta KQL trabalhar e aplicar automaticamente o rótulo de retenção correto ao conteúdo de documento do produto, mapeamos as propriedades rastreadas **ows\_doc\_x0020\_Type** e **ows\_\_Status** para duas propriedades gerenciadas refináveis. Em nosso ambiente de teste para esse cenário, **RefinableString00** e **RefinableString01** não estão sendo usadas. Isso é determinado quando examinamos as **Propriedades Gerenciadas** em **Gerenciar Esquema de Pesquisa** no centro de administração do SharePoint.
 
 ![Propriedades gerenciadas no esquema de pesquisa](../media/SPRetention12.png)
 
@@ -217,7 +217,7 @@ Agora, na caixa de pesquisa, digite **RefinableString00: "Especificação do Pro
 
 Agora que verificamos se a consulta KQL está funcionando corretamente, vamos criar a política de rótulo que usa uma consulta KQL para aplicar automaticamente o rótulo de retenção de Especificação do Produto aos documentos apropriados.
 
-1. No [centro de segurança e conformidade](https://protection.office.com), vá para **Classificação** > **Rótulos de retenção** e, em seguida, selecione **Aplicar um rótulo automaticamente**. 
+1. No [centro de conformidade](https://compliance.microsoft.com/homepage), vá para **Gerenciamento de registros** > **Políticas de rótulo** e selecione **Aplicar um rótulo automaticamente**. 
 
    ![Selecionar Aplicar um rótulo automaticamente na página de rótulos](../media/SPRetention16.png)
 
@@ -252,9 +252,7 @@ Agora que verificamos se a consulta KQL está funcionando corretamente, vamos cr
 
 ### <a name="verifying-the-retention-label-was-automatically-applied"></a>Verificar se o rótulo de retenção foi aplicado automaticamente 
 
-Após sete dias, use o [Explorador de atividade de rótulo](view-label-activity-for-documents.md) no centro de segurança e conformidade para ver se a política do rótulo que criamos aplicou automaticamente os rótulos de retenção neste cenário para os documentos do produto. Na captura de tela a seguir, os rótulos de retenção também foram aplicados a acordos de produtos e manuais do usuário, mesmo que não tenhamos abordado a criação desses rótulos de retenção e políticas de rótulo neste artigo.
-
-![Use o explorador de atividades de rótulo para verificar se o rótulo foi aplicado automaticamente](../media/SPRetention20.png)
+Após sete dias, use o [Explorador de atividades de rótulo](view-label-activity-for-documents.md) no centro de conformidade para ver se a política de rótulos que criamos aplicou automaticamente os rótulos de retenção nesse cenário aos documentos do produto. 
 
 Outra etapa de verificação é examinar as propriedades do documento na Biblioteca de Documentos. No painel de informações, você pode ver que o rótulo de retenção é aplicado a um documento selecionado.
 

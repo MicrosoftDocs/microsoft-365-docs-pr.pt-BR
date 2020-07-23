@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: Normalmente parte de uma solução de gerenciamento de registros, em que você pode configurar um rótulo de retenção para iniciar o período de retenção com base em um evento identificado.
-ms.openlocfilehash: 15330c5be34d0cd482b83b4aab5f229cecf2a447
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 5a04e97b341c66a78010e7255554be72aa073593
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126854"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45199725"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>Iniciar a retenção quando um evento ocorrer
 
@@ -176,7 +176,7 @@ A exclusão de um evento não cancela as configurações de retenção que já e
 
 Após a atribuição dos rótulos de retenção ao conteúdo, você pode usar a pesquisa de conteúdo para localizar todo o conteúdo classificado com um rótulo de retenção específico ou que contenha uma ID de ativo específica:
   
-- Para localizar todo o conteúdo com um rótulo de retenção específico, escolha a condição **Marca de conformidade** e, em seguida, digite o nome completo do rótulo ou parte dele e use um caractere curinga. 
+- Para localizar todo o conteúdo com um rótulo de retenção específico, escolha a condição **Rótulo de retenção** e, em seguida, digite o nome completo do rótulo ou parte dele e use um caractere curinga. 
     
 - Para localizar todo o conteúdo com uma ID de ativo específica, digite a propriedade **ComplianceAssetID** e um valor, usando o formato `ComplianceAssetID:<value>`. 
     

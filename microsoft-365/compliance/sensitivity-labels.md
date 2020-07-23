@@ -20,12 +20,12 @@ description: Use rótulos de sensibilidade da estrutura Microsoft Information Pr
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: d5b8e3c540c133ce4e04a434d03ef4bdb16b6f32
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: bd8aaab95afd66881b842d902988276b9fde54ff
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127358"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45199551"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -161,7 +161,7 @@ Com uma política de rótulos, você pode:
 
     ![Link do Saiba mais no botão Confidencialidade na faixa de opções](../media/Sensitivity-label-learn-more.png)
 
-Depois de criar um política de rótulo que atribui rótulos de confidencialidade a usuários e grupos, aguarde 24 horas para que esses usuários vejam os rótulos em seus aplicativos do Office.
+Após ser criada uma política de rótulo que atribui novos rótulos de confidencialidade a usuários e grupos, esses rótulos estarão visíveis para os usuários em seus aplicativos do Office dentro de 30 minutos. No entanto, é preciso aguardar até 24 horas para as alterações desses rótulos.
 
 Não há limite para o número de rótulos de confidencialidade que você pode criar e publicar, com uma exceção: se o rótulo aplicar criptografia, o máximo que pode ser criado é de 500 rótulos. No entanto, como prática recomendada para diminuir as despesas gerais do administrador e reduzir a complexidade para seus usuários, tente manter o número mínimo de rótulos. As implantações no mundo real provaram que a eficácia é visivelmente reduzida quando os usuários têm mais de cinco rótulos principais ou mais de cinco sub-rótulos por rótulo principal.
 
@@ -177,7 +177,7 @@ Uma política de rótulo consiste em:
 
 Você pode incluir um usuário em várias políticas de rótulos e esse usuário verá todas os rótulos de confidencialidade dessas políticas. Entretanto, um usuário só obtém as configurações de política da política de rótulo com a prioridade mais alta.
 
-Se você não estiver vendo a configuração de política de rótulo ou rótulo que espera para um usuário ou grupo e tiver aguardado 24 horas, verifique a ordem das políticas de rótulo de confidencialidade. Para reordenar as políticas de rótulo, selecione uma política de rótulo de sensibilidade > escolha as reticências à direita > **Mover para baixo** ou **Mover para cima**.
+Se não estiver vendo a configuração da política de rótulos ou do rótulo esperada para um usuário ou grupo e já tiver aguardado 30 minutos, verifique a ordem das políticas de rótulos de confidencialidade. Para reordenar as políticas de rótulo, selecione uma política de rótulo de sensibilidade > escolha as reticências à direita > **Mover para baixo** ou **Mover para cima**.
 
 ![Opções de movimentação na página de políticas de rótulos de confidencialidade](../media/sensitivity-label-policy-priority.png)
 

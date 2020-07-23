@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: b67320af6f388386d7b7723bbe3f645b46eed8e7
-ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
+ms.openlocfilehash: 35a8a7a00c8374dd938a3c05e3ffe0c3c85fd347
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138209"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45199602"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -237,9 +237,9 @@ Um rótulo de retenção atribuído explicitamente tem precedência sobre um ró
 
 Depois que os rótulos de retenção são atribuídos ao conteúdo, seja por usuários ou aplicados automaticamente, você pode usar a pesquisa de conteúdo para encontrar todo o conteúdo classificado com um rótulo de retenção específico.
   
-Ao criar uma pesquisa de conteúdo, escolha a condição **Rótulo de conformidade** e, em seguida, insira o nome do rótulo de retenção completo ou parte dele e use um caractere curinga. Para saber mais, veja [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md).
+Ao criar uma pesquisa de conteúdo, escolha a condição **Rótulo de retenção** e, em seguida, digite o nome completo do rótulo de retenção ou parte dele e use um caractere curinga. Para saber mais, veja [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md).
   
-![Condição de rótulo de conformidade](../media/compliance-label-condition.png)
+![Condição do rótulo de retenção](../media/retention-label-condition.png)
 
 
 ## <a name="compare-capabilities-for-retention-policies-and-retention-labels"></a>Comparar recursos para políticas de retenção e rótulos de retenção

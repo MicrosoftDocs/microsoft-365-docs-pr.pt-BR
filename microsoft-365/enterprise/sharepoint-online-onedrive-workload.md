@@ -13,12 +13,12 @@ ms.collection:
 - SPO_Content
 ms.custom: ''
 description: Percorra o processo de planejamento, implantação e geração de valor do SharePoint para toda a sua organização.
-ms.openlocfilehash: 6b0483073a836f29b1faa5a30018848ef7b2df34
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
+ms.openlocfilehash: 77beb26065a9ecfd37acf976e7415cc870ff8ea4
+ms.sourcegitcommit: fe20f5ed07f38786c63df0f73659ca472e69e478
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268204"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201493"
 ---
 # <a name="deploy-sharepoint-and-onedrive-for-microsoft-365-enterprise"></a>Implantar o SharePoint e o OneDrive no Microsoft 365 Enterprise
 
@@ -85,12 +85,11 @@ Antes de começar o planejamento técnico, determine se deseja usar o FastTrack.
 
 Se você estiver fazendo seu próprio planejamento ou trabalhando com o FastTrack, precisará determinar se a sua rede e organização estão prontas para o SharePoint. É especialmente importante que você atenda aos [critérios de saída para rede](networking-exit-criteria.md) na infraestrutura da sua fundação, com atenção especial à largura de banda da Internet, taxa de transferência e atrasos de tráfego para maximizar o desempenho do tráfego adicional para documentos baseados no SharePoint.
 
-Use [Migrar para o SharePoint](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) para se preparar para a implantação do SharePoint: 
+Use [Migrar para o SharePoint](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) para se preparar para a implantação do SharePoint.
 
 Para entender melhor a segurança no SharePoint, leia:
-
--     [Como o SharePoint e o OneDrive protegem seus dados na nuvem](https://docs.microsoft.com/sharepoint/safeguarding-your-data)
--     [Criptografia de dados no OneDrive e no SharePoint](https://docs.microsoft.com/microsoft-365/compliance/data-encryption-in-odb-and-spo)
+- [Como o SharePoint e o OneDrive protegem seus dados na nuvem](https://docs.microsoft.com/sharepoint/safeguarding-your-data)
+- [Criptografia de dados no OneDrive e no SharePoint](https://docs.microsoft.com/microsoft-365/compliance/data-encryption-in-odb-and-spo)
 
 #### <a name="result"></a>Resultado
 

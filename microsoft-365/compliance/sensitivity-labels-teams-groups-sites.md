@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: 7e4b12310d05ecbceb9df2eac5fe4d48e9275bb8
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: b9168320b5764a3d7ed4e1570c32f0f35ccbc44d
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936922"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45199621"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
@@ -109,11 +109,13 @@ Use as diretrizes a seguir para criar, modificar ou excluir rótulos de confiden
 
 ### <a name="creating-and-publishing-labels-that-are-configured-for-sites-and-groups"></a>Criar e publicar rótulos configurados para sites e grupos
 
-Depois de criar e publicar um rótulo de confidencialidade, pode levar até 24 horas para que o rótulo se torne visível para usuários em equipes, grupos e sites. Use as diretrizes a seguir para publicar um rótulo para seus usuários quando esse rótulo estiver configurado para as configurações de site e de grupo:
+Quando um novo rótulo de confidencialidade é criado e publicado, torna-se visível para os usuários em equipes, grupos e sites dentro de uma hora. No entanto, se tiver modificado um rótulo existente será preciso aguardar até 24 horas. Use as diretrizes a seguir para publicar um rótulo para seus usuários quando esse rótulo estiver configurado para as configurações de site e de grupo:
 
 1. Depois de criar e configurar o rótulo de confidencialidade, adicione esse rótulo a uma política de rótulo que se aplica a apenas alguns usuários de teste.
 
-2. Aguarde 24 horas.
+2. Aguarde o seguinte prazo para que a alteração seja replicada:
+    - Rótulo novo: aguarde uma hora.
+    - Rótulo existente: aguarde 24 horas.
 
 3. Após esse período de espera, use uma das contas de usuário de teste para criar uma equipe, grupo do Microsoft 365 ou site do SharePoint com o rótulo que você criou na etapa 1.
 
@@ -121,7 +123,7 @@ Depois de criar e publicar um rótulo de confidencialidade, pode levar até 24 h
 
 ### <a name="modifying-published-labels-that-are-configured-for-sites-and-groups"></a>Modificar rótulos publicados que estão configurados para sites e grupos
 
-Como prática recomendada, não altere as configurações de site e grupo de um rótulo de confidencialidade após aplicá-lo a várias equipes, grupos ou sites. Se você fizer isso, deixe até 3 dias que as alterações sejam replicadas para todos os contêineres com o rótulo aplicado. 
+Como prática recomendada, não altere as configurações de site e grupo de um rótulo de confidencialidade após aplicá-lo a várias equipes, grupos ou sites. Se decidir fazer isso, lembre-se de aguardar até 24 horas para que as alterações sejam replicadas para todos os contêineres que têm o rótulo aplicado. 
 
 Além disso, se suas alterações incluírem a configuração de **Acesso de usuários externos**:
 
@@ -136,7 +138,7 @@ Se você excluir um rótulo de confidencialidade com as configurações de site 
 
 1. Remova o rótulo de confidencialidade de todas as políticas de rótulo que incluam o rótulo.
 
-2. Aguarde por 48 horas.
+2. Aguarde uma hora.
 
 3. Após esse período de espera, tente criar uma equipe, grupo ou site e confirme se o rótulo não está mais visível.
 

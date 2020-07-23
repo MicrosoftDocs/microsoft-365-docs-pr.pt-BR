@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Um requisito para todas as soluções de proteção de informações da Microsoft: criar, configurar e publicar rótulos de confidencialidade para classificar e proteger os documentos e emails da sua organização.'
-ms.openlocfilehash: 96784edb6cf31d024d94e12a76c96b2f61340f04
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 61f6a27172e97cdc3f7890b813a9e2f67a8d3d9a
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679075"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45200023"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Criar e configurar rótulos de confidencialidade e suas políticas
 
@@ -53,17 +53,29 @@ O administrador global da sua organização tem permissões completas para criar
     - Centro de Conformidade e Segurança:
         - **Rótulos de confidencialidade** > ** de Classificação**
 
-2. Na guia **Rótulos**, selecione **+ Criar um rótulo** para iniciar o assistente **Novo rótulo de confidencialidade**.
-
-3. Siga as notificações para as configurações de rótulo.
+2. Na página de **Rótulos**, selecione **+ Criar um rótulo** para iniciar o assistente “Novo rótulo de confidencialidade”. 
     
-    Para saber mais sobre as configurações de rótulo, confira [O que rótulos de confidencialidade podem fazer](sensitivity-labels.md#what-sensitivity-labels-can-do) nas informações gerais.
+    Por exemplo, no Centro de Conformidade do Microsoft 365:
+    
+    ![Criar um rótulo de confidencialidade](../media/create-sensitivity-label-full.png)
+    
+    Observação: por padrão, os locatários não têm nenhum rótulo e é preciso criá-los. Os rótulos na imagem de exemplo mostram rótulos padrão que foram [migrados do sistema de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
+
+3. Siga as solicitações do assistente para as configurações do rótulo.
+    
+    Para obter mais informações sobre configurações de rótulos, confira o link [O que os rótulos de confidencialidade podem fazer](sensitivity-labels.md#what-sensitivity-labels-can-do) no resumo de informações e use a Ajuda do assistente para configurações individuais.
 
 4. Repita essas etapas para criar mais rótulos. Entretanto, se você deseja criar um subrótulo, selecione primeiro o rótulo pai e selecione **...** para **Mais ações** e selecione **Adicionar subrótulo**.
 
 5. Quando você tiver criado todos os rótulos necessários, examine a ordem deles e, se necessário, mova-os para cima ou para baixo. Para alterar a ordem de um rótulo, selecione **...** para **Mais ações** e depois selecione **Mover para cima** ou **Mover para baixo**. Para saber mais, confira [Prioridade de rótulo (a ordem importa)](sensitivity-labels.md#label-priority-order-matters) nas informações gerais.
 
-Para editar um rótulo existente, selecione-o e depois selecione **Editar rótulo**. Isso inicia o assistente **Editar rótulo de confidencialidade**, que permite que você altere todas as configurações de rótulo na etapa 3. 
+Para editar um rótulo existente, selecione-o e depois selecione o botão **Editar rótulo**:
+
+![Editar um rótulo de confidencialidade](../media/edit-sensitivity-label-full.png)
+
+Esse botão dá início ao assistente **Editar rótulo de confidencialidade**, que lhe permite alterar todas as configurações do rótulo na etapa 3.
+
+Não exclua um rótulo se não estiver ciente do impacto dessa exclusão sobre os usuários. Para obter mais informações, confira a seção [Como remover e excluir rótulos](#removing-and-deleting-labels). 
 
 > [!NOTE]
 > Se você editar um rótulo que já foi publicado usando uma política de rótulo, etapas adicionais não serão necessárias quando você concluir o assistente. Por exemplo, não é necessário adicioná-lo a uma nova política de rótulos para que as alterações fiquem disponíveis para os mesmos usuários. No entanto, aguarde 24 horas para que as alterações sejam replicadas para usuários e serviços.
@@ -125,20 +137,24 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
     - Centro de Conformidade e Segurança:
         - **Rótulos de confidencialidade** > ** de Classificação**
 
-2. Selecione a guia **Políticas de rótulo**.
-
-3. Selecione **Publicar rótulos** para iniciar o **Assistente de criação de política**.
-
-4. Selecione **Escolher rótulos de confidencialidade para publicar**. Selecione os rótulos que você deseja disponibilizar nos aplicativos e serviços, e selecione **Adicionar**.
+2. Selecione a guia **Políticas de rótulos** e, a seguir, **Publicar rótulos** para iniciar o assistente de criação de políticas:
     
-    > [!NOTE]
+    Por exemplo, no Centro de Conformidade do Microsoft 365:
+        
+    ![Publicar rótulos](../media/publish-sensitivity-labels-full.png)
+    
+    Observação: por padrão, os locatários não têm nenhuma política de rótulos e é preciso criá-las. 
+
+3. No assistente, selecione **Escolha os rótulos de confidencialidade que deseja publicar**. Selecione os rótulos que você deseja disponibilizar nos aplicativos e serviços, e selecione **Adicionar**.
+    
+    > [!IMPORTANT]
     > Se você selecionar um subrótulo, certifique-se de também selecionar seu rótulo pai.
     
-5. Examine os rótulos selecionados, e para fazer alterações, selecione **Editar**. Caso contrário, selecione **Próximo**.
+4. Examine os rótulos selecionados, e para fazer alterações, selecione **Editar**. Caso contrário, selecione **Próximo**.
 
-6. Siga as notificações para definir as configurações de política.
+5. Siga as notificações para definir as configurações de política.
     
-    Para obter mais informações sobre essas configurações, confira [O que as políticas de rótulo podem fazer](sensitivity-labels.md#what-label-policies-can-do) nas informações gerais.
+    Para obter mais informações sobre essas configurações, confira o link [O que as políticas de rótulos podem fazer](sensitivity-labels.md#what-label-policies-can-do) no resumo de informações e use a Ajuda do assistente para configurações individuais.
 
 7. Repita essas etapas se você precisar de configurações de política para usuários ou locais diferentes. Por exemplo, você deseja rótulos adicionais para um grupo de usuários ou um rótulo padrão diferente para um subconjunto de usuários.
 
@@ -146,9 +162,13 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 Concluir o assistente publica automaticamente a política de rótulo. Para fazer alterações em uma política publicada, basta editá-la. Não há uma ação específica de publicação ou republicação para selecionar.
 
-Para editar uma política de rótulo existente, selecione-a e, em seguida, selecione **Editar Política**. Isso inicia o assistente **Criar política**, que permite editar quais rótulos estão incluídos e as configurações de rótulo. Quando você concluir o assistente, todas as alterações serão replicadas automaticamente para os usuários e serviços selecionados.
+Para editar uma política de rótulo existente, selecione-a e, em seguida, selecione o botão **Editar Política**: 
 
-Normalmente, os usuários veem os rótulos em seus aplicativos do Office dentro de algumas horas. No entanto, aguarde 24 para que as políticas de rótulo e as alterações feitas nelas sejam replicadas para todos os usuários e serviços.
+![Editar um rótulo de confidencialidade](../media/edit-sensitivity-label-policy-full.png)
+
+Esse botão dá início ao assistente **Criar política**, que permite editar quais rótulos estão incluídos e as configurações de rótulo. Quando você concluir o assistente, todas as alterações serão replicadas automaticamente para os usuários e serviços selecionados.
+
+Os usuários conseguem ver os novos rótulos em seus aplicativos do Office dentro de uma hora. No entanto, é preciso aguardar 24 horas para que as alterações de rótulos existentes sejam replicadas para todos os usuários e serviços.
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>Configurações adicionais de políticas de rótulo com o PowerShell do Centro de Conformidade e Segurança
 
@@ -174,7 +194,9 @@ Em comparação, ao excluir um rótulo:
 
 - Para aplicativos da área de trabalho: as informações do rótulo nos metadados permanecem, mas como não será mais possível usar uma ID de rótulo para mapeamento de nomes, os usuários não verão o nome do rótulo aplicado (por exemplo, na barra de status), então os usuários assumirão que o conteúdo não foi rotulado. Se uma criptografia foi aplicada pelo rótulo, a criptografia permanecerá e quando o conteúdo for aberto, os usuários ainda verão o nome e a descrição do modelo de proteção agora arquivado.
 
-- Para o Office na Web: os usuários não verão o nome do rótulo na barra de status ou na coluna **Confidencialidade**. As informações do rótulo nos metadados permanecem somente se o ele não tiver aplicado criptografia. Se uma criptografia foi aplicada pelo rótulo e você habilitou [rótulos de confidencialidade para o SharePoint e o Onedrive](sensitivity-labels-sharepoint-onedrive-files.md), as informações do rótulo nos metadados serão removidos e a criptografia será removida. 
+- Para o Office na Web: os usuários não verão o nome do rótulo na barra de status ou na coluna **Confidencialidade**. As informações do rótulo nos metadados permanecem somente se o ele não tiver aplicado criptografia. Se uma criptografia foi aplicada pelo rótulo e você habilitou [rótulos de confidencialidade para o SharePoint e o Onedrive](sensitivity-labels-sharepoint-onedrive-files.md), as informações do rótulo nos metadados serão removidas e a criptografia será removida. 
+
+Quando você remove um rótulo de confidencialidade de uma política de rótulo ou exclui um rótulo de confidencialidade, essas alterações podem levar até uma hora para serem replicadas para todos os usuários e serviços.
 
 ## <a name="next-steps"></a>Próximas etapas
 
