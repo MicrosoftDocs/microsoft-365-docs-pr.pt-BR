@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5bf859cd5abe0dcb36c02c8355cbfa58418b3138
-ms.sourcegitcommit: e891c7c25f351f10f250af3f483f68594976ddc9
+ms.openlocfilehash: 4f67ca4f9c57730d2e9b95f6060d6c302728f7dc
+ms.sourcegitcommit: fe20f5ed07f38786c63df0f73659ca472e69e478
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45153694"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201428"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia 
 
@@ -121,9 +121,9 @@ Optar por atribuir permissões agora ou permitir que os usuários atribuam permi
 
 Use as opções abaixo para controlar quem pode acessar os emails ou documentos aos quais aquele rótulo foi aplicado. Você pode:
 
-1. **Permitir que o acesso ao conteúdo rotulado expire** em uma data específica ou depois de um número específico de dias após o rótulo ser aplicado. Após este período, os usuários não poderão abrir o item rotulado. Se você especificar uma data, isso será válido a partir da meia-noite da data em questão no seu fuso horário atual. (Observe que alguns clientes de email talvez não apliquem a expiração e mostrem emails após a data de validade devido aos seus mecanismos de armazenamento em cache.)
+- **Permitir que o acesso ao conteúdo rotulado expire** em uma data específica ou depois de um número específico de dias após o rótulo ser aplicado. Após este período, os usuários não poderão abrir o item rotulado. Se você especificar uma data, isso será válido a partir da meia-noite da data em questão no seu fuso horário atual. (Observe que alguns clientes de email talvez não apliquem a expiração e mostrem emails após a data de validade devido aos seus mecanismos de armazenamento em cache.)
 
-2. **Permitir o acesso offline** nunca, sempre ou por um número específico de dias após o rótulo ser aplicado. Se você restringir o acesso offline para nunca ou por um número de dias, quando este limite for atingido, os usuários precisarão ser autenticados novamente e seu acesso será registrado. Para saber mais, confira a próxima seção na licença de uso de Gerenciamento de Direitos.
+- **Permitir o acesso offline** nunca, sempre ou por um número específico de dias após o rótulo ser aplicado. Se você restringir o acesso offline para nunca ou por um número de dias, quando este limite for atingido, os usuários precisarão ser autenticados novamente e seu acesso será registrado. Para saber mais, confira a próxima seção na licença de uso de Gerenciamento de Direitos.
 
 Configurações de controle de acesso para conteúdo criptografado:
 
@@ -207,6 +207,14 @@ O emissor do Gerenciamento de Direitos sempre recebe as permissões de Controle 
 - O emissor do Gerenciamento de Direitos ainda consegue abrir um documento após sua revogação.
 
 Para saber mais, confira [Emissor do Gerenciamento de Direitos e Proprietário do Gerenciamento de Direitos](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner).
+
+### <a name="double-key-encryption"></a>Criptografia de Chave Dupla
+
+Este recurso está atualmente no modo de visualização pública.
+
+Selecione essa opção somente depois de configurar o serviço de Criptografia de Chave Dupla, e você precisar usar esta criptografia de chave dupla para os documentos e emails que serão aplicados a esse rótulo.
+
+Para obter mais informações, pré-requisitos e instruções de configuração, confira [(DKE) Criptografia de Chave Dupla](double-key-encryption.md)
 
 ## <a name="let-users-assign-permissions"></a>Permitir que usuários atribuam permissões
 

@@ -12,12 +12,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 36f6160d4bd4b8d4b7574bb43a4c37025fcbc136
-  ms.sourcegitcommit: e6bf1af2d5cf54c3fcc3fa916abe268fc96bdd4e
+  ms.openlocfilehash: 86b644f7b35c6bcb2c02b6ee53ee468019caf75d
+  ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 07/21/2020
-  ms.locfileid: "45189472"
+  ms.lasthandoff: 07/22/2020
+  ms.locfileid: "45204774"
 productDirectory:
   title: Trabalho remoto seguro com o Microsoft 365 Business Premium
   items:
@@ -83,6 +83,12 @@ conceptualContent:
     - url: https://www.microsoft.com/microsoft-365/partners/resources/securing-remote-work-checklist
       itemType: download
       text: Lista de verificação para proteger o trabalho remoto
+    - url: https://cct.transform.microsoft.com/
+      itemType: deploy
+      text: Ferramenta de Consulta do Cliente
+    - url: https://vc.transform.microsoft.com/
+      itemType: learn
+      text: Calculadora de Notas
   - title: Gerenciamento de usuários
     links:
     - url: https://docs.microsoft.com/microsoft-365/business/add-users-m365b
