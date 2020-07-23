@@ -12,44 +12,40 @@ ms.reviewer: esaggese
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 47fc4bc47831970ef7a7f2087cf6c86b6fefb8c2
-ms.sourcegitcommit: fe20f5ed07f38786c63df0f73659ca472e69e478
+ms.openlocfilehash: d9ed155576d69889e53e4e4d1ce03e4233fd08ff
+ms.sourcegitcommit: 4789b261eb029d7c965421a1260acc110e6385db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201643"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45387438"
 ---
 # <a name="double-key-encryption-dke"></a>DKE (criptografia de chave dupla)
 
-> *Aplica-se a: conformidade com a [Microsoft 365](https://www.microsoft.com/microsoft-365/business/compliance-management), [proteção de informações do Azure](https://azure.microsoft.com/pricing/details/information-protection)*
+> *Aplica-se a: chave dupla de criptografia para o Microsoft 365 Public Preview, [microsoft 365 Compliance](https://www.microsoft.com/microsoft-365/business/compliance-management), [proteção de informações do Azure](https://azure.microsoft.com/pricing/details/information-protection)*
 >
 > *Instruções para: [cliente de rotulação unificada de proteção de informações do Azure para Windows](https://docs.microsoft.com/azure/information-protection/faqs.md#whats-the-difference-between-the-azure-information-protection-classic-and-unified-labeling-clients)*
 >
 > *Descrição do serviço para: conformidade com a [Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
-Esta versão prévia pública da DKE (criptografia de chave dupla) permite que você use o cliente de rotulação unificado de proteção de informações do Azure para proteger o conteúdo altamente confidencial e, ao mesmo tempo, manter controle total da sua chave.
-
-A criptografia de chave dupla requer duas chaves, usadas juntas, para acessar o conteúdo protegido. Você armazena uma chave no Microsoft Azure e mantém a outra chave.
+A criptografia de chave dupla (DKE) usa duas chaves juntas para acessar o conteúdo protegido. Você armazena uma chave no Microsoft Azure e mantém a outra chave. O cliente de rotulação unificado de proteção de informações do Azure protege o conteúdo altamente confidencial enquanto você mantém o controle total de uma de suas chaves.
 
 A criptografia de chave dupla oferece suporte a implantações no local e na nuvem. Essas implantações ajudam a garantir que os dados criptografados permaneçam opaco onde quer você armazene os dados protegidos.
 
 Para obter mais informações sobre as chaves de raiz de locatários padrão baseadas em nuvem, consulte [Planning and Implementing Your Azure Information Protection locatário Key](https://docs.microsoft.com/azure/information-protection/plan-implement-tenant-key).
 
-A criptografia de chave dupla é semelhante a uma caixa de depósito de segurança que exige uma chave de banco e uma chave de cliente para obter acesso. Para descriptografar o conteúdo protegido, você deve usar a chave gerenciada da Microsoft e a chave do cliente.
-
 O vídeo a seguir mostra como a criptografia de chave dupla funciona para proteger o conteúdo.
+
+> [!VIDEO https://msit.microsoftstream.com/embed/video/f466a1ff-0400-a936-221c-f1eab45dc756]
 
 Se as suas organizações têm qualquer um dos seguintes requisitos, você pode usar o DKE para ajudar a proteger o conteúdo:
 
 - Você quer garantir que *apenas você* possa descriptografar o conteúdo protegido, em todas as circunstâncias.
 - Você não deseja que a Microsoft tenha acesso a dados protegidos por conta própria.
-- Você tem requisitos normativos para manter chaves dentro de um limite geográfico. Todas as chaves de retenção de dados e descriptografia são mantidas em seu data center.
-
-> [!VIDEO https://msit.microsoftstream.com/embed/video/f466a1ff-0400-a936-221c-f1eab45dc756]
+- Você tem requisitos normativos para manter chaves dentro de um limite geográfico. Todas as chaves que você mantém para criptografia e descriptografia de dados são mantidas em seu data center.
 
 ## <a name="system-and-licensing-requirements-for-dke"></a>Requisitos de sistema e licenciamento para o DKE
 
-Esta versão prévia pública da criptografia de chave dupla para o Microsoft 365 está disponível como parte do Microsoft 365 E5 e do Office 365 e5. Se você não tem uma licença do Microsoft 365 e5, é possível inscrever-se em uma [avaliação](https://aka.ms/M365E5ComplianceTrial). Para obter mais informações sobre essas licenças, consulte [diretrizes de licenciamento da Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+Criptografia de chave dupla para a Microsoft 365 parte do Microsoft 365 E5 e Office 365 e5. Se você não tem uma licença do Microsoft 365 e5, é possível inscrever-se em uma [avaliação](https://aka.ms/M365E5ComplianceTrial). Para obter mais informações sobre essas licenças, consulte [diretrizes de licenciamento da Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 **Office Insider** Para usar a visualização pública, você deve ser membro do programa Office Insider. Para ingressar no Office Insider, vá para [https://insider.office.com](https://insider.office.com) . Quando você for membro, prepare o ambiente para implantar o Office Insider compilações escolhendo o método de implantação certo para sua organização. Para obter instruções, consulte [introdução à implantação de compilações do Office Insider](https://insider.office.com/business/deploy).
 
@@ -63,15 +59,19 @@ Esta versão prévia pública da criptografia de chave dupla para o Microsoft 36
 
 ## <a name="about-this-public-preview-article"></a>Sobre este artigo de demonstração pública
 
-Há várias maneiras de realizar algumas das etapas para implantar a criptografia de chave dupla. Este artigo fornece instruções detalhadas para que administradores menos experientes implantem o serviço com êxito. Se você tiver experiência com as tecnologias comuns, como o Git, compartilhado pelos métodos de implantação descritos neste artigo, você pode optar por usar seus próprios métodos.
+Há várias maneiras de realizar algumas das etapas para implantar a criptografia de chave dupla. Este artigo fornece instruções detalhadas para que administradores menos experientes implantem o serviço com êxito. Se você estiver confortável para fazer isso, você pode optar por usar seus próprios métodos.
 
-Para visualização pública, incluímos instruções passo a passo sobre como implantar o serviço de criptografia de chave dupla no Azure. Esse cenário não é algo que você provavelmente faria em produção. Para visualização pública usando o Azure é uma maneira rápida de implantar que permite começar a usar imediatamente a criptografia de chave dupla.
+Este artigo inclui instruções passo a passo sobre como implantar o serviço de criptografia de chave dupla no Azure. Esse cenário não é algo que você provavelmente faria em produção. Para visualização pública, usar o Azure é uma maneira rápida de implantar o DKE. A implantação do Azure permite que você comece a usar a criptografia de chave dupla imediatamente.
 
-Você pode optar por implantar o serviço onde quiser, seja localmente em sua rede ou com outro provedor. Você precisará publicar o repositório de chaves usando métodos apropriados para esse local.
+Você pode implantar o serviço localmente em sua rede ou com outro provedor. Você precisará publicar o repositório de chaves usando métodos apropriados para esse local.
 
 ## <a name="deploy-double-key-encryption"></a>Implantar a criptografia de chave dupla
 
-Siga estas etapas gerais para configurar a criptografia de chave dupla para sua organização. O exemplo neste artigo usa o Azure como o destino de implantação para o serviço DKE. Se você estiver implantando em outro local, precisará fornecer seus próprios valores.
+Este artigo e o vídeo de implantação usam o Azure como o destino de implantação para o serviço DKE. Se você estiver implantando em outro local, precisará fornecer seus próprios valores.
+
+Assista ao [vídeo de implantação de criptografia de duas chaves](https://msit.microsoftstream.com/video/cfdda3ff-0400-a521-1579-f1eacc37fc7e) para ver a visão geral passo a passo dos conceitos no artigo. O vídeo leva cerca de 18 minutos para ser concluído.
+
+Siga estas etapas gerais para configurar a criptografia de chave dupla para sua organização.
 
 1. [Instalar pré-requisitos de software](#install-software-prerequisites)
 1. [Clone o repositório do GitHub de criptografia de chave dupla](#clone-the-dke-github-repository)
@@ -146,13 +146,13 @@ As instruções a seguir se destinam a usuários do git ou do Visual Studio Code
 
 5. Na caixa de diálogo **Selecionar pasta** exibida, procure e selecione um local para armazenar o repositório. No prompt, selecione **abrir**.
 
-    O repositório é aberto no Visual Studio Code e exibe a ramificação atual do git no canto inferior esquerdo. Sua ramificação atual deve ser **mestra**.
+    O repositório é aberto no Visual Studio Code e exibe a ramificação atual do git no canto inferior esquerdo. A ramificação deve ser **mestra**.
 
     Por exemplo:
 
     :::image type="content" source="../media/dke-vscode-master.png" alt-text="Ramificação do Visual Studio Code Master":::
 
-6. Selecione o Word **Master** e, em seguida, selecione **public_preview** na lista de ramificações. 
+6. Selecione o Word **Master** e, em seguida, selecione **public_preview** na lista de ramificações.
 
    > [!IMPORTANT]
    > Selecionar a ramificação public_preview garante que você tenha os arquivos corretos para compilar o projeto. Se você não escolher a ramificação correta, sua implantação falhará.
@@ -178,41 +178,79 @@ Escolha se deseja usar o email ou a autorização de função. O DKE oferece sup
 
 - **Autorização de função**. Permite que sua organização autorize o acesso às chaves com base nos grupos do Active Directory e exige que o serviço Web possa consultar o LDAP.
 
-Para definir as configurações de acesso de chave para DKE:
+**Para definir as configurações de acesso de chave do DKE usando autorização de email**
 
-1. Na **appsettings.jsem** arquivo, defina apenas uma destas configurações:
+1. Abra o **appsettings.jsem** arquivo e localize a `AuthorizedEmailAddress` configuração.
 
-   - Para autorização de email, localize a configuração **AuthorizedEmailAddresses** . Adicione o endereço de email que você deseja autorizar. Separe vários endereços de email com aspas duplas e vírgulas. Por exemplo: **"' AuthorizedEmailAddresses '": ["email1@company.com", "EMAIL2@company.com", email3@company.com]**
+2. Adicione o endereço de email ou endereços que você deseja autorizar. Separe vários endereços de email com aspas duplas e vírgulas. Por exemplo:
 
-   :::image type="content" source="../media/dke-email-accesssetting.png" alt-text="appsettings.jsem arquivo mostrando o método de autorização de email":::
+   ```json
+   "AuthorizedEmailAddress": ["email1@company.com", "email2@company.com ", "email3@company.com"]
+   ```
 
-   - Para autorização de função, localize a configuração **AuthorizedRoles** . Defina com os nomes de grupo do ActiveDirectory que você deseja autorizar. Por exemplo: **"AuthorizedRoles": ["grupo1", "group2", "Group3"]**
+3. Localize a `LDAPPath` configuração e remova o texto `If role authorization is used then this is the LDAP path` entre aspas duplas. Deixe as aspas duplas em vigor. Quando você tiver terminado, a configuração deverá ter a seguinte aparência.
+
+   ```json
+   "LDAPPath": ""
+   ```
+
+4. Localize a `AuthorizedRoles` configuração e exclua a linha inteira.
+
+Esta imagem mostra o **appsettings.jsem** arquivo formatado corretamente para autorização de email.
+
+   :::image type="content" source="../media/dke-email-accesssetting.png" alt-text="O appsettings.jsem arquivo mostrando o método de autorização de email":::
+
+**Para definir as configurações de acesso de chave para DKE usando autorização de função**
+
+1. Abra o **appsettings.jsem** arquivo e localize a `AuthorizedRoles` configuração.
+
+2. Adicione os nomes de grupo do Active Directory que você deseja autorizar. Separe vários nomes de grupo com aspas duplas e vírgulas. Por exemplo:
+
+   ```json
+   "AuthorizedRoles": ["group1", "group2", "group3"]
+   ```
+
+3. Localize a `LDAPPath` configuração e adicione o domínio do Active Directory. Por exemplo:
+
+   ```json
+   "LDAPPath": "contoso.com"
+   ```
+
+4. Localize a `AuthorizedEmailAddress` configuração e exclua a linha inteira.
+
+Esta imagem mostra o **appsettings.jsem** arquivo formatado corretamente para autorização de função.
 
    :::image type="content" source="../media/dke-role-accesssetting.png" alt-text="appsettings.jsem arquivo mostrando o método de autorização de função":::
 
-2. Remova a configuração que não seja relevante para o método de autorização escolhido.
-
 #### <a name="tenant-and-key-settings"></a>Definições de locatário e chave
 
-As configurações de locatário e chave do DKE estão localizadas na **appsettings.jsde** arquivo e no arquivo **Startup.cs** .
+As configurações de locatário e chave do DKE estão localizadas na **appsettings.jsem** arquivo.
 
-Na **appsettings.jsem** arquivo, modifique os seguintes valores:
+**Para definir as configurações de locatário e chave do DKE**
 
-- **ValidIssuers**. Substitua `<tenantid>` pelo seu GUID de locatário.
-- **JwtAudience**. Substitua `<yourhostname>` pelo nome do host do computador em que o serviço DKE será executado.
+1. Abra o **appsettings.jsem** arquivo.
+
+2. Localize a `ValidIssuers` configuração e substitua `<tenantid>` pela ID do locatário. Você pode localizar sua ID de locatário indo para o portal do Azure e exibindo as [Propriedades do locatário](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties). Por exemplo:
+
+   ```json
+   "ValidIssuers": [
+     "https://sts.windows.net/9c99431e-b513-44be-a7d9-e7b500002d4b/"
+   ]
+   ```
+
+Localize o `JwtAudience` . Substitua `<yourhostname>` pelo nome do host do computador em que o serviço DKE será executado. Por exemplo:
+
+
 
   > [!IMPORTANT]
-  > O valor de JwtAudience deve corresponder *exatamente*ao nome do host. Você pode usar **localhost: 5000** durante a depuração. No entanto, quando você terminar de depurar, certifique-se de atualizar esse valor para o nome de host do servidor.
+  > O valor de `JwtAudience` deve corresponder *exatamente*ao nome do host. Você pode usar **localhost: 5001** durante a depuração. No entanto, quando você terminar de depurar, certifique-se de atualizar esse valor para o nome de host do servidor.
 
-- **LDAPPath**. Defina o valor da seguinte maneira:
+- `TestKeys:Name`. Insira um nome para a chave. Por exemplo: `TestKey1`
+- `TestKeys:Id`. Crie um GUID e insira-o como o `TestKeys:ID` valor. Por exemplo, `DCE1CC21-FF9B-4424-8FF4-9914BD19A1BE`. Você pode usar um site como [gerador de GUID online](https://guidgenerator.com/) para gerar aleatoriamente um GUID.
 
-  - Se você estiver usando autorização de função, insira o domínio LDAP.
-  - Se você estiver usando autorização de email, deixe esse valor vazio.
+Esta imagem mostra o formato correto das configurações de locatário e chaves em **appsettings.js**. `LDAPPath`é configurada para autorização de função.
 
-   Para obter mais informações, consulte [configurações de acesso de chave](#key-access-settings).
-
-- **TestKeys: Name**. Insira um nome para a chave. Exemplo: **TestKey1**
-- **TestKeys: ID**. Crie um GUID e insira-o como o valor de **ID TestKeys:** . Por exemplo, **DCE1CC21-FF9B-4424-8FF4-9914BD19A1BE**. Você pode usar um site como [gerador de GUID online](https://guidgenerator.com/) para gerar aleatoriamente um GUID.
+:::image type="content" source="../media/dke-appsettingsjson-tenantkeysettings.png" alt-text="Mostra as configurações de locatário e chave corretas para o DKE no arquivo appsettings.js.":::
 
 ### <a name="generate-test-keys"></a>Gerar chaves de teste
 
@@ -242,16 +280,18 @@ Para gerar chaves:
    openssl rsa -in key.pem -pubout > pubkeyonly.pem
    ```
 
-1. Em um editor de texto, abra **pubkeyonly. pem**. Copie todo o conteúdo do arquivo **pubkeyonly. pem** , exceto a primeira e a última linha, na seção **PublicPem** do **appsettings.jsem** arquivo.
+1. Em um editor de texto, abra **pubkeyonly. pem**. Copie todo o conteúdo do arquivo **pubkeyonly. pem** , exceto a primeira e a última linha, na `PublicPem` seção do **appsettings.jsem** arquivo.
 
-1. Em um editor de texto, abra **privkeynopass. pem**. Copie todo o conteúdo do arquivo **privkeynopass. pem** , exceto a primeira e a última linha, na seção **PrivatePem** do **appsettings.jsem** arquivo.
+1. Em um editor de texto, abra **privkeynopass. pem**. Copie todo o conteúdo do arquivo **privkeynopass. pem** , exceto a primeira e a última linha, na `PrivatePem` seção do **appsettings.jsem** arquivo.
 
-1. Remova todos os espaços em branco e novas linhas nas seções **PublicPem** e **PrivatePem** .
+1. Remova todos os espaços em branco e novas linhas em ambas as `PublicPem` `PrivatePem` seções e.
 
     > [!IMPORTANT]
     > Ao copiar esse conteúdo, não exclua nenhum dos dados de PEM.
 
-1. Abra o arquivo **Startup.cs** e localize as seguintes linhas:
+1. No Visual Studio Code, navegue até o arquivo **Startup.cs** . Esse arquivo está localizado no repositório do DoubleKeyEncryptionService que você clonou localmente em DoubleKeyEncryptionService\src\customer-key-store\.
+
+2. Localize as seguintes linhas:
 
    ```c#
         #if USE_TEST_KEYS
@@ -261,13 +301,13 @@ Para gerar chaves:
         #endif
    ```
 
-1. Substitua essas linhas pelo seguinte texto:
+3. Substitua essas linhas pelo seguinte texto:
 
    ```csharp
    services.AddSingleton<ippw.IKeyStore, ippw.TestKeyStore>();
    ```
 
-   Os resultados finais devem ser semelhantes à imagem a seguir.
+   Os resultados finais devem ser semelhantes aos seguintes.
 
    :::image type="content" source="../media/dke-startupcs-usetestkeys.png" alt-text="arquivo startup.cs para visualização pública":::
 
@@ -305,11 +345,13 @@ Use as instruções a seguir para criar o projeto do DKE localmente:
 
    Se houver erros vermelhos, verifique a saída do console. Verifique se você concluiu todas as etapas anteriores corretamente e se as versões de compilação corretas estão presentes.
 
-1. **Executar** \> **Inicie a depuração** para depurar o processo. Se for solicitado a selecionar um ambiente, selecione **.NET Core**.
+2. Selecione **executar** \> **Iniciar Depuração** para depurar o processo. Se for solicitado a selecionar um ambiente, selecione **.NET Core**.
 
-O depurador do .NET Core normalmente é iniciado no **https://localhost:5001** . Para exibir sua chave de teste, vá para **https://localhost:5001** e acrescente uma barra (/) e o nome da sua chave.
+O depurador do .NET Core normalmente é iniciado em ' ' https://localhost:5001 `. To view your test key, go to ` https://localhost:5001 ' e acrescenta uma barra (/) e o nome da sua chave. Por exemplo:
 
-Por exemplo:**https://localhost:5001/TestKey1**
+```https
+https://localhost:5001/TestKey1
+```
 
 A chave deve ser exibida no formato JSON.
 
@@ -317,9 +359,9 @@ A configuração já está concluída. Antes de publicar o repositório de chave
 
 ### <a name="publish-the-key-store"></a>Publicar o repositório de chaves
 
-As etapas a seguir descrevem como criar uma instância do serviço de aplicativo do Azure para hospedar sua implantação do DKE e como publicar as chaves geradas no Azure.
+Para publicar o repositório de chaves, você criará uma instância do serviço de aplicativo do Azure para hospedar sua implantação do DKE. Em seguida, você publicará as chaves geradas no Azure.
 
-Para criar uma instância do Azure Web App para hospedar sua implantação do DKE:
+**Para criar uma instância do Azure Web App para hospedar sua implantação do DKE**
 
 1. No navegador, entre no [portal do Microsoft Azure](https://ms.portal.azure.com)e vá para a adição de **serviços de aplicativo**  >  **Add**.
 
@@ -436,7 +478,7 @@ Para registrar seu repositório de chave:
  
 7. No pop-up **Configurar plataformas** , selecione **Web**.
  
-8. Em **URIs de redirecionamento** , insira o URI do serviço de criptografia de chave dupla. Insira a URL do serviço de aplicativo, incluindo o nome do host e o domínio.
+8. Em **URIs de redirecionamento**, insira o URI do serviço de criptografia de chave dupla. Insira a URL do serviço de aplicativo, incluindo o nome do host e o domínio.
 
     Por exemplo: https://mycustomerkeystoretest.com
 
@@ -444,7 +486,7 @@ Para registrar seu repositório de chave:
     - Se você estiver testando localmente com o Visual Studio, use **https://localhost:5001** .
     - Em todos os casos, o esquema deve ser **https**.
 
-    Certifique-se de que o nome do host corresponde exatamente ao nome de host do serviço de aplicativo Você pode ter alterado para localhost para solucionar problemas de compilação. Em appsettings.js, este é o nome de host que você identificou como o valor da configuração JwtAudience.
+    Certifique-se de que o nome do host corresponde exatamente ao nome de host do serviço de aplicativo Você pode ter alterado para `localhost` solucionar problemas de compilação. Em **appsettings.js**, esse valor é o nome de host definido para `JwtAudience` .
 
 6. Em **concessão implícita**, selecione a caixa de seleção **tokens de ID** .
 
@@ -480,9 +522,7 @@ O armazenamento de chave do DKE agora está registrado. Continue [criando rótul
 
 ## <a name="create-labels-using-dke"></a>Criar rótulos usando DKE
 
-Depois de registrar seu repositório de chaves, configure os rótulos de confidencialidade no centro de conformidade da Microsoft 365 e aplique a criptografia de chave dupla a esses rótulos.
-
-Na interface de usuário de criação de rótulo, selecione a opção **usar criptografia de chave dupla** e digite a URL do ponto de extremidade da sua chave.
+No centro de conformidade da Microsoft 365, crie um novo rótulo de confidencialidade e aplique a criptografia como faria de outra forma. Selecione **usar criptografia de chave dupla** e digite a URL do ponto de extremidade da sua chave.
 
 Por exemplo:
 
