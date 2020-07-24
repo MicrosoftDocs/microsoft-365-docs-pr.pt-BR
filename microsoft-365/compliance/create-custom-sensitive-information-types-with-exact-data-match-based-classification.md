@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Correspondência Exata de Dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b29ff790dbfafb281325879904fe5bfa71fdcf17
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: 7eb19698cc3dd2d56e05dfbca8759de178f3fc2a
+ms.sourcegitcommit: c4a7b227f7d9abd666dfb93e3ded78ba8288e649
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023332"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229411"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
 
@@ -39,7 +39,7 @@ Mas e se você quiser um tipo personalizado de informações confidenciais que u
 
 ![Classificação baseada em EDM](../media/EDMClassification.png)
 
-A classificação baseada no EDM permite criar tipos personalizados de informações confidenciais que fazem referência a valores exatos em um banco de dados de informações confidenciais. O banco de dados pode ser atualizado diariamente ou semanalmente, e pode conter até 10 milhões linhas de dados. Assim como funcionários, pacientes ou clientes vêm e vão e os registros são alterados, os tipos personalizados de informações confidenciais permanecem atualizados e aplicáveis. Você também pode usar a classificação baseada em EDM com políticas, como [políticas de prevenção contra perda de dados](data-loss-prevention-policies.md) (DLP) ou políticas de arquivo do [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/data-protection-policies).
+A classificação baseada no EDM permite criar tipos personalizados de informações confidenciais que fazem referência a valores exatos em um banco de dados de informações confidenciais. O banco de dados pode ser atualizado diariamente ou semanalmente e pode conter até 100 milhões de linhas de dados. Assim como funcionários, pacientes ou clientes vêm e vão e os registros são alterados, os tipos personalizados de informações confidenciais permanecem atualizados e aplicáveis. Você também pode usar a classificação baseada em EDM com políticas, como [políticas de prevenção contra perda de dados](data-loss-prevention-policies.md) (DLP) ou políticas de arquivo do [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/data-protection-policies).
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 
@@ -67,7 +67,7 @@ Definição e configuração da classificação baseada em EDM envolve o salvame
 #### <a name="define-the-schema-for-your-database-of-sensitive-information"></a>Definição do esquema para seu banco de dados de informações confidenciais
 
 1. Identifique as informações confidenciais que deseja usar. Exporte os dados para um aplicativo, como o Microsoft Excel, e salve o arquivo no formato .csv. O arquivo de dados pode incluir um máximo de:
-      - Até 10 milhões linhas de dados confidenciais
+      - Até 100 milhões de linhas de dados confidenciais
       - Até 32 colunas (campos) por fonte de dados
       - Até 5 colunas (campos) marcadas como pesquisáveis
 

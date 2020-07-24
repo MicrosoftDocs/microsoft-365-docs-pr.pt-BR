@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: 'Saiba como converter uma caixa de correio privada em uma caixa de correio compartilhada que pode ser acessada por vários usuários. '
-ms.openlocfilehash: c4f71f12b430e239f5ea5791ba5b98a3109452b0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 7ae00c1d9c901378798f063554a44a3e5b741442
+ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400107"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391525"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>Converter uma caixa de correio do usuário em uma caixa de correio compartilhada
 
@@ -95,6 +95,9 @@ Se a caixa de correio for menor que 50 GB, você poderá [remover a licença do 
     
 Para tudo o que você precisa saber sobre caixas de correio compartilhadas, consulte [sobre caixas de correio](about-shared-mailboxes.md) compartilhadas e [criar uma caixa de correio compartilhada](create-a-shared-mailbox.md).
 
+> [!NOTE]
+> Caixas de correio compartilhadas não exigem uma licença separada. No entanto, se você deseja habilitar o arquivo morto in-loco ou colocar um bloqueio in-loco ou uma retenção de litígio em uma caixa de correio compartilhada, você deve atribuir uma licença do Exchange Online Plan 1 com o arquivamento do Exchange Online ou do Exchange Online Plan 2 à caixa de correio.
+
 
 ## <a name="convert-the-mailbox-of-a-deleted-user"></a>Converter a caixa de correio de um usuário excluído
 
@@ -113,6 +116,7 @@ Digamos que você tenha excluído uma conta de usuário e agora deseja converter
 6. Depois disso, você pode remover a licença da caixa de correio do usuário. Não exclua a caixa de correio antiga do usuário. A caixa de correio compartilhada precisa dela como uma âncora.
     
 7. Adicionar membros à caixa de correio compartilhada.
+
 
 ## <a name="convert-a-shared-mailbox-back-to-a-users-private-mailbox"></a>Converter uma caixa de correio compartilhada de volta para a caixa de correio de um usuário (privado)
 

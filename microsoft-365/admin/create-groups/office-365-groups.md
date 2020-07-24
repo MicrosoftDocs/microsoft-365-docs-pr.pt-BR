@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre os grupos do Microsoft 365.
-ms.openlocfilehash: 14bc1211aaa65fb2daeebdb22729fce10154f204
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 6922e6bf8561d0600c25de9768669d90e959ff26
+ms.sourcegitcommit: 4789b261eb029d7c965421a1260acc110e6385db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780404"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45387394"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Visão geral dos Grupos do Microsoft 365 para administradores
 
@@ -80,7 +80,7 @@ Os seguintes limites se aplicam aos grupos do Microsoft 365:
 |Armazenamento de arquivos|1 terabyte + 10 GB por usuário inscrito + qualquer armazenamento adicional adquirido. Você pode adquirir uma quantidade ilimitada de armazenamento adicional.|
 |Tamanho da caixa de correio de grupo|50 GB|
 
-O número máximo padrão de grupos do Microsoft 365 que uma organização pode ter é 500.000, mas pode ser aumentado por solicitação. Para obter mais informações sobre os limites de grupos do Microsoft 365, consulte [microsoft 365 groups-ajuda para administradores](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+O número máximo padrão de grupos do Microsoft 365 que uma organização pode ter é 500.000. Para ir além do limite padrão, você deve entrar em contato com o suporte da Microsoft. Para obter mais informações sobre os limites de grupos do Microsoft 365, consulte [microsoft 365 groups-ajuda para administradores](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 Gerenciar seus grupos do Microsoft 365 é mais eficaz quando você tem informações acionáveis sobre o uso de grupos. O centro de administração do Microsoft 365 tem uma ferramenta de relatório que pode permitir que você veja coisas como o uso de armazenamento, quantos grupos ativos você tem e até mesmo como seus usuários estão usando os grupos. Confira: [Microsoft 365 Reports no centro de administração](../activity-reports/office-365-groups.md) para obter mais informações.
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba como usar o cmdlet do AllowSelfServicePurchase PowerShell para ativar ou desativar a compra de autoatendimento.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ec5ebe814066916de5cafc176cdcd82bfd416a57
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b35b62a97f8dc269be5db232e163391a8ce50658
+ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403685"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391537"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>Usar o AllowSelfServicePurchase para o módulo MSCommerce PowerShell
 
@@ -33,7 +33,7 @@ Você pode usar o módulo do PowerShell do **MSCommerce** para:
 - Exibir uma lista de produtos aplicáveis e se a compra de autoatendimento está habilitada ou desabilitada
 - Exibir ou modificar a configuração atual de um produto específico para habilitá-lo ou desabilitá-lo
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Para usar o módulo **MSCommerce** do PowerShell, você precisa:
 
@@ -132,8 +132,7 @@ Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $pr
 
 Você verá a seguinte mensagem de erro:
 
-    HandleError : Failed to retrieve policy with PolicyId 'AllowSelfServicePurchase', ErrorMessage - The underlying
-    connection was closed: An unexpected error occurred on a send.
+> HandleError: falha ao recuperar política com PolicyId ' AllowSelfServicePurchase ', ErrorMessage-a conexão subjacente foi fechada: ocorreu um erro inesperado em um envio.
 
 Isso pode ser devido a uma versão mais antiga da Transport Layer Security (TLS). Para conectar este serviço, você precisa usar o TLS 1,2 ou superior
 

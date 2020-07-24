@@ -14,16 +14,15 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores podem saber como configurar as entradas de URL e de arquivo na lista de permissões/bloqueios de locatários no centro de conformidade de & de segurança.
-ms.openlocfilehash: 742a44c7ed63c8a3037e2ada295c94f89afa9c93
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+ms.openlocfilehash: db34abf28b5ead8106eb0b1447052d63072b2da3
+ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726819"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391561"
 ---
-# <a name="manage-urls-and-files-in-the-tenant-allowblock-list"></a>Gerenciar URLs e arquivos na lista de permissões/bloqueios de locatários
+# <a name="manage-urls-and-files-in-the-tenant-allowblock-list"></a>Gerenciar URLs e arquivos na Lista de Permissões/Bloqueios de Locatários
 
 > [!NOTE]
 > Os recursos descritos neste tópico estão em visualização, estão sujeitos a alterações e não estão disponíveis em todas as organizações.
@@ -58,17 +57,17 @@ Este tópico descreve como configurar entradas na lista de permissões/bloqueios
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa receber permissões antes de executar os procedimentos deste tópico:
+- Você precisa ter permissões atribuídas antes de poder executar os procedimentos neste tópico:
 
   - Para adicionar e remover valores da lista de permissões/bloqueios de locatário, você precisa ser membro de um dos seguintes grupos de função:
 
-    - **Gerenciamento da organização** ou **administrador de segurança** no centro de conformidade de & de [segurança](permissions-in-the-security-and-compliance-center.md).
-    - Gerenciamento da **organização** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+    - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+    - **Gerenciamento de organizações** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
   - Para acesso somente leitura à lista de permissões/bloqueios de locatário, você precisa ser membro de um dos seguintes grupos de função:
 
-    - **Leitor de segurança** no [centro de conformidade & segurança](permissions-in-the-security-and-compliance-center.md).
-    - **Gerenciamento de organização somente para exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+    - **Leitor de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+    - **Gerenciamento da organização Somente visualização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Usar o centro de conformidade de & de segurança para criar entradas de URL na lista de permissões/bloqueios de locatários
 

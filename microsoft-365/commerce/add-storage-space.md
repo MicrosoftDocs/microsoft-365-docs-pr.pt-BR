@@ -29,12 +29,12 @@ search.appverid:
 - GSP150
 ms.assetid: 96ea3533-de64-4b01-839a-c560875a662c
 description: Saiba como adicionar e reduzir o armazenamento de arquivos em sua assinatura do Microsoft 365. Com o armazenamento de arquivos extra, você pode armazenar mais conteúdo no SharePoint Online e no OneDrive.
-ms.openlocfilehash: f3720580c44b68f5b34d5e11f5af1a919ec07dea
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: d0580113449ae91e7be02a13993562d6b91a7d19
+ms.sourcegitcommit: 4789b261eb029d7c965421a1260acc110e6385db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899120"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45387416"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Adicionar espaço de armazenamento para sua assinatura
 
@@ -48,7 +48,7 @@ ms.locfileid: "44899120"
 Se você começar a ficar sem armazenamento para seus conjuntos de sites do SharePoint Online, será possível adicionar armazenamento à sua assinatura, se seu plano estiver qualificado. Se você não vir o **armazenamento de arquivos extra do Office 365** na lista de Complementos disponíveis, isso significa que seu plano não está qualificado. Para obter mais informações, veja [o meu plano está qualificado?](#is-my-plan-eligible-for-office-365-extra-file-storage)
 
 > [!NOTE]
-> Se você comprou a assinatura por meio de licenciamento por volume ou um CSP, não poderá comprar o **armazenamento de arquivos extra do Office 365** para sua organização. Entre em contato com seu representante ou parceiro para obter ajuda.
+> Se você comprou a assinatura por meio de licenciamento por volume ou um CSP, não poderá comprar o **armazenamento de arquivos extra do Office 365** para sua organização diretamente da Microsoft. Entre em contato com seu representante ou parceiro para obter ajuda.
 
 ## <a name="view-available-storage"></a>Exibir armazenamento disponível
 
