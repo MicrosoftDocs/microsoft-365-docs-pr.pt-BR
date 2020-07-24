@@ -20,74 +20,84 @@ search.appverid:
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 ms.custom: seo-marvel-apr2020
 description: Saiba como executar um script para adicionar caixas de correio & sites do OneDrive for Business a um novo bloqueio associado a uma ocorrência de descoberta eletrônica no centro de conformidade & de segurança.
-ms.openlocfilehash: cfa7e176c3974d51fbcc87866c1482277d6010e1
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 55ad3c8c8a4a6b77df4c2d3409fee6e5b43cc5f6
+ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016304"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391481"
 ---
-# <a name="use-a-script-to-add-users-to-a-hold-in-a-core-ediscovery-case"></a><span data-ttu-id="b08da-103">Usar um script para adicionar usuários a uma retenção em um caso de descoberta eletrônica principal</span><span class="sxs-lookup"><span data-stu-id="b08da-103">Use a script to add users to a hold in a Core eDiscovery case</span></span>
+# <a name="use-a-script-to-add-users-to-a-hold-in-a-core-ediscovery-case"></a><span data-ttu-id="fa008-103">Usar um script para adicionar usuários a uma retenção em um caso de descoberta eletrônica principal</span><span class="sxs-lookup"><span data-stu-id="fa008-103">Use a script to add users to a hold in a Core eDiscovery case</span></span>
 
-<span data-ttu-id="b08da-104">O centro de conformidade do & de segurança fornece cmdlets do PowerShell que permitem automatizar tarefas demoradas relacionadas à criação e ao gerenciamento de ocorrências de descoberta eletrônica.</span><span class="sxs-lookup"><span data-stu-id="b08da-104">The Security & Compliance Center provides PowerShell cmdlets that let you automate time-consuming tasks related to creating and managing eDiscovery cases.</span></span> <span data-ttu-id="b08da-105">Atualmente, usar a ferramenta de ocorrência de descoberta eletrônica no centro de conformidade do & de segurança para colocar um grande número de locais de conteúdo dos responsáveis em espera leva tempo e preparação.</span><span class="sxs-lookup"><span data-stu-id="b08da-105">Currently, using the eDiscovery case tool in the Security & Compliance Center to place a large number of custodian content locations on hold takes time and preparation.</span></span> <span data-ttu-id="b08da-106">Por exemplo, antes de criar uma retenção, você precisa coletar a URL de cada site do OneDrive for Business que deseja colocar em espera.</span><span class="sxs-lookup"><span data-stu-id="b08da-106">For example, before you create a hold, you have to collect the URL for each OneDrive for Business site that you want to place on hold.</span></span> <span data-ttu-id="b08da-107">Em seguida, para cada usuário que você deseja colocar em espera, adicione a caixa de correio e o site do OneDrive for Business à isenção.</span><span class="sxs-lookup"><span data-stu-id="b08da-107">Then for each user you want to place on hold, you have to add their mailbox and their OneDrive for Business site to the hold.</span></span> <span data-ttu-id="b08da-108">Em versões futuras do centro de conformidade com segurança &, isso será mais fácil.</span><span class="sxs-lookup"><span data-stu-id="b08da-108">In future releases of the Security & Compliance Center, this will get easier to do.</span></span> <span data-ttu-id="b08da-109">Até lá, você pode usar o script neste artigo para automatizar esse processo.</span><span class="sxs-lookup"><span data-stu-id="b08da-109">Until then, you can use the script in this article to automate this process.</span></span>
+<span data-ttu-id="fa008-104">O centro de conformidade do & de segurança fornece cmdlets do PowerShell que permitem automatizar tarefas demoradas relacionadas à criação e ao gerenciamento de ocorrências de descoberta eletrônica.</span><span class="sxs-lookup"><span data-stu-id="fa008-104">The Security & Compliance Center provides PowerShell cmdlets that let you automate time-consuming tasks related to creating and managing eDiscovery cases.</span></span> <span data-ttu-id="fa008-105">Atualmente, usar a ferramenta de ocorrência de descoberta eletrônica no centro de conformidade do & de segurança para colocar um grande número de locais de conteúdo dos responsáveis em espera leva tempo e preparação.</span><span class="sxs-lookup"><span data-stu-id="fa008-105">Currently, using the eDiscovery case tool in the Security & Compliance Center to place a large number of custodian content locations on hold takes time and preparation.</span></span> <span data-ttu-id="fa008-106">Por exemplo, antes de criar uma retenção, você precisa coletar a URL de cada site do OneDrive for Business que deseja colocar em espera.</span><span class="sxs-lookup"><span data-stu-id="fa008-106">For example, before you create a hold, you have to collect the URL for each OneDrive for Business site that you want to place on hold.</span></span> <span data-ttu-id="fa008-107">Em seguida, para cada usuário que você deseja colocar em espera, adicione a caixa de correio e o site do OneDrive for Business à isenção.</span><span class="sxs-lookup"><span data-stu-id="fa008-107">Then for each user you want to place on hold, you have to add their mailbox and their OneDrive for Business site to the hold.</span></span> <span data-ttu-id="fa008-108">Em versões futuras do centro de conformidade com segurança &, isso será mais fácil.</span><span class="sxs-lookup"><span data-stu-id="fa008-108">In future releases of the Security & Compliance Center, this will get easier to do.</span></span> <span data-ttu-id="fa008-109">Até lá, você pode usar o script neste artigo para automatizar esse processo.</span><span class="sxs-lookup"><span data-stu-id="fa008-109">Until then, you can use the script in this article to automate this process.</span></span>
   
-<span data-ttu-id="b08da-110">O script solicita o nome do domínio meusite da sua organização (por exemplo, **contoso** na URL https://contoso-my.sharepoint.com) , o nome de um caso de descoberta eletrônica existente, o nome da nova retenção associada ao caso, uma lista de endereços de email dos usuários que você deseja colocar em espera e uma consulta de pesquisa a ser usada se você quiser criar uma retenção baseada em consulta.</span><span class="sxs-lookup"><span data-stu-id="b08da-110">The script prompts you for the name of your organization's MySite domain (for example, **contoso** in the URL https://contoso-my.sharepoint.com), the name of an existing eDiscovery case, the name of the new hold that associated with the case, a list of email addresses of the users you want to put on hold, and a search query to use if you want to create a query-based hold.</span></span> <span data-ttu-id="b08da-111">Em seguida, o script Obtém a URL do site do OneDrive for Business para cada usuário na lista, cria a nova isenção e, em seguida, adiciona a caixa de correio e o site do OneDrive for Business para cada usuário na lista à isenção.</span><span class="sxs-lookup"><span data-stu-id="b08da-111">The script then gets the URL for the OneDrive for Business site for each user in the list, creates the new hold, and then adds the mailbox and OneDrive for Business site for each user in the list to the hold.</span></span> <span data-ttu-id="b08da-112">O script também gera arquivos de log que contêm informações sobre a nova isenção.</span><span class="sxs-lookup"><span data-stu-id="b08da-112">The script also generates log files that contain information about the new hold.</span></span>
+<span data-ttu-id="fa008-110">O script solicita o nome do domínio do meu site da sua organização (por exemplo, **contoso** na URL https://contoso-my.sharepoint.com) , o nome de uma ocorrência de descoberta eletrônica existente, o nome da nova retenção associada ao caso, uma lista de endereços de email dos usuários que você deseja colocar em espera e uma consulta de pesquisa a ser usada se você quiser criar uma retenção baseada em consulta.</span><span class="sxs-lookup"><span data-stu-id="fa008-110">The script prompts you for the name of your organization's My Site domain (for example, **contoso** in the URL https://contoso-my.sharepoint.com), the name of an existing eDiscovery case, the name of the new hold that associated with the case, a list of email addresses of the users you want to put on hold, and a search query to use if you want to create a query-based hold.</span></span> <span data-ttu-id="fa008-111">Em seguida, o script Obtém a URL do site do OneDrive for Business para cada usuário na lista, cria a nova isenção e, em seguida, adiciona a caixa de correio e o site do OneDrive for Business para cada usuário na lista à isenção.</span><span class="sxs-lookup"><span data-stu-id="fa008-111">The script then gets the URL for the OneDrive for Business site for each user in the list, creates the new hold, and then adds the mailbox and OneDrive for Business site for each user in the list to the hold.</span></span> <span data-ttu-id="fa008-112">O script também gera arquivos de log que contêm informações sobre a nova isenção.</span><span class="sxs-lookup"><span data-stu-id="fa008-112">The script also generates log files that contain information about the new hold.</span></span>
   
-<span data-ttu-id="b08da-113">Estas são as etapas para fazer isso:</span><span class="sxs-lookup"><span data-stu-id="b08da-113">Here are the steps to make this happen:</span></span>
+<span data-ttu-id="fa008-113">Estas são as etapas para fazer isso:</span><span class="sxs-lookup"><span data-stu-id="fa008-113">Here are the steps to make this happen:</span></span>
   
-[<span data-ttu-id="b08da-114">Etapa 1: Instalar o Shell de gerenciamento do SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="b08da-114">Step 1: Install the SharePoint Online Management Shell</span></span>](#step-1-install-the-sharepoint-online-management-shell)
+[<span data-ttu-id="fa008-114">Etapa 1: Instalar o Shell de gerenciamento do SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="fa008-114">Step 1: Install the SharePoint Online Management Shell</span></span>](#step-1-install-the-sharepoint-online-management-shell)
   
-[<span data-ttu-id="b08da-115">Etapa 2: gerar uma lista de usuários</span><span class="sxs-lookup"><span data-stu-id="b08da-115">Step 2: Generate a list of users</span></span>](#step-2-generate-a-list-of-users)
+[<span data-ttu-id="fa008-115">Etapa 2: gerar uma lista de usuários</span><span class="sxs-lookup"><span data-stu-id="fa008-115">Step 2: Generate a list of users</span></span>](#step-2-generate-a-list-of-users)
   
-[<span data-ttu-id="b08da-116">Etapa 3: executar o script para criar um bloqueio e adicionar usuários</span><span class="sxs-lookup"><span data-stu-id="b08da-116">Step 3: Run the script to create a hold and add users</span></span>](#step-3-run-the-script-to-create-a-hold-and-add-users)
+[<span data-ttu-id="fa008-116">Etapa 3: executar o script para criar um bloqueio e adicionar usuários</span><span class="sxs-lookup"><span data-stu-id="fa008-116">Step 3: Run the script to create a hold and add users</span></span>](#step-3-run-the-script-to-create-a-hold-and-add-users)
   
-## <a name="before-you-add-users-to-a-hold"></a><span data-ttu-id="b08da-117">Antes de adicionar usuários a uma isenção</span><span class="sxs-lookup"><span data-stu-id="b08da-117">Before you add users to a hold</span></span>
+## <a name="before-you-add-users-to-a-hold"></a><span data-ttu-id="fa008-117">Antes de adicionar usuários a uma isenção</span><span class="sxs-lookup"><span data-stu-id="fa008-117">Before you add users to a hold</span></span>
 
-- <span data-ttu-id="b08da-118">Você precisa ser membro do grupo de função Gerenciador de descoberta eletrônica no centro de conformidade & segurança e administrador do SharePoint Online para executar o script na etapa 3.</span><span class="sxs-lookup"><span data-stu-id="b08da-118">You have to be a member of the eDiscovery Manager role group in the Security & Compliance Center and a SharePoint Online administrator to run the script in Step 3.</span></span> <span data-ttu-id="b08da-119">Para obter mais informações, consulte [atribuir permissões de descoberta eletrônica no centro de conformidade & segurança do Office 365](assign-ediscovery-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="b08da-119">For more information, see [Assign eDiscovery permissions in the Office‍ 365 Security & Compliance Center](assign-ediscovery-permissions.md).</span></span>
+- <span data-ttu-id="fa008-118">Você precisa ser membro do grupo de função Gerenciador de descoberta eletrônica no centro de conformidade & segurança e administrador do SharePoint Online para executar o script na etapa 3.</span><span class="sxs-lookup"><span data-stu-id="fa008-118">You have to be a member of the eDiscovery Manager role group in the Security & Compliance Center and a SharePoint Online administrator to run the script in Step 3.</span></span> <span data-ttu-id="fa008-119">Para obter mais informações, consulte [atribuir permissões de descoberta eletrônica no centro de conformidade & segurança do Office 365](assign-ediscovery-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="fa008-119">For more information, see [Assign eDiscovery permissions in the Office‍ 365 Security & Compliance Center](assign-ediscovery-permissions.md).</span></span>
 
-- <span data-ttu-id="b08da-120">Um máximo de 1.000 caixas de correio e 100 sites pode ser adicionado a uma retenção associada a uma ocorrência de descoberta eletrônica no centro de conformidade de & de segurança.</span><span class="sxs-lookup"><span data-stu-id="b08da-120">A maximum of 1,000 mailboxes and 100 sites can be added to a hold that's associated with an eDiscovery case in the Security & Compliance Center.</span></span> <span data-ttu-id="b08da-121">Supondo que cada usuário que você deseja colocar em espera tenha um site do OneDrive for Business, você pode adicionar no máximo 100 usuários a uma isenção usando o script neste artigo.</span><span class="sxs-lookup"><span data-stu-id="b08da-121">Assuming that every user that you want to place on hold has a OneDrive for Business site, you can add a maximum of 100 users to a hold using the script in this article.</span></span>
+- <span data-ttu-id="fa008-120">Um máximo de 1.000 caixas de correio e 100 sites pode ser adicionado a uma retenção associada a uma ocorrência de descoberta eletrônica no centro de conformidade de & de segurança.</span><span class="sxs-lookup"><span data-stu-id="fa008-120">A maximum of 1,000 mailboxes and 100 sites can be added to a hold that's associated with an eDiscovery case in the Security & Compliance Center.</span></span> <span data-ttu-id="fa008-121">Supondo que cada usuário que você deseja colocar em espera tenha um site do OneDrive for Business, você pode adicionar no máximo 100 usuários a uma isenção usando o script neste artigo.</span><span class="sxs-lookup"><span data-stu-id="fa008-121">Assuming that every user that you want to place on hold has a OneDrive for Business site, you can add a maximum of 100 users to a hold using the script in this article.</span></span>
 
-- <span data-ttu-id="b08da-122">Certifique-se de salvar a lista de usuários que você criou na etapa 2 e o script na etapa 3 para a mesma pasta.</span><span class="sxs-lookup"><span data-stu-id="b08da-122">Be sure to save the list of users that you create in Step 2 and the script in Step 3 to the same folder.</span></span> <span data-ttu-id="b08da-123">Isso facilitará a execução do script.</span><span class="sxs-lookup"><span data-stu-id="b08da-123">That will make it easier to run the script.</span></span>
+- <span data-ttu-id="fa008-122">Certifique-se de salvar a lista de usuários que você criou na etapa 2 e o script na etapa 3 para a mesma pasta.</span><span class="sxs-lookup"><span data-stu-id="fa008-122">Be sure to save the list of users that you create in Step 2 and the script in Step 3 to the same folder.</span></span> <span data-ttu-id="fa008-123">Isso facilitará a execução do script.</span><span class="sxs-lookup"><span data-stu-id="fa008-123">That will make it easier to run the script.</span></span>
 
-- <span data-ttu-id="b08da-124">O script adiciona a lista de usuários a uma nova retenção associada a um caso existente.</span><span class="sxs-lookup"><span data-stu-id="b08da-124">The script adds the list of users to a new hold that is associated with an existing case.</span></span> <span data-ttu-id="b08da-125">Verifique se o caso para o qual você deseja associar a retenção foi criado antes de executar o script.</span><span class="sxs-lookup"><span data-stu-id="b08da-125">Be sure the case that you want to associate the hold with is created before you run the script.</span></span>
+- <span data-ttu-id="fa008-124">O script adiciona a lista de usuários a uma nova retenção associada a um caso existente.</span><span class="sxs-lookup"><span data-stu-id="fa008-124">The script adds the list of users to a new hold that is associated with an existing case.</span></span> <span data-ttu-id="fa008-125">Verifique se o caso para o qual você deseja associar a retenção foi criado antes de executar o script.</span><span class="sxs-lookup"><span data-stu-id="fa008-125">Be sure the case that you want to associate the hold with is created before you run the script.</span></span>
 
-- <span data-ttu-id="b08da-126">O script inclui o tratamento de erros mínimo.</span><span class="sxs-lookup"><span data-stu-id="b08da-126">The script includes minimal error handling.</span></span> <span data-ttu-id="b08da-127">Seu objetivo principal é colocar rápida e facilmente a caixa de correio e o site do OneDrive for Business de cada usuário em espera.</span><span class="sxs-lookup"><span data-stu-id="b08da-127">Its primary purpose is to quickly and easily place the mailbox and OneDrive for Business site of each user on hold.</span></span>
+- <span data-ttu-id="fa008-126">Toda vez que você executar o script, & novas sessões do PowerShell e do PowerShell do SharePoint Online de conformidade são criadas.</span><span class="sxs-lookup"><span data-stu-id="fa008-126">Each time you run the script, new Security & Compliance PowerShell and SharePoint Online PowerShell sessions are created.</span></span> <span data-ttu-id="fa008-127">Portanto, você pode usar todas as sessões do PowerShell disponíveis para você.</span><span class="sxs-lookup"><span data-stu-id="fa008-127">So you could use up all the PowerShell sessions available to you.</span></span> <span data-ttu-id="fa008-128">Para evitar que isso aconteça, você pode executar os seguintes comandos para desconectar suas sessões ativas do PowerShell.</span><span class="sxs-lookup"><span data-stu-id="fa008-128">To prevent this from happening, you can run the following commands to disconnect your active PowerShell sessions.</span></span>
 
-- <span data-ttu-id="b08da-p108">Os scripts de exemplo fornecidos neste tópico não são compatíveis com nenhum serviço ou programa de suporte padrão da Microsoft. Os scripts de exemplo são fornecidos COMO ESTÃO sem qualquer tipo de garantia. A Microsoft também se isenta de todas as garantias implícitas, incluindo sem limitações quaisquer garantias aplicáveis de padrões de comercialização ou de adequação a uma finalidade específica. Todos os riscos decorrentes do uso ou da execução da documentação ou scripts de exemplo serão de sua responsabilidade. De modo algum a Microsoft, seus autores ou qualquer outra pessoa envolvida na criação, produção ou veiculação dos scripts serão considerados responsáveis por quaisquer danos (incluindo sem limitações danos por perda de lucros comerciais, interrupção de negócios, perda de informações comerciais ou outras perdas pecuniárias) resultantes do uso ou da incapacidade de uso da documentação ou scripts de exemplo, mesmo que a Microsoft tenha sido alertada sobre a possibilidade de tais danos.</span><span class="sxs-lookup"><span data-stu-id="b08da-p108">The sample scripts provided in this topic aren't supported under any Microsoft standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Microsoft further disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you. In no event shall Microsoft, its authors, or anyone else involved in the creation, production, or delivery of the scripts be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss) arising out of the use of or inability to use the sample scripts or documentation, even if Microsoft has been advised of the possibility of such damages.</span></span>
+  ```powershell
+  Get-PSSession | Remove-PSSession
+  ```
 
-## <a name="step-1-install-the-sharepoint-online-management-shell"></a><span data-ttu-id="b08da-133">Etapa 1: Instalar o Shell de gerenciamento do SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="b08da-133">Step 1: Install the SharePoint Online Management Shell</span></span>
+   ```powershell
+   Disconnect-SPOService
+   ```
 
-<span data-ttu-id="b08da-134">A primeira etapa é instalar o Shell de gerenciamento do SharePoint Online se ele ainda não estiver instalado no computador local.</span><span class="sxs-lookup"><span data-stu-id="b08da-134">The first step is to install the SharePoint Online Management Shell if it's not already installed on your local computer.</span></span> <span data-ttu-id="b08da-135">Não é necessário usar o Shell neste procedimento, mas você precisa instalá-lo porque ele contém pré-requisitos necessários para o script executado na etapa 3.</span><span class="sxs-lookup"><span data-stu-id="b08da-135">You don't have to use the shell in this procedure, but you have to install it because it contains pre-requisites required by the script that you run in Step 3.</span></span> <span data-ttu-id="b08da-136">Esses pré-requisitos permitem que o script se comunique com o SharePoint Online para obter as URLs para os sites do OneDrive for Business.</span><span class="sxs-lookup"><span data-stu-id="b08da-136">These prerequisites allow the script to communicate with SharePoint Online to get the URLs for the OneDrive for Business sites.</span></span>
+- <span data-ttu-id="fa008-129">O script inclui o tratamento de erros mínimo.</span><span class="sxs-lookup"><span data-stu-id="fa008-129">The script includes minimal error handling.</span></span> <span data-ttu-id="fa008-130">Seu objetivo principal é colocar rápida e facilmente a caixa de correio e o site do OneDrive for Business de cada usuário em espera.</span><span class="sxs-lookup"><span data-stu-id="fa008-130">Its primary purpose is to quickly and easily place the mailbox and OneDrive for Business site of each user on hold.</span></span>
+
+- <span data-ttu-id="fa008-p109">Os scripts de exemplo fornecidos neste tópico não são compatíveis com nenhum serviço ou programa de suporte padrão da Microsoft. Os scripts de exemplo são fornecidos COMO ESTÃO sem qualquer tipo de garantia. A Microsoft também se isenta de todas as garantias implícitas, incluindo sem limitações quaisquer garantias aplicáveis de padrões de comercialização ou de adequação a uma finalidade específica. Todos os riscos decorrentes do uso ou da execução da documentação ou scripts de exemplo serão de sua responsabilidade. De modo algum a Microsoft, seus autores ou qualquer outra pessoa envolvida na criação, produção ou veiculação dos scripts serão considerados responsáveis por quaisquer danos (incluindo sem limitações danos por perda de lucros comerciais, interrupção de negócios, perda de informações comerciais ou outras perdas pecuniárias) resultantes do uso ou da incapacidade de uso da documentação ou scripts de exemplo, mesmo que a Microsoft tenha sido alertada sobre a possibilidade de tais danos.</span><span class="sxs-lookup"><span data-stu-id="fa008-p109">The sample scripts provided in this topic aren't supported under any Microsoft standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Microsoft further disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you. In no event shall Microsoft, its authors, or anyone else involved in the creation, production, or delivery of the scripts be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss) arising out of the use of or inability to use the sample scripts or documentation, even if Microsoft has been advised of the possibility of such damages.</span></span>
+
+## <a name="step-1-install-the-sharepoint-online-management-shell"></a><span data-ttu-id="fa008-136">Etapa 1: Instalar o Shell de gerenciamento do SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="fa008-136">Step 1: Install the SharePoint Online Management Shell</span></span>
+
+<span data-ttu-id="fa008-137">A primeira etapa é instalar o Shell de gerenciamento do SharePoint Online se ele ainda não estiver instalado no computador local.</span><span class="sxs-lookup"><span data-stu-id="fa008-137">The first step is to install the SharePoint Online Management Shell if it's not already installed on your local computer.</span></span> <span data-ttu-id="fa008-138">Não é necessário usar o Shell neste procedimento, mas você precisa instalá-lo porque ele contém pré-requisitos necessários para o script executado na etapa 3.</span><span class="sxs-lookup"><span data-stu-id="fa008-138">You don't have to use the shell in this procedure, but you have to install it because it contains pre-requisites required by the script that you run in Step 3.</span></span> <span data-ttu-id="fa008-139">Esses pré-requisitos permitem que o script se comunique com o SharePoint Online para obter as URLs para os sites do OneDrive for Business.</span><span class="sxs-lookup"><span data-stu-id="fa008-139">These prerequisites allow the script to communicate with SharePoint Online to get the URLs for the OneDrive for Business sites.</span></span>
   
-<span data-ttu-id="b08da-137">Vá para [Configurar o ambiente do Windows PowerShell do Shell de gerenciamento do SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkID=286318) e execute a etapa 1 e a etapa 2 para instalar o Shell de gerenciamento do SharePoint Online no computador local.</span><span class="sxs-lookup"><span data-stu-id="b08da-137">Go to [Set up the SharePoint Online Management Shell Windows PowerShell environment](https://go.microsoft.com/fwlink/p/?LinkID=286318) and perform Step 1 and Step 2 to install the SharePoint Online Management Shell on your local computer.</span></span> 
+<span data-ttu-id="fa008-140">Vá para [Configurar o ambiente do Windows PowerShell do Shell de gerenciamento do SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkID=286318) e execute a etapa 1 e a etapa 2 para instalar o Shell de gerenciamento do SharePoint Online no computador local.</span><span class="sxs-lookup"><span data-stu-id="fa008-140">Go to [Set up the SharePoint Online Management Shell Windows PowerShell environment](https://go.microsoft.com/fwlink/p/?LinkID=286318) and perform Step 1 and Step 2 to install the SharePoint Online Management Shell on your local computer.</span></span> 
 
-## <a name="step-2-generate-a-list-of-users"></a><span data-ttu-id="b08da-138">Etapa 2: gerar uma lista de usuários</span><span class="sxs-lookup"><span data-stu-id="b08da-138">Step 2: Generate a list of users</span></span>
+## <a name="step-2-generate-a-list-of-users"></a><span data-ttu-id="fa008-141">Etapa 2: gerar uma lista de usuários</span><span class="sxs-lookup"><span data-stu-id="fa008-141">Step 2: Generate a list of users</span></span>
 
-<span data-ttu-id="b08da-139">O script na etapa 3 criará uma retenção associada a uma ocorrência de descoberta eletrônica e adicionará as caixas de correio e os sites do OneDrive for Business de uma lista de usuários à isenção.</span><span class="sxs-lookup"><span data-stu-id="b08da-139">The script in Step 3 will create a hold that's associated with an eDiscovery case, and the add the mailboxes and OneDrive for Business sites of a list of users to the hold.</span></span> <span data-ttu-id="b08da-140">Você pode simplesmente digitar os endereços de email em um arquivo de texto ou pode executar um comando no Windows PowerShell para obter uma lista de endereços de email e salvá-los em um arquivo (localizado na mesma pasta em que você salvará o script na etapa 3).</span><span class="sxs-lookup"><span data-stu-id="b08da-140">You can just type the email addresses in a text file, or you can run a command in Windows PowerShell to get a list of email addresses and save them to a file (located in same folder that you'll save the script to in Step 3).</span></span>
+<span data-ttu-id="fa008-142">O script na etapa 3 criará uma retenção associada a uma ocorrência de descoberta eletrônica e adicionará as caixas de correio e os sites do OneDrive for Business de uma lista de usuários à isenção.</span><span class="sxs-lookup"><span data-stu-id="fa008-142">The script in Step 3 will create a hold that's associated with an eDiscovery case, and the add the mailboxes and OneDrive for Business sites of a list of users to the hold.</span></span> <span data-ttu-id="fa008-143">Você pode simplesmente digitar os endereços de email em um arquivo de texto ou pode executar um comando no Windows PowerShell para obter uma lista de endereços de email e salvá-los em um arquivo (localizado na mesma pasta em que você salvará o script na etapa 3).</span><span class="sxs-lookup"><span data-stu-id="fa008-143">You can just type the email addresses in a text file, or you can run a command in Windows PowerShell to get a list of email addresses and save them to a file (located in same folder that you'll save the script to in Step 3).</span></span>
   
-<span data-ttu-id="b08da-141">Aqui está um comando do PowerShell (executado usando o PowerShell remoto conectado à sua organização do Exchange Online) para obter uma lista de endereços de email para todos os usuários em sua organização e salvá-lo em um arquivo de texto chamado HoldUsers.txt.</span><span class="sxs-lookup"><span data-stu-id="b08da-141">Here's a PowerShell command (that you run by using remote PowerShell connected to your Exchange Online organization) to get a list of email addresses for all users in your organization and save it to a text file named HoldUsers.txt.</span></span>
+<span data-ttu-id="fa008-144">Aqui está um comando do PowerShell (executado usando o PowerShell remoto conectado à sua organização do Exchange Online) para obter uma lista de endereços de email para todos os usuários em sua organização e salvá-lo em um arquivo de texto chamado HoldUsers.txt.</span><span class="sxs-lookup"><span data-stu-id="fa008-144">Here's a PowerShell command (that you run by using remote PowerShell connected to your Exchange Online organization) to get a list of email addresses for all users in your organization and save it to a text file named HoldUsers.txt.</span></span>
   
 ```powershell
 Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbox'} | Select-Object PrimarySmtpAddress > HoldUsers.txt
 ```
 
-<span data-ttu-id="b08da-142">Depois de executar esse comando, abra o arquivo de texto e remova o cabeçalho que contém o nome da propriedade `PrimarySmtpAddress` .</span><span class="sxs-lookup"><span data-stu-id="b08da-142">After you run this command, open the text file and remove the header that contains the property name,  `PrimarySmtpAddress`.</span></span> <span data-ttu-id="b08da-143">Em seguida, remova todos os endereços de email, exceto aqueles para os usuários que você deseja adicionar à isenção que você criará na etapa 3.</span><span class="sxs-lookup"><span data-stu-id="b08da-143">Then remove all email addresses except the ones for the users that you want to add to the hold that you'll create in Step 3.</span></span> <span data-ttu-id="b08da-144">Certifique-se de que não haja linhas em branco antes ou depois da lista de endereços de email.</span><span class="sxs-lookup"><span data-stu-id="b08da-144">Make sure there are no blank rows before or after the list of email addresses.</span></span>
+<span data-ttu-id="fa008-145">Depois de executar esse comando, abra o arquivo de texto e remova o cabeçalho que contém o nome da propriedade `PrimarySmtpAddress` .</span><span class="sxs-lookup"><span data-stu-id="fa008-145">After you run this command, open the text file and remove the header that contains the property name,  `PrimarySmtpAddress`.</span></span> <span data-ttu-id="fa008-146">Em seguida, remova todos os endereços de email, exceto aqueles para os usuários que você deseja adicionar à isenção que você criará na etapa 3.</span><span class="sxs-lookup"><span data-stu-id="fa008-146">Then remove all email addresses except the ones for the users that you want to add to the hold that you'll create in Step 3.</span></span> <span data-ttu-id="fa008-147">Certifique-se de que não haja linhas em branco antes ou depois da lista de endereços de email.</span><span class="sxs-lookup"><span data-stu-id="fa008-147">Make sure there are no blank rows before or after the list of email addresses.</span></span>
   
-## <a name="step-3-run-the-script-to-create-a-hold-and-add-users"></a><span data-ttu-id="b08da-145">Etapa 3: executar o script para criar um bloqueio e adicionar usuários</span><span class="sxs-lookup"><span data-stu-id="b08da-145">Step 3: Run the script to create a hold and add users</span></span>
+## <a name="step-3-run-the-script-to-create-a-hold-and-add-users"></a><span data-ttu-id="fa008-148">Etapa 3: executar o script para criar um bloqueio e adicionar usuários</span><span class="sxs-lookup"><span data-stu-id="fa008-148">Step 3: Run the script to create a hold and add users</span></span>
 
-<span data-ttu-id="b08da-146">Quando você executar o script nesta etapa, ele solicitará as seguintes informações.</span><span class="sxs-lookup"><span data-stu-id="b08da-146">When you run the script in this step, it will prompt you for the following information.</span></span> <span data-ttu-id="b08da-147">Certifique-se de ter essas informações prontas antes de executar o script.</span><span class="sxs-lookup"><span data-stu-id="b08da-147">Be sure to have this information ready before you run the script.</span></span>
+<span data-ttu-id="fa008-149">Quando você executar o script nesta etapa, ele solicitará as seguintes informações.</span><span class="sxs-lookup"><span data-stu-id="fa008-149">When you run the script in this step, it will prompt you for the following information.</span></span> <span data-ttu-id="fa008-150">Certifique-se de ter essas informações prontas antes de executar o script.</span><span class="sxs-lookup"><span data-stu-id="fa008-150">Be sure to have this information ready before you run the script.</span></span>
   
-- <span data-ttu-id="b08da-148">**Suas credenciais de usuário:** O script usará suas credenciais para se conectar ao centro de conformidade de & de segurança com o PowerShell remoto.</span><span class="sxs-lookup"><span data-stu-id="b08da-148">**Your user credentials:** The script will use your credentials to connect to the Security & Compliance Center with remote PowerShell.</span></span> <span data-ttu-id="b08da-149">Ele também usará essas credenciais para acessar o SharePoint Online para obter as URLs do OneDrive for Business para a lista de usuários.</span><span class="sxs-lookup"><span data-stu-id="b08da-149">It will also use these credentials to access SharePoint Online to get the OneDrive for Business URLs for the list of users.</span></span>
+- <span data-ttu-id="fa008-151">**Suas credenciais de usuário:** O script usará suas credenciais para se conectar ao centro de conformidade de & de segurança com o PowerShell remoto.</span><span class="sxs-lookup"><span data-stu-id="fa008-151">**Your user credentials:** The script will use your credentials to connect to the Security & Compliance Center with remote PowerShell.</span></span> <span data-ttu-id="fa008-152">Ele também usará essas credenciais para acessar o SharePoint Online para obter as URLs do OneDrive for Business para a lista de usuários.</span><span class="sxs-lookup"><span data-stu-id="fa008-152">It will also use these credentials to access SharePoint Online to get the OneDrive for Business URLs for the list of users.</span></span>
 
-- <span data-ttu-id="b08da-150">**Nome do seu domínio do meusite:** O domínio MeuSite é o domínio que contém todos os sites do OneDrive for Business em sua organização.</span><span class="sxs-lookup"><span data-stu-id="b08da-150">**Name of your MySite domain:** The MySite domain is the domain that contains all the OneDrive for Business sites in your organization.</span></span> <span data-ttu-id="b08da-151">Por exemplo, se a URL do seu domínio meusite for **https://contoso-my.sharepoint.com** , você deve inserir `contoso` quando o script solicitar o nome do seu domínio meusite.</span><span class="sxs-lookup"><span data-stu-id="b08da-151">For example, if the URL for your MySite domain is **https://contoso-my.sharepoint.com**, then you would enter  `contoso` when the script prompts you for the name of your MySite domain.</span></span>
+- <span data-ttu-id="fa008-153">**Nome do seu domínio de meu site:** O domínio do meu site é o domínio que contém todos os sites do OneDrive for Business em sua organização.</span><span class="sxs-lookup"><span data-stu-id="fa008-153">**Name of your My Site domain:** The My Site domain is the domain that contains all the OneDrive for Business sites in your organization.</span></span> <span data-ttu-id="fa008-154">Por exemplo, se a URL do seu domínio de meu site for **https://contoso-my.sharepoint.com** , você deve inserir `contoso` quando o script solicitar o nome do seu domínio de meu site.</span><span class="sxs-lookup"><span data-stu-id="fa008-154">For example, if the URL for your My Site domain is **https://contoso-my.sharepoint.com**, then you would enter  `contoso` when the script prompts you for the name of your My Site domain.</span></span>
 
-- <span data-ttu-id="b08da-152">**Nome do caso:** O nome de um caso existente.</span><span class="sxs-lookup"><span data-stu-id="b08da-152">**Name of the case:** The name of an existing case.</span></span> <span data-ttu-id="b08da-153">O script criará uma nova retenção associada a esse caso.</span><span class="sxs-lookup"><span data-stu-id="b08da-153">The script will create a new hold that is associated with this case.</span></span>
+- <span data-ttu-id="fa008-155">**Nome do caso:** O nome de um caso existente.</span><span class="sxs-lookup"><span data-stu-id="fa008-155">**Name of the case:** The name of an existing case.</span></span> <span data-ttu-id="fa008-156">O script criará uma nova retenção associada a esse caso.</span><span class="sxs-lookup"><span data-stu-id="fa008-156">The script will create a new hold that is associated with this case.</span></span>
 
-- <span data-ttu-id="b08da-154">**Nome da retenção:** O nome da retenção que o script criará e associará ao caso especificado.</span><span class="sxs-lookup"><span data-stu-id="b08da-154">**Name of the hold:** The name of the hold the script will create and associate with the specified case.</span></span>
+- <span data-ttu-id="fa008-157">**Nome da retenção:** O nome da retenção que o script criará e associará ao caso especificado.</span><span class="sxs-lookup"><span data-stu-id="fa008-157">**Name of the hold:** The name of the hold the script will create and associate with the specified case.</span></span>
 
-- <span data-ttu-id="b08da-155">**Consulta de pesquisa para uma retenção baseada em consulta:** Você pode criar um bloqueio baseado em consulta para que somente o conteúdo que atende aos critérios de pesquisa especificados seja colocado em espera.</span><span class="sxs-lookup"><span data-stu-id="b08da-155">**Search query for a query-based hold:** You can create a query-based hold so that only the content that meets the specified search criteria is placed on hold.</span></span> <span data-ttu-id="b08da-156">Para colocar todo o conteúdo em espera, basta pressionar **Enter** quando for solicitada uma consulta de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="b08da-156">To place all content on hold, just press **Enter** when you're prompted for a search query.</span></span>
+- <span data-ttu-id="fa008-158">**Consulta de pesquisa para uma retenção baseada em consulta:** Você pode criar um bloqueio baseado em consulta para que somente o conteúdo que atende aos critérios de pesquisa especificados seja colocado em espera.</span><span class="sxs-lookup"><span data-stu-id="fa008-158">**Search query for a query-based hold:** You can create a query-based hold so that only the content that meets the specified search criteria is placed on hold.</span></span> <span data-ttu-id="fa008-159">Para colocar todo o conteúdo em espera, basta pressionar **Enter** quando for solicitada uma consulta de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="fa008-159">To place all content on hold, just press **Enter** when you're prompted for a search query.</span></span>
 
-- <span data-ttu-id="b08da-157">**Se a retenção deve ou não ser ativada:** Você pode fazer com que o script ative o bloqueio após sua criação ou você pode fazer com que o script crie o bloqueio sem habilitá-lo.</span><span class="sxs-lookup"><span data-stu-id="b08da-157">**Whether or not to turn on the hold:** You can have the script turn on the hold after it's created or you can have the script create the hold without enabling it.</span></span> <span data-ttu-id="b08da-158">Se você não tiver o script ativado na isenção, você poderá ativá-lo mais tarde no centro de conformidade & segurança ou executando os seguintes comandos do PowerShell:</span><span class="sxs-lookup"><span data-stu-id="b08da-158">If you don't have the script turn on the hold, you can turn it on later in the Security & Compliance Center or by running the following PowerShell commands:</span></span>
+- <span data-ttu-id="fa008-160">**Ligando ou não o bloqueio:** Você pode fazer com que o script ative o bloqueio após sua criação ou você pode fazer com que o script crie o bloqueio sem habilitá-lo.</span><span class="sxs-lookup"><span data-stu-id="fa008-160">**Turning on the hold or not:** You can have the script turn on the hold after it's created or you can have the script create the hold without enabling it.</span></span> <span data-ttu-id="fa008-161">Se você não tiver o script ativado na isenção, você poderá ativá-lo mais tarde no centro de conformidade & segurança ou executando os seguintes comandos do PowerShell:</span><span class="sxs-lookup"><span data-stu-id="fa008-161">If you don't have the script turn on the hold, you can turn it on later in the Security & Compliance Center or by running the following PowerShell commands:</span></span>
 
   ```powershell
   Set-CaseHoldPolicy -Identity <name of the hold> -Enabled $true
@@ -97,118 +107,118 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
   Set-CaseHoldRule -Identity <name of the hold> -Disabled $false
   ```
 
-- <span data-ttu-id="b08da-159">**Nome do arquivo de texto com a lista de usuários** : o nome do arquivo de texto da etapa 2 que contém a lista de usuários a serem adicionados à isenção.</span><span class="sxs-lookup"><span data-stu-id="b08da-159">**Name of the text file with the list of users** - The name of the text file from Step 2 that contains the list of users to add to the hold.</span></span> <span data-ttu-id="b08da-160">Se esse arquivo estiver localizado na mesma pasta que o script, basta digitar o nome do arquivo (por exemplo, HoldUsers.txt).</span><span class="sxs-lookup"><span data-stu-id="b08da-160">If this file is located in the same folder as the script, just type the name of the file (for example, HoldUsers.txt).</span></span> <span data-ttu-id="b08da-161">Se o arquivo de texto estiver em outra pasta, digite o nome de caminho completo do arquivo.</span><span class="sxs-lookup"><span data-stu-id="b08da-161">If the text file is in another folder, type the full pathname of the file.</span></span>
+- <span data-ttu-id="fa008-162">**Nome do arquivo de texto com a lista de usuários** : o nome do arquivo de texto da etapa 2 que contém a lista de usuários a serem adicionados à isenção.</span><span class="sxs-lookup"><span data-stu-id="fa008-162">**Name of the text file with the list of users** - The name of the text file from Step 2 that contains the list of users to add to the hold.</span></span> <span data-ttu-id="fa008-163">Se esse arquivo estiver localizado na mesma pasta que o script, basta digitar o nome do arquivo (por exemplo, HoldUsers.txt).</span><span class="sxs-lookup"><span data-stu-id="fa008-163">If this file is located in the same folder as the script, just type the name of the file (for example, HoldUsers.txt).</span></span> <span data-ttu-id="fa008-164">Se o arquivo de texto estiver em outra pasta, digite o nome de caminho completo do arquivo.</span><span class="sxs-lookup"><span data-stu-id="fa008-164">If the text file is in another folder, type the full pathname of the file.</span></span>
 
-<span data-ttu-id="b08da-162">Após coletar as informações que o script solicitará, a etapa final será executar o script para criar o novo bloqueio e adicionar usuários a ele.</span><span class="sxs-lookup"><span data-stu-id="b08da-162">After you've collected the information that the script will prompt you for, the final step is to run the script to create the new hold and add users to it.</span></span>
+<span data-ttu-id="fa008-165">Após coletar as informações que o script solicitará, a etapa final será executar o script para criar o novo bloqueio e adicionar usuários a ele.</span><span class="sxs-lookup"><span data-stu-id="fa008-165">After you've collected the information that the script will prompt you for, the final step is to run the script to create the new hold and add users to it.</span></span>
   
-1. <span data-ttu-id="b08da-163">Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo de `.ps1` .</span><span class="sxs-lookup"><span data-stu-id="b08da-163">Save the following text to a Windows PowerShell script file by using a filename suffix of `.ps1`.</span></span> <span data-ttu-id="b08da-164">Por exemplo, `AddUsersToHold.ps1`.</span><span class="sxs-lookup"><span data-stu-id="b08da-164">For example, `AddUsersToHold.ps1`.</span></span>
+1. <span data-ttu-id="fa008-166">Salve o seguinte texto em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo de `.ps1` .</span><span class="sxs-lookup"><span data-stu-id="fa008-166">Save the following text to a Windows PowerShell script file by using a filename suffix of `.ps1`.</span></span> <span data-ttu-id="fa008-167">Por exemplo, `AddUsersToHold.ps1`.</span><span class="sxs-lookup"><span data-stu-id="fa008-167">For example, `AddUsersToHold.ps1`.</span></span>
 
-  ```powershell
-  #script begin
-  " " 
-  write-host "***********************************************"
-  write-host "   Security & Compliance Center   " -foregroundColor yellow -backgroundcolor darkgreen
-  write-host "   eDiscovery cases - Add users to a hold   " -foregroundColor yellow -backgroundcolor darkgreen 
-  write-host "***********************************************"
-  " " 
-  # Get user credentials &amp; Connect to Office 365 SCC, SPO
-  $credentials = Get-Credential -Message "Specify your credentials to connect to the Security & Compliance Center and SharePoint Online"
-  $s = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri "https://ps.compliance.protection.outlook.com/powershell-liveid" -Credential $credentials -Authentication Basic -AllowRedirection -SessionOption (New-PSSessionOption -SkipCACheck -SkipCNCheck -SkipRevocationCheck)
-  $a = Import-PSSession $s -AllowClobber
-      if (!$s)
-      {
-          Write-Error "Couldn't create PowerShell session."
-          return;
-      }
-  # Load the SharePoint assemblies from the SharePoint Online Management Shell
-  # To install, go to https://go.microsoft.com/fwlink/p/?LinkId=255251
-  if (!$SharePointClient -or !$SPRuntime -or !$SPUserProfile)
-  {
-      $SharePointClient = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client")
-      $SPRuntime = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client.Runtime")
-      $SPUserProfile = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client.UserProfiles")
-      if (!$SharePointClient)
-      {
-          Write-Error "The SharePoint Online Management Shell isn't installed. Please install it from: https://go.microsoft.com/fwlink/p/?LinkId=255251 and then re-run this script."
-          return;
-      }
-  }
-  if (!$spCreds)
-  {
-      $spCreds = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($credentials.UserName, $credentials.Password)
-  }
-  # Get the user's MySite domain name. We use this to create the admin URL and root URL for OneDrive for Business
-  ""
-  $mySiteDomain = Read-Host "Enter the name of your organization's MySite domain. For example, 'contoso' for 'https://contoso-my.sharepoint.com'"
-  ""
-  # Get other required information
-  do{
-  $casename = Read-Host "Enter the name of the case"
-  $caseexists = (get-compliancecase -identity "$casename" -erroraction SilentlyContinue).isvalid
-  if($caseexists -ne 'True')
-  {""
-  write-host "A case named '$casename' doesn't exist. Please specify the name of an existing case, or create a new case and then re-run the script." -foregroundColor Yellow
-  ""}
-  }While($caseexists -ne 'True')
-  ""
-  do{
-  $holdName = Read-Host "Enter the name of the new hold"
-  $holdexists=(get-caseholdpolicy -identity "$holdname" -case "$casename" -erroraction SilentlyContinue).isvalid
-  if($holdexists -eq 'True')
-  {""
-  write-host "A hold named '$holdname' already exists. Please specify a new hold name." -foregroundColor Yellow
-  ""}
-  }While($holdexists -eq 'True')
-  ""
-  $holdQuery = Read-Host "Enter a search query to create a query-based hold, or press Enter to hold all content"
-  ""
-  $holdstatus = read-host "Do you want the hold enabled after it's created? (Yes/No)"
-  do{
-  ""
-  $inputfile = read-host "Enter the name of the text file that contains the email addresses of the users to add to the hold"
-  ""
-  $fileexists = test-path -path $inputfile
-  if($fileexists -ne 'True'){write-host "$inputfile doesn't exist. Please enter a valid file name." -foregroundcolor Yellow}
-  }while($fileexists -ne 'True')
-  #Import the list of addresses from the txt file.  Trim any excess spaces and make sure all addresses 
-      #in the list are unique.
-    [array]$emailAddresses = Get-Content $inputfile -ErrorAction SilentlyContinue | where {$_.trim() -ne ""}  | foreach{ $_.Trim() }
-    [int]$dupl = $emailAddresses.count
-    [array]$emailAddresses = $emailAddresses | select-object -unique
-    $dupl -= $emailAddresses.count
-  #Validate email addresses so the hold creation does not run in to an error.
-  if($emailaddresses.count -gt 0){
-  write-host ($emailAddresses).count "addresses were found in the text file. There were $dupl duplicate entries in the file." -foregroundColor Yellow
-  ""
-  Write-host "Validating the email addresses. Please wait..." -foregroundColor Yellow
-  ""
-  $finallist =@()
-  foreach($emailAddress in $emailAddresses)
-  {
-  if((get-recipient $emailaddress -erroraction SilentlyContinue).isvalid -eq 'True')
-  {$finallist += $emailaddress}
-  else {"Unable to find the user $emailaddress"
-  [array]$excludedlist += $emailaddress}
-  }
-  ""
-  #find user's OneDrive Site URL using email address
-  Write-Host "Getting the URL for each user's OneDrive for Business site." -foregroundColor Yellow
-  ""
-  $AdminUrl = "https://$mySiteDomain-admin.sharepoint.com"
-  $mySiteUrlRoot = "https://$mySiteDomain-my.sharepoint.com"
-  # Add the path of the User Profile Service to the SPO admin URL, then create a new webservice proxy to access it
-  $proxyaddr = "$AdminUrl/_vti_bin/UserProfileService.asmx?wsdl"
-  $UserProfileService= New-WebServiceProxy -Uri $proxyaddr -UseDefaultCredential False
-  $UserProfileService.Credentials = $credentials
-  # Take care of auth cookies
-  $strAuthCookie = $spCreds.GetAuthenticationCookie($AdminUrl)
-  $uri = New-Object System.Uri($AdminUrl)
-  $container = New-Object System.Net.CookieContainer
-  $container.SetCookies($uri, $strAuthCookie)
-  $UserProfileService.CookieContainer = $container
-  $urls = @()
-  foreach($emailAddress in $emailAddresses)
-  {
+   ```powershell
+   #script begin
+   " " 
+   write-host "***********************************************"
+   write-host "   Security & Compliance Center   " -foregroundColor yellow -backgroundcolor darkgreen
+   write-host "   eDiscovery cases - Add users to a hold   " -foregroundColor yellow -backgroundcolor darkgreen 
+   write-host "***********************************************"
+   " " 
+   # Get user credentials &amp; Connect to Office 365 SCC, SPO
+   $credentials = Get-Credential -Message "Specify your credentials to connect to the Security & Compliance Center and SharePoint Online"
+   $s = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri "https://ps.compliance.protection.outlook.com/powershell-liveid" -Credential $credentials -Authentication Basic -AllowRedirection -SessionOption (New-PSSessionOption -SkipCACheck -SkipCNCheck -SkipRevocationCheck)
+   $a = Import-PSSession $s -AllowClobber
+       if (!$s)
+       {
+           Write-Error "Couldn't create PowerShell session."
+           return;
+       }
+   # Load the SharePoint assemblies from the SharePoint Online Management Shell
+   # To install, go to https://go.microsoft.com/fwlink/p/?LinkId=255251
+   if (!$SharePointClient -or !$SPRuntime -or !$SPUserProfile)
+   {
+       $SharePointClient = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client")
+       $SPRuntime = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client.Runtime")
+       $SPUserProfile = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client.UserProfiles")
+       if (!$SharePointClient)
+       {
+           Write-Error "The SharePoint Online Management Shell isn't installed. Please install it from: https://go.microsoft.com/fwlink/p/?LinkId=255251 and then re-run this script."
+           return;
+       }
+   }
+   if (!$spCreds)
+   {
+       $spCreds = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($credentials.UserName, $credentials.Password)
+   }
+   # Get the user's MySite domain name. We use this to create the admin URL and root URL for OneDrive for Business
+   ""
+   $mySiteDomain = Read-Host "Enter the name of your organization's MySite domain. For example, 'contoso' for 'https://contoso-my.sharepoint.com'"
+   ""
+   # Get other required information
+   do{
+   $casename = Read-Host "Enter the name of the case"
+   $caseexists = (get-compliancecase -identity "$casename" -erroraction SilentlyContinue).isvalid
+   if($caseexists -ne 'True')
+   {""
+   write-host "A case named '$casename' doesn't exist. Please specify the name of an existing case, or create a new case and then re-run the script." -foregroundColor Yellow
+   ""}
+   }While($caseexists -ne 'True')
+   ""
+   do{
+   $holdName = Read-Host "Enter the name of the new hold"
+   $holdexists=(get-caseholdpolicy -identity "$holdname" -case "$casename" -erroraction SilentlyContinue).isvalid
+   if($holdexists -eq 'True')
+   {""
+   write-host "A hold named '$holdname' already exists. Please specify a new hold name." -foregroundColor Yellow
+   ""}
+   }While($holdexists -eq 'True')
+   ""
+   $holdQuery = Read-Host "Enter a search query to create a query-based hold, or press Enter to hold all content"
+   ""
+   $holdstatus = read-host "Do you want the hold enabled after it's created? (Yes/No)"
+   do{
+   ""
+   $inputfile = read-host "Enter the name of the text file that contains the email addresses of the users to add to the hold"
+   ""
+   $fileexists = test-path -path $inputfile
+   if($fileexists -ne 'True'){write-host "$inputfile doesn't exist. Please enter a valid file name." -foregroundcolor Yellow}
+   }while($fileexists -ne 'True')
+   #Import the list of addresses from the txt file.  Trim any excess spaces and make sure all addresses 
+       #in the list are unique.
+     [array]$emailAddresses = Get-Content $inputfile -ErrorAction SilentlyContinue | where {$_.trim() -ne ""}  | foreach{ $_.Trim() }
+     [int]$dupl = $emailAddresses.count
+     [array]$emailAddresses = $emailAddresses | select-object -unique
+     $dupl -= $emailAddresses.count
+   #Validate email addresses so the hold creation does not run in to an error.
+   if($emailaddresses.count -gt 0){
+   write-host ($emailAddresses).count "addresses were found in the text file. There were $dupl duplicate entries in the file." -foregroundColor Yellow
+   ""
+   Write-host "Validating the email addresses. Please wait..." -foregroundColor Yellow
+   ""
+   $finallist =@()
+   foreach($emailAddress in $emailAddresses)
+   {
+   if((get-recipient $emailaddress -erroraction SilentlyContinue).isvalid -eq 'True')
+   {$finallist += $emailaddress}
+   else {"Unable to find the user $emailaddress"
+   [array]$excludedlist += $emailaddress}
+   }
+   ""
+   #find user's OneDrive Site URL using email address
+   Write-Host "Getting the URL for each user's OneDrive for Business site." -foregroundColor Yellow 
+   ""
+   $AdminUrl = "https://$mySiteDomain-admin.sharepoint.com"
+   $mySiteUrlRoot = "https://$mySiteDomain-my.sharepoint.com"
+   # Add the path of the User Profile Service to the SPO admin URL, then create a new webservice proxy to access it
+   $proxyaddr = "$AdminUrl/_vti_bin/UserProfileService.asmx?wsdl"
+   $UserProfileService= New-WebServiceProxy -Uri $proxyaddr -UseDefaultCredential False 
+   $UserProfileService.Credentials = $credentials
+   # Take care of auth cookies
+   $strAuthCookie = $spCreds.GetAuthenticationCookie($AdminUrl)
+   $uri = New-Object System.Uri($AdminUrl)
+   $container = New-Object System.Net.CookieContainer
+   $container.SetCookies($uri, $strAuthCookie)
+   $UserProfileService.CookieContainer = $container
+   $urls = @()
+   foreach($emailAddress in $emailAddresses)
+   {
         try{
           $prop = $UserProfileService.GetUserProfileByName("i:0#.f|membership|$emailAddress") | Where-Object { $_.Name -eq "PersonalSpace" }
           $url = $prop.values[0].value
@@ -225,75 +235,75 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
     Write-Warning "Could not locate OneDrive for $emailAddress"
     [array]$ODExluded += $emailAddress
     Continue }
-  }
-  if(($finallist.count -gt 0) -or ($urls.count -gt 0)){
-  ""
-  Write-Host "Creating the hold named $holdname. Please wait..." -foregroundColor Yellow
-  if(($holdstatus -eq "Y") -or ($holdstatus -eq  "y") -or ($holdstatus -eq "yes") -or ($holdstatus -eq "YES")){
-  New-CaseHoldPolicy -Name "$holdName" -Case "$casename" -ExchangeLocation $finallist -SharePointLocation $urls -Enabled $True | out-null
-  New-CaseHoldRule -Name "$holdName" -Policy "$holdname" -ContentMatchQuery $holdQuery | out-null
-  }
-  else{
-  New-CaseHoldPolicy -Name "$holdName" -Case "$casename" -ExchangeLocation $finallist -SharePointLocation $urls -Enabled $false | out-null
-  New-CaseHoldRule -Name "$holdName" -Policy "$holdname" -ContentMatchQuery $holdQuery -disabled $true | out-null
-  }
-  ""
-  }
-  else {"No valid locations were identified. Therefore, the hold wasn't created."}
-  #write log files (if needed)
-  $newhold=Get-CaseHoldPolicy -Identity "$holdname" -Case "$casename" -erroraction SilentlyContinue
-  $newholdrule=Get-CaseHoldRule -Identity "$holdName" -erroraction SilentlyContinue
-  if(($ODAdded.count -gt 0) -or ($ODExluded.count -gt 0) -or ($finallist.count -gt 0) -or ($excludedlist.count -gt 0) -or ($newhold.isvalid -eq 'True') -or ($newholdrule.isvalid -eq 'True'))
-  {
-  Write-Host "Generating output files..." -foregroundColor Yellow
-  if($ODAdded.count -gt 0){
-  "OneDrive Locations" | add-content .\LocationsOnHold.txt
-  "==================" | add-content .\LocationsOnHold.txt 
-  $newhold.SharePointLocation.name | add-content .\LocationsOnHold.txt}
-  if($ODExluded.count -gt 0){ 
-  "Users without OneDrive locations" | add-content .\LocationsNotOnHold.txt
-  "================================" | add-content .\LocationsNotOnHold.txt
-  $ODExluded | add-content .\LocationsNotOnHold.txt}
-  if($finallist.count -gt 0){
-  " " | add-content .\LocationsOnHold.txt
-  "Exchange Locations" | add-content .\LocationsOnHold.txt
-  "==================" | add-content .\LocationsOnHold.txt 
-  $newhold.ExchangeLocation.name | add-content .\LocationsOnHold.txt}
-  if($excludedlist.count -gt 0){
-  " "| add-content .\LocationsNotOnHold.txt
-  "Mailboxes not added to the hold" | add-content .\LocationsNotOnHold.txt
-  "===============================" | add-content .\LocationsNotOnHold.txt
-  $excludedlist | add-content .\LocationsNotOnHold.txt}
-  $FormatEnumerationLimit=-1
-  if($newhold.isvalid -eq 'True'){$newhold|fl >.\GetCaseHoldPolicy.txt}
-  if($newholdrule.isvalid -eq 'True'){$newholdrule|Fl >.\GetCaseHoldRule.txt}
-  }
-  }
-  else {"The hold wasn't created because no valid entries were found in the text file."}
-  ""
-  Write-host "Script complete!" -foregroundColor Yellow
-  ""
-  #script end
-  ```
+   }
+   if(($finallist.count -gt 0) -or ($urls.count -gt 0)){
+   ""
+   Write-Host "Creating the hold named $holdname. Please wait..." -foregroundColor Yellow
+   if(($holdstatus -eq "Y") -or ($holdstatus -eq  "y") -or ($holdstatus -eq "yes") -or ($holdstatus -eq "YES")){
+   New-CaseHoldPolicy -Name "$holdName" -Case "$casename" -ExchangeLocation $finallist -SharePointLocation $urls -Enabled $True | out-null
+   New-CaseHoldRule -Name "$holdName" -Policy "$holdname" -ContentMatchQuery $holdQuery | out-null
+   }
+   else{
+   New-CaseHoldPolicy -Name "$holdName" -Case "$casename" -ExchangeLocation $finallist -SharePointLocation $urls -Enabled $false | out-null
+   New-CaseHoldRule -Name "$holdName" -Policy "$holdname" -ContentMatchQuery $holdQuery -disabled $true | out-null
+   }
+   ""
+   }
+   else {"No valid locations were identified. Therefore, the hold wasn't created."}
+   #write log files (if needed)
+   $newhold=Get-CaseHoldPolicy -Identity "$holdname" -Case "$casename" -erroraction SilentlyContinue
+   $newholdrule=Get-CaseHoldRule -Identity "$holdName" -erroraction SilentlyContinue
+   if(($ODAdded.count -gt 0) -or ($ODExluded.count -gt 0) -or ($finallist.count -gt 0) -or ($excludedlist.count -gt 0) -or ($newhold.isvalid -eq 'True') -or ($newholdrule.isvalid -eq 'True'))
+   {
+   Write-Host "Generating output files..." -foregroundColor Yellow
+   if($ODAdded.count -gt 0){
+   "OneDrive Locations" | add-content .\LocationsOnHold.txt
+   "==================" | add-content .\LocationsOnHold.txt 
+   $newhold.SharePointLocation.name | add-content .\LocationsOnHold.txt}
+   if($ODExluded.count -gt 0){ 
+   "Users without OneDrive locations" | add-content .\LocationsNotOnHold.txt
+   "================================" | add-content .\LocationsNotOnHold.txt
+   $ODExluded | add-content .\LocationsNotOnHold.txt}
+   if($finallist.count -gt 0){
+   " " | add-content .\LocationsOnHold.txt
+   "Exchange Locations" | add-content .\LocationsOnHold.txt
+   "==================" | add-content .\LocationsOnHold.txt 
+   $newhold.ExchangeLocation.name | add-content .\LocationsOnHold.txt}
+   if($excludedlist.count -gt 0){
+   " "| add-content .\LocationsNotOnHold.txt
+   "Mailboxes not added to the hold" | add-content .\LocationsNotOnHold.txt
+   "===============================" | add-content .\LocationsNotOnHold.txt
+   $excludedlist | add-content .\LocationsNotOnHold.txt}
+   $FormatEnumerationLimit=-1
+   if($newhold.isvalid -eq 'True'){$newhold|fl >.\GetCaseHoldPolicy.txt}
+   if($newholdrule.isvalid -eq 'True'){$newholdrule|Fl >.\GetCaseHoldRule.txt}
+   }
+   }
+   else {"The hold wasn't created because no valid entries were found in the text file."}
+   ""
+   Write-host "Script complete!" -foregroundColor Yellow
+   ""
+   #script end
+   ```
 
-2. <span data-ttu-id="b08da-165">No computador local, abra o Windows PowerShell e vá para a pasta onde você salvou o script.</span><span class="sxs-lookup"><span data-stu-id="b08da-165">On your local computer, open Windows PowerShell and go to the folder where you saved the script.</span></span>
+2. <span data-ttu-id="fa008-168">No computador local, abra o Windows PowerShell e vá para a pasta onde você salvou o script.</span><span class="sxs-lookup"><span data-stu-id="fa008-168">On your local computer, open Windows PowerShell and go to the folder where you saved the script.</span></span>
 
-3. <span data-ttu-id="b08da-166">Executar o script; por exemplo:</span><span class="sxs-lookup"><span data-stu-id="b08da-166">Run the script; for example:</span></span>
+3. <span data-ttu-id="fa008-169">Executar o script; por exemplo:</span><span class="sxs-lookup"><span data-stu-id="fa008-169">Run the script; for example:</span></span>
 
-      ```powershell
-    .\AddUsersToHold.ps1
-      ```
+   ```powershell
+   .\AddUsersToHold.ps1
+   ```
 
-4. <span data-ttu-id="b08da-167">Insira as informações que o script solicitará para você.</span><span class="sxs-lookup"><span data-stu-id="b08da-167">Enter the information that the script prompts you for.</span></span>
+4. <span data-ttu-id="fa008-170">Insira as informações que o script solicitará para você.</span><span class="sxs-lookup"><span data-stu-id="fa008-170">Enter the information that the script prompts you for.</span></span>
 
-   <span data-ttu-id="b08da-168">O script se conecta ao PowerShell do centro de conformidade & segurança e, em seguida, cria o novo bloqueio no caso de descoberta eletrônica e adiciona as caixas de correio e o OneDrive for Business para os usuários na lista.</span><span class="sxs-lookup"><span data-stu-id="b08da-168">The script connects to Security & Compliance Center PowerShell, and then creates the new hold in the eDiscovery case and adds the mailboxes and OneDrive for Business for the users in the list.</span></span> <span data-ttu-id="b08da-169">Você pode ir para o caso na página **descoberta eletrônica** no centro de conformidade de & de segurança para exibir o novo bloqueio.</span><span class="sxs-lookup"><span data-stu-id="b08da-169">You can go to the case on the **eDiscovery** page in the Security & Compliance Center to view the new hold.</span></span> 
+   <span data-ttu-id="fa008-171">O script se conecta ao PowerShell do centro de conformidade & segurança e, em seguida, cria o novo bloqueio no caso de descoberta eletrônica e adiciona as caixas de correio e o OneDrive for Business para os usuários na lista.</span><span class="sxs-lookup"><span data-stu-id="fa008-171">The script connects to Security & Compliance Center PowerShell, and then creates the new hold in the eDiscovery case and adds the mailboxes and OneDrive for Business for the users in the list.</span></span> <span data-ttu-id="fa008-172">Você pode ir para o caso na página **descoberta eletrônica** no centro de conformidade de & de segurança para exibir o novo bloqueio.</span><span class="sxs-lookup"><span data-stu-id="fa008-172">You can go to the case on the **eDiscovery** page in the Security & Compliance Center to view the new hold.</span></span> 
 
-<span data-ttu-id="b08da-170">Após a conclusão da execução do script, ele cria os seguintes arquivos de log e os salva na pasta em que o script está localizado.</span><span class="sxs-lookup"><span data-stu-id="b08da-170">After the script is finished running, it creates the following log files, and saves them to the folder where the script is located.</span></span>
+<span data-ttu-id="fa008-173">Após a conclusão da execução do script, ele cria os seguintes arquivos de log e os salva na pasta em que o script está localizado.</span><span class="sxs-lookup"><span data-stu-id="fa008-173">After the script is finished running, it creates the following log files, and saves them to the folder where the script is located.</span></span>
   
-- <span data-ttu-id="b08da-171">**LocationsOnHold.txt:** Contém uma lista de caixas de correio e sites do OneDrive for Business que o script colocou com êxito em espera.</span><span class="sxs-lookup"><span data-stu-id="b08da-171">**LocationsOnHold.txt:** Contains a list of mailboxes and OneDrive for Business sites that the script successfully placed on hold.</span></span>
+- <span data-ttu-id="fa008-174">**LocationsOnHold.txt:** Contém uma lista de caixas de correio e sites do OneDrive for Business que o script colocou com êxito em espera.</span><span class="sxs-lookup"><span data-stu-id="fa008-174">**LocationsOnHold.txt:** Contains a list of mailboxes and OneDrive for Business sites that the script successfully placed on hold.</span></span>
 
-- <span data-ttu-id="b08da-172">**LocationsNotOnHold.txt:** Contém uma lista de caixas de correio e sites do OneDrive for Business que o script não localizou em espera.</span><span class="sxs-lookup"><span data-stu-id="b08da-172">**LocationsNotOnHold.txt:** Contains a list of mailboxes and OneDrive for Business sites that the script did not place on hold.</span></span> <span data-ttu-id="b08da-173">Se um usuário tiver uma caixa de correio, mas não um site do OneDrive for Business, o usuário será incluído na lista de sites do OneDrive for Business que não foram colocados em espera.</span><span class="sxs-lookup"><span data-stu-id="b08da-173">If a user has a mailbox, but not a OneDrive for Business site, the user would be included in the list of OneDrive for Business sites that weren't placed on hold.</span></span>
+- <span data-ttu-id="fa008-175">**LocationsNotOnHold.txt:** Contém uma lista de caixas de correio e sites do OneDrive for Business que o script não localizou em espera.</span><span class="sxs-lookup"><span data-stu-id="fa008-175">**LocationsNotOnHold.txt:** Contains a list of mailboxes and OneDrive for Business sites that the script did not place on hold.</span></span> <span data-ttu-id="fa008-176">Se um usuário tiver uma caixa de correio, mas não um site do OneDrive for Business, o usuário será incluído na lista de sites do OneDrive for Business que não foram colocados em espera.</span><span class="sxs-lookup"><span data-stu-id="fa008-176">If a user has a mailbox, but not a OneDrive for Business site, the user would be included in the list of OneDrive for Business sites that weren't placed on hold.</span></span>
 
-- <span data-ttu-id="b08da-174">**GetCaseHoldPolicy.txt:** Contém a saída do cmdlet **Get-CaseHoldPolicy** para a nova isenção, que o script executou após a criação da nova isenção.</span><span class="sxs-lookup"><span data-stu-id="b08da-174">**GetCaseHoldPolicy.txt:** Contains the output of the **Get-CaseHoldPolicy** cmdlet for the new hold, which the script ran after creating the new hold.</span></span> <span data-ttu-id="b08da-175">As informações retornadas por este cmdlet incluem uma lista de usuários cujas caixas de correio e sites do OneDrive for Business foram colocados em espera e se a retenção está habilitada ou desabilitada.</span><span class="sxs-lookup"><span data-stu-id="b08da-175">The information returned by this cmdlet includes a list of users whose mailboxes and OneDrive for Business sites were placed on hold and whether the hold is enabled or disabled.</span></span> 
+- <span data-ttu-id="fa008-177">**GetCaseHoldPolicy.txt:** Contém a saída do cmdlet **Get-CaseHoldPolicy** para a nova isenção, que o script executou após a criação da nova isenção.</span><span class="sxs-lookup"><span data-stu-id="fa008-177">**GetCaseHoldPolicy.txt:** Contains the output of the **Get-CaseHoldPolicy** cmdlet for the new hold, which the script ran after creating the new hold.</span></span> <span data-ttu-id="fa008-178">As informações retornadas por este cmdlet incluem uma lista de usuários cujas caixas de correio e sites do OneDrive for Business foram colocados em espera e se a retenção está habilitada ou desabilitada.</span><span class="sxs-lookup"><span data-stu-id="fa008-178">The information returned by this cmdlet includes a list of users whose mailboxes and OneDrive for Business sites were placed on hold and whether the hold is enabled or disabled.</span></span> 
 
-- <span data-ttu-id="b08da-176">**GetCaseHoldRule.txt:** Contém a saída do cmdlet **Get-CaseHoldRule** para a nova isenção, que o script executou após a criação da nova isenção.</span><span class="sxs-lookup"><span data-stu-id="b08da-176">**GetCaseHoldRule.txt:** Contains the output of the **Get-CaseHoldRule** cmdlet for the new hold, which the script ran after creating the new hold.</span></span> <span data-ttu-id="b08da-177">As informações retornadas por esse cmdlet incluirão a consulta de pesquisa se você tiver usado o script para criar uma retenção baseada em consulta.</span><span class="sxs-lookup"><span data-stu-id="b08da-177">The information returned by this cmdlet includes the search query if you used the script to create a query-based hold.</span></span>
+- <span data-ttu-id="fa008-179">**GetCaseHoldRule.txt:** Contém a saída do cmdlet **Get-CaseHoldRule** para a nova isenção, que o script executou após a criação da nova isenção.</span><span class="sxs-lookup"><span data-stu-id="fa008-179">**GetCaseHoldRule.txt:** Contains the output of the **Get-CaseHoldRule** cmdlet for the new hold, which the script ran after creating the new hold.</span></span> <span data-ttu-id="fa008-180">As informações retornadas por esse cmdlet incluirão a consulta de pesquisa se você tiver usado o script para criar uma retenção baseada em consulta.</span><span class="sxs-lookup"><span data-stu-id="fa008-180">The information returned by this cmdlet includes the search query if you used the script to create a query-based hold.</span></span>
