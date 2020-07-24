@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
-ms.openlocfilehash: c129ca73da516a5b4c420136abf0b5068e19e195
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: 60b53e21978867321f6fe824da35db683dc76663
+ms.sourcegitcommit: a53af7a228bb1f58cb8128a69a19da49f9e28700
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204858"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45372556"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
@@ -357,7 +357,7 @@ Quando um veredito de filtragem de spam coloca uma mensagem em quarentena, é po
      > [!NOTE]
      > Se perdermos uma notificação durante um ciclo anterior, um ciclo subsequente gerará a notificação. Isso pode dar a impressão da ocorrência de várias notificações dentro do mesmo dia.
 
-   - **Idioma da notificação**: clique no menu suspenso selecionar um idioma disponível na lista. O valor padrão é **Padrão**, o que significa o idioma padrão da organização baseada na nuvem.
+   - **Idioma da notificação**: clique no menu suspenso selecionar um idioma disponível na lista. O valor padrão é **Padrão**, o que significa inglês.
 
    Quando concluir, clique em **Salvar**.
 
