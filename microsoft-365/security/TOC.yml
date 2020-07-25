@@ -311,6 +311,8 @@
                       href: ./office-365-security/use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
                     - name: Enviar malware e não malware à Microsoft
                       href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
+                - name: Predefinir políticas de segurança
+                  href: ./office-365-security/preset-security-policies.md
                 - name: Cabeçalhos de mensagem antispam
                   href: ./office-365-security/anti-spam-message-headers.md
                 - name: Como políticas e proteções são combinadas
