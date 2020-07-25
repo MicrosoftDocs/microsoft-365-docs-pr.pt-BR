@@ -1,5 +1,5 @@
 ---
-title: Serviço de processador de dados para Solicitações de Titulares de Dados do Windows para RGPD e CCPA
+title: Serviço de processador de dados das solicitações de assunto de dados do Windows Enterprise para o GDPR e o CCPA
 description: Saiba como usar produtos, serviços e ferramentas de administração da Microsoft para encontrar e tomar medidas em relação a dados pessoais para responder às DSRs.
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
 localization_priority: Priority
@@ -15,17 +15,17 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: 525b8b0783886a7449be72c89a2aa624afda9929
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: bc88f8911f44c9c7b8aad8fbecbbeb073fdcb9ba
+ms.sourcegitcommit: 209a9963719f1ca85ca2075c02721e1a318a7a13
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023582"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45374797"
 ---
-# <a name="data-processor-service-for-windows-data-subject-requests-for-the-gdpr-and-ccpa"></a>Serviço de processador de dados para Solicitações de Titulares de Dados do Windows para RGPD e CCPA 
+# <a name="data-processor-service-for-windows-enterprise-data-subject-requests-for-the-gdpr-and-ccpa"></a>Serviço de processador de dados das solicitações de assunto de dados do Windows Enterprise para o GDPR e o CCPA 
 
 >[!NOTE]
->Este tópico se destina aos participantes do programa de pré-visualização do serviço de processamento de dados para Windows e requer a aceitação de termos de uso específicos. Para saber mais sobre o programa e concordar com os termos de uso, acesse [https://aka.ms/dpswpublicpreview](https://aka.ms/dpswpublicpreview).
+>Este tópico se destina aos participantes do serviço de processador de dados do programa de visualização prévia do Windows Enterprise e requer a aceitação dos termos de uso específicos. Para saber mais sobre o programa e concordar com os termos de uso, acesse [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview).
 
 ## <a name="introduction-to-data-subject-requests-dsrs"></a>Introdução às DSRs (Solicitações de Titulares de Dados) 
 O RGPD (Regulamento Geral sobre a Proteção de Dados) da União Europeia concede o direito às pessoas (reconhecidas na regulamentação como _titulares de dados_) de gerenciar os dados pessoais coletados por um empregador ou outro tipo de agência ou organização (conhecidos como _controladores de dados_ ou apenas _controladores_). Os dados pessoais são definidos em linhas gerais no GDPR como todos os dados relacionados a uma pessoa física identificada ou identificável. O GDPR fornece às entidades de dados direitos específicos a seus dados pessoais. Esses direitos incluem obter cópias, solicitar alterações, restringir o processamento, excluir ou receber os dados em um formato eletrônico para que eles possam ser passados para outro controlador. Uma solicitação formal feita por uma entidade de dados a um controlador para executar uma ação em seus dados pessoais é chamada neste documento de _Solicitação de Direitos da Entidade de Dados _ ou DSR. 
@@ -57,11 +57,11 @@ Veja a seguir as definições dos termos que são relevantes para este guia.
 
 ## <a name="how-to-use-this-guide"></a>Como usar este guia 
 
-Quando você usa o serviço de processador de dados para dispositivos do Windows registrados, o Windows gera algumas informações, conhecidas como Dados de Diagnóstico do Windows, para fornecer o serviço.
+Quando você usa o serviço de processador de dados dos dispositivos inscritos no Windows Enterprise, o Windows gera algumas informações conhecidas como Windows Diagnostic Data para fornecer o serviço.
 
 ## <a name="windows-diagnostic-data"></a>Dados de Diagnóstico do Windows 
 
-A Microsoft oferece a você a capacidade de acessar, excluir e exportar Dados de Diagnóstico do Windows associados a um usuário usar o serviço de processador de dados para Windows.
+A Microsoft lhe fornece a capacidade de acessar, excluir e exportar dados de diagnóstico do Windows associados ao uso pelo usuário do serviço de processador de dados do Windows Enterprise.
 
 >[!IMPORTANT]
 >Não há suporte para a capacidade de corrigir Dados de Diagnóstico do Windows. Os Dados de Diagnóstico do Windows formam concretas ações conduzidas no Windows, e as modificações a esses dados comprometeriam o registro histórico das ações, aumentando os riscos de segurança e danificando a confiabilidade. Todos os dados abordados neste documento são considerados Dados de Diagnóstico do Windows. 
@@ -72,7 +72,7 @@ A Microsoft oferece a capacidade de acessar, excluir e exportar alguns dados de 
 
 ### <a name="step-1-access"></a>Etapa 1: Acessar 
 
-O administrador de locatários é a única pessoa da sua organização que pode acessar os Dados de Diagnóstico do Windows associados a um determinado usuário o uso de um serviço de processador de dados para dispositivo do Windows registrado. Os dados recuperados de uma solicitação de acesso serão fornecidos, por meio de exportação, em um formato legível por computador e serão fornecidos em arquivos que permitem ao usuário saber quais dispositivos e serviços os dados serão associados. Conforme observado acima, os dados recuperados não incluirão dados que possam comprometer a segurança ou estabilidade do dispositivo Windows. 
+O administrador do locatário é a única pessoa dentro da sua organização que pode acessar os Dados de diagnóstico do Windows associados ao uso por um determinado usuário de um serviço de processador de dados de um dispositivo Windows Enterprise registrado. Os dados recuperados de uma solicitação de acesso serão fornecidos, por meio de exportação, em um formato legível por computador e serão fornecidos em arquivos que permitem ao usuário saber quais dispositivos e serviços os dados serão associados. Conforme observado acima, os dados recuperados não incluirão dados que possam comprometer a segurança ou estabilidade do dispositivo Windows. 
 
 A Microsoft oferece uma experiência de portal, fornecendo ao administrador de locatário do cliente empresarial a capacidade de gerenciar solicitações de acesso DSR. [Azure DSR, Parte 2, Etapa 3: Exportar](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), descreve como executar uma solicitação de acesso DSR por meio de exportação, por meio do portal do Azure.
 
@@ -91,7 +91,7 @@ A Microsoft oferece a capacidade de excluir usuários, o que, por sua vez, exclu
 
 ### <a name="step-3-export"></a>Etapa 3: Exportação 
 
-O administrador de locatários é a única pessoa da sua organização que pode acessar os dados de diagnóstico do Windows associados a um determinado usuário o uso de um serviço de processador de dados para dispositivo do Windows registrado. Os dados recuperados de uma solicitação de exportação serão fornecidos em um formato legível por computador e serão fornecidos em arquivos que permitem ao usuário saber para quais dispositivos e serviços os dados serão associados. Conforme observado acima, os dados recuperados não incluirão dados que possam comprometer a segurança ou estabilidade do dispositivo Windows. [Azure DSR, Parte 2, Etapa 3: Exportar](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), descreve como executar uma solicitação de exportação de DSR por meio do portal do Azure. 
+O administrador do locatário é a única pessoa dentro da sua organização que pode acessar os dados de diagnóstico do Windows associados ao uso por um determinado usuário de um serviço de processador de dados de um dispositivo Windows Enterprise registrado. Os dados recuperados de uma solicitação de exportação serão fornecidos em um formato legível por computador e serão fornecidos em arquivos que permitem ao usuário saber para quais dispositivos e serviços os dados serão associados. Conforme observado acima, os dados recuperados não incluirão dados que possam comprometer a segurança ou estabilidade do dispositivo Windows. [Azure DSR, Parte 2, Etapa 3: Exportar](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), descreve como executar uma solicitação de exportação de DSR por meio do portal do Azure. 
 
 A Microsoft oferece a capacidade de exportar Dados de Clientes diretamente por meio de uma interface de programação de aplicativos (API) pré-existente. Os detalhes são descritos na [documentação de referência da API](https://docs.microsoft.com/graph/api/user-exportpersonaldata?view=graph-rest-1.0).
 

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este cenário de solução ilustra como gerenciar o ciclo de vida dos documentos relacionados a produtos armazenados no SharePoint Online usando rótulos de retenção. Isso é feito por meio do uso de metadados de documentos para classificar o conteúdo e especificamente aplicando automaticamente rótulos de retenção e configurando a retenção baseada em eventos.
-ms.openlocfilehash: a2e7a3887f9402cecb70ec60d4ff4e47f6a55ee9
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 98e8b7fbe7a62af25797f813e2cefe1be2c39840
+ms.sourcegitcommit: 4789b261eb029d7c965421a1260acc110e6385db
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199844"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45387448"
 ---
 # <a name="manage-the-lifecycle-of-sharepoint-documents-with-retention-labels"></a>Gerencie o ciclo de vida dos documentos do SharePoint com rótulos de retenção
 
@@ -124,10 +124,10 @@ A captura de tela a seguir mostra as configurações quando você cria o[rótulo
 1. Na lista suspensa **Reter ou excluir o conteúdo com base em**, selecione **um evento**.
 
 2. Selecione **Escolher um tipo de evento**.
+    
+    ![Criar um novo tipo de evento para rótulo de Especificação do Produto](../media/SPRetention6.png)
 
-   ![Criar um novo tipo de evento para rótulo de Especificação do Produto](../media/SPRetention6.png)
-
-3. Na página **Escolher um tipo de evento**, selecione **Você pode criar novos tipos de evento aqui**.
+3. Selecione **Escolher um tipo de evento** e. na página **Escolher um tipo de evento**, selecione **Criar novos tipos de eventos**.
 
 4. Crie um tipo de evento denominado **Cessação do Produto**, dê uma descrição e selecione **Concluir** para criá-lo. 
 
@@ -252,7 +252,7 @@ Agora que verificamos se a consulta KQL está funcionando corretamente, vamos cr
 
 ### <a name="verifying-the-retention-label-was-automatically-applied"></a>Verificar se o rótulo de retenção foi aplicado automaticamente 
 
-Após sete dias, use o [Explorador de atividades de rótulo](view-label-activity-for-documents.md) no centro de conformidade para ver se a política de rótulos que criamos aplicou automaticamente os rótulos de retenção nesse cenário aos documentos do produto. 
+Depois de sete dias, use o [explorador de atividades](data-classification-activity-explorer.md) no centro de conformidade para garantir que a política de rótulos que criamos tenha aplicado automaticamente os rótulos de retenção neste cenário aos documentos do produto. 
 
 Outra etapa de verificação é examinar as propriedades do documento na Biblioteca de Documentos. No painel de informações, você pode ver que o rótulo de retenção é aplicado a um documento selecionado.
 

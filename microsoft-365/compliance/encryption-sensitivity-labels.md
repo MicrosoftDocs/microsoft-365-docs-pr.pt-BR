@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f67ca4f9c57730d2e9b95f6060d6c302728f7dc
-ms.sourcegitcommit: fe20f5ed07f38786c63df0f73659ca472e69e478
+ms.openlocfilehash: ae9131b4cd70cfca4cc32116a651bf4642ed94f1
+ms.sourcegitcommit: c4a7b227f7d9abd666dfb93e3ded78ba8288e649
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201428"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229431"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia 
 
@@ -210,7 +210,8 @@ Para saber mais, confira [Emissor do Gerenciamento de Direitos e Proprietário d
 
 ### <a name="double-key-encryption"></a>Criptografia de Chave Dupla
 
-Este recurso está atualmente no modo de visualização pública.
+> [!NOTE]
+> Atualmente, esse recurso está sendo implementado na visualização pública.. Para obter mais informações, consulte [Anunciando a visualização pública da criptografia de duas teclas do Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-public-preview-of-double-key-encryption-for-microsoft/ba-p/1534451).
 
 Selecione essa opção somente depois de configurar o serviço de Criptografia de Chave Dupla, e você precisar usar esta criptografia de chave dupla para os documentos e emails que serão aplicados a esse rótulo.
 
@@ -369,9 +370,9 @@ Criptografar seus documentos e emails mais confidenciais ajuda a garantir que so
 
 - Se sua organização ainda não [habilitou rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md):
     
-    - Pesquisa, Descoberta Eletrônica e Delve não funcionarão em arquivos criptografados. 
+    - Pesquisa, Descoberta Eletrônica e Delve não funcionarão em arquivos criptografados.
     - Políticas de DEL funcionam com metadados dos arquivos criptografados (incluindo informações dos rótulos de retenção), mas não com o conteúdo desses arquivos (como números de cartão de crédito em arquivos).
-    - Os usuários não podem abrir arquivos criptografados usando o Office na Web. Quando os rótulos de confidencialidade dos arquivos do Office no SharePoint e no OneDrive estiverem habilitados, os usuários poderão usar o Office na Web para abrir arquivos criptografados, com algumas [limitações](sensitivity-labels-sharepoint-onedrive-files.md#limitations) que incluem a criptografia que foi aplicada com uma chave local (conhecida como “mantenha sua própria chave”, ou HYOK) e criptografia aplicada de forma independente a um rótulo de confidencialidade.
+    - Os usuários não podem abrir arquivos criptografados usando o Office na Web. Quando os rótulos de sensibilidade dos arquivos do Office no SharePoint e do OneDrive estiverem ativados, os usuários podem usar o Office na Web para abrir arquivos criptografados, com algumas [limitações](sensitivity-labels-sharepoint-onedrive-files.md#limitations) que incluem criptografia aplicada com uma chave local (conhecida como "mantenha sua própria chave" ou HYOK), [criptografia de chave dupla](#double-key-encryption), e criptografia aplicada independentemente de um rótulo de sensibilidade.
 
 - Para que vários usuários editem um arquivos criptografado ao mesmo tempo, todos devem estar usando o Office para a Web. Se esse não for o caso e o arquivo já estiver aberto:
     

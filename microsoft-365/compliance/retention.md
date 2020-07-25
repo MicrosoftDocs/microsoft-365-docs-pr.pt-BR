@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 35a8a7a00c8374dd938a3c05e3ffe0c3c85fd347
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: b435d80a6f2ce4f056e446bbc32e5580d063d4a9
+ms.sourcegitcommit: a53af7a228bb1f58cb8128a69a19da49f9e28700
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199602"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45372474"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -164,7 +164,7 @@ Com os rótulos de retenção, você pode:
 
 - **Aplique um rótulo de retenção padrão a uma biblioteca de documentos** no SharePoint, de modo que todos os documentos que são armazenados naquele local herdem o rótulo de retenção padrão.
 
-Além disso, os rótulos de retenção são compatíveis com o [gerenciamento de registros](records-management.md) de emails e documentos em todos os aplicativos e serviços da Microsoft 365. Você pode usar um rótulo de retenção para classificar o conteúdo como um registro. Quando isso acontece e o conteúdo permanece no Microsoft 365, o rótulo não pode ser alterado nem removido, e o conteúdo não pode ser editado nem excluído. 
+Além disso, os rótulos de retenção são compatíveis com o [gerenciamento de registros](records-management.md) de emails e documentos em todos os aplicativos e serviços da Microsoft 365. Você pode usar um rótulo de retenção para classificar o conteúdo como um registro. Quando isso acontece e o conteúdo permanece no Microsoft 365, o rótulo impõe restrições adicionais ao conteúdo que pode ser necessário por motivos regulatórios. Para obter mais informações, incluindo uma comparação das ações permitidas ou bloqueadas, consulte [Aprenda sobre os registros](records.md).
 
 Os rótulos de retenção, diferentemente dos [rótulos de sensibilidade](sensitivity-labels.md), não persistirão se o conteúdo for transferido fora do Microsoft 365.
 
