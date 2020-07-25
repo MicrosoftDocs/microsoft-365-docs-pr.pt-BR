@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: Normalmente parte de uma solução de gerenciamento de registros, em que você pode configurar um rótulo de retenção para iniciar o período de retenção com base em um evento identificado.
-ms.openlocfilehash: 5a04e97b341c66a78010e7255554be72aa073593
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: a3760feafa5307c8c71e83dcc72b988258b94a2a
+ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199725"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391503"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>Iniciar a retenção quando um evento ocorrer
 
@@ -64,18 +64,18 @@ Para usar a retenção controlada por eventos com êxito, é importante compreen
     
 2. Os usuários (normalmente gerenciadores de registros) aplicam esses rótulos de retenção ao conteúdo e (para documentos do SharePoint e OneDrive) inserem uma ID de ativo para cada item. Nesse exemplo, a ID do ativo é um nome ou código de produto usado pela organização. Assim, os registros de cada produto recebem um rótulo de retenção e cada registro tem uma propriedade que contém uma ID de ativo. O diagrama representa **todo o conteúdo** de todos os registros de produtos em uma organização e cada item tem a ID do ativo do produto cujo registro ele pertence. 
     
-3. Tempo de vida do produto é o tipo de evento; um produto específico que chega ao fim da vida útil é um evento. Quando ocorre um evento desse tipo, neste caso, quando um produto atinge o final da vida útil, você cria um evento que especifica:
+3. A Vida Útil do Produto é o tipo de evento; um produto específico chegando ao fim de sua vida útil é um evento. Quando ocorre um evento desse tipo — nesse caso, quando um produto chega ao final de sua vida útil —, você cria um evento que especifica o seguinte:
     
-  - Uma ID de ativo (para documentos do SharePoint e do OneDrive)
+   - Uma ID de ativo (para documentos do SharePoint e do OneDrive)
     
-  - Palavras-chave (para itens do Exchange). Neste exemplo, a organização usa um código de produto em mensagens que contêm registros de produto, assim, a palavra-chave para itens do Exchange é igual à ID de ativos de documentos do SharePoint e do OneDrive.
+   - Palavras-chave (para itens do Exchange). Neste exemplo, a organização usa um código de produto em mensagens que contêm registros de produto, assim, a palavra-chave para itens do Exchange é igual à ID de ativos de documentos do SharePoint e do OneDrive.
     
-  - A data de ocorrência do evento. Essa data é utilizada como o início do período de retenção. Essa data pode ser a atual, do passado ou futura.
-    
-4. Depois de criar um evento, a data dele é sincronizada com todo o conteúdo que tem um rótulo desse tipo de evento e que contém a ID ou palavra-chave especificada do ativo. Como qualquer rótulo de retenção, essa sincronização pode levar até sete dias. No diagrama anterior, todos os itens marcados com um círculo vermelho têm o período de retenção desencadeado por esse evento. Em outras palavras, quando esse produto chega ao fim da vida útil, esse evento ativa o período de retenção dos registros desse produto.
-    
+   - A data de ocorrência do evento. Essa data é utilizada como o início do período de retenção. Essa data pode ser a atual, do passado ou futura.
+
+4. Depois de criar um evento, a data dele é sincronizada com todo o conteúdo que tem um rótulo desse tipo de evento e que contém a ID ou palavra-chave especificada do ativo. Como ocorre com qualquer rótulo de retenção, essa sincronização poderá demorar até sete dias. No diagrama anterior, todos os itens marcados com um círculo vermelho têm o período de retenção desencadeado por esse evento. Em outras palavras, quando esse produto chega ao fim da vida útil, esse evento ativa o período de retenção dos registros desse produto.
+
 É importante entender que se você não especificar uma ID de ativos ou palavras-chave para um evento, **todo o conteúdo** com um rótulo desse tipo de evento terá um período de retenção desencadeado pelo evento. Isso significa que, no diagrama anterior, todo o conteúdo começaria a ser retido. Isso pode não ser o que você pretende. 
-  
+
 Por fim, lembre-se de que cada rótulo de retenção tem suas próprias configurações de retenção. Neste exemplo, todos eles especificam dez anos, mas é possível que um evento ative rótulos de retenção onde cada rótulo tem um período de retenção diferente.
   
 ## <a name="how-to-set-up-event-driven-retention"></a>Como configurar a retenção controlada por eventos
@@ -140,7 +140,7 @@ Depois que um rótulo baseado em eventos é aplicado ao conteúdo, você pode in
     
 - IDs de funcionário que você pode usar para reter o conteúdo apenas de uma pessoa específica.
     
-A ID de Ativo é, simplesmente, mais uma propriedade do documento que está disponível no SharePoint e no OneDrive. Sua organização já pode usar outras propriedades e IDs do documento para classificar o conteúdo. Nesse caso, você também pode usar essas propriedades e valores ao criar um evento - consulte a etapa 6 a seguir. O ponto importante é que você deve usar alguma combinação de *propriedade:valor* nas propriedades do documento para associar esse item a um tipo de evento.
+A ID de Ativo é, simplesmente, mais uma propriedade do documento que está disponível no SharePoint e no OneDrive. Sua organização já pode usar outras propriedades e IDs do documento para classificar o conteúdo. Nesse caso, você também pode usar essas propriedades e valores ao criar um evento — consulte a Etapa 6 a seguir. O ponto importante é que você deve usar alguma combinação de *propriedade:valor* nas propriedades do documento para associar esse item a um tipo de evento.
   
 ![Caixa de texto para inserir uma ID de ativo](../media/6d31628e-7162-4370-a8d7-de704aafa350.png)
   
@@ -150,7 +150,7 @@ Quando uma instância específica desse tipo de evento ocorre — como, por exem
   
 ### <a name="step-6-choose-the-same-event-type-used-by-the-label-in-step-2"></a>Etapa 6: Escolher o mesmo tipo de evento usado pelo rótulo na Etapa 2
 
-Ao criar o evento, escolha o mesmo tipo de evento usado pelo rótulo de retenção na etapa 2. Por exemplo, Vida útil do produto. Somente o conteúdo com os rótulos de retenção aplicados a esse tipo de evento terá o período de retenção ativado.
+Ao criar o evento, escolha o mesmo tipo de evento usado pelo rótulo de retenção na Etapa 2 — por exemplo, a Vida Útil do Produto. Somente o conteúdo com os rótulos de retenção aplicados a esse tipo de evento terá o período de retenção ativado.
   
 ![Opção em Configurações de evento para escolher um tipo de evento](../media/11663591-5628-419e-9537-61eb8f5c741f.png)
   
@@ -190,9 +190,7 @@ Para saber mais, consulte [Dar aos usuários acesso ao Centro de Conformidade e 
   
 ## <a name="automate-events-by-using-powershell"></a>Automatizar eventos usando o PowerShell
 
-O centro de conformidade do Microsoft 365 permite que você crie eventos manualmente e não é compatível com o desencadeamento automático de um evento quando este ocorre. No entanto, você pode usar uma Rest API para desencadear os eventos automaticamente. Para obter mais informações, confira o artigo [Automatizar a retenção baseada em eventos](automate-event-driven-retention.md).
-
-Também é possível usar um script do PowerShell para automatizar a retenção com base em eventos de aplicativos de negócios. Os cmdlets do PowerShell disponíveis para retenção baseada em eventos:
+É possível usar um script do PowerShell para automatizar a retenção baseada em eventos a partir de aplicativos da sua empresa. Os cmdlets do PowerShell disponíveis para retenção baseada em eventos:
   
 - [Get-ComplianceRetentionEventType](https://go.microsoft.com/fwlink/?linkid=873002)
     
@@ -206,4 +204,257 @@ Também é possível usar um script do PowerShell para automatizar a retenção 
     
 - [New-ComplianceRetentionEvent](https://go.microsoft.com/fwlink/?linkid=873003)
     
+
+## <a name="automate-events-by-using-a-rest-api"></a>Automatizar eventos usando uma API REST
+
+É possível usar uma API REST para criar automaticamente os eventos que acionam o início do período de retenção.
+
+Uma API REST é um ponto de extremidade de manutenção que respalda conjuntos de operações (métodos) HTTP que, por seu lado, fornecem acesso para criar/recuperar/atualizar/excluir os recursos de manutenção. Para saber mais, confira o artigo [Componentes de uma solicitação/resposta API REST](https://docs.microsoft.com/rest/api/gettingstarted/#components-of-a-rest-api-requestresponse). Quando você usa uma API REST do Microsoft 365, é possível criar eventos usando os métodos POST e GET.
+
+Existem duas opções para se usar uma API REST:
+
+- O **Microsoft Power Automate ou um aplicativo semelhante** para acionar automaticamente a ocorrência de um evento.  O Microsoft Power Automate é um orquestrador utilizado para a conexão com outros sistemas, então não é necessário escrever uma solução personalizada. Para obter mais informações, consulte o [site do Power Automate](https://flow.microsoft.com/pt-BR/).
+
+- O **PowerShell ou um cliente HTTP para chamar uma API REST** e criar eventos usando o PowerShell (versão 6 ou superior), que faz parte de uma solução personalizada.
+
+Antes de usar a API REST como um administrador global, confirme o URL que deverá ser usado para chamar o evento de retenção. Para este fim, execute uma chamada de evento de retenção GET usando o URL da API REST: 
+
+```console
+https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent
+```
+
+Verifique o código de resposta. Se for 302, obtenha o URL redirecionado a partir da propriedade Localização no cabeçalho da resposta e use esse URL ao invés de `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent` nas instruções que se seguem.
+
+Os eventos que são criados automaticamente podem ser confirmados ao serem visualizados no Centro de Conformidade do Microsoft 365 > **Gerenciamento de registros** >  **Eventos**.
+
+### <a name="use-microsoft-power-automate-to-create-the-event"></a>Usar o Microsoft Power Automate para criar um evento
+
+Criar um fluxo que cria um evento usando uma API REST do Microsoft 365:
+
+![Usando o Flow para criar um evento](../media/automate-event-driven-retention-flow-1.png)
+
+![Usando um fluxo para chamar a API REST](../media/automate-event-driven-retention-flow-2.png)
+
+#### <a name="create-an-event"></a>Criar um evento
+
+Exemplo de código para chamar a API REST:
+
+- **Método**: POSTAR
+- **URL**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
+- **Cabeçalhos**: Chave = content-type, valor = application/atom+xml
+- **Corpo**:
+    
+    ```xml
+    <?xml version='1.0' encoding='utf-8' standalone='yes'?>
+    
+    <entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices'
+    
+    xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata'
+    
+    xmlns='http://www.w3.org/2005/Atom'>
+    
+    <category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' />
+    
+    <updated>9/9/2017 10:50:00 PM</updated>
+    
+    <content type='application/xml'>
+    
+    <m:properties>
+    
+    <d:Name>Employee Termination </d:Name>
+    
+    <d:EventType>99e0ae64-a4b8-40bb-82ed-645895610f56</d:EventType>
+    
+    <d:SharePointAssetIdQuery>1234</d:SharePointAssetIdQuery>
+    
+    <d:EventDateTime>2018-12-01T00:00:00Z </d:EventDateTime>
+    
+    </m:properties>
+    
+    </content>
+    
+    </entry>
+    ```
+    
+- **Autenticação**: Básica
+- **Nome de usuário**: "Complianceuser"
+- **Senha**: "Senhadeconformidade"
+
+
+##### <a name="available-parameters"></a>Parâmetros disponíveis
+
+
+|Parâmetros|Descrição|Observações|
+|--- |--- |--- |
+|<d:Name></d:Name>|Fornece um nome exclusivo para o evento,|Não pode conter espaços à direita nem os seguintes caracteres: % * \ & < \> \| # ? , : ;|
+|<d:EventType></d:EventType>|Insere o nome do tipo de evento (ou GUID).|Exemplo: “Demissão de um funcionário”. O tipo de evento precisa estar associado a um rótulo de retenção.|
+|<d:SharePointAssetIdQuery></d:SharePointAssetIdQuery>|Insere "ComplianceAssetId:" + a ID do funcionário|Example: "ComplianceAssetId:12345"|
+|<d:EventDateTime></d:EventDateTime>|Data e hora do evento|Formato: yyyy-MM-ddTHH:mm:ssZ. Exemplo: 2018-12-01T00:00:00Z
+|
+
+###### <a name="response-codes"></a>Códigos de resposta
+
+| Código da resposta | Descrição       |
+| ----------------- | --------------------- |
+| 302               | Redirecionamento              |
+| 201               | Criado em               |
+| 403               | Falha na autorização  |
+| 401               | Falha na autenticação |
+
+##### <a name="get-events-based-on-a-time-range"></a>Obter eventos com base em um intervalo de tempo
+
+- **Método**: GET
+
+- **URL**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent?BeginDateTime=2019-01-11&EndDateTime=2019-01-16`
+
+- **Cabeçalhos**: Chave = content-type, valor = application/atom+xml
+
+- **Autenticação**: Básica
+
+- **Nome de usuário**: "Complianceuser"
+
+- **Senha**: "Senhadeconformidade"
+
+
+###### <a name="response-codes"></a>Códigos de resposta
+
+| Código da resposta | Descrição                   |
+| ----------------- | --------------------------------- |
+| 200               | OK. Uma lista de eventos em atom+xml |
+| 404               | Não encontrado                         |
+| 302               | Redirecionamento                          |
+| 401               | Falha na autorização              |
+| 403               | Falha na autenticação             |
+
+##### <a name="get-an-event-by-id"></a>Obter um evento por ID
+
+- **Método**: GET
+
+- **URL**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent('174e9a86-74ff-4450-8666-7c11f7730f66')`
+
+- **Cabeçalhos**: Chave = content-type, valor = application/atom+xml
+
+- **Autenticação**: Básica
+
+- **Nome de usuário**: "Complianceuser"
+
+- **Senha**: "Senhadeconformidade"
+
+###### <a name="response-codes"></a>Códigos de resposta
+
+| Código da resposta | Descrição                                      |
+| ----------------- | ---------------------------------------------------- |
+| 200               | OK. O corpo da resposta contém o evento em atom+xml. |
+| 404               | Não encontrado                                            |
+| 302               | Redirecionamento                                             |
+| 401               | Falha na autorização                                 |
+| 403               | Falha na autenticação                                |
+
+##### <a name="get-an-event-by-name"></a>Obter um evento por nome
+
+- **Método**: GET
+
+- **URL**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
+
+- **Cabeçalhos**: Chave = content-type, valor = application/atom+xml
+
+- **Autenticação**: Básica
+
+- **Nome de usuário**: "Complianceuser"
+
+- **Senha**: "Senhadeconformidade"
+
+
+###### <a name="response-codes"></a>Códigos de resposta
+
+| Código da resposta | Descrição                                      |
+| ----------------- | ---------------------------------------------------- |
+| 200               | OK. O corpo da resposta contém o evento em atom+xml. |
+| 404               | Não encontrado                                            |
+| 302               | Redirecionamento                                             |
+| 401               | Falha na autorização                                 |
+| 403               | Falha na autenticação                                |
+
+### <a name="use-powershell-or-any-http-client-to-create-the-event"></a>Usar o PowerShell ou qualquer cliente HTTP para criar o evento
+
+O PowerShell precisa estar na versão 6 ou superior.
+
+Em uma sessão do PowerShell, execute o seguinte comando:
+
+```powershell
+param([string]$baseUri)
+
+$userName = "UserName"
+
+$password = "Password"
+
+$securePassword = ConvertTo-SecureString $password -AsPlainText -Force
+
+$credentials = New-Object System.Management.Automation.PSCredential($userName, $securePassword)
+
+$EventName="EventByRESTPost-$(([Guid]::NewGuid()).ToString('N'))"
+
+Write-Host "Start to create an event with name: $EventName"
+
+$body = "<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+
+<entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices'
+
+xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata'
+
+xmlns='http://www.w3.org/2005/Atom'>
+
+<category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' />
+
+<updated>7/14/2017 2:03:36 PM</updated>
+
+<content type='application/xml'>
+
+<m:properties>
+
+<d:Name>$EventName</d:Name>
+
+<d:EventType>e823b782-9a07-4e30-8091-034fc01f9347</d:EventType>
+
+<d:SharePointAssetIdQuery>'ComplianceAssetId:123'</d:SharePointAssetIdQuery>
+
+</m:properties>
+
+</content>
+
+</entry>"
+
+$event = $null
+
+try
+
+{
+
+$event = Invoke-RestMethod -Body $body -Method 'POST' -Uri "$baseUri/ComplianceRetentionEvent" -ContentType "application/atom+xml" -Authentication Basic -Credential $credentials -MaximumRedirection 0
+
+}
+
+catch
+
+{
+
+$response = $_.Exception.Response
+
+if($response.StatusCode -eq "Redirect")
+
+{
+
+$url = $response.Headers.Location
+
+Write-Host "redirected to $url"
+
+$event = Invoke-RestMethod -Body $body -Method 'POST' -Uri $url -ContentType "application/atom+xml" -Authentication Basic -Credential $credentials -MaximumRedirection 0
+
+}
+
+}
+
+$event | fl *
+
+```
 
