@@ -54,11 +54,11 @@ Siga estas etapas para configurar um piloto do Microsoft 365:
 
 1. Na página **Domínios**, selecione **Adicionar domínio**.
 
-2. Digite o nome do domínio na caixa, selecione**Usar este domínio**, e então selecione **Continuar**.
+2. Digite o nome do domínio na caixa, selecione **Usar este domínio** e selecione **Continuar**.
 
 3. Selecione os serviços que você deseja testar com seu domínio, como email e mensagens instantâneas.
 
-5. Na página**Verificar domínio**, siga as instruções passo a passo, depois selecione **Verificar**.
+5. Na página**Verificar domínio**, siga as instruções passo a passo e selecione **Verificar**.
 
     Leva entre alguns minutos e até 72 horas para que as alterações de DNS entrem em vigor.
 
@@ -66,9 +66,9 @@ Siga estas etapas para configurar um piloto do Microsoft 365:
 
 ### <a name="step-3-mark-the-domain-as-shared-in-exchange-online"></a>Etapa 3: Marque o domínio como compartilhado no Exchange Online
 
-1. No centro de administração do Exchange, na seção **Fluxo de emails**, selecione **Domínios aceitos**e, em seguida, selecione o domínio que você deseja modificar.
+1. No centro de administração do Exchange, na seção **Fluxo de emails**, selecione **Domínios aceitos** e, em seguida, selecione o domínio que você deseja modificar.
 
-2. Clique duas vezes para abrir a janela, e então selecione **Retransmissão Interna**. 
+2. Clique duas vezes para abrir a janela e selecione **Retransmissão Interna**. 
 
 3. Selecione **Salvar**.
 
@@ -76,26 +76,26 @@ Siga estas etapas para configurar um piloto do Microsoft 365:
 
 ### <a name="step-4-unblock-the-existing-email-server-optional"></a>Etapa 4: Desbloqueie o servidor de email existente (opcional)
 
-O Microsoft 365 usa a Proteção do Exchange Online (EOP) para a proteção contra spam. EOP pode bloquear o seu servidor de email existente se detectar um alto volume de spam sendo encaminhado pelo seu servidor de email atual. Se você confia na proteção contra spam do seu outro provedor de email, poderá desbloquear o servidor no Microsoft 365.
+O Microsoft 365 usa a Proteção do Exchange Online (EOP) para a proteção contra spam. A EOP poderá bloquear o seu servidor de email existente se detectar um alto volume de spam sendo encaminhado pelo seu servidor de email atual. Se você confiar na proteção contra spam do seu outro provedor de email, poderá desbloquear o servidor no Microsoft 365.
 
 > [!NOTE]
 > Desbloquear o seu servidor de email existente permite que qualquer spam recebido pelo seu servidor original chegue nas caixas de correio do Microsoft 365. Assim, você não poderá avaliar o quão bem a Microsoft 365 evita spam.
 
 1. No painel de navegação do centro de administração do Exchange, selecione **Proteção** e, em seguida, selecione **Filtro de conexão**.
 
-2. Na **Lista de IP Permitidos**, selecione**+**, e adicione o endereço IP do servidor de email do seu provedor de email atual. 
+2. Na **Lista de IP Permitidos**, selecione**+** e adicione o endereço IP do servidor de email do seu provedor de email atual. 
 
-### <a name="step-5-create-user-accounts-and-set-the-primary-reply-to-address"></a>Etapa 5: Crie contas de usuário e definir o endereço principal para resposta 
+### <a name="step-5-create-user-accounts-and-set-the-primary-reply-to-address"></a>Etapa 5: Crie contas de usuário e defina o endereço principal para resposta 
 
 1. No Centro de administração do Microsoft 365, barra de navegação à esquerda, selecione **Usuários** > **Usuários Ativos**.
 
 2. Crie duas contas de teste adicionando dois usuários existentes.
 
-    Para cada conta, selecione **+ Adicionar um usuário**, e preencha as informações necessárias, incluindo o método de senha que você deseja testar.
+    Para cada conta, selecione **+ Adicionar um usuário** e preencha as informações necessárias, incluindo o método de senha que você deseja testar.
 
-    Para garantir que o email de um usuário permaneça o mesmo, o campo ** Nome de usuário** deve corresponder ao endereço de email atual do usuário.
+    Para garantir que o email de um usuário permaneça o mesmo, o campo **Nome de usuário** deve corresponder ao endereço de email atual do usuário.
 
-3. Escolha a licença apropriada, clique em **Avançar** e, em seguida clique em **Terminar de adicionar**. 
+3. Escolha a licença apropriada, clique em **Avançar** e clique em **Terminar de adicionar**. 
 
 4. Ao lado de **Nome de usuário**, selecione seu nome de domínio personalizado na lista suspensa. 
 
@@ -117,7 +117,7 @@ Entre no site do seu provedor de hospedagem DNS e siga as instruções em [Adici
 
 ### <a name="step-7-set-up-email-forwarding-at-your-current-provider"></a>Etapa 7: Configure o encaminhamento de email em seu provedor atual
 
-No seu provedor de email atual, configure o encaminhamento de emails das contas dos usuários para o seu domínio onmicrosoft.com:
+No seu provedor de email atual, configure o encaminhamento das contas de emails dos usuários para o seu domínio onmicrosoft.com:
 
 - Encaminhar a caixa de correio do Usuário A para usera@yourcompany.onmicrosoft.com
 
