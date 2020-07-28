@@ -169,6 +169,8 @@
       href: tls-1-2-in-office-365-gcc.md
     - name: TLS 1.2 no Office 365
       href: prepare-tls-1.2-in-office-365.md
+    - name: Criptografia de Chave Dupla da visualização pública do Microsoft 365
+      href: double-key-encryption.md
     - name: Chave de Cliente
       items:
         - name: Criptografia de serviço com Chave de Cliente no Office 365
@@ -313,14 +315,10 @@
           href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
         - name: Criar rótulos de retenção com o PowerShell
           href: bulk-create-publish-labels-using-powershell.md
-        - name: Usar retenção baseada em eventos
-          items:
-            - name: Iniciar a retenção quando um evento ocorrer
-              href: event-driven-retention.md
-            - name: Automatizar retenção baseada em eventos
-              href: automate-event-driven-retention.md
-            - name: Gerenciar o ciclo de vida dos documentos do SharePoint
-              href: auto-apply-retention-labels-scenario.md
+        - name: Iniciar a retenção quando ocorrer um evento
+          href: event-driven-retention.md
+        - name: Gerenciar o ciclo de vida dos documentos do SharePoint
+          href: auto-apply-retention-labels-scenario.md
     - name: Descarte de dados
       href: disposition.md
     - name: Gerenciar caixas de correio inativas
