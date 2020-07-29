@@ -19,12 +19,12 @@ ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como enviar e receber mensagens de email criptografadas entre pessoas dentro e fora da sua organização.
-ms.openlocfilehash: 527d7519ff9f20b4d7cf5a02cec6b0704802f8dc
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 542b540bb06998c1b90ef74485a4096ebc9ee0dc
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818726"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429927"
 ---
 # <a name="message-encryption"></a>Criptografia de mensagem
 
@@ -60,7 +60,7 @@ Para obter mais informações sobre os limites de tamanho de mensagens e anexos 
 
 O Office 365 Advanced Message Encryption permite que você crie vários modelos de identidade visual para que possa ajustar o controle sobre o email de destinatário e criar experiências de identidade visual personalizada para dar suporte a uma estrutura organizacional diferente.
 
-A criptografia avançada de mensagens no Microsoft 365 ajuda você a cumprir as obrigações de conformidade que exigem controle mais flexível sobre o acesso de um destinatário externo a emails criptografados. Com a criptografia de mensagem avançada no Office 365, como administrador, você pode controlar emails confidenciais compartilhados fora da organização com políticas automáticas que detectam tipos de informações confidenciais (por exemplo, PII, finanças ou identificações de integridade) ou palavras-chave para aumentar a proteção, expirando o acesso por meio de um portal da Web seguro a emails criptografados. Além disso, como administrador, você pode controlar ainda mais emails criptografados acessados externamente por meio de um portal da Web do Microsoft 365, revogando o acesso a um email a qualquer momento.
+A criptografia avançada de mensagens no Microsoft 365 ajuda você a cumprir as obrigações de conformidade que exigem controle mais flexível sobre o acesso de um destinatário externo a emails criptografados. Com a criptografia de mensagem avançada no Office 365, como administrador, você pode controlar emails confidenciais compartilhados fora da organização com políticas automáticas que detectam tipos de informações confidenciais (por exemplo, PII, finanças ou identificações de integridade) ou palavras-chave para aumentar a proteção, expirando o acesso por meio de um portal da Web seguro a emails criptografados. Como administrador, você pode controlar ainda mais os emails criptografados acessados por meio de um portal da Web do Microsoft 365 revogando o acesso a um email a qualquer momento.
 
 A revogação e a expiração de mensagens só funcionam para emails enviados por seus usuários para destinatários fora da organização. Além disso, os destinatários devem acessar o email através do portal da Web. Para garantir que o destinatário use o portal para receber emails, você deve configurar um modelo personalizado de identidade visual que aplica o invólucro. Em seguida, você aplica o modelo de identidade visual em uma regra de fluxo de emails. Para obter mais informações sobre a criptografia avançada de mensagens, consulte [Office 365 Advanced Message Encryption](ome-advanced-message-encryption.md).
 

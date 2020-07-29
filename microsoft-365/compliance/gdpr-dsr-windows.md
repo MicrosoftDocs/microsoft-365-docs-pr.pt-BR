@@ -1,5 +1,5 @@
 ---
-title: Serviço de processador de dados das solicitações de assunto de dados do Windows Enterprise para o GDPR e o CCPA
+title: Serviço de processador de dados das Solicitações do Titular de Dados do Windows Enterprise para o GDPR e o CCPA
 description: Saiba como usar produtos, serviços e ferramentas de administração da Microsoft para encontrar e tomar medidas em relação a dados pessoais para responder às DSRs.
 keywords: Microsoft 365, Microsoft 365 Education, documentação do Microsoft 365, RGPD
 localization_priority: Priority
@@ -22,7 +22,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 07/23/2020
 ms.locfileid: "45374797"
 ---
-# <a name="data-processor-service-for-windows-enterprise-data-subject-requests-for-the-gdpr-and-ccpa"></a>Serviço de processador de dados das solicitações de assunto de dados do Windows Enterprise para o GDPR e o CCPA 
+# <a name="data-processor-service-for-windows-enterprise-data-subject-requests-for-the-gdpr-and-ccpa"></a>Serviço de processador de dados das Solicitações do Titular de Dados do Windows Enterprise para o GDPR e o CCPA 
 
 >[!NOTE]
 >Este tópico se destina aos participantes do serviço de processador de dados do programa de visualização prévia do Windows Enterprise e requer a aceitação dos termos de uso específicos. Para saber mais sobre o programa e concordar com os termos de uso, acesse [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview).
@@ -72,7 +72,7 @@ A Microsoft oferece a capacidade de acessar, excluir e exportar alguns dados de 
 
 ### <a name="step-1-access"></a>Etapa 1: Acessar 
 
-O administrador do locatário é a única pessoa dentro da sua organização que pode acessar os Dados de diagnóstico do Windows associados ao uso por um determinado usuário de um serviço de processador de dados de um dispositivo Windows Enterprise registrado. Os dados recuperados de uma solicitação de acesso serão fornecidos, por meio de exportação, em um formato legível por computador e serão fornecidos em arquivos que permitem ao usuário saber quais dispositivos e serviços os dados serão associados. Conforme observado acima, os dados recuperados não incluirão dados que possam comprometer a segurança ou estabilidade do dispositivo Windows. 
+O administrador do locatário é a única pessoa dentro da sua organização que pode acessar os Dados de Diagnóstico do Windows associados ao uso por um determinado usuário de um serviço de processador de dados de um dispositivo Windows Enterprise registrado. Os dados recuperados de uma solicitação de acesso serão fornecidos, por meio de exportação, em um formato legível por computador e serão fornecidos em arquivos que permitem ao usuário saber quais dispositivos e serviços os dados serão associados. Conforme observado acima, os dados recuperados não incluirão dados que possam comprometer a segurança ou estabilidade do dispositivo Windows. 
 
 A Microsoft oferece uma experiência de portal, fornecendo ao administrador de locatário do cliente empresarial a capacidade de gerenciar solicitações de acesso DSR. [Azure DSR, Parte 2, Etapa 3: Exportar](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), descreve como executar uma solicitação de acesso DSR por meio de exportação, por meio do portal do Azure.
 

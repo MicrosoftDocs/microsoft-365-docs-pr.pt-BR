@@ -1,5 +1,5 @@
 ---
-title: Políticas de segurança predefinidas
+title: Predefinir políticas de segurança
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a aplicar as configurações de política padrão e estrita nos recursos de proteção do Exchange Online Protection (EOP) e no Office 365 Advanced Threat Protection (ATP)
-ms.openlocfilehash: 34445c617d2dda59a65b197db2f42324d0085ab3
-ms.sourcegitcommit: 688d62a8c52e4fb0feb721bb92b535effc278f54
+ms.openlocfilehash: dd730639aa15709bafd600d4cc2706befb143cd4
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45389864"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430394"
 ---
 # <a name="preset-security-policies-in-eop-and-office-365-atp"></a>Políticas de segurança predefinidas no EOP e no Office 365 ATP
 
@@ -88,9 +88,10 @@ Quando várias políticas são aplicadas a um usuário, a ordem a seguir é apli
 
 1. Política de segurança predefinida de **proteção estrita**
 2. Política de segurança predefinida de **proteção padrão**
-3. Qualquer outra política relacionada.
+3. Políticas de segurança personalizadas
+4. Políticas de segurança padrão
 
-Em outras palavras, as configurações da política de **proteção estrita** substituem as configurações da política de **proteção padrão** , que substitui as configurações de outras políticas relacionadas.
+Em outras palavras, as configurações da política de **proteção estrita** substituem as configurações da política de **proteção padrão** , que substitui as configurações de uma política personalizada, que substitui as configurações da política padrão.
 
 ## <a name="assign-preset-security-policies-to-users"></a>Atribuir políticas de segurança predefinidas aos usuários
 

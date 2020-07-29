@@ -1,5 +1,5 @@
 ---
-title: Trabalhar com controle de aplicativos
+title: Trabalhar com o controle de aplicativo
 description: ''
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
@@ -10,14 +10,14 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 74cd1ec93058ed733e7d79da2d6932f04acfa5da
-ms.sourcegitcommit: 63887d742c59cc660fc85537b335e98a9dc66fbe
+ms.openlocfilehash: 9efe6ba6704b0e1633973d157c38827221316bbd
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170680"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430442"
 ---
-# <a name="work-with-app-control"></a>Trabalhar com controle de aplicativos
+# <a name="work-with-app-control"></a>Trabalhar com o controle de aplicativo
 
 Depois que o controle de aplicativos é implantado em seu ambiente, você e as operações de área de trabalho gerenciada da Microsoft têm responsabilidades contínuas. Por exemplo, você pode querer adicionar um novo aplicativo no ambiente ou adicionar (ou remover) um signatário confiável. Para melhorar a segurança, todos os aplicativos devem ser assinados por código antes de você liberá-los para os usuários finais. Os detalhes do fornecedor do aplicativo incluem informações sobre o Assinante.
 
@@ -54,8 +54,8 @@ As operações implantarão progressivamente políticas em grupos de implantaç�
 |---------|---------|---------|
 |Testar     |  Auditoria       |  Dia 0       |
 |Primeiro     | Enforced        | 1º dia        |
-|Rápida     | Enforced        |  3º dia       |
-|Amplas     | Enforced        |  Day 7       |
+|Rápida     | Enforced        |  2º dia       |
+|Amplas     | Enforced        |  3º dia       |
 
 
 Você pode pausar ou reverter a implantação a qualquer momento durante a distribuição. Para fazer isso, abra outra solicitação de serviço com operações.

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,20 +15,17 @@ ms.collection:
 - Adm_TOC
 - commerce
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 description: 'Descubra quanto de impostos você será cobrado para sua assinatura do Microsoft 365 for Business em diferentes regiões. '
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: 72939c40ad340e751be30aecc6e102570ea42eb0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: de5f05b50138606cd60e8c6ab1999a7ed2090dce
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401745"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434056"
 ---
 # <a name="tax-information"></a>Informação de imposto
 
@@ -122,7 +119,7 @@ Você pode estar qualificado para ter IVA com taxa zero.
 
 3. Na seção **configurações & ações** , selecione **Editar endereço de uso do serviço**.
 
-4. Na página **Editar endereço de uso do serviço** , insira sua ID de IVA na caixa **número de IVA** e, em seguida, selecione **salvar**.
+4. Na página **Editar endereço de uso do serviço** , na caixa **número de IVA** , insira sua ID de IVA, incluindo o prefixo, e sem espaços. Selecione **Salvar**.
 
 ::: moniker-end
 
@@ -134,7 +131,7 @@ Você pode estar qualificado para ter IVA com taxa zero.
 
 2. Selecione o nome da assinatura e, em seguida, selecione **mais ações** \> **Editar número de IVA**.
   
-3. Na página **Editar endereço de uso do serviço** , insira sua ID de IVA na caixa **número de IVA** e selecione **Enviar**.
+3. Na página **Editar endereço de uso do serviço** , na caixa **número de IVA** , insira sua ID de IVA, incluindo o prefixo, e sem espaços. Selecione **Salvar**.
 
 ::: moniker-end
 
@@ -184,8 +181,7 @@ Prepare a seguinte documentação:
 | Organizações internacionais que mantêm a isenção de impostos | Confirmação de carta/certificação de autoridades fiscais locais |
 | Porto Rico | Certificado de compras exentas |
   
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
   
-[Exibir sua cobrança ou fatura](view-your-bill-or-invoice.md)
-  
-[Entenda sua conta ou fatura](understand-your-invoice.md)
+[Exibir sua fatura ou fatura](view-your-bill-or-invoice.md) (artigo) \
+[Entender sua](understand-your-invoice.md) fatura (artigo)

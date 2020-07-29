@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft 365 Compliance
-ms.openlocfilehash: 5ba6f86ca44fbddf5fb603c5312c9fedebfad225
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 009ea920854cfb88082d1c59ba78ac3531d253cf
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127308"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46502922"
 ---
 # <a name="supervision-policies"></a>Políticas de supervisão
 
@@ -286,14 +286,6 @@ Aqui está uma divisão dos valores exibidos na coluna **tipo de marca** .
 ## <a name="audit"></a>Auditoria
 
 Em alguns casos, você deve fornecer informações para auditores regulamentares ou de conformidade para provar a supervisão de atividades e comunicações de funcionários. Essas informações podem ser um resumo de todas as atividades de supervisão associadas a uma política definida ou a qualquer momento em que uma política de supervisão é alterada. As políticas de supervisão têm trilhas de auditoria internas para uma preparação completa para auditorias internas ou externas. Os históricos de auditoria detalhados de todas as ações monitoradas por suas políticas de supervisão oferecem prova de procedimentos de supervisão.
-
-As seguintes atividades de política de supervisão são auditadas e estão disponíveis nos logs de auditoria unificada:
-
-|**Atividade**|**Comandos associados**|
-|:-----|:-----|
-| **Criar uma política** | [New-SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/new-supervisoryreviewpolicyv2) <br> [New-SupervisoryReviewRule](https://docs.microsoft.com/powershell/module/exchange/new-supervisoryreviewrule) |
-| **Editar uma política** | [Set-SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/set-supervisoryreviewpolicyv2) <br> [Set-SupervisoryReviewRule](https://docs.microsoft.com/powershell/module/exchange/set-supervisoryreviewrule) |
-| **Excluir uma política** | [Remove-SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/remove-supervisoryreviewpolicyv2) |
 
 Exibir as atividades de auditoria no log de auditoria unificada ou com o cmdlet [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) do PowerShell.
 

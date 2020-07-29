@@ -1,17 +1,17 @@
 ---
 title: Conformidade
 description: Este artigo lista os padrões de conformidade relevantes para a área de trabalho gerenciada da Microsoft.
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 31844ee413f89992babd2b1917fcb89d20db6804
-ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
+ms.openlocfilehash: e2a60bba348e4f19eaa56805b509e4472c9fd215
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44322012"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434284"
 ---
 # <a name="compliance"></a>Conformidade
 
@@ -38,7 +38,7 @@ A área de trabalho gerenciada da Microsoft obteve as seguintes certificações:
 Você pode encontrar informações relevantes, incluindo o controle e os requisitos técnicos, no [portal de confiança do serviço (STP)](https://servicetrust.microsoft.com/), o repositório central para obter informações sobre as ofertas de serviços em nuvem da Microsoft. Você pode baixar relatórios de auditor, certificados de conformidade e muito mais da seção [relatórios de auditoria](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) do STP.
 
 > [!NOTE]
-> Como o Microsoft Managed desktop é executado no Azure, os documentos relevantes normalmente têm nomes de arquivo como "Microsoft Azure, Dynamics 365 e outros serviços online". Nesses documentos, normalmente você pode encontrar a área de trabalho gerenciada da Microsoft na categoria "monitoramento + gerenciamento".
+> Como o Microsoft Managed desktop é executado no Azure, os documentos relevantes normalmente têm nomes de arquivo como "Microsoft Azure, Dynamics 365 e outros serviços online". Nesses documentos, normalmente você pode encontrar a área de trabalho gerenciada da Microsoft na categoria "serviços online da Microsoft" ou "monitoramento + gerenciamento".
 
 ## <a name="shared-responsibility"></a>Responsabilidade compartilhada
 

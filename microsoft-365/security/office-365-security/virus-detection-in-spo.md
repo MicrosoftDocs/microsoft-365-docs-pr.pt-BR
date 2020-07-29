@@ -19,16 +19,16 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como o SharePoint Online detecta vírus em arquivos que os usuários carregam e impedem que os usuários baixem ou sincronizem os arquivos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 60d696769ea402e6e2d0e52a1f6633e7962b8329
-ms.sourcegitcommit: f2275d2fbc17a8b5b5da723c7353d3f36c6fb2a7
+ms.openlocfilehash: f6bfc23ca4120122ecfa44ad4d39795fed22af84
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45029603"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429915"
 ---
-# <a name="virus-detection-in-sharepoint-online"></a>Detecção de vírus no SharePoint Online
+# <a name="virus-detection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>Detecção de vírus no SharePoint Online, no OneDrive e no Microsoft Teams
 
-O Microsoft 365 pode ajudar a proteger seu ambiente contra malware, detectando vírus em arquivos que os usuários carregam no SharePoint Online. Os arquivos podem ser verificados em busca de vírus após serem carregados. Se um arquivo for infectado, uma propriedade será definida para que os usuários não possam baixar ou sincronizar o arquivo.
+O Microsoft 365 pode ajudar a proteger seu ambiente contra malware, detectando vírus em arquivos que os usuários carregam no SharePoint Online, no OneDrive e no Microsoft Teams. Os arquivos podem ser verificados em busca de vírus após serem carregados. Se um arquivo for infectado, uma propriedade será definida para que os usuários não possam baixar ou sincronizar o arquivo.
 
 > [!IMPORTANT]
 > Esses recursos de antivírus no SharePoint Online são uma maneira de conter vírus. Eles não se destinam a um único ponto de defesa contra malware para seu ambiente. Incentivamos todos os clientes a avaliar e implementar a proteção antimalware em várias camadas e aplicar as práticas recomendadas para proteger sua infraestrutura corporativa. Para obter mais informações sobre estratégias e práticas recomendadas, consulte [Security Roadmap](security-roadmap.md).
@@ -58,11 +58,18 @@ Veja o que acontece:
 2. O usuário recebe um aviso de que um vírus foi detectado. O usuário recebe a opção de baixar o arquivo e tentar limpá-lo usando seu próprio software antivírus.
 
 > [!NOTE]
+> 
 > Você pode usar o parâmetro *DisallowInfectedFileDownload* no cmdlet [set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant) no PowerShell do SharePoint Online para impedir que os usuários baixem um arquivo infectado, mesmo na janela de aviso de antivírus.
+> 
+> Além disso, tenha em mente que, assim que você habilitar o parâmetro *DisallowInfectedFileDownload* , o acesso aos arquivos detectados/bloqueados é completamente bloqueado para usuários e administradores.
 
 ## <a name="what-happens-when-the-onedrive-sync-client-tries-to-sync-an-infected-file"></a>O que acontece quando o cliente de sincronização do OneDrive tenta sincronizar um arquivo infectado?
 
 Se os usuários sincronizam arquivos com o novo cliente de sincronização do OneDrive (OneDrive.exe) ou com o cliente de sincronização anterior do OneDrive for Business (Groove.exe), se um arquivo contiver um vírus, o cliente de sincronização não o baixará. O cliente de sincronização exibirá uma notificação informando que o arquivo não pode ser sincronizado.
+
+## <a name="extended-capabilities-with-office-365-atp"></a>Recursos estendidos com o Office 365 ATP
+
+Os clientes que habilitaram o Office 365 ATP para SharePoint, OneDrive e Microsoft Teams ativam a [ATP para SharePoint, onedrive e Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md) podem usar o centro de conformidade de & de segurança para gerenciar arquivos em quarentena para detecções AV e ATP. [Somente ATP: Use o centro de conformidade de & de segurança para gerenciar arquivos em quarentena](manage-quarantined-messages-and-files.md#atp-only-use-the-security--compliance-center-to-manage-quarantined-files).
 
 ## <a name="more-information"></a>Mais informações
 

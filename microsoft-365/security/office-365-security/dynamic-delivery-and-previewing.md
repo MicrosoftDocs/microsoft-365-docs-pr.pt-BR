@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Ao configurar as políticas de anexos seguros de ATP, você escolhe a entrega dinâmica para evitar atrasos de mensagens e permite que as pessoas visualizem os anexos que estão sendo examinados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b22112617ecba191c7ee8d7daab0de3cde1bf8c3
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 7e2da24ebac5863ab7852fdf8f9c7af8d507698b
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819347"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430346"
 ---
 # <a name="dynamic-delivery-and-previewing-with-atp-safe-attachments"></a>Entrega dinâmica e visualização com anexos seguros de ATP
 
@@ -68,20 +68,20 @@ Suponha que uma organização esteja usando a entrega dinâmica para a [polític
 
 ## <a name="additional-considerations"></a>Considerações adicionais
 
-Há determinados cenários em que a entrega dinâmica não é suportada. Elas incluem o seguinte:
+Há determinados cenários em que os anexos seguros (incluindo a entrega dinâmica não têm suporte). Entre eles:
 
-- Mensagens de email que estão em pastas públicas
+- Mensagens de email que estão em pastas públicas.
 
-- Mensagens de email que são roteadas de e de volta para a caixa de correio do usuário usando regras personalizadas
+- Mensagens de email que são roteadas de e de volta para a caixa de correio do usuário usando regras personalizadas.
 
-- Mensagens de email que são movidas (automática ou manualmente) da caixa de correio hospedada e em outros locais, incluindo pastas de arquivos mortos
+- Mensagens de email que são movidas (automática ou manualmente) da caixa de correio hospedada e em outros locais, incluindo pastas de arquivos mortos.
 
-- Mensagens de email excluídas
+- Mensagens de email que são excluídas.
 
-- Uma pasta de pesquisa de caixa de correio do usuário que está em um estado de erro
+- A pasta de pesquisa da caixa de correio de um usuário que está em um estado de erro.
 
-- Ambientes nos quais um administrador do Exchange Online habilitou o Exclaimer. Para resolver isso, confira [mensagens com anexos não são entregues quando a entrega dinâmica e o Exclaimer da ATP são usados](https://support.microsoft.com/help/4014438)
+- Ambientes nos quais um administrador do Exchange Online habilitou o Exclaimer. Para resolver isso, consulte [mensagens com anexos não são entregues quando a entrega dinâmica e o exclaimr ATP são usados](https://support.microsoft.com/help/4014438).
 
-- Mensagens criptografadas com [S/MIME (Secure/Multipurpose Internet Mail Extensions)](s-mime-for-message-signing-and-encryption.md))
+- Mensagens criptografadas com [S/MIME (Secure/Multipurpose Internet Mail Extensions)](s-mime-for-message-signing-and-encryption.md)).
 
-- Nos casos em que a entrega dinâmica não é suportada, os anexos seguros de ATP não verificam as mensagens de email. No entanto, a entrega de mensagens de email com anexos que contenham URLs será verificada, dependendo de como as [políticas de links seguros de ATP](set-up-atp-safe-links-policies.md) estão configuradas. Nesses casos, as URLs em mensagens de email e arquivos do Office são verificadas.
+- Nos casos em que a entrega dinâmica não é suportada, os anexos seguros não verificam as mensagens de email. No entanto, a entrega de mensagens de email com anexos que contenham URLs será verificada, dependendo de como as [políticas de links seguros de ATP](set-up-atp-safe-links-policies.md) estão configuradas. Nesses casos, as URLs em mensagens de email e arquivos do Office são verificadas.

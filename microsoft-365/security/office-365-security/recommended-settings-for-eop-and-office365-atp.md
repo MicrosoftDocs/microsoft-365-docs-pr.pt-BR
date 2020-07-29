@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Quais são as práticas recomendadas para as configurações de segurança do Exchange Online Protection (EOP) e da proteção avançada contra ameaças (ATP)? Quais são as recomendações atuais para a proteção padrão? O que deve ser usado se você deseja ser mais estrito? E quais são os extras obtidos se você também usa a proteção avançada contra ameaças (ATP)?
-ms.openlocfilehash: 542dce4d2abe9a40fcc5eef57502be5c37a34d57
-ms.sourcegitcommit: 688d62a8c52e4fb0feb721bb92b535effc278f54
+ms.openlocfilehash: f34c4e0aad2413fdeb082c37f980e6e4548db6b3
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45389840"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430370"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Configurações recomendadas para o EOP e a segurança ATP do Office 365
 
@@ -194,7 +194,8 @@ Para definir essas configurações, consulte [set up Office 365 ATP Safe links P
 
 |Nome do recurso de segurança|Standard|Impede|Comentário|
 |---|---|---|---|
-|**Usar links seguros no: aplicativos do Office 365** <br/><br/> _EnableSafeLinksForO365Clients_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`|Use links seguros de ATP nos aplicativos do Office 365, Office para iOS e Android.|
+|**Usar links seguros no: aplicativos do Office 365** <br/><br/> _EnableSafeLinksForO365Clients_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`|Use links seguros de ATP nos clientes de área de trabalho do Office 365 e dispositivos móveis (iOS e Android).|
+|**Usar links seguros no: Office Web Access acompanhamentos** <br/><br/> _EnableSafeLinksForWebAccessCompanion_|Habilitado <br/><br/> `$true`|Habilitado <br/><br/> `$true`|Use os links seguros de ATP no Office Web Apps.|
 |**Não rastrear quando os usuários clicarem em links seguros** <br/><br/> _TrackClicks_|Desabilitado <br/><br/> `$true`|Desabilitado <br/><br/> `$true`||
 |**Não permitir que os usuários cliquem por meio de links seguros para a URL original** <br/><br/> _AllowClickThrough_|Habilitado <br/><br/> `$false`|Habilitado <br/><br/> `$false`||
 |

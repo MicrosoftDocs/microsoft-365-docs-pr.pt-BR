@@ -127,7 +127,7 @@ A captura de tela a seguir mostra as configurações quando você cria o[rótulo
     
     ![Criar um novo tipo de evento para rótulo de Especificação do Produto](../media/SPRetention6.png)
 
-3. Selecione **Escolher um tipo de evento** e. na página **Escolher um tipo de evento**, selecione **Criar novos tipos de eventos**.
+3. Selecione **Escolher um tipo de evento** e, na página **Escolher um tipo de evento**, selecione **Criar novos tipos de eventos**.
 
 4. Crie um tipo de evento denominado **Cessação do Produto**, dê uma descrição e selecione **Concluir** para criá-lo. 
 

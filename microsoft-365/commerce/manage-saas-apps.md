@@ -14,14 +14,16 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Saiba como ativar e gerenciar aplicativos de terceiros no centro de administração do Microsoft 365.
-ms.openlocfilehash: ed1a88345ae5cc135a43f4297ce518b444eaabe7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c8d2764dfa7795707712cbd9ce212f78c4d43d45
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402577"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429985"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>Gerenciar assinaturas de aplicativos de terceiros para sua organização
+
+Você pode gerenciar licenças e cobrança para aplicativos de terceiros no novo centro de administração do Microsoft 365. Os recursos atualizados incluem gerenciamento avançado de assinatura, acesso melhorado às informações de cobrança e maior flexibilidade para gerenciar contas. O gerenciamento de assinatura é baseado na plataforma comercial atualizada da Microsoft. Isso se aplica a aplicativos de software como serviço que os clientes adquirem diretamente ou de um provedor terceirizado.
 
 ::: moniker range="o365-21vianet"
 
@@ -31,6 +33,7 @@ ms.locfileid: "44402577"
 ::: moniker-end
 
 Você pode gerenciar licenças e cobrança para aplicativos de terceiros no centro de administração do Microsoft 365 com o modo de visualização ativado. Os recursos atualizados incluem gerenciamento avançado de assinatura, acesso melhorado às informações de cobrança e maior flexibilidade para gerenciar contas. O gerenciamento de assinatura é baseado na plataforma comercial atualizada da Microsoft. Isso se aplica a aplicativos de software como serviço que os clientes adquirem diretamente ou de provedor de terceiros.
+
 
 ## <a name="how-to-get-software-as-a-service-apps"></a>Como obter aplicativos de software como serviço
 

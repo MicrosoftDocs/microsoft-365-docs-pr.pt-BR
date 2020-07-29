@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 12df7b074019ea47f2e293b71c6b0b25fe46f66f
-ms.sourcegitcommit: 63887d742c59cc660fc85537b335e98a9dc66fbe
+ms.openlocfilehash: 431e6cb3b8d7ab7e1dd317918fab4821889c7d4e
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170679"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430454"
 ---
 # <a name="get-started-with-app-control"></a>Introdução ao controle de aplicativos
 
@@ -26,6 +26,19 @@ O Microsoft Managed desktop simplifica o controle de aplicativos ao cuidar dos a
 ## <a name="initial-deployment-of-apps"></a>Implantação inicial de aplicativos
 
 Quando você implanta aplicativos pela primeira vez, o Microsoft Managed desktop precisa avaliar seu comportamento atual. As etapas exatas para habilitar o controle de aplicativos dependem se os dispositivos já foram implantados em seu ambiente.
+
+### <a name="devices-not-yet-in-use"></a>Dispositivos que ainda não estão em uso
+
+Se você ainda não tiver dispositivos em uso, abra um tíquete de serviço com operações de área de trabalho gerenciada da Microsoft solicitando que o controle de aplicativos seja ativado. As operações implantarão progressivamente políticas em grupos de implantação seguindo esta programação:
+
+|Grupo de implantação  |Tipo de política  |Tempo  |
+|---------|---------|---------|
+|Testar     |  Auditoria       |  Dia 0       |
+|Primeiro     | Enforced        | 1º dia        |
+|Rápida     | Enforced        |  2º dia       |
+|Amplas     | Enforced        |  3º dia       |
+
+Você sempre pode abrir outra solicitação de serviço para pausar ou reverter parte dessa implantação a qualquer momento durante a distribuição.
 
 ### <a name="devices-already-in-use"></a>Dispositivos já em uso
 
@@ -39,21 +52,10 @@ Se já tiver pelo menos um dispositivo de área de trabalho gerenciado da Micros
 |---------|---------|---------|
 |Testar     |  Auditoria       |  Dia 0       |
 |Primeiro     | Enforced        | 1º dia        |
-|Rápida     | Enforced        |  3º dia       |
-|Amplas     | Enforced        |  Day 7       |
+|Rápida     | Enforced        |  Pausa, distribuição na solicitação       |
+|Amplas     | Enforced        |  Pausa, distribuição na solicitação       |
 
 Você sempre pode abrir outra solicitação de serviço para pausar ou reverter parte dessa implantação a qualquer momento durante a distribuição.
 
-### <a name="devices-not-yet-in-use"></a>Dispositivos que ainda não estão em uso
 
-Se você ainda não tiver dispositivos em uso, abra um tíquete de serviço com operações de área de trabalho gerenciada da Microsoft solicitando que o controle de aplicativos seja ativado. As operações implantarão progressivamente políticas em grupos de implantação seguindo esta programação:
-
-|Grupo de implantação  |Tipo de política  |Tempo  |
-|---------|---------|---------|
-|Testar     |  Auditoria       |  Dia 0       |
-|Primeiro     | Enforced        | 1º dia        |
-|Rápida     | Enforced        |  3º dia       |
-|Amplas     | Enforced        |  Day 7       |
-
-Você sempre pode abrir outra solicitação de serviço para pausar ou reverter parte dessa implantação a qualquer momento durante a distribuição.
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: Atualize seu número de telefone e endereço de email do administrador no centro de administração. Você precisará dessas informações se quiser redefinir sua senha de administrador.
-ms.openlocfilehash: bd8ee28cbc7982ea5b057fecb34d362557a5d5a9
-ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
+ms.openlocfilehash: ed7e8152ffdf05d94068e6bdb81697dee737ea01
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407915"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429949"
 ---
 # <a name="update-your-admin-phone-number-and-email-address"></a>Atualizar seu número de telefone e endereço de email de administrador
 
@@ -41,13 +41,13 @@ Se você estiver procurando como alterar informações de perfil da sua empresa,
   
 ## <a name="to-update-your-name-phone-number-and-email-address"></a>Para atualizar seu nome, número de telefone e endereço de email
 
-Use a página **Informações pessoais** para alterar seu nome, o número de telefone celular e o endereço de email alternativo. O endereço de email alternativo é usado para notificações importantes, como redefinir sua senha de administrador (não sua senha de administrador do computador). 
+Use a página **configurações e privacidade** para alterar seu nome, número de telefone celular e endereço de email alternativo. O endereço de email alternativo é usado para notificações importantes, como redefinir sua senha de administrador (não sua senha de administrador do computador). 
   
 1. Navegue até o centro de administração do Microsoft 365.
 
-2. No cabeçalho, selecione o ícone do seu perfil \> **My account** \> **informações pessoais**de minha conta.
+2. No cabeçalho, selecione seu ícone de perfil \> **minhas** \> **configurações de conta e privacidade**.
 
-3. Na seção **detalhes do contato** , selecione Editar. Atualize seu endereço de email móvel, telefônico e alternativo. Certifique-se de usar algo diferente do seu endereço de email da Microsoft para seu endereço de email alternativo.
+3. Na seção **preferências de contato** , selecione **gerenciar e expandir preferências de contato**. Atualize seu endereço de email móvel, telefônico e alternativo. Certifique-se de usar algo diferente do seu endereço de email da Microsoft para seu endereço de email alternativo.
 
     > [!IMPORTANT]
     > O endereço de email alternativo e o número de telefone celular são necessários para redefinir sua senha de administrador (não sua senha de administrador do computador).

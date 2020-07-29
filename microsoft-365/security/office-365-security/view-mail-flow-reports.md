@@ -1,5 +1,5 @@
 ---
-title: Exibir relatórios de fluxo de emails no centro de conformidade & segurança
+title: Exibir relatórios de fluxo de emails no Centro de Conformidade e Segurança
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de fluxo de emails para sua organização. Os relatórios de fluxo de emails estão disponíveis no centro de conformidade e segurança &.
 ms.custom: ''
-ms.openlocfilehash: 70c96bb4f43edb80f98fdc98aa173fed9e54e7d7
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: e891d9373b169dc01cfd89f114e31b23e1bd8480
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44937095"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434174"
 ---
-# <a name="view-mail-flow-reports-in-the-security--compliance-center"></a>Exibir relatórios de fluxo de emails no centro de conformidade & segurança
+# <a name="view-mail-flow-reports-in-the-security--compliance-center"></a>Exibir relatórios de fluxo de emails no Centro de Conformidade e Segurança
 
 Além das informações sobre o [fluxo de emails](mail-flow-insights-v2.md) que estão disponíveis no centro de conformidade de & de segurança, vários relatórios de fluxo de emails estão disponíveis para ajudá-lo a monitorar sua organização do Microsoft 365. Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-these-reports), poderá exibir esses relatórios no centro de conformidade do & de segurança em <https://office.protection.com> , no **Reports** \> **painel**relatórios. Para ir diretamente para o painel relatórios, abra <https://office.protection.office.com/insightdashboard> .
 
@@ -310,7 +310,7 @@ Os gráficos a seguir estão disponíveis no modo de exibição de relatório:
 
   ![Exibição de direção no relatório de email enviado e recebido](../../media/sent-and-received-email-report-direction-view.png)
 
-- **Aprofundar por** \> **Malware (Antimalware)**: esta seleção leva você para a [detecção de malware no relatório de email](view-email-security-reports.md#malware-detection-in-email-report).
+- **Aprofundar por** \> **Malware (Antimalware)**: esta seleção leva você para as [detecções de malware no relatório de email](view-email-security-reports.md#malware-detections-in-email-report).
 
 - **Aprofundar por** \> **Detecções de spam)**: esta seleção leva você para o [relatório de detecções de spam](view-email-security-reports.md#spam-detections-report).
 

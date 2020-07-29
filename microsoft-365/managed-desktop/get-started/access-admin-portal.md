@@ -1,5 +1,5 @@
 ---
-title: Acessar o portal de administração
+title: Acesse o portal do Administrador
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 ms.author: jaimeo
@@ -9,16 +9,16 @@ ms.topic: article
 audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b6310849f27200adbbcbcb1584903011fbdf6145
-ms.sourcegitcommit: 9af890ef1b1c95bfc7cc52f7f4e395b62dc5263f
+ms.openlocfilehash: 17696b18b4109b568bb1d616813ba40e2a9dccdc
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146259"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430466"
 ---
 # <a name="access-the-admin-portal"></a>Acessar o portal de administração
 
-Seu gateway para o serviço de área de trabalho gerenciada da Microsoft é o portal do Microsoft [Azure](https://portal.azure.com). Para saber mais sobre como usar e personalizar sua experiência do portal do Azure geralmente, consulte a [documentação do portal do Azure](https://docs.microsoft.com/azure/azure-portal/). 
+Seu gateway para o serviço de área de trabalho gerenciada da Microsoft é o portal do Microsoft [Azure](https://portal.azure.com). Para saber mais sobre como usar e personalizar sua experiência do portal do Azure geralmente, consulte a [documentação do portal do Azure](https://docs.microsoft.com/azure/azure-portal/). Disponível em versão prévia agora, você também pode encontrar a área de trabalho gerenciada da Microsoft no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/). Se você não estiver familiarizado com os recursos deste portal para gerenciamento de dispositivos, consulte a [documentação do Microsoft Endpoint Manager](https://docs.microsoft.com/mem/).
 
 Sua conta administrativa precisa de permissões específicas para acessar o portal de administração de área de trabalho gerenciada da Microsoft. Você pode gerenciar o acesso de administrador a esses recursos dentro da sua organização usando o controle de acesso baseado em função (RBAC). Para obter mais informações sobre as funções do Azure Active Directory, consulte [permissões de função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles).
 

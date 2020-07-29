@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: A prevenção de perda de dados (DLP) no centro de conformidade de segurança &amp; inclui 80 tipos de informações confidenciais que estão prontos para uso nas suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo.
-ms.openlocfilehash: 5bccbd73806a261cdbd795f200b6b459b536a97e
-ms.sourcegitcommit: c51dd4c659f763ae46c188d3fae90aab8d1d7e88
+ms.openlocfilehash: 9e1b1261bbb58b1ca65818a5ad304ee186561ae6
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45084130"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430514"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definições da entidade de tipo de informações confidenciais 
 
@@ -370,30 +370,19 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 95% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
 - A função Func_australian_medical_account_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_Australia_Medical_Account_Number for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_australian_medical_account_number localiza conteúdo que corresponde ao padrão.
-- A soma de verificação passa.
 
 ```xml
   <!-- Australia Medical Account Number -->
 <Entity id="104a99a0-3d3b-4542-a40d-ab0b9e1efe63" recommendedConfidence="85" patternsProximity="300">
-    <Pattern confidenceLevel="95">
+    <Pattern confidenceLevel="85">
      <IdMatch idRef="Func_australian_medical_account_number"/>
-     <Any minMatches="1">
      <Match idRef="Keyword_Australia_Medical_Account_Number"/>
-     </Any>
-  </Pattern>
-<Pattern confidenceLevel="85">
-     <IdMatch idRef="Func_australian_medical_account_number"/>
-     <Any minMatches="0" maxMatches="0">
-  <Match idRef="Keyword_Australia_Medical_Account_Number"/>
-     </Any>
-  </Pattern>
+    </Pattern>
 </Entity>
 ```
 
@@ -6813,7 +6802,7 @@ Dictionary
 
 ### <a name="pattern"></a>Padrão
 
-Keyword
+Palavra-chave
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -6855,7 +6844,7 @@ Dictionary
 
 ### <a name="pattern"></a>Padrão
 
-Keyword
+Palavra-chave
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -11794,6 +11783,10 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - Uma palavra-chave de Keyword_taiwanese_national_id for encontrada.
 - A soma de verificação passa.
 
+Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+- A função Func_taiwanese_national_id localiza conteúdo que corresponde ao padrão.
+- A soma de verificação passa.
+
 ```xml
 <!-- Taiwanese National ID -->
 <Entity id="4C7BFC34-8DD1-421D-8FB7-6C6182C2AF03" patternsProximity="300" recommendedConfidence="85">
@@ -11801,6 +11794,9 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
           <IdMatch idRef="Func_taiwanese_national_id" />
           <Match idRef="Keyword_taiwanese_national_id" />
       </Pattern>
+       <Pattern confidenceLevel="75">
+         <IdMatch idRef="Func_taiwanese_national_id" />
+       </Pattern>
 </Entity>
 ```
 

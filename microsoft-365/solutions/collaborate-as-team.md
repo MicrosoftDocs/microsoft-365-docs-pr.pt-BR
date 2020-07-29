@@ -2,7 +2,7 @@
 title: Colaborar com convidados em uma equipe
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba mais sobre as etapas de configuração do 365 da Microsoft necessárias para configurar uma equipe para colaboração com convidados no Microsoft Teams.
-ms.openlocfilehash: 6742409732e1ef9b466dae6854768c3843f33bd0
-ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
+ms.openlocfilehash: 2a412502af16ff95bf0f1f912ac57d00eb1d382a
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "44371482"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430382"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Colaborar com convidados em uma equipe
 
@@ -82,7 +82,7 @@ O Teams usa os grupos do Microsoft 365 para associação da equipe. As configura
 Para definir as configurações de convidados de grupos do Microsoft 365
 
 1. No centro de administração do Microsoft 365, no painel de navegação à esquerda, expanda **configurações**.
-2. Clique em **serviços & suplementos**.
+2. Clique em **configurações da organização**.
 3. Na lista, clique em **Microsoft 365 grupos**.
 4. Certifique-se de que o **grupo permitir Membros fora do seu conteúdo de grupo de acesso à organização** e **que os proprietários do grupo adicionem pessoas fora da sua organização a grupos de** seleção.
 5. Se você tiver feito alterações, clique em **salvar alterações**.
@@ -178,6 +178,6 @@ Para convidar convidados para uma equipe
 
 [Limitar a exposição acidental dos arquivos ao compartilhar com convidados](share-limit-accidental-exposure.md)
 
-[Criar um ambiente seguro de compartilhamento para convidados](create-secure-guest-sharing-environment.md)
+[Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
 
 [Crie uma extranet B2B com convidados gerenciados](b2b-extranet.md)

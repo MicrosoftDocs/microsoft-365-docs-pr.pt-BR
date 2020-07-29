@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como definir políticas de anexos seguros para proteger sua organização contra arquivos mal-intencionados no email.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 581c45c9c5b606b3b4b0ba91bd96740bc838629d
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 1569e8072f64ce751c44e76f971e98f37540afae
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617225"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430418"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Configurar políticas de anexos seguros de ATP do Office 365
 
@@ -92,7 +92,7 @@ Considere configurar várias políticas de anexos seguros de ATP para sua organi
 ||||
 |---|---|---|
 |**Opção**|**Effect**|**Use quando quiser:**|
-|**Desabilitado**|Não examina anexos de malware  <br/> Não atrasa a entrega de mensagens|Desative a verificação de scanners, faxes ou hosts inteligentes que enviam apenas anexos conhecidos e bons  <br/> Evitar atrasos desnecessários no roteamento de email interno.  <br/> **Não recomendamos esta opção para a maioria dos usuários. Você só deve usar essa opção para desativar a verificação de anexos seguros de ATP para um pequeno grupo de remetentes confiáveis.**|
+|**Desabilitado**|Não examina anexos de malware  <br/> Não atrasa a entrega de mensagens|Desligar a verificação para destinatários selecionados.  <br/> Evitar atrasos desnecessários no roteamento de email interno.  <br/> **Essa opção não é recomendada para a maioria dos usuários. Você só deve usar essa opção para desativar a verificação de anexos seguros de ATP para destinatários que recebem emails de remetentes confiáveis.**|
 |**Monitor**|Entrega mensagens com anexos e rastreia o que acontece com o malware detectado|Veja onde o malware detectado entra em sua organização|
 |**Bloquear**|Impede que mensagens com anexos de malware detectados continuem  <br/> Envia mensagens com malware detectado para [colocar em quarentena no Office 365](manage-quarantined-messages-and-files.md) , onde um administrador de segurança ou analista pode revisar e liberar (ou excluir) essas mensagens  <br/> Bloqueia automaticamente mensagens e anexos futuros|Proteger sua organização de ataques repetidos usando os mesmos anexos de malware|
 |**Replace**|Remove anexos detectados de malware  <br/> Notifica os destinatários de que os anexos foram removidos  <br/> Envia mensagens com malware detectado para [colocar em quarentena no Office 365](manage-quarantined-messages-and-files.md) , onde um administrador de segurança ou analista pode revisar e liberar (ou excluir) essas mensagens|Aumentar a visibilidade dos destinatários que os anexos foram removidos devido a um malware detectado|

@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Saiba como habilitar o suplemento de mensagem de relatório para o Outlook e o Outlook na Web, para usuários individuais ou para toda a organização.
-ms.openlocfilehash: 0b900fe00dc590b69755b54f8103688042026df0
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 2b074d1bd260f5c95d138577e259aee14ec9e8d7
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588223"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430502"
 ---
 # <a name="enable-the-report-message-add-in"></a>Habilitar o suplemento de Mensagem de Relatório
 
@@ -40,7 +40,7 @@ Se você for um usuário individual, é possível [habilitar o relatório de sup
 
 Se você for um administrador global ou um administrador do Exchange Online e o Exchange estiver configurado para usar a autenticação OAuth, você poderá [habilitar o suplemento de mensagem de relatório para sua organização](#get-and-enable-the-report-message-add-in-for-your-organization). O suplemento de mensagem de relatório agora está disponível por meio da [implantação centralizada](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - O suplemento de mensagem de relatório funciona com a maioria das assinaturas do Microsoft 365 e os seguintes produtos:
 
@@ -49,10 +49,7 @@ Se você for um administrador global ou um administrador do Exchange Online e o 
   - Outlook 2016 para Mac
   - Outlook incluído no Microsoft 365 Apps for Enterprise
 
-- O suplemento de mensagem de relatório atualmente não está disponível para:
-
-  - Caixas de correio em organizações do Exchange local
-  - Assinaturas GCC, GCC alta ou DoD
+- O suplemento de mensagem de relatório não está disponível para caixas de correio em organizações locais do Exchange.
 
 - Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [especificar uma caixa de correio para envios de emails de spam e mensagens de phishing no Exchange Online](user-submission.md).
 

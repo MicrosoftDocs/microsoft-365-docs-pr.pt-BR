@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 4dde4d1b30fe5bcbe4d3bc63c4d998c804b0ce69
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: 77f84519c7173aa1f9a4293b222fa5f677ed8159
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204822"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430358"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Recursos de prévia da proteção contra ameaças da Microsoft
 
@@ -57,6 +57,5 @@ Você saberá que os recursos de visualização estão ativados ao ver que a cai
 ## <a name="preview-features"></a>Visualização prévia de recursos
 Os seguintes recursos e aprimoramentos estão disponíveis atualmente na visualização:
 
-- **[Referência de esquema no portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — informações sobre tabelas de esquema disponíveis diretamente na central de segurança. Além de descrições de tabela e coluna, essa referência fornece informações sobre tipos de eventos suportados ( `ActionType` valores) e consultas de amostra.  
+- **[Referência de esquema no portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — informações sobre tabelas de esquema disponíveis diretamente na central de segurança. Além de descrições de tabela e coluna, essa referência fornece informações sobre tipos de eventos suportados ( `ActionType` valores) e consultas de amostra.
 
-- **[Ir](advanced-hunting-go-hunt.md)** para a busca, dinamizar rapidamente da investigação de um incidente para inspecionar um evento específico, um usuário, um dispositivo ou outros tipos de entidade usando recursos de [busca avançada](advanced-hunting-overview.md) baseados em consulta.

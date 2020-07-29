@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador do Microsoft 365 treinado é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo dando amostras positivas e negativas. Depois que o classificador for treinado, você confirmará que os resultados são precisos. Em seguida, use-o para pesquisar o conteúdo da sua organização e classificá-lo para aplicar os rótulos de retenção ou confidencialidade ou incluí-lo em políticas de retenção ou prevenção de perda de dados (DLP).
-ms.openlocfilehash: 10475420c729efc6a1ff59b6620fed08a1bdefca
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 7cad27112597bcdbdce6aeb33fef66f24bdd8819
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126330"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46502968"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>Introdução aos classificadores treináveis (visualização)
 
@@ -45,7 +45,7 @@ Os rótulos de confidencialidade e retenção podem ser automaticamente aplicado
 Esse método de classificação é especialmente adequado ao conteúdo que não é facilmente identificado pelos métodos de correspondência de padrões manuais ou automatizados. Esse método de classificação é mais sobre o treinamento de um classificador para identificar um item com base no que o item é, não por elementos que estão no item (correspondência de padrão). Um classificador aprende como identificar um tipo de conteúdo observando centenas de exemplos do conteúdo que você está interessado em classificar. Comece por alimentar exemplos de ti que são definitivamente na categoria. Depois de processar esses, você o testará dando um mix de exemplos de correspondência e de não correspondência. Em seguida, o classificador faz previsões como se um determinado item está na categoria que você está criando. Em seguida, você confirma seus resultados, classificando os positivos, negativos, falsos positivos e falsos negativos para ajudar a aumentar a precisão de suas previsões. Quando você publica o classificador treinado, ele classifica itens em locais como o SharePoint Online, o Exchange e o OneDrive e classifica o conteúdo.
 
 ### <a name="where-you-can-use-trainable-classifiers"></a>Onde você pode usar os classificadores estagiários
-Tanto classificadores internos quanto classificadores estagiários estão disponíveis como uma condição para [aplicar automaticamente a política de rótulo de retenção com base em uma condição](apply-retention-labels-automatically.md#configuring-conditions-for-auto-apply-retention-labels) e [conformidade de comunicação](communication-compliance-configure.md). 
+Tanto classificadores internos quanto classificadores estagiários estão disponíveis como uma condição para o [Office autolabeling com rótulos de sensibilidade](apply-sensitivity-label-automatically.md), [aplicar automaticamente a política de rótulo de retenção com base em uma condição](apply-retention-labels-automatically.md#configuring-conditions-for-auto-apply-retention-labels) e em [conformidade de comunicação](communication-compliance.md). 
 
 Os rótulos de confidencialidade podem usar classificadores internos e criados por conta própria como condições, consulte [aplicar um rótulo de confidencialidade ao conteúdo automaticamente](apply-sensitivity-label-automatically.md).
 
@@ -131,7 +131,7 @@ Criar e publicar um classificador treinado para uso em soluções de conformidad
 
 - [Rótulos de retenção](retention.md)
 - [Data loss prevention (DLP)](data-loss-prevention-policies.md)
-- [Rótulos de confidencialidade](sensitivity-labels.md)
+- [Rótulos de confidencialidade ](sensitivity-labels.md)
 - [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
 - [Impressão digital do documento](document-fingerprinting.md)
 - [Correspondência de dados exata](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)

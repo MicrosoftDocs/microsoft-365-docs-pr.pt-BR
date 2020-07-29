@@ -1,19 +1,19 @@
 ---
 title: Obter suporte para a área de trabalho gerenciada da Microsoft
 description: ''
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 3e74f644457057eafe61235c874ca6290bfae6a3
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 6c23d2ffa70cf4931823fafa1918e7fd5eefa0b8
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327887"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430430"
 ---
-# <a name="getting-help-for-end-users"></a>Obtendo ajuda para usuários finais
+# <a name="getting-help-for-end-users"></a>Obter ajuda para usuários finais
 
 Há duas maneiras de que os usuários em sua organização possam obter ajuda com seus dispositivos de área de trabalho gerenciada da Microsoft: **Obtenha ajuda** ou suporte por telefone. Ambas as opções de suporte estão disponíveis para os usuários 24 horas por dia, 7 dias por semana.
  
@@ -37,7 +37,7 @@ Para que os usuários finais possam obter ajuda através do aplicativo, certifiq
 - O dispositivo deve ser registrado com a área de trabalho gerenciada da Microsoft usando um dos métodos em [configurar dispositivos de área de trabalho gerenciada da Microsoft](../get-started/set-up-devices.md), como [registrar novos dispositivos por conta própria](../get-started/register-devices-self.md).
 - O idioma de exibição para o dispositivo deve ser definido como qualquer um desses locais de idioma inglês: en-US, en-GB, en-au, en-NZ ou pt-ca.
 - O aplicativo Get Help deve estar atualizado. Para confirmar isso, verifique se há atualizações de aplicativos na Microsoft Store.
-- Determinados [pontos de extremidade](../get-ready/network.md#endpoints-allowed---specific-for-microsoft-managed-desktop) devem estar acessíveis a partir do dispositivo.
+- Determinados [pontos de extremidade](../get-ready/network.md#endpoints-allowed-that-are-necessary-for-microsoft-managed-desktop) devem estar acessíveis a partir do dispositivo.
 
 > [!NOTE]
 > O aplicativo Get Help pode levar até uma hora depois que um dispositivo é implantado para funcionar completamente.

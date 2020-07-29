@@ -19,12 +19,12 @@ description: Solucionar erros para o Azure AzCopy ao carregar dados não-Office 
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: 0185c179039b7aec72bc400709225ef42489f620
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: caec3011c89e027f1b78991a3dad842ff4b8c8aa
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819141"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434274"
 ---
 # <a name="troubleshoot-azcopy-in-advanced-ediscovery"></a>Solucionar problemas de AzCopy na descoberta eletrônica avançada
 
@@ -42,7 +42,7 @@ Neste momento, você deve usar o AzCopy v 8.1 para carregar dados que não sejam
 
 Se o AzCopy não estiver instalado ou estiver instalado em um local diferente do local de instalação padrão (ou seja `%ProgramFiles(x86)%` ), você pode receber o seguinte erro ao executar o comando AzCopy:
 
-    The system cannot find the path specified.
+> O sistema não pode localizar o caminho especificado.
 
 Se o AzCopy não estiver instalado no computador local, você poderá encontrar informações de instalação em [transferir dados com o AzCopy v 8.1 no Windows](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy). Certifique-se de instalá-lo no local padrão.
 

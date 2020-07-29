@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Use as barreiras de informação para garantir a conformidade de comunicação usando o Microsoft Teams em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41b9eb1378a585a22bbd747edb395b79cfe761ca
-ms.sourcegitcommit: c51dd4c659f763ae46c188d3fae90aab8d1d7e88
+ms.openlocfilehash: f723885a366e6f92f29faccfb632677c6e0028c8
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45084140"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430219"
 ---
 # <a name="information-barriers"></a>Barreiras de informações
 
@@ -64,10 +64,11 @@ Para saber mais sobre a experiência do usuário com barreiras de informações,
 
 As barreiras de informação estão sendo lançadas agora e estão incluídas em assinaturas, como:
 
-- Microsoft 365 E5
-- Office 365 E5
-- Conformidade avançada do Office 365
-- Conformidade com o Microsoft 365 e5
+- Microsoft 365 E5/a5
+- Office 365 E5/a5
+- Conformidade Avançada do Office 365
+- Conformidade da Microsoft 365 E5/a5
+- Gerenciamento de risco do Microsoft 365 Insider
 
 Para obter mais detalhes, consulte [soluções de conformidade](https://products.office.com/business/security-and-compliance/compliance-solutions).
 
