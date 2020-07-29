@@ -5,9 +5,8 @@ f1.keywords:
 ms.author: samanro
 author: samanro
 manager: scotv
-layout: LandingPage
 ms.audience: Admin
-ms.topic: landing-page
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -24,158 +23,61 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 365 para campanhas
-ms.openlocfilehash: 167b265676d3c3bc9025a0c0e998379f72bb9e52
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: d936b05c7668b2fcdeb976e547cde8694b304c27
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "43632030"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429973"
 ---
-<a name="microsoft-365-for-campaigns"></a>Microsoft 365 para campanhas
+<a name="microsoft-365-for-campaigns"></a><span data-ttu-id="8c669-103">Microsoft 365 para campanhas</span><span class="sxs-lookup"><span data-stu-id="8c669-103">Microsoft 365 for Campaigns</span></span>
 ===========================
 
-No mundo de hoje, manter os dados e as comunicações seguras é uma prioridade, especialmente para campanhas políticas, práticas médicas e legais, e muitos outros assuntos. O Microsoft 365 para campanhas possui um conjunto de recomendações elaboradas para ajudar a proteger você e seus dados. Esta biblioteca inclui ajuda para configurar e usar esse ambiente recomendado, mesmo que você não seja uma campanha.
+<span data-ttu-id="8c669-104">No mundo de hoje, manter os dados e as comunicações seguras é uma prioridade, especialmente para campanhas políticas, práticas médicas e legais, e muitos outros assuntos.</span><span class="sxs-lookup"><span data-stu-id="8c669-104">In our current world, keeping data and communications secure is a priority, particularly for political campaigns, medical and legal practices, and many other businesses.</span></span> <span data-ttu-id="8c669-105">O Microsoft 365 para campanhas possui um conjunto de recomendações elaboradas para ajudar a proteger você e seus dados.</span><span class="sxs-lookup"><span data-stu-id="8c669-105">Microsoft 365 for Campaigns comes with a set of recommendations designed to help protect you and your data.</span></span> <span data-ttu-id="8c669-106">Esta biblioteca inclui ajuda para configurar e usar esse ambiente recomendado, mesmo que você não seja uma campanha.</span><span class="sxs-lookup"><span data-stu-id="8c669-106">This library includes help for setting up and using this recommended environment, even if you're not a campaign.</span></span>
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3clbH] 
 
 
-**O que é o Microsoft 365 para campanhas?** É uma configuração segura, que inclui o Microsoft 365 Business Premium, para que você possa:
-- Contar com as ferramentas de colaboração e produtividade corporativas confiáveis, como Outlook, Word, Excel e outros produtos do Office 
-- Proteger seus arquivos de trabalho em todos os seus dispositivos iOS, Android e Windows 10 com segurança de nível empresarial que é fácil de gerenciar 
-- Aplicar proteção extra a contas de usuário e identidade 
+<span data-ttu-id="8c669-107">**O que é o Microsoft 365 para campanhas?**</span><span class="sxs-lookup"><span data-stu-id="8c669-107">**What is Microsoft 365 for Campaigns?**</span></span> <span data-ttu-id="8c669-108">É uma configuração segura, que inclui o Microsoft 365 Business Premium, para que você possa:</span><span class="sxs-lookup"><span data-stu-id="8c669-108">It's a recommended secure configuration that includes Microsoft 365 Business Premium so that you can:</span></span>
+- <span data-ttu-id="8c669-109">Contar com as ferramentas de colaboração e produtividade corporativas confiáveis, como Outlook, Word, Excel e outros produtos do Office</span><span class="sxs-lookup"><span data-stu-id="8c669-109">Rely on trusted business productivity and collaboration tools, such as Outlook, Word, Excel, and other Office products</span></span> 
+- <span data-ttu-id="8c669-110">Proteger seus arquivos de trabalho em todos os seus dispositivos iOS, Android e Windows 10 com segurança de nível empresarial que é fácil de gerenciar</span><span class="sxs-lookup"><span data-stu-id="8c669-110">Protect your work files on all of your iOS, Android, and Windows 10 devices with enterprise-grade security that is simple to manage</span></span> 
+- <span data-ttu-id="8c669-111">Aplicar proteção extra a contas de usuário e identidade</span><span class="sxs-lookup"><span data-stu-id="8c669-111">Apply extra protection for user accounts and identity</span></span> 
 
 ![O Microsoft 365 Business Premium protege as ferramentas de produtividade, ferramentas de colaboração, armazenamento de arquivos, email, dispositivos e identidade](../media/M365-WhatIsIt-SecurityFocus.png)
 
-Embora as campanhas de eleição federais nos Estados Unidos possam obter um preço especial para o Microsoft 365 Business Premium, qualquer organização com esse plano pode aproveitar essas orientações para aumentar a segurança e aprender a colaborar com segurança.
+<span data-ttu-id="8c669-113">Embora as campanhas de eleição federais nos Estados Unidos possam obter um preço especial para o Microsoft 365 Business Premium, qualquer organização com esse plano pode aproveitar essas orientações para aumentar a segurança e aprender a colaborar com segurança.</span><span class="sxs-lookup"><span data-stu-id="8c669-113">While federal election campaigns in the United States qualify for special pricing for Microsoft 365 Business Premium, any organization with this plan can take advantage of this guidance to configure increased security and learn how to collaborate securely.</span></span>
 
-Esta lista inclui o seguinte:
-- Guia de configuração prescritiva para aumentar a segurança.
-- Ajuda para que os usuários configurem dispositivos para um acesso seguro.
-- Diretrizes sobre como colaborar e compartilhar com segurança.
+<span data-ttu-id="8c669-114">Esta lista inclui o seguinte:</span><span class="sxs-lookup"><span data-stu-id="8c669-114">This library includes the following:</span></span>
+- <span data-ttu-id="8c669-115">Guia de configuração prescritiva para aumentar a segurança.</span><span class="sxs-lookup"><span data-stu-id="8c669-115">Prescriptive setup guidance for adding increased security.</span></span>
+- <span data-ttu-id="8c669-116">Ajuda para que os usuários configurem dispositivos para um acesso seguro.</span><span class="sxs-lookup"><span data-stu-id="8c669-116">Help for users to setup devices for secure access.</span></span>
+- <span data-ttu-id="8c669-117">Diretrizes sobre como colaborar e compartilhar com segurança.</span><span class="sxs-lookup"><span data-stu-id="8c669-117">Guidance on how to collaborate and share securely.</span></span>
 
-Para saber mais sobre o que está incluído, confira [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business). 
+<span data-ttu-id="8c669-118">Para saber mais sobre o que está incluído, confira [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business).</span><span class="sxs-lookup"><span data-stu-id="8c669-118">For more information about what's included, see [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business).</span></span> 
 
 
-<a name="get-started"></a>Introdução
+<a name="get-started"></a><span data-ttu-id="8c669-119">Introdução</span><span class="sxs-lookup"><span data-stu-id="8c669-119">Get started</span></span>
 --------------------------
 
-<ul class="panelContent cardsJ">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-blue.svg" alt="Roadmap" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <p><b>Siga estas etapas para iniciar:</b></p>
-                        <P><a href="get-microsoft-365-campaigns.md">Obtenha campanhas da Microsoft 365</a></p>
-                        <P><a href="m365-campaigns-users.md">Saiba como seus usuários podem trabalhar com o Microsoft 365</a></p>
-                        <P><a href="microsoft-365-campaigns-setup-overview.md">Configurar campanhas do Microsoft 365</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+<span data-ttu-id="8c669-120">![Roteiro](https://docs.microsoft.com/office/media/icons/walkthrough-map-blue.png) **Siga estas etapas para iniciar:**</span><span class="sxs-lookup"><span data-stu-id="8c669-120">![Roadmap](https://docs.microsoft.com/office/media/icons/walkthrough-map-blue.png) **Follow these steps to get started:**</span></span>  
 
-<a name="solutions-for-your-campaign-or-small-business"></a>Soluções para sua campanha ou pequena empresa
+- [<span data-ttu-id="8c669-121">Obtenha campanhas da Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="8c669-121">Get Microsoft 365 campaigns</span></span>](get-microsoft-365-campaigns.md)
+- [<span data-ttu-id="8c669-122">Saiba como seus usuários podem trabalhar com o Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="8c669-122">Learn how your users will work with Microsoft 365</span></span>](m365-campaigns-users.md)
+- [<span data-ttu-id="8c669-123">Configurar campanhas do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="8c669-123">Set up Microsoft 365 campaigns</span></span>](microsoft-365-campaigns-setup-overview.md)
+
+
+
+<a name="solutions-for-your-campaign-or-small-business"></a><span data-ttu-id="8c669-124">Soluções para sua campanha ou pequena empresa</span><span class="sxs-lookup"><span data-stu-id="8c669-124">Solutions for your campaign or small business</span></span>
 --------------------------
 
-Depois de configurar o ambiente seguro da Microsoft 365, você pode usar as seguintes soluções para trabalhar:
+<span data-ttu-id="8c669-125">Depois de configurar o ambiente seguro da Microsoft 365, você pode usar as seguintes soluções para trabalhar:</span><span class="sxs-lookup"><span data-stu-id="8c669-125">After you set up your secure Microsoft 365 environment, you can use the following solutions to get working:</span></span>
 
-<ul class="panelContent cardsW cols cols2">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/sm-m365-democracy-teams-collab.png" alt="a SharePoint communications site" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Criar equipes de colaboração</h3>
-                        <p>Crie um espaço para comunicação e colaboração com equipes específicas para funcionários importantes, todos os funcionários e parceiros com o Microsoft Teams.</p>
-                        <p><a href="create-teams-for-collaboration.md">Crie uma equipe</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/m365-democracy-teams-meetings.png" alt="an online meeting" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Configurar reuniões online</h3>
-                        <p>Agende uma reunião com áudio, vídeo e compartilhamento com o Microsoft Teams.</p>
-                        <p><a href="set-up-meetings.md">Configurar uma reunião</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/sm-m365-campaign-email-encrypt.png" alt="Encrypted and labeled email" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Criptografe ou rotule emails confidenciais</h3>
-                        <p>Use os rótulos de criptografia e sensibilidade para proteger emails que contenham informações confidenciais.</p>
-                        <p><a href="send-encrypted-email.md">Enviar email criptografado</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/sm-m365-democracy-comms-site.png" alt="a SharePoint communications site" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Criar um site de comunicação</h3>
-                        <p>Compartilhe eventos, mensagens, imagens e muito mais com a sua equipe em um site de comunicações internas criado com o SharePoint.</p>
-                        <p><a href="create-communications-site.md">Criar seu site</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/m365-democracy-teams-sharefiles.png" alt="sharing a file in Microsoft Teams" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Compartilhar arquivos e vídeos</h3>
-                        <p>Salve seus arquivos e vídeos na nuvem para que eles fiquem disponíveis para todas as pessoas autorizadas.</p>
-                        <p><a href="share-files-and-videos.md">Começar a compartilhar</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+|               |               |
+| ------------- | ------------- |
+| ![um site de comunicação do Microsoft Office SharePoint Online](../media/sm-m365-democracy-teams-collab.png) | ![uma reunião online](../media/m365-democracy-teams-meetings.png) |
+| <span data-ttu-id="8c669-128">**Crie equipes para colaboração** Torne um espaço para comunicação e colaboração com equipes específicas para funcionários importantes, todos os funcionários e parceiros ou fornecedores com o Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="8c669-128">**Create teams for collaboration**  Make a space for communication and collaboration with specific teams for key staff, all staff, and partners or vendors with Microsoft Teams.</span></span> [<span data-ttu-id="8c669-129">Crie uma equipe</span><span class="sxs-lookup"><span data-stu-id="8c669-129">Create your team</span></span>](create-teams-for-collaboration.md) | <span data-ttu-id="8c669-130">**Configurar reuniões online** Agendar uma reunião com áudio, vídeo e compartilhamento com o Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="8c669-130">**Set up online meetings**  Schedule a meeting with audio, video, and sharing with Microsoft Teams.</span></span> [<span data-ttu-id="8c669-131">Configurar uma reunião</span><span class="sxs-lookup"><span data-stu-id="8c669-131">Set up a meeting</span></span>](set-up-meetings.md) |
+| ![Email criptografado e rotulado](../media/sm-m365-campaign-email-encrypt.png) | ![um site de comunicações do Microsoft Office SharePoint Online](../media/sm-m365-democracy-comms-site.png) |
+| <span data-ttu-id="8c669-134">**Criptografe ou rotule seus emails confidenciais** usar os rótulos de criptografia e confidencialidade para proteger emails que contenham informações confidenciais ou confidenciais.</span><span class="sxs-lookup"><span data-stu-id="8c669-134">**Encrypt or label your sensitive email**  Use encryption and sensitivity labels to protect email that contains confidential or sensitive information.</span></span> [<span data-ttu-id="8c669-135">Enviar email criptografado</span><span class="sxs-lookup"><span data-stu-id="8c669-135">Send encrypted email</span></span>](send-encrypted-email.md) | <span data-ttu-id="8c669-136">**Crie um site de comunicações** Compartilhe eventos, mensagens, imagens e muito mais com a sua equipe em um site de comunicações interna criado com o Microsoft Office SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="8c669-136">**Create a communications site**  Share events, message, images, and more with your team in an internal communications site created with SharePoint.</span></span> [<span data-ttu-id="8c669-137">Criar seu site</span><span class="sxs-lookup"><span data-stu-id="8c669-137">Create your site</span></span>](create-communications-site.md) |
+| ![compartilhando um arquivo no Microsoft Teams](../media/m365-democracy-teams-sharefiles.png) | |
+| <span data-ttu-id="8c669-139">**Compartilhar arquivos e vídeos** Salvar arquivos e vídeos na nuvem para que eles fiquem disponíveis para todas as pessoas adequadas.</span><span class="sxs-lookup"><span data-stu-id="8c669-139">**Share files and videos**  Save your files and videos to the cloud so they're available to all of the appropriate people.</span></span> [<span data-ttu-id="8c669-140">Começar a compartilhar</span><span class="sxs-lookup"><span data-stu-id="8c669-140">Start sharing</span></span>](share-files-and-videos.md) | |
+
