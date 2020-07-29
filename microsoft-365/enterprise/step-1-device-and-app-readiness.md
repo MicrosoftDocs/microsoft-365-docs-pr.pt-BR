@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Aprenda a avaliar a preparação de dispositivos e aplicativos no ambiente.
-ms.openlocfilehash: 8596d23356fd8eda733938ad3a6fc0fbe81fcce3
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 2389dcfe70108e261208191bd3674eced702b4c6
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011658"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434152"
 ---
 # <a name="step-1-device-and-app-readiness"></a>Etapa 1: preparação de dispositivos e aplicativos
 
@@ -35,9 +35,8 @@ ms.locfileid: "44011658"
 </thead>
 </table>
 
->[!NOTE]
->A Preparação de Dispositivo e Aplicativos é a primeira etapa dos nossos processos de implantação recomendados, cobrindo os aspectos abrangentes da compatibilidade de aplicativos e hardware.  Para ver o processo completo de implantação de desktop, visite o [Centro de Implantação do Computador](https://aka.ms/HowToShift).
->
+> [!NOTE]
+> A Preparação de Dispositivo e Aplicativos é a primeira etapa dos nossos processos de implantação recomendados, cobrindo os aspectos abrangentes da compatibilidade de aplicativos e hardware.  Para ver o processo completo de implantação de desktop, visite o [Centro de Implantação do Computador](https://aka.ms/HowToShift).
 
 No passado, um grande desafio para a atualização de computadores dos usuários era a compatibilidade entre aplicativos e hardware. A boa notícia ao planejar sua migração para o Windows 10 e para o Microsoft 365 Apps for enterprise é que qualquer aplicativo escrito nos últimos 10 anos funciona no Windows 10, e todos os suplementos e macros do VBA que sua organização usou em versões do Office desde o Office 2010 continuam a funcionar em versões mais recentes do Office, sem precisar de modificações.
 
@@ -47,11 +46,13 @@ Neste artigo, fornecemos orientações sobre esta primeira fase – Preparação
 
 ## <a name="windows-10-compatibility-scan"></a>Verificação de compatibilidade do Windows 10
 
-Antes da implantação do Windows 10, a Microsoft recomenda verificar a preparação do seu dispositivo existente executando o Windows 7 ou 8/8.1. A mídia de instalação do Windows 10 dá suporte a uma opção de linha de comando para o setup.exe executar a atualização, mas apenas verificando a compatibilidade sem realmente executá-la. O ScanOnly pode ser executado como um arquivo em lotes com script ou integrado à sequência de tarefas do Microsoft Endpoint Configuration Manager, incluindo a capacidade de executar o ScanOnly diretamente da rede, deste forma que a mídia de instalação do Windows 10 não é transmitida para o dispositivo. Quando o ScanOnly termina a verificação, os resultados são retornados, através de códigos de retorno, em arquivos de log gerados pelo Setup.EXE.   
+Antes da implantação do Windows 10, a Microsoft recomenda verificar a preparação do seu dispositivo existente executando o Windows 7 ou 8/8.1. A mídia de instalação do Windows 10 dá suporte a uma opção de linha de comando para o setup.exe executar a atualização, mas apenas verificando a compatibilidade sem realmente executá-la. O ScanOnly pode ser executado como um arquivo em lotes com script ou integrado à sequência de tarefas do Microsoft Endpoint Configuration Manager, incluindo a capacidade de executar o ScanOnly diretamente da rede, deste forma que a mídia de instalação do Windows 10 não é transmitida para o dispositivo. Quando o ScanOnly termina a verificação, os resultados são retornados, através de códigos de retorno, em arquivos de log gerados pelo Setup.EXE.
 
 Uma amostra da linha de comando ScanOnly que silenciosamente conclui a verificação de compatibilidade ficaria parecido com o abaixo:
 
-    Setup.EXE /Auto Upgrade /Quiet /NoReboot /Compat ScanOnly
+```dos
+Setup.EXE /Auto Upgrade /Quiet /NoReboot /Compat ScanOnly
+```
 
 Para saber mais sobre o ScanOnly e outras opções de comando de configuração do Windows, verifique as [Opções de Linha de Comando de Instalação do Windows](https://aka.ms/setupswitches).
 
@@ -61,7 +62,7 @@ O Desktop Analytics oferece muitas vantagens em relação aos sistemas de gerenc
 
 Para configurar o Desktop Analytics, primeiro você precisa configurar uma assinatura do Azure e incluir um espaço de trabalho do Azure Log Analytics nela. Uma vez que o serviço Desktop Analytics esteja em execução, será possível inscrever qualquer dispositivo Windows 7 SP1 conectado à Internet ou um dispositivo mais novo por meio das configurações de política de grupo - é simples. Não há agentes para implantar e o fluxo de trabalho visual do Desktop Analytics o guiará da implantação piloto até a produção. Se desejar, é possível exportar dados do Desktop Analytics para as ferramentas de implantação de software, como o Microsoft Endpoint Configuration Manager (Branch Atual), para direcionar as ações para os computadores diretamente e criar coleções à medida que estiverem prontas para implantação.
 
-Se você atualmente não tem o Desktop Analytics configurado para seu ambiente, ou deseja inscrever-se para uma avaliação, acesse a Página do Desktop Analytics](https://www.aka.ms/desktopanalytics) e comece a usar.
+Se você atualmente não tem o Desktop Analytics configurado para seu ambiente, ou deseja inscrever-se para uma avaliação, acesse a [Página do Desktop Analytics](https://www.aka.ms/desktopanalytics) e comece a usar.
 
 ## <a name="device-and-app-readiness-process"></a>Processo de Preparação de Dispositivos e Aplicativos
 
@@ -103,10 +104,9 @@ Conforme remedia problemas da lista, você verá que mais e mais PCs ficam "Pron
 
 ### <a name="configuration-manager-software-inventory-for-application-prioritization"></a>Inventário de Software Configuration Manager para Priorização dos Aplicativos
 
-O inventário de software Configuration Manager é uma alternativa para usar as soluções de análise baseadas em nuvem para a preparação de dispositivo e aplicativo. Você pode usar contagens de instalação e análise em computadores específicos para ajudar a priorizar testes e validação de compatibilidade, definindo pacotes de aplicativos compatíveis com o Windows 10 por meio de configurações de pacote. Enquanto essa opção não oferece a capacidade para comparar as informações de compatibilidade locais através dos serviços de análise da Microsoft, esta pode ser uma solução eficiente para direcionar uma quantidade menor de aplicativos priorizados para teste manual. 
+O inventário de software Configuration Manager é uma alternativa para usar as soluções de análise baseadas em nuvem para a preparação de dispositivo e aplicativo. Você pode usar contagens de instalação e análise em computadores específicos para ajudar a priorizar testes e validação de compatibilidade, definindo pacotes de aplicativos compatíveis com o Windows 10 por meio de configurações de pacote. Enquanto essa opção não oferece a capacidade para comparar as informações de compatibilidade locais através dos serviços de análise da Microsoft, esta pode ser uma solução eficiente para direcionar uma quantidade menor de aplicativos priorizados para teste manual.
 
 Para saber mais, confira [Introdução ao inventário de software no Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) e configurar os requisitos de plataforma em pacotes de aplicativos no [Pacotes e programas no Configuration Manager](https://docs.microsoft.com/mem/configmgr/apps/deploy-use/packages-and-programs).
-
 
 ## <a name="app-assure"></a>Garantia de Aplicativo
 
@@ -116,6 +116,6 @@ Outra ferramenta para ajudar com a compatibilidade de aplicativos do Windows 10 
 
 A análise da área de trabalho não é apenas uma ferramenta que ajuda você a mudar para o Windows 10 e para o Microsoft 365 Apps for enterprise. Depois que os computadores estiverem executando o Windows 10 e o Office 365, você pode usá-lo para ajudar na manutenção da sua implantação e para gerenciar as Atualizações de Recursos semestrais e manter-se atualizado.
 
-## <a name="next-step"></a>Próxima etapa 
+## <a name="next-step"></a>Próxima etapa
 
 ## <a name="step-2-directory-and-network-readiness"></a>[Etapa 2: diretório e preparação de rede](https://aka.ms/mdd2)

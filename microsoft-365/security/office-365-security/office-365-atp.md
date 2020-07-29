@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: A Proteção Avançada contra Ameaças do Office 365 inclui anexos seguros, links seguros, ferramentas antiphishing avançadas, ferramentas de relatório e recursos de inteligência de ameaças.
-ms.openlocfilehash: ffde9288338f14ea23fa39990ccd9363c7fd2a84
-ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
+ms.openlocfilehash: d8a8ab2f5c7de5d57f50ec6b1c26e0fc71ac6616
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45039373"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434044"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Proteção Avançada contra Ameaças do Office 365
 
@@ -85,11 +85,11 @@ Os relatórios são atualizados em tempo real, fornecendo as informações mais 
 
 - [Explorador de Ameaças (ou detecções em tempo real)](threat-explorer.md)
 
-- [Relatório de Status da Proteção contra Ameaças](view-reports-for-atp.md#threat-protection-status-report)
+- [Relatório de status de proteção contra ameaças](view-reports-for-atp.md#threat-protection-status-report)
 
-- [Relatório de Tipos de Arquivo ATP](view-reports-for-atp.md#atp-file-types-report)
+- [Relatório de tipos de arquivo da proteção avançada contra ameaças](view-reports-for-atp.md#advanced-threat-protection-file-types-report)
 
-- [Relatório de Disposição de Mensagem ATP](view-reports-for-atp.md#atp-message-disposition-report)
+- [Relatório de disposição de mensagens da Proteção Avançada contra Ameaças](view-reports-for-atp.md#advanced-threat-protection-message-disposition-report)
 
 - ... e muito mais.
 

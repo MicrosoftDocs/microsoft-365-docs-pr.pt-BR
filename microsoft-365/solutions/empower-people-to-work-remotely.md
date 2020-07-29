@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 07/14/2020
+ms.date: 07/23/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Configure a infraestrutura de segurança e serviços que permita aos seus funcionários trabalharem remotamente em qualquer lugar e a qualquer momento.
-ms.openlocfilehash: 58915d80d9eb81009632971bbfc84a7b681e125e
-ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
+ms.openlocfilehash: 37306a4e4e820d1a21d83eeabf3712a7f6abc99e
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158886"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429879"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Capacite funcionários remotos com o Microsoft 365
 
@@ -36,8 +36,7 @@ O Microsoft 365 tem os recursos para permitir que seus funcionários trabalhem r
 
 ![Capacite funcionários remotos com o Microsoft 365](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
 
-
-| | |
+| Capacidade importante | Descrição |
 |:-------|:-----|
 | Conectado | De qualquer lugar do mundo e a qualquer momento, os funcionários remotos podem acessar: <ul><li>Serviços e dados baseados em nuvem na sua assinatura do Microsoft 365. </li><li>Recursos da organização, como os oferecidos por centros de dados de aplicativos locais.</li></ul> |
 | Seguro | Os logins são protegidos com autenticação multifator (MFA) e os recursos de segurança internos do Microsoft 365 e do Windows 10 protegem contra malwares, ataques maliciosos e perda de dados. |
@@ -53,21 +52,23 @@ Para atender aos critérios para trabalhadores remotos, use esses recursos e fun
 
 | Capcidade ou recurso | Descrição | Licenças |
 |:-------|:-----|:-------|
-| MFA imposta com padrões de segurança   | Proteja-se contra os dispositivos e identidades comprometidos exigindo uma segunda forma de autenticação para as entradas. O padrão de segurança exige MFA para todas as contas de usuário.   | Microsoft 365 E3 e e5 |
-| MFA imposta com Acesso Condicional| Exija MFA com base nas propriedades da entrada com políticas de Acesso Condicional.    | Microsoft 365 E3 e e5 | 
+| MFA imposta com padrões de segurança   | Proteja-se contra os dispositivos e identidades comprometidos exigindo uma segunda forma de autenticação para as entradas. O padrão de segurança exige MFA para todas as contas de usuário.   | Microsoft 365 E3 ou E5 |
+| MFA imposta com Acesso Condicional| Exija MFA com base nas propriedades da entrada com políticas de Acesso Condicional.    | Microsoft 365 E3 ou E5 | 
 | MFA imposta com Acesso Condicional baseado em risco   | Exija a MFA com base no risco do logon do usuário com a Proteção Avançada contra Ameaças do Azure. | Microsoft 365 E5 ou E3 com as licenças do Azure AD Premium P2 | 
-| Redefinição de Senha por autoatendimento (SSPR)    | Permita que os usuários redefinam ou desbloqueiem suas contas ou senhas.  | Microsoft 365 E3 e e5 |
+| Redefinição de Senha por autoatendimento (SSPR)    | Permita que os usuários redefinam ou desbloqueiem suas contas ou senhas.  | Microsoft 365 E3 ou E5 |
 | Proxy do Aplicativo Azure AD    | Forneça acesso remoto seguro para aplicativos baseados na web hospedados em servidores da intranet.   | Exige uma assinatura paga do Azure paga |
 | VPN de Ponto a Site do Azure   | Criar uma conexão segura do dispositivo de um trabalhador remoto para sua intranet por meio de uma rede virtual do Azure.   | Exige uma assinatura paga do Azure paga |
 | Área de Trabalho Virtual do Windows   | Suporte a funcionários remotos que só podem usar seus dispositivos pessoais e não gerenciados com as áreas de trabalho virtuais que estão sendo executadas no Azure. | Exige uma assinatura paga do Azure paga |
-| Serviços de Área de Trabalho Remota (RDS) | Permitir que os funcionários se conectem a computadores baseados no Windows na intranet. | Microsoft 365 E3 e e5 | 
+| Serviços de Área de Trabalho Remota (RDS) | Permitir que os funcionários se conectem a computadores baseados no Windows na intranet. | Microsoft 365 E3 ou E5 | 
 | Gateway dos Serviços de Área de Trabalho Remota   | Criptografe comunicações e impeça que os hosts RDS sejam expostos diretamente à Internet. | Exige licenças separadas do Windows Server |
-| Microsoft Intune | Gerenciar dispositivos e aplicativos.   | Microsoft 365 E3 e e5 | 
+| Microsoft Intune | Gerenciar dispositivos e aplicativos.   | Microsoft 365 E3 ou E5 | 
 | Gerenciador de Configurações | Gerenciar instalações, atualizações e configurações de software em seus dispositivos | Exige licenças separadas do Configuration Manager |
 | Análise de Área de Trabalho | Determine a prontidão de atualização dos seus clientes Windows.   | Exige licenças separadas do Configuration Manager |
-| Windows Autopilot | Configure e configure novamente os novos dispositivos com Windows 10 para uso produtivo.   | Microsoft 365 E3 e e5 |
-| Microsoft Teams, Exchange Online, SharePoint Online e OneDrive, Microsoft 365 Apps, Microsoft Power Platform, Yammer, Power Apps | Criar, comunicar e colaborar. | Microsoft 365 E3 e E5 |
+| Windows Autopilot | Configure e configure novamente os novos dispositivos com Windows 10 para uso produtivo.   | Microsoft 365 E3 ou E5 |
+| Microsoft Teams, Exchange Online, SharePoint Online e OneDrive, Microsoft 365 Apps, Microsoft Power Platform, Yammer, Power Apps | Criar, comunicar e colaborar. | Microsoft 365 E3 ou E5 |
 ||||
+
+Para critérios de segurança e conformidade para funcionários remotos, confira [Implantar segurança e conformidade para funcionários remotos](empower-people-to-work-remotely-security-compliance.md)
 
 <a name="poster"></a> Para obter um resumo de 2 páginas desse cenário, consulte o pôster [Capacitar trabalhadores remotos](../downloads/empower-remote-workers.pdf).
 

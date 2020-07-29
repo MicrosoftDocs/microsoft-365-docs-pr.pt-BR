@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 06/22/2020
+ms.date: 07/23/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Use os serviços de segurança e conformidade do Microsoft 365 para proteger seus aplicativos, dados e dispositivos para funcionários remotos.
-ms.openlocfilehash: 5ba60a04cf6717f8f9261ed72336445c8d7876bc
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 82c86ae2ab53c642a1fcdb64a9bbb75e04d5f6fc
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127068"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429891"
 ---
 # <a name="step-3-deploy-security-and-compliance-for-remote-workers"></a>Etapa 3: implantar segurança e conformidade para funcionários remotos
 
@@ -47,9 +47,9 @@ Proteja seus aplicativos e dados com estes recursos de segurança do Microsoft 3
 
 | Capcidade ou recurso | Descrição | Licenças |
 |:-------|:-----|:-------|
-| Proteção Avançada contra Ameaças do Office 365 (ATP) | Proteja seus aplicativos e dados da Microsoft 365— como mensagens de email, documentos do Office e ferramentas de colaboração—de um ataque. <br><br> O ATP do Office coleta e analisa sinais de seus aplicativos para detecção, investigação e correção de riscos de segurança e salvaguarda a sua organização contra ameaças maliciosas, representadas por mensagens de email, links (URLs) e ferramentas de colaboração. | Microsoft 365 E3 e E5 | 
-| Proteção contra malware | O Windows Defender Antivirus e o Windows Device Guard fornecem proteção contra malware baseada em dispositivo. <br><br> O SharePoint online examina automaticamente os carregamentos de arquivos para malwares conhecidos. ‎<br><br> A proteção do Exchange Online (EOP) protege as caixas de correio na nuvem. | Microsoft 365 E3 e E5 |
-| Microsoft Defender ATP | Proteja os dispositivos da sua organização contra violações de dados e ameaças cibernéticas e detecte, investigue e responda a ameaças avançadas. | Microsoft 365 E5 |
+| Proteção Avançada contra Ameaças do Office 365 (ATP) | Proteja seus aplicativos e dados da Microsoft 365— como mensagens de email, documentos do Office e ferramentas de colaboração—de um ataque. <br><br> O ATP do Office coleta e analisa sinais de seus aplicativos para detecção, investigação e correção de riscos de segurança e salvaguarda a sua organização contra ameaças maliciosas, representadas por mensagens de email, links (URLs) e ferramentas de colaboração. | Microsoft 365 E3 ou E5 | 
+| Proteção contra malware | O Windows Defender Antivirus e o Windows Device Guard fornecem proteção contra malware baseada em dispositivo. <br><br> O SharePoint online examina automaticamente os carregamentos de arquivos para malwares conhecidos. ‎<br><br> A proteção do Exchange Online (EOP) protege as caixas de correio na nuvem. | Microsoft 365 E3 ou E5 |
+| O Microsoft Defender ATP | Proteja os dispositivos da sua organização contra violações de dados e ameaças cibernéticas e detecte, investigue e responda a ameaças avançadas. | Microsoft 365 E5 |
 | Microsoft Cloud App Security | Proteja os serviços baseados em nuvem—tanto o Microsoft 365 quanto outros aplicativos SaaS — contra ataque. | Licença do Microsoft 365 E5 ou licença individual do Microsoft Cloud App Security |
 | Proteção de Identidade do Azure AD  | Automatize a detecção e correção de riscos baseados em identidade. <br><br>Crie políticas de acesso condicional com base em risco para exigir a autenticação multifator (MFA) para entradas arriscadas. | Microsoft 365 E5 ou E3 com as licenças do Azure AD Premium P2 |
 ||||
@@ -62,13 +62,15 @@ Cumpra os requisitos normativos ou políticas internas com estes recursos de con
 
 | Capcidade ou recurso | Descrição | Licenças |
 |:-------|:-----|:-------|
-| Rótulos de confidencialidade | Classifique e proteja os dados da organização sem atrapalhar a produtividade e a capacidade de colaboração dos usuários, colocando rótulos com vários níveis de proteção em emails, arquivos ou sites. | Microsoft 365 E3 e E5 |
-| Proteção contra Perda de Dados (DLP)  | Detectar, avisar e bloquear compartilhamento arriscado, inadvertido ou impróprio, como o compartilhamento de dados com informações pessoais, interna e externamente. | Microsoft 365 E3 e E5 | 
-| Controle de Aplicativos de Acesso Condicional | Impeça que dados confidenciais sejam baixados em dispositivos pessoais dos usuários. | Microsoft 365 E3 e E5 |
-| Rótulos e políticas de retenção de dados | Implemente controles de governança de informações, como por quanto tempo manter os dados e os requisitos sobre o armazenamento de dados pessoais dos clientes, para estar em conformidade com as políticas da sua organização ou com as regulamentações de dados. | Microsoft 365 E3 e E5 |
-| Criptografia de Mensagem do Office (OME) | Envie e receba mensagens de email criptografadas entre as pessoas dentro e fora da sua organização que contenham dados regulados, como dados pessoais de clientes. | Microsoft 365 E3 e E5 |
-| Gerente de Conformidade | Gerencie as atividades de conformidade regulatória relacionadas aos serviços de nuvem da Microsoft com esta ferramenta de avaliação de risco baseada em fluxo de trabalho no Portal de Confiança do Serviço da Microsoft. | Microsoft 365 E3 e E5 |
-| Pontuação de Conformidade (visualização) | Veja uma pontuação geral da configuração de conformidade atual e recomendações para melhorá-la no Centro de Conformidade do Microsoft 365. | Microsoft 365 E3 e E5 |
+| Rótulos de confidencialidade | Classifique e proteja os dados da organização sem atrapalhar a produtividade e a capacidade de colaboração dos usuários, colocando rótulos com vários níveis de proteção em emails, arquivos ou sites. | Microsoft 365 E3 ou E5 |
+| Proteção contra Perda de Dados (DLP)  | Detectar, avisar e bloquear compartilhamento arriscado, inadvertido ou impróprio, como o compartilhamento de dados com informações pessoais, interna e externamente. | Microsoft 365 E3 ou E5 | 
+| Controle de Aplicativos de Acesso Condicional | Impeça que dados confidenciais sejam baixados em dispositivos pessoais dos usuários. | Microsoft 365 E3 ou E5 |
+| Rótulos e políticas de retenção de dados | Implemente controles de governança de informações, como por quanto tempo manter os dados e os requisitos sobre o armazenamento de dados pessoais dos clientes, para estar em conformidade com as políticas da sua organização ou com as regulamentações de dados. | Microsoft 365 E3 ou E5 |
+| Criptografia de Mensagem do Office (OME) | Envie e receba mensagens de email criptografadas entre as pessoas dentro e fora da sua organização que contenham dados regulados, como dados pessoais de clientes. | Microsoft 365 E3 ou E5 |
+| Gerente de Conformidade | Gerencie as atividades de conformidade regulatória relacionadas aos serviços de nuvem da Microsoft com esta ferramenta de avaliação de risco baseada em fluxo de trabalho no Portal de Confiança do Serviço da Microsoft. | Microsoft 365 E3 ou E5 |
+| Pontuação de Conformidade (visualização) | Veja uma pontuação geral da configuração de conformidade atual e recomendações para melhorá-la no Centro de Conformidade do Microsoft 365. | Microsoft 365 E3 ou E5 |
+| Conformidade em comunicações  | Detecte, capture e execute ações de correção para mensagens inadequadas em sua organização. | Microsoft 365 E5 ou Microsoft 365 E3 com os complementos de conformidade e gerenciamento de risco interno do Office Insider |
+| Gerenciamento de riscos internos |  Detecção, investigação e ações maliciosas e inadvertidas em sua organização. O Microsoft 365 pode detectar esses tipos de atividades mesmo quando um trabalhador está usando um dispositivo não gerenciado. | Microsoft 365 E5 ou Microsoft 365 E3 com os complementos de conformidade e gerenciamento de risco interno do Office Insider |
 ||||
 
 Confira [As 12 principais tarefas para as equipes de segurança dar suporte ao trabalho em casa](../security/top-security-tasks-for-remote-work.md).

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba como configurar as políticas de prevenção contra perda de dados (DLP) para usar a prevenção contra perda de dados do Endpoint (EPDLP) da Microsoft 365.
-ms.openlocfilehash: c65b1f7ed97fc0400d88eecadfa2081a940bac41
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 38300769a4d6d3a4093fe403e79f5b13e71f2c1c
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199957"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430239"
 ---
 # <a name="using-endpoint-data-loss-prevention-preview"></a>Usando a prevenção contra perda de dados do EndPoint (visualização)
 
@@ -108,15 +108,14 @@ Esses cenários exigem que você já tenha dispositivos integrados e relatados n
 3. Para esse cenário, escolha **Privacidade**, em seguida **Dados de informações de identificação pessoal (PII) dos EUA** e escolha **Próximo**.
 4. Alterne o campo **Status** para desativado em todos os locais, exceto os **Dispositivos**.  Escolha **Próximo**.
 5. Aceite a seleção padrão **Revisar e personalizar as configurações do modelo** e escolha **Próximo**.
-6. Aceite as seleções padrão **Detectar quando esse conteúdo é compartilhado** e **Com pessoas de fora da minha organização** e escolha **Próximo**.
-7. Aceite os valores padrão de **Ações de proteção** e escolha **Próximo**.
-8. Selecione **Auditoria ou restringir atividades em dispositivos de Windows** e deixe as ações definidas como **Somente auditar**. Escolha **Próximo**.
-9. Aceite o valor padrão **Eu quero testá-lo primeiro** e escolha **Mostrar dicas de política enquanto estiver no modo de teste**. Escolha **Próximo**.
-10. Examine as configurações e escolha **Enviar**.
-11. A nova política DLP será exibida na lista de políticas.
-12. Verificar o Explorador de atividade para obter pontos de extremidade monitorados. Defina o filtro local para dispositivos e adicione a política, em seguida, filtre por nome da política para ver o impacto dessa política. Confira [Começar a usar o explorador de atividades](data-classification-activity-explorer.md) se necessário.
-13. Tentativa de compartilhar um teste contendo conteúdo que disparará a Condição de Dados de Informações de Identificação Pessoal (PII) dos EUA com alguém fora da sua organização. Isso deve desencadear a política.
-14. Verifique o Explorador de atividades para obter o evento.
+6. Aceite os valores padrão de **Ações de proteção** e escolha **Próximo**.
+7. Selecione **Auditoria ou restringir atividades em dispositivos de Windows** e deixe as ações definidas como **Somente auditar**. Escolha **Próximo**.
+8. Aceite o valor padrão **Eu quero testá-lo primeiro** e escolha **Mostrar dicas de política enquanto estiver no modo de teste**. Escolha **Próximo**.
+9. Examine as configurações e escolha **Enviar**.
+10. A nova política DLP será exibida na lista de políticas.
+11. Verificar o Explorador de atividade para obter pontos de extremidade monitorados. Defina o filtro local para dispositivos e adicione a política, em seguida, filtre por nome da política para ver o impacto dessa política. Confira [Começar a usar o explorador de atividades](data-classification-activity-explorer.md) se necessário.
+12. Tentativa de compartilhar um teste contendo conteúdo que disparará a Condição de Dados de Informações de Identificação Pessoal (PII) dos EUA com alguém fora da sua organização. Isso deve desencadear a política.
+13. Verifique o Explorador de atividades para obter o evento.
 
 ### <a name="scenario-2-modify-the-existing-policy-set-an-alert"></a>Cenário 2: Modificar a política existente, definir um alerta
 
