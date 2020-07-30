@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: Uma breve descrição do que os administradores do Exchange Online precisam fazer para exibir e configurar as configurações S/MIME no Outlook na Web no Exchange Online.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2c1496025124717688cc812e22e0d8fe3a441112
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: b9f4e6c33369640ad66956568959dd02b01c4fb9
+ms.sourcegitcommit: df59c83174d845b8ddec48b9be2659fbfb58bb7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616617"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46517480"
 ---
 # <a name="configure-smime-settings-in-exchange-online-for-outlook-on-the-web"></a>Configurar as definições S/MIME no Exchange Online para Outlook na Web
 
@@ -31,7 +31,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-SmimeC
 
 ## <a name="considerations-for-new-microsoft-edge-chromium-based"></a>Considerações para o novo Microsoft Edge (baseado em Chromium)
 
-Para usar S/MIME no Outlook na Web no novo navegador da Web do [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) , você (ou outro administrador) deve definir e configurar a política de navegador do Microsoft Edge chamada **ExtensionInstallForcelist** para instalar a extensão S/MIME da Microsoft em novo Microsoft Edge. O valor da política é `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` . E observe que a aplicação dessa política requer computadores associados a um domínio, portanto, usar S/MIME no novo navegador do Microsoft Edge requer efetivamente computadores associados ao domínio.
+Para usar S/MIME no Outlook na Web no novo navegador da Web do [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) , você (ou outro administrador) deve definir e configurar a política de navegador do Microsoft Edge chamada **ExtensionInstallForcelist** para instalar a extensão S/MIME da Microsoft no novo Microsoft Edge. O valor da política é `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` . E observe que a aplicação dessa política requer dispositivos ingressados no domínio ou no AD do Azure, portanto, usar S/MIME no novo navegador do Microsoft Edge requer com eficiência os dispositivos ingressados no domínio ou no AD do Azure.
 
 Para obter detalhes sobre a política **ExtensionInstallForcelist** , consulte [ExtensionInstallForcelist](https://docs.microsoft.com/DeployEdge/microsoft-edge-policies#extensioninstallforcelist).
 

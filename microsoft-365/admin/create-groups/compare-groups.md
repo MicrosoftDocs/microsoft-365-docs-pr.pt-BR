@@ -4,7 +4,7 @@ ms.reviewer: arvaradh
 f1.keywords: CSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Saiba mais sobre os tipos de grupos que você pode usar.
-ms.openlocfilehash: 333d929e72647421951eefa50508c23dddc196ac
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: ee8d14035ed9eb8296c54510b8fe1d374c9dc2b2
+ms.sourcegitcommit: f3a02584c9354a46c082f8f948b34a177adf65bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780452"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46514762"
 ---
 # <a name="compare-groups"></a>Comparar grupos
 
@@ -55,6 +55,8 @@ Os [grupos de distribuição](https://docs.microsoft.com/exchange/recipients-in-
 
 Os grupos de distribuição são ideais para situações em que você precisa transmitir informações a um determinado grupo de pessoas, como "Pessoas do Edifício A" ou "Todos da Contoso".
 
+Os grupos de distribuição podem ser [atualizados para os Grupos do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/manage/upgrade-distribution-lists).
+
 ## <a name="security-groups"></a>Grupos de segurança
 
 Os [grupos de segurança](../email/create-edit-or-delete-a-security-group.md) são usados para conceder acesso aos recursos do Microsoft 365, como o SharePoint. Você precisará administrar apenas o grupo em vez de adicionar usuários a cada recurso individualmente, facilitando a administração.
@@ -82,3 +84,5 @@ Atualmente, não é possível migrar uma caixa de correio compartilhada para um 
 ## <a name="related-articles"></a>Artigos relacionados
 
 [Saiba mais sobre os grupos do Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+
+[Por que você deve atualizar suas listas de distribuição para grupos no Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)

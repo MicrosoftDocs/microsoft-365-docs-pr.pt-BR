@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Saiba como iniciar a coleta de dados para o seu locatário usando o aplicativo de modelo de análise de uso do Microsoft 365 no Power BI.
-ms.openlocfilehash: fa0973521f5a5e7e8b9b0fda161a5b4779d64c68
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 20228b0e2070065834ce203e22af619480311367
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401501"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46502944"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Habilitar análise de uso do Microsoft 365
 
@@ -36,7 +36,7 @@ ms.locfileid: "44401501"
 
 ::: moniker-end
 
-A análise de uso do Microsoft 365 também está disponível para a Comunidade do governo dos EUA da Microsoft 365.
+A análise de uso do Microsoft 365 ainda não está disponível para a Comunidade do governo dos EUA da Microsoft 365.
   
 ## <a name="steps-to-enable-microsoft-365-usage-analytics"></a>Etapas para habilitar a análise de uso do Microsoft 365
 

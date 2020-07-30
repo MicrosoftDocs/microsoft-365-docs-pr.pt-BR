@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador do serviço abre tíquetes de suporte da Microsoft.
-ms.openlocfilehash: e76024f1d13e9210b74e2f6c4fc63c9992615099
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 361c6599dfccbe7a80fa520bcd1fa988a1fae536
+ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015906"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506280"
 ---
 # <a name="about-admin-roles"></a>Sobre funções de administrador
 
@@ -61,7 +61,7 @@ No Centro de administração do Microsoft 365, você pode acessar **Funções** 
 
 ::: moniker-end
 
-Provavelmente, você só precisará atribuir as funções a seguir em sua organização. Por padrão, vamos primeiro mostrar as funções que a maioria das organizações usa. Se você não conseguir encontrar uma função, vá para a parte inferior da lista e selecione **Ver mais funções**. "(Para obter informações detalhadas, incluindo os cmdlets associados a uma função, confira [Permissões de função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).)
+Provavelmente, você só precisará atribuir as funções a seguir em sua organização. Por padrão, vamos primeiro mostrar as funções que a maioria das organizações usa. Se você não conseguir encontrar uma função, vá para a parte inferior da lista e selecione **Mostrar tudo por categoria**. "(Para obter informações detalhadas, incluindo os cmdlets associados a uma função, confira [Permissões de função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).)
 
 |Função do administrador     |Quem deve ser atribuído com esta função?  |
 |---------|---------|

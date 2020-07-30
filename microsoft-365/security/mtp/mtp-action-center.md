@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: c3406ebf5962d6f0ac08c1ee280bab725cf1c3bd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 77bc0f088a9779396a56a9cc8cc9ae6ecbdadea7
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626953"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46503098"
 ---
 # <a name="the-action-center"></a>A Central de Ações
 
@@ -59,12 +59,26 @@ Sua equipe de operações de segurança pode operar de maneira mais eficaz e efi
 
 5. Selecione um item na lista para exibir mais detalhes sobre uma investigação. A visualização de detalhes da investigação abrirá.<br/>![Detalhes da investigação](../../media/mtp-air-investdetails.png)
 
-    - Se a investigação pertencer ao conteúdo de email (como a entidade é uma caixa de correio), detalhes de investigação abertos no centro de conformidade do[https://protection.office.com/threatinvestigation](https://protection.office.com/threatinvestigation)& de segurança (). 
+    - Se a investigação pertencer ao conteúdo de email (como a entidade é uma caixa de correio), detalhes de investigação abertos no centro de conformidade do & de segurança ( [https://protection.office.com/threatinvestigation](https://protection.office.com/threatinvestigation) ). 
 
     - Se a investigação envolve um dispositivo, detalhes de investigação abrirão na central de segurança ([https://security.microsoft.com](https://security.microsoft.com)). 
 
 > [!TIP]
 > Se você acha que algo foi perdido ou detectado incorretamente por recursos de investigação e resposta automatizados na proteção contra ameaças da Microsoft, vamos nos lembrar! Veja [como relatar falsos positivos/negativos em recursos de investigação e resposta automatizados (Air) no Microsoft Threat Protection](mtp-autoir-report-false-positives-negatives.md).
+
+## <a name="available-actions"></a>Ações disponíveis
+
+Como as ações de correção são tomadas, elas são listadas na guia histórico na central de ações. Essas ações incluem o seguinte:
+
+- Coletar pacote de investigação 
+- Isolar dispositivo (esta ação pode ser desfeita) 
+- Máquina externamente 
+- Versão de execução de código 
+- Liberar da quarentena 
+- Exemplo de solicitação 
+- Restringir a execução de código (essa ação pode ser desfeita) 
+- Executar verificação antivírus 
+- Parar e colocar em quarentena 
 
 ## <a name="required-permissions-for-action-center-tasks"></a>Permissões necessárias para tarefas da Central de ações
 
@@ -73,7 +87,7 @@ Para aprovar ou rejeitar ações pendentes na Central de ações, você deve ter
 |Ação de correção |Funções e permissões necessárias |
 |--|----|
 |Correção do Microsoft Defender ATP (dispositivos) |Função Administrador de Segurança atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---ou---<br/>Função de Ações de correção ativa atribuídas ao Microsoft defender ATP <br/> <br/> Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Criar e gerenciar funções para controle de acesso baseado em função (Microsoft Defender ATP)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles)  |
-|Correção do Office 365 ATP (conteúdo e email do Office)  |Função Administrador de Segurança atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---e--- <br/>A função de pesquisa e limpeza atribuiu o centro de[https://protection.office.com](https://protection.office.com)conformidade de & de segurança () <br/><br/>**Importante**: se você tiver a função de administrador de segurança atribuída somente no centro de conformidade & segurança, não será possível acessar a central de ações ou os recursos de proteção contra ameaças da Microsoft. Você deve ter a função Administrador de Segurança atribuída no Azure Active Directory ou no centro de administração do Microsoft 365. <br/><br/>Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Permissões no centro de conformidade & segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
+|Correção do Office 365 ATP (conteúdo e email do Office)  |Função Administrador de Segurança atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---e--- <br/>A função de pesquisa e limpeza atribuiu o centro de conformidade de & de segurança ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**Importante**: se você tiver a função de administrador de segurança atribuída somente no centro de conformidade & segurança, não será possível acessar a central de ações ou os recursos de proteção contra ameaças da Microsoft. Você deve ter a função Administrador de Segurança atribuída no Azure Active Directory ou no centro de administração do Microsoft 365. <br/><br/>Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Permissões no centro de conformidade & segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
 
 > [!NOTE]
 > Os usuários que têm a função Administrador Global atribuída no Azure Active Directory podem aprovar ou rejeitar qualquer ação pendente na Central de ações. No entanto, como uma prática recomendada, sua organização deve limitar o número de pessoas que têm a função de Administrador Global atribuída. É recomendável usar o Administrador de Segurança, Ações de correção ativa e as funções Pesquisar e Limpar, listadas acima, para permissões da Central de ações.

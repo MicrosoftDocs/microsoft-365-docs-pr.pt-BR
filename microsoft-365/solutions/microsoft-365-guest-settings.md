@@ -15,12 +15,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Saiba mais sobre as configurações de compartilhamento de convidados disponíveis no Microsoft 365 que podem afetar o compartilhamento com pessoas de fora da sua organização.
-ms.openlocfilehash: 35a1a20e65eccddcb1117f9def09bd4fdfc7f161
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 05cd46be7b7dd81d04fa65d89b47f19e6dbb2493
+ms.sourcegitcommit: f3a02584c9354a46c082f8f948b34a177adf65bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679139"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46514784"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Referência de configurações de compartilhamento de convidados do Microsoft 365
 
@@ -37,7 +37,7 @@ O Azure Active Directory é o serviço de diretório usado pelo Microsoft 365. A
 
 ### <a name="organizational-relationships-settings"></a>Configurações das relações organizacionais
 
-**Navegação:** [Centro de Administração do Azure Active Directory](https://aad.portal.azure.com) > Azure Active Directory > Relações organizacionais > Configurações
+**Navegação:** [Centro de Administração do Azure Active Directory](https://aad.portal.azure.com) > Azure Active Directory > Identidades Externas > Configurações de Colaboração Externas
 
 ![Captura de tela da página de configurações das Relações Organizacionais do Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
 
@@ -60,7 +60,7 @@ O Centro de administração do Microsoft 365 tem configurações no nível da or
 
 ### <a name="sharing"></a>Compartilhamento
 
-**Navegação:**[Centro de administração do Microsoft 365](https://admin.microsoft.com) > Configurações > Configurações> Segurança e Privacidade > Compartilhamento
+**Navegação:**[Centro de administração do Microsoft 365](https://admin.microsoft.com) > Configurações > Configurações da Organização > Segurança e Privacidade > Compartilhamento
 
 ![Captura de tela da configuração de segurança e privacidade do compartilhamento de convidado no centro de administração do Microsoft 365](../media/sharepoint-security-privacy-sharing-setting.png)
 

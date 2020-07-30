@@ -1,10 +1,10 @@
 ---
-title: Usando a inscrição de autoatendimento em sua organização
+title: Usando o autoatendimento inscreva-se na sua instituição
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,20 +17,17 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_SMB
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 ms.assetid: 4f8712ff-9346-4c6c-bb63-a21ad7a62cbd
-description: Saiba mais sobre os programas de autoatendimento do Microsoft 365 de autoatendimento e disponíveis, como os aplicativos de alimentação da Microsoft, o Microsoft Flow e o Dynamics 365 para finanças.
-ms.openlocfilehash: d2d4d23eeb3ddeda0dc5b66acfe072a66f4ce267
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Saiba mais sobre os programas de autoatendimento do Microsoft 365 de inscrição automática e disponíveis, como os aplicativos de alimentação da Microsoft, o Microsoft Flow e o Dynamics 365 para finanças.
+ms.openlocfilehash: 4a95c4b98821100d0a5164b87c1afe02b854608b
+ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399285"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506292"
 ---
-# <a name="using-self-service-sign-up-in-your-organization"></a>Usando a inscrição de autoatendimento em sua organização
+# <a name="using-self-service-sign-up-in-your-organization"></a>Usando o autoatendimento inscreva-se na sua instituição
 
 Vamos ouvir seus comentários e tornar mais fácil para os usuários em sua organização inscrever-se nos serviços online da Microsoft. Chamamos esse novo processo de inscrição de "inscrição de autoatendimento", pois seus usuários podem se inscrever para usar os serviços pagos pela sua assinatura ou usar serviços gratuitos, sem pedir que você execute a ação em seu nome.
   
@@ -68,3 +65,4 @@ A seguir estão os programas autoatendimento disponíveis atualmente. Essa lista
 |**Microsoft Stream** <br/> |Carregue e compartilhe vídeos em sua organização para melhorar a comunicação, a participação e o aprendizado.  <br/> |[Experiência do &amp; dia de inscrição 0](https://go.microsoft.com/fwlink/p/?linkid=841472) <br/> |[Microsoft Stream](https://go.microsoft.com/fwlink/p/?linkid=841473) <br/> |
 |**Power Automate** <br/> |A automatização de energia é um produto para ajudá-lo a configurar fluxos de trabalho automatizados entre seus aplicativos e serviços favoritos para sincronizar arquivos, obter notificações, coletar dados e muito mais.  <br/> |[Inscreva-se e entre para automatizar a alimentação](https://docs.microsoft.com/power-automate/sign-up-sign-in) <br/> |[Power Automate](https://go.microsoft.com/fwlink/p/?linkid=841465) <br/> |
 |**Agentes virtuais do Power** <br/> |Os agentes virtuais de alimentação capacitam o Teams a criar facilmente bots poderosos usando uma interface gráfica orientada e sem código, sem a necessidade de cientistas ou desenvolvedores de dados. Os agentes virtuais de alimentação resolvem muitos dos principais problemas com a criação de bot no setor atualmente. Ele elimina a lacuna entre os especialistas no assunto e as equipes de desenvolvimento que montam os bots, e a longa latência entre as equipes que reconhecem um problema e a atualização do bot para o endereçamento.  <br/> |[Detalhes de licenciamento e acesso](https://go.microsoft.com/fwlink/?linkid=2113708) <br/> |[Inscrever-se para agentes virtuais de alimentação](https://aka.ms/TryPVA) <br/> |
+|**B2B do Azure AD** <br/> |O Azure Active Directory (Azure AD) colaboração B2B (Business-to-Business) permite que você convide usuários externos (ou "usuários convidados") para usar seus serviços do Azure AD pagos. Alguns recursos são gratuitos, mas para qualquer recurso pago do Azure AD, você pode convidar até cinco usuários convidados para cada licença do Azure AD Edition que você possui para um funcionário ou um usuário não convidado em seu locatário. <br/> |[Autoatendimento para a inscrição de colaboração B2B do Azure AD](https://docs.microsoft.com/azure/active-directory/b2b/self-service-portal) <br/> |[Orientação de licenciamento de colaboração B2B do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) <br/> |

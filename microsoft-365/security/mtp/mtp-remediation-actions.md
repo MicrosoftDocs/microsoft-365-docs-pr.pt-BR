@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: ca0c557de24320692d903a1136fc434d635f0507
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: e0f76f6a232edeac350d08eeeb47188535ffe688
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955586"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46502932"
 ---
 # <a name="remediation-actions-following-automated-investigations-in-microsoft-threat-protection"></a>Ações de correção após as investigações automatizadas no Microsoft Threat Protection
 
@@ -39,7 +39,7 @@ A tabela a seguir resume as ações de correção que atualmente têm suporte na
 
 |Ações de correção de dispositivo (ponto de extremidade)  |Ações de correção de email  |
 |---------|---------|
-|Arquivo de quarentena<br/>Remover chave do registro<br/>Finalizar processo <br/>Parar serviço <br/>Desabilitar o driver <br/>Remover tarefa agendada      |Exclusão reversível de mensagens de emails ou clusters<br/>Bloquear URL (hora do clique)<br/>Desativar o encaminhamento de emails externo          |
+|– Coletar pacote de investigação <br/>-Isolar dispositivo (esta ação pode ser desfeita)<br/>-Máquina externamente <br/>-Liberar execução de código <br/>– Liberar da quarentena <br/>– Exemplo de solicitação <br/>– Restringir a execução de código (essa ação pode ser desfeita) <br/>– Executar verificação antivírus <br/>– Parar e colocar em quarentena      |-Bloquear URL (tempo de clique)<br/>– Excluir mensagens de email ou clusters<br/>– Email de quarentena<br/>-Colocar um anexo de email em quarentena<br/>– Desativar o encaminhamento de email externo          |
 
 Ações de correção, se estão aguardando aprovação ou já estão concluídas, podem ser exibidas na [central de ações](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center).
 

@@ -1,19 +1,19 @@
 ---
 title: Dispositivos arquivados do Microsoft Managed desktop
 description: Dispositivos próximos à aposentadoria que você ainda pode registrar, mas terão uma vida útil reduzida
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: ca6bc91ebf300afe47326985cc923d929b2cd412
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 4c7ce4e8fd9c41f9ae9417f546e14e7bf8beda5c
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080076"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46503062"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Dispositivos arquivados do Microsoft Managed desktop
 
@@ -43,6 +43,9 @@ Para ser inscrito na área de trabalho gerenciada da Microsoft, um dispositivo d
 |HP EliteBook X360 1030 G3| 256 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho necessária |**14 de maio de 2023** |
 |HP EliteBook X360 1040 G5| 256 GB/Intel i5/8 GB de RAM | SKU com 5VS01AV, câmera de infravermelho necessária | **23 de outubro de 2023** |
 |HP ProBook X360 440 G1| 128 GB/Intel i3/8 GB de RAM | SKU com 5VS04AV, câmera de infravermelho ou leitor de impressão digital necessário | **6 de junho de 2023** |
+|HP EliteDesk 800 G4 DM | 128 GB/Intel i3/8 GB de RAM | SKU com 5VS04AV | **18 de julho de 2023** |
+|HP EliteDesk 800 G4 SFF | 128 GB/Intel i3/8 GB de RAM | SKU com 5VS04AV | **18 de julho de 2023** |
+|HP EliteOne 800 G4 23.8 em AIO |128 GB/Intel i3/8 GB de RAM |SKU com 5VS04AV| **18 de julho de 2023** |
 |Livro de superfície 2| 256 GB/Intel i5/8 GB de RAM | Nenhum | **16 de novembro de 2022** |
 |Ir para a superfície| 128 GB/Intel 4415Y/8GB de RAM | Nenhum | **2 de agosto de 2023** |
 |Laptop de superfície| 256 GB/Intel i5/8 GB de RAM | Nenhum | **20 de maio de 2022** |

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a eliminação de conteúdo, se você usar uma revisão de disposição ou se o conteúdo é excluído automaticamente de acordo com as configurações que você configurou.
-ms.openlocfilehash: 5c8c8c4e99edbc32bbca4b3efbe79325f53a3380
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 2ce0478602fa6b833e53b0b3a41a89b7a0fad03b
+ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127008"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506316"
 ---
 # <a name="disposition-of-content"></a>Disposição do conteúdo
 
@@ -121,16 +121,16 @@ Todas as ações de disposição podem ser auditadas e o texto de justificativa 
 
 O conteúdo que está aguardando uma análise de disposição é excluído somente depois que um revisor escolhe excluir permanentemente o conteúdo. Quando o revisor escolhe essa opção, o conteúdo do site do SharePoint ou da conta do OneDrive fica qualificado para o processo de limpeza padrão descrito em [como as configurações de retenção funcionam com o conteúdo](retention.md#how-retention-settings-work-with-content-in-place)in-loco.
 
-## <a name="disposition-of-records"></a>Disposição de registros
+## <a name="disposition-of-records"></a>Disposição de conteúdo
 
 > [!NOTE]
-> A capacidade de ver os registros que foram excluídos automaticamente sem uma análise de descarte é descontínua para os locatários durante abril e maio de 2020, portanto, talvez você não veja essa experiência imediatamente.
+> A capacidade de ver os registros que foram excluídos automaticamente sem uma análise de descarte ainda é distribuir aos locatários para que você não veja todos os itens descartados durante esse período de distribuição.
 
 Use a guia **disposição** da página **Gerenciamento de registros** para identificar os registros excluídos automaticamente. Estes itens exibem os **registros descartados** na coluna **tipo** . Por exemplo:
 
 ![Itens que foram descartados sem uma revisão de disposição](../media/records-disposed2.png)
 
-Os itens que são mostrados na guia **itens descartados** para rótulos de registro são mantidos por até 7 anos após o item ter sido descartado, com um limite de 1 milhão itens por registro para esse período. Se você vir o número de **contagem** perto desse limite de 1 milhão e precisar de uma prova de disposição para os seus registros, entre em contato com o [suporte da Microsoft](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+Os itens que são mostrados na guia **itens descartados** para rótulos de registro são mantidos por até sete anos após o item ter sido descartado, com um limite de 1 milhão itens por registro para esse período. Se você vir o número de **contagem** perto desse limite de 1 milhão e precisar de uma prova de disposição para os seus registros, entre em contato com o [suporte da Microsoft](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
 > [!NOTE]
 > Essa funcionalidade é baseada nas informações do [log de auditoria unificada](search-the-audit-log-in-security-and-compliance.md) e, portanto, requer que a auditoria seja [habilitada e pesquisável](turn-audit-log-search-on-or-off.md) para que os eventos correspondentes sejam capturados.

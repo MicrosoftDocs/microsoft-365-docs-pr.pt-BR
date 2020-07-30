@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como configurar URLs bloqueadas personalizadas para usuários e não reescrever lista de URLs para um grupo de usuários nas políticas de links seguros de ATP do Office 365.
-ms.openlocfilehash: 183291ef5b43248c5ff3d4e63b03a170416119bf
-ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
+ms.openlocfilehash: 7d7c8ad3f5ae0f6a79bd839151ed09628e7f2dfd
+ms.sourcegitcommit: df59c83174d845b8ddec48b9be2659fbfb58bb7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702531"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46517468"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>Configurar uma lista personalizada de URLs do não Rewrite usando links seguros de ATP
 
@@ -60,11 +60,13 @@ Para editar (ou definir) políticas ATP, você deve ter uma função apropriada 
 
 4. Especifique um nome e uma descrição para a política.
 
-5. Na seção não **reescrever as seguintes URLs** , selecione a caixa **Insira uma URL válida** e, em seguida, digite uma URL e, em seguida, escolha o sinal de adição (+).
+5. Ativar **URLs** será reescrito e verificado em relação a uma lista de links mal-intencionados conhecidos quando o usuário clicar no link.
 
-6. Na seção **aplica-se** a, escolha **o destinatário é um membro de**e, em seguida, escolha o (s) grupo (s) que você deseja incluir na política. Escolha **Adicionar**e, em seguida, escolha **OK**.
+6. Na seção não **reescrever as seguintes URLs** , selecione a caixa **Insira uma URL válida** , insira uma URL e, em seguida, escolha o sinal de adição (+).
 
-7. Quando terminar de adicionar URLs, no canto inferior direito da tela, escolha **salvar**.
+7. Na seção **aplica-se** a, escolha **o destinatário é um membro de**e, em seguida, escolha o (s) grupo (s) que você deseja incluir na política. Escolha **Adicionar**e, em seguida, escolha **OK**.
+
+8. Quando terminar de adicionar URLs, no canto inferior direito da tela, escolha **salvar**.
 
 > [!NOTE]
 > Certifique-se de revisar a lista personalizada de URLs bloqueadas da sua organização. Confira [Configurar uma lista de URLs bloqueadas personalizada usando os links seguros de ATP](set-up-a-custom-blocked-urls-list-atp.md).
