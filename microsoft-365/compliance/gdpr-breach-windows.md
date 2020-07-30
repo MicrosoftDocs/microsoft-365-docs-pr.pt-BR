@@ -1,7 +1,7 @@
 ---
 title: Serviço de processador de dados da notificação do Windows Enterprise no âmbito do GDPR
-description: Como o serviço de processador de dados do Windows Enterprise protege contra uma violação de dados pessoais e como a Microsoft responde e o notifica se ocorrer uma violação.
-keywords: Serviço de processador de dados do Windows Enterprise, Microsoft 365, documentação Microsoft 365, GDPR
+description: Como o serviço de processador de dados do Windows Enterprise protege contra uma violação de dados pessoais e como a Microsoft responderá e o notificará se ocorrer uma violação.
+keywords: Serviço de processador de dados do Windows Enterprise, Microsoft 365, documentação do Microsoft 365, GDPR
 localization_priority: Priority
 ROBOTS: NOINDEX, NOFOLLOW
 ms.prod: Microsoft-365-enterprise
