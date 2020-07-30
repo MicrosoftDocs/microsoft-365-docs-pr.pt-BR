@@ -13,6 +13,7 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -23,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Obtenha o Microsoft 365 para campanhas para que você possa proteger sua campanha contra ameaças cybersecurity a emails, dados e comunicações.
-ms.openlocfilehash: 5c528ab0ee856062a8e012d9fb699da92d7afb78
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 13e0f66b388e9041e1654a7a45226d3204499618
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635619"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527325"
 ---
 # <a name="get-microsoft-365-for-campaigns"></a>Obter o Microsoft 365 para campanhas
 

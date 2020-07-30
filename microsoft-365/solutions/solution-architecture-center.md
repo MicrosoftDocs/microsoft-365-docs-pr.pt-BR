@@ -10,15 +10,14 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 55cb2e396b4e557a9fc6de2bba4a90b962137d7b
-ms.sourcegitcommit: a3ec91423c352cd5fbf79b46ccd9c169455a03ba
+ms.openlocfilehash: 1f9d2d1a8a1c346214fa58f0f6095683bee0b24f
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44664533"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46520964"
 ---
 # <a name="microsoft-365-solution-and-architecture-center"></a>Centro de soluções e arquitetura da Microsoft 365
 
@@ -28,8 +27,8 @@ Este centro de soluções e arquitetura reúne as orientações técnicas de que
 
 - [Capacite funcionários remotos com o Microsoft 365](empower-people-to-work-remotely.md)
 - [Configurar a colaboração segura com o Microsoft 365](setup-secure-collaboration-with-teams.md)
-- [Implantar a proteção contra ameaças no Microsoft 365](deploy-threat-protection.md)
-- [Implantar a proteção de informações para regulamentações de privacidade de dados](information-protection-deploy.md)
+- [Implantar proteção contra ameaças no Microsoft 365](deploy-threat-protection.md)
+- [Implantar a proteção de informações para os regulamentos de privacidade de dados](information-protection-deploy.md)
 
 ![objetos da ](https://docs.microsoft.com/office/media/icons/objects-blue.png) **[solução de carga de trabalho e orientações de cenário](workload-solutions-scenarios-overview.md)** esses cenários e soluções ajudam a realizar um objetivo específico de negócios. Você pode adicioná-los às soluções fundamentais para adicionar recursos ao seu ambiente.
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Saiba como iniciar a coleta de dados para o seu locatário usando o aplicativo de modelo de análise de uso do Microsoft 365 no Power BI.
-ms.openlocfilehash: 20228b0e2070065834ce203e22af619480311367
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: b5cb8df7fbe8ce1844d2af3ecaf62c7903d4e98b
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46502944"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527367"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Habilitar análise de uso do Microsoft 365
 
@@ -86,9 +86,9 @@ Para iniciar o aplicativo de modelo, você deve ser um **administrador global**,
 
 6.  Após clicar em **conectar**, na tela **conectar ao Microsoft 365 Usage Analytics** , digite a ID do locatário (sem traços) que você copiou na etapa (1) e selecione **Avançar**.
     
-7. Na tela seguinte, selecione **oAuth2** como o **método de autenticação** \> **entrar**. Se você escolher qualquer outro método de autenticação, a conexão com o aplicativo de modelo irá falhar.
+7. Na tela seguinte, selecione **conta da Microsoft** como o **método de autenticação** \> **entrar**. Se você escolher qualquer outro método de autenticação, a conexão com o aplicativo de modelo irá falhar.
     
-    ![Choose oAuth2 as authentication method](../../media/ac85a360-c278-4c60-8aa3-68f4828f1d96.png)
+    ![Escolha a conta da Microsoft como método de autenticação](../../media/ab6f0463-c3f7-4088-a605-67c699fa86ad.png)
   
 8. Depois que o aplicativo de modelo é instanciado, o painel de análise de uso do Microsoft 365 estará disponível no Power BI na Web. O carregamento inicial do painel levará entre 2 e 30 minutos.
   

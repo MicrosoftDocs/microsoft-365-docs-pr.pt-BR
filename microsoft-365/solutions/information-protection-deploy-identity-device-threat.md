@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365solutions
+- m365solution-infoprotection
 ms.custom: ''
 description: Evitar violações de dados pessoais com serviços de proteção de identidade, dispositivo e ameaça do Microsoft 365.
-ms.openlocfilehash: 74894037ef2fe56aeb5bc44340cd8a946863baff
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: a309b5d0ba5f939cf89a31d7ac91ca3aac25ce0d
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695074"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46520976"
 ---
 # <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>Usar a proteção de identidade, dispositivo e ameaça para a regulamentação de privacidade de dados
 
@@ -48,7 +48,7 @@ Se eles forem selecionados em nosso conjunto de exemplos de quatro maiores regul
 Use o [Azure Active Directory (Azure AD)](https://azure.microsoft.com/services/active-directory/) para identidade e a categoria **acesso de controle** , com a qual você pode:
 
 - Implementar a autenticação resistente à repetição (para evitar ataques de interceptação)
-- Bloquear autenticação herdada.
+- Bloquear a autenticação herdada.
 - Configure o risco do usuário e as políticas de risco de entrada do usuário.
 - Habilitar o acesso condicional e a MFA (autenticação multifator) para administradores e não administradores.
 - Configurar e impor diretivas de senha.

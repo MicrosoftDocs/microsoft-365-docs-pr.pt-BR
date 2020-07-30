@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365solutions
+- m365solution-infoprotection
 ms.custom: ''
 description: Implantar os recursos de segurança e conformidade do Microsoft 365 e proteger suas informações pessoais.
-ms.openlocfilehash: 99ac0f9e29c161ffa26362976f83584c9b168026
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 8e7d037218b4d67e9ba7f450bd1a5235b1ae164f
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126439"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46520988"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Proteger informações sujeitas à regulamentação de privacidade de dados
 
@@ -31,7 +31,7 @@ Esses controles estão nas seguintes áreas de solução:
 
 - Rótulos de confidencialidade
 - Prevenção de perda de dados (DLP)
-- Criptografia de mensagem do Office (OME)
+- Criptografia de Mensagem do Office (OME)
 - Controles de acesso a equipes e sites
 
 ![Serviços essenciais para proteger informações pessoais sujeitas à regulamentação de privacidade de dados](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-grid.png)
@@ -68,7 +68,7 @@ Para ajudá-lo a começar a usar um esquema de proteção de informações no Mi
 
 - [Criptografia de serviço com a chave do cliente](../compliance/customer-key-overview.md)
 - [Tipos de informações confidenciais](../compliance/what-the-sensitive-information-types-look-for.md) (descrito no [artigo avaliar riscos de privacidade de dados e identificar itens confidenciais](information-protection-deploy-assess.md))
-- [Rótulos de confidencialidade](../compliance/sensitivity-labels.md) 
+- [Rótulos de confidencialidade ](../compliance/sensitivity-labels.md) 
   - Nível de serviço/contêiner
   - No cliente/nível de conteúdo
   - Automatizado para dados em repouso no SharePoint e no OneDrive

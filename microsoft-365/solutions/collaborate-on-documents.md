@@ -9,18 +9,19 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-- M365solutions
+- m365solution-3tiersprotection
+- m365solution-securecollab
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Neste artigo, você aprenderá como colaborar com convidados em um documento no SharePoint e no OneDrive.
-ms.openlocfilehash: 82b9d6356144d6d465c7c94f58ec60fe96a1397a
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: cb3c527304f0d286b4a1a0147d07537b0fae4eda
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159986"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527913"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>Colaborar com convidados em um documento
 
@@ -42,7 +43,7 @@ Verifique as configurações de relações organizacionais para garantir que o c
 
 Para definir as configurações de relação organizacional
 
-1. Faça logon no Microsoft Azure em [https://portal.azure.com](https://portal.azure.com).
+1. Faça logon no Microsoft Azure em [https://portal.azure.com](https://portal.azure.com) .
 2. Na navegação à esquerda, clique em **Azure Active Directory**.
 3. No painel **visão geral** , clique em **relações organizacionais**.
 4. No painel **relações organizacionais** , clique em **configurações**.

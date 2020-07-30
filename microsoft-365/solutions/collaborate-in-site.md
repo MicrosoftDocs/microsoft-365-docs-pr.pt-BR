@@ -9,18 +9,19 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-- M365solutions
+- m365solution-3tiersprotection
+- m365solution-securecollab
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba mais sobre as etapas de configuração do 365 da Microsoft necessárias para configurar um site do SharePoint para colaboração com convidados.
-ms.openlocfilehash: 1f53fa43b6abdfaf21d938bc69db384d173d660e
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 320fb21f19c9616e78f56e519cb804e3e03b2b45
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159998"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527901"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>Colaborar com convidados em um site
 
@@ -44,7 +45,7 @@ Verifique as configurações de relações organizacionais para garantir que o c
 
 Para definir as configurações de relação organizacional
 
-1. Faça logon no Microsoft Azure em [https://portal.azure.com](https://portal.azure.com).
+1. Faça logon no Microsoft Azure em [https://portal.azure.com](https://portal.azure.com) .
 2. Na navegação à esquerda, clique em **Azure Active Directory**.
 3. No painel **visão geral** , clique em **relações organizacionais**.
 4. No painel **relações organizacionais** , clique em **configurações**.
@@ -140,7 +141,7 @@ Para convidar convidados para um grupo
 
 [Limitar a exposição acidental dos arquivos ao compartilhar com convidados](share-limit-accidental-exposure.md)
 
-[Criar um ambiente seguro de compartilhamento para convidados](create-secure-guest-sharing-environment.md)
+[Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
 
 [Crie uma extranet B2B com convidados gerenciados](b2b-extranet.md)
 

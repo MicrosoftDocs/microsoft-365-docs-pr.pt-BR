@@ -5,21 +5,40 @@ keywords: histórico de alterações
 ms.prod: m365-md
 ms.sitesec: library
 author: jaimeo
+ms.topic: article
+audience: ITPro
+manager: laurawi
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 1402cd8c03baa233ece1051a0ab9d7dc3b96b965
-ms.sourcegitcommit: ada2f1c6ca79177cae975d887107ff8884358e8a
+ms.openlocfilehash: 809f94e6355b7c0fe9155734fd548c9cb466cbe7
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "45107594"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46528031"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da Área e trabalho gerenciada da Microsoft
 
 Este artigo lista artigos novos e atualizados na [documentação da área de trabalho gerenciada da Microsoft](index.yml). Os artigos "atualizados" são aqueles que tiveram inclusões de material ou correções, correções secundárias, como correção de erros de digitação, estilo ou formatação não estão listadas. Você sempre pode exibir o histórico de confirmações específicas (incluindo detalhes de qualquer alteração) visitando o [repositório no GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+
+## <a name="july-2020"></a>Julho de 2020
+Artigo novo ou alterado | Descrição
+--- | ---
+[Requisitos do aplicativo da área de trabalho gerenciada da Microsoft](service-description/mmd-app-requirements.md) | Artigo atualizado
+[Conformidade](intro/compliance.md) | Artigo atualizado
+[Introdução ao controle de aplicativos](get-started/get-started-app-control.md) | Artigo atualizado
+[Trabalhar com o controle de aplicativo](working-with-managed-desktop/work-with-app-control.md) | Artigo atualizado
+[Pré-requisitos da Área de Trabalho Gerenciada da Microsoft](get-ready/prerequisites.md) | Artigo atualizado
+[Controle de aplicativos](service-description/app-control.md) | Artigo atualizado
+[Configuração de rede na Área de Trabalho Gerenciada da Microsoft](get-ready/network.md) | Artigo atualizado
+[Novo aplicativo do Microsoft Edge](get-started/edge-browser-app.md) | Artigo atualizado
+[Acessar o portal de administração](get-started/access-admin-portal.md) | Novo artigo
+[Controle de aplicativos](service-description/app-control.md) | Novo artigo
+[Instalar o Microsoft Project ou o Microsoft Visio em dispositivos de área de trabalho gerenciada da Microsoft](get-started/project-visio.md) | Artigo atualizado
 
 ## <a name="june-2020"></a>Junho de 2020
 Artigo novo ou alterado | Descrição

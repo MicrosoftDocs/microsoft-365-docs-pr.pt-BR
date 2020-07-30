@@ -14,6 +14,7 @@ ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - MiniMaven
@@ -23,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como a Microsoft 365 para campanhas afeta seus usuários.
-ms.openlocfilehash: 12d14ceb6a11c246bf8f456b9f8e3bacde2e076d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: fc10e3521b9e165d0a6efd6d1ed37b53a5abf74f
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632762"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527013"
 ---
 # <a name="how-microsoft-365-for-campaigns-affects-your-users"></a>Como a Microsoft 365 para campanhas afeta seus usuários
 
