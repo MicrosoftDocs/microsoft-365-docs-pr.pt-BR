@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configure a prevenção contra perda de dados de ponto de extremidade do Microsoft 365 para monitorar as atividades de arquivo e implementar ações de proteção para os pontos de extremidade desse arquivo.
-ms.openlocfilehash: ee276c81a0ebfbf44dd77f6016172f9bf7ed3022
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 67bd00a83314590d1ca1ab71c32d5a325686dc46
+ms.sourcegitcommit: f3a02584c9354a46c082f8f948b34a177adf65bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200001"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46514774"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Introdução à prevenção contra perda de dados do ponto de extremidade (visualização)
 
@@ -81,7 +81,7 @@ Os dados do Endpoint DLP podem ser exibidos no [Explorador de atividades](data-c
 Certifique-se de que os dispositivos Windows 10 que você pretende implantar o Endpoint DLP atendam a esses requisitos.
 
 1. Deve estar executando o Windows 10 Build 1809 ou superior.
-2. Todos os dispositivos devem ser [Associados a Azure Active Directory](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join).
+2. Todos os dispositivos devem ser [Associados a Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join).ou a Azure AD híbrido.
 3. Instalar o Microsoft Chromium Edge no dispositivo do ponto de extremidade para impor ações de política para a atividade carregar na nuvem. Confira, [Baixar o novo Microsoft Edge baseado em Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 
 ## <a name="onboarding-devices-into-device-management"></a>Dispositivos de integração no gerenciamento de dispositivos

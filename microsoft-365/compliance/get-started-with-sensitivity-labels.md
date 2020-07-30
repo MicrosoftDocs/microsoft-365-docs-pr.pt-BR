@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: 1b22619b200cd0cdcccfdc9be0d52b0eaa25f303
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 50392693b92ac660445d5966168b143c70853291
+ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936368"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506326"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -90,6 +90,7 @@ Todos os cenários requerem que você [crie e configure rótulos de confidencial
 |Descobrir, rotular e proteger arquivos armazenados no repositório da nuvem|[Descobrir, classificar, rotular e proteger dados regulamentados e confidenciais armazenados na nuvem](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |Aplicar e exibir rótulos de confidencialidade no Power BI e proteger dados ao exportar|[Proteção de dados no Power BI](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|
 |Monitorar e entender como os rótulos de sensibilidade estão sendo usados na minha organização|[Conhecer seus dados - visão geral da classificação de dados](data-classification-overview.md) <br /><br /> [Exibição do uso do rótulo com análises de rótulo](label-analytics.md)|
+|Estender os rótulos de confidencialidade a aplicativos e serviços de terceiros|[Proteção de Informações do Microsoft SDK](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>Documentação do usuário final para rótulos de confidencialidade
 
