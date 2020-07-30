@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 9e02df52c6b95fef087b8056501ffda7c3ddad14
-ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
+ms.openlocfilehash: 4bebf282f9bdd8f6b785c17c944b145814c80572
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45094841"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46503022"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -47,7 +47,7 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
 
 - **Rotulagem do lado do serviço quando o conteúdo já foi salvo (no SharePoint ou no OneDrive) ou enviado por email (processado pelo Exchange Online)**: Use uma política de rotulação automática. 
     
-    Esse método é chamado de classificação automática com rótulos de confidencialidade. Você também pode ouvi-lo ser chamado de rotulagem automática de dados em repouso (documentos no SharePoint e OneDrive) e dados em trânsito (email enviado ou recebido pelo Exchange). No caso do Exchange, ele não inclui emails em repouso (caixas de correio). 
+    Esse método pode ser chamado de rotulagem automática de dados em repouso (em documentos no SharePoint e OneDrive) e dados em trânsito (em email enviado ou recebido pelo Exchange). No caso do Exchange, ele não inclui emails em repouso (caixas de correio). 
     
     Como essa rotulagem é aplicada por serviços e não por aplicativos, você não precisa se preocupar com os aplicativos que os usuários têm e qual versão. Como resultado, esse recurso está imediatamente disponível em toda a organização e apropriado para rotular em escala. As políticas de rotulagem automática não oferecem suporte à rotulagem recomendada porque o usuário não interage com o processo de rotulagem. Em vez disso, o administrador executa as políticas no modo de simulação para ajudar a garantir a rotulagem correta do conteúdo antes de aplicar o rótulo.
     
@@ -74,7 +74,7 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
 Use a tabela a seguir para ajudá-lo a identificar as diferenças no comportamento dos dois métodos complementares de rotulagem automática:
 
 |Recurso ou comportamento|Configuração do rótulo: Rotulagem automática para aplicativos do Office |Política: Rotulagem automática|
-|:-----|:-----|:-----|:-----|
+|:-----|:-----|:-----|
 |Dependência de aplicativos|Sim |Não |
 |Restringir por local|Não |Sim |
 |Condições: Classificadores de treinamento|Sim |Não |
@@ -127,6 +127,8 @@ Além disso, você pode escolher se uma condição deve detectar todos os tipos 
 
 ### <a name="configuring-trainable-classifiers-for-a-label"></a>Configurar classificadores treináveis para um rótulo
 
+Esta opção está atualmente no modo de visualização.
+
 Ao selecionar a opção **Classificadores treináveis**, selecione um ou mais classificadores internos da Microsoft Corporation. Se você tiver criado seus próprios classificadores treináveis, eles também estão disponíveis para selecionar:
 
 ![Opções para classificadores treináveis e rótulos de confidencialidade](../media/sensitivity-labels-classifers.png)
@@ -136,9 +138,9 @@ Ao selecionar a opção **Classificadores treináveis**, selecione um ou mais cl
 
 Para obter mais informações sobre os classificadores, confira [Introdução aos classificadores de treinamento (visualização)](classifier-getting-started-with.md).
 
-Durante o período de visualização, os seguintes aplicativos oferecem suporte a classificadores de rótulos de confidencialidade:
+Durante o período de visualização desta opção, os seguintes aplicativos são compatíveis com classificadores treináveis de rótulos de confidencialidade:
 
-- Aplicativos do Microsoft 365 para empresas ([antigo Office 365 ProPlus](https://docs.microsoft.com/deployoffice/name-change)) para Windows, do [Canal Beta](https://office.com/insider)([Antigo Office Insider](https://docs.microsoft.com/deployoffice/update-channels-changes)):
+- Microsoft 365 Apps para empresas ([antes Office 365 ProPlus](https://docs.microsoft.com/deployoffice/name-change)) para Windows, agora sendo distribuído no [Canal Atual](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) na versão 2006 e posterior:
     - Word
     - Excel
     - PowerPoint
