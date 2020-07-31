@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 4bebf282f9bdd8f6b785c17c944b145814c80572
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: 571d1b3c9f12594c039a874eb5163e1191fd8fe9
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46503022"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527821"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -56,8 +56,8 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
     Específico para rotulagem automática para o SharePoint e OneDrive:
     - Os arquivos do Office para Word, PowerPoint e Excel são suportados.
     - Máximo de 25.000 arquivos rotulados automaticamente no seu locatário por dia.
-    - Máximo de 10 conjuntos de sites em todas as políticas.
-    - Máximo de 10 políticas no seu locatário.
+    - Máximo de 10 conjuntos de sites para cada política de rotulação automática.
+    - Máximo de 10 políticas de rotulação automática em seu locatário.
     - Os valores existentes para modificado, modificado por e a data não são alterados como resultado das políticas de rotulagem automática - tanto para o modo de simulação e quanto quando os rótulos são aplicados.
     - Quando o rótulo aplica criptografia, o [emissor do Gerenciamento de direitos e proprietário do Gerenciamento de direitos](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) é a pessoa que criou o rótulo de sensibilidade.
 
