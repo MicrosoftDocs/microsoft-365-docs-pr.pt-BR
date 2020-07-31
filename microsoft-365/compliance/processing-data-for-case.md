@@ -18,25 +18,25 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Leia uma visão geral sobre o processamento de várias formas de dados na ferramenta de descoberta eletrônica avançada do Office 365.
-ms.openlocfilehash: f9940318ba7355303e8afed1c83bb314d98b86cf
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: 0725b38af00ec787869090c5a57f5a865fb421e7
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024751"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527401"
 ---
-# <a name="work-with-processing-errors-in-advanced-ediscovery"></a><span data-ttu-id="93219-103">Trabalhar com erros de processamento na descoberta eletrônica avançada</span><span class="sxs-lookup"><span data-stu-id="93219-103">Work with processing errors in Advanced eDiscovery</span></span>
+# <a name="work-with-processing-errors-in-advanced-ediscovery"></a><span data-ttu-id="f22ba-103">Trabalhar com erros de processamento na descoberta eletrônica avançada</span><span class="sxs-lookup"><span data-stu-id="f22ba-103">Work with processing errors in Advanced eDiscovery</span></span>
 
-<span data-ttu-id="93219-104">*Processing* é o processo de identificação de arquivos, expansão de documentos e anexos incorporados, extração de texto e OCR (reconhecimento óptico de caracteres) de arquivos de imagem e a indexação subsequente desse conteúdo.</span><span class="sxs-lookup"><span data-stu-id="93219-104">*Processing* is the process of file identification, expansion of embedded documents and attachments, text extraction, and OCR (Optical Character Recognition) of image files and the subsequent indexing of that content.</span></span>  
+<span data-ttu-id="f22ba-104">*Processing* é o processo de identificação de arquivos, expansão de documentos e anexos incorporados, extração de texto e OCR (reconhecimento óptico de caracteres) de arquivos de imagem e a indexação subsequente desse conteúdo.</span><span class="sxs-lookup"><span data-stu-id="f22ba-104">*Processing* is the process of file identification, expansion of embedded documents and attachments, text extraction, and OCR (Optical Character Recognition) of image files and the subsequent indexing of that content.</span></span>  
 
-<span data-ttu-id="93219-105">Quando você adiciona responsáveis e fontes de dados não-responsáveis a um caso na guia **fontes** , todos os itens parcialmente indexados do Microsoft 365 são processados para torná-los totalmente pesquisáveis.</span><span class="sxs-lookup"><span data-stu-id="93219-105">When you add custodians and non-custodian data sources to a case on the **Sources** tab, all partially indexed items from Microsoft 365 are processed to make them fully searchable.</span></span> <span data-ttu-id="93219-106">Da mesma forma, quando o conteúdo é adicionado a um conjunto de análise de fontes de dados do Microsoft 365 e de não-Microsoft 365, esse conteúdo também é processado.</span><span class="sxs-lookup"><span data-stu-id="93219-106">Likewise, when content is added to a review set from both Microsoft 365 and non-Microsoft 365 data sources, this content is also processed.</span></span>
+<span data-ttu-id="f22ba-105">Quando você adiciona responsáveis e fontes de dados não-responsáveis a um caso na guia **fontes** , todos os itens parcialmente indexados do Microsoft 365 são processados para torná-los totalmente pesquisáveis.</span><span class="sxs-lookup"><span data-stu-id="f22ba-105">When you add custodians and non-custodian data sources to a case on the **Sources** tab, all partially indexed items from Microsoft 365 are processed to make them fully searchable.</span></span> <span data-ttu-id="f22ba-106">Da mesma forma, quando o conteúdo é adicionado a um conjunto de análise de fontes de dados do Microsoft 365 e de não-Microsoft 365, esse conteúdo também é processado.</span><span class="sxs-lookup"><span data-stu-id="f22ba-106">Likewise, when content is added to a review set from both Microsoft 365 and non-Microsoft 365 data sources, this content is also processed.</span></span>
 
-<span data-ttu-id="93219-107">A guia **processamento** em descoberta eletrônica avançada fornece informações sobre o status da indexação avançada para diferentes cenários de processamento.</span><span class="sxs-lookup"><span data-stu-id="93219-107">The **Processing** tab in Advanced eDiscovery provides insight into the status of advanced indexing for different processing scenarios.</span></span>
+<span data-ttu-id="f22ba-107">A guia **processamento** em descoberta eletrônica avançada fornece informações sobre o status da indexação avançada para diferentes cenários de processamento.</span><span class="sxs-lookup"><span data-stu-id="f22ba-107">The **Processing** tab in Advanced eDiscovery provides insight into the status of advanced indexing for different processing scenarios.</span></span>
 
-<span data-ttu-id="93219-108">Para saber mais, confira os seguintes artigos:</span><span class="sxs-lookup"><span data-stu-id="93219-108">For more information, see the following articles:</span></span>
+<span data-ttu-id="f22ba-108">Para saber mais, confira os seguintes artigos:</span><span class="sxs-lookup"><span data-stu-id="f22ba-108">For more information, see the following articles:</span></span>
 
-- [<span data-ttu-id="93219-109">Indexação avançada de dados custodiantes</span><span class="sxs-lookup"><span data-stu-id="93219-109">Advanced indexing of custodian data</span></span>](indexing-custodian-data.md)
+- [<span data-ttu-id="f22ba-109">Indexação avançada de dados custodiantes</span><span class="sxs-lookup"><span data-stu-id="f22ba-109">Advanced indexing of custodian data</span></span>](indexing-custodian-data.md)
 
-- [<span data-ttu-id="93219-110">Correção de erros durante o processamento de dados</span><span class="sxs-lookup"><span data-stu-id="93219-110">Error remediation when processing data</span></span>](error-remediation.md)
+- [<span data-ttu-id="f22ba-110">Correção de erros durante o processamento de dados</span><span class="sxs-lookup"><span data-stu-id="f22ba-110">Error remediation when processing data</span></span>](error-remediation.md)
 
-- [<span data-ttu-id="93219-111">Correção de erros de item único</span><span class="sxs-lookup"><span data-stu-id="93219-111">Single item error remediation</span></span>](single-item-error-remediation.md)
+- [<span data-ttu-id="f22ba-111">Correção de erros de item único</span><span class="sxs-lookup"><span data-stu-id="f22ba-111">Single item error remediation</span></span>](single-item-error-remediation.md)
