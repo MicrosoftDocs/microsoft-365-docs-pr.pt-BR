@@ -11,15 +11,14 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - M365-security-compliance
-- M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 3dc20db78139bc86daff6bf0a3ba3e0983746974
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: d8601538b440b5133731d67743379bdc7980d1d5
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016374"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522236"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Ilustrações de produtividade do Microsoft 365
 

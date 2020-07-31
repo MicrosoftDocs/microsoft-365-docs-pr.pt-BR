@@ -18,12 +18,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Leia uma visão geral sobre o processamento de várias formas de dados na ferramenta de descoberta eletrônica avançada do Office 365.
-ms.openlocfilehash: f9940318ba7355303e8afed1c83bb314d98b86cf
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: 0725b38af00ec787869090c5a57f5a865fb421e7
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024751"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527401"
 ---
 # <a name="work-with-processing-errors-in-advanced-ediscovery"></a>Trabalhar com erros de processamento na descoberta eletrônica avançada
 

@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365solutions
+- m365solution-infoprotection
 ms.custom: ''
 description: Determine as regulamentações de privacidade de dados, os cenários relevantes, a prontidão e os tipos de informações confidenciais que estão no seu ambiente Microsoft 365.
-ms.openlocfilehash: 0cfa9f8a22810027e1a31ce2ace8b42f26ef9eb2
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: ba47a43c7af8d97af852e0a3ef417cdc1dbab46a
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126587"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521368"
 ---
 # <a name="assess-data-privacy-risks-and-identify-sensitive-items-with-microsoft-365"></a>Avaliar os riscos de privacidade de dados e identificar itens confidenciais com o Microsoft 365
 
@@ -59,7 +59,7 @@ Para referência futura nos artigos desta solução geral, esta tabela fornece e
 
 | Normas | Artigo/seção | Trecho | Categorias de controle técnico aplicáveis |
 |:-------|:-----|:-------|:-------|
-| RGPD | Artigo 5 (1) (f) | Os dados pessoais devem ser processados de forma a garantir a segurança adequada dos dados pessoais, incluindo proteção contra processamento não autorizado ou não ilegal e contra perda acidental, destruição ou danos, usando medidas técnicas ou organizacionais apropriadas ("integridade e confidencialidade".  |  Todos os <br> Identidade <br> Dispositivo <br> Proteção contra Ameaças <br> Proteger informações <br> Informações de controle <br> Descobrir e responder |
+| RGPD | Artigo 5 (1) (f) | Os dados pessoais devem ser processados de forma a garantir a segurança adequada dos dados pessoais, incluindo proteção contra processamento não autorizado ou não ilegal e contra perda acidental, destruição ou danos, usando medidas técnicas ou organizacionais apropriadas ("integridade e confidencialidade".  |  Todos os <br> Identidade <br> Device <br> Proteção contra Ameaças <br> Proteger informações <br> Informações de controle <br> Descobrir e responder |
 |  | Artigo (32) (1) (a) | Levando em consideração o estado da arte, os custos de implementação e a natureza, o escopo, o contexto e a finalidade do processamento, bem como o risco de variar a probabilidade e a gravidade dos direitos e das liberdades de pessoas naturais, o controlador e o processador devem implementar medidas técnicas e organizacionais apropriadas para garantir um nível de segurança apropriado para o risco , incluindo alia conforme apropriado: (a) o pseudônimos e a criptografia de dados pessoais. | Proteger informações |
 |  | Artigo (13) (2) (a) | "... o controlador deve, no momento em que os dados pessoais são obtidos, fornecem os dados sujeitos às seguintes informações adicionais necessárias para garantir o processamento justo e transparente: (a) o período para o qual os dados pessoais serão armazenados ou, se isso não for possível, os critérios usados para determinar esse período. | Informações de controle |
 |  | Artigo (15) (1) (e) | O assunto dos dados deverá ter o direito de obter da confirmação do controlador se os dados pessoais ou não estiverem sendo processados ou não. e onde esse é o caso, acesse os dados pessoais e as seguintes informações: (e) a existência do direito de solicitar a retificação do controlador ou o apagamento de dados pessoais ou a restrição de processamento de dados pessoais referentes ao assunto ou ao objeto de dados para esse processamento | Descobrir e responder |

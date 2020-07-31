@@ -14,6 +14,7 @@ ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - MiniMaven
@@ -23,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como exigir a MFA e configurar as políticas de acesso condicional para o Microsoft 365 for Business.
-ms.openlocfilehash: 3caca685d9a96434a0daa2736c322ac1a68b7feb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 917fb52eb5034c3dda28c277b9e86e04db6cac62
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635607"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527193"
 ---
 # <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>Exigir autenticação multifator e configurar políticas de acesso condicional
 
@@ -53,7 +54,7 @@ Para obter mais informações sobre essas políticas, consulte [o que são polí
 
 Para exigir que todos os usuários entrem com uma segunda forma de ID:
 
-1. Vá para o centro de administração <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> em e escolha **configuração**.
+1. Vá para o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> e escolha **configuração**.
 
 2. Na página configuração, escolha **Exibir** no cartão de **entrada tornar login** .
 
@@ -70,7 +71,7 @@ Para exigir que todos os usuários entrem com uma segunda forma de ID:
 
 ## <a name="set-up-baseline-policies"></a>Configurar políticas de linha de base
 
-1. Vá para [portal do Azure](https://portal.azure.com)e navegue até **acesso condicional** **do Azure Active Directory** \> .
+1. Vá para [portal do Azure](https://portal.azure.com)e navegue até acesso **condicional do Azure Active Directory** \> **Conditional Access**.
     
     As políticas de linha de base estão listadas na página e você pode ver que **exigir MFA para administradores** e **proteção do usuário final** já está habilitada após a conclusão das etapas em [exigir MFA](#require-mfa).
 

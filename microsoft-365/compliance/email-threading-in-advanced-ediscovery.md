@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Ao realizar uma análise de descoberta eletrônica avançada, o encadeamento de emails analisa uma conversa por email e separa cada mensagem em diferentes categorias.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d3c014973996b312e0b51c1d5fae9da808000cf1
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e6072650a07f634b8dc19a013907eb36469c443b
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035875"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527669"
 ---
 # <a name="email-threading"></a>Threading de emails
 
@@ -30,10 +30,9 @@ Considere uma conversa por email que está acontecendo por algum tempo. Na maior
 
 ## <a name="what-does-email-threading-do"></a>O que o thread de email faz?
 
-O encadeamento de emails analisa cada email e o desconstructs para mensagens individuais; cada email é uma cadeia de mensagens individuais. Em seguida, ele analisa todos os emails na análise definida para determinar se um email tem conteúdo exclusivo ou se a cadeia está totalmente contida em um email diferente. Nos emails finais estão divididos em quatro categorias:
+O thread de email analisa cada email e o deconstrói para mensagens individuais; cada email é uma cadeia de mensagens individuais. Em seguida, ele analisa todos os emails na análise definida para determinar se um email tem conteúdo exclusivo ou se a cadeia está totalmente contida em um email diferente. Nos emails finais estão divididos em quatro categorias:
 
 - **Inclusive**: a última mensagem no email tem conteúdo exclusivo e o email tem todos os anexos que foram incluídos em outros emails dos quais o conteúdo está totalmente contido neste email.
-
 
 - **Inclusive menos**: a última mensagem no email tem conteúdo exclusivo, mas o email não contém alguns dos anexos que foram incluídos em outros emails dos quais o conteúdo está totalmente contido neste email.
 
@@ -42,6 +41,7 @@ O encadeamento de emails analisa cada email e o desconstructs para mensagens ind
 - **Nenhum**: o conteúdo desse email está totalmente contido em pelo menos um email marcado como incluindo, inclusive, o menos.
 
 ## <a name="how-is-it-different-from-conversations-in-outlook"></a>Qual é a diferença entre conversas no Outlook?
-Em resumo, isso parece muito semelhante aos agrupamentos de conversa no Outlook. No entanto, há algumas diferenças importantes. Considere uma conversa de email que foi bifurcada em duas conversas; por exemplo, alguém respondeu a um email que não é o mais recente na conversa para que os dois últimos emails da conversa tenham conteúdo exclusivo.
 
-O Outlook ainda agruparia os emails em uma única conversa; somente leitura o último email significaria ter o contexto do segundo email, que também contém conteúdo exclusivo. Como o encadeamento de emails analisa todos os emails em componentes individuais e os compara, o encadeamento de emails marcaria os dois últimos emails como inclusivos, garantindo que você não perderá nenhum contexto, desde que Leia todos os emails marcados como inclusive.
+Em um relance, isso parece semelhante aos agrupamentos de conversa no Outlook. No entanto, há algumas diferenças importantes. Considere uma conversa de email que foi bifurcada em duas conversas; por exemplo, alguém respondeu a um email que não é o mais recente na conversa para que os dois últimos emails da conversa tenham conteúdo exclusivo.
+
+O Outlook ainda agruparia os emails em uma única conversa; somente leitura o último email significaria ter o contexto do segundo email, que também contém conteúdo exclusivo. Como o encadeamento de emails analisa cada email em componentes individuais e os compara, o encadeamento de emails marcaria ambos os dois últimos emails, o que garante que você não perderá nenhum contexto, desde que você leia todos os emails marcados como inclusive.

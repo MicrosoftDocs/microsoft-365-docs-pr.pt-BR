@@ -19,24 +19,24 @@ ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
 description: Neste artigo, você encontrará notas de versão que contêm alterações e novos recursos para a ferramenta de investigações de dados (visualização) no Microsoft 365.
-ms.openlocfilehash: 9567e9d83c6fc952e61271e665b96fad8fc6b69a
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 40d441aff8da69b4ead0ab2f49fbe93589aa709c
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352278"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46528021"
 ---
 # <a name="release-notes-for-data-investigations-preview-in-microsoft-365"></a>Notas de versão para investigações de dados (visualização) no Microsoft 365
 
 Você pode usar a ferramenta novas investigações de dados (visualização) no Microsoft 365 para fazer a triagem, investigar e corrigir incidentes relacionados a dados, como um incidente de derramamento de dados ou uma investigação interna. A visualização pública de investigações de dados fornece acesso antecipado às futuras funcionalidades e atualizações. Para obter acesso antecipado aos recursos mais recentes, crie uma nova investigação em investigações de dados (visualização) no centro de conformidade de & de segurança. Para saber como, confira [gerenciar um incidente de derramamento de dados no Microsoft 365](manage-data-spillage-incidents.md).
 
-## <a name="whats-new"></a>Novidades 
+## <a name="whats-new"></a>O que há de novo 
 
 - **Investigações** – você pode agrupar pesquisas e incidentes criando uma investigação. Gerenciar quem pode acessar a investigação adicionando ou removendo membros.  Você também pode selecionar e marcar suas investigações favoritas. Controlar e monitorar a atividade dentro e nas investigações usando novos painéis. Depois de concluir sua investigação, você pode fechá-la ou excluí-la.
 
 - **Pessoas de interesse** – ao adicionar usuários a investigações como pessoas de interesse, você pode ver a caixa de correio, a conta do onedrive for Business e os sites do Microsoft Teams. Você pode usá-los para fazer o escopo das pesquisas de conteúdo investigativas. Para investigar ainda mais uma pessoa de interesse, você também pode exibir registros de auditoria relacionados às suas atividades no Microsoft 365 e em outros serviços da Microsoft.
 
-- **Pesquisas** – crie uma pesquisa em toda a organização usando várias condições de pesquisa. Se você souber os usuários ou sites que deseja pesquisar, poderá fazê-lo adicionando-os como pessoas de interesse ou especificando locais de site no assistente de criação de pesquisa. 
+- **Pesquisas** – crie uma pesquisa em toda a organização usando vários critérios de pesquisa. Se você souber os usuários ou sites que deseja pesquisar, poderá fazê-lo adicionando-os como pessoas de interesse ou especificando locais de site no assistente de criação de pesquisa. 
 
 - **Evidência** – crie um novo conjunto de evidências e adicione resultados de pesquisa que você deseja revisar. Você pode revisar documentos individuais, anotar para sair de notas de investigação e exportar resultados para mover para um ambiente diferente. 
 
@@ -44,7 +44,7 @@ Você pode usar a ferramenta novas investigações de dados (visualização) no 
 
 - **Redigir, marcar e anotar** – redigir texto, aplicar marcas e fazer anotações à medida que você revisar documentos.
   
-- **Indexação avançada** – se houver algum item parcialmente indexado, eles serão novamente reindexados por demanda, de forma que todos os dados estarão disponíveis para pesquisa.
+- **Indexação avançada** : se houver algum item parcialmente indexado, ele será reindexado por demanda, de forma que todos os dados estarão disponíveis para pesquisa.
 
 - **Correção de erro** : corrigir ou baixar erros de processamento. Isso inclui suporte de correção para tipos de arquivo grandes, arquivos protegidos por senha e outros problemas relacionados a erros de indexação. 
 

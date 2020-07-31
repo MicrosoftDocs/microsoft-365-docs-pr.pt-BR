@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como criar, configurar e salvar uma nova investigação em investigações de dados (visualização) no centro de conformidade da Microsoft 365.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 62166f1fb820c33e1e8981b31c5fc9a48e54390a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 1dae733a2e6dacfc2cc871cc9b589927d306599a
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035773"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526907"
 ---
 # <a name="create-a-new-investigation-in-data-investigations-preview"></a>Criar uma nova investigação em investigações de dados (prévia)
 
@@ -34,13 +34,13 @@ ms.locfileid: "44035773"
  
 4. Na página **investigações de dados (visualização)** , clique em **criar nova investigação**.
     
-5. Na nova página de submenu de **investigação de dados** , dê um nome à investigação (obrigatório) e digite um número de investigação e uma descrição opcionais. Observe que o nome da investigação deve ser exclusivo em sua organização.
+5. Na nova página de submenu de **investigação de dados** , dê um nome à investigação (obrigatório) e digite um número de investigação e uma descrição opcionais. O nome da investigação deve ser exclusivo em sua organização.
 
 6. Em **você deseja definir configurações adicionais depois de criar esta investigação?**, siga um destes procedimentos:
 
     - Clique em **Sim** para criar a investigação e exiba a página de **configurações** na nova investigação. Isso permite adicionar membros à investigação.
     
-    - Clique em **não** para apenas criar a investigação e exibi-la na lista de investigações na página **investigações de dados (visualização)** . Se você escolher essa opção, será adicionado como o único membro da investigação, e as configurações padrão de pesquisa e análise serão usadas. Você pode adicionar membros ou alterar as configurações a qualquer momento após a criação da investigação.
+    - Clique em **não** para apenas criar a investigação e exibi-la na lista de investigações na página **investigações de dados (visualização)** . Se você escolher essa opção, será adicionado como o único membro da investigação, e as configurações padrão de pesquisa e análise serão usadas. Você pode adicionar membros ou alterar configurações a qualquer momento após a criação da investigação.
 
 7. Clique em **salvar** para criar a investigação.
 

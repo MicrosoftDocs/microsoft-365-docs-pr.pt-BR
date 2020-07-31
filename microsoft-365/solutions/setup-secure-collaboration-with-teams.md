@@ -9,16 +9,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-- M365solutions
+- m365solution-securecollab
+- m365solution-overview
 ms.custom: ''
 f1.keywords: NOCSH
 description: Saiba como configurar o Microsoft Teams para proteger seus dados com base em sua confidencialidade
-ms.openlocfilehash: 8978c8602a00dd9c7caecc30ea4746a01680a236
-ms.sourcegitcommit: 92f641cad63379bf16417854a43b16b48a71a30a
+ms.openlocfilehash: ef49e788805139bf82fa5b1b43d2a87323640820
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724797"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527703"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Configurar a colaboração segura com o Microsoft 365
 
@@ -64,7 +65,7 @@ Para configurar o Collabration seguro, você usa estas funcionalidades e recurso
 | Proteção Avançada contra Ameaças do Office 365 | Anexos seguros de ATP para SPO, OneDrive e Teams; Documentos seguros de ATP; Links seguros de ATP para o Teams    | Microsoft 365 E1, E3 e e5 |
 | SharePoint    | Políticas de compartilhamento de arquivos e sites, permissões de compartilhamento de site, links de compartilhamento, solicitações de acesso, configurações de compartilhamento de convidado de site | Microsoft 365 E1, E3 e e5 |
 | Microsoft Teams   | Acesso de convidados, equipes privadas, canais privados | Microsoft 365 E1, E3 e e5 |
-| Conformidade com o Microsoft 365  | Rótulos de confidencialidade    | Microsoft 365 E3 e e5 |
+| Conformidade com o Microsoft 365  | Rótulos de confidencialidade    | Microsoft 365 E3 e E5 |
 
 ### <a name="using-teams-for-all-kinds-of-data"></a>Usando o Microsoft Teams para todos os tipos de dados
 
@@ -114,7 +115,7 @@ Dependendo da sensibilidade das informações que estão sendo compartilhadas, v
 
 - [Práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados](best-practices-anonymous-sharing.md)
 - [Limitar a exposição acidental a arquivos ao compartilhar arquivos com pessoas de fora da sua organização](share-limit-accidental-exposure.md)
-- [Criar um ambiente seguro de compartilhamento de convidados](create-secure-guest-sharing-environment.md)
+- [Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
 
 Se você tiver um projeto importante com uma organização parceira, poderá usar o gerenciamento de qualificação do Azure para gerenciar os convidados dessa organização em uma equipe que você configurou para o projeto. Consulte [criar uma extranet B2B com convidados gerenciados](b2b-extranet.md) para obter detalhes.
 

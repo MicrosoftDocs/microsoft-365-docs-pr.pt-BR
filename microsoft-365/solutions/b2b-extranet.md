@@ -9,17 +9,18 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-- M365solutions
+- m365solution-3tiersprotection
+- m365solution-securecollab
 ms.custom: ''
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba como criar um site de extranet B2B ou uma equipe com usuários convidados gerenciados de uma organização de parceiro.
-ms.openlocfilehash: f01a558d55f497952494676f0148a1e3e4f06b35
-ms.sourcegitcommit: b18949de721c6eef3521d5f8286d9b926ad4aabe
+ms.openlocfilehash: 4f8eb33ad9b41f552975d4158a61ec4cedcfa9cc
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44342525"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526977"
 ---
 # <a name="create-a-b2b-extranet-with-managed-guests"></a>Crie uma extranet B2B com convidados gerenciados
 
@@ -122,5 +123,5 @@ Depois de copiar o link, você poderá compartilhá-lo com seu contato na organi
 
 ## <a name="see-also"></a>Confira também
 
-[Criar um ambiente seguro de compartilhamento para convidados](create-secure-guest-sharing-environment.md)
+[Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
 

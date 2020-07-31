@@ -14,6 +14,7 @@ ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -24,14 +25,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar reuniões online com o Microsoft Teams.
-ms.openlocfilehash: 83ff561b4159ffe6785db8bb03314aa80668023a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ce13dbcc32457263295e0e617b92a2d7e5fc3909
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080429"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526859"
 ---
-# <a name="set-up-meetings"></a>Configurar reuniões
+# <a name="set-up-meetings"></a>Configurar reuniões 
 
 As reuniões do Microsoft Teams incluem áudio, vídeo e compartilhamento. E, como estão online, você sempre terá um espaço de reunião e nunca precisará de uma sala ou projetor para sua campanha.As reuniões do Microsoft Teams são uma ótima maneira de reunir-se com sua equipe e voluntários dentro e fora da sua organização. Você não precisa ser membro de sua organização ou mesmo ter uma conta para ingressar em uma reunião. Para sua campanha política, você pode agendar e executar reuniões online usando o Microsoft Teams. Você pode incluir funcionários, voluntários e convidados fora da sua organização. Durante uma reunião, você pode compartilhar sua tela, compartilhar arquivos, atribuir tarefas e muito mais.
 

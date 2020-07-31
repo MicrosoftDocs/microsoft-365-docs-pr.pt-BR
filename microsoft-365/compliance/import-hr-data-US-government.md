@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores na nuvem do governo dos EUA podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: 8023ffda8a9d367736ec8f7fc781bde5d6f1e1f5
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: e14f1a23097cddf3b187d4394d5fa5e3afe06d01
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45205018"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527639"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-in-us-government-preview"></a>Configurar um conector para importar dados de RH no governo dos EUA (versão prévia)
 
@@ -87,7 +87,7 @@ A próxima etapa é criar um conector de RH no centro de conformidade da Microso
 
    b. Digite um nome para o conector de RH.
 
-5. Na página **mapeamento de arquivo** , digite os três nomes de cabeçalho de coluna (também chamados de *parâmetros* do arquivo CSV que você criou na etapa 2 em cada uma das caixas apropriadas. Os nomes não diferenciam maiúsculas de minúsculas. Como explicado anteriormente, os nomes digitados nessas caixas devem coincidir com os nomes de parâmetro no arquivo CSV. Por exemplo, a captura de tela a seguir mostra os nomes de parâmetro do exemplo no arquivo CSV de exemplo mostrado na etapa 2.
+5. Na página **mapeamento de arquivo** , digite os nomes dos três cabeçalhos de coluna (também chamados de *parâmetros*) do arquivo CSV que você criou na etapa 2 em cada uma das caixas apropriadas. Os nomes não diferenciam maiúsculas de minúsculas. Como explicado anteriormente, os nomes digitados nessas caixas devem coincidir com os nomes de parâmetro no arquivo CSV. Por exemplo, a captura de tela a seguir mostra os nomes de parâmetro do exemplo no arquivo CSV de exemplo mostrado na etapa 2.
 
    ![Os nomes de título de coluna correspondem àqueles no arquivo CSV](../media/HRConnectorWizard3.png)
 

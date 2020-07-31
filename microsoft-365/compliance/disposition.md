@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a eliminação de conteúdo, se você usar uma revisão de disposição ou se o conteúdo é excluído automaticamente de acordo com as configurações que você configurou.
-ms.openlocfilehash: 2ce0478602fa6b833e53b0b3a41a89b7a0fad03b
-ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
+ms.openlocfilehash: 938d530447d1a798e5a2d6d4c2f622a04827bf1c
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506316"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529596"
 ---
 # <a name="disposition-of-content"></a>Disposição do conteúdo
 
@@ -124,7 +124,9 @@ O conteúdo que está aguardando uma análise de disposição é excluído somen
 ## <a name="disposition-of-records"></a>Disposição de conteúdo
 
 > [!NOTE]
-> A capacidade de ver os registros que foram excluídos automaticamente sem uma análise de descarte ainda é distribuir aos locatários para que você não veja todos os itens descartados durante esse período de distribuição.
+>A distribuição de provas de eliminação para registros no SharePoint e no OneDrive foi concluída. Você verá a lista de rótulos de retenção que marcou o conteúdo como registros do SharePoint e do OneDrive na seção disposição da página Gerenciamento de registros no centro de conformidade do Microsoft 365. Sob esses rótulos, você pode ver a lista de itens no SharePoint e no OneDrive que foram descartados automaticamente ou após uma revisão de disposição.
+
+A prova de alienação de registros no Exchange ainda não está ativa. Quando esta distribuição for iniciada e quando estiver concluída, atualizaremos esta nota.
 
 Use a guia **disposição** da página **Gerenciamento de registros** para identificar os registros excluídos automaticamente. Estes itens exibem os **registros descartados** na coluna **tipo** . Por exemplo:
 

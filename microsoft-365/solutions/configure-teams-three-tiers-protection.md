@@ -14,17 +14,19 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - M365-security-compliance
-- M365solutions
+- m365solution-3tiersprotection
+- m365solution-overview
+- m365solution-securecollab
 ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: Recomendações de configuração para proteger arquivos no Microsoft Teams.
-ms.openlocfilehash: 643ca5d5c340dc72cb375c114c2c7edaecf3dd46
-ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
+ms.openlocfilehash: d0c3d065da912c37ca21e6ea4300a30c5e7195b8
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702507"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527797"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Configurar equipes com três camadas de proteção
 

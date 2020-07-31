@@ -13,6 +13,7 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -23,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Inscrição passo a passo para o Microsoft 365 para campanhas. Proteger sua campanha contra ameaças cybersecurity a email, dados e comunicação.
-ms.openlocfilehash: 34d5b3103666b9cead1c2dfc09400a9eca5e3e40
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0628ac1a2e8bf6d12bd4a196df11775ebcc2d583
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632774"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527109"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>Inscreva-se no Microsoft 365 para campanhas 
 
@@ -80,14 +81,14 @@ Se você já tiver uma assinatura do Microsoft 365 for Business, por exemplo, o 
 2. Na **tela de boas-vindas, vamos conhecer a** página, clique ou toque em **deseja adicioná-lo a uma assinatura existente? Entre**.
     
     ![Escolha entrar no canto superior direito.](../media/addtoexisting.png)
-3. Na página de entrada, insira o alias de administração de sua assinatura existente, por exemplo *Alice@VoteContoso<span></span>. org*, escolha **Avançar**, insira sua senha e, em seguida, escolha **entrar**.
+3. Na página de entrada, insira o alias de administração de sua assinatura existente, por exemplo *Alice@VoteContoso <span></span> . org*, escolha **Avançar**, insira sua senha e, em seguida, escolha **entrar**.
 4. Sobre **como esta aparência?** Insira o número de usuários que você tem e escolha **Avançar**. Você não precisa inserir um código promocional aqui porque ele já está incluído na URL do convite.
 5. Na página **como você deseja pagar?** , insira sua forma de pagamento e escolha **fazer pedido**.
 
 Depois de concluir essas etapas, você estará pronto para [atribuir as novas licenças](../admin/manage/assign-licenses-to-users.md) à equipe de campanha.
 
 
-## <a name="whats-next"></a>E agora?
+## <a name="whats-next"></a>O que vem a seguir?
 - [Configure o microsoft 365](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) para concluir o Microsoft 365 para campanhas configuradas. 
 - [Adicionar usuários](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) ao seu plano. Inclua o candidato da campanha, todos os funcionários seniores da campanha e qualquer pessoa que tenha acesso a informações confidenciais de campanha ou de terceiros.
 - [Aumentar a proteção da sua campanha](m365-campaigns-security-overview.md)

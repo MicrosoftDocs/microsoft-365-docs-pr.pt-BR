@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como o módulo de relevância analisa dados em evidência com uma descrição do fluxo de trabalho de relevância e as etapas de treinamento em investigações de dados (versão prévia).
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 10b05d4d648bc781a2ec1c7ff8a35d5e82583c55
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 64bd0101fd2a0804da9e513241a97bc9f133880e
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034483"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46528157"
 ---
 # <a name="use-the-relevance-module-to-analyze-data-in-evidence"></a>Usar o módulo de relevância para analisar dados em evidência
 
@@ -31,20 +31,20 @@ Em investigações de dados (prévia), o módulo de relevância inclui o treinam
 ![Fluxo de trabalho de relevância](../media/44c67dd2-7a20-40a9-b0ed-784364845c77.gif)
   
 - **Ciclos de avaliação e controle**:
-    
+
   - **Avaliação**: habilita a avaliação prévia com base em uma amostra aleatória de arquivos e usa essa avaliação para aplicar decisões para determinar o desempenho do processo de codificação de previsão. 
-    
+
   - **Track**: calcular e exibir resultados provisórios da avaliação e monitorar a validade estatística do processo. 
-    
+
 - **Ciclos de treinamento e acompanhamento**
-    
-  - **Marca**: as investigações de dados (visualização) aprende critérios de relevância específicos para cada problema com base na revisão iterativa do especialista e na marcação de arquivos individuais.
+
+  - **Marca**: as investigações de dados (prévia) aprende os critérios de relevância específicos para cada problema com base na revisão iterativa do especialista e na marcação de arquivos individuais.
     
   - **Track**: calcular e exibir resultados provisórios do treinamento de relevância e monitorar a validade estatística do processo. 
     
 - **Cálculo de lote**: os critérios de relevância acumulados e aprendidos são aplicados a todo o conjunto de arquivos e uma pontuação de relevância é gerada para cada arquivo.
     
-- **Decide**@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ Os resultados da análise aplicada ao caso inteiro são exibidos após o cálculo de lote, e os dados usados para fazer decisões de revisão
+- **Decida**: os resultados da análise aplicados ao caso inteiro são exibidos após o cálculo do lote, e os dados usados para fazer decisões de revisão de documento são exibidos.
     
 - **Test**: os resultados podem ser testados para verificar a validade e a eficácia do processamento de investigações de dados (visualização).
 
@@ -66,9 +66,9 @@ Veja a seguir uma visão geral das diretrizes de treinamento e análise de relev
      
   - Ignorar o texto aplicado à relevância será removido no conteúdo do arquivo exibido no modo de exibição de texto de relevância. Se os valores para ignorar texto tiverem sido definidos após o treinamento de relevância já ter sido iniciado, o novo texto ignorado será aplicado a arquivos de exemplo criados a partir do ponto em que foi definido. O recurso Ignorar texto deve ser usado com cautela, pois seu uso pode reduzir o desempenho da análise de arquivos
     
-  - Use a opção **ignorar marcação** apenas quando necessário. As investigações de dados (prévia) não são treinadas com base em arquivos ignorados. Em avaliação, se for difícil dizer se um arquivo é relevante, é melhor marcar como relevante (R) ou não relevante (NR) sempre que possível, em vez de selecionar **ignorar**. Quando a investigação de dados (prévia) avalia o treinamento, ela pode ser vista como esses tipos de arquivos foram processados.
+  - Use a opção **ignorar marcação** apenas quando necessário. As investigações de dados (visualização) não são treinadas com base em arquivos ignorados. Em avaliação, se for difícil dizer se um arquivo é relevante, é melhor marcar como relevante (R) ou não relevante (NR) sempre que possível, em vez de selecionar **ignorar**. Quando a investigação de dados (prévia) avalia o treinamento, ela pode ser vista como esses tipos de arquivos foram processados.
     
-  - Até mesmo arquivos com uma quantidade muito pequena de texto extraído deve ser marcado em treinamento como R/NR, e não como "ignorar", quando possível. 
+  - Até mesmo arquivos com uma pequena quantidade de texto extraído devem ser marcados em treinamento como R/NR, e não como "ignorar", quando possível. 
     
   - A marcação pode impactar o classificador, desde que o arquivo seja legível e possa ser marcado como R/NR.
     
@@ -84,11 +84,11 @@ Veja a seguir uma visão geral das diretrizes de treinamento e análise de relev
     
 - **Cálculo em lotes**: os arquivos que foram marcados como R/NR pelo especialista receberão uma pontuação de 0 ou 100. Isso se aplica à marcação feita antes do cálculo em lote. Se o especialista tiver alternado o problema para ficar inativo após o cálculo de lote e a marcação contínua desse problema, as pontuações recentemente marcadas não serão 100/0, mas sim a pontuação original.
     
-- **Modo de problemas e de amostragem**: problemas geralmente estão desativados quando o trabalho deles é concluído (o treinamento de relevância é estabilizado e o cálculo do lote foi realizado), quando os problemas são cancelados ou quando outro usuário está trabalhando com os problemas.
+- **Modo de problemas e de amostragem**: problemas estão desativados quando o trabalho neles é concluído (o treinamento de relevância é estabilizado e o cálculo do lote foi realizado), quando os problemas são cancelados ou quando outro usuário está trabalhando com os problemas.
     
 ## <a name="steps-in-relevance-training"></a>Etapas no treinamento de relevância
 
-Na guia **controle \> de relevância** , as investigações de dados fornecem recomendações sobre como proceder no processamento, seguindo as próximas etapas. As implicações são descritas abaixo quando cada uma das etapas a seguir é recomendada no processo de treinamento de relevância. 
+Na guia ** \> controle de relevância** , as investigações de dados fornecem recomendações sobre como proceder no processamento, seguindo as próximas etapas. As implicações são descritas abaixo quando cada uma das etapas a seguir é recomendada no processo de treinamento de relevância. 
   
 - Marcação/continuação de marcação: marcação de arquivo e classificação de relevância executada por um especialista para cada arquivo e problema em um exemplo.
     
@@ -102,7 +102,7 @@ Na guia **controle \> de relevância** , as investigações de dados fornecem re
     
   - Implicação: o problema precisa de mais treinamento; o próximo exemplo deve ser criado e marcado. 
     
-- Cálculo em lote: o processo de relevância no qual as investigações de dados leva o conhecimento adquirido durante o estágio de treinamento e o aplica à população de arquivo inteiro. Todos os arquivos no grupo de arquivos pertinente são avaliados por relevância e recebem uma pontuação de relevância.
+- Cálculo em lote: processo de relevância no qual as investigações de dados levam o conhecimento adquirido durante o estágio de treinamento e o aplica à população de arquivo inteiro. Todos os arquivos no grupo de arquivos pertinente são avaliados por relevância e recebem uma pontuação de relevância.
     
   - Implicação: o problema foi estabilizado e o cálculo de lote pode ser executado.
     
@@ -122,7 +122,7 @@ Na guia **controle \> de relevância** , as investigações de dados fornecem re
     
   - Implicação: nenhum treinamento de relevância é necessário neste ponto.
     
-Embora as investigações de dados orientam você durante o processo, com as próximas etapas recomendadas em estágios diferentes, também permite navegar entre guias e páginas e fazer escolhas para tratar de situações que possam ser pertinentes a seu processo de análise de caso, de problema ou de documento individual. 
+Embora as investigações de dados orientem você durante o processo, com as próximas etapas recomendadas em diferentes estágios, também permite navegar entre guias e páginas e fazer escolhas para tratar de situações que possam ser pertinentes a seu processo de análise de caso, de problema ou de documento individual. 
   
 É possível aceitar ou substituir as investigações de dados as opções de processamento da próxima etapa. Se você deseja executar uma etapa diferente da próxima etapa recomendada, clique na **próxima etapa** listada na exibição de problema expandida na caixa de diálogo, clique no botão **Modificar** ao lado da próxima etapa e selecione outra opção de próxima etapa. 
   

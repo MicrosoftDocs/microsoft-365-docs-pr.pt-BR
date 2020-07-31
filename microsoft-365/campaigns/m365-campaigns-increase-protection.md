@@ -13,6 +13,7 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - MiniMaven
@@ -22,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Obter ajuda com o aumento do nível de proteção no Microsoft 365
-ms.openlocfilehash: 0583bcb540991f20b3826549125800c80a3738db
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 1e98f2dea06c342858a8acf2c221ea8f955eb75e
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45079816"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527205"
 ---
 # <a name="increase-threat-protection"></a>Aumente a proteção contra ameaças
 
@@ -89,7 +90,7 @@ Para criar uma regra de transporte de emails:
 |Faça o seguinte. . .  <br/> |Notificar o destinatário com uma mensagem  <br/> |
 |Fornecer texto da mensagem  <br/> |Não abra esses tipos de arquivos de pessoas que você não sabe porque eles podem conter macros com código mal-intencionado.  <br/> |
    
-Para saber mais, confira:
+Para mais informações, confira:
   
 - [Como lidar com o ransomware](https://go.microsoft.com/fwlink/?linkid=2016501&amp;clcid=0x409)
     

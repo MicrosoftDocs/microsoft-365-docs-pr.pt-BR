@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: 0cb06bb25e3ba6d4e745094a51fb49663bc7b7b7
-ms.sourcegitcommit: e6bf1af2d5cf54c3fcc3fa916abe268fc96bdd4e
+ms.openlocfilehash: 0febd13003cdcb80867bd7f5b91ac482a463895a
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45189496"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527583"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-preview"></a>Configurar um conector para importar dados de RH (visualização)
 
@@ -29,9 +29,9 @@ Configurar um conector para dados de RH que as políticas de gerenciamento de ri
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Você precisa determinar quais cenários e dados de RH devem ser importados para o Microsoft 365. Isso ajudará a determinar quantos arquivos CSV e conectores de RH você precisará criar, e como gerar e estruturar os arquivos CSV. Os dados de RH que você importou são determinados pelas políticas de gerenciamento de risco do insider que você deseja implementar. Para obter mais informações, consulte a etapa 1.
+- Determine quais cenários e dados de RH serão importados para o Microsoft 365. Isso ajudará a determinar quantos arquivos CSV e conectores de RH você precisará criar, e como gerar e estruturar os arquivos CSV. Os dados de RH que você importou são determinados pelas políticas de gerenciamento de risco do insider que você deseja implementar. Para obter mais informações, consulte a etapa 1.
 
-- Você precisa determinar como recuperar ou exportar os dados do sistema de RH da sua organização (e regularmente) e adicioná-los aos arquivos CSV criados na etapa 1. O script executado na etapa 4 carregará os dados de RH nos arquivos CSV para a nuvem da Microsoft.
+- Determine como recuperar ou exportar os dados do sistema de RH da sua organização (e regularmente) e adicioná-los aos arquivos CSV que você criou na etapa 1. O script executado na etapa 4 carregará os dados de RH nos arquivos CSV para a nuvem da Microsoft.
 
 - Sua organização deve ter o consentimento para permitir que o serviço de importação do Office 365 acesse os dados da sua organização. Para concordar com essa solicitação, [acesse a página](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), entre com as credenciais de um administrador global do Microsoft 365 e aceite a solicitação. Você precisa concluir esta etapa para poder criar com êxito o conector de RH na etapa 3.
 
@@ -69,7 +69,7 @@ Para obter mais informações sobre modelos de política para o gerenciamento de
 
 Para cada cenário de RH, você precisará fornecer os dados de RH correspondentes em um ou mais arquivos CSV. O número de arquivos CSV a ser usado para sua implementação de gerenciamento de risco do Insider é discutido posteriormente nesta seção.
 
-Depois de criar o arquivo CSV com os dados de RH necessários, armazene-os no computador local em que você executa o script na etapa 4. Você também deve implementar uma estratégia de atualização para certificar-se de que o arquivo CSV sempre contenha as informações mais atuais para que seja o que você executar o script, os dados de dados de RH mais atuais serão carregados para a nuvem da Microsoft e acessíveis à solução de gerenciamento de risco do insider.
+Depois de criar o arquivo CSV com os dados de RH necessários, armazene-os no computador local em que você executa o script na etapa 4. Você também deve implementar uma estratégia de atualização para certificar-se de que o arquivo CSV sempre contenha as informações mais atuais para que seja o que você executar o script, os dados de RH mais atuais serão carregados para a nuvem da Microsoft e acessíveis à solução de gerenciamento de risco do insider.
 
 > [!IMPORTANT]
 > Os nomes de coluna descritos nas seções a seguir não são parâmetros obrigatórios, mas apenas exemplos. Você pode usar qualquer nome de coluna em seus arquivos CSV. No entanto, os nomes de coluna usados em um arquivo CSV *devem* ser mapeados para o tipo de dados quando você cria o conector de RH na etapa 3. Observe também que os arquivos CSV de amostra nas seções a seguir são mostrados no modo de exibição do bloco de notas. É muito mais fácil exibir e editar arquivos CSV no Microsoft Excel.
@@ -112,8 +112,8 @@ A tabela a seguir descreve cada coluna no arquivo CSV para dados de alterações
 | **EmailAddress**  | Especifica o endereço de email do usuário (UPN).|
 | **EffectiveDate** | Especifica a data em que o nível de trabalho do usuário foi oficialmente alterado. Você deve usar o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
 | **Comentários**| Especifica o comentários que o avaliador forneceu sobre a alteração do nível de trabalho. Este é um parâmetro de texto com um limite de 200 caracteres. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV.|
-| **OldLevel**| Especifica o nível de trabalho do usuário antes de ser alterado. Esse parâmetro de texto livre e pode conter uma taxonomia hierárquica para sua organização. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV.|
-| **NewLevel**| Especifica o nível de trabalho do usuário após sua alteração. Esse parâmetro de texto livre e pode conter uma taxonomia hierárquica para sua organização. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV.|
+| **OldLevel**| Especifica o nível de trabalho do usuário antes de ser alterado. Este é um parâmetro de texto livre e pode conter uma taxonomia hierárquica para sua organização. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV.|
+| **NewLevel**| Especifica o nível de trabalho do usuário após sua alteração. Este é um parâmetro de texto livre e pode conter uma taxonomia hierárquica para sua organização. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV.|
 |||
 
 ### <a name="csv-file-for-performance-review-data"></a>Arquivo CSV para dados de avaliação de desempenho
@@ -133,7 +133,7 @@ A tabela a seguir descreve cada coluna no arquivo CSV para dados de revisão de 
 | **EmailAddress**  | Especifica o endereço de email do usuário (UPN).|
 | **EffectiveDate** | Especifica a data em que o usuário foi oficialmente informado sobre o resultado de sua avaliação de desempenho. Esta pode ser a data em que o ciclo de revisão de desempenho terminou. Você deve usar o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
 | **Comentários**| Especifica qualquer comentários que o avaliador forneceu ao usuário para a avaliação de desempenho. Este é um parâmetro de texto com um limite de 200 caracteres. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV.|
-| **Classificação**| Especifica a classificação fornecida para a revisão de desempenho. Esse parâmetro de texto e pode conter qualquer texto de forma livre que sua organização usa para reconhecer a avaliação. Por exemplo, "3 expectativas atendidas" ou "2 abaixo da média". Este é um parâmetro de texto com um limite de 25 caracteres. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV.|
+| **Classificação**| Especifica a classificação fornecida para a revisão de desempenho. Este é um parâmetro de texto e pode conter qualquer texto de forma livre que sua organização usa para reconhecer a avaliação. Por exemplo, "3 expectativas atendidas" ou "2 abaixo da média". Este é um parâmetro de texto com um limite de 25 caracteres. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV.|
 |||
 
 ### <a name="csv-file-for-performance-improvement-plan-data"></a>Arquivo CSV para dados do plano de melhoria de desempenho
@@ -153,7 +153,7 @@ A tabela a seguir descreve cada coluna no arquivo CSV para dados de revisão de 
 | **EmailAddress**  | Especifica o endereço de email do usuário (UPN).|
 | **EffectiveDate** | Especifica a data em que o usuário foi oficialmente informado sobre o plano de melhoria de desempenho. Você deve usar o seguinte formato de data: `yyyy-mm-ddThh:mm:ss.nnnnnn+|-hh:mm` , que é o [formato de data e hora ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html).|
 | **Comentários**| Especifica qualquer comentários que o avaliador forneceu sobre o plano de melhoria de desempenho. Este é um parâmetro de texto com um limite de 200 caracteres. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV. |
-| **Classificação**| Especifica qualquer classificação ou outras informações relacionadas à avaliação de desempenho. plano de melhoria de desempenho. Esse parâmetro de texto e pode conter qualquer texto de forma livre que sua organização usa para reconhecer a avaliação. Por exemplo, "3 expectativas atendidas" ou "2 abaixo da média". Este é um parâmetro de texto com limite de 25 caracteres. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV.|
+| **Classificação**| Especifica qualquer classificação ou outras informações relacionadas à avaliação de desempenho. plano de melhoria de desempenho. Este é um parâmetro de texto e pode conter qualquer texto de forma livre que sua organização usa para reconhecer a avaliação. Por exemplo, "3 expectativas atendidas" ou "2 abaixo da média". Este é um parâmetro de texto com limite de 25 caracteres. Esse é um parâmetro opcional. Você não precisa incluí-lo no arquivo CSV.|
 |||
 
 ### <a name="determining-how-many-csv-files-to-use-for-hr-data"></a>Determinar quantos arquivos CSV usar para dados de RH
@@ -164,7 +164,7 @@ Na etapa 3, você pode optar por criar conectores separados para cada tipo de da
 
 - O método para gerar ou coletar os dados de RH pode determinar o número de arquivos CSV. Por exemplo, se os diferentes tipos de dados de RH usados para configurar um conector de RH estão localizados em um único sistema de RH em sua organização, então você poderá exportar os dados para um único arquivo CSV. Mas se os dados forem distribuídos entre sistemas de RH diferentes, talvez seja mais fácil exportar dados para arquivos CSV diferentes. Por exemplo, os dados de demissão de funcionários podem estar localizados em um sistema de RH diferente do nível de trabalho ou dados de avaliação de desempenho. Nesse caso, talvez seja mais fácil ter arquivos CSV separados em vez de ter que combinar manualmente os dados em um único arquivo CSV. Portanto, o modo como você recupera ou exporta dados de seus sistemas de RH pode determinar como o número de arquivos CSV que você precisará.
 
-- Como regra geral, o número de conectores de RH que você precisará criar é determinado pelos tipos de dados em um arquivo CSV. Por exemplo, se um arquivo CSV contiver todos os tipos de dados necessários para suportar sua implementação de gerenciamento de risco do Insider, você só precisará de um conector de RH. Porém, se você tiver dois arquivos CSV separados que contenham um único tipo de dados, será necessário criar dois conectores de RH. Uma exceção é que, se você adicionar uma coluna HRScenario * * a um arquivo CSV (consulte a próxima seção), você pode configurar um único conector de RH que possa processar arquivos CSV diferentes.
+- Como regra geral, o número de conectores de RH que você precisará criar é determinado pelos tipos de dados em um arquivo CSV. Por exemplo, se um arquivo CSV contiver todos os tipos de dados necessários para suportar sua implementação de gerenciamento de risco do Insider, você só precisará de um conector de RH. Porém, se você tiver dois arquivos CSV separados que contenham um único tipo de dados, será necessário criar dois conectores de RH. Uma exceção é que, se você adicionar uma coluna **HRScenario** a um arquivo CSV (consulte a próxima seção), você pode configurar um único conector de RH que possa processar diferentes arquivos CSV.
 
 ### <a name="configuring-a-single-csv-file-for-multiple-hr-data-types"></a>Configurando um único arquivo CSV para vários tipos de dados de RH
 
@@ -176,7 +176,7 @@ Aqui estão os requisitos para configurar um arquivo CSV com vários tipos de da
 
 - Para usar um arquivo CSV com vários tipos de dados de RH, o conector de RH precisa saber quais linhas no arquivo CSV contêm que tipo de dados de RH. Isso é feito adicionando uma coluna **HRScenario** adicional ao arquivo CSV. Os valores nesta coluna identificam o tipo de dados de RH em cada linha. Por exemplo, os valores que correspondem aos quatro cenários de RH podem ser \` desistência \` , \` alteração no nível \` de trabalho, \` revisão \` de desempenho e plano de melhoria de \` desempenho \` .
 
-- Se você tiver vários arquivos CSV que contenham uma coluna **HRScenario** , certifique-se de que cada arquivo use o mesmo nome de coluna e os mesmos valores que identifiquem os cenários de RH específicos.
+- Se você tiver vários arquivos CSV que contenham uma coluna HRScenario * *, certifique-se de que cada arquivo use o mesmo nome de coluna e os mesmos valores que identifiquem os cenários de RH específicos.
 
 O exemplo a seguir mostra um arquivo CSV que contém a coluna **HRScenario** . Os valores na coluna HRScenario identificam o tipo de dados na linha correspondente.
 
@@ -380,6 +380,6 @@ Você pode fazer com que o aplicativo Agendador de tarefas do Windows execute o 
 
 ## <a name="existing-hr-connectors"></a>Conectores de RH existentes
 
-No dia 20 de julho de 2020, lançamos outros cenários suportados pelos conectores de RH. Estes são os cenários de RH descritos anteriormente neste artigo. Os conectores de RH criados antes dessa data só dão suporte ao cenário de demissão de funcionários. Se você criou um conector de RH antes de 20 de julho de 2020, nós o migramos para que ele continue migrar seus dados de RH para a nuvem da Microsoft. Você não precisa fazer nada para manter essa funcionalidade. Você pode continuar usando o conector sem qualquer interrupção.
+No dia 20 de julho de 2020, lançamos outros cenários suportados pelos conectores de RH. Estes são os cenários de RH descritos anteriormente neste artigo. Todos os conectores de RH criados antes dessa data só dão suporte ao cenário de demissão de funcionários. Se você criou um conector de RH antes de 20 de julho de 2020, nós o migramos para que ele continue migrar seus dados de RH para a nuvem da Microsoft. Você não precisa fazer nada para manter essa funcionalidade. Você pode continuar usando o conector sem qualquer interrupção.
 
 Se você quiser implementar cenários de RH adicionais, crie um novo conector de RH e configure-o para os cenários de RH adicionais lançados. Você também precisará criar um ou mais arquivos CSV novos que contenham os dados para dar suporte aos cenários de RH adicionais. Após criar um novo conector de RH, execute o script usando a ID do trabalho do novo conector e arquivo (s) CSV com os dados dos cenários de RH adicionais.

@@ -16,19 +16,20 @@ search.appverid:
 ms.assetid: ''
 description: Durante uma investigação, você pode usar o botão repetir para resolver pesquisas de conteúdo que têm erros de local de conteúdo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6b2d26cd51c30f2c273abb59199cf4a89f5b7a37
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 55ef7ff59bfc58809d0e00ff1f2edf7a8455ba13
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034625"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527629"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>Repetir uma pesquisa de conteúdo para resolver um erro de localização de conteúdo
 
-Ao usar a pesquisa de conteúdo no centro de conformidade e segurança para pesquisar um grande número de caixas de correio, você pode receber erros de pesquisa semelhantes aos seguintes:
+Ao usar a pesquisa de conteúdo no centro de conformidade e segurança para pesquisar um grande número de caixas de correio, você pode receber erros de pesquisa semelhantes ao erro:
 
 ```text
 Error
+
 
 The search on the following locations failed:
 
@@ -41,7 +42,7 @@ Esses erros (com códigos de erro de CS001-002, CS003-002, CS008-009, CS012-002 
 
 ## <a name="cause-of-content-location-errors"></a>Causa de erros de localização de conteúdo
 
-Ao pesquisar um grande número de caixas de correio, a pesquisa é distribuída entre milhares de servidores em um datacenter da Microsoft. A qualquer momento, os servidores específicos podem estar no estado de reinicialização ou no processo de failover para cópias redundantes. Em qualquer um desses casos, a solicitação de pesquisa de conteúdo para recuperar dados irá expirar. No exemplo anterior, os erros para as caixas de correio que falharam foram o resultado da pesquisa com tempo limite.
+Ao pesquisar um grande número de caixas de correio, a pesquisa é distribuída entre milhares de servidores em um datacenter da Microsoft. A qualquer momento, os servidores específicos podem estar no estado de reinicialização ou no processo de failover para cópias redundantes. Em qualquer um desses casos, a solicitação de pesquisa de conteúdo para recuperar dados expirará. No exemplo anterior, os erros para as caixas de correio que falharam foram o resultado da pesquisa com tempo limite.
 
 ## <a name="resolving-content-location-errors"></a>Resolvendo erros de localização de conteúdo
 
@@ -53,7 +54,7 @@ Isso resultará na repetição da pesquisa apenas para as caixas de correio que 
 
 ## <a name="tips-to-avoid-content-location-errors"></a>Dicas para evitar erros de localização de conteúdo
 
-Aqui estão algumas causas de adição de erros de local de conteúdo e algumas dicas para ajudá-lo a evitá-los ao pesquisar grandes números de caixas de correio.
+Veja a seguir algumas causas adicionais de erros de localização de conteúdo e algumas dicas para ajudá-lo a evitá-los ao pesquisar grandes números de caixas de correio.
 
 - A caixa de correio que está sendo pesquisada pode estar ocupada devido à atividade do usuário. Nesse caso, o serviço de pesquisa pode se limitar a impedir que a caixa de correio fique indisponível. Para evitar isso, tente executar pesquisas fora do horário comercial.
 
@@ -66,6 +67,6 @@ Aqui estão algumas causas de adição de erros de local de conteúdo e algumas 
 
 - Muitas pesquisas estão sendo realizadas na mesma caixa de correio ao mesmo tempo. Se possível, tente executar uma pesquisa de cada vez em uma caixa de correio.
 
-- Pesquisar muitas caixas de correio em uma única pesquisa. A probabilidade de erros de localização de conteúdo aumenta ao pesquisar um número muito grande de caixas de correio. Se possível, tente executar várias pesquisas para que cada pesquisa inclua um subconjunto de caixas de correio em sua organização.
+- Pesquisar muitas caixas de correio em uma única pesquisa. A probabilidade de erros de localização de conteúdo aumenta ao pesquisar um grande número de caixas de correio. Se possível, tente executar várias pesquisas para que cada pesquisa inclua um subconjunto de caixas de correio em sua organização.
 
 - A manutenção necessária está sendo executada na caixa de correio. Embora essa causa provavelmente ocorra com frequência, espere um pouco antes de receber o erro de localização do conteúdo e repita a pesquisa.

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Quando um qualificador é adicionado a um caso de descoberta eletrônica avançada, qualquer conteúdo considerado parcialmente indexado é reprocessado para torná-lo totalmente pesquisável.
-ms.openlocfilehash: 0618af5bcc18622ee8091782f55648f455230b6b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 95e087884b65628565e596dc8ae9f33aadc4cd9f
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637893"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527551"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>Indexação de dados custodiante avançados
 
@@ -39,7 +39,7 @@ Para saber mais sobre o processamento de suporte e itens parcialmente indexados,
 
 ## <a name="viewing-advanced-indexing-results"></a>Exibindo resultados avançados de indexação
 
-Após a conclusão do processo de indexação avançada, você pode entender a eficácia da reprocessamento.  No modo de exibição de resultados de indexação avançados na guia **processamento** para um caso, o gráfico lista o número de itens adicionados ao *índice híbrido*.  O índice híbrido é onde a descoberta eletrônica avançada armazena o conteúdo reprocessado.
+Após a conclusão do processo de indexação avançada, você pode entender a eficácia do reprocessamento.  No modo de exibição de resultados de indexação avançados na guia **processamento** para um caso, o gráfico lista o número de itens adicionados ao *índice híbrido*.  O índice híbrido é onde a descoberta eletrônica avançada armazena o conteúdo reprocessado.
 
 Este modo de exibição também inclui o número de itens que exigem correção e outro gráfico de erros por tipo de arquivo. Para saber mais, confira:
 

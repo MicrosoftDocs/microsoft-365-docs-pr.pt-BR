@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 8f5ef193a895bce51b733eaa98817d7c119217d0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Dados de processo para uma investigação de dados.
+ms.openlocfilehash: 0516c6e41caf33fad457754b613e12b7f23701aa
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632226"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527421"
 ---
 # <a name="process-data-for-an-investigation"></a>Dados de processo para uma investigação
 
@@ -34,4 +34,5 @@ A guia **processamento** em investigações de dados (visualização) fornece tr
 Consulte os artigos a seguir para obter mais detalhes.
 
 - [Indexação avançada de dados para uma investigação](index-data-people-of-interest.md)
+
 - [Correção de erros durante o processamento de dados](error-remediation.md)

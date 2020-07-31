@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: 'Saiba como converter uma caixa de correio privada em uma caixa de correio compartilhada que pode ser acessada por vários usuários. '
-ms.openlocfilehash: 7ae00c1d9c901378798f063554a44a3e5b741442
-ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
+ms.openlocfilehash: a4b2e9ce53051feb07ea035adc0c959bbb1a0948
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45391525"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521024"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>Converter uma caixa de correio do usuário em uma caixa de correio compartilhada
 
@@ -49,7 +49,7 @@ Quando você converte a caixa de correio de um usuário em uma caixa de correio 
 
 3. Selecione a caixa de correio do usuário. Em **converter em caixa de correio compartilhada**, selecione **converter**.
 
-4. Se a caixa de correio for menor que 50 GB, você poderá remover a [licença do usuário](../manage/remove-licenses-from-users.md)e deixar de pagar por ela. Não exclua a conta do usuário. A caixa de correio compartilhada precisa dela como uma âncora. Se estiver convertendo a caixa de correio de um funcionário que está saindo da sua organização, você deve executar etapas adicionais para garantir que eles não consigam mais fazer logon. Confira [remover um antigo funcionário da Microsoft 365](../add-users/remove-former-employee.md).
+4. Se a caixa de correio for menor do que 50 GB, você poderá remover a [licença do usuário](../manage/remove-licenses-from-users.md)e deixar de pagar por ela. Não exclua a conta do usuário. A caixa de correio compartilhada precisa dela como uma âncora. Se estiver convertendo a caixa de correio de um funcionário que está saindo da sua organização, você deve executar etapas adicionais para garantir que eles não consigam mais fazer logon. Confira [remover um antigo funcionário da Microsoft 365](../add-users/remove-former-employee.md).
     
 5. Para tudo o que você precisa saber sobre caixas de correio compartilhadas, consulte [sobre caixas de correio](about-shared-mailboxes.md) compartilhadas e [criar uma caixa de correio compartilhada](create-a-shared-mailbox.md).
 
@@ -63,8 +63,8 @@ Quando você converte a caixa de correio de um usuário em uma caixa de correio 
 
 3. Redefinir a senha do usuário.
 
-> [!NOTE]
-> Não é necessário redefinir a senha do usuário durante a conversão da caixa de correio. No entanto, se a senha não for redefinida, **o nome de usuário e a senha originais continuarão funcionando** após a conclusão da conversão da caixa de correio.
+   > [!NOTE]
+   > Não é necessário redefinir a senha do usuário durante a conversão da caixa de correio. No entanto, se a senha não for redefinida, **o nome de usuário e a senha originais continuarão funcionando** após a conclusão da conversão da caixa de correio.
 
 4. Na guia **email** , em **mais ações**, selecione **converter para caixa de correio compartilhada**. 
 
@@ -91,7 +91,7 @@ Quando você converte a caixa de correio de um usuário em uma caixa de correio 
 ::: moniker-end
 
 
-Se a caixa de correio for menor que 50 GB, você poderá [remover a licença do usuário](../manage/remove-licenses-from-users.md)e deixar de pagar por ela. Não exclua a caixa de correio antiga do usuário. A caixa de correio compartilhada precisa dela como uma âncora. Se estiver convertendo a caixa de correio de um funcionário que está saindo da sua organização, você deve executar etapas adicionais para garantir que eles não consigam mais fazer logon. Confira [remover um antigo funcionário da Microsoft 365](../add-users/remove-former-employee.md).
+Se a caixa de correio for menor do que 50 GB, você poderá [remover a licença do usuário](../manage/remove-licenses-from-users.md)e deixar de pagar por ela. Não exclua a caixa de correio antiga do usuário. A caixa de correio compartilhada precisa dela como uma âncora. Se estiver convertendo a caixa de correio de um funcionário que está saindo da sua organização, você deve executar etapas adicionais para garantir que eles não consigam mais fazer logon. Confira [remover um antigo funcionário da Microsoft 365](../add-users/remove-former-employee.md).
     
 Para tudo o que você precisa saber sobre caixas de correio compartilhadas, consulte [sobre caixas de correio](about-shared-mailboxes.md) compartilhadas e [criar uma caixa de correio compartilhada](create-a-shared-mailbox.md).
 
@@ -132,19 +132,19 @@ Digamos que você tenha excluído uma conta de usuário e agora deseja converter
 
 ## <a name="convert-a-users-mailbox-in-a-hybrid-environment"></a>Converter a caixa de correio de um usuário em um ambiente híbrido
 
-Se essa caixa de correio compartilhada estiver em um ambiente híbrido, **recomendamos enfaticamente** (quase exigir!) que você mova a caixa de correio do usuário de volta para o local, converta a caixa de correio do usuário em uma caixa de correio compartilhada e, em seguida, mova a caixa de correio compartilhada de volta para a nuvem.
+Se essa caixa de correio compartilhada estiver em um ambiente híbrido, **recomendamos enfaticamente** (quase exigir!) que você mova a caixa de correio do usuário de volta para o local, converta a caixa de correio do usuário em uma caixa de correio compartilhada e, em seguida, mova a caixa de correio compartilhada de volta para a nuvem. 
 
 Veja por quê: se você converter a caixa de correio na nuvem, ela poderá ser convertida, mas o local ainda acha que a caixa de correio é a caixa de correio do usuário, porque a nova realidade não é sincronizada para o local.
 
 Normalmente, isso não é um problema, mas há alguns cenários em que os atributos locais (que acreditam que a caixa de correio é a caixa de correio do usuário) podem substituir as novas versões de nuvem desses atributos e, como resultado, a caixa de correio pode ser convertida novamente. Isso é um problema porque as caixas de correio do usuário exigem licenças **ou são excluídas de forma reversível após 30 dias**!
 
-Abordamos a maioria dos motivos pelos quais isso acontece, mas ele ainda pode acontecer, embora com frequência. É melhor ser seguro e mover a caixa de correio de volta para o local.
+Abordamos a maioria dos motivos pelos quais isso acontece, mas ele ainda pode acontecer, embora com frequência. É melhor ser seguro e mover a caixa de correio de volta para o local, convertê-la e, em seguida, mover a caixa de correio compartilhada de volta para a nuvem. Essa solução recomendada não está violando o contrato de licenciamento para ambientes híbridos porque a existência da caixa de correio de usuário local é apenas temporária. Você estaria violando sua licença se manteve a caixa de correio do usuário ou a caixa de correio compartilhada em sua organização local e não a moveu de volta para a nuvem.
 
 > [!NOTE]
-> Se você fizer parte do gerenciamento da organização ou do gerenciamento de destinatários, você pode usar o Shell de gerenciamento do Exchange para alterar uma caixa de correio de usuário para uma caixa de correio compartilhada no local. Por exemplo, `Set-Mailbox -Identity mailbox1@contoso.onmicrosoft.com -Type Shared`.
+> Se você é membro do grupo de funções Gerenciamento da organização ou gerenciamento de destinatários, você pode usar o Shell de gerenciamento do Exchange para alterar uma caixa de correio de usuário para uma caixa de correio compartilhada no local. Por exemplo, `Set-Mailbox -Identity mailbox1@contoso.onmicrosoft.com -Type Shared`.
 
 > [!TIP]
-> Consulte a solução alternativa nesta solução de suporte para instâncias quando [caixas de correio compartilhadas são convertidas inesperadamente em caixas de correio de usuários](https://support.microsoft.com/help/2710029/shared-mailboxes-are-unexpectedly-converted-to-user-mailboxes-after-di)
+> Consulte a solução alternativa nesta solução de suporte para instâncias quando [caixas de correio compartilhadas são convertidas inesperadamente em caixas de correio de usuários](https://support.microsoft.com/help/2710029/shared-mailboxes-are-unexpectedly-converted-to-user-mailboxes-after-di).
   
 ## <a name="related-articles"></a>Artigos relacionados
 

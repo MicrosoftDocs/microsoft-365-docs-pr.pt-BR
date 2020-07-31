@@ -13,15 +13,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365solutions
+- m365solution-infoprotection
+- m365solution-overview
 ms.custom: ''
 description: Configure a infraestrutura de segurança e serviço para proteger suas informações e aderir às regulamentações de privacidade de dados.
-ms.openlocfilehash: ea0f5ead93dc631a28577a61f33bca3b601406f4
-ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
+ms.openlocfilehash: 640ce075515c687c037cb0e4ab3e03e3beda81dc
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854323"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522284"
 ---
 # <a name="deploy-information-protection-for-data-privacy-regulations-with-microsoft-365"></a>Implantar a proteção de informações para regulamentações de privacidade de dados com o Microsoft 365
 
@@ -37,13 +38,13 @@ Para atender aos critérios de proteção de informações para conformidade com
 
 | Capcidade ou recurso | Descrição | Licenças |
 |:-------|:-----|:-------|
-| Gerenciador de Conformidade | Gerenciar atividades de conformidade regulatória relacionadas aos serviços de nuvem da Microsoft com esta ferramenta de avaliação de risco baseada em fluxo de trabalho no portal de confiança do serviço Microsoft. | Microsoft 365 E3 e e5 |
-| Pontuação de Conformidade (visualização) | Veja uma pontuação geral da configuração atual de conformidade e recomendações para melhorá-lo no centro de conformidade da Microsoft 365. | Microsoft 365 E3 e e5 |
-| Proteção avançada contra ameaças do Office (ATP) | Proteja seus aplicativos e dados do Microsoft 365, como mensagens de email, documentos do Office e ferramentas de colaboração — contra ataques. | Microsoft 365 E3 e e5 | 
-| Rótulos de confidencialidade | Classifique e proteja os dados da sua organização sem prejudicar a produtividade dos usuários e sua capacidade de colaborar colocando rótulos com vários níveis de proteção em emails, arquivos ou sites. | Microsoft 365 E3 e e5 |
-| Proteção contra perda de dados (DLP) | Detectar, avisar e bloquear compartilhamento arriscado, inadvertido ou inadequado, como compartilhamento de dados contendo informações pessoais, interna e externamente. | Microsoft 365 E3 e e5 | 
-| Rótulos e políticas de retenção de dados | Implemente controles de governança de informações, como por quanto tempo manter os dados e os requisitos no armazenamento de dados pessoais nos clientes, para estar em conformidade com as políticas ou regulamentações de dados da sua organização. | Microsoft 365 E3 e e5 |
-| Criptografia de email | Enviar e receber mensagens de email criptografadas entre pessoas dentro e fora da sua organização que contenha dados regulamentados, como dados pessoais em clientes. | Microsoft 365 E3 e e5 |
+| Gerente de Conformidade | Gerencie as atividades de conformidade regulatória relacionadas aos serviços de nuvem da Microsoft com esta ferramenta de avaliação de risco baseada em fluxo de trabalho no Portal de Confiança do Serviço da Microsoft. | Microsoft 365 E3 e E5 |
+| Pontuação de Conformidade (visualização) | Veja uma pontuação geral da configuração de conformidade atual e recomendações para melhorá-la no Centro de Conformidade do Microsoft 365. | Microsoft 365 E3 e E5 |
+| Proteção Avançada contra Ameaças do Office (ATP) | Proteja seus aplicativos e dados da Microsoft 365— como mensagens de email, documentos do Office e ferramentas de colaboração—de um ataque. | Microsoft 365 E3 e E5 | 
+| Rótulos de confidencialidade | Classifique e proteja os dados da organização sem atrapalhar a produtividade e a capacidade de colaboração dos usuários, colocando rótulos com vários níveis de proteção em emails, arquivos ou sites. | Microsoft 365 E3 e E5 |
+| Proteção contra Perda de Dados (DLP)  | Detectar, avisar e bloquear compartilhamento arriscado, inadvertido ou impróprio, como o compartilhamento de dados com informações pessoais, interna e externamente. | Microsoft 365 E3 e E5 | 
+| Rótulos e políticas de retenção de dados | Implemente controles de governança de informações, como por quanto tempo manter os dados e os requisitos sobre o armazenamento de dados pessoais dos clientes, para estar em conformidade com as políticas da sua organização ou com as regulamentações de dados. | Microsoft 365 E3 e E5 |
+| Criptografia de email | Envie e receba mensagens de email criptografadas entre as pessoas dentro e fora da sua organização que contenham dados regulados, como dados pessoais de clientes. | Microsoft 365 E3 e E5 |
 ||||
 
 ## <a name="organization-of-the-guidance-in-this-solution"></a>Organização das orientações desta solução

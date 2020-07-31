@@ -10,15 +10,14 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 9889d326350d40ff69b1eaaaf348824249c04e24
-ms.sourcegitcommit: a418195dc11e6251ae37e788c102bbaa7087e44e
+ms.openlocfilehash: 0ea88fc46f5e83dcce6ce0883b05c41a4f293c62
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44579207"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521584"
 ---
 # <a name="microsoft-365-enterprise-architecture-design-principles"></a>Princípios de design de arquitetura do Microsoft 365 Enterprise
 

@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -24,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Visão geral da configuração do Microsoft 365 para campanhas
-ms.openlocfilehash: 463d7cebf88ea830048c25e2781eac4aa379e30a
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 17d8b90c5dc15009340454491c57802d7ac1b496
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165692"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526847"
 ---
 # <a name="set-up-microsoft-365-for-campaigns"></a>Configurar o Microsoft 365 para campanhas
 
