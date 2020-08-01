@@ -1,7 +1,7 @@
 ---
 title: Monitoramento e operações de área de trabalho gerenciada da Microsoft
 description: ''
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 f1.keywords:
@@ -9,12 +9,14 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6e543219bd6a7667febadcdc8f3cff6ab705b8d3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 0ed10b7088e38cbf5a2d9196508eae5cdc522a74
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632008"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529440"
 ---
 # <a name="microsoft-managed-desktop-operations-and-monitoring"></a>Monitoramento e operações de área de trabalho gerenciada da Microsoft
 
@@ -62,7 +64,7 @@ Há vários tipos de alterações que são feitas no serviço periodicamente. O 
 
 Nem todas as alterações têm o mesmo impacto sobre os usuários ou exigem ação. Alguns são planejados e alguns não planejados pela natureza (atualizações não relacionadas a segurança e atualizações de segurança não costumam ser planejadas). Dependendo do tipo de alteração, o canal de comunicação pode variar. A tabela a seguir lista os tipos de alterações que você pode esperar para o serviço de área de trabalho gerenciada da Microsoft.
 
-|   | Função |   Atualizações não relacionadas à segurança |  Segurança
+|   | Funcionalidade |   Atualizações não relacionadas à segurança |  Segurança
 --- | --- | --- | ---
 **Tipo de alteração** | – Atualizações de recursos<br>– Novos recursos ou aplicativos<br>-Recursos preteridos | Hotfixes de cliente para problemas | Patches de segurança
 **Aviso com antecedência** | um aviso de cinco dias para alterações que exigem ação |    Não, eles estão incluídos na versão mensal   | Não, eles estão incluídos na versão mensal 
@@ -85,7 +87,7 @@ Rede (proxy, inspeção de pacote, VPN)  | Avisar e planejar com os clientes par
 Contas de serviço |– Implemente, armazene e gerencie as credenciais com segurança.<br> – Comunique o acesso não autorizado ou use essas credenciais para a equipe de operações de segurança. | – Criar uma solicitação de suporte solicitando informações para uma alteração de configuração planejada, incluindo detalhes de configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>– Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas.<br>– Não atribua política, autenticação multifator, acesso condicional ou implantação de aplicativo para as contas de serviço de área de trabalho gerenciada da Microsoft.<br>-Não redefina a senha ou use as credenciais.<br>– Abra uma solicitação de suporte do Sev C para operações de área de trabalho gerenciada da Microsoft, caso seja observada atividade suspeita nos logs de auditoria do Intune ou Azure, relacionadas a essas contas de serviço.
 Grupos de dispositivos | – Implemente e gerencie a associação de dispositivos nos grupos da área de trabalho gerenciada da Microsoft.<br>– Use os grupos de área de trabalho gerenciada da Microsoft para gerenciar a atribuição e a versão de configuração e atualizações para dispositivos. | – Criar uma solicitação de suporte solicitando informações para uma alteração de configuração planejada, incluindo detalhes de configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>– Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas.<br>– Não modificar a associação de qualquer grupo de área de trabalho gerenciada da Microsoft.<br>– Use somente os grupos para atribuir certificados corporativos para serviços como VPN, Windows Hello para Business ou criptografia de email ou configuração de perfil de Wi-Fi corporativos.<br>-Onde existe o cogerenciamento, exclua explicitamente todos os grupos da área de trabalho gerenciado da Microsoft ao implantar o cliente do Configuration Manager.
 Políticas |  – Implemente e gerencie as políticas de área de trabalho gerenciada da Microsoft que regem o estado de configuração dos dispositivos no serviço.<br>– Implantar atualizações, política ou janelas, usando grupos de dispositivos de forma incremental.<br> -Excluir explicitamente os grupos de área de trabalho gerenciada não Microsoft de direcionamento. | – Criar uma solicitação de suporte solicitando informações para uma alteração de configuração planejada, incluindo detalhes de configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>– Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas.<br>-Não edite ou atribua políticas de área de trabalho gerenciada da Microsoft a dispositivos ou usuários não gerenciados pelo serviço de área de trabalho gerenciada da Microsoft.
-Proteção Avançada contra Ameaças do Microsoft Defender   | Monitore e investigue os dispositivos dentro do escopo do serviço de área de trabalho gerenciada da Microsoft. | – Criar uma solicitação de suporte solicitando informações para uma alteração de configuração planejada, incluindo detalhes de configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>-Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas
+Proteção avançada contra ameaças do Microsoft Defender   | Monitore e investigue os dispositivos dentro do escopo do serviço de área de trabalho gerenciada da Microsoft. | – Criar uma solicitação de suporte solicitando informações para uma alteração de configuração planejada, incluindo detalhes de configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>-Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas
 Microsoft Store para empresas |  Configurar e manter o perfil do Windows AutoPilot para o serviço de área de trabalho gerenciada da Microsoft. | – Criar uma solicitação de suporte solicitando informações para uma alteração de configuração planejada, incluindo detalhes de configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>– Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas.<br>-Não modifique a configuração do perfil do Microsoft AutoPilot da área de trabalho gerenciada do Windows ou adicione/remova dispositivos atribuídos.
 Certificados | | -Criar uma solicitação de suporte 60 dias antes da expiração de um certificado, solicitando informações para uma alteração de configuração planejada, incluindo detalhes da configuração, escopo, linha do tempo e outros detalhes pertinentes para a Microsoft revisar.<br>– Aplicar uma alteração somente depois que as operações de área de trabalho gerenciada pela Microsoft tiverem sido avaliadas e recomendadas.<br>– Atualizar todos os certificados necessários para configurar perfis de certificado, perfis VPN e perfis Wi-Fi.
 

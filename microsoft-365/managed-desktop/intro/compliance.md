@@ -6,12 +6,15 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: e2a60bba348e4f19eaa56805b509e4472c9fd215
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 5314cf21d94513cfab664279d11438e86e67231e
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434284"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530182"
 ---
 # <a name="compliance"></a>Conformidade
 

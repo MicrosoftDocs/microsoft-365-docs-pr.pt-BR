@@ -1,19 +1,22 @@
 ---
-title: Adicionar e verificar contatos do administrador no portal de Administração
+title: Adicione e verifique contatos do administrador no portal do Administrador
 description: Diga-nos quem entrar em contato para cada área de foco.
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5a980c1e15a6cbc098647139caf48f813b36b040
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: d8a5775d90f592aa5f64dd5f379fb37278032d87
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085880"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529798"
 ---
-# <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>Adicionar e verificar contatos do administrador no portal de Administração
+# <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>Adicione e verifique contatos do administrador no portal do Administrador
 
 Há várias maneiras de o serviço Microsoft Managed desktop se comunicar com os clientes. Para simplificar a comunicação e garantir que estamos verificando com as pessoas certas, você precisa fornecer um conjunto de contatos de administração. As operações de ti de área de trabalho gerenciada da Microsoft contatarão essas pessoas para resolver problemas de solução de problemas para o seu locatário.
 
@@ -23,7 +26,7 @@ Há várias maneiras de o serviço Microsoft Managed desktop se comunicar com os
 ## <a name="azure-active-directory-access-for-microsoft-managed-desktop-admin-portal"></a>Acesso do Azure Active Directory para o portal de administração de área de trabalho gerenciada da Microsoft
 
 O portal de administração de área de trabalho gerenciada da Microsoft exige que as pessoas que acessam o portal tenham uma destas funções do Azure Active Directory (AD):
-- Administrador global
+- Administrador Global
 - Administrador de serviço do Intune
 - Leitor global
 - Administrador de suporte de serviço
@@ -54,7 +57,7 @@ Os contatos do administrador são necessários ao [Enviar uma solicitação de s
 
     ![Menu de suporte, contatos do administrador próximo à parte superior selecionada](../../media/admincontacts.png)
 
-3. Selecione **Adicionar**.
+3. Clique em **Adicionar**.
 
     ![Portal de administração, botão Adicionar, à esquerda de exportar e atualizar](../../media/adminadd.png)
 
@@ -69,8 +72,8 @@ Os contatos do administrador são necessários ao [Enviar uma solicitação de s
 1. Adicionar e verificar contatos de administrador no portal de administração (este tópico)
 2. [Ajustar o acesso condicional](conditional-access.md)
 3. [Atribuir licenças](assign-licenses.md)
-4. [Instalar o portal da empresa do Intune em dispositivos](company-portal.md)
-5. [Habilitar Roaming de Estado da Empresa](enterprise-state-roaming.md)
-6. [Configurar dispositivos de área de trabalho gerenciada da Microsoft](set-up-devices.md)
+4. [Instalar o Portal da Empresa do Intune em dispositivos](company-portal.md)
+5. [Habilitar Enterprise State Roaming](enterprise-state-roaming.md)
+6. [Configurar dispositivos de Área de Trabalho Gerenciada da Microsoft](set-up-devices.md)
 7. [Preparar usuários para o uso dos dispositivos](get-started-devices.md)
 8. [Implantar aplicativos em dispositivos](deploy-apps.md)

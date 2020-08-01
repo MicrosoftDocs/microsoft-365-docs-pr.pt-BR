@@ -8,12 +8,15 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 4c7ce4e8fd9c41f9ae9417f546e14e7bf8beda5c
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.collection: M365-modern-desktop
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: acdca0a70fb28b10f053da8f79b4e37c9c7632f5
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46503062"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529918"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Dispositivos arquivados do Microsoft Managed desktop
 

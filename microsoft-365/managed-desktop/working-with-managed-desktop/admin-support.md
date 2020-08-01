@@ -1,19 +1,22 @@
 ---
-title: Suporte de administrador para área de trabalho gerenciada da Microsoft
+title: Administrador de suporte para Área de Trabalho Gerenciada da Microsoft
 description: ''
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: c3137c25de9f8fe941f62e5c53b1006c5009e222
-ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: a29fa11e43e9be5c8175118ad5b54817c463e929
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42266087"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529894"
 ---
-# <a name="admin-support-for-microsoft-managed-desktop"></a>Suporte de administrador para área de trabalho gerenciada da Microsoft
+# <a name="admin-support-for-microsoft-managed-desktop"></a>Administrador de suporte para Área de Trabalho Gerenciada da Microsoft
 
 Você pode enviar tíquetes de suporte ou solicitações de comentários para a Microsoft usando o portal administrativo de área de trabalho gerenciada da Microsoft. As solicitações de suporte são sempre priorizadas sobre envios de comentários. As solicitações de suporte são interatualizadas e gerenciadas de acordo com a severidade, conforme descrito na [tabela de definição de gravidade](#sev). Os comentários são revisados e uma resposta fornecida onde solicitado. 
 

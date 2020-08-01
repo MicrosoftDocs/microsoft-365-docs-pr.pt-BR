@@ -1,23 +1,26 @@
 ---
-title: Ajustar o acesso condicional
+title: Ajuste o acesso condicional
 description: Como excluir determinadas contas da Microsoft
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1bc5d937616cba60c5af43fe22a7c4dccf89a55e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 8844c50f5faba609b3f5f53adc5ab45ba1dbaa74
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085800"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529678"
 ---
-# <a name="adjust-conditional-access"></a>Ajustar o acesso condicional
+# <a name="adjust-conditional-access"></a>Ajuste o acesso condicional
 
 Se você usar políticas de [acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) em sua organização, será necessário defini-las para excluir determinadas contas, de modo que a área de trabalho gerenciada da Microsoft possa funcionar corretamente.
 
-Para fazer isso, execute estas etapas:
+Para fazer isso, siga estas etapas:
 
 1. Consulte a seção "etapas de reversão" de [como: planejar sua implantação de acesso condicional no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access#rollback-steps).
 2. Siga as etapas para excluir o grupo de *contas de serviço de área de trabalho moderna* para todas as políticas.

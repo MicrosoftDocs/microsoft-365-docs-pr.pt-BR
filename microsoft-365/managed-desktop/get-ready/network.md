@@ -9,12 +9,14 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 61ee024cc483f9be172063a256cedd3827d6807a
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: fb5a73782650cee36ffdfb95a9bf6efd9464435f
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430490"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529476"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Configuração de rede na Área de Trabalho Gerenciada da Microsoft
 
@@ -25,7 +27,7 @@ ms.locfileid: "45430490"
 
 O Microsoft Managed desktop é um serviço gerenciado na nuvem. Há um conjunto de pontos de extremidade que os serviços de área de trabalho gerenciada da Microsoft precisam alcançar. Esta seção lista os pontos de extremidade que precisam ser permitidos para os vários aspectos do serviço de área de trabalho gerenciada da Microsoft. 
 
-Os clientes podem otimizar a rede enviando todas as solicitações de rede confiáveis da Microsoft 365 diretamente por meio de seu firewall ou proxy, ignorando a autenticação e todos os processamentos ou inspeções adicionais no nível de pacote. Isso reduz a latência e seus requisitos de capacidade de perímetro. 
+Os clientes podem otimizar a rede enviando todas as solicitações de rede confiáveis da Microsoft 365 diretamente por meio de seu firewall ou proxy, ignorando a autenticação e todos os processamentos ou inspeções adicionais no nível de pacote. Isso reduz a latência e os seus requisitos de capacidade de perímetro. 
 
 Além disso, para otimizar o desempenho dos serviços baseados em nuvem de área de trabalho gerenciada da Microsoft, esses pontos de extremidade precisam de tratamento especial por navegadores cliente cliente e os dispositivos em sua rede de borda. Esses dispositivos incluem firewalls, interrupção de SSL e inspecionar, dispositivos de inspeção de pacotes e sistemas de prevenção contra perda de dados.
 

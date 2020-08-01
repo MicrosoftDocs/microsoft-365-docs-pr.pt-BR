@@ -7,12 +7,14 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 94d51d7b28922a05c892eb4ffc14aee813a9069c
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: bd775e201f5fec556941ae0e8e7b025744da0419
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522020"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529428"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Requisitos do aplicativo da área de trabalho gerenciada da Microsoft
 
@@ -33,7 +35,7 @@ O Microsoft Managed desktop exige que possamos gerenciar dispositivos usando uma
 |Segurança da rede     | Consulte [segurança de rede](security.md#network-security)        |
 |Segurança de informações     |  Consulte [segurança de informações](security.md#information-security)       |
 |Recuperação de dados     | OneDrive for Business        |
-|Produtividade principal     | Microsoft 365 Apps para empresas    |
+|Produtividade principal     | Microsoft 365 Apps para Grandes Empresas    |
 |Navegador     | Microsoft Edge        |
 
 

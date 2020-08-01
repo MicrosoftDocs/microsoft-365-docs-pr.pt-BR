@@ -1,22 +1,24 @@
 ---
-title: Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft
+title: Prepare as unidades mapeadas da Área de trabalho gerenciada da Microsoft
 description: Etapas importantes para garantir
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 8bdbbefb1fc3bfff324787eedb497afe781184f0
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: e6311c0ad11d68c870b0c8185974b8913735e2a2
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280169"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530170"
 ---
-#  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft
+#  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Prepare as unidades mapeadas da Área de trabalho gerenciada da Microsoft
 
-Muitos ambientes corporativos têm requisitos herdados para unidades mapeadas para permitir que seus usuários ou equipes compartilhem e armazenem arquivos ou para aplicativos locais. A Microsoft não recomenda o uso de unidades mapeadas com a área de trabalho gerenciada da Microsoft. Em vez disso, recomendamos modernizar as soluções de acesso de arquivos do yor da seguinte maneira:
+Muitos ambientes corporativos têm requisitos herdados para unidades mapeadas para permitir que seus usuários ou equipes compartilhem e armazenem arquivos ou para aplicativos locais. A Microsoft não recomenda o uso de unidades mapeadas com a área de trabalho gerenciada da Microsoft. Em vez disso, recomendamos que você Modernize suas soluções de acesso a arquivos da seguinte maneira:
   
 - Migrar unidades mapeadas usadas por usuários individuais para o OneDrive for Business. 
 - Migrar unidades mapeadas usadas pelo Teams para compartilhar arquivos com o SharePoint Online. 

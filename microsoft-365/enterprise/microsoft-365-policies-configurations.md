@@ -16,12 +16,13 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 4ffc6a8771a93e0aea4583dce092109afe57175d
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+- m365solution-identitydevice
+ms.openlocfilehash: 1a16fa9a26ab20065d213857614b06fdde6c0af1
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222322"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530266"
 ---
 # <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 
@@ -33,7 +34,7 @@ A Microsoft entende que algumas organizações têm requisitos ou complexidades 
 
 ## <a name="intended-audience"></a>Público-alvo
 
-Essas recomendações são direcionadas para arquitetos corporativos e profissionais de ti que estão familiarizados com o [Office 365](https://technet.microsoft.com/library/dn127064(v=office.14).aspx) e [o Microsoft Enterprise Mobility + Security](https://microsoft.com/ems), que inclui, entre outros, o Azure Active Directory (identidade), o Microsoft Intune (gerenciamento de dispositivos) e a proteção de informações do Azure (proteção de dados).
+Essas recomendações são direcionadas para arquitetos corporativos e profissionais de ti que estão familiarizados com o [Office 365](https://docs.microsoft.com/microsoft-365/admin) e [o Microsoft Enterprise Mobility + Security](https://microsoft.com/ems), que inclui, entre outros, o Azure Active Directory (identidade), o Microsoft Intune (gerenciamento de dispositivos) e a proteção de informações do Azure (proteção de dados).
 
 ### <a name="customer-environment"></a>Ambiente do cliente
 
@@ -45,7 +46,7 @@ Para as organizações que não têm licenças do Enterprise Mobility + Security
 
 ### <a name="caveats"></a>ADVERTÊNCIAS
 
-Sua organização pode estar sujeita à regulamentação ou outros requisitos de conformidade, incluindo recomendações específicas que podem exigir que você aplique políticas que divergem dessas configurações recomendadas. Essas configurações recomendam controles de uso que historicamente não estavam disponíveis. Recomendamos esses controles porque acreditamos que eles representam um equilíbrio entre produtividade e segurança.  
+Sua organização pode estar sujeita à regulamentação ou outros requisitos de conformidade, incluindo recomendações específicas que podem exigir que você aplique políticas que divergem dessas configurações recomendadas. Essas configurações recomendam controles de uso que historicamente não estavam disponíveis. Recomendamos esses controles, pois acreditamos que eles representam um equilíbrio entre segurança e produtividade.  
 
 Fizemos nossa melhor consideração para uma ampla variedade de requisitos de proteção organizacional, mas não é possível considerar todos os requisitos possíveis ou todos os aspectos exclusivos da sua organização.
 
@@ -57,7 +58,7 @@ Cada setor também tem seu próprio conjunto de normas especializadas. Em vez de
 
 - **Proteção de linha de base**: Recomendamos que você estabeleça um padrão mínimo para proteger os dados, bem como as identidades e dispositivos que acessam seus dados. Você pode seguir estas recomendações de linha de base para fornecer uma proteção padrão forte que atenda às necessidades de muitas organizações.
 - **Proteção confidencial**: alguns clientes têm um subconjunto de dados que devem ser protegidos em níveis mais altos ou podem exigir que todos os dados sejam protegidos em um nível mais alto. Você pode aplicar maior proteção a todos ou a conjuntos de dados específicos no seu ambiente do Microsoft 365. É recomendável proteger identidades e dispositivos que acessam dados confidenciais com níveis compatíveis de segurança.  
-- **Altamente regulamentado**: algumas organizações podem ter uma pequena quantidade de dados altamente classificados, segredos de comércio consititutes ou dados regulamentados. A Microsoft fornece recursos para ajudar as organizações a atender a esses requisitos, incluindo proteção adicional para identidades e dispositivos.
+- **Altamente regulamentado**: algumas organizações podem ter uma pequena quantidade de dados altamente classificados, constituindo segredos comerciais ou dados regulamentados. A Microsoft fornece recursos para ajudar as organizações a atender a esses requisitos, incluindo proteção adicional para identidades e dispositivos.
 
 ![Cone de segurança-todos os clientes > alguns clientes > clientes específicos. Aplicativo amplo para aplicativos específicos](../media/M365-idquality-threetiers.png)
 
@@ -94,7 +95,7 @@ Esta seção fornece uma visão geral dos serviços e recursos do Microsoft 365 
 
 O Azure AD fornece um pacote completo de recursos de gerenciamento de identidades. Para proteger o acesso, recomendamos o uso dos seguintes recursos:
 
-- **[Redefinição de senha de autoatendimento (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks)**: permitir que os usuários redefinam suas senhas com segurança e sem a intervenção da assistência técnica, fornecendo a verificação de vários métodos de autenticação que o administrador pode controlar.
+- **[Redefinição de senha de autoatendimento (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks)**: permitir que os usuários redefinam suas senhas com segurança e sem a intervenção do técnico, fornecendo a verificação de vários métodos de autenticação que o administrador pode controlar.
 
 - **[Autenticação multifator (MFA)](/azure/active-directory/authentication/concept-mfa-howitworks)**: a MFA exige que os usuários forneçam duas formas de verificação, como a senha de um usuário, além de uma notificação do aplicativo Microsoft Authenticator ou de uma chamada telefônica. A MFA reduz muito o risco de que uma identidade roubada possa ser usada para acessar seu ambiente.
 
@@ -132,7 +133,7 @@ O Windows 10 e o Microsoft 365 aplicativos para empresas é o ambiente de client
 
 A tabela a seguir resume nossas recomendações para usar esses recursos nas três camadas de proteção.
 
-|Mecanismo de proteção|Linha de base|Confidencial|Altamente controlada|
+|Mecanismo de proteção|Linha de base|Confidencial|Altamente controlado|
 |:-------------------|:-------|:--------|:---------------|
 |**Impor a MFA**|No risco de entrada médio ou acima|No risco de entrada baixo ou acima|Em todas as novas sessões|
 |**Impor alteração de senha**|Para usuários de alto risco|Para usuários de alto risco|Para usuários de alto risco|

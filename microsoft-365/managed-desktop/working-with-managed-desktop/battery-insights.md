@@ -1,19 +1,22 @@
 ---
-title: Insights de bateria
+title: Percepções da bateria
 description: ''
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 434f62d5ddfc8bc75c54de422aafc8c6325c4086
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: f339fc98ea94c291c533045e9906f626f4b74e2a
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170591"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529834"
 ---
-# <a name="battery-insights"></a>Insights de bateria
+# <a name="battery-insights"></a>Percepções da bateria
 Este modo de exibição fornece métricas de energia, bateria e uso do aplicativo para seus dispositivos de área de trabalho gerenciada da Microsoft. Para esses fins, um aplicativo é considerado "em uso" se estiver em execução e em foco.
 
 Para exibir os dados de uso, selecione a guia **bateria** .
@@ -38,7 +41,7 @@ Na área de **consumidores de energia superior** , você encontrará os aplicati
  Para cada aplicativo, os segmentos coloridos mostram a distribuição do uso de energia do aplicativo entre estas categorias:
 
 - CPU
-- Exibir
+- Display
 - Rede
 - Outros
 

@@ -1,20 +1,22 @@
 ---
-title: Funções e responsabilidades de área de trabalho gerenciada da Microsoft
+title: Funções e responsabilidades da Área de Trabalho Gerenciada da Microsoft
 description: Este tópico descreve as funções e responsabilidades fornecidas pela Microsoft para a área de trabalho gerenciada da Microsoft.
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 02a0b11a1a210367d76e73c75ac5c1fc7a66f94f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 85e352ec657da435e435311b2ad48beb6a0487ee
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636203"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529990"
 ---
-# <a name="microsoft-managed-desktop-roles-and-responsibilities"></a>Funções e responsabilidades de área de trabalho gerenciada da Microsoft
+# <a name="microsoft-managed-desktop-roles-and-responsibilities"></a>Funções e responsabilidades da Área de Trabalho Gerenciada da Microsoft
 
 
 <!--This topic is the target for a "Learn more" link in the Admin Portal (aka.ms/admin-access); do not delete.-->
@@ -37,7 +39,7 @@ Agrupamento de usuários e dispositivos | A equipe de operações de área de tr
 
 ## <a name="your-roles-and-responsibilities"></a>Suas funções e responsabilidades
 
-Veja a seguir um conjunto adicional de funções e responsabilidades comuns que não são fornecidas pela Microsoft, mas são necessárias para uma implantação bem-sucedida. Não é exaustiva, mas se aplica à maioria das organizações. Há alguns itens abaixo que a Microsoft e o cliente compartilham responsibilties. 
+Veja a seguir um conjunto adicional de funções e responsabilidades comuns que não são fornecidas pela Microsoft, mas são necessárias para uma implantação bem-sucedida. Não é exaustiva, mas se aplica à maioria das organizações. Há alguns itens abaixo que a Microsoft e o cliente compartilham as responsabilidades. 
 
 Função ou responsabilidade | Descrição
 --- | ---

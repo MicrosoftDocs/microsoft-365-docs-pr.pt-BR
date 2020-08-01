@@ -6,12 +6,15 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 9fd6efc56441cfbe8a05404319246c5e0bbe10ab
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 6d35ee7a4a7755a043136f33600abad424956032
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046323"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529392"
 ---
 # <a name="deploy-apps-to-devices"></a>Implantar aplicativos em dispositivos
 Parte da integração com a área de trabalho gerenciada da Microsoft inclui a adição e implantação de aplicativos aos dispositivos do usuário. Quando estiver usando o portal de área de trabalho gerenciada da Microsoft, você poderá adicionar e implantar seus aplicativos. 
@@ -85,7 +88,7 @@ Disponível |  O aplicativo estará disponível no site ou aplicativo do portal 
 Obrigatório |  O aplicativo é instalado em dispositivos nos grupos selecionados. | MMD – *nome do aplicativo* – obrigatório
 Uninstall |  O aplicativo é desinstalado de dispositivos nos grupos selecionados. | MMD – *nome do aplicativo* – desinstalar
 
-Adicione seus usuários a esses grupos para fazer com que o aplicativo disponibilize, instalar o aplicativo ou remover o aplicativo do dispositivo de área de trabalho gerenciado da Microsoft. 
+Adicione seus usuários a esses grupos para disponibilizar o aplicativo, instalar o aplicativo ou remover o aplicativo do dispositivo de área de trabalho gerenciado da Microsoft. 
 
 <span id="3" />
 

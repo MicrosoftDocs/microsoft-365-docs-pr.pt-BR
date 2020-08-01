@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como habilitar o Microsoft 365 para proteger dispositivos do Windows 10 locais associados ao Active Directory em apenas algumas etapas.
-ms.openlocfilehash: 857651081fb10856d28dd419333ebef655388407
-ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
+ms.openlocfilehash: 2eaf5aa76cae1680b93af008af615ae872e4fb20
+ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44564916"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533776"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Habilitar dispositivos Windows 10 associados ao domínio para serem gerenciados pelo Microsoft 365 Business Premium
 
@@ -77,44 +77,32 @@ Na página do Microsoft Intune, selecione **registro de dispositivo** e, na pág
         -  Adicione os usuários de domínio desejados sincronizados no Azure AD para um [grupo de segurança](../admin/create-groups/create-groups.md).
         -  Escolha **Selecionar grupos** para habilitar o escopo de usuário MDM para esse grupo de segurança.
 
-## <a name="4-set-up-service-connection-point-scp"></a>4. configurar ponto de conexão de serviço (SCP)
+## <a name="4-create-the-required-resources"></a>4. criar os recursos necessários 
 
-Essas etapas são simplificadas para [Configurar a União híbrida do Azure ad](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join). Para concluir as etapas de que você precisa para usar o Azure AD Connect e suas senhas de administrador global do Microsoft 365 Business Premium e do Active Directory.
+A execução das tarefas necessárias para [Configurar o Azure ad Join híbrido](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join) foi simplificada por meio do uso do cmdlet [Initialize-SecMgmtHybirdDeviceEnrollment](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) encontrado no módulo [SecMgmt](https://www.powershellgallery.com/packages/SecMgmt) PowerShell. Quando você invocar este cmdlet, ele criará e configurará o ponto de conexão de serviço e a política de grupo necessários.
 
-1.  Inicie o Azure AD Connect e selecione **Configurar**.
-2.  Na página **tarefas adicionais** , selecione **Configurar opções de dispositivo**e, em seguida, selecione **Avançar**.
-3.  Na página **visão geral** , selecione **Avançar**.
-4.  Na página **conectar ao Azure ad** , insira as credenciais de um administrador global para o Microsoft 365 Business Premium.
-5.  Na página **Opções de dispositivo** , selecione **Configurar ingresso híbrida do Azure ad**e selecione **Avançar**.
-6.  Na página **SCP** , para cada floresta onde você deseja que o Azure ad Connect configure o SCP, conclua as seguintes etapas e selecione **Avançar**:
-    - Marque a caixa ao lado do nome da floresta. A floresta deve ser o nome de domínio do AD.
-    - Na coluna **serviço de autenticação** , abra o menu suspenso e selecione nome de domínio correspondente (deve haver apenas uma opção).
-    - Selecione **Adicionar** para inserir as credenciais de administrador de domínio.  
-7.  Na página **sistemas operacionais de dispositivos** , selecione somente dispositivos associados ao domínio Windows 10 ou posterior.
-8.  Na página **pronto para configurar** , selecione **Configurar**.
-9.  Na página **configuração concluída** , selecione **sair**.
+Você pode instalar este módulo chamando o seguinte em uma instância do PowerShell:
 
-
-## <a name="5-create-a-gpo-for-intune-enrollment--admx-method"></a>5. criar um GPO para registro do Intune – método ADMX
-
-Use. Arquivo de modelo ADMX.
-
-1.  Faça logon no servidor do AD, pesquise e abra o gerenciamento de política de grupo de ferramentas **do Gerenciador de servidores**  >  **Tools**  >  **Group Policy Management**.
-2.  Selecione seu nome de domínio em **domínios** e clique com o botão direito do mouse em **objetos de política de grupo** para selecionar **novo**.
-3.  Dê um nome ao novo GPO, por exemplo "*Cloud_Enrollment*" e, em seguida, selecione **OK**.
-4.  Clique com o botão direito do mouse no novo GPO em **objetos de política de grupo** e selecione **Editar**.
-5.  No **Editor de gerenciamento de política de grupo**, vá para configurações do **computador**  >  **Policies**  >  **modelos administrativos**do  >  **Windows**  >  **MDM**
-6. Clique com o botão direito do mouse em **habilitar o registro MDM automático usando as credenciais padrão do Azure ad** e selecione **habilitado**  >  **OK**. Feche a janela do editor.
+```powershell
+Install-Module SecMgmt
+```
 
 > [!IMPORTANT]
-> Se você não vir a política **habilitar o registro MDM automático usando as credenciais padrão do Azure ad**, confira [obter os modelos administrativos mais recentes](#get-the-latest-administrative-templates).
+> É recomendável que você instale este módulo no Windows Server que executa o Azure AD Connect.
 
-## <a name="6-deploy-the-group-policy"></a>6. implantar a política de grupo
+Para criar o ponto de conexão de serviço necessário e a política de grupo, você chamará o cmdlet [Initialize-SecMgmtHybirdDeviceEnrollment](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) . Você precisará de suas credenciais de administrador global do Microsoft 365 Business Premium ao executar essa tarefa. Quando estiver pronto para criar os recursos, chame o seguinte:
 
-1.  No Gerenciador de servidores, em **domínios** > objetos de política de grupo, selecione o GPO da etapa 3 acima, por exemplo "Cloud_Enrollment".
-2.  Selecione a guia **escopo** do GPO.
-3.  Na guia escopo do GPO, clique com o botão direito do mouse no link para o domínio em **links**.
-4.  Selecione **Enforced** para implantar o GPO e, em seguida, **OK** na tela de confirmação.
+```powershell
+PS C:\> Connect-SecMgmtAccount
+PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device Management'
+```
+
+O primeiro comando estabelecerá uma conexão com a nuvem da Microsoft e, quando for solicitado, especifique suas credenciais de administrador global do Microsoft 365 Business Premium.
+
+## <a name="5-link-the-group-policy"></a>5. vincular a política de grupo
+
+1. No GPMC (console de gerenciamento de política de grupo), clique com o botão direito do mouse no local onde você deseja vincular a política e selecione *vincular um GPO existente...* no menu de contexto.
+2. Selecione a política criada na etapa acima e clique em **OK**.
 
 ## <a name="get-the-latest-administrative-templates"></a>Obter os modelos administrativos mais recentes
 
@@ -129,4 +117,3 @@ Se você não vir a política **habilitar o registro MDM automático usando as c
 6.  Reinicie o controlador de domínio primário para que a política fique disponível. Este procedimento também funcionará para qualquer versão futura.
 
 Neste ponto, você deve ser capaz de ver a política **habilitar o registro MDM automático usando as credenciais padrão do Azure ad** disponíveis.
-

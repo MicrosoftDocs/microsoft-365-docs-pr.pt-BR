@@ -6,12 +6,15 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 4751a5a38229039ae325c0efc9353d4582243349
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: c958101e1f3268c706c27df6fc9e21e9914b3f46
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430478"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530278"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Pré-requisitos da Área de trabalho gerenciada da Microsoft
 
@@ -49,7 +52,7 @@ O Microsoft Managed desktop requer determinadas opções de licença para funcio
 |Microsoft Intune | -Microsoft 365 e5<br>-Microsoft 365 E3 + Microsoft 365 *E5* Security Add-on<br>– Enterprise Mobility + Security e5<br>– Enterprise Mobility + Security E3<br>– Microsoft Intune  |  Necessário para registrar dispositivos, implantar atualizações e gerenciar dispositivos       |
 |Windows 10 Enterprise  |-Microsoft 365 e5<br>-Microsoft 365 E3 + Microsoft 365 *E5* Security Add-on<br>– Windows 10 Enterprise E3<br>– Windows 10 Enterprise e5 | Oferece recursos da empresa do Windows 10       |
 |Proteção avançada contra ameaças do Microsoft Defender | -Microsoft 365 e5<br>-Microsoft 365 E3 + Microsoft 365 *E5* Security Add-on<br>– Windows 10 Enterprise e5<br>– Proteção avançada contra ameaças do Microsoft defender   |  Oferece detecção, monitoramento, alerta e resposta a ameaças  |
-|Microsoft 365 Apps para empresas  |-Microsoft 365 e5<br>-Microsoft 365 E3<br>-Office 365 e5<br>-Office 365 E3| Ativa ferramentas de colaboração e de produtividade do Office    |
+|Microsoft 365 Apps para Grandes Empresas  |-Microsoft 365 e5<br>-Microsoft 365 E3<br>-Office 365 e5<br>-Office 365 E3| Ativa ferramentas de colaboração e de produtividade do Office    |
 
 > [!TIP]
 > O gerente de contas da Microsoft ajudará você a revisar suas licenças atuais e seus planos de serviço e encontrará o caminho mais eficiente para obter qualquer licença ou plano de serviço adicional que você possa precisar, enquanto evita a duplicação.

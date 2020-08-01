@@ -1,19 +1,22 @@
 ---
-title: Trabalhar com Serviços de Consultoria da Microsoft
+title: Trabalhar com Serviços de consultoria da Microsoft
 description: preparação e etapas a serem seguidas para trabalhar com MCS para empacotar seus aplicativos
 keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação, aplicativos, MCS, pacotes
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 0cb4da85b5548ced757197a3af818e212b065b47
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: d2a6c09e1bcb84885e607d133c14e26e08e3c621
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085931"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530158"
 ---
-# <a name="working-with-microsoft-consulting-services"></a>Trabalhar com Serviços de Consultoria da Microsoft
+# <a name="working-with-microsoft-consulting-services"></a>Trabalhar com Serviços de consultoria da Microsoft
 
 Você pode entrar com o Microsoft Consulting Services (MCS) para obter seus aplicativos empacotados para uso com a área de trabalho gerenciada da Microsoft. Para obter detalhes exatos, trabalhe com seu representante de conta para entrar em contato com a MCS e o escopo de seu projeto de pacote de aplicativos específico.
 
@@ -21,7 +24,7 @@ Você pode entrar com o Microsoft Consulting Services (MCS) para obter seus apli
 
 Para trabalhar com o pacote de aplicativos MCS, **você deve fornecer estes elementos**:
 
-- Os arquivos do instalador de origem (por exemplo, setup. exe ou. msi).
+- Os arquivos do instalador de origem (por exemplo, setup.exe ou. msi).
 - As instruções de instalação, especificando detalhes sobre como a instalação final deve ser verificada. Por exemplo, deve haver um atalho de área de trabalho para o aplicativo? O que a visibilidade do aplicativo deve ser? O aplicativo deve se conectar a um servidor e, em caso afirmativo, qual deles? Para obter detalhes, consulte o [modelo de solicitação de pacotes de aplicativos](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/app-packaging-template.docx).
 - Você deve executar seu próprio teste de aceitação para verificar se o aplicativo funciona conforme você precisa para o seu ambiente.
 

@@ -5,16 +5,18 @@ keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 2/14/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d8ebe4519d169db5500c55a3337836ca2d0986c0
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 1af320ee6151036000e4e8c6fedc4d9152411283
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390718"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530230"
 ---
-# <a name="configurable-settings---microsoft-managed-desktop"></a>Configurações configuráveis-Microsoft Managed desktop
+# <a name="configurable-settings---microsoft-managed-desktop"></a>Configurações que podem ser alteradas – Área de Trabalho Gerenciada da Microsoft
 
 O Microsoft Managed desktop implanta configurações e políticas que são aplicadas a todos os dispositivos gerenciados pela área de trabalho gerenciada da Microsoft. Para obter mais informações, consulte [Device Configuration](../service-description/device-policies.md).
 
@@ -63,7 +65,7 @@ Todas as configurações configuráveis são gerenciadas usando o portal de admi
 
 **Etapa 5 – controlar alterações** – acompanhar o progresso de suas alterações no status de implantação. Para cada configuração, você pode:
 - **Acompanhar progresso** – rastreie o status após implantar a alteração. O status será alterado para **em andamento**e, em seguida, **concluído**ou **falha**. Se uma implantação falhar, uma solicitação de suporte será aberta automaticamente para operações de área de trabalho gerenciada da Microsoft para investigar o problema.  
-- **Confira a versão** implantada: cada alteração implantada tem um número de versão.
+- **Confira a versão implantada** : cada alteração implantada tem um número de versão.
 - **Reverter alterações** – reverter uma alteração interrompe a implantação atual e reverte todos os grupos para as últimas alterações implantadas em todos os grupos. Você está retornando para o último valor de configuração em boas condições.
 - **Validar alterações** – após a conclusão da implantação, valide as alterações aplicadas conforme o esperado.  
 
@@ -72,5 +74,5 @@ Se uma implantação tiver falhado ou se você não puder reverter uma alteraç�
 Para obter mais informações, consulte [implantar e acompanhar definições configuráveis](config-setting-deploy.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
-- [Referência de configurações configuráveis](config-setting-ref.md) 
-- [Implantar configurações configuráveis](config-setting-deploy.md) 
+- [Referência de configurações que podem ser alteradas](config-setting-ref.md) 
+- [Implantar configurações que podem ser alteradas](config-setting-deploy.md) 

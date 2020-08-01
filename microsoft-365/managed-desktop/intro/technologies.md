@@ -1,19 +1,22 @@
 ---
-title: Tecnologias de área de trabalho gerenciada da Microsoft
+title: Tecnologias de Área de Trabalho Gerenciada da Microsoft
 description: Este tópico lista as tecnologias e os aplicativos usados na área de trabalho gerenciada da Microsoft.
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 8a86220e7fcfe4c2e788b28842c77d238d98fda4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 1f82c339e8cbe4426c87eae045107d26201b0025
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636191"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530014"
 ---
-# <a name="microsoft-managed-desktop-technologies"></a>Tecnologias de área de trabalho gerenciada da Microsoft
+# <a name="microsoft-managed-desktop-technologies"></a>Tecnologias de Área de Trabalho Gerenciada da Microsoft
 
 Este tópico lista as tecnologias e os aplicativos usados na área de trabalho gerenciada da Microsoft.
 
@@ -39,7 +42,7 @@ Aplicativos Web |  O Yammer, o Office em um navegador, o Delve, o fluxo, o Staff
  |
  --- | ---
 Virtualização de aplicativos (App-V) |    Os clientes podem implantar pacotes do App-V usando o cliente de gerenciamento de aplicativos do Win32 do Intune.
-Proteção Avançada contra Ameaças do Microsoft Defender |  O Microsoft Managed desktop usa isso para monitorar a segurança de dispositivos. 
+Proteção avançada contra ameaças do Microsoft Defender |  O Microsoft Managed desktop usa isso para monitorar a segurança de dispositivos. 
 
 ## <a name="enterprise-mobility--security-e5"></a>Enterprise Mobility + Security e5
 

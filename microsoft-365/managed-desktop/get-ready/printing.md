@@ -1,20 +1,22 @@
 ---
-title: Preparar recursos de impressão para a área de trabalho gerenciada da Microsoft
+title: Preparar recursos de impressão da Área de Trabalho Gerenciada da Microsoft
 description: Etapas importantes para garantir o trabalho sem problemas de impressão
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: a90d104915ecdd31d9ac35a6393fba74a3816ea8
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 1588a2c91bcbe0bd381acb6be4f9bd5562810860
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826422"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530242"
 ---
-# <a name="prepare-printing-resources-for-microsoft-managed-desktop"></a>Preparar recursos de impressão para a área de trabalho gerenciada da Microsoft
+# <a name="prepare-printing-resources-for-microsoft-managed-desktop"></a>Preparar recursos de impressão da Área de Trabalho Gerenciada da Microsoft
 
 À medida que você estiver pronto para se inscrever na área de trabalho gerenciada da Microsoft, avalie seus requisitos de impressão e determine a abordagem certa para o seu ambiente. Você tem três opções:
  

@@ -1,19 +1,22 @@
 ---
-title: Preparar o acesso a recursos locais para a área de trabalho gerenciada da Microsoft
+title: Prepare o acesso aos recursos locais da Área de trabalho gerenciada da Microsoft
 description: Etapas importantes para garantir que um Azure AD possa se comunicar com o AD local para fornecer autenticação
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: c4ebe0c7ad3d1e197cf90cc975366df61d3b0cb5
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 7caeee6f476fea7881884cea20bd2a59db2c13d9
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276912"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530038"
 ---
-#  <a name="prepare-on-premises-resources-access-for-microsoft-managed-desktop"></a>Preparar o acesso a recursos locais para a área de trabalho gerenciada da Microsoft
+#  <a name="prepare-on-premises-resources-access-for-microsoft-managed-desktop"></a>Prepare o acesso aos recursos locais da Área de trabalho gerenciada da Microsoft
 
 Na área de trabalho gerenciada da Microsoft, os dispositivos são adicionados automaticamente ao Azure Active Directory (Azure AD). Isso significa que, se você estiver usando um Active Directory local, será necessário verificar algumas coisas para garantir que os dispositivos que ingressaram no Azure AD possam se comunicar com seu Active Directory local. 
 
@@ -34,7 +37,7 @@ O logon único (SSO) usando o UPN e a senha são habilitados por padrão em disp
 
 ### <a name="single-sign-on-by-using-upn-and-password"></a>Logon único usando o UPN e a senha
 
-Na maioria das organizações, seus usuários poderão usar o SSO para autenticar por UPN e senha em dispositivos de área de trabalho gerenciada da Microsoft. No enTanto, para garantir que isso funcione, você deve verificar novamente o seguinte:
+Na maioria das organizações, seus usuários poderão usar o SSO para autenticar por UPN e senha em dispositivos de área de trabalho gerenciada da Microsoft. No entanto, para garantir que isso funcione, você deve verificar novamente o seguinte:
 
 - Confirme se o Azure AD Connect está configurado e usa um servidor do Active Directory local executando o Windows Server 2008 R2 ou posterior.
 - Confirme se o Azure AD Connect está executando uma versão com suporte e se está definido para sincronizar esses três atributos com o Azure AD: 
@@ -45,7 +48,7 @@ Na maioria das organizações, seus usuários poderão usar o SSO para autentica
 
 ### <a name="single-sign-on-by-using-windows-hello-for-business"></a>Logon único usando o Windows Hello para empresas
 
-Os dispositivos de área de trabalho gerenciada da Microsoft também oferecem aos seus usuários uma experiência rápida e com senha, empregando o Windows Hello para empresas. Para garantir que o Windows Hello para empresas funcione sem que seus usuários tenham que fornecer seus próprios UPN e senha, visite [configurar os dispositivos ingressaDos no Azure ad para o logon único local usando o Windows Hello para empresas](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base) para verificar os requisitos e, em seguida, Siga as etapas fornecidas lá.
+Os dispositivos de área de trabalho gerenciada da Microsoft também oferecem aos seus usuários uma experiência rápida e com senha, empregando o Windows Hello para empresas. Para garantir que o Windows Hello para empresas funcione sem que seus usuários tenham que fornecer seus próprios UPN e senha, visite [configurar os dispositivos ingressados no Azure ad para o logon único local usando o Windows Hello para empresas](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base) para verificar os requisitos e siga as etapas fornecidas ali.
 
 
 ## <a name="apps-and-resources-that-use-authentication"></a>Aplicativos e recursos que usam autenticação
@@ -53,9 +56,9 @@ Os dispositivos de área de trabalho gerenciada da Microsoft também oferecem ao
 Consulte [entender as considerações de aplicativos e recursos](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan#understand-considerations-for-applications-and-resources) no conjunto de conteúdo do Azure para obter orientação completa sobre como configurar aplicativos para trabalhar com o Azure Active Directory. Em Resumo:
 
 
-- Se você usar **aplicativos baseados em nuvem**, como os adicionados à galeria de aplicativos do Azure AD, a maioria não precisará de mais preparação para trabalhar com a área de trabalho gerenciada da Microsoft. No enTanto, os aplicativos Win32 que não usam o Gerenciador de contas da Web (WAM) ainda podem solicitar a autenticação dos usuários.
+- Se você usar **aplicativos baseados em nuvem**, como os adicionados à galeria de aplicativos do Azure AD, a maioria não precisará de mais preparação para trabalhar com a área de trabalho gerenciada da Microsoft. No entanto, os aplicativos Win32 que não usam o Gerenciador de contas da Web (WAM) ainda podem solicitar a autenticação dos usuários.
 
-- Para aplicativos hospedados **no local**, certifique-se de adicionar esses aplicativos à lista de sites confiáveis em seus navegadores. Isso permitirá que a autenticação do Windows funcione perfeitamente, sem que os usuários sejam solicitados a fornecer credenciais. Para fazer isso, consulte [sites confiáveis](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/config-setting-ref#trusted-sites) na referência de [configurações configuráveis](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/config-setting-ref).
+- Para aplicativos **hospedados no local**, certifique-se de adicionar esses aplicativos à lista de sites confiáveis em seus navegadores. Isso permitirá que a autenticação do Windows funcione perfeitamente, sem que os usuários sejam solicitados a fornecer credenciais. Para fazer isso, consulte [sites confiáveis](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/config-setting-ref#trusted-sites) na referência de [configurações configuráveis](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/config-setting-ref).
 
 - Se você estiver usando os serviços federados do Active Directory, verifique se o SSO está habilitado usando as etapas em [verificar e gerenciar o logon único com o AD FS](https://docs.microsoft.com/previous-versions/azure/azure-services/jj151809(v=azure.100)). 
 

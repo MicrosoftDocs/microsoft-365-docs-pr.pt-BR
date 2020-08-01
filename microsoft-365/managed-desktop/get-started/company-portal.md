@@ -6,14 +6,17 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 4e83983ae7b8b936b639382f025f1f88eeca0762
-ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 371656168f32db86ff32f187736d59dbd5dbe749
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699671"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529690"
 ---
-# <a name="install-intune-company-portal-on-on-devices"></a>Instalar o portal da empresa do Intune em dispositivos
+# <a name="install-intune-company-portal-on-on-devices"></a>Instalar o Portal da Empresa do Intune em dispositivos
 
 O Microsoft Managed desktop exige que os administradores de ti instalem o portal da empresa do Intune para seus usuários com dispositivos de área de trabalho gerenciada da Microsoft Veja alguns benefícios da sua organização:
 - Os usuários têm um local para procurar e instalar aplicativos disponíveis. 

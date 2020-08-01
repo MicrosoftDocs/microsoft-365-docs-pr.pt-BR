@@ -9,12 +9,13 @@ ms.topic: article
 audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 17696b18b4109b568bb1d616813ba40e2a9dccdc
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+manager: laurawi
+ms.openlocfilehash: 420cdaabb607eacf0d7a7109827fe5437e2f999c
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430466"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530218"
 ---
 # <a name="access-the-admin-portal"></a>Acessar o portal de administração
 

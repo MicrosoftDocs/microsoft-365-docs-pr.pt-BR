@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como configurar uma lista de URLs bloqueadas para sua organização usando a proteção avançada contra ameaças do Office 365.
-ms.openlocfilehash: 5c5253aabf5d5235e31f24624fd9e1b3f4adb184
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 288aea848836a56108872c0e4d36d01f4d59ec42
+ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617259"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533806"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-atp-safe-links"></a>Configurar uma lista de URLs bloqueadas personalizada usando links seguros de ATP
 
@@ -84,6 +84,10 @@ Ao adicionar URLs à sua lista, tenha em mente os seguintes pontos:
 |`https://contoso.com/a`|Bloqueia um site `https://contoso.com/a` , mas não outros subcaminhos como`https://contoso.com/a/b`|
 |`https://contoso.com/a*`|Bloqueia um site `https://contoso.com/a` e subcaminhos adicionais, como`https://contoso.com/a/b`|
 |`https://toys.contoso.com*`|Bloqueia um subdomínio ("Toys" nesse caso), mas permite cliques para outras URLs de domínio (como `https://contoso.com` ou `https://home.contoso.com` ).|
+
+
+> [!NOTE]
+> Por padrão, você só pode adicionar URLs 500 à lista de URLs bloqueadas na política padrão do Office 365 ATP Safe links.
 
 ## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>Como definir exceções para determinados usuários em uma organização
 

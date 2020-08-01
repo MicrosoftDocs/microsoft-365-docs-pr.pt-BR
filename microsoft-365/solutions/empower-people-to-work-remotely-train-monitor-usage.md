@@ -14,15 +14,16 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-- M365solutions
+- m365solution-remotework
+- m365solution-overview
 ms.custom: ''
 description: Treine seus usuários e garanta que os problemas sejam tratados rapidamente.
-ms.openlocfilehash: bb8c6614ed383136ef5724d45637891ee978c9cd
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 1954a3768d2a35c3193aa523d6383b7b8257a6a0
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160721"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521428"
 ---
 # <a name="step-6-train-remote-workers-and-address-usage-feedback"></a>Etapa 6: Treinar os funcionários remotos e responder a questões sobre o uso
 
@@ -30,7 +31,7 @@ Treinar seus funcionários remotos em:
 
 - Procedimentos de entrada apropriados usando a MFA, incluindo o registro de um método de verificação adicional.
 - O uso dos dispositivos e como as políticas de gestão de pontos de extremidade podem ser usadas para bloquear o acesso a dispositivos que não estejam em conformidade.
-- O uso de aplicativos permitidos e como as políticas de aplicativos de gestão de pontos de extremidade podem ser usadas para bloquear aplicativos.
+- O uso de aplicativos permitidos e como as políticas do aplicativo gerenciamento de pontos de extremidade podem ser usadas para bloquear o uso dos aplicativos.
 - Recursos de segurança do Windows 10 Enterprise.
 - Como usar o [Teams](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page) para chat, conferências baseadas em vídeo, compartilhamento de documentos e conversas encadeadas.
 - Como usar o [Outlook](https://support.office.com/article/outlook-training-8a5b816d-9052-4190-a5eb-494512343cca) para email e agendamento.
@@ -43,7 +44,7 @@ Nas semanas após o treinamento:
 - Aja rapidamente sobre os comentários de trabalhadores remotos e ajuste políticas e configurações.
 - Analise o uso de equipes, email, sites do SharePoint e pastas do OneDrive e compare-o a expectativas de uso.
 
-Repita o treinamento dos usuários conforme necessário.
+Em seguida, repita o treinamento dos usuários conforme necessário.
 
 ## <a name="results-of-step-6"></a>Resultados da Etapa 6
 

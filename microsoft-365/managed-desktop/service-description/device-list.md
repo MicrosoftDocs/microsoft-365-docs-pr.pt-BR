@@ -5,12 +5,15 @@ keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 56011bcfba104547d57dbe5f7c1cd8003a8149bc
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 44db48dc520b0e7a19aae56268cbe03314889979
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46502978"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529416"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Dispositivos de área de trabalho gerenciada da Microsoft 
 
