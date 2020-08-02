@@ -1,0 +1,16 @@
+- name: Introdução ao gerenciamento de conhecimento
+  items:
+    - name: Visão geral do gerenciamento de conhecimento
+      href: knowledge-management-overview.md
+    - name: Visão geral do centro de tópicos
+      href: topic-center-overview.md
+    - name: Trabalhar com tópicos no centro de tópicos
+      href: work-with-topics.md
+    - name: Conceder aos usuários permissões para o tópico central
+      href: give-user-permissions-to-the-topic-center.md
+- name: Introdução à instalação
+  items:
+    - name: Configurar o gerenciamento de conhecimento
+      href: set-up-knowledge-network.md
+    - name: Gerenciar sua rede de gerenciamento de conhecimento
+      href: manage-knowledge-network.md
