@@ -5,12 +5,16 @@ keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 0df3f6d2636a277bdca12e7d76279c4c58c9f1d4
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.collection: M365-modern-desktop
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 80d6066872f02c673a48964c7c1bd69b16cec932
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44011906"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530002"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de Trabalho Gerenciada da Microsoft?
 

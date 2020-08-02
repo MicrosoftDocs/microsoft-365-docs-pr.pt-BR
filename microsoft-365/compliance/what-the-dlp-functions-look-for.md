@@ -1,5 +1,5 @@
 ---
-title: O que as funções DLP procuram
+title: O que as funções de prevenção de perda de dados (DLP) procuram
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -17,19 +17,19 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba o que as funções de prevenção de perda de dados (DLP) procuram para ajudá-lo a entender como os tipos de informações confidenciais predefinidos funcionam.
-ms.openlocfilehash: 838277b2e30696cd00cfc30df49c1d5a29149d92
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Saiba o que as funções de prevenção de perda de dados (DLP) procuram.
+ms.openlocfilehash: ef87be7dde83b1e5ba12456e7801e0554bceb6ea
+ms.sourcegitcommit: cfb0c50f1366736cdf031a75f0608246b5640d93
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819271"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46536306"
 ---
 # <a name="what-the-dlp-functions-look-for"></a>O que as funções DLP procuram
 
-A política DLP inclui tipos de informação confidencial, como números de cartão de crédito e de cartão de débito da UE (União Europeia), que estão prontos para uso em suas políticas DLP. Esses tipos de informação confidencial procuram por um padrão específico e o confirmam, garantindo a formatação adequada, impondo as somas de verificação e procurando palavras-chave relevantes ou outras informações. Algumas dessas funcionalidades são realizadas por funções internas. Por exemplo, o tipo de informação confidencial de Número de Cartão de Crédito usa uma função para procurar datas formatadas como uma data de expiração, para ajudar a corroborar que um número é um número de cartão de crédito.
+A prevenção de perda de dados (DLP) inclui tipos de informações confidenciais, como número de cartão de crédito e número de cartão de débito da UE, que estão prontos para uso nas suas políticas de DLP. Esses tipos de informação confidencial procuram por um padrão específico e o confirmam, garantindo a formatação adequada, impondo as somas de verificação e procurando palavras-chave relevantes ou outras informações. Algumas dessas funcionalidades são realizadas por funções internas. Por exemplo, o tipo de informação confidencial de Número de Cartão de Crédito usa uma função para procurar datas formatadas como uma data de expiração, para ajudar a corroborar que um número é um número de cartão de crédito.
   
-Este tópico explica o que essas funções procuram, para ajudar você a entender como funcionam os tipos de informações confidenciais predefinidas. Para mais informações, consulte [definições de entidade de tipo de informação confidencial](sensitive-information-type-entity-definitions.md)
+Este artigo explica o que essas funções procuram para ajudá-lo a entender como funcionam os tipos de informações confidenciais predefinidos. Para mais informações, consulte [definições de entidade de tipo de informação confidencial](sensitive-information-type-entity-definitions.md)
   
 ## <a name="func_us_date"></a>Func_us_date
 
@@ -61,7 +61,7 @@ Nomes de meses aceitos:
     
 ## <a name="func_eu_date"></a>Func_eu_date
 
-Essa função procura uma data no formato comumente usado na UE (e na maioria dos lugares fora dos Estados Unidos). Isso inclui os formatos de "dia/mês/ano", "dia-mês-ano" e "dia mês ano". Os nomes ou as abreviações de meses não diferenciam maiúsculas de minúsculas.
+Essa função procura uma data no formato comumente usado na UE (e a maioria dos lugares fora dos EUA), como "dia/mês/ano", "dia-mês-ano" e "ano do mês do dia". Os nomes ou as abreviações de meses não diferenciam maiúsculas de minúsculas.
   
 Exemplos:
   
@@ -183,7 +183,7 @@ Nomes de meses aceitos:
     
   - januari, februari, maart, April, mei, juni, juli, augustus, September, ocktober, October, November, December
     
-  - Jan fevereiro de maart de abril de Mei jun jul setembro de agosto de dezembro de Okt de Nov
+  - Jan Fev maart Apr Mei jun jul ago set out Okt Nov
     
 ## <a name="func_expiration_date"></a>Func_expiration_date
 
@@ -201,7 +201,7 @@ Exemplos:
     
 Os seguintes formatos dão suporte a AA ou AAAA:
   
-- Mês-AAAA – por exemplo, jan-2010 ou janeiro-2010 ou jan-10 ou janeiro-10
+- Month-aaaa--por exemplo Jan-2010 ou Janeiro-2010 ou Jan-10 ou janeiro-10
     
 - Mês AAAA – por exemplo, 'janeiro 2010' ou 'jan 2010' ou 'janeiro 10' ou 'jan 10'
     
@@ -219,7 +219,7 @@ Nomes de meses aceitos:
     
 ## <a name="func_us_address"></a>Func_us_address
 
-Essa função procura por um nome ou sigla de estado dos EUA seguida de um CEP válido, como são usados em endereços postais. O CEP deve ser um dos CEPs corretos associados ao nome ou sigla do estado americano. O nome do estado americano e o CEP não podem ser separados por pontos ou letras.
+Essa função procura um nome de estado americano ou abreviatura de postal seguida de um código postal válido, exatamente como eles são usados em endereços postais. O CEP deve ser um dos CEPs corretos associados ao nome ou sigla do estado americano. O nome do estado americano e o CEP não podem ser separados por pontos ou letras.
   
 Exemplos:
   

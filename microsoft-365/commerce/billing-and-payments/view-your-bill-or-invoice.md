@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -26,69 +26,57 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
-ms.assetid: 2ae3ea58-4fce-4592-91d6-46e9ae3ec218
 description: Localize a sua fatura ou demonstrativo de cobrança no Centro de administração do Microsoft 365. Você também pode salvar e imprimir uma cópia da fatura.
-ms.openlocfilehash: 7360f2bb73f78450143d5f1428ae90aa5bc0e0a1
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 81c3a03207fd8f35c975026ebd2a9a0334fc9407
+ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44816992"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533608"
 ---
-# <a name="view-your-bill-or-invoice"></a>Exibir sua fatura
+# <a name="view-your-bill-or-invoice"></a>Exibir sua conta ou fatura
 
-Este artigo é destinado para pessoas que possuam uma assinatura do Microsoft 365 for Business. Você deve ser um administrador global ou administrador de cobrança para realizar as etapas descritas neste artigo.
+Este artigo é destinado às pessoas que tenham uma assinatura do Microsoft 365 para empresas.
   
-Se precisar de ajuda para interpretar as cobranças na sua fatura, consulte [Compreender sua conta ou fatura](understand-your-invoice2.md) para obter uma explicação detalhada.
+Se precisar de ajuda com a interpretação das cobranças na sua fatura, consulte [Compreender sua conta ou fatura](understand-your-invoice2.md) para obter uma explicação detalhada.
   
- **Não é um administrador?** Contate o administrador de TI para obter ajuda. 
-  
- **Tem um problema com a fatura?** [Contate o suporte para produtos empresariais](../../admin/contact-support-for-business-products.md).
+**Tem um problema com a fatura?** [Contate o suporte para produtos empresariais](../../admin/contact-support-for-business-products.md).
 
- Assista a um vídeo curto sobre como exibir sua fatura ou recibo (note que a sua fatura pode parecer diferente da exibida no vídeo). <br><br>
+## <a name="before-you-begin"></a>Antes de começar
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGmo] 
-
-Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Você deve ser um administrador Global ou de Cobrança para realizar as etapas descritas neste artigo.
   
 ## <a name="view-a-bill-or-invoice"></a>Exibir uma fatura
 
-::: moniker range="o365-worldwide"
-
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Faturas e pagamentos</a>.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. No centro de administração, vá para a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Faturas e pagamentos</a>.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Faturas e pagamentos</a>.
-
-::: moniker-end
-
-2. Na guia **Faturas**, selecione um período na lista suspensa e escolha a ordem que quer visualizar.
-
-3. Na página de resumo, você pode ver o seguinte:
-
-    - O saldo total, o valor atual devido, a data de vencimento do pagamento, o valor do último pagamento e a data em que foi recebido.
-
-    - Instruções de pagamento.
-
-    - Um registro das últimas datas de pagamento e os valores pagos.
-
-    - A data de criação e o número do pedido.
-
+    - Se você estiver usando o Office 365 Germany, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Faturas e pagamentos</a>.
+    - Se você estiver usando o Office 365 operado pela 21Vianet, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Faturas e pagamentos</a>.
+2. Na guia **Faturas**, selecione um período na lista suspensa e, em seguida, escolha a ordem que quer visualizar.
+3. Na página do resumo, você pode ver os itens, a quantidade, o preço, o desconto e o total de todos os itens na fatura.
 4. Para imprimir ou salvar uma cópia da fatura em PDF, selecione **Baixar PDF**.
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="receive-a-copy-of-your-billing-statement-in-email"></a>Receber uma cópia do seu demonstrativo por email
 
-[Pagar por fatura, cartão de crédito ou débito em conta](pay-for-your-subscription.md)
-  
-[Gerenciar métodos de pagamento](manage-payment-methods.md)
+Você pode optar por receber uma cópia do seu demonstrativo como um anexo de email. Se fizer isso, lembre-se de que:
 
-[Opções de pagamento do Minecraft: Education Edition](https://go.microsoft.com/fwlink/p/?linkid=838761)
+- Um email é enviado à todas as pessoas listadas como destinatários da notificação nos endereços de email principal e alternativo.
+- Você recebe dois emails separados: um que te permite saber que sua fatura está pronta, com instruções para entrar no centro de administração para exibi-la, e um segundo email que contém o demonstrativo da fatura como anexo.
+
+### <a name="to-receive-your-billing-statement-in-email"></a>Para receber seu demonstrativo da fatura por email
+
+1. No centro de administração, vá para a página **Fatura** > <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Notificações de fatura</a>.
+    - Se estiver usando o Office 365 Germany, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Notificações de fatura</a>.
+    - Se você estiver usando o Office 365 operado pela 21Vianet, acesse a página <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">Notificações de faturas</a>.
+1. Em **Receber demonstrativo da fatura como um anexo de email?** alternar o sinalizador para **Ativado**.
+
+    Você pode deixar de receber o demonstrativo por email a qualquer momento alternando o sinalizador para **Desativado**.
+
+## <a name="next-steps"></a>Próximas etapas
+
+Se você tem um saldo e deseja pagar, é possível fazer isso online. Para saber mais, consulte [Pagar sua assinatura](pay-for-your-subscription.md).
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Pagar por fatura, cartão de crédito ou débito em conta](pay-for-your-subscription.md) (artigo) \
+[Gerenciar métodos de pagamento](manage-payment-methods.md) (artigo) \
+[Minecraft: Education Edition, opções de pagamento](https://go.microsoft.com/fwlink/p/?linkid=838761) (artigo) \

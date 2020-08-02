@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a eliminação de conteúdo, se você usar uma revisão de disposição ou se o conteúdo é excluído automaticamente de acordo com as configurações que você configurou.
-ms.openlocfilehash: 938d530447d1a798e5a2d6d4c2f622a04827bf1c
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 55b57891732f50eba09425fce4d2be34c94740f3
+ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529596"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533818"
 ---
 # <a name="disposition-of-content"></a>Disposição do conteúdo
 
@@ -124,9 +124,9 @@ O conteúdo que está aguardando uma análise de disposição é excluído somen
 ## <a name="disposition-of-records"></a>Disposição de conteúdo
 
 > [!NOTE]
->A distribuição de provas de eliminação para registros no SharePoint e no OneDrive foi concluída. Você verá a lista de rótulos de retenção que marcou o conteúdo como registros do SharePoint e do OneDrive na seção disposição da página Gerenciamento de registros no centro de conformidade do Microsoft 365. Sob esses rótulos, você pode ver a lista de itens no SharePoint e no OneDrive que foram descartados automaticamente ou após uma revisão de disposição.
-
-A prova de alienação de registros no Exchange ainda não está ativa. Quando esta distribuição for iniciada e quando estiver concluída, atualizaremos esta nota.
+> A distribuição de provas de eliminação para registros no SharePoint e no OneDrive foi concluída. Você verá a lista de rótulos de retenção que marcou o conteúdo como registros do SharePoint e do OneDrive na seção disposição da página Gerenciamento de registros no centro de conformidade do Microsoft 365. Sob esses rótulos, você pode ver a lista de itens no SharePoint e no OneDrive que foram descartados automaticamente ou após uma revisão de disposição.
+>
+> A prova de alienação de registros no Exchange ainda não está ativa. Quando esta distribuição for iniciada e quando estiver concluída, atualizaremos esta nota.
 
 Use a guia **disposição** da página **Gerenciamento de registros** para identificar os registros excluídos automaticamente. Estes itens exibem os **registros descartados** na coluna **tipo** . Por exemplo:
 

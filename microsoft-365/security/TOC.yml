@@ -315,6 +315,8 @@
                       href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
                 - name: Predefinir políticas de segurança
                   href: ./office-365-security/preset-security-policies.md
+                - name: Analisador de configuração para políticas de segurança predefinidas
+                  href: ./office-365-security/configuration-analyzer-for-security-policies.md
                 - name: Cabeçalhos de mensagem antispam
                   href: ./office-365-security/anti-spam-message-headers.md
                 - name: Como políticas e proteções são combinadas

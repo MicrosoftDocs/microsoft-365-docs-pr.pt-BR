@@ -1,0 +1,22 @@
+- name: Introdução à compreensão do conteúdo
+  items:
+    - name: Visão geral da compreensão do documento
+      href: document-understanding-overview.md
+    - name: Visão geral do processamento de formulário
+      href: form-processing-overview.md
+    - name: Diferença entre modelos de processamento de formulários e de compreensão de documentos
+      href: difference-between-document-understanding-and-form-processing-model.md
+    - name: Criar um centro de conteúdo
+      href: create-a-content-center.md
+    - name: Criar um classificador
+      href: create-a-classifier.md
+    - name: Criar um extrator
+      href: create-an-extractor.md
+    - name: Aplicar um modelo
+      href: apply-a-model.md
+    - name: Criar um modelo de processamento de formulários
+      href: create-a-form-processing-model.md
+- name: Introdução à instalação
+  items:
+    - name: Configurar a compreensão do conteúdo
+      href: set-up-content-understanding.md

@@ -5,12 +5,15 @@ keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, do
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: b7054613ea9add542e2a4466c6feb6d911c99701
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 1977009e6b0b1dbbf10a14b6a062207bbee04430
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "43637859"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529404"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Descrição do serviço da Área de Trabalho Gerenciada da Microsoft
 

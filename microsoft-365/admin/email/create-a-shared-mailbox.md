@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Crie uma caixa de correio compartilhada para permitir que vários usuários da sua empresa compartilhem a responsabilidade de ler e responder a emails enviados para um endereço.
-ms.openlocfilehash: 3ffe24cc263c6f58899b3c293793aa231132e411
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 47690e1295b67c01f86429d97e0fc8d82ad58d6f
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780260"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529630"
 ---
 # <a name="create-a-shared-mailbox"></a>Criar uma caixa de correio compartilhada 
 
@@ -159,6 +159,9 @@ Você pode acessar uma caixa de correio compartilhada em um dispositivo móvel d
 - Abra seu navegador, entre e vá para o Outlook na Web. Em Outlook na Web, você poderá acessar a caixa de correio compartilhada.
 
     Para obter instruções, confira <a href="https://support.microsoft.com/office/98b5a90d-4e38-415d-a030-f09a4cd28207" target="_blank">Adicionar uma caixa de correio compartilhada ao Outlook na Web</a>.
+    
+> [!NOTE]
+> A caixa de correio compartilhada só pode ser adicionada ao Outlook para aplicativos do iOS ou ao Outlook para aplicativos móveis com Android
 
 ## <a name="use-the-shared-calendar"></a>Usar o calendário compartilhado
 

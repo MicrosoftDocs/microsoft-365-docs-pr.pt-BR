@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
 description: Saiba como acessar o Azure Active Directory, que vem incluído na assinatura paga da sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 43c9c03af74d4edc1fb6c762c9ca89594a907920
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: c968d4ae8cc5f0798b6ba7d5bcb52ca6fe7d6116
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819281"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46528147"
 ---
 # <a name="use-your-free-azure-active-directory-subscription"></a>Usar assinatura gratuita do Azure Active Directory
 
@@ -30,7 +30,7 @@ Se sua organização tiver uma assinatura paga do Microsoft 365, do Microsoft Dy
 
 ## <a name="open-a-private-browsing-session"></a>Abra uma sessão de navegação privada
 
-Use uma sessão de navegação privada (não uma sessão normal) para acessar o portal do Azure (na etapa 1 abaixo), pois isso impede que as credenciais com as quais você está conectado no momento sejam transferidas para o Azure. Para abrir uma sessão de navegação privada:
+Use uma sessão de navegação privada (não uma sessão normal) para acessar o portal do Azure (na etapa 1 abaixo). Isso impede que as credenciais com as quais você está conectado sejam transmitidas para o Azure. Para abrir uma sessão de navegação privada:
 
 - No Microsoft Edge (versão herdada), no Internet Explorer ou no Mozilla FireFox, pressione `CTRL+SHIFT+P`.
 
