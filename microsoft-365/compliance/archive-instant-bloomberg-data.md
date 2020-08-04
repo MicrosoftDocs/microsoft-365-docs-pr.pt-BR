@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
 description: Saiba como os administradores podem configurar e usar um conector de dados para importar e arquivar dados da ferramenta de chat do Bloomberg para o Microsoft 365.
-ms.openlocfilehash: 9be2e431241e13e59c67c33ee3c7246896e97f1e
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: dbfb0c167d57b4a541c60eda253e93328c156dfc
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936554"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552501"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data"></a>Configurar um conector para arquivar dados do Instant Bloomberg
 
@@ -120,7 +120,7 @@ A última etapa é criar um conector de Bloomberg instantâneo no centro de conf
 5. Na página de **mapeamento do usuário** , habilite o mapeamento automático de usuários e forneça mapeamento de usuário personalizado conforme necessário
 
    > [!NOTE]
-   > O conector importa os itens de mensagem de chat para a caixa de correio de um usuário específico. Uma nova pasta chamada **InstantBloomberg** será criada na caixa de correio do usuário específico e os itens serão importados para ela. O conector faz usando o valor da propriedade *CorporateEmailAddress* . Cada mensagem de chat contém essa propriedade e a propriedade é preenchida com o endereço de email de cada participante da mensagem de chat. Além do mapeamento automático de usuários usando o valor da propriedade *CorporateEmailAddress* , você também pode definir o mapeamento personalizado carregando um arquivo de mapeamento CSV. O arquivo de mapeamento deve conter o UUID do Bloomberg e o endereço da caixa de correio do Microsoft 365 correspondente para cada usuário. Se você habilitar o mapeamento automático de usuários e fornecer um mapeamento de mapeamento personalizado, para cada item de chat, o conector examinará primeiro o arquivo de mapeamento personalizado. Se não encontrar um usuário válido do Microsoft 365 que corresponda ao UUID do Bloomberg de um usuário, o conector usará a propriedade *CorporateEmailAddress* do item de chat. Se o conector não localizar um usuário válido do Microsoft 365 no arquivo de mapeamento personalizado ou na propriedade *CorporateEmailAddress* do item de chat, o item não será importado.
+   > O conector importa os itens de mensagem de chat para a caixa de correio de um usuário específico. Uma nova pasta chamada **InstantBloomberg** será criada na caixa de correio do usuário específico e os itens serão importados para ela. O conector faz usando o valor da propriedade *CorporateEmailAddress* . Cada mensagem de chat contém essa propriedade e a propriedade é preenchida com o endereço de email de cada participante da mensagem de chat. Além do mapeamento automático de usuários usando o valor da propriedade *CorporateEmailAddress* , você também pode definir o mapeamento personalizado carregando um arquivo de mapeamento CSV. O arquivo de mapeamento deve conter o UUID do Bloomberg e o endereço da caixa de correio do Microsoft 365 correspondente para cada usuário. Se você habilitar o mapeamento automático de usuários e fornecer um mapeamento personalizado, para cada item de chat, o conector examinará primeiro o arquivo de mapeamento personalizado. Se não encontrar um usuário válido do Microsoft 365 que corresponda ao UUID do Bloomberg de um usuário, o conector usará a propriedade *CorporateEmailAddress* do item de chat. Se o conector não localizar um usuário válido do Microsoft 365 no arquivo de mapeamento personalizado ou na propriedade *CorporateEmailAddress* do item de chat, o item não será importado.
 
 6. Clique em **Avançar**, revise suas configurações e clique em **preparar** para criar o conector.
 
