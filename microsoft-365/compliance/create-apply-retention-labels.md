@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Instruções para criar e publicar rótulos de retenção para que você possa aplicá-los em aplicativos para manter o que precisa e excluir o que não
-ms.openlocfilehash: ba83243caf2873b2983837b8ab8d4861e1187e2f
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 562264585c4dd4fd3ba6d0f6e8faf046dda95662
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127552"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560579"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>Criar rótulos de retenção e aplicá-los em aplicativos
 
@@ -262,4 +262,4 @@ Event-based retention is another supported scenario for retention labels. For mo
 
 - [Start retention when an event occurs](event-driven-retention.md)
 - [Automate event-based retention](automate-event-driven-retention.md)
-- [Manage the lifecycle of SharePoint documents with retention labels](auto-apply-retention-labels-scenario.md)
+- [Use retention labels to manage the lifecycle of documents stored in SharePoint](auto-apply-retention-labels-scenario.md)
