@@ -1,5 +1,5 @@
 ---
-title: Gerenciar seus arquivos e URLs permitidos e bloqueados na lista de permissões/bloqueios de locatários
+title: Gerenciar suas URLs permitidas e bloqueadas na lista de permissões/bloqueios de locatários
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,40 +14,32 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Os administradores podem saber como configurar as entradas de URL e de arquivo na lista de permissões/bloqueios de locatários no centro de conformidade de & de segurança.
-ms.openlocfilehash: db34abf28b5ead8106eb0b1447052d63072b2da3
-ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
+description: Os administradores podem aprender a configurar entradas de URL na lista de permissões/bloqueios de locatários no centro de conformidade de & de segurança.
+ms.openlocfilehash: 5ff34cca922f18a015bd9da847facc8177cf8790
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45391561"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552545"
 ---
-# <a name="manage-urls-and-files-in-the-tenant-allowblock-list"></a>Gerenciar URLs e arquivos na Lista de Permissões/Bloqueios de Locatários
+# <a name="manage-urls-in-the-tenant-allowblock-list"></a>Gerenciar URLs na lista de permissões/bloqueios de locatários
 
 > [!NOTE]
 > Os recursos descritos neste tópico estão em visualização, estão sujeitos a alterações e não estão disponíveis em todas as organizações.
 
 Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, você pode discordar do veredicto de filtragem EOP. Por exemplo, uma boa mensagem pode ser marcada como ruim (falso positivo) ou uma mensagem inválida pode ser permitida por meio de (falso negativo).
 
-A lista de permissões/bloqueios de locatários no centro de conformidade do & de segurança oferece uma maneira de substituir manualmente o Microsoft 365 Filtering verdicts. A lista de permissões/bloqueios de locatários é usada durante o fluxo de emails e no momento em que o usuário clica. Você pode especificar URLs e arquivos para permitir ou bloquear na lista de permissões/bloqueios de locatários.
+A lista de permissões/bloqueios de locatários no centro de conformidade do & de segurança oferece uma maneira de substituir manualmente o Microsoft 365 Filtering verdicts. A lista de permissões/bloqueios de locatários é usada durante o fluxo de emails e no momento em que o usuário clica. Você pode especificar URLs para permitir ou bloquear a lista de permissões/bloqueios de locatários.
 
 Este tópico descreve como configurar entradas na lista de permissões/bloqueios de locatário no centro de conformidade & segurança ou no PowerShell (Exchange Online PowerShell para organizações do Microsoft 365 com caixas de correio no Exchange Online; autônomo do EOP PowerShell para organizações sem caixas de correio do Exchange Online).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **lista de permissões/bloqueios de locatários** , use <https://protection.office.com/tenantAllowBlockList> .
 
-- Você especifica arquivos usando o valor de hash SHA256 do arquivo. Para localizar o valor de hash SHA256 de um arquivo no Windows, execute o seguinte comando em um prompt de comando:
-
-  ```dos
-  certutil.exe -hashfile "<Path>\<Filename>" SHA256
-  ```
-
-  Um valor de exemplo é `768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3a` . Os valores de hash perceptual (pHash) não são permitidos.
-
 - Os valores de URL disponíveis são descritos na [sintaxe da URL para a seção lista de permissões/bloqueios de locatário](#url-syntax-for-the-tenant-allowblock-list) mais adiante neste tópico.
 
-- A lista de permissões/bloqueios de locatários permite um máximo de 500 entradas para URLs e 500 entradas para hashes de arquivo.
+- A lista de permissões/bloqueios de locatários permite um máximo de 500 entradas para URLs.
 
 - Uma entrada deve estar ativa em 15 minutos.
 
@@ -95,39 +87,15 @@ Para obter detalhes sobre a sintaxe das entradas de URL, consulte a sintaxe da U
 
 4. Quando tiver concluído, clique em **Adicionar**.
 
-## <a name="use-the-security--compliance-center-to-create-file-entries-in-the-tenant-allowblock-list"></a>Usar o centro de conformidade de & de segurança para criar entradas de arquivo na lista de permissões/bloqueios de locatários
+## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a>Usar o centro de conformidade de & de segurança para exibir entradas na lista de permissões/bloqueios de locatários
 
 1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários**de política de gerenciamento de ameaça.
 
-2. Na página **lista de permissões/bloqueios de locatários** , selecione **arquivos** e clique em **Adicionar**.
-
-3. No submenu **Adicionar novos arquivos** que aparece, defina as seguintes configurações:
-
-   - **Adicionar hashes de arquivo**: Insira um valor de hash SHA256 por linha, até um máximo de 20.
-
-   - **Bloquear/permitir**: selecione se você deseja **permitir** ou **Bloquear** os arquivos especificados.
-
-   - **Nunca expira**: execute uma das seguintes etapas:
-
-     - Verifique se a configuração está desativada (desative ![ ](../../media/scc-toggle-off.png) ) e use a caixa **expira em** para especificar a data de vencimento das entradas.
-
-     ou
-
-     - Mova a opção para a direita para configurar as entradas para nunca expirar: ![Ativar](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png).
-
-   - **Observação opcional**: insira texto descritivo para as entradas.
-
-4. Quando tiver concluído, clique em **Adicionar**.
-
-## <a name="use-the-security--compliance-center-to-view-url-and-file-entries-in-the-tenant-allowblock-list"></a>Use o centro de conformidade de & de segurança para exibir entradas de URL e de arquivo na lista de permissões/bloqueios de locatários
-
-1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários**de política de gerenciamento de ameaça.
-
-2. Selecione a guia **URLs** ou a guia **arquivos** .
+2. Selecione a guia **URLs** .
 
 Clique nos seguintes títulos de coluna para classificar em ordem crescente ou decrescente:
 
-- **Valor**: a URL ou o hash do arquivo.
+- **Valor**
 - **Ação**: **Bloquear** ou **permitir**.
 - **Data da última atualização**
 - **Data de vencimento**
@@ -135,7 +103,7 @@ Clique nos seguintes títulos de coluna para classificar em ordem crescente ou d
 
 Clique em **Agrupar** para agrupar as entradas **por ação** (**Bloquear** ou **permitir**) ou **nenhum**.
 
-Clique em **Pesquisar**, digite todo ou parte de um valor de URL ou de arquivo e pressione ENTER para localizar um valor específico. Quando tiver terminado, clique em **limpar** o ![ ícone pesquisa limpar pesquisa ](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) .
+Clique em **Pesquisar**, insira todo ou parte de um valor e pressione ENTER para localizar um valor específico. Quando tiver terminado, clique em **limpar** o ![ ícone pesquisa limpar pesquisa ](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) .
 
 Clique em **filtro**. No submenu de **filtro** que aparece, configure qualquer uma das seguintes configurações:
 
@@ -151,13 +119,13 @@ Quando tiver concluído, clique em **aplicar**.
 
 Para limpar filtros existentes, clique em **Filtrar**e, no submenu de **filtro** que aparece, clique em **limpar filtros**.
 
-## <a name="use-the-security--compliance-center-to-modify-url-and-file-entries-in-the-tenant-allowblock-list"></a>Use o centro de conformidade de & de segurança para modificar as entradas de URL e de arquivo na lista de permissões/bloqueios de locatários
+## <a name="use-the-security--compliance-center-to-modify-entries-in-the-tenant-allowblock-list"></a>Usar o centro de conformidade de & de segurança para modificar as entradas na lista de permissões/bloqueios de locatários
 
-Você não pode modificar a URL ou o valor do arquivo propriamente dito. Em vez disso, você precisa excluir a entrada e recriá-la.
+Você não pode modificar o próprio valor de URL. Em vez disso, você precisa excluir a entrada e recriá-la.
 
 1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários**de política de gerenciamento de ameaça.
 
-2. Selecione a guia **URLs** ou a guia **arquivos** .
+2. Selecione a guia **URLs** .
 
 3. Selecione a entrada que você deseja modificar e clique em **Editar** ![ ícone de edição ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) .
 
@@ -177,11 +145,11 @@ Você não pode modificar a URL ou o valor do arquivo propriamente dito. Em vez 
 
 5. Quando concluir, clique em **Salvar**.
 
-## <a name="use-the-security--compliance-center-to-remove-url-and-file-entries-from-the-tenant-allowblock-list"></a>Use o centro de conformidade de & de segurança para remover entradas de URL e arquivos da lista de permissões/bloqueios de locatários
+## <a name="use-the-security--compliance-center-to-remove-entries-from-the-tenant-allowblock-list"></a>Usar o centro de conformidade de & de segurança para remover entradas da lista de permissões/bloqueios de locatários
 
 1. No centro de conformidade & segurança, vá para **Threat management** \> **Policy** \> **listas de permissões/bloqueios de locatários**de política de gerenciamento de ameaça.
 
-2. Selecione a guia **URLs** ou a guia **arquivos** .
+2. Selecione a guia **URLs** .
 
 3. Selecione a entrada que você deseja remover e clique em **excluir** ![ excluir ícone ](../../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png) .
 
@@ -189,12 +157,12 @@ Você não pode modificar a URL ou o valor do arquivo propriamente dito. Em vez 
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-the-tenant-allowblock-list"></a>Usar o PowerShell do Exchange Online ou o PowerShell do EOP para configurar a lista de permissões/bloqueios de locatários
 
-### <a name="use-powershell-to-add-url-and-file-entries-in-the-tenant-allowblock-list"></a>Usar o PowerShell para adicionar entradas de URL e de arquivo na lista de permissões/bloqueios de locatários
+### <a name="use-powershell-to-add-entries-in-the-tenant-allowblock-list"></a>Usar o PowerShell para adicionar entradas à lista de permissões/bloqueios de locatários
 
-Para adicionar entradas de URL e de arquivo na lista de permissões/bloqueios de locatários, use a seguinte sintaxe:
+Para adicionar entradas na lista de permissões/bloqueios de locatários, use a seguinte sintaxe:
 
 ```powershell
-New-TenantAllowBlockListItems -ListType <Url | FileHash> -Action <Allow | Block> -Entries <String[]> [-ExpirationDate <DateTime>] [-NoExpiration] [-Notes <String>]
+New-TenantAllowBlockListItems -ListType Url -Action <Allow | Block> -Entries <String[]> [-ExpirationDate <DateTime>] [-NoExpiration] [-Notes <String>]
 ```
 
 Este exemplo adiciona uma entrada de bloco de URL para contoso.com e todos os subdomínios (por exemplo, contoso.com, www.contoso.com e xyz.abc.contoso.com). Como não usamos os parâmetros ExpirationDate ou noexpiration, a entrada expira após 30 dias.
@@ -203,20 +171,14 @@ Este exemplo adiciona uma entrada de bloco de URL para contoso.com e todos os su
 New-TenantAllowBlockListItem -ListType Url -Action Block -Entries ~contoso.com
 ```
 
-```powershell
-New-TenantAllowBlockListItem -ListType FileHash -Action Allow -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
-```
-
-Este exemplo adiciona uma entrada de permissão de arquivo para os arquivos especificados que nunca expiram.
-
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-TenantAllowBlockListItems](https://docs.microsoft.com/powershell/module/exchange/new-tenantallowblocklistitems).
 
-### <a name="use-powershell-to-view-url-and-file-entries-in-the-tenant-allowblock-list"></a>Use o PowerShell para exibir as entradas de arquivo e URL na lista de permissões/bloqueios de locatários
+### <a name="use-powershell-to-view-entries-in-the-tenant-allowblock-list"></a>Usar o PowerShell para exibir entradas na lista de permissões/bloqueios de locatários
 
-Para exibir as entradas de arquivo e URL na lista de permissões/bloqueios de locatários, use a seguinte sintaxe:
+Para exibir as entradas na lista de permissões/bloqueios de locatários, use a seguinte sintaxe:
 
 ```powershell
-Get-TenantAllowBlockListItems -ListType <Url | FileHash> [-Entry <URLValue | FileHashValue>] [-Action <Allow | Block>] [-ExpirationDate <DateTime>] [-NoExpiration]
+Get-TenantAllowBlockListItems -ListType Url [-Entry <URLValue>] [-Action <Allow | Block>] [-ExpirationDate <DateTime>] [-NoExpiration]
 ```
 
 Este exemplo retorna todas as URLs bloqueadas.
@@ -225,22 +187,16 @@ Este exemplo retorna todas as URLs bloqueadas.
 Get-TenantAllowBlockListItems -ListType Url -Action Block
 ```
 
-Este exemplo retorna informações para o valor de hash do arquivo especificado.
-
-```powershell
-Get-TenantAllowBlockListItems -ListType FileHash -Entry "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
-```
-
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-TenantAllowBlockListItems](https://docs.microsoft.com/powershell/module/exchange/get-tenantallowblocklistitems).
 
-### <a name="use-powershell-to-modify-url-and-file-entries-in-the-tenant-allowblock-list"></a>Usar o PowerShell para modificar as entradas de arquivo e URL na lista de permissões/bloqueios de locatários
+### <a name="use-powershell-to-modify-entries-in-the-tenant-allowblock-list"></a>Usar o PowerShell para modificar entradas na lista de permissões/bloqueios de locatários
 
-Você não pode modificar a URL ou o valor do arquivo propriamente dito. Em vez disso, você precisa excluir a entrada e recriá-la.
+Você não pode modificar o próprio valor de URL. Em vez disso, você precisa excluir a entrada e recriá-la.
 
-Para modificar as entradas de URL e de arquivo na lista de permissões/bloqueios de locatários, use a seguinte sintaxe:
+Para modificar as entradas na lista de permissões/bloqueios de locatários, use a seguinte sintaxe:
 
 ```powershell
-Set-TenantAllowBlockListItems -ListType <Url | FileHash> -Ids <"Id1","Id2",..."IdN"> [-Action <Allow | Block>] [-ExpirationDate <DateTime>] [-NoExpiration] [-Notes <String>]
+Set-TenantAllowBlockListItems -ListType Url -Ids <"Id1","Id2",..."IdN"> [-Action <Allow | Block>] [-ExpirationDate <DateTime>] [-NoExpiration] [-Notes <String>]
 ```
 
 Este exemplo altera a data de vencimento da entrada especificada.
@@ -251,12 +207,12 @@ Set-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBw
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [set-TenantAllowBlockListItems](https://docs.microsoft.com/powershell/module/exchange/set-tenantallowblocklistitems).
 
-### <a name="use-powershell-to-remove-url-and-file-entries-from-the-tenant-allowblock-list"></a>Use o PowerShell para remover as entradas de arquivo e URL da lista de permissões/bloqueios de locatários
+### <a name="use-powershell-to-remove-entries-from-the-tenant-allowblock-list"></a>Usar o PowerShell para remover entradas da lista de permissões/bloqueios de locatários
 
-Para remover as entradas de arquivo e URL da lista de permissões/bloqueios de locatários, use a seguinte sintaxe:
+Para remover entradas da lista de permissões/bloqueios de locatários, use a seguinte sintaxe:
 
 ```powershell
-Remove-TenantAllowBlockListItems -ListType <Url | FileHash> -Ids <"Id1","Id2",..."IdN">
+Remove-TenantAllowBlockListItems -ListType Url -Ids <"Id1","Id2",..."IdN">
 ```
 
 Este exemplo remove a entrada de URL especificada da lista de permissões/bloqueios de locatário.

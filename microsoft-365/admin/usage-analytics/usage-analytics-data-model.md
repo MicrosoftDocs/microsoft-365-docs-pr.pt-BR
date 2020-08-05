@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: 'Saiba como a análise de uso se conecta a uma API e fornece tendências mensais de uso de vários serviços da Microsoft 365.  '
-ms.openlocfilehash: 28dc51f76ac2e6bba00ecea853bc79419500508d
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: 1fa1cb842b603a920665ec1b59ca18f586b5d181
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695086"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560854"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Modelo de dados de análise de uso do Microsoft 365
 
@@ -140,6 +140,9 @@ Essa tabela contém dados sobre cada usuário que tinha uma atividade em qualque
 |SFB_P2PSummary  <br/> |Número de sessões de ponto a ponto das quais este usuário participou.  <br/> |
 |SFB_ConfOrgSummary  <br/> |Número de sessões de conferência organizadas por este usuário.  <br/> |
 |SFB_ConfPartSummary  <br/> |Número de sessões de conferência das quais este usuário participou.  <br/> |
+
+> [!NOTE]
+> Teams_HasOtherAction significa que o usuário é considerado ativo, mas tem um valor zero para as mensagens de chat, 1:1 chamadas, mensagens de canal, reuniões totais e reuniões organizadas.
    
 ### <a name="data-table---tenant-product-usage"></a>Tabela de dados - Uso de Produto do Locatário
 

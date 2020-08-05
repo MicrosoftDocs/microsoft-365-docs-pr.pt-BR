@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: 'Crie links rápidos para seus emails, documentos, aplicativos, sites do SharePoint, sites externos e outros recursos adicionando blocos personalizados ao inicializador de aplicativos. '
-ms.openlocfilehash: 7220f0be8ad6605b7ad6d30000fde6411948c996
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: cebb4385e40f2cef68d3ee26dca1cb905c8d91c5
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780128"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552489"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Adicionar blocos personalizados ao inicializador de aplicativos
 
@@ -45,7 +45,7 @@ Você pode adicionar blocos personalizados ao inicializador de aplicativos, que 
   
 ## <a name="add-a-custom-tile-to-the-app-launcher"></a>Adicionar um bloco personalizado ao inicializador de aplicativos
 
-1. No centro de administração, vá para as configurações de organização de **configurações**  >  **Org Settings** e escolha a guia **perfil da organização** .
+1. Entre no centro de administração como administrador global, vá para configurações da organização **configurações**  >  **Org Settings**e escolha a guia **perfil da organização** .
     
 2. Na guia **perfil da organização** , escolha **blocos personalizados do inicializador de aplicativos**.
   
@@ -91,4 +91,3 @@ Para excluir um bloco personalizado, da janela **blocos personalizados** , selec
 
 Além de adicionar blocos ao inicializador de aplicativos, você pode adicionar blocos de inicializador de aplicativos à barra de navegação ([saiba mais](https://support.microsoft.com/office/eb34a21b-52fa-4fbf-a8d5-146132242985)). Para personalizar a aparência do Microsoft 365 para corresponder à marca da sua organização, consulte [Customize The Microsoft 365 Theme](../setup/customize-your-organization-theme.md).
   
-

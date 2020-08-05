@@ -20,12 +20,13 @@ ms.custom: ''
 search.appverid: ''
 description: Saiba como atualizar do Microsoft Teams gratuitamente para uma nova assinatura do Microsoft 365 for Business.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6bd36987fcad4cebb217bdc89388dfae44ca30b9
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.date: 07/08/2020
+ms.openlocfilehash: fcd06db64f78c80e5b4a015380e672f529feb0ae
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45087907"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552453"
 ---
 # <a name="upgrade-from-microsoft-teams-free-to-microsoft-365-for-business"></a>Atualização do Microsoft Teams gratuitamente para o Microsoft 365 for Business
 

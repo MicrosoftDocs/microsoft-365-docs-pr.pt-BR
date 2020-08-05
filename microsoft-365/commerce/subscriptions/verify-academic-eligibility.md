@@ -18,12 +18,13 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Saiba como verificar a elegibilidade de sua escola para obter preços acadêmicos do Microsoft 365 Education.
-ms.openlocfilehash: 70bc4e986a5072b7f05ae983b2e932aa804caaeb
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.date: 07/21/2020
+ms.openlocfilehash: 948d001315c44e288d9fe3e363ec6e1ddeb8ff32
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204994"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560698"
 ---
 # <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>Verificar a elegibilidade acadêmico para assinaturas do Microsoft 365 Education
 
@@ -44,7 +45,7 @@ Se você não tem certeza se tem uma assinatura de avaliação do Microsoft 365 
 
 ## <a name="verify-your-schools-academic-eligibility"></a>Verificar a elegibilidade acadêmico de sua escola
 
-Na maioria dos casos, quando você se inscreve para uma avaliação gratuita e conclui o assistente de verificação de qualificação para fornecer o domínio de sua escola, você recebe uma aprovação imediata ou negação da elegibilidade da sua escola. Em alguns casos, exigemos mais informações para concluir uma revisão de qualificação manual. Essa análise pode levar até 10 dias úteis. Depois de analisarmos as informações de qualificação da escola, enviaremos um email que o notifique sobre o status da sua escola.
+Na maioria dos casos, quando você se inscreve para uma avaliação gratuita e conclui o assistente de verificação de qualificação para fornecer o domínio de sua escola, você recebe uma aprovação imediata ou negação da elegibilidade da sua escola. Em alguns casos, precisamos de mais informações para concluir uma revisão de qualificação manual e você terá acesso a você com um questionário para ser concluído. Essa análise pode levar até 10 dias úteis. Depois de analisarmos as informações de qualificação da escola, enviaremos um email que o notifique sobre o status da sua escola.
 
 Você pode fechar o assistente de verificação acadêmica antes de inserir um domínio e começar a usar a assinatura de avaliação imediatamente. No entanto, você não estará qualificado para preços acadêmicos até concluir o processo de verificação. Você deve concluir o processo antes do término de sua avaliação gratuita para converter para uma assinatura paga e continuar a usá-la. Isso também se aplica quando você converte para a assinatura gratuita a1.
 

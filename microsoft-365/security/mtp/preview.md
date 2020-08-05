@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 77f84519c7173aa1f9a4293b222fa5f677ed8159
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 3559bf3391427d6f6ae0cfc6b6f6e8ed343438fa
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430358"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552657"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Recursos de prévia da proteção contra ameaças da Microsoft
 
@@ -50,12 +50,14 @@ Ative a configuração de experiência de visualização para estar entre o prim
 
 3. Selecionar **recursos**  >  **de visualização ative os recursos de visualização**. 
 
-3. Selecione **Salvar**.
+3. Clique em **Salvar**.
 
 Você saberá que os recursos de visualização estão ativados ao ver que a caixa de seleção **ativar recursos de visualização** está marcada. 
 
 ## <a name="preview-features"></a>Visualização prévia de recursos
 Os seguintes recursos e aprimoramentos estão disponíveis atualmente na visualização:
 
-- **[Referência de esquema no portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — informações sobre tabelas de esquema disponíveis diretamente na central de segurança. Além de descrições de tabela e coluna, essa referência fornece informações sobre tipos de eventos suportados ( `ActionType` valores) e consultas de amostra.
+- **[Execute uma ação em busca avançada](advanced-hunting-take-action.md)** , confira rapidamente as ameaças ou atenda aos ativos comprometidos que você encontra em [busca avançada](advanced-hunting-overview.md).
+
+- **[Referência de esquema no portal](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — Obtenha informações sobre tabelas de esquema de busca avançada diretamente na central de segurança. Além de descrições de tabela e coluna, essa referência conveniente fornece informações sobre tipos de evento ( `ActionType` valores) com suporte e consultas de amostra.
 

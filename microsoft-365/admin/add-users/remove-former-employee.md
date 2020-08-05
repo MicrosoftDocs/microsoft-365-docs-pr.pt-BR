@@ -25,14 +25,14 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Siga esta lista de verificação para remover um funcionário do Microsoft 365 e dados seguros. '
-ms.openlocfilehash: 51fd26835cd74fa8403437397d37395fcf1c7301
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: b63866615c19ecf1d9096f0d63cbcb2008350f51
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844853"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560382"
 ---
-# <a name="remove-a-former-employee"></a>Remover um ex-funcionário
+# <a name="remove-or-delete-a-former-employee"></a>Remover ou excluir um funcionário anterior
 
 ::: moniker range="o365-21vianet"
 
@@ -59,7 +59,7 @@ Para impedir que um funcionário faça logon:
 
 3. Insira uma nova senha e, em seguida, selecione **Redefinir**. (Não o envie para eles.)
     
-4. Selecione o nome do usuário para ir para o painel de propriedades e, na guia **onedrive** , selecione **Iniciar saída**.
+4. Selecione o nome do usuário para ir para o painel de propriedades e, na guia **conta** , selecione **Iniciar**saída.
 
 ::: moniker-end
 
@@ -71,7 +71,7 @@ Para impedir que um funcionário faça logon:
 
 3. Insira uma nova senha e, em seguida, selecione **Redefinir**. (Não o envie para eles.)
 
-4. Selecione o usuário novamente, expanda **configurações do onedrive**e, em seguida, selecione **Iniciar** ao lado de **sair**.
+4. Selecione o nome do usuário para ir para o painel de propriedades e, na guia **conta** , selecione **Iniciar**saída.
 
 ::: moniker-end
 
@@ -83,9 +83,12 @@ Para impedir que um funcionário faça logon:
 
 3. Insira uma nova senha e, em seguida, selecione **Redefinir**. (Não o envie para eles.)
 
-4. Selecione o usuário novamente, expanda **configurações do onedrive**e, em seguida, selecione **Iniciar** ao lado de **sair**.
+4. Selecione o nome do usuário para ir para o painel de propriedades e, na guia **conta** , selecione **Iniciar**saída.
 
 ::: moniker-end
+
+> [!NOTE]
+> Você precisa ser um administrador global para iniciar a saída.
 
     
 Dentro de uma hora ou após elas saírem da página atual do Microsoft 365, elas serão solicitadas a entrar novamente. (Um token de acesso é bom por uma hora, portanto, a linha do tempo depende de quanto tempo resta naquele token e se ele navegará de sua página da Web atual.)
@@ -161,7 +164,7 @@ Nesta etapa, você atribui o endereço de email do ex-funcionário para outro fu
 
 4. Ative **Encaminhar todos os emails enviados para esta caixa de correio**. Na caixa **Endereço de encaminhamento**, digite o endereço de email do funcionário atual (ou da caixa de correio compartilhada) que vai receber os emails. 
   
-5. Selecione **Salvar**. 
+5. Clique em **Salvar**. 
     
 6. Lembre-se de não excluir a conta do ex-funcionário.
  
@@ -177,7 +180,7 @@ Nesta etapa, você atribui o endereço de email do ex-funcionário para outro fu
 
 4. Ative **Encaminhar todos os emails enviados para esta caixa de correio**. Na caixa **Endereço de encaminhamento**, digite o endereço de email do funcionário atual (ou da caixa de correio compartilhada) que vai receber os emails. 
   
-5. Selecione **Salvar**. 
+5. Clique em **Salvar**. 
     
 6. Lembre-se de não excluir a conta do ex-funcionário.
 
@@ -193,7 +196,7 @@ Nesta etapa, você atribui o endereço de email do ex-funcionário para outro fu
 
 4. Ative **Encaminhar todos os emails enviados para esta caixa de correio**. Na caixa **Endereço de encaminhamento**, digite o endereço de email do funcionário atual (ou da caixa de correio compartilhada) que vai receber os emails. 
   
-5. Selecione **Salvar**. 
+5. Clique em **Salvar**. 
     
 6. Lembre-se de não excluir a conta do ex-funcionário.
 
@@ -215,9 +218,10 @@ Se o ex-funcionário tinha um telefone da organização, você pode usar o Centr
     
 5. Na página **detalhes do dispositivo móvel** , em **dispositivos móveis**, selecione o dispositivo móvel, selecione **apagar dados** ![ apagar dispositivo ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) e, em seguida, selecione **Bloquear**. 
     
-6. Selecione **Salvar**. 
+6. Clique em **Salvar**. 
     
-    **Dica**: lembre-se de remover ou desabilitar o usuário do seu Blackberry Enterprise Service local. Você também deve desabilitar todos os dispositivos Blackberry desse usuário. Veja o Guia de Administração do Blackberry Business Cloud Services se precisar de etapas específicas para desabilitar o usuário. 
+   > [!TIP]
+   > Certifique-se de remover ou desabilitar o usuário do seu serviço local do BlackBerry Enterprise. Você também deve desabilitar todos os dispositivos Blackberry desse usuário. Veja o Guia de Administração do Blackberry Business Cloud Services se precisar de etapas específicas para desabilitar o usuário. 
     
 ## <a name="block-a-former-employees-access-to-microsoft-365-data"></a>Bloquear o acesso de um antigo funcionário aos dados do Microsoft 365
 <a name="bkmk_block"> </a>
@@ -343,6 +347,10 @@ Para obter mais informações sobre o gerenciamento de licenças de usuário par
 Quando você remove uma licença de usuário do Office 365, o número de chamada PSTN associado ao usuário será lançado. Você pode atribuí-la a outro usuário.
   
 Se o usuário pertencer a um grupo de espera, ele não será mais um alvo viável de agentes da fila a chamada. Portanto, recomendamos remover o usuário também de grupos associados à fila de chamadas. 
+
+## <a name="set-up-call-forwarding-to-people-in-your-organization"></a>Configurar o encaminhamento de chamadas para pessoas em sua organização
+
+Se você precisar configurar o encaminhamento de chamadas para o número de telefone do funcionário demitido, a configuração de encaminhamento de chamadas em políticas de chamadas poderá configurar o encaminhamento onde as chamadas de entrada podem ser encaminhadas para outros usuários ou podem tocar outra pessoa ao mesmo tempo. Para obter mais informações, consulte [chamadas de diretivas no Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-calling-policy).
   
 ## <a name="delete-a-former-employees-user-account"></a>Excluir a conta de usuário de um ex-funcionário
 <a name="bkmk_delete"> </a>

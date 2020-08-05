@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 9c1b9c1853d80d818d97084e2668d3b12b6da0e6
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: 07c010a78d297a4a3c932c0d9a0e32cce0c43bfa
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46503208"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560902"
 ---
 # <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>Estender a cobertura de busca avançada com as configurações corretas
 
@@ -45,7 +45,7 @@ Se você estiver executando o Active Directory no local, precisará instalar o s
 
 | Data | Descrição | Tabela de esquema | Como configurar |
 | --- | --- | --- | --- |
-| Controlador de domínio | Dados do Active Directory local enviados para o Azure ATP, aprimorando informações relacionadas à identidade, como detalhes da conta, atividade de logon e consultas do Active Directory | Várias tabelas, incluindo [IdentityInfo](advanced-hunting-identityinfo-table.md), [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)e [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)  | [Instalar o sensor ATP do Azure](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step4)|
+| Controlador de domínio | Dados do Active Directory local enviados para o Azure ATP, aprimorando informações relacionadas à identidade, como detalhes da conta, atividade de logon e consultas do Active Directory | Várias tabelas, incluindo [IdentityInfo](advanced-hunting-identityinfo-table.md), [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)e [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)  | - [Instalar o sensor ATP do Azure](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step4)<br>- [Ativar eventos relevantes do Windows](https://docs.microsoft.com/azure-advanced-threat-protection/configure-event-collection) |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da caça avançada](advanced-hunting-overview.md)

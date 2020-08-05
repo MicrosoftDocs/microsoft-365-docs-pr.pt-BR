@@ -12,12 +12,12 @@ ms.date: 08/28/2019
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: d1019547fb16fd4fd5669ebd5286e8c9e32668fe
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 3b4a0174e96fec1591bcac7ba58bcc7d57db8c87
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011918"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552681"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>Fase 3: Windows 10 Enterprise
 
@@ -56,7 +56,7 @@ Você pode saber mais sobre o Windows 10 com estes artigos:
 ## <a name="additional-services-and-features"></a>Serviços e recursos adicionais
 Como parte de sua implantação do Windows 10 Enterprise, você pode adicionar esses serviços e recursos adicionais.
 
-### <a name="windows-analytics"></a>Windows Analytics
+### <a name="desktop-analytics"></a>Análise de Área de Trabalho
 
 O Windows usa dados de diagnóstico para fornecer informações ricas e acionáveis para ajudá-lo a obter ideias profundas sobre a eficiência operacional e a integridade de dispositivos Windows 10 em seu ambiente.
 
@@ -64,7 +64,7 @@ O Windows usa dados de diagnóstico para fornecer informações ricas e acionáv
 * Update Compliance-Update conformidade é direcionado para o administrador de ti que deseja obter uma visão holística de todos os seus dispositivos Windows 10, sem requisitos de infraestrutura adicionais.
 * Integridade do dispositivo-você pode usar a integridade do dispositivo para detectar e corrigir problemas de impacto do usuário final de forma proativa.
 
-Consulte [visão geral do Windows Analytics](https://docs.microsoft.com/windows/deployment/update/windows-analytics-overview) para obter mais informações.
+Consulte [visão geral da análise de desktop](https://docs.microsoft.com/mem/configmgr/desktop-analytics/overview) para obter mais informações.
 
 ### <a name="windows-security"></a>Segurança do Windows
 

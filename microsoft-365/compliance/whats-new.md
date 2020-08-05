@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Estamos adicionando novos recursos para o centro de conformidade da Microsoft 365. Descubra o que temos para este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 29d99e0af5f161c91b8a192b9d6f1545a13c7c80
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 77ba6f0926a1826fe6c946ff4f8c05cf913c57ed
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199461"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560258"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>O que há de novo no centro de conformidade da Microsoft 365
 
@@ -32,6 +32,98 @@ Estamos adicionando novos recursos para o centro de [conformidade da Microsoft 3
 > [!TIP]
 > Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[O que há de novo no centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[O que há de novo no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br><br>
 E visite o [mapa do microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para saber mais sobre os recursos do Microsoft 365 que foram lançados, estão em desenvolvimento, foram cancelados ou lançados anteriormente.
+
+## <a name="june-2020"></a>Junho de 2020
+
+### <a name="spotlight-new-data-connectors-hit-preview"></a>Spotlight: novos data Connectors Preview hit
+
+Com base em nossa promessa para ajudá-lo a importar dados de outras fontes de terceiros para o Microsoft 365, temos o prazer de anunciar a versão prévia de dois outros conectores de dados:
+
+- [Mensagem do Bloomberg](archive-bloomberg-message-data.md). Importe e arquive dados de email de serviços financeiros da ferramenta de colaboração de mensagens do Bloomberg. Após os dados serem armazenados nas caixas de correio, você pode acessar e usar os dados em recursos de conformidade, como retenção de litígio, pesquisa de conteúdo, arquivamento in-loco, auditoria, conformidade de comunicação e políticas de retenção.
+- [Chat de gelo](archive-icechat-data.md). Importe e arquive dados de chat de serviços financeiros da ferramenta de colaboração de chat ICE. Após os dados serem armazenados nas caixas de correio, você pode acessar e usar os dados em recursos de conformidade, como retenção de litígio, eDiscovery, arquivamento, auditoria, conformidade de comunicação e políticas de retenção.
+
+### <a name="compliance-score--compliance-manager-the-hits-keep-coming"></a>Pontuação de conformidade & gerente de conformidade: os acertos continuam chegando
+
+As atualizações de junho incluem um novo modo de detalhamento de avaliação na [Pontuação de conformidade](compliance-score.md). Monitorar o progresso do controle, adicionar, excluir avaliações diretamente da Pontuação de conformidade e muito mais.
+
+Deseja manter-se atualizado sobre as atualizações de Pontuação de conformidade e gerente de conformidade? Marque as [notas de versão da nota de conformidade](compliance-score-release-notes.md) e verifique com frequência.
+
+## <a name="may-2020"></a>Maio de 2020
+
+### <a name="spotlight-data-classification-is-officially-released"></a>Spotlight: a classificação de dados é oficialmente lançada
+
+A classificação de dados, aka '[conhecem seus dados](data-classification-overview.md)', recursos (análise, Gerenciador de conteúdo e Gerenciador de atividade) graduaram da fase de visualização e estão disponíveis para todas as organizações. As ideias e as ferramentas poderosas podem ajudá-lo a descobrir e avaliar como as informações e os rótulos confidenciais são usados em conteúdo em toda a organização. Examine o conteúdo que contém informações confidenciais ou tenha rótulos aplicados, explore a atividade de etiquetas nos locais do Microsoft 365, crie tipos de informações confidenciais personalizados e muito mais.
+
+Faça um tour de vídeo...
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vx8x]
+
+### <a name="trainable-classifiers-a-fix-and-a-feature"></a>Classificadores estagiários: uma correção e um recurso
+
+O pode trazer mais aprimoramentos para os classificadores estagiários:
+
+- Uma correção com base em seus comentários: quando você propaga e treina um classificador personalizado, não é mais necessário inserir manualmente URLs de site do SharePoint e caminhos de pasta. Agora você pode escolher em uma lista de preenchimento de sites e pastas.
+- Novo recurso: ao criar um rótulo de confidencialidade e configurar as definições de rotulação automática para os aplicativos do Office, você pode aplicar automaticamente (ou recomendar que os usuários se apliquem) o rótulo ao conteúdo que corresponde aos classificadores estagiários. [Saiba Mais](apply-sensitivity-label-automatically.md#configuring-trainable-classifiers-for-a-label)
+
+### <a name="communication-compliance-yammer-support-is-here"></a>Conformidade de comunicação: o suporte do Yammer está aqui
+
+Mensagens privadas e conversas da Comunidade pública no Yammer são suportadas em políticas de conformidade de comunicação. O Yammer é um canal opcional e deve estar no [modo nativo](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) para suportar a verificação de mensagens e anexos.
+
+### <a name="data-loss-prevention-new-sharing-restriction"></a>Prevenção contra perda de dados: nova restrição de compartilhamento
+
+Ao configurar uma política de DLP para proteger o conteúdo no SharePoint ou no OneDrive, agora você pode configurar a ação "restringir o acesso a conteúdo" para bloquear pessoas que receberam acesso ao conteúdo através da opção "[qualquer pessoa com o link](https://support.microsoft.com/office/share-files-outside-your-organization-with-anyone-links-53e91027-fb8e-4a6e-a3e4-5df4be32e38a)".
+
+### <a name="insider-risk-management-tailor-your-alert-volume"></a>Gerenciamento de risco do insider: ajuste seu volume de alerta
+
+As atividades do usuário detectadas pelas políticas de risco do insider recebem uma pontuação de risco específica, que, por sua vez, determina a severidade do alerta (baixa, média, alta). Por padrão, o Microsoft 365 gera uma determinada quantidade de alertas de severidade Baixa, média e alta, mas com a nova [configuração de volume de alerta](insider-risk-management-settings.md#alert-volume), você pode aumentar ou diminuir o volume para atender às suas necessidades.
+
+### <a name="pst-import-new-region-supported"></a>Importação de PST: nova região suportada
+
+O carregamento de rede agora está disponível nos Emirados Árabes Unidos.
+
+### <a name="sensitivity-labels-new-privacy-option"></a>Rótulos de confidencialidade: nova opção de privacidade
+
+Ao configurar [definições de site e de grupo](sensitivity-labels-teams-groups-sites.md#how-to-configure-site-and-group-settings) para um rótulo, agora você pode definir a opção de privacidade como **nenhum-permitir que o usuário escolha quem pode acessar o site**. Isso é útil quando você deseja proteger o conteúdo do contêiner usando um rótulo de confidencialidade, mas ainda permitir que os usuários configurem a configuração de privacidade.
+
+## <a name="april-2020"></a>Abril de 2020
+
+### <a name="records-management-overhauland-a-new-addition"></a>Gerenciamento de registros: revisão... e uma nova adição
+
+Amanda inclui algumas atualizações importantes para nossa solução de gerenciamento de registros:
+
+- A seção "gerenciamento de registros" agora está totalmente disponível no centro de conformidade. Aproveite as interfaces de usuário atualizadas e a funcionalidade para o plano de arquivos, os rótulos de retenção e as políticas de rótulo, eventos e disposição.
+- Em termos de descarte, também distribuimos [provas de eliminação](disposition.md#disposition-of-records) de registros no SharePoint e no onedrive. Agora você pode ver uma lista de itens nos locais que foram descartados automaticamente ou após uma revisão de disposição.
+
+:::image type="content" source="../media/mcc-records-management-page.png" alt-text="Seção Gerenciamento de registros no centro de conformidade do Microsoft 365":::
+
+### <a name="sensitivity-labels-preview-auto-labeling-policies"></a>Rótulos de sensibilidade: Visualizar as políticas de rotulação automática
+
+Com as políticas de rotulamento automático, agora você pode aplicar automaticamente rótulos de confidencialidade aos documentos do SharePoint e do OneDrive já salvos (conhecidos como dados em repouso) e emails que já foram enviados ou recebidos (conhecidos como "emails em trânsito"). Como esse rótulo é aplicado por serviços, e não por aplicativos, você não precisa se preocupar com os aplicativos que os usuários têm e qual versão.
+
+Esse recurso estende o rótulo do lado do cliente existente que já está incluído nas configurações de rotulamento automático para aplicativos do Office quando você cria um rótulo de confidencialidade. Para se familiarizar com as diferenças e os benefícios de ambas as opções de rótulo automático, confira o [artigo atualizado](apply-sensitivity-label-automatically.md).
+
+## <a name="march-2020"></a>Março de 2020
+
+### <a name="introducing-advanced-audit"></a>Introdução à auditoria avançada
+
+A [auditoria avançada no Microsoft 365](advanced-audit.md) introduz novos recursos de auditoria que podem ajudar sua organização com investigações forenses e de conformidade. Os destaques incluem retenção de longo prazo de logs de auditoria, políticas de retenção de logs de auditoria personalizadas, nova ação de auditoria de caixa de correio do *MailItemsAccessed* e a introdução de um novo limite de limitação no nível do locatário, que fornece à sua organização sua própria cota de largura de banda totalmente alocada para acessar seus dados de auditoria.
+
+### <a name="compliance-score--compliance-manager-preview-the-latest-enhancements"></a>Pontuação de conformidade & gerente de conformidade: Visualizar os aprimoramentos mais recentes
+
+As principais atualizações para esta versão prévia incluem:
+
+- Processo simplificado para a criação e modificação de modelos
+- Controle e aviso de controle de versão para modelos e ações
+- Sincronizando ações comuns entre grupos
+- Suporte a idiomas agora estendido para chinês (simplificado), chinês (tradicional), francês, alemão, italiano, japonês, coreano, Português (Brasil), russo e espanhol
+
+Saiba mais sobre a [Pontuação de conformidade](compliance-score.md) e o gerente de [conformidade](compliance-manager-overview.md)
+
+### <a name="sensitivity-labels-support-for-labeling-office-files-in-sharepoint-and-onedrive-preview"></a>Rótulos de sensibilidade: suporte para rotular arquivos do Office no SharePoint e no OneDrive (visualização)
+
+Habilitar a visualização permite que os usuários apliquem rótulos de confidencialidade no Office na Web. Eles poderão ver o botão **sensibilidade** na faixa de opções e o nome do rótulo aplicado na barra de status. Além disso, se eles usarem aplicativos da área de trabalho para rotular e salvar seus arquivos no SharePoint ou no OneDrive, o Microsoft 365 agora será capaz de processar o conteúdo desses arquivos se o rótulo tiver configurações de criptografia aplicadas. A coautoria, descoberta eletrônica, prevenção de perda de dados, pesquisa e outros recursos colaborativos também terão suporte nessas circunstâncias.
+
+[Saiba como habilitar a visualização](sensitivity-labels-sharepoint-onedrive-files.md)
 
 ## <a name="february-2020"></a>Fevereiro de 2020
 
@@ -171,7 +263,7 @@ Se você estiver usando o centro de conformidade de & de segurança do Office 36
 |Prevenção contra perda de dados|Prevenção contra perda de dados <br/> https://protection.office.com/datalossprevention |Prevenção contra perda de dados <br/> https://compliance.microsoft.com/datalossprevention |[Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)|
 |Solicitações de titular dos dados |Data Privacy > solicitações de entidades de dados <br/> https://protection.office.com/dsrcases |Solicitações de titular dos dados <br/> https://compliance.microsoft.com/datasubjectrequest |[Gerenciar solicitações de entidades de dados do RGPD com a ferramenta de ocorrência de DSR](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)|
 |Descoberta eletrônica|descoberta eletrônica > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |Centro de > de descoberta eletrônica <br/> https://compliance.microsoft.com/classicediscovery |[Gerenciar casos de Descoberta Eletrônica](ediscovery-cases.md) |
-|Eventos|Eventos de gerenciamento de > de registros <br/> https://protection.office.com/events |Guia de eventos de gerenciamento de registros > <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[Iniciar a retenção quando um evento ocorrer](event-driven-retention.md)|
+|Events|Eventos de gerenciamento de > de registros <br/> https://protection.office.com/events |Guia de eventos de gerenciamento de registros > <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[Iniciar a retenção quando um evento ocorrer](event-driven-retention.md)|
 |Plano de arquivos|Gerenciamento de registros > plano de arquivo <br/> https://protection.office.com/fileplan |Gerenciamento de registros > guia plano de arquivo <br/> https://compliance.microsoft.com/recordsmanagement?viewid=fileplan |[Usar o plano de arquivos para gerenciar os rótulos de retenção](file-plan-manager.md)|
 |Importar arquivos PST|Governança de informações > importar arquivos PST <br/> https://protection.office.com/importV2 |Guia importar > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[Visão geral da importação dos arquivos PST da sua organização](importing-pst-files-to-office-365.md)|
 |Explorador de atividade de rótulo|Gerenciador de atividade de > de governança de informações <br/> https://protection.office.com/labelexplorer |Classificação de dados > guia Explorador de atividade <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[Exibir atividade do seu conteúdo rotulado (visualização)](data-classification-activity-explorer.md)|

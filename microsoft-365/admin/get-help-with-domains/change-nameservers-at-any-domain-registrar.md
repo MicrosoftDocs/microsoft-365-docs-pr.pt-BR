@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: Saiba como adicionar e configurar seu domínio no Microsoft 365 para que seus serviços como o email e o Skype for Business online usem seu próprio nome de domínio.
-ms.openlocfilehash: 16e8699c1c8588a4368f04078fea44c165c13e29
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 8f98e054b4fa9fc9c8746f2b3bec8b59eb04e767
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399987"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560336"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>Alterar os nameservers para configurar o Microsoft 365 com qualquer registrador de domínios
 
@@ -162,15 +162,14 @@ Por exemplo, aqui estão algumas etapas adicionais que podem ser necessárias pa
 
 1. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
 
-3. Selecione um domínio na página Domínios.
+2. Na página **domínios** , selecione o domínio e, em seguida, escolha **registros DNS**.
 
-4. Em **configurações de DNS**, selecione **registros personalizados**e, em seguida, escolha **novo registro personalizado**.
+3. Em **configurações de DNS**, selecione **registros personalizados**e, em seguida, escolha **novo registro personalizado**.
 
-5. Selecione o tipo de registro DNS que você deseja adicionar e digite as informações do novo registro.
+4. Selecione o tipo de registro DNS que você deseja adicionar e digite as informações do novo registro.
 
-6. Selecione **Salvar**.
+5. Clique em **Salvar**.
     
 > [!NOTE]
 > Your nameserver record updates may take up to several hours to update across the Internet's DNS system. Em seguida, seu email da Microsoft e outros serviços serão configurados para funcionar com seu domínio. 
   
-

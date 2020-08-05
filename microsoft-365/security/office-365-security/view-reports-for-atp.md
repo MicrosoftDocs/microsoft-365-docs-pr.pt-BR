@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Encontre e use relatórios para a proteção avançada contra ameaças do Office 365 no centro de conformidade de segurança &amp; .
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4210ea30457215f9adc2984f24f161dc94985873
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: a2225cbbd9233199e0ce1fc0baf0be5fe59bd258
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434068"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560292"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Exibir relatórios para a proteção avançada contra ameaças do Office 365
 
@@ -31,7 +31,7 @@ As organizações de proteção avançada contra ameaças (ATP) do Office 365 (p
 
 ![O painel de relatórios no centro de conformidade & segurança](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
-## <a name="advanced-threat-protection-file-types-report"></a>Relatório de tipos de arquivo de proteção avançada contra ameaças
+## <a name="advanced-threat-protection-file-types-report"></a>Relatório de tipos de arquivo da proteção avançada contra ameaças
 
 O relatório de **relatório tipos de arquivo de proteção avançada contra ameaças** mostra o tipo de arquivos detectados como mal-intencionados por [anexos seguros de ATP](atp-safe-attachments.md).
 
@@ -115,7 +115,7 @@ Se você clicar em **Exibir tabela de detalhes**, o relatório fornecerá uma vi
 
 Para voltar para o modo de exibição relatórios, clique em **Exibir relatório**.
 
-## <a name="advanced-threat-protection-message-disposition-report"></a>Relatório de disposição de mensagens de proteção avançada contra ameaças
+## <a name="advanced-threat-protection-message-disposition-report"></a>Relatório de disposição de mensagens da Proteção Avançada contra Ameaças
 
 O relatório de **disposição de mensagens ATP** mostra as ações que foram tomadas para mensagens de email que foram detectadas como tendo conteúdo mal-intencionado.
 
@@ -218,7 +218,7 @@ O relatório de **proteção contra ameaças de URL** tem duas exibições agreg
 
 - **URL clique em ação de proteção**: mostra o número de cliques de URL por usuários na organização e os resultados do clique:
 
-  - **Bloqueado**
+  - **Bloqueado** (o usuário foi impedido de navegar para a URL)
   - **Bloqueado e clicado**
   - **Clicado durante a verificação**
 
@@ -227,7 +227,7 @@ O relatório de **proteção contra ameaças de URL** tem duas exibições agreg
   Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
 
   - **Data de início** e **data de término**
-  - O disponível clique em ações de proteção, mais o valor **permitido** para ver informações de todos os cliques de URL (não apenas cliques bloqueados).
+  - O disponível clique em ações de proteção, mais o valor **permitido** (o usuário tem permissão para navegar até a URL).
 
   ![URL clique em ação de proteção exibir no relatório de proteção contra ameaças de URL](../../media/url-threat-protection-report-url-click-protection-action-view.png)
 
@@ -254,7 +254,7 @@ Se você clicar em **Exibir tabela de detalhes**, o relatório fornecerá uma vi
 - **Horário de clique**
 - **Usuário**
 - **URL**
-- **Action**
+- **Ação**
 - **App**
 
 Se você clicar em **filtros** no modo de exibição tabela de detalhes, poderá filtrar pelos mesmos critérios do modo de exibição relatório e também por **domínios** ou **destinatários** separados por vírgulas.

@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Saiba como configurar a opção de lançamento para novas atualizações de produtos e recursos no centro de administração do Microsoft 365.
-ms.openlocfilehash: 3baec050f33893357b25c832552643cf3a6d10d0
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: 648be8ca5d3c7aae93ed868972bc59b32ba87987
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46502874"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560710"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>Configurar as opções de lançamento padrão ou direcionadas
 
@@ -38,10 +38,10 @@ ms.locfileid: "46502874"
 
 ::: moniker-end
 
-Com o Microsoft 365, você recebe novos recursos e atualizações de produtos à medida que eles são disponibilizados em vez de realizar atualizações dispendiosas a cada ano. Você pode gerenciar como sua organização recebe essas atualizações. Por exemplo, você pode se inscrever em uma versão antecipada para que sua organização receba as atualizações primeiro. Você pode designar que apenas alguns usuários recebem as atualizações. Ou você pode permanecer no cronograma de lançamento padrão e receber as atualizações mais tarde. Este artigo explica as diferentes opções de versão e como você pode usá-las para sua organização.
-  
 > [!IMPORTANT]
-> As atualizações 365 da Microsoft descritas neste artigo aplicam-se ao Microsoft 365, ao SharePoint Online e ao Exchange Online. Elas não se aplicam ao Skype for Business e aos serviços relacionados. Essas opções de versão são direcionadas, as melhores maneiras de lançar as alterações no Microsoft 365, mas não podem ser garantidas sempre ou para todas as atualizações. 
+> As atualizações 365 da Microsoft descritas neste artigo aplicam-se ao Microsoft 365, ao SharePoint Online e ao Exchange Online. Essas opções de versão são direcionadas, as melhores maneiras de lançar as alterações no Microsoft 365, mas não podem ser garantidas sempre ou para todas as atualizações. Eles não se aplicam ao Skype for Business, ao Microsoft Teams e aos serviços relacionados.
+
+Com o Microsoft 365, você recebe novos recursos e atualizações de produtos à medida que eles são disponibilizados em vez de realizar atualizações dispendiosas a cada ano. Você pode gerenciar como sua organização recebe essas atualizações. Por exemplo, você pode se inscrever em uma versão antecipada para que sua organização receba as atualizações primeiro. Você pode designar que apenas alguns usuários recebem as atualizações. Ou você pode permanecer no cronograma de lançamento padrão e receber as atualizações mais tarde. Este artigo explica as diferentes opções de versão e como você pode usá-las para sua organização.
 
 > [!NOTE]
 > Para obter informações sobre os canais de atualização para aplicativos, consulte [Overview of Update Channels for Microsoft 365 apps](https://docs.microsoft.com/deployoffice/overview-update-channels). 

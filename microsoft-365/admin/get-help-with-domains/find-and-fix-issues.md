@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: Saiba mais sobre os problemas que você tem ao configurar um domínio personalizado certificando-se de que os registros DNS estão configurados corretamente.
-ms.openlocfilehash: e3c66e10a673d840cfddad81a057739b6dfac721
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 0a315be243395940146479e05de2c7044a5a36ab
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399939"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560246"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>Localizar e corrigir problemas após a adição do seu domínio ou de registros DNS
 
@@ -88,7 +88,7 @@ Confira as orientações em [verificar o seu domínio do Microsoft 365 para prov
 Podemos ajudá-lo a corrigir problemas com a configuração de DNS do seu domínio. A solução de problemas de domínios no Microsoft 365 mostrará todos os registros que precisam de correção e exatamente o que os registros precisam ser definidos. 
 
 > [!TIP]
-> O DNS foi configurado corretamente, mas o email não funciona no Outlook na sua área de trabalho? Confira os [diferentes cenários de fluxo de mensagens que você pode ter com o Microsoft 365](https://www.microsoft.com/?ref=go) para garantir que você tenha as coisas configuradas corretamente para sua empresa. Se preferir, obtenha mais soluções de problemas com email aqui: [Corrigir problemas do Outlook](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues). 
+> O DNS foi configurado corretamente, mas o email não funciona no Outlook na sua área de trabalho? Confira os [diferentes cenários de fluxo de mensagens que você pode ter com o Microsoft 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices) para garantir que você tenha as coisas configuradas corretamente para sua empresa. Se preferir, obtenha mais soluções de problemas com email aqui: [Corrigir problemas do Outlook](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues). 
   
 ## <a name="accessing-your-website-isnt-working"></a>Não consegue acessar o seu site?
 <a name="BKMK_Website"> </a>

@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como habilitar o Microsoft 365 para proteger dispositivos do Windows 10 locais associados ao Active Directory em apenas algumas etapas.
-ms.openlocfilehash: 2eaf5aa76cae1680b93af008af615ae872e4fb20
-ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
+ms.openlocfilehash: 6275c6c4be9cd9631ab095f8b0e1b39683022bb2
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533776"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560834"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Habilitar dispositivos Windows 10 associados ao domínio para serem gerenciados pelo Microsoft 365 Business Premium
 
@@ -50,8 +50,7 @@ Consulte [Synchronize Domain Users to Microsoft](manage-domain-users.md) para ob
 
 ## <a name="1-verify-mdm-authority-in-intune"></a>1. Verifique a autoridade MDM no Intune
 
-Vá até portal.azure.com e na parte superior da pesquisa de página do Intune.
-Na página do Microsoft Intune, selecione **registro de dispositivo** e, na página **visão geral** , verifique se a **autoridade MDM** é o **Intune**.
+Vá para o [Gerenciador de pontos de extremidade](https://endpoint.microsoft.com/#blade/Microsoft_Intune_Enrollment/EnrollmentMenu/overview) e, na página do Microsoft Intune, selecione registro de **dispositivo**e, na página **visão geral** , verifique se a **autoridade MDM** é o **Intune**.
 
 - Se **MDM Authority** for **None**, clique na **autoridade MDM** para defini-la como **Intune**.
 - Se o **MDM Authority** for o **Microsoft Office 365**, acesse **dispositivos**  >  **inscrever dispositivos** e usar a caixa de diálogo **Adicionar autoridade MDM** no direito de adicionar autoridade **MDM do Intune** (a caixa de diálogo **Adicionar autoridade MDM** só estará disponível se a **autoridade MDM** estiver definida como Microsoft Office 365).

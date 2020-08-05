@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: d25ecb72ebdd9415c6745910f9e3fb04d6f078dc
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: f7357c204105772ef1780ef94f211e9d711ec735
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516906"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560878"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Visão geral da central de segurança do Microsoft 365
 
@@ -29,7 +29,9 @@ Insira o centro de segurança do Microsoft 365--a nova casa para monitorar e ger
 
 O novo centro de segurança do Microsoft 365 e o [centro de conformidade da microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) são áreas de trabalho especializadas projetadas para atender às necessidades das equipes de segurança e equipes de conformidade. Essas soluções são integradas nos serviços do Microsoft 365 e fornecem informações acionáveis para ajudar a reduzir os riscos e a proteger seu imóvel digital.
 
-Visite a central de segurança do Microsoft [https://security.microsoft.com](https://security.microsoft.com)365 em. 
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4BmvV]
+
+Visite a central de segurança do Microsoft 365 em [https://security.microsoft.com](https://security.microsoft.com) . 
 
 > [!NOTE]
 > Você deve receber uma função apropriada, como administrador global, administrador de segurança, operador de segurança ou leitor de segurança no Azure Active Directory para acessar o centro de segurança do Microsoft 365.

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: b11daf1cc6921e4be87b1bd3965adc2d76d0a0dd
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: afeef8de09e0ee7a727372041791871712ca4e0d
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049923"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560890"
 ---
 # <a name="microsoft-threat-protection"></a>Proteção contra Ameaças da Microsoft
 
@@ -50,11 +50,13 @@ Com a solução integrada de proteção contra ameaças da Microsoft, os profiss
 >Confira este [guia interativo de proteção contra ameaças da Microsoft](https://aka.ms/MTP-Interactive-Guide).
 
 
-O pacote de proteção contra ameaças da Microsoft protege: 
+O pacote de Proteção contra Ameaças da Microsoft protege: 
 - **Pontos de extremidade com Microsoft defender ATP** -Microsoft defender ATP é uma plataforma de ponto de extremidade unificado para proteção preventiva, detecção de pós-violação, investigação automatizada e resposta. 
 - O **email e a colaboração com o office 365 ATP** -Office 365 ATP salvaguarda sua organização contra ameaças mal-intencionadas causadas por mensagens de email, links (URLs) e ferramentas de colaboração. 
 - **Identidades com o Azure ATP e o Azure ad Identity Protection** -o Azure ATP usa sinais do Active Directory para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações mal-intencionadas intencionais direcionadas para sua organização. 
 - **Aplicativos com o Microsoft Cloud app** Security-Microsoft Cloud app Security é uma solução completa de SaaS que traz visibilidade profunda, controles de dados fortes e proteção avançada contra ameaças para seus aplicativos de nuvem. 
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Bzww] 
 
 A camada exclusiva de produtos cruzados do Microsoft Threat Protection aumenta os componentes individuais do pacote para:
 - Ajudar a proteger contra ataques e coordenar respostas defensivas no pacote por meio de compartilhamento de sinal e ações automatizadas

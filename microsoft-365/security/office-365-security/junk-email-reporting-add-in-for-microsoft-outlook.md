@@ -14,12 +14,12 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Saiba como instalar e usar o suplemento relatório de lixo eletrônico da Microsoft para relatar mensagens de spam, não spam e phishing à Microsoft.
-ms.openlocfilehash: 5c0b802bea89a0f0f62952261bf0d2864842024f
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 54b0fb634333ccb180870ab1fcc6160fd133f81e
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208822"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560516"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Instalar e usar o suplemento relatório de lixo eletrônico para o Microsoft Outlook
 
@@ -63,7 +63,12 @@ Este tópico explica como instalar e usar o suplemento relatório de lixo eletr�
 
    ![Caixa de diálogo relatar como phishing](../../media/junk-email-reporting-report-as-phishing-dialog.png)
 
-3. As mensagens selecionadas serão enviadas à Microsoft para análise e movidas para a pasta Lixo Eletrônico. Para confirmar se as mensagens foram enviadas, abra sua pasta **Itens Enviados** para exibir as mensagens enviadas.
+3. As mensagens selecionadas serão enviadas para a Microsoft para análise e:
+
+   - Movido para a pasta lixo eletrônico se ele foi relatado como spam.
+   - Excluído se foi relatado como phishing.
+   
+   Para confirmar se as mensagens foram enviadas, abra sua pasta **Itens Enviados** para exibir as mensagens enviadas.
 
 ## <a name="use-the-junk-email-reporting-add-in-to-report-non-spam-and-phishing-messages-from-the-junk-email-folder"></a>Use o suplemento relatório de lixo eletrônico para relatar mensagens que não são spam e phishing da pasta lixo eletrônico
 
@@ -87,7 +92,12 @@ Este tópico explica como instalar e usar o suplemento relatório de lixo eletr�
 
    ![Caixa de diálogo relatar como phishing](../../media/junk-email-reporting-report-as-phishing-dialog.png)
 
-3. As mensagens selecionadas serão enviadas à Microsoft para análise e movidas para a pasta Lixo Eletrônico. Para confirmar se as mensagens foram enviadas, abra sua pasta **Itens Enviados** para exibir as mensagens enviadas.
+3. As mensagens selecionadas serão enviadas para a Microsoft para análise e:
+
+   - Movido para a pasta lixo eletrônico se ele foi relatado como spam.
+   - Excluído se foi relatado como phishing.
+
+   Para confirmar se as mensagens foram enviadas, abra sua pasta **Itens Enviados** para exibir as mensagens enviadas.
 
 ## <a name="install-the-junk-email-reporting-add-in"></a>Instalar o suplemento relatório de lixo eletrônico
 
@@ -96,7 +106,6 @@ Este tópico explica como instalar e usar o suplemento relatório de lixo eletr�
 - Vá para <https://www.microsoft.com/download/details.aspx?id=18275> e baixe o arquivo. msi apropriado para sua versão do Office para um local que seja fácil de encontrar:
 
   - **32**bits:`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
-
   - **64**bits:`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
 
 - Para o Outlook 2013 ou posterior, o único pré-requisito é o Microsoft .NET Framework 2,0. No Windows 10, você não instala o .NET Framework 2,0 a partir de um download.
@@ -209,7 +218,7 @@ Após fechar o Outlook, use qualquer um dos seguintes procedimentos para desinst
 
   Na caixa de diálogo exibida, selecione **remover suplemento relatório de lixo eletrônico da Microsoft para Outlook** e clique em **Avançar**.
 
-- **Modo silencioso**: encontre ou baixe o arquivo. msi apropriado. Em uma janela de prompt de comando, substitua \< PathToFile \> pelo local do arquivo. msi e execute um dos seguintes comandos:
+- **Modo silencioso**: encontre ou baixe o arquivo. msi apropriado. Em uma janela de prompt de comando, substitua \<PathToFile\> o local do arquivo. msi e execute um dos seguintes comandos:
 
   - **32**bits:
 
@@ -288,7 +297,7 @@ Para outros métodos que você pode usar para enviar mensagens à Microsoft, con
 
 #### <a name="problem-users-selected-not-to-receive-a-confirmation-prompt-when-they-report-messages-and-now-they-want-the-prompt-back"></a>Problema: os usuários optaram por não receber um prompt de confirmação ao relatar mensagens e agora eles querem retornar o prompt
 
-1. Crie a `ConfirmReportJunk` chave do registro wih o valor "true":
+1. Crie a `ConfirmReportJunk` chave do registro com o valor "true":
 
    ```text
    Windows Registry Editor Version 5.00

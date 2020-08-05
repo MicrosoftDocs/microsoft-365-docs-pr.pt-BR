@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as políticas de expiração de grupos do Microsoft 365.
-ms.openlocfilehash: 8def757241dec28f5a54c76dc81614fd52fe85e5
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 84b7048e414fe37c89a59dd9f282a4b35e0f26c8
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780416"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560358"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Política de expiração de grupo do Microsoft 365
 
@@ -78,7 +78,7 @@ Os proprietários do grupo serão notificados somente por email. Se o grupo foi 
 
 30 dias antes do vencimento do grupo, os proprietários do grupo (ou os endereços de email que você especificou para os grupos que não têm um proprietário) receberão um email, permitindo que eles renovem facilmente o grupo. Se ele não renová-lo, receberá outra renovação de email 15 dias antes da expiração. Se eles ainda não foram renovados, receberão uma notificação por email o dia antes da expiração.
 
-Se, por algum motivo, nenhum dos proprietários ou administradores renovar o grupo antes de expirar, o administrador ainda poderá restaurar o grupo por até 30 dias após a expiração. Para obter detalhes, consulte: [restaurar um grupo do Microsoft 365 excluído](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
+Se, por algum motivo, nenhum dos proprietários ou administradores renovar o grupo antes de expirar, e a renovação automática não ocorrer devido ao grupo não atender aos requisitos para ser renovado automaticamente, o administrador ainda poderá restaurar o grupo por até 30 dias após a expiração. Para obter detalhes, consulte: [restaurar um grupo do Microsoft 365 excluído](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ## <a name="related-articles"></a>Artigos relacionados
 
@@ -86,4 +86,6 @@ Se, por algum motivo, nenhum dos proprietários ou administradores renovar o gru
 
 [Atribuir um novo proprietário a um grupo órfão](https://support.microsoft.com/office/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
-[Configurar a validade de grupos do Microsoft 365](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal) '
+[Configurar a validade de grupos do Microsoft 365](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal)
+
+[Renovação automática baseada na atividade](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)

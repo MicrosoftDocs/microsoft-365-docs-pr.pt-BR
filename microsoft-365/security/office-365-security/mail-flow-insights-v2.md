@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Os administradores podem saber mais sobre o painel de fluxo de emails no centro de conformidade & segurança, incluindo ideias, relatórios e widgets.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61a3df3016541b170f736d23b9e4b4854964046e
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: e3139fa6a139c7fa159c2e5e5daa3879322f4bf0
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588011"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552669"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Fluxo de emails no Centro de Conformidade e Segurança
 
@@ -57,7 +57,7 @@ O painel de fluxo de emails está disponível para:
 
 - Membros da **função de administrador de fluxo de emails** no centro de conformidade de & de segurança. Se essa função for explicitamente atribuída a um usuário que não é membro das funções de administrador global ou administrador do Exchange:
 
-  - O usuário deve fazer logon no centro de conformidade & segurança diretamente em [https://protection.office.com](https://protection.office.com) .
+  - O usuário deve fazer logon no centro de conformidade & segurança diretamente em <https://protection.office.com> .
 
   - O usuário só terá permissão somente leitura para o painel de fluxo de emails.
 
