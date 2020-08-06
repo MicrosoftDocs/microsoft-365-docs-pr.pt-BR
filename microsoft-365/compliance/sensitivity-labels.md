@@ -20,12 +20,12 @@ description: Use rótulos de sensibilidade da estrutura Microsoft Information Pr
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 2943de329bd42aca64d9d3d583b7f6c354780d0d
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 55f3f9a37d8ce51c263c3b83cf31d838204c285a
+ms.sourcegitcommit: 48f3c002678906189bfba079bbf055d67d08a60f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552693"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46564042"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -39,9 +39,12 @@ Exemplo mostrando os rótulos de confidencialidade disponíveis no Excel, na gui
 
 ![Rótulo de confidencialidade na faixa de opções e barra de status do Excel](../media/Sensitivity-label-in-Excel.png)
 
-Os rótulos de confidencialidade só têm suporte para locatários na nuvem global (pública). Atualmente, os rótulos de confidencialidade não têm suporte para locatários em outras nuvens, como as [nuvens nacionais](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud).
+Para aplicar rótulos de confidencialidade, os usuários devem ter entrado com sua conta Microsoft 365 do trabalho ou da escola.
 
-Para aplicar rótulos de confidencialidade, os usuários devem entrar no Office com sua conta corporativa ou de estudante.
+> [!NOTE]
+> Para locatários da Comunidade Governamental dos EUA (GCC e GCC-HC), os rótulos de confidencialidade atualmente têm suporte apenas para rótulos unificados de cliente e scanner em Proteção de Informações do Microsoft Azure. 
+> 
+> Para mais informações, confira a postagem de blog, [Anunciando a Disponibilidade Geral de Rótulos Unificados em Ambientes GCC e GCC-H](https://techcommunity.microsoft.com/t5/azure-information-protection/announcing-general-availability-of-unified-labeling-in-gcc-and/ba-p/1563215).
 
 Você pode usar rótulos de confidencialidade para:
   

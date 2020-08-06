@@ -1,5 +1,5 @@
 ---
-title: Gerencie o ciclo de vida dos documentos de produtos armazenados no SharePoint com rótulos de retenção
+title: Use os rótulos de retenção para gerenciar o ciclo de vida dos documentos armazenados no SharePoint.
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -15,19 +15,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Este artigo mostra como gerenciar o ciclo de vida dos documentos relacionados a produtos no SharePoint usando rótulos de retenção. Esse processo usa metadados do documento para classificar conteúdo, aplicar automaticamente os rótulos de retenção e configurar a retenção baseada em evento.
-ms.openlocfilehash: b3b71757d887781a12c71f2c105409827230f33c
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+description: Como você pode usar os rótulos de retenção para gerenciar o ciclo de vida dos documentos no SharePoint pelo uso de metadados para classificar conteúdo, aplicar automaticamente os rótulos e usar a retenção baseada em evento para começar o período de retenção.
+ms.openlocfilehash: 250bf182c26616a3a2f9253471469d2cecbd8d2b
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552523"
+ms.locfileid: "46560664"
 ---
-# <a name="manage-the-lifecycle-of-product-documents-stored-in-sharepoint-with-retention-labels"></a>Gerencie o ciclo de vida dos documentos de produtos armazenados no SharePoint com rótulos de retenção
+# <a name="use-retention-labels-to-manage-the-lifecycle-of-documents-stored-in-sharepoint"></a>Use os rótulos de retenção para gerenciar o ciclo de vida dos documentos armazenados no SharePoint.
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-Este artigo descreve como gerenciar o ciclo de vida dos documentos relacionados a produtos armazenados no SharePoint usando rótulos de retenção aplicados automaticamente e configurando a retenção baseada em eventos.
+Este artigo descreve como você pode gerenciar o ciclo de vida dos documentos que estão armazenados no SharePoint usando rótulos de retenção aplicados automaticamente e a retenção baseada em eventos.
 
 A funcionalidade de aplicação automática usa metadados do SharePoint para classificação de documento. O exemplo neste artigo é para documentos relacionados a produtos, mas os mesmos conceitos podem ser usados para outros cenários. Por exemplo, no setor de petróleo e gás, você pode usá-lo para gerenciar o ciclo de vida dos documentos sobre ativos físicos, como plataformas de petróleo, registros de poços ou licenças de produção. No setor de serviços financeiros, você poderia gerenciar conta bancária, hipoteca ou documentos de contratos de seguro. No setor público, você poderia gerenciar autorizações de construção ou formulários de imposto.
 
@@ -80,10 +80,8 @@ As políticas de conformidade e de governança de dados da empresa de manufatura
 | Especificações do produto      | 5 anos após o fim da produção  | Excluir                                       |
 | Contratos de produtos          | 10 anos após o fim da produção | Analisar                                       |
 | Manuais do usuário                | 5 anos após o fim da produção  | Excluir                                       |
-| Todos os outros tipos de documentos | Não reter ativamente  | Excluir quando o documento tiver mais de três anos<sup>\*</sup>  |
+| Todos os outros tipos de documentos | Não reter ativamente  | Excluir quando o documento tiver mais de 3 anos <br /><br /> Um documento é considerado com mais de 3 anos se não tiver sido modificado nos últimos 3 anos. |
 |||
-
-   <sup>\*</sup>Um documento é considerado com mais de 3 anos se não tiver sido modificado nos últimos 3 anos.
 
 Usamos o Centro de Conformidade do Microsoft 365 para criar os seguintes [rótulos de retenção](retention.md#retention-labels):
 

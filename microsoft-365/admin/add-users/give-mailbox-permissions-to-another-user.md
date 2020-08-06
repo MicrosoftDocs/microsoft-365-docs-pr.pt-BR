@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: 'Saiba como oferecer ao usuário o direito de acessar a caixa de correio de outro usuário. Isso dará ao usuário o direito de ler e enviar emails da caixa de correio do outro usuário. '
-ms.openlocfilehash: dafe0f8c8f7d65b2721b70f6c132d179c461a89b
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 0b6977efbd6041a11c67ed66c9b7ecc72a38bde4
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780596"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560370"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>Conceder permissões de caixa de correio para outro usuário - Ajuda para administradores
 
@@ -55,7 +55,10 @@ depois de configurar as permissões, pode levar até 60 minutos para que as alte
   
  **Como usá-la após as permissões serem definidas:**
   
-depois de receber o acesso, existem algumas maneiras diferentes de acessar uma caixa de correio. Encontre ajuda neste artigo: [Acessar a caixa de correio de outra pessoa](https://support.microsoft.com/office/A909AD30-E413-40B5-A487-0EA70B763081)
+Há algumas maneiras diferentes que você pode acessar uma caixa de correio. Para ajuda sobre isso, confira este artigo: [Acessar a caixa de correio de outra pessoa](https://support.microsoft.com/office/A909AD30-E413-40B5-A487-0EA70B763081).
+
+> [!NOTE]
+> As permissões só podem ser configuradas no locatário atual da organização. Não é possível configurar permissões da caixa de correio com usuários fora do locatário.
   
 ## <a name="send-email-from-another-users-mailbox"></a>Enviar emails da caixa de correio de outro usuário
 

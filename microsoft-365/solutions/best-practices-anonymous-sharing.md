@@ -2,7 +2,7 @@
 title: Práticas recomendadas para compartilhamentos não autenticados
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Neste artigo, você aprenderá sobre as práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados.
-ms.openlocfilehash: 72da93a457b91ec7a25e88a0ac2aa8e64b6fe385
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: cea60152f06e8fbd242c9641b962bc9a96fdd019
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526929"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560470"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados
 
@@ -46,6 +46,8 @@ Para definir uma data de vencimento para links de Qualquer pessoa
 4. Digite o número de dias na caixa e clique em **Salvar**.
 
 Observe que, depois que um link de *Qualquer pessoa* expira, é possível compartilhar novamente o arquivo ou pasta com um novo link de *Qualquer pessoa*.
+
+Você pode definir a expiração de *Qualquer* link para um site específico ou para o OneDrive usando [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite).
 
 ## <a name="set-link-permissions"></a>Definir permissões de link
 
