@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Saiba como criar uma equipe com um rótulo de confidencialidade exclusivo para segurança.
-ms.openlocfilehash: b16133a02c82c2b2ab0e56a5545e19b160933664
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: f540c1fce1c525ab49037ea27b139f10fac76f33
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560222"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577957"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Configurar uma equipe com isolamento de segurança
 
@@ -28,7 +28,7 @@ Este artigo fornece recomendações e etapas para configurar uma equipe privada 
 
 Além do acesso privado, este artigo descreve como configurar o site do Microsoft Office SharePoint Online associado, que você pode acessar na seção **Arquivos** de um canal de equipe, para obter a segurança adicional necessária para armazenar dados altamente regulamentados.
 
-Os elementos de configuração de uma equipe para dados altamente regulamentados são:
+Os elementos de configuração para uma equipe com isolamento de segurança são:
 
 - Uma equipe privada
 - Segurança adicional no site do Microsoft Office SharePoint Online associado à equipe que:
@@ -42,9 +42,9 @@ Os elementos de configuração de uma equipe para dados altamente regulamentados
 > [!IMPORTANT]
 > Certifique-se de ter ativado os [rótulos de confidencialidade para proteger o conteúdo em sites do Microsoft Teams, Office 365 e Microsoft Office SharePoint Online](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites) antes de prosseguir com as etapas deste artigo.
 
-<a name="poster"></a> Para um resumo com 2 páginas deste cenário, confira o [Pôster do Microsoft Team com isolamento de segurança](../downloads/team-security-isolation-poster.pdf).
+<a name="poster"></a> Para um resumo de duas páginas deste cenário, confira o [Pôster do Microsoft Teams com isolamento de segurança](../downloads/team-security-isolation-poster.pdf).
 
-[![Pôster do Microsoft Team com isolamento de segurança](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
+[![Pôster do Microsoft Teams com isolamento de segurança](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
 
 Também é possível descarregar este pôster nos formatos [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) ou [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pptx) e imprimi-lo em papel tamanho carta, legal, ou tabloide (11 x 17).
 
@@ -226,7 +226,7 @@ O Microsoft 365 oferece métodos adicionais para proteger seu conteúdo. Conside
 
 Com a equipe instalada, é hora de impulsionar a adoção dessa equipe e sua segurança adicional aos membros da equipe.
 
-## <a name="train-your-users"></a>Treinar seus usuários
+### <a name="train-your-users"></a>Treinar seus usuários
 
 Os membros da equipe podem acessar a equipe e todos os seus recursos, incluindo chats, reuniões e outros aplicativos. Ao trabalhar com arquivos da seção **Arquivos** de um canal, os membros da equipe devem atribuir o rótulo de confidencialidade aos arquivos criados por eles.
 
