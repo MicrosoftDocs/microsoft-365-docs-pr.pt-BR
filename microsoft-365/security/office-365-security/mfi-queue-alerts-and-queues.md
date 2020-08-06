@@ -1,5 +1,5 @@
 ---
-title: Alertas de filas e filas
+title: Ideias de filas no painel de fluxo de emails
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -10,68 +10,83 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
-description: Os administradores podem aprender sobre alertas de fila e filas no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 7bb103bad89ee39991a5c16d7101ab4658842479
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Os administradores podem aprender a usar o widget filas no painel de fluxo de emails no centro de conformidade do & de segurança para monitorar o fluxo de emails sem êxito em suas organizações locais ou de parceiros em relação a conectores de saída.
+ms.openlocfilehash: fdc3f44041990e3860deb04a36a69a3d506d334a
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635179"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577277"
 ---
-# <a name="queue-alerts-and-queues"></a>Alertas de filas e filas
+# <a name="queues-insight-in-the-security--compliance-center"></a>Informações sobre filas no centro de conformidade & segurança
 
-## <a name="queue-alerts"></a>Alertas de fila
-
-Quando as mensagens não podem ser enviadas da sua organização para seus servidores de email locais ou parceiros usando conectores, as mensagens são enfileiradas no Office 365. Exemplos comuns que causam essa condição são:
+Quando as mensagens não podem ser enviadas da sua organização para seus servidores de email locais ou parceiros usando conectores, as mensagens são enfileiradas no Microsoft 365. Exemplos comuns que causam essa condição são:
 
 - O conector está configurado incorretamente.
-
 - Houve alterações de rede ou firewall no seu ambiente local.
 
 A Microsoft 365 continuará a tentar a entrega por 24 horas. Após 24 horas, as mensagens expirarão e serão retornadas aos remetentes nas notificações de falha na entrega (também conhecidas como NDRs ou mensagens de devolução).
 
-Se o volume de email em fila exceder o limite predefinido (o valor padrão é 2000), os alertas estarão disponíveis no painel de fluxo de emails em **alertas recentes**, e os administradores receberão uma notificação por email (para seu endereço de email alternativo). Para configurar o limite de alerta, o limite de notificação diária e/ou os destinatários do alerta, consulte a seção **Personalizar alertas de fila** abaixo.
+Se o volume de email em fila exceder o limite predefinido (o valor padrão é 200), as informações estarão disponíveis nos seguintes locais:
 
-![Enfileirar alertas na área de alertas recentes do painel de fluxo de emails no centro de conformidade & segurança](../../media/5fc4a51c-6118-4270-960b-c6b176ef94ae.png)
+- As **filas** insights no [painel de fluxo de emails](mail-flow-insights-v2.md) no centro de conformidade de & de segurança. Para obter mais informações, consulte a [visão de filas no painel de fluxo de emails](#queues-insight-in-the-mail-flow-dashboard) deste tópico.
+  
+- Um alerta é exibido em **alertas recentes** no painel de alertas no [centro de conformidade & segurança](https://protection.office.com) (painel de**alertas** \> **Dashboard** ou <https://protection.office.com/alertsdashboard> ).
+
+  ![Alertas recentes no painel de alertas no centro de conformidade & segurança](../../media/mfi-queued-messages-alert.png)
+
+- Os administradores receberão uma notificação por email com base na configuração da política de alerta padrão chamada **as mensagens foram atrasadas**. Para definir as configurações de notificação para este alerta, consulte a próxima seção.
+
+  Para obter mais informações sobre políticas de alerta, consulte [políticas de alerta no centro de conformidade de & de segurança](../../compliance/alert-policies.md).
 
 ## <a name="customize-queue-alerts"></a>Personalizar alertas de fila
 
-Informações de fluxo de emails criar uma política de alerta chamada **mensagens atrasadas** (a caixa de seleção **enviar notificações por email** na captura de tela de exemplo abaixo) foi encontrada em **alertas** \> **políticas de alerta**. Você pode modificar os destinatários de limite e alerta clicando na política.
+1. No [centro de conformidade & segurança](https://protection.office.com), vá para **Alerts** \> **políticas de alerta** de alertas ou abrir <https://protection.office.com/alertpolicies> .
 
-![Navegação de alertas](../../media/efb95976-9e0b-484e-a2fd-093c5bc7a40f.png)
+2. Na página **políticas de alerta** , localize e selecione a política denominada **mensagens foram atrasadas**.
 
-Você verá uma nova folha de informações de política, agora é possível clicar em **Editar política**.
+3. Na **mensagem com submenu com atraso** que é aberto, você pode ativar ou desativar o alerta e definir as configurações de notificação.
 
-![Editar Política ](../../media/ed2aceae-3ee2-4849-a17e-87915987a7dd.png)
+   ![Detalhes da política de alerta de mensagens atrasadas o centro de conformidade & segurança](../../media/mfi-queued-messages-alert-policy.png)
 
-A lâmina de informações será alterada para a **política de edição**. Agora você pode alterar os destinatários para o email de alerta, o limite do número de notificações enviadas por dia e o limite mínimo para acionar o alerta (200 ou mais).
+   - **Status**: você pode ativar ou desativar o alerta.
 
-![Editar folha de política](../../media/c657cc74-7867-474c-b2c9-dc478449f990.png)
+   - **Destinatários de email** e **limite de notificação diária**: clique em **Editar** para definir as seguintes configurações:
 
-## <a name="queue-alert-details"></a>Detalhes de alerta da fila
+4. Para definir as configurações de notificação, clique em **Editar**. No submenu **Editar política** que aparece, defina as seguintes configurações:
 
-Quando você clica no alerta, os detalhes de alerta aparecem em um painel de submenu.
+   - **Enviar notificações por email**: o valor padrão é ativado.
+   - **Destinatários de email**: o valor padrão é **TenantAdmins**.
+   - **Limite diário de notificação**: o valor padrão é **sem limite**.
+   - **Limite**: o valor padrão é 200.
 
-![Selecione um alerta de fila na área de alerta recentes do painel de fluxo de emails no centro de conformidade & segurança](../../media/1f6b0e96-5b2c-41ef-9684-9d813b3fabe6.png)
+   ![As configurações de notificação nas mensagens foram atrasadas detalhes da política de alerta o centro de conformidade & segurança](../../media/mfi-queued-messages-alert-policy-notification-settings.png)
 
-![O submenu detalhes da fila de alerta no centro de conformidade & segurança](../../media/105c8fff-912f-4763-8806-2740ebdecd4b.png)
+5. Quando tiver terminado, clique em **salvar** e **fechar**.
 
-Você pode clicar em **Exibir fila** nos detalhes do alerta para ver os detalhes da fila, os problemas e os links para as correções disponíveis em um novo painel de submenu.
+## <a name="queues-insight-in-the-mail-flow-dashboard"></a>Ideias de filas no painel de fluxo de emails
 
-![O submenu detalhes da fila de alerta no centro de conformidade & segurança](../../media/8ff60955-55ef-4f32-a966-85e02cb608d1.png)
+Mesmo que o volume da mensagem na fila não tenha excedido o limite e gerado um alerta, você ainda pode usar a percepção de **filas** no [painel de fluxo de emails](mail-flow-insights-v2.md) para ver as mensagens que foram enfileiradas por mais de uma hora e tomar medidas antes que o número de mensagens em fila fique muito grande.
 
-![Exibir fila nos detalhes do alerta](../../media/4eb088fe-5dd9-4bf4-b959-c1bb2545c515.png)
+![Widget filas no painel de fluxo de emails no centro de conformidade de & de segurança](../../media/mfi-queues-widget.png)
 
-## <a name="queues"></a>Filas
+Se você clicar no número de mensagens no widget, um submenu de **mensagens em fila** aparecerá com as seguintes informações:
 
-Mesmo que o volume da mensagem na fila não tenha excedido o limite, você ainda pode usar a área **filas** do painel de fluxo de email para ver as mensagens que foram enfileiradas por mais de uma hora. Você pode usar a área **filas** para monitorar o número de mensagens em fila (o valor 0 indica que o fluxo de emails está ok) e tomar medidas antes que o número de mensagens na fila fique muito grande.
+- **Número de mensagens em fila**
+- **Nome do conector**: clique no nome do conector para gerenciar o conector no centro de administração do Exchange (Eat).
+- **Hora da fila de início**
+- **As mensagens mais antigas expiraram**
+- **Servidor de destino**
+- **Último endereço IP**
+- **Último erro**
+- **Como corrigir**: problemas comuns e soluções estão disponíveis. Se houver um link **corrigir agora** disponível, clique nele para corrigir o problema. Caso contrário, clique em qualquer link disponível para obter mais informações sobre o erro e as soluções possíveis.
 
-![Filas no painel de fluxo de emails no centro de conformidade de & de segurança](../../media/0ef6e2ef-dd22-4363-9d4a-b20a00babc9f.png)
+![Detalhes depois de clicar na visão filas no painel de fluxo de emails](../../media/mfi-queues-details.png)
 
-Quando você **clica no número**de mensagens em filas, os detalhes e a orientação da fila para corrigir o problema aparecerão em um painel de submenu (o mesmo submenu exibido depois que você clicar em **Exibir fila** nos detalhes de um alerta de fila).
+O mesmo submenu é exibido depois que você clica em **Exibir fila** nos detalhes de um alerta de **mensagens foram atrasadas** .
 
-![Detalhes da fila](../../media/4eb088fe-5dd9-4bf4-b959-c1bb2545c515.png)
+![Os detalhes de alerta de mensagens foram atrasadas no centro de conformidade de & de segurança](../../media/mfi-queued-messages-alert-details.png)
 
 ## <a name="see-also"></a>Confira também
 
-Para obter mais informações sobre outros insights de fluxo de email no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).
+Para obter informações sobre outras ideias no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).

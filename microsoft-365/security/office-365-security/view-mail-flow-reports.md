@@ -1,5 +1,5 @@
 ---
-title: Exibir relatórios de fluxo de emails no Centro de Conformidade e Segurança
+title: Exibir relatórios de fluxo de emails no painel relatórios
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,18 +16,20 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Saiba como localizar e usar relatórios de segurança de fluxo de emails para sua organização. Os relatórios de fluxo de emails estão disponíveis no centro de conformidade e segurança &.
+description: Os administradores podem saber mais sobre os relatórios de fluxo de emails disponíveis no painel de relatórios no centro de conformidade do & de segurança.
 ms.custom: ''
-ms.openlocfilehash: e891d9373b169dc01cfd89f114e31b23e1bd8480
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: 69b2c3383862860b4616d95c2a6a1bb3a525d842
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434174"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46578013"
 ---
-# <a name="view-mail-flow-reports-in-the-security--compliance-center"></a>Exibir relatórios de fluxo de emails no Centro de Conformidade e Segurança
+# <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>Exibir relatórios de fluxo de emails no painel de relatórios no centro de conformidade e segurança &
 
-Além das informações sobre o [fluxo de emails](mail-flow-insights-v2.md) que estão disponíveis no centro de conformidade de & de segurança, vários relatórios de fluxo de emails estão disponíveis para ajudá-lo a monitorar sua organização do Microsoft 365. Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-these-reports), poderá exibir esses relatórios no centro de conformidade do & de segurança em <https://office.protection.com> , no **Reports** \> **painel**relatórios. Para ir diretamente para o painel relatórios, abra <https://office.protection.office.com/insightdashboard> .
+Além dos relatórios de fluxo de emails disponíveis no painel de [fluxo de emails](mail-flow-insights-v2.md) no centro de conformidade com segurança &, vários relatórios de fluxo de email adicionais estão disponíveis no painel de relatórios para ajudá-lo a monitorar sua organização do Microsoft 365.
+
+Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-these-reports), poderá exibir esses relatórios no centro de [conformidade & de segurança](https://office.protection.com) acessando **Reports** o \> **painel**relatórios. Para ir diretamente para o painel relatórios, abra <https://office.protection.office.com/insightdashboard> .
 
 ![Painel de relatórios no centro de conformidade & segurança](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
@@ -237,7 +239,7 @@ Você pode alterar esses filtros clicando em **filtro** ou clicando em um valor 
 A tabela de dados contém as seguintes informações:
 
 - **Direção**
-- **Tipo**
+- **Type**
 - **24 horas**
 - **3 dias**
 - **7 dias**
@@ -327,7 +329,7 @@ Para voltar para o modo de exibição de relatório, clique em **Exibir relatór
 Se você clicar em **Exibir tabela de detalhes** na tela **dividir por: direção** ou **dividir em: direção** , as seguintes informações são mostradas:
 
 - **Data (UTC)**
-- **Tipo**
+- **Type**
 - **Direção**
 - **Contagem de mensagem**
 
@@ -404,21 +406,13 @@ Para exibir e usar os relatórios, você precisa ser membro do grupo de função
 
 - No centro de conformidade & segurança, você precisa ser membro de um dos seguintes grupos de função:
 
-  -Gerenciamento de organização
-
-  – Administrador de segurança (você também pode fazer isso no [centro de administração do Azure Active Directory](https://aad.portal.azure.com) -leitor de segurança
+  – Gerenciamento de organização-administrador de segurança (você também pode fazer isso no [centro de administração do Azure Active Directory](https://aad.portal.azure.com) -leitor de segurança
 
   Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center).
 
 - No Exchange Online, você precisa ser membro de um dos grupos de função a seguir:
 
-  -Gerenciamento de organização
-
-  – Gerenciamento de organização somente para exibição
-
-  -Somente destinatários de exibição
-
-  -Gerenciamento de conformidade
+  – Gerenciamento de organização – gerenciamento de organização somente de exibição-somente os destinatários do gerenciamento de conformidade
 
 Para obter mais informações, consulte [permissões no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo) e [gerenciar grupos de função no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups).
 
@@ -426,4 +420,8 @@ Para obter mais informações, consulte [permissões no Exchange Online](https:/
 
 [Relatórios inteligentes e insights no Centro de Conformidade e Segurança](reports-and-insights-in-security-and-compliance.md)
 
+[Insights de fluxo de emails no Centro de Conformidade e Segurança](mail-flow-insights-v2.md)
+
 [Exibir relatórios de segurança de email no centro de conformidade & segurança](view-email-security-reports.md)
+
+[Exibir relatórios para a proteção avançada contra ameaças do Office 365](view-reports-for-atp.md)

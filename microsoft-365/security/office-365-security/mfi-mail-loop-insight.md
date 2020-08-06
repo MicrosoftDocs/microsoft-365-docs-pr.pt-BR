@@ -1,5 +1,5 @@
 ---
-title: Insight de loop de email
+title: Correção de possíveis informações de loop de email
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,24 +12,32 @@ localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender sobre as informações de loop de email no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 80767a265734c542db8e24cf58d0a1c0df469780
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Os administradores podem aprender a usar a correção de possíveis loops de email no painel de fluxo de emails no centro de conformidade de & de segurança para identificar e corrigir loops de email em sua organização.
+ms.openlocfilehash: 54240cffc534b4be708492b37b827636edab280e
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819311"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577613"
 ---
-# <a name="mail-loop-insight"></a>Insight de loop de email
+# <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>Correção de possíveis informações de loop de email no centro de conformidade e segurança &
 
-Um loop de email é ruim porque ele desperdiça recursos do sistema, consome a cota de volume de emails da sua organização e envia notificações confusas de falha na entrega (também conhecidas como NDRs ou mensagens de devolução) para os remetentes originais. Esta informação relata quando um loop de email é encontrado na sua organização, os domínios de email envolvidos no loop e o número de mensagens do dia anterior que estavam no loop.
+Um loop de email é ruim porque ele desperdiça recursos do sistema, consome a cota de volume de emails da sua organização e envia notificações confusas de falha na entrega (também conhecidas como NDRs ou mensagens de devolução) para os remetentes originais.
 
-![Uma visão geral de loop de email no painel de fluxo de emails no centro de conformidade de & de segurança](../../media/c3f707cb-4c89-4e88-989c-81ce1d1d6b99.png)
+A **correção de possíveis loops de email** na área **recomendada para você** do [painel de fluxo de emails](mail-flow-insights-v2.md) no centro de segurança & conformidade avisa quando um loop de email é detectado em sua organização. Essa percepção aparece apenas após a condição ser detectada (se você não tiver loops de email, não verá a percepção).
 
-Você pode clicar em **Exibir detalhes** para ver os detalhes em um painel de submenu. Também identificamos os cenários de loop mais comuns e fornecemos as ações recomendadas (se disponível) para corrigir o loop.
+![Corrigir recomendações de regras de fluxo de email lentos na área recomendada para você do painel de fluxo de emails](../../media/mfi-fix-possible-mail-loop.png)
 
-![Painel de submenu depois de clicar em Exibir detalhes em uma percepção de um loop de mal-formado no painel de fluxo de emails](../../media/f7e21300-c62f-41ec-853f-4a2775cd8aa7.png)
+Quando você clica em **Exibir detalhes** no widget, um submenu aparece com mais informações:
+
+- **Domínio**
+- **Número de mensagens**: você pode clicar em **Exibir exemplos de mensagens** para ver os resultados do [rastreamento](message-trace-scc.md) de mensagens para um exemplo das mensagens que foram afetadas pelo loop.
+- **Tipo de domínio**"por exemplo, autoritativo ou não autoritativo.
+- **Registro MX**: o host (**servidor de email**) e os valores de **prioridade** do registro MX do domínio.
+- **Motivo do loop** e **como corrigir**: tentaremos identificar os cenários de loop de email mais comuns e fornecer as ações recomendadas (se disponível) para corrigir o loop.
+
+![Submenu de detalhes que aparece depois de clicar em Exibir detalhes na correção de possíveis loops de emails](../../media/mfi-fix-possible-mail-loop-details.png)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-Para obter mais informações sobre outros insights de fluxo de email no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).
+Para obter informações sobre outras ideias no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).

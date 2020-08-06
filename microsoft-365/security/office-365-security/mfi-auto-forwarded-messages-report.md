@@ -1,5 +1,5 @@
 ---
-title: Relatório de encaminhamento automático de mensagens
+title: Percepção de mensagens automaticamente encaminhadas
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -11,31 +11,47 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: Os administradores podem saber mais sobre o relatório de mensagens de encaminhamento automático no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: ceeff0c6033cb2610c09a80ddbddcda90ff63b05
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 05e3f62610c32bc95caf579ef4dd46bf1ed90275
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635299"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577805"
 ---
-# <a name="auto-forwarded-messages-report"></a>Relatório de encaminhamento automático de mensagens
+# <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Informações de encaminhamento automático de mensagens no centro de conformidade & segurança
 
-O relatório de **mensagens automaticamente** no painel de fluxo de emails exibe informações sobre as mensagens que são automaticamente encaminhadas da sua organização para destinatários em domínios externos.
+As **mensagens de encaminhamento automático** no painel de [fluxo de emails](mail-flow-insights-v2.md) no centro de conformidade de & de segurança exibem informações sobre as mensagens que são automaticamente encaminhadas da sua organização para destinatários em domínios externos.
 
-![As mensagens de encaminhamento automático são aprofundadas no centro de conformidade e segurança &](../../media/8bc2600b-71c3-4b37-b4d0-9435fe0cfc8d.png)
-
-![O relatório de mensagens de encaminhamento automático no painel de fluxo de emails no centro de conformidade de & de segurança](../../media/8bc2600b-71c3-4b37-b4d0-9435fe0cfc8d.png)
+![Widget mensagens automaticamente encaminhadas no centro de conformidade de & de segurança](../../media/mfi-auto-forwarded-messages.png)
 
 ## <a name="auto-forwarded-messages-details"></a>Detalhes de mensagens automaticamente encaminhadas
 
-Quando você clica no número de mensagens no widget, um painel de submenu aparece mostrando o status da mensagem de encaminhamento automático. Você pode ver os detalhes clicando no link **encaminhar relatório** .
+Quando você clica no número de mensagens no widget, um painel de submenu aparece mostrando mais informações sobre as mensagens automaticamente encaminhadas:
 
-![O submenu de detalhes do relatório de mensagens automaticamente encaminhadas no centro de conformidade & segurança](../../media/87d0fb1e-d2ef-4901-b17c-ec32d23a539e.png)
+- **Encaminhar mensagens automaticamente por métodos de encaminhamento**:
+
+  - **Por regras de fluxo de emails**
+  - **Por regras de caixa de entrada**
+  - **Pelo encaminhamento SMTP**
+  - Um link para o [relatório de encaminhamento](view-mail-flow-reports.md#forwarding-report) para obter mais detalhes.
+
+- **Encaminhar mensagens automaticamente por domínios e usuários**:
+
+  - **Cinco principais domínios encaminhados para**
+  - **Novos domínios (semana passada)**
+  - **Cinco principais usuários de encaminhamento**
+  - **Novos usuários (semana passada)**
+  - Um link para o [relatório de alterações de encaminhamento](mfi-new-users-forwarding-email.md#forwarding-modifications-report) para obter mais detalhes.
+
+![Submenu de detalhes do relatório de mensagens automaticamente encaminhadas no centro de conformidade & segurança](../../media/mfi-auto-forwarded-messages-details.png)
 
 ## <a name="insights"></a>Informações
 
-Dois insights são gerados com base nos dados do relatório: **novos usuários de encaminhamento** e **novos domínios de encaminhamento**. Cada informação fornece um resumo do número de novos encaminhadores ou domínios com um link para o **novo relatório de encaminhamento** que fornece mais detalhes para os dois tipos de dados. O **novo relatório de encaminhamento** também mostra um modo de exibição de linha do tempo de nova atividade e a tabela detalhes identifica quem começou a encaminhar e a quais domínios.
+Dois insights são gerados com base nos dados do relatório:
+
+- [Novos usuários encaminhando email](mfi-new-users-forwarding-email.md)
+- [Novos domínios sendo encaminhados emails](mfi-new-domains-being-forwarded-email.md)
 
 ## <a name="see-also"></a>Confira também
 
-Para obter mais informações sobre outros insights de fluxo de email no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).
+Para obter informações sobre outras ideias no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).

@@ -18,12 +18,12 @@ description: Configurar o Exchange Online e Centro de conformidade para ajudar a
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 769e13951ce15fb698131860fa78f25fa133e327
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: bba51bed4409bfb933b577419f48ab6963d4f7d6
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127298"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577111"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>Usar o Exchange Online e o Centro de Conformidade e Segurança para atender à norma 17a-4 da SEC
 
@@ -70,12 +70,3 @@ O Bloqueio de Preservação pode ajudar na conformidade com os requisitos regula
 
 Você pode bloquear uma política de retenção usando o PowerShell. Para obter mais informações, consulte [Use o Bloqueio de preservação para cumprir os requisitos regulamentares](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements).
 
-## <a name="known-limitations"></a>Limitações conhecidas
-
-No momento, há algumas limitações no Exchange Online:
-
-- As comunicações encadeadas não estão disponíveis para mensagens de canal e chat do Teams.
-- As curtidas não são retidas para mensagens de canal e chat do Teams.
-
-> [!NOTE]
-> A auditoria no nível do item já está disponível para as caixas de correio de grupo do Microsoft 365. Para saber mais, consulte [Gerenciar a auditoria da caixa de correio](enable-mailbox-auditing.md).

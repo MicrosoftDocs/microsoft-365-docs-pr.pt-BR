@@ -1,5 +1,5 @@
 ---
-title: Relatório de domínio não aceito
+title: Relatório de domínio não aceito no painel de fluxo de emails
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,30 +12,58 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem saber mais sobre o relatório de domínio não aceito no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: a630d5b9674dbb136ecc54b23acd4408534d6fbc
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Os administradores podem aprender a usar o relatório de domínio não aceito no painel de fluxo de emails no centro de conformidade de & de segurança para monitorar mensagens de sua organização local onde o domínio do remetente não está configurado no Microsoft 365.
+ms.openlocfilehash: 649163729bbb73140f9cfb7e75c9fd06f3908cce
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819516"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577446"
 ---
-# <a name="non-accepted-domain-report"></a>Relatório de domínio não aceito
+# <a name="non-accepted-domain-report-in-the-security--compliance-center"></a>Relatório de domínio não aceito no centro de conformidade e segurança &
 
-Semelhante à percepção do **domínio do remetente** , a percepção de **domínio não aceita** identifica as mensagens da sua organização de email local, mas o domínio do remetente não está configurado como um domínio aceito na sua organização.
+O relatório de **domínio não aceito** no [painel de fluxo de emails](mail-flow-insights-v2.md) no centro de conformidade & segurança exibe informações sobre as mensagens da sua organização de email local onde o domínio do remetente não está configurado como um domínio aceito na sua organização do Microsoft 365.
 
 O Microsoft 365 pode reduzir essas mensagens se houver dados que comprovam que a intenção dessas mensagens é mal-intencionada. Portanto, é importante entender o que está acontecendo e corrigir o problema.
 
-![O relatório de domínio não aceito no painel de fluxo de emails no centro de conformidade de & de segurança](../../media/non-accepted-domain-report-selected.png)
+![Widget domínio não aceito no painel de fluxo de emails no centro de conformidade de & de segurança](../../media/mfi-non-accepted-domain-report-widget.png)
 
-Ao clicar no widget, você será levado para o relatório completo. No relatório completo, onde você pode clicar em **Exibir detalhes** para exibir as informações em uma tabela conforme mostrado no diagrama a seguir:
+## <a name="report-view-for-the-non-accepted-domain-report"></a>Exibição de relatório para o relatório de domínio não aceito
 
-![Exibir tabela de detalhes no relatório de domínio não aceito](../../media/non-accepted-domain-report-view-details.png)
+Ao clicar no gráfico no widget **domínio não aceito** , você será direcionado para o relatório de **domínio não aceito** .
 
-Quando você seleciona uma linha na tabela, um submenu lhe mostrará mais detalhes. Você pode clicar em **Exibir mensagens de amostra** para ver algumas das mensagens identificadas.
+Por padrão, a atividade de todos os conectores afetados é mostrada. Se você clicar em **Mostrar dados para**, poderá selecionar um conector específico na lista suspensa.
 
-![Selecione uma linha na tabela detalhes no relatório de domínio não aceito](../../media/non-accepted-domain-report-select-row-in-table.png)
+Se você passar o mouse sobre um ponto de dados (dia) no gráfico, verá o número total de mensagens do conector.
+
+![Exibição de relatório no relatório de domínio não aceito](../../media/mfi-non-accepted-domain-report-overview-view.png)
+
+## <a name="details-table-view-for-the-non-accepted-domain-report"></a>Exibição da tabela de detalhes para o relatório de domínio não aceito
+
+Se você clicar em **Exibir tabela de detalhes** em um modo de exibição de relatório, as seguintes informações serão exibidas:
+
+- **Date**
+- **Nome do conector de entrada**
+- **Domínio do remetente**
+- **Contagem de mensagem**
+- **Mensagens de exemplo**: as IDs de mensagem de uma amostra de mensagens afetadas.
+
+Se você clicar em **filtros** em um modo de exibição de tabela detalhes, poderá especificar um intervalo de datas com **data de início** e data de **término**.
+
+Para enviar por email o relatório para um intervalo de datas específico para um ou mais destinatários, clique em **solicitar download**.
+
+Quando você seleciona uma linha na tabela, um submenu aparece com as seguintes informações:
+
+- **Date**
+- **Nome do conector de entrada**
+- **Domínio do remetente**
+- **Contagem de mensagem**
+- **Exemplos de mensagens**: você pode clicar em **Exibir mensagens de amostra** para ver os resultados de [rastreamento](message-trace-scc.md) de mensagens para um exemplo de mensagens afetadas.
+
+![Submenu de detalhes depois de selecionar uma linha no modo de exibição de tabela detalhes no relatório de domínio não aceito](../../media/mfi-non-accepted-domain-report-details-flyout.png)
+
+Para voltar para o modo de exibição relatórios, clique em **Exibir relatório**.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-Para obter mais informações sobre outros insights de fluxo de email no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).
+Para obter informações sobre outras ideias no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).

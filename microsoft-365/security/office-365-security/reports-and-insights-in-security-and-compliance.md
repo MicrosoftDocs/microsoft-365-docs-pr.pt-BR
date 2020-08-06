@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os relatórios inteligentes e insights disponíveis no centro de conformidade do & de segurança e como usá-los para exibir e explorar dados e realizar ações rápidas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 407fee494b0fbb93b76e669c150e20136064454b
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: 1f38ed081ce73af737b58a38692ac2fa0519972d
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434306"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577181"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>Relatórios inteligentes e insights no Centro de Conformidade e Segurança
 
@@ -41,7 +41,7 @@ Além de destacar áreas problemáticas, relatórios inteligentes e insights inc
 
 Uma ampla variedade de relatórios estão disponíveis no centro de conformidade e segurança &. (Ir para **relatórios** \> **Painel** para obter um modo de exibição tudo.) A tabela a seguir lista os relatórios disponíveis com links para saber mais:
   
-|**Tipo de informação**|**Como chegar lá**|**Onde acessar mais informações**|
+|Tipo de informação|Como chegar lá|Onde acessar mais informações|
 |---|---|---|
 |**Relatórios do centro de conformidade & segurança** (tudo em diante)  <br/> Principais informações e recomendações e links para relatórios de segurança & conformidade, incluindo relatórios de prevenção de perda de dados, rótulos, relatórios de segurança de email, relatórios avançados de proteção contra ameaças e muito mais|No centro de conformidade & segurança, vá para **Reports** \> **painel** relatórios|[Monitorar e exibir relatórios no centro de segurança do Microsoft 365](../mtp/monitoring-and-reporting.md)|
 |**Prevenção contra perda de dados** <br/> Correspondência de políticas de prevenção contra perda de dados, falsos positivos e substituições e links para criar ou editar políticas|No centro de conformidade & segurança, vá para política de **prevenção de perda de dados** \> **Policy**|[Exibir os relatórios de prevenção contra perda de dados](../../compliance/view-the-dlp-reports.md)|

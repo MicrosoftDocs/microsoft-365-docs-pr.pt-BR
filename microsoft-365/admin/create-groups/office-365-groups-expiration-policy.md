@@ -4,7 +4,7 @@ ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as políticas de expiração de grupos do Microsoft 365.
-ms.openlocfilehash: 84b7048e414fe37c89a59dd9f282a4b35e0f26c8
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: bda4bfbbef4e0d145c55b2a49b4d1203c6a7b1f0
+ms.sourcegitcommit: 4f82fa7270e7ec6c6dd80329f28612e1f3289b22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560358"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572134"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Política de expiração de grupo do Microsoft 365
 
@@ -68,17 +68,25 @@ Você pode definir a política para todos os seus grupos, apenas grupos selecion
 
 ![Captura de tela de configurações de expiração de grupos no Azure Active Directory](../../media/azure-groups-expiration-settings.png)
 
-## <a name="how-expiry-works-with-the-retention-policy"></a>Como a expiração funciona com a política de retenção
+## <a name="how-expiration-and-renewal-work"></a>Como funciona a expiração e a renovação
 
-Se você tiver a política de retenção de configuração no centro de conformidade e segurança para grupos, a política de expiração funcionará perfeitamente com a política de retenção. Quando um grupo expira, as conversas do grupo na caixa de correio e os arquivos no site do grupo são mantidos no contêiner de retenção para o número específico de dias definido na política de retenção. No entanto, os usuários não verão o grupo ou seu conteúdo após a expiração.
+A política de expiração funciona da seguinte maneira: 
 
-## <a name="how-and-when-a-group-owner-learns-if-their-groups-are-going-to-expire"></a>Como e quando um proprietário de grupo aprende se seus grupos vão expirar
+- Cerca de um mês antes da expiração, o sistema verificará se houve alguma atividade de grupo desde que o grupo foi criado ou desde o início do ciclo de renovação atual.
 
-Os proprietários do grupo serão notificados somente por email. Se o grupo foi criado via Planner, SharePoint ou qualquer outro aplicativo, as notificações de expiração sempre serão fornecidas por email. Se o grupo foi criado via Teams, o proprietário do grupo receberá uma notificação para renovar através da seção atividade. Não é recomendável habilitar a expiração em um grupo se o proprietário do grupo não tiver um endereço de email válido.
+- Se a atividade anterior for detectada, a data de vencimento será avançada no momento do número de dias especificado na política de expiração.
 
-30 dias antes do vencimento do grupo, os proprietários do grupo (ou os endereços de email que você especificou para os grupos que não têm um proprietário) receberão um email, permitindo que eles renovem facilmente o grupo. Se ele não renová-lo, receberá outra renovação de email 15 dias antes da expiração. Se eles ainda não foram renovados, receberão uma notificação por email o dia antes da expiração.
+- Se a atividade anterior não for detectada, o sistema continuará a observar a atividade até a data de vencimento. Se a atividade for detectada, o sistema avançará a data de expiração pelo valor especificado nesse momento.
+
+30 dias antes do vencimento do grupo, os proprietários do grupo (ou os endereços de email que você especificou para os grupos que não têm um proprietário) receberão um email, permitindo que eles renovem facilmente o grupo. Se ele não renová-lo, receberá outra renovação de email 15 dias antes da expiração. Se eles ainda não foram renovados, receberão uma notificação por email o dia antes da expiração. (Depois que o grupo for renovado, não serão enviados mais lembretes de email até 30 dias antes da nova data de validade.)
+
+Os proprietários do grupo serão notificados por email. Se o grupo foi criado via Planner, SharePoint ou qualquer outro aplicativo, as notificações de expiração sempre serão fornecidas por email. Se o grupo foi criado via Teams, o proprietário do grupo receberá uma notificação para renovar através da seção atividade. Não é recomendável habilitar a expiração em um grupo se o proprietário do grupo não tiver um endereço de email válido.
 
 Se, por algum motivo, nenhum dos proprietários ou administradores renovar o grupo antes de expirar, e a renovação automática não ocorrer devido ao grupo não atender aos requisitos para ser renovado automaticamente, o administrador ainda poderá restaurar o grupo por até 30 dias após a expiração. Para obter detalhes, consulte: [restaurar um grupo do Microsoft 365 excluído](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
+
+## <a name="how-expiry-works-with-retention-policies"></a>Como a expiração funciona com políticas de retenção
+
+Se você tiver a política de retenção de configuração no centro de conformidade e segurança para grupos, a política de expiração funcionará perfeitamente com a política de retenção. Quando um grupo expira, as conversas do grupo na caixa de correio e os arquivos no site do grupo são mantidos no contêiner de retenção para o número específico de dias definido na política de retenção. No entanto, os usuários não verão o grupo ou seu conteúdo após a expiração.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

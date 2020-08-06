@@ -12,12 +12,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 3a8daf7982cf0b28adebee5d4d05a9893faf30ba
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 636ac13ffa4e17411e59e47d7aa532a6f0e516e3
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521904"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46578001"
 ---
 # <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>Ilustrações do Microsoft Cloud para Enterprise Architects
 
@@ -31,7 +31,7 @@ O que os arquitetos de TI precisam saber sobre redes para plataformas e serviço
   
 |**Item**|**Descrição**|
 |:-----|:-----|
-|[![Imagem em miniatura do modelo de sistema de rede em nuvem da Microsoft](../media/solutions-architecture-center/msft-cloud-networking-model-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.pdf)  \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/media/Network-Poster/MSFT_cloud_architecture_networking.vsdx) <br/>Atualizado em novembro de 2019| Este modelo contém: <ul><li> Expandindo sua rede para conectividade de nuvem </li><li> Elementos comuns de conectividade de nuvem da Microsoft </li><li> ExpressRoute para conectividade de nuvem da Microsoft </li><li> Criação de rede para o Microsoft IaaS, Azure PaaS e Azure IaaS </li></ul><br/>  <br/>|
+|[![Imagem em miniatura do modelo de sistema de rede em nuvem da Microsoft](../media/solutions-architecture-center/msft-cloud-networking-model-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.pdf)  \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.vsdx) <br/>Atualizado em agosto de 2020 | Este modelo contém: <ul><li> Expandindo sua rede para conectividade de nuvem </li><li> Elementos comuns de conectividade de nuvem da Microsoft </li><li> ExpressRoute para conectividade de nuvem da Microsoft </li><li> Criação de rede para o Microsoft IaaS, Azure PaaS e Azure IaaS </li></ul><br/>  <br/>|
 
 <a name="hybrid"></a>
 ### <a name="microsoft-hybrid-cloud-for-enterprise-architects"></a>Nuvem híbrida da Microsoft para arquitetos corporativos
@@ -40,7 +40,7 @@ O que os arquitetos de TI precisam saber sobre nuvem híbrida dos serviços e pl
   
 |**Item**|**Descrição**|
 |:-----|:-----|
-|[![Imagem em miniatura do modelo híbrido em nuvem da Microsoft](../media/solutions-architecture-center/msft-hybrid-cloud-model-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.pdf)  \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/media/Hybrid-Poster/MSFT_cloud_architecture_hybrid.vsdx) <br>Atualizado em novembro de 2019 | Este modelo contém: <ul><li> Ofertas de nuvem da Microsoft (SaaS, Azure PaaS e Azure IaaS) e seus elementos em comum </li><li> Arquitetura de nuvem híbrida para as ofertas de nuvem da Microsoft </li><li> Cenários de nuvem híbrida para o Microsoft SaaS (Office 365), Azure PaaS e Azure IaaS </li></ul><br/>|
+|[![Imagem em miniatura do modelo híbrido em nuvem da Microsoft](../media/solutions-architecture-center/msft-hybrid-cloud-model-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.pdf)  \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.vsdx) <br>Atualizado em agosto de 2020 | Este modelo contém: <ul><li> Ofertas de nuvem da Microsoft (SaaS, Azure PaaS e Azure IaaS) e seus elementos em comum </li><li> Arquitetura de nuvem híbrida para as ofertas de nuvem da Microsoft </li><li> Cenários de nuvem híbrida para o Microsoft SaaS (Office 365), Azure PaaS e Azure IaaS </li></ul><br/>|
    
 
 ### <a name="architecture-approaches-for-microsoft-cloud-tenant-to-tenant-migrations"></a>Abordagens de arquitetura para as migrações de locatário do Microsoft Cloud para o locatário 
@@ -48,7 +48,7 @@ Esta série de tópicos ilustra várias abordagens de arquitetura para fusões, 
 
 |**Item**|**Descrição**|
 |:-----|:-----|
-|[![Imagem em miniatura para o cartaz de arquitetura lógica do Teams](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>Atualizado em julho de 2019    |Este modelo contém: <ul><li>Um mapeamento de cenários de negócios para abordagens de arquitetura</li><li>Considerações de design</li><li>Fluxo de migração de evento único</li><li>Fluxos de migração do usuário</li><li>Fluxo de movimentação ou de divisão do locatário</li></ul>|
+|[![Imagem em miniatura para o cartaz de arquitetura lógica do Teams](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>Atualizado em julho de 2019    |Este modelo contém: <ul><li>Um mapeamento de cenários de negócios para abordagens de arquitetura</li><li>Considerações de design</li><li>Fluxo de migração de evento único</li><li>Fluxos de migração do usuário</li><li>Fluxo de movimentação ou de divisão do locatário</li></ul>|
 
 <a name="security"></a>
 ### <a name="microsoft-cloud-security-for-enterprise-architects"></a>Segurança no Microsoft Cloud para arquitetos corporativos

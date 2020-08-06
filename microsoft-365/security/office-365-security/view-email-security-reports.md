@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 762903428245797ecdc0357dc485e8fe25d2203e
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: 269e68c1e7f864ba5be84f1dc444a3d7d9c27e55
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434250"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46578025"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
 
@@ -58,7 +58,7 @@ Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detal
 
 - **Hora de criação**
 - **ID de usuário**
-- **Action**
+- **Ação**
 
 Para voltar para o modo de exibição de relatório, clique em **Exibir relatório**.
 
@@ -221,7 +221,7 @@ Se você clicar em **Exibir tabela de detalhes** em qualquer modo de exibição 
 - **Endereço do remetente**.
 - **Endereço do destinatário**
 - **Tipo de evento**
-- **Action**
+- **Ação**
 - **Assunto**
 
 Se você clicar em **filtros** em uma tabela de detalhes, poderá modificar os resultados com os seguintes filtros:
@@ -260,7 +260,7 @@ Se você clicar em **Exibir tabela de detalhes**, poderá ver os seguintes detal
 - **Remetente falsificado**
 - **Remetente verdadeiro**
 - **IP do remetente**
-- **Action**
+- **Ação**
 - **Contagem de mensagem**
 
 Para voltar para o modo de exibição de relatório, clique em **Exibir relatório**.

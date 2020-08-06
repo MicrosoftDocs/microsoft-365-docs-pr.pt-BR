@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: Obtenha uma visão geral do centro de mensagens do Microsoft 365 e sua função no gerenciamento de alterações.
-ms.openlocfilehash: f4d99bedaab6efb4dfeccf7610e54bb5f8effeb7
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: cec60a7ae5df1af01625f8feef84ff258d798659
+ms.sourcegitcommit: 48f3c002678906189bfba079bbf055d67d08a60f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780078"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46564020"
 ---
 # <a name="message-center"></a>Centro de mensagens
 
@@ -175,6 +175,12 @@ Usamos a tradução automática para exibir automaticamente as mensagens no seu 
 - Leitores de diretório
 - Contas de sincronização de diretório
 - Gravadores de diretório
-- Administrador de serviço do Intune
+- Administrador de Serviço do Intune
 - Administrador de função com privilégios
 - Leitor de relatórios
+
+## <a name="unsubscribe-from-message-center-emails"></a>Cancelar a assinatura de emails do centro de mensagens
+
+1. Os emails de resumo são ativados por padrão e são enviados para seu endereço de email principal. Para parar de receber o resumo semanal, altere a configuração **enviar um resumo semanal de minhas mensagens** para **desativado**. <br/><br/>A notificação por email para atualizações principais é um controle separado. Se você não quiser receber notificações por email sobre as principais atualizações, verifique se a opção **enviar emails para atualizações principais** está **desativada**.  <br/><br/>Para parar de receber avisos de email sobre mensagens de privacidade de dados, verifique se a opção **enviar emails para mensagens de privacidade de dados** está **desativada**.  (As mensagens de privacidade de dados não estão incluídas no resumo semanal.)<br/><br/>
+
+2. Selecione **salvar** para manter as alterações.<br/>
