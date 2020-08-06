@@ -1,5 +1,5 @@
 ---
-title: Alertas de filas e filas
+title: Ideias de filas no painel de fluxo de emails
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -10,68 +10,83 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
-description: Os administradores podem aprender sobre alertas de fila e filas no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 7bb103bad89ee39991a5c16d7101ab4658842479
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Os administradores podem aprender a usar o widget filas no painel de fluxo de emails no centro de conformidade do & de segurança para monitorar o fluxo de emails sem êxito em suas organizações locais ou de parceiros em relação a conectores de saída.
+ms.openlocfilehash: fdc3f44041990e3860deb04a36a69a3d506d334a
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635179"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577277"
 ---
-# <a name="queue-alerts-and-queues"></a><span data-ttu-id="035cf-103">Alertas de filas e filas</span><span class="sxs-lookup"><span data-stu-id="035cf-103">Queue alerts and Queues</span></span>
+# <a name="queues-insight-in-the-security--compliance-center"></a><span data-ttu-id="e94ce-103">Informações sobre filas no centro de conformidade & segurança</span><span class="sxs-lookup"><span data-stu-id="e94ce-103">Queues insight in the Security & Compliance Center</span></span>
 
-## <a name="queue-alerts"></a><span data-ttu-id="035cf-104">Alertas de fila</span><span class="sxs-lookup"><span data-stu-id="035cf-104">Queue alerts</span></span>
+<span data-ttu-id="e94ce-104">Quando as mensagens não podem ser enviadas da sua organização para seus servidores de email locais ou parceiros usando conectores, as mensagens são enfileiradas no Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="e94ce-104">When messages can't be sent from your organization to your on-premises or partner email servers using connectors, the messages are queued in Microsoft 365.</span></span> <span data-ttu-id="e94ce-105">Exemplos comuns que causam essa condição são:</span><span class="sxs-lookup"><span data-stu-id="e94ce-105">Common examples that cause this condition are:</span></span>
 
-<span data-ttu-id="035cf-105">Quando as mensagens não podem ser enviadas da sua organização para seus servidores de email locais ou parceiros usando conectores, as mensagens são enfileiradas no Office 365.</span><span class="sxs-lookup"><span data-stu-id="035cf-105">When messages can't be sent from your organization to your on-premises or partner email servers using connectors, the messages are queued in Office 365.</span></span> <span data-ttu-id="035cf-106">Exemplos comuns que causam essa condição são:</span><span class="sxs-lookup"><span data-stu-id="035cf-106">Common examples that cause this condition are:</span></span>
+- <span data-ttu-id="e94ce-106">O conector está configurado incorretamente.</span><span class="sxs-lookup"><span data-stu-id="e94ce-106">The connector is incorrectly configured.</span></span>
+- <span data-ttu-id="e94ce-107">Houve alterações de rede ou firewall no seu ambiente local.</span><span class="sxs-lookup"><span data-stu-id="e94ce-107">There have been networking or firewall changes in your on-premises environment.</span></span>
 
-- <span data-ttu-id="035cf-107">O conector está configurado incorretamente.</span><span class="sxs-lookup"><span data-stu-id="035cf-107">The connector is incorrectly configured.</span></span>
+<span data-ttu-id="e94ce-108">A Microsoft 365 continuará a tentar a entrega por 24 horas.</span><span class="sxs-lookup"><span data-stu-id="e94ce-108">Microsoft 365 will continue to retry to delivery for 24 hours.</span></span> <span data-ttu-id="e94ce-109">Após 24 horas, as mensagens expirarão e serão retornadas aos remetentes nas notificações de falha na entrega (também conhecidas como NDRs ou mensagens de devolução).</span><span class="sxs-lookup"><span data-stu-id="e94ce-109">After 24 hours, the messages will expire and will be returned to the senders in non-delivery reports (also known as a NDRs or bounce messages).</span></span>
 
-- <span data-ttu-id="035cf-108">Houve alterações de rede ou firewall no seu ambiente local.</span><span class="sxs-lookup"><span data-stu-id="035cf-108">There have been networking or firewall changes in your on-premises environment.</span></span>
+<span data-ttu-id="e94ce-110">Se o volume de email em fila exceder o limite predefinido (o valor padrão é 200), as informações estarão disponíveis nos seguintes locais:</span><span class="sxs-lookup"><span data-stu-id="e94ce-110">If the queued email volume exceeds the pre-defined threshold (the default value is 200 messages), the information is available in the following locations:</span></span>
 
-<span data-ttu-id="035cf-109">A Microsoft 365 continuará a tentar a entrega por 24 horas.</span><span class="sxs-lookup"><span data-stu-id="035cf-109">Microsoft 365 will continue to retry to delivery for 24 hours.</span></span> <span data-ttu-id="035cf-110">Após 24 horas, as mensagens expirarão e serão retornadas aos remetentes nas notificações de falha na entrega (também conhecidas como NDRs ou mensagens de devolução).</span><span class="sxs-lookup"><span data-stu-id="035cf-110">After 24 hours, the messages will expire and will be returned to the senders in non-delivery reports (also known as a NDRs or bounce messages).</span></span>
+- <span data-ttu-id="e94ce-111">As **filas** insights no [painel de fluxo de emails](mail-flow-insights-v2.md) no centro de conformidade de & de segurança.</span><span class="sxs-lookup"><span data-stu-id="e94ce-111">The **Queues** insight in the [Mail flow dashboard](mail-flow-insights-v2.md) in the Security & Compliance Center.</span></span> <span data-ttu-id="e94ce-112">Para obter mais informações, consulte a [visão de filas no painel de fluxo de emails](#queues-insight-in-the-mail-flow-dashboard) deste tópico.</span><span class="sxs-lookup"><span data-stu-id="e94ce-112">For more information, see the [Queues insight in the Mail flow dashboard](#queues-insight-in-the-mail-flow-dashboard) section in this topic.</span></span>
+  
+- <span data-ttu-id="e94ce-113">Um alerta é exibido em **alertas recentes** no painel de alertas no [centro de conformidade & segurança](https://protection.office.com) (painel de**alertas** \> **Dashboard** ou <https://protection.office.com/alertsdashboard> ).</span><span class="sxs-lookup"><span data-stu-id="e94ce-113">An alert is displayed in **Recent alerts** the Alerts dashboard in the [Security & Compliance Center](https://protection.office.com) (**Alerts** \> **Dashboard** or <https://protection.office.com/alertsdashboard>).</span></span>
 
-<span data-ttu-id="035cf-111">Se o volume de email em fila exceder o limite predefinido (o valor padrão é 2000), os alertas estarão disponíveis no painel de fluxo de emails em **alertas recentes**, e os administradores receberão uma notificação por email (para seu endereço de email alternativo).</span><span class="sxs-lookup"><span data-stu-id="035cf-111">If the queued email volume exceeds the pre-defined threshold (the default value is 2000 messages), the alerts will be available in the mail flow dashboard at **Recent alerts**, and admins will receive an email notification (to their alternative email address).</span></span> <span data-ttu-id="035cf-112">Para configurar o limite de alerta, o limite de notificação diária e/ou os destinatários do alerta, consulte a seção **Personalizar alertas de fila** abaixo.</span><span class="sxs-lookup"><span data-stu-id="035cf-112">To configure the alert threshold, daily notification limit, and/or recipients of the alert, see the **Customize queue alerts** section below.</span></span>
+  ![Alertas recentes no painel de alertas no centro de conformidade & segurança](../../media/mfi-queued-messages-alert.png)
 
-![Enfileirar alertas na área de alertas recentes do painel de fluxo de emails no centro de conformidade & segurança](../../media/5fc4a51c-6118-4270-960b-c6b176ef94ae.png)
+- <span data-ttu-id="e94ce-115">Os administradores receberão uma notificação por email com base na configuração da política de alerta padrão chamada **as mensagens foram atrasadas**.</span><span class="sxs-lookup"><span data-stu-id="e94ce-115">Admins will receive an email notification based on the configuration of the default alert policy named **Messages have been delayed**.</span></span> <span data-ttu-id="e94ce-116">Para definir as configurações de notificação para este alerta, consulte a próxima seção.</span><span class="sxs-lookup"><span data-stu-id="e94ce-116">To configure the notification settings for this alert, see the next section.</span></span>
 
-## <a name="customize-queue-alerts"></a><span data-ttu-id="035cf-114">Personalizar alertas de fila</span><span class="sxs-lookup"><span data-stu-id="035cf-114">Customize queue alerts</span></span>
+  <span data-ttu-id="e94ce-117">Para obter mais informações sobre políticas de alerta, consulte [políticas de alerta no centro de conformidade de & de segurança](../../compliance/alert-policies.md).</span><span class="sxs-lookup"><span data-stu-id="e94ce-117">For more information about alert policies, see [Alert policies in the Security & Compliance Center](../../compliance/alert-policies.md).</span></span>
 
-<span data-ttu-id="035cf-115">Informações de fluxo de emails criar uma política de alerta chamada **mensagens atrasadas** (a caixa de seleção **enviar notificações por email** na captura de tela de exemplo abaixo) foi encontrada em **alertas** \> **políticas de alerta**.</span><span class="sxs-lookup"><span data-stu-id="035cf-115">Mail flow insights create an alert policy named **Messages have been delayed** (the **Send email notifications** check box in the example screen shot below) found in **Alerts** \> **Alert Policies**.</span></span> <span data-ttu-id="035cf-116">Você pode modificar os destinatários de limite e alerta clicando na política.</span><span class="sxs-lookup"><span data-stu-id="035cf-116">You can modify the threshold and alert recipients by clicking on the policy.</span></span>
+## <a name="customize-queue-alerts"></a><span data-ttu-id="e94ce-118">Personalizar alertas de fila</span><span class="sxs-lookup"><span data-stu-id="e94ce-118">Customize queue alerts</span></span>
 
-![Navegação de alertas](../../media/efb95976-9e0b-484e-a2fd-093c5bc7a40f.png)
+1. <span data-ttu-id="e94ce-119">No [centro de conformidade & segurança](https://protection.office.com), vá para **Alerts** \> **políticas de alerta** de alertas ou abrir <https://protection.office.com/alertpolicies> .</span><span class="sxs-lookup"><span data-stu-id="e94ce-119">In the [Security & Compliance Center](https://protection.office.com), go to **Alerts** \> **Alert policies** or open <https://protection.office.com/alertpolicies>.</span></span>
 
-<span data-ttu-id="035cf-118">Você verá uma nova folha de informações de política, agora é possível clicar em **Editar política**.</span><span class="sxs-lookup"><span data-stu-id="035cf-118">You'll see a new policy information blade, you can now click **Edit Policy**.</span></span>
+2. <span data-ttu-id="e94ce-120">Na página **políticas de alerta** , localize e selecione a política denominada **mensagens foram atrasadas**.</span><span class="sxs-lookup"><span data-stu-id="e94ce-120">On the **Alert policies** page, find and select the policy named **Messages have been delayed**.</span></span>
 
-![Editar Política ](../../media/ed2aceae-3ee2-4849-a17e-87915987a7dd.png)
+3. <span data-ttu-id="e94ce-121">Na **mensagem com submenu com atraso** que é aberto, você pode ativar ou desativar o alerta e definir as configurações de notificação.</span><span class="sxs-lookup"><span data-stu-id="e94ce-121">In the **Message have been delayed** flyout that opens, you can turn the alert on or off and configure the notification settings.</span></span>
 
-<span data-ttu-id="035cf-120">A lâmina de informações será alterada para a **política de edição**.</span><span class="sxs-lookup"><span data-stu-id="035cf-120">The information blade will change to the **Edit Policy**.</span></span> <span data-ttu-id="035cf-121">Agora você pode alterar os destinatários para o email de alerta, o limite do número de notificações enviadas por dia e o limite mínimo para acionar o alerta (200 ou mais).</span><span class="sxs-lookup"><span data-stu-id="035cf-121">You can now change the recipients for the alert email, the limit on the number of notifications sent per day, and the minimum threshold to trigger the alert (200 or more).</span></span>
+   ![Detalhes da política de alerta de mensagens atrasadas o centro de conformidade & segurança](../../media/mfi-queued-messages-alert-policy.png)
 
-![Editar folha de política](../../media/c657cc74-7867-474c-b2c9-dc478449f990.png)
+   - <span data-ttu-id="e94ce-123">**Status**: você pode ativar ou desativar o alerta.</span><span class="sxs-lookup"><span data-stu-id="e94ce-123">**Status**: You can toggle the alert on or off.</span></span>
 
-## <a name="queue-alert-details"></a><span data-ttu-id="035cf-123">Detalhes de alerta da fila</span><span class="sxs-lookup"><span data-stu-id="035cf-123">Queue alert details</span></span>
+   - <span data-ttu-id="e94ce-124">**Destinatários de email** e **limite de notificação diária**: clique em **Editar** para definir as seguintes configurações:</span><span class="sxs-lookup"><span data-stu-id="e94ce-124">**Email recipients** and **Daily notification limit**: Click **Edit** to configure the following settings:</span></span>
 
-<span data-ttu-id="035cf-124">Quando você clica no alerta, os detalhes de alerta aparecem em um painel de submenu.</span><span class="sxs-lookup"><span data-stu-id="035cf-124">When you click the alert, the alert details appear in a flyout pane.</span></span>
+4. <span data-ttu-id="e94ce-125">Para definir as configurações de notificação, clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="e94ce-125">To configure the notification settings, click **Edit**.</span></span> <span data-ttu-id="e94ce-126">No submenu **Editar política** que aparece, defina as seguintes configurações:</span><span class="sxs-lookup"><span data-stu-id="e94ce-126">In the **Edit policy** flyout that appears, configure the following settings:</span></span>
 
-![Selecione um alerta de fila na área de alerta recentes do painel de fluxo de emails no centro de conformidade & segurança](../../media/1f6b0e96-5b2c-41ef-9684-9d813b3fabe6.png)
+   - <span data-ttu-id="e94ce-127">**Enviar notificações por email**: o valor padrão é ativado.</span><span class="sxs-lookup"><span data-stu-id="e94ce-127">**Send email notifications**: The default value is on.</span></span>
+   - <span data-ttu-id="e94ce-128">**Destinatários de email**: o valor padrão é **TenantAdmins**.</span><span class="sxs-lookup"><span data-stu-id="e94ce-128">**Email recipients**: The default value is **TenantAdmins**.</span></span>
+   - <span data-ttu-id="e94ce-129">**Limite diário de notificação**: o valor padrão é **sem limite**.</span><span class="sxs-lookup"><span data-stu-id="e94ce-129">**Daily notification limit**: The default value is **No limit**.</span></span>
+   - <span data-ttu-id="e94ce-130">**Limite**: o valor padrão é 200.</span><span class="sxs-lookup"><span data-stu-id="e94ce-130">**Threshold**: The default value is 200.</span></span>
 
-![O submenu detalhes da fila de alerta no centro de conformidade & segurança](../../media/105c8fff-912f-4763-8806-2740ebdecd4b.png)
+   ![As configurações de notificação nas mensagens foram atrasadas detalhes da política de alerta o centro de conformidade & segurança](../../media/mfi-queued-messages-alert-policy-notification-settings.png)
 
-<span data-ttu-id="035cf-127">Você pode clicar em **Exibir fila** nos detalhes do alerta para ver os detalhes da fila, os problemas e os links para as correções disponíveis em um novo painel de submenu.</span><span class="sxs-lookup"><span data-stu-id="035cf-127">You can click **View queue** in the alert details to see the queue details, problems, and links to the available fixes in a new flyout pane.</span></span>
+5. <span data-ttu-id="e94ce-132">Quando tiver terminado, clique em **salvar** e **fechar**.</span><span class="sxs-lookup"><span data-stu-id="e94ce-132">When you're finished, click **Save** and **Close**.</span></span>
 
-![O submenu detalhes da fila de alerta no centro de conformidade & segurança](../../media/8ff60955-55ef-4f32-a966-85e02cb608d1.png)
+## <a name="queues-insight-in-the-mail-flow-dashboard"></a><span data-ttu-id="e94ce-133">Ideias de filas no painel de fluxo de emails</span><span class="sxs-lookup"><span data-stu-id="e94ce-133">Queues insight in the Mail flow dashboard</span></span>
 
-![Exibir fila nos detalhes do alerta](../../media/4eb088fe-5dd9-4bf4-b959-c1bb2545c515.png)
+<span data-ttu-id="e94ce-134">Mesmo que o volume da mensagem na fila não tenha excedido o limite e gerado um alerta, você ainda pode usar a percepção de **filas** no [painel de fluxo de emails](mail-flow-insights-v2.md) para ver as mensagens que foram enfileiradas por mais de uma hora e tomar medidas antes que o número de mensagens em fila fique muito grande.</span><span class="sxs-lookup"><span data-stu-id="e94ce-134">Even if the queued message volume hasn't exceeded the threshold and generated an alert, you can still use the **Queues** insight in the [Mail flow dashboard](mail-flow-insights-v2.md) to see messages that have been queued for more than one hour, and take action before the number of queued messages becomes too large.</span></span>
 
-## <a name="queues"></a><span data-ttu-id="035cf-130">Filas</span><span class="sxs-lookup"><span data-stu-id="035cf-130">Queues</span></span>
+![Widget filas no painel de fluxo de emails no centro de conformidade de & de segurança](../../media/mfi-queues-widget.png)
 
-<span data-ttu-id="035cf-131">Mesmo que o volume da mensagem na fila não tenha excedido o limite, você ainda pode usar a área **filas** do painel de fluxo de email para ver as mensagens que foram enfileiradas por mais de uma hora.</span><span class="sxs-lookup"><span data-stu-id="035cf-131">Even if the queued message volume hasn't exceeded the threshold, you can still use the **Queues** area of the mail flow dashboard to see messages that have been queued for more than one hour.</span></span> <span data-ttu-id="035cf-132">Você pode usar a área **filas** para monitorar o número de mensagens em fila (o valor 0 indica que o fluxo de emails está ok) e tomar medidas antes que o número de mensagens na fila fique muito grande.</span><span class="sxs-lookup"><span data-stu-id="035cf-132">You can use the **Queues** area to monitor the number of queued messages (the value 0 indicates mail flow is OK) and take action before the number of queued messages becomes too large.</span></span>
+<span data-ttu-id="e94ce-136">Se você clicar no número de mensagens no widget, um submenu de **mensagens em fila** aparecerá com as seguintes informações:</span><span class="sxs-lookup"><span data-stu-id="e94ce-136">If you click the number of messages on the widget, a **Messages queued** flyout appears with the following information:</span></span>
 
-![Filas no painel de fluxo de emails no centro de conformidade de & de segurança](../../media/0ef6e2ef-dd22-4363-9d4a-b20a00babc9f.png)
+- <span data-ttu-id="e94ce-137">**Número de mensagens em fila**</span><span class="sxs-lookup"><span data-stu-id="e94ce-137">**Number of queued messages**</span></span>
+- <span data-ttu-id="e94ce-138">**Nome do conector**: clique no nome do conector para gerenciar o conector no centro de administração do Exchange (Eat).</span><span class="sxs-lookup"><span data-stu-id="e94ce-138">**Connector name**: Click on the connector name to manage the connector in the Exchange admin center (EAC).</span></span>
+- <span data-ttu-id="e94ce-139">**Hora da fila de início**</span><span class="sxs-lookup"><span data-stu-id="e94ce-139">**Queue started time**</span></span>
+- <span data-ttu-id="e94ce-140">**As mensagens mais antigas expiraram**</span><span class="sxs-lookup"><span data-stu-id="e94ce-140">**Oldest messages expired**</span></span>
+- <span data-ttu-id="e94ce-141">**Servidor de destino**</span><span class="sxs-lookup"><span data-stu-id="e94ce-141">**Destination server**</span></span>
+- <span data-ttu-id="e94ce-142">**Último endereço IP**</span><span class="sxs-lookup"><span data-stu-id="e94ce-142">**Last IP address**</span></span>
+- <span data-ttu-id="e94ce-143">**Último erro**</span><span class="sxs-lookup"><span data-stu-id="e94ce-143">**Last error**</span></span>
+- <span data-ttu-id="e94ce-144">**Como corrigir**: problemas comuns e soluções estão disponíveis.</span><span class="sxs-lookup"><span data-stu-id="e94ce-144">**How to fix**: Common issues and solutions are available.</span></span> <span data-ttu-id="e94ce-145">Se houver um link **corrigir agora** disponível, clique nele para corrigir o problema.</span><span class="sxs-lookup"><span data-stu-id="e94ce-145">If is a **Fix it now** link is available, click it to fix the problem.</span></span> <span data-ttu-id="e94ce-146">Caso contrário, clique em qualquer link disponível para obter mais informações sobre o erro e as soluções possíveis.</span><span class="sxs-lookup"><span data-stu-id="e94ce-146">Otherwise, click on any available links for more information about the error and possible solutions.</span></span>
 
-<span data-ttu-id="035cf-134">Quando você **clica no número**de mensagens em filas, os detalhes e a orientação da fila para corrigir o problema aparecerão em um painel de submenu (o mesmo submenu exibido depois que você clicar em **Exibir fila** nos detalhes de um alerta de fila).</span><span class="sxs-lookup"><span data-stu-id="035cf-134">When you click the number of queued messages in **Queues**, the queue details and guidance for how to fix the issue will appear in a flyout pane (the same flyout that appears after you click **View queue** in the details of a queue alert).</span></span>
+![Detalhes depois de clicar na visão filas no painel de fluxo de emails](../../media/mfi-queues-details.png)
 
-![Detalhes da fila](../../media/4eb088fe-5dd9-4bf4-b959-c1bb2545c515.png)
+<span data-ttu-id="e94ce-148">O mesmo submenu é exibido depois que você clica em **Exibir fila** nos detalhes de um alerta de **mensagens foram atrasadas** .</span><span class="sxs-lookup"><span data-stu-id="e94ce-148">The same flyout is displayed after you click **View queue** in the details of a **Messages have been delayed** alert.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="035cf-136">Confira também</span><span class="sxs-lookup"><span data-stu-id="035cf-136">See also</span></span>
+![Os detalhes de alerta de mensagens foram atrasadas no centro de conformidade de & de segurança](../../media/mfi-queued-messages-alert-details.png)
 
-<span data-ttu-id="035cf-137">Para obter mais informações sobre outros insights de fluxo de email no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="035cf-137">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
+## <a name="see-also"></a><span data-ttu-id="e94ce-150">Confira também</span><span class="sxs-lookup"><span data-stu-id="e94ce-150">See also</span></span>
+
+<span data-ttu-id="e94ce-151">Para obter informações sobre outras ideias no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="e94ce-151">For information about other insights in the Mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>

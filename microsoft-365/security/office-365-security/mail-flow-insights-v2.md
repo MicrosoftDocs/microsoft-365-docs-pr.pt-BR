@@ -1,5 +1,5 @@
 ---
-title: Fluxo de emails no Centro de Conformidade e Segurança
+title: Insights de fluxo de email no painel de fluxo de emails
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -10,67 +10,69 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
-description: Os administradores podem saber mais sobre o painel de fluxo de emails no centro de conformidade & segurança, incluindo ideias, relatórios e widgets.
+description: Os administradores podem saber mais sobre as ideias e os relatórios disponíveis no painel de fluxo de emails no centro de conformidade do & de segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e3139fa6a139c7fa159c2e5e5daa3879322f4bf0
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 977dcef82a4f32980898c7b4392d011340e3d0a2
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552669"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577781"
 ---
-# <a name="mail-flow-insights-in-the-security--compliance-center"></a><span data-ttu-id="96395-103">Fluxo de emails no Centro de Conformidade e Segurança</span><span class="sxs-lookup"><span data-stu-id="96395-103">Mail flow insights in the Security & Compliance Center</span></span>
+# <a name="mail-flow-insights-in-the-security--compliance-center"></a><span data-ttu-id="1b239-103">Fluxo de emails no Centro de Conformidade e Segurança</span><span class="sxs-lookup"><span data-stu-id="1b239-103">Mail flow insights in the Security & Compliance Center</span></span>
 
-<span data-ttu-id="96395-104">Os administradores podem usar o painel de fluxo de emails no centro de conformidade de & de segurança para descobrir tendências, insights e realizar ações para corrigir problemas relacionados ao fluxo de emails em sua organização.</span><span class="sxs-lookup"><span data-stu-id="96395-104">Admins can use mail flow dashboard in the Security & Compliance Center to discover trends, insights and take actions to fix issues related to mail flow in their organization.</span></span>
+<span data-ttu-id="1b239-104">Os administradores podem usar o painel de fluxo de emails no centro de conformidade de & de segurança para descobrir tendências, insights e realizar ações para corrigir problemas relacionados ao fluxo de emails em sua organização.</span><span class="sxs-lookup"><span data-stu-id="1b239-104">Admins can use Mail flow dashboard in the Security & Compliance Center to discover trends, insights, and take actions to fix issues related to mail flow in their organization.</span></span>
 
-<span data-ttu-id="96395-105">As ideias, os relatórios e os widgets disponíveis no painel de fluxo de emails são:</span><span class="sxs-lookup"><span data-stu-id="96395-105">The insights, reports, and widgets that are available in the mail flow dashboard are:</span></span>
+![O painel de fluxo de emails no centro de conformidade & segurança](../../media/mail-flow-dashboard-v2.png)
 
-- [<span data-ttu-id="96395-106">Relatório de mapa de fluxo de email</span><span class="sxs-lookup"><span data-stu-id="96395-106">Mail flow map report</span></span>](mfi-mail-flow-map-report.md)
+<span data-ttu-id="1b239-106">As informações disponíveis são:</span><span class="sxs-lookup"><span data-stu-id="1b239-106">The available insights are:</span></span>
 
-- [<span data-ttu-id="96395-107">Visão do status do fluxo de email de domínio</span><span class="sxs-lookup"><span data-stu-id="96395-107">Domain mail flow status insight</span></span>](mfi-domain-mail-flow-status-insight.md)
+- [<span data-ttu-id="1b239-107">Percepção de mensagens automaticamente encaminhadas</span><span class="sxs-lookup"><span data-stu-id="1b239-107">Auto-forwarded messages insight</span></span>](mfi-auto-forwarded-messages-report.md)
 
-- [<span data-ttu-id="96395-108">Relatório de clientes de autenticação SMTP</span><span class="sxs-lookup"><span data-stu-id="96395-108">SMTP Auth clients report</span></span>](mfi-smtp-auth-clients-report.md)
+- <span data-ttu-id="1b239-108">[Corrigir possíveis informações de loop de email](mfi-mail-loop-insight.md)<sup>1</sup></span><span class="sxs-lookup"><span data-stu-id="1b239-108">[Fix possible mail loop insight](mfi-mail-loop-insight.md)<sup>1</sup></span></span>
 
-- [<span data-ttu-id="96395-109">Percepção do domínio do remetente</span><span class="sxs-lookup"><span data-stu-id="96395-109">Sender domain insight</span></span>](mfi-sender-domain-insight.md)
+- <span data-ttu-id="1b239-109">[Corrigir as regras de fluxo de email lentos informações](mfi-slow-mail-flow-rules-insight.md)<sup>1</sup></span><span class="sxs-lookup"><span data-stu-id="1b239-109">[Fix slow mail flow rules insight](mfi-slow-mail-flow-rules-insight.md)<sup>1</sup></span></span>
 
-- [<span data-ttu-id="96395-110">Relatório de falha na entrega</span><span class="sxs-lookup"><span data-stu-id="96395-110">Non-delivery report</span></span>](mfi-non-delivery-report.md)
+- [<span data-ttu-id="1b239-110">Mapa de fluxo de email</span><span class="sxs-lookup"><span data-stu-id="1b239-110">Mail flow map</span></span>](mfi-mail-flow-map-report.md)
 
-- [<span data-ttu-id="96395-111">Relatório de domínio não aceito</span><span class="sxs-lookup"><span data-stu-id="96395-111">Non-accepted domain report</span></span>](mfi-non-accepted-domain-report.md)
+- <span data-ttu-id="1b239-111">[Novos domínios sendo encaminhados informações sobre email](mfi-new-domains-being-forwarded-email.md)<sup>2</sup></span><span class="sxs-lookup"><span data-stu-id="1b239-111">[New domains being forwarded email insight](mfi-new-domains-being-forwarded-email.md)<sup>2</sup></span></span>
 
-- [<span data-ttu-id="96395-112">Fluxo de entrada e saída de emails</span><span class="sxs-lookup"><span data-stu-id="96395-112">Outbound and inbound mail flow</span></span>](mfi-outbound-and-inbound-mail-flow.md)
+- <span data-ttu-id="1b239-112">[Novos usuários encaminhando informações de email](mfi-new-users-forwarding-email.md)<sup>2</sup></span><span class="sxs-lookup"><span data-stu-id="1b239-112">[New users forwarding email insight](mfi-new-users-forwarding-email.md)<sup>2</sup></span></span>
 
-- [<span data-ttu-id="96395-113">Alertas de filas e filas</span><span class="sxs-lookup"><span data-stu-id="96395-113">Queue alerts and Queues</span></span>](mfi-queue-alerts-and-queues.md)
+- [<span data-ttu-id="1b239-113">Relatório de domínio não aceito</span><span class="sxs-lookup"><span data-stu-id="1b239-113">Non-accepted domain report</span></span>](mfi-non-accepted-domain-report.md)
 
-- [<span data-ttu-id="96395-114">Relatório de encaminhamento automático de mensagens</span><span class="sxs-lookup"><span data-stu-id="96395-114">Auto-forwarded messages report</span></span>](mfi-auto-forwarded-messages-report.md)
+- [<span data-ttu-id="1b239-114">Relatório de falha na entrega</span><span class="sxs-lookup"><span data-stu-id="1b239-114">Non-delivery report</span></span>](mfi-non-delivery-report.md)
 
-- [<span data-ttu-id="96395-115">Insight de loop de email</span><span class="sxs-lookup"><span data-stu-id="96395-115">Mail loop insight</span></span>](mfi-mail-loop-insight.md)
+- [<span data-ttu-id="1b239-115">Informações de fluxo de email de entrada e de saída</span><span class="sxs-lookup"><span data-stu-id="1b239-115">Outbound and inbound mail flow insight</span></span>](mfi-outbound-and-inbound-mail-flow.md)
 
-- [<span data-ttu-id="96395-116">Insight de regras de fluxo de email – modo lento</span><span class="sxs-lookup"><span data-stu-id="96395-116">Slow mail flow rules insight</span></span>](mfi-slow-mail-flow-rules-insight.md)
+- [<span data-ttu-id="1b239-116">Percepção de filas</span><span class="sxs-lookup"><span data-stu-id="1b239-116">Queues insight</span></span>](mfi-queue-alerts-and-queues.md)
 
-## <a name="permissions-required-to-view-the-mail-flow-dashboard"></a><span data-ttu-id="96395-117">Permissões necessárias para exibir o painel de fluxo de emails</span><span class="sxs-lookup"><span data-stu-id="96395-117">Permissions required to view the mail flow dashboard</span></span>
+- [<span data-ttu-id="1b239-117">Informações e relatórios de clientes de autenticação SMTP</span><span class="sxs-lookup"><span data-stu-id="1b239-117">SMTP Auth clients insight and report</span></span>](mfi-smtp-auth-clients-report.md)
 
-<span data-ttu-id="96395-118">O painel de fluxo de emails está disponível para:</span><span class="sxs-lookup"><span data-stu-id="96395-118">The mail flow dashboard is available to:</span></span>
+- [<span data-ttu-id="1b239-118">Insight sobre o status do fluxo de mensagens dos principais domínios</span><span class="sxs-lookup"><span data-stu-id="1b239-118">Top domain mail flow status insight</span></span>](mfi-domain-mail-flow-status-insight.md)
 
-- <span data-ttu-id="96395-119">Membros da função de **administrador global** .</span><span class="sxs-lookup"><span data-stu-id="96395-119">Members of the **global administrator** role.</span></span>
+<span data-ttu-id="1b239-119"><sup>1</sup> essa percepção aparecerá na área **recomendada para você** no painel de fluxo de emails somente depois que o problema for detectado.</span><span class="sxs-lookup"><span data-stu-id="1b239-119"><sup>1</sup> This insight appears in the **Recommended for you** area of the Mail flow dashboard only after the issue is detected.</span></span> <span data-ttu-id="1b239-120">Caso contrário, você não o verá.</span><span class="sxs-lookup"><span data-stu-id="1b239-120">Otherwise, you won't see it.</span></span>
 
-- <span data-ttu-id="96395-120">Membros da função de **administrador do Exchange** .</span><span class="sxs-lookup"><span data-stu-id="96395-120">Members of **Exchange administrator** role.</span></span>
+<span data-ttu-id="1b239-121"><sup>2</sup> essa percepção não aparece no painel de fluxo de emails, mas fica visível na página de [relatório de encaminhamento](view-mail-flow-reports.md#forwarding-report) depois que o problema é detectado.</span><span class="sxs-lookup"><span data-stu-id="1b239-121"><sup>2</sup> This insight doesn't appear on the Mail flow dashboard, but is visible on the [Forwarding report](view-mail-flow-reports.md#forwarding-report) page after the issue is detected.</span></span> <span data-ttu-id="1b239-122">Caso contrário, você não o verá.</span><span class="sxs-lookup"><span data-stu-id="1b239-122">Otherwise, you won't see it.</span></span>
 
-- <span data-ttu-id="96395-121">Membros da **função de administrador de fluxo de emails** no centro de conformidade de & de segurança.</span><span class="sxs-lookup"><span data-stu-id="96395-121">Members of the **Mail flow administrator role** in the Security & Compliance Center.</span></span> <span data-ttu-id="96395-122">Se essa função for explicitamente atribuída a um usuário que não é membro das funções de administrador global ou administrador do Exchange:</span><span class="sxs-lookup"><span data-stu-id="96395-122">If this role is explicitly assigned to a user who isn't a member of the global administrator or Exchange administrator roles:</span></span>
+## <a name="permissions-required-to-view-the-mail-flow-dashboard"></a><span data-ttu-id="1b239-123">Permissões necessárias para exibir o painel de fluxo de emails</span><span class="sxs-lookup"><span data-stu-id="1b239-123">Permissions required to view the Mail flow dashboard</span></span>
 
-  - <span data-ttu-id="96395-123">O usuário deve fazer logon no centro de conformidade & segurança diretamente em <https://protection.office.com> .</span><span class="sxs-lookup"><span data-stu-id="96395-123">The user must log in to the Security & Compliance Center directly at <https://protection.office.com>.</span></span>
+<span data-ttu-id="1b239-124">O painel de fluxo de emails está disponível para membros dos seguintes grupos de rotas:</span><span class="sxs-lookup"><span data-stu-id="1b239-124">The Mail flow dashboard is available to members of the following route groups:</span></span>
 
-  - <span data-ttu-id="96395-124">O usuário só terá permissão somente leitura para o painel de fluxo de emails.</span><span class="sxs-lookup"><span data-stu-id="96395-124">The user will only have read-only permission to the mail flow dashboard.</span></span>
+- <span data-ttu-id="1b239-125">**Gerenciamento de organização** no centro de conformidade e segurança & (administradores globais).</span><span class="sxs-lookup"><span data-stu-id="1b239-125">**Organization Management** in the Security & Compliance Center (global admins).</span></span>
 
-  - <span data-ttu-id="96395-125">O usuário não terá acesso ao centro de administração do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="96395-125">The user won't have access to the Microsoft 365 admin center.</span></span>
+- <span data-ttu-id="1b239-126">**[Administrador do Exchange](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** no Azure AD.</span><span class="sxs-lookup"><span data-stu-id="1b239-126">**[Exchange Administrator](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** in Azure AD.</span></span>
 
-<span data-ttu-id="96395-126">Para obter mais informações sobre a função de administrador global, consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).</span><span class="sxs-lookup"><span data-stu-id="96395-126">For more information about the global administrator role, see [About Microsoft 365 admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).</span></span>
+- <span data-ttu-id="1b239-127">**Fluxo administrador** no centro de conformidade & segurança: se um membro desse grupo de função não for membro dos grupos de função administrador global ou administrador do Exchange, observe os seguintes problemas e requisitos:</span><span class="sxs-lookup"><span data-stu-id="1b239-127">**MailFlow Administrator** in the Security & Compliance Center: If a member of this role group is not also a member of the global administrator or Exchange administrator role groups, then note the following issues and requirements:</span></span>
 
-<span data-ttu-id="96395-127">Para obter informações sobre como atribuir funções de segurança & centro de conformidade aos usuários, consulte [conceder aos usuários acesso ao centro de conformidade & segurança](grant-access-to-the-security-and-compliance-center.md).</span><span class="sxs-lookup"><span data-stu-id="96395-127">For information on assigning Security & Compliance Center roles to users, see [Give users access to the Security & Compliance Center](grant-access-to-the-security-and-compliance-center.md).</span></span>
+  - <span data-ttu-id="1b239-128">O usuário deve fazer logon no centro de conformidade & segurança diretamente em <https://protection.office.com> .</span><span class="sxs-lookup"><span data-stu-id="1b239-128">The user must log in to the Security & Compliance Center directly at <https://protection.office.com>.</span></span>
+  - <span data-ttu-id="1b239-129">O usuário só terá permissão somente leitura para o painel de fluxo de emails.</span><span class="sxs-lookup"><span data-stu-id="1b239-129">The user will only have read-only permission to the Mail flow dashboard.</span></span>
+  - <span data-ttu-id="1b239-130">O usuário não terá acesso ao centro de administração do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="1b239-130">The user won't have access to the Microsoft 365 admin center.</span></span>
 
-## <a name="where-to-find-the-mail-flow-dashboard"></a><span data-ttu-id="96395-128">Onde encontrar o painel de fluxo de emails</span><span class="sxs-lookup"><span data-stu-id="96395-128">Where to find the mail flow dashboard</span></span>
+<span data-ttu-id="1b239-131">Para obter mais informações sobre permissões no centro de conformidade & segurança, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md) e [forneça aos usuários acesso ao centro de conformidade do & de segurança](grant-access-to-the-security-and-compliance-center.md).</span><span class="sxs-lookup"><span data-stu-id="1b239-131">For more information about permissions in the Security & Compliance Center, see [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md) and [Give users access to the Security & Compliance Center](grant-access-to-the-security-and-compliance-center.md).</span></span>
 
-1. <span data-ttu-id="96395-129">Vá para o centro de conformidade & segurança em [https://protection.office.com](https://protection.office.com) .</span><span class="sxs-lookup"><span data-stu-id="96395-129">Go to the Security & Compliance Center at [https://protection.office.com](https://protection.office.com).</span></span>
+## <a name="where-to-find-the-mail-flow-dashboard"></a><span data-ttu-id="1b239-132">Onde encontrar o painel de fluxo de emails</span><span class="sxs-lookup"><span data-stu-id="1b239-132">Where to find the Mail flow dashboard</span></span>
 
-2. <span data-ttu-id="96395-130">Expanda **fluxo de email** e selecione **painel**.</span><span class="sxs-lookup"><span data-stu-id="96395-130">Expand **Mail flow** and then select **Dashboard**.</span></span>
+<span data-ttu-id="1b239-133">Abra o centro de conformidade do & de segurança em <https://protection.office.com> , expanda **fluxo de email**e selecione **painel**.</span><span class="sxs-lookup"><span data-stu-id="1b239-133">Open the Security & Compliance Center at <https://protection.office.com>, expand **Mail flow**, and then select **Dashboard**.</span></span>
 
-   ![O painel de fluxo de emails no centro de conformidade & segurança](../../media/mail-flow-dashboard-v2.png)
+<span data-ttu-id="1b239-134">Para ir diretamente para o painel de fluxo de emails, abra <https://protection.office.com/mailflow/dashboard> .</span><span class="sxs-lookup"><span data-stu-id="1b239-134">To go directly to the Mail flow dashboard, open <https://protection.office.com/mailflow/dashboard>.</span></span>
