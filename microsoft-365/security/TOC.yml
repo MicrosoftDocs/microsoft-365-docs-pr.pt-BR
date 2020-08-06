@@ -489,28 +489,30 @@
             - name: Fluxo de emails no Centro de Conformidade e Segurança
               href: ./office-365-security/mail-flow-insights-v2.md
               items:
-                - name: Relatório de mapa de fluxo de email
+                - name: Visão geral sobre mensagens encaminhadas automaticamente
+                  href: ./office-365-security/mfi-auto-forwarded-messages-report.md
+                - name: Visão geral sobre correção de possíveis loop de email
+                  href: ./office-365-security/mfi-mail-loop-insight.md
+                - name: Visão geral sobre regras de correção de fluxo reduzido de email
+                  href: ./office-365-security/mfi-slow-mail-flow-rules-insight.md
+                - name: Mapa de fluxo de email
                   href: ./office-365-security/mfi-mail-flow-map-report.md
-                - name: Insight sobre o status do fluxo de mensagens dos principais domínios
-                  href: ./office-365-security/mfi-domain-mail-flow-status-insight.md
-                - name: Relatório de clientes de autenticação SMTP
-                  href: ./office-365-security/mfi-smtp-auth-clients-report.md
-                - name: Insight de correção de domínio do remetente
-                  href: ./office-365-security/mfi-sender-domain-insight.md
+                - name: Email de visão geral sobre novos domínios encaminhados
+                  href: ./office-365-security/mfi-new-domains-being-forwarded-email.md
+                - name: Visão geral sobre novos usuários encaminhando email
+                  href: ./office-365-security/mfi-new-users-forwarding-email.md
+                - name: Notificação de domínio não aceito
+                  href: ./office-365-security/mfi-non-accepted-domain-report.md
                 - name: Notificação de falha na entrega
                   href: ./office-365-security/mfi-non-delivery-report.md
-                - name: Relatório de domínio não aceito
-                  href: ./office-365-security/mfi-non-accepted-domain-report.md
-                - name: Fluxo de entrada e saída de emails
+                - name: Visão geral sobre fluxo de entrada e saída de emails
                   href: ./office-365-security/mfi-outbound-and-inbound-mail-flow.md
-                - name: Alertas de filas e filas
+                - name: Visão geral sobre filas
                   href: ./office-365-security/mfi-queue-alerts-and-queues.md
-                - name: Relatório de encaminhamento automático de mensagens
-                  href: ./office-365-security/mfi-auto-forwarded-messages-report.md
-                - name: Insight de loop de email
-                  href: ./office-365-security/mfi-mail-loop-insight.md
-                - name: Insights de regras de fluxo de email – modo lento
-                  href: ./office-365-security/mfi-slow-mail-flow-rules-insight.md
+                - name: Visão geral e relatório de clientes de autenticação SMTP
+                  href: ./office-365-security/mfi-smtp-auth-clients-report.md
+                - name: Insight sobre o status do fluxo de mensagens dos principais domínios
+                  href: ./office-365-security/mfi-domain-mail-flow-status-insight.md
         - name: Soluções de segurança
           items:
             - name: 'Diretrizes de segurança da Microsoft para campanhas políticas, instituições sem fins lucrativos e outras organizações Agile'
