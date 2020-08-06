@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-overview
 ms.custom: ''
 description: Configure a infraestrutura de segurança e serviços que permita aos seus funcionários trabalharem remotamente em qualquer lugar e a qualquer momento.
-ms.openlocfilehash: 76ffc861465508486abebfcd13a84acb2b0379c4
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: dc1f5a540b261437a0bf94132bd41929ce5d3546
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527441"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560914"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Capacite funcionários remotos com o Microsoft 365
 
@@ -71,7 +71,7 @@ Para atender aos critérios para trabalhadores remotos, use esses recursos e fun
 
 Para critérios de segurança e conformidade para funcionários remotos, confira [Implantar segurança e conformidade para funcionários remotos](empower-people-to-work-remotely-security-compliance.md)
 
-<a name="poster"></a> Para obter um resumo de 2 páginas desse cenário, consulte o pôster [Capacitar trabalhadores remotos](../downloads/empower-remote-workers.pdf).
+<a name="poster"></a> Para obter um resumo de 2 páginas dessa solução, consulte o pôster [Capacitar trabalhadores remotos](../downloads/empower-remote-workers.pdf).
 
 [![Pôster Capacitar trabalhadores remotos](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf)
 
