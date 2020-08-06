@@ -12,12 +12,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 86b644f7b35c6bcb2c02b6ee53ee468019caf75d
-  ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+  ms.openlocfilehash: ae67faeeae80f948b12eeb4af47c7bcc5d48148c
+  ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 07/22/2020
-  ms.locfileid: "45204774"
+  ms.lasthandoff: 08/04/2020
+  ms.locfileid: "46560822"
 productDirectory:
   title: Trabalho remoto seguro com o Microsoft 365 Business Premium
   items:
@@ -33,6 +33,10 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
     summary: O Azure AD Premium P1 agora está incluso no Microsoft 365 Business Premium!
     url: https://aka.ms/aadp1smbblog
+  - title: Participe do webinar de parceiros - Gerando lucro e reduzindo riscos no mundo do trabalho remoto!
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
+    summary: 19 de agosto, das 8 às 9 da manhã. Horário do Pacífico.
+    url: https://aka.ms/GrowwithMicrosoft365
 conceptualContent:
   items:
   - title: O que é o Microsoft 365 Business Premium?
@@ -80,9 +84,9 @@ conceptualContent:
     - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-smb-technical-fundamentals-content-content-used-for-delivery
       itemType: download
       text: Fundamentos técnicos
-    - url: https://www.microsoft.com/microsoft-365/partners/resources/securing-remote-work-checklist
+    - url: https://aka.ms/SMBSecurityKit
       itemType: download
-      text: Lista de verificação para proteger o trabalho remoto
+      text: Kit de Trabalho Remoto Seguro
     - url: https://cct.transform.microsoft.com/
       itemType: deploy
       text: Ferramenta de Consulta do Cliente
