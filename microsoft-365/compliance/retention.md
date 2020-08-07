@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: b435d80a6f2ce4f056e446bbc32e5580d063d4a9
-ms.sourcegitcommit: a53af7a228bb1f58cb8128a69a19da49f9e28700
+ms.openlocfilehash: ee256271b3520011db586d42e579b64b439a6210
+ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45372474"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588203"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -233,10 +233,24 @@ Para entender como e por que um rótulo de retenção é aplicado, em vez de out
 
 Um rótulo de retenção atribuído explicitamente tem precedência sobre um rótulo de retenção atribuído implicitamente. Para saber mais, confira a seção [Os princípios de retenção ou o que tem precedência](retention.md#the-principles-of-retention-or-what-takes-precedence) nesta página.
 
-#### <a name="using-content-search-to-find-all-content-with-a-specific-retention-label-applied-to-it"></a>Usar a Pesquisa de Conteúdo para localizar todo o conteúdo com um rótulo de retenção específico aplicado
+#### <a name="monitoring-retention-labels"></a>Monitorar rótulos de retenção
 
-Depois que os rótulos de retenção são atribuídos ao conteúdo, seja por usuários ou aplicados automaticamente, você pode usar a pesquisa de conteúdo para encontrar todo o conteúdo classificado com um rótulo de retenção específico.
-  
+No Centro de conformidade do Microsoft 365, use **Classificação de dados** > **Visão geral** para monitorar como seus rótulos de retenção estão sendo usados em seu locatário e identifique onde estão os itens rotulados. Para saber mais, incluindo pré-requisitos importantes, confira [Aprenda sobre seus dados - visão geral de classificação de dados](data-classification-overview.md).
+
+Voce pode fazer uma busca detalhada usando o [explorador de conteúdo](data-classification-content-explorer.md) e [explorador de atividade](data-classification-activity-explorer.md).
+
+> [!TIP]
+>Considere o uso de algumas das outras ideias de classificação de dados, como classificadores treináveis e tipos de informações confidenciais, para ajudar você a identificar o conteúdo que pode ser necessário reter, excluir, ou gerenciar como registros.
+
+O Centro de Segurança e Conformidade do Office 365 possui as informações equivalentes de visão geral para rótulos de retenção em **Governança de informações** > **Painel**, e informações detalhadas em **Governança de informações** > **Explorador das atividades de rótulo**. Para saber mais sobre como monitorar os rótulos de retenção deste centro de administração antigo, confira a documentação a seguir:
+- [Exibir os relatórios de governança de dados](view-the-data-governance-reports.md)
+- [Exibição do uso do rótulo com análises de rótulo](label-analytics.md)
+- [Exibir a atividade de rótulos de documentos](view-label-activity-for-documents.md)
+
+#### <a name="using-content-search-to-find-all-content-with-a-specific-retention-label"></a>Usar a Pesquisa de Conteúdo para localizar todo o conteúdo com um rótulo de retenção específico
+
+Depois que os rótulos de retenção são aplicados ao conteúdo, seja por usuários ou aplicados automaticamente, você pode usar a pesquisa de conteúdo para encontrar todos os itens que possuem um rótulo de retenção específico aplicado.
+
 Ao criar uma pesquisa de conteúdo, escolha a condição **Rótulo de retenção** e, em seguida, digite o nome completo do rótulo de retenção ou parte dele e use um caractere curinga. Para saber mais, veja [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md).
   
 ![Condição do rótulo de retenção](../media/retention-label-condition.png)
@@ -258,6 +272,7 @@ Use a tabela a seguir para ajudá-lo a identificar se deseja usar uma política 
 |Iniciar o período de retenção ao rotular ou com base em um evento | Não | Sim |
 |Revisão de disposição | Não| Sim |
 |Prova de disposição por até 7 anos | Não |Sim, quando o item é declarado um registro|
+|Auditoria de atividades administrativas| Sim | Sim|
 |Identifique os itens sujeitos à retenção: <br /> - Pesquisa de Conteúdo <br /> - Página de classificação de dados, explorador de conteúdo, explorador de atividades | <br /> Não <br /> Não | <br /> Sim <br /> Sim|
 
 Observe que você pode usar as políticas de retenção e os rótulos de retenção como métodos de retenção complementares. Por exemplo:
@@ -292,6 +307,10 @@ Explicação para os quatro níveis diferentes:
 4. **O período de exclusão mais curto tem precedência.** Da mesma forma, se o conteúdo estiver sujeito a várias configurações de retenção que excluem conteúdo sem um período de retenção, esse conteúdo será excluído ao fim do período de retenção mais curto. 
 
 Por fim, uma política de retenção ou um rótulo de retenção não pode excluir permanentemente qualquer conteúdo que esteja em espera para Descoberta Eletrônica. Quando a retenção for liberada, o conteúdo estará novamente qualificado para o processo de limpeza no local seguro para a carga de trabalho.
+
+## <a name="auditing-retention-configuration"></a>Configuração de retenção de auditoria
+
+As ações de administrador para as políticas de retenção e os rótulos de retenção são salvas no log de auditoria quando a [auditoria está habilitada](turn-audit-log-search-on-or-off.md). Por exemplo, um evento de auditoria é criado quando uma política de retenção ou um rótulo é criado, configurado ou excluído. Para a lista completa, confira [Política de retenção e atividades do rótulo de retenção](search-the-audit-log-in-security-and-compliance.md#retention-policy-and-retention-label-activities).
 
 ## <a name="powershell-cmdlets-for-retention-policies-and-retention-labels"></a>Cmdlets do Windows PowerShell para políticas de retenção e rótulos de retenção
 

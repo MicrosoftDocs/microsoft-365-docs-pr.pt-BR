@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O painel de classificação de dados permite visualizar a quantidade de dados confidenciais encontrados e classificados em sua organização.
-ms.openlocfilehash: ca08f292bae70d121a3ef157a482a09590bd7ba1
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 3198a1981ed7d4d5428452b55aeb22b234712354
+ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430324"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588213"
 ---
 # <a name="know-your-data---data-classification-overview"></a>Conheça seus dados - visão geral da classificação de dados
 
@@ -99,12 +99,12 @@ O cartão de identificação de confidencialidade mostra o número de itens (ema
 ![Captura da tela do espaço reservado que mostra a análise de conteúdo por classificação de rótulo de confidencialidade](../media/data-classification-top-sensitivity-labels-applied.png)
 
 > [!NOTE]
-> Se você ainda não criou ou publicou qualquer rótulo de confidencialidade ou se nenhum conteúdo tiver um rótulo de confidencialidade aplicado, esse cartão exibirá a mensagem "nenhum rótulo de confidencialidade detectado". Para começar a usar os rótulos, confira:
->- [rótulos de confidencialidade](sensitivity-labels.md) ou para AIP [Configurar a política de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/configure-policy) 
+> Se você ainda não criou ou publicou qualquer rótulo de confidencialidade ou se nenhum conteúdo tiver um rótulo de confidencialidade aplicado, esse cartão exibirá a mensagem "nenhum rótulo de confidencialidade detectado". Para começar a usar os rótulos de confidencialidade, confira:
+>- [Introdução aos rótulos de confidencialidade](get-started-with-sensitivity-labels.md) ou para AIP [Configurar a política de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/configure-policy)
 
 ## <a name="top-retention-labels-applied-to-content"></a>Principais rótulos de retenção aplicados ao conteúdo
 
-Os rótulos de retenção são usados para manejar a disposição do conteúdo de sua organização. Quando aplicados, eles podem ser usados para controlar quanto tempo um documento será mantido antes da exclusão, se ele deve ser revisado antes da exclusão, quando o período de retenção expira ou se ele deve ser marcado como um registro que nunca pode ser excluído. Para obter mais informações, consulte [Saiba mais sobre políticas e rótulos de retenção](retention.md).
+Os rótulos de retenção são usados para manejar a retenção e disposição do conteúdo de sua organização. Quando aplicados, eles podem ser usados para controlar como um documento será mantido antes da exclusão, se ele deve ser revisado antes da exclusão, quando o período de retenção expira e se ele deve ser marcado como um registro. Para obter mais informações, consulte [saiba mais sobre políticas e rótulos de retenção](retention.md).
 
 O cartão dos principais rótulos de retenção aplicados mostra quantos itens têm um determinado rótulo de retenção.
 
