@@ -1,8 +1,8 @@
 ---
 title: Etapas para configurar os recursos de proteção contra ameaças no Microsoft 365
 description: Saiba como implantar serviços e recursos de proteção contra ameaças no Microsoft 365 e5.
-ms.author: bcarter
-author: brendacarter
+ms.author: deniseb
+author: denisebmsft
 manager: dansimp
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 30ecb25ca68b23278aa8b2905c5f3aa8703cb7f1
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 2bbbe1d1af36333ced4209d889c19e7bad7195d6
+ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522080"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588223"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Configurar recursos de proteção contra ameaças no Microsoft 365
 
@@ -95,9 +95,8 @@ A proteção contra ameaças da Microsoft unifica alertas, incidentes, investiga
 
 A [proteção avançada contra ameaças do office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) (Office 365 ATP) protege sua organização contra ameaças mal-intencionadas em mensagens de email (anexos e URLs), documentos do Office e ferramentas de colaboração. A tabela a seguir lista os recursos e recursos de ATP do Office 365 que estão incluídos no Microsoft 365 E5:
 
-|||
-|---|---|
 |Recursos de configuração, proteção e detecção|Recursos de automação, investigação, correção e educação|
+|---|---|
 |[Anexos Seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[Links Seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[Documentos seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[ATP para SharePoint, OneDrive e Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[Proteção anti-phishing do ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[Controladores de Ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[Explorador de ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[Investigação e resposta automatizadas](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[Simulador de ataque](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
 |
 

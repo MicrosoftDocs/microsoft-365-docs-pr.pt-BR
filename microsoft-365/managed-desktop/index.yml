@@ -1,84 +1,53 @@
-### YamlMime:YamlDocument
-documentType: LandingData
-title: Documentação e recursos da Área de Trabalho Gerenciada da Microsoft
+### YamlMime:Landing
+title: Documentação da Área de Trabalho Gerenciada da Microsoft
+summary: A Área de Trabalho Gerenciada da Microsoft reúne o Microsoft 365 Enterprise, o gerenciamento de dispositivos baseados em nuvem da Microsoft e o monitoramento de segurança, permitindo que você libere suas equipes de TI para se concentrarem nas principais necessidades comerciais.
 metadata:
   title: Documentação da Área de Trabalho Gerenciada da Microsoft
-  description: null
-  keywords: Gerenciamento de aplicativos de dispositivo
+  description: A Área de Trabalho Gerenciada da Microsoft reúne o Microsoft 365 Enterprise, o gerenciamento de dispositivos baseados em nuvem da Microsoft e o monitoramento de segurança, permitindo que você libere suas equipes de TI para se concentrarem nas principais necessidades comerciais.
+  keywords: device, app, management
+  ms.service: m365-md
+  ms.topic: landing-page
   author: jaimeo
   ms.author: jaimeo
-  ms.topic: landing-page
-  ms.devlang: na
-  ms.service: m365-md
-sections:
-  - items:
-      - type: markdown
-        text: 'A Área de Trabalho Gerenciada da Microsoft reúne o Microsoft 365 Enterprise, o gerenciamento de dispositivos baseados em nuvem da Microsoft e o monitoramento de segurança, permitindo que você libere suas equipes de TI para se concentrarem nas principais necessidades comerciais.'
-  - items:
-      - type: list
-        style: cards
-        className: cardsM
-        columns: 2
-        items:
-          - href: intro/index.md
-            html: '<p>Introdução à Área de Trabalho Gerenciada da Microsoft para os tomadores de decisões – o que é, como funciona e o que ela pode fazer por você</p>'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_overview.svg'
-              alt: ''
-            title: O que é a Área de Trabalho Gerenciada da Microsoft?
-          - href: service-description/index.md
-            html: <p>Descrição detalhada de todas as partes da Área de Trabalho Gerenciada da Microsoft</p>
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
-              alt: ''
-            title: Descrição de serviço
-          - href: get-ready/index.md
-            html: <p>Todas as etapas para preparar o ambiente e a organização para trabalhar com o serviço</p>
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_support.svg'
-              alt: ''
-            title: Prepare-se
-          - href: get-started/index.md
-            html: '<p>Integre sua organização com a Área de Trabalho Gerenciada da Microsoft, incluindo a configuração de dispositivos e a implantação de aplicativos</p>'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_whats-new.svg'
-              alt: ''
-            title: Introdução
-          - href: working-with-managed-desktop/index.md
-            html: <p>Tudo sobre suas operações diárias com o serviço</p>
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_portal.svg'
-              alt: ''
-            title: Trabalhe com a Área de Trabalho Gerenciada da Microsoft
-  - title: Novos artigos e postagens de blog
-    items:
-      - type: paragraph
-        text: Leia as melhores e mais recentes informações que você precisa saber.
-      - type: list
-        style: cards
-        className: cardsM
-        columns: 2
-        items:
-          - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482'
-            title: '[Roadmap] Seu Roteiro completo para a Área de Trabalho Gerenciada da Microsoft'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
-          - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182'
-            title: '[Whitepaper] Estude: Demanda crescente para a Área de trabalho gerenciada'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
-          - href: 'https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw'
-            title: '[E-book] Agrade sua empresa com um local de trabalho moderno'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_guide.svg'
-              alt: ''
-  - title: Vídeos
-    items:
-      - type: paragraph
-        text: Saiba mais sobre os benefícios da Área de Trabalho Gerenciada da Microsoft com o vice-presidente de tecnologia na Indiana Pacers.
-      - type: markdown
-        text: '>[!VIDEO https://www.youtube.com/embed/GXVRu49Gmxc]'
-      - type: paragraph
-        text: O Gerente Geral da Área de Trabalho Gerenciada da Microsoft compartilha todos os destaques do serviço na conferência anual Ignite.
-      - type: markdown
-        text: '>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ksbj]'
+  ms.date: 07/13/2020
+  ms.openlocfilehash: 08ff51dcc2ecc7bb5f7a11616f011964d99287f2
+  ms.sourcegitcommit: 48f3c002678906189bfba079bbf055d67d08a60f
+  ms.translationtype: HT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 08/05/2020
+  ms.locfileid: "46564138"
+landingContent:
+- title: Sobre a Área de Trabalho Gerenciada da Microsoft
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que é a Área de Trabalho Gerenciada da Microsoft?
+      url: /microsoft-365/managed-desktop/intro/
+    - text: Descrição do serviço
+      url: /microsoft-365/managed-desktop/service-description
+  - linkListType: get-started
+    links:
+    - text: Prepare-se
+      url: get-ready/index.md
+    - text: Comece
+      url: get-started/index.md
+    - text: Trabalhe com a Área de Trabalho Gerenciada da Microsoft
+      url: /microsoft-365/managed-desktop/working-with-managed-desktop/
+- title: Novos artigos e postagens de blog
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: '[Roadmap] Seu Roteiro completo para a Área de Trabalho Gerenciada da Microsoft'
+      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482
+    - text: '[Whitepaper] Estude: Demanda crescente para a Área de trabalho gerenciada'
+      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182
+    - text: '[E-book] Agrade sua empresa com um local de trabalho moderno'
+      url: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw
+- title: Vídeos
+  linkLists:
+  - linkListType: video
+    links:
+    - text: Aprenda sobre os benefícios da Área de Trabalho Gerenciada da Microsoft com o diretor de engenharia do Grupo Lloyds Banking.
+      url: https://www.youtube.com/watch?v=B9Gqj66qxNo&feature=youtu.be
+    - text: Destaques da Área de Trabalho Gerenciada da Microsoft na conferência anual Ignite
+      url: /microsoft-365/managed-desktop/service-description

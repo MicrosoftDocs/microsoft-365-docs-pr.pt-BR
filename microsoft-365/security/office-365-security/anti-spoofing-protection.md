@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Os administradores podem saber mais sobre os recursos de anti-falsificação disponíveis na Proteção do Exchange Online (EOP), que podem ajudar a reduzir os ataques de phishing de remetentes e domínios falso.
-ms.openlocfilehash: c28f5cf18a8da3be06906eb1e6b118c856c40066
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b9d8d3b0118083886f2a5d18f64b5d12e1d432af
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209026"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577843"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Proteção antifalsificação no EOP
 
@@ -119,7 +119,7 @@ Para obter mais informações sobre o DMARC, confira [Usar o DMARC para validar 
 
 ## <a name="reports-of-how-many-messages-were-marked-as-spoofed"></a>Relatórios de quantas mensagens foram marcadas como falsificadas
 
-Organizações da EOP podem usar as **Detecções de falsificação** no painel relatórios no Centro de Conformidade e Segurança. Para mais informações, confira [Relatório de Detecções de Falsificação](view-email-security-reports.md#spoof-detections-report).
+As organizações EOP podem usar o relatório de **detecções de Falsificação** no painel de relatórios do Centro de Segurança e Conformidade. Para mais informações, confira [Relatório de Detecções de Falsificação](view-email-security-reports.md#spoof-detections-report).
 
 A organização da Proteção Avançada contra Ameaças do Office 365 (ATP) pode usar o Explorador de Ameaças no Centro de Conformidade e Segurança para exibir informações sobre tentativas de phishing. Para obter mais informações, confira [Investigação e resposta a ameaças do Microsoft 365](office-365-ti.md).
 
@@ -129,12 +129,12 @@ Sabe-se que as listas de endereçamento (também conhecidas como listas de discu
 
 Por exemplo, Gabriela Laureano (glaureano@contoso.com) está interessada em observar pássaros, ingressa na lista de endereçamento birdwatchers@fabrikam.com e envia a seguinte mensagem à lista:
 
-> **De:** "Laura Cunha" \<lauracunha@contoso.com\> <br/> **Para:** Lista de Discussão de Observação de Pássaros \<observadoresdepassaros@fabrikam.com\> <br/> 
+> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br/> 
 **Assunto:** Excelente vista de galos azuis no topo do Monte. Rainier esta semana <br/><br/>Alguém quer conferir esta semana a vista do Monte Rainier?
 
 O servidor da lista de endereçamento recebe a mensagem, modifica seu conteúdo e a repete aos membros da lista. A mensagem repetida tem o mesmo endereço De (glaureano@contoso.com), mas uma marca é adicionada à linha de assunto e um rodapé é adicionado à parte inferior da mensagem. Esse tipo de modificação é comum em listas de endereçamento, e pode resultar em falsos positivos para falsificação.
 
-> **De:** "Laura Cunha" \<lauracunha@contoso.com\> <br/> **Para:** Lista de Discussão de Observação de Pássaros \<observadoresdepassaros@fabrikam.com\> <br/> **Assunto:** [OBSERVAÇÃODEPÁSSAROS] Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <br/><br/> Alguém quer conferir esta semana a vista do Monte Rainier? <br/><br/> Esta mensagem foi enviada para a lista de discussão de Observação de Pássaros. Você pode cancelar a assinatura a qualquer momento.
+> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br/> **Assunto:** [OBSERVAÇÃODEPÁSSAROS] Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <br/><br/> Alguém quer conferir esta semana a vista do Monte Rainier? <br/><br/> Esta mensagem foi enviada para a lista de discussão de Observação de Pássaros. Você pode cancelar a assinatura a qualquer momento.
 
 Para ajudar as mensagens da lista de endereçamento a passarem nas verificações antifalsificação, execute as seguintes etapas com base no controle da lista de endereçamento:
 

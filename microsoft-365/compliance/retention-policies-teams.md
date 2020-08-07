@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: 11e374dac4e1e0a13d3bdbc642922dca1b8954f4
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 9c7232b5e90dd51322755220c40198a5bd077cce
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127378"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577969"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Saiba mais sobre retenção para o Microsoft Teams
 
@@ -103,7 +103,9 @@ Estamos trabalhando continuamente para otimizar a funcionalidade de retenção n
 
 - **O Teams não é compatível com retenção avançada.** Ao criar uma política de retenção, se você escolher as [Configurações avançadas para identificar conteúdo que atende a determinadas condições](create-retention-policies.md#advanced-settings-to-identify-content-that-meets-specific-conditions), os locais do Teams não estarão disponíveis. Atualmente, a retenção no Teams se aplica a todo o conteúdo de chat e de mensagem de canal quando você seleciona esses locais.
 
-- **As mensagens do Teams em canais privados não são incluídas quando você configura uma política de retenção para mensagens de canal do Teams**. No momento canais privados não são suportados pelas políticas de retenção. 
+- **As mensagens do Teams em canais privados não são incluídas quando você configura uma política de retenção para mensagens de canal do Teams**. No momento, canais privados não são suportados pelas políticas de retenção. 
+
+- **Curtidas e outras reações não são retidas no bate-papo das equipes e mensagens do canal**. As reações de outras pessoas na forma de emoticons não são suportadas pelas políticas de retenção.
 
 - **O Teams pode levar até sete dias para limpar as mensagens expiradas**. Uma política de retenção aplicada ao Teams excluirá mensagens de chat e de canal ao fim do período de retenção. No entanto, pode levar de três a sete dias para limpar essas mensagens e excluí-las permanentemente. Além disso, as mensagens de chat e de canal serão pesquisáveis com as ferramentas de descoberta eletrônica durante o período de retenção e quando as mensagens forem excluídas permanentemente.
     
@@ -119,4 +121,4 @@ Estamos trabalhando continuamente para otimizar a funcionalidade de retenção n
 
 ## <a name="configuration-guidance"></a>Instruções de configuração
 
-Se você estiver pronto para configurar a retenção no Microsoft 365, confira [Introdução às políticas de retenção e os rótulos de retenção](get-started-with-retention.md).
+Se você estiver pronto para configurar a retenção no Microsoft 365, confira a [Introdução às políticas de retenção e aos rótulos de retenção](get-started-with-retention.md).
