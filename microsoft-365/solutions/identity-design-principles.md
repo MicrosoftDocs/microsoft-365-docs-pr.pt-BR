@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 0a4dd8c3c93402409863b18b400184d4e60eeee6
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 427d266ea46c184a87b8b0b4fbe242adfb8deff1
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521036"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597538"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Para identificar e além disso: o ponto de vista de um arquiteto
 
@@ -26,7 +26,7 @@ Neste artigo, [Alex Shteynberg](https://www.linkedin.com/in/alex-shteynberg/), a
 
 ## <a name="about-the-author"></a>Sobre o autor
 
-:::image type="content" source="../media/solutions-architecture-center/identity-and-beyond-alex-shteynberg.jpg" alt-text="Foto Alex Shteynberg":::
+![Foto Alex Shteynberg](../media/solutions-architecture-center/identity-and-beyond-alex-shteynberg.jpg)
 
 Sou um arquiteto técnico principal no centro de tecnologia da [Microsoft](https://www.microsoft.com/mtc?rtc=1)Nova York. Na maioria dos casos, eu trabalho com grandes clientes e requisitos complexos. Meu ponto de vista e opiniões são baseados nessas interações e podem não se aplicar a todas as situações. No entanto, caso possamos ajudar os clientes com os desafios mais complexos, podemos ajudar todos os clientes. 
 
@@ -78,7 +78,7 @@ Alguns conceitos adicionais que encontrei muitos clientes (e funcionários da Mi
 
 Há muita documentação sobre a plataforma de identidade da Microsoft – Azure Active Directory (Azure AD). Para aqueles que começam a ser iniciados, geralmente fica mais difícil. Mesmo depois de aprender, acompanhar a inovação e a mudança constantes podem ser desafiadores. Em minhas interações com o cliente, muitas vezes acho que servem como "Tradutor" entre as metas de negócios e as abordagens "boa, melhor, melhores" para lidar com elas (bem como "observações do Cliff") para estes tópicos. Raramente há uma resposta perfeita e a decisão "certa" é um equilíbrio de vários fatores de risco. Veja a seguir algumas das áreas comuns de perguntas e confusão que eu tenho para discutir com os clientes.
 
-### <a name="provisioning"></a>Provisioning
+### <a name="provisioning"></a>Provisionamento
 O Azure AD não resolve a falta de governança no seu mundo de identidade! A [governança de identidade](https://docs.microsoft.com/azure/active-directory/governance/identity-governance-overview) deve ser um elemento crítico independente de qualquer decisão na nuvem. Os requisitos de governança mudam com o tempo, por que ele é um programa e não uma ferramenta. 
 
 [Azure ad Connect](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-azure-ad-connect) vs. [Microsoft Identity Manager](https://docs.microsoft.com/microsoft-identity-manager/microsoft-identity-manager-2016) (mim) vs. outro (terceiro ou personalizado)? Economize muita dor de problemas agora e no futuro e vá para o Azure AD Connect. Há todos os tipos de Smarts nesta ferramenta para lidar com as configurações do cliente peculiar e inovações contínuas. 
@@ -106,7 +106,8 @@ Alguns clientes habilitam a Federação + PHS principalmente para:
 
 Muitas vezes, eu passo os clientes por meio do fluxo de autenticação de cliente para esclarecer algumas concepções erradas. O resultado se parece com a imagem abaixo, que não é tão boa quanto o processo interativo de chegar lá.
 
-:::image type="content" source="../media/solutions-architecture-center/identity-beyond-whiteboard-example.png" alt-text="conversa de exemplo de quadro de comunicações":::
+
+![Conversa de exemplo de quadro de comunicações](../media/solutions-architecture-center/identity-beyond-whiteboard-example.png)
 
 Esse tipo de desenho de quadro de comunicações ilustra onde as políticas de segurança são aplicadas no fluxo de uma solicitação de autenticação. Neste exemplo, as políticas impostas pelo serviço de Federação do Active Directory (AD FS) são aplicadas à primeira solicitação de serviço, mas não às solicitações de serviço subsequentes. Esse é pelo menos um motivo para mover os controles de segurança para a nuvem o máximo possível.
 
@@ -122,7 +123,7 @@ Por [Wikipédia](https://en.wikipedia.org/wiki/Authorization), "para autorizar" 
 
 O mecanismo de política do Azure AD é implementado usando [políticas de acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). Esse sistema depende das informações de vários outros sistemas de detecção de ameaças para tomar decisões dinâmicas. Um modo de exibição simples seria algo semelhante à ilustração a seguir.
 
-:::image type="content" source="../media/solutions-architecture-center/identity-and-beyond-illustration-3.png" alt-text="Mecanismo de política no Azure AD":::
+![Mecanismo de política no Azure AD](../media/solutions-architecture-center/identity-and-beyond-illustration-3.png)
 
 Combinar todos esses sinais juntos permite políticas dinâmicas como estas:
 - Se uma ameaça for detectada no dispositivo, seu acesso aos dados será reduzido apenas para Web, sem a capacidade de baixar.
@@ -149,12 +150,11 @@ O Azure AD tem recursos detalhados [de auditoria e relatórios](https://docs.mic
 
 Não se assuste! Isso não significa que o Exchange está sendo preterido (ou o SharePoint etc.) Ele ainda é um serviço principal. O que eu quis dizer é, por muito tempo, os fornecedores de tecnologia fizeram a transição da experiência do usuário (UX) para englobar componentes de vários serviços. No Microsoft 365, um exemplo simples é "[anexos modernos](https://support.office.com/article/Attach-files-or-insert-pictures-in-Outlook-email-messages-BDFAFEF5-792A-42B1-9A7B-84512D7DE7FC)", onde os anexos de email são armazenados no SharePoint Online ou no onedrive for Business. 
 
-:::image type="content" source="../media/solutions-architecture-center/modern-attachments.png" alt-text="anexar um arquivo a um email":::
-
+![Anexar um arquivo a um email](../media/solutions-architecture-center/modern-attachments.png)
 
 Olhando para o cliente do Outlook, você pode ver vários serviços que estão "conectados" como parte dessa experiência, e não apenas o Exchange. Isso inclui o Azure AD, o Microsoft Search, aplicativos, perfil, conformidade e grupos do Office 365. 
 
-:::image type="content" source="../media/solutions-architecture-center/identity-and-beyond-conceptual-screenshot.png" alt-text="Interface do Outlook com textos explicativos":::
+![Interface do Outlook com textos explicativos](../media/solutions-architecture-center/identity-and-beyond-conceptual-screenshot.png)
 
 Leia sobre a [estrutura fluida da Microsoft](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-ignite-blog-microsoft-fluid-framework-preview/ba-p/978268) para visualização dos recursos futuros. Na visualização agora, posso ler e responder às conversas do Microsoft Teams diretamente no Outlook. Na verdade, o [cliente do teams](https://products.office.com/microsoft-teams/download-app) é um dos exemplos mais proeminentes dessa estratégia. 
 
@@ -307,7 +307,7 @@ Costumo ser perguntado se há uma maneira de separar as funções de alto privil
 
 O RBAC (controle de acesso baseado em função) do Azure permite o gerenciamento de acesso refinado para o Azure. Usando o RBAC, você pode gerenciar o acesso a recursos, concedendo aos usuários as permissões mais baixas necessárias para executar seus trabalhos. Os detalhes estão fora do escopo deste documento, mas para obter mais informações sobre o RBAC, confira [o que é controle de acesso baseado em função (RBAC) no Azure?](https://docs.microsoft.com/azure/role-based-access-control/overview) O RBAC é importante, mas apenas parte das considerações de governança para o Azure. A [estrutura de adoção em nuvem](https://docs.microsoft.com/azure/cloud-adoption-framework/govern/) é um bom ponto de partida para saber mais. Eu gosto de como meu amigo, Andres Ravinet orienta os clientes passo a passo por meio de vários componentes para decidir sobre a abordagem. O modo de exibição de alto nível para vários elementos (não tão bons quanto o processo de acessar o modelo de cliente real) é algo assim:
 
-:::image type="content" source="../media/solutions-architecture-center/identity-beyond-illustration-5.png" alt-text="visão de alto nível dos componentes do Azure para a administração delegada":::
+![Visão de alto nível dos componentes do Azure para a administração delegada](../media/solutions-architecture-center/identity-beyond-illustration-5.png)
 
 Como você pode ver na imagem acima, muitos outros serviços devem ser considerados como parte do design (ex.: [políticas do Azure](https://docs.microsoft.com/azure/governance/policy/overview), [plantas do Azure](https://docs.microsoft.com/azure/governance/blueprints/overview), [grupos de gerenciamento](https://docs.microsoft.com/azure/governance/management-groups/), etc.)
 

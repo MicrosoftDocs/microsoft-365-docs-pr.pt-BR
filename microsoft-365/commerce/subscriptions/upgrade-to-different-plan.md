@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,18 +18,14 @@ ms.custom:
 - SaRA
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-- GEA150
-description: Saiba como atualizar para uma nova assinatura.
-ms.openlocfilehash: 2a0dcff5b4326fc75b4e8e4154ee73e0ac17897d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Saiba como atualizar para um plano diferente.
+ms.openlocfilehash: 55667646637cfd2ad6dd56e2361b0c41b136a79e
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403169"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597614"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Atualizar para um plano diferente
 
@@ -78,6 +74,10 @@ Quando você usa a guia **atualização** , os planos para os quais você pode a
 
 Se você quiser mudar para um plano com menos serviços, pode alterar os [planos manualmente](change-plans-manually.md)ou chamar o [suporte](../../admin/contact-support-for-business-products.md) para obter ajuda.
 
+## <a name="i-only-want-to-upgrade-some-of-my-users-how-do-i-do-that"></a>Desejo apenas atualizar alguns de meus usuários. Como faço isso?
+
+Se você só quiser atualizar alguns usuários para um plano diferente, mas precisar comprar a nova assinatura primeiro, confira [alterar planos manualmente](change-plans-manually.md). Se você já tem a assinatura para a qual deseja atualizar os usuários, consulte [mover usuários para uma assinatura diferente](move-users-different-subscription.md).
+
 ## <a name="why-some-changes-take-longer"></a>Por que algumas alterações levam mais tempo
 
 **Número de usuários atribuídos:** Se você tiver um grande número de usuários atribuídos, levará mais tempo para fazer a atualização para movê-lo para o novo plano.
@@ -88,7 +88,7 @@ Se você quiser mudar para um plano com menos serviços, pode alterar os [planos
 
 Se você não vir nenhum plano na guia **atualização** , significa que seu plano não pode ser atualizado automaticamente. Em alguns casos, talvez seja possível resolver o problema para que você possa exibir os planos disponíveis para atualização, ou talvez seja possível atualizar ou alterar os planos manualmente.
 
- ### <a name="why-are-there-no-plans-listed-to-upgrade"></a>Por que não há planos listados para atualizar?
+### <a name="why-are-there-no-plans-listed-to-upgrade"></a>Por que não há planos listados para atualizar?
 
 #### <a name="you-cant-upgrade-subscriptions-now-because-you-have-more-users-than-licenses"></a>Não é possível atualizar assinaturas agora porque você tem mais usuários do que as licenças.
 

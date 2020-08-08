@@ -13,12 +13,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 2bbbe1d1af36333ced4209d889c19e7bad7195d6
-ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
+ms.openlocfilehash: fb1290a0f0b884fdbc630cbfcd10cd1102c8acae
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588223"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597504"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Configurar recursos de proteção contra ameaças no Microsoft 365
 
@@ -156,7 +156,7 @@ A [proteção avançada contra ameaças do Microsoft defender](https://docs.micr
 
 Após configurar e implantar seus serviços e recursos de proteção contra ameaças, a próxima etapa é monitorar as detecções de ameaças e tomar as medidas apropriadas. O melhor ponto de partida é o centro de segurança do Microsoft 365 ( [https://security.microsoft.com](https://security.microsoft.com) ), onde você pode monitorar e gerenciar a segurança em suas identidades, dados, dispositivos, aplicativos e infraestrutura da Microsoft. 
 
-:::image type="content" source="../media/solutions-architecture-center/m365-security-center.png" alt-text="Centro de segurança do Microsoft 365":::
+![Centro de segurança do Microsoft 365](../media/solutions-architecture-center/m365-security-center.png)
 
 A central de segurança do Microsoft 365 destina-se especificamente às equipes de administradores de segurança e operações de segurança. No centro de segurança do Microsoft 365, você pode:
 - Veja a integridade geral da segurança da sua organização com [Pontuação segura](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score).
