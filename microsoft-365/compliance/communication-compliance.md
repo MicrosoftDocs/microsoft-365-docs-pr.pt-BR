@@ -18,16 +18,16 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 71e0a631afa596e9cedf939cf3dcb13eec599d5d
-ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
+ms.openlocfilehash: cd796a6bd5faebc87b2f7c9cab36fe17be41fe2e
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45101666"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597462"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Conformidade com comunicações no Microsoft 365
 
-A conformidade com comunicações faz parte do novo conjunto de soluções de risco do insider no Microsoft 365 que ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e realizar ações de correção para mensagens inadequadas em sua organização. As políticas predefinidas e personalizadas permitem que você examine as comunicações internas e externas para correspondências de política, de modo que eles possam ser examinados por revisores designados. Os revisores podem investigar emails varridos, Microsoft Teams, Yammer ou comunicações de terceiros em sua organização e tomar as ações de correção apropriadas para garantir que eles estejam em conformidade com os padrões de mensagem da sua organização.
+Conformidade de comunicação é uma solução de risco Insider no Microsoft 365 que ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e agir em mensagens inadequadas em sua organização. As políticas predefinidas e personalizadas permitem que você examine as comunicações internas e externas para correspondências de política, de modo que eles possam ser examinados por revisores designados. Os revisores podem investigar emails varridos, Microsoft Teams, Yammer ou comunicações de terceiros em sua organização e tomar as ações apropriadas para garantir que eles estejam em conformidade com os padrões de mensagens da sua organização.
 
 As políticas de conformidade de comunicação no Microsoft 365 ajudam a superar muitos desafios modernos associados à conformidade e às comunicações internas e externas, incluindo:
 
@@ -35,7 +35,7 @@ As políticas de conformidade de comunicação no Microsoft 365 ajudam a superar
 - O aumento do volume de dados da mensagem
 - Aplicação de regulamentações e risco de multas
 
-Em algumas organizações, pode haver uma separação de tarefas entre o suporte de ti e o grupo de gerenciamento de conformidade. A Microsoft 365 oferece suporte à separação entre a configuração de conformidade de comunicação e a configuração de políticas para a verificação de comunicações. Por exemplo, o grupo de ti de uma organização pode ser responsável por configurar permissões e grupos de função para dar suporte a políticas de conformidade de comunicação configuradas e gerenciadas pela equipe de conformidade da organização.
+Além disso, pode haver uma separação de direitos entre seus administradores de ti e sua equipe de gerenciamento de conformidade. A conformidade de comunicação oferece suporte à separação entre a configuração de políticas e a investigação e análise de mensagens. Por exemplo, o grupo de ti da sua organização pode ser responsável pela configuração de permissões, grupos, políticas e investigadores de funções de conformidade de comunicação, e investigadores e revisores podem ser responsáveis pelas ações de triagem, revisão e atenuação de mensagens.
 
 Para obter uma visão geral rápida da conformidade de comunicação, confira o artigo [detectar Workplace assédio e responder com conformidade de comunicação no microsoft 365](https://youtu.be/z33ji7a7Zho) video no [canal Microsoft mecânica](https://www.youtube.com/user/OfficeGarageSeries).
 
@@ -45,7 +45,7 @@ As políticas de conformidade de comunicação podem ajudar na revisão de mensa
 
 - **Políticas corporativas**
 
-    Os funcionários devem estar em conformidade com o uso aceitável, padrões éticos e outras políticas corporativas em todas as comunicações relacionadas aos negócios. As políticas de conformidade de comunicação podem detectar correspondências de política e ajudá-lo a realizar ações corretivas para ajudar a reduzir esses tipos de incidentes. Por exemplo, você pode examinar as comunicações de funcionários em sua organização em busca de possíveis problemas de recursos humanos, como assédio ou uso de linguagem inadequada ou ofensiva.
+    Os usuários devem estar em conformidade com o uso aceitável, padrões éticos e outras políticas corporativas em todas as comunicações relacionadas aos negócios. As políticas de conformidade de comunicação podem detectar correspondências de política e ajudá-lo a realizar ações corretivas para ajudar a reduzir esses tipos de incidentes. Por exemplo, você poderia examinar as comunicações do usuário em sua organização em busca de possíveis problemas de recursos humanos, como assédio ou uso de linguagem inadequada ou ofensiva.
 
 - **Gerenciamento de risco**
 
@@ -53,11 +53,11 @@ As políticas de conformidade de comunicação podem ajudar na revisão de mensa
 
 - **Conformidade normativa**
 
-    A maioria das organizações deve estar em conformidade com algum tipo de padrões de conformidade normativa como parte de seus procedimentos operacionais normais. Essas regulamentações geralmente exigem que as organizações implementem algum tipo de processo de supervisão ou supervisão para mensagens que sejam apropriadas para o seu setor. A regra 3110 da autoridade de regulamentação do setor financeiro (FINRA) é um bom exemplo de um requisito para que as organizações tenham procedimentos de supervisão em vigor para verificar as comunicações dos funcionários e os tipos de negócios nos quais ele está participando. Outro exemplo pode ser uma necessidade de revisar as comunicações do corretor para o revendedor em sua organização para proteger contra possíveis atividades de dinheiro Laundering, Insider Trading, collusion ou Bribery. As políticas de conformidade de comunicação podem ajudar sua organização a atender a esses requisitos fornecendo um processo de verificação e de relatório sobre comunicações corporativas. Para obter mais informações sobre o suporte a organizações financeiras, consulte [Key Compliance and Security Considerations for US Banking e mercados de capital](../solutions/financial-services-secure-collaboration.md).
+    A maioria das organizações deve estar em conformidade com algum tipo de padrões de conformidade normativa como parte de seus procedimentos operacionais normais. Essas regulamentações geralmente exigem que as organizações implementem algum tipo de processo de supervisão ou supervisão para mensagens que sejam apropriadas para o seu setor. A regra 3110 da autoridade de regulamentação do setor financeiro (FINRA) é um bom exemplo de um requisito para que as organizações tenham procedimentos de supervisão em vigor para verificar as comunicações do usuário e os tipos de negócios nos quais ele está participando. Outro exemplo pode ser uma necessidade de revisar as comunicações do corretor para o revendedor em sua organização para proteger contra possíveis atividades de dinheiro Laundering, Insider Trading, collusion ou Bribery. As políticas de conformidade de comunicação podem ajudar sua organização a atender a esses requisitos fornecendo um processo de verificação e de relatório sobre comunicações corporativas. Para obter mais informações sobre o suporte a organizações financeiras, consulte [Key Compliance and Security Considerations for US Banking e mercados de capital](../solutions/financial-services-secure-collaboration.md).
 
 ## <a name="new-enhancements"></a>Novos aprimoramentos
 
-A conformidade com comunicações no Microsoft 365 baseia-se nos recursos das [políticas de supervisão no Office 365](supervision-policies.md) com vários novos aprimoramentos:
+A conformidade de comunicação no Microsoft 365 oferece vários recursos importantes para ajudar a resolver problemas de conformidade em suas plataformas de mensagens:
 
 - Modelos inteligentes personalizáveis
 - Fluxos de trabalho de correção flexíveis
@@ -70,7 +70,7 @@ A conformidade com comunicações no Microsoft 365 baseia-se nos recursos das [p
 Modelos inteligentes personalizáveis na conformidade de comunicação permitem que você aplique o Machine Learning para detectar com inteligência as violações de comunicação em sua organização.
 
 - **Modelos pré-configurados personalizáveis**: novos modelos de política ajudam a lidar com os riscos de comunicação mais comuns. A criação da diretiva inicial e a atualização de acompanhamento são agora mais rápida com o predefinido e com o antiassédio, informações confidenciais e modelos de conformidade normativa pré-definidos.
-- **Novo suporte de aprendizado de máquina**: os [classificadores](classifier-getting-started-with.md) incorporados de ameaças, assédio e profanação ajudam a reduzir falsos positivos em mensagens verificadas, poupando o tempo dos revisores durante o processo de investigação e correção.
+- **Novo suporte de aprendizado de máquina**: a ameaça interna, assédio, profanação e [classificadores](classifier-getting-started-with.md) de imagem ajudam a reduzir falsos positivos em mensagens verificadas, poupando o tempo dos revisores durante o processo de investigação e correção.
 - **Melhor Construtor de condições**: a configuração de condições de política agora é simplificada em uma única experiência integrada no assistente de política, reduzindo a confusão em como as condições são aplicadas para políticas.
 
 ### <a name="flexible-remediation-workflows"></a>Fluxos de trabalho de correção flexíveis
@@ -84,6 +84,7 @@ Os fluxos de trabalho de correção internos permitem que você identifique rapi
 - **Novos filtros**: investigue e corrija alertas de política mais rapidamente com filtros de mensagem para vários campos, incluindo remetente, destinatário, data, domínios e muito mais.
 - **Visualizações de mensagens aprimoradas**: as ações de investigação e correção agora são mais rápidas com novas exibições de fonte de mensagens, de texto e de anotações. Os anexos de mensagem agora são visíveis para fornecer contexto completo ao realizar ações de correção.
 - **Exibição de histórico do usuário**: o modo de exibição histórico de todas as atividades de correção de mensagens do usuário, como notificações e escalonamentos passados para correspondências de política, agora fornece aos revisores mais contexto durante o processo de fluxo de trabalho de correção. As instâncias de primeira vez ou de repetição das correspondências de política para usuários são agora arquivadas e facilmente visíveis.
+- **Notificação de padrão detectada (visualização)**: muitas ações importunas e anti-intimidaçãos ocorrem ao longo do tempo e envolvem instâncias de ocorrências do mesmo comportamento por um usuário. A nova notificação de padrão detectada exibida nos detalhes de alerta ajuda a gerar atenção para esses alertas e esse tipo de comportamento.
 
 ### <a name="actionable-insights"></a>Informações acionáveis
 
@@ -122,7 +123,7 @@ Nesta etapa de fluxo de trabalho, você identifica seus requisitos de conformida
 
 Você pode escolher entre os seguintes modelos de política no centro de conformidade da Microsoft 365:
 
-- **Linguagem ofensiva e antiassédio**: Use este modelo para criar rapidamente uma política que usa o classificador interno para detectar automaticamente o conteúdo que pode ser considerado abusivo ou ofensivo.
+- **Idioma ofensivo ou ameaçador**: Use este modelo para criar rapidamente uma política que usa classificadores internos para detectar automaticamente o conteúdo que pode ser considerado abusivo ou ofensivo.
 - **Informações confidenciais**: Use este modelo para criar uma política de verificação de comunicações contendo tipos de informações confidenciais definidos ou palavras-chave para ajudar a garantir que dados importantes não sejam compartilhados com pessoas que não deveriam ter acesso.
 - **Conformidade normativa**: Use este modelo para criar uma política para verificar as comunicações de referências a termos financeiros padrão associados a padrões normativos.
 - **Política personalizada**: Use este modelo para configurar canais de comunicação específicos, condições de detecção individuais e a quantidade de conteúdo a ser monitorado e revisado em sua organização.
@@ -132,7 +133,7 @@ Você pode escolher entre os seguintes modelos de política no centro de conform
 Nesta etapa, você tem uma visão mais profunda dos problemas detectados como correspondentes às políticas de conformidade de comunicação. Esta etapa inclui as seguintes ações disponíveis no centro de conformidade da Microsoft 365:
 
 - **Alertas**: quando uma mensagem corresponde a uma condição de política, um alerta é gerado automaticamente. Para cada alerta, você pode ver o status, a gravidade, o tempo detectado e se uma caixa de descoberta eletrônica avançada é atribuída e seu status. Novos alertas são exibidos na home page de conformidade de comunicação e na página **alertas** e são listados em ordem de gravidade.
-- **Gerenciamento de problemas**: para cada alerta, você pode tomar medidas investigativas para ajudar a corrigir o problema detectado na mensagem
+- **Gerenciamento de problemas**: para cada alerta, você pode tomar medidas investigativas para ajudar a corrigir o problema detectado na mensagem.
 - **Revisão de documentos**: durante a investigação de um problema, você pode usar vários modos de exibição da mensagem para ajudar a avaliar corretamente o problema detectado. Os modos de exibição incluem um resumo de conversa, somente texto, anotações e detalhes da conversa de comunicação.
 - **Revisão do histórico de atividades do usuário**: exibir o histórico de atividades de mensagens do usuário e ações de correção, como notificações e escalonamentos passados, para correspondências de política.
 - **Filtros**: Use filtros como remetente, destinatário, data e assunto para restringir rapidamente os alertas de mensagem que você deseja examinar.
@@ -141,18 +142,19 @@ Nesta etapa, você tem uma visão mais profunda dos problemas detectados como co
 
 A próxima etapa é corrigir problemas de conformidade de comunicação que você investigou usando as seguintes opções:
 
-- **Resolver**: após revisar um problema, você pode remediar resolvendo o alerta. A resolução de um alerta remove-o da fila de alerta pendente, e a ação é preservada como uma entrada na fila resolvida para a política de correspondência. Os alertas são resolvidos automaticamente após a marcação do alerta como falso positivo, envio de um aviso a um funcionário sobre o alerta ou abertura de um novo caso para o alerta.
+- **Resolver**: após revisar um problema, você pode remediar resolvendo o alerta. A resolução de um alerta remove-o da fila de alerta pendente, e a ação é preservada como uma entrada na fila resolvida para a política de correspondência. Os alertas são resolvidos automaticamente após a marcação do alerta como falso positivo, envio de um aviso para um usuário sobre o alerta ou abertura de um novo caso para o alerta.
 - **Marcar uma mensagem**: como parte da resolução de um problema, é possível marcar a mensagem detectada como compatível, não compatível ou como questionável, pois ela se relaciona com as políticas e os padrões da sua organização. A marcação pode ajudá-lo a enfiltrar alertas de política para escalonamento ou como parte de outros processos de revisão internos.
 - **Notificar o usuário**: frequentemente, os usuários violam acidentalmente ou inadvertidamente uma política de conformidade de comunicação. Você pode usar o recurso Notify para fornecer um aviso de aviso ao usuário e resolver o problema.
 - **Escalonar para outro revisor**: às vezes, o revisor inicial de um problema precisa de entrada de outros revisores para ajudar a resolver o incidente. Você pode escalonar facilmente os problemas de mensagem para revisores em outras áreas da organização como parte do processo de resolução.
 - **Mark como um falso positivo**: as mensagens detectadas incorretamente como correspondências de políticas de conformidade irão, ocasionalmente, passar para o processo de revisão. Você pode marcar esses tipos de alerta como falsos positivos e resolver automaticamente o problema.
+- **Remover mensagem no Teams (visualização)**: as mensagens inadequadas podem ser removidas da exibição nos canais do Microsoft Teams ou em mensagens de chat pessoais e de grupo. As mensagens inadequadas que são removidas são substituídas por uma notificação de que a mensagem foi removida para uma violação de política.
 - **Escalonar para investigação**: nas situações mais sérias, talvez seja necessário compartilhar informações de conformidade de comunicação com outros revisores em sua organização. A conformidade com comunicação é totalmente integrada a outros recursos de conformidade da Microsoft 365 para ajudá-lo com a resolução de riscos de ponta a ponta. O escalonamento de um caso para investigação permite transferir dados e gerenciamento do caso para descoberta eletrônica avançada no Microsoft 365. A descoberta eletrônica avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, analisar, analisar e exportar o conteúdo que responde às investigações internas e externas da sua organização. Ele permite que as equipes jurídicas gerenciem todo o fluxo de trabalho de notificação de retenção legal. Para saber mais sobre casos de descoberta eletrônica avançada, confira [visão geral da descoberta eletrônica avançada no Microsoft 365](overview-ediscovery-20.md).
 
 ### <a name="monitor"></a>Monitorar
 
 Manter o controle e o gerenciamento de problemas de conformidade identificados por políticas de conformidade de comunicação abrange todo o processo de fluxo de trabalho. À medida que os alertas são gerados e as ações de investigação e correção são implementadas, as políticas existentes podem precisar de análise e atualizações, e novas políticas podem precisar ser criadas.
 
-- **Monitorar e relatar**: Use os painéis de conformidade de comunicação, relatórios, exportar logs e eventos registrados nos logs de auditoria unificada para avaliar continuamente e aprimorar a postura de conformidade.
+- **Monitorar e relatar**: usar widgets do painel de conformidade de comunicação, exportar logs e eventos registrados nos logs de auditoria unificada para avaliar continuamente e aprimorar a postura de conformidade.
 
 ## <a name="ready-to-get-started"></a>Pronto para começar?
 

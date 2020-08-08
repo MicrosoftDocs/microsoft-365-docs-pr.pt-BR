@@ -19,18 +19,18 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d35179d38277ada22db9bc7ad879f1f7405a9aec
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 79948e514009d3adffcead87aafc18ab2f1e3b25
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936856"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597626"
 ---
 # <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-exchange-and-yammer-communications"></a>Estudo de caso-Contoso configura rapidamente uma política de linguagem ofensiva para comunicações do Microsoft Teams, Exchange e Yammer
 
-A conformidade de comunicação no Microsoft 365 ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e realizar ações de correção para mensagens inadequadas em sua organização. As políticas predefinidas e personalizadas permitem que você examine as comunicações internas e externas para correspondências de política, de modo que eles possam ser examinados por revisores designados. Os revisores podem investigar emails varridos, Microsoft Teams, Yammer ou comunicações de terceiros em sua organização e tomar as ações de correção apropriadas para garantir que eles estejam em conformidade com os padrões de mensagem da sua organização.
+A conformidade de comunicação no Microsoft 365 ajuda a minimizar os riscos de comunicação ajudando você a detectar, capturar e agir em mensagens inadequadas em sua organização. As políticas predefinidas e personalizadas permitem que você examine as comunicações internas e externas para correspondências de política, de modo que eles possam ser examinados por revisores designados. Os revisores podem investigar emails varridos, Microsoft Teams, Yammer ou comunicações de terceiros em sua organização e tomar as ações de correção apropriadas para garantir que eles estejam em conformidade com os padrões de mensagem da sua organização.
 
-A Contoso Corporation é uma organização fictícia que precisa configurar rapidamente uma política para monitorar a linguagem ofensiva. Eles usaram o Microsoft 365 primariamente para email, Microsoft Teams e suporte do Yammer para seus funcionários, mas têm novos requisitos para impor a política da empresa contra assédio no local de trabalho. Os administradores de ti e especialistas de ti da Contoso têm uma compreensão básica dos conceitos básicos do trabalho com a Microsoft 365 e procuram orientações de ponta a ponta sobre como começar rapidamente a conformidade de comunicação.
+A Contoso Corporation é uma organização fictícia que precisa configurar rapidamente uma política para monitorar a linguagem ofensiva. Eles usaram o Microsoft 365 primariamente para email, Microsoft Teams e suporte do Yammer para seus usuários, mas têm novos requisitos para impor a política da empresa contra assédio no local de trabalho. Os administradores de ti e especialistas de ti da Contoso têm uma compreensão básica dos conceitos básicos do trabalho com a Microsoft 365 e procuram orientações de ponta a ponta sobre como começar rapidamente a conformidade de comunicação.
 
 Este estudo de caso abordará as noções básicas para configurar rapidamente uma política de conformidade de comunicação para monitorar a comunicação de linguagens ofensivas. Este guia inclui:
 
@@ -79,18 +79,30 @@ Os administradores de ti da Contoso usam as seguintes etapas para verificar o su
 
 ### <a name="permissions-for-communication-compliance"></a>Permissões para conformidade de comunicação
 
-Por padrão, os administradores globais não têm acesso aos recursos de conformidade de comunicação. [As permissões devem ser configuradas](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure?view=o365-worldwide#step-1-required-enable-permissions-for-communication-compliance) para que os administradores de ti e especialistas de conformidade da Contoso tenham acesso à conformidade de comunicação.
+Há cinco funções usadas para configurar permissões para gerenciar recursos de conformidade de comunicação. Para tornar a conformidade de comunicação disponível como uma opção de menu no centro de conformidade do Microsoft 365 e para continuar com essas etapas de configuração, os administradores da Contoso recebem a função de *administrador de conformidade de comunicação* .
+
+A Contoso decide criar um grupo de função personalizado e atribuir todas as funções de conformidade de comunicação ao grupo. Isso facilita a introdução rápida e melhor dos seus requisitos de gerenciamento de conformidade à contoso.
+
+A contoso criará um grupo de função que contenha todas as seguintes funções de conformidade de comunicação:
+
+|**Função**|**Permissões de função**|
+|:-----|:-----|
+| **Administração de conformidade de comunicação** | Os usuários atribuídos a essa função podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupos de função. Os usuários atribuídos a essa função não podem exibir alertas de mensagem. |
+| **Análise de conformidade de comunicação** | Os usuários atribuídos a essa função podem exibir as políticas em que foram atribuídas como revisores, Exibir metadados de mensagem (não o conteúdo da mensagem), escalonar para revisores adicionais ou enviar notificações aos usuários. Os analistas não podem resolver alertas pendentes. |
+| **Investigação de conformidade de comunicação** | Os usuários atribuídos a essa função podem exibir metadados e conteúdo de mensagens, escalonar para revisores adicionais, escalonar para uma ocorrência de descoberta eletrônica avançada, enviar notificações aos usuários e resolver o alerta. |
+| **Visualizador de conformidade de comunicação** | Os usuários atribuídos a essa função podem acessar todos os widgets de relatório na home page de conformidade de comunicação e podem exibir todos os relatórios de conformidade de comunicação. |
+| **Gerenciamento de casos de conformidade de comunicação** | Os usuários atribuídos a essa função podem gerenciar casos e agir em alertas. Essa função é necessária para criar grupos de funções personalizados para administradores, analistas e investigadores. Os grupos personalizados para visualizadores não precisam dessa função atribuída. |
 
 1. Os administradores de ti da Contoso entram na página permissões do **centro de conformidade e segurança do Office 365** [( https://protection.office.com/permissions) ](https://protection.office.com/permissions) usando credenciais para uma conta de administrador global e selecionam o link para exibir e gerenciar funções no Microsoft 365.
 2. Após selecionar **Create**, eles dão ao novo grupo de funções um nome amigável de "*conformidade de comunicação*" e selecione **Avançar**.
-3. Selecione **escolher funções** e, em seguida, selecione **Adicionar**. Eles adicionam as funções necessárias marcando a caixa de seleção para o *administrador de análise de supervisão*, o gerenciamento de *casos*, o *administrador de conformidade*e a *revisão*, selecionando **Adicionar**, **concluído** e **Avançar**.
+3. Selecione **escolher funções** e, em seguida, selecione **Adicionar**. Eles adicionam as funções necessárias marcando a caixa de seleção de administração de conformidade de *Comunicação*, *análise de conformidade*de comunicação, investigação de conformidade de *comunicação*, *Visualizador de conformidade*de comunicação e gerenciamento de casos de conformidade de *comunicação*, depois selecione **Adicionar**, **concluir** e **Avançar**.
 
-![Funções de conformidade de comunicação](../media/communication-compliance-case-roles.png)
+    ![Funções de conformidade de comunicação](../media/communication-compliance-case-roles.png)
 
 4. Em seguida, os administradores de ti selecionam **escolher Membros** e, em seguida, selecionar **Adicionar**. A caixa de seleção Marcar para todos os usuários e grupos que desejam criar políticas e gerenciar mensagens com correspondências de política. Eles adicionam os administradores de ti, especialistas de conformidade e outros colegas em recursos humanos e departamentos jurídicos identificados no planejamento inicial e, em seguida, selecione **Adicionar**, **concluir**e **Avançar**.
 5. Para finalizar as permissões, os administradores de ti selecionam **Criar grupo de função** para terminar. Levará cerca de 30 minutos para que as funções sejam eficazes no Microsoft 365 Service da contoso.
 
-![Análise de conformidade de comunicação](../media/communication-compliance-case-review.png)
+    ![Análise de conformidade de comunicação](../media/communication-compliance-case-review.png)
 
 ## <a name="step-2-accessing-communication-compliance-in-microsoft-365"></a>Etapa 2: acessar a conformidade de comunicação no Microsoft 365
 
@@ -125,7 +137,7 @@ Para acessar a conformidade de comunicação ao iniciar pelo centro de administr
 
 ![Link de conformidade de comunicação](../media/communication-compliance-case-compliance-link.png)
 
-Isso abre o **centro de conformidade e segurança do Office 365**e deve selecionar o link para o **centro de conformidade da Microsoft 365** fornecido na faixa na parte superior da página.
+Essa ação abre o **centro de conformidade e segurança do Office 365**e deve selecionar o link para o **centro de conformidade da Microsoft 365** fornecido na faixa na parte superior da página.
 
 ![Centro de conformidade e segurança do Office 365](../media/communication-compliance-case-scc.png)
 
@@ -151,22 +163,22 @@ Os administradores de ti da Contoso analisam e concluem as [instruções passo a
 
 A conformidade com comunicações exige que o locatário do Yammer de uma organização esteja no modo nativo para monitorar a linguagem ofensiva em mensagens privadas e conversas da Comunidade pública.
 
-Os administradores de ti da Contoso garantem a análise das informações no [tópico Visão geral do modo nativo do Yammer no Microsoft 365](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) e seguem as etapas para executar a ferramenta de migração no tópico [configurar sua rede do Yammer para o modo nativo para o Microsoft 365](https://docs.microsoft.com/yammer/configure-your-yammer-network/native-mode) .
+Os administradores de ti da Contoso garantem que eles analisem as informações da [visão geral do modo nativo do Yammer no artigo do Microsoft 365](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) e sigam as etapas para executar a ferramenta de migração no tópico [configurar sua rede do Yammer para o modo nativo para o Microsoft 365](https://docs.microsoft.com/yammer/configure-your-yammer-network/native-mode) .
 
 ### <a name="setting-up-a-group-for-in-scope-users"></a>Configurando um grupo para usuários dentro do escopo
 
-Os especialistas de conformidade da Contoso desejam adicionar todos os funcionários à política de comunicação que monitorará a linguagem ofensiva. Eles podem decidir adicionar cada conta de usuário de funcionário à política separadamente, mas elas decidiram ser muito mais fáceis e poupa muito tempo para usar um grupo de distribuição de **todos os funcionários** para os usuários desta política.
+Os especialistas de conformidade da Contoso desejam adicionar todos os usuários à política de comunicação que serão monitorados quanto à linguagem ofensiva. Eles podem decidir adicionar cada conta de usuário à política separadamente, mas elas decidiram que é muito mais fácil e poupa tempo para usar um grupo de distribuição de **todos os usuários** para os usuários desta política.
 
-Eles precisam criar um novo grupo para incluir todos os funcionários da Contoso, de modo que eles siga as seguintes etapas:
+Eles precisam criar um novo grupo para incluir todos os usuários da Contoso, de modo que eles siga as seguintes etapas:
 
 1. Os administradores de ti da Contoso entram no **centro de administração do Microsoft 365** [( https://admin.microsoft.com) ](https://admin.microsoft.com) e navegue até grupos de grupos **do centro de administração do Microsoft 365**  >  **Groups**  >  **Groups**.
 2. Selecione **Adicionar um grupo** e conclua o assistente para criar um novo grupo ou grupo de *distribuição* *do Microsoft 365* .
 
-![Grupos](../media/communication-compliance-case-all-employees.png)
+    ![Grupos](../media/communication-compliance-case-all-employees.png)
 
-3. Depois que o novo grupo é criado, ele precisa adicionar todos os usuários da Contoso ao novo grupo. Eles abrem o **centro de administração do Exchange** [( https://outlook.office365.com/ecp) ](https://outlook.office365.com/ecp) e navegam para **Exchange admin center**  >  **os**  >  **grupos**destinatários do centro de administração do Exchange. Os administradores de ti da Contoso selecionam a área de associação e o grupo novo *todos os funcionários* que criaram e selecionam o controle **Editar** para adicionar todos os funcionários da Contoso ao novo grupo no assistente.
+3. Depois que o novo grupo é criado, ele precisa adicionar todos os usuários da Contoso ao novo grupo. Eles abrem o **centro de administração do Exchange** [( https://outlook.office365.com/ecp) ](https://outlook.office365.com/ecp) e navegam para **Exchange admin center**  >  **os**  >  **grupos**destinatários do centro de administração do Exchange. Os administradores de ti da Contoso selecionam a área de associação e o grupo novo *todos os funcionários* que criaram e selecionam o controle **Editar** para adicionar todos os usuários da Contoso ao novo grupo no assistente.
 
-![Centro de administração do Exchange](../media/communication-compliance-case-eac.png)
+    ![Centro de administração do Exchange](../media/communication-compliance-case-eac.png)
 
 ### <a name="creating-the-policy-to-monitor-for-offensive-language"></a>Criando a política para monitorar a linguagem ofensiva
 
@@ -174,12 +186,12 @@ Com todos os pré-requisitos concluídos, os administradores de ti e os especial
 
 1. Os administradores de ti e especialistas de conformidade da Contoso entram no **centro de conformidade da Microsoft 365** e selecionam **conformidade de comunicação** no painel de navegação à esquerda. Essa ação abre o painel **visão geral** que tem links rápidos para modelos de política de conformidade de comunicação. Escolha o **Monitor para o modelo de linguagem ofensiva** selecionando **introdução** para o modelo.
 
-![Modelo de linguagem ofensiva de conformidade de comunicação](../media/communication-compliance-case-template.png)
+    ![Modelo de linguagem ofensiva de conformidade de comunicação](../media/communication-compliance-case-template.png)
 
 2. No assistente de modelo de política, os administradores de ti e especialistas de conformidade da Contoso trabalham em conjunto para concluir os três campos obrigatórios: **nome da política**, **usuários ou grupos para supervisionar**e **revisores**.
-3. Como o assistente de política já sugeriu um nome para a política, os administradores de ti e especialistas de conformidade decidem manter o nome sugerido e se concentrar nos campos restantes. Eles selecionam o grupo *todos os funcionários* dos **usuários ou grupos a serem supervisionados** e selecionam os especialistas de conformidade que devem investigar e corrigir os alertas de política para o campo **revisores** . A última etapa para configurar a política e iniciar a coleta de informações de alerta é selecionar **criar política**.
+3. Como o assistente de política já sugeriu um nome para a política, os administradores de ti e especialistas de conformidade decidem manter o nome sugerido e se concentrar nos campos restantes. Selecione o grupo *todos os usuários* para que os **usuários ou grupos sejam supervisionados** e selecione os especialistas de conformidade que devem investigar e corrigir os alertas de política para o campo **revisores** . A última etapa para configurar a política e iniciar a coleta de informações de alerta é selecionar **criar política**.
 
-![Assistente de linguagem ofensiva de conformidade de comunicação](../media/communication-compliance-case-wizard.png)
+    ![Assistente de linguagem ofensiva de conformidade de comunicação](../media/communication-compliance-case-wizard.png)
 
 ## <a name="step-4-investigate-and-remediate-alerts"></a>Etapa 4: investigar e corrigir alertas
 

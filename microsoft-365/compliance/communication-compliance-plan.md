@@ -1,5 +1,5 @@
 ---
-title: Planejar a conformidade com comunicações
+title: Planejar a conformidade em comunicações
 description: Saiba mais sobre como planejar o uso da conformidade de comunicação em sua organização.
 f1.keywords:
 - NOCSH
@@ -18,14 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 214c5376d4c074525253707e181eee69cefff85e
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 4c44610f4d74fe9ebf3c8e549692d9cc7cc6cb34
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045843"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597418"
 ---
-# <a name="plan-for-communication-compliance"></a>Planejar a conformidade com comunicações
+# <a name="plan-for-communication-compliance"></a>Planejar a conformidade em comunicações
 
 Antes de começar a usar a [conformidade de comunicação](communication-compliance.md) em sua organização, há importantes atividades de planejamento e considerações que devem ser revisadas por suas equipes de gerenciamento de conformidade e tecnologia de informação. A compreensão e o planejamento minuciosos para implantação nas áreas a seguir ajudarão a garantir que a implementação e o uso de recursos de conformidade de comunicação sejam adequados e estejam alinhados com as práticas recomendadas para a solução.
 
@@ -42,7 +42,19 @@ Identifique os participantes apropriados em sua organização para colaborar par
 
 ## <a name="plan-for-the-investigation-and-remediation-workflow"></a>Planejar o fluxo de trabalho de investigação e correção
 
-Selecione revisores dedicados para monitorar e revisar os alertas em uma cadência regular no [centro de conformidade da Microsoft 365](https://compliance.microsoft.com/). Lembre-se de que você precisará [criar um novo grupo de função](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance) para habilitar permissões para revisores com o **administrador de análise de supervisão**, o gerenciamento de **casos**, o **administrador de conformidade**e as funções de **revisão** para investigar e corrigir mensagens com correspondências de política.
+Selecione participantes dedicados para monitorar e revisar os alertas e casos em uma cadência regular no [centro de conformidade da Microsoft 365](https://compliance.microsoft.com/). Certifique-se de entender como você atribuirá diferentes funções de conformidade de comunicação aos participantes da sua organização.
+
+Dependendo de como você deseja gerenciar políticas e alertas de comunicação, você precisará criar um ou mais novos grupos de função para administradores, revisores e investigadores. Você tem a opção de atribuir usuários a grupos de função específicos para gerenciar diferentes conjuntos de recursos de conformidade de comunicação. Ou você pode decidir criar um grupo de função e atribuir todas as funções de conformidade de comunicação ao grupo. Crie um único grupo de função ou vários grupos para atender melhor aos seus requisitos de gerenciamento de conformidade.
+
+Planeje escolher entre estas opções de função ao configurar seus grupos de função de conformidade de comunicação:
+
+|**Função**|**Permissões de função**|
+|:-----|:-----|
+| **Administração de conformidade de comunicação** | Os usuários atribuídos a essa função podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupos de função. Os usuários atribuídos a essa função não podem exibir alertas de mensagem. |
+| **Análise de conformidade de comunicação** | Os usuários atribuídos a essa função podem exibir as políticas em que foram atribuídas como revisores, Exibir metadados de mensagem (não o conteúdo da mensagem), escalonar para revisores adicionais ou enviar notificações aos usuários. Os analistas não podem resolver alertas pendentes. |
+| **Investigação de conformidade de comunicação** | Os usuários atribuídos a essa função podem exibir metadados e conteúdo de mensagens, escalonar para revisores adicionais, escalonar para uma ocorrência de descoberta eletrônica avançada, enviar notificações aos usuários e resolver o alerta. |
+| **Visualizador de conformidade de comunicação** | Os usuários atribuídos a essa função podem acessar todos os widgets de relatório na home page de conformidade de comunicação e podem exibir todos os relatórios de conformidade de comunicação. |
+| **Gerenciamento de casos de conformidade de comunicação** | Os usuários atribuídos a essa função podem gerenciar casos e agir em alertas. Essa função é necessária para criar grupos de funções personalizados para administradores, analistas e investigadores. Os grupos personalizados para visualizadores não precisam dessa função atribuída. |
 
 ## <a name="plan-for-policies"></a>Planejar políticas
 

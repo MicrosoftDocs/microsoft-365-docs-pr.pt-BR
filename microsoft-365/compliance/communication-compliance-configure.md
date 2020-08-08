@@ -1,6 +1,6 @@
 ---
 title: Introdução à conformidade de comunicação
-description: Configurar políticas de conformidade de comunicação para configurar comunicações de funcionários para revisão.
+description: Configurar políticas de conformidade de comunicação para configurar comunicações do usuário para revisão.
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -18,16 +18,16 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 8ec31bb08933ba9c1f0cc264bafc8d39bf64a003
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: c61529b612079c93e3c175a67fccd32a7c561400
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936846"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597561"
 ---
 # <a name="get-started-with-communication-compliance"></a>Introdução à conformidade de comunicação
 
-Use políticas de conformidade de comunicação para capturar comunicações de funcionários para verificação por revisores internos ou externos. Para obter mais informações sobre como as políticas de conformidade de comunicação podem ajudá-lo a monitorar as comunicações em sua organização, consulte [políticas de conformidade de comunicação no Microsoft 365](communication-compliance.md). Se você quiser rever como a contoso configurou rapidamente uma política de conformidade de comunicação para monitorar a linguagem ofensiva no Microsoft Teams, Exchange Online e comunicações do Yammer, confira este [estudo de caso](communication-compliance-case-study.md).
+Use as políticas de conformidade de comunicação para identificar as comunicações do usuário para verificação por revisores internos ou externos. Para obter mais informações sobre como as políticas de conformidade de comunicação podem ajudá-lo a monitorar as comunicações em sua organização, consulte [políticas de conformidade de comunicação no Microsoft 365](communication-compliance.md). Se você quiser rever como a contoso configurou rapidamente uma política de conformidade de comunicação para monitorar a linguagem ofensiva no Microsoft Teams, Exchange Online e comunicações do Yammer, confira este [estudo de caso](communication-compliance-case-study.md).
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -57,9 +57,21 @@ Se você não tiver um plano existente do Office 365 Enterprise E5 e quiser expe
 >[!Important]
 >Por padrão, os administradores globais não têm acesso aos recursos de conformidade de comunicação. As funções atribuídas nesta etapa são necessárias para que qualquer recurso de conformidade de comunicação possa ser acessado.
 
-Para tornar a **conformidade de comunicação** disponível como uma opção de menu no centro de conformidade do Microsoft 365, você deve receber a função de administrador de análise de **supervisão** . Você deve criar um novo grupo de função para revisores com o **administrador de análise de supervisão**, o gerenciamento de **casos**, o **administrador de conformidade**e as funções de **revisão** para investigar e corrigir mensagens com correspondências de política.
+Há cinco funções usadas para configurar permissões para gerenciar recursos de conformidade de comunicação. Para tornar a **conformidade de comunicação** disponível como uma opção de menu no centro de conformidade do Microsoft 365 e para continuar com essas etapas de configuração, você deve receber a função de administrador de conformidade de *comunicação* .
 
-### <a name="create-a-new-role-group"></a>Criar um novo grupo de função
+Dependendo de como você deseja gerenciar políticas e alertas de comunicação, você precisará criar um ou mais novos grupos de função para administradores, revisores e investigadores. Você tem a opção de atribuir usuários a grupos de função específicos para gerenciar diferentes áreas de recursos de conformidade de comunicação. Ou você pode decidir criar um grupo de função e atribuir todas as funções de conformidade de comunicação ao grupo. Crie um único grupo de função ou vários grupos de função para atender melhor aos seus requisitos de gerenciamento de conformidade.
+
+Escolha uma destas opções de função ao configurar seus grupos de função de conformidade de comunicação:
+
+|**Função**|**Permissões de função**|
+|:-----|:-----|
+| **Administração de conformidade de comunicação** | Os usuários atribuídos a essa função podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupos de função. Os usuários atribuídos a essa função não podem exibir alertas de mensagem. |
+| **Análise de conformidade de comunicação** | Os usuários atribuídos a essa função podem exibir as políticas em que foram atribuídas como revisores, Exibir metadados de mensagem (não o conteúdo da mensagem), escalonar para revisores adicionais ou enviar notificações aos usuários. Os analistas não podem resolver alertas pendentes. |
+| **Investigação de conformidade de comunicação** | Os usuários atribuídos a essa função podem exibir metadados e conteúdo de mensagens, escalonar para revisores adicionais, escalonar para uma ocorrência de descoberta eletrônica avançada, enviar notificações aos usuários e resolver o alerta. |
+| **Visualizador de conformidade de comunicação** | Os usuários atribuídos a essa função podem acessar todos os widgets de relatório na home page de conformidade de comunicação e podem exibir todos os relatórios de conformidade de comunicação. |
+| **Gerenciamento de casos de conformidade de comunicação** | Os usuários atribuídos a essa função podem gerenciar casos e agir em alertas. Essa função é necessária para criar grupos de funções personalizados para administradores, analistas e investigadores. Os grupos personalizados para visualizadores não precisam dessa função atribuída. |
+
+### <a name="option-1-create-a-new-role-group-with-all-communication-compliance-roles"></a>Opção 1: criar um novo grupo de função com todas as funções de conformidade de comunicação
 
 1. Entre [https://protection.office.com/permissions](https://protection.office.com/permissions) usando as credenciais de uma conta de administrador na sua organização do Microsoft 365.
 
@@ -69,13 +81,45 @@ Para tornar a **conformidade de comunicação** disponível como uma opção de 
 
 4. No campo **nome** , dê um nome amigável ao novo grupo de funções. Selecione **Avançar**.
 
-5. Selecione **escolher funções** e, em seguida, selecione **Adicionar**. Marque a caixa de seleção para **administrador de análise de supervisão**, gerenciamento de **casos**, **administrador de conformidade**e **revisão**e, em seguida, selecione **Adicionar** e **concluir**. Selecione **Avançar**.
+5. Selecione **escolher funções** e, em seguida, selecione **Adicionar**. Marque as caixas de seleção das seguintes funções:
 
-    ![Grupos de função de conformidade de comunicação necessária](../media/communication-compliance-role-groups-1.png)
+    - Administração de conformidade de comunicação
+    - Análise de conformidade de comunicação
+    - Investigação de conformidade de comunicação
+    - Visualizador de conformidade de comunicação
+    - Gerenciamento de casos de conformidade de comunicação
 
-6. Selecione **escolher Membros** e selecione **Adicionar**. Marque a caixa de seleção de todos os usuários e grupos que você deseja criar políticas e gerenciar mensagens com correspondências de política e, em seguida, selecione **Adicionar** e **concluir**. Selecione **Avançar**.
+    ![Funções de conformidade de comunicação](../media/communication-compliance-case-roles.png)
 
-7. Selecione **Criar grupo de função** para concluir.
+6. Selecione **Adicionar** e **concluir**e, em seguida, selecione **Avançar** para continuar.
+
+7. Selecione **escolher Membros** e selecione **Adicionar**. Marque a caixa de seleção de todos os usuários e grupos que você deseja criar políticas e gerenciar mensagens com correspondências de política e, em seguida, selecione **Adicionar** e **concluir**. Selecione **Avançar**.
+
+8. Selecione **Criar grupo de função** para concluir.
+
+### <a name="option-2-create-new-role-groups-with-different-communication-compliance-roles"></a>Opção 2: criar novos grupos de função com diferentes funções de conformidade de comunicação
+
+Crie vários grupos de função para segmentar o acesso à conformidade de comunicação e as responsabilidades entre diferentes usuários da organização. Para cada novo grupo de funções, você atribuirá diferentes funções de conformidade de comunicação.
+
+1. Entre [https://protection.office.com/permissions](https://protection.office.com/permissions) usando as credenciais de uma conta de administrador na sua organização do Microsoft 365.
+
+2. No centro de &amp; conformidade de segurança, acesse **permissões**. Selecione o link para exibir e gerenciar funções no Office 365.
+
+3. Selecione **Criar**.
+
+4. No campo **nome** , dê um nome amigável ao novo grupo de funções. Selecione **Avançar**.
+
+5. Selecione **escolher funções** e, em seguida, selecione **Adicionar**. Marque a caixa de seleção para as funções de conformidade de comunicação que você deseja atribuir a este grupo. Por exemplo, se esse grupo de função for analista de conformidade em sua organização, você selecionará as funções de gerenciamento de *casos de conformidade* de comunicação e *análise de conformidade de comunicação* . Se esse grupo de função é para os investigadores de conformidade, você deve selecionar as funções de *Gerenciamento de casos de conformidade* de *conformidade e investigação de conformidade* de comunicação.
+
+    ![Funções de conformidade de comunicação](../media/communication-compliance-analysts-role-group.png)
+
+6. Selecione **Adicionar** e **concluir**e, em seguida, selecione **Avançar** para continuar.
+
+7. Selecione **escolher Membros** e selecione **Adicionar**. Marque a caixa de seleção de todos os usuários e grupos que você deseja criar políticas e gerenciar mensagens com correspondências de política e, em seguida, selecione **Adicionar** e **concluir**. Selecione **Avançar**.
+
+8. Selecione **Criar grupo de função** para concluir.
+
+9. Crie grupos de função de conformidade de comunicação adicionais, conforme necessário.
 
 Para obter mais informações sobre grupos de funções e permissões, consulte [permissões no centro de conformidade](../security/office-365-security/protect-against-threats.md).
 
@@ -94,11 +138,11 @@ Use o gráfico a seguir para ajudá-lo a configurar grupos na sua organização 
 | **Membro de política** | **Grupos com suporte** | **Grupos sem suporte** |
 |:-----|:-----|:-----|
 |Usuários supervisionados <br> Usuários não supervisionados | Grupos de distribuição <br> Grupos do Microsoft 365 | Grupos dinâmicos de distribuição |
-| Revisores | Nenhum | Grupos de distribuição <br> Grupos dinâmicos de distribuição <br> Grupos de segurança habilitados para email |
+| Revisores | Nenhuma | Grupos de distribuição <br> Grupos dinâmicos de distribuição <br> Grupos de segurança habilitados para email |
   
 Quando você atribui um grupo de distribuição na política, a política monitora todos os emails de cada usuário no grupo de distribuição. Quando você atribui um grupo do Microsoft 365 na política, a política monitora todos os emails enviados para esse grupo, não os emails individuais recebidos por cada membro do grupo.
 
-Se você é uma organização com uma implantação local do Exchange ou um provedor de email externo e deseja monitorar os bate-papos do teams para seus usuários, você deve criar um grupo de distribuição para os usuários com caixas de correio locais ou externas para monitorar. Posteriormente nestas etapas, você atribuirá esse grupo de distribuição como a seleção de **usuários e grupos supervisionados** no assistente de política.
+Se você é uma organização com uma implantação local do Exchange ou um provedor de email externo e deseja monitorar os bate-papos do Microsoft Teams para seus usuários, você deve criar um grupo de distribuição para os usuários com caixas de correio locais ou externas para monitorar. Posteriormente nestas etapas, você atribuirá esse grupo de distribuição como a seleção de **usuários e grupos supervisionados** no assistente de política.
 
 >[!IMPORTANT]
 >Você deve arquivar uma solicitação com o suporte da Microsoft para permitir que sua organização Use a interface gráfica do usuário no centro de conformidade de & de segurança para pesquisar dados de chat do teams para usuários locais. Para obter mais informações, consulte [pesquisando caixas de correio baseadas em nuvem para usuários locais](search-cloud-based-mailboxes-for-on-premises-users.md).
@@ -146,10 +190,10 @@ Para obter mais informações sobre como configurar o Yammer no modo nativo, con
     - Escolha a direção de comunicação para monitorar, incluindo comunicações de entrada, de saída ou internas.
     - Definir as [condições](communication-compliance-feature-reference.md#ConditionalSettings)de política de conformidade de comunicação. Você pode escolher entre as condições endereço da mensagem, palavra-chave, tipos de arquivo e correspondência de tamanho.
     - Escolha se você deseja incluir tipos de informações confidenciais. Esta etapa é onde você pode selecionar os tipos de informações confidenciais padrão e personalizadas. Escolha de tipos de informações confidenciais personalizados existentes ou dicionários de palavras-chave personalizados no assistente de política de conformidade de comunicação. Você pode criar esses itens antes de executar o assistente, se necessário. Você também pode criar novos tipos de informações confidenciais de dentro do assistente de política de conformidade de comunicação.
-    - Escolha se você deseja habilitar classificadores. Os classificadores podem detectar o idioma inadequado enviado ou recebido no corpo de mensagens de email ou outros tipos de texto.
+    - Escolha se você deseja habilitar classificadores. Os classificadores podem detectar linguagem e imagens inadequadas enviadas ou recebidas no corpo de mensagens de email ou outros tipos de texto. Você pode escolher os seguintes classificadores internos: *ameaça*, *profanação*, *assédio dirigido*, *imagens adultas*, *imagens Racy*e *imagens do Gory*.
 
     >[!CAUTION]
-    >Vamos substituir o classificador interno **Idioma Ofensivo** porque ele tem uma grande quantidade de falsos positivos. Não usá-lo e, se estiver usando, você deverá mover seus processos de negócios para fora dele. Recomendamos o uso de classificadores internos **contra ameaças**, **profanação**e **assédio** .
+    >Vamos substituir o classificador interno **Idioma Ofensivo** porque ele tem uma grande quantidade de falsos positivos. Não usá-lo e, se estiver usando, você deverá mover seus processos de negócios para fora dele. Recomendamos usar os classificadores internos **contra ameaças**, **obscenas**e de **assédio direcionado** .
 
     - Defina a porcentagem de comunicação a ser revisada.
     - Revise suas seleções de política e crie a política.
@@ -158,25 +202,33 @@ Para obter mais informações sobre como configurar o Yammer no modo nativo, con
 
 6. A página **sua política foi criada** é exibida com diretrizes sobre quando a política será ativada e quais comunicações serão capturadas.
 
-## <a name="step-6-optional-create-employee-notice-templates"></a>Etapa 6 (opcional): criar modelos de aviso de funcionário
+## <a name="step-6-optional-create-notice-templates-and-configure-user-anonymization"></a>Etapa 6 (opcional): criar modelos de aviso e configurar anonimato de usuário
 
-Se você deseja ter a opção de responder a um alerta de política enviando um aviso de lembrete para o funcionário associado, você precisará criar pelo menos um modelo de aviso em sua organização. Os campos de modelo de aviso são editáveis antes de serem enviados como parte do processo de correção de alerta e a criação de um modelo de aviso personalizado para cada política de conformidade de comunicação é recomendada.
+Se você deseja ter a opção de responder a um alerta de política enviando um aviso de lembrete para o usuário associado, você precisará criar pelo menos um modelo de aviso em sua organização. Os campos de modelo de aviso são editáveis antes de serem enviados como parte do processo de correção de alerta e a criação de um modelo de aviso personalizado para cada política de conformidade de comunicação é recomendada.
+
+Você também pode optar por habilitar a anonimato para os nomes de userexibição ao investigar as correspondências de política e realizar ações em mensagens.
 
 1. Entre [https://compliance.microsoft.com](https://compliance.microsoft.com) usando as credenciais de uma conta de administrador na sua organização do Microsoft 365.
 
 2. No centro de conformidade da Microsoft 365, vá para **conformidade de comunicação**.
 
-3. Selecione a guia **modelos de aviso** e, em seguida, selecione **criar modelo de aviso**.
+3. Para configurar a anonimato para nomes de usernames, selecione a guia **privacidade** .
 
-4. Na página **modificar um modelo de aviso** , preencha os seguintes campos:
+4. Para habilitar a anonimato, selecione **Mostrar versões em anonimato de nomes de**User.
 
-    - Nome do modelo de aviso (obrigatório)
+5. Selecione **Salvar**.
+
+6. Navegue até a guia **modelos de aviso** e selecione **criar modelo de aviso**.
+
+7. Na página **modificar um modelo de aviso** , preencha os seguintes campos:
+
+    - Nome do modelo (obrigatório)
     - Enviar de (obrigatório)
     - CC e Cco (opcional)
     - Assunto (obrigatório)
     - Corpo da mensagem (obrigatório)
 
-5. Selecione **salvar** para criar e salvar o modelo de aviso.
+8. Selecione **salvar** para criar e salvar o modelo de aviso.
 
 ## <a name="step-7-optional-test-your-communication-compliance-policy"></a>Etapa 7 (opcional): testar sua política de conformidade de comunicação
 
@@ -193,3 +245,9 @@ Siga estas etapas para testar sua política de conformidade de comunicação:
 3. Entre no Microsoft 365 como um revisor designado na política de conformidade de comunicação. Navegue até alertas de **conformidade de comunicação**  >  **Alerts** para exibir os alertas de suas políticas.
 
 4. Corrija o alerta usando os controles de correção e verifique se o alerta foi resolvido corretamente.
+
+## <a name="next-steps"></a>Próximas etapas
+
+Depois de concluir essas etapas para criar sua primeira política de conformidade de comunicação, você começará a receber alertas de indicadores de atividade após cerca de 24 horas. Configure políticas adicionais conforme necessário usando as orientações da etapa 5 deste artigo.
+
+Para saber mais sobre a investigação de alertas de conformidade de comunicação, consulte [investigar e corrigir alertas de conformidade de comunicação](communication-compliance-investigate-remediate.md).
