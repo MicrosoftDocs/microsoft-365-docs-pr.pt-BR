@@ -12,12 +12,12 @@ ms.custom: ''
 localization_priority: Priority
 description: Saiba como o Microsoft 365 ajuda os serviços financeiros a migrar para uma moderna plataforma de colaboração, ajudando a manter os dados e sistemas seguros e em conformidade com os regulamentos
 f1.keywords: NOCSH
-ms.openlocfilehash: ccb6243df9030188129c6f2be7b34f467b09781d
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 24355518219830d815ce027ec75bb72ee0675a32
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521202"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597516"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Considerações de segurança e conformidade essenciais para os mercados bancário e de capital dos EUA
 
@@ -66,7 +66,7 @@ O Teams pode fornecer um espaço de colaboração para armazenar com segurança 
 
 Outro cenário comum é usar o Teams como um "centro de dados virtual" para colaborar com segurança, incluindo armazenamento e gerenciamento de documentos. Os membros de equipes e sindicatos de empresas de bancos de investimento, gerenciamento de ativos ou de capital privado podem colaborar com segurança em um acordo ou investimento. As equipes multifuncionais geralmente estão envolvidas no planejamento e na realização de tais acordos, e a capacidade de compartilhar dados com segurança e conduzir conversas é um requisito essencial. Compartilhar com segurança documentos relacionados com investidores externos também é um requisito essencial. O Teams fornece um local seguro e totalmente auditável para armazenar, proteger e compartilhar centralmente dados de investimento.
 
-:::image type="content" source="../media/m365cO19-ent-dell-latitude13-5951.jpg" alt-text="Um grupo de trabalhadores de escritório em uma reunião discute sobre imagens em uma tela grande.":::
+![Um grupo de trabalhadores de escritório em uma reunião discutindo sobre imagens em uma tela grande](../media/m365cO19-ent-dell-latitude13-5951.jpg)
  
 ### <a name="teams-improve-collaboration-and-reduce-compliance-risk"></a>Teams: melhore a colaboração e reduza o risco de conformidade
 
@@ -156,7 +156,7 @@ Para proteger os usuários, o Identity Protection usa o conhecimento que a Micro
 
 O Identity Protection ajuda as organizações a se protegerem automaticamente contra o comprometimento de identidade, aproveitando a inteligência em nuvem desenvolvida pela detecção avançada baseada em heurística, análise de comportamento de usuários e entidades (UEBA) e aprendizado de máquina (ML) em todo o ecossistema da Microsoft.
 
-:::image type="content" source="../media/win17-15021-00-n9.jpg" alt-text="Cinco profissionais da informação observam enquanto outro faz uma apresentação.":::
+![Cinco profissionais da informação observam enquanto outro faz uma apresentação](../media/win17-15021-00-n9.jpg)
  
 ## <a name="identify-sensitive-data-and-prevent-data-loss"></a>Identificar dados confidenciais e evitar a perda de dados
 O Microsoft 365 permite que todas as organizações identifiquem dados confidenciais dentro da organização por meio de uma combinação de recursos avançados, incluindo:
@@ -178,7 +178,7 @@ Os sinais gerados e alimentados no Identity Protection também podem ser aliment
 
 O Identity Protection ajuda as organizações a se protegerem automaticamente contra comprometimento de identidade, tirando proveito da inteligência em nuvem fornecida por detecções avançadas baseadas em heurística, análises de comportamento de usuários e entidades e aprendizado de máquina no ecossistema da Microsoft.
 
-:::image type="content" source="../media/clo1718-portrait-006.jpg" alt-text="Um profissional da informação é retratado em frente a uma grande variedade de monitores.":::
+![Um profissional da informação é retratado em frente a uma grande variedade de monitores](../media/clo1718-portrait-006.jpg)
 
 ## <a name="defend-the-fortress"></a>Defender a fortaleza
 
@@ -199,7 +199,7 @@ A [Proteção Avançada contra Ameaças do Azure (AATP)](https://docs.microsoft.
 * Identificar e investigar atividades suspeitas do usuário e ataques avançados em toda a cadeia de extermínio.
 * Fornecer informações claras sobre incidentes em uma linha do tempo simples para triagem rápida.
 
-:::image type="content" source="../media/clo1717-corporate-office-021.jpg" alt-text="Funcionários de escritório se reúnem em uma pequena sala de conferências. Um faz uma apresentação.":::
+![Trabalhadores de escritório se reúnem em uma pequena sala de conferências. Um faz uma apresentação.](../media/clo1717-corporate-office-021.jpg)
  
 ## <a name="govern-data-and-manage-records"></a>Controlar dados e gerenciar registros
 
@@ -285,7 +285,7 @@ Normalmente, as instituições financeiras são obrigadas a estabelecer e manter
  
 * A [Regra 3120 da FINRA (Sistema de Controle de Supervisão)](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3120) exige que as empresas tenham um sistema de políticas e procedimentos de controle de supervisão (SCPs) que valide seus procedimentos de supervisão por escrito, conforme definido pela Regra 3110. As empresas são obrigadas não apenas a ter WSPs, mas também a ter políticas que testem esses procedimentos anualmente para validar sua capacidade de garantir a conformidade com as leis e regulamentos de valores mobiliários aplicáveis. Metodologias baseadas em risco e amostragem podem ser usadas para definir o escopo dos testes. Entre outros requisitos, essa regra exige que as empresas forneçam um relatório anual à gerência sênior que inclua um resumo dos resultados dos testes e quaisquer exceções significativas ou procedimentos alterados em resposta aos resultados dos testes.
 
-:::image type="content" source="../media/wco18-desk-work-002.jpg" alt-text="Um trabalhador de escritório exibe um gráfico e tabelas em uma tela enquanto outros se reúnem em segundo plano.":::
+![Um trabalhador de escritório exibe um gráfico e tabelas em uma tela enquanto outros se reúnem em segundo plano.](../media/wco18-desk-work-002.jpg)
  
 ### <a name="communication-compliance"></a>Conformidade em comunicações
 
@@ -296,7 +296,7 @@ A conformidade com a comunicação fornece relatórios que permitem que as ativi
 
 Além de cumprir as regras da FINRA, a conformidade de comunicação permite que as organizações monitorem as comunicações quanto à conformidade com outros requisitos legais, políticas corporativas e padrões éticos. A conformidade de comunicação fornece classificadores internos de ameaças, assédio e profanação que ajudam a reduzir falsos positivos ao analisar as comunicações, economizando tempo aos revisores durante o processo de investigação e correção. Ele também permite que as organizações reduzam o risco monitorando as comunicações quando passam por mudanças sensíveis, como fusões e aquisições ou mudanças de liderança.
 
-:::image type="content" source="../media/msc16-slalom-004.jpg" alt-text="Um profissional da informação se concentra em uma tela.":::
+![Um profissional da informação se concentra em uma tela.](../media/msc16-slalom-004.jpg)
  
 ## <a name="protect-against-data-exfiltration-and-insider-risk"></a>Proteger-se contra exfiltração de dados e riscos internos
 
@@ -312,14 +312,14 @@ Por exemplo, o gerenciamento de riscos internos no Microsoft 365 pode correlacio
 
 O gerenciamento de riscos internos no Microsoft 365 aumenta significativamente os recursos das organizações para monitorar e investigar riscos internos, permitindo que as organizações ainda cumpram os regulamentos de privacidade de dados e sigam os caminhos de escalonamento estabelecidos quando os casos exigem ações de nível superior.
 
-:::image type="content" source="../media/clo17-call-center-006.jpg" alt-text="Um funcionário de central de atendimento em uma baia digita enquanto visualiza uma tela.":::
+![Um funcionário de central de atendimento em um cubículo digita enquanto visualiza uma tela.](../media/clo17-call-center-006.jpg)
  
 ### <a name="tenant-restrictions"></a>Restrições de locatário
 Geralmente, as organizações que lidam com dados confidenciais e enfatizam estritamente a segurança desejam controlar os recursos online que os usuários podem acessar. Ao mesmo tempo, elas desejam permitir a colaboração segura por meio de serviços online, como o Office 365. Como resultado, controlar os ambientes do Office 365 que os usuários podem acessar se torna um desafio, porque os ambientes não corporativos do Office 365 podem ser usados para exfiltrar dados de dispositivos corporativos de maneira mal-intencionada ou inadvertida. Tradicionalmente, as organizações restringem os domínios ou endereços IP que os usuários podem acessar a partir de dispositivos corporativos. Mas isso não funciona em um mundo centrado na nuvem, onde os usuários precisam acessar legitimamente os serviços do Office 365.
 
 O Microsoft 365 fornece às [restrições de locatário](https://docs.microsoft.com/azure/active-directory/manage-apps/tenant-restrictions) a capacidade de enfrentar esse desafio. As restrições de locatário podem ser configuradas para restringir o acesso dos funcionários a locatários corporativos externos do Office 365 que usam identidades não autorizadas (identidades que não fazem parte do diretório corporativo). Hoje, as restrições de locatário se aplicam por meio do locatário, permitindo acesso apenas aos locatários que aparecem na lista que você configura. A Microsoft continua desenvolvendo essa solução para aumentar a granularidade do controle e aprimorar as proteções que ela fornece.
 
-:::image type="content" source="../media/clo1717-corporate-office-001.jpg" alt-text="ELEMENTO GRÁFICO":::
+![ELEMENTO GRÁFICO](../media/clo1717-corporate-office-001.jpg)
  
 ## <a name="conclusion"></a>Conclusão
 

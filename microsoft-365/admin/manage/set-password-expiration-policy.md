@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Saiba como definir uma política de expiração de senha para sua organização no centro de administração do Microsoft 365. '
-ms.openlocfilehash: eec6231d2c6b5d51b25f42c401e367743fdb19ea
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 053b3214862d477cbd122ff6336a6b53a98e5421
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560866"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597360"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
@@ -75,7 +75,9 @@ Vejamos alguns pontos que você precisa saber sobre como esse recurso funcionar�
     
 ## <a name="prevent-last-password-from-being-used-again"></a>Impedir que a última senha seja utilizada novamente
 
-Se quiser impedir que seus usuários reciclem senhas antigas, você pode fazê-lo impondo o histórico de senhas no Azure AD. Confira [Criar uma política de senha personalizada](https://docs.microsoft.com/azure/active-directory-domain-services/password-policy#create-a-custom-password-policy).
+Se quiser impedir que seus usuários reciclem senhas antigas, você pode fazê-lo aplicando essa regra no histórico de senhas do Active Directory (AD) local. Confira [Criar uma política de senha personalizada](https://docs.microsoft.com/azure/active-directory-domain-services/password-policy#create-a-custom-password-policy).
+
+No Azure AD, a última senha não pode ser usada novamente quando o usuário altera uma senha. A política de senha é aplicada a todas as contas de usuário que são criadas e gerenciadas diretamente no Azure AD. Essa política de senhas não pode ser modificada. Confira [Políticas de senha do Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts).
 
 ## <a name="synchronize-user-passwords-hashes-from-an-on-premises-active-directory-to-azure-ad-microsoft-365"></a>Sincronizar os hashes de senhas do usuário de um Active Directory local para o Azure AD (Microsoft 365)
 
