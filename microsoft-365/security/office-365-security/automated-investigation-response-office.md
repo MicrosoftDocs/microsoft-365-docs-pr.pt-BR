@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Obtenha uma visão geral dos recursos de investigação e resposta automatizados no Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: d62d24a8f4cbd0541099ece91e46a23d3fbc786c
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: c977aa3f57c981cdc29037ca6f9f7803b7accd03
+ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208906"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46601892"
 ---
 # <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-365"></a>Uma visão geral da investigação e resposta automatizadas (AIR) no Microsoft 365
 
@@ -127,11 +127,11 @@ Além de investigações automáticas disparadas por um alerta, a equipe de oper
 
 Por exemplo, suponha que você esteja usando o modo de exibição de **malware** no explorador de ameaças. Usando as guias abaixo do gráfico, você seleciona a guia **email** . Se você selecionar um ou mais itens na lista, o botão **+ Actions** será ativado. 
 
-:::image type="content" source="../../media/Explorer-Malware-Email-ActionsInvestigate.png" alt-text="Explorer com mensagens selecionadas":::
+![Explorer com mensagens selecionadas](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
 
 Usando o menu **ações** , você pode selecionar **disparador de investigação**.
 
-:::image type="content" source="../../media/explorer-malwareview-selectedemails-actions.jpg" alt-text="Menu de ações para mensagens selecionadas":::
+![Menu de ações para mensagens selecionadas](../../media/explorer-malwareview-selectedemails-actions.jpg)
 
 Semelhante aos guias estratégicos acionados por um alerta, as investigações automáticas disparadas de um modo de exibição no Explorer incluem uma investigação raiz, etapas para identificar e correlacionar ameaças e ações recomendadas para atenuar essas ameaças.
 

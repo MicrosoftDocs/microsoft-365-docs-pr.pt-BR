@@ -21,12 +21,12 @@ description: O centro de administração do Microsoft 365-Aprenda sobre os recur
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 0bb0955e08c187ae7b425228f435566bcd8e01d7
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 11a48ecf78c09c8e597d94821f747bf6ebd7e444
+ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015988"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46602004"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>O que há de novo no centro de administração do Microsoft 365
 
@@ -79,7 +79,7 @@ Para saber mais sobre essas funções, consulte [sobre funções de administrado
 
 Ouvimos muitos administradores de que eles precisam compartilhar informações sobre grupos e seu uso para pessoas que não têm acesso aos centros de administração. Agora você pode exportar a lista de grupos para um arquivo CSV para fins de auditoria, o que significa que você pode jogar esse script antigo do PowerShell. Para experimentá-lo, vá **para grupos de grupos**  >  **Groups**e selecione **Exportar grupos** na barra de comandos.
 
-### <a name="microsoft-365-solution-and-architecture-center"></a>Centro de soluções e arquitetura da Microsoft 365
+### <a name="microsoft-365-solution-and-architecture-center"></a>Centro de soluções e arquitetura do Microsoft 365
 
 Apenas este mês, lançamos um novo site [https://docs.microsoft.com](https://docs.microsoft.com) chamado do [centro de soluções e arquiteturas da Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center), que reúne as orientações técnicas de que você precisa para entender, planejar e implementar soluções integradas da Microsoft 365 para colaboração segura e compatível. Neste centro, você encontrará:
 
@@ -102,7 +102,7 @@ Apenas este mês, lançamos um novo site [https://docs.microsoft.com](https://do
 
 Bem, fizemos! Fizemos a segunda etapa em direção a uma experiência de funções unificadas e agora você pode gerenciar as funções do Intune no centro de administração do Microsoft 365. Você também pode aproveitar recursos como a capacidade de Pesquisar funções e exibir permissões de função. Isso significa que você não precisa de duas ferramentas separadas para gerenciar as funções do Microsoft 365 e do Intune. Ao entrar no centro de administração do Microsoft 365, você verá que há duas pivôs na página funções, uma para o Azure AD e outra para o Intune.
 
-:::image type="content" source="../media/MAC-WN-IntuneRoles.png" alt-text="Página de funções com a tabela dinâmica do Intune selecionada":::
+![Página de funções com a tabela dinâmica do Intune selecionada](../media/MAC-WN-IntuneRoles.png)
 
 ### <a name="sync-message-center-posts-to-planner"></a>Sincronizar postagens do centro de mensagens no Planner
 
@@ -173,19 +173,19 @@ Temos duas atualizações para grupos este mês:
 
 Recebemos muitos comentários de administradores sobre o quão difícil é atribuir licenças ao adicionar usuários. Fizemos a primeira atualização dessa correção e migramos para um serviço por trás de bastidores mais confiável para processar essas solicitações. E, se algo der errado, você receberá uma mensagem de erro que permite que você tente novamente.
 
-:::image type="content" source="../media/MAC-WN-ImprovedLicensing.png" alt-text="Adicione a página de confirmação do usuário com o erro.":::
+![Adicione a página de confirmação do usuário com o erro.](../media/MAC-WN-ImprovedLicensing.png)
 
 ### <a name="microsoft-teams-home-page-card"></a>Cartão de home page do Microsoft Teams
 
 Com o uptick no uso do Teams, alguns organizações expandidas receberão um cartão de painel afixado que torna o Microsoft Teams mais detectável. O cartão também tem links para treinamento e documentos para ajudar sua organização a fazer a transição para o trabalho remoto. Basta ir para a **Home** Page para ver o novo cartão.
 
-:::image type="content" source="../media/MAC-WN-TeamsCard.PNG" alt-text="Cartão de home page do Microsoft Teams":::
+![Cartão de home page do Microsoft Teams](../media/MAC-WN-TeamsCard.PNG)
 
 ### <a name="customize-your-organizations-sharepoint-mobile-app-theme"></a>Personalizar o tema do aplicativo móvel do SharePoint da sua organização
 
 Usando o centro de administração do Microsoft 365, agora você pode personalizar o tema da sua organização no aplicativo móvel do SharePoint para iOS e o aplicativo móvel do SharePoint para Android. Esse recurso fornece convenientemente uma experiência de aplicativo de intranet móvel que pode corresponder ao seu SharePoint Online para funcionários em trânsito. A personalização do tema inclui a imagem do logotipo, a cor da barra de navegação, as cores de texto e ícone e as cores de ênfase, fazendo com que o reconhecimento seja fácil.
 
-:::image type="content" source="../media/MAC-WN-CustThemeSP.png" alt-text="Mapeamento de diagrama as configurações do centro de administração para o aplicativo móvel.":::
+![Mapeamento de diagrama as configurações do centro de administração para o aplicativo móvel.](../media/MAC-WN-CustThemeSP.png)
 
 ### <a name="improvements-to-the-add-a-group-wizard"></a>Aprimoramentos para o assistente "adicionar um grupo"
 
@@ -403,7 +403,7 @@ Há uma atualização para outro dos nossos assistentes de instalação inicial:
 Temos algumas atualizações para cobrança e assinaturas neste mês:
 
 - Assinaturas baseadas em dispositivo: você pode atribuir ou cancelar a atribuição **de licenças do microsoft 365 Apps for Education (Device)** a dispositivos no centro de administração do Microsoft 365. **O Microsoft 365 Apps for Education (dispositivo)** é uma licença complementar que lhe permitirá atribuir uma licença a um dispositivo. Vá para **cobrança**de  >  **seus produtos** para encontrar e comprar a licença.
-- Gerenciamento de licença baseado em usuário: atualizamos o modo como você atribui licenças aos usuários ativos de **usuários**  >  **Active users** para o novo estilo. Para saber mais, veja:
+- Gerenciamento de licença baseado em usuário: atualizamos o modo como você atribui licenças aos usuários ativos de **usuários**  >  **Active users** para o novo estilo. Para saber mais, confira:
   - [Atribuir licenças a usuários](manage/assign-licenses-to-users.md)
   - [Cancelar licenças de usuários](manage/remove-licenses-from-users.md)
 

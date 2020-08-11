@@ -9,14 +9,14 @@ audience: admin
 ms.topic: article
 ms.service: ''
 search.appverid: ''
-localization_priority: Normal
+localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fca80e45dfa45ee5da9521854c6eebfbd87d8859
-ms.sourcegitcommit: 91c82a79962387205c4dd4dd8d61322b79fed55f
+ms.openlocfilehash: 5fcc7f78bfc12faae19ce2a3fbc77c4348da01de
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46539896"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612697"
 ---
 # <a name="set-up-content-understanding-preview"></a>Configurar a compreensão do conteúdo (versão prévia)
 

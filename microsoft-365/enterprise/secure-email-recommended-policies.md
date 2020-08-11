@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: e469f0d1c0be85aeb5f98a4f2e6e2758cddd8450
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+ms.openlocfilehash: c2eabd160cf221f7e2bb7b81f07c205135476cc9
+ms.sourcegitcommit: d6b641d0ef92f4176da9f4a98d3d5aa3d4f2e184
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222692"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46617169"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Recomendações de política para proteger o email
 
@@ -37,6 +37,8 @@ O diagrama a seguir ilustra as políticas comuns de acesso de dispositivo e iden
 
 ![Resumo das atualizações de política para proteção de email](../media/identity-access-ruleset-mail.png)
 
+[Veja uma versão maior desta imagem](https://raw.githubusercontent.com/MicrosoftDocs/microsoft-365-docs/public/microsoft-365/media/identity-access-ruleset-mail.png)
+
 Se você incluiu o Exchange Online e o Outlook no escopo das políticas quando as configurou, só precisará criar a nova política para bloquear clientes ActiveSync. Revise as políticas listadas na tabela a seguir e faça as adições recomendadas ou confirme se elas já estão incluídas. Cada regra vincula as instruções de configuração associadas no artigo [Common Identity and Device Access Policies](identity-access-policies.md) .
 
 |Nível de Proteção|Políticas|Mais informações|
@@ -49,7 +51,7 @@ Se você incluiu o Exchange Online e o Outlook no escopo das políticas quando a
 |        |[Bloquear clientes ActiveSync](#block-activesync-clients)|Adicionar esta nova política| 
 |**Confidencial**|[Exigir MFA quando o risco de entrada for *baixo*, *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)| Incluir o Exchange Online na atribuição de aplicativos de nuvem|
 |         |[Exigir computadores *em conformidade e* dispositivos móveis](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Incluir o Exchange Online na lista de aplicativos em nuvem|
-|**Altamente controlada**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o Exchange Online na atribuição de aplicativos de nuvem|
+|**Altamente controlado**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o Exchange Online na atribuição de aplicativos de nuvem|
 
 ## <a name="block-activesync-clients"></a>Bloquear clientes ActiveSync
 

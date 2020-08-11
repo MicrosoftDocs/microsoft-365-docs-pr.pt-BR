@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 - MOE150
 description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador do serviço abre tíquetes de suporte da Microsoft.
-ms.openlocfilehash: f557d00e21659880a96e4cd1936ab40d4b5a2dec
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 1f662221a2bcd8bc75c8226b2da726966a096be6
+ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432106"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46602088"
 ---
 # <a name="get-started-with-the-roles-page"></a>Introdução à página de funções
 
 Na página funções, você pode dar aos usuários permissões para executar tarefas nos centros de administração. Isso ajuda sua organização a espalhar tarefas para as pessoas apropriadas e ajuda a manter seus dados seguros.
 
-:::image type="content" source="../../media/roles-main-page.png" alt-text="Uma figura que mostra as funções de administrador":::
+![Uma figura que mostra as funções de administrador](../../media/roles-main-page.png)
 
 > [!TIP]
 > Procurando as descrições detalhadas das funções? Confira [permissões de função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) e [sobre funções de administrador](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
@@ -39,7 +39,7 @@ Na página funções, você pode dar aos usuários permissões para executar tar
 
 Você pode exportar a lista de administração, bem como pesquisa e filtro por função.
 
-:::image type="content" source="../../media/admin-role-page-options.png" alt-text="Filtrar ou importar funções de administrador":::
+![Filtrar ou importar funções de administrador](../../media/admin-role-page-options.png)
 
 |||
 |:-----|:-----|
@@ -96,7 +96,7 @@ No centro de administração:
 
 - Selecione até 3 funções e escolha **comparar funções** para ver as permissões de cada função.
 
-:::image type="content" source="../../media/compare-roles-list.png" alt-text="Uma figura que mostra uma comparação de funções de administrador":::
+![Uma figura que mostra uma comparação de funções de administrador](../../media/compare-roles-list.png)
 
 ::: moniker-end
 

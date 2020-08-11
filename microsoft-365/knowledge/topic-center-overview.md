@@ -10,13 +10,13 @@ ms.topic: article
 ms.service: ''
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
-localization_priority: Normal
-ms.openlocfilehash: bbc6a6b63f742939675e366b7fe95aaa3900d30e
-ms.sourcegitcommit: 3a47efcbdf3d2b39caa2798ea5be806839b05ed1
+localization_priority: None
+ms.openlocfilehash: e9306ff3f797e03422a40ceb189a76dee331ddd9
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46540089"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612497"
 ---
 # <a name="topic-center-overview-preview"></a>Visão geral do centro de tópicos (versão prévia)
 

@@ -10,13 +10,13 @@ ms.topic: article
 ms.service: ''
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
-localization_priority: Normal
-ms.openlocfilehash: d4bc45bd1c88d4043df661972399dc6740dbed84
-ms.sourcegitcommit: 3a47efcbdf3d2b39caa2798ea5be806839b05ed1
+localization_priority: None
+ms.openlocfilehash: ba8cb8ceb3c98019099bfe5438d274c9d2b32280
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46540125"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612543"
 ---
 # <a name="set-up-knowledge-management-preview"></a>Configurar o gerenciamento de conhecimento (versão prévia)
 

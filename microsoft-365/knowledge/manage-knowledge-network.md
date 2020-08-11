@@ -10,13 +10,13 @@ ms.topic: article
 ms.service: ''
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
-localization_priority: Normal
-ms.openlocfilehash: 87275dba78ab402a9ea9553198ce1a84072e3351
-ms.sourcegitcommit: 3a47efcbdf3d2b39caa2798ea5be806839b05ed1
+localization_priority: None
+ms.openlocfilehash: af53f4d563d286ad29138f935fbb69aa10b902ca
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46540113"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612615"
 ---
 # <a name="manage-your-knowledge-management-network-preview"></a>Gerenciar sua rede de gerenciamento de conhecimento (versão prévia)
 

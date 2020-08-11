@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: ac1491a9257ff7169c0e2a10b014897d47a5d14b
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: e44411fdc14279dac92b8829503fd636e3225600
+ms.sourcegitcommit: 51f040a4edb8dd52521a5d7b0f7a975986a1af10
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011834"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46608228"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Portais de segurança e centros de administração da Microsoft
 Embora o [centro de segurança do Microsoft 365](overview-security-center.md) seja a nova casa para monitorar e gerenciar a segurança em suas identidades, dados, dispositivos e aplicativos, você precisará acessar vários portais para determinadas tarefas especializadas.
@@ -53,4 +53,4 @@ Embora esses portais não sejam especificamente para o gerenciamento de seguran�
 | Centro de conformidade do Microsoft 365 | Gerenciar políticas de manipulação de dados e garantir [conformidade com regulamentos](https://docs.microsoft.com/microsoft-365/compliance/offering-home?view=o365-worldwide) | [compliance.microsoft.com](https://compliance.microsoft.com/) |
 | Centro de administração do Microsoft 365 | Configure os serviços do Microsoft 365; gerenciar funções, licenças e controlar atualizações para seus serviços do Microsoft 365 | [admin.microsoft.com](https://admin.microsoft.com/) |
 | Centro de administração do Microsoft Endpoint Manager | Usar [o Microsoft Endpoint Manager](https://docs.microsoft.com/mem/configmgr/) para gerenciar e proteger os dispositivos usando os recursos do Intune e do Configuration Manager combinados | [devicemanagement.microsoft.com](https://devicemanagement.microsoft.com/) |
-| Portal do Microsoft Intune | Usar [o Microsoft Intune](https://docs.microsoft.com/intune/fundamentals/what-is-intune) para implantar políticas de dispositivo e monitorar dispositivos para fins de conformidade | [#blade/Microsoft_Intune_DeviceSettings portal.azure.com/](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview)
+| Portal do Microsoft Intune | Usar [o Microsoft Intune](https://docs.microsoft.com/intune/fundamentals/what-is-intune) para implantar políticas de dispositivo e monitorar dispositivos para fins de conformidade | [endpoint.microsoft.com](https://endpoint.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/overview)

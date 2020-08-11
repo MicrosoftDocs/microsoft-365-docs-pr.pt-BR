@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 6429c3dee32087d6e82a427b2f374ec49bab5cac
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+ms.openlocfilehash: 784a4d617d74916ae7b0ec4b431cc298ce45531e
+ms.sourcegitcommit: d6b641d0ef92f4176da9f4a98d3d5aa3d4f2e184
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222680"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46617181"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Recomendações de política para proteger sites e arquivos do SharePoint
 
@@ -29,13 +29,13 @@ Este artigo descreve como implementar a identidade recomendada e as políticas d
 
 Essas recomendações são baseadas em três camadas diferentes de segurança e proteção para arquivos do SharePoint que podem ser aplicadas com base na granularidade das suas necessidades: **Baseline**, **sensitive**e **High Regulation**. Você pode saber mais sobre essas camadas de segurança e os sistemas operacionais de cliente recomendados, mencionados por essas recomendações na [visão geral](microsoft-365-policies-configurations.md).
 
-Além de implementar essas orientações, não deixe de configurar os sites do SharePoint com a quantidade certa de proteção, incluindo a definição de permissões apropriadas para conteúdo confidencial e altamente regulamentado. Para obter mais informações sobre a criação de sites para proteção de linha de base, confidencial e altamente regulamentada, consulte [proteger sites e arquivos do SharePoint Online](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files).
+Além de implementar essas orientações, não deixe de configurar os sites do SharePoint com a quantidade certa de proteção, incluindo a definição de permissões apropriadas para conteúdo confidencial e altamente regulamentado.
 
 ## <a name="updating-common-policies-to-include-sharepoint-and-onedrive-for-business"></a>Atualizando políticas comuns para incluir o SharePoint e o OneDrive for Business
 
 O diagrama a seguir ilustra o conjunto de políticas recomendadas para proteger arquivos no SharePoint Online e no OneDrive for Business. Ele indica quais políticas devem ser atualizadas ou recém-criadas para adicionar proteção para o SharePoint Online e o OneDrive for Business.
 
-![Resumo das políticas do SharePoint Online e do OneDrive](../media/identity-access-ruleset-sharepoint.png)
+[![Resumo das políticas do SharePoint Online e do onedrive ](../media/identity-access-ruleset-sharepoint.png)](../media/identity-access-ruleset-sharepoint.png#lightbox)
 
 Se você tiver incluído o SharePoint Online quando criou as políticas comuns, só precisará criar as novas políticas. Ao configurar regras de acesso condicional, o SharePoint Online inclui o OneDrive for Business.
 
@@ -53,7 +53,7 @@ A tabela a seguir lista as políticas que você precisa analisar e atualizar ou 
 |**Confidencial**|[Exigir MFA quando o risco de entrada for *baixo*, *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o SharePoint Online nas atribuições de aplicativos em nuvem|
 |         |[Exigir computadores *em conformidade e* dispositivos móveis](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Incluir o SharePoint Online na lista de aplicativos em nuvem|
 ||[Política de controle de acesso do SharePoint Online](#sharepoint-online-access-control-policies): permitir acesso somente ao navegador para sites específicos do SharePoint de dispositivos não gerenciados|Isso impede a edição e o download de arquivos. Usar o PowerShell para especificar sites|
-|**Altamente controlada**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o SharePoint Online na atribuição de aplicativos de nuvem|
+|**Altamente controlado**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o SharePoint Online na atribuição de aplicativos de nuvem|
 ||[Política de controle de acesso do SharePoint Online](#use-app-enforced-restrictions-in-sharepoint-online): bloquear o acesso a sites específicos do SharePoint de dispositivos não gerenciados|Usar o PowerShell para especificar sites|
 
 ## <a name="use-app-enforced-restrictions-in-sharepoint-online"></a>Usar restrições impostas pelo aplicativo no SharePoint Online
@@ -77,7 +77,7 @@ Consulte "bloquear ou limitar o acesso a conjuntos de sites do SharePoint ou con
 
 A ilustração a seguir fornece um exemplo de como as políticas de acesso de dispositivo do SharePoint protegem o acesso a sites.
 
-![Como as políticas de acesso de dispositivo do SharePoint protegem sites](../media/SharePoint-rules-scenario.png)
+[![Como as políticas de acesso de dispositivo do SharePoint protegem sites ](../media/SharePoint-rules-scenario.png)](../media/SharePoint-rules-scenario.png#lightbox)
 
 Na ilustração:
 
@@ -86,6 +86,4 @@ Na ilustração:
 - Se James acessar um site confidencial que é membro de usar seu telefone não gerenciado, que é permitido para usuários de linha de base, ele receberá acesso somente ao navegador ao site confidencial devido à política de acesso do dispositivo configurada para este site.
 - Se James acessar um site altamente regulamentado, ele é membro do uso de seu telefone não gerenciado, ele será bloqueado devido à política de acesso configurada para este site. Ele só pode acessar esse site usando seu computador gerenciado e compatível.
 
-## <a name="next-steps"></a>Próximas etapas
 
-[Proteger arquivos e sites do SharePoint Online](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files)

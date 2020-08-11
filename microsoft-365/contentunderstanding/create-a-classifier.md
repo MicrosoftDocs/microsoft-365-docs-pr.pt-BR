@@ -8,15 +8,15 @@ audience: admin
 ms.topic: article
 ms.service: ''
 search.appverid: ''
-localization_priority: Normal
+localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba como criar um classificador
-ms.openlocfilehash: 029ac16310f8e95a69a713896b1109a778eb3b8d
-ms.sourcegitcommit: ea5e2f85bd6b609658545b120c7e08789b9686fd
+ms.openlocfilehash: 088770ace8914b583b184c78c3ce110d9d68b4c7
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46536900"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612603"
 ---
 # <a name="create-a-classifier-preview"></a>Criar um classificador (visualização)
 
