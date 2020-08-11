@@ -12,12 +12,12 @@ ms.reviewer: esaggese
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 7f54832001f80418ffb09bc45da8f32c79f3df53
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: 0c66afa22c8712455a875bc8ca4ddcad1678e2e7
+ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46503032"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46601994"
 ---
 # <a name="double-key-encryption-dke"></a>DKE (criptografia de chave dupla)
 
@@ -138,11 +138,11 @@ As instruções a seguir se destinam a usuários do git ou do Visual Studio Code
 
     Por exemplo:
 
-    :::image type="content" source="../media/dke-clone.png" alt-text="Clonar o repositório de serviço de criptografia de chave dupla do GitHub":::
+   ![Clonar o repositório de serviço de criptografia de chave dupla do GitHub](../media/dke-clone.png)
 
 3. No Visual Studio Code, selecione **Exibir** \> **paleta de comandos** e selecione **git: clonar**. Para ir para a opção na lista, comece a digitar `git: clone` para filtrar as entradas e, em seguida, selecione-a no menu suspenso. Por exemplo:
 
-    :::image type="content" source="../media/dke-vscode-clone.png" alt-text="Visual Studio Code GIT: opção clone":::
+   ![Visual Studio Code GIT: opção clone](../media/dke-vscode-clone.png)
 
 4. Na caixa de texto, Cole a URL que você copiou do git e selecione **clonar do GitHub**.
 
@@ -152,7 +152,7 @@ As instruções a seguir se destinam a usuários do git ou do Visual Studio Code
 
     Por exemplo:
 
-    :::image type="content" source="../media/dke-vscode-master.png" alt-text="Ramificação do Visual Studio Code Master":::
+   ![Ramificação do Visual Studio Code Master](../media/dke-vscode-master.png)
 
 6. Selecione o Word **Master** e, em seguida, selecione **public_preview** na lista de ramificações.
 
@@ -170,7 +170,7 @@ Para implantar o serviço DKE, você deve modificar os seguintes tipos de config
 
 Você modifica as configurações de aplicativo no appsettings.jsem arquivo. Esse arquivo está localizado no repositório do DoubleKeyEncryptionService que você clonou localmente em DoubleKeyEncryptionService\src\customer-key-store. Por exemplo, no Visual Studio Code, você pode navegar até o arquivo, conforme mostrado na imagem a seguir.
 
-:::image type="content" source="../media/dke-appsettingsjson.png" alt-text="Localizar o appsettings.jsno arquivo do DKE.":::
+![Localizar o appsettings.jsno arquivo do DKE.](../media/dke-appsettingsjson.png)
 
 #### <a name="key-access-settings"></a>Configurações de acesso de chave
 
@@ -200,7 +200,7 @@ Escolha se deseja usar o email ou a autorização de função. O DKE oferece sup
 
 Esta imagem mostra o **appsettings.jsem** arquivo formatado corretamente para autorização de email.
 
-   :::image type="content" source="../media/dke-email-accesssetting.png" alt-text="O appsettings.jsem arquivo mostrando o método de autorização de email":::
+   ![O appsettings.jsem arquivo mostrando o método de autorização de email](../media/dke-email-accesssetting.png)
 
 **Para definir as configurações de acesso de chave para DKE usando autorização de função**
 
@@ -222,7 +222,7 @@ Esta imagem mostra o **appsettings.jsem** arquivo formatado corretamente para au
 
 Esta imagem mostra o **appsettings.jsem** arquivo formatado corretamente para autorização de função.
 
-   :::image type="content" source="../media/dke-role-accesssetting.png" alt-text="appsettings.jsem arquivo mostrando o método de autorização de função":::
+   ![appsettings.jsem arquivo mostrando o método de autorização de função](../media/dke-role-accesssetting.png)
 
 #### <a name="tenant-and-key-settings"></a>Definições de locatário e chave
 
@@ -252,7 +252,7 @@ Localize o `JwtAudience` . Substitua `<yourhostname>` pelo nome do host do compu
 
 Esta imagem mostra o formato correto das configurações de locatário e chaves em **appsettings.js**. `LDAPPath`é configurada para autorização de função.
 
-:::image type="content" source="../media/dke-appsettingsjson-tenantkeysettings.png" alt-text="Mostra as configurações de locatário e chave corretas para o DKE no arquivo appsettings.js.":::
+![Mostra as configurações de locatário e chave corretas para o DKE no arquivo appsettings.js.](../media/dke-appsettingsjson-tenantkeysettings.png)
 
 ### <a name="generate-test-keys"></a>Gerar chaves de teste
 
@@ -311,7 +311,7 @@ Para gerar chaves:
 
    Os resultados finais devem ser semelhantes aos seguintes.
 
-   :::image type="content" source="../media/dke-startupcs-usetestkeys.png" alt-text="arquivo startup.cs para visualização pública":::
+   ![arquivo startup.cs para visualização pública](../media/dke-startupcs-usetestkeys.png)
 
 Agora você está pronto para [criar seu projeto do DKE](#build-the-project).
 
@@ -325,15 +325,15 @@ Use as instruções a seguir para criar o projeto do DKE localmente:
 
    Se não houver tarefas de compilação encontradas, selecione **Configurar tarefa de compilação** e criar uma para o .NET Core da seguinte maneira.
 
-   :::image type="content" source="../media/dke-configurebuildtask.png" alt-text="Configurar a tarefa de compilação ausente para o .NET":::
+   ![Configurar a tarefa de compilação ausente para o .NET](../media/dke-configurebuildtask.png)
 
    1. Escolha **criar tasks.jsno modelo**.
 
-   :::image type="content" source="../media/dke-createtasksjsonfromtemplate.png" alt-text="Criar tasks.jsno arquivo do modelo do DKE":::
+   ![Criar tasks.jsno arquivo do modelo do DKE](../media/dke-createtasksjsonfromtemplate.png)
 
    2. Na lista de tipos de modelo, selecione **.NET Core**.
 
-   :::image type="content" source="../media/dke-tasksjsontemplate.png" alt-text="Criar tasks.jsno arquivo do modelo do DKE":::
+   ![Criar tasks.jsno arquivo do modelo do DKE](../media/dke-tasksjsontemplate.png)
 
    3. Na seção criar, localize o caminho para o arquivo **customerkeystore. csproj** . Se ele não estiver lá, adicione a seguinte linha:
 
@@ -375,7 +375,7 @@ Para publicar o repositório de chaves, você criará uma instância do serviço
 
     Por exemplo:
 
-    :::image type="content" source="../media/dke-azure-add-app-service.png" alt-text="Adicionar seu serviço de aplicativo":::
+   ![Adicionar seu serviço de aplicativo](../media/dke-azure-add-app-service.png)
 
 1. Na parte inferior da página, selecione **revisar + criar**e selecione **Adicionar**.
 
@@ -422,7 +422,7 @@ O DKE é implantado e você pode navegar até as chaves de teste que você criou
 
     Por exemplo:
 
-    :::image type="content" source="../media/dke-ftp-dashboard.png" alt-text="Copiar cadeias de conexão do painel de FTP":::
+   ![Copiar cadeias de conexão do painel de FTP](../media/dke-ftp-dashboard.png)
 
 1. Na base de código do armazenamento principal, vá para o **diretório Customer-Key-store\src\customer-Key-Store**
 
@@ -444,7 +444,7 @@ DKE é implantado e você pode navegar para as teclas de teste que você criou. 
 
 Depois de implantar o DKE usando um dos métodos descritos acima, valide a implantação e as configurações do armazenamento de chaves.
 
-Sejam
+Execute:  
 
 src\customer-key-store\scripts\key_store_tester.ps1 mykeystoreurl/MyKey
 
@@ -470,7 +470,7 @@ Para registrar seu repositório de chave:
 
     Por exemplo:
 
-    :::image type="content" source="../media/dke-app-registration.png" alt-text="Novo registro de aplicativo":::
+   ![Novo registro de aplicativo](../media/dke-app-registration.png)
 
 4. Na parte inferior da página, selecione **registrar** para criar o novo registro de aplicativo.
 
@@ -528,7 +528,7 @@ No centro de conformidade da Microsoft 365, crie um novo rótulo de confidencial
 
 Por exemplo:
 
-:::image type="content" source="../media/dke-use-dke.png" alt-text="Selecione usar criptografia de chave dupla no centro de conformidade do Microsoft 365":::
+![Selecione usar criptografia de chave dupla no centro de conformidade do Microsoft 365](../media/dke-use-dke.png)
 
 Quaisquer rótulos do DKE que você adicionar serão iniciados para os usuários nas versões mais recentes dos aplicativos do Microsoft 365 para empresas.
 
