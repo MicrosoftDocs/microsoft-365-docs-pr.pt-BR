@@ -103,6 +103,13 @@
     - name: Trabalhe com a Área de Trabalho Gerenciada da Microsoft
       href: working-with-managed-desktop/index.md
       items:
+        - name: Trabalho com relatórios
+          href: working-with-managed-desktop/reports.md
+          items:
+            - name: Relatório de conformidade do dispositivo
+              href: working-with-managed-desktop/device-compliance-report.md
+            - name: Relatório do inventário do dispositivo
+              href: working-with-managed-desktop/device-inventory-report.md
         - name: Trabalhe com percepções
           href: working-with-managed-desktop/insights.md
           items:
