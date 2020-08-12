@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: a08d07f574c1cd5463772c803be0d4b3850144f4
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 7701932cdd41b673dcc665c71983df9f4d244a8b
+ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199531"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46632170"
 ---
 # <a name="insider-risk-management-policies"></a>Políticas de gerenciamento de risco do insider
 
@@ -75,7 +75,7 @@ Consulte o tópico [criar, testar e ajustar uma política de DLP](create-test-tu
 
 ### <a name="data-leaks-by-priority-users-preview"></a>Vazamentos de dados por usuários de prioridade (visualização)
 
-A proteção de dados e a prevenção de vazamentos de dados para usuários em sua organização podem depender de sua posição, nível de acesso a informações confidenciais ou histórico de riscos. Os vazamentos de dados podem incluir o supercompartilhamento acidental de informações altamente confidenciais fora de sua organização ou roubo de dados com más intenções. Em conjunto com uma política de prevenção de perda de dados (DLP) atribuída, este modelo inicia a pontuação de detecções em tempo real de atividades suspeitas e resulta em uma maior probabilidade de alertas de risco e alertas do insider com níveis de severidade mais altos. Prioridade os usuários são definidos em grupos de usuários de prioridade configurados na área configurações de gerenciamento de risco do insider. ADICIONAR LINK
+A proteção de dados e a prevenção de vazamentos de dados para usuários em sua organização podem depender de sua posição, nível de acesso a informações confidenciais ou histórico de riscos. Os vazamentos de dados podem incluir o supercompartilhamento acidental de informações altamente confidenciais fora de sua organização ou roubo de dados com más intenções. Em conjunto com uma política de prevenção de perda de dados (DLP) atribuída, este modelo inicia a pontuação de detecções em tempo real de atividades suspeitas e resulta em uma maior probabilidade de alertas de risco e alertas do insider com níveis de severidade mais altos. Prioridade os usuários são definidos em [grupos de usuários de prioridade](insider-risk-management-settings.md#priority-user-groups-preview) configurados na área configurações de gerenciamento de risco do insider.
 
 Assim como com o **modelo vazamentos de dados gerais**, você deve atribuir uma política de DLP para acionar indicadores na política de risco do insider para alertas de alta gravidade em sua organização. Siga as diretrizes de política de vazamento de dados acima ao criar uma política usando esse modelo. Além disso, você precisará atribuir grupos de usuários de prioridade criados nos grupos de usuários de prioridade de **Gerenciamento de risco do insider**  >  **Settings**  >  **Priority user groups** à política.
 

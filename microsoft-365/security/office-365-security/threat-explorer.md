@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como usar o Explorer e as detecções em tempo real no centro de conformidade de segurança &amp; para investigar e responder a ameaças com eficácia e eficiência.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 42cb7d2ef4fd04875c4bedc5f783e87cc99c13f5
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 635f7f32d16f18f49aa1920d82efd77bf27dc328
+ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577508"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46641636"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Gerenciador de ameaças e detecções em tempo real
 
@@ -207,6 +207,20 @@ Para examinar as URLs de phishing em mensagens e clicar em URLs nas mensagens de
 
    > [!NOTE]
    > Na caixa de diálogo de submenu URL, a filtragem em mensagens de email é removida para mostrar a exibição completa da exposição da URL em seu ambiente. Isso permite que você filtre mensagens de email no Explorer para as quais você está preocupado, encontre URLs específicas que são ameaças potenciais e, em seguida, expanda a compreensão da exposição de URL no seu ambiente (por meio da caixa de diálogo de detalhes da URL) sem ter que adicionar filtros de URL à própria exibição do Explorer.
+
+
+**Interpretação de diferentes clique em verdicts**
+
+Dentro dos submenus de email ou URL, principais cliques e em nossas experiências de filtragem, você verá diferentes valores de clique como parte de sua experiência de busca. Veja a seguir os valores possíveis de Click verdicts e sua interpretação:
+
+- **Nenhum**: não foi possível capturar o veredicto para a URL. O usuário pode ter clicado através da URL.
+- **Permitido**: o usuário tem permissão para navegar até a URL.
+- **Bloqueado**: o usuário foi impedido de navegar para a URL.
+- **Veredicto pendente**: o usuário foi apresentado com a página de acionamento pendente.
+- **Bloqueado, substituído**: o usuário foi impedido de navegar para a URL; no entanto, o usuário overrode o bloco para navegar até a URL.
+- **Veredicto pendente ignorada**: o usuário foi apresentado com a página acionamento; no entanto, o usuário overrode a página para navegar até a URL.
+- **Erro**: o usuário foi apresentado com a página de erro. Isso também pode significar que houve um erro ao capturar o veredicto.
+- **Falha**: houve uma exceção desconhecida ao capturar o veredicto. O usuário pode ter clicado através da URL. 
 
 ## <a name="review-email-messages-reported-by-users"></a>Analisar mensagens de email relatadas por usuários
 

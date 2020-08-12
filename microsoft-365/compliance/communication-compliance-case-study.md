@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 79948e514009d3adffcead87aafc18ab2f1e3b25
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: 9e16e96989fd3e2312129f9633bd298181839cf0
+ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597626"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46632082"
 ---
 # <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-exchange-and-yammer-communications"></a>Estudo de caso-Contoso configura rapidamente uma política de linguagem ofensiva para comunicações do Microsoft Teams, Exchange e Yammer
 
@@ -81,7 +81,7 @@ Os administradores de ti da Contoso usam as seguintes etapas para verificar o su
 
 Há cinco funções usadas para configurar permissões para gerenciar recursos de conformidade de comunicação. Para tornar a conformidade de comunicação disponível como uma opção de menu no centro de conformidade do Microsoft 365 e para continuar com essas etapas de configuração, os administradores da Contoso recebem a função de *administrador de conformidade de comunicação* .
 
-A Contoso decide criar um grupo de função personalizado e atribuir todas as funções de conformidade de comunicação ao grupo. Isso facilita a introdução rápida e melhor dos seus requisitos de gerenciamento de conformidade à contoso.
+A Contoso decide criar um grupo de funções personalizado e atribuir todas as funções de conformidade de comunicação ao grupo. Isso facilita a introdução rápida e melhor dos seus requisitos de gerenciamento de conformidade à contoso.
 
 A contoso criará um grupo de função que contenha todas as seguintes funções de conformidade de comunicação:
 

@@ -14,20 +14,33 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre o controle de informações no Microsoft 365.
-ms.openlocfilehash: d2c2977a4eeaebb28f37c69683a929cb9f64b085
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: d8e0c252bfe0b5b5c3361e67b8327d04951eb9c5
+ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521238"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46641604"
 ---
 # <a name="manage-information-governance"></a>Gerenciar governança de informações
 
- Gerencie o ciclo de vida do conteúdo usando os recursos do Microsoft 365 para importar, armazenar e classificar dados críticos para os negócios, para que você possa manter o que precisa e excluir o que não deseja.
+Use os recursos de governança de informações da Microsoft para governar seus dados de conformidade ou requisitos normativos.
 
-|**Funcionalidade**|**Mais informações**|
-|:-----|:-----|
-| **Gerenciar dados** | Use [políticas de retenção e rótulos de retenção](retention.md) para manter os dados que você precisa manter e excluir o que você não precisa manter ou deve excluir por motivos normativos ou de conformidade.<br /><br /> Use o [serviço de importação](importing-pst-files-to-office-365.md) para importar arquivos PST rapidamente em massa para caixas de correio do Exchange Online em sua organização e configurar o [arquivamento ilimitado](unlimited-archiving.md) para fornecer aos usuários espaço de armazenamento de caixa de correio adicional.|
-| **Monitorar dados** | [Verifique se os rótulos de retenção](view-label-activity-for-documents.md) foram aplicados corretamente ao conteúdo da sua organização e use a [análise de rótulo](label-analytics.md) para ver rapidamente onde esses rótulos são usados na maioria e onde eles estão sendo aplicados.|
-| **Gerenciar caixas de correio inativas** | Sua organização, talvez seja necessário reter email antigos empregados depois que deixam a organização. Dependendo dos requisitos de retenção da sua organização, você pode precisar manter o conteúdo de caixa de correio para alguns meses ou anos após o término de emprego ou você pode precisar manter o conteúdo de caixa de correio indefinidamente. Independentemente de quanto tempo você precisa para reter o email, você pode criar [caixas de correio inativas](inactive-mailboxes-in-office-365.md) para manter a caixa de correio de antigos funcionários.|
-| **Records management** | Garantir que os [registros corporativos principais](records-management.md) sejam declarados corretamente e armazenados com visibilidade completa da auditoria para atender aos requisitos normativos.|
+## <a name="information-governance"></a>Governança de informações
+
+Para manter o que você deseja e excluir o que não é:
+ 
+|Recursos|Que problemas ele resolve?|Introdução|
+|:------|:------------|:--------------------|:-----------------------------|
+|[Fluxo de trabalho de gerenciamento e exclusão de políticas](retention.md)| Reter ou excluir conteúdo que inclua emails, documentos, mensagens instantâneas e muito mais <br /><br />Cenário de exemplo: [aplicar um rótulo de retenção ao conteúdo automaticamente](apply-retention-labels-automatically.md) | [Introdução às políticas de retenção e rótulos de retenção](get-started-with-retention.md)|
+|[Serviço de importação](importing-pst-files-to-office-365.md)| Importação em massa de arquivos PST para caixas de correio do Exchange Online para reter e pesquisar mensagens de email para requisitos normativos ou de conformidade | [Use o carregamento de rede para importar arquivos PST da sua organização para o Microsoft 365](use-network-upload-to-import-pst-files.md)|
+|[Arquivar dados de terceiros](archiving-third-party-data.md)| Importe, arquive e aplique soluções de conformidade a dados de terceiros de plataformas de mídia social, plataformas de mensagens instantâneas e plataformas de colaboração de documentos| [Conectores de terceiros](archiving-third-party-data.md#third-party-data-connectors)|
+|[Caixas de correio inativas](inactive-mailboxes-in-office-365.md)| Reter o conteúdo da caixa de correio após os funcionários saírem da organização | [Criar e gerenciar caixas de correio inativas](create-and-manage-inactive-mailboxes.md)|
+
+## <a name="records-management"></a>Gerenciamento de registros
+
+Para gerenciar o conteúdo de alto valor para obrigações legais, de negócios ou regulamentares, use o gerenciamento de registros:
+
+|Recursos|Que problemas ele resolve?|Introdução|
+|:------|:------------|---------------------|:----------------------------|
+|[Records management](records-management.md)| Uma única solução para email e documentos que incorpora cronogramas e requisitos de retenção em um plano de arquivo que gerencia a retenção, a declaração de registros e a disposição, para dar suporte ao ciclo de vida completo do seu conteúdo <br /><br />Cenário de exemplo: [disposição de registros](disposition.md#disposition-of-records)|[Saiba mais sobre os registros](records.md) |
+

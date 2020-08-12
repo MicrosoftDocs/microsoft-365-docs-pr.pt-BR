@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 76cae3cc8f578206790eb2f6caaa96aed24b5a2b
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: d8025f6abe9f1b68dea0856b2a53139a711198c6
+ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597550"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46632124"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -72,7 +72,7 @@ Antes de começar a usar a conformidade de comunicação, você deve determinar 
 
 ## <a name="reviewers"></a>Revisores
 
-Ao criar uma política de conformidade de comunicação, você deve determinar quem revisa as mensagens dos usuários supervisionados. Na política, os endereços de email do usuário identificam pessoas ou grupos de pessoas para analisar comunicações supervisionadas. Os revisores do AAll devem ter caixas de correio hospedadas no Exchange Online e devem ser atribuídas à *análise de conformidade de comunicação* ou às funções de investigação de conformidade de *comunicação* . Os revisores (analistas ou investigadores) também devem ter a função de *Gerenciamento de casos de conformidade de comunicação* atribuída. Quando os revisores são adicionados a uma política, eles recebem automaticamente uma mensagem de email que os notifica da atribuição à política e fornece links para informações sobre o processo de revisão.
+Ao criar uma política de conformidade de comunicação, você deve determinar quem revisa as mensagens dos usuários supervisionados. Na política, os endereços de email do usuário identificam pessoas ou grupos de pessoas para analisar comunicações supervisionadas. Todos os revisores devem ter caixas de correio hospedadas no Exchange Online e devem ser atribuídas às funções de *análise de conformidade de Comunicação* ou investigação de conformidade de *comunicação* . Os revisores (analistas ou investigadores) também devem ter a função de *Gerenciamento de casos de conformidade de comunicação* atribuída. Quando os revisores são adicionados a uma política, eles recebem automaticamente uma mensagem de email que os notifica da atribuição à política e fornece links para informações sobre o processo de revisão.
 
 ## <a name="groups-for-supervised-users-and-reviewers"></a>Grupos de usuários e revisores supervisionados
 
@@ -107,9 +107,9 @@ Você deve registrar uma solicitação com o suporte da Microsoft para permitir 
 
 - **Fontes de terceiros**: você pode verificar comunicações de fontes de terceiros para dados importados em caixas de correio em sua organização do Microsoft 365. Os conectores dão suporte aos seguintes recursos de terceiros:
 
-    - [Bloomberg instantâneo](archive-instant-bloomberg-data.md)
-    - [Mensagem do Bloomberg](archive-bloomberg-message-data.md)
-    - [Chat de gelo](archive-icechat-data.md)
+    - [Instant Bloomberg](archive-instant-bloomberg-data.md)
+    - [Mensagem da Bloomberg](archive-bloomberg-message-data.md)
+    - [Bate-papo ICE](archive-icechat-data.md)
 
 Você deve configurar um conector de terceiros para sua organização do Microsoft 365 antes de poder atribuir o conector a uma política de conformidade de comunicação. A seção de **fontes de terceiros** do assistente de política de conformidade de comunicação só exibe os conectores de terceiros atualmente configurados.
 
@@ -208,7 +208,7 @@ Para verificar as mensagens de email e anexos das mesmas palavras-chave, crie um
 
 Se você inserir várias condições, a Microsoft 365 usará todas as condições juntas para determinar quando aplicar a política de conformidade de comunicação aos itens de comunicação. Quando você configura várias condições, todas as condições devem ser atendidas para que a política seja aplicada, a menos que você insira uma exceção. Por exemplo, você precisará de uma política que se aplique se uma mensagem contiver a palavra "comércio" e maior que 2 MB. No entanto, se a mensagem também contiver as palavras "aprovadas pela contoso Financial", a política não deverá ser aplicada. Neste exemplo, as três condições seriam definidas da seguinte maneira:
   
-- A **mensagem contém qualquer uma destas palavras**, com as palavras-chave "trade"
+- A **mensagem contém qualquer uma destas palavras**, com a palavra-chave "trade"
 - O **tamanho da mensagem é maior que**, com o valor 2 MB
 - A **mensagem contém nenhuma destas palavras**, com as palavras-chave "aprovadas pela equipe financeira da Contoso"
 
@@ -246,13 +246,13 @@ Se quiser criar mais de uma mensagem de email baseada em texto simples para noti
 ```HTML
 <!DOCTYPE html>
 <html>
-<body>
-<h2>Action Required: Contoso Employee Code of Conduct Policy Training</h2>
-<p>A recent message you've sent has generated a policy alert for the Contoso Employee <a href='https://www.contoso.com'>Code of Conduct Policy</a>.</p>
-<p>You are required to attend the Contoso Employee Code of Conduct <a href='https://www.contoso.com'>training</a> within the next 14 days. Please contact <a href='mailto:hr@contoso.com'>Human Resources</a> with any questions about this training request.</p>
-<p>Thank you,</p>
-<p><em>Human Resources</em></p>
-</body>
+    <body>
+        <h2>Action Required: Contoso Employee Code of Conduct Policy Training</h2>
+        <p>A recent message you've sent has generated a policy alert for the Contoso Employee <a href='https://www.contoso.com'>Code of Conduct Policy</a>.</p>
+        <p>You are required to attend the Contoso Employee Code of Conduct <a href='https://www.contoso.com'>training</a> within the next 14 days. Please contact <a href='mailto:hr@contoso.com'>Human Resources</a> with any questions about this training request.</p>
+        <p>Thank you,</p>
+        <p><em>Human Resources</em></p>
+    </body>
 </html>
 ```
 
@@ -268,9 +268,9 @@ Os filtros de conformidade de comunicação permitem que você filtre e classifi
 | **Date** | A data em que a mensagem foi enviada ou recebida por um usuário em sua organização. |
 | **Classe de arquivo** | A classe da mensagem com base no tipo de mensagem, a *mensagem* ou o *anexo*. |
 | **Tem anexo** | A presença de anexo na mensagem. |
-| **Classe de item** | A origem da mensagem com base no tipo de mensagem, email, Microsoft Team Chat, Bloonmberg, etc. Para obter mais informações sobre tipos de item e classes de mensagens comuns, consulte [tipos de item e classes de mensagens](https://docs.microsoft.com/office/vba/outlook/concepts/forms/item-types-and-message-classes). |
+| **Classe de item** | A origem da mensagem com base no tipo de mensagem, email, Microsoft Team Chat, Bloomberg, etc. Para obter mais informações sobre tipos de item e classes de mensagens comuns, consulte [tipos de item e classes de mensagens](https://docs.microsoft.com/office/vba/outlook/concepts/forms/item-types-and-message-classes). |
 | **Domínios de destinatário** | O domínio para o qual a mensagem foi enviada. Esse domínio normalmente é seu domínio de assinatura do Microsoft 365 por padrão. |
-| **Recipient** | O usuário para o qual a mensagem foi enviada. |
+| **Recipiente** | O usuário para o qual a mensagem foi enviada. |
 | **Sender** | A pessoa que enviou a mensagem. |
 | **Domínio do remetente** | O domínio que enviou a mensagem. |
 | **Tamanho** | O tamanho da mensagem em KB. |
