@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Saiba como reconhecer e corrigir o consentimento ilícito conceder ataque no Microsoft Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a324c4427046480fe81f58fc810f020c87247032
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+ms.openlocfilehash: 125ebdf8b3d17e3a14abec8154129b0144928905
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726806"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652952"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>Detectar e corrigir concessões de consentimento ilícito
 
@@ -54,11 +54,11 @@ Você precisa pesquisar o **log de auditoria** para encontrar sinais, também ch
 5. Clique no resultado para ver os detalhes da atividade. Clique em **mais informações** para obter detalhes da atividade. Verifique se IsAdminContent está definido como true.
 
 > [!NOTE]
-> 
+>
 > Pode levar de 30 minutos até 24 horas para que a entrada do log de auditoria correspondente seja exibida nos resultados da pesquisa após a ocorrência de um evento.
-> 
+>
 > O período de tempo que um registro de auditoria é mantido e pesquisável no log de auditoria depende de sua assinatura do Microsoft 365 e, especificamente, do tipo da licença atribuída a um usuário específico. Para obter mais informações, consulte [log de auditoria](../../compliance/search-the-audit-log-in-security-and-compliance.md).
-> 
+>
 > Se esse valor for true, ele indicará que alguém com acesso de administrador global pode ter concedido acesso amplo aos dados. Se isso for inesperado, execute etapas para [confirmar um ataque](#how-to-confirm-an-attack).
 
 ## <a name="how-to-confirm-an-attack"></a>Como confirmar um ataque

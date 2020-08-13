@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Encontre e use relatórios para a proteção avançada contra ameaças do Office 365 no centro de conformidade de segurança &amp; .
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 194ce245e02490a313effdeaad0715fdd8035a19
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: dc68df40e6b7b576644be607697d7b1ed0a33660
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577979"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653528"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Exibir relatórios para a proteção avançada contra ameaças do Office 365
 
@@ -265,14 +265,17 @@ Para voltar para o modo de exibição relatórios, clique em **Exibir relatório
 
 Além dos relatórios ATP descritos neste tópico, vários outros relatórios estão disponíveis, conforme descrito na tabela a seguir:
 
+****
+
 |Relatório|Tópico|
 |---|---|
 |**Explorer** (plano ATP 2) ou **detecções em tempo real** (plano ATP 1)|[Explorador de Ameaças (e detecções em tempo real)](threat-explorer.md)|
 |**Relatórios de segurança de email**, como os principais remetentes e destinatários, o relatório de email de spoof e o relatório de detecções de spam.|[Exibir relatórios de segurança de email no centro de conformidade & segurança](view-email-security-reports.md)|
 |**Relatórios de fluxo de email**, como o relatório de encaminhamento, o relatório de status do fluxo e o relatório de remetentes e destinatários principais.|[Exibir relatórios de fluxo de emails no centro de conformidade & segurança](view-mail-flow-reports.md)|
 |**Rastreamento de URL para links seguros de ATP** (somente PowerShell). A saída desse cmdlet mostra os resultados das ações de links seguros de ATP nos últimos sete dias.|[Get-UrlTrace](https://docs.microsoft.com/powershell/module/exchange/get-urltrace)|
-|**Resultados de tráfego de email para EOP e ATP** (somente PowerShell). A saída desse cmdlet contém informações sobre o domínio, a data, o tipo de evento, a direção, a ação e a contagem de mensagens.|[Get-MailTrafficATPReport](https://docs.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport) <br/><br/> |
+|**Resultados de tráfego de email para EOP e ATP** (somente PowerShell). A saída desse cmdlet contém informações sobre o domínio, a data, o tipo de evento, a direção, a ação e a contagem de mensagens.|[Get-MailTrafficATPReport](https://docs.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport)|
 |**Mail Detail Reports for EOP and ATP detecções** (somente PowerShell). A saída desse cmdlet contém detalhes sobre arquivos mal-intencionados ou URLs, tentativas de phishing, representação e outras ameaças potenciais em emails ou arquivos.|[Get-MailDetailATPReport](https://docs.microsoft.com/powershell/module/exchange/get-maildetailatpreport)|
+|
 
 ## <a name="what-permissions-are-needed-to-view-the-atp-reports"></a>Quais permissões são necessárias para exibir os relatórios ATP?
 

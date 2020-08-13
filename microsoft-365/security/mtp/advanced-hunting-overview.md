@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8dca8cac2c66147975f71c86b91aee7b36c92cf9
-ms.sourcegitcommit: 51f040a4edb8dd52521a5d7b0f7a975986a1af10
+ms.openlocfilehash: a1fa80d79c1802d96fc755def3b8ec15af13b0c9
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46608328"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649398"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Faça buscas proativas por ameaças com a busca avançada da Proteção contra Ameaças da Microsoft
 
@@ -68,7 +68,7 @@ Dados de busca avançada podem ser categorizados em dois tipos distintos, cada u
 - [Trabalhar com os resultados da consulta](advanced-hunting-query-results.md)
 - [Tomar providências sobre os resultados de consulta](advanced-hunting-take-action.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
+- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)
 - [Visão geral de detecções personalizadas](custom-detections-overview.md)

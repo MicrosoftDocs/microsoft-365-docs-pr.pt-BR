@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como o SharePoint Online detecta vírus em arquivos que os usuários carregam e impedem que os usuários baixem ou sincronizem os arquivos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f6bfc23ca4120122ecfa44ad4d39795fed22af84
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 0e58fa8dc8b30c5bc6ff5db1508d8b7f9189b73a
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45429915"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653504"
 ---
 # <a name="virus-detection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>Detecção de vírus no SharePoint Online, no OneDrive e no Microsoft Teams
 
@@ -58,9 +58,9 @@ Veja o que acontece:
 2. O usuário recebe um aviso de que um vírus foi detectado. O usuário recebe a opção de baixar o arquivo e tentar limpá-lo usando seu próprio software antivírus.
 
 > [!NOTE]
-> 
+>
 > Você pode usar o parâmetro *DisallowInfectedFileDownload* no cmdlet [set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant) no PowerShell do SharePoint Online para impedir que os usuários baixem um arquivo infectado, mesmo na janela de aviso de antivírus.
-> 
+>
 > Além disso, tenha em mente que, assim que você habilitar o parâmetro *DisallowInfectedFileDownload* , o acesso aos arquivos detectados/bloqueados é completamente bloqueado para usuários e administradores.
 
 ## <a name="what-happens-when-the-onedrive-sync-client-tries-to-sync-an-infected-file"></a>O que acontece quando o cliente de sincronização do OneDrive tenta sincronizar um arquivo infectado?

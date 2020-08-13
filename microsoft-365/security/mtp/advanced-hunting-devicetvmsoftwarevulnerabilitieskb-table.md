@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 378ffee34a24af225b1b6deebd7cc514c62e1926
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: d4969cdfa2851acc6f94e5e1a903a9b59f73489e
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327933"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648916"
 ---
 # <a name="devicetvmsoftwarevulnerabilitieskb"></a>DeviceTvmSoftwareVulnerabilitiesKB
 
@@ -51,7 +51,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 - [Buscar proativamente por ameaças](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
+- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)
 - [Visão geral do Gerenciamento de Vulnerabilidades e Ameaças](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

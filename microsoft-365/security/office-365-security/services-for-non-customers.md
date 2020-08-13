@@ -16,12 +16,12 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: Para ajudar a manter a confiança do usuário no uso de email, a Microsoft colocou várias políticas e tecnologias para ajudar a proteger os usuários.
-ms.openlocfilehash: 3a3dc26d757de84f5abd46c85f3596db67d676ae
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 74389d3b975a0ffaebdc1619be40fd3ac74d72f4
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208229"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652652"
 ---
 # <a name="services-for-non-customers-sending-mail-to-microsoft-365"></a>Serviços para não clientes enviando emails para a Microsoft 365
 
@@ -31,12 +31,15 @@ Esta visão geral fornece informações sobre os benefícios que fornecemos à s
 
 ## <a name="sender-solutions"></a>Soluções de remetente
 
-|**Serviço**|**Benefícios**|
-|:-----|:-----|
+****
+
+|Serviço|Benefícios|
+|---|---|
 |Este conteúdo da ajuda online|Lhe <br/> Um ponto de partida para qualquer dúvida relacionada ao envio de comunicações para usuários do EOP. <br/><br/> O inclui um guia online simples com nossas políticas e requisitos. <br/><br/> Uma visão geral dos filtros de lixo eletrônico e tecnologias de autenticação empregadas pela Microsoft.|
 |[Suporte da Microsoft](#microsoft-support)|Fornece suporte a auto-ajuda e escalonamento para problemas de entrega.|
 |[Portal de deslista de IPS antispam](#anti-spam-ip-delist-portal)|Uma ferramenta para enviar a solicitação de deslistação de IP. Antes de enviar essa solicitação, é responsabilidade do remetente garantir que qualquer email proveniente do IP em questão não seja abusiva ou mal-intencionada.|
 |[Relatórios de abuso e spam para lixo eletrônico originado do Exchange Online](#abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online)|Mantém spam e outras mensagens indesejadas enviadas do Exchange Online e truncando a Internet e seu sistema de email.|
+|
 
 ## <a name="microsoft-support"></a>Suporte da Microsoft
 
@@ -56,7 +59,7 @@ A Microsoft oferece várias opções de suporte para pessoas com problemas de en
 
 ## <a name="anti-spam-ip-delist-portal"></a>Portal de deslista de IPS antispam
 
-Este é um portal de autoatendimento que você pode usar para ser removido da lista de remetentes bloqueados do Microsoft 365. Use este portal se você estiver recebendo uma mensagem de erro ao tentar enviar um email para um destinatário cujo endereço de email está no Microsoft 365 e você não achar que deve ser. Para saber mais, confira [usar o portal de remoção da lista para ser removido da lista de remetentes bloqueados](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md).
+Este é um portal de autoatendimento que você pode usar para ser removido da lista de remetentes bloqueados do Microsoft 365. Use este portal se você estiver recebendo uma mensagem de erro ao tentar enviar um email para um destinatário cujo endereço de email está no Microsoft 365 e você não achar que deve ser. Para obter mais informações, veja [Usar o portal de remoção para remover seu nome na lista de remetentes bloqueados](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md).
 
 ## <a name="abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online"></a>Relatórios de abuso e spam para lixo eletrônico originado do Exchange Online
 

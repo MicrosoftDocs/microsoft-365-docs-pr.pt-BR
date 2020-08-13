@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 3fd497ce1733dd4770b9bbc8f699bbccf3237fbd
-ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+ms.openlocfilehash: d9dcd07a4fc63130d015bf31270d1de9212f9a53
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43781512"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649182"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>Usar consultas compartilhadas na busca avançada
 
@@ -59,6 +59,9 @@ Você pode salvar uma consulta nova ou existente para que ela possa ser acessada
 
 2. Selecione **Exclua** e confirme a exclusão. Ou selecione **Renomear** e forneça um novo nome para a consulta.
 
+## <a name="create-a-direct-link-to-a-query"></a>Criar um link direto para uma consulta
+Para gerar um link que abra sua consulta diretamente no editor de consulta de busca avançada, Finalize sua consulta e selecione **compartilhar link**.
+
 ## <a name="access-queries-in-the-github-repository"></a>Acessar consultas no repositório do GitHub  
 Os pesquisadores de segurança da Microsoft compartilham regularmente consultas avançadas em um [repositório público designado no GitHub](https://aka.ms/hunting-queries). Esse repositório está aberto para a contribuições. Para contribuir, acesse [integrar o GitHub gratuitamente](https://github.com/).
 
@@ -69,6 +72,6 @@ Os pesquisadores de segurança da Microsoft compartilham regularmente consultas 
 - [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Trabalhar com os resultados da consulta](advanced-hunting-query-results.md)
-- [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
+- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: cba27b5b43141c8c90f9a8bc7f70c55aabc1979d
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 33f9c726839f17afbb935c6d028cc4eaa5b74843
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899310"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649446"
 ---
 # <a name="devicefilecertificateinfo"></a>DeviceFileCertificateInfo
 
@@ -36,17 +36,17 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `DeviceId` | string | Identificador exclusivo da máquina no serviço |
-| `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
+| `DeviceId` | cadeia de caracteres | Identificador exclusivo da máquina no serviço |
+| `DeviceName` | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) da máquina |
 | `SHA1` | cadeia de caracteres | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
 | `IsSigned` | booliano | Indica se o arquivo está assinado |
-| `SignatureType` | string | Indica se as informações de assinatura foram lidas como conteúdo incorporado no próprio arquivo ou lidas de um arquivo de catálogo externo |
-| `Signer` | string | Informações sobre o signatário do arquivo |
-| `SignerHash` | string | Valor de hash exclusivo que identifica o signatário |
-| `Issuer` | string | Informações sobre a CA (autoridade de certificação emissora) |
-| `IssuerHash` | string | Valor de hash exclusivo que identifica a CA (autoridade de certificação) de emissão |
-| `CertificateSerialNumber` | string | Identificador para o certificado que é exclusivo da autoridade de certificação (CA) de emissão |
-| `CrlDistributionPointUrls` | string |  Matriz JSON que lista as URLs de compartilhamentos de rede que contêm certificados e CRLs (listas de certificados revogados) |
+| `SignatureType` | cadeia de caracteres | Indica se as informações de assinatura foram lidas como conteúdo incorporado no próprio arquivo ou lidas de um arquivo de catálogo externo |
+| `Signer` | cadeia de caracteres | Informações sobre o signatário do arquivo |
+| `SignerHash` | cadeia de caracteres | Valor de hash exclusivo que identifica o signatário |
+| `Issuer` | cadeia de caracteres | Informações sobre a CA (autoridade de certificação emissora) |
+| `IssuerHash` | cadeia de caracteres | Valor de hash exclusivo que identifica a CA (autoridade de certificação) de emissão |
+| `CertificateSerialNumber` | cadeia de caracteres | Identificador para o certificado que é exclusivo da autoridade de certificação (CA) de emissão |
+| `CrlDistributionPointUrls` | cadeia de caracteres |  Matriz JSON que lista as URLs de compartilhamentos de rede que contêm certificados e CRLs (listas de certificados revogados) |
 | `CertificateCreationTime` | datetime | Data e hora em que o certificado foi criado |
 | `CertificateExpirationTime` | datetime | Data e hora em que o certificado está definido para expirar |
 | `CertificateCountersignatureTime` | datetime | Data e hora em que o certificado foi assinado por ocasião |
@@ -58,6 +58,6 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 - [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
+- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

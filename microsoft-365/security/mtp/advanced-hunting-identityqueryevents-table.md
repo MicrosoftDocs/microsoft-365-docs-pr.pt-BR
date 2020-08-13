@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 436c4d7306f9f5febd614489090a0a10929ba3c9
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: cf2038a15242139817eb073ec2a6408905824123
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204870"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649314"
 ---
 # <a name="identityqueryevents"></a>IdentityQueryEvents
 
@@ -63,6 +63,6 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 - [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
+- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

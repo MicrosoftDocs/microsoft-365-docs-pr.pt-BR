@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Administradores e usuários finais podem aprender a enviar mensagens de email (emails em bom estado marcados como inválidos ou incorretos) para a Microsoft para análise.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6973330c4504bd6478265205f60798b3b7c1875
-ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
+ms.openlocfilehash: e90382b39b0cebb70568a53ac5aaeb40ac935f92
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44811033"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653588"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Enviar mensagens manualmente para a Microsoft para análise
 
@@ -45,14 +45,19 @@ Se você receber uma mensagem que passa pelo filtro de spam que deve ter sido id
 
 1. Crie uma nova mensagem de email em branco com um dos seguintes destinatários:
 
-   - **Lixo eletrônico**:`junk@office365.microsoft.com`
+   - **Lixo eletrônico**: `junk@office365.microsoft.com`
 
-   - **Phishing**:`phish@office365.microsoft.com`
+   - **Phishing**: `phish@office365.microsoft.com`
 
 2. Arraste e solte a mensagem de lixo eletrônico ou phishing na nova mensagem. Isso salvará o lixo eletrônico ou a mensagem de phishing como um anexo na nova mensagem. Não copie e cole o conteúdo da mensagem ou encaminhe a mensagem (precisamos da mensagem original para que possamos inspecionar os cabeçalhos da mensagem).
 
    > [!NOTE]
-   > <ul><li>Você pode anexar várias mensagens na nova mensagem. Certifique-se de que todas as mensagens são do mesmo tipo: mensagens golpes de phishing ou mensagens de lixo eletrônico.</li><li>Deixe o corpo da nova mensagem vazio.</li><li>Use formatos. msg (formato padrão do Outlook) ou. eml (padrão Outlook no formato da Web) para as mensagens anexadas.</li></ul>
+   >
+   > - Você pode anexar várias mensagens na nova mensagem. Certifique-se de que todas as mensagens são do mesmo tipo: mensagens de phishing ou mensagens de lixo eletrônico.
+   >
+   > - Deixe o corpo da nova mensagem vazio.
+   >
+   > - Use formatos. msg (formato padrão do Outlook) ou. eml (padrão Outlook no formato da Web) para as mensagens anexadas.
 
 3. Quando tiver terminado, clique em **Enviar**.
 
@@ -71,7 +76,12 @@ Se uma mensagem foi identificada incorretamente como spam, você pode enviar a m
 2. Arraste e solte a mensagem inidentificada na nova mensagem. Isso salvará a mensagem inidentificada como um anexo na nova mensagem. Não copie e cole o conteúdo da mensagem ou encaminhe a mensagem (precisamos da mensagem original para que possamos inspecionar os cabeçalhos da mensagem).
 
    > [!NOTE]
-   > <ul><li>Você pode anexar várias mensagens na nova mensagem. Certifique-se de que todas as mensagens são do mesmo tipo: mensagens de phishing ou mensagens de lixo eletrônico.</li><li>Deixe o corpo da nova mensagem vazio.</li><li>Use formatos. msg (formato padrão do Outlook) ou. eml (padrão Outlook no formato da Web) para as mensagens anexadas.</li></ul>
+   >
+   > - Você pode anexar várias mensagens na nova mensagem. Certifique-se de que todas as mensagens são do mesmo tipo: mensagens de phishing ou mensagens de lixo eletrônico.
+   >
+   > - Deixe o corpo da nova mensagem vazio.
+   >
+   > - Use formatos. msg (formato padrão do Outlook) ou. eml (padrão Outlook no formato da Web) para as mensagens anexadas.
 
 3. Quando tiver terminado, clique em **Enviar**.
 

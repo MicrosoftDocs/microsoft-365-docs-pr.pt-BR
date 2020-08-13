@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: A Microsoft fornece ajudar para a EOP através de uma variedade de lugares e métodos incluindo auto-suporte e suporte assistido.
-ms.openlocfilehash: 7d1c62bd6ddef44e86e47b894e2d386dd8c0bd55
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 959f842e05939e4a6cfc54d1b860de96bd8546e6
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755183"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656928"
 ---
 # <a name="help-and-support-for-eop"></a>Ajuda e suporte para EOP
 
@@ -29,7 +29,7 @@ Ao fazer logon, o centro de administração do Microsoft 365 fornece informaçõ
 
 [Visão geral do produto para a Proteção do Exchange Online](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
-[Entre em contato com o suporte para produtos para empresas - ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+[Entre em contato com o suporte para produtos para empresas - Ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 [Comunidade Microsoft 365](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
 
@@ -69,8 +69,10 @@ Para obter mais informações sobre como o suporte Premier pode ajudar sua organ
 
 A Microsoft fornece números de telefone locais ou chamadas gratuitas para suporte de produtos em todo o mundo. Muitos destes centros de suporte ajudam no seu idioma local durante o horário comercial ou em inglês 24 horas por dia, todos os dias. Se você não vir seu local listado abaixo, use o agente virtual, conforme descrito acima, para encontrar seu número de telefone de suporte local.
 
-|**País ou região**|**Perguntas sobre cobrança e pré-aquisição**|**Perguntas para Suporte Técnico**|
-|:-----|:-----|:-----|
+****
+
+|País ou região|Perguntas sobre cobrança e pré-aquisição|Perguntas para Suporte Técnico|
+|---|---|---|
 |Brasil|Chamada gratuita: 08007621146 <br/> Local: 1147001999|Idem|
 |França|Chamada gratuita: 0805 540 594 <br/> Local: 01 57 32 42 97|Idem|
 |Alemanha|Chamada gratuita: 0800 589 2332 <br/>  Local: 069 380 789 508|Idem|
@@ -79,6 +81,7 @@ A Microsoft fornece números de telefone locais ou chamadas gratuitas para supor
 |Espanha|Chamada gratuita: 900 814 197 <br/> Local: 912 718 160|Idem|
 |Reino Unido|Chamada gratuita: 0800 032 6417 <br/> Local: 0203 450 6455|Idem|
 |Estados Unidos|Chamada gratuita: 1-877-913-2707|Chamada gratuita: 1-800-865-9408|
+|
 
 ## <a name="for-more-information-about-eop-documentation"></a>Par mais informações sobre a documentação da EOP
 

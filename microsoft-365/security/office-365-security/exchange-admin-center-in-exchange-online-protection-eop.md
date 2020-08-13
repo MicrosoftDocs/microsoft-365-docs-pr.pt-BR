@@ -16,12 +16,12 @@ ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre a interface de gerenciamento da Web no proteção autônoma do Exchange Online (EOP).
-ms.openlocfilehash: 777597489e54c642220cb42f0c686b675101897f
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: d5753f687461a5495c2431db687263d7211bcbf5
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616993"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652904"
 ---
 # <a name="exchange-admin-center-in-standalone-eop"></a>Centro de administração do Exchange no EOP standalone
 
@@ -80,9 +80,10 @@ As guias são seu segundo nível de navegação. Cada uma das áreas de recursos
 
 Ao clicar na maioria das guias, você verá uma barra de ferramentas. A barra de ferramentas possui ícones que realizam ações específicas, A tabela a seguir descreve os ícones e suas ações.
 
-||||
+****
+
+|Ícone|Nome|Action|
 |---|---|---|
-|**Ícone**|**Nome**|**Action**|
 |![Ícone Adicionar](../../media/ITPro-EAC-AddIcon.gif)|Adicionar, Novo|Use esse ícone para criar um novo objeto. Alguns desses ícones têm uma seta para baixo associada, na qual é possível clicar para exibir objetos adicionais que você pode criar.|
 |![Ícone de edição](../../media/ITPro-EAC-EditIcon.gif)|Editar|Use esse ícone para editar um objeto.|
 |![Excluir ícone](../../media/ITPro-EAC-DeleteIcon.gif)|Excluir|Use esse ícone para excluir um objeto. Alguns ícones excluídos têm uma seta para baixo na qual é possível clicar para mostrar opções adicionais.|
@@ -124,125 +125,63 @@ Para ter a melhor experiência ao usar o EAC, recomendamos que você sempre use 
 Os seguintes idiomas têm suporte e estão disponíveis para o Eat no EOP autônomo.
 
 - Amárico
-
 - Árabe
-
 - Basco (Basco)
-
 - Bengali (Índia)
-
 - Búlgaro
-
 - Catalão
-
 - Chinês (simplificado)
-
 - Chinês (tradicional)
-
 - Croata
-
 - Tcheco
-
 - Dinamarquês
-
 - Holandês
-
-- Holandês
-
 - Inglês
-
 - Estoniano
-
 - Filipino (Filipinas)
-
 - Finlandês
-
 - Francês
-
 - Galician
-
 - Alemão
-
 - Grego
-
 - Gujarati
-
 - Hebraico
-
 - Híndi
-
 - Húngaro
-
 - Islandês
-
 - Indonésio
-
 - Italiano
-
 - Japonês
-
 - Kannada
-
 - Cazaque
-
 - Kiswahili
-
 - Coreano
-
 - Letão
-
 - Lituano
-
 - Malaio (Brunei Darussalam)
-
 - Malaio (Malásia)
-
 - Malaiala
-
 - Marati
-
 - Norueguês (Bokmål)
-
 - Norueguês (Nynorsk)
-
 - Oriá
-
 - Persa
-
 - Polonês
-
 - Português (Brasil)
-
 - Português (Portugal)
-
 - Romeno
-
 - Russo
-
 - Sérvio (cirílico, Sérvia)
-
 - Sérvio (latino)
-
 - Eslovaco
-
 - Esloveno
-
 - Espanhol
-
 - Sueco
-
 - Tâmil
-
 - Telugu
-
 - Tailandês
-
 - Turco
-
 - Ucraniano
-
 - Urdu
-
 - Vietnamita
-
 - Galês

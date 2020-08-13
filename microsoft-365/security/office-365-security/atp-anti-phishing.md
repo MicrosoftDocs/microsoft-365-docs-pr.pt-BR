@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba mais sobre os recursos anti-phishing que fazem parte da proteção avançada contra ameaças do Office 365 para oferecer proteção para os ataques de mercadorias phishing de & de Spear.
-ms.openlocfilehash: dda94145dfbef7466ebd8e1fb9f01d592515f598
-ms.sourcegitcommit: 5e8901e7e571f20ede04f460bd3e7077dda004ca
+ms.openlocfilehash: 238c841ec7ba45fe2675598a29979b550c1c4fa3
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44875409"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653356"
 ---
 # <a name="atp-anti-phishing-capabilities-in-office-365"></a>Recursos antiphishing ATP no Office 365
 
@@ -54,12 +54,15 @@ Além disso, os relatórios estão disponíveis para mostrar como o serviço est
 Para que os modelos de aprendizado de máquina anti-phishing da ATP sejam ativados para um usuário específico, esse usuário deve fazer parte de um [anexo seguro de ATP](atp-safe-attachments.md)definido, dos [links seguros de ATP](atp-safe-links.md)ou da política anti-phishing do ATP. 
 
 A tabela a seguir descreve alguns exemplos de cenários. Em cada um desses exemplos, a organização está usando o Office 365 Enterprise e5, que inclui proteção avançada contra ameaças.
-  
-|**Cenário de exemplo**|**A ATP anti-phishing se aplica nesse caso?**|
-|:-----|:-----|
+
+****
+
+|Cenário de exemplo|A ATP anti-phishing se aplica nesse caso?|
+|---|---|
 |A organização do Luigi tem o Office 365 Enterprise e5, mas ninguém definiu políticas para anexos seguros de ATP, links seguros de ATP ou o phishing avançado da ATP ainda.|Não. Embora o recurso esteja disponível, pelo menos uma política ATP deve ser definida para que os modelos de aprendizado da máquina ATP funcionem. Para representação, uma política anti-phishing do ATP também deve estar no local.|
 |Lee é um funcionário no departamento de vendas da contoso. A organização de Lee tem uma política anti-phishing do ATP que se aplica apenas aos funcionários de finanças.|Não. Nesse caso, a ATP anti-phishing (proteção de personificação e modelos de máquina) se aplicaria a funcionários financeiros, mas outros funcionários, incluindo o departamento de vendas, não.|
 |Ontem, um administrador do Office 365 na organização de Jean configurou uma política anti-phishing da ATP que se aplica a todos os funcionários. Hoje em dia, Jean recebeu uma mensagem de email que inclui uma representação coberta pela política.|Sim. Neste exemplo, Jean tem uma licença para proteção avançada contra ameaças e uma política anti-phishing do ATP que inclui Jean foi definida. Geralmente, leva cerca de 30 minutos para uma nova política entrar em vigor nos data centers; como um dia passou nesse caso, a política deve estar em vigor.|
+|
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

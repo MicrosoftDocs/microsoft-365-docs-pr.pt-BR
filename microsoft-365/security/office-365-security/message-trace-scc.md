@@ -13,12 +13,12 @@ ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem usar o rastreamento de mensagens no centro de conformidade & segurança para descobrir o que aconteceu com as mensagens.
-ms.openlocfilehash: cb24b9a5f5540f1858ac17b5b4ec3de0c77b47d1
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 7c0b87b1bb882714692a04b857bfc054305dee8c
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819335"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653636"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
@@ -29,7 +29,10 @@ O rastreamento de mensagens no centro de conformidade & de segurança segue as m
 O rastreamento de mensagens no centro de conformidade & segurança aprimora o rastreamento de mensagem original que estava disponível no centro de administração do Exchange (Eat). Você pode usar as informações do rastreamento de mensagens para responder com eficiência às perguntas do usuário sobre o que aconteceu com as mensagens, solucionar problemas de fluxo de emails e validar as alterações na política.
 
 > [!NOTE]
-> • Para fazer um rastreamento de mensagens, você precisa ser membro dos grupos de função gerenciamento da organização, gerenciamento de conformidade ou suporte técnico. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md). <br/><br/>• O número máximo de mensagens exibidas nos resultados depende do tipo de relatório selecionado (consulte a seção [escolher tipo de relatório](#choose-report-type) para obter detalhes). O cmdlet [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/get-historicalsearch) no PowerShell do Exchange Online ou no PowerShell do EOP autônomo retorna todas as mensagens nos resultados.
+>
+> - Para fazer um rastreamento de mensagem, você precisa ser membro dos grupos de função de gerenciamento de organização, de conformidade ou de suporte técnico. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
+>
+> - O número máximo de mensagens exibidas nos resultados depende do tipo de relatório selecionado (consulte a seção [escolher tipo de relatório](#choose-report-type) para obter detalhes). O cmdlet [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/get-historicalsearch) no PowerShell do Exchange Online ou no PowerShell do EOP autônomo retorna todas as mensagens nos resultados.
 
 ## <a name="open-message-trace"></a>Abrir rastreamento de mensagens
 
@@ -332,8 +335,10 @@ O campo **custom_data** de um `AGENTINFO` evento é usado por uma variedade de a
 
 Um valor **custom_data** que começa com `S:SFA` é do agente Filtro de spam. Os principais detalhes são descritos na tabela a seguir:
 
-|**Valor**|**Descrição**|
-|:-----|:-----|
+****
+
+|Valor|Descrição|
+|---|---|
 |`SFV=NSPM`|A mensagem foi marcada como não spam e enviada aos destinatários pretendidos.|
 |`SFV=SPM`|A mensagem foi marcada como spam por filtragem antispam (também conhecida como filtragem de conteúdo).|
 |`SFV=BLK`|A filtragem foi ignorada e a mensagem foi bloqueada, pois originou-se em um remetente bloqueado.|
@@ -345,11 +350,12 @@ Um valor **custom_data** que começa com `S:SFA` é do agente Filtro de spam. Os
 |`DI=SD`|A mensagem foi excluída.|
 |`DI=SJ`|A mensagem foi enviada para a pasta de lixo eletrônico do destinatário.|
 |`DI=SN`|A mensagem foi roteada através do pool normal de entrega de saída.|
-|`DI=SO`|A mensagem foi roteada através do pool de entrega de risco mais alto. Para obter mais informações, consulte [pool de entrega de alto risco para mensagens de saída](high-risk-delivery-pool-for-outbound-messages.md).|
+|`DI=SO`|A mensagem foi roteada através do pool de entrega de risco mais alto. Para saber mais, confira [Pool de entrega com maior risco em mensagens de saída](high-risk-delivery-pool-for-outbound-messages.md).|
 |`SFS=[a]|SFS=[b]`|Isso indica que houve correspondência com regras de spam.|
 |`IPV=CAL`|A mensagem foi permitida pelos filtros de spam porque o endereço IP estava especificado em uma Lista de Permissões de IP do filtro de conexão.|
 |`H=<EHLOstring>`|A sequência HELO ou EHLO do servidor de e-mails de conexão.|
 |`PTR=<ReverseDNS>`|O registro PTR do endereço IP de envio, também conhecido como o endereço de DNS reverso.|
+|
 
 Um exemplo **custom_data** valor de uma mensagem filtrada para spam como este:
 
@@ -359,8 +365,10 @@ Um exemplo **custom_data** valor de uma mensagem filtrada para spam como este:
 
 Um valor **custom_data** que começa com `S:AMA` é do agente de filtro de malware. Os principais detalhes são descritos na tabela a seguir:
 
-|**Valor**|**Descrição**|
-|:-----|:-----|
+****
+
+|Valor|Descrição|
+|---|---|
 |`AMA=SUM|v=1|` ou `AMA=EV|v=1`|Foi determinado que a mensagem contém malware. `SUM`indica que o malware pode ter sido detectado por qualquer número de mecanismos. `EV`indica que o malware foi detectado por um mecanismo específico. Quando um mecanismo detecta malware, isto aciona as ações subseqüentes.|
 |`Action=r`|A mensagem foi substituída.|
 |`Action=p`|A mensagem foi ignorada.|
@@ -373,6 +381,7 @@ Um valor **custom_data** que começa com `S:AMA` é do agente de filtro de malwa
 |`Action=b`|A mensagem foi bloqueada.|
 |`Name=<malware>`|O nome do malware foi detectado.|
 |`File=<filename>`|O nome do arquivo que continha o malware.|
+|
 
 Um exemplo **custom_data** valor de uma mensagem que contém malware tem a seguinte aparência:
 
@@ -382,12 +391,15 @@ Um exemplo **custom_data** valor de uma mensagem que contém malware tem a segui
 
 Um valor de **custom_data** que começa com `S:TRA` é do agente de regra de transporte para regras de fluxo de emails (também conhecidas como regras de transporte). Os principais detalhes são descritos na tabela a seguir:
 
-|**Valor**|**Descrição**|
-|:-----|:-----|
+****
+
+|Valor|Descrição|
+|---|---|
 |`ETR|ruleId=<guid>`|A identificação da regra encontrou uma correspondência.|
 |`St=<datetime>`|A data e a hora no UTC quando a correspondência da regra ocorreu.|
 |`Action=<ActionDefinition>`|A ação que foi aplicada. Para obter uma lista de ações disponíveis, consulte [Mail Flow Rule Actions in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).|
 |`Mode=<Mode>`|O modo da regra. Os valores válidos são: <br/>* **Impor**: todas as ações da regra serão impostas. <br/>* **Testar com dicas de política:**: qualquer ação de dica de política será enviada, mas outras ações de imposição não serão aplicadas. <br/>* **Teste sem dicas de política**: as ações serão listadas em um arquivo de log, mas os remetentes não serão notificados de nenhuma maneira e as ações de imposição não serão aplicadas.|
+|
 
 Um exemplo **custom_data** valor de uma mensagem que coincida com as condições de uma regra de fluxo de emails tem a seguinte aparência:
 

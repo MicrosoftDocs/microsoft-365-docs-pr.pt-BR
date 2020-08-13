@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 0cb275584acfc2ea0d2a2969694ee189f48a875d
-ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
+ms.openlocfilehash: 308337f806d54f1beb7ae6112b2ed883707d4513
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45046035"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649290"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Compreender o esquema de busca avançada
 
@@ -81,5 +81,5 @@ A referência a seguir lista todas as tabelas no esquema. Cada nome de tabela se
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Trabalhar com os resultados da consulta](advanced-hunting-query-results.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
+- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

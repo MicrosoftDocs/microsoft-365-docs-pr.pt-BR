@@ -16,26 +16,27 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender sobre as diferentes maneiras de relatar mensagens e arquivos bons e ruins para a Microsoft para análise.
-ms.openlocfilehash: f77346b1f7551ade572c695e1c2d29e402c6c2a2
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 44254aa6e5c43e0eac1d63c153b1212b4f099840
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206449"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652820"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Relatar mensagens e arquivos à Microsoft
 
 Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, tanto usuários quanto administradores têm vários métodos diferentes para relatar mensagens e arquivos de email à Microsoft.
 
-|||
+****
+
+|Método|Descrição|
 |---|---|
-|**Method**|**Descrição**|
 |[Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft](admin-submission.md)|O método de relatório recomendado para administradores em organizações com caixas de correio do Exchange Online (não está disponível em EOP autônomos).|
 |[Habilitar o suplemento de Mensagem de Relatório](enable-the-report-message-add-in.md)|Funciona com o Outlook, o Outlook para Mac e o Outlook na Web (anteriormente conhecido como Outlook Web App) e é o suplemento recomendado. <br/><br/> Dependendo da sua assinatura, as mensagens que os usuários relataram com o suplemento estão disponíveis no [portal de envios do administrador](admin-submission.md), [resultados de investigação e resposta automatizados (Air)](air-view-investigation-results.md), o [relatório de mensagens relatadas pelo usuário](view-email-security-reports.md#user-reported-messages-report)e o [Explorador de ameaças](threat-explorer-views.md#email--submissions). <br/><br/> Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [especificar uma caixa de correio para envios de emails de spam e mensagens de phishing no EOP](user-submission.md).|
 |[Instalar e usar o suplemento relatório de lixo eletrônico para o Microsoft Outlook](junk-email-reporting-add-in-for-microsoft-outlook.md)|O só funciona no Outlook.|
 |[Relatar emails de lixo eletrônico e phishing no Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)|Use os recursos internos do Outlook na Web para organizações com caixas de correio do Exchange Online (não estão disponíveis em EOP autônomos). <br/><br/> Mensagens que o relatório de usuários estão disponíveis no [portal de envios de administradores](admin-submission.md). <br/><br/> Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [especificar uma caixa de correio para envios de emails de spam e mensagens de phishing no Exchange Online](user-submission.md).|
 |[Enviar mensagens manualmente para a Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)|Enviar manualmente mensagens anexadas para endereços de email específicos da Microsoft para spam, não spam e phishing.|
-|[Usar regras de fluxo de emails para ver o que seus usuários estão relatando à Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)|Saiba como criar uma regra de fluxo de emails (também conhecida como regra de transporte) que o notifica quando os usuários relatam mensagens para a Microsoft para análise.|
+|[Usar regras de fluxo de emails para ver o que seus usuários estão relatando à Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)|Saiba como criar uma regra de fluxo de emails (também conhecida como regra de transporte) que o notifica quando os usuários relatam mensagens para a Microsoft para análise.
 |||
 |[Enviar malware e não malware para a Microsoft para análise](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Use o site do Microsoft Security Intelligence para enviar anexos e outros arquivos.|
 |

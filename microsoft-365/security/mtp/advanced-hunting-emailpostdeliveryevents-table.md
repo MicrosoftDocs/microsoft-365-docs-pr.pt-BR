@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 5a9bc0a28f8c9f360975325adbdd50ad22b0afc5
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
+ms.openlocfilehash: 0384f3ba07b42c8e783994dfa1db75cf2d6ca80b
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005693"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648858"
 ---
 # <a name="emailpostdeliveryevents"></a>EmailPostDeliveryEvents
 
@@ -36,14 +36,14 @@ Para obter mais informações sobre mensagens de email individuais, você també
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `EventId` | string | Identificador exclusivo do evento |
-| `NetworkMessageId` | string | Identificador exclusivo do email, gerado pelo Microsoft 365 |
-| `InternetMessageId` | string | Identificador público do email definido pelo seu sistema de envio |
-| `Action` | string | Ação tomada na entidade |
-| `ActionType` | string | Tipo de atividade que disparou o evento: correção manual, "phishing ZAP, malware ZAP" |
-| `ActionTrigger` | string | Indica se uma ação foi disparada por um administrador (manualmente ou por meio da aprovação de uma ação automática pendente) ou por algum mecanismo especial, como uma entrega de ZAP ou dinâmica |
-| `ActionResult` | string | Resultado da ação |
-| `RecipientEmailAddress` | string | Endereço de email do destinatário ou endereço de email do destinatário após a expansão da lista de distribuição |
+| `EventId` | cadeia de caracteres | Identificador exclusivo do evento |
+| `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado pelo Microsoft 365 |
+| `InternetMessageId` | cadeia de caracteres | Identificador público do email definido pelo seu sistema de envio |
+| `Action` | cadeia de caracteres | Ação tomada na entidade |
+| `ActionType` | cadeia de caracteres | Tipo de atividade que disparou o evento: correção manual, "phishing ZAP, malware ZAP" |
+| `ActionTrigger` | cadeia de caracteres | Indica se uma ação foi disparada por um administrador (manualmente ou por meio da aprovação de uma ação automática pendente) ou por algum mecanismo especial, como uma entrega de ZAP ou dinâmica |
+| `ActionResult` | cadeia de caracteres | Resultado da ação |
+| `RecipientEmailAddress` | cadeia de caracteres | Endereço de email do destinatário ou endereço de email do destinatário após a expansão da lista de distribuição |
 | `DeliveryLocation` | cadeia de caracteres | Local onde o email foi entregue: Caixa de Entrada/Pasta, Local/Externo, Tratado como Lixo Eletrônico, Quarentena, Falha, Descartado, Itens excluídos |
 
 ## <a name="supported-event-types"></a>Tipos de eventos com suporte
@@ -57,6 +57,6 @@ Esta tabela captura eventos com os seguintes `ActionType` valores:
 - [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
+- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

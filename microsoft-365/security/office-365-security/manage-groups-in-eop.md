@@ -14,12 +14,12 @@ ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 ms.custom:
 - seo-marvel-apr2020
 description: Administradores no proteção autônoma do Exchange Online (EOP) as organizações podem aprender a criar, modificar e remover grupos de distribuição e grupos de segurança habilitados para email no centro de administração do Exchange (Eat) e no PowerShell autônomo do Exchange Online Protection (EOP).
-ms.openlocfilehash: 42086b67e22df4725bf07bf227853c070f936f24
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 813735d4024c3b8424a6bbac51ebef7b4c53e590
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616497"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653648"
 ---
 # <a name="manage-groups-in-eop"></a>Gerenciar grupos no EOP
 
@@ -30,7 +30,10 @@ Em organizações autônomas do Exchange Online Protection (EOP) sem caixas de c
 - **Grupos de segurança habilitados para email**: uma coleção de usuários de email e outros grupos de segurança que precisam de permissões de acesso para funções de administrador. Por exemplo, você pode querer conceder permissões de administrador de grupo específico de usuários para que eles possam definir configurações antispam e antimalware.
 
     > [!NOTE]
-    > <ul><li>Por padrão, novos grupos de segurança habilitados para email rejeitam mensagens de remetentes externos (não autenticados).</li><li>Não adicione grupos de distribuição a grupos de segurança habilitados para email.</li></ul>.
+    >
+    > - Por padrão, novos grupos de segurança habilitados para email rejeitam mensagens de remetentes externos (não autenticados).
+    >
+    > - Não adicione grupos de distribuição a grupos de segurança habilitados para email.
 
 Você pode gerenciar grupos no centro de administração do Exchange (Eat) e no PowerShell do EOP autônomo.
 

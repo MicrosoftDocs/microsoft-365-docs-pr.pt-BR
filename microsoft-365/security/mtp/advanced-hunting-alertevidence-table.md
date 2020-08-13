@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: a0f2ae36752a4415da7c1bc39ce35bd7f744a764
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 8fc713db33b0e40adcd0975d26c10daece636ab1
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899346"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649506"
 ---
 # <a name="alertevidence"></a>AlertEvidence
 
@@ -37,25 +37,25 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
 | `AlertId` | string | Identificador exclusivo do alerta. |
-| `EntityType` | string | Tipo de objeto, como um arquivo, um processo, um dispositivo ou um usuário |
-| `EvidenceRole` | string | Como a entidade está envolvida em um alerta, indicando se é impactada ou se é meramente relacionada |
-| `SHA1` | string | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
-| `SHA256` | string | SHA-256 do arquivo ao qual a ação gravada foi aplicada. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
-| `RemoteIP` | string | Endereço IP que estava sendo conectado ao |
-| `RemoteUrl` | string | URL ou FQDN (nome de domínio totalmente qualificado) que estava sendo conectado à |
+| `EntityType` | cadeia de caracteres | Tipo de objeto, como um arquivo, um processo, um dispositivo ou um usuário |
+| `EvidenceRole` | cadeia de caracteres | Como a entidade está envolvida em um alerta, indicando se é impactada ou se é meramente relacionada |
+| `SHA1` | cadeia de caracteres | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
+| `SHA256` | cadeia de caracteres | SHA-256 do arquivo ao qual a ação gravada foi aplicada. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
+| `RemoteIP` | cadeia de caracteres | Endereço IP que estava sendo conectado ao |
+| `RemoteUrl` | cadeia de caracteres | URL ou FQDN (nome de domínio totalmente qualificado) que estava sendo conectado à |
 | `AccountName` | cadeia de caracteres | Nome de usuário da conta |
-| `AccountDomain` | string | Domínio da conta |
-| `AccountSid` | string | Identificador de segurança (SID) da conta |
-| `AccountObjectId` | string | Identificador exclusivo da conta no Azure AD |
-| `DeviceId` | string | Identificador exclusivo da máquina no serviço |
-| `ThreatFamily` | string | Família de malware que o arquivo ou processo suspeito ou mal-intencionado foi classificado em |
-| `EvidenceDirection` | string | Indica se a entidade é a origem ou o destino de uma conexão de rede |
-| `AdditionalFields` | string | Informações adicionais sobre o evento no formato de matriz JSON |
+| `AccountDomain` | cadeia de caracteres | Domínio da conta |
+| `AccountSid` | cadeia de caracteres | Identificador de segurança (SID) da conta |
+| `AccountObjectId` | cadeia de caracteres | Identificador exclusivo da conta no Azure AD |
+| `DeviceId` | cadeia de caracteres | Identificador exclusivo da máquina no serviço |
+| `ThreatFamily` | cadeia de caracteres | Família de malware que o arquivo ou processo suspeito ou mal-intencionado foi classificado em |
+| `EvidenceDirection` | cadeia de caracteres | Indica se a entidade é a origem ou o destino de uma conexão de rede |
+| `AdditionalFields` | cadeia de caracteres | Informações adicionais sobre o evento no formato de matriz JSON |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
+- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

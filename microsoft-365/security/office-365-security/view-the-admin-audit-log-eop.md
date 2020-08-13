@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: Os administradores podem aprender a exibir e pesquisar o log de auditoria do administrador no Exchange Online Protection (EOP) autônomo.
-ms.openlocfilehash: e8c12f622c4dc382b11d03424e45c33e3afe3cbf
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 171f3ec531b232ca796232ab26caefbee8afc75c
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613319"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653492"
 ---
 # <a name="view-the-admin-audit-log-in-standalone-eop"></a>Exibir o log de auditoria de administradores no EOP autônomo
 
@@ -26,7 +26,12 @@ Em organizações autônomas do Exchange Online Protection (EOP) sem caixas de c
 O log de auditoria de administrador registra ações específicas, com base nos cmdlets do PowerShell EOP autônomo, realizadas por administradores e usuários que receberam privilégios administrativos. As entradas no log de auditoria de administrador fornecem informações sobre qual cmdlet foi executado, quais parâmetros foram usados, quem executou o cmdlet e quais objetos foram afetados.
 
 > [!NOTE]
-> <ul><li>O log de auditoria de administrador é habilitado por padrão e não pode ser desabilitado.</li><li>O log de auditoria do administrador não registra ações com base nos cmdlets que começam com os verbos **Get**, **Search**ou **Test**.</li><li>As entradas do log de auditoria são armazenadas por 90 dias. Quando uma entrada é mais antiga que 90 dias, ela é excluída</li></ul>
+>
+> - O log de auditoria de administrador é habilitado por padrão e não pode ser desabilitado.
+>
+> - O log de auditoria do administrador não registra ações com base nos cmdlets que começam com os verbos **Get**, **Search**ou **Test**.
+>
+> - As entradas do log de auditoria são armazenadas por 90 dias. Quando uma entrada é mais antiga que 90 dias, ela é excluída
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -133,9 +138,10 @@ Para exibir o conteúdo dos campos **CmdletParameters** e **ModifiedProperties**
 
 Cada entrada de log de auditoria contém as informações descritas na tabela a seguir. O log de auditoria contém uma ou mais entradas de log de auditoria.
 
-|||
+****
+
+|Campo|Descrição|
 |---|---|
-|**Field**|**Descrição**|
 |`RunspaceId`|Este campo é usado internamente pelo EOP.|
 |`ObjectModified`|Este campo contém o objeto que foi modificado pelo cmdlet especificado no `CmdletName` campo.|
 |`CmdletName`|Este campo contém o nome do cmdlet que foi executado pelo usuário no `Caller` campo.|

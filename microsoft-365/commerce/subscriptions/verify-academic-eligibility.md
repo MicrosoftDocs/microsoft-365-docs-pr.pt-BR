@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Saiba como verificar a elegibilidade de sua escola para obter preços acadêmicos do Microsoft 365 Education.
 ms.date: 07/21/2020
-ms.openlocfilehash: 948d001315c44e288d9fe3e363ec6e1ddeb8ff32
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 0bfb779880b94e309e266d8f57ed0a25b749e1f2
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560698"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653720"
 ---
 # <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>Verificar a elegibilidade acadêmico para assinaturas do Microsoft 365 Education
 
@@ -59,7 +59,7 @@ Se sua elegibilidade acadêmica for negada, confira [minha escola não está qua
 Depois de ter uma versão de avaliação do Microsoft 365 Education, você pode verificar o status da elegibilidade acadêmico de sua escola a qualquer momento.
 
 1. Vá para o [centro de administração do Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2024339).
-2. Na Home Page, role até a parte inferior e localize o cartão de **cobrança** . \
+2. Na Home Page, encontre o cartão de **cobrança** . \
     O cartão de **cobrança** indica o status do processo de verificação. O cartão mostra um dos seguintes status: aprovado, pendente, recusado ou adicionado ao seu domínio.
 
     > [!NOTE]

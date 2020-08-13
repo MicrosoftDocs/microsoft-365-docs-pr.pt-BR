@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os relatórios inteligentes e insights disponíveis no centro de conformidade do & de segurança e como usá-los para exibir e explorar dados e realizar ações rápidas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1f38ed081ce73af737b58a38692ac2fa0519972d
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 5d100aca53f3683d477fd15469ae53ecb7a2901b
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577181"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652772"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>Relatórios inteligentes e insights no Centro de Conformidade e Segurança
 
@@ -40,7 +40,9 @@ Além de destacar áreas problemáticas, relatórios inteligentes e insights inc
 ## <a name="types-of-reports-in-the-security--compliance-center"></a>Tipos de relatórios no centro de conformidade & segurança
 
 Uma ampla variedade de relatórios estão disponíveis no centro de conformidade e segurança &. (Ir para **relatórios** \> **Painel** para obter um modo de exibição tudo.) A tabela a seguir lista os relatórios disponíveis com links para saber mais:
-  
+
+****
+
 |Tipo de informação|Como chegar lá|Onde acessar mais informações|
 |---|---|---|
 |**Relatórios do centro de conformidade & segurança** (tudo em diante)  <br/> Principais informações e recomendações e links para relatórios de segurança & conformidade, incluindo relatórios de prevenção de perda de dados, rótulos, relatórios de segurança de email, relatórios avançados de proteção contra ameaças e muito mais|No centro de conformidade & segurança, vá para **Reports** \> **painel** relatórios|[Monitorar e exibir relatórios no centro de segurança do Microsoft 365](../mtp/monitoring-and-reporting.md)|
@@ -53,6 +55,7 @@ Uma ampla variedade de relatórios estão disponíveis no centro de conformidade
 |**Conformidade com o GDPR** <br/> Informações sobre a conformidade do RGPD, incluindo links para entidades de dados, tendências de rótulo e ocorrências de fechamento de & ativas|No centro de conformidade & segurança, vá para **Data privacy** \> **painel de rgpd** de privacidade de dados|[Proteção de Informações do Office 365 para o RGPD](https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr)|
 |**Log de auditoria** <br/> Informações sobre as atividades, usuários, arquivos ou pastas do Microsoft 365 e muito mais|No centro de conformidade & segurança, vá para **pesquisa & investigação** \> **log de auditoria pesquisa**|[Pesquisar o log de auditoria no centro de conformidade & segurança](../../compliance/search-the-audit-log-in-security-and-compliance.md)|
 |**Relatórios de conformidade** <br/> Relatórios FedRAMP, governança, relatórios de risco e conformidade, relatórios de gerenciamento de segurança da Informação ISO e relatórios Service Organization Controls de auditoria e análise.|No centro de conformidade & segurança, vá para **Service assurance** \> **relatórios de conformidade** de garantia de serviço|[Planejar a segurança & conformidade no Office 365](../../compliance/plan-for-security-and-compliance.md)|
+|
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

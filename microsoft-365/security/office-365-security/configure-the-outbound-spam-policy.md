@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a exibir, criar, modificar e excluir políticas de spam de saída na proteção do Exchange Online (EOP).
-ms.openlocfilehash: 9f70deeb371278fa397e5186b4c770f776abff32
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: 8a023917443f817476986682dac136ad5c735587
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204846"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653012"
 ---
 # <a name="configure-outbound-spam-filtering-in-eop"></a>Configurar a filtragem de spam de saída no EOP
 
@@ -137,9 +137,10 @@ Criar uma política de spam de saída personalizada no centro de conformidade de
    - **Notificar pessoas específicas se um remetente estiver bloqueado devido ao envio de spam de saída**:
 
      > [!IMPORTANT]
-     > Essa configuração está no processo de ser preterido das políticas de spam de saída.
-     > 
-     > A [política de alerta](../../compliance/alert-policies.md) padrão chamada **usuário Restricted do envio de emails** já envia notificações por email para os membros do grupo **TenantAdmins** (**administradores globais**) quando os usuários são bloqueados devido a exceder os limites na seção **limites de destinatários** . É **altamente recomendável que você use a política de alerta em vez da configuração da política de spam de saída para notificar os administradores e outros usuários**. Para obter instruções, consulte [verificar as configurações de alerta para usuários restritos](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users).
+     >
+     > - Essa configuração está no processo de ser preterido das políticas de spam de saída.
+     >
+     > - A [política de alerta](../../compliance/alert-policies.md) padrão chamada **usuário Restricted do envio de emails** já envia notificações por email para os membros do grupo **TenantAdmins** (**administradores globais**) quando os usuários são bloqueados devido a exceder os limites na seção **limites de destinatários** . É **altamente recomendável que você use a política de alerta em vez da configuração da política de spam de saída para notificar os administradores e outros usuários**. Para obter instruções, consulte [verificar as configurações de alerta para usuários restritos](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users).
 
 5. Opcion Expanda a seção **limites de destinatário** para configurar os limites e as ações para mensagens de email de saída suspeitas:
 
@@ -466,7 +467,7 @@ Set-HostedOutboundSpamFilterRule -Identity "Marketing Department" -Priority 2
 ```
 
 > [!NOTE]
-> 
+>
 > - Para definir a prioridade de uma nova regra ao criá-la, use o parâmetro _Priority_ no cmdlet **New-HostedOutboundSpamFilterRule** .
 >
 > - A política de filtro de spam padrão de saída não tem uma regra de filtro de spam correspondente e sempre tem o valor de prioridade não modificável **mais baixo**.

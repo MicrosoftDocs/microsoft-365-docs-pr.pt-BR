@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: a61123e3d90a4125bf5a8303654973e1b478fc4c
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: a7db287b8a8efb5c41488529fcaa8789b2f594b5
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754659"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652712"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -38,9 +38,10 @@ Todas as outras organizações têm políticas anti-phishing.
 
 As diferenças de alto nível entre as políticas anti-phishing e as políticas anti-phishing do ATP são descritas na tabela a seguir:
 
-||||
+****
+
+|Recurso|Políticas anti-phishing|Políticas de anti-phishing da ATP|
 |---|:---:|:---:|
-|**Recurso**|**Políticas anti-phishing**|**Políticas de anti-phishing da ATP**|
 |Política padrão criada automaticamente|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |Criar políticas personalizadas|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |Configurações de política<sup>\*</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|

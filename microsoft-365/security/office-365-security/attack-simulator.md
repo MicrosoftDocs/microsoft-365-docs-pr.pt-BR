@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como usar o simulador de ataques para executar ataques simulados de phishing e senha em sua organização do plano 2 do Microsoft 365 E5 ou ATP.
-ms.openlocfilehash: 166a8ab9f6ef08ca089bc8924b686e392e870526
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 6aa1d2027915caeffe2c20ba8f75f3658c336dbe
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44587563"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653216"
 ---
 # <a name="attack-simulator-in-atp"></a>Simulador de ataque em ATP
 
@@ -114,7 +114,10 @@ Se você for usar um dos modelos internos ou criar a mensagem de email diretamen
      - <http://portal.salarytoolint.net>
 
      > [!NOTE]
-     > <ul><li>Todas as URLs são intencionalmente http, não HTTPS.</li><li>Um serviço de reputação de URL pode identificar uma ou mais dessas URLs como não seguras. Verifique a disponibilidade da URL nos navegadores da Web com suporte antes de usar a URL em uma campanha de phishing.</li></ul>
+     >
+     > - Todas as URLs são intencionalmente http, não HTTPS.
+     >
+     > - Um serviço de reputação de URL pode identificar uma ou mais dessas URLs como não seguras. Verifique a disponibilidade da URL nos navegadores da Web com suporte antes de usar a URL em uma campanha de phishing.
 
    - **URL da página de aterrissagem personalizada**: Insira uma página de aterrissagem opcional, onde os usuários são conduzidos, caso eles cliquem no link phishing e insiram suas credenciais. Este link substitui a página de aterrissagem padrão. Por exemplo, se você tiver um treinamento de conscientização interna, poderá especificar essa URL aqui.
 
@@ -188,7 +191,12 @@ Se você for usar um dos modelos internos ou criar a mensagem de email diretamen
      - <http://portal.salarytoolint.net>
 
      > [!NOTE]
-     > <ul><li>Todas as URLs são intencionalmente http, não HTTPS.</li><li>Um serviço de reputação de URL pode identificar uma ou mais dessas URLs como não seguras. Verifique a disponibilidade da URL nos navegadores da Web com suporte antes de usar a URL em uma campanha de phishing.</li><li>Você deve selecionar uma URL. Para campanhas de <b>spear phishing (Attachment)</b> , você pode remover o link do corpo da mensagem na próxima etapa (caso contrário, a mensagem conterá um link <b>e</b> um anexo).</li></ul>
+     >
+     > - Todas as URLs são intencionalmente http, não HTTPS.
+     >
+     > - Um serviço de reputação de URL pode identificar uma ou mais dessas URLs como não seguras. Verifique a disponibilidade da URL nos navegadores da Web com suporte antes de usar a URL em uma campanha de phishing.
+     >
+     > - Você deve selecionar uma URL. Para campanhas de **spear phishing (Attachment)** , você pode remover o link do corpo da mensagem na próxima etapa (caso contrário, a mensagem conterá um link **e** um anexo).
 
    - **Tipo de anexo**: essa configuração só está disponível em campanhas de **spear phishing (Attachment)** . Clique na lista suspensa e selecione **. DOCX** ou **. PDF** na lista.
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre a ordem de proteção de aplicativos na proteção do Exchange Online (EOP) e como o valor de prioridade nas políticas de proteção determina qual política é aplicada.
-ms.openlocfilehash: 176d39a240d49e0118b4bb8e8cee52a6e7c61b0e
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 7775f0a37751289e7f0116575e2f6b2733683b6b
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209434"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653672"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Ordem e precedência de proteção de email
 
@@ -33,11 +33,12 @@ Há dois fatores principais que determinam qual política é aplicada a uma mens
 
 - **A prioridade do tipo de proteção de email**: essa ordem não é configurável e é descrita na tabela a seguir:
 
-  |||||
+  ****
+
+  |Priority|Proteção de email|Categoria|Onde gerenciar|
   |---|---|---|---|
-  |**Prioridade**|**Proteção de email**|**Category**|**Onde gerenciar**|
   |1|Malware|GATO: MALW|[Configurar políticas Antimalware no EOP](configure-anti-malware-policies.md)|
-  |duas|Phishing|GATO: PHSH|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
+  |2|Phishing|GATO: PHSH|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |3D|Spam de alta confiança|GATO: HSPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |4 |Spoofing|GATO: SPOOF|[Configurar o spoof Intelligence no EOP](learn-about-spoof-intelligence.md)|
   |5 |Spam|GATO: SPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
@@ -54,11 +55,12 @@ Há dois fatores principais que determinam qual política é aplicada a uma mens
 
 Por exemplo, considere as seguintes políticas de anti-phishing da ATP **que se aplicam aos mesmos usuários**e uma mensagem identificada como representação de usuário e falsificação:
 
-  |||||
+  ****
+
+  |Política de anti-phishing do ATP|Priority|Representação de usuário|Antifalsificação|
   |---|---|---|---|
-  |**Política de anti-phishing do ATP**|**Prioridade**|**Representação de usuário**|**Antifalsificação**|
-  |Política A|1|Ativada|Desabilitado|
-  |Política B|duas|Desativada|Ativada|
+  |Política A|1|Ativada|Desativada|
+  |Política B|2|Desativada|Ativada|
   |
 
 1. A mensagem é marcada e tratada como falsificação, porque a falsificação tem uma prioridade mais alta (4) do que a representação de usuário (8).

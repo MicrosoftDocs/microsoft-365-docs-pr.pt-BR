@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 67749125d2f62f2774c36e6970cf8901b1fd5784
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: b88bdb09b84db5de813fc9020d9695f26c61f105
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899298"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649434"
 ---
 # <a name="devicefileevents"></a>DeviceFileEvents
 
@@ -36,50 +36,50 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `DeviceId` | string | Identificador exclusivo da máquina no serviço |
-| `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
-| `ActionType` | string | Tipo de atividade que disparou o evento |
-| `FileName` | string | Nome do arquivo ao qual a ação gravada foi aplicada |
-| `FolderPath` | string | Pasta que contém o arquivo para o qual a ação registrada foi aplicada |
+| `DeviceId` | cadeia de caracteres | Identificador exclusivo da máquina no serviço |
+| `DeviceName` | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) da máquina |
+| `ActionType` | cadeia de caracteres | Tipo de atividade que disparou o evento |
+| `FileName` | cadeia de caracteres | Nome do arquivo ao qual a ação gravada foi aplicada |
+| `FolderPath` | cadeia de caracteres | Pasta que contém o arquivo para o qual a ação registrada foi aplicada |
 | `SHA1` | cadeia de caracteres | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
-| `SHA256` | string | SHA-256 do arquivo ao qual a ação gravada foi aplicada. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
+| `SHA256` | cadeia de caracteres | SHA-256 do arquivo ao qual a ação gravada foi aplicada. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
 | `MD5` | string | Hash MD5 do arquivo ao qual a ação registrada foi aplicada |
-| `FileOriginUrl` | string | URL de onde o arquivo foi baixado |
-| `FileOriginReferrerUrl` | string | URL da página da Web que vincula ao arquivo baixado |
-| `FileOriginIP` | string | Endereço IP de onde o arquivo foi baixado |
-| `InitiatingProcessAccountDomain` | string | Domínio da conta que executou o processo responsável pelo evento |
-| `InitiatingProcessAccountName` | string | Nome de usuário da conta que executou o processo responsável pelo evento |
-| `InitiatingProcessAccountSid` | string | Identificador de segurança (SID) da conta que executou o processo responsável pelo evento |
-| `InitiatingProcessMD5` | string | Hash MD5 do processo (arquivo de imagem) que iniciou o evento |
-| `InitiatingProcessSHA1` | string | SHA-1 do processo (arquivo de imagem) que iniciou o evento |
-| `InitiatingProcessSHA256` | string | SHA-256 do processo (arquivo de imagem) que iniciou o evento. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
+| `FileOriginUrl` | cadeia de caracteres | URL de onde o arquivo foi baixado |
+| `FileOriginReferrerUrl` | cadeia de caracteres | URL da página da Web que vincula ao arquivo baixado |
+| `FileOriginIP` | cadeia de caracteres | Endereço IP de onde o arquivo foi baixado |
+| `InitiatingProcessAccountDomain` | cadeia de caracteres | Domínio da conta que executou o processo responsável pelo evento |
+| `InitiatingProcessAccountName` | cadeia de caracteres | Nome de usuário da conta que executou o processo responsável pelo evento |
+| `InitiatingProcessAccountSid` | cadeia de caracteres | Identificador de segurança (SID) da conta que executou o processo responsável pelo evento |
+| `InitiatingProcessMD5` | cadeia de caracteres | Hash MD5 do processo (arquivo de imagem) que iniciou o evento |
+| `InitiatingProcessSHA1` | cadeia de caracteres | SHA-1 do processo (arquivo de imagem) que iniciou o evento |
+| `InitiatingProcessSHA256` | cadeia de caracteres | SHA-256 do processo (arquivo de imagem) que iniciou o evento. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
 | `InitiatingProcessFolderPath` | string | Pasta que contém o processo (arquivo de imagem) que iniciou o evento |
-| `InitiatingProcessFileName` | string | Nome do processo que iniciou o evento |
+| `InitiatingProcessFileName` | cadeia de caracteres | Nome do processo que iniciou o evento |
 | `InitiatingProcessId` | int | ID de processo (PID) do processo que iniciou o evento |
-| `InitiatingProcessCommandLine` | string | Linha de comando usada para executar o processo que iniciou o evento |
+| `InitiatingProcessCommandLine` | cadeia de caracteres | Linha de comando usada para executar o processo que iniciou o evento |
 | `InitiatingProcessCreationTime` | datetime | Data e hora em que o processo que iniciou o evento foi iniciado |
-| `InitiatingProcessIntegrityLevel` | string | Nível de integridade do processo que iniciou o evento. O Windows atribui níveis de integridade a processos com base em determinadas características, como se foram iniciados a partir de um download da Internet. Estes níveis de integridade influenciam permissões para recursos |
-| `InitiatingProcessTokenElevation` | string | Tipo de token que indica a presença ou ausência de elevação de privilégio do controle de acesso do usuário (UAC) aplicada ao processo que iniciou o evento |
+| `InitiatingProcessIntegrityLevel` | cadeia de caracteres | Nível de integridade do processo que iniciou o evento. O Windows atribui níveis de integridade a processos com base em determinadas características, como se foram iniciados a partir de um download da Internet. Estes níveis de integridade influenciam permissões para recursos |
+| `InitiatingProcessTokenElevation` | cadeia de caracteres | Tipo de token que indica a presença ou ausência de elevação de privilégio do controle de acesso do usuário (UAC) aplicada ao processo que iniciou o evento |
 | `InitiatingProcessParentId` | int | ID de processo (PID) do processo pai que gerou o processo responsável pelo evento |
-| `InitiatingProcessParentFileName` | string | Nome do processo pai que gerou o processo responsável pelo evento |
+| `InitiatingProcessParentFileName` | cadeia de caracteres | Nome do processo pai que gerou o processo responsável pelo evento |
 | `InitiatingProcessParentCreationTime` | datetime | Data e hora em que o pai do processo responsável pelo evento foi iniciado |
-| `RequestProtocol` | string | Protocolo de rede, se aplicável, usado para iniciar a atividade: desconhecido, local, SMB ou NFS |
-| `ShareName` | string | Nome da pasta compartilhada que contém o arquivo |
-| `RequestSourceIP` | string | Endereço IPv4 ou IPv6 do dispositivo remoto que iniciou a atividade |
-| `RequestSourcePort` | string | Porta de origem no dispositivo remoto que iniciou a atividade |
-| `RequestAccountName` | string | Nome de usuário da conta usada para iniciar remotamente a atividade |
-| `RequestAccountDomain` | string | Domínio da conta usada para iniciar remotamente a atividade |
-| `RequestAccountSid` | string | Identificador de segurança (SID) da conta usada para iniciar remotamente a atividade |
+| `RequestProtocol` | cadeia de caracteres | Protocolo de rede, se aplicável, usado para iniciar a atividade: desconhecido, local, SMB ou NFS |
+| `ShareName` | cadeia de caracteres | Nome da pasta compartilhada que contém o arquivo |
+| `RequestSourceIP` | cadeia de caracteres | Endereço IPv4 ou IPv6 do dispositivo remoto que iniciou a atividade |
+| `RequestSourcePort` | cadeia de caracteres | Porta de origem no dispositivo remoto que iniciou a atividade |
+| `RequestAccountName` | cadeia de caracteres | Nome de usuário da conta usada para iniciar remotamente a atividade |
+| `RequestAccountDomain` | cadeia de caracteres | Domínio da conta usada para iniciar remotamente a atividade |
+| `RequestAccountSid` | cadeia de caracteres | Identificador de segurança (SID) da conta usada para iniciar remotamente a atividade |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, esta coluna deve ser usada em conjunto com as colunas DeviceName e timestamp |
-| `AppGuardContainerId` | string | Identificador para o contêiner virtualizado usado pelo Application Guard para isolar a atividade do navegador |
-| `SensitivityLabel` | string | Rótulo aplicado a um email, arquivo ou outro conteúdo para classificá-lo para proteção de informações |
-| `SensitivitySubLabel` | string | Subrótulo aplicado a um email, arquivo ou outro conteúdo para classificá-lo para proteção de informações; subrótulos de sensibilidade são agrupados em rótulos de confidencialidade, mas são tratados de forma independente |
+| `AppGuardContainerId` | cadeia de caracteres | Identificador para o contêiner virtualizado usado pelo Application Guard para isolar a atividade do navegador |
+| `SensitivityLabel` | cadeia de caracteres | Rótulo aplicado a um email, arquivo ou outro conteúdo para classificá-lo para proteção de informações |
+| `SensitivitySubLabel` | cadeia de caracteres | Subrótulo aplicado a um email, arquivo ou outro conteúdo para classificá-lo para proteção de informações; subrótulos de sensibilidade são agrupados em rótulos de confidencialidade, mas são tratados de forma independente |
 | `IsAzureInfoProtectionApplied` | booliano | Indica se o arquivo está criptografado pela proteção de informações do Azure |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
+- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 663dc2a3de676fa2daeab3d9621254e956d42fc4
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: 4221af6b0378e67e12852dbef0bbc0a11ff56511
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204750"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649470"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -51,7 +51,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `DeviceName` | cadeia de caracteres | FQDN (nome de domínio totalmente qualificado) do dispositivo |
 | `DeviceType` | cadeia de caracteres | Tipo de dispositivo | 
 | `OSPlatform` | cadeia de caracteres | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. |
-| `IPAddress` | cadeia de caracteres | Endereço IP atribuído ao ponto de extremidade e usado durante as comunicações de rede relacionadas |
+| `IPAddress` | string | Endereço IP atribuído ao ponto de extremidade e usado durante as comunicações de rede relacionadas |
 | `DestinationDeviceName` | cadeia de caracteres | Nome do dispositivo que executa o aplicativo de servidor que processou a ação registrada |
 | `DestinationIPAddress` | cadeia de caracteres | Endereço IP do dispositivo que está executando o aplicativo de servidor que processou a ação registrada |
 | `Location` | cadeia de caracteres | Cidade, país ou outra localização geográfica associada ao evento |
@@ -63,6 +63,6 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 - [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
+- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

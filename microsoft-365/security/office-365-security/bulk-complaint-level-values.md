@@ -16,12 +16,12 @@ ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber mais sobre os valores de nível de conformidade em massa (BCL) usados no Exchange Online Protection (EOP).
-ms.openlocfilehash: 87ef0787aad12022d9034800c4ddc72e54445f5d
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 19fa7172bd242852d03822c588e163b7a13f9201
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209602"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653204"
 ---
 # <a name="bulk-complaint-level-bcl-in-eop"></a>Nível de reclamação em massa (BCL) no EOP
 
@@ -33,9 +33,10 @@ Os emails em massa variam em seus padrões de envio, criação de conteúdo e pr
 
 Os limites de BCL são descritos na tabela a seguir.
 
-|||
+****
+
+|BCL|Descrição|
 |:---:|---|
-|**BCL**|**Descrição**|
 |,0|A mensagem não é de um remetente em massa.|
 |1, 2, 3|A mensagem é de um remetente em massa que gera algumas reclamações.|
 |4, 5, 6, 7|A mensagem é de um remetente em massa que gera um número misto de reclamações.|

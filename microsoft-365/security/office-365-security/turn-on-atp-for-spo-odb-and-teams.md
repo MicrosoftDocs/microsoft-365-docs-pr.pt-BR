@@ -19,12 +19,12 @@ ms.collection:
 - SPO_Content
 description: Saiba como ativar a ATP para SharePoint, OneDrive e Teams, incluindo como definir alertas para arquivos detectados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 976911abe047be350ae6c64409cd6607ea75de7a
-ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
+ms.openlocfilehash: 6109cecc79b4db876ee595d4786d176ae7f42f5d
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44811069"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656546"
 ---
 # <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Ative a ATP para SharePoint, OneDrive e Microsoft Teams
 
@@ -35,17 +35,20 @@ O [Office 365 ATP para SharePoint, onedrive e Microsoft Teams](atp-for-spo-odb-a
 
 Para definir (ou editar) políticas ATP, você deve ter uma função apropriada atribuída. Alguns exemplos são descritos na tabela a seguir:
 
+****
+
 |Role|Onde/como a atribuição|
-|---------|---------|
+|---|---|
 |administrador global|Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para saber mais.)|
 |Administrador de Segurança|Centro de administração do Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
 |Gerenciamento de Organização do Exchange Online|Centro de administração do Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
+|
 
 ## <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Ative a ATP para SharePoint, OneDrive e Microsoft Teams
 
 **Antes de iniciar esse procedimento, certifique-se de que o log de auditoria já esteja ativado para seu ambiente do Microsoft 365**. Isso geralmente é feito por alguém que tenha a função de logs de auditoria atribuída no Exchange Online. Para saber mais, confira [Ativar ou desativar a pesquisa de log de auditoria](../../compliance/turn-audit-log-search-on-or-off.md).
 
-1. Vá até [https://protection.office.com](https://protection.office.com) e entre com sua conta corporativa ou de estudante.
+1. Vá até <https://protection.office.com> e entre com sua conta corporativa ou de estudante.
 
 2. No centro de conformidade & segurança, no painel de navegação esquerdo, em **Gerenciamento de ameaças**, **Policy** escolha \> **anexos seguros**da política.
 

@@ -1,11 +1,11 @@
 ---
-title: Alertas no centro de &amp; conformidade de segurança
+title: Alertas no centro de conformidade & segurança
 f1.keywords:
 - NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 2/14/2018
+ms.date: ''
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -19,46 +19,47 @@ ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre como usar os recursos de alerta no centro de conformidade & segurança do Office 365 para exibir e gerenciar alertas, incluindo o gerenciamento de alertas avançados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8b0c2d89f7f91e1dfcae644663c43bc6e8640f37
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: c51d5d58b1af64a5066e6176fb2533c91bcf6f01
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033769"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653348"
 ---
-# <a name="alerts-in-the-security-amp-compliance-center"></a>Alertas no centro de &amp; conformidade de segurança
+# <a name="alerts-in-the-security--compliance-center"></a>Alertas no centro de conformidade & segurança
 
-Use os recursos de alerta no centro &amp; de conformidade de segurança para exibir e gerenciar alertas para sua organização, incluindo o gerenciamento de alertas avançados como parte da [visão geral do Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security).
-  
+Use os recursos de alerta no centro de conformidade & segurança para exibir e gerenciar alertas da sua organização, incluindo o gerenciamento de alertas avançados como parte da [visão geral do Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security).
+
 ## <a name="how-to-get-to-the-alerts-features"></a>Como obter os recursos de alertas
 
-Os alertas estão no centro &amp; de conformidade de segurança. Confira aqui como acessar a página.
-  
- **Para ir diretamente para o centro &amp; de conformidade de segurança:**
-  
+Os alertas estão no centro de conformidade & segurança. Confira aqui como acessar a página.
+
+### <a name="to-go-directly-to-the-security--compliance-center"></a>Para ir diretamente para o centro de conformidade & segurança
+
 1. Acesse [https://protection.office.com](https://protection.office.com).
-    
-2. Entre usando sua conta de trabalho ou da escola. 
-    
-3. No painel esquerdo, clique em **alertas** para ver os recursos de alerta. 
-    
- **Para ir para o centro &amp; de conformidade de segurança usando o inicializador de aplicativos:**
-  
-1. Entre usando sua conta de trabalho ou da escola. 
-    
-2. Clique no inicializador de aplicativos no canto superior esquerdo e, em seguida, clique em **conformidade de segurança &amp; **.
-    
-    Não consegue encontrar o aplicativo que está procurando? No inicializador de aplicativos, selecione **Todos os aplicativos** para ver uma lista em ordem alfabética dos aplicativos disponíveis do Office 365. Nesse local, você pode pesquisar um aplicativo específico. 
-    
-3. No painel esquerdo, clique em **alertas** para ver os recursos de alerta. 
-    
+
+2. Entre usando sua conta de trabalho ou da escola.
+
+3. No painel esquerdo, clique em **alertas** para ver os recursos de alerta.
+
+### <a name="to-go-to-the-security--compliance-center-using-the-app-launcher"></a>Para ir para o centro de conformidade & segurança usando o inicializador de aplicativos
+
+1. Entre usando sua conta de trabalho ou da escola.
+
+2. Clique no inicializador de aplicativos no canto superior esquerdo e, em seguida, clique em **segurança & conformidade**.
+
+    Não consegue encontrar o aplicativo que está procurando? No inicializador de aplicativos, selecione **Todos os aplicativos** para ver uma lista em ordem alfabética dos aplicativos disponíveis do Office 365. Nesse local, você pode pesquisar um aplicativo específico.
+
+3. No painel esquerdo, clique em **alertas** para ver os recursos de alerta.
+
 ## <a name="alerts-features"></a>Recursos de alerta
 
-A tabela a seguir descreve as ferramentas que estão disponíveis em **alertas** no centro &amp; de conformidade de segurança. 
-  
-|**Ferramenta**|**Descrição**|
-|:-----|:-----|
-|[Gerenciar alertas](../../compliance/create-activity-alerts.md) <br/> |Use os alertas de atividade para enviar notificações por email para si mesmo ou para outros administradores quando os usuários executarem atividades específicas no Office 365. Os alertas de atividade são semelhantes à pesquisa de eventos no log de auditoria, exceto pelo fato de que você enviará uma mensagem de email quando um evento que você criou um alerta para ocorrer.  <br/> |
-|[Gerenciar alertas avançados](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) <br/> |Use o recurso **Gerenciar alertas avançados** do Office 365 Cloud app Security para configurar políticas que podem alertá-lo sobre atividades suspeitas e anormais no Office 365. Depois de alertar, você pode investigar situações que são potencialmente problemáticas e, se necessário, tomar medidas para resolver problemas de segurança.  <br/> |
-   
+A tabela a seguir descreve as ferramentas que estão disponíveis em **alertas** no centro de conformidade do & de segurança.
 
+****
+
+|Ferramenta|Descrição|
+|---|---|
+|[Gerenciar alertas](../../compliance/create-activity-alerts.md)|Use os alertas de atividade para enviar notificações por email para si mesmo ou para outros administradores quando os usuários executarem atividades específicas no Office 365. Os alertas de atividade são semelhantes à pesquisa de eventos no log de auditoria, exceto pelo fato de que você enviará uma mensagem de email quando um evento que você criou um alerta para ocorrer.|
+|[Gerenciar alertas avançados](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Use o recurso **Gerenciar alertas avançados** do Office 365 Cloud app Security para configurar políticas que podem alertá-lo sobre atividades suspeitas e anormais no Office 365. Depois de alertar, você pode investigar situações que são potencialmente problemáticas e, se necessário, tomar medidas para resolver problemas de segurança.|
+|

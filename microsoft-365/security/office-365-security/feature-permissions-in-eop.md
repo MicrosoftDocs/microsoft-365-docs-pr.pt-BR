@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 34674847-a6b7-4a7e-9eaa-b64f22bc150d
 description: Saiba mais sobre a permissão necessária para tarefas na proteção do Exchange Online autônoma
-ms.openlocfilehash: 0c3074789e439c3923667d37446733665fa79d88
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 2f653fbae49087b8fc1ebc3a97586512965df970
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588247"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652892"
 ---
 # <a name="permissions-in-standalone-eop"></a>Permissões no EOP autônomo
 
@@ -43,9 +43,10 @@ A figura a seguir mostra a relação entre usuários, grupos de função e funç
 
 Os grupos de função disponíveis no EOP autônomo são descritos na tabela a seguir.
 
-||||
+****
+
+|Grupo de função|Descrição|Funções padrão atribuídas|
 |---|---|---|
-|**Default management role assignments for this role**|**Descrição**|**Funções padrão atribuídas**|
 |ComplianceManagement|Configure e gerencie as configurações de conformidade dentro da organização, incluindo prevenção de perda de dados (DLP) se sua assinatura tiver recursos de DLP. <br/><br/> Os membros da função de [administrador de conformidade](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#compliance-administrator) no Azure ad obtêm automaticamente as permissões desse grupo de função.|Logs de auditoria <br/><br/> Administração de conformidade <br/><br/> Gerenciamento de Direitos de Informação <br/><br/> Gerenciamento de retenção <br/><br/> Logs de auditoria somente para exibição <br/><br/> Configuração Somente para Exibição <br/><br/> Destinatários Somente para Exibição|
 |ContentExplorerContentViewer|Não usado.|Visualizador de conteúdo de classificação de dados|
 |ContentExplorerListViewer|Não usado.|Visualizador de lista de classificação de dados|
@@ -70,9 +71,10 @@ Se is grupos de função internos no Exchange Online não corresponderem à fun�
 
 As funções internas que estão disponíveis em EOP autônomo são descritas na tabela a seguir.
 
-||||
+****
+
+|Função * *|Descrição|Atribuições de grupo de função padrão|
 |---|---|---|
-|**Função**|**Descrição**|**Atribuições de grupo de função padrão**|
 |AntiMalware|Exibir e modificar a configuração e os relatórios de recursos antimalware.|Gerenciamento <br/><br/> SecurityAdministrator|
 |Anti|Exibir e modificar a configuração e os relatórios para recursos antispam.|Gerenciamento <br/><br/> SecurityAdministrator|
 |Logs de auditoria|Pesquise o log de auditoria do administrador e visualize os resultados.|ComplianceManagement <br/><br/> Gerenciamento <br/><br/> SecurityAdministrator|
@@ -123,9 +125,10 @@ Ao criar um usuário no centro de administração do Microsoft 365, você pode e
 
 A tabela a seguir lista as funções do Microsoft 365 e os grupos de funções do EOP autônomos aos quais elas correspondem. Para obter mais informações sobre essas funções, consulte [sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 
-|||
+****
+
+|Função 365 da Microsoft|Grupo de função EOP|
 |---|---|
-|**Função 365 da Microsoft**|**Grupo de função EOP**|
 |Administrador do Exchange|Gerenciamento|
 |Administrador global|Gerenciamento <br/><br/> **Observação**: a função de administrador global e o grupo de função gerenciamento estão ligados juntos usando um grupo de função de administrador de empresa especial. O grupo de função Administrador da empresa é gerenciado internamente e não pode ser modificado diretamente.|
 |Administrador de senha|Comunique|

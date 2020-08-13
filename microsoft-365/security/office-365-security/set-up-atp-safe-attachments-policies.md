@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como definir políticas de anexos seguros para proteger sua organização contra arquivos mal-intencionados no email.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1569e8072f64ce751c44e76f971e98f37540afae
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: a8b69d114b1387a1ef76d962424149c1db93ce04
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430418"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656618"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Configurar políticas de anexos seguros de ATP do Office 365
 
@@ -46,8 +46,10 @@ Pessoas costumam enviar, receber e compartilhar anexos, como documentos, apresen
 
 - Verifique se você tem as permissões necessárias. Para definir (ou editar) políticas de ATP, você deve ter uma função de gerenciamento de organização do Exchange Online (o administrador global é atribuído a essa função por padrão) ou as funções de administrador de segurança e gerenciamento de higiene do Exchange Online. Para obter mais detalhes, consulte a seguinte tabela:
 
+  ****
+
   |Role|Onde/como a atribuição|
-  |---------|---------|
+  |---|---|
   |administrador global |Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para saber mais.)|
   |Administrador de Segurança |Centro de administração do Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
   |Gerenciamento de organização do Exchange Online, gerenciamento de higiene do Exchange Online |Centro de administração do Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
@@ -89,9 +91,10 @@ Considere configurar várias políticas de anexos seguros de ATP para sua organi
 
 À medida que você configura as políticas de anexos seguros de ATP, você escolhe entre várias opções, incluindo monitor, bloqueio, substituição, entrega dinâmica e assim por diante. Caso você esteja se perguntando o que essas opções fazem, a tabela a seguir resume cada e seu efeito.
 
-||||
+****
+
+|Opção|Efeito|Use quando quiser:|
 |---|---|---|
-|**Opção**|**Effect**|**Use quando quiser:**|
 |**Desabilitado**|Não examina anexos de malware  <br/> Não atrasa a entrega de mensagens|Desligar a verificação para destinatários selecionados.  <br/> Evitar atrasos desnecessários no roteamento de email interno.  <br/> **Essa opção não é recomendada para a maioria dos usuários. Você só deve usar essa opção para desativar a verificação de anexos seguros de ATP para destinatários que recebem emails de remetentes confiáveis.**|
 |**Monitor**|Entrega mensagens com anexos e rastreia o que acontece com o malware detectado|Veja onde o malware detectado entra em sua organização|
 |**Bloquear**|Impede que mensagens com anexos de malware detectados continuem  <br/> Envia mensagens com malware detectado para [colocar em quarentena no Office 365](manage-quarantined-messages-and-files.md) , onde um administrador de segurança ou analista pode revisar e liberar (ou excluir) essas mensagens  <br/> Bloqueia automaticamente mensagens e anexos futuros|Proteger sua organização de ataques repetidos usando os mesmos anexos de malware|

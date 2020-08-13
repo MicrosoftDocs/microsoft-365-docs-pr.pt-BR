@@ -17,12 +17,12 @@ ms.custom:
 - SIEM
 - seo-marvel-apr2020
 description: Obtenha uma visão geral da integração do servidor de gerenciamento de eventos e informações de segurança (SIEM) com seus serviços e aplicativos em nuvem da Microsoft 365
-ms.openlocfilehash: c52f24c6260c890b1f6d8612efacb78f9b08be86
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d2be5e0127adf25b3884e3717caccf60d4db1d28
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035255"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653564"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Integração do servidor de gerenciamento de eventos e informações de segurança (SIEM) com serviços e aplicativos do Microsoft 365
 
@@ -45,9 +45,10 @@ Se você precisa de um servidor SIEM depende de vários fatores, como os requisi
 
 Um servidor SIEM pode receber dados de uma ampla variedade de serviços e aplicativos do Microsoft 365. A tabela a seguir lista vários serviços e aplicativos do Microsoft 365, juntamente com entradas e recursos do servidor SIEM para saber mais.
 
-||||
+****
+
+|Serviço ou aplicativo Microsoft 365|Entradas/métodos do servidor SIEM|Recursos para saber mais|
 |---|---|---|
-|**Serviço ou aplicativo Microsoft 365**|**Entradas/métodos do servidor SIEM**|**Recursos para saber mais**|
 |[Proteção Avançada contra Ameaças do Office 365](office-365-atp.md)|Logs de auditoria|[Integração do SIEM com a proteção avançada contra ameaças do Office 365](siem-integration-with-office-365-ti.md)|
 |[Proteção Avançada contra Ameaças do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)|Ponto de extremidade HTTPS hospedado no Azure <br/>API REST|[Extrair alertas para suas ferramentas SIEM](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
 |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Integração de log|[Integração do SIEM com o Microsoft Cloud app Security](https://docs.microsoft.com/cloud-app-security/siem)|

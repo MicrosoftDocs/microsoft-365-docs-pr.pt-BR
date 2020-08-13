@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 837232550ca392a364b9842f64a1c3f0d790a502
-ms.sourcegitcommit: 33be6075fcc89d4c0a48fa7e59f3b3ebc605d9f3
+ms.openlocfilehash: 826d8561ba0c9618f21458493416b7dbd75af9e1
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44520153"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656856"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Como relatar falsos positivos/negativos em recursos de investigação e resposta automatizados
 
@@ -61,11 +61,13 @@ Na maioria dos casos, se uma ação de correção foi realizada em uma mensagem 
 
 Com o Gerenciador de ameaças, a equipe de operações de segurança pode encontrar um email afetado por uma ação e possivelmente desfazer a ação.
 
-|Cenário  |Opções de desfazer  |Saiba mais |
-|---------|---------|---------|
-|Uma mensagem de email foi encaminhada para a pasta lixo eletrônico de um usuário     |-Mover a mensagem para a pasta itens excluídos do usuário<br/>-Mover a mensagem para a caixa de entrada do usuário <br/>-Excluir a mensagem          |[Encontre e investigue emails mal-intencionados que foram entregues no Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered) |
-|Uma mensagem de email ou um arquivo foi colocado em quarentena     |– Libera o email ou o arquivo <br/>-Excluir o email ou o arquivo         |[Gerenciar arquivos e mensagens em quarentena como um administrador no Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/manage-quarantined-messages-and-files) |
+****
 
+|Cenário|Opções de desfazer|Saiba mais|
+|---|---|---|
+|Uma mensagem de email foi encaminhada para a pasta lixo eletrônico de um usuário|-Mover a mensagem para a pasta itens excluídos do usuário<br/>-Mover a mensagem para a caixa de entrada do usuário <br/>-Excluir a mensagem|[Encontre e investigue emails mal-intencionados que foram entregues no Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered)|
+|Uma mensagem de email ou um arquivo foi colocado em quarentena|– Libera o email ou o arquivo <br/>-Excluir o email ou o arquivo|[Gerenciar arquivos e mensagens em quarentena como um administrador no Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/manage-quarantined-messages-and-files)|
+|
 
 ### <a name="undo-an-action-using-the-actions-tab-for-an-investigation"></a>Desfazer uma ação usando a guia ações para uma investigação
 

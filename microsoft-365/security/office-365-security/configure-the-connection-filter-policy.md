@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a configurar a filtragem de conexão na proteção do Exchange Online (EOP) para permitir ou bloquear emails de servidores de email.
-ms.openlocfilehash: e0cb5161ac33333a0f8cd5f897b4a0a85315c12e
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 675247ba1764cb928bec967c581083c6365f635a
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755243"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656786"
 ---
 # <a name="configure-connection-filtering"></a>Configurar a filtragem da conexão
 
@@ -40,23 +40,23 @@ Este tópico descreve como configurar a política de filtro de conexão padrão 
 > [!NOTE]
 > A lista de IPs permitidos, a lista segura e a lista de IPs bloqueados são uma parte de sua estratégia geral para permitir ou bloquear emails em sua organização. Para obter mais informações, consulte [criar listas de remetentes confiáveis](create-safe-sender-lists-in-office-365.md) e [criar listas de remetentes bloqueados](create-block-sender-lists-in-office-365.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>.
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa receber permissões antes de executar os procedimentos deste tópico:
+- Você precisa ter permissões atribuídas antes de poder executar os procedimentos neste tópico:
 
   - Para modificar a política de filtro de conexão padrão, você precisa ser membro de um dos seguintes grupos de função:
 
-    - **Gerenciamento da organização** ou **administrador de segurança** no centro de conformidade de & de [segurança](permissions-in-the-security-and-compliance-center.md).
-    - Gerenciamento da **organização** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+    - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+    - **Gerenciamento de organizações** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
   - Para acesso somente leitura à política de filtro de conexão padrão, você precisa ser membro de um dos seguintes grupos de função:
 
-    - **Leitor de segurança** no [centro de conformidade & segurança](permissions-in-the-security-and-compliance-center.md).
-    - **Gerenciamento de organização somente para exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+    - **Leitor de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+    - **Gerenciamento da organização Somente visualização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - Para localizar os endereços IP de origem dos servidores de email (remetentes) que você deseja permitir ou bloquear, você pode verificar o campo de cabeçalho IP de conexão (**CIP**) no cabeçalho da mensagem. Para exibir um cabeçalho de mensagem em vários clientes de email, confira [exibir cabeçalhos de mensagens da Internet no Outlook](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c).
 
@@ -200,6 +200,7 @@ Se você encontrar um desses cenários, poderá criar uma regra de fluxo de emai
 
 ## <a name="new-to-microsoft-365"></a>Novo no Microsoft 365?
 
-||
-|:-----|
+|<!-- a -->|
+|---|
 |![O ícone curto do LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **New to Microsoft 365?** Descubra cursos de vídeo gratuitos para **Administradores e profissionais de ti**, trazidos para você pelo LinkedIn Learning.|
+|

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as configurações avançadas de filtro de spam (ASF) que estão disponíveis em políticas antispam no Exchange Online Protection (EOP).
-ms.openlocfilehash: 691539b8abd4fcd2e749c71d7fd337b0105d66ae
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: b314b8b2a2de72987d9acff688602df0e0947293
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352471"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653336"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>Configurações avançadas de filtro de spam (ASF) no EOP
 
@@ -33,7 +33,12 @@ ms.locfileid: "44352471"
 Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, as configurações avançadas de filtro de spam (ASF) em políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) permitem que os administradores marquem mensagens como spam com base em Propriedades de mensagens específicas. O ASF destina especificamente essas propriedades, pois elas são comumente encontradas em spam. Dependendo da propriedade, as detecções de ASF marcarão a mensagem como **spam** ou spam de **alta confiança**.
 
 > [!NOTE]
-> Habilitar uma ou mais das configurações de ASF é uma abordagem agressiva para a filtragem de spam. Não é possível relatar mensagens filtradas por ASF como falsos positivos. Você pode identificar mensagens que foram filtradas pelo ASF por: <ul><li>Notificações periódicas de quarentena de spam do usuário final.</li><li>A presença de mensagens filtradas em quarentena.</li><li>Os `X-CustomSpam:` campos de cabeçalho X específicos que são adicionados às mensagens, conforme descrito neste tópico.</li></ul>
+> Habilitar uma ou mais das configurações de ASF é uma abordagem agressiva para a filtragem de spam. Não é possível relatar mensagens filtradas por ASF como falsos positivos. Você pode identificar mensagens que foram filtradas pelo ASF por:
+> - Notificações periódicas de quarentena de spam do usuário final.
+>
+> - A presença de mensagens filtradas em quarentena.
+>
+> - Os `X-CustomSpam:` campos de cabeçalho X específicos que são adicionados às mensagens, conforme descrito neste tópico.
 
 As seções a seguir descrevem as opções e as configurações de ASF que estão disponíveis em políticas antispam no centro de conformidade & segurança e no PowerShell do Exchange Online ou EOP PowerShell ([New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/new-hostedcontentfilterpolicy) e [set-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/set-hostedcontentfilterpolicy)). Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
 
@@ -58,9 +63,7 @@ Para cada configuração de ASF, as seguintes opções estão disponíveis em po
   - O modo de teste não está disponível para as seguintes configurações ASF:
 
     - **Filtragem de ID de remetente condicional: falha de hardware** (*MarkAsSpamFromAddressAuthFail*)
-
     - **Inspersão de NDR**(*MarkAsSpamNdrBackscatter*)
-
     - **Registro SPF: falha de hardware** (*MarkAsSpamSpfRecordHardFail*)
 
   - A mesma ação de modo de teste é aplicada a *todas* as configurações de ASF definidas para **testar**. Você não pode configurar ações de modo de teste diferentes para diferentes configurações de ASF.
@@ -69,9 +72,10 @@ Para cada configuração de ASF, as seguintes opções estão disponíveis em po
 
 As configurações ASF a seguir definem o nível de confiança de spam (SCL) das mensagens detectadas como 5 ou 6, que corresponde ao veredicto de filtro de **spam** e à ação correspondente em políticas antispam.
 
-||||
+****
+
+|Configuração de política antispam|Descrição|X-cabeçalho adicionado|
 |---|---|---|
-|**Configuração de política antispam**|**Descrição**|**X-cabeçalho adicionado**|
 |**Links de imagem para sites remotos** <br/><br/> *IncreaseScoreWithImageLinks*|As mensagens que contêm `<Img>` links de marca HTML para sites remotos (por exemplo, usando http) são marcadas como spam.|`X-CustomSpam: Image links to remote sites`|
 |**URL redirecionada para outra porta** <br/><br/> *IncreaseScoreWithRedirectToOtherPort*|A mensagem que contém hiperlinks que redirecionam para portas TCP diferentes de 80 (HTTP), 8080 (HTTP alternativo) ou 443 (HTTPS) são marcadas como spam.|`X-CustomSpam: URL redirect to other port`|
 |**Endereço IP numérico na URL** <br/><br/> *IncreaseScoreWithNumericIps*|As mensagens que contêm URLs com base em números (normalmente, endereços IP) são marcadas como spam.|`X-CustomSpam: Numeric IP in URL`|
@@ -82,9 +86,10 @@ As configurações ASF a seguir definem o nível de confiança de spam (SCL) das
 
 As configurações ASF a seguir definem o SCL das mensagens detectadas para 9, que corresponde à veredicto de filtro de **spam de alta confiança** e a ação correspondente em políticas antispam.
 
-||||
+****
+
+|Configuração de política antispam|Descrição|X-cabeçalho adicionado|
 |---|---|---|
-|**Configuração de política antispam**|**Descrição**|**X-cabeçalho adicionado**|
 |**Mensagens vazias** <br/><br/> *MarkAsSpamEmptyMessages*|Mensagens sem assunto, sem conteúdo no corpo da mensagem e nenhum anexo está marcado como spam de alta confiança.|`X-CustomSpam: Empty Message`|
 |**JavaScript ou VBScript em HTML** <br/><br/> *MarkAsSpamJavaScriptInHtml*|As mensagens que usam JavaScript ou Visual Basic Script Edition em HTML são marcadas como spam de alta confiança. <br/><br/> Essas linguagens de script são usadas em mensagens de email para fazer com que ações específicas ocorram automaticamente.|`X-CustomSpam: Javascript or VBscript tags in HTML`|
 |**Estrutura ou IMarcas da estrutura em HTML** <br><br/> *MarkAsSpamFramesInHtml*|As mensagens que contêm `<frame>` ou `<iframe>` marcas HTML são marcadas como spam de alta confiança. <br/><br/> Essas marcas são usadas em mensagens de email para formatar a página para exibir texto ou elementos gráficos.|`X-CustomSpam: IFRAME or FRAME in HTML`|

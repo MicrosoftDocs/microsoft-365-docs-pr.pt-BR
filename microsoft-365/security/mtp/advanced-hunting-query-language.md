@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 26b376fe3e804a3ebaa478e484807bea4c33d38b
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: 64f0b19cfd9588e975b06cb43ca73270b00c5e26
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049685"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649386"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Conhecer a linguagem de consulta de busca avançada
 
@@ -179,6 +179,6 @@ Para obter mais informações sobre a linguagem de consulta Kusto e os operadore
 - [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Trabalhar com os resultados da consulta](advanced-hunting-query-results.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
+- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

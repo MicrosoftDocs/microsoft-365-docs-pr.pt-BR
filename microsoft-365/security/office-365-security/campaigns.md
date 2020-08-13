@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os Modos de Exibição de Campanhas na Proteção Avançada contra Ameaças do Office 365.
-ms.openlocfilehash: fe443c43fa5cea8ec6e3e1c0bc5ee5307b5c28f6
-ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
+ms.openlocfilehash: b7078188d8e01f27e6941c3f61f4ef20a004606c
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45039423"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653228"
 ---
 # <a name="campaign-views-in-atp"></a>Exibições de campanha na ATP
 
@@ -139,7 +139,7 @@ As propriedades de campanha disponíveis são descritas na lista a seguir:
   - **Marcas**
   - **Substituições de sistema**
 
-- Avançado
+- Advanced
 
   - **ID de mensagem da Internet**: disponível no campo de cabeçalho **Message-ID** no cabeçalho da mensagem. Um valor de exemplo é `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (Observe os colchetes angulares).
   
@@ -221,11 +221,12 @@ O diagrama contém as seguintes informações:
 
 - **Filter verdicts**: estes valores estão relacionados à verdicts de filtragem phishing e spam disponível, conforme descrito em [cabeçalhos de mensagem](anti-spam-message-headers.md)antispam. Os valores disponíveis são descritos na tabela a seguir:
 
-  ||||
+  ****
+
+  |Valor|Veredicto de filtro de spam|Descrição|
   |---|---|---|
-  |**Valor**|**Veredicto de filtro de spam**|**Descrição**|
   |**Permitido**|`SFV:SKN` <br/><br/> `SFV:SKI`|A mensagem foi marcada como não spam e/ou a filtragem ignorada antes de ser avaliada pela filtragem de spam (por exemplo, por uma regra de fluxo de emails, também conhecida como regra de transporte).<br/><br/>A mensagem ignorou a filtragem de spam por outros motivos (por exemplo, o remetente e o destinatário parecem estar na mesma organização).|
-  |**Blocked**|`SFV:SKS`|A mensagem foi marcada como spam antes de ser avaliada pela filtragem de spam (por exemplo, por uma regra de fluxo de emails).|
+  |**Bloqueado**|`SFV:SKS`|A mensagem foi marcada como spam antes de ser avaliada pela filtragem de spam (por exemplo, por uma regra de fluxo de emails).|
   |**Detectado**|`SFV:SPM`|A mensagem foi marcada como spam pela filtragem de spam.|
   |**Não detectado**|`SFV:NSPM`|A mensagem foi marcada como não spam por filtragem de spam.|
   |**Solta**|`SFV:SKQ`|A mensagem ignorou a filtragem de spam porque foi liberada da quarentena.|

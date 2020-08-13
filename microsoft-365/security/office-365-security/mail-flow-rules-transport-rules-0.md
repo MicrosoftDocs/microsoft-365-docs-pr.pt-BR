@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: Você pode usar regras de fluxo de emails (regras de transporte) para identificar e executar ações em mensagens que fluem pela sua organização.
-ms.openlocfilehash: 8eb4b805065ef1e279c5bbdab17a86b29aacc17b
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 6a70d5a23e3d65788143ea067a4702268e32f6ea
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209686"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653677"
 ---
-# <a name="mail-flow-rules-transport-rules-in-standalone-eop"></a>Regras de fluxo de emails (regras de transporte) em EOP autônomo
+# <a name="mail-flow-rules-transport-rules-in-standalone-eop"></a>Regras de fluxo de e-mail (regras de transporte) no EOP autônomo
 
 Em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, você pode usar regras de fluxo de emails (também conhecidas como regras de transporte) para identificar e executar ações em mensagens que fluem pela sua organização.
 
@@ -69,21 +69,26 @@ Para obter mais informações sobre ações de regra de fluxo de emails disponí
 
 ### <a name="multiple-conditions-exceptions-and-actions"></a>Várias condições, exceções e ações
 
-A seguinte tabela mostra como várias condições, valores de condição, exceções e ações são tratadas em uma regra.
+Use a transport rule so messages can bypass Clutter
 
-|**Componente**|**Lógica**|**Comentários**|
-|:-----|:-----|:-----|
+****
+
+|Componente|Lógica|Comments|
+|---|---|---|
 |Comentários|E|Uma mensagem deve atender a todas as condições da regra. Se você precisar combinar uma condição ou outra, use regras separadas para cada condição. Por exemplo, se quiser adicionar o mesmo aviso de isenção legal a mensagens com anexos e mensagens com texto específico, crie uma regra para cada condição. No EAC, você pode facilmente copiar uma regra.|
 |Uma mensagem deve atender a todas as condições da regra. Se você precisar combinar uma condição ou outra, use regras separadas para cada condição. Por exemplo, se quiser adicionar o mesmo aviso de isenção legal a mensagens com anexos e mensagens com conteúdo que corresponde a um padrão, crie uma regra para cada condição. Você pode facilmente copiar uma regra.|OU|Algumas condições permitem especificar mais de um valor. A mensagem deve corresponder a qualquer um dos valores especificados (não todos). Por exemplo, se o assunto de uma mensagem de email for Informações sobre o mercado de ações e a condição **O assunto inclui qualquer uma destas palavras** estiver configurada para corresponder às palavras Contoso ou ações, a condição será atendida, pois o assunto contém pelo menos um dos valores especificados.  |
 |Algumas condições permitem especificar mais de um valor. Se uma condição permitir inserir vários valores, a mensagem deverá corresponder a qualquer um dos valores especificados naquela condição. Por exemplo, se o assunto de uma mensagem de email for Informações sobre o mercado de ações e a condição O assunto inclui qualquer uma destas palavras estiver configurada para corresponder às palavras Contoso ou ações, a condição será atendida, pois o assunto contém pelo menos um dos valores da condição.|OU|Se uma mensagem corresponder a qualquer uma das exceções, as ações não são aplicadas na mensagem. A mensagem não precisa coincidir com todas as exceções.|
 |Se uma mensagem corresponder a qualquer uma das exceções, as ações não são processadas. A mensagem não precisa coincidir com todas as exceções.|E|As mensagens que atendem às condições de uma regra recebem todas as ações que estão especificadas na regra. Por exemplo, se as ações **Preceder o assunto da mensagem com** e **Adicionar destinatários à caixa Cco** estiverem selecionadas, ambas as ações serão aplicadas à mensagem.  <br/><br/> As mensagens que atendem às condições de uma regra recebem todas as ações especificadas na regra. Por exemplo, se as ações Preceder o assunto da mensagem com e Adicionar destinatários à caixa Cco estiverem selecionadas, ambas as ações serão aplicadas à mensagem. A mensagem receberá a cadeia de caracteres assinalada no assunto da mensagem e os destinatários especificados serão adicionados como destinatários de Cco.<br/><br/> Também é possível configurar uma ação em uma regra de tal forma que, quando ela for aplicada, as regras seguintes não sejam aplicadas à mensagem.|
+|
 
 ### <a name="mail-flow-rule-properties"></a>Propriedades de regras de fluxo de email
 
 A tabela a seguir descreve as propriedades das regras que estão disponíveis nas regras de fluxo de emails.
 
-|**Nome da propriedade no EAC**|**Nome do parâmetro no PowerShell**|**Descrição**|
-|:-----|:-----|:-----|
+****
+
+|Nome da propriedade no EAC|Nome do parâmetro no PowerShell|Descrição|
+|---|---|---|
 |**Prioridade**|_Priority_|Indica a ordem que as regras são aplicadas às mensagens. A prioridade padrão se baseia no momento em que a regra é criada (regras mais antigas têm uma prioridade mais alta que as regras mais recentes e as regras de prioridade mais alta são processadas antes das regras de prioridade mais baixa).   <br/><br/> Altere a prioridade da regra no EAC movendo a regra para cima ou para baixo na lista de regras. No PowerShell, você define o número de prioridade (0 é a prioridade mais alta). <br/><br/> Por exemplo, se tiver uma regra para rejeitar mensagens que incluam um número de cartão de crédito e outra exigindo aprovação, você desejará que a regra de rejeição ocorra primeiro e pare a aplicação das outras regras.  |
 |**Modo**|_Mode_|Você pode especificar se deseja que a regra comece a processar as mensagens imediatamente, ou se deseja testar as regras sem afetar a entrega da mensagem (com ou sem Prevenção contra Perda de Dados ou Dicas de Política DLP). <br/><br/> As dicas de política apresentam uma anotação breve no Outlook ou no Outlook na Web que fornecem informações sobre possíveis violações de política para a pessoa que está criando a mensagem. Para saber mais, veja **Policy Tips**.  <br/><br/> Para saber mais sobre os modos, confira **Test a mail flow rule**.|
 |**Ativar esta regra na seguinte data** <br/><br/> **Desativar esta regra na seguinte data**|_ActivationDate_ <br/> _ExpiryDate_|Especifica o intervalo de datas quando a regra está ativa.|
@@ -91,7 +96,8 @@ A tabela a seguir descreve as propriedades das regras que estão disponíveis na
 |**Adiar a mensagem se o processamento de regra não for concluído**|_RuleErrorAction_|Você pode especificar como a mensagem deveria ser tratada se o processamento de regra não puder ser concluído. Por padrão, a regra será ignorada, mas você pode optar por reenviar a mensagem para processamento.|
 |**Corresponder endereço do remetente da mensagem**|_SenderAddressLocation_|Se a regra usa condições ou exceções que examinam o endereço de email do remetente, você pode procurar o valor no cabeçalho da mensagem, no envelope da mensagem ou em ambos.|
 |**Parar o processamento de mais regras**|_SenderAddressLocation_|Essa é uma ação para a regra, mas se parece com uma propriedade no EAC. Você pode optar por evitar a aplicação de regras adicionais a uma mensagem após uma regra processar uma mensagem.|
-|**Comments**|_Comments_|Você pode inserir comentários descritivos sobre a regra.|
+|**Comentários**|_Comments_|Você pode inserir comentários descritivos sobre a regra.|
+|
 
 ## <a name="how-mail-flow-rules-are-applied-to-messages"></a>Como as regras de fluxo de emails são aplicadas a mensagens
 
@@ -103,8 +109,10 @@ Cada regra também oferece a opção de parar o processamento de outras quando �
 
 Existem vários tipos de mensagens que transitam por uma organização. A tabela a seguir mostra quais tipos de mensagens podem ser processados por regras de fluxo de emails.
 
-|**Tipo de mensagem**|**Uma regra pode ser aplicada?**|
-|:-----|:-----|
+****
+
+|Existem vários tipos de mensagens que transitam por uma organização. A tabela a seguir mostra quais tipos de mensagens podem ser processados por regras de transporte.|Tipo de mensagem|
+|---|---|
 |**Mensagens regulares**: mensagens que contêm um único corpo de mensagem em formato Rich Text (RTF), HTML ou texto sem formatação, ou um conjunto de corpos de mensagens ou de várias partes ou alternativo.|Sim|
 |**Criptografia de mensagem do office 365**: mensagens criptografadas pela criptografia de mensagem do Office 365 no Office 365. Para saber mais informações, consulte [Criptografia no Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption).|As regras sempre podem acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <br/><br/> Para uma regra inspecionar ou modificar o conteúdo de uma mensagem criptografada, é preciso verificar se a descriptografia de transporte está habilitada (Obrigatória ou Opcional; o padrão é Opcional). Para obter mais informações, consulte [definir regras para criptografar ou descriptografar mensagens de email no Office 365](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).|
 |**Mensagens criptografadas em S/MIME**|As regras podem apenas acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <br/><br/> As regras com condições que exigem a inspeção do conteúdo da mensagem ou ações que modificam o conteúdo da mensagem não podem ser processadas.|
@@ -113,6 +121,7 @@ Existem vários tipos de mensagens que transitam por uma organização. A tabela
 |**Mensagens de um**: mensagens criadas ou processadas pelo serviço de Unificação de mensagens, como caixa postal, fax, notificações de chamadas não atendidas e mensagens criadas ou encaminhadas usando o Microsoft Outlook Voice Access.|Sim|
 |**Mensagens anônimas**: mensagens enviadas por remetentes anônimos.|Sim|
 |**Ler relatórios**: relatórios gerados em resposta às solicitações de confirmação de leitura pelos remetentes. Os relatórios de leitura têm uma classe de mensagem de `IPM.Note*.MdnRead` ou `IPM.Note*.MdnNotRead` .|Sim|
+|
 
 ## <a name="what-else-should-i-know"></a>O que mais devo saber?
 

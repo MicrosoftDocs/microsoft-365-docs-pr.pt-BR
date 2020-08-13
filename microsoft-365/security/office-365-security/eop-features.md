@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: A tabela a seguir fornece uma lista dos recursos que estão disponíveis no serviço de filtragem de email hospedado da Proteção do Exchange Online (EOP).
-ms.openlocfilehash: 820f635e679be9d579ba94fc3288830dc6996a0e
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 5a882edd91e8502d7340bf86f74e8114be9cd07b
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617037"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652868"
 ---
 # <a name="eop-features"></a>Recursos EOP
 
@@ -26,9 +26,10 @@ A tabela a seguir fornece uma lista dos recursos que estão disponíveis no serv
 > [!TIP]
 > O [mapa do Microsoft 365 for Business](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) é um bom recurso para encontrar informações sobre os novos recursos do futuro. Para ter uma visão mais ampla sobre quais recursos estão disponíveis com os diferentes planos de assinatura da EOP, veja [Descrição do serviço de Proteção do Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
 
-|||
+****
+
+|Recurso|Descrição|
 |---|---|
-|**Recurso**|**Descrição**|
 |**Proteção antispam**||
 |Detecção de entrada de spam|Para obter mais informações, consulte [proteção antispam no Microsoft 365](anti-spam-protection.md). <br/><br/> Em ambientes da EOP autônoma, em que a EOP protege as caixas de correio locais do Exchange, é preciso configurar regras de fluxo de email (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP, de modo que a regra do lixo eletrônico possa mover as mensagens para a pasta de Lixo Eletrônico. Para obter detalhes, consulte [Configure standalone EOP to entregar spam para a pasta lixo eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)|
 |Detecção de saída de spam|A proteção antispam de saída está sempre habilitada se você usar o serviço para enviar emails de saída. Para obter mais informações, consulte [proteção contra spam de saída](outbound-spam-controls.md).|
@@ -93,3 +94,4 @@ A tabela a seguir fornece uma lista dos recursos que estão disponíveis no serv
 |Uma rede global com redundância geográfica de servidores|O EOP é executado em uma rede mundial de datacenters projetados para ajudar a fornecer a melhor disponibilidade. Para saber mais, veja a seção "datacenter da EOP" em [Visão geral do Exchange Online Protection](exchange-online-protection-overview.md).  |
 |Enfileiramento de mensagens quando o servidor local não consegue aceitar emails|As mensagens no adiamento permanecem em nossas filas por um dia. As tentativas de repetição de mensagens baseiam-se no tipo de erro recebido do sistema de mensagens do destinatário. Em média, as mensagens são repetidas a cada 5 minutos. Para saber mais, veja [Perguntas frequentes sobre mensagens enfileiradas, adiadas e retornadas do EOP](eop-queued-deferred-and-bounced-messages-faq.md).|
 |Criptografia de mensagem do Office 365 disponível como um serviço complementar|Para saber mais informações, consulte [Criptografia no Office 365](../../compliance/encryption.md).|
+|

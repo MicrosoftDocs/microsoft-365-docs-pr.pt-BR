@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre o nível de confiança de spam (SCL) que se aplica a mensagens no Exchange Online Protection (EOP).
-ms.openlocfilehash: bc3a1e7e4b3e5f737b8861c14e0fd2c3d0841940
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 7e8d706f89c5b16bd34ad074498e011dc5d74093
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208007"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656534"
 ---
 # <a name="spam-confidence-level-scl-in-eop"></a>SCL (nível de confiança de spam) no EOP
 
@@ -31,9 +31,10 @@ Nas organizações do Microsoft 365 com caixas de correio em organizações do E
 
 O que o SCL significa e as ações padrão executadas nas mensagens são descritas na tabela a seguir. Para obter mais informações sobre as ações que podem ser executadas em mensagens com base no veredicto de filtragem de spam, consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md).
 
-||||
+****
+
+|SCL|Definição|Ação padrão|
 |:---:|---|---|
-|**SCL**|**Definição**|**Ação padrão**|
 |-1|A mensagem ignorou a filtragem de spam. Por exemplo, a mensagem é de um remetente seguro, foi enviada a um destinatário seguro ou é de um servidor de origem de email na lista de IPs permitidos. Para obter mais informações, consulte [criar listas de remetentes seguros no EOP](create-safe-sender-lists-in-office-365.md).|Entregar a mensagem para a caixa de entrada do destinatário.|
 |0, 1|A filtragem de spam determinou que a mensagem não era spam.|Entregar a mensagem para a caixa de entrada do destinatário.|
 |5, 6|Filtragem de spam marcou a mensagem como **spam**|Entregar a mensagem na pasta Lixo Eletrônico do destinatário.|
@@ -46,6 +47,6 @@ Você pode usar regras de fluxo de emails (também conhecidas como regras de tra
 
 Semelhante ao SCL, o nível de reclamação em massa (BCL) identifica emails em massa inválidos (também conhecidos como _emails cinza_). Uma BCL maior indica que uma mensagem de email em massa é mais provável de gerar queixas (e, portanto, é mais provável de spam). Você configura o limite de BCL em políticas antispam. Para obter mais informações, consulte [Configure anti-spam Policies in EOP](configure-your-spam-filter-policies.md), [nível de reclamação em massa (BCL) no EOP)](bulk-complaint-level-values.md)e [qual é a diferença entre lixo eletrônico e email em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md).
 
-||
-|:-----|
+|<!-- -->|
+|---|
 |![O ícone curto do LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **New to Microsoft 365?** Descubra cursos de vídeo gratuitos para **profissionais de ti e administradores do Microsoft 365**, trazidos para você pelo LinkedIn Learning.|

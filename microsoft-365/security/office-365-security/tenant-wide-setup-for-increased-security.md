@@ -19,12 +19,12 @@ ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 ms.custom:
 - seo-marvel-apr2020
 description: Este tópico o orienta através da configuração recomendada para definições de todos os locatários que afetam a segurança do seu ambiente Microsoft 365.
-ms.openlocfilehash: 5e02a871385deb2bae9e788eacd772c08af1d972
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 821221e9a7602b7eaaf6850284468abd486cf501
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588047"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653552"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Configure seu Microsoft 365 locatário para maior segurança
 
@@ -38,9 +38,10 @@ A pontuação segura do Office 365 analisa a segurança da sua organização com
 
 O centro de segurança do Microsoft 365 inclui recursos que protegem o seu ambiente. Também inclui relatórios e painéis que você pode usar para monitorar e tomar medidas. Algumas áreas vêm com as configurações de política padrão. Algumas áreas não incluem políticas ou regras padrão. Visite estas políticas em gerenciamento de ameaças para ajustar as configurações de gerenciamento de ameaças para um ambiente mais seguro.
 
-||||
+****
+
+|Área|Inclui uma política padrão|Recomendação|
 |---|---|---|
-|**Área**|**Inclui uma política padrão**|**Recomendação**|
 |**Anti-phishing**|Sim|Se você tiver um domínio personalizado, configure a política anti-phishing padrão para proteger as contas de email de seus usuários mais valiosos, como seu CEO, e para proteger seu domínio. Revisar [políticas anti-phishing no Office 365](set-up-anti-phishing-policies.md) e consulte [Configure anti-phishing Policies in EOP](configure-anti-phishing-policies-eop.md) ou [Configure ATP anti-phishing Policies in Office 365](configure-atp-anti-phishing-policies.md).|
 |**Mecanismo Antimalware**|Sim| Edite a política padrão: <br/> &ensp;&ensp;* Filtro tipos de anexo comuns — selecione ativado <br/><br/> Você também pode criar políticas de filtro de malware personalizadas e aplicá-las a usuários, grupos ou domínios especificados em sua organização. <br/><br/> Mais informações: <br/> &ensp;&ensp;* [Proteção Antimalware](anti-malware-protection.md) <br/> &ensp;&ensp;* [Configurar políticas Antimalware](configure-anti-malware-policies.md)|
 |**Anexos Seguros da ATP**|Não| Na página principal de anexos seguros, proteja arquivos no SharePoint, no OneDrive e no Microsoft Teams marcando esta caixa: <br/> &ensp;&ensp;* Ativar a ATP para SharePoint, OneDrive e Microsoft Teams <br/><br/> Adicione uma nova política de anexo seguro com estas configurações: <br/> &ensp;&ensp;* Bloquear — bloquear emails e anexos atuais e futuros com malware detectado (escolha esta opção) <br/> &ensp;&ensp;* Habilitar redirecionamento — (Marque esta caixa e insira um endereço de email, como uma conta de administrador ou de quarentena) <br/> &ensp;&ensp;* Aplicar a seleção acima se a verificação de malware por anexos expirar ou ocorrer erro (marcar esta caixa) <br/> &ensp;&ensp;* Aplicado a — o domínio do destinatário é (selecione seu domínio) <br/><br/>Mais informações: [Configurar políticas de anexos seguros do Office 365 ATP](set-up-atp-safe-attachments-policies.md)|
@@ -56,9 +57,10 @@ O centro de segurança do Microsoft 365 inclui recursos que protegem o seu ambie
 
 Visite esses relatórios e painéis para saber mais sobre a integridade de seu ambiente. Os dados desses relatórios ficarão mais sofisticados, pois sua organização usa os serviços do Office 365. Por enquanto, familiarize-se com o que você pode monitorar e tomar ações. Para obter mais informações, consulte: [relatórios nos centros de segurança e conformidade do Microsoft 365](../../compliance/reports-in-security-and-compliance.md).
 
-|||
+****
+
+|Painel|Descrição|
 |---|---|
-|**Painel**|**Descrição**|
 |[Painel de gerenciamento de ameaças](security-dashboard.md)|Na seção **Gerenciamento de ameaças** da central de segurança, use este painel para ver as ameaças que já foram tratadas e como uma ferramenta útil para relatar os tomadores de decisões de negócios sobre quais recursos de investigação e resposta de ameaças já foram feitos para proteger sua empresa.|
 |[Explorador de Ameaças (ou detecções em tempo real)](threat-explorer.md)|Isso também está na seção **Gerenciamento de ameaças** da central de segurança. Se você estiver investigando ou experimentando um ataque contra o locatário, use o Explorer (ou detecções em tempo real) para analisar ameaças. O Explorer (e o relatório de detecções em tempo real) mostra o volume de ataques ao longo do tempo, e você pode analisar esses dados por famílias de ameaças, infraestrutura de atacante e muito mais. Você também pode marcar qualquer email suspeito para a lista de incidentes.|
 |Relatórios — painel|Na seção **relatórios** da central de segurança, exiba relatórios de auditoria para as organizações do SharePoint Online e do Exchange Online. Você também pode acessar os relatórios de entrada do usuário do Azure Active Directory (Azure AD), relatórios de atividades do usuário e o log de auditoria do Azure AD na página **exibir relatórios** .|
@@ -70,9 +72,10 @@ Visite esses relatórios e painéis para saber mais sobre a integridade de seu a
 
 Muitos dos controles de segurança e proteção no centro de administração do Exchange também estão incluídos na central de segurança. Não é necessário configurá-los nos dois lugares. Aqui estão algumas configurações adicionais recomendadas.
 
-||||
+****
+
+|Área|Inclui uma política padrão|Recomendação|
 |---|---|---|
-|**Área**|**Inclui uma política padrão**|**Recomendação**|
 |**Fluxo de emails** (regras de fluxo de emails, também conhecidas como regras de transporte)|Não|Adicione uma regra de fluxo de emails para ajudar a proteger contra o ransomware, bloqueando tipos de arquivos executáveis e tipos de arquivo do Office que contenham macros. Para obter mais informações, consulte [usar regras de fluxo de email para inspecionar anexos de mensagens no Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments). <br/><br/> Confira estes tópicos adicionais: <br/>* [Proteger contra ransomware](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/secure-your-business-data#ransomware)<br/>* [Proteção contra malware e ransomware no Office 365](https://docs.microsoft.com/Office365/Enterprise/office-365-malware-and-ransomware-protection) <br/>* [Recuperar de um ataque de ransomware no Office 365](recover-from-ransomware.md) <br/><br/> Crie uma regra de fluxo de emails para impedir o encaminhamento automático de emails para domínios externos. Para obter mais informações, consulte [mitigating Client external Forwarding Rules with Secure Score](https://docs.microsoft.com/archive/blogs/office365security/mitigating-client-external-forwarding-rules-with-secure-score). <br/><br/> Mais informações: [regras de fluxo de emails (regras de transporte) no Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)|
 |**Habilitar a autenticação moderna**|Não|A autenticação moderna é um pré-requisito para usar a MFA (autenticação multifator). A MFA é recomendada para proteger o acesso a recursos de nuvem, incluindo email. <br/><br/> Confira estes tópicos: <br/>* [Habilitar ou desabilitar a autenticação moderna no Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) <br/>* [Skype for Business Online: habilitar seu locatário para autenticação moderna](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx) <br/><br/> A autenticação moderna está habilitada por padrão para clientes do Office 2016, SharePoint Online e OneDrive for Business. <br/><br/> Mais informações: [como a autenticação moderna funciona para os aplicativos cliente do office 2013 e do office 2016](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)|
 |
@@ -85,9 +88,10 @@ Sites de equipe do SharePoint configurados no nível da linha de base permitem c
 
 Para dar suporte às metas de proteção de linha de base, configure as políticas de compartilhamento em todo o locatário conforme recomendado aqui. As configurações de compartilhamento para sites individuais podem ser mais restritivas que essa política de todo o locatário, mas não mais permissivas.
 
-||||
+****
+
+|Área|Inclui uma política padrão|Recomendação|
 |---|---|---|
-|**Área**|**Inclui uma política padrão**|**Recomendação**|
 |**Compartilhamento** (SharePoint Online e onedrive for Business)|Sim|O compartilhamento externo está habilitado por padrão. Estas configurações são recomendadas: <br/>* Permitir o compartilhamento com usuários externos autenticados e o uso de links de acesso anônimo (configuração padrão). <br/> * Os links de acesso anônimo expiram neste número de dias. Insira um número, se desejado, como 30 dias. <br/>* Tipo de link padrão — selecione interno (somente pessoas na organização). Os usuários que desejam compartilhar usando links anônimos devem escolher essa opção no menu compartilhamento. <br/><br/> Mais informações: [visão geral do compartilhamento externo](https://docs.microsoft.com/sharepoint/external-sharing-overview)|
 |
 

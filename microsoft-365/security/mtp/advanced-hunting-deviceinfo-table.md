@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 526e210a472862593f2652e9b2b21957702c48f0
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 342e5747f2c59022ffef76f30e4845f26550c88a
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899274"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649080"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -38,16 +38,16 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `DeviceId` | string | Identificador exclusivo da máquina no serviço |
+| `DeviceId` | cadeia de caracteres | Identificador exclusivo da máquina no serviço |
 | `DeviceName` | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) da máquina |
 | `ClientVersion` | cadeia de caracteres | Versão do agente de ponto de extremidade ou do sensor em execução no computador |
-| `PublicIP` | string | Endereço IP público usado pela máquina integrada para se conectar ao serviço do Microsoft defender ATP. Esse pode ser o endereço IP da máquina, um dispositivo NAT ou um proxy |
+| `PublicIP` | cadeia de caracteres | Endereço IP público usado pela máquina integrada para se conectar ao serviço do Microsoft defender ATP. Esse pode ser o endereço IP da máquina, um dispositivo NAT ou um proxy |
 | `OSArchitecture` | string | Arquitetura do sistema operacional em execução no computador. |
 | `OSPlatform` | string | Plataforma do sistema operacional em execução no computador. Isso indica sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7 |
-| `OSBuild` | string | Versão de compilação do sistema operacional em execução no computador |
+| `OSBuild` | cadeia de caracteres | Versão de compilação do sistema operacional em execução no computador |
 | `IsAzureADJoined` | booliano | Indicador booliano de que o computador ingressou no Azure Active Directory |
-| `LoggedOnUsers` | string | Lista de todos os usuários que são registrados no computador no momento do evento no formato de matriz JSON |
-| `RegistryDeviceTag` | string | Marca de máquina adicionada por meio do registro |
+| `LoggedOnUsers` | cadeia de caracteres | Lista de todos os usuários que são registrados no computador no momento do evento no formato de matriz JSON |
+| `RegistryDeviceTag` | cadeia de caracteres | Marca de máquina adicionada por meio do registro |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, esta coluna deve ser usada em conjunto com as colunas DeviceName e timestamp |
 | `OSVersion` | string | Versão do sistema operacional em execução no computador. |
 | `MachineGroup` | string | Grupo de computadores da máquina. Esse grupo é usado pelo controle de acesso baseado em função para determinar o acesso ao computador |
@@ -56,6 +56,6 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 - [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Buscar por ameaças em dispositivos e emails](advanced-hunting-query-emails-devices.md)
+- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como configurar URLs bloqueadas personalizadas para usuários e não reescrever lista de URLs para um grupo de usuários nas políticas de links seguros de ATP do Office 365.
-ms.openlocfilehash: 7d7c8ad3f5ae0f6a79bd839151ed09628e7f2dfd
-ms.sourcegitcommit: df59c83174d845b8ddec48b9be2659fbfb58bb7f
+ms.openlocfilehash: 7909e91b96f8bdbc38ffdceafe11fa47f5ebe897
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46517468"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656964"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>Configurar uma lista personalizada de URLs do não Rewrite usando links seguros de ATP
 
@@ -41,11 +41,12 @@ A proteção de links seguros de ATP usa várias listas, incluindo a lista de UR
 
 Para editar (ou definir) políticas ATP, você deve ter uma função apropriada atribuída. A tabela a seguir inclui alguns exemplos. Para saber mais, confira [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
 
-|Role  |Onde/como a atribuição  |
-|---------|---------|
-|administrador global |Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para saber mais.)         |
-|Administrador de Segurança |Centro de administração do Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-|Gerenciamento de Organização do Exchange Online |Centro de administração do Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)) |
+|Role|Onde/como a atribuição|
+|---|---|
+|administrador global|Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para saber mais.)|
+|Administrador de Segurança|Centro de administração do Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
+|Gerenciamento de Organização do Exchange Online|Centro de administração do Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
+|
 
 > [!TIP]
 > Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
@@ -83,9 +84,12 @@ Para editar (ou definir) políticas ATP, você deve ter uma função apropriada 
 
 A tabela a seguir lista exemplos do que você pode inserir e o efeito que essas entradas têm.
 
+****
+
 |Entrada de exemplo|O que ele faz|
-|:-----|:-----|
+|---|---|
 |`contoso.com`|Permite que os destinatários visitem um site como `https://contoso.com` , mas não subdomínios ou caminhos.|
 |`*.contoso.com/*`|Permite que os destinatários visitem um domínio, subdomínios e caminhos, como `https://www.contoso.com` , `https://www.contoso.com` , `https://maps.contoso.com` ou `https://www.contoso.com/a` . <br/><br/> Essa entrada é inerentemente melhor do que `*contoso.com*` porque não inclui sites potencialmente fraudulentos, como `https://www.falsecontoso.com` ou`https://www.false.contoso.completelyfalse.com`|
 |`https://contoso.com/a`|Permite que destinatários específicos visitem um site como `https://contoso.com/a` , mas não subcaminhos como`https://contoso.com/a/b`|
 |`https://contoso.com/a/*`|Permite que destinatários específicos visitem um site como `https://contoso.com/a` e subcaminhos como`https://contoso.com/a/b`|
+|

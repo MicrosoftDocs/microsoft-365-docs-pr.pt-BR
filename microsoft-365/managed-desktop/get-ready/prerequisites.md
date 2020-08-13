@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c958101e1f3268c706c27df6fc9e21e9914b3f46
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 041e7dc89ddd42326ce0a5040364306e26fd2413
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530278"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653383"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Pré-requisitos da Área de trabalho gerenciada da Microsoft
 
@@ -48,10 +48,10 @@ O Microsoft Managed desktop requer determinadas opções de licença para funcio
 
 |Opção de licença |Disponível em *qualquer* um desses produtos de licença |Como a área de trabalho gerenciada da Microsoft o usa|
 |-------------|-------------|-------------|
-|Azure Active Directory Premium P1     |-Microsoft 365 e5<br>-Microsoft 365 E3 + Microsoft 365 *E5* Security Add-on<br>– Enterprise Mobility + Security e5<br>– Enterprise Mobility + Security E3<br>-Azure Active Directory Premium P1|  Fornece acesso aos serviços do Microsoft Cloud; permite que o AutoPilot Registre dispositivos      |
+|Azure Active Directory Premium P2     |-Microsoft 365 e5<br>-Microsoft 365 E3 + Microsoft 365 *E5* Security Add-on<br>– Enterprise Mobility + Security e5<br>– Enterprise Mobility + Security E3<br>-Microsoft Azure Active Directory Premium P2|  Fornece acesso aos serviços do Microsoft Cloud; permite que o AutoPilot Registre dispositivos      |
 |Microsoft Intune | -Microsoft 365 e5<br>-Microsoft 365 E3 + Microsoft 365 *E5* Security Add-on<br>– Enterprise Mobility + Security e5<br>– Enterprise Mobility + Security E3<br>– Microsoft Intune  |  Necessário para registrar dispositivos, implantar atualizações e gerenciar dispositivos       |
 |Windows 10 Enterprise  |-Microsoft 365 e5<br>-Microsoft 365 E3 + Microsoft 365 *E5* Security Add-on<br>– Windows 10 Enterprise E3<br>– Windows 10 Enterprise e5 | Oferece recursos da empresa do Windows 10       |
-|Proteção avançada contra ameaças do Microsoft Defender | -Microsoft 365 e5<br>-Microsoft 365 E3 + Microsoft 365 *E5* Security Add-on<br>– Windows 10 Enterprise e5<br>– Proteção avançada contra ameaças do Microsoft defender   |  Oferece detecção, monitoramento, alerta e resposta a ameaças  |
+|Proteção Avançada contra Ameaças do Microsoft Defender | -Microsoft 365 e5<br>-Microsoft 365 E3 + Microsoft 365 *E5* Security Add-on<br>– Windows 10 Enterprise e5<br>– Proteção avançada contra ameaças do Microsoft defender   |  Oferece detecção, monitoramento, alerta e resposta a ameaças  |
 |Microsoft 365 Apps para Grandes Empresas  |-Microsoft 365 e5<br>-Microsoft 365 E3<br>-Office 365 e5<br>-Office 365 E3| Ativa ferramentas de colaboração e de produtividade do Office    |
 
 > [!TIP]

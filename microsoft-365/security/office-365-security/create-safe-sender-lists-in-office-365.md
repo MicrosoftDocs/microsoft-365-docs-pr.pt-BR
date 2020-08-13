@@ -16,12 +16,12 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre as opções disponíveis e preferidas para permitir mensagens de entrada no Exchange Online Protection (EOP).
-ms.openlocfilehash: 9ca1fc3911dd3417304d0d1de6923408373bc33c
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
+ms.openlocfilehash: bbb25e1c499e84a1af34d0f0a52a81f1470aadfd
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005853"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652976"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Criar listas de remetentes seguros no EOP
 
@@ -37,7 +37,14 @@ As listas de remetentes seguros disponíveis são descritas na lista a seguir na
 As regras de fluxo de emails permitem maior flexibilidade para garantir que apenas as mensagens corretas sejam permitidas. As listas de domínios permitidos e remetentes permitidos em políticas antispam não são tão seguras quanto a lista de permissões de IP, porque o domínio de email do remetente é facilmente falsificado. No entanto, a lista de IPs permitidos também apresenta um risco, pois o email de _qualquer_ domínio enviado desse endereço IP ignorará a filtragem de spam.
 
 > [!IMPORTANT]
-> • Tenha cuidado para monitorar atentamente *todas as* exceções que você deseja filtrar usando as listas de remetentes seguros. <br/><br/> • Embora você possa usar listas de remetentes confiáveis para ajudar com falsos positivos (bons emails marcados como spam), considere o uso de listas de remetentes seguros como uma solução temporária que deve ser evitada se possível. Não recomendamos o gerenciamento de falsos positivos usando as listas de remetentes seguros, pois as exceções à filtragem de spam podem abrir sua organização para falsificar e outros ataques. Se você insistir em usar listas de remetentes confiáveis para gerenciar falsos positivos, precisará estar atento e manter o tópico [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md) em mãos. <br/><br/> • Para permitir que um domínio envie emails não autenticados (ignora a proteção contra falsificação), mas não ignore verificações antispam e antimalware, você pode adicioná-lo à [lista de remetentes confiáveis do AllowedToSpoof](walkthrough-spoof-intelligence-insight.md) <br/><br/> • O EOP e o Outlook inspecionam Propriedades de mensagens diferentes para determinar o remetente da mensagem. Para obter mais informações, consulte a seção [Considerações sobre email em massa](#considerations-for-bulk-email) , posteriormente neste tópico.
+>
+> - Tenha cuidado para monitorar atentamente *todas as* exceções que você deseja filtrar usando as listas de remetentes seguros.
+>
+> - Embora você possa usar listas de remetentes confiáveis para ajudar com falsos positivos (bons emails marcados como spam), considere o uso de listas de remetentes seguros como uma solução temporária que deve ser evitada, se possível. Não recomendamos o gerenciamento de falsos positivos usando as listas de remetentes seguros, pois as exceções à filtragem de spam podem abrir sua organização para falsificar e outros ataques. Se você insistir em usar listas de remetentes confiáveis para gerenciar falsos positivos, precisará estar atento e manter o tópico [relatar mensagens e arquivos para a Microsoft](report-junk-email-messages-to-microsoft.md) em mãos.
+>
+> - Para permitir que um domínio envie emails não autenticados (ignora a proteção contra falsificação), mas não ignore verificações antispam e antimalware, você pode adicioná-lo à [lista de remetentes confiáveis do AllowedToSpoof](walkthrough-spoof-intelligence-insight.md)
+>
+> - EOP e Outlook inspecionam Propriedades de mensagem diferentes para determinar o remetente da mensagem. Para obter mais informações, consulte a seção [Considerações sobre email em massa](#considerations-for-bulk-email) , posteriormente neste tópico.
 
 Por outro lado, você também tem várias opções para bloquear emails de fontes específicas usando _listas de remetentes bloqueados_. Para obter mais informações, confira [Criar listas de bloqueios de remetentes no EOP](create-block-sender-lists-in-office-365.md).
 
@@ -60,7 +67,12 @@ O exemplo a seguir supõe que você precisa de emails do contoso.com para ignora
      Use essa configuração se o domínio de envio não tiver autenticação. Seja o mais restritivo possível quando se trata dos endereços IP de origem na lista de IPs permitidos. Recomendamos um intervalo de endereços IP de/24 ou menos (menos é melhor). Não use intervalos de endereços IP que pertençam aos serviços de consumidor (por exemplo, outlook.com) ou infraestruturas compartilhadas.
 
    > [!IMPORTANT]
-   > <ul><li>Nunca configure as regras de fluxo de email configurar *somente* com o domínio do remetente como a condição de ignorar a filtragem de spam. Isso aumentará *significativamente* a probabilidade de que os atacantes possam falsificar o domínio de envio (ou representar o endereço de email completo), ignorar todos os filtros de spam e ignorar as verificações de autenticação do remetente para que a mensagem chegue na caixa de entrada do destinatário.</li><li>Não use domínios que você possui (também conhecidos como domínios aceitos) ou domínios populares (por exemplo, microsoft.com) como condições em regras de fluxo de email. Isso é considerado alto risco, pois cria oportunidades para que os invasores enviem emails que, caso contrário, seriam filtrados.</li><li>Se você permitir um endereço IP que está atrás de um gateway NAT (conversão de endereço de rede), precisará saber os servidores envolvidos no pool NAT para saber o escopo da lista de IPs permitidos. Os endereços IP e os participantes de NAT podem alterar. Você precisa verificar periodicamente suas entradas da lista de IPs permitidos como parte de seus procedimentos de manutenção padrão.</li></ul>
+   >
+   > - Nunca configure as regras de fluxo de email configurar *somente* com o domínio do remetente como a condição de ignorar a filtragem de spam. Isso aumentará *significativamente* a probabilidade de que os atacantes possam falsificar o domínio de envio (ou representar o endereço de email completo), ignorar todos os filtros de spam e ignorar as verificações de autenticação do remetente para que a mensagem chegue na caixa de entrada do destinatário.
+   >
+   > - Não use domínios que você possui (também conhecidos como domínios aceitos) ou domínios populares (por exemplo, microsoft.com) como condições em regras de fluxo de email. Isso é considerado alto risco, pois cria oportunidades para que os invasores enviem emails que, caso contrário, seriam filtrados.
+   >
+   > - Se você permitir um endereço IP que está atrás de um gateway NAT (conversão de endereço de rede), precisará saber os servidores envolvidos no pool NAT para saber o escopo da lista de IPs permitidos. Os endereços IP e os participantes de NAT podem alterar. Você precisa verificar periodicamente suas entradas da lista de IPs permitidos como parte de seus procedimentos de manutenção padrão.
 
 3. **Condições opcionais**:
 
@@ -108,7 +120,10 @@ A opção menos desejável é usar a lista de remetentes permitidos ou a lista d
 O limite máximo para essas listas é de aproximadamente 1000 entradas; no entanto, você poderá inserir 30 entradas no Portal. Você deve usar o PowerShell para adicionar mais de 30 entradas.
 
 > [!CAUTION]
-> <ul><li>Este método cria um alto risco de invasores enviando emails com êxito para a caixa de entrada que seria filtrada.</li><li>Não use domínios que você possui (também conhecidos como domínios aceitos) ou domínios populares (por exemplo, microsoft.com) em listas de domínios permitidos.</li></ul>
+>
+> - Este método cria um alto risco de invasores enviando emails com êxito para a caixa de entrada que seria filtrada.
+>
+> - Não use domínios que você possui (também conhecidos como domínios aceitos) ou domínios populares (por exemplo, microsoft.com) em listas de domínios permitidos.
 
 ## <a name="considerations-for-bulk-email"></a>Considerações para email em massa
 

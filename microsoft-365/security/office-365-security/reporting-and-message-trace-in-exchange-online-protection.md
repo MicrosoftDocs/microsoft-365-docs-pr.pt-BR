@@ -14,12 +14,12 @@ ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 ms.custom:
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá sobre relatórios e ferramentas de solução de problemas disponíveis para os administradores do Microsoft Exchange Online Protection (EOP).
-ms.openlocfilehash: b33d343d9b7f02e32619031d3ecf72ad12f891fd
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: ddf8c021681bb600548b134d678d1e0fb0f29d0c
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588163"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46652796"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Relatórios e rastreamento de mensagens no EOP
 
@@ -75,9 +75,10 @@ Rastreie alterações específica feitas pelos administradores na sua organizaç
 
 A tabela a seguir descreve quando dados de relatórios e rastreamento de mensagens do EOP estão disponíveis e por quanto tempo.
 
-||||
-|:-----|:-----|:-----|
-|**Tipo de relatório**|**Dados disponíveis por (período retrospectivo)**|**Latência**|
+****
+
+|Tipo de relatório|Dados disponíveis por (período retrospectivo)|Latência|
+|---|---|---|
 |Relatórios de Resumo de proteção de email|90 dias|A agregação de dados de mensagens geralmente é concluída em 24 a 48 horas. Algumas pequenas alterações agregadas progressivas podem ocorrer por até 5 dias.|
 |Relatórios de detalhes de proteção de email|90 dias|Para obter dados detalhados de um período menor que 7 dias, os dados deverão aparecer no prazo de 24 horas, mas a operação talvez não seja concluída em até 48 horas. Algumas pequenas alterações incrementais podem ocorrer por até 5 dias. <br/><br/> Para exibir relatórios detalhados de mensagens ocorridas em um período superior a sete dias, os resultados podem demorar umas poucas horas.|
 |Dados de rastreamento de mensagem|90 dias|Ao rastrear mensagens ocorridas em um período menor que 7 dias, as mensagens devem aparecer no intervalo de 5 a 30 minutos.<br/><br/> Ao rastrear mensagens ocorridas em um período superior a 7 dias, os resultados podem demorar umas poucas horas.|

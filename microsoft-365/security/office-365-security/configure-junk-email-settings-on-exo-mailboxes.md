@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online. Muitas dessas configurações estão disponíveis para usuários no Outlook ou no Outlook na Web.
-ms.openlocfilehash: 4e40e3fa2186022a64c8ccdf66f62db24b9f9794
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 5da4aad41f5c5f00f65fa1ceb4fc4c0fad773779
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755255"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653036"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online
 
@@ -42,9 +42,9 @@ Quando a regra de lixo eletrônico está habilitada na caixa de correio, o EOP �
 Os administradores podem usar o PowerShell do Exchange Online para desabilitar, habilitar e exibir o status da regra de lixo eletrônico em caixas de correio. Os administradores também podem usar o PowerShell do Exchange Online para configurar entradas na coleção de lista segura em caixas de correio (a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados).
 
 > [!NOTE]
-> As mensagens de remetentes que os usuários adicionaram às suas próprias listas de remetentes confiáveis irão ignorar a filtragem de conexão como parte do EOP (o SCL é-1). Para impedir que os usuários adicionem entradas à sua lista de remetentes confiáveis no Outlook, use a política de grupo, conforme mencionado na seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) , posteriormente neste tópico. A filtragem de política, filtragem de conteúdo e verificações de proteção avançada contra ameaças (ATP) ainda serão aplicadas às mensagens.
+> As mensagens de remetentes que os usuários adicionaram às suas próprias listas de remetentes confiáveis irão ignorar a filtragem de conexão como parte do EOP (o SCL é-1). Para impedir que os usuários adicionem entradas à sua lista de remetentes confiáveis no Outlook, use a política de grupo, conforme mencionado na seção  [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) , posteriormente neste tópico. A filtragem de política, filtragem de conteúdo e verificações de proteção avançada contra ameaças (ATP) ainda serão aplicadas às mensagens.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Você só pode usar o PowerShell do Exchange Online para executar estes procedimentos. Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -80,9 +80,9 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 Para informações detalhadas de sintaxes e de parâmetros, consulte [set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration).
 
 > [!NOTE]
-> 
+>
 > - Se o usuário nunca abriu a caixa de correio, você pode receber um erro ao executar o comando anterior. Para suprimir esse erro para operações em massa, adicione `-ErrorAction SlientlyContinue` ao comando **set-MailboxJunkEmailConfiguration** .
-> 
+>
 > - Mesmo que você desabilite a regra de lixo eletrônico, o filtro de lixo eletrônico do Outlook (dependendo de como ela é configurada) também pode determinar se uma mensagem é spam e se pode mover mensagens para a caixa de entrada ou pasta de lixo eletrônico com base no seu próprio spam veredicto e a coleção SafeList na caixa de correio. Para obter mais informações, consulte a seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) neste tópico.
 
 ### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
@@ -99,9 +99,10 @@ Para verificar se você ativou ou desabilitou com êxito a regra de lixo eletrô
 
 A coleção de lista segura em uma caixa de correio inclui a lista de remetentes confiáveis, a lista de destinatários confiáveis e a lista de remetentes bloqueados. Por padrão, os usuários podem configurar a coleção de listas seguras em suas próprias caixas de correio no Outlook ou no Outlook na Web. Os administradores podem usar os parâmetros correspondentes no cmdlet **set-MailboxJunkEmailConfiguration** para configurar a coleção de lista segura na caixa de correio de um usuário. Esses parâmetros são descritos na tabela a seguir.
 
-|||
+****
+
+|Parâmetro no set-MailboxJunkEmailConfiguration|Configuração do Outlook na Web|
 |---|---|
-|**Parâmetro no set-MailboxJunkEmailConfiguration**|**Configuração do Outlook na Web**|
 |_BlockedSendersAndDomains_|**Mover email destes remetentes ou domínios para minha pasta lixo eletrônico**|
 |_ContactsTrusted_|**Confiar em emails de meus contatos**|
 |_TrustedListsOnly_|**Apenas confiar em emails de endereços em minha lista de remetentes confiáveis e domínios e listas de emails confiáveis**|
@@ -120,7 +121,7 @@ Para configurar a coleção de lista segura em uma caixa de correio, use a segui
 Set-MailboxJunkEmailConfiguration <MailboxIdentity> -BlockedSendersAndDomains <EmailAddressesOrDomains | $null> -ContactsTrusted <$true | $false> -TrustedListsOnly <$true | $false> -TrustedSendersAndDomains  <EmailAddresses | $null>
 ```
 
-Para inserir vários valores e substituir quaisquer entradas existentes para os parâmetros _BlockedSendersAndDomains_ e _TrustedSendersAndDomains_ , use a seguinte sintaxe: `"<Value1>","<Value2>"...` . Para adicionar ou remover um ou mais valores sem afetar outras entradas existentes, use a seguinte sintaxe:`@{Add="<Value1>","<Value2>"... ; Remove="<Value3>","<Value4>...}`
+Para inserir vários valores e substituir quaisquer entradas existentes para os parâmetros _BlockedSendersAndDomains_ e _TrustedSendersAndDomains_ , use a seguinte sintaxe: `"<Value1>","<Value2>"...` . Para adicionar ou remover um ou mais valores sem afetar outras entradas existentes, use a seguinte sintaxe: `@{Add="<Value1>","<Value2>"... ; Remove="<Value3>","<Value4>...}`
 
 Este exemplo configura as seguintes configurações para a coleção de lista segura na caixa de correio de Ori Epstein:
 
@@ -143,11 +144,11 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 Para informações detalhadas de sintaxes e de parâmetros, consulte [set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration).
 
 > [!NOTE]
-> 
+>
 > - Se o usuário nunca abriu a caixa de correio, você pode receber um erro ao executar os comandos anteriores. Para suprimir esse erro para operações em massa, adicione `-ErrorAction SlientlyContinue` ao comando **set-MailboxJunkEmailConfiguration** .
-> 
+>
 > - Mesmo se a regra de lixo eletrônico estiver desabilitada na caixa de correio, você ainda poderá configurar a coleção de listas seguras e o filtro de lixo eletrônico do Outlook poderá mover mensagens para a caixa de entrada ou para a pasta lixo eletrônico. Para obter mais informações, consulte a seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) neste tópico.
-> 
+>
 > - O filtro de lixo eletrônico do Outlook tem configurações de coleção de listas seguras adicionais (por exemplo, **adicionar automaticamente pessoas que eu email à lista de remetentes confiáveis**). Para obter mais informações, consulte [usar filtros de lixo eletrônico para controlar quais mensagens você vê](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077).
 
 ### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?

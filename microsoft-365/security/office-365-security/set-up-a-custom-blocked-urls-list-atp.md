@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como configurar uma lista de URLs bloqueadas para sua organização usando a proteção avançada contra ameaças do Office 365.
-ms.openlocfilehash: 288aea848836a56108872c0e4d36d01f4d59ec42
-ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
+ms.openlocfilehash: 5f863a3ba61278d0bec5304034ed75d343f93c77
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533806"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656642"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-atp-safe-links"></a>Configurar uma lista de URLs bloqueadas personalizada usando links seguros de ATP
 
@@ -45,11 +45,14 @@ Os [links seguros de ATP no Office 365](atp-safe-links.md) usam várias listas, 
 
 Para editar (ou definir) políticas ATP, você deve receber uma das funções descritas na tabela a seguir:
 
+****
+
 |Role|Onde/como a atribuição|
-|---------|---------|
+|---|---|
 |administrador global|Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para saber mais.)|
 |Administrador de Segurança|Centro de administração do Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
 |Gerenciamento de Organização do Exchange Online|Centro de administração do Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>ou <br>  Cmdlets do PowerShell (consulte [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
+|
 
 > [!TIP]
 > Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
@@ -78,13 +81,15 @@ Ao adicionar URLs à sua lista, tenha em mente os seguintes pontos:
 
 - Você pode incluir até três asteriscos curinga ( \* ) por URL. A tabela a seguir lista alguns exemplos do que você pode inserir e o efeito que essas entradas têm.
 
+****
+
 |Entrada de exemplo|O que ele faz|
-|:-----|:-----|
+|---|---|
 |`contoso.com` ou `*contoso.com*`|Bloqueia o domínio, subdomínios e caminhos, como `https://www.contoso.com` , `https://sub.contoso.com` e`https://contoso.com/abc`|
 |`https://contoso.com/a`|Bloqueia um site `https://contoso.com/a` , mas não outros subcaminhos como`https://contoso.com/a/b`|
 |`https://contoso.com/a*`|Bloqueia um site `https://contoso.com/a` e subcaminhos adicionais, como`https://contoso.com/a/b`|
 |`https://toys.contoso.com*`|Bloqueia um subdomínio ("Toys" nesse caso), mas permite cliques para outras URLs de domínio (como `https://contoso.com` ou `https://home.contoso.com` ).|
-
+|
 
 > [!NOTE]
 > Por padrão, você só pode adicionar URLs 500 à lista de URLs bloqueadas na política padrão do Office 365 ATP Safe links.
