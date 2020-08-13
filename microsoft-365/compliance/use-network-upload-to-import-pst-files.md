@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: 'Para administradores: saiba como usar o carregamento de rede para importar arquivos PST em massa para as caixas de correio dos usuários no Microsoft 365.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7c8621859d04f44b58719a86b4c159f8379b961
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 14b70c0ab219f1d6153ceef601e3b4b5b4c76d8a
+ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127328"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46641626"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-microsoft-365"></a>Use o carregamento de rede para importar arquivos PST da sua organização para o Microsoft 365
 
@@ -117,16 +117,16 @@ A primeira etapa consiste em baixar e instalar a ferramenta AzCopy, que é a fer
     
     ![Copie a URL SAS e baixe a ferramenta AzCopy na página Importar dados](../media/74411014-ec4b-4e25-9065-404c934cce17.png)
   
-    a. Na etapa 2, clique em **Mostrar URL SAS de carregamento de rede**. Quando a URL SAS for exibida, clique em **Copiar para área de transferência** e, em seguida, cole-a e salve-a em um arquivo para que possa ser acessado mais tarde.
+    1. Na etapa 2, clique em **Mostrar URL SAS de carregamento de rede**. Quando a URL SAS for exibida, clique em **Copiar para área de transferência** e, em seguida, cole-a e salve-a em um arquivo para que possa ser acessado mais tarde.
     
-    b. Na etapa 3, clique em **Baixa Azure AzCopy** para baixar e instalar a ferramenta AzCopy. Na janela pop-up, clique em **Executar** para instalar o AzCopy.. 
+    1. Na etapa 3, clique em **Baixa Azure AzCopy** para baixar e instalar a ferramenta AzCopy. Na janela pop-up, clique em **Executar** para instalar o AzCopy.. 
     
-> [!NOTE]
-> Você pode deixar a página ** Importar dados** aberta (caso precise copiar novamente a URL SAS) ou clicar em **Cancelar** para fechá-la. 
+   > [!NOTE]
+   > Você pode deixar a página ** Importar dados** aberta (caso precise copiar novamente a URL SAS) ou clicar em **Cancelar** para fechá-la. 
  
 ## <a name="step-2-upload-your-pst-files-to-office-365"></a>Etapa 2: Carregar os arquivos PST no Office 365
 
-Agora, você está pronto para usar a ferramenta AzCopy.exe para carregar arquivos PST no Office 365. Essa ferramenta carrega e armazena arquivos no local de armazenamento do Azure na nuvem da Microsoft. Como explicado anteriormente, o local de armazenamento do Azure para o qual você carrega seus arquivos PST está localizado no mesmo datacenter reside da Microsoft em que a sua organização está localizada. Para concluir essa etapa, você deve colocar os arquivos PST em um compartilhamento de arquivos ou servidor de arquivos da organização. Esse local é conhecido como diretório de origem no procedimento a seguir. Sempre que executar a ferramenta AzCopy, você pode especificar um diretório de origem diferente. 
+Agora, você está pronto para usar a ferramenta AzCopy.exe para carregar arquivos PST no Office 365. Essa ferramenta carrega e armazena arquivos no local de armazenamento do Azure na nuvem da Microsoft. Como explicado anteriormente, o local de Armazenamento do Azure no qual você carrega seus arquivos PST está localizado no mesmo Data Center da Microsoft em que a sua organização está localizada. Para concluir essa etapa, você deve colocar os arquivos PST em um compartilhamento de arquivos ou servidor de arquivos da organização. Esse local é conhecido como diretório de origem no procedimento a seguir. Sempre que executar a ferramenta AzCopy, você pode especificar um diretório de origem diferente. 
 
 > [!NOTE]
 > Conforme mencionado anteriormente, recomendamos que os arquivos PST carregados para o local de armazenamento do Azure não tenham mais de 20 GB. Arquivos PST com mais de 20 GB podem afetar o desempenho do processo de importação de PST iniciado na etapa 6.
@@ -146,7 +146,7 @@ Agora, você está pronto para usar a ferramenta AzCopy.exe para carregar arquiv
  
     A tabela a seguir descreve os parâmetros AzCopy.exe os valores necessários.  As informações obtidas nas etapas anteriores são usadas nos valores desses parâmetros.
     
-    |**Parâmetro**|**Descrição**|**Exemplo**|
+    | Parâmetro | Descrição | Exemplo |
     |:-----|:-----|:-----|
     | `/Source:` <br/> |Especifica o diretório de origem na organização que contém os arquivos PST a serem carregados no Office365.  <br/> Certifique-se de colocar o valor deste parâmetro entre aspas duplas (" ").  <br/> | `/Source:"\\FILESERVER01\PSTs"` <br/> |
     | `/Dest:` <br/> |Especifica a URL SAS obtida na Etapa 1.  <br/> Certifique-se de colocar o valor deste parâmetro entre aspas duplas (" ").<br/><br/>**Observação:** se usar o URL da SAS em um arquivo de script ou em lote, você precisará tomar cuidado com determinados caracteres que precisem ser escapados. Por exemplo, você precisa alterar `%` para `%%` e alterar `&`pata `^&`.<br/><br/>**Dica:** (Opcional) Você pode especificar uma subpasta no local de armazenamento do Azure para carregar os arquivos PST. Para fazer isso, adicione um local de subpasta (após "ingestiondata") na URL SAS. O primeiro exemplo não especifica uma subpasta. Isso significa que os PSTs serão carregados na raiz (chamada *ingestiondata* ) do local de armazenamento do Azure. O segundo exemplo carrega os arquivos PST para uma subpasta (chamada  *PSTFiles*) na raiz do local de armazenamento do Azure.  <br/> | `/Dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"` <br/> Ou  <br/>  `/Dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata/PSTFiles?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"` <br/> |
@@ -208,7 +208,7 @@ Depois de carregar os arquivos PST no local de armazenamento do Azure para a sua
 
 2. Abrir ou salvar o arquivo CSV no computador local. O exemplo a seguir mostra um arquivo de mapeamento para Importação de PST concluído (aberto no Bloco de notas). É muito mais fácil usar o Microsoft Excel para editar o arquivo CSV.
 
-    ```text
+    ```console
     Workload,FilePath,Name,Mailbox,IsArchive,TargetRootFolder,ContentCodePage,SPFileContainer,SPManifestContainer,SPSiteUrl
     Exchange,,annb.pst,annb@contoso.onmicrosoft.com,FALSE,/,,,,
     Exchange,,annb_archive.pst,annb@contoso.onmicrosoft.com,TRUE,,,,,
@@ -229,7 +229,7 @@ Depois de carregar os arquivos PST no local de armazenamento do Azure para a sua
 
  3. Use as informações da tabela a seguir para preencher o arquivo CSV com as informações necessárias.
 
-    |**Parâmetro**|**Descrição**|**Exemplo**|
+    | Parâmetro | Descrição | Exemplo |
     |:-----|:-----|:-----|
     | `Workload` <br/> |Especifica o serviço do para o qual os dados serão importados. Para importar arquivos PST nas caixas de correio de usuário, use o  `Exchange`.  <br/> | `Exchange` <br/> |
     | `FilePath` <br/> |Especifica o local da pasta, no local de armazenamento do Azure, em que você carregou os arquivos PST na Etapa 2.  <br/> Se você não incluir um nome de subpasta opcional na URL SAS no parâmetro `/Dest:` na Etapa 2, deixe esse parâmetro em branco no arquivo CSV. Se você incluiu um nome de subpasta, especifique-o nesse parâmetro (consulte o segundo exemplo). O valor desse parâmetro diferencia maiúsculas de minúsculas.  <br/> De qualquer forma, *não* inclua "ingestiondata" no valor do `FilePath` parâmetro.  <br/><br/> **Importante:** A capitalização do nome do caminho do arquivo deve ser a mesma usada caso você tenha incluído um nome de subpasta opcional na URL SAS `/Dest:` no parâmetro na Etapa 2. Por exemplo, se você usou `PSTFiles` para o nome da subpasta na Etapa 2 e, em seguida usar `pstfiles` no parâmetro `FilePath` no arquivo CSV, a importação para o arquivo PST falhará. Certifique-se de usar a mesma capitalização nas duas instâncias.  <br/> |(deixar em branco)  <br/> Ou  <br/>  `PSTFiles` <br/> |
@@ -306,17 +306,17 @@ Depois de criar o trabalho de importação na Etapa 5, o Microsoft 365 analisa o
   
 3. Siga um destes procedimentos:
     
-    a. Para cortar os dados importados, clique em **Sim, desejo filtrá-los antes de importá-los**.
+   1. Para cortar os dados importados, clique em **Sim, desejo filtrá-los antes de importá-los**.
     
-    Para obter instruções passo a passo detalhadas sobre como filtrar os dados nos arquivos PST e iniciar o trabalho de importação, confira [Filtrar dados ao importar arquivos PST para o Office 365](filter-data-when-importing-pst-files.md).
+      Para obter instruções passo a passo detalhadas sobre como filtrar os dados nos arquivos PST e iniciar o trabalho de importação, confira [Filtrar dados ao importar arquivos PST para o Office 365](filter-data-when-importing-pst-files.md).
     
-    Ou
+      Ou
     
-    b. Para importar todos os dados dos arquivos PST, clique em **Não, Desejo importar tudo** e clique em **Avançar**.
+   1. Para importar todos os dados dos arquivos PST, clique em **Não, Desejo importar tudo** e clique em **Avançar**.
     
 4. Se optar por importar todos os dados, clique em **Importar dados** para iniciar o trabalho de importação. 
     
-    O status do trabalho de importação é exibido na página **Importar arquivos PST**. Clique no ![Ícone Atualizar](../media/O365-MDM-Policy-RefreshIcon.gif) **Atualizar** para atualizar as informações de status exibidas na coluna**Status**.  Clique no trabalho de importação para exibir a página de status do submenu, que exibe informações de status sobre cada arquivo PST sendo importado.. 
+   O status do trabalho de importação é exibido na página **Importar arquivos PST**. Clique no ![Ícone Atualizar](../media/O365-MDM-Policy-RefreshIcon.gif) **Atualizar** para atualizar as informações de status exibidas na coluna**Status**.  Clique no trabalho de importação para exibir a página de status do submenu, que exibe informações de status sobre cada arquivo PST sendo importado.. 
 
 
   
@@ -346,7 +346,7 @@ Depois de criar o trabalho de importação na Etapa 5, o Microsoft 365 analisa o
   
 - Veja um exemplo de URL SAS (Assinatura de Acesso Compartilhado) obtida na Etapa 1. Este exemplo inclui também a sintaxe do comando executado na ferramenta AzCopy.exe para carregar arquivos PST. Certifique-se de tomar medidas para proteger a URL SAS, do mesmo modo que o faria com senhas ou outras informações relacionadas à segurança.
 
-    ```text
+    ```console
     SAS URL: https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D
 
     AzCopy.exe /Source:<Location of PST files> /Dest:<SAS URL> /V:<Log file location> /Y
