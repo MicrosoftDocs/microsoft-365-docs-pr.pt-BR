@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para área de trabalho, celular e Web e quais aplicativos dão suporte a rótulos de confidencialidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b9ed6e163915bd8cdf63e7f37bf92065943d71fb
-ms.sourcegitcommit: e6bf1af2d5cf54c3fcc3fa916abe268fc96bdd4e
+ms.openlocfilehash: 7c47b97c573822cb44f895296613b70af7f85c93
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45189462"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656776"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -112,6 +112,14 @@ Como alternativa, desabilite ou remova o suplemento do Office, **proteção de i
 Quando você desabilita ou remove este suplemento do Office, o cliente de proteção de informações do Azure permanece instalado para que você possa continuar a rotular arquivos fora de seus aplicativos do Office. Por exemplo, usando o explorador de arquivos ou o PowerShell.
 
 Para obter informações sobre quais recursos são compatíveis com os clientes de proteção de informações do Azure e para o cliente de rotulagem interno do Office, consulte [escolher qual rotulação de cliente usar para computadores Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers) a partir da documentação de proteção de informações do Azure.
+
+## <a name="office-file-types-supported"></a>Tipos de arquivo do Office suportados
+
+Os aplicativos do Office que possuem rotulação interna para arquivos do Word, Excel e PowerPoint oferecem suporte para o formato Open XML (como. docx e. xlsx), mas não para o formato do Microsoft Office 97-2003 (como. doc e. xls). Quando um tipo de arquivo não tem suporte para rotulamento interno, o botão **sensibilidade** não está disponível no aplicativo do Office.
+
+O cliente de rotulação unificada de proteção de informações do Azure suporta o formato Open XML e o formato do Microsoft Office 97-2003. Para obter mais informações, consulte [tipos de arquivo compatíveis com o cliente de rotulação unificado de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-file-types) no guia de administração do cliente.
+
+Para outras soluções de rotulação, verifique a documentação para tipos de arquivo com suporte.
 
 ## <a name="protection-templates-and-sensitivity-labels"></a>Modelos de proteção e rótulos de confidencialidade
 

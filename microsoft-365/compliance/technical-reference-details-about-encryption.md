@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Saiba mais sobre os vários certificados, tecnologias e pacotes de criptografia TLS usados para criptografia no Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91fa21fff12c429032af6468ff3024acfc6ca2ab
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: c9bc61a7c7a35d84d5e4ff338927ead98a932d9d
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024537"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649092"
 ---
 # <a name="technical-reference-details-about-encryption"></a>Detalhes técnicos de referência sobre criptografia
 
@@ -52,13 +52,7 @@ O TLS versão 1,3 (TLS 1,3) atualmente não tem suporte.
   
 ## <a name="support-for-tls-10-and-11-deprecation-and-what-this-means-for-you"></a>Suporte para TLS 1,0 e 1,1 e o que isso significa para você
 
-Desde 31 de outubro de 2018, o Office 365 não oferece mais suporte a TLS 1,0 e 1,1. Isso significa que a Microsoft não corrigirá novos problemas que forem encontrados em clientes, dispositivos ou serviços que se conectem ao Office 365 usando o TLS 1.0 e 1.1.
-
-Isso não significa que o Office 365 bloqueará as conexões TLS 1,0 e 1,1.
-
-Embora originalmente definimos uma data de 1º de junho de 2020 para TLS 1,0 e TLS 1,1 de substituição para ambientes do mundo e GCC, essa data não é mais válida. Isso se deve ao COVID-19. Quando tivermos uma nova data para essa substituição, iremos publicá-la aqui. 
-
-Para ambientes GCC de alta e DoD, o canprovação oficial ocorreu em 15 de janeiro de 2020.
+Desde 31 de outubro de 2018, o Office 365 não oferece mais suporte a TLS 1,0 e 1,1. Isso significa que a Microsoft não corrigirá novos problemas que forem encontrados em clientes, dispositivos ou serviços que se conectem ao Office 365 usando o TLS 1.0 e 1.1. A substituição oficial para ambientes GCC High e DoD começou em 15 de janeiro de 2020. A substituição de TLS 1,0 e 1,1 para ambientes de todo o mundo e GCC começa em 15 de outubro de 2020. 
 
 Você deve certificar-se de que todas as combinações de servidor de cliente e de servidor do navegador usem o TLS 1,2 e os pacotes de codificação modernos para manter uma conexão segura com o Office 365 e os serviços do Microsoft 365. Você poderá ter que atualizar certas combinações de cliente-servidor e navegador-servidor. Para obter informações sobre como isso impacta, consulte [preparando-se para o uso obrigatório de TLS 1,2 no Office 365](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365).
   
@@ -76,19 +70,30 @@ Um conjunto de codificações é uma coleção de algoritmos de criptografia que
 
 > [!IMPORTANT]
 > Lembre-se de que as versões do TLS estão obsoletas e que *não devem ser usadas* como versões mais recentes disponíveis. O TLS 1,3 atualmente não tem suporte. Se os serviços herdados não exigirem o TLS 1,0 ou 1,1, você deverá desabilitá-los.
-  
-|**Protocolos**|**Nome do conjunto de codificações**|**Algoritmo/intensidade de troca de chave**|**Suporte perfeito a sigilo total**|**Algoritmo de autenticação/intensidade**|**Codificação/força**|
+
+| Pacote de codificação | Algoritmo/intensidade de troca de chave | Sigilo total na transferência | Codificação/força | Algoritmo de autenticação |
+|:-----|:-----|:-----|:-----|:-----|
+|TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 <br/>     |ECDH/192 <br/>|Sim <br/>|AES/256 <br/>|RSA/112 <br/> |
+|TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 <br/>     |ECDH/128 <br/>|Sim <br/>|AES/128 <br/>|RSA/112 <br/> |
+|TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 <br/>     |ECDH/192 <br/>|Sim <br/>|AES/256 <br/>|RSA/112 <br/> |
+|TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 <br/>     |ECDH/128 <br/>|Sim <br/>|AES/128 <br/>|RSA/112 <br/> |
+|TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA <br/>        |ECDH/192 <br/>|Sim <br/>|AES/256 <br/>|RSA/112 <br/> |
+|TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA <br/>        |ECDH/128 <br/>|Sim <br/>|AES/128 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_256_GCM_SHA384 <br/>           |RSA/112 <br/> |Não <br/> |AES/256 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_128_GCM_SHA256 <br/>           |RSA/112 <br/> |Não <br/> |AES/256 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_256_CBC_SHA256 <br/>           |RSA/112 <br/> |Não <br/> |AES/256 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_128_CBC_SHA256 <br/>           |RSA/112 <br/> |Não <br/> |AES/128 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_256_CBC_SHA <br/>              |RSA/112 <br/> |Não <br/> |AES/256 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_128_CBC_SHA <br/>              |RSA/112 <br/> |Não <br/> |AES/128 <br/>|RSA/112 <br/> |
+
+Estes são os conjuntos de codificação a seguir, que ainda oferecerão suporte a protocolos TLS 1,0 e 1,1 até a data de substituição. Para ambientes GCC High e DoD que a data de substituição era de 15 Jan, 2020 e para ambientes do mundo e GCC, essa data é 15 de outubro de 2020.
+
+| Protocolos | Nome do conjunto de codificações | Algoritmo/intensidade de troca de chave | Suporte perfeito a sigilo total | Algoritmo de autenticação/intensidade | Codificação/força |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384  <br/> |ECDH/192  <br/> |Sim  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256  <br/> |ECDH/128  <br/> |Sim  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384  <br/> |ECDH/192  <br/> |Sim  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256  <br/> |ECDH/128  <br/> |Sim  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384  <br/> |ECDH/192  <br/> |Sim  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA_P256  <br/> |ECDH/128  <br/> |Sim  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA256  <br/> |RSA/112  <br/> |Não  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA256  <br/> |RSA/112  <br/> |Não  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA  <br/> |RSA/112  <br/> |Não  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA  <br/> |RSA/112  <br/> |Não  <br/> |RSA/112  <br/> |AES/128  <br/> |
+|TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA  <br/> |ECDH/192  <br/> |Sim  <br/> |RSA/112  <br/> |AES/256  <br/> |
+|TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA  <br/> |ECDH/128  <br/> |Sim  <br/> |RSA/112  <br/> |AES/128  <br/> |
+|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA        <br/> |RSA/112  <br/>  |Não  <br/>  |RSA/112  <br/> |AES/256  <br/> |
+|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA        <br/> |RSA/112  <br/>  |Não  <br/>  |RSA/112  <br/> |AES/128  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 [Pacotes de criptografia TLS no Windows 10 v1903](https://docs.microsoft.com/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1903)
@@ -101,5 +106,4 @@ Um conjunto de codificações é uma coleção de algoritmos de criptografia que
   
 [Aprimoramentos de criptografia TLS/SSL (Windows IT Center)](https://technet.microsoft.com/library/cc766285%28v=ws.10%29.aspx)
   
- [Preparação para o TLS 1.2 no Office 365 e no Office 365 GCC](https://docs.microsoft.com/office365/troubleshoot/security/prepare-tls-1.2-in-office-365)
-
+[Preparação para o TLS 1.2 no Office 365 e no Office 365 GCC](https://docs.microsoft.com/office365/troubleshoot/security/prepare-tls-1.2-in-office-365)

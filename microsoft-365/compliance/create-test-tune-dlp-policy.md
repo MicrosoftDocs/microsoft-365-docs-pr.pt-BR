@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: Neste artigo, você aprenderá a criar, testar e ajustar uma política de DLP de acordo com suas necessidades organizacionais.
-ms.openlocfilehash: 3405fc99f4d12715972b1fd18a9c20dd9334382b
-ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
+ms.openlocfilehash: b8e82e1304cb411a1e73e6f7bdc02fecdda9784f
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45092001"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648778"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>Criar, testar e ajustar uma política DLP
 
@@ -37,6 +37,24 @@ A DLP usa um mecanismo de análise de conteúdo para examinar o conteúdo de men
 - Bloquear ativamente o email ou o compartilhamento de arquivos
 
 Às vezes, os clientes descartam DLP, pois eles não se consideram ter o tipo de dados que precisa de proteção. A pressuposição é que dados confidenciais, como registros médicos ou informações financeiras, existe apenas para indústrias como assistência médica ou para empresas que executam lojas online. Mas qualquer empresa pode manipular informações confidenciais regularmente, mesmo que não percebam. Uma planilha de nomes de funcionários e datas de nascimento é tão confidencial quanto uma planilha de nomes de clientes e detalhes de cartão de crédito. E esse tipo de informação tende a flutuar em torno de mais do que você pode esperar, à medida que os funcionários vão quase todas as tarefas diárias, não considerando nada de exportar um arquivo CSV de um sistema e enviar por email para alguém. Você também pode se surpreender com a frequência com que os funcionários enviam emails contendo detalhes de cartão de crédito ou do banco sem considerar as conseqüências.
+
+## <a name="permissions"></a>Permissões
+
+Os membros da sua equipe de conformidade que irão criar políticas DLP precisam de permissões ao Centro de Conformidade &amp; Segurança. Por padrão, o administrador de locatário terá acesso a esse local e pode conceder aos responsáveis pela conformidade e outras pessoas acesso ao Centro de Conformidade &amp; Segurança, sem conceder todas as permissões de um administrador de locatário. Para fazer isso, recomendamos:
+  
+1. Crie um grupo no Microsoft 365 e adicione os responsáveis pela conformidade.
+    
+2. Criar um grupo de funções na página **Permissões** do Centro de Conformidade &amp; Segurança. 
+
+3. Ao criar o grupo de função, use a seção **escolher funções** para adicionar a seguinte função ao grupo de funções: **Gerenciamento de conformidade de DLP**.
+    
+4. Use a seção **Escolher membros** para adicionar o grupo Microsoft 365 que você criou anteriormente ao grupo de função.
+
+Você também pode criar um grupo de função com privilégios de somente exibição às Políticas DLP e aos Relatórios DLP, concedendo a função **Gerenciamento de conformidade DLP somente exibição**.
+
+Para saber mais, consulte [Conceder aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
+  
+Essas permissões são necessárias somente para criar e aplicar uma política de DLP. A imposição da política não exige acesso ao conteúdo.
 
 ## <a name="how-sensitive-information-is-detected-by-dlp"></a>Como as informações confidenciais são detectadas pela DLP
 

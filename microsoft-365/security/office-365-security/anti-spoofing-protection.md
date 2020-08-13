@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Os administradores podem saber mais sobre os recursos de anti-falsificação disponíveis na Proteção do Exchange Online (EOP), que podem ajudar a reduzir os ataques de phishing de remetentes e domínios falso.
-ms.openlocfilehash: b9d8d3b0118083886f2a5d18f64b5d12e1d432af
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 25e1c73a58ffc89ecf4723fbb7cb872ff7d16071
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577843"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653408"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Proteção antifalsificação no EOP
 
@@ -129,8 +129,7 @@ Sabe-se que as listas de endereçamento (também conhecidas como listas de discu
 
 Por exemplo, Gabriela Laureano (glaureano@contoso.com) está interessada em observar pássaros, ingressa na lista de endereçamento birdwatchers@fabrikam.com e envia a seguinte mensagem à lista:
 
-> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br/> 
-**Assunto:** Excelente vista de galos azuis no topo do Monte. Rainier esta semana <br/><br/>Alguém quer conferir esta semana a vista do Monte Rainier?
+> **Por:** "Gabriela Laureano" \<glaureano@contoso.com\> <br/> **Para:** Lista de discussão do Birdwatcher \<birdwatchers@fabrikam.com\> <br/> **Assunto:** Belo exemplo de gaios azuis no topo do Monte Rainier esta semana <br/><br/>Alguém quer conferir esta semana a vista do Monte Rainier?
 
 O servidor da lista de endereçamento recebe a mensagem, modifica seu conteúdo e a repete aos membros da lista. A mensagem repetida tem o mesmo endereço De (glaureano@contoso.com), mas uma marca é adicionada à linha de assunto e um rodapé é adicionado à parte inferior da mensagem. Esse tipo de modificação é comum em listas de endereçamento, e pode resultar em falsos positivos para falsificação.
 

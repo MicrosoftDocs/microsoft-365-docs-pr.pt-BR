@@ -14,14 +14,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre o controle de informações no Microsoft 365.
-ms.openlocfilehash: d8e0c252bfe0b5b5c3361e67b8327d04951eb9c5
-ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
+ms.openlocfilehash: 526f91eb70ec2e249d2f8b83c4238f0f43584db1
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/12/2020
-ms.locfileid: "46641604"
+ms.locfileid: "46649138"
 ---
 # <a name="manage-information-governance"></a>Gerenciar governança de informações
+
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
 Use os recursos de governança de informações da Microsoft para governar seus dados de conformidade ou requisitos normativos.
 
