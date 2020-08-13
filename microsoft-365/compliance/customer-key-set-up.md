@@ -137,7 +137,7 @@ Antes de entrar em contato com a equipe do Microsoft 365, você deve executar as
 
 3. Entre em contato com a Microsoft para finalizar o processo. Para a equipe do SharePoint e do OneDrive for Business, entre em contato com [Spock@microsoft.com](mailto:spock@microsoft.com). Para o Exchange Online e o Skype for Business, entre em contato com a [exock@microsoft.com](mailto:exock@microsoft.com). Inclua o seguinte em seu email:
 
-   **Assunto**: chave de cliente para\<*Your tenant's fully-qualified domain name*\>
+   **Assunto**: chave de cliente para \<*Your tenant's fully-qualified domain name*\>
 
    **Corpo**: IDs de assinatura para as quais você deseja que o período de retenção obrigatório seja concluído.
    A saída de Get-AzProviderFeature para cada assinatura.
@@ -213,9 +213,9 @@ Para cada cofre de chave, você precisará definir três conjuntos separados de 
 
     - *nome do cofre* é o nome do cofre de chaves que você criou.
 
-    - Para o Exchange Online e o Skype for Business, substitua o *Office 365 AppID* por`00000002-0000-0ff1-ce00-000000000000`
+    - Para o Exchange Online e o Skype for Business, substitua o  *Office 365 AppID* por `00000002-0000-0ff1-ce00-000000000000`
 
-    - Para os arquivos do SharePoint Online, do OneDrive for Business e do Teams, substitua o *Office 365 AppID* por`00000003-0000-0ff1-ce00-000000000000`
+    - Para os arquivos do SharePoint Online, do OneDrive for Business e do Teams, substitua o  *Office 365 AppID* por `00000003-0000-0ff1-ce00-000000000000`
 
   Exemplo: definir permissões para o Exchange Online e o Skype for Business:
 
