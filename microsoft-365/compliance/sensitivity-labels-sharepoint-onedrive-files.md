@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de confidencialidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: a6826be5cccf89d3b2e48e0e37df9a9263e4a8a7
-ms.sourcegitcommit: fe20f5ed07f38786c63df0f73659ca472e69e478
+ms.openlocfilehash: acf440d7bc46c51a6c00b10d06619868a09e155d
+ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201505"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662239"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
@@ -42,12 +42,12 @@ Quando você habilita rótulos de confidencialidade para arquivos do Office no S
 
 - Os usuários externos podem acessar documentos rotulados com criptografia usando contas de convidado. Para obter mais informações, consulte [suporte para usuários externos e conteúdo rotulado](sensitivity-labels-office-apps.md#support-for-external-users-and-labeled-content). 
 
-- O Office 365 eDiscovery oferece suporte à pesquisa de texto completo desses arquivos. As políticas de prevenção de perda de dados (DLP) dão suporte ao conteúdo nesses arquivos.
+- O Office 365 eDiscovery oferece suporte à pesquisa de texto completo desses arquivos e as políticas de prevenção contra perda de dados (DLP) dão suporte a conteúdo nesses arquivos.
 
 > [!NOTE]
-> Se a criptografia tiver sido aplicada com a chave local, uma topologia de gerenciamento de chave freqüentemente mencionada como "conter sua própria chave" (HYOK) ou usando a [criptografia de chave dupla](double-key-encryption.md), o comportamento do SharePoint para processar o conteúdo do arquivo não será alterado.
+> Se a criptografia tiver sido aplicada com uma chave no local (uma topologia de gerenciamento de chave freqüentemente mencionada como "conter sua própria chave" ou HYOK) ou usando a [criptografia de chave dupla](double-key-encryption.md), o comportamento do SharePoint para processar o conteúdo do arquivo não será alterado.
 >
-> O comportamento do SharePoint também não é alterado para arquivos criptografados e rotulados existentes no SharePoint. Para que esses arquivos se beneficiem dos novos recursos, eles devem ser baixados e carregados ou editados depois que você executar o comando para habilitar rótulos de confidencialidade para o SharePoint e o OneDrive. O SharePoint pode então processar esses arquivos. Por exemplo, eles serão retornados em resultados de pesquisa e de descoberta eletrônica.
+> O comportamento do SharePoint também não muda para arquivos existentes no SharePoint que são rotulados com criptografia usando uma única chave baseada no Azure. Para que esses arquivos se beneficiem dos novos recursos depois que você habilita os rótulos de confidencialidade dos arquivos do Office no SharePoint e no OneDrive, os arquivos devem ser baixados e carregados novamente ou editados. Por exemplo, eles serão retornados em resultados de pesquisa e de descoberta eletrônica.
 
 Após habilitar os rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive, três novos [eventos de auditoria](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) estão disponíveis para monitoramento de rótulos de sensibilidade aplicados a documentos no SharePoint e no onedrive:
 - **Rótulo de sensibilidade aplicado ao site**
@@ -201,7 +201,7 @@ Com esse comportamento, você pode ter certeza de que todos os arquivos do Offic
 
 ## <a name="search-for-documents-by-sensitivity-label"></a>Pesquisar documentos por rótulo de confidencialidade
 
-Use a propriedade gerenciada **InformationProtectionLabelId** para localizar todos os documentos no SharePoint ou no onedrive que tenham um rótulo de confidencialidade específico. Use a seguinte sintaxe:`InformationProtectionLabelId:<GUID>`
+Use a propriedade gerenciada **InformationProtectionLabelId** para localizar todos os documentos no SharePoint ou no onedrive que tenham um rótulo de confidencialidade específico. Use a seguinte sintaxe: `InformationProtectionLabelId:<GUID>`
 
 Por exemplo, para pesquisar todos os documentos que tenham sido rotulados como "confidencial" e que o rótulo tenha um GUID de "8faca7b8-8d20-48A3-8ea2-0f96310a848e", na caixa de pesquisa, digite:
 

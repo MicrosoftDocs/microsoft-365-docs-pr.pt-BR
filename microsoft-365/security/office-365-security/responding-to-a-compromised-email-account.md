@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Aprenda como reconhecer e responder a uma conta de e-mail comprometida no Microsoft 365.
-ms.openlocfilehash: cd9e5b4f9951bd332950cdc22ba3f3740d084dfb
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: d412f40a6c3e1e2f1182437419ce9e0d28ed10eb
+ms.sourcegitcommit: 929ca8f4d5fc006c3827f7a8b7d2b43e54c1b42a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527775"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46674609"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Responder a uma conta de email comprometida
 
@@ -68,11 +68,8 @@ Se um usuário relatar algum dos sintomas acima, você deverá realizar uma inve
 - **Registros de entrada do Azure AD e outros relatórios de risco no portal do Azure AD**: examine os valores destas colunas:
 
   - Revise o endereço IP
-
   - locais de entrada
-
   - horários de entrada
-
   - sucesso ou falha de entrada
 
 ## <a name="how-to-secure-and-restore-email-function-to-a-suspected-compromised-microsoft-365-account-and-mailbox"></a>Como proteger e restaurar a funcionalidade de email de uma conta e caixa de correio do Microsoft 365 suspeitas de estarem comprometidas
@@ -85,31 +82,31 @@ Você deve realizar todas as etapas a seguir para recuperar o acesso à sua cont
 
 ### <a name="step-1-reset-the-users-password"></a>Etapa 1 Redefina a senha do usuário
 
-> [!WARNING]
-> Não envie a nova senha para o usuário pretendido por email, pois o invasor ainda terá acesso à caixa de correio neste momento.
+Siga os procedimentos em [ Redefinir uma senha comercial para alguém ](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords#reset-my-admin-password).
 
-1. Siga os procedimentos para redefinir uma senha corporativa dos Aplicativos do Microsoft 365 de outra pessoa em [Redefinir senhas corporativas dos Aplicativos do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords)
-
-**Observações**:
-
-- Certifique-se de que a senha seja forte e que contenha letras maiúsculas e minúsculas, pelo menos um número e pelo menos um caractere especial.
-
-- Não reutilize nenhuma das suas últimas cinco senhas. Mesmo que o requisito do histórico de senhas permita a reutilização de uma senha mais recente, você deve selecionar algo que o invasor não consiga adivinhar.
-
-- Se a sua identidade local for federada com o Microsoft 365, será necessário alterar sua senha no local e, em seguida, notificar o administrador sobre o comprometimento.
-
-> [!TIP]
-> É altamente recomendável que você ative a Autenticação Multifator (MFA) para evitar comprometimentos, especialmente para contas com privilégios administrativos.  Para saber mais sobre o MFA, acesse [Configurar autenticação multifator](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication).
+> [!IMPORTANT]
+>
+> - Não envie a nova senha para o usuário pretendido por email, pois o invasor ainda terá acesso à caixa de correio neste momento.
+>
+> - Certifique-se de que a senha seja forte e que contenha letras maiúsculas e minúsculas, pelo menos um número e pelo menos um caractere especial.
+>
+> - Não reutilize nenhuma das suas últimas cinco senhas. Mesmo que o requisito do histórico de senhas permita a reutilização de uma senha mais recente, você deve selecionar algo que o invasor não consiga adivinhar.
+>
+> - Se a sua identidade local for federada com o Microsoft 365, será necessário alterar sua senha no local e, em seguida, notificar o administrador sobre o comprometimento.
+>
+> - Certifique-se de atualizar as senhas do aplicativo. As senhas do aplicativo não são revogadas automaticamente quando a senha da conta do usuário é redefinida. O usuário deve excluir as senhas dos aplicativos existentes e criar novas. Para instruções, consulte [Criar e excluir senhas dos aplicativos na página Verificação adicional de segurança](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page).
+>
+> - É altamente recomendável que você ative a Autenticação Multifator (MFA) para evitar comprometimentos, especialmente para contas com privilégios administrativos. Para saber mais sobre o MFA, acesse [Configurar autenticação multifator](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication).
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>Etapa 2 Remover endereços de encaminhamento de email suspeitos
 
-1. Abra o **Centro de administração do Microsoft 365 > Usuários Ativos**.
+1. Abra o Centro de administração do Microsoft 365 em <https://admin.microsoft.com>
 
-2. Encontre a conta de usuário em questão e expanda **Configurações de Email**.
+2. Vá até**Usuários** \> **Usuários ativos**. Encontre a conta do usuário em questão e o selecione (linha) sem marcar a caixa de seleção.
 
-3. Para o **encaminhamento de Email**, clique em **Editar**.
+3. Nos detalhes que aparecem no meni desdobrável, selecione a guia **Email do Outlook**.
 
-4. Remova todos os endereços de encaminhamento suspeitos.
+4. Se o valor na seção **Encaminhamento de e-mail** for **Aplicado**, clique em ** Gerenciar encaminhamento de e-mail **. No menu desdobrável **Gerenciar encaminhamento de e-mail** que aparece, desmarque **Encaminhar todos os e-mails enviados para esta caixa de correio** e clique em **Salvar alterações **.
 
 ### <a name="step-3-disable-any-suspicious-inbox-rules"></a>Etapa 3 Desabilite todas as regras de caixa de entrada suspeitas
 
@@ -132,50 +129,50 @@ Para desbloquear uma caixa de correio impedida de enviar emails, siga os procedi
 > [!IMPORTANT]
 > Você pode impedir que a conta suspeita de estar comprometida inicie sessão, até considerar que é seguro reativar o acesso.
 
-1. Vá para o centro de administração do Microsoft 365.
+1. Abra o Centro de administração do Microsoft 365 e vá até **Usuários** \> ** Usuários ativos **.
 
-2. No centro de administração do Microsoft 365, selecione **Usuários**.
+2. Encontre e selecione a conta do usuário, clique no ![ícone Mais ](../../media/ITPro-EAC-MoreOptionsIcon.png) e selecione ** Editar status de login **.
 
-3. Selecione o funcionário que deseja bloquear e escolha **Editar**, ao lado do **Status de entrada**, no painel de usuário.
+3. No painel **Bloquear login** que aparece, selecione **Bloquear a assinatura deste usuário** e clique em **Salvar alterações**.
 
-4. No painel **Status de entrada**, escolha **Entrada bloqueada** e **Salvar**.
+4. Abra o Centro de administração do Exchange (EAC) em <admin.protection.outlook.com/ecp/> e vá para ** Destinatários > Caixas de correio **.
 
-5. No centro de Administração, no painel de navegação inferior esquerdo, expanda **Centros de Administração** e selecione **Exchange**.
+5. Encontre e selecione o usuário. No painel de detalhes, execute as seguintes etapas:
 
-6. No centro de administração do Exchange, navegue até **Destinatários> Caixas de Correio**.
+   - Na seção **Recursos de telefone e voz**, execute as seguintes etapas:
 
-7. Selecione o usuário e, na página de propriedades do usuário, em **Dispositivos Móveis**, clique em **Desabilitar Exchange ActivcSync** e **Desabilitar OWA para Dispositivos** e responda **sim** a ambos.
+     - Selecione **Desativar Exchange ActiveSync** e clique em ** Sim ** no aviso que aparece.
+     - Selecione **Desabilitar OWA para Dispositivos** e clique em ** Sim ** no aviso que aparece.
 
-8. Em **Conectividade de Email**, **Desativar** e responda **sim**.
+   - Na seção **Conectividade de e-mail** para Outlook na Web, clique em **Desativar** e clique em **Sim** no aviso que aparece.
 
 ### <a name="step-6-optional-remove-the-suspected-compromised-account-from-all-administrative-role-groups"></a>Etapa 6 Opcional: Remova a conta suspeita de estar comprometida de todos os grupos de funções administrativas
 
 > [!NOTE]
 > A associação ao grupo de funções administrativas pode ser restaurada após a conta ter sido protegida.
 
-1. Entre no centro de administração do Microsoft 365 com uma conta de administrador global e abra **Usuários Ativos**.
+1. Faça o login com uma conta de administrador global:
 
-2. Encontre a conta suspeita de estar comprometida e verifique manualmente se há alguma função administrativa atribuída à conta.
+2. No Centro de administração do Microsoft 365, execute as seguintes etapas:
 
-3. Abra o **Centro de Conformidade e Segurança**.
+   1. Vá até**Usuários** \> **Usuários ativos**.
+   2. Encontre e selecione a conta do usuário, clique no ![ícone Mais](../../media/ITPro-EAC-MoreOptionsIcon.png) e selecione **Gerenciar funções**.
+   3. Remova todas as funções administrativas atribuídas à conta. Quando terminar, clique em **Salvar alterações**.
 
-4. Clique em **Permissões**.
+3. No Centro de Segurança e Conformidade em <https://protection.office.com>, execute os seguintes passos:
 
-5. Reveja manualmente os grupos de funções para ver se a conta suspeita de estar comprometida é um membro de qualquer um deles.  Caso seja:
+   Selecione **Permissões**, selecione cada grupo de função na lista e procure a conta do usuário na seção **Membros** do menu desdobrável de detalhes que aparece. Se o grupo de funções contiver a conta do usuário, execute as seguintes etapas:
 
-   a. Clique no grupo de funções e clique em **Editar Grupo de Funções**.
+   a. Clique em **Editar** próximo a ** Membros **.
+   b. No menu desdobrável **Editando Escolher membros** que aparece, clique em ** Editar **.
+   c. No menu desdobrável **Escolher membros** que aparece, selecione a conta do usuário e clique em **Remover**. Quando terminar, clique em **Concluído**, **Salvar** e depois em **Fechar**.
 
-   b. Clique em **Escolher Membros** e **Editar** para remover o usuário do grupo de funções.
+4. Na EAC em <admin.protection.outlook.com/ecp/>, execute os seguintes passos:
 
-6. Abra o **centro de administração do Exchange**.
+   Selecione **Permissões**, selecione manualmente cada grupo de função e, no painel de detalhes, verifique as contas de usuário na seção **Membros**.  Se o grupo de funções contiver a conta do usuário, execute as seguintes etapas:
 
-7. Clique em **Permissões**.
-
-8. Reveja manualmente os grupos de funções para ver se a conta suspeita de estar comprometida é um membro de qualquer um deles. Caso seja:
-
-   a. Clique no grupo de funções e clique em **Editar**.
-
-   b. Use a seção de **membros** para remover o usuário do grupo de funções.
+   a. Selecione o grupo de funções, clique em **Editar** ![ícone Editar](../../media/ITPro-EAC-EditIcon.png).
+   b. Na seção **Membro**, selecione a conta do usuário e clique em **Remover** ![ícone Remover](../../media/ITPro-EAC-RemoveIcon.gif). Quando concluir, clique em **Salvar**.
 
 ### <a name="step-7-optional-additional-precautionary-steps"></a>Etapa 7 Opcional: etapas adicionais de precaução
 
