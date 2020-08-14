@@ -1,7 +1,7 @@
 ---
 title: Alterar os nameservers para configurar o Microsoft 365 com qualquer registrador de domínios
 f1.keywords:
-- NOCSH
+- CSH
 ms.author: pebaum
 author: pebaum
 manager: mnirkhe
@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: Saiba como adicionar e configurar seu domínio no Microsoft 365 para que seus serviços como o email e o Skype for Business online usem seu próprio nome de domínio.
-ms.openlocfilehash: 8f98e054b4fa9fc9c8746f2b3bec8b59eb04e767
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 6a99ee90db3bb71038309175b32bd4d96097aa5a
+ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560336"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662227"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>Alterar os nameservers para configurar o Microsoft 365 com qualquer registrador de domínios
 
@@ -38,7 +38,7 @@ ms.locfileid: "46560336"
   
 Confira primeiro [configurar seu domínio (instruções específicas do host)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) para ver se temos instruções para o seu registrador. 
   
-Siga estas instruções para adicionar e configurar seu domínio no Microsoft 365 para que seus serviços como o email e o Skype for Business online usem seu próprio nome de domínio. Para fazer isso, verifique seu domínio e altere os nameservers do seu domínio para o Microsoft 365 para que os registros DNS corretos possam ser configurados para você. Siga estas etapas se as instruções a seguir descrevem sua situação:
+Siga estas instruções para adicionar e configurar seu domínio no Microsoft 365 para que seus serviços, como o email e o Microsoft Teams, usem seu próprio nome de domínio. Para fazer isso, verifique seu domínio e altere os nameservers do seu domínio para o Microsoft 365 para que os registros DNS corretos possam ser configurados para você. Siga estas etapas se as instruções a seguir descrevem sua situação:
   
 - Você tem seu próprio domínio e deseja configurá-lo para funcionar com o Microsoft 365.
     
@@ -114,17 +114,19 @@ Ao chegar na última etapa do assistente de configuração de domínios no Micro
   
 Para alterar os servidores de nomes do seu domínio por conta própria no site do registrador de domínios, siga estas etapas:
   
-1. Localize a área no site do registrador de domínios na qual você pode editar os servidores de nomes do seu domínio.
+1. Encontre a área no site do registrador de domínio onde você pode alterar os nameservers para seu domínio ou uma área onde você pode usar nameservers personalizados.
     
-2. Crie dois registros de servidor de nomes ou edite os registros de servidor de nomes existentes para que eles correspondam aos seguintes valores:
+2. Crie registros nameserver ou edite os registros de nameserver existentes para coincidir com os seguintes valores:
     
 |||
 |:-----|:-----|
 |Primeiro servidor de nome  <br/> |ns1.bdm.microsoftonline.com  <br/> |
 |Segundo servidor de nome  <br/> |ns2.bdm.microsoftonline.com  <br/> |
+|Terceiro nameserver  <br/> |ns2.bdm.microsoftonline.com  <br/> |
+|Quarto nameserver  <br/> |ns2.bdm.microsoftonline.com  <br/> |
    
    > [!TIP]
-   > Você deve usar pelo menos dois registros de nameserver. Se houver outros nameservers listados, você poderá excluí-los ou alterá-los para **NS3.bdm.microsoftonline.com** e **NS4.bdm.microsoftonline.com**. 
+   > É melhor adicionar todos os quatro registros, mas se o registrador suportar apenas dois, adicione **ns1.bdm.microsoftonline.com** e **ns2.bdm.microsoftonline.com**. 
   
 3. Salve suas alterações.
     
@@ -168,7 +170,7 @@ Por exemplo, aqui estão algumas etapas adicionais que podem ser necessárias pa
 
 4. Selecione o tipo de registro DNS que você deseja adicionar e digite as informações do novo registro.
 
-5. Clique em **Salvar**.
+5. Selecione **Salvar**.
     
 > [!NOTE]
 > Your nameserver record updates may take up to several hours to update across the Internet's DNS system. Em seguida, seu email da Microsoft e outros serviços serão configurados para funcionar com seu domínio. 

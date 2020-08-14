@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Este artigo descreve como atualizar um registro de Serviço de Nome de Domínio (DNS) para que você possa usar a Sender Policy Framework (SPF) com seu domínio personalizado no Office 365.
-ms.openlocfilehash: be773fe3265ac6cfd62d261196d4af1d14c91ef2
-ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
+ms.openlocfilehash: dfbd5f7091420d079f91b93f7c581ed69572b7bd
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46632134"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656606"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>Configure o SPF para ajudar a evitar falsificações
 
@@ -61,7 +61,9 @@ Reúna essas informações:
 
 1. Verifique se está familiarizado com a sintaxe SPF na tabela a seguir.
 
-   ||Se você estiver usando...|Comum para clientes?|Adicione este...|
+   ****
+
+   |<!-- -->|Se você estiver usando...|Comum para clientes?|Adicione este...|
    |---|---|---|---|
    |1|Qualquer sistema de email (obrigatório)|Comum. Todos os registros TXT da SPF começam com esse valor|v=spf1|
    |2|Exchange Online|Comum|include:spf.protection.outlook.com|
@@ -70,6 +72,7 @@ Reúna essas informações:
    |5|Sistema de email de terceiros|Incomum|include:\<domain name\>  <br/> Onde o nome de domínio é o nome de domínio do sistema de email de terceiros.|
    |6|Sistema de emails local. Por exemplo, o Exchange Online Protection mais outro sistema de email|Incomum| Use um destes procedimentos para cada sistema de email adicional: <br> ip4:\<_IP address_\>  <br/>  ip6:\<_IP address_\>  <br/>  include:\<_domain name_\>  <br/>  Onde o valor de \<_IP address_\> for o endereço IP do outro sistema de email e \<_domain name_\> for o nome de domínio do outro sistema de email que envia emails em nome de seu domínio.|
    |7|Qualquer sistema de email (obrigatório)|Comum. Todos os registros TXT da SPF terminam com esse valor|\<_enforcement rule_\>  <br/> Isso pode ser um dos vários valores. Recomendamos que se use **-all**.|
+   |
 
 2. Se ainda não tiver feito isso, crie seu registro TXT SPF usando a sintaxe da tabela:
 

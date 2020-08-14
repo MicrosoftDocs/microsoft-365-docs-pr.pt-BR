@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Configurar políticas de links seguros para proteger sua organização contra links mal-intencionados nos arquivos do Word, Excel, PowerPoint e Visio, bem como em mensagens de email.
-ms.openlocfilehash: 4aa6947af114856d73c3e048b829daf8f47f0f48
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: f935002a300bd5f4553cbab429318dad4104b208
+ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652640"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662249"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Configurar políticas de links seguros de ATP do Office 365
 
@@ -51,7 +51,7 @@ Com os links seguros de ATP habilitados, se um usuário clicar em um link em um 
 
 - Verifique se você tem as permissões necessárias. Para definir (ou editar) políticas ATP, você deve ter uma função apropriada atribuída. Alguns exemplos são descritos na tabela a seguir:
 
-    |Role|Onde/como a atribuição|
+    |Função|Onde/como a atribuição|
     |---|---|
     |administrador global|Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para saber mais.)|
     |Administrador de Segurança|Centro de administração do Azure Active Directory ( <https://aad.portal.azure.com> )|
@@ -82,13 +82,13 @@ Quando você tiver a [proteção avançada contra ameaças do Office 365](office
 5. Na seção **configurações que se aplicam a conteúdo exceto email** , marque (ou desmarque) as opções que você deseja usar. (Recomendamos que você selecione todas as opções.)
 
 6. Escolha **Salvar**.
+    
+## <a name="step-3-add-or-edit-atp-safe-links-policies-that-apply-to-all-or-specific-email-recipients"></a>Etapa 3: Adicionar (ou editar) políticas de links seguros de ATP que se aplicam a todos os destinatários de email específicos
 
-## <a name="step-3-add-or-edit-atp-safe-links-policies-that-apply-to-specific-email-recipients"></a>Etapa 3: Adicionar (ou editar) políticas de links seguros de ATP que se aplicam a destinatários de email específicos
-
-Depois de revisar (ou editar) a política de links seguros padrão ATP que se aplica a todos, a próxima etapa é definir políticas adicionais que se apliquem a destinatários específicos. Por exemplo, você pode especificar exceções à política padrão definindo uma política adicional.
-
-1. Acesse <https://protection.office.com> e entre com sua conta corporativa ou de estudante.
-
+Após revisar (ou editar) a política padrão de links seguros de ATP que se aplica a todos, a próxima etapa é definir políticas adicionais que se apliquem a todos os destinatários de email específicos. Por exemplo, você pode especificar exceções à política padrão definindo uma política adicional ou criar restrições mais granulares para todos os funcionários.
+  
+1. Acesse <https://protection.office.com> e entre com sua conta corporativa ou de estudante. 
+    
 2. Na navegação à esquerda, em **Gerenciamento de ameaças**, escolha **política**.
 
 3. Escolha **links seguros**.
@@ -120,7 +120,7 @@ Depois de revisar (ou editar) a política de links seguros padrão ATP que se ap
 6. Escolha **Salvar**.
 
 > [!NOTE]
-> As políticas de links seguros de ATP com prioridade mais alta terão precedência. Se um usuário estiver sujeito a duas ou mais políticas, somente a política de prioridade mais alta entrará em vigor.
+> As políticas de links seguros de ATP com prioridade mais alta terão precedência. Se um usuário estiver sujeito a duas ou mais políticas, somente a política de prioridade mais alta entrará em vigor. Se quiser que a política do cliente tenha precedência, você precisará aumentar a prioridade da política.
 
 ## <a name="step-4-learn-about-atp-safe-links-policy-options"></a>Etapa 4: Saiba mais sobre as opções de política de links seguros de ATP
 
