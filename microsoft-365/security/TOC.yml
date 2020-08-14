@@ -135,7 +135,7 @@
                   href: mtp/advanced-hunting-take-action.md
                 - name: Usar consultas compartilhadas
                   href: mtp/advanced-hunting-shared-queries.md
-                - name: Caça a dispositivos e emails
+                - name: 'Procure em dispositivos, e-mails, aplicativos e identidades'
                   href: mtp/advanced-hunting-query-emails-devices.md
                 - name: Ir à caça
                   href: mtp/advanced-hunting-go-hunt.md
