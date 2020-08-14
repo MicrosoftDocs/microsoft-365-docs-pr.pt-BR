@@ -21,12 +21,12 @@ search.appverid:
 description: Obtenha suporte técnico e de cobrança usando números de telefone listados para seu país ou região ou enviando uma solicitação de serviço online.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 6a7daed145294fa0e1c02ac47144d06cfdf26884
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 1db89882db693c2102ca5c8dcb28f7ceb3ebf12e
+ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552441"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46641580"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Maneiras de contatar o suporte para produtos comerciais - Ajuda para Administradores
 
@@ -56,6 +56,9 @@ Inicie uma solicitação de serviço online para economizar tempo. Ajudaremos vo
 O suporte à cobrança é fornecido em inglês, das 9h às 17h (9h – 18h na Austrália), de segunda a sexta-feira.\
 O suporte técnico é fornecido em inglês 24 horas por dia, 7 dias por semana.\
 Administradores: tenham os detalhes da conta em mãos quando ligarem.
+
+> [!NOTE]
+> Para proteger melhor sua organização, adicionamos uma etapa de verificação baseada em PIN ao nosso processo existente de verificação baseada em telefones. Se você entrar em contato conosco por meio de um número que não esteja registrado com seu perfil da organização, o representante de suporte da Microsoft enviará um código de verificação para o número de telefone ou email registrado no perfil do Centro de administração do Microsoft 365. Você deve fornecer esse código para o representante do suporte para concedê-lo acesso à sua conta da organização.
 
 - **Nos Estados Unidos, ligue para 1 800 865 9408.**
 
