@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
-ms.openlocfilehash: 60b53e21978867321f6fe824da35db683dc76663
-ms.sourcegitcommit: a53af7a228bb1f58cb8128a69a19da49f9e28700
+ms.openlocfilehash: fea1ae4a43ee3002c49bd6511a55a3d490723fc2
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45372556"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656810"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
@@ -118,19 +118,24 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
      - Uma marca de seleção ( ![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)) indica que a ação está disponível (nem todas as ações estão disponíveis para todos os vereditos de filtragem de spam).
      - Um asterisco ( <sup>\*</sup> ) após a marca de seleção indica a ação padrão para o veredito de filtragem de spam.
 
-    |||||||
-    |:---|:---:|:---:|:---:|:---:|:---:|
-    ||**Spam**|**Spam<br/>de alta<br/>confiança**|**Email de<br/>phishing**|**Email<br/>de phishing<br/>de alta<br/>confiança**|**Email<br/>em massa**|
-    |**Mover mensagem para a pasta Lixo Eletrônico**: a mensagem é enviada para a caixa de correio e movida para a pasta Lixo Eletrônico.<sup>1</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
-    |**Adicionar cabeçalho X**: adiciona um cabeçalho X ao cabeçalho da mensagem e entrega a mensagem à caixa de correio. <br/> Digite o nome do campo do cabeçalho X (não o valor) posteriormente na caixa **Adicionar o texto do cabeçalho X**. <br/><br/> Para vereditos de **Spam** e de **Spam de alta confiança**, a mensagem é movida para a pasta Lixo eletrônico.<sup>1,2</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
-    |**Preceder a linha de assunto com texto**: adiciona o texto ao início da linha de assunto da mensagem. A mensagem é enviada para a caixa de correio e movida para a pasta Lixo Eletrônico.<sup>1,2</sup> <br/> Em seguida, insira o texto na caixa **Prefixar a linha de assunto com este texto**.|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-    |**Redirecionar mensagem para endereço de email**: envia a mensagem para outros destinatários em vez de enviá-la aos destinatários pretendidos. <br/> Especifique os destinatários posteriormente na caixa **Redirecionar para este endereço de email**.|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-    |**Excluir mensagem**: exclui silenciosamente a mensagem inteira, incluindo todos os anexos.|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-    |**Mensagem em quarentena**: envia a mensagem para a quarentena em vez de enviá-la aos destinatários pretendidos. <br/> Especifique por quanto tempo a mensagem deve ser mantida na quarentena mais adiante na caixa **Quarentena**.|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-    |**Nenhuma ação**|||||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-    |
+     ****
 
-    > <sup>1</sup> No Exchange Online, a mensagem será movida para a pasta Lixo Eletrônico se a regra de lixo eletrônico estiver habilitada na caixa de correio (ela é habilitada por padrão). Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md).<br/>Em ambientes da EOP autônoma, em que a EOP protege as caixas de correio locais do Exchange, é preciso configurar regras de fluxo de email (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP, de modo que a regra do lixo eletrônico possa mover as mensagens para a pasta de Lixo Eletrônico. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).<br/><br/><sup>2</sup> Você pode usar este valor como uma condição nas regras de fluxo de email (também conhecidas como regras de transporte) para filtrar ou rotear a mensagem.
+     |<span>|Spam|Alto<br/>confiança<br/>spam|Phishing<br/>email|Alto<br/>confiança<br/>phishing<br/>email|Em massa<br/>email|
+     |---|:---:|:---:|:---:|:---:|:---:|
+     |**Mover mensagem para a pasta Lixo Eletrônico**: a mensagem é enviada para a caixa de correio e movida para a pasta Lixo Eletrônico.<sup>1</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
+     |**Adicionar cabeçalho X**: adiciona um cabeçalho X ao cabeçalho da mensagem e entrega a mensagem à caixa de correio. <br/> Digite o nome do campo do cabeçalho X (não o valor) posteriormente na caixa **Adicionar o texto do cabeçalho X**. <br/><br/> Para vereditos de **Spam** e de **Spam de alta confiança**, a mensagem é movida para a pasta Lixo eletrônico.<sup>1,2</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
+     |**Preceder a linha de assunto com texto**: adiciona o texto ao início da linha de assunto da mensagem. A mensagem é enviada para a caixa de correio e movida para a pasta Lixo Eletrônico.<sup>1,2</sup> <br/> Em seguida, insira o texto na caixa **Prefixar a linha de assunto com este texto**.|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+     |**Redirecionar mensagem para endereço de email**: envia a mensagem para outros destinatários em vez de enviá-la aos destinatários pretendidos. <br/> Especifique os destinatários posteriormente na caixa **Redirecionar para este endereço de email**.|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+     |**Excluir mensagem**: exclui silenciosamente a mensagem inteira, incluindo todos os anexos.|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+     |**Mensagem em quarentena**: envia a mensagem para a quarentena em vez de enviá-la aos destinatários pretendidos. <br/> Especifique por quanto tempo a mensagem deve ser mantida na quarentena mais adiante na caixa **Quarentena**.|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+     |**Nenhuma ação**|||||![Marca de seleção](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+     |
+
+     > <sup>1</sup> No Exchange Online, a mensagem será movida para a pasta Lixo Eletrônico se a regra de lixo eletrônico estiver habilitada na caixa de correio (ela é habilitada por padrão). Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md).
+     >
+     > Em ambientes da EOP autônoma, em que a EOP protege as caixas de correio locais do Exchange, é preciso configurar regras de fluxo de email (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP, de modo que a regra do lixo eletrônico possa mover as mensagens para a pasta de Lixo Eletrônico. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
+     >
+     > <sup>2</sup> Você pode usar este valor como uma condição nas regras de fluxo de email (também conhecidas como regras de transporte) para filtrar ou rotear a mensagem.
 
    - **Selecionar o limite**: especifica o BCL (nível de reclamação em massa) de uma mensagem que dispara a ação especificada para o veredito de filtragem de spam de **Email em massa** (maior que o valor especificado, não superior ou igual a ele). Um valor mais alto indica que a mensagem é menos desejável (é mais provável que a mensagem pareça um spam). O valor padrão é 7. Para obter mais informações, confira [BCL (Nível de reclamação em massa) no EOP](bulk-complaint-level-values.md) e [Qual é a diferença entre lixo eletrônico e e-mail em massa?](what-s-the-difference-between-junk-email-and-bulk-email.md).
 
@@ -169,7 +174,10 @@ Criar uma política antispam personalizada no Centro de Conformidade e Seguranç
 5. (Opcional) Expanda a seção **Listas de permissão** para configurar os remetentes de mensagens por endereço ou domínio de email que podem ignorar a filtragem de spam:
 
    > [!CAUTION]
-   > • Pense bem antes de adicionar domínios aqui. Para obter mais informações, confira [Criar listas de remetentes seguros no EOP](create-safe-sender-lists-in-office-365.md). <br/><br/> • Nunca adicione domínios aceitos (domínios que pertencem a você) ou domínios comuns (por exemplo, microsoft.com ou office.com) à lista de domínios permitidos. Isso permitirá que invasores enviem emails que ignorem a filtragem de spam da sua organização.
+   >
+   > - Pense bem antes de adicionar domínios aqui. Para mais informações, consulte [Crie listas de remetentes seguros no EOP](create-safe-sender-lists-in-office-365.md).
+   >
+   > - Nunca adicione domínios aceitos (domínios que pertencem a você) ou domínios comuns (por exemplo, microsoft.com ou office.com) à lista de domínios permitidos. Isso permitirá que invasores enviem emails que ignorem a filtragem de spam da sua organização.
 
    - **Permitir remetente**: clique em **Editar**. No submenu **Lista de remetentes permitidos** exibido:
 
@@ -424,7 +432,7 @@ New-HostedContentFilterPolicy -Name "Contoso Executives" -HighConfidenceSpamActi
 ```
 
 > [!NOTE]
-> **New-HostedContentFilterPolicy** e **Set-HostedContentFilterPolicy** contêm um parâmetro _ZapEnabled_ mais antigo, bem como parâmetros _PhishZapEnabled_ e _SpamZapEnabled_ mais novos. O parâmetro _ZapEnabled_ foi substituído em fevereiro de 2020. Os parâmetros _PhishZapEnabled_ e _SpamZapEnabled_ herdavam os valores deles do parâmetro _ZapEnabled_. No entanto, se você usar os parâmetros _PhishZapEnabled_ e _SpamZapEnabled_ em um comando ou usar as configurações de **ZAP de spam** ou **ZAP de phishing** na política no Centro de Conformidade e Segurança, o valor do parâmetro _ZapEnabled_ será ignorado. Em outras palavras, não use o parâmetro _ZapEnabled_; em vez disso, use os parâmetros _PhishZapEnabled_ e _SpamZapEnabled_.
+> **New-HostedContentFilterPolicy** e **Set-HostedContentFilterPolicy** contêm um parâmetro _ZapEnabled_ mais antigo, bem como parâmetros _PhishZapEnabled_ e _SpamZapEnabled_ mais novos. O parâmetro _ZapEnabled_ foi depreciado em fevereiro de 2020. Os parâmetros _PhishZapEnabled_ e _SpamZapEnabled_ herdavam os valores deles do parâmetro _ZapEnabled_. No entanto, se você usar os parâmetros _PhishZapEnabled_ e _SpamZapEnabled_ em um comando ou usar as configurações de **ZAP de spam** ou **ZAP de phishing** na política no Centro de Conformidade e Segurança, o valor do parâmetro _ZapEnabled_ será ignorado. Em outras palavras, não use o parâmetro _ZapEnabled_; em vez disso, use os parâmetros _PhishZapEnabled_ e _SpamZapEnabled_.
 
 Para obter mais informações detalhadas de sintaxe e parâmetro, confira [New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/new-hostedcontentfilterpolicy).
 

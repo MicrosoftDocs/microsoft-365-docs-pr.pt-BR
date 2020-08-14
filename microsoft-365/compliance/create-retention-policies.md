@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Use uma política de retenção para decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra determinadas condições.'
-ms.openlocfilehash: 9974bebef9809647e7fb87f98f9d2f505baca4f3
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 3a08bd67ff705b0b11b815843041b146fbef388f
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126502"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656717"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -42,7 +42,7 @@ O administrador global da sua organização tem permissões completas para criar
 
 Embora uma política de retenção possa dar suporte a vários locais, você não pode criar uma única política de retenção que inclui todos os locais suportados:
 - Email do Exchange
-- Site do SharePoint
+- Site do Microsoft Office SharePoint Online
 - Contas do OneDrive
 - Grupos do Microsoft 365
 - Skype for Business
@@ -288,31 +288,37 @@ Geralmente, essa atualização é bastante rápida, mas pode levar vários dias.
 
 ## <a name="lock-a-retention-policy-by-using-powershell"></a>Bloquear uma política de retenção usando o Windows PowerShell
 
-Você deve usar o Windows PowerShell se precisar usar o [Bloqueio de Preservação](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements) para atender aos requisitos normativos.
+Você deve usar o Windows PowerShell se precisar usar o [Bloqueio de Preservação](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements) para atender aos requisitos normativos. Como os administradores não podem desabilitar ou excluir uma política de retenção após a aplicação de um bloqueio de preservação, a habilitação desse recurso não está disponível na interface do usuário para proteger contra configurações acidentais.
 
-1. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+Todas as políticas de retenção, com qualquer configuração, oferecem suporte ao Bloqueio de Preservação. No entanto, ao usar os comandos do PowerShell a seguir, você perceberá que o parâmetro **Carga de trabalho** sempre exibirá **o Exchange, o SharePoint, o OneDriveForBusines, o Skype, o ModernGroup** em vez de refletir as cargas de trabalho reais configuradas na política. Isso é apenas um problema de exibição.
 
-2. Liste suas políticas de retenção e encontre o nome da política que você quer bloquear executando `Get-RetentionCompliancePolicy`.
-    
-   ![Lista de políticas de retenção no Windows PowerShell](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
-    
-3. Coloque um Bloqueio de Preservação em uma política de retenção, execute `Set-RetentionCompliancePolicy` com o parâmetro `RestrictiveRetention` definido como verdadeiro. Por exemplo:
+1. [Conectar ao Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 
-   ```powershell
-   Set-RetentionCompliancePolicy -Identity "<Name of Policy>" – RestrictiveRetention $true
-   ```
-   
-   ![Parâmetro RestrictiveRetention no PowerShell](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
+2. Liste suas políticas de retenção e encontre o nome da política que quer bloquear executando [Get-RetentionCompliancePolicy](https://powershell/module/exchange/get-retentioncompliancepolicy). Por exemplo:
     
-   Depois de executar esse cmdlet, escolha **Sim para Todos**:
+   ![Lista de políticas de retenção no PowerShell](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
+    
+3. Para colocar um Bloqueio de Preservação em uma política de retenção, execute o cmdlet [Set-RetentionCompliancePolicy]( ) com o nome da política de retenção e o parâmetro *RestrictiveRetention* definido como verdadeiro:
+    
+    ```powershell
+    Set-RetentionCompliancePolicy -Identity "<Name of Policy>" –RestrictiveRetention $true
+    ```
+    
+    Por exemplo:
+    
+    ![Parâmetro RestrictiveRetention no PowerShell](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
+    
+     Quando solicitado, leia e confirme as restrições que vêm com esta configuração e escolha **Sim para Todos**:
     
    ![Solicitar confirmação que deseja bloquear uma política de retenção no PowerShell](../media/retention-policy-preservation-lock-confirmation-prompt.PNG)
 
-O Bloqueio de Preservação agora está localizado na política de retenção. Se executar `Get-RetentionCompliancePolicy`, o parâmetro `RestrictiveRetention` é definido como verdadeiro. Por exemplo:
+O Bloqueio de Preservação agora está localizado na política de retenção. Para confirmar, execute o `Get-RetentionCompliancePolicy` novamente, mas especifique o nome da política de retenção e exiba os parâmetros da política:
 
 ```powershell
 Get-RetentionCompliancePolicy -Identity "<Name of Policy>" |Fl
 ```
+
+Você deverá ver que o **RestrictiveRetention** está definido como **Verdadeiro**. Por exemplo:
 
 ![Bloquear a política com todos os parâmetros mostrados no PowerShell](../media/retention-policy-preservation-lock-locked-policy.PNG)
   

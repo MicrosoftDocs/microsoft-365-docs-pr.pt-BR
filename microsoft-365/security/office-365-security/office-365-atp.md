@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: A Proteção Avançada contra Ameaças do Office 365 inclui anexos seguros, links seguros, ferramentas antiphishing avançadas, ferramentas de relatório e recursos de inteligência de ameaças.
-ms.openlocfilehash: d8a8ab2f5c7de5d57f50ec6b1c26e0fc71ac6616
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: 2241f48877019cb20484aea0dd1fcf7b9e7b8bb5
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434044"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653600"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Proteção Avançada contra Ameaças do Office 365
 
@@ -45,9 +45,11 @@ A Proteção Avançada contra Ameaças do Office 365 (ATP) protege sua organiza�
 
 A tabela a seguir resume o que está incluído em cada plano.
 
-| Plano 1 do Office 365 ATP  | Plano 2 do Office 365 ATP |
+****
+
+|Plano 1 do Office 365 ATP |Plano 2 do Office 365 ATP|
 |---|---|
-|Capacidade de configuração, proteção e detecção:<br/>• [Anexos seguros](atp-safe-attachments.md)<br/>• [Links seguros](atp-safe-links.md)<br/>• [ATP para SharePoint, OneDrive e Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>• [Proteção antiphishing da ATP](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)<br/>• [Detecções em tempo real](threat-explorer.md)|Recursos do Plano 1 do Office 365 ATP <br/>---mais---<br/>Recursos de automação, investigação, correção e formação educacional:<br/>• [Rastreadores de ameaças](threat-trackers.md)<br/>• [Explorador de ameaças](threat-explorer.md)<br/>• [Investigação e resposta automatizadas](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>• [Simulador de ataque](attack-simulator.md)|
+|<br/>Capacidade de configuração, proteção e detecção: <ul><li>[Anexos Seguros](atp-safe-attachments.md)</li><li>[Links Seguros](atp-safe-links.md)</li><li>[ATP para SharePoint, OneDrive e Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Proteção antiphishing ATP](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)</li><li>[Detecções em tempo real](threat-explorer.md)</li></ul>|Recursos do Plano 1 do Office 365 ATP <br/>---mais---<br/>Recursos de automação, investigação, correção e formação educacional:</li><li>[Controladores de Ameaças](threat-trackers.md)</li><li>[Explorador de Ameaças](threat-explorer.md)</li><li>[Resposta e investigação automatizadas](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)</li><li>[Simulador de Ataque](attack-simulator.md)</li></ul>|
 |
 
 - O plano 2 do Office 365 ATP está incluído no Office 365 e5, no Office 365 a5 e no Microsoft 365 e5.
@@ -112,11 +114,11 @@ O Office 365 ATP Plano 2 inclui uma melhor investigação de [ameaças e ferrame
 Para acessar os recursos de ATP no Centro de Segurança e Conformidade, você deve ter uma função adequada. A tabela abaixo fornece alguns exemplos:
 
 |Função ou grupo de funções|Recursos para saber mais|
-|---------|---------|
-|administrador global (pode ser atribuído no Azure Active Directory ou no Centro de Conformidade e Segurança) |[Sobre as funções de administrador do Microsoft 365 ](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
-|O Administrador de Segurança (pode ser atribuído tanto no Azure Active Directory quanto no Centro de Conformidade e Segurança) |[Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[Permissões no Centro de Segurança e Conformidade](permissions-in-the-security-and-compliance-center.md)|
+|---|---|
+|administrador global (pode ser atribuído no Azure Active Directory ou no Centro de Conformidade e Segurança)|[Sobre as funções de administrador do Microsoft 365 ](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
+|O Administrador de Segurança (pode ser atribuído tanto no Azure Active Directory quanto no Centro de Conformidade e Segurança)|[Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[Permissões no Centro de Segurança e Conformidade](permissions-in-the-security-and-compliance-center.md)|
 |Gerenciamento de Organização do Exchange Online (atribuído no Exchange Online)|[Permissões no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)<br><br> [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
-|Pesquisar e Remover (isso só é atribuído no Centro de Conformidade e Segurança) |[Permissões no Centro de Conformidade e Segurança] permissions-in-the-security-and-compliance-center.md|
+|Pesquisar e Remover (isso só é atribuído no Centro de Conformidade e Segurança)|[Permissões no Centro de Segurança e Conformidade](permissions-in-the-security-and-compliance-center.md)|
 
 Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 

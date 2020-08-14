@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, pode atribuir automaticamente um rótulo ao documento ou email, ou solicitar que os usuários selecionem o rótulo recomendado.
-ms.openlocfilehash: 8704930b6d1de9e329d892e62fb14b2c59111830
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 112857d9778cf850613c808474051eb25df74296
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560622"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656822"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -54,16 +54,15 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
     Para obter instruções de configuração, confira [Como configurar as políticas de rotulagem automática para o SharePoint, OneDrive e Exchange](#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) nesta página.
     
     Específico para rotulagem automática para o SharePoint e OneDrive:
-    - Os arquivos do Office para Word, PowerPoint e Excel são suportados.
+    - Os arquivos do Office para Word, PowerPoint e Excel são suportados. Há suporte para o formato Open XML (como .docx e .xlsx), mas não para o formato Microsoft Office 97-2003 (como .doc e .xls).
     - Máximo de 25.000 arquivos rotulados automaticamente no seu locatário por dia.
-    - Máximo de 10 conjuntos de sites para cada política de rotulação automática.
-    - Máximo de 10 políticas de rotulação automática em seu locatário.
+    - Máximo de 10 políticas de rotulagem automática por locatário, cada uma visando até 10 sites (SharePoint ou OneDrive).
     - Os valores existentes para modificado, modificado por e a data não são alterados como resultado das políticas de rotulagem automática - tanto para o modo de simulação e quanto quando os rótulos são aplicados.
     - Quando o rótulo aplica criptografia, o [emissor do Gerenciamento de direitos e proprietário do Gerenciamento de direitos](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) é a pessoa que criou o rótulo de sensibilidade.
 
     Específico para rotulagem automática do Exchange:
     - Diferentemente da rotulagem manual ou rotulagem automática com aplicativos do Office, os anexos do Office (arquivos do Word, Excel e PowerPoint) e os PDFs também são verificados quanto às condições especificadas na política de rotulagem automática. Quando há uma correspondência, o email é rotulado, mas não o anexo.
-        - Para os arquivos do Office, há suporte para o formato Open XML (como .docx e .xlsx), mas não no formato Microsoft Office 97-2003 (como .doc e .xls).
+        - Para esses arquivos do Office, há suporte para o formato Open XML (como .docx e .xlsx), mas não para o formato Microsoft Office 97-2003 (como .doc e .xls).
     - Se você possui regras de fluxo de correio do Exchange ou políticas de prevenção contra perda de dados (DLP) que aplicam a criptografia de IRM: Quando o conteúdo é identificado por essas regras ou políticas e por uma política de rotulagem automática, o rótulo é aplicado. Se esse rótulo aplicar a criptografia, as configurações de IRM das regras de fluxo de email do Exchange ou políticas DLP serão ignoradas. No entanto, se esse rótulo não aplicar criptografia, as configurações de IRM das regras de fluxo de email ou políticas DLP serão aplicadas além do rótulo.
     - Um email com criptografia de IRM sem rótulo será substituído por um rótulo com todas as configurações de criptografia quando houver uma correspondência usando rotulagem automática.
     - Os emails de entrada são rotulados quando houver uma correspondência com as condições de rotulagem automática. No entanto, se o rótulo estiver configurado para criptografia, essa criptografia não será aplicada.
@@ -215,15 +214,15 @@ O modo de simulação é exclusivo das políticas de rotulagem automática e int
 
 Fluxo de trabalho para uma política de rotulagem automática:
 
-1. Crie e configure uma política de rotulagem automática
+1. Crie e configure uma política de rotulagem automática.
 
-2. Execute a política no modo de simulação e aguarde pelo menos 24 horas
+2. Execute a política no modo de simulação e aguarde 24 horas, ou até que a simulação seja concluída.
 
-3. Examine os resultados e, se necessário, refine a política, execute novamente o modo de simulação e aguarde pelo menos 24 horas
+3. Examine os resultados e, se necessário, refine a política. Execute novamente a política no modo de simulação e aguarde mais 24 horas, ou até que a simulação seja concluída.
 
 4. Repita a etapa 3 conforme necessário.
 
-5. Implante na produção
+5. Implante na produção.
 
 A implantação simulada é executada como o parâmetro WhatIf do PowerShell. Você vê os resultados relatados como se a política de rotulagem automática tivesse aplicado o rótulo selecionado, usando as regras que você definiu. Você pode refinar as regras de precisão, se necessário, e executar novamente a simulação. No entanto, como a rotulagem automática do Exchange se aplica a emails enviados e recebidos, em vez de armazenados em caixas de correio, não espere que os resultados do email em uma simulação sejam consistentes, a menos que você possa enviar e receber exatamente as mesmas mensagens de email.
 

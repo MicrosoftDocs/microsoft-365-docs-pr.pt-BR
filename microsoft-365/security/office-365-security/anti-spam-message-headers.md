@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender sobre os campos de cabeçalho adicionados às mensagens pelo EOP (Exchange Online Protection). Esses campos de cabeçalho fornecem informações sobre a mensagem e como ela foi processada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ce0b906bb627a7de11e5a8a6db02c9c6f330a62
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 5073e0721e82e969dbeaa850cc38cb13100a7947
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755351"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653420"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Cabeçalhos de mensagens anti-spam no Office 365
 
@@ -43,9 +43,10 @@ Os campos e valores individuais são descritos na tabela a seguir.
 > [!NOTE]
 > O cabeçalho **X-Forefront-Antispam-Report** contém muitos campos e valores diferentes do cabeçalho. Outros campos neste cabeçalho que não são descritos na tabela são usados exclusivamente pela equipe anti-spam da Microsoft para fins de diagnóstico.
 
-|||
+****
+
+|Campo do cabeçalho|Descrição|
 |---|---|
-|**Campo do cabeçalho**|**Descrição**|
 |ARC|O protocolo ARC tem os seguintes cabeçalhos: <ul><li>AAR: registra o conteúdo do cabeçalho de resultados de autenticação do DMARC.</li><li>AMS: esse cabeçalho inclui assinaturas criptográficas da mensagem.</li><li>AS: inclui assinaturas criptográficas dos cabeçalhos da mensagem. Este cabeçalho contém uma marca de validação da cadeia chamada "cv=", que inclui o resultado da validação de cadeia como **nenhum**, **aprovado** ou **falha**.</li></ul>|
 |CAT:|A categoria da política de proteção, aplicada à mensagem: <ul><li>BULK: em massa</li><li>DIMP: representação de domínio</li><li>GIMP: representação baseada em inteligência da caixa de correio</li><li>HPHSH ou HPHISH : Phishing de alta confiança</li><li>HSPM: Spam de alta confiança</li><li>MALW: malware</li><li>PHSH: phishing</li><li>SPM: Spam</li><li>SPOOF: Falsificação</li><li>UIMP: Representação do usuário</li><li>AMP: Antimalware</li><li>SAP: Anexos seguros</li><li>OSPM: Spam de saída</li></ul><br/>Uma mensagem de entrada pode ser sinalizada por várias formas de proteção e várias verificações de detecção. As políticas possuem prioridades diferentes, sendo que a política com a prioridade mais alta é aplicada primeiro. Para obter mais informações, consulte [Qual política se aplica quando vários métodos de proteção e verificações de detecção são executados em seus e-mails](how-policies-and-protections-are-combined.md).|
 |CIP: \[endereço IP\]|O endereço IP de conexão. Você pode usar esse endereço IP na Lista de permissões de IP ou na Lista de bloqueios de IP. Para obter mais informações, confira [Configurar a filtragem da conexão](configure-the-connection-filter-policy.md).|
@@ -75,9 +76,10 @@ Os campos e valores individuais são descritos na tabela a seguir.
 
 A tabela a seguir descreve campos úteis no cabeçalho da mensagem **X-Microsoft-Antispam**. Outros campos neste cabeçalho são usados exclusivamente pela equipe anti-spam da Microsoft para fins de diagnóstico.
 
-|||
+****
+
+|Campo do cabeçalho|Descrição|
 |---|---|
-|**Campo do cabeçalho**|**Descrição**|
 |BCL|O Nível de reclamação em massa (BCL) da mensagem. Uma BCL mais alta indica que uma mensagem de correio em massa (também conhecida como _correio cinza_) tem mais chances de gerar reclamações (e, portanto, é mais provável que seja spam). Para saber mais, confira [Nível de reclamação em massa (BCL)](bulk-complaint-level-values.md).|
 |
 
@@ -140,9 +142,10 @@ dmarc=fail action=oreject header.from=contoso.com
 
 Esta tabela descreve os campos e os valores possíveis para cada verificação de autenticação de email.
 
-|||
+****
+
+|Campo do cabeçalho|Descrição|
 |---|---|
-|**Campo do cabeçalho**|**Descrição**|
 |ação|Indica a ação executada pelo filtro de spam com base nos resultados da verificação do DMARC. Por exemplo:<ul><li>**oreject** ou **o.reject**: Significa substituir a rejeição. Neste caso, o Microsoft 365 usa essa ação quando recebe uma mensagem informando que houve falha na verificação do DMARC de um domínio cujo registro TXT do DMARC tem uma política p=reject. Em vez de excluir ou rejeitar a mensagem, o Microsoft 365 marca a mensagem como spam. Para saber mais sobre o motivo pelo qual o Microsoft 365 é configurado dessa maneira, confira [Como o Microsoft 365 lida com emails de entrada que falham DMARC](use-dmarc-to-validate-email.md#how-microsoft-365-handles-inbound-email-that-fails-dmarc).</li><li>**pct.quarantine**: Indica que uma porcentagem menor que 100% das mensagens que não passam na verificação do DMARC será enviada de qualquer forma. Isso significa que houve falha de DMARC na mensagem e a política foi definida como quarentena, mas o campo pct não foi definido como 100% e o sistema aleatoriamente determinou não aplicar a ação do DMARC, conforme a política especificada do domínio.</li><li>**pct.reject**: Indica que uma porcentagem menor que 100% das mensagens que não passam na verificação do DMARC será enviada de qualquer forma. Isso significa que houve falha de DMARC na mensagem e a política foi definida como rejeitar, mas o campo pct não foi definido como 100% e o sistema aleatoriamente determinou não aplicar a ação do DMARC, conforme a política especificada do domínio.</li><li>**permerror**: Ocorreu um erro permanente durante a avaliação do DMARC, como encontrar um registro TXT do DMARC formado incorretamente no DNS. Tentar reenviar esta mensagem provavelmente não terminará com um resultado diferente. Em vez disso, talvez seja necessário entrar em contato com o proprietário do domínio para resolver o problema.</li><li>**temperror**: Ocorreu um erro temporário durante a avaliação do DMARC. Você poderá solicitar ao remetente que reenvie a mensagem mais tarde para processar o email corretamente.</li></ul>|
 |compauth|Resultado da autenticação composta. Usado pelo Microsoft 365 para combinar vários tipos de autenticação como SPF, DKIM, DMARC ou qualquer outra parte da mensagem para determinar se a mensagem foi autenticada. Usa o domínio De: como base de avaliação.|
 |dkim|Descreve os resultados da verificação do DKIM para a mensagem. Os valores possíveis incluem:<ul><li>**pass**: Indica que a verificação DKIM para a mensagem foi aprovada.</li><li>**fail (motivo)**: Indica que a verificação do DKIM para a mensagem falhou e o porquê. Por exemplo, se a mensagem não foi assinada ou se a assinatura não foi verificada.</li><li>**none**: Indica que a mensagem não foi assinada. Isso pode ou não indicar que o domínio tem um registro DKIM ou o registro DKIM não foi avaliado como um resultado, apenas que essa mensagem não foi assinada.</li></ul>|

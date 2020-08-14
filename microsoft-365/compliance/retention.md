@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: ee256271b3520011db586d42e579b64b439a6210
-ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
+ms.openlocfilehash: ff99e61c82f0427d79d8aca99acc82a338f79b8a
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588203"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649148"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -124,6 +124,8 @@ Em resumo, uma política de retenção bloqueada pode ser aumentada ou estendida
   
 > [!IMPORTANT]
 > Antes de bloquear uma política de retenção, é fundamental que você entenda o impacto e confirme se ela é necessária para a sua organização atender aos requisitos normativos. Os administradores não poderão desabilitar ou excluir uma política de retenção após a aplicação do bloqueio de preservação.
+
+Aplique o Bloqueio de Preservação após a política de retenção ser criada, usando o PowerShell. As instruções estão incluídas em [Criar e configurar políticas de retenção](create-retention-policies.md).
 
 #### <a name="releasing-a-retention-policy"></a>Como liberar uma política de retenção
 
