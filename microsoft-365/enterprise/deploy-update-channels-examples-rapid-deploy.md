@@ -9,18 +9,18 @@ ms.date: 07/21/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_O365_Enterprise
 - M365-subscription-management
 ms.custom: ''
 description: Como uma organização que implanta a versão mais recente usa canais para aplicativos do Windows 10 e do Microsoft 365.
-ms.openlocfilehash: 46f36a7bd26ef190aca2a63fdaa993e420988b30
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
-ms.translationtype: HT
+ms.openlocfilehash: fd1d8ddd342b2781470378c879ef70d2ba304316
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200094"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686161"
 ---
 # <a name="example-of-broad-deployment-for-the-latest-releases"></a>Exemplo de implantação abrangente das versões mais recentes
 
@@ -109,6 +109,6 @@ Estes são os produtos, seus canais e os grupos de implantação usados por este
 
 [Exemplo de configurações de canal de implantação e atualização](deploy-update-channels-examples.md)
 
-[Guia de implantação](deploy-microsoft-365-enterprise.md)
+[Visão geral do Microsoft 365 para empresas](microsoft-365-overview.md)
 
 [Guias de laboratório de teste](m365-enterprise-test-lab-guides.md)

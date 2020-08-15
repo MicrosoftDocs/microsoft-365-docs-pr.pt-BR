@@ -9,18 +9,18 @@ ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Descrição do tópico de resiliência
-ms.openlocfilehash: 8cda7a861b6ea646ed9606674e26aaca551d1024
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
-ms.translationtype: HT
+ms.openlocfilehash: 2edb54e1d12fa48de70d026f3c61c2dc31e13c43
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597018"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686565"
 ---
 # <a name="built-in-resiliency"></a>Resiliência integrada
 

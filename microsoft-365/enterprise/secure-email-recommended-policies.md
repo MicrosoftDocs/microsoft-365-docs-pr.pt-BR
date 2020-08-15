@@ -1,5 +1,5 @@
 ---
-title: Políticas recomendadas para email seguro – Microsoft 365 Enterprise | Microsoft Docs
+title: Políticas recomendadas para email seguro-Microsoft 365 for Enterprise | Microsoft docs
 description: Descreve as políticas para as recomendações da Microsoft sobre como aplicar configurações e políticas de email.
 author: brendacarter
 manager: laurawi
@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: c2eabd160cf221f7e2bb7b81f07c205135476cc9
-ms.sourcegitcommit: d6b641d0ef92f4176da9f4a98d3d5aa3d4f2e184
+ms.openlocfilehash: 39e7be86c06a471a4eefc0cacd3657c363eddae6
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46617169"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685601"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Recomendações de política para proteger o email
 

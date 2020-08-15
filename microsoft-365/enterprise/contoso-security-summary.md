@@ -1,5 +1,5 @@
 ---
-title: Resumo de segurança do Microsoft 365 Enterprise para a Contoso Corporation
+title: Resumo do Microsoft 365 for Enterprise Security para a Contoso Corporation
 author: JoeDavies-MSFT
 f1.keywords:
 - NOCSH
@@ -9,22 +9,22 @@ ms.date: 10/02/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Como a Contoso está usando os recursos de segurança no Microsoft 365 Enterprise.
-ms.openlocfilehash: c0f3497eb49a0490fccf6c0ec5174d932a21005e
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
-ms.translationtype: HT
+description: Como a Contoso está usando os recursos de segurança no Microsoft 365 para empresas.
+ms.openlocfilehash: 2244f13f8e8f56edbadd40d1e85cb309d70f7744
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268393"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686435"
 ---
-# <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Resumo de segurança do Microsoft 365 Enterprise para a Contoso Corporation
+# <a name="summary-of-microsoft-365-for-enterprise-security-for-the-contoso-corporation"></a>Resumo do Microsoft 365 for Enterprise Security para a Contoso Corporation
 
-Para obter a aprovação da implantação do Microsoft 365 Enterprise pelo departamento de segurança de TI, foi realizada uma revisão completa de segurança. Aqui estão os requisitos de segurança da Contoso para a nuvem:
+Para obter a aprovação da implantação do Microsoft 365 for Enterprise pelo departamento de segurança de ti, uma revisão de segurança completa foi conduzida. Estes são os requisitos de segurança da Contoso para a nuvem:
 
 - Use os métodos mais seguros de autenticação de acesso do funcionário aos recursos da nuvem
 - Garanta que computadores e dispositivos móveis se conectem e acessem os aplicativos de forma segura
@@ -36,7 +36,7 @@ Para obter a aprovação da implantação do Microsoft 365 Enterprise pelo depar
 
 ## <a name="contosos-path-to-microsoft-365-security-readiness"></a>Caminho da Contoso para preparação para segurança do Microsoft 365
 
-A Contoso realizou as etapas a seguir para preparar a segurança para a implantação do Microsoft 365 Enterprise:
+A contoso usou as seguintes etapas para preparar sua segurança para a implantação do Microsoft 365 for Enterprise:
 
 1. Contas de administrador limitadas para a nuvem
 
@@ -44,13 +44,13 @@ A Contoso realizou as etapas a seguir para preparar a segurança para a implanta
 
 2. Executou a análise de classificação de dados em três níveis
 
-   A Contoso fez um exame cuidadoso e determinou os três níveis, que foram usados para determinar os recursos do Microsoft 365 Enterprise para proteger os dados mais valiosos da Contoso.
+   A contoso realizou uma análise cuidadosa e determinou os três níveis, que foram usados para determinar o Microsoft 365 para recursos corporativos para proteger os dados mais importantes da contoso.
 
 3. Determinou as políticas de acesso, de retenção e de proteção de informações para níveis de dados
 
    Com base nos níveis de dados, a Contoso determinou requisitos detalhados, que serão usados para qualificar cargas de trabalho de TI futuras que estejam sendo movidas para a nuvem.
 
-De acordo com as práticas recomendadas de segurança e os requisitos de implantação do Microsoft 365 Enterprise, os administradores de segurança da Contoso e o departamento de TI implantaram vários recursos e funcionalidades de segurança, conforme descrito nas seções a seguir.
+De acordo com as práticas recomendadas de segurança e o Microsoft 365 para requisitos de implantação corporativa, os administradores de segurança e o departamento de ti da Contoso implantaram muitos recursos e recursos de segurança, conforme descrito nas seções a seguir.
 
 ## <a name="identity--access-management"></a>Gerenciamento de identidades e acesso 
 

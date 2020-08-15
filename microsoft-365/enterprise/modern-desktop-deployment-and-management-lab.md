@@ -2,31 +2,31 @@
 title: Kit de laboratório de implantação do Office e do Windows
 f1.keywords:
 - NOCSH
-ms.author: jogruszc
-author: JGruszczyk
-manager: jemed
-ms.date: 06/10/2019
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: laurawi
+ms.date: 08/10/2020
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: a52d2ef1570509150aa1b44c7d7d767287e308f1
-ms.sourcegitcommit: 020b89b0d558a866ea68d35b5170db76f6d8d74d
-ms.translationtype: HT
+ms.openlocfilehash: 751d2a04daa707049c59b9b7cabb18ca06a598d1
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45052720"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685493"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Office e do Windows
 
-Esses laboratórios foram projetados para ajudá-lo a planejar, testar e validar sua implantação e gerenciamento de áreas de trabalho que estão executando o Windows 10 Enterprise e o Microsoft 365 Apps para empresas. Estes laboratórios abrangem as etapas e ferramentas descritas na roda da Implementação de Desktop, abrangendo o Microsoft Endpoint Configuration Manager, o Desktop Analytics, a Ferramenta de Personalização do Office, o OneDrive, o Windows Autopilot e muito mais.
+Esses laboratórios foram projetados para ajudá-lo a planejar, testar e validar a implantação e o gerenciamento de desktops que executam o Windows 10 Enterprise e o Microsoft 365 aplicativos para empresas. A capa de laboratórios usando o Microsoft Endpoint Configuration Manager, o desktop Analytics, a ferramenta de personalização do Office, o OneDrive, o piloto automático do Windows e muito mais.
 
-Esse treinamento é altamente recomendado para organizações que se preparam para o fim da vida útil do Windows 7 e também se aplica se você estiver usando o Windows 10 e o Microsoft 365 Apps para empresas (antigo Office 365 ProPlus) ou o Office 2019. Além disso, como um ambiente isolado, o laboratório é ideal para explorar as atualizações da ferramenta de implantação e testar a automação relacionada à implantação.
+Este kit é altamente recomendável para organizações que estão se preparando para atualizações do Windows 8 e também se aplicam se você estiver usando o Windows 10, aplicativos da Microsoft 365 para empresas (anteriormente Office 365 ProPlus) ou Office 2019. Além disso, como um ambiente isolado, o laboratório é ideal para explorar as atualizações da ferramenta de implantação e testar a automação relacionada à implantação.
 
 [Baixe o Kit de laboratório de implantação do Office e do Windows](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
@@ -46,9 +46,8 @@ O laboratório fornece um ambiente de laboratório provisionado automaticamente,
 
 Além disso, o laboratório foi projetado para ser conectado aos testes do: 
 
-  - Microsoft 365 E5 ou
-  - Office 365 Enterprise E5
-  - Enterprise Mobility + Security
+  - Microsoft 365 E5
+  - Office 365 Enterprise E5 com Enterprise Mobility + Security (EMS)
 
 ## <a name="step-by-step-labs"></a>Laboratórios passo a passo
 
@@ -57,14 +56,14 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 ### <a name="device-and-app-readiness"></a>Preparação de dispositivos e aplicativos
 
   - Análise de Área de Trabalho
-  - NOVO! Implantar e atualizar o novo Microsoft Edge 
-  - NOVO! Instalar e configurar o Gateway de Gerenciamento de Nuvem (CMG) 
+  - Implantar e atualizar o novo Microsoft Edge 
+  - Instalar e configurar o Gateway de Gerenciamento de Nuvem (CMG) 
   - Modo do Internet Explorer 
   - Application Guard 
 
 ### <a name="directory-and-network-readiness"></a>Preparação de rede e diretório
 
-  - NOVO! Otimizar a Entrega de Atualizações do Windows 10 
+  - Otimizar a Entrega de Atualizações do Windows 10 
   - Cogerenciamento do Configuration Manager e do Microsoft Intune
   - Acesso Remoto (VPN)
 
@@ -110,7 +109,7 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
   - Manutenção do Microsoft 365 Apps para Grandes Empresas com o Gerenciador de Configurações
   - NOVO! Atualizações do Office com o Configuration Manager Intune
   
-### <a name="new-windows-virtual-desktop"></a>NOVO! Área de Trabalho Virtual do Windows
+### <a name="windows-virtual-desktop"></a>Área de Trabalho Virtual do Windows
   - Área de trabalho virtual do Windows: preparar, implantar, otimizar 
 
 ### <a name="download-the-windows-and-office-deployment-lab-kit"></a>Baixe o kit de laboratório de implantação do Office e Windows
@@ -120,8 +119,6 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 *Para melhorar sua experiência de download, use uma largura de banda alta para baixar esse conteúdo e reserve 30 a 45 minutos para o provisionamento automático. O ambiente de laboratório requer um mínimo de 16 GB de memória disponível e 150 GB de espaço livre em disco. Para um desempenho ideal, é recomendável possuir 32 GB de memória disponível. O laboratório expirará em 12 de novembro de 2020. Uma nova versão será publicada antes da expiração.*
 
 ## <a name="additional-guidance"></a>Orientações adicionais
-
-  - [Centro de Implantação do Computador](https://www.aka.ms/howtoshift)
 
   - [Vídeos da série Implantação do Computador do Microsoft Mechanics](https://www.aka.ms/watchhowtoshift)
 

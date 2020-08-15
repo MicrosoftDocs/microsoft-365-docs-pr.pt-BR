@@ -1,5 +1,5 @@
 ---
-title: Classificação de dados para seu ambiente de teste do Microsoft 365 Enterprise
+title: Classificação de dados para o ambiente de teste do Microsoft 365 for Enterprise
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -13,26 +13,26 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
-description: Use este guia de laboratório de teste para criar e usar rótulos de retenção em documentos em seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 41873eba8f2d6168d68d771c6feb17a44c775f6a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Use este guia de laboratório de teste para criar e usar rótulos de retenção em documentos no ambiente de teste do Microsoft 365 for Enterprise.
+ms.openlocfilehash: 171fcb74b09a1f2e5c80f23e010640dce55660bc
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636087"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686401"
 ---
-# <a name="data-classification-for-your-microsoft-365-enterprise-test-environment"></a>Classificação de dados para seu ambiente de teste do Microsoft 365 Enterprise
+# <a name="data-classification-for-your-microsoft-365-for-enterprise-test-environment"></a>Classificação de dados para o ambiente de teste do Microsoft 365 for Enterprise
 
-*Este Guia de Laboratório de Testes pode ser usado para ambientes de teste corporativo do Microsoft 365 Enterprise e do Office 365.*
+*Este guia de laboratório de teste pode ser usado para ambientes de teste corporativos do Microsoft 365 para Enterprise e Office 365.*
 
-Com as instruções deste artigo, você configura a classificação de dados usando rótulos de retenção no ambiente de teste do Microsoft 365 Enterprise.
+Com as instruções deste artigo, você configura a classificação de dados usando rótulos de retenção no ambiente de teste do Microsoft 365 for Enterprise.
 
 ![Guias do Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia do Test Lab do Microsoft 365 Enterprise.
+> Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia de Laboratório de Teste do Microsoft 365 para empresas.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: Criar o ambiente de teste do Microsoft 365 Enterprise
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: desenvolver seu ambiente de teste do Microsoft 365 for Enterprise
 
 Se você só quiser configurar os rótulos de retenção de uma forma leve com os requisitos mínimos, siga as instruções em [configuração básica leve](lightweight-base-configuration-microsoft-365-enterprise.md).
   
@@ -73,7 +73,7 @@ Nesta fase, você cria os rótulos de retenção para os diferentes níveis de r
     
 11. No painel **escolher rótulos** , clique em **Adicionar** e selecione todos os quatro rótulos.
     
-12. Clique em **Adicionar**e em **concluído**.
+12. Clique em **Adicionar** e, em seguida, clique em **Concluído**.
     
 13. No painel **Escolher rótulos para publicar**, clique em **Avançar**.
     
@@ -91,7 +91,7 @@ Nesta fase, você descobre o comportamento de rótulo de retenção padrão para
 
 Primeiro, crie um site de equipe do SharePoint Online de nível confidencial:
   
-1. Usando uma instância privada do navegador, entre no [portal do Office 365](https://portal.office.com) usando sua conta de administrador global.
+1. Usando uma instância privada do navegador, entre no [centro de administração do Microsoft 365](https://admin.microsoft.com) usando sua conta de administrador global.
     
 2. Na lista de blocos, clique em **SharePoint**.
     
@@ -125,15 +125,13 @@ Em seguida, crie um novo documento no site do SensitiveFiles e altere seu rótul
     
 3. Na barra de menus, clique em **documentos compartilhados**.
     
-4. Clique nas reticências verticais ao lado do nome de arquivo **Document. docx** e, em seguida, clique em **detalhes**.
+4. Clique nas reticências verticais ao lado do nome do arquivo **Document.docx** e, em seguida, clique em **detalhes**.
     
 5. No painel direito, na seção **Propriedades** , em **aplicar rótulo de retenção**, observe que o documento teve o rótulo de retenção **confidencial** aplicado automaticamente.
     
-6. Clique em **Editar tudo**.
+6. Clique em **Editar Tudo**.
     
-7. No painel **Document. docx** , em **aplicar rótulo de retenção**, selecione o rótulo **altamente confidencial** e clique em **salvar**.
-
-Consulte a etapa [Configurar a classificação para seu ambiente](infoprotect-configure-classification.md) na fase de **proteção de informações** para obter informações e links sobre como implantar rótulos de retenção em produção.
+7. No painel **Document.docx** , em **aplicar rótulo de retenção**, selecione o rótulo **altamente confidencial** e clique em **salvar**.
 
 ## <a name="next-step"></a>Próxima etapa
 
@@ -141,10 +139,10 @@ Explore recursos e funcionalidades adicionais de [proteção de informações](m
 
 ## <a name="see-also"></a>Confira também
 
-[Guias do Laboratório de Teste do Microsoft 365 Enterprise](m365-enterprise-test-lab-guides.md)
+[Guias do Laboratório de Teste do Microsoft 365 para empresas](m365-enterprise-test-lab-guides.md)
 
-[Implantar o Microsoft 365 Enterprise](deploy-microsoft-365-enterprise.md)
+[Visão geral do Microsoft 365 para empresas](microsoft-365-overview.md)
 
-[Documentação do Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentação da Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365-enterprise/)
 
  

@@ -9,18 +9,18 @@ ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Entenda a estrutura básica da infraestrutura de TI local da Contoso e de que forma suas necessidades comerciais foram atendidas pelo Microsoft 365 Enterprise.
-ms.openlocfilehash: 3899466e6c8ad50ad3a3d97863d1368ba1d8af20
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
-ms.translationtype: HT
+description: Entenda a estrutura básica da infraestrutura de ti local da Contoso e como suas necessidades comerciais foram atendidas pela Microsoft 365 para empresas.
+ms.openlocfilehash: 3dd744a8d936307c61303bf8ba0f2f198af59d91
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011192"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685825"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>Infraestrutura de TI e necessidades comerciais da Contoso
 
@@ -112,20 +112,20 @@ Gerenciamento:
 
   Automatize a instalação de atualizações no sistema operacional Windows e no Microsoft 365 Apps para Grandes Empresas em toda a organização.
 
-## <a name="mapping-contosos-business-needs-to-microsoft-365-enterprise"></a>Mapear as necessidades comerciais da Contoso para o Microsoft 365 Enterprise
+## <a name="mapping-contosos-business-needs-to-microsoft-365-for-enterprise"></a>Mapear as necessidades de negócios da Contoso para a Microsoft 365 para empresas
 
 O departamento de TI da Contoso determinou o seguinte mapeamento das necessidades comerciais dos recursos do Microsoft 365 E5 antes da implantação:
 
-||||
+
+| Categoria | Necessidade comercial | Microsoft 365 para produtos ou recursos corporativos |
 |:-------|:-----|:-----|
-| **Categoria** | **Necessidade comercial** | **Recursos e produtos do Microsoft 365 Enterprise** |
 | Produtividade |  |  |
 |  | Facilitar a colaboração | Microsoft Teams, SharePoint, OneDrive |
 |  | Aumentar a produtividade de trabalhadores remotos e móveis | Cargas de trabalho do Microsoft 365 e dados baseados em nuvem |
 |  | Aumentar a criatividade e a inovação | Windows Ink, Cortana at Work, PowerPoint |
 | Segurança |  |  |
 |  | Gerenciamento de identidades e acesso | Contas de administrador globais dedicadas com Autenticação Multifator do Azure e Azure AD Privileged Identity Management (PIM) <BR> Autenticação Multifator para todas as contas de usuário <BR> Acesso Condicional <BR> Windows Hello <BR> Windows Credential Guard |
-|  | Proteção contra Ameaças | Advanced Threat Analytics <BR> Windows Defender <BR> Proteção Avançada contra Ameaças <BR> Proteção Avançada contra Ameaças do Office 365 <BR> Investigação e resposta a ameaças do Office 365 <BR> |
+|  | Proteção contra Ameaças | Advanced Threat Analytics <BR> Windows Defender <BR> Proteção Avançada contra Ameaças <BR> Proteção Avançada contra Ameaças do Office 365 <BR> Investigação e resposta de ameaças da Microsoft 365 <BR> |
 |  | Proteção de informações | Proteção de Informações do Azure <BR> Prevenção de Perda de Dados (DLP) <BR> Proteção de Informações do Windows (WIP) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | Gerenciamento de segurança | Central de Segurança do Azure  <BR> Central de Segurança do Windows Defender |
 | Acesso remoto e móvel e parceiros de negócios |  |  |
@@ -133,7 +133,7 @@ O departamento de TI da Contoso determinou o seguinte mapeamento das necessidade
 |  | Reduzir a infraestrutura de acesso remoto para os trabalhadores | Cargas de trabalho do Microsoft 365 e dados baseados em nuvem |
 |  | Fornecer conectividade aprimorada e sobrecarga mais baixa para transações B2B | Autenticação federada e recursos baseados em nuvem |
 | Conformidade |  |  |
-|  | Cumprir os requisitos regulamentares regionais | Recursos de RGPD no Office 365 |
+|  | Cumprir os requisitos regulamentares regionais | Recursos do RGPD no Microsoft 365 |
 | Gerenciamento |  |  |
 |  | Reduzir a sobrecarga da TI para instalar as atualizações do cliente | Anéis de implantação <BR> Atualizações do Windows 10 Enterprise <BR> Atualizações de Aplicativos do Microsoft 365 Apps para empresas |
 ||||
@@ -144,6 +144,6 @@ O departamento de TI da Contoso determinou o seguinte mapeamento das necessidade
 
 ## <a name="see-also"></a>Confira também
 
-[Guia de implantação](deploy-microsoft-365-enterprise.md)
+[Visão geral do Microsoft 365 para empresas](microsoft-365-overview.md)
 
 [Guias de laboratório de teste](m365-enterprise-test-lab-guides.md)

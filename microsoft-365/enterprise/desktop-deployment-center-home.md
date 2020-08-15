@@ -2,97 +2,41 @@
 title: Centro de Implantação do Computador
 f1.keywords:
 - NOCSH
-ms.author: jogruszc
-author: JGruszczyk
-manager: jemed
-ms.date: 08/14/2019
-ms.audience: ITPro
-ms.topic: conceptual
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: laurawi
+ms.date: 08/10/2020
+audience: ITPro
+ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
-ms.collection:
-- Ent_O365
-- Strat_O365_Enterprise
-ms.custom: ''
-description: Visão geral do Centro de Implantação do Computador.
-ms.openlocfilehash: 3559a32db71d2cceaf3ab4dc67701d5f5f00e7fe
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
-ms.translationtype: HT
+localization_priority: Normal
+ms.collection: M365-subscription-management
+ms.custom: it-pro
+description: Como obter os recursos equivalentes ao centro de implantação de área de trabalho preterido.
+ms.openlocfilehash: 6db35ba51f06c7cca025112ebd1bb8d718b7842c
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528103"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686125"
 ---
-# <a name="desktop-deployment-center"></a>Centro de Implantação do Computador
+# <a name="desktop-deployment-center-deprecated"></a>Centro de implantação de desktop (preterido)
 
-<strong>Atualizar do Windows 7 para o Windows 10</strong>
-<p>O suporte estendido do Windows 7 termina em 14 de janeiro de 2020. A atualização in-loco do Windows 7 para o Windows 10 é o método mais rápido de implantá-lo. Você pode <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">atualizar um único PC</a> ou <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">atualizar milhares de PCs usando o Microsoft Endpoint Configuration Manager</a>. Não é necessário se concentrar na entrega de aplicativos, na migração de arquivos, na imagem personalizada ou na habilitação de serviços baseados na nuvem com atualizações in-loco. Você pode usar as ferramentas que já tem para atualizar os computadores existentes e se concentrar nas seguintes etapas de implantação para atualizações: </p>
+O corpo do conteúdo que contém o centro de implantação de área de trabalho foi preterido. 
 
-|               |               |               |               |               |               |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| <img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" width="36" height="36" alt="Upgrade ConfigMgr" /> | **[Atualizar o ConfigMgr para o Branch Atual](https://docs.microsoft.com/microsoft-365/enterprise/step-2-directory-and-network-readiness)** <p>Parte da etapa de Preparação de Redes e Diretórios para organizações que usam o Gerenciador de Configurações</p> | <img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" width="36" height="36" alt="Device and App Readiness" /> | **[Validar a preparação de dispositivos e aplicativos](/microsoft-365/enterprise/step-1-device-and-app-readiness)** <p>Parte da etapa de Preparação de Aplicativos e Dispositivos; a ajuda está disponível por meio da Garantia de Aplicativo da rea de Trabalho</p> | <img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" width="36" height="36" alt="Upgrade Windows 7 PCs" /> | **[Atualizar computadores com Windows 7 para o Windows 10](/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated)** <p>Parte da etapa de Preparação de Aplicativos e Dispositivos; a ajuda está disponível por meio da Garantia de Aplicativo da Área de Trabalho</p> |
+Use estes recursos para implantar áreas de trabalho modernas:
 
-<img align="middle" src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-2.png" alt="Desktop Deployment Wheel" height="450" width="802" align="middle" style="background-color: #fff;" />
+- [Implantação do Windows 10](https://docs.microsoft.com/windows/deployment/)
+- [Implantar aplicativos do Microsoft 365](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
+- [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/planning-guide)
+- [Políticas de acesso de dispositivos e identidades](microsoft-365-policies-configurations.md)
 
+Você também pode exibir os [vídeos da série de implantação de área de trabalho do Microsoft mecânica](https://www.aka.ms/watchhowtoshift).
 
-Siga as etapas abaixo para planejar e executar sua implantação em grande escala do Windows 10 e do Aplicativos do Microsoft 365 para empresas. Cada etapa abaixo faz parte de um processo geral de planejamento e implantação com etapas normalmente sendo executadas em paralelo umas às outras em uma implantação em fases. Baixe o aplicativo [Kit de Laboratório de Implantação e Gerenciamento do Computador](https://aka.ms/howtoshiftlabs) para ter um treinamento prático com as ferramentas destacadas no processo de implantação. Você também pode [obter ajuda](https://aka.ms/mddhelp) para a sua implantação do computador dos parceiros da Microsoft e serviços do FastTrack.
+Você também pode [obter ajuda](https://aka.ms/mddhelp) para a sua implantação do computador dos parceiros da Microsoft e serviços do FastTrack.
 
-<br>
+## <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Office e do Windows
 
-<table>
-<tr class="even">
-<td><a href="https://aka.ms/mdd0"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-1.png" alt="Getting Started" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd0">Introdução: Orientações sobre pessoas, processos e tecnologia</a></strong></p>
-<p>Descubra os benefícios de migrar para o Windows 10 e Aplicativos do Microsoft 365 para empresas, as principais alterações e considerações em relação às implantações anteriores e as práticas recomendadas para garantir uma transição suave para o Windows 10 e o Aplicativos do Microsoft 365 para empresas.</p></td>
-<td><a href="https://aka.ms/ddev0" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-13.png" alt="Getting Started" height="130" width="231" /></a></td>
-</tr>
-<tbody>
-<tr class="odd">
-<td><a href="https://aka.ms/mdd1"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="Step 1" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd1">Etapa 1: Preparação de dispositivos e aplicativos</a></strong></p>
-<p>Comece seu projeto de implantação do computador com um inventário de seus dispositivos e aplicativos, priorize o que precisa para prosseguir, teste os aplicativos e dispositivos priorizados e corrija o que for necessário para se preparar para a implantação.</p></td>
-<td><a href="https://aka.ms/ddev1" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-14.png" alt="Step 1" height="130" width="231" /></a></td>
-</tr>
-<tr class="even">
-<td><a href="https://aka.ms/mdd2"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Step 2" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd2">Etapa 2: Preparação de rede e diretório</a></strong></p>
-<p>Os serviços conectados à nuvem de Aplicativos do Microsoft 365 para empresas e as novas opções de implantação, como o Windows Autopilot, exigem o Azure Active Directory. Sua rede e conectividade também são áreas importantes para planejar ao migrar imagens, aplicativos, driver e arquivos relacionados do Windows para seus computadores. Saiba como as novas ferramentas e opções de implantação reduzem e simplificam o tráfego de rede.</p></td>
-<td><a href="https://aka.ms/ddev2" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-15.png" alt="Step 2" height="130" width="231" /></a></td>
-</tr>
-<tr class="odd">
-<td><a href="https://aka.ms/mdd3"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-6.png" alt="Step 3" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd3">Etapa 3: Entrega de aplicativos do Office e LOB</a></strong></p>
-<p>Certifique-se de que seus aplicativos estão empacotados e preparados para a instalação automatizada. Saiba como o pacote Clique para Executar com o Aplicativos do Microsoft 365 para empresas oferece novas opções para configurar, entregar e manter seus aplicativos do Office atualizados.</p></td>
-<td><a href="https://aka.ms/ddev3" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-16.png" alt="Step 3" height="130" width="231" /></a></td>
-</tr>
-<tr class="even">
-<td><a href="https://aka.ms/mdd4"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-7.png" alt="Step 4" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd4">Etapa 4: Arquivos e configurações de usuários</a></strong></p>
-<p>Quando atualizar ou substituir computadores, economize tempo automatizando o backup e a restauração do estado do usuário. As novas opções para a sincronização de arquivos da nuvem permitem impor a sincronização por usuário das pastas Área de Trabalho, Documentos e Imagens para o OneDrive, para acesso simples aos arquivos das novas instalações do Windows.</p></td>
-<td><a href="https://aka.ms/ddev4" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-17.png" alt="Step 4" height="130" width="231" /></a></td>
-</tr>
-<tr class="odd">
-<td><a href="https://aka.ms/mdd5"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-8.png" alt="Step 5" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd5">Etapa 5: Considerações de segurança e conformidade</a></strong></p>
-<p>O Windows 10 e o Aplicativos do Microsoft 365 para empresas fornecem novas maneiras de proteger seus dados, dispositivos, usuários e detecta e responde rapidamente a ameaças. Saiba também como lidar com problemas comuns associados a criptografia de disco, aplicativos anti-malware e políticas ao mover para o Windows 10.</p></td>
-<td><a href="https://aka.ms/ddev5" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-18.png" alt="Step 5" height="130" width="231" /></a></td>
-</tr>
-<tr class="even">
-<td><a href="https://aka.ms/mdd6"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="Step 6" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd6">Etapa 6: Implantação de sistema operacional e atualizações de recursos</a></strong></p>
-<p>A implantação baseada em sequência de tarefas é usada para automatizar a implantação em grande escala para instalações de bare metal, atualização e substituição do computador. Atualizar sequências de tarefas também lhe ajudará a manter-se atualizado com as principais atualizações semestrais. O Windows Autopilot é uma adição recente que modernizou a geração de imagens de dispositivos novos e existentes.</p></td>
-<td><a href="https://aka.ms/ddev6" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-19.png" alt="Step 6" height="130" width="231" /></a></td>
-</tr>
-<tr class="odd">
-<td><a href="https://aka.ms/mdd7"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-10.png" alt="Step 7" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd7">Etapa 7: Manutenção do Windows e Office</a></strong></p>
-<p>O Windows 10 e o Aplicativos do Microsoft 365 para empresas adicionam continuamente novos recursos para prosseguir com as experiências e a segurança do usuário com as inovações mais recentes. Saiba como manter-se atualizado com as atualizações semestrais e mensais, como o novo modelo de manutenção funciona e as ferramentas e opções que você tem.</p></td>
-<td><a href="https://aka.ms/ddev7" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-20.png" alt="Step 7" height="130" width="231" /></a></td>
-</tr>
-<tr class="even">
-<td><a href="https://aka.ms/mdd8"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="Step 8" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd8">Etapa 8: Comunicações e treinamento de usuários</a></strong></p>
-<p>Certifique-se de que os usuários estejam informados sobre as novas experiências e novas maneiras de trabalhar à medida que você migra os computadores para o Windows 10 e Aplicativos do Microsoft 365 para empresas. Saiba como aproveitar a assistência para adoção dos usuários com o Microsoft FastTrack, materiais de treinamento e modelos de comunicação, bem como novas maneiras de monitorar o uso e a aceitação do usuário.</p></td>
-<td><a href="https://aka.ms/ddev8" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></a></td>
-</tr>
-</tbody>
-</table>
+Este kit ajuda você a planejar, testar e validar sua implantação e o gerenciamento de desktops que executam o Windows 10 Enterprise e o Microsoft 365 aplicativos para empresas. A capa de laboratórios usando o Microsoft Endpoint Configuration Manager, o desktop Analytics, a ferramenta de personalização do Office, o OneDrive, o piloto automático do Windows e muito mais.
+
+Consulte [Windows and Office Deployment Lab kit](modern-desktop-deployment-and-management-lab.md) para obter detalhes.

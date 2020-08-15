@@ -1,5 +1,5 @@
 ---
-title: Políticas de conformidade de dispositivo para seu ambiente de teste do Microsoft 365 Enterprise
+title: Políticas de conformidade de dispositivo para seu ambiente de teste do Microsoft 365 for Enterprise
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -13,26 +13,26 @@ localization_priority: Normal
 ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
-description: Use este guia de laboratório de teste para adicionar políticas de conformidade de dispositivo do Intune ao seu ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: 5ef39310ff74e5d5a38e8a5dd8c7ca24a126af58
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+description: Use este guia de laboratório de teste para adicionar políticas de conformidade de dispositivo do Intune ao seu ambiente de teste do Microsoft 365 for Enterprise.
+ms.openlocfilehash: 3c77a7ea8ddc5120a2ce53fa0834dab213502657
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679021"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686749"
 ---
-# <a name="device-compliance-policies-for-your-microsoft-365-enterprise-test-environment"></a>Políticas de conformidade de dispositivo para seu ambiente de teste do Microsoft 365 Enterprise
+# <a name="device-compliance-policies-for-your-microsoft-365-for-enterprise-test-environment"></a>Políticas de conformidade de dispositivo para seu ambiente de teste do Microsoft 365 for Enterprise
 
-*Este Guia de Laboratório de Testes pode ser usado apenas em ambientes de teste do Microsoft 365 Enterprise.*
+*Este guia de laboratório de teste só pode ser usado para o Microsoft 365 para ambientes de teste corporativos.*
 
-Com as instruções deste artigo, você adiciona uma política de conformidade de dispositivo do Intune para dispositivos Windows 10 e aplicativos da Microsoft 365 para empresas ao seu ambiente de teste do Microsoft 365 Enterprise.
+Com as instruções deste artigo, você adiciona uma política de conformidade de dispositivo do Intune para dispositivos Windows 10 e aplicativos da Microsoft 365 para empresas ao seu ambiente de teste do Microsoft 365 para empresas.
 
 ![Guias do Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia do Test Lab do Microsoft 365 Enterprise.
+> Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia de Laboratório de Teste do Microsoft 365 para empresas.
 
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: Criar o ambiente de teste do Microsoft 365 Enterprise
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: desenvolver seu ambiente de teste do Microsoft 365 for Enterprise
 
 Se você só quiser configurar as políticas de MAM de forma leve com os requisitos mínimos, siga as instruções em [configuração básica leve](lightweight-base-configuration-microsoft-365-enterprise.md).
   
@@ -46,7 +46,7 @@ Se você quiser configurar as políticas de MAM em uma empresa simulada, siga as
 
 Nesta fase, você cria uma política de conformidade de dispositivo para dispositivos Windows 10.
   
-1. Vá para o portal do Office 365 em ( [https://portal.office.com](https://portal.office.com) ) e entre na sua assinatura de laboratório de teste do Office 365 com sua conta de administrador global.
+1. Vá para o [centro de administração do microsoft 365](https://admin.microsoft.com) e entre na sua assinatura de laboratório de teste do Microsoft 365 com sua conta de administrador global.
     
 2. Em uma nova guia do navegador, abra o portal do Azure em [https://portal.azure.com](https://portal.azure.com) .
 
@@ -58,7 +58,7 @@ Nesta fase, você cria uma política de conformidade de dispositivo para disposi
     
 6. No painel **grupos-todos os grupos** , clique em **+ novo grupo**.
     
-7. No painel de **grupo** , selecione **Office 365** ou **segurança** para **tipo de grupo?**, digite **usuários do dispositivo gerenciados do Windows 10** em **nome**, selecione **atribuído** em **tipo de associação**e clique em **criar**. 
+7. No painel de **grupo** , selecione **Microsoft 365** ou **segurança** para **tipo de grupo?**, digite **usuários do dispositivo gerenciados do Windows 10** em **nome**, selecione **atribuído** em **tipo de associação**e clique em **criar**. 
     
 8. Clique em **Microsoft Intune**. No painel do **Microsoft Intune** , na lista **tarefas rápidas** , clique em **criar uma política de conformidade**.
     
@@ -76,7 +76,7 @@ Nesta fase, você cria uma política de conformidade de dispositivo para disposi
     
 15. No painel **aplicativos cliente** , clique em **aplicativos**e, em seguida, clique em **Adicionar**. 
 
-16. No painel **Adicionar aplicativo** , selecione **tipo de aplicativo**e, em seguida, selecione **Windows 10** no **pacote do Office 365**.
+16. No painel **Adicionar aplicativo** , selecione **tipo de aplicativo**e, em seguida, selecione **Windows 10** no **Microsoft 365 Suite**.
 
 17. No painel **Adicionar aplicativo** , selecione **informações do pacote de aplicativos**.
  
@@ -91,7 +91,7 @@ Clique em OK.
 
 22. No painel **Adicionar aplicativo** , clique em **Adicionar**.
 
-Agora você tem uma política de conformidade de dispositivo para testar os aplicativos selecionados na política de conformidade de dispositivo do **Windows 10** e para os membros do grupo de **usuários de dispositivos gerenciados do Windows 10** . Observe que a seleção do Office 365 como o tipo de grupo criará recursos adicionais. 
+Agora você tem uma política de conformidade de dispositivo para testar os aplicativos selecionados na política de conformidade de dispositivo do **Windows 10** e para os membros do grupo de **usuários de dispositivos gerenciados do Windows 10** . Observe que a seleção do Microsoft 365 como o tipo de grupo criará recursos adicionais. 
   
 ## <a name="next-step"></a>Próxima etapa
 
@@ -99,10 +99,10 @@ Explore recursos de [Gerenciamento de dispositivos móveis](m365-enterprise-test
 
 ## <a name="see-also"></a>Confira também
 
-[Guias de laboratório de teste do Microsoft 365 Enterprise](m365-enterprise-test-lab-guides.md).
+[Guias de laboratório de teste do Microsoft 365 for Enterprise](m365-enterprise-test-lab-guides.md).
   
-[Registrar dispositivos iOS e Android em seu ambiente de teste do Microsoft 365 Enterprise](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
+[Registrar dispositivos iOS e Android em seu ambiente de teste do Microsoft 365 for Enterprise](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
   
-[Implantar o Microsoft 365 Enterprise](deploy-microsoft-365-enterprise.md)
+[Visão geral do Microsoft 365 para empresas](microsoft-365-overview.md)
 
 [Enterprise Mobility + Security (EMS)](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)

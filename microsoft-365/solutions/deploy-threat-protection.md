@@ -1,6 +1,6 @@
 ---
-title: Implantar recursos de proteção contra ameaças no Microsoft 365
-description: Saiba como implantar serviços e recursos de proteção contra ameaças no Microsoft 365 e5.
+title: Implantar a proteção contra ameaças à segurança de rede no Microsoft 365
+description: Saiba como implantar os serviços de proteção contra ameaças e os recursos de segurança de rede de ti no Microsoft 365 e5.
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -14,18 +14,19 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 312df25bf4fe2b91bb60b4122378b4457b25723c
-ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
+ms.openlocfilehash: 0736151f1ceacecb888c8a3eb3dd88183cc3a060
+ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588179"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662315"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Implantar recursos de proteção contra ameaças no Microsoft 365
 
-[Malware](https://docs.microsoft.com/windows/security/threat-protection/intelligence/understanding-malware)e cyberattacks sofisticados, como ameaças de não- [arquivo](https://docs.microsoft.com/windows/security/threat-protection/intelligence/fileless-threats), são uma ocorrência comum. As empresas precisam se proteger e seus clientes. Os ataques à segurança pela CyberSource podem causar grandes problemas para a sua organização, desde uma perda de confiança para o Woes financeiro, tempo de inatividade de ameaças de negócios e muito mais. A proteção contra ameaças é importante, mas pode ser desafiadora para determinar onde concentrar o tempo, esforço e recursos da sua organização. 
+[Malware](https://docs.microsoft.com/windows/security/threat-protection/intelligence/understanding-malware)e cyberattacks sofisticados, como ameaças de não- [arquivo](https://docs.microsoft.com/windows/security/threat-protection/intelligence/fileless-threats), são uma ocorrência comum. As empresas precisam se proteger e seus clientes com recursos de segurança de rede de ti eficazes. Esses ataques podem causar sérios problemas para a sua organização, desde uma perda de confiança para o Woes financeiro, tempo de inatividade de ameaças de negócios e muito mais. A proteção contra ameaças é importante, mas pode ser desafiadora para determinar onde concentrar o tempo, esforço e recursos da sua organização. 
 
-As soluções de segurança da Microsoft são incorporadas a nossos produtos e serviços. Recursos de automação e aprendizado de máquina reduzem a carga em suas equipes de segurança para garantir que os itens corretos sejam tratados. E a força das soluções de segurança da Microsoft baseia-se em trilhões de sinais que processamos todos os dias no nosso [gráfico de segurança inteligente](https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph). As soluções de segurança da Microsoft 365 incluem [proteção contra ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection), que reúne sinais em seus emails, dados, dispositivos e identidades para pintar uma imagem de ameaças avançadas contra sua organização.
+As soluções de segurança da Microsoft são incorporadas a nossos produtos e serviços. Recursos de automação e aprendizado de máquina reduzem a carga em suas equipes de segurança para garantir que os itens corretos sejam tratados. E a força das soluções de segurança de rede da Microsoft baseia-se em trilhões de sinais que processamos todos os dias no nosso [gráfico de segurança inteligente](https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph). As soluções de segurança da Microsoft 365 incluem [proteção contra ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection), uma solução que reúne sinais em seus emails, dados, dispositivos e identidades para pintar uma imagem de ameaças avançadas contra sua organização.
+
 
 Assista a este vídeo para obter uma visão geral do processo de implantação.
 
@@ -73,7 +74,7 @@ Para garantir que sua organização tenha a melhor proteção possível, configu
 7. [Monitorar o status e realizar ações](deploy-threat-protection-configure.md#step-7-monitor-status-and-take-actions)
 8. [Treinar usuários](deploy-threat-protection-configure.md#step-8-train-users)
 
-Seus recursos de proteção contra ameaças podem ser configurados em paralelo, portanto, se você tiver várias equipes de segurança responsáveis por diferentes serviços, eles poderão configurar os recursos de proteção da sua organização ao mesmo tempo. O diagrama a seguir ilustra o processo de alto nível para a implantação de recursos de proteção contra ameaças. 
+Seus recursos de proteção contra ameaças podem ser configurados em paralelo, portanto, se você tiver várias equipes de segurança de rede responsáveis por diferentes serviços, eles podem configurar os recursos de proteção da sua organização ao mesmo tempo. O diagrama a seguir ilustra o processo de alto nível para a implantação de recursos de proteção contra ameaças. 
 
 ![Processo de implantação de recursos de proteção contra ameaças](../media/solutions-architecture-center/deploy-threat-protection-across-m365-grid.png) 
 

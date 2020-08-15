@@ -1,5 +1,5 @@
 ---
-title: Políticas de acesso de dispositivo e identidade para permitir acesso B2B e de convidado externo-Microsoft 365 Enterprise | Microsoft docs
+title: Políticas de acesso de dispositivo e identidade para permitir acesso B2B e de convidado externo-Microsoft 365 for Enterprise | Microsoft docs
 description: Descreve o acesso condicional recomendado e as políticas relacionadas para proteger o acesso de usuários externos e convidados.
 author: BrendaCarter
 manager: johmar
@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 8276dcf85f6c5fd61e01e67deee4fea35c1a15c4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0ab4a2d48a1ac90f48bbfee82239fc0c4c1d55d5
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067440"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686821"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Políticas para permitir acesso B2B e de convidado externo
 Este artigo descreve como ajustar as políticas comuns de acesso de dispositivo e identidades recomendadas para permitir o acesso de contas de B2B (convidados e usuários externos). Este guia é baseado nas [políticas comuns de acesso de dispositivo e identidade](identity-access-policies.md).
@@ -58,7 +58,7 @@ O Microsoft Teams diferencia entre usuários convidados e usuários externos den
 Essa regra solicita que os convidados registrem a MFA em seu locatário, independentemente de estarem ou não registrados para a MFA em seu locatário inicial. Ao acessar recursos em seu locatário, convidados e usuários externos precisam usar a MFA para cada solicitação. 
 
 ### <a name="excluding-guest-and-external-users-from-risk-based-mfa"></a>Excluindo usuários convidados e externos da MFA baseada em riscos
-Enquanto as organizações podem aplicar políticas com base em risco para usuários B2B usando a proteção de identidade, há limitações na implementação da proteção de identidade para usuários de colaboração B2B em um diretório de recursos devido à sua identidade existente em sua casa Directory. Devido a essas limitações, a Microsoft recomenda que você exclua os usuários convidados das políticas de MFA baseadas em risco e exija que esses usuários sempre usem a MFA. 
+Enquanto as organizações podem aplicar políticas com base em risco para usuários B2B usando a proteção de identidade, há limitações na implementação da proteção de identidade para usuários de colaboração B2B em um diretório de recursos devido à sua identidade existente em seu diretório base. Devido a essas limitações, a Microsoft recomenda que você exclua os usuários convidados das políticas de MFA baseadas em risco e exija que esses usuários sempre usem a MFA. 
 
 Para obter mais informações, consulte [limitações de proteção de identidade para usuários de colaboração B2B](https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-b2b#limitations-of-identity-protection-for-b2b-collaboration-users). 
 

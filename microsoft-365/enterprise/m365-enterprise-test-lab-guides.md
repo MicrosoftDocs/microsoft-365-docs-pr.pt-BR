@@ -9,7 +9,7 @@ ms.date: 11/20/2019
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Use estes Guias de Laboratório de Teste para configurar a demonstração, prova de conceito ou ambientes de desenvolvimento/teste para o Microsoft 365 para empresas.
-ms.openlocfilehash: 5907edd1bc42b9d679ed020331f225ef2d2b2594
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
-ms.translationtype: HT
+ms.openlocfilehash: 685bf25db330b4bf43a3a7258aeb43517c239e81
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818736"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686761"
 ---
 # <a name="microsoft-365-for-enterprise-test-lab-guides"></a>Guias do Laboratório de Teste do Microsoft 365 para empresas
 
@@ -43,7 +43,7 @@ Acesse [Pilha de guias do laboratório de teste](../media/m365-enterprise-test-l
 
 ## <a name="base-configuration"></a>Configuração base
 
-Primeiro, crie um ambiente de teste para o [Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365-enterprise/) que inclua o Office 365 E5, o Enterprise Mobility+Security (EMS) E5 e o Windows 10 Enterprise. Você pode criar dois tipos diferentes de configurações básicas:
+Primeiro, você cria um ambiente de teste para [o Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365-enterprise/). Você pode criar dois tipos diferentes de configurações básicas:
 
 - Use a [configuração básica leve](lightweight-base-configuration-microsoft-365-enterprise.md) quando quiser configurar e demonstrar recursos e capacidades do Microsoft 365 para empresas em um ambiente exclusivamente em nuvem, que não inclui nenhum componente local.
 
@@ -63,7 +63,7 @@ Para demonstrar recursos e capacidades relacionados à identidade, confira:
   
    Habilite e teste a autenticação de passagem para um controlador de domínio do AD DS.
 
-- [Autenticação federada](federated-identity-for-your-office-365-dev-test-environment.md)
+- [Autenticação federada](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
    Habilite e teste a autenticação federada para um controlador de domínio do AD DS.
 

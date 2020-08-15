@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: Encontre como transferir dados manualmente entre duas contas do Microsoft 365 quando você alterou o plano ou o nome da empresa ou combinou várias assinaturas em uma.
-ms.openlocfilehash: 6e64872ad7e145b63eb71d89ea2d69e5d8697eb6
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 91ea4140f0460e1f8cc1243f1b5f203738dcc9ee
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780164"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685505"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>Transferir dados manualmente entre duas contas
 
@@ -46,10 +46,10 @@ Prepare-se para acumular suas mangas e bloquear um bloco de tempo no seu calend�
 
 |**Tasks**|**Steps**|
 |:-----|:-----|
-|Adquira o plano para o qual você deseja mover.  <br/> |Ao se inscrever, especifique o nome da empresa a ser usado nos nomes de domínio iniciais: *yourcompany* . onmicrosoft.com, *yourcompany* -public.sharepoint.com e *yourcompany* . SharePoint.com. Você precisa usar um nome diferente do *yourcompany* do que você fazia para assinaturas existentes.  <br/> > [!NOTE]> normalmente, isso leva um mínimo de vários meses após o cancelamento de uma assinatura para liberar os nomes de domínio iniciais que usam o *yourcompany* de nossos sistemas. Mesmo que você planeje salvar todos os seus dados da assinatura antiga do Microsoft 365 e cancelar essa assinatura, o valor antigo do *yourcompany* não estará disponível imediatamente para uso em uma nova assinatura.           |
+|Adquira o plano para o qual você deseja mover.  <br/> |Ao se inscrever, especifique o nome da empresa a ser usado nos nomes de domínio iniciais:  *yourcompany*  . onmicrosoft.com,  *yourcompany*  -public.sharepoint.com e  *yourcompany*  . SharePoint.com. Você precisa usar um nome diferente do  *yourcompany*  do que você fazia para assinaturas existentes.  <br/> > [!NOTE]> normalmente, isso leva um mínimo de vários meses após o cancelamento de uma assinatura para liberar os nomes de domínio iniciais que usam o  *yourcompany*  de nossos sistemas. Mesmo que você planeje salvar todos os seus dados da assinatura antiga do Microsoft 365 e cancelar essa assinatura, o valor antigo do  *yourcompany*  não estará disponível imediatamente para uso em uma nova assinatura.           |
 |Remova seu domínio personalizado da sua assinatura antiga do Microsoft 365.  <br/> | Siga as [etapas necessárias antes de remover um domínio](remove-a-domain.md) para remover o nome de domínio dos endereços de email do usuário e remover registros DNS para email e Lync para o domínio personalizado. Se você hospeda seu site público no Microsoft 365, você também precisa remover o registro CNAME que aponta para ele.  <br/> > [!IMPORTANT]> depois de remover o registro MX que roteia o email para este domínio personalizado, o email deixará de funcionar até que você tenha adicionado o domínio à sua nova conta, configure o novo registro MX e configure seus usuários. Quando você remover os registros DNS para o Lync, o Lync parará de funcionar. E depois de remover o registro CNAME que aponta para seu site público, ele não estará disponível.           [Remova o domínio](remove-a-domain.md) .  <br/> |
 |Configure seu domínio personalizado para sua nova assinatura e configure seus usuários.  <br/> | Configure sua nova assinatura, incluindo a criação de registros DNS necessários para seu domínio personalizado.  <br/>  Crie seus usuários com endereços de email em seu domínio personalizado.  <br/> |
-|Transferir dados de sua assinatura antiga para a nova assinatura.  <br/> | Entre em ambas as contas em janelas de navegador separadas:  <br/>  Clique com o botão direito do mouse no ícone do Internet Explorer e abra duas janelas do navegador InPrivate. Você pode usar credenciais diferentes nas duas janelas para entrar em ambas as contas.  <br/> [Transferir configurações administrativas entre assinaturas](#email) <br/> [Transferir dados e estrutura de site de equipe](#transfer-team-site-structure-and-data) <br/> [Transferir um site público entre assinaturas](#transfer-a-public-website-between-subscriptions) <br/> [Transferir configurações administrativas entre assinaturas](#email) <br/> |
+|Transferir dados de sua assinatura antiga para a nova assinatura.  <br/> | Entre em ambas as contas em janelas de navegador separadas:  <br/>  Clique com o botão direito do mouse no ícone do navegador e abra duas janelas particulares do navegador. Você pode usar credenciais diferentes nas duas janelas para entrar em ambas as contas.  <br/> [Transferir configurações administrativas entre assinaturas](#email) <br/> [Transferir dados e estrutura de site de equipe](#transfer-team-site-structure-and-data) <br/> [Transferir um site público entre assinaturas](#transfer-a-public-website-between-subscriptions) <br/> [Transferir configurações administrativas entre assinaturas](#email) <br/> |
 |Cancele a assinatura para o plano que você concluiu chamando o suporte da Microsoft para o Microsoft 365.  <br/> | Verifique se a nova assinatura está funcionando e se todos os dados foram transferidos.  <br/>  [Entre em contato com o suporte ao cliente](../contact-support-for-business-products.md) para cancelar sua assinatura antiga.  <br/> |
 
 ## <a name="transfer-administrative-settings-between-subscriptions"></a>Transferir configurações administrativas entre assinaturas

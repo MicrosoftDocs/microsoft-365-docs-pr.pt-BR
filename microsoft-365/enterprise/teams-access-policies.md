@@ -1,5 +1,5 @@
 ---
-title: Políticas de equipe recomendadas-Microsoft 365 Enterprise | Microsoft docs
+title: Políticas de equipe recomendadas-Microsoft 365 for Enterprise | Microsoft docs
 description: Descreve as políticas para as recomendações da Microsoft sobre como proteger a comunicação de equipes e o acesso a arquivos.
 author: MicrosoftHeidi
 manager: serdars
@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: f1a4a4ea69efc3c68bdc8ed66aa18833a28feb94
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 41ead64a7a94dcd5afb22a311d7637326949fc7c
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636718"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685649"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Recomendações de política para proteger chats, grupos e arquivos de equipes
 
@@ -61,7 +61,7 @@ Esta tabela lista as políticas que precisam ser revisitadas e links para cada p
 |Nível de Proteção|Políticas|Informações adicionais para implementação do teams|
 |:---------------|:-------|:----------------|
 |**Baseline**|[Exigir MFA quando o risco de entrada for *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Certifique-se de que as equipes e os serviços dependentes estão incluídos na lista de aplicativos. O Microsoft Teams tem acesso de convidado e regras de acesso externo para considerar também, você aprenderá mais sobre eles posteriormente neste artigo.|
-|        |[Bloquear clientes que não oferecem suporte à autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Inclua equipes e serviços dependentes na atribuição de aplicativos em nuvem.|
+|        |[Bloquear clientes sem suporte para a autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Inclua equipes e serviços dependentes na atribuição de aplicativos em nuvem.|
 |        |[Usuários de alto risco devem alterar a senha](identity-access-policies.md#high-risk-users-must-change-password)|Obriga os usuários do teams a alterarem suas senhas ao entrarem se uma atividade de alto risco for detectada para sua conta. Certifique-se de que as equipes e os serviços dependentes estão incluídos na lista de aplicativos.|
 |        |[Aplicar políticas de proteção de dados do aplicativo](identity-access-policies.md#apply-app-data-protection-policies)|Certifique-se de que as equipes e os serviços dependentes estão incluídos na lista de aplicativos. Atualize a política para cada plataforma (iOS, Android, Windows).|
 |        |[Exigir aplicativos aprovados e proteção de aplicativos](identity-access-policies.md#require-approved-apps-and-app-protection)|Inclua equipes e serviços dependentes nessa política.|
@@ -69,12 +69,12 @@ Esta tabela lista as políticas que precisam ser revisitadas e links para cada p
 |        |[Exigir PCs compatíveis](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Inclua equipes e serviços dependentes nessa política.|
 |**Confidencial**|[Exigir MFA quando o risco de entrada for *baixo*, *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|O Microsoft Teams tem acesso de convidado e regras de acesso externo para considerar também, você aprenderá mais sobre eles posteriormente neste artigo. Inclua equipes e serviços dependentes nessa política.|
 |         |[Exigir computadores *em conformidade e* dispositivos móveis](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Inclua equipes e serviços dependentes nessa política.|
-|**Altamente controlada**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Independentemente da identidade do usuário, a MFA será usada pela sua organização. Inclua equipes e serviços dependentes nessa política.
+|**Altamente controlado**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Independentemente da identidade do usuário, a MFA será usada pela sua organização. Inclua equipes e serviços dependentes nessa política.
 | | |
 
 ## <a name="teams-dependent-services-architecture"></a>Arquitetura de serviços dependentes do teams
 
-Para referência, o diagrama a seguir ilustra a equipe de serviços que se baseia no. Para obter mais informações e ilustrações adicionais, consulte [Microsoft Teams e serviços de produtividade relacionados no microsoft 365 para arquitetos de ti](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects).
+Para referência, o diagrama a seguir ilustra a equipe de serviços que se baseia no. Para obter mais informações e ilustrações adicionais, consulte [Microsoft Teams e serviços de produtividade relacionados no microsoft 365 para arquitetos de ti](../solutions/productivity-illustrations.md).
 
 ![Diagrama mostrando dependências do teams no SharePoint Online, no OneDrive for Business e no Exchange.](../media/identity-access-logical-architecture-teams.png)
 

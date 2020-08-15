@@ -9,49 +9,48 @@ ms.date: 10/02/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Entenda como a Contoso usa recursos de proteção de informações no Microsoft 365 Enterprise para proteger seus ativos digitais na nuvem.
-ms.openlocfilehash: 137e6ff499ba8fb119c696dba9337307876ee0c2
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
-ms.translationtype: HT
+description: Entenda como a contoso usa os recursos de proteção de informações no Microsoft 365 for Enterprise para proteger seus ativos digitais na nuvem.
+ms.openlocfilehash: 67404df9bb2056c226eeb9370190519fc0cc8f3b
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268405"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686017"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Proteção de Informações da Contoso Corporation
 
 A Contoso se preocupa com sua segurança e proteção de informações. Por exemplo, o vazamento ou a destruição de sua propriedade intelectual que descreve projetos de produtos e técnicas patenteadas de fabricação, colocaria você em desvantagem competitiva.
 
-Antes de migrar seus ativos digitais mais importantes e confidenciais para a nuvem, eles verificaram se seus requisitos de classificação e proteção de informações no local eram compatíveis e implementados nos serviços baseados em nuvem do Microsoft 365 Enterprise.
+Antes de mover seus ativos digitais e mais valiosos para a nuvem, Eles verificaram se a classificação de informações local e os requisitos de proteção foram suportados e implementados nos serviços baseados em nuvem do Microsoft 365 para empresas.
 
 ## <a name="contosos-data-security-classification"></a>Classificação de segurança de dados da Contoso
 
 A Contoso realizou uma análise de seus dados e determinou os níveis a seguir.
 
-||||
+| Nível 1: linha de base | Nível 2: Confidencial | Nível 3: altamente controlado |
 |:-------|:-----|:-----|
-| **Nível 1: linha de base** | **Nível 2: confidencial** | **Nível 3: altamente controlado** |
-| Os dados são criptografados e estão disponíveis somente para usuários autenticados. <BR> <BR> Fornecido para todos os dados armazenados localmente e em armazenamento e cargas de trabalho baseados em nuvem, como o Office 365. Os dados são criptografados enquanto estão no serviço e em trânsito entre o serviço e os dispositivos do cliente. <BR><BR> Exemplos de dados de Nível 1 são comunicações de negócios normais (email) e arquivos para trabalhadores administrativos, de vendas e de suporte. | Nível 1 mais autenticação forte e proteção contra perda de dados. <BR> <BR> A autenticação forte inclui a Autenticação Multifator do Microsoft Azure (MFA) com a validação de SMS. A prevenção de perdas de dados garante que informações confidenciais ou críticas não trafeguem fora da nuvem da Microsoft. <BR><BR> Exemplos de dados de Nível 2 são informações financeiras e legais e dados de pesquisa e desenvolvimento para novos produtos. | Nível 2 mais os níveis mais altos de criptografia, autenticação e auditoria. <BR> <BR>  Os níveis mais altos de criptografia de dados em repouso e na nuvem, em conformidade com os regulamentos regionais, combinados a MFA com cartões inteligentes, auditoria e alerta granulares. <BR> <BR> Exemplos de dados de Nível 3 são informações de identificação pessoal do cliente e do parceiro, especificações de engenharia de produto e técnicas de fabricação proprietárias.  |
+| Os dados são criptografados e estão disponíveis somente para usuários autenticados. <BR> <BR> Fornecido para todos os dados armazenados no local e em armazenamento baseado em nuvem e cargas de trabalho. Os dados são criptografados enquanto residem no serviço e em trânsito entre os dispositivos de cliente e serviço. <BR><BR> Exemplos de dados de Nível 1 são comunicações de negócios normais (email) e arquivos para trabalhadores administrativos, de vendas e de suporte. | Nível 1 mais autenticação forte e proteção contra perda de dados. <BR> <BR> A autenticação forte inclui a Autenticação Multifator do Microsoft Azure (MFA) com a validação de SMS. A prevenção de perdas de dados garante que informações confidenciais ou críticas não trafeguem fora da nuvem da Microsoft. <BR><BR> Exemplos de dados de Nível 2 são informações financeiras e legais e dados de pesquisa e desenvolvimento para novos produtos. | Nível 2 mais os níveis mais altos de criptografia, autenticação e auditoria. <BR> <BR>  Os níveis mais altos de criptografia de dados em repouso e na nuvem, em conformidade com os regulamentos regionais, combinados a MFA com cartões inteligentes, auditoria e alerta granulares. <BR> <BR> Exemplos de dados de Nível 3 são informações de identificação pessoal do cliente e do parceiro, especificações de engenharia de produto e técnicas de fabricação proprietárias.  |
 ||||
 
 ## <a name="contosos-information-policies"></a>Políticas de informações da Contoso
 As tabela a seguir lista as políticas de informações da Contoso.
 
-|||||
+
+| Valor | Acessar | Retenção de dados | Proteção de informações |
 |:-------|:-----|:-----|:-----|
-|  | **Acesso** | **Retenção de dados** | **Proteção de informações** |
 | Baixo valor de negócios (Nível 1: Linha de base) | Permitir acesso a todos  | 6 meses | Usar criptografia. |
 | Valor médio de negócios (Nível 2: Confidencial) | Permitir acesso a funcionários, fornecedores e parceiros da Contoso <BR> <BR> Usar a MFA, o Protocolo TLS e o Gerenciamento de Aplicativos Móveis (MAM) | 2 anos  | Usar valores de hash para integridade de dados.  |
 | Alto valor de negócios (Nível 3: altamente controlado) | Permitir acesso aos executivos e clientes potenciais em engenharia e fabricação. <BR> <BR> Rights Management System (RMS) somente com dispositivos de rede gerenciados.  | 7 anos  | Usar assinaturas digitais para não repúdio.  |
 |||||
 
-## <a name="contosos-path-to-information-protection-with-microsoft-365-enterprise"></a>Caminho da Contoso para a proteção de informações com o Microsoft 365 Enterprise
+## <a name="contosos-path-to-information-protection-with-microsoft-365-for-enterprise"></a>Caminho da Contoso para proteção de informações com o Microsoft 365 para empresas
 
-A Contoso usou as seguintes etapas para preparar o Microsoft 365 Enterprise para os requisitos de proteção de informações:
+A contoso usou as seguintes etapas para preparar o Microsoft 365 for Enterprise para seus requisitos de proteção de informações:
 
 1. Identificou quais informações deveria proteger
 
@@ -93,17 +92,16 @@ Essas políticas garantem que:
 
 - Os aplicativos sejam permitidos e as ações que eles podem realizar sejam definidas por políticas de proteção de aplicativo.
 - PCs e dispositivos móveis devem estar compatíveis.
-- O Exchange Online utilize a criptografia de mensagem do Office 365 para o Exchange Online.
+- O Exchange Online usa a criptografia de mensagem do Office 365 (OME) para o Exchange Online.
 - O SharePoint usa restrições impostas pelo aplicativo.
 - O SharePoint usa políticas de controle de acesso para acesso somente por navegador e para bloquear o acesso de dispositivos não gerenciados.
 
-## <a name="mapping-microsoft-365-enterprise-features-to-contosos-data-levels"></a>Mapear recursos do Microsoft 365 Enterprise para os níveis de dados da Contoso
+## <a name="mapping-microsoft-365-for-enterprise-features-to-contosos-data-levels"></a>Mapeando o Microsoft 365 para recursos corporativos para os níveis de dados da contoso
 
-A tabela a seguir mapeia os níveis de dados da Contoso para os recursos de proteção de informações no Microsoft 365 Enterprise.
+A tabela a seguir mapeia os níveis de dados da Contoso para recursos de proteção de informações no Microsoft 365 para empresas.
 
-|||||
+| Nível | Serviços em nuvem da Microsoft 365 | Aplicativos do Windows 10 e do Microsoft 365 para empresas | Segurança e conformidade |
 |:-------|:-----|:-----|:-----|
-| | **Office 365** | **Aplicativos do Windows 10 e do Microsoft 365 para empresas** | **EMS** |
 | Nível 1: linha de base  | Políticas de Acesso Condicional do SharePoint e do Exchange Online <BR> Permissões em sites do SharePoint  | Rótulos de confidencialidade <BR> BitLocker <BR> Proteção de Informações do Windows | Políticas de Acesso Condicional de Dispositivos e políticas de Gerenciamento de Aplicativos Móveis |
 | Nível 2: Confidencial | Nível 1 mais: <BR> <BR> Rótulos de confidencialidade <BR> Rótulos de retenção do Microsoft 365 em sites do SharePoint <BR> Prevenção contra perda de dados do SharePoint Online e do Exchange Online <BR> Sites isolados do SharePoint   | Nível 1 mais: <BR> <BR> Rótulos de confidencialidade em ativos digitais  | Nível 1 |
 | Nível 3: altamente controlado | Nível 2 mais: <BR><BR> Criptografia BYOK (Traga sua própria chave) e proteção de informações de segredos comerciais <BR> Azure Key Vault para aplicativos de linha de negócios que interagem com os serviços do Microsoft 365 | Nível 2 | Nível 1 |
@@ -115,13 +113,13 @@ Estas são as configurações resultantes da proteção de informações da Cont
 
 ## <a name="next-step"></a>Próxima etapa
 
-[Veja](contoso-security-summary.md) como a Contoso usa os recursos de segurança do Microsoft 365 Enterprise para identidade e gerenciamento de acesso, proteção contra ameaças, proteção de informações e gerenciamento de segurança.
+[Veja](contoso-security-summary.md) como a contoso usou os recursos de segurança do Microsoft 365 for Enterprise para gerenciamento de identidade e acesso, proteção contra ameaças, proteção de informações e gerenciamento de segurança.
 
 ## <a name="see-also"></a>Confira também
 
-[Proteção de Informações para o Microsoft 365 Enterprise](infoprotect-infrastructure.md)
+[Roteiro de segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
 
-[Guia de implantação](deploy-microsoft-365-enterprise.md)
+[Visão geral do Microsoft 365 para empresas](microsoft-365-overview.md)
 
 [Guias de laboratório de teste](m365-enterprise-test-lab-guides.md)
 

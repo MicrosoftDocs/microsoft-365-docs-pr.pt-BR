@@ -1,5 +1,5 @@
 ---
-title: Políticas comuns de acesso de dispositivo e identidade-Microsoft 365 Enterprise | Microsoft docs
+title: Políticas comuns de acesso de dispositivo e identidade-Microsoft 365 for Enterprise | Microsoft docs
 description: Descreve as políticas para as recomendações da Microsoft sobre como aplicar as configurações e políticas de dispositivo e identidade.
 author: BrendaCarter
 manager: Laurawi
@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: a91488b9bfa126b1419af7697c0ae8510ddbc149
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 676a37752e24b238117ec238bc171b9df723e247
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625261"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685969"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 Este artigo descreve as políticas comuns recomendadas para proteger o acesso a serviços de nuvem, incluindo aplicativos locais publicados com o proxy de aplicativo do Azure AD. 
@@ -32,8 +32,8 @@ Este guia discute como implantar as políticas recomendadas em um ambiente provi
 
 O diagrama a seguir ilustra o conjunto de políticas recomendado. Ele mostra qual camada de proteção cada política se aplica e se as políticas se aplicam a PCs ou telefones e tablets ou a ambas as categorias de dispositivos. Também indica onde essas políticas estão configuradas.
 
-[![Políticas comuns para configurar a identidade e o acesso](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
-ao dispositivo[consulte uma versão maior desta imagem](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
+[ ![ Políticas comuns para configurar a identidade e o acesso ao dispositivo](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png) 
+ [consulte uma versão maior desta imagem](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
 
 O restante deste artigo descreve como configurar essas políticas. 
 
@@ -45,7 +45,7 @@ Para dar tempo para realizar essas tarefas, recomendamos implementar as polític
 |Nível de Proteção|Políticas|Mais informações|
 |:---------------|:-------|:----------------|
 |**Baseline**|[Exigir MFA quando o risco de entrada for *médio* ou *alto*](#require-mfa-based-on-sign-in-risk)| |
-|        |[Bloquear clientes que não oferecem suporte à autenticação moderna](#block-clients-that-dont-support-modern-authentication)|Os clientes que não usam a autenticação moderna podem ignorar as regras de acesso condicional, portanto, é importante bloquear esses|
+|        |[Bloquear clientes sem suporte para a autenticação moderna](#block-clients-that-dont-support-modern-authentication)|Os clientes que não usam a autenticação moderna podem ignorar as regras de acesso condicional, portanto, é importante bloquear esses|
 |        |[Usuários de alto risco devem alterar a senha](#high-risk-users-must-change-password)|Obriga os usuários a alterarem a senha ao entrar se a atividade de alto risco for detectada para sua conta|
 |        |[Aplicar políticas de proteção de dados do aplicativo](#apply-app-data-protection-policies)|Uma política por plataforma (iOS, Android, Windows). As políticas de proteção de aplicativos do Intune (aplicativo) são conjuntos de proteção predefinidos, do nível 1 ao nível 3.|
 |        |[Exigir aplicativos aprovados e proteção de aplicativos](#require-approved-apps-and-app-protection)|Impõe proteção de aplicativos móveis para telefones e tablets|
@@ -53,7 +53,7 @@ Para dar tempo para realizar essas tarefas, recomendamos implementar as polític
 |        |[Exigir PCs compatíveis](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Impõe o gerenciamento de computadores do Intune|
 |**Confidencial**|[Exigir MFA quando o risco de entrada for *baixo*, *médio* ou *alto*](#require-mfa-based-on-sign-in-risk)| |
 |         |[Exigir computadores *em conformidade e* dispositivos móveis](#require-compliant-pcs-and-mobile-devices)|Impõe o gerenciamento do Intune para PCs e telefones/tablets|
-|**Altamente controlada**|[*Sempre* exigir MFA](#require-mfa-based-on-sign-in-risk)|
+|**Altamente controlado**|[*Sempre* exigir MFA](#require-mfa-based-on-sign-in-risk)|
 | | |
 
 ## <a name="assigning-policies-to-users"></a>Atribuindo políticas aos usuários
@@ -107,18 +107,18 @@ Aplique as configurações com base no nível de proteção que você está dire
 |:---|:---------|:-----|:----|
 |Nível de risco|Linha de base|Alto, médio|Marque ambos|
 | |Confidencial|Alta, média, baixa|Marque todos os três|
-| |Altamente controlada| |Deixar todas as opções desmarcadas para sempre impor a MFA|
+| |Altamente controlado| |Deixar todas as opções desmarcadas para sempre impor a MFA|
 
 **Controles de acesso**
 
 |Tipo|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
-|Conceder|Conceder acesso|Verdadeiro|Selecionado|
+|Conceder|Conceder acesso|verdadeiro|Selecionada|
 ||Exigir MFA|verdadeiro|Verificar|
 ||Exigir que o dispositivo seja marcado como em conformidade|Falso||
 ||Exigir dispositivo híbrido associado ao AD do Azure|Falso||
 ||Exigir aplicativo cliente aprovado|Falso||
-||Exigir todos os controles selecionados|verdadeiro|Selecionado|
+||Exigir todos os controles selecionados|verdadeiro|Selecionada|
 
 > [!NOTE]
 > Certifique-se de habilitar essa política, escolhendo **Ativar**. Considere também usar a ferramenta [e se](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a política.
@@ -150,12 +150,12 @@ As tabelas a seguir descrevem as configurações de política de acesso condicio
 
 |Tipo|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
-|Conceder|Bloquear acesso|Verdadeiro|Selecionado|
+|Conceder|Bloquear acesso|verdadeiro|Selecionada|
 ||Exigir MFA|Falso||
 ||Exigir que o dispositivo seja marcado como em conformidade|Falso||
 ||Exigir dispositivo híbrido associado ao AD do Azure|Falso||
 ||Exigir aplicativo cliente aprovado|Falso||
-||Exigir todos os controles selecionados|verdadeiro|Selecionado|
+||Exigir todos os controles selecionados|verdadeiro|Selecionada|
 
 > [!NOTE]
 > Certifique-se de habilitar essa política, escolhendo **Ativar**. Considere também usar a ferramenta [e se](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a política.
@@ -179,7 +179,7 @@ Faça logon no [Portal do Microsoft Azure (https://portal.azure.com)](https://po
 
 | Tipo | Propriedades | Valores                  | Anotações |
 |:-----|:-----------|:------------------------|:------|
-|      | Access     | Permitir acesso            | Verdadeiro  |
+|      | Acessar     | Permitir acesso            | verdadeiro  |
 |      | Acessar     | Requer a alteração de senha | verdadeiro  |
 
 **Revisão:** não aplicável
@@ -254,7 +254,7 @@ Criar uma política para cada plataforma:
 - Windows 8,1 e posterior
 - Windows 10 e posterior
 
-Para criar políticas de conformidade de dispositivos, faça logon no [centro de administração do Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) com suas credenciais de administrador e, em seguida, navegue até**políticas**de**políticas** > de conformidade de **dispositivos** > . Selecione **criar política**.
+Para criar políticas de conformidade de dispositivos, faça logon no [centro de administração do Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) com suas credenciais de administrador e, em seguida, navegue até políticas de políticas de conformidade de **dispositivos**  >  **Compliance policies**  >  **Policies**. Selecione **criar política**.
 
 Para que as políticas de conformidade do dispositivo sejam implantadas, elas devem ser atribuídas a grupos de usuários. Você atribui uma política depois de criá-la e salvá-la. No centro de administração, selecione a política e, em seguida, selecione **atribuições**. Após selecionar os grupos para os quais você deseja receber a política, selecione **salvar** para salvar a atribuição de grupo e implantar a política.
 
@@ -281,7 +281,7 @@ As configurações a seguir são recomendadas para o Windows 10.
 
 |Tipo|Propriedades|Valores|Anotações|
 |:---|:---------|:-----|:----|
-|Senha|Exigir uma senha para desbloquear dispositivos móveis|Precisa||
+|Password|Exigir uma senha para desbloquear dispositivos móveis|Precisa||
 ||Senhas simples|Bloquear||
 ||Tipo de senha|Padrão do dispositivo||
 ||Tamanho mínimo da senha|6 ||

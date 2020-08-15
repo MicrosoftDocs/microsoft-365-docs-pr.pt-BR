@@ -9,18 +9,18 @@ ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Entenda o que a Microsoft faz durante um incidente de serviço para que você possa preparar melhor seus planos de continuidade de negócios.
-ms.openlocfilehash: 3d4a1d6c3a69be4cb3051125d5527b1f0b25b375
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
-ms.translationtype: HT
+ms.openlocfilehash: 5486ad2ae8c2e5d97b466a8cbd2a4dbab416b29b
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067658"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686113"
 ---
 # <a name="enterprise-business-continuity-management-customer-and-cloud-partner-responsibilities"></a>Responsabilidades do parceiro de nuvem e do cliente sobre o gerenciamento da continuidade de negócios corporativos
 
@@ -65,7 +65,7 @@ Considere os eventos que causam impacto à sua força de trabalho, como um desas
 
 ### <a name="location"></a>Locais
 Muitas organizações exigem que os funcionários estejam em locais físicos ou de rede específicos para se conectarem aos sistemas corporativos e serviços de nuvem.  
-A Microsoft publica os [princípios de conectividade de rede](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles) que orientam as empresas, com as práticas recomendadas para a configuração de conectividade de rede para os recursos de nuvem. Entre os exemplos de otimização estão a implementação das VPNs de túnel dividido para permitir conexões diretamente da rede de um usuário, em vez de um túnel VPN.  Embora esses princípios de conectividade sejam importantes para a manutenção de conexões de baixa latência, a resiliência de serviços exige métodos alternativos de se conectar a recursos corporativos para colaboração geral.
+A Microsoft publica os [princípios de conectividade de rede](microsoft-365-network-connectivity-principles.md) que orientam as empresas, com as práticas recomendadas para a configuração de conectividade de rede para os recursos de nuvem. Entre os exemplos de otimização estão a implementação das VPNs de túnel dividido para permitir conexões diretamente da rede de um usuário, em vez de um túnel VPN.  Embora esses princípios de conectividade sejam importantes para a manutenção de conexões de baixa latência, a resiliência de serviços exige métodos alternativos de se conectar a recursos corporativos para colaboração geral.
 
 ### <a name="systems"></a>Sistemas
 Muitas soluções de colaboração dependem de sistemas, como a WAN (rede de longa distância) da empresa. Como sua organização responderia, caso esses sistemas não estivessem disponíveis?
