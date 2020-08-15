@@ -1,5 +1,5 @@
 ---
-title: Políticas de documento seguro recomendadas – Microsoft 365 Enterprise | Microsoft Docs
+title: Políticas de documentos seguros recomendadas-Microsoft 365 for Enterprise | Microsoft docs
 description: Descreve as políticas para as recomendações da Microsoft sobre como proteger o acesso a arquivos do SharePoint.
 author: BrendaCarter
 manager: laurawi
@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 784a4d617d74916ae7b0ec4b431cc298ce45531e
-ms.sourcegitcommit: d6b641d0ef92f4176da9f4a98d3d5aa3d4f2e184
+ms.openlocfilehash: 25f58582ae912211f72aaf17c2dab338ebb21c7e
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46617181"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46695033"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Recomendações de política para proteger sites e arquivos do SharePoint
 
@@ -85,5 +85,4 @@ Na ilustração:
 - Se James acessar um site confidencial ou altamente regulamentado, ele é membro do uso de seu computador, seu acesso é concedido enquanto o computador estiver em conformidade.
 - Se James acessar um site confidencial que é membro de usar seu telefone não gerenciado, que é permitido para usuários de linha de base, ele receberá acesso somente ao navegador ao site confidencial devido à política de acesso do dispositivo configurada para este site.
 - Se James acessar um site altamente regulamentado, ele é membro do uso de seu telefone não gerenciado, ele será bloqueado devido à política de acesso configurada para este site. Ele só pode acessar esse site usando seu computador gerenciado e compatível.
-
 
