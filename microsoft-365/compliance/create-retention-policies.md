@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Use uma política de retenção para decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra determinadas condições.'
-ms.openlocfilehash: 3bec74c1043e2ecfd632144647945f441433dcb2
-ms.sourcegitcommit: 12e19f9cc319f25ab9dd3b0f77ad17e227d7f0be
+ms.openlocfilehash: 4eb08eed668efb598068a7229b9312ccb6654274
+ms.sourcegitcommit: 919b5d0f33b41b4beaca5fbb06e1c75d65027b7e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672906"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46757574"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -150,7 +150,7 @@ Para verificar a sintaxe do seu locatário e identificar URLs dos usuários, con
 
 Para manter ou deletar o conteúdo de um grupo do Microsoft 365 (antigo grupo Office 365), use o local **grupos do Office 365**. Mesmo que um grupo do Microsoft 365 tenha uma caixa de correio do Exchange, uma política de retenção que inclua todo o local **E-mail do Exchange** não incluirá conteúdo nas caixas de correio de grupo do Microsoft 365. Além disso, embora o local **E-mail do Exchange** permita inicialmente especificar uma caixa de correio de grupo a ser incluída ou excluída, ao tentar salvar a política de retenção, você recebe um erro indicando que "RemoteGroupMailbox" não é uma seleção válida para o local do Exchange.
 
-Uma política de retenção aplicada a um grupo do Microsoft 365 inclui a caixa de correio e o site do grupo. Uma política de retenção aplicada a um grupo do Microsoft 365 protege os recursos criados por um grupo do Microsoft 365, que inclui o Microsoft Teams.
+Uma política de retenção aplicada a um grupo do Microsoft 365 inclui a caixa de correio do grupo e o site de equipes, se um site de equipes tiver sido selecionado no momento em que o grupo foi criado ou adicionado posteriormente ao grupo. Os arquivos armazenados no site de equipes são cobertos por este local, mas não os chats do Teams ou as mensagens do canal do Teams que têm seus próprios locais de política de retenção.
 
 ### <a name="configuration-information-for-skype-for-business"></a>Informações de configuração do Skype for Business
 

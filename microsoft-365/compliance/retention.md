@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: b799f35789ac113128ecb1adcbeae48aede7f847
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: b0ce412609ac9c7084c1c598a327cde7c055c101
+ms.sourcegitcommit: 919b5d0f33b41b4beaca5fbb06e1c75d65027b7e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662305"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46757564"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -58,7 +58,7 @@ Quando o conteúdo tiver as configurações de retenção atribuídas a ele, ess
 
 - Para as caixas de correio do Exchange: a cópia é mantida na pasta **Itens Recuperáveis**. 
 
-- Para mensagens de canal do Teams e chat: a cópia é mantida em uma pasta oculta na pasta **Itens Recuperáveis** do Exchange.
+- Para o canal do Teams e as mensagens de chat: a cópia é mantida em uma pasta oculta chamada **SubstrateHolds** como uma subpasta na pasta **Itens Recuperáveis** do Exchange.
 
 > [!NOTE]
 > A biblioteca de Retenção para Preservação consome armazenamento que não está isento da cota de armazenamento de um site. Pode ser necessário aumentar o armazenamento ao usar configurações de retenção para o SharePoint e os grupos do Microsoft 365.
