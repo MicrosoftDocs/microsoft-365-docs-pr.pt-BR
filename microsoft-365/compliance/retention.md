@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: ff99e61c82f0427d79d8aca99acc82a338f79b8a
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: b799f35789ac113128ecb1adcbeae48aede7f847
+ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649148"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662305"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -115,7 +115,7 @@ O Bloqueio de Preservação garante que sua organização possa atender a requis
   
 Quando uma política de retenção está bloqueada:
 
-- Ninguém pode desativá-la
+- Ninguém pode desligá-lo
 - Locais podem ser adicionados, mas não removidos
 - O conteúdo sujeito à política não pode ser modificado ou excluído durante o período de retenção
 - Você pode estender um período de retenção, mas não reduzi-lo

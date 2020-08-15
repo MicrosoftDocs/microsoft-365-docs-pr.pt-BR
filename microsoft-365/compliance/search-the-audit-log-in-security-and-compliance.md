@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Use o Centro de Conformidade e Segurança para pesquisar o log de auditoria unificada para exibir a atividade do usuário e do administrador na sua organização. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5bbcd7c7e3c68b5b5a23736901e5772454e9e10a
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 39c58a86b3f8e3bec2225c4a3df53120fac79eea
+ms.sourcegitcommit: 929ca8f4d5fc006c3827f7a8b7d2b43e54c1b42a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577991"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46674621"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Pesquisar o log de auditoria no Centro de Conformidade e Segurança
 
@@ -39,8 +39,6 @@ Precisa descobrir se um usuário visualizou um documento específico ou apagou u
 - Atividade de administração do Azure Active Directory (o serviço de diretório para o Office 365)
 
 - Atividade de administradores do Exchange Online (log de auditoria de administradores do Exchange)
-
-- Atividade de usuários e administradores do Sway
 
 - atividades de descoberta eletrônica no centro de conformidade e segurança
 
@@ -130,7 +128,6 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
   |Centro de Conformidade e Segurança|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Rótulos de confidencialidade||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |SharePoint Online e OneDrive for Business|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Sway||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Workplace Analytics|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Yammer||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Forms|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
@@ -305,15 +302,15 @@ Clique em um dos links a seguir para ir até uma tabela específica.
 |:-----|:-----|:-----|
 |[Atividades de arquivo e página](#file-and-page-activities)|[Atividades de pasta](#folder-activities)|[Atividades de lista do SharePoint](#sharepoint-list-activities)|
 |[Atividades de compartilhamento e solicitação de acesso](#sharing-and-access-request-activities)|[Atividades de sincronização](#synchronization-activities)|[Atividades de permissões de site](#site-permissions-activities)|
-|[Atividades de administração de site](#site-administration-activities)|[Atividades de caixa de correio do Exchange](#exchange-mailbox-activities)|[Atividades do Sway](#sway-activities)|
-|[Atividades de administração de usuários](#user-administration-activities)|[Atividades de administração de grupos do Azure AD](#azure-ad-group-administration-activities)|[Atividades de administração de aplicativos](#application-administration-activities)|
-|[Atividades de administração de funções](#role-administration-activities)|[Atividades de administração de diretórios](#directory-administration-activities)|[Atividades de Descoberta Eletrônica](#ediscovery-activities)|
-|[Atividades de Descoberta Eletrônica Avançada](#advanced-ediscovery-activities)|[Atividades do Power BI](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|
-|[Atividades do Microsoft Teams](#microsoft-teams-activities)|[Atividades do Microsoft Teams Healthcare](#microsoft-teams-healthcare-activities)|[Atividades de Turnos do Microsoft Teams](#microsoft-teams-shifts-activities)|
-|[Atividades do Yammer](#yammer-activities)|[Atividades do Microsoft Power Automate](#microsoft-power-automate-activities)|[Atividades do Microsoft Power Apps](#microsoft-power-apps-activities)|
-|[Atividades do Microsoft Stream](#microsoft-stream-activities)|[Atividades do explorador de conteúdo](#content-explorer-activities)|[Atividades de quarentena](#quarantine-activities)|
-|[Atividades do Microsoft Forms](#microsoft-forms-activities)|[Atividades de rótulo de sensibilidade](#sensitivity-label-activities)|[Atividades de administradores do Exchange](#exchange-admin-audit-log)|
-|[Política de retenção e atividades do rótulo de retenção](#retention-policy-and-retention-label-activities)|||
+|[Atividades de administração de site](#site-administration-activities)|[Atividades de caixa de correio do Exchange](#exchange-mailbox-activities)|[Atividades de administração de usuários](#user-administration-activities)|
+|[Atividades de administração de grupos do Azure AD](#azure-ad-group-administration-activities)|[Atividades de administração de aplicativos](#application-administration-activities)|[Atividades de administração de funções](#role-administration-activities)|
+|[Atividades de administração de diretórios](#directory-administration-activities)|[Atividades de Descoberta Eletrônica](#ediscovery-activities)|[Atividades de Descoberta Eletrônica Avançada](#advanced-ediscovery-activities)|
+|[Atividades do Power BI](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|[Atividades do Microsoft Teams](#microsoft-teams-activities)|
+|[Atividades do Microsoft Teams Healthcare](#microsoft-teams-healthcare-activities)|[Atividades de Turnos do Microsoft Teams](#microsoft-teams-shifts-activities)|[Atividades do Yammer](#yammer-activities)|
+|[Atividades do Microsoft Power Automate](#microsoft-power-automate-activities)|[Atividades do Microsoft Power Apps](#microsoft-power-apps-activities)|[Atividades do Microsoft Stream](#microsoft-stream-activities)|
+|[Atividades do explorador de conteúdo](#content-explorer-activities)|[Atividades de quarentena](#quarantine-activities)|[Atividades do Microsoft Forms](#microsoft-forms-activities)|
+|[Atividades de rótulo de sensibilidade](#sensitivity-label-activities)|[Política de retenção e rótulo de retenção de atividades](#retention-policy-and-retention-label-activities)|[Atividades de administradores do Exchange](#exchange-admin-audit-log)
+|||
 
 ### <a name="file-and-page-activities"></a>Atividades de arquivo e página
 
@@ -557,28 +554,6 @@ A tabela a seguir lista as atividades que podem ser registradas pelo log de audi
 |Mensagem atualizada|Atualizar|Uma mensagem ou suas propriedades foram alteradas.|
 |Usuário entrou na caixa de correio|MailboxLogin|O usuário entrou em sua caixa de correio.|
 |Etiquetar a mensagem como um registro||Um usuário aplicou um rótulo de retenção a uma mensagem de e-mail, e essa etiqueta é configurada para marcar o item como um registro. |
-||||
-
-### <a name="sway-activities"></a>Atividades do Sway
-
-A tabela a seguir lista as atividades de usuários e administradores no Sway. O Sway é um aplicativo do Microsoft 365 que ajuda os usuários a reunirem, formatarem e compartilharem ideias, histórias e apresentações em uma tela interativa baseada na Web. Para saber mais, confira [Perguntas frequentes sobre o Sway – Ajuda do administrador](https://support.office.com/article/446380fa-25bf-47b2-996c-e12cb2f9d075).
-
-|Nome amigável|Operação|Descrição|
-|:-----|:-----|:-----|
-|Nível de compartilhamento do Sway alterado|SwayChangeShareLevel|O usuário altera o nível de compartilhamento de um Sway. Esse evento captura o usuário alterando o escopo de compartilhamento associado a um Sway, por exemplo, público versus dentro da organização.|
-|Sway criado|SwayCreate|O usuário cria um Sway.|
-|Sway excluído|SwayDelete|O usuário exclui um Sway.|
-|Duplicação do Sway desabilitada|SwayDisableDuplication|O usuário desabilita a duplicação de um Sway.|
-|Sway duplicado|SwayDuplicate|O usuário duplica um Sway.|
-|Sway editado|SwayEdit|O usuário edita um Sway.|
-|Duplicação do Sway habilitada|EnableDuplication|O usuário habilita a duplicação de um Sway. A capacidade de um usuário habilitar a duplicação de um Sway habilitada por padrão.|
-|Compartilhamento do Sway revogado|SwayRevokeShare|O usuário para de compartilhar um Sway revogando o acesso a ele. Revogar o acesso altera os links associados a um Sway.|
-|Sway compartilhado|SwayShare|O usuário pretende compartilhar um Sway. Esse evento captura a ação do usuário de clicar em um destino de compartilhamento específico no menu de compartilhamento do Sway. O evento não indica se o usuário concluiu a ação de compartilhamento.|
-|Compartilhamento externo do Sway desativado|SwayExternalSharingOff|O administrador desabilita o compartilhamento externo do Sway para toda a organização usando o centro de administração do Microsoft 365.|
-|Compartilhamento externo do Sway ativado|SwayExternalSharingOn|O administrador habilita o compartilhamento externo do Sway para toda a organização usando o centro de administração do Microsoft 365.|
-|Serviço do Sway desativado|SwayServiceOff|O administrador desabilita o Sway para toda a organização usando o centro de administração do Microsoft 365.|
-|Serviço do Sway ativado|SwayServiceOn|O administrador habilita o Sway para toda a organização usando o centro de administração do Microsoft 365 (o serviço do Sway está habilitado por padrão).|
-|Sway visualizado|SwayView|O usuário exibe um Sway.|
 ||||
 
 ### <a name="user-administration-activities"></a>Atividades de administração de usuários
