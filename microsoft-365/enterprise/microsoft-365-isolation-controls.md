@@ -1,0 +1,43 @@
+---
+title: Controles de isolamento da Microsoft 365
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: laurawi
+audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+localization_priority: Normal
+search.appverid:
+- MET150
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
+f1.keywords:
+- NOCSH
+description: Saiba como os controles de isolamento funcionam no Microsoft 365, permitindo que os serviços entrem em operação ou permaneçam autônomos conforme necessário.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 15805c2fb57cbcaa33c5ba24dcbcaa378feea4bc
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46687253"
+---
+# <a name="microsoft-365-isolation-controls"></a><span data-ttu-id="3c1d5-103">Controles de isolamento da Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="3c1d5-103">Microsoft 365 isolation controls</span></span> 
+
+<span data-ttu-id="3c1d5-104">A Microsoft funciona continuamente para garantir que a arquitetura de vários locatários do Microsoft 365 suporte a segurança de nível empresarial, confidencialidade, privacidade, integridade, local, internacional e [padrões](https://www.microsoft.com/TrustCenter/Compliance?service=Office#Icons)de disponibilidade.</span><span class="sxs-lookup"><span data-stu-id="3c1d5-104">Microsoft continuously works to ensure that the multi-tenant architecture of Microsoft 365 supports enterprise-level security, confidentiality, privacy, integrity, local, international, and availability [standards](https://www.microsoft.com/TrustCenter/Compliance?service=Office#Icons).</span></span> <span data-ttu-id="3c1d5-105">A escala e o escopo de serviços fornecidos pela Microsoft tornam difícil e não econômico gerenciar o Microsoft 365 com uma interação humana significativa.</span><span class="sxs-lookup"><span data-stu-id="3c1d5-105">The scale and the scope of services provided by Microsoft make it difficult and non-economical to manage Microsoft 365 with significant human interaction.</span></span> <span data-ttu-id="3c1d5-106">Os serviços 365 da Microsoft são fornecidos através de vários data centers distribuídos globalmente, cada um altamente automatizado com poucas operações que exigem um toque humano ou qualquer acesso ao conteúdo do cliente.</span><span class="sxs-lookup"><span data-stu-id="3c1d5-106">Microsoft 365 services are provided through multiple globally distributed data centers, each highly automated with few operations requiring a human touch or any access to customer content.</span></span> <span data-ttu-id="3c1d5-107">Nossa equipe oferece suporte a esses serviços e data centers usando ferramentas automatizadas e acesso remoto altamente seguro.</span><span class="sxs-lookup"><span data-stu-id="3c1d5-107">Our staff supports these services and data centers using automated tools and highly secure remote access.</span></span> 
+
+<span data-ttu-id="3c1d5-108">O Microsoft 365 é composto por vários serviços que fornecem funcionalidade comercial importante e contribuem para toda a experiência de 365 da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="3c1d5-108">Microsoft 365 is composed of multiple services that provide important business functionality and contribute to the entire Microsoft 365 experience.</span></span> <span data-ttu-id="3c1d5-109">Cada um desses serviços é autônomo e projetado para integração entre si.</span><span class="sxs-lookup"><span data-stu-id="3c1d5-109">Each of these services is self-contained and designed to integrate with one another.</span></span>
+
+<span data-ttu-id="3c1d5-110">O Microsoft 365 foi projetado com os seguintes princípios:</span><span class="sxs-lookup"><span data-stu-id="3c1d5-110">Microsoft 365 is designed with the following principles:</span></span>
+
+ - <span data-ttu-id="3c1d5-111">\*\* [Arquitetura orientada a serviços](https://docs.microsoft.com/previous-versions/aa480021(v=msdn.10)):\*\* design e desenvolvimento de software na forma de serviços de interoperabilidade que fornecem funcionalidade comercial bem definida.</span><span class="sxs-lookup"><span data-stu-id="3c1d5-111">**[Service-Oriented Architecture](https://docs.microsoft.com/previous-versions/aa480021(v=msdn.10)):** designing and developing software in the form of interoperable services providing well-defined business functionality.</span></span>
+ - <span data-ttu-id="3c1d5-112">**[Garantia de segurança operacional](https://www.microsoft.com/download/details.aspx?id=40872):** uma estrutura que incorpora o conhecimento obtido por meio de vários recursos exclusivos da Microsoft, incluindo o ciclo de [vida do desenvolvimento da segurança](https://www.microsoft.com/sdl/default.aspx)da Microsoft, o [Microsoft Security Response Center](https://technet.microsoft.com/library/dn440717.aspx)e uma profunda percepção do panorama de ameaças do cybersecurity.</span><span class="sxs-lookup"><span data-stu-id="3c1d5-112">**[Operational Security Assurance](https://www.microsoft.com/download/details.aspx?id=40872):** a framework that incorporates the knowledge gained through various capabilities that are unique to Microsoft, including the Microsoft [Security Development Lifecycle](https://www.microsoft.com/sdl/default.aspx), the [Microsoft Security Response Center](https://technet.microsoft.com/library/dn440717.aspx), and deep awareness of the cybersecurity threat landscape.</span></span>
+
+<span data-ttu-id="3c1d5-113">Os serviços do Microsoft 365 interoperam entre si, mas foram projetados e implementados para que possam ser implantados e operados como serviços autônomos, independentemente uns dos outros.</span><span class="sxs-lookup"><span data-stu-id="3c1d5-113">Microsoft 365 services inter-operate with each other, but are designed and implemented so they can be deployed and operated as autonomous services, independent of each other.</span></span> <span data-ttu-id="3c1d5-114">A Microsoft segregou as obrigações e áreas de responsabilidade da Microsoft 365 para reduzir as oportunidades de modificação não autorizada ou involuntária ou o uso indevido dos ativos da organização.</span><span class="sxs-lookup"><span data-stu-id="3c1d5-114">Microsoft segregates duties and areas of responsibility for Microsoft 365 to reduce opportunities for unauthorized or unintentional modification or misuse of the organization's assets.</span></span> <span data-ttu-id="3c1d5-115">O Microsoft 365 Teams tem funções definidas como parte de um mecanismo abrangente de controle de acesso baseado em função.</span><span class="sxs-lookup"><span data-stu-id="3c1d5-115">Microsoft 365 teams have defined roles as part of a comprehensive role-based access control mechanism.</span></span>
+
+## <a name="customer-content-isolation"></a><span data-ttu-id="3c1d5-116">Isolamento de conteúdo do cliente</span><span class="sxs-lookup"><span data-stu-id="3c1d5-116">Customer content isolation</span></span>
+
+<span data-ttu-id="3c1d5-117">Todo o conteúdo do cliente em um locatário é isolado de outros locatários e de operações e dados de sistemas usados no gerenciamento do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="3c1d5-117">All customer content in a tenant is isolated from other tenants and from operations and systems data used in the management of Microsoft 365.</span></span> <span data-ttu-id="3c1d5-118">Várias formas de proteção são implementadas em todo o Microsoft 365 para minimizar o risco de comprometimento de qualquer serviço ou aplicativo do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="3c1d5-118">Multiple forms of protection are implemented throughout Microsoft 365 to minimize the risk of compromise of any Microsoft 365 service or application.</span></span> <span data-ttu-id="3c1d5-119">Várias formas de proteção também impedem o acesso não autorizado às informações de locatários ou ao próprio sistema Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="3c1d5-119">Multiple forms of protection also prevent unauthorized access to the information of tenants or the Microsoft 365 system itself.</span></span>
+
+<span data-ttu-id="3c1d5-120">Para obter informações sobre como a Microsoft implementa o isolamento lógico de dados de locatário no Microsoft 365, consulte [isolamento de locatário no microsoft 365](microsoft-365-tenant-isolation-overview.md).</span><span class="sxs-lookup"><span data-stu-id="3c1d5-120">For information about how Microsoft implements logical isolation of tenant data within Microsoft 365, see [Tenant Isolation in Microsoft 365](microsoft-365-tenant-isolation-overview.md).</span></span>
