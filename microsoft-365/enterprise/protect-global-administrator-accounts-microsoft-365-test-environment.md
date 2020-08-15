@@ -1,5 +1,5 @@
 ---
-title: Proteger contas de administradores globais no ambiente de teste do Microsoft 365 Enterprise
+title: Proteger contas de administradores globais no seu ambiente de teste do Microsoft 365 for Enterprise
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,31 +14,31 @@ ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
-description: Use estas etapas para proteger contas de administrador global no ambiente de teste do Microsoft 365 Enterprise.
-ms.openlocfilehash: e6b93e3888873b6d78fec1802d179ed9624ffa63
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+description: Use estas etapas para proteger as contas de administrador global no seu ambiente de teste do Microsoft 365 for Enterprise.
+ms.openlocfilehash: fff09ca41ff0b648d46b5c33f753affc01242264
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153863"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46695177"
 ---
-# <a name="protect-global-administrator-accounts-in-your-microsoft-365-enterprise-test-environment"></a>Proteger contas de administradores globais no ambiente de teste do Microsoft 365 Enterprise
+# <a name="protect-global-administrator-accounts-in-your-microsoft-365-for-enterprise-test-environment"></a>Proteger contas de administradores globais no seu ambiente de teste do Microsoft 365 for Enterprise
 
-*Este Guia de Laboratório de Testes pode ser usado apenas em ambientes de teste do Microsoft 365 Enterprise.*
+*Este guia de laboratório de teste só pode ser usado para o Microsoft 365 para ambientes de teste corporativos.*
 
 Você pode impedir ataques digitais em sua organização, garantindo que suas contas de administrador sejam o mais seguras possível. Este artigo descreve como usar as políticas de acesso condicional do Azure Active Directory (Azure AD) para proteger contas de administrador global.
 
-Há duas fases para proteger as contas de administrador global no seu ambiente de teste do Microsoft 365 Enterprise:
+Há duas fases para proteger as contas de administrador global no seu ambiente de teste do Microsoft 365 for Enterprise:
 
-1.  Criar o ambiente de teste do Microsoft 365 Enterprise.
+1.  Crie o ambiente de teste do Microsoft 365 for Enterprise.
 2.  Proteger sua conta de administrador global dedicado.
 
 ![Guias do Laboratório de Teste do Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia do Test Lab do Microsoft 365 Enterprise.
+> Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia de Laboratório de Teste do Microsoft 365 para empresas.
 
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: Criar o ambiente de teste do Microsoft 365 Enterprise
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Fase 1: desenvolver seu ambiente de teste do Microsoft 365 for Enterprise
 
 Se você só quiser testar a proteção da conta de administrador global de forma leve com os requisitos mínimos, siga as instruções em [configuração básica leve](lightweight-base-configuration-microsoft-365-enterprise.md).
   
@@ -56,7 +56,7 @@ Primeiro, crie uma nova conta de usuário como administrador global dedicado.
 3. No painel **Adicionar usuário** , digite **DedicatedAdmin** em **nome**, nome para **exibição**e nome de **usuário**.
 4. Clique em **senha**, clique em **deixe-me criar a senha**e digite uma senha forte. Registre a senha dessa nova conta em um local seguro.
 5. Clique em **Avançar**.
-6. No painel **atribuir licenças de produtos** , selecione **Microsoft 365 E5** ou **Office 365 E5**e clique em **Avançar**.
+6. No painel **atribuir licenças de produtos** , selecione **Microsoft 365 E5**e clique em **Avançar**.
 7. No painel **configurações opcionais** , clique em **funções**e selecione **acesso do centro de administração** e **administrador global**. Clique em **Avançar**.
 8. No painel **você está quase concluído** , clique em **concluir adição**e, em seguida, clique em **Fechar**.
 
@@ -75,7 +75,7 @@ Em seguida, crie políticas de acesso condicional para exigir a autenticação m
 
 Essa primeira política requer que todas as contas de administrador global usem MFA.
 
-1. Em uma nova guia do navegador, vá para [https://portal.azure.com](https://portal.azure.com).
+1. Em uma nova guia do navegador, vá para [https://portal.azure.com](https://portal.azure.com) .
 2. Clique em **Azure Active Directory > segurança > acesso condicional**.
 3. No painel **acesso condicional – políticas** , clique em **política de linha de base: exigir MFA para administradores (visualização)**.
 4. No painel **diretiva de linha de base** , clique em **usar política imediatamente > salvar**.
@@ -96,18 +96,16 @@ Essa segunda política bloqueia o acesso à autenticação de conta de administr
 
 Para testar a primeira política, saia e entre com a conta DedicatedAdmin. Você deve ser solicitado a configurar a MFA. Isso demonstra que a primeira política está sendo aplicada.
 
-Consulte a etapa [proteger contas de administrador global](identity-create-protect-global-admins.md#identity-global-admin) na fase de identidade para obter informações e links para proteger suas contas de administrador global em produção.
-
 ## <a name="next-step"></a>Próxima etapa
 
 Explorar recursos e funcionalidades adicionais de [identidade](m365-enterprise-test-lab-guides.md#identity) no ambiente de teste.
 
 ## <a name="see-also"></a>Confira também
 
-[Fase 2: Identidade](identity-infrastructure.md)
+[Roteiro de identidade](identity-roadmap-microsoft-365.md)
 
-[Guias do Laboratório de Teste do Microsoft 365 Enterprise](m365-enterprise-test-lab-guides.md)
+[Guias do Laboratório de Teste do Microsoft 365 para empresas](m365-enterprise-test-lab-guides.md)
 
-[Implantação do Microsoft 365 Enterprise](deploy-microsoft-365-enterprise.md)
+[Visão geral do Microsoft 365 para empresas](microsoft-365-overview.md)
 
-[Documentação do Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentação da Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365-enterprise/)

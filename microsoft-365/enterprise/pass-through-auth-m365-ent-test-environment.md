@@ -9,7 +9,7 @@ ms.date: 11/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
@@ -18,16 +18,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configure a autenticação de passagem para seu ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: 8a9a8847d79e1d114f0ddfb4843cbb7b9f9f0d4c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+ms.openlocfilehash: 1b5540f2e16ac0267bf33faf42defe6bca6d25cd
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631412"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46695189"
 ---
 # <a name="pass-through-authentication-for-your-microsoft-365-test-environment"></a>Autenticação de passagem para seu ambiente de teste do Microsoft 365
 
-*Este Guia de Laboratório de Testes pode ser usado para ambientes de teste corporativo do Microsoft 365 Enterprise e do Office 365.*
+*Este guia de laboratório de teste pode ser usado para ambientes de teste corporativos do Microsoft 365 para Enterprise e Office 365.*
 
 As organizações que desejem usar diretamente a própria infraestrutura do Active Directory Domain Services (AD DS) local para a autenticação em serviços e aplicativos baseados na nuvem da Microsoft podem usar a autenticação de passagem. Este artigo descreve como configurar seu ambiente de teste do Microsoft 365 para autenticação de passagem, resultando na seguinte configuração:
   
@@ -41,7 +41,7 @@ Há duas fases para configurar esse ambiente de teste:
 ![Guias de laboratório de teste da Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos da pilha do Guia de Laboratório de Teste do Microsoft 365 Enterprise.
+> Clique [aqui](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) para ver um mapa visual de todos os artigos na pilha do Guia de Laboratório de Teste do Microsoft 365 para empresas.
   
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Fase 1: configurar a sincronização de hash de senha do ambiente de teste do Microsoft 365
 
@@ -51,7 +51,7 @@ Siga as instruções em [sincronização de hash de senha para o Microsoft 365](
   
 Esta configuração consiste em: 
   
-- Assinaturas de avaliação ou pagas do Microsoft 365 E5 ou Office 365 E5.
+- Microsoft 365 E5 avaliação ou assinatura paga.
 - Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. O Azure AD Connect é executado no APP1 para sincronizar o domínio TESTLAB AD DS com o locatário do Azure AD das suas assinaturas do Microsoft 365 periodicamente.
 
 ## <a name="phase-2-configure-azure-ad-connect-on-app1-for-pass-through-authentication"></a>Fase 2: configurar o Azure AD Connect no APP1 para autenticação de passagem
@@ -80,11 +80,11 @@ Nesta fase, você configura o Azure AD Connect no APP1 para usar autenticação 
 
 10.    Clique em **Autenticação de passagem**. O painel **Autenticação de passagem** lista os servidores onde estão instalados os Agentes de Autenticação. Você verá APP1 na lista. Feche o painel **Autenticação de passagem**.
 
-Em seguida, teste a capacidade de entrar em sua assinatura com a conta <strong>usuario1@testlab.</strong>\<seu domínio público> nome de usuário da conta Usuário1.
+Em seguida, teste a capacidade de entrar em sua assinatura com o <strong>user1@testlab.</strong>\<your public domain> nome de usuário da conta User1.
 
-1. No APP1, saia e entre novamente, mas desta vez especifique uma conta diferente.
+1. Na APP1, saia e entre novamente, mas desta vez especifique uma conta diferente.
 
-2. Quando solicitado a fornecer o nome de usuário e a senha, especifique <strong>usuario1@testlab.</strong>\<seu domínio público> e a senha de Usuario1. Você deve conseguir entrar como Usuario1.
+2. Quando for pedido um nome de usuário e senha, especifique <strong>user1@testlab.</strong>\<your public domain> e a senha do User1. Você deve conseguir entrar como Usuario1.
 
 Observe que, embora o Usuário1 tenha permissões de administrador de domínio para o domínio TESTLAB do AD DS, ele não é um administrador global. Portanto, o ícone **Administrador** não estará disponível como opção.
 
@@ -94,7 +94,7 @@ Esta é a configuração resultante:
  
 Esta configuração consiste em:
 
-- Assinaturas de avaliação ou pagas do Microsoft 365 E5 ou do Office 365 E5 com o domínio DNS testlab.\<seu nome de domínio> registrado.
+- Uma assinatura paga ou de avaliação do Microsoft 365 E5 com o domínio DNS testlab.\<your domain name> registrado.
 - Uma intranet simplificada da organização conectada à Internet, consistindo nas máquinas virtuais DC1, APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. Um Agente de autenticação é executado no APP1 para lidar com solicitações de autenticação de passagem do locatário do Azure AD da sua assinatura do Microsoft 365.
 
 ## <a name="next-step"></a>Próxima etapa
@@ -103,8 +103,8 @@ Explorar recursos e funcionalidades adicionais de [identidade](m365-enterprise-t
 
 ## <a name="see-also"></a>Confira também
 
-[Guias do Laboratório de Teste do Microsoft 365 Enterprise](m365-enterprise-test-lab-guides.md)
+[Guias do Laboratório de Teste do Microsoft 365 para empresas](m365-enterprise-test-lab-guides.md)
 
-[Implantar o Microsoft 365 Enterprise](deploy-microsoft-365-enterprise.md)
+[Visão geral do Microsoft 365 para empresas](microsoft-365-overview.md)
 
-[Documentação do Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentação da Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365-enterprise/)
