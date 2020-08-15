@@ -12,13 +12,13 @@ metadata:
   ms.collection: M365-subscription-management
   author: robmazz
   ms.author: robmazz
-  ms.date: 11/29/2019
-  ms.openlocfilehash: 31685a610f6560296dc72b7624f81a5927d56ec2
-  ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
+  ms.date: 07/28/2020
+  ms.openlocfilehash: 0fb4b195ebe6175afcc32291325b70848cc53901
+  ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/16/2020
-  ms.locfileid: "44268252"
+  ms.lasthandoff: 08/14/2020
+  ms.locfileid: "46686665"
 highlightedContent:
   items:
   - title: Saiba mais sobre o Microsoft 365 para empresas
@@ -34,23 +34,9 @@ conceptualContent:
   title: Obtenha ajuda com o Microsoft 365 para empresas e outros recursos
   summary: Explore o Microsoft 365 para obter orientação sobre implantação empresarial, recursos e serviços.
   items:
-  - title: Acompanhar o roteiro de implantação
-    links:
-    - url: deploy-microsoft-365-enterprise.md
-      itemType: deploy
-      text: Visão geral de implantação
-    - url: deploy-foundation-infrastructure.md
-      itemType: how-to-guide
-      text: Infraestrutura de base
-    - url: deploy-workloads.md
-      itemType: how-to-guide
-      text: Cargas de trabalho
-    - url: desktop-deployment-center-home.md
-      itemType: get-started
-      text: Centro de Implantação de Desktop
   - title: Implantar elementos principais
     links:
-    - url: identity-infrastructure.md
+    - url: identity-roadmap-microsoft-365.md
       itemType: how-to-guide
       text: Infraestrutura de identidade
     - url: https://docs.microsoft.com/windows/deployment/
