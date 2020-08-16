@@ -22,13 +22,13 @@ ms.custom:
 search.appverid:
 - MET150
 description: Aprenda a atribuir licenças aos usuários.
-ms.date: 07/01/2020
-ms.openlocfilehash: 648a3433bf5c2bd9bb96abb90335f56ee4fb6bee
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.date: 08/14/2020
+ms.openlocfilehash: e1f28107f7774fa4eccbecb3882cbd002a6eea1a
+ms.sourcegitcommit: 919b5d0f33b41b4beaca5fbb06e1c75d65027b7e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015942"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46757552"
 ---
 # <a name="assign-licenses-to-users"></a>Atribuir licenças aos usuários
 
@@ -160,6 +160,25 @@ Ao usar a página **Usuários ativos** para atribuir licenças, você atribui li
 5. Na parte inferior do painel **Licenças de produto**, escolha **Salvar** \> **Fechar** \> **Fechar**.
 
 ::: moniker-end
+
+## <a name="assign-a-license-to-a-guest-user"></a>Atribuir uma licença a um usuário convidado
+
+Você pode convidar usuários convidados para colaborar com sua organização no centro de administração do Azure Active Directory. Para saber mais sobre usuários convidados, confira [O que é acesso de usuário convidado no Azure Active Directory B2B?](https://docs.microsoft.com/azure/active-directory/external-identities/what-is-b2b) Se você não tiver nenhum usuário convidado, confira [Início Rápido: Adicionar usuários convidados ao seu diretório no portal do Azure](https://docs.microsoft.com/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal).
+
+> [!IMPORTANT]
+> Você terá de ser um administrador global para executar essas etapas.
+
+1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=2067268" target="_blank">centro de administração do Azure Active Directory</a>
+2. No painel de navegação, selecione **Usuários**.
+3. Na página **Usuários | Todos os Usuários (Visualização)**, selecione **Adicionar filtros**.
+4. No menu **Escolher um campo**, escolha o **Tipo de usuário** e selecione **Aplicar**.
+5. No menu seguinte, selecione **Convidado**.
+6. Na lista de resultados, selecione o usuário que precisa de uma licença.
+7. Em **Gerenciar**, selecione **Licenças**.
+8. Selecione **Atribuições**.
+9. Na página **Atualizar atribuições de licença**, selecione o produto para o qual deseja atribuir uma licença.
+10. À direita, desmarque as caixas de seleção dos serviços às quais você não deseja que o usuário convidado tenha acesso.
+11. Clique em **Salvar**.
 
 ## <a name="next-steps"></a>Próximas etapas
 
