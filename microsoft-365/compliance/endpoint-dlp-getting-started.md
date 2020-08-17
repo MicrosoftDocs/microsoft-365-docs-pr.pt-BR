@@ -81,7 +81,7 @@ Os dados do Endpoint DLP podem ser exibidos no [Explorador de atividades](data-c
 Certifique-se de que os dispositivos Windows 10 que você pretende implantar o Endpoint DLP atendam a esses requisitos.
 
 1. Deve estar executando o Windows 10 Build 1809 ou superior.
-2. Todos os dispositivos devem ser [Associados a Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join).ou a Azure AD híbrido.
+2. Todos os dispositivos devem estar [ingressados no Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join) ou no Azure AD híbrido.
 3. Instalar o Microsoft Chromium Edge no dispositivo do ponto de extremidade para impor ações de política para a atividade carregar na nuvem. Confira, [Baixar o novo Microsoft Edge baseado em Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 
 ## <a name="onboarding-devices-into-device-management"></a>Dispositivos de integração no gerenciamento de dispositivos
