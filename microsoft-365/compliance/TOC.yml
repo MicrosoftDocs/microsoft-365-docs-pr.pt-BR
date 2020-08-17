@@ -343,8 +343,12 @@
       items:
         - name: Gerenciamento de registros
           href: records-management.md
-        - name: Registros
+        - name: Saiba mais sobre os registros
           href: records.md
+        - name: Declarar Registro
+          href: declare-records.md
+        - name: Controle de versão do registro
+          href: record-versioning.md
 - name: Gerenciar a Descoberta Eletrônica
   items:
     - name: Descoberta eletrônica no Microsoft 365

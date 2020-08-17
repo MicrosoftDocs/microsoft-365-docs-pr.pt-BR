@@ -133,20 +133,8 @@
               href: create-groups/add-or-remove-members-from-groups.md
             - name: Restaurar um grupo excluído
               href: create-groups/restore-deleted-group.md
-            - name: Planejar o controle de grupos
-              href: create-groups/plan-for-groups-governance.md
-            - name: Gerenciar a criação de grupos
-              href: create-groups/manage-creation-of-groups.md
-            - name: Escolher domínio para grupos
-              href: create-groups/choose-domain-to-create-groups.md
-            - name: Visão geral de políticas de nomenclatura de grupo
-              href: create-groups/groups-naming-policy.md
-            - name: Permitir que os membros enviem emails de e para grupos
-              href: create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md
             - name: Gerenciar o acesso de convidado a grupos
               href: create-groups/manage-guest-access-in-groups.md
-            - name: Usar rótulos de confidencialidade com grupos
-              href: ../compliance/sensitivity-labels-teams-groups-sites.md
     - name: Gerenciar emails e calendários
       href: email/index.yml
       items:
