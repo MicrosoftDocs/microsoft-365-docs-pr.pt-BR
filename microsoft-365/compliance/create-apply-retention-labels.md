@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Instruções para criar e publicar rótulos de retenção para que você possa aplicá-los em aplicativos para manter o que precisa e excluir o que não
-ms.openlocfilehash: 562264585c4dd4fd3ba6d0f6e8faf046dda95662
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: a301568e80bdfe0681b052225852cde8bf8cdf50
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560579"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778309"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>Criar rótulos de retenção e aplicá-los em aplicativos
 
@@ -235,7 +235,7 @@ If you apply a default retention label to existing items in the library, folder,
 
 **Records:** If you apply a default record label to a library, folder, or document set, then a record label is applied to all the individual items within those locations. When you move a new item into a location with a record label, that item is labeled a record. However, if you change the default retention label to a label that doesn't declare content as a record, that action does not remove the record label from the individual items; those items retain their record label. Only a site collection admin can explicitly remove or change the retention label of record items.
 
-For more information about retention labels that declare content as a record, see [Learn about records](records.md).
+For more information about retention labels that declare content as a record, see [Records](records-management.md#records).
 
 ### Automatically applying a retention label to email by using rules
 

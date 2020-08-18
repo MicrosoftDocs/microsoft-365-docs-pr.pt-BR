@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre o controle de informações no Microsoft 365.
-ms.openlocfilehash: 526f91eb70ec2e249d2f8b83c4238f0f43584db1
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: ff7d5ebc1b656aa62bac054cfbd2784b335d03e6
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649138"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778561"
 ---
 # <a name="manage-information-governance"></a>Gerenciar governança de informações
 
@@ -33,7 +33,7 @@ Para manter o que você deseja e excluir o que não é:
  
 |Recursos|Que problemas ele resolve?|Introdução|
 |:------|:------------|:--------------------|:-----------------------------|
-|[Fluxo de trabalho de gerenciamento e exclusão de políticas](retention.md)| Reter ou excluir conteúdo que inclua emails, documentos, mensagens instantâneas e muito mais <br /><br />Cenário de exemplo: [aplicar um rótulo de retenção ao conteúdo automaticamente](apply-retention-labels-automatically.md) | [Introdução às políticas de retenção e rótulos de retenção](get-started-with-retention.md)|
+|[Políticas de retenção e rótulos de retenção](retention.md)| Reter ou excluir conteúdo com gerenciamento de políticas e um fluxo de trabalho de exclusão para email, documentos, mensagens instantâneas e muito mais <br /><br />Cenário de exemplo: [aplicar um rótulo de retenção ao conteúdo automaticamente](apply-retention-labels-automatically.md) | [Introdução às políticas de retenção e rótulos de retenção](get-started-with-retention.md)|
 |[Serviço de importação](importing-pst-files-to-office-365.md)| Importação em massa de arquivos PST para caixas de correio do Exchange Online para reter e pesquisar mensagens de email para requisitos normativos ou de conformidade | [Use o carregamento de rede para importar arquivos PST da sua organização para o Microsoft 365](use-network-upload-to-import-pst-files.md)|
 |[Arquivar dados de terceiros](archiving-third-party-data.md)| Importe, arquive e aplique soluções de conformidade a dados de terceiros de plataformas de mídia social, plataformas de mensagens instantâneas e plataformas de colaboração de documentos| [Conectores de terceiros](archiving-third-party-data.md#third-party-data-connectors)|
 |[Caixas de correio inativas](inactive-mailboxes-in-office-365.md)| Reter o conteúdo da caixa de correio após os funcionários saírem da organização | [Criar e gerenciar caixas de correio inativas](create-and-manage-inactive-mailboxes.md)|
@@ -44,5 +44,5 @@ Para gerenciar o conteúdo de alto valor para obrigações legais, de negócios 
 
 |Recursos|Que problemas ele resolve?|Introdução|
 |:------|:------------|---------------------|:----------------------------|
-|[Records management](records-management.md)| Uma única solução para email e documentos que incorpora cronogramas e requisitos de retenção em um plano de arquivo que gerencia a retenção, a declaração de registros e a disposição, para dar suporte ao ciclo de vida completo do seu conteúdo <br /><br />Cenário de exemplo: [disposição de registros](disposition.md#disposition-of-records)|[Saiba mais sobre os registros](records.md) |
+|[Records management](records-management.md)| Uma única solução para email e documentos que incorpora cronogramas e requisitos de retenção em um plano de arquivo que oferece suporte ao ciclo de vida completo do seu conteúdo com declaração, retenção e eliminação de registros <br /><br />Cenário de exemplo: [disposição de registros](disposition.md#disposition-of-records)|[Introdução ao gerenciamento de registros](get-started-with-records-management.md) |
 

@@ -15,13 +15,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
+hideEdit: true
 description: A prevenção de perda de dados (DLP) no centro de conformidade de segurança &amp; inclui 80 tipos de informações confidenciais que estão prontos para uso nas suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo.
-ms.openlocfilehash: 9e1b1261bbb58b1ca65818a5ad304ee186561ae6
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: b302879b50c06007656aba93b38f8387557d301b
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430514"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778551"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definições da entidade de tipo de informações confidenciais 
 
@@ -577,9 +578,9 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_austria_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- A expressão regular  `Regex_austria_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
     
-- Uma palavra-chave de `Keywords_austria_eu_driver's_license_number` foi encontrada. 
+- Uma palavra-chave de  `Keywords_austria_eu_driver's_license_number` foi encontrada. 
     
 ```xml
 <!-- EU Driver's License Number -->
@@ -632,9 +633,9 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_austria_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
+- A expressão regular  `Regex_austria_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
     
-- Uma palavra-chave de `Keywords_austria_eu_national_id_card` foi encontrada. 
+- Uma palavra-chave de  `Keywords_austria_eu_national_id_card` foi encontrada. 
    
 ```xml
 <!-- EU austria_eu_national_id -->
@@ -680,9 +681,9 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_austria_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- A expressão regular  `Regex_austria_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
     
-- Uma palavra-chave de `Keywords_austria_eu_passport_number` foi encontrada. 
+- Uma palavra-chave de  `Keywords_austria_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -726,13 +727,13 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_austria_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_austria_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
     
-- Uma palavra-chave de `Keywords_austria_eu_ssn_or_equivalent` foi encontrada. 
+- Uma palavra-chave de  `Keywords_austria_eu_ssn_or_equivalent` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_austria_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_austria_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -790,12 +791,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_austria_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_austria_eu_tax_file_number` foi encontrada. 
+- A função  `Func_austria_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_austria_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_austria_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_austria_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -1323,8 +1324,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_belgium_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_belgium_eu_driver's_license_number` foi encontrada.
+- A expressão regular  `Regex_belgium_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_belgium_eu_driver's_license_number` foi encontrada.
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -1480,8 +1481,8 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_belgium_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_belgium_eu_passport_number` foi encontrada.
+- A expressão regular  `Regex_belgium_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_belgium_eu_passport_number` foi encontrada.
 
 ```xml
  <!-- EU Passport Number -->
@@ -1523,12 +1524,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_belgium_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_belgium_eu_ssn_or_equivalent` foi encontrada. 
+- A função  `Func_belgium_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_belgium_eu_ssn_or_equivalent` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_belgium_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_belgium_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -1590,8 +1591,8 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_belgium_eu_tax_file_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_belgium_eu_tax_file_number` foi encontrada. 
+- A expressão regular  `Regex_belgium_eu_tax_file_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_belgium_eu_tax_file_number` foi encontrada. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -1885,8 +1886,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_bulgaria_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_bulgaria_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_bulgaria_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_bulgaria_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -1942,12 +1943,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_bulgaria_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_bulgaria_national_number` foi encontrada. 
+- A função  `Func_bulgaria_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_bulgaria_national_number` foi encontrada. 
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_bulgaria_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_bulgaria_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
@@ -2030,8 +2031,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_bulgaria_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_bulgaria_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_bulgaria_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_bulgaria_eu_passport_number` foi encontrada. 
 
 ```xml
  <!-- EU Passport Number -->
@@ -2069,12 +2070,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_bulgaria_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_bulgaria_eu_tax_file_number` foi encontrada. 
+- A função  `Func_bulgaria_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_bulgaria_eu_tax_file_number` foi encontrada. 
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_bulgaria_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_bulgaria_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 
 ```xml
  <!-- EU Tax File Number -->
@@ -3076,8 +3077,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_croatia_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_croatia_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_croatia_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_croatia_eu_driver's_license_number` foi encontrada. 
 
 ```xml
  <!-- EU Driver's License Number -->
@@ -3192,8 +3193,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_croatia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_croatia_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_croatia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_croatia_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -3284,12 +3285,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_croatia_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_croatia_eu_ssn_or_equivalent` foi encontrada. 
+- A função  `Func_croatia_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_croatia_eu_ssn_or_equivalent` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_croatia_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_croatia_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -3345,12 +3346,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_croatia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_croatia_eu_tax_file_number` foi encontrada. 
+- A função  `Func_croatia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_croatia_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_croatia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_croatia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -3418,8 +3419,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_cyprus_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_cyprus_eu_driver's_license_number` foi encontrada.
+- A expressão regular  `Regex_cyprus_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_cyprus_eu_driver's_license_number` foi encontrada.
 
 ```xml
  <!-- EU Driver's License Number -->
@@ -3467,8 +3468,8 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_cyprus_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_cyprus_eu_national_id_card` foi encontrada. 
+- A expressão regular  `Regex_cyprus_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_cyprus_eu_national_id_card` foi encontrada. 
     
 ```xml 
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
@@ -3509,8 +3510,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_cyprus_eu_passport_number` localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de `Keywords_cyprus_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_cyprus_eu_passport_number` localiza o conteúdo que corresponde ao padrão.
+- Uma palavra-chave de  `Keywords_cyprus_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -3554,12 +3555,12 @@ Não aplicável
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_cyprus_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_cyprus_eu_tax_file_number` foi encontrada. 
+- A função  `Func_cyprus_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_cyprus_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_cyprus_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_cyprus_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -3629,8 +3630,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_czech_republic_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_czech_republic_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_czech_republic_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_czech_republic_eu_driver's_license_number` foi encontrada. 
 
 ```xml
  <!-- EU Driver's License Number -->
@@ -3681,8 +3682,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_czech_republic_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_czech_republic_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_czech_republic_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_czech_republic_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -3784,12 +3785,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_czech_republic_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_czech_republic_eu_ssn_or_equivalent` foi encontrada. 
+- A função  `Func_czech_republic_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_czech_republic_eu_ssn_or_equivalent` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_czech_republic_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_czech_republic_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
 
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -3845,8 +3846,8 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_czech_republic_eu_tax_file_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_czech_republic_eu_tax_file_number` foi encontrada. 
+- A expressão regular  `Regex_czech_republic_eu_tax_file_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_czech_republic_eu_tax_file_number` foi encontrada. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -3919,8 +3920,8 @@ Sim
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_denmark_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_denmark_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_denmark_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_denmark_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -3971,8 +3972,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_denmark_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_denmark_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_denmark_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_denmark_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -4107,12 +4108,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_denmark_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_denmark_eu_ssn_or_equivalent` foi encontrada. 
+- A função  `Func_denmark_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_denmark_eu_ssn_or_equivalent` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_denmark_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_denmark_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -4166,12 +4167,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_denmark_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_denmark_eu_tax_file_number` foi encontrada. 
+- A função  `Func_denmark_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_denmark_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_denmark_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_denmark_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -4301,8 +4302,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_estonia_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_estonia_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_estonia_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_estonia_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -4357,12 +4358,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_estonia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_estonia_eu_national_id_card` foi encontrada. 
+- A função  `Func_estonia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_estonia_eu_national_id_card` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_estonia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_estonia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  
@@ -4432,8 +4433,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_estonia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_estonia_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_estonia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_estonia_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -4479,12 +4480,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_estonia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_estonia_eu_tax_file_number` foi encontrada. 
+- A função  `Func_estonia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_estonia_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_estonia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_estonia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -5055,9 +5056,9 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_finland_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- A expressão regular  `Regex_finland_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
     
-- Uma palavra-chave de `Keywords_finland_eu_driver's_license_number` foi encontrada. 
+- Uma palavra-chave de  `Keywords_finland_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -5234,12 +5235,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_finland_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_finland_eu_ssn_or_equivalent` foi encontrada. 
+- A função  `Func_finland_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_finland_eu_ssn_or_equivalent` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_finland_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_finland_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -5304,12 +5305,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_finland_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_finland_eu_tax_file_number` foi encontrada. 
+- A função  `Func_finland_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_finland_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_finland_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_finland_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -5634,12 +5635,12 @@ Não aplicável
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_france_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_france_eu_tax_file_number` foi encontrada. 
+- A função  `Func_france_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_france_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_france_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_france_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -5985,12 +5986,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_germany_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_germany_eu_tax_file_number` foi encontrada. 
+- A função  `Func_germany_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_germany_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_germany_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_germany_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -6053,8 +6054,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_greece_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_greece_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_greece_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_greece_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -6157,8 +6158,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_greece_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_greece_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_greece_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_greece_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -6198,9 +6199,9 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_greece_eu_tax_file_number` localiza o conteúdo que corresponde ao padrão. 
+- A expressão regular  `Regex_greece_eu_tax_file_number` localiza o conteúdo que corresponde ao padrão. 
     
-- Uma palavra-chave de `Keywords_greece_eu_tax_file_number` foi encontrada. 
+- Uma palavra-chave de  `Keywords_greece_eu_tax_file_number` foi encontrada. 
     
 ```
  <!-- EU Tax File Number -->
@@ -6350,8 +6351,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_hungary_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_hungary_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_hungary_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_hungary_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -6404,12 +6405,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_hungary_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_hungary_eu_national_id_card` foi encontrada. 
+- A função  `Func_hungary_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_hungary_eu_national_id_card` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_hungary_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_hungary_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
@@ -6455,8 +6456,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_hungary_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_hungary_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_hungary_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_hungary_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -6495,12 +6496,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_hungary_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_hungary_eu_ssn_or_equivalent` foi encontrada. 
+- A função  `Func_hungary_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_hungary_eu_ssn_or_equivalent` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_hungary_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_hungary_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -6562,12 +6563,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_hungary_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_hungary_eu_tax_file_number` foi encontrada. 
+- A função  `Func_hungary_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_hungary_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_hungary_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_hungary_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -6963,8 +6964,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_ireland_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_ireland_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_ireland_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_ireland_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -7088,7 +7089,7 @@ Duas letras ou dígitos seguidos de sete dígitos sem espaços ou delimitadores
 Duas letras ou dígitos seguidos por sete dígitos:
   
 - Dois dígitos ou letras (não diferenciam maiúsculas de minúsculas)
-- Sete dígitos 
+- Sete dígitos
     
 ### <a name="checksum"></a>Soma de verificação
 
@@ -7098,8 +7099,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_ireland_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_ireland_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_ireland_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_ireland_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -7216,12 +7217,12 @@ Não aplicável
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_ireland_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_ireland_eu_tax_file_number` foi encontrada. 
+- A função  `Func_ireland_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_ireland_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_ireland_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_ireland_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -7428,12 +7429,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_italy_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_italy_eu_national_id_card` foi encontrada. 
+- A função  `Func_italy_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_italy_eu_national_id_card` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_italy_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_italy_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
 <!-- Italy national identification number -->
@@ -7508,8 +7509,8 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_italy_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_italy_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_italy_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_italy_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -7562,12 +7563,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_italy_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_italy_eu_tax_file_number` foi encontrada. 
+- A função  `Func_italy_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_italy_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_italy_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_italy_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -7998,8 +7999,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_latvia_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_latvia_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_latvia_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_latvia_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -8053,12 +8054,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_latvia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_latvia_eu_national_id_card` foi encontrada. 
+- A função  `Func_latvia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_latvia_eu_national_id_card` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_latvia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_latvia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
 <!-- Latvia national identification number -->
@@ -8166,8 +8167,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_latvia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_latvia_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_latvia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_latvia_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -8211,12 +8212,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_latvia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_latvia_eu_tax_file_number` foi encontrada. 
+- A função  `Func_latvia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_latvia_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_latvia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_latvia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -8321,8 +8322,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_lithuania_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_lithuania_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_lithuania_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_lithuania_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -8376,12 +8377,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_lithuania_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_lithuania_eu_national_id_card` foi encontrada. 
+- A função  `Func_lithuania_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_lithuania_eu_national_id_card` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_lithuania_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_lithuania_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
 <!-- Lithuania national identification number -->
@@ -8453,8 +8454,8 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_lithuania_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_lithuania_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_lithuania_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_lithuania_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -8491,12 +8492,12 @@ Não aplicável
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_lithuania_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_lithuania_eu_tax_file_number` foi encontrada. 
+- A função  `Func_lithuania_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_lithuania_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_lithuania_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_lithuania_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -8567,8 +8568,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_luxemburg_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_luxemburg_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_luxemburg_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_luxemburg_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -8622,8 +8623,8 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_luxemburg_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_luxemburg_eu_national_id_card` foi encontrada. 
+- A expressão regular  `Regex_luxemburg_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_luxemburg_eu_national_id_card` foi encontrada. 
     
 ```xml
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
@@ -8678,8 +8679,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_nation_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_nation_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_nation_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_nation_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -8719,12 +8720,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_luxemburg_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_luxemburg_eu_tax_file_number` foi encontrada. 
+- A função  `Func_luxemburg_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_luxemburg_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_luxemburg_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_luxemburg_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -8874,8 +8875,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_malta_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_malta_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_malta_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_malta_eu_driver's_license_number` foi encontrada. 
     
 ```xml
 <!-- EU Driver's License Number -->
@@ -8927,12 +8928,12 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_malta_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_malta_eu_national_id_card` foi encontrada. 
+- A expressão regular  `Regex_malta_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_malta_eu_national_id_card` foi encontrada. 
     
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_malta_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
+- A expressão regular  `Regex_malta_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
     
 ```xml
  <!--Malta national identification number  -->
@@ -8986,8 +8987,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_malta_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_malta_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_malta_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_malta_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -9036,12 +9037,12 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_malta_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_malta_eu_tax_file_number` foi encontrada. 
+- A função  `Func_malta_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_malta_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_malta_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_malta_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -9175,8 +9176,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_netherlands_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_netherlands_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_netherlands_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_netherlands_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -9227,12 +9228,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_netherlands_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_netherlands_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave de foi encontrada.
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_netherlands_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_netherlands_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!--Netherland national identification number  -->
@@ -9292,8 +9293,8 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_netherlands_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_netherlands_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_netherlands_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_netherlands_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -9336,12 +9337,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_netherlands_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_netherlands_eu_tax_file_number` foi encontrada. 
+- A função  `Func_netherlands_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_netherlands_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_netherlands_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_netherlands_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -9550,7 +9551,7 @@ Essa entidade de tipo de informação confidencial só está disponível no tipo
 - Uma barra
 - Dois dígitos
 - Uma barra
-- Sete dígitos 
+- Sete dígitos
     
 ### <a name="checksum"></a>Soma de verificação
 
@@ -9560,8 +9561,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_poland_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_poland_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_poland_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_poland_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -9741,12 +9742,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_poland_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_poland_eu_tax_file_number` foi encontrada. 
+- A função  `Func_poland_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_poland_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_poland_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_poland_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -9877,8 +9878,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_portugal_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_portugal_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_portugal_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_portugal_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -9930,8 +9931,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_portugal_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_portugal_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_portugal_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_portugal_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -9968,12 +9969,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_portugal_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_portugal_eu_tax_file_number` foi encontrada. 
+- A função  `Func_portugal_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_portugal_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_portugal_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_portugal_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -10039,8 +10040,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_romania_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_romania_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_romania_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_romania_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -10089,12 +10090,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_romania_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_romania_eu_national_id_card` foi encontrada. 
+- A função  `Func_romania_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_romania_eu_national_id_card` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_romania_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_romania_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!--Romania national identification number  -->
@@ -10183,8 +10184,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_romania_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_romania_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_romania_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_romania_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -10224,8 +10225,8 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_romania_eu_tax_file_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_romania_eu_tax_file_number` foi encontrada. 
+- A expressão regular  `Regex_romania_eu_tax_file_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_romania_eu_tax_file_number` foi encontrada. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -10402,7 +10403,7 @@ Um caractere seguido por sete dígitos
 Um caractere seguido por sete dígitos
   
 - Uma letra (não diferencia maiúsculas de minúsculas) ou dígito
--  Sete dígitos  
+-  Sete dígitos 
     
 ### <a name="checksum"></a>Soma de verificação
 
@@ -10412,8 +10413,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_slovakia_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_slovakia_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_slovakia_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_slovakia_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -10451,12 +10452,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_slovakia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_slovakia_eu_national_id_card` foi encontrada. 
+- A função  `Func_slovakia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_slovakia_eu_national_id_card` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_slovakia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_slovakia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- Slovakia national identification number -->
@@ -10542,8 +10543,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_slovakia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_slovakia_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_slovakia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_slovakia_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -10583,8 +10584,8 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_slovakia_eu_tax_file_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_slovakia_eu_tax_file_number` foi encontrada. 
+- A expressão regular  `Regex_slovakia_eu_tax_file_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_slovakia_eu_tax_file_number` foi encontrada. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -10668,8 +10669,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_slovenia_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_slovenia_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_slovenia_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_slovenia_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -10723,12 +10724,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_slovenia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_slovenia_eu_national_id_card` foi encontrada. 
+- A função  `Func_slovenia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_slovenia_eu_national_id_card` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_slovenia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_slovenia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- Slovenia national identification number -->
@@ -10798,8 +10799,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_slovenia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_slovenia_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_slovenia_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_slovenia_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -10836,12 +10837,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_slovenia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_slovenia_eu_tax_file_number` foi encontrada. 
+- A função  `Func_slovenia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_slovenia_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_slovenia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_slovenia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -11005,8 +11006,8 @@ Sim
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_spain_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_spain_eu_driver's_license_number` foi encontrada. 
+- A função  `Func_spain_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_spain_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -11079,8 +11080,8 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_spain_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_spain_eu_national_id_card"` foi encontrada. 
+- A expressão regular  `Regex_spain_eu_national_id_card` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_spain_eu_national_id_card"` foi encontrada. 
     
 ```xml
 <!-- Spain national identification number -->
@@ -11142,8 +11143,8 @@ Não aplicável
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_spain_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_spain_eu_passport_number` foi encontrada. 
+- A expressão regular  `Regex_spain_eu_passport_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_spain_eu_passport_number` foi encontrada. 
     
 ```xml
  <!-- EU Passport Number -->
@@ -11255,12 +11256,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_spain_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_spain_eu_tax_file_number` foi encontrada. 
+- A função  `Func_spain_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_spain_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_spain_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_spain_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -11409,8 +11410,8 @@ Não
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A expressão regular `Regex_sweden_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_sweden_eu_driver's_license_number` foi encontrada. 
+- A expressão regular  `Regex_sweden_eu_driver's_license_number` localiza o conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_sweden_eu_driver's_license_number` foi encontrada. 
     
 ```xml
  <!-- EU Driver's License Number -->
@@ -11574,12 +11575,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_sweden_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_sweden_eu_ssn_or_equivalent` foi encontrada. 
+- A função  `Func_sweden_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_sweden_eu_ssn_or_equivalent` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_sweden_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_sweden_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU SSN or Equivalent Number -->
@@ -11638,12 +11639,12 @@ Sim
 
 Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_sweden_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
-- Uma palavra-chave de `Keywords_sweden_eu_tax_file_number` foi encontrada. 
+- A função  `Func_sweden_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keywords_sweden_eu_tax_file_number` foi encontrada. 
     
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_sweden_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_sweden_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
  <!-- EU Tax File Number -->
@@ -11739,7 +11740,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - swift routing number 
 - bic number 
 - bic code 
-- bic\# 
+- bic \# 
 - bic\# 
 - bank identifier code 
 - 標準化 9362 
@@ -11751,12 +11752,12 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - BICコード 
 - 銀行識別コードのための国際組織 
 - Organisation internationale de normalisation 9362 
-- rápida\# 
+- rápida \# 
 - code SWIFT 
 - le numéro de swift 
 - swift numéro d'acheminement 
 - le numéro BIC 
-- \#BIC 
+- \# BIC 
 - code identificateur de banque 
    
 ## <a name="taiwan-national-identification-number"></a>Número de identificação nacional de Taiwan
@@ -12281,9 +12282,9 @@ Sim
 
 Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
   
-- A função `Func_uk_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
+- A função  `Func_uk_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
-- Uma palavra-chave de `Keywords_uk_eu_tax_file_number` foi encontrada. 
+- Uma palavra-chave de  `Keywords_uk_eu_tax_file_number` foi encontrada. 
     
 ```
  <!-- EU Tax File Number -->

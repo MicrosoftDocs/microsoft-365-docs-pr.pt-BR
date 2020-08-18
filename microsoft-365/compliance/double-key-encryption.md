@@ -12,18 +12,18 @@ ms.reviewer: esaggese
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 0c66afa22c8712455a875bc8ca4ddcad1678e2e7
-ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
+ms.openlocfilehash: f36eeeb1f228bff48088cbbf3241d6866d0b3a21
+ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46601994"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46794160"
 ---
 # <a name="double-key-encryption-dke"></a>DKE (criptografia de chave dupla)
 
 > *Aplica-se a: chave dupla de criptografia para o Microsoft 365 Public Preview, [microsoft 365 Compliance](https://www.microsoft.com/microsoft-365/business/compliance-management), [proteção de informações do Azure](https://azure.microsoft.com/pricing/details/information-protection)*
 >
-> *Instruções para: [cliente de rotulação unificada de proteção de informações do Azure para Windows](https://docs.microsoft.com/azure/information-protection/faqs.md#whats-the-difference-between-the-azure-information-protection-classic-and-unified-labeling-clients)*
+> *Instruções para: [cliente de rotulação unificada de proteção de informações do Azure para Windows](https://docs.microsoft.com/azure/information-protection/faqs#whats-the-difference-between-the-azure-information-protection-classic-and-unified-labeling-clients)*
 >
 > *Descrição do serviço para: conformidade com a [Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
@@ -132,7 +132,7 @@ A Microsoft fornece os arquivos de origem do DKE em um repositório do GitHub. V
 
 As instruções a seguir se destinam a usuários do git ou do Visual Studio Code inexperientes:
 
-1. No navegador, acesse:[https://github.com/Azure-Samples/DoubleKeyEncryptionService](https://github.com/Azure-Samples/DoubleKeyEncryptionService)
+1. No navegador, acesse: [https://github.com/Azure-Samples/DoubleKeyEncryptionService](https://github.com/Azure-Samples/DoubleKeyEncryptionService)
 
 1. No lado direito da tela, selecione **código**. Sua versão da interface do usuário pode mostrar um botão **clone ou download** . Em seguida, na lista suspensa exibida, selecione o ícone Copiar para copiar a URL para a área de transferência.
 
@@ -250,7 +250,7 @@ Localize o `JwtAudience` . Substitua `<yourhostname>` pelo nome do host do compu
 - `TestKeys:Name`. Insira um nome para a chave. Por exemplo: `TestKey1`
 - `TestKeys:Id`. Crie um GUID e insira-o como o `TestKeys:ID` valor. Por exemplo, `DCE1CC21-FF9B-4424-8FF4-9914BD19A1BE`. Você pode usar um site como [gerador de GUID online](https://guidgenerator.com/) para gerar aleatoriamente um GUID.
 
-Esta imagem mostra o formato correto das configurações de locatário e chaves em **appsettings.js**. `LDAPPath`é configurada para autorização de função.
+Esta imagem mostra o formato correto das configurações de locatário e chaves em **appsettings.js**. `LDAPPath` é configurada para autorização de função.
 
 ![Mostra as configurações de locatário e chave corretas para o DKE no arquivo appsettings.js.](../media/dke-appsettingsjson-tenantkeysettings.png)
 
@@ -450,7 +450,7 @@ src\customer-key-store\scripts\key_store_tester.ps1 mykeystoreurl/MyKey
 
 Por exemplo:
 
-key_store_tester.ps1https://mycustomerkeystore.com/mykey
+key_store_tester.ps1 https://mycustomerkeystore.com/mykey
 
 Certifique-se de que nenhum erro apareça na saída. Quando estiver pronto, [Registre o repositório de chaves](#register-your-key-store).
 

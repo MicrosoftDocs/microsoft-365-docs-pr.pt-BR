@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as solicitações de lockbox de clientes que permitem controlar como um engenheiro de suporte da Microsoft pode acessar seus dados quando você se deparar com um problema.
-ms.openlocfilehash: 3ae04648cc89bf9871bb48e5669c620ffd7564ff
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 67662c34ed3aedb22c3462a2ba8aff9e338e07c6
+ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637783"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46794250"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Lockbox de cliente no Office 365
 
@@ -72,19 +72,17 @@ As etapas a seguir descrevem o fluxo de trabalho típico quando um engenheiro da
 
 Você pode ativar os controles de lockbox de cliente no centro de administração do Microsoft 365. Quando você ativa o Lockbox do cliente, a Microsoft deve obter a aprovação da sua organização antes de acessar qualquer conteúdo do seu locatário.
 
-1. Usando uma conta corporativa ou de estudante que tenha a função de **Aprovador** de administrador global ou de usuário de lockbox atribuída, [https://admin.microsoft.com](https://admin.microsoft.com) acesse e entre.
+1. Usando uma conta corporativa ou de estudante que tenha a função de **Aprovador** de administrador global ou de usuário de lockbox atribuída, acesse [https://admin.microsoft.com](https://admin.microsoft.com) e entre.
 
-2. Escolha **configurações > segurança & privacidade**.
+2. Escolha **configurações > configurações da organização**.
 
-    ![Editar as configurações de lockbox do cliente no centro de administração](../media/CustomerLockbox2.png)
-
-3. No bloco de **Lockbox do cliente** , escolha **Editar**e, em seguida, mova a opção para **ativado** ou **desativado** para ativar ou desativar o recurso.
+3. Selecione **Serviços**de lockbox de cliente de serviços  >  **Customer Lockbox**  >  **Edit**e, em seguida, mova a opção para **ativado** ou **desativado** para ativar ou desativar o recurso.
 
     ![Require approval for Customer Lockbox](../media/CustomerLockbox4.png)
 
 ## <a name="approve-or-deny-a-customer-lockbox-request"></a>Aprovar ou negar uma solicitação de lockbox do cliente
 
-1. Usando uma conta corporativa ou de estudante que tenha a função de **Aprovador** de administrador global ou de usuário de lockbox atribuída, [https://admin.microsoft.com](https://admin.microsoft.com) acesse e entre.
+1. Usando uma conta corporativa ou de estudante que tenha a função de **Aprovador** de administrador global ou de usuário de lockbox atribuída, acesse [https://admin.microsoft.com](https://admin.microsoft.com) e entre.
 
 2. Escolha **suporte > solicitações de lockbox do cliente**.
 
@@ -102,6 +100,10 @@ Você pode ativar os controles de lockbox de cliente no centro de administraçã
 
     ![Aprovar ou negar solicitações de lockbox do cliente](../media/CustomerLockbox8.png)
 
+> [!NOTE]
+> Use o cmdlet Set-AccessToCustomerDataRequest para aprovar, negar ou cancelar solicitações de lockbox do cliente Microsoft 365 que controlam o acesso aos seus dados por engenheiros de suporte da Microsoft. Para obter mais informações, consulte [set-AccessToCustomerDataRequest](https://docs.microsoft.com/powershell/module/exchange/set-accesstocustomerdatarequest?view=exchange-ps).
+
+
 ## <a name="auditing-customer-lockbox-requests"></a>Auditar solicitações de lockbox do cliente
 
 Os registros de auditoria que correspondem às solicitações de lockbox do cliente são registrados no log de auditoria. Você pode acessar esses logs usando a [ferramenta de pesquisa de log de auditoria](search-the-audit-log-in-security-and-compliance.md) no centro de conformidade do & de segurança. As ações relacionadas à aceitação ou negação de uma solicitação de lockbox de cliente e ações executadas por engenheiros da Microsoft (quando as solicitações de acesso são aprovadas) também são registradas no log de auditoria. Você pode pesquisar e revisar esses registros de auditoria.
@@ -112,9 +114,9 @@ Antes de poder usar o log de auditoria para rastrear solicitações de lockbox d
 
 1. Acesse [https://protection.office.com](https://protection.office.com).
   
-2. Entre usando sua conta corporativa ou de estudante.
+2. Entre usando sua conta de trabalho ou da escola.
 
-3. No painel esquerdo do centro de conformidade & segurança, escolha **Pesquisar &** > **pesquisa de log de auditoria**.
+3. No painel esquerdo do centro de conformidade & segurança, escolha **Pesquisar &**  >  **pesquisa de log de auditoria**.
 
     A página **pesquisa de log de auditoria** é exibida.
 
@@ -152,7 +154,7 @@ Quando uma pessoa em sua organização aprova ou nega uma solicitação de lockb
 |:---------- |:----------|
 | Date       | A data e a hora em que a solicitação de lockbox do cliente foi aprovada ou negada.
 | Endereço IP | O endereço IP do computador que o aprovador usou para aprovar ou negar uma solicitação. |
-| Usuário       | A conta de serviço\[BOXServiceAccount@\]customerforest. Prod.Outlook.com.            |
+| Usuário       | A conta de serviço BOXServiceAccount@ \[ customerforest \] . Prod.Outlook.com.            |
 | Atividade   | Set-AccessToCustomerDataRequest; Esta é a atividade de auditoria que é registrada quando você aprova ou nega uma solicitação de lockbox do cliente.                                |
 | Item       | O GUID da solicitação de lockbox do cliente                             |
 
@@ -173,7 +175,7 @@ As ações executadas por um engenheiro da Microsoft depois que uma solicitaçã
 | Endereço IP | O endereço IP do engenheiro de máquina da Microsoft usado. |
 | Usuário       | Operador da Microsoft; Esse valor indica que esse registro está relacionado a uma solicitação de lockbox do cliente.                                  |
 | Atividade   | Nome da atividade realizada pelo engenheiro da Microsoft.|
-| Item       | \<Empty\>                                             |
+| Item       | \<empty\>                                             |
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -183,7 +185,7 @@ No momento, o Lockbox do cliente é compatível com o Exchange Online, o SharePo
 
 #### <a name="is-customer-lockbox-available-to-all-customers"></a>A Lockbox do cliente está disponível para todos os clientes?
 
-O Lockbox do cliente está incluído nas assinaturas do Microsoft 365 ou do Office 365 E5 e pode ser adicionado a outros planos com proteção e conformidade de informações ou uma assinatura complementar de conformidade avançada. Confira [planos e preços](https://products.office.com/business/office-365-enterprise-e5-business-software) para obter mais informações.
+O Lockbox do cliente está incluído nas assinaturas do Microsoft 365 ou do Office 365 E5 e pode ser adicionado a outros planos com proteção e conformidade de informações ou uma assinatura complementar de conformidade avançada. Confira [planos e preços](https://products.office.com/business/office-365-enterprise-e5-business-software)   para obter mais informações.
 
 #### <a name="what-is-customer-content"></a>O que é conteúdo do cliente?
 

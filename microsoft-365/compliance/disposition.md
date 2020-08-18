@@ -16,18 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a eliminação de conteúdo, se você usar uma revisão de disposição ou se o conteúdo é excluído automaticamente de acordo com as configurações que você configurou.
-ms.openlocfilehash: 55b57891732f50eba09425fce4d2be34c94740f3
-ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
+ms.openlocfilehash: 7548ab12b72aa75047caa373efe3e7c3eb7c5d31
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533818"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778531"
 ---
 # <a name="disposition-of-content"></a>Disposição do conteúdo
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-Use a guia **disposição** do **Gerenciamento de registros** no centro de conformidade da Microsoft 365 para gerenciar revisões de disposição e exibir [registros](records.md) que foram excluídos automaticamente no final do período de retenção. 
+Use a guia **disposição** do **Gerenciamento de registros** no centro de conformidade da Microsoft 365 para gerenciar revisões de disposição e exibir [registros](records-management.md#records) que foram excluídos automaticamente no final do período de retenção. 
 
 ## <a name="prerequisites-for-viewing-content-dispositions"></a>Pré-requisitos para exibir desposições de conteúdo
 

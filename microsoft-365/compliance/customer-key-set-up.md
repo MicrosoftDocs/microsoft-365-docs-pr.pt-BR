@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como configurar a chave do cliente para o Microsoft 365 para Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e arquivos do teams.
-ms.openlocfilehash: 158096216974691bf0caff93a1c95db54b92f6b1
-ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
+ms.openlocfilehash: 346b723a4741e18d161122edecf985a3fb8c7845
+ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44810987"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46794216"
 ---
 # <a name="set-up-customer-key"></a>Configurar a chave do cliente
 
@@ -132,7 +132,7 @@ Antes de entrar em contato com a equipe do Microsoft 365, você deve executar as
 
    ```powershell
    Set-AzContext -SubscriptionId <SubscriptionId>
-   Register-AzProviderFeature -FeatureName mandatoryRetentionPeriodEnabled -ProviderNamespace Microsoft.KeyVault
+   Register-AzProviderFeature -FeatureName mandatoryRetentionPeriodEnabled -ProviderNamespace Microsoft.Resources
    ```
 
 3. Entre em contato com a Microsoft para finalizar o processo. Para a equipe do SharePoint e do OneDrive for Business, entre em contato com [Spock@microsoft.com](mailto:spock@microsoft.com). Para o Exchange Online e o Skype for Business, entre em contato com a [exock@microsoft.com](mailto:exock@microsoft.com). Inclua o seguinte em seu email:
@@ -279,13 +279,13 @@ Por exemplo,
 Add-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -Destination Software -KeyOps wrapKey,unwrapKey
 ```
 
-Para importar uma chave diretamente para o seu cofre de chaves, você precisa ter um módulo de segurança de hardware do Thales nShield.
+Para importar uma chave diretamente para o seu cofre de chaves, você precisa ter um módulo de segurança de hardware do nCipher nShield.
   
-Algumas organizações preferem essa abordagem para estabelecer o comprovante de suas chaves, e o método também fornece o seguinte:
+Algumas organizações preferem essa abordagem para estabelecer o comprovante de suas chaves e, em seguida, este método também fornece o seguinte:
   
-- O conjunto de ferramentas usado para importação inclui atestado de Thales que a chave de troca de chave (KEK) que é usada para criptografar a chave gerada não é exportável e é gerada dentro de um HSM autêntico que foi fabricado pela Thales.
+- O conjunto de ferramentas usado para importação inclui atestado de nCipher que a chave de troca de chave (KEK) que é usada para criptografar a chave gerada não é exportável e é gerada dentro de um HSM autêntico que foi fabricado pela nCipher.
 
-- O conjunto de ferramentas inclui atestado do Thales que o mundo de segurança do Azure Key Vault também foi gerado em um HSM autêntico fabricado pela Thales. Esse atestado comprova que a Microsoft também está usando o hardware genuíno Thales.
+- O conjunto de ferramentas inclui atestado do nCipher que o mundo de segurança do Azure Key Vault também foi gerado em um HSM autêntico fabricado pela nCipher. Esse atestado comprova que a Microsoft também está usando o hardware genuíno nCipher.
 
 Verifique com o grupo de segurança para determinar se os atestado acima são necessários. Para obter etapas detalhadas para criar uma chave no local e importá-la para o seu cofre de chaves, consulte [como gerar e transferir chaves protegidas por HSM para o Azure Key Vault](https://azure.microsoft.com/documentation/articles/key-vault-hsm-protected-keys/). Use as instruções do Azure para criar uma chave em cada cofre de chaves.
   
@@ -356,7 +356,7 @@ Por exemplo, para o SharePoint Online e o OneDrive for Business:
   
 ```powershell
 Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365SP-NA-VaultA1
--PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName TBD
+-PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName 00000003-0000-0ff1-ce00-000000000000
 ```
 
 Para verificar se uma data de vencimento não está definida para suas chaves, execute o cmdlet [Get-AzKeyVaultKey](https://docs.microsoft.com/powershell/module/az.keyvault/get-azkeyvault) da seguinte maneira:
