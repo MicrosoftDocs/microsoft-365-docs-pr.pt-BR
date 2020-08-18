@@ -28,8 +28,10 @@
           href: service-description/device-services.md
         - name: Configuração do dispositivo
           href: service-description/device-policies.md
-        - name: Segurança
+        - name: Tecnologias de segurança
           href: service-description/security.md
+        - name: Operações de proteção
+          href: service-description/security-operations.md
         - name: Atualizações
           href: service-description/updates.md
         - name: Suporte

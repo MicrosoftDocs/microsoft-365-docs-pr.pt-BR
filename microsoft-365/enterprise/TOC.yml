@@ -30,7 +30,15 @@
               href: microsoft-365-ip-web-service.md
             - name: Pontos de extremidade adicionais não incluídos nos serviços Web
               href: additional-office365-ip-addresses-and-urls.md
-        - name: Usar a CDN do Office 365 com o SharePoint Online
+            - name: Requisitos de segurança de rede adicionais para Office 365 GCC High e DOD
+              href: additional-network-security-requirements-for-office-365-gcchigh-and-dod.md
+            - name: Registros DNS para Office 365 DoD
+              href: dns-records-for-office-365-dod.md
+            - name: Registros DNS para Office 365 GCC High
+              href: dns-records-for-office-365-gcc-high.md
+        - name: Início Rápido para CDN (Rede de Distribuição de Conteúdo)
+          href: office-365-cdn-quickstart.md
+        - name: Usar a CDN com o SharePoint Online
           href: use-microsoft-365-cdn-with-spo.md
         - name: Otimizar a conectividade para usuários remotos
           items:
@@ -45,6 +53,8 @@
         - name: ExpressRoute para Office 365
           href: azure-expressroute.md
           items:
+            - name: Implementação do ExpressRoute
+              href: implementing-expressroute.md
             - name: Como rotear com o ExpressRoute para Office 365
               href: routing-with-expressroute.md
     - name: Gerenciar
@@ -53,6 +63,8 @@
           items:
             - name: Pontos de extremidade do Microsoft 365
               href: microsoft-365-endpoints.md
+            - name: Gerenciar pontos de extremidade do Office 365
+              href: managing-office-365-endpoints.md
             - name: Pontos de extremidade mundiais
               href: urls-and-ip-address-ranges.md
             - name: Pontos de extremidade do US Government DoD
@@ -395,6 +407,8 @@
   items:
     - name: Roteiro
       href: client-server-software-roadmap-microsoft-365.md
+    - name: 'Modelos de arquitetura para Microsoft Office SharePoint Online, Exchange, Skype for Business e Lync'
+      href: architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md
     - name: Plano
       items:
         - name: Planejar sua atualização
