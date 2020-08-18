@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: Quando conectado com contas corporativas ou de estudante válidas, os usuários podem obter serviços de assistência baseados em nuvem com a Cortana em experiências do Microsoft 365 que atendam às promessas de privacidade, segurança e conformidade do Office 365.
-ms.openlocfilehash: 5707fb5966e77787b609c20b204602318627d350
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 29e04726b04fafb0b79e5ba4625dce2ae74bfc67
+ms.sourcegitcommit: 6fb2a1c404ea3c3573b0f7803bf17459a9387891
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521272"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788843"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana no Microsoft 365
 
@@ -37,7 +37,7 @@ Em frente, estamos focalizando a Cortana em produtividade corporativa.
 
 - Consistente com outros serviços do Office 365, os serviços corporativos da Cortana atendem às mesmas promessas de privacidade, segurança e conformidade, conforme refletido nos [termos dos serviços online (OST)](https://www.microsoft.com/licensing/product-licensing/products).
 
-- Novas experiências da Microsoft 365, como o email de resumo e reproduzir meus emails, serão habilitadas usando os serviços corporativos da Cortana e atenderão totalmente às promessas. Esses recursos estão atualmente disponíveis no mercado inglês (Estados Unidos) para usuários com caixas de correio na geografia dos EUA e para funcionários de empresas multinacionais com caixas de correio baseadas nos EUA.
+- Novas experiências da Microsoft 365, como o email de resumo e reproduzir meus emails, serão habilitadas usando os serviços corporativos da Cortana e atenderão totalmente às promessas. Esses recursos estão atualmente disponíveis no mercado inglês (Estados Unidos) para usuários com caixas de correio na geografia dos EUA e para funcionários de empresas multinacionais com caixas de correio baseadas nos EUA. Para obter mais informações sobre como localizar o local de uso, visite [Exibir valores de propriedade adicionais para contas](https://docs.microsoft.com/microsoft-365/enterprise/view-user-accounts-with-microsoft-365-powershell?view=o365-worldwide#view-additional-property-values-for-accounts).
 
 - Os usuários podem se conectar aos serviços corporativos da Cortana descritos aqui por meio da Cortana no Windows 10 (versão 2004 e posterior), bem como aplicativos cliente, como Outlook para iOS e Android, sujeitos a termos de licenciamento separados. 
 
@@ -45,7 +45,7 @@ Em frente, estamos focalizando a Cortana em produtividade corporativa.
 
 ## <a name="what-data-is-processed-by-cortana-enterprise-services"></a>Quais dados são processados pelos serviços corporativos da Cortana? 
 
-O serviços corporativos da Cortana processa consultas do usuário, dados do Office necessários para atender à solicitação do usuário e outras telemetria geradas pelos sistemas da Microsoft para executar o serviço. Os dados coletados pelos serviços corporativos da Cortana incluem a representação de texto das consultas faladas do usuário (ou seja, transcrições do reconhecimento de fala). Esses dados de texto são dados do cliente e são gerenciados de acordo com os [termos dos serviços online](https://www.microsoft.com/licensing/product-licensing/products). Ele é usado apenas para desenvolver e aprimorar os modelos de aprendizado de máquina consistentes com os termos de serviço online.
+O serviços corporativos da Cortana processa consultas do usuário, dados do Office necessários para atender à solicitação do usuário e outras telemetria geradas pelos sistemas da Microsoft para executar o serviço. Os dados coletados pelos serviços corporativos da Cortana incluem a representação de texto das consultas faladas do usuário (ou seja, transcrições do reconhecimento de fala). Esses dados de texto são dados do cliente e são gerenciados de acordo com os  [termos dos serviços online](https://www.microsoft.com/licensing/product-licensing/products). Ele é usado apenas para desenvolver e aprimorar os modelos de aprendizado de máquina consistentes com os termos de serviço online.
 
 ## <a name="what-is-the-governance-model-for-customer-data-in-cortana-enterprise-services"></a>Qual é o modelo de governança dos dados do cliente nos serviços corporativos da Cortana?
 
@@ -55,13 +55,13 @@ Consistente com outros serviços do Office 365, os serviços corporativos da Cor
 
 A tabela abaixo descreve a manipulação de dados para serviços corporativos da Cortana.
 
-|**Nome**|**Descrição**|
+| Nome | Descrição |
 |:-----|:-----|
-|**Armazenamento**  <br/> |Os dados do cliente são armazenados em servidores da Microsoft dentro da nuvem do Office 365. Seus dados fazem parte do locatário. <br/> O áudio de fala não é mantido.  <br/> |
+|**Armazenamento**  <br/> |Os dados do cliente são armazenados em servidores da Microsoft dentro da nuvem do Office 365. Seus dados fazem parte do locatário. <br/><br/>O áudio de fala não é mantido.  <br/> |
 |**Permanece na geografia**  <br/> |Os dados do cliente são armazenados em servidores da Microsoft dentro da nuvem do Office 365 em geografia. Seus dados fazem parte do locatário.  <br/> |
-|**Retenção**  <br/> |Os dados do cliente são excluídos quando a conta é fechada pelo administrador do locatário ou quando uma solicitação de exclusão de direitos de dados do RGPD é feita. <br/> O áudio de fala não é mantido.  <br/> |
+|**Retenção**  <br/> |Os dados do cliente são excluídos quando a conta é fechada pelo administrador do locatário ou quando uma solicitação de exclusão de direitos de dados do RGPD é feita. <br/><br/>O áudio de fala não é mantido.  <br/> |
 |**Processamento e confidencialidade**  <br/> |O pessoal envolvido no processamento de dados do cliente e dados pessoais (i) processará esses dados apenas nas instruções do cliente e (II) será obrigado a manter a confidencialidade e a segurança desses dados mesmo após o término do contrato.  <br/> |
-|**Uso**  <br/> |A Microsoft usa somente os dados do cliente para fornecer os serviços acordados e para os fins que são compatíveis com esses serviços. O Machine Learning para desenvolver e aprimorar modelos é uma dessas finalidades. O Machine Learning é feito dentro da nuvem do Office 365 e não há nenhuma visualização humana, revisão ou rotulagem dos dados do cliente. <br/> Seus dados não são usados para anunciar o anúncio.  <br/> |
+|**Uso**  <br/> |A Microsoft usa somente os dados do cliente para fornecer os serviços acordados e para os fins que são compatíveis com esses serviços. O Machine Learning para desenvolver e aprimorar modelos é uma dessas finalidades. O Machine Learning é feito dentro da nuvem do Office 365 e não há nenhuma visualização humana, revisão ou rotulagem dos dados do cliente. <br/><br/>Seus dados não são usados para anunciar o anúncio.  <br/> |
 
 ## <a name="cortana-enterprise-services-in-microsoft-365-experiences"></a>Serviços corporativos da Cortana no Microsoft 365 experiências
 

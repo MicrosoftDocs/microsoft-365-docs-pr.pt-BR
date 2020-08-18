@@ -20,18 +20,22 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre as notificações de spam do usuário final para mensagens em quarentena na proteção do Exchange Online (EOP).
-ms.openlocfilehash: b196a9e11d54d9d86acc991ba877279f1fa3d115
-ms.sourcegitcommit: 51f040a4edb8dd52521a5d7b0f7a975986a1af10
+ms.openlocfilehash: 2786c90f6f5fb66cbb96b0375dacf7793894f72e
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46608294"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778499"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Usar notificações de spam do usuário para liberar e relatar mensagens em quarentena
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, a quarentena retém mensagens potencialmente perigosas ou indesejadas. Para obter mais informações, consulte [mensagens em quarentena no EOP](quarantine-email-messages.md).
 
 Por padrão, as notificações de spam do usuário final estão desabilitadas em políticas antispam. Quando um administrador [habilita as notificações de spam do usuário final](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications), os destinatários (incluindo caixas de correio compartilhadas com mapeamento automático habilitado) receberão notificações periódicas sobre suas mensagens que foram colocadas em quarentena como spam, email em massa ou (em abril de 2020) phishing.
+
+Para caixas de correio compartilhadas, as notificações de spam do usuário final só são suportadas para usuários que receberam permissão FullAccess para a caixa de correio compartilhada. Para obter mais informações, consulte [use o Eat para editar a delegação de caixa de correio compartilhada](https://docs.microsoft.com/Exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation).
+
+A notificação de spam do usuário final não é suportada para grupos.
 
 > [!NOTE]
 > As mensagens que foram colocadas em quarentena como phishing de alta confiança, malware ou por regras de fluxo de emails (também conhecidas como regras de transporte) só estão disponíveis para administradores. Para obter mais informações, consulte [Gerenciar mensagens e arquivos em quarentena como administrador no EOP](manage-quarantined-messages-and-files.md).

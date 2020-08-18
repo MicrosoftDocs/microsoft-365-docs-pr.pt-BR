@@ -1,31 +1,34 @@
 ---
-title: Segurança na área de trabalho gerenciada da Microsoft
+title: Tecnologias de segurança na área de trabalho gerenciada da Microsoft
 description: ''
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
-ms.date: 09/24/2018
-ms.openlocfilehash: 8bfd71c4a143dee54ae006c8c54d711a8785480f
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.collection: M365-modern-desktop
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: debd21a975ce209677bdd054952e31f34260e405
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470484"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778251"
 ---
-# <a name="security-in-microsoft-managed-desktop"></a>Segurança na área de trabalho gerenciada da Microsoft
+# <a name="security-technologies-in-microsoft-managed-desktop"></a>Tecnologias de segurança na área de trabalho gerenciada da Microsoft
 
 <!--Security, also Onboarding doc: data handling/store, privileged account access -->
 
-O Microsoft Managed desktop usa várias tecnologias da Microsoft para ajudar a proteger os dispositivos e dados gerenciados. Especificamente: 
+O Microsoft Managed desktop usa várias tecnologias da Microsoft para ajudar a proteger os dispositivos e dados gerenciados. Além disso, o centro de operações de segurança do Microsoft Managed desktop usa vários [processos](security-operations.md) em conjunto com essas tecnologias.
 
+Especificamente: 
 
 - [Segurança do dispositivo](#device-security) – segurança e proteção nos dispositivos de área de trabalho gerenciada da Microsoft
 - [Gerenciamento de identidade e acesso](#identity-and-access-management) – Gerenciando o uso seguro de dispositivos por meio do Azure Active Directory Identity Services
 - [Segurança de rede](#network-security) – informações de VPN e configurações e soluções recomendadas do Microsoft Managed desktop
 - [Segurança de informações](#information-security) – serviços opcionais disponíveis para proteger ainda mais as informações confidenciais 
 
-Para obter informações sobre armazenamento de dados, uso e práticas de segurança usadas pela área de trabalho gerenciada da Microsoft, baixe nosso White Paper em [https://aka.ms/mmd-data](https://aka.ms/mmd-data) .
+Para obter informações sobre o armazenamento de dados, o uso e as práticas de segurança usadas pelo Microsoft Managed desktop, consulte nosso White Paper em [https://aka.ms/mmd-data](https://aka.ms/mmd-data) .
 
 
 ## <a name="device-security"></a>Segurança do dispositivo

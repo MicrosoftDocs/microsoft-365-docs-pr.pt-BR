@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Proteja seus emails e dados de negócios contra ameaças da Cyber, incluindo ransomware, phishing e anexos mal-intencionados. '
-ms.openlocfilehash: cffc922aec3ca46543b5b1608fa37e6fa0acfa23
-ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
+ms.openlocfilehash: c5ae75bea68f56cb1ba028500a1f206603332717
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138285"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778297"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>As 10 maneiras principais de proteger os planos do Microsoft 365 for Business
 
@@ -43,9 +43,9 @@ A Microsoft recomenda que você conclua as tarefas listadas na tabela a seguir q
   
 ||**Tarefa**|**Microsoft 365 Business Standard**|**Microsoft 365 Business Premium**|
 |:-----|:-----|:-----|:-----|
-|1   <br/> |[Configurar autenticação multifatorial](secure-your-business-data.md#setup) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|2   <br/> |[Treinar os usuários](secure-your-business-data.md#train) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|3   <br/> |[Usar contas de administrador dedicadas](secure-your-business-data.md#admin) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|1  <br/> |[Configurar autenticação multifatorial](secure-your-business-data.md#setup) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|duas  <br/> |[Treinar os usuários](secure-your-business-data.md#train) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|3D  <br/> |[Usar contas de administrador dedicadas](secure-your-business-data.md#admin) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |4   <br/> |[Aumentar o nível de proteção contra malware no email](secure-your-business-data.md#malware) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |5   <br/> |[Proteção contra ransomware](secure-your-business-data.md#ransomware) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |6   <br/> |[Parar o encaminhamento automático para email](secure-your-business-data.md#forwarding) <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
@@ -66,17 +66,19 @@ O uso da autenticação multifator é uma das maneiras mais fáceis e eficazes d
 Para empresas que usam o Microsoft 365, adicione uma configuração que exija que os usuários façam logon usando a autenticação multifator. Quando você fizer essa alteração, os usuários serão solicitados a configurar seu telefone para a autenticação de dois fatores na próxima vez em que fizerem logon.
 Para ver um vídeo de treinamento sobre como configurar a MFA e como os usuários concluem a configuração, consulte [set up MFA](https://support.microsoft.com/office/e12187b8-216a-4490-9e3b-df34a06fb787) and [User set up](https://support.microsoft.com/office/a32541df-079c-420d-9395-9d59354f7225).
   
-Para configurar a autenticação multifator:
+Para configurar a autenticação multifator, ative os padrões de segurança:
 
-1. No [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=834822), selecione usuários ativos do **usuário**  >  **Active Users**.
+Para a maioria das organizações, os padrões de segurança oferecem um bom nível de segurança adicional de entrada. Para saber mais, confira [Quais são os padrões de segurança?](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
 
-2. Na seção **usuários ativos** , selecione **autenticação multifator**.
+Se a sua assinatura for nova, os padrões de Segurança já poderão estar habilitados para você automaticamente.
 
-3. Na página **autenticação multifator** , selecione **usuário** se estiver habilitando-o para um usuário ou se você puder executar uma **atualização em massa**.
+Habilite ou desabilite as opções de segurança no painel de **Propriedades** para o Azure Active Directory (Azure AD) no portal do Azure.
 
-4. Selecione **habilitar** em **etapas rápidas**.
-
-5. Na janela pop-up, escolha **habilitar autenticação multifator**.
+1.  Acessar o [Centro de administração do Microsoft 365](https://admin.microsoft.com) com credenciais de administrador global.
+2.  Na barra de navegação à esquerda, escolha **Mostrar Tudo** e em **Centro de administração**, escolha ** Azure Active Directory**.
+3. No **centro de administração do Azure Active Directory** escolha **Azure Active Directory** > **Propriedades**.
+3.  Na parte inferior da página, clique em **Gerenciar Padrões de segurança**.
+4.  Clique em **Sim** para habilitar os padrões de segurança ou **Não** para desabilitar o padrão de segurança e, em seguida, escolha **Salvar**.
 
 
 Após configurar a autenticação multifator da sua organização, os usuários precisarão configurar a verificação em duas etapas em seus dispositivos. Para obter mais informações, consulte [Configurar a verificação em duas etapas para o Microsoft 365](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14).
@@ -155,7 +157,7 @@ Para criar uma regra de transporte de email, exiba um [vídeo de treinamento cur
     
 5. Aplicar as configurações na tabela a seguir para cada regra. Deixe o restante das configurações no padrão, a menos que você queira alterá-las.
     
-6. Selecione **Salvar**.
+6. Clique em **Salvar**.
     
 |**Configuração**|**Avisar os usuários antes de abrir anexos de arquivos do Office**|**Bloquear tipos de arquivo que podem conter ransomware ou outro código mal-intencionado**|
 |:-----|:-----|:-----|
@@ -168,7 +170,7 @@ Para criar uma regra de transporte de email, exiba um [vídeo de treinamento cur
 > [!TIP]
 > Você também pode adicionar os arquivos que deseja bloquear à lista Antimalware na [etapa 4](#4-raise-the-level-of-protection-against-malware-in-mail).
 
-Para saber mais, confira:
+Para saber mais, veja:
   
 - [Como lidar com o ransomware](https://go.microsoft.com/fwlink/?linkid=2016501&amp;clcid=0x409)
     
@@ -191,7 +193,7 @@ Para criar uma regra de transporte de emails:
     
 5. Aplicar as configurações na tabela a seguir. Deixe o restante das configurações no padrão, a menos que você queira alterá-las.
     
-6. Selecione **Salvar**.
+6. Clique em **Salvar**.
     
 |**Configuração**|**Rejeitar emails de encaminhamento automático para domínios externos**|
 |:-----|:-----|
@@ -331,7 +333,7 @@ Para modificar a política padrão:
 
 3. Em **configurações que se aplicam ao conteúdo exceto email**, selecione **aplicativos do Office 365**, não **rastreie quando os usuários clicam em links seguros**e **não permitem que os usuários cliquem em links seguros para a URL original**.
     
-4. Selecione **Salvar**. 
+4. Clique em **Salvar**. 
     
 Para criar uma nova política direcionada para todos os destinatários em seu domínio:
   
@@ -339,7 +341,7 @@ Para criar uma nova política direcionada para todos os destinatários em seu do
     
 2. Aplicar as configurações listadas na tabela a seguir.
     
-3. Selecione **Salvar**. 
+3. Clique em **Salvar**. 
     
 |**Configuração ou opção**|**Configuração recomendada** <br/>|
 |:-----|:-----|
