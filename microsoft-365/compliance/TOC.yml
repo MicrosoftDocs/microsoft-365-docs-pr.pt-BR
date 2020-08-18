@@ -6,8 +6,6 @@
       href: compliance-quick-tasks.md
     - name: O que há de novo no centro de conformidade
       href: whats-new.md
-    - name: Atualizações recentes do conteúdo de conformidade
-      href: recently-updated-topics-mcc.md
     - name: Centro de conformidade do Microsoft 365
       href: microsoft-365-compliance-center.md
     - name: Catálogo de soluções do Microsoft 365
@@ -341,13 +339,13 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=867039'
     - name: Gerenciamento de registros
       items:
-        - name: Gerenciamento de registros
+        - name: Saiba mais sobre o gerenciamento de registros
           href: records-management.md
-        - name: Saiba mais sobre os registros
-          href: records.md
-        - name: Declarar Registro
+        - name: Introdução ao gerenciamento de registros
+          href: get-started-with-records-management.md
+        - name: Declarar registros
           href: declare-records.md
-        - name: Controle de versão do registro
+        - name: Usar o controle de versão do registro
           href: record-versioning.md
 - name: Gerenciar a Descoberta Eletrônica
   items:
