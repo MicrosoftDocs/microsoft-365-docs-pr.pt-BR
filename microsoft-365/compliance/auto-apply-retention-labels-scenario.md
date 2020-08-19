@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Como você pode usar os rótulos de retenção para gerenciar o ciclo de vida dos documentos no SharePoint pelo uso de metadados para classificar conteúdo, aplicar automaticamente os rótulos e usar a retenção baseada em evento para começar o período de retenção.
-ms.openlocfilehash: 250bf182c26616a3a2f9253471469d2cecbd8d2b
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 8aed846c8c95aad737a9dfd56e4df7533e57a329
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560664"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778541"
 ---
 # <a name="use-retention-labels-to-manage-the-lifecycle-of-documents-stored-in-sharepoint"></a>Use os rótulos de retenção para gerenciar o ciclo de vida dos documentos armazenados no SharePoint.
 
@@ -107,7 +107,7 @@ Aqui está o [plano de arquivo](file-plan-manager.md) para a etiqueta de retenç
 
 - **Duração da retenção:** 5 anos (1,825 dias).
 
-- **Rótulo de retenção**: Configurar o rótulo de retenção para classificar o conteúdo como um [*registro*](records.md). (Os documentos que são classificados como um *registro* não podem ser modificados ou excluídos por usuários.)
+- **Rótulo de registro**: Configure o rótulo de registro para classificar o conteúdo como um [registro](records-management.md#records). (Os documentos que são classificados como um *registro* não podem ser modificados ou excluídos por usuários.)
 
 - **Descritores de plano de arquivo:** (para simplificar o cenário, nenhum descritor de arquivo é fornecido)
 
