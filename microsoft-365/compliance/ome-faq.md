@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Tem uma pergunta sobre como funcionam os novos recursos de proteção de mensagens? Verifique se há uma resposta aqui.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5368133877921d8f5fdfa2e3de2e610c545f57ff
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 927b81c3a1ce049f1a2427bbbf1d306608be35cb
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818674"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798183"
 ---
 # <a name="message-encryption-faq"></a>Perguntas frequentes sobre criptografia de mensagens
 
@@ -102,11 +102,15 @@ Você pode criar mensagens protegidas do Outlook 2016 e do Outlook 2013 para Win
 
 Os usuários do Microsoft 365 podem ler e responder do Outlook para Windows e Mac (2013 e 2016), Outlook na Web e Outlook Mobile (Android e iOS). Você também pode usar o cliente de correio nativo do iOS se sua organização permitir. Se você não for um usuário do Microsoft 365, poderá ler e responder a mensagens criptografadas na Web através do navegador da Web.
   
+## <a name="is-there-a-size-limit-for-messages-you-can-send-with-ome"></a>Há um limite de tamanho para mensagens que você pode enviar com o OME?
+
+Sim. O tamanho máximo de mensagem que você pode enviar com OME, incluindo anexos, é de 30 MB.
+
 ## <a name="what-file-types-are-supported-as-attachments-in-protected-emails-do-attachments-inherit-the-protection-policies-associated-with-protected-emails"></a>Quais tipos de arquivo são suportados como anexos em emails protegidos? Os anexos herdam as políticas de proteção associadas a emails protegidos?
 
-Você pode anexar qualquer tipo de arquivo a um email protegido, no entanto, as políticas de proteção são aplicadas somente nos formatos de arquivo mencionados em [tipos de arquivo suportados pelo cliente de proteção de informações do Azure](https://docs.microsoft.com/information-protection/rms-client/client-admin-guide-file-types).
-  
-Se houver suporte para um formato de arquivo, como um arquivo do Word, Excel ou PowerPoint, o arquivo estará sempre protegido, mesmo depois que o anexo tiver sido baixado pelo destinatário. Por exemplo, se um anexo estiver protegido por não encaminhar, e o destinatário original baixar e encaminhar o anexo para um novo destinatário, o novo destinatário não poderá abrir o arquivo protegido.
+Você pode anexar qualquer tipo de arquivo a um email protegido. Com uma exceção, as políticas de proteção são aplicadas somente nos formatos de arquivo mencionados em [tipos de arquivo suportados pelo cliente de proteção de informações do Azure](https://docs.microsoft.com/information-protection/rms-client/client-admin-guide-file-types). O OME não suporta as versões 97-2003 dos seguintes programas do Office: Word (. doc), Excel (. xls) e PowerPoint (. ppt).
+
+Se houver suporte para um formato de arquivo, como um arquivo do Word, Excel ou PowerPoint, o arquivo estará sempre protegido, mesmo depois que o anexo tiver sido baixado pelo destinatário. Por exemplo, digamos que um anexo seja protegido por não encaminhar. O destinatário original baixa o arquivo, cria uma mensagem para um novo destinatário e anexa o arquivo. Quando o novo destinatário receber o arquivo, o destinatário não será capaz de abrir o arquivo protegido.
   
 ## <a name="are-pdf-file-attachments-supported"></a>Há suporte para anexos de arquivos PDF?
 
@@ -188,9 +192,19 @@ A tabela a seguir lista os clientes com suporte para caixas de correio compartil
 
 Há duas limitações conhecidas no momento:
 
-- Só há suporte para o acesso fornecido pela atribuição direta do usuário à caixa de correio compartilhada. Não há suporte para atribuição por meio de um grupo de segurança habilitado para email.
-
 - Não é possível abrir anexos de emails recebidos em dispositivos móveis usando o Outlook Mobile.
+
+- Não há suporte para atribuição por meio de um grupo de segurança habilitado para email. Só há suporte para o acesso fornecido pela atribuição direta do usuário à caixa de correio compartilhada e esse mapeamento automático está habilitado para o Exchange Online. O mapeamento automático é habilitado por padrão para o Exchange Online.
+
+**Para atribuir um usuário à caixa de correio compartilhada**
+
+1. [Conecte-se ao Exchange Online usando o PowerShell remoto](https://technet.microsoft.com/library/jj984289?v=exchg.150%29.aspx).
+
+2. Execute o cmdlet Add-MailboxPermission com o parâmetro de mapeamento automático. Este exemplo fornece permissões de acesso completo do Ayla a uma caixa de correio de suporte.
+
+   ```powershell
+   Add-MailboxPermission -Identity support@contoso.onmicrosoft.com -User ayla@contoso.com -AccessRights FullAccess -AutoMapping $true
+   ```
 
 ## <a name="what-do-i-do-if-i-dont-receive-the-one-time-pass-code-after-i-requested-it"></a>O que fazer se eu não receber o código de passagem única depois de solicitá-lo?
 

@@ -1,5 +1,5 @@
 ---
-title: O que há de novo no centro de conformidade
+title: O que há de novo no Microsoft 365 conformidade
 f1.keywords:
 - NOCSH
 ms.author: brendonb
@@ -16,21 +16,25 @@ search.appverid:
 ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
-description: Estamos adicionando novos recursos para o centro de conformidade da Microsoft 365. Descubra o que temos para este mês.
+description: Se está adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou distribuindo a documentação atualizada e atualizada, a Microsoft 365 ajuda você a se manter atualizado sobre o panorama de conformidade em constante mudança. Descubra o que temos para este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 77ba6f0926a1826fe6c946ff4f8c05cf913c57ed
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 9bccaab4c1dd1ac8b4676939d848c0f1a599d86b
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560258"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798164"
 ---
-# <a name="whats-new-in-the-microsoft-365-compliance-center"></a>O que há de novo no centro de conformidade da Microsoft 365
+# <a name="whats-new-in-microsoft-365-compliance"></a>O que há de novo no Microsoft 365 conformidade
 
-Estamos adicionando novos recursos para o centro de [conformidade da Microsoft 365](microsoft-365-compliance-center.md), corrigindo os problemas que aprendemos e fazendo alterações com base em seus comentários. Veja o que está disponível para você hoje. Alguns recursos são implementados em diferentes velocidades para nossos clientes. Se ainda não estiver vendo um recurso, tente adicioná-lo ao [lançamento direcionado](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365).
+Se está adicionando novas soluções ao [centro de conformidade da Microsoft 365](microsoft-365-compliance-center.md), atualizando recursos existentes com base em seus comentários, ou distribuindo a documentação atualizada e atualizada, a Microsoft 365 ajuda você a se manter atualizado sobre o panorama de conformidade em constante mudança. Veja o que há de novo no Microsoft 365 Compliance hoje. 
+
+> [!NOTE]
+> Alguns recursos de conformidade são implementados em diferentes velocidades para nossos clientes. Se ainda não estiver vendo um recurso, tente adicioná-lo ao [lançamento direcionado](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365).
+
 
 > [!TIP]
-> Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[O que há de novo no centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[O que há de novo no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br><br>
+> Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[O que há de novo no centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[O que há de novo no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Novidades da Proteção contra Ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
 E visite o [mapa do microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para saber mais sobre os recursos do Microsoft 365 que foram lançados, estão em desenvolvimento, foram cancelados ou lançados anteriormente.
 
 ## <a name="june-2020"></a>Junho de 2020
@@ -290,7 +294,7 @@ Vá para [restringir o acesso ao conteúdo usando rótulos de confidencialidade 
 
 ### <a name="update-to-data-investigations"></a>Atualizar para investigações de dados
 
-Ao realizar uma investigação de dados, agora você pode excluir itens de seus locais originais. Isso significa que você pode excluir itens de caixas de correio do Exchange, sites do SharePoint e contas do OneDrive em sua organização. Como você coletou os itens como evidência, terá cópias deles retidas no conjunto de evidências para que possa investigar mais ou simplesmente manter como uma referência. Vá para [gerenciar um incidente de derramamento de dados no Microsoft 365](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) para saber mais. 
+Ao realizar uma investigação de dados, agora você pode excluir itens de seus locais originais. Isso significa que você pode excluir itens de caixas de correio do Exchange, sites do SharePoint e contas do OneDrive em sua organização. Como você coletou os itens como evidência, terá cópias deles retidas no conjunto de evidências para que possa investigar mais ou simplesmente manter como uma referência. [Saiba mais](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) Ao realizar uma investigação de dados, agora você pode excluir itens de seus locais originais. Isso significa que você pode excluir itens de caixas de correio do Exchange, sites do SharePoint e contas do OneDrive em sua organização. Como você coletou os itens como evidência, terá cópias deles retidas no conjunto de evidências para que possa investigar mais ou simplesmente manter como uma referência. Vá para [gerenciar um incidente de derramamento de dados no Microsoft 365](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) para saber mais. 
 
 ## <a name="july-2019"></a>Julho de 2019
 

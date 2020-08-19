@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: c4f7f578aef3612696a8d5ab2a76111ff16d27b7
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 63f95b281dd2284168817a8edd9777c470f01d34
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648882"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797917"
 ---
 # <a name="emailevents"></a>EmailEvents
 
@@ -32,6 +32,9 @@ ms.locfileid: "46648882"
 
 
 A tabela `EmailEvents` no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre eventos que envolvem o processamento de emails na ATP do Office 365. Use esta referência para criar consultas que retornam informações desta tabela.
+
+>[!TIP]
+> Para obter informações detalhadas sobre os tipos de eventos ( `ActionType` valores) suportados por uma tabela, use a [referência de esquema interna](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) disponível na central de segurança.
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 
@@ -56,7 +59,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `PhishFilterVerdict` | cadeia de caracteres | Veredito da pilha de filtragem de email sobre se o email é phishing: Phishing ou Não Phishing |
 | `PhishDetectionMethod` | cadeia de caracteres | Método usado para detectar o email como phishing: Reputação da URL mal-intencionada, Detonação da URL de links seguros ATP, Filtro de phishing avançado, Filtro de phishing geral, Antifalsificação: dentro da organização, Antifalsificação: domínio externo, Representação de domínio, Representação de usuário, Representação de marca |
 | `MalwareFilterVerdict` | cadeia de caracteres | Veredito da pilha de filtragem de email sobre se o email contém malware: Malware, Não malware |
-| `MalwareDetectionMethod` | cadeia de caracteres | Método usado para detectar malware no email: Mecanismo antimalware, Reputação de arquivo, Anexos Seguros ATP |
+| `MalwareDetectionMethod` | string | Método usado para detectar malware no email: Mecanismo antimalware, Reputação de arquivo, Anexos Seguros ATP |
 | `FinalEmailAction` | cadeia de caracteres | Ação final executada no email com base no veredito de filtro, políticas e ações do usuário: Mover mensagem para pasta de lixo eletrônico, Adicionar cabeçalho X, Modificar assunto, Redirecionar mensagem, Excluir mensagem, Enviar para quarentena, Nenhuma ação tomada, Mensagem Cco |
 | `FinalEmailActionPolicy` | cadeia de caracteres | Política de ação que entrou em vigor: Alta confiança do antispam, Antispam, Email em massa do antispam, Phishing do antispam, Representação do domínio de antiphishing, Representação do usuário de antiphishing, Falsificação do antiphishing, Representação do gráfico de Antiphishing, Antimalware, Anexos Seguros, Regras de Transporte Corporativo (ETR) |
 | `FinalEmailActionPolicyGuid` | cadeia de caracteres | Identificador exclusivo da política que determinou a ação final do email |
@@ -68,6 +71,6 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 - [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
-- [Entender o esquema](advanced-hunting-schema-tables.md)
+- [Procure em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
+- [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

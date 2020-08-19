@@ -1,5 +1,5 @@
 ---
-title: Definir a senha de um usuário individual para nunca expirar
+title: Definir senha de um usuário individual para nunca expirar
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Saiba como definir que algumas senhas de usuário individuais nunca expirem, usando o Windows PowerShell.
-ms.openlocfilehash: 6562a4092c47d9c4bf7bf294767e6050a3e0577a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f85eb2d3aaf5b19779ea8f293e2cbdc28c1535aa
+ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386993"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804203"
 ---
-# <a name="set-an-individual-users-password-to-never-expire"></a>Definir a senha de um usuário individual para nunca expirar
+# <a name="set-an-individual-users-password-to-never-expire"></a>Definir senha de um usuário individual para nunca expirar
 
 ## <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
@@ -79,7 +79,7 @@ Execute um dos seguintes comandos:
      }
     ```
 
-- Para obter um relatório de todos os usuários com o PasswordNeverExpires, em HTML na área de trabalho do usuário atual com o nome **ReportPasswordNeverExpires. html**
+- Para obter um relatório de todos os usuários com o PasswordNeverExpires, em HTML na área de trabalho do usuário atual com o nome  **ReportPasswordNeverExpires.html**
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
@@ -87,7 +87,7 @@ Execute um dos seguintes comandos:
     } | ConvertTo-Html | Out-File $env:userprofile\Desktop\ReportPasswordNeverExpires.html
     ```  
 
-- Para obter um relatório de todos os usuários com PasswordNeverExpires, em CSV na área de trabalho do usuário atual com o nome **ReportPasswordNeverExpires. csv**
+- Para obter um relatório de todos os usuários com PasswordNeverExpires, em CSV na área de trabalho do usuário atual com o nome **ReportPasswordNeverExpires.csv**
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
@@ -128,4 +128,4 @@ Execute um dos seguintes comandos:
     ```
 
 > [!WARNING]
-> As senhas definidas como `-PasswordPolicies DisablePasswordExpiration` idade ainda com base no `pwdLastSet` atributo. Se você definir as senhas do usuário para nunca expirar e, em seguida, 90 dias por diante, as senhas expirarão. Com base no `pwdLastSet` atributo, se você alterar a expiração para `-PasswordPolicies None` , todas as senhas com `pwdLastSet` mais de 90 dias exigirão que o usuário as altere na próxima vez que entrar. Essa alteração pode afetar um grande número de usuários.
+> As contas de usuário configuradas com o `-PasswordPolicies DisablePasswordExpiration` parâmetro ainda envelhecem com base no `pwdLastSet` atributo de conta de usuário. Por exemplo, se você definir senhas do usuário para nunca expirar e, em seguida, 90 ou mais dias, as senhas ainda expirarem. Com base no `pwdLastSet` atributo de conta de usuário, para contas de usuário configuradas com o `-PasswordPolicies None` parâmetro, todas as senhas com `pwdLastSet` mais de 90 dias exigem que o usuário as altere na próxima vez que entrar. Essa alteração pode afetar um grande número de usuários.

@@ -1,31 +1,31 @@
 ---
-title: Gerenciar governança de informações
+title: Governança de informações da Microsoft no Microsoft 365
 f1.keywords:
 - NOCSH
-ms.author: robmazz
-author: robmazz
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 ms.collection: m365-security-compliance
-localization_priority: Normal
+localization_priority: High
 search.appverid:
 - MOE150
 - MET150
-description: Saiba mais sobre o controle de informações no Microsoft 365.
-ms.openlocfilehash: ff7d5ebc1b656aa62bac054cfbd2784b335d03e6
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+description: Implemente os recursos de governança de informações da Microsoft no Microsoft 365 para governar seus dados de conformidade ou requisitos normativos.
+ms.openlocfilehash: b67fbe1a8336ba73d1c43ebc531657c60dd3e8d8
+ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778561"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804239"
 ---
-# <a name="manage-information-governance"></a>Gerenciar governança de informações
+# <a name="microsoft-information-governance-in-microsoft-365"></a>Governança de informações da Microsoft no Microsoft 365
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-Use os recursos de governança de informações da Microsoft para governar seus dados de conformidade ou requisitos normativos.
+Use os recursos de governança de informações da Microsoft (às vezes abreviados para MIG) para governar seus dados de conformidade ou requisitos normativos.
 
 ## <a name="information-governance"></a>Governança de informações
 

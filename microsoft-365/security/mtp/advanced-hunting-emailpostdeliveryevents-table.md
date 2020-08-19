@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 0384f3ba07b42c8e783994dfa1db75cf2d6ca80b
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 88074de8792124557c65b5be074e3b02bfec2511
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648858"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797881"
 ---
 # <a name="emailpostdeliveryevents"></a>EmailPostDeliveryEvents
 
@@ -31,19 +31,22 @@ ms.locfileid: "46648858"
 
 A `EmailPostDeliveryEvents` tabela no esquema de [busca avançada](advanced-hunting-overview.md) contém informações sobre as ações de envio realizadas em mensagens de email processadas pelo Microsoft 365. Use essa referência para criar consultas que retornam informações dessa tabela.
 
+>[!TIP]
+> Para obter informações detalhadas sobre os tipos de eventos ( `ActionType` valores) suportados por uma tabela, use a [referência de esquema interna](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) disponível na central de segurança.
+
 Para obter mais informações sobre mensagens de email individuais, você também pode usar o [`EmailEvents`](advanced-hunting-emailevents-table.md) , o [`EmailAttachmentInfo`](advanced-hunting-emailattachmentinfo-table.md) e as [`EmailUrlInfo`](advanced-hunting-emailurlinfo-table.md) tabelas. Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `EventId` | cadeia de caracteres | Identificador exclusivo do evento |
-| `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado pelo Microsoft 365 |
+| `EventId` | string | Identificador exclusivo do evento |
+| `NetworkMessageId` | string | Identificador exclusivo do email, gerado pelo Microsoft 365 |
 | `InternetMessageId` | cadeia de caracteres | Identificador público do email definido pelo seu sistema de envio |
 | `Action` | cadeia de caracteres | Ação tomada na entidade |
-| `ActionType` | cadeia de caracteres | Tipo de atividade que disparou o evento: correção manual, "phishing ZAP, malware ZAP" |
-| `ActionTrigger` | cadeia de caracteres | Indica se uma ação foi disparada por um administrador (manualmente ou por meio da aprovação de uma ação automática pendente) ou por algum mecanismo especial, como uma entrega de ZAP ou dinâmica |
-| `ActionResult` | cadeia de caracteres | Resultado da ação |
-| `RecipientEmailAddress` | cadeia de caracteres | Endereço de email do destinatário ou endereço de email do destinatário após a expansão da lista de distribuição |
+| `ActionType` | string | Tipo de atividade que disparou o evento: correção manual, "phishing ZAP, malware ZAP" |
+| `ActionTrigger` | string | Indica se uma ação foi disparada por um administrador (manualmente ou por meio da aprovação de uma ação automática pendente) ou por algum mecanismo especial, como uma entrega de ZAP ou dinâmica |
+| `ActionResult` | string | Resultado da ação |
+| `RecipientEmailAddress` | string | Endereço de email do destinatário ou endereço de email do destinatário após a expansão da lista de distribuição |
 | `DeliveryLocation` | cadeia de caracteres | Local onde o email foi entregue: Caixa de Entrada/Pasta, Local/Externo, Tratado como Lixo Eletrônico, Quarentena, Falha, Descartado, Itens excluídos |
 
 ## <a name="supported-event-types"></a>Tipos de eventos com suporte
@@ -57,6 +60,6 @@ Esta tabela captura eventos com os seguintes `ActionType` valores:
 - [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
+- [Procure em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

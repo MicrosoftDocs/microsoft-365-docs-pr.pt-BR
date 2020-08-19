@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6465821ff1b8e8ea23cc5cf6b205f65a483bbe82
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: d0fd359bb6f56f7c20b0a39b7fd45ec551e7e49e
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204942"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797777"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -34,20 +34,20 @@ A `FileProfile()` função é uma função de enriquecimento em [busca avançada
 | Coluna | Tipo de dados | Descrição |
 |------------|-------------|-------------|
 | SHA1 | cadeia de caracteres | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
-| SHA256 | cadeia de caracteres | SHA-256 do arquivo ao qual a ação registrada foi aplicada |
-| MD5 | cadeia de caracteres | Hash MD5 do arquivo ao qual a ação registrada foi aplicada |
+| SHA256 | string | SHA-256 do arquivo ao qual a ação registrada foi aplicada |
+| MD5 | string | Hash MD5 do arquivo ao qual a ação registrada foi aplicada |
 | FileSize | int | Tamanho do arquivo em bytes |
 | GlobalPrevalence | int | Número de instâncias da entidade observadas pela Microsoft globalmente |
 | GlobalFirstSeen | datetime | Data e hora em que a entidade foi observada pela primeira vez pela Microsoft globalmente |
 | GlobalLastSeen | datetime | Data e hora da última vez em que a entidade foi observada pela Microsoft globalmente |
-| Signatário | cadeia de caracteres | Informações sobre o signatário do arquivo |
-| Emissor | cadeia de caracteres | Informações sobre a CA (autoridade de certificação emissora) |
-| SignerHash | cadeia de caracteres | Valor de hash exclusivo que identifica o signatário |
+| Signatário | string | Informações sobre o signatário do arquivo |
+| Emissor | string | Informações sobre a CA (autoridade de certificação emissora) |
+| SignerHash | string | Valor de hash exclusivo que identifica o signatário |
 | IsCertificateValid | booliano | Se o certificado usado para assinar o arquivo é válido |
 | IsRootSignerMicrosoft | booliano | Indica se o signatário do certificado raiz é o Microsoft |
 | IsExecutable | booliano | Se o arquivo é um arquivo executável portátil (PE) |
-| Threatname | cadeia de caracteres | Nome da detecção de qualquer malware ou outra ameaça encontrada |
-| Publisher | cadeia de caracteres | Nome da organização que publicou o arquivo |
+| Threatname | string | Nome da detecção de qualquer malware ou outra ameaça encontrada |
+| Publisher | string | Nome da organização que publicou o arquivo |
 | SoftwareName | string | Nome do produto de software |
 
 ## <a name="syntax"></a>Sintaxe
@@ -87,3 +87,4 @@ DeviceFileEvents
 - [Visão geral da caça avançada](advanced-hunting-overview.md)
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
+- [Obter mais exemplos de consulta](advanced-hunting-shared-queries.md)

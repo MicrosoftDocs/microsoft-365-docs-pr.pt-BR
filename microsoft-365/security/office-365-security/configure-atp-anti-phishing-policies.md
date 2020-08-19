@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing avançadas disponíveis em organizações com a proteção avançada contra ameaças do Office 365 (Office 365 ATP).
-ms.openlocfilehash: 458a4eac348598d1b752267ed7d79b97bc594580
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+ms.openlocfilehash: b55bfb8b75506837e968b5845bc7a8239ad9b015
+ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726771"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804227"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>Configurar políticas anti-phishing ATP
 
@@ -36,54 +36,41 @@ Para obter informações sobre como configurar o mais limitado em políticas ant
 Os elementos básicos de uma política anti-phishing do ATP são:
 
 - **A política de anti-golpe**: especifica as proteções de phishing a serem habilitadas ou desabilitadas e as ações para aplicar as opções.
-
 - **A regra anti-Phish**: especifica a prioridade e os filtros de destinatário (com quem a política se aplica) para uma política de anti-phishing.
 
 A diferença entre esses dois elementos não é óbvia quando você gerencia as políticas de anti-phishing do ATP no centro de conformidade de & de segurança:
 
-- Ao criar uma política de anti-phishing do ATP no centro de conformidade de & de segurança, você está realmente criando uma regra anti-phishing e a política de anti-phishing associada ao mesmo tempo usando o mesmo nome para ambos.
+- Ao criar uma política, você realmente está criando uma regra anti-phishing e a política anti-phishing associada ao mesmo tempo usando o mesmo nome para ambos.
+- Quando você modifica uma política, as configurações relacionadas ao nome, prioridade, habilitado ou desabilitado e filtros de destinatário modificam a regra anti-phishing. Todas as outras configurações modificam a política de anti-phishing associada.
+- Quando você remove uma política, a regra anti-Phish e a política anti-phishing associada são removidas.
 
-- Quando você modifica uma política de anti-phishing do ATP no centro de conformidade de & de segurança, as configurações relacionadas ao nome, prioridade, habilitado ou desabilitado e filtros de destinatário modificam a regra anti-phishing. Todas as outras configurações modificam a política de anti-phishing associada.
+No PowerShell do Exchange Online, você gerencia a política e a regra separadamente. Para obter mais informações, consulte a seção [usar o PowerShell do Exchange Online para configurar as políticas de anti-phishing do ATP](#use-exchange-online-powershell-to-configure-atp-anti-phishing-policies) mais adiante neste tópico.
 
-- Quando você remove uma política anti-phishing do ATP do centro de conformidade & segurança, a regra anti-Phish e a política de anti-phishing associada são removidas.
+Todas as organizações do Office 365 ATP têm uma política anti-phishing interna da ATP chamada Office365 antiphishing default que tem estas propriedades:
 
-No PowerShell do Exchange Online, a diferença entre políticas de anti-phishing e regras antiphish é aparente. Você gerencia as políticas de anti-phishing usando os cmdlets ** \* -AntiPhishPolicy** e gerencia regras de anti-phishing usando os cmdlets ** \* -AntiPhishRule** .
-
-- No PowerShell, você cria a política de anti-phishing primeiro e, em seguida, cria a regra anti-Phish que identifica a política à qual a regra se aplica.
-
-- No PowerShell, você modifica as configurações da política anti-phishing e da regra anti-Phish separadamente.
-
-- Quando você remove uma política de anti-phishing do PowerShell, a regra anti-phishing correspondente não é removida automaticamente e vice-versa.
-
-### <a name="default-atp-anti-phishing-policy"></a>Política anti-phishing padrão ATP
-
-Todas as organizações ATP têm uma política antiphishing interna da ATP chamada de padrão do Office365 antiphish que tem estas propriedades:
-
-- A política de anti-phishing chamada padrão do Office365 antiphish é aplicada a todos os destinatários na organização, mesmo que não haja nenhuma regra de Phish (filtros de destinatário) associada à política.
-
-- A política chamada padrão do Office365 antiphish tem o valor de prioridade personalizado **mais baixo** que não pode ser modificado (a política é sempre aplicada por último). Qualquer política personalizada que você criar sempre terá uma prioridade maior do que a política denominada padrão do Office365 antiphishing.
-
-- A política denominada padrão do Office365 antiphish é a política padrão (a propriedade **IsDefault** tem o valor `True` ) e não é possível excluir a política padrão.
+- A política é aplicada a todos os destinatários na organização, mesmo que não haja uma regra de anti-phishing (filtros de destinatário) associada à política.
+- A política tem o valor de prioridade personalizado **mais baixo** que não pode ser modificado (a política é sempre aplicada por último). Qualquer política personalizada que você criar sempre terá uma prioridade mais alta.
+- A política é a política padrão (a propriedade **IsDefault** tem o valor `True` ) e não é possível excluir a política padrão.
 
 Para aumentar a eficácia da proteção contra phishing, você pode criar políticas anti-phishing personalizadas da ATP com configurações mais rígidas que são aplicadas a usuários ou grupos de usuários específicos.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página de **anti-phishing do ATP** , use <https://protection.office.com/antiphishing> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Você precisa receber permissões antes de executar os procedimentos deste tópico:
+- Você precisa ter permissões atribuídas antes de poder executar os procedimentos neste tópico:
 
   - Para adicionar, modificar e excluir as políticas de anti-phishing do ATP, você precisa ser membro de um dos seguintes grupos de função:
 
-    - **Gerenciamento da organização** ou **administrador de segurança** no centro de conformidade de & de [segurança](permissions-in-the-security-and-compliance-center.md).
-    - Gerenciamento da **organização** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+    - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+    - **Gerenciamento de organizações** ou **Gerenciamento de higiene** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
   - Para acesso somente leitura às políticas anti-phishing da ATP, você precisa ser membro de um dos seguintes grupos de função:
 
-    - **Leitor de segurança** no [centro de conformidade & segurança](permissions-in-the-security-and-compliance-center.md).
-    - **Gerenciamento de organização somente para exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+    - **Leitor de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
+    - **Gerenciamento da organização Somente visualização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - Para obter as configurações recomendadas para políticas de anti-phishing da ATP, confira [configurações de política de anti-phishing do Office ATP](recommended-settings-for-eop-and-office365-atp.md#office-atp-anti-phishing-policy-settings).
 
@@ -331,7 +318,9 @@ Não é possível desabilitar a política anti-phishing padrão.
 
 ### <a name="set-the-priority-of-custom-atp-anti-phishing-policies"></a>Definir a prioridade de políticas anti-phishing padrão da ATP
 
-Por padrão, as políticas anti-phishing do ATP recebem uma prioridade com base na ordem em que foram criadas (as políticas mais recentes são de prioridade mais baixa do que as diretivas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas não podem ter a mesma prioridade.
+Por padrão, as políticas anti-phishing do ATP recebem uma prioridade com base na ordem em que foram criadas (as políticas mais recentes são de prioridade mais baixa do que as diretivas mais antigas). Um número de prioridade menor indica uma maior prioridade para a política (0 é a maior), e as políticas são processadas por ordem de prioridade (políticas com maior prioridade são processadas antes das políticas com menor prioridade). Duas políticas podem ter a mesma prioridade, e o processamento da política pára após a primeira política ser aplicada.
+
+Para obter mais informações sobre a ordem de precedência e como várias diretivas são avaliadas e aplicadas, consulte [ordem e precedência de proteção de email](how-policies-and-protections-are-combined.md).
 
 As políticas anti-phishing padrão ATP são exibidas na ordem em que são processadas (a primeira política tem o valor de **prioridade** 0). A política anti-phishing padrão chamada do Office365 antiphish padrão tem o valor de prioridade personalizado **mais baixo**e não pode ser alterada.
 
@@ -379,12 +368,19 @@ Não é possível remover a política padrão.
 
 ## <a name="use-exchange-online-powershell-to-configure-atp-anti-phishing-policies"></a>Usar o PowerShell do Exchange Online para configurar as políticas de anti-phishing da ATP
 
+Conforme descrito anteriormente, uma política antispam ATP consiste em uma política de anti-phishing e uma regra de anti-phishing.
+
+No PowerShell do Exchange Online, a diferença entre políticas de anti-phishing e regras antiphish é aparente. Você gerencia as políticas de anti-phishing usando os cmdlets ** \* -AntiPhishPolicy** e gerencia regras de anti-phishing usando os cmdlets ** \* -AntiPhishRule** .
+
+- No PowerShell, você cria a política de anti-phishing primeiro e, em seguida, cria a regra anti-Phish que identifica a política à qual a regra se aplica.
+- No PowerShell, você modifica as configurações da política anti-phishing e da regra anti-Phish separadamente.
+- Quando você remove uma política de anti-phishing do PowerShell, a regra anti-phishing correspondente não é removida automaticamente e vice-versa.
+
 ### <a name="use-powershell-to-create-anti-phishing-policies"></a>Usar o PowerShell para criar políticas anti-phishing
 
 A criação de uma política anti-phishing no PowerShell é um processo de duas etapas:
 
 1. Criar a política de anti-phishing.
-
 2. Crie a regra anti-Phish que especifica a política de anti-phishing à qual a regra se aplica.
 
  **Observações**:
@@ -394,7 +390,6 @@ A criação de uma política anti-phishing no PowerShell é um processo de duas 
 - Você pode definir as seguintes configurações em novas políticas anti-phishing no PowerShell que não estão disponíveis no centro de conformidade & de segurança até que a política seja criada:
 
   - Crie a nova política como desabilitada (_habilitada_ `$false` no cmdlet **New-AntiPhishRule** ).
-
   - Definir a prioridade da política durante a criação (_prioridade_ _\<Number\>_ ) no cmdlet **New-AntiPhishRule** ).
 
 - Uma nova política de Phish que você cria no PowerShell não fica visível no centro de conformidade & segurança até que você atribua a política a uma regra anti-phishing.

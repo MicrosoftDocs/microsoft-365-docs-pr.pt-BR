@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre como os usuários trabalham com rótulos de confidencialidade nos aplicativos do Office para área de trabalho, celular e Web e quais aplicativos dão suporte a rótulos de confidencialidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c47b97c573822cb44f895296613b70af7f85c93
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: c3e3bf903905ca241053ef110fb92bd220f3233f
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656776"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797625"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
 
@@ -95,7 +95,7 @@ Para usar o cliente de rotulagem interno do Office, você deve ter uma ou mais [
 
 Se ambas as condições forem atendidas, mas você precisar desativar o cliente de rotulamento interno do Office, use a seguinte configuração de política de Grupo:
 
-1. Navegue até **configuração do usuário/Modelos Administrativos/Microsoft Office 2016/configurações de segurança**
+1. Navegue até **configuração do usuário/Modelos Administrativos/Microsoft Office 2016/configurações de segurança**.
 
 2. Definir **use o recurso de sensibilidade do Office para aplicar e exibir rótulos de sensibilidade** a **0**. 
  
@@ -197,7 +197,7 @@ Além de restringir o acesso aos usuários em sua própria organização, você 
 
 Se os usuários externos não tiverem uma conta no Azure Active Directory, você poderá criar uma conta de convidado para eles em seu locatário. Para o endereço de email, você pode especificar qualquer endereço de email que já esteja usando. Por exemplo, seu endereço do gmail. Essa conta de convidado também pode ser usada para acessar um documento compartilhado no SharePoint ou no OneDrive quando você tiver [habilitado rótulos de sensibilidade para arquivos do Office no SharePoint e no onedrive](sensitivity-labels-sharepoint-onedrive-files.md).
 
-Os usuários externos também podem usar e criar uma conta da Microsoft para documentos criptografados quando usam o Microsoft 365 aplicativos ([anteriormente conhecido como aplicativos do Office 365](https://docs.microsoft.com/deployoffice/name-change)) no Windows. Esse recurso ainda não tem suporte para o macOS, Android ou iOS. Por exemplo, alguém compartilha um documento criptografado com eles, e as configurações de criptografia especificam o endereço de email do gmail. Este usuário pode criar sua própria conta da Microsoft que usa o endereço de email do gmail. Depois, após entrar com essa conta, eles poderão abrir o documento e editá-lo, de acordo com as restrições de uso especificadas para esse usuário. Para obter um exemplo passo a passo desse cenário, consulte [abrindo e editando o documento protegido](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents#opening-and-editing-the-protected-document).
+Os usuários externos também podem usar uma conta da Microsoft para documentos criptografados quando usam o Microsoft 365 aplicativos ([anteriormente conhecido como aplicativos do Office 365](https://docs.microsoft.com/deployoffice/name-change)) no Windows e agora no Android (versão 13029 +). Esse recurso ainda não tem suporte para o macOS ou iOS. Por exemplo, alguém compartilha um documento criptografado com eles, e as configurações de criptografia especificam o endereço de email do gmail. Este usuário pode criar sua própria conta da Microsoft que usa o endereço de email do gmail. Depois, após entrar com essa conta, eles poderão abrir o documento e editá-lo, de acordo com as restrições de uso especificadas para esse usuário. Para obter um exemplo passo a passo desse cenário, consulte [abrindo e editando o documento protegido](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents#opening-and-editing-the-protected-document).
 
 > [!NOTE]
 > O endereço de email da conta da Microsoft deve corresponder ao endereço de email especificado para restringir o acesso às configurações de criptografia.

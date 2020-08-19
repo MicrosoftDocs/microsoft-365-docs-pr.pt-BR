@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como configurar URLs bloqueadas personalizadas para usuários e não reescrever lista de URLs para um grupo de usuários nas políticas de links seguros de ATP do Office 365.
-ms.openlocfilehash: 7909e91b96f8bdbc38ffdceafe11fa47f5ebe897
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 17828566769f438439eebcb4e460ecac1147a648
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656964"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798325"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>Configurar uma lista personalizada de URLs do não Rewrite usando links seguros de ATP
 
@@ -34,6 +34,9 @@ ms.locfileid: "46656964"
 Com a [proteção avançada contra ameaças do Office 365](office-365-atp.md) (ATP), sua organização pode ter um [URL bloqueado personalizado](set-up-a-custom-blocked-urls-list-atp.md), de modo que, quando as pessoas clicam em endereços da Web (URLs) em mensagens de email ou determinados documentos do Office, eles são impedidos de ir para essas URLs. Sua organização também pode ter listas personalizadas de "não reescrever" para grupos específicos em sua organização. Uma lista "não reconfigurar" permite que algumas pessoas visitem URLs que, de outra forma, são bloqueadas por [links de ATP seguros no Office 365](atp-safe-links.md).
 
 Este artigo descreve como especificar uma lista de URLs que são excluídas da verificação de links seguros de ATP e alguns pontos importantes a ter em mente.
+
+> [!NOTE]
+> Se sua organização usa políticas de links seguros, a lista "não reescrever" é o único método com suporte para testes phishing de terceiros.
 
 ## <a name="set-up-a-do-not-rewrite-list"></a>Configurar uma lista de "não reconfigurar"
 
@@ -89,7 +92,7 @@ A tabela a seguir lista exemplos do que você pode inserir e o efeito que essas 
 |Entrada de exemplo|O que ele faz|
 |---|---|
 |`contoso.com`|Permite que os destinatários visitem um site como `https://contoso.com` , mas não subdomínios ou caminhos.|
-|`*.contoso.com/*`|Permite que os destinatários visitem um domínio, subdomínios e caminhos, como `https://www.contoso.com` , `https://www.contoso.com` , `https://maps.contoso.com` ou `https://www.contoso.com/a` . <br/><br/> Essa entrada é inerentemente melhor do que `*contoso.com*` porque não inclui sites potencialmente fraudulentos, como `https://www.falsecontoso.com` ou`https://www.false.contoso.completelyfalse.com`|
-|`https://contoso.com/a`|Permite que destinatários específicos visitem um site como `https://contoso.com/a` , mas não subcaminhos como`https://contoso.com/a/b`|
-|`https://contoso.com/a/*`|Permite que destinatários específicos visitem um site como `https://contoso.com/a` e subcaminhos como`https://contoso.com/a/b`|
+|`*.contoso.com/*`|Permite que os destinatários visitem um domínio, subdomínios e caminhos, como `https://www.contoso.com` , `https://www.contoso.com` , `https://maps.contoso.com` ou `https://www.contoso.com/a` . <br/><br/> Essa entrada é inerentemente melhor do que `*contoso.com*` porque não inclui sites potencialmente fraudulentos, como `https://www.falsecontoso.com` ou `https://www.false.contoso.completelyfalse.com`|
+|`https://contoso.com/a`|Permite que destinatários específicos visitem um site como `https://contoso.com/a` , mas não subcaminhos como `https://contoso.com/a/b`|
+|`https://contoso.com/a/*`|Permite que destinatários específicos visitem um site como `https://contoso.com/a` e subcaminhos como `https://contoso.com/a/b`|
 |

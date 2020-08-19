@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f711cc2ff38f15dfd22097e37a1dec42719eb5aa
-ms.sourcegitcommit: 94f2f8e3e6bc3946d8b3cf798b3eb77a49ffd12a
+ms.openlocfilehash: 8880655ec24f20efd139b8334ab754f51146b496
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45148109"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798205"
 ---
 # <a name="manage-incidents-in-microsoft-threat-protection"></a>Gerenciar incidentes na Proteção contra Ameaças da Microsoft
 
@@ -43,16 +43,16 @@ Você pode editar o nome de um incidente, resolvê-lo e definir sua classificaç
 Em casos em que, durante uma investigação, você deseje migrar os alertas de um incidente para outro, você também pode fazer isso na guia Alertas, criando, assim, um incidente maior ou menor que inclua todos os alertas relevantes.
 
 ## <a name="edit-incident-name"></a>Editar o nome do incidente
-Por padrão, um número é atribuído a um incidente. Você pode modificar o nome do incidente para um melhor alinhamento à sua convenção de nomenclatura preferencial.
+Os incidentes são atribuídos automaticamente a um nome baseado em atributos de alerta, como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente.
 
-> [!TIP]
-> Para obter visibilidade adicional de modo geral, a nomenclatura automática de incidentes, atualmente em visualização pública, gera nomes de incidentes com base em atributos de alerta, como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente.
->
-> Por exemplo: *incidente de vários estágios em vários pontos de extremidade relatados por várias fontes.*
->
-> Incidentes que existiam antes da distribuição da nomeação automática de incidentes não terão o nome alterado.
->
-> Saiba mais sobre como [ativar os recursos de visualização](preview.md#turn-on-preview-features).
+Por exemplo: *incidente de vários estágios em vários pontos de extremidade relatados por várias fontes.*
+
+Você pode modificar o nome do incidente para um melhor alinhamento à sua convenção de nomenclatura preferencial.
+
+> [!NOTE]
+> Incidentes que existiam antes da distribuição do recurso de nomeação automática de incidentes manterão seus nomes.
+
+
 
 ## <a name="assign-incidents"></a>Atribuir incidentes
 Caso um incidente ainda não tenha sido atribuído, você poderá selecionar **Atribuir a mim** para atribuir o incidente a si mesmo. Ao fazer isso, você assume a propriedade não apenas do incidente, como também de todos os alertas associados a ele.

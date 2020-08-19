@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode criar uma retenção associada a uma caixa de descoberta eletrônica principal para preservar o conteúdo que pode ser relevante para uma investigação.
-ms.openlocfilehash: b3a213e499a71356999367deff930ea9a04945df
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: d68ca8a15713e20184e39af447cb03ccb5c9e7d7
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127518"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798057"
 ---
 # <a name="create-an-ediscovery-hold"></a>Criar uma retenção de Descoberta Eletrônica
 
@@ -136,7 +136,7 @@ A partir de fevereiro de 2020, ativamos a capacidade de preservar o conteúdo em
 Para obter mais informações sobre como preservar o conteúdo de equipes, consulte [colocar um usuário ou uma equipe do Microsoft Teams em retenção legal](https://docs.microsoft.com/MicrosoftTeams/legal-hold).
     
 > [!IMPORTANT]
-> Em uma organização baseada em nuvem, os usuários que participam de conversas que fazem parte da lista de bate-papo no Microsoft Teams devem ter uma caixa de correio do Exchange Online para manter conversas de chat quando a caixa de correio é colocada em retenção de descoberta eletrônica. Isso ocorre porque as conversas que fazem parte da lista de chat são armazenadas nas caixas de correio baseadas em nuvem dos participantes do chat. Se um participante de chat não tiver uma caixa de correio do Exchange Online, você não poderá preservar essas conversas de chat. Por exemplo, em uma implantação híbrida do Exchange, os usuários com uma caixa de correio local podem ser capazes de participar de conversas que fazem parte da lista de chat no Microsoft Teams. Mas nesse caso, o conteúdo dessas conversas não pode ser preservado, pois esses usuários não possuem caixas de correio baseadas em nuvem que podem ser colocadas em espera.
+> Em uma organização baseada em nuvem, os usuários que participam de conversas que fazem parte da lista de bate-papo no Microsoft Teams devem ter uma caixa de correio do Exchange Online para manter conversas de chat quando a caixa de correio é colocada em retenção de descoberta eletrônica. Isso ocorre porque as conversas que fazem parte da lista de chat são armazenadas nas caixas de correio baseadas em nuvem dos participantes do chat. Se um participante de chat não tiver uma caixa de correio do Exchange Online, você não poderá preservar essas conversas de chat. Por exemplo, em uma implantação híbrida do Exchange, os usuários com uma caixa de correio local podem conseguir participar de conversas que fazem parte da lista de chat no Microsoft Teams. Mas nesse caso, o conteúdo dessas conversas não pode ser preservado, pois esses usuários não possuem caixas de correio baseadas em nuvem que podem ser colocadas em espera.
   
 Cada equipe ou canal de equipe também contém um wiki para anotações e colaboração. O conteúdo Wiki é salvo automaticamente em um arquivo com um formato .mht. Esse arquivo é armazenado na biblioteca de documentos de Dados do Wiki do Teams no site do SharePoint da equipe. Você pode preservar o conteúdo do wiki adicionando o site do SharePoint da equipe a um bloqueio de descoberta eletrônica.
 

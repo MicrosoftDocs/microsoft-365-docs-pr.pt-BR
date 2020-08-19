@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 308337f806d54f1beb7ae6112b2ed883707d4513
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: d9b5fd9bfe881ec1313afb26da5d19cd96054862
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649290"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797823"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Compreender o esquema de busca avançada
 
@@ -46,7 +46,7 @@ Para acessar rapidamente a referência do esquema, selecione a ação **Exibir r
 
 ![Imagem mostrando como acessar a referência de esquema no portal ](../../media/mtp-ah/ah-reference.png) 
 
-## <a name="schema-tables"></a>Tabelas de esquema
+## <a name="learn-the-schema-tables"></a>Saiba mais sobre as tabelas de esquema
 A referência a seguir lista todas as tabelas no esquema. Cada nome de tabela se vincula a uma página que descreve os nomes das colunas da tabela. Os nomes de tabela e coluna também são listados no centro de segurança como parte da representação do esquema na tela de busca avançada.
 
 | Nome da tabela | Descrição |
@@ -72,6 +72,7 @@ A referência a seguir lista todas as tabelas no esquema. Cada nome de tabela se
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | Eventos de email da Microsoft 365, incluindo a entrega de email e eventos de bloqueio |
 | **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | Eventos de segurança que ocorrem após a entrega após a Microsoft 365 ter entregue os emails para a caixa de correio de destinatário |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Informações sobre URLs em emails |
+| **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | Eventos envolvendo um controlador de domínio local executando o Active Directory (AD). Esta tabela abrange um intervalo de eventos relacionados à identidade, bem como eventos do sistema no controlador de domínio. |
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Informações de conta de várias fontes, incluindo o Azure Active Directory |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | Eventos de autenticação no Active Directory e nos serviços online da Microsoft |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Atividades de consulta executadas em objetos do Active Directory, como usuários, grupos, dispositivos e domínios |
@@ -81,5 +82,5 @@ A referência a seguir lista todas as tabelas no esquema. Cada nome de tabela se
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Trabalhar com os resultados da consulta](advanced-hunting-query-results.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
+- [Procure em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)

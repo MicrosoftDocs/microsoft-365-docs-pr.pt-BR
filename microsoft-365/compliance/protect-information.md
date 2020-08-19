@@ -1,5 +1,5 @@
 ---
-title: Proteger informações usando o Microsoft 365
+title: Proteção de informações da Microsoft no Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -9,26 +9,26 @@ ms.date: ''
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
-localization_priority: Normal
+localization_priority: High
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
-description: Identifique os recursos e a documentação de suporte do Microsoft 365 para ajudá-lo a proteger os dados importantes da sua organização.
-ms.openlocfilehash: eb83655fddf5b59a7a95d2a8b9999ab683305a89
-ms.sourcegitcommit: 20c219332270f1013d48b39773dd0e48dabad9e4
+description: Implementar recursos de proteção de informações da Microsoft (MIP) no Microsoft 365 para ajudá-lo a descobrir, classificar e proteger informações confidenciais onde elas se encontram ou viajam.
+ms.openlocfilehash: 058a1b46f879b2cc4b8ada8f2a5de88717958e94
+ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46592305"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804181"
 ---
-# <a name="protect-information-using-microsoft-365"></a>Proteger informações usando o Microsoft 365
+# <a name="microsoft-information-protection-in-microsoft-365"></a>Proteção de informações da Microsoft no Microsoft 365
 
 >*[Licenciamento para conformidade com o Microsoft 365 Security &](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
-Use os recursos de proteção de informações da Microsoft para ajudar a descobrir, classificar e proteger informações confidenciais onde elas se encontram ou viajam.
+Use a proteção de informações da Microsoft (muitas vezes abreviadas para os recursos MIP) para ajudá-lo a descobrir, classificar e proteger informações confidenciais onde quer que elas se encontram ou viajam.
 
-## <a name="know-your-data"></a>Conhecer seus dados
+## <a name="know-your-data"></a>Conheça seus dados
 
 Para entender seu cenário de dados e identificar dados importantes em seu ambiente híbrido, use os seguintes recursos:
  
@@ -38,13 +38,13 @@ Para entender seu cenário de dados e identificar dados importantes em seu ambie
 |[Classificadores estagiários (visualização)](classifier-getting-started-with.md)| Classifica dados para você, usando um dos classificadores internos ou treina um classier com seu próprio conteúdo | [Criar um classificador treinado (visualização)](classifier-creating-a-trainable-classifier.md) |
 |[Classificação de dados](data-classification-overview.md) | Identifica itens que têm um rótulo de confidencialidade, um rótulo de retenção ou foram classificados como um tipo de informação confidencial em sua organização e as ações que os usuários estão assumindo neles  | [Introdução ao gerenciador de conteúdo ](data-classification-content-explorer.md)<br /><br /> [Começar a usar o gerenciador de atividades](data-classification-activity-explorer.md) |
 
-## <a name="protect-your-data"></a>Proteger seus dados
+## <a name="protect-your-data"></a>Proteja seus dados
 
 Para aplicar ações de proteção flexíveis que incluem criptografia, restrições de acesso e marcações visuais, use os seguintes recursos:
 
 |Recursos|Que problemas ele resolve?|Introdução|
 |:------|:------------|---------------------|:----------------------------|
-|[Rótulos de confidencialidade ](sensitivity-labels.md)| Uma única solução entre aplicativos, serviços e dispositivos para rotular e proteger seus dados conforme eles trafegam dentro e fora da sua organização <br /><br />Cenário de exemplo: [aplicar e exibir rótulos de confidencialidade no Power bi e proteger dados quando ele é exportado](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|[Introdução aos rótulos de confidencialidade](get-started-with-sensitivity-labels.md) |
+|[Rótulos de confidencialidade ](sensitivity-labels.md)| Uma única solução entre aplicativos, serviços e dispositivos para rotular e proteger seus dados conforme eles trafegam dentro e fora da sua organização <br /><br />Cenário de exemplo: [aplicar e exibir rótulos de confidencialidade no Power bi e proteger dados quando ele é exportado](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|[ Introdução aos rótulos de confidencialidade](get-started-with-sensitivity-labels.md) |
 |[Cliente de rotulação unificada de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)| Para computadores com Windows, estende os rótulos de confidencialidade para recursos adicionais e funcionalidade que inclui o rótulo e a proteção de todos os tipos de arquivo do explorador de arquivos e do PowerShell<br /><br /> Exemplos de recursos adicionais: [configurações personalizadas para o cliente de rotulação unificado de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)| [Guia do administrador do cliente de rótulo unificado de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide)|
 |[Criptografia de Chave Dupla](double-key-encryption.md)| Em todas as circunstâncias, apenas você pode descriptografar o conteúdo protegido, ou para requisitos normativos, você deve manter chaves de criptografia dentro de um limite geográfico | [Implantar a criptografia de chave dupla](double-key-encryption.md#deploy-double-key-encryption)|
 |[Criptografia de mensagem do Office 365](ome.md) (ome)| Criptografa mensagens de email e documentos anexados que são enviados para qualquer usuário em qualquer dispositivo, de modo que somente os destinatários autorizados possam ler informações enviadas por email  <br /><br />Cenário de exemplo: [revogar emails criptografados por criptografia de mensagem avançada](revoke-ome-encrypted-mail.md) | [Introdução à criptografia de mensagem do Office 365](set-up-new-message-encryption-capabilities.md)|
@@ -52,10 +52,10 @@ Para aplicar ações de proteção flexíveis que incluem criptografia, restriç
 |[IRM (gerenciamento de direitos de informação) do SharePoint](set-up-irm-in-sp-admin-center.md#irm-enable-sharepoint-document-libraries-and-lists)|Protege listas e bibliotecas do SharePoint para que, quando um usuário faz check-out de um documento, o arquivo baixado seja protegido de modo que somente as pessoas autorizadas possam exibir e usar o arquivo de acordo com as políticas que você especificar | [Set up Information Rights Management (IRM) in SharePoint admin center](set-up-irm-in-sp-admin-center.md)|
 [Conector de gerenciamento de direitos](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector) |Proteção: somente para implantações locais existentes que usam o Exchange ou o SharePoint Server ou servidores de arquivos que executam o Windows Server e a infraestrutura de classificação de arquivo (FCI) | [Etapas para implantar o conector RMS](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector#steps-to-deploy-the-rms-connector)
 |[Verificador de rótulo unificado de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)| Descobre, rotula e protege informações confidenciais que residem em repositórios de dados que estão no local | [Configurando e instalando o verificador de rótulo unificado proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install)|
-|[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)| Descobre, rotula e protege informações confidenciais que residem em repositórios de dados que estão na nuvem | [Descobrir, classificar, rotular e proteger dados regulamentados e confidenciais armazenados na nuvem](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
-|[Proteção de Informações do Microsoft SDK](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|Estende os rótulos de confidencialidade para aplicativos e serviços de terceiros  <br /><br /> Cenário de exemplo: [set e obter um rótulo de confidencialidade (C++)](https://docs.microsoft.com/information-protection/develop/quick-file-set-get-label-cpp) |[Instalação e configuração do SDK do Microsoft Information Protection (MIP)](https://docs.microsoft.com/information-protection/develop/setup-configure-mip)|
+|[Segurança no Aplicativo da Nuvem da Microsoft](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)| Descobre, rotula e protege informações confidenciais que residem em repositórios de dados que estão na nuvem | [Descobrir, classificar, rotular e proteger dados regulamentados e confidenciais armazenados na nuvem](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
+|[SDK de Proteção de Informações da Microsoft](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|Estende os rótulos de confidencialidade para aplicativos e serviços de terceiros  <br /><br /> Cenário de exemplo: [set e obter um rótulo de confidencialidade (C++)](https://docs.microsoft.com/information-protection/develop/quick-file-set-get-label-cpp) |[Instalação e configuração do SDK do Microsoft Information Protection (MIP)](https://docs.microsoft.com/information-protection/develop/setup-configure-mip)|
 
-## <a name="prevent-data-loss"></a>Evitar a perda de dados
+## <a name="prevent-data-loss"></a>Evita a perda de dados
 
 Para ajudar a evitar o compartilhamento acidental de informações confidenciais, use os seguintes recursos:
 
