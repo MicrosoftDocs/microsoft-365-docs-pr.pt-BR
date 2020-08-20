@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 08/14/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.collection:
 - remotework
 ms.custom: ''
 description: Configure os recursos de segurança e a infraestrutura para permitir que seus funcionários trabalhem remotamente em praticamente qualquer lugar e a qualquer momento.
-ms.openlocfilehash: c8d56d3dd6e2c46db6ef1938dee8383b56e8966c
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 62361126ad0b843fd909b98807eeb186f13e75bb
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522248"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778329"
 ---
 # <a name="configure-a-team-with-security-isolation-in-a-devtest-environment"></a>Configurar uma equipe com isolamento de segurança em um ambiente de desenvolvimento/teste
 
@@ -33,15 +33,15 @@ Use esse ambiente de desenvolvimento/teste para experimentar e ajustar as config
   
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Fase 1: criar o ambiente de teste do Microsoft 365 Enterprise
 
-Se você quiser apenas testar equipes confidenciais e altamente confidenciais de uma maneira simples com os requisitos mínimos, siga as instruções em [Configuração de base leve](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise).
+Se você quiser apenas testar equipes confidenciais e altamente confidenciais de uma maneira simples com os requisitos mínimos, siga as instruções em [Configuração de base leve](../enterprise/lightweight-base-configuration-microsoft-365-enterprise.md).
 
-Caso pretenda testar equipes confidenciais e altamente confidenciais em uma empresa simulada, siga as instruções em [Sincronização de hash de senha](https://docs.microsoft.com/microsoft-365/enterprise/password-hash-sync-m365-ent-test-environment).
+Caso pretenda testar equipes confidenciais e altamente confidenciais em uma empresa simulada, siga as instruções em [Sincronização de hash de senha](../enterprise/password-hash-sync-m365-ent-test-environment.md).
 
 >[!Note]
 >O teste de uma equipe com isolamento de segurança não exige o ambiente de teste corporativo simulado, que inclui uma intranet simulada conectada à Internet e a sincronização de diretórios para uma floresta do AD DS (Active Directory Domain Services). Ele é fornecido aqui como uma opção, para que você possa testar uma equipe com isolamento de segurança e fazer experimentos com ela em um ambiente que representa uma organização típica.
 >
     
-## <a name="phase-2-create-and-configure-your-azure-active-directory-ad-group-and-users"></a>Fase 2: criar e configurar seu grupo e usuários do Azure AD (Azure Active Directory)
+## <a name="phase-2-create-and-configure-your-azure-active-directory-azure-ad-group-and-users"></a>Fase 2: criar e configurar seu grupo e usuários do Azure AD (Azure Active Directory)
 
 Nesta fase, você cria e configura um grupo e usuários do Azure AD para sua organização fictícia.
   
@@ -77,7 +77,7 @@ Em seguida, configure o licenciamento automático, de modo que os membros do nov
     
 6. Feche a guia do Portal do Azure no navegador.
     
-Em seguida, [conecte-se ao módulo PowerShell do Azure Active Directory para Graph](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Em seguida, [conecte-se ao módulo PowerShell do Azure Active Directory para Graph](../enterprise/connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
   
 Preencha o nome da organização, seu local e uma senha comum. Execute esses comandos no prompt de comando do PowerShell ou no ISE (Ambiente de Script Integrado) para criar contas de usuário e adicioná-las ao grupo C-Suite:
   
@@ -115,7 +115,7 @@ Use essas etapas para verificar se o licenciamento baseado em grupo está funcio
 
 Nesta fase, você criará e configurará uma equipe com isolamento de segurança para que os membros da equipe de liderança sênior colaborem com a estratégia da empresa.
 
-Primeiro, habilite os rótulos de confidencialidade para proteger o conteúdo em sites do Microsoft Teams, Office 365 e SharePoint antes de prosseguir com as etapas [deste artigo](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Primeiro, habilite os rótulos de confidencialidade para proteger o conteúdo em sites do Microsoft Teams, Office 365 e SharePoint antes de prosseguir com as etapas [deste artigo](../compliance/sensitivity-labels-teams-groups-sites.md).
 
 Em seguida, crie a equipe:
 
@@ -126,9 +126,15 @@ Em seguida, crie a equipe:
 5. Em **Privacidade**, clique em **Privado**.
 6. Digite **Estratégia da Empresa** e clique em **Criar** > **Fechar**.
 
+Em seguida, restrinja a criação de canais privados aos proprietários do grupo de Estratégia Empresarial.
+
+1. Na equipe, clique em **Mais opções** e em **Gerenciar equipe**.
+2. Na guia **Configurações**, expanda **Permissões de membro**.
+3. Desmarque a caixa de seleção **Permitir que os membros criem canais privados**.
+
 Use estas instruções para configurar um rótulo de confidencialidade com as seguintes configurações:
 
-- O nome do rótulo é Estratégia empresarial
+- O nome é Estratégia Empresarial
 - A criptografia está ativada
 - O grupo de estratégia empresarial tem permissões de Coautoria.
 
@@ -199,10 +205,6 @@ Esta é a configuração resultante da equipe de estratégia empresarial.
 
 ![Configuração da equipe isolada de Estratégia da Empresa](../media/team-security-isolation-dev-test/team-security-isolation-dev-test-config.png)
 
-Os arquivos na equipe podem ter o rótulo de confidencialidade Estratégia da Empresa atribuído pelos membros do grupo Estratégia da Empresa. Veja um exemplo.
-
-![Exemplo de um arquivo com o rótulo de confidencialidade Estratégia da Empresa aplicado](../media/team-security-isolation-dev-test/team-security-isolation-dev-test-config-example.png)
- 
 ## <a name="next-step"></a>Próxima etapa
 
-Quando estiver pronto para a implantação em produção, confira [Configurar uma equipe com isolamento de segurança](secure-teams-security-isolation.md) para obter informações detalhadas sobre a configuração.
+Quando estiver pronto para a implantação da produção, confira estas [instruções de configuração](secure-teams-security-isolation.md).
