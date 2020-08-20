@@ -871,10 +871,8 @@
           items:
             - name: Listas de verificação de preparação de responsabilidade
               href: gdpr-arc.md
-            - name: Azure
-              href: gdpr-arc-azure.md
-            - name: Dynamics 365
-              href: gdpr-arc-dynamics365.md
+            - name: Azure e Dynamics 365
+              href: gdpr-arc-azure-dynamics.md
             - name: Suporte da Microsoft e Serviços Profissionais
               href: gdpr-arc-prof-services.md
             - name: Office 365
