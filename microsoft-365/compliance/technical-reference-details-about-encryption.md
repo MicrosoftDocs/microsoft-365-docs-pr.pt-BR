@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Saiba mais sobre os vários certificados, tecnologias e pacotes de criptografia TLS usados para criptografia no Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c9bc61a7c7a35d84d5e4ff338927ead98a932d9d
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 68e4b2923d2b250e85efa7fdc50a995db397d670
+ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649092"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814363"
 ---
 # <a name="technical-reference-details-about-encryption"></a>Detalhes técnicos de referência sobre criptografia
 
@@ -81,10 +81,6 @@ Um conjunto de codificações é uma coleção de algoritmos de criptografia que
 |TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA <br/>        |ECDH/128 <br/>|Sim <br/>|AES/128 <br/>|RSA/112 <br/> |
 |TLS_RSA_WITH_AES_256_GCM_SHA384 <br/>           |RSA/112 <br/> |Não <br/> |AES/256 <br/>|RSA/112 <br/> |
 |TLS_RSA_WITH_AES_128_GCM_SHA256 <br/>           |RSA/112 <br/> |Não <br/> |AES/256 <br/>|RSA/112 <br/> |
-|TLS_RSA_WITH_AES_256_CBC_SHA256 <br/>           |RSA/112 <br/> |Não <br/> |AES/256 <br/>|RSA/112 <br/> |
-|TLS_RSA_WITH_AES_128_CBC_SHA256 <br/>           |RSA/112 <br/> |Não <br/> |AES/128 <br/>|RSA/112 <br/> |
-|TLS_RSA_WITH_AES_256_CBC_SHA <br/>              |RSA/112 <br/> |Não <br/> |AES/256 <br/>|RSA/112 <br/> |
-|TLS_RSA_WITH_AES_128_CBC_SHA <br/>              |RSA/112 <br/> |Não <br/> |AES/128 <br/>|RSA/112 <br/> |
 
 Estes são os conjuntos de codificação a seguir, que ainda oferecerão suporte a protocolos TLS 1,0 e 1,1 até a data de substituição. Para ambientes GCC High e DoD que a data de substituição era de 15 Jan, 2020 e para ambientes do mundo e GCC, essa data é 15 de outubro de 2020.
 
@@ -94,6 +90,8 @@ Estes são os conjuntos de codificação a seguir, que ainda oferecerão suporte
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA  <br/> |ECDH/128  <br/> |Sim  <br/> |RSA/112  <br/> |AES/128  <br/> |
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA        <br/> |RSA/112  <br/>  |Não  <br/>  |RSA/112  <br/> |AES/256  <br/> |
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA        <br/> |RSA/112  <br/>  |Não  <br/>  |RSA/112  <br/> |AES/128  <br/> |
+|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA256     <br/> |RSA/112  <br/>  |Não   <br/> |RSA/112  <br/> |AES/256  <br/> |
+|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA256     <br/> |RSA/112  <br/>  |Não   <br/> |RSA/112  <br/> |AES/256  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 [Pacotes de criptografia TLS no Windows 10 v1903](https://docs.microsoft.com/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1903)

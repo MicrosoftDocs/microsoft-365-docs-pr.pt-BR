@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Este artigo define os campos de metadados para documentos em uma revisão configurada em um caso de descoberta eletrônica avançada no Microsoft 365.
-ms.openlocfilehash: e419cb14d1b0adbebd6d45aaa5120933b060bdf9
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 69b22155f209f155aa0b311f67f3e69841093003
+ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126948"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814383"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Campos de metadados de documentos na descoberta eletrônica avançada
 
@@ -93,12 +93,17 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 |Data do sistema de arquivos criada||File_system_date_created|Data de criação do sistema de arquivos (só se aplica a dados não-Office 365).|
 |Data do sistema de arquivos modificada||File_system_date_modified|Data de modificação do sistema de arquivos (só se aplica a dados não-Office 365).|
 |Tipo de arquivo|FileType||Tipo de arquivo do item com base na extensão de arquivo.|
+|ID de grupo| GroupID|  |ID de grupo para conteúdo agrupado.|
 |Tem anexo|HasAttachment|Email_has_attachment|Indica se a mensagem tem ou não anexos.|
 |O advogado é|HasAttorney||**True** quando pelo menos um dos participantes é encontrado na lista advogado; caso contrário, o valor será **false**.|
 |HasText||Has_text|Indica se o item tem ou não texto; os valores possíveis são **true** e **false**.|
 |ID Imutável||Immutable_ID|Essa ID é usada para identificar exclusivamente um documento dentro de um conjunto de revisão. Este campo não pode ser usado em um conjunto de análise de pesquisa e a ID não pode ser usada para acessar um documento em seu local nativo.|
 |Tipo inclusivo|Inclusivtype|Inclusive_type|Tipo inclusivo calculado para análise: **0** -não inclusivo; **1** -inclusive; **2** – menos inclusivo; cópia **3** incluindo.|
 |Em responder à ID||In_reply_to_ID|Em resposta à ID da mensagem.|
+|É um anexo moderno| IsModernAttachment|  |Este arquivo é um anexo moderno ou um arquivo vinculado.|
+|É da versão do documento | IsFromDocumentVersion |  |O documento atual é de uma versão diferente de outro documento.|
+|É o anexo de email | IsEmailAttachment|  |Este item é proveniente de um anexo de email que aparece como um item anexado à mensagem.|
+|É anexo embutido| IsInlineAttachment|  |Isso foi anexado em linha e aparece no corpo da mensagem.|
 |É representante|Isrepresentativo|Is_representative|Um documento em cada conjunto de duplicatas exatas é marcado como representante.|
 |Classe de item|ItemClass|Item_class|Classe de item fornecida pelo Exchange Server; por exemplo, **IPM. Observação**|
 |Last modified date|LastModifiedDate|Doc_date_modified|Data da última modificação dos metadados do documento.|
@@ -143,19 +148,19 @@ A tabela a seguir lista os campos de metadados para documentos em uma revisão d
 |Pontuação de relevância|RelevanceScore||Pontuação de relevância de um documento com base na relevância.|
 |Marca de relevância|RelevanceTag||Pontuação de relevância de um documento com base na relevância.|
 |ID do representante|Representativo||Identificador numérico de cada conjunto de duplicatas exatas.|
-|Sender|Sender|Email_sender|Campo remetente (de) para tipos de mensagem. O formato **é \<SmtpAddress> DisplayName **.|
+|Remetente|Remetente|Email_sender|Campo remetente (de) para tipos de mensagem. O formato **é \<SmtpAddress> DisplayName **.|
 |Remetente/autor|SenderAuthor||Campo calculado composto pelo remetente ou autor do item.|
 |Domínio do remetente|SenderDomain|Email_sender_domain|Domínio do remetente.|
 |Sent|Sent|Email_date_sent|Data de envio da mensagem.|
 |Definir ordem: inclusivo primeiro|SetOrderInclusivesFirst|Set_order_inclusives_first|Campo de classificação-email e anexos: deordem cronológica; Documents: pivot First, then por Pontuação de similaridade decrescente.|
 |SimilarityPercent||Similarity_percent|Indica a aparência de um documento para a tabela dinâmica do conjunto próximo duplicado.|
 |Tamanho do arquivo nativo|Size|Native_size|Número de bytes do item nativo.|
-|Subject|Subject|Email_subject|Assunto da mensagem.|
+|Assunto|Assunto|Email_subject|Assunto da mensagem.|
 |Assunto/título|SubjectTitle||Campo calculado composto pelo assunto ou título do item.|
 |Marcado por problema de caso 1||Tagged_by_Case_issue_1|Usuário que marcou este documento para o problema de caso 1, em relevância.|
-|Marcas|Marcas|Marcas|Marcas aplicadas em um conjunto de revisão.|
+|Etiquetas|Etiquetas|Etiquetas|Marcas aplicadas em um conjunto de revisão.|
 |Lista de temas|Themelist|Themes_list|Lista de temas conforme calculado para análise.|
-|Title|Title|Doc_title|Título dos metadados do documento.|
+|Título|Título|Doc_title|Título dos metadados do documento.|
 |To|To|Email_to|Campo para para tipos de mensagem. O formato **é \<SmtpAddress> DisplayName**|
 |Exclusivo no conjunto de emails|UniqueInEmailSet||**False** se houver uma duplicata do anexo em seu conjunto de emails.|
 |Foi corrigido|WasRemediated|Was_Remediated|**True** se o item foi corrigido, caso contrário, **false**.|

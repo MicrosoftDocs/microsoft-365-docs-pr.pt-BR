@@ -14,19 +14,25 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
-description: Implementar recursos de proteção de informações da Microsoft (MIP) no Microsoft 365 para ajudá-lo a descobrir, classificar e proteger informações confidenciais onde elas se encontram ou viajam.
-ms.openlocfilehash: 058a1b46f879b2cc4b8ada8f2a5de88717958e94
-ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
+description: Implementar recursos de proteção de informações da Microsoft (MIP) usando o Microsoft 365 Compliance para ajudá-lo a descobrir, classificar e proteger informações confidenciais onde quer que elas se envidam ou se encontram.
+ms.openlocfilehash: 96082bc70b093e763be00c847bb6a68ce302c8a9
+ms.sourcegitcommit: 22fd8517707ed3ab6ef996247ad2aa372535ee56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/19/2020
-ms.locfileid: "46804181"
+ms.locfileid: "46815194"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Proteção de informações da Microsoft no Microsoft 365
 
 >*[Licenciamento para conformidade com o Microsoft 365 Security &](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
-Use a proteção de informações da Microsoft (muitas vezes abreviadas para os recursos MIP) para ajudá-lo a descobrir, classificar e proteger informações confidenciais onde quer que elas se encontram ou viajam.
+Use a proteção de informações da Microsoft (MIP) para ajudá-lo a descobrir, classificar e proteger informações confidenciais onde elas residem ou viajam.
+
+Os recursos de MIP estão incluídos no Microsoft 365 Compliance e oferecem as ferramentas para [conhecer seus dados](#know-your-data), [proteger seus dados](#protect-your-data)e [evitar a perda de dados](#prevent-data-loss).
+
+![Saiba seus dados, proteja seus dados, evite a perda de dados, administre seus dados](../media/powered-by-intelligent-platform.png)
+
+Para obter informações sobre como governar seus dados, consulte [Microsoft Information Governance in microsoft 365](manage-Information-governance.md).
 
 ## <a name="know-your-data"></a>Conheça seus dados
 
