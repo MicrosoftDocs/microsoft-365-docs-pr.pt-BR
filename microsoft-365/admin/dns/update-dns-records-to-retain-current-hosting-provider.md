@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c4cf347-b897-45c1-a71f-210bdc8f1061
 description: Saiba como rotear o tráfego para um site público existente hospedado fora da Microsoft, se você tiver configurado o Microsoft para gerenciar registros DNS para o seu domínio personalizado.
-ms.openlocfilehash: c33dd9253da2e8833ec6ae4693be34739b31ea63
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9a7090eef3ce7d1c67839e7320f31d7bd32aa6a7
+ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400215"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814393"
 ---
 # <a name="update-dns-records-to-keep-your-website-with-your-current-hosting-provider"></a>Atualizar registros DNS para manter seu site com seu provedor de hospedagem atual
 
@@ -37,29 +37,31 @@ ms.locfileid: "44400215"
 ## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a>Atualizar registros DNS no centro de administração do Microsoft 365
 1. No centro do administrador, acesse a página **Configurações de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domínios</a>.
 
-2. Na página **Domínios**, selecione o domínio que você usa para o site na lista de domínios e selecione **Configurações de DNS**, no Painel Gerenciamento. 
+2. Na página **domínios** , selecione o domínio e, em seguida, escolha **registros DNS**.
+
+3. Em **configurações de DNS**, selecione **registros personalizados**.
+
+4. Selecione **+ Novo registro personalizado** e insira o seguinte: 
     
-3. Selecione **+ Novo registro personalizado** e insira o seguinte: 
+   - Para **Tipo DNS**, insira: **A (Endereço)**
     
-  - Para **Tipo DNS**, insira: **A (Endereço)**
+   - Para **Nome do host ou Alias**, digite o seguinte: **@**
     
-  - Para **Nome do host ou Alias**, digite o seguinte: **@**
+   - Para o **Endereço IP**, digite o endereço IP estático no qual seu site está hospedado no momento (por exemplo, 172.16.140.1). 
     
-  - Para o **Endereço IP**, digite o endereço IP estático no qual seu site está hospedado no momento (por exemplo, 172.16.140.1). 
+   Esse deve ser um endereço IP  *estático*  do site e não um endereço IP  *dinâmico*  . Verifique com o site o local de hospedagem do seu site para garantir que você pode obter um endereço IP estático para o site público. 
     
-    Esse deve ser um endereço IP  *estático*  do site e não um endereço IP  *dinâmico*  . Verifique com o site o local de hospedagem do seu site para garantir que você pode obter um endereço IP estático para o site público. 
-    
-3. Selecione **Salvar**. 
+5. Selecione **Salvar**. 
     
 Além disso, você pode criar um registro CNAME para ajudar os clientes a encontrarem seu site.
   
 1. Selecione **+ Novo registro personalizado** e insira o seguinte: 
     
-  - Para **Tipo DNS**, insira: **CNAME (Alias)**
+   - Para **Tipo DNS**, insira: **CNAME (Alias)**
     
-  - Para **Nome do host ou Alias**, digite: **www**
+   - Para **Nome do host ou Alias**, digite: **www**
     
-  - Em **Pontos de endereçamento**, digite o FQDN (nome de domínio totalmente qualificado) do seu site (por exemplo, contoso.com). 
+   - Em **Pontos de endereçamento**, digite o FQDN (nome de domínio totalmente qualificado) do seu site (por exemplo, contoso.com). 
     
 2. Selecione **Salvar**. 
     

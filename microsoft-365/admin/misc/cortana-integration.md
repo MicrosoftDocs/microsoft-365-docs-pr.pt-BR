@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: Quando conectado com contas corporativas ou de estudante válidas, os usuários podem obter serviços de assistência baseados em nuvem com a Cortana em experiências do Microsoft 365 que atendam às promessas de privacidade, segurança e conformidade do Office 365.
-ms.openlocfilehash: 29e04726b04fafb0b79e5ba4625dce2ae74bfc67
-ms.sourcegitcommit: 6fb2a1c404ea3c3573b0f7803bf17459a9387891
+ms.openlocfilehash: e7464525774e15d5b54f1b2321948aef5d998558
+ms.sourcegitcommit: c692bdc186fb29499816e8bb2addcddef34d23d3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788843"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46818296"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana no Microsoft 365
 
@@ -101,6 +101,8 @@ Usuários individuais podem experimentar a assistência de voz da Cortana no apl
 
 4. Move a alternância para ativado ou desativado, dependendo se você deseja assistência de voz da Cortana neste dispositivo.
 
+[Saiba mais sobre a assistência de voz da Cortana no Teams](https://support.microsoft.com/en-us/office/using-cortana-voice-assistance-in-teams-274bb2f0-d962-4182-b45d-307435cea256?ui=en-us&rs=en-us&ad=us)
+
 ### <a name="play-my-emails"></a>Reproduzir meus emails
 
 Reproduzir meus emails (como conectado ao por meio do Outlook Mobile) é uma experiência viva-voz orientada por voz para que os usuários escutem as novas mensagens em sua caixa de entrada destaques e as alterações no dia através dos alto-falantes em seu telefone, fones de ouvido ou dispositivo de áudio conectado. Os usuários podem solicitar que a Cortana leia seus emails recentes em voz alta e peça que a Cortana execute ações como sinalizar, arquivar, excluir e ignorar mensagens. Esse recurso é especialmente útil para acompanhar seu email enquanto estiver no fim da casa, multitarefa ou em qualquer lugar. Quando o usuário conversa com a Cortana em reproduzir meus emails, a solicitação de áudio de fala vai diretamente para os serviços corporativos da Cortana. Uma leitura de texto para fala do email do usuário é processada dentro da nuvem do Office 365. Durante esse processo, nenhum dado do Office 365 é processado no dispositivo móvel do usuário e nenhum dado de email é salvo. Uma transcrição de comandos falados (ou seja, "Mark as Read", "próximo", "Flag" etc.) pode ser mantida de acordo com os termos de proteção de dados nos [termos do Microsoft Online Services](https://www.microsoft.com/licensing/product-licensing/products).
@@ -133,7 +135,7 @@ Os administradores podem configurar a redefinição para a organização usando 
 
 Continuaremos a apresentar mais experiências como acima para ajudar a aumentar a produtividade da sua organização.
 
-Saiba mais sobre as [ofertas de conformidade da Microsoft](https://docs.microsoft.com/microsoft-365/compliance/offering-home).
+[Saiba mais sobre as ofertas de conformidade da Microsoft](https://docs.microsoft.com/microsoft-365/compliance/offering-home)
 
 ## <a name="how-is-the-delivery-of-cortana-enterprise-services-different-from-the-delivery-of-other-cortana-features-i-may-have-previously-experienced"></a>Como a entrega de serviços corporativos da Cortana é diferente da entrega de outros recursos da Cortana que eu poderia ter experimentado anteriormente?
 

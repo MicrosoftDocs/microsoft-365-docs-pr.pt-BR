@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: Saiba como verificar sua propriedade de email e domínio para assumir o controle de um locatário não gerenciado no Microsoft 365
-ms.openlocfilehash: 1eb54a6c34c9700bda09a660c71d2b1222fcdb8c
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: 9c1d98616b10737553060bcbad62df9b3b4c0c9a
+ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45022152"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814463"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>Executar um administrador interno tomada
 
@@ -72,9 +72,7 @@ YouTube: [3 etapas para fazer um tomada de administração de ti para o Power bi
 
 [Tomada de administração no Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)
 
-[Obter ajuda com domínios](../get-help-with-domains/get-help-with-domains.md)
-
-[Usando a inscrição de autoatendimento em sua organização](self-service-sign-up.md)
+[Usando o autoatendimento inscreva-se na sua instituição](self-service-sign-up.md)
   
 [Noções básicas sobre a função de administrador do serviço do Power BI](https://docs.microsoft.com/power-bi/service-admin-role)
 

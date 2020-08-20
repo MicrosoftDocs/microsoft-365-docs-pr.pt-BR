@@ -20,16 +20,25 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 4f9f4f40b9cd88cad1676417d467d04367eaa0be
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 644e12d3b9dfecc0a31c8d464033e41670bc7b88
+ms.sourcegitcommit: 22fd8517707ed3ab6ef996247ad2aa372535ee56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200098"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46815226"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>O que há de novo na pontuação segura da Microsoft
 
 Para tornar a pontuação segura da Microsoft um melhor representante da postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, confira [o que está acontecendo na pontuação segura da Microsoft?](microsoft-secure-score-whats-coming.md).
+
+## <a name="july-2020"></a>Julho de 2020
+
+### <a name="adding-improvement-actions-for-azure-advanced-threat-protection"></a>Adicionando ações de melhorias para a proteção avançada contra ameaças do Azure
+
+- Caminhos de movimento laterais arriscados
+- Atributos de conta não seguros
+- Habilitar recursos de segurança em relações de confiança do Active Directory
+- Remover atributos de histórico de SID não seguros das entidades
 
 ## <a name="june-2020"></a>Junho de 2020
 
@@ -83,6 +92,6 @@ Se você tiver problemas, informe-nos por postagem na Comunidade de [segurança,
 
 ## <a name="related-resources"></a>Recursos relacionados
 
-- [Avaliar a postura de segurança](microsoft-secure-score-improvement-actions.md)
+- [Avaliar sua postura de segurança](microsoft-secure-score-improvement-actions.md)
 - [Acompanhar o histórico de Pontuação segura da Microsoft e atingir as metas](microsoft-secure-score-history-metrics-trends.md)
 - [O que estar por vir.](microsoft-secure-score-whats-coming.md)

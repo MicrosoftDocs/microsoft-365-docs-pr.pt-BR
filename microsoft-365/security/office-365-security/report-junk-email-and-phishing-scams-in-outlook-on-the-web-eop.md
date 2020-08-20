@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender sobre as opções internas de lixo eletrônico, não lixo eletrônico e relatório de email de phishing no Outlook na Web (Outlook Web App) no Exchange Online e como desabilitar essas opções de relatórios para os usuários.
-ms.openlocfilehash: adbb4f16201e221bce2405a7b715dd6a630e9e1d
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: a364afed9bb7e61d5f34ffc0206ede1c5155db65
+ms.sourcegitcommit: c692bdc186fb29499816e8bb2addcddef34d23d3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617315"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46818328"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-exchange-online"></a>Relatar emails de lixo eletrônico e phishing no Outlook na Web no Exchange Online
 
@@ -49,9 +49,9 @@ Nas organizações do Microsoft 365 com caixas de correio no Exchange Online, vo
 
 2. Na caixa de diálogo exibida, clique em **relatório**. Se você mudar de ideia, clique em **não relatar**.
 
-   ![Caixa de diálogo relatar como lixo eletrônico](../../media/owa-report-as-junk-dialog.png)
-
-   ![Caixa de diálogo relatar como phishing](../../media/owa-report-as-phishing-dialog.png)
+   |Desejado|Phishing|
+   |:---:|:---:|
+   |![Caixa de diálogo relatar como lixo eletrônico](../../media/owa-report-as-junk-dialog.png)|![Caixa de diálogo relatar como phishing](../../media/owa-report-as-phishing-dialog.png)|
 
 3. As mensagens selecionadas serão enviadas para a Microsoft para análise. Para confirmar se as mensagens foram enviadas, abra sua pasta **Itens Enviados** para exibir as mensagens enviadas.
 
@@ -67,9 +67,9 @@ Nas organizações do Microsoft 365 com caixas de correio no Exchange Online, vo
 
 2. Na caixa de diálogo exibida, leia as informações e clique em **relatório**. Se você mudar de ideia, clique em **não relatar**.
 
-   ![Relatar como não sendo lixo eletrônico](../../media/owa-report-as-not-junk-dialog.png)
-
-   ![Caixa de diálogo relatar como phishing](../../media/owa-report-as-phishing-dialog.png)
+   |Não é lixo eletrônico|Phishing|
+   |:---:|:---:|
+   |![Relatar como não sendo lixo eletrônico](../../media/owa-report-as-not-junk-dialog.png)|![Caixa de diálogo relatar como phishing](../../media/owa-report-as-phishing-dialog.png)|
 
 3. As mensagens selecionadas serão enviadas para a Microsoft para análise. Para confirmar se as mensagens foram enviadas, abra sua pasta **Itens Enviados** para exibir as mensagens enviadas.
 
@@ -129,7 +129,7 @@ Para verificar se você habilitou ou desabilitou com êxito os relatórios de li
 
 - Abra a caixa de correio de um usuário afetado no Outlook na Web, selecione uma mensagem na pasta lixo eletrônico, clique em **lixo** \> **eletrônico** e verifique se o aviso para relatar a mensagem à Microsoft é ou não é exibido.<sup>\*</sup>
 
-<sup>\*</sup>Os usuários podem ocultar a solicitação para relatar a mensagem enquanto estiver relatando a mensagem. Para verificar essa configuração no Outlook na Web:
+<sup>\*</sup> Os usuários podem ocultar a solicitação para relatar a mensagem enquanto estiver relatando a mensagem. Para verificar essa configuração no Outlook na Web:
 
 1. Clique em **configurações** ![ do Outlook no ícone configurações da Web ](../../media/owa-settings-icon.png) \> **Exibir todas as configurações do Outlook** \> **lixo eletrônico**.
 2. Na seção **relatório** , verifique o valor: **perguntar antes de enviar um relatório**.

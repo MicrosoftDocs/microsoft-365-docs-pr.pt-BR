@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 634f4194e450a7f3835ae0003c5632220a63108e
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 1b6bd81bc194a3b8d972661eaca393571b1ad199
+ms.sourcegitcommit: 22fd8517707ed3ab6ef996247ad2aa372535ee56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200045"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46815214"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>O que está chegando à pontuação segura da Microsoft
 
@@ -32,16 +32,11 @@ Para tornar a [Pontuação segura da Microsoft](microsoft-secure-score.md) um me
 
 Essas alterações podem estar chegando à pontuação segura da Microsoft em breve, dependendo da sua licença. Para saber mais sobre as alterações recentes, confira [o que há de novo na pontuação segura da Microsoft?](microsoft-secure-score-whats-new.md)
 
-### <a name="adding-improvement-actions-for-azure-advanced-threat-protection"></a>Adicionando ações de melhorias para a proteção avançada contra ameaças do Azure
-
-- Caminhos de movimento laterais arriscados
-- Atributos de conta não seguros
-- Habilitar recursos de segurança em relações de confiança do Active Directory
-- Remover atributos de histórico de SID não seguros das entidades
+- Alterar a pontuação máxima de 7 para 8 para a ação de aprimoramento do Azure Active Directory chamada "Habilitar política para bloquear autenticação herdada"
 
 ## <a name="related-resources"></a>Recursos relacionados
 
 - [Visão geral da Pontuação segura da Microsoft](microsoft-secure-score.md)
-- [Avaliar a postura de segurança](microsoft-secure-score-improvement-actions.md)
+- [Avaliar sua postura de segurança](microsoft-secure-score-improvement-actions.md)
 - [Acompanhar o histórico de Pontuação segura da Microsoft e atingir as metas](microsoft-secure-score-history-metrics-trends.md)
 - [Novidades](microsoft-secure-score-whats-new.md)

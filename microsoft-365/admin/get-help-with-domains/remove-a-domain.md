@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Saiba como remover um domínio antigo do Microsoft 365 e mover usuários e grupos para outro domínio.
-ms.openlocfilehash: 6f5e36a897316c8cdc057a725957c54e7eb53edc
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 57e52cc4f44e41d31200b8b5469aed6c36b63d24
+ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45079756"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814415"
 ---
 # <a name="remove-a-domain"></a>Excluir um domínio
 
@@ -48,7 +48,7 @@ Você está removendo seu domínio porque deseja adicioná-lo a um plano de assi
 
 ::: moniker range="o365-worldwide"
 
-1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração</a>.
+1. Acesse o <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração</a>.
 
 2. Selecione usuários ativos do **usuário** > **Active users**.
 
@@ -64,7 +64,7 @@ Será preciso fazer o mesmo para você, caso esteja no domínio que deseja remov
 
 ::: moniker range="o365-germany"
 
-1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>.  
+1. Acesse o <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>.  
 
 2. Selecione usuários ativos do **usuário** > **Active users**.
 
@@ -80,7 +80,7 @@ Será preciso fazer o mesmo para você, caso esteja no domínio que deseja remov
 
 ::: moniker range="o365-21vianet"
 
-1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>.  
+1. Acesse o <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>.  
 
 2. Selecione usuários ativos do **usuário** > **Active users**.
 
@@ -98,7 +98,7 @@ Será preciso fazer o mesmo para você, caso esteja no domínio que deseja remov
 
 ::: moniker range="o365-worldwide"
 
-1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>.
+1. Acesse o <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>.
 
 2. Vá para usuários ativos do **usuário** \> **Active Users**e selecione sua conta na lista.
 
@@ -228,8 +228,6 @@ Ainda não funciona? É possível que seja necessário remover seu domínio manu
 ## <a name="related-articles"></a>Artigos relacionados
 
 [Perguntas frequentes sobre domínios](../setup/domains-faq.md)
-
-[Obter ajuda com os domínios do Microsoft 365](get-help-with-domains.md)
 
 [Mudar para outro plano do Microsoft 365 for business](../../commerce/subscriptions/switch-to-a-different-plan.md)
 

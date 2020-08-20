@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber mais sobre os relatórios de fluxo de emails disponíveis no painel de relatórios no centro de conformidade do & de segurança.
 ms.custom: ''
-ms.openlocfilehash: acf74136fc61d38ea9aac47f36d96aa51a7b9905
-ms.sourcegitcommit: 6319e73b3690b4cf1b7932f2b9f51c2c99e70eaa
+ms.openlocfilehash: 98b27497b758a202ccbb741f6cb10e4ec65570e9
+ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46635029"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814489"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>Exibir relatórios de fluxo de emails no painel de relatórios no centro de conformidade e segurança &
 
@@ -233,12 +233,12 @@ Quando você abre o relatório, a guia **tipo** é selecionada por padrão. Por 
 
 O gráfico é organizado pelos valores de **tipo** .
 
-Você pode alterar esses filtros clicando em **filtro** ou clicando em um valor na legenda do gráfico.
+Você pode alterar esses filtros clicando em **Filtrar** ou clicando em um valor na legenda do gráfico.
 
 A tabela de dados contém as seguintes informações:
 
 - **Direção**
-- **Type**
+- **Tipo**
 - **24 horas**
 - **3 dias**
 - **7 dias**
@@ -279,6 +279,123 @@ Para o modo de exibição de detalhes, você só pode exportar dados por um dia.
 Cada arquivo. csv exportado está limitado a 150.000 linhas. Se os dados desse dia contiverem mais de 150.000 linhas, vários arquivos. csv serão criados.
 
 ![Exibição de direção no relatório de status do fluxo ](../../media/mail-flow-status-report-direction-view.png)
+
+### <a name="funnel-view-for-the-mailflow-status-report"></a>Exibição de funil para o relatório de status fluxo
+
+O modo de exibição do **funil** mostra como os recursos de proteção contra ameaças de email da Microsoft filtram os emails de entrada e de saída em sua organização. Ele fornece detalhes sobre a contagem total de emails e como os recursos de proteção contra ameaças configuradas, incluindo proteção de borda, Antimalware, anti-phishing, antispam e anti-falsificação, afetam essa contagem.
+
+Se você clicar na guia **funil** , por padrão, este modo de exibição contém um gráfico e uma tabela de dados que é configurada com os seguintes filtros:
+
+- **Data**: os últimos 7 dias.
+
+- **Direção**:
+
+  - **Entrada**
+  - **Saída**
+  - **Intra-org**: essa contagem é para mensagens enviadas dentro de um locatário; ou seja, o remetente abc@domain.com envia para o destinatário xyz@domain.com (contado separadamente de entrada e saída).
+
+O modo de exibição de agregação e o modo de exibição de tabela de dados permitem 90 dias de filtragem.
+
+Se você clicar em **filtro**, poderá filtrar tanto o gráfico quanto a tabela de dados.
+
+Este gráfico mostra a contagem de emails organizada por:
+
+  - **Email total**
+  - **Email após proteção de borda**
+  - **Email após anti-malware, reputação de arquivo, bloco de tipo de arquivo**
+  - **Email após anti-Phish, reputação da URL, representação da marca, antifalsificação**
+  - **Email após anti-spam, filtragem de email em massa**
+  - **Email após representação de usuário e domínio**<sup>1</sup>
+  - **Email após arquivo e URL acionamento**<sup>1</sup>
+  - **Email detectado como benigno após a proteção após a entrega (URL clique em proteção de tempo)**
+
+<sup>1</sup> somente o Office 365 ATP
+
+Para exibir o email filtrado por EOP ou ATP separadamente, clique no valor na legenda do gráfico.
+
+A tabela de dados contém as informações a seguir, mostradas em ordem decrescente de data:
+
+ - **Date**
+ - **Email total**
+ - **Proteção de borda**
+ - **Anti-malware, reputação de arquivo, bloco de tipo de arquivo**
+ - **Anti-Phish, reputação da URL, representação da marca, anti-falsificação**
+ - **Anti-spam, filtragem de email em massa**
+ - **Personificação de usuário e domínio (ATP)**
+ - **Arquivo e URL acionamento (ATP)**
+ - **Proteção de post-entrega e ZAP (ATP) ou ZAP (EOP)**
+
+Se você selecionar uma linha na tabela de dados, uma divisão adicional das contagens de email será mostrada no submenu.
+
+**Exportar**:
+
+Depois de clicar em **Exportar** em **Opções**, você pode selecionar um dos seguintes valores:
+
+- **Resumo (com dados dos últimos 90 dias no máximo)**
+- **Detalhes (com dados nos últimos 30 dias)**
+
+Em **Data**, escolha um intervalo e clique em **aplicar**. Os dados dos filtros atuais serão exportados para um arquivo. csv.
+
+Cada arquivo. csv exportado está limitado a 150.000 linhas. Se os dados contiverem mais de 150.000 linhas, vários arquivos. csv serão criados.
+
+ ![Exibição do funil no relatório de status do fluxo ](../../media/mail-flow-status-report-funnel-view.png)
+
+ ### <a name="tech-view-for-the-mailflow-status-report"></a>Exibição de Tech para o relatório de status do fluxo
+
+O **modo de exibição técnico** é semelhante ao modo de exibição do **funil** , fornecendo detalhes mais granulares para os recursos configurados de proteção contra ameaças. No gráfico, você pode ver como as mensagens são categorizadas em diferentes estágios de proteção contra ameaças.
+
+Se você clicar na guia **Tech View** , por padrão, este modo de exibição contém um gráfico e uma tabela de dados que é configurada com os seguintes filtros:
+
+- **Data**: os últimos 7 dias.
+
+- **Direção**:
+
+  - **Entrada**
+  - **Saída**
+  - **Intra-org**: essa contagem é para mensagens dentro de um locatário, ou seja, o remetente abc@domain.com envia para o destinatário xyz@domain.com (contado separadamente de entrada e saída)
+
+O modo de exibição de agregação e o modo de exibição de tabela de dados permitem 90 dias de filtragem.
+
+Se você clicar em **filtro**, poderá filtrar tanto o gráfico quanto a tabela de dados.
+
+Este gráfico mostra as mensagens organizadas nas seguintes categorias:
+
+  - **Email total**
+  - **Permitir borda, borda filtrada**
+  - **Não é malware, detecção de anexos seguros (ATP), detecção de mecanismo Antimalware, bloco de regras**
+  - **Não Phish, falha DMARC, detecção de personificação, detecção de falsificação, detecção de phishing**
+  - **Nenhuma detecção com a URL acionamento, detecção de acionamento de URL (ATP)**
+  - **Não spam, spam**
+  - **Email não mal-intencionado, detecção de links seguros (ATP), ZAP**
+
+Ao passar o mouse sobre uma categoria no gráfico, você pode ver o número de mensagens nessa categoria.
+
+A tabela de dados contém as informações a seguir, mostradas em ordem decrescente de data:
+
+  - **Date**  
+  - **Email total**
+  - **Borda filtrada**
+  - **Mecanismo Antimalware, anexos seguros, regra filtrada**
+  - **DMARC, representação, falsificação, phishing filtrado**
+  - **Detecção de URL acionamento**
+  - **Filtrado por antispam**
+  - **ZAP removido**
+  - **Detecção por links seguros**
+
+Se você selecionar uma linha na tabela de dados, uma divisão adicional das contagens de email será mostrada no submenu.
+
+**Exportar**:
+
+Ao clicar em **Exportar**, em **Opções** , você pode selecionar um dos seguintes valores:
+
+- **Resumo (com dados dos últimos 90 dias no máximo)**
+- **Detalhes (com dados nos últimos 30 dias)**
+
+Em **Data**, escolha um intervalo e clique em **aplicar**. Os dados dos filtros atuais serão exportados para um arquivo. csv.
+
+Cada arquivo. csv exportado está limitado a 150.000 linhas. Se os dados contiverem mais de 150.000 linhas, vários arquivos. csv serão criados.
+
+ ![Exibição de Tech no relatório de status do fluxo ](../../media/mail-flow-status-report-Tech-view.png)
 
 ## <a name="sent-and-received-email-report"></a>Relatório de email enviado e recebido
 
@@ -328,7 +445,7 @@ Para voltar para o modo de exibição de relatório, clique em **Exibir relatór
 Se você clicar em **Exibir tabela de detalhes** na tela **dividir por: direção** ou **dividir em: direção** , as seguintes informações são mostradas:
 
 - **Data (UTC)**
-- **Type**
+- **Tipo**
 - **Direção**
 - **Contagem de mensagem**
 
