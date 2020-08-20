@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar políticas e rótulos de retenção para administrar os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para começar.
-ms.openlocfilehash: 910d5b64addfeda077a5fd34eb2409a9cac2516d
-ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
+ms.openlocfilehash: 33b2fbd40c19d1f4e2e2ef042eaa2fe21080eec1
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588169"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778287"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>Introdução à políticas de retenção e rótulos de retenção
 
@@ -52,7 +52,7 @@ Para visualizar as opções de licenciamento dos seus usuários para se benefici
 
 Os membros de sua equipe de conformidade que criarão e gerenciarão políticas e rótulos de retenção precisam de permissões para o [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/). Por padrão, o administrador de locatário (administrador global) terá acesso a esse local e pode dar acesso a outras pessoas e aos responsáveis pela conformidade, sem lhes dar todas as permissões de um administrador de locatários. Para fazer isso, recomendamos que você adicione usuários ao grupo de função de administrador **Administrador de Conformidade**. Para obter instruções, confira [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
 
-Essas permissões são necessárias somente para criar e aplicar uma política de retenção. A pessoa que configura a política de retenção não exige acesso ao conteúdo.
+Essas permissões são necessárias somente para criar, configurar e aplicar políticas de retenção e rótulos de retenção. A pessoa que configura essas políticas não necessita acesso ao conteúdo.
 
 ## <a name="common-scenarios-for-retention-policies-and-retention-labels"></a>Cenários comuns para as políticas e rótulos de retenção
 
@@ -67,11 +67,12 @@ Use a tabela a seguir para ajudá-lo a mapear seus requisitos de negócios para 
 |Automaticamente aplique um conjunto de ações de retenção e exclusão de documentos e emails |[Aplicar um rótulo de retenção automaticamente ao conteúdo](apply-retention-labels-automatically.md)|
 |Inicie o período de retenção quando um evento ocorrer, por exemplo:  <br />- Funcionários saindo da organização <br />- Expiração dos contratos <br />- Fim da vida útil do produto| [Iniciar a retenção quando um evento ocorrer](event-driven-retention.md)|
 |Gerenciar o ciclo de vida de diferentes tipos de documentos no Microsoft Office SharePoint Online| [Use os rótulos de retenção para gerenciar o ciclo de vida dos documentos armazenados no SharePoint](auto-apply-retention-labels-scenario.md)|
-|Use uma única solução de gerenciamento de registros para documentos e emails |[Gerenciamento de registros no Microsoft 365](records-management.md) |
-|Cumprir com a Regra SEC 17a-4|[Usar o Exchange Online e o Centro de Conformidade e Segurança para atender à norma SEC 17a-4](use-exchange-online-to-comply-with-sec-rule-17a-4.md) |
+|Respeitar a Regra 17a-4 da SEC|[Usar o Exchange Online e o Centro de Conformidade e Segurança para atender à norma SEC 17a-4](use-exchange-online-to-comply-with-sec-rule-17a-4.md) |
 |Certifique-se de que alguém examine e aprove antes que o conteúdo seja excluído ao fim do período de retenção|[Revisões de disposição](disposition.md#disposition-reviews) |
-|Tenha a prova de disposição para o conteúdo excluído ao fim do seu período de retenção|[Disposição de conteúdo](disposition.md#disposition-of-records) |
 | Monitorar como e onde os rótulos de retenção são aplicados | [Monitorar rótulos de retenção](retention.md#monitoring-retention-labels) |
+|Usar uma única solução de gerenciamento de registros para emails e documentos |[Saiba mais sobre o gerenciamento de registros](records-management.md) |
+
+Se você usa rótulos de retenção para o gerenciamento de registros, há outros cenários exclusivos de rótulos de retenção que marcam o conteúdo como um registro. Confira [Cenários comuns para de gerenciamento de registros](get-started-with-records-management.md#common-scenarios-for-records-management).
 
 ## <a name="end-user-documentation-for-retention-labels"></a>Documentação do usuário final para rótulos de retenção
 
