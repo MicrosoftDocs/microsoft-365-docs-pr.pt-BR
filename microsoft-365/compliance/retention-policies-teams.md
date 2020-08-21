@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: 8599774994ccabce716c1366c0ffc6e1773626e9
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 3dcc0e3ea94d002f603b44b777d7666a65b4a725
+ms.sourcegitcommit: c692bdc186fb29499816e8bb2addcddef34d23d3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46685803"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46818309"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Saiba mais sobre retenção para o Microsoft Teams
 
@@ -32,7 +32,7 @@ As informações contidas neste artigo complementam [Saiba mais sobre retenção
 
 ## <a name="how-retention-works-with-microsoft-teams"></a>Como retenção funciona com o Microsoft Teams
 
-Você pode usar uma política de retenção para reter chats e mensagens de canal no Teams. Os chats do Teams são armazenados em uma pasta oculta na caixa de correio de cada usuário participante do chat, e as mensagens do canal do Teams são armazenadas em uma pasta oculta semelhante na caixa de correio do grupo da equipe. 
+Você pode usar uma política de retenção para reter chats e mensagens de canal no Teams. Os chats do Teams são armazenados em uma pasta oculta na caixa de correio de cada usuário participante do chat, e as mensagens do canal do Teams são armazenadas em uma pasta oculta semelhante na caixa de correio do grupo da equipe.
 
 No entanto, é importante compreender que o Teams usa um serviço de chat fornecido pelo Azure que também armazena esses dados e, por padrão, esse serviço armazena os dados para sempre. Por esse motivo, é recomendável criar uma política de retenção que usa os locais do Teams para reter e deletar esses dados do Teams. Essa política de retenção pode excluir permanentemente os dados da caixa de correio do Exchange e do serviço de chat subjacente fornecido pelo Azure. Para saber mais, confira [Segurança e conformidade no Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=871258) e, especificamente, a seção [Arquitetura de Proteção de Informações](https://docs.microsoft.com/MicrosoftTeams/security-compliance-overview#information-protection-architecture).
 
@@ -41,32 +41,36 @@ Os chats e mensagens do canal do Teams não são afetados pelas políticas de re
 > [!NOTE]
 > Se um usuário estiver incluído em uma política de retenção ativa que retém dados do Teams e você excluir uma caixa de correio de um usuário incluído nessa política, para reter os dados do Teams, a caixa de correio será convertida em uma [caixa de correio inativa](inactive-mailboxes-in-office-365.md). Se você não precisar reter esses dados do Teams para o usuário, exclua o usuário da política de retenção antes de excluir a caixa de correio.
 
-Depois que uma política de retenção for configurada para mensagens de chat ou canal, os caminhos que o conteúdo tomará vai depender se a política de retenção for para reter e excluir, somente reter ou somente excluir.
+Depois que uma política de retenção for configurada para mensagens de chat e de canal, um trabalho de temporizador do serviço do Exchange avaliará periodicamente os itens na pasta oculta em que essas mensagens do Teams são armazenadas. O trabalho de temporizador leva até sete dias para ser executado. Quando esses itens expiraram o período de retenção, eles são movidos para a pasta SubstrateHolds, outra pasta oculta que todo usuário ou caixa de correio de grupo possui para armazenar itens “excluídos temporariamente” antes de serem permanentemente excluídos.
+
+Depois que uma política de retenção for configurada para mensagens de chat ou canal, os caminhos que o conteúdo tomará vão depender se a política de retenção for para reter e excluir, somente reter ou somente excluir.
 
 Quando a política de retenção for reter e excluir:
 
-![Diagrama do fluxo de retenção para mensagens do chat e do canal do Teams](../media/TeamsRetentionLifecycle.png)
+![Diagrama do fluxo de retenção para mensagens do chat e do canal do Teams](../media/teamsretentionlifecycle.png)
 
-1. **Se uma mensagem do chat ou do canal for modificada ou excluída** pelo usuário durante o período de retenção, a mensagem será movida (ou copiada, no caso de edição) para a pasta SubstrateHolds (que é uma pasta oculta em todas as caixas de correio de usuários ou grupos) e será armazenada nessa pasta até que o período de retenção expire. As mensagens são excluídas permanentemente no dia do término do período de retenção.
+Para os dois caminhos no diagrama:
 
-2. **Se uma mensagem do chat ou do canal não for excluída** durante o período de retenção, a mensagem será movida para a pasta SubstrateHolds dentro de um dia após o término do período de retenção (de 0 a 24 horas). A mensagem é permanentemente excluída um dia após ser movida para a pasta SubstrateHolds. 
+1. **Se uma mensagem de chat ou canal for editada ou excluída** pelo usuário durante o período de retenção, a mensagem original será copiada imediatamente (se tiver sido editada) ou movida (se tiver sido excluída) para a pasta SubstrateHolds. A mensagem é armazenada lá até o período de retenção expirar e a mensagem será excluída permanentemente dentro de 24 horas.
+
+2. **Se uma mensagem de chat ou canal não for excluída** e para as mensagens atuais após a edição, a mensagem será movida para a pasta SubstrateHolds após o período de retenção expirar. Essa ação leva sete dias após a data de vencimento. Quando a mensagem estiver na pasta SubstrateHolds, ela será excluída permanentemente dentro de 24 horas. 
 
 > [!NOTE]
-> As mensagens na pasta SubstrateHolds são pesquisáveis por ferramentas de descoberta eletrônica. Após a exclusão permanente de uma mensagem, ela não será exibida em uma pesquisa de descoberta eletrônica.
+> As mensagens na pasta SubstrateHolds são pesquisáveis por ferramentas de descoberta eletrônica. Até que as mensagens sejam excluídas permanentemente (na pasta SubstrateHolds), elas permanecerão pesquisáveis por ferramentas de Descoberta Eletrônica.
 
 Quando a política de retenção é somente retenção ou somente exclusão, os caminhos de conteúdo serão variações de reter e excluir.
 
 ### <a name="content-paths-for-retain-only-retention-policy"></a>Caminhos de conteúdo para a política de retenção reter somente
 
-1. **Se uma mensagem de chat ou canal for modificada ou excluída** durante o período de retenção: uma cópia da mensagem original será criada na pasta SubstrateHolds e retida até o fim do período de retenção, quando a cópia dessa pasta será excluída permanentemente um dia após o item expirar. 
+1. **Se uma mensagem de chat ou canal for editada ou excluída**: uma cópia da mensagem original é criada imediatamente na pasta SubstrateHolds e mantida lá até que o período de retenção expire. Em seguida, a mensagem será permanentemente excluída da pasta SubstrateHolds dentro de 24 horas.
 
-2. **Se o item não for modificado ou excluído** durante o período de retenção: nada acontece antes e depois do período de retenção; o item permanecerá no local original.
+2. **Se o item não for modificado ou excluído** e para as mensagens atuais após a edição durante o período de retenção: nada acontece antes e depois do período de retenção; a mensagem permanecerá no local original. 
 
 ### <a name="content-paths-for-delete-only-retention-policy"></a>Caminhos de conteúdo para a política de retenção somente excluir
 
-1. **Se a mensagem não for excluída** durante o período de retenção: no final do período de retenção, a mensagem será movida para a pasta SubstrateHolds. 
+1. **Se a mensagem não for excluída** durante o período de retenção: no final do período de retenção, a mensagem será movida para a pasta SubstrateHolds. Essa ação leva sete dias após a data de vencimento. Em seguida, a mensagem será permanentemente excluída da pasta SubstrateHolds dentro de 24 horas.
 
-2. **Se o item for excluído pelo usuário** durante o período, o item será movido imediatamente para a pasta SubstrateHolds. A mensagem é permanentemente excluída um dia após estar na pasta SubstrateHolds.
+2. **Se o item for excluído pelo usuário** durante o período, o item será movido imediatamente para a pasta SubstrateHolds, onde será excluído permanentemente dentro de 24 horas.
 
 
 ## <a name="skype-for-business-and-teams-interop-chats"></a>Chats de Interoperabilidade entre Skype for Business e Teams
@@ -96,21 +100,14 @@ Se o usuário tiver armazenado os arquivos no Teams, consulte a [seção equival
 ## <a name="limitations"></a>Limitações
 
 Estamos trabalhando continuamente para otimizar a funcionalidade de retenção no Teams. Enquanto isso, aqui estão algumas limitações que você deve conhecer ao usar a retenção para os canais de conversa e mensagens do Teams:
-  
-- **O Teams exige uma política de retenção independente**. Ao criar uma política de retenção e ativar os locais do Teams, todos os demais locais são desativados. Uma política de retenção que inclui o Teams só pode incluí-lo e nenhum outro local.
 
 - **O Teams não está incluído em uma política no âmbito de toda a organização**. Se criar uma política no âmbito da organização, os canais de mensagens e conversas do Teams não estarão incluídos, porque eles exigem uma política de retenção independente.
 
-- **O Teams não é compatível com retenção avançada.** Ao criar uma política de retenção, se você escolher as [Configurações avançadas para identificar conteúdo que atende a determinadas condições](create-retention-policies.md#advanced-settings-to-identify-content-that-meets-specific-conditions), os locais do Teams não estarão disponíveis. Atualmente, a retenção no Teams se aplica a todo o conteúdo de chat e de mensagem de canal quando você seleciona esses locais.
+- **O Teams não é compatível com retenção avançada.** Ao criar uma política de retenção, se você escolher as [Configurações avançadas para identificar conteúdo que atende a determinadas condições](create-retention-policies.md#advanced-settings-to-identify-content-that-meets-specific-conditions), os locais do Teams não estarão disponíveis. A retenção no Teams se aplica a todo o conteúdo de mensagem de chat e canal quando você seleciona esses locais.
 
 - **As mensagens do Teams em canais privados não são incluídas quando você configura uma política de retenção para mensagens de canal do Teams**. No momento, canais privados não são suportados pelas políticas de retenção. 
 
 - **Curtidas e outras reações não são retidas no bate-papo das equipes e mensagens do canal**. As reações de outras pessoas na forma de emoticons não são suportadas pelas políticas de retenção.
-
-- **O Teams pode levar até sete dias para limpar as mensagens expiradas**. Uma política de retenção aplicada ao Teams excluirá mensagens de chat e de canal ao fim do período de retenção. No entanto, pode levar de três a sete dias para limpar essas mensagens e excluí-las permanentemente. Além disso, as mensagens de chat e de canal serão pesquisáveis com as ferramentas de descoberta eletrônica durante o período de retenção e quando as mensagens forem excluídas permanentemente.
-    
-    > [!NOTE]
-    > Antes, uma política de retenção não podia excluir o conteúdo do Teams em menos de 30 dias, mas removemos essa limitação. Agora, o período de retenção do conteúdo do Teams pode ser personalizado, sendo no mínimo de um dia. Se o período de retenção for de um dia, as mensagens serão excluídas permanentemente sete dias após o término do período de retenção.
 
 - **Problema de exibição incorreto no Outlook**. Se você criar políticas de retenção para os locais do Skype ou Teams, uma dessas políticas será exibida como a política de pasta padrão quando um usuário exibir as propriedades de uma pasta de caixa de correio no cliente da área de trabalho do Outlook. Esse é um problema de exibição incorreta no Outlook e [um problema conhecido](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies). O que deve ser exibido como a política de pasta padrão é a política de retenção da caixa de correio aplicada à pasta. A política de retenção do Skype ou Teams não é aplicada à caixa de correio do usuário.
 
