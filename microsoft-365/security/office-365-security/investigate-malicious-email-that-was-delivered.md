@@ -1,6 +1,6 @@
 ---
 title: Investigue emails mal-intencionados que foram entregues no Office 365, encontre e investigue emails mal-intencionados
-keywords: TIMailData-inline, incidente de segurança, incidente, ATP PowerShell, malware de email, usuários comprometidos, golpes por email, malware de email, ler cabeçalhos de email, ler cabeçalhos, abrir cabeçalhos de email
+keywords: TIMailData-inline, incidente de segurança, incidente, ATP PowerShell, malware de email, usuários comprometidos, golpes por email, malware de email, ler cabeçalhos de email, ler cabeçalhos, cabeçalhos de email abertos, ações especiais
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como usar os recursos de investigação e resposta contra ameaças para encontrar e investigar emails mal-intencionados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 193b637236957bd0543be847be97169600367ddf
-ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
+ms.openlocfilehash: 5026b69f356fad11a664900a3e316d9c1c976905
+ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656916"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845949"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Investigue emails mal-intencionados que foram entregues no Office 365
 
@@ -74,7 +74,7 @@ O Gerenciador de ameaças é um poderoso relatório que pode atender a vários p
 
     ![Explorer com ação de entrega e campos de local de entrega.](../../media/ThreatExFields.PNG)
 
-    <!-- You may notice the new **Special actions** column. This feature is aimed at telling admins the outcome of processing an email. The **Special actions** column can be accessed in the same place as **Delivery action** and **Delivery location**. Special actions might be updated at the end of Threat Explorer's email timeline, which is a new feature aimed at making the hunting experience better for admins.-->
+    Você pode observar a nova coluna **especial de ações** . Esse recurso é destinado a informar aos administradores o resultado do processamento de um email. A coluna **especial ações** pode ser acessada no mesmo lugar que a **ação de entrega** e o local de **entrega**. Ações especiais podem ser atualizadas no final da linha do tempo de email do explorador de ameaças, que é um novo recurso destinado a tornar a experiência de busca melhor para administradores.
 
 3. **Modos de exibição no explorador de ameaças**: no menu **Exibir** , escolha **todos os emails**.
 
@@ -192,82 +192,6 @@ A **linha do tempo de email** é um campo no explorador de ameaças que facilita
 
 > [!IMPORTANT]
 > Vá para um tópico de correção [aqui](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-worldwide).
-
-<!-- Reference material
-
-1. **Navigate to Threat Explorer**: Go to [https://protection.office.com](https://protection.office.com) and sign in using your work or school account for Office 365. This takes you to the Security &amp; Compliance Center.
-
-2. In the left navigation quick-launch, choose **Threat management** \> **Explorer**.
-
-3. Click on the subject of an email message, and then click **Email timeline**. (It appears among other headings on the panel like **Summary** or **Details**.)
-
-    Once you've opened the email timeline, you should see a table that tells you the post-delivery events for that mail. In the case of no further events for the email, you should see a single event for the original delivery that states a result like **Blocked** with a verdict like **Phish**. The tab also has the option to export the entire email timeline, and this exports all the details on the tab and details on the email (things like Subject, Sender, Recipient, Network, and Message ID).
-
-    The email timeline cuts down on randomization because there is less time spent checking different locations to try to understand events that happened since the email arrived. When multiple events happen at, or close to, the same time on an email, those events show up in a timeline view.
-
-    Some events that happen post-delivery to your mail are captured in the **Special actions** column. Combining the information from the email timeline along with special actions taken on email post-delivery gives admins insight into how their policies work, where the email was finally routed, and, in some cases, what the final assessment was.
-
-4. In the **View** menu, choose **All email**.
-
-    ![Use the View menu to choose between Email and Content reports](../../media/d39013ff-93b6-42f6-bee5-628895c251c2.png)
-
-    Notice the labels that appear in the report, such as **Delivered**, **Unknown**, or **Delivered to junk**.
-
-    ![Threat Explorer showing data for all email](../../media/208826ed-a85e-446f-b276-b5fdc312fbcb.png)
-
-    (Depending on the actions that were taken on email messages for your organization, you might see other labels, such as **Blocked** or **Replaced**.)
-
-5. In the report, choose **Delivered** to view only email messages that ended up in users' inboxes.
-
-    ![Clicking "Delivered to junk" removes that data from view](../../media/e6fb2e47-461e-4f6f-8c65-c331bd858758.png)
-
-6. Below the chart, review the **Email** list below the chart.
-
-    ![Below the chart, view a list of email messages that were detected](../../media/dfb60590-1236-499d-97da-86c68621e2bc.png)
-
-7. In the list, choose an item to view more details about that email message. For example, you can click the subject line to view information about the sender, recipients, attachments, and other similar email messages.
-
-    ![You can view additional information about an item](../../media/5a5707c3-d62a-4610-ae7b-900fff8708b2.png)
-
-8. After viewing information about email messages, select one or more items in the list to activate **+ Actions**.
-
-9. Use the **+ Actions** list to apply an action, such as **Move to deleted** items. This deletes the selected messages from the recipients' mailboxes.
-
-    ![When you select one or more email messages, you can choose from several available actions](../../media/ef12e10c-60a7-4f66-8f76-68d77ae26de1.png)
-
-## Dealing with suspicious email messages
-
-Malicious attackers might be sending mail to people in your organization in an attempt to phish their credentials and gain access to your corporate secrets. To help prevent this, you use the threat protection services in Office 365, including [Exchange Online Protection](exchange-online-protection-overview.md) and [Advanced Threat Protection](office-365-atp.md). However, it occasionally happens that an attacker sends email that contains a link (URL) that only later points to malicious content (such as malware). Or, you might realize too late that someone in your organization has been compromised, and while they were compromised, an attacker used their account to send email to other people in your organization. As part of dealing with either of these scenarios, you can remove suspicious email messages from user inboxes. To do that, you can use [Threat Explorer](threat-explorer.md).
-
-## Finding re-routed email messages after actions are taken
-
-Threat Explorer provides your security operations team with the details they need to investigate suspicious email. Your security operations team can:
-
-- [View the email headers and download the email body](#view-the-email-headers-and-download-the-email-body)
-
-- [Check the delivery action and location](#check-the-delivery-action-and-location)
-
-- [View the timeline of your email](#view-the-timeline-of-your-email)
-
-### View the email headers and download the email body
-
-The ability to preview email headers and download the body of an email body are powerful capabilities in Threat Explorer. Appropriate [permissions](permissions-in-the-security-and-compliance-center.md) must be assigned. See [Preview role permissions](#preview-role-permissions).
-
-To access your message header and email download options, follow these steps:
-
-1. Go to [https://protection.office.com](https://protection.office.com) and sign in using your work or school account for Office 365. This takes you to the Security &amp; Compliance Center.
-
-2. In the left navigation, choose **Threat management** \> **Explorer**.
-
-3. Click on a subject in the Threat Explorer table.
-
-    This opens the flyout, where both header preview and email download links are positioned.
-
-    ![Threat Explorer flyout with download and preview links on the page.](../../media/ThreatExplorerDownloadandPreview.PNG)
-
-> [!IMPORTANT]
-> This capability doesn't show up for email messages that were never found in a user's mailbox, which can happen if an email was dropped or its delivery failed. In cases where email messages were deleted from users' mailboxes, admins see a "Mail not found" error message.
--->
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

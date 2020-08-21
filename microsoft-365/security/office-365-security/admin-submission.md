@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o portal de envios no centro de conformidade de & de segurança para enviar emails suspeitos, emails de phishing, spam e outras mensagens, URLs e arquivos potencialmente nocivos para a Microsoft para verificação.
-ms.openlocfilehash: 4d0737d881334db9cc4aeda43037ab89d7444618
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 1b3715e3ed6f0472d9202573ff0cab92f7240ffa
+ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577865"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845961"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 
@@ -52,11 +52,9 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
 ## <a name="report-suspicious-content-to-microsoft"></a>Relatar conteúdo suspeito para a Microsoft
 
-1. No centro de conformidade & segurança, vá para análise de **Gerenciamento de ameaça** \> **Review** \> **mensagens de envio de administração**.
+1. No centro de conformidade & segurança, vá para **Threat management** \> **envios**de gerenciamento de ameaças, verifique se você está na guia **envios de administrador** e clique em **novo envio**.
 
-2. Na página **Submissions** envios que aparece, clique no botão **novo envio** .
-
-3. Use um novo submenu de **envio** que parece enviar a mensagem, a URL ou o anexo, conforme descrito nas seções a seguir.
+2. Use um novo submenu de **envio** que parece enviar a mensagem, a URL ou o anexo, conforme descrito nas seções a seguir.
 
 ### <a name="submit-a-questionable-email-to-microsoft"></a>Enviar um email questionável à Microsoft
 
@@ -114,9 +112,7 @@ Para obter outras maneiras de enviar mensagens de email, URLs e anexos para a Mi
 
 ## <a name="view-admin-submissions"></a>Exibir envios de administradores
 
-1. No centro de conformidade & segurança, vá para análise de **Gerenciamento de ameaça** \> **Review** \> **mensagens de envio de administração**.
-
-2. Na página **envios** que aparece, verifique se a guia **envios de administrador** está selecionada.
+No centro de conformidade & segurança, vá para **Threat management** \> **envios**de gerenciamento de ameaças, verifique se você está na guia **envios de administrador** e clique em **novo envio**.
 
 Próximo à parte superior da página, você pode inserir uma data de início, uma data de término e (por padrão), você pode filtrar por **ID de envio** (um valor de GUID que é atribuído a cada envio) inserindo um valor na caixa e clicando em ![ Atualizar botão ](../../media/scc-quarantine-refresh.png) . Update
 
@@ -152,7 +148,7 @@ Você pode clicar no botão **Opções de coluna** próximo à parte inferior da
 - **Tipo de controle**
 - **Fonte de controle**
 
-  <sup>\*</sup>Se você clicar nesse valor, as informações detalhadas serão exibidas em um submenu.
+  <sup>\*</sup> Se você clicar nesse valor, as informações detalhadas serão exibidas em um submenu.
 
 ### <a name="view-admin-url-submissions"></a>Exibir envios de URL de administração
 
@@ -167,7 +163,7 @@ Você pode clicar no botão **Opções de coluna** próximo à parte inferior da
 - **Tipo de envio**
 - **Estado**<sup>\*</sup>
 
-  <sup>\*</sup>Se você clicar nesse valor, as informações detalhadas serão exibidas em um submenu.
+  <sup>\*</sup> Se você clicar nesse valor, as informações detalhadas serão exibidas em um submenu.
 
 ### <a name="view-admin-attachment-submissions"></a>Exibir envios de anexo de administrador
 
@@ -182,15 +178,15 @@ Você pode clicar no botão **Opções de coluna** próximo à parte inferior da
 - **Tipo de envio**
 - **Estado**<sup>\*</sup>
 
-  <sup>\*</sup>Se você clicar nesse valor, as informações detalhadas serão exibidas em um submenu.
+  <sup>\*</sup> Se você clicar nesse valor, as informações detalhadas serão exibidas em um submenu.
 
 ## <a name="view-user-submissions-to-microsoft"></a>Exibir envios de usuários para a Microsoft
 
 Se você tiver implantado o [suplemento de mensagem de relatório](enable-the-report-message-add-in.md)ou se as pessoas usarem [relatórios internos no Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md), você poderá ver quais usuários estão relatando na guia **envios** de usuários.
 
-1. No centro de conformidade & segurança, vá para análise de **Gerenciamento de ameaça** \> **Review** \> **mensagens de envio de administração**.
+1. No centro de conformidade & segurança, vá para **Threat management** \> **envios**de gerenciamento de ameaças.
 
-2. Na página **envios** que aparece, clique na guia **envios do usuário** .
+2. Selecione a guia envios de **usuário** e clique em **novo envio**.
 
 Você pode clicar no botão **Opções de coluna** próximo à parte inferior da página para adicionar ou remover colunas da exibição:
 
@@ -201,7 +197,7 @@ Você pode clicar no botão **Opções de coluna** próximo à parte inferior da
 - **IP do remetente**<sup>\*</sup>
 - **Tipo de envio**
 
-<sup>\*</sup>Se você clicar nesse valor, as informações detalhadas serão exibidas em um submenu.
+<sup>\*</sup> Se você clicar nesse valor, as informações detalhadas serão exibidas em um submenu.
 
 Próximo à parte superior da página, você pode inserir uma data de início, uma data de término e (por padrão), você pode filtrar por **remetente** inserindo um valor na caixa e clicando em ![ Atualizar botão ](../../media/scc-quarantine-refresh.png) . Update
 
@@ -221,9 +217,9 @@ Para exportar os resultados, clique em **Exportar** próximo à parte superior d
 
 Se você [configurou uma caixa de correio personalizada](user-submission.md) para receber mensagens relatadas pelo usuário, você pode exibir e também enviar mensagens que foram entregues à caixa de correio de relatório.
 
-1. No centro de conformidade & segurança, vá para análise de **Gerenciamento de ameaça** \> **Review** \> **mensagens de envio de administração**.
+1. No centro de conformidade & segurança, vá para **Threat management** \> **envios**de gerenciamento de ameaças.
 
-2. Na página **envios** que aparece, clique na guia **caixa de correio personalizada** .
+2. Selecione a guia **caixa de correio personalizada** .
 
 Você pode clicar no botão **Opções de coluna** próximo à parte inferior da página para adicionar ou remover colunas da exibição:
 

@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -15,14 +15,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a configurar entradas de URL na lista de permissões/bloqueios de locatários no centro de conformidade de & de segurança.
-ms.openlocfilehash: 5ff34cca922f18a015bd9da847facc8177cf8790
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 888a96f23daf2cf47847466ad4080f310be7f9b4
+ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552545"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845937"
 ---
-# <a name="manage-urls-in-the-tenant-allowblock-list"></a>Gerenciar URLs na lista de permissões/bloqueios de locatários
+# <a name="manage-urls-in-the-tenant-allowblock-list"></a>Gerenciar URLs na Lista de Permissões/Bloqueios de Locatários
 
 > [!NOTE]
 > Os recursos descritos neste tópico estão em visualização, estão sujeitos a alterações e não estão disponíveis em todas as organizações.
@@ -257,7 +257,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-Ten
 
     Por exemplo, não `contoso.com/*` inclui `contoso.com/a` .
 
-  - `*.com*`é inválido (não é um domínio resolvível e o caractere curinga correto não segue uma barra).
+  - `*.com*` é inválido (não é um domínio resolvível e o caractere curinga correto não segue uma barra).
 
   - Curingas não são permitidos em endereços IP.
 
@@ -281,7 +281,7 @@ Entradas de URL válidas e seus resultados são descritos nas seções a seguir.
 
 #### <a name="scenario-no-wildcards"></a>Cenário: sem curingas
 
-**Entrada**:`contoso.com`
+**Entrada**: `contoso.com`
 
 - **Permitir correspondência**: contoso.com
 
@@ -309,7 +309,7 @@ Entradas de URL válidas e seus resultados são descritos nas seções a seguir.
 
 #### <a name="scenario-left-wildcard-subdomain"></a>Cenário: curinga esquerdo (subdomínio)
 
-**Entrada**:`*.contoso.com`
+**Entrada**: `*.contoso.com`
 
 - **Permitir** correspondência de correspondência e **bloqueio**:
 
@@ -325,7 +325,7 @@ Entradas de URL válidas e seus resultados são descritos nas seções a seguir.
   
 #### <a name="scenario-right-wildcard-at-top-of-path"></a>Cenário: caractere curinga à direita na parte superior do caminho
 
-**Entrada**:`contoso.com/a/*`
+**Entrada**: `contoso.com/a/*`
 
 - **Permitir** correspondência de correspondência e **bloqueio**:
 
@@ -342,7 +342,7 @@ Entradas de URL válidas e seus resultados são descritos nas seções a seguir.
   
 #### <a name="scenario-left-tilde"></a>Cenário: til esquerdo
 
-**Entrada**:`~contoso.com`
+**Entrada**: `~contoso.com`
 
 - **Permitir** correspondência de correspondência e **bloqueio**:
 
@@ -358,7 +358,7 @@ Entradas de URL válidas e seus resultados são descritos nas seções a seguir.
 
 #### <a name="scenario-right-wildcard-suffix"></a>Cenário: sufixo curinga à direita
 
-**Entrada**:`contoso.com/*`
+**Entrada**: `contoso.com/*`
 
 - **Permitir** correspondência de correspondência e **bloqueio**:
 
@@ -374,7 +374,7 @@ Entradas de URL válidas e seus resultados são descritos nas seções a seguir.
 
 #### <a name="scenario-left-wildcard-subdomain-and-right-wildcard-suffix"></a>Cenário: subdomínio curinga esquerdo e sufixo curinga direito
 
-**Entrada**:`*.contoso.com/*`
+**Entrada**: `*.contoso.com/*`
 
 - **Permitir** correspondência de correspondência e **bloqueio**:
 
@@ -388,7 +388,7 @@ Entradas de URL válidas e seus resultados são descritos nas seções a seguir.
 
 #### <a name="scenario-left-and-right-tilde"></a>Cenário: til esquerdo e direito
 
-**Entrada**:`~contoso.com~`
+**Entrada**: `~contoso.com~`
 
 - **Permitir** correspondência de correspondência e **bloqueio**:
 
@@ -405,7 +405,7 @@ Entradas de URL válidas e seus resultados são descritos nas seções a seguir.
 
 #### <a name="scenario-ip-address"></a>Cenário: endereço IP
 
-**Entrada**:`1.2.3.4`
+**Entrada**: `1.2.3.4`
 
 - **Permitir** correspondência de correspondência e **bloqueio**: 1.2.3.4
 
@@ -416,7 +416,7 @@ Entradas de URL válidas e seus resultados são descritos nas seções a seguir.
 
 #### <a name="ip-address-with-right-wildcard"></a>Endereço IP com caractere curinga direito
 
-**Entrada**:`1.2.3.4/*`
+**Entrada**: `1.2.3.4/*`
 
 - **Permitir** correspondência de correspondência e **bloqueio**:
 
