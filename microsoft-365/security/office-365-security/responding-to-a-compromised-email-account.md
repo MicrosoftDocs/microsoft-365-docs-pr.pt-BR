@@ -6,7 +6,7 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.collection:
 - o365_security_incident_response
 - M365-security-compliance
@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Aprenda como reconhecer e responder a uma conta de e-mail comprometida no Microsoft 365.
-ms.openlocfilehash: d412f40a6c3e1e2f1182437419ce9e0d28ed10eb
-ms.sourcegitcommit: 929ca8f4d5fc006c3827f7a8b7d2b43e54c1b42a
+ms.openlocfilehash: cfd20b0d5e6e13343346761b9b909a333b9a6ff5
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46674609"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827512"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Responder a uma conta de email comprometida
 
