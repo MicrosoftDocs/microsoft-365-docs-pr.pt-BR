@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Administradores e usuários finais podem aprender a enviar mensagens de email (emails em bom estado marcados como inválidos ou incorretos) para a Microsoft para análise.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e90382b39b0cebb70568a53ac5aaeb40ac935f92
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 94f00f8399164a84d2cb9dae0c4c416b73dfb0dc
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653588"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827804"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Enviar mensagens manualmente para a Microsoft para análise
 

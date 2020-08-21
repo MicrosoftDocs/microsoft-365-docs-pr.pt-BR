@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender sobre os tipos de endereços de email que são aceitos ou rejeitados pela proteção do Exchange Online (EOP) e o Outlook.com para ajudar a evitar phishing.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f16bb9b0af1ca5481437ef253c6d36dd519ff9e2
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: c67cf5855f2b0a99cf8d03bb6d7ba8557329b300
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209446"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827416"
 ---
 # <a name="how-eop-validates-the-from-address-to-prevent-phishing"></a>Como o EOP valida o endereço de para impedir o phishing
 
@@ -72,13 +72,13 @@ Os seguintes endereços de email são válidos:
 
 - `From: <sender@contoso.com>`
 
-- `From: < sender@contoso.com >`(Não recomendado porque há espaços entre os colchetes angulares e o endereço de email).
+- `From: < sender@contoso.com >` (Não recomendado porque há espaços entre os colchetes angulares e o endereço de email).
 
 - `From: "Sender, Example" <sender.example@contoso.com>`
 
 - `From: "Microsoft 365" <sender@contoso.com>`
 
-- `From: Microsoft 365 <sender@contoso.com>`(Não recomendado porque o nome de exibição não está entre aspas duplas.)
+- `From: Microsoft 365 <sender@contoso.com>` (Não recomendado porque o nome de exibição não está entre aspas duplas.)
 
 Os seguintes endereços de email são inválidos:
 
@@ -88,19 +88,19 @@ Os seguintes endereços de email são inválidos:
 
   Agora, as mensagens com um endereço de em branco não são mais aceitas.
 
-- `From: Microsoft 365 sender@contoso.com`(O nome de exibição está presente, mas o endereço de email não está entre colchetes angulares).
+- `From: Microsoft 365 sender@contoso.com` (O nome de exibição está presente, mas o endereço de email não está entre colchetes angulares).
 
-- `From: "Microsoft 365" <sender@contoso.com> (Sent by a process)`(Texto após o endereço de email).
+- `From: "Microsoft 365" <sender@contoso.com> (Sent by a process)` (Texto após o endereço de email).
 
-- `From: Sender, Example <sender.example@contoso.com>`(O nome de exibição contém uma vírgula, mas não está entre aspas duplas.)
+- `From: Sender, Example <sender.example@contoso.com>` (O nome de exibição contém uma vírgula, mas não está entre aspas duplas.)
 
-- `From: "Microsoft 365 <sender@contoso.com>"`(Todo o valor está incorretamente entre aspas duplas.)
+- `From: "Microsoft 365 <sender@contoso.com>"` (Todo o valor está incorretamente entre aspas duplas.)
 
-- `From: "Microsoft 365 <sender@contoso.com>" sender@contoso.com`(O nome de exibição está presente, mas o endereço de email não está entre colchetes angulares).
+- `From: "Microsoft 365 <sender@contoso.com>" sender@contoso.com` (O nome de exibição está presente, mas o endereço de email não está entre colchetes angulares).
 
-- `From: Microsoft 365<sender@contoso.com>`(Sem espaço entre o nome de exibição e o colchete angular esquerdo)
+- `From: Microsoft 365<sender@contoso.com>` (Sem espaço entre o nome de exibição e o colchete angular esquerdo)
 
-- `From: "Microsoft 365"<sender@contoso.com>`(Sem espaço entre as aspas duplas de fechamento e o colchete angular esquerdo.)
+- `From: "Microsoft 365"<sender@contoso.com>` (Sem espaço entre as aspas duplas de fechamento e o colchete angular esquerdo.)
 
 ## <a name="suppress-auto-replies-to-your-custom-domain"></a>Suprimir respostas automáticas para seu domínio personalizado
 

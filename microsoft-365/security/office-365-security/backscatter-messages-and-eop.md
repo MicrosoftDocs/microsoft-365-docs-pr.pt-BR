@@ -1,5 +1,5 @@
 ---
-title: Inspersão no EOP
+title: Dispersão inversa no EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -18,14 +18,14 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá sobre a inspersão e o Microsoft Exchange Online Protection (EOP)
-ms.openlocfilehash: e30fa27ac359ad28e042b2d4bd446d34a2e4f1e9
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: f1705fd7fc30c9a8cde5f6acfaf145861de3af08
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209626"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827780"
 ---
-# <a name="backscatter-in-eop"></a>Inspersão no EOP
+# <a name="backscatter-in-eop"></a>Dispersão inversa no EOP
 
 A *dispersão* é uma notificação de falha na entrega (também conhecida como NDRs ou mensagens de devolução) que você recebe para mensagens que não enviou. Os spammers forjam (falsificam) o endereço de: de suas mensagens e freqüentemente usam endereços de email reais para dar credibilidade às suas mensagens. Portanto, quando os spammers inevitavelmente enviam mensagens para destinatários não existentes (spam é uma operação de alto volume), o servidor de email de destino é essencialmente induzido a retornar a mensagem não entregue em um NDR para o remetente forjado no endereço de:.
 

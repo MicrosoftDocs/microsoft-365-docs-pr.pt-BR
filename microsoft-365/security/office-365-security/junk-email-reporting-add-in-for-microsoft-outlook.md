@@ -7,19 +7,19 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Saiba como instalar e usar o suplemento relatório de lixo eletrônico da Microsoft para relatar mensagens de spam, não spam e phishing à Microsoft.
-ms.openlocfilehash: 54b0fb634333ccb180870ab1fcc6160fd133f81e
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 42b38830b55ae3dbee4ec74a0e96531d920c24a5
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560516"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827094"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Instalar e usar o suplemento relatório de lixo eletrônico para o Microsoft Outlook
 
@@ -105,8 +105,8 @@ Este tópico explica como instalar e usar o suplemento relatório de lixo eletr�
 
 - Vá para <https://www.microsoft.com/download/details.aspx?id=18275> e baixe o arquivo. msi apropriado para sua versão do Office para um local que seja fácil de encontrar:
 
-  - **32**bits:`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
-  - **64**bits:`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
+  - **32**bits: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
+  - **64**bits: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
 
 - Para o Outlook 2013 ou posterior, o único pré-requisito é o Microsoft .NET Framework 2,0. No Windows 10, você não instala o .NET Framework 2,0 a partir de um download.
 
@@ -146,9 +146,9 @@ Selecione a seta para baixo ao lado de **Lixo Eletrônico** para obter mais opç
    msiexec /qn /i "<PathToMSIFile>\<MSIFile>" [MaxMessageSelection=<1-50>] [BccEmailAddress="<EmailAddress1>; <EmailAddress2>"...]
    ```
 
-   - `MaxMessageSelection`Especifica o número máximo de mensagens que você pode selecionar para um único envio. Os valores válidos vão de 1 a 50. O valor padrão é 15.
+   - `MaxMessageSelection` Especifica o número máximo de mensagens que você pode selecionar para um único envio. Os valores válidos vão de 1 a 50. O valor padrão é 15.
 
-   - `BccEmailAddress`Especifica destinatários Cco adicionais que receberão uma cópia de todos os envios de usuários. O valor padrão é Blank (nenhum destinatário adicional Cco).
+   - `BccEmailAddress` Especifica destinatários Cco adicionais que receberão uma cópia de todos os envios de usuários. O valor padrão é Blank (nenhum destinatário adicional Cco).
 
    Este exemplo instala a versão de 64 bits do suplemento do caminho especificado com as configurações padrão.
 
@@ -212,9 +212,9 @@ Após fechar o Outlook, use qualquer um dos seguintes procedimentos para desinst
 
 - **Pacote do Windows Installer**: encontre ou baixe o arquivo. msi apropriado e clique duas vezes nele.
 
-  - **32**bits:`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
+  - **32**bits: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi`
 
-  - **64**bits:`Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
+  - **64**bits: `Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (64-bit).msi`
 
   Na caixa de diálogo exibida, selecione **remover suplemento relatório de lixo eletrônico da Microsoft para Outlook** e clique em **Avançar**.
 

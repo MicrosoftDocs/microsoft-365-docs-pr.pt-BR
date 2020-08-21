@@ -5,7 +5,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online. Muitas dessas configurações estão disponíveis para usuários no Outlook ou no Outlook na Web.
-ms.openlocfilehash: 5da4aad41f5c5f00f65fa1ceb4fc4c0fad773779
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 171eca8535958f01a7f749ad678e6ea9dd83d80c
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653036"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46825708"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online
 
@@ -57,7 +57,7 @@ Os administradores podem usar o PowerShell do Exchange Online para desabilitar, 
 ## <a name="use-exchange-online-powershell-to-enable-or-disable-the-junk-email-rule-in-a-mailbox"></a>Usar o PowerShell do Exchange Online para habilitar ou desabilitar a regra de lixo eletrônico em uma caixa de correio
 
 > [!NOTE]
-> Você só pode usar o cmdlet **set-MailboxJunkEmailConfiguration** para desabilitar a regra de lixo eletrônico em uma caixa de correio aberta no Outlook (no modo cache do Exchange) ou no Outlook na Web. Se a caixa de correio não tiver sido aberta, você receberá o erro: `The Junk Email configuration couldn't be set. The user needs to sign in to Outlook Web App before they can modify their Safe Senders and Recipients or Blocked Senders lists.` se quiser suprimir esse erro para operações em massa, você pode adicionar `-ErrorAction SlientlyContinue` ao comando **set-MailboxJunkEmailConfiguration** .
+> Você só pode usar o cmdlet **set-MailboxJunkEmailConfiguration** para desabilitar a regra de lixo eletrônico em uma caixa de correio aberta no Outlook (no modo cache do Exchange) ou no Outlook na Web. Se a caixa de correio não tiver sido aberta, você receberá o erro: `The Junk Email configuration couldn't be set. The user needs to sign in to Outlook Web App before they can modify their Safe Senders and Recipients or Blocked Senders lists.` se quiser suprimir esse erro para operações em massa, você pode adicionar `-ErrorAction SilentlyContinue` ao comando **set-MailboxJunkEmailConfiguration** .
 
 Para habilitar ou desabilitar a regra de lixo eletrônico em uma caixa de correio, use a seguinte sintaxe:
 
@@ -81,7 +81,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-Mailbo
 
 > [!NOTE]
 >
-> - Se o usuário nunca abriu a caixa de correio, você pode receber um erro ao executar o comando anterior. Para suprimir esse erro para operações em massa, adicione `-ErrorAction SlientlyContinue` ao comando **set-MailboxJunkEmailConfiguration** .
+> - Se o usuário nunca abriu a caixa de correio, você pode receber um erro ao executar o comando anterior. Para suprimir esse erro para operações em massa, adicione `-ErrorAction SilentlyContinue` ao comando **set-MailboxJunkEmailConfiguration** .
 >
 > - Mesmo que você desabilite a regra de lixo eletrônico, o filtro de lixo eletrônico do Outlook (dependendo de como ela é configurada) também pode determinar se uma mensagem é spam e se pode mover mensagens para a caixa de entrada ou pasta de lixo eletrônico com base no seu próprio spam veredicto e a coleção SafeList na caixa de correio. Para obter mais informações, consulte a seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) neste tópico.
 
@@ -145,7 +145,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [set-Mailbo
 
 > [!NOTE]
 >
-> - Se o usuário nunca abriu a caixa de correio, você pode receber um erro ao executar os comandos anteriores. Para suprimir esse erro para operações em massa, adicione `-ErrorAction SlientlyContinue` ao comando **set-MailboxJunkEmailConfiguration** .
+> - Se o usuário nunca abriu a caixa de correio, você pode receber um erro ao executar os comandos anteriores. Para suprimir esse erro para operações em massa, adicione `-ErrorAction SilentlyContinue` ao comando **set-MailboxJunkEmailConfiguration** .
 >
 > - Mesmo se a regra de lixo eletrônico estiver desabilitada na caixa de correio, você ainda poderá configurar a coleção de listas seguras e o filtro de lixo eletrônico do Outlook poderá mover mensagens para a caixa de entrada ou para a pasta lixo eletrônico. Para obter mais informações, consulte a seção [sobre configurações de lixo eletrônico no Outlook](#about-junk-email-settings-in-outlook) neste tópico.
 >

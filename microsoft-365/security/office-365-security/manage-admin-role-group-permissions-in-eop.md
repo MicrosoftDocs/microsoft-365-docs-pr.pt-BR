@@ -7,17 +7,17 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: Os administradores podem saber como atribuir ou remover permissões no centro de administração do Exchange (Eat) na proteção do Exchange Online.
-ms.openlocfilehash: 3555d3bd7fa4c53802eb214747735223cccc21e5
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 8d452eb85d59bbe82cc6685d652617bc857c1ddf
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616509"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46825684"
 ---
 # <a name="manage-role-groups-in-standalone-eop"></a>Gerenciar grupos de funções no EOP autônomo
 
@@ -36,7 +36,7 @@ Para obter mais informações sobre funções e grupos de funções, consulte [p
 - Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste tópico, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 
 > [!TIP]
-> Está com problemas? Peça ajuda no fórum do [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) .
+> Está com problemas? Peça ajuda no fórum [Proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=285351).
 
 ## <a name="use-the-eac-to-manage-role-groups"></a>Usar o Eat para gerenciar grupos de função
 
@@ -62,9 +62,9 @@ Ao criar um novo grupo de função, você pode configurar todas as configuraçõ
 
     - **Descrição**: Insira uma descrição opcional para o grupo de função.
 
-    - **Funções**: clique em **Adicionar** ![ ícone de adição ](../../media/ITPro-EAC-AddIcon.png) ou **remover** ![ itpro-EAC-RemoveIcon. gif ](../../media/ITPro-EAC-RemoveIcon.gif) para selecionar ou modificar as funções atribuídas ao grupo de funções.
+    - **Funções**: clique em **Adicionar** ![ ícone de adicionar ](../../media/ITPro-EAC-AddIcon.png) ou **remover** ![ITPro-EAC-RemoveIcon.gif](../../media/ITPro-EAC-RemoveIcon.gif) para selecionar ou modificar as funções atribuídas ao grupo de funções.
 
-    - **Membros**: clique em **Adicionar** ![ ícone de adição ](../../media/ITPro-EAC-AddIcon.png) ou **remover** ![ itpro-EAC-RemoveIcon. gif ](../../media/ITPro-EAC-RemoveIcon.gif) para modificar a associação ao grupo de funções.
+    - **Membros**: clique em **Adicionar** ![ ícone de adicionar ](../../media/ITPro-EAC-AddIcon.png) ou **remover** ![ITPro-EAC-RemoveIcon.gif](../../media/ITPro-EAC-RemoveIcon.gif) para modificar a associação ao grupo de funções.
 
 3. Quando tiver terminado, clique em **salvar** para criar o grupo de função.
 
@@ -86,7 +86,7 @@ As mesmas opções estão disponíveis quando você modifica grupos de função 
 
 1. No Eat, vá para funções de administrador de **permissões** \> **Admin roles**, selecione o grupo de função que você deseja modificar e clique em **Editar** ![ ícone de edição ](../../media/ITPro-EAC-EditIcon.png) .
 
-2. Na página de propriedades do grupo de funções que é aberta, na seção **memebers** , execute uma das seguintes etapas:
+2. Na página de propriedades do grupo de funções que é aberta, na seção **Membros** , execute uma das seguintes etapas:
 
    - Clique em **Adicionar** ![ ícone de adição ](../../media/ITPro-EAC-AddIcon.png) . Na página exibida, localize o usuário que wou deseja adicionar e clique em **Adicionar->**. Selecione usuários e clique em **Adicionar->** muitas vezes, conforme necessário. Quando tiver concluído, clique em **OK**.
 

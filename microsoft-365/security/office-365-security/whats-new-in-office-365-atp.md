@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 07/23/2020
+ms.date: 08/20/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 92ad1b644dd0b3cac04657d01f70cfb274b7e517
-ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
+ms.openlocfilehash: 39ef79f685c216732aa1e3e0ccb28a4ab6e2b07a
+ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45391549"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845851"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Novidades na ATP do Office 365
 
@@ -34,6 +34,11 @@ Este artigo lista os novos recursos da versão mais recente do Office 365 ATP. O
 
 > [!TIP]
 > Ainda não tem o Office 365 ATP? [Entre em contato com vendas para iniciar uma avaliação](https://go.microsoft.com/fwlink/p/?LinkId=518644).
+
+## <a name="septemberoctober-2020"></a>Setembro/outubro de 2020 
+
+- [Verificar suas políticas usando o analisador de configuração](configuration-analyzer-for-security-policies.md)
+- [Substituir manualmente o filtro verdicts usando a lista de permissões/bloqueios de locatários](tenant-allow-block-list.md)
 
 ## <a name="julyaugust-2020"></a>Julho/agosto de 2020 
 

@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: Admin
-ms.topic: overview
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre como o EOP e o Office 365 protegem você com spam, phishing e prevenção contra malware adicionando uma dica de segurança à parte superior de emails.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6fb461619aaacafad86bb3c53731526fd00047a4
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: e13e9cce325dfd3f8312c1d68459ab3c423c1fbb
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209146"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827476"
 ---
 # <a name="safety-tips-in-email-messages"></a>Dicas de segurança para mensagens de email
 
@@ -58,7 +58,6 @@ A dica de segurança — uma mensagem codificada por cores — avisará você so
     Também avisaremos quando ignoramos a verificação de um email porque ele é proveniente de um remetente em sua lista de remetentes confiáveis ou se existe uma regra de fluxo de emails para ignorar a filtragem.
 
     A dica de segurança cinza também aparece quando imagens externas são bloqueadas, ou seja, a mensagem está na sua caixa de entrada e não parece ser spam, mas contém imagens externas que você não optou por baixar.
-    
 
 ## <a name="working-with-safety-tips"></a>Trabalhar com dicas de segurança
 

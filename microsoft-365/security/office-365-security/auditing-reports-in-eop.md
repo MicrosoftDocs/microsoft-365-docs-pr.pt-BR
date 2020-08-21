@@ -1,5 +1,5 @@
 ---
-title: Relatórios de auditoria em EOP autônomos
+title: Relatórios de auditoria na EOP autônomo
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -7,19 +7,19 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: Os administradores podem aprender sobre os relatórios de auditoria do administrador que estão disponíveis no Exchange Online Protection (EOP)
-ms.openlocfilehash: 1553bb3e076c97d7539107509aaf903b0607eefc
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: ab2c1af7197094b456d8e1b4151dd42791d992a1
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213311"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46825780"
 ---
-# <a name="auditing-reports-in-standalone-eop"></a>Relatórios de auditoria em EOP autônomos
+# <a name="auditing-reports-in-standalone-eop"></a>Relatórios de auditoria na EOP autônomo
 
 Em organizações autônomas de proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, os relatórios de auditoria podem ajudá-lo a atender aos requisitos normativos, de conformidade e de litígio para sua organização. Você pode obter relatórios de auditoria a qualquer momento para determinar as alterações que foram realizadas na configuração do EOP. Estes relatórios ajudam você a solucionar problemas de configuração ou a encontrar a causa de problemas relacionados à conformidade ou à segurança.
 

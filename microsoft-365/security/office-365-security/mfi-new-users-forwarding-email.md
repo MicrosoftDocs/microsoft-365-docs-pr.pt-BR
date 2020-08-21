@@ -1,22 +1,22 @@
 ---
-title: Novos usuários encaminhando informações de email
+title: Visão geral sobre novos usuários encaminhando email
 f1.keywords:
 - NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem aprender a usar os novos usuários que estão encaminhando informações de email no centro de conformidade de & de segurança para investigar quando os usuários de sua organização estão encaminhando mensagens para novos domínios.
-ms.openlocfilehash: 73ab6d1c9601ad40d469984b0ba18191a0917941
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: cb2e16d321e181916219e3425c26e59ebe31b866
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46578344"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826960"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>Novos usuários encaminhando informações de email no centro de conformidade e segurança &
 
@@ -26,7 +26,7 @@ Os **novos domínios que estão sendo encaminhados** informações de email noti
 
 Essa percepção aparece somente quando o problema é detectado e aparece na página de [relatório de encaminhamento](view-mail-flow-reports.md#forwarding-report) .
 
-![Novos usuários encaminhando informações de email](../../media/mfi-new-users-forwarding-email.png)
+![Visão geral sobre novos usuários encaminhando email](../../media/mfi-new-users-forwarding-email.png)
 
 Quando você clica no widget, um submenu aparece onde você pode encontrar mais detalhes sobre as mensagens encaminhadas, incluindo um link para o [relatório de alterações de encaminhamento](#forwarding-modifications-report) conforme descrito posteriormente neste tópico.
 
@@ -58,11 +58,11 @@ Os gráficos a seguir estão disponíveis no modo de exibição de relatório:
 
 - **Mostrar dados de: novos usuários de encaminhamento**:
 
-  ![Novo modo de exibição de usuários de encaminhamento no relatório de alterações de encaminhamento](../../media/forwarding-modificiations-report-new-forwarding-users.png)
+  ![Novo modo de exibição de usuários de encaminhamento no relatório de alterações de encaminhamento](../../media/forwarding-modifications-report-new-forwarding-users.png)
 
 - **Mostrar dados para: novos domínios de encaminhamento**:
 
-  ![Exibição de novos domínios encaminhados no relatório de alterações de encaminhamento](../../media/forwarding-modificiations-report-new-forwarded-domains.png)
+  ![Exibição de novos domínios encaminhados no relatório de alterações de encaminhamento](../../media/forwarding-modifications-report-new-forwarded-domains.png)
 
 Se você clicar em **filtros** em um modo de exibição de relatório, poderá especificar um intervalo de datas com **data de início** e data de **término**.
 

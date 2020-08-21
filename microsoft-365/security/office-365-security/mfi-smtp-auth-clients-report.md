@@ -6,19 +6,19 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar a percepção e o relatório de autenticação SMTP no painel de fluxo de emails no centro de conformidade de & de segurança para monitorar remetentes de email em sua organização que usam SMTP autenticado (autenticação SMTP) para enviar mensagens de email.
-ms.openlocfilehash: afdcf01260dd6dfcaf6b53d107e5addd007b1fb3
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 65e5569bcd79caef071ee2103d18a4e985c19dbb
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577195"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826864"
 ---
 # <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>Clientes de autenticação SMTP percepção e relatório no centro de conformidade e segurança &
 
@@ -73,7 +73,7 @@ Se você clicar em **Exibir tabela de detalhes**, as informações mostradas dep
   - **TLS 1.2%**<sup>\*</sup>
   - **Contagem de mensagem**
 
-  <sup>\*</sup>Esta coluna mostra a porcentagem e o número de mensagens do remetente.
+  <sup>\*</sup> Esta coluna mostra a porcentagem e o número de mensagens do remetente.
 
 Se você clicar em **filtros** em um modo de exibição de tabela detalhes, poderá especificar um intervalo de datas com **data de início** e data de **término**.
 

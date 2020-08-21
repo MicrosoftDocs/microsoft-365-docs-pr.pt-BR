@@ -6,19 +6,19 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o relatório de detalhes de falha na entrega no painel de fluxo de emails no centro de conformidade do & de segurança para monitorar os códigos de erro encontrados com mais frequência nas notificações de falha na entrega (também conhecidas como NDRs ou mensagens de devolução) de remetentes em sua organização.
-ms.openlocfilehash: d45382ab5c7e0d0a73487740544f20b9c25a3ad1
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: bdc2a2a16f76f4e6ada629c82b86423422ab56c9
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577401"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826912"
 ---
 # <a name="non-delivery-report-in-the-security--compliance-center"></a>Notificação de falha na entrega no centro de conformidade e segurança &
 

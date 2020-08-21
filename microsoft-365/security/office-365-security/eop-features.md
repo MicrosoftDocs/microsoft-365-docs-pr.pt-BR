@@ -7,17 +7,17 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: A tabela a seguir fornece uma lista dos recursos que estão disponíveis no serviço de filtragem de email hospedado da Proteção do Exchange Online (EOP).
-ms.openlocfilehash: 5a882edd91e8502d7340bf86f74e8114be9cd07b
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 0df2f9afa8be6feba6734d2b07e7b7de5c13c994
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652868"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827768"
 ---
 # <a name="eop-features"></a>Recursos EOP
 
@@ -85,8 +85,8 @@ A tabela a seguir fornece uma lista dos recursos que estão disponíveis no serv
 |Relatórios com base na Web|Os relatórios de proteção de email no centro de conformidade de & de segurança fornecem dados de mensagens. Por exemplo, você pode monitorar o quanto spam e malware está sendo detectado ou com que frequência suas regras de fluxo de emails estão sendo atendidas. Com esses relatórios interativos, você pode obter rapidamente um relatório visual de dados resumidos e obter detalhes sobre mensagens individuais de até 90 dias. Para obter mais informações, consulte [usar relatórios de proteção de email para exibir dados sobre detecções de malware, spam e regras](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports).|
 |Registro em log de auditoria|O relatório de grupo de função do administrador e o log de auditoria do administrador estão disponíveis para administradores da EOP. Para saber mais, veja [Relatórios de auditoria no EOP](auditing-reports-in-eop.md).  |
 |**Contratos de Nível de Serviço (SLAs) e suporte**||
-|SLA da eficácia do spam|\>99%|
-|SLA da taxa de falsos positivos|\<1:250000|
+|SLA da eficácia do spam|\> 99%|
+|SLA da taxa de falsos positivos|\< 1:250000|
 |SLA de detecção de vírus e bloqueio|100% de vírus conhecidos|
 |SLA do tempo de atividade mensal|99,999%|
 |Suporte técnico por telefone e pela Web 24 horas por dia, sete dias por semana|Para saber mais sobre a ajuda da EOP e as opções de suporte, consulte [Ajuda e suporte para EOP](help-and-support-for-eop.md).|

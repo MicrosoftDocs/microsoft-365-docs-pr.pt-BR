@@ -5,19 +5,19 @@ f1.keywords:
 ms.author: chrisda
 author: chrisda
 manager: dansimp
-ms.date: 8/7/2018
+ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f2738dec-41b0-43c4-b814-84c0a4e45c6d
 description: Os administradores podem saber mais sobre as informações de saída e de fluxo de email de entrada no painel de fluxo de emails no centro de conformidade de & de segurança.
-ms.openlocfilehash: 347e53c51c347f12795008d39458773a94ff433f
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 920c1212f4d6dee508704c93272e48140e199710
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577366"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826888"
 ---
 # <a name="outbound-and-inbound-mail-flow-insight-in-the-security--compliance-center"></a>Percepção de fluxo de email de entrada e de saída no centro de conformidade e segurança &
 

@@ -6,7 +6,7 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a usar regras de fluxo de emails (regras de transporte) para identificar e filtrar emails em massa (emails cinza) na proteção do Exchange Online (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 860c9a1af2cb560c4fd966b303501686a1cbfea7
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: dfe841d3e80efc50d6ffbc702faefa1c9a971b13
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613307"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826748"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>Usar regras de fluxo de e-mail para filtrar e-mails em massa no EOP
 
@@ -125,7 +125,7 @@ Este tópico explica como criar essas regras de fluxo de email no centro de admi
 Use a seguinte sintaxe para criar uma ou ambas as regras de fluxo de emails (expressões regulares versus palavras):
 
 ```powershell
-New-TransportRule -Name "<UniqueName>" [-SubjectOrBodyMatchesPatterns "<RegEx1>","<RegEx2>"...] [-SubjectOrBodyContainsWords "<WordOrPrhase1>","<WordOrPhrase2>"...] -SetSCL <6 | 9>
+New-TransportRule -Name "<UniqueName>" [-SubjectOrBodyMatchesPatterns "<RegEx1>","<RegEx2>"...] [-SubjectOrBodyContainsWords "<WordOrPhrase1>","<WordOrPhrase2>"...] -SetSCL <6 | 9>
 ```
 
 Este exemplo cria uma nova regra chamada "filtragem de email em massa-RegEx" que usa a mesma lista de expressões regulares do tópico para definir mensagens como **spam**.

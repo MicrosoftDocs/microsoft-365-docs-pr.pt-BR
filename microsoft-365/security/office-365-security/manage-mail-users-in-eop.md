@@ -7,18 +7,18 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: Saiba mais sobre como gerenciar usuários de email na proteção do Exchange Online (EOP), incluindo o uso da sincronização de diretórios, da Eat e do PowerShell para gerenciar usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d82170499bcfa6465164ca2644eea43c2558ad18
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 64b7effadd96b6dc025677139c4303acd538dadb
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616829"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827070"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>Gerenciar usuários de e-mail no EOP autônomo
 
@@ -119,7 +119,7 @@ Use a guia **informações de contato** para exibir ou alterar as informações 
 
 Use a guia **organização** para registrar informações detalhadas sobre a função do usuário na organização.
 
-- **Title**
+- **Título**
 - **Departamento**
 - **Company**
 
@@ -162,7 +162,7 @@ New-EOPMailUser -Name "<UniqueName>" -MicrosoftOnlineServicesID <Account> -Passw
 **Observações**:
 
 - O parâmetro _Name_ é obrigatório, tem um comprimento máximo de 64 caracteres e deve ser exclusivo. Se você não usa o parâmetro _DisplayName_, o valor do parâmetro _Name_ é usado para o nome de exibição.
-- Se você não usar o parâmetro _alias_ , o lado esquerdo do parâmetro _MicrosoftOnlneServicesID_ será usado para o alias.
+- Se você não usar o parâmetro _alias_ , o lado esquerdo do parâmetro _MicrosoftOnlineServicesID_ será usado para o alias.
 - Se você não usar o parâmetro _ExternalEmailAddress_ , o valor _MicrosoftOnlineServicesID_ será usado para o endereço de email externo.
 
 Este exemplo cria um usuário de email com as seguintes configurações:
@@ -185,7 +185,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [New-EOPMai
 Para modificar usuários de email existentes no PowerShell autônomo do EOP, use a seguinte sintaxe:
 
 ```powershell
-Set-EOPMailUser -Identity <MailUserIdentity> [-Alias <Text>] [-DisplayName <Textg>] [-EmailAddresses <ProxyAddressCollection>] [-MicrosoftOnlineServicesID <SmtpAddress>]
+Set-EOPMailUser -Identity <MailUserIdentity> [-Alias <Text>] [-DisplayName <Text>] [-EmailAddresses <ProxyAddressCollection>] [-MicrosoftOnlineServicesID <SmtpAddress>]
 ```
 
 ```powershell

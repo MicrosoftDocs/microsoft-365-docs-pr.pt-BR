@@ -7,17 +7,17 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: Você pode usar regras de fluxo de emails (regras de transporte) para identificar e executar ações em mensagens que fluem pela sua organização.
-ms.openlocfilehash: 6a70d5a23e3d65788143ea067a4702268e32f6ea
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: ed17ac62009f5e766772095985441fad2367edf4
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653677"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827696"
 ---
 # <a name="mail-flow-rules-transport-rules-in-standalone-eop"></a>Regras de fluxo de e-mail (regras de transporte) no EOP autônomo
 
@@ -73,7 +73,7 @@ Use a transport rule so messages can bypass Clutter
 
 ****
 
-|Componente|Lógica|Comments|
+|Componente|Lógica|Comentários|
 |---|---|---|
 |Comentários|E|Uma mensagem deve atender a todas as condições da regra. Se você precisar combinar uma condição ou outra, use regras separadas para cada condição. Por exemplo, se quiser adicionar o mesmo aviso de isenção legal a mensagens com anexos e mensagens com texto específico, crie uma regra para cada condição. No EAC, você pode facilmente copiar uma regra.|
 |Uma mensagem deve atender a todas as condições da regra. Se você precisar combinar uma condição ou outra, use regras separadas para cada condição. Por exemplo, se quiser adicionar o mesmo aviso de isenção legal a mensagens com anexos e mensagens com conteúdo que corresponde a um padrão, crie uma regra para cada condição. Você pode facilmente copiar uma regra.|OU|Algumas condições permitem especificar mais de um valor. A mensagem deve corresponder a qualquer um dos valores especificados (não todos). Por exemplo, se o assunto de uma mensagem de email for Informações sobre o mercado de ações e a condição **O assunto inclui qualquer uma destas palavras** estiver configurada para corresponder às palavras Contoso ou ações, a condição será atendida, pois o assunto contém pelo menos um dos valores especificados.  |

@@ -7,19 +7,19 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: reference
+ms.topic: troubleshooting
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 ms.custom:
 - seo-marvel-apr2020
 description: Obtenha respostas para as perguntas gerais mais comuns sobre o serviço de filtragem de email hospedado na nuvem do EOP (Exchange Online Protection).
-ms.openlocfilehash: 0908fd5cf3a799f5a253122efac2b4d56d80ee76
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 42162ea841f876fc5e958d67fab61dbe4bffe9de
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617025"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827756"
 ---
 # <a name="eop-general-faq"></a>Perguntas frequentes gerais sobre o EOP
 

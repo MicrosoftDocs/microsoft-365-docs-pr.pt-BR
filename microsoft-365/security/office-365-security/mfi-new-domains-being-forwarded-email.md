@@ -1,22 +1,22 @@
 ---
-title: Novos domínios sendo encaminhados informações sobre email
+title: Email de visão geral sobre novos domínios encaminhados
 f1.keywords:
 - NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: ''
 description: Os administradores podem aprender a usar os novos domínios que estão sendo encaminhados para o centro de administração do Exchange para investigar quando os usuários de sua organização estão encaminhando mensagens para domínios externos que nunca foram encaminhadas para o.
-ms.openlocfilehash: 81a596d48696f28d62d68594f27081435487d17f
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 0b4cd0490feebc8e05deb889b3cf54e1ea9f5928
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46578353"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826924"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>Novos domínios que estão sendo encaminhados informações de email no centro de conformidade e segurança &
 
@@ -26,7 +26,7 @@ Os **novos domínios que estão sendo encaminhados** informações de email noti
 
 Essa percepção aparece somente quando o problema é detectado e aparece na página de [relatório de encaminhamento](view-mail-flow-reports.md#forwarding-report) .
 
-![Novos domínios sendo encaminhados informações sobre email](../../media/mfi-new-domains-being-forwarded.png)
+![Email de visão geral sobre novos domínios encaminhados](../../media/mfi-new-domains-being-forwarded.png)
 
 Quando você clica no widget, um submenu aparece onde você pode encontrar mais detalhes sobre as mensagens encaminhadas, incluindo um link de volta para o [relatório de encaminhamento](view-mail-flow-reports.md#forwarding-report).
 

@@ -6,18 +6,18 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Os administradores podem saber mais sobre as ideias e os relatórios disponíveis no painel de fluxo de emails no centro de conformidade do & de segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 977dcef82a4f32980898c7b4392d011340e3d0a2
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 06e9449553d008bc383ae6f2b6098f9598cad43c
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577781"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826560"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Fluxo de emails no Centro de Conformidade e Segurança
 
@@ -27,7 +27,7 @@ Os administradores podem usar o painel de fluxo de emails no centro de conformid
 
 As informações disponíveis são:
 
-- [Percepção de mensagens automaticamente encaminhadas](mfi-auto-forwarded-messages-report.md)
+- [Visão geral sobre mensagens encaminhadas automaticamente](mfi-auto-forwarded-messages-report.md)
 
 - [Corrigir possíveis informações de loop de email](mfi-mail-loop-insight.md)<sup>1</sup>
 
@@ -43,11 +43,11 @@ As informações disponíveis são:
 
 - [Relatório de falha na entrega](mfi-non-delivery-report.md)
 
-- [Informações de fluxo de email de entrada e de saída](mfi-outbound-and-inbound-mail-flow.md)
+- [Visão geral sobre fluxo de entrada e saída de emails](mfi-outbound-and-inbound-mail-flow.md)
 
-- [Percepção de filas](mfi-queue-alerts-and-queues.md)
+- [Visão geral sobre filas](mfi-queue-alerts-and-queues.md)
 
-- [Informações e relatórios de clientes de autenticação SMTP](mfi-smtp-auth-clients-report.md)
+- [Visão geral e relatório de clientes de autenticação SMTP](mfi-smtp-auth-clients-report.md)
 
 - [Insight sobre o status do fluxo de mensagens dos principais domínios](mfi-domain-mail-flow-status-insight.md)
 

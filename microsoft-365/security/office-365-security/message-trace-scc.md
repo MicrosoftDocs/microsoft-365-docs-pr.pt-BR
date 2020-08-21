@@ -6,19 +6,19 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem usar o rastreamento de mensagens no centro de conformidade & segurança para descobrir o que aconteceu com as mensagens.
-ms.openlocfilehash: 7c0b87b1bb882714692a04b857bfc054305dee8c
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: c6e1f8f9280c84ab6ff6a1572d902ed1d4d4caa3
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653636"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827046"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
@@ -369,7 +369,7 @@ Um valor **custom_data** que começa com `S:AMA` é do agente de filtro de malwa
 
 |Valor|Descrição|
 |---|---|
-|`AMA=SUM|v=1|` ou `AMA=EV|v=1`|Foi determinado que a mensagem contém malware. `SUM`indica que o malware pode ter sido detectado por qualquer número de mecanismos. `EV`indica que o malware foi detectado por um mecanismo específico. Quando um mecanismo detecta malware, isto aciona as ações subseqüentes.|
+|`AMA=SUM|v=1|` ou `AMA=EV|v=1`|Foi determinado que a mensagem contém malware. `SUM` indica que o malware pode ter sido detectado por qualquer número de mecanismos. `EV` indica que o malware foi detectado por um mecanismo específico. Quando um mecanismo detecta malware, isto aciona as ações subseqüentes.|
 |`Action=r`|A mensagem foi substituída.|
 |`Action=p`|A mensagem foi ignorada.|
 |`Action=d`|A mensagem foi adiada.|
@@ -398,7 +398,7 @@ Um valor de **custom_data** que começa com `S:TRA` é do agente de regra de tra
 |`ETR|ruleId=<guid>`|A identificação da regra encontrou uma correspondência.|
 |`St=<datetime>`|A data e a hora no UTC quando a correspondência da regra ocorreu.|
 |`Action=<ActionDefinition>`|A ação que foi aplicada. Para obter uma lista de ações disponíveis, consulte [Mail Flow Rule Actions in Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).|
-|`Mode=<Mode>`|O modo da regra. Os valores válidos são: <br/>* **Impor**: todas as ações da regra serão impostas. <br/>* **Testar com dicas de política:**: qualquer ação de dica de política será enviada, mas outras ações de imposição não serão aplicadas. <br/>* **Teste sem dicas de política**: as ações serão listadas em um arquivo de log, mas os remetentes não serão notificados de nenhuma maneira e as ações de imposição não serão aplicadas.|
+|`Mode=<Mode>`|O modo da regra. Os valores válidos são:<ul><li>**Impor**: todas as ações da regra serão impostas.</li><li>**Testar com dicas de política:**: qualquer ação de dica de política será enviada, mas outras ações de imposição não serão aplicadas.</li><li>**Teste sem dicas de política**: as ações serão listadas em um arquivo de log, mas os remetentes não serão notificados de nenhuma maneira e as ações de imposição não serão aplicadas.</li></ul>|
 |
 
 Um exemplo **custom_data** valor de uma mensagem que coincida com as condições de uma regra de fluxo de emails tem a seguinte aparência:

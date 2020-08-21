@@ -6,17 +6,17 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: Os administradores podem aprender a usar o widget filas no painel de fluxo de emails no centro de conformidade do & de segurança para monitorar o fluxo de emails sem êxito em suas organizações locais ou de parceiros em relação a conectores de saída.
-ms.openlocfilehash: fdc3f44041990e3860deb04a36a69a3d506d334a
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 79523533306e847988fa0d4e2dd70eca22f7c76c
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577277"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826900"
 ---
 # <a name="queues-insight-in-the-security--compliance-center"></a>Informações sobre filas no centro de conformidade & segurança
 

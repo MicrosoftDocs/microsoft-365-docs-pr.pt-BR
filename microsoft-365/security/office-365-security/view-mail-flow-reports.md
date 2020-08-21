@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem saber mais sobre os relatórios de fluxo de emails disponíveis no painel de relatórios no centro de conformidade do & de segurança.
 ms.custom: ''
-ms.openlocfilehash: 98b27497b758a202ccbb741f6cb10e4ec65570e9
-ms.sourcegitcommit: 167c05cc6a776f62f0a0c2de5f3ffeb68c4a27ac
+ms.openlocfilehash: 9e9249eab5d3519dac0e33acf40d600d471b7cb2
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814489"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826452"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>Exibir relatórios de fluxo de emails no painel de relatórios no centro de conformidade e segurança &
 
@@ -51,7 +51,7 @@ Os gráficos a seguir estão disponíveis no modo de exibição relatório:
   - **Da Internet sem um conector**
   - **Para a Internet sem um conector**
   - Um conector específico que você configurou.
-  
+
   Para isolar os dados no gráfico, use o recurso **Mostrar dados do** controle para selecionar uma destas opções ou **todo o fluxo de emails**.
 
   ![Exibir dados por fluxo de emails no relatório do conector](../../media/connector-report-view-data-by-mail-flow.png)
@@ -206,7 +206,7 @@ Para voltar para o modo de exibição relatórios, clique em **Exibir relatório
 
 ## <a name="mailflow-status-report"></a>Relatório de status do fluxo
 
-O **relatório de status do fluxo** é semelhante ao [relatório de email enviado e recebido](#sent-and-received-email-report), com informações adicionais sobre o email permitido ou bloqueado na borda. Este é o único relatório que contém as informações de proteção de borda e mostra o quanto o email é bloqueado antes de ser permitido ao serviço para avaliação pelo Exchange Online Protection (EOP). É importante entender que, se uma mensagem for enviada para cinco destinatários, contaremos como cinco mensagens diferentes e não uma mensagem.  
+O **relatório de status do fluxo** é semelhante ao [relatório de email enviado e recebido](#sent-and-received-email-report), com informações adicionais sobre o email permitido ou bloqueado na borda. Este é o único relatório que contém as informações de proteção de borda e mostra o quanto o email é bloqueado antes de ser permitido ao serviço para avaliação pelo Exchange Online Protection (EOP). É importante entender que, se uma mensagem for enviada para cinco destinatários, contaremos como cinco mensagens diferentes e não uma mensagem.
 Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **fluxo relatório de status**. Para ir diretamente para o **relatório de status de fluxo de emails**, abra <https://protection.office.com/mailflowStatusReport> .
 
 ![Widget relatório de status do fluxo no painel relatórios](../../media/mail-flow-status-report-widget.png)
@@ -300,14 +300,14 @@ Se você clicar em **filtro**, poderá filtrar tanto o gráfico quanto a tabela 
 
 Este gráfico mostra a contagem de emails organizada por:
 
-  - **Email total**
-  - **Email após proteção de borda**
-  - **Email após anti-malware, reputação de arquivo, bloco de tipo de arquivo**
-  - **Email após anti-Phish, reputação da URL, representação da marca, antifalsificação**
-  - **Email após anti-spam, filtragem de email em massa**
-  - **Email após representação de usuário e domínio**<sup>1</sup>
-  - **Email após arquivo e URL acionamento**<sup>1</sup>
-  - **Email detectado como benigno após a proteção após a entrega (URL clique em proteção de tempo)**
+- **Email total**
+- **Email após proteção de borda**
+- **Email após anti-malware, reputação de arquivo, bloco de tipo de arquivo**
+- **Email após anti-Phish, reputação da URL, representação da marca, antifalsificação**
+- **Email após anti-spam, filtragem de email em massa**
+- **Email após representação de usuário e domínio**<sup>1</sup>
+- **Email após arquivo e URL acionamento**<sup>1</sup>
+- **Email detectado como benigno após a proteção após a entrega (URL clique em proteção de tempo)**
 
 <sup>1</sup> somente o Office 365 ATP
 
@@ -315,15 +315,15 @@ Para exibir o email filtrado por EOP ou ATP separadamente, clique no valor na le
 
 A tabela de dados contém as informações a seguir, mostradas em ordem decrescente de data:
 
- - **Date**
- - **Email total**
- - **Proteção de borda**
- - **Anti-malware, reputação de arquivo, bloco de tipo de arquivo**
- - **Anti-Phish, reputação da URL, representação da marca, anti-falsificação**
- - **Anti-spam, filtragem de email em massa**
- - **Personificação de usuário e domínio (ATP)**
- - **Arquivo e URL acionamento (ATP)**
- - **Proteção de post-entrega e ZAP (ATP) ou ZAP (EOP)**
+- **Date**
+- **Email total**
+- **Proteção de borda**
+- **Anti-malware, reputação de arquivo, bloco de tipo de arquivo**
+- **Anti-Phish, reputação da URL, representação da marca, anti-falsificação**
+- **Anti-spam, filtragem de email em massa**
+- **Personificação de usuário e domínio (ATP)**
+- **Arquivo e URL acionamento (ATP)**
+- **Proteção de post-entrega e ZAP (ATP) ou ZAP (EOP)**
 
 Se você selecionar uma linha na tabela de dados, uma divisão adicional das contagens de email será mostrada no submenu.
 
@@ -340,7 +340,7 @@ Cada arquivo. csv exportado está limitado a 150.000 linhas. Se os dados contive
 
  ![Exibição do funil no relatório de status do fluxo ](../../media/mail-flow-status-report-funnel-view.png)
 
- ### <a name="tech-view-for-the-mailflow-status-report"></a>Exibição de Tech para o relatório de status do fluxo
+### <a name="tech-view-for-the-mailflow-status-report"></a>Exibição de Tech para o relatório de status do fluxo
 
 O **modo de exibição técnico** é semelhante ao modo de exibição do **funil** , fornecendo detalhes mais granulares para os recursos configurados de proteção contra ameaças. No gráfico, você pode ver como as mensagens são categorizadas em diferentes estágios de proteção contra ameaças.
 
@@ -360,27 +360,27 @@ Se você clicar em **filtro**, poderá filtrar tanto o gráfico quanto a tabela 
 
 Este gráfico mostra as mensagens organizadas nas seguintes categorias:
 
-  - **Email total**
-  - **Permitir borda, borda filtrada**
-  - **Não é malware, detecção de anexos seguros (ATP), detecção de mecanismo Antimalware, bloco de regras**
-  - **Não Phish, falha DMARC, detecção de personificação, detecção de falsificação, detecção de phishing**
-  - **Nenhuma detecção com a URL acionamento, detecção de acionamento de URL (ATP)**
-  - **Não spam, spam**
-  - **Email não mal-intencionado, detecção de links seguros (ATP), ZAP**
+- **Email total**
+- **Permitir borda, borda filtrada**
+- **Não é malware, detecção de anexos seguros (ATP), detecção de mecanismo Antimalware, bloco de regras**
+- **Não Phish, falha DMARC, detecção de personificação, detecção de falsificação, detecção de phishing**
+- **Nenhuma detecção com a URL acionamento, detecção de acionamento de URL (ATP)**
+- **Não spam, spam**
+- **Email não mal-intencionado, detecção de links seguros (ATP), ZAP**
 
 Ao passar o mouse sobre uma categoria no gráfico, você pode ver o número de mensagens nessa categoria.
 
 A tabela de dados contém as informações a seguir, mostradas em ordem decrescente de data:
 
-  - **Date**  
-  - **Email total**
-  - **Borda filtrada**
-  - **Mecanismo Antimalware, anexos seguros, regra filtrada**
-  - **DMARC, representação, falsificação, phishing filtrado**
-  - **Detecção de URL acionamento**
-  - **Filtrado por antispam**
-  - **ZAP removido**
-  - **Detecção por links seguros**
+- **Date**
+- **Email total**
+- **Borda filtrada**
+- **Mecanismo Antimalware, anexos seguros, regra filtrada**
+- **DMARC, representação, falsificação, phishing filtrado**
+- **Detecção de URL acionamento**
+- **Filtrado por antispam**
+- **ZAP removido**
+- **Detecção por links seguros**
 
 Se você selecionar uma linha na tabela de dados, uma divisão adicional das contagens de email será mostrada no submenu.
 

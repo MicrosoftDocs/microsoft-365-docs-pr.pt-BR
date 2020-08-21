@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre as diferenças entre lixo eletrônico (spam) e email em massa (email cinza) na proteção do Exchange Online (EOP).
-ms.openlocfilehash: c1f5ca724f7a41d9fc11ed0c93f52a79a6ecc8e5
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 17e6223175013678f389c0d7624cc4e4f4476f98
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819431"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826724"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email-in-eop"></a>Qual é a diferença entre lixo eletrônico e email em massa no EOP?
 

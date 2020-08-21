@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: reference
+ms.topic: troubleshooting
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Os administradores podem exibir perguntas frequentes e respostas sobre mensagens em quarentena na proteção do Exchange Online (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a231e363d5764465547ee1e80cc080c3d7c006c
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 896a83d4a09e8d0fcafeb6885cf2c63b6d8bb045
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351090"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826784"
 ---
 # <a name="quarantined-messages-faq"></a>Perguntas frequentes sobre mensagens em quarentena
 

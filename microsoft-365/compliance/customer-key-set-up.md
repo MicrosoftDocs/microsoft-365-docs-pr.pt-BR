@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como configurar a chave do cliente para o Microsoft 365 para Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e arquivos do teams.
-ms.openlocfilehash: 346b723a4741e18d161122edecf985a3fb8c7845
-ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
+ms.openlocfilehash: 87c18c1695d2963fc8a0c064d34d2b6cdc14199c
+ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46794216"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845829"
 ---
 # <a name="set-up-customer-key"></a>Configurar a chave do cliente
 
@@ -400,25 +400,9 @@ Esquecer! Ao criar uma DEP, você especifica duas chaves que residem em dois cof
   
 Para criar a DEP, siga estas etapas:
   
-1. No computador local, usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, [Conecte-se ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps) abrindo o Windows PowerShell e executando o seguinte comando.
+1. No computador local, usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, [Conecte-se ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) em uma janela do Windows PowerShell.
 
-   ```powershell
-   $UserCredential = Get-Credential
-   ```
-
-2. Na caixa de diálogo solicitação de credencial do Windows PowerShell, insira as informações da conta corporativa ou de estudante, clique em **OK**e, em seguida, insira o comando a seguir.
-
-   ```powershell
-   $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
-   ```
-
-3. Execute o seguinte comando.
-
-   ```powershell
-   Import-PSSession $Session
-   ```
-
-4. Para criar uma DEP, use o cmdlet New-DataEncryptionPolicy digitando o comando a seguir.
+2. Para criar uma DEP, use o cmdlet New-DataEncryptionPolicy digitando o comando a seguir.
 
    ```powershell
    New-DataEncryptionPolicy -Name <PolicyName> -Description "Policy Description" -AzureKeyIDs <KeyVaultURI1>, <KeyVaultURI2>
@@ -430,15 +414,17 @@ Para criar a DEP, siga estas etapas:
 
    - *Descrição da política* é uma descrição amigável da política que ajudará você a se lembrar da política para o. Você pode incluir espaços na descrição. Por exemplo, "chave raiz para caixas de correio nos EUA e seus territórios".
 
-   - *KeyVaultURI1* é o URI da primeira chave na política. Por exemplo, https://contoso_EastUSvault01.vault.azure.net/keys/USA_key_01.
+   - *KeyVaultURI1* é o URI da primeira chave na política. Por exemplo, <https://contoso_EastUSvault01.vault.azure.net/keys/USA_key_01>.
 
-   - *KeyVaultURI2* é o URI da segunda chave na política. Por exemplo, https://contoso_EastUS2vault01.vault.azure.net/keys/USA_Key_02. Separe os dois URIs por uma vírgula e um espaço.
+   - *KeyVaultURI2* é o URI da segunda chave na política. Por exemplo, <https://contoso_EastUS2vault01.vault.azure.net/keys/USA_Key_02>. Separe os dois URIs por uma vírgula e um espaço.
 
    Exemplo:
   
    ```powershell
    New-DataEncryptionPolicy -Name USA_mailboxes -Description "Root key for mailboxes in USA and its territories" -AzureKeyIDs https://contoso_EastUSvault01.vault.azure.net/keys/USA_key_01, https://contoso_EastUS2vault01.vault.azure.net/keys/USA_Key_02
    ```
+
+Para informações detalhadas de sintaxes e de parâmetros, consulte [New-DataEncryptionPolicy](https://docs.microsoft.com/powershell/module/exchange/new-data-encryptionpolicy).
 
 ### <a name="assign-a-dep-to-a-mailbox"></a>Atribuir uma DEP a uma caixa de correio
 
@@ -450,7 +436,7 @@ Set-Mailbox -Identity <MailboxIdParameter> -DataEncryptionPolicy <PolicyName>
 
 Onde *MailboxIdParameter* especifica uma caixa de correio. Para obter mais informações sobre o cmdlet Set-Mailbox, consulte [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox).
 
-Para [caixas de correio locais usando o Outlook para IOS e Android com a autenticação moderna híbrida](https://docs.microsoft.com/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth), os dados de caixa de correio local sincronizados em seu locatário do Exchange Online podem ter a DEP atribuída usando o cmdlet Set-MailUser. 
+Para [caixas de correio locais usando o Outlook para IOS e Android com a autenticação moderna híbrida](https://docs.microsoft.com/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth), os dados de caixa de correio local sincronizados em seu locatário do Exchange Online podem ter a DEP atribuída usando o cmdlet Set-MailUser.
 
 ```powershell
 Set-MailUser -Identity <MailUserIdParameter> -DataEncryptionPolicy <PolicyName>

@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Saiba como localizar e usar relatórios de segurança de email da sua organização. Relatórios de segurança de email estão disponíveis no centro de conformidade e segurança &.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 269e68c1e7f864ba5be84f1dc444a3d7d9c27e55
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 2b714d9dc4e3ca143d2cb2d7164f8c3c737d1928
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46578025"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826500"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Exibir relatórios de segurança de email no Centro de Conformidade e Segurança
 
@@ -274,7 +274,7 @@ O relatório fornece uma contagem agregada de mensagens de email exclusivas com 
 Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá **Reports** para \> **painel** relatórios e selecione **status de proteção contra ameaças**. Para ir diretamente para o relatório, abra uma das seguintes URLs:
 
 - Office 365 ATP: <https://protection.office.com/reportv2?id=ATPV2AggregateReport> .
-- EOP<https://protection.office.com/reportv2?id=ATPAggregateLightReport>
+- EOP <https://protection.office.com/reportv2?id=ATPAggregateLightReport>
 
 ![Widget status de proteção contra ameaças no painel relatórios](../../media/threat-protection-status-report-widget.png)
 

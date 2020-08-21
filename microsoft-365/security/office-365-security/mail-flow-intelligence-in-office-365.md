@@ -6,21 +6,21 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Os administradores podem saber mais sobre os códigos de erro associados à entrega de mensagens usando conectores (também conhecidos como inteligência de fluxo de emails).
-ms.openlocfilehash: 55b57e4b487444abb57bcc184ef6fd742ea9dc1d
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b345b52f572efca2aca1fde6ba720d733e521cc4
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206611"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827708"
 ---
-# <a name="mail-flow-intelligence-in-eop"></a>Inteligência de fluxo de emails no EOP
+# <a name="mail-flow-intelligence-in-eop"></a>Inteligência de fluxo de e-mails no EOP
 
 Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, você geralmente usa um conector para rotear mensagens de email do EOP para seu ambiente de email local. Você também pode usar um conector para rotear mensagens do Microsoft 365 para uma organização parceira. Quando o Microsoft 365 não consegue entregar essas mensagens por meio do conector, elas são colocadas em fila no Microsoft 365. O Microsoft 365 continuará a entregar a entrega de cada mensagem por 24 horas. Após 24 horas, a mensagem na fila expirará, e a mensagem será retornada ao remetente original em uma notificação de falha na entrega (também conhecida como uma mensagem de erro NDR ou de retorno).
 
@@ -74,7 +74,7 @@ Normalmente, esse erro significa que o Microsoft 365 encontrou um erro de conex�
 
        - Exclua o conector clicando no ícone **excluir** ![ remover](../../media/adf01106-cc79-475c-8673-065371c1897b.gif)
 
-       - Desabilite o conector clicando em **Editar** ![ ícone ](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) de edição e desmarcando **ativá-lo**.
+       - Para desabilitar o conector, clique em **Editar** ![ Editar ícone ](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) e **desative-** o.
 
   - Altere o domínio aceito no Microsoft 365 associado ao seu ambiente de email local da **retransmissão interna** para **autoritativa**. Para obter instruções, consulte [gerenciar domínios aceitos no Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 

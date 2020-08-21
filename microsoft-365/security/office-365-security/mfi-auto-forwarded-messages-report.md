@@ -1,22 +1,22 @@
 ---
-title: Percepção de mensagens automaticamente encaminhadas
+title: Visão geral sobre mensagens encaminhadas automaticamente
 f1.keywords:
 - NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: Os administradores podem saber mais sobre o relatório de mensagens de encaminhamento automático no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 05e3f62610c32bc95caf579ef4dd46bf1ed90275
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 8d1a3ffe5ffc16a7793826b98b130121b8e68599
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577805"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827022"
 ---
 # <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Informações de encaminhamento automático de mensagens no centro de conformidade & segurança
 

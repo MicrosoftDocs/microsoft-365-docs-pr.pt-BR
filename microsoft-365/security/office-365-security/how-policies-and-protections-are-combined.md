@@ -8,7 +8,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre a ordem de proteção de aplicativos na proteção do Exchange Online (EOP) e como o valor de prioridade nas políticas de proteção determina qual política é aplicada.
-ms.openlocfilehash: 7775f0a37751289e7f0116575e2f6b2733683b6b
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 9556d2262eb59224357e20027a1f0e63404081f2
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653672"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827404"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Ordem e precedência de proteção de email
 
@@ -37,9 +37,9 @@ Há dois fatores principais que determinam qual política é aplicada a uma mens
 
   |Priority|Proteção de email|Categoria|Onde gerenciar|
   |---|---|---|---|
-  |1|Malware|GATO: MALW|[Configurar políticas Antimalware no EOP](configure-anti-malware-policies.md)|
-  |2|Phishing|GATO: PHSH|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
-  |3D|Spam de alta confiança|GATO: HSPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
+  |1 |Malware|GATO: MALW|[Configurar políticas Antimalware no EOP](configure-anti-malware-policies.md)|
+  |2 |Phishing|GATO: PHSH|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
+  |3 |Spam de alta confiança|GATO: HSPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |4 |Spoofing|GATO: SPOOF|[Configurar o spoof Intelligence no EOP](learn-about-spoof-intelligence.md)|
   |5 |Spam|GATO: SPM|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
   |6 |Em massa|GATO: EM MASSA|[Configurar políticas antispam no EOP](configure-your-spam-filter-policies.md)|
@@ -47,7 +47,7 @@ Há dois fatores principais que determinam qual política é aplicada a uma mens
   |8<sup>\*</sup>|Representação de usuário (domínios protegidos)|UIMP|[Configurar políticas anti-phishing ATP](configure-atp-anti-phishing-policies.md)|
   |
 
-  <sup>\*</sup>Esses recursos estão disponíveis apenas em políticas anti-phishing da ATP.
+  <sup>\*</sup> Esses recursos estão disponíveis apenas em políticas anti-phishing da ATP.
 
 - **A prioridade da política**: para cada tipo de proteção (anti-spam, Antimalware, anti-phishing, etc.), há uma política padrão que se aplica a todos, mas você pode criar políticas personalizadas que se aplicam a usuários específicos. Cada política personalizada tem um valor de prioridade que determina a ordem em que as políticas são aplicadas. A política padrão é sempre aplicada por último.
 
@@ -59,8 +59,8 @@ Por exemplo, considere as seguintes políticas de anti-phishing da ATP **que se 
 
   |Política de anti-phishing do ATP|Priority|Representação de usuário|Antifalsificação|
   |---|---|---|---|
-  |Política A|1|Ativada|Desativada|
-  |Política B|2|Desativada|Ativada|
+  |Política A|1 |Ativada|Desativada|
+  |Política B|2 |Desativada|Ativada|
   |
 
 1. A mensagem é marcada e tratada como falsificação, porque a falsificação tem uma prioridade mais alta (4) do que a representação de usuário (8).

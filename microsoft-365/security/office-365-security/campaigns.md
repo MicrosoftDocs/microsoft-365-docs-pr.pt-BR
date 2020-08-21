@@ -8,7 +8,7 @@ manager: dansimp
 ms.reviewer: mcostea
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -17,12 +17,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Saiba mais sobre os Modos de Exibição de Campanhas na Proteção Avançada contra Ameaças do Office 365.
-ms.openlocfilehash: b7078188d8e01f27e6941c3f61f4ef20a004606c
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: f0f5d2305b4f17c7018d32eebd155b4ad2d459e7
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653228"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46825792"
 ---
 # <a name="campaign-views-in-atp"></a>Exibições de campanha na ATP
 
@@ -237,9 +237,9 @@ O diagrama contém as seguintes informações:
   |**ZAP**|n/d|A [limpeza automática de zero horas (zap)](zero-hour-auto-purge.md) levou à mensagem entregue de acordo com suas configurações de política antispam (movidas para a pasta lixo eletrônico ou colocada em quarentena).|
   |
 
-  <sup>\*</sup>Revise suas políticas antispam, pois a mensagem permitida provavelmente teria sido bloqueada pelo serviço.
+  <sup>\*</sup> Revise suas políticas antispam, pois a mensagem permitida provavelmente teria sido bloqueada pelo serviço.
 
-  <sup>\*\*</sup>Revise suas políticas antispam, pois essas mensagens devem ser colocadas em quarentena, não entregues.
+  <sup>\*\*</sup> Revise suas políticas antispam, pois essas mensagens devem ser colocadas em quarentena, não entregues.
 
 - **Locais de entrega**: Você provavelmente desejará investigar as mensagens que foram realmente entregues aos destinatários (na pasta Caixa de Entrada ou Lixo Eletrônico), mesmo se os usuários não clicarem na URL do payload na mensagem. Você também pode remover as mensagens em quarentena da quarentena. Para obter mais informações, consulte [mensagens de email em quarentena no EOP](quarantine-email-messages.md).
 

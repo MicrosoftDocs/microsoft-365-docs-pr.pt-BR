@@ -7,19 +7,19 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
 ms.custom:
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá a usar o PowerShell para aplicar definições de configuração aos seus locatários no Microsoft Exchange Online Protection (EOP).
-ms.openlocfilehash: c25bafe9ece71264931d8f059dd726147a6d28a4
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 46b7c756171da7687568e5135974841d828f45bd
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209134"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827452"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>Amostra de script para aplicação de configurações de EOP a vários locatários
 
@@ -33,7 +33,7 @@ A seguinte amostra de script permite que os administradores do Microsoft Proteç
 
 3. Para cada linha no arquivo .csv, adicione o nome de administrador do locatário na coluna UserName e o cmdlet a ser executado para esse locatário na coluna Cmdlet. Por exemplo, use admin@contoso.com e Get-AcceptedDomain.
 
-4. Copie o script [RunCmdletOnMultipleTenants. ps1](#runcmdletonmultipletenantsps1) para o bloco de notas e salve o arquivo em um local que seja fácil de encontrar (por exemplo, c:\Scripts).
+4. Copie o [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) script no bloco de notas e salve o arquivo em um local que seja fácil de encontrar (por exemplo, c:\Scripts).
 
 5. Execute o script usando a seguinte sintaxe:
 
@@ -44,12 +44,12 @@ A seguinte amostra de script permite que os administradores do Microsoft Proteç
    Exemplo:
 
    ```powershell
-   & "c:\scripts\RunCmdletOnMultipleTenanats.ps1" "c:\scripts\inputfile.csv"
+   & "c:\scripts\RunCmdletOnMultipleTenants.ps1" "c:\scripts\inputfile.csv"
    ```
 
 6. Cada locatário será conectado ao e o script será executado.
 
-## <a name="runcmdletonmultipletenantsps1"></a>RunCmdletOnMultipleTenants. ps1
+## <a name="runcmdletonmultipletenantsps1"></a>RunCmdletOnMultipleTenants.ps1
 
 ```powershell
 # This script runs Windows PowerShell cmdlets on multiple tenants.

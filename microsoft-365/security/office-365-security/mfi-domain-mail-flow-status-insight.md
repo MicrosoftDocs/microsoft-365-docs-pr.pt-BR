@@ -6,19 +6,19 @@ ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar a visão superior do status do fluxo de emails do domínio no painel de fluxo de emails no centro de conformidade de & de segurança para solucionar problemas de fluxo de emails relacionados a registros MX em seus domínios de email.
-ms.openlocfilehash: 6366e3aee0ab50096f1396776397c80fabc8aaf2
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 9640d5e37932efeb7c0c8f8c56d0a15bc7f07e5b
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577734"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827010"
 ---
 # <a name="top-domain-mail-flow-status-insight-in-the-security--compliance-center"></a>Visão geral do status do fluxo de email de domínio superior no centro de conformidade e segurança &
 

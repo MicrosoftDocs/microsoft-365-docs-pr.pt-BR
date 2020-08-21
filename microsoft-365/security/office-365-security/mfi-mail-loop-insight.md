@@ -1,24 +1,24 @@
 ---
-title: Correção de possíveis informações de loop de email
+title: Visão geral sobre correção de possíveis loop de email
 f1.keywords:
 - NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar a correção de possíveis loops de email no painel de fluxo de emails no centro de conformidade de & de segurança para identificar e corrigir loops de email em sua organização.
-ms.openlocfilehash: 54240cffc534b4be708492b37b827636edab280e
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 162752ce6981e27d6ae2923aeb0fc33aec42bb0f
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577613"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826948"
 ---
 # <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>Correção de possíveis informações de loop de email no centro de conformidade e segurança &
 

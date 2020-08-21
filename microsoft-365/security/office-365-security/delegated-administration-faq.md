@@ -7,19 +7,19 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
 ms.custom:
 - seo-marvel-apr2020
 description: Este tópico fornece perguntas frequentes e respostas para os parceiros e revendedores da Microsoft que desejam executar tarefas de administração do Microsoft 365 delegadas.
-ms.openlocfilehash: d1522973292b290fd9f66f534ca23aeaa55ee756
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 01781437bbc7e8fe5c035ea23e4392e734e0231f
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209518"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827082"
 ---
 # <a name="delegated-administration-faq"></a>Perguntas frequentes sobre administração delegada
 
@@ -33,9 +33,9 @@ Se você for um parceiro da Microsoft ou revendedor e se inscrever em um Microso
 
 2. Inscreva-se para a administração delegada. Para que você possa começar a administrar a conta de um cliente, ele deverá autorizá-lo como um administrador delegado. Para obter a aprovação dele, é necessário [enviar primeiro uma oferta para administração delegada](https://support.microsoft.com/office/26530dc0-ebba-415b-86b1-b55bc06b073e). (Você também pode oferecer posteriormente a administração delegada ao seu cliente.)
 
-3. Crie a conta de administração delegada usando as etapas em [Adicionar, alterar ou excluir um parceiro de supervisor de assinatura](https://docs.microsoft.com/office365/admin/misc/add-partner).
+3. Crie a conta de administração delegada usando as etapas em [Adicionar, alterar ou excluir um parceiro de supervisor de assinatura](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner).
 
-Visite [parceiros: Construa sua empresa e administre sua assinatura de parceiro](https://support.office.com/article/30dd1681-47e0-4cbc-abfe-a222cd111319) para obter mais informações sobre como configurar a administração delegada.
+Visite [parceiros: Construa sua empresa e administre sua assinatura de parceiro](https://support.microsoft.com/office/30dd1681-47e0-4cbc-abfe-a222cd111319) para obter mais informações sobre como configurar a administração delegada.
 
 ## <a name="im-a-customer-not-a-reseller-how-can-set-up-delegated-administrator-for-my-sub-tenants"></a>Eu sou cliente, não é revendedor, como pode configurar o administrador delegado para meus sublocatários?
 
