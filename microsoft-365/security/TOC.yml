@@ -313,6 +313,8 @@
                       href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
                     - name: Relatar lixo eletrônico e esquemas de phishing no Outlook na Web
                       href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
+                    - name: Relatar lixo eletrônico e phishing no Outlook para iOS e Android
+                      href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md
                     - name: Enviar mensagens manualmente à Microsoft
                       href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
                     - name: Usar regras de fluxo de e-mails para ver o que seus usuários estão relatando à Microsoft
@@ -382,6 +384,8 @@
                   href: ./office-365-security/support-for-validation-of-dkim-signed-messages.md
                 - name: Usar DMARC para validar emails
                   href: ./office-365-security/use-dmarc-to-validate-email.md
+            - name: Instalar o Application Guard para Office
+              href: ./office-365-security/install-app-guard.md
             - name: Relatórios inteligentes e insights no Centro de Conformidade e Segurança
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
             - name: Visão geral do Painel de Segurança
