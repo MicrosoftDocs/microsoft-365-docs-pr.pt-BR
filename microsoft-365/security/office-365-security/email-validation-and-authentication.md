@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: O365-seccomp
 search.appverid:
 - MET150
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Os Administradores podem saber como a Proteção do Exchange Online (EOP) usa a autenticação de e-mail (SPF, DKIM e DMARC) para ajudar a evitar falsificações, phishing e spam.
-ms.openlocfilehash: c79a75f1ae520a0c4f885c923b4a56cdb0f7fb87
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: cc9489a258608080118e88bf1375e4d5f35f8c77
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209494"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826644"
 ---
 # <a name="email-authentication-in-eop"></a>Autenticação de e-mail no EOP
 
@@ -41,7 +41,7 @@ O restante deste tópico explica como essas tecnologias funcionam e como a EOP a
 
 ## <a name="use-email-authentication-to-help-prevent-spoofing"></a>Use a autenticação de email para ajudar a impedir a falsificação
 
-O DMARC impede a falsificação examinando o endereço **De** nas mensagens (o endereço de email do remetente que os usuários veem no cliente de email). As organizações de email de destino também podem verificar se o domínio do email passou no SPF ou DKIM, o que significa que o domínio foi autenticado e, portanto, não é falsificado. 
+O DMARC impede a falsificação examinando o endereço **De** nas mensagens (o endereço de email do remetente que os usuários veem no cliente de email). As organizações de email de destino também podem verificar se o domínio do email passou no SPF ou DKIM, o que significa que o domínio foi autenticado e, portanto, não é falsificado.
 
 No entanto, o problema é que os registros SPF, DKIM e DMARC no DNS para autenticação de email (conhecidos coletivamente como políticas de autenticação de email) são completamente opcionais. Portanto, embora domínios com políticas fortes de autenticação de email, como microsoft.com e skype.com, sejam protegidos contra falsificação, domínios que publicam políticas de autenticação de email mais fracas ou nenhuma política são os principais alvos de falsificação.
 

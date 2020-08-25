@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: 50392693b92ac660445d5966168b143c70853291
-ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
+ms.openlocfilehash: 4712cc4f2dd042c3564523a565b71db69a18f5bc
+ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506326"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845761"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -80,7 +80,7 @@ Todos os cenários requerem que você [crie e configure rótulos de confidencial
 
 |Eu quero...|Documentação|
 |----------------|---------------|
-|Gerenciar rótulos de confidencialidade para aplicativos do Office para que o conteúdo seja rotulado como foi criado |[Usar rótulos de confidencialidade em aplicativos do Office](sensitivity-labels-office-apps.md)|
+|Gerenciar rótulos de confidencialidade para aplicativos do Office para que o conteúdo seja rotulado conforme for criado—incluindo suporte para rotulagem manual em todas plataformas |[Usar rótulos de confidencialidade em aplicativos do Office](sensitivity-labels-office-apps.md)|
 |Permitir que os usuários rotulem e protejam arquivos de computadores com Windows usando aplicativos do Office, Explorador de Arquivos e PowerShell|[Cliente de rotulagem unificada da Proteção de Informações do Azure para Windows](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)|
 |Criptografar documentos e emails com rótulos de confidencialidade e restringir quem pode acessá-los e como podem usar esse conteúdo |[Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia](encryption-sensitivity-labels.md)|
 |Habilite os rótulos de sensibilidade do Office na web, com suporte para coautoria, descoberta eletrônica, prevenção contra perda de dados — até mesmo quando os documentos são criptografados | [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
@@ -94,7 +94,7 @@ Todos os cenários requerem que você [crie e configure rótulos de confidencial
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>Documentação do usuário final para rótulos de confidencialidade
 
-A documentação mais eficaz do usuário final será orientação e instruções personalizadas que você fornecerá para os nomes de etiqueta e configurações que você escolher. No entanto, você pode usar os seguintes recursos para obter instruções básicas:   
+A documentação mais eficaz do usuário final será orientação e instruções personalizadas que você fornecerá para os nomes de etiqueta e configurações que você escolher. No entanto, você pode usar os seguintes recursos para obter instruções básicas:
 
 - [Aplicar rótulos de confidencialidade aos seus arquivos e email no Office](https://support.microsoft.com/pt-BR/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
     - [Problemas conhecidos em rótulos de confidencialidade no Office](https://support.microsoft.com/pt-BR/office/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
@@ -104,4 +104,4 @@ A documentação mais eficaz do usuário final será orientação e instruções
 
 - [Guia do usuário da proteção de informações do Azure rotulagem unificada](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-user-guide)
 
-
+Se seus rótulos de sensibilidade aplicarem criptografia para documentos PDF, esses documentos podem ser abertos com o Microsoft Edge no Windows ou Mac. Para mais informações e leituras alternativas, confira [Quais leitores de PDF são suportados para PDFs protegidos?](https://docs.microsoft.com/azure/information-protection/rms-client/protected-pdf-readers#viewing-protected-pdfs-in-microsoft-edge-on-windows-or-mac)

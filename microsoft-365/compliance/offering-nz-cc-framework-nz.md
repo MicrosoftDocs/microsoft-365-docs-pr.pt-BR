@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cbf118d918dd5c3bc922fbea157fb56a709fad66
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 99e7d28bea37ec282bd6358b5af81a3078dfdd38
+ms.sourcegitcommit: b7f4f1e04b27519b818d4255022b28f99fbe54af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065796"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46852497"
 ---
 # <a name="new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>Considerações de segurança e privacidade da computação em nuvem governamental Nova Zelândia
 
@@ -44,7 +44,7 @@ Saiba como acelerar sua implantação do Microsoft CC Framework com nosso plano 
 - Intune
 - Serviço de nuvem do Power BI como um serviço autônomo ou incluído em um plano ou pacote do Office 365
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Exchange Online, SharePoint Online e Skype for Business online. O Microsoft NZ trabalhou com a equipe do GCIO para desenvolver uma arquitetura de referência para integrar o Exchange Online e o SEEMail descrito no White Paper [Office 365: SEEMail integração e arquitetura de referência](https://download.microsoft.com/download/8/5/9/859CDCEE-D293-47D8-9B6A-670B108B48E1/Microsoft_Office_365_white_paper_EN_US.pdf)
+- Exchange Online, SharePoint Online e Microsoft Teams. O Microsoft NZ trabalhou com a equipe do GCIO para desenvolver uma arquitetura de referência para integrar o Exchange Online e o SEEMail.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

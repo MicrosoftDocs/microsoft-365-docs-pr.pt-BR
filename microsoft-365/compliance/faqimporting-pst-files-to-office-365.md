@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
 ms.custom: seo-marvel-apr2020
 description: Este artigo contém respostas para algumas perguntas frequentes para administradores sobre a importação de arquivos PST para o Microsoft 365 usando o serviço de importação do Office 365.
-ms.openlocfilehash: 5ba6df2f2c6ed10edee22f58308a5e3ee5acd533
-ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
+ms.openlocfilehash: b6d00bf58225ca016f6debbeeac8468c558c3556
+ms.sourcegitcommit: 37da941919036a714da42eaa039682ccbe0da670
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45091895"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860696"
 ---
 # <a name="faq-about-importing-pst-files"></a>Perguntas Frequentes sobre a importação de arquivos PST
 
@@ -51,7 +51,7 @@ Além disso, para criar trabalhos de importação no Centro de Conformidade e Se
   
  **Onde o carregamento de rede está disponível?**
   
-O carregamento de rede está atualmente disponível nestas áreas: Estados Unidos, Canadá, Brasil, Reino Unido, França, Alemanha, Europa, Índia, leste asiático, Sudeste Asiático, Japão, República da Coréia, Austrália e Emirados Árabes Unidos (Emirados). Network upload will be available in more regions soon.
+O carregamento de rede está disponível atualmente nestas áreas: Estados Unidos, Canadá, Brasil, Reino Unido, França, Alemanha, Suíça, Noruega, Europa, Índia, leste asiático, Sudeste Asiático, Japão, República da Coréia, Austrália e Emirados Árabes Unidos (Emirados). Network upload will be available in more regions soon.
   
  **Qual é o custo de importação dos arquivos PST usando o carregamento de rede?**
   
@@ -67,7 +67,7 @@ Além disso, os arquivos PST do Outlook 2007 e versões posteriores podem ser im
   
  **Depois de carregar meus arquivos PST para a área de Armazenamento do Azure, quanto tempo eles serão mantidos no Azure até serem excluídos?**
   
-Quando você usa o método de carregamento de rede para importar arquivos PST, você os carrega em um contêiner de blob do Azure chamado `ingestiondata` . Se não houver trabalhos de importação em andamento na página **importar arquivos PST** no centro de conformidade de & de segurança), todos os arquivos pst no `ingestiondata` contêiner no Azure serão excluídos 30 dias após a criação do trabalho de importação mais recente no centro de conformidade do & de segurança. Isso também significa que você precisar criar um novo trabalho de importação no Centro de Conformidade e Segurança (descrito na etapa 5 nas instruções de carregamento de rede) dentro de 30 dias do carregamento de arquivos PST para o Azure. 
+Quando você usar o método de carregamento de rede para importar arquivos PST, carregue-os para um contêiner de blobs chamado `ingestiondata`. Se não houver trabalhos de importação em andamento na página **Importar arquivos PST** no Centro de Conformidade e Segurança, todos os arquivos PST no contêiner `ingestiondata` no Azure serão excluídos 30 dias após a criação do trabalho de importação mais recente no Centro de Conformidade e Segurança. Isso também significa que você precisar criar um novo trabalho de importação no Centro de Conformidade e Segurança (descrito na etapa 5 nas instruções de carregamento de rede) dentro de 30 dias do carregamento de arquivos PST para o Azure. 
   
 Isso também significa que depois que os arquivos PST forem excluídos da área de Armazenamento do Azure, eles não serão mais exibidos na lista de arquivos de um trabalho de importação concluído no Centro de Conformidade e Segurança. Embora um trabalho de importação ainda possa estar listado na página **Importar arquivos PST** no Centro de Conformidade e Segurança, a lista de arquivos PST pode estar vazia quando você exibir os detalhes de trabalhos de importação anteriores. 
   
@@ -79,7 +79,7 @@ Quando diferentes arquivos PST são importados para diferentes caixas de correio
   
  **Como o processo de importação de PST controla os itens de email duplicados?**
 
-O processo de importação de PST verifica itens duplicados e não copia os itens do arquivo PST na caixa de correio ou arquivo se um item correspondente existe na caixa de correio de destino ou arquivo de destino. Se você reimportar o mesmo arquivo PST e especificar uma pasta de destino diferente (usando a propriedade TargetRootFolder no arquivo de mapeamento de importação de PST) do que aquele que você especificou em um trabalho de importação anterior, todos os itens no arquivo PST serão reimportados.
+O processo de importação de PST verifica itens duplicados e não copia os itens do arquivo PST na caixa de correio ou arquivo se um item correspondente existe na caixa de correio de destino ou arquivo de destino. Se você importar novamente o mesmo arquivo PST e especificar uma pasta de destino diferente (usando a propriedade TargetRootFolder no arquivo de mapeamento de importação de PST) da que você especificou em um trabalho de importação anterior, todos os itens do arquivo PST serão importados novamente.
 
  **Há um limite de tamanho de mensagem ao importar arquivos PST?**
   
@@ -141,7 +141,7 @@ O custo para usar o envio de unidade para importar arquivos PST para caixas de c
   
  **Que tipos de discos rígidos têm suporte para o envio de unidade?**
   
-Apenas unidades de estado sólido (SSDs) de 2,5 polegadas ou discos rígidos internos SATA II/III de 2,5 polegadas ou 3,5 pol têm suporte para uso com o serviço de importação do Office 365. Use discos rígidos de até 10 TB. Para trabalhos de importação, somente o primeiro volume de dados do disco rígido será processado. O volume de dados deve ser formatado com NTFS. Ao copiar dados para um disco rígido, é possível anexá-los diretamente usando um SSD de 2,5 polegadas ou um conector SATA II/III de 2,5 ou 3,5 polegadas, ou pode ainda anexá-lo externamente usando um SSD externo de 2,5 polegadas ou um adaptador USB SATA II/III de 2,5 ou 3,5 polegadas.
+Apenas unidades de estado sólido (SSDs) de 2,5 polegadas ou discos rígidos internos SATA II/III de 2,5 polegadas ou 3,5 polegadas têm suporte para uso com o serviço de importação do Office 365. Use discos rígidos de até 10 TB. Para trabalhos de importação, somente o primeiro volume de dados do disco rígido será processado. O volume de dados deve ser formatado com NTFS. Ao copiar dados para uma unidade de disco rígido, você pode anexá-los diretamente usando um conector de 2,5-polegadas ou de 2,5 polegadas ou 3,5-polegada SATA II/III, ou você pode anexá-lo externamente usando um adaptador USB II/III SSD de 2,5 polegadas ou 2,5 polegadas externo.
   
 > [!IMPORTANT]
 > As unidades de disco rígido com um adaptador USB interno não são compatíveis com o serviço de importação do Office 365. Além disso, o disco dentro da caixa do disco rígido externo não pode ser utilizado. Não remova discos rígidos externos. 
@@ -182,7 +182,7 @@ Sim. Quando um arquivo PST inclui um item de caixa de correio com mais de 150 MB
   
   **Como o processo de importação de PST controla os itens de email duplicados?**
 
-O processo de importação de PST verifica itens duplicados e não copia os itens do arquivo PST na caixa de correio ou arquivo se um item correspondente existe na caixa de correio de destino ou arquivo de destino. Se você reimportar o mesmo arquivo PST e especificar uma pasta de destino diferente (usando a propriedade TargetRootFolder no arquivo de mapeamento de importação de PST) do que aquele que você especificou em um trabalho de importação anterior, todos os itens no arquivo PST serão reimportados.
+O processo de importação de PST verifica itens duplicados e não copia os itens do arquivo PST na caixa de correio ou arquivo se um item correspondente existe na caixa de correio de destino ou arquivo de destino. Se você importar novamente o mesmo arquivo PST e especificar uma pasta de destino diferente (usando a propriedade TargetRootFolder no arquivo de mapeamento de importação de PST) da que você especificou em um trabalho de importação anterior, todos os itens do arquivo PST serão importados novamente.
  
  **As propriedades da mensagem, como quando a mensagem foi enviada ou recebida, a lista de destinatários e outras propriedades, são mantidas quando os arquivos PST são importados para uma caixa de correio do Microsoft 365?**
   

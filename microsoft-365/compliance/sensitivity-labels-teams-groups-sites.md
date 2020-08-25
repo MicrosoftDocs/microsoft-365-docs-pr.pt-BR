@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: b9168320b5764a3d7ed4e1570c32f0f35ccbc44d
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 849eae1c2c3153d8f17e561aa82312c95672ec04
+ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199621"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845739"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
@@ -32,7 +32,7 @@ Além de usar [rótulos de confidencialidade](sensitivity-labels.md) para classi
 
 - Privacidade (pública ou privada) dos sites de equipes conectadas ao grupo do Microsoft 365
 - Acesso de usuários externos
-- Acesso de dispositivos não gerenciados 
+- Acesso de dispositivos não gerenciados
 
 Quando você aplica esse rótulo de confidencialidade a um contêiner suportado, o rótulo aplica automaticamente as opções configuradas ao site ou grupo conectado.
 
@@ -55,19 +55,12 @@ Depois de habilitar e configurar os rótulos de confidencialidade para os contê
 
 1. Como esse recurso usa a funcionalidade do Azure Active Directory, siga as instruções na documentação do Azure Active Directory para habilitar o suporte de rótulos de confidencialidade: [Atribuir rótulos de confidencialidade aos grupos do Microsoft 365 no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
 
-2. Agora, você precisa sincronizar seus rótulos de sensibilidade com o Azure Active Directory. Primeiro, [conecte-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell). 
-    
-    Por exemplo, em uma sessão do PowerShell que você executa como administrador, entre com uma conta de administrador global:
-    
-    ```powershell
-    Set-ExecutionPolicy RemoteSigned
-    $UserCredential = Get-Credential
-    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
-    Import-PSSession $Session -DisableNameChecking
-    ```
+2. Agora, você precisa sincronizar seus rótulos de sensibilidade com o Azure Active Directory. Primeiro, [conecte-se ao Centro de Conformidade e Segurança do PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+
+   Por exemplo, em uma sessão do PowerShell que você executa como administrador, entre com uma conta de administrador global.
 
 3. Execute o seguinte comando para assegurar seus rótulos de confidencialidade possam ser usados com os grupos do Microsoft 365:
-    
+
     ```powershell
     Execute-AzureAdLabelSync
     ```
@@ -81,12 +74,12 @@ Se precisar de ajuda para criar ou editar um rótulo de confidencialidade, confi
 Nesta nova página **Configurações de site e grupo**, defina as configurações:
 
 - **Privacidade dos sites de equipes conectados ao grupo do Office 365**: Manter a configuração padrão de **Público - qualquer pessoa em sua organização pode acessar o site **se você quiser que todos na sua organização acessem o site de equipe ou grupo no qual o rótulo foi aplicado.
-    
-    Selecione **Particular** se desejar que o acesso seja restrito apenas a membros aprovados da sua organização.
-    
-    Selecione **Nenhuma - permita que o usuário tenha acesso ao site** quando desejar proteger o conteúdo do contêiner usando o rótulo de confidencialidade, mas ainda permita que os usuários configurem a própria configuração de privacidade.
-    
-    Selecione **Pública** ou **Privada** para definir e bloquear a configuração de privacidade quando você aplicar esse rótulo ao contêiner. A configuração escolhida substituirá qualquer configuração de privacidade anterior que possa ser configurada para a equipe ou grupo, e bloqueará o valor de privacidade para que ele possa ser alterado apenas pela primeira remoção da etiqueta de confidencialidade do contêiner. Depois de remover o rótulo de confidencialidade, a configuração de privacidade do rótulo permanece e os usuários agora podem alterá-lo novamente.
+
+  Selecione **Particular** se desejar que o acesso seja restrito apenas a membros aprovados da sua organização.
+
+  Selecione **Nenhuma - permita que o usuário tenha acesso ao site** quando desejar proteger o conteúdo do contêiner usando o rótulo de confidencialidade, mas ainda permita que os usuários configurem a própria configuração de privacidade.
+
+  Selecione **Pública** ou **Privada** para definir e bloquear a configuração de privacidade quando você aplicar esse rótulo ao contêiner. A configuração escolhida substituirá qualquer configuração de privacidade anterior que possa ser configurada para a equipe ou grupo, e bloqueará o valor de privacidade para que ele possa ser alterado apenas pela primeira remoção da etiqueta de confidencialidade do contêiner. Depois de remover o rótulo de confidencialidade, a configuração de privacidade do rótulo permanece e os usuários agora podem alterá-lo novamente.
 
 - **Acesso de usuários externos**: Controle se o proprietário do grupo pode [adicionar convidados ao grupo](/office365/admin/create-groups/manage-guest-access-in-groups).
 
@@ -96,7 +89,7 @@ Nesta nova página **Configurações de site e grupo**, defina as configuraçõe
 
 > [!IMPORTANT]
 > Somente essas configurações de site e grupo entrarão em vigor quando você aplicar um rótulo a uma equipe, grupo ou site. Outras configurações de rótulo, como criptografia e marcação de conteúdo, não são aplicadas ao conteúdo da equipe, grupo ou site.
-> 
+>
 > Implementação gradual para locatários: Somente os rótulos com as configurações de site e grupo estarão disponíveis para seleção quando os usuários criarem equipes, grupos e sites. Se você pode aplicar um rótulo a um contêiner quando o rótulo não possui as configurações de site e grupo ativadas, apenas o nome do rótulo é aplicado ao contêiner.
 
 Se o seu rótulo de confidencialidade ainda não estiver publicado, publique-o agora [adicionando-o a uma política de rótulo de confidencialidade](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy). Os usuários aos quais tenha sido atribuída uma política de rótulo de confidencialidade que inclua esse rótulo poderão selecioná-lo para sites e grupos.
@@ -114,8 +107,9 @@ Quando um novo rótulo de confidencialidade é criado e publicado, torna-se vis�
 1. Depois de criar e configurar o rótulo de confidencialidade, adicione esse rótulo a uma política de rótulo que se aplica a apenas alguns usuários de teste.
 
 2. Aguarde o seguinte prazo para que a alteração seja replicada:
-    - Rótulo novo: aguarde uma hora.
-    - Rótulo existente: aguarde 24 horas.
+
+   - Rótulo novo: aguarde uma hora.
+   - Rótulo existente: aguarde 24 horas.
 
 3. Após esse período de espera, use uma das contas de usuário de teste para criar uma equipe, grupo do Microsoft 365 ou site do SharePoint com o rótulo que você criou na etapa 1.
 
@@ -123,14 +117,13 @@ Quando um novo rótulo de confidencialidade é criado e publicado, torna-se vis�
 
 ### <a name="modifying-published-labels-that-are-configured-for-sites-and-groups"></a>Modificar rótulos publicados que estão configurados para sites e grupos
 
-Como prática recomendada, não altere as configurações de site e grupo de um rótulo de confidencialidade após aplicá-lo a várias equipes, grupos ou sites. Se decidir fazer isso, lembre-se de aguardar até 24 horas para que as alterações sejam replicadas para todos os contêineres que têm o rótulo aplicado. 
+Como prática recomendada, não altere as configurações de site e grupo de um rótulo de confidencialidade após aplicá-lo a várias equipes, grupos ou sites. Se decidir fazer isso, lembre-se de aguardar até 24 horas para que as alterações sejam replicadas para todos os contêineres que têm o rótulo aplicado.
 
 Além disso, se suas alterações incluírem a configuração de **Acesso de usuários externos**:
 
 - A nova configuração aplica-se a novos usuários, mas não a usuários existentes. Por exemplo, se essa configuração tiver sido selecionada anteriormente e, como resultado, os usuários convidados acessarem o site. esses usuários convidados ainda poderão acessar o site depois que essa configuração for limpa na configuração do rótulo.
 
 - As configurações de privacidade para as propriedades do grupo hiddenMembership e roleEnabled não são atualizadas.
-
 
 ### <a name="deleting-published-labels-that-are-configured-for-sites-and-groups"></a>Excluindo rótulos publicados que estão configurados para sites e grupos
 
@@ -161,9 +154,9 @@ Agora você está pronto para aplicar os rótulos ou rótulos de confidencialida
 
 - [Atribuir um rótulo a um novo grupo no portal do Azure](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#assign-a-label-to-a-new-group-in-azure-portal)
 
--  [Atribuir um rótulo a um grupo existente no portal do Azure](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#assign-a-label-to-an-existing-group-in-azure-portal)
+- [Atribuir um rótulo a um grupo existente no portal do Azure](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#assign-a-label-to-an-existing-group-in-azure-portal)
 
--  [Remover um rótulo de um grupo existente no portal do Azure](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#remove-a-label-from-an-existing-group-in-azure-portal).
+- [Remover um rótulo de um grupo existente no portal do Azure](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#remove-a-label-from-an-existing-group-in-azure-portal).
 
 ### <a name="apply-a-sensitivity-label-to-a-new-team"></a>Aplicar um rótulo de confidencialidade a uma nova equipe
 
@@ -199,35 +192,35 @@ Quando o rótulo é aplicado e os usuários navegam no site, eles veem o nome do
 
 ### <a name="use-powershell-to-apply-a-sensitivity-label-to-multiple-sites"></a>Usar o Windows PowerShell para aplicar um rótulo de confidencialidade a vários sites
 
-Você pode usar o cmdlet [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite?view=sharepoint-ps) e [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps) com o parâmetro *SensitivityLabel* do Shell de gerenciamento do SharePoint Online atual para aplicar um rótulo de confidencialidade a vários sites. Os sites podem ser um conjunto de sites do Microsoft Office SharePoint Online ou um site do OneDrive.
+Você pode usar o cmdlet [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite?view=sharepoint-ps) e [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps) com o parâmetro *SensitivityLabel* do atual [SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) para aplicar um rótulo de confidencialidade a vários sites. Os sites podem ser um conjunto de sites do Microsoft Office SharePoint Online ou um site do OneDrive.
 
 Verifique se você tem a versão 16.0.19418.12000 ou posterior do Shell de gerenciamento do SharePoint Online.
 
 1. Abra uma sessão do Windows PowerShell com a opção **Executar como administrador**.
 
-2. Se você não souber o GUID da etiqueta: [Conecte-se ao PowerShell do Centro de Segurança e Conformidade do Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) e obter a lista de rótulos de confidencialidade e seus GUIDs.
-    
-    ```powershell
-    Get-Label |ft Name, Guid
-    ```
+2. Se você não souber o GUID de seu rótulo: [Conectar ao Centro de Segurança e Conformidade do PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) e obter a lista de rótulos de confidencialidade e seus GUIDs.
 
-3. Agora [conectar-se ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps) e armazenar o GUID da etiqueta como uma variável. Por exemplo: 
-    
-    ```powershell
-    $Id = [GUID]("e48058ea-98e8-4940-8db0-ba1310fd955e")
-    ```
+   ```powershell
+   Get-Label |ft Name, Guid
+   ```
+
+3. Agora [conectar-se ao SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) e armazenar o GUID de seu rótulo como uma variável. Por exemplo:
+
+   ```powershell
+   $Id = [GUID]("e48058ea-98e8-4940-8db0-ba1310fd955e")
+   ```
 
 4. Criar uma nova variável que identifique vários sites com uma cadeia de caracteres de identificação em comum na URL. Por exemplo:
-    
-    ```powershell
-    $sites = Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like 'documents" 
-    ```
+
+   ```powershell
+   $sites = Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like 'documents"
+   ```
 
 5. Execute o seguinte comando para aplicar o rótulo a esses sites. Usando nossos exemplos:
-    
-    ```powershell
-    $sites | ForEach-Object {Set-SpoTenant $_.url -SensitivityLabel $Id}
-    ```
+
+   ```powershell
+   $sites | ForEach-Object {Set-SPOTenant $_.url -SensitivityLabel $Id}
+   ```
 
 Para aplicar diferentes rótulos a diferentes sites, repita o seguinte comando para cada site: `Set-SPOSite -Identity <URL> -SensitivityLabel "<labelguid>"`
 
@@ -252,30 +245,34 @@ Você também pode alterar e aplicar um rótulo da seguinte página:
 Os seguintes aplicativos e serviços oferecem suporte as etiquetas de confidencialidade configuradas para configurações de sites e grupos:
 
 - Centros de administração:
-    - Centro de administração do SharePoint
-    - Portal do Azure Active Directory
-    - O Centro de conformidade do Microsoft 365, o Centro de segurança do Microsoft 365 ou o Centro de Segurança e Conformidade do Office 365.
+
+  - Centro de administração do SharePoint
+  - Portal do Azure Active Directory
+  - Centro de conformidade do Microsoft 365, Centro de segurança do Microsoft 365, Centro de Conformidade e Segurança.
 
 - Aplicativos e serviços do usuário:
-    - Microsoft Office SharePoint Online
-    - Teams
-    - Outlook na Web e para Windows, MacOS, iOS e Android
-    - Formulários
-    - Fluxo
+
+  - Microsoft Office SharePoint Online
+  - Teams
+  - Outlook na Web e para Windows, MacOS, iOS e Android
+  - Formulários
+  - Fluxo
 
 Os seguintes aplicativos e serviços não oferecem suporte as etiquetas de confidencialidade configuradas para configurações de sites e grupos:
 
 - Centros de administração:
-    - Centro de administração do Microsoft 365
-    - Centro de administração do Teams
-    - Centro de administração do Exchange
+
+  - Centro de administração do Microsoft 365
+  - Centro de administração do Teams
+  - Centro de administração do Exchange
 
 - Aplicativos e serviços do usuário:
-    - Dynamics 365
-    - Yammer
-    - Planner
-    - Project
-    - PowerBI
+
+  - Dynamics 365
+  - Yammer
+  - Planner
+  - Project
+  - PowerBI
 
 ## <a name="classic-azure-ad-group-classification"></a>Classificação clássica de grupo do Azure Active Directory
 
@@ -286,7 +283,7 @@ Como um exemplo de como você pode ter usado a classificação de grupo antiga d
 Essas classificações foram configuradas usando o Azure AD PowerShell ou a biblioteca Principal do PnP e definindo valores para a configuração do `ClassificationList`. Se seu locatário tiver valores de classificação definidos, eles serão mostrados quando você executar o seguinte comando no [módulo AzureADPreview PowerShell](https://www.powershellgallery.com/packages/AzureADPreview):
 
 ```powershell
-   ($setting["ClassificationList"])
+($setting["ClassificationList"])
 ```
 
 Para converter suas classificações antigas em rótulos de confidencialidade, siga um destes procedimentos:
@@ -295,46 +292,31 @@ Para converter suas classificações antigas em rótulos de confidencialidade, s
 
 - Criar novos rótulos: Especifique as configurações de rótulos desejados para sites e grupos, criando e publicando novos rótulos de confidencialidade que tenham os mesmos nomes das suas classificações existentes.
 
-Depois: 
+Depois:
 
 1. Use o PowerShell para aplicar os rótulos de confidencialidade a grupos existentes do Microsoft 365 e sites do SharePoint usando o mapeamento de nomes. Confira a seção a seguir para obter instruções.
 
 2. Remova as classificações antigas dos grupos e sites existentes.
 
-Embora você não possa impedir que os usuários criem novos grupos em aplicativos e serviços que ainda não suportam rótulos de confidencialidade, é possível executar um script recorrente do PowerShell para procurar novos grupos que os usuários criaram com as classificações antigas e convertê-los para uso de rótulos de confidencialidade. 
+Embora você não possa impedir que os usuários criem novos grupos em aplicativos e serviços que ainda não suportam rótulos de confidencialidade, é possível executar um script recorrente do PowerShell para procurar novos grupos que os usuários criaram com as classificações antigas e convertê-los para uso de rótulos de confidencialidade.
 
 Para ajudar você a gerenciar a coexistência de rótulos de sensibilidade e classificações do Azure Active Directory para sites e grupos, confira [rótulos de classificação e confidencialidade do Azure Active Directory para grupos do Microsoft 365](migrate-aad-classification-sensitivity-labels.md).
 
-#### <a name="use-powershell-to-convert-classifications-for-microsoft-365-groups-to-sensitivity-labels"></a>Use o PowerShell para converter classificações de grupos do Microsoft 365 em rótulos de confidencialidade
+### <a name="use-powershell-to-convert-classifications-for-microsoft-365-groups-to-sensitivity-labels"></a>Use o PowerShell para converter classificações de grupos do Microsoft 365 em rótulos de confidencialidade
 
-1. Primeiro, [conecte-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell). 
-    
-    Por exemplo, em uma sessão do PowerShell que você executa como administrador, entre com uma conta de administrador global:
-    
-    ```powershell
-    Set-ExecutionPolicy RemoteSigned
-    $UserCredential = Get-Credential
-    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
-    Import-PSSession $Session -DisableNameChecking
-    ```
+1. Primeiro, [conecte-se ao Centro de Conformidade e Segurança do PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+
+   Por exemplo, em uma sessão do PowerShell que você executa como administrador, entre com uma conta de administrador global:
 
 2. Obtenha a lista de rótulos de confidencialidade e suas GUIDs usando o cmdlet [Get-Label](https://docs.microsoft.com/powershell/module/exchange/get-label?view=exchange-ps):
-    
-    ```powershell
-    Get-Label |ft Name, Guid
-    ```
+
+   ```powershell
+   Get-Label |ft Name, Guid
+   ```
 
 3. Anote o GUIDe dos rótulos de confidencialidade que você deseja aplicar a seus grupos do Microsoft 365.
 
-4. Agora, [conecte-se ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
-    
-    Por exemplo:
-    
-    ```powershell
-    $UserCredential = Get-Credential
-    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
-    Import-PSSession $Session
-    ```
+4. Agora [conecte-se ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps) em uma janela separada do Windows PowerShell.
 
 5. Use o seguinte comando como exemplo para obter a lista de grupos que atualmente têm a classificação "Geral":
 
@@ -355,15 +337,15 @@ Para ajudar você a gerenciar a coexistência de rótulos de sensibilidade e cla
 
 Se alguém enviar um documento para um site protegido por um rótulo de confidencialidade e o documento tiver um rótulo de confidencialidade com [prioridade mais alta](sensitivity-labels.md#label-priority-order-matters) que o rótulo de confidencialidade aplicado ao site, essa ação não será bloqueada. Por exemplo, você aplicou o rótulo **Geral** a um site do SharePoint e alguém carrega neste site um documento chamado **Confidencial**. Como um rótulo de confidencialidade com prioridade mais alta identifica o conteúdo que é mais confidencial do que o conteúdo com ordem de prioridade mais baixa, essa situação pode ser um problema de segurança.
 
-Embora a ação não seja bloqueada, ela é auditada e gera automaticamente um email para a pessoa que carregou o documento e para o administrador do site. Como resultado, tanto o usuário como os administradores podem identificar documentos que tenham esse desalinhamento da prioridade do rótulo e tomar medidas, se necessário. Por exemplo, excluir ou mover o documento carregado do site. 
+Embora a ação não seja bloqueada, ela é auditada e gera automaticamente um email para a pessoa que carregou o documento e para o administrador do site. Como resultado, tanto o usuário como os administradores podem identificar documentos que tenham esse desalinhamento da prioridade do rótulo e tomar medidas, se necessário. Por exemplo, excluir ou mover o documento carregado do site.
 
 Não seria um problema de segurança se o documento tivesse um rótulo de confidencialidade de prioridade mais baixa que o rótulo de confidencialidade aplicado ao site. Por exemplo, um documento chamado **Geral** é carregado em um site chamado **Confidencial**. Neste cenário, um evento de auditoria e email não são gerados.
 
-Para pesquisar o log de auditoria para esse evento, procure por **Incompatibilidade de confidencialidade em documento detectada** na categoria **Atividades de arquivo e página**. 
+Para pesquisar o log de auditoria para esse evento, procure por **Incompatibilidade de confidencialidade em documento detectada** na categoria **Atividades de arquivo e página**.
 
 O email gerado automaticamente tem o assunto **Rótulo de confidencialidade incompatível detectado** e a mensagem do email explica a incompatibilidade de rótulo com um link para o documento e o site carregados. Ele também contém um link de documentação que explica como os usuários podem alterar o rótulo de confidencialidade. Atualmente, não é possível desabilitar ou personalizar esses emails.
 
-Quando alguém adiciona ou remove um rótulo de confidencialidade para ou de um site ou grupo, essas atividades também são auditadas, mas não geram um email automático. 
+Quando alguém adiciona ou remove um rótulo de confidencialidade para ou de um site ou grupo, essas atividades também são auditadas, mas não geram um email automático.
 
 Todos esses eventos podem ser encontrados na categoria [Atividades de rótulo de confidencialidade](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities). Para obter instruções sobre como pesquisar o log de auditoria, confira [Pesquisar o log de auditoria no Centro de Conformidade e Segurança](search-the-audit-log-in-security-and-compliance.md).
 

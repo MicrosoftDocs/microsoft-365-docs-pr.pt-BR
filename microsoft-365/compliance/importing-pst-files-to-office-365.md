@@ -20,12 +20,12 @@ ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda a usar o serviço Importar no Centro de conformidade e segurança para importar em massa dados de e-mail (Arquivos PST) para caixas de correio do usuário.
-ms.openlocfilehash: fd369a8cde1284c19f9eb3cb38cf8bfe39dbc4ee
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 36cf04722b13f3d1033ddae54e32307497d9194b
+ms.sourcegitcommit: 37da941919036a714da42eaa039682ccbe0da670
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127156"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860728"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files"></a>Visão geral da importação dos arquivos PST da sua organização
 
@@ -146,7 +146,7 @@ Além disso, para criar trabalhos de importação no Centro de Conformidade e Se
   
  **Onde o carregamento de rede está disponível?**
   
-O carregamento de rede está disponível nessas regiões: Estados Unidos, Canadá, Brasil, Reino Unido, França, Alemanha, Europa, Índia, Leste Asiático, Sudeste Asiático, Japão, República da Coreia, Austrália, Emirados Árabes Unidos. O carregamento de rede estará disponível em mais regiões em breve.
+O carregamento de rede está disponível atualmente nestes países: Estados Unidos, Canadá, Brasil, Reino Unido, França, Alemanha, Suíça, Noruega, Europa, Índia, leste asiático, Sudeste Asiático, Japão, República Democrática Popular da Coréia, Austrália e Emirados Árabes Unidos (Emirados). O carregamento de rede estará disponível para mais regiões em breve.
   
  **Qual é o custo de importação dos arquivos PST usando o carregamento de rede?**
   
