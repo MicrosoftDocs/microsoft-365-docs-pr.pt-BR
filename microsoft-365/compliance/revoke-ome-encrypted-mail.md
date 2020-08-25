@@ -9,19 +9,19 @@ audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.date: 02/28/2020
+ms.date: 06/11/2020
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 search.appverid:
 - MET150
-description: Como administrador, você pode revogar certos emails que foram criptografados com a criptografia de mensagem avançada do Office 365.
-ms.openlocfilehash: 271aa1b3644983907c341cf7f9ad6d526597ad59
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Como administrador e como um remetente de mensagem, você pode revogar certos emails que foram criptografados com a criptografia de mensagem avançada do Office 365.
+ms.openlocfilehash: 79ab3ef801d4d19317cbf1416d858de74d9f1393
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626487"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868928"
 ---
 # <a name="revoke-email-encrypted-by-advanced-message-encryption"></a>Revogar emails criptografados por criptografia de mensagem avançada
 
@@ -29,13 +29,17 @@ A revogação de emails é oferecida como parte da criptografia de mensagem avan
 
 Este artigo faz parte de uma série maior de artigos sobre a [criptografia de mensagens do Office 365](ome.md).
 
-Se uma mensagem foi criptografada usando a criptografia de mensagem avançada do Office 365 e você for um administrador de 365 da Microsoft, poderá revogar a mensagem sob determinadas condições. Este artigo descreve as circunstâncias nas quais a revogação é possível e como fazê-la.
+Se uma mensagem foi criptografada usando a criptografia de mensagem avançada do Office 365 e você for um administrador de 365 da Microsoft ou se for o remetente da mensagem, você poderá revogar a mensagem sob determinadas condições. Os administradores revogam mensagens usando o PowerShell. Como remetente, você revoga uma mensagem que enviou diretamente do Outlook na Web. Este artigo descreve as circunstâncias nas quais a revogação é possível e como fazê-la.
   
 ## <a name="encrypted-emails-that-you-can-revoke"></a>Emails criptografados que podem ser revogados
 
-Você pode revogar emails criptografados se o destinatário recebeu um email criptografado com base em link e com marca. Se o destinatário recebeu uma experiência embutida nativa em um cliente do Outlook com suporte, então você não poderá revogar esses.
+Os administradores e os remetentes de mensagens podem revogar emails criptografados se o destinatário recebeu um email criptografado com base em link e com marca. Se o destinatário recebeu uma experiência interna nativa em um cliente do Outlook com suporte, então você não poderá revogar a mensagem.
 
-Se um destinatário recebe uma experiência baseada em links ou uma experiência embutida depende do tipo de identidade do destinatário: o Office 365 e os destinatários da conta da Microsoft (por exemplo, usuários do outlook.com) recebem uma experiência embutida em clientes do Outlook com suporte. Todos os outros tipos de destinatários, como destinatários do Gmail, obtêm uma experiência baseada em links.
+Se um destinatário recebe uma experiência baseada em links ou uma experiência embutida depende do tipo de identidade do destinatário: o Office 365 e os destinatários da conta da Microsoft (por exemplo, usuários do outlook.com) recebem uma experiência embutida em clientes do Outlook com suporte. Todos os outros tipos de destinatários, como os destinatários do Gmail e Yahoo, obtêm uma experiência baseada em links.
+
+Os administradores e remetentes de mensagens podem revogar mensagens criptografadas usando a criptografia aplicada diretamente do Outlook na Web. Por exemplo, mensagens criptografadas com a opção somente criptografar.
+
+:::image type="content" source="../media/adhocencryptionrevoke.png" alt-text="Captura de tela mostrando a opção somente criptografia no Outlook na Web.":::
 
 ## <a name="recipient-experience-for-revoked-encrypted-emails"></a>Experiência de destinatário para emails criptografados revogados
 
@@ -43,15 +47,29 @@ Depois que um email é revogado, o destinatário recebe um erro quando acessa o 
 
 ![Captura de tela que mostra um email criptografado revogado.](../media/revoked-encrypted-email.png)
 
-## <a name="how-to-revoke-an-encrypted-email"></a>Como revogar um email criptografado
+## <a name="how-to-revoke-an-encrypted-message-that-you-sent"></a>Como revogar uma mensagem criptografada que você enviou
+
+Para revogar uma mensagem criptografada que você enviou, conclua estas etapas
+
+1. No Outlook na Web, na pasta **enviado** , procure a mensagem que você deseja revogar.
+
+   Se o email for revogável, você verá o link "remover acesso externo" na parte superior da mensagem.
+
+    :::image type="content" source="../media/infoprotect-email-encryption/adhocencryptionrevokesentmsg.png" alt-text="Captura de tela mostrando mensagens criptografadas que você deseja revogar no Outlook na Web.":::
+
+2. Clique em **remover o acesso externo** para revogar a mensagem.
+
+   A mensagem mostra que o status é revogado.
+
+   :::image type="content" source="../media/adhocencryptionrevokedmsg.png" alt-text="Captura de tela mostrando a mensagem criptografada revogada no Outlook na Web.":::
+
+## <a name="how-to-revoke-an-encrypted-message-as-an-administrator"></a>Como revogar uma mensagem criptografada como administrador
 
 Os administradores do Microsoft 365 seguem estas etapas gerais para revogar um email criptografado qualificado:
 
 - Obtenha a ID da mensagem do email.
 - Verifique se é possível revogar a mensagem.
 - Revogar o email.
-
-Continue lendo para obter instruções detalhadas para cada etapa no processo de revogação.
 
 ### <a name="step-1-obtain-the-message-id-of-the-email"></a>Etapa 1. Obter a ID da mensagem do email
 
@@ -67,9 +85,9 @@ Há várias maneiras de encontrar a ID da mensagem do email que você deseja rev
 
 2. Depois de localizar o email, selecione-o para exibir o painel de **detalhes de rastreamento de mensagens** . Expanda **mais informações** para localizar a ID da mensagem.
 
-#### <a name="to-identify-the-message-id-of-the-email-you-want-to-revoke-by-using-office-message-encryption-reports-in-the-security-amp-compliance-center"></a>Para identificar a ID de mensagem do email que você deseja revogar usando os relatórios de criptografia de mensagem do &amp; Office no centro de conformidade de segurança
+#### <a name="to-identify-the-message-id-of-the-email-you-want-to-revoke-by-using-office-message-encryption-reports-in-the-security-amp-compliance-center"></a>Para identificar a ID de mensagem do email que você deseja revogar usando os relatórios de criptografia de mensagem do Office no centro de conformidade de segurança &amp;
 
-1. No centro de &amp; conformidade de segurança, navegue até o **relatório de criptografia de mensagem**. Para obter informações sobre este relatório, consulte [exibir relatórios de segurança de email &amp; no centro de conformidade de segurança](../security/office-365-security/view-email-security-reports.md).
+1. No centro de &amp; conformidade de segurança, navegue até o **relatório de criptografia de mensagem**. Para obter informações sobre este relatório, consulte [exibir relatórios de segurança de email no &amp; centro de conformidade de segurança](../security/office-365-security/view-email-security-reports.md).
 
 2. Escolha a tabela **Exibir detalhes** e identifique a mensagem que você deseja revogar.
 
@@ -77,7 +95,7 @@ Há várias maneiras de encontrar a ID da mensagem do email que você deseja rev
 
 ### <a name="step-2-verify-that-the-mail-is-revocable"></a>Etapa 2. Verifique se o email é revogável
 
-Para verificar se você pode revogar uma mensagem, verifique se o campo status de revogação está visível no relatório de criptografia, na tabela **detalhes** no centro &amp; de conformidade de segurança.
+Para verificar se você pode revogar uma mensagem, verifique se o campo status de revogação está visível no relatório de criptografia, na tabela **detalhes** no centro de conformidade de segurança &amp; .
 
 Para verificar se você pode revogar uma mensagem de email específica usando o Windows PowerShell, conclua estas etapas.
 
@@ -99,7 +117,7 @@ Para verificar se você pode revogar uma mensagem de email específica usando o 
 
 ### <a name="step-3-revoke-the-mail"></a>Etapa 3. Revogar o email
 
-Quando você souber a ID da mensagem do email que deseja revogar e tiver verificado que a mensagem é revogável, é possível revogar o email usando o centro de conformidade &amp; de segurança ou o Windows PowerShell.
+Quando você souber a ID da mensagem do email que deseja revogar e tiver verificado que a mensagem é revogável, é possível revogar o email usando o centro de conformidade de segurança &amp; ou o Windows PowerShell.
 
 Para revogar a mensagem usando o &amp; centro de conformidade de segurança
 

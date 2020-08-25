@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Visão geral da pontuação da produtividade da Microsoft.
-ms.openlocfilehash: a93ceef3833e1e55f6e3bb979fd93aa3d90ded37
-ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
+ms.openlocfilehash: 66ab028282fb8c74087713083e43e22cf6708897
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45101642"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868850"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Pontuação de produtividade da Microsoft (versão prévia)
 
@@ -42,9 +42,9 @@ Fornecemos dados, ideias e recomendações em duas áreas:
 
     Fornecemos esses percepções porque, quando as pessoas colaboram online, elas economizam tempo. Quando eles têm liberdade para trabalhar em qualquer dispositivo, eles são mais produtivos e satisfeitos. Quando eles podem se comunicar de forma flexível, eles são mais eficientes, relações melhores de formulário e sua organização é mais unificado. Para obter evidências, consulte [Forrester Report](https://vc2prod.blob.core.windows.net/vc-resources/TEIStudies/TEI%20of%20Microsoft%20365%20E5%20-%20Oct%202018.pdf).
 
-- **Experiência de tecnologia:** A produtividade depende da tecnologia confiável e de desempenho, bem como do uso eficiente do Microsoft 365. Fornecemos uma análise de ponto de extremidade, que oferece recomendações e recomendações sobre a configuração e os tempos de inicialização do dispositivo e fornecemos informações de conectividade de rede da Microsoft 365 para sua organização.
+- **Experiência de tecnologia:** A produtividade depende da tecnologia confiável e de desempenho, bem como do uso eficiente do Microsoft 365. Fornecemos a [análise de ponto de extremidade](https://aka.ms/endpointanalytics), que o ajuda a entender como a produtividade dos usuários pode ser afetada por problemas de desempenho e integridade com seu hardware e software de ponto de extremidade, enquanto fornece ações recomendadas para corrigi-los; e fornecemos informações de conectividade de rede da Microsoft 365 para sua organização.
 
-Para saber mais sobre a análise de ponto final, leia [a visão geral da conectividade de rede](https://docs.microsoft.com/office365/enterprise/office-365-networking-overview).
+Veja [o que é o Endpoint Analytics](https://docs.microsoft.com/mem/analytics/overview) para obter uma visão geral e os detalhes dos pré-requisitos. Para saber mais sobre o Microsoft 365 insights de conectividade de rede, leia [a visão geral da conectividade de rede](https://docs.microsoft.com/office365/enterprise/office-365-networking-overview).
   
 
 ## <a name="how-the-score-is-calculated"></a>Como a pontuação é calculada

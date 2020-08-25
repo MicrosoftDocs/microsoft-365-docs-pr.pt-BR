@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a eliminação de conteúdo, se você usar uma revisão de disposição ou se o conteúdo é excluído automaticamente de acordo com as configurações que você configurou.
-ms.openlocfilehash: 7548ab12b72aa75047caa373efe3e7c3eb7c5d31
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: e70160ef309ad421724f9ad40db0d7c6e00df136
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778531"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46867206"
 ---
 # <a name="disposition-of-content"></a>Disposição do conteúdo
 
@@ -35,18 +35,14 @@ Para gerenciar revisões de disposição e confirmar que os registros foram excl
 
 ### <a name="permissions-for-disposition"></a>Permissões para descarte
 
-Para acessar com êxito a guia de **descarte** no centro de conformidade do Microsoft 365, os usuários devem ter a função de **Gerenciamento de descarte** e a função de **logs de auditoria somente para exibição** . Embora o Conselho padrão seja adicionar usuários aos grupos de função padrão, neste caso, recomendamos que você crie um novo grupo de função chamado **revisores de disposição** que tenha essas duas funções e adicione usuários a esse grupo, conforme necessário. Um único grupo de função para descarte reduz a sobrecarga da administração e torna mais fácil para os usuários ter as permissões combinadas de que precisam.
+Para acessar com êxito a guia **disposição** no centro de conformidade do Microsoft 365, os usuários devem ter a função de administrador de **Gerenciamento de descarte** . Essa função é incluída nos grupos de função de administrador padrão, administrador de **conformidade** e **administrador de dados de conformidade**.
+
+Para conceder aos usuários essa função de gerenciamento de descarte necessária, adicione-os a um desses grupos de função padrão ou crie um grupo de função personalizado (por exemplo, chamado "revisores de disposição") e conceda a esse grupo a função de gerenciamento de descarte.  
 
 > [!NOTE]
-> Até mesmo um administrador global precisa receber a função de **Gerenciamento de descarte** . Portanto, se os administradores globais precisarem acessar a guia disposição, eles como membros do grupo de funções **revisores de descarte** . 
+> Até mesmo um administrador global precisa receber a função de **Gerenciamento de descarte** . 
 
-Específico para a função de **logs de auditoria somente para exibição** :
-
-- Como o cmdlet subjacente usado para pesquisar o log de auditoria é um cmdlet do Exchange Online, você deve atribuir essa função aos usuários usando o [centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center), em vez de usar a página de **permissões** no centro de conformidade de segurança &. Para obter instruções, consulte [Manage role groups in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups).
-
-- Os grupos do Microsoft 365 ([anteriormente Office 365 grupos](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)) não têm suporte para essa função. Em vez disso, atribua caixas de correio de usuário, usuários de email ou grupos de segurança habilitados para email.
-
-Para obter instruções para conceder aos usuários a função de **Gerenciamento de descarte** e criar sua nova função de **revisores de disposição** , consulte [dar aos usuários acesso ao &amp; centro de conformidade de segurança do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
+Para obter instruções, consulte [Fornecer aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
 
 ### <a name="enable-auditing"></a>Habilitar a auditoria
 

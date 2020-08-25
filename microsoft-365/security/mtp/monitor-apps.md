@@ -1,6 +1,6 @@
 ---
 title: Relatórios de monitoramento de & de aplicativos-central de segurança
-description: Saiba como você pode obter mais informações sobre o uso do aplicativo na nuvem em sua organização, incluindo os tipos de aplicativos, seu nível de risco e alertas.
+description: Saiba como obter mais informações sobre o uso do aplicativo na nuvem em sua organização. Inclui diferentes tipos de aplicativos, seu nível de risco e alertas.
 keywords: segurança, malware, Microsoft 365, M365, central de segurança, monitor, relatório, aplicativos
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -15,20 +15,20 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cd7a86751ac58f60051891544c9fd68c51b439e1
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: f370a537b9355a99b90f21faab5eda75d7f84cdf
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034017"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866844"
 ---
 # <a name="app-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Monitoramento e relatórios de aplicativos no centro de segurança do Microsoft 365
 
-Esses relatórios fornecem mais informações sobre como os aplicativos de nuvem estão sendo usados na sua organização, incluindo os tipos de aplicativos, seu nível de risco e alertas.
+Esses relatórios fornecem mais informações sobre como os aplicativos de nuvem estão sendo usados em sua organização. Inclui diferentes tipos de aplicativos, seu nível de risco e alertas.
 
 ## <a name="monitor-email-accounts-at-risk"></a>Monitorar contas de e-mail em risco
 
-A **proteção de email** mostra as contas de email em risco. Você pode clicar em uma conta para investigar ainda mais a central de segurança do Microsoft defender.
+A **proteção de email** mostra as contas de email em risco. Você pode selecionar uma conta para investigar ainda mais a central de segurança do Microsoft defender.
 
 ![Cartão de proteção de email](../../media/email-protection.png)
 
@@ -36,7 +36,7 @@ A **proteção de email** mostra as contas de email em risco. Você pode clicar 
 
 **Cloud app Security-aplicativos OAuth** lista aplicativos descobertos pela Cloud app Security que receberam permissões pelos usuários. O catálogo de riscos do Cloud app Security inclui mais de 16.000 aplicativos que são avaliados usando mais de 70 fatores de risco.
 
-Os fatores de risco são iniciados a partir de informações gerais, como o editor de aplicativos, medidas de segurança e controles, como se o aplicativo dá suporte para criptografia em repouso ou fornece um log de auditoria da atividade do usuário.
+Os fatores de risco são iniciados a partir de informações gerais, como o editor de aplicativos. Em seguida, ele passa para medidas de segurança e controles, como se o aplicativo dá suporte à criptografia em repouso ou fornece um log de auditoria da atividade do usuário.
 
 ![Cartão de aplicativos OAuth do Cloud app Security](../../media/cloud-app-security-oauth-apps.png)
 
@@ -48,7 +48,7 @@ Os fatores de risco são iniciados a partir de informações gerais, como o edit
 
 ## <a name="understand-which-cloud-apps-are-used"></a>Entender quais aplicativos de nuvem são usados
 
-Os **aplicativos de nuvem descobertos (categorias)** mostram quais tipos de aplicativos estão sendo usados na sua organização e links para o painel de descoberta de nuvem no Cloud app Security. Para obter mais informações, consulte [QuickStart: work with untected apps](https://docs.microsoft.com/cloud-app-security/discovered-apps).  
+Os **aplicativos de nuvem descobertos (categorias)** mostram quais tipos de aplicativos estão sendo usados em sua organização. Ele é vinculado ao painel de descoberta de nuvem no Cloud app Security. Para obter mais informações, consulte [QuickStart: work with untected apps](https://docs.microsoft.com/cloud-app-security/discovered-apps).  
 
 ![Cartão de categorias de aplicativos de nuvem descoberto](../../media/discovered-cloud-apps-categories.png)
 
@@ -62,7 +62,7 @@ Os **aplicativos de nuvem descobertos (categorias)** mostram quais tipos de apli
 
 **Infrastructure Health** mostra alertas de status de integridade para cargas de trabalho de infraestrutura na central de segurança do Azure.
 
-A central de segurança do Azure oferece gerenciamento de segurança unificado e proteção avançada contra ameaças em cargas de trabalho locais e em nuvem. Você pode coletar, Pesquisar e analisar dados de segurança de várias fontes, incluindo firewalls e outras soluções de parceiros.
+A central de segurança do Azure oferece gerenciamento de segurança unificado e proteção avançada contra ameaças em cargas de trabalho locais e em nuvem. Você pode coletar, Pesquisar e analisar dados de segurança de fontes diferentes, incluindo firewalls e outras soluções de parceiros.
 
 Para obter mais informações, consulte a [documentação da central de segurança do Azure](https://docs.microsoft.com/azure/security-center/).
 

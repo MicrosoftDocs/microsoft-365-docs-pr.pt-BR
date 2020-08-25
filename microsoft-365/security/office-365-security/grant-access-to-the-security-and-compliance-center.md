@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: Os usuários precisam receber permissões no centro de conformidade & segurança da Microsoft 365 antes de poderem gerenciar qualquer um dos seus recursos de segurança ou conformidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d21fef9458c02bd09d6d5ce2129b95571e0f8371
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: b51007221257b9adac46c31295e13b20b12342ab
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826596"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868916"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>Conceder aos usuários acesso ao Centro de Conformidade e Segurança
 
@@ -42,54 +42,48 @@ Para obter mais informações sobre as diferentes permissões que você pode dar
 
 - Permissão de acesso delegado (DAP) parceiros com permissões de administração em nome de (AOBO) não podem acessar o centro de conformidade & segurança.
 
-## <a name="use-the-admin-center-to-give-another-user-access-to-the-security--compliance-center"></a>Usar o centro de administração para conceder acesso a outro usuário ao centro de conformidade & segurança
+## <a name="use-the-security--compliance-center-to-give-another-user-access-to-the-security--compliance-center"></a>Usar o centro de conformidade de & de segurança para conceder acesso de outro usuário ao centro de conformidade & segurança
 
-1. [Entre e vá para o centro de administração](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center).
+1. Abra o centro de conformidade & segurança em <https://protection.office.com> e vá até **permissões**. Para ir diretamente para a guia **permissões** , abra <https://protection.office.com/permissions> .
 
-2. No centro de administração do Microsoft 365, abra **centros de administração** e clique em **segurança & conformidade**.
+2. Na lista de grupos de função, escolha o grupo de função e, em seguida, clique em **Editar** ![ ícone de edição ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) .
 
-3. No centro de conformidade & segurança, acesse **permissões**.
+3. Na página de propriedades do grupo de funções, em **Membros**, clique em **Adicionar** ![ ícone ](../../media/ITPro-EAC-AddIcon.gif) de adição e selecione o nome do usuário (ou usuários) que você deseja adicionar.
 
-4. Na lista, escolha o grupo de funções ao qual você deseja adicionar o usuário e clique em **Editar** ![ ícone de edição ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) .
+4. Depois de selecionar todos os usuários que você deseja adicionar ao grupo de funções, clique em **Adicionar \> ** e em **OK**.
 
-5. Na página de propriedades do grupo de funções, em **Membros**, clique em **Adicionar** ![ ícone ](../../media/ITPro-EAC-AddIcon.gif) de adição e selecione o nome do usuário (ou usuários) que você deseja adicionar.
+5. Quando concluir, clique em **Salvar**.
 
-6. Depois de selecionar todos os usuários que você deseja adicionar ao grupo de funções, clique em **Adicionar \> ** e em **OK**.
+## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Usar o PowerShell do centro de conformidade & a segurança para conceder acesso a outro usuário ao centro de conformidade & segurança
 
-7. Clique em **Salvar** para salvar as alterações feitas no grupo de funções.
+1. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
-### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
+2. Use a seguinte sintaxe:
 
-1. No centro de conformidade & segurança, acesse **permissões**.
+   ```powershell
+   Add-RoleGroupMember -Identity <RoleGroup> -Member <UserIdentity>
 
-2. Na lista, selecione o grupo de funções para exibir os membros.
+   - _Identity_ is the role group.
+   - _Member_ is the user or universal security group (USG). You can specify only one member at a time.
 
-3. No lado direito, nos detalhes do grupo de função, você pode exibir os membros do grupo de função.
-
-## <a name="use-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Usar o PowerShell para conceder a outro usuário acesso ao centro de conformidade de & de segurança
-
-1. [Conectar ao Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
-
-2. Use o comando **Add-RoleGroupMember** para adicionar um usuário à função de Gerenciamento de Organização, conforme mostrado no exemplo a seguir.
+   This example adds MatildaS to the Organization Management role group.
 
    ```PowerShell
    Add-RoleGroupMember -Identity "Organization Management" -Member MatildaS
    ```
 
-   **Parâmetros**:
-
-   - _Identity_ é o grupo de funções ao qual adicionar um membro.
-
-   - _Member_ é a caixa de correio, grupo de segurança universal (USG) ou computador a ser adicionado ao grupo de funções. Você só pode especificar um membro por vez.
-
-Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember).
+Para problemas detalhados de sintaxe e parâmetro, consulte [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember)
 
 ### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
 
-Para verificar se você concedeu aos usuários acesso ao centro de conformidade de & de segurança, use o cmdlet **Get-RoleGroupMember** para exibir os membros no grupo de função gerenciamento da organização, conforme mostrado no exemplo a seguir.
+Para verificar se você obteve com êxito o acesso ao centro de conformidade de & de segurança, faça uma das seguintes etapas:
 
-```PowerShell
-Get-RoleGroupMember -Identity "Organization Management"
-```
+- No centro de conformidade & segurança, acesse **permissões** e selecione o grupo de função. No submenu de detalhes que é aberto, verifique os membros do grupo de função. 
 
-Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).
+- Em segurança & o PowerShell do centro de conformidade, substitua \<RoleGroupName\> o nome do grupo de função e execute o seguinte comando:
+
+  ```powershell
+  Get-RoleGroupMember -Identity "<RoleGroupName>"
+  ```
+
+  Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).

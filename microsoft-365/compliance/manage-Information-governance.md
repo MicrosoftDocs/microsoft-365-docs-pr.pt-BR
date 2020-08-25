@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Implemente os recursos de governança de informações da Microsoft no Microsoft 365 para governar seus dados de conformidade ou requisitos normativos.
-ms.openlocfilehash: 8883b376f75ecd92c99d837a769ef6297b5e7129
-ms.sourcegitcommit: 22fd8517707ed3ab6ef996247ad2aa372535ee56
+ms.openlocfilehash: b02c724ee812e622a45939d11b78f87245e2f194
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46815184"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866938"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Governança de informações da Microsoft no Microsoft 365
 
@@ -27,13 +27,15 @@ ms.locfileid: "46815184"
 
 Use os recursos de governança de informações da Microsoft (às vezes abreviados para MIG) para governar seus dados de conformidade ou requisitos normativos.
 
+![Governa seu controle de informações de dados e gerenciamento de registros](../media/information-governance-records-management.png)
+
 Tentando proteger seus dados? Consulte [Microsoft Information Protection in microsoft 365](protect-information.md).
 
 ## <a name="information-governance"></a>Governança de informações
 
-Para manter o que você deseja e excluir o que não é:
+Para manter o que você precisa e excluir o que você não deseja:
  
-|Recursos|Que problemas ele resolve?|Introdução|
+|Funcionalidade|Que problemas ele resolve?|Introdução|
 |:------|:------------|:--------------------|:-----------------------------|
 |[Políticas de retenção e rótulos de retenção](retention.md)| Reter ou excluir conteúdo com gerenciamento de políticas e um fluxo de trabalho de exclusão para email, documentos, mensagens instantâneas e muito mais <br /><br />Cenário de exemplo: [aplicar um rótulo de retenção ao conteúdo automaticamente](apply-retention-labels-automatically.md) | [Introdução às políticas de retenção e rótulos de retenção](get-started-with-retention.md)|
 |[Serviço de importação](importing-pst-files-to-office-365.md)| Importação em massa de arquivos PST para caixas de correio do Exchange Online para reter e pesquisar mensagens de email para requisitos normativos ou de conformidade | [Use o carregamento de rede para importar arquivos PST da sua organização para o Microsoft 365](use-network-upload-to-import-pst-files.md)|
@@ -42,9 +44,9 @@ Para manter o que você deseja e excluir o que não é:
 
 ## <a name="records-management"></a>Gerenciamento de registros
 
-Para gerenciar o conteúdo de alto valor para obrigações legais, de negócios ou regulamentares, use o gerenciamento de registros:
+Para gerenciar o conteúdo de alto valor para obrigações legais, de negócios ou regulamentares:
 
-|Recursos|Que problemas ele resolve?|Introdução|
+|Funcionalidade|Que problemas ele resolve?|Introdução|
 |:------|:------------|---------------------|:----------------------------|
 |[Records management](records-management.md)| Uma única solução para email e documentos que incorpora cronogramas e requisitos de retenção em um plano de arquivo que oferece suporte ao ciclo de vida completo do seu conteúdo com declaração, retenção e eliminação de registros <br /><br />Cenário de exemplo: [disposição de registros](disposition.md#disposition-of-records)|[Introdução ao gerenciamento de registros](get-started-with-records-management.md) |
 

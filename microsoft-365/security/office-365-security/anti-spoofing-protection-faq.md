@@ -16,16 +16,16 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem exibir perguntas frequentes e respostas sobre a proteção contra falsificação no Exchange Online Protection (EOP).
-ms.openlocfilehash: 66dbedaf638154c4a35359a4e5bc66c326c04d1e
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 3547b0a0af6d2e541d4ec3546d9bbd4aa34c3a6b
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826668"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46867134"
 ---
 # <a name="anti-spoofing-protection-faq"></a>Perguntas frequentes sobre a proteção antifalsificação
 
-Este tópico fornece perguntas frequentes e respostas sobre a proteção contra falsificação para organizações do Microsoft 365 com caixas de correio no Exchange Online, ou organizações autônomas do Exchange Online Protection (EOP), sem caixas de correio do Exchange Online.
+Este artigo fornece perguntas frequentes e respostas sobre a proteção contra falsificação para organizações do Microsoft 365 com caixas de correio no Exchange Online, ou organizações autônomas do Exchange Online Protection (EOP), sem caixas de correio do Exchange Online.
 
 Para perguntas e respostas sobre a proteção contra spam, confira [perguntas frequentes sobre proteção](anti-spam-protection-faq.md)contra spam.
 
@@ -33,11 +33,11 @@ Para perguntas e respostas sobre a proteção contra malware, consulte [Anti-Mal
 
 ## <a name="why-did-microsoft-choose-to-junk-unauthenticated-inbound-email"></a>Por que a Microsoft optou por emails de entrada não autenticados de lixo eletrônico?
 
-Devido ao impacto de ataques de phishing, e como a autenticação de emails esteve por mais de 15 anos, a Microsoft acredita que o risco de continuar a permitir emails de entrada não autenticados é maior do que o risco de perder emails de entrada legítimos.
+A Microsoft acredita que o risco de continuar a permitir emails de entrada não autenticados é maior do que o risco de perder emails de entrada legítimos.
 
 ## <a name="does-junking-unauthenticated-inbound-email-cause-legitimate-email-to-be-marked-as-spam"></a>O lixo eletrônico de entrada não autenticado faz com que emails legítimos sejam marcados como spam?
 
-Quando a Microsoft habilitou este recurso no 2018, ocorreram alguns falsos positivos (mensagens boas foram marcadas como ruins). No entanto, ao longo do tempo, os remetentes ajustados para os novos requisitos de autenticação do remetente e o número de mensagens que foram identificadas inrecentemente como falsificadas foram insignificantes para a maioria dos caminhos de email.
+Quando a Microsoft habilitou este recurso no 2018, ocorreram alguns falsos positivos (mensagens boas foram marcadas como ruins). No entanto, ao longo do tempo, os remetentes ajustados para os requisitos. O número de mensagens que foram identificadas indevidos como falsificadas se tornaram insignificantes para a maioria dos caminhos de email.
 
 A própria Microsoft primeiro adotou os novos requisitos de autenticação de email várias semanas antes de implantá-lo para os clientes. Embora tenha havido dificuldades no início, elas diminuíram gradualmente.
 
@@ -45,7 +45,7 @@ A própria Microsoft primeiro adotou os novos requisitos de autenticação de em
 
 Sim. A partir de outubro de 2018, a inteligência de falsificação está disponível para todas as organizações com caixas de correio no Exchange Online e organizações EOP autônomas sem caixas de correio do Exchange Online.
 
-A tecnologia antifalsificação foi inicialmente implantada apenas para organizações que tinham assinaturas do Office 365 Enterprise E5 ou o complemento Office 365 Advanced Threat Protection (Office 365 ATP) para sua assinatura.
+A tecnologia antifalsificação estava inicialmente disponível apenas na proteção avançada contra ameaças do Office 365. Por exemplo, assinaturas do Microsoft E5 ou Complementos ATP.
 
 ## <a name="how-can-i-report-spam-or-non-spam-messages-back-to-microsoft"></a>Como relatar mensagens de spam ou não spam para a Microsoft?
 
@@ -57,9 +57,9 @@ Confira [se você não conhece todas as fontes de email](email-validation-and-au
 
 ## <a name="what-happens-if-i-disable-anti-spoofing-protection-for-my-organization"></a>O que acontece se eu desabilitar a proteção contra falsificação para minha organização?
 
-Não recomendamos isso porque você será exposto a mais mensagens de phishing e spam. Nem todos os tipos de phishing são falsificações, e nem todas as falsificações serão ignoradas. No entanto, seu risco será maior do que um cliente que habilita a antifalsificação.
+Não recomendamos desabilitar a proteção contra falsificação. Desabilitar a proteção permitirá que mais mensagens de phishing e spam sejam entregues na sua organização. Nem todos os phishing são falsificações, e nem todas as mensagens falsificadas serão perdidas. No entanto, seu risco será maior.
 
-Agora que a [filtragem avançada para conectores](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) está disponível, não recomendamos mais que você desative a proteção contra falsificação se seu registro MX apontar para outro servidor ou serviço antes de entregar o email ao EOP.
+Agora que a [filtragem avançada para conectores](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) está disponível, não recomendamos mais desativar a proteção contra falsificação quando o email é roteado por outro serviço antes do EOP.
 
 ## <a name="does-anti-spoofing-protection-mean-i-will-be-protected-from-all-phishing"></a>A proteção contra falsificação significa que eu será protegido contra todos os phishing?
 
@@ -67,11 +67,11 @@ Infelizmente, não. Os invasores se adaptarão ao uso de outras técnicas (por e
 
 ## <a name="do-other-large-email-services-block-unauthenticated-inbound-email"></a>Outros grandes serviços de email bloqueiam emails de entrada não autenticados?
 
-Quase todos os grandes serviços de email implementam verificações tradicionais de SPF, DKIM e DMARC. Alguns serviços têm outras verificações mais estritas, mas poucos vão para o EOP bloquear emails não autenticados e tratá-los como mensagens falsificadas. No entanto, o setor está se tornando mais atento a problemas com emails não autenticados, especialmente devido ao problema de phishing.
+Quase todos os grandes serviços de email implementam verificações tradicionais de SPF, DKIM e DMARC. Alguns serviços têm outras verificações mais estritas, mas poucos vão até o EOP para bloquear emails não autenticados e tratá-los como mensagens falsificadas. No entanto, o setor está se tornando mais atento a problemas com emails não autenticados, especialmente devido ao problema de phishing.
 
 ## <a name="do-i-still-need-to-enable-the-advanced-spam-filter-setting-spf-record-hard-fail-_markasspamspfrecordhardfail_-if-i-enable-anti-spoofing"></a>Ainda precisa habilitar a configuração avançada de filtro de spam "registro SPF: falha de hardware" (_MarkAsSpamSpfRecordHardFail_) se eu habilitar a antifalsificação?
 
-Não. Essa configuração de ASF não é mais necessária porque a antifalsificação não apenas considera o hardware de SPF com falhas, mas um conjunto muito mais amplo de critérios. Se você habilitar a antifalsificação e ativado o **Registro SPF: ocorreu um erro no hardware** (_MarkAsSpamSpfRecordHardFail_), provavelmente obterá mais falsos positivos.
+Não. Essa configuração de ASF não é mais necessária. A proteção antifalsificação considera a falha de hardware SPF e um conjunto muito mais amplo de critérios. Se você habilitar a antifalsificação e ativado o **Registro SPF: ocorreu um erro no hardware** (_MarkAsSpamSpfRecordHardFail_), provavelmente obterá mais falsos positivos.
 
 Recomendamos que você desabilite esse recurso, pois ele não fornecerá praticamente nenhum benefício adicional para detectar spam ou mensagens de phishing e, em vez disso, geraria quase todos os falsos positivos. Para obter mais informações, consulte [Configurações avançadas de filtro de spam (ASF) no EOP](advanced-spam-filtering-asf-options.md).
 

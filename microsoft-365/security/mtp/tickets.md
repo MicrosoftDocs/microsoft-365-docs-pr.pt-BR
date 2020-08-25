@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: d258bf3ec4c04eafd22e850329ca925b4c974e94
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.openlocfilehash: 12ac7d0a3d07749e16443e645f50de8fda185658
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086662"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866774"
 ---
 # <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>Integre as permissões do ServiceNow no centro de segurança e centro de conformidade do Microsoft 365
 
@@ -76,7 +76,7 @@ Vá para [criar e acompanhar tíquetes do ServiceNow no centro de segurança do 
 
 **Mensagem de erro**: a operação de leitura em relação a ' oauth_entity ' do escopo ' x_mioms_m365ticket ' foi recusada devido à política de acesso entre escopos da tabela
 
-O aplicativo presume que qualquer administrador na instância do ServiceNow possa criar e ler entidades OAuth. Esse erro pode ser causado devido a uma personalização na instância do ServiceNow, que restringe quem pode criar/ler entidades OAuth.
+O aplicativo presume que qualquer administrador na instância do ServiceNow possa criar e ler entidades OAuth. Esse erro pode ser causado por uma personalização na instância do ServiceNow que restringe quem pode criar ou ler entidades OAuth.
 
 **O ServiceNow recomenda que os usuários mantenham a funcionalidade padrão.**
 
@@ -89,17 +89,17 @@ Defina as configurações de tabela "registros de aplicativos" como padrão:
 
 ### <a name="how-to-validate-the-oauth-entity-created-for-microsoft-365-security--compliance-connector"></a>Como validar a entidade OAuth criada para o conector de conformidade de & de segurança do Microsoft 365
 
-Vá para a tabela registros de aplicativos (**Menu > registro de aplicativo > OAuth de sistema**) no ServiceNow e localize a entidade OAuth criada por você, com o nome que você atribuiu a ela.
+Vá para a tabela registros de aplicativos (**Menu > sistema OAuth > registro de aplicativo**) no ServiceNow. Encontre a entidade OAuth criada por você, com o nome que você atribuiu a ela.
 
-### <a name="logging-in-as-the-integration-user"></a>Como fazer logon como o usuário de integração
+### <a name="signing-in-as-the-integration-user"></a>Entrar como o usuário de integração
 
-Antes de autorizar a conexão entre o centro de segurança do Microsoft 365 e o ServiceNow, certifique-se de usar o logon e a senha de usuário de integração que você criou nas etapas de instalação. Não use suas credenciais pessoais.
+Antes de autorizar a conexão entre o centro de segurança do Microsoft 365 e o ServiceNow, certifique-se de usar o logon e a senha do usuário de integração criados nas etapas de instalação. Não use suas credenciais pessoais.
 
 1. Vá para a página autorização no ServiceNow.
 2. Se você estiver conectado com suas credenciais pessoais, selecione o **não é possível** vincular no canto superior direito.
-3. Faça logon no ServiceNow como o usuário de integração que você criou anteriormente na lista de verificação de instalação.  
+3. Entre no ServiceNow como o usuário de integração que você criou anteriormente na lista de verificação de instalação.  
 4. Selecione **permitir** na página do servicenow que pergunta se o conector de segurança + conformidade pode se conectar à sua conta do servicenow.
-5. Prossiga com as etapas de configuração.
+5. Continue com as etapas de configuração.
 
 ### <a name="how-to-validate-the-integration-user-created-with-the-installation-checklist-for-microsoft-365-security--compliance-connector"></a>Como validar o usuário de integração criado com a lista de verificação de instalação do conector de conformidade do & de segurança do Microsoft 365
 
@@ -107,20 +107,20 @@ Vá para a tabela usuários **(Menu > administração de usuário > usuários**)
 
 ### <a name="your-company-has-single-sign-on-enabled-which-prevents-you-from-connecting-to-servicenow-through-the-microsoft-365-security-center"></a>Sua empresa tem o logon único habilitado, o que impede que você se conecte ao ServiceNow através da central de segurança do Microsoft 365
 
-Se sua empresa ativou o logon único e você recebe um erro ou o logon não é bem-sucedido, siga uma das duas soluções.
+Se sua empresa tiver habilitado o logon único e você receber um erro ou se não tiver êxito, siga uma das duas soluções.
 
-#### <a name="log-into-servicenow-as-the-integration-user"></a>Faça logon no ServiceNow como o usuário de integração
+#### <a name="sign-in-to-servicenow-as-the-integration-user"></a>Entrar no ServiceNow como o usuário de integração
 
 1. Volte para a página autorização no ServiceNow.
 2. Selecione o **não é possível** vincular no canto superior direito.
-3. Faça logon no ServiceNow como o usuário de integração que você criou anteriormente na lista de verificação de instalação.  
+3. Entre no ServiceNow como o usuário de integração que você criou anteriormente na lista de verificação de instalação.  
 4. Selecione **permitir** na página do servicenow que pergunta se o conector de segurança + conformidade pode se conectar à sua conta do servicenow.
-5. Prossiga com as etapas de configuração.
+5. Continue com as etapas de configuração.
 
 #### <a name="create-a-security-admin-user"></a>Criar um usuário de administrador de segurança
 
-1. Criar um usuário com privilégios de administrador de segurança no Azure Active Directory. O usuário precisa ter o mesmo nome e endereço de email do usuário de integração que você criou na lista de verificação de instalação. Você pode remover a função de administrador de segurança após o logon e a conexão ter sido concluída.
-2. Faça logon no centro de segurança do Microsoft 365 como este usuário e siga as etapas de configuração.
+1. Criar um usuário com privilégios de administrador de segurança no Azure Active Directory. O usuário precisa ter o mesmo nome e endereço de email do usuário de integração que você criou na lista de verificação de instalação. Você pode remover a função de administrador de segurança após a entrada e a conexão ter sido concluída.
+2. Entre no centro de segurança do Microsoft 365 como este usuário e siga as etapas de configuração.
 
 ### <a name="ip-filtering"></a>Filtragem de IP
 

@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Saiba como configurar a chave do cliente para o Microsoft 365 para Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e arquivos do teams.
-ms.openlocfilehash: 87c18c1695d2963fc8a0c064d34d2b6cdc14199c
-ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
+ms.openlocfilehash: 0743b4339dae8e70960293f51a7869dc61fea606
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845829"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868886"
 ---
 # <a name="set-up-customer-key"></a>Configurar a chave do cliente
 
@@ -89,11 +89,11 @@ SharePoint Online e OneDrive for Business:
 
 ## <a name="complete-tasks-in-azure-key-vault-and-microsoft-fasttrack-for-customer-key"></a>Concluir tarefas no Azure Key Vault e no Microsoft FastTrack para chave do cliente
 
-Conclua essas tarefas no Azure Key Vault. Você precisará concluir essas etapas, independentemente se pretende configurar a chave do cliente para o Exchange Online e o Skype for Business ou o SharePoint Online, o OneDrive for Business e os arquivos do Microsoft Teams ou para todos os serviços com suporte no Office 365.
+Conclua essas tarefas no Azure Key Vault. Você precisará concluir estas etapas independentemente se pretende configurar a chave do cliente para o Exchange Online e o Skype for Business ou o SharePoint Online, o OneDrive for Business e os arquivos do Microsoft Teams ou para todos os serviços com suporte no Office 365.
   
 ### <a name="create-two-new-azure-subscriptions"></a>Criar duas novas assinaturas do Azure
 
-A chave do cliente requer duas assinaturas do Azure. Como prática recomendada, a Microsoft recomenda que você crie novas assinaturas do Azure para uso com a chave do cliente. Chaves do Azure Key Vault só podem ser autorizadas para aplicativos no mesmo locatário do Azure Active Directory (AAD), você deve criar as novas assinaturas usando o mesmo locatário do Azure AD usado com sua organização onde o DEPs será atribuído. Por exemplo, usando sua conta corporativa ou de estudante que tenha privilégios de administrador global em sua organização. Para obter etapas detalhadas, consulte [inscrever-se no Azure como uma organização](https://azure.microsoft.com/documentation/articles/sign-up-organization/).
+A chave do cliente requer duas assinaturas do Azure. Como prática recomendada, a Microsoft recomenda que você crie novas assinaturas do Azure para uso com a chave do cliente. Chaves do Azure Key Vault só podem ser autorizadas para aplicativos no mesmo locatário do Azure Active Directory (Microsoft Azure Active Directory), você deve criar as novas assinaturas usando o mesmo locatário do Azure AD usado com sua organização onde o DEPs será atribuído. Por exemplo, usando sua conta corporativa ou de estudante que tenha privilégios de administrador global em sua organização. Para obter etapas detalhadas, consulte [inscrever-se no Azure como uma organização](https://azure.microsoft.com/documentation/articles/sign-up-organization/).
   
 > [!IMPORTANT]
 > A chave do cliente requer duas chaves para cada DEP (política de criptografia de dados). Para conseguir isso, você deve criar duas assinaturas do Azure. Como prática recomendada, a Microsoft recomenda que você tenha Membros separados da sua organização para configurar uma chave em cada assinatura. Além disso, essas assinaturas do Azure devem ser usadas apenas para administrar chaves de criptografia para o Office 365. Isso protegerá a sua organização caso um de seus operadores acidentalmente, intencionalmente ou exclua inadvertidamente as chaves para as quais são responsáveis. <br/> Recomendamos que você configure novas assinaturas do Azure que são usadas unicamente para o gerenciamento de recursos do Azure Key Vault para uso com a chave do cliente. Não há um limite prático para o número de assinaturas do Azure que você pode criar para sua organização. Seguir estas práticas recomendadas minimizará o impacto do erro humano enquanto ajuda a gerenciar os recursos usados pela chave do cliente.

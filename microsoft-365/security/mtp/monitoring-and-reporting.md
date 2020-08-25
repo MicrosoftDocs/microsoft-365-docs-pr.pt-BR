@@ -15,18 +15,18 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 987f3a60b514874bd970b93bdcc2c08832345b4b
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 90d9fcc45e768abd5fddef948fcafdaf9e77f5fb
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033981"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866714"
 ---
 # <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Monitorar e exibir relatórios no centro de segurança do Microsoft 365
 
-O centro de segurança do Microsoft 365 fornece um resumo rápido de proteção e status de segurança em seu ambiente do Microsoft 365.
+O centro de segurança do Microsoft 365 fornece um resumo de status de proteção e segurança em seu ambiente do Microsoft 365.
 
-A central de segurança inclui uma seção de **relatórios** que apresenta um host de cartões que abrangem uma variedade de áreas que os analistas e administradores de segurança acompanham como parte de suas operações diárias. Em busca detalhada, os cartões fornecem relatórios detalhados e, em alguns casos, opções de gerenciamento.
+A central de segurança inclui uma seção de **relatórios** que apresenta um host de cartões que cobrem uma variedade de áreas. Os analistas e administradores de segurança podem acompanhar os cartões como parte de suas operações diárias. Em busca detalhada, os cartões fornecem relatórios detalhados e, em alguns casos, opções de gerenciamento.
 
 ## <a name="customize-views"></a>Personalizar modos de exibição
 
@@ -37,7 +37,7 @@ Por padrão, os cartões são agrupados nessas categorias:
 * [Dispositivos](monitor-devices.md) -computadores, telefones celulares e outros dispositivos
 * [Aplicativos](monitor-apps.md) -programas e serviços online anexados
 
-Alterne para o **tópico agrupar por**para reorganizar os cartões e agrupá-los no seguinte:
+Alterne para **Agrupar por tópico**para reorganizar os cartões e agrupá-los nos seguintes tópicos:
 
 * Cartões de **risco** que realçam entidades, como contas e dispositivos, que podem estar em risco. Esses cartões também realçam possíveis fontes de risco, como novas campanhas de ameaças e aplicativos de nuvem privilegiados  
 * **Tendências de detecção** -cartões que realçam novas detecções de ameaças, anomalias e violações de política

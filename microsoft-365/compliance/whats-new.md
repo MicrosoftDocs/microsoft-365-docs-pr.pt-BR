@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Se está adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou distribuindo a documentação atualizada e atualizada, a Microsoft 365 ajuda você a se manter atualizado sobre o panorama de conformidade em constante mudança. Descubra o que temos para este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9bccaab4c1dd1ac8b4676939d848c0f1a599d86b
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: 95b23ccdb272c9e91ee4c525fd90679c492efc9b
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46798164"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868968"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>O que há de novo no Microsoft 365 conformidade
 
@@ -97,8 +97,6 @@ Amanda inclui algumas atualizações importantes para nossa solução de gerenci
 
 - A seção "gerenciamento de registros" agora está totalmente disponível no centro de conformidade. Aproveite as interfaces de usuário atualizadas e a funcionalidade para o plano de arquivos, os rótulos de retenção e as políticas de rótulo, eventos e disposição.
 - Em termos de descarte, também distribuimos [provas de eliminação](disposition.md#disposition-of-records) de registros no SharePoint e no onedrive. Agora você pode ver uma lista de itens nos locais que foram descartados automaticamente ou após uma revisão de disposição.
-
-:::image type="content" source="../media/mcc-records-management-page.png" alt-text="Seção Gerenciamento de registros no centro de conformidade do Microsoft 365":::
 
 ### <a name="sensitivity-labels-preview-auto-labeling-policies"></a>Rótulos de sensibilidade: Visualizar as políticas de rotulação automática
 
@@ -267,7 +265,7 @@ Se você estiver usando o centro de conformidade de & de segurança do Office 36
 |Prevenção contra perda de dados|Prevenção contra perda de dados <br/> https://protection.office.com/datalossprevention |Prevenção contra perda de dados <br/> https://compliance.microsoft.com/datalossprevention |[Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)|
 |Solicitações de titular dos dados |Data Privacy > solicitações de entidades de dados <br/> https://protection.office.com/dsrcases |Solicitações de titular dos dados <br/> https://compliance.microsoft.com/datasubjectrequest |[Gerenciar solicitações de entidades de dados do RGPD com a ferramenta de ocorrência de DSR](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)|
 |Descoberta eletrônica|descoberta eletrônica > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |Centro de > de descoberta eletrônica <br/> https://compliance.microsoft.com/classicediscovery |[Gerenciar casos de Descoberta Eletrônica](ediscovery-cases.md) |
-|Events|Eventos de gerenciamento de > de registros <br/> https://protection.office.com/events |Guia de eventos de gerenciamento de registros > <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[Iniciar a retenção quando um evento ocorrer](event-driven-retention.md)|
+|Eventos|Eventos de gerenciamento de > de registros <br/> https://protection.office.com/events |Guia de eventos de gerenciamento de registros > <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[Iniciar a retenção quando um evento ocorrer](event-driven-retention.md)|
 |Plano de arquivos|Gerenciamento de registros > plano de arquivo <br/> https://protection.office.com/fileplan |Gerenciamento de registros > guia plano de arquivo <br/> https://compliance.microsoft.com/recordsmanagement?viewid=fileplan |[Usar o plano de arquivos para gerenciar os rótulos de retenção](file-plan-manager.md)|
 |Importar arquivos PST|Governança de informações > importar arquivos PST <br/> https://protection.office.com/importV2 |Guia importar > de governança de informações <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[Visão geral da importação dos arquivos PST da sua organização](importing-pst-files-to-office-365.md)|
 |Explorador de atividade de rótulo|Gerenciador de atividade de > de governança de informações <br/> https://protection.office.com/labelexplorer |Classificação de dados > guia Explorador de atividade <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[Exibir atividade do seu conteúdo rotulado (visualização)](data-classification-activity-explorer.md)|

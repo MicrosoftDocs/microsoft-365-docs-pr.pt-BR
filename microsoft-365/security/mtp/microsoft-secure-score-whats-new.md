@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 644e12d3b9dfecc0a31c8d464033e41670bc7b88
-ms.sourcegitcommit: 22fd8517707ed3ab6ef996247ad2aa372535ee56
+ms.openlocfilehash: e31389705ddd8de4854a3477012d7fa90b78c7ee
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46815226"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866890"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>O que há de novo na pontuação segura da Microsoft
 
@@ -88,7 +88,7 @@ No momento, a pontuação segura de identidade e a API do Graph adotarão o novo
 
 ## <a name="we-want-to-hear-from-you"></a>Queremos ouvir sua opinião
 
-Se você tiver problemas, informe-nos por postagem na Comunidade de [segurança, privacidade & conformidade](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) . Estamos monitorando a Comunidade e forneceremos ajuda.
+Se você tiver problemas, fale conosco postando na Comunidade [segurança, privacidade & conformidade](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) . Estamos monitorando a Comunidade e forneceremos ajuda.
 
 ## <a name="related-resources"></a>Recursos relacionados
 

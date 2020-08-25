@@ -19,22 +19,22 @@ ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre os recursos de proteção contra phishing no Exchange Online Protection (EOP) e a proteção avançada contra ameaças do Office 365 (Office 365 ATP).
-ms.openlocfilehash: 5594c4e7033ab70a622403bca7759cd4b89f111a
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: f6d864a7f9995de64f3714dffcd1838b2480a627
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827440"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46867170"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Proteção contra phishing no Microsoft 365
 
 *Phishing* é um ataque de email que tenta roubar informações confidenciais em mensagens que parecem ser de remetentes legítimos ou confiáveis. Há categorias específicas de phishing. Por exemplo:
 
-- O **spear phishing** usa conteúdo muito focalizado e personalizado que é especificamente ajustado para os destinatários de destino (normalmente, após o reconhecimento dos destinatários pelo invasor).
+- O **spear phishing** usa conteúdo personalizado e focalizado especificamente para os destinatários de destino (normalmente, após o reconhecimento dos destinatários pelo invasor).
 
 - O **Whaling** é direcionado para executivos ou outros destinos de alto valor dentro de uma organização para obter o máximo de efeito.
 
-- O **Bec (email de negócios corporativos)** usa remetentes confiáveis falsificados (gerentes financeiros, clientes, parceiros confiáveis etc.) em um esforço para enganar o destinatário para aprovar pagamentos, transferir fundos ou divulgar dados do cliente.
+- O **Bec (email de negócios corporativos)** usa remetentes confiáveis falsificados (gerentes financeiros, clientes, parceiros confiáveis etc.) para enganar os destinatários para aprovar pagamentos, transferir fundos ou revelar dados do cliente.
 
 - **Ransomware** que criptografa seus dados e exige que o pagamento seja descriptografado quase sempre inicia em mensagens de phishing. A proteção anti-phishing não pode ajudar você a descriptografar arquivos criptografados, mas pode ajudar a detectar as mensagens de phishing iniciais que estão associadas à campanha de ransomware. Para obter mais informações sobre a recuperação de um ataque de ransomware, confira [recuperar de um ataque de ransomware no Microsoft 365](recover-from-ransomware.md).
 
