@@ -1,5 +1,5 @@
 ---
-title: Gerenciamento de registros
+title: Gerenciamento de registros no Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -18,14 +18,14 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Com o gerenciamento de registros no Microsoft 365, você pode aplicar seus agendamentos de retenção em um plano de arquivo que gerencia a retenção, a declaração e a disposição dos registros.
-ms.openlocfilehash: c2ff344d22286fcd865aa08344389dad6334d48d
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: d8ea68d8fbbf67928bae4f6d09712658f364e3ef
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778319"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868906"
 ---
-# <a name="learn-about-records-management"></a>Saiba mais sobre o gerenciamento de registros
+# <a name="learn-about-records-management-in-microsoft-365"></a>Saiba mais sobre gerenciamento de registros no Microsoft 365
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 

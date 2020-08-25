@@ -17,17 +17,17 @@ ms.collection:
 - Strat_O365_IP
 ms.custom: TopSMBIssues
 localization_priority: Priority
-description: Os Administradores podem saber como a Proteção do Exchange Online (EOP) usa a autenticação de e-mail (SPF, DKIM e DMARC) para ajudar a evitar falsificações, phishing e spam.
-ms.openlocfilehash: cc9489a258608080118e88bf1375e4d5f35f8c77
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+description: Os administradores podem saber como o EOP usa autenticação de email (SPF, DKIM e DMARC) para ajudar a evitar falsificações, phishing e spam.
+ms.openlocfilehash: 8db5045ec19c5552feba739628a2c9c1c508f620
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826644"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866630"
 ---
 # <a name="email-authentication-in-eop"></a>Autenticação de e-mail no EOP
 
-A autenticação de email (também conhecida como validação de email) é um grupo de padrões que tenta interromper a falsificação (mensagens de email de remetentes forjados). Nas organizações Microsoft 365 com caixas de correio do Exchange Online e organizações com Exchange Online Protection (EOP) autônomos, organizações sem caixas de correio do Exchange Online, o EOP usa os padrões para verificar os e-mails de entrada:
+A autenticação de email (também conhecida como validação de email) é um grupo de padrões que tenta interromper a falsificação (mensagens de email de remetentes forjados). Em todas as organizações do Microsoft 365, o EOP usa estes padrões para verificar emails de entrada:
 
 - [SPF](how-office-365-uses-spf-to-prevent-spoofing.md)
 
@@ -37,31 +37,34 @@ A autenticação de email (também conhecida como validação de email) é um gr
 
 A autenticação de email verifica se as mensagens de email de um remetente (por exemplo, laura@contoso.com) são legítimas e vêm de fontes esperadas para o domínio de email (por exemplo, contoso.com.)
 
-O restante deste tópico explica como essas tecnologias funcionam e como a EOP as utiliza para verificar emails de entrada.
+O restante deste artigo explica como essas tecnologias funcionam e como o EOP as usa para verificar emails de entrada.
 
 ## <a name="use-email-authentication-to-help-prevent-spoofing"></a>Use a autenticação de email para ajudar a impedir a falsificação
 
-O DMARC impede a falsificação examinando o endereço **De** nas mensagens (o endereço de email do remetente que os usuários veem no cliente de email). As organizações de email de destino também podem verificar se o domínio do email passou no SPF ou DKIM, o que significa que o domínio foi autenticado e, portanto, não é falsificado.
+O DMARC impede falsificações ao examinar o endereço **De** nas mensagens. O endereço **De** é o endereço de email do remetente que os usuários veem em seus clientes de email. As organizações de email de destino também podem verificar se o domínio de email passou pelo SPF ou DKIM. Em outras palavras, o domínio foi autenticado e, portanto, o endereço de email do remetente não é falso.
 
-No entanto, o problema é que os registros SPF, DKIM e DMARC no DNS para autenticação de email (conhecidos coletivamente como políticas de autenticação de email) são completamente opcionais. Portanto, embora domínios com políticas fortes de autenticação de email, como microsoft.com e skype.com, sejam protegidos contra falsificação, domínios que publicam políticas de autenticação de email mais fracas ou nenhuma política são os principais alvos de falsificação.
+No entanto, os registros DNS para SPF, DKIM e DMARC (chamados coletivamente como políticas de autenticação de email) são opcionais. Domínios com políticas fortes de autenticação de email, como o microsoft.com e o skype.com, estão protegidos contra falsificação. No entanto, os domínios com políticas de autenticação de email mais fracas, ou sem nenhuma política, são os principais alvos de falsificação.
 
-Em março de 2018, apenas 9% dos domínios de empresas da lista Fortune 500 publicavam políticas de autenticação de emails fortes. Os 91% restantes das empresas podem ser falsificados por um invasor. A menos que haja outro mecanismo de filtragem de email, os emails de remetentes falsificados nesses domínios podem ser entregues aos usuários.
+Em março de 2018, apenas 9% dos domínios de empresas da lista Fortune 500 publicavam políticas fortes de autenticação de email. Os 91% restantes das empresas podem ser falsificados por um invasor. A menos que haja outro mecanismo de filtragem de email, os emails de remetentes falsificados nesses domínios podem ser entregues aos usuários.
 
 ![Políticas do DMARC de empresas da lista Fortune 500](../../media/84e77d34-2073-4a8e-9f39-f109b32d06df.jpg)
 
-A proporção de empresas de pequeno a médio porte que não fazem parte da lista Fortune 500 que publicam políticas fortes de autenticação de email é menor, sendo ainda menor para domínios de email fora da América do Norte e da Europa Ocidental.
+A quantidade de pequenas e médias empresas que publicam políticas fortes de autenticação de email é menor. E o número é ainda menor para domínios de email fora da América do Norte e da Europa Ocidental.
 
-Esse é um grande problema porque, embora as empresas possam não estar cientes de como a autenticação de email funciona, os invasores a entendem completamente e se aproveitam disso. Como o phishing é um problema considerável e devido à adoção limitada de políticas fortes de autenticação de email, a Microsoft usa a *autenticação implícita de email* para verificar os emails de entrada.
+A falta de políticas fortes de autenticação de email é um grande problema. Enquanto as organizações talvez não entendam como funciona a autenticação de email, os invasores entendem perfeitamente e tiram proveito disso. Devido às preocupações com phishing e à adoção limitada de políticas fortes de autenticação de email, a Microsoft usa *autenticação implícita de email* para verificar os emails recebidos.
 
-A autenticação implícita de email se baseia em várias extensões de políticas regulares de autenticação de email. Essas extensões incluem a reputação do remetente, histórico do remetente, histórico do destinatário, análise comportamental e outras técnicas avançadas. Uma mensagem enviada de um domínio que não usa políticas de autenticação de email será marcada como falsa, a menos que contenha outros sinais para indicar que é legítima.
+A autenticação implícita de email é uma extensão das políticas comuns de autenticação de email. Essas extensões incluem: reputação do remetente, histórico do remetente, histórico do destinatário, análise comportamental e outras técnicas avançadas. Na ausência de outros sinais dessas extensões, as mensagens enviadas de domínios que não usam políticas de autenticação de email serão marcadas como falsas.
 
 Para ver o anúncio geral da Microsoft, confira [A Sea of Phish Part 2 - Enhanced Anti-spoofing in Microsoft 365](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Schooling-A-Sea-of-Phish-Part-2-Enhanced-Anti-spoofing/ba-p/176209).
 
 ## <a name="composite-authentication"></a>Autenticação composta
 
-Embora o SPF, o DKIM e o DMARC sejam úteis por si só, não comunicam um status de autenticação suficiente caso uma mensagem não tenha registros de autenticação explícitos. Portanto, a Microsoft desenvolveu um algoritmo para autenticação implícita de email, que combina vários sinais em um único valor chamado de _autenticação composta_ ou compauth, abreviado. O valor compauth é marcado no cabeçalho **Authentication-Results** nos cabeçalhos da mensagem.
+Se um domínio não tiver registros SPF, DKIM e DMARC tradicionais, essas verificações de registro não comunicarão informações suficientes sobre o status de autenticação. Portanto, a Microsoft desenvolveu um algoritmo para autenticação implícita de email. Esse algoritmo combina vários sinais em um único valor chamado de _autenticação composta_, ou abreviada como `compauth`. O valor `compauth` é marcado no cabeçalho **Resultados de Autenticação** nos cabeçalhos da mensagem.
 
-> Authentication-Results:<br/>&nbsp;&nbsp;&nbsp;compauth=\<fail | pass | softpass | none\> reason=\<yyy\>
+```text
+Authentication-Results:
+   compauth=<fail | pass | softpass | none> reason=<yyy>
+```
 
 Estes valores são explicados em [Resultados de autenticação do cabeçalho da mensagem](anti-spam-message-headers.md#authentication-results-message-header).
 
@@ -73,12 +76,11 @@ Confiar apenas nos registros de autenticação de email para determinar se uma m
 
 - O domínio de envio pode não ter os registros DNS necessários, ou os registros estão configurados incorretamente.
 
-- O domínio de origem configurou corretamente os registros DNS, mas esse domínio não corresponde ao domínio no endereço De. O SPF e o DKIM não exigem que o domínio seja usado no endereço De. Invasores ou serviços legítimos podem registrar um domínio, configurar o SPF e o DKIM para o domínio, usar um domínio completamente diferente no endereço De e essa mensagem passará no SPF e DKIM.
+- O domínio de origem configurou corretamente os registros DNS, mas esse domínio não corresponde ao domínio no endereço De. O SPF e o DKIM não exigem que o domínio seja usado no endereço De. Os invasores ou serviços legítimos podem registrar um domínio, configurar o SPF e o DKIM para o domínio, e usar um domínio completamente diferente no endereço De. As mensagens de remetentes neste domínio passarão pelo SPF e DKIM.
 
 A autenticação composta pode solucionar essas limitações transmitindo mensagens que, de outra forma, falhariam nas verificações de autenticação de email.
 
-> [!NOTE]
-> Conforme descrito anteriormente, a autenticação implícita de email usa vários sinais para determinar se uma mensagem é legítima. Para simplificar, os exemplos a seguir se concentram nos resultados da autenticação de email. Outros fatores de inteligência de back-end poderiam identificar mensagens aprovadas na autenticação de email como falsas, ou mensagens reprovadas na autenticação de email como legítimas.
+Para simplificar, os exemplos a seguir se concentram nos resultados da autenticação de email. Outros fatores de inteligência de back-end poderiam identificar mensagens aprovadas na autenticação de email como falsas, ou mensagens reprovadas na autenticação de email como legítimas.
 
 Por exemplo, o domínio fabrikam.com não possui registros SPF, DKIM ou DMARC. Mensagens de remetentes no domínio fabrikam.com podem ser reprovadas na autenticação composta (observe o valor `compauth` e o motivo):
 
@@ -91,7 +93,7 @@ From: chris@fabrikam.com
 To: michelle@contoso.com
 ```
 
-Se fabrikam.com configurar um SPF sem um registro DKIM, a mensagem poderá passar pela autenticação composta, porque o domínio que passou no SPF está alinhado com o domínio no endereço De:
+Se o fabrikam.com configurar um SPF sem um registro DKIM, a mensagem poderá passar pela autenticação composta. O domínio que passou pelas verificações de SPF está alinhado com o domínio no endereço De:
 
 ```text
 Authentication-Results: spf=pass (sender IP is 10.2.3.4)
@@ -102,7 +104,7 @@ From: chris@fabrikam.com
 To: michelle@contoso.com
 ```
 
-Se fabrikam.com configurar um registro DKIM sem um registro SPF, a mensagem poderá passar pela autenticação composta, porque o domínio na assinatura DKIM aprovada está alinhado com o domínio no endereço De:
+Se o fabrikam.com configurar um registro DKIM sem um registro SPF, a mensagem poderá passar pela autenticação composta. O domínio na assinatura DKIM está alinhado com o domínio no endereço De:
 
 ```text
 Authentication-Results: spf=none (sender IP is 10.2.3.4)
@@ -114,7 +116,7 @@ From: chris@fabrikam.com
 To: michelle@contoso.com
 ```
 
-Se o domínio no SPF ou a assinatura DKIM não se alinhar com o domínio no endereço De, a mensagem poderá ser reprovada na autenticação composta:
+Se o domínio no SPF ou a assinatura DKIM não estiver alinhado com o domínio no endereço De, a mensagem poderá falhar na autenticação composta:
 
 ```text
 Authentication-Results: spf=none (sender IP is 192.168.1.8)
@@ -128,7 +130,7 @@ To: michelle@fabrikam.com
 
 ## <a name="solutions-for-legitimate-senders-who-are-sending-unauthenticated-email"></a>Soluções para remetentes legítimos que enviam emails não autenticados
 
-O Microsoft 365 mantém o controle de quem está enviando emails não autenticados para sua organização. Se o serviço considerar que o remetente não é legítimo, ele o marcará como uma falha de autenticação composta. Para evitar isso, você pode usar as recomendações nesta seção.
+O Microsoft 365 mantém o controle de quem está enviando emails não autenticados para sua organização. Se o serviço considerar que o remetente não é legítimo, ele marcará as mensagens desse remetente como uma falha de autenticação composta. Para evitar essa decisão, você pode usar as recomendações nesta seção.
 
 ### <a name="configure-email-authentication-for-domains-you-own"></a>Configure a autenticação de email para domínios que você possui
 
@@ -140,7 +142,7 @@ Você pode usar este método para solucionar problemas de falsificação dentro 
 
 - [Considere configurar registros DMARC](use-dmarc-to-validate-email.md) para seu domínio para determinar seus remetentes legítimos.
 
-A Microsoft não fornece diretrizes detalhadas de implementação para registros SPF, DKIM e DMARC. No entanto, há muitas informações disponíveis online. Também há empresas de terceiros dedicadas a ajudar sua organização a configurar registros de autenticação de email.
+A Microsoft não fornece diretrizes detalhadas de implementação para registros SPF, DKIM e DMARC. No entanto, há várias informações disponíveis online. Também há empresas terceirizadas dedicadas a ajudar sua organização a configurar registros de autenticação de email.
 
 #### <a name="you-dont-know-all-sources-for-your-email"></a>Você não conhece todas as fontes do seu email
 
@@ -152,7 +154,7 @@ fabrikam.com IN TXT "v=spf1 include:spf.fabrikam.com ?all"
 
 Este exemplo significa que emails da sua infraestrutura corporativa passarão pela autenticação de email, mas emails de fontes desconhecidas voltarão à neutralidade.
 
-O Microsoft 365 tratará emails de entrada da sua infraestrutura corporativa como autenticados, mas emails de fontes não identificadas ainda poderão ser marcados como falsos (dependendo se o Microsoft 365 puder autenticá-los implicitamente). No entanto, isso ainda é uma melhoria em relação à situação em que todos os emails são marcados como falsificação pelo Microsoft 365.
+O Microsoft 365 tratará os emails de entrada da infraestrutura corporativa como autenticado. Os emails de fontes não identificadas ainda poderão ser marcados como falsos se houver falhas na autenticação implícita. No entanto, isso ainda é uma melhoria em relação à situação em que todos os emails são marcados como falsificação pelo Microsoft 365.
 
 Após começar a usar um registro SPF com a política de fallback `?all`, você poderá gradualmente descobrir e incluir mais fontes de email para suas mensagens e, em seguida, atualizar seu registro SPF com uma política mais rígida.
 
@@ -202,4 +204,4 @@ Se você hospedar o email de um domínio ou fornecer uma infraestrutura de hospe
 
 A capacidade de entrega para a Microsoft não é garantida, mesmo que você autentique emails originados de sua plataforma, mas pelo menos isso garante que a Microsoft não marque seu email como lixo eletrônico porque ele não está autenticado.
 
-Para obter mais detalhes sobre as práticas recomendadas dos provedores de serviços, confira [Práticas recomendadas de mensagens móveis do M3AAWG para provedores de serviços](https://www.m3aawg.org/sites/default/files/M3AAWG-Mobile-Messaging-Best-Practices-Service-Providers-2015-08.pdf).
+Para obter mais informações sobre as práticas recomendadas dos provedores de serviços, confira [Práticas Recomendadas de Mensagens Móveis do M3AAWG para Provedores de Serviços](https://www.m3aawg.org/sites/default/files/M3AAWG-Mobile-Messaging-Best-Practices-Service-Providers-2015-08.pdf).

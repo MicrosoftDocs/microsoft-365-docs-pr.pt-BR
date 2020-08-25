@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Saiba como definir uma política de expiração de senha para sua organização no centro de administração do Microsoft 365. '
-ms.openlocfilehash: 053b3214862d477cbd122ff6336a6b53a98e5421
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: e95184bda631a5efaad0376c766ce5408c0a95e7
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597360"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868862"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
@@ -50,7 +50,7 @@ Siga as etapas abaixo se desejar definir as senhas dos usuários para expirarem 
 > [!IMPORTANT]
 > Apenas os [administradores globais ](../add-users/about-admin-roles.md) podem executar essas etapas.
   
-1. No centro de administração do, vá para **Configurações** \> **Configurações**.
+1. No centro de administração do, vá para **Configurações** \> **Configurações da Organização**.
 
 2. Vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Segurança e privacidade</a>.
  Se você não for um administrador global, não verá a opção Segurança e privacidade.
