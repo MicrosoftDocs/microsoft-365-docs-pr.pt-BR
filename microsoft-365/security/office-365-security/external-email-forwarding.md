@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: 88c3dae4f5a6786fe4eddea0d5e1c61dda837a87
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 7cb2ab9c6987900f2b53a17c3eda49001bca4d84
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080108"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898047"
 ---
 # <a name="configuring-external-email-forwarding-in-office-365"></a>Configurando o encaminhamento de email externo no Office 365
 
@@ -43,6 +43,11 @@ O Office 365 não permite o encaminhamento externo automático por regras de cai
 > Desabilitar o encaminhamento automático para endereços externos no Office 365 está sendo lançado em fases com detalhes comunicados por meio de postagens do [centro de mensagens](https://admin.microsoft.com/Adminportal/Home?source=applauncher&ref=/MessageCenter) . Para ajudar os administradores a se preparar para essas alterações, eles modificam as políticas antecipadamente para garantir que não haja interrupção nos seus usuários.
 
 Mais informações sobre os usuários que usam o encaminhamento automático (regras de caixa de entrada ou encaminhamento SMTP) em sua organização podem ser encontradas no [relatório de mensagens de encaminhamento automático](https://docs.microsoft.com/microsoft-365/security/office-365-security/mfi-auto-forwarded-messages-report?view=o365-worldwide).
+
+## <a name="how-does-this-policy-work-with-other-automatic-forwarding-controls"></a>Como essa política funciona com outros controles de encaminhamento automáticos
+
+Como administrador, você pode já ter outros tipos de controles em vigor, bloqueando o encaminhamento automático em [domínios remotos](https://docs.microsoft.com/exchange/mail-flow-best-practices/remote-domains/remote-domains) e o uso de uma regra de transporte do Exchange (ETR). Esses dois controles são independentes desse recurso específico, por exemplo, se você permitir o encaminhamento automático para um domínio remoto, mas bloquear o encaminhamento automático por meio da política de spam de saída, o resultado será que a mensagem encaminhada automaticamente é bloqueada. Da mesma forma, se você permitir o encaminhamento automático na política de spam de saída, mas bloqueá-lo em um ETR ou domínio remoto, a mensagem será bloqueada por qualquer um desses controles. Isso permite que você, por exemplo, permita o encaminhamento automático na política de spam de saída e utilize domínios remotos para controlar os domínios para os quais os usuários podem encaminhar mensagens automaticamente.
+
 
 ## <a name="the-blocked-email-forwarding-message"></a>A mensagem de encaminhamento de email bloqueado
 

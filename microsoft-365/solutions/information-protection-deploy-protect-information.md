@@ -16,12 +16,12 @@ ms.collection:
 - m365solution-infoprotection
 ms.custom: ''
 description: Implantar os recursos de segurança e conformidade do Microsoft 365 e proteger suas informações pessoais.
-ms.openlocfilehash: 8e7d037218b4d67e9ba7f450bd1a5235b1ae164f
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 87057d7c823fc9808169efd254300f2b2f5e0487
+ms.sourcegitcommit: c76c025fe75cd9c06eccbf9c7fc887b09da36659
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46520988"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46903890"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Proteger informações sujeitas à regulamentação de privacidade de dados
 
@@ -73,6 +73,7 @@ Para ajudá-lo a começar a usar um esquema de proteção de informações no Mi
   - No cliente/nível de conteúdo
   - Automatizado para dados em repouso no SharePoint e no OneDrive
 - Prevenção de Perda de Dados (DLP)
+- [Prevenção de perda de dados de ponto de extremidade da Microsoft 365 (versão prévia)](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-learn-about?view=o365-worldwide)
 - [Recursos de criptografia de mensagem do Office 365 novas capacidades (ome)](../compliance/ome.md) e ome de [mensagem avançada](../compliance/ome-advanced-message-encryption.md)
 
 Além disso, a proteção de nível de site e biblioteca são mecanismos importantes para incluir em qualquer esquema de proteção.

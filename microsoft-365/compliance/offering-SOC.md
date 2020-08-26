@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ec4bd2e3244add3b14d614c308fea736c6ceccb6
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: 2428109743b408061ead8ad87d5e59ac30417c06
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254294"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898079"
 ---
 # <a name="service-organization-controls-soc"></a>Service Organization Controls (SOC)
 
@@ -107,7 +107,7 @@ Com os relatórios, os auditores podem comparar os resultados dos serviços de n
 
 **Com que frequência os relatórios do SOC para o Azure são emitidos?**
 
-Os relatórios SOC do Azure, Segurança do aplicativo na nuvem da Microsoft, Flow, Microsoft Graph, Intune, Power BI, PowerApps, Microsoft Stream e Centros de dados da Microsoft Datacenters em uma janela de execução de 12 meses (período de auditoria) com novos relatórios emitidos semestralmente (os períodos de término são nos dias 31 de março e 30 de setembro). As cartas de pontes são emitidas em janeiro para cobrir o período de 1/10 – 31/12 e julho para cobrir o período de 1/4 – 30/6. Os clientes podem [baixar](https://aka.ms/stp) os relatórios mais recentes no Portal de Confiança do Serviço.
+Os relatórios SOC do Azure, Segurança do aplicativo na nuvem da Microsoft, Flow, Microsoft Graph, Intune, Power BI, PowerApps, Microsoft Stream e Centros de dados da Microsoft Datacenters em uma janela de execução de 12 meses (período de auditoria) com novos relatórios emitidos semestralmente (os períodos de término são nos dias 31 de março e 30 de setembro). As bridge letters são emitidas a cada trimestre para cobrir o período dos três meses anteriores. Por exemplo, a carta de janeiro cobre 10/01-12/31, a carta de abril cobre 01/01-03/31, a letra de julho cobre 04/01-06/30 e a letra de outubro cobre 07/01-09/30. Os clientes podem [baixar](https://aka.ms/stp) os relatórios mais recentes no Portal de Confiança do Serviço.
 
 **Preciso conduzir uma auditoria própria dos datacenters da Microsoft?**
 

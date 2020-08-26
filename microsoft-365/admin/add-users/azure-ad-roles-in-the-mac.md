@@ -17,12 +17,12 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 description: Gerencie essas funções de administrador do Azure no Centro de administração do Microsoft 365.
-ms.openlocfilehash: d35daab57446fd2a6a052f7e0fca29af7910c5f9
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: afb025feb6e867b16be7a844a5f48ef42759b543
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432448"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898023"
 ---
 # <a name="azure-active-directory-roles-in-the-microsoft-365-admin-center"></a>Funções do Azure Active Directory no Centro de administração do Microsoft 365
 
@@ -68,6 +68,7 @@ Esta é uma lista de todas as funções disponíveis no centro de administraçã
 |Leitor de privacidade do centro de mensagens     |    Acesso às mensagens de privacidade de dados no centro de mensagens e recepção de notificações por e-mail.     |
 |Leitor de centro de mensagens     | Lê e compartilha mensagens regulares no centro de mensagens, obtém resumos semanais de e-mails, tem acesso somente leitura a usuários, grupos, domínios e assinaturas.     |
 |Administrador de aplicativos do Office    |   Gerencia políticas baseadas em nuvem para o Office e o conteúdo de Novidades que os usuários veem em seus aplicativos do Office.   |
+|Administrador de senha    |   Redefina as senhas dos usuários que não são administradores ou membros das funções a seguir: leitores de diretório, emissor de convite, administrador de senha. Esta função não pode conceder a capacidade de gerenciar solicitações de serviço ou de monitorar a integridade do serviço.   |
 |Administrador do Power BI    |   Acesso completo às tarefas de gerenciamento do Power BI, gerencia solicitações de serviço e monitora a integridade do serviço.   |
 |Administrador da plataforma de alimentação     |    Acesso total ao Microsoft Dynamics 365, ao PowerApps, às políticas de prevenção contra perda de dados e ao Microsoft Flow.     |
 |Administrador de função com privilégios     |    Gerencia atribuições de funções e todos os recursos de controle de acesso do Gerenciamento de identidades com privilégios.     |

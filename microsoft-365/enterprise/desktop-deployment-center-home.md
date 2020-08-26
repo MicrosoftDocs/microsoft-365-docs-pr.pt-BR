@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Como obter os recursos equivalentes ao centro de implantação de área de trabalho preterido.
-ms.openlocfilehash: 6db35ba51f06c7cca025112ebd1bb8d718b7842c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0dc5816959c5284739de4dee31dde7cc520bde55
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686125"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898011"
 ---
 # <a name="desktop-deployment-center-deprecated"></a>Centro de implantação de desktop (preterido)
 
@@ -33,7 +33,7 @@ Use estes recursos para implantar áreas de trabalho modernas:
 
 Você também pode exibir os [vídeos da série de implantação de área de trabalho do Microsoft mecânica](https://www.aka.ms/watchhowtoshift).
 
-Você também pode [obter ajuda](https://aka.ms/mddhelp) para a sua implantação do computador dos parceiros da Microsoft e serviços do FastTrack.
+Você também pode encontrar ajuda para sua implantação de área de trabalho dos parceiros da Microsoft e do [FastTrack](https://www.microsoft.com/fasttrack/microsoft-365).
 
 ## <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Office e do Windows
 
