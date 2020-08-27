@@ -20,12 +20,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como importar dados de terceiros de plataformas de mídia social, plataformas de mensagens instantâneas e plataformas de colaboração de documentos para caixas de correio do Microsoft 365.
-ms.openlocfilehash: 6b75d2857fd95d24a90f9245cb299b7558aa3cec
-ms.sourcegitcommit: 37da941919036a714da42eaa039682ccbe0da670
+ms.openlocfilehash: ebb5c78dc043afb0e1e35aa8b5c70cd2219a6349
+ms.sourcegitcommit: b144e8ba1ab0c40fa7e0e8e893b5cb44aa2d8243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860706"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47282609"
 ---
 # <a name="archive-third-party-data"></a>Arquivar dados de terceiros
 
@@ -38,7 +38,7 @@ A tabela a seguir lista os conectores de dados de terceiros disponíveis no cent
 > [!TIP]
 > Clique no link na coluna **dados de terceiros** para ir para as instruções passo a passo para criar um conector para esse tipo de dados.
 
-|Dados de terceiros  |Retenção de litígio|Descoberta eletrônica  |Políticas de retenção  |Gerenciamento de registros  |Conformidade em comunicações  |Gerenciamento de risco interno  |
+|Dados de terceiros  |Retenção de litígio|Descoberta eletrônica  |Configurações de retenção  |Gerenciamento de registros  |Conformidade em comunicações  |Gerenciamento de risco interno  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
 |[Mensagem da Bloomberg](archive-bloomberg-message-data.md)     |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |[Facebook](archive-facebook-data-with-sample-connector.md)     |![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Marca de seleção](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
@@ -71,9 +71,9 @@ As três principais ferramentas de descoberta eletrônica no Microsoft 365 são 
 
    A descoberta eletrônica principal e a descoberta eletrônica avançada permitem gerenciar dados de terceiros que podem ser relevantes para as investigações legais ou internas da sua organização.
 
-### <a name="retention-policies"></a>Políticas de retenção
+### <a name="retention-settings"></a>Configurações de retenção
 
-É possível aplicar uma [política de retenção](retention.md) a caixas de correio de usuário para manter e excluir dados de terceiros (e outros conteúdos de caixa de correio) após o período de retenção expirar. Você também pode usar as políticas de retenção para excluir os dados de terceiros de uma determinada idade ou acionar uma revisão de disposição quando o período de retenção expirar.
+É possível aplicar uma [política de retenção](retention.md) a caixas de correio de usuário para manter e excluir dados de terceiros (e outros conteúdos de caixa de correio) após o período de retenção expirar. Você também pode usar as políticas de retenção para excluir dados de terceiros de uma determinada idade ou [usar rótulos de retenção para acionar uma revisão de disposição](disposition.md) quando o período de retenção de dados de terceiros expirar.
 
 ### <a name="records-management"></a>Gerenciamento de registros
 

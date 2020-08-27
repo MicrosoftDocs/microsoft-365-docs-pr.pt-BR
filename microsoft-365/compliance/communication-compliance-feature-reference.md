@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d8025f6abe9f1b68dea0856b2a53139a711198c6
-ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
+ms.openlocfilehash: 5fe8e01e24f38ddd62649349575bd38ec37ccae4
+ms.sourcegitcommit: b144e8ba1ab0c40fa7e0e8e893b5cb44aa2d8243
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46632124"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47282669"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -150,7 +150,7 @@ Para saber mais sobre detalhes de informações confidenciais e os padrões incl
 
 ### <a name="custom-keyword-dictionaries"></a>Dicionários de palavras-chave personalizados
 
-Configure os dicionários de palavras-chave personalizados (ou léxicos) para fornecer gerenciamento simples de palavras-chave específicas para sua organização ou setor. Os dicionários de palavras-chave suportam até 100.000 termos por dicionário e dão suporte a qualquer idioma. Se necessário, você pode aplicar vários dicionários de palavras-chave personalizados a uma única política ou ter um único dicionário de palavra-chave por política. Esses dicionários são atribuídos a uma política de conformidade de comunicação e podem ser originados de um arquivo (como uma lista. csv ou. txt) ou de uma lista que pode ser [importada no centro de conformidade](create-a-keyword-dictionary.md). Use os dicionários personalizados quando precisar dar suporte a termos ou idiomas específicos para sua organização e políticas.
+Configure os dicionários de palavras-chave personalizados (ou léxicos) para fornecer gerenciamento simples de palavras-chave específicas para sua organização ou setor. Os dicionários de palavras-chave dão suporte a até 100KB de termos (compressão de post) no dicionário e dão suporte a qualquer idioma. O limite do locatário também é 100KB após a compactação. Se necessário, você pode aplicar vários dicionários de palavras-chave personalizados a uma única política ou ter um único dicionário de palavra-chave por política. Esses dicionários são atribuídos a uma política de conformidade de comunicação e podem ser originados de um arquivo (como uma lista. csv ou. txt) ou de uma lista que pode ser [importada no centro de conformidade](create-a-keyword-dictionary.md). Use os dicionários personalizados quando precisar dar suporte a termos ou idiomas específicos para sua organização e políticas.
 
 ### <a name="classifiers"></a>Classificadores
 

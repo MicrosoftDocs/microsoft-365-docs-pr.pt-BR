@@ -7,17 +7,17 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar e arquivar dados da ferramenta de email de mensagem do Bloomberg para o Microsoft 365. Isso permite que você arquive dados de fontes de dados de terceiros no Microsoft 365 para que possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 700a0619d2299fc7254628059787478cc0e168fa
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: f9793db545b5298663da7bbfa39a0878854e070d
+ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44937318"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255858"
 ---
 # <a name="set-up-a-connector-to-archive-bloomberg-message-data-preview"></a>Configurar um conector para arquivar dados de mensagem do Bloomberg (visualização)
 

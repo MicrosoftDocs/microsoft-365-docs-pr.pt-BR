@@ -7,19 +7,19 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Os administradores podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: 0febd13003cdcb80867bd7f5b91ac482a463895a
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 49589d2e5a6a716a2e224aa28b73bd14f9048d0b
+ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527583"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255764"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-preview"></a>Configurar um conector para importar dados de RH (visualização)
 
@@ -307,6 +307,9 @@ A última etapa na configuração de um conector de RH é executar um script de 
     ```
 
    Se o upload for bem-sucedido, o script exibirá a mensagem de **upload bem-sucedida** .
+   
+   > [!NOTE]
+   > Se você tiver problemas para executar o comando anterior por causa das políticas do excution, consulte [sobre as políticas de execução](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies) e [Set-ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy) para obter orientação sobre como configurar as políticas de execução. 
 
 ## <a name="step-5-monitor-the-hr-connector"></a>Etapa 5: monitorar o conector de RH
 

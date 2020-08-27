@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1fa80d79c1802d96fc755def3b8ec15af13b0c9
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 75d709cc1f98a12bb6f5a5b6539583a33be500b6
+ms.sourcegitcommit: 195172dd836e8a793e8e0c2db3323b7391bc51ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649398"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255740"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Faça buscas proativas por ameaças com a busca avançada da Proteção contra Ameaças da Microsoft
 
@@ -51,7 +51,7 @@ Recomendamos que você execute várias etapas para começar a trabalhar rapidame
 | **Saiba como usar os resultados da consulta** | Saiba mais sobre gráficos e várias maneiras de exibir ou exportar os resultados. Explore como você pode ajustar as consultas rapidamente, faça uma busca detalhada para obter informações mais ricas e execute ações de resposta. | - [Trabalhar com resultados de consulta](advanced-hunting-query-results.md)<br>- [Executar ação nos resultados da consulta](advanced-hunting-take-action.md) |
 | **Compreender o esquema** | Obtenha uma compreensão de alto nível das tabelas no esquema e em suas colunas. Isso ajuda a determinar onde procurar dados e como construir suas consultas. | [Referência de esquema](advanced-hunting-schema-tables.md) |
 | **Aproveitar consultas predefinidas** | Explore coleções de consultas predefinidas que abrangem diferentes cenários de exploração de ameaças. | - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)<br>- [Busca de ir](advanced-hunting-go-hunt.md) |
-| **Otimizar consultas** | Saiba como criar consultas eficientes e que combinem dados de emails e dispositivos. | - [Práticas recomendadas de consulta](advanced-hunting-shared-queries.md) <br>- [Procurar por dispositivos e emails](advanced-hunting-best-practices.md) |
+| **Otimizar consultas** | Saiba como criar consultas eficientes e que combinem dados de emails e dispositivos. | - [Práticas recomendadas de consulta](advanced-hunting-best-practices.md) <br>- [Procurar por dispositivos e emails](advanced-hunting-query-emails-devices.md) |
 | **Criar regras de detecção personalizadas** | Saiba como você pode usar consultas de busca avançada para disparar alertas e aplicar ações de resposta automaticamente. | - [Visão geral das detecções personalizadas](custom-detections-overview.md)<br>- [Regras de detecção personalizadas](custom-detection-rules.md) |
 
 ## <a name="get-access"></a>Obter acesso
@@ -63,12 +63,15 @@ Dados de busca avançada podem ser categorizados em dois tipos distintos, cada u
 - **Dados de evento ou atividade** — preenche tabelas sobre alertas, eventos de segurança, eventos do sistema e avaliações de rotina. A busca avançada recebe esses dados quase imediatamente após os sensores que os coletam com êxito para transmiti-los para os serviços de nuvem correspondentes. Por exemplo, você pode começar a consultar dados de eventos de sensores saudáveis em estações de trabalho ou controladores de domínio quase imediatamente após estarem disponíveis no Microsoft defender ATP e no Azure ATP.
 - **Dados da entidade** — preenche tabelas com informações consolidadas sobre usuários e dispositivos. Esses dados são provenientes de fontes de dados relativamente estáticas, como entradas do Active Directory e fontes dinâmicas, como logs de eventos. Para fornecer dados atualizados, as tabelas são atualizadas a cada 15 minutos com qualquer informação nova, adicionando linhas que podem não estar totalmente preenchidas. A cada 24 horas, os dados são consolidados para inserir um registro que contém o conjunto de dados mais recente e mais abrangente sobre cada entidade.
 
+## <a name="time-zone"></a>Fuso horário
+Todas as informações de tempo em busca avançada estão no fuso horário UTC.
+
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Aprender a linguagem de consulta](advanced-hunting-query-language.md)
 - [Trabalhar com os resultados da consulta](advanced-hunting-query-results.md)
 - [Tomar providências sobre os resultados de consulta](advanced-hunting-take-action.md)
 - [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)
-- [Procurar por dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
+- [Procure em dispositivos, e-mails, aplicativos e identidades](advanced-hunting-query-emails-devices.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
 - [Aplicar práticas recomendadas de consulta](advanced-hunting-best-practices.md)
 - [Visão geral de detecções personalizadas](custom-detections-overview.md)
