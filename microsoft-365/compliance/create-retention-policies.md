@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Use uma política de retenção para decidir de forma proativa se deseja reter o conteúdo, excluí-lo ou ambos: reter e em seguida excluir o conteúdo; aplicar uma única política para a organização inteira ou a locais ou usuários específicos; e aplicar uma política a todo o conteúdo ou ao conteúdo que cumpra determinadas condições.'
-ms.openlocfilehash: 4eb08eed668efb598068a7229b9312ccb6654274
-ms.sourcegitcommit: 919b5d0f33b41b4beaca5fbb06e1c75d65027b7e
+ms.openlocfilehash: 6a22c1020c7e6d6c1fce4f80ce40da353b095e64
+ms.sourcegitcommit: c76c025fe75cd9c06eccbf9c7fc887b09da36659
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46757574"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46903856"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -279,6 +279,13 @@ No entanto, usando essa configuração, há alguns limites quando sua política 
 Há um número máximo de políticas com suporte para um locatário: 10.000. Esses itens incluem políticas de retenção, políticas de rótulo de retenção e políticas de retenção de aplicação automática.
 
 Se é provável que suas políticas de retenção estejam sujeitas a essas limitações, escolha as opções de configuração que se aplicam a locais inteiros ou use uma política em toda a organização.
+
+> [!WARNING]
+> Se você inclui-lo e, em seguida, remover o último, a configuração será revertida para **Todas** para o local.  Verifique se esta é a configuração que você pretende antes de salvar a política.
+> 
+> Por exemplo, se você especificar um site do SharePoint a ser incluído na sua política de retenção que está configurada para excluir dados e, em seguida, remover o site único, por padrão, todos os sites do SharePoint estarão sujeitos à política de retenção que exclui permanentemente os dados. O mesmo se aplica a inclusões para os destinatários do Exchange, contas do OneDrive, usuários de chat do Teams, etc.
+> 
+> Neste cenário, desative o local se não quiser que a configuração **Todos** para o local estejam sujeitos à política de retenção. Como alternativa, especifique exclusões a serem isentas da política.
 
 ## <a name="updating-retention-policies"></a>Atualizar políticas de retenção
 
