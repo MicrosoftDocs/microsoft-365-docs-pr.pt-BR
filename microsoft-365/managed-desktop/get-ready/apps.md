@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bc7192cf82c825a13780567663695d96a760b3ef
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: da5798b3412cb69580e5d9adc582f0ca4add1e3e
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530098"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289586"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Aplicativos na Área de Trabalho Gerenciada da Microsoft
 
@@ -26,7 +26,7 @@ ms.locfileid: "46530098"
 
 A Microsoft inclui certos aplicativos-chave, juntamente com a licença do Microsoft 365 E3 ou E5 necessária para participar da área de trabalho gerenciada da Microsoft. No entanto, mesmo que forneçamos esses aplicativos, você ainda tem determinadas responsabilidades e ações para concluir.
 
-Você também pode implantar aplicativos adicionais não-Microsoft nos seus usuários finais para autoatendimento por meio do portal da empresa ou uma instalação de segundo plano necessária, tudo usando o pipeline de implantação do Microsoft Intune. Se você tiver o conhecimento, poderá migrar os aplicativos que precisa sozinho; Como alternativa, os fornecedores MCS (serviços de consultoria da Microsoft) ou não da Microsoft ficarão satisfeitos para ajudá-lo com um projeto de pacote e migração. Para obter mais informações sobre como trabalhar com MCS, confira [trabalhar com serviços de consultoria da Microsoft](apps-MCS.md).
+Você também pode implantar aplicativos adicionais que não sejam da Microsoft em seus usuários para autoatendimento por meio do portal da empresa ou uma instalação de segundo plano necessária, tudo usando o pipeline de implantação do Microsoft Intune. Se você tiver o conhecimento, poderá migrar os aplicativos que precisa sozinho; Como alternativa, os fornecedores MCS (serviços de consultoria da Microsoft) ou não da Microsoft ficarão satisfeitos para ajudá-lo com um projeto de pacote e migração. Para obter mais informações sobre como trabalhar com MCS, confira [trabalhar com serviços de consultoria da Microsoft](apps-MCS.md).
 
 
 ## <a name="apps-provided-by-microsoft"></a>Aplicativos fornecidos pela Microsoft
@@ -35,13 +35,13 @@ Incluído na sua licença de área de trabalho gerenciada da Microsoft são vers
 
 ### <a name="what-microsoft-does-to-support-the-apps-we-provide"></a>O que a Microsoft faz para dar suporte aos aplicativos que fornecemos
 
-A Microsoft fornecerá serviço completo para a implantação, atualização e suporte para os aplicativos do Microsoft 365, para aplicativos corporativos. As versões de clique para executar do Microsoft Project e do Visio *não* são incluídas por padrão, mas a área de trabalho gerenciada da Microsoft fornecerá grupos de implantação que permitem ao administrador de ti gerenciar licenças e implantar esses aplicativos de forma adequada para sua organização. A Microsoft dará suporte aos usuários finais desses aplicativos por meio dos canais de suporte do Microsoft Managed desktop.
+A Microsoft fornecerá serviço completo para a implantação, atualização e suporte para os aplicativos do Microsoft 365, para aplicativos corporativos. As versões de clique para executar do Microsoft Project e do Visio *não* são incluídas por padrão, mas a área de trabalho gerenciada da Microsoft fornecerá grupos de implantação que permitem ao administrador de ti gerenciar licenças e implantar esses aplicativos de forma adequada para sua organização. A Microsoft dará suporte a usuários desses aplicativos por meio dos canais de suporte do Microsoft Managed desktop.
 
 ### <a name="what-you-need-to-do-to-support-the-apps-we-provide"></a>O que você precisa fazer para dar suporte aos aplicativos que fornecemos
 
 Ainda há algumas coisas que você precisa fazer com estes aplicativos:
 
-- **Atribuir licenças** – você é responsável por obter e atribuir as licenças apropriadas a usuários finais para o Microsoft 365 aplicativos para empresas.
+- **Atribuir licenças** – você é responsável por obter e atribuir as licenças apropriadas aos usuários para o Microsoft 365 aplicativos para empresas.
 - **Adicionar usuários a grupos de segurança** -se você estiver usando o Microsoft Project ou o Visio, seu administrador de ti deverá adicionar esses usuários aos grupos de implantação apropriados. Os administradores de ti também são responsáveis por recuperar licenças desses usuários, caso eles saiam da empresa.
 - **Implantar Complementos do microsoft 365** -se você precisar de qualquer complemento para qualquer um dos aplicativos da Microsoft 365 para aplicativos corporativos, implante-os centralmente como qualquer outro aplicativo do Windows 32. 
 

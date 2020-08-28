@@ -1,17 +1,17 @@
 ---
 title: Regiões e idiomas com suporte
 description: Regiões e idiomas compatíveis com a área de trabalho gerenciada da Microsoft
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 58d3355788d9af4297ba454c404b4b2b920c358e
-ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
+ms.openlocfilehash: bf3d1745030561102b5b7b25611001a4d7698ef0
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43790688"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289646"
 ---
 # <a name="microsoft-managed-desktop-supported-regions-and-languages"></a>Idiomas e regiões compatíveis com o Microsoft Managed desktop
 
@@ -19,7 +19,7 @@ Este artigo fornece detalhes sobre regiões e idiomas compatíveis com a área d
 
 ## <a name="supported-languages"></a>Idiomas compatíveis
 
-O inglês é o único idioma disponível para os usuários da área de trabalho gerenciada da Microsoft. Isso inclui todas as interfaces de usuário para os usuários finais e administradores e todas as interações com o [suporte ao administrador](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) e [ao usuário final](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support).
+O inglês é o único idioma disponível para os usuários da área de trabalho gerenciada da Microsoft. Isso inclui todas as interfaces de usuário para usuários e administradores e todas as interações com [suporte de administrador](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) e [de usuário final](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support).
 
 
 Você ainda pode usar dispositivos gerenciados fora de regiões de língua inglesa sem uma interrupção para o serviço de área de trabalho gerenciada da Microsoft. Por exemplo, um funcionário com base no Reino Unido pode trabalhar com segurança e receber atualizações em seus dispositivos gerenciados durante viagens Ásia, Europa ou América do Sul. 
@@ -45,4 +45,4 @@ As organizações nos seguintes países podem se inscrever na área de trabalho 
 - Austrália
 - Nova Zelândia
 
-Os usuários finais e administradores nessas regiões devem usar o inglês para seus dispositivos e ferramentas de gerenciamento. 
+Tanto os usuários quanto os administradores nessas regiões devem usar o inglês para seus dispositivos e ferramentas de gerenciamento. 

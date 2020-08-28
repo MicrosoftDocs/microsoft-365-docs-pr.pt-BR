@@ -1,17 +1,17 @@
 ---
 title: Suporte para a área de trabalho gerenciada da Microsoft
 description: ''
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: c68d12ccd339c863c2dd96b2a56cfaf19e604f79
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: de113fd61fbb8fabaea64d58525a2f8aca052e90
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631996"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289776"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Suporte para a área de trabalho gerenciada da Microsoft
 
@@ -27,7 +27,7 @@ Os clientes podem contatar as operações de área de trabalho gerenciada da Mic
 O suporte ao Microsoft Managed desktop inclui:
 
 - Uma equipe de engenheiros dedicada aos dispositivos de área de trabalho gerenciada da Microsoft
-- Opções de suporte para usuários finais com dispositivos de área de trabalho gerenciada da Microsoft
+- Opções de suporte para usuários com dispositivos de área de trabalho gerenciada da Microsoft
 - Concede acesso administrativo limitado aos dispositivos de área de trabalho gerenciada da Microsoft para engenheiros que gerenciam dispositivos de área de trabalho gerenciado 
 
 Produtos suportados:
@@ -48,4 +48,4 @@ Detalhes de suporte:
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Saiba como os administradores de ti podem obter suporte](../working-with-managed-desktop/admin-support.md)
-- [Saiba como os usuários finais podem obter suporte](../working-with-managed-desktop/end-user-support.md)
+- [Saiba como os usuários podem obter suporte](../working-with-managed-desktop/end-user-support.md)

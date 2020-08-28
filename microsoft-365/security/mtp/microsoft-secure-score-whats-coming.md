@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 4707b95c72200042b17c9e8ff9ae876933522d1f
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 596d67d4967886a2df985793f38f968b40d2c3a9
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46866914"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289658"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>O que está chegando à pontuação segura da Microsoft
 
@@ -30,9 +30,8 @@ Estamos fazendo algumas alterações em um futuro próximo para tornar a [Pontua
 
 ## <a name="proposed-changes"></a>Alterações propostas
 
-Essas alterações podem estar chegando à sua pontuação segura da Microsoft em breve, dependendo da sua licença. Para saber mais sobre as alterações recentes, confira [o que há de novo na pontuação segura da Microsoft?](microsoft-secure-score-whats-new.md)
-
-- Alterar a pontuação máxima de 7 para 8 para a ação de aprimoramento do Azure Active Directory chamada "Habilitar política para bloquear autenticação herdada"
+### <a name="september-2020"></a>Setembro de 2020
+- Nenhuma alteração planejada
 
 ## <a name="related-resources"></a>Recursos relacionados
 

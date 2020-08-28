@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 08/20/2020
+ms.date: 08/27/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 39ef79f685c216732aa1e3e0ccb28a4ab6e2b07a
-ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
+ms.openlocfilehash: 8eda787a92228fc9705bd329f0df7203b9a1175c
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845851"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294770"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Novidades na ATP do Office 365
 
@@ -39,6 +39,9 @@ Este artigo lista os novos recursos da versão mais recente do Office 365 ATP. O
 
 - [Verificar suas políticas usando o analisador de configuração](configuration-analyzer-for-security-policies.md)
 - [Substituir manualmente o filtro verdicts usando a lista de permissões/bloqueios de locatários](tenant-allow-block-list.md)
+- [Recursos estendidos no explorador de ameaças, incluindo usuários direcionados principais, regras de transporte e conectores](threat-explorer.md#extended-capabilities-in-Threat-Explorer.md)
+- Revelar substitui informações no [Gerenciador de ameaças](threat-explorer.md) (email permitido/bloqueado por política de locatário/usuário)
+- Ameaças de URL do revelar no [Explorador de ameaças](threat-explorer.md) (malware, phishing, spam ou nenhum)
 
 ## <a name="julyaugust-2020"></a>Julho/agosto de 2020 
 
@@ -55,8 +58,6 @@ Este artigo lista os novos recursos da versão mais recente do Office 365 ATP. O
 - Aprimoramentos no [Gerenciador de ameaças](threat-explorer.md) para permitir que as equipes de operações de segurança pesquisem e filtrem vários campos ao [investigar emails](investigate-malicious-email-that-was-delivered.md):
     - Local de entrega e ações especiais
     - Direcionalidade (entrada, saída ou intra-org)
-    - Substituições (bloqueio ou permissão de usuário)
-    - Ameaça de URL (malware, phishing, spam ou nenhum)
     - Avançado não filtra (são opções de filtragem avançadas que incluem o não contém, não inclui, etc.)
     - Filtros de tempo granulares (dia, hora, meia hora) 
 
@@ -103,5 +104,4 @@ Você sabia que o Office 365 ATP está disponível em dois planos? [Saiba mais s
 [Roteiro do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap)
 
 [Descrição do serviço ATP do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
-
 

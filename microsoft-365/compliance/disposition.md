@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a eliminação de conteúdo, se você usar uma revisão de disposição ou se o conteúdo é excluído automaticamente de acordo com as configurações que você configurou.
-ms.openlocfilehash: e70160ef309ad421724f9ad40db0d7c6e00df136
-ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.openlocfilehash: 20f44244005f5a34a0d82f32f625fb067f02df20
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46867206"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294760"
 ---
 # <a name="disposition-of-content"></a>Disposição do conteúdo
 
@@ -120,11 +120,11 @@ O conteúdo que está aguardando uma análise de disposição é excluído somen
 ## <a name="disposition-of-records"></a>Disposição de conteúdo
 
 > [!NOTE]
-> A distribuição de provas de eliminação para registros no SharePoint e no OneDrive foi concluída. Você verá a lista de rótulos de retenção que marcou o conteúdo como registros do SharePoint e do OneDrive na seção disposição da página Gerenciamento de registros no centro de conformidade do Microsoft 365. Sob esses rótulos, você pode ver a lista de itens no SharePoint e no OneDrive que foram descartados automaticamente ou após uma revisão de disposição.
+> A distribuição de provas de eliminação para registros no SharePoint e no OneDrive foi concluída.
 >
-> A prova de alienação de registros no Exchange ainda não está ativa. Quando esta distribuição for iniciada e quando estiver concluída, atualizaremos esta nota.
+> A prova de eliminação de registros no Exchange acabou de começar a ser implantada. Quando esta distribuição estiver concluída, atualizaremos esta nota.
 
-Use a guia **disposição** da página **Gerenciamento de registros** para identificar os registros excluídos automaticamente. Estes itens exibem os **registros descartados** na coluna **tipo** . Por exemplo:
+Use a guia **disposição** da página de **Gerenciamento de registros** para identificar os registros que agora são excluídos, automaticamente ou após uma revisão de disposição. Estes itens exibem os **registros descartados** na coluna **tipo** . Por exemplo:
 
 ![Itens que foram descartados sem uma revisão de disposição](../media/records-disposed2.png)
 

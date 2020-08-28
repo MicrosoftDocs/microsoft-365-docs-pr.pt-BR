@@ -13,12 +13,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 809f94e6355b7c0fe9155734fd548c9cb466cbe7
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 72155563a3249aa61075bc9f246b2a553e7b5191
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528031"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289598"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da Área e trabalho gerenciada da Microsoft
 
@@ -33,11 +33,11 @@ Artigo novo ou alterado | Descrição
 [Introdução ao controle de aplicativos](get-started/get-started-app-control.md) | Artigo atualizado
 [Trabalhar com o controle de aplicativo](working-with-managed-desktop/work-with-app-control.md) | Artigo atualizado
 [Pré-requisitos da Área de Trabalho Gerenciada da Microsoft](get-ready/prerequisites.md) | Artigo atualizado
-[Controle de aplicativos](service-description/app-control.md) | Artigo atualizado
+[Controle de aplicativo](service-description/app-control.md) | Artigo atualizado
 [Configuração de rede na Área de Trabalho Gerenciada da Microsoft](get-ready/network.md) | Artigo atualizado
 [Novo aplicativo do Microsoft Edge](get-started/edge-browser-app.md) | Artigo atualizado
 [Acessar o portal de administração](get-started/access-admin-portal.md) | Novo artigo
-[Controle de aplicativos](service-description/app-control.md) | Novo artigo
+[Controle de aplicativo](service-description/app-control.md) | Novo artigo
 [Instalar o Microsoft Project ou o Microsoft Visio em dispositivos de área de trabalho gerenciada da Microsoft](get-started/project-visio.md) | Artigo atualizado
 
 ## <a name="june-2020"></a>Junho de 2020
@@ -51,7 +51,7 @@ Artigo novo ou alterado | Descrição
 ## <a name="may-2020"></a>Maio de 2020
 Artigo novo ou alterado | Descrição
 --- | ---
-[Obter ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
+[Obtendo ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
 [Etapas para registrar dispositivos de Parceiros](get-started/register-devices-partner.md) | Artigo atualizado
 [Dispositivos de área de trabalho gerenciada da Microsoft](service-description/device-list.md) | Artigo atualizado
 [Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Artigo atualizado
@@ -121,7 +121,7 @@ Artigo novo ou alterado | Descrição
 Artigo novo ou alterado | Descrição
 --- | ---
 [Exceções para o plano de serviço](service-description/customizing.md) | Novo artigo
-[Obter ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
+[Obtendo ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
 [Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
 [Mudanças de serviço e comunicação](service-description/servicechanges.md) | Novo artigo
 [Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Artigo atualizado
@@ -135,7 +135,7 @@ Artigo novo ou alterado | Descrição
 Artigo novo ou alterado | Descrição
 --- | ---
 [Tecnologias de Área de Trabalho Gerenciada da Microsoft](intro/technologies.md) | Artigo atualizado
-[Obter ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
+[Obtendo ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
 [Dispositivos de área de trabalho gerenciada da Microsoft](service-description/device-list.md) | Artigo atualizado
 [Implantar e acompanhar configurações configuráveis-Microsoft Managed desktop](working-with-managed-desktop/config-setting-deploy.md) | Artigo atualizado
 [Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
@@ -150,7 +150,7 @@ Artigo novo ou alterado | Descrição
 --- | ---
 [Trabalhar com Serviços de Consultoria da Microsoft](get-ready/apps-mcs.md) | Artigo atualizado
 [Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
-[Obter ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
+[Obtendo ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Artigo atualizado
 [Pré-requisitos da Área de Trabalho Gerenciada da Microsoft](get-ready/prerequisites.md) | Artigo atualizado
 [Tecnologias de Área de Trabalho Gerenciada da Microsoft](intro/technologies.md) | Artigo atualizado
 
@@ -183,7 +183,7 @@ Artigo novo ou alterado | Descrição
 [Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft](get-ready/mapped-drives.md) | Novo artigo
 [Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft](get-ready/certs-wifi-lan.md) | Novo artigo
 [Ordenar dispositivos de área de trabalho gerenciada da Microsoft](get-started/devices.md) | Artigo atualizado
-[Obter ajuda para usuários finais](working-with-managed-desktop/end-user-support.md) | Novo artigo
+[Obtendo ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Novo artigo
 
 ## <a name="april-2019"></a>Abril de 2019
 Artigo novo ou alterado | Descrição
@@ -226,7 +226,7 @@ Artigo novo ou alterado | Descrição
 
 Artigo novo ou alterado | Descrição
 --- | ---
-[Suporte para a área de trabalho gerenciada da Microsoft](service-description/support.md)<br />e [suporte ao usuário final para a área de trabalho gerenciada da Microsoft](working-with-managed-desktop/end-user-support.md) | Atualizado para incluir Austrália.
+[Suporte para a área de trabalho gerenciada da Microsoft](service-description/support.md)<br />e [suporte de usuário para a área de trabalho gerenciada da Microsoft](working-with-managed-desktop/end-user-support.md) | Atualizado para incluir Austrália.
 
 ## <a name="october-30-2018"></a>30 de outubro de 2018
 Conteúdo reorganizado: seção adicionada à [Descrição do serviço de área de trabalho gerenciada da Microsoft](service-description/index.md). 

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 5fe8e01e24f38ddd62649349575bd38ec37ccae4
-ms.sourcegitcommit: b144e8ba1ab0c40fa7e0e8e893b5cb44aa2d8243
+ms.openlocfilehash: 1aaa73fdc56662335904cbaa152429ea90d6bb08
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47282669"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289350"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -49,19 +49,39 @@ Os modelos de política são configurações de política predefinidas que você
 
 ## <a name="permissions-preview"></a>Permissões (visualização)
 
-Há cinco funções usadas para configurar permissões para gerenciar recursos de conformidade de comunicação. Para tornar a **conformidade de comunicação** disponível como uma opção de menu no centro de conformidade do Microsoft 365, você deve receber a função de administrador de conformidade de *comunicação* .
+>[!Important]
+>Por padrão, os administradores globais não têm acesso aos recursos de conformidade de comunicação. As funções atribuídas nesta etapa são necessárias para que qualquer recurso de conformidade de comunicação possa ser acessado.
 
-Dependendo de como você deseja gerenciar políticas e alertas de comunicação, você precisará criar um ou mais novos grupos de função para administradores, revisores e investigadores. Você tem a opção de atribuir usuários a grupos de função específicos para gerenciar diferentes conjuntos de recursos de conformidade de comunicação. Ou você pode decidir criar um grupo de função e atribuir todas as funções de conformidade de comunicação ao grupo. Crie um único grupo de função ou vários grupos para atender melhor aos seus requisitos de gerenciamento de conformidade.
+Há cinco grupos de função usados para configurar permissões para gerenciar recursos de conformidade de comunicação. Para tornar a **conformidade de comunicação** disponível como uma opção de menu no centro de conformidade do Microsoft 365 e para continuar com essas etapas de configuração, você deve estar atribuído aos grupos de função de administrador de conformidade de *comunicação* ou de *conformidade* de comunicação. Para acessar e gerenciar recursos de conformidade de comunicação após a configuração inicial, os usuários devem ser membros de pelo menos um grupo de função de conformidade de comunicação.
 
-Escolha uma destas opções de função ao configurar seus grupos de função de conformidade de comunicação:
+Dependendo de como você deseja gerenciar políticas e alertas de comunicação, você precisará atribuir usuários a grupos de função específicos. Você tem a opção de atribuir diferentes responsabilidades de conformidade a grupos de função específicos para gerenciar diferentes áreas de recursos de conformidade de comunicação. Ou você pode decidir atribuir todas as contas de usuário para administradores, analistas, investigadores e visualizadores designados ao grupo de funções de *conformidade de comunicação* . Use um único grupo de função ou vários grupos de função para atender melhor aos seus requisitos de gerenciamento de conformidade.
+
+Escolha uma destas opções de grupo de funções ao configurar a conformidade de comunicação:
 
 |**Função**|**Permissões de função**|
 |:-----|:-----|
-| **Administração de conformidade de comunicação** | Os usuários atribuídos a essa função podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupos de função. Os usuários atribuídos a essa função não podem exibir alertas de mensagem. |
-| **Análise de conformidade de comunicação** | Os usuários atribuídos a essa função podem exibir as políticas em que foram atribuídas como revisores, Exibir metadados de mensagem (não o conteúdo da mensagem), escalonar para revisores adicionais ou enviar notificações aos usuários. Os analistas não podem resolver alertas pendentes. |
-| **Investigação de conformidade de comunicação** | Os usuários atribuídos a essa função podem exibir metadados e conteúdo de mensagens, escalonar para revisores adicionais, escalonar para uma ocorrência de descoberta eletrônica avançada, enviar notificações aos usuários e resolver o alerta. |
-| **Visualizador de conformidade de comunicação** | Os usuários atribuídos a essa função podem acessar todos os widgets de relatório na home page de conformidade de comunicação e podem exibir todos os relatórios de conformidade de comunicação. |
-| **Gerenciamento de casos de conformidade de comunicação** | Os usuários atribuídos a essa função podem gerenciar casos e agir em alertas. Essa função é necessária para criar grupos de funções personalizados para administradores, analistas e investigadores. Os grupos personalizados para visualizadores não precisam dessa função atribuída. |
+| **Conformidade de comunicação** | Use esse grupo de funções para gerenciar a conformidade de comunicação para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores, analistas, investigadores e visualizadores designados, você pode configurar as permissões de conformidade de comunicação em um único grupo. Esse grupo de função contém todas as funções de permissão de conformidade de comunicação. Essa configuração é a maneira mais fácil de começar rapidamente a conformidade com comunicações e é uma boa opção para organizações que não precisam de permissões separadas definidas para grupos de usuários separados. |
+| **Administração de conformidade de comunicação** | Use esse grupo de função para configurar inicialmente a conformidade de comunicação e mais tarde para segregar os administradores de conformidade de comunicação em um grupo definido. Os usuários atribuídos a esse grupo de funções podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupos de função. Os usuários atribuídos a este grupo de funções não podem exibir alertas de mensagem. |
+| **Analista de conformidade de comunicação** | Use esse grupo para atribuir permissões a usuários que atuarão como analistas de conformidade de comunicação. Os usuários atribuídos a esse grupo de funções podem exibir as políticas nas quais são atribuídas como revisores, Exibir metadados de mensagem (não o conteúdo da mensagem), escalonar para revisores adicionais ou enviar notificações aos usuários. Os analistas não podem resolver alertas pendentes. |
+| **Investigador de conformidade com comunicações** | Use esse grupo para atribuir permissões a usuários que atuarão como investigadores de conformidade de comunicação. Os usuários atribuídos a esse grupo de funções podem exibir metadados e conteúdo de mensagens, escalonar para revisores adicionais, escalonar para uma caixa de descoberta eletrônica avançada, enviar notificações aos usuários e resolver o alerta. |
+| **Visualizador de conformidade de comunicação** | Use esse grupo para atribuir permissões a usuários que irão gerenciar relatórios de comunicação. Os usuários atribuídos a esse grupo de funções podem acessar todos os widgets de relatórios na home page de conformidade de comunicação e podem exibir todos os relatórios de conformidade de comunicação. |
+
+### <a name="for-organizations-using-the-original-permissions-and-role-groups"></a>Para organizações que usam as permissões e os grupos de funções originais
+
+A estrutura do novo grupo de função substitui a estrutura de grupo de função inicial para conformidade de comunicação. Para organizações que já usam conformidade de comunicação, você precisava ter atribuído a função de administrador de análise de supervisão para começar a conformidade de comunicação no centro de conformidade da Microsoft 365. Além disso, era preciso criar um novo grupo de função para revisores com o administrador de análise de supervisão, o gerenciamento de casos, o administrador de conformidade e as funções de revisão para investigar e corrigir mensagens com correspondências de política. Essencialmente, todos os administradores e revisores estavam em um único grupo de função e todos tinham as mesmas permissões de acesso e gerenciamento. Com as atualizações mais recentes para conformidade de comunicação, você deve planejar migrar da estrutura de grupo de função anterior para a nova estrutura de grupo de função. O suporte para a estrutura de grupo de função anterior será desconectado.
+
+Para ajudar no planejamento da migração, considere o exemplo a seguir. No momento, você tem três tipos de usuários em sua organização, administradores de ti, triagem e revisores. Esses três tipos de usuários estão na estrutura de grupo de função anterior e são todos membros de um único grupo de função com as seguintes funções atribuídas:
+
+- Administrador de análise de supervisão
+- Gerenciamento de casos
+- Administrador de Conformidade
+- Analisar
+
+Para atualizar as funções desses usuários para a nova estrutura de grupo de função e para separar as permissões de acesso e gerenciamento para os usuários, você pode considerar três novos grupos e as atribuições de novo grupo de função associadas:
+
+- **Administradores de ti**: atribuído ao novo grupo de funções de *administrador de conformidade de comunicação* .
+- **Triagem**: atribuído ao grupo de funções *analista de conformidade de comunicação* .
+- **Revisores**: atribuído ao novo grupo de função do *investigador de conformidade de comunicação* .
 
 ## <a name="supervised-users"></a>Usuários supervisionados
 
@@ -150,7 +170,7 @@ Para saber mais sobre detalhes de informações confidenciais e os padrões incl
 
 ### <a name="custom-keyword-dictionaries"></a>Dicionários de palavras-chave personalizados
 
-Configure os dicionários de palavras-chave personalizados (ou léxicos) para fornecer gerenciamento simples de palavras-chave específicas para sua organização ou setor. Os dicionários de palavras-chave dão suporte a até 100KB de termos (compressão de post) no dicionário e dão suporte a qualquer idioma. O limite do locatário também é 100KB após a compactação. Se necessário, você pode aplicar vários dicionários de palavras-chave personalizados a uma única política ou ter um único dicionário de palavra-chave por política. Esses dicionários são atribuídos a uma política de conformidade de comunicação e podem ser originados de um arquivo (como uma lista. csv ou. txt) ou de uma lista que pode ser [importada no centro de conformidade](create-a-keyword-dictionary.md). Use os dicionários personalizados quando precisar dar suporte a termos ou idiomas específicos para sua organização e políticas.
+Configure os dicionários de palavras-chave personalizados (ou léxicos) para fornecer gerenciamento simples de palavras-chave específicas para sua organização ou setor. Os dicionários de palavras-chave suportam até 100 KB de termos (compressão de compactação) no dicionário e dão suporte a qualquer idioma. O limite do locatário também é 100 KB após a compactação. Se necessário, você pode aplicar vários dicionários de palavras-chave personalizados a uma única política ou ter um único dicionário de palavra-chave por política. Esses dicionários são atribuídos a uma política de conformidade de comunicação e podem ser originados de um arquivo (como uma lista. csv ou. txt) ou de uma lista que pode ser [importada no centro de conformidade](create-a-keyword-dictionary.md). Use os dicionários personalizados quando precisar dar suporte a termos ou idiomas específicos para sua organização e políticas.
 
 ### <a name="classifiers"></a>Classificadores
 

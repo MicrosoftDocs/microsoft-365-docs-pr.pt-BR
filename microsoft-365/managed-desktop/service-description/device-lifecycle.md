@@ -8,16 +8,16 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0dee95743e0a504330ebbcc69749e41cdc96da39
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 89dbf0e67c112743a557842bb32555d3a079743b
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529942"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289788"
 ---
 # <a name="microsoft-managed-desktop-product-lifecycle"></a>Ciclo de vida do produto do Microsoft Managed desktop
 
-Os usuários finais da área de trabalho gerenciada da Microsoft garantem que eles sempre usem dispositivos que oferecem os melhores desempenho, confiabilidade, design e recursos de segurança (como suporte para recursos como o Windows Hello). Para fazer isso, a área de trabalho gerenciada da Microsoft mantém um pequeno catálogo de [dispositivos aprovados](device-list.md)continuamente atualizados. 
+O Microsoft Managed desktop beneficia os usuários a garantir que eles sempre usem dispositivos que oferecem os melhores desempenho, confiabilidade, design e recursos de segurança (como suporte para recursos como o Windows Hello). Para fazer isso, a área de trabalho gerenciada da Microsoft mantém um pequeno catálogo de [dispositivos aprovados](device-list.md)continuamente atualizados. 
  
 Este tópico detalha o ciclo de vida dos dispositivos à medida que são adicionados e removidos do catálogo aprovado. 
 

@@ -1,6 +1,6 @@
 ---
 title: O novo Microsoft Edge
-description: ''
+description: Explica como o novo navegador de borda é implantado e atualizado
 keywords: navegador, área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 089d9dc79da568a43c1d5701d7bc52d9bed0f4f5
-ms.sourcegitcommit: c76c025fe75cd9c06eccbf9c7fc887b09da36659
+ms.openlocfilehash: 60ffdcddcd069330d3cde2f9cc6b2635cf205a90
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46903866"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294669"
 ---
 # <a name="new-microsoft-edge-app"></a>Novo aplicativo do Microsoft Edge
 
@@ -35,7 +35,6 @@ O [canal beta](https://docs.microsoft.com/deployedge/microsoft-edge-channels#bet
 
 Para garantir que o Microsoft Edge atualize corretamente, não modifique as políticas de [atualização](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies)do Microsoft Edge.
 
-### <a name="microsoft-edge-beta-channel"></a>Canal beta do Microsoft Edge
 
 
 ## <a name="settings-managed-by-microsoft-managed-desktop"></a>Configurações gerenciadas pela área de trabalho gerenciada da Microsoft
@@ -44,7 +43,7 @@ A área de trabalho gerenciada da Microsoft criou um conjunto de políticas padr
 
 ### <a name="microsoft-edge-extensions"></a>Extensões do Microsoft Edge
 
-A linha de base de segurança do Microsoft Edge nos dispositivos de área de trabalho gerenciada da Microsoft define duas diretivas para desabilitar todas as extensões Chrome e usuários finais seguros. Para habilitar e implantar extensões no ambiente, Confira as configurações que você gerencia. 
+A linha de base de segurança do Microsoft Edge nos dispositivos de área de trabalho gerenciada da Microsoft define duas diretivas para desabilitar todas as extensões Chrome e usuários seguros. Para habilitar e implantar extensões no ambiente, Confira as configurações que você gerencia. 
 
 #### <a name="extension-installation-blocklist"></a>Bloqueio de instalação de extensão
 **Valor padrão:** Todos os
@@ -77,7 +76,7 @@ Não é recomendável habilitar essa configuração, pois ela permite que os usu
 
 **Valor padrão:** Permiti
 
-Habilitado por padrão para ajudar a proteger os usuários finais.
+Habilitado por padrão para ajudar a proteger os usuários.
 
 #### <a name="windows-defender-smartscreen-prompts-for-sites"></a>Prompts do Windows Defender SmartScreen para sites
 
@@ -105,7 +104,7 @@ Não é recomendável usar o flash por causa dos riscos de segurança associados
 
 **Valor padrão:** Deficiência
 
-Não recomendamos permitir que os usuários finais salvem senhas em seus dispositivos.
+Não é recomendável permitir que os usuários salvem senhas em seus dispositivos.
 
 ### <a name="internet-explorer-mode-in-microsoft-edge"></a>Modo do Internet Explorer no Microsoft Edge
 O modo IE no Microsoft Edge facilita o uso de todos os sites que sua organização precisa em um único navegador. Ele usa o mecanismo integrado do Chromium para sites que são compatíveis com o mecanismo de renderização do Chromium e usa o mecanismo Trident MSHTML do Internet Explorer 11 (IE11) para sites que não estão ou que têm dependências na funcionalidade do IE. [Saiba mais] (https://docs.microsoft.com/DeployEdge/edge-ie-mode) 

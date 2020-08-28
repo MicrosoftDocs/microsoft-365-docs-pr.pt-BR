@@ -22,16 +22,18 @@ search.appverid:
 - BEA160
 ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
 description: Faça backup do conteúdo do Outlook, do OneDrive, do Yammer e do SharePoint antes de mudar o Microsoft 365 Plans.
-ms.openlocfilehash: 9acc97f65bb5b471cb992d7f01cd299192b74a52
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 1158a98fc35c586ae900ef64579b52b9d64a85e6
+ms.sourcegitcommit: 89b2ad0793c68415f178b8792a9757b9448345a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818526"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47294712"
 ---
 # <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Fazer backup dos dados antes de mudar o Microsoft 365 para planos de negócios
 
 Se um usuário for alternado para outra assinatura que tenha menos serviços relacionados a dados ou um usuário saia da organização, uma cópia de seus dados armazenados no Microsoft 365 poderá ser baixada antes de ser comutada para a nova assinatura.
+
+Se você estiver movendo um usuário para uma assinatura que tenha o mesmo ou mais serviços, não será necessário fazer backup dos dados do usuário. Confira [mover usuários para uma assinatura diferente](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/move-users-different-subscription).
   
 ## <a name="save-a-copy-of-outlook-information"></a>Salvar uma cópia das informações do Outlook
 
@@ -62,7 +64,7 @@ Por padrão, a URL do site de equipe está neste formato:
 https://<orgDomain>/_layouts/15/start.aspx#/SitePages/Home.aspx
 ```
 
-em que _\<orgDomain\>_ é a URL da organização.
+em que  _\<orgDomain\>_ é a URL da organização.
   
 Por exemplo, se o domínio da organização for contoso.onmicrosoft.com, a URL direta para o site de equipe seria https://contoso.onmicrosoft.com/_layouts/15/start.aspx#/SitePages/Home.aspx .
   

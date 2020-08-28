@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d16f63490de8060eea7ef06a4ad6960d846f16eb
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 319b26261f623a7e19e5bb8fbcd0b5d8a50d10a8
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529380"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289704"
 ---
 # <a name="device-configuration"></a>Configuração do dispositivo
 
@@ -44,7 +44,7 @@ Conexões limitadas | Por padrão, as atualizações em conexões limitadas (com
 
 ## <a name="diagnostic-data"></a>Dados de diagnóstico
 
- Os dispositivos serão definidos para fornecer dados de diagnóstico avançados à Microsoft sob um identificador comercial conhecido. Como parte da área de trabalho gerenciada da Microsoft, os administradores de ti não podem alterar essas configurações. Para clientes nas regiões RGPD (regulamentação de proteção de dados) gerais, os usuários finais podem reduzir o nível de dados de diagnóstico fornecidos, mas haverá uma redução no serviço. Por exemplo, a área de trabalho gerenciada da Microsoft não conseguirá coletar os dados necessários para iterar nas configurações e políticas para melhor atender às necessidades de desempenho e segurança. Para obter mais informações, consulte [configurar os dados de diagnóstico do Windows em sua organização.](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enhanced-level)
+ Os dispositivos serão definidos para fornecer dados de diagnóstico avançados à Microsoft sob um identificador comercial conhecido. Como parte da área de trabalho gerenciada da Microsoft, os administradores de ti não podem alterar essas configurações. Para clientes nas regiões RGPD (regulamentação de proteção de dados) gerais, os usuários podem reduzir o nível de dados de diagnóstico fornecidos, mas haverá uma redução no serviço. Por exemplo, a área de trabalho gerenciada da Microsoft não conseguirá coletar os dados necessários para iterar nas configurações e políticas para melhor atender às necessidades de desempenho e segurança. Para obter mais informações, consulte [configurar os dados de diagnóstico do Windows em sua organização.](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enhanced-level)
 
 ## <a name="security-addendum"></a>Adendo de segurança
 

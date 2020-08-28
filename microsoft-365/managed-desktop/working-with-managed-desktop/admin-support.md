@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a29fa11e43e9be5c8175118ad5b54817c463e929
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: fb786383e448ad3f5c78b22f3cdbf282c2c9f906
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529894"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289716"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Administrador de suporte para Área de Trabalho Gerenciada da Microsoft
 
@@ -65,6 +65,6 @@ Depois que um tíquete estiver no estado **atenuado** ou **resolvido** , você p
 
 
 ## <a name="additional-resources"></a>Recursos adicionais
-- [Suporte ao usuário final para a área de trabalho gerenciada da Microsoft](end-user-support.md). 
+- [Suporte de usuário para a área de trabalho gerenciada da Microsoft](end-user-support.md). 
 - [Suporte para a área de trabalho gerenciada da Microsoft](../service-description/support.md). 
 - Se você já se inscrever na área de trabalho gerenciada da Microsoft, encontre procedimentos detalhados, fluxos de processo, instruções de trabalho e perguntas frequentes no guia de administração de área de trabalho gerenciada da Microsoft na seção **recursos online** do [portal de administração de área de trabalho gerenciada da Microsoft](https://aka.ms/mwaasportal).

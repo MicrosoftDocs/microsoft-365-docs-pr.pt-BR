@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os administradores na nuvem do governo dos EUA podem configurar um conector de dados para importar dados de funcionários do sistema de recursos humanos da organização (RH) para o Microsoft 365. Isso permite que você use dados de RH em políticas de gerenciamento de risco do insider para ajudá-lo a detectar atividades por usuários específicos que possam representar uma ameaça interna à sua organização.
-ms.openlocfilehash: e14f1a23097cddf3b187d4394d5fa5e3afe06d01
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 2f41426003fcf3b6afe14d24cf7176fa4668ad44
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46527639"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289812"
 ---
 # <a name="set-up-a-connector-to-import-hr-data-in-us-government-preview"></a>Configurar um conector para importar dados de RH no governo dos EUA (versão prévia)
 
@@ -38,15 +38,15 @@ Você pode configurar um conector de dados no centro de conformidade da Microsof
 
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>Etapa 1: criar um aplicativo no Azure Active Directory
 
-A primeira etapa é criar e registrar um novo aplicativo no Azure Active Directory (AAD). O aplicativo corresponderá ao conector de RH que você criou na etapa 3. A criação deste aplicativo permitirá que o AAD autentique o conector de RH quando executado e tente acessar sua organização. Este aplicativo também será usado para autenticar o script executado na etapa 4 para carregar seus dados de RH na nuvem da Microsoft. Durante a criação deste aplicativo AAD, certifique-se de salvar as informações a seguir. Esses valores serão usados nas etapas posteriores.
+A primeira etapa é criar e registrar um novo aplicativo no Azure Active Directory (Azure AD). O aplicativo corresponderá ao conector de RH que você criou na etapa 3. A criação deste aplicativo permitirá que o Azure AD autentique o conector de RH quando executado e tente acessar sua organização. Este aplicativo também será usado para autenticar o script executado na etapa 4 para carregar seus dados de RH na nuvem da Microsoft. Durante a criação deste aplicativo do Azure AD, certifique-se de salvar as informações a seguir. Esses valores serão usados nas etapas posteriores.
 
-- ID do aplicativo AAD (também chamado de *ID do aplicativo* ou ID do *cliente*)
+- ID de aplicativo do Azure AD (também chamada de *ID do aplicativo* ou *ID do cliente*)
 
-- Segredo do aplicativo AAD (também chamado de *segredo do cliente*)
+- Segredo do aplicativo do Azure AD (também chamado de *segredo do cliente*)
 
 - ID do locatário (também chamado de *ID de diretório*)
 
-Para obter instruções detalhadas sobre a criação de um aplicativo no AAD, consulte [registrar um aplicativo com a plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+Para obter instruções detalhadas sobre a criação de um aplicativo no Azure AD, consulte [registrar um aplicativo com a plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
 ## <a name="step-2-prepare-a-csv-file-with-your-hr-data"></a>Etapa 2: preparar um arquivo CSV com seus dados de RH
 
@@ -83,7 +83,7 @@ A próxima etapa é criar um conector de RH no centro de conformidade da Microso
 
 4. Na página **credenciais de autenticação** , faça o seguinte e clique em **Avançar**:
 
-   a. Digite ou cole a ID de aplicativo do AAD para o aplicativo do Azure que você criou na etapa 1.
+   a. Digite ou cole a ID de aplicativo do Azure AD para o aplicativo do Azure que você criou na etapa 1.
 
    b. Digite um nome para o conector de RH.
 
@@ -140,8 +140,8 @@ A última etapa na configuração de um conector de RH é executar um script de 
    |**Parâmetro**|**Descrição**
    |:-----|:-----|:-----|
    |`tenantId`|Esta é a ID da sua organização do Microsoft 365 que você obteve na etapa 1. Você também pode obter a ID do locatário para sua organização na folha **visão geral** no centro de administração do Azure AD. Isso é usado para identificar sua organização.|
-   |`appId` |Esta é a ID do aplicativo AAD para o aplicativo que você criou no Azure AD na etapa 1. Isso é usado pelo Azure AD para autenticação quando o script tenta acessar sua organização do Microsoft 365. | 
-   |`appSecret`|Este é o segredo do aplicativo AAD para o aplicativo que você criou no Azure AD na etapa 1. Isso também é usado para autenticação.|
+   |`appId` |Esta é a ID de aplicativo do Azure AD para o aplicativo que você criou no Azure AD na etapa 1. Isso é usado pelo Azure AD para autenticação quando o script tenta acessar sua organização do Microsoft 365. |
+   |`appSecret`|Este é o segredo do aplicativo do Azure AD para o aplicativo que você criou no Azure AD na etapa 1. Isso também é usado para autenticação.|
    |`jobId`|Esta é a ID do trabalho do conector de RH que você criou na etapa 3. Isso é usado para associar os dados de RH que são carregados para a nuvem da Microsoft com o conector de RH.|
    |`csvFilePath`|Este é o caminho do arquivo para o arquivo CSV (armazenado no mesmo sistema que o script) que você criou na etapa 2. Tente evitar espaços no caminho do arquivo; caso contrário, use aspas simples.|
    |||
@@ -153,6 +153,9 @@ A última etapa na configuração de um conector de RH é executar um script de 
     ```
 
    Se o upload for bem-sucedido, o script exibirá a mensagem de **upload bem-sucedida** .
+
+   > [!NOTE]
+   > Se você tiver problemas para executar o comando anterior por causa das políticas de execução, consulte [sobre políticas de execução](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies) e [Set-ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy) para obter orientação sobre como configurar as políticas de execução.
 
 ## <a name="step-5-monitor-the-hr-connector"></a>Etapa 5: monitorar o conector de RH
 

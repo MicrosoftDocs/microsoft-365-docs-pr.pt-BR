@@ -1,7 +1,7 @@
 ---
 title: Como as atualizações são tratadas na área de trabalho gerenciada da Microsoft
 description: Manter atualizado o desktop gerenciado da Microsoft é um equilíbrio de velocidade e estabilidade.
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 f1.keywords:
@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 7e7889cb1540cb2cb164cbbd44e9ec0e480a6fd5
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 1349b58bdd6243b05323f14197e0ad92c1fc0d7b
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678689"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289490"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Como as atualizações são tratadas na área de trabalho gerenciada da Microsoft
 
@@ -32,7 +32,7 @@ Para obter mais informações, consulte [Windows Update for Business: Update Typ
 
 O Microsoft Managed desktop usa quatro grupos do Azure AD para gerenciar atualizações:
 
-- **Teste**: usado para validar as alterações da política de área de trabalho gerenciada da Microsoft, atualizações do sistema operacional, atualizações de recursos e outras alterações enviadas para o locatário. Não deve haver usuários finais no grupo de teste. O grupo de teste é isento de qualquer contrato de nível de serviço estabelecido e suporte ao usuário final. Esse grupo está disponível para ser usado para validar a compatibilidade de aplicativos com novas alterações de política ou sistema operacional.  
+- **Teste**: usado para validar as alterações da política de área de trabalho gerenciada da Microsoft, atualizações do sistema operacional, atualizações de recursos e outras alterações enviadas para o locatário. Não deve haver nenhum usuário colocado no grupo de teste. O grupo de teste é isento de qualquer contrato de nível de serviço estabelecido e suporte ao usuário. Esse grupo está disponível para ser usado para validar a compatibilidade de aplicativos com novas alterações de política ou sistema operacional.  
 - **Primeiro**: contém os pioneiros e dispositivos de software que podem estar sujeitos às atualizações de pré-lançamento. Os dispositivos desse grupo podem sofrer interrupções se houver cenários que não foram cobertos durante o teste no anel de teste.
 - **Rápido**: prioriza a velocidade em relação à estabilidade. Útil para detectar problemas de qualidade antes que sejam oferecidos ao grupo amplo. Esse grupo serve como uma próxima camada de validação, mas geralmente é mais estável do que o teste e os primeiros grupos. 
 - **Amplo**: o último grupo deve ter as atualizações de recursos e qualidade disponíveis. Esse grupo contém a maioria dos usuários no locatário e, portanto, favorece a estabilidade sobre a velocidade na implantação. O teste de aplicativos deve ser feito aqui, pois o ambiente é mais estável. 
@@ -44,7 +44,7 @@ Para saber mais sobre funções e responsabilidades com esses grupos de implanta
 
 Como funciona a implantação da atualização:
 - O Microsoft Managed desktop implanta um novo recurso ou uma atualização de qualidade de acordo com o agendamento especificado abaixo.
-- Durante a implantação, o Microsoft Managed desktop monitora sinais de falha ou interrupção (com base nos dados de diagnóstico e no sistema de suporte ao usuário final). Se algum for detectado, a implantação de todos os grupos atuais e futuros será pausada imediatamente.
+- Durante a implantação, o Microsoft Managed desktop monitora sinais de falha ou interrupção (com base nos dados de diagnóstico e no sistema de suporte do usuário). Se algum for detectado, a implantação de todos os grupos atuais e futuros será pausada imediatamente.
     - Exemplo: se um problema for descoberto durante a implantação de uma atualização de qualidade para o primeiro grupo, então atualize as implantações para o primeiro, o mais rápido e o amplo será pausado até que o problema seja resolvido.
     - Problemas de compatibilidade podem ser relatados pelo arquivamento de um tíquete no portal de administração de área de trabalho gerenciada da Microsoft.
 - As atualizações de recursos e qualidade são pausadas de forma independente. A pausa está em vigor por um ou mais 35 dias por padrão, mas pode ser reduzida ou estendida, dependendo se o problema foi corrigido.
@@ -75,7 +75,7 @@ Para obter mais informações sobre o canal atual para o Microsoft 365 Apps for 
 
 A área de trabalho gerenciada da Microsoft não suporta dispositivos que fazem parte do programa Windows Insider. O programa Windows Insider é usado para validar o software de pré-lançamento do Windows e destina-se a dispositivos que não são essenciais. Embora esta seja uma importante iniciativa da Microsoft, ela não se destina à implantação abrangente em ambientes de produção. 
 
-Todos os dispositivos encontrados com as compilações do Windows Insider podem ser colocados no grupo de teste e serão isentos de contratos de nível de serviço de atualização e suporte ao usuário final da área de trabalho gerenciada da Microsoft.
+Todos os dispositivos encontrados com as compilações do Windows Insider podem ser colocados no grupo de teste e serão isentos de contratos de nível de serviço de atualização e suporte ao usuário da área de trabalho gerenciada da Microsoft.
 
 ## <a name="bandwidth-management"></a>Gerenciamento de largura de banda
 
