@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 1f82c339e8cbe4426c87eae045107d26201b0025
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: f4af346877b41b03c07750508ff93661cc642ec4
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530014"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289100"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Tecnologias de Área de Trabalho Gerenciada da Microsoft
 
@@ -30,8 +30,8 @@ Este tópico resume os componentes incluídos nas licenças corporativas necess�
 ## <a name="office-365-e3-or-e5"></a>Office 365 E3 ou e5
  |
  --- | ---
-Aplicativos da Microsoft 365 para empresas (64 bits) | Esses aplicativos do Office serão enviados com o dispositivo: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business, OneNote.<br><br>As versões completas de 64 bits do Microsoft Project e do Microsoft Visio não estão incluídas. No entanto, como a instalação desses aplicativos depende da instalação dos aplicativos do Microsoft 365 para Enterprise, a área de trabalho gerenciada da Microsoft criou implantações e grupos de segurança padrão do Microsoft Intune que você pode usar para implantar esses aplicativos em usuários finais licenciados. Para obter mais informações, consulte [instalar o Microsoft Project ou o Microsoft Visio em dispositivos de área de trabalho gerenciada da Microsoft](../get-started/project-visio.md).
-OneDrive for Business |O logon único do Azure Active Directory está habilitado para usuários finais na primeira vez que entrar no OneDrive for Business.<br><br>O redirecionamento de pasta conhecida para as pastas "área de trabalho", "documento" e "imagens" está incluído; habilitado e configurado pela área de trabalho gerenciada da Microsoft. 
+Aplicativos da Microsoft 365 para empresas (64 bits) | Esses aplicativos do Office serão enviados com o dispositivo: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business, OneNote.<br><br>As versões completas de 64 bits do Microsoft Project e do Microsoft Visio não estão incluídas. No entanto, como a instalação desses aplicativos depende da instalação dos aplicativos do Microsoft 365 para Enterprise, a área de trabalho gerenciada da Microsoft criou implantações e grupos de segurança padrão do Microsoft Intune que você pode usar para implantar esses aplicativos para usuários licenciados. Para obter mais informações, consulte [instalar o Microsoft Project ou o Microsoft Visio em dispositivos de área de trabalho gerenciada da Microsoft](../get-started/project-visio.md).
+OneDrive for Business |O logon único do Azure Active Directory está habilitado para usuários no primeiro logon no OneDrive for Business.<br><br>O redirecionamento de pasta conhecida para as pastas "área de trabalho", "documento" e "imagens" está incluído; habilitado e configurado pela área de trabalho gerenciada da Microsoft. 
 Armazenar aplicativos |    O Microsoft Sway e o Power BI não são fornecidos com o dispositivo. Esses aplicativos estão disponíveis para download na Microsoft Store.
 Aplicativos Win32 |    O Teams não é fornecido com o dispositivo, mas é empacotado e fornecido pela Microsoft para os dispositivos de área de trabalho gerenciada da Microsoft. O cliente de proteção de informações do Azure não é fornecido com o dispositivo, mas você pode ter esse pacote para implantação. 
 Aplicativos Web |  O Yammer, o Office em um navegador, o Delve, o fluxo, o StaffHub, o PowerApps e o Planner não são fornecidos com o dispositivo. Os usuários podem acessar a versão da Web desses aplicativos com um navegador.
@@ -49,5 +49,5 @@ Proteção avançada contra ameaças do Microsoft Defender |  O Microsoft Manage
  |
  --- | ---
 Mobilidade corporativa + segurança E3<br>Azure Active Directory Premium P2 |    Você pode usar todos os recursos do Enterprise Mobility + Security E3 e o Azure Active Directory Premium P2 para gerenciar dispositivos MDM.
-Microsoft Cloud App Security |  Você pode usar esse recurso opcional com a área de trabalho gerenciada da Microsoft.
+Segurança no aplicativo na nuvem da Microsoft |  Você pode usar esse recurso opcional com a área de trabalho gerenciada da Microsoft.
 Proteção de informações do Azure P2  | Você pode usar esse recurso opcional com a área de trabalho gerenciada da Microsoft.

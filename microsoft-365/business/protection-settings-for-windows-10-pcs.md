@@ -1,5 +1,5 @@
 ---
-title: Defina configurações de proteção de dispositivos para PCs com Windows 10
+title: Editar ou criar configurações de proteção de dispositivos para computadores com Windows 10
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,32 +22,30 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
-description: Saiba mais sobre o padrão e outras configurações disponíveis no Microsoft 365 for Business para proteger dispositivos Windows 10.
-ms.openlocfilehash: af3f58ba13a1011e65be45337c63ff714bfdaf0c
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: Saiba mais sobre as configurações disponíveis no Microsoft 365 for Business para proteger dispositivos Windows 10.
+ms.openlocfilehash: bd992113403c7134fb32bc6cced5bf216843241b
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470838"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289146"
 ---
-# <a name="set-device-protection-settings-for-windows-10-pcs"></a>Defina configurações de proteção de dispositivos para PCs com Windows 10
+# <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>Editar ou criar configurações de proteção de dispositivos para computadores com Windows 10
 
 Este artigo se aplica ao Microsoft 365 Business Premium.
 
-## <a name="secure-windows-10-devices"></a>Proteger dispositivos Windows 10
+Após definir as configurações padrão de proteção do Windows na página de instalação, você pode adicionar novos que se apliquem a todos os usuários ou a um conjunto de usuários. Você também pode editar qualquer um dos que você criou.
 
-Assista a um vídeo sobre como proteger dispositivos Windows 10 com o Microsoft 365 for Business:
+## <a name="create-protection-settings-for-windows-10-devices"></a>Criar configurações de proteção para dispositivos Windows 10
+
+Assista a um vídeo sobre como proteger dispositivos Windows 10 com o Microsoft 365 Business Premium:
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
-    
 2. No painel de navegação esquerdo, **Devices** escolha \> **Policies** \> **Adicionar**políticas de dispositivos.
-  
 3. No painel **Adicionar política**, insira um nome exclusivo para essa política. 
-    
 4. Em **Tipo de política**, escolha **Configuração de Dispositivo Windows 10**.
-    
 5. Expanda **Proteger dispositivos Windows 10** \> defina as configurações como desejar. Para obter mais informações, consulte [Available Settings](#available-settings). 
     
     Você sempre poderá usar o link **Redefinir as configurações padrão** para voltar para a configuração padrão. 
@@ -55,9 +53,15 @@ Assista a um vídeo sobre como proteger dispositivos Windows 10 com o Microsoft 
     ![Add policy pane with Windows 10 Device configuration selected](../media/fa9e2dc2-7eae-4c96-af34-765a1f641ecf.png)
   
 6. Em seguida, decida **Quem receberá estas configurações?** Se não quiser usar o grupo de segurança padrão **Todos os usuários**, escolha **Alterar**, pesquise o grupo de segurança que deverá receber essas configurações \> **Selecionar**.
-    
 7. Por fim, escolha **Concluído** para salvar a política e atribui-la a dispositivos. 
-    
+
+## <a name="edit-windows-10-protection-settings"></a>Editar configurações de proteção do Windows 10
+ 
+1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.     
+2. No painel de navegação esquerdo, escolha políticas de **dispositivos** \> **Policies** .
+1. Escolha uma política de dispositivo do Windows existente e **edite**-a.
+1. Escolha **Editar** ao lado de uma configuração que você deseja alterar e depois **salvar**.
+
 ## <a name="available-settings"></a>Configurações disponíveis
 
 Todas as configurações são **Ativadas** por padrão. As configurações a seguir estão disponíveis.
@@ -66,7 +70,7 @@ Para obter mais informações, consulte [como os recursos de proteção no Micro
   
 |||
 |:-----|:-----|
-|Configuração  <br/> |Descrição  <br/> |
+|Setting  <br/> |Descrição  <br/> |
 |Ajudar a proteger PCs contra vírus e outras ameaças usando o Windows Defender Antivirus  <br/> |Exige que o Windows Defender Antivírus esteja ativado para proteger computadores contra os riscos de estar conectado à Internet.  <br/> |
 |Ajudar a proteger PCs contra ameaças baseadas na Web no Microsoft Edge  <br/> |Ativa as configurações do Microsoft Edge que ajudam a proteger os usuários contra sites e downloads mal-intencionados.  <br/> |
 |Usar regras que reduzem a superfície de ataque de dispositivos  <br/> |Quando ativada, a redução da superfície de ataque ajuda a bloquear ações e aplicativos normalmente usados por malware para infectar dispositivos. Esta configuração só estará disponível se o Windows Defender Antivírus for definido como ativado. Confira [Reduzir superfícies de ataque](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/exploit-protection) para saber mais.  <br/> |

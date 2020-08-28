@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d8a5775d90f592aa5f64dd5f379fb37278032d87
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 8b287200b1c94ff350f7ba00cf0c4e6bc1b4a71f
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529798"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289256"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>Adicione e verifique contatos do administrador no portal do Administrador
 
@@ -42,7 +42,7 @@ Os contatos do administrador devem ser a melhor pessoa ou grupo que pode respond
 Pacote de aplicativos | Solucionando problemas de pacotes de aplicativos
 Dispositivos | Integridade do dispositivo, Solucionando problemas com dispositivos de área de trabalho gerenciada da Microsoft
 Segurança | Solucionando problemas de segurança com dispositivos de área de trabalho gerenciada da Microsoft
-Assistência técnica de ti | nos casos em que nossa equipe de suporte passa as permissões do usuário final para fora das áreas de suporte da área de trabalho gerenciada da Microsoft 
+Assistência técnica de ti | nos casos em que nossa equipe de suporte passa as permissões do usuário para fora das áreas de suporte da área de trabalho gerenciada da Microsoft 
 Outros | Para problemas não cobertos por outras áreas
 
 **Quem escolher para esses contatos precisa ter o conhecimento e a autoridade para tomar decisões para seu ambiente de área de trabalho gerenciada da Microsoft.** Quando você integra seu ambiente de área de trabalho gerenciada da Microsoft, você é solicitado a adicionar contatos para sua assistência técnica e segurança local. 

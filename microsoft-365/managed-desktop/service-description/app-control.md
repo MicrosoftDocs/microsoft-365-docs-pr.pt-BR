@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f11c7a4aa69c96232a33c565e7bf20d04b96d1f7
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 32ed3f95ebb4299796c5ad3eb71802c949701b65
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529966"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289122"
 ---
 # <a name="app-control"></a>Controle de aplicativos
 
@@ -24,7 +24,7 @@ O controle de aplicativos é uma prática de segurança opcional na área de tra
 O Microsoft Managed desktop simplifica o gerenciamento de políticas de controle de aplicativos criando uma política de base que permite cenários de produtividade principal. Você pode estender a confiança para os assinadores adicionais que são específicos para os aplicativos e scripts em seu ambiente. 
 
 
-Qualquer tecnologia de segurança requer um equilíbrio entre a experiência do usuário, a segurança e o custo. O controle de aplicativos reduz a ameaça de software mal-intencionado em seu ambiente, mas há conseqüências para o usuário final e ações adicionais para seu administrador de ti.
+Qualquer tecnologia de segurança requer um equilíbrio entre a experiência do usuário, a segurança e o custo. O controle de aplicativos reduz a ameaça de software mal-intencionado em seu ambiente, mas há conseqüências para o usuário e ações adicionais para seu administrador de ti.
 
 **Segurança adicional:**
 
@@ -73,7 +73,7 @@ Essa política cria logs para registrar se um aplicativo ou script será bloquea
 ### <a name="enforced-policy"></a>Política imposta
 Essa política bloqueia a execução de aplicativos e scripts não confiáveis e cria logs sempre que um aplicativo ou script é bloqueado. As políticas impostas impedem que os usuários padrão executem aplicativos ou scripts armazenados em diretórios graváveis pelo usuário.
 
-Os dispositivos no grupo de teste têm uma política de auditoria aplicada para que você possa usá-los para validar se algum aplicativo causará problemas. Todos os outros grupos (primeiro, rápido e amplo) usam uma política imposta, portanto, os usuários finais desses grupos não poderão executar aplicativos ou scripts não confiáveis.
+Os dispositivos no grupo de teste têm uma política de auditoria aplicada para que você possa usá-los para validar se algum aplicativo causará problemas. Todos os outros grupos (primeiro, rápido e amplo) usam uma política imposta, portanto, os usuários desses grupos não poderão executar aplicativos ou scripts não confiáveis.
 
 
 

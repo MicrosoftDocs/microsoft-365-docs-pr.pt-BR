@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: a9ff0e76448df183ac5c34c5832155e0b135d313
-ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
+ms.openlocfilehash: 51c241c46a4c8745bcae169a1c1d89e5c4393f2f
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868979"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289134"
 ---
 # <a name="register-existing-devices-yourself"></a>Registre dispositivos existentes por conta própria
 
@@ -142,7 +142,7 @@ No [portal de administração](https://aka.ms/mmdportal)de área de trabalho ger
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 
-Execute estas etapas:
+Siga estas etapas:
 
 1. Em **upload de arquivo**, forneça um caminho para o arquivo CSV que você criou anteriormente.
 
@@ -155,9 +155,9 @@ Você pode monitorar o progresso do registro de dispositivo na página principal
 |---------------|-------------|
 | AutopilotRegistrationRequested | O registro ainda não foi feito. Verifique novamente mais tarde. |
 | Falha no registro | Não foi possível concluir o registro. Consulte [Solucionando problemas de registro de dispositivo](#troubleshooting-device-registration) para obter mais informações. |
-| Pronto para o usuário | O registro foi bem-sucedido e o dispositivo agora está pronto para ser entregue ao usuário final. A área de trabalho gerenciada da Microsoft irá orientá-lo pela primeira vez na configuração, portanto, não é necessário fazer mais preparativos. |
-| Ativo | O dispositivo foi entregue ao usuário final e foi registrado com seu locatário. Isso também indica que eles estão usando o dispositivo regularmente. |
-| Inativa | O dispositivo foi entregue ao usuário final e foi registrado com seu locatário. No entanto, eles não usaram o dispositivo recentemente (nos últimos 7 dias).  | 
+| Pronto para o usuário | O registro foi bem-sucedido e o dispositivo agora está pronto para ser entregue ao usuário. A área de trabalho gerenciada da Microsoft irá orientá-lo pela primeira vez na configuração, portanto, não é necessário fazer mais preparativos. |
+| Ativo | O dispositivo foi entregue ao usuário e foi registrado com seu locatário. Isso também indica que eles estão usando o dispositivo regularmente. |
+| Inativa | O dispositivo foi entregue ao usuário e foi registrado com seu locatário. No entanto, eles não usaram o dispositivo recentemente (nos últimos 7 dias).  | 
 
 #### <a name="troubleshooting-device-registration"></a>Solucionando problemas de registro do dispositivo
 

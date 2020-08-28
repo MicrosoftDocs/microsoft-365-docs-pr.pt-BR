@@ -1,5 +1,5 @@
 ---
-title: Definir configurações de proteção de aplicativo para dispositivos Windows 10
+title: Editar ou definir configurações de proteção de aplicativo para dispositivos Windows 10
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -28,38 +28,37 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
-description: Saiba como criar uma política de gerenciamento de aplicativos e proteger arquivos de trabalho nos dispositivos do Windows 10 pessoais de seus usuários.
-ms.openlocfilehash: df10470c6bd7aad2f35700a267c4d24d949f569c
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: Saiba como criar ou editar políticas de gerenciamento de aplicativos e proteger arquivos de trabalho nos dispositivos do Windows 10 pessoais de seus usuários.
+ms.openlocfilehash: f85a59649e43c141b62091337b842a490d411833
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470858"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289190"
 ---
-# <a name="set-application-protection-settings-for-windows-10-devices"></a>Definir configurações de proteção de aplicativo para dispositivos Windows 10
+# <a name="set-or-edit-application-protection-settings-for-windows-10-devices"></a>Definir ou editar configurações de proteção de aplicativo para dispositivos Windows 10
 
 Este artigo se aplica ao Microsoft 365 Business Premium.
+
+## <a name="edit-an-app-management-policy-for-windows-10"></a>Editar uma política de gerenciamento de aplicativos para o Windows 10
+
+1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.     
+2. No painel de navegação esquerdo, escolha políticas de **dispositivos** \> **Policies** .
+1. Escolha uma política de aplicativo do Windows existente e **edite**-a.
+1. Escolha **Editar** ao lado de uma configuração que você deseja alterar e depois **salvar**.
 
 ## <a name="create-an-app-management-policy-for-windows-10"></a>Criar uma política de gerenciamento de aplicativos para Windows 10
 
 Se seus usuários possuírem dispositivos pessoais do Windows 10 nos quais executam tarefas de trabalho, você também pode proteger seus dados nesses dispositivos.
   
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
-    
 2. No painel de navegação esquerdo, **Devices** escolha \> **Policies** \> **Adicionar**políticas de dispositivos.
-
 3. No painel **Adicionar política**, insira um nome exclusivo para essa política. 
-    
 4. Em **Tipo de política**, escolha **Gerenciamento de Aplicativos para Windows 10**.
-    
 5. Em **tipo de dispositivo**, escolha **pessoal** ou **empresa de propriedade**.
-    
 6. A opção **Criptografar arquivos de trabalho** é ativada automaticamente. 
-    
 7. Defina **Impedir que os usuários copiem os dados da empresa para arquivos pessoais e forçar que eles salvem arquivos de trabalho no OneDrive for Business** para **Ativado** se não quiser que os usuários salvem arquivos de trabalho em seus computadores. 
-    
 9. Expanda **recuperar dados em dispositivos Windows**. Recomendamos **ativá-la**.
-    
     Antes de poder navegar para o local do certificado do Agente de Recuperação de Dados, você precisa primeiro criar um. Para obter instruções, consulte [criar e verificar um certificado de agente de recuperação de dados (EFS) do sistema de arquivos com criptografia (EFS](https://go.microsoft.com/fwlink/p/?linkid=853700)).
     
     Por padrão, os arquivos de trabalho são criptografados usando uma chave secreta que é armazenada no dispositivo e associada ao perfil do usuário. Somente o usuário pode abrir e descriptografar o arquivo. No entanto, se um dispositivo for perdido ou um usuário for removido, um arquivo pode ficar preso em um estado criptografado. Um administrador pode usar o certificado de agente de recuperação de dados (DRA) para descriptografar o arquivo.
@@ -71,5 +70,4 @@ Se seus usuários possuírem dispositivos pessoais do Windows 10 nos quais execu
     ![Expand Protect additional network and cloud locations, and enter domains or SharePoint Online sites you own.](../media/7afaa0c7-ba53-456d-8c61-312c45e09625.png)
   
 11. Em seguida, decida **Quem receberá estas configurações?** Se não quiser usar o grupo de segurança padrão **Todos os Usuários**, escolha **Alterar**, escolha o grupo de segurança que deverá receber essas configurações \> **Selecionar**.
-    
 12. Por fim, escolha **Adicionar** para salvar a política e atribui-la a dispositivos. 

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: 'Encontre as etapas aqui para transferir um domínio da Microsoft para outro registrador. '
-ms.openlocfilehash: 7e00f5ae2c36a06803a3f7a8acd825dcab90805c
-ms.sourcegitcommit: 6fb2a1c404ea3c3573b0f7803bf17459a9387891
+ms.openlocfilehash: c5c1e98ed14c3ac975e55aadbff65e52165a6f8b
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788971"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289166"
 ---
 # <a name="transfer-a-domain-from-microsoft-to-another-host"></a>Transferir um domínio da Microsoft para outro host
 
@@ -43,7 +43,7 @@ Siga estas etapas para obter um código no Microsoft 365 e, em seguida, vá para
 
 1. No centro de administração, vá para domínios de  **configurações**   >  **Domains**.
 
-2. <na página **domínios** , selecione o domínio do Microsoft 365 que você deseja transferir para outro registrador de domínios e, em seguida, selecione **verificar integridade**.
+2. Na página **domínios** , selecione o domínio do Microsoft 365 que você deseja transferir para outro registrador de domínios e, em seguida, selecione **verificar integridade**.
 
 3. Na parte superior da página, selecione o **domínio de transferência**.
 

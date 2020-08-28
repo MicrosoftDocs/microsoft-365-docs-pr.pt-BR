@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 4c44610f4d74fe9ebf3c8e549692d9cc7cc6cb34
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: 5fde3c6d5fd14bd0e4d108030ffaa8e5aeb5ed5c
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597418"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289316"
 ---
 # <a name="plan-for-communication-compliance"></a>Planejar a conformidade em comunicações
 
@@ -42,25 +42,25 @@ Identifique os participantes apropriados em sua organização para colaborar par
 
 ## <a name="plan-for-the-investigation-and-remediation-workflow"></a>Planejar o fluxo de trabalho de investigação e correção
 
-Selecione participantes dedicados para monitorar e revisar os alertas e casos em uma cadência regular no [centro de conformidade da Microsoft 365](https://compliance.microsoft.com/). Certifique-se de entender como você atribuirá diferentes funções de conformidade de comunicação aos participantes da sua organização.
+Selecione participantes dedicados para monitorar e revisar os alertas e casos em uma cadência regular no [centro de conformidade da Microsoft 365](https://compliance.microsoft.com/). Certifique-se de entender como você atribuirá usuários e participantes a diferentes grupos de funções de conformidade de comunicação em sua organização.
 
-Dependendo de como você deseja gerenciar políticas e alertas de comunicação, você precisará criar um ou mais novos grupos de função para administradores, revisores e investigadores. Você tem a opção de atribuir usuários a grupos de função específicos para gerenciar diferentes conjuntos de recursos de conformidade de comunicação. Ou você pode decidir criar um grupo de função e atribuir todas as funções de conformidade de comunicação ao grupo. Crie um único grupo de função ou vários grupos para atender melhor aos seus requisitos de gerenciamento de conformidade.
+Dependendo de como você deseja gerenciar políticas e alertas de comunicação, você precisará atribuir usuários a um ou mais grupos de função para administradores, revisores e investigadores. Você tem a opção de atribuir usuários a grupos de função específicos para gerenciar diferentes conjuntos de recursos de conformidade de comunicação. Ou você pode decidir atribuir todos os usuários de conformidade de comunicação com o grupo de funções de conformidade de comunicação. Use um único grupo de função ou vários grupos para atender melhor aos seus requisitos de gerenciamento de conformidade.
 
-Planeje escolher entre estas opções de função ao configurar seus grupos de função de conformidade de comunicação:
+Planeje escolher entre estas opções de grupo de funções ao configurar a conformidade de comunicação:
 
 |**Função**|**Permissões de função**|
 |:-----|:-----|
-| **Administração de conformidade de comunicação** | Os usuários atribuídos a essa função podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupos de função. Os usuários atribuídos a essa função não podem exibir alertas de mensagem. |
-| **Análise de conformidade de comunicação** | Os usuários atribuídos a essa função podem exibir as políticas em que foram atribuídas como revisores, Exibir metadados de mensagem (não o conteúdo da mensagem), escalonar para revisores adicionais ou enviar notificações aos usuários. Os analistas não podem resolver alertas pendentes. |
-| **Investigação de conformidade de comunicação** | Os usuários atribuídos a essa função podem exibir metadados e conteúdo de mensagens, escalonar para revisores adicionais, escalonar para uma ocorrência de descoberta eletrônica avançada, enviar notificações aos usuários e resolver o alerta. |
-| **Visualizador de conformidade de comunicação** | Os usuários atribuídos a essa função podem acessar todos os widgets de relatório na home page de conformidade de comunicação e podem exibir todos os relatórios de conformidade de comunicação. |
-| **Gerenciamento de casos de conformidade de comunicação** | Os usuários atribuídos a essa função podem gerenciar casos e agir em alertas. Essa função é necessária para criar grupos de funções personalizados para administradores, analistas e investigadores. Os grupos personalizados para visualizadores não precisam dessa função atribuída. |
+| **Conformidade de comunicação** | Use esse grupo de funções para gerenciar a conformidade de comunicação para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores, analistas, investigadores e visualizadores designados, você pode configurar as permissões de conformidade de comunicação em um único grupo. Esse grupo de função contém todas as funções de permissão de conformidade de comunicação. Essa configuração é a maneira mais fácil de começar rapidamente a conformidade com comunicações e é uma boa opção para organizações que não precisam de permissões separadas definidas para grupos de usuários separados. |
+| **Administração de conformidade de comunicação** | Use esse grupo de função para configurar inicialmente a conformidade de comunicação e mais tarde para segregar os administradores de conformidade de comunicação em um grupo definido. Os usuários atribuídos a esse grupo de funções podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupos de função. Os usuários atribuídos a este grupo de funções não podem exibir alertas de mensagem. |
+| **Analista de conformidade de comunicação** | Use esse grupo para atribuir permissões a usuários que atuarão como analistas de conformidade de comunicação. Os usuários atribuídos a esse grupo de funções podem exibir as políticas nas quais são atribuídas como revisores, Exibir metadados de mensagem (não o conteúdo da mensagem), escalonar para revisores adicionais ou enviar notificações aos usuários. Os analistas não podem resolver alertas pendentes. |
+| **Investigador de conformidade com comunicações** | Use esse grupo para atribuir permissões a usuários que atuarão como investigadores de conformidade de comunicação. Os usuários atribuídos a esse grupo de funções podem exibir metadados e conteúdo de mensagens, escalonar para revisores adicionais, escalonar para uma caixa de descoberta eletrônica avançada, enviar notificações aos usuários e resolver o alerta. |
+| **Visualizador de conformidade de comunicação** | Use esse grupo para atribuir permissões a usuários que irão gerenciar relatórios de comunicação. Os usuários atribuídos a esse grupo de funções podem acessar todos os widgets de relatórios na home page de conformidade de comunicação e podem exibir todos os relatórios de conformidade de comunicação. |
 
 ## <a name="plan-for-policies"></a>Planejar políticas
 
 A criação de políticas de conformidade de comunicação é rápida e fácil com os [modelos predefinidos](communication-compliance-feature-reference.md#policy-templates) para linguagem ofensiva, informações confidenciais e conformidade normativa. As políticas de conformidade de comunicação personalizadas permitem a flexibilidade para detectar e investigar problemas específicos da sua organização e seus requisitos.
 
-Ao planejar políticas de conformidade de comunicação, considere o seguinte:
+Ao planejar políticas de conformidade de comunicação, considere as seguintes áreas:
 
 - Considere a adição de todos os usuários em sua organização como dentro do escopo para suas políticas de conformidade de comunicação. A identificação de usuários específicos como dentro do escopo para políticas individuais é útil em algumas circunstâncias, no entanto, a maioria das organizações deve incluir todos os usuários em políticas de conformidade de comunicação otimizadas para detecção de discriminação ou assédio.
 - Para simplificar a configuração, considere a criação de grupos para pessoas que precisam de suas comunicações revisadas. Se você estiver usando grupos; Você pode precisar de vários. Por exemplo, se você quiser examinar as comunicações entre dois grupos distintos de pessoas ou se quiser especificar um grupo que não é supervisionado.

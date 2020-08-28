@@ -9,16 +9,16 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 826710bf59acd88494adf1f154e5657d1e039af7
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 0785d7ac12c7b027322338d9949a10ea30168b3b
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529930"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289056"
 ---
 # <a name="exceptions-to-the-service-plan"></a>Exceções ao plano de serviço
 
-O Microsoft Managed Desktop fornece uma lista de dispositivos organizadas, [configurações de dispositivo padrão](device-policies.md), requisitos de aplicativos e determinadas [configurações configuráveis](../working-with-managed-desktop/config-setting-overview.md), todas projetadas para fornecer uma experiência segura, produtiva e agradável para os usuários finais. É melhor estar sempre com o serviço conforme fornecido. No entanto, reconhecemos que alguns detalhes do serviço podem não se ajustar exatamente às necessidades da sua organização. Se você achar que precisa alterar o serviço de alguma forma, é importante que siga os processos a seguir para solicitar essas alterações.
+O Microsoft Managed Desktop fornece uma lista de dispositivos organizadas, [configurações de dispositivo padrão](device-policies.md), requisitos de aplicativos e determinadas [configurações configuráveis](../working-with-managed-desktop/config-setting-overview.md), todas projetadas para fornecer uma experiência segura, produtiva e agradável para os usuários. É melhor estar sempre com o serviço conforme fornecido. No entanto, reconhecemos que alguns detalhes do serviço podem não se ajustar exatamente às necessidades da sua organização. Se você achar que precisa alterar o serviço de alguma forma, é importante que siga os processos a seguir para solicitar essas alterações.
  
 ## <a name="types-of-exceptions"></a>Tipos de exceções
 
@@ -26,7 +26,7 @@ Uma exceção é qualquer adição ou alteração na configuração base de áre
 
 |Tipo  |Descrição  |
 |---------|---------|
-|Software de produtividade     |  Software de primeiro plano necessário para usuários finais, restrito pelos [requisitos do aplicativo](mmd-app-requirements.md)       |
+|Software de produtividade     |  Software de primeiro plano necessário para os usuários, restrito pelos [requisitos do aplicativo](mmd-app-requirements.md)       |
 |Agentes de segurança & VPNs     |  Software usado para proteger, monitorar ou alterar o comportamento do dispositivo ou da rede       |
 |Monitoramento de experiência digital     |  Software usado para rastrear dados no dispositivo de um usuário para relatá-los       |
 |Drivers de hardware ou software     |   Drivers de dispositivo, restritos pelos [requisitos do aplicativo](mmd-app-requirements.md)      |
@@ -48,7 +48,7 @@ Envie solicitações através do portal de administração de área de trabalho 
 Quando analisamos as solicitações de exceção, avaliamos esses fatores nesta ordem:
  
 1.  Alguns aplicativos e políticas que a área de trabalho gerenciada da Microsoft implantam em todos os dispositivos não estão negociáveis e, portanto, a solicitação não deve ser afetada. Consulte [configuração de dispositivo](device-policies.md) para obter mais informações.
-2.  O software de produtividade restrita exigido por um usuário final para realizar seu trabalho provavelmente será aprovado. 
+2.  O software de produtividade restrita exigido por um usuário para realizar seu trabalho provavelmente será aprovado. 
 3.  Se pudermos atender seus requisitos usando a tecnologia da Microsoft, provavelmente aprovaremos sua solicitação para um período de migração de exceção de três a doze meses (dependendo do escopo do projeto).
 4.  Se não pudermos atender seus requisitos usando a tecnologia da Microsoft, provavelmente aprovaremos sua solicitação, a menos que viole uma das condições abaixo.  
 

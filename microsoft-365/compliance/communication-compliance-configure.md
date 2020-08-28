@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: c61529b612079c93e3c175a67fccd32a7c561400
-ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
+ms.openlocfilehash: 361e20129e67832c21631ebf1dbf0031319489ed
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597561"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289112"
 ---
 # <a name="get-started-with-communication-compliance"></a>Introdução à conformidade de comunicação
 
@@ -57,69 +57,57 @@ Se você não tiver um plano existente do Office 365 Enterprise E5 e quiser expe
 >[!Important]
 >Por padrão, os administradores globais não têm acesso aos recursos de conformidade de comunicação. As funções atribuídas nesta etapa são necessárias para que qualquer recurso de conformidade de comunicação possa ser acessado.
 
-Há cinco funções usadas para configurar permissões para gerenciar recursos de conformidade de comunicação. Para tornar a **conformidade de comunicação** disponível como uma opção de menu no centro de conformidade do Microsoft 365 e para continuar com essas etapas de configuração, você deve receber a função de administrador de conformidade de *comunicação* .
+Há cinco grupos de função usados para configurar permissões para gerenciar recursos de conformidade de comunicação. Para tornar a **conformidade de comunicação** disponível como uma opção de menu no centro de conformidade do Microsoft 365 e para continuar com essas etapas de configuração, você deve estar atribuído aos grupos de função de administrador de conformidade de *comunicação* ou de *conformidade* de comunicação. Para acessar e gerenciar recursos de conformidade de comunicação após a configuração inicial, os usuários devem ser membros de pelo menos um grupo de função de conformidade de comunicação.
 
-Dependendo de como você deseja gerenciar políticas e alertas de comunicação, você precisará criar um ou mais novos grupos de função para administradores, revisores e investigadores. Você tem a opção de atribuir usuários a grupos de função específicos para gerenciar diferentes áreas de recursos de conformidade de comunicação. Ou você pode decidir criar um grupo de função e atribuir todas as funções de conformidade de comunicação ao grupo. Crie um único grupo de função ou vários grupos de função para atender melhor aos seus requisitos de gerenciamento de conformidade.
+Dependendo de como você deseja gerenciar políticas e alertas de comunicação, você precisará atribuir usuários a grupos de função específicos. Você tem a opção de atribuir diferentes responsabilidades de conformidade a grupos de função específicos para gerenciar diferentes áreas de recursos de conformidade de comunicação. Ou você pode decidir atribuir todas as contas de usuário para administradores, analistas, investigadores e visualizadores designados ao grupo de funções de *conformidade de comunicação* . Use um único grupo de função ou vários grupos de função para atender melhor aos seus requisitos de gerenciamento de conformidade.
 
-Escolha uma destas opções de função ao configurar seus grupos de função de conformidade de comunicação:
+Escolha uma destas opções de grupo de funções ao configurar a conformidade de comunicação:
 
 |**Função**|**Permissões de função**|
 |:-----|:-----|
-| **Administração de conformidade de comunicação** | Os usuários atribuídos a essa função podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupos de função. Os usuários atribuídos a essa função não podem exibir alertas de mensagem. |
-| **Análise de conformidade de comunicação** | Os usuários atribuídos a essa função podem exibir as políticas em que foram atribuídas como revisores, Exibir metadados de mensagem (não o conteúdo da mensagem), escalonar para revisores adicionais ou enviar notificações aos usuários. Os analistas não podem resolver alertas pendentes. |
-| **Investigação de conformidade de comunicação** | Os usuários atribuídos a essa função podem exibir metadados e conteúdo de mensagens, escalonar para revisores adicionais, escalonar para uma ocorrência de descoberta eletrônica avançada, enviar notificações aos usuários e resolver o alerta. |
-| **Visualizador de conformidade de comunicação** | Os usuários atribuídos a essa função podem acessar todos os widgets de relatório na home page de conformidade de comunicação e podem exibir todos os relatórios de conformidade de comunicação. |
-| **Gerenciamento de casos de conformidade de comunicação** | Os usuários atribuídos a essa função podem gerenciar casos e agir em alertas. Essa função é necessária para criar grupos de funções personalizados para administradores, analistas e investigadores. Os grupos personalizados para visualizadores não precisam dessa função atribuída. |
+| **Conformidade de comunicação** | Use esse grupo de funções para gerenciar a conformidade de comunicação para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores, analistas, investigadores e visualizadores designados, você pode configurar as permissões de conformidade de comunicação em um único grupo. Esse grupo de função contém todas as funções de permissão de conformidade de comunicação. Essa configuração é a maneira mais fácil de começar rapidamente a conformidade com comunicações e é uma boa opção para organizações que não precisam de permissões separadas definidas para grupos de usuários separados. |
+| **Administração de conformidade de comunicação** | Use esse grupo de função para configurar inicialmente a conformidade de comunicação e mais tarde para segregar os administradores de conformidade de comunicação em um grupo definido. Os usuários atribuídos a esse grupo de funções podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupos de função. Os usuários atribuídos a este grupo de funções não podem exibir alertas de mensagem. |
+| **Analista de conformidade de comunicação** | Use esse grupo para atribuir permissões a usuários que atuarão como analistas de conformidade de comunicação. Os usuários atribuídos a esse grupo de funções podem exibir as políticas nas quais são atribuídas como revisores, Exibir metadados de mensagem (não o conteúdo da mensagem), escalonar para revisores adicionais ou enviar notificações aos usuários. Os analistas não podem resolver alertas pendentes. |
+| **Investigador de conformidade com comunicações** | Use esse grupo para atribuir permissões a usuários que atuarão como investigadores de conformidade de comunicação. Os usuários atribuídos a esse grupo de funções podem exibir metadados e conteúdo de mensagens, escalonar para revisores adicionais, escalonar para uma caixa de descoberta eletrônica avançada, enviar notificações aos usuários e resolver o alerta. |
+| **Visualizador de conformidade de comunicação** | Use esse grupo para atribuir permissões a usuários que irão gerenciar relatórios de comunicação. Os usuários atribuídos a esse grupo de funções podem acessar todos os widgets de relatórios na home page de conformidade de comunicação e podem exibir todos os relatórios de conformidade de comunicação. |
 
-### <a name="option-1-create-a-new-role-group-with-all-communication-compliance-roles"></a>Opção 1: criar um novo grupo de função com todas as funções de conformidade de comunicação
-
-1. Entre [https://protection.office.com/permissions](https://protection.office.com/permissions) usando as credenciais de uma conta de administrador na sua organização do Microsoft 365.
-
-2. No centro de &amp; conformidade de segurança, acesse **permissões**. Selecione o link para exibir e gerenciar funções no Office 365.
-
-3. Selecione **Criar**.
-
-4. No campo **nome** , dê um nome amigável ao novo grupo de funções. Selecione **Avançar**.
-
-5. Selecione **escolher funções** e, em seguida, selecione **Adicionar**. Marque as caixas de seleção das seguintes funções:
-
-    - Administração de conformidade de comunicação
-    - Análise de conformidade de comunicação
-    - Investigação de conformidade de comunicação
-    - Visualizador de conformidade de comunicação
-    - Gerenciamento de casos de conformidade de comunicação
-
-    ![Funções de conformidade de comunicação](../media/communication-compliance-case-roles.png)
-
-6. Selecione **Adicionar** e **concluir**e, em seguida, selecione **Avançar** para continuar.
-
-7. Selecione **escolher Membros** e selecione **Adicionar**. Marque a caixa de seleção de todos os usuários e grupos que você deseja criar políticas e gerenciar mensagens com correspondências de política e, em seguida, selecione **Adicionar** e **concluir**. Selecione **Avançar**.
-
-8. Selecione **Criar grupo de função** para concluir.
-
-### <a name="option-2-create-new-role-groups-with-different-communication-compliance-roles"></a>Opção 2: criar novos grupos de função com diferentes funções de conformidade de comunicação
-
-Crie vários grupos de função para segmentar o acesso à conformidade de comunicação e as responsabilidades entre diferentes usuários da organização. Para cada novo grupo de funções, você atribuirá diferentes funções de conformidade de comunicação.
+### <a name="option-1-assign-all-compliance-users-to-the-communication-compliance-role-group"></a>Opção 1: atribuir todos os usuários de conformidade ao grupo de funções de conformidade de comunicação
 
 1. Entre [https://protection.office.com/permissions](https://protection.office.com/permissions) usando as credenciais de uma conta de administrador na sua organização do Microsoft 365.
 
 2. No centro de &amp; conformidade de segurança, acesse **permissões**. Selecione o link para exibir e gerenciar funções no Office 365.
 
-3. Selecione **Criar**.
+3. Selecione o grupo de função *conformidade de comunicação* e, em seguida, selecione **Editar grupo de função**.
 
-4. No campo **nome** , dê um nome amigável ao novo grupo de funções. Selecione **Avançar**.
+4. Selecione **escolher Membros** no painel de navegação esquerdo e, em seguida, selecione **Editar**.
 
-5. Selecione **escolher funções** e, em seguida, selecione **Adicionar**. Marque a caixa de seleção para as funções de conformidade de comunicação que você deseja atribuir a este grupo. Por exemplo, se esse grupo de função for analista de conformidade em sua organização, você selecionará as funções de gerenciamento de *casos de conformidade* de comunicação e *análise de conformidade de comunicação* . Se esse grupo de função é para os investigadores de conformidade, você deve selecionar as funções de *Gerenciamento de casos de conformidade* de *conformidade e investigação de conformidade* de comunicação.
+5. Selecione **Adicionar** e marque a caixa de seleção de todos os usuários que você deseja adicionar ao grupo de função *conformidade de comunicação* .
 
-    ![Funções de conformidade de comunicação](../media/communication-compliance-analysts-role-group.png)
+6. Selecione **Adicionar**e, em seguida, selecione **concluído**.
 
-6. Selecione **Adicionar** e **concluir**e, em seguida, selecione **Avançar** para continuar.
+7. Selecione **salvar** para adicionar os usuários ao grupo de funções. Selecione **fechar** para concluir as etapas
 
-7. Selecione **escolher Membros** e selecione **Adicionar**. Marque a caixa de seleção de todos os usuários e grupos que você deseja criar políticas e gerenciar mensagens com correspondências de política e, em seguida, selecione **Adicionar** e **concluir**. Selecione **Avançar**.
+### <a name="option-2-assign-users-to-specific-communication-compliance-role-groups"></a>Opção 2: atribuir usuários a grupos de funções de conformidade de comunicação específicos
 
-8. Selecione **Criar grupo de função** para concluir.
+Use essa opção para atribuir usuários a grupos de função específicos para segmentar o acesso à conformidade de comunicação e as responsabilidades entre diferentes usuários da organização.
 
-9. Crie grupos de função de conformidade de comunicação adicionais, conforme necessário.
+1. Entre [https://protection.office.com/permissions](https://protection.office.com/permissions) usando as credenciais de uma conta de administrador na sua organização do Microsoft 365.
+
+2. No centro de &amp; conformidade de segurança, acesse **permissões**. Selecione o link para exibir e gerenciar funções no Office 365.
+
+3. Selecione um dos grupos de função de conformidade de comunicação e, em seguida, selecione **Editar grupo de função**.
+
+4. Selecione **escolher Membros** no painel de navegação esquerdo e, em seguida, selecione **Editar**.
+
+5. Selecione **Adicionar** e marque a caixa de seleção de todos os usuários que você deseja adicionar ao grupo de funções.
+
+6. Selecione **Adicionar**e, em seguida, selecione **concluído**.
+
+7. Selecione **salvar** para adicionar os usuários ao grupo de funções.
+
+8. Selecione o próximo grupo de função de conformidade de comunicação e repita as etapas 4-7 para cada grupo de função necessário.
+
+9. Selecione **fechar** para concluir as etapas.
 
 Para obter mais informações sobre grupos de funções e permissões, consulte [permissões no centro de conformidade](../security/office-365-security/protect-against-threats.md).
 
@@ -138,7 +126,7 @@ Use o gráfico a seguir para ajudá-lo a configurar grupos na sua organização 
 | **Membro de política** | **Grupos com suporte** | **Grupos sem suporte** |
 |:-----|:-----|:-----|
 |Usuários supervisionados <br> Usuários não supervisionados | Grupos de distribuição <br> Grupos do Microsoft 365 | Grupos dinâmicos de distribuição |
-| Revisores | Nenhuma | Grupos de distribuição <br> Grupos dinâmicos de distribuição <br> Grupos de segurança habilitados para email |
+| Revisores | Nenhum | Grupos de distribuição <br> Grupos dinâmicos de distribuição <br> Grupos de segurança habilitados para email |
   
 Quando você atribui um grupo de distribuição na política, a política monitora todos os emails de cada usuário no grupo de distribuição. Quando você atribui um grupo do Microsoft 365 na política, a política monitora todos os emails enviados para esse grupo, não os emails individuais recebidos por cada membro do grupo.
 
