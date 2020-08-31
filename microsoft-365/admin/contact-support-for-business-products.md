@@ -21,12 +21,12 @@ search.appverid:
 description: Obtenha suporte técnico e de cobrança usando números de telefone listados para seu país ou região ou enviando uma solicitação de serviço online.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 1db89882db693c2102ca5c8dcb28f7ceb3ebf12e
-ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
+ms.openlocfilehash: f508607bb19a15fa089cf13eecfd7047f2e6f7bf
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46641580"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307356"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Maneiras de contatar o suporte para produtos comerciais - Ajuda para Administradores
 
@@ -35,7 +35,7 @@ ms.locfileid: "46641580"
 > [!IMPORTANT]
 > Você deve ser um administrador de uma assinatura comercial para usar esses métodos de suporte. Se você não é um administrador de negócios, use [esta página de suporte](https://support.microsoft.com/help/contactus).
 
-Comece [verificando a Integridade atual de seus serviços](https://docs.microsoft.com/office365/enterprise/view-service-health). Você pode exibir informações detalhadas sobre problemas atuais e passados ​​no <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">painel de integridade do serviço</a>. Se você estiver enfrentando um problema que não está listado, poderá obter suporte de uma das seguintes maneiras:
+Comece [verificando a Integridade atual de seus serviços](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health). Você pode exibir informações detalhadas sobre problemas atuais e passados ​​no <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">painel de integridade do serviço</a>. Se você estiver enfrentando um problema que não está listado, poderá obter suporte de uma das seguintes maneiras:
 
 ## <a name="online-support"></a>Suporte online
 

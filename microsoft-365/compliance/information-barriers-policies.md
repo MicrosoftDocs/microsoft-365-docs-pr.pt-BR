@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Saiba como definir políticas para barreiras de informações no Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be86816c559d0ac1873618cd51baa2ac24fb2db8
-ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
+ms.openlocfilehash: 024b10f86cb38532dc441ebd9c88c050fe2839b7
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46632092"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308070"
 ---
 # <a name="define-information-barrier-policies"></a>Definir políticas de barreira de informações
 
@@ -62,7 +62,7 @@ Além das [licenças e permissões necessárias](information-barriers.md#require
 - Dados de diretório-certifique-se de que a estrutura da sua organização é refletida nos dados de diretório. Para fazer isso, verifique se os atributos da conta de usuário, como associação de grupo, nome do departamento, etc. estão preenchidos corretamente no Azure Active Directory (ou Exchange Online). Para saber mais, confira os seguintes recursos:
   - [Atributos das políticas de barreira de informações](information-barriers-attributes.md)
   - [Adicionar ou atualizar as informações de perfil de um usuário usando o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
-  - [Configurar propriedades da conta de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)
+  - [Configurar propriedades da conta de usuário com o Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
 
 - Pesquisa de diretório com escopo-antes de definir a primeira política de barreira de informações da sua organização, você deve [habilitar a pesquisa de diretório com escopo no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-scoped-directory-search). Aguarde pelo menos 24 horas depois de habilitar a pesquisa de diretório com escopo antes de configurar ou definir as políticas de barreira de informações.
 
@@ -71,7 +71,7 @@ Além das [licenças e permissões necessárias](information-barriers.md#require
 - Nenhuma política de catálogo de endereços – antes de definir e aplicar as políticas de barreira de informações, certifique-se de que não haja nenhuma política do catálogo de endereços do Exchange. As barreiras de informação são baseadas nas políticas do catálogo de endereços, mas os dois tipos de políticas não são compatíveis. Se você tiver essas políticas, certifique-se de [remover primeiro as políticas do catálogo de endereços](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) . Quando as políticas de barreira de informações são habilitadas e você tem o catálogo de endereços hierárquico habilitado, todos os usuários ***que não estão incluídos*** em um segmento de barreira de informações verão o [Catálogo de endereços hierárquicos](https://docs.microsoft.com/exchange/address-books/hierarchical-address-books/hierarchical-address-books) no Exchange Online.
 
 - Atualmente, as políticas de barreira de informações são definidas e gerenciadas no centro de conformidade & segurança do Office 365 usando cmdlets do PowerShell. Embora vários exemplos sejam fornecidos neste artigo, você precisará estar familiarizado com os cmdlets e parâmetros do PowerShell. Você também precisará do módulo do Azure PowerShell.
-    - [Conecte-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
+    - [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
     - [Instalar o módulo do Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-2.3.2)
 
 - Consentimento do administrador para barreiras de informações no Microsoft Teams-quando suas políticas estão em vigor, as barreiras de informação podem remover pessoas de sessões de chat que não deveriam estar. Isso ajuda a garantir que sua organização permaneça em conformidade com políticas e regulamentações. Use o procedimento a seguir para permitir que as políticas de barreira de informações funcionem conforme o esperado no Microsoft Teams. 
@@ -117,7 +117,7 @@ Além da sua lista inicial de políticas, faça uma lista de segmentos para sua 
 Determine quais atributos dos dados de diretório da sua organização você usará para definir segmentos. Você pode usar *Department*, *memberOf*ou qualquer um dos atributos com suporte. Certifique-se de que você tem valores no atributo que você selecionou para os usuários. [Consulte a lista de atributos com suporte para barreiras de informações](information-barriers-attributes.md).
 
 > [!IMPORTANT]
-> **Antes de prosseguir para a próxima seção, certifique-se de que os dados do diretório têm valores para atributos que você pode usar para definir segmentos**. Se os dados do diretório não tiverem valores para os atributos que você deseja usar, as contas de usuário devem ser atualizadas para incluir essas informações antes de prosseguir com as barreiras de informação. Para obter ajuda com isso, consulte os seguintes recursos:<br/>- [Configurar propriedades da conta de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)<br/>- [Adicionar ou atualizar as informações de perfil de um usuário usando o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+> **Antes de prosseguir para a próxima seção, certifique-se de que os dados do diretório têm valores para atributos que você pode usar para definir segmentos**. Se os dados do diretório não tiverem valores para os atributos que você deseja usar, as contas de usuário devem ser atualizadas para incluir essas informações antes de prosseguir com as barreiras de informação. Para obter ajuda com isso, consulte os seguintes recursos:<br/>- [Configurar propriedades da conta de usuário com o Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>- [Adicionar ou atualizar as informações de perfil de um usuário usando o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 ### <a name="define-segments-using-powershell"></a>Definir segmentos usando o PowerShell
 
@@ -232,7 +232,7 @@ As políticas de barreira de informações não estão em vigor até que você a
 
 1. Use o cmdlet **Get-InformationBarrierPolicy** para ver uma lista de políticas que foram definidas. Observe o status e a identidade (GUID) de cada política.
 
-    Possuem`Get-InformationBarrierPolicy`
+    Possuem `Get-InformationBarrierPolicy`
 
 2. Para definir uma política para o status ativo, use o cmdlet **set-InformationBarrierPolicy** com um parâmetro **Identity** e o parâmetro **State** definido como **ativo**. 
 
@@ -244,7 +244,7 @@ As políticas de barreira de informações não estão em vigor até que você a
 
 3. Ao concluir a configuração das políticas de barreira de informações para o status ativo, use o cmdlet **Start-InformationBarrierPoliciesApplication** no centro de conformidade de & de segurança.
 
-    Possuem`Start-InformationBarrierPoliciesApplication`
+    Possuem `Start-InformationBarrierPoliciesApplication`
 
     Após a execução, `Start-InformationBarrierPoliciesApplication` aguarde 30 minutos para que o sistema inicie a aplicação das políticas. O sistema aplica o usuário de políticas por usuário. Em geral, o sistema processa cerca de 5.000 contas de usuário por hora.
 
@@ -254,11 +254,11 @@ Com o PowerShell, você pode exibir o status de contas de usuário, segmentos, p
 
 |Para exibir este  |Faça isto  |
 |---------|---------|
-|Contas de usuário     |Use o cmdlet **Get-InformationBarrierRecipientStatus** com parâmetros de identidade. <p>Possuem`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>Você pode usar qualquer valor que identifique exclusivamente cada usuário, como nome, alias, nome diferenciado, nome de domínio canônico, endereço de email ou GUID. <p>Exemplo: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p>Neste exemplo, nos referimos a duas contas de usuário no Office 365: *meganb* para *Megan*e *alexw* para *Alex*. <p>(Você também pode usar esse cmdlet para um único usuário: `Get-InformationBarrierRecipientStatus -Identity <value>` ) <p>Este cmdlet retorna informações sobre usuários, como valores de atributos e quaisquer políticas de barreira de informação aplicadas.|
-|Segui     |Use o cmdlet **Get-OrganizationSegment** .<p>Possuem`Get-OrganizationSegment` <p>Isso exibirá uma lista de todos os segmentos definidos para sua organização.         |
-|Políticas de barreira de informações     |Use o cmdlet **Get-InformationBarrierPolicy** . <p> Possuem`Get-InformationBarrierPolicy` <p>Isso exibirá uma lista de políticas de barreira de informações que foram definidas e seu status.       |
-|O aplicativo de política de barreira de informações mais recente     | Use o cmdlet **Get-InformationBarrierPoliciesApplicationStatus** . <p>Possuem`Get-InformationBarrierPoliciesApplicationStatus`<p>    Isso exibirá informações sobre se o aplicativo de política foi concluído, falhou ou está em andamento.       |
-|Todos os aplicativos de política de barreira de informações|Use`Get-InformationBarrierPoliciesApplicationStatus -All $true`<p>Isso exibirá informações sobre se o aplicativo de política foi concluído, falhou ou está em andamento.|
+|Contas de usuário     |Use o cmdlet **Get-InformationBarrierRecipientStatus** com parâmetros de identidade. <p>Possuem `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>Você pode usar qualquer valor que identifique exclusivamente cada usuário, como nome, alias, nome diferenciado, nome de domínio canônico, endereço de email ou GUID. <p>Exemplo: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p>Neste exemplo, nos referimos a duas contas de usuário no Office 365: *meganb* para *Megan*e *alexw* para *Alex*. <p>(Você também pode usar esse cmdlet para um único usuário: `Get-InformationBarrierRecipientStatus -Identity <value>` ) <p>Este cmdlet retorna informações sobre usuários, como valores de atributos e quaisquer políticas de barreira de informação aplicadas.|
+|Segui     |Use o cmdlet **Get-OrganizationSegment** .<p>Possuem `Get-OrganizationSegment` <p>Isso exibirá uma lista de todos os segmentos definidos para sua organização.         |
+|Políticas de barreira de informações     |Use o cmdlet **Get-InformationBarrierPolicy** . <p> Possuem `Get-InformationBarrierPolicy` <p>Isso exibirá uma lista de políticas de barreira de informações que foram definidas e seu status.       |
+|O aplicativo de política de barreira de informações mais recente     | Use o cmdlet **Get-InformationBarrierPoliciesApplicationStatus** . <p>Possuem `Get-InformationBarrierPoliciesApplicationStatus`<p>    Isso exibirá informações sobre se o aplicativo de política foi concluído, falhou ou está em andamento.       |
+|Todos os aplicativos de política de barreira de informações|Use `Get-InformationBarrierPoliciesApplicationStatus -All $true`<p>Isso exibirá informações sobre se o aplicativo de política foi concluído, falhou ou está em andamento.|
 
 <!-- IN the " The most recent information barrier policy application, add link to troubleshooting topic -->
 

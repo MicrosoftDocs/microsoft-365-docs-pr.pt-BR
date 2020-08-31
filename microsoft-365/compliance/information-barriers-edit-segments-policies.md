@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Saiba como editar ou remover políticas para barreiras de informação.
-ms.openlocfilehash: 5690a1d7a131c006bbff3b087b1ee2983198c068
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6ac739ecff3921b4061d5d22410b2e2b1ada7af2
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637883"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307934"
 ---
 # <a name="edit-or-remove-information-barrier-policies"></a>Editar (ou remover) políticas de barreira de informações
 
@@ -52,7 +52,7 @@ Os atributos da conta de usuário são usados para definir os segmentos de modo 
 
     |Sintaxe  |Exemplo  |
     |---------|---------|
-    |`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>   Você pode usar qualquer valor que identifique exclusivamente cada usuário, como nome, alias, nome diferenciado, nome de domínio canônico, endereço de email ou GUID. <p>   (Você também pode usar esse cmdlet para um único usuário: `Get-InformationBarrierRecipientStatus -Identity <value>`)      |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw`  <p>   Neste exemplo, nos referimos a duas contas de usuário no Office 365: *meganb* para *Megan*e *alexw* para *Alex*.         |
+    |`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>   Você pode usar qualquer valor que identifique exclusivamente cada usuário, como nome, alias, nome diferenciado, nome de domínio canônico, endereço de email ou GUID. <p>   (Você também pode usar esse cmdlet para um único usuário: `Get-InformationBarrierRecipientStatus -Identity <value>` )      |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw`  <p>   Neste exemplo, nos referimos a duas contas de usuário no Office 365: *meganb* para *Megan*e *alexw* para *Alex*.         |
 
 2. Determine o atributo que você deseja editar para o (s) perfil (es) da conta de usuário. Consulte [atributos para políticas de barreira de informações](information-barriers-attributes.md) para obter mais detalhes. 
 
@@ -60,7 +60,7 @@ Os atributos da conta de usuário são usados para definir os segmentos de modo 
 
     - Para editar uma única conta, confira [Adicionar ou atualizar as informações de perfil de um usuário usando o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
 
-    - Para editar várias contas (ou usar o PowerShell para editar uma única conta), confira [Configurar Propriedades da conta de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell).
+    - Para editar várias contas (ou usar o PowerShell para editar uma única conta), confira [Configurar Propriedades da conta de usuário com o Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell).
 
 ## <a name="edit-a-segment"></a>Editar um segmento
 
@@ -68,7 +68,7 @@ Use este procedimento para editar a definição de um segmento de usuário. Por 
 
 1. Para exibir todos os segmentos existentes, use o cmdlet **Get-OrganizationSegment** .
     
-    Possuem`Get-OrganizationSegment`
+    Possuem `Get-OrganizationSegment`
 
     Você verá uma lista de segmentos e detalhes para cada um, como tipo de segmento, seu valor UserGroupFilter, que o criou ou modificou pela última vez, GUID e assim por diante.
 
@@ -87,15 +87,15 @@ Ao concluir a edição dos segmentos da sua organização, você pode [definir](
 
 1. Para exibir uma lista de políticas de barreira de informações atuais, use o cmdlet **Get-InformationBarrierPolicy** .
 
-    Possuem`Get-InformationBarrierPolicy`
+    Possuem `Get-InformationBarrierPolicy`
 
     Na lista de resultados, identifique a política que você deseja alterar. Observe o GUID e o nome da política.
 
 2. Use o cmdlet **set-InformationBarrierPolicy** com um parâmetro **Identity** e especifique as alterações que deseja fazer.
 
-    Exemplo: Suponha que uma política foi definida para bloquear o segmento de *pesquisa* de se comunicar com os segmentos *vendas* e *marketing* . A política foi definida usando este cmdlet:`New-InformationBarrierPolicy -Name "Research-SalesMarketing" -AssignedSegment "Research" -SegmentsBlocked "Sales","Marketing"`
+    Exemplo: Suponha que uma política foi definida para bloquear o segmento de *pesquisa* de se comunicar com os segmentos *vendas* e *marketing* . A política foi definida usando este cmdlet: `New-InformationBarrierPolicy -Name "Research-SalesMarketing" -AssignedSegment "Research" -SegmentsBlocked "Sales","Marketing"`
     
-    Suponha que queremos alterá-lo para que as pessoas no segmento de *pesquisa* só possam se comunicar com pessoas no segmento de *RH* . Para fazer essa alteração, usamos este cmdlet:`Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -SegmentsAllowed "HR"`
+    Suponha que queremos alterá-lo para que as pessoas no segmento de *pesquisa* só possam se comunicar com pessoas no segmento de *RH* . Para fazer essa alteração, usamos este cmdlet: `Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -SegmentsAllowed "HR"`
 
     Neste exemplo, alteramos "SegmentsBlocked" para "SegmentsAllowed" e especificamos o segmento *HR* .
 
@@ -105,7 +105,7 @@ Ao concluir a edição dos segmentos da sua organização, você pode [definir](
 
 1. Para exibir uma lista de políticas de barreira de informações atuais, use o cmdlet **Get-InformationBarrierPolicy** .
 
-    Possuem`Get-InformationBarrierPolicy`
+    Possuem `Get-InformationBarrierPolicy`
 
     Na lista de resultados, identifique a política que você deseja alterar (ou remover). Observe o GUID e o nome da política.
 
@@ -117,7 +117,7 @@ Ao concluir a edição dos segmentos da sua organização, você pode [definir](
 
 3. Para aplicar suas alterações, use o cmdlet **Start-InformationBarrierPoliciesApplication** .
 
-    Possuem`Start-InformationBarrierPoliciesApplication`
+    Possuem `Start-InformationBarrierPoliciesApplication`
 
     As alterações são aplicadas, usuário por usuário, para sua organização. Se sua organização for grande, pode levar 24 horas (ou mais) para que esse processo seja concluído. (Como uma diretriz geral, leva cerca de uma hora para processar as contas de usuário 5.000.)
 
@@ -130,7 +130,7 @@ Neste ponto, uma ou mais políticas de barreira de informações estão definida
 
 1. Para exibir uma lista de políticas de barreira de informações atuais, use o cmdlet **Get-InformationBarrierPolicy** .
 
-    Possuem`Get-InformationBarrierPolicy`
+    Possuem `Get-InformationBarrierPolicy`
 
     Na lista de resultados, identifique a política que você deseja remover. Observe o GUID e o nome da política. Certifique-se de que a política está definida como status inativo.
 
@@ -146,7 +146,7 @@ Neste ponto, uma ou mais políticas de barreira de informações estão definida
 
 4. Quando terminar de remover as políticas, aplique as alterações. Para fazer isso, use o cmdlet **Start-InformationBarrierPoliciesApplication** .
 
-    Possuem`Start-InformationBarrierPoliciesApplication`
+    Possuem `Start-InformationBarrierPoliciesApplication`
 
     As alterações são aplicadas, usuário por usuário, para sua organização. Se sua organização for grande, pode levar 24 horas (ou mais) para que esse processo seja concluído.
 
@@ -156,7 +156,7 @@ Se, depois de começar a aplicar as políticas de barreira de informações, voc
 
 1. Para exibir o status do aplicativo de política de barreira de informações mais recente, use o cmdlet **Get-InformationBarrierPoliciesApplicationStatus** .
 
-    Possuem`Get-InformationBarrierPoliciesApplicationStatus`
+    Possuem `Get-InformationBarrierPoliciesApplicationStatus`
 
     Observe o GUID do aplicativo.
 

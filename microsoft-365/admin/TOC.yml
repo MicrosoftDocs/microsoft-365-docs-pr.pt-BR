@@ -22,6 +22,8 @@
               href: setup/setup-apps-for-business.md
         - name: Explorar a Página de configuração e o assistente
           href: setup/o365-setup-wizard-and-setup-page.md
+        - name: Proteger computadores com Windows 10
+          href: ../business/secure-win-10-pcs.md
         - name: Instalar os aplicativos do Office
           href: setup/install-applications.md
         - name: Configurar dispositivos do Windows

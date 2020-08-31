@@ -13,30 +13,30 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1db3deb6be37fc9b22f4de73e55e8f59e2c5d35b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: adce3f2525c92b8cee565f759a94081bc2f75231
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44393912"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306510"
 ---
 # <a name="contact-support-for-nigeria"></a>Contatar o suporte para Nigéria
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-01 271 0156
+01 912 5070
 
 Selecione a opção 9
 
 Insira o código 7705
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança:
+### <a name="billing-support"></a>Suporte à Cobrança:
 
 Inglês: Seg-Sex 9 AM-5 P.M.
 
-### <a name="technical-support"></a>Suporte técnico:
+### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 

@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Use este artigo como um guia para solucionar problemas de barreiras de informações.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5aa45e3e9dea5ce413b2b0e62d825003bc24e20e
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: f4e6087d0e1886d833a6cf0472ed467f8577c5d0
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352320"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307924"
 ---
 # <a name="troubleshooting-information-barriers"></a>Solução de problemas de barreiras de informações
 
@@ -45,7 +45,7 @@ Determinar se os usuários são afetados por uma política de barreira de inform
 
     |Sintaxe  |Exemplo  |
     |---------|---------|
-    | `Get-InformationBarrierRecipientStatus -Identity` <p>Você pode usar qualquer valor de identidade que identifique exclusivamente cada destinatário, como nome, alias, nome diferenciado (DN), DN canônica, endereço de email ou GUID.     |`Get-InformationBarrierRecipientStatus -Identity meganb` <p>Neste exemplo, estamos usando um alias (*meganb*) para o parâmetro Identity. Este cmdlet retornará informações que indicam se o usuário é afetado por uma política de barreira de informações. (Procure * ExoPolicyId: \< GUID>.)         |
+    | `Get-InformationBarrierRecipientStatus -Identity` <p>Você pode usar qualquer valor de identidade que identifique exclusivamente cada destinatário, como nome, alias, nome diferenciado (DN), DN canônica, endereço de email ou GUID.     |`Get-InformationBarrierRecipientStatus -Identity meganb` <p>Neste exemplo, estamos usando um alias (*meganb*) para o parâmetro Identity. Este cmdlet retornará informações que indicam se o usuário é afetado por uma política de barreira de informações. (Procure * ExoPolicyId: \<GUID> .)         |
 
     **Se os usuários não estiverem incluídos nas políticas de barreira de informações, entre em contato com o suporte**. Caso contrário, prossiga para a próxima etapa.
 
@@ -94,7 +94,7 @@ Verifique se os usuários em questão estão incluídos em uma política de barr
 
     
     > [!TIP]
-    > Você também pode usar esse cmdlet para um único usuário:`Get-InformationBarrierRecipientStatus -Identity <value>`
+    > Você também pode usar esse cmdlet para um único usuário: `Get-InformationBarrierRecipientStatus -Identity <value>`
     
 2. Revise as descobertas. O cmdlet **Get-InformationBarrierRecipientStatus** retorna informações sobre os usuários, como valores de atributo e quaisquer políticas de barreira de informação aplicadas. 
 
@@ -102,7 +102,7 @@ Verifique se os usuários em questão estão incluídos em uma política de barr
     
     |Resultados  |O que fazer em seguida  |
     |---------|---------|
-    |Nenhum segmento está listado para os usuários selecionados     |Siga um destes procedimentos:<br/>– Atribua usuários a um segmento existente editando seus perfis de usuário no Azure Active Directory. (Consulte [Configurar Propriedades da conta de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell).)<br/>-Definir um segmento usando um [atributo com suporte para barreiras de informação](information-barriers-attributes.md). Em seguida, [defina uma nova política](information-barriers-policies.md#part-2-define-information-barrier-policies) ou [edite uma política existente](information-barriers-edit-segments-policies.md#edit-a-policy) para incluir esse segmento.  |
+    |Nenhum segmento está listado para os usuários selecionados     |Siga um destes procedimentos:<br/>– Atribua usuários a um segmento existente editando seus perfis de usuário no Azure Active Directory. (Consulte [Configurar Propriedades da conta de usuário com o Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell).)<br/>-Definir um segmento usando um [atributo com suporte para barreiras de informação](information-barriers-attributes.md). Em seguida, [defina uma nova política](information-barriers-policies.md#part-2-define-information-barrier-policies) ou [edite uma política existente](information-barriers-edit-segments-policies.md#edit-a-policy) para incluir esse segmento.  |
     |Os segmentos estão listados, mas nenhuma política de barreira de informações é atribuída a esses segmentos     |Siga um destes procedimentos:<br/>- [Definir uma nova política de barreira de informações](information-barriers-policies.md#part-2-define-information-barrier-policies) para cada segmento em questão<br/>- [Editar uma política de barreira de informações existente](information-barriers-edit-segments-policies.md#edit-a-policy) para atribuí-la ao segmento correto         |
     |Os segmentos são listados e cada um é incluído em uma política de barreira de informações     |– Execute o `Get-InformationBarrierPolicy` cmdlet para verificar se as políticas de barreira de informações estão ativas<br/>– Execute o `Get-InformationBarrierPoliciesApplicationStatus` cmdlet para confirmar que as políticas foram aplicadas<br/>– Execute o `Start-InformationBarrierPoliciesApplication` cmdlet para aplicar todas as políticas de barreira de informações ativas          |
     
@@ -177,7 +177,7 @@ Certifique-se de que sua organização não tenha [diretivas de catálogo de end
 Depois de definir os segmentos, definir as políticas de barreira de informações e tentar aplicar essas políticas, você poderá achar que a política está se aplicando a alguns destinatários, mas não a outros.
 Ao executar o `Get-InformationBarrierPoliciesApplicationStatus` cmdlet, procure o texto de saída como este.
 
-> Ladrões`<application guid>`
+> Ladrões `<application guid>`
 >
 > Total de destinatários: 81527
 >

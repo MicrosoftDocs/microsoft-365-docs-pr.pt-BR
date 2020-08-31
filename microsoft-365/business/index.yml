@@ -12,12 +12,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: ae67faeeae80f948b12eeb4af47c7bcc5d48148c
-  ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+  ms.openlocfilehash: c54d491aa240154a2ea654661c7cf8c55faae2e8
+  ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 08/04/2020
-  ms.locfileid: "46560822"
+  ms.lasthandoff: 08/29/2020
+  ms.locfileid: "47307460"
 productDirectory:
   title: Trabalho remoto seguro com o Microsoft 365 Business Premium
   items:
@@ -175,7 +175,7 @@ conceptualContent:
     - url: https://docs.microsoft.com/intune/apps/app-protection-policies-monitor
       itemType: overview
       text: Relatório de políticas de proteção de aplicativo do Intune
-    - url: https://docs.microsoft.com/office365/enterprise/view-service-health
+    - url: https://docs.microsoft.com/microsoft-365/enterprise/view-service-health
       itemType: how-to-guide
       text: Alertas de monitoramento de integridade
     footerLink:

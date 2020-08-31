@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f3f2f5525337ded683145a6d570562784910f236
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: df3288d8b54d60bc34bbc81132b6d6bc85cd18f2
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126732"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307712"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Solicitações de assunto de dados do Office 365 para o GDPR e o CCPA
 
@@ -1427,7 +1427,7 @@ A remoção da licença do SharePoint Online de um usuário não o impedirá de 
 
 Outra maneira de atender a solicitação DSR para restringir o processamento de dados é desativar um serviço do Office 365. Obviamente, isso afetará todos os usuários em toda a organização e os impedirá de usar o serviço ou acessar dados no serviço.
 
-A maneira mais conveniente de desativar um serviço é usar o PowerShell do Office 365 e remover a licença de usuário correspondente de todos os usuários na organização. Isso, de fato, impedirá a todos de acessar dados no serviço em questão. Para obter instruções detalhadas, confira [Desativar o acesso aos serviços com o PowerShell do Office 365](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) e siga os procedimentos para desativar os serviços do Office 365 para usuários de um único plano de licenciamento.
+A maneira mais conveniente de desativar um serviço é usar o PowerShell do Office 365 e remover a licença de usuário correspondente de todos os usuários na organização. Isso, de fato, impedirá a todos de acessar dados no serviço em questão. Para obter instruções detalhadas, confira [Desativar o acesso aos serviços com o PowerShell do Office 365](https://docs.microsoft.com/microsoft-365/enterprise/disable-access-to-services-with-microsoft-365-powershell) e siga os procedimentos para desativar os serviços do Office 365 para usuários de um único plano de licenciamento.
 
 >[!NOTE]
 >Para o Yammer, além de remover a licença do Yammer das contas de usuário, você também deve desativar a capacidade dos usuários de entrar no Yammer com as credenciais do Yammer (impondo o uso de suas credenciais do Office 365 ao entrar). Para obter instruções detalhadas, confira [Desativar o acesso ao Yammer para usuários do Microsoft 365](https://support.office.com/article/Turn-off-Yammer-access-for-Office-365-users-1f79bfad-f713-4143-aa5d-5584985ce53a).

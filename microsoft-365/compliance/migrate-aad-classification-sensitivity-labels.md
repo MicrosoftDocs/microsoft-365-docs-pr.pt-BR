@@ -10,12 +10,12 @@ ms.topic: article
 ms.service: o365-seccomp
 localization_priority: Normal
 description: Este artigo discute a classificação clássica do Azure Active Directory e os rótulos de confidencialidade.
-ms.openlocfilehash: f11473653884392048d5f9a84f8e284dba5f6f27
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 38a3dbe727f3d0759d427944016ae98440f2686f
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755385"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308168"
 ---
 # <a name="azure-active-directory-classification-and-sensitivity-labels-for-microsoft-365-groups"></a>Classificação do Azure Active Directory e rótulos de confidencialidade para grupos do Microsoft 365
 
@@ -52,7 +52,7 @@ Tabela 1. Comportamento de cargas de trabalho compatíveis e não compatíveis �
 > - No entanto, quando o usuário edita um grupo e salva o grupo com um rótulo de confidencialidade, a configuração de privacidade selecionada é substituída pela configuração de privacidade do rótulo de confidencialidade aplicado.
 > Recomendamos que os usuários em uma versão antiga do cliente do Outlook sejam atualizados para a versão mais recente.
 
-## <a name="scenario-2-tenant-is-already-using-classic-aad-classifications"></a>Cenário 2: o locatário já está usando [classificações](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization) clássicas do AAD
+## <a name="scenario-2-tenant-is-already-using-classic-aad-classifications"></a>Cenário 2: o locatário já está usando [classificações](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell) clássicas do AAD
 
 ### <a name="case-a-tenant-never-used-sensitivity-labels-for-documents-and-emails"></a>Caso A: locatário nunca usados rótulos de confidencialidade para documentos e emails
 

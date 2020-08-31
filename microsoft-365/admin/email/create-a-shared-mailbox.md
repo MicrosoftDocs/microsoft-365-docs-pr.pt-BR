@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Crie uma caixa de correio compartilhada para permitir que vários usuários da sua empresa compartilhem a responsabilidade de ler e responder a emails enviados para um endereço.
-ms.openlocfilehash: 47690e1295b67c01f86429d97e0fc8d82ad58d6f
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 55bfb4a907436a2c3500e2c178990dca8fa9bfba
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529630"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306930"
 ---
 # <a name="create-a-shared-mailbox"></a>Criar uma caixa de correio compartilhada 
 
@@ -128,7 +128,7 @@ Mas e se um administrador simplesmente redefinir a senha da conta de usuário da
 4. No submenu **Editar o status de entrada**, verifique se a opção Bloquear a entrada do usuário está marcada, selecione **Salvar** e, em seguida, **Fechar**.
 ::: moniker-end
 
-Para obter instruções sobre como bloquear a entrada de contas usando o Azure AD PowerShell (incluindo várias contas ao mesmo tempo), confira [Bloquear contas de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/block-user-accounts-with-office-365-powershell).
+Para obter instruções sobre como bloquear a entrada de contas usando o Azure AD PowerShell (incluindo várias contas ao mesmo tempo), confira [Bloquear contas de usuário com o Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/block-user-accounts-with-microsoft-365-powershell).
 
 ## <a name="add-the-shared-mailbox-to-outlook"></a>Adicionar a caixa de correio compartilhada ao Outlook
 

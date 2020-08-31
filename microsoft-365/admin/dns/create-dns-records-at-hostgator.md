@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5f0c840e-4140-4571-88ed-cf235ff142d6
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Hostgator para a Microsoft.
-ms.openlocfilehash: 8adfc4b6154dad0da7dd2fe037c73fcfc4f84d58
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 103da87956beae868cda84b727a3401dfd9991d9
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400432"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306966"
 ---
 # <a name="create-dns-records-at-hostgator-for-microsoft"></a>Criar registros DNS no HostGator para Microsoft
 
@@ -76,9 +76,9 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
 > [!NOTE]
 > Esse registro é usado exclusivamente para confirmar se você é o proprietário do domínio; ele não afeta mais nada. É possível excluí-lo mais tarde, se desejar. 
   
-1. To get started, go to your cPanel page at Hostgator. You'll be prompted to log in first.
+1. Para começar, vá para a página do cPanel no Hostgator. Será solicitado que você faça logon primeiro.
     
-    (Each hosted account at Hostgator is assigned a unique cPanel address. Seu endereço cPanel deve ter esta aparência: https://YourSiteAddress:secure-port-numberçoDoSeuSite:número-de-porta-segura. O email de inscrição que você recebeu do Hostgator especificará esse endereço, e um link cPanel também estará disponível na página de **hospedagem** .)
+    (É atribuído um endereço cPanel exclusivo a cada conta hospedada no Hostgator. Seu endereço cPanel deve ter esta aparência: https://YourSiteAddress:secure-port-numberçoDoSeuSite:número-de-porta-segura. O email de inscrição que você recebeu do Hostgator especificará esse endereço, e um link cPanel também estará disponível na página de **hospedagem** .)
     
     > [!IMPORTANT]
     > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Para começar a usar a Microsoft, você pode comprar uma conta de hospedagem do Hostgator ou [redelegar seus nameservers para apontar para a Microsoft](change-nameservers-at-hostgator.md). 
@@ -87,12 +87,12 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
 3. Na página **Editor avançado de zona** , na área **adicionar registro** , nas caixas do novo registro, digite ou copie e cole os valores da tabela a seguir. 
     
-    (Escolha o valor de **Tipo** na lista suspensa.) 
+    (Selecione o valor **Tipo** na lista suspensa.) 
     
     |||||
     |:-----|:-----|:-----|:-----|
-    |**Nome** <br/> |**TTL** <br/> |**Tipo** <br/> |**Dados TXT** <br/> |
-    |Use o *domain_name*. (por exemplo, fourthcoffee.com.)  <br/> **This value MUST end with a period (.)** <br/> |1   <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |**Name** <br/> |**TTL** <br/> |**Tipo** <br/> |**Dados TXT** <br/> |
+    |Use o  *domain_name*. (por exemplo, fourthcoffee.com.)  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |1   <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
 4. Selecione **adicionar registro**.
     
@@ -131,13 +131,13 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
  
 3. Na área de **Roteamento de Email**, selecione **Mail Exchanger Remoto**.
 
-4. Selecione **alterar**.
+4. Selecione **Alterar**.
   
 5. Na área **Adicionar um novo registro** , nas caixas do novo registro, digite ou copie e cole os valores da tabela a seguir. 
     
     |**Prioridade**|**Destino**|
     |:-----|:-----|
-    |,0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Observação:** Acesse sua \< *domain-key*  \> conta da Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |,0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Obtenha a sua \< *domain-key*  \> através da sua conta Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
   
 6. Selecione **Adicionar novo registro**.
    
@@ -164,9 +164,9 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     Na página **Editor avançado de zona** , na área **adicionar registro** , nas caixas do novo registro, digite ou copie e cole os valores da primeira linha da tabela a seguir. 
     
-    (Escolha o valor de **Tipo** na lista suspensa.) 
+    (Selecione o valor **Tipo** na lista suspensa.) 
     
-    |**Nome**|**TTL**|**Tipo**|**CNAME**|
+    |**Name**|**TTL**|**Tipo**|**CNAME**|
     |:-----|:-----|:-----|:-----|
     |autodiscover. *domain_name*. (por exemplo, autodiscover.fourthcoffee.com.)  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |3600  <br/> |CNAME  <br/> |autodiscover.outlook.com  <br/> |
     |sip. *domain_name*. (por exemplo, sip.fourthcoffee.com.)  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |3600  <br/> |CNAME  <br/> |sipdir.online.lync.com  <br/> |
@@ -187,7 +187,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro SPF que inclua os dois conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro SPF que inclua os dois conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
   
 > [!IMPORTANT]
 > Antes de executar este procedimento, primeiro você deve executar o procedimento da primeira seção deste artigo, [Aponte seu domínio para sua conta de hospedagem](#point-your-domain-to-your-hosting-account). 
@@ -203,11 +203,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
 3. On the **Advanced DNS Zone Editor** page, in the **Add a Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    (Escolha o valor de **Tipo** na lista suspensa.) 
+    (Selecione o valor **Tipo** na lista suspensa.) 
     
-    |**Nome**|**TTL**|**Tipo**|**Dados TXT**|
+    |**Name**|**TTL**|**Tipo**|**Dados TXT**|
     |:-----|:-----|:-----|:-----|
-    |Use o *domain_name*. (por exemplo, fourthcoffee.com.)  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |3600  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada, para que todo o espaçamento permaneça correto.           |
+    |Use o  *domain_name*. (por exemplo, fourthcoffee.com.)  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |3600  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
   
 4. Selecione **adicionar registro**.
     
@@ -231,9 +231,9 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     Na página **Editor Avançado de Zona DNS**, na área **Adicionar um Registro**, nas caixas do novo registro, digite ou copie e cole os valores da primeira linha da tabela a seguir. 
     
-    (Escolha o valor de **Tipo** na lista suspensa.) 
+    (Selecione o valor **Tipo** na lista suspensa.) 
     
-    |**Nome**|**TTL**|**Tipo**|**Prioridade**|**Espessura**|**Porta**|**Destino**|
+    |**Name**|**TTL**|**Tipo**|**Prioridade**|**Espessura**|**Porta**|**Destino**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
     |_sip. _tls. *domain_name*. (por exemplo, _sip._tls.fourthcoffee.com.)  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
     |_sipfederationtls. _tcp. *domain_name*. (por exemplo, _sipfederationtls._tcp.fourthcoffee.com.)  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |

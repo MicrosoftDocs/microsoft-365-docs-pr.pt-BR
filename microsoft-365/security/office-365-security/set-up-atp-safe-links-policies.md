@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Configurar políticas de links seguros para proteger sua organização contra links mal-intencionados nos arquivos do Word, Excel, PowerPoint e Visio, bem como em mensagens de email.
-ms.openlocfilehash: f935002a300bd5f4553cbab429318dad4104b208
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: 121de6137e392ae0c66d9961fd2138f003a9d9fa
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662249"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307756"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Configurar políticas de links seguros de ATP do Office 365
 
@@ -51,7 +51,7 @@ Com os links seguros de ATP habilitados, se um usuário clicar em um link em um 
 
 - Verifique se você tem as permissões necessárias. Para definir (ou editar) políticas ATP, você deve ter uma função apropriada atribuída. Alguns exemplos são descritos na tabela a seguir:
 
-    |Função|Onde/como a atribuição|
+    |Role|Onde/como a atribuição|
     |---|---|
     |administrador global|Por padrão, a pessoa que se inscreve para comprar a Microsoft 365 é um administrador global. (Consulte [about Microsoft 365 admin Roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) para saber mais.)|
     |Administrador de Segurança|Centro de administração do Azure Active Directory ( <https://aad.portal.azure.com> )|
@@ -59,7 +59,7 @@ Com os links seguros de ATP habilitados, se um usuário clicar em um link em um 
 
     Para saber mais sobre funções e permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
 
-- Certifique-se de que os clientes do Office estão configurados para usar a [autenticação moderna](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016) (isso é para proteção de links de segurança ATP em documentos do Office).
+- Certifique-se de que os clientes do Office estão configurados para usar a [autenticação moderna](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016) (isso é para proteção de links de segurança ATP em documentos do Office).
 
 - [Saiba mais sobre as opções de política de links seguros de ATP](#step-4-learn-about-atp-safe-links-policy-options) (neste artigo).
 

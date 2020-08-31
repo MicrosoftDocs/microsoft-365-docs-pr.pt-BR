@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 10d1004b-42b6-4e2b-aaa2-18ddd9118f64
 description: 'Resumo: Diretrizes de planejamento e implementação para organizações ágeis que têm um perfil de ameaça maior.'
-ms.openlocfilehash: 98ede8a7dade750413dbdf2f35394cb8b15513e5
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 79384277ec470d5545e9fe8127a95532e892fb45
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46652880"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307878"
 ---
 # <a name="microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-organizations"></a>Diretrizes de segurança da Microsoft para campanhas políticas, instituições sem fins lucrativos e outras organizações Agile
 
@@ -62,6 +62,6 @@ Confira outros recursos de segurança para demonstração ou prova de conceito e
 
 ## <a name="see-also"></a>Confira também
 
-[Guias do Laboratório de Teste (TLGs) para adoção de nuvem](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Guias do Laboratório de Teste (TLGs) para adoção de nuvem](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
 
-[Recursos de arquitetura de TI do Microsoft Cloud](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources)
+[Recursos de arquitetura de TI do Microsoft Cloud](https://docs.microsoft.com/microsoft-365/solutions/cloud-architecture-models)

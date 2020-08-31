@@ -21,12 +21,12 @@ description: O centro de administração do Microsoft 365-Aprenda sobre os recur
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 84932e13a336d225894683f9e328cb44df8c0e78
-ms.sourcegitcommit: 6319e73b3690b4cf1b7932f2b9f51c2c99e70eaa
+ms.openlocfilehash: 7504fa085c6dd5413a1dcddbb71f3d015ded72c1
+ms.sourcegitcommit: 97ef8f846939c3d31bb0638edf07bb89463ace0b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46635017"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300440"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>O que há de novo no centro de administração do Microsoft 365
 
@@ -39,10 +39,6 @@ ms.locfileid: "46635017"
 
 Estamos adicionando continuamente novos recursos ao [centro de administração do Microsoft 365](microsoft-365-admin-center-preview.md), corrigindo os problemas que aprendemos e fazendo alterações com base em seus comentários. Veja o que está disponível para você hoje. Alguns recursos são implementados em diferentes velocidades para nossos clientes. Se ainda não estiver vendo um recurso, [tente adicioná-lo ao lançamento direcionado](manage/release-options-in-office-365.md).
 
-> [!IMPORTANT]
-> **A aposentadoria do centro de administração "clássica" começa em março**<br><br>
-Ao entrar no centro de administração do Microsoft 365, você agora vai para o novo centro de administração sempre. E, em março, começamos a desabilitar a capacidade de retornar ao centro de administração clássico. Por enquanto, você ainda pode voltar, mas, como o novo centro de administração chega à paridade (e exceder), desativaremos a opção para todas as organizações. <br><br> *Última atualização: 11 de maio de 2020*
-
 E se você quiser saber o que há de novo em outros serviços de nuvem da Microsoft:
 
 - [O que há de novo no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/whats-new)
@@ -53,6 +49,34 @@ E se você quiser saber o que há de novo em outros serviços de nuvem da Micros
 - [O que há de novo no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 - [Atualizações do Office](https://docs.microsoft.com/OfficeUpdates/)
 
+## <a name="july-2020"></a>Julho de 2020
+
+### <a name="getting-ready-for-ignite-2020"></a>Preparando-se para o Ignite 2020
+
+Como estamos migrando para a temporada Ignite da Microsoft, não estamos lançando o máximo de recursos para que possamos falar sobre durante nossas sessões. 
+
+A próxima atualização deste artigo será no dia de abertura do nosso primeiro Ignite somente online. E este ano, é gratuito participar! Faça o check-out, conecte-se: [Microsoft Ignite 2020](https://www.microsoft.com/ignite).
+
+### <a name="your-products"></a>Seus produtos
+
+Houve muito trabalho no gerenciamento de assinaturas para tornar a página mais rápida para carregar, mais rápido localizar o que você está procurando e para atender aos padrões de acessibility da Web ([WCAG 2,1](http://www.w3.org/TR/WCAG21/)).
+
+- **Redesign de tabela**: a tabela foi reprojetada para que você possa agrupar assinaturas semelhantes. Vá para **cobrança**  >  **de seus produtos**.
+- **Detalhes do produto**: Obtenha mais detalhes do que nunca sobre suas assinaturas selecionando o produto na lista.
+- **Faça tudo**daqui: e você não precisa ir para várias páginas para gerenciar um produto. Por exemplo, se você precisar cancelar uma assinatura, o painel será aberto para executar a ação imediatamente.
+
+![Página de produtos com o painel cancelar inscrição aberto.](../media/MAC-WN-SubscrDetails.png)
+
+### <a name="domains"></a>Domínios
+
+O gerenciamento de domínio pode ser complicado e lançamos um novo recurso para facilitar isso. Vá até configurações > domínios e selecione um domínio para obter mais informações sobre o domínio e a integridade do domínio.
+
+:::image type="content" source="../media/MAC-WN-DomainDNS.PNG" alt-text="Página de detalhes de domínios para contoso.com":::
+
+### <a name="docs-training-and-videos"></a>Docs, treinamento e vídeos
+
+[O que há de novo com](https://youtu.be/m1Nu8WJgCDY) a série de vídeo da Microsoft 365: este mês, abordamos a nova experiência do Yammer para Web e móvel, como integrar o aplicativo de comunidades do Yammer para o Microsoft Teams, novos pacotes de política para dar suporte a operadores e gerentes de primeira e mais.
+
 ## <a name="june-2020"></a>Junho de 2020
 
 ### <a name="keeping-up-with-office-whats-new-management"></a>Acompanhar o gerenciamento de novidades do Office
@@ -62,7 +86,6 @@ Há alguns meses, adicionamos uma configuração que permite que você gerencie 
 ### <a name="docs-training-and-videos-june"></a>Docs, treinamento e vídeos (junho)
 
 - [Introdução ao Teams](https://support.microsoft.com/office/184f1aba-2f91-43f0-86e1-9fae607e24f6)
-
 
 ## <a name="may-2020"></a>Maio de 2020
 
@@ -90,7 +113,7 @@ Para saber mais sobre essas funções, consulte [sobre funções de administrado
 
 Ouvimos muitos administradores de que eles precisam compartilhar informações sobre grupos e seu uso para pessoas que não têm acesso aos centros de administração. Agora você pode exportar a lista de grupos para um arquivo CSV para fins de auditoria, o que significa que você pode jogar esse script antigo do PowerShell. Para experimentá-lo, vá **para grupos de grupos**  >  **Groups**e selecione **Exportar grupos** na barra de comandos.
 
-### <a name="microsoft-365-solution-and-architecture-center"></a>Centro de soluções e arquitetura do Microsoft 365
+### <a name="microsoft-365-solution-and-architecture-center"></a>Centro de soluções e arquitetura da Microsoft 365
 
 Apenas este mês, lançamos um novo site [https://docs.microsoft.com](https://docs.microsoft.com) chamado do [centro de soluções e arquiteturas da Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center), que reúne as orientações técnicas de que você precisa para entender, planejar e implementar soluções integradas da Microsoft 365 para colaboração segura e compatível. Neste centro, você encontrará:
 
@@ -100,9 +123,9 @@ Apenas este mês, lançamos um novo site [https://docs.microsoft.com](https://do
 - Orientação específica do setor
 - Entidades de design de arquitetura corporativa
 
-### <a name="docs-training-and-videos"></a>Docs, treinamento e vídeos
+### <a name="docs-training-and-videos-may"></a>Docs, treinamento e vídeos (maio)
 
-- **O que há de novo na série de vídeo do Microsoft 365**: este mês, abordamos a nova experiência de suporte no administrador do Teams e nos centros de segurança e conformidade, a integração do Planner com o centro de mensagens e o novo layout de vídeo 3x3 no Microsoft Teams. [O que há de novo no Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096)
+- **O que há de novo na série de vídeo do Microsoft 365**: este mês, abordamos a nova experiência de suporte no administrador do Teams e nos centros de segurança e conformidade, a integração do Planner com o centro de mensagens e o novo layout de vídeo 3x3 no Microsoft Teams. 
 - A página do hub de [ajuda do centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/) foi atualizada para ajudá-lo a encontrar o que você precisa mais rapidamente. E se você examinar essa página agora, adicionamos um cartão para informá-lo sobre atualizações e alterações importantes.
 
 ## <a name="april-2020"></a>Abril de 2020
@@ -334,7 +357,7 @@ Em novembro, lançamos alguns caminhos de aprendizado para [o site do Microsoft 
 - [Microsoft 365 – modernizar sua implantação corporativa com o Windows 10 e o Microsoft 365 aplicativos para empresas](https://docs.microsoft.com/learn/paths/m365-getmodern/)
 - [Gerenciar a implantação empresarial com o Microsoft 365](https://docs.microsoft.com/learn/paths/manage-enterprise-deployment-m365/)
 - [Atualizar o Microsoft Office para TI em escala](https://docs.microsoft.com/learn/paths/m365-office-for-it/)
-- [Entregar áreas de trabalho remotas e aplicativos do Azure com a área de trabalho virtual do Windows](https://docs.microsoft.com/learn/paths/m365-wvd/)
+- [Entregar áreas de trabalho remotas e aplicativos do Azure com a área de trabalho virtual do Windows ](https://docs.microsoft.com/learn/paths/m365-wvd/)
 - [Modernize seu local de trabalho com o Microsoft 365 e o Surface para Empresas](https://docs.microsoft.com/learn/paths/modernize-workplace-with-m365-and-surface/)
 - [Proteger a identidade e o acesso com o Microsoft 365](https://docs.microsoft.com/learn/paths/m365-identity/)
 - [Proteja as informações da empresa com o Microsoft 365](https://docs.microsoft.com/learn/paths/m365-information-protection/)
@@ -382,7 +405,7 @@ Quando um recurso importante do Office é lançado para um aplicativo do Office,
 
 Tecnicamente, esta não é a novidade do centro de administração do Microsoft 365 a ser avisada, mas estamos tão entusiasmados para que você veja esta notícia:
 > [!IMPORTANT]
-> Agora você pode acessar o seu centro de administração do SharePoint com uma URL regular:[https://admin.microsoft.com/SharePoint](https://admin.microsoft.com/SharePoint)
+> Agora você pode acessar o seu centro de administração do SharePoint com uma URL regular: [https://admin.microsoft.com/SharePoint](https://admin.microsoft.com/SharePoint)
 
 Para obter mais informações, consulte [What ' s New in the SharePoint Admin Center](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center).
 
@@ -414,7 +437,7 @@ Há uma atualização para outro dos nossos assistentes de instalação inicial:
 Temos algumas atualizações para cobrança e assinaturas neste mês:
 
 - Assinaturas baseadas em dispositivo: você pode atribuir ou cancelar a atribuição **de licenças do microsoft 365 Apps for Education (Device)** a dispositivos no centro de administração do Microsoft 365. **O Microsoft 365 Apps for Education (dispositivo)** é uma licença complementar que lhe permitirá atribuir uma licença a um dispositivo. Vá para **cobrança**de  >  **seus produtos** para encontrar e comprar a licença.
-- Gerenciamento de licença baseado em usuário: atualizamos o modo como você atribui licenças aos usuários ativos de **usuários**  >  **Active users** para o novo estilo. Para saber mais, veja:
+- Gerenciamento de licença baseado em usuário: atualizamos o modo como você atribui licenças aos usuários ativos de **usuários**  >  **Active users** para o novo estilo. Para mais informações, confira:
   - [Atribuir licenças a usuários](manage/assign-licenses-to-users.md)
   - [Cancelar licenças de usuários](manage/remove-licenses-from-users.md)
 
@@ -518,7 +541,7 @@ Você pode ver um novo pop-up de recomendação em seu centro de administração
 - **Proteção de dispositivo do Intune** – se suas licenças incluem o Intune e detectamos que você não concluiu a configuração do Intune ou inscreveu seus dispositivos, recomendamos que você crie uma política do Intune para proteger os arquivos da sua organização quando os usuários os acessam de seus dispositivos móveis.
 - **Obter atualizações mensais dos recursos do Office** – obtemos comentários de nossos pequenos clientes que quando recebem atualizações mensais dos recursos do Office, seus usuários estão mais felizes. Portanto, se você é um negócio muito pequeno e você atualmente Obtém as atualizações de recursos do Office a cada seis meses, verá essa recomendação.
 
-**Settings** <br>
+**Configurações** <br>
 Quanto às configurações, há algumas alterações. Principalmente, apenas a atualização das configurações existentes para o novo estilo de centro de administração. À medida que estamos avançando e adicionamos novas configurações que você nunca viu antes, vamos começar a menciona-las aqui. E temos uma configuração completa para anunciar: **autenticação moderna**. Sim, há uma nova configuração para ativar a **autenticação moderna**! Para fazer o check-out, acesse serviços de **configurações**  >  **&** a  >  **autenticação moderna**dos suplementos.
 
 ## <a name="april-2019"></a>Abril de 2019

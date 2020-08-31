@@ -1,5 +1,5 @@
 ---
-title: Solucionando problemas de email enviado para o Microsoft 365
+title: Solução de problemas de e-mail enviados para o Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,14 +18,14 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Este artigo fornece informações sobre como solucionar problemas com o envio de emails para as caixas de entrada no Microsoft 365 & práticas recomendadas para envio de email em massa para os clientes da Microsoft 365.
-ms.openlocfilehash: 0d9c1646aa7491b3da458c7cb0ddeb908873153a
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 4243f46746cb21425fc2dc7493c69818f095e71f
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208592"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307574"
 ---
-# <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Solucionando problemas de email enviado para o Microsoft 365
+# <a name="troubleshooting-mail-sent-to-microsoft-365"></a>Solução de problemas de e-mail enviados para o Microsoft 365
 
 Este artigo fornece informações de solução de problemas para remetentes que estão enfrentando problemas ao tentar enviar emails para caixas de entrada no Microsoft 365 e práticas recomendadas para envio de emails em massa para clientes.
 
@@ -79,7 +79,7 @@ Você recebeu a notificação de falha na entrega porque a atividade suspeita fo
 
 ## <a name="i-cant-receive-email-from-senders-in-microsoft-365"></a>Não consigo receber emails de remetentes no Microsoft 365
 
- Para receber mensagens de nossos usuários, certifique-se de que a sua rede permite conexões dos endereços IP que o EOP usa em nossos data centers. Confira mais informações em [endereços IP do Exchange Online Protection](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+ Para receber mensagens de nossos usuários, certifique-se de que a sua rede permite conexões dos endereços IP que o EOP usa em nossos data centers. Confira mais informações em [endereços IP do Exchange Online Protection](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 ## <a name="best-practices-for-bulk-emailing-to-microsoft-365-users"></a>Práticas recomendadas para envio de email em massa para usuários do Microsoft 365
 

@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em DNS baseado em Windows para Microsoft.
-ms.openlocfilehash: 8f65a397552813f22d4bde82f7fcd51c478d82bd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f0c2b8c4aaaa1012e0f11e3778c7ca6b092c053f
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400239"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306942"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>Criar registros DNS para a Microsoft usando DNS baseado no Windows
 
@@ -49,7 +49,7 @@ Adicionar um registro MX para que o email do seu domínio seja fornecido para a 
 - Na linha MX na seção Exchange Online da página Adicionar registros DNS no Microsoft, copie o valor listado em pontos para endereço. Você usará esse valor no registro que está criando nesta tarefa. 
 - Na página Gerenciador DNS para o domínio, vá para **ação**  >  **servidor de mensagens (MX)**. Para localizar esta página para o domínio, confira [localizar seus registros DNS no DNS baseado no Windows](#find-your-dns-records-in-windows-based-dns).  
 - Na caixa de diálogo **novo registro de recurso** , verifique se os campos estão definidos com precisão para os seguintes valores: 
-    - Nome do host:  
+    - Nome do Host:  
     - @Address: Cole o valor de pontos no endereço que você copiou da Microsoft aqui.  
     - Pref 
 - Selecione **salvar alterações**.
@@ -76,14 +76,14 @@ Adicione o registro CNAME SIP.
     - Nome do host: SIP
     - Tipo: CNAME
     - Endereço: sipdir.online.lync.com
-- Clique em **OK**.
+- Selecione **OK**.
 
 Adicione o registro CNAME de Descoberta Automática do Skype for Business Online.  
 - Na página Gerenciador DNS para o domínio, vá para **ação** \> **CNAME (CNAME)**. Na caixa de diálogo **novo registro de recurso** , verifique se os campos estão definidos com precisão para os seguintes valores:  
     - Nome do host: lyncdiscover
     - Tipo: CNAME
     - Endereço: webdir.online.lync.com
-- Clique em **OK**.
+- Selecione **OK**.
    
 ### <a name="add-two-cname-records-for-mobile-device-management-mdm-for-microsoft"></a>Adicionar dois registros CNAME para o gerenciamento de dispositivo móvel (MDM) para Microsoft
 
@@ -97,7 +97,7 @@ Adicione o registro CNAME Enterpriseregistration do MDM.
 - Nome do host: enterpriseregistration
 - Tipo: CNAME
 - Endereço: enterpriseregistration.windows.net
-- Clique em **OK**. 
+- Selecione **OK**. 
 
 Adicione o registro CNAME Enterpriseenrollment do MDM. 
 -  Na página Gerenciador DNS para o domínio, vá para **ação** \> **CNAME (CNAME)**. 
@@ -105,13 +105,13 @@ Adicione o registro CNAME Enterpriseenrollment do MDM.
     - Nome do host: enterpriseenrollment
     - Tipo: CNAME
     - Endereço: enterpriseenrollment-s.manage.microsoft.com
-- Clique em **OK**.
+- Selecione **OK**.
    
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um  *único*  registro SPF que inclua os dois conjuntos de valores. 
   
 Adicione o registro TXT SPF do seu domínio ajudar a evitar spam de email.
   
@@ -125,7 +125,7 @@ Adicione o registro TXT SPF do seu domínio ajudar a evitar spam de email.
 -  Tipo de registro: TXT
 -  Endereço: v = spf1 inclui include. Protection. Outlook. com-All 
          
--  Clique em **OK**.
+-  Selecione **OK**.
    
 ## <a name="add-srv-records"></a>Adicionar registros SRV
 <a name="BKMK_add_SRV"> </a>
@@ -142,7 +142,7 @@ Adicione o registro SRV SIP para a Webconferência do Skype for Business Online.
     -  Peso: 1
     -  Porta: 443
     -  Destino (nome do host): sipdir.online.lync.com
--  Clique em **OK**. 
+-  Selecione **OK**. 
 
 
 Adicione o registro SRV SIP para a federação do Skype for Business Online.  
@@ -155,7 +155,7 @@ Adicione o registro SRV SIP para a federação do Skype for Business Online.
     -  Peso: 1
     -  Porta: 5061
     -  Destino (nome do host): sipfed.online.lync.com
--  Clique em **OK**. 
+-  Selecione **OK**. 
    
 ## <a name="add-a-record-to-verify-that-you-own-the-domain-if-you-havent-already"></a>Adicione um registro para verificar se você é o proprietário do domínio, se ainda não fez isso.
 <a name="BKMK_verify"> </a>
@@ -201,7 +201,7 @@ Verifique seu domínio no Microsoft.
 ## <a name="non-routable-email-address-used-as-a-upn-in-your-on-prem-active-directory"></a>Endereço de email não roteável utilizado como um UPN no seu Active Directory local
 <a name="BKMK_ADNote"> </a>
 
-Se você estiver planejando sincronizar seu Active Directory local com a Microsoft, verifique se o sufixo UPN (nome principal de usuário) do Active Directory é um sufixo de domínio válido, e não um sufixo de domínio sem suporte, como @contoso. local. Se você precisar alterar seu sufixo UPN, consulte [como preparar um domínio não roteável para a sincronização de diretórios](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization).
+Se você estiver planejando sincronizar seu Active Directory local com a Microsoft, verifique se o sufixo UPN (nome principal de usuário) do Active Directory é um sufixo de domínio válido, e não um sufixo de domínio sem suporte, como @contoso. local. Se você precisar alterar seu sufixo UPN, consulte [como preparar um domínio não roteável para a sincronização de diretórios](https://docs.microsoft.com/microsoft-365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization).
   
 > [!NOTE]
 >  Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 

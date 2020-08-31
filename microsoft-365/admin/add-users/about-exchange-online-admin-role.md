@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Administradores do Exchange Online gerenciam emails e caixas de correio da sua organização. Por exemplo, eles recuperam itens excluídos na caixa de correio de um usuário. '
-ms.openlocfilehash: d69ec803c8321c6417f587feafb2730de1d1e7b3
-ms.sourcegitcommit: 7f765670cb6970fdf7ddbad464ed3f8fe704bfaf
+ms.openlocfilehash: 0b63679883e8329782700085fa0c11a0ac6585ca
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "44909247"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307428"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Sobre a função de administrador do Exchange Online
 
@@ -36,7 +36,7 @@ Para ajudá-lo a administrar o Microsoft 365, você pode [atribuir](assign-admin
   
 Aqui estão algumas das principais tarefas que os usuários podem fazer quando são atribuídas à função de administrador do Exchange:
   
-- [Recuperar itens excluídos na caixa de correio do usuário – Ajuda para Administradores](https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox)
+- [Recuperar itens excluídos na caixa de correio do usuário – Ajuda para Administradores](https://docs.microsoft.com/microsoft-365/enterprise/recover-deleted-items-in-a-mailbox)
     
 - [Configurar uma política de arquivo morto e exclusão para caixas de correio em sua organização](https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes).
     

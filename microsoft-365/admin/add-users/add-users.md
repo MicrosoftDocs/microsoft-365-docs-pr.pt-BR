@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Saiba como adicionar usuários e atribuir licenças ao Microsoft 365 ao mesmo tempo.
 ms.date: 07/01/2020
-ms.openlocfilehash: 016c98fc93bfa1a92274a5b991cf8adbd1131bc9
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 6745285600b6c5a62b4327d7174b2c249ff5276c
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015882"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307368"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>Adicionar usuários e atribuir licenças ao mesmo tempo
 
@@ -41,7 +41,7 @@ As pessoas da sua equipe precisam de uma conta de usuário antes de entrarem e a
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você deve ser um administrador global, de licença ou de usuário para adicionar usuários e atribuir licenças. Para obter mais informações, consulte [sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+Você deve ser um administrador global, de licença ou de usuário para adicionar usuários e atribuir licenças. Para obter mais informações, confira [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
 ## <a name="watch-add-users-in-the-admin-center"></a>Watch: adicionar usuários no centro de administração
 
@@ -100,9 +100,9 @@ Você deve ser um administrador global, de licença ou de usuário para adiciona
 
 Você pode usar qualquer um dos seguintes métodos para adicionar vários usuários ao mesmo tempo:
   
-- **Usar uma planilha para adicionar pessoas em massa.** Confira [adicionar vários usuários ao mesmo tempo](https://docs.microsoft.com/office365/enterprise/add-several-users-at-the-same-time).
-- **Automatize a adição de contas e a atribuição de licenças.** Confira [criar contas de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/create-user-accounts-with-office-365-powershell). Escolha este método se já estiver familiarizado com o uso dos cmdlets do Windows PowerShell.
-- **Usando o ActiveDirectory?** [Configurar a sincronização de diretório para o Office 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization). Use a ferramenta Azure AD Connect para replicar as contas de usuário do Active Directory (e outros objetos do Active Directory) no Microsoft 365. A sincronização só adiciona as contas de usuário. Você deve atribuir licenças aos usuários sincronizados antes que eles possam usar emails e outros aplicativos do Office.
+- **Usar uma planilha para adicionar pessoas em massa.** Confira [adicionar vários usuários ao mesmo tempo](https://docs.microsoft.com/microsoft-365/enterprise/add-several-users-at-the-same-time).
+- **Automatize a adição de contas e a atribuição de licenças.** Confira [criar contas de usuário com o Microsoft 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell). Escolha este método se já estiver familiarizado com o uso dos cmdlets do Windows PowerShell.
+- **Usando o ActiveDirectory?** [Configurar a sincronização de diretórios para o Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization). Use a ferramenta Azure AD Connect para replicar as contas de usuário do Active Directory (e outros objetos do Active Directory) no Microsoft 365. A sincronização só adiciona as contas de usuário. Você deve atribuir licenças aos usuários sincronizados antes que eles possam usar emails e outros aplicativos do Office.
 - **Migrar do Exchange?** Confira [maneiras de migrar várias contas de email para o Office 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration). Ao migrar várias caixas de correio para o Microsoft 365 usando a substituição, a transferência ou um método híbrido do Exchange, você adiciona automaticamente usuários como parte da migração. A migração somente adiciona as contas de usuário. Você deve atribuir licenças aos usuários antes que eles possam usar email e outros aplicativos do Office. Se você não atribuir uma licença a um usuário, a caixa de correio será desabilitada depois de um período de cortesia de 30 dias. Saiba como [atribuir licenças aos usuários](../manage/assign-licenses-to-users.md) no centro de administração do Microsoft 365.
 
 ## <a name="next-steps"></a>Próximas etapas
@@ -112,7 +112,7 @@ Após adicionar um usuário, você receberá uma notificação por email da Micr
 ## <a name="related-content"></a>Conteúdo relacionado
 
 [Adicionar um novo funcionário à Microsoft 365](add-new-employee.md) (artigo) \
-[Adicione vários usuários ao mesmo tempo para o Microsoft 365](https://docs.microsoft.com/office365/enterprise/add-several-users-at-the-same-time) (artigo) \
+[Adicione vários usuários ao mesmo tempo para o Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/add-several-users-at-the-same-time) (artigo) \
 [Restaurar um usuário no Microsoft 365](restore-user.md) (artigo) \
 [Atribuir licenças aos usuários](../manage/assign-licenses-to-users.md) (artigo) \
 [Excluir um usuário da sua organização](delete-a-user.md) (artigo)

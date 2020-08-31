@@ -17,23 +17,23 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Exibir uma lista completa de certificados raiz e CAs (autoridades de certificação) no Office 365.
-ms.openlocfilehash: 4fa98f417968229a0ba5382b7b1e8b4067db2e36
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c0f63f6e4ebc288f8b06d608af81a485e5f71e8a
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631696"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307440"
 ---
 # <a name="encryption-chains"></a>Cadeias de criptografia
 
-O Office 365 aproveita vários provedores de certificado diferentes. A seguir, a descrição da lista completa de certificados raiz conhecidos do Office 365 que os clientes podem encontrar ao acessar o Office 365. Para obter informações sobre os certificados que você pode precisar instalar em sua própria infraestrutura, consulte [Plan for de certificados SSL de terceiros para o Office 365](https://docs.microsoft.com/office365/enterprise/plan-for-third-party-ssl-certificates). As informações de certificado a seguir aplicam-se a todas as instâncias de nuvem do Office 365 em todo o mundo.
+O Office 365 aproveita vários provedores de certificado diferentes. A seguir, a descrição da lista completa de certificados raiz conhecidos do Office 365 que os clientes podem encontrar ao acessar o Office 365. Para obter informações sobre os certificados que você pode precisar instalar em sua própria infraestrutura, consulte [Plan for de certificados SSL de terceiros para o Office 365](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates). As informações de certificado a seguir aplicam-se a todas as instâncias de nuvem do Office 365 em todo o mundo.
 
 >[!NOTE]
 >Para obter informações de certificado que se aplicam aos clientes **DOD e gcc altos** , consulte [Office 365 Encryption encadeations-DOD e gcc High](encryption-office-365-certificate-chains-itar.md).
 
 | **Tipo de certificado** | **Download de P7b** | **Pontos de extremidade da CRL** | **Pontos de extremidade OCSP** | **Pontos de extremidade AIA** |
 | --- | --- | --- | --- | --- |
-| Certificados raiz confiáveis publicamente | [Pacote de certificados raiz do Office 365 (P7B)](https://download.microsoft.com/download/A/5/A/A5AE01F3-D19B-4A11-9407-801263CEF72C/O365_Root_Certs_20170321.p7b) | crl.globalsign.net<br>www.d-trust.net | Não disponível | N/D |
+| Certificados raiz confiáveis publicamente | [Pacote de certificados raiz do Office 365 (P7B)](https://download.microsoft.com/download/A/5/A/A5AE01F3-D19B-4A11-9407-801263CEF72C/O365_Root_Certs_20170321.p7b) | crl.globalsign.net<br>www.d-trust.net | N/D | N/D |
 | Certificados intermediários confiáveis publicamente | [Pacote de certificados intermediário (P7B) do Office 365](https://download.microsoft.com/download/4/D/5/4D5339A4-0A4A-46AB-AE52-B179DEDA4BEC/O365_Intermediate_Certs_20170321.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
 
 Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais sobre os provedores de certificado.
@@ -145,7 +145,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrust-root-certification-authority---g2"></a>**Autoridade de certificação raiz confiável-G2**
 
-| **Assunto** | CN = autoridade de certificação raiz Entrust-G2<br>OU =&quot;(c) 2009 Entrust, Inc.-for apenas para uso autorizado&quot;<br>OU = ver www.entrust.net/legal-terms<br>O =&quot;Entrust, Inc.&quot;<br>C = US |
+| **Assunto** | CN = autoridade de certificação raiz Entrust-G2<br>OU = &quot; (c) 2009 Entrust, Inc.-for apenas para uso autorizado&quot;<br>OU = ver www.entrust.net/legal-terms<br>O = &quot; Entrust, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Número de série** | 4A: 53:8C: 28 |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -159,7 +159,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrustnet-certification-authority-2048"></a>**Entrust.net Certification Authority (2048)**
 
-| **Assunto** | CN = autoridade de certificação Entrust. net (2048)<br>OU = (c) 1999 Entrust.net Limited<br>OU = www. Entrust. NET/\_CPS 2048 incorp. por Ref. (limite s liab.)<br>O = Entrust. net |
+| **Assunto** | CN = autoridade de certificação Entrust. net (2048)<br>OU = (c) 1999 Entrust.net Limited<br>OU = www. Entrust. net/CPS \_ 2048 incorp. por Ref. (limite s liab.)<br>O = Entrust. net |
 | --- | --- |
 | **Número de série** | 38:63: DE: F8 |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -203,7 +203,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="thawte-primary-root-ca---g3"></a>**AC raiz principal da Thawte-G3**
 
-| **Assunto** | CN = AC raiz primária da Thawte-G3<br>OU =&quot;(c) 2008 Thawte, Inc.-for Authorized use only&quot;<br>OU = divisão de serviços de certificação<br>O =&quot;Thawte, Inc.&quot;<br>C = US |
+| **Assunto** | CN = AC raiz primária da Thawte-G3<br>OU = &quot; (c) 2008 Thawte, Inc.-for Authorized use only&quot;<br>OU = divisão de serviços de certificação<br>O = &quot; Thawte, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Número de série** | 60:01:97:-B7:46: A7:9A: O (A) (EM INGLÊS): [!: 2F: |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -217,7 +217,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="verisign-class-3-public-primary-certification-authority---g5"></a>**Autoridade de certificação principal pública da classe VeriSign 3-G5**
 
-| **Assunto** | CN = autoridade de certificação primária pública de classe 3 da VeriSign-G5<br>OU =&quot;(c) 2006 Verisign, Inc.-for Authorized use only&quot;<br>OU = rede de confiança VeriSign<br>O =&quot;Verisign, Inc.&quot;<br>C = US |
+| **Assunto** | CN = autoridade de certificação primária pública de classe 3 da VeriSign-G5<br>OU = &quot; (c) 2006 Verisign, Inc.-for Authorized use only&quot;<br>OU = rede de confiança VeriSign<br>O = &quot; Verisign, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Número de série** | 18: DA: D1:9E: 26:7D: E8: BB: 4A: 21: (EM INGLÊS:. |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -344,9 +344,9 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrust-certification-authority---l1c"></a>**Autoridade de certificação Entrust-L1C**
 
-| **Assunto** | CN = autoridade de certificação Entrust-L1C<br>OU =&quot;(c) 2009 Entrust, Inc.&quot;<br>OU = www. Entrust. net/RPA é incorporado por referência<br>O =&quot;Entrust, Inc.&quot;<br>C = US |
+| **Assunto** | CN = autoridade de certificação Entrust-L1C<br>OU = &quot; (c) 2009 Entrust, Inc.&quot;<br>OU = www. Entrust. net/RPA é incorporado por referência<br>O = &quot; Entrust, Inc.&quot;<br>C = US |
 | --- | --- |
-| **Emissor** | CN = autoridade de certificação Entrust. net (2048)<br>OU = (c) 1999 Entrust.net Limited<br>OU = www. Entrust. NET/\_CPS 2048 incorp. por Ref. (limita liab.)<br>O = Entrust. net |
+| **Emissor** | CN = autoridade de certificação Entrust. net (2048)<br>OU = (c) 1999 Entrust.net Limited<br>OU = www. Entrust. net/CPS \_ 2048 incorp. por Ref. (limita liab.)<br>O = Entrust. net |
 | **Número de série** | 4C: 0E: 8C: 39 |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
 | **Algoritmo de assinatura** | sha1RSA |
@@ -362,9 +362,9 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrust-certification-authority---l1k"></a>**Autoridade de certificação Entrust-L1K**
 
-| **Assunto** | CN = autoridade de certificação Entrust-L1K<br>OU =&quot;(c) 2012 Entrust, Inc.-for apenas para uso autorizado&quot;<br>OU = ver www.entrust.net/legal-terms<br>O =&quot;Entrust, Inc.&quot;<br>C = US |
+| **Assunto** | CN = autoridade de certificação Entrust-L1K<br>OU = &quot; (c) 2012 Entrust, Inc.-for apenas para uso autorizado&quot;<br>OU = ver www.entrust.net/legal-terms<br>O = &quot; Entrust, Inc.&quot;<br>C = US |
 | --- | --- |
-| **Emissor** | CN = autoridade de certificação raiz Entrust-G2<br>OU =&quot;(c) 2009 Entrust, Inc.-for apenas para uso autorizado&quot;<br>OU = ver www.entrust.net/legal-terms<br>O =&quot;Entrust, Inc.&quot;<br>C = US |
+| **Emissor** | CN = autoridade de certificação raiz Entrust-G2<br>OU = &quot; (c) 2009 Entrust, Inc.-for apenas para uso autorizado&quot;<br>OU = ver www.entrust.net/legal-terms<br>O = &quot; Entrust, Inc.&quot;<br>C = US |
 | **Número de série** | 0E: E9:4C: C3: A 00:00:00:00:51: |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
 | **Algoritmo de assinatura** | sha256RSA |
@@ -616,7 +616,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 | **Assunto** | CN = Symantec classe 3 EV SSL AC-G3<br>OU = rede de confiança da Symantec<br>O = Symantec Corporation<br>C = US |
 | --- | --- |
-| **Emissor** | CN = autoridade de certificação primária pública de classe 3 da VeriSign-G5<br>OU =&quot;(c) 2006 Verisign, Inc.-for Authorized use only&quot;<br>OU = rede de confiança VeriSign<br>O =&quot;Verisign, Inc.&quot;<br>C = US |
+| **Emissor** | CN = autoridade de certificação primária pública de classe 3 da VeriSign-G5<br>OU = &quot; (c) 2006 Verisign, Inc.-for Authorized use only&quot;<br>OU = rede de confiança VeriSign<br>O = &quot; Verisign, Inc.&quot;<br>C = US |
 | **Nome alternativo da entidade** | Endereço do diretório: CN = SymantecPKI-1-533 |
 | **Número de série** | 7E: E1:4A: 6F: 6F: EF: O (A) (EM INGLÊS): [!:. |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -635,7 +635,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 | **Assunto** | CN = autoridade de certificação do servidor seguro do Symantec Class 3-G4<br>OU = rede de confiança da Symantec<br>O = Symantec Corporation<br>C = US |
 | --- | --- |
-| **Emissor** | CN = autoridade de certificação primária pública de classe 3 da VeriSign-G5<br>OU =&quot;(c) 2006 Verisign, Inc.-for Authorized use only&quot;<br>OU = rede de confiança VeriSign<br>O =&quot;Verisign, Inc.&quot;<br>C = US |
+| **Emissor** | CN = autoridade de certificação primária pública de classe 3 da VeriSign-G5<br>OU = &quot; (c) 2006 Verisign, Inc.-for Authorized use only&quot;<br>OU = rede de confiança VeriSign<br>O = &quot; Verisign, Inc.&quot;<br>C = US |
 | **Nome alternativo da entidade** | Endereço do diretório: CN = SymantecPKI-1-534 |
 | **Número de série** | 51:3F: B9:74: (EM INGLÊS). \: (EM INGLÊS): (EM INGLÊS). |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |
@@ -652,9 +652,9 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="thawte-sha256-ssl-ca"></a>**AC com autoridade de certificação do Thaw SHA256**
 
-| **Assunto** | CN = AC de SSL de Thaw SHA256<br>O =&quot;Thawte, Inc.&quot;<br>C = US |
+| **Assunto** | CN = AC de SSL de Thaw SHA256<br>O = &quot; Thawte, Inc.&quot;<br>C = US |
 | --- | --- |
-| **Emissor** | CN = AC raiz primária da Thawte-G3<br>OU =&quot;(c) 2008 Thawte, Inc.-for Authorized use only&quot;<br>OU = divisão de serviços de certificação<br>O =&quot;Thawte, Inc.&quot;<br>C = US |
+| **Emissor** | CN = AC raiz primária da Thawte-G3<br>OU = &quot; (c) 2008 Thawte, Inc.-for Authorized use only&quot;<br>OU = divisão de serviços de certificação<br>O = &quot; Thawte, Inc.&quot;<br>C = US |
 | **Nome alternativo da entidade** | Endereço do diretório: CN = VeriSignMPKI-2-415 |
 | **Número de série** | 36:34:9E: 18: O////////!: (!: 69:): |
 | **Comprimento da chave pública** | RSA 2048 bits (e 65537) |

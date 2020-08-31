@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Saiba mais sobre as etapas de configuração para o Microsoft 365 Business Premium, em assinatura, para adicionar um domínio e usuários, para configurar as políticas de segurança e muito mais.
-ms.openlocfilehash: a808ae5761c1bc5706966a3f7de95f96f8f7c8c8
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: fa9c02fa9546437c83b9cc6c1f1e6e0d723ec868
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785803"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306460"
 ---
 # <a name="overview-of-setup"></a>Visão geral da configuração
 
@@ -50,7 +50,7 @@ A maioria das etapas de configuração pode ser feita no assistente de configura
 
    - **Adicionar usuários**. Você pode adicionar usuários de uma das três maneiras:
         - No [Assistente](set-up.md#add-users-in-the-wizard).
-        - Use a sincronização de diretórios para [Adicionar usuários usando o Azure ad Connect](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) se você tiver um Active Directory local.
+        - Use a sincronização de diretórios para [Adicionar usuários usando o Azure ad Connect](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization) se você tiver um Active Directory local.
         - Você também pode [Adicionar usuários posteriormente](add-users-m365b.md) no centro de administração.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Etapa 2: configurar políticas de segurança e configurar dispositivos 
 
@@ -82,7 +82,7 @@ Ao ingressar em um dispositivo Windows 10 no Azure AD, as políticas definidas p
 - Você pode instalar automaticamente o Office nos dispositivos Windows usando o [Assistente de configuração](set-up.md#deploy-office-365-client-apps).
 - Permitir que os usuários [instalem aplicativos do Office](https://docs.microsoft.com/office365/admin/setup/install-applications) para Windows e dispositivos.
      
-## <a name="advanced"></a>Avançado
+## <a name="advanced"></a>Advanced
 - **Usar o piloto automático para configurar novos dispositivos**
             
      Você pode usar o [Windows AutoPilot](add-autopilot-devices-and-profile.md) para configurar automaticamente **novos** dispositivos Windows 10 para um usuário, mas pode ser mais fácil obter um [parceiro](https://www.microsoft.com/solution-providers/search) que pode fazer isso para você. Você também pode ir para a [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=874598)e solicitar que um especialista em tecnologia de nuvem configure novos dispositivos que você comprou.

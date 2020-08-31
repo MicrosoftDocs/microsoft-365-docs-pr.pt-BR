@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 'Saiba como redefinir a senha de um usuário na assinatura do Microsoft 365 for Business. '
-ms.openlocfilehash: d1c17448a1f9993b056fa2dc428980acf8ef82b4
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 6159b62cb6c1e09cb86732cc27cc4c4c87328a42
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780560"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307284"
 ---
 # <a name="reset-passwords"></a>Redefinir senha
 
@@ -53,19 +53,19 @@ Estas etapas são apenas para pessoas que usam um plano Microsoft 365 para empre
  
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
 
@@ -103,7 +103,7 @@ Se você esqueceu a senha e não consegue entrar:
 
 Estas etapas funcionam para uma empresa com dezenas de usuários. Se você tiver centenas ou milhares de usuários, consulte a próxima seção sobre a redefinição de senhas em massa (máximo de 40 usuários por vez).
   
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
     
 2. Selecione a opção ao lado de **exibir nome** para selecionar todos em sua empresa. Desmarque a si mesmo. Você não pode redefinir sua senha ao mesmo tempo em que redefine a senha de outras pessoas.
     
@@ -120,7 +120,7 @@ Estas etapas funcionam para uma empresa com dezenas de usuários. Se você tiver
 
 Use o PowerShell! Confira esta postagem por Eyal Doron: [Gerenciamento de senhas com o PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).
   
-Veja um artigo relacionado: [Definir senhas de várias contas de usuário](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).
+Veja um artigo relacionado: [Definir senhas de várias contas de usuário](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-with-microsoft-365-powershell).
   
 Para obter informações gerais, consulte [PowerShell for Microsoft 365 Administrators](https://support.microsoft.com/office/40fdcbd4-c34f-42ab-8678-8b3751137ef1).
   
@@ -137,9 +137,9 @@ Experimente os procedimentos deste artigo: [Eu esqueci o nome de usuário ou a s
 ## <a name="related-articles"></a>Artigos relacionados
 <a name="bkmk_forgot"> </a>
   
-[Permitir que os usuários redefinam suas próprias senhas](let-users-reset-passwords.md)
+[Permitir que os usuários redefinam as próprias senhas](let-users-reset-passwords.md)
 
-[Definir a senha de um usuário individual para nunca expirar](set-password-to-never-expire.md)
+[Definir senha de um usuário individual para nunca expirar](set-password-to-never-expire.md)
 
 [Definir a política de expiração de senha para sua organização](../manage/set-password-expiration-policy.md)
 

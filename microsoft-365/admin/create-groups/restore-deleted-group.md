@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Saiba como restaurar um grupo do Microsoft 365 excluído.
-ms.openlocfilehash: d7cf548816af1661298458f27c704d654845075d
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 8fb2cb3afdf390efae7854a040bb56df731cceaf
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818502"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307182"
 ---
 # <a name="restore-a-deleted-group"></a>Restaurar um grupo excluído
 
@@ -70,7 +70,7 @@ Se o grupo excluído não aparecer aqui, entre em contato com um administrador.
 
 Se você for um administrador global ou um administrador de grupos, poderá restaurar um grupo excluído no centro de administração do Microsoft 365:
 
-1. Vá para o [centro de administração](https://admin.microsoft.com).
+1. Acesse o [centro de administração](https://admin.microsoft.com).
 2. Expanda **grupos**e, em seguida, clique em **grupos excluídos**.
 3. Selecione o grupo que você deseja restaurar e clique em **restaurar grupo**.
 
@@ -104,7 +104,7 @@ Visite a [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Offic
   
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Gerenciar os grupos do Microsoft 365 com o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell)
+[Gerenciar os grupos do Microsoft 365 com o PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)
   
 [Excluir grupos usando o cmdlet Remove-UnifiedGroup](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx)
   

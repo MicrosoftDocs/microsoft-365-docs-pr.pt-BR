@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Office 365 Advanced Threat Protection (Office 365 ATP).
-ms.openlocfilehash: f671588ff4232c6ca1c1342475f48802bf1a0076
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: 7118bca15102fd52e7825ee873187fa11d9fc0f9
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46825096"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47308190"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -81,6 +81,9 @@ As configurações de política a seguir estão disponíveis em políticas anti-
     - **O destinatário é**
     - **O destinatário é um membro de**
     - **O domínio do destinatário é**
+
+  > [!NOTE]
+  > A configuração **aplica-se a** é necessária em políticas anti-phishing personalizadas para identificar os **destinatários** de mensagens <u>aos quais a política se aplica</u>. As políticas anti-phishing do ATP também têm [configurações de representação](#impersonation-settings-in-atp-anti-phishing-policies) nas quais você pode especificar endereços de email individuais do remetente ou domínios <u>de remetente que receberão a proteção de representação</u> , conforme descrito mais adiante neste tópico.
 
 ## <a name="spoof-settings"></a>Configurações de spoof
 
@@ -144,13 +147,21 @@ Um domínio representado pode ser considerado legítimo (domínio registrado, re
 
 As configurações de representação a seguir estão disponíveis apenas em políticas anti-phishing da ATP:
 
-- **Usuários a serem protegidos**: impede que os usuários internos ou externos especificados sejam representados. Por exemplo, executivos (internos) e membros da diretoria (externos). Você pode adicionar até 60 endereços internos e externos. Essa lista de usuários protegidos é diferente da lista de destinatários aos quais a política se aplica na configuração **aplica** -se a.
+- **Usuários a serem protegidos**: impede que os endereços de email internos ou externos especificados sejam representados **como remetentes de mensagens**. Por exemplo, executivos (remetentes internos) e membros da placa (remetentes externos). Você pode adicionar até 60 endereços de email de remetente internos e externos para proteger da representação. Essa lista de **remetentes** protegidos da representação é diferente da lista de **destinatários** aos quais a política se aplica.
 
-  Por exemplo, você especifica Felipe Apodaca (felipea@contoso.com) como um usuário protegido em uma política que se aplica ao grupo chamado executivos. Mensagens de entrada enviadas para membros do grupo executivos onde o Felipe Apodaca é representado será acionado pela política (a ação que você configurou para usuários representados).
+  A política padrão é aplicada a mensagens enviadas a todos os destinatários, enquanto as políticas personalizadas aplicam-se apenas às mensagens enviadas para os destinatários que você define na configuração **aplica** -se a, conforme descrito na seção [configurações de política](#policy-settings) .
 
-- **Domínios para proteger**: impedir que os domínios especificados sejam representados. Por exemplo, todos os domínios que você possui ([domínios aceitos](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)) ou domínios específicos (domínios que você possui ou domínios de parceiros). Essa lista de domínios protegidos é diferente da lista de domínios aos quais a política se aplica na configuração **aplica** -se a.
+  Por padrão, nenhum endereço de email do remetente é configurado para proteção de representação nos **usuários para**proteção. Portanto, por padrão, nenhum endereço de email do remetente é coberto pela proteção de representação, seja na política padrão ou em políticas personalizadas.
 
-  Por exemplo, você especifica tailspintoys.com como um domínio protegido em uma política que se aplica aos membros do grupo chamado executivos. As mensagens de entrada enviadas para membros do grupo executivos onde o tailspintoys.com é representado serão acionadas pela política (a ação que você configura para domínios representados).
+  Quando você adiciona endereços de email internos ou externos à lista de **usuários para proteger** , as mensagens desses **remetentes** estão sujeitas às verificações de proteção de representação. A mensagem será verificada quanto à representação **se** a mensagem for enviada a um **destinatário** ao qual a política se aplica (todos os destinatários da política padrão; **Aplicado a** destinatários em políticas personalizadas). Se a representação for detectada no endereço de email do remetente, as ações de proteção de representação para os usuários serão aplicadas à mensagem (a ação da mensagem, a dica de segurança dos usuários representados, etc.).
+
+- **Domínios a serem protegidos**: impede que os domínios especificados sejam representados **no domínio do remetente da mensagem**. Por exemplo, todos os domínios que você possui ([domínios aceitos](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)) ou domínios específicos (domínios que você possui ou domínios de parceiros). Essa lista de **domínios de remetente** que são protegidos contra representação é diferente da lista de **destinatários** aos quais a política se aplica.
+
+  A política padrão é aplicada a mensagens enviadas a todos os destinatários, enquanto as políticas personalizadas aplicam-se apenas às mensagens enviadas para os destinatários que você define na configuração **aplica** -se a, conforme descrito na seção [configurações de política](#policy-settings) .
+
+  Por padrão, nenhum domínio de remetente é configurado para proteção de representação em **domínios para proteção**. Portanto, por padrão, nenhum domínio remetente é coberto pela proteção de representação, seja na política padrão ou em políticas personalizadas.
+
+  Quando você adiciona domínios à lista de **domínios para proteger** , as mensagens de **remetentes nesses domínios** estão sujeitas às verificações de proteção de representação. A mensagem será verificada quanto à representação **se** a mensagem for enviada a um **destinatário** ao qual a política se aplica (todos os destinatários da política padrão; **Aplicado a** destinatários em políticas personalizadas). Se a representação for detectada no domínio do remetente, as ações de proteção de representação para domínios serão aplicadas à mensagem (a ação na mensagem, a dica de segurança de domínios representados, etc.).
 
 - **Ações para usuários ou domínios protegidos**: escolha a ação a ser realizada em mensagens de entrada que contenham tentativas de representação em relação aos usuários protegidos e domínios protegidos na política. Você pode especificar ações diferentes para representação de usuários protegidos vs. representação de domínios protegidos:
 

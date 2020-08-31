@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Com o Office 365, seu conteúdo é criptografado em repouso e em trânsito com a criptografia, protocolos e tecnologias mais fortes disponíveis. Obtenha uma visão geral da criptografia no Office 365.
-ms.openlocfilehash: 7a14cb1ab203ef1ee75962f4e55b4220c4ba06d9
-ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
+ms.openlocfilehash: d3977902dfc1ee726fac696ae8b9cc0470e7dda8
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46794170"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306430"
 ---
 # <a name="encryption"></a>Criptografia
 
@@ -64,7 +64,7 @@ Para saber mais, confira os seguintes recursos:
   
 - [ O que é o Azure Rights Management? ](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
 
-- [Ativar o gerenciamento de direitos no centro de administração](https://docs.microsoft.com/office365/enterprise/activate-rms-in-office-365)
+- [Ativar o gerenciamento de direitos no centro de administração](https://docs.microsoft.com/microsoft-365/enterprise/activate-rms-in-microsoft-365)
 
 - [Set up Information Rights Management (IRM) in SharePoint admin center](set-up-irm-in-sp-admin-center.md)
 

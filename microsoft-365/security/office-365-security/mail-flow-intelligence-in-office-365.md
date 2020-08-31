@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Os administradores podem saber mais sobre os códigos de erro associados à entrega de mensagens usando conectores (também conhecidos como inteligência de fluxo de emails).
-ms.openlocfilehash: b345b52f572efca2aca1fde6ba720d733e521cc4
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: e8427f3e0341ccb381121b6cdc83d20727713d4c
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46827708"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307912"
 ---
 # <a name="mail-flow-intelligence-in-eop"></a>Inteligência de fluxo de e-mails no EOP
 
@@ -62,7 +62,7 @@ Normalmente, esse erro significa que o Microsoft 365 encontrou um erro de conex�
 
 ### <a name="how-do-i-fix-error-code-450-44316"></a>Como corrigir o código de erro 450 4.4.316?
 
-- Se você tiver caixas de correio em seu ambiente local, precisará modificar suas configurações de firewall para permitir conexões de endereços IP 365 da Microsoft na porta TCP 25 para seus servidores de email locais. Para obter uma lista dos endereços IP 365 da Microsoft, confira [URLs e intervalos de endereços IP do microsoft 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+- Se você tiver caixas de correio em seu ambiente local, precisará modificar suas configurações de firewall para permitir conexões de endereços IP 365 da Microsoft na porta TCP 25 para seus servidores de email locais. Para obter uma lista dos endereços IP 365 da Microsoft, confira [URLs e intervalos de endereços IP do microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 - Se não houver mais mensagens a serem entregues ao seu ambiente local, clique em **corrigir agora** no alerta para que o Microsoft 365 possa rejeitar imediatamente as mensagens com destinatários inválidos. Isso reduzirá o risco de exceder a cota da organização para destinatários inválidos, o que pode afetar a entrega de mensagens normal. Ou você pode usar as seguintes instruções para corrigir manualmente o problema:
 

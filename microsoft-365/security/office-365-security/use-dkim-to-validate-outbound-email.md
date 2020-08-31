@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda a usar o e-mail Identificado DomainKeys (DKIM) com o Microsoft 365 para garantir que as mensagens enviadas de seu domínio personalizado sejam confiadas pelos sistemas de e-mail de destino.
-ms.openlocfilehash: 36e62600836c66b9e7be61ddd07a6081af4ffbeb
-ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
+ms.openlocfilehash: d2035ed0805215f1bd8e343f9edf1c557035b5c1
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46632158"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307842"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>Usar o DKIM para validar emails enviados de seu domínio personalizado
 
@@ -83,7 +83,7 @@ Já que tanto o número de bits 1024 e o 2048 têm suporte para chaves DKIM, ess
 
 1. Quando você **já tiver o DKIM configurado**, alterne o número de bits da seguinte maneira:
 
-   1. [Conecte-se às cargas de trabalho do Office 365 pelo PowerShell ](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (O cmdlet é proveniente do Exchange Online.)
+   1. [Conecte-se às cargas de trabalho do Office 365 pelo PowerShell ](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (O cmdlet é proveniente do Exchange Online.)
    1. Execute o seguinte comando:
 
       ```powershell 
@@ -92,7 +92,7 @@ Já que tanto o número de bits 1024 e o 2048 têm suporte para chaves DKIM, ess
 
 1. Ou para uma **nova implementação do DKIM**:
 
-   1. [Conecte-se às cargas de trabalho do Office 365 pelo PowerShell ](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (Este é um cmdlet do Exchange Online.)
+   1. [Conecte-se às cargas de trabalho do Office 365 pelo PowerShell ](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window). (Este é um cmdlet do Exchange Online.)
    1. Execute o seguinte comando:
 
       ```powershell

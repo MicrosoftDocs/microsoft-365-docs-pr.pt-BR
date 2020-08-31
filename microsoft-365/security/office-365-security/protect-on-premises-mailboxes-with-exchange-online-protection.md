@@ -21,12 +21,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores da China usando o Office 365 operado pela 21Vianet podem aprender a usar o proteção do Exchange Online (EOP) autônomo para proteger suas caixas de correio locais.
-ms.openlocfilehash: 57b9e7519edf92438662ecbf27c93b662d9e8f71
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: ca3f7f1ffc91b404ac59e92b40ae1f95709ec3ff
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826808"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307744"
 ---
 # <a name="protect-on-premises-mailboxes-in-china-with-standalone-eop"></a>Proteger caixas de correio locais na China com o EOP autônomo
 
@@ -58,7 +58,7 @@ Crie conectores no EAC (Centro de administração do Exchange) que permitem o fl
 
 ## <a name="step-4-allow-inbound-port-25-smtp-access"></a>Etapa 4: Permitir acesso SMTP através da porta de entrada 25
 
-Após configurar os conectores, espere 72 horas para permitir a propagação das atualizações dos registros de DNS. Depois disso, restrinja o tráfego SMTP da porta-25 de entrada em seu firewall ou servidores de email para aceitar emails apenas dos datacenters do EOP, especificamente dos endereços IP listados em [URLs e intervalos de endereços IP para o Office 365](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints). Isso protege seu ambiente local limitando o escopo de mensagens de entrada que você pode receber. Além disso, atualize também quaisquer configurações em seu servidor de mensagens que controlam os endereços IP que podem se conectar para retransmitir mensagens.
+Após configurar os conectores, espere 72 horas para permitir a propagação das atualizações dos registros de DNS. Depois disso, restrinja o tráfego SMTP da porta-25 de entrada em seu firewall ou servidores de email para aceitar emails apenas dos datacenters do EOP, especificamente dos endereços IP listados em [URLs e intervalos de endereços IP para o Office 365](https://docs.microsoft.com/microsoft-365/enterprise/managing-office-365-endpoints). Isso protege seu ambiente local limitando o escopo de mensagens de entrada que você pode receber. Além disso, atualize também quaisquer configurações em seu servidor de mensagens que controlam os endereços IP que podem se conectar para retransmitir mensagens.
 
 > [!TIP]
 > Configure o servidor SMTP com um tempo limite de conexão de 60 segundos. Essa configuração é aceita na maioria das situações, o que fornece um pequeno atraso no caso de uma mensagem enviada com um anexo grande, por exemplo.

@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba mais sobre o Microsoft 365 for Business, como configurá-lo e como preparar os dispositivos e os computadores dos usuários para garantir que eles estejam protegidos pela Microsoft 365 para empresas.
-ms.openlocfilehash: aedcf78f10707dbe6a1d1527effea7d56283dce0
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: ec50036f589cfd8497b0e7e9af6519b30d25dcd3
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080034"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306480"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Introdução ao Microsoft 365 for Business
 
@@ -82,7 +82,7 @@ Entre no [centro de administração do Microsoft 365](https://portal.office.com/
     
     - Se você também tiver um servidor Exchange 2010, Exchange 2013 ou Exchange 2016, poderá usar o [mínimo híbrido para migrar as caixas de correio do Exchange rapidamente para a Microsoft 365](https://docs.microsoft.com/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate). As etapas híbridas mínimas incluem uma sincronização única dos usuários para o Azure AD e a migração de emails do local para a nuvem. Após a conclusão da migração de email, a sincronização de diretórios será desativada automaticamente quando você usar esse método.
     
-    - Use o assistente de sincronização de diretórios para sincronizar seus usuários com a nuvem. Siga as etapas em [Configurar a sincronização de diretório para o Microsoft 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) para concluir esse processo. Depois de sincronizar seus usuários com a nuvem, você terá que desativar a [sincronização de diretório para o Microsoft 365](https://docs.microsoft.com/office365/enterprise/turn-off-directory-synchronization).
+    - Use o assistente de sincronização de diretórios para sincronizar seus usuários com a nuvem. Siga as etapas em [Configurar a sincronização de diretório para o Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization) para concluir esse processo. Depois de sincronizar seus usuários com a nuvem, você terá que desativar a [sincronização de diretório para o Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/turn-off-directory-synchronization).
     
     Você também precisará conceder a cada usuário uma licença para a Microsoft 365 para empresas. Você pode fazer isso no [Assistente de configuração](set-up.md) ou pode [atribuir licenças aos usuários](../admin/manage/assign-licenses-to-users.md).
     

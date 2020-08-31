@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Este é um artigo de referência sobre os atributos da conta de usuário do Azure Active Directory que você usa para definir segmentos de barreira de informações.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 75a568b4d54432de0b72c379e83077c222acb687
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 6b6fb9cbbe5840888114ba99a604d16117ec795d
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035047"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47307990"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>Atributos das políticas de barreira de informações
 
@@ -38,7 +38,7 @@ Os atributos listados neste artigo podem ser usados para definir ou editar segme
 
 2. Verifique se as contas de usuário têm valores preenchidos para o (s) atributo (s) que você selecionou na etapa 1. Exibir detalhes da conta de usuário e, se necessário, editar contas de usuário para incluir valores de atributo. 
 
-    - Para editar várias contas (ou usar o PowerShell para editar uma única conta), confira [Configurar Propriedades da conta de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell).
+    - Para editar várias contas (ou usar o PowerShell para editar uma única conta), confira [Configurar Propriedades da conta de usuário com o Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell).
 
     - Para editar uma única conta, confira [Adicionar ou atualizar as informações de perfil de um usuário usando o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
 
@@ -61,7 +61,7 @@ A tabela a seguir lista os atributos que você pode usar com as barreiras de inf
 |---------|---------|
 |Coautores       | Coautores        |
 |Empresa     |Empresa         |
-|Departamento     |Departamento         |
+|Department     |Department         |
 |ExtensionAttribute1 |CustomAttribute1  |
 |ExtensionAttribute2 |CustomAttribute2  |
 |ExtensionAttribute3 |CustomAttribute3  |
@@ -85,12 +85,12 @@ A tabela a seguir lista os atributos que você pode usar com as barreiras de inf
 |MailNickname |Alias |
 |PhysicalDeliveryOfficeName |Office |
 |PostalCode |PostalCode |
-|ProxyAddresses |EndereçosEmail |
+|ProxyAddresses |EmailAddresses |
 |StreetAddress |StreetAddress |
 |TargetAddress |ExternalEmailAddress |
 |UsageLocation |UsageLocation |
 |UserPrincipalName    |UserPrincipalName    |
-|Correio    |WindowsEmailAddress    |
+|Email    |WindowsEmailAddress    |
 |Descrição    |Descrição    |
 |Tattoo    |MemberOfGroup    |
 

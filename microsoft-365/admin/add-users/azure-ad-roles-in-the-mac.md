@@ -17,12 +17,12 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 description: Gerencie essas funções de administrador do Azure no Centro de administração do Microsoft 365.
-ms.openlocfilehash: afb025feb6e867b16be7a844a5f48ef42759b543
-ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
+ms.openlocfilehash: 2295a003fa73cb1805fad3231ff62b37930d0306
+ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46898023"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47289088"
 ---
 # <a name="azure-active-directory-roles-in-the-microsoft-365-admin-center"></a>Funções do Azure Active Directory no Centro de administração do Microsoft 365
 
@@ -62,6 +62,8 @@ Esta é uma lista de todas as funções disponíveis no centro de administraçã
 |Administrador de grupos   |Cria grupos e gerencia todas as configurações de grupos em todos os centros de administração.|
 |Emissor de convite     |    Gerencia os convites de usuário do Microsoft Azure Active Directory B2B.     |
 |Administrador de help desk     | Redefine senhas e autentica novamente para todas as funções de não administradores e algumas funções de administrador, gerencia solicitações de serviço e monitora a integridade do serviço.      |
+|Administrador do Insights     | Gerencia todos os aspectos do aplicativo Microsoft 365 Insights, lê as informações do Azure Active Directory, monitora a integridade do serviço e cria e gerencia solicitações de serviço.      |
+|Administrador empresarial do Insights     | Lê relatórios e informações no aplicativo Microsoft 365 Insights.      |
 |Administrador do Intune     | Acesso total ao Intune, gerencia usuários e dispositivos para associar políticas e cria e gerencia grupos.      |
 |Administrador do Kaizala     |    Acesso total a todos os recursos e dados de gerenciamento do Kaizala e gerencia solicitações de serviço.     |
 |Administrador de licença     |     Atribui e remove licenças de usuários e edita seu local de uso.    |

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como fazer a transição de arquivos herdados para a OME (criptografia de mensagem do Office 365) para sua organização.
-ms.openlocfilehash: e69a0d3f0d8803630ecff976d0060d8a7447b928
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 06c0e41d6c3b7cbf7d06bf6aae82742211bd2542
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817118"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306500"
 ---
 # <a name="legacy-information-for-office-365-message-encryption"></a>Informações herdadas de Criptografia de Mensagens do Office 365
 
@@ -93,7 +93,7 @@ O exemplo a seguir mostra um logotipo personalizado para a ContosoPharma no anex
   
  **Para personalizar as mensagens de email de criptografia e o portal de criptografia com a marca da sua organização**
   
-1. Conecte-se ao Exchange Online usando o PowerShell remoto, conforme descrito em [Connect to Exchange Online using Remote PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-exchange-online-tenants-with-remote-windows-powershell-for-delegated).
+1. Conecte-se ao Exchange Online usando o PowerShell remoto, conforme descrito em [Connect to Exchange Online using Remote PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Use o cmdlet Set-OMEConfiguration conforme descrito aqui: [set-OMEConfiguration](https://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b) ou use a tabela a seguir para orientação.
 
@@ -110,7 +110,7 @@ O exemplo a seguir mostra um logotipo personalizado para a ContosoPharma no anex
   
 1. Conecte-se ao Exchange Online usando o PowerShell remoto, conforme descrito em [Connect to Exchange Online using Remote PowerShell](https://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx).
 
-2. Use o cmdlet Set-OMEConfiguration conforme descrito aqui: [set-OMEConfiguration](https://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b). Para remover as personalizações da marca da sua organização dos valores DisclaimerText, EmailText e PortalText, defina o valor como uma cadeia de caracteres vazia, `""` . Para todos os valores de imagem, como logotipo, defina o valor como `"$null"` .
+2. Use o cmdlet Set-OMEConfiguration conforme descrito aqui: [set-OMEConfiguration](https://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b). Para remover as personalizações da marca da sua organização dos valores DisclaimerText, EmailText e PortalText, defina o valor como uma cadeia de caracteres vazia,  `""` . Para todos os valores de imagem, como logotipo, defina o valor como  `"$null"` .
 
    **Opções de personalização de criptografia**
 
@@ -141,7 +141,7 @@ A tabela a seguir fornece detalhes técnicos para o serviço de criptografia de 
 
 Você tem dúvidas sobre a criptografia de mensagens do Office 365? Veja algumas respostas. Se você não encontrar o que precisa, consulte o [Microsoft Tech Community Forums for Office 365](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365).
   
- **P. meus usuários enviam mensagens de email criptografadas para destinatários fora da organização. Há algo que os destinatários externos precisam fazer para ler e responder a mensagens de email criptografadas com a criptografia de mensagem do Office 365?**
+ **T. Meus usuários enviam mensagens de email criptografadas para destinatários fora da organização. Há algo que os destinatários externos precisam fazer para ler e responder a mensagens de email criptografadas com a criptografia de mensagem do Office 365?**
   
 Destinatários fora da sua organização que recebem mensagens criptografadas pela Microsoft 365 podem exibi-las de duas maneiras:
   
@@ -149,7 +149,7 @@ Destinatários fora da sua organização que recebem mensagens criptografadas pe
 
 - Usando um código de passagem única.
 
- **P. são mensagens criptografadas da Microsoft 365 armazenadas na nuvem ou nos servidores Microsoft?**
+ **T. As mensagens criptografadas da Microsoft 365 estão armazenadas na nuvem ou nos servidores Microsoft?**
   
 Não, as mensagens criptografadas são mantidas no sistema de email do destinatário e, quando o destinatário abre a mensagem, ela é temporariamente publicada para exibição nos servidores Microsoft. As mensagens não são armazenadas lá.
   
@@ -165,11 +165,11 @@ A licença é obrigatória para os usuários da organização que enviam emails 
   
 Não, os destinatários externos não necessitam de uma assinatura para ler ou responder mensagens criptografadas.
   
- **P. como a criptografia de mensagem do Office 365 é diferente dos RMS (Rights Management Services)?**
+ **T. Como a criptografia de mensagem do Office 365 é diferente dos RMS (Rights Management Services)?**
   
 O RMS fornece recursos de proteção de direitos de informação para os emails internos de uma organização fornecendo modelos internos, como: não encaminhar e confidencial da empresa. A Criptografia de Mensagens do Office 365 é compatível com a criptografia de mensagens de email para mensagens enviadas a destinatários externos e internos.
   
- **P. como é a criptografia de mensagem do Office 365 diferente de S/MIME?**
+ **T. Como a criptografia de mensagem do Office 365 é diferente de S/MIME?**
   
 Basicamente, o S/MIME é uma tecnologia de criptografia do lado do cliente e exige uma infraestrutura de publicação e de gerenciamento de certificados complicada. A criptografia de mensagem do Office 365 usa regras de fluxo de emails (também conhecidas como regras de transporte) e não depende de publicação de certificado.
   
@@ -181,11 +181,11 @@ Sim, você pode exibir mensagens no Android e no iOS baixando os aplicativos do 
   
 Sim. As respostas continuam a ser criptografadas durante todo o decurso do thread.
   
- **P. a criptografia de mensagens do Office 365 oferece localização?**
+ **T. A criptografia de mensagem do Office 365 fornece localização?**
   
 O conteúdo HTML e de emails de entrada é localizado com base nas configurações de email do remetente. O portal de exibição é localizado com base nas configurações do navegador do destinatário. No entanto, o próprio corpo (conteúdo) da mensagem criptografada não é localizado.
   
- **P. qual método de criptografia é usado para a criptografia de mensagem do Office 365?**
+ **T. Qual método de criptografia é usado para a criptografia de mensagem do Office 365?**
   
 A criptografia de mensagem do Office 365 usa o Rights Management Services (RMS) como sua infraestrutura de criptografia. O método de criptografia usado depende do local que você obtém as chaves do RMS usadas para criptografar e descriptografar mensagens.
   
@@ -195,19 +195,19 @@ A criptografia de mensagem do Office 365 usa o Rights Management Services (RMS) 
 
 Para obter mais informações, consulte [modos criptográficos do AD RMS](https://go.microsoft.com/fwlink/p/?LinkId=398616).
   
- **P. por que algumas mensagens criptografadas dizem que elas vêm do** Office365@messaging.microsoft.com?
+ **P. Por que algumas mensagens criptografadas dizem que elas vêm do** Office365@messaging.microsoft.com?
   
 Quando uma resposta criptografada é enviada do portal de criptografia ou pelo aplicativo Visualizador de OME, o endereço de email de envio é definido como Office365@messaging.microsoft.com, porque a mensagem criptografada é enviada por meio de um ponto de extremidade da Microsoft. Isso ajuda a impedir que mensagens criptografadas sejam marcadas como spam. O nome exibido no email e o endereço do portal de criptografia não são alterados por causa desse rótulo. Além disso, esse rótulo só se aplica às mensagens enviadas pelo portal, não por qualquer outro cliente de email.
   
- **P. sou um assinante do Exchange Hosted Encryption (EHE). Onde posso saber mais sobre a atualização para a criptografia de mensagem do Office 365?**
+ **T. Eu sou assinante do Exchange Hosted Encryption (EHE). Onde posso saber mais sobre a atualização para a criptografia de mensagem do Office 365?**
   
 Todos os clientes do EHE foram atualizados para a Criptografia de Mensagens do Office 365. Para obter mais informações, visite o [centro de atualização de criptografia hospedado do Exchange](https://go.microsoft.com/fwlink/p/?LinkID=511077).
   
- **P. preciso abrir qualquer URL, endereço IP ou portas no firewall da minha organização para dar suporte à criptografia de mensagens do Office 365?**
+ **T. Preciso abrir qualquer URL, endereço IP ou portas no firewall da minha organização para dar suporte à criptografia de mensagens do Office 365?**
   
-Sim. É preciso adicionar URLs do Exchange Online à lista de permissões da organização para habilitar a autenticação para mensagens criptografadas pela Criptografia de Mensagem do Office 365. Para obter uma lista de URLs do Exchange Online, confira [URLs e intervalos de endereços IP do Microsoft 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+Sim. É preciso adicionar URLs do Exchange Online à lista de permissões da organização para habilitar a autenticação para mensagens criptografadas pela Criptografia de Mensagem do Office 365. Para obter uma lista de URLs do Exchange Online, confira [URLs e intervalos de endereços IP do Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges).
   
- **P. de quantos destinatários posso enviar uma mensagem criptografada da Microsoft 365?**
+ **T. A quantos destinatários posso enviar uma mensagem criptografada 365 da Microsoft?**
   
 O limite de destinatários é de 500 destinatários por mensagem ou, quando combinado após a expansão da lista de distribuição, 11.980 caracteres no campo para da mensagem, o **que** vier primeiro.
   
